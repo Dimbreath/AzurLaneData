@@ -11,7 +11,7 @@ return {
 			voice = "event:/tb/41/tb-41",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "分析模块同步中：指挥官，塞壬的实验场防御舰队出现了。",
+			say = "분석 모듈 동기화 중: 지휘관님, 세이렌의 실험장 방어 함대가 나타났습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

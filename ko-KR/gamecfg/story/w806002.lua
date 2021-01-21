@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "部分海雾与巨型浮冰消失了。",
+			say = "일부 해무와 거대 유빙이 사라졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "使用验场气候调节装置可以消除5x5区域内的所有浮冰，是否确认使用？",
+			say = "실험장 기후 조절 장치를 사용하여 5x5 구역 내의 모든 유빙을 제거할 수 있습니다. 사용하시겠습니까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -19,11 +19,11 @@ return {
 			},
 			options = {
 				{
-					content = "是",
+					content = "확인",
 					flag = 1
 				},
 				{
-					content = "否",
+					content = "취소",
 					flag = 2
 				}
 			}

@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "帮助进行了塞壬能源矩阵测试，任务完成！",
+			say = "세이렌 에너지 매트릭스 테스트를 도왔습니다. 임무 완성!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "结束了与己方舰队的演习，任务完成！",
+			say = "아군 함대와의 연습전 종료. 임무 완성!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

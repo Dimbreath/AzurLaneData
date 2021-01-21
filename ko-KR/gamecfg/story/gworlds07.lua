@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "大型作战已经重置！请重新派遣舰队前往海域中进行新一轮作战行动！",
+			say = "대형 작전이 초기화되었습니다! 함대를 다시 파견하여 새로운 작전을 진행하세요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 			},
 			options = {
 				{
-					content = "确认",
+					content = "확인",
 					flag = 0
 				}
 			}

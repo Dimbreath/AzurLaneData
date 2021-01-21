@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "清理了海域中的塞壬舰队，任务完成！",
+			say = "해역의 세이렌 함대를 정리했습니다. 임무 완성!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "为了避免遭受陷阱区域伤害，舰队已返回起始点。",
+			say = "함정 구역을 피하기 위해, 함대가 입구로 되돌아갑니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			voice = "event:/tb/11/tb-11",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "建议：规避陷阱区域，谨慎前行。",
+			say = "권장: 함정 구역을 회피하여 조심히 나아가세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

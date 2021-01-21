@@ -272,7 +272,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actorName = "分析仪",
+			actorName = "분석기",
 			say = "데이터 분석 이상————————————",
 			flashout = {
 				dur = 0.5,
@@ -301,7 +301,7 @@ return {
 			}
 		},
 		{
-			actorName = "分析仪",
+			actorName = "분석기",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,

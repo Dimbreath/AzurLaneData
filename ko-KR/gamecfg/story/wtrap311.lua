@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "警告：指挥官，遭受了异常电磁干扰，G.M系统显示暂时失效。",
+			say = "경고: 지휘관님, 이상 전자 교란을 받았습니다. G.M 시스템이 효력을 잃었습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

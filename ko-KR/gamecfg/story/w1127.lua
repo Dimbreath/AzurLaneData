@@ -18,7 +18,7 @@ return {
 			},
 			options = {
 				{
-					content = "了解",
+					content = "알았어",
 					flag = 1
 				}
 			}

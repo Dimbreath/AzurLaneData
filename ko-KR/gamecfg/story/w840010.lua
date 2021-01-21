@@ -11,7 +11,7 @@ return {
 			voice = "event:/tb/11/tb-11",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "分析模块同步中：指挥官，内层洋流的方向已经发生了变化。",
+			say = "분석 모듈 동기화 중: 지휘관님, 내부 해류의 방향이 변했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

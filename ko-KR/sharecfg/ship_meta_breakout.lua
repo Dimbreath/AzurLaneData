@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.ship_meta_breakout = {
 	[9707011] = {
-		breakout_view = "习得技能【陨敌之炬】/所有鱼雷机+1/鱼雷机效率提高5%",
+		breakout_view = "스킬 [격침의 횃불] 습득/모든 뇌격기+1/뇌격기 효율 5% 상승",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -18,7 +18,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9707012] = {
-		breakout_view = "机库容量+1/所有战斗机+1/鱼雷机效率提高10%",
+		breakout_view = "격납고 용량 +1/모든 전투기 +1/뇌격기 효율 10% 상승",
 		item2 = 21001,
 		pre_id = 9707011,
 		repair = 0,
@@ -37,7 +37,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9707013] = {
-		breakout_view = "【陨敌之炬】升级/所有舰载机+1/鱼雷机效率提高15%",
+		breakout_view = "[격침의 횃불] 승급/모든 함재기 +1/뇌격기 효율 15% 상승",
 		item2 = 21001,
 		pre_id = 9707012,
 		repair = 0,
@@ -56,7 +56,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9707014] = {
-		breakout_view = "无",
+		breakout_view = "없음",
 		item2 = 21001,
 		pre_id = 9707013,
 		repair = 0,

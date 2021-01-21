@@ -11,7 +11,7 @@ return {
 			voice = "event:/tb/16/tb-16",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "警告：基于不明原因，海域中出现了大量浮冰，请注意前进航线。",
+			say = "경고: 불분명한 원인으로 해역에 대량의 유빙이 출현했습니다. 항행에 주의하세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

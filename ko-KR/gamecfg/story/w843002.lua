@@ -11,7 +11,7 @@ return {
 			voice = "event:/tb/39/tb-39",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "分析模块同步中：指挥官，海域中的部分区域重新凝结为了浮冰。",
+			say = "분석 모듈 동기화 중: 지휘관님, 해역의 일부 구역에 유빙이 다시 생겨났습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

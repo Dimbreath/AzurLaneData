@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "使用舰队指令模块-舰队部署，可以部署潜艇编队进入NA海域。",
+			say = "함대 지령 모듈-함대 배치를 사용하여 잠수함 함대를 NA 해역에 배치할 수 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 			},
 			options = {
 				{
-					content = "确认",
+					content = "확인",
 					flag = 0
 				}
 			}

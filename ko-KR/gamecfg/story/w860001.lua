@@ -8,7 +8,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "使用蓝色区域控制装置可以改变海域中蓝色标识区域上障碍物的状态，是否确认使用？",
+			say = "블루존 통제 장치를 사용하여 해역 내 블루 식별 구역의 장애물 상태를 바꿀 수 있습니다. 사용하시겠습니까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -19,11 +19,11 @@ return {
 			},
 			options = {
 				{
-					content = "是",
+					content = "확인",
 					flag = 1
 				},
 				{
-					content = "否",
+					content = "취소",
 					flag = 2
 				}
 			}

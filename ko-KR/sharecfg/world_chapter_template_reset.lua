@@ -4,7 +4,7 @@ pg.world_chapter_template_reset = {
 		transport = 1,
 		transport_colormask = 1,
 		id = 8000,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>NY港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "세이렌 실험장을 벗어나 <color=#92fc63>NY항</color> 근해로 돌아가시겠습니까?(이탈 후에도 실험장 입구는 존재하며, 재도전 시 초기 상태로 초기화됩니다.)",
 		reset_map = {
 			800
 		},
@@ -16,7 +16,7 @@ pg.world_chapter_template_reset = {
 		transport = 1,
 		transport_colormask = 1,
 		id = 8030,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>NY港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "세이렌 실험장을 벗어나 <color=#92fc63>NY항</color> 근해로 돌아가시겠습니까?(이탈 후에도 실험장 입구는 존재하며, 재도전 시 초기 상태로 초기화됩니다.)",
 		reset_map = {
 			803
 		},
@@ -28,7 +28,7 @@ pg.world_chapter_template_reset = {
 		transport = 1,
 		transport_colormask = 1,
 		id = 8060,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>NY港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "세이렌 실험장을 벗어나 <color=#92fc63>NY항</color> 근해로 돌아가시겠습니까?(이탈 후에도 실험장 입구는 존재하며, 재도전 시 초기 상태로 초기화됩니다.)",
 		reset_map = {
 			806
 		},
@@ -40,7 +40,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 8090,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>NY港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "세이렌 실험장을 벗어나 <color=#92fc63>NY항</color> 근해로 돌아가시겠습니까?(이탈 후에도 실험장 입구는 존재하며, 재도전 시 초기 상태로 초기화됩니다.)",
 		reset_map = {
 			809
 		},
@@ -52,7 +52,7 @@ pg.world_chapter_template_reset = {
 		transport = 2,
 		transport_colormask = 2,
 		id = 8200,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "세이렌 실험장을 벗어나 <color=#92fc63>리버풀항</color> 근해로 돌아가시겠습니까?(이탈 후에도 실험장 입구는 존재하며, 재도전 시 초기 상태로 초기화됩니다.)",
 		reset_map = {
 			820
 		},
@@ -64,7 +64,7 @@ pg.world_chapter_template_reset = {
 		transport = 2,
 		transport_colormask = 2,
 		id = 8230,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "세이렌 실험장을 벗어나 <color=#92fc63>리버풀항</color> 근해로 돌아가시겠습니까?(이탈 후에도 실험장 입구는 존재하며, 재도전 시 초기 상태로 초기화됩니다.)",
 		reset_map = {
 			823
 		},
@@ -76,7 +76,7 @@ pg.world_chapter_template_reset = {
 		transport = 2,
 		transport_colormask = 2,
 		id = 8260,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "세이렌 실험장을 벗어나 <color=#92fc63>리버풀항</color> 근해로 돌아가시겠습니까?(이탈 후에도 실험장 입구는 존재하며, 재도전 시 초기 상태로 초기화됩니다.)",
 		reset_map = {
 			826
 		},
@@ -88,7 +88,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 8290,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "세이렌 실험장을 벗어나 <color=#92fc63>리버풀항</color> 근해로 돌아가시겠습니까?(이탈 후에도 실험장 입구는 존재하며, 재도전 시 초기 상태로 초기화됩니다.)",
 		reset_map = {
 			829
 		},
@@ -100,7 +100,7 @@ pg.world_chapter_template_reset = {
 		transport = 2,
 		transport_colormask = 2,
 		id = 8400,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "세이렌 실험장을 벗어나 <color=#92fc63>리버풀항</color> 근해로 돌아가시겠습니까?(이탈 후에도 실험장 입구는 존재하며, 재도전 시 초기 상태로 초기화됩니다.)",
 		reset_map = {
 			840,
 			841
@@ -113,7 +113,7 @@ pg.world_chapter_template_reset = {
 		transport = 2,
 		transport_colormask = 2,
 		id = 8410,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "세이렌 실험장을 벗어나 <color=#92fc63>리버풀항</color> 근해로 돌아가시겠습니까?(이탈 후에도 실험장 입구는 존재하며, 재도전 시 초기 상태로 초기화됩니다.)",
 		reset_map = {
 			840,
 			841
@@ -126,7 +126,7 @@ pg.world_chapter_template_reset = {
 		transport = 2,
 		transport_colormask = 2,
 		id = 8430,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "세이렌 실험장을 벗어나 <color=#92fc63>리버풀항</color> 근해로 돌아가시겠습니까?(이탈 후에도 실험장 입구는 존재하며, 재도전 시 초기 상태로 초기화됩니다.)",
 		reset_map = {
 			843,
 			844
@@ -139,7 +139,7 @@ pg.world_chapter_template_reset = {
 		transport = 2,
 		transport_colormask = 2,
 		id = 8440,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "세이렌 실험장을 벗어나 <color=#92fc63>리버풀항</color> 근해로 돌아가시겠습니까?(이탈 후에도 실험장 입구는 존재하며, 재도전 시 초기 상태로 초기화됩니다.)",
 		reset_map = {
 			843,
 			844
@@ -152,7 +152,7 @@ pg.world_chapter_template_reset = {
 		transport = 2,
 		transport_colormask = 2,
 		id = 8460,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "세이렌 실험장을 벗어나 <color=#92fc63>리버풀항</color> 근해로 돌아가시겠습니까?(이탈 후에도 실험장 입구는 존재하며, 재도전 시 초기 상태로 초기화됩니다.)",
 		reset_map = {
 			846,
 			847
@@ -165,7 +165,7 @@ pg.world_chapter_template_reset = {
 		transport = 2,
 		transport_colormask = 2,
 		id = 8470,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "세이렌 실험장을 벗어나 <color=#92fc63>리버풀항</color> 근해로 돌아가시겠습니까?(이탈 후에도 실험장 입구는 존재하며, 재도전 시 초기 상태로 초기화됩니다.)",
 		reset_map = {
 			846,
 			847
@@ -178,7 +178,7 @@ pg.world_chapter_template_reset = {
 		transport = 2,
 		transport_colormask = 2,
 		id = 8490,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "세이렌 실험장을 벗어나 <color=#92fc63>리버풀항</color> 근해로 돌아가시겠습니까?(이탈 후에도 실험장 입구는 존재하며, 재도전 시 초기 상태로 초기화됩니다.)",
 		reset_map = {
 			849,
 			850
@@ -191,7 +191,7 @@ pg.world_chapter_template_reset = {
 		transport = 2,
 		transport_colormask = 2,
 		id = 8500,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "세이렌 실험장을 벗어나 <color=#92fc63>리버풀항</color> 근해로 돌아가시겠습니까?(이탈 후에도 실험장 입구는 존재하며, 재도전 시 초기 상태로 초기화됩니다.)",
 		reset_map = {
 			849,
 			850
@@ -204,7 +204,7 @@ pg.world_chapter_template_reset = {
 		transport = 2,
 		transport_colormask = 2,
 		id = 8600,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "세이렌 실험장을 벗어나 <color=#92fc63>리버풀항</color> 근해로 돌아가시겠습니까?(이탈 후에도 실험장 입구는 존재하며, 재도전 시 초기 상태로 초기화됩니다.)",
 		reset_map = {
 			860
 		},
@@ -216,7 +216,7 @@ pg.world_chapter_template_reset = {
 		transport = 2,
 		transport_colormask = 2,
 		id = 8630,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "세이렌 실험장을 벗어나 <color=#92fc63>리버풀항</color> 근해로 돌아가시겠습니까?(이탈 후에도 실험장 입구는 존재하며, 재도전 시 초기 상태로 초기화됩니다.)",
 		reset_map = {
 			863
 		},
@@ -228,7 +228,7 @@ pg.world_chapter_template_reset = {
 		transport = 2,
 		transport_colormask = 2,
 		id = 8660,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "세이렌 실험장을 벗어나 <color=#92fc63>리버풀항</color> 근해로 돌아가시겠습니까?(이탈 후에도 실험장 입구는 존재하며, 재도전 시 초기 상태로 초기화됩니다.)",
 		reset_map = {
 			866
 		},
@@ -245,7 +245,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 8690,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "세이렌 실험장을 벗어나 <color=#92fc63>리버풀항</color> 근해로 돌아가시겠습니까?(이탈 후에도 실험장 입구는 존재하며, 재도전 시 초기 상태로 초기화됩니다.)",
 		reset_map = {
 			869
 		},
@@ -257,7 +257,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 110000,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -297,7 +297,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 110010,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -337,7 +337,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 110020,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -377,7 +377,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 110030,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -417,7 +417,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 110040,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -457,7 +457,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 110050,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -497,7 +497,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 110060,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -537,7 +537,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 110070,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -577,7 +577,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 110080,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -617,7 +617,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 110090,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -657,7 +657,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 111000,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -697,7 +697,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 111010,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -737,7 +737,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 111020,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -777,7 +777,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 111030,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -817,7 +817,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 111040,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -857,7 +857,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 111050,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -897,7 +897,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 111060,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -937,7 +937,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 111070,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -977,7 +977,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 111080,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1017,7 +1017,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 111090,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1057,7 +1057,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 112000,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1097,7 +1097,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 112010,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1137,7 +1137,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 112020,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1177,7 +1177,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 112030,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1217,7 +1217,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 112040,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1257,7 +1257,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 112050,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1297,7 +1297,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 112060,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1337,7 +1337,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 112070,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1377,7 +1377,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 112080,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1417,7 +1417,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 112090,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1457,7 +1457,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 113000,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1497,7 +1497,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 113010,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1537,7 +1537,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 113020,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1577,7 +1577,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 113030,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1617,7 +1617,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 113040,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1657,7 +1657,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 113050,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1697,7 +1697,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 113060,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1737,7 +1737,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 113070,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1777,7 +1777,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 113080,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1817,7 +1817,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 113090,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1857,7 +1857,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 114000,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1897,7 +1897,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 114010,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1937,7 +1937,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 114020,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1977,7 +1977,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 114030,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2017,7 +2017,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 114040,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2057,7 +2057,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 114050,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2097,7 +2097,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 114060,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2137,7 +2137,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 114070,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2177,7 +2177,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 114080,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2217,7 +2217,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 114090,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2257,7 +2257,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 115000,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2297,7 +2297,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 115010,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2337,7 +2337,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 115020,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2377,7 +2377,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 115030,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2417,7 +2417,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 115040,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2457,7 +2457,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 115050,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2497,7 +2497,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 115060,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2537,7 +2537,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 115070,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2577,7 +2577,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 115080,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2617,7 +2617,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 115090,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2657,7 +2657,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 120000,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -2697,7 +2697,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 120010,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -2737,7 +2737,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 120020,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -2777,7 +2777,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 120030,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -2817,7 +2817,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 120040,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -2857,7 +2857,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 120050,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -2897,7 +2897,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 120060,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -2937,7 +2937,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 120070,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -2977,7 +2977,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 120080,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3017,7 +3017,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 120090,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3057,7 +3057,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 121000,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3097,7 +3097,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 121010,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3137,7 +3137,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 121020,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3177,7 +3177,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 121030,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3217,7 +3217,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 121040,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3257,7 +3257,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 121050,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3297,7 +3297,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 121060,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3337,7 +3337,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 121070,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3377,7 +3377,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 121080,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3417,7 +3417,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 121090,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3457,7 +3457,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 122000,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3497,7 +3497,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 122010,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3537,7 +3537,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 122020,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3577,7 +3577,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 122030,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3617,7 +3617,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 122040,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3657,7 +3657,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 122050,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3697,7 +3697,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 122060,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3737,7 +3737,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 122070,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3777,7 +3777,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 122080,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3817,7 +3817,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 122090,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3857,7 +3857,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 123000,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3897,7 +3897,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 123010,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3937,7 +3937,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 123020,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3977,7 +3977,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 123030,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4017,7 +4017,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 123040,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4057,7 +4057,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 123050,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4097,7 +4097,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 123060,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4137,7 +4137,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 123070,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4177,7 +4177,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 123080,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4217,7 +4217,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 123090,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4257,7 +4257,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 124000,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4297,7 +4297,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 124010,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4337,7 +4337,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 124020,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4377,7 +4377,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 124030,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4417,7 +4417,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 124040,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4457,7 +4457,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 124050,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4497,7 +4497,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 124060,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4537,7 +4537,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 124070,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4577,7 +4577,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 124080,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4617,7 +4617,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 124090,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4657,7 +4657,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 125000,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4697,7 +4697,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 125010,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4737,7 +4737,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 125020,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4777,7 +4777,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 125030,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4817,7 +4817,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 125040,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4857,7 +4857,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 125050,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4897,7 +4897,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 125060,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4937,7 +4937,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 125070,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4977,7 +4977,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 125080,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -5017,7 +5017,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 125090,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -5057,7 +5057,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 130000,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5097,7 +5097,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 130010,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5137,7 +5137,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 130020,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5177,7 +5177,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 130030,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5217,7 +5217,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 130040,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5257,7 +5257,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 130050,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5297,7 +5297,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 130060,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5337,7 +5337,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 130070,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5377,7 +5377,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 130080,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5417,7 +5417,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 130090,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5457,7 +5457,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 131000,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5497,7 +5497,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 131010,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5537,7 +5537,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 131020,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5577,7 +5577,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 131030,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5617,7 +5617,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 131040,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5657,7 +5657,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 131050,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5697,7 +5697,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 131060,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5737,7 +5737,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 131070,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5777,7 +5777,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 131080,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5817,7 +5817,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 131090,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5857,7 +5857,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 132000,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5897,7 +5897,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 132010,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5937,7 +5937,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 132020,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5977,7 +5977,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 132030,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6017,7 +6017,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 132040,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6057,7 +6057,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 132050,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6097,7 +6097,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 132060,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6137,7 +6137,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 132070,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6177,7 +6177,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 132080,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6217,7 +6217,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 132090,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6257,7 +6257,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 133000,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6297,7 +6297,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 133010,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6337,7 +6337,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 133020,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6377,7 +6377,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 133030,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6417,7 +6417,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 133040,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6457,7 +6457,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 133050,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6497,7 +6497,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 133060,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6537,7 +6537,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 133070,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6577,7 +6577,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 133080,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6617,7 +6617,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 133090,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6657,7 +6657,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 134000,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6697,7 +6697,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 134010,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6737,7 +6737,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 134020,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6777,7 +6777,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 134030,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6817,7 +6817,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 134040,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6857,7 +6857,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 134050,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6897,7 +6897,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 134060,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6937,7 +6937,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 134070,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6977,7 +6977,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 134080,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7017,7 +7017,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 134090,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7057,7 +7057,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 135000,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7097,7 +7097,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 135010,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7137,7 +7137,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 135020,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7177,7 +7177,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 135030,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7217,7 +7217,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 135040,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7257,7 +7257,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 135050,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7297,7 +7297,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 135060,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7337,7 +7337,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 135070,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7377,7 +7377,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 135080,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7417,7 +7417,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 135090,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7457,7 +7457,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 140000,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7467,7 +7467,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 140004,
-		tip = "是否确定从深渊海域离开？\n（警告：离开后将无法再次返回挑战强敌！）",
+		tip = "심연 해역에서 벗어나시겠습니까?\n(경고: 이탈 후 다시 돌아와 강적에게 도전할 수 없습니다!)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7477,7 +7477,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 140005,
-		tip = "是否确定从深渊海域离开？\n（警告：离开后将无法再次返回挑战强敌！）",
+		tip = "심연 해역에서 벗어나시겠습니까?\n(경고: 이탈 후 다시 돌아와 강적에게 도전할 수 없습니다!)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7487,7 +7487,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 140006,
-		tip = "是否确定从深渊海域离开？\n（警告：离开后将无法再次返回挑战强敌！）",
+		tip = "심연 해역에서 벗어나시겠습니까?\n(경고: 이탈 후 다시 돌아와 강적에게 도전할 수 없습니다!)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7497,7 +7497,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 140310,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7507,7 +7507,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 140320,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7517,7 +7517,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 140330,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7527,7 +7527,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 140340,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7537,7 +7537,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 140350,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7547,7 +7547,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 140360,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7557,7 +7557,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 140370,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7567,7 +7567,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 140380,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7577,7 +7577,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 140390,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7587,7 +7587,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 140410,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7597,7 +7597,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 140420,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7607,7 +7607,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 140430,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7617,7 +7617,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 140440,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7627,7 +7627,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 140450,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7637,7 +7637,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 140460,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7647,7 +7647,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 140470,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7657,7 +7657,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 140480,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7667,7 +7667,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 140490,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7677,7 +7677,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 141510,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7687,7 +7687,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 141520,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7697,7 +7697,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 141530,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7707,7 +7707,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 141540,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7717,7 +7717,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 141550,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7727,7 +7727,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 141560,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7737,7 +7737,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 141570,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7747,7 +7747,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 141580,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7757,7 +7757,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 141590,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7767,7 +7767,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 141610,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7777,7 +7777,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 141620,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7787,7 +7787,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 141630,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7797,7 +7797,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 141640,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7807,7 +7807,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 141650,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7817,7 +7817,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 141660,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7827,7 +7827,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 141670,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7837,7 +7837,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 141680,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7847,7 +7847,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 141690,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7857,7 +7857,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 141710,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7867,7 +7867,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 141720,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7877,7 +7877,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 141730,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7887,7 +7887,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 141740,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7897,7 +7897,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 890140,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7907,7 +7907,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 890150,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7917,7 +7917,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 890160,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7927,7 +7927,7 @@ pg.world_chapter_template_reset = {
 		transport = 0,
 		transport_colormask = 0,
 		id = 890170,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "비밀 해역에서 벗어나시겠습니까?\n(이탈 후 다시 돌아올 수 없습니다.)",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},

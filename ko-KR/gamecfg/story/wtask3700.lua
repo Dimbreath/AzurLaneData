@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "友方的商船被塞壬包围了！",
+			say = "아군의 상선이 세이렌에게 포위당했습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "因为黄色区域没有全部触发，舰队回到了起始点。",
+			say = "옐로우존이 모두 발동되지 않아, 함대가 입구로 되돌아갑니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

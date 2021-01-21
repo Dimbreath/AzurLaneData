@@ -11,7 +11,7 @@ return {
 			voice = "event:/tb/12/tb-12",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指令已确认：现在开始执行实验场环境解析进行任务。",
+			say = "지령 확인: 실험장 환경 분석 및 임무 진행 시작.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			voice = "event:/tb/17/tb-17",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "分析模块运行中：正在解析塞壬实验场信息………",
+			say = "분석 모듈 작동 중: 현재 세이렌 실험장 정보 분석 중......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

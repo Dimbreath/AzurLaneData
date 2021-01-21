@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "是否开始运输能源矩阵？",
+			say = "에너지 매트릭스를 운반하시겠습니까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,11 +18,11 @@ return {
 			},
 			options = {
 				{
-					content = "是",
+					content = "확인",
 					flag = 0
 				},
 				{
-					content = "否",
+					content = "취소",
 					flag = 1
 				}
 			}

@@ -6,7 +6,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "",
 		id = 1,
 		target_num = 1,
-		desc = "进行1次演习"
+		desc = "연습전 1회 진행"
 	},
 	{
 		target_id = "0",
@@ -14,7 +14,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "",
 		id = 2,
 		target_num = 1,
-		desc = "进行1次委托 "
+		desc = "의뢰 1회 진행"
 	},
 	{
 		target_id = "0",
@@ -22,7 +22,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "",
 		id = 3,
 		target_num = 1,
-		desc = "舰队出征，获得1次胜利"
+		desc = "함대를 출격하여 승리 1회"
 	},
 	{
 		target_id = "0",
@@ -30,7 +30,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "",
 		id = 4,
 		target_num = 1,
-		desc = "击沉任意敌人1艘"
+		desc = "임의의 적 1척 격침"
 	},
 	{
 		target_id = "0",
@@ -38,7 +38,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "",
 		id = 5,
 		target_num = 1,
-		desc = "大型作战内获得1次胜利"
+		desc = "대형 작전에서 승리 1회"
 	},
 	{
 		target_id = "0",
@@ -46,7 +46,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "",
 		id = 6,
 		target_num = 1,
-		desc = "大型作战内击沉任意敌人1艘"
+		desc = "대형 작전에서 임의의 적 1척 격침"
 	},
 	{
 		target_id = "0",
@@ -54,7 +54,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "",
 		id = 7,
 		target_num = 1,
-		desc = "完成大型作战港口任务1次"
+		desc = "대형 작전 항구 임무 1회 완료"
 	},
 	[101] = {
 		target_id = "0",
@@ -62,7 +62,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "970701",
 		id = 101,
 		target_num = 1,
-		desc = "使用{namecode:191}获得1次胜利"
+		desc = "히류·META를 사용해 승리 1회"
 	},
 	[102] = {
 		target_id = "30",
@@ -70,7 +70,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "970701",
 		id = 102,
 		target_num = 1,
-		desc = "使用{namecode:191}击破等级>30的敌方1次"
+		desc = "히류·META를 사용해 30 이상 레벨의 적 1회 격파"
 	},
 	[103] = {
 		target_id = "55",
@@ -78,7 +78,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "970701",
 		id = 103,
 		target_num = 1,
-		desc = "使用{namecode:191}击破等级>55的敌方1次"
+		desc = "히류·META를 사용해 55 이상 레벨의 적 1회 격파"
 	},
 	[104] = {
 		target_id = "80",
@@ -86,7 +86,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "970701",
 		id = 104,
 		target_num = 1,
-		desc = "使用{namecode:191}击破等级>80的敌方1次"
+		desc = "히류·META를 사용해 80 이상 레벨의 적 1회 격파"
 	},
 	[105] = {
 		target_id = "100",
@@ -94,7 +94,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "970701",
 		id = 105,
 		target_num = 1,
-		desc = "使用{namecode:191}击破等级>100的敌方1次"
+		desc = "히류·META를 사용해 100 이상 레벨의 적 1회 격파"
 	},
 	[200] = {
 		target_id = "0",
@@ -102,7 +102,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "970701",
 		id = 200,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:191}获得1次胜利"
+		desc = "대형 작전에서 히류·META를 사용해 1회 승리"
 	},
 	[201] = {
 		target_id = "70",
@@ -110,7 +110,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "970701",
 		id = 201,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:191}击破等级>70的敌方1次"
+		desc = "대형 작전에서 히류·META를 사용해 70 이상 레벨의 적 1회 격파"
 	},
 	[202] = {
 		target_id = "90",
@@ -118,7 +118,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "970701",
 		id = 202,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:191}击破等级>90的敌方1次"
+		desc = "대형 작전에서 히류·META를 사용해 90 이상 레벨의 적 1회 격파"
 	},
 	[203] = {
 		target_id = "100",
@@ -126,7 +126,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "970701",
 		id = 203,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:191}击破等级>100的敌方1次"
+		desc = "대형 작전에서 히류·META를 사용해 100 이상 레벨의 적 1회 격파"
 	},
 	[301] = {
 		target_id = "0",
@@ -134,7 +134,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "",
 		id = 301,
 		target_num = 1,
-		desc = "解析信标1次"
+		desc = "비콘 분석 1회"
 	},
 	[302] = {
 		target_id = "0",
@@ -142,7 +142,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "",
 		id = 302,
 		target_num = 1,
-		desc = "参与信标战斗1次"
+		desc = "비콘 전투 1회 참여"
 	},
 	all = {
 		1,

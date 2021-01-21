@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "回收了海域中散落的资源，任务完成！",
+			say = "해역의 흩어진 자원을 회수했습니다. 임무 완성!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

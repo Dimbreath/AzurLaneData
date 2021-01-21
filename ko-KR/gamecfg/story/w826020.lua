@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "无法向该方向继续移动了！",
+			say = "이 방향으로 계속 이동할 수 없습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

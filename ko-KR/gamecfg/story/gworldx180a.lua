@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "「大型作战」已重置，开启了特别兑换商店。",
+			say = "「대형 작전」 초기화 완료. 특별 교환 상점 오픈.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

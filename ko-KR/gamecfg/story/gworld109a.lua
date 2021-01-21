@@ -16,7 +16,7 @@ return {
 			bgm = "level02",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥官，欢迎来到对余烬作战指挥室。下面由我向您说明一下余烬信标与对余烬作战的相关事宜。",
+			say = "잔해 작전 지휘실에 오신 것을 환영합니다, 지휘관님. 잔해 비콘과 잔해 작전에 관련한 내용을 설명드리겠습니다.",
 			flashin = {
 				stopbgm = true,
 				black = true,
@@ -43,7 +43,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "余烬舰队的舰装内部拥有独特结构，因此可以长期躲避在我方的雷达显示之外。",
+			say = "잔해 함대의 장비는 매우 독특하기 때문에 아군 레이더에서 오랜 시간 동안 몸을 숨길 수 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "科研部门在最近的一次测试中，解析出一种在余烬战斗过程中舰装释放出的独特信号特征。",
+			say = "최근 연구팀의 테스트 결과, 잔해와의 전투 중에서 장비가 발산하는 독특한 신호를 알아냈습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥部将其称呼为余烬信标。通过对收集到的余烬信标进行解析，舰队就可以在第一时间发现海域中正处于交战状态的余烬成员。",
+			say = "지휘부는 이것을 \"잔해 비콘\"이라고 명명했습니다. 수집한 잔해 비콘을 분석해 최초로 해역에서 현재 교전 중인 잔해를 발견했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "虽然余烬在现阶段尚未对作战造成严重危害，但余烬的存在本身就是影响作战成功的不稳定因素。",
+			say = "현 상황에서 잔해가 작전에 심각한 피해를 주지는 않았지만, 그 존재 자체가 작전의 성공에 영향을 미치는 불안정한 요소입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥部希望您能带领舰队消除余烬的威胁。",
+			say = "지휘부에서는 잔해의 위협을 제거하기를 바랍니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			voice = "event:/tb/11/tb-11",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥官，与余烬进行作战是一件十分危险的事，请您小心。",
+			say = "지휘관님, 잔해와 함께 작전을 수행하는 것은 매우 위험한 일이니 조심하십시오.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,23 +143,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "看来必须要和余烬交战了啊......",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102160,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			blackBg = true,
-			say = "指挥官，指挥部从来没说要以一方消灭另一方的形式消除余烬的威胁哦。",
+			say = "아무래도 잔해와 교전을 피할 수는 없나...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +159,23 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "只是她们从来没有回应过我们的联络请求，现在除了战斗之外也没有别的方式了吧。",
+			say = "지휘관, 지휘부에서는 소멸이라는 방식으로 잔해의 위협을 제거하라고 하지는 않았어.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102160,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			say = "그들이 우리 통신에 반응하지 않았으니 이제 남은 것은 전투 말고는 없겠지만.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			blackBg = true,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "如果余烬真有成为友军的潜质的话，就用战斗来探明她们的本心吧。不是也有不打不相识的说法嘛~",
+			say = "잔해를 아군으로 만들 가능성이 있다면, 일단 전투로서 그 본심을 밝혀야겠지. 주먹으로 인사하라는 말도 있잖아~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "原来如此...如果真的能增进彼此的了解就好了。",
+			say = "그런가... 서로를 이해할 수 있다면 좋을 텐데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "希望她们不是我们真正的敌人......",
+			say = "우리의 진정한 적이 아니기를 바랄 뿐이야...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

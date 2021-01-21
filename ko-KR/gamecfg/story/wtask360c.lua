@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "确保了商船安全，任务完成！",
+			say = "상선의 안전을 확보했습니다. 임무 완성!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

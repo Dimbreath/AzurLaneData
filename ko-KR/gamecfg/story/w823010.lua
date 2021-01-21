@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "塞壬的信息收集装置，目前处于停机状态……",
+			say = "세이렌의 정보 수집 장치는 현재 정지 상태다...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

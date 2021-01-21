@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "清理了海洋中的垃圾！",
+			say = "해양 쓰레기를 정리했습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

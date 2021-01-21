@@ -272,7 +272,7 @@ pg.world_event_data = {
 	},
 	[110] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -312,7 +312,7 @@ pg.world_event_data = {
 	},
 	[115] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -353,7 +353,7 @@ pg.world_event_data = {
 	},
 	[120] = {
 		enemyicon = 0,
-		name = "塞壬棋子",
+		name = "세이렌 장기말",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -399,7 +399,7 @@ pg.world_event_data = {
 	},
 	[121] = {
 		enemyicon = 0,
-		name = "塞壬棋子",
+		name = "세이렌 장기말",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -446,7 +446,7 @@ pg.world_event_data = {
 	},
 	[122] = {
 		enemyicon = 0,
-		name = "塞壬棋子",
+		name = "세이렌 장기말",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -493,7 +493,7 @@ pg.world_event_data = {
 	},
 	[123] = {
 		enemyicon = 0,
-		name = "塞壬棋子",
+		name = "세이렌 장기말",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -533,7 +533,7 @@ pg.world_event_data = {
 	},
 	[124] = {
 		enemyicon = 0,
-		name = "塞壬棋子",
+		name = "세이렌 장기말",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -573,7 +573,7 @@ pg.world_event_data = {
 	},
 	[125] = {
 		enemyicon = 3,
-		name = "追迹者III型",
+		name = "체이서III형",
 		scale = 38,
 		visuality = 0,
 		is_scanevent = 1,
@@ -631,7 +631,7 @@ pg.world_event_data = {
 	},
 	[126] = {
 		enemyicon = 3,
-		name = "追迹者III型",
+		name = "체이서III형",
 		scale = 38,
 		visuality = 0,
 		is_scanevent = 1,
@@ -689,7 +689,7 @@ pg.world_event_data = {
 	},
 	[127] = {
 		enemyicon = 0,
-		name = "塞壬棋子",
+		name = "세이렌 장기말",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -729,7 +729,7 @@ pg.world_event_data = {
 	},
 	[128] = {
 		enemyicon = 0,
-		name = "塞壬棋子",
+		name = "세이렌 장기말",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -1019,7 +1019,7 @@ pg.world_event_data = {
 	},
 	[150] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -1054,7 +1054,7 @@ pg.world_event_data = {
 	},
 	[151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -1089,7 +1089,7 @@ pg.world_event_data = {
 	},
 	[160] = {
 		enemyicon = 0,
-		name = "传送装置",
+		name = "전송 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -1268,7 +1268,7 @@ pg.world_event_data = {
 	},
 	[320] = {
 		enemyicon = 0,
-		name = "特殊资源",
+		name = "특수 자원",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -1303,7 +1303,7 @@ pg.world_event_data = {
 	},
 	[321] = {
 		enemyicon = 0,
-		name = "特殊资源",
+		name = "특수 자원",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -1338,7 +1338,7 @@ pg.world_event_data = {
 	},
 	[322] = {
 		enemyicon = 0,
-		name = "特殊资源",
+		name = "특수 자원",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -1375,7 +1375,7 @@ pg.world_event_data = {
 	},
 	[323] = {
 		enemyicon = 0,
-		name = "特殊资源",
+		name = "특수 자원",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -1561,7 +1561,7 @@ pg.world_event_data = {
 	},
 	[411] = {
 		enemyicon = 0,
-		name = "集装箱",
+		name = "컨테이너",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -1638,7 +1638,7 @@ pg.world_event_data = {
 	},
 	[422] = {
 		enemyicon = 0,
-		name = "残骸",
+		name = "잔해",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -1679,7 +1679,7 @@ pg.world_event_data = {
 	},
 	[423] = {
 		enemyicon = 0,
-		name = "残骸",
+		name = "잔해",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -1720,7 +1720,7 @@ pg.world_event_data = {
 	},
 	[430] = {
 		enemyicon = 0,
-		name = "残骸",
+		name = "잔해",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -1810,7 +1810,7 @@ pg.world_event_data = {
 	},
 	[432] = {
 		enemyicon = 2,
-		name = "友方舰只",
+		name = "아군 함선",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -3663,7 +3663,7 @@ pg.world_event_data = {
 	},
 	[1101] = {
 		enemyicon = 0,
-		name = "塞壬信息收集装置",
+		name = "세이렌 정보 수집 장치",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 1,
@@ -3699,7 +3699,7 @@ pg.world_event_data = {
 	},
 	[1106] = {
 		enemyicon = 0,
-		name = "塞壬信息收集装置",
+		name = "세이렌 정보 수집 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -3735,7 +3735,7 @@ pg.world_event_data = {
 	},
 	[1107] = {
 		enemyicon = 0,
-		name = "塞壬信息收集装置",
+		name = "세이렌 정보 수집 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -3774,7 +3774,7 @@ pg.world_event_data = {
 	},
 	[1108] = {
 		enemyicon = 0,
-		name = "塞壬信息收集装置",
+		name = "세이렌 정보 수집 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -3813,7 +3813,7 @@ pg.world_event_data = {
 	},
 	[1109] = {
 		enemyicon = 0,
-		name = "塞壬信息收集装置",
+		name = "세이렌 정보 수집 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -3852,7 +3852,7 @@ pg.world_event_data = {
 	},
 	[1110] = {
 		enemyicon = 0,
-		name = "塞壬信息收集装置（已损坏）",
+		name = "세이렌 정보 수집 장치(고장)",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -3927,7 +3927,7 @@ pg.world_event_data = {
 	},
 	[1401] = {
 		enemyicon = 0,
-		name = "塞壬探测装置",
+		name = "세이렌 탐지 장치",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 1,
@@ -3969,7 +3969,7 @@ pg.world_event_data = {
 	},
 	[1406] = {
 		enemyicon = 0,
-		name = "塞壬探测装置",
+		name = "세이렌 탐지 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -4005,7 +4005,7 @@ pg.world_event_data = {
 	},
 	[1407] = {
 		enemyicon = 0,
-		name = "塞壬探测装置",
+		name = "세이렌 탐지 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -4043,7 +4043,7 @@ pg.world_event_data = {
 	},
 	[1408] = {
 		enemyicon = 0,
-		name = "塞壬探测装置",
+		name = "세이렌 탐지 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -4116,7 +4116,7 @@ pg.world_event_data = {
 	},
 	[1410] = {
 		enemyicon = 0,
-		name = "塞壬探测装置（已损坏）",
+		name = "세이렌 탐지 장치(고장)",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -4154,7 +4154,7 @@ pg.world_event_data = {
 	},
 	[1501] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -4197,7 +4197,7 @@ pg.world_event_data = {
 	},
 	[1502] = {
 		enemyicon = 0,
-		name = "特殊隐藏资源",
+		name = "특수 히든 자원",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -4242,7 +4242,7 @@ pg.world_event_data = {
 	},
 	[1521] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -4286,7 +4286,7 @@ pg.world_event_data = {
 	},
 	[1522] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -4330,7 +4330,7 @@ pg.world_event_data = {
 	},
 	[1523] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -4374,7 +4374,7 @@ pg.world_event_data = {
 	},
 	[1524] = {
 		enemyicon = 3,
-		name = "探索者I型",
+		name = "스캐빈저I형",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -4420,7 +4420,7 @@ pg.world_event_data = {
 	},
 	[1525] = {
 		enemyicon = 3,
-		name = "追迹者I型",
+		name = "체이서I형",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -4466,7 +4466,7 @@ pg.world_event_data = {
 	},
 	[1526] = {
 		enemyicon = 3,
-		name = "领洋者I型",
+		name = "네비게이터I형",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -4512,7 +4512,7 @@ pg.world_event_data = {
 	},
 	[1527] = {
 		enemyicon = 3,
-		name = "破局者I型",
+		name = "스매셔I형",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -4558,7 +4558,7 @@ pg.world_event_data = {
 	},
 	[1528] = {
 		enemyicon = 3,
-		name = "执棋者I型",
+		name = "컨덕터I형",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -5048,7 +5048,7 @@ pg.world_event_data = {
 	},
 	[1821] = {
 		enemyicon = 2,
-		name = "探索者I型",
+		name = "스캐빈저I형",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -5089,7 +5089,7 @@ pg.world_event_data = {
 	},
 	[1822] = {
 		enemyicon = 2,
-		name = "追迹者I型",
+		name = "체이서I형",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -5130,7 +5130,7 @@ pg.world_event_data = {
 	},
 	[1823] = {
 		enemyicon = 2,
-		name = "领洋者I型",
+		name = "네비게이터I형",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -5171,7 +5171,7 @@ pg.world_event_data = {
 	},
 	[1824] = {
 		enemyicon = 2,
-		name = "破局者I型",
+		name = "스매셔I형",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -5212,7 +5212,7 @@ pg.world_event_data = {
 	},
 	[1825] = {
 		enemyicon = 2,
-		name = "执棋者I型",
+		name = "컨덕터I형",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -5288,7 +5288,7 @@ pg.world_event_data = {
 	},
 	[1901] = {
 		enemyicon = 2,
-		name = "神秘商人",
+		name = "신비한 상인",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -5324,7 +5324,7 @@ pg.world_event_data = {
 	},
 	[1902] = {
 		enemyicon = 3,
-		name = "神秘商人",
+		name = "신비한 상인",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -5415,7 +5415,7 @@ pg.world_event_data = {
 	},
 	[1904] = {
 		enemyicon = 2,
-		name = "神秘商人",
+		name = "신비한 상인",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -5450,7 +5450,7 @@ pg.world_event_data = {
 	},
 	[1905] = {
 		enemyicon = 3,
-		name = "神秘商人",
+		name = "신비한 상인",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -5530,7 +5530,7 @@ pg.world_event_data = {
 	},
 	[5101] = {
 		enemyicon = 0,
-		name = "实验场气候调节装置",
+		name = "실험장 기후 조절 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -5627,7 +5627,7 @@ pg.world_event_data = {
 	},
 	[5103] = {
 		enemyicon = 0,
-		name = "塞壬控制装置（已损坏）",
+		name = "세이렌 통제 장치(고장)",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -5662,7 +5662,7 @@ pg.world_event_data = {
 	},
 	[5104] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -5819,7 +5819,7 @@ pg.world_event_data = {
 	},
 	[5202] = {
 		enemyicon = 0,
-		name = "塞壬海雾控制器",
+		name = "세이렌 해무 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -5917,7 +5917,7 @@ pg.world_event_data = {
 	},
 	[5204] = {
 		enemyicon = 0,
-		name = "塞壬控制装置（已损坏）",
+		name = "세이렌 통제 장치(고장)",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -5952,7 +5952,7 @@ pg.world_event_data = {
 	},
 	[5205] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -6005,7 +6005,7 @@ pg.world_event_data = {
 	},
 	[5300] = {
 		enemyicon = 0,
-		name = "特殊资源",
+		name = "특수 자원",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -6081,7 +6081,7 @@ pg.world_event_data = {
 	},
 	[5401] = {
 		enemyicon = 0,
-		name = "机关",
+		name = "기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -6139,7 +6139,7 @@ pg.world_event_data = {
 	},
 	[5402] = {
 		enemyicon = 0,
-		name = "机关",
+		name = "기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -6191,7 +6191,7 @@ pg.world_event_data = {
 	},
 	[5403] = {
 		enemyicon = 0,
-		name = "机关",
+		name = "기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -6241,7 +6241,7 @@ pg.world_event_data = {
 	},
 	[5404] = {
 		enemyicon = 0,
-		name = "特殊资源",
+		name = "특수 자원",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -6312,7 +6312,7 @@ pg.world_event_data = {
 	},
 	[5501] = {
 		enemyicon = 0,
-		name = "能源矩阵",
+		name = "에너지 매트릭스",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -6369,7 +6369,7 @@ pg.world_event_data = {
 	},
 	[5502] = {
 		enemyicon = 0,
-		name = "能源矩阵卡槽",
+		name = "에너지 매트릭스 슬롯",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -6502,7 +6502,7 @@ pg.world_event_data = {
 	},
 	[5601] = {
 		enemyicon = 3,
-		name = "探索者I型",
+		name = "스캐빈저I형",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -6546,7 +6546,7 @@ pg.world_event_data = {
 	},
 	[5602] = {
 		enemyicon = 3,
-		name = "追迹者I型",
+		name = "체이서I형",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -6590,7 +6590,7 @@ pg.world_event_data = {
 	},
 	[5603] = {
 		enemyicon = 3,
-		name = "领洋者I型",
+		name = "네비게이터I형",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -6634,7 +6634,7 @@ pg.world_event_data = {
 	},
 	[5604] = {
 		enemyicon = 3,
-		name = "破局者I型",
+		name = "스매셔I형",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -6678,7 +6678,7 @@ pg.world_event_data = {
 	},
 	[5605] = {
 		enemyicon = 3,
-		name = "执棋者I型",
+		name = "컨덕터I형",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -6759,7 +6759,7 @@ pg.world_event_data = {
 	},
 	[5701] = {
 		enemyicon = 0,
-		name = "塞壬增援装置",
+		name = "세이렌 증원 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -6801,7 +6801,7 @@ pg.world_event_data = {
 	},
 	[5702] = {
 		enemyicon = 0,
-		name = "塞壬增援装置",
+		name = "세이렌 증원 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -6840,7 +6840,7 @@ pg.world_event_data = {
 	},
 	[5703] = {
 		enemyicon = 0,
-		name = "塞壬增援装置",
+		name = "세이렌 증원 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -6879,7 +6879,7 @@ pg.world_event_data = {
 	},
 	[5704] = {
 		enemyicon = 0,
-		name = "塞壬增援装置",
+		name = "세이렌 증원 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -6918,7 +6918,7 @@ pg.world_event_data = {
 	},
 	[5705] = {
 		enemyicon = 0,
-		name = "塞壬增援装置（已停止）",
+		name = "세이렌 증원 장치(고장)",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -7058,7 +7058,7 @@ pg.world_event_data = {
 	},
 	[5709] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -7096,7 +7096,7 @@ pg.world_event_data = {
 	},
 	[5710] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -7134,7 +7134,7 @@ pg.world_event_data = {
 	},
 	[5711] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -7172,7 +7172,7 @@ pg.world_event_data = {
 	},
 	[5712] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -7244,7 +7244,7 @@ pg.world_event_data = {
 	},
 	[5713] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -7316,7 +7316,7 @@ pg.world_event_data = {
 	},
 	[5714] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -7424,7 +7424,7 @@ pg.world_event_data = {
 	},
 	[5801] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -7513,7 +7513,7 @@ pg.world_event_data = {
 	},
 	[5802] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -7602,7 +7602,7 @@ pg.world_event_data = {
 	},
 	[5803] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -7691,7 +7691,7 @@ pg.world_event_data = {
 	},
 	[5804] = {
 		enemyicon = 0,
-		name = "特殊资源",
+		name = "특수 자원",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -7763,7 +7763,7 @@ pg.world_event_data = {
 	},
 	[5901] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -7799,7 +7799,7 @@ pg.world_event_data = {
 	},
 	[5902] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -7908,7 +7908,7 @@ pg.world_event_data = {
 	},
 	[6001] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -7958,7 +7958,7 @@ pg.world_event_data = {
 	},
 	[6002] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -8008,7 +8008,7 @@ pg.world_event_data = {
 	},
 	[6003] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -8058,7 +8058,7 @@ pg.world_event_data = {
 	},
 	[6004] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -8108,7 +8108,7 @@ pg.world_event_data = {
 	},
 	[6005] = {
 		enemyicon = 0,
-		name = "漂浮物",
+		name = "표류물",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -8155,7 +8155,7 @@ pg.world_event_data = {
 	},
 	[6006] = {
 		enemyicon = 0,
-		name = "漂浮物",
+		name = "표류물",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -8202,7 +8202,7 @@ pg.world_event_data = {
 	},
 	[6007] = {
 		enemyicon = 0,
-		name = "漂浮物",
+		name = "표류물",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -8249,7 +8249,7 @@ pg.world_event_data = {
 	},
 	[6008] = {
 		enemyicon = 0,
-		name = "漂浮物",
+		name = "표류물",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -8332,7 +8332,7 @@ pg.world_event_data = {
 	},
 	[6101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -8385,7 +8385,7 @@ pg.world_event_data = {
 	},
 	[6102] = {
 		enemyicon = 0,
-		name = "伪装伏击点",
+		name = "위장 매복 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -8440,7 +8440,7 @@ pg.world_event_data = {
 	},
 	[6103] = {
 		enemyicon = 0,
-		name = "伪装警报装置",
+		name = "위장 경보 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -8497,7 +8497,7 @@ pg.world_event_data = {
 	},
 	[9000] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 1,
@@ -8533,7 +8533,7 @@ pg.world_event_data = {
 	},
 	[9001] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 1,
@@ -8568,7 +8568,7 @@ pg.world_event_data = {
 	},
 	[9002] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 1,
@@ -8603,7 +8603,7 @@ pg.world_event_data = {
 	},
 	[9003] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 1,
@@ -8638,7 +8638,7 @@ pg.world_event_data = {
 	},
 	[9004] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 1,
@@ -8673,7 +8673,7 @@ pg.world_event_data = {
 	},
 	[9005] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 1,
@@ -8708,7 +8708,7 @@ pg.world_event_data = {
 	},
 	[9006] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 1,
@@ -8743,7 +8743,7 @@ pg.world_event_data = {
 	},
 	[9007] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 1,
@@ -8778,7 +8778,7 @@ pg.world_event_data = {
 	},
 	[9008] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 1,
@@ -8813,7 +8813,7 @@ pg.world_event_data = {
 	},
 	[9009] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 1,
@@ -8848,7 +8848,7 @@ pg.world_event_data = {
 	},
 	[9012] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 1,
@@ -8883,7 +8883,7 @@ pg.world_event_data = {
 	},
 	[9014] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 1,
@@ -8918,7 +8918,7 @@ pg.world_event_data = {
 	},
 	[9016] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 1,
@@ -8953,7 +8953,7 @@ pg.world_event_data = {
 	},
 	[9018] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 1,
@@ -12692,12 +12692,12 @@ pg.world_event_data = {
 	},
 	[20120] = {
 		enemyicon = 0,
-		name = "事件",
+		name = "사건",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
 		icontype = 1,
-		scan_desc = "#N/A",
+		scan_desc = "0",
 		obstacle = 0,
 		event_sight = -1,
 		icon = "event2",
@@ -12939,7 +12939,7 @@ pg.world_event_data = {
 	},
 	[20230] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -13069,7 +13069,7 @@ pg.world_event_data = {
 	},
 	[20250] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -13120,7 +13120,7 @@ pg.world_event_data = {
 	},
 	[20251] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -13156,7 +13156,7 @@ pg.world_event_data = {
 	},
 	[20252] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -13304,7 +13304,7 @@ pg.world_event_data = {
 	},
 	[20271] = {
 		enemyicon = 0,
-		name = "作战储备品",
+		name = "작전 준비 물품",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -13339,7 +13339,7 @@ pg.world_event_data = {
 	},
 	[20272] = {
 		enemyicon = 0,
-		name = "作战储备品",
+		name = "작전 준비 물품",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -13374,7 +13374,7 @@ pg.world_event_data = {
 	},
 	[20273] = {
 		enemyicon = 0,
-		name = "作战储备品",
+		name = "작전 준비 물품",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -13409,7 +13409,7 @@ pg.world_event_data = {
 	},
 	[20274] = {
 		enemyicon = 0,
-		name = "作战储备品",
+		name = "작전 준비 물품",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -13450,7 +13450,7 @@ pg.world_event_data = {
 	},
 	[20275] = {
 		enemyicon = 0,
-		name = "作战储备品",
+		name = "작전 준비 물품",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -13491,7 +13491,7 @@ pg.world_event_data = {
 	},
 	[20276] = {
 		enemyicon = 0,
-		name = "作战储备品",
+		name = "작전 준비 물품",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -13532,7 +13532,7 @@ pg.world_event_data = {
 	},
 	[20280] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -13577,7 +13577,7 @@ pg.world_event_data = {
 	},
 	[20281] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -13733,7 +13733,7 @@ pg.world_event_data = {
 	},
 	[20310] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -13781,7 +13781,7 @@ pg.world_event_data = {
 	},
 	[20311] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -13930,7 +13930,7 @@ pg.world_event_data = {
 	},
 	[20318] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -13975,7 +13975,7 @@ pg.world_event_data = {
 	},
 	[20320] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -14017,7 +14017,7 @@ pg.world_event_data = {
 	},
 	[20321] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -14172,7 +14172,7 @@ pg.world_event_data = {
 	},
 	[20330] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -14496,7 +14496,7 @@ pg.world_event_data = {
 	},
 	[20410] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -14539,7 +14539,7 @@ pg.world_event_data = {
 	},
 	[20411] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -14582,7 +14582,7 @@ pg.world_event_data = {
 	},
 	[20412] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -14625,7 +14625,7 @@ pg.world_event_data = {
 	},
 	[20420] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -14666,7 +14666,7 @@ pg.world_event_data = {
 	},
 	[20421] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -14707,7 +14707,7 @@ pg.world_event_data = {
 	},
 	[20422] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -14783,7 +14783,7 @@ pg.world_event_data = {
 	},
 	[20440] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -14825,7 +14825,7 @@ pg.world_event_data = {
 	},
 	[20441] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -14867,7 +14867,7 @@ pg.world_event_data = {
 	},
 	[20442] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -15023,7 +15023,7 @@ pg.world_event_data = {
 	},
 	[20510] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -15071,7 +15071,7 @@ pg.world_event_data = {
 	},
 	[20511] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -15119,7 +15119,7 @@ pg.world_event_data = {
 	},
 	[20512] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -15161,7 +15161,7 @@ pg.world_event_data = {
 	},
 	[20513] = {
 		enemyicon = 3,
-		name = "塞壬大型舰队",
+		name = "세이렌 대형 함대",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -15320,7 +15320,7 @@ pg.world_event_data = {
 	},
 	[20610] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -15362,7 +15362,7 @@ pg.world_event_data = {
 	},
 	[20611] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -15404,7 +15404,7 @@ pg.world_event_data = {
 	},
 	[20612] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -15446,7 +15446,7 @@ pg.world_event_data = {
 	},
 	[20620] = {
 		enemyicon = 0,
-		name = "铁血主力舰队",
+		name = "메탈 블러드 주력 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -15634,7 +15634,7 @@ pg.world_event_data = {
 	},
 	[20710] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -15676,7 +15676,7 @@ pg.world_event_data = {
 	},
 	[20711] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -15718,7 +15718,7 @@ pg.world_event_data = {
 	},
 	[20712] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -15798,7 +15798,7 @@ pg.world_event_data = {
 	},
 	[20720] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -15840,7 +15840,7 @@ pg.world_event_data = {
 	},
 	[20721] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -15882,7 +15882,7 @@ pg.world_event_data = {
 	},
 	[20722] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -15924,7 +15924,7 @@ pg.world_event_data = {
 	},
 	[20723] = {
 		enemyicon = 3,
-		name = "塞壬大型舰队",
+		name = "세이렌 대형 함대",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -16004,7 +16004,7 @@ pg.world_event_data = {
 	},
 	[20730] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -16046,7 +16046,7 @@ pg.world_event_data = {
 	},
 	[20731] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -16088,7 +16088,7 @@ pg.world_event_data = {
 	},
 	[20732] = {
 		enemyicon = 3,
-		name = "塞壬大型舰队",
+		name = "세이렌 대형 함대",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -16168,7 +16168,7 @@ pg.world_event_data = {
 	},
 	[20740] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -16215,7 +16215,7 @@ pg.world_event_data = {
 	},
 	[20745] = {
 		enemyicon = 0,
-		name = "收藏-纪录",
+		name = "보관-기록",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -16581,7 +16581,7 @@ pg.world_event_data = {
 	},
 	[21010] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -16624,7 +16624,7 @@ pg.world_event_data = {
 	},
 	[21020] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -16704,7 +16704,7 @@ pg.world_event_data = {
 	},
 	[21100] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -16779,7 +16779,7 @@ pg.world_event_data = {
 	},
 	[21110] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -16860,7 +16860,7 @@ pg.world_event_data = {
 	},
 	[21120] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -16908,7 +16908,7 @@ pg.world_event_data = {
 	},
 	[21121] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -16950,7 +16950,7 @@ pg.world_event_data = {
 	},
 	[21122] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -16992,7 +16992,7 @@ pg.world_event_data = {
 	},
 	[21130] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -17080,7 +17080,7 @@ pg.world_event_data = {
 	},
 	[21200] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -17118,7 +17118,7 @@ pg.world_event_data = {
 	},
 	[21201] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -17156,7 +17156,7 @@ pg.world_event_data = {
 	},
 	[21202] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -17195,7 +17195,7 @@ pg.world_event_data = {
 	},
 	[21210] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -17237,7 +17237,7 @@ pg.world_event_data = {
 	},
 	[21211] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -17279,7 +17279,7 @@ pg.world_event_data = {
 	},
 	[21212] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -17358,7 +17358,7 @@ pg.world_event_data = {
 	},
 	[21220] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -17400,7 +17400,7 @@ pg.world_event_data = {
 	},
 	[21221] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -17442,7 +17442,7 @@ pg.world_event_data = {
 	},
 	[21222] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -17484,7 +17484,7 @@ pg.world_event_data = {
 	},
 	[21223] = {
 		enemyicon = 3,
-		name = "塞壬大型舰队",
+		name = "세이렌 대형 함대",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -17615,7 +17615,7 @@ pg.world_event_data = {
 	},
 	[21300] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -17730,7 +17730,7 @@ pg.world_event_data = {
 	},
 	[21320] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -17801,7 +17801,7 @@ pg.world_event_data = {
 	},
 	[21321] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -17866,7 +17866,7 @@ pg.world_event_data = {
 	},
 	[21322] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -17913,7 +17913,7 @@ pg.world_event_data = {
 	},
 	[21323] = {
 		enemyicon = 3,
-		name = "塞壬大型舰队",
+		name = "세이렌 대형 함대",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -17954,7 +17954,7 @@ pg.world_event_data = {
 	},
 	[21330] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -17999,7 +17999,7 @@ pg.world_event_data = {
 	},
 	[21340] = {
 		enemyicon = 2,
-		name = "白鹰遇难舰队",
+		name = "이글 유니온 조난 함대",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -18092,7 +18092,7 @@ pg.world_event_data = {
 	},
 	[21360] = {
 		enemyicon = 0,
-		name = "塞壬海况控制设施",
+		name = "세이렌 해황 통제 시설",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -18128,7 +18128,7 @@ pg.world_event_data = {
 	},
 	[21361] = {
 		enemyicon = 0,
-		name = "塞壬海况控制设施",
+		name = "세이렌 해황 통제 시설",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -18164,7 +18164,7 @@ pg.world_event_data = {
 	},
 	[21400] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -18204,7 +18204,7 @@ pg.world_event_data = {
 	},
 	[21401] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -18245,7 +18245,7 @@ pg.world_event_data = {
 	},
 	[21410] = {
 		enemyicon = 0,
-		name = "塞壬封锁区",
+		name = "세이렌 봉쇄 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -18282,7 +18282,7 @@ pg.world_event_data = {
 	},
 	[21411] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -18324,7 +18324,7 @@ pg.world_event_data = {
 	},
 	[21420] = {
 		enemyicon = 0,
-		name = "塞壬封锁区",
+		name = "세이렌 봉쇄 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -18361,7 +18361,7 @@ pg.world_event_data = {
 	},
 	[21421] = {
 		enemyicon = 0,
-		name = "塞壬能源矩阵",
+		name = "세이렌 에너지 매트릭스",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -18403,7 +18403,7 @@ pg.world_event_data = {
 	},
 	[21422] = {
 		enemyicon = 0,
-		name = "能源矩阵启动装置",
+		name = "에너지 매트릭스 가동 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -18448,7 +18448,7 @@ pg.world_event_data = {
 	},
 	[21430] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -18507,7 +18507,7 @@ pg.world_event_data = {
 	},
 	[21431] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -18560,7 +18560,7 @@ pg.world_event_data = {
 	},
 	[21432] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -18607,7 +18607,7 @@ pg.world_event_data = {
 	},
 	[21450] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -18654,7 +18654,7 @@ pg.world_event_data = {
 	},
 	[21460] = {
 		enemyicon = 0,
-		name = "友方舰队",
+		name = "아군 함대",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -18694,7 +18694,7 @@ pg.world_event_data = {
 	},
 	[21461] = {
 		enemyicon = 0,
-		name = "友方舰队",
+		name = "아군 함대",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -18734,7 +18734,7 @@ pg.world_event_data = {
 	},
 	[21500] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -18772,7 +18772,7 @@ pg.world_event_data = {
 	},
 	[21501] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -18810,7 +18810,7 @@ pg.world_event_data = {
 	},
 	[21502] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -18850,7 +18850,7 @@ pg.world_event_data = {
 	},
 	[21510] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -18892,7 +18892,7 @@ pg.world_event_data = {
 	},
 	[21511] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -18934,7 +18934,7 @@ pg.world_event_data = {
 	},
 	[21512] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -19013,7 +19013,7 @@ pg.world_event_data = {
 	},
 	[21520] = {
 		enemyicon = 3,
-		name = "塞壬大型舰队",
+		name = "세이렌 대형 함대",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -19059,7 +19059,7 @@ pg.world_event_data = {
 	},
 	[21530] = {
 		enemyicon = 3,
-		name = "代行者VIII「Determination」",
+		name = "익스큐터VIII「Determination」",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -19280,7 +19280,7 @@ pg.world_event_data = {
 	},
 	[22000] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -19317,7 +19317,7 @@ pg.world_event_data = {
 	},
 	[22010] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -19402,7 +19402,7 @@ pg.world_event_data = {
 	},
 	[22020] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -19448,7 +19448,7 @@ pg.world_event_data = {
 	},
 	[22100] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -19486,7 +19486,7 @@ pg.world_event_data = {
 	},
 	[22101] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -19524,7 +19524,7 @@ pg.world_event_data = {
 	},
 	[22110] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -19583,7 +19583,7 @@ pg.world_event_data = {
 	},
 	[22111] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -19624,7 +19624,7 @@ pg.world_event_data = {
 	},
 	[22112] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -19665,7 +19665,7 @@ pg.world_event_data = {
 	},
 	[22115] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -19721,7 +19721,7 @@ pg.world_event_data = {
 	},
 	[22116] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -19817,7 +19817,7 @@ pg.world_event_data = {
 	},
 	[22130] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -19863,7 +19863,7 @@ pg.world_event_data = {
 	},
 	[22200] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -19899,7 +19899,7 @@ pg.world_event_data = {
 	},
 	[22210] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -19952,7 +19952,7 @@ pg.world_event_data = {
 	},
 	[22211] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -19999,7 +19999,7 @@ pg.world_event_data = {
 	},
 	[22212] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -20040,7 +20040,7 @@ pg.world_event_data = {
 	},
 	[22220] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -20085,7 +20085,7 @@ pg.world_event_data = {
 	},
 	[22230] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -20201,7 +20201,7 @@ pg.world_event_data = {
 	},
 	[22300] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -20238,7 +20238,7 @@ pg.world_event_data = {
 	},
 	[22310] = {
 		enemyicon = 0,
-		name = "塞壬战舰残骸",
+		name = "세이렌 전함 잔해",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -20285,7 +20285,7 @@ pg.world_event_data = {
 	},
 	[22311] = {
 		enemyicon = 0,
-		name = "塞壬战舰残骸",
+		name = "세이렌 전함 잔해",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -20332,7 +20332,7 @@ pg.world_event_data = {
 	},
 	[22312] = {
 		enemyicon = 0,
-		name = "塞壬战舰残骸",
+		name = "세이렌 전함 잔해",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -20367,7 +20367,7 @@ pg.world_event_data = {
 	},
 	[22320] = {
 		enemyicon = 0,
-		name = "塞壬设施废墟",
+		name = "세이렌 시설 폐허",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -20402,7 +20402,7 @@ pg.world_event_data = {
 	},
 	[22321] = {
 		enemyicon = 0,
-		name = "塞壬建筑废墟",
+		name = "세이렌 건물 폐허",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -20437,7 +20437,7 @@ pg.world_event_data = {
 	},
 	[22330] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -20483,7 +20483,7 @@ pg.world_event_data = {
 	},
 	[22340] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -20524,7 +20524,7 @@ pg.world_event_data = {
 	},
 	[22341] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -20571,7 +20571,7 @@ pg.world_event_data = {
 	},
 	[22342] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -20653,7 +20653,7 @@ pg.world_event_data = {
 	},
 	[22400] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -20691,7 +20691,7 @@ pg.world_event_data = {
 	},
 	[22401] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -20729,7 +20729,7 @@ pg.world_event_data = {
 	},
 	[22410] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -20774,7 +20774,7 @@ pg.world_event_data = {
 	},
 	[22420] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -20819,7 +20819,7 @@ pg.world_event_data = {
 	},
 	[22430] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -20867,7 +20867,7 @@ pg.world_event_data = {
 	},
 	[22431] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -20915,7 +20915,7 @@ pg.world_event_data = {
 	},
 	[22432] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -20957,7 +20957,7 @@ pg.world_event_data = {
 	},
 	[22433] = {
 		enemyicon = 3,
-		name = "塞壬大型舰队",
+		name = "세이렌 대형 함대",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -21036,7 +21036,7 @@ pg.world_event_data = {
 	},
 	[22440] = {
 		enemyicon = 3,
-		name = "代行者XIV「Equilibrium」",
+		name = "익스큐터XIV「Equilibrium」",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -21084,7 +21084,7 @@ pg.world_event_data = {
 	},
 	[22450] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 1,
@@ -21137,7 +21137,7 @@ pg.world_event_data = {
 	},
 	[22500] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -21174,7 +21174,7 @@ pg.world_event_data = {
 	},
 	[22501] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -21212,7 +21212,7 @@ pg.world_event_data = {
 	},
 	[22510] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -21254,7 +21254,7 @@ pg.world_event_data = {
 	},
 	[22511] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -21302,7 +21302,7 @@ pg.world_event_data = {
 	},
 	[22512] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -21381,7 +21381,7 @@ pg.world_event_data = {
 	},
 	[22520] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -21600,7 +21600,7 @@ pg.world_event_data = {
 	},
 	[23000] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -21637,7 +21637,7 @@ pg.world_event_data = {
 	},
 	[23010] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -21678,7 +21678,7 @@ pg.world_event_data = {
 	},
 	[23011] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -21719,7 +21719,7 @@ pg.world_event_data = {
 	},
 	[23012] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -21760,7 +21760,7 @@ pg.world_event_data = {
 	},
 	[23020] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -21807,7 +21807,7 @@ pg.world_event_data = {
 	},
 	[23030] = {
 		enemyicon = 0,
-		name = "友方舰队",
+		name = "아군 함대",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -21877,7 +21877,7 @@ pg.world_event_data = {
 	},
 	[23100] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -21914,7 +21914,7 @@ pg.world_event_data = {
 	},
 	[23110] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -21961,7 +21961,7 @@ pg.world_event_data = {
 	},
 	[23120] = {
 		enemyicon = 0,
-		name = "友方舰队",
+		name = "아군 함대",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -22013,7 +22013,7 @@ pg.world_event_data = {
 	},
 	[23200] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -22051,7 +22051,7 @@ pg.world_event_data = {
 	},
 	[23210] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -22094,7 +22094,7 @@ pg.world_event_data = {
 	},
 	[23300] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -22132,7 +22132,7 @@ pg.world_event_data = {
 	},
 	[23301] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -22171,7 +22171,7 @@ pg.world_event_data = {
 	},
 	[23310] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -22213,7 +22213,7 @@ pg.world_event_data = {
 	},
 	[23311] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -22255,7 +22255,7 @@ pg.world_event_data = {
 	},
 	[23312] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -22297,7 +22297,7 @@ pg.world_event_data = {
 	},
 	[23315] = {
 		enemyicon = 3,
-		name = "塞壬大型舰队",
+		name = "세이렌 대형 함대",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -22419,7 +22419,7 @@ pg.world_event_data = {
 	},
 	[23400] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -22456,7 +22456,7 @@ pg.world_event_data = {
 	},
 	[23410] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -22509,7 +22509,7 @@ pg.world_event_data = {
 	},
 	[23411] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -22556,7 +22556,7 @@ pg.world_event_data = {
 	},
 	[23412] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -22597,7 +22597,7 @@ pg.world_event_data = {
 	},
 	[23420] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -22643,7 +22643,7 @@ pg.world_event_data = {
 	},
 	[23430] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -22690,7 +22690,7 @@ pg.world_event_data = {
 	},
 	[23440] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -22848,7 +22848,7 @@ pg.world_event_data = {
 	},
 	[23500] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -22884,7 +22884,7 @@ pg.world_event_data = {
 	},
 	[23501] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -22922,7 +22922,7 @@ pg.world_event_data = {
 	},
 	[23510] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -22968,7 +22968,7 @@ pg.world_event_data = {
 	},
 	[23520] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -23010,7 +23010,7 @@ pg.world_event_data = {
 	},
 	[23521] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -23052,7 +23052,7 @@ pg.world_event_data = {
 	},
 	[23522] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -23094,7 +23094,7 @@ pg.world_event_data = {
 	},
 	[23523] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -23136,7 +23136,7 @@ pg.world_event_data = {
 	},
 	[23524] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -23178,7 +23178,7 @@ pg.world_event_data = {
 	},
 	[23525] = {
 		enemyicon = 0,
-		name = "塞壬「棋子」舰队",
+		name = "세이렌 「장기말 」 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -23220,7 +23220,7 @@ pg.world_event_data = {
 	},
 	[23530] = {
 		enemyicon = 3,
-		name = "塞壬大型舰队",
+		name = "세이렌 대형 함대",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -23278,7 +23278,7 @@ pg.world_event_data = {
 	},
 	[23531] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -23497,7 +23497,7 @@ pg.world_event_data = {
 	},
 	[23600] = {
 		enemyicon = 0,
-		name = "特殊剧情触发",
+		name = "특수 스토리 발동",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -24309,7 +24309,7 @@ pg.world_event_data = {
 	},
 	[24120] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -24345,7 +24345,7 @@ pg.world_event_data = {
 	},
 	[24121] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -24381,7 +24381,7 @@ pg.world_event_data = {
 	},
 	[24122] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -24417,7 +24417,7 @@ pg.world_event_data = {
 	},
 	[24123] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -24453,7 +24453,7 @@ pg.world_event_data = {
 	},
 	[24130] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -24492,7 +24492,7 @@ pg.world_event_data = {
 	},
 	[24131] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -24531,7 +24531,7 @@ pg.world_event_data = {
 	},
 	[24132] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -24570,7 +24570,7 @@ pg.world_event_data = {
 	},
 	[24140] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -24826,7 +24826,7 @@ pg.world_event_data = {
 	},
 	[24210] = {
 		enemyicon = 0,
-		name = "实验场气候调节装置",
+		name = "실험장 기후 조절 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -24868,7 +24868,7 @@ pg.world_event_data = {
 	},
 	[24211] = {
 		enemyicon = 0,
-		name = "实验场气候调节装置",
+		name = "실험장 기후 조절 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -24910,7 +24910,7 @@ pg.world_event_data = {
 	},
 	[24212] = {
 		enemyicon = 0,
-		name = "实验场气候调节装置",
+		name = "실험장 기후 조절 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -24952,7 +24952,7 @@ pg.world_event_data = {
 	},
 	[24213] = {
 		enemyicon = 0,
-		name = "实验场气候调节装置",
+		name = "실험장 기후 조절 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -24994,7 +24994,7 @@ pg.world_event_data = {
 	},
 	[24220] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -25030,7 +25030,7 @@ pg.world_event_data = {
 	},
 	[24221] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -25066,7 +25066,7 @@ pg.world_event_data = {
 	},
 	[24222] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -25102,7 +25102,7 @@ pg.world_event_data = {
 	},
 	[24223] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -25138,7 +25138,7 @@ pg.world_event_data = {
 	},
 	[24224] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -25180,7 +25180,7 @@ pg.world_event_data = {
 	},
 	[24230] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -25219,7 +25219,7 @@ pg.world_event_data = {
 	},
 	[24231] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -25258,7 +25258,7 @@ pg.world_event_data = {
 	},
 	[24232] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -25297,7 +25297,7 @@ pg.world_event_data = {
 	},
 	[24240] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -25554,7 +25554,7 @@ pg.world_event_data = {
 	},
 	[24420] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -25590,7 +25590,7 @@ pg.world_event_data = {
 	},
 	[24421] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -25626,7 +25626,7 @@ pg.world_event_data = {
 	},
 	[24422] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -25662,7 +25662,7 @@ pg.world_event_data = {
 	},
 	[24423] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -25698,7 +25698,7 @@ pg.world_event_data = {
 	},
 	[24430] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -25737,7 +25737,7 @@ pg.world_event_data = {
 	},
 	[24431] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -25776,7 +25776,7 @@ pg.world_event_data = {
 	},
 	[24432] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -25815,7 +25815,7 @@ pg.world_event_data = {
 	},
 	[24440] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -26071,7 +26071,7 @@ pg.world_event_data = {
 	},
 	[24510] = {
 		enemyicon = 0,
-		name = "实验场气候调节装置A",
+		name = "실험장 기후 조절 장치A",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -26115,7 +26115,7 @@ pg.world_event_data = {
 	},
 	[24511] = {
 		enemyicon = 0,
-		name = "实验场气候调节装置B",
+		name = "실험장 기후 조절 장치B",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -26159,7 +26159,7 @@ pg.world_event_data = {
 	},
 	[24512] = {
 		enemyicon = 0,
-		name = "实验场气候调节装置C",
+		name = "실험장 기후 조절 장치C",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -26203,7 +26203,7 @@ pg.world_event_data = {
 	},
 	[24520] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -26239,7 +26239,7 @@ pg.world_event_data = {
 	},
 	[24521] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -26275,7 +26275,7 @@ pg.world_event_data = {
 	},
 	[24522] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -26311,7 +26311,7 @@ pg.world_event_data = {
 	},
 	[24523] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -26347,7 +26347,7 @@ pg.world_event_data = {
 	},
 	[24524] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -26389,7 +26389,7 @@ pg.world_event_data = {
 	},
 	[24530] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -26428,7 +26428,7 @@ pg.world_event_data = {
 	},
 	[24531] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -26467,7 +26467,7 @@ pg.world_event_data = {
 	},
 	[24532] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -26506,7 +26506,7 @@ pg.world_event_data = {
 	},
 	[24540] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -26543,7 +26543,7 @@ pg.world_event_data = {
 	},
 	[24550] = {
 		enemyicon = 0,
-		name = "巨型浮冰",
+		name = "거대 유빙",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -26576,7 +26576,7 @@ pg.world_event_data = {
 	},
 	[24551] = {
 		enemyicon = 0,
-		name = "巨型浮冰",
+		name = "거대 유빙",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -26609,7 +26609,7 @@ pg.world_event_data = {
 	},
 	[24552] = {
 		enemyicon = 0,
-		name = "巨型浮冰",
+		name = "거대 유빙",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -26642,7 +26642,7 @@ pg.world_event_data = {
 	},
 	[24553] = {
 		enemyicon = 0,
-		name = "巨型浮冰",
+		name = "거대 유빙",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -26675,7 +26675,7 @@ pg.world_event_data = {
 	},
 	[24554] = {
 		enemyicon = 0,
-		name = "巨型浮冰",
+		name = "거대 유빙",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -26961,7 +26961,7 @@ pg.world_event_data = {
 	},
 	[24720] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -26997,7 +26997,7 @@ pg.world_event_data = {
 	},
 	[24721] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -27033,7 +27033,7 @@ pg.world_event_data = {
 	},
 	[24722] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -27069,7 +27069,7 @@ pg.world_event_data = {
 	},
 	[24723] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -27106,7 +27106,7 @@ pg.world_event_data = {
 	},
 	[24730] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -27145,7 +27145,7 @@ pg.world_event_data = {
 	},
 	[24731] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -27184,7 +27184,7 @@ pg.world_event_data = {
 	},
 	[24732] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -27223,7 +27223,7 @@ pg.world_event_data = {
 	},
 	[24740] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -27259,7 +27259,7 @@ pg.world_event_data = {
 	},
 	[24750] = {
 		enemyicon = 0,
-		name = "陷阱区域",
+		name = "함정 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -27305,7 +27305,7 @@ pg.world_event_data = {
 	},
 	[24751] = {
 		enemyicon = 0,
-		name = "陷阱区域",
+		name = "함정 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -27351,7 +27351,7 @@ pg.world_event_data = {
 	},
 	[24752] = {
 		enemyicon = 0,
-		name = "陷阱区域",
+		name = "함정 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -27397,7 +27397,7 @@ pg.world_event_data = {
 	},
 	[24753] = {
 		enemyicon = 0,
-		name = "陷阱区域",
+		name = "함정 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -27443,7 +27443,7 @@ pg.world_event_data = {
 	},
 	[24754] = {
 		enemyicon = 0,
-		name = "陷阱区域",
+		name = "함정 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -27489,7 +27489,7 @@ pg.world_event_data = {
 	},
 	[24755] = {
 		enemyicon = 0,
-		name = "陷阱区域",
+		name = "함정 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -27821,7 +27821,7 @@ pg.world_event_data = {
 	},
 	[24820] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -27858,7 +27858,7 @@ pg.world_event_data = {
 	},
 	[24821] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -27895,7 +27895,7 @@ pg.world_event_data = {
 	},
 	[24822] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -27932,7 +27932,7 @@ pg.world_event_data = {
 	},
 	[24823] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -27970,7 +27970,7 @@ pg.world_event_data = {
 	},
 	[24830] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -28010,7 +28010,7 @@ pg.world_event_data = {
 	},
 	[24831] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -28050,7 +28050,7 @@ pg.world_event_data = {
 	},
 	[24832] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -28090,7 +28090,7 @@ pg.world_event_data = {
 	},
 	[24840] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -28853,7 +28853,7 @@ pg.world_event_data = {
 	},
 	[24870] = {
 		enemyicon = 0,
-		name = "陷阱区域",
+		name = "함정 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -28898,7 +28898,7 @@ pg.world_event_data = {
 	},
 	[24871] = {
 		enemyicon = 0,
-		name = "陷阱区域",
+		name = "함정 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -28943,7 +28943,7 @@ pg.world_event_data = {
 	},
 	[24872] = {
 		enemyicon = 0,
-		name = "陷阱区域",
+		name = "함정 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -28988,7 +28988,7 @@ pg.world_event_data = {
 	},
 	[24873] = {
 		enemyicon = 0,
-		name = "陷阱区域",
+		name = "함정 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -29033,7 +29033,7 @@ pg.world_event_data = {
 	},
 	[24874] = {
 		enemyicon = 0,
-		name = "陷阱区域",
+		name = "함정 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -29078,7 +29078,7 @@ pg.world_event_data = {
 	},
 	[24875] = {
 		enemyicon = 0,
-		name = "陷阱区域",
+		name = "함정 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -29123,7 +29123,7 @@ pg.world_event_data = {
 	},
 	[24876] = {
 		enemyicon = 0,
-		name = "陷阱区域",
+		name = "함정 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -29168,7 +29168,7 @@ pg.world_event_data = {
 	},
 	[24877] = {
 		enemyicon = 0,
-		name = "陷阱区域",
+		name = "함정 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -29213,7 +29213,7 @@ pg.world_event_data = {
 	},
 	[24878] = {
 		enemyicon = 0,
-		name = "陷阱区域",
+		name = "함정 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -29258,7 +29258,7 @@ pg.world_event_data = {
 	},
 	[24879] = {
 		enemyicon = 0,
-		name = "陷阱区域",
+		name = "함정 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -29303,7 +29303,7 @@ pg.world_event_data = {
 	},
 	[24880] = {
 		enemyicon = 0,
-		name = "陷阱区域",
+		name = "함정 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -29348,7 +29348,7 @@ pg.world_event_data = {
 	},
 	[24881] = {
 		enemyicon = 0,
-		name = "陷阱区域",
+		name = "함정 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -29753,7 +29753,7 @@ pg.world_event_data = {
 	},
 	[25020] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -29789,7 +29789,7 @@ pg.world_event_data = {
 	},
 	[25021] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -29825,7 +29825,7 @@ pg.world_event_data = {
 	},
 	[25022] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -29861,7 +29861,7 @@ pg.world_event_data = {
 	},
 	[25023] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -29897,7 +29897,7 @@ pg.world_event_data = {
 	},
 	[25030] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -29936,7 +29936,7 @@ pg.world_event_data = {
 	},
 	[25031] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -29975,7 +29975,7 @@ pg.world_event_data = {
 	},
 	[25032] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -30014,7 +30014,7 @@ pg.world_event_data = {
 	},
 	[25040] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -30270,7 +30270,7 @@ pg.world_event_data = {
 	},
 	[25120] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -30309,7 +30309,7 @@ pg.world_event_data = {
 	},
 	[25121] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -30347,7 +30347,7 @@ pg.world_event_data = {
 	},
 	[25122] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -30385,7 +30385,7 @@ pg.world_event_data = {
 	},
 	[25123] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -30427,7 +30427,7 @@ pg.world_event_data = {
 	},
 	[25124] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -30465,7 +30465,7 @@ pg.world_event_data = {
 	},
 	[25130] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -30507,7 +30507,7 @@ pg.world_event_data = {
 	},
 	[25131] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -30549,7 +30549,7 @@ pg.world_event_data = {
 	},
 	[25132] = {
 		enemyicon = 0,
-		name = "实验场机关",
+		name = "실험장 기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -30591,7 +30591,7 @@ pg.world_event_data = {
 	},
 	[25140] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -33076,7 +33076,7 @@ pg.world_event_data = {
 	},
 	[64093] = {
 		enemyicon = 4,
-		name = "碎石",
+		name = "자갈",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -33111,7 +33111,7 @@ pg.world_event_data = {
 	},
 	[80001] = {
 		enemyicon = 2,
-		name = "海豹",
+		name = "바다표범",
 		scale = 100,
 		visuality = 0,
 		is_scanevent = 1,
@@ -33203,7 +33203,7 @@ pg.world_event_data = {
 	},
 	[80003] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -33241,7 +33241,7 @@ pg.world_event_data = {
 	},
 	[80005] = {
 		enemyicon = 0,
-		name = "巨型浮冰",
+		name = "거대 유빙",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -33274,7 +33274,7 @@ pg.world_event_data = {
 	},
 	[80011] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -33346,7 +33346,7 @@ pg.world_event_data = {
 	},
 	[80099] = {
 		enemyicon = 3,
-		name = "实验场防御舰队",
+		name = "실험장 방어 함대",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -33595,7 +33595,7 @@ pg.world_event_data = {
 	},
 	[80301] = {
 		enemyicon = 2,
-		name = "海豹",
+		name = "바다표범",
 		scale = 100,
 		visuality = 0,
 		is_scanevent = 1,
@@ -33643,7 +33643,7 @@ pg.world_event_data = {
 	},
 	[80302] = {
 		enemyicon = 2,
-		name = "海豹",
+		name = "바다표범",
 		scale = 90,
 		visuality = 0,
 		is_scanevent = 1,
@@ -33678,7 +33678,7 @@ pg.world_event_data = {
 	},
 	[80303] = {
 		enemyicon = 2,
-		name = "海豹",
+		name = "바다표범",
 		scale = 100,
 		visuality = 0,
 		is_scanevent = 1,
@@ -33721,7 +33721,7 @@ pg.world_event_data = {
 	},
 	[80304] = {
 		enemyicon = 2,
-		name = "海豹",
+		name = "바다표범",
 		scale = 90,
 		visuality = 0,
 		is_scanevent = 1,
@@ -33756,7 +33756,7 @@ pg.world_event_data = {
 	},
 	[80305] = {
 		enemyicon = 2,
-		name = "海豹",
+		name = "바다표범",
 		scale = 90,
 		visuality = 0,
 		is_scanevent = 1,
@@ -33791,7 +33791,7 @@ pg.world_event_data = {
 	},
 	[80306] = {
 		enemyicon = 2,
-		name = "海豹",
+		name = "바다표범",
 		scale = 100,
 		visuality = 0,
 		is_scanevent = 1,
@@ -33831,7 +33831,7 @@ pg.world_event_data = {
 	},
 	[80307] = {
 		enemyicon = 2,
-		name = "海豹",
+		name = "바다표범",
 		scale = 100,
 		visuality = 0,
 		is_scanevent = 1,
@@ -33868,7 +33868,7 @@ pg.world_event_data = {
 	},
 	[80308] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -34056,7 +34056,7 @@ pg.world_event_data = {
 	},
 	[80399] = {
 		enemyicon = 2,
-		name = "实验场防御舰队",
+		name = "실험장 방어 함대",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -34269,7 +34269,7 @@ pg.world_event_data = {
 	},
 	[80601] = {
 		enemyicon = 2,
-		name = "海豹",
+		name = "바다표범",
 		scale = 100,
 		visuality = 0,
 		is_scanevent = 1,
@@ -34309,7 +34309,7 @@ pg.world_event_data = {
 	},
 	[80620] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -34344,7 +34344,7 @@ pg.world_event_data = {
 	},
 	[80630] = {
 		enemyicon = 0,
-		name = "巨型浮冰",
+		name = "거대 유빙",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -34379,7 +34379,7 @@ pg.world_event_data = {
 	},
 	[80631] = {
 		enemyicon = 0,
-		name = "巨型浮冰",
+		name = "거대 유빙",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -34414,7 +34414,7 @@ pg.world_event_data = {
 	},
 	[80640] = {
 		enemyicon = 0,
-		name = "实验场气候调节装置",
+		name = "실험장 기후 조절 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -34455,7 +34455,7 @@ pg.world_event_data = {
 	},
 	[80641] = {
 		enemyicon = 0,
-		name = "实验场气候调节装置",
+		name = "실험장 기후 조절 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -34496,7 +34496,7 @@ pg.world_event_data = {
 	},
 	[80699] = {
 		enemyicon = 2,
-		name = "实验场防御舰队",
+		name = "실험장 방어 함대",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -34780,7 +34780,7 @@ pg.world_event_data = {
 	},
 	[82010] = {
 		enemyicon = 0,
-		name = "能源矩阵",
+		name = "에너지 매트릭스",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -34818,7 +34818,7 @@ pg.world_event_data = {
 	},
 	[82011] = {
 		enemyicon = 0,
-		name = "能源矩阵启动装置",
+		name = "에너지 매트릭스 가동 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -35487,7 +35487,7 @@ pg.world_event_data = {
 	},
 	[82050] = {
 		enemyicon = 0,
-		name = "实验场气候调节装置",
+		name = "실험장 기후 조절 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -35526,7 +35526,7 @@ pg.world_event_data = {
 	},
 	[82051] = {
 		enemyicon = 4,
-		name = "浮冰",
+		name = "유빙",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -35559,7 +35559,7 @@ pg.world_event_data = {
 	},
 	[82052] = {
 		enemyicon = 4,
-		name = "巨型浮冰",
+		name = "거대 유빙",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -35595,7 +35595,7 @@ pg.world_event_data = {
 	},
 	[82055] = {
 		enemyicon = 0,
-		name = "实验场气候调节装置",
+		name = "실험장 기후 조절 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -35634,7 +35634,7 @@ pg.world_event_data = {
 	},
 	[82056] = {
 		enemyicon = 4,
-		name = "浮冰",
+		name = "유빙",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -35667,7 +35667,7 @@ pg.world_event_data = {
 	},
 	[82057] = {
 		enemyicon = 4,
-		name = "巨型浮冰",
+		name = "거대 유빙",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -35703,7 +35703,7 @@ pg.world_event_data = {
 	},
 	[82099] = {
 		enemyicon = 2,
-		name = "实验场防御舰队",
+		name = "실험장 방어 함대",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -36024,7 +36024,7 @@ pg.world_event_data = {
 	},
 	[82310] = {
 		enemyicon = 0,
-		name = "塞壬信息收集装置",
+		name = "세이렌 정보 수집 장치",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -36065,7 +36065,7 @@ pg.world_event_data = {
 	},
 	[82311] = {
 		enemyicon = 0,
-		name = "塞壬信息收集装置",
+		name = "세이렌 정보 수집 장치",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -36106,7 +36106,7 @@ pg.world_event_data = {
 	},
 	[82312] = {
 		enemyicon = 0,
-		name = "塞壬信息收集装置",
+		name = "세이렌 정보 수집 장치",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -36147,7 +36147,7 @@ pg.world_event_data = {
 	},
 	[82313] = {
 		enemyicon = 0,
-		name = "塞壬信息收集装置",
+		name = "세이렌 정보 수집 장치",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -36188,7 +36188,7 @@ pg.world_event_data = {
 	},
 	[82314] = {
 		enemyicon = 0,
-		name = "塞壬信息收集装置",
+		name = "세이렌 정보 수집 장치",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -36229,7 +36229,7 @@ pg.world_event_data = {
 	},
 	[82315] = {
 		enemyicon = 0,
-		name = "塞壬信息收集装置",
+		name = "세이렌 정보 수집 장치",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -36270,7 +36270,7 @@ pg.world_event_data = {
 	},
 	[82316] = {
 		enemyicon = 0,
-		name = "塞壬信息收集装置",
+		name = "세이렌 정보 수집 장치",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -36311,7 +36311,7 @@ pg.world_event_data = {
 	},
 	[82317] = {
 		enemyicon = 0,
-		name = "塞壬信息收集装置",
+		name = "세이렌 정보 수집 장치",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -37415,7 +37415,7 @@ pg.world_event_data = {
 	},
 	[82380] = {
 		enemyicon = 0,
-		name = "塞壬洋流控制器",
+		name = "세이렌 해류 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -37460,7 +37460,7 @@ pg.world_event_data = {
 	},
 	[82381] = {
 		enemyicon = 0,
-		name = "塞壬信息收集装置",
+		name = "세이렌 정보 수집 장치",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -37500,7 +37500,7 @@ pg.world_event_data = {
 	},
 	[82382] = {
 		enemyicon = 0,
-		name = "塞壬信息收集装置",
+		name = "세이렌 정보 수집 장치",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -37645,7 +37645,7 @@ pg.world_event_data = {
 	},
 	[82399] = {
 		enemyicon = 2,
-		name = "实验场防御舰队",
+		name = "실험장 방어 함대",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -38818,7 +38818,7 @@ pg.world_event_data = {
 	},
 	[82600] = {
 		enemyicon = 0,
-		name = "腐蚀区域",
+		name = "부식 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -39101,7 +39101,7 @@ pg.world_event_data = {
 	},
 	[82621] = {
 		enemyicon = 0,
-		name = "能源矩阵",
+		name = "에너지 매트릭스",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -39157,7 +39157,7 @@ pg.world_event_data = {
 	},
 	[82622] = {
 		enemyicon = 0,
-		name = "能源矩阵启动装置",
+		name = "에너지 매트릭스 가동 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -39202,7 +39202,7 @@ pg.world_event_data = {
 	},
 	[82630] = {
 		enemyicon = 0,
-		name = "腐蚀区域",
+		name = "부식 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -39240,7 +39240,7 @@ pg.world_event_data = {
 	},
 	[82631] = {
 		enemyicon = 0,
-		name = "腐蚀区域",
+		name = "부식 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -39278,7 +39278,7 @@ pg.world_event_data = {
 	},
 	[82632] = {
 		enemyicon = 0,
-		name = "腐蚀区域",
+		name = "부식 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -39316,7 +39316,7 @@ pg.world_event_data = {
 	},
 	[82640] = {
 		enemyicon = 0,
-		name = "障碍物",
+		name = "장애물",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -39662,7 +39662,7 @@ pg.world_event_data = {
 	},
 	[82650] = {
 		enemyicon = 0,
-		name = "障碍物",
+		name = "장애물",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -39700,7 +39700,7 @@ pg.world_event_data = {
 	},
 	[82660] = {
 		enemyicon = 0,
-		name = "障碍物",
+		name = "장애물",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -40046,7 +40046,7 @@ pg.world_event_data = {
 	},
 	[82670] = {
 		enemyicon = 0,
-		name = "障碍物",
+		name = "장애물",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -40119,7 +40119,7 @@ pg.world_event_data = {
 	},
 	[82699] = {
 		enemyicon = 2,
-		name = "实验场防御舰队",
+		name = "실험장 방어 함대",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -41694,7 +41694,7 @@ pg.world_event_data = {
 	},
 	[86010] = {
 		enemyicon = 0,
-		name = "红色区域控制装置",
+		name = "레드존 통제 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -41739,7 +41739,7 @@ pg.world_event_data = {
 	},
 	[86011] = {
 		enemyicon = 0,
-		name = "红色区域控制装置",
+		name = "레드존 통제 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -41784,7 +41784,7 @@ pg.world_event_data = {
 	},
 	[86012] = {
 		enemyicon = 0,
-		name = "蓝色区域控制装置",
+		name = "블루존 통제 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -41829,7 +41829,7 @@ pg.world_event_data = {
 	},
 	[86013] = {
 		enemyicon = 0,
-		name = "蓝色区域控制装置",
+		name = "블루존 통제 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -41874,7 +41874,7 @@ pg.world_event_data = {
 	},
 	[86014] = {
 		enemyicon = 0,
-		name = "紫色区域控制装置",
+		name = "퍼플존 통제 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -41919,7 +41919,7 @@ pg.world_event_data = {
 	},
 	[86015] = {
 		enemyicon = 0,
-		name = "紫色区域控制装置",
+		name = "퍼플존 통제 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -42440,7 +42440,7 @@ pg.world_event_data = {
 	},
 	[86050] = {
 		enemyicon = 0,
-		name = "能源矩阵",
+		name = "에너지 매트릭스",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -42478,7 +42478,7 @@ pg.world_event_data = {
 	},
 	[86051] = {
 		enemyicon = 0,
-		name = "能源矩阵启动装置",
+		name = "에너지 매트릭스 가동 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -42555,7 +42555,7 @@ pg.world_event_data = {
 	},
 	[86099] = {
 		enemyicon = 2,
-		name = "实验场防御舰队",
+		name = "실험장 방어 함대",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -43002,7 +43002,7 @@ pg.world_event_data = {
 	},
 	[86610] = {
 		enemyicon = 0,
-		name = "实验场气候调节装置I",
+		name = "실험장 기후 조절 장치I",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -43163,7 +43163,7 @@ pg.world_event_data = {
 	},
 	[86612] = {
 		enemyicon = 0,
-		name = "实验场气候调节装置I",
+		name = "실험장 기후 조절 장치I",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -43451,7 +43451,7 @@ pg.world_event_data = {
 	},
 	[86620] = {
 		enemyicon = 0,
-		name = "实验场气候调节装置II",
+		name = "실험장 기후 조절 장치II",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -43612,7 +43612,7 @@ pg.world_event_data = {
 	},
 	[86622] = {
 		enemyicon = 0,
-		name = "实验场气候调节装置II",
+		name = "실험장 기후 조절 장치II",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -43900,7 +43900,7 @@ pg.world_event_data = {
 	},
 	[86630] = {
 		enemyicon = 0,
-		name = "巨型浮冰",
+		name = "거대 유빙",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -43931,7 +43931,7 @@ pg.world_event_data = {
 	},
 	[86631] = {
 		enemyicon = 0,
-		name = "巨型浮冰",
+		name = "거대 유빙",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -43962,7 +43962,7 @@ pg.world_event_data = {
 	},
 	[86640] = {
 		enemyicon = 0,
-		name = "能源矩阵",
+		name = "에너지 매트릭스",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -44000,7 +44000,7 @@ pg.world_event_data = {
 	},
 	[86641] = {
 		enemyicon = 0,
-		name = "能源矩阵启动装置",
+		name = "에너지 매트릭스 가동 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -44077,7 +44077,7 @@ pg.world_event_data = {
 	},
 	[86699] = {
 		enemyicon = 2,
-		name = "实验场防御舰队",
+		name = "실험장 방어 함대",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -44290,7 +44290,7 @@ pg.world_event_data = {
 	},
 	[89011] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -44338,7 +44338,7 @@ pg.world_event_data = {
 	},
 	[89012] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -44386,7 +44386,7 @@ pg.world_event_data = {
 	},
 	[89013] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -44434,7 +44434,7 @@ pg.world_event_data = {
 	},
 	[89014] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -44482,7 +44482,7 @@ pg.world_event_data = {
 	},
 	[89021] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -44530,7 +44530,7 @@ pg.world_event_data = {
 	},
 	[89022] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -44578,7 +44578,7 @@ pg.world_event_data = {
 	},
 	[89023] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -44626,7 +44626,7 @@ pg.world_event_data = {
 	},
 	[89024] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -44674,7 +44674,7 @@ pg.world_event_data = {
 	},
 	[89031] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -44722,7 +44722,7 @@ pg.world_event_data = {
 	},
 	[89032] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -44770,7 +44770,7 @@ pg.world_event_data = {
 	},
 	[89033] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -44818,7 +44818,7 @@ pg.world_event_data = {
 	},
 	[89034] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -44866,7 +44866,7 @@ pg.world_event_data = {
 	},
 	[89041] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -44914,7 +44914,7 @@ pg.world_event_data = {
 	},
 	[89042] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -44962,7 +44962,7 @@ pg.world_event_data = {
 	},
 	[89043] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -45010,7 +45010,7 @@ pg.world_event_data = {
 	},
 	[89044] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -45614,7 +45614,7 @@ pg.world_event_data = {
 	},
 	[89200] = {
 		enemyicon = 2,
-		name = "小声望",
+		name = "꼬마 리나운",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -45762,7 +45762,7 @@ pg.world_event_data = {
 	},
 	[89203] = {
 		enemyicon = 2,
-		name = "小声望",
+		name = "꼬마 리나운",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -45802,7 +45802,7 @@ pg.world_event_data = {
 	},
 	[89204] = {
 		enemyicon = 3,
-		name = "小声望",
+		name = "꼬마 리나운",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -45884,7 +45884,7 @@ pg.world_event_data = {
 	},
 	[89210] = {
 		enemyicon = 2,
-		name = "{namecode:98}",
+		name = "#N/A",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -46027,7 +46027,7 @@ pg.world_event_data = {
 	},
 	[89213] = {
 		enemyicon = 2,
-		name = "{namecode:98}",
+		name = "#N/A",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -46067,7 +46067,7 @@ pg.world_event_data = {
 	},
 	[89220] = {
 		enemyicon = 2,
-		name = "{namecode:98}",
+		name = "#N/A",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -46208,7 +46208,7 @@ pg.world_event_data = {
 	},
 	[89223] = {
 		enemyicon = 2,
-		name = "{namecode:98}",
+		name = "#N/A",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -46248,7 +46248,7 @@ pg.world_event_data = {
 	},
 	[89224] = {
 		enemyicon = 2,
-		name = "{namecode:98}",
+		name = "#N/A",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -46288,7 +46288,7 @@ pg.world_event_data = {
 	},
 	[89225] = {
 		enemyicon = 2,
-		name = "北卡罗来纳",
+		name = "노스캐롤라이나",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -46433,7 +46433,7 @@ pg.world_event_data = {
 	},
 	[89228] = {
 		enemyicon = 2,
-		name = "{namecode:98}",
+		name = "#N/A",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -46473,7 +46473,7 @@ pg.world_event_data = {
 	},
 	[89230] = {
 		enemyicon = 2,
-		name = "{namecode:98}",
+		name = "#N/A",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -46612,7 +46612,7 @@ pg.world_event_data = {
 	},
 	[89233] = {
 		enemyicon = 2,
-		name = "{namecode:98}",
+		name = "#N/A",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -48203,7 +48203,7 @@ pg.world_event_data = {
 	},
 	[100000] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -48243,7 +48243,7 @@ pg.world_event_data = {
 	},
 	[100001] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -48283,7 +48283,7 @@ pg.world_event_data = {
 	},
 	[100002] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -48323,7 +48323,7 @@ pg.world_event_data = {
 	},
 	[100003] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -48363,7 +48363,7 @@ pg.world_event_data = {
 	},
 	[100004] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -48403,7 +48403,7 @@ pg.world_event_data = {
 	},
 	[100005] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -48443,7 +48443,7 @@ pg.world_event_data = {
 	},
 	[100006] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -48483,7 +48483,7 @@ pg.world_event_data = {
 	},
 	[100007] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -48523,7 +48523,7 @@ pg.world_event_data = {
 	},
 	[100008] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -48563,7 +48563,7 @@ pg.world_event_data = {
 	},
 	[100009] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -48603,7 +48603,7 @@ pg.world_event_data = {
 	},
 	[100010] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -48643,7 +48643,7 @@ pg.world_event_data = {
 	},
 	[100011] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -48683,7 +48683,7 @@ pg.world_event_data = {
 	},
 	[100012] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -48723,7 +48723,7 @@ pg.world_event_data = {
 	},
 	[100013] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -48763,7 +48763,7 @@ pg.world_event_data = {
 	},
 	[100014] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -48803,7 +48803,7 @@ pg.world_event_data = {
 	},
 	[100015] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -48843,7 +48843,7 @@ pg.world_event_data = {
 	},
 	[100016] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -48883,7 +48883,7 @@ pg.world_event_data = {
 	},
 	[100017] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -48923,7 +48923,7 @@ pg.world_event_data = {
 	},
 	[100018] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -48963,7 +48963,7 @@ pg.world_event_data = {
 	},
 	[100019] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49003,7 +49003,7 @@ pg.world_event_data = {
 	},
 	[100020] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49043,7 +49043,7 @@ pg.world_event_data = {
 	},
 	[100021] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49083,7 +49083,7 @@ pg.world_event_data = {
 	},
 	[100022] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49123,7 +49123,7 @@ pg.world_event_data = {
 	},
 	[100023] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49163,7 +49163,7 @@ pg.world_event_data = {
 	},
 	[100024] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49203,7 +49203,7 @@ pg.world_event_data = {
 	},
 	[100025] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49243,7 +49243,7 @@ pg.world_event_data = {
 	},
 	[100026] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49283,7 +49283,7 @@ pg.world_event_data = {
 	},
 	[100027] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49323,7 +49323,7 @@ pg.world_event_data = {
 	},
 	[100028] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49363,7 +49363,7 @@ pg.world_event_data = {
 	},
 	[100029] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49403,7 +49403,7 @@ pg.world_event_data = {
 	},
 	[100030] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49443,7 +49443,7 @@ pg.world_event_data = {
 	},
 	[100031] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49483,7 +49483,7 @@ pg.world_event_data = {
 	},
 	[100032] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49523,7 +49523,7 @@ pg.world_event_data = {
 	},
 	[100033] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49563,7 +49563,7 @@ pg.world_event_data = {
 	},
 	[100034] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49603,7 +49603,7 @@ pg.world_event_data = {
 	},
 	[100035] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49643,7 +49643,7 @@ pg.world_event_data = {
 	},
 	[100036] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49683,7 +49683,7 @@ pg.world_event_data = {
 	},
 	[100037] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49723,7 +49723,7 @@ pg.world_event_data = {
 	},
 	[100038] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49763,7 +49763,7 @@ pg.world_event_data = {
 	},
 	[100039] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49803,7 +49803,7 @@ pg.world_event_data = {
 	},
 	[100040] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49843,7 +49843,7 @@ pg.world_event_data = {
 	},
 	[100041] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49883,7 +49883,7 @@ pg.world_event_data = {
 	},
 	[100042] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49923,7 +49923,7 @@ pg.world_event_data = {
 	},
 	[100043] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -49963,7 +49963,7 @@ pg.world_event_data = {
 	},
 	[100044] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50003,7 +50003,7 @@ pg.world_event_data = {
 	},
 	[100045] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50043,7 +50043,7 @@ pg.world_event_data = {
 	},
 	[100046] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50083,7 +50083,7 @@ pg.world_event_data = {
 	},
 	[100047] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50123,7 +50123,7 @@ pg.world_event_data = {
 	},
 	[100048] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50163,7 +50163,7 @@ pg.world_event_data = {
 	},
 	[100049] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50203,7 +50203,7 @@ pg.world_event_data = {
 	},
 	[100050] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50243,7 +50243,7 @@ pg.world_event_data = {
 	},
 	[100051] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50283,7 +50283,7 @@ pg.world_event_data = {
 	},
 	[100052] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50323,7 +50323,7 @@ pg.world_event_data = {
 	},
 	[100053] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50363,7 +50363,7 @@ pg.world_event_data = {
 	},
 	[100054] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50403,7 +50403,7 @@ pg.world_event_data = {
 	},
 	[100055] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50443,7 +50443,7 @@ pg.world_event_data = {
 	},
 	[100056] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50483,7 +50483,7 @@ pg.world_event_data = {
 	},
 	[100057] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50523,7 +50523,7 @@ pg.world_event_data = {
 	},
 	[100058] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50563,7 +50563,7 @@ pg.world_event_data = {
 	},
 	[100059] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50603,7 +50603,7 @@ pg.world_event_data = {
 	},
 	[100060] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50643,7 +50643,7 @@ pg.world_event_data = {
 	},
 	[100061] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50683,7 +50683,7 @@ pg.world_event_data = {
 	},
 	[100062] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50723,7 +50723,7 @@ pg.world_event_data = {
 	},
 	[100063] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50763,7 +50763,7 @@ pg.world_event_data = {
 	},
 	[100064] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50803,7 +50803,7 @@ pg.world_event_data = {
 	},
 	[100065] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50843,7 +50843,7 @@ pg.world_event_data = {
 	},
 	[100066] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50883,7 +50883,7 @@ pg.world_event_data = {
 	},
 	[100067] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50923,7 +50923,7 @@ pg.world_event_data = {
 	},
 	[100068] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -50963,7 +50963,7 @@ pg.world_event_data = {
 	},
 	[100069] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -51003,7 +51003,7 @@ pg.world_event_data = {
 	},
 	[100070] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -51043,7 +51043,7 @@ pg.world_event_data = {
 	},
 	[100071] = {
 		enemyicon = 0,
-		name = "收藏-档案",
+		name = "보관-파일",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -58499,7 +58499,7 @@ pg.world_event_data = {
 	},
 	[210010] = {
 		enemyicon = 0,
-		name = "海洋垃圾",
+		name = "해양 쓰레기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -58540,7 +58540,7 @@ pg.world_event_data = {
 	},
 	[210110] = {
 		enemyicon = 0,
-		name = "塞壬能源矩阵",
+		name = "세이렌 에너지 매트릭스",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -58621,7 +58621,7 @@ pg.world_event_data = {
 	},
 	[210210] = {
 		enemyicon = 0,
-		name = "海洋垃圾",
+		name = "해양 쓰레기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -58656,7 +58656,7 @@ pg.world_event_data = {
 	},
 	[210220] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -58697,7 +58697,7 @@ pg.world_event_data = {
 	},
 	[210221] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -58738,7 +58738,7 @@ pg.world_event_data = {
 	},
 	[210222] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -58814,7 +58814,7 @@ pg.world_event_data = {
 	},
 	[210320] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -58855,7 +58855,7 @@ pg.world_event_data = {
 	},
 	[210321] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -58896,7 +58896,7 @@ pg.world_event_data = {
 	},
 	[210322] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -58972,7 +58972,7 @@ pg.world_event_data = {
 	},
 	[210420] = {
 		enemyicon = 2,
-		name = "演习舰队",
+		name = "연습 함대",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -59013,7 +59013,7 @@ pg.world_event_data = {
 	},
 	[210421] = {
 		enemyicon = 2,
-		name = "演习舰队",
+		name = "연습 함대",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -59054,7 +59054,7 @@ pg.world_event_data = {
 	},
 	[210422] = {
 		enemyicon = 2,
-		name = "演习舰队",
+		name = "연습 함대",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -59130,7 +59130,7 @@ pg.world_event_data = {
 	},
 	[210520] = {
 		enemyicon = 2,
-		name = "演习舰队",
+		name = "연습 함대",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -59178,7 +59178,7 @@ pg.world_event_data = {
 	},
 	[210521] = {
 		enemyicon = 2,
-		name = "演习舰队",
+		name = "연습 함대",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -59226,7 +59226,7 @@ pg.world_event_data = {
 	},
 	[210522] = {
 		enemyicon = 2,
-		name = "演习舰队",
+		name = "연습 함대",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -59274,7 +59274,7 @@ pg.world_event_data = {
 	},
 	[210610] = {
 		enemyicon = 0,
-		name = "海洋垃圾",
+		name = "해양 쓰레기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -59315,7 +59315,7 @@ pg.world_event_data = {
 	},
 	[210710] = {
 		enemyicon = 0,
-		name = "海洋垃圾",
+		name = "해양 쓰레기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -59356,7 +59356,7 @@ pg.world_event_data = {
 	},
 	[210810] = {
 		enemyicon = 0,
-		name = "塞壬能源矩阵",
+		name = "세이렌 에너지 매트릭스",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -59437,7 +59437,7 @@ pg.world_event_data = {
 	},
 	[210910] = {
 		enemyicon = 0,
-		name = "塞壬能源矩阵",
+		name = "세이렌 에너지 매트릭스",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -59553,7 +59553,7 @@ pg.world_event_data = {
 	},
 	[211020] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -59594,7 +59594,7 @@ pg.world_event_data = {
 	},
 	[211021] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -59635,7 +59635,7 @@ pg.world_event_data = {
 	},
 	[211022] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -59711,7 +59711,7 @@ pg.world_event_data = {
 	},
 	[211120] = {
 		enemyicon = 2,
-		name = "演习舰队",
+		name = "연습 함대",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -59765,7 +59765,7 @@ pg.world_event_data = {
 	},
 	[211121] = {
 		enemyicon = 2,
-		name = "演习舰队",
+		name = "연습 함대",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -59819,7 +59819,7 @@ pg.world_event_data = {
 	},
 	[211122] = {
 		enemyicon = 2,
-		name = "演习舰队",
+		name = "연습 함대",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -59873,7 +59873,7 @@ pg.world_event_data = {
 	},
 	[213010] = {
 		enemyicon = 0,
-		name = "散落的物资",
+		name = "흩어진 물자",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -59909,7 +59909,7 @@ pg.world_event_data = {
 	},
 	[213110] = {
 		enemyicon = 0,
-		name = "散落的物资",
+		name = "흩어진 물자",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -59945,7 +59945,7 @@ pg.world_event_data = {
 	},
 	[213210] = {
 		enemyicon = 0,
-		name = "沉没的物资",
+		name = "침몰한 물자",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -59981,7 +59981,7 @@ pg.world_event_data = {
 	},
 	[213211] = {
 		enemyicon = 0,
-		name = "沉没的物资",
+		name = "침몰한 물자",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -60016,7 +60016,7 @@ pg.world_event_data = {
 	},
 	[213310] = {
 		enemyicon = 0,
-		name = "沉没的物资",
+		name = "침몰한 물자",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -60052,7 +60052,7 @@ pg.world_event_data = {
 	},
 	[213311] = {
 		enemyicon = 0,
-		name = "沉没的物资",
+		name = "침몰한 물자",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -60122,7 +60122,7 @@ pg.world_event_data = {
 	},
 	[213420] = {
 		enemyicon = 3,
-		name = "塞壬执行者",
+		name = "세이렌 집행자",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -60163,7 +60163,7 @@ pg.world_event_data = {
 	},
 	[213421] = {
 		enemyicon = 3,
-		name = "塞壬执行者",
+		name = "세이렌 집행자",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -60204,7 +60204,7 @@ pg.world_event_data = {
 	},
 	[213422] = {
 		enemyicon = 3,
-		name = "塞壬执行者",
+		name = "세이렌 집행자",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -60280,7 +60280,7 @@ pg.world_event_data = {
 	},
 	[213520] = {
 		enemyicon = 3,
-		name = "塞壬执行者",
+		name = "세이렌 집행자",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -60321,7 +60321,7 @@ pg.world_event_data = {
 	},
 	[213521] = {
 		enemyicon = 3,
-		name = "塞壬执行者",
+		name = "세이렌 집행자",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -60362,7 +60362,7 @@ pg.world_event_data = {
 	},
 	[213522] = {
 		enemyicon = 3,
-		name = "塞壬执行者",
+		name = "세이렌 집행자",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -60511,7 +60511,7 @@ pg.world_event_data = {
 	},
 	[213630] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -60552,7 +60552,7 @@ pg.world_event_data = {
 	},
 	[213631] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -60593,7 +60593,7 @@ pg.world_event_data = {
 	},
 	[213632] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -60742,7 +60742,7 @@ pg.world_event_data = {
 	},
 	[213730] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -60783,7 +60783,7 @@ pg.world_event_data = {
 	},
 	[213731] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -60824,7 +60824,7 @@ pg.world_event_data = {
 	},
 	[213732] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -60931,7 +60931,7 @@ pg.world_event_data = {
 	},
 	[213820] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -60972,7 +60972,7 @@ pg.world_event_data = {
 	},
 	[213821] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -61013,7 +61013,7 @@ pg.world_event_data = {
 	},
 	[213822] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -61089,7 +61089,7 @@ pg.world_event_data = {
 	},
 	[213840] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -61130,7 +61130,7 @@ pg.world_event_data = {
 	},
 	[213841] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -61171,7 +61171,7 @@ pg.world_event_data = {
 	},
 	[213842] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -61278,7 +61278,7 @@ pg.world_event_data = {
 	},
 	[213920] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -61319,7 +61319,7 @@ pg.world_event_data = {
 	},
 	[213921] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -61360,7 +61360,7 @@ pg.world_event_data = {
 	},
 	[213922] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -61436,7 +61436,7 @@ pg.world_event_data = {
 	},
 	[213940] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -61477,7 +61477,7 @@ pg.world_event_data = {
 	},
 	[213941] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -61518,7 +61518,7 @@ pg.world_event_data = {
 	},
 	[213942] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -61559,7 +61559,7 @@ pg.world_event_data = {
 	},
 	[216310] = {
 		enemyicon = 0,
-		name = "沉没的物资",
+		name = "침몰한 물자",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -61595,7 +61595,7 @@ pg.world_event_data = {
 	},
 	[216410] = {
 		enemyicon = 0,
-		name = "沉没的物资",
+		name = "침몰한 물자",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -61631,7 +61631,7 @@ pg.world_event_data = {
 	},
 	[216510] = {
 		enemyicon = 0,
-		name = "沉没的物资",
+		name = "침몰한 물자",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -61667,7 +61667,7 @@ pg.world_event_data = {
 	},
 	[216511] = {
 		enemyicon = 0,
-		name = "沉没的物资",
+		name = "침몰한 물자",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -61702,7 +61702,7 @@ pg.world_event_data = {
 	},
 	[216610] = {
 		enemyicon = 0,
-		name = "沉没的物资",
+		name = "침몰한 물자",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -61738,7 +61738,7 @@ pg.world_event_data = {
 	},
 	[216611] = {
 		enemyicon = 0,
-		name = "沉没的物资",
+		name = "침몰한 물자",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -61808,7 +61808,7 @@ pg.world_event_data = {
 	},
 	[216720] = {
 		enemyicon = 3,
-		name = "塞壬执行者",
+		name = "세이렌 집행자",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -61849,7 +61849,7 @@ pg.world_event_data = {
 	},
 	[216721] = {
 		enemyicon = 3,
-		name = "塞壬执行者",
+		name = "세이렌 집행자",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -61890,7 +61890,7 @@ pg.world_event_data = {
 	},
 	[216722] = {
 		enemyicon = 3,
-		name = "塞壬执行者",
+		name = "세이렌 집행자",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -61966,7 +61966,7 @@ pg.world_event_data = {
 	},
 	[216820] = {
 		enemyicon = 3,
-		name = "塞壬执行者",
+		name = "세이렌 집행자",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -62007,7 +62007,7 @@ pg.world_event_data = {
 	},
 	[216821] = {
 		enemyicon = 3,
-		name = "塞壬执行者",
+		name = "세이렌 집행자",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -62048,7 +62048,7 @@ pg.world_event_data = {
 	},
 	[216822] = {
 		enemyicon = 3,
-		name = "塞壬执行者",
+		name = "세이렌 집행자",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -62197,7 +62197,7 @@ pg.world_event_data = {
 	},
 	[216930] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -62238,7 +62238,7 @@ pg.world_event_data = {
 	},
 	[216931] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -62279,7 +62279,7 @@ pg.world_event_data = {
 	},
 	[216932] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -62428,7 +62428,7 @@ pg.world_event_data = {
 	},
 	[217030] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -62469,7 +62469,7 @@ pg.world_event_data = {
 	},
 	[217031] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -62510,7 +62510,7 @@ pg.world_event_data = {
 	},
 	[217032] = {
 		enemyicon = 0,
-		name = "塞壬袭击舰队",
+		name = "세이렌 습격 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -62551,7 +62551,7 @@ pg.world_event_data = {
 	},
 	[1000000] = {
 		enemyicon = 0,
-		name = "塞壬增援点",
+		name = "세이렌 증원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -62817,7 +62817,7 @@ pg.world_event_data = {
 	},
 	[1000006] = {
 		enemyicon = 0,
-		name = "塞壬航线引导装置",
+		name = "세이렌 항로 유도 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -62892,7 +62892,7 @@ pg.world_event_data = {
 	},
 	[1000007] = {
 		enemyicon = 0,
-		name = "塞壬航线引导装置",
+		name = "세이렌 항로 유도 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -62928,7 +62928,7 @@ pg.world_event_data = {
 	},
 	[1000008] = {
 		enemyicon = 0,
-		name = "",
+		name = "#N/A",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -63090,7 +63090,7 @@ pg.world_event_data = {
 	},
 	[1000011] = {
 		enemyicon = 0,
-		name = "塞壬量产型增援舰队",
+		name = "세이렌 양산형 증원 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -63221,7 +63221,7 @@ pg.world_event_data = {
 	},
 	[1000012] = {
 		enemyicon = 0,
-		name = "塞壬量产型增援舰队",
+		name = "세이렌 양산형 증원 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -63352,7 +63352,7 @@ pg.world_event_data = {
 	},
 	[1000013] = {
 		enemyicon = 0,
-		name = "塞壬量产型增援舰队",
+		name = "세이렌 양산형 증원 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -63610,7 +63610,7 @@ pg.world_event_data = {
 	},
 	[1000015] = {
 		enemyicon = 0,
-		name = "塞壬强化量产型增援舰队",
+		name = "세이렌 강화 양산형 증원 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -63681,7 +63681,7 @@ pg.world_event_data = {
 	},
 	[1000016] = {
 		enemyicon = 0,
-		name = "塞壬强化量产型增援舰队",
+		name = "세이렌 강화 양산형 증원 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -63752,7 +63752,7 @@ pg.world_event_data = {
 	},
 	[1000017] = {
 		enemyicon = 0,
-		name = "塞壬强化量产型增援舰队",
+		name = "세이렌 강화 양산형 증원 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -63948,7 +63948,7 @@ pg.world_event_data = {
 	},
 	[1000021] = {
 		enemyicon = 3,
-		name = "守卫模块·探索者II型改",
+		name = "수비 모듈·스캐빈저II형改",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -64072,7 +64072,7 @@ pg.world_event_data = {
 	},
 	[1000022] = {
 		enemyicon = 3,
-		name = "守卫模块·追迹者II型改",
+		name = "수비 모듈·체이서II형改",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -64196,7 +64196,7 @@ pg.world_event_data = {
 	},
 	[1000023] = {
 		enemyicon = 3,
-		name = "守卫模块·领洋者II型改",
+		name = "수비 모듈·네비게이터II형改",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -64320,7 +64320,7 @@ pg.world_event_data = {
 	},
 	[1000024] = {
 		enemyicon = 3,
-		name = "守卫模块·破局者II型改",
+		name = "수비 모듈·스매셔II형改",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -64444,7 +64444,7 @@ pg.world_event_data = {
 	},
 	[1000025] = {
 		enemyicon = 3,
-		name = "守卫模块·执棋者II型改",
+		name = "수비 모듈·컨덕터II형改",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -64647,7 +64647,7 @@ pg.world_event_data = {
 	},
 	[1000032] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -64693,7 +64693,7 @@ pg.world_event_data = {
 	},
 	[1000033] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -64739,7 +64739,7 @@ pg.world_event_data = {
 	},
 	[1000034] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -64992,7 +64992,7 @@ pg.world_event_data = {
 	},
 	[1000090] = {
 		enemyicon = 0,
-		name = "塞壬增援点",
+		name = "세이렌 증원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -65033,7 +65033,7 @@ pg.world_event_data = {
 	},
 	[1000100] = {
 		enemyicon = 0,
-		name = "塞壬增援点",
+		name = "세이렌 증원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -65128,7 +65128,7 @@ pg.world_event_data = {
 	},
 	[1000101] = {
 		enemyicon = 0,
-		name = "巨型浮冰",
+		name = "거대 유빙",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -65218,7 +65218,7 @@ pg.world_event_data = {
 	},
 	[1000103] = {
 		enemyicon = 0,
-		name = "塞壬浮冰控制器",
+		name = "세이렌 유빙 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -65267,7 +65267,7 @@ pg.world_event_data = {
 	},
 	[1000104] = {
 		enemyicon = 0,
-		name = "被摧毁的塞壬控制器",
+		name = "파괴된 세이렌 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -65302,7 +65302,7 @@ pg.world_event_data = {
 	},
 	[1000105] = {
 		enemyicon = 0,
-		name = "塞壬增援点",
+		name = "세이렌 증원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -65346,7 +65346,7 @@ pg.world_event_data = {
 	},
 	[1000200] = {
 		enemyicon = 0,
-		name = "塞壬增援点",
+		name = "세이렌 증원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -65479,7 +65479,7 @@ pg.world_event_data = {
 	},
 	[1000202] = {
 		enemyicon = 0,
-		name = "塞壬飓风控制器",
+		name = "세이렌 허리케인 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -65527,7 +65527,7 @@ pg.world_event_data = {
 	},
 	[1000203] = {
 		enemyicon = 0,
-		name = "被摧毁的塞壬控制器",
+		name = "파괴된 세이렌 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -65562,7 +65562,7 @@ pg.world_event_data = {
 	},
 	[1000204] = {
 		enemyicon = 0,
-		name = "塞壬增援点",
+		name = "세이렌 증원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -65606,7 +65606,7 @@ pg.world_event_data = {
 	},
 	[1000300] = {
 		enemyicon = 0,
-		name = "塞壬增援点",
+		name = "세이렌 증원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -65741,7 +65741,7 @@ pg.world_event_data = {
 	},
 	[1000302] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -65807,7 +65807,7 @@ pg.world_event_data = {
 	},
 	[1000303] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -65873,7 +65873,7 @@ pg.world_event_data = {
 	},
 	[1000304] = {
 		enemyicon = 0,
-		name = "塞壬海雾控制器",
+		name = "세이렌 해무 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -65922,7 +65922,7 @@ pg.world_event_data = {
 	},
 	[1000305] = {
 		enemyicon = 0,
-		name = "被摧毁的塞壬控制器",
+		name = "파괴된 세이렌 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -65957,7 +65957,7 @@ pg.world_event_data = {
 	},
 	[1000306] = {
 		enemyicon = 0,
-		name = "塞壬增援点",
+		name = "세이렌 증원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -66001,7 +66001,7 @@ pg.world_event_data = {
 	},
 	[1000400] = {
 		enemyicon = 0,
-		name = "塞壬增援点",
+		name = "세이렌 증원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -66134,7 +66134,7 @@ pg.world_event_data = {
 	},
 	[1000402] = {
 		enemyicon = 0,
-		name = "塞壬洋流控制器",
+		name = "세이렌 해류 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -66182,7 +66182,7 @@ pg.world_event_data = {
 	},
 	[1000403] = {
 		enemyicon = 0,
-		name = "被摧毁的塞壬控制器",
+		name = "파괴된 세이렌 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -66217,7 +66217,7 @@ pg.world_event_data = {
 	},
 	[1000404] = {
 		enemyicon = 0,
-		name = "塞壬增援点",
+		name = "세이렌 증원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -66347,7 +66347,7 @@ pg.world_event_data = {
 	},
 	[1001001] = {
 		enemyicon = 0,
-		name = "区域阻断装置",
+		name = "구역 차단 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -66400,7 +66400,7 @@ pg.world_event_data = {
 	},
 	[1001002] = {
 		enemyicon = 0,
-		name = "开启设施",
+		name = "가동 시설",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -66536,7 +66536,7 @@ pg.world_event_data = {
 	},
 	[1001004] = {
 		enemyicon = 0,
-		name = "资源补给箱",
+		name = "자원 보급 상자",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -66638,7 +66638,7 @@ pg.world_event_data = {
 	},
 	[1001006] = {
 		enemyicon = 0,
-		name = "稀有资源补给箱",
+		name = "희귀 자원 보급 상자",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -66703,7 +66703,7 @@ pg.world_event_data = {
 	},
 	[1001007] = {
 		enemyicon = 3,
-		name = "探索者I型",
+		name = "스캐빈저I형",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -66774,7 +66774,7 @@ pg.world_event_data = {
 	},
 	[1001008] = {
 		enemyicon = 3,
-		name = "追迹者I型",
+		name = "체이서I형",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -66845,7 +66845,7 @@ pg.world_event_data = {
 	},
 	[1001009] = {
 		enemyicon = 3,
-		name = "领洋者I型",
+		name = "네비게이터I형",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -66916,7 +66916,7 @@ pg.world_event_data = {
 	},
 	[1001010] = {
 		enemyicon = 3,
-		name = "破局者I型",
+		name = "스매셔I형",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -66987,7 +66987,7 @@ pg.world_event_data = {
 	},
 	[1001011] = {
 		enemyicon = 3,
-		name = "执棋者I型",
+		name = "컨덕터I형",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -67111,7 +67111,7 @@ pg.world_event_data = {
 	},
 	[1001100] = {
 		enemyicon = 0,
-		name = "特殊资源点",
+		name = "특수 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -67201,7 +67201,7 @@ pg.world_event_data = {
 	},
 	[1001101] = {
 		enemyicon = 0,
-		name = "能源矩阵启动装置",
+		name = "에너지 매트릭스 가동 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -67316,7 +67316,7 @@ pg.world_event_data = {
 	},
 	[1001103] = {
 		enemyicon = 0,
-		name = "特殊资源点",
+		name = "특수 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -67355,7 +67355,7 @@ pg.world_event_data = {
 	},
 	[1001104] = {
 		enemyicon = 0,
-		name = "特殊资源点",
+		name = "특수 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -67395,7 +67395,7 @@ pg.world_event_data = {
 	},
 	[1001105] = {
 		enemyicon = 0,
-		name = "能源矩阵",
+		name = "에너지 매트릭스",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -67479,7 +67479,7 @@ pg.world_event_data = {
 	},
 	[1001106] = {
 		enemyicon = 0,
-		name = "能源矩阵",
+		name = "에너지 매트릭스",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -67682,7 +67682,7 @@ pg.world_event_data = {
 	},
 	[1001201] = {
 		enemyicon = 4,
-		name = "障碍物",
+		name = "장애물",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -67932,7 +67932,7 @@ pg.world_event_data = {
 	},
 	[1001302] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -68079,7 +68079,7 @@ pg.world_event_data = {
 	},
 	[1002001] = {
 		enemyicon = 2,
-		name = "神秘商人",
+		name = "신비한 상인",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -68115,7 +68115,7 @@ pg.world_event_data = {
 	},
 	[1002002] = {
 		enemyicon = 3,
-		name = "神秘商人",
+		name = "신비한 상인",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -68206,7 +68206,7 @@ pg.world_event_data = {
 	},
 	[1002004] = {
 		enemyicon = 2,
-		name = "神秘商人",
+		name = "신비한 상인",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -68241,7 +68241,7 @@ pg.world_event_data = {
 	},
 	[1002005] = {
 		enemyicon = 3,
-		name = "神秘商人",
+		name = "신비한 상인",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -68276,7 +68276,7 @@ pg.world_event_data = {
 	},
 	[1002006] = {
 		enemyicon = 0,
-		name = "",
+		name = "#N/A",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -68323,7 +68323,7 @@ pg.world_event_data = {
 	},
 	[1002007] = {
 		enemyicon = 0,
-		name = "",
+		name = "#N/A",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -68406,7 +68406,7 @@ pg.world_event_data = {
 	},
 	[1002101] = {
 		enemyicon = 2,
-		name = "女灶神",
+		name = "베스탈",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -68448,7 +68448,7 @@ pg.world_event_data = {
 	},
 	[1002102] = {
 		enemyicon = 3,
-		name = "女灶神",
+		name = "베스탈",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -68490,7 +68490,7 @@ pg.world_event_data = {
 	},
 	[1002103] = {
 		enemyicon = 0,
-		name = "治疗点",
+		name = "치료 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -68544,7 +68544,7 @@ pg.world_event_data = {
 	},
 	[1002104] = {
 		enemyicon = 2,
-		name = "女灶神",
+		name = "베스탈",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -68580,7 +68580,7 @@ pg.world_event_data = {
 	},
 	[1002105] = {
 		enemyicon = 3,
-		name = "女灶神",
+		name = "베스탈",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -68656,7 +68656,7 @@ pg.world_event_data = {
 	},
 	[1002107] = {
 		enemyicon = 0,
-		name = "治疗点",
+		name = "치료 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -68709,7 +68709,7 @@ pg.world_event_data = {
 	},
 	[1002108] = {
 		enemyicon = 2,
-		name = "女灶神",
+		name = "베스탈",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -68744,7 +68744,7 @@ pg.world_event_data = {
 	},
 	[1002109] = {
 		enemyicon = 3,
-		name = "女灶神",
+		name = "베스탈",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -68779,7 +68779,7 @@ pg.world_event_data = {
 	},
 	[1002110] = {
 		enemyicon = 0,
-		name = "治疗点",
+		name = "치료 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -68963,7 +68963,7 @@ pg.world_event_data = {
 	},
 	[1002203] = {
 		enemyicon = 4,
-		name = "障碍物",
+		name = "장애물",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -69387,7 +69387,7 @@ pg.world_event_data = {
 	},
 	[1002214] = {
 		enemyicon = 0,
-		name = "机关",
+		name = "기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -69428,7 +69428,7 @@ pg.world_event_data = {
 	},
 	[1002215] = {
 		enemyicon = 0,
-		name = "机关",
+		name = "기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -69469,7 +69469,7 @@ pg.world_event_data = {
 	},
 	[1002216] = {
 		enemyicon = 0,
-		name = "机关",
+		name = "기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -69510,7 +69510,7 @@ pg.world_event_data = {
 	},
 	[1002217] = {
 		enemyicon = 0,
-		name = "机关",
+		name = "기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -69551,7 +69551,7 @@ pg.world_event_data = {
 	},
 	[1002218] = {
 		enemyicon = 0,
-		name = "机关",
+		name = "기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -69592,7 +69592,7 @@ pg.world_event_data = {
 	},
 	[1002219] = {
 		enemyicon = 0,
-		name = "机关",
+		name = "기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -69633,7 +69633,7 @@ pg.world_event_data = {
 	},
 	[1002220] = {
 		enemyicon = 0,
-		name = "机关",
+		name = "기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -69675,7 +69675,7 @@ pg.world_event_data = {
 	},
 	[1002221] = {
 		enemyicon = 0,
-		name = "机关",
+		name = "기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -69717,7 +69717,7 @@ pg.world_event_data = {
 	},
 	[1002222] = {
 		enemyicon = 0,
-		name = "机关",
+		name = "기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -69759,7 +69759,7 @@ pg.world_event_data = {
 	},
 	[1002223] = {
 		enemyicon = 0,
-		name = "机关",
+		name = "기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -69801,7 +69801,7 @@ pg.world_event_data = {
 	},
 	[1002224] = {
 		enemyicon = 0,
-		name = "机关",
+		name = "기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -69843,7 +69843,7 @@ pg.world_event_data = {
 	},
 	[1002225] = {
 		enemyicon = 0,
-		name = "机关",
+		name = "기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -69885,7 +69885,7 @@ pg.world_event_data = {
 	},
 	[1002226] = {
 		enemyicon = 0,
-		name = "机关",
+		name = "기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -69974,7 +69974,7 @@ pg.world_event_data = {
 	},
 	[1002227] = {
 		enemyicon = 0,
-		name = "机关",
+		name = "기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -70063,7 +70063,7 @@ pg.world_event_data = {
 	},
 	[1002228] = {
 		enemyicon = 0,
-		name = "机关",
+		name = "기관",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -70265,7 +70265,7 @@ pg.world_event_data = {
 	},
 	[1002232] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -70355,7 +70355,7 @@ pg.world_event_data = {
 	},
 	[1002233] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -70445,7 +70445,7 @@ pg.world_event_data = {
 	},
 	[1002234] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -70668,7 +70668,7 @@ pg.world_event_data = {
 	},
 	[1009001] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -70739,7 +70739,7 @@ pg.world_event_data = {
 	},
 	[1009002] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -70810,7 +70810,7 @@ pg.world_event_data = {
 	},
 	[1009003] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -70881,7 +70881,7 @@ pg.world_event_data = {
 	},
 	[1009004] = {
 		enemyicon = 0,
-		name = "资源补给箱",
+		name = "자원 보급 상자",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -71011,7 +71011,7 @@ pg.world_event_data = {
 	},
 	[1009006] = {
 		enemyicon = 0,
-		name = "资源补给箱",
+		name = "자원 보급 상자",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -71076,7 +71076,7 @@ pg.world_event_data = {
 	},
 	[1009007] = {
 		enemyicon = 0,
-		name = "稀有资源补给箱",
+		name = "희귀 자원 보급 상자",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -71141,7 +71141,7 @@ pg.world_event_data = {
 	},
 	[1009010] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -96898,7 +96898,7 @@ pg.world_event_data = {
 	},
 	[4000000] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -96933,7 +96933,7 @@ pg.world_event_data = {
 	},
 	[4000001] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -97123,7 +97123,7 @@ pg.world_event_data = {
 	},
 	[4000002] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -97313,7 +97313,7 @@ pg.world_event_data = {
 	},
 	[4000003] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -97503,7 +97503,7 @@ pg.world_event_data = {
 	},
 	[4000004] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -97693,7 +97693,7 @@ pg.world_event_data = {
 	},
 	[4000011] = {
 		enemyicon = 2,
-		name = "塞壬精英",
+		name = "세이렌 정예",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -97729,7 +97729,7 @@ pg.world_event_data = {
 	},
 	[4000012] = {
 		enemyicon = 2,
-		name = "塞壬精英",
+		name = "세이렌 정예",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -97765,7 +97765,7 @@ pg.world_event_data = {
 	},
 	[4000013] = {
 		enemyicon = 2,
-		name = "塞壬精英",
+		name = "세이렌 정예",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -97801,7 +97801,7 @@ pg.world_event_data = {
 	},
 	[4000014] = {
 		enemyicon = 2,
-		name = "塞壬精英",
+		name = "세이렌 정예",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -97872,7 +97872,7 @@ pg.world_event_data = {
 	},
 	[4001001] = {
 		enemyicon = 2,
-		name = "深渊碎片海域难度3_探索者III型",
+		name = "심연 파편 해역 난이도3_스캐빈저III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -97927,7 +97927,7 @@ pg.world_event_data = {
 	},
 	[4001002] = {
 		enemyicon = 2,
-		name = "深渊碎片海域难度4_探索者III型",
+		name = "심연 파편 해역 난이도4_스캐빈저III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -97982,7 +97982,7 @@ pg.world_event_data = {
 	},
 	[4001003] = {
 		enemyicon = 2,
-		name = "深渊碎片海域难度5_探索者III型",
+		name = "심연 파편 해역 난이도5_스캐빈저III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -98037,7 +98037,7 @@ pg.world_event_data = {
 	},
 	[4001004] = {
 		enemyicon = 2,
-		name = "深渊碎片海域难度6_探索者III型",
+		name = "심연 파편 해역 난이도6_스캐빈저III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -98092,7 +98092,7 @@ pg.world_event_data = {
 	},
 	[4001005] = {
 		enemyicon = 2,
-		name = "深渊碎片海域难度7_探索者III型",
+		name = "심연 파편 해역 난이도7_스캐빈저III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -98147,7 +98147,7 @@ pg.world_event_data = {
 	},
 	[4001011] = {
 		enemyicon = 2,
-		name = "深渊碎片海域难度3_追迹者III型",
+		name = "심연 파편 해역 난이도3_체이서III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -98210,7 +98210,7 @@ pg.world_event_data = {
 	},
 	[4001012] = {
 		enemyicon = 2,
-		name = "深渊碎片海域难度4_追迹者III型",
+		name = "심연 파편 해역 난이도4_체이서III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -98273,7 +98273,7 @@ pg.world_event_data = {
 	},
 	[4001013] = {
 		enemyicon = 2,
-		name = "深渊碎片海域难度5_追迹者III型",
+		name = "심연 파편 해역 난이도5_체이서III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -98336,7 +98336,7 @@ pg.world_event_data = {
 	},
 	[4001014] = {
 		enemyicon = 2,
-		name = "深渊碎片海域难度6_追迹者III型",
+		name = "심연 파편 해역 난이도6_체이서III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -98399,7 +98399,7 @@ pg.world_event_data = {
 	},
 	[4001015] = {
 		enemyicon = 2,
-		name = "深渊碎片海域难度7_追迹者III型",
+		name = "심연 파편 해역 난이도7_체이서III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -98462,7 +98462,7 @@ pg.world_event_data = {
 	},
 	[4001021] = {
 		enemyicon = 2,
-		name = "深渊碎片海域难度3_领洋者III型",
+		name = "심연 파편 해역 난이도3_네비게이터III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -98525,7 +98525,7 @@ pg.world_event_data = {
 	},
 	[4001022] = {
 		enemyicon = 2,
-		name = "深渊碎片海域难度4_领洋者III型",
+		name = "심연 파편 해역 난이도4_네비게이터III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -98588,7 +98588,7 @@ pg.world_event_data = {
 	},
 	[4001023] = {
 		enemyicon = 2,
-		name = "深渊碎片海域难度5_领洋者III型",
+		name = "심연 파편 해역 난이도5_네비게이터III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -98651,7 +98651,7 @@ pg.world_event_data = {
 	},
 	[4001024] = {
 		enemyicon = 2,
-		name = "深渊碎片海域难度6_领洋者III型",
+		name = "심연 파편 해역 난이도6_네비게이터III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -98714,7 +98714,7 @@ pg.world_event_data = {
 	},
 	[4001025] = {
 		enemyicon = 2,
-		name = "深渊碎片海域难度7_领洋者III型",
+		name = "심연 파편 해역 난이도7_네비게이터III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -98777,7 +98777,7 @@ pg.world_event_data = {
 	},
 	[4001031] = {
 		enemyicon = 2,
-		name = "深渊碎片海域难度3_破局者III型",
+		name = "심연 파편 해역 난이도3_스매셔III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -98846,7 +98846,7 @@ pg.world_event_data = {
 	},
 	[4001032] = {
 		enemyicon = 2,
-		name = "深渊碎片海域难度4_破局者III型",
+		name = "심연 파편 해역 난이도4_스매셔III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -98915,7 +98915,7 @@ pg.world_event_data = {
 	},
 	[4001033] = {
 		enemyicon = 2,
-		name = "深渊碎片海域难度5_破局者III型",
+		name = "심연 파편 해역 난이도5_스매셔III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -98984,7 +98984,7 @@ pg.world_event_data = {
 	},
 	[4001034] = {
 		enemyicon = 2,
-		name = "深渊碎片海域难度6_破局者III型",
+		name = "심연 파편 해역 난이도6_스매셔III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -99053,7 +99053,7 @@ pg.world_event_data = {
 	},
 	[4001035] = {
 		enemyicon = 2,
-		name = "深渊碎片海域难度7_破局者III型",
+		name = "심연 파편 해역 난이도7_스매셔III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -99122,7 +99122,7 @@ pg.world_event_data = {
 	},
 	[4001041] = {
 		enemyicon = 2,
-		name = "执棋者III型",
+		name = "컨덕터III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -99185,7 +99185,7 @@ pg.world_event_data = {
 	},
 	[4001042] = {
 		enemyicon = 2,
-		name = "执棋者III型",
+		name = "컨덕터III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -99248,7 +99248,7 @@ pg.world_event_data = {
 	},
 	[4001043] = {
 		enemyicon = 2,
-		name = "执棋者III型",
+		name = "컨덕터III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -99311,7 +99311,7 @@ pg.world_event_data = {
 	},
 	[4001044] = {
 		enemyicon = 2,
-		name = "执棋者III型",
+		name = "컨덕터III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -99374,7 +99374,7 @@ pg.world_event_data = {
 	},
 	[4001045] = {
 		enemyicon = 2,
-		name = "执棋者III型",
+		name = "컨덕터III형",
 		scale = 42,
 		visuality = 0,
 		is_scanevent = 3,
@@ -99437,7 +99437,7 @@ pg.world_event_data = {
 	},
 	[4001051] = {
 		enemyicon = 3,
-		name = "代行者XIV「Equilibrium」",
+		name = "익스큐터XIV「Equilibrium」",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -99501,7 +99501,7 @@ pg.world_event_data = {
 	},
 	[4001052] = {
 		enemyicon = 3,
-		name = "代行者XIV「Equilibrium」",
+		name = "익스큐터XIV「Equilibrium」",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -99565,7 +99565,7 @@ pg.world_event_data = {
 	},
 	[4001053] = {
 		enemyicon = 3,
-		name = "代行者XIV「Equilibrium」",
+		name = "익스큐터XIV「Equilibrium」",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -99629,7 +99629,7 @@ pg.world_event_data = {
 	},
 	[4001054] = {
 		enemyicon = 3,
-		name = "代行者XIV「Equilibrium」",
+		name = "익스큐터XIV「Equilibrium」",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -99693,7 +99693,7 @@ pg.world_event_data = {
 	},
 	[4001055] = {
 		enemyicon = 3,
-		name = "代行者XIV「Equilibrium」",
+		name = "익스큐터XIV「Equilibrium」",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -99757,7 +99757,7 @@ pg.world_event_data = {
 	},
 	[4001061] = {
 		enemyicon = 3,
-		name = "代行者XIV「Equilibrium」",
+		name = "익스큐터XIV「Equilibrium」",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -99821,7 +99821,7 @@ pg.world_event_data = {
 	},
 	[4001062] = {
 		enemyicon = 3,
-		name = "代行者XIV「Equilibrium」",
+		name = "익스큐터XIV「Equilibrium」",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -99885,7 +99885,7 @@ pg.world_event_data = {
 	},
 	[4001063] = {
 		enemyicon = 3,
-		name = "代行者XIV「Equilibrium」",
+		name = "익스큐터XIV「Equilibrium」",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -99949,7 +99949,7 @@ pg.world_event_data = {
 	},
 	[4001064] = {
 		enemyicon = 3,
-		name = "代行者XIV「Equilibrium」",
+		name = "익스큐터XIV「Equilibrium」",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -100013,7 +100013,7 @@ pg.world_event_data = {
 	},
 	[4001065] = {
 		enemyicon = 3,
-		name = "代行者XIV「Equilibrium」",
+		name = "익스큐터XIV「Equilibrium」",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -100077,7 +100077,7 @@ pg.world_event_data = {
 	},
 	[4001071] = {
 		enemyicon = 3,
-		name = "代行者IX「Exploration」",
+		name = "익스큐터IX「Exploration」",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -100141,7 +100141,7 @@ pg.world_event_data = {
 	},
 	[4001072] = {
 		enemyicon = 3,
-		name = "代行者IX「Exploration」",
+		name = "익스큐터IX「Exploration」",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -100205,7 +100205,7 @@ pg.world_event_data = {
 	},
 	[4001073] = {
 		enemyicon = 3,
-		name = "代行者IX「Exploration」",
+		name = "익스큐터IX「Exploration」",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -100269,7 +100269,7 @@ pg.world_event_data = {
 	},
 	[4001074] = {
 		enemyicon = 3,
-		name = "代行者IX「Exploration」",
+		name = "익스큐터IX「Exploration」",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -100333,7 +100333,7 @@ pg.world_event_data = {
 	},
 	[4001075] = {
 		enemyicon = 3,
-		name = "代行者IX「Exploration」",
+		name = "익스큐터IX「Exploration」",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -100397,7 +100397,7 @@ pg.world_event_data = {
 	},
 	[4001081] = {
 		enemyicon = 3,
-		name = "代行者IX「Exploration」",
+		name = "익스큐터IX「Exploration」",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -100462,7 +100462,7 @@ pg.world_event_data = {
 	},
 	[4001082] = {
 		enemyicon = 3,
-		name = "代行者IX「Exploration」",
+		name = "익스큐터IX「Exploration」",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -100527,7 +100527,7 @@ pg.world_event_data = {
 	},
 	[4001083] = {
 		enemyicon = 3,
-		name = "代行者IX「Exploration」",
+		name = "익스큐터IX「Exploration」",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -100592,7 +100592,7 @@ pg.world_event_data = {
 	},
 	[4001084] = {
 		enemyicon = 3,
-		name = "代行者IX「Exploration」",
+		name = "익스큐터IX「Exploration」",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -100657,7 +100657,7 @@ pg.world_event_data = {
 	},
 	[4001085] = {
 		enemyicon = 3,
-		name = "代行者IX「Exploration」",
+		name = "익스큐터IX「Exploration」",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 3,
@@ -100722,7 +100722,7 @@ pg.world_event_data = {
 	},
 	[4002001] = {
 		enemyicon = 3,
-		name = "女灶神",
+		name = "베스탈",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -100763,7 +100763,7 @@ pg.world_event_data = {
 	},
 	[4002002] = {
 		enemyicon = 3,
-		name = "女灶神",
+		name = "베스탈",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -100804,7 +100804,7 @@ pg.world_event_data = {
 	},
 	[4002003] = {
 		enemyicon = 3,
-		name = "女灶神",
+		name = "베스탈",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -100845,7 +100845,7 @@ pg.world_event_data = {
 	},
 	[4002004] = {
 		enemyicon = 3,
-		name = "女灶神",
+		name = "베스탈",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -100886,7 +100886,7 @@ pg.world_event_data = {
 	},
 	[4002005] = {
 		enemyicon = 3,
-		name = "女灶神",
+		name = "베스탈",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -100986,7 +100986,7 @@ pg.world_event_data = {
 	},
 	[4002007] = {
 		enemyicon = 3,
-		name = "女灶神",
+		name = "베스탈",
 		scale = 40,
 		visuality = 0,
 		is_scanevent = 1,
@@ -101027,7 +101027,7 @@ pg.world_event_data = {
 	},
 	[4002011] = {
 		enemyicon = 0,
-		name = "浮标",
+		name = "부표",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -101070,7 +101070,7 @@ pg.world_event_data = {
 	},
 	[4002012] = {
 		enemyicon = 0,
-		name = "浮标",
+		name = "부표",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -101113,7 +101113,7 @@ pg.world_event_data = {
 	},
 	[4002013] = {
 		enemyicon = 0,
-		name = "浮标",
+		name = "부표",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -101156,7 +101156,7 @@ pg.world_event_data = {
 	},
 	[4002014] = {
 		enemyicon = 0,
-		name = "浮标",
+		name = "부표",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -101199,7 +101199,7 @@ pg.world_event_data = {
 	},
 	[4002015] = {
 		enemyicon = 0,
-		name = "浮标",
+		name = "부표",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -101242,7 +101242,7 @@ pg.world_event_data = {
 	},
 	[4002016] = {
 		enemyicon = 0,
-		name = "浮标",
+		name = "부표",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -101285,7 +101285,7 @@ pg.world_event_data = {
 	},
 	[4002017] = {
 		enemyicon = 0,
-		name = "浮标",
+		name = "부표",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -101328,7 +101328,7 @@ pg.world_event_data = {
 	},
 	[4002018] = {
 		enemyicon = 0,
-		name = "浮标",
+		name = "부표",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -101371,7 +101371,7 @@ pg.world_event_data = {
 	},
 	[4002019] = {
 		enemyicon = 0,
-		name = "浮标",
+		name = "부표",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -101414,7 +101414,7 @@ pg.world_event_data = {
 	},
 	[4002020] = {
 		enemyicon = 0,
-		name = "浮标",
+		name = "부표",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -101457,7 +101457,7 @@ pg.world_event_data = {
 	},
 	[4002021] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -101498,7 +101498,7 @@ pg.world_event_data = {
 	},
 	[4002022] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -101551,7 +101551,7 @@ pg.world_event_data = {
 	},
 	[4002023] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -101604,7 +101604,7 @@ pg.world_event_data = {
 	},
 	[4002024] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -101651,7 +101651,7 @@ pg.world_event_data = {
 	},
 	[4002025] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -101686,7 +101686,7 @@ pg.world_event_data = {
 	},
 	[4002026] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -101721,7 +101721,7 @@ pg.world_event_data = {
 	},
 	[4002027] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -101756,7 +101756,7 @@ pg.world_event_data = {
 	},
 	[4002028] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -101791,7 +101791,7 @@ pg.world_event_data = {
 	},
 	[4002029] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -101826,7 +101826,7 @@ pg.world_event_data = {
 	},
 	[4002030] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -101861,7 +101861,7 @@ pg.world_event_data = {
 	},
 	[4003000] = {
 		enemyicon = 0,
-		name = "深渊碎片海域防卫舰队",
+		name = "심연 조각 해역 방위 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -101901,7 +101901,7 @@ pg.world_event_data = {
 	},
 	[4003100] = {
 		enemyicon = 0,
-		name = "深渊碎片海域防卫舰队",
+		name = "심연 조각 해역 방위 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -101941,7 +101941,7 @@ pg.world_event_data = {
 	},
 	[4003200] = {
 		enemyicon = 0,
-		name = "深渊碎片海域防卫舰队",
+		name = "심연 조각 해역 방위 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -101981,7 +101981,7 @@ pg.world_event_data = {
 	},
 	[4003300] = {
 		enemyicon = 0,
-		name = "深渊碎片海域防卫舰队",
+		name = "심연 조각 해역 방위 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -102021,7 +102021,7 @@ pg.world_event_data = {
 	},
 	[4003400] = {
 		enemyicon = 0,
-		name = "深渊碎片海域防卫舰队",
+		name = "심연 조각 해역 방위 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -102067,7 +102067,7 @@ pg.world_event_data = {
 	},
 	[4003500] = {
 		enemyicon = 0,
-		name = "深渊碎片海域防卫舰队",
+		name = "심연 조각 해역 방위 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -102113,7 +102113,7 @@ pg.world_event_data = {
 	},
 	[4003600] = {
 		enemyicon = 0,
-		name = "深渊碎片海域防卫舰队",
+		name = "심연 조각 해역 방위 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -102159,7 +102159,7 @@ pg.world_event_data = {
 	},
 	[4003700] = {
 		enemyicon = 0,
-		name = "深渊碎片海域防卫舰队",
+		name = "심연 조각 해역 방위 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -102205,7 +102205,7 @@ pg.world_event_data = {
 	},
 	[4003800] = {
 		enemyicon = 0,
-		name = "深渊碎片海域防卫舰队",
+		name = "심연 조각 해역 방위 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -102251,7 +102251,7 @@ pg.world_event_data = {
 	},
 	[4003900] = {
 		enemyicon = 0,
-		name = "深渊碎片海域防卫舰队",
+		name = "심연 조각 해역 방위 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -102851,7 +102851,7 @@ pg.world_event_data = {
 	},
 	[4005000] = {
 		enemyicon = 0,
-		name = "传送装置",
+		name = "전송 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -102887,7 +102887,7 @@ pg.world_event_data = {
 	},
 	[4005100] = {
 		enemyicon = 0,
-		name = "传送装置",
+		name = "전송 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -102923,7 +102923,7 @@ pg.world_event_data = {
 	},
 	[4005200] = {
 		enemyicon = 0,
-		name = "传送装置",
+		name = "전송 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -102959,7 +102959,7 @@ pg.world_event_data = {
 	},
 	[4005300] = {
 		enemyicon = 0,
-		name = "传送装置",
+		name = "전송 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -102995,7 +102995,7 @@ pg.world_event_data = {
 	},
 	[4005400] = {
 		enemyicon = 0,
-		name = "传送装置",
+		name = "전송 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -103031,7 +103031,7 @@ pg.world_event_data = {
 	},
 	[4005500] = {
 		enemyicon = 0,
-		name = "传送装置",
+		name = "전송 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -103067,7 +103067,7 @@ pg.world_event_data = {
 	},
 	[4005600] = {
 		enemyicon = 0,
-		name = "传送装置",
+		name = "전송 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -103103,7 +103103,7 @@ pg.world_event_data = {
 	},
 	[4005700] = {
 		enemyicon = 0,
-		name = "传送装置",
+		name = "전송 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -103139,7 +103139,7 @@ pg.world_event_data = {
 	},
 	[4005800] = {
 		enemyicon = 0,
-		name = "传送装置",
+		name = "전송 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -103175,7 +103175,7 @@ pg.world_event_data = {
 	},
 	[4005900] = {
 		enemyicon = 0,
-		name = "传送装置",
+		name = "전송 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -103244,7 +103244,7 @@ pg.world_event_data = {
 	},
 	[4100001] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -103470,7 +103470,7 @@ pg.world_event_data = {
 	},
 	[4100021] = {
 		enemyicon = 0,
-		name = "塞壬侦查舰队II型",
+		name = "세이렌 정찰 함대 II형",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -103510,7 +103510,7 @@ pg.world_event_data = {
 	},
 	[4100022] = {
 		enemyicon = 0,
-		name = "塞壬主力舰队II型",
+		name = "세이렌 주력 함대 II형",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -103550,7 +103550,7 @@ pg.world_event_data = {
 	},
 	[4100023] = {
 		enemyicon = 0,
-		name = "塞壬航空舰队II型",
+		name = "세이렌 항공 함대 II형",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -103590,7 +103590,7 @@ pg.world_event_data = {
 	},
 	[4100051] = {
 		enemyicon = 3,
-		name = "代行者XIV「Equilibrium」",
+		name = "익스큐터XIV「Equilibrium」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -103654,7 +103654,7 @@ pg.world_event_data = {
 	},
 	[4100052] = {
 		enemyicon = 3,
-		name = "代行者XIV「Equilibrium」",
+		name = "익스큐터XIV「Equilibrium」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -103718,7 +103718,7 @@ pg.world_event_data = {
 	},
 	[4100053] = {
 		enemyicon = 3,
-		name = "代行者XIV「Equilibrium」",
+		name = "익스큐터XIV「Equilibrium」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -103782,7 +103782,7 @@ pg.world_event_data = {
 	},
 	[4100054] = {
 		enemyicon = 3,
-		name = "代行者XIV「Equilibrium」",
+		name = "익스큐터XIV「Equilibrium」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -103846,7 +103846,7 @@ pg.world_event_data = {
 	},
 	[4100055] = {
 		enemyicon = 3,
-		name = "代行者XIV「Equilibrium」",
+		name = "익스큐터XIV「Equilibrium」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -103910,7 +103910,7 @@ pg.world_event_data = {
 	},
 	[4100061] = {
 		enemyicon = 3,
-		name = "代行者IX「Concealment」",
+		name = "익스큐터IX「Concealment」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -103977,7 +103977,7 @@ pg.world_event_data = {
 	},
 	[4100062] = {
 		enemyicon = 3,
-		name = "代行者IX「Concealment」",
+		name = "익스큐터IX「Concealment」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -104044,7 +104044,7 @@ pg.world_event_data = {
 	},
 	[4100063] = {
 		enemyicon = 3,
-		name = "代行者IX「Concealment」",
+		name = "익스큐터IX「Concealment」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -104111,7 +104111,7 @@ pg.world_event_data = {
 	},
 	[4100064] = {
 		enemyicon = 3,
-		name = "代行者IX「Concealment」",
+		name = "익스큐터IX「Concealment」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -104178,7 +104178,7 @@ pg.world_event_data = {
 	},
 	[4100065] = {
 		enemyicon = 3,
-		name = "代行者IX「Concealment」",
+		name = "익스큐터IX「Concealment」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -104245,7 +104245,7 @@ pg.world_event_data = {
 	},
 	[4100071] = {
 		enemyicon = 3,
-		name = "代行者VIII「Determination」",
+		name = "익스큐터VIII「Determination」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -104309,7 +104309,7 @@ pg.world_event_data = {
 	},
 	[4100072] = {
 		enemyicon = 3,
-		name = "代行者VIII「Determination」",
+		name = "익스큐터VIII「Determination」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -104373,7 +104373,7 @@ pg.world_event_data = {
 	},
 	[4100073] = {
 		enemyicon = 3,
-		name = "代行者VIII「Determination」",
+		name = "익스큐터VIII「Determination」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -104437,7 +104437,7 @@ pg.world_event_data = {
 	},
 	[4100074] = {
 		enemyicon = 3,
-		name = "代行者VIII「Determination」",
+		name = "익스큐터VIII「Determination」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -104501,7 +104501,7 @@ pg.world_event_data = {
 	},
 	[4100075] = {
 		enemyicon = 3,
-		name = "代行者VIII「Determination」",
+		name = "익스큐터VIII「Determination」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -104565,7 +104565,7 @@ pg.world_event_data = {
 	},
 	[4100081] = {
 		enemyicon = 3,
-		name = "代行者IX「Exploration」",
+		name = "익스큐터IX「Exploration」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -104630,7 +104630,7 @@ pg.world_event_data = {
 	},
 	[4100082] = {
 		enemyicon = 3,
-		name = "代行者IX「Exploration」",
+		name = "익스큐터IX「Exploration」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -104695,7 +104695,7 @@ pg.world_event_data = {
 	},
 	[4100083] = {
 		enemyicon = 3,
-		name = "代行者IX「Exploration」",
+		name = "익스큐터IX「Exploration」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -104760,7 +104760,7 @@ pg.world_event_data = {
 	},
 	[4100084] = {
 		enemyicon = 3,
-		name = "代行者IX「Exploration」",
+		name = "익스큐터IX「Exploration」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -104825,7 +104825,7 @@ pg.world_event_data = {
 	},
 	[4100085] = {
 		enemyicon = 3,
-		name = "代行者IX「Exploration」",
+		name = "익스큐터IX「Exploration」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -104890,7 +104890,7 @@ pg.world_event_data = {
 	},
 	[4100091] = {
 		enemyicon = 3,
-		name = "代行者XIV「Harmony」",
+		name = "익스큐터XIV「Harmony」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -104957,7 +104957,7 @@ pg.world_event_data = {
 	},
 	[4100092] = {
 		enemyicon = 3,
-		name = "代行者XIV「Harmony」",
+		name = "익스큐터XIV「Harmony」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -105024,7 +105024,7 @@ pg.world_event_data = {
 	},
 	[4100093] = {
 		enemyicon = 3,
-		name = "代行者XIV「Harmony」",
+		name = "익스큐터XIV「Harmony」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -105091,7 +105091,7 @@ pg.world_event_data = {
 	},
 	[4100094] = {
 		enemyicon = 3,
-		name = "代行者XIV「Harmony」",
+		name = "익스큐터XIV「Harmony」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -105158,7 +105158,7 @@ pg.world_event_data = {
 	},
 	[4100095] = {
 		enemyicon = 3,
-		name = "代行者XIV「Harmony」",
+		name = "익스큐터XIV「Harmony」",
 		scale = 40,
 		visuality = 1,
 		is_scanevent = 3,
@@ -105576,7 +105576,7 @@ pg.world_event_data = {
 	},
 	[4100200] = {
 		enemyicon = 0,
-		name = "塞壬区域封锁装置",
+		name = "세이렌 구역 봉쇄 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -105614,7 +105614,7 @@ pg.world_event_data = {
 	},
 	[4100201] = {
 		enemyicon = 0,
-		name = "塞壬区域封锁装置",
+		name = "세이렌 구역 봉쇄 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -105694,7 +105694,7 @@ pg.world_event_data = {
 	},
 	[4100203] = {
 		enemyicon = 0,
-		name = "塞壬区域封锁装置",
+		name = "세이렌 구역 봉쇄 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 0,
@@ -105727,7 +105727,7 @@ pg.world_event_data = {
 	},
 	[4100210] = {
 		enemyicon = 0,
-		name = "塞壬区域封锁装置",
+		name = "세이렌 구역 봉쇄 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -105769,7 +105769,7 @@ pg.world_event_data = {
 	},
 	[4100211] = {
 		enemyicon = 0,
-		name = "塞壬区域封锁装置",
+		name = "세이렌 구역 봉쇄 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -105812,7 +105812,7 @@ pg.world_event_data = {
 	},
 	[4100212] = {
 		enemyicon = 0,
-		name = "塞壬区域封锁装置",
+		name = "세이렌 구역 봉쇄 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -108083,7 +108083,7 @@ pg.world_event_data = {
 	},
 	[5000021] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -111040,7 +111040,7 @@ pg.world_event_data = {
 	},
 	[5010021] = {
 		enemyicon = 0,
-		name = "异常海域",
+		name = "이상 해역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -111219,7 +111219,7 @@ pg.world_event_data = {
 	},
 	[5010022] = {
 		enemyicon = 0,
-		name = "破坏的服务器",
+		name = "파괴된 서버",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -111402,7 +111402,7 @@ pg.world_event_data = {
 	},
 	[5010023] = {
 		enemyicon = 0,
-		name = "？？？",
+		name = "???",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -111581,7 +111581,7 @@ pg.world_event_data = {
 	},
 	[5010031] = {
 		enemyicon = 0,
-		name = "异常海域",
+		name = "이상 해역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -111760,7 +111760,7 @@ pg.world_event_data = {
 	},
 	[5010032] = {
 		enemyicon = 0,
-		name = "破坏的服务器",
+		name = "파괴된 서버",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -111943,7 +111943,7 @@ pg.world_event_data = {
 	},
 	[5010033] = {
 		enemyicon = 0,
-		name = "？？？",
+		name = "???",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -113387,7 +113387,7 @@ pg.world_event_data = {
 	},
 	[5010500] = {
 		enemyicon = 0,
-		name = "稀有资源",
+		name = "희귀 자원",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -113424,7 +113424,7 @@ pg.world_event_data = {
 	},
 	[5010501] = {
 		enemyicon = 0,
-		name = "设施",
+		name = "시설",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -116358,7 +116358,7 @@ pg.world_event_data = {
 	},
 	[6000999] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -116637,7 +116637,7 @@ pg.world_event_data = {
 	},
 	[6001210] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -116678,7 +116678,7 @@ pg.world_event_data = {
 	},
 	[6001211] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -116719,7 +116719,7 @@ pg.world_event_data = {
 	},
 	[6001212] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -116760,7 +116760,7 @@ pg.world_event_data = {
 	},
 	[6001213] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -116801,7 +116801,7 @@ pg.world_event_data = {
 	},
 	[6001214] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -116842,7 +116842,7 @@ pg.world_event_data = {
 	},
 	[6001215] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -116883,7 +116883,7 @@ pg.world_event_data = {
 	},
 	[6001220] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -116925,7 +116925,7 @@ pg.world_event_data = {
 	},
 	[6001221] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -116967,7 +116967,7 @@ pg.world_event_data = {
 	},
 	[6001222] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -117009,7 +117009,7 @@ pg.world_event_data = {
 	},
 	[6001223] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -117051,7 +117051,7 @@ pg.world_event_data = {
 	},
 	[6001224] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -117093,7 +117093,7 @@ pg.world_event_data = {
 	},
 	[6001225] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -117212,7 +117212,7 @@ pg.world_event_data = {
 	},
 	[6001310] = {
 		enemyicon = 0,
-		name = "塞壬洋流控制器",
+		name = "세이렌 해류 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -117248,7 +117248,7 @@ pg.world_event_data = {
 	},
 	[6001320] = {
 		enemyicon = 0,
-		name = "塞壬海雾控制器",
+		name = "세이렌 해무 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -117285,7 +117285,7 @@ pg.world_event_data = {
 	},
 	[6001330] = {
 		enemyicon = 0,
-		name = "塞壬能源供应设施",
+		name = "세이렌 에너지 공급 시설",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -117322,7 +117322,7 @@ pg.world_event_data = {
 	},
 	[6001340] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -117398,7 +117398,7 @@ pg.world_event_data = {
 	},
 	[6001410] = {
 		enemyicon = 0,
-		name = "塞壬要塞旗舰舰队",
+		name = "세이렌 요새 기함 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -117475,7 +117475,7 @@ pg.world_event_data = {
 	},
 	[6001411] = {
 		enemyicon = 0,
-		name = "塞壬要塞旗舰舰队",
+		name = "세이렌 요새 기함 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -117552,7 +117552,7 @@ pg.world_event_data = {
 	},
 	[6001412] = {
 		enemyicon = 0,
-		name = "塞壬要塞旗舰舰队",
+		name = "세이렌 요새 기함 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -117629,7 +117629,7 @@ pg.world_event_data = {
 	},
 	[6001430] = {
 		enemyicon = 0,
-		name = "己方海域守备舰队",
+		name = "아군 해역 수비 함대",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -117912,7 +117912,7 @@ pg.world_event_data = {
 	},
 	[6002210] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -117953,7 +117953,7 @@ pg.world_event_data = {
 	},
 	[6002211] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -117994,7 +117994,7 @@ pg.world_event_data = {
 	},
 	[6002212] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -118035,7 +118035,7 @@ pg.world_event_data = {
 	},
 	[6002213] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -118076,7 +118076,7 @@ pg.world_event_data = {
 	},
 	[6002214] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -118117,7 +118117,7 @@ pg.world_event_data = {
 	},
 	[6002215] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -118158,7 +118158,7 @@ pg.world_event_data = {
 	},
 	[6002220] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -118200,7 +118200,7 @@ pg.world_event_data = {
 	},
 	[6002221] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -118242,7 +118242,7 @@ pg.world_event_data = {
 	},
 	[6002222] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -118284,7 +118284,7 @@ pg.world_event_data = {
 	},
 	[6002223] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -118326,7 +118326,7 @@ pg.world_event_data = {
 	},
 	[6002224] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -118368,7 +118368,7 @@ pg.world_event_data = {
 	},
 	[6002225] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -118487,7 +118487,7 @@ pg.world_event_data = {
 	},
 	[6002310] = {
 		enemyicon = 0,
-		name = "塞壬洋流控制器",
+		name = "세이렌 해류 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -118523,7 +118523,7 @@ pg.world_event_data = {
 	},
 	[6002320] = {
 		enemyicon = 0,
-		name = "塞壬海雾控制器",
+		name = "세이렌 해무 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -118560,7 +118560,7 @@ pg.world_event_data = {
 	},
 	[6002330] = {
 		enemyicon = 0,
-		name = "塞壬能源供应设施",
+		name = "세이렌 에너지 공급 시설",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -118597,7 +118597,7 @@ pg.world_event_data = {
 	},
 	[6002340] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -118673,7 +118673,7 @@ pg.world_event_data = {
 	},
 	[6002410] = {
 		enemyicon = 0,
-		name = "塞壬要塞旗舰舰队",
+		name = "세이렌 요새 기함 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -118750,7 +118750,7 @@ pg.world_event_data = {
 	},
 	[6002411] = {
 		enemyicon = 0,
-		name = "塞壬要塞旗舰舰队",
+		name = "세이렌 요새 기함 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -118827,7 +118827,7 @@ pg.world_event_data = {
 	},
 	[6002412] = {
 		enemyicon = 0,
-		name = "塞壬要塞旗舰舰队",
+		name = "세이렌 요새 기함 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -118904,7 +118904,7 @@ pg.world_event_data = {
 	},
 	[6002430] = {
 		enemyicon = 0,
-		name = "己方海域守备舰队",
+		name = "아군 해역 수비 함대",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -119187,7 +119187,7 @@ pg.world_event_data = {
 	},
 	[6003210] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -119228,7 +119228,7 @@ pg.world_event_data = {
 	},
 	[6003211] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -119269,7 +119269,7 @@ pg.world_event_data = {
 	},
 	[6003212] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -119310,7 +119310,7 @@ pg.world_event_data = {
 	},
 	[6003213] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -119351,7 +119351,7 @@ pg.world_event_data = {
 	},
 	[6003214] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -119392,7 +119392,7 @@ pg.world_event_data = {
 	},
 	[6003215] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -119433,7 +119433,7 @@ pg.world_event_data = {
 	},
 	[6003220] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -119475,7 +119475,7 @@ pg.world_event_data = {
 	},
 	[6003221] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -119517,7 +119517,7 @@ pg.world_event_data = {
 	},
 	[6003222] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -119559,7 +119559,7 @@ pg.world_event_data = {
 	},
 	[6003223] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -119601,7 +119601,7 @@ pg.world_event_data = {
 	},
 	[6003224] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -119643,7 +119643,7 @@ pg.world_event_data = {
 	},
 	[6003225] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -119762,7 +119762,7 @@ pg.world_event_data = {
 	},
 	[6003310] = {
 		enemyicon = 0,
-		name = "塞壬洋流控制器",
+		name = "세이렌 해류 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -119798,7 +119798,7 @@ pg.world_event_data = {
 	},
 	[6003320] = {
 		enemyicon = 0,
-		name = "塞壬海雾控制器",
+		name = "세이렌 해무 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -119835,7 +119835,7 @@ pg.world_event_data = {
 	},
 	[6003330] = {
 		enemyicon = 0,
-		name = "塞壬能源供应设施",
+		name = "세이렌 에너지 공급 시설",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -119872,7 +119872,7 @@ pg.world_event_data = {
 	},
 	[6003340] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -119948,7 +119948,7 @@ pg.world_event_data = {
 	},
 	[6003410] = {
 		enemyicon = 0,
-		name = "塞壬要塞旗舰舰队",
+		name = "세이렌 요새 기함 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -120025,7 +120025,7 @@ pg.world_event_data = {
 	},
 	[6003411] = {
 		enemyicon = 0,
-		name = "塞壬要塞旗舰舰队",
+		name = "세이렌 요새 기함 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -120102,7 +120102,7 @@ pg.world_event_data = {
 	},
 	[6003412] = {
 		enemyicon = 0,
-		name = "塞壬要塞旗舰舰队",
+		name = "세이렌 요새 기함 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -120179,7 +120179,7 @@ pg.world_event_data = {
 	},
 	[6003430] = {
 		enemyicon = 0,
-		name = "己方海域守备舰队",
+		name = "아군 해역 수비 함대",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -120462,7 +120462,7 @@ pg.world_event_data = {
 	},
 	[6004210] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -120503,7 +120503,7 @@ pg.world_event_data = {
 	},
 	[6004211] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -120544,7 +120544,7 @@ pg.world_event_data = {
 	},
 	[6004212] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -120585,7 +120585,7 @@ pg.world_event_data = {
 	},
 	[6004213] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -120626,7 +120626,7 @@ pg.world_event_data = {
 	},
 	[6004214] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -120667,7 +120667,7 @@ pg.world_event_data = {
 	},
 	[6004215] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -120708,7 +120708,7 @@ pg.world_event_data = {
 	},
 	[6004220] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -120750,7 +120750,7 @@ pg.world_event_data = {
 	},
 	[6004221] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -120792,7 +120792,7 @@ pg.world_event_data = {
 	},
 	[6004222] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -120834,7 +120834,7 @@ pg.world_event_data = {
 	},
 	[6004223] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -120876,7 +120876,7 @@ pg.world_event_data = {
 	},
 	[6004224] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -120918,7 +120918,7 @@ pg.world_event_data = {
 	},
 	[6004225] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -121037,7 +121037,7 @@ pg.world_event_data = {
 	},
 	[6004310] = {
 		enemyicon = 0,
-		name = "塞壬洋流控制器",
+		name = "세이렌 해류 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -121073,7 +121073,7 @@ pg.world_event_data = {
 	},
 	[6004320] = {
 		enemyicon = 0,
-		name = "塞壬海雾控制器",
+		name = "세이렌 해무 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -121110,7 +121110,7 @@ pg.world_event_data = {
 	},
 	[6004330] = {
 		enemyicon = 0,
-		name = "塞壬能源供应设施",
+		name = "세이렌 에너지 공급 시설",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -121147,7 +121147,7 @@ pg.world_event_data = {
 	},
 	[6004340] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -121223,7 +121223,7 @@ pg.world_event_data = {
 	},
 	[6004410] = {
 		enemyicon = 0,
-		name = "塞壬要塞旗舰舰队",
+		name = "세이렌 요새 기함 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -121300,7 +121300,7 @@ pg.world_event_data = {
 	},
 	[6004411] = {
 		enemyicon = 0,
-		name = "塞壬要塞旗舰舰队",
+		name = "세이렌 요새 기함 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -121377,7 +121377,7 @@ pg.world_event_data = {
 	},
 	[6004412] = {
 		enemyicon = 0,
-		name = "塞壬要塞旗舰舰队",
+		name = "세이렌 요새 기함 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -121454,7 +121454,7 @@ pg.world_event_data = {
 	},
 	[6004430] = {
 		enemyicon = 0,
-		name = "己方海域守备舰队",
+		name = "아군 해역 수비 함대",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -121737,7 +121737,7 @@ pg.world_event_data = {
 	},
 	[6005210] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -121778,7 +121778,7 @@ pg.world_event_data = {
 	},
 	[6005211] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -121819,7 +121819,7 @@ pg.world_event_data = {
 	},
 	[6005212] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -121860,7 +121860,7 @@ pg.world_event_data = {
 	},
 	[6005213] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -121901,7 +121901,7 @@ pg.world_event_data = {
 	},
 	[6005214] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -121942,7 +121942,7 @@ pg.world_event_data = {
 	},
 	[6005215] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -121983,7 +121983,7 @@ pg.world_event_data = {
 	},
 	[6005220] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -122025,7 +122025,7 @@ pg.world_event_data = {
 	},
 	[6005221] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -122067,7 +122067,7 @@ pg.world_event_data = {
 	},
 	[6005222] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -122109,7 +122109,7 @@ pg.world_event_data = {
 	},
 	[6005223] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -122151,7 +122151,7 @@ pg.world_event_data = {
 	},
 	[6005224] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -122193,7 +122193,7 @@ pg.world_event_data = {
 	},
 	[6005225] = {
 		enemyicon = 0,
-		name = "可疑的区域",
+		name = "의심스러운 구역",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -122311,7 +122311,7 @@ pg.world_event_data = {
 	},
 	[6005310] = {
 		enemyicon = 0,
-		name = "塞壬洋流控制器",
+		name = "세이렌 해류 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -122347,7 +122347,7 @@ pg.world_event_data = {
 	},
 	[6005320] = {
 		enemyicon = 0,
-		name = "塞壬海雾控制器",
+		name = "세이렌 해무 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -122384,7 +122384,7 @@ pg.world_event_data = {
 	},
 	[6005330] = {
 		enemyicon = 0,
-		name = "塞壬能源供应设施",
+		name = "세이렌 에너지 공급 시설",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -122419,7 +122419,7 @@ pg.world_event_data = {
 	},
 	[6005340] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -122495,7 +122495,7 @@ pg.world_event_data = {
 	},
 	[6005410] = {
 		enemyicon = 0,
-		name = "塞壬要塞旗舰舰队",
+		name = "세이렌 요새 기함 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -122572,7 +122572,7 @@ pg.world_event_data = {
 	},
 	[6005411] = {
 		enemyicon = 0,
-		name = "塞壬要塞旗舰舰队",
+		name = "세이렌 요새 기함 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -122649,7 +122649,7 @@ pg.world_event_data = {
 	},
 	[6005412] = {
 		enemyicon = 0,
-		name = "塞壬要塞旗舰舰队",
+		name = "세이렌 요새 기함 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -122726,7 +122726,7 @@ pg.world_event_data = {
 	},
 	[6005430] = {
 		enemyicon = 0,
-		name = "己方海域守备舰队",
+		name = "아군 해역 수비 함대",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -122980,7 +122980,7 @@ pg.world_event_data = {
 	},
 	[6010210] = {
 		enemyicon = 0,
-		name = "塞壬区域封锁装置",
+		name = "세이렌 구역 봉쇄 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -123068,7 +123068,7 @@ pg.world_event_data = {
 	},
 	[6010310] = {
 		enemyicon = 0,
-		name = "塞壬洋流控制器",
+		name = "세이렌 해류 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -123104,7 +123104,7 @@ pg.world_event_data = {
 	},
 	[6010320] = {
 		enemyicon = 0,
-		name = "塞壬海雾控制器",
+		name = "세이렌 해무 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -123140,7 +123140,7 @@ pg.world_event_data = {
 	},
 	[6010330] = {
 		enemyicon = 0,
-		name = "塞壬能源供应设施",
+		name = "세이렌 에너지 공급 시설",
 		scale = 60,
 		visuality = 0,
 		is_scanevent = 1,
@@ -123175,7 +123175,7 @@ pg.world_event_data = {
 	},
 	[6010340] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -123257,7 +123257,7 @@ pg.world_event_data = {
 	},
 	[6010410] = {
 		enemyicon = 2,
-		name = "追迹者III型",
+		name = "체이서III형",
 		scale = 38,
 		visuality = 0,
 		is_scanevent = 1,
@@ -123325,7 +123325,7 @@ pg.world_event_data = {
 	},
 	[6010411] = {
 		enemyicon = 2,
-		name = "领洋者III型",
+		name = "네비게이터III형",
 		scale = 38,
 		visuality = 0,
 		is_scanevent = 1,
@@ -123395,7 +123395,7 @@ pg.world_event_data = {
 	},
 	[6010412] = {
 		enemyicon = 2,
-		name = "破局者III型",
+		name = "스매셔III형",
 		scale = 38,
 		visuality = 0,
 		is_scanevent = 1,
@@ -123465,7 +123465,7 @@ pg.world_event_data = {
 	},
 	[6010413] = {
 		enemyicon = 2,
-		name = "执棋者III型",
+		name = "컨덕터III형",
 		scale = 38,
 		visuality = 0,
 		is_scanevent = 1,
@@ -123535,7 +123535,7 @@ pg.world_event_data = {
 	},
 	[6010430] = {
 		enemyicon = 0,
-		name = "己方海域守备舰队",
+		name = "아군 해역 수비 함대",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -123577,7 +123577,7 @@ pg.world_event_data = {
 	},
 	[6010500] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -123617,7 +123617,7 @@ pg.world_event_data = {
 	},
 	[6010501] = {
 		enemyicon = 0,
-		name = "塞壬特殊通行装置",
+		name = "세이렌 특수 통행 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -123896,7 +123896,7 @@ pg.world_event_data = {
 	},
 	[6020300] = {
 		enemyicon = 0,
-		name = "己方海域守备舰队",
+		name = "아군 해역 수비 함대",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -123973,7 +123973,7 @@ pg.world_event_data = {
 	},
 	[6020410] = {
 		enemyicon = 3,
-		name = "侵扰者II型",
+		name = "인트루더II형",
 		scale = 38,
 		visuality = 0,
 		is_scanevent = 1,
@@ -124040,7 +124040,7 @@ pg.world_event_data = {
 	},
 	[6020411] = {
 		enemyicon = 3,
-		name = "领洋者II型",
+		name = "네비게이터II형",
 		scale = 38,
 		visuality = 0,
 		is_scanevent = 1,
@@ -124190,7 +124190,7 @@ pg.world_event_data = {
 	},
 	[6020430] = {
 		enemyicon = 2,
-		name = "侵扰者II型",
+		name = "인트루더II형",
 		scale = 38,
 		visuality = 0,
 		is_scanevent = 1,
@@ -124255,7 +124255,7 @@ pg.world_event_data = {
 	},
 	[6020431] = {
 		enemyicon = 2,
-		name = "领洋者II型",
+		name = "네비게이터II형",
 		scale = 38,
 		visuality = 0,
 		is_scanevent = 1,
@@ -124319,7 +124319,7 @@ pg.world_event_data = {
 	},
 	[6020440] = {
 		enemyicon = 0,
-		name = "塞壬特殊补给箱",
+		name = "세이렌 특수 보급 상자",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -124618,7 +124618,7 @@ pg.world_event_data = {
 	},
 	[6021300] = {
 		enemyicon = 0,
-		name = "己方海域守备舰队",
+		name = "아군 해역 수비 함대",
 		scale = 80,
 		visuality = 0,
 		is_scanevent = 1,
@@ -124695,7 +124695,7 @@ pg.world_event_data = {
 	},
 	[6021410] = {
 		enemyicon = 3,
-		name = "侵扰者II型",
+		name = "인트루더II형",
 		scale = 38,
 		visuality = 0,
 		is_scanevent = 1,
@@ -124762,7 +124762,7 @@ pg.world_event_data = {
 	},
 	[6021411] = {
 		enemyicon = 3,
-		name = "领洋者II型",
+		name = "네비게이터II형",
 		scale = 38,
 		visuality = 0,
 		is_scanevent = 1,
@@ -124912,7 +124912,7 @@ pg.world_event_data = {
 	},
 	[6021430] = {
 		enemyicon = 2,
-		name = "侵扰者II型",
+		name = "인트루더II형",
 		scale = 38,
 		visuality = 0,
 		is_scanevent = 1,
@@ -124977,7 +124977,7 @@ pg.world_event_data = {
 	},
 	[6021431] = {
 		enemyicon = 2,
-		name = "领洋者II型",
+		name = "네비게이터II형",
 		scale = 38,
 		visuality = 0,
 		is_scanevent = 1,
@@ -125041,7 +125041,7 @@ pg.world_event_data = {
 	},
 	[6021440] = {
 		enemyicon = 0,
-		name = "塞壬特殊补给箱",
+		name = "세이렌 특수 보급 상자",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -125136,7 +125136,7 @@ pg.world_event_data = {
 	},
 	[6030010] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -125177,7 +125177,7 @@ pg.world_event_data = {
 	},
 	[6030011] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -125218,7 +125218,7 @@ pg.world_event_data = {
 	},
 	[6030012] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -125259,7 +125259,7 @@ pg.world_event_data = {
 	},
 	[6030013] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -125337,7 +125337,7 @@ pg.world_event_data = {
 	},
 	[6030110] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -125378,7 +125378,7 @@ pg.world_event_data = {
 	},
 	[6030111] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -125419,7 +125419,7 @@ pg.world_event_data = {
 	},
 	[6030112] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -125460,7 +125460,7 @@ pg.world_event_data = {
 	},
 	[6030120] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -125531,7 +125531,7 @@ pg.world_event_data = {
 	},
 	[6030210] = {
 		enemyicon = 0,
-		name = "沉没的物资",
+		name = "침몰한 물자",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -125567,7 +125567,7 @@ pg.world_event_data = {
 	},
 	[6030211] = {
 		enemyicon = 0,
-		name = "沉没的物资",
+		name = "침몰한 물자",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -125639,7 +125639,7 @@ pg.world_event_data = {
 	},
 	[6030310] = {
 		enemyicon = 0,
-		name = "特殊隐藏资源",
+		name = "특수 히든 자원",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -125766,7 +125766,7 @@ pg.world_event_data = {
 	},
 	[6030410] = {
 		enemyicon = 0,
-		name = "特殊资源点",
+		name = "특수 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -125916,7 +125916,7 @@ pg.world_event_data = {
 	},
 	[6035010] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -126021,7 +126021,7 @@ pg.world_event_data = {
 	},
 	[6040010] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -126062,7 +126062,7 @@ pg.world_event_data = {
 	},
 	[6040011] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -126103,7 +126103,7 @@ pg.world_event_data = {
 	},
 	[6040012] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -126144,7 +126144,7 @@ pg.world_event_data = {
 	},
 	[6040013] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -126185,7 +126185,7 @@ pg.world_event_data = {
 	},
 	[6040014] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -126226,7 +126226,7 @@ pg.world_event_data = {
 	},
 	[6040015] = {
 		enemyicon = 0,
-		name = "塞壬量产型舰队",
+		name = "세이렌 양산형 함대",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -126267,7 +126267,7 @@ pg.world_event_data = {
 	},
 	[6040020] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -126408,7 +126408,7 @@ pg.world_event_data = {
 	},
 	[6040110] = {
 		enemyicon = 2,
-		name = "破局者I型",
+		name = "스매셔I형",
 		scale = 38,
 		visuality = 0,
 		is_scanevent = 1,
@@ -126449,7 +126449,7 @@ pg.world_event_data = {
 	},
 	[6040111] = {
 		enemyicon = 2,
-		name = "执棋者I型",
+		name = "컨덕터I형",
 		scale = 38,
 		visuality = 0,
 		is_scanevent = 1,
@@ -126490,7 +126490,7 @@ pg.world_event_data = {
 	},
 	[6040120] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -126614,7 +126614,7 @@ pg.world_event_data = {
 	},
 	[6040210] = {
 		enemyicon = 2,
-		name = "探索者I型",
+		name = "스캐빈저I형",
 		scale = 38,
 		visuality = 0,
 		is_scanevent = 1,
@@ -126655,7 +126655,7 @@ pg.world_event_data = {
 	},
 	[6040211] = {
 		enemyicon = 2,
-		name = "追迹者I型",
+		name = "체이서I형",
 		scale = 38,
 		visuality = 0,
 		is_scanevent = 1,
@@ -126696,7 +126696,7 @@ pg.world_event_data = {
 	},
 	[6040212] = {
 		enemyicon = 2,
-		name = "领洋者I型",
+		name = "네비게이터I형",
 		scale = 38,
 		visuality = 0,
 		is_scanevent = 1,
@@ -126737,7 +126737,7 @@ pg.world_event_data = {
 	},
 	[6040220] = {
 		enemyicon = 0,
-		name = "特殊隐藏资源",
+		name = "특수 히든 자원",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -127222,7 +127222,7 @@ pg.world_event_data = {
 	},
 	[6100100] = {
 		enemyicon = 0,
-		name = "塞壬洋流控制器",
+		name = "세이렌 해류 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -127258,7 +127258,7 @@ pg.world_event_data = {
 	},
 	[6100101] = {
 		enemyicon = 0,
-		name = "塞壬洋流控制器",
+		name = "세이렌 해류 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -127294,7 +127294,7 @@ pg.world_event_data = {
 	},
 	[6100102] = {
 		enemyicon = 0,
-		name = "塞壬洋流控制器",
+		name = "세이렌 해류 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -128913,7 +128913,7 @@ pg.world_event_data = {
 	},
 	[6104100] = {
 		enemyicon = 0,
-		name = "塞壬区域封锁装置",
+		name = "세이렌 구역 봉쇄 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -128949,7 +128949,7 @@ pg.world_event_data = {
 	},
 	[6104101] = {
 		enemyicon = 0,
-		name = "塞壬区域封锁装置",
+		name = "세이렌 구역 봉쇄 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -128990,7 +128990,7 @@ pg.world_event_data = {
 	},
 	[6104102] = {
 		enemyicon = 0,
-		name = "塞壬区域封锁装置",
+		name = "세이렌 구역 봉쇄 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -129026,7 +129026,7 @@ pg.world_event_data = {
 	},
 	[6104103] = {
 		enemyicon = 0,
-		name = "塞壬区域封锁装置",
+		name = "세이렌 구역 봉쇄 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -129857,7 +129857,7 @@ pg.world_event_data = {
 	},
 	[6106100] = {
 		enemyicon = 0,
-		name = "塞壬洋流控制器",
+		name = "세이렌 해류 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -129897,7 +129897,7 @@ pg.world_event_data = {
 	},
 	[6106101] = {
 		enemyicon = 0,
-		name = "塞壬洋流控制器",
+		name = "세이렌 해류 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -129937,7 +129937,7 @@ pg.world_event_data = {
 	},
 	[6106102] = {
 		enemyicon = 0,
-		name = "塞壬洋流控制器",
+		name = "세이렌 해류 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -129977,7 +129977,7 @@ pg.world_event_data = {
 	},
 	[6106103] = {
 		enemyicon = 0,
-		name = "塞壬洋流控制器",
+		name = "세이렌 해류 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -130017,7 +130017,7 @@ pg.world_event_data = {
 	},
 	[6106110] = {
 		enemyicon = 0,
-		name = "塞壬洋流控制器",
+		name = "세이렌 해류 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -130054,7 +130054,7 @@ pg.world_event_data = {
 	},
 	[6106111] = {
 		enemyicon = 0,
-		name = "塞壬洋流控制器",
+		name = "세이렌 해류 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -130091,7 +130091,7 @@ pg.world_event_data = {
 	},
 	[6106112] = {
 		enemyicon = 0,
-		name = "塞壬洋流控制器",
+		name = "세이렌 해류 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -130128,7 +130128,7 @@ pg.world_event_data = {
 	},
 	[6106113] = {
 		enemyicon = 0,
-		name = "塞壬洋流控制器",
+		name = "세이렌 해류 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -130279,7 +130279,7 @@ pg.world_event_data = {
 	},
 	[6106130] = {
 		enemyicon = 0,
-		name = "实验场气候调节装置",
+		name = "실험장 기후 조절 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -130333,7 +130333,7 @@ pg.world_event_data = {
 	},
 	[6106131] = {
 		enemyicon = 0,
-		name = "实验场气候调节装置",
+		name = "실험장 기후 조절 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -130383,7 +130383,7 @@ pg.world_event_data = {
 	},
 	[6106132] = {
 		enemyicon = 0,
-		name = "实验场气候调节装置",
+		name = "실험장 기후 조절 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -130437,7 +130437,7 @@ pg.world_event_data = {
 	},
 	[6106133] = {
 		enemyicon = 0,
-		name = "实验场气候调节装置",
+		name = "실험장 기후 조절 장치",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -130922,7 +130922,7 @@ pg.world_event_data = {
 	},
 	[6107100] = {
 		enemyicon = 0,
-		name = "塞壬洋流控制器",
+		name = "세이렌 해류 통제기",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -130963,7 +130963,7 @@ pg.world_event_data = {
 	},
 	[6107110] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -131269,7 +131269,7 @@ pg.world_event_data = {
 	},
 	[10110010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -131446,7 +131446,7 @@ pg.world_event_data = {
 	},
 	[10110015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -131519,7 +131519,7 @@ pg.world_event_data = {
 	},
 	[10110016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -131592,7 +131592,7 @@ pg.world_event_data = {
 	},
 	[10110017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -131665,7 +131665,7 @@ pg.world_event_data = {
 	},
 	[10110060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -131700,7 +131700,7 @@ pg.world_event_data = {
 	},
 	[10110061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -131735,7 +131735,7 @@ pg.world_event_data = {
 	},
 	[10110101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -131770,7 +131770,7 @@ pg.world_event_data = {
 	},
 	[10110151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -131805,7 +131805,7 @@ pg.world_event_data = {
 	},
 	[10110102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -131841,7 +131841,7 @@ pg.world_event_data = {
 	},
 	[10110152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -131877,7 +131877,7 @@ pg.world_event_data = {
 	},
 	[10110201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -131918,7 +131918,7 @@ pg.world_event_data = {
 	},
 	[10110251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -131959,7 +131959,7 @@ pg.world_event_data = {
 	},
 	[10110202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -132000,7 +132000,7 @@ pg.world_event_data = {
 	},
 	[10110252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -132041,7 +132041,7 @@ pg.world_event_data = {
 	},
 	[10110203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -132082,7 +132082,7 @@ pg.world_event_data = {
 	},
 	[10110253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -132123,7 +132123,7 @@ pg.world_event_data = {
 	},
 	[10110204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -132164,7 +132164,7 @@ pg.world_event_data = {
 	},
 	[10110254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -132205,7 +132205,7 @@ pg.world_event_data = {
 	},
 	[10110205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -132246,7 +132246,7 @@ pg.world_event_data = {
 	},
 	[10110255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -132287,7 +132287,7 @@ pg.world_event_data = {
 	},
 	[10110206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -132328,7 +132328,7 @@ pg.world_event_data = {
 	},
 	[10110256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -132405,7 +132405,7 @@ pg.world_event_data = {
 	},
 	[10110301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -132865,7 +132865,7 @@ pg.world_event_data = {
 	},
 	[10120010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -133042,7 +133042,7 @@ pg.world_event_data = {
 	},
 	[10120015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -133115,7 +133115,7 @@ pg.world_event_data = {
 	},
 	[10120016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -133188,7 +133188,7 @@ pg.world_event_data = {
 	},
 	[10120017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -133261,7 +133261,7 @@ pg.world_event_data = {
 	},
 	[10120060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -133296,7 +133296,7 @@ pg.world_event_data = {
 	},
 	[10120061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -133331,7 +133331,7 @@ pg.world_event_data = {
 	},
 	[10120101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -133366,7 +133366,7 @@ pg.world_event_data = {
 	},
 	[10120151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -133401,7 +133401,7 @@ pg.world_event_data = {
 	},
 	[10120102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -133437,7 +133437,7 @@ pg.world_event_data = {
 	},
 	[10120152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -133473,7 +133473,7 @@ pg.world_event_data = {
 	},
 	[10120201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -133514,7 +133514,7 @@ pg.world_event_data = {
 	},
 	[10120251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -133555,7 +133555,7 @@ pg.world_event_data = {
 	},
 	[10120202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -133596,7 +133596,7 @@ pg.world_event_data = {
 	},
 	[10120252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -133637,7 +133637,7 @@ pg.world_event_data = {
 	},
 	[10120203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -133678,7 +133678,7 @@ pg.world_event_data = {
 	},
 	[10120253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -133719,7 +133719,7 @@ pg.world_event_data = {
 	},
 	[10120204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -133760,7 +133760,7 @@ pg.world_event_data = {
 	},
 	[10120254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -133801,7 +133801,7 @@ pg.world_event_data = {
 	},
 	[10120205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -133842,7 +133842,7 @@ pg.world_event_data = {
 	},
 	[10120255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -133883,7 +133883,7 @@ pg.world_event_data = {
 	},
 	[10120206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -133924,7 +133924,7 @@ pg.world_event_data = {
 	},
 	[10120256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -134001,7 +134001,7 @@ pg.world_event_data = {
 	},
 	[10120301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -134461,7 +134461,7 @@ pg.world_event_data = {
 	},
 	[10130010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -134638,7 +134638,7 @@ pg.world_event_data = {
 	},
 	[10130015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -134711,7 +134711,7 @@ pg.world_event_data = {
 	},
 	[10130016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -134784,7 +134784,7 @@ pg.world_event_data = {
 	},
 	[10130017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -134857,7 +134857,7 @@ pg.world_event_data = {
 	},
 	[10130060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -134892,7 +134892,7 @@ pg.world_event_data = {
 	},
 	[10130061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -134927,7 +134927,7 @@ pg.world_event_data = {
 	},
 	[10130101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -134962,7 +134962,7 @@ pg.world_event_data = {
 	},
 	[10130151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -134997,7 +134997,7 @@ pg.world_event_data = {
 	},
 	[10130102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -135033,7 +135033,7 @@ pg.world_event_data = {
 	},
 	[10130152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -135069,7 +135069,7 @@ pg.world_event_data = {
 	},
 	[10130201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -135110,7 +135110,7 @@ pg.world_event_data = {
 	},
 	[10130251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -135151,7 +135151,7 @@ pg.world_event_data = {
 	},
 	[10130202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -135192,7 +135192,7 @@ pg.world_event_data = {
 	},
 	[10130252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -135233,7 +135233,7 @@ pg.world_event_data = {
 	},
 	[10130203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -135274,7 +135274,7 @@ pg.world_event_data = {
 	},
 	[10130253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -135315,7 +135315,7 @@ pg.world_event_data = {
 	},
 	[10130204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -135356,7 +135356,7 @@ pg.world_event_data = {
 	},
 	[10130254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -135397,7 +135397,7 @@ pg.world_event_data = {
 	},
 	[10130205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -135438,7 +135438,7 @@ pg.world_event_data = {
 	},
 	[10130255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -135479,7 +135479,7 @@ pg.world_event_data = {
 	},
 	[10130206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -135520,7 +135520,7 @@ pg.world_event_data = {
 	},
 	[10130256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -135597,7 +135597,7 @@ pg.world_event_data = {
 	},
 	[10130301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -136057,7 +136057,7 @@ pg.world_event_data = {
 	},
 	[10140010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -136199,7 +136199,7 @@ pg.world_event_data = {
 	},
 	[10140014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -136272,7 +136272,7 @@ pg.world_event_data = {
 	},
 	[10140015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -136345,7 +136345,7 @@ pg.world_event_data = {
 	},
 	[10140016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -136418,7 +136418,7 @@ pg.world_event_data = {
 	},
 	[10140060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -136453,7 +136453,7 @@ pg.world_event_data = {
 	},
 	[10140061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -136488,7 +136488,7 @@ pg.world_event_data = {
 	},
 	[10140101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -136523,7 +136523,7 @@ pg.world_event_data = {
 	},
 	[10140151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -136558,7 +136558,7 @@ pg.world_event_data = {
 	},
 	[10140102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -136594,7 +136594,7 @@ pg.world_event_data = {
 	},
 	[10140152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -136630,7 +136630,7 @@ pg.world_event_data = {
 	},
 	[10140201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -136671,7 +136671,7 @@ pg.world_event_data = {
 	},
 	[10140251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -136712,7 +136712,7 @@ pg.world_event_data = {
 	},
 	[10140202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -136753,7 +136753,7 @@ pg.world_event_data = {
 	},
 	[10140252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -136794,7 +136794,7 @@ pg.world_event_data = {
 	},
 	[10140203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -136835,7 +136835,7 @@ pg.world_event_data = {
 	},
 	[10140253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -136876,7 +136876,7 @@ pg.world_event_data = {
 	},
 	[10140204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -136917,7 +136917,7 @@ pg.world_event_data = {
 	},
 	[10140254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -136958,7 +136958,7 @@ pg.world_event_data = {
 	},
 	[10140205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -136999,7 +136999,7 @@ pg.world_event_data = {
 	},
 	[10140255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -137040,7 +137040,7 @@ pg.world_event_data = {
 	},
 	[10140206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -137081,7 +137081,7 @@ pg.world_event_data = {
 	},
 	[10140256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -137158,7 +137158,7 @@ pg.world_event_data = {
 	},
 	[10140301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -137548,7 +137548,7 @@ pg.world_event_data = {
 	},
 	[10210010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -137690,7 +137690,7 @@ pg.world_event_data = {
 	},
 	[10210014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -137763,7 +137763,7 @@ pg.world_event_data = {
 	},
 	[10210015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -137836,7 +137836,7 @@ pg.world_event_data = {
 	},
 	[10210016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -137909,7 +137909,7 @@ pg.world_event_data = {
 	},
 	[10210060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -137944,7 +137944,7 @@ pg.world_event_data = {
 	},
 	[10210061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -137979,7 +137979,7 @@ pg.world_event_data = {
 	},
 	[10210101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -138014,7 +138014,7 @@ pg.world_event_data = {
 	},
 	[10210151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -138049,7 +138049,7 @@ pg.world_event_data = {
 	},
 	[10210201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -138090,7 +138090,7 @@ pg.world_event_data = {
 	},
 	[10210251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -138131,7 +138131,7 @@ pg.world_event_data = {
 	},
 	[10210202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -138172,7 +138172,7 @@ pg.world_event_data = {
 	},
 	[10210252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -138213,7 +138213,7 @@ pg.world_event_data = {
 	},
 	[10210203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -138254,7 +138254,7 @@ pg.world_event_data = {
 	},
 	[10210253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -138295,7 +138295,7 @@ pg.world_event_data = {
 	},
 	[10210204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -138336,7 +138336,7 @@ pg.world_event_data = {
 	},
 	[10210254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -138413,7 +138413,7 @@ pg.world_event_data = {
 	},
 	[10210301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -138803,7 +138803,7 @@ pg.world_event_data = {
 	},
 	[10220010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -138945,7 +138945,7 @@ pg.world_event_data = {
 	},
 	[10220014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -139018,7 +139018,7 @@ pg.world_event_data = {
 	},
 	[10220015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -139091,7 +139091,7 @@ pg.world_event_data = {
 	},
 	[10220016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -139164,7 +139164,7 @@ pg.world_event_data = {
 	},
 	[10220060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -139199,7 +139199,7 @@ pg.world_event_data = {
 	},
 	[10220061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -139234,7 +139234,7 @@ pg.world_event_data = {
 	},
 	[10220101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -139269,7 +139269,7 @@ pg.world_event_data = {
 	},
 	[10220151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -139304,7 +139304,7 @@ pg.world_event_data = {
 	},
 	[10220201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -139345,7 +139345,7 @@ pg.world_event_data = {
 	},
 	[10220251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -139386,7 +139386,7 @@ pg.world_event_data = {
 	},
 	[10220202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -139427,7 +139427,7 @@ pg.world_event_data = {
 	},
 	[10220252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -139468,7 +139468,7 @@ pg.world_event_data = {
 	},
 	[10220203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -139509,7 +139509,7 @@ pg.world_event_data = {
 	},
 	[10220253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -139550,7 +139550,7 @@ pg.world_event_data = {
 	},
 	[10220204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -139591,7 +139591,7 @@ pg.world_event_data = {
 	},
 	[10220254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -139668,7 +139668,7 @@ pg.world_event_data = {
 	},
 	[10220301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -140058,7 +140058,7 @@ pg.world_event_data = {
 	},
 	[10230010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -140200,7 +140200,7 @@ pg.world_event_data = {
 	},
 	[10230014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -140273,7 +140273,7 @@ pg.world_event_data = {
 	},
 	[10230015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -140346,7 +140346,7 @@ pg.world_event_data = {
 	},
 	[10230016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -140419,7 +140419,7 @@ pg.world_event_data = {
 	},
 	[10230060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -140454,7 +140454,7 @@ pg.world_event_data = {
 	},
 	[10230061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -140489,7 +140489,7 @@ pg.world_event_data = {
 	},
 	[10230101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -140524,7 +140524,7 @@ pg.world_event_data = {
 	},
 	[10230151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -140559,7 +140559,7 @@ pg.world_event_data = {
 	},
 	[10230201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -140600,7 +140600,7 @@ pg.world_event_data = {
 	},
 	[10230251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -140641,7 +140641,7 @@ pg.world_event_data = {
 	},
 	[10230202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -140682,7 +140682,7 @@ pg.world_event_data = {
 	},
 	[10230252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -140723,7 +140723,7 @@ pg.world_event_data = {
 	},
 	[10230203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -140764,7 +140764,7 @@ pg.world_event_data = {
 	},
 	[10230253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -140805,7 +140805,7 @@ pg.world_event_data = {
 	},
 	[10230204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -140846,7 +140846,7 @@ pg.world_event_data = {
 	},
 	[10230254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -140923,7 +140923,7 @@ pg.world_event_data = {
 	},
 	[10230301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -141313,7 +141313,7 @@ pg.world_event_data = {
 	},
 	[10240010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -141455,7 +141455,7 @@ pg.world_event_data = {
 	},
 	[10240014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -141528,7 +141528,7 @@ pg.world_event_data = {
 	},
 	[10240015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -141601,7 +141601,7 @@ pg.world_event_data = {
 	},
 	[10240016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -141674,7 +141674,7 @@ pg.world_event_data = {
 	},
 	[10240060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -141709,7 +141709,7 @@ pg.world_event_data = {
 	},
 	[10240061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -141744,7 +141744,7 @@ pg.world_event_data = {
 	},
 	[10240101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -141779,7 +141779,7 @@ pg.world_event_data = {
 	},
 	[10240151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -141814,7 +141814,7 @@ pg.world_event_data = {
 	},
 	[10240201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -141855,7 +141855,7 @@ pg.world_event_data = {
 	},
 	[10240251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -141896,7 +141896,7 @@ pg.world_event_data = {
 	},
 	[10240202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -141937,7 +141937,7 @@ pg.world_event_data = {
 	},
 	[10240252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -141978,7 +141978,7 @@ pg.world_event_data = {
 	},
 	[10240203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -142019,7 +142019,7 @@ pg.world_event_data = {
 	},
 	[10240253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -142060,7 +142060,7 @@ pg.world_event_data = {
 	},
 	[10240204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -142101,7 +142101,7 @@ pg.world_event_data = {
 	},
 	[10240254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -142178,7 +142178,7 @@ pg.world_event_data = {
 	},
 	[10240301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -142568,7 +142568,7 @@ pg.world_event_data = {
 	},
 	[10250010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -142745,7 +142745,7 @@ pg.world_event_data = {
 	},
 	[10250015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -142818,7 +142818,7 @@ pg.world_event_data = {
 	},
 	[10250016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -142891,7 +142891,7 @@ pg.world_event_data = {
 	},
 	[10250017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -142964,7 +142964,7 @@ pg.world_event_data = {
 	},
 	[10250060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -142999,7 +142999,7 @@ pg.world_event_data = {
 	},
 	[10250061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -143034,7 +143034,7 @@ pg.world_event_data = {
 	},
 	[10250101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -143069,7 +143069,7 @@ pg.world_event_data = {
 	},
 	[10250151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -143104,7 +143104,7 @@ pg.world_event_data = {
 	},
 	[10250102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -143140,7 +143140,7 @@ pg.world_event_data = {
 	},
 	[10250152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -143176,7 +143176,7 @@ pg.world_event_data = {
 	},
 	[10250201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -143217,7 +143217,7 @@ pg.world_event_data = {
 	},
 	[10250251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -143258,7 +143258,7 @@ pg.world_event_data = {
 	},
 	[10250202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -143299,7 +143299,7 @@ pg.world_event_data = {
 	},
 	[10250252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -143340,7 +143340,7 @@ pg.world_event_data = {
 	},
 	[10250203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -143381,7 +143381,7 @@ pg.world_event_data = {
 	},
 	[10250253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -143422,7 +143422,7 @@ pg.world_event_data = {
 	},
 	[10250204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -143463,7 +143463,7 @@ pg.world_event_data = {
 	},
 	[10250254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -143504,7 +143504,7 @@ pg.world_event_data = {
 	},
 	[10250205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -143545,7 +143545,7 @@ pg.world_event_data = {
 	},
 	[10250255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -143622,7 +143622,7 @@ pg.world_event_data = {
 	},
 	[10250301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -144012,7 +144012,7 @@ pg.world_event_data = {
 	},
 	[10310010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -144154,7 +144154,7 @@ pg.world_event_data = {
 	},
 	[10310014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -144227,7 +144227,7 @@ pg.world_event_data = {
 	},
 	[10310015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -144300,7 +144300,7 @@ pg.world_event_data = {
 	},
 	[10310016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -144373,7 +144373,7 @@ pg.world_event_data = {
 	},
 	[10310060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -144408,7 +144408,7 @@ pg.world_event_data = {
 	},
 	[10310061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -144443,7 +144443,7 @@ pg.world_event_data = {
 	},
 	[10310101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -144478,7 +144478,7 @@ pg.world_event_data = {
 	},
 	[10310151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -144513,7 +144513,7 @@ pg.world_event_data = {
 	},
 	[10310201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -144554,7 +144554,7 @@ pg.world_event_data = {
 	},
 	[10310251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -144595,7 +144595,7 @@ pg.world_event_data = {
 	},
 	[10310202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -144636,7 +144636,7 @@ pg.world_event_data = {
 	},
 	[10310252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -144677,7 +144677,7 @@ pg.world_event_data = {
 	},
 	[10310203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -144718,7 +144718,7 @@ pg.world_event_data = {
 	},
 	[10310253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -144759,7 +144759,7 @@ pg.world_event_data = {
 	},
 	[10310204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -144800,7 +144800,7 @@ pg.world_event_data = {
 	},
 	[10310254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -144877,7 +144877,7 @@ pg.world_event_data = {
 	},
 	[10310301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -145267,7 +145267,7 @@ pg.world_event_data = {
 	},
 	[10320010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -145444,7 +145444,7 @@ pg.world_event_data = {
 	},
 	[10320015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -145517,7 +145517,7 @@ pg.world_event_data = {
 	},
 	[10320016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -145590,7 +145590,7 @@ pg.world_event_data = {
 	},
 	[10320017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -145663,7 +145663,7 @@ pg.world_event_data = {
 	},
 	[10320060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -145698,7 +145698,7 @@ pg.world_event_data = {
 	},
 	[10320061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -145733,7 +145733,7 @@ pg.world_event_data = {
 	},
 	[10320101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -145768,7 +145768,7 @@ pg.world_event_data = {
 	},
 	[10320151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -145803,7 +145803,7 @@ pg.world_event_data = {
 	},
 	[10320102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -145839,7 +145839,7 @@ pg.world_event_data = {
 	},
 	[10320152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -145875,7 +145875,7 @@ pg.world_event_data = {
 	},
 	[10320201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -145916,7 +145916,7 @@ pg.world_event_data = {
 	},
 	[10320251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -145957,7 +145957,7 @@ pg.world_event_data = {
 	},
 	[10320202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -145998,7 +145998,7 @@ pg.world_event_data = {
 	},
 	[10320252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -146039,7 +146039,7 @@ pg.world_event_data = {
 	},
 	[10320203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -146080,7 +146080,7 @@ pg.world_event_data = {
 	},
 	[10320253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -146121,7 +146121,7 @@ pg.world_event_data = {
 	},
 	[10320204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -146162,7 +146162,7 @@ pg.world_event_data = {
 	},
 	[10320254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -146203,7 +146203,7 @@ pg.world_event_data = {
 	},
 	[10320205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -146244,7 +146244,7 @@ pg.world_event_data = {
 	},
 	[10320255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -146321,7 +146321,7 @@ pg.world_event_data = {
 	},
 	[10320301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -146711,7 +146711,7 @@ pg.world_event_data = {
 	},
 	[10330010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -146888,7 +146888,7 @@ pg.world_event_data = {
 	},
 	[10330015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -146961,7 +146961,7 @@ pg.world_event_data = {
 	},
 	[10330016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -147034,7 +147034,7 @@ pg.world_event_data = {
 	},
 	[10330017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -147107,7 +147107,7 @@ pg.world_event_data = {
 	},
 	[10330060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -147142,7 +147142,7 @@ pg.world_event_data = {
 	},
 	[10330061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -147177,7 +147177,7 @@ pg.world_event_data = {
 	},
 	[10330101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -147212,7 +147212,7 @@ pg.world_event_data = {
 	},
 	[10330151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -147247,7 +147247,7 @@ pg.world_event_data = {
 	},
 	[10330102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -147283,7 +147283,7 @@ pg.world_event_data = {
 	},
 	[10330152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -147319,7 +147319,7 @@ pg.world_event_data = {
 	},
 	[10330201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -147360,7 +147360,7 @@ pg.world_event_data = {
 	},
 	[10330251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -147401,7 +147401,7 @@ pg.world_event_data = {
 	},
 	[10330202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -147442,7 +147442,7 @@ pg.world_event_data = {
 	},
 	[10330252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -147483,7 +147483,7 @@ pg.world_event_data = {
 	},
 	[10330203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -147524,7 +147524,7 @@ pg.world_event_data = {
 	},
 	[10330253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -147565,7 +147565,7 @@ pg.world_event_data = {
 	},
 	[10330204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -147606,7 +147606,7 @@ pg.world_event_data = {
 	},
 	[10330254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -147647,7 +147647,7 @@ pg.world_event_data = {
 	},
 	[10330205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -147688,7 +147688,7 @@ pg.world_event_data = {
 	},
 	[10330255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -147765,7 +147765,7 @@ pg.world_event_data = {
 	},
 	[10330301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -148155,7 +148155,7 @@ pg.world_event_data = {
 	},
 	[10340010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -148332,7 +148332,7 @@ pg.world_event_data = {
 	},
 	[10340015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -148405,7 +148405,7 @@ pg.world_event_data = {
 	},
 	[10340016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -148478,7 +148478,7 @@ pg.world_event_data = {
 	},
 	[10340017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -148551,7 +148551,7 @@ pg.world_event_data = {
 	},
 	[10340060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -148586,7 +148586,7 @@ pg.world_event_data = {
 	},
 	[10340061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -148621,7 +148621,7 @@ pg.world_event_data = {
 	},
 	[10340101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -148656,7 +148656,7 @@ pg.world_event_data = {
 	},
 	[10340151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -148691,7 +148691,7 @@ pg.world_event_data = {
 	},
 	[10340102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -148727,7 +148727,7 @@ pg.world_event_data = {
 	},
 	[10340152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -148763,7 +148763,7 @@ pg.world_event_data = {
 	},
 	[10340201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -148804,7 +148804,7 @@ pg.world_event_data = {
 	},
 	[10340251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -148845,7 +148845,7 @@ pg.world_event_data = {
 	},
 	[10340202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -148886,7 +148886,7 @@ pg.world_event_data = {
 	},
 	[10340252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -148927,7 +148927,7 @@ pg.world_event_data = {
 	},
 	[10340203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -148968,7 +148968,7 @@ pg.world_event_data = {
 	},
 	[10340253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -149009,7 +149009,7 @@ pg.world_event_data = {
 	},
 	[10340204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -149050,7 +149050,7 @@ pg.world_event_data = {
 	},
 	[10340254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -149091,7 +149091,7 @@ pg.world_event_data = {
 	},
 	[10340205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -149132,7 +149132,7 @@ pg.world_event_data = {
 	},
 	[10340255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -149209,7 +149209,7 @@ pg.world_event_data = {
 	},
 	[10340301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -149599,7 +149599,7 @@ pg.world_event_data = {
 	},
 	[10410010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -149776,7 +149776,7 @@ pg.world_event_data = {
 	},
 	[10410015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -149849,7 +149849,7 @@ pg.world_event_data = {
 	},
 	[10410016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -149922,7 +149922,7 @@ pg.world_event_data = {
 	},
 	[10410017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -149995,7 +149995,7 @@ pg.world_event_data = {
 	},
 	[10410060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -150030,7 +150030,7 @@ pg.world_event_data = {
 	},
 	[10410061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -150065,7 +150065,7 @@ pg.world_event_data = {
 	},
 	[10410101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -150100,7 +150100,7 @@ pg.world_event_data = {
 	},
 	[10410151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -150135,7 +150135,7 @@ pg.world_event_data = {
 	},
 	[10410102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -150171,7 +150171,7 @@ pg.world_event_data = {
 	},
 	[10410152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -150207,7 +150207,7 @@ pg.world_event_data = {
 	},
 	[10410201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -150248,7 +150248,7 @@ pg.world_event_data = {
 	},
 	[10410251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -150289,7 +150289,7 @@ pg.world_event_data = {
 	},
 	[10410202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -150330,7 +150330,7 @@ pg.world_event_data = {
 	},
 	[10410252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -150371,7 +150371,7 @@ pg.world_event_data = {
 	},
 	[10410203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -150412,7 +150412,7 @@ pg.world_event_data = {
 	},
 	[10410253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -150453,7 +150453,7 @@ pg.world_event_data = {
 	},
 	[10410204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -150494,7 +150494,7 @@ pg.world_event_data = {
 	},
 	[10410254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -150535,7 +150535,7 @@ pg.world_event_data = {
 	},
 	[10410205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -150576,7 +150576,7 @@ pg.world_event_data = {
 	},
 	[10410255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -150653,7 +150653,7 @@ pg.world_event_data = {
 	},
 	[10410301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -151113,7 +151113,7 @@ pg.world_event_data = {
 	},
 	[10420010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -151255,7 +151255,7 @@ pg.world_event_data = {
 	},
 	[10420014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -151328,7 +151328,7 @@ pg.world_event_data = {
 	},
 	[10420015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -151401,7 +151401,7 @@ pg.world_event_data = {
 	},
 	[10420016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -151474,7 +151474,7 @@ pg.world_event_data = {
 	},
 	[10420060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -151509,7 +151509,7 @@ pg.world_event_data = {
 	},
 	[10420061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -151544,7 +151544,7 @@ pg.world_event_data = {
 	},
 	[10420101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -151579,7 +151579,7 @@ pg.world_event_data = {
 	},
 	[10420151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -151614,7 +151614,7 @@ pg.world_event_data = {
 	},
 	[10420102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -151650,7 +151650,7 @@ pg.world_event_data = {
 	},
 	[10420152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -151686,7 +151686,7 @@ pg.world_event_data = {
 	},
 	[10420201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -151727,7 +151727,7 @@ pg.world_event_data = {
 	},
 	[10420251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -151768,7 +151768,7 @@ pg.world_event_data = {
 	},
 	[10420202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -151809,7 +151809,7 @@ pg.world_event_data = {
 	},
 	[10420252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -151850,7 +151850,7 @@ pg.world_event_data = {
 	},
 	[10420203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -151891,7 +151891,7 @@ pg.world_event_data = {
 	},
 	[10420253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -151932,7 +151932,7 @@ pg.world_event_data = {
 	},
 	[10420204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -151973,7 +151973,7 @@ pg.world_event_data = {
 	},
 	[10420254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -152014,7 +152014,7 @@ pg.world_event_data = {
 	},
 	[10420205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -152055,7 +152055,7 @@ pg.world_event_data = {
 	},
 	[10420255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -152096,7 +152096,7 @@ pg.world_event_data = {
 	},
 	[10420206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -152137,7 +152137,7 @@ pg.world_event_data = {
 	},
 	[10420256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -152214,7 +152214,7 @@ pg.world_event_data = {
 	},
 	[10420301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -152604,7 +152604,7 @@ pg.world_event_data = {
 	},
 	[10430010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -152746,7 +152746,7 @@ pg.world_event_data = {
 	},
 	[10430014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -152819,7 +152819,7 @@ pg.world_event_data = {
 	},
 	[10430015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -152892,7 +152892,7 @@ pg.world_event_data = {
 	},
 	[10430016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -152965,7 +152965,7 @@ pg.world_event_data = {
 	},
 	[10430060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -153000,7 +153000,7 @@ pg.world_event_data = {
 	},
 	[10430061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -153035,7 +153035,7 @@ pg.world_event_data = {
 	},
 	[10430101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -153070,7 +153070,7 @@ pg.world_event_data = {
 	},
 	[10430151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -153105,7 +153105,7 @@ pg.world_event_data = {
 	},
 	[10430201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -153146,7 +153146,7 @@ pg.world_event_data = {
 	},
 	[10430251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -153187,7 +153187,7 @@ pg.world_event_data = {
 	},
 	[10430202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -153228,7 +153228,7 @@ pg.world_event_data = {
 	},
 	[10430252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -153269,7 +153269,7 @@ pg.world_event_data = {
 	},
 	[10430203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -153310,7 +153310,7 @@ pg.world_event_data = {
 	},
 	[10430253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -153351,7 +153351,7 @@ pg.world_event_data = {
 	},
 	[10430204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -153392,7 +153392,7 @@ pg.world_event_data = {
 	},
 	[10430254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -153469,7 +153469,7 @@ pg.world_event_data = {
 	},
 	[10430301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -153859,7 +153859,7 @@ pg.world_event_data = {
 	},
 	[10440010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -154001,7 +154001,7 @@ pg.world_event_data = {
 	},
 	[10440014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -154074,7 +154074,7 @@ pg.world_event_data = {
 	},
 	[10440015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -154147,7 +154147,7 @@ pg.world_event_data = {
 	},
 	[10440016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -154220,7 +154220,7 @@ pg.world_event_data = {
 	},
 	[10440060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -154255,7 +154255,7 @@ pg.world_event_data = {
 	},
 	[10440061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -154290,7 +154290,7 @@ pg.world_event_data = {
 	},
 	[10440101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -154325,7 +154325,7 @@ pg.world_event_data = {
 	},
 	[10440151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -154360,7 +154360,7 @@ pg.world_event_data = {
 	},
 	[10440201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -154401,7 +154401,7 @@ pg.world_event_data = {
 	},
 	[10440251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -154442,7 +154442,7 @@ pg.world_event_data = {
 	},
 	[10440202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -154483,7 +154483,7 @@ pg.world_event_data = {
 	},
 	[10440252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -154524,7 +154524,7 @@ pg.world_event_data = {
 	},
 	[10440203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -154565,7 +154565,7 @@ pg.world_event_data = {
 	},
 	[10440253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -154606,7 +154606,7 @@ pg.world_event_data = {
 	},
 	[10440204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -154647,7 +154647,7 @@ pg.world_event_data = {
 	},
 	[10440254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -154724,7 +154724,7 @@ pg.world_event_data = {
 	},
 	[10440301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -155184,7 +155184,7 @@ pg.world_event_data = {
 	},
 	[10510010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -155326,7 +155326,7 @@ pg.world_event_data = {
 	},
 	[10510014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -155399,7 +155399,7 @@ pg.world_event_data = {
 	},
 	[10510015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -155472,7 +155472,7 @@ pg.world_event_data = {
 	},
 	[10510016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -155545,7 +155545,7 @@ pg.world_event_data = {
 	},
 	[10510060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -155580,7 +155580,7 @@ pg.world_event_data = {
 	},
 	[10510061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -155615,7 +155615,7 @@ pg.world_event_data = {
 	},
 	[10510101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -155650,7 +155650,7 @@ pg.world_event_data = {
 	},
 	[10510151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -155685,7 +155685,7 @@ pg.world_event_data = {
 	},
 	[10510102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -155721,7 +155721,7 @@ pg.world_event_data = {
 	},
 	[10510152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -155757,7 +155757,7 @@ pg.world_event_data = {
 	},
 	[10510201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -155798,7 +155798,7 @@ pg.world_event_data = {
 	},
 	[10510251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -155839,7 +155839,7 @@ pg.world_event_data = {
 	},
 	[10510202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -155880,7 +155880,7 @@ pg.world_event_data = {
 	},
 	[10510252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -155921,7 +155921,7 @@ pg.world_event_data = {
 	},
 	[10510203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -155962,7 +155962,7 @@ pg.world_event_data = {
 	},
 	[10510253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -156003,7 +156003,7 @@ pg.world_event_data = {
 	},
 	[10510204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -156044,7 +156044,7 @@ pg.world_event_data = {
 	},
 	[10510254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -156085,7 +156085,7 @@ pg.world_event_data = {
 	},
 	[10510205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -156126,7 +156126,7 @@ pg.world_event_data = {
 	},
 	[10510255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -156167,7 +156167,7 @@ pg.world_event_data = {
 	},
 	[10510206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -156208,7 +156208,7 @@ pg.world_event_data = {
 	},
 	[10510256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -156285,7 +156285,7 @@ pg.world_event_data = {
 	},
 	[10510301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -156745,7 +156745,7 @@ pg.world_event_data = {
 	},
 	[10520010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -156887,7 +156887,7 @@ pg.world_event_data = {
 	},
 	[10520014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -156960,7 +156960,7 @@ pg.world_event_data = {
 	},
 	[10520015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -157033,7 +157033,7 @@ pg.world_event_data = {
 	},
 	[10520016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -157106,7 +157106,7 @@ pg.world_event_data = {
 	},
 	[10520060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -157141,7 +157141,7 @@ pg.world_event_data = {
 	},
 	[10520061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -157176,7 +157176,7 @@ pg.world_event_data = {
 	},
 	[10520101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -157211,7 +157211,7 @@ pg.world_event_data = {
 	},
 	[10520151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -157246,7 +157246,7 @@ pg.world_event_data = {
 	},
 	[10520102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -157282,7 +157282,7 @@ pg.world_event_data = {
 	},
 	[10520152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -157318,7 +157318,7 @@ pg.world_event_data = {
 	},
 	[10520201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -157359,7 +157359,7 @@ pg.world_event_data = {
 	},
 	[10520251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -157400,7 +157400,7 @@ pg.world_event_data = {
 	},
 	[10520202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -157441,7 +157441,7 @@ pg.world_event_data = {
 	},
 	[10520252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -157482,7 +157482,7 @@ pg.world_event_data = {
 	},
 	[10520203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -157523,7 +157523,7 @@ pg.world_event_data = {
 	},
 	[10520253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -157564,7 +157564,7 @@ pg.world_event_data = {
 	},
 	[10520204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -157605,7 +157605,7 @@ pg.world_event_data = {
 	},
 	[10520254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -157646,7 +157646,7 @@ pg.world_event_data = {
 	},
 	[10520205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -157687,7 +157687,7 @@ pg.world_event_data = {
 	},
 	[10520255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -157728,7 +157728,7 @@ pg.world_event_data = {
 	},
 	[10520206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -157769,7 +157769,7 @@ pg.world_event_data = {
 	},
 	[10520256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -157846,7 +157846,7 @@ pg.world_event_data = {
 	},
 	[10520301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -158306,7 +158306,7 @@ pg.world_event_data = {
 	},
 	[10530010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -158448,7 +158448,7 @@ pg.world_event_data = {
 	},
 	[10530014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -158521,7 +158521,7 @@ pg.world_event_data = {
 	},
 	[10530015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -158594,7 +158594,7 @@ pg.world_event_data = {
 	},
 	[10530016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -158667,7 +158667,7 @@ pg.world_event_data = {
 	},
 	[10530060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -158702,7 +158702,7 @@ pg.world_event_data = {
 	},
 	[10530061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -158737,7 +158737,7 @@ pg.world_event_data = {
 	},
 	[10530101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -158772,7 +158772,7 @@ pg.world_event_data = {
 	},
 	[10530151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -158807,7 +158807,7 @@ pg.world_event_data = {
 	},
 	[10530102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -158843,7 +158843,7 @@ pg.world_event_data = {
 	},
 	[10530152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -158879,7 +158879,7 @@ pg.world_event_data = {
 	},
 	[10530201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -158920,7 +158920,7 @@ pg.world_event_data = {
 	},
 	[10530251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -158961,7 +158961,7 @@ pg.world_event_data = {
 	},
 	[10530202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -159002,7 +159002,7 @@ pg.world_event_data = {
 	},
 	[10530252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -159043,7 +159043,7 @@ pg.world_event_data = {
 	},
 	[10530203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -159084,7 +159084,7 @@ pg.world_event_data = {
 	},
 	[10530253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -159125,7 +159125,7 @@ pg.world_event_data = {
 	},
 	[10530204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -159166,7 +159166,7 @@ pg.world_event_data = {
 	},
 	[10530254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -159207,7 +159207,7 @@ pg.world_event_data = {
 	},
 	[10530205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -159248,7 +159248,7 @@ pg.world_event_data = {
 	},
 	[10530255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -159289,7 +159289,7 @@ pg.world_event_data = {
 	},
 	[10530206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -159330,7 +159330,7 @@ pg.world_event_data = {
 	},
 	[10530256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -159407,7 +159407,7 @@ pg.world_event_data = {
 	},
 	[10530301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -159867,7 +159867,7 @@ pg.world_event_data = {
 	},
 	[10540010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -160009,7 +160009,7 @@ pg.world_event_data = {
 	},
 	[10540014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -160082,7 +160082,7 @@ pg.world_event_data = {
 	},
 	[10540015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -160155,7 +160155,7 @@ pg.world_event_data = {
 	},
 	[10540016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -160228,7 +160228,7 @@ pg.world_event_data = {
 	},
 	[10540060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -160263,7 +160263,7 @@ pg.world_event_data = {
 	},
 	[10540061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -160298,7 +160298,7 @@ pg.world_event_data = {
 	},
 	[10540101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -160333,7 +160333,7 @@ pg.world_event_data = {
 	},
 	[10540151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -160368,7 +160368,7 @@ pg.world_event_data = {
 	},
 	[10540102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -160404,7 +160404,7 @@ pg.world_event_data = {
 	},
 	[10540152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -160440,7 +160440,7 @@ pg.world_event_data = {
 	},
 	[10540201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -160481,7 +160481,7 @@ pg.world_event_data = {
 	},
 	[10540251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -160522,7 +160522,7 @@ pg.world_event_data = {
 	},
 	[10540202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -160563,7 +160563,7 @@ pg.world_event_data = {
 	},
 	[10540252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -160604,7 +160604,7 @@ pg.world_event_data = {
 	},
 	[10540203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -160645,7 +160645,7 @@ pg.world_event_data = {
 	},
 	[10540253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -160686,7 +160686,7 @@ pg.world_event_data = {
 	},
 	[10540204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -160727,7 +160727,7 @@ pg.world_event_data = {
 	},
 	[10540254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -160768,7 +160768,7 @@ pg.world_event_data = {
 	},
 	[10540205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -160809,7 +160809,7 @@ pg.world_event_data = {
 	},
 	[10540255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -160850,7 +160850,7 @@ pg.world_event_data = {
 	},
 	[10540206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -160891,7 +160891,7 @@ pg.world_event_data = {
 	},
 	[10540256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -160968,7 +160968,7 @@ pg.world_event_data = {
 	},
 	[10540301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -161428,7 +161428,7 @@ pg.world_event_data = {
 	},
 	[10610010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -161570,7 +161570,7 @@ pg.world_event_data = {
 	},
 	[10610014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -161643,7 +161643,7 @@ pg.world_event_data = {
 	},
 	[10610015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -161716,7 +161716,7 @@ pg.world_event_data = {
 	},
 	[10610016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -161789,7 +161789,7 @@ pg.world_event_data = {
 	},
 	[10610060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -161824,7 +161824,7 @@ pg.world_event_data = {
 	},
 	[10610061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -161859,7 +161859,7 @@ pg.world_event_data = {
 	},
 	[10610101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -161894,7 +161894,7 @@ pg.world_event_data = {
 	},
 	[10610151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -161929,7 +161929,7 @@ pg.world_event_data = {
 	},
 	[10610102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -161965,7 +161965,7 @@ pg.world_event_data = {
 	},
 	[10610152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -162001,7 +162001,7 @@ pg.world_event_data = {
 	},
 	[10610201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -162042,7 +162042,7 @@ pg.world_event_data = {
 	},
 	[10610251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -162083,7 +162083,7 @@ pg.world_event_data = {
 	},
 	[10610202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -162124,7 +162124,7 @@ pg.world_event_data = {
 	},
 	[10610252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -162165,7 +162165,7 @@ pg.world_event_data = {
 	},
 	[10610203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -162206,7 +162206,7 @@ pg.world_event_data = {
 	},
 	[10610253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -162247,7 +162247,7 @@ pg.world_event_data = {
 	},
 	[10610204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -162288,7 +162288,7 @@ pg.world_event_data = {
 	},
 	[10610254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -162329,7 +162329,7 @@ pg.world_event_data = {
 	},
 	[10610205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -162370,7 +162370,7 @@ pg.world_event_data = {
 	},
 	[10610255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -162411,7 +162411,7 @@ pg.world_event_data = {
 	},
 	[10610206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -162452,7 +162452,7 @@ pg.world_event_data = {
 	},
 	[10610256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -162529,7 +162529,7 @@ pg.world_event_data = {
 	},
 	[10610301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -162919,7 +162919,7 @@ pg.world_event_data = {
 	},
 	[10620010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -163096,7 +163096,7 @@ pg.world_event_data = {
 	},
 	[10620015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -163169,7 +163169,7 @@ pg.world_event_data = {
 	},
 	[10620016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -163242,7 +163242,7 @@ pg.world_event_data = {
 	},
 	[10620017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -163315,7 +163315,7 @@ pg.world_event_data = {
 	},
 	[10620060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -163350,7 +163350,7 @@ pg.world_event_data = {
 	},
 	[10620061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -163385,7 +163385,7 @@ pg.world_event_data = {
 	},
 	[10620101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -163420,7 +163420,7 @@ pg.world_event_data = {
 	},
 	[10620151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -163455,7 +163455,7 @@ pg.world_event_data = {
 	},
 	[10620102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -163491,7 +163491,7 @@ pg.world_event_data = {
 	},
 	[10620152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -163527,7 +163527,7 @@ pg.world_event_data = {
 	},
 	[10620201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -163568,7 +163568,7 @@ pg.world_event_data = {
 	},
 	[10620251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -163609,7 +163609,7 @@ pg.world_event_data = {
 	},
 	[10620202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -163650,7 +163650,7 @@ pg.world_event_data = {
 	},
 	[10620252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -163691,7 +163691,7 @@ pg.world_event_data = {
 	},
 	[10620203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -163732,7 +163732,7 @@ pg.world_event_data = {
 	},
 	[10620253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -163773,7 +163773,7 @@ pg.world_event_data = {
 	},
 	[10620204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -163814,7 +163814,7 @@ pg.world_event_data = {
 	},
 	[10620254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -163855,7 +163855,7 @@ pg.world_event_data = {
 	},
 	[10620205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -163896,7 +163896,7 @@ pg.world_event_data = {
 	},
 	[10620255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -163973,7 +163973,7 @@ pg.world_event_data = {
 	},
 	[10620301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -164433,7 +164433,7 @@ pg.world_event_data = {
 	},
 	[10630010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -164575,7 +164575,7 @@ pg.world_event_data = {
 	},
 	[10630014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -164648,7 +164648,7 @@ pg.world_event_data = {
 	},
 	[10630015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -164721,7 +164721,7 @@ pg.world_event_data = {
 	},
 	[10630016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -164794,7 +164794,7 @@ pg.world_event_data = {
 	},
 	[10630060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -164829,7 +164829,7 @@ pg.world_event_data = {
 	},
 	[10630061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -164864,7 +164864,7 @@ pg.world_event_data = {
 	},
 	[10630101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -164899,7 +164899,7 @@ pg.world_event_data = {
 	},
 	[10630151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -164934,7 +164934,7 @@ pg.world_event_data = {
 	},
 	[10630102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -164970,7 +164970,7 @@ pg.world_event_data = {
 	},
 	[10630152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -165006,7 +165006,7 @@ pg.world_event_data = {
 	},
 	[10630201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -165047,7 +165047,7 @@ pg.world_event_data = {
 	},
 	[10630251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -165088,7 +165088,7 @@ pg.world_event_data = {
 	},
 	[10630202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -165129,7 +165129,7 @@ pg.world_event_data = {
 	},
 	[10630252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -165170,7 +165170,7 @@ pg.world_event_data = {
 	},
 	[10630203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -165211,7 +165211,7 @@ pg.world_event_data = {
 	},
 	[10630253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -165252,7 +165252,7 @@ pg.world_event_data = {
 	},
 	[10630204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -165293,7 +165293,7 @@ pg.world_event_data = {
 	},
 	[10630254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -165334,7 +165334,7 @@ pg.world_event_data = {
 	},
 	[10630205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -165375,7 +165375,7 @@ pg.world_event_data = {
 	},
 	[10630255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -165416,7 +165416,7 @@ pg.world_event_data = {
 	},
 	[10630206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -165457,7 +165457,7 @@ pg.world_event_data = {
 	},
 	[10630256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -165534,7 +165534,7 @@ pg.world_event_data = {
 	},
 	[10630301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -165994,7 +165994,7 @@ pg.world_event_data = {
 	},
 	[10640010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -166136,7 +166136,7 @@ pg.world_event_data = {
 	},
 	[10640014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -166209,7 +166209,7 @@ pg.world_event_data = {
 	},
 	[10640015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -166282,7 +166282,7 @@ pg.world_event_data = {
 	},
 	[10640016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -166355,7 +166355,7 @@ pg.world_event_data = {
 	},
 	[10640060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -166390,7 +166390,7 @@ pg.world_event_data = {
 	},
 	[10640061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -166425,7 +166425,7 @@ pg.world_event_data = {
 	},
 	[10640101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -166460,7 +166460,7 @@ pg.world_event_data = {
 	},
 	[10640151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -166495,7 +166495,7 @@ pg.world_event_data = {
 	},
 	[10640102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -166531,7 +166531,7 @@ pg.world_event_data = {
 	},
 	[10640152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -166567,7 +166567,7 @@ pg.world_event_data = {
 	},
 	[10640201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -166608,7 +166608,7 @@ pg.world_event_data = {
 	},
 	[10640251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -166649,7 +166649,7 @@ pg.world_event_data = {
 	},
 	[10640202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -166690,7 +166690,7 @@ pg.world_event_data = {
 	},
 	[10640252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -166731,7 +166731,7 @@ pg.world_event_data = {
 	},
 	[10640203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -166772,7 +166772,7 @@ pg.world_event_data = {
 	},
 	[10640253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -166813,7 +166813,7 @@ pg.world_event_data = {
 	},
 	[10640204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -166854,7 +166854,7 @@ pg.world_event_data = {
 	},
 	[10640254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -166895,7 +166895,7 @@ pg.world_event_data = {
 	},
 	[10640205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -166936,7 +166936,7 @@ pg.world_event_data = {
 	},
 	[10640255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -166977,7 +166977,7 @@ pg.world_event_data = {
 	},
 	[10640206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -167018,7 +167018,7 @@ pg.world_event_data = {
 	},
 	[10640256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -167095,7 +167095,7 @@ pg.world_event_data = {
 	},
 	[10640301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -167485,7 +167485,7 @@ pg.world_event_data = {
 	},
 	[10650010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -167662,7 +167662,7 @@ pg.world_event_data = {
 	},
 	[10650015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -167735,7 +167735,7 @@ pg.world_event_data = {
 	},
 	[10650016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -167808,7 +167808,7 @@ pg.world_event_data = {
 	},
 	[10650017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -167881,7 +167881,7 @@ pg.world_event_data = {
 	},
 	[10650060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -167916,7 +167916,7 @@ pg.world_event_data = {
 	},
 	[10650061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -167951,7 +167951,7 @@ pg.world_event_data = {
 	},
 	[10650101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -167986,7 +167986,7 @@ pg.world_event_data = {
 	},
 	[10650151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -168021,7 +168021,7 @@ pg.world_event_data = {
 	},
 	[10650102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -168057,7 +168057,7 @@ pg.world_event_data = {
 	},
 	[10650152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -168093,7 +168093,7 @@ pg.world_event_data = {
 	},
 	[10650201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -168134,7 +168134,7 @@ pg.world_event_data = {
 	},
 	[10650251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -168175,7 +168175,7 @@ pg.world_event_data = {
 	},
 	[10650202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -168216,7 +168216,7 @@ pg.world_event_data = {
 	},
 	[10650252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -168257,7 +168257,7 @@ pg.world_event_data = {
 	},
 	[10650203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -168298,7 +168298,7 @@ pg.world_event_data = {
 	},
 	[10650253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -168339,7 +168339,7 @@ pg.world_event_data = {
 	},
 	[10650204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -168380,7 +168380,7 @@ pg.world_event_data = {
 	},
 	[10650254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -168421,7 +168421,7 @@ pg.world_event_data = {
 	},
 	[10650205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -168462,7 +168462,7 @@ pg.world_event_data = {
 	},
 	[10650255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -168539,7 +168539,7 @@ pg.world_event_data = {
 	},
 	[10650301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -168929,7 +168929,7 @@ pg.world_event_data = {
 	},
 	[10660010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -169106,7 +169106,7 @@ pg.world_event_data = {
 	},
 	[10660015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -169179,7 +169179,7 @@ pg.world_event_data = {
 	},
 	[10660016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -169252,7 +169252,7 @@ pg.world_event_data = {
 	},
 	[10660017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -169325,7 +169325,7 @@ pg.world_event_data = {
 	},
 	[10660060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -169360,7 +169360,7 @@ pg.world_event_data = {
 	},
 	[10660061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -169395,7 +169395,7 @@ pg.world_event_data = {
 	},
 	[10660101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -169430,7 +169430,7 @@ pg.world_event_data = {
 	},
 	[10660151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -169465,7 +169465,7 @@ pg.world_event_data = {
 	},
 	[10660102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -169501,7 +169501,7 @@ pg.world_event_data = {
 	},
 	[10660152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -169537,7 +169537,7 @@ pg.world_event_data = {
 	},
 	[10660201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -169578,7 +169578,7 @@ pg.world_event_data = {
 	},
 	[10660251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -169619,7 +169619,7 @@ pg.world_event_data = {
 	},
 	[10660202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -169660,7 +169660,7 @@ pg.world_event_data = {
 	},
 	[10660252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -169701,7 +169701,7 @@ pg.world_event_data = {
 	},
 	[10660203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -169742,7 +169742,7 @@ pg.world_event_data = {
 	},
 	[10660253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -169783,7 +169783,7 @@ pg.world_event_data = {
 	},
 	[10660204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -169824,7 +169824,7 @@ pg.world_event_data = {
 	},
 	[10660254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -169865,7 +169865,7 @@ pg.world_event_data = {
 	},
 	[10660205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -169906,7 +169906,7 @@ pg.world_event_data = {
 	},
 	[10660255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -169983,7 +169983,7 @@ pg.world_event_data = {
 	},
 	[10660301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -170443,7 +170443,7 @@ pg.world_event_data = {
 	},
 	[10710010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -170620,7 +170620,7 @@ pg.world_event_data = {
 	},
 	[10710015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -170693,7 +170693,7 @@ pg.world_event_data = {
 	},
 	[10710016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -170766,7 +170766,7 @@ pg.world_event_data = {
 	},
 	[10710017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -170839,7 +170839,7 @@ pg.world_event_data = {
 	},
 	[10710060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -170874,7 +170874,7 @@ pg.world_event_data = {
 	},
 	[10710061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -170909,7 +170909,7 @@ pg.world_event_data = {
 	},
 	[10710101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -170944,7 +170944,7 @@ pg.world_event_data = {
 	},
 	[10710151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -170979,7 +170979,7 @@ pg.world_event_data = {
 	},
 	[10710102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -171015,7 +171015,7 @@ pg.world_event_data = {
 	},
 	[10710152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -171051,7 +171051,7 @@ pg.world_event_data = {
 	},
 	[10710201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -171092,7 +171092,7 @@ pg.world_event_data = {
 	},
 	[10710251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -171133,7 +171133,7 @@ pg.world_event_data = {
 	},
 	[10710202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -171174,7 +171174,7 @@ pg.world_event_data = {
 	},
 	[10710252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -171215,7 +171215,7 @@ pg.world_event_data = {
 	},
 	[10710203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -171256,7 +171256,7 @@ pg.world_event_data = {
 	},
 	[10710253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -171297,7 +171297,7 @@ pg.world_event_data = {
 	},
 	[10710204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -171338,7 +171338,7 @@ pg.world_event_data = {
 	},
 	[10710254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -171379,7 +171379,7 @@ pg.world_event_data = {
 	},
 	[10710205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -171420,7 +171420,7 @@ pg.world_event_data = {
 	},
 	[10710255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -171461,7 +171461,7 @@ pg.world_event_data = {
 	},
 	[10710206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -171502,7 +171502,7 @@ pg.world_event_data = {
 	},
 	[10710256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -171579,7 +171579,7 @@ pg.world_event_data = {
 	},
 	[10710301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -172039,7 +172039,7 @@ pg.world_event_data = {
 	},
 	[10720010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -172216,7 +172216,7 @@ pg.world_event_data = {
 	},
 	[10720015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -172289,7 +172289,7 @@ pg.world_event_data = {
 	},
 	[10720016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -172362,7 +172362,7 @@ pg.world_event_data = {
 	},
 	[10720017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -172435,7 +172435,7 @@ pg.world_event_data = {
 	},
 	[10720060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -172470,7 +172470,7 @@ pg.world_event_data = {
 	},
 	[10720061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -172505,7 +172505,7 @@ pg.world_event_data = {
 	},
 	[10720101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -172540,7 +172540,7 @@ pg.world_event_data = {
 	},
 	[10720151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -172575,7 +172575,7 @@ pg.world_event_data = {
 	},
 	[10720102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -172611,7 +172611,7 @@ pg.world_event_data = {
 	},
 	[10720152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -172647,7 +172647,7 @@ pg.world_event_data = {
 	},
 	[10720201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -172688,7 +172688,7 @@ pg.world_event_data = {
 	},
 	[10720251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -172729,7 +172729,7 @@ pg.world_event_data = {
 	},
 	[10720202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -172770,7 +172770,7 @@ pg.world_event_data = {
 	},
 	[10720252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -172811,7 +172811,7 @@ pg.world_event_data = {
 	},
 	[10720203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -172852,7 +172852,7 @@ pg.world_event_data = {
 	},
 	[10720253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -172893,7 +172893,7 @@ pg.world_event_data = {
 	},
 	[10720204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -172934,7 +172934,7 @@ pg.world_event_data = {
 	},
 	[10720254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -172975,7 +172975,7 @@ pg.world_event_data = {
 	},
 	[10720205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -173016,7 +173016,7 @@ pg.world_event_data = {
 	},
 	[10720255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -173057,7 +173057,7 @@ pg.world_event_data = {
 	},
 	[10720206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -173098,7 +173098,7 @@ pg.world_event_data = {
 	},
 	[10720256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -173175,7 +173175,7 @@ pg.world_event_data = {
 	},
 	[10720301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -173635,7 +173635,7 @@ pg.world_event_data = {
 	},
 	[10730010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -173812,7 +173812,7 @@ pg.world_event_data = {
 	},
 	[10730015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -173885,7 +173885,7 @@ pg.world_event_data = {
 	},
 	[10730016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -173958,7 +173958,7 @@ pg.world_event_data = {
 	},
 	[10730017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -174031,7 +174031,7 @@ pg.world_event_data = {
 	},
 	[10730060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -174066,7 +174066,7 @@ pg.world_event_data = {
 	},
 	[10730061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -174101,7 +174101,7 @@ pg.world_event_data = {
 	},
 	[10730101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -174136,7 +174136,7 @@ pg.world_event_data = {
 	},
 	[10730151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -174171,7 +174171,7 @@ pg.world_event_data = {
 	},
 	[10730102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -174207,7 +174207,7 @@ pg.world_event_data = {
 	},
 	[10730152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -174243,7 +174243,7 @@ pg.world_event_data = {
 	},
 	[10730201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -174284,7 +174284,7 @@ pg.world_event_data = {
 	},
 	[10730251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -174325,7 +174325,7 @@ pg.world_event_data = {
 	},
 	[10730202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -174366,7 +174366,7 @@ pg.world_event_data = {
 	},
 	[10730252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -174407,7 +174407,7 @@ pg.world_event_data = {
 	},
 	[10730203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -174448,7 +174448,7 @@ pg.world_event_data = {
 	},
 	[10730253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -174489,7 +174489,7 @@ pg.world_event_data = {
 	},
 	[10730204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -174530,7 +174530,7 @@ pg.world_event_data = {
 	},
 	[10730254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -174571,7 +174571,7 @@ pg.world_event_data = {
 	},
 	[10730205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -174612,7 +174612,7 @@ pg.world_event_data = {
 	},
 	[10730255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -174653,7 +174653,7 @@ pg.world_event_data = {
 	},
 	[10730206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -174694,7 +174694,7 @@ pg.world_event_data = {
 	},
 	[10730256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -174771,7 +174771,7 @@ pg.world_event_data = {
 	},
 	[10730301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -175161,7 +175161,7 @@ pg.world_event_data = {
 	},
 	[10810010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -175303,7 +175303,7 @@ pg.world_event_data = {
 	},
 	[10810014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -175376,7 +175376,7 @@ pg.world_event_data = {
 	},
 	[10810015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -175449,7 +175449,7 @@ pg.world_event_data = {
 	},
 	[10810016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -175522,7 +175522,7 @@ pg.world_event_data = {
 	},
 	[10810060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -175557,7 +175557,7 @@ pg.world_event_data = {
 	},
 	[10810061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -175592,7 +175592,7 @@ pg.world_event_data = {
 	},
 	[10810101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -175627,7 +175627,7 @@ pg.world_event_data = {
 	},
 	[10810151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -175662,7 +175662,7 @@ pg.world_event_data = {
 	},
 	[10810201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -175703,7 +175703,7 @@ pg.world_event_data = {
 	},
 	[10810251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -175744,7 +175744,7 @@ pg.world_event_data = {
 	},
 	[10810202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -175785,7 +175785,7 @@ pg.world_event_data = {
 	},
 	[10810252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -175826,7 +175826,7 @@ pg.world_event_data = {
 	},
 	[10810203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -175867,7 +175867,7 @@ pg.world_event_data = {
 	},
 	[10810253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -175908,7 +175908,7 @@ pg.world_event_data = {
 	},
 	[10810204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -175949,7 +175949,7 @@ pg.world_event_data = {
 	},
 	[10810254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -176026,7 +176026,7 @@ pg.world_event_data = {
 	},
 	[10810301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -176486,7 +176486,7 @@ pg.world_event_data = {
 	},
 	[10820010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -176628,7 +176628,7 @@ pg.world_event_data = {
 	},
 	[10820014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -176701,7 +176701,7 @@ pg.world_event_data = {
 	},
 	[10820015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -176774,7 +176774,7 @@ pg.world_event_data = {
 	},
 	[10820016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -176847,7 +176847,7 @@ pg.world_event_data = {
 	},
 	[10820060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -176882,7 +176882,7 @@ pg.world_event_data = {
 	},
 	[10820061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -176917,7 +176917,7 @@ pg.world_event_data = {
 	},
 	[10820101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -176952,7 +176952,7 @@ pg.world_event_data = {
 	},
 	[10820151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -176987,7 +176987,7 @@ pg.world_event_data = {
 	},
 	[10820102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -177023,7 +177023,7 @@ pg.world_event_data = {
 	},
 	[10820152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -177059,7 +177059,7 @@ pg.world_event_data = {
 	},
 	[10820201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -177100,7 +177100,7 @@ pg.world_event_data = {
 	},
 	[10820251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -177141,7 +177141,7 @@ pg.world_event_data = {
 	},
 	[10820202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -177182,7 +177182,7 @@ pg.world_event_data = {
 	},
 	[10820252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -177223,7 +177223,7 @@ pg.world_event_data = {
 	},
 	[10820203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -177264,7 +177264,7 @@ pg.world_event_data = {
 	},
 	[10820253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -177305,7 +177305,7 @@ pg.world_event_data = {
 	},
 	[10820204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -177346,7 +177346,7 @@ pg.world_event_data = {
 	},
 	[10820254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -177387,7 +177387,7 @@ pg.world_event_data = {
 	},
 	[10820205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -177428,7 +177428,7 @@ pg.world_event_data = {
 	},
 	[10820255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -177469,7 +177469,7 @@ pg.world_event_data = {
 	},
 	[10820206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -177510,7 +177510,7 @@ pg.world_event_data = {
 	},
 	[10820256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -177587,7 +177587,7 @@ pg.world_event_data = {
 	},
 	[10820301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -177977,7 +177977,7 @@ pg.world_event_data = {
 	},
 	[10830010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -178119,7 +178119,7 @@ pg.world_event_data = {
 	},
 	[10830014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -178192,7 +178192,7 @@ pg.world_event_data = {
 	},
 	[10830015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -178265,7 +178265,7 @@ pg.world_event_data = {
 	},
 	[10830016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -178338,7 +178338,7 @@ pg.world_event_data = {
 	},
 	[10830060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -178373,7 +178373,7 @@ pg.world_event_data = {
 	},
 	[10830061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -178408,7 +178408,7 @@ pg.world_event_data = {
 	},
 	[10830101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -178443,7 +178443,7 @@ pg.world_event_data = {
 	},
 	[10830151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -178478,7 +178478,7 @@ pg.world_event_data = {
 	},
 	[10830201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -178519,7 +178519,7 @@ pg.world_event_data = {
 	},
 	[10830251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -178560,7 +178560,7 @@ pg.world_event_data = {
 	},
 	[10830202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -178601,7 +178601,7 @@ pg.world_event_data = {
 	},
 	[10830252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -178642,7 +178642,7 @@ pg.world_event_data = {
 	},
 	[10830203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -178683,7 +178683,7 @@ pg.world_event_data = {
 	},
 	[10830253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -178724,7 +178724,7 @@ pg.world_event_data = {
 	},
 	[10830204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -178765,7 +178765,7 @@ pg.world_event_data = {
 	},
 	[10830254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -178842,7 +178842,7 @@ pg.world_event_data = {
 	},
 	[10830301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -179232,7 +179232,7 @@ pg.world_event_data = {
 	},
 	[10840010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -179374,7 +179374,7 @@ pg.world_event_data = {
 	},
 	[10840014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -179447,7 +179447,7 @@ pg.world_event_data = {
 	},
 	[10840015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -179520,7 +179520,7 @@ pg.world_event_data = {
 	},
 	[10840016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -179593,7 +179593,7 @@ pg.world_event_data = {
 	},
 	[10840060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -179628,7 +179628,7 @@ pg.world_event_data = {
 	},
 	[10840061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -179663,7 +179663,7 @@ pg.world_event_data = {
 	},
 	[10840101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -179698,7 +179698,7 @@ pg.world_event_data = {
 	},
 	[10840151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -179733,7 +179733,7 @@ pg.world_event_data = {
 	},
 	[10840201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -179774,7 +179774,7 @@ pg.world_event_data = {
 	},
 	[10840251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -179815,7 +179815,7 @@ pg.world_event_data = {
 	},
 	[10840202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -179856,7 +179856,7 @@ pg.world_event_data = {
 	},
 	[10840252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -179897,7 +179897,7 @@ pg.world_event_data = {
 	},
 	[10840203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -179938,7 +179938,7 @@ pg.world_event_data = {
 	},
 	[10840253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -179979,7 +179979,7 @@ pg.world_event_data = {
 	},
 	[10840204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -180020,7 +180020,7 @@ pg.world_event_data = {
 	},
 	[10840254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -180097,7 +180097,7 @@ pg.world_event_data = {
 	},
 	[10840301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -180557,7 +180557,7 @@ pg.world_event_data = {
 	},
 	[10850010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -180699,7 +180699,7 @@ pg.world_event_data = {
 	},
 	[10850014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -180772,7 +180772,7 @@ pg.world_event_data = {
 	},
 	[10850015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -180845,7 +180845,7 @@ pg.world_event_data = {
 	},
 	[10850016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -180918,7 +180918,7 @@ pg.world_event_data = {
 	},
 	[10850060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -180953,7 +180953,7 @@ pg.world_event_data = {
 	},
 	[10850061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -180988,7 +180988,7 @@ pg.world_event_data = {
 	},
 	[10850101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -181023,7 +181023,7 @@ pg.world_event_data = {
 	},
 	[10850151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -181058,7 +181058,7 @@ pg.world_event_data = {
 	},
 	[10850102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -181094,7 +181094,7 @@ pg.world_event_data = {
 	},
 	[10850152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -181130,7 +181130,7 @@ pg.world_event_data = {
 	},
 	[10850201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -181171,7 +181171,7 @@ pg.world_event_data = {
 	},
 	[10850251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -181212,7 +181212,7 @@ pg.world_event_data = {
 	},
 	[10850202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -181253,7 +181253,7 @@ pg.world_event_data = {
 	},
 	[10850252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -181294,7 +181294,7 @@ pg.world_event_data = {
 	},
 	[10850203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -181335,7 +181335,7 @@ pg.world_event_data = {
 	},
 	[10850253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -181376,7 +181376,7 @@ pg.world_event_data = {
 	},
 	[10850204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -181417,7 +181417,7 @@ pg.world_event_data = {
 	},
 	[10850254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -181458,7 +181458,7 @@ pg.world_event_data = {
 	},
 	[10850205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -181499,7 +181499,7 @@ pg.world_event_data = {
 	},
 	[10850255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -181540,7 +181540,7 @@ pg.world_event_data = {
 	},
 	[10850206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -181581,7 +181581,7 @@ pg.world_event_data = {
 	},
 	[10850256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -181658,7 +181658,7 @@ pg.world_event_data = {
 	},
 	[10850301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -182118,7 +182118,7 @@ pg.world_event_data = {
 	},
 	[10910010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -182260,7 +182260,7 @@ pg.world_event_data = {
 	},
 	[10910014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -182333,7 +182333,7 @@ pg.world_event_data = {
 	},
 	[10910015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -182406,7 +182406,7 @@ pg.world_event_data = {
 	},
 	[10910016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -182479,7 +182479,7 @@ pg.world_event_data = {
 	},
 	[10910060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -182514,7 +182514,7 @@ pg.world_event_data = {
 	},
 	[10910061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -182549,7 +182549,7 @@ pg.world_event_data = {
 	},
 	[10910101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -182584,7 +182584,7 @@ pg.world_event_data = {
 	},
 	[10910151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -182619,7 +182619,7 @@ pg.world_event_data = {
 	},
 	[10910102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -182655,7 +182655,7 @@ pg.world_event_data = {
 	},
 	[10910152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -182691,7 +182691,7 @@ pg.world_event_data = {
 	},
 	[10910201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -182732,7 +182732,7 @@ pg.world_event_data = {
 	},
 	[10910251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -182773,7 +182773,7 @@ pg.world_event_data = {
 	},
 	[10910202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -182814,7 +182814,7 @@ pg.world_event_data = {
 	},
 	[10910252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -182855,7 +182855,7 @@ pg.world_event_data = {
 	},
 	[10910203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -182896,7 +182896,7 @@ pg.world_event_data = {
 	},
 	[10910253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -182937,7 +182937,7 @@ pg.world_event_data = {
 	},
 	[10910204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -182978,7 +182978,7 @@ pg.world_event_data = {
 	},
 	[10910254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -183019,7 +183019,7 @@ pg.world_event_data = {
 	},
 	[10910205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -183060,7 +183060,7 @@ pg.world_event_data = {
 	},
 	[10910255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -183101,7 +183101,7 @@ pg.world_event_data = {
 	},
 	[10910206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -183142,7 +183142,7 @@ pg.world_event_data = {
 	},
 	[10910256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -183219,7 +183219,7 @@ pg.world_event_data = {
 	},
 	[10910301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -183609,7 +183609,7 @@ pg.world_event_data = {
 	},
 	[10920010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -183751,7 +183751,7 @@ pg.world_event_data = {
 	},
 	[10920014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -183824,7 +183824,7 @@ pg.world_event_data = {
 	},
 	[10920015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -183897,7 +183897,7 @@ pg.world_event_data = {
 	},
 	[10920016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -183970,7 +183970,7 @@ pg.world_event_data = {
 	},
 	[10920060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -184005,7 +184005,7 @@ pg.world_event_data = {
 	},
 	[10920061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -184040,7 +184040,7 @@ pg.world_event_data = {
 	},
 	[10920101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -184075,7 +184075,7 @@ pg.world_event_data = {
 	},
 	[10920151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -184110,7 +184110,7 @@ pg.world_event_data = {
 	},
 	[10920201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -184151,7 +184151,7 @@ pg.world_event_data = {
 	},
 	[10920251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -184192,7 +184192,7 @@ pg.world_event_data = {
 	},
 	[10920202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -184233,7 +184233,7 @@ pg.world_event_data = {
 	},
 	[10920252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -184274,7 +184274,7 @@ pg.world_event_data = {
 	},
 	[10920203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -184315,7 +184315,7 @@ pg.world_event_data = {
 	},
 	[10920253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -184356,7 +184356,7 @@ pg.world_event_data = {
 	},
 	[10920204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -184397,7 +184397,7 @@ pg.world_event_data = {
 	},
 	[10920254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -184474,7 +184474,7 @@ pg.world_event_data = {
 	},
 	[10920301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -184864,7 +184864,7 @@ pg.world_event_data = {
 	},
 	[10930010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -185006,7 +185006,7 @@ pg.world_event_data = {
 	},
 	[10930014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -185079,7 +185079,7 @@ pg.world_event_data = {
 	},
 	[10930015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -185152,7 +185152,7 @@ pg.world_event_data = {
 	},
 	[10930016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -185225,7 +185225,7 @@ pg.world_event_data = {
 	},
 	[10930060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -185260,7 +185260,7 @@ pg.world_event_data = {
 	},
 	[10930061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -185295,7 +185295,7 @@ pg.world_event_data = {
 	},
 	[10930101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -185330,7 +185330,7 @@ pg.world_event_data = {
 	},
 	[10930151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -185365,7 +185365,7 @@ pg.world_event_data = {
 	},
 	[10930201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -185406,7 +185406,7 @@ pg.world_event_data = {
 	},
 	[10930251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -185447,7 +185447,7 @@ pg.world_event_data = {
 	},
 	[10930202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -185488,7 +185488,7 @@ pg.world_event_data = {
 	},
 	[10930252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -185529,7 +185529,7 @@ pg.world_event_data = {
 	},
 	[10930203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -185570,7 +185570,7 @@ pg.world_event_data = {
 	},
 	[10930253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -185611,7 +185611,7 @@ pg.world_event_data = {
 	},
 	[10930204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -185652,7 +185652,7 @@ pg.world_event_data = {
 	},
 	[10930254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -185729,7 +185729,7 @@ pg.world_event_data = {
 	},
 	[10930301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -186119,7 +186119,7 @@ pg.world_event_data = {
 	},
 	[10940010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -186296,7 +186296,7 @@ pg.world_event_data = {
 	},
 	[10940015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -186369,7 +186369,7 @@ pg.world_event_data = {
 	},
 	[10940016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -186442,7 +186442,7 @@ pg.world_event_data = {
 	},
 	[10940017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -186515,7 +186515,7 @@ pg.world_event_data = {
 	},
 	[10940060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -186550,7 +186550,7 @@ pg.world_event_data = {
 	},
 	[10940061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -186585,7 +186585,7 @@ pg.world_event_data = {
 	},
 	[10940101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -186620,7 +186620,7 @@ pg.world_event_data = {
 	},
 	[10940151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -186655,7 +186655,7 @@ pg.world_event_data = {
 	},
 	[10940102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -186691,7 +186691,7 @@ pg.world_event_data = {
 	},
 	[10940152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -186727,7 +186727,7 @@ pg.world_event_data = {
 	},
 	[10940201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -186768,7 +186768,7 @@ pg.world_event_data = {
 	},
 	[10940251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -186809,7 +186809,7 @@ pg.world_event_data = {
 	},
 	[10940202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -186850,7 +186850,7 @@ pg.world_event_data = {
 	},
 	[10940252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -186891,7 +186891,7 @@ pg.world_event_data = {
 	},
 	[10940203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -186932,7 +186932,7 @@ pg.world_event_data = {
 	},
 	[10940253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -186973,7 +186973,7 @@ pg.world_event_data = {
 	},
 	[10940204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -187014,7 +187014,7 @@ pg.world_event_data = {
 	},
 	[10940254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -187055,7 +187055,7 @@ pg.world_event_data = {
 	},
 	[10940205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -187096,7 +187096,7 @@ pg.world_event_data = {
 	},
 	[10940255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -187173,7 +187173,7 @@ pg.world_event_data = {
 	},
 	[10940301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -187563,7 +187563,7 @@ pg.world_event_data = {
 	},
 	[10950010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -187740,7 +187740,7 @@ pg.world_event_data = {
 	},
 	[10950015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -187813,7 +187813,7 @@ pg.world_event_data = {
 	},
 	[10950016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -187886,7 +187886,7 @@ pg.world_event_data = {
 	},
 	[10950017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -187959,7 +187959,7 @@ pg.world_event_data = {
 	},
 	[10950060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -187994,7 +187994,7 @@ pg.world_event_data = {
 	},
 	[10950061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -188029,7 +188029,7 @@ pg.world_event_data = {
 	},
 	[10950101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -188064,7 +188064,7 @@ pg.world_event_data = {
 	},
 	[10950151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -188099,7 +188099,7 @@ pg.world_event_data = {
 	},
 	[10950102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -188135,7 +188135,7 @@ pg.world_event_data = {
 	},
 	[10950152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -188171,7 +188171,7 @@ pg.world_event_data = {
 	},
 	[10950201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -188212,7 +188212,7 @@ pg.world_event_data = {
 	},
 	[10950251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -188253,7 +188253,7 @@ pg.world_event_data = {
 	},
 	[10950202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -188294,7 +188294,7 @@ pg.world_event_data = {
 	},
 	[10950252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -188335,7 +188335,7 @@ pg.world_event_data = {
 	},
 	[10950203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -188376,7 +188376,7 @@ pg.world_event_data = {
 	},
 	[10950253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -188417,7 +188417,7 @@ pg.world_event_data = {
 	},
 	[10950204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -188458,7 +188458,7 @@ pg.world_event_data = {
 	},
 	[10950254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -188499,7 +188499,7 @@ pg.world_event_data = {
 	},
 	[10950205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -188540,7 +188540,7 @@ pg.world_event_data = {
 	},
 	[10950255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -188617,7 +188617,7 @@ pg.world_event_data = {
 	},
 	[10950301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -189077,7 +189077,7 @@ pg.world_event_data = {
 	},
 	[11010010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -189254,7 +189254,7 @@ pg.world_event_data = {
 	},
 	[11010015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -189327,7 +189327,7 @@ pg.world_event_data = {
 	},
 	[11010016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -189400,7 +189400,7 @@ pg.world_event_data = {
 	},
 	[11010017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -189473,7 +189473,7 @@ pg.world_event_data = {
 	},
 	[11010060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -189508,7 +189508,7 @@ pg.world_event_data = {
 	},
 	[11010061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -189543,7 +189543,7 @@ pg.world_event_data = {
 	},
 	[11010101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -189578,7 +189578,7 @@ pg.world_event_data = {
 	},
 	[11010151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -189613,7 +189613,7 @@ pg.world_event_data = {
 	},
 	[11010102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -189649,7 +189649,7 @@ pg.world_event_data = {
 	},
 	[11010152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -189685,7 +189685,7 @@ pg.world_event_data = {
 	},
 	[11010201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -189726,7 +189726,7 @@ pg.world_event_data = {
 	},
 	[11010251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -189767,7 +189767,7 @@ pg.world_event_data = {
 	},
 	[11010202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -189808,7 +189808,7 @@ pg.world_event_data = {
 	},
 	[11010252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -189849,7 +189849,7 @@ pg.world_event_data = {
 	},
 	[11010203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -189890,7 +189890,7 @@ pg.world_event_data = {
 	},
 	[11010253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -189931,7 +189931,7 @@ pg.world_event_data = {
 	},
 	[11010204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -189972,7 +189972,7 @@ pg.world_event_data = {
 	},
 	[11010254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -190013,7 +190013,7 @@ pg.world_event_data = {
 	},
 	[11010205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -190054,7 +190054,7 @@ pg.world_event_data = {
 	},
 	[11010255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -190095,7 +190095,7 @@ pg.world_event_data = {
 	},
 	[11010206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -190136,7 +190136,7 @@ pg.world_event_data = {
 	},
 	[11010256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -190213,7 +190213,7 @@ pg.world_event_data = {
 	},
 	[11010301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -190673,7 +190673,7 @@ pg.world_event_data = {
 	},
 	[11020010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -190850,7 +190850,7 @@ pg.world_event_data = {
 	},
 	[11020015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -190923,7 +190923,7 @@ pg.world_event_data = {
 	},
 	[11020016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -190996,7 +190996,7 @@ pg.world_event_data = {
 	},
 	[11020017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -191069,7 +191069,7 @@ pg.world_event_data = {
 	},
 	[11020060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -191104,7 +191104,7 @@ pg.world_event_data = {
 	},
 	[11020061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -191139,7 +191139,7 @@ pg.world_event_data = {
 	},
 	[11020101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -191174,7 +191174,7 @@ pg.world_event_data = {
 	},
 	[11020151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -191209,7 +191209,7 @@ pg.world_event_data = {
 	},
 	[11020102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -191245,7 +191245,7 @@ pg.world_event_data = {
 	},
 	[11020152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -191281,7 +191281,7 @@ pg.world_event_data = {
 	},
 	[11020201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -191322,7 +191322,7 @@ pg.world_event_data = {
 	},
 	[11020251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -191363,7 +191363,7 @@ pg.world_event_data = {
 	},
 	[11020202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -191404,7 +191404,7 @@ pg.world_event_data = {
 	},
 	[11020252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -191445,7 +191445,7 @@ pg.world_event_data = {
 	},
 	[11020203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -191486,7 +191486,7 @@ pg.world_event_data = {
 	},
 	[11020253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -191527,7 +191527,7 @@ pg.world_event_data = {
 	},
 	[11020204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -191568,7 +191568,7 @@ pg.world_event_data = {
 	},
 	[11020254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -191609,7 +191609,7 @@ pg.world_event_data = {
 	},
 	[11020205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -191650,7 +191650,7 @@ pg.world_event_data = {
 	},
 	[11020255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -191691,7 +191691,7 @@ pg.world_event_data = {
 	},
 	[11020206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -191732,7 +191732,7 @@ pg.world_event_data = {
 	},
 	[11020256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -191809,7 +191809,7 @@ pg.world_event_data = {
 	},
 	[11020301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -192269,7 +192269,7 @@ pg.world_event_data = {
 	},
 	[11030010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -192411,7 +192411,7 @@ pg.world_event_data = {
 	},
 	[11030014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -192484,7 +192484,7 @@ pg.world_event_data = {
 	},
 	[11030015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -192557,7 +192557,7 @@ pg.world_event_data = {
 	},
 	[11030016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -192630,7 +192630,7 @@ pg.world_event_data = {
 	},
 	[11030060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -192665,7 +192665,7 @@ pg.world_event_data = {
 	},
 	[11030061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -192700,7 +192700,7 @@ pg.world_event_data = {
 	},
 	[11030101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -192735,7 +192735,7 @@ pg.world_event_data = {
 	},
 	[11030151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -192770,7 +192770,7 @@ pg.world_event_data = {
 	},
 	[11030102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -192806,7 +192806,7 @@ pg.world_event_data = {
 	},
 	[11030152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -192842,7 +192842,7 @@ pg.world_event_data = {
 	},
 	[11030201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -192883,7 +192883,7 @@ pg.world_event_data = {
 	},
 	[11030251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -192924,7 +192924,7 @@ pg.world_event_data = {
 	},
 	[11030202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -192965,7 +192965,7 @@ pg.world_event_data = {
 	},
 	[11030252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -193006,7 +193006,7 @@ pg.world_event_data = {
 	},
 	[11030203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -193047,7 +193047,7 @@ pg.world_event_data = {
 	},
 	[11030253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -193088,7 +193088,7 @@ pg.world_event_data = {
 	},
 	[11030204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -193129,7 +193129,7 @@ pg.world_event_data = {
 	},
 	[11030254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -193170,7 +193170,7 @@ pg.world_event_data = {
 	},
 	[11030205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -193211,7 +193211,7 @@ pg.world_event_data = {
 	},
 	[11030255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -193252,7 +193252,7 @@ pg.world_event_data = {
 	},
 	[11030206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -193293,7 +193293,7 @@ pg.world_event_data = {
 	},
 	[11030256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -193370,7 +193370,7 @@ pg.world_event_data = {
 	},
 	[11030301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -193830,7 +193830,7 @@ pg.world_event_data = {
 	},
 	[11040010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -193972,7 +193972,7 @@ pg.world_event_data = {
 	},
 	[11040014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -194045,7 +194045,7 @@ pg.world_event_data = {
 	},
 	[11040015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -194118,7 +194118,7 @@ pg.world_event_data = {
 	},
 	[11040016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -194191,7 +194191,7 @@ pg.world_event_data = {
 	},
 	[11040060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -194226,7 +194226,7 @@ pg.world_event_data = {
 	},
 	[11040061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -194261,7 +194261,7 @@ pg.world_event_data = {
 	},
 	[11040101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -194296,7 +194296,7 @@ pg.world_event_data = {
 	},
 	[11040151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -194331,7 +194331,7 @@ pg.world_event_data = {
 	},
 	[11040102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -194367,7 +194367,7 @@ pg.world_event_data = {
 	},
 	[11040152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -194403,7 +194403,7 @@ pg.world_event_data = {
 	},
 	[11040201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -194444,7 +194444,7 @@ pg.world_event_data = {
 	},
 	[11040251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -194485,7 +194485,7 @@ pg.world_event_data = {
 	},
 	[11040202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -194526,7 +194526,7 @@ pg.world_event_data = {
 	},
 	[11040252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -194567,7 +194567,7 @@ pg.world_event_data = {
 	},
 	[11040203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -194608,7 +194608,7 @@ pg.world_event_data = {
 	},
 	[11040253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -194649,7 +194649,7 @@ pg.world_event_data = {
 	},
 	[11040204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -194690,7 +194690,7 @@ pg.world_event_data = {
 	},
 	[11040254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -194731,7 +194731,7 @@ pg.world_event_data = {
 	},
 	[11040205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -194772,7 +194772,7 @@ pg.world_event_data = {
 	},
 	[11040255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -194813,7 +194813,7 @@ pg.world_event_data = {
 	},
 	[11040206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -194854,7 +194854,7 @@ pg.world_event_data = {
 	},
 	[11040256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -194931,7 +194931,7 @@ pg.world_event_data = {
 	},
 	[11040301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -195321,7 +195321,7 @@ pg.world_event_data = {
 	},
 	[11050010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -195498,7 +195498,7 @@ pg.world_event_data = {
 	},
 	[11050015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -195571,7 +195571,7 @@ pg.world_event_data = {
 	},
 	[11050016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -195644,7 +195644,7 @@ pg.world_event_data = {
 	},
 	[11050017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -195717,7 +195717,7 @@ pg.world_event_data = {
 	},
 	[11050060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -195752,7 +195752,7 @@ pg.world_event_data = {
 	},
 	[11050061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -195787,7 +195787,7 @@ pg.world_event_data = {
 	},
 	[11050101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -195822,7 +195822,7 @@ pg.world_event_data = {
 	},
 	[11050151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -195857,7 +195857,7 @@ pg.world_event_data = {
 	},
 	[11050102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -195893,7 +195893,7 @@ pg.world_event_data = {
 	},
 	[11050152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -195929,7 +195929,7 @@ pg.world_event_data = {
 	},
 	[11050201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -195970,7 +195970,7 @@ pg.world_event_data = {
 	},
 	[11050251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -196011,7 +196011,7 @@ pg.world_event_data = {
 	},
 	[11050202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -196052,7 +196052,7 @@ pg.world_event_data = {
 	},
 	[11050252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -196093,7 +196093,7 @@ pg.world_event_data = {
 	},
 	[11050203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -196134,7 +196134,7 @@ pg.world_event_data = {
 	},
 	[11050253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -196175,7 +196175,7 @@ pg.world_event_data = {
 	},
 	[11050204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -196216,7 +196216,7 @@ pg.world_event_data = {
 	},
 	[11050254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -196257,7 +196257,7 @@ pg.world_event_data = {
 	},
 	[11050205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -196298,7 +196298,7 @@ pg.world_event_data = {
 	},
 	[11050255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -196375,7 +196375,7 @@ pg.world_event_data = {
 	},
 	[11050301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -196835,7 +196835,7 @@ pg.world_event_data = {
 	},
 	[11060010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -197012,7 +197012,7 @@ pg.world_event_data = {
 	},
 	[11060015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -197085,7 +197085,7 @@ pg.world_event_data = {
 	},
 	[11060016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -197158,7 +197158,7 @@ pg.world_event_data = {
 	},
 	[11060017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -197231,7 +197231,7 @@ pg.world_event_data = {
 	},
 	[11060060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -197266,7 +197266,7 @@ pg.world_event_data = {
 	},
 	[11060061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -197301,7 +197301,7 @@ pg.world_event_data = {
 	},
 	[11060101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -197336,7 +197336,7 @@ pg.world_event_data = {
 	},
 	[11060151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -197371,7 +197371,7 @@ pg.world_event_data = {
 	},
 	[11060102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -197407,7 +197407,7 @@ pg.world_event_data = {
 	},
 	[11060152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -197443,7 +197443,7 @@ pg.world_event_data = {
 	},
 	[11060201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -197484,7 +197484,7 @@ pg.world_event_data = {
 	},
 	[11060251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -197525,7 +197525,7 @@ pg.world_event_data = {
 	},
 	[11060202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -197566,7 +197566,7 @@ pg.world_event_data = {
 	},
 	[11060252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -197607,7 +197607,7 @@ pg.world_event_data = {
 	},
 	[11060203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -197648,7 +197648,7 @@ pg.world_event_data = {
 	},
 	[11060253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -197689,7 +197689,7 @@ pg.world_event_data = {
 	},
 	[11060204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -197730,7 +197730,7 @@ pg.world_event_data = {
 	},
 	[11060254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -197771,7 +197771,7 @@ pg.world_event_data = {
 	},
 	[11060205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -197812,7 +197812,7 @@ pg.world_event_data = {
 	},
 	[11060255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -197853,7 +197853,7 @@ pg.world_event_data = {
 	},
 	[11060206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -197894,7 +197894,7 @@ pg.world_event_data = {
 	},
 	[11060256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -197971,7 +197971,7 @@ pg.world_event_data = {
 	},
 	[11060301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -198361,7 +198361,7 @@ pg.world_event_data = {
 	},
 	[11110010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -198538,7 +198538,7 @@ pg.world_event_data = {
 	},
 	[11110015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -198611,7 +198611,7 @@ pg.world_event_data = {
 	},
 	[11110016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -198684,7 +198684,7 @@ pg.world_event_data = {
 	},
 	[11110017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -198757,7 +198757,7 @@ pg.world_event_data = {
 	},
 	[11110060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -198792,7 +198792,7 @@ pg.world_event_data = {
 	},
 	[11110061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -198827,7 +198827,7 @@ pg.world_event_data = {
 	},
 	[11110101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -198862,7 +198862,7 @@ pg.world_event_data = {
 	},
 	[11110151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -198897,7 +198897,7 @@ pg.world_event_data = {
 	},
 	[11110102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -198933,7 +198933,7 @@ pg.world_event_data = {
 	},
 	[11110152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -198969,7 +198969,7 @@ pg.world_event_data = {
 	},
 	[11110201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -199010,7 +199010,7 @@ pg.world_event_data = {
 	},
 	[11110251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -199051,7 +199051,7 @@ pg.world_event_data = {
 	},
 	[11110202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -199092,7 +199092,7 @@ pg.world_event_data = {
 	},
 	[11110252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -199133,7 +199133,7 @@ pg.world_event_data = {
 	},
 	[11110203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -199174,7 +199174,7 @@ pg.world_event_data = {
 	},
 	[11110253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -199215,7 +199215,7 @@ pg.world_event_data = {
 	},
 	[11110204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -199256,7 +199256,7 @@ pg.world_event_data = {
 	},
 	[11110254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -199297,7 +199297,7 @@ pg.world_event_data = {
 	},
 	[11110205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -199338,7 +199338,7 @@ pg.world_event_data = {
 	},
 	[11110255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -199415,7 +199415,7 @@ pg.world_event_data = {
 	},
 	[11110301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -199805,7 +199805,7 @@ pg.world_event_data = {
 	},
 	[11120010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -199947,7 +199947,7 @@ pg.world_event_data = {
 	},
 	[11120014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -200020,7 +200020,7 @@ pg.world_event_data = {
 	},
 	[11120015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -200093,7 +200093,7 @@ pg.world_event_data = {
 	},
 	[11120016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -200166,7 +200166,7 @@ pg.world_event_data = {
 	},
 	[11120060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -200201,7 +200201,7 @@ pg.world_event_data = {
 	},
 	[11120061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -200236,7 +200236,7 @@ pg.world_event_data = {
 	},
 	[11120101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -200271,7 +200271,7 @@ pg.world_event_data = {
 	},
 	[11120151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -200306,7 +200306,7 @@ pg.world_event_data = {
 	},
 	[11120201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -200347,7 +200347,7 @@ pg.world_event_data = {
 	},
 	[11120251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -200388,7 +200388,7 @@ pg.world_event_data = {
 	},
 	[11120202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -200429,7 +200429,7 @@ pg.world_event_data = {
 	},
 	[11120252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -200470,7 +200470,7 @@ pg.world_event_data = {
 	},
 	[11120203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -200511,7 +200511,7 @@ pg.world_event_data = {
 	},
 	[11120253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -200552,7 +200552,7 @@ pg.world_event_data = {
 	},
 	[11120204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -200593,7 +200593,7 @@ pg.world_event_data = {
 	},
 	[11120254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -200670,7 +200670,7 @@ pg.world_event_data = {
 	},
 	[11120301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -201060,7 +201060,7 @@ pg.world_event_data = {
 	},
 	[11130010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -201237,7 +201237,7 @@ pg.world_event_data = {
 	},
 	[11130015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -201310,7 +201310,7 @@ pg.world_event_data = {
 	},
 	[11130016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -201383,7 +201383,7 @@ pg.world_event_data = {
 	},
 	[11130017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -201456,7 +201456,7 @@ pg.world_event_data = {
 	},
 	[11130060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -201491,7 +201491,7 @@ pg.world_event_data = {
 	},
 	[11130061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -201526,7 +201526,7 @@ pg.world_event_data = {
 	},
 	[11130101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -201561,7 +201561,7 @@ pg.world_event_data = {
 	},
 	[11130151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -201596,7 +201596,7 @@ pg.world_event_data = {
 	},
 	[11130102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -201632,7 +201632,7 @@ pg.world_event_data = {
 	},
 	[11130152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -201668,7 +201668,7 @@ pg.world_event_data = {
 	},
 	[11130201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -201709,7 +201709,7 @@ pg.world_event_data = {
 	},
 	[11130251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -201750,7 +201750,7 @@ pg.world_event_data = {
 	},
 	[11130202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -201791,7 +201791,7 @@ pg.world_event_data = {
 	},
 	[11130252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -201832,7 +201832,7 @@ pg.world_event_data = {
 	},
 	[11130203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -201873,7 +201873,7 @@ pg.world_event_data = {
 	},
 	[11130253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -201914,7 +201914,7 @@ pg.world_event_data = {
 	},
 	[11130204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -201955,7 +201955,7 @@ pg.world_event_data = {
 	},
 	[11130254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -201996,7 +201996,7 @@ pg.world_event_data = {
 	},
 	[11130205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -202037,7 +202037,7 @@ pg.world_event_data = {
 	},
 	[11130255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -202114,7 +202114,7 @@ pg.world_event_data = {
 	},
 	[11130301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -202504,7 +202504,7 @@ pg.world_event_data = {
 	},
 	[11140010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -202681,7 +202681,7 @@ pg.world_event_data = {
 	},
 	[11140015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -202754,7 +202754,7 @@ pg.world_event_data = {
 	},
 	[11140016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -202827,7 +202827,7 @@ pg.world_event_data = {
 	},
 	[11140017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -202900,7 +202900,7 @@ pg.world_event_data = {
 	},
 	[11140060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -202935,7 +202935,7 @@ pg.world_event_data = {
 	},
 	[11140061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -202970,7 +202970,7 @@ pg.world_event_data = {
 	},
 	[11140101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -203005,7 +203005,7 @@ pg.world_event_data = {
 	},
 	[11140151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -203040,7 +203040,7 @@ pg.world_event_data = {
 	},
 	[11140102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -203076,7 +203076,7 @@ pg.world_event_data = {
 	},
 	[11140152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -203112,7 +203112,7 @@ pg.world_event_data = {
 	},
 	[11140201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -203153,7 +203153,7 @@ pg.world_event_data = {
 	},
 	[11140251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -203194,7 +203194,7 @@ pg.world_event_data = {
 	},
 	[11140202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -203235,7 +203235,7 @@ pg.world_event_data = {
 	},
 	[11140252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -203276,7 +203276,7 @@ pg.world_event_data = {
 	},
 	[11140203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -203317,7 +203317,7 @@ pg.world_event_data = {
 	},
 	[11140253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -203358,7 +203358,7 @@ pg.world_event_data = {
 	},
 	[11140204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -203399,7 +203399,7 @@ pg.world_event_data = {
 	},
 	[11140254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -203440,7 +203440,7 @@ pg.world_event_data = {
 	},
 	[11140205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -203481,7 +203481,7 @@ pg.world_event_data = {
 	},
 	[11140255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -203558,7 +203558,7 @@ pg.world_event_data = {
 	},
 	[11140301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -204018,7 +204018,7 @@ pg.world_event_data = {
 	},
 	[11210010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -204195,7 +204195,7 @@ pg.world_event_data = {
 	},
 	[11210015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -204268,7 +204268,7 @@ pg.world_event_data = {
 	},
 	[11210016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -204341,7 +204341,7 @@ pg.world_event_data = {
 	},
 	[11210017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -204414,7 +204414,7 @@ pg.world_event_data = {
 	},
 	[11210060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -204449,7 +204449,7 @@ pg.world_event_data = {
 	},
 	[11210061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -204484,7 +204484,7 @@ pg.world_event_data = {
 	},
 	[11210101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -204519,7 +204519,7 @@ pg.world_event_data = {
 	},
 	[11210151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -204554,7 +204554,7 @@ pg.world_event_data = {
 	},
 	[11210102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -204590,7 +204590,7 @@ pg.world_event_data = {
 	},
 	[11210152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -204626,7 +204626,7 @@ pg.world_event_data = {
 	},
 	[11210201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -204667,7 +204667,7 @@ pg.world_event_data = {
 	},
 	[11210251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -204708,7 +204708,7 @@ pg.world_event_data = {
 	},
 	[11210202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -204749,7 +204749,7 @@ pg.world_event_data = {
 	},
 	[11210252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -204790,7 +204790,7 @@ pg.world_event_data = {
 	},
 	[11210203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -204831,7 +204831,7 @@ pg.world_event_data = {
 	},
 	[11210253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -204872,7 +204872,7 @@ pg.world_event_data = {
 	},
 	[11210204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -204913,7 +204913,7 @@ pg.world_event_data = {
 	},
 	[11210254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -204954,7 +204954,7 @@ pg.world_event_data = {
 	},
 	[11210205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -204995,7 +204995,7 @@ pg.world_event_data = {
 	},
 	[11210255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -205036,7 +205036,7 @@ pg.world_event_data = {
 	},
 	[11210206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -205077,7 +205077,7 @@ pg.world_event_data = {
 	},
 	[11210256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -205154,7 +205154,7 @@ pg.world_event_data = {
 	},
 	[11210301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -205544,7 +205544,7 @@ pg.world_event_data = {
 	},
 	[11220010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -205686,7 +205686,7 @@ pg.world_event_data = {
 	},
 	[11220014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -205759,7 +205759,7 @@ pg.world_event_data = {
 	},
 	[11220015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -205832,7 +205832,7 @@ pg.world_event_data = {
 	},
 	[11220016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -205905,7 +205905,7 @@ pg.world_event_data = {
 	},
 	[11220060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -205940,7 +205940,7 @@ pg.world_event_data = {
 	},
 	[11220061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -205975,7 +205975,7 @@ pg.world_event_data = {
 	},
 	[11220101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -206010,7 +206010,7 @@ pg.world_event_data = {
 	},
 	[11220151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -206045,7 +206045,7 @@ pg.world_event_data = {
 	},
 	[11220201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -206086,7 +206086,7 @@ pg.world_event_data = {
 	},
 	[11220251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -206127,7 +206127,7 @@ pg.world_event_data = {
 	},
 	[11220202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -206168,7 +206168,7 @@ pg.world_event_data = {
 	},
 	[11220252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -206209,7 +206209,7 @@ pg.world_event_data = {
 	},
 	[11220203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -206250,7 +206250,7 @@ pg.world_event_data = {
 	},
 	[11220253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -206291,7 +206291,7 @@ pg.world_event_data = {
 	},
 	[11220204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -206332,7 +206332,7 @@ pg.world_event_data = {
 	},
 	[11220254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -206409,7 +206409,7 @@ pg.world_event_data = {
 	},
 	[11220301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -206799,7 +206799,7 @@ pg.world_event_data = {
 	},
 	[11230010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -206976,7 +206976,7 @@ pg.world_event_data = {
 	},
 	[11230015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -207049,7 +207049,7 @@ pg.world_event_data = {
 	},
 	[11230016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -207122,7 +207122,7 @@ pg.world_event_data = {
 	},
 	[11230017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -207195,7 +207195,7 @@ pg.world_event_data = {
 	},
 	[11230060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -207230,7 +207230,7 @@ pg.world_event_data = {
 	},
 	[11230061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -207265,7 +207265,7 @@ pg.world_event_data = {
 	},
 	[11230101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -207300,7 +207300,7 @@ pg.world_event_data = {
 	},
 	[11230151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -207335,7 +207335,7 @@ pg.world_event_data = {
 	},
 	[11230102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -207371,7 +207371,7 @@ pg.world_event_data = {
 	},
 	[11230152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -207407,7 +207407,7 @@ pg.world_event_data = {
 	},
 	[11230201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -207448,7 +207448,7 @@ pg.world_event_data = {
 	},
 	[11230251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -207489,7 +207489,7 @@ pg.world_event_data = {
 	},
 	[11230202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -207530,7 +207530,7 @@ pg.world_event_data = {
 	},
 	[11230252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -207571,7 +207571,7 @@ pg.world_event_data = {
 	},
 	[11230203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -207612,7 +207612,7 @@ pg.world_event_data = {
 	},
 	[11230253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -207653,7 +207653,7 @@ pg.world_event_data = {
 	},
 	[11230204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -207694,7 +207694,7 @@ pg.world_event_data = {
 	},
 	[11230254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -207735,7 +207735,7 @@ pg.world_event_data = {
 	},
 	[11230205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -207776,7 +207776,7 @@ pg.world_event_data = {
 	},
 	[11230255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -207853,7 +207853,7 @@ pg.world_event_data = {
 	},
 	[11230301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -208313,7 +208313,7 @@ pg.world_event_data = {
 	},
 	[11240010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -208490,7 +208490,7 @@ pg.world_event_data = {
 	},
 	[11240015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -208563,7 +208563,7 @@ pg.world_event_data = {
 	},
 	[11240016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -208636,7 +208636,7 @@ pg.world_event_data = {
 	},
 	[11240017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -208709,7 +208709,7 @@ pg.world_event_data = {
 	},
 	[11240060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -208744,7 +208744,7 @@ pg.world_event_data = {
 	},
 	[11240061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -208779,7 +208779,7 @@ pg.world_event_data = {
 	},
 	[11240101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -208814,7 +208814,7 @@ pg.world_event_data = {
 	},
 	[11240151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -208849,7 +208849,7 @@ pg.world_event_data = {
 	},
 	[11240102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -208885,7 +208885,7 @@ pg.world_event_data = {
 	},
 	[11240152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -208921,7 +208921,7 @@ pg.world_event_data = {
 	},
 	[11240201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -208962,7 +208962,7 @@ pg.world_event_data = {
 	},
 	[11240251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -209003,7 +209003,7 @@ pg.world_event_data = {
 	},
 	[11240202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -209044,7 +209044,7 @@ pg.world_event_data = {
 	},
 	[11240252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -209085,7 +209085,7 @@ pg.world_event_data = {
 	},
 	[11240203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -209126,7 +209126,7 @@ pg.world_event_data = {
 	},
 	[11240253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -209167,7 +209167,7 @@ pg.world_event_data = {
 	},
 	[11240204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -209208,7 +209208,7 @@ pg.world_event_data = {
 	},
 	[11240254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -209249,7 +209249,7 @@ pg.world_event_data = {
 	},
 	[11240205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -209290,7 +209290,7 @@ pg.world_event_data = {
 	},
 	[11240255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -209331,7 +209331,7 @@ pg.world_event_data = {
 	},
 	[11240206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -209372,7 +209372,7 @@ pg.world_event_data = {
 	},
 	[11240256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -209449,7 +209449,7 @@ pg.world_event_data = {
 	},
 	[11240301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -209839,7 +209839,7 @@ pg.world_event_data = {
 	},
 	[11250010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -210016,7 +210016,7 @@ pg.world_event_data = {
 	},
 	[11250015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -210089,7 +210089,7 @@ pg.world_event_data = {
 	},
 	[11250016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -210162,7 +210162,7 @@ pg.world_event_data = {
 	},
 	[11250017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -210235,7 +210235,7 @@ pg.world_event_data = {
 	},
 	[11250060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -210270,7 +210270,7 @@ pg.world_event_data = {
 	},
 	[11250061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -210305,7 +210305,7 @@ pg.world_event_data = {
 	},
 	[11250101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -210340,7 +210340,7 @@ pg.world_event_data = {
 	},
 	[11250151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -210375,7 +210375,7 @@ pg.world_event_data = {
 	},
 	[11250102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -210411,7 +210411,7 @@ pg.world_event_data = {
 	},
 	[11250152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -210447,7 +210447,7 @@ pg.world_event_data = {
 	},
 	[11250201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -210488,7 +210488,7 @@ pg.world_event_data = {
 	},
 	[11250251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -210529,7 +210529,7 @@ pg.world_event_data = {
 	},
 	[11250202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -210570,7 +210570,7 @@ pg.world_event_data = {
 	},
 	[11250252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -210611,7 +210611,7 @@ pg.world_event_data = {
 	},
 	[11250203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -210652,7 +210652,7 @@ pg.world_event_data = {
 	},
 	[11250253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -210693,7 +210693,7 @@ pg.world_event_data = {
 	},
 	[11250204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -210734,7 +210734,7 @@ pg.world_event_data = {
 	},
 	[11250254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -210775,7 +210775,7 @@ pg.world_event_data = {
 	},
 	[11250205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -210816,7 +210816,7 @@ pg.world_event_data = {
 	},
 	[11250255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -210893,7 +210893,7 @@ pg.world_event_data = {
 	},
 	[11250301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -211283,7 +211283,7 @@ pg.world_event_data = {
 	},
 	[11310010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -211425,7 +211425,7 @@ pg.world_event_data = {
 	},
 	[11310014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -211498,7 +211498,7 @@ pg.world_event_data = {
 	},
 	[11310015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -211571,7 +211571,7 @@ pg.world_event_data = {
 	},
 	[11310016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -211644,7 +211644,7 @@ pg.world_event_data = {
 	},
 	[11310060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -211679,7 +211679,7 @@ pg.world_event_data = {
 	},
 	[11310061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -211714,7 +211714,7 @@ pg.world_event_data = {
 	},
 	[11310101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -211749,7 +211749,7 @@ pg.world_event_data = {
 	},
 	[11310151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -211784,7 +211784,7 @@ pg.world_event_data = {
 	},
 	[11310201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -211825,7 +211825,7 @@ pg.world_event_data = {
 	},
 	[11310251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -211866,7 +211866,7 @@ pg.world_event_data = {
 	},
 	[11310202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -211907,7 +211907,7 @@ pg.world_event_data = {
 	},
 	[11310252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -211948,7 +211948,7 @@ pg.world_event_data = {
 	},
 	[11310203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -211989,7 +211989,7 @@ pg.world_event_data = {
 	},
 	[11310253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -212030,7 +212030,7 @@ pg.world_event_data = {
 	},
 	[11310204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -212071,7 +212071,7 @@ pg.world_event_data = {
 	},
 	[11310254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -212148,7 +212148,7 @@ pg.world_event_data = {
 	},
 	[11310301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -212538,7 +212538,7 @@ pg.world_event_data = {
 	},
 	[11320010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -212680,7 +212680,7 @@ pg.world_event_data = {
 	},
 	[11320014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -212753,7 +212753,7 @@ pg.world_event_data = {
 	},
 	[11320015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -212826,7 +212826,7 @@ pg.world_event_data = {
 	},
 	[11320016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -212899,7 +212899,7 @@ pg.world_event_data = {
 	},
 	[11320060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -212934,7 +212934,7 @@ pg.world_event_data = {
 	},
 	[11320061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -212969,7 +212969,7 @@ pg.world_event_data = {
 	},
 	[11320101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -213004,7 +213004,7 @@ pg.world_event_data = {
 	},
 	[11320151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -213039,7 +213039,7 @@ pg.world_event_data = {
 	},
 	[11320201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -213080,7 +213080,7 @@ pg.world_event_data = {
 	},
 	[11320251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -213121,7 +213121,7 @@ pg.world_event_data = {
 	},
 	[11320202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -213162,7 +213162,7 @@ pg.world_event_data = {
 	},
 	[11320252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -213203,7 +213203,7 @@ pg.world_event_data = {
 	},
 	[11320203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -213244,7 +213244,7 @@ pg.world_event_data = {
 	},
 	[11320253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -213285,7 +213285,7 @@ pg.world_event_data = {
 	},
 	[11320204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -213326,7 +213326,7 @@ pg.world_event_data = {
 	},
 	[11320254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -213403,7 +213403,7 @@ pg.world_event_data = {
 	},
 	[11320301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -213793,7 +213793,7 @@ pg.world_event_data = {
 	},
 	[11330010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -213970,7 +213970,7 @@ pg.world_event_data = {
 	},
 	[11330015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -214043,7 +214043,7 @@ pg.world_event_data = {
 	},
 	[11330016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -214116,7 +214116,7 @@ pg.world_event_data = {
 	},
 	[11330017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -214189,7 +214189,7 @@ pg.world_event_data = {
 	},
 	[11330060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -214224,7 +214224,7 @@ pg.world_event_data = {
 	},
 	[11330061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -214259,7 +214259,7 @@ pg.world_event_data = {
 	},
 	[11330101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -214294,7 +214294,7 @@ pg.world_event_data = {
 	},
 	[11330151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -214329,7 +214329,7 @@ pg.world_event_data = {
 	},
 	[11330102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -214365,7 +214365,7 @@ pg.world_event_data = {
 	},
 	[11330152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -214401,7 +214401,7 @@ pg.world_event_data = {
 	},
 	[11330201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -214442,7 +214442,7 @@ pg.world_event_data = {
 	},
 	[11330251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -214483,7 +214483,7 @@ pg.world_event_data = {
 	},
 	[11330202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -214524,7 +214524,7 @@ pg.world_event_data = {
 	},
 	[11330252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -214565,7 +214565,7 @@ pg.world_event_data = {
 	},
 	[11330203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -214606,7 +214606,7 @@ pg.world_event_data = {
 	},
 	[11330253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -214647,7 +214647,7 @@ pg.world_event_data = {
 	},
 	[11330204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -214688,7 +214688,7 @@ pg.world_event_data = {
 	},
 	[11330254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -214729,7 +214729,7 @@ pg.world_event_data = {
 	},
 	[11330205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -214770,7 +214770,7 @@ pg.world_event_data = {
 	},
 	[11330255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -214847,7 +214847,7 @@ pg.world_event_data = {
 	},
 	[11330301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -215237,7 +215237,7 @@ pg.world_event_data = {
 	},
 	[11340010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -215379,7 +215379,7 @@ pg.world_event_data = {
 	},
 	[11340014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -215452,7 +215452,7 @@ pg.world_event_data = {
 	},
 	[11340015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -215525,7 +215525,7 @@ pg.world_event_data = {
 	},
 	[11340016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -215598,7 +215598,7 @@ pg.world_event_data = {
 	},
 	[11340060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -215633,7 +215633,7 @@ pg.world_event_data = {
 	},
 	[11340061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -215668,7 +215668,7 @@ pg.world_event_data = {
 	},
 	[11340101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -215703,7 +215703,7 @@ pg.world_event_data = {
 	},
 	[11340151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -215738,7 +215738,7 @@ pg.world_event_data = {
 	},
 	[11340201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -215779,7 +215779,7 @@ pg.world_event_data = {
 	},
 	[11340251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -215820,7 +215820,7 @@ pg.world_event_data = {
 	},
 	[11340202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -215861,7 +215861,7 @@ pg.world_event_data = {
 	},
 	[11340252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -215902,7 +215902,7 @@ pg.world_event_data = {
 	},
 	[11340203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -215943,7 +215943,7 @@ pg.world_event_data = {
 	},
 	[11340253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -215984,7 +215984,7 @@ pg.world_event_data = {
 	},
 	[11340204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -216025,7 +216025,7 @@ pg.world_event_data = {
 	},
 	[11340254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -216102,7 +216102,7 @@ pg.world_event_data = {
 	},
 	[11340301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -216492,7 +216492,7 @@ pg.world_event_data = {
 	},
 	[11350010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -216669,7 +216669,7 @@ pg.world_event_data = {
 	},
 	[11350015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -216742,7 +216742,7 @@ pg.world_event_data = {
 	},
 	[11350016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -216815,7 +216815,7 @@ pg.world_event_data = {
 	},
 	[11350017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -216888,7 +216888,7 @@ pg.world_event_data = {
 	},
 	[11350060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -216923,7 +216923,7 @@ pg.world_event_data = {
 	},
 	[11350061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -216958,7 +216958,7 @@ pg.world_event_data = {
 	},
 	[11350101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -216993,7 +216993,7 @@ pg.world_event_data = {
 	},
 	[11350151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -217028,7 +217028,7 @@ pg.world_event_data = {
 	},
 	[11350102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -217064,7 +217064,7 @@ pg.world_event_data = {
 	},
 	[11350152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -217100,7 +217100,7 @@ pg.world_event_data = {
 	},
 	[11350201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -217141,7 +217141,7 @@ pg.world_event_data = {
 	},
 	[11350251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -217182,7 +217182,7 @@ pg.world_event_data = {
 	},
 	[11350202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -217223,7 +217223,7 @@ pg.world_event_data = {
 	},
 	[11350252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -217264,7 +217264,7 @@ pg.world_event_data = {
 	},
 	[11350203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -217305,7 +217305,7 @@ pg.world_event_data = {
 	},
 	[11350253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -217346,7 +217346,7 @@ pg.world_event_data = {
 	},
 	[11350204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -217387,7 +217387,7 @@ pg.world_event_data = {
 	},
 	[11350254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -217428,7 +217428,7 @@ pg.world_event_data = {
 	},
 	[11350205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -217469,7 +217469,7 @@ pg.world_event_data = {
 	},
 	[11350255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -217546,7 +217546,7 @@ pg.world_event_data = {
 	},
 	[11350301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -217936,7 +217936,7 @@ pg.world_event_data = {
 	},
 	[11410010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -218113,7 +218113,7 @@ pg.world_event_data = {
 	},
 	[11410015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -218186,7 +218186,7 @@ pg.world_event_data = {
 	},
 	[11410016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -218259,7 +218259,7 @@ pg.world_event_data = {
 	},
 	[11410017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -218332,7 +218332,7 @@ pg.world_event_data = {
 	},
 	[11410060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -218367,7 +218367,7 @@ pg.world_event_data = {
 	},
 	[11410061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -218402,7 +218402,7 @@ pg.world_event_data = {
 	},
 	[11410101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -218437,7 +218437,7 @@ pg.world_event_data = {
 	},
 	[11410151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -218472,7 +218472,7 @@ pg.world_event_data = {
 	},
 	[11410102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -218508,7 +218508,7 @@ pg.world_event_data = {
 	},
 	[11410152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -218544,7 +218544,7 @@ pg.world_event_data = {
 	},
 	[11410201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -218585,7 +218585,7 @@ pg.world_event_data = {
 	},
 	[11410251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -218626,7 +218626,7 @@ pg.world_event_data = {
 	},
 	[11410202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -218667,7 +218667,7 @@ pg.world_event_data = {
 	},
 	[11410252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -218708,7 +218708,7 @@ pg.world_event_data = {
 	},
 	[11410203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -218749,7 +218749,7 @@ pg.world_event_data = {
 	},
 	[11410253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -218790,7 +218790,7 @@ pg.world_event_data = {
 	},
 	[11410204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -218831,7 +218831,7 @@ pg.world_event_data = {
 	},
 	[11410254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -218872,7 +218872,7 @@ pg.world_event_data = {
 	},
 	[11410205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -218913,7 +218913,7 @@ pg.world_event_data = {
 	},
 	[11410255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -218990,7 +218990,7 @@ pg.world_event_data = {
 	},
 	[11410301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -219450,7 +219450,7 @@ pg.world_event_data = {
 	},
 	[11420010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -219592,7 +219592,7 @@ pg.world_event_data = {
 	},
 	[11420014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -219665,7 +219665,7 @@ pg.world_event_data = {
 	},
 	[11420015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -219738,7 +219738,7 @@ pg.world_event_data = {
 	},
 	[11420016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -219811,7 +219811,7 @@ pg.world_event_data = {
 	},
 	[11420060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -219846,7 +219846,7 @@ pg.world_event_data = {
 	},
 	[11420061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -219881,7 +219881,7 @@ pg.world_event_data = {
 	},
 	[11420101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -219916,7 +219916,7 @@ pg.world_event_data = {
 	},
 	[11420151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -219951,7 +219951,7 @@ pg.world_event_data = {
 	},
 	[11420102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -219987,7 +219987,7 @@ pg.world_event_data = {
 	},
 	[11420152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -220023,7 +220023,7 @@ pg.world_event_data = {
 	},
 	[11420201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -220064,7 +220064,7 @@ pg.world_event_data = {
 	},
 	[11420251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -220105,7 +220105,7 @@ pg.world_event_data = {
 	},
 	[11420202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -220146,7 +220146,7 @@ pg.world_event_data = {
 	},
 	[11420252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -220187,7 +220187,7 @@ pg.world_event_data = {
 	},
 	[11420203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -220228,7 +220228,7 @@ pg.world_event_data = {
 	},
 	[11420253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -220269,7 +220269,7 @@ pg.world_event_data = {
 	},
 	[11420204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -220310,7 +220310,7 @@ pg.world_event_data = {
 	},
 	[11420254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -220351,7 +220351,7 @@ pg.world_event_data = {
 	},
 	[11420205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -220392,7 +220392,7 @@ pg.world_event_data = {
 	},
 	[11420255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -220433,7 +220433,7 @@ pg.world_event_data = {
 	},
 	[11420206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -220474,7 +220474,7 @@ pg.world_event_data = {
 	},
 	[11420256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -220551,7 +220551,7 @@ pg.world_event_data = {
 	},
 	[11420301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -220941,7 +220941,7 @@ pg.world_event_data = {
 	},
 	[11430010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -221118,7 +221118,7 @@ pg.world_event_data = {
 	},
 	[11430015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -221191,7 +221191,7 @@ pg.world_event_data = {
 	},
 	[11430016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -221264,7 +221264,7 @@ pg.world_event_data = {
 	},
 	[11430017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -221337,7 +221337,7 @@ pg.world_event_data = {
 	},
 	[11430060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -221372,7 +221372,7 @@ pg.world_event_data = {
 	},
 	[11430061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -221407,7 +221407,7 @@ pg.world_event_data = {
 	},
 	[11430101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -221442,7 +221442,7 @@ pg.world_event_data = {
 	},
 	[11430151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -221477,7 +221477,7 @@ pg.world_event_data = {
 	},
 	[11430102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -221513,7 +221513,7 @@ pg.world_event_data = {
 	},
 	[11430152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -221549,7 +221549,7 @@ pg.world_event_data = {
 	},
 	[11430201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -221590,7 +221590,7 @@ pg.world_event_data = {
 	},
 	[11430251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -221631,7 +221631,7 @@ pg.world_event_data = {
 	},
 	[11430202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -221672,7 +221672,7 @@ pg.world_event_data = {
 	},
 	[11430252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -221713,7 +221713,7 @@ pg.world_event_data = {
 	},
 	[11430203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -221754,7 +221754,7 @@ pg.world_event_data = {
 	},
 	[11430253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -221795,7 +221795,7 @@ pg.world_event_data = {
 	},
 	[11430204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -221836,7 +221836,7 @@ pg.world_event_data = {
 	},
 	[11430254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -221877,7 +221877,7 @@ pg.world_event_data = {
 	},
 	[11430205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -221918,7 +221918,7 @@ pg.world_event_data = {
 	},
 	[11430255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -221995,7 +221995,7 @@ pg.world_event_data = {
 	},
 	[11430301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -222455,7 +222455,7 @@ pg.world_event_data = {
 	},
 	[11440010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -222632,7 +222632,7 @@ pg.world_event_data = {
 	},
 	[11440015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -222705,7 +222705,7 @@ pg.world_event_data = {
 	},
 	[11440016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -222778,7 +222778,7 @@ pg.world_event_data = {
 	},
 	[11440017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -222851,7 +222851,7 @@ pg.world_event_data = {
 	},
 	[11440060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -222886,7 +222886,7 @@ pg.world_event_data = {
 	},
 	[11440061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -222921,7 +222921,7 @@ pg.world_event_data = {
 	},
 	[11440101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -222956,7 +222956,7 @@ pg.world_event_data = {
 	},
 	[11440151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -222991,7 +222991,7 @@ pg.world_event_data = {
 	},
 	[11440102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -223027,7 +223027,7 @@ pg.world_event_data = {
 	},
 	[11440152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -223063,7 +223063,7 @@ pg.world_event_data = {
 	},
 	[11440201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -223104,7 +223104,7 @@ pg.world_event_data = {
 	},
 	[11440251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -223145,7 +223145,7 @@ pg.world_event_data = {
 	},
 	[11440202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -223186,7 +223186,7 @@ pg.world_event_data = {
 	},
 	[11440252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -223227,7 +223227,7 @@ pg.world_event_data = {
 	},
 	[11440203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -223268,7 +223268,7 @@ pg.world_event_data = {
 	},
 	[11440253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -223309,7 +223309,7 @@ pg.world_event_data = {
 	},
 	[11440204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -223350,7 +223350,7 @@ pg.world_event_data = {
 	},
 	[11440254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -223391,7 +223391,7 @@ pg.world_event_data = {
 	},
 	[11440205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -223432,7 +223432,7 @@ pg.world_event_data = {
 	},
 	[11440255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -223473,7 +223473,7 @@ pg.world_event_data = {
 	},
 	[11440206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -223514,7 +223514,7 @@ pg.world_event_data = {
 	},
 	[11440256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -223591,7 +223591,7 @@ pg.world_event_data = {
 	},
 	[11440301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -224051,7 +224051,7 @@ pg.world_event_data = {
 	},
 	[11510010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -224228,7 +224228,7 @@ pg.world_event_data = {
 	},
 	[11510015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -224301,7 +224301,7 @@ pg.world_event_data = {
 	},
 	[11510016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -224374,7 +224374,7 @@ pg.world_event_data = {
 	},
 	[11510017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -224447,7 +224447,7 @@ pg.world_event_data = {
 	},
 	[11510060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -224482,7 +224482,7 @@ pg.world_event_data = {
 	},
 	[11510061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -224517,7 +224517,7 @@ pg.world_event_data = {
 	},
 	[11510101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -224552,7 +224552,7 @@ pg.world_event_data = {
 	},
 	[11510151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -224587,7 +224587,7 @@ pg.world_event_data = {
 	},
 	[11510102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -224623,7 +224623,7 @@ pg.world_event_data = {
 	},
 	[11510152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -224659,7 +224659,7 @@ pg.world_event_data = {
 	},
 	[11510201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -224700,7 +224700,7 @@ pg.world_event_data = {
 	},
 	[11510251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -224741,7 +224741,7 @@ pg.world_event_data = {
 	},
 	[11510202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -224782,7 +224782,7 @@ pg.world_event_data = {
 	},
 	[11510252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -224823,7 +224823,7 @@ pg.world_event_data = {
 	},
 	[11510203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -224864,7 +224864,7 @@ pg.world_event_data = {
 	},
 	[11510253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -224905,7 +224905,7 @@ pg.world_event_data = {
 	},
 	[11510204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -224946,7 +224946,7 @@ pg.world_event_data = {
 	},
 	[11510254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -224987,7 +224987,7 @@ pg.world_event_data = {
 	},
 	[11510205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -225028,7 +225028,7 @@ pg.world_event_data = {
 	},
 	[11510255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -225069,7 +225069,7 @@ pg.world_event_data = {
 	},
 	[11510206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -225110,7 +225110,7 @@ pg.world_event_data = {
 	},
 	[11510256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -225187,7 +225187,7 @@ pg.world_event_data = {
 	},
 	[11510301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -225647,7 +225647,7 @@ pg.world_event_data = {
 	},
 	[11520010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -225824,7 +225824,7 @@ pg.world_event_data = {
 	},
 	[11520015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -225897,7 +225897,7 @@ pg.world_event_data = {
 	},
 	[11520016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -225970,7 +225970,7 @@ pg.world_event_data = {
 	},
 	[11520017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -226043,7 +226043,7 @@ pg.world_event_data = {
 	},
 	[11520060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -226078,7 +226078,7 @@ pg.world_event_data = {
 	},
 	[11520061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -226113,7 +226113,7 @@ pg.world_event_data = {
 	},
 	[11520101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -226148,7 +226148,7 @@ pg.world_event_data = {
 	},
 	[11520151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -226183,7 +226183,7 @@ pg.world_event_data = {
 	},
 	[11520102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -226219,7 +226219,7 @@ pg.world_event_data = {
 	},
 	[11520152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -226255,7 +226255,7 @@ pg.world_event_data = {
 	},
 	[11520201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -226296,7 +226296,7 @@ pg.world_event_data = {
 	},
 	[11520251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -226337,7 +226337,7 @@ pg.world_event_data = {
 	},
 	[11520202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -226378,7 +226378,7 @@ pg.world_event_data = {
 	},
 	[11520252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -226419,7 +226419,7 @@ pg.world_event_data = {
 	},
 	[11520203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -226460,7 +226460,7 @@ pg.world_event_data = {
 	},
 	[11520253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -226501,7 +226501,7 @@ pg.world_event_data = {
 	},
 	[11520204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -226542,7 +226542,7 @@ pg.world_event_data = {
 	},
 	[11520254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -226583,7 +226583,7 @@ pg.world_event_data = {
 	},
 	[11520205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -226624,7 +226624,7 @@ pg.world_event_data = {
 	},
 	[11520255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -226665,7 +226665,7 @@ pg.world_event_data = {
 	},
 	[11520206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -226706,7 +226706,7 @@ pg.world_event_data = {
 	},
 	[11520256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -226783,7 +226783,7 @@ pg.world_event_data = {
 	},
 	[11520301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -227243,7 +227243,7 @@ pg.world_event_data = {
 	},
 	[11530010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -227420,7 +227420,7 @@ pg.world_event_data = {
 	},
 	[11530015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -227493,7 +227493,7 @@ pg.world_event_data = {
 	},
 	[11530016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -227566,7 +227566,7 @@ pg.world_event_data = {
 	},
 	[11530017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -227639,7 +227639,7 @@ pg.world_event_data = {
 	},
 	[11530060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -227674,7 +227674,7 @@ pg.world_event_data = {
 	},
 	[11530061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -227709,7 +227709,7 @@ pg.world_event_data = {
 	},
 	[11530101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -227744,7 +227744,7 @@ pg.world_event_data = {
 	},
 	[11530151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -227779,7 +227779,7 @@ pg.world_event_data = {
 	},
 	[11530102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -227815,7 +227815,7 @@ pg.world_event_data = {
 	},
 	[11530152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -227851,7 +227851,7 @@ pg.world_event_data = {
 	},
 	[11530201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -227892,7 +227892,7 @@ pg.world_event_data = {
 	},
 	[11530251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -227933,7 +227933,7 @@ pg.world_event_data = {
 	},
 	[11530202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -227974,7 +227974,7 @@ pg.world_event_data = {
 	},
 	[11530252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -228015,7 +228015,7 @@ pg.world_event_data = {
 	},
 	[11530203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -228056,7 +228056,7 @@ pg.world_event_data = {
 	},
 	[11530253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -228097,7 +228097,7 @@ pg.world_event_data = {
 	},
 	[11530204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -228138,7 +228138,7 @@ pg.world_event_data = {
 	},
 	[11530254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -228179,7 +228179,7 @@ pg.world_event_data = {
 	},
 	[11530205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -228220,7 +228220,7 @@ pg.world_event_data = {
 	},
 	[11530255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -228261,7 +228261,7 @@ pg.world_event_data = {
 	},
 	[11530206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -228302,7 +228302,7 @@ pg.world_event_data = {
 	},
 	[11530256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -228379,7 +228379,7 @@ pg.world_event_data = {
 	},
 	[11530301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -228839,7 +228839,7 @@ pg.world_event_data = {
 	},
 	[11540010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -228981,7 +228981,7 @@ pg.world_event_data = {
 	},
 	[11540014] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -229054,7 +229054,7 @@ pg.world_event_data = {
 	},
 	[11540015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -229127,7 +229127,7 @@ pg.world_event_data = {
 	},
 	[11540016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -229200,7 +229200,7 @@ pg.world_event_data = {
 	},
 	[11540060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -229235,7 +229235,7 @@ pg.world_event_data = {
 	},
 	[11540061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -229270,7 +229270,7 @@ pg.world_event_data = {
 	},
 	[11540101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -229305,7 +229305,7 @@ pg.world_event_data = {
 	},
 	[11540151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -229340,7 +229340,7 @@ pg.world_event_data = {
 	},
 	[11540102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -229376,7 +229376,7 @@ pg.world_event_data = {
 	},
 	[11540152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -229412,7 +229412,7 @@ pg.world_event_data = {
 	},
 	[11540201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -229453,7 +229453,7 @@ pg.world_event_data = {
 	},
 	[11540251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -229494,7 +229494,7 @@ pg.world_event_data = {
 	},
 	[11540202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -229535,7 +229535,7 @@ pg.world_event_data = {
 	},
 	[11540252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -229576,7 +229576,7 @@ pg.world_event_data = {
 	},
 	[11540203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -229617,7 +229617,7 @@ pg.world_event_data = {
 	},
 	[11540253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -229694,7 +229694,7 @@ pg.world_event_data = {
 	},
 	[11540301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -230154,7 +230154,7 @@ pg.world_event_data = {
 	},
 	[11550010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -230331,7 +230331,7 @@ pg.world_event_data = {
 	},
 	[11550015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -230404,7 +230404,7 @@ pg.world_event_data = {
 	},
 	[11550016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -230477,7 +230477,7 @@ pg.world_event_data = {
 	},
 	[11550017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -230550,7 +230550,7 @@ pg.world_event_data = {
 	},
 	[11550060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -230585,7 +230585,7 @@ pg.world_event_data = {
 	},
 	[11550061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -230620,7 +230620,7 @@ pg.world_event_data = {
 	},
 	[11550101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -230655,7 +230655,7 @@ pg.world_event_data = {
 	},
 	[11550151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -230690,7 +230690,7 @@ pg.world_event_data = {
 	},
 	[11550102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -230726,7 +230726,7 @@ pg.world_event_data = {
 	},
 	[11550152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -230762,7 +230762,7 @@ pg.world_event_data = {
 	},
 	[11550201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -230803,7 +230803,7 @@ pg.world_event_data = {
 	},
 	[11550251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -230844,7 +230844,7 @@ pg.world_event_data = {
 	},
 	[11550202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -230885,7 +230885,7 @@ pg.world_event_data = {
 	},
 	[11550252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -230926,7 +230926,7 @@ pg.world_event_data = {
 	},
 	[11550203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -230967,7 +230967,7 @@ pg.world_event_data = {
 	},
 	[11550253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -231008,7 +231008,7 @@ pg.world_event_data = {
 	},
 	[11550204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -231049,7 +231049,7 @@ pg.world_event_data = {
 	},
 	[11550254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -231090,7 +231090,7 @@ pg.world_event_data = {
 	},
 	[11550205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -231131,7 +231131,7 @@ pg.world_event_data = {
 	},
 	[11550255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -231172,7 +231172,7 @@ pg.world_event_data = {
 	},
 	[11550206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -231213,7 +231213,7 @@ pg.world_event_data = {
 	},
 	[11550256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -231290,7 +231290,7 @@ pg.world_event_data = {
 	},
 	[11550301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -231750,7 +231750,7 @@ pg.world_event_data = {
 	},
 	[11560010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -231927,7 +231927,7 @@ pg.world_event_data = {
 	},
 	[11560015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -232000,7 +232000,7 @@ pg.world_event_data = {
 	},
 	[11560016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -232073,7 +232073,7 @@ pg.world_event_data = {
 	},
 	[11560017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -232146,7 +232146,7 @@ pg.world_event_data = {
 	},
 	[11560060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -232181,7 +232181,7 @@ pg.world_event_data = {
 	},
 	[11560061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -232216,7 +232216,7 @@ pg.world_event_data = {
 	},
 	[11560101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -232251,7 +232251,7 @@ pg.world_event_data = {
 	},
 	[11560151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -232286,7 +232286,7 @@ pg.world_event_data = {
 	},
 	[11560102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -232322,7 +232322,7 @@ pg.world_event_data = {
 	},
 	[11560152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -232358,7 +232358,7 @@ pg.world_event_data = {
 	},
 	[11560201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -232399,7 +232399,7 @@ pg.world_event_data = {
 	},
 	[11560251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -232440,7 +232440,7 @@ pg.world_event_data = {
 	},
 	[11560202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -232481,7 +232481,7 @@ pg.world_event_data = {
 	},
 	[11560252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -232522,7 +232522,7 @@ pg.world_event_data = {
 	},
 	[11560203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -232563,7 +232563,7 @@ pg.world_event_data = {
 	},
 	[11560253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -232604,7 +232604,7 @@ pg.world_event_data = {
 	},
 	[11560204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -232645,7 +232645,7 @@ pg.world_event_data = {
 	},
 	[11560254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -232686,7 +232686,7 @@ pg.world_event_data = {
 	},
 	[11560205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -232727,7 +232727,7 @@ pg.world_event_data = {
 	},
 	[11560255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -232768,7 +232768,7 @@ pg.world_event_data = {
 	},
 	[11560206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -232809,7 +232809,7 @@ pg.world_event_data = {
 	},
 	[11560256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -232886,7 +232886,7 @@ pg.world_event_data = {
 	},
 	[11560301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -233346,7 +233346,7 @@ pg.world_event_data = {
 	},
 	[11570010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -233523,7 +233523,7 @@ pg.world_event_data = {
 	},
 	[11570015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -233596,7 +233596,7 @@ pg.world_event_data = {
 	},
 	[11570016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -233669,7 +233669,7 @@ pg.world_event_data = {
 	},
 	[11570017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -233742,7 +233742,7 @@ pg.world_event_data = {
 	},
 	[11570060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -233777,7 +233777,7 @@ pg.world_event_data = {
 	},
 	[11570061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -233812,7 +233812,7 @@ pg.world_event_data = {
 	},
 	[11570101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -233847,7 +233847,7 @@ pg.world_event_data = {
 	},
 	[11570151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -233882,7 +233882,7 @@ pg.world_event_data = {
 	},
 	[11570102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -233918,7 +233918,7 @@ pg.world_event_data = {
 	},
 	[11570152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -233954,7 +233954,7 @@ pg.world_event_data = {
 	},
 	[11570201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -233995,7 +233995,7 @@ pg.world_event_data = {
 	},
 	[11570251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -234036,7 +234036,7 @@ pg.world_event_data = {
 	},
 	[11570202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -234077,7 +234077,7 @@ pg.world_event_data = {
 	},
 	[11570252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -234118,7 +234118,7 @@ pg.world_event_data = {
 	},
 	[11570203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -234159,7 +234159,7 @@ pg.world_event_data = {
 	},
 	[11570253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -234200,7 +234200,7 @@ pg.world_event_data = {
 	},
 	[11570204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -234241,7 +234241,7 @@ pg.world_event_data = {
 	},
 	[11570254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -234282,7 +234282,7 @@ pg.world_event_data = {
 	},
 	[11570205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -234323,7 +234323,7 @@ pg.world_event_data = {
 	},
 	[11570255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -234364,7 +234364,7 @@ pg.world_event_data = {
 	},
 	[11570206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -234405,7 +234405,7 @@ pg.world_event_data = {
 	},
 	[11570256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -234482,7 +234482,7 @@ pg.world_event_data = {
 	},
 	[11570301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -234942,7 +234942,7 @@ pg.world_event_data = {
 	},
 	[11580010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -235119,7 +235119,7 @@ pg.world_event_data = {
 	},
 	[11580015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -235192,7 +235192,7 @@ pg.world_event_data = {
 	},
 	[11580016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -235265,7 +235265,7 @@ pg.world_event_data = {
 	},
 	[11580017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -235338,7 +235338,7 @@ pg.world_event_data = {
 	},
 	[11580060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -235373,7 +235373,7 @@ pg.world_event_data = {
 	},
 	[11580061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -235408,7 +235408,7 @@ pg.world_event_data = {
 	},
 	[11580101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -235443,7 +235443,7 @@ pg.world_event_data = {
 	},
 	[11580151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -235478,7 +235478,7 @@ pg.world_event_data = {
 	},
 	[11580102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -235514,7 +235514,7 @@ pg.world_event_data = {
 	},
 	[11580152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -235550,7 +235550,7 @@ pg.world_event_data = {
 	},
 	[11580201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -235591,7 +235591,7 @@ pg.world_event_data = {
 	},
 	[11580251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -235632,7 +235632,7 @@ pg.world_event_data = {
 	},
 	[11580202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -235673,7 +235673,7 @@ pg.world_event_data = {
 	},
 	[11580252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -235714,7 +235714,7 @@ pg.world_event_data = {
 	},
 	[11580203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -235755,7 +235755,7 @@ pg.world_event_data = {
 	},
 	[11580253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -235796,7 +235796,7 @@ pg.world_event_data = {
 	},
 	[11580204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -235837,7 +235837,7 @@ pg.world_event_data = {
 	},
 	[11580254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -235878,7 +235878,7 @@ pg.world_event_data = {
 	},
 	[11580205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -235919,7 +235919,7 @@ pg.world_event_data = {
 	},
 	[11580255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -235960,7 +235960,7 @@ pg.world_event_data = {
 	},
 	[11580206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -236001,7 +236001,7 @@ pg.world_event_data = {
 	},
 	[11580256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -236078,7 +236078,7 @@ pg.world_event_data = {
 	},
 	[11580301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -236538,7 +236538,7 @@ pg.world_event_data = {
 	},
 	[11590010] = {
 		enemyicon = 0,
-		name = "海况异常点",
+		name = "해황 이상 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -236715,7 +236715,7 @@ pg.world_event_data = {
 	},
 	[11590015] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -236788,7 +236788,7 @@ pg.world_event_data = {
 	},
 	[11590016] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -236861,7 +236861,7 @@ pg.world_event_data = {
 	},
 	[11590017] = {
 		enemyicon = 0,
-		name = "强化型「棋子」",
+		name = "강화형「장기말」",
 		scale = 0,
 		visuality = 1,
 		is_scanevent = 3,
@@ -236934,7 +236934,7 @@ pg.world_event_data = {
 	},
 	[11590060] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -236969,7 +236969,7 @@ pg.world_event_data = {
 	},
 	[11590061] = {
 		enemyicon = 0,
-		name = "搜寻点",
+		name = "탐색 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -237004,7 +237004,7 @@ pg.world_event_data = {
 	},
 	[11590101] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -237039,7 +237039,7 @@ pg.world_event_data = {
 	},
 	[11590151] = {
 		enemyicon = 0,
-		name = "资源点",
+		name = "자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -237074,7 +237074,7 @@ pg.world_event_data = {
 	},
 	[11590102] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -237110,7 +237110,7 @@ pg.world_event_data = {
 	},
 	[11590152] = {
 		enemyicon = 0,
-		name = "隐藏资源点",
+		name = "히든 자원 포인트",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,
@@ -237146,7 +237146,7 @@ pg.world_event_data = {
 	},
 	[11590201] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -237187,7 +237187,7 @@ pg.world_event_data = {
 	},
 	[11590251] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -237228,7 +237228,7 @@ pg.world_event_data = {
 	},
 	[11590202] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -237269,7 +237269,7 @@ pg.world_event_data = {
 	},
 	[11590252] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -237310,7 +237310,7 @@ pg.world_event_data = {
 	},
 	[11590203] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -237351,7 +237351,7 @@ pg.world_event_data = {
 	},
 	[11590253] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -237392,7 +237392,7 @@ pg.world_event_data = {
 	},
 	[11590204] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -237433,7 +237433,7 @@ pg.world_event_data = {
 	},
 	[11590254] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -237474,7 +237474,7 @@ pg.world_event_data = {
 	},
 	[11590205] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -237515,7 +237515,7 @@ pg.world_event_data = {
 	},
 	[11590255] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -237556,7 +237556,7 @@ pg.world_event_data = {
 	},
 	[11590206] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -237597,7 +237597,7 @@ pg.world_event_data = {
 	},
 	[11590256] = {
 		enemyicon = 0,
-		name = "「棋子」",
+		name = "「장기말」",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 3,
@@ -237674,7 +237674,7 @@ pg.world_event_data = {
 	},
 	[11590301] = {
 		enemyicon = 0,
-		name = "压制奖励",
+		name = "확보 보상",
 		scale = 0,
 		visuality = 0,
 		is_scanevent = 1,

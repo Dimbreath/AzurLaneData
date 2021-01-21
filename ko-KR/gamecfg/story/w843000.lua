@@ -11,7 +11,7 @@ return {
 			voice = "event:/tb/39/tb-39",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "分析模块同步中：指挥官，海域中的部分浮冰变为了巨型浮冰。",
+			say = "분석 모듈 동기화 중: 지휘관님, 해역의 일부 유빙이 거대 유빙으로 변했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

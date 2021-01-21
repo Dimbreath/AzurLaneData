@@ -10,18 +10,18 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900284,
-			say = "分析模块同步中：指挥官，已到达指定区域。是否开始进行打捞作业？",
+			say = "분석 모듈 동기화 중: 지휘관님, 지정 구역에 도착하였습니다. 인양 작업을 진행하시겠습니까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			options = {
 				{
-					content = "打捞",
+					content = "인양",
 					flag = 1
 				},
 				{
-					content = "离开",
+					content = "이탈",
 					flag = 2
 				}
 			}
