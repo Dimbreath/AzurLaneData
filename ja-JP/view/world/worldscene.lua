@@ -1660,9 +1660,16 @@ function slot0.UpdateSystemOpen(slot0)
 			WorldGuider.GetInstance():PlayGuideAndUpdateOnEnd("WorldG191")
 		end
 
+		onButton(slot0, slot0.rtTopAtlas:Find("reset_coutdown"), function ()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
+				helps = i18n("world_reset_tip")
+			})
+		end, SFX_PANEL)
+
 		slot6 = nowWorld:IsSystemOpen(WorldConst.SystemResetCountDown) and nowWorld:CheckResetProgress()
 
-		setActive(slot0.rtTopAtlas:Find("reset_coutdown"), slot6)
+		setActive(slot5, slot6)
 
 		if slot6 then
 			if math.floor(nowWorld:GetResetWaitingTime() / 86400) > 0 then
