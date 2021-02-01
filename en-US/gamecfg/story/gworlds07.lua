@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "大型作战已经重置！请重新派遣舰队前往海域中进行新一轮作战行动！",
+			say = "Operation Siren has been reset! Rewards other than Exploration rewards can now be obtained again. Let's sortie forth!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 			},
 			options = {
 				{
-					content = "确认",
+					content = "Confirm",
 					flag = 0
 				}
 			}

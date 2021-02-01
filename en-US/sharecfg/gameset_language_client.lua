@@ -5221,705 +5221,705 @@ pg.gameset_language_client = {
 		value = "Well... We're out of candy, but if you wanna eat something sweet, there's always me..."
 	},
 	ins_165 = {
-		value = "这种温暖到融化内心的感觉，重樱的“被炉”，真是魔法一般的存在…"
+		value = "The kotatsu's warmth seeps into my being... and now, I don't want to get out."
 	},
 	ins_discuss_165_1 = {
-		value = "幽灵小姐已经快要升天啦…"
+		value = "First time? The kotatsu meme is not just a baseless anime trope~"
 	},
 	ins_reply_165_1_1 = {
-		value = "怎能败给这般温柔的诱惑！让我们一起到外面去活动活动吧！"
+		value = "We must not fall for such temptations! Let us brave the cold outdoors – together!"
 	},
 	ins_reply_165_1_2 = {
-		value = "欸~~可是窝在被炉里真的很舒服嘛~而且橘子也很好吃，{namecode:90}也来吃橘子嘛，还有很多哦？"
+		value = "If eating tangerines under the kotatsu is wrong, then I don't wanna be right~ Join the comf party, RJ~"
 	},
 	ins_reply_165_1_3 = {
-		value = "是吗？那在下就恭敬不如从命了…"
+		value = "My conviction is being tested... Will I persevere, or give in to sloth? To be continued...!"
 	},
 	ins_discuss_165_2 = {
-		value = "暖炉确实是很棒呢！就是一旦进去了就感觉再也不想出来了…"
+		value = "That's how it gets you~ Once you slide your legs in, you won't ever want to leave."
 	},
 	ins_reply_165_2_1 = {
-		value = "这份安心与温暖，确实让人难以抗拒…"
+		value = "It seems not just the heart desires warmth, but also the body..."
 	},
 	ins_discuss_165_3 = {
-		value = "都窝在被炉里也太没劲了！有没有人出来陪我玩啊~跑跑步打打雪仗之类的~"
+		value = "The Queen of the North is dead! Long live the Queen of the Kotatsu!"
 	},
 	ins_reply_165_3_1 = {
-		value = "再、再躺一会就好！"
+		value = "I will return to my frozen throne soon. Just... 5 more minutes..."
 	},
 	ins_op_165_1_1 = {
-		value = "又是几名“被炉”的俘虏…"
+		value = "The kotatsu claims yet another victim!"
 	},
 	op_reply_165_1_1 = {
-		value = "指挥官不仅是俘虏，还似乎很乐在其中的样子啊…"
+		value = "Indeed... But you know its warmth too, do you not, Commander? I take solace in that fact."
 	},
 	ins_op_165_1_2 = {
-		value = "橘子也很好吃呢"
+		value = "Mmm, yummy tangerines."
 	},
 	op_reply_165_1_2 = {
-		value = "谢谢你剥的橘子，指挥官。"
+		value = "Ah, yes, the tangerines were excellent. Thank you for bringing them, Commander."
 	},
 	ins_166 = {
-		value = "试着制作了“御节料理”。"
+		value = "Osechi will be available today at the cafeteria."
 	},
 	ins_discuss_166_1 = {
-		value = "哇哇，看起来好好吃的样子！"
+		value = "WHOA! I'll be there faster than you can say kamaboko!"
 	},
 	ins_reply_166_1_1 = {
-		value = "呵呵，重樱各位的份应该已经快要送到了，还得感谢{namecode:71}小姐的倾情指导呢~"
+		value = "The Royal Maids, and Miss Hiei who gave us guidance, welcome you to partake in the feast."
 	},
 	ins_reply_166_1_2 = {
-		value = "我只是简单说明了一下而已~不得不说，贝尔法斯特小姐和女仆队的诸位确实非常优秀呢。"
+		value = "All I did was offer a morsel of my experience. It is the Royal Maids who deserve all the praise."
 	},
 	ins_discuss_166_2 = {
-		value = "“御节料理”？"
+		value = "And might I ask what \"osechi\" is?"
 	},
 	ins_reply_166_2_1 = {
-		value = "这是重樱在新年时会准备的传统料理~"
+		value = "A beautifully-assembled collection of traditional Sakura Empire foods eaten around New Year's."
 	},
 	ins_reply_166_2_2 = {
-		value = "嚯~回头我也来试试看好了~"
+		value = "Well, why didn't you just say so in the first place! I think I will give it a try!"
 	},
 	ins_discuss_166_3 = {
-		value = "很好！看来只要有女仆队在，就可以随时尝遍各方美食了！"
+		value = "Exemplary work, Belfast! Show the world that no cuisine is too complex for our maids!"
 	},
 	ins_reply_166_3_1 = {
-		value = "呵呵，想要品尝什么料理尽管吩咐，陛下~"
+		value = "You honour us, Your Majesty. We shall gladly prepare any dish you wish us to."
 	},
 	ins_op_166_1_1 = {
-		value = "还是一如既往地厨艺精湛呢。"
+		value = "Hey, leave some for me too!"
 	},
 	op_reply_166_1_1 = {
-		value = "指挥官过誉了~"
+		value = "But of course, Master. We have already set aside a helping just for you."
 	},
 	ins_167 = {
-		value = "还有哪些孩子没有拿到压岁钱呀~"
+		value = "Has anyone yet to receive their New Year's gift?"
 	},
 	ins_discuss_167_1 = {
-		value = "谢谢{namecode:161}姐姐！压岁钱已经基本上都变成噗太的零食了！哈哈~"
+		value = "Thanks for the gift, Amagi! Most of it will go to Pooky's food budget, but hey."
 	},
 	ins_reply_167_1_1 = {
-		value = "呵呵，新的一年噗太也很健康，真是太好了呢~"
+		value = "Be sure to treat Pooky to the best pet food you can find."
 	},
 	ins_discuss_167_2 = {
-		value = "没想到连{namecode:91}姐姐和我都收到了压岁钱…"
+		value = "Aren't these usually given to friends and family? Why'd I get one?"
 	},
 	ins_reply_167_2_1 = {
-		value = "对我来说你们俩都是可爱的晚辈哦~"
+		value = "Because you are like family to Akagi. That makes you like family to me."
 	},
 	ins_op_167_1_1 = {
-		value = "有我的份吗？"
+		value = "Can I get one too?"
 	},
 	op_reply_167_1_1 = {
-		value = "当然，指挥官的份也好好准备着哦~"
+		value = "But of course, Commander. You need only come and claim it at your leisure."
 	},
 	ins_op_167_1_2 = {
-		value = "待会也给你一份压岁钱"
+		value = "Guess what? I have one for you!"
 	},
 	op_reply_167_1_2 = {
-		value = "哎呀？我也有吗？呵呵~"
+		value = "Oh, one for little old me? You're too kind, Commander~"
 	},
 	ins_168 = {
-		value = "从重樱的大姐姐那里收到了大鲨鱼“压岁钱”！嘎哦！"
+		value = "I got a New Year shark from a nice Sakura Empire lady. Raaaawr! "
 	},
 	ins_discuss_168_1 = {
-		value = "你能喜欢就好~"
+		value = "U-110 seemed to really like my shark-print envelope."
 	},
 	ins_reply_168_1_1 = {
-		value = "谢谢你！U110要去给小伙伴看大鲨鱼！"
+		value = "it's so good! I'm gonna show it off to all my friends!"
 	},
 	ins_discuss_168_2 = {
-		value = "哇~真好呀，我也想要个画着大青花鱼的~"
+		value = "Aww, ain't that cute? Wish I'd gotten one with an albacore print"
 	},
 	ins_reply_168_2_1 = {
-		value = "可以有哦？过一会再来重樱宿舍找我吧~"
+		value = "It so happens I have a little surprise for you. Come see me when you have time."
 	},
 	ins_reply_168_2_2 = {
-		value = "真的吗！？谢谢{namecode:161}！"
+		value = "Wait, for realsies?! Whoa... I'm not used to being on the receiving end of surprises!"
 	},
 	ins_reply_168_2_3 = {
-		value = "感觉突然就变成签绘大会了…"
+		value = "you could set up a commission system and make bank off of this."
 	},
 	ins_op_168_1_1 = {
-		value = "包装挺可爱的"
+		value = "Are those great whites or tigers?"
 	},
 	op_reply_168_1_1 = {
-		value = "是大鲨鱼嘎哦！"
+		value = "they're shaaarks. guraaawr."
 	},
 	ins_op_168_1_2 = {
-		value = "我这也有“压岁钱”要给你哦？"
+		value = "I've also got a gift that'll make your jaws drop."
 	},
 	op_reply_168_1_2 = {
-		value = "也是大鲨鱼吗？"
+		value = "you do? is it something sharky, or a swirly-whirly?"
 	},
 	ins_169 = {
-		value = "鼠年刚刚过去，和噗太一起祝大家新年快乐！"
+		value = "Pooky and I wish you a happy New Year!"
 	},
 	ins_discuss_169_1 = {
-		value = "新年快乐，春天又要来了呢"
+		value = "Happy New Year, Suzutsuki! Soon spring will be upon us."
 	},
 	ins_reply_169_1_1 = {
-		value = "嗯~很快就要变暖了吧~"
+		value = "Yup yup! It'll be warm again before long."
 	},
 	ins_discuss_169_2 = {
-		value = "希望新的一年能够一切顺利…"
+		value = "I hope the next year will be... well, better. Of course, I'd always say that, but after this one especially..."
 	},
 	ins_reply_169_2_1 = {
-		value = "一定会顺利的~"
+		value = "The darkest hour is just before the dawn! Don't worry."
 	},
 	ins_discuss_169_3 = {
-		value = "什么时候才能到猫年呢？"
+		value = "I'm still waiting for it to be year of the cat!"
 	},
 	ins_reply_169_3_1 = {
-		value = "笨蛋{namecode:22}，生肖里是没有猫的！"
+		value = "good luck with that one lmao"
 	},
 	ins_reply_169_3_2 = {
-		value = "这点常识我还是知道的啦！就是想想嘛！"
+		value = "I know there's no such thing, DUH! I'm just saying!"
 	},
 	ins_op_169_1_1 = {
-		value = "噗太很有精神呢"
+		value = "Pooky sure is one cute furball of joy."
 	},
 	op_reply_169_1_1 = {
-		value = "嘿嘿，噗太和{namecode:27}都很有精神！"
+		value = "Hehe! I like to think I am, too! Minus the fur."
 	},
 	ins_op_169_1_2 = {
-		value = "新年快乐！"
+		value = "Happy New Year to you too!"
 	},
 	op_reply_169_1_2 = {
-		value = "嘿嘿，指挥官也是！"
+		value = "Thanks! Have a good one, Commander!"
 	},
 	ins_170 = {
-		value = "新年的首次日出，与“若水”泡的咖啡搭配正好。"
+		value = "First sunrise of the year. First water drawn. First cup of coffee brewn. "
 	},
 	ins_discuss_170_1 = {
-		value = "还真的新年大清早爬起来看日出啊…不过，“若水”是什么？"
+		value = "What's so special about drawing water for the first time of the year? "
 	},
 	ins_reply_170_1_1 = {
-		value = "按照重樱的说法，新年第一天早晨取的水叫做“若水”，据说是很神圣的。"
+		value = "\"Wakamizu\" it's called. The first scoop of water of the year is meant to be holy, according to folklore. "
 	},
 	ins_reply_170_1_2 = {
-		value = "真讲究啊，不愧是美因茨呢~希佩尔之前不是也说要一起去么，最后还是睡过头了吧~"
+		value = "Someone's cultured. Unlike Hipper, who spent New Year's Day sleeping in. "
 	},
 	ins_reply_170_1_3 = {
-		value = "哈啊？！还·不·是·你！你以为大半夜照顾喝得醉醺醺的家伙很容易吗！"
+		value = "AND WHOSE FAULT IS THAT?! I was up all night, listening to your drunken rambling! "
 	},
 	ins_discuss_170_2 = {
-		value = "在新年的朝阳下悠闲地品尝咖啡，真是不错。"
+		value = "I love the smell of fresh coffee in the morning. "
 	},
 	ins_reply_170_2_1 = {
-		value = "虽然新年已经错过了，不过还是可以下次早起看看一般的朝阳吧。"
+		value = "Couldn't agree more. Watching the sun rise, a cup of Pharisäer in hand... That's the dream. "
 	},
 	ins_reply_170_2_2 = {
-		value = "太过刻意反而会失却了那份悠闲的心境。"
+		value = "I can do without the \"waking up early to catch the sunrise\" part, personally. "
 	},
 	ins_reply_170_2_3 = {
-		value = "哈啊……"
+		value = "See ↑THIS↑, Eugen? And when *I* do it, it's wrong?! "
 	},
 	ins_op_170_1_1 = {
-		value = "难得的新年，起得真早啊。"
+		value = "Early to bed, early to rise, huh?"
 	},
 	op_reply_170_1_1 = {
-		value = "指挥官的话…确实需要多点休息呢。"
+		value = "The early bird catches the worm, after all. Or in this case, the sunrise."
 	},
 	ins_op_170_1_2 = {
-		value = "仿佛能闻到咖啡的香味了。"
+		value = "Speaking of coffee, I need me a cup..."
 	},
 	op_reply_170_1_2 = {
-		value = "清晨的咖啡别有一番风味呢。"
+		value = "Don't overwork yourself now, Commander. Enjoy the holidays for once."
 	},
 	ins_171 = {
-		value = "初梦…预示着新一年的美好——"
+		value = "This one's New Year dream bodes well... for the year ahead of us..."
 	},
 	ins_discuss_171_1 = {
-		value = "「一富士二鹰三茄子」…太好了，看来今年一年都会好运呢，{namecode:182}大人！"
+		value = "A mountain, an eagle, and an aubergine... I'd say it doesn't get much more auspicious than that!"
 	},
 	ins_reply_171_1_1 = {
-		value = "呵呵…希望大家都能有一整年的好运呢"
+		value = "From this one, to all... may fortune smile upon you..."
 	},
 	ins_discuss_171_2 = {
-		value = "初梦啊…{namecode:27}梦到了好多好多的噗太！不知道代表着什么呢…"
+		value = "I dreamt about an army of Pookies! Wonder what that symbolizes..."
 	},
 	ins_reply_171_2_1 = {
-		value = "圣地亚哥梦到了好多圣地亚哥一起跳舞！"
+		value = "I dreamt I turned into an army of San Diegos and graced everyone with my smarts!"
 	},
 	ins_reply_171_2_2 = {
-		value = "{namecode:180}也梦到了很多很多的噗噗…"
+		value = "Kasumi saw dozens upon dozens of Foos in the dream world..."
 	},
 	ins_reply_171_2_3 = {
-		value = "大家都做了很有意思的初梦呢。"
+		value = "Your dreams... they all seem so interesting to this one..."
 	},
 	ins_discuss_171_3 = {
-		value = "唔…如果没有做梦的话，是不是说明厄运要来了啊…"
+		value = "And... what if you didn't have a dream? Like, at all? Is that a bad sign?"
 	},
 	ins_reply_171_3_1 = {
-		value = "没有入梦说明来年会是让你安心的一年哦，无须过分担心。"
+		value = "Not at all... It bodes a year of peace and calm... You need not worry..."
 	},
 	ins_reply_171_3_2 = {
-		value = "是、是这样的吗？！谢谢{namecode:182}大人解惑！"
+		value = "Whoa, really?! That's a load off my back! Thank you, Shinano!"
 	},
 	ins_op_171_1_1 = {
-		value = "新年快乐！是个充满吉兆的梦呢"
+		value = "Happy (sleepy) New Year!"
 	},
 	op_reply_171_1_1 = {
-		value = "新年快乐，指挥官。呵呵，承您吉言了"
+		value = "Grateful is this one... May spring grace all of us shortly..."
 	},
 	ins_172 = {
-		value = "和Z驱的大家一起写下新年愿望！"
+		value = "The Z-class all got together and we wrote down our New Year's wishes!"
 	},
 	ins_discuss_172_1 = {
-		value = "哎呀呀，真要许愿的时候反而要想很久许什么愿望呢"
+		value = "When there's a million things you wish for, it ain't easy deciding on just one"
 	},
 	ins_reply_172_1_1 = {
-		value = "Z1为什么会这么纠结呀？"
+		value = "That's why you needed more time? Geesh."
 	},
 	ins_reply_172_1_2 = {
-		value = "想要的有那么那么多，绘马却只有这么小一个，自然要纠结一下啦！哈哈哈"
+		value = "One plaque for one wish just ain't enough for the one and only Lebe, y'know"
 	},
 	ins_reply_172_1_3 = {
-		value = "说白了，只是Z1太贪心了吧"
+		value = "You are just greedy. I suggest simply wishing for world peace."
 	},
 	ins_discuss_172_2 = {
-		value = "有所欲就直接索取！掠夺！这才是“魔王”的行事准则，无需依靠什么绘马许愿！"
+		value = "Only sheeple make wishes! The Fiend of the Crimson Darkness seizes what she desires with her own hands!"
 	},
 	ins_reply_172_2_1 = {
-		value = "话是这么说，Z24还是乖乖地写了绘马呢~"
+		value = "So... you're a sheeple, then? You wrote down a wish too."
 	},
 	ins_reply_172_2_2 = {
-		value = "愿望是“希望将来Z23能少布置点作业”，还真是…"
+		value = "Indeed. I believe it went: \"I wish to never have to do homework again.\""
 	},
 	ins_reply_172_2_3 = {
-		value = "呣，看、看他人写下的愿望是不礼貌的！"
+		value = "The both of you, that is so rude! Peeping toms! Spies!"
 	},
 	ins_op_172_1_1 = {
-		value = "思考要写哪一个愿望确实很纠结呢"
+		value = "I feel you, Lebe. It's not easy."
 	},
 	op_reply_172_1_1 = {
-		value = "没错！指挥官也懂的吧！毕竟想实现的愿望有那~么多呢！"
+		value = "It's tough, I tell you... Heard it's called \"decision fatigue\" when you get tired of trying to decide on one of many things"
 	},
 	ins_173 = {
-		value = "参拜的时候顺便给伙伴们准备了御守做礼物~"
+		value = "Bought this thing called an \"omamori\" while on a shrine visit."
 	},
 	ins_discuss_173_1 = {
-		value = "御守？"
+		value = "You're gonna have to explain what that means."
 	},
 	ins_reply_173_1_1 = {
-		value = "就是重樱的护身符哦。有带来财运的，有帮助事业的，也有保佑平安的，各种各样~当然也有准备独立你的哦"
+		value = "It's basically a Sakura Empire amulet! Some promise good luck, others ward off evil spirits. I bought one for you too."
 	},
 	ins_reply_173_1_2 = {
-		value = "哦？那我先说声谢谢了！"
+		value = "Oh really? That's cool, thanks!"
 	},
 	ins_discuss_173_2 = {
-		value = "圣地亚哥也有御守吗！"
+		value = "Got any for me~?"
 	},
 	ins_reply_173_2_1 = {
-		value = "给你准备了一个帮助学业的！"
+		value = "Funny you ask, cause I do. I got you one that promises academic success."
 	},
 	ins_discuss_173_3 = {
-		value = "不过这种护身符一类的…真的会有效果吗？"
+		value = "Question is: do they even do anything?"
 	},
 	ins_reply_173_3_1 = {
-		value = "东方有种说法叫做“心诚则灵”，当你抱着乐观的心情的时候，就更容易把事情做好！"
+		value = "Kinda! The more you believe in them, the more you subconsciously work toward the thing you want ^^"
 	},
 	ins_reply_173_3_2 = {
-		value = "好像…有道理。"
+		value = "So it's a self-fulfilling prophecy kind of deal? Interesting..."
 	},
 	ins_reply_173_3_3 = {
-		value = "给你们买了财运和平安的御守！"
+		value = "I've got some for you gals too! These promise fortune, in both meanings of the word."
 	},
 	ins_op_173_1_1 = {
-		value = "和服确实很合适"
+		value = "Blue head to toe. You look great."
 	},
 	op_reply_173_1_1 = {
-		value = "指挥官真会说啊~"
+		value = "Thanks! You're a real looker yourself, you know."
 	},
 	ins_174 = {
-		value = "忙碌又充实的一天！"
+		value = "Whew. It's been a hectic, but fulfilling day!"
 	},
 	ins_discuss_174_1 = {
-		value = "今天辛苦你们俩了，帮大忙了呢~"
+		value = "Your hard work is greatly appreciated! Thank you for all your help."
 	},
 	ins_reply_174_1_1 = {
-		value = "络绎不绝的人、人、人…新年的神社…太可怕……"
+		value = "It was nuts... You serve one customer then two more queue up right after..."
 	},
 	ins_reply_174_1_2 = {
-		value = "还好最后还是勉强应付过来了~"
+		value = "But hey, that's funding for the shrine's foreseeable future secured at least!"
 	},
 	ins_discuss_174_2 = {
-		value = "大家都辛苦了喵！唔呼呼……今年的营业额也是大丰收喵！想必神明大人也会很满意的喵！"
+		value = "Great work, nya! The gods will be very pleased with our sales report, nya!"
 	},
 	ins_reply_174_2_1 = {
-		value = "哈哈~{namecode:98}还是这么精神呢~"
+		value = "As will your investors, I'm sure."
 	},
 	ins_discuss_174_3 = {
-		value = "要是没有{namecode:103}和{namecode:104}加入一起帮忙，还真的不知道会怎么样呢…"
+		value = "We would've been overwhelmed with visitors without Chiyoda's and Chitose's help!"
 	},
 	ins_reply_174_3_1 = {
-		value = "嘿嘿，小事~毕竟我们也算神社巫女的一员嘛~况且还从{namecode:98}那得到了报酬~"
+		value = "Just glad we could return the favor. You've helped us plenty before."
 	},
 	ins_reply_174_3_2 = {
-		value = "下次会做得更好一些的…"
+		value = "Akashi did compensate us too, so there's that... Hope it won't be so busy next time..."
 	},
 	ins_op_174_1_1 = {
-		value = "不愧是新年的神社"
+		value = "Hats off to you for going above and beyond."
 	},
 	op_reply_174_1_1 = {
-		value = "没错！人气满满的感觉呢！"
+		value = "Thanks! We're always happy to help at the shrine."
 	},
 	op_reply_174_1_2 = {
-		value = "差点就要不行了…"
+		value = "I got this close to passing out... Way, way too many people..."
 	},
 	ins_175 = {
-		value = "“小豆汤”和“杂煮”，无论哪种看起来都好美味~"
+		value = "Mmm! I don't know what \"shiruko\" or \"zouni\" actually are, but boy do they smell delish!"
 	},
 	ins_discuss_175_1 = {
-		value = "两边都是年糕做成的料理呢。"
+		value = "I can tell you one thing they have in common: they both have mochi in them!"
 	},
 	ins_reply_175_1_1 = {
-		value = "同时吃两种又有点多，真是难以抉择~"
+		value = "Really? Hmm... My stomach's only got room for one, so question is: which?"
 	},
 	ins_reply_175_1_2 = {
-		value = "不如…午餐吃一种，晚餐再吃一种…？"
+		value = "my suggestion: have one of them now, then save the other for dinner. how's that?"
 	},
 	ins_reply_175_1_3 = {
-		value = "哦~好主意！就这么办好了~"
+		value = "Ooh, that's a good idea! Très bien!"
 	},
 	ins_discuss_175_2 = {
-		value = "“小豆汤”…是重樱的甜品么？看起来挺不错的样子"
+		value = "I've heard of mochi. It's one of the Sakura Empire's confectionary staples, no?"
 	},
 	ins_reply_175_2_1 = {
-		value = "敦刻尔克果然是甜品派啊~是不是可以期待下次尝到你做的鸢尾风小豆汤了？嘻嘻"
+		value = "Your sweets sense is tingling, huh~? Will we see a Sakura Empire x Iris Libre cuisine crossover soon?"
 	},
 	ins_reply_175_2_2 = {
-		value = "唔，看起来还是“杂煮”比较合我的口味…"
+		value = "me, I'll just have the zouni as-is. I'm hungry."
 	},
 	ins_reply_175_2_3 = {
-		value = "这也在预料之中~"
+		value = "Aha! I had a feeling you were more of a zouni person!"
 	},
 	ins_op_175_1_1 = {
-		value = "可以一起吃！"
+		value = "Next time, we could have one each."
 	},
 	op_reply_175_1_1 = {
-		value = "不愧是指挥官~不过，当心发胖哦~"
+		value = "As good an idea as any, Commander! Just watch out for New Year's excess."
 	},
 	ins_op_175_1_2 = {
-		value = "说到新年，果然还是会想到年糕呢"
+		value = "Can't have a Sakura Empire New Year without mochi."
 	},
 	op_reply_175_1_2 = {
-		value = "对重樱来说似乎是这样呢~"
+		value = "And heaps of it, too! You can add it to almost anything!"
 	},
 	ins_176 = {
-		value = "福笑这玩意儿，其实还是挺难的啊。"
+		value = "Lucky Laugh is harder than one might think."
 	},
 	ins_discuss_176_1 = {
-		value = "大家都贴出了很有趣的“作品”呢，呵呵呵~"
+		value = "The sillier it looks, the better! That's the point of the game :)"
 	},
 	ins_reply_176_1_1 = {
-		value = "虽然是自己贴的，还是忍不住笑了出来。"
+		value = "I will admit, I did crack a smile upon seeing my own creation."
 	},
 	ins_discuss_176_2 = {
-		value = "{namecode:91}前·辈的“精彩作品”竟然没有拍下来吗，真是太可惜了，噗~"
+		value = "meh, it's a good game and all but I know a better one: pin the tail on the akagi"
 	},
 	ins_reply_176_2_1 = {
-		value = "哼哼，只要得到指挥官的认可，其他人的话语不过是些许杂音，我是不会介意的~"
+		value = "Oh, I know a better one yet: pin a dagger through the vermin's heart! Any volunteers~?"
 	},
 	ins_reply_176_2_2 = {
-		value = "呵呵，{namecode:91}的作品确实也挺有意思的~"
+		value = "Let's try something a little less violent. Truth or dare might be your thing, Akagi."
 	},
 	ins_reply_176_2_3 = {
-		value = "姐姐大人果然跟指挥官一样有眼光~"
+		value = "Splendid idea! I will arrange a private truth or dare session with the Commander at once!"
 	},
 	ins_op_176_1_1 = {
-		value = "福笑果然很有趣。"
+		value = "Heh. You got pretty close, though."
 	},
 	op_reply_176_1_1 = {
-		value = "指挥官贴出来的脸也很好笑，嗯。"
+		value = "As did you. I never took you for one with such good intuition."
 	},
 	ins_177 = {
-		value = "呜…需要养胃了OTL…"
+		value = "Ugh... Feels like there's a maelstrom brewing in my stomach..."
 	},
 	ins_discuss_177_1 = {
-		value = "没事吧？之前还在提醒你小心肠胃，这就中招了啊。"
+		value = "Are you all right, dear? I warned you about eating too much."
 	},
 	ins_reply_177_1_1 = {
-		value = "哈哈哈，这个大概是没办法的事，谁叫{namecode:71}姐的新年料理那么好吃呢~"
+		value = "Well, what's done is done. Can't blame her for gorging herself on Hiei's next-level cooking."
 	},
 	ins_reply_177_1_2 = {
-		value = "没错…！一不小心就暴饮暴食了…"
+		value = "Exactly... You blink and suddenly you've wolfed down 3 whole servings..."
 	},
 	ins_discuss_177_2 = {
-		value = "哎呀呀…正好是吃七草粥的时候了，稍微吃点清淡的食物调节一下吧~"
+		value = "Oh dear... I suggest eating some nanakusa-gayu to aid digestion. It is the season for it, after all."
 	},
 	ins_reply_177_2_1 = {
-		value = "嗯…{namecode:71}姐做的七草粥…也好好吃！"
+		value = "Thanks, Doc... I'll have some of that. This time, one serving only..."
 	},
 	ins_discuss_177_3 = {
-		value = "唔，这么说起来{namecode:16}好像也感觉肚子不太舒服…"
+		value = "Yeah I'm kinda feelin it too..."
 	},
 	ins_reply_177_3_1 = {
-		value = "你不会是吃了什么奇怪的东西吧？"
+		value = "Have you ever tried not inhaling your food, dumb dog?"
 	},
 	ins_op_177_1_1 = {
-		value = "新年的暴饮暴食…我懂！"
+		value = "Gluttony might be a sin, but oh is this relatable."
 	},
 	op_reply_177_1_1 = {
-		value = "看来指挥官也是需要养胃的人呢……"
+		value = "We're stomach pain buddies... Now let's both learn from our mistakes..."
 	},
 	ins_op_177_1_2 = {
-		value = "这是…粥？"
+		value = "Nanakusa-gayu? Tell me more."
 	},
 	op_reply_177_1_2 = {
-		value = "人日的早晨吃七草粥，这是重樱的习惯哦~"
+		value = "Ah, it's a type of rice porridge with 7 types of herbs, traditionally eaten around the 7th of January."
 	},
 	ins_178 = {
-		value = "不能拿这个当躲避球玩…？"
+		value = "I've been told these balls are not suited for playing dodgeball. Is this true?"
 	},
 	ins_discuss_178_1 = {
-		value = "就像刚才跟你说的那样，这些叫做“手鞠”，虽然好看，但是拿来当躲避球大概不太行哦？"
+		value = "Well, no... Temari, as they're called, are probably not the best for playing dodgeball, or any ball game."
 	},
 	ins_reply_178_1_1 = {
-		value = "漂亮的手鞠可是会带来好运的福物哦！"
+		value = "You don't dribble or toss em around, you hold onto em for good luck! C'mon, you should know this!"
 	},
 	ins_reply_178_1_2 = {
-		value = "原来如此…{namecode:164}学到了。"
+		value = "I was today years old when I learned that temari truly are not suited for ball games."
 	},
 	ins_discuss_178_2 = {
-		value = "不过看到这么一堆球，确实就会忍不住很想扑过去闹腾一把啊！"
+		value = "Do I look like I give a damn? No! I'll play fetch solo if I have to!"
 	},
 	ins_reply_178_2_1 = {
-		value = "你是小狗吗！？"
+		value = "What next, you gonna move into a doghouse and bark at stray cats?"
 	},
 	ins_reply_178_2_2 = {
-		value = "这不是人之常情嘛！"
+		value = "HAH! You might think you're so smart but I'm way ahead of you!"
 	},
 	ins_op_178_1_1 = {
-		value = "手鞠都很漂亮"
+		value = "Just imagine how much effort goes into a temari."
 	},
 	op_reply_178_1_1 = {
-		value = "作为玩具来说太脆弱了…"
+		value = "Maybe that is part of the reason why they shouldn't be thrown around."
 	},
 	ins_op_178_1_2 = {
-		value = "还是拿真正的躲避球来玩吧"
+		value = "I'll put dodgeballs on the requisition list."
 	},
 	op_reply_178_1_2 = {
-		value = "哦哦…指挥官要陪{namecode:164}玩吗？"
+		value = "You will? Superb! It would be great if you could join us for a match, Commander."
 	},
 	ins_179 = {
-		value = "重樱的新年饮料，甜甜的，很好喝。"
+		value = "The Sakura Empire's got sweet drinks for New Year's. Bottoms up."
 	},
 	ins_discuss_179_1 = {
-		value = "那个是…甘酒的说?"
+		value = "Do you mean \"sweet\" literally? Are you having amazake, by any chance?"
 	},
 	ins_reply_179_1_1 = {
-		value = "欸~~？威严这么喝酒没问题吗？"
+		value = "sounds like it! sure it's okay for her to drink that though?"
 	},
 	ins_reply_179_1_2 = {
-		value = "那个是几乎没有酒精的，所以没关系哦~"
+		value = "It's got really low ABV so I wouldn't worry."
 	},
 	ins_discuss_179_2 = {
-		value = "明明叫“酒”，却几乎没什么酒精吗？真是有趣啊~"
+		value = "Really low ABV? Well, I don't mean to be a stereotype, but... Heresy!"
 	},
 	ins_reply_179_2_1 = {
-		value = "不过…很好喝！"
+		value = "Call me a heretic then but this stuff is GOOD."
 	},
 	ins_reply_179_2_2 = {
-		value = "也不能喝太多就是了…"
+		value = "Just don't have too much of it, all right?"
 	},
 	ins_op_179_1_1 = {
-		value = "干杯！"
+		value = "I'll drink to that."
 	},
 	op_reply_179_1_1 = {
-		value = "干杯！"
+		value = "Way ahead of you, comrade Commander."
 	},
 	ins_op_179_1_2 = {
-		value = "是神社的甘酒吧？"
+		value = "Sounds a bit like rice porridge."
 	},
 	op_reply_179_1_2 = {
-		value = "嗯，甜甜的，很棒的饮料。"
+		value = "Uh-huh, but in drinkable form. That's more my style."
 	},
 	ins_180 = {
-		value = "摇起骰盅，找到了押单双的感觉！"
+		value = "Tossing dice puts me in the mood for some high-stakes cee-lo!"
 	},
 	ins_discuss_180_1 = {
-		value = "所以说为什么好好的双六游戏会玩出了赌大小的感觉来啦！"
+		value = "Can we just NOT gamble and play Momopoly like normal people?"
 	},
 	ins_reply_180_1_1 = {
-		value = "哎呀~拿着骰子太顺手了，一不小心就入戏了！"
+		value = "Oh cmon Suruga! Don't be so low-energy!"
 	},
 	ins_discuss_180_2 = {
-		value = "嚯~押大小吗？有意思，这场胜负，让我也参一脚吧！"
+		value = "Cee-lo, you say? I have some time to kill. Why not."
 	},
 	ins_reply_180_2_1 = {
-		value = "好！感觉燃起来了！"
+		value = "That's what I want to hear! Let's go babyyyy!"
 	},
 	ins_reply_180_2_2 = {
-		value = "不不，都说了我们这是准备玩双六来着……"
+		value = "I didn't agree to this! You said we were going to play Momopoly!"
 	},
 	ins_discuss_180_3 = {
-		value = "庄家是{namecode:80}吗？好！我也参加了！"
+		value = "Kii's the dealer? All right, I'm in! Been ages since our last game"
 	},
 	ins_reply_180_3_1 = {
-		value = "所·以·说！快点来开始双六游戏啦！"
+		value = "Would you PLEASE read the comments? Momopoly! NOT cee-lo!"
 	},
 	ins_op_180_1_1 = {
-		value = "试试手气也不错。"
+		value = "A literal dice roll... I mean, sure."
 	},
 	op_reply_180_1_1 = {
-		value = "指挥官也要参加吗！"
+		value = "Feel like joining us, Commander? We'll wait for you."
 	},
 	ins_op_180_1_2 = {
-		value = "双六挺有意思的"
+		value = "Did someone say Momopoly? I'm game!"
 	},
 	op_reply_180_1_2 = {
-		value = "终于有个正经人了啊！"
+		value = "Thank you, Commander. At least YOU'RE in favor of sticking to the agreed-upon plan!"
 	},
 	ins_181 = {
-		value = "今天的百人一首大混战！"
+		value = "It's New Year's, you know what that means! Our annual game of Poetry against Humanity!"
 	},
 	ins_discuss_181_1 = {
-		value = "百人一首还是很有趣的呢！就是一直盯着牌眼睛有点疼…"
+		value = "Always fun to play! The eye strain from looking at the same cards all day, not so much, though..."
 	},
 	ins_reply_181_1_1 = {
-		value = "为什么…明明我已经很努力了，竟然还是最后一名……"
+		value = "I had excellent cards, and I still came last! How?! Am I cursed with bad card luck?"
 	},
 	ins_reply_181_1_2 = {
-		value = "{namecode:11}姐姐太着急了，出现太多失误了哦。"
+		value = "Even the best cards are no good if added to a verse where they don't fit, Akatsuki."
 	},
 	ins_discuss_181_2 = {
-		value = "百人一首啊，虽然和花札不同，不过都是很有趣的游戏呢！"
+		value = "Poetry against Humanity? That's quite different from the card games I'm used to..."
 	},
 	ins_reply_181_2_1 = {
-		value = "原来如此，{namecode:94}玩百人一首也一定也很厉害吧！这就是所谓的“书途同归”吧！"
+		value = "Hanafuda, poker, and PaH ultimately boil down to one thing: it's all about how you play your cards!"
 	},
 	ins_reply_181_2_2 = {
-		value = "也、也没有那么擅长啦…{namecode:93}姐姐玩这个其实更厉害。"
+		value = "A bit of an oversimplification... Though Souryuu is kind of better than me at card games across the board..."
 	},
 	ins_op_181_1_1 = {
-		value = "关系真好啊"
+		value = "DesDiv 6, all together in one place!"
 	},
 	op_reply_181_1_1 = {
-		value = "那是当然，我们可是永远的六驱哦！"
+		value = "As we always said we would be! We are bound by an eternal connection!"
 	},
 	ins_op_181_1_2 = {
-		value = "比赛很激烈的样子"
+		value = "Fill in: Akatsuki's ____ is her ____."
 	},
 	op_reply_181_1_2 = {
-		value = "没错~很激烈，也很有趣哦！"
+		value = "Sense of direction, cause of genuflection."
 	},
 	ins_182 = {
-		value = "镜饼幽灵小姐来了~"
+		value = "Actually, being kagami mochi is fine~ "
 	},
 	ins_discuss_182_1 = {
-		value = "好像…趴着很舒服的样子…"
+		value = "I've heard of Long Island iced tea, but Long Island mochi's a new one... "
 	},
 	ins_reply_182_1_1 = {
-		value = "欸嘿，软软的确实挺舒服的~"
+		value = "Just don't eat me, I'm only a spooky-slash-festive decoration~ "
 	},
 	ins_reply_182_1_2 = {
-		value = "啊，我也想趴趴看！"
+		value = "my brain says no, but my stomach says yes (º﹃º) "
 	},
 	ins_discuss_182_2 = {
-		value = "喂喂…镜饼应该不是这么玩的吧…"
+		value = "You shouldn't play with food. Or pretend to be food either. "
 	},
 	ins_reply_182_2_1 = {
-		value = "这个只是造型比较独特的抱枕啦~"
+		value = "It's not the real thing, just a comfy cushion that looks like it~ "
 	},
 	ins_reply_182_2_2 = {
-		value = "是、是这样吗…"
+		value = "Oh. Never mind, carry on then... "
 	},
 	ins_reply_182_2_3 = {
-		value = "好像…很有趣的说？"
+		value = "Where can I buy one for myself? "
 	},
 	ins_discuss_182_3 = {
-		value = "那个…长岛…你知道“开镜饼”吗？"
+		value = "Reckon it's bout time someone told ya what we do with kagami mochi... "
 	},
 	ins_reply_182_3_1 = {
-		value = "“开镜饼”？"
+		value = "There's more to it than putting it up just as a decoration? "
 	},
 	ins_reply_182_3_2 = {
-		value = "实际的镜饼很硬的哦，而且会在合适的时间到了以后，就会用锤子之类的把镜饼敲碎哦"
+		value = "Yeah well... See, come jan 11th they've turned hecking hard, so then we take a big ol hammer n crack em open. "
 	},
 	ins_reply_182_3_3 = {
-		value = "欸欸欸欸欸欸欸欸？！"
+		value = "NOOOOO I DON'T WANNA BE MOCHI ANYMORE! "
 	},
 	ins_op_182_1_1 = {
-		value = "镜饼人，还挺可爱的。"
+		value = "Promise you won't destroy NY City with your puffiness. "
 	},
 	op_reply_182_1_1 = {
-		value = "嘿嘿，指挥官也要一起变身“镜饼人”吗？"
+		value = "Don't worry, nobody would choose this as the form of their destructor~ "
 	},
 	ins_183 = {
-		value = "粉碎吧！"
+		value = "Behold! Thor's hammer; the Mjölnir! I jest, of course. It is an ordinary hammer. "
 	},
 	ins_discuss_183_1 = {
-		value = "这也是重樱的新年活动吗？虽然不知道是在做什么，但好像很有趣的样子啊，哈哈哈~"
+		value = "What's it for? Some Sakura Empire tradition? If so, where do I sign up? "
 	},
 	ins_reply_183_1_1 = {
-		value = "根据重樱伙伴的介绍，这是叫做“开镜饼”的仪式。像这样用锤子把镜饼砸个粉碎，再做成别的食物。"
+		value = "As Shouhou explained to me, it is part of their custom called \"kagamibiraki.\" It is for smashing mochi. "
 	},
 	ins_reply_183_1_2 = {
-		value = "不能用刀切吗？"
+		value = "Why wouldn't a knife just cut it? No pun intended... "
 	},
 	ins_reply_183_1_3 = {
-		value = "敲碎镜饼代表着结束旧的一年，迎接新的一年，不能直接用刀子切哦~"
+		value = "It's smashed to symbolize leaving the old year behind you. Cutting it into pieces wouldn't be the same thing. "
 	},
 	ins_discuss_183_2 = {
-		value = "哈哈哈，真是爽快啊，不知道能不能一炮轰碎啊？"
+		value = "Now that's what I call a recipe for a smashing time! Can I bombard it too? "
 	},
 	ins_reply_183_2_1 = {
-		value = "那样的话就不只是镜饼粉碎了呢，虽然应该只是开玩笑，不过姐姐的话…感觉真的可能做出这种事呢…"
+		value = "I estimate a >75% probability that you're only joking, sister, but just in case: doing so would vaporize it. "
 	},
 	ins_discuss_183_3 = {
-		value = "快·住·手~~放开那个镜饼~~~"
+		value = "Don't do iiit! What has the poor mochi ever done to you? "
 	},
 	ins_reply_183_3_1 = {
-		value = "放心吧，我砸的手法很好，碎得很漂亮。"
+		value = "I'm sorry, little one. The deed is already done. "
 	},
 	ins_reply_183_3_2 = {
-		value = "L.I小姐，受到了999点的精神攻击…的说？"
+		value = "No amount of Sanity potions will help Long Island recover from that one... "
 	},
 	ins_op_183_1_1 = {
-		value = "镜饼人啊啊啊！！"
+		value = "Mochi, what happened? Mochi?! MOCHIIIII! "
 	},
 	op_reply_183_1_1 = {
-		value = "……？"
+		value = "The mochi is inanimate, Commander. You are being silly. "
 	},
 	ins_op_183_1_2 = {
-		value = "敲碎的手法很漂亮"
+		value = "Bananas and mochi are both fated to be split, huh. "
 	},
 	op_reply_183_1_2 = {
-		value = "谢谢夸奖。"
+		value = "As is tradition. Some things were never meant to be in one piece. "
 	},
 	ins_184 = {
-		value = "烧起来了，烧起来了…！"
+		value = "Fire! It burns! IT BURNS! "
 	},
 	ins_discuss_184_1 = {
-		value = "哇哇？！这是着火了吗？"
+		value = "Who started a fire?! Someone get an extinguisher!"
 	},
 	ins_reply_184_1_1 = {
-		value = "请放心，这是“左义长”，算是一种…新年祭典的活动吧…？"
+		value = "There is no need to worry. This is just sagichou – a paper burning festival, part of our New Year traditions."
 	},
 	ins_reply_184_1_2 = {
-		value = "原来如此…不过，{namecode:151}好像挺慌的啊？"
+		value = "Oh, my apologies, then. I just assumed something was up, based on Izumo's reaction."
 	},
 	ins_reply_184_1_3 = {
-		value = "火烧的有点旺，当时稍微有些惊慌失措了。真不好意思……"
+		value = "Sorry about that. My body just locks up when I see fire..."
 	},
 	ins_discuss_184_2 = {
-		value = "火烧得好旺，夜里都不觉得冷了。"
+		value = "Look at the intensity of those flames! The night is sure to be pleasantly warm."
 	},
 	ins_reply_184_2_1 = {
-		value = "回去记得把灰撒一撒哦？这样才能保佑来年无病无灾呢~"
+		value = "Let us not forget to collect the ashes and scatter them about the dorm later. Doing so is said to bring good health."
 	},
 	ins_op_184_1_1 = {
-		value = "火烧得挺旺的。"
+		value = "So, the bonfire is lit..."
 	},
 	op_reply_184_1_1 = {
-		value = "甚至让人觉得有点太旺了…"
+		value = "As long as it stays under control, it's all well and good..."
 	},
 	ins_op_184_1_2 = {
-		value = "左义长？"
+		value = "\"Sagichou.\" It's got a nice ring to it."
 	},
 	op_reply_184_1_2 = {
-		value = "正是“左义长”哦，指挥官。"
+		value = "There are many theories as to the word's origin. Stop by and I'll tell you some of them, Commander!"
 	}
 }

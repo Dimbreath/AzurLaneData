@@ -31082,7 +31082,7 @@ pg.ship_skin_words = {
 	},
 	[402050] = {
 		touch = "Are... are you trying to condition me to be less cautious by touching me...?!",
-		feeling3 = "You want me to teach you how to make brötchen? I don't mind, but I must warn you that I have high standards... Wait, are you perhaps using this as an excuse to get closer to me...?!",
+		feeling3 = "You want me to teach you how to make Brötchen? I don't mind, but I must warn you that I have high standards... Wait, are you perhaps using this as an excuse to get closer to me...?!",
 		upgrade = "I hope all this hard work pays off...",
 		expedition = "A commission has been completed. You should know what to do without me reminding you, right?",
 		win_mvp = "Huh? I'm number one? That's rather... unexpected, isn't it?",

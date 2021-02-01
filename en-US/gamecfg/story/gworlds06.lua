@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "使用了「战役信息记录仪」，所有海域间的移动限制已被解除，并获得了所有海域的调查奖励。",
+			say = "By using Operation Siren Data Logger, all movement restriction on zones have been removed. All rewards from zones that have been cleared have been obtained.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 			},
 			options = {
 				{
-					content = "确认",
+					content = "Confirm",
 					flag = 0
 				}
 			}

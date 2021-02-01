@@ -954,8 +954,6 @@ function slot0.getShipProperties(slot0)
 		slot0:intimacyAdditions(slot1)
 
 		for slot7, slot8 in pairs(slot0.transforms) do
-			print(slot8.id)
-
 			for slot13 = 1, slot8.level do
 				slot14 = pg.transform_data_template[slot8.id].effect[slot13] or {}
 
