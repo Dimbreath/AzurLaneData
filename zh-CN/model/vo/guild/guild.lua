@@ -827,7 +827,7 @@ end
 
 function slot0.ExistCommander(slot0, slot1)
 	if slot0:GetActiveEvent() then
-		return slot2:GetBossMission():ExistCommander(slot1)
+		return slot2:GetBossMission():IsActive() and slot3:ExistCommander(slot1)
 	end
 
 	return false

@@ -172,8 +172,12 @@ function slot1.CTimeDescC(slot0, slot1, slot2)
 	return os.date(slot2 or "%Y%m%d%H%M%S", slot1)
 end
 
-function slot1.STimeDescC(slot0, slot1, slot2)
-	return os.date(slot2 or "%Y/%m/%d %H:%M:%S", slot1 - slot0._serverUnitydelta + os.time() - slot0:RealtimeSinceStartup())
+function slot1.STimeDescC(slot0, slot1, slot2, slot3)
+	if slot3 then
+		return os.date(slot2 or "%Y/%m/%d %H:%M:%S", slot1 + os.time() - slot0:GetServerTime())
+	else
+		return os.date(slot2, slot1)
+	end
 end
 
 function slot1.STimeDescS(slot0, slot1, slot2)
@@ -198,7 +202,7 @@ end
 function slot1.ChieseDescTime(slot0, slot1, slot2)
 	slot3 = "%Y/%m/%d"
 	slot4 = nil
-	slot5 = split((not slot2 or os.date(slot3, slot1)) and os.date(slot3, slot1 - slot0._ServerUnitydelta + os.time() - slot0:RealtimeSinceStartup()), "/")
+	slot5 = split((not slot2 or os.date(slot3, slot1)) and os.date(slot3, slot1 + os.time() - slot0:GetServerTime()), "/")
 
 	return NumberToChinese(slot5[1], false) .. "年" .. NumberToChinese(slot5[2], true) .. "月" .. NumberToChinese(slot5[3], true) .. "日"
 end

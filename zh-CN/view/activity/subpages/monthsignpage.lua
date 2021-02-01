@@ -113,7 +113,7 @@ function slot0.OnDestroy(slot0)
 end
 
 function slot0.UseSecondPage(slot0, slot1)
-	return tonumber(pg.TimeMgr.GetInstance():CTimeDescC(pg.TimeMgr.GetInstance():GetServerTime(), "%m")) == pg.activity_template[slot1.id].config_client[1]
+	return tonumber(pg.TimeMgr.GetInstance():CurrentSTimeDesc("%m", true)) == pg.activity_template[slot1.id].config_client[1]
 end
 
 function slot0.isDirtyRes(slot0)
