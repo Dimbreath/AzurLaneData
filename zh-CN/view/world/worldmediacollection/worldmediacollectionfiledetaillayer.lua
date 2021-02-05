@@ -261,7 +261,11 @@ function slot0.SetDocumentText(slot0, slot1, slot2, slot3)
 			end
 		end
 
-		slot5 = uv2[uv3].value or ""
+		slot5 = ""
+
+		if uv3 <= #uv2 then
+			slot5 = uv2[uv3].value
+		end
 
 		for slot9, slot10 in ipairs(slot3) do
 			slot2 = uv1[slot10].value .. slot2
@@ -295,13 +299,13 @@ function slot0.SetDocumentText(slot0, slot1, slot2, slot3)
 		slot18 = slot19 * slot20 + (slot19 - 1) * slot21
 	end
 
-	for slot26 = slot15 + 1 + 1, #slot13 do
-		slot27, slot28 = slot17(false)
-		slot11 = slot11 .. slot28 .. slot27
+	for slot25 = slot15, #slot13 do
+		slot26, slot27 = slot17(false)
+		slot11 = slot11 .. slot27 .. slot26
 	end
 
-	slot23, slot24, slot25 = slot17(true)
-	slot10.text = slot11 .. slot25
+	slot22, slot23, slot24 = slot17(true)
+	slot10.text = slot11 .. slot24
 
 	slot12()
 end
@@ -339,19 +343,43 @@ function slot0.SplitRichAndLetters(slot0)
 	end
 
 	slot5 = {}
+	slot6 = false
+	slot7 = 1
 
 	while true do
-		slot6, slot7 = string.find(slot0, "[-\\xc2-\\xf4][\\x80-\\xbf]*", 1)
+		slot8, slot9 = string.find(slot0, "[-\\xc2-\\xf4][\\x80-\\xbf]*", 1)
 
-		if not slot7 then
+		if not slot9 then
+			slot5[#slot5 + 1] = {
+				value = string.sub(slot0, slot7, #slot0),
+				start = slot7
+			}
+
 			break
 		end
 
-		slot5[#slot5 + 1] = {
-			value = string.sub(slot0, slot6, slot7),
-			start = slot6
-		}
-		slot1 = slot7 + 1
+		slot10 = string.sub(slot0, slot8, slot9)
+		slot11 = false
+
+		if PLATFORM_CODE == PLATFORM_US then
+			if slot6 ~= (slot10 == " " or slot10 == " ") then
+				slot11 = slot8 > 1
+			end
+
+			slot6 = slot12
+		else
+			slot11 = slot8 > 1
+		end
+
+		if slot11 then
+			slot5[#slot5 + 1] = {
+				value = string.sub(slot0, slot7, slot8 - 1),
+				start = slot7
+			}
+			slot7 = slot8
+		end
+
+		slot1 = slot9 + 1
 	end
 
 	return slot5, slot3

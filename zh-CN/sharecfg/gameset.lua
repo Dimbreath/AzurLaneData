@@ -802,7 +802,7 @@ pg.gameset = {
 	},
 	world_port_taskmax = {
 		description = "",
-		key_value = 5
+		key_value = 7
 	},
 	world_movepower_maxvalue = {
 		description = "",
@@ -1548,7 +1548,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 184
+		key_value = 185
 	},
 	order_pt_max = {
 		key_value = 0,

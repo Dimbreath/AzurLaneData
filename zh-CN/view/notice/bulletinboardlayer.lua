@@ -117,18 +117,14 @@ function slot0.setNoticeDetail(slot0, slot1)
 		table.insert(slot0.loadPic, slot10)
 	end
 
-	slot4 = slot0.tempContent
-	slot5 = slot4
-	slot6 = " "
-
-	setText(slot0._detailContentTxt, slot4.gsub(slot5, slot6, " "))
+	setText(slot0._detailContentTxt, SwitchSpecialChar(slot0.tempContent, true))
 
 	slot0.loadingCount = #slot0.loadPic
 
-	for slot5, slot6 in ipairs(slot0.loadPic) do
-		slot0._loadingFlag[slot6] = true
+	for slot6, slot7 in ipairs(slot0.loadPic) do
+		slot0._loadingFlag[slot7] = true
 
-		BulletinBoardMgr.Inst:GetSprite(slot1.id, slot1.version, slot6, UnityEngine.Events.UnityAction_UnityEngine_Sprite(function (slot0)
+		BulletinBoardMgr.Inst:GetSprite(slot1.id, slot1.version, slot7, UnityEngine.Events.UnityAction_UnityEngine_Sprite(function (slot0)
 			uv0._loadingFlag[uv1] = nil
 
 			if slot0 ~= nil then
@@ -137,7 +133,7 @@ function slot0.setNoticeDetail(slot0, slot1)
 				uv0._detailContentTxtComp:AddSprite(slot0.name, slot0)
 
 				if uv0.loadingCount <= 0 then
-					setText(uv0._detailContentTxt, uv0.realContent:gsub(" ", " "))
+					setText(uv0._detailContentTxt, SwitchSpecialChar(uv0.realContent, true))
 				end
 			end
 		end))

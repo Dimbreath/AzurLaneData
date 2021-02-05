@@ -90,7 +90,14 @@ function slot0.register(slot0)
 		}))
 	end)
 	slot0:bind(uv0.ON_UPDATE_ACT, function (slot0)
-		uv0.viewComponent:setActivity(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1))
+		slot2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILD)
+
+		if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1) then
+			uv0.viewComponent:setActivity(slot1)
+		else
+			uv0.viewComponent:setActivity(slot2)
+		end
+
 		uv0.viewComponent:updateActivityBuildPage()
 	end)
 	slot0:bind(uv0.CLOSE_EXCHANGE, function (slot0)
@@ -135,8 +142,13 @@ function slot0.register(slot0)
 end
 
 function slot0.checkActivityBuild(slot0)
-	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1) and not slot2:isEnd() then
+	slot1 = getProxy(ActivityProxy)
+	slot3 = slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILD)
+
+	if slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1) and not slot2:isEnd() then
 		slot0.viewComponent:setActivity(slot2)
+	elseif slot3 and not slot3:isEnd() then
+		slot0.viewComponent:setActivity(slot3)
 	elseif slot0.contextData.projectName == BuildShipScene.PROJECTS.ACTIVITY then
 		slot0.contextData.projectName = nil
 	end

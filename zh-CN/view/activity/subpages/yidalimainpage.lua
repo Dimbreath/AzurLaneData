@@ -13,6 +13,28 @@ function slot0.OnFirstFlush(slot0)
 	onButton(slot0, slot0.fight, function ()
 		uv0:emit(ActivityMediator.BATTLE_OPERA)
 	end, SFX_PANEL)
+
+	slot0.build = slot0:findTF("build", slot0.btnList)
+
+	onButton(slot0, slot0.build, function ()
+		slot0, slot1 = nil
+
+		if uv0.activity:getConfig("config_client") ~= "" and uv0.activity:getConfig("config_client").linkActID then
+			slot1 = getProxy(ActivityProxy):getActivityById(slot0)
+		end
+
+		if not slot0 then
+			uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT, {
+				projectName = BuildShipScene.PROJECTS.ACTIVITY
+			})
+		elseif slot1 and not slot1:isEnd() then
+			uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT, {
+				projectName = BuildShipScene.PROJECTS.ACTIVITY
+			})
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+		end
+	end, SFX_PANEL)
 	slot0:initData()
 	slot0:submitFinishedTask()
 end

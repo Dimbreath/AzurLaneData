@@ -8,6 +8,7 @@ slot2 = {
 	CS_40001_SHIP_ID_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_40001_DATA_FIELD = slot0.FieldDescriptor(),
 	CS_40001_DATA2_FIELD = slot0.FieldDescriptor(),
+	CS_40001_OTHER_SHIP_ID_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_40002_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_40002_KEY_FIELD = slot0.FieldDescriptor(),
 	SC_40002_DROP_PERFORMANCE_FIELD = slot0.FieldDescriptor(),
@@ -25,6 +26,7 @@ slot2 = {
 	CS_40003_ENEMY_INFO_FIELD = slot0.FieldDescriptor(),
 	CS_40003_DATA2_FIELD = slot0.FieldDescriptor(),
 	CS_40003_COMMANDER_ID_LIST_FIELD = slot0.FieldDescriptor(),
+	CS_40003_OTHERSTATISTICS_FIELD = slot0.FieldDescriptor(),
 	SC_40004_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_40004_DROP_INFO_FIELD = slot0.FieldDescriptor(),
 	SC_40004_EXTRA_DROP_INFO_FIELD = slot0.FieldDescriptor(),
@@ -38,6 +40,8 @@ slot2 = {
 	DROPPERFORMANCE_ENEMY_ID_FIELD = slot0.FieldDescriptor(),
 	DROPPERFORMANCE_RESOURCE_NUM_FIELD = slot0.FieldDescriptor(),
 	DROPPERFORMANCE_OTHER_NUM_FIELD = slot0.FieldDescriptor(),
+	OTHERSHIPID_SHIP_ID_FIELD = slot0.FieldDescriptor(),
+	OTHERSHIPID_USER_ID_FIELD = slot0.FieldDescriptor(),
 	STATISTICSINFO_SHIP_ID_FIELD = slot0.FieldDescriptor(),
 	STATISTICSINFO_DAMAGE_CAUSE_FIELD = slot0.FieldDescriptor(),
 	STATISTICSINFO_DAMAGE_CAUSED_FIELD = slot0.FieldDescriptor(),
@@ -62,6 +66,7 @@ SC_40004 = slot0.Descriptor()
 CS_40005 = slot0.Descriptor()
 SC_40006 = slot0.Descriptor()
 DROPPERFORMANCE = slot0.Descriptor()
+OTHERSHIPID = slot0.Descriptor()
 STATISTICSINFO = slot0.Descriptor()
 SHIP_EXP = slot0.Descriptor()
 COMMANDER_EXP = slot0.Descriptor()
@@ -103,6 +108,16 @@ slot2.CS_40001_DATA2_FIELD.has_default_value = false
 slot2.CS_40001_DATA2_FIELD.default_value = {}
 slot2.CS_40001_DATA2_FIELD.type = 13
 slot2.CS_40001_DATA2_FIELD.cpp_type = 3
+slot2.CS_40001_OTHER_SHIP_ID_LIST_FIELD.name = "other_ship_id_list"
+slot2.CS_40001_OTHER_SHIP_ID_LIST_FIELD.full_name = "p40.cs_40001.other_ship_id_list"
+slot2.CS_40001_OTHER_SHIP_ID_LIST_FIELD.number = 5
+slot2.CS_40001_OTHER_SHIP_ID_LIST_FIELD.index = 4
+slot2.CS_40001_OTHER_SHIP_ID_LIST_FIELD.label = 3
+slot2.CS_40001_OTHER_SHIP_ID_LIST_FIELD.has_default_value = false
+slot2.CS_40001_OTHER_SHIP_ID_LIST_FIELD.default_value = {}
+slot2.CS_40001_OTHER_SHIP_ID_LIST_FIELD.message_type = OTHERSHIPID
+slot2.CS_40001_OTHER_SHIP_ID_LIST_FIELD.type = 11
+slot2.CS_40001_OTHER_SHIP_ID_LIST_FIELD.cpp_type = 10
 CS_40001.name = "cs_40001"
 CS_40001.full_name = "p40.cs_40001"
 CS_40001.nested_types = {}
@@ -111,7 +126,8 @@ CS_40001.fields = {
 	slot2.CS_40001_SYSTEM_FIELD,
 	slot2.CS_40001_SHIP_ID_LIST_FIELD,
 	slot2.CS_40001_DATA_FIELD,
-	slot2.CS_40001_DATA2_FIELD
+	slot2.CS_40001_DATA2_FIELD,
+	slot2.CS_40001_OTHER_SHIP_ID_LIST_FIELD
 }
 CS_40001.is_extendable = false
 CS_40001.extensions = {}
@@ -282,6 +298,16 @@ slot2.CS_40003_COMMANDER_ID_LIST_FIELD.has_default_value = false
 slot2.CS_40003_COMMANDER_ID_LIST_FIELD.default_value = {}
 slot2.CS_40003_COMMANDER_ID_LIST_FIELD.type = 13
 slot2.CS_40003_COMMANDER_ID_LIST_FIELD.cpp_type = 3
+slot2.CS_40003_OTHERSTATISTICS_FIELD.name = "otherstatistics"
+slot2.CS_40003_OTHERSTATISTICS_FIELD.full_name = "p40.cs_40003.otherstatistics"
+slot2.CS_40003_OTHERSTATISTICS_FIELD.number = 15
+slot2.CS_40003_OTHERSTATISTICS_FIELD.index = 14
+slot2.CS_40003_OTHERSTATISTICS_FIELD.label = 3
+slot2.CS_40003_OTHERSTATISTICS_FIELD.has_default_value = false
+slot2.CS_40003_OTHERSTATISTICS_FIELD.default_value = {}
+slot2.CS_40003_OTHERSTATISTICS_FIELD.message_type = STATISTICSINFO
+slot2.CS_40003_OTHERSTATISTICS_FIELD.type = 11
+slot2.CS_40003_OTHERSTATISTICS_FIELD.cpp_type = 10
 CS_40003.name = "cs_40003"
 CS_40003.full_name = "p40.cs_40003"
 CS_40003.nested_types = {}
@@ -300,7 +326,8 @@ CS_40003.fields = {
 	slot2.CS_40003_BOSS_HP_FIELD,
 	slot2.CS_40003_ENEMY_INFO_FIELD,
 	slot2.CS_40003_DATA2_FIELD,
-	slot2.CS_40003_COMMANDER_ID_LIST_FIELD
+	slot2.CS_40003_COMMANDER_ID_LIST_FIELD,
+	slot2.CS_40003_OTHERSTATISTICS_FIELD
 }
 CS_40003.is_extendable = false
 CS_40003.extensions = {}
@@ -471,6 +498,34 @@ DROPPERFORMANCE.fields = {
 }
 DROPPERFORMANCE.is_extendable = false
 DROPPERFORMANCE.extensions = {}
+slot2.OTHERSHIPID_SHIP_ID_FIELD.name = "ship_id"
+slot2.OTHERSHIPID_SHIP_ID_FIELD.full_name = "p40.othershipid.ship_id"
+slot2.OTHERSHIPID_SHIP_ID_FIELD.number = 1
+slot2.OTHERSHIPID_SHIP_ID_FIELD.index = 0
+slot2.OTHERSHIPID_SHIP_ID_FIELD.label = 2
+slot2.OTHERSHIPID_SHIP_ID_FIELD.has_default_value = false
+slot2.OTHERSHIPID_SHIP_ID_FIELD.default_value = 0
+slot2.OTHERSHIPID_SHIP_ID_FIELD.type = 13
+slot2.OTHERSHIPID_SHIP_ID_FIELD.cpp_type = 3
+slot2.OTHERSHIPID_USER_ID_FIELD.name = "user_id"
+slot2.OTHERSHIPID_USER_ID_FIELD.full_name = "p40.othershipid.user_id"
+slot2.OTHERSHIPID_USER_ID_FIELD.number = 2
+slot2.OTHERSHIPID_USER_ID_FIELD.index = 1
+slot2.OTHERSHIPID_USER_ID_FIELD.label = 2
+slot2.OTHERSHIPID_USER_ID_FIELD.has_default_value = false
+slot2.OTHERSHIPID_USER_ID_FIELD.default_value = 0
+slot2.OTHERSHIPID_USER_ID_FIELD.type = 13
+slot2.OTHERSHIPID_USER_ID_FIELD.cpp_type = 3
+OTHERSHIPID.name = "othershipid"
+OTHERSHIPID.full_name = "p40.othershipid"
+OTHERSHIPID.nested_types = {}
+OTHERSHIPID.enum_types = {}
+OTHERSHIPID.fields = {
+	slot2.OTHERSHIPID_SHIP_ID_FIELD,
+	slot2.OTHERSHIPID_USER_ID_FIELD
+}
+OTHERSHIPID.is_extendable = false
+OTHERSHIPID.extensions = {}
 slot2.STATISTICSINFO_SHIP_ID_FIELD.name = "ship_id"
 slot2.STATISTICSINFO_SHIP_ID_FIELD.full_name = "p40.statisticsinfo.ship_id"
 slot2.STATISTICSINFO_SHIP_ID_FIELD.number = 1
@@ -679,6 +734,7 @@ cs_40005 = slot0.Message(CS_40005)
 dropperformance = slot0.Message(DROPPERFORMANCE)
 enemyinfo = slot0.Message(ENEMYINFO)
 hpdropinfo = slot0.Message(HPDROPINFO)
+othershipid = slot0.Message(OTHERSHIPID)
 sc_40002 = slot0.Message(SC_40002)
 sc_40004 = slot0.Message(SC_40004)
 sc_40006 = slot0.Message(SC_40006)

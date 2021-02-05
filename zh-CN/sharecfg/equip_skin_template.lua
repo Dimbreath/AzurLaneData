@@ -8233,6 +8233,489 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[380] = {
+		icon = "92811",
+		bullet_name = "zidan_lajiao",
+		name = "辣椒子弹",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "火红的辣椒，食用时请注意~",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 380,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[381] = {
+		icon = "92812",
+		bullet_name = "zidan_chuanghua",
+		name = "窗花子弹",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "贴上窗花，年味就更浓了~",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 381,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[382] = {
+		icon = "92813",
+		bullet_name = "zidan_chunlian",
+		name = "福运子弹",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "新春到，福运到。",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 382,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[383] = {
+		icon = "92814",
+		bullet_name = "paodan_jiaozi",
+		name = "饺子炮弹",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "说到春节还是离不开饺子。",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 383,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[384] = {
+		icon = "92815",
+		bullet_name = "paodan_tangyuan",
+		name = "汤圆炮弹",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "吃汤圆，团团圆圆。",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 384,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[385] = {
+		icon = "92816",
+		bullet_name = "paodan_niangao",
+		name = "年糕炮弹",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "年糕、年高，年年高。",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 385,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[386] = {
+		icon = "92821",
+		bullet_name = "yulei_tanghulu",
+		name = "糖葫芦鱼雷",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "甜蜜的童年回忆。",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 386,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[387] = {
+		icon = "92822",
+		bullet_name = "yulei_zaotang",
+		name = "灶糖鱼雷",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "黏嘴又黏牙的奇妙美味。",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 387,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[388] = {
+		icon = "92823",
+		bullet_name = "yulei_chunjuan",
+		name = "春卷鱼雷",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "小心烫嘴~",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 388,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[389] = {
+		icon = "92831",
+		bullet_name = "feiji_wushi",
+		name = "舞狮啾(鱼雷)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "年兽来啦，大家快跑~",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 389,
+		derivate_torpedo = "yulei_tanghulu",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[390] = {
+		icon = "92831",
+		bullet_name = "feiji_wushi",
+		name = "舞狮啾(战斗)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "年兽来啦，大家快跑~",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_lajiao",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 390,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[391] = {
+		icon = "92831",
+		bullet_name = "feiji_wushi",
+		name = "舞狮啾(轰炸)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "年兽来啦，大家快跑~",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_lajiao",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 391,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[392] = {
+		icon = "92832",
+		bullet_name = "feiji_qiniu",
+		name = "牛牛啾(鱼雷)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "牛年行大运！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 392,
+		derivate_torpedo = "yulei_zaotang",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[393] = {
+		icon = "92832",
+		bullet_name = "feiji_qiniu",
+		name = "牛牛啾(战斗)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "牛年行大运！",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_chuanghua",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 393,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[394] = {
+		icon = "92832",
+		bullet_name = "feiji_qiniu",
+		name = "牛牛啾(轰炸)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "牛年行大运！",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_chuanghua",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 394,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[395] = {
+		icon = "92833",
+		bullet_name = "feiji_tangzhuang",
+		name = "拜年啾(鱼雷)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "新年快乐，恭喜发财啾！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 395,
+		derivate_torpedo = "yulei_chunjuan",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[396] = {
+		icon = "92833",
+		bullet_name = "feiji_tangzhuang",
+		name = "拜年啾(战斗)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "新年快乐，恭喜发财啾！",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_chunlian",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 396,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[397] = {
+		icon = "92833",
+		bullet_name = "feiji_tangzhuang",
+		name = "拜年啾(轰炸)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "新年快乐，恭喜发财啾！",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_chunlian",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 397,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		icon = "90640",
 		bullet_name = "Nep_bullet_shizi",
@@ -9978,6 +10461,24 @@ pg.equip_skin_template = {
 		375,
 		376,
 		377,
+		380,
+		381,
+		382,
+		383,
+		384,
+		385,
+		386,
+		387,
+		388,
+		389,
+		390,
+		391,
+		392,
+		393,
+		394,
+		395,
+		396,
+		397,
 		1001,
 		1002,
 		1003,

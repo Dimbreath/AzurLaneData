@@ -22,6 +22,12 @@ function slot0.OnLoaded(slot0)
 	slot0.allRankPage = GuildBossRankPage.New(slot0._parentTf, slot0._event)
 
 	setActive(slot0.viewAllBtn, PLATFORM_CODE ~= PLATFORM_JP)
+
+	slot0.eventTimerTxt = slot0:findTF("timer/Text"):GetComponent(typeof(Text))
+
+	setText(slot0:findTF("timer/label"), i18n("guild_time_remaining_tip"))
+
+	slot0.timeView = GuildEventTimerView.New()
 end
 
 function slot0.OnInit(slot0)
@@ -84,6 +90,7 @@ function slot0.Show(slot0, slot1)
 	slot0.titleTxt.text = slot1:getConfig("name")
 
 	slot0:CheckFleetShipState()
+	slot0.timeView:Flush(slot0.eventTimerTxt, getProxy(GuildProxy):getRawData():GetActiveEvent())
 end
 
 function slot0.CheckFleetShipState(slot0)
@@ -254,6 +261,7 @@ function slot0.OnDestroy(slot0)
 	end
 
 	slot0.allRankPage:Destroy()
+	slot0.timeView:Dispose()
 end
 
 return slot0

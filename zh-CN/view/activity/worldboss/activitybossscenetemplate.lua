@@ -348,7 +348,7 @@ function slot0.setCommanderPrefabs(slot0, slot1)
 end
 
 function slot0.openCommanderPanel(slot0, slot1, slot2)
-	slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE).id
+	slot3 = slot0.contextData.activityID
 
 	slot0.levelCMDFormationView:setCallback(function (slot0)
 		if slot0.type == LevelUIConst.COMMANDER_OP_SHOW_SKILL then
@@ -361,8 +361,6 @@ function slot0.openCommanderPanel(slot0, slot1, slot2)
 			}
 
 			uv0:emit(ActivityBossMediatorTemplate.ON_SELECT_COMMANDER, uv1, slot0.pos)
-			uv0:closeCommanderPanel()
-			uv0:hideFleetEdit()
 		else
 			uv0:emit(ActivityBossMediatorTemplate.COMMANDER_FORMATION_OP, {
 				FleetType = LevelUIConst.FLEET_TYPE_ACTIVITY,

@@ -283,7 +283,7 @@ return {
 			actor = 103160,
 			side = 0,
 			nameColor = "#a9f548",
-			dir = 2,
+			dir = 1,
 			say = "这便是我的正义！",
 			typewriter = {
 				speed = 0.05,

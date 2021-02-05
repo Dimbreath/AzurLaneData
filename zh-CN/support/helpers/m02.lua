@@ -2200,6 +2200,10 @@ function getSpecialItemPage(slot0)
 		{
 			mediator = AssignedShipMediator,
 			viewComponent = AssignedShipScene5
+		},
+		{
+			mediator = AssignedShipMediator,
+			viewComponent = AssignedShipScene6
 		}
 	})[slot0]
 end
@@ -2617,6 +2621,28 @@ function resourceVerify(slot0, slot1)
 	end(slot4.Length - 1)
 end
 
+function splitByWordEN(slot0, slot1)
+	slot3 = ""
+	slot4 = ""
+
+	for slot11, slot12 in ipairs(string.split(slot0, " ")) do
+		slot13 = slot4
+
+		setText(slot1, slot4 == "" and slot12 or slot4 .. " " .. slot12)
+
+		if slot1:GetComponent(typeof(RectTransform)).rect.width < slot1:GetComponent(typeof(Text)).preferredWidth then
+			slot3 = slot3 == "" and slot13 or slot3 .. "\n" .. slot13
+			slot4 = slot12
+		end
+
+		if slot11 >= #slot2 then
+			slot3 = slot3 == "" and slot4 or slot3 .. "\n" .. slot4
+		end
+	end
+
+	return slot3
+end
+
 function checkBirthFormat(slot0)
 	if #slot0 ~= 8 then
 		return false
@@ -2873,4 +2899,16 @@ function CameraFittingSettin(slot0)
 		slot4 = slot3 / slot2
 		GetComponent(slot0, typeof(Camera)).rect = uv0.Rect.New(0, (1 - slot4) / 2, 1, slot4)
 	end
+end
+
+function SwitchSpecialChar(slot0, slot1)
+	if PLATFORM_CODE ~= PLATFORM_US then
+		slot0 = slot0:gsub(" ", " "):gsub("\t", "    ")
+	end
+
+	if not slot1 then
+		slot0 = slot0:gsub("\n", " ")
+	end
+
+	return slot0
 end

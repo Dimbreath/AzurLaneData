@@ -297,3 +297,11 @@ function slot0.NotificationForMain(slot0)
 		slot3()
 	end
 end
+
+function slot0.GetShouldShowBattleTip(slot0)
+	return slot0.shouldShowBattleTip
+end
+
+function slot0.CancelShouldShowBattleTip(slot0)
+	slot0.shouldShowBattleTip = nil
+end

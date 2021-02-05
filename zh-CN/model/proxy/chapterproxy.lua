@@ -611,6 +611,7 @@ function slot0.updateActiveChapterShips(slot0)
 		_.each(slot1.fleets, function (slot0)
 			slot0:flushShips()
 		end)
+		slot0:updateChapter(slot1, ChapterConst.DirtyFleet)
 	end
 end
 

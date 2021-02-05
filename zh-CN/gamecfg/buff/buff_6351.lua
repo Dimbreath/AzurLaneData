@@ -9,5 +9,16 @@ return {
 	color = "yellow",
 	icon = 6320,
 	last_effect = "",
-	effect_list = {}
+	effect_list = {
+		{
+			type = "BattleBuffShiftWeapon",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				detach_id = 18071,
+				attach_id = 18171
+			}
+		}
+	}
 }

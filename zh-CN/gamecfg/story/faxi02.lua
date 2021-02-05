@@ -10,7 +10,7 @@ return {
 			actor = 207020,
 			side = 0,
 			say = "侦察机报告称，凯比尔港内共有4艘战列舰、1艘小型航母和6艘驱逐舰，均处于非战斗状态",
-			dir = 2,
+			dir = 1,
 			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 		{
 			actor = 207020,
 			side = 0,
-			dir = 2,
+			dir = 1,
 			say = "但是，港口外围被塞壬的中小型舰队层层包围，看起来像是被保护着，想要进入港口，就必须先突破它们的防御圈了",
 			typewriter = {
 				speed = 0.05,

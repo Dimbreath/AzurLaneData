@@ -154,12 +154,9 @@ function slot0.initColoring(slot0)
 	slot0:initInteractive()
 
 	slot0.selectedIndex = 0
-
-	triggerButton(slot0.paintsgroup[Mathf.Min(slot1, #slot0.paintsgroup)], true)
-
 	slot0.selectedColorIndex = 0
 
-	triggerToggle(slot0.colorPlates[1], true)
+	triggerButton(slot0.paintsgroup[Mathf.Min(slot1, #slot0.paintsgroup)], true)
 end
 
 function slot0.initInteractive(slot0)
@@ -175,6 +172,7 @@ function slot0.initInteractive(slot0)
 				uv1.selectedIndex = uv2
 
 				uv3:SetParent(uv1.colorgroupfront)
+				uv1:SelectColoBar(0)
 				uv1:updateSelectedColoring()
 			elseif slot0 == ColorGroup.StateLock then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("coloring_lock"))
@@ -185,31 +183,46 @@ function slot0.initInteractive(slot0)
 	end
 
 	for slot4 = 0, #slot0.colorPlates - 1 do
-		onToggle(slot0, slot0.colorPlates[slot4 + 1], function (slot0)
-			slot1 = uv0:findTF("icon", uv1)
+		onButton(slot0, slot0.colorPlates[slot4 + 1], function ()
+			uv0:SelectColoBar(uv1 + 1)
 
-			if slot0 then
-				if uv0.selectedColorIndex ~= uv2 + 1 then
-					slot2 = slot1.sizeDelta
-					slot2.x = uv3
-					slot1.sizeDelta = slot2
-					uv0.selectedColorIndex = uv2 + 1
+			if uv0.colorGroups[uv0.selectedIndex]:getState() == ColorGroup.StateColoring and not slot0:canBeCustomised() then
+				if (uv0.colorItems[slot0:getConfig("color_id_list")[uv0.selectedColorIndex]] or 0) ~= 0 then
+					if uv0:SearchValidDiagonalColoringCells(slot0, uv0.selectedColorIndex, slot2) and #slot3 > 0 then
+						uv0:emit(ColoringMediator.EVENT_COLORING_CELL, {
+							activityId = uv0.activity.id,
+							id = slot0.id,
+							cells = slot3
+						})
+					end
+				elseif not slot0:isAllFill(uv0.selectedColorIndex) then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("coloring_color_not_enough"))
 				end
-			else
-				slot2 = slot1.sizeDelta
-				slot2.x = uv4
-				slot1.sizeDelta = slot2
 			end
 		end, SFX_PANEL)
 	end
 
-	onToggle(slot0, slot0.toggleEraser, function ()
-		if uv0.selectedColorIndex > 0 and uv0.selectedColorIndex <= #uv0.colorPlates then
-			triggerToggle(uv0.colorPlates[uv0.selectedColorIndex], false)
-		end
-
-		uv0.selectedColorIndex = 0
+	onButton(slot0, slot0.toggleEraser, function ()
+		uv0:SelectColoBar(0)
 	end, SFX_PANEL)
+end
+
+function slot0.SelectColoBar(slot0, slot1)
+	if slot0.selectedColorIndex ~= 0 and slot0.selectedColorIndex ~= slot1 then
+		slot3 = slot0:findTF("icon", slot0.colorPlates[slot0.selectedColorIndex])
+		slot4 = slot3.sizeDelta
+		slot4.x = uv0
+		slot3.sizeDelta = slot4
+	end
+
+	slot0.selectedColorIndex = slot1
+
+	if slot0.selectedColorIndex ~= 0 then
+		slot3 = slot0:findTF("icon", slot0.colorPlates[slot0.selectedColorIndex])
+		slot4 = slot3.sizeDelta
+		slot4.x = uv1
+		slot3.sizeDelta = slot4
+	end
 end
 
 function slot0.updatePage(slot0)
@@ -226,16 +239,6 @@ function slot0.updatePage(slot0)
 
 			slot2 = slot2 + 1
 		end
-	end
-
-	if getProxy(ColoringProxy):IsALLAchieve() then
-		slot0.loader:GetSpriteDirect("ui/coloring_atlas", "painting_got", function (slot0)
-			if not slot0 then
-				return
-			end
-
-			setImageSprite(uv0.painting, slot0)
-		end, slot0.painting)
 	end
 
 	slot0:TryPlayStory()
@@ -305,21 +308,7 @@ function slot0.updateCells(slot0)
 			end
 
 			if not uv2:canBeCustomised() then
-				if uv1.selectedColorIndex == 0 or not slot5 or uv2:hasFill(slot3, slot4) then
-					return
-				end
-
-				if slot5.type ~= uv1.selectedColorIndex then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("coloring_color_missmatch"))
-
-					return
-				end
-
-				if (uv1.colorItems[uv2:getConfig("color_id_list")[uv1.selectedColorIndex]] or 0) <= 0 then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("coloring_color_not_enough"))
-
-					return
-				end
+				return
 			elseif uv1.selectedColorIndex == 0 and not uv2:hasFill(slot3, slot4) then
 				return
 			end
@@ -483,6 +472,38 @@ function slot0.searchColoringCells(slot0, slot1, slot2, slot3, slot4)
 		end
 
 		return slot8
+	end
+end
+
+function slot0.SearchValidDiagonalColoringCells(slot0, slot1, slot2, slot3)
+	if slot1:getState() ~= ColorGroup.StateColoring or slot1:canBeCustomised() or slot3 == 0 then
+		return {}
+	else
+		slot5, slot6 = slot1:GetAABB()
+		slot7 = slot6.x - slot5.x
+		slot8 = slot6.y - slot5.y
+
+		function ()
+			for slot4 = 0, uv0 + uv1 do
+				for slot8 = 0, slot4 do
+					slot10 = slot8
+
+					if slot4 - slot8 <= uv0 and slot10 <= uv1 and uv3:getCell(slot10 + uv2.y, slot9 + uv2.x) and slot13.type == uv4 and not uv3:getFill(slot11, slot12) then
+						table.insert(uv5, {
+							row = slot11,
+							column = slot12,
+							color = uv4
+						})
+
+						if uv6 <= #uv5 then
+							return
+						end
+					end
+				end
+			end
+		end()
+
+		return slot4
 	end
 end
 

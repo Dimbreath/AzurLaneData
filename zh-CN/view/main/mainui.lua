@@ -2086,21 +2086,21 @@ function slot0.updateBanner(slot0, slot1)
 		LoadImageSpriteAsync("activitybanner/" .. slot11.pic, slot12)
 		slot2:AddChild(slot12)
 		onButton(slot0, slot12, function ()
-			if uv0.type == 1 then
+			if uv0.type == GAMEUI_BANNER_1 then
 				Application.OpenURL(uv0.param)
-			elseif uv0.type == 2 then
+			elseif uv0.type == GAMEUI_BANNER_2 then
 				uv1:emit(MainUIMediator.GO_SCENE, uv0.param)
-			elseif uv0.type == 3 then
+			elseif uv0.type == GAMEUI_BANNER_3 then
 				uv1:emit(MainUIMediator.OPEN_ACTIVITY_PANEL, tonumber(uv0.param))
-			elseif uv0.type == 4 then
+			elseif uv0.type == GAMEUI_BANNER_4 then
 				uv1:emit(MainUIMediator.OPEN_SHOP_LAYER, uv0.param)
-			elseif uv0.type == 5 then
+			elseif uv0.type == GAMEUI_BANNER_5 then
 				uv1:emit(MainUIMediator.OPEN_SCROLL, tonumber(uv0.param))
-			elseif uv0.type == 6 then
+			elseif uv0.type == GAMEUI_BANNER_6 then
 				uv1:emit(MainUIMediator.OPEN_TECHNOLOGY)
-			elseif uv0.type == 7 then
+			elseif uv0.type == GAMEUI_BANNER_7 then
 				uv1:emit(MainUIMediator.GO_MINI_GAME, uv0.param[1])
-			elseif uv0.type == 8 then
+			elseif uv0.type == GAMEUI_BANNER_8 then
 				uv1:emit(MainUIMediator.OPEN_GUILD)
 			end
 		end, SFX_MAIN)

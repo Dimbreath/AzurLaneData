@@ -992,11 +992,13 @@ function slot0.GetPressingAward(slot0, slot1)
 end
 
 function slot0.FlagMapPressingAward(slot0, slot1)
-	if not slot0.pressingAwardDic[slot1] then
-		return
+	if slot0:GetPressingAward(slot1) then
+		slot2.flag = false
 	end
+end
 
-	slot0.pressingAwardDic[slot1].flag = false
+function slot0.IsMapPressingAwardFlag(slot0, slot1)
+	return slot0:GetPressingAward(slot1) and slot2.flag == false
 end
 
 function slot0.CheckAreaUnlock(slot0, slot1)

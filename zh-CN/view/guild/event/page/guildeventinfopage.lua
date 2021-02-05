@@ -61,19 +61,32 @@ function slot0.OnInit(slot0)
 			return
 		end
 
-		slot0, slot1 = uv0.activeEvent:GetMainMissionCntAndFinishCnt()
+		uv0:JoinEvent()
+	end, SFX_PANEL)
+end
 
-		if slot1 ~= 0 then
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
-				content = i18n("guild_join_event_exist_finished_mission_tip"),
-				onYes = function ()
+function slot0.JoinEvent(slot0)
+	if slot0.activeEvent:GetLeftTime() <= 604800 then
+		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			content = i18n("guild_tip_operation_time_is_not_ample"),
+			onYes = function ()
+				slot0, slot1 = uv0.activeEvent:GetMainMissionCntAndFinishCnt()
+
+				if slot1 ~= 0 then
+					pg.MsgboxMgr:GetInstance():ShowMsgBox({
+						content = i18n("guild_join_event_exist_finished_mission_tip"),
+						onYes = function ()
+							uv0:emit(GuildEventMediator.ON_JOIN_EVENT)
+						end
+					})
+				else
 					uv0:emit(GuildEventMediator.ON_JOIN_EVENT)
 				end
-			})
-		else
-			uv0:emit(GuildEventMediator.ON_JOIN_EVENT)
-		end
-	end, SFX_PANEL)
+			end
+		})
+	else
+		slot1()
+	end
 end
 
 function slot0.Refresh(slot0, slot1, slot2)

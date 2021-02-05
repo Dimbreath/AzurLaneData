@@ -29,17 +29,10 @@ function slot0.OnInit(slot0)
 		})
 	end)
 	slot0:bind(uv0.ON_AWARD, function (slot0)
-		if PLATFORM_CHT == PLATFORM_CODE then
-			pg.m02:sendNotification(GAME.MONOPOLY_OP, {
-				activity_id = uv0.activity.id,
-				cmd = ActivityConst.MONOPOLY_OP_AWARD
-			})
-		else
-			uv0:emit(ActivityMediator.OPEN_LAYER, Context.New({
-				mediator = RedPacketMediator,
-				viewComponent = RedPacketLayer
-			}))
-		end
+		uv0:emit(ActivityMediator.OPEN_LAYER, Context.New({
+			mediator = RedPacketMediator,
+			viewComponent = RedPacketLayer
+		}))
 	end)
 end
 

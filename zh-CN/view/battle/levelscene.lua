@@ -871,7 +871,7 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 		slot0:setChapter(slot1)
 	end
 
-	if slot0.contextData.chapterVO and slot0.contextData.chapterVO.id == slot1.id and slot1.active then
+	if slot0.contextData.chapterVO and slot0.contextData.chapterVO.id == slot1.id and slot1.active and slot0.levelStageView and slot0.grid then
 		slot4 = false
 		slot5 = false
 		slot6 = false

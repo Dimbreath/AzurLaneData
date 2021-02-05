@@ -450,6 +450,21 @@ pg.player_resource = {
 		name = "skinTicket13",
 		itemid = 59197
 	},
+	[185] = {
+		id = 185,
+		name = "skinTicket14",
+		itemid = 59198
+	},
+	[186] = {
+		id = 186,
+		name = "chunjie_pt",
+		itemid = 59199
+	},
+	[950] = {
+		id = 950,
+		name = "yisegefuke_pt1",
+		itemid = 59111
+	},
 	[1001] = {
 		id = 1001,
 		name = "vote2019_pt",
@@ -776,6 +791,15 @@ pg.player_resource = {
 		skinTicket13 = {
 			184
 		},
+		skinTicket14 = {
+			185
+		},
+		chunjie_pt = {
+			186
+		},
+		yisegefuke_pt1 = {
+			950
+		},
 		vote2019_pt = {
 			1001
 		},
@@ -901,6 +925,9 @@ pg.player_resource = {
 		182,
 		183,
 		184,
+		185,
+		186,
+		950,
 		1001,
 		2001,
 		2002,

@@ -89,6 +89,24 @@ function slot0.GetMyShipIds(slot0)
 	return slot1
 end
 
+function slot0.GetShipsSplitByUserID(slot0)
+	slot1 = {}
+	slot2 = getProxy(PlayerProxy):getRawData().id
+
+	for slot6, slot7 in pairs(slot0.fleets) do
+		for slot12, slot13 in ipairs(slot7:GetShips()) do
+			if slot13.member.id ~= slot2 then
+				table.insert(slot1, {
+					shipID = GuildAssaultFleet.GetRealId(slot13.ship.id),
+					userID = slot14
+				})
+			end
+		end
+	end
+
+	return slot1
+end
+
 function slot0.GetTotalHp(slot0)
 	return slot0.totalHp
 end

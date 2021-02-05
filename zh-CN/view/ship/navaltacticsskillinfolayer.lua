@@ -12,7 +12,7 @@ function slot0.showInfo(slot0, slot1)
 	slot4 = slot0.contextData.skillOnShip and slot3.level or 1
 
 	setText(slot0.skillInfoLv, "Lv." .. slot4)
-	setText(slot0.skillInfoIntro, Student.getSkillDesc(slot3.id, slot4))
+	setText(slot0.skillInfoIntro, Student.getSkillDesc(slot3.id, slot4, slot1))
 end
 
 return slot0

@@ -8,7 +8,7 @@ pg.benefit_buff_template = {
 		desc = "后宅经验加成提高5%",
 		benefit_effect = "5",
 		id = 1,
-		icon = "Props/haijungali",
+		icon = "Props/dumpling",
 		benefit_type = "dorm_exp"
 	},
 	{

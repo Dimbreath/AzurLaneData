@@ -1913,6 +1913,10 @@ function slot0.GetAllPessingAward(slot0, slot1)
 		end
 	end
 
+	if not nowWorld:GetActiveMap().visionFlag and nowWorld:IsMapPressingAwardFlag(slot5.id) then
+		slot5:UpdateVisionFlag(true)
+	end
+
 	if slot0.wsAtlas then
 		slot0.wsAtlas:OnUpdatePressingAward()
 	end
@@ -1921,10 +1925,10 @@ function slot0.GetAllPessingAward(slot0, slot1)
 		slot0.wsAtlasOverall:OnUpdatePressingAward()
 	end
 
-	slot5 = {}
+	slot6 = {}
 
-	for slot9, slot10 in pairs(slot4) do
-		table.insert(slot5, function (slot0)
+	for slot10, slot11 in pairs(slot4) do
+		table.insert(slot6, function (slot0)
 			uv0:ShowSubView("GlobalBuff", {
 				{
 					id = uv1,
@@ -1933,13 +1937,13 @@ function slot0.GetAllPessingAward(slot0, slot1)
 				slot0
 			})
 		end)
-		table.insert(slot5, function (slot0)
+		table.insert(slot6, function (slot0)
 			nowWorld:AddGlobalBuff(uv0, uv1)
 			slot0()
 		end)
 	end
 
-	seriesAsync(slot5, function ()
+	seriesAsync(slot6, function ()
 		return existCall(uv0)
 	end)
 end

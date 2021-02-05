@@ -1762,22 +1762,22 @@ pg.gametip = {
 			{
 				info = [[
 1 每张绘图日记的单元格上标注有对应的颜料编号，选中
-对应的颜料编号并点击单元格即可进行上色； 
+对应的颜料编号即会向对应单元格自动进行上色； 
 2 绘图区域可以通过双指拉伸或缩小；
 3 上色会对同色单元格自动上色，直到颜料耗尽或涂满；
 4 上色会消耗颜料，剩余颜料为0时不可以上色；
 5 颜料可通过活动任务累计消耗石油获得；
 6 完成上色可以获得奖励；
 7 各图完成奖励明细如下：
-	完成图1获得T2随机教材 x2，300物资；
-	完成图2获得T2随机改造图 x2，100石油；
-	完成图3获得T2随机部件 x3，300物资；
-	完成图4获得「精品书架」；
-	完成图5获得T3防御教材 x2，300物资；
-	完成图6获得通用改造部件 x3，100石油；
-	完成图7获得Z23换装「书架边的“风景”？」；
+	完成图1获得T3随机教材 x2；
+	完成图2获得红包 x1；
+	完成图3获得T3主炮改造部件 x2；
+	完成图4获得红包 x1；
+	完成图5获得T3通用改造部件 x3；
+	完成图6获得红包 x1；
+	完成图7获得限定角色「鞍山」；
 8 活动结束后，未消耗的颜料会被清除。
-9 12月16日前每天解锁一个可完成的绘图。]]
+9 2月10日前每天解锁一个可完成的绘图。]]
 			}
 		}
 	},
@@ -6620,7 +6620,7 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		}
 	},
 	shop_street_activity_tip = {
-		tip = "*活动期间(<color=#A1E400FF>21.1.21-21.2.3</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>"
+		tip = "*活动期间(<color=#A1E400FF>21.2.4-21.2.18</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>"
 	},
 	battle_result_boss_destruct = {
 		tip = "阻止boss自毁并击破boss"
@@ -7664,7 +7664,7 @@ $3]]
 		tip = "{namecode:161}、{namecode:81}、{namecode:92} 等角色建造追加！"
 	},
 	buildship_light_tip = {
-		tip = "{namecode:29}、{namecode:185} 等角色建造追加！"
+		tip = "黛朵、格罗斯特、比洛克西、马拉尼等角色建造追加！"
 	},
 	buildship_special_tip = {
 		tip = "{namecode:163} 建造追加！"
@@ -10666,10 +10666,11 @@ TIPS：
 		tip = {
 			{
 				info = [[
-1.活动期间可以通过「啾啾叠叠乐」、「绘图日记」、「东
-煌大富翁」、「抚顺大冒险」获得红包，开启红包可以获取
-钻石及其他丰厚奖励
-2.红包分为bonus和普通红包，其中有15个bonus红包，其
+活动说明：
+1.活动期间可以通过<color=#92fc63>「抚顺大冒险II」</color>、<color=#92fc63>「绘图日记」</color>、
+<color=#92fc63>「应瑞春游记」</color>获得红包，开启红包可以获取钻石及其他
+丰厚奖励
+2.红包分为bonus和普通红包，其中有<color=#92fc63>15</color>个bonus红包，其
 余为普通红包，开启红包时优先开启bonus红包，bonus红
 包开完后开启普通红包]]
 			}
@@ -11535,6 +11536,78 @@ BUFF加成也会增加
 					posY = 0,
 					scale = 0.19,
 					path = "saicheteshu"
+				}
+			}
+		}
+	},
+	help_monopoly_3th = {
+		tip = {
+			{
+				info = "活动时间：<color=#92fc63>2021.2.4-2021.2.19</color>"
+			},
+			{
+				info = "活动说明：\n1.活动期间，玩家首日可获得<color=#92fc63>5</color>次前进次数，此后每日24\n点可获得<color=#92fc63>5</color>次前进次数；"
+			},
+			{
+				info = "2.玩家每前进<color=#92fc63>5</color>次，即可获得一个红包；"
+			},
+			{
+				info = "3.玩家获得红包后可前往<color=#92fc63>啾啾大酒楼</color>页面开启，获取丰厚\n奖励；"
+			},
+			{
+				info = "4.玩家前进<color=#92fc63>35</color>次后即可获得应瑞换装<color=#92fc63>「寒松雪暖」</color>；"
+			},
+			{
+				info = "5.游戏中，根据玩家遇到事件的不同可以获得不同的奖励"
+			},
+			{
+				info = "    ：获得一定数量物资；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.4,
+					path = "icon_2"
+				}
+			},
+			{
+				info = "    ：获得一定数量石油；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.4,
+					path = "icon_5"
+				}
+			},
+			{
+				info = "    ：触发随机事件；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.4,
+					path = "icon_3"
+				}
+			},
+			{
+				info = "    ：触发随机奖励；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.4,
+					path = "icon_1"
+				}
+			},
+			{
+				info = "    ：再前进一次；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.4,
+					path = "icon_6"
 				}
 			}
 		}
@@ -12574,6 +12647,12 @@ BUFF加成也会增加
 	guild_tip_grand_fleet_is_frozen = {
 		tip = "该大舰队已被冻结，无法申请加入"
 	},
+	guild_tip_operation_time_is_not_ample = {
+		tip = "该作战剩余时间已不足7天，可能会因时间不足以完成作战而导致参战次数损失，是否确认参与作战？"
+	},
+	guild_time_remaining_tip = {
+		tip = "作战剩余时间:"
+	},
 	help_rollingBallGame = {
 		tip = {
 			{
@@ -13217,11 +13296,91 @@ BUFF加成也会增加
 	autofight_farm = {
 		tip = "周回模式"
 	},
+	fushun_adventure_help = {
+		tip = {
+			{
+				info = [[
+活动规则：
+1.<color=#92fc63>2月10日</color>为止每日0点开放<color=#92fc63>1</color>场新的关卡，总计<color=#92fc63>7</color>关，关卡
+可累计
+各关卡完成奖励明细如下：
+	完成第1关获得 红包 x1；
+	完成第2关获得 红包 x1；
+	完成第3关获得 红包 x1；
+	完成第4关获得 红包 x1；
+	完成第5关获得 红包 x1；
+	完成第6关获得 红包 x1；
+	完成第7关获得 限定角色<color=#92fc63>「抚顺」</color> x1
+游戏规则：
+1.当年兽进入可攻击区域时，指挥官可以点击<color=#92fc63>A键</color>、<color=#92fc63>B键</color>进
+行攻击，当可攻击区域内没有年兽时点击A、B键，则会
+对自身造成硬直
+2.若指挥官没有及时击败年兽则会被年兽攻击，每被年兽
+攻击一次，扣除一颗生命值
+3.年兽根据血量分为三种难度，不同难度的年兽需要攻击
+的次数也不同，击败年兽会获得相应的分数
+得分规则：
+击败小型年兽： <color=#92fc63>加10分</color>
+击败中型年兽： <color=#92fc63>加20分</color>
+击败大型年兽： <color=#92fc63>加30分</color>
+4.连续击败年兽可以累计combo，combo达到20后击败
+年兽可以获得额外加分，被年兽攻击则会打断combo
+5.击败年兽时画面下方能量槽会上涨，当能量槽涨满时抚
+顺会进入<color=#92fc63>特殊模式</color>此时指挥官需要快速连续点击A、B键，
+点击次数越多得分越高。能量槽变空后特殊模式结束
+6.指挥官生命值耗尽结束游戏或是点击游戏内退出按钮退
+出游戏都视为完成游戏。因为其他原因中途退出游戏则算
+作未完成游戏]]
+			}
+		}
+	},
 	autofight_change_tip = {
 		tip = "由于舰队发生变化，舰队职能变为<color=#92fc63>全部战斗</color>"
 	},
 	autofight_selectprops_tip = {
 		tip = "点击选择\n作战道具"
+	},
+	help_chunjie2021_feast = {
+		tip = {
+			{
+				info = [[
+活动时间：<color=#92fc63>2021.2.4-2021.2.19</color>
+活动简介：
+<color=#92fc63>「抚顺大冒险II」</color>：参与小游戏获取限定角色<color=#92fc63>「抚顺」</color>
+<color=#92fc63>「应瑞春游记」</color>：参与活动获取应瑞限定换装<color=#92fc63>「寒松雪暖」</color>
+<color=#92fc63>「绘图日记」</color>：参与活动获取限定角色<color=#92fc63>「鞍山」</color>
+<color=#92fc63>「啾啾大酒楼」</color>：参与活动开启红包获取丰厚奖励
+<color=#92fc63>「换装商店」</color>：购买春节限时换装
+<color=#92fc63>「限时建造」</color>：建造限时角色]]
+			}
+		}
+	},
+	valentinesday__txt1_tip = {
+		tip = "想要吃到美味的巧克力，就快去多收集些原料来吧。"
+	},
+	valentinesday__txt2_tip = {
+		tip = "巧克力已经做好了哦。怎么，还要我亲自喂你不成？"
+	},
+	valentinesday__txt3_tip = {
+		tip = "唔，做巧克力的巧克力粉，好像还不够……"
+	},
+	valentinesday__txt4_tip = {
+		tip = "巧克力，做好了…指挥官，别忘了奖励……"
+	},
+	valentinesday__txt5_tip = {
+		tip = "指挥官，我们要收集更多的原料才能继续加工巧克力哦。"
+	},
+	valentinesday__txt6_tip = {
+		tip = "巧克力已经完成了哦。指挥官，来一起尝尝吧。"
+	},
+	valentinesday__shop_tip = {
+		tip = "是否前往换装商店界面？"
+	},
+	cumulative_victory_target_tip = {
+		tip = "目标胜利次数："
+	},
+	cumulative_victory_now_tip = {
+		tip = "当前胜利次数："
 	},
 	index_equip = {
 		tip = "装备中"
@@ -13646,6 +13805,9 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	world_reset_3 = {
 		tip = "再次进入大型作战后重置生效"
 	},
+	world_boss_unactivated = {
+		tip = "请先激活大型作战，再进行挑战"
+	},
 	world_reset_tip = {
 		tip = {
 			{
@@ -13693,5 +13855,8 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 「应急维修箱」×45、「作战补给凭证」×84000]]
 			}
 		}
+	},
+	spring_invited_2021 = {
+		tip = "指挥官只能选择一人赠予贺年卡，\n是否确认赠予<color=#92fc63>$1</color>？\n赠予后会获得对应角色和回礼"
 	}
 }

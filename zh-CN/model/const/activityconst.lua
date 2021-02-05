@@ -72,6 +72,7 @@ slot0.MONOPOLY_OP_THROW = 1
 slot0.MONOPOLY_OP_MOVE = 2
 slot0.MONOPOLY_OP_TRIGGER = 3
 slot0.MONOPOLY_OP_AWARD = 4
+slot0.MONOPOLY_OP_LAST = 5
 slot0.RETURN_AWARD_OP_ACTIVTION = 1
 slot0.RETURN_AWARD_OP_GET_RETRUNERS = 2
 slot0.RETURN_AWARD_OP_GET_AWARD = 3
@@ -100,8 +101,8 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
 			2021,
-			1,
-			21
+			2,
+			4
 		},
 		{
 			0,
@@ -113,7 +114,7 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 		{
 			2021,
 			2,
-			3
+			18
 		},
 		{
 			23,

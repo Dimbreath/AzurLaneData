@@ -82,10 +82,18 @@ function slot0.OnInitItem(slot0, slot1)
 	end, SFX_PANEL)
 
 	function slot3()
+		if IsNil(uv0._tf) then
+			return
+		end
+
 		pg.UIMgr:GetInstance():BlurPanel(uv0._tf)
 	end
 
 	function slot4()
+		if IsNil(uv0._tf) then
+			return
+		end
+
 		pg.UIMgr:GetInstance():UnblurPanel(uv0._tf, uv0._parentTf)
 	end
 

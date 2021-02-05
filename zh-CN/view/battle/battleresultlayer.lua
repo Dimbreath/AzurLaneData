@@ -362,7 +362,7 @@ function slot0.showRewardInfo(slot0)
 		if table.getCount(PlayerConst.BonusItemMarker(slot0)) > 0 then
 			slot6 = uv0.skipFlag
 
-			if uv0.skipFlag and getProxy(ChapterProxy):getActiveChapter() then
+			if uv0.contextData.system == SYSTEM_SCENARIO and getProxy(ChapterProxy):getActiveChapter(true) and slot7:isLoop() then
 				getProxy(ChapterProxy):AddExtendChapterDataArray(slot7.id, "TotalDrops", slot3)
 			end
 

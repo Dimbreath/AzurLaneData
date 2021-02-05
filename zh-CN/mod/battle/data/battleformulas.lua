@@ -1466,15 +1466,18 @@ function slot15(slot0, slot1)
 	slot2 = slot2.K1
 	slot2 = slot0 / slot2
 	slot2 = slot2 / slot1
-	slot3 = slot2 * slot2
-	slot4 = uv0
-	slot4 = slot4.K3
-	slot3 = slot3 / slot4
-	slot4 = uv0
-	slot4 = slot4.K2
-	slot3 = slot3 - slot4
+	slot3 = math
+	slot3 = slot3.max
+	slot4 = slot2 * slot2
+	slot5 = uv0
+	slot5 = slot5.K3
+	slot4 = slot4 / slot5
+	slot5 = uv0
+	slot5 = slot5.K2
+	slot4 = slot4 - slot5
+	slot5 = 0
 
-	return slot3
+	return slot3(slot4, slot5)
 end
 
 slot0.CaclulateReloadAttr = slot15
