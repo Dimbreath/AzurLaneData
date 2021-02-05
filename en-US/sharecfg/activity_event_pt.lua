@@ -741,6 +741,104 @@ pg.activity_event_pt = {
 			0
 		}
 	},
+	[863] = {
+		link_id = 0,
+		unlock_story = "",
+		target_buff = "",
+		type = 4,
+		buff_group = "",
+		pic_list = "",
+		pt_list = "",
+		id_2 = 863,
+		id = 863,
+		pt = 0,
+		drop_display = "",
+		buff_time = "",
+		target = {
+			10,
+			25,
+			45,
+			70,
+			100,
+			145,
+			200
+		},
+		drop_client = {
+			{
+				1,
+				1,
+				300
+			},
+			{
+				2,
+				54050,
+				1
+			},
+			{
+				2,
+				54013,
+				2
+			},
+			{
+				2,
+				16013,
+				1
+			},
+			{
+				2,
+				16023,
+				1
+			},
+			{
+				2,
+				16003,
+				1
+			},
+			{
+				4,
+				408111,
+				1
+			}
+		},
+		allplayer = {},
+		day_unlock = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		}
+	},
+	[872] = {
+		link_id = 0,
+		unlock_story = "",
+		target_buff = "",
+		type = 1,
+		buff_group = "",
+		pic_list = "",
+		pt_list = "",
+		id_2 = 872,
+		id = 872,
+		pt = 186,
+		drop_display = "",
+		buff_time = "",
+		target = {
+			1000
+		},
+		drop_client = {
+			{
+				2,
+				60129,
+				1
+			}
+		},
+		allplayer = {},
+		day_unlock = {
+			0
+		}
+	},
 	[1020] = {
 		link_id = 0,
 		unlock_story = "",
@@ -12684,6 +12782,8 @@ pg.activity_event_pt = {
 		826,
 		841,
 		847,
+		863,
+		872,
 		1020,
 		1021,
 		1022,

@@ -79,11 +79,9 @@ return {
 				setActive(slot1:Find("Tip"), slot4)
 				onButton(slot0, slot1, function ()
 					uv0:emit(MainUIMediator.GO_SCENE, {
-						SCENE.ACT_BOSS_BATTLE,
+						SCENE.ACT_BOSS_SPF,
 						{
-							showAni = true,
-							mediatorClass = ActivityBossMediatorTemplate,
-							viewClass = ActivityBossAisaikesiScene
+							showAni = true
 						}
 					})
 				end, SFX_PANEL)
@@ -123,11 +121,12 @@ return {
 			setActive(slot1, slot3)
 
 			if slot3 then
-				slot7 = nil
-				slot7 = getProxy(ActivityProxy):getActivityById(ActivityConst.BEAT_MONSTER_NIAN_2020)
-				slot7 = slot5:getActivityById(ActivityConst.MONOPOLY_2020)
+				slot6 = getProxy(ActivityProxy)
+				slot7 = getProxy(MiniGameProxy)
+				slot5 = slot6:getActivityByType(ActivityConst.ACTIVITY_TYPE_MONOPOLY)
+				slot5 = slot6:getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME)
 
-				setActive(slot1:Find("Tip"), false or slot7 and slot7:readyToAchieve() or slot7 and slot7:readyToAchieve() or getProxy(ColoringProxy):CheckTodayTip() or RedPacketLayer.isShowRedPoint() or getProxy(MiniGameProxy):GetHubByHubId(slot2:getConfig("config_id")).count > 0)
+				setActive(slot1:Find("Tip"), nil or getProxy(ColoringProxy):CheckTodayTip() or RedPacketLayer.isShowRedPoint() or slot5 and not slot5:isEnd() and slot5:readyToAchieve() or slot5 and not slot5:isEnd() and slot5:readyToAchieve())
 				onButton(slot0, slot1, function ()
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SPRING_TOWN)
 				end, SFX_PANEL)
@@ -140,16 +139,9 @@ return {
 		Tag = "MiniGameHub",
 		Tip = "tip",
 		UpdateButton = function (slot0, slot1)
-			slot3 = getProxy(ActivityProxy):getActivityById(ActivityConst.LANTERNFESTIVAL) and not slot2:isEnd()
-
-			setActive(slot1, slot3)
-
-			if slot3 then
-				setActive(slot1:Find("Tip"), getProxy(MiniGameProxy):GetHubByHubId(slot2:getConfig("config_id")).count > 0 and slot5.usedtime < 7)
-				onButton(slot0, slot1, function ()
-					pg.m02:sendNotification(GAME.GO_MINI_GAME, 10)
-				end, SFX_PANEL)
-			end
+			onButton(slot0, slot1, function ()
+				pg.m02:sendNotification(GAME.GO_MINI_GAME, 21)
+			end, SFX_PANEL)
 		end
 	},
 	{
@@ -382,6 +374,6 @@ return {
 		2,
 		5,
 		6,
-		3
+		7
 	}
 }

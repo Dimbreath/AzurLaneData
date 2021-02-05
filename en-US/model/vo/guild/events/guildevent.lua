@@ -124,6 +124,7 @@ function slot0.Deactivate(slot0)
 	slot0.missions = {}
 	slot0.boss = nil
 	slot0.active = false
+	slot0.isParticipant = 0
 end
 
 function slot0.IsExpired(slot0)
@@ -317,6 +318,10 @@ function slot0.GetUnlockMission(slot0)
 	end
 
 	return nil
+end
+
+function slot0.GetLeftTime(slot0)
+	return slot0.endTime - pg.TimeMgr.GetInstance():GetServerTime()
 end
 
 return slot0

@@ -44508,6 +44508,597 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[14070] = {
+		desc_get = "",
+		name = "Purge Evil",
+		type = 3,
+		max_level = 10,
+		desc = "At the start of the battle: increases this ship's FP and AA by $1. Every 20s: fires a $2 special barrage (DMG is based on the skill's level.)",
+		id = 14070,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"25.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[14080] = {
+		desc_get = "",
+		name = "Unfading Dyes",
+		type = 2,
+		max_level = 10,
+		desc = "At the start of the battle: increases this ship's EVA by $1 and decreases its DMG taken by $1 until the end of the battle. When sortied with 1 or more other Dragon Empery ships: heals this ship for 8.0% HP at the start of the battle, increases its Speed by 5, and increases your fleet's AA by $1 for 50s.",
+		id = 14080,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"6.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"6.0%",
+					"+1.2%"
+				},
+				{
+					"7.2%",
+					"+1.2%"
+				},
+				{
+					"8.4%",
+					"+1.6%"
+				},
+				{
+					"10.0%",
+					"+1.2%"
+				},
+				{
+					"11.2%",
+					"+1.2%"
+				},
+				{
+					"12.4%",
+					"+1.6%"
+				},
+				{
+					"14.0%",
+					"+1.8%"
+				},
+				{
+					"15.8%",
+					"+1.8%"
+				},
+				{
+					"17.6%",
+					"+2.4%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[14090] = {
+		desc_get = "",
+		name = "Cleanse Impurity",
+		type = 3,
+		max_level = 10,
+		desc = "At the start of the battle: increases this ship's FP and AA by $1. Every 20s: fires a $2 special barrage (DMG is based on the skill's level.)",
+		id = 14090,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"25.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[14100] = {
+		desc_get = "",
+		name = "Enrapturing Dance",
+		type = 2,
+		max_level = 10,
+		desc = "At the start of the battle: increases this ship's EVA by $1 and decreases its DMG taken by $1 until the end of the battle. When sortied with 1 or more other Dragon Empery ships: heals this ship for 5.0% HP at the start of the battle, increases its Speed by 5, and increases your fleet's AA by $1 for 50s.",
+		id = 14100,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"6.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"6.0%",
+					"+1.2%"
+				},
+				{
+					"7.2%",
+					"+1.2%"
+				},
+				{
+					"8.4%",
+					"+1.6%"
+				},
+				{
+					"10.0%",
+					"+1.2%"
+				},
+				{
+					"11.2%",
+					"+1.2%"
+				},
+				{
+					"12.4%",
+					"+1.6%"
+				},
+				{
+					"14.0%",
+					"+1.8%"
+				},
+				{
+					"15.8%",
+					"+1.8%"
+				},
+				{
+					"17.6%",
+					"+2.4%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[14110] = {
+		desc_get = "",
+		name = "Heroes of Malta",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's DMG dealt to DDs and CLs by $1. When this ship sinks an enemy: increases this ship's EVA and AA by $2 until the end of the battle (can be stacked up to 3 times.)",
+		id = 14110,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"0.5%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"0.5%",
+					"+0.5%"
+				},
+				{
+					"1.0%",
+					"+0.5%"
+				},
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[14120] = {
+		desc_get = "",
+		name = "Pepperpot",
+		type = 2,
+		max_level = 10,
+		desc = "Once per battle, when this ship's HP falls below 30.0%: decreases its DMG taken by 50.0% for 5s, then restores $1 of its max HP.",
+		id = 14120,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[14130] = {
+		desc_get = "",
+		name = "Mysterious Huntress",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this boat's DMG dealt to CLs by $1. When this boat resurfaces: fires a special $2 torpedo barrage (DMG is based on the skill's level).",
+		id = 14130,
+		system_transform = {
+			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells 194/160+",
@@ -51187,6 +51778,34 @@ pg.skill_data_template = {
 		max_level = 1,
 		desc = "Activates All Out Assault Ⅱ once every 12 times the Main Guns are fired.",
 		id = 24122,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[24131] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Chao Ho Class every 18 times the Main Guns are fired.",
+		id = 24131,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[24132] = {
+		desc_get = "",
+		name = "All Out Assault II",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Chao Ho Class every 12 times the Main Guns are fired.",
+		id = 24132,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -58221,7 +58840,7 @@ pg.skill_data_template = {
 	[800050] = {
 		desc_get = "",
 		name = "Cards of Light and Dark",
-		type = 2,
+		type = 3,
 		max_level = 10,
 		desc = "Increases this ship's AVI by $2. Every 20s: launches a randomly chosen airstrike (DMG is based on the skill's level and the airstrike pattern.)",
 		id = 800050,
@@ -58318,7 +58937,7 @@ pg.skill_data_template = {
 	[800060] = {
 		desc_get = "",
 		name = "The Cherry Petal Memento",
-		type = 3,
+		type = 2,
 		max_level = 10,
 		desc = "When this ship equips a Sakura Empire aircraft: launches a special $1 airstrike every 15s (DMG is based on the skill's level); if not equipping one, instead receives the following buff: the first $2 times this ship is hit, the hits inflict $3 less DMG. After being hit $2 times: this ship takes $4 less DMG and gains $5 EVA until the end of the battle.",
 		id = 800060,
@@ -59258,6 +59877,13 @@ pg.skill_data_template = {
 		14040,
 		14050,
 		14060,
+		14070,
+		14080,
+		14090,
+		14100,
+		14110,
+		14120,
+		14130,
 		18010,
 		18040,
 		18050,
@@ -59477,6 +60103,8 @@ pg.skill_data_template = {
 		24112,
 		24121,
 		24122,
+		24131,
+		24132,
 		25011,
 		25012,
 		25021,

@@ -5,6 +5,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.userShips = {}
 	slot0.commanders = {}
 	slot0.invaildShips = {}
+	slot0.invaildCommanders = {}
 
 	if slot1.ships then
 		slot0:Flush(slot1)
@@ -37,6 +38,8 @@ function slot0.Flush(slot0, slot1)
 	for slot7, slot8 in pairs(slot1.commanders) do
 		if getProxy(CommanderProxy):getData()[slot8.id] and slot8.pos then
 			-- Nothing
+		else
+			table.insert(slot0.invaildCommanders, slot8.id)
 		end
 	end
 
@@ -166,16 +169,23 @@ function slot0.RemoveUserShip(slot0, slot1, slot2)
 		if slot7.uid == slot1 and slot7.id == slot2 then
 			table.remove(slot0.userShips, slot6)
 
-			break
+			return slot6
 		end
 	end
 end
 
-function slot0.AddUserShip(slot0, slot1, slot2)
-	table.insert(slot0.userShips, {
-		uid = slot1,
-		id = slot2
-	})
+function slot0.AddUserShip(slot0, slot1, slot2, slot3)
+	if slot3 then
+		table.insert(slot0.userShips, slot3, {
+			uid = slot1,
+			id = slot2
+		})
+	else
+		table.insert(slot0.userShips, {
+			uid = slot1,
+			id = slot2
+		})
+	end
 end
 
 function slot0.GetOtherMemberShipCnt(slot0, slot1)
@@ -243,11 +253,33 @@ function slot0.IsLegal(slot0)
 	end
 end
 
+function slot0.ResortShips(slot0, slot1)
+	function slot2(slot0)
+		for slot5, slot6 in ipairs(uv0) do
+			if GuildAssaultFleet.GetVirtualId(slot0.uid, slot0.id) == slot6.shipId then
+				return slot5
+			end
+		end
+
+		return 0
+	end
+
+	table.sort(slot0.userShips, function (slot0, slot1)
+		return uv0(slot0) < uv0(slot1)
+	end)
+end
+
 function slot0.UpdateCommander(slot0, slot1)
 	slot0.commanders = slot1
 	slot0.skills = {}
 
 	slot0:updateCommanderSkills()
+end
+
+function slot0.ClearCommanders(slot0)
+	for slot4, slot5 in pairs(slot0.commanders) do
+		slot0:RemoveCommander(slot4)
+	end
 end
 
 function slot0.getCommanders(slot0)
@@ -390,6 +422,10 @@ function slot0.ExistCommander(slot0, slot1)
 end
 
 function slot0.ExistInvaildCommanders(slot0)
+	if #slot0.invaildCommanders > 0 then
+		return true
+	end
+
 	for slot6, slot7 in pairs(slot0:getCommanders()) do
 		if not getProxy(CommanderProxy):getCommanderById(slot7.id) then
 			return true
@@ -405,6 +441,51 @@ function slot0.RemoveInvaildCommanders(slot0)
 			slot0:RemoveCommander(slot6)
 		end
 	end
+
+	slot0.invaildCommanders = {}
+end
+
+function slot0.getCommandersAddition(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(CommanderConst.PROPERTIES) do
+		for slot11, slot12 in pairs(slot0:getCommanders()) do
+			slot7 = 0 + slot12:getAbilitysAddition()[slot6]
+		end
+
+		if slot7 > 0 then
+			table.insert(slot1, {
+				attrName = slot6,
+				value = slot7
+			})
+		end
+	end
+
+	return slot1
+end
+
+function slot0.getCommandersTalentDesc(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0:getCommanders()) do
+		for slot11, slot12 in pairs(slot6:getTalentsDesc()) do
+			if slot1[slot11] then
+				slot1[slot11].value = slot1[slot11].value + slot12.value
+			else
+				slot1[slot11] = {
+					name = slot11,
+					value = slot12.value,
+					type = slot12.type
+				}
+			end
+		end
+	end
+
+	return slot1
+end
+
+function slot0.ExistAnyCommander(slot0)
+	return table.getCount(slot0:getCommanders()) ~= 0
 end
 
 return slot0

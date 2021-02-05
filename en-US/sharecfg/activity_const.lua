@@ -749,5 +749,8 @@ pg.activity_const = {
 	},
 	NEWYEAR_SNOWBALL_FIGHT = {
 		act_id = 829
+	},
+	SPRING_FES_MINIGAME_SECOND = {
+		act_id = 864
 	}
 }

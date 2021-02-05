@@ -10,7 +10,7 @@ return {
 			actor = 207020,
 			side = 0,
 			say = "According to the scouting report, there are four battleships, one light carrier, and six destroyers stationed at port, but none of them seem to be operational.",
-			dir = 2,
+			dir = 1,
 			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 		{
 			actor = 207020,
 			side = 0,
-			dir = 2,
+			dir = 1,
 			say = "However, it appears that the Siren forces are blockading them. If we are to enter the port, we have to break through their lines first.",
 			typewriter = {
 				speed = 0.05,

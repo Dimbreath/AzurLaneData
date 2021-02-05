@@ -21,6 +21,11 @@ function slot0.OnLoaded(slot0)
 	slot0.nameTxt = slot0:findTF("title/Text"):GetComponent(typeof(Text))
 	slot0.descPanel = slot0:findTF("missionlist/path/desc_panel")
 	slot0.descPanelTag = slot0.descPanel:Find("Image"):GetComponent(typeof(Image))
+
+	setText(slot0:findTF("title/timer/label"), i18n("guild_time_remaining_tip"))
+
+	slot0.endEventTimerTxt = slot0:findTF("title/timer/Text"):GetComponent(typeof(Text))
+	slot0.timeView = GuildEventTimerView.New()
 end
 
 function slot0.OnInit(slot0)
@@ -71,6 +76,7 @@ function slot0.SwitchPage(slot0)
 		slot0:CheckBossNode()
 		slot0:RefreshLatelyNode()
 		slot0:AddRefreshTime()
+		slot0.timeView:Flush(slot0.endEventTimerTxt, slot1)
 	end
 
 	setActive(slot0.eventList.container, slot2)
@@ -91,6 +97,7 @@ function slot0.UpdateReportBtn(slot0)
 end
 
 function slot0.InitEvents(slot0)
+	slot0.bg.sprite = GetSpriteFromAtlas("commonbg/guild_event_bg", "")
 	slot0.displays = {}
 	slot1 = {}
 
@@ -136,8 +143,18 @@ function slot0.UpdateEvent(slot0, slot1, slot2)
 	end
 
 	setActive(slot5, slot2)
-	setActive(slot1:Find("consume"), slot2)
-	setActive(slot1:Find("state"), slot3 and slot2 and slot3.id == slot2.id)
+
+	slot6 = slot3 and slot2 and slot3.id == slot2.id
+
+	setActive(slot1:Find("state"), slot6)
+	setActive(slot1:Find("consume"), not slot6)
+	setActive(slot1:Find("timer"), slot6)
+
+	if slot6 then
+		slot0.timeView:Flush(slot1:Find("timer/Text"):GetComponent(typeof(Text)), slot3)
+	end
+
+	setText(slot1:Find("timer/label"), slot6 and i18n("guild_time_remaining_tip") or "")
 
 	if not slot2 then
 		removeOnButton(slot1)
@@ -152,7 +169,7 @@ function slot0.UpdateEvent(slot0, slot1, slot2)
 		slot1:Find("mask"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("guildevent/" .. "0_0", "")
 	end
 
-	setActive(slot1:Find("mask"), not slot6)
+	setActive(slot1:Find("mask"), not slot7)
 	onButton(slot0, slot1, function ()
 		if not uv0 then
 			return
@@ -474,6 +491,8 @@ function slot0.OnDestroy(slot0)
 
 		slot0.timer = nil
 	end
+
+	slot0.timeView:Dispose()
 end
 
 return slot0

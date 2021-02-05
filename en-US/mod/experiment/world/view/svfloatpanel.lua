@@ -101,7 +101,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 
 	slot0.rtMaskMarking = slot0.rtSelectMask:Find("marking")
-	slot0.rtToggles = slot0.rtSelectMask:Find("toggles")
+	slot0.rtToggles = slot0.rtMaskMarking:Find("toggles")
 	slot0.toggleItemList = UIItemList.New(slot0.rtToggles, slot0.rtToggles:Find("toggle"))
 
 	slot0.toggleItemList:make(function (slot0, slot1, slot2)
@@ -226,10 +226,10 @@ function slot0.ShowToggleMask(slot0)
 	setActive(slot0.rtMarking, false)
 	setActive(slot0.rtSelectMask, true)
 	setActive(slot0.rtToggles, false)
-	setAnchoredPosition(slot0.rtMaskMarking, {
-		y = 87
-	})
-	LeanTween.moveY(slot0.rtMaskMarking, 230, 0.2):setOnComplete(System.Action(function ()
+
+	slot0.rtMaskMarking.position = slot0.rtMarking.position
+
+	LeanTween.moveY(slot0.rtMaskMarking, slot0.rtMaskMarking.anchoredPosition.y + 150, 0.2):setOnComplete(System.Action(function ()
 		setActive(uv0.rtToggles, true)
 
 		uv0.isTweening = false
@@ -241,10 +241,13 @@ function slot0.HideToggleMask(slot0)
 	slot0.isTweening = true
 
 	setActive(slot0.rtToggles, false)
+
+	slot0.rtMaskMarking.position = slot0.rtMarking.position
+
 	setAnchoredPosition(slot0.rtMaskMarking, {
-		y = 230
+		y = slot0.rtMaskMarking.anchoredPosition.y + 150
 	})
-	LeanTween.moveY(slot0.rtMaskMarking, 87, 0.2):setOnComplete(System.Action(function ()
+	LeanTween.moveY(slot0.rtMaskMarking, slot0.rtMaskMarking.anchoredPosition.y - 150, 0.2):setOnComplete(System.Action(function ()
 		setActive(uv0.rtSelectMask, false)
 		setActive(uv0.rtMarking, true)
 

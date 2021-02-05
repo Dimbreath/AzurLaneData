@@ -537,6 +537,204 @@ pg.pay_data_display = {
 		},
 		ignorePlatform = {}
 	},
+	[27] = {
+		limit_arg = 1,
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		name = "Lunar New Year Lucky Bag (2021)",
+		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
+		subject = "Lunar New Year Lucky Bag (2021)",
+		extra_service = 3,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai4",
+		id_str = "com.yostaren.azurlane.diamond143",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 27,
+		airijp_id = "com.yostaren.azurlane.diamond143",
+		extra_service_item = {
+			{
+				2,
+				69913,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					2,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					2,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69913,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		ignorePlatform = {}
+	},
+	[28] = {
+		limit_arg = 1,
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		name = "Lunar New Year Lucky Bag (2020)",
+		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
+		subject = "Lunar New Year Lucky Bag (2020)",
+		extra_service = 3,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai2",
+		id_str = "com.yostaren.azurlane.diamond128",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 28,
+		airijp_id = "com.yostaren.azurlane.diamond128",
+		extra_service_item = {
+			{
+				2,
+				69909,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					2,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					2,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69909,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			}
+		},
+		ignorePlatform = {}
+	},
 	[100] = {
 		limit_arg = 1,
 		descrip_extra = "*Nep's Lucky Bag will appear in your mailbox. \n* If you draw an already owned ship skin, you will be refunded 80% of the gem cost.",
@@ -3503,6 +3701,8 @@ pg.pay_data_display = {
 		24,
 		25,
 		26,
+		27,
+		28,
 		100,
 		101,
 		102,

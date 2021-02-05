@@ -263,8 +263,8 @@ function slot0.GetWordAndCV(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	if type(slot5) ~= "table" then
-		if slot5 and (slot3 == nil and PLATFORM_CODE ~= PLATFORM_US or slot3 == true) then
-			slot5 = slot5:gsub("%s", " ")
+		if slot5 and slot3 then
+			slot5 = SwitchSpecialChar(slot5, true)
 		end
 
 		slot5 = slot5 and HXSet.hxLan(slot5)

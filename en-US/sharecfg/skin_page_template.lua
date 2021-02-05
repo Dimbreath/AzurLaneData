@@ -16,7 +16,7 @@ pg.skin_page_template = {
 		id = 3,
 		name = "春之旗袍",
 		res = "chunzhiqipao",
-		english_name = "QI PAO"
+		english_name = "Spring Festival "
 	},
 	{
 		id = 4,

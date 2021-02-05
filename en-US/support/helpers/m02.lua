@@ -2233,6 +2233,10 @@ function getSpecialItemPage(slot0)
 		{
 			mediator = AssignedShipMediator,
 			viewComponent = AssignedShipScene5
+		},
+		{
+			mediator = AssignedShipMediator,
+			viewComponent = AssignedShipScene6
 		}
 	})[slot0]
 end
@@ -2928,4 +2932,16 @@ function CameraFittingSettin(slot0)
 		slot4 = slot3 / slot2
 		GetComponent(slot0, typeof(Camera)).rect = uv0.Rect.New(0, (1 - slot4) / 2, 1, slot4)
 	end
+end
+
+function SwitchSpecialChar(slot0, slot1)
+	if PLATFORM_CODE ~= PLATFORM_US then
+		slot0 = slot0:gsub(" ", " "):gsub("\t", "    ")
+	end
+
+	if not slot1 then
+		slot0 = slot0:gsub("\n", " ")
+	end
+
+	return slot0
 end

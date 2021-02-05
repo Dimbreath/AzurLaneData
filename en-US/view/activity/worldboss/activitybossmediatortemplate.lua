@@ -19,6 +19,7 @@ slot1 = {
 }
 
 function slot0.register(slot0)
+	slot0.contextData.mediatorClass = slot0.class
 	slot0.activityProxy = getProxy(ActivityProxy)
 	slot0.timeMgr = pg.TimeMgr.GetInstance()
 
@@ -63,6 +64,8 @@ function slot0.register(slot0)
 			slot0:UpdateRankData(slot9:getRankList(slot10, slot11))
 		end
 	end
+
+	slot0.viewComponent:setCommanderPrefabs(getProxy(CommanderProxy):getPrefabFleet())
 end
 
 function slot0.BindEvent(slot0)
@@ -458,10 +461,11 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.ACT_NEW_PT_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 	elseif slot2 == GAME.COMMANDER_ACTIVITY_FORMATION_OP_DONE then
-		slot0.contextData.actFleets = actFleets
+		slot4 = getProxy(FleetProxy):getActivityFleets()[slot3.actId]
+		slot0.contextData.actFleets = slot4
 
 		slot0.viewComponent:updateEditPanel()
-		slot0.viewComponent:updateCommanderFleet(getProxy(FleetProxy):getActivityFleets()[slot3.actId][slot3.fleetId])
+		slot0.viewComponent:updateCommanderFleet(slot4[slot3.fleetId])
 	end
 end
 

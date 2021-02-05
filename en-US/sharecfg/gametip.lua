@@ -2022,26 +2022,28 @@ Current expansions: <color=#92fc63>$3</color>
 	coloring_help_tip = {
 		tip = {
 			{
-				info = "Game Rules:\n"
+				info = "- How to Play:"
 			},
 			{
 				info = [[
-1. Each cell of the Coloring Book is marked with a number that corresponds to the paint color of the same number. Select the paint color from the palette on the right and click on the cell to color it. 
-2. The drawing area can be zoomed in and out by stretching or pinching with two fingers. 
-3. All adjacent cells with the same number will be automatically colored until the cells are filled in or there is no paint of that color left. 
-4. Coloring each cell will consume paint. If no paint is left, no more cells may be colored. 
-5. Paint can be obtained by completing event missions to consume a total amount of oil. 
-6. Completing pages in the Coloring Book will grant rewards. 
-7. The rewards for completing each page are as follows: 
-	 Complete Page 1: Random T2 Skill Book x2, Coins x300
-	 Complete Page 2: T2 Mystery Retrofit Blueprint x2, Oil x100
-	 Complete Page 3: T2 Mystery Gear Part x3, Coins x300
-	 Complete Page 4: T3 Offensive Skill Book x2, Oil x100
-	 Complete Page 5: T3 Defensive Skill Book, Coins x300
-	 Complete Page 6: T3 General Part, Oil x100
-	 Complete Page 7: Queen Elizabeth's Outfit - "Queen of the Campus"
-8. After the event ends, all unused paint will be removed. 
-9. A new page will be unlocked every day until November 18th.]]
+To fill in an uncolored square, first select the color of paint with the corresponding number, then simply tap the square.
+You can zoom in on the drawing area by putting 2 fingers on your screen and pinching them together. Do the same in reverse to zoom
+If you run out of paint, you can get more by completing Oil Spent milestone missions during the event. out.
+Every square costs 1 paint to fill in. Adjacent squares of the same color will automatically be filled in until there are no more adjacent squares of the same color, or until you run out of the specified paint.]]
+			},
+			{
+				info = [[
+Every time you fully color in a page, you'll receive a reward. The rewards for completing each page are as follows: 
+Page 1: 2 random T3 Skill Books
+Page 2: 1 Red Envelope
+Page 3: 2 T3 Main Gun Parts
+Page 4: 1 Red Envelope
+Page 5: 3 T3 General Parts
+Page 6: 1 Red Envelope
+Page 7: An Shan-class destroyer – An Shan]]
+			},
+			{
+				info = "After the event concludes, any unspent paint will be removed from your inventory.\nOne new page will be unlocked every day up to February 10th."
 			}
 		}
 	},
@@ -2994,7 +2996,7 @@ Morale drain and Affection gain are also increased by 100%. ]]
 				info = "About Orders:"
 			},
 			{
-				info = "During Operation Siren, you can issue orders to aid you in the operation. Issuing orders costs Action Points./n/n"
+				info = "During Operation Siren, you can issue orders to aid you in the operation. Issuing orders costs Action Points.\n\n"
 			},
 			{
 				info = "1. Order: Fleet Redeployment"
@@ -3003,19 +3005,19 @@ Morale drain and Affection gain are also increased by 100%. ]]
 				info = "If there is a friendly port in the zone you are in, you can use Action Points to dock at it and change your active fleet composition."
 			},
 			{
-				info = "Redeploying your fleet will repair your ships to full HP and fully restore their Resolve (Operation Siren-only Morale, in essence) in addition to clearing any debuffs they may have./n/n"
+				info = "Redeploying your fleet will repair your ships to full HP and fully restore their Resolve (Operation Siren-only Morale, in essence) in addition to clearing any debuffs they may have.\n\n"
 			},
 			{
 				info = "2. Order: Regroup and Rest"
 			},
 			{
-				info = "Issuing this order will repair your ships to full HP and fully restore their Resolve in addition to clearing the Tolls of War debuff./n/n"
+				info = "Issuing this order will repair your ships to full HP and fully restore their Resolve in addition to clearing the Tolls of War debuff.\n\n"
 			},
 			{
 				info = "3. Order: Reconnaissance"
 			},
 			{
-				info = "This will commence reconnaissance over a zone and give you a more detailed overview of it./n/n"
+				info = "This will commence reconnaissance over a zone and give you a more detailed overview of it.\n\n"
 			},
 			{
 				info = "4. Order: Submarine Support"
@@ -3065,7 +3067,7 @@ Morale drain and Affection gain are also increased by 100%. ]]
 		tip = "If you move to another zone, your submarine fleet will be put on standby. Are you sure you want to leave this zone?"
 	},
 	world_instruction_submarine_7 = {
-		tip = "The submarine fleet deployed in this zone has run out of ammunition.\nWould you like to consume $1 AP to resupply the submarine fleet and refresh its status?\n(Current AP: $2; The shorter the time since the last use of this command, the greater the AP cost will be.) "
+		tip = "Your submarine fleet has ran out of ammunition. Would you like to spend $1 AP to replenish the submarine fleet's HP and ammo? (Current AP: $2; The less time has passed since this command was last used, the more AP this command will cost.)"
 	},
 	world_instruction_detect_1 = {
 		tip = "Spend $1 AP to request reconnaissance? \n(Current AP: $2; The shorter the time since this command was last used, the greater the AP cost will be.)"
@@ -3429,7 +3431,7 @@ Are you sure you want to cancel the item retrieval?
 		tip = "You're out of daily refreshes!"
 	},
 	buy_countLimit = {
-		tip = "You're out of daily purchases!"
+		tip = "Item is currently sold out "
 	},
 	buy_item_quest = {
 		tip = "Are you sure you want to buy this item?"
@@ -3942,7 +3944,7 @@ Are you sure you want to cancel the item retrieval?
 		tip = "There aren't any current announcements!"
 	},
 	energy_desc_1 = {
-		tip = "Your girl needs rest!\n<color=#FF552E>(Continuing to attack will lower Mood)</color>"
+		tip = "Your girl needs rest!\n<color=#FF552E>(Continuing to attack will lower Affinity)</color>"
 	},
 	energy_desc_2 = {
 		tip = "Feeling pretty unhappy...\nHow about resting for a while?"
@@ -5216,10 +5218,10 @@ Attack/Support Range Level:
 				line = true,
 				icon = {
 					posX = 30,
-					atlas = "helpbg/nooil",
+					atlas = "helpbg\nooil",
 					posY = -41,
 					scale = 1,
-					path = "helpbg/nooil"
+					path = "helpbg\nooil"
 				}
 			},
 			disableScroll = true,
@@ -6595,7 +6597,7 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		tip = "The rewards from this phase have not been fully acquired yet, cannot enter next phase"
 	},
 	shop_street_activity_tip = {
-		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>1.21-2.3</COLOR>)!"
+		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>2.4-2.18</COLOR>)!"
 	},
 	twitter_link_title = {
 		tip = "Twitter Account:$1"
@@ -7603,7 +7605,7 @@ Combat Details:
 		tip = "Mikasa and Hiei are added to standard build pool!"
 	},
 	buildship_light_tip = {
-		tip = "Hamakaze is added to standard build pool! "
+		tip = "Dido, Gloucester, Biloxi, and Mullany added to standard build pool!"
 	},
 	buildship_special_tip = {
 		tip = "Glorious is added to standard build pool! "
@@ -8996,15 +8998,23 @@ Event Information:
 
 1. This event and the rewards you can receive from it are split into 2 categories depending on your last login status: 
  a. Active Commander 
- b. Returning/New Commander
+ b. Returning
+ew Commander
 2. Players who meet the following criterion are categorized as Active Commanders and are eligible for Active Commander objectives and rewards: 
 - Logged in at least once at any point between July 30th, 2020  and before the maintenance on August 13, 2020.
-3. Players who do not meet this criterion are categorized as Returning/New Commanders and are eligible for their own set of objectives and rewards.
-4. If you are unsure whether you are an Active Commander or a Returning/New Commander, please view the information in the Returnee Missions banner. 
+3. Players who do not meet this criterion are categorized as Returning
+ew Commanders and are eligible for their own set of objectives and rewards.
+4. If you are unsure whether you are an Active Commander or a Returning
+ew Commander, please view the information in the Returnee Missions banner. 
 5. An Active Commander's objective is to receive Returnee Points from up to 2 other players who participate in and complete Returnee Missions. Once an Active Commander has collected enough points, they can claim various nice rewards from the event banner.
-6. Returning/New Commanders can participate in Returnee Missions by entering the UID of an Active Commander into the event banner on their end. You can see the UIDs of your linked Returning/New Commanders on the right side of the event banner. 
-7. Active Commanders can tap the "Send Mobilization Request" button to show their UID to Returning/New Commanders who are looking for Active Commander UIDs.
-8. A Returning/New Commander's objective is to enter an Active Commander's UID in the event banner to gain access to Returnee Missions. Returning/New Commanders who participate in Returnee Missions gain access to daily tasks which give various nice rewards when completed.
+6. Returning
+ew Commanders can participate in Returnee Missions by entering the UID of an Active Commander into the event banner on their end. You can see the UIDs of your linked Returning
+ew Commanders on the right side of the event banner. 
+7. Active Commanders can tap the "Send Mobilization Request" button to show their UID to Returning
+ew Commanders who are looking for Active Commander UIDs.
+8. A Returning
+ew Commander's objective is to enter an Active Commander's UID in the event banner to gain access to Returnee Missions. Returning
+ew Commanders who participate in Returnee Missions gain access to daily tasks which give various nice rewards when completed.
 9. A single UID can be entered up to 2 times. You can still enter the UID of another player even if they play on a different server than you.]]
 			}
 		}
@@ -9083,10 +9093,10 @@ Event Information:
 		tip = "Automatic UID Search enabled. "
 	},
 	returner_max_count = {
-		tip = "The Returning/New Commander list is full."
+		tip = "The Returning\new Commander list is full."
 	},
 	returner_push_tip = {
-		tip = "Enabling Automatic UID Search will input your UID in the fields of Returning/New Commanders looking for Active Commander UIDs. Would you like to continue?"
+		tip = "Enabling Automatic UID Search will input your UID in the fields of Returning\new Commanders looking for Active Commander UIDs. Would you like to continue?"
 	},
 	returner_match_tip = {
 		tip = "A <color=#FF5C5C>random Active Commander's</color> UID will be input and you will become eligible for Returnee Missions. Would you like to continue?"
@@ -10386,8 +10396,8 @@ Please note that you can only receive Stamps through the Manjuu Tower minigame. 
 				info = [[
 - Manjuu Resort Info:
 1. You can visit the Manjuu Resort to open the Red Envelopes you've collected through playing minigames.
-2. Red Envelopes can be acquired from Fu Shun's Great Adventure, Empery Monopoly, the Drawing Book, and the Manjuu Tower.
-3. Special Red Envelopes from your inventory will be prioritized for opening. The rewards you receive when opening one, including the amount of Gems, are randomly determined.
+2. Red Envelopes can be acquired from Fu Shun's Great Adventure II, Drawing Book, and Ying Swei's Spring Travels.
+3. There are 2 types of Red Envelopes: 15 Special Red Envelopes, and the rest are regular Red Envelopes.
 4. You can keep up to 15 Special Red Envelopes in your inventory at a time.]]
 			}
 		}
@@ -10978,7 +10988,7 @@ By tapping the “Quick Retire” button to the bottom left of the Retire interf
 				info = "- About Gear R&D:"
 			},
 			{
-				info = "Gear R&D allows you to develop new equipment for your fleet by modifying existing equipment into another through the use of special materials and items./n/n"
+				info = "Gear R&D allows you to develop new equipment for your fleet by modifying existing equipment into another through the use of special materials and items.\n\n"
 			},
 			{
 				info = "- Gear R&D Summary:"
@@ -11319,6 +11329,21 @@ any Credits, or give any rewards.]]
 			}
 		}
 	},
+	help_monopoly_3th = {
+		tip = {
+			{
+				info = [[
+Event Duration: 2/4/2021 - 2/19/2021
+Instructions:
+1. Tap the button on the bottom-right side of the screen to Explore once.
+2. Every 5 times you Explore, you will earn a Red Envelope as a special bonus.
+(Red Envelopes can be opened in the Manjuu Tower.)
+3. Every day during the event, you will be able to Explore 5 times, and this amount can stack.
+4. After Exploring 35 times (7 days' worth), you will get light cruiser Ying Swei's limited outfit, "Snowy Pine's Warmth."
+5. Random events may occur during this minigame.]]
+			}
+		}
+	},
 	backYard_missing_furnitrue_tip = {
 		tip = "Missing these items "
 	},
@@ -11476,7 +11501,7 @@ any Credits, or give any rewards.]]
 		tip = "PR3 Focus"
 	},
 	tec_tendency_cur_0 = {
-		tip = "Research Focus /No Focus "
+		tip = "Research Focus \no Focus "
 	},
 	tec_tendency_cur_1 = {
 		tip = "Research Focus / Series 1"
@@ -12303,17 +12328,23 @@ Note: the Guild can only change which facility it upgrades once every 24 hours. 
 	guild_donate_list_update_failed = {
 		tip = "Unable to refresh available contribution attempts."
 	},
-	multiple_ship_energy_low_desc = {
-		tip = "Exhausted\nAffinity will be reduced if you attack"
-	},
-	multiple_ship_energy_low_warn = {
-		tip = "Exhausted\nAffinity will be reduced if you attack"
-	},
 	guild_tip_quit_operation = {
 		tip = "Leaving your current Guild will not restore the number of monthly Guild Operation participations you have. Are you sure you want to leave your Guild?"
 	},
 	guild_tip_grand_fleet_is_frozen = {
 		tip = "This Guild has been frozen and cannot be joined."
+	},
+	guild_tip_operation_time_is_not_ample = {
+		tip = "Due to the short remaining time on this Guild Operation (fewer than 7 days), you may be unable to fully complete this operation depending on progress. Are you sure you wish to expend one of your monthly attempts and participate in this Guild Operation?"
+	},
+	guild_time_remaining_tip = {
+		tip = "Time Remaining: "
+	},
+	multiple_ship_energy_low_desc = {
+		tip = "Exhausted\nAffinity will be reduced if you attack"
+	},
+	multiple_ship_energy_low_warn = {
+		tip = "Exhausted\nAffinity will be reduced if you attack"
 	},
 	us_error_download_painting = {
 		tip = "As data has been detected as missing, the game will now close to clear the cache. The neccessary files will be downloaded once the game is open again. "
@@ -12866,11 +12897,94 @@ next character that appears on-screen.
 	autofight_farm = {
 		tip = "Clearing Mode"
 	},
+	fushun_adventure_help = {
+		tip = {
+			{
+				info = "- Minigame Rules:"
+			},
+			{
+				info = [[
+1. In the minigame, "Fu Shun's Great Adventures II,"you play as Fu Shun in order to defeat Nianjuus.One stage will unlock every day from 2/4 - 2/10.
+You will get a Red Envelope for clearing each of the first six stages.
+Clear all the stages to get the destroyer, Fu Shun.
+
+In addition, you can open Red Envelopes you've earned at the Manjuu Resort.
+]]
+			},
+			{
+				info = "- How to Play:"
+			},
+			{
+				info = [[
+1. Nianjuus will move side-to-side across the screen.
+When it enters the "Attackable Area," you can attack it by tapping the A and B buttons on the left and right-hand sides of the screen.
+2. The number of attacks required to defeat each Nianjuu depends on its size. The score you receive for defeating each Nianjuu also varies.
+Small Nianjuu : 10 pts
+Medium Nianjuu: 20 pts
+Large Nianjuu: 30 pts
+3. When you defeat a Nianjuu, the energy gauge at the bottom of the screen will charge up.
+ When the energy gauge is full, you can gain a lot of points by rapidly tapping the A and B buttons in succession.
+4. When a Nianjuu gets too close to Fu Shun, the HP at the top of the screen will decrease. The game will end when your HP reaches 0, or when you press the "End Game" button.]]
+			}
+		}
+	},
 	autofight_change_tip = {
 		tip = "The status of this fleet has automatically been set to <color=#92fc63>All Enemies</color>."
 	},
 	autofight_selectprops_tip = {
 		tip = "Add Item"
+	},
+	help_chunjie2021_feast = {
+		tip = {
+			{
+				info = "Event Duration: 2/4/2021 - 2/19/2021\nSpring Festival Event Contents:"
+			},
+			{
+				info = "- Fu Shun's Great Adventure II: Defeat Nian beasts\nto get the destroyer, Fu Shun!"
+			},
+			{
+				info = "- Ying Swei's Spring Travels: Log in every day,\nexplore, and get Red Envelopes as well as Ying Swei's limited outfit!"
+			},
+			{
+				info = "- Drawing Book: Complete the drawings to get the destroyer, An Shan!"
+			},
+			{
+				info = "- Manjuu Resort: Open up the Red Envelopes you've won from various minigames here."
+			},
+			{
+				info = "- Outfit Store: Head to check out the new Lunar New Year-themed outfits."
+			},
+			{
+				info = "- Limited Construction: Head to the Build page."
+			}
+		}
+	},
+	valentinesday__txt1_tip = {
+		tip = "If you want to enjoy delicious chocolate, you'll have to gather the ingredients first."
+	},
+	valentinesday__txt2_tip = {
+		tip = "Do you need me to feed you the chocolate? Ehehe~"
+	},
+	valentinesday__txt3_tip = {
+		tip = "There seems to... not be enough cocoa powder... Zzzzz"
+	},
+	valentinesday__txt4_tip = {
+		tip = "The chocolate is ready. Don't forget to pick up your reward."
+	},
+	valentinesday__txt5_tip = {
+		tip = "You should collect some chocolate ingredients first."
+	},
+	valentinesday__txt6_tip = {
+		tip = "The chocolate has been completed. Please enjoy it, Master."
+	},
+	valentinesday__shop_tip = {
+		tip = "Would you like to go to the Outfit Store?"
+	},
+	cumulative_victory_target_tip = {
+		tip = "Total Victories:"
+	},
+	cumulative_victory_now_tip = {
+		tip = "Current Victories:"
 	},
 	index_equip = {
 		tip = "Equipped "
@@ -13296,6 +13410,9 @@ next character that appears on-screen.
 	world_reset_3 = {
 		tip = "Re-enter Operation Siren to reset "
 	},
+	world_boss_unactivated = {
+		tip = "Operation Siren has reset. Please reorganize your fleet to continue."
+	},
 	world_reset_tip = {
 		tip = {
 			{
@@ -13347,5 +13464,8 @@ Your Action Points will also reset, starting you off with <color=#92fc63>200 AP.
 ]]
 			}
 		}
+	},
+	spring_invited_2021 = {
+		tip = "This invitation can only be used once.\nWould you like to invite <color=#92fc63>$1</color>?\n(You will obtain this ship and her commemorative item.)"
 	}
 }

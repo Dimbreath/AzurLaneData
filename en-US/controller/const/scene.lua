@@ -63,9 +63,10 @@ SCENE = {
 	IDOL_MEDAL_COLLECTION_SCENE = "idol medal collection scene",
 	COMMANDROOM = "scene command room",
 	BACKYARD = "scene back yard",
+	REDPACKEY = "scene RED PACKEY",
 	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
-	ATTIRE = "scene attire",
 	BIANDUI = "scene biandui",
+	ATTIRE = "scene attire",
 	NEWYEAR_BACKHILL = "scene NEWYEAR BACKHILL",
 	WORLD_FLEET_SELECT = "world fleet select",
 	COLORING = "scene coloring",
@@ -260,7 +261,7 @@ function SCENE.SetSceneInfo(slot0, slot1)
 		slot0.viewComponent = TrainingCampScene
 	elseif slot1 == SCENE.ACT_BOSS_BATTLE then
 		slot0.mediator = ActivityBossMediatorTemplate
-		slot0.viewComponent = contextData.viewClass
+		slot0.viewComponent = ActivityBossAisaikesiScene
 	elseif slot1 == SCENE.BULLETINBOARD then
 		slot0.mediator = BulletinBoardMediator
 		slot0.viewComponent = BulletinBoardLayer
@@ -291,7 +292,7 @@ function SCENE.SetSceneInfo(slot0, slot1)
 		slot0.viewComponent = NewYearFestivalScene
 	elseif slot1 == SCENE.SPRING_TOWN then
 		slot0.mediator = NewYearFestivalMediator
-		slot0.viewComponent = SpringFestivalTownScene
+		slot0.viewComponent = SpringFestivalTownScene2
 	elseif slot1 == SCENE.ACT_BOSS_SPF then
 		slot0.mediator = ActivityBossMediatorTemplate
 		slot0.viewComponent = ActivityBossSPFScene
@@ -346,6 +347,9 @@ function SCENE.SetSceneInfo(slot0, slot1)
 	elseif slot1 == SCENE.NEWYEAR_BACKHILL then
 		slot0.mediator = NewYearFestivalMediator
 		slot0.viewComponent = NewYearFestivalScene2
+	elseif slot1 == SCENE.REDPACKEY then
+		slot0.mediator = RedPacketMediator
+		slot0.viewComponent = RedPacketLayer
 	end
 
 	slot0.scene = slot1

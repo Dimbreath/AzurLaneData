@@ -3432,6 +3432,189 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[202290] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		home = "",
+		mission = "",
+		id = 202290,
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Commander, are you going on a sortie? ...Mm, I'll always be waiting for you."
+			}
+		},
+		main = {
+			{
+				1100,
+				"Paperwork, paperwork... Mm, as you suggested, I put somewhere prominent, so I'll find it soon enough.|nil|Mm, I'm getting along well with U-410. Commander, you should try to befriend her as well... Oh, you already have? I'm glad to hear that."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Galatea said that today's lucky colour is blue. ...Don't worry about it? Okay, I won't then. I believe you."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I will do anything you tell me to. It can be anything."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"I will do anything you tell me to. It can be anything."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Commander, if this is what you desire, then..."
+			}
+		},
+		feeling1 = {
+			{
+				1100,
+				"Commander, if this is what you desire, then..."
+			}
+		}
+	},
+	[502040] = {
+		touch = "",
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		id = 502040,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"We've got a lot of work to do today. Thanks in advance for your cooperation. ...Hehe, don't even think about slacking off~"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"I like the way you stroke my hair, ehehe~♡ ...Ah, no, I didn't say anything."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander, in your times of need, please also call upon Chao Ho, not just me.|I've brought you a most sophisticated cup of lapsang souchong tea, hehe~"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Though I no longer communicate with you through writing, I feel like we understand each other much better now. Please continue to share your feelings with me, be they amorous or anxious."
+			}
+		}
+	},
+	[502050] = {
+		touch = "",
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		id = 502050,
+		unlock = "",
+		lose = "",
+		feeling4 = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"What took you so long?! Are you trying to make me worry on purpose, you dolt..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Who's the big sister of the Chao Ho class? That's right! I'm Ying Swei's big sister~♪ I'm glad you understand now!"
+			}
+		},
+		main = {
+			{
+				1100,
+				"You're leaving this assignment to me? G-got it! I'll show you what a capable big sis I am!|.........You haven't moved a muscle for quite some time now! S-say something to me every now and then! ...O-otherwise, I'll get worried...|nil"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Mm, fish and chips~♪ Even the Royal Navy has some pretty good food~"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"We've got new missions! ...Wh-what is it? Are you not gonna do anything unless I nag like your mother?"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"That mission was a piece of cake, wouldn't you agree?"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"That mission was a piece of cake, wouldn't you agree?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"H-hey, you're not comparing me to Ying Swei, are you..."
+			}
+		},
+		feeling1 = {
+			{
+				1100,
+				"H-hey, you're not comparing me to Ying Swei, are you..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander, um, I'm not just your partner, but I'm also your big sister... or, at least I want to be! S-so, if I want to be pampered a bit... Yeah, pamper me! J-j-just a little!"
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -3489,6 +3672,9 @@ pg.ship_skin_words_extra = {
 		403090,
 		401240,
 		402050,
-		301630
+		301630,
+		202290,
+		502040,
+		502050
 	}
 }

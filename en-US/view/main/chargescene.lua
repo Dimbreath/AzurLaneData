@@ -92,6 +92,11 @@ end
 
 function slot0.didEnter(slot0)
 	PlayerPrefs.SetInt("Ever_Enter_Mall_" .. Goods.CUR_PACKET_ID, 1)
+
+	if getProxy(ActivityProxy):getActiveBannerByType(GAMEUI_BANNER_9) ~= nil then
+		LoadImageSpriteAsync("activitybanner/" .. slot3.pic, slot0:findTF("skin_shop", slot0.menu))
+	end
+
 	setActive(slot0.chat, false)
 	onButton(slot0, slot0:findTF("back_button", slot0.top), function ()
 		if uv0.prePage ~= uv1.TYPE_MENU then
@@ -101,16 +106,16 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_CANCEL)
 
-	function slot4()
+	function slot7()
 		uv0:displayShipWord()
 		uv0:emit(ChargeMediator.CLICK_MING_SHI)
 	end
 
-	onButton(slot0, slot0.painting, slot4, SFX_PANEL)
+	onButton(slot0, slot0.painting, slot7, SFX_PANEL)
 
-	for slot4 = 1, #slot0.toggleList do
-		if slot0.toggleList[slot4] ~= 1 then
-			onToggle(slot0, slot0.toggleList[slot4], function (slot0)
+	for slot7 = 1, #slot0.toggleList do
+		if slot0.toggleList[slot7] ~= 1 then
+			onToggle(slot0, slot0.toggleList[slot7], function (slot0)
 				setActive(uv0:findTF("dark", uv1), not slot0)
 
 				if slot0 then
@@ -120,7 +125,7 @@ function slot0.didEnter(slot0)
 		end
 	end
 
-	onButton(slot0, slot0:findTF("skin_shop", slot0.menu), function ()
+	onButton(slot0, slot1, function ()
 		uv0:jumpToSkinShop()
 	end, SFX_PANEL)
 	onButton(slot0, slot0:findTF("dimond_shop", slot0.menu), function ()
@@ -160,15 +165,15 @@ function slot0.didEnter(slot0)
 
 	slot0:jpUIEnter()
 
-	slot1 = MonthCardOutDateTipPanel.GetShowMonthCardTag()
+	slot4 = MonthCardOutDateTipPanel.GetShowMonthCardTag()
 
-	setActive(slot0:findTF("dimond_shop/monthcard_tag", slot0.menu), slot1)
+	setActive(slot0:findTF("dimond_shop/monthcard_tag", slot0.menu), slot4)
 
-	if slot1 then
-		slot2 = getProxy(ContextProxy):getCurrentContext()
-		slot3 = slot2.onRemoved
+	if slot4 then
+		slot5 = getProxy(ContextProxy):getCurrentContext()
+		slot6 = slot5.onRemoved
 
-		function slot2.onRemoved()
+		function slot5.onRemoved()
 			MonthCardOutDateTipPanel.SetMonthCardTagDate()
 
 			if uv0 then

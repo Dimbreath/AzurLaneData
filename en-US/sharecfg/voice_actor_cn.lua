@@ -1035,5 +1035,13 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Nishimoto Rimi",
 		code = 259
+	},
+	{
+		actor_name = "Morishima Yuuka ",
+		code = 260
+	},
+	{
+		actor_name = "Haruna Asami ",
+		code = 261
 	}
 }

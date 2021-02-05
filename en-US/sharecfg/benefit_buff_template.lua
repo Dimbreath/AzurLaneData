@@ -8,7 +8,7 @@ pg.benefit_buff_template = {
 		desc = "Dorm EXP bonus +5%",
 		benefit_effect = "5",
 		id = 1,
-		icon = "Props/haijungali",
+		icon = "Props/dumpling",
 		benefit_type = "dorm_exp"
 	},
 	{
@@ -111,7 +111,7 @@ pg.benefit_buff_template = {
 		desc = "Tactical Class lesson time is reduced. \nTime remaining: $1",
 		benefit_effect = "300",
 		id = 10,
-		icon = "Props/buff_minigame_10",
+		icon = "Props/buff_qiaozhong_10",
 		benefit_type = "skill_learncost_up"
 	},
 	{
@@ -122,7 +122,7 @@ pg.benefit_buff_template = {
 		desc = "While sortieing in a Campaign, Hard Mode, or War Archives map, your ships deal slightly more DMG. \nTime remaining: $1",
 		benefit_effect = "504",
 		id = 11,
-		icon = "Props/buff_minigame_11",
+		icon = "Props/buff_qiaozhong_11",
 		benefit_type = "battle_buff"
 	},
 	{
@@ -133,7 +133,7 @@ pg.benefit_buff_template = {
 		desc = "Increases the rate at which your secretary ship gains Affection. \nTime remaining: $1",
 		benefit_effect = "1",
 		id = 12,
-		icon = "Props/buff_minigame_12",
+		icon = "Props/buff_qiaozhong_12",
 		benefit_type = "intimacy_up_extra"
 	},
 	{

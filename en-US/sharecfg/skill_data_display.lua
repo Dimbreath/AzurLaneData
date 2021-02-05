@@ -3352,14 +3352,6 @@ pg.skill_data_display = {
 		id = 13960,
 		name = "Galvanizing Shield "
 	},
-	[14010] = {
-		id = 14010,
-		name = "I Love My Sisters!"
-	},
-	[14020] = {
-		id = 14020,
-		name = "I'll Protect the Vanguard!"
-	},
 	[13971] = {
 		id = 13971,
 		name = "Follow My Lead... Please! "
@@ -3392,6 +3384,14 @@ pg.skill_data_display = {
 		id = 14002,
 		name = "Fiendish Rampage"
 	},
+	[14010] = {
+		id = 14010,
+		name = "I Love My Sisters!"
+	},
+	[14020] = {
+		id = 14020,
+		name = "I'll Protect the Vanguard!"
+	},
 	[14030] = {
 		id = 14030,
 		name = "Ontological Rudder"
@@ -3415,6 +3415,54 @@ pg.skill_data_display = {
 	[14060] = {
 		id = 14060,
 		name = "Audacious Challenger"
+	},
+	[14070] = {
+		id = 14070,
+		name = "Purge Evil"
+	},
+	[14071] = {
+		id = 14071,
+		name = "Purge Evil"
+	},
+	[14080] = {
+		id = 14080,
+		name = "Unfading Dyes"
+	},
+	[14081] = {
+		id = 14081,
+		name = "Unfading Dyes"
+	},
+	[14090] = {
+		id = 14090,
+		name = "Cleanse Impurity"
+	},
+	[14091] = {
+		id = 14091,
+		name = "Cleanse Impurity"
+	},
+	[14100] = {
+		id = 14100,
+		name = "Enrapturing Dance"
+	},
+	[14101] = {
+		id = 14101,
+		name = "Enrapturing Dance"
+	},
+	[14110] = {
+		id = 14110,
+		name = "Heroes of Malta"
+	},
+	[14111] = {
+		id = 14111,
+		name = "Heroes of Malta"
+	},
+	[14120] = {
+		id = 14120,
+		name = "Pepperpot"
+	},
+	[14130] = {
+		id = 14130,
+		name = "Mysterious Huntress"
 	},
 	[18010] = {
 		id = 18010,
@@ -6251,8 +6299,6 @@ pg.skill_data_display = {
 		13953,
 		13955,
 		13960,
-		14010,
-		14020,
 		13971,
 		13972,
 		13980,
@@ -6261,12 +6307,26 @@ pg.skill_data_display = {
 		13993,
 		14001,
 		14002,
+		14010,
+		14020,
 		14030,
 		14040,
 		14050,
 		14051,
 		14052,
 		14060,
+		14070,
+		14071,
+		14080,
+		14081,
+		14090,
+		14091,
+		14100,
+		14101,
+		14110,
+		14111,
+		14120,
+		14130,
 		18010,
 		18040,
 		18041,

@@ -16,9 +16,13 @@ function slot0.execute(slot0, slot1)
 		type = 0
 	}, 61006, function (slot0)
 		if slot0.result == 0 then
-			slot2 = uv0:getData()
+			slot1 = slot0.operation.operation_id
 
-			slot2:GetEventById(slot0.operation.operation_id):Active(slot0.operation)
+			if uv0:getData():GetActiveEvent() then
+				slot3:Deactivate()
+			end
+
+			slot2:GetEventById(slot1):Active(slot0.operation)
 			uv0:AddFetchActivationEventCDTime()
 			uv0:updateGuild(slot2)
 			uv1:sendNotification(GAME.GUILD_GET_ACTIVATION_EVENT_DONE)
@@ -28,8 +32,17 @@ function slot0.execute(slot0, slot1)
 			if uv2 then
 				uv2()
 			end
-		elseif uv2 then
-			uv2()
+		else
+			if uv0:getData():GetActiveEvent() then
+				slot2:Deactivate()
+			end
+
+			uv0:updateGuild(slot1)
+			uv1:sendNotification(GAME.ON_GUILD_EVENT_END)
+
+			if uv2 then
+				uv2()
+			end
 		end
 	end)
 end

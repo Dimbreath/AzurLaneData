@@ -426,86 +426,35 @@ function slot0.GetOtherShips(slot0)
 end
 
 function slot0.CompareRecommendShip(slot0, slot1, slot2)
-	function slot3(slot0, slot1)
-		return slot1.power < slot0.power
-	end
-
 	slot4 = slot0:GetRecommendShipNation()
-
-	function slot5(slot0, slot1)
-		if (table.contains(uv0, slot0.nation) and 1 or 0) == (table.contains(uv0, slot1.nation) and 1 or 0) then
-			return -1
-		else
-			return slot3 < slot2
-		end
-	end
-
 	slot6 = slot0:GetRecommendShipTypes()
 
-	function slot7(slot0, slot1)
-		if (table.contains(uv0, slot0.type) and 1 or 0) == (table.contains(uv0, slot1.type) and 1 or 0) then
-			return -1
-		else
-			return slot3 < slot2
+	return slot0:SeriesSort({
+		function (slot0, slot1)
+			if (table.contains(uv0, slot0.nation) and 1 or 0) == (table.contains(uv0, slot1.nation) and 1 or 0) then
+				return -1
+			else
+				return slot3 < slot2
+			end
+		end,
+		function (slot0, slot1)
+			if (table.contains(uv0, slot0.type) and 1 or 0) == (table.contains(uv0, slot1.type) and 1 or 0) then
+				return -1
+			else
+				return slot3 < slot2
+			end
+		end,
+		function (slot0, slot1)
+			if slot0.level == slot1.level then
+				return -1
+			else
+				return slot1.level < slot0.level
+			end
+		end,
+		function (slot0, slot1)
+			return slot1.power < slot0.power
 		end
-	end
-
-	function slot8(slot0, slot1)
-		if slot0.level == slot1.level then
-			return -1
-		else
-			return slot1.level < slot0.level
-		end
-	end
-
-	slot9 = slot0:GetSquadron()
-
-	function SortSquadron(slot0, slot1)
-		if (table.contains(slot0.tagList, uv0) and 1 or 0) == (table.contains(slot1.tagList, uv0) and 1 or 0) then
-			return -1
-		else
-			return slot3 < slot2
-		end
-	end
-
-	slot11 = slot0:getConfig("event_attr_acc_effect")
-	slot12 = nil
-
-	if #slot0:getConfig("event_attr_count_effect") > 0 then
-		slot12 = slot10[1][1]
-	end
-
-	if #slot11 > 0 then
-		slot12 = slot11[1][1]
-	end
-
-	slot14 = pg.attribute_info_by_type[slot12] and slot13[slot12].name
-
-	function SortAttr(slot0, slot1)
-		if not uv1 or (slot0.attrs[uv0] or 0) == (slot1.attrs[uv0] or 0) then
-			return -1
-		else
-			return slot3 < slot2
-		end
-	end
-
-	if slot0:IsEliteType() then
-		return slot0:SeriesSort({
-			SortSquadron,
-			SortAttr,
-			slot5,
-			slot7,
-			slot8,
-			slot3
-		}, slot1, slot2)
-	else
-		return slot0:SeriesSort({
-			slot5,
-			slot7,
-			slot8,
-			slot3
-		}, slot1, slot2)
-	end
+	}, slot1, slot2)
 end
 
 function slot0.SeriesSort(slot0, slot1, slot2, slot3)
@@ -532,6 +481,60 @@ end
 
 function slot0.FirstFleetCanFormation(slot0)
 	return slot0:GetFleetCnt() == 0
+end
+
+function slot0.SameSquadron(slot0, slot1)
+	if slot0:IsEliteType() then
+		return table.contains(slot1.tagList, slot0:getConfig("extra_squadron"))
+	end
+
+	return false
+end
+
+function slot0.GetEffectAttr(slot0)
+	slot2 = slot0:getConfig("event_attr_acc_effect")
+	slot3, slot4 = nil
+
+	if #slot0:getConfig("event_attr_count_effect") > 0 then
+		slot3 = slot1[1][1]
+		slot4 = slot1[1][2]
+	end
+
+	if #slot2 > 0 then
+		slot3 = slot2[1][1]
+	end
+
+	return pg.attribute_info_by_type[slot3] and slot5[slot3].name, slot4
+end
+
+function slot0.MatchAttr(slot0, slot1)
+	if slot0:IsEliteType() then
+		slot2, slot3 = slot0:GetEffectAttr()
+
+		if slot3 then
+			return slot3 <= (slot1.attrs[slot2] or 0)
+		else
+			return slot5 > 0
+		end
+	end
+
+	return false
+end
+
+function slot0.MatchNation(slot0, slot1)
+	if slot0:IsEliteType() then
+		return table.contains(slot0:GetRecommendShipNation(), slot1.nation)
+	end
+
+	return false
+end
+
+function slot0.MatchShipType(slot0, slot1)
+	if slot0:IsEliteType() then
+		return table.contains(slot0:GetRecommendShipTypes(), slot1.type)
+	end
+
+	return false
 end
 
 return slot0

@@ -1205,13 +1205,14 @@ pg.backyard_theme_template = {
 		desc = "Some traditional furniture from the Dragon Empery! This set is sure to welcome good luck and prosperity for the upcoming year! ",
 		deblocking = 1,
 		new = 0,
-		hot = 1,
+		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
-		discount = 20,
+		discount = 0,
 		id = 39,
 		icon = "znthemeicon",
 		comfortable = 0,
+		discount_time = "",
 		ids = {
 			39001,
 			39002,
@@ -1250,32 +1251,6 @@ pg.backyard_theme_template = {
 			39305,
 			39306,
 			39307
-		},
-		discount_time = {
-			{
-				{
-					2020,
-					1,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					2,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[41] = {
@@ -2527,6 +2502,42 @@ pg.backyard_theme_template = {
 			74118
 		}
 	},
+	[75] = {
+		Cfg_1 = 5,
+		name = "Spring Jubilee",
+		desc = "Gather 'round to celebrate the Lunar New Year!",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 75,
+		icon = "cj3themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			75001,
+			75002,
+			75101,
+			75102,
+			75103,
+			75104,
+			75105,
+			75106,
+			75107,
+			75108,
+			75109,
+			75110,
+			75111,
+			75112,
+			75113,
+			75114,
+			75115,
+			75116,
+			75301
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2582,6 +2593,7 @@ pg.backyard_theme_template = {
 		71,
 		72,
 		73,
-		74
+		74,
+		75
 	}
 }

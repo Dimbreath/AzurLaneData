@@ -10,8 +10,17 @@ function slot0.Entrance(slot0, slot1)
 	end
 
 	slot4 = uv0.GetGuildBossMission()
+	slot5 = slot4:GetMyShipIds()
+	slot7 = {}
 
-	BeginStageCommand.SendRequest(SYSTEM_GUILD, slot4:GetAllShipIds(), {
+	for slot11, slot12 in ipairs(slot4:GetShipsSplitByUserID()) do
+		table.insert(slot7, {
+			ship_id = slot12.shipID,
+			user_id = slot12.userID
+		})
+	end
+
+	BeginStageCommand.SendRequest(SYSTEM_GUILD, slot5, {
 		slot4:GetStageID()
 	}, function (slot0)
 		slot2 = getProxy(GuildProxy)
@@ -29,7 +38,7 @@ function slot0.Entrance(slot0, slot1)
 		})
 	end, function (slot0)
 		uv0:RequestFailStandardProcess(slot0)
-	end)
+	end, slot7)
 end
 
 function slot0.Exit(slot0, slot1)
@@ -104,6 +113,8 @@ function slot0.SendRequest(slot0, slot1, slot2)
 					pg.m02:sendNotification(GAME.QUIT_BATTLE)
 				end
 			})
+		elseif slot0.result == 4 then
+			pg.m02:sendNotification(GAME.QUIT_BATTLE)
 		else
 			uv1:RequestFailStandardProcess(slot0)
 		end
@@ -137,50 +148,51 @@ function slot0.GeneralPlayerCosume(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.GeneralPackage(slot0, slot1)
-	for slot11, slot12 in ipairs(slot1) do
-		if slot0.statistics[slot12.id] then
-			slot14 = GuildAssaultFleet.GetRealId(slot13.id)
-			slot15 = math.floor(slot13.bp)
-			slot16 = math.floor(slot13.output)
-			slot18 = math.floor(slot13.maxDamageOnce)
+	for slot13, slot14 in ipairs(slot1) do
+		if slot0.statistics[slot14.id] then
+			slot16 = GuildAssaultFleet.GetRealId(slot15.id)
+			slot18 = math.floor(slot15.bp)
+			slot19 = math.floor(slot15.output)
+			slot21 = math.floor(slot15.maxDamageOnce)
 
-			table.insert({}, {
-				ship_id = slot14,
-				hp_rest = slot15,
-				damage_cause = slot16,
-				damage_caused = math.floor(slot13.damage),
-				max_damage_once = slot18,
-				ship_gear_score = math.floor(slot13.gearScore)
+			table.insert(GuildAssaultFleet.GetUserId(slot15.id) ~= getProxy(PlayerProxy):getRawData().id and {} or {}, {
+				ship_id = slot16,
+				hp_rest = slot18,
+				damage_cause = slot19,
+				damage_caused = math.floor(slot15.damage),
+				max_damage_once = slot21,
+				ship_gear_score = math.floor(slot15.gearScore)
 			})
 
-			slot7 = slot0.system + slot0.stageId + slot0.statistics._battleScore + slot14 + slot15 + slot16 + slot18
-			slot2 = 0 + slot12:getShipCombatPower()
+			slot8 = slot0.system + slot0.stageId + slot0.statistics._battleScore + slot16 + slot18 + slot19 + slot21
+			slot2 = 0 + slot14:getShipCombatPower()
 		end
 	end
 
-	slot8, slot9 = GetBattleCheckResult(slot7, slot0.token, slot0.statistics._totalTime)
-	slot10 = {}
+	slot10, slot11 = GetBattleCheckResult(slot8, slot0.token, slot0.statistics._totalTime)
+	slot12 = {}
 
-	for slot14, slot15 in ipairs(slot0.statistics._enemyInfoList) do
-		table.insert(slot10, {
-			enemy_id = slot15.id,
-			damage_taken = slot15.damage,
-			total_hp = slot15.totalHp
+	for slot16, slot17 in ipairs(slot0.statistics._enemyInfoList) do
+		table.insert(slot12, {
+			enemy_id = slot17.id,
+			damage_taken = slot17.damage,
+			total_hp = slot17.totalHp
 		})
 	end
 
 	return {
-		system = slot4,
-		data = slot5,
-		score = slot6,
-		key = slot8,
+		system = slot5,
+		data = slot6,
+		score = slot7,
+		key = slot10,
 		statistics = slot3,
+		otherstatistics = slot4,
 		kill_id_list = slot0.statistics.kill_id_list,
 		total_time = slot0.statistics._totalTime,
 		bot_percentage = slot0.statistics._botPercentage,
 		extra_param = slot2,
-		file_check = slot9,
-		enemy_info = slot10,
+		file_check = slot11,
+		enemy_info = slot12,
 		data2 = {}
 	}
 end

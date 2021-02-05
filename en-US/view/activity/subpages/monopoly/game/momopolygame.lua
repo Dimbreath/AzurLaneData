@@ -466,6 +466,9 @@ function slot0.SetUp(slot0, slot1, slot2)
 
 				uv2()
 			end)
+		end,
+		function (slot0)
+			onNextTick(slot0)
 		end
 	}, function ()
 		uv0:setActivity(uv1)
@@ -537,21 +540,7 @@ function slot0.updateLeftCount(slot0)
 
 	slot0.commonAnim:SetInteger("count", slot0.leftAwardCnt)
 
-	if PLATFORM_CODE == PLATFORM_CHT then
-		slot0.dropShipTxt.text = slot0.leftDropShipCnt
-
-		setActive(slot0.dropShipTxt.gameObject, slot0.leftDropShipCnt > 0)
-
-		slot0.commonRpCnt.text = slot0.advanceRpCount
-		slot0.advanceTxt.text = slot0.commonRpCount
-
-		setActive(slot0.advanceTag, slot0.isAdvanceRp)
-		setActive(slot0.advanceLabel, true)
-		setActive(slot0.advanceImage, true)
-		setActive(slot0.advancecLabel, false)
-	else
-		slot0.commonRpCnt.text = slot0.commonRpCount
-	end
+	slot0.commonRpCnt.text = slot0.commonRpCount
 end
 
 function slot0.updateValue(slot0, slot1)

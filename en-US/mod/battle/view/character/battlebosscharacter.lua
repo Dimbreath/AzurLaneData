@@ -65,9 +65,9 @@ function slot2.AddHPBar(slot0, slot1, slot2)
 
 	slot0:SetTemplateInfo()
 	slot0:initBarComponent()
-	slot0:SetHPBarCountText()
+	slot0:SetHPBarCountText(slot0._HPBarTotalCount)
 
-	slot0._cacheHP = slot0._unitData:GetCurrentHP()
+	slot0._cacheHP = slot0._unitData:GetMaxHP()
 
 	slot0:UpdateHpBar()
 	slot0:initBarrierBar()
@@ -111,69 +111,55 @@ function slot2.GetBossIndex(slot0)
 end
 
 function slot2.initBarComponent(slot0)
-	slot1 = 1
 	slot0._stepHP = slot0:GetUnitData():GetMaxHP() / slot0._HPBarTotalCount
-	slot3 = 1
-	slot5 = {}
+	slot2 = 1
+	slot0._resTotalCount = 5
+	slot0._bossBarInfoList = {}
 
-	while slot3 <= 5 do
-		slot6 = {
-			progressImage = slot9:GetComponent(typeof(Image)),
-			deltaImage = slot10:GetComponent(typeof(Image)),
-			progressTF = slot9.transform,
-			deltaTF = slot10.transform
+	while slot2 <= slot0._resTotalCount do
+		slot3 = {
+			progressImage = slot6:GetComponent(typeof(Image)),
+			deltaImage = slot7:GetComponent(typeof(Image)),
+			progressTF = slot6.transform,
+			deltaTF = slot7.transform
 		}
-		slot7 = "bloodBarContainer/hp_" .. slot3
-		slot9 = slot0._HPBarTf:Find(slot7)
-		slot10 = slot0._HPBarTf:Find(slot7 .. "_delta")
-		slot6.progressImage.fillAmount = 1
-		slot6.deltaImage.fillAmount = 1
-		slot5[slot3] = slot6
-		slot3 = slot3 + 1
+		slot4 = "bloodBarContainer/hp_" .. slot2
+		slot6 = slot0._HPBarTf:Find(slot4)
+		slot7 = slot0._HPBarTf:Find(slot4 .. "_delta")
+		slot3.progressImage.fillAmount = 1
+		slot3.deltaImage.fillAmount = 1
+		slot0._bossBarInfoList[slot2] = slot3
+		slot2 = slot2 + 1
 	end
 
 	slot0._topBarIndex = slot0._HPBarTf.childCount - 1
+	slot0._currentFmod = math.fmod(slot0._HPBarTotalCount, slot0._resTotalCount)
 
-	while slot1 <= slot0._HPBarTotalCount do
-		if math.fmod(slot1, slot4) == 0 then
-			slot6 = slot4
-		end
-
-		slot7 = {
-			upperBound = slot1 * slot0._stepHP
-		}
-		slot7.lowerBound = slot7.upperBound - slot0._stepHP
-		slot7.progressImage = slot5[slot6].progressImage
-		slot7.deltaImage = slot5[slot6].deltaImage
-		slot7.progressTF = slot5[slot6].progressTF
-		slot7.deltaTF = slot5[slot6].deltaTF
-		slot0._bossBarInfoList[slot1] = slot7
-		slot1 = slot1 + 1
+	if slot0._currentFmod == 0 then
+		slot0._currentFmod = slot0._resTotalCount
 	end
 
 	if slot0._HPBarTotalCount < 5 then
-		while slot1 <= 5 do
-			slot6 = "bloodBarContainer/hp_" .. slot1
+		slot3 = slot0._resTotalCount
 
-			SetActive(slot0._HPBarTf:Find(slot6), false)
-			SetActive(slot0._HPBarTf:Find(slot6 .. "_delta"), false)
+		while slot0._HPBarTotalCount < slot3 do
+			slot4 = "bloodBarContainer/hp_" .. slot3
 
-			slot1 = slot1 + 1
+			SetActive(slot0._HPBarTf:Find(slot4), false)
+			SetActive(slot0._HPBarTf:Find(slot4 .. "_delta"), false)
+
+			slot3 = slot3 - 1
 		end
 	else
-		if math.fmod(slot0._HPBarTotalCount, slot4) == 0 then
-			slot6 = slot4
-		end
+		slot3 = slot0._resTotalCount
 
-		slot7 = slot4
+		while slot0._currentFmod < slot3 do
+			slot4 = "bloodBarContainer/hp_" .. slot3
 
-		while slot6 < slot7 do
-			slot8 = "bloodBarContainer/hp_" .. slot7
+			slot0._HPBarTf:Find(slot4).transform:SetSiblingIndex(0)
+			slot0._HPBarTf:Find(slot4 .. "_delta").transform:SetSiblingIndex(0)
 
-			slot0._HPBarTf:Find(slot8).transform:SetSiblingIndex(0)
-			slot0._HPBarTf:Find(slot8 .. "_delta").transform:SetSiblingIndex(0)
-
-			slot7 = slot7 - 1
+			slot3 = slot3 - 1
 		end
 	end
 
@@ -183,7 +169,6 @@ function slot2.initBarComponent(slot0)
 		SetActive(slot0._HPBarTf:Find("vernier"), slot0._activeVernier)
 	end
 
-	slot0._currentIndex = #slot0._bossBarInfoList
 	slot0._chargeTimer = Timer.New(function ()
 		uv0._currentTween = uv0:generateTween()
 	end, 1)
@@ -200,77 +185,94 @@ function slot2.UpdateHpBar(slot0)
 		slot0._chargeTimer:Reset()
 	end
 
-	slot2 = slot0._bossBarInfoList[slot0._currentIndex]
+	slot2, slot3, slot4 = slot0:GetCurrentFmod()
+
+	slot0:SortBar(slot2, slot4)
+
+	slot0._currentFmod = slot2
+	slot0._currentDivision = slot4
 
 	if slot1 < slot0._cacheHP then
-		slot3 = nil
-
-		while slot1 < slot2.lowerBound do
-			if slot0._currentIndex > 5 then
-				slot2.progressImage.fillAmount = 1
-				slot2.deltaImage.fillAmount = 1
-
-				slot2.progressTF:SetSiblingIndex(0)
-				slot2.deltaTF:SetSiblingIndex(0)
-			else
-				SetActive(slot2.progressImage, false)
-				SetActive(slot2.deltaImage, false)
-			end
-
-			slot0._currentIndex = slot0._currentIndex - 1
-			slot2 = slot0._bossBarInfoList[slot0._currentIndex]
-			slot3 = true
-		end
-
-		if slot3 then
+		if slot0._currentDivision ~= slot4 then
 			LeanTween.cancel(slot0._HPBar)
 		end
 
 		slot0._chargeTimer:Start()
-	elseif slot0._cacheHP < slot1 then
-		while slot2.upperBound < slot1 do
-			slot2.progressImage.fillAmount = 1
-			slot2.deltaImage.fillAmount = 1
-			slot0._currentIndex = slot0._currentIndex + 1
-			slot2 = slot0._bossBarInfoList[slot0._currentIndex]
-
-			if slot0._currentIndex > 5 then
-				slot2.deltaTF:SetSiblingIndex(slot0._topBarIndex)
-				slot2.progressTF:SetSiblingIndex(slot0._topBarIndex)
-			else
-				SetActive(slot2.progressImage, true)
-				SetActive(slot2.deltaImage, true)
-			end
-		end
 	end
 
-	slot2.progressImage.fillAmount = (slot1 - slot2.lowerBound) / slot0._stepHP
+	slot0._bossBarInfoList[slot2].progressImage.fillAmount = slot3
 
 	if slot0._activeVernier then
-		slot0._vernier.anchorMin = Vector2(slot3, 0.5)
-		slot0._vernier.anchorMax = Vector2(slot3, 0.5)
+		slot0._vernier.anchorMin = Vector2(currentRate, 0.5)
+		slot0._vernier.anchorMax = Vector2(currentRate, 0.5)
 	end
 
-	if slot0._cacheHP < slot1 then
-		slot2.deltaImage.fillAmount = slot3
-	end
-
-	slot0:SetHPBarCountText()
+	slot0:SetHPBarCountText(slot4)
 
 	slot0._cacheHP = slot1
 end
 
-function slot2.generateTween(slot0, slot1, slot2)
-	return LeanTween.value(go(slot0._HPBar), slot0._bossBarInfoList[slot0._currentIndex].deltaImage.fillAmount, slot1 or slot3.progressImage.fillAmount, slot2 or 0.7):setOnUpdate(System.Action_float(function (slot0)
+function slot2.generateTween(slot0)
+	slot1 = slot0._bossBarInfoList[slot0._currentFmod]
+	duration = duration or 0.7
+
+	return LeanTween.value(go(slot0._HPBar), slot1.deltaImage.fillAmount, slot1.progressImage.fillAmount, 0.7):setOnUpdate(System.Action_float(function (slot0)
 		uv0.fillAmount = slot0
 	end))
 end
 
-function slot2.SetHPBarCountText(slot0)
+function slot2.GetCurrentFmod(slot0)
+	slot2, slot3 = math.modf(slot0._unitData:GetCurrentHP() / slot0._stepHP)
+
+	if math.fmod(slot2 + 1, slot0._resTotalCount) == 0 then
+		slot4 = 5
+	end
+
+	return slot4, slot3, slot2
+end
+
+function slot2.SortBar(slot0, slot1, slot2)
+	if slot1 == slot0._currentFmod then
+		return
+	elseif slot0._currentFmod < slot1 then
+		slot3 = slot0._currentFmod
+		slot0._bossBarInfoList[slot3].progressImage.fillAmount = 1
+		slot0._bossBarInfoList[slot3].deltaImage.fillAmount = 1
+
+		while slot3 < slot1 do
+			slot4 = slot0._bossBarInfoList[slot3 + 1]
+
+			slot4.deltaTF:SetSiblingIndex(slot0._topBarIndex)
+			slot4.progressTF:SetSiblingIndex(slot0._topBarIndex)
+			SetActive(slot4.progressImage, true)
+			SetActive(slot4.deltaImage, true)
+		end
+	elseif slot1 < slot0._currentFmod then
+		slot3 = slot0._currentFmod
+
+		while slot1 < slot3 do
+			slot4 = slot0._bossBarInfoList[slot3]
+			slot4.progressImage.fillAmount = 1
+			slot4.deltaImage.fillAmount = 1
+
+			slot4.progressTF:SetSiblingIndex(0)
+			slot4.deltaTF:SetSiblingIndex(0)
+
+			if slot2 < slot0._resTotalCount then
+				SetActive(slot4.progressImage, false)
+				SetActive(slot4.deltaImage, false)
+			end
+
+			slot3 = slot3 - 1
+		end
+	end
+end
+
+function slot2.SetHPBarCountText(slot0, slot1)
 	if slot0._hideBarNum then
 		slot0._HPBarCountText.text = "X??"
 	else
-		slot0._HPBarCountText.text = "X " .. slot0._currentIndex
+		slot0._HPBarCountText.text = "X " .. slot1
 	end
 end
 

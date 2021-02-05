@@ -86,6 +86,10 @@ function slot0.updateLogic(slot0)
 				slot2 = math.random(0, 1) == 1 and 1 or -1
 			end
 
+			if uv1.fixedDirection then
+				slot2 = math.sign(uv1.fixedDirection)
+			end
+
 			slot1.x = math.abs(slot1.x) * slot2
 			uv0._tf.localScale = slot1
 		end)):setOnComplete(System.Action(function ()

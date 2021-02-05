@@ -390,7 +390,7 @@ pg.skill_world_display = {
 	[12440] = {
 		desc_get = "",
 		id = 12440,
-		desc = "[Operation Siren only] \nEvery time the fleet this ship is in defeats an enemy fleet during a sortie: increases this ship's FP by $1; also, for every enemy this ship sinks during a battle: increases this ship's FP by $1 until the battle ends (this skill's FP buffs stack up to a total of $3 times). After 5 enemy fleets have been defeated: reduces DMG taken by your Main Fleet by $2. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
+		desc = "[Operation Siren only] \nEvery time the fleet this ship is in defeats an enemy fleet during a sortie: increases this ship's FP by $1; also, for every enemy this ship sinks during a battle: increases this ship's FP by $1 until the battle ends (this skill's FP buffs stack up to a total of $2 times). After 5 enemy fleets have been defeated: reduces DMG taken by your Main Fleet by $2. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
 		desc_get_add = {
 			{
 				"1.0%",
@@ -735,12 +735,12 @@ pg.skill_world_display = {
 		desc = "[Operation Siren only] \nAt the start of the battle, if there is a CV or CVL afloat in the same fleet as this ship: increases this ship's Crit Rate by $1. For each CV or CVL in the same fleet: increases this ship's DMG to enemy DDs and CLs by $2. For the 1st and 2nd battles of each sortie that this ship takes part in: decreases DMG taken by $3 for all CVs and CVLs in the same fleet. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
 		desc_get_add = {
 			{
-				"5.0%",
-				"15.0%"
+				"20.0%",
+				"35.0%"
 			},
 			{
-				"1.5%",
-				"6.0%"
+				"4.0%",
+				"10.0%"
 			},
 			{
 				"5.0%",
@@ -750,84 +750,84 @@ pg.skill_world_display = {
 		desc_add = {
 			{
 				{
-					"5.0%",
-					"+1.1%"
+					"20.0%",
+					"+1.6%"
 				},
 				{
-					"6.1%",
-					"+1.1%"
+					"21.6%",
+					"+1.6%"
 				},
 				{
-					"7.2%",
-					"+1.1%"
+					"23.2%",
+					"+1.6%"
 				},
 				{
-					"8.3%",
-					"+1.1%"
+					"24.8%",
+					"+1.6%"
 				},
 				{
-					"9.4%",
-					"+1.1%"
+					"26.4%",
+					"+1.6%"
 				},
 				{
-					"10.5%",
-					"+1.1%"
+					"28.0%",
+					"+1.6%"
 				},
 				{
-					"11.6%",
-					"+1.1%"
+					"29.6%",
+					"+1.8%"
 				},
 				{
-					"12.7%",
-					"+1.1%"
+					"31.4%",
+					"+1.8%"
 				},
 				{
-					"13.8%",
-					"+1.2%"
+					"33.2%",
+					"+1.8%"
 				},
 				{
-					"15.0%"
+					"35.0%"
 				}
 			},
 			{
 				{
-					"1.5%",
-					"+0.5%"
-				},
-				{
-					"2.0%",
-					"+0.5%"
-				},
-				{
-					"2.5%",
-					"+0.5%"
-				},
-				{
-					"3.0%",
-					"+0.5%"
-				},
-				{
-					"3.5%",
-					"+0.5%"
-				},
-				{
 					"4.0%",
-					"+0.5%"
+					"+0.6%"
 				},
 				{
-					"4.5%",
-					"+0.5%"
+					"4.6%",
+					"+0.6%"
 				},
 				{
-					"5.0%",
-					"+0.5%"
+					"5.2%",
+					"+0.8%"
 				},
 				{
-					"5.5%",
-					"+0.5%"
+					"6.0%",
+					"+0.6%"
 				},
 				{
-					"6.0%"
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
 				}
 			},
 			{

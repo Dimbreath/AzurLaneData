@@ -3718,6 +3718,43 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[191] = {
+		can_rotate = 0,
+		name = "Choco Manjuu",
+		gain_by = "Manjuu Manufactory ",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 1,
+		belong = 1,
+		rarity = 5,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "qiaokelijiuicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/qiaokelijiu",
+		canputon = 0,
+		count = 1,
+		describe = "It's just trying to wish you a joyous Valentine's Day! Please don't eat it!",
+		advice = 0,
+		deblocking = 1,
+		id = 191,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		name = "Air Pump of Friendship",
 		gain_by = "",
@@ -72671,6 +72708,896 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[75001] = {
+		can_rotate = 0,
+		name = "Spring Festival Floorboards",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 4,
+		icon = "dibancj3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 75,
+		spine_action_replace = "",
+		picture = "cj3/dibancj3",
+		canputon = 0,
+		count = 1,
+		describe = "Remember to take off your shoes!",
+		advice = 0,
+		deblocking = 1,
+		id = 75001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75002] = {
+		can_rotate = 0,
+		name = "Spring Festival Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 3,
+		icon = "qiangbicj3icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 75,
+		spine_action_replace = "",
+		picture = "cj3/qiangbicj3",
+		canputon = 0,
+		count = 1,
+		describe = "Enjoy the vivid colors of a night sky filled with fireworks, but without all the noise!",
+		advice = 0,
+		deblocking = 1,
+		id = 75002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75101] = {
+		can_rotate = 0,
+		name = "Firework-Appreciating Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "1cj3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "cj3/1cj3",
+		canputon = 0,
+		themeId = 75,
+		count = 1,
+		describe = "Appreciation so profound, it's willing to lose an eye.",
+		advice = 0,
+		id = 75101,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					39,
+					-26
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75102] = {
+		can_rotate = 0,
+		name = "Lotus Pond",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "2cj3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 75,
+		spine_action_replace = "",
+		picture = "Cj3/2cj3",
+		canputon = 0,
+		count = 1,
+		describe = "The moonlight reflects in this small pond. Good thing nobody goes diving for the moon in this day and age.",
+		advice = 0,
+		deblocking = 1,
+		id = 75102,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75103] = {
+		can_rotate = 1,
+		name = "Lucky Stone Wall",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "3cj3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 75,
+		spine_action_replace = "",
+		picture = "Cj3/3cj3",
+		canputon = 0,
+		count = 1,
+		describe = "Will not bless your construction, no matter how much you rub it.",
+		advice = 0,
+		deblocking = 1,
+		id = 75103,
+		comfortable = 3,
+		size = {
+			7,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75104] = {
+		can_rotate = 0,
+		name = "Spring Festival Cooking Station",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "4cj3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 75,
+		spine_action_replace = "",
+		picture = "Cj3/4cj3",
+		canputon = 0,
+		count = 1,
+		describe = "Those who fear no spice, step forth!",
+		advice = 0,
+		deblocking = 1,
+		id = 75104,
+		comfortable = 3,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75105] = {
+		can_rotate = 0,
+		name = "Spring Festival Banquet Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "5cj3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "Cj3/5cj3",
+		canputon = 0,
+		themeId = 75,
+		count = 1,
+		describe = "The most animated meal of the year, largely from having to reach across the table to get the food you want.",
+		advice = 0,
+		id = 75105,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-108,
+					80
+				},
+				{
+					1,
+					1
+				},
+				"cj3/5cj3_using"
+			},
+			{
+				"sit",
+				{
+					121,
+					72
+				},
+				{
+					-1,
+					1
+				},
+				"cj3/5cj3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75106] = {
+		can_rotate = 0,
+		name = "Spring Festival Potted Plant",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "6cj3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 75,
+		spine_action_replace = "",
+		picture = "Cj3/6cj3",
+		canputon = 0,
+		count = 3,
+		describe = "Symbolizes the green of new life about to emerge. Other than the pot, you could find a tree like this just about anywhere though...",
+		advice = 0,
+		deblocking = 1,
+		id = 75106,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75107] = {
+		can_rotate = 0,
+		name = "Couplet-Writing Station",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "7cj3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "Cj3/7cj3",
+		canputon = 0,
+		themeId = 75,
+		count = 1,
+		describe = "\"Damnit, Ying Swei, I can't make any more rhymes, no way!\" \"Sounds like you're doing fine to me, dear sister~\"",
+		advice = 0,
+		id = 75107,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					101,
+					-55
+				},
+				{
+					-1,
+					1
+				},
+				"cj3/7cj3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75108] = {
+		can_rotate = 0,
+		name = "Lantern-Lit Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "8cj3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 75,
+		spine_action_replace = "",
+		picture = "Cj3/8cj3",
+		canputon = 0,
+		count = 1,
+		describe = "Though the long winter has stripped this tree of its leaves, the light of these red lanterns bears the promise of new beginnings.",
+		advice = 0,
+		deblocking = 1,
+		id = 75108,
+		comfortable = 2,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75109] = {
+		can_rotate = 0,
+		name = "Spring Festival Vendor",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "9cj3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 75,
+		spine_action_replace = "",
+		picture = "Cj3/9cj3",
+		canputon = 0,
+		count = 1,
+		describe = "Time to break into that Akashi girl's racket.",
+		advice = 0,
+		deblocking = 1,
+		id = 75109,
+		comfortable = 3,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75110] = {
+		can_rotate = 0,
+		name = "Spring Festival Screen",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "10cj3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 75,
+		spine_action_replace = "",
+		picture = "Cj3/10cj3",
+		canputon = 0,
+		count = 1,
+		describe = "Nobody ever took the calligraphers of olde seriously until they started adding manjuus.",
+		advice = 0,
+		deblocking = 1,
+		id = 75110,
+		comfortable = 2,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75111] = {
+		can_rotate = 0,
+		name = "Ornamental Cage",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "11cj3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "Cj3/11cj3",
+		canputon = 0,
+		themeId = 75,
+		count = 1,
+		describe = "Don't give Ajax any more strange ideas, please...",
+		advice = 0,
+		id = 75111,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-3,
+					-143
+				},
+				{
+					1,
+					1
+				},
+				"cj3/11cj3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75112] = {
+		can_rotate = 0,
+		name = "Money Plant",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "12cj3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 75,
+		spine_action_replace = "",
+		picture = "Cj3/12cj3",
+		canputon = 0,
+		count = 2,
+		describe = "Wait, what do you mean it doesn't generate Coins from the dorm?! I demand a refund!",
+		advice = 0,
+		deblocking = 1,
+		id = 75112,
+		comfortable = 3,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75113] = {
+		can_rotate = 0,
+		name = "Guardian Manjuu-Lion A",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "14cj3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 75,
+		spine_action_replace = "",
+		picture = "Cj3/14cj3",
+		canputon = 0,
+		count = 1,
+		describe = "What kind of evil spirits would get scared away by this cute thing?",
+		advice = 0,
+		deblocking = 1,
+		id = 75113,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75114] = {
+		can_rotate = 0,
+		name = "Spring Festival Fence",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "15cj3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 75,
+		spine_action_replace = "",
+		picture = "Cj3/15cj3",
+		canputon = 0,
+		count = 4,
+		describe = "The intricate patterns and vibrant colors never fail to amaze!",
+		advice = 0,
+		deblocking = 1,
+		id = 75114,
+		comfortable = 1,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75115] = {
+		can_rotate = 0,
+		name = "Guardian Manjuu-Lion B",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "16cj3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 75,
+		spine_action_replace = "",
+		picture = "Cj3/16cj3",
+		canputon = 0,
+		count = 1,
+		describe = "It's trying hard to protect your family...",
+		advice = 0,
+		deblocking = 1,
+		id = 75115,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75116] = {
+		can_rotate = 0,
+		name = "Spring Festival Gate",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "17cj3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 75,
+		spine_action_replace = "",
+		picture = "Cj3/17cj3",
+		canputon = 0,
+		count = 1,
+		describe = "Profound sights, sounds, and tastes await you on the other side!",
+		advice = 0,
+		deblocking = 1,
+		id = 75116,
+		comfortable = 2,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75117] = {
+		name = "Scenes of Nature?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		can_rotate = 0,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Acj3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 75,
+		deblocking = 1,
+		count = 1,
+		describe = "A wonderful work of art... but the painter seems to have fallen asleep halfway through.",
+		id = 75117,
+		advice = 0,
+		comfortable = 4,
+		belong = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Acj3B",
+				"normal"
+			},
+			{
+				"Acj3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{
+					nil,
+					nil,
+					{
+						"action",
+						"wash"
+					},
+					"wash"
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"Acj3BCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[75118] = {
+		can_rotate = 0,
+		name = "Firecracker Manjuus",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Bcj3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 75,
+		count = 1,
+		describe = "Seriously, do NOT try this at home.",
+		advice = 0,
+		id = 75118,
+		deblocking = 1,
+		comfortable = 4,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Bcj3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[75301] = {
+		can_rotate = 0,
+		name = "Spring Festival Lanterns",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "18cj3icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 75,
+		spine_action_replace = "",
+		picture = "Cj3/18cj3",
+		canputon = 0,
+		count = 2,
+		describe = "Ruby-red lanterns dying the night sky with a warm golden glow. One of the Dragon Empery's most iconic splendors.",
+		advice = 0,
+		deblocking = 1,
+		id = 75301,
+		comfortable = 3,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -72750,6 +73677,7 @@ pg.furniture_data_template = {
 		188,
 		189,
 		190,
+		191,
 		100002,
 		100003,
 		100004,
@@ -74317,6 +75245,27 @@ pg.furniture_data_template = {
 		74116,
 		74117,
 		74118,
-		74119
+		74119,
+		75001,
+		75002,
+		75101,
+		75102,
+		75103,
+		75104,
+		75105,
+		75106,
+		75107,
+		75108,
+		75109,
+		75110,
+		75111,
+		75112,
+		75113,
+		75114,
+		75115,
+		75116,
+		75117,
+		75118,
+		75301
 	}
 }

@@ -283,7 +283,7 @@ return {
 			actor = 103160,
 			side = 0,
 			nameColor = "#a9f548",
-			dir = 2,
+			dir = 1,
 			say = "Justice is simple enough ⁠— it's about using your power to protect your loved ones!",
 			typewriter = {
 				speed = 0.05,

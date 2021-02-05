@@ -790,6 +790,19 @@ pg.mini_game = {
 			2
 		}
 	},
+	{
+		name = "2021抚顺大冒险II",
+		view_name = "FushunAdventureView",
+		mediator_name = "MiniHubMediator",
+		type = 2,
+		simple_config_data = "",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 21,
+		hub_id = 16,
+		request_data = 1
+	},
 	all = {
 		1,
 		2,
@@ -810,6 +823,7 @@ pg.mini_game = {
 		17,
 		18,
 		19,
-		20
+		20,
+		21
 	}
 }

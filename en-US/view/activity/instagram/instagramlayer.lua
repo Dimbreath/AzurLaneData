@@ -249,12 +249,7 @@ function slot0.UpdateCommentList(slot0)
 			slot4 = slot3:HasReply()
 
 			setText(slot2:Find("main/reply"), slot3:GetReplyBtnTxt())
-
-			if PLATFORM_CODE ~= PLATFORM_US then
-				slot5 = slot3:GetContent():gsub("%s", " ")
-			end
-
-			setText(slot2:Find("main/content"), HXSet.hxLan(slot5))
+			setText(slot2:Find("main/content"), HXSet.hxLan(SwitchSpecialChar(slot3:GetContent())))
 			setText(slot2:Find("main/bubble/Text"), slot3:GetReplyCnt())
 			setText(slot2:Find("main/time"), slot3:GetTime())
 
@@ -306,12 +301,7 @@ function slot0.UpdateReplys(slot0, slot1, slot2)
 			slot3 = uv0[slot1 + 1]
 
 			setImageSprite(slot2:Find("head/icon"), LoadSprite("qicon/" .. slot3:GetIcon()), false)
-
-			if PLATFORM_CODE ~= PLATFORM_US then
-				slot4 = slot3:GetContent():gsub("%s", " ")
-			end
-
-			setText(slot2:Find("content"), HXSet.hxLan(slot4))
+			setText(slot2:Find("content"), HXSet.hxLan(SwitchSpecialChar(slot3:GetContent())))
 		end
 	end)
 	slot5:align(#slot3)

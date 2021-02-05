@@ -153,7 +153,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107030,
-			say = "Function-wise, she's cutting-edge! They spared no expensive developing reliable systems for her. For starters, she's able to connect to Siren devices, and provides automatic shielding against Siren interference.",
+			say = "Function-wise, she's cutting-edge! They spared no expensive developing in reliable systems for her. For starters, she's able to connect to Siren devices, and provides automatic shielding against Siren interference.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
