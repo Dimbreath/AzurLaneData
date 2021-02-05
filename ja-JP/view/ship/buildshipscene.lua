@@ -10,12 +10,21 @@ slot0.PROJECTS = {
 	HEAVY = "heavy",
 	LIGHT = "light"
 }
+slot0.POOL_ID_TO_PROJECTS = {
+	slot0.PROJECTS.SPECIAL,
+	slot0.PROJECTS.LIGHT,
+	slot0.PROJECTS.HEAVY
+}
 slot1 = pg.ship_data_create_material
 
 function slot0.getCreateId(slot0, slot1)
 	if slot1 == uv0.PROJECTS.ACTIVITY then
 		if slot0.activity and not slot0.activity:isEnd() then
-			return slot0.activity:getConfig("config_id")
+			if slot0.activity:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 then
+				return slot0.activity:getConfig("config_id")
+			elseif slot2 == ActivityConst.ACTIVITY_TYPE_BUILD then
+				return slot0.activity:getConfig("config_client").id
+			end
 		end
 	elseif slot1 == uv0.PROJECTS.LIGHT then
 		return 2
@@ -158,8 +167,12 @@ function slot0.setActivity(slot0, slot1)
 	slot0:removeActTimer()
 
 	if slot0.activity and not slot0.activity:isEnd() then
-		if slot0.curProjectName == uv0.PROJECTS.ACTIVITY then
-			slot0:switchProject(uv0.PROJECTS.ACTIVITY)
+		if not BuildShipScene.projectName then
+			if slot0.activity:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 then
+				slot0:switchProject(uv0.PROJECTS.ACTIVITY)
+			elseif slot2 == ActivityConst.ACTIVITY_TYPE_BUILD then
+				slot0:switchProject(uv0.POOL_ID_TO_PROJECTS[slot0.activity:getConfig("config_client").id])
+			end
 		end
 
 		slot0.activityTimer = Timer.New(function ()
@@ -284,6 +297,7 @@ function slot0.didEnter(slot0)
 	end
 
 	slot0.page = slot0.contextData.page or BuildShipScene.Page or uv0.PAGE_BUILD
+	slot0.contextData.page = nil
 
 	triggerToggle(slot0.toggles[slot0.page], true)
 	PoolMgr.GetInstance():GetUI("al_bg01", true, function (slot0)
@@ -430,14 +444,20 @@ function slot0.initBuildPanel(slot0)
 		slot0.projectToggles[slot5] = slot6:Find("frame")
 	end
 
-	setActive(slot0.projectToggles[uv0.PROJECTS.ACTIVITY].parent, slot0.activity and not slot0.activity:isEnd())
+	setActive(slot0.projectToggles[uv0.PROJECTS.ACTIVITY].parent, slot0:isExActBuild())
 
 	if slot0.contextData.projectName then
 		slot0.projectName = slot0.contextData.projectName
-	elseif slot0.activity and not slot0.activity:isEnd() then
+	elseif BuildShipScene.projectName then
+		if BuildShipScene.projectName == uv0.PROJECTS.ACTIVITY and not slot0:isExActBuild() then
+			slot0.projectName = uv0.PROJECTS.HEAVY
+		else
+			slot0.projectName = BuildShipScene.projectName
+		end
+	elseif slot0:isExActBuild() then
 		slot0.projectName = uv0.PROJECTS.ACTIVITY
-	elseif BuildShipScene.projectName == uv0.PROJECTS.ACTIVITY then
-		slot0.projectName = uv0.PROJECTS.HEAVY
+	elseif slot0:isPickupBuild() then
+		slot0.projectName = uv0.POOL_ID_TO_PROJECTS[slot0.activity:getConfig("config_client").id]
 	else
 		slot0.projectName = slot0.contextData.projectName or BuildShipScene.projectName or uv0.PROJECTS.HEAVY
 	end
@@ -450,7 +470,7 @@ function slot0.updateActivityBuildPage(slot0)
 		triggerToggle(slot0.projectToggles[uv0.PROJECTS.LIGHT], true)
 	end
 
-	setActive(slot0.projectToggles[uv0.PROJECTS.ACTIVITY], slot0.activity and not slot0.activity:isEnd())
+	setActive(slot0.projectToggles[uv0.PROJECTS.ACTIVITY], slot0:isExActBuild())
 end
 
 function slot0.updateQueueTip(slot0, slot1)
@@ -515,7 +535,7 @@ end
 function slot0.UpdateBuildPoolExchange(slot0, slot1)
 	slot3 = slot1.exchange_available_times
 
-	if slot1.exchange_request and slot2 > 0 and slot3 and slot3 > 0 and slot0.activity and not slot0.activity:isEnd() then
+	if slot1.exchange_request and slot2 > 0 and slot3 and slot3 > 0 and slot0.isExActBuild() then
 		slot7 = slot0.activity.data2
 		slot0.buildPoolExchangeTxt.text = "<color=#FFDF48>" .. slot0.activity.data1 .. "</color>/" .. math.min(slot3, slot7 + 1) * slot2
 		slot9 = slot7 < slot3 and slot8 <= slot6
@@ -567,6 +587,18 @@ function slot0.willExit(slot0)
 
 	slot0:removeActTimer()
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
+end
+
+function slot0.isExActBuild(slot0)
+	if slot0.activity and not slot0.activity:isEnd() and slot0.activity:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 then
+		return true
+	end
+end
+
+function slot0.isPickupBuild(slot0)
+	if slot0.activity and not slot0.activity:isEnd() and slot0.activity:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILD then
+		return true
+	end
 end
 
 return slot0

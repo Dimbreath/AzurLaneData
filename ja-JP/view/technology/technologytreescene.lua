@@ -327,6 +327,8 @@ function slot0.updateTecItemList(slot0)
 					})
 
 					uv1.expanded[slot0] = uv1.rowHeight
+
+					uv1.rightLSC:ScrollTo(uv1.rightLSC:HeadIndexToValue(uv2) - 0.0001)
 				else
 					uv1.rightLSC:ScrollTo(uv1.rightLSC:HeadIndexToValue(uv2) - 0.0001)
 

@@ -68,13 +68,13 @@ function slot0.clearFill(slot0)
 	slot0.fills = {}
 end
 
-function slot0.isAllFill(slot0)
+function slot0.isAllFill(slot0, slot1)
 	if slot0:canBeCustomised() then
 		return false
 	end
 
-	for slot4, slot5 in pairs(slot0.cells) do
-		if not slot0.fills[slot4] then
+	for slot5, slot6 in pairs(slot0.cells) do
+		if not slot0.fills[slot5] and (not slot1 or slot6.type == slot1) then
 			return false
 		end
 	end
@@ -96,6 +96,17 @@ end
 
 function slot0.canBeCustomised(slot0)
 	return slot0:getConfig("blank") == 1
+end
+
+function slot0.GetAABB(slot0)
+	for slot8, slot9 in pairs(slot0.cells) do
+		slot1 = math.min(1000, slot9.column)
+		slot2 = math.min(1000, slot9.row)
+		slot3 = math.max(0, slot9.column)
+		slot4 = math.max(0, slot9.row)
+	end
+
+	return Vector2(slot1, slot2), Vector2(slot3, slot4)
 end
 
 return slot0

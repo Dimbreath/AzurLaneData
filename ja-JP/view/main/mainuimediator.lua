@@ -222,13 +222,15 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.GETBOAT)
 	end)
 	slot0:bind(uv0.OPEN_MAIL, function (slot0)
-		uv0:addSubLayers(Context.New({
-			mediator = MailMediator,
-			viewComponent = MailLayer,
-			onRemoved = function ()
-				uv0.viewComponent:enablePartialBlur()
-			end
-		}))
+		WorldConst.ReqWorldCheck(function ()
+			uv0:addSubLayers(Context.New({
+				mediator = MailMediator,
+				viewComponent = MailLayer,
+				onRemoved = function ()
+					uv0.viewComponent:enablePartialBlur()
+				end
+			}))
+		end)
 	end)
 	slot0:bind(uv0.TMP_DEBUG, function (slot0)
 		uv0:sendNotification(GAME.BEGIN_STAGE, {

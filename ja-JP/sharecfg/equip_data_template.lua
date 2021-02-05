@@ -506,7 +506,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -553,7 +553,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -1085,7 +1085,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -1132,7 +1132,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -1664,7 +1664,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -1711,7 +1711,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -2732,7 +2732,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -2779,7 +2779,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -3324,7 +3324,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -3371,7 +3371,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -3860,7 +3860,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				26
+				27
 			}
 		},
 		restore_item = {
@@ -3916,7 +3916,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				30
+				57
 			}
 		},
 		restore_item = {
@@ -3963,7 +3963,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				34
+				90
 			}
 		},
 		restore_item = {
@@ -5936,7 +5936,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -5983,7 +5983,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -8353,7 +8353,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -8400,7 +8400,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -8932,7 +8932,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -8979,7 +8979,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -9511,7 +9511,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -9558,7 +9558,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -10104,7 +10104,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -10151,7 +10151,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -11349,7 +11349,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -11396,7 +11396,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -12708,7 +12708,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -12755,7 +12755,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -14107,7 +14107,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -14154,7 +14154,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -16135,7 +16135,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -16182,7 +16182,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -17341,7 +17341,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -17388,7 +17388,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -18847,7 +18847,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -18894,7 +18894,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -25497,7 +25497,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				26
+				27
 			}
 		},
 		restore_item = {
@@ -25553,7 +25553,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				30
+				57
 			}
 		},
 		restore_item = {
@@ -25600,7 +25600,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				34
+				90
 			}
 		},
 		restore_item = {
@@ -26143,7 +26143,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -26190,7 +26190,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -28673,7 +28673,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -28720,7 +28720,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -29745,7 +29745,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -29792,7 +29792,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -30339,7 +30339,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -30386,7 +30386,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -30930,7 +30930,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -30977,7 +30977,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -32000,7 +32000,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -32047,7 +32047,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -32595,7 +32595,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -32642,7 +32642,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -39449,7 +39449,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -39496,7 +39496,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -44666,7 +44666,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -44713,7 +44713,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -48353,7 +48353,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -48400,7 +48400,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -50432,7 +50432,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -50479,7 +50479,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -51011,7 +51011,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -51058,7 +51058,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -53114,7 +53114,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -53161,7 +53161,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -56905,7 +56905,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -56952,7 +56952,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -57893,7 +57893,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				26
+				27
 			}
 		},
 		restore_item = {
@@ -57949,7 +57949,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				30
+				57
 			}
 		},
 		restore_item = {
@@ -57996,7 +57996,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				34
+				90
 			}
 		},
 		restore_item = {
@@ -60394,7 +60394,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -60441,7 +60441,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -60975,7 +60975,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -61022,7 +61022,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -62280,7 +62280,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -62327,7 +62327,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -64261,7 +64261,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -64308,7 +64308,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -68273,7 +68273,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -68320,7 +68320,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -69319,7 +69319,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -69366,7 +69366,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -71943,7 +71943,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -71990,7 +71990,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -73148,7 +73148,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -73195,7 +73195,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -73731,7 +73731,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -73778,7 +73778,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -74314,7 +74314,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -74361,7 +74361,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -75827,7 +75827,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -75874,7 +75874,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -77196,7 +77196,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -77243,7 +77243,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -77780,7 +77780,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -77827,7 +77827,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -78828,7 +78828,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -78875,7 +78875,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -80199,7 +80199,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -80246,7 +80246,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -81404,7 +81404,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -81451,7 +81451,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -85395,7 +85395,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -85442,7 +85442,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -86756,7 +86756,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -86803,7 +86803,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -89617,7 +89617,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -89664,7 +89664,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -90988,7 +90988,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -91035,7 +91035,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -91514,7 +91514,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				26
+				27
 			}
 		},
 		restore_item = {
@@ -91570,7 +91570,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				30
+				57
 			}
 		},
 		restore_item = {
@@ -91617,7 +91617,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				34
+				90
 			}
 		},
 		restore_item = {
@@ -92154,7 +92154,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -92201,7 +92201,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -93353,7 +93353,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -93400,7 +93400,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -95179,7 +95179,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -95226,7 +95226,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -96378,7 +96378,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -96425,7 +96425,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -96959,7 +96959,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -97006,7 +97006,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -98264,7 +98264,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -98311,7 +98311,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -99625,7 +99625,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -99672,7 +99672,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -100206,7 +100206,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -100253,7 +100253,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -100800,7 +100800,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -100847,7 +100847,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -103707,7 +103707,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -103754,7 +103754,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -107400,7 +107400,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -107447,7 +107447,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -107979,7 +107979,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -108026,7 +108026,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -108558,7 +108558,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -108605,7 +108605,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -109139,7 +109139,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -109186,7 +109186,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -109718,7 +109718,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -109765,7 +109765,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -111089,7 +111089,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -111136,7 +111136,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -112294,7 +112294,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -112341,7 +112341,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -113601,7 +113601,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -113648,7 +113648,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -114184,7 +114184,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -114231,7 +114231,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -115553,7 +115553,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -115600,7 +115600,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -116758,7 +116758,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -116805,7 +116805,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -117341,7 +117341,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -117388,7 +117388,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -117924,7 +117924,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -117971,7 +117971,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -119239,7 +119239,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				26
+				27
 			}
 		},
 		restore_item = {
@@ -119295,7 +119295,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				30
+				57
 			}
 		},
 		restore_item = {
@@ -119342,7 +119342,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				34
+				90
 			}
 		},
 		restore_item = {
@@ -121131,7 +121131,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -121178,7 +121178,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -121712,7 +121712,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -121759,7 +121759,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -123166,7 +123166,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -123213,7 +123213,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -129013,7 +129013,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -129060,7 +129060,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -131168,7 +131168,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -131215,7 +131215,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -132217,7 +132217,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -132264,7 +132264,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -134296,7 +134296,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -134343,7 +134343,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -134875,7 +134875,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -134922,7 +134922,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -138245,7 +138245,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -138292,7 +138292,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -138826,7 +138826,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -138873,7 +138873,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -141270,7 +141270,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -141317,7 +141317,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -141851,7 +141851,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -141898,7 +141898,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -144455,7 +144455,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -144502,7 +144502,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -146598,7 +146598,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -146645,7 +146645,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -148426,7 +148426,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -148473,7 +148473,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -149005,7 +149005,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -149052,7 +149052,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -151930,7 +151930,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -151977,7 +151977,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -153135,7 +153135,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -153182,7 +153182,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -153718,7 +153718,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -153765,7 +153765,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -157832,7 +157832,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -157879,7 +157879,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -160292,7 +160292,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -160339,7 +160339,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -160875,7 +160875,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -160922,7 +160922,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -162722,7 +162722,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -162769,7 +162769,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -165009,7 +165009,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -165056,7 +165056,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -169591,7 +169591,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -169638,7 +169638,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -170173,7 +170173,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -170220,7 +170220,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -172932,7 +172932,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -172979,7 +172979,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -173511,7 +173511,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -173558,7 +173558,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -174090,7 +174090,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -174137,7 +174137,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -176072,7 +176072,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -176119,7 +176119,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -177416,7 +177416,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				26
+				27
 			}
 		},
 		restore_item = {
@@ -177472,7 +177472,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				30
+				57
 			}
 		},
 		restore_item = {
@@ -177519,7 +177519,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				34
+				90
 			}
 		},
 		restore_item = {
@@ -179451,7 +179451,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -179498,7 +179498,7 @@ pg.equip_data_template = {
 			},
 			{
 				17024,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -183282,7 +183282,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -183329,7 +183329,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -183863,7 +183863,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -183910,7 +183910,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -186580,7 +186580,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -186627,7 +186627,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -187889,7 +187889,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -187936,7 +187936,7 @@ pg.equip_data_template = {
 			},
 			{
 				17044,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -189728,7 +189728,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -189775,7 +189775,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -191140,7 +191140,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -191187,7 +191187,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -195085,7 +195085,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -195132,7 +195132,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -195664,7 +195664,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -195711,7 +195711,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -196243,7 +196243,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -196290,7 +196290,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -196822,7 +196822,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -196869,7 +196869,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -197401,7 +197401,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -197448,7 +197448,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -197980,7 +197980,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -198027,7 +198027,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -198559,7 +198559,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -198606,7 +198606,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -199138,7 +199138,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -199185,7 +199185,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -199717,7 +199717,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -199764,7 +199764,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -200296,7 +200296,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -200343,7 +200343,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -200875,7 +200875,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -200922,7 +200922,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -201454,7 +201454,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -201501,7 +201501,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -202033,7 +202033,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -202080,7 +202080,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -202612,7 +202612,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -202659,7 +202659,7 @@ pg.equip_data_template = {
 			},
 			{
 				17004,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -204268,7 +204268,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -204315,7 +204315,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -206704,7 +206704,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -206751,7 +206751,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -207385,7 +207385,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -207432,7 +207432,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -210395,7 +210395,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -210442,7 +210442,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -210974,7 +210974,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -211021,7 +211021,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -212171,7 +212171,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -212218,7 +212218,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -213368,7 +213368,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -213415,7 +213415,7 @@ pg.equip_data_template = {
 			},
 			{
 				17034,
-				11
+				30
 			}
 		},
 		restore_item = {
@@ -214574,7 +214574,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				10
+				19
 			}
 		},
 		restore_item = {
@@ -214621,7 +214621,7 @@ pg.equip_data_template = {
 			},
 			{
 				17014,
-				11
+				30
 			}
 		},
 		restore_item = {

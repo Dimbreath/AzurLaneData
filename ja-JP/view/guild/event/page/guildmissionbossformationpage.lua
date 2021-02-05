@@ -17,13 +17,23 @@ function slot0.OnLoaded(slot0)
 	slot0.subGrids = slot0:findTF("frame/single")
 	slot0.nextBtn = slot0:findTF("frame/next")
 	slot0.prevBtn = slot0:findTF("frame/prev")
-	slot0.commanderTF = slot0:findTF("frame/commander")
-	slot0.pos1 = slot0:findTF("commander1", slot0.commanderTF)
-	slot0.pos2 = slot0:findTF("commander2", slot0.commanderTF)
+	slot0.commanderPage = GuildCommanderFormationPage.New(slot0:findTF("frame/commanders"), slot0.event, slot0.contextData)
 
 	setText(slot0:findTF("oil/label", slot0.goBtn), i18n("text_consume"))
 
-	slot0.shipGos = {}
+	slot0.shipCards = {}
+end
+
+function slot0.Show(slot0, slot1, slot2, slot3)
+	uv0.super.Show(slot0, slot1, slot2, slot3)
+
+	Input.multiTouchEnabled = false
+end
+
+function slot0.Hide(slot0, slot1)
+	uv0.super.Hide(slot0, slot1)
+
+	Input.multiTouchEnabled = true
 end
 
 function slot0.OnInit(slot0)
@@ -69,18 +79,28 @@ function slot0.UpdateMission(slot0, slot1, slot2)
 	end
 end
 
+function slot0.OnBossCommanderFormationChange(slot0)
+	slot0.fleet = slot0.contextData.editBossFleet[slot0.fleet.id]
+
+	slot0:UpdateCommanders(slot0.fleet)
+end
+
+function slot0.OnBossCommanderPrefabFormationChange(slot0)
+	slot0:UpdateCommanders(slot0.fleet)
+end
+
 function slot0.OnShow(slot0)
+	slot0.isOpenCommander = slot0:CheckCommanderPanel()
 	slot0.guild = slot0.guild
 
 	slot0:UpdateMission(slot0.extraData.mission, true)
 	slot0:UpdateDesc()
-	slot0:CheckCommanderPanel()
 
 	slot0.consumeTxt.text = string.format("<color=%s>%d</color>/%d", pg.guildset.use_oil.key_value <= getProxy(PlayerProxy):getRawData():getResource(2) and COLOR_GREEN or COLOR_RED, slot3, slot2)
 end
 
 function slot0.CheckCommanderPanel(slot0)
-	setActive(slot0.commanderTF, pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "CommandRoomMediator") and not LOCK_COMMANDER)
+	return pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "CommandRoomMediator") and not LOCK_COMMANDER
 end
 
 function slot0.UpdateDesc(slot0)
@@ -121,35 +141,9 @@ function slot0.UpdateFleet(slot0, slot1)
 end
 
 function slot0.UpdateCommanders(slot0, slot1)
-	for slot6 = 1, CommanderConst.MAX_FORMATION_POS do
-		slot0:updateCommander(slot0["pos" .. slot6], slot6, slot1:getCommanders()[slot6])
+	if slot0.isOpenCommander then
+		slot0.commanderPage:ExecuteAction("Update", slot1, getProxy(CommanderProxy):getPrefabFleet())
 	end
-end
-
-function slot0.updateCommander(slot0, slot1, slot2, slot3)
-	slot4 = slot1:Find("add")
-	slot5 = slot1:Find("info")
-
-	if slot3 then
-		slot7 = slot1:Find("info/frame")
-
-		GetImageSpriteFromAtlasAsync("CommanderHrz/" .. slot3:getPainting(), "", slot1:Find("info/mask/icon"))
-
-		if slot1:Find("info/name") then
-			setText(slot8, slot3:getName())
-		end
-
-		setImageSprite(slot7, GetSpriteFromAtlas("weaponframes", "commander_" .. Commander.rarity2Frame(slot3:getRarity())))
-	end
-
-	onButton(slot0, slot5, function ()
-		uv0:emit(GuildEventMediator.ON_SELECT_COMMANDER, uv0.fleet.id, uv1, uv2)
-	end, SFX_PANEL)
-	onButton(slot0, slot4, function ()
-		uv0:emit(GuildEventMediator.ON_SELECT_COMMANDER, uv0.fleet.id, uv1, uv2)
-	end, SFX_PANEL)
-	setActive(slot4, not slot3)
-	setActive(slot5, slot3)
 end
 
 function slot0.UpdateShips(slot0, slot1)
@@ -182,60 +176,131 @@ end
 
 function slot0.UpdateMainFleetShips(slot0, slot1, slot2)
 	for slot6 = 1, 3 do
-		slot0:UpdateShip(slot0.grids:Find(slot6), TeamType.Main, slot1[slot6])
+		slot0:UpdateShip(slot6, slot0.grids:Find(slot6), TeamType.Main, slot1[slot6])
 	end
 
 	for slot6 = 4, 6 do
-		slot0:UpdateShip(slot0.grids:Find(slot6), TeamType.Vanguard, slot2[slot6 - 3])
+		slot0:UpdateShip(slot6, slot0.grids:Find(slot6), TeamType.Vanguard, slot2[slot6 - 3])
 	end
 end
 
 function slot0.UpdateSubFleetShips(slot0, slot1)
 	for slot5 = 1, 3 do
-		slot0:UpdateShip(slot0.subGrids:Find(slot5), TeamType.Submarine, slot1[slot5])
+		slot0:UpdateShip(slot5, slot0.subGrids:Find(slot5), TeamType.Submarine, slot1[slot5])
 	end
 end
 
-function slot0.UpdateShip(slot0, slot1, slot2, slot3)
-	slot4 = slot1:Find("Image")
+function slot0.UpdateShip(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot2:Find("Image")
 
-	if slot3 then
-		PoolMgr.GetInstance():GetSpineChar(slot3.ship:getPrefab(), true, function (slot0)
+	if slot4 then
+		PoolMgr.GetInstance():GetSpineChar(slot4.ship:getPrefab(), true, function (slot0)
 			slot0.name = uv0
-			tf(slot0).pivot = Vector2(0.5, 0)
-			tf(slot0).sizeDelta = Vector2(200, 300)
 
-			SetParent(slot0, uv1)
+			SetParent(slot0, uv1.parent)
 
-			tf(slot0).localPosition = Vector3(0, 0, 0)
-			tf(slot0).localScale = Vector3(0.6, 0.6, 0.6)
+			slot1 = GuildBossFormationShipCard.New(slot0)
 
+			slot1:Update(uv2, uv3)
 			SetAction(slot0, "stand")
-			GetOrAddComponent(slot0, "EventTriggerListener"):AddPointClickFunc(function (slot0, slot1)
+
+			slot2 = GetOrAddComponent(slot0, "EventTriggerListener")
+
+			slot2:AddPointClickFunc(function (slot0, slot1)
+				if uv0.dragging then
+					return
+				end
+
 				uv0:emit(GuildEventMediator.ON_SELECT_BOSS_SHIP, uv1, uv0.fleet.id, uv2)
 			end)
-			table.insert(uv2.shipGos, slot0)
+			slot2:AddBeginDragFunc(function (slot0, slot1)
+				uv0.dragging = true
+
+				slot0.transform:SetAsLastSibling()
+				SetAction(slot0, "tuozhuai")
+			end)
+			slot2:AddDragFunc(function (slot0, slot1)
+				uv2:SetLocalPosition(uv0.Scr2Lpos(uv1.parent, slot1.position))
+
+				if uv3:GetNearestCard(uv2) then
+					uv3:SwopCardSolt(slot3, uv2)
+				end
+			end)
+			slot2:AddDragEndFunc(function (slot0, slot1)
+				uv0.dragging = false
+
+				uv1:RefreshPosition(uv1:GetSoltIndex(), true)
+				SetAction(slot0, "stand")
+				uv0:RefreshFleet()
+			end)
+			table.insert(uv4.shipCards, slot1)
 		end)
 	else
-		onButton(slot0, slot4, function ()
+		onButton(slot0, slot5, function ()
 			uv0:emit(GuildEventMediator.ON_SELECT_BOSS_SHIP, uv1, uv0.fleet.id)
 		end, SFX_PANEL)
 	end
 
-	setActive(slot4, not slot3)
+	setActive(slot5, not slot4)
+end
+
+function slot0.GetNearestCard(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.shipCards) do
+		if slot6:GetSoltIndex() ~= slot1:GetSoltIndex() and slot6.teamType == slot1.teamType and Vector2.Distance(slot1:GetLocalPosition(), slot6:GetLocalPosition()) <= 50 then
+			return slot6
+		end
+	end
+
+	return nil
+end
+
+function slot0.SwopCardSolt(slot0, slot1, slot2)
+	slot1:RefreshPosition(slot2:GetSoltIndex(), true)
+	slot2:RefreshPosition(slot1:GetSoltIndex(), false)
+end
+
+function slot0.RefreshFleet(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0.shipCards) do
+		table.insert(slot1, {
+			index = slot6:GetSoltIndex(),
+			shipId = slot6.shipId
+		})
+	end
+
+	table.sort(slot1, function (slot0, slot1)
+		return slot0.index < slot1.index
+	end)
+
+	if not slot0.contextData.editBossFleet then
+		slot0.contextData.editBossFleet = {}
+	end
+
+	if not slot0.contextData.editBossFleet[slot0.fleet.id] then
+		slot0.contextData.editBossFleet[slot0.fleet.id] = Clone(slot0.fleet)
+		slot0.fleet = slot0.contextData.editBossFleet[slot0.fleet.id]
+	end
+
+	slot0.fleet:ResortShips(slot1)
 end
 
 function slot0.ClearShips(slot0)
-	for slot4, slot5 in ipairs(slot0.shipGos) do
-		PoolMgr.GetInstance():ReturnSpineChar(slot5.name, slot5)
+	for slot4, slot5 in ipairs(slot0.shipCards) do
+		slot5:Dispose()
 	end
 
-	slot0.shipGos = {}
+	slot0.shipCards = {}
 end
 
 function slot0.OnDestroy(slot0)
 	uv0.super.OnDestroy(slot0)
 	slot0:ClearShips()
+	slot0.commanderPage:Destroy()
+end
+
+function slot0.Scr2Lpos(slot0, slot1)
+	return LuaHelper.ScreenToLocal(slot0:GetComponent("RectTransform"), slot1, GameObject.Find("OverlayCamera"):GetComponent("Camera"))
 end
 
 return slot0

@@ -3,8 +3,31 @@ slot0.ON_TASK_SUBMIT = "TaskMediator:ON_TASK_SUBMIT"
 slot0.ON_TASK_GO = "TaskMediator:ON_TASK_GO"
 slot0.TASK_FILTER = "TaskMediator:TASK_FILTER"
 slot0.CLICK_GET_ALL = "TaskMediator:CLICK_GET_ALL"
+slot0.ON_DROP = "TaskMediator:ON_DROP"
 
 function slot0.register(slot0)
+	slot0:bind(uv0.ON_DROP, function (slot0, slot1, slot2)
+		if slot1.type == DROP_TYPE_EQUIP then
+			uv0:addSubLayers(Context.New({
+				mediator = EquipmentInfoMediator,
+				viewComponent = EquipmentInfoLayer,
+				data = {
+					equipmentId = slot1.cfg.id,
+					type = EquipmentInfoMediator.TYPE_DISPLAY,
+					onRemoved = slot2,
+					LayerWeightMgr_weight = LayerWeightConst.THIRD_LAYER
+				}
+			}))
+		else
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_SINGLE_ITEM,
+				drop = slot1,
+				onNo = slot2,
+				onYes = slot2,
+				weight = LayerWeightConst.THIRD_LAYER
+			})
+		end
+	end)
 	slot0:bind(uv0.ON_TASK_SUBMIT, function (slot0, slot1)
 		if getProxy(ActivityProxy):getActivityById(ActivityConst.JYHZ_ACTIVITY_ID) then
 			slot5 = _.flatten(slot3:getConfig("config_data"))

@@ -57,8 +57,8 @@ function slot0.getState(slot0)
 	return slot0.state
 end
 
-function slot0.getSkillDesc(slot0, slot1)
-	return getSkillDescLearn(slot0, slot1)
+function slot0.getSkillDesc(slot0, slot1, slot2)
+	return getSkillDescLearn(slot0, slot1, slot2)
 end
 
 function slot0.getSkillName(slot0)

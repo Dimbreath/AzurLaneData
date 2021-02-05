@@ -163,8 +163,20 @@ function slot0.getBannerDisplays(slot0)
 	return _(pg.activity_banner.all):chain():map(function (slot0)
 		return pg.activity_banner[slot0]
 	end):filter(function (slot0)
-		return pg.TimeMgr.GetInstance():inTime(slot0.time)
+		return pg.TimeMgr.GetInstance():inTime(slot0.time) and slot0.type ~= GAMEUI_BANNER_9
 	end):value()
+end
+
+function slot0.getActiveBannerByType(slot0, slot1)
+	if #_(pg.activity_banner.all):chain():map(function (slot0)
+		return pg.activity_banner[slot0]
+	end):filter(function (slot0)
+		return pg.TimeMgr.GetInstance():inTime(slot0.time) and slot0.type == uv0
+	end):value() > 0 then
+		return slot2[1]
+	end
+
+	return nil
 end
 
 function slot0.getNoticeBannerDisplays(slot0)

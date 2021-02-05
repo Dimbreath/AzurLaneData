@@ -222,7 +222,7 @@ end
 
 function slot0.getSpecialDatePara(slot0)
 	for slot5, slot6 in ipairs(SPECIAL_DATE) do
-		if slot6[1] == pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y%m%d") then
+		if slot6[1] == pg.TimeMgr.GetInstance():CTimeDescC(os.time(), "%Y%m%d") then
 			return slot6
 		end
 	end

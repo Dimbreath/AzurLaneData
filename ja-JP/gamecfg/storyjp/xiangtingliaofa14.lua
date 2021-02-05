@@ -298,7 +298,7 @@ return {
 			actor = 103160,
 			side = 0,
 			nameColor = "#a9f548",
-			dir = 2,
+			dir = 1,
 			say = "この力をもって大切なものを守り抜く――それが私の正義だ！",
 			typewriter = {
 				speed = 0.05,

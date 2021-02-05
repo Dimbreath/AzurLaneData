@@ -5,6 +5,7 @@ slot0.SKIN_TYPE_PROPOSE = 1
 slot0.SKIN_TYPE_REMAKE = 2
 slot0.SKIN_TYPE_OLD = 3
 slot0.SKIN_TYPE_NOT_HAVE_HIDE = 4
+slot0.SKIN_TYPE_SHOW_IN_TIME = 5
 slot0.WITH_BGM = 5
 slot1 = pg.ship_skin_template.get_id_list_by_ship_group
 
@@ -65,6 +66,10 @@ end
 
 function slot0.getIcon(slot0)
 	return slot0:getConfig("painting")
+end
+
+function slot0.InShowTime(slot0)
+	return getProxy(ShipSkinProxy):InShowTime(slot0.id)
 end
 
 return slot0

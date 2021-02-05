@@ -21,6 +21,22 @@ function slot0.execute(slot0, slot1)
 					awards = PlayerConst.addTranDrop(slot0.award_list)
 				})
 			else
+				if slot2 == ActivityConst.MONOPOLY_OP_LAST then
+					uv1.data2_list[3] = 1
+
+					if #slot1 > 0 then
+						uv3:sendNotification(GAME.MONOPOLY_AWARD_DONE, {
+							awards = slot1,
+							callback = function ()
+							end
+						})
+					end
+
+					if uv0.callback then
+						uv0.callback()
+					end
+				end
+
 				slot3 = {}
 
 				for slot8, slot9 in ipairs(slot0.number) do

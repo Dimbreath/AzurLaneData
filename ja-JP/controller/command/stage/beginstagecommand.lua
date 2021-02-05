@@ -15,12 +15,13 @@ function slot0.RequestFailStandardProcess(slot0, slot1)
 	end
 end
 
-function slot0.SendRequest(slot0, slot1, slot2, slot3, slot4)
+function slot0.SendRequest(slot0, slot1, slot2, slot3, slot4, slot5)
 	pg.ConnectionMgr.GetInstance():Send(40001, {
 		system = slot0,
 		ship_id_list = slot1,
 		data = slot2[1],
-		data2 = slot2[2]
+		data2 = slot2[2],
+		other_ship_id_list = slot5 or {}
 	}, 40002, function (slot0)
 		if slot0.result == 0 then
 			uv0(slot0)

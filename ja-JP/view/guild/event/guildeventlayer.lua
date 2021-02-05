@@ -180,6 +180,18 @@ function slot0.OnRefreshAllAssultShipRecommandState(slot0)
 	end
 end
 
+function slot0.OnBossCommanderFormationChange(slot0)
+	if slot0.missBossForamtionPage and slot0.missBossForamtionPage:GetLoaded() then
+		slot0.missBossForamtionPage:OnBossCommanderFormationChange()
+	end
+end
+
+function slot0.OnBossCommanderPrefabFormationChange(slot0)
+	if slot0.missBossForamtionPage and slot0.missBossForamtionPage:GetLoaded() then
+		slot0.missBossForamtionPage:OnBossCommanderPrefabFormationChange()
+	end
+end
+
 function slot0.init(slot0)
 	slot0:bind(uv0.OPEN_EVENT_INFO, function (slot0, slot1)
 		uv0.eventInfoPage:ExecuteAction("Show", uv0.guildVO, uv0.player, {
@@ -269,6 +281,10 @@ function slot0.EnterEvent(slot0)
 
 		slot0.eventInfoPage = nil
 	end
+end
+
+function slot0.OnEventEnd(slot0)
+	slot0:EnterEvent()
 end
 
 function slot0.onBackPressed(slot0)

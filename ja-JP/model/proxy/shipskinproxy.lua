@@ -197,11 +197,9 @@ function slot0.GetAllSkins(slot0)
 		end
 	end
 
-	if #slot0.forbiddenSkinList > 0 then
-		for slot7 = #slot1, 1, -1 do
-			if slot0:InForbiddenSkinList(slot1[slot7]:getSkinId()) then
-				table.remove(slot1, slot7)
-			end
+	for slot7 = #slot1, 1, -1 do
+		if slot0:InForbiddenSkinList(slot1[slot7]:getSkinId()) or not slot0:InShowTime(slot8) then
+			table.remove(slot1, slot7)
 		end
 	end
 
@@ -211,6 +209,8 @@ end
 function slot0.GetAllSkinForShip(slot0, slot1)
 	for slot7 = #ShipGroup.getSkinList(slot1.groupId), 1, -1 do
 		if slot3[slot7].skin_type == ShipSkin.SKIN_TYPE_NOT_HAVE_HIDE and not slot0:hasSkin(slot8.id) then
+			table.remove(slot3, slot7)
+		elseif not slot0:InShowTime(slot8.id) then
 			table.remove(slot3, slot7)
 		end
 	end
@@ -263,7 +263,7 @@ function slot0.GetAllSkinForARCamera(slot0, slot1)
 		end
 	end
 
-	if ShipGroup.GetGroupConfig(slot1).trans_skinz ~= 0 then
+	if ShipGroup.GetGroupConfig(slot1).trans_skin ~= 0 then
 		slot4 = false
 
 		if getProxy(CollectionProxy):getShipGroup(slot1) then
@@ -294,6 +294,8 @@ function slot0.GetAllSkinForARCamera(slot0, slot1)
 			table.remove(slot2, slot7)
 		elseif PLATFORM == PLATFORM_KR and pg.ship_skin_template[slot8.id].isHX == 1 then
 			table.remove(slot2, slot7)
+		elseif not slot0:InShowTime(slot8.id) then
+			table.remove(slot2, slot7)
 		end
 	end
 
@@ -306,6 +308,14 @@ function slot0.GetAllSkinForARCamera(slot0, slot1)
 	end
 
 	return slot2
+end
+
+function slot0.InShowTime(slot0, slot1)
+	if pg.ship_skin_template[slot1].skin_type == ShipSkin.SKIN_TYPE_SHOW_IN_TIME then
+		return pg.TimeMgr.GetInstance():inTime(slot2.time)
+	else
+		return true
+	end
 end
 
 function slot0.HasFashion(slot0, slot1)

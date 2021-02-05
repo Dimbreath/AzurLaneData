@@ -83875,6 +83875,514 @@ pg.ship_data_statistics = {
 			"special"
 		}
 	},
+	[202291] = {
+		oxy_max = 0,
+		type = 2,
+		name = "ペネロピ",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 202291,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Penelope",
+		oxy_cost = 0,
+		skin_id = 202290,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			497,
+			29,
+			52,
+			63,
+			0,
+			71,
+			0,
+			58,
+			29,
+			32,
+			52,
+			28
+		},
+		attrs_growth = {
+			12110,
+			292,
+			510,
+			1240,
+			0,
+			352,
+			0,
+			864,
+			432,
+			0,
+			0,
+			282
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.45,
+			1.2,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Arethusa-Class"
+		}
+	},
+	[202292] = {
+		oxy_max = 0,
+		type = 2,
+		name = "ペネロピ",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 202292,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Penelope",
+		oxy_cost = 0,
+		skin_id = 202290,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			618,
+			36,
+			65,
+			79,
+			0,
+			71,
+			0,
+			58,
+			29,
+			32,
+			52,
+			35
+		},
+		attrs_growth = {
+			12110,
+			292,
+			510,
+			1240,
+			0,
+			352,
+			0,
+			864,
+			432,
+			0,
+			0,
+			282
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.27,
+			1.47,
+			1.22,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Arethusa-Class"
+		}
+	},
+	[202293] = {
+		oxy_max = 0,
+		type = 2,
+		name = "ペネロピ",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 202293,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Penelope",
+		oxy_cost = 0,
+		skin_id = 202290,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			860,
+			51,
+			90,
+			110,
+			0,
+			71,
+			0,
+			58,
+			29,
+			32,
+			52,
+			49
+		},
+		attrs_growth = {
+			12110,
+			292,
+			510,
+			1240,
+			0,
+			352,
+			0,
+			864,
+			432,
+			0,
+			0,
+			282
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.5,
+			1.25,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Arethusa-Class"
+		}
+	},
+	[202294] = {
+		oxy_max = 0,
+		type = 2,
+		name = "ペネロピ",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 202294,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Penelope",
+		oxy_cost = 0,
+		skin_id = 202290,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1224,
+			73,
+			129,
+			156,
+			0,
+			71,
+			0,
+			58,
+			29,
+			32,
+			52,
+			70
+		},
+		attrs_growth = {
+			12110,
+			292,
+			510,
+			1240,
+			0,
+			352,
+			0,
+			864,
+			432,
+			0,
+			0,
+			282
+		},
+		attrs_growth_extra = {
+			4239,
+			683,
+			1129,
+			574,
+			0,
+			833,
+			0,
+			0,
+			723,
+			0,
+			0,
+			370
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.55,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Arethusa-Class"
+		}
+	},
 	[203011] = {
 		oxy_max = 0,
 		type = 3,
@@ -193461,6 +193969,1002 @@ pg.ship_data_statistics = {
 			"U-boat"
 		}
 	},
+	[408111] = {
+		oxy_max = 188,
+		type = 8,
+		name = "U-410",
+		huntingrange_level = 1,
+		star = 2,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 408111,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-410",
+		oxy_cost = 10,
+		skin_id = 408110,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			203,
+			8,
+			97,
+			0,
+			0,
+			31,
+			0,
+			59,
+			7,
+			14.4,
+			50,
+			0
+		},
+		attrs_growth = {
+			4960,
+			80,
+			958,
+			0,
+			0,
+			152,
+			0,
+			870,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.05,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					3
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					0,
+					3
+				},
+				{
+					1,
+					-3
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					3
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					0
+				},
+				{
+					3,
+					-1
+				},
+				{
+					3,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					3,
+					0
+				}
+			}
+		},
+		tag_list = {
+			"U-boat"
+		}
+	},
+	[408112] = {
+		oxy_max = 188,
+		type = 8,
+		name = "U-410",
+		huntingrange_level = 1,
+		star = 3,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 408112,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-410",
+		oxy_cost = 10,
+		skin_id = 408110,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			253,
+			10,
+			121,
+			0,
+			0,
+			31,
+			0,
+			59,
+			7,
+			14.4,
+			50,
+			0
+		},
+		attrs_growth = {
+			4960,
+			80,
+			958,
+			0,
+			0,
+			152,
+			0,
+			870,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					3
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					0,
+					3
+				},
+				{
+					1,
+					-3
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					3
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					0
+				},
+				{
+					3,
+					-1
+				},
+				{
+					3,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					3,
+					0
+				}
+			}
+		},
+		tag_list = {
+			"U-boat"
+		}
+	},
+	[408113] = {
+		oxy_max = 188,
+		type = 8,
+		name = "U-410",
+		huntingrange_level = 2,
+		star = 4,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 408113,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-410",
+		oxy_cost = 10,
+		skin_id = 408110,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			352,
+			14,
+			169,
+			0,
+			0,
+			31,
+			0,
+			59,
+			7,
+			14.4,
+			50,
+			0
+		},
+		attrs_growth = {
+			4960,
+			80,
+			958,
+			0,
+			0,
+			152,
+			0,
+			870,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					3
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					0,
+					3
+				},
+				{
+					1,
+					-3
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					3
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					0
+				},
+				{
+					3,
+					-1
+				},
+				{
+					3,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					3,
+					0
+				}
+			}
+		},
+		tag_list = {
+			"U-boat"
+		}
+	},
+	[408114] = {
+		oxy_max = 188,
+		type = 8,
+		name = "U-410",
+		huntingrange_level = 2,
+		star = 5,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 408114,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-410",
+		oxy_cost = 10,
+		skin_id = 408110,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			501,
+			20,
+			241,
+			0,
+			0,
+			31,
+			0,
+			59,
+			7,
+			14.4,
+			50,
+			0
+		},
+		attrs_growth = {
+			4960,
+			80,
+			958,
+			0,
+			0,
+			152,
+			0,
+			870,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			4960,
+			183,
+			1197,
+			0,
+			0,
+			366,
+			0,
+			4,
+			777,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.2,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					3
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					0,
+					3
+				},
+				{
+					1,
+					-3
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					3
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					0
+				},
+				{
+					3,
+					-1
+				},
+				{
+					3,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					3,
+					0
+				}
+			}
+		},
+		tag_list = {
+			"U-boat"
+		}
+	},
 	[501011] = {
 		oxy_max = 0,
 		type = 1,
@@ -196983,6 +198487,1022 @@ pg.ship_data_statistics = {
 		tag_list = {
 			"Ning Hai-Class",
 			"Ping Hai"
+		}
+	},
+	[502041] = {
+		oxy_max = 0,
+		type = 2,
+		name = "応瑞",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 502041,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "ROC Ying Swei",
+		oxy_cost = 0,
+		skin_id = 502040,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			426,
+			13,
+			43,
+			24,
+			0,
+			51,
+			0,
+			53,
+			24,
+			20,
+			20,
+			17
+		},
+		attrs_growth = {
+			10380,
+			128,
+			424,
+			476,
+			0,
+			254,
+			0,
+			786,
+			360,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			437
+		},
+		default_equip_list = {
+			101,
+			100,
+			105
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			0.9,
+			0.8,
+			0.5
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Chaoho-Class"
+		}
+	},
+	[502042] = {
+		oxy_max = 0,
+		type = 2,
+		name = "応瑞",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 502042,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "ROC Ying Swei",
+		oxy_cost = 0,
+		skin_id = 502040,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			530,
+			16,
+			54,
+			30,
+			0,
+			51,
+			0,
+			53,
+			24,
+			20,
+			20,
+			21
+		},
+		attrs_growth = {
+			10380,
+			128,
+			424,
+			476,
+			0,
+			254,
+			0,
+			786,
+			360,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			437
+		},
+		default_equip_list = {
+			101,
+			100,
+			105
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			0.9,
+			0.8,
+			0.5
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Chaoho-Class"
+		}
+	},
+	[502043] = {
+		oxy_max = 0,
+		type = 2,
+		name = "応瑞",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 502043,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "ROC Ying Swei",
+		oxy_cost = 0,
+		skin_id = 502040,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			737,
+			23,
+			75,
+			42,
+			0,
+			51,
+			0,
+			53,
+			24,
+			20,
+			20,
+			30
+		},
+		attrs_growth = {
+			10380,
+			128,
+			424,
+			476,
+			0,
+			254,
+			0,
+			786,
+			360,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			437
+		},
+		default_equip_list = {
+			101,
+			100,
+			105
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.85,
+			0.9,
+			0.8,
+			0.5
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Chaoho-Class"
+		}
+	},
+	[502044] = {
+		oxy_max = 0,
+		type = 2,
+		name = "応瑞",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 502044,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "ROC Ying Swei",
+		oxy_cost = 0,
+		skin_id = 502040,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1049,
+			32,
+			107,
+			60,
+			0,
+			51,
+			0,
+			53,
+			24,
+			20,
+			20,
+			43
+		},
+		attrs_growth = {
+			10380,
+			128,
+			424,
+			476,
+			0,
+			254,
+			0,
+			786,
+			360,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			1038,
+			300,
+			1001,
+			327,
+			0,
+			601,
+			0,
+			0,
+			-4,
+			0,
+			0,
+			264
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			437
+		},
+		default_equip_list = {
+			101,
+			100,
+			105
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.9,
+			0.8,
+			0.5
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Chaoho-Class"
+		}
+	},
+	[502051] = {
+		oxy_max = 0,
+		type = 2,
+		name = "肇和 ",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 502051,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "ROC Chao Ho",
+		oxy_cost = 0,
+		skin_id = 502050,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			442,
+			13,
+			43,
+			24,
+			0,
+			51,
+			0,
+			53,
+			24,
+			20,
+			20,
+			17
+		},
+		attrs_growth = {
+			10790,
+			128,
+			424,
+			468,
+			0,
+			254,
+			0,
+			786,
+			360,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			437
+		},
+		default_equip_list = {
+			101,
+			100,
+			105
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			0.9,
+			0.8,
+			0.5
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Chaoho-Class"
+		}
+	},
+	[502052] = {
+		oxy_max = 0,
+		type = 2,
+		name = "肇和 ",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 502052,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "ROC Chao Ho",
+		oxy_cost = 0,
+		skin_id = 502050,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			550,
+			16,
+			54,
+			30,
+			0,
+			51,
+			0,
+			53,
+			24,
+			20,
+			20,
+			21
+		},
+		attrs_growth = {
+			10790,
+			128,
+			424,
+			468,
+			0,
+			254,
+			0,
+			786,
+			360,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			437
+		},
+		default_equip_list = {
+			101,
+			100,
+			105
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			0.9,
+			0.8,
+			0.5
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Chaoho-Class"
+		}
+	},
+	[502053] = {
+		oxy_max = 0,
+		type = 2,
+		name = "肇和 ",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 502053,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "ROC Chao Ho",
+		oxy_cost = 0,
+		skin_id = 502050,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			766,
+			23,
+			75,
+			42,
+			0,
+			51,
+			0,
+			53,
+			24,
+			20,
+			20,
+			30
+		},
+		attrs_growth = {
+			10790,
+			128,
+			424,
+			468,
+			0,
+			254,
+			0,
+			786,
+			360,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			437
+		},
+		default_equip_list = {
+			101,
+			100,
+			105
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.85,
+			0.9,
+			0.8,
+			0.5
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Chaoho-Class"
+		}
+	},
+	[502054] = {
+		oxy_max = 0,
+		type = 2,
+		name = "肇和 ",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 502054,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "ROC Chao Ho",
+		oxy_cost = 0,
+		skin_id = 502050,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1089,
+			32,
+			107,
+			59,
+			0,
+			51,
+			0,
+			53,
+			24,
+			20,
+			20,
+			43
+		},
+		attrs_growth = {
+			10790,
+			128,
+			424,
+			468,
+			0,
+			254,
+			0,
+			786,
+			360,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			1078,
+			300,
+			1001,
+			320,
+			0,
+			601,
+			0,
+			0,
+			-4,
+			0,
+			0,
+			264
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			437
+		},
+		default_equip_list = {
+			101,
+			100,
+			105
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.9,
+			0.8,
+			0.5
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Chaoho-Class"
 		}
 	},
 	[601021] = {
@@ -272526,6 +275046,10 @@ pg.ship_data_statistics = {
 		202282,
 		202283,
 		202284,
+		202291,
+		202292,
+		202293,
+		202294,
 		203011,
 		203012,
 		203013,
@@ -273338,6 +275862,10 @@ pg.ship_data_statistics = {
 		408102,
 		408103,
 		408104,
+		408111,
+		408112,
+		408113,
+		408114,
 		501011,
 		501012,
 		501013,
@@ -273366,6 +275894,14 @@ pg.ship_data_statistics = {
 		502032,
 		502033,
 		502034,
+		502041,
+		502042,
+		502043,
+		502044,
+		502051,
+		502052,
+		502053,
+		502054,
 		601021,
 		601022,
 		601023,

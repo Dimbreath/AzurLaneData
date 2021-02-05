@@ -2,8 +2,9 @@ pg = pg or {}
 pg.activity_event_monopoly = {
 	{
 		daily_time = 4,
-		id = 1,
 		reward_time = 8,
+		id = 1,
+		version = 1,
 		map = {
 			1001,
 			1002,
@@ -69,12 +70,14 @@ pg.activity_event_monopoly = {
 				36,
 				"DONGHUANGCHUNJIE7"
 			}
-		}
+		},
+		drop_times = {}
 	},
 	{
 		daily_time = 5,
-		id = 2,
 		reward_time = 5,
+		id = 2,
+		version = 1,
 		map = {
 			1001,
 			1002,
@@ -126,12 +129,14 @@ pg.activity_event_monopoly = {
 				36,
 				"DONGHUANGCHUNJIE7"
 			}
-		}
+		},
+		drop_times = {}
 	},
 	{
 		daily_time = 5,
-		id = 3,
 		reward_time = 0,
+		id = 3,
+		version = 1,
 		map = {
 			2001,
 			2002,
@@ -154,11 +159,45 @@ pg.activity_event_monopoly = {
 		},
 		reward = {},
 		reward_extra = {},
-		story = {}
+		story = {},
+		drop_times = {}
+	},
+	{
+		daily_time = 5,
+		reward_time = 5,
+		id = 4,
+		version = 2,
+		map = {
+			3002,
+			3003,
+			3004,
+			3005,
+			3006,
+			3007,
+			3008,
+			3009,
+			3010,
+			3011,
+			3012,
+			3013,
+			3014,
+			3015,
+			3016,
+			3017,
+			3018
+		},
+		reward = {},
+		reward_extra = {},
+		story = {},
+		drop_times = {
+			35,
+			94598
+		}
 	},
 	all = {
 		1,
 		2,
-		3
+		3,
+		4
 	}
 }

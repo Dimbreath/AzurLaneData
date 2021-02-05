@@ -444,33 +444,121 @@ function slot0.ShouldRequestForamtion(slot0)
 end
 
 function slot0.GetRecommendShipsForMission(slot0, slot1)
-	slot2 = {}
-	slot5 = {}
+	if slot1:IsEliteType() then
+		return slot0:GetRecommendShipsForEliteMission(slot1)
+	else
+		slot2 = {}
+		slot5 = {}
 
-	for slot9, slot10 in pairs(getProxy(BayProxy):getRawData()) do
-		table.insert(slot5, {
-			id = slot10.id,
-			power = slot10:getShipCombatPower(),
-			nation = slot10:getNation(),
-			type = slot10:getShipType(),
-			level = slot10.level,
-			tagList = slot10:getConfig("tag_list"),
-			configId = slot10.configId,
-			attrs = slot10:getProperties()
-		})
-	end
-
-	table.sort(slot5, function (slot0, slot1)
-		return uv0:CompareRecommendShip(slot0, slot1)
-	end)
-
-	for slot9, slot10 in ipairs(slot5) do
-		if GuildEventMediator.OnCheckMissionShip(slot1.id, slot2, slot10) then
-			table.insert(slot2, slot10.id)
+		for slot9, slot10 in pairs(getProxy(BayProxy):getRawData()) do
+			table.insert(slot5, {
+				id = slot10.id,
+				power = slot10:getShipCombatPower(),
+				nation = slot10:getNation(),
+				type = slot10:getShipType(),
+				level = slot10.level,
+				tagList = slot10:getConfig("tag_list"),
+				configId = slot10.configId,
+				attrs = slot10:getProperties()
+			})
 		end
 
-		if #slot2 == 4 then
-			break
+		table.sort(slot5, function (slot0, slot1)
+			return uv0:CompareRecommendShip(slot0, slot1)
+		end)
+
+		for slot9, slot10 in ipairs(slot5) do
+			if GuildEventMediator.OnCheckMissionShip(slot1.id, slot2, slot10) then
+				table.insert(slot2, slot10.id)
+			end
+
+			if #slot2 == 4 then
+				break
+			end
+		end
+
+		return slot2
+	end
+end
+
+function slot0.GetRecommendShipsForEliteMission(slot0, slot1)
+	slot2 = {}
+	slot5 = {}
+	slot6 = {}
+	slot7 = {}
+
+	for slot11, slot12 in pairs(getProxy(BayProxy):getRawData()) do
+		if slot1:SameSquadron({
+			id = slot12.id,
+			power = slot12:getShipCombatPower(),
+			nation = slot12:getNation(),
+			type = slot12:getShipType(),
+			level = slot12.level,
+			tagList = slot12:getConfig("tag_list"),
+			configId = slot12.configId,
+			attrs = slot12:getProperties()
+		}) then
+			table.insert(slot6, slot13)
+		else
+			table.insert(slot7, slot13)
+		end
+	end
+
+	function slot8(slot0)
+		if slot0 and not table.contains(uv0, slot0.id) and GuildEventMediator.OnCheckMissionShip(uv1.id, uv0, slot0) then
+			table.insert(uv0, slot0.id)
+		end
+	end
+
+	slot9 = slot1:GetEffectAttr()
+
+	function slot10(slot0, slot1)
+		if (slot0.attrs[uv0] or 0) == (slot1.attrs[uv0] or 0) then
+			if slot0.level == slot1.level then
+				return slot1.power < slot0.power
+			else
+				return slot1.level < slot0.level
+			end
+		else
+			return slot3 < slot2
+		end
+	end
+
+	slot12 = slot1:GetSquadronTargetCnt()
+
+	if #slot6 > 0 and slot12 > 0 then
+		table.sort(slot6, function (slot0, slot1)
+			if 0 + (uv0:MatchAttr(slot0) and 1000 or 0) + (uv0:MatchNation(slot0) and 100 or 0) + (uv0:MatchShipType(slot0) and 10 or 0) == 0 + (uv0:MatchAttr(slot1) and 1000 or 0) + (uv0:MatchNation(slot1) and 100 or 0) + (uv0:MatchShipType(slot1) and 10 or 0) then
+				return uv1(slot0, slot1)
+			else
+				return slot3 < slot2
+			end
+		end)
+
+		for slot16 = 1, slot12 do
+			slot8(slot6[slot16])
+		end
+	end
+
+	if #slot2 < 4 and #slot7 > 0 then
+		table.sort(slot7, slot11)
+
+		for slot16 = 1, #slot7 do
+			if #slot2 == 4 then
+				break
+			end
+
+			slot8(slot7[slot16])
+		end
+	end
+
+	if #slot2 < 4 and slot12 > 0 and slot12 < #slot6 then
+		for slot16 = slot12 + 1, #slot6 do
+			if #slot2 == 4 then
+				break
+			end
+
+			slot8(slot6[slot16])
 		end
 	end
 

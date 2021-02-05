@@ -115195,6 +115195,1970 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[16280] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94566,
+		type = 26,
+		name = "2021情人节送家具活动1",
+		count_inherit = 0,
+		desc = "艦隊を出撃させ、10回S評価で勝利せよ！",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16280,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54012,
+				5
+			}
+		}
+	},
+	[16281] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94567,
+		type = 26,
+		name = "2021情人节送家具活动2",
+		count_inherit = 0,
+		desc = "軍事委託を2回行う",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16281,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[16282] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94568,
+		type = 26,
+		name = "2021情人节送家具活动3",
+		count_inherit = 0,
+		desc = "デイリーチャレンジを3回遂行せよ！",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16282,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			}
+		}
+	},
+	[16283] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94569,
+		type = 26,
+		name = "2021情人节送家具活动4",
+		count_inherit = 0,
+		desc = "任意の敵艦を20隻撃破する",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16283,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54022,
+				3
+			}
+		}
+	},
+	[16284] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94570,
+		type = 26,
+		name = "2021情人节送家具活动5",
+		count_inherit = 0,
+		desc = "寮舎で食糧を5回補充する",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16284,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54023,
+				1
+			}
+		}
+	},
+	[16285] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94571,
+		type = 26,
+		name = "2021情人节送家具活动6",
+		count_inherit = 0,
+		desc = "艦を2隻「建造」せよ！",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16285,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54003,
+				2
+			}
+		}
+	},
+	[16286] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94572,
+		type = 26,
+		name = "2021情人节送家具活动7",
+		count_inherit = 0,
+		desc = "艦隊を出撃させ、敵中枢艦隊を3回撃破せよ！",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16286,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				191,
+				1
+			}
+		}
+	},
+	[16287] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94599,
+		type = 6,
+		name = "2021绘图日记耗油1",
+		count_inherit = 16288,
+		desc = "累計燃料消費500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16288",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16287,
+		target_num = 500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60120,
+				150
+			},
+			{
+				8,
+				60121,
+				200
+			},
+			{
+				8,
+				60122,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16288] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94600,
+		type = 6,
+		name = "2021绘图日记耗油2",
+		count_inherit = 16289,
+		desc = "累計燃料消費1000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16289",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16288,
+		target_num = 1000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60124,
+				30
+			},
+			{
+				8,
+				60125,
+				50
+			},
+			{
+				8,
+				60126,
+				20
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16289] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94601,
+		type = 6,
+		name = "2021绘图日记耗油3",
+		count_inherit = 16290,
+		desc = "累計燃料消費1500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16290",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16289,
+		target_num = 1500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60123,
+				50
+			},
+			{
+				8,
+				60120,
+				150
+			},
+			{
+				8,
+				60124,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16290] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94602,
+		type = 6,
+		name = "2021绘图日记耗油4",
+		count_inherit = 16291,
+		desc = "累計燃料消費2000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16291",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16290,
+		target_num = 2000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60126,
+				20
+			},
+			{
+				8,
+				60121,
+				250
+			},
+			{
+				8,
+				60123,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16291] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94603,
+		type = 6,
+		name = "2021绘图日记耗油5",
+		count_inherit = 16292,
+		desc = "累計燃料消費2500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16292",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16291,
+		target_num = 2500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60122,
+				38
+			},
+			{
+				8,
+				60120,
+				100
+			},
+			{
+				8,
+				60124,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16292] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94604,
+		type = 6,
+		name = "2021绘图日记耗油6",
+		count_inherit = 16293,
+		desc = "累計燃料消費3000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16293",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16292,
+		target_num = 3000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60122,
+				50
+			},
+			{
+				8,
+				60126,
+				18
+			},
+			{
+				8,
+				60125,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16293] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94605,
+		type = 6,
+		name = "2021绘图日记耗油7",
+		count_inherit = 16294,
+		desc = "累計燃料消費4000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16294",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16293,
+		target_num = 4000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60120,
+				150
+			},
+			{
+				8,
+				60121,
+				200
+			},
+			{
+				8,
+				60123,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16294] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94606,
+		type = 6,
+		name = "2021绘图日记耗油8",
+		count_inherit = 16295,
+		desc = "累計燃料消費5000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16295",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16294,
+		target_num = 5000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60126,
+				20
+			},
+			{
+				8,
+				60125,
+				100
+			},
+			{
+				8,
+				60124,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16295] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94607,
+		type = 6,
+		name = "2021绘图日记耗油9",
+		count_inherit = 16296,
+		desc = "累計燃料消費6000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16296",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16295,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60122,
+				50
+			},
+			{
+				8,
+				60121,
+				200
+			},
+			{
+				8,
+				60123,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16296] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94608,
+		type = 6,
+		name = "2021绘图日记耗油10",
+		count_inherit = 16297,
+		desc = "累計燃料消費7000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16297",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16296,
+		target_num = 7000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60120,
+				100
+			},
+			{
+				8,
+				60126,
+				20
+			},
+			{
+				8,
+				60124,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16297] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94609,
+		type = 6,
+		name = "2021绘图日记耗油11",
+		count_inherit = 16298,
+		desc = "累計燃料消費8000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16298",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16297,
+		target_num = 8000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60122,
+				100
+			},
+			{
+				8,
+				60120,
+				50
+			},
+			{
+				8,
+				60124,
+				14
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16298] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94610,
+		type = 6,
+		name = "2021绘图日记耗油12",
+		count_inherit = 16299,
+		desc = "累計燃料消費9000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16299",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16298,
+		target_num = 9000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60120,
+				146
+			},
+			{
+				8,
+				60121,
+				150
+			},
+			{
+				8,
+				60123,
+				51
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16299] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94611,
+		type = 6,
+		name = "2021绘图日记耗油13",
+		count_inherit = 16300,
+		desc = "累計燃料消費10000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16300",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16299,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60122,
+				50
+			},
+			{
+				8,
+				60121,
+				150
+			},
+			{
+				8,
+				60125,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16300] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94612,
+		type = 6,
+		name = "2021绘图日记耗油14",
+		count_inherit = 16301,
+		desc = "累計燃料消費11000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16301",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16300,
+		target_num = 11000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60127,
+				64
+			},
+			{
+				8,
+				60125,
+				50
+			},
+			{
+				8,
+				60126,
+				10
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16301] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94613,
+		type = 6,
+		name = "2021绘图日记耗油15",
+		count_inherit = 16302,
+		desc = "累計燃料消費12000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16302",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16301,
+		target_num = 12000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60122,
+				50
+			},
+			{
+				8,
+				60121,
+				200
+			},
+			{
+				8,
+				60125,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16302] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94614,
+		type = 6,
+		name = "2021绘图日记耗油16",
+		count_inherit = 16303,
+		desc = "累計燃料消費13000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16303",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16302,
+		target_num = 13000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60128,
+				50
+			},
+			{
+				8,
+				60121,
+				150
+			},
+			{
+				8,
+				60125,
+				146
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16303] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94615,
+		type = 6,
+		name = "2021绘图日记耗油17",
+		count_inherit = 16304,
+		desc = "累計燃料消費14000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16304",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16303,
+		target_num = 14000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60122,
+				50
+			},
+			{
+				8,
+				60121,
+				66
+			},
+			{
+				8,
+				60126,
+				10
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16304] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94616,
+		type = 6,
+		name = "2021绘图日记耗油18",
+		count_inherit = 0,
+		desc = "累計燃料消費15000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16304,
+		target_num = 15000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60128,
+				50
+			},
+			{
+				8,
+				60125,
+				100
+			},
+			{
+				8,
+				60127,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16305] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94617,
+		type = 6,
+		name = "2021春节0204登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "ゲームにログインせよ！",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16305,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				185,
+				2
+			}
+		}
+	},
+	[16306] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94624,
+		type = 6,
+		name = "2021春节0204贺年卡建造任务1",
+		count_inherit = 16307,
+		desc = "艦を20隻「建造」せよ！",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16307",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16306,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				200
+			}
+		}
+	},
+	[16307] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94625,
+		type = 6,
+		name = "2021春节0204贺年卡建造任务2",
+		count_inherit = 16308,
+		desc = "艦を40隻「建造」せよ！",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16308",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16307,
+		target_num = 40,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				200
+			}
+		}
+	},
+	[16308] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94626,
+		type = 6,
+		name = "2021春节0204贺年卡建造任务3",
+		count_inherit = 16309,
+		desc = "艦を60隻「建造」せよ！",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16309",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16308,
+		target_num = 60,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				200
+			}
+		}
+	},
+	[16309] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94627,
+		type = 6,
+		name = "2021春节0204贺年卡建造任务4",
+		count_inherit = 16310,
+		desc = "艦を80隻「建造」せよ！",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16310",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16309,
+		target_num = 80,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				200
+			}
+		}
+	},
+	[16310] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94628,
+		type = 6,
+		name = "2021春节0204贺年卡建造任务5",
+		count_inherit = 0,
+		desc = "艦を100隻「建造」せよ！",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16310,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				200
+			}
+		}
+	},
+	[16311] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94629,
+		type = 6,
+		name = "2021春节0204贺年卡出击任务1",
+		count_inherit = 16312,
+		desc = "艦隊を出撃させ、10回勝利せよ！",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16312",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16311,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16312] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94630,
+		type = 6,
+		name = "2021春节0204贺年卡出击任务2",
+		count_inherit = 16313,
+		desc = "艦隊を出撃させ、20回勝利せよ！",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16313",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16312,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16313] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94631,
+		type = 6,
+		name = "2021春节0204贺年卡出击任务3",
+		count_inherit = 16314,
+		desc = "艦隊を出撃させ、30回勝利せよ！",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16314",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16313,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16314] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94632,
+		type = 6,
+		name = "2021春节0204贺年卡出击任务4",
+		count_inherit = 16315,
+		desc = "艦隊を出撃させ、40回勝利せよ！",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16315",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16314,
+		target_num = 40,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16315] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94633,
+		type = 6,
+		name = "2021春节0204贺年卡出击任务5",
+		count_inherit = 16316,
+		desc = "艦隊を出撃させ、50回勝利せよ！",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16316",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16315,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16316] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94634,
+		type = 6,
+		name = "2021春节0204贺年卡出击任务6",
+		count_inherit = 16317,
+		desc = "艦隊を出撃させ、60回勝利せよ！",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16317",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16316,
+		target_num = 60,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16317] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94635,
+		type = 6,
+		name = "2021春节0204贺年卡出击任务7",
+		count_inherit = 16318,
+		desc = "艦隊を出撃させ、70回勝利せよ！",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16318",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16317,
+		target_num = 70,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16318] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94636,
+		type = 6,
+		name = "2021春节0204贺年卡出击任务8",
+		count_inherit = 16319,
+		desc = "艦隊を出撃させ、80回勝利せよ！",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16319",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16318,
+		target_num = 80,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16319] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94637,
+		type = 6,
+		name = "2021春节0204贺年卡出击任务9",
+		count_inherit = 16320,
+		desc = "艦隊を出撃させ、90回勝利せよ！",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16320",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16319,
+		target_num = 90,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16320] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94638,
+		type = 6,
+		name = "2021春节0204贺年卡出击任务10",
+		count_inherit = 0,
+		desc = "艦隊を出撃させ、100回勝利せよ！",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16320,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16321] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94639,
+		type = 6,
+		name = "2021春节0204贺年卡委托任务1",
+		count_inherit = 16322,
+		desc = "軍事委託を10回行う",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16322",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16321,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				50
+			}
+		}
+	},
+	[16322] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94640,
+		type = 6,
+		name = "2021春节0204贺年卡委托任务2",
+		count_inherit = 16323,
+		desc = "軍事委託を20回行う",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16323",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16322,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				50
+			}
+		}
+	},
+	[16323] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94641,
+		type = 6,
+		name = "2021春节0204贺年卡委托任务3",
+		count_inherit = 16324,
+		desc = "軍事委託を30回行う",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16324",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16323,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				50
+			}
+		}
+	},
+	[16324] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94642,
+		type = 6,
+		name = "2021春节0204贺年卡委托任务4",
+		count_inherit = 16325,
+		desc = "軍事委託を40回行う",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16325",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16324,
+		target_num = 40,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				50
+			}
+		}
+	},
+	[16325] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94643,
+		type = 6,
+		name = "2021春节0204贺年卡委托任务5",
+		count_inherit = 0,
+		desc = "軍事委託を50回行う",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16325,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				50
+			}
+		}
+	},
+	[16326] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94644,
+		type = 6,
+		name = "2021春节0204贺年卡石油任务1",
+		count_inherit = 16327,
+		desc = "累計燃料消費2500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16327",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16326,
+		target_num = 2500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				40
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16327] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94645,
+		type = 6,
+		name = "2021春节0204贺年卡石油任务2",
+		count_inherit = 16328,
+		desc = "累計燃料消費5000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16328",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16327,
+		target_num = 5000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				40
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16328] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94646,
+		type = 6,
+		name = "2021春节0204贺年卡石油任务3",
+		count_inherit = 16329,
+		desc = "累計燃料消費7500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16329",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16328,
+		target_num = 7500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				40
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16329] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94647,
+		type = 6,
+		name = "2021春节0204贺年卡石油任务4",
+		count_inherit = 16330,
+		desc = "累計燃料消費10000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16330",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16329,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				40
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16330] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94648,
+		type = 6,
+		name = "2021春节0204贺年卡石油任务5",
+		count_inherit = 16331,
+		desc = "累計燃料消費12500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16331",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16330,
+		target_num = 12500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				40
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16331] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94649,
+		type = 6,
+		name = "2021春节0204贺年卡石油任务6",
+		count_inherit = 0,
+		desc = "累計燃料消費15000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16331,
+		target_num = 15000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				186,
+				40
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
 	[30201] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -128974,6 +130938,58 @@ pg.task_data_template = {
 		16267,
 		16268,
 		16269,
+		16280,
+		16281,
+		16282,
+		16283,
+		16284,
+		16285,
+		16286,
+		16287,
+		16288,
+		16289,
+		16290,
+		16291,
+		16292,
+		16293,
+		16294,
+		16295,
+		16296,
+		16297,
+		16298,
+		16299,
+		16300,
+		16301,
+		16302,
+		16303,
+		16304,
+		16305,
+		16306,
+		16307,
+		16308,
+		16309,
+		16310,
+		16311,
+		16312,
+		16313,
+		16314,
+		16315,
+		16316,
+		16317,
+		16318,
+		16319,
+		16320,
+		16321,
+		16322,
+		16323,
+		16324,
+		16325,
+		16326,
+		16327,
+		16328,
+		16329,
+		16330,
+		16331,
 		30201,
 		30202,
 		31001,

@@ -4208,6 +4208,43 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[191] = {
+		can_rotate = 0,
+		describe = "バレンタインの記念オブジェクトだぴょ！食べちゃダメだぴょ！",
+		gain_by = "饅頭チョコ工場",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/qiaokelijiu",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "チョコ饅頭",
+		advice = 0,
+		icon = "qiaokelijiuicon",
+		id = 191,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		can_rotate = 0,
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
@@ -81641,6 +81678,896 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[75001] = {
+		can_rotate = 0,
+		describe = "また春節がやってきたピョ！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj3/dibancj3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 75,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "春節祝いの床",
+		advice = 0,
+		icon = "dibancj3icon",
+		id = 75001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75002] = {
+		can_rotate = 0,
+		describe = "また春節がやってきたピョ！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj3/qiangbicj3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 75,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "春節祝いの壁",
+		advice = 0,
+		icon = "qiangbicj3icon",
+		id = 75002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75101] = {
+		can_rotate = 0,
+		describe = "花火を打ち上げるピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj3/1cj3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 75,
+		count = 1,
+		name = "お花火饅頭",
+		advice = 0,
+		id = 75101,
+		icon = "1cj3icon",
+		comfortable = 2,
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					39,
+					-26
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75102] = {
+		can_rotate = 0,
+		describe = "仲間が落ちたら……普通に引き上げるよ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "Cj3/2cj3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 75,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "蓮華の水がめ",
+		advice = 0,
+		icon = "2cj3icon",
+		id = 75102,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75103] = {
+		can_rotate = 1,
+		describe = "「今日の557のラッキーアイテムは…壁？」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "Cj3/3cj3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 75,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "福の石壁",
+		advice = 0,
+		icon = "3cj3icon",
+		id = 75103,
+		comfortable = 3,
+		size = {
+			7,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75104] = {
+		can_rotate = 0,
+		describe = "「シリアス、東煌の料理の火力はロイヤルと違って…あああ早く消してー！！」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "Cj3/4cj3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 75,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "春節のかまど",
+		advice = 0,
+		icon = "4cj3icon",
+		id = 75104,
+		comfortable = 3,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75105] = {
+		can_rotate = 0,
+		describe = "お魚の料理が必須ピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "Cj3/5cj3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 75,
+		count = 1,
+		name = "饅頭団円食卓",
+		advice = 0,
+		id = 75105,
+		icon = "5cj3icon",
+		comfortable = 3,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-108,
+					80
+				},
+				{
+					1,
+					1
+				},
+				"cj3/5cj3_using"
+			},
+			{
+				"sit",
+				{
+					121,
+					72
+				},
+				{
+					-1,
+					1
+				},
+				"cj3/5cj3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75106] = {
+		can_rotate = 0,
+		describe = "「『フレッシュグリーン』…はは、いい名前じゃない。ペネロピ？」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "Cj3/6cj3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 75,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "春節の盆栽",
+		advice = 0,
+		icon = "6cj3icon",
+		id = 75106,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75107] = {
+		can_rotate = 0,
+		describe = "「応瑞…私もう無理…思いつけない…」「もうちょっと頑張って？『お姉さん』？」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "Cj3/7cj3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 75,
+		count = 1,
+		name = "春聯売り場",
+		advice = 0,
+		id = 75107,
+		icon = "7cj3icon",
+		comfortable = 2,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					101,
+					-55
+				},
+				{
+					-1,
+					1
+				},
+				"cj3/7cj3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75108] = {
+		can_rotate = 0,
+		describe = "「このランタンを全て飾れば、きっとみんな私に感謝するよね！」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "Cj3/8cj3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 75,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "灯籠飾りの木",
+		advice = 0,
+		icon = "8cj3icon",
+		id = 75108,
+		comfortable = 2,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75109] = {
+		can_rotate = 0,
+		describe = "プレゼントから食材まで取り扱ってるピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "Cj3/9cj3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 75,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "春節雑貨饅頭",
+		advice = 0,
+		icon = "9cj3icon",
+		id = 75109,
+		comfortable = 3,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75110] = {
+		can_rotate = 0,
+		describe = "『工筆で描かれた奥ゆかしい饅頭の絵だ』",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "Cj3/10cj3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 75,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "饅頭新春屏風",
+		advice = 0,
+		icon = "10cj3icon",
+		id = 75110,
+		comfortable = 2,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75111] = {
+		can_rotate = 0,
+		describe = "「よしよし、ニーヤが飼ってあげますね～」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "Cj3/11cj3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 75,
+		count = 1,
+		name = "お飾り鳥かご",
+		advice = 0,
+		id = 75111,
+		icon = "11cj3icon",
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-3,
+					-143
+				},
+				{
+					1,
+					1
+				},
+				"cj3/11cj3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75112] = {
+		can_rotate = 0,
+		describe = "「金運招来の縁起でございますね」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "Cj3/12cj3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 75,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "金が生える木",
+		advice = 0,
+		icon = "12cj3icon",
+		id = 75112,
+		comfortable = 3,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75113] = {
+		can_rotate = 0,
+		describe = "家宅平安（かたくへいあん）を守ってくれる饅頭。ありがたや～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "Cj3/14cj3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 75,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "守り獅子饅頭・甲",
+		advice = 0,
+		icon = "14cj3icon",
+		id = 75113,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75114] = {
+		can_rotate = 0,
+		describe = "春節祝いに合うフェンス",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "Cj3/15cj3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 75,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 4,
+		name = "春節調のフェンス",
+		advice = 0,
+		icon = "15cj3icon",
+		id = 75114,
+		comfortable = 1,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75115] = {
+		can_rotate = 0,
+		describe = "家宅平安（かたくへいあん）を守ってくれる饅頭。ありがたや～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "Cj3/16cj3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 75,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "守り獅子饅頭・乙",
+		advice = 0,
+		icon = "16cj3icon",
+		id = 75115,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75116] = {
+		can_rotate = 0,
+		describe = "「ここにもランタンをつけようよ！パウエル！」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "Cj3/17cj3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 75,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "春節の石門",
+		advice = 0,
+		icon = "17cj3icon",
+		id = 75116,
+		comfortable = 2,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[75117] = {
+		can_rotate = 0,
+		describe = "「肇和姉さん、もう少し待っていてくださいね」「Zzzzz」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 75,
+		icon = "Acj3icon",
+		count = 1,
+		name = "山水画饅頭",
+		id = 75117,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Acj3B",
+				"normal"
+			},
+			{
+				"Acj3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{
+					nil,
+					nil,
+					{
+						"action",
+						"wash"
+					},
+					"wash"
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"Acj3BCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[75118] = {
+		can_rotate = 0,
+		describe = "一発スゴイの行くピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 75,
+		count = 1,
+		name = "爆竹饅頭",
+		advice = 0,
+		id = 75118,
+		icon = "Bcj3icon",
+		comfortable = 4,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Bcj3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[75301] = {
+		can_rotate = 0,
+		describe = "「言われた通りに飾ればいいの？わかった」",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "Cj3/18cj3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 3,
+		themeId = 75,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 2,
+		name = "お飾り灯籠",
+		advice = 0,
+		icon = "18cj3icon",
+		id = 75301,
+		comfortable = 3,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -81729,6 +82656,7 @@ pg.furniture_data_template = {
 		188,
 		189,
 		190,
+		191,
 		100002,
 		100003,
 		100004,
@@ -83477,6 +84405,27 @@ pg.furniture_data_template = {
 		74116,
 		74117,
 		74118,
-		74119
+		74119,
+		75001,
+		75002,
+		75101,
+		75102,
+		75103,
+		75104,
+		75105,
+		75106,
+		75107,
+		75108,
+		75109,
+		75110,
+		75111,
+		75112,
+		75113,
+		75114,
+		75115,
+		75116,
+		75117,
+		75118,
+		75301
 	}
 }

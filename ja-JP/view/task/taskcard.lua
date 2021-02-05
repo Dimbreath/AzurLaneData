@@ -190,6 +190,9 @@ function slot0.updateAwards(slot0, slot1)
 				id = slot10[2],
 				count = slot10[3]
 			})
+			onButton(slot0, slot8, function ()
+				uv0.viewComponent:emit(TaskMediator.ON_DROP, uv1)
+			end, SFX_PANEL)
 		end
 	end
 end

@@ -2690,6 +2690,62 @@ pg.equip_data_statistics = {
 			"AP"
 		}
 	},
+	[437] = {
+		name = "应瑞肇和自带防空炮",
+		speciality = "防空",
+		type = 6,
+		tech = 1,
+		rarity = 2,
+		descrip = "说明未填写",
+		value_2 = 0,
+		icon = "1",
+		damage = "19/轮",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 437,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			437
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
 	[500] = {
 		name = "ビーバーズエムブレム",
 		tech = 0,
@@ -37408,7 +37464,7 @@ pg.equip_data_statistics = {
 		icon = "23200",
 		attribute_2 = "cannon",
 		rarity = 5,
-		damage = "28 x 3",
+		damage = "28 x 6",
 		nationality = 2,
 		ammo = 2,
 		value_3 = 0,
@@ -37459,7 +37515,7 @@ pg.equip_data_statistics = {
 	},
 	[23201] = {
 		id = 23201,
-		damage = "30 x 3",
+		damage = "30 x 6",
 		base = 23200,
 		weapon_id = {
 			23201
@@ -37467,7 +37523,7 @@ pg.equip_data_statistics = {
 	},
 	[23202] = {
 		id = 23202,
-		damage = "32 x 3",
+		damage = "32 x 6",
 		base = 23200,
 		weapon_id = {
 			23202
@@ -37475,7 +37531,7 @@ pg.equip_data_statistics = {
 	},
 	[23203] = {
 		id = 23203,
-		damage = "34 x 3",
+		damage = "34 x 6",
 		base = 23200,
 		weapon_id = {
 			23203
@@ -37483,7 +37539,7 @@ pg.equip_data_statistics = {
 	},
 	[23204] = {
 		id = 23204,
-		damage = "36 x 3",
+		damage = "36 x 6",
 		base = 23200,
 		weapon_id = {
 			23204
@@ -37491,7 +37547,7 @@ pg.equip_data_statistics = {
 	},
 	[23205] = {
 		id = 23205,
-		damage = "38 x 3",
+		damage = "38 x 6",
 		base = 23200,
 		weapon_id = {
 			23205
@@ -37499,7 +37555,7 @@ pg.equip_data_statistics = {
 	},
 	[23206] = {
 		id = 23206,
-		damage = "40 x 3",
+		damage = "40 x 6",
 		base = 23200,
 		weapon_id = {
 			23206
@@ -37507,7 +37563,7 @@ pg.equip_data_statistics = {
 	},
 	[23207] = {
 		id = 23207,
-		damage = "42 x 3",
+		damage = "42 x 6",
 		base = 23200,
 		weapon_id = {
 			23207
@@ -37515,7 +37571,7 @@ pg.equip_data_statistics = {
 	},
 	[23208] = {
 		id = 23208,
-		damage = "44 x 3",
+		damage = "44 x 6",
 		base = 23200,
 		weapon_id = {
 			23208
@@ -37523,7 +37579,7 @@ pg.equip_data_statistics = {
 	},
 	[23209] = {
 		id = 23209,
-		damage = "46 x 3",
+		damage = "46 x 6",
 		base = 23200,
 		weapon_id = {
 			23209
@@ -37531,7 +37587,7 @@ pg.equip_data_statistics = {
 	},
 	[23210] = {
 		id = 23210,
-		damage = "49 x 3",
+		damage = "49 x 6",
 		base = 23200,
 		weapon_id = {
 			23210
@@ -37539,7 +37595,7 @@ pg.equip_data_statistics = {
 	},
 	[23211] = {
 		anti_siren = 100,
-		damage = "49 x 3",
+		damage = "49 x 6",
 		base = 23200,
 		id = 23211,
 		weapon_id = {
@@ -37548,7 +37604,7 @@ pg.equip_data_statistics = {
 	},
 	[23212] = {
 		anti_siren = 200,
-		damage = "49 x 3",
+		damage = "49 x 6",
 		base = 23200,
 		id = 23212,
 		weapon_id = {
@@ -37557,7 +37613,7 @@ pg.equip_data_statistics = {
 	},
 	[23213] = {
 		anti_siren = 300,
-		damage = "49 x 3",
+		damage = "49 x 6",
 		base = 23200,
 		id = 23213,
 		weapon_id = {
@@ -48403,7 +48459,7 @@ pg.equip_data_statistics = {
 			9
 		},
 		weapon_id = {
-			28200
+			28220
 		},
 		skill_id = {},
 		part_main = {
@@ -48435,7 +48491,7 @@ pg.equip_data_statistics = {
 			}
 		},
 		weapon_id = {
-			28201
+			28221
 		}
 	},
 	[28222] = {
@@ -48452,7 +48508,7 @@ pg.equip_data_statistics = {
 			}
 		},
 		weapon_id = {
-			28202
+			28222
 		}
 	},
 	[28223] = {
@@ -48469,7 +48525,7 @@ pg.equip_data_statistics = {
 			}
 		},
 		weapon_id = {
-			28203
+			28223
 		}
 	},
 	[28224] = {
@@ -48486,7 +48542,7 @@ pg.equip_data_statistics = {
 			}
 		},
 		weapon_id = {
-			28204
+			28224
 		}
 	},
 	[28225] = {
@@ -48503,7 +48559,7 @@ pg.equip_data_statistics = {
 			}
 		},
 		weapon_id = {
-			28205
+			28225
 		}
 	},
 	[28226] = {
@@ -48520,7 +48576,7 @@ pg.equip_data_statistics = {
 			}
 		},
 		weapon_id = {
-			28206
+			28226
 		}
 	},
 	[28227] = {
@@ -48537,7 +48593,7 @@ pg.equip_data_statistics = {
 			}
 		},
 		weapon_id = {
-			28207
+			28227
 		}
 	},
 	[28228] = {
@@ -48554,7 +48610,7 @@ pg.equip_data_statistics = {
 			}
 		},
 		weapon_id = {
-			28208
+			28228
 		}
 	},
 	[28229] = {
@@ -48571,7 +48627,7 @@ pg.equip_data_statistics = {
 			}
 		},
 		weapon_id = {
-			28209
+			28229
 		}
 	},
 	[28230] = {
@@ -48588,7 +48644,7 @@ pg.equip_data_statistics = {
 			}
 		},
 		weapon_id = {
-			28210
+			28230
 		}
 	},
 	[28231] = {
@@ -48606,7 +48662,7 @@ pg.equip_data_statistics = {
 			}
 		},
 		weapon_id = {
-			28211
+			28231
 		}
 	},
 	[28232] = {
@@ -48624,7 +48680,7 @@ pg.equip_data_statistics = {
 			}
 		},
 		weapon_id = {
-			28212
+			28232
 		}
 	},
 	[28233] = {
@@ -48642,7 +48698,7 @@ pg.equip_data_statistics = {
 			}
 		},
 		weapon_id = {
-			28213
+			28233
 		}
 	},
 	[28300] = {
@@ -88788,6 +88844,53 @@ pg.equip_data_statistics = {
 			74122
 		}
 	},
+	[74131] = {
+		name = "全弹发射-肇和级I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 74131,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			74131
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[74132] = {
+		id = 74132,
+		name = "全弹发射-肇和级II",
+		base = 74131,
+		weapon_id = {
+			74132
+		}
+	},
 	[75011] = {
 		name = "全弹发射-索尔达蒂级I",
 		tech = 1,
@@ -103318,6 +103421,7 @@ pg.equip_data_statistics = {
 		434,
 		435,
 		436,
+		437,
 		500,
 		501,
 		502,
@@ -108884,6 +108988,8 @@ pg.equip_data_statistics = {
 		74112,
 		74121,
 		74122,
+		74131,
+		74132,
 		75011,
 		75012,
 		75021,

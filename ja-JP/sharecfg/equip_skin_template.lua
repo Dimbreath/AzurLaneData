@@ -8233,6 +8233,489 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[380] = {
+		icon = "92811",
+		bullet_name = "zidan_lajiao",
+		name = "トウガラシ弾",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "辛さ3、シビレ5でお願い！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 380,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[381] = {
+		icon = "92812",
+		bullet_name = "zidan_chuanghua",
+		name = "切り絵弾",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "東煌の饅頭切り絵、窓に飾ると春節の雰囲気を醸し出してくれる",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 381,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[382] = {
+		icon = "92813",
+		bullet_name = "zidan_chunlian",
+		name = "逆さ福弾",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "逆さまの福は福が『来る』って意味よ！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 382,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[383] = {
+		icon = "92814",
+		bullet_name = "paodan_jiaozi",
+		name = "水ギョウザ砲弾",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "焼きギョウザとは違う、東煌のギョウザ砲弾",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 383,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[384] = {
+		icon = "92815",
+		bullet_name = "paodan_tangyuan",
+		name = "タンユエン砲弾",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "具材はごま、チョコ、サンザシ、家具コイン…コイン？",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 384,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[385] = {
+		icon = "92816",
+		bullet_name = "paodan_niangao",
+		name = "お餅砲弾",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "もちもちに作ったお餅で新春を祝おう！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 385,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[386] = {
+		icon = "92821",
+		bullet_name = "yulei_tanghulu",
+		name = "タンフール魚雷",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "サンザシのほかにチョコボールやみかんも串に刺したりする",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 386,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[387] = {
+		icon = "92822",
+		bullet_name = "yulei_zaotang",
+		name = "ザオタン魚雷",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "神への供物として使われることも。歯にくっつくと甘い味がずっと残るらしい",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 387,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[388] = {
+		icon = "92823",
+		bullet_name = "yulei_chunjuan",
+		name = "春巻き魚雷",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "中身は熱々なので注意！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 388,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[389] = {
+		icon = "92831",
+		bullet_name = "feiji_wushi",
+		name = "年獣饅頭（攻撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「撫順、新しい必殺技を使って！」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 389,
+		derivate_torpedo = "yulei_tanghulu",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[390] = {
+		icon = "92831",
+		bullet_name = "feiji_wushi",
+		name = "年獣饅頭（戦闘）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「撫順、新しい必殺技を使って！」",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_lajiao",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 390,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[391] = {
+		icon = "92831",
+		bullet_name = "feiji_wushi",
+		name = "年獣饅頭（爆撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「撫順、新しい必殺技を使って！」",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_lajiao",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 391,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[392] = {
+		icon = "92832",
+		bullet_name = "feiji_qiniu",
+		name = "ウシウシ饅頭（攻撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "ウシ年はウシで決まるピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 392,
+		derivate_torpedo = "yulei_zaotang",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[393] = {
+		icon = "92832",
+		bullet_name = "feiji_qiniu",
+		name = "ウシウシ饅頭（戦闘）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "ウシ年はウシで決まるピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_chuanghua",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 393,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[394] = {
+		icon = "92832",
+		bullet_name = "feiji_qiniu",
+		name = "ウシウシ饅頭（爆撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "ウシ年はウシで決まるピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_chuanghua",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 394,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[395] = {
+		icon = "92833",
+		bullet_name = "feiji_tangzhuang",
+		name = "春節挨拶饅頭（攻撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "財源廣進（ざいげんこうしん）ピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 395,
+		derivate_torpedo = "yulei_chunjuan",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[396] = {
+		icon = "92833",
+		bullet_name = "feiji_tangzhuang",
+		name = "春節挨拶饅頭（戦闘）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "財源廣進（ざいげんこうしん）ピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_chunlian",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 396,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[397] = {
+		icon = "92833",
+		bullet_name = "feiji_tangzhuang",
+		name = "春節挨拶饅頭（爆撃）",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "財源廣進（ざいげんこうしん）ピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_chunlian",
+		themeid = 24,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 397,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		icon = "90640",
 		bullet_name = "Nep_bullet_shizi",
@@ -9941,6 +10424,24 @@ pg.equip_skin_template = {
 		375,
 		376,
 		377,
+		380,
+		381,
+		382,
+		383,
+		384,
+		385,
+		386,
+		387,
+		388,
+		389,
+		390,
+		391,
+		392,
+		393,
+		394,
+		395,
+		396,
+		397,
 		1001,
 		1002,
 		1003,

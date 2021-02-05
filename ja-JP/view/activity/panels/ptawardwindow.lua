@@ -46,7 +46,7 @@ function slot0.Show(slot0, slot1)
 	slot3 = slot1.targets
 	slot4 = slot1.level
 	slot5 = slot1.count
-	slot8 = slot1.type == 3 and "" or pg.item_data_statistics[id2ItemId(slot1.resId)].name
+	slot8 = (slot1.type == 3 or slot7 == 4) and "" or pg.item_data_statistics[id2ItemId(slot1.resId)].name
 
 	if slot7 == 2 then
 		slot0.cntTitle = i18n("pt_total_count", i18n("pt_cosume", slot8))
@@ -54,6 +54,9 @@ function slot0.Show(slot0, slot1)
 	elseif slot7 == 3 then
 		slot0.cntTitle = i18n("pt_ship_now")
 		slot0.resTitle = i18n("pt_ship_goal")
+	elseif slot7 == 4 then
+		slot0.cntTitle = i18n("cumulative_victory_now_tip")
+		slot0.resTitle = i18n("cumulative_victory_target_tip")
 	else
 		slot0.cntTitle = i18n("pt_total_count", slot8)
 		slot0.resTitle = i18n("pt_count", slot8)
