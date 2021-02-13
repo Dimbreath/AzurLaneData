@@ -952,7 +952,7 @@ pg.name_code = {
 	},
 	{
 		id = 191,
-		name = "飞龙·META",
-		code = "龙·META"
+		name = "Hiryuu META ",
+		code = "Hiryuu META "
 	}
 }

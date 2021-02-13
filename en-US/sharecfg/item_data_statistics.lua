@@ -29326,7 +29326,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43178] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:2}",
+		display = "A Valentine Gift from {namecode:2}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29345,7 +29345,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43179] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:6}",
+		display = "A Valentine Gift from {namecode:6}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29364,7 +29364,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43180] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:11}",
+		display = "A Valentine Gift from {namecode:11}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29383,7 +29383,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43181] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:12}",
+		display = "A Valentine Gift from {namecode:12}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29402,7 +29402,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43182] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:13}",
+		display = "A Valentine Gift from {namecode:13}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29421,7 +29421,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43183] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:14}",
+		display = "A Valentine Gift from {namecode:14}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29440,7 +29440,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43184] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:15}",
+		display = "A Valentine Gift from {namecode:15}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29459,7 +29459,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43185] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:16}",
+		display = "A Valentine Gift from {namecode:16}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29478,7 +29478,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43186] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:17}",
+		display = "A Valentine Gift from {namecode:17}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29497,7 +29497,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43187] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:22}",
+		display = "A Valentine Gift from {namecode:22}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29516,7 +29516,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43188] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:19}",
+		display = "A Valentine Gift from {namecode:19}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29535,7 +29535,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43189] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:20}",
+		display = "A Valentine Gift from {namecode:20}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29554,7 +29554,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43190] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:24}",
+		display = "A Valentine Gift from {namecode:24}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29573,7 +29573,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43191] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:30}",
+		display = "A Valentine Gift from {namecode:30}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29592,7 +29592,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43192] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:141}",
+		display = "A Valentine Gift from {namecode:141}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29611,7 +29611,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43193] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:129}",
+		display = "A Valentine Gift from {namecode:129}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29630,7 +29630,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43194] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:31}",
+		display = "A Valentine Gift from {namecode:31}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29649,7 +29649,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43195] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:32}",
+		display = "A Valentine Gift from {namecode:32}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29668,7 +29668,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43196] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:21}",
+		display = "A Valentine Gift from {namecode:21}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29687,7 +29687,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43197] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:135}",
+		display = "A Valentine Gift from {namecode:135}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29706,7 +29706,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43198] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:124}",
+		display = "A Valentine Gift from {namecode:124}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29725,7 +29725,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43199] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:134}",
+		display = "A Valentine Gift from {namecode:134}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29744,7 +29744,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43200] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:33}",
+		display = "A Valentine Gift from {namecode:33}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29763,7 +29763,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43201] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:34}",
+		display = "A Valentine Gift from {namecode:34}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29782,7 +29782,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43202] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:137}",
+		display = "A Valentine Gift from {namecode:137}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29801,7 +29801,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43203] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:133}",
+		display = "A Valentine Gift from {namecode:133}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29820,7 +29820,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43204] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:159}",
+		display = "A Valentine Gift from {namecode:159}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29839,7 +29839,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43205] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:160}",
+		display = "A Valentine Gift from {namecode:160}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29858,7 +29858,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43206] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:126}",
+		display = "A Valentine Gift from {namecode:126}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29877,7 +29877,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43207] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:158}",
+		display = "A Valentine Gift from {namecode:158}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29896,7 +29896,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43208] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:174}",
+		display = "A Valentine Gift from {namecode:174}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29915,7 +29915,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43209] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:125}",
+		display = "A Valentine Gift from {namecode:125}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29934,7 +29934,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43210] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:157}",
+		display = "A Valentine Gift from {namecode:157}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29953,7 +29953,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43211] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:28}",
+		display = "A Valentine Gift from {namecode:28}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29972,7 +29972,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43212] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:142}",
+		display = "A Valentine Gift from {namecode:142}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -29991,7 +29991,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43213] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:143}",
+		display = "A Valentine Gift from {namecode:143}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30010,7 +30010,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43214] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:128}",
+		display = "A Valentine Gift from {namecode:128}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30029,7 +30029,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43215] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:127}",
+		display = "A Valentine Gift from {namecode:127}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30048,7 +30048,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43216] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:145}",
+		display = "A Valentine Gift from {namecode:145}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30067,7 +30067,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43217] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:146}",
+		display = "A Valentine Gift from {namecode:146}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30086,7 +30086,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43218] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:147}",
+		display = "A Valentine Gift from {namecode:147}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30105,7 +30105,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43219] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:148}",
+		display = "A Valentine Gift from {namecode:148}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30124,7 +30124,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43220] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:140}",
+		display = "A Valentine Gift from {namecode:140}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30143,7 +30143,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43221] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:162}",
+		display = "A Valentine Gift from {namecode:162}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30162,7 +30162,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43222] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:180}",
+		display = "A Valentine Gift from {namecode:180}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30181,7 +30181,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43223] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:37}",
+		display = "A Valentine Gift from {namecode:37}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30200,7 +30200,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43224] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:46}",
+		display = "A Valentine Gift from {namecode:46}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30219,7 +30219,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43225] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:48}",
+		display = "A Valentine Gift from {namecode:48}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30238,7 +30238,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43226] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:181}",
+		display = "A Valentine Gift from {namecode:181}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30257,7 +30257,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43227] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:47}",
+		display = "A Valentine Gift from {namecode:47}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30276,7 +30276,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43228] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:57}",
+		display = "A Valentine Gift from {namecode:57}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30295,7 +30295,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43229] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:58}",
+		display = "A Valentine Gift from {namecode:58}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30314,7 +30314,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43230] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:38}",
+		display = "A Valentine Gift from {namecode:38}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30333,7 +30333,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43231] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:39}",
+		display = "A Valentine Gift from {namecode:39}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30352,7 +30352,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43232] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:40}",
+		display = "A Valentine Gift from {namecode:40}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30371,7 +30371,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43233] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:49}",
+		display = "A Valentine Gift from {namecode:49}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30390,7 +30390,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43234] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:50}",
+		display = "A Valentine Gift from {namecode:50}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30409,7 +30409,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43235] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:53}",
+		display = "A Valentine Gift from {namecode:53}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30428,7 +30428,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43236] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:54}",
+		display = "A Valentine Gift from {namecode:54}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30447,7 +30447,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43237] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:55}",
+		display = "A Valentine Gift from {namecode:55}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30466,7 +30466,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43238] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:56}",
+		display = "A Valentine Gift from {namecode:56}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30485,7 +30485,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43239] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:63}",
+		display = "A Valentine Gift from {namecode:63}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30504,7 +30504,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43240] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:64}",
+		display = "A Valentine Gift from {namecode:64}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30523,7 +30523,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43241] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:144}",
+		display = "A Valentine Gift from {namecode:144}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30542,7 +30542,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43242] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:66}",
+		display = "A Valentine Gift from {namecode:66}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30561,7 +30561,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43243] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:67}",
+		display = "A Valentine Gift from {namecode:67}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30580,7 +30580,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43244] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:68}",
+		display = "A Valentine Gift from {namecode:68}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30599,7 +30599,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43245] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:69}",
+		display = "A Valentine Gift from {namecode:69}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30618,7 +30618,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43246] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:59}",
+		display = "A Valentine Gift from {namecode:59}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30637,7 +30637,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43247] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:70}",
+		display = "A Valentine Gift from {namecode:70}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30656,7 +30656,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43248] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:71}",
+		display = "A Valentine Gift from {namecode:71}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30675,7 +30675,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43249] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:72}",
+		display = "A Valentine Gift from {namecode:72}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30694,7 +30694,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43250] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:73}",
+		display = "A Valentine Gift from {namecode:73}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30713,7 +30713,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43251] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:161}",
+		display = "A Valentine Gift from {namecode:161}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30732,7 +30732,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43252] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:169}",
+		display = "A Valentine Gift from {namecode:169}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30751,7 +30751,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43253] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:78}",
+		display = "A Valentine Gift from {namecode:78}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30770,7 +30770,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43254] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:79}",
+		display = "A Valentine Gift from {namecode:79}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30789,7 +30789,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43255] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:76}",
+		display = "A Valentine Gift from {namecode:76}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30808,7 +30808,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43256] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:77}",
+		display = "A Valentine Gift from {namecode:77}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30827,7 +30827,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43257] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:74}",
+		display = "A Valentine Gift from {namecode:74}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30846,7 +30846,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43258] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:75}",
+		display = "A Valentine Gift from {namecode:75}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30865,7 +30865,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43259] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:92}",
+		display = "A Valentine Gift from {namecode:92}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30884,7 +30884,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43260] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:82}",
+		display = "A Valentine Gift from {namecode:82}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30903,7 +30903,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43261] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:175}",
+		display = "A Valentine Gift from {namecode:175}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30922,7 +30922,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43262] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:85}",
+		display = "A Valentine Gift from {namecode:85}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30941,7 +30941,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43263] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:86}",
+		display = "A Valentine Gift from {namecode:86}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30960,7 +30960,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43264] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:89}",
+		display = "A Valentine Gift from {namecode:89}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30979,7 +30979,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43265] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:87}",
+		display = "A Valentine Gift from {namecode:87}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -30998,7 +30998,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43266] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:90}",
+		display = "A Valentine Gift from {namecode:90}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -31017,7 +31017,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43267] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:179}",
+		display = "A Valentine Gift from {namecode:179}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -31036,7 +31036,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43268] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:91}",
+		display = "A Valentine Gift from {namecode:91}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -31055,7 +31055,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43269] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:92}",
+		display = "A Valentine Gift from {namecode:92}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -31074,7 +31074,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43270] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:93}",
+		display = "A Valentine Gift from {namecode:93}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -31093,7 +31093,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43271] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:94}",
+		display = "A Valentine Gift from {namecode:94}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -31112,7 +31112,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43272] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:95}",
+		display = "A Valentine Gift from {namecode:95}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -31131,7 +31131,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43273] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:96}",
+		display = "A Valentine Gift from {namecode:96}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -31150,7 +31150,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43274] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:97}",
+		display = "A Valentine Gift from {namecode:97}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -31169,7 +31169,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43275] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:170}",
+		display = "A Valentine Gift from {namecode:170}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -31188,7 +31188,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43276] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:176}",
+		display = "A Valentine Gift from {namecode:176}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -31207,7 +31207,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43277] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:154}",
+		display = "A Valentine Gift from {namecode:154}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -31226,7 +31226,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43278] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:155}",
+		display = "A Valentine Gift from {namecode:155}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -31245,7 +31245,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43279] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:156}",
+		display = "A Valentine Gift from {namecode:156}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -31321,7 +31321,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43283] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:98}",
+		display = "A Valentine Gift from {namecode:98}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -31340,7 +31340,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43284] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:163}",
+		display = "A Valentine Gift from {namecode:163}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -32518,7 +32518,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43346] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:152}",
+		display = "A Valentine Gift from {namecode:152}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -32537,7 +32537,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43347] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:151}",
+		display = "A Valentine Gift from {namecode:151}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -32632,7 +32632,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43352] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:164}",
+		display = "A Valentine Gift from {namecode:164}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -32651,7 +32651,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43353] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:165}",
+		display = "A Valentine Gift from {namecode:165}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -32784,7 +32784,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43360] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:184}",
+		display = "A Valentine Gift from {namecode:184}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -33221,7 +33221,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43383] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:185}",
+		display = "A Valentine Gift from {namecode:185}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -33240,7 +33240,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43384] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:29}",
+		display = "A Valentine Gift from {namecode:29}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -33259,7 +33259,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43385] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:27}",
+		display = "A Valentine Gift from {namecode:27}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -33278,7 +33278,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43386] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:60}",
+		display = "A Valentine Gift from {namecode:60}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -33297,7 +33297,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43387] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:80}",
+		display = "A Valentine Gift from {namecode:80}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -33316,7 +33316,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43388] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:81}",
+		display = "A Valentine Gift from {namecode:81}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -33335,7 +33335,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43389] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:103}",
+		display = "A Valentine Gift from {namecode:103}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -33354,7 +33354,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43390] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:104}",
+		display = "A Valentine Gift from {namecode:104}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -33373,7 +33373,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43391] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:182}",
+		display = "A Valentine Gift from {namecode:182}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -33392,7 +33392,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43392] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:188}",
+		display = "A Valentine Gift from {namecode:188}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -33449,7 +33449,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43395] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:190}",
+		display = "A Valentine Gift from {namecode:190}",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -34114,7 +34114,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43430] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from @'{namecode:191}",
+		display = "A Valentine Gift from Hiryuu META",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
