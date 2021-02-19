@@ -25238,7 +25238,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[41958] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from Kitakaze",
+		display = "A Valentine Gift from Cheshire",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,
@@ -33639,7 +33639,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[43405] = {
 		drop_gold_max = 0,
 		name = "Valentine Gift ",
-		display = "A Valentine Gift from Warspite Retrofit",
+		display = "A Valentine Gift from Drake",
 		type = 1,
 		is_world = 0,
 		shop_id = -1,

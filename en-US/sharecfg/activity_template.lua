@@ -1498,7 +1498,6 @@ pg.activity_template = {
 	},
 	[862] = {
 		mark = 20210204,
-		time = "stop",
 		type = 51,
 		login_pop = 0,
 		config_id = 4,
@@ -1507,6 +1506,33 @@ pg.activity_template = {
 		title_res_tag = "monopoly3",
 		id = 862,
 		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					2,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					2,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		page_info = {
 			class_name = "Monopoly3th.Monopoly3thPage",
 			ui_name = "Monopoly3thPage"
@@ -1555,7 +1581,6 @@ pg.activity_template = {
 	[865] = {
 		mark = 20210204,
 		page_info = "",
-		time = "stop",
 		type = 64,
 		login_pop = 0,
 		config_id = 2,
@@ -1563,6 +1588,33 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 865,
 		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					2,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					2,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		config_client = {
 			story = {
 				{
