@@ -141,9 +141,16 @@ function slot0.Setup(slot0, slot1, slot2, slot3)
 	setAnchoredPosition(slot0.rtBasePoint, slot0._tf:InverseTransformPoint(GameObject.Find("OverlayCamera"):GetComponent(typeof(Camera)):ScreenToWorldPoint(slot2:GetMapScreenPos(Vector2(slot1.config.area_pos[1], slot1.config.area_pos[2])))))
 
 	slot0.mapList = nowWorld:EntranceToReplacementMapList(slot1)
+	slot5 = 1
+
+	if slot1.active and not table.indexof(slot0.mapList, nowWorld:GetActiveMap()) then
+		table.insert(slot0.mapList, 1, slot6)
+
+		slot5 = 1
+	end
 
 	slot0.toggleItemList:align(#slot0.mapList)
-	triggerToggle(slot0.rtToggles:GetChild(0), true)
+	triggerToggle(slot0.rtToggles:GetChild(slot5 - 1), true)
 end
 
 function slot0.setColorfulImage(slot0, slot1, slot2, slot3)

@@ -18,6 +18,14 @@ slot1 = {
 	"word_hard"
 }
 
+function slot0.GetPairedFleetIndex(slot0)
+	if slot0 < Fleet.SUBMARINE_FLEET_ID then
+		return slot0 + 10
+	else
+		return slot0 - 10
+	end
+end
+
 function slot0.register(slot0)
 	slot0.contextData.mediatorClass = slot0.class
 	slot0.activityProxy = getProxy(ActivityProxy)
@@ -349,7 +357,7 @@ function slot0.BindEvent(slot0)
 								return
 							end
 						end
-					else
+					elseif slot8 == uv4.GetPairedFleetIndex(uv1) then
 						for slot14, slot15 in pairs(slot9:getCommanders()) do
 							if slot2 == slot15.id then
 								pg.TipsMgr.GetInstance():ShowTips(i18n("commander_is_in_fleet_already"))
@@ -360,8 +368,8 @@ function slot0.BindEvent(slot0)
 					end
 				end
 
-				uv4:updateCommanderByPos(uv3, slot4)
-				uv5:updateActivityFleet(uv6.id, uv1, uv4)
+				uv5:updateCommanderByPos(uv3, slot4)
+				uv6:updateActivityFleet(uv7.id, uv1, uv5)
 				slot1()
 			end,
 			onQuit = function (slot0)

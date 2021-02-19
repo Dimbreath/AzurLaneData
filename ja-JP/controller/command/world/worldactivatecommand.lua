@@ -8,12 +8,7 @@ function slot0.execute(slot0, slot1)
 			slot1:NetUpdateWorld(slot0.world, slot0.vision_list or {}, uv0.camp)
 			slot1:NetUpdateWorldPressingAward(slot0.chapter_award)
 			slot1:NetUpdateWorldCountInfo(slot0.count_info)
-
-			if nowWorld.activateCount == 2 then
-				slot2:GetAtlas():AddPortTransportDic()
-			end
-
-			slot2:GetBossProxy():GenFleet()
+			nowWorld:GetBossProxy():GenFleet()
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("world_activate_error_", slot0.result))
 		end

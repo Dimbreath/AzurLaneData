@@ -14373,6 +14373,9 @@ META」艦船に対応する「解析Pt」を入手することが
 	world_reset_3 = {
 		tip = "セイレーン作戦トップを再度開くとリセットされます"
 	},
+	guild_is_frozen_when_start_tech = {
+		tip = "この大艦隊は現在利用不可です"
+	},
 	world_boss_unactivated = {
 		tip = "セイレーン作戦がリセットされました。セイレーン作戦トップで艦隊を再編成してください"
 	},

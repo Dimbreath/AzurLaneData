@@ -200,6 +200,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>冷徹なる鋳型に、赤き我が血潮を流し込もう――</color>――「虚畳なりし限象」イベントで入手可能",
 		scene = {}
 	},
+	[313] = {
+		name = "氷華の徽",
+		time_second = 0,
+		id = 313,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>後日イベントで入手可能</color>",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂入り：エンタープライズ",
 		time_second = 0,
@@ -258,6 +266,7 @@ pg.item_data_frame = {
 		309,
 		311,
 		312,
+		313,
 		401,
 		402,
 		403,

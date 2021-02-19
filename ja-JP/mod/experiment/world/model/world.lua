@@ -163,7 +163,7 @@ function slot0.NewAtlas(slot0, slot1)
 end
 
 function slot0.IsReseted(slot0)
-	return slot0.activateCount > 1
+	return slot0.activateCount > (slot0:IsActivate() and 1 or 0)
 end
 
 function slot0.IsActivate(slot0)
@@ -528,13 +528,6 @@ function slot0.EntranceToReplacementMapList(slot0, slot1)
 
 	table.insert(slot2, slot3)
 
-	if slot1.active then
-		slot4 = slot0:GetActiveMap()
-
-		table.removebyvalue(slot2, slot4)
-		table.insert(slot2, 1, slot4)
-	end
-
 	return slot2
 end
 
@@ -565,7 +558,11 @@ function slot0.ReplacementMapType(slot0, slot1)
 		return "complete_chapter", i18n("area_anquan")
 	end
 
-	return "base_chapter", i18n("area_putong")
+	if slot2.id == slot1.id then
+		return "base_chapter", i18n("area_putong")
+	end
+
+	return "test_chapter", i18n("area_ceshi")
 end
 
 function slot0.FindTreasureEntrance(slot0, slot1)
