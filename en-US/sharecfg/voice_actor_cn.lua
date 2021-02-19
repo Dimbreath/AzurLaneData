@@ -1043,5 +1043,9 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Haruna Asami ",
 		code = 261
+	},
+	{
+		actor_name = "Yoshioka Misaki",
+		code = 262
 	}
 }

@@ -184,6 +184,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"May my red blood flow into the frigid mold of war.\" Awarded to commanders who participated in the \"Inverted Orthant\" event.</color> ",
 		scene = {}
 	},
+	[313] = {
+		name = "Seal of Dawn's Rime",
+		time_second = 0,
+		id = 313,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Obtained from a subsequent event</color>",
+		scene = {}
+	},
 	[501] = {
 		name = "Manjuu Pizzeria Frame ",
 		time_second = 0,
@@ -216,6 +224,7 @@ pg.item_data_frame = {
 		310,
 		311,
 		312,
+		313,
 		501
 	}
 }

@@ -3464,6 +3464,10 @@ pg.skill_data_display = {
 		id = 14130,
 		name = "Mysterious Huntress"
 	},
+	[14140] = {
+		id = 14140,
+		name = "Scalawaggish Little Snowball"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -6327,6 +6331,7 @@ pg.skill_data_display = {
 		14111,
 		14120,
 		14130,
+		14140,
 		18010,
 		18040,
 		18041,

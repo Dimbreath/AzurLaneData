@@ -8415,7 +8415,7 @@ Enabling Clearing Mode affects a stage in the following ways:：
 
 1 On Normal and Hard Mode stages, enemy escort fleets <color=#92fc63>will not appear</color>.
 2 On Event stages, some changes will be made to the configuration of enemy fleets.
-3 活On event stages, <color=#92fc63>movement restrictions</color> will be lifted,
+3 On event stages, <color=#92fc63>movement restrictions</color> will be lifted,
 allowing you to move freely.
 4 On normal stages, <color=#92fc63>ambushes and airstrikes will no longer occur</color>.
 5 <color=#92fc63>Fleet Formation Lock</color> will be enabled.
@@ -13409,6 +13409,9 @@ Large Nianjuu: 30 pts
 	},
 	world_reset_3 = {
 		tip = "Re-enter Operation Siren to reset "
+	},
+	guild_is_frozen_when_start_tech = {
+		tip = "This Guild is currently frozen."
 	},
 	world_boss_unactivated = {
 		tip = "Operation Siren has reset. Please reorganize your fleet to continue."

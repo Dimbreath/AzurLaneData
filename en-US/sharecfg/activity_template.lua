@@ -1425,6 +1425,7 @@ pg.activity_template = {
 	[860] = {
 		mark = 20210204,
 		page_info = "",
+		time = "stop",
 		type = 43,
 		login_pop = 0,
 		config_id = 0,
@@ -1461,38 +1462,12 @@ pg.activity_template = {
 				71,
 				94507
 			}
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					2,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					2,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[861] = {
 		mark = 20210204,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -1519,37 +1494,11 @@ pg.activity_template = {
 			16302,
 			16303,
 			16304
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					2,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					2,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[862] = {
 		mark = 20210204,
+		time = "stop",
 		type = 51,
 		login_pop = 0,
 		config_id = 4,
@@ -1558,33 +1507,6 @@ pg.activity_template = {
 		title_res_tag = "monopoly3",
 		id = 862,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					2,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					2,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "Monopoly3th.Monopoly3thPage",
 			ui_name = "Monopoly3thPage"
@@ -1592,6 +1514,7 @@ pg.activity_template = {
 	},
 	[863] = {
 		mark = 20210204,
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 863,
@@ -1600,33 +1523,6 @@ pg.activity_template = {
 		title_res_tag = "u410victory_pt",
 		id = 863,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					2,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					2,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "U410VictoryPtPage",
 			ui_name = "U410VictoryPtPage"
@@ -1635,6 +1531,7 @@ pg.activity_template = {
 	[864] = {
 		mark = 20210204,
 		page_info = "",
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 16,
@@ -1642,33 +1539,6 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 864,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					2,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					2,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			ships = {
 				"chaijun_3",
@@ -1685,6 +1555,7 @@ pg.activity_template = {
 	[865] = {
 		mark = 20210204,
 		page_info = "",
+		time = "stop",
 		type = 64,
 		login_pop = 0,
 		config_id = 2,
@@ -1692,33 +1563,6 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 865,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					2,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					2,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			story = {
 				{
@@ -1742,6 +1586,7 @@ pg.activity_template = {
 	},
 	[866] = {
 		mark = 20210204,
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -1750,33 +1595,6 @@ pg.activity_template = {
 		title_res_tag = "NewYear3thSkinShow",
 		id = 866,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					2,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					2,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "NewYear3thSkinShowPage",
 			ui_name = "NewYear3thSkinShowPage"
@@ -1929,6 +1747,7 @@ pg.activity_template = {
 	[870] = {
 		mark = 20210204,
 		page_info = "",
+		time = "stop",
 		type = 26,
 		login_pop = 0,
 		config_id = 0,
@@ -1936,33 +1755,6 @@ pg.activity_template = {
 		config_data = "activity_drop_870",
 		title_res_tag = "",
 		id = 870,
-		time = {
-			timer,
-			{
-				{
-					2021,
-					2,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					2,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 2,
 			bg = "loadingbg/bg_build_2_act",
@@ -1981,6 +1773,7 @@ pg.activity_template = {
 	[871] = {
 		mark = 20210214,
 		page_info = "",
+		time = "stop",
 		type = 29,
 		login_pop = 0,
 		config_id = 15,
@@ -1990,37 +1783,11 @@ pg.activity_template = {
 		id = 871,
 		config_data = {
 			31201
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					2,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					2,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[872] = {
 		mark = 20210204,
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 872,
@@ -2028,33 +1795,6 @@ pg.activity_template = {
 		title_res_tag = "NewYearGreeting",
 		id = 872,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					2,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					2,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "NewYearGreetingPtPage",
 			ui_name = "NewYearGreetingPtPage"
@@ -2068,6 +1808,7 @@ pg.activity_template = {
 	[873] = {
 		mark = 20210204,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -2102,38 +1843,12 @@ pg.activity_template = {
 			16329,
 			16330,
 			16331
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					2,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					2,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[874] = {
 		mark = 20210204,
 		page_info = "",
+		time = "stop",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
@@ -2159,14 +1874,26 @@ pg.activity_template = {
 			199,
 			200,
 			201
-		},
+		}
+	},
+	[878] = {
+		mark = 20210219,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 10,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 878,
+		config_data = {},
 		time = {
 			timer,
 			{
 				{
 					2021,
 					2,
-					4
+					19
 				},
 				{
 					0,
@@ -2178,6 +1905,43 @@ pg.activity_template = {
 				{
 					2021,
 					2,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[879] = {
+		mark = 20210219,
+		type = 74,
+		login_pop = 0,
+		config_id = 879,
+		is_show = 9,
+		title_res_tag = "maoxiV2_frame",
+		id = 879,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					2,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
 					18
 				},
 				{
@@ -2186,6 +1950,81 @@ pg.activity_template = {
 					59
 				}
 			}
+		},
+		page_info = {
+			class_name = "MaoxiV2framePage",
+			ui_name = "MaoxiV2framePage"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2021,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[881] = {
+		mark = 20210219,
+		type = 69,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 8,
+		title_res_tag = "Neptune_catchup",
+		id = 881,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					2,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LuyijiushiTecCatchupPage",
+			ui_name = "LuyijiushiTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42006
 		}
 	},
 	[1011] = {
@@ -19308,6 +19147,9 @@ pg.activity_template = {
 		872,
 		873,
 		874,
+		878,
+		879,
+		881,
 		1011,
 		1012,
 		1013,

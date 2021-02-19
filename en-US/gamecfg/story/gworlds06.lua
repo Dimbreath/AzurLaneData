@@ -7,7 +7,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "By using Operation Siren Data Logger, all movement restriction on zones have been removed. All rewards from zones that have been cleared have been obtained.",
+			say = "You've lifted all movement restrictions between normal zones on the Operation Siren map and earned the corresponding zone securing rewards. All normal zones will remain scouted until the next reset.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

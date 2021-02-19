@@ -5921,5 +5921,557 @@ pg.gameset_language_client = {
 	},
 	op_reply_184_1_2 = {
 		value = "There are many theories as to the word's origin. Stop by and I'll tell you some of them, Commander!"
+	},
+	ins_185 = {
+		value = "We're working on decorations for the Lunar New Year!"
+	},
+	ins_discuss_185_1 = {
+		value = "You're splitting the workload, I presume? You need a lot of decorations for LNY."
+	},
+	ins_reply_185_1_1 = {
+		value = "Yep! Ning draws them and I hang them up!"
+	},
+	ins_discuss_185_2 = {
+		value = "not particularly exciting for a juustagram post... anyway, I assure you, we're hard at work."
+	},
+	ins_reply_185_2_1 = {
+		value = "Do you need help? I see your hand slipped on that bottom right stroke..."
+	},
+	ins_reply_185_2_2 = {
+		value = "oops, yeah... it was just a cramp. we'll manage!"
+	},
+	ins_op_185_1_1 = {
+		value = "I still think it looks really good."
+	},
+	op_reply_185_1_1 = {
+		value = "really? you can thank Ying Swei for that. she taught me how to do it."
+	},
+	op_reply_185_1_2 = {
+		value = "You showed talent for it, after all. Commander, would you like a lesson in calligraphy too?"
+	},
+	ins_186 = {
+		value = "It's time to start the cat ear revolution (*ΦωΦ*)"
+	},
+	ins_discuss_186_1 = {
+		value = "Ooh! Ooh! Do Belfast first!"
+	},
+	ins_reply_186_1_1 = {
+		value = "Don't you want a cute pair of your own too? :3"
+	},
+	ins_reply_186_1_2 = {
+		value = "Umm... I'll decide after I see how they look on Belfast! ^_^;"
+	},
+	ins_reply_186_1_3 = {
+		value = "Aww! But they'd look great on mew~!"
+	},
+	ins_discuss_186_2 = {
+		value = "Well, if they're free of charge, I suppose they might come in handy some day."
+	},
+	ins_reply_186_2_1 = {
+		value = "They're not just free, they're mandatory~ >:3"
+	},
+	ins_reply_186_2_2 = {
+		value = "Haha! I'll take a pair if you don't mind."
+	},
+	ins_reply_186_2_3 = {
+		value = "All yours, Neptune~! Heck, take several and give them to your friends~"
+	},
+	ins_op_186_1_1 = {
+		value = "As long as it's achieved by peaceful means!"
+	},
+	op_reply_186_1_1 = {
+		value = "Of course~ Now don't you wanna try on a pair, Owner? :3"
+	},
+	ins_op_186_1_2 = {
+		value = "Am I at risk for being... revolutionized?"
+	},
+	op_reply_186_1_2 = {
+		value = "If you're asking if I have a set of ears reserved for you, the answer is... YES :3"
+	},
+	ins_187 = {
+		value = "Look! Aren't my new friends adorable?"
+	},
+	ins_discuss_187_1 = {
+		value = "With an army of these, you could conquer the great frozen tundra."
+	},
+	ins_reply_187_1_1 = {
+		value = "An army of cute little snowmen, you say? I'm on it!"
+	},
+	ins_discuss_187_2 = {
+		value = "What're those red things they've got on their blobby little necks?"
+	},
+	ins_reply_187_2_1 = {
+		value = "Just a little something to keep them balanced (and loyal)! Cute, right?"
+	},
+	ins_discuss_187_3 = {
+		value = "Nice. I made a snow кролик."
+	},
+	ins_reply_187_3_1 = {
+		value = "Wh-what does milk \"do\" to you? I just have a bottle or two after a bath..."
+	},
+	ins_op_187_1_1 = {
+		value = "A collar is, let's say, a \"novel\" item to put on a snowman..."
+	},
+	op_reply_187_1_1 = {
+		value = "I've got normal-sized ones too! Interested in trying one out, Commander?"
+	},
+	ins_188 = {
+		value = "Just chilling and waiting for the gang to show up~"
+	},
+	ins_discuss_188_1 = {
+		value = "You hanging out with Astoria today?"
+	},
+	ins_reply_188_1_1 = {
+		value = "Plus a few others! By the way you checked out the latest edition of fashion d'azur yet?"
+	},
+	ins_reply_188_1_2 = {
+		value = "Fashion d'Azur? Can't say I have. Usually I just consult you when I need fashion advice."
+	},
+	ins_discuss_188_2 = {
+		value = "Didn't expect to spend the whole afternoon chatting about fashion. Let's do it again next time you're free!"
+	},
+	ins_reply_188_2_1 = {
+		value = "Ayy, time flies. I'm free whenever so just hit me up when you are"
+	},
+	ins_reply_188_2_2 = {
+		value = "Astoria's into fashion too huh. Almost starting to feel like the odd one out here."
+	},
+	ins_reply_188_2_3 = {
+		value = "You're missin out bigtime Balti. Why not join us for the next meetup? It'll be fun!"
+	},
+	ins_reply_188_2_4 = {
+		value = "Hm... I'll think about it."
+	},
+	ins_op_188_1_1 = {
+		value = "They still sell that tea? Thought the hype around it died down."
+	},
+	op_reply_188_1_1 = {
+		value = "Kinda, but the drink survived! Some places are putting out new flavors too so they're making a small comeback"
+	},
+	ins_op_188_1_2 = {
+		value = "Where is this place in the photo? Looks comfy."
+	},
+	op_reply_188_1_2 = {
+		value = "It's rated 4.7 stars for a reason! I'll DM you the address later so you can check it out"
+	},
+	ins_189 = {
+		value = "A refined lady fusses over the details, including, but not limited to, her nails."
+	},
+	ins_discuss_189_1 = {
+		value = "Interesting... So that's what I need in order to blossom! I see, I see!"
+	},
+	ins_reply_189_1_1 = {
+		value = "There are many ways to ladydom, GB. This is just one. Would you like to know more?"
+	},
+	ins_reply_189_1_2 = {
+		value = "In fact, yes, I would! Please be my guiding lady, Pola!"
+	},
+	ins_discuss_189_2 = {
+		value = "Pola's always been really good at painting nails, both her own and mine. Thanks for the nail art, by the way."
+	},
+	ins_reply_189_2_1 = {
+		value = "You're welcome, sis. It's always a pleasure to work with your hands."
+	},
+	ins_op_189_1_1 = {
+		value = "You could open a nail salon with your level of skill!"
+	},
+	op_reply_189_1_1 = {
+		value = "Oh please, I'm only an enthusiast. And besides, my other skills have more relevancy at the moment~"
+	},
+	ins_op_189_1_2 = {
+		value = "Nail art? Sounds like more than a single-color coating."
+	},
+	op_reply_189_1_2 = {
+		value = "It is. Nail art can get quite intricate and colorful. Would you like to give it a try, Commander~?"
+	},
+	ins_190 = {
+		value = "SUPERHERO MOVIE NIGHT LET'S GOOOOOO!"
+	},
+	ins_discuss_190_1 = {
+		value = "I was NOT expecting Above Average Joe to vanquish Thanatos with a punch to the face! Like, just a regular right hook!"
+	},
+	ins_reply_190_1_1 = {
+		value = "That's why his character is so good! He doesn't need OP powers, he wins using only his wits and unpredictability!"
+	},
+	ins_reply_190_1_2 = {
+		value = "Yeah! And how he had to pick up his father's mantle, figuratively and literally, that really spoke to me."
+	},
+	ins_discuss_190_2 = {
+		value = "Did they really have to keep the camera moving like, constantly? My head was spinning by the end of the film..."
+	},
+	ins_reply_190_2_1 = {
+		value = "Sorry, I'd forgotten the director is kind of infamous for that. I'll find a film with gentler camerawork for next time!"
+	},
+	ins_reply_190_2_2 = {
+		value = "Could we vote on what film to watch instead? I know of a fascinating Saratoga documentary that Gridley made."
+	},
+	ins_reply_190_2_3 = {
+		value = "Isn't that a little niche? I say we find a film we can all enjoy!"
+	},
+	ins_discuss_190_3 = {
+		value = "I kinda spaced out near the film's start middle and end but the potato chips were good!"
+	},
+	ins_reply_190_3_1 = {
+		value = "That's fine too. Feel free to stop by again next time!"
+	},
+	ins_op_190_1_1 = {
+		value = "New life goal: vanquish a Siren by punching it."
+	},
+	op_reply_190_1_1 = {
+		value = "Hahaha! Maybe someday, Commander. Anyone can be a hero with the right mindset!"
+	},
+	ins_op_190_1_2 = {
+		value = "Best movie I've seen in ages!"
+	},
+	op_reply_190_1_2 = {
+		value = "Right?! The scene where he comes back from the brink of death is pure kino!"
+	},
+	ins_191 = {
+		value = "After hearing so much about this signature Dragon Empery dish, today, I finally tried hot pot."
+	},
+	ins_discuss_191_1 = {
+		value = "It was an honor to get to prepare it for you, Miss Richelieu. How did you like it?"
+	},
+	ins_reply_191_1_1 = {
+		value = "It was excellent. Enlightening, even. It gave me a look into a whole other world of cuisine."
+	},
+	ins_discuss_191_2 = {
+		value = "Though certainly appetizing, isn't mutton prepared in this manner highly unorthodox?"
+	},
+	ins_reply_191_2_1 = {
+		value = "What is unorthodox varies by culture. More than this I cannot say... other than that it is very spicy."
+	},
+	ins_reply_191_2_2 = {
+		value = "We'll have a great get-together soon, with lots of hot pot on the menu. You're free to join us and try it for yourself, Jeanne d'Arc!"
+	},
+	ins_op_191_1_1 = {
+		value = "You can tell it's spicy just from the pic alone!"
+	},
+	op_reply_191_1_1 = {
+		value = "It truly is. You feel the heat not just on your tongue, but through your whole body! It is an intense experience."
+	},
+	ins_op_191_1_2 = {
+		value = "Hot pot sounds like a good remedy to winter chills."
+	},
+	op_reply_191_1_2 = {
+		value = "It is quite warming, but take care not to overeat it. Your stomach will thank you later."
+	},
+	ins_192 = {
+		value = "#CuddleCatCafe"
+	},
+	ins_discuss_192_1 = {
+		value = "Nothing soothes the soul quite like cuddling cute kitties does."
+	},
+	ins_reply_192_1_1 = {
+		value = "my soul would've been more soothed if you hadn't forced me to come along. just saying."
+	},
+	ins_reply_192_1_2 = {
+		value = "You say that, but you sure seemed to be enjoying yourself, snuggling with those cats."
+	},
+	ins_reply_192_1_3 = {
+		value = "i didn't snuggle anything, they lied down next to me, that's all."
+	},
+	ins_discuss_192_2 = {
+		value = "That cafe is heaven on earth! I wanna see that black kitty again!"
+	},
+	ins_reply_192_2_1 = {
+		value = "Let's visit it again then. How about next week?"
+	},
+	ins_op_192_1_1 = {
+		value = "Makes me wish I had a cat."
+	},
+	op_reply_192_1_1 = {
+		value = "Why not get one then? There's space in your office, isn't there? Hehehe~"
+	},
+	ins_op_192_1_2 = {
+		value = "They might be even cuddlier than Meowfficers are."
+	},
+	op_reply_192_1_2 = {
+		value = "I can vouch for the fact that they are. But don't take my word for it, why not go and see for yourself?"
+	},
+	ins_193 = {
+		value = "Dumplings are an essential part of the #SpringFestival"
+	},
+	ins_discuss_193_1 = {
+		value = "We helped make them! And taste-tested a few too!"
+	},
+	ins_reply_193_1_1 = {
+		value = "I told you a million times, Ping... you're not supposed to eat raw, unstuffed dumplings."
+	},
+	ins_reply_193_1_2 = {
+		value = "But my stomach was growling like a Nian beast! Plus, they were yummy as-is!"
+	},
+	ins_discuss_193_2 = {
+		value = "I admire how you can mold dumplings into all kinds of different shapes, Yat Sen. All I can make are regular, boring ones..."
+	},
+	ins_reply_193_2_1 = {
+		value = "Don't beat yourself up over it. At least you do better than Chao Ho."
+	},
+	ins_reply_193_2_2 = {
+		value = "Hey, rude! I can do it if I just concentrate, okay?"
+	},
+	ins_discuss_193_3 = {
+		value = "Hehe, I wonder who'll be the lucky taster of my spicy surprisy ghost pepper dumplings!"
+	},
+	ins_reply_193_3_1 = {
+		value = "Your WHAT?! Chang Chun, get over here RIGHT NOW!"
+	},
+	ins_op_193_1_1 = {
+		value = "They're tricky to fold just the right way. Takes skill."
+	},
+	op_reply_193_1_1 = {
+		value = "Indeed they are, but you're quite good at it, Commander!"
+	},
+	ins_op_193_1_2 = {
+		value = "Dinner can't come fast enough! Need dumplings!"
+	},
+	op_reply_193_1_2 = {
+		value = "You said it! I'm so hungry I could eat a dumpling horse!"
+	},
+	ins_194 = {
+		value = "Sweet are these nuggets, gelatinous their skin. Their chewy casings cover the delectable contents within."
+	},
+	ins_discuss_194_1 = {
+		value = "Aren't those tangyuan? That dessert they eat during holidays in the Dragon Empery?"
+	},
+	ins_reply_194_1_1 = {
+		value = "They seem almost... magical! I must have one!"
+	},
+	ins_reply_194_1_2 = {
+		value = "I know but one truth–the sublime flavor of these forbidden fruits."
+	},
+	ins_discuss_194_2 = {
+		value = "Isn't that tangyuan... glowing? And quite a lot, at that?"
+	},
+	ins_reply_194_2_1 = {
+		value = "I don't think food in general is supposed to glow!"
+	},
+	ins_reply_194_2_2 = {
+		value = "Food serves one purpose: to satiate hunger. The light is my respect for the meal, manifested."
+	},
+	ins_op_194_1_1 = {
+		value = "So, is this your glowing recommendation for tangyuan?"
+	},
+	op_reply_194_1_1 = {
+		value = "Its savor must be experienced, not described. A taste shall enlighten you."
+	},
+	ins_195 = {
+		value = "Did someone say FIRECRACKERS?! Watch out, port city, it's gonna be a loud night!"
+	},
+	ins_discuss_195_1 = {
+		value = "Once you crackle and pop, you can't stop!"
+	},
+	ins_reply_195_1_1 = {
+		value = "Aw yeah! And that barrel-size firecracker you set off at the end was amazing!"
+	},
+	ins_reply_195_1_2 = {
+		value = "It was really pretty. But also tremendously loud... like thunder struck right next to us."
+	},
+	ins_reply_195_1_3 = {
+		value = "Hey, you can't make a firecracker omelet without almost cracking a few ear drums!"
+	},
+	ins_discuss_195_2 = {
+		value = "It's only a matter of time before you get hurt if you keep making these colossal firecrackers..."
+	},
+	ins_reply_195_2_1 = {
+		value = "I'm not dumb! I know how to dive for cover! And don't pretend like you don't enjoy watching it go off!"
+	},
+	ins_reply_195_2_2 = {
+		value = "Look, it's called supervision! If I don't keep an eye on you, then who will?"
+	},
+	ins_op_195_1_1 = {
+		value = "Just good, clean, explosive fun!"
+	},
+	op_reply_195_1_1 = {
+		value = "Yeah! Besides, we're trained in the use of naval cannons, so what harm can a few firecrackers do?"
+	},
+	ins_op_195_1_2 = {
+		value = "What's a festival without firecrackers, right?"
+	},
+	op_reply_195_1_2 = {
+		value = "This! It's like popcorn without salt! You need a bit of (read: a lot of) bang-bang!"
+	},
+	ins_196 = {
+		value = "AAAIIIIAAAAAAAAAA"
+	},
+	ins_discuss_196_1 = {
+		value = "Wow! Looks dangerous, but fun!"
+	},
+	ins_reply_196_1_1 = {
+		value = "Depends on the slope and your experience but yeah! Give it a go, Kent!"
+	},
+	ins_discuss_196_2 = {
+		value = "that's me on the left there. never found any new pets among the snow, but skiing was wunsy-funsy"
+	},
+	ins_reply_196_2_1 = {
+		value = "You were looking for pets on a snowy mountain? Are you even allowed to have pets? I have so many questions..."
+	},
+	ins_discuss_196_3 = {
+		value = "Aw yeah, that mountain's good for skiing. And snowmobiling! Shoulda seen me yesterday!"
+	},
+	ins_reply_196_3_1 = {
+		value = "First skateboarding, now snowmobiling? What sports AREN'T you good at, Minny?"
+	},
+	ins_op_196_1_1 = {
+		value = "Skiing is good and all, just be careful!"
+	},
+	op_reply_196_1_1 = {
+		value = "It's perfectly safe, don't worry. This was just a beginner's course!"
+	},
+	ins_op_196_1_2 = {
+		value = "Putting that winter gear to good use, I see."
+	},
+	op_reply_196_1_2 = {
+		value = "Always have! Not every day I get to use it on land though!"
+	},
+	ins_197 = {
+		value = "I'm knitting a sweater for Master, made with love..."
+	},
+	ins_discuss_197_1 = {
+		value = "Whereas I'm incapable of knitting even a scarf! Truly, I am a pitiable maid deserving of punishment!"
+	},
+	ins_reply_197_1_1 = {
+		value = "It's no big deal. I can't knit, heck, most people here can't."
+	},
+	ins_reply_197_1_2 = {
+		value = "I'm confident that the commander will recognise the effort that went into your craft, no matter what you make."
+	},
+	ins_discuss_197_2 = {
+		value = "You have quite the knack for knitting, don't you, Dido?"
+	},
+	ins_reply_197_2_1 = {
+		value = "My ability still pales in comparison to yours..."
+	},
+	ins_discuss_197_3 = {
+		value = "Hah, Sirius looks like a wee cat playing with a baw of yarn."
+	},
+	ins_reply_197_3_1 = {
+		value = "What a naughty kitty..."
+	},
+	ins_op_197_1_1 = {
+		value = "I feel warmer just looking at this picture."
+	},
+	op_reply_197_1_1 = {
+		value = "A direct reply from Master!! You're too kind to me! Thank you, thank you, thank you so much, Master!!!"
+	},
+	op_reply_197_1_2 = {
+		value = "Honourable Master! Now you've seen how woefully incompetent I am! Please, punish me however you see fit!"
+	},
+	ins_198 = {
+		value = "This is a public service announcement! Eat fruit! The fresher, the better!"
+	},
+	ins_discuss_198_1 = {
+		value = "I'm with you on that one. Fruit is good for your health and protects you from malnourishment and disease."
+	},
+	ins_reply_198_1_1 = {
+		value = "Like scurvy! You don't wanna know what it does to you, just eat fruit rich in vitamin C!"
+	},
+	ins_discuss_198_2 = {
+		value = "What about fruit juice? Doesn't that work just as well? :3"
+	},
+	ins_reply_198_2_1 = {
+		value = "I suppose? It isn't precisely the same thing, but it's fine as long as it's freshly squeezed."
+	},
+	ins_discuss_198_3 = {
+		value = "Pardon, but did you take these fruits from the kitchen, by any chance? It is to be served later tonight."
+	},
+	ins_reply_198_3_1 = {
+		value = "I'm making a point here! Don't stress the details."
+	},
+	ins_op_198_1_1 = {
+		value = "You could make a juicy fruit salad out of these."
+	},
+	op_reply_198_1_1 = {
+		value = "Sure. Whatever gets the fruit down your gullet at the end of the day."
+	},
+	ins_op_198_1_2 = {
+		value = "An apple a day keeps the doctor away, as they say."
+	},
+	op_reply_198_1_2 = {
+		value = "It's true! Combine that with a balanced diet and you're set."
+	},
+	ins_199 = {
+		value = "Whew! A bottle of cold milk after a hot bath always hits the spot~"
+	},
+	ins_discuss_199_1 = {
+		value = "Milk, huh. Milk... I guess you really are what you eat -_-"
+	},
+	ins_reply_199_1_1 = {
+		value = "I'm... milk? I don't see what you mean..."
+	},
+	ins_discuss_199_2 = {
+		value = "Is THIS what milk does to you?! This is simply ridiculous! How long have you been drinking it for?!"
+	},
+	ins_reply_199_2_1 = {
+		value = "Wh-what does milk \"do\" to you? I just have a bottle or two after a bath..."
+	},
+	ins_discuss_199_3 = {
+		value = "I smell money to be made, nya! @Shiranui Place an order for 50 crates of milk, nya!"
+	},
+	ins_reply_199_3_1 = {
+		value = "Perhaps we should invest in dairy farm stocks as well... This could be a big market, green cat."
+	},
+	ins_op_199_1_1 = {
+		value = "Milk is nice, and so is its source... Hummina hummina..."
+	},
+	op_reply_199_1_1 = {
+		value = "Pardon? Huh... Would you like me to bring you some milk, Commander? It's good for your bones!"
+	},
+	ins_200 = {
+		value = "Aw yeah, this came out lookin nice!"
+	},
+	ins_discuss_200_1 = {
+		value = "Now that it's actually up on Juustagram it feels just like, kind of weird... a little childish idk."
+	},
+	ins_reply_200_1_1 = {
+		value = "Don't say that. You look cute together."
+	},
+	ins_reply_200_1_2 = {
+		value = "Thanks! Wanna make it a group photo and pose with us, Mogami?"
+	},
+	ins_reply_200_1_3 = {
+		value = "Thanks, but I'll pass. I'll ask Mikuma if she wants to go instead though."
+	},
+	ins_discuss_200_2 = {
+		value = "Childish?? Yoooo what are you talking about you both look sooo cute! @Baltimore let's take a photo like this rn!"
+	},
+	ins_reply_200_2_1 = {
+		value = "What? Now?! I'd need time to prepare!"
+	},
+	ins_op_200_1_1 = {
+		value = "This pic has a certain ying-yang quality to it."
+	},
+	op_reply_200_1_1 = {
+		value = "Hey yeah I see what you mean! Almost makin me feel like a palette swap here lol"
+	},
+	ins_op_200_1_2 = {
+		value = "I never knew Suzuya liked lollipops."
+	},
+	op_reply_200_1_2 = {
+		value = "It's mainly just for the photo, although I do like having one every now and then."
+	},
+	ins_201 = {
+		value = "Lovely signorinas and exquisite food. My two biggest vices. They combo quite well, too!"
+	},
+	ins_discuss_201_1 = {
+		value = "The dinner party was splendid, Miss Littorio. Thank you so much for inviting us."
+	},
+	ins_reply_201_1_1 = {
+		value = "No, signorina, thank YOU for coming. I always cherish our time together."
+	},
+	ins_discuss_201_2 = {
+		value = "Sardegnian food never disappoints! And neither did our gracious host!"
+	},
+	ins_reply_201_2_1 = {
+		value = "I would've loved to indulge myself in all the delicacies on offer, but a lady must watch her calorie intake..."
+	},
+	ins_reply_201_2_2 = {
+		value = "I'm glad to hear it. Your gratitude makes all my efforts worth it."
+	},
+	ins_op_201_1_1 = {
+		value = "Wining and dining is a tried and tested strategy!"
+	},
+	op_reply_201_1_1 = {
+		value = "Indeed, and I consider myself an expert at it. Wouldn't you agree, Commander?"
 	}
 }
