@@ -200,6 +200,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「以冷彻之器，重铸赤红的铁血意志。」</color>\n「负象限作战」活动获取",
 		scene = {}
 	},
+	[313] = {
+		name = "冰华之证",
+		time_second = 0,
+		id = 313,
+		time_limit_type = 0,
+		desc = "等待后续活动获取",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂纪念：企业",
 		time_second = 0,
@@ -258,6 +266,7 @@ pg.item_data_frame = {
 		309,
 		311,
 		312,
+		313,
 		401,
 		402,
 		404,

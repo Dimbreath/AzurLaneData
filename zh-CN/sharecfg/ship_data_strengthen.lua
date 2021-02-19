@@ -9579,11 +9579,11 @@ pg.ship_data_strengthen = {
 	[70106] = {
 		id = 70106,
 		durability = {
+			24,
+			42,
 			0,
 			0,
-			0,
-			0,
-			0
+			55
 		},
 		level_exp = {
 			35,
@@ -9593,11 +9593,11 @@ pg.ship_data_strengthen = {
 			20
 		},
 		attr_exp = {
+			8,
+			14,
 			0,
 			0,
-			0,
-			0,
-			0
+			14
 		}
 	},
 	[70201] = {

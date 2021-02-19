@@ -13805,6 +13805,9 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	world_reset_3 = {
 		tip = "再次进入大型作战后重置生效"
 	},
+	guild_is_frozen_when_start_tech = {
+		tip = "该大舰队已被冻结，无法开始科技"
+	},
 	world_boss_unactivated = {
 		tip = "请先激活大型作战，再进行挑战"
 	},

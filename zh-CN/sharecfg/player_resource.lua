@@ -460,6 +460,11 @@ pg.player_resource = {
 		name = "chunjie_pt",
 		itemid = 59199
 	},
+	[187] = {
+		id = 187,
+		name = "maoxiv2framept",
+		itemid = 59200
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -797,6 +802,9 @@ pg.player_resource = {
 		chunjie_pt = {
 			186
 		},
+		maoxiv2framept = {
+			187
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -927,6 +935,7 @@ pg.player_resource = {
 		184,
 		185,
 		186,
+		187,
 		950,
 		1001,
 		2001,

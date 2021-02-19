@@ -15,9 +15,15 @@ pg.activity_event_blueprint_catchup = {
 		obtain_max = 30,
 		char_choice = 49901
 	},
+	{
+		id = 4,
+		obtain_max = 30,
+		char_choice = 89901
+	},
 	all = {
 		1,
 		2,
-		3
+		3,
+		4
 	}
 }

@@ -127,11 +127,19 @@ function slot0.UpdateDescPage(slot0)
 			slot3 = uv0[slot1 + 1]
 			slot5 = slot3.lv <= uv2 and "#66472a" or "#a3a2a2"
 
-			setText(slot2, "<color=" .. slot5 .. ">" .. (uv1.commonFlag and slot3.desc or slot3.desc_world) .. "</color>" .. (uv2 < slot3.lv and "(Lv." .. slot3.lv .. i18n("word_take_effect") .. ")" or ""))
+			setText(slot2, "<color=" .. slot5 .. ">" .. uv1:GetDesc(uv1.commonFlag, slot3) .. "</color>" .. (uv2 < slot3.lv and "(Lv." .. slot3.lv .. i18n("word_take_effect") .. ")" or ""))
 			setText(slot2:Find("level"), "<color=" .. slot5 .. ">" .. "Lv." .. slot3.lv .. "</color>")
 		end
 	end)
 	slot0.skillDescList:align(#slot2:GetSkillGroup())
+end
+
+function slot0.GetDesc(slot0, slot1, slot2)
+	if not slot1 and slot2.desc_world and slot2.desc_world ~= "" then
+		return slot2.desc_world
+	else
+		return slot2.desc
+	end
 end
 
 function slot0.CloseDescPage(slot0)

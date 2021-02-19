@@ -1043,5 +1043,9 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "藤本彩花",
 		code = 261
+	},
+	{
+		actor_name = "吉冈美咲",
+		code = 262
 	}
 }

@@ -60,6 +60,8 @@ function slot0.execute(slot0, slot1)
 			uv0:updateGuild(slot1)
 			uv7:sendNotification(GAME.GUILD_START_TECH_DONE)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_tech_upgrade_done"))
+		elseif slot0.result == 4305 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_is_frozen_when_start_tech"))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end
