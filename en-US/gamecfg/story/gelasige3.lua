@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Tis the Season of Love!\n\n<size=45>3.Mandarin Ducks?!</size>",
+					"'Tis the Season of Love!\n\n<size=45>3.Mandarin Ducks?!</size>",
 					1
 				}
 			}

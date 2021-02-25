@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "The fleet made its way to a massive iceberg, easily dispatching the enemies in the way. It is said that this iceberg is the only",
+			say = "The fleet made its way to a massive iceberg, easily dispatching the enemies in the way. It is said that this iceberg is the only facility here with an internal structure, and also houses the “Gate.”",
 			side = 2,
 			bgName = "bg_cccpv2_2",
 			dir = 1,
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "The first time, we had to fight our way here. Countless comrades became martyrs in these very waters before we finally managed to",
+			say = "The first time, we had to fight our way here. Countless comrades became martyrs in these very waters before we finally managed to clear out the swarming Siren forces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "It can be said that what we discovered here was a turning point for fate. The intelligence we recovered from here was the reason why",
+			say = "It can be said that what we discovered here was a turning point for fate. The intelligence we recovered from here was the reason why the Northern Parliament, then on the verge of collapse, managed to hold its tattered line of defense and then claw its way back into becoming one of the major world powers today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "What I’m about to tell you has never been made public. After so much information has been leaked, we’ve completely lost trust in the",
+			say = "What I’m about to tell you has never been made public. After so much information has been leaked, we’ve completely lost trust in the ability of the Naval HQ to maintain confidentiality, but we do think you need to know this information.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "That’s not our intent, no. However, I do hope that after listening to everything, you will utilize your best judgment in deciding what",
+			say = "That’s not our intent, no. However, I do hope that after listening to everything, you will utilize your best judgment in deciding what to disclose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "We’re almost convinced that the Sirens were not spontaneously “born” from these oceans, in any sense of the word, but rather came from a",
+			say = "We’re almost convinced that the Sirens were not spontaneously “born” from these oceans, in any sense of the word, but rather came from a distant place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "Since the very beginning, most of their actions have been aimed at driving wedges between our major factions and amplifying those",
+			say = "Since the very beginning, most of their actions have been aimed at driving wedges between our major factions and amplifying those conflicts, plunging us into a state of endless war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "Looking back at everything that’s happened, the Iron Blood had the deepest ties to the Sirens. Their splintering from the Azur Lane, sudden",
+			say = "Looking back at everything that’s happened, the Iron Blood had the deepest ties to the Sirens. Their splintering from the Azur Lane, sudden betrayal, and formation of the Crimson Axis, all reek with the Sirens’ lingering influence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "Somewhat aware, perhaps. But they still continued to fight, whatever the reasons may have been. In the end, everything still happened as",
+			say = "Somewhat aware, perhaps. But they still continued to fight, whatever the reasons may have been. In the end, everything still happened as the Sirens desired. This is the true nature of their power.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "As for where the Sirens came from and what they’re actually after... Unfortunately, we still haven’t found the answers. But we’re sure",
+			say = "As for where the Sirens came from and what they’re actually after... Unfortunately, we still haven’t found the answers. But we’re sure that the answers can be found behind the Gate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

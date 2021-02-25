@@ -179,7 +179,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "Normally, lower-level Siren combat units are simply mindless tools of destruction, whereas higher-tier humanoid Sirens exhibit both",
+			say = "Normally, lower-level Siren combat units are simply mindless tools of destruction, whereas higher-tier humanoid Sirens exhibit both knowledge and intelligence, and have absolute command over the lower-level units.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "In theory, you can eliminate the treat of a Siren fleet by taking out their command structure. But in reality, the Sirens often have",
+			say = "In theory, you can eliminate the treat of a Siren fleet by taking out their command structure. But in reality, the Sirens often have multiple command units, and each command unit can use special flagships to remotely relay their orders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702060,
-			say = "Given that fact... there’s obviously a better way for the Sirens to communicate that would not only be more efficient, but also be more",
+			say = "Given that fact... there’s obviously a better way for the Sirens to communicate that would not only be more efficient, but also be more machine-like. Why would they need to take on human personalities?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			optionFlag = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "Mm... Obviously, lower-level Sirens are unambiguously menacing in their appearance. As for their leaders, they not only are rich",
+			say = "Mm... Obviously, lower-level Sirens are unambiguously menacing in their appearance. As for their leaders, they not only are rich with emotions, but also take on the appearance of young girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			optionFlag = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "Given the Sirens’ pragmatism and precision, it’s understandable that they would seek to reach out to us in a form we can",
+			say = "Given the Sirens’ pragmatism and precision, it’s understandable that they would seek to reach out to us in a form we can relate to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			optionFlag = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "Comrade, we can’t allow this trend to continue! The Northern Parliament has been monitoring this development closely, but the Naval NQ",
+			say = "Comrade, we can’t allow this trend to continue! The Northern Parliament has been monitoring this development closely, but the Naval NQ needs to recognize the seriousness of this situation and act accordingly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			say = "Though we don’t have that kind of technology, I’d say it’s quite likely that the Sirens were constructed. In any case, whoever created",
+			say = "Though we don’t have that kind of technology, I’d say it’s quite likely that the Sirens were constructed. In any case, whoever created the Sirens... must know us very well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702040,
-			say = "They sound like us. They look like us. The Sirens exploit these similarities to subconsciously influence our thinking and interfere",
+			say = "They sound like us. They look like us. The Sirens exploit these similarities to subconsciously influence our thinking and interfere with our judgment, even without us being aware of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702060,
-			say = "Wearing emotions as a disguise to give us the illusion of having common ground, of being able to communicate... when in fact,",
+			say = "Wearing emotions as a disguise to give us the illusion of having common ground, of being able to communicate... when in fact, underneath those expressions, they are cold-blooded killing machines. How terrifying...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702040,
-			say = "I don’t think I remember either... But most likely, whoever discovered them named them “Sirens,” as mysterious enemies that emerged from",
+			say = "I don’t think I remember either... But most likely, whoever discovered them named them “Sirens,” as mysterious enemies that emerged from the ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "You have a point... But they’ve just been called that for so long, I’m not sure anyone actually has an explanation for the origin of that",
+			say = "You have a point... But they’ve just been called that for so long, I’m not sure anyone actually has an explanation for the origin of that name.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Murmansk, your questions have been unusually on the mark today. Have you recently changed your hobby from observing small animals to",
+			say = "Murmansk, your questions have been unusually on the mark today. Have you recently changed your hobby from observing small animals to perusing tomes of philosophy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -744,7 +744,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702060,
-			say = "Ehehe... Did I just say something totally quotable? To be honest though, I suddenly thought of all these things after meeting Comrade",
+			say = "Ehehe... Did I just say something totally quotable? To be honest though, I suddenly thought of all these things after meeting Comrade Commander today...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

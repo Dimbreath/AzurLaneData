@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Tis the Season of Love!\n\n<size=45>5.The Name... Is Glasgow</size>",
+					"'Tis the Season of Love!\n\n<size=45>5.The Name... Is Glasgow</size>",
 					1
 				}
 			}
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
-			say = "Glasgow’s cheeks flared up again as she threw herself into her cleaning, her movements more agitated than",
+			say = "Glasgow’s cheeks flared up again as she threw herself into her cleaning, her movements more agitated than normal. Her emotions were a mess, and she couldn’t figure out why.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
-			say = "――我爱你  格拉斯哥。",
+			say = "——I love you. From, Glasgow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
-			say = "\"I see... So it was fake...\"",
+			say = "“I see... So it was fake...”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			bgName = "bg_main_twilight",
 			dir = 1,
 			blackBg = true,
-			say = "In that moment, time seemed to stand still for the figures alone in the classroom, the orange light of the",
+			say = "In that moment, time seemed to stand still for the figures alone in the classroom, the orange light of the afternoon sun filtering in through the windows.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_5",
 			dir = 1,
-			bgm = "battle-undermoon",
+			bgm = "bgm-cccp3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_5",
 			dir = 1,
-			say = "The wall of ice became thin and translucent, as if turning into a gossamer membrane that could disappear at any time. And on the other",
+			say = "The wall of ice became thin and translucent, as if turning into a gossamer membrane that could disappear at any time. And on the other side of the veil, a radiant city comprised entirely of light rose from the formerly empty Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "The Sirens truly hid a magnificent work of art here. I can’t imagine their ugly sense of aesthetics giving birth to something this",
+			say = "The Sirens truly hid a magnificent work of art here. I can’t imagine their ugly sense of aesthetics giving birth to something this beautiful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			bgName = "bg_cccpv2_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Not even the most advanced countries can pull off an engineering marvel like this... not to mention, this entire city seems to be",
+			say = "Not even the most advanced countries can pull off an engineering marvel like this... not to mention, this entire city seems to be composed entirely of light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "Now this is an unexpected development. Instead of getting some secret backroom or lab, an entire city of light materializes out of nowhere,",
+			say = "Now this is an unexpected development. Instead of getting some secret backroom or lab, an entire city of light materializes out of nowhere, and we don’t have any clues as to who built it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

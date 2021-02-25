@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Tis the Season of Love!\n\n<size=45>6.Would You Still... Love Me?</size>",
+					"'Tis the Season of Love!\n\n<size=45>6.Would You Still... Love Me?</size>",
 					1
 				}
 			}
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
-			say = "「但我喜欢格拉斯哥。」",
+			say = "“But I still love you, Glasgow.”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			},
 			options = {
 				{
-					content = "「再让给我看看你的脸……」",
+					content = "“I want to see more of your lovely face...”",
 					flag = 1
 				}
 			}

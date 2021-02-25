@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			actor = 702010,
 			nameColor = "#a9f548",
-			say = "~Hehe~ See? I knew you’d come to appreciate how great our bears are. Cuteness and power in one package!",
+			say = "Hehe~ See? I knew you’d come to appreciate how great our bears are. Cuteness and power in one package!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			actor = 702030,
 			nameColor = "#a9f548",
-			say = "Don’t you fret, dear. Tallinn and the others are dependable. Even if the Sirens were to muster their main forces, they’ll find our defenses difficult to break.~",
+			say = "Don’t you fret, dear. Tallinn and the others are dependable. Even if the Sirens were to muster their main forces, they’ll find our defenses difficult to break.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			actor = 702030,
 			nameColor = "#a9f548",
-			say = "The Sirens will likely see through a maneuver as blatant as this, but if we commit enough of our forces, Omitter will be forced to turn the fleet around to defend the Winter’s Crown.~",
+			say = "The Sirens will likely see through a maneuver as blatant as this, but if we commit enough of our forces, Omitter will be forced to turn the fleet around to defend the Winter’s Crown.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

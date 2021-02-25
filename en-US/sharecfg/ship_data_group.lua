@@ -16055,7 +16055,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：破晓冰华",
+				"Event: Khorovod of Dawn's Rime",
 				{
 					""
 				},
@@ -16086,7 +16086,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：破晓冰华",
+				"Event: Khorovod of Dawn's Rime",
 				{
 					""
 				},
@@ -16350,7 +16350,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：破晓冰华",
+				"Event: Khorovod of Dawn's Rime",
 				{
 					""
 				},
@@ -16381,7 +16381,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：破晓冰华",
+				"Event: Khorovod of Dawn's Rime",
 				{
 					""
 				},
@@ -16443,7 +16443,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：破晓冰华",
+				"Event: Khorovod of Dawn's Rime",
 				{
 					""
 				},
@@ -16505,7 +16505,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：破晓冰华",
+				"Event: Khorovod of Dawn's Rime",
 				{
 					""
 				},

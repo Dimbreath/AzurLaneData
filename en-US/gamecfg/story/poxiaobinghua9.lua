@@ -27,7 +27,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "It feels like we’ve already been underwater for a long time... Do we need to switch into smaller expedition vessels if we’re exploring",
+			say = "It feels like we’ve already been underwater for a long time... Do we need to switch into smaller expedition vessels if we’re exploring underwater ruins or something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "To be precise, this is a unique space that resembles a Mirror Sea, except underwater. The specifics are a bit more complicated, but you’ll",
+			say = "To be precise, this is a unique space that resembles a Mirror Sea, except underwater. The specifics are a bit more complicated, but you’ll see once you get out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_2",
 			dir = 1,
-			say = "When I looked down at my feet, I could see a layer of calm ocean water coursing beneath me. Lifting my head, I could see that the dome",
+			say = "When I looked down at my feet, I could see a layer of calm ocean water coursing beneath me. Lifting my head, I could see that the dome of stars that should’ve been above me was now replaced by the expansive sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

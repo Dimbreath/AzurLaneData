@@ -14,7 +14,7 @@ return {
 			bgm = "bgm-cccp2",
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "That should wrap things up over here. I do believe this is my first time meeting you in person, Commander. I am the flagship of the Secret",
+			say = "That should wrap things up over here. I do believe this is my first time meeting you in person, Commander. I am the flagship of the Secret Room’s defense fleet, heavy cruiser Tallinn.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			actor = 701080,
 			nameColor = "#a9f548",
-			say = "Hehe~ Well met, Comrade Commander! My name is Gromky, a destroyer from the Northern Parliament! I hope I’ll be able to assist you in",
+			say = "Hehe~ Well met, Comrade Commander! My name is Gromky, a destroyer from the Northern Parliament! I hope I’ll be able to assist you in this operation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
-			say = "(I could sense a domineering aura from Tallinn. As the flagship of a fleet that had been fighting tooth and nail, on top of her",
+			say = "(I could sense a domineering aura from Tallinn. As the flagship of a fleet that had been fighting tooth and nail, on top of her experience in the Iron Blood, she was a force to be reckoned with...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
-			say = "(All around us are the husks of Siren ships destroyed during previous engagements, and the various logistics forces trying to clear them",
+			say = "(All around us are the husks of Siren ships destroyed during previous engagements, and the various logistics forces trying to clear them away.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
-			say = "(When I look into the distance, all I see is the frozen sea being blanketed by endless white snow, with no traces of platforms,",
+			say = "(When I look into the distance, all I see is the frozen sea being blanketed by endless white snow, with no traces of platforms, facilities, or any other manmade object for that matter.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oho, do you remember how shocked we were the first time we came here? It wouldn’t be fair if our Comrade missed out on that rite of",
+			say = "Oho, do you remember how shocked we were the first time we came here? It wouldn’t be fair if our Comrade missed out on that rite of passage. But don’t worry, Tallinn, everything has been taken care of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

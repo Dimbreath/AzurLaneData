@@ -127361,18 +127361,18 @@ The available outfits and their rarities are as follows:
 		display = [[
 Use this to randomly obtain one of the following outfits (duplicate outfits will be converted into a corresponding sum of Gems) 
 The available outfits and their rarities are as follows:
-（<color=#92fc63>8.8%</color>）Nostalgic Pilsner ；
-（<color=#92fc64>8.8%</color>）Relaxation Stratagem ；
-（<color=#92fc65>8.8%</color>）Blend R ；
-（<color=#92fc66>8%</color>）A Daytime Delight is in a Book ；
-（<color=#92fc67>8%</color>）Sceneries of Pure Snow ；
-（<color=#92fc68>8%</color>）Morning's Beckoning ；
-（<color=#92fc69>8%</color>）Keeper of the Firewater ；
-（<color=#92fc70>8%</color>）Sweet Cherry Memories ；
-（<color=#92fc71>8.8%</color>）White Cavalier's Respite ；
-（<color=#92fc72>8%</color>）Bunny Remodeling Plan? ；
-（<color=#92fc73>8%</color>）No Snow No Life ；
-（<color=#92fc74>8.8%</color>）The Blue Snoozer ]],
+（<color=#92fc63>8.8%</color>）Tallinn - Nostalgic Pilsner ；
+（<color=#92fc64>8.8%</color>）Sovetskaya Belorussiya - Relaxation Stratagem ；
+（<color=#92fc65>8.8%</color>）Kirov - Blend R ；
+（<color=#92fc66>8%</color>）Gremyashchy - A Daytime Delight is in a Book ；
+（<color=#92fc67>8%</color>）Murmansk - Sceneries of Pure Snow ；
+（<color=#92fc68>8%</color>）Gromky - Morning's Beckoning ；
+（<color=#92fc69>8%</color>）Gangut - Keeper of the Firewater ；
+（<color=#92fc70>8%</color>）Pamiat' Merkuria - Sweet Cherry Memories ；
+（<color=#92fc71>8.8%</color>）Chapayev - White Cavalier's Respite ；
+（<color=#92fc72>8%</color>）Grozny - Bunny Remodeling Plan? ；
+（<color=#92fc73>8%</color>）Stremitelny - No Snow No Life ；
+（<color=#92fc74>8.8%</color>）Tashkent - The Blue Snoozer ]],
 		type = 98,
 		is_world = 0,
 		shop_id = -1,

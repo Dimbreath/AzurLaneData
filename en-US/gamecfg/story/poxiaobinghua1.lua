@@ -53,7 +53,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Truly no rest for the wicked in times like these. Still have a faulty power system, and my turret might need an overhauling, but that’s what",
+			say = "Truly no rest for the wicked in times like these. Still have a faulty power system, and my turret might need an overhauling, but that’s what happens when you rush back from the front lines.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "It’s all minor stuff though, and more importantly, I’ve made it back in time. By the way, where’s Sovetsky Soyuz? Wasn’t she the one who sent",
+			say = "It’s all minor stuff though, and more importantly, I’ve made it back in time. By the way, where’s Sovetsky Soyuz? Wasn’t she the one who sent out this emergency assembly order?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "As of late, the Azur Lane has been preparing for a large-scale operation in the NA Ocean. Whether our navy participates in this operation,",
+			say = "As of late, the Azur Lane has been preparing for a large-scale operation in the NA Ocean. Whether our navy participates in this operation,and if so, through which means and to what extent, are all major decisions that require the input of Sovetsky Soyuz.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "One moment, she’s fighting on the front lines. The next, she’s fighting the bureaucrats in back rooms. I don’t envy the responsibilities of",
+			say = "One moment, she’s fighting on the front lines. The next, she’s fighting the bureaucrats in back rooms. I don’t envy the responsibilities of our fleet leader.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Precisely. Through our time working with you, Comrade, you’ve not only proven your worth as a commander, but also demonstrated exceptional",
+			say = "Precisely. Through our time working with you, Comrade, you’ve not only proven your worth as a commander, but also demonstrated exceptional strength of character.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			actor = 705050,
 			nameColor = "#a9f548",
-			say = "You have proven that you are willing to look beyond prejudices and are not beholden to any of the various factions you’ve worked with in the",
+			say = "You have proven that you are willing to look beyond prejudices and are not beholden to any of the various factions you’ve worked with in the past. The ability to set aside your own preconceptions and strive towards the survival of humanity truly embodies the ideals of the Azur Lane.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			actor = 705050,
 			nameColor = "#a9f548",
-			say = "This matter is of great importance. Sovetsky Soyuz had planned to take the commander there herself, but there’s no shrugging off summons",
+			say = "This matter is of great importance. Sovetsky Soyuz had planned to take the commander there herself, but there’s no shrugging off summons from St. Petersburg. That’s where we come in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "We can wait a couple days for the meeting to end before taking the commander over, can’t we? There’s no reason why we need to rush things so",
+			say = "We can wait a couple days for the meeting to end before taking the commander over, can’t we? There’s no reason why we need to rush things so much, is there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			actor = 705050,
 			nameColor = "#a9f548",
-			say = "Mmm... I’m not sure if you’ve noticed, but the situation in Europa has been very strange as of late. After the attack on Scapa Flow, we",
+			say = "Mmm... I’m not sure if you’ve noticed, but the situation in Europa has been very strange as of late. After the attack on Scapa Flow, we were expecting a full-blown engagement between the Royal Navy and the Iron Blood. Instead, both sides have been eerily quiet about this matter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			actor = 705050,
 			nameColor = "#a9f548",
-			say = "Hard to say. The Iron Blood has a roundabout way of doing things, and knowing the Royal Navy... In any case, because the situation has",
+			say = "Hard to say. The Iron Blood has a roundabout way of doing things, and knowing the Royal Navy... In any case, because the situation has eased up, they want to bring the commander back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "We’ve received intel showing that they’ve begun significant preparations for this purpose. Because we no longer have any reason to keep",
+			say = "We’ve received intel showing that they’ve begun significant preparations for this purpose. Because we no longer have any reason to keep delaying, our hands will probably be tied once their convoy arrives.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			actor = 705050,
 			nameColor = "#a9f548",
-			say = "We’ll launch a joint attack. The Sirens in the Arctic front seem to have finally discovered the purpose for us keeping the commander",
+			say = "We’ll launch a joint attack. The Sirens in the Arctic front seem to have finally discovered the purpose for us keeping the commander here. After all this time of being fairly ambivalent towards our “Secret Room,” they’ve finally started to direct their attacks there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			actor = 705050,
 			nameColor = "#a9f548",
-			say = "After the operation begins, I’ll draw the Sirens away. Use that time to escort the commander to the Arcana Sanctum, and complete our",
+			say = "After the operation begins, I’ll draw the Sirens away. Use that time to escort the commander to the Arcana Sanctum, and complete our mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "We won’t have the commander for much longer, and the Siren offensive is also becoming more intense. This might be the only chance we",
+			say = "We won’t have the commander for much longer, and the Siren offensive is also becoming more intense. This might be the only chance we get, so failure is not an option.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

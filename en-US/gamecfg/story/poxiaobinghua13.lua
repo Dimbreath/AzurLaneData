@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "We’ve scoured the entire Mirror Sea, but have not found any device that can control the facilities here. We can’t even control the Mirror",
+			say = "We’ve scoured the entire Mirror Sea, but have not found any device that can control the facilities here. We can’t even control the Mirror Sea or access its maintenance device.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_3",
 			dir = 1,
-			say = "However, all the Siren devices and facilities we’ve encountered so far have been powered by a special energy storage device. Why",
+			say = "However, all the Siren devices and facilities we’ve encountered so far have been powered by a special energy storage device. Why would this thing here require a Wisdom Cube to activate?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "We’ve conducted a series of experiments to try to activate the console, but everything we’ve tried has resulted in failure. It won’t respond",
+			say = "We’ve conducted a series of experiments to try to activate the console, but everything we’ve tried has resulted in failure. It won’t respond at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "Mhm. Comrade, the tests you took when you first became a commander showed that you have the highest attunement with Wisdom Cubes that",
+			say = "Mhm. Comrade, the tests you took when you first became a commander showed that you have the highest attunement with Wisdom Cubes that this world has ever seen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_cccpv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "All the science we have today cannot explain why you are able to produce benign changes to Wisdom Cubes, but even you should be aware of",
+			say = "All the science we have today cannot explain why you are able to produce benign changes to Wisdom Cubes, but even you should be aware of this phenomenon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "The wall of ice in front of you, right at the end of this hall, is what we call the “Gate.” We’re confident that if you’re able to",
+			say = "The wall of ice in front of you, right at the end of this hall, is what we call the “Gate.” We’re confident that if you’re able to activate this console, this will open up into another passage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_3",
 			dir = 1,
-			say = "Just from its size and texture, there’s no way something like this could have formed naturally. But I can’t see any kinds of mechanisms",
+			say = "Just from its size and texture, there’s no way something like this could have formed naturally. But I can’t see any kinds of mechanisms inside... It seems like just a sheet of ice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_3",
 			dir = 1,
-			say = "The shell discharged from Gromky’s gun slammed into the wall of ice and erupted in a cloud of smoke and steam... But when it cleared,",
+			say = "The shell discharged from Gromky’s gun slammed into the wall of ice and erupted in a cloud of smoke and steam... But when it cleared, there wasn’t a scratch on the wall...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "Of course, we’ve tried many other methods. Using larger-caliber guns, having the entire fleet fire salvos, using explosives,",
+			say = "Of course, we’ve tried many other methods. Using larger-caliber guns, having the entire fleet fire salvos, using explosives, using heavier explosives...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_3",
 			dir = 1,
-			say = "I guess you really do have to work from the console... Hm? Wait, this insignia here... it’s not what the Sirens use to represent",
+			say = "I guess you really do have to work from the console... Hm? Wait, this insignia here... it’s not what the Sirens use to represent themselves... I’ve never seen this before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			},
 			options = {
 				{
-					content = "Insert the Cube.",
+					content = "安放",
 					flag = 1
 				}
 			}
@@ -664,7 +664,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_4",
 			dir = 1,
-			say = "As soon as I pressed the Wisdom Cube into the groove, the device began to vibrate and hum. The Wisdom Cube seemed to dissolve, replaced",
+			say = "As soon as I pressed the Wisdom Cube into the groove, the device began to vibrate and hum. The Wisdom Cube seemed to dissolve, replaced by a ball of light that expanded above the console.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

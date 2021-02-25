@@ -253,7 +253,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "The reason why the Northern Parliament was able to make such a miraculous recovery after being devastated by the Sirens previously... is",
+			say = "The reason why the Northern Parliament was able to make such a miraculous recovery after being devastated by the Sirens previously... is because of the contents of the Sanctum.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 705040,
-			say = "The Royal Navy and Eagle Union will never understand what it feels like to desperately struggle for air when being strangled by an",
+			say = "The Royal Navy and Eagle Union will never understand what it feels like to desperately struggle for air when being strangled by an overwhelmingly powerful enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 705040,
-			say = "In any case, around that time, the Naval HQ managed to successfully develop and mass-produce the Wisdom Cube, and the rest is",
+			say = "In any case, around that time, the Naval HQ managed to successfully develop and mass-produce the Wisdom Cube, and the rest is history. Various countries utilized the Wisdom Cubes to create their own fleets, eventually tipping the scales in our favor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 705040,
-			say = "No, that’s not quite what I’m getting at. We had no hand in the development of the Wisdom Cube, and the resources recovered from the",
+			say = "No, that’s not quite what I’m getting at. We had no hand in the development of the Wisdom Cube, and the resources recovered from the Sanctum didn’t have any records of Wisdom Cubes either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 705040,
-			say = "If anything, I’m inclined to say that the two are unrelated. However, Wisdom Cubes appeared at around the same time as the first shipgirl,",
+			say = "If anything, I’m inclined to say that the two are unrelated. However, Wisdom Cubes appeared at around the same time as the first shipgirl,and this alone is something worth thinking about, is it not?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "Who knew that such a shocking revelation would lie beneath something long-considered common sense? I’ll have to thoroughly comb through",
+			say = "Who knew that such a shocking revelation would lie beneath something long-considered common sense? I’ll have to thoroughly comb through the files at the Naval HQ when I get back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

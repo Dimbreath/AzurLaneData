@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Tis the Season of Love!\n\n<size=45>1.The Season of Love is Here!</size>",
+					"'Tis the Season of Love!\n\n<size=45>1.The Season of Love is Here!</size>",
 					1
 				}
 			}
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "I rub my still-sleepy eyes and let out a great yawn. Beside me was the maid, Glasgow, with a dissatisfied",
+			say = "I rub my still-sleepy eyes and let out a great yawn. Beside me was the maid, Glasgow, with a dissatisfied frown on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			actor = 202261,
 			nameColor = "#a9f548",
-			say = "The breakfast that Newcastle painstakingly prepared for you is going to go cold! Hurry up and get out of",
+			say = "The breakfast that Newcastle painstakingly prepared for you is going to go cold! Hurry up and get out of bed already!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "Even though I’m your family maid, at school, we’re just ordinary classmates! Nod if you understand!",
+			say = "At times, she is a maid in service in someone’s service. At other times, she is a classmate from the same school.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

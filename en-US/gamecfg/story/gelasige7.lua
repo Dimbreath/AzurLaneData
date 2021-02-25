@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Tis the Season of Love!\n\n<size=45>7.That Scared Me Half to Death!</size>",
+					"'Tis the Season of Love!\n\n<size=45>7.That Scared Me Half to Death!</size>",
 					1
 				}
 			}
@@ -66,7 +66,7 @@ return {
 			},
 			options = {
 				{
-					content = "\"Earth to Glasgow!\"",
+					content = "“Earth to Glasgow!”",
 					flag = 1
 				},
 				{
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			actor = 202260,
 			nameColor = "#a9f548",
-			say = "(On my next day off, I should take the initiative and ask the commander out on a date... No, I simply",
+			say = "(On my next day off, I should take the initiative and ask the commander out on a date... No, I simply must!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

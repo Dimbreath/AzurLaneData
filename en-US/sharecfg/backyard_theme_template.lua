@@ -2540,8 +2540,8 @@ pg.backyard_theme_template = {
 	},
 	[77] = {
 		Cfg_1 = 5,
-		name = "北地雪镇",
-		desc = "在银装素裹的小镇里度过特别的一夜吧！",
+		name = "Northern Wonderland",
+		desc = "Stay indoors, sip something warm, and task someone else with shoveling the snow.",
 		deblocking = 1,
 		new = 1,
 		hot = 1,

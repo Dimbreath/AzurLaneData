@@ -28,7 +28,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "Good morning, Comrade~ I’m Murmansk, from the fleet in charge of the Sanctum’s defense. The flagship of the defense fleet, Tallinn, is",
+			say = "Good morning, Comrade~ I’m Murmansk, from the fleet in charge of the Sanctum’s defense. The flagship of the defense fleet, Tallinn, is currently busy commanding, so I am in charge of making sure you all docksafely. Right this way~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "Hmm... Sovetskaya Rossiya might have already begun her offensive. The Sirens started to significantly change their behavior",
+			say = "Hmm... Sovetskaya Rossiya might have already begun her offensive. The Sirens started to significantly change their behavior today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "After launching an attack on their base, Omitter did show some signs of being flustered, but instead of turning her fleet around, she’s",
+			say = "After launching an attack on their base, Omitter did show some signs of being flustered, but instead of turning her fleet around, she’s doubled down on the offensive...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "This is indeed the best decision for the Sirens, given their lack of concern for casualties. We may have underestimated her decisionmaking",
+			say = "This is indeed the best decision for the Sirens, given their lack of concern for casualties. We may have underestimated her decisionmaking just because of her comical demeanor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "In the face of our mighty Polar Fleet, clarity of mind is not enough to account for the fact that they can’t sufficiently reinforce their",
+			say = "In the face of our mighty Polar Fleet, clarity of mind is not enough to account for the fact that they can’t sufficiently reinforce their front lines.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "As long as we clear out the remainder of their forces here, the Sanctum will no longer be in danger. After that, we can start doing",
+			say = "As long as we clear out the remainder of their forces here, the Sanctum will no longer be in danger. After that, we can start doing the things we came here for!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "Mm~ That’s what Tallinn had in mind as well. Our fleet is currently holding the enemy back from several directions. I’d love to play it",
+			say = "Mm~ That’s what Tallinn had in mind as well. Our fleet is currently holding the enemy back from several directions. I’d love to play it cool and say we have everything under control, but to be honest, the fighting is really fierce out there and we could use the help...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "Ehehe~ Fortunately for you, the view inside the Sanctum is simply stunning. After we clear out the enemies, I’ll show you exactly what I mean~",
+					content = "“Sure, I didn’t come here to sightsee.”",
 					flag = 2
 				}
 			}
@@ -249,7 +249,7 @@ return {
 			blackBg = true,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "Ehehe~ Fortunately for you, the view inside the Sanctum is simply stunning. After we clear out the enemies, I’ll show you exactly what I",
+			say = "Ehehe~ Fortunately for you, the view inside the Sanctum is simply stunning. After we clear out the enemies, I’ll show you exactly what I mean~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

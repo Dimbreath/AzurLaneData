@@ -225,7 +225,7 @@ pg.ship_skin_template_16 = {
 		}
 	},
 	[702029] = {
-		name = "Pamiat Merkuria (Retrofit)",
+		name = "Pamiat‘ Merkuria (Retrofit)",
 		ship_group = 70202,
 		group_index = 9,
 		illustrator2 = -1,

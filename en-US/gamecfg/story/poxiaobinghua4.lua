@@ -80,7 +80,7 @@ return {
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
-			say = "Gremyashchy was the perfect representation of the stoic fighting style of the Northern Parliament, expressionlessly mowing down the",
+			say = "Gremyashchy was the perfect representation of the stoic fighting style of the Northern Parliament, expressionlessly mowing down the enemy ships that occasionally appeared in our way. Among all the destroyers I’ve commanded, Gremyashchy’s combat capabilities were absolutely top-notch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,11 +91,11 @@ return {
 			},
 			options = {
 				{
-					content = "\"Exceptionally well fought.\"",
+					content = "“Exceptionally well fought.”",
 					flag = 1
 				},
 				{
-					content = "\"I’m very impressed by your performance.\"",
+					content = "“I’m very impressed by your performance.”",
 					flag = 2
 				}
 			}
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "Hah. You sure know talent when you see it, Comrade. Gremyashchy here has been given the prestigious title of “Guardian.” She’s",
+			say = "Hah. You sure know talent when you see it, Comrade. Gremyashchy here has been given the prestigious title of “Guardian.” She’s the ace up our sleeve!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Gremyashchy’s mostly been active in the Arctic naval routes, and we only recently had her transferred here to aid with our current",
+			say = "Gremyashchy’s mostly been active in the Arctic naval routes, and we only recently had her transferred here to aid with our current operations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			withoutActorName = true,
 			optionFlag = 1,
 			actor = 701070,
-			say = "Unlike the other destroyers I’ve worked with, Gremyashchy doesn’t solely rely on her gunnery and torpedo strikes. She prefers to",
+			say = "Unlike the other destroyers I’ve worked with, Gremyashchy doesn’t solely rely on her gunnery and torpedo strikes. She prefers to quickly close the gap on her enemies before dispatching them with a swing of her massive, comically exaggerated chain mace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

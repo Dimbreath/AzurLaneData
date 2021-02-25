@@ -3763,7 +3763,7 @@ pg.ship_skin_words_extra = {
 		main_extra = {
 			{
 				1100,
-				"Omaha gave me a few snacks. Would you like to eat them with me? Hehehe~ Then let's huddle up and enjoy~|A friend told me a while ago that being around me feels warming sometimes, and chilling other times... Umm, that's not really a good thing, is it?|Staaare... Hey~♡ You're really good-looking, Commander~♪"
+				"A friend told me a while ago that being around me feels warming sometimes, and chilling other times... Umm, that's not really a good thing, is it?|Staaare... Hey~♡ You're really good-looking, Commander~♪"
 			}
 		},
 		touch2 = {
@@ -3813,7 +3813,7 @@ pg.ship_skin_words_extra = {
 		main_extra = {
 			{
 				1100,
-				"|Maybe I should put a collar on you, like Chapayev suggested... What? Nothing important. Focus on your work.|Do your job well, and you'll be rewarded. Use your head and think up something good, then I'll see what I can do. Hehehe~"
+				"Maybe I should put a collar on you, like Chapayev suggested... What? Nothing important. Focus on your work.|Do your job well, and you'll be rewarded. Use your head and think up something good, then I'll see what I can do. Hehehe~"
 			}
 		},
 		touch = {

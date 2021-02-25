@@ -32620,7 +32620,7 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 	},
 	[43412] = {
 		use_gold = 3000,
-		name = "战术启发",
+		name = "Tactical Learning",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,

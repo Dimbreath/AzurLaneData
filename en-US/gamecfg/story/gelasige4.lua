@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Tis the Season of Love!\n\n<size=45>4.Your Face is Too Close!</size>",
+					"'Tis the Season of Love!\n\n<size=45>4.Your Face is Too Close!</size>",
 					1
 				}
 			}
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "Glasgow, having started her first errand as a class representative, was walking around with a stack of",
+			say = "Glasgow, having started her first errand as a class representative, was walking around with a stack of papers in her hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "And you... You just nodded along to whatever she told you to do. Are you sure you’re okay with this? You know",
+			say = "And you... You just nodded along to whatever she told you to do. Are you sure you’re okay with this? You know the workload is only going to get more and more unreasonable...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "「……太轻率了吗？」",
+			say = "“...Should I not have?”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "「帮你再拿点吧？」",
+			say = "“Need a hand?”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "I hurriedly reached out to grab onto Glasgow’s shoulders to steer her away from trouble... but somehow ended",
+			say = "I hurriedly reached out to grab onto Glasgow’s shoulders to steer her away from trouble... but somehow ended up pinning her back against the wall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
