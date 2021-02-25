@@ -3701,11 +3701,11 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai69",
-		id_str = "com.yostaren.azurlane.diamond144 ",
+		id_str = "com.yostaren.azurlane.diamond144",
 		first_pay_double = 0,
 		extra_gem = 0,
 		id = 131,
-		airijp_id = "com.yostaren.azurlane.diamond144 ",
+		airijp_id = "com.yostaren.azurlane.diamond144",
 		extra_service_item = {
 			{
 				2,

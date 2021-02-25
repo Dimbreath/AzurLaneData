@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
-			say = "「需要帮忙吗？」",
+			say = "“Need some help?”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
