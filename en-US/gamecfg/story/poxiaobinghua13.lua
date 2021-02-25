@@ -598,7 +598,7 @@ return {
 			},
 			options = {
 				{
-					content = "安放",
+					content = "Place it",
 					flag = 1
 				}
 			}

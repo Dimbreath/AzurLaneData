@@ -2,7 +2,7 @@ return {
 	fadeType = 1,
 	mode = 2,
 	once = true,
-	id = "POXIAOBINGHU11",
+	id = "POXIAOBINGHUA11",
 	fadein = 1.5,
 	scripts = {
 		{
