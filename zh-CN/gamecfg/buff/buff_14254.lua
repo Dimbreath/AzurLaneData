@@ -8,10 +8,7 @@ return {
 				},
 				arg_list = {
 					number = 0.05,
-					attr = "cri",
-					index = {
-						1
-					}
+					attr = "cri"
 				}
 			}
 		}
@@ -25,10 +22,7 @@ return {
 				},
 				arg_list = {
 					number = 0.066,
-					attr = "cri",
-					index = {
-						1
-					}
+					attr = "cri"
 				}
 			}
 		}
@@ -42,10 +36,7 @@ return {
 				},
 				arg_list = {
 					number = 0.082,
-					attr = "cri",
-					index = {
-						1
-					}
+					attr = "cri"
 				}
 			}
 		}
@@ -59,10 +50,7 @@ return {
 				},
 				arg_list = {
 					number = 0.1,
-					attr = "cri",
-					index = {
-						1
-					}
+					attr = "cri"
 				}
 			}
 		}
@@ -76,10 +64,7 @@ return {
 				},
 				arg_list = {
 					number = 0.116,
-					attr = "cri",
-					index = {
-						1
-					}
+					attr = "cri"
 				}
 			}
 		}
@@ -93,10 +78,7 @@ return {
 				},
 				arg_list = {
 					number = 0.132,
-					attr = "cri",
-					index = {
-						1
-					}
+					attr = "cri"
 				}
 			}
 		}
@@ -110,10 +92,7 @@ return {
 				},
 				arg_list = {
 					number = 0.15,
-					attr = "cri",
-					index = {
-						1
-					}
+					attr = "cri"
 				}
 			}
 		}
@@ -127,10 +106,7 @@ return {
 				},
 				arg_list = {
 					number = 0.166,
-					attr = "cri",
-					index = {
-						1
-					}
+					attr = "cri"
 				}
 			}
 		}
@@ -144,10 +120,7 @@ return {
 				},
 				arg_list = {
 					number = 0.182,
-					attr = "cri",
-					index = {
-						1
-					}
+					attr = "cri"
 				}
 			}
 		}
@@ -161,10 +134,7 @@ return {
 				},
 				arg_list = {
 					number = 0.2,
-					attr = "cri",
-					index = {
-						1
-					}
+					attr = "cri"
 				}
 			}
 		}
@@ -194,10 +164,7 @@ return {
 			},
 			arg_list = {
 				number = 0.05,
-				attr = "cri",
-				index = {
-					1
-				}
+				attr = "cri"
 			}
 		}
 	}

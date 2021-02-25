@@ -32,7 +32,7 @@ return {
 			},
 			arg_list = {
 				number = 0.15,
-				attr = "injureRatioByCannon"
+				attr = "injureRatio"
 			}
 		},
 		{

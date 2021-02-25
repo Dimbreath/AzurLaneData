@@ -209767,7 +209767,7 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1.3,
+			1.35,
 			1.2,
 			1.1,
 			0.3
@@ -209892,7 +209892,7 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1.35,
+			1.4,
 			1.2,
 			1.1,
 			0.3
@@ -210017,7 +210017,7 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1.45,
+			1.5,
 			1.2,
 			1.1,
 			0.3
@@ -210142,7 +210142,7 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1.5,
+			1.55,
 			1.25,
 			1.15,
 			0.3

@@ -2731,7 +2731,7 @@ pg.memory_group = {
 		}
 	},
 	[555] = {
-		title = "格拉斯哥剧情占坑",
+		title = "恋爱的季节到了",
 		type = 3,
 		id = 555,
 		icon = "title_chara_gelasige",
