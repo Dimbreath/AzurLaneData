@@ -38,12 +38,22 @@ function slot0.Show(slot0)
 	end
 
 	setActive(slot0._tf, true)
-	triggerToggle(({
+
+	if not isActive(({
 		slot0.formationToggle,
 		slot0.commanderToggle,
 		slot0.dutyToggle,
 		slot0.adjustmentToggle
-	})[slot0.contextData.tabIndex or uv0.TabIndex.Formation], true)
+	})[slot0.contextData.tabIndex or uv0.TabIndex.Formation]) then
+		slot4 = slot3[uv0.TabIndex.Formation]
+	end
+
+	for slot8, slot9 in ipairs(slot3) do
+		if isActive(slot9) then
+			triggerToggle(slot9, slot9 == slot4)
+		end
+	end
+
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 

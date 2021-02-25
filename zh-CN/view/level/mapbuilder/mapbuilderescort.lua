@@ -91,8 +91,11 @@ function slot1.UpdateEscortItem(slot0, slot1, slot2, slot3)
 	end
 
 	setImageColor(slot1, slot13)
+
+	slot15 = slot3.id
+
 	onButton(slot0.sceneParent, slot1, function ()
-		uv0:InvokeParent("TrySwitchChapter", uv1)
+		uv1:InvokeParent("TrySwitchChapter", getProxy(ChapterProxy):getChapterById(uv0))
 	end, SFX_PANEL)
 end
 

@@ -1005,7 +1005,14 @@ function slot0.updateCouldAnimator(slot0)
 		end
 
 		function slot3()
-			uv0.tornadoTF.transform.localScale = Vector3(uv0.tornadoTF.transform.parent.rect.width / uv0.tornadoTF.transform.rect.width, uv0.tornadoTF.transform.parent.rect.height / uv0.tornadoTF.transform.rect.height, 1)
+			slot0 = Vector3.one
+
+			if uv0.tornadoTF.transform.rect.width > 0 and uv0.tornadoTF.transform.rect.height > 0 then
+				slot0.x = uv0.tornadoTF.transform.parent.rect.width / uv0.tornadoTF.transform.rect.width
+				slot0.y = uv0.tornadoTF.transform.parent.rect.height / uv0.tornadoTF.transform.rect.height
+			end
+
+			uv0.tornadoTF.transform.localScale = slot0
 		end
 
 		if IsNil(slot0.tornadoTF) then
