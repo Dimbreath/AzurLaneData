@@ -1,159 +1,159 @@
 pg = pg or {}
 pg.activity_event_question = {
-	{
-		question = "下記艦船でアイスクリーム製造機を装備していたのは？",
-		answer_right = "エンタープライズ",
-		answer_false1 = "伊19",
+	[15] = {
+		question = "艦載機発艦に一番いい風向きは？",
+		answer_right = "風上",
+		answer_false1 = "風下",
 		type = 1,
-		id = 1,
+		id = 15,
 		wrong_time = 300,
-		answer_false3 = "三笠",
-		answer_false2 = "明石"
+		answer_false3 = "無風",
+		answer_false2 = "横風"
 	},
-	{
-		question = "下記の中で潜水艦による戦法の名前は？",
-		answer_right = "ウルフパック",
-		answer_false1 = "反跳爆撃",
+	[16] = {
+		question = "潜水艦の弱点は？",
+		answer_right = "低い速力",
+		answer_false1 = "探知しづらい",
 		type = 1,
-		id = 2,
+		id = 16,
 		wrong_time = 300,
-		answer_false3 = "アウトレンジ",
-		answer_false2 = "丁字戦法"
+		answer_false3 = "高い居住性",
+		answer_false2 = "短い航続距離"
 	},
-	{
-		question = "下記の中で貨物船から改造された艦は？",
-		answer_right = "ロングアイランド",
-		answer_false1 = "龍鳳",
+	[17] = {
+		question = "水兵が麦飯を食べて補充するのは？",
+		answer_right = "ビタミンB1",
+		answer_false1 = "脂肪",
 		type = 1,
-		id = 3,
+		id = 17,
 		wrong_time = 300,
-		answer_false3 = "ラングレー",
-		answer_false2 = "チェイサー"
+		answer_false3 = "タンパク質",
+		answer_false2 = "ナトリウム"
 	},
-	{
-		question = "下記の艦船で公試速力が一番早いのは？",
-		answer_right = "モーリー",
-		answer_false1 = "飛龍",
+	[18] = {
+		question = "船首バルブの作用とは？",
+		answer_right = "造波抵抗の低減",
+		answer_false1 = "衝角攻撃",
 		type = 1,
-		id = 4,
+		id = 18,
 		wrong_time = 300,
-		answer_false3 = "榛名",
-		answer_false2 = "ドイッチュラント"
+		answer_false3 = "対潜電探の設置",
+		answer_false2 = "魚雷防御装甲"
 	},
-	{
-		question = "「空色の巡洋艦」こと、タシュケントの艦種は？",
-		answer_right = "駆逐艦",
-		answer_false1 = "巡洋艦",
+	[19] = {
+		question = "「VT信管」はどんな信管？",
+		answer_right = "近接信管",
+		answer_false1 = "着発信管",
 		type = 1,
-		id = 5,
+		id = 19,
 		wrong_time = 300,
-		answer_false3 = "戦艦",
-		answer_false2 = "空母"
+		answer_false3 = "圧力感知信管",
+		answer_false2 = "時限信管"
 	},
-	{
-		question = "かの大戦で、バトルスターを18個手に入れた艦は？",
-		answer_right = "サンディエゴ",
-		answer_false1 = "エンタープライズ",
+	[20] = {
+		question = "艦に命中するのではなく、すぐそばに落ちた砲弾を何と言う？",
+		answer_right = "至近弾",
+		answer_false1 = "効力射",
 		type = 1,
-		id = 6,
+		id = 20,
 		wrong_time = 300,
-		answer_false3 = "ポートランド",
-		answer_false2 = "サラトガ"
+		answer_false3 = "徹甲弾",
+		answer_false2 = "対潜弾"
 	},
-	{
-		question = "下記戦艦で「四連装砲」を装備した戦艦は？",
-		answer_right = "リシュリュー",
-		answer_false1 = "長門",
+	[21] = {
+		question = "対潜兵器はどれか？",
+		answer_right = "対潜爆弾",
+		answer_false1 = "じゃがいも",
 		type = 1,
-		id = 7,
+		id = 21,
 		wrong_time = 300,
-		answer_false3 = "リットリオ",
-		answer_false2 = "コロラド"
+		answer_false3 = "高角砲",
+		answer_false2 = "ラム"
 	},
-	{
-		question = "「大講堂」で先生役を担当している艦船は？",
-		answer_right = "アマゾン",
-		answer_false1 = "ケルン",
+	[22] = {
+		question = "艦砲の砲弾タイプにないものは？",
+		answer_right = "照明弾",
+		answer_false1 = "通常弾",
 		type = 2,
-		id = 8,
+		id = 22,
 		wrong_time = 300,
-		answer_false3 = "ウィチタ",
-		answer_false2 = "ロンドン "
+		answer_false3 = "榴弾",
+		answer_false2 = "徹甲弾"
 	},
-	{
-		question = "ケモミミをもっている艦船は？",
-		answer_right = "高雄",
-		answer_false1 = "鈴谷",
+	[23] = {
+		question = "海域ステージの制空権計算に含まれないのは？",
+		answer_right = "対潜機",
+		answer_false1 = "戦闘機",
 		type = 2,
-		id = 9,
+		id = 23,
 		wrong_time = 300,
-		answer_false3 = "金剛",
-		answer_false2 = "阿賀野"
+		answer_false3 = "爆撃機",
+		answer_false2 = "攻撃機"
 	},
-	{
-		question = "艦船通信で登場済のキャラは？",
-		answer_right = "アマゾン",
-		answer_false1 = "バッチ",
+	[24] = {
+		question = "空母の発見ゲージを増加させないのは？",
+		answer_right = "浸水状態になる",
+		answer_false1 = "航空攻撃",
 		type = 2,
-		id = 10,
+		id = 24,
 		wrong_time = 300,
-		answer_false3 = "ハーミーズ",
-		answer_false2 = "ホノルル"
+		answer_false3 = "敵艦船接近",
+		answer_false2 = "炎上状態になる"
 	},
-	{
-		question = "ぬいぐるみを持っていない艦船は？",
-		answer_right = "ライプツィヒ",
-		answer_false1 = " Z25",
+	[25] = {
+		question = "自動攻略モードを開放するには（）の解放が必要？",
+		answer_right = "安全海域",
+		answer_false1 = "秘密海域",
 		type = 2,
-		id = 11,
+		id = 25,
 		wrong_time = 300,
-		answer_false3 = "ダイドー",
-		answer_false2 = "清波"
+		answer_false3 = "要塞海域",
+		answer_false2 = "危険海域"
 	},
-	{
-		question = "学園画面にいないキャラは？",
-		answer_right = "ゆーちゃん",
-		answer_false1 = "饅頭",
+	[26] = {
+		question = "艦船のレベルの上限は？",
+		answer_right = "120",
+		answer_false1 = "70",
 		type = 2,
-		id = 12,
+		id = 26,
 		wrong_time = 300,
-		answer_false3 = "艦船",
-		answer_false2 = "オフニャ"
+		answer_false3 = "100",
+		answer_false2 = "90"
 	},
-	{
-		question = "改造がまだ実装されていないキャラは？",
-		answer_right = "ベンソン ",
-		answer_false1 = "サンディエゴ",
+	[27] = {
+		question = "毎日の委託をこなせる回数は？",
+		answer_right = "無制限",
+		answer_false1 = "4回",
 		type = 2,
-		id = 13,
+		id = 27,
 		wrong_time = 300,
-		answer_false3 = "カッシン",
-		answer_false2 = "ウォースパイト"
+		answer_false3 = "15回",
+		answer_false2 = "8回"
 	},
-	{
-		question = "色がブラウンではないオフニャは？",
-		answer_right = "びーる",
-		answer_false1 = " じゃがいも",
+	[28] = {
+		question = "ダイヤで購入できないアイテムは？",
+		answer_right = "艦船経験値",
+		answer_false1 = "資金",
 		type = 2,
-		id = 14,
+		id = 28,
 		wrong_time = 300,
-		answer_false3 = "ぐらーる",
-		answer_false2 = "うすゆきそう"
+		answer_false3 = "キューブ",
+		answer_false2 = "燃料"
 	},
 	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14
+		15,
+		16,
+		17,
+		18,
+		19,
+		20,
+		21,
+		22,
+		23,
+		24,
+		25,
+		26,
+		27,
+		28
 	}
 }

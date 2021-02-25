@@ -465,10 +465,25 @@ pg.player_resource = {
 		name = "maoxiv2framept",
 		itemid = 59200
 	},
+	[188] = {
+		id = 188,
+		name = "maoxiv2_pt",
+		itemid = 59201
+	},
+	[189] = {
+		id = 189,
+		name = "skinTicket15",
+		itemid = 59202
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
 		itemid = 59111
+	},
+	[951] = {
+		id = 951,
+		name = "unionkr_pt",
+		itemid = 99950
 	},
 	[1001] = {
 		id = 1001,
@@ -805,8 +820,17 @@ pg.player_resource = {
 		maoxiv2framept = {
 			187
 		},
+		maoxiv2_pt = {
+			188
+		},
+		skinTicket15 = {
+			189
+		},
 		yisegefuke_pt1 = {
 			950
+		},
+		unionkr_pt = {
+			951
 		},
 		vote2019_pt = {
 			1001
@@ -936,7 +960,10 @@ pg.player_resource = {
 		185,
 		186,
 		187,
+		188,
+		189,
 		950,
+		951,
 		1001,
 		2001,
 		2002,

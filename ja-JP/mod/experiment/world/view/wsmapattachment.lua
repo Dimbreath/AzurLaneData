@@ -372,6 +372,8 @@ function slot0.UpdateTrap(slot0, slot1)
 			else
 				slot0:LoadBoxPrefab(slot8.trap_fx, slot10)
 			end
+
+			slot0:UpdateBuffList(slot5:Find("buffs"), {})
 		end
 	end
 end

@@ -1360,6 +1360,66 @@ pg.map_event_list = {
 			"helpbg/battle_dexiv3_2"
 		}
 	},
+	[1480004] = {
+		help_open = 0,
+		chapter_id = 1480004,
+		event_list = {
+			436,
+			437
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[1480005] = {
+		help_open = 0,
+		chapter_id = 1480005,
+		event_list = {
+			436,
+			437
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[1480006] = {
+		help_open = 0,
+		chapter_id = 1480006,
+		event_list = {
+			436,
+			437
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[1480024] = {
+		help_open = 0,
+		chapter_id = 1480024,
+		event_list = {
+			436,
+			437
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[1480025] = {
+		help_open = 0,
+		chapter_id = 1480025,
+		event_list = {
+			436,
+			437
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[1480026] = {
+		help_open = 0,
+		chapter_id = 1480026,
+		event_list = {
+			436,
+			437
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
 	all = {
 		1160001,
 		1160002,
@@ -1443,6 +1503,12 @@ pg.map_event_list = {
 		1460024,
 		1460025,
 		1460026,
-		1460041
+		1460041,
+		1480004,
+		1480005,
+		1480006,
+		1480024,
+		1480025,
+		1480026
 	}
 }

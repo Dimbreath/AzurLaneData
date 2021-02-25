@@ -2668,6 +2668,41 @@ pg.backyard_theme_template = {
 			75301
 		}
 	},
+	[77] = {
+		Cfg_1 = 5,
+		name = "雪国の観光地",
+		desc = "ずっと見ていたい雪国の町",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 77,
+		icon = "els2themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			77001,
+			77002,
+			77101,
+			77102,
+			77103,
+			77104,
+			77105,
+			77106,
+			77107,
+			77108,
+			77109,
+			77110,
+			77111,
+			77112,
+			77113,
+			77114,
+			77115,
+			77116
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2729,6 +2764,7 @@ pg.backyard_theme_template = {
 		72,
 		73,
 		74,
-		75
+		75,
+		77
 	}
 }

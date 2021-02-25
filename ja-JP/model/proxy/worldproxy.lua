@@ -264,7 +264,7 @@ function slot0.NetUpdateMap(slot0, slot1)
 	slot5 = nowWorld:GetMap(slot1.id.random_id)
 
 	slot5:UpdateClearFlag(slot4[1])
-	slot5:UpdateVisionFlag(slot4[2] or nowWorld:IsMapPressingAwardFlag(slot2))
+	slot5:UpdateVisionFlag(slot4[2] or nowWorld:IsMapVisioned(slot2))
 	slot0:NetUpdateMapDiscoveredCells(slot5.id, slot4[3], slot1.cell_list)
 	slot0:UpdateMapAttachmentCells(slot5.id, slot0:NetBuildMapAttachmentCells(slot1.pos_list))
 

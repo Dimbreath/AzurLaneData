@@ -361,9 +361,12 @@ function slot0.showRewardInfo(slot0)
 
 		if table.getCount(PlayerConst.BonusItemMarker(slot0)) > 0 then
 			slot6 = uv0.skipFlag
+			slot7 = false
 
-			if uv0.contextData.system == SYSTEM_SCENARIO and getProxy(ChapterProxy):getActiveChapter(true) and slot7:isLoop() then
-				getProxy(ChapterProxy):AddExtendChapterDataArray(slot7.id, "TotalDrops", slot3)
+			if uv0.contextData.system == SYSTEM_SCENARIO and getProxy(ChapterProxy):getActiveChapter(true) and slot8:isLoop() then
+				getProxy(ChapterProxy):AddExtendChapterDataArray(slot8.id, "TotalDrops", slot3)
+
+				slot7 = getProxy(ChapterProxy):GetChapterAutoFlag(slot8.id) == 1
 			end
 
 			uv0:emit(BaseUI.ON_AWARD, {
@@ -374,15 +377,15 @@ function slot0.showRewardInfo(slot0)
 			})
 			coroutine.yield()
 
-			slot9 = getProxy(BayProxy):getNewShip(true)
+			slot10 = getProxy(BayProxy):getNewShip(true)
 
-			for slot13 = math.max(1, #slot9 - #_.filter(slot3, function (slot0)
+			for slot14 = math.max(1, #slot10 - #_.filter(slot3, function (slot0)
 				return slot0.type == DROP_TYPE_SHIP
-			end) + 1), #slot9 do
-				slot14 = slot9[slot13]
+			end) + 1), #slot10 do
+				slot15 = slot10[slot14]
 
-				if PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or slot14.virgin or ShipRarity.Purple <= slot14:getRarity() then
-					uv0:emit(BattleResultMediator.GET_NEW_SHIP, slot14, uv1, not slot14.virgin and 3 or nil)
+				if PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or slot15.virgin or ShipRarity.Purple <= slot15:getRarity() then
+					uv0:emit(BattleResultMediator.GET_NEW_SHIP, slot15, uv1, slot7 and not slot15.virgin and 3 or nil)
 					coroutine.yield()
 				end
 			end

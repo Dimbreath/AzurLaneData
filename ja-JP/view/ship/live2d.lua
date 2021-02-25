@@ -36,22 +36,20 @@ end
 slot1 = nil
 
 function slot2(slot0)
-	if CSharpVersion > 18 then
-		slot1 = slot0.live2dData:GetShipSkinConfig()
-		slot3 = slot1.lip_smoothing
+	slot1 = slot0.live2dData:GetShipSkinConfig()
+	slot3 = slot1.lip_smoothing
 
-		if slot1.lip_sync_gain and slot2 ~= 0 then
-			slot0._go:GetComponent("CubismCriSrcMouthInput").Gain = slot2
-		end
+	if slot1.lip_sync_gain and slot2 ~= 0 then
+		slot0._go:GetComponent("CubismCriSrcMouthInput").Gain = slot2
+	end
 
-		if slot3 and slot3 ~= 0 then
-			slot0._go:GetComponent("CubismCriSrcMouthInput").Smoothing = slot3
-		end
+	if slot3 and slot3 ~= 0 then
+		slot0._go:GetComponent("CubismCriSrcMouthInput").Smoothing = slot3
 	end
 end
 
 function slot3(slot0)
-	if CSharpVersion >= 21 and slot0.live2dData:GetShipSkinConfig().l2d_para_range ~= nil and type(slot2) == "table" then
+	if slot0.live2dData:GetShipSkinConfig().l2d_para_range ~= nil and type(slot2) == "table" then
 		for slot6, slot7 in pairs(slot2) do
 			slot0.liveCom:SetParaRange(slot6, slot7)
 		end

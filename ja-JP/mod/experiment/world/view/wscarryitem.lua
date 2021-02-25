@@ -80,6 +80,10 @@ function slot0.Update(slot0, slot1)
 				uv0.model:SetParent(uv1, false)
 			end)
 		end
+
+		eachChild(slot2:Find("buffs"), function (slot0)
+			setActive(slot0, false)
+		end)
 	end
 end
 

@@ -1,0 +1,93 @@
+pg = pg or {}
+pg.aircraft_template_168 = {
+	[67161] = {
+		max_hp = 40,
+		name = "半人马技能鱼雷机Lv1",
+		base = 67160,
+		id = 67161,
+		hp_growth = 1538,
+		weapon_ID = {
+			67201
+		}
+	},
+	[67162] = {
+		max_hp = 45,
+		name = "半人马技能鱼雷机Lv2",
+		base = 67160,
+		id = 67162,
+		hp_growth = 1739,
+		weapon_ID = {
+			67202
+		}
+	},
+	[67163] = {
+		max_hp = 50,
+		name = "半人马技能鱼雷机Lv3",
+		base = 67160,
+		id = 67163,
+		hp_growth = 1940,
+		weapon_ID = {
+			67203
+		}
+	},
+	[67164] = {
+		max_hp = 56,
+		name = "半人马技能鱼雷机Lv4",
+		base = 67160,
+		id = 67164,
+		hp_growth = 2140,
+		weapon_ID = {
+			67204
+		}
+	},
+	[67165] = {
+		max_hp = 61,
+		name = "半人马技能鱼雷机Lv5",
+		base = 67160,
+		id = 67165,
+		hp_growth = 2341,
+		weapon_ID = {
+			67205
+		}
+	},
+	[67166] = {
+		max_hp = 66,
+		name = "半人马技能鱼雷机Lv6",
+		base = 67160,
+		id = 67166,
+		hp_growth = 2541,
+		weapon_ID = {
+			67206
+		}
+	},
+	[67167] = {
+		max_hp = 71,
+		name = "半人马技能鱼雷机Lv7",
+		base = 67160,
+		id = 67167,
+		hp_growth = 2742,
+		weapon_ID = {
+			67207
+		}
+	},
+	[67168] = {
+		max_hp = 77,
+		name = "半人马技能鱼雷机Lv8",
+		base = 67160,
+		id = 67168,
+		hp_growth = 2943,
+		weapon_ID = {
+			67208
+		}
+	},
+	[67169] = {
+		max_hp = 82,
+		name = "半人马技能鱼雷机Lv9",
+		base = 67160,
+		id = 67169,
+		hp_growth = 3143,
+		weapon_ID = {
+			67209
+		}
+	}
+}

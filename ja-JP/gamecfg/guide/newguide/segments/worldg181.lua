@@ -70,17 +70,15 @@ return {
 				posY = -229.8,
 				posX = -375.3
 			},
-			ui = {
-				path = "OverlayCamera/Overlay/UIMain/item_usage_panel/window/panel/actions/use_one_button",
-				triggerType = {
-					1
+			showSign = {
+				type = 2,
+				signList = {
+					{
+						signType = 4
+					}
 				},
-				fingerPos = {
-					rotateY = 0,
-					posY = 0,
-					rotateX = 0,
-					rotateZ = 0,
-					posX = 0
+				clickUI = {
+					path = "OverlayCamera/Overlay/UIMain/item_usage_panel/window/panel/actions/use_one_button"
 				}
 			}
 		}

@@ -169,6 +169,7 @@ function slot0.initAll(slot0, slot1)
 				end
 			end
 
+			uv0:UpdateItemCells()
 			uv0:updateQuadCells(ChapterConst.QuadStateFrozen)
 			onNextTick(slot0)
 		end,
@@ -205,8 +206,6 @@ function slot0.initAll(slot0, slot1)
 			if uv0.contextData.chapterVO:existOni() then
 				uv0:displayEscapeGrid()
 			end
-
-			uv0.TeleportSubmarineMode = 0
 
 			uv1()
 		end
@@ -1204,6 +1203,15 @@ function slot0.initCell(slot0, slot1, slot2)
 			slot7.anchoredPosition = slot3.theme:GetLinePosition(slot1, slot2)
 
 			slot7:SetAsLastSibling()
+			onButton(slot0, slot7, function ()
+				if not uv0:isfrozen() then
+					if (uv0.quadState == ChapterConst.QuadStateStrategy or uv0.quadState == ChapterConst.QuadStateTeleportSub) and uv0.quadClickProxy then
+						uv0.quadClickProxy(uv1)
+					elseif uv0.onCellClick then
+						uv0.onCellClick(uv1)
+					end
+				end
+			end, SFX_CONFIRM)
 		end
 
 		slot9 = nil
@@ -1233,18 +1241,6 @@ function slot0.initCell(slot0, slot1, slot2)
 		slot11:Init(slot4)
 
 		slot9:Find(ChapterConst.ChildAttachment).localEulerAngles = Vector3(-slot3.theme.angle, 0, 0)
-
-		if slot7 then
-			onButton(slot0, slot7, function ()
-				if not uv0:isfrozen() then
-					if (uv0.quadState == ChapterConst.QuadStateStrategy or uv0.quadState == ChapterConst.QuadStateTeleportSub) and uv0.quadClickProxy then
-						uv0.quadClickProxy(uv1)
-					elseif uv0.onCellClick then
-						uv0.onCellClick(uv1)
-					end
-				end
-			end, SFX_CONFIRM)
-		end
 	end
 end
 
@@ -1282,6 +1278,23 @@ function slot0.clearCell(slot0, slot1, slot2)
 		slot9.material = nil
 
 		PoolMgr.GetInstance():ReturnPrefab("chapter/cell_quad", "", slot8.gameObject)
+	end
+end
+
+function slot0.UpdateItemCells(slot0)
+	if not slot0.contextData.chapterVO then
+		return
+	end
+
+	for slot5, slot6 in pairs(slot0.itemCells) do
+		slot9 = slot1:getConfig("ItemTransformPattern")
+		slot10 = slot1:getExtraFlags()[1] or 0
+
+		if slot6:GetOriginalInfo() and slot7.item and type(slot9) == "table" and slot9[slot10] then
+			slot8 = string.gsub(slot8, slot9[slot10][1], slot9[slot10][2])
+		end
+
+		slot6:UpdateAsset(slot8)
 	end
 end
 

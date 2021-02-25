@@ -318,12 +318,8 @@ return {
 		end
 	end,
 	CheckHadAccountCache = function ()
-		if CSharpVersion >= 33 then
-			if uv0.GetIsPlatform() then
-				return uv1:CheckHadAccountCache() or uv0.isCache
-			else
-				return true
-			end
+		if uv0.GetIsPlatform() then
+			return uv1:CheckHadAccountCache() or uv0.isCache
 		else
 			return true
 		end

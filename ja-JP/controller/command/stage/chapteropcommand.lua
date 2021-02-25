@@ -18,57 +18,11 @@ function slot0.execute(slot0, slot1)
 
 		return
 	elseif slot2.type == ChapterConst.OpSkipBattle then
-		slot4 = getProxy(ChapterProxy):getActiveChapter()
-		slot6 = slot4.fleet.line
-		slot7 = nil
+		slot3 = getProxy(ChapterProxy)
+		slot4 = slot3:getActiveChapter()
 
-		if slot4:existChampion(slot6.row, slot6.column) then
-			slot8 = slot4:getChampion(slot6.row, slot6.column)
-
-			slot8:Iter()
-
-			slot7 = slot8.attachment
-
-			if slot8.flag == 1 and slot5 then
-				slot5.defeatEnemies = slot5.defeatEnemies + 1
-				slot4.defeatEnemies = slot4.defeatEnemies + 1
-
-				slot4:RemoveChampion(slot8)
-			end
-		else
-			slot8 = slot4:getChapterCell(slot6.row, slot6.column)
-			slot8.flag = 1
-
-			slot4:updateChapterCell(slot8)
-
-			slot7 = slot8.attachment
-
-			if slot5 then
-				slot5.defeatEnemies = slot5.defeatEnemies + 1
-				slot4.defeatEnemies = slot4.defeatEnemies + 1
-			end
-		end
-
-		if slot7 ~= ChapterConst.AttachAmbush and _.detect(slot4.achieves, function (slot0)
-			return slot0.type == ChapterConst.AchieveType2
-		end) then
-			slot8.count = slot8.count + 1
-		end
-
-		slot5.restAmmo = math.max(slot5.restAmmo - 1, 0)
-
+		slot4:UpdateProgressAfterSkipBattle()
 		slot3:updateChapter(slot4)
-
-		if slot7 ~= ChapterConst.AttachBoss then
-			slot3:RecordLastDefeatedEnemy(slot4.id, {
-				score = ys.Battle.BattleConst.BattleScore.S,
-				line = {
-					row = slot5.line.row,
-					column = slot5.line.column
-				},
-				type = slot7
-			})
-		end
 	end
 
 	pg.ConnectionMgr.GetInstance():Send(13103, {
@@ -108,7 +62,7 @@ function slot0.execute(slot0, slot1)
 						if slot3:getPlayType() == ChapterConst.TypeMainSub and (uv1.win or not slot3:isValid()) then
 							slot3:retreat(uv1.win)
 							slot3:clearSubChapter()
-							slot2:updateChapter(slot3)
+							slot2:updateChapter(slot3, ChapterConst.DirtyMapItems)
 							uv0:sendNotification(GAME.CHAPTER_OP_DONE, {
 								type = uv1.type,
 								win = uv1.win

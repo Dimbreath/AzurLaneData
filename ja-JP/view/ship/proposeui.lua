@@ -920,7 +920,8 @@ function slot0.createLive2D(slot0, slot1)
 		slot0.transform:SetParent(uv0:findTF("live2d", uv0.targetActorTF), true)
 
 		slot3 = nil
-		slot2.localPosition = BuildVector3(pg.ship_skin_template[(not uv0.reviewSkinID or uv0.reviewSkinID) and (not uv0.proposeSkin or uv0.proposeSkin.id) and uv0.shipVO.skinId].live2d_offset) + Vector3(0, 0, 100)
+		slot3 = (not uv0.reviewSkinID or uv0.reviewSkinID) and (not uv0.proposeSkin or uv0.proposeSkin.id) and uv0.shipVO.skinId
+		slot2.localPosition = BuildVector3(pg.ship_skin_template[slot3].live2d_offset) + Vector3(0, 0, 100)
 		slot2.localScale = Vector3.Scale(Vector3(1, 1, 10), slot2.localScale)
 		uv0.l2dChar = GetComponent(slot0, "Live2dChar")
 		uv0.l2dChar.name = uv1
@@ -933,17 +934,15 @@ function slot0.createLive2D(slot0, slot1)
 
 		uv0.l2dChar:SetAction(pg.AssistantInfo.action2Id.idle)
 
-		if CSharpVersion > 18 then
-			slot5 = pg.ship_skin_template[slot3]
-			slot7 = slot5.lip_smoothing
+		slot5 = pg.ship_skin_template[slot3]
+		slot7 = slot5.lip_smoothing
 
-			if slot5.lip_sync_gain and slot6 ~= 0 then
-				slot1:GetChild(0):GetComponent("CubismCriSrcMouthInput").Gain = slot6
-			end
+		if slot5.lip_sync_gain and slot6 ~= 0 then
+			slot1:GetChild(0):GetComponent("CubismCriSrcMouthInput").Gain = slot6
+		end
 
-			if slot7 and slot7 ~= 0 then
-				slot1:GetChild(0):GetComponent("CubismCriSrcMouthInput").Smoothing = slot7
-			end
+		if slot7 and slot7 ~= 0 then
+			slot1:GetChild(0):GetComponent("CubismCriSrcMouthInput").Smoothing = slot7
 		end
 	end)
 end

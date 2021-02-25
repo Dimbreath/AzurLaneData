@@ -31,7 +31,7 @@ function slot0.execute(slot0, slot1)
 			uv0:removeChargeTimer(uv1)
 
 			if slot0.result ~= 1 then
-				pg.TipsMgr.GetInstance():ShowTips(errorTip("charge_erro", slot0.result))
+				pg.TipsMgr.GetInstance():ShowTips(errorTip("charge", slot0.result))
 			end
 		end
 	end)

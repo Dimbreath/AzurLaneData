@@ -1027,5 +1027,17 @@ pg.voice_actor_CN = {
 	[262] = {
 		actor_name = "吉岡美咲",
 		code = 262
+	},
+	[263] = {
+		actor_name = "柿村桃希",
+		code = 263
+	},
+	[264] = {
+		actor_name = "山田麻莉奈",
+		code = 264
+	},
+	[265] = {
+		actor_name = "小坂井祐莉絵",
+		code = 265
 	}
 }

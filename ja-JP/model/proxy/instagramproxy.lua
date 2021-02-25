@@ -1,5 +1,5 @@
 slot0 = class("InstagramProxy", import(".NetProxy"))
-slot1 = pg.gameset_language_client
+slot1 = pg.activity_ins_language
 slot2 = pg.activity_ins_npc_template
 
 function slot0.register(slot0)

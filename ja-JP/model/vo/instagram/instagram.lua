@@ -1,7 +1,7 @@
 slot0 = class("Instagram", import("..BaseVO"))
 slot0.TYPE_PLAYER_COMMENT = 1
 slot0.TYPE_NPC_COMMENT = 2
-slot1 = pg.gameset_language_client
+slot1 = pg.activity_ins_language
 
 function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id

@@ -149,6 +149,10 @@ function slot0.Apply(slot0)
 
 		slot2:FlagMapPressingAward(slot4)
 		slot2:GetAtlas():AddPressingMap(slot4)
+
+		if not slot2:GetMap(slot4).visionFlag and nowWorld:IsMapVisioned(slot4) then
+			slot6:UpdateVisionFlag(true)
+		end
 	elseif slot0.op == WorldConst.OpReqReturn then
 		slot1:NetUpdateActiveMap(slot0.entranceId, slot0.destMapId, slot0.destGridId)
 

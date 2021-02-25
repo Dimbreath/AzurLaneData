@@ -154,21 +154,9 @@ function slot0.initResDownloadPanel(slot0, slot1)
 	slot0.repairBtn = slot0:findTF("main/resources/mask/main_panel/settings/buttons/repair")
 	slot0.repairProgress = slot0.repairBtn:Find("progress")
 
-	if CSharpVersion >= 35 then
-		onButton(slot0, slot0.repairBtn, function ()
-			showRepairMsgbox()
-		end, SFX_PANEL)
-	else
-		setActive(slot0.repairBtn, PathMgr.FileExists(Application.persistentDataPath .. "/hashes.csv") and PLATFORM_CODE ~= PLATFORM_JP)
-		onButton(slot0, slot0.repairBtn, function ()
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("resource_verify_warn"),
-				onYes = function ()
-					resourceVerify(uv0.repairMask, uv0.repairProgress)
-				end
-			})
-		end, SFX_PANEL)
-	end
+	onButton(slot0, slot0.repairBtn, function ()
+		showRepairMsgbox()
+	end, SFX_PANEL)
 end
 
 function slot0.initSoundPanel(slot0, slot1)
@@ -1196,7 +1184,7 @@ function slot0.initOtherPanel(slot0)
 end
 
 function slot0.UpdateAgreementPanel(slot0)
-	slot2 = PLATFORM_CODE == PLATFORM_CH and CSharpVersion > 40
+	slot2 = PLATFORM_CODE == PLATFORM_CH
 
 	setActive(slot0:findTF("agreement", slot0.otherContent), slot2)
 
@@ -1376,14 +1364,14 @@ function slot0.initJPAccountPanel(slot0, slot1)
 	slot0.appleUnlinkBtn = slot0:findTF("unlink_apple", slot4)
 	slot0.appleLinkSign = slot0:findTF("apple_status", slot4)
 
-	setActive(slot4, PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "1" and CSharpVersion > 36)
+	setActive(slot4, PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "1")
 
 	slot5 = slot0:findTF("btn_layout/amazon_con", slot0.accountTwitterUI)
 	slot0.amazonBtn = slot0:findTF("bind_amazon", slot5)
 	slot0.amazonUnlinkBtn = slot0:findTF("unlink_amazon", slot5)
 	slot0.amazonLinkSign = slot0:findTF("amazon_status", slot5)
 
-	setActive(slot5, PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "3" and CSharpVersion > 36)
+	setActive(slot5, PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "3")
 
 	slot0.transcodeUI = slot0:findTF("page2", slot1)
 	slot0.uidTxt = slot0:findTF("account_name/Text", slot0.transcodeUI)
@@ -1478,7 +1466,7 @@ function slot0.checkAccountAppleView(slot0)
 end
 
 function slot0.checkAccountAmazonView(slot0)
-	if pg.SdkMgr.GetInstance():GetChannelUID() == "3" and CSharpVersion > 36 then
+	if pg.SdkMgr.GetInstance():GetChannelUID() == "3" then
 		slot1 = pg.SdkMgr.GetInstance():IsSocialLink(AIRI_PLATFORM_AMAZON)
 
 		setActive(slot0.amazonUnlinkBtn, slot1)
@@ -1513,14 +1501,14 @@ function slot0.initUSAccountPanel(slot0, slot1)
 	slot0.btnUnlinkApple = slot0:findTF("unlink_apple", slot6)
 	slot0.appleStatus = slot0:findTF("apple_status", slot6)
 
-	setActive(slot6, PLATFORM_CODE == PLATFORM_US and pg.SdkMgr.GetInstance():GetChannelUID() == "1" and CSharpVersion > 36)
+	setActive(slot6, PLATFORM_CODE == PLATFORM_US and pg.SdkMgr.GetInstance():GetChannelUID() == "1")
 
 	slot7 = slot0:findTF("btn_layout/amazon_con", slot2)
 	slot0.btnBindAmazon = slot0:findTF("bind_amazon", slot7)
 	slot0.btnUnlinkAmazon = slot0:findTF("unlink_amazon", slot7)
 	slot0.amazonStatus = slot0:findTF("amazon_status", slot7)
 
-	setActive(slot7, PLATFORM_CODE == PLATFORM_US and pg.SdkMgr.GetInstance():GetChannelUID() == "3" and CSharpVersion > 36)
+	setActive(slot7, PLATFORM_CODE == PLATFORM_US and pg.SdkMgr.GetInstance():GetChannelUID() == "3")
 
 	slot0.yostarAlert = slot0:findTF("page2", slot1)
 	slot0.yostarEmailTxt = slot0:findTF("email_input_txt", slot0.yostarAlert)
@@ -1632,7 +1620,7 @@ function slot0.checkAccountAppleView_US(slot0)
 end
 
 function slot0.checkAccountAmazonView_US(slot0)
-	if pg.SdkMgr.GetInstance():GetChannelUID() == "3" and CSharpVersion > 36 then
+	if pg.SdkMgr.GetInstance():GetChannelUID() == "3" then
 		slot1 = pg.SdkMgr.GetInstance():IsSocialLink(AIRI_PLATFORM_AMAZON)
 
 		setActive(slot0.btnUnlinkAmazon, slot1)

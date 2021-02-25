@@ -11,7 +11,6 @@ end
 function slot1.SetParameter(slot0, slot1, slot2)
 	uv0.super.SetParameter(slot0, slot1, slot2)
 
-	slot0._duration = slot1.duration
 	slot0._offsetX = slot1.offsetX
 	slot0._offsetZ = slot1.offsetZ
 	slot0._fixX = slot1.X
@@ -20,7 +19,7 @@ function slot1.SetParameter(slot0, slot1, slot2)
 end
 
 function slot1.GetDirection(slot0, slot1)
-	if slot0._duration > 0 and slot0._duration < pg.TimeMgr.GetInstance():GetCombatTime() - slot0._startTime then
+	if slot0:IsExpired() then
 		slot0:Finish()
 
 		return Vector3.zero

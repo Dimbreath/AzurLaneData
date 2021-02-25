@@ -4245,6 +4245,49 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[192] = {
+		can_rotate = 0,
+		describe = "セイレーンの秘密施設をホログラムで映し出す装置。――「暁射す氷華の嵐」に参加した指揮官に贈る",
+		gain_by = "暁射す氷華の嵐",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "氷華記念賞",
+		advice = 0,
+		id = 192,
+		icon = "maozi2xunzhangicon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"maozi2xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		can_rotate = 0,
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
@@ -5791,6 +5834,56 @@ pg.furniture_data_template = {
 		animator = {
 			{
 				"feiqiuqianCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[100023] = {
+		can_rotate = 0,
+		describe = "花火で盛り上げよう！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "祝日の花火",
+		advice = 0,
+		id = 100023,
+		icon = "yanhuadanicon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yanhuadan",
+				"normal",
+				{
+					"action",
+					true,
+					nil,
+					nil,
+					"houzhai_yanhua"
+				}
 			}
 		},
 		interAction_group = {}
@@ -82568,6 +82661,950 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[77001] = {
+		can_rotate = 0,
+		describe = "ずっと見ていたい雪国の町",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "els2/dibanels2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 77,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "雪国の床",
+		advice = 0,
+		icon = "dibanels2icon",
+		id = 77001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77002] = {
+		can_rotate = 0,
+		describe = "ずっと見ていたい雪国の夜",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "els2/qiangbiels2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 77,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "雪国の夜景",
+		advice = 0,
+		icon = "qiangbiels2icon",
+		id = 77002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77101] = {
+		can_rotate = 0,
+		describe = "雪国の夜を彩らせる光",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "els2/1els2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 77,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "雪国の街灯",
+		advice = 0,
+		icon = "1els2icon",
+		id = 77101,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77102] = {
+		can_rotate = 0,
+		describe = "座席交換は自由だピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "els2/2els2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 77,
+		count = 1,
+		name = "饅頭列車は夜をゆく",
+		advice = 0,
+		id = 77102,
+		icon = "2els2icon",
+		comfortable = 3,
+		size = {
+			4,
+			13
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-168,
+					47
+				},
+				{
+					1,
+					1
+				},
+				"els2/2els2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77103] = {
+		can_rotate = 0,
+		describe = "「さあ、誰が勝つか...！」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "els2/3els2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 77,
+		count = 1,
+		name = "シーソー",
+		advice = 0,
+		id = 77103,
+		icon = "3els2icon",
+		comfortable = 2,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					85,
+					80
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-79,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77104] = {
+		can_rotate = 0,
+		describe = "雪国の町を彩る白と緑",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "els2/4els2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 77,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "雪国の樹木",
+		advice = 0,
+		icon = "4els2icon",
+		id = 77104,
+		comfortable = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77105] = {
+		can_rotate = 0,
+		describe = "雪国の町を彩る白と緑",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "els2/5els2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 77,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 5,
+		name = "雪国の草わら",
+		advice = 0,
+		icon = "5els2icon",
+		id = 77105,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77106] = {
+		can_rotate = 1,
+		describe = "同志指揮官にも落下注意！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "els2/6els2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 77,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "北連注意看板",
+		advice = 0,
+		icon = "6els2icon",
+		id = 77106,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77107] = {
+		can_rotate = 0,
+		describe = "「指揮官、グロームキィ、私。三者面談ってとこね。まあ、そんなとこ」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "els2/7els2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 77,
+		count = 1,
+		name = "雪国のベンチ＆テーブル",
+		advice = 0,
+		id = 77107,
+		icon = "7els2icon",
+		comfortable = 2,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					54,
+					60
+				},
+				{
+					-1,
+					1
+				},
+				"els2/7els2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77108] = {
+		can_rotate = 0,
+		describe = "映し出される夜空は、「敵」の故郷......？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "els2/8els2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 77,
+		count = 1,
+		name = "凍る湖",
+		advice = 0,
+		id = 77108,
+		icon = "8els2icon",
+		comfortable = 3,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					70,
+					-154
+				},
+				{
+					-1,
+					1
+				},
+				"els2/8els2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77109] = {
+		can_rotate = 0,
+		describe = "「ウサギちゃん、木こりが得意」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "els2/9els2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 77,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "雪国の木こり",
+		advice = 0,
+		icon = "9els2icon",
+		id = 77109,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77110] = {
+		can_rotate = 1,
+		describe = "囲んでヴォッカを飲もう！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "els2/10els2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 77,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "雪国の宿",
+		advice = 0,
+		icon = "10els2icon",
+		id = 77110,
+		comfortable = 3,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77111] = {
+		can_rotate = 0,
+		describe = "「童心に戻りたいのか。うむ、では私が空まで飛ばしてやろうーー」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "els2/11els2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 77,
+		count = 1,
+		name = "雪国のブランコ",
+		advice = 0,
+		id = 77111,
+		icon = "11els2icon",
+		comfortable = 2,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-62,
+					-10
+				},
+				{
+					-1,
+					1
+				},
+				"els2/11els2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77112] = {
+		can_rotate = 0,
+		describe = "「ここから一歩越えたら...ふふふ♡」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "els2/12els2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 77,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 5,
+		name = "雪国のフェンス",
+		advice = 0,
+		icon = "12els2icon",
+		id = 77112,
+		comfortable = 1,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77113] = {
+		can_rotate = 1,
+		describe = "「次のバスが来るまでにひらめいちゃおう！」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "els2/13els2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 77,
+		count = 1,
+		name = "勤労バス停",
+		advice = 0,
+		id = 77113,
+		icon = "13els2icon",
+		comfortable = 3,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-50,
+					-11
+				},
+				{
+					-1,
+					1
+				},
+				"els2/13els2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77114] = {
+		can_rotate = 0,
+		describe = "「完全に埋まっちゃってるじゃない！はあ...」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "els2/14els2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 77,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "積雪カー",
+		advice = 0,
+		icon = "14els2icon",
+		id = 77114,
+		comfortable = 2,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77115] = {
+		can_rotate = 0,
+		describe = "饅頭の雪だるまを作ったのは誰？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "els2/15els2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 77,
+		count = 1,
+		name = "雪国の石橋",
+		advice = 0,
+		id = 77115,
+		icon = "15els2icon",
+		comfortable = 3,
+		size = {
+			8,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-28,
+					31
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77116] = {
+		can_rotate = 0,
+		describe = "「我が革命の道はどこまでも続く！」",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "els2/16els2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 77,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "雪国の道路",
+		advice = 0,
+		icon = "16els2icon",
+		id = 77116,
+		comfortable = 2,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77117] = {
+		can_rotate = 0,
+		describe = "「滑っちゃうぞー！」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 77,
+		icon = "Aels2icon",
+		count = 1,
+		name = "雪国の滑り台",
+		id = 77117,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			10,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Aels2B",
+				"normal"
+			},
+			{
+				"Aels2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk",
+						0,
+						"walk"
+					},
+					{
+						"sit",
+						0,
+						"sit"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"Aels2CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[77118] = {
+		can_rotate = 0,
+		describe = "勤労サービスピョ！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 77,
+		count = 1,
+		name = "饅頭除雪車",
+		advice = 0,
+		id = 77118,
+		icon = "Bels2icon",
+		comfortable = 4,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Bels2",
+				"normal",
+				{
+					"walk",
+					true
+				},
+				true
+			}
+		},
+		interAction_group = {}
+	},
+	[77119] = {
+		can_rotate = 0,
+		describe = "スピード＆レヴォリューションピョ！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 77,
+		count = 1,
+		name = "スキー饅頭",
+		advice = 0,
+		id = 77119,
+		icon = "Cels2icon",
+		comfortable = 4,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Cels2",
+				"normal",
+				{
+					"walk",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -82657,6 +83694,7 @@ pg.furniture_data_template = {
 		189,
 		190,
 		191,
+		192,
 		100002,
 		100003,
 		100004,
@@ -82678,6 +83716,7 @@ pg.furniture_data_template = {
 		100020,
 		100021,
 		100022,
+		100023,
 		1001,
 		1002,
 		1101,
@@ -84426,6 +85465,27 @@ pg.furniture_data_template = {
 		75116,
 		75117,
 		75118,
-		75301
+		75301,
+		77001,
+		77002,
+		77101,
+		77102,
+		77103,
+		77104,
+		77105,
+		77106,
+		77107,
+		77108,
+		77109,
+		77110,
+		77111,
+		77112,
+		77113,
+		77114,
+		77115,
+		77116,
+		77117,
+		77118,
+		77119
 	}
 }

@@ -84,12 +84,6 @@ function slot0.update()
 		end
 	end
 
-	for slot5, slot6 in pairs(pg.enemy_data_statistics) do
-		if slot6.nationality == Nation.JP and slot0[slot6.name] then
-			slot6.name = slot0[slot6.name]
-		end
-	end
-
 	for slot5, slot6 in pairs(pg.fleet_tech_ship_class) do
 		if slot6.name then
 			slot7, slot8 = string.gsub(slot6.name, "级", "")
@@ -99,6 +93,52 @@ function slot0.update()
 			end
 		end
 	end
+
+	setmetatable(pg.enemy_data_statistics, {
+		__index = function (slot0, slot1)
+			if pg.enemy_data_statistics.indexs[slot1] == nil then
+				return nil
+			end
+
+			if pg[pg.enemy_data_statistics.subList[slot2]] == nil then
+				require("ShareCfg.enemy_data_statistics_subList." .. slot3)
+			end
+
+			slot6 = nil
+
+			if rawget(pg[slot3][slot1], "base") ~= nil then
+				rawset(slot4, "base", nil)
+
+				slot6 = slot0[slot5]
+			end
+
+			if not getmetatable(slot4) then
+				setmetatable(slot4, {
+					__index = function (slot0, slot1)
+						if not rawget(uv0, slot1) and uv1 then
+							slot2 = rawget(uv1, slot1)
+						end
+
+						if slot1 == "name" and slot0.nationality == Nation.JP and uv2[slot2] then
+							slot2 = uv2[slot2]
+						end
+
+						return slot2
+					end
+				})
+			end
+
+			return slot4
+		end
+	})
+end
+
+function slot0.hxName(slot0)
+	if (uv0.codeMode and uv0.codeNameMap or uv0.nameCodeMap)[slot0] then
+		return slot1[slot0]
+	end
+
+	return slot0
 end
 
 function slot0.hxLan(slot0, slot1)

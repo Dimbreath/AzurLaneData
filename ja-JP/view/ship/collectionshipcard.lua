@@ -27,6 +27,10 @@ function slot0.Ctor(slot0, slot1)
 	slot0.imageUnknown = findTF(slot0.tr, "unknown"):GetComponent(typeof(Image))
 end
 
+function slot0.getIsInited(slot0)
+	return slot0.shipGroup ~= nil
+end
+
 function slot0.update(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = ShipGroup.getState(slot5, slot2, slot3)
 

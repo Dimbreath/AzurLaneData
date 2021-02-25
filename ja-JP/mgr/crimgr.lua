@@ -115,10 +115,6 @@ end
 function slot1.StopBGM(slot0, slot1)
 	CriWareMgr.Inst:StopBGM(CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
 
-	if CSharpVersion < uv0.NEXT_VER and slot0.bgmPlaybackInfo then
-		CriWareMgr.Inst:GetChannelData(slot0.bgmPlaybackInfo.cueData.channelName).curCueDataKey = ""
-	end
-
 	slot0.bgmPlaybackInfo = nil
 	slot0.bgmName = nil
 end
@@ -193,34 +189,11 @@ function slot1.UnloadSoundEffect_V3(slot0, slot1)
 end
 
 function slot1.PlayCV_V3(slot0, slot1, slot2, slot3)
-	if uv0.NEXT_VER <= CSharpVersion then
-		CriWareMgr.Inst:PlayVoice(slot2, CriWareMgr.CRI_FADE_TYPE.NONE, slot1, function (slot0)
-			if uv0 ~= nil then
-				uv0(slot0)
-			end
-		end)
-	else
-		slot0:LoadCueSheet(slot1, function (slot0)
-			if slot0 then
-				if uv0:CheckHasCue(uv1, uv2) then
-					slot1 = CueData.New()
-					slot1.channelName = uv3.C_VOICE
-					slot1.cueSheetName = uv1
-					slot1.cueName = uv2
-
-					CriWareMgr.Inst:PlaySound(slot1, CriWareMgr.CRI_FADE_TYPE.NONE, function (slot0)
-						if uv0 then
-							uv0(slot0)
-						end
-					end)
-				elseif uv4 then
-					uv4(nil)
-				end
-			elseif uv4 then
-				uv4(nil)
-			end
-		end)
-	end
+	CriWareMgr.Inst:PlayVoice(slot2, CriWareMgr.CRI_FADE_TYPE.NONE, slot1, function (slot0)
+		if uv0 ~= nil then
+			uv0(slot0)
+		end
+	end)
 end
 
 function slot1.StopCV_V3(slot0)

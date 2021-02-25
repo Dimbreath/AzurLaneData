@@ -20954,6 +20954,269 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5571] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5415,
+		type = 5,
+		name = "それは恋を呼ぶ季節",
+		count_inherit = 0,
+		desc = "魚雷天ぷらを3個準備する（消費）",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "gelasige",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5572",
+		visibility = 1,
+		story_id = "GELASIGE1",
+		target_id_for_client = 50003,
+		id = 5571,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5572] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5416,
+		type = 5,
+		name = "そういう関係じゃないんだからね",
+		count_inherit = 0,
+		desc = "任意の艦を10回強化する",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "gelasige",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5573",
+		visibility = 1,
+		story_id = "GELASIGE2",
+		target_id_for_client = 0,
+		id = 5572,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5573] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5417,
+		type = 5,
+		name = "誰がおしどりですか！",
+		count_inherit = 0,
+		desc = "グラスゴーを含めた艦隊で出撃し、20回勝利する",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "gelasige",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5574",
+		visibility = 1,
+		story_id = "GELASIGE3",
+		target_id_for_client = 20226,
+		id = 5573,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "20226",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5574] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5418,
+		type = 5,
+		name = "顔が近いですよっ！",
+		count_inherit = 0,
+		desc = "グラスゴーを含めた艦隊で3回デイリーチャレンジをクリアする",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "gelasige",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5575",
+		visibility = 1,
+		story_id = "GELASIGE4",
+		target_id_for_client = 20226,
+		id = 5574,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "20226",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5575] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5419,
+		type = 5,
+		name = "グラスゴーさんっていうんですね",
+		count_inherit = 0,
+		desc = "グラスゴーの親密度が100に到達",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "gelasige",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5576",
+		visibility = 1,
+		story_id = "GELASIGE5",
+		target_id_for_client = 20226,
+		id = 5575,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "20226",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5576] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5420,
+		type = 5,
+		name = "好きで……いてくれるんですか？",
+		count_inherit = 0,
+		desc = "グラスゴーを3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "gelasige",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5577",
+		visibility = 1,
+		story_id = "GELASIGE6",
+		target_id_for_client = 202264,
+		id = 5576,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "202264",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5577] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5421,
+		type = 5,
+		name = "あぁ、びっくりした！",
+		count_inherit = 0,
+		desc = "グラスゴーのレベルが100に到達",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "gelasige",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "GELASIGE7",
+		target_id_for_client = 20226,
+		id = 5577,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "20226",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				2
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -117159,6 +117422,1167 @@ pg.task_data_template = {
 			"LEVEL"
 		}
 	},
+	[16340] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94660,
+		type = 6,
+		name = "『毛系V2』角色收集：苏维埃贝拉罗斯",
+		count_inherit = 0,
+		desc = "[ソビエツカヤ・ベラルーシア]を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 705044,
+		id = 16340,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "705044",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				187,
+				600
+			}
+		}
+	},
+	[16341] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94661,
+		type = 6,
+		name = "『毛系V2』角色收集：基洛夫",
+		count_inherit = 0,
+		desc = "[キーロフ]を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 702044,
+		id = 16341,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "702044",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				187,
+				600
+			}
+		}
+	},
+	[16342] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94662,
+		type = 6,
+		name = "『毛系V2』角色收集：塔林",
+		count_inherit = 0,
+		desc = "[タリン]を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 703014,
+		id = 16342,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "703014",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				187,
+				600
+			}
+		}
+	},
+	[16343] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94663,
+		type = 6,
+		name = "『毛系V2』角色收集：雷鸣",
+		count_inherit = 0,
+		desc = "[グレミャーシュチ]を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 701074,
+		id = 16343,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "701074",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				187,
+				400
+			}
+		}
+	},
+	[16344] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94664,
+		type = 6,
+		name = "『毛系V2』角色收集：摩尔曼斯克",
+		count_inherit = 0,
+		desc = "[ムルマンスク]を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 702064,
+		id = 16344,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "702064",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				187,
+				400
+			}
+		}
+	},
+	[16345] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94665,
+		type = 6,
+		name = "『毛系V2』角色收集：洪亮",
+		count_inherit = 0,
+		desc = "[グロームキィ]を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 701084,
+		id = 16345,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "701084",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				187,
+				400
+			}
+		}
+	},
+	[16346] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94666,
+		type = 6,
+		name = "『毛系V2』角色刷关：谢菲尔德",
+		count_inherit = 0,
+		desc = "☆5シェフィールドを含む艦隊で限定海域A2/C2中枢艦隊10回撃破（シェフィールドが戦闘不能にならない）",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16346,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1500113,
+			1502113
+		},
+		target_id_2 = {
+			202084
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				187,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16347] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94667,
+		type = 6,
+		name = "『毛系V2』角色刷关：大黄蜂",
+		count_inherit = 0,
+		desc = "☆5ホーネットを含む艦隊で限定海域A3/C3中枢艦隊10回撃破（ホーネットが戦闘不能にならない）",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16347,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1500213,
+			1502213
+		},
+		target_id_2 = {
+			107074
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				187,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16348] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94668,
+		type = 6,
+		name = "『毛系V2』角色刷关：萨拉托加",
+		count_inherit = 0,
+		desc = "☆5サラトガを含む艦隊で限定海域B2/D2中枢艦隊10回撃破（サラトガが戦闘不能にならない）",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16348,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1501113,
+			1503113
+		},
+		target_id_2 = {
+			107034
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				187,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16349] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94669,
+		type = 6,
+		name = "『毛系V2』角色刷关：阿芙乐尔",
+		count_inherit = 0,
+		desc = "☆6アヴローラを含む艦隊で限定海域B3/D3中枢艦隊10回撃破（アヴローラが戦闘不能にならない）",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16349,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1501213,
+			1503213
+		},
+		target_id_2 = {
+			702014
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				187,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16401] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94718,
+		type = 36,
+		name = "『毛系V2』-日常建造",
+		count_inherit = 0,
+		desc = "3回建造する",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16401,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59201,
+				300
+			}
+		}
+	},
+	[16402] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94719,
+		type = 36,
+		name = "『毛系V2』-日常出击",
+		count_inherit = 0,
+		desc = "艦隊を出撃させ、15回勝利せよ！",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16402,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59201,
+				300
+			}
+		}
+	},
+	[16403] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94720,
+		type = 36,
+		name = "『毛系V2』-日常困难本",
+		count_inherit = 0,
+		desc = "通常海域ハードを1回クリアする",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16403,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59201,
+				150
+			}
+		}
+	},
+	[16404] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94721,
+		type = 6,
+		name = "『毛系V2』通关A1/C1",
+		count_inherit = 0,
+		desc = "イベントステージA1かC1をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16405",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16404,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1480001,
+			1480021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59201,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16405] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94722,
+		type = 6,
+		name = "『毛系V2』通关A2/C2",
+		count_inherit = 0,
+		desc = "イベントステージA2かC2をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16406",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16405,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1480002,
+			1480022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59201,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16406] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94723,
+		type = 6,
+		name = "『毛系V2』通关A3/C3",
+		count_inherit = 0,
+		desc = "イベントステージA3かC3をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16407",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16406,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1480003,
+			1480023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59201,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16407] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94724,
+		type = 6,
+		name = "『毛系V2』通关B1/D1",
+		count_inherit = 0,
+		desc = "イベントステージB1かD1をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16408",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16407,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1480004,
+			1480024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59201,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16408] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94725,
+		type = 6,
+		name = "『毛系V2』通关B2/D2",
+		count_inherit = 0,
+		desc = "イベントステージB2かD2をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16409",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16408,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1480005,
+			1480025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59201,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16409] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94726,
+		type = 6,
+		name = "『毛系V2』通关B3/D3",
+		count_inherit = 0,
+		desc = "イベントステージB3かD3をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16410",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16409,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1480006,
+			1480026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59201,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16410] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94727,
+		type = 6,
+		name = "『毛系V2』通关SP",
+		count_inherit = 0,
+		desc = "イベントステージSPをクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1480041,
+		id = 16410,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1480041",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16411] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94728,
+		type = 6,
+		name = "『毛系V2』通关EX",
+		count_inherit = 0,
+		desc = "EXステージをクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1480051,
+		id = 16411,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1480051",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16412] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94729,
+		type = 6,
+		name = "『毛系V2』通关D3",
+		count_inherit = 0,
+		desc = "イベントステージD3をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1480026,
+		id = 16412,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1480026",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				192,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16413] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94730,
+		type = 6,
+		name = "『毛系V2』A1/C1的3星",
+		count_inherit = 0,
+		desc = "A1かC1の作戦目標(星3つ)を全て達成!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16414",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16413,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1480001,
+			1480021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16414] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94731,
+		type = 6,
+		name = "『毛系V2』A2/C2的3星",
+		count_inherit = 0,
+		desc = "A2かC2の作戦目標(星3つ)を全て達成!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16415",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16414,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1480002,
+			1480022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16415] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94732,
+		type = 6,
+		name = "『毛系V2』A3/C3的3星",
+		count_inherit = 0,
+		desc = "A3かC3の作戦目標(星3つ)を全て達成!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16416",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16415,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1480003,
+			1480023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16416] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94733,
+		type = 6,
+		name = "『毛系V2』B1/D1的3星",
+		count_inherit = 0,
+		desc = "B1かD1の作戦目標(星3つ)を全て達成!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16417",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16416,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1480004,
+			1480024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16417] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94734,
+		type = 6,
+		name = "『毛系V2』B2/D2的3星",
+		count_inherit = 0,
+		desc = "B2かD2の作戦目標(星3つ)を全て達成!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16418",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16417,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1480005,
+			1480025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16418] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94735,
+		type = 6,
+		name = "『毛系V2』B3/D3的3星",
+		count_inherit = 0,
+		desc = "B3かD3の作戦目標(星3つ)を全て達成!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16418,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1480006,
+			1480026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16419] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94717,
+		type = 6,
+		name = "『毛系V2』登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "ゲームにログインせよ！",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16419,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				189,
+				2
+			}
+		}
+	},
 	[30201] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -128454,6 +129878,13 @@ pg.task_data_template = {
 		5565,
 		5566,
 		5567,
+		5571,
+		5572,
+		5573,
+		5574,
+		5575,
+		5576,
+		5577,
 		6001,
 		6002,
 		6003,
@@ -130990,6 +132421,35 @@ pg.task_data_template = {
 		16329,
 		16330,
 		16331,
+		16340,
+		16341,
+		16342,
+		16343,
+		16344,
+		16345,
+		16346,
+		16347,
+		16348,
+		16349,
+		16401,
+		16402,
+		16403,
+		16404,
+		16405,
+		16406,
+		16407,
+		16408,
+		16409,
+		16410,
+		16411,
+		16412,
+		16413,
+		16414,
+		16415,
+		16416,
+		16417,
+		16418,
+		16419,
 		30201,
 		30202,
 		31001,

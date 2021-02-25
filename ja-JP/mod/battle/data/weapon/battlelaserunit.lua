@@ -67,17 +67,24 @@ function slot4.DoAttack(slot0, slot1)
 
 	slot0._attackStartTime = pg.TimeMgr.GetInstance():GetCombatTime()
 
+	if slot0._tmpData.aim_type == uv0.WeaponAimType.AIM and slot1 ~= nil then
+		slot2 = slot1:GetBeenAimedPosition()
+		slot0._aimAngle = math.rad2Deg * math.atan2(slot0._hostPos.z - slot2.z, slot0._hostPos.x - slot2.x)
+	else
+		slot0._aimAngle = 0
+	end
+
 	slot0:cacheBulletID()
 
 	for slot5, slot6 in ipairs(slot0._beamList) do
 		slot6:ChangeBeamState(slot6.BEAM_STATE_READY)
 
-		if uv0.GetBarrageTmpDataFromID(slot6:GetBeamInfoID()).first_delay == 0 then
+		if uv1.GetBarrageTmpDataFromID(slot6:GetBeamInfoID()).first_delay == 0 then
 			slot0:createBeam(slot6)
 		end
 	end
 
-	uv1.Battle.PlayBattleSFX(slot0._tmpData.fire_sfx)
+	uv2.Battle.PlayBattleSFX(slot0._tmpData.fire_sfx)
 	slot0:TriggerBuffOnFire()
 	slot0:CheckAndShake()
 end
@@ -129,6 +136,9 @@ end
 
 function slot4.createBeam(slot0, slot1)
 	slot4 = uv0.GetBarrageTmpDataFromID(slot1:GetBeamInfoID())
+
+	slot1:SetAimAngle(slot0._aimAngle)
+
 	slot11 = slot0._host:GetIFF()
 	slot12 = slot0._dataProxy:SpawnLastingCubeArea(uv1.AOEField.SURFACE, slot11, Vector3(slot0._hostPos.x + slot4.offset_x, 0, slot0._hostPos.z + slot4.offset_z), slot4.delta_offset_x, slot4.delta_offset_z, slot4.delay, function (slot0)
 		for slot4, slot5 in ipairs(slot0) do

@@ -53,10 +53,12 @@ function slot0.execute(slot0, slot1)
 				pg.TrackerMgr.GetInstance():Tracking(TRACKING_PURCHASE, uv3)
 				getProxy(ShopsProxy):addWaitTimer()
 			else
-				pg.TipsMgr.GetInstance():ShowTips(errorTip("charge_trade_no_error", slot0.result))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("charge_trade_no_error"))
 			end
+		elseif slot0.result == 6 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("charge_error_count_limit"))
 		else
-			pg.TipsMgr.GetInstance():ShowTips(errorTip("charge_erro", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("charge", slot0.result))
 		end
 	end)
 end

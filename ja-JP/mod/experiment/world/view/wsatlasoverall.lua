@@ -29,6 +29,8 @@ function slot0.LoadScene(slot0, slot1)
 		uv0.tfMapSelect = uv0.tfMapScene:Find("selected_layer")
 		uv0.tfSpriteScene = uv0.tfEntity:Find("sprite_scene")
 		uv0.tfMarkScene = uv0.tfEntity:Find("mark_scene")
+		uv0.defaultSprite = uv0.tfEntity:Find("decolation_layer/edge"):GetComponent("SpriteRenderer").material
+		uv0.addSprite = uv0.tfEntity:Find("map_scene/mask_layer"):GetComponent("SpriteRenderer").material
 
 		uv0:BuildActiveMark()
 

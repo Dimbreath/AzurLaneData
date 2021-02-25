@@ -205,7 +205,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 313,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>後日イベントで入手可能</color>",
+		desc = "<color=#ffffff>セイレーンの施設の秘密を我が手に――</color>――「暁射す氷華の嵐」イベントで入手可能",
 		scene = {}
 	},
 	[401] = {

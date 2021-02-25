@@ -76,5 +76,12 @@ pg.ship_spine_shift = {
 			-6,
 			10
 		}
+	},
+	leiming_2 = {
+		spine = "leiming_2",
+		mainui_shift = {
+			32,
+			0
+		}
 	}
 }
