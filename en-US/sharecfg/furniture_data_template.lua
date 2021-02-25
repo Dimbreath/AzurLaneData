@@ -3755,6 +3755,49 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[192] = {
+		can_rotate = 0,
+		name = "Dawn's Rime Trophy",
+		gain_by = "Khorovod of Dawn's Rime",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 1,
+		belong = 1,
+		rarity = 5,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "maozi2xunzhangicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		describe = "A holographic model of the Sirens' secret facility. – Given to commanders who participated in Khorovod of Dawn's Rime.",
+		advice = 0,
+		id = 192,
+		deblocking = 1,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"maozi2xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		name = "Air Pump of Friendship",
 		gain_by = "",
@@ -4506,6 +4549,56 @@ pg.furniture_data_template = {
 					nil,
 					"event:/ui/meow"
 				}
+			}
+		},
+		interAction_group = {}
+	},
+	[100019] = {
+		can_rotate = 0,
+		name = "Grimmy",
+		gain_by = "",
+		type = 14,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 5,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "yingicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		describe = "\"Enterprise, do remember to watch what you eat.\"",
+		advice = 0,
+		id = 100019,
+		deblocking = 1,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ying",
+				"normal"
+			},
+			[3] = {
+				{
+					0,
+					100
+				},
+				"walk"
 			}
 		},
 		interAction_group = {}
@@ -73598,6 +73691,950 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[77001] = {
+		can_rotate = 0,
+		name = "北地雪镇地板",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 4,
+		icon = "dibanels2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 77,
+		spine_action_replace = "",
+		picture = "els2/dibanels2",
+		canputon = 0,
+		count = 1,
+		describe = "在银装素裹的小镇里度过特别的一夜吧！",
+		advice = 0,
+		deblocking = 1,
+		id = 77001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77002] = {
+		can_rotate = 0,
+		name = "北地雪镇墙壁",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 3,
+		icon = "qiangbiels2icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 77,
+		spine_action_replace = "",
+		picture = "els2/qiangbiels2",
+		canputon = 0,
+		count = 1,
+		describe = "在银装素裹的小镇里度过特别的一夜吧！",
+		advice = 0,
+		deblocking = 1,
+		id = 77002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77101] = {
+		can_rotate = 0,
+		name = "雪镇路灯",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "1els2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 77,
+		spine_action_replace = "",
+		picture = "els2/1els2",
+		canputon = 0,
+		count = 3,
+		describe = "覆盖着积雪的路灯",
+		advice = 0,
+		deblocking = 1,
+		id = 77101,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77102] = {
+		can_rotate = 0,
+		name = "雪镇列车",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "2els2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "els2/2els2",
+		canputon = 0,
+		themeId = 77,
+		count = 1,
+		describe = "距离下一站还有20分钟啾！",
+		advice = 0,
+		id = 77102,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			4,
+			13
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-168,
+					47
+				},
+				{
+					1,
+					1
+				},
+				"els2/2els2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77103] = {
+		can_rotate = 0,
+		name = "雪镇跷跷板",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "3els2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "els2/3els2",
+		canputon = 0,
+		themeId = 77,
+		count = 1,
+		describe = "木制的简易跷跷板",
+		advice = 0,
+		id = 77103,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					85,
+					80
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-79,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77104] = {
+		can_rotate = 0,
+		name = "雪镇银树",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "4els2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 77,
+		spine_action_replace = "",
+		picture = "els2/4els2",
+		canputon = 0,
+		count = 2,
+		describe = "挂满雾凇，仿佛换上冬日银装的树。",
+		advice = 0,
+		deblocking = 1,
+		id = 77104,
+		comfortable = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77105] = {
+		can_rotate = 0,
+		name = "雪镇草丛",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "5els2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 77,
+		spine_action_replace = "",
+		picture = "els2/5els2",
+		canputon = 0,
+		count = 5,
+		describe = "被积雪覆盖的草丛。",
+		advice = 0,
+		deblocking = 1,
+		id = 77105,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77106] = {
+		can_rotate = 1,
+		name = "雪镇警示牌",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "6els2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 77,
+		spine_action_replace = "",
+		picture = "els2/6els2",
+		canputon = 0,
+		count = 1,
+		describe = "小心地滑！",
+		advice = 0,
+		deblocking = 1,
+		id = 77106,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77107] = {
+		can_rotate = 0,
+		name = "雪镇长椅",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "7els2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "els2/7els2",
+		canputon = 0,
+		themeId = 77,
+		count = 1,
+		describe = "室外的桌椅，似乎该清积雪了。",
+		advice = 0,
+		id = 77107,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					54,
+					60
+				},
+				{
+					-1,
+					1
+				},
+				"els2/7els2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77108] = {
+		can_rotate = 0,
+		name = "雪镇冰池",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "8els2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "els2/8els2",
+		canputon = 0,
+		themeId = 77,
+		count = 1,
+		describe = "不知道能不能钓到鱼…",
+		advice = 0,
+		id = 77108,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					70,
+					-154
+				},
+				{
+					-1,
+					1
+				},
+				"els2/8els2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77109] = {
+		can_rotate = 0,
+		name = "雪镇树桩",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "9els2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 77,
+		spine_action_replace = "",
+		picture = "els2/9els2",
+		canputon = 0,
+		count = 1,
+		describe = "谁忘了把斧头带走？",
+		advice = 0,
+		deblocking = 1,
+		id = 77109,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77110] = {
+		can_rotate = 1,
+		name = "雪镇小屋",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "10els2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 77,
+		spine_action_replace = "",
+		picture = "els2/10els2",
+		canputon = 0,
+		count = 1,
+		describe = "可以感觉到屋内透出的暖意。",
+		advice = 0,
+		deblocking = 1,
+		id = 77110,
+		comfortable = 3,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77111] = {
+		can_rotate = 0,
+		name = "雪镇秋千",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "11els2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "els2/11els2",
+		canputon = 0,
+		themeId = 77,
+		count = 1,
+		describe = "荡秋千得做好保暖措施啾！",
+		advice = 0,
+		id = 77111,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-62,
+					-10
+				},
+				{
+					-1,
+					1
+				},
+				"els2/11els2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77112] = {
+		can_rotate = 0,
+		name = "雪镇木栅",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "12els2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 77,
+		spine_action_replace = "",
+		picture = "els2/12els2",
+		canputon = 0,
+		count = 5,
+		describe = "木制的栅栏，即使在风雪中依旧坚挺。",
+		advice = 0,
+		deblocking = 1,
+		id = 77112,
+		comfortable = 1,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77113] = {
+		can_rotate = 1,
+		name = "雪镇汽车站",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "13els2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "els2/13els2",
+		canputon = 0,
+		themeId = 77,
+		count = 1,
+		describe = "下一辆巴士还要多久呢…",
+		advice = 0,
+		id = 77113,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-50,
+					-11
+				},
+				{
+					-1,
+					1
+				},
+				"els2/13els2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77114] = {
+		can_rotate = 0,
+		name = "雪镇汽车",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "14els2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 77,
+		spine_action_replace = "",
+		picture = "els2/14els2",
+		canputon = 0,
+		count = 1,
+		describe = "几乎快要埋进雪里的汽车。",
+		advice = 0,
+		deblocking = 1,
+		id = 77114,
+		comfortable = 2,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77115] = {
+		can_rotate = 0,
+		name = "雪镇石桥",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "15els2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "els2/15els2",
+		canputon = 0,
+		themeId = 77,
+		count = 1,
+		describe = "是谁在桥上堆的雪人？",
+		advice = 0,
+		id = 77115,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			8,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-28,
+					31
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77116] = {
+		can_rotate = 0,
+		name = "雪镇公路",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "16els2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 77,
+		spine_action_replace = "",
+		picture = "els2/16els2",
+		canputon = 0,
+		count = 3,
+		describe = "还是得及时除雪才行呢。",
+		advice = 0,
+		deblocking = 1,
+		id = 77116,
+		comfortable = 2,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[77117] = {
+		name = "雪镇滑梯",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		can_rotate = 0,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Aels2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 77,
+		deblocking = 1,
+		count = 1,
+		describe = "结了薄冰后，似乎能滑得更快了？！",
+		id = 77117,
+		advice = 0,
+		comfortable = 4,
+		belong = 1,
+		size = {
+			10,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Aels2B",
+				"normal"
+			},
+			{
+				"Aels2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk",
+						0,
+						"walk"
+					},
+					{
+						"sit",
+						0,
+						"sit"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"Aels2CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[77118] = {
+		can_rotate = 0,
+		name = "雪镇铲雪车",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Bels2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 77,
+		count = 1,
+		describe = "正在进行积雪清除作业啾！",
+		advice = 0,
+		id = 77118,
+		deblocking = 1,
+		comfortable = 4,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Bels2",
+				"normal",
+				{
+					"walk",
+					true
+				},
+				true
+			}
+		},
+		interAction_group = {}
+	},
+	[77119] = {
+		can_rotate = 0,
+		name = "滑雪啾",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Cels2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 77,
+		count = 1,
+		describe = "见识下专业滑雪选手的风采啾！",
+		advice = 0,
+		id = 77119,
+		deblocking = 1,
+		comfortable = 4,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Cels2",
+				"normal",
+				{
+					"walk",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -73678,6 +74715,7 @@ pg.furniture_data_template = {
 		189,
 		190,
 		191,
+		192,
 		100002,
 		100003,
 		100004,
@@ -73687,6 +74725,7 @@ pg.furniture_data_template = {
 		100008,
 		100009,
 		100010,
+		100019,
 		1001,
 		1002,
 		1101,
@@ -75266,6 +76305,27 @@ pg.furniture_data_template = {
 		75116,
 		75117,
 		75118,
-		75301
+		75301,
+		77001,
+		77002,
+		77101,
+		77102,
+		77103,
+		77104,
+		77105,
+		77106,
+		77107,
+		77108,
+		77109,
+		77110,
+		77111,
+		77112,
+		77113,
+		77114,
+		77115,
+		77116,
+		77117,
+		77118,
+		77119
 	}
 }

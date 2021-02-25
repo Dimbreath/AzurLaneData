@@ -615,7 +615,7 @@ function slot0.setItemVOs(slot0)
 			end
 
 			if slot7 == "ship_bag_size" and slot9 and slot10 then
-				if slot9 <= slot0.player:getMaxShipBag() and slot0.player:getMaxShipBag() <= slot10 then
+				if slot9 <= slot0.player:getMaxShipBagExcludeGuild() and slot0.player:getMaxShipBagExcludeGuild() <= slot10 then
 					print("ship_bag_size type shop id", slot6)
 					table.insert(slot0.itemVOs, Goods.Create({
 						count = 0,
@@ -666,7 +666,7 @@ function slot0.initItems(slot0)
 			slot2 = nil
 
 			if uv0.goodsVO:getConfig("effect_args") == "ship_bag_size" then
-				if Player.MAX_SHIP_BAG <= uv1.player:getMaxShipBag() then
+				if Player.MAX_SHIP_BAG <= uv1.player:getMaxShipBagExcludeGuild() then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("charge_ship_bag_max"))
 
 					return

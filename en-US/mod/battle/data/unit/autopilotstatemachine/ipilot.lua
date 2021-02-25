@@ -12,6 +12,7 @@ function slot1.SetParameter(slot0, slot1, slot2)
 	slot0._paramList = slot1
 	slot0._valve = slot1.valve or uv0.Battle.AutoPilot.PILOT_VALVE
 	slot0._toIndex = slot2
+	slot0._duration = slot1.duration or -1
 end
 
 function slot1.GetIndex(slot0)
@@ -24,6 +25,14 @@ end
 
 function slot1.Active(slot0, slot1)
 	slot0._startTime = pg.TimeMgr.GetInstance():GetCombatTime()
+end
+
+function slot1.IsExpired(slot0)
+	if slot0._duration > 0 and slot0._duration < pg.TimeMgr.GetInstance():GetCombatTime() - slot0._startTime then
+		return true
+	else
+		return false
+	end
 end
 
 function slot1.GetDirection(slot0, slot1)

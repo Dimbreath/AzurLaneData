@@ -78,7 +78,7 @@ function slot0.init(slot0)
 	slot0.mode = slot0.contextData.mode or uv0.MODE_VIEW
 	slot0.sortData = slot0.contextData.sortData or CommandRoomScene.sortData or {
 		asc = true,
-		sortData = "id",
+		sortData = "Level",
 		nationData = {},
 		rarityData = {}
 	}

@@ -803,6 +803,19 @@ pg.mini_game = {
 		hub_id = 16,
 		request_data = 1
 	},
+	{
+		name = "元宵答题2",
+		view_name = "LanternFestivalView",
+		mediator_name = "MiniHubMediator",
+		type = 2,
+		simple_config_data = "",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "activity_event_question",
+		id = 22,
+		hub_id = 17,
+		request_data = 1
+	},
 	all = {
 		1,
 		2,
@@ -824,6 +837,7 @@ pg.mini_game = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	}
 }

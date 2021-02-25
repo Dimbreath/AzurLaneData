@@ -154,7 +154,8 @@ function slot0.Init(slot0, slot1)
 		uv0.players = {
 			AsideStoryPlayer.New(slot0),
 			DialogueStoryPlayer.New(slot0),
-			BgStoryPlayer.New(slot0)
+			BgStoryPlayer.New(slot0),
+			CarouselPlayer.New(slot0)
 		}
 
 		setActive(uv0._go, false)

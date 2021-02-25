@@ -10,10 +10,25 @@ function slot0.OnFirstFlush(slot0)
 end
 
 function slot0.initBtn(slot0)
-	slot1 = {
+	function slot1(slot0)
+		if not getProxy(ActivityProxy):getActivityById(slot0) or slot1 and slot1:isEnd() then
+			return true
+		else
+			return false
+		end
+	end
+
+	slot2 = slot0.activity:getConfig("config_client")
+	slot3 = {
 		task = function (slot0)
 			onButton(uv0, slot0, function ()
-				uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK, {
+				if uv0.taskLinkActID and uv1(uv0.taskLinkActID) then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+					return
+				end
+
+				uv2:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK, {
 					page = "activity"
 				})
 			end)
@@ -31,27 +46,51 @@ function slot0.initBtn(slot0)
 			end)
 
 			onButton(uv0, slot0, function ()
-				uv0:emit(ActivityMediator.GO_SHOPS_LAYER, {
+				if uv0.shopLinkActID and uv1(uv0.shopLinkActID) then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+					return
+				end
+
+				uv2:emit(ActivityMediator.GO_SHOPS_LAYER, {
 					warp = NewShopsScene.TYPE_ACTIVITY,
-					actId = uv1 and uv1.id
+					actId = uv3 and uv3.id
 				})
 			end)
 		end,
 		build = function (slot0)
 			onButton(uv0, slot0, function ()
-				uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT, {
+				if uv0.buildLinkActID and uv1(uv0.buildLinkActID) then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+					return
+				end
+
+				uv2:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT, {
 					projectName = BuildShipScene.PROJECTS.ACTIVITY
 				})
 			end)
 		end,
 		fight = function (slot0)
 			onButton(uv0, slot0, function ()
-				uv0:emit(ActivityMediator.BATTLE_OPERA)
+				if uv0.fightLinkActID and uv1(uv0.fightLinkActID) then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+					return
+				end
+
+				uv2:emit(ActivityMediator.BATTLE_OPERA)
 			end)
 		end,
 		lottery = function (slot0)
 			onButton(uv0, slot0, function ()
-				uv0:emit(ActivityMediator.GO_LOTTERY)
+				if uv0.lotteryLinkActID and uv1(uv0.lotteryLinkActID) then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+					return
+				end
+
+				uv2:emit(ActivityMediator.GO_LOTTERY)
 			end)
 		end,
 		memory = function (slot0)

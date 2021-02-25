@@ -189,7 +189,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 313,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>Obtained from a subsequent event</color>",
+		desc = "<color=#ffffff>The Sirens' secrets shall dance in the palm of our hand!",
 		scene = {}
 	},
 	[501] = {

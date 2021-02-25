@@ -113,7 +113,7 @@ function slot0.register(slot0)
 			end
 
 			if #slot0.add_flag_list > 0 or #slot0.del_flag_list > 0 then
-				slot2 = bit.bor(slot2, ChapterConst.DirtyStrategy, ChapterConst.DirtyCellFlag)
+				slot2 = bit.bor(slot2, ChapterConst.DirtyStrategy, ChapterConst.DirtyCellFlag, ChapterConst.DirtyFloatItems)
 
 				uv0:updateExtraFlag(slot1, slot0.add_flag_list, slot0.del_flag_list)
 			end
@@ -502,22 +502,19 @@ function slot0.RemoveExtendChapter(slot0, slot1)
 	slot0.chaptersExtend[slot1] = nil
 end
 
-function slot0.duplicateEliteFleet(slot0, slot1, slot2)
+function slot0.duplicateEliteFleet(slot0, slot1)
 	if slot1:getConfig("type") == Chapter.CustomFleet then
-		slot5 = slot1:getConfig("formation")
-		slot0.mapEliteFleetCache[slot5] = Clone(slot1:getEliteFleetList())
-		slot0.mapEliteCommanderCache[slot5] = Clone(slot1:getEliteFleetCommanders())
+		slot4 = slot1:getConfig("formation")
+		slot0.mapEliteFleetCache[slot4] = Clone(slot1:getEliteFleetList())
+		slot0.mapEliteCommanderCache[slot4] = Clone(slot1:getEliteFleetCommanders())
 
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inElite")
 
-		for slot9, slot10 in ipairs(uv0.FormationToChapters[slot5]) do
-			if slot0:getChapterById(slot10, true).configId ~= slot1.configId then
-				slot11:setEliteFleetList(Clone(slot3))
-				slot11:setEliteCommanders(Clone(slot4))
-
-				if slot2 then
-					slot0:updateChapter(slot11)
-				end
+		for slot8, slot9 in ipairs(uv0.FormationToChapters[slot4]) do
+			if slot0:getChapterById(slot9, true).configId ~= slot1.configId then
+				slot10:setEliteFleetList(Clone(slot2))
+				slot10:setEliteCommanders(Clone(slot3))
+				slot0:updateChapter(slot10)
 			end
 		end
 	end

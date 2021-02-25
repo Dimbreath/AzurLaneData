@@ -1047,5 +1047,17 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Yoshioka Misaki",
 		code = 262
+	},
+	{
+		actor_name = "Kakimura Momoki ",
+		code = 263
+	},
+	{
+		actor_name = "Yamada  Marina ",
+		code = 264
+	},
+	{
+		actor_name = "Kozakai  Yurie",
+		code = 265
 	}
 }

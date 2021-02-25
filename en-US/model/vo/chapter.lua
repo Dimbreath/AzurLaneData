@@ -2275,9 +2275,9 @@ function slot0.writeBack(slot0, slot1, slot2)
 
 	slot0:UpdateComboHistory(slot2.statistics._battleScore)
 
-	slot5 = nil
-
 	if slot1 then
+		slot5 = nil
+
 		if _.detect(slot0.champions, function (slot0)
 			return slot0.id == uv0.stageId and slot0.row == uv1.line.row and slot0.column == uv1.line.column and slot0.flag ~= 1
 		end) then
@@ -2336,6 +2336,71 @@ function slot0.writeBack(slot0, slot1, slot2)
 			type = slot5
 		})
 	end
+end
+
+function slot0.UpdateProgressAfterSkipBattle(slot0)
+	slot2 = slot0.fleet.line
+	slot3, slot4 = nil
+
+	if slot0:existChampion(slot2.row, slot2.column) then
+		slot4 = slot0:getChampion(slot2.row, slot2.column)
+
+		slot4:Iter()
+
+		slot3 = slot4.attachment
+	else
+		slot4 = slot0:getChapterCell(slot1.line.row, slot1.line.column)
+		slot4.flag = 1
+
+		slot0:updateChapterCell(slot4)
+
+		slot3 = slot4.attachment
+	end
+
+	if slot3 == ChapterConst.AttachEnemy or slot3 == ChapterConst.AttachElite or slot3 == ChapterConst.AttachChampion and slot4.flag == 1 then
+		if _.detect(slot0.achieves, function (slot0)
+			return slot0.type == ChapterConst.AchieveType2
+		end) then
+			slot5.count = slot5.count + 1
+		end
+	elseif slot3 == ChapterConst.AttachBoss and _.detect(slot0.achieves, function (slot0)
+		return slot0.type == ChapterConst.AchieveType1
+	end) then
+		slot5.count = slot5.count + 1
+	end
+
+	if slot0:CheckChapterWin() then
+		pg.TrackerMgr.GetInstance():Tracking(TRACKING_KILL_BOSS)
+	end
+
+	if slot3 ~= ChapterConst.AttachChampion or slot4.flag == 1 then
+		if slot3 == ChapterConst.AttachChampion then
+			slot0:RemoveChampion(slot4)
+		end
+
+		slot1.defeatEnemies = slot1.defeatEnemies + 1
+		slot0.defeatEnemies = slot0.defeatEnemies + 1
+
+		if slot0:getPlayType() == ChapterConst.TypeDOALink and not table.contains(slot0.buff_list, pg.gameset.doa_fever_buff.key_value) and pg.gameset.doa_fever_count.key_value <= slot0.defeatEnemies then
+			table.insert(slot0.buff_list, pg.gameset.doa_fever_buff.key_value)
+		end
+	end
+
+	if slot0:getPlayType() == ChapterConst.TypeMainSub and slot3 == ChapterConst.AttachBoss then
+		slot8 = getProxy(ChapterProxy)
+		slot8.subProgress = math.max(slot8.subProgress, table.indexof(_.filter(pg.expedition_data_by_map.all, function (slot0)
+			return type(pg.expedition_data_by_map[slot0].drop_by_map_display) == "table" and #slot1 > 0
+		end), slot0:getConfig("map")) + 1)
+	end
+
+	getProxy(ChapterProxy):RecordLastDefeatedEnemy(slot0.id, {
+		score = ys.Battle.BattleConst.BattleScore.S,
+		line = {
+			row = slot1.line.row,
+			column = slot1.line.column
+		},
+		type = slot3
+	})
 end
 
 function slot0.UpdateProgressOnRetreat(slot0)

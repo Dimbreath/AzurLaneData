@@ -28,7 +28,9 @@ function slot1.GetDirection(slot0, slot1)
 	if slot2.magnitude < slot0._valve then
 		slot2 = Vector3.zero
 
-		slot0:Finish()
+		if slot0._duration == -1 or slot0:IsExpired() then
+			slot0:Finish()
+		end
 	end
 
 	return slot2:SetNormalize()

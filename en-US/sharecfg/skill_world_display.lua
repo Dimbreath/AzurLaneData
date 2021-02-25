@@ -1314,6 +1314,60 @@ pg.skill_world_display = {
 			}
 		}
 	},
+	[14160] = {
+		desc_get = "",
+		id = 14160,
+		desc = "[Operation Siren only] \nIn battle, when this ship's HP is greater than 60.0%: increases FP by $1 and reduces Burn duration by 3s. Twice per battle, when this ship's HP falls below 50.0% as a result of DMG, restores 9.0% of its max HP over 8s. From the third battle of each sortie that this ship participates in: reduces the DMG your vanguard fleet takes by 8.0%. (In Operation Siren, this counter will reset when moving between sectors.)",
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
 	[19260] = {
 		desc_get = "",
 		id = 19260,
@@ -1572,6 +1626,7 @@ pg.skill_world_display = {
 		13650,
 		13670,
 		13840,
+		14160,
 		19260,
 		105010,
 		105020

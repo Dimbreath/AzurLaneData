@@ -1,159 +1,159 @@
 pg = pg or {}
 pg.activity_event_question = {
-	{
-		question = "Which one of the following ships had an on-board ice cream maker?",
-		answer_right = "Enterprise",
-		answer_false1 = "I-19",
+	[15] = {
+		question = "Which of the following is not a naval gun ammunition type in the game?",
+		answer_right = "Normal shells",
+		answer_false1 = "AP shells",
 		type = 1,
-		id = 1,
+		id = 15,
 		wrong_time = 300,
-		answer_false3 = "Mikasa",
-		answer_false2 = "Akashi"
+		answer_false3 = "Flare shells",
+		answer_false2 = "HE shells"
 	},
-	{
-		question = "Which one of the following refers to a naval tactic used by submarines?",
-		answer_right = "Wolfpacks",
-		answer_false1 = "Skip bombing",
+	[16] = {
+		question = "Which of the following is not factored into the Airspace Control calculation?",
+		answer_right = "Fighters",
+		answer_false1 = "Dive Bombers",
 		type = 1,
-		id = 2,
+		id = 16,
 		wrong_time = 300,
-		answer_false3 = "Outranging",
-		answer_false2 = "Crossing the T"
+		answer_false3 = "ASW Aircraft",
+		answer_false2 = "Torp Bombers"
 	},
-	{
-		question = "Which one of the following ships was converted from a cargo liner?",
-		answer_right = "Long Island",
-		answer_false1 = "Ryuuhou",
+	[17] = {
+		question = "Which of the following will not cause the Carrier detection gauge to fill up?",
+		answer_right = "Launching an airstrike",
+		answer_false1 = "Being affected by Burn",
 		type = 1,
-		id = 3,
+		id = 17,
 		wrong_time = 300,
-		answer_false3 = "Langley",
-		answer_false2 = "Chaser"
+		answer_false3 = "Being affected by Flooding",
+		answer_false2 = "Being approached by an enemy ship"
 	},
-	{
-		question = "Which one of the following ships had the highest recorded speed?",
-		answer_right = "Maury",
-		answer_false1 = "Hiryuu",
+	[18] = {
+		question = "What must a stage's threat level be in order to use the Auto Search combat function?",
+		answer_right = "High",
+		answer_false1 = "Medium",
 		type = 1,
-		id = 4,
+		id = 18,
 		wrong_time = 300,
-		answer_false3 = "Haruna",
-		answer_false2 = "Deutschland"
+		answer_false3 = "Safe",
+		answer_false2 = "Low"
 	},
-	{
-		question = "Tashkent, the \"Blue Cruiser,\" was which type of ship?",
-		answer_right = "Destroyer",
-		answer_false1 = "Light cruiser",
+	[19] = {
+		question = "What is the current ship level cap?",
+		answer_right = "70",
+		answer_false1 = "90",
 		type = 1,
-		id = 5,
+		id = 19,
 		wrong_time = 300,
-		answer_false3 = "Battleship",
-		answer_false2 = "Aircraft carrier"
+		answer_false3 = "120",
+		answer_false2 = "100"
 	},
-	{
-		question = "Which one of the following ships was awarded a total of 18 battle stars?",
-		answer_right = "San Diego",
-		answer_false1 = "Enterprise",
+	[20] = {
+		question = "What is the maximum number of commissions that can be carried out daily?",
+		answer_right = "4",
+		answer_false1 = "8",
 		type = 1,
-		id = 6,
+		id = 20,
 		wrong_time = 300,
-		answer_false3 = "Portland",
-		answer_false2 = "Saratoga"
+		answer_false3 = "No limit",
+		answer_false2 = "15"
 	},
-	{
-		question = "Which one of the following battleships' main battery turrets had 4 barrels each?",
-		answer_right = "Richelieu",
-		answer_false1 = "Nagato",
+	[21] = {
+		question = "Which of the following cannot be purchased with Gems?",
+		answer_right = "Coins",
+		answer_false1 = "Oil",
 		type = 1,
-		id = 7,
+		id = 21,
 		wrong_time = 300,
-		answer_false3 = "Littorio",
-		answer_false2 = "Colorado"
+		answer_false3 = "Ship EXP",
+		answer_false2 = "Wisdom Cubes"
 	},
-	{
-		question = "Which one of the following ships is the teacher in the Lecture Hall?",
-		answer_right = "Amazon",
-		answer_false1 = "Köln",
+	[22] = {
+		question = "In order to minimize the take-off time of aircraft, carriers should do which of the following?",
+		answer_right = "Sail downwind",
+		answer_false1 = "Sail crosswind",
 		type = 2,
-		id = 8,
+		id = 22,
 		wrong_time = 300,
-		answer_false3 = "Wichita",
-		answer_false2 = "London"
+		answer_false3 = "Sail upwind",
+		answer_false2 = "Stay still"
 	},
-	{
-		question = "Which one of the following ships has animal ears?",
-		answer_right = "Takao",
-		answer_false1 = "Suzuya",
+	[23] = {
+		question = "Which of the following was not a mechanism used by carriers or warships to launch planes?",
+		answer_right = "Steam catapult",
+		answer_false1 = "Gunpowder catapult",
 		type = 2,
-		id = 9,
+		id = 23,
 		wrong_time = 300,
-		answer_false3 = "Kongou",
-		answer_false2 = "Agano"
+		answer_false3 = "Hydraulic catapult",
+		answer_false2 = "Mechanical spring"
 	},
-	{
-		question = "Which one of the following ships has appeared on Juustagram?",
-		answer_right = "Amazon",
-		answer_false1 = "Bache",
+	[24] = {
+		question = "Sailors ate barley rice to prevent which one of the following diseases?",
+		answer_right = "Hypertension",
+		answer_false1 = "Scurvy",
 		type = 2,
-		id = 10,
+		id = 24,
 		wrong_time = 300,
-		answer_false3 = "Hermes",
-		answer_false2 = "Honolulu"
+		answer_false3 = "Beriberi",
+		answer_false2 = "Gangrene"
 	},
-	{
-		question = "Which one of the following ships do NOT carry around a stuffed toy?",
-		answer_right = "Leipzig",
-		answer_false1 = "Z25",
+	[25] = {
+		question = "Which of the following is now a ship bow type?",
+		answer_right = "Bulbous",
+		answer_false1 = "Clipper",
 		type = 2,
-		id = 11,
+		id = 25,
 		wrong_time = 300,
-		answer_false3 = "Dido",
-		answer_false2 = "Kiyonami"
+		answer_false3 = "Armored",
+		answer_false2 = "Inverted"
 	},
-	{
-		question = "Which of the following are NOT always present on the Academy screen?",
-		answer_right = "Yuni",
-		answer_false1 = "Manjuus",
+	[26] = {
+		question = "The VT Fuze is also called which of the following?",
+		answer_right = "Impact fuze",
+		answer_false1 = "Time fuze",
 		type = 2,
-		id = 12,
+		id = 26,
 		wrong_time = 300,
-		answer_false3 = "Shipgirls",
-		answer_false2 = "Meowfficers"
+		answer_false3 = "Proximity fuze",
+		answer_false2 = "Barometric fuze"
 	},
-	{
-		question = "Which one of the following ships has NOT yet received a retrofit?",
-		answer_right = "Benson",
-		answer_false1 = "San Diego",
+	[27] = {
+		question = "What is it called when a shell damages a vessel by exploding in the nearby waters instead of scoring a direct hit?",
+		answer_right = "Near Miss",
+		answer_false1 = "Overpenetration",
 		type = 2,
-		id = 13,
+		id = 27,
 		wrong_time = 300,
-		answer_false3 = "Cassin",
-		answer_false2 = "Warspite"
+		answer_false3 = "Armor-Piercing",
+		answer_false2 = "ASW shelling"
 	},
-	{
-		question = "Which one of the following Meowfficers is NOT brown?",
-		answer_right = "Beer",
-		answer_false1 = "Potato",
+	[28] = {
+		question = "Which of the following is an effective way to attack submarines?",
+		answer_right = "High-angle guns",
+		answer_false1 = "Throwing potatoes",
 		type = 2,
-		id = 14,
+		id = 28,
 		wrong_time = 300,
-		answer_false3 = "Gral",
-		answer_false2 = "Edelweiss"
+		answer_false3 = "Depth charges",
+		answer_false2 = "Ramming"
 	},
 	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14
+		15,
+		16,
+		17,
+		18,
+		19,
+		20,
+		21,
+		22,
+		23,
+		24,
+		25,
+		26,
+		27,
+		28
 	}
 }

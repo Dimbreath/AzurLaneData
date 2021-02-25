@@ -376,53 +376,55 @@ function slot0.UpdateMapItem(slot0, slot1, slot2)
 		end)):setEase(LeanTweenType.easeOutSine):setDelay(0.7)
 	end
 
+	slot28 = slot2.id
+
 	onButton(slot0.sceneParent, slot4, function ()
 		if uv0:InvokeParent("isfrozen") then
 			return
 		end
 
-		if uv0.chaptersInBackAnimating[uv1.id] then
+		if uv0.chaptersInBackAnimating[uv1] then
 			return
 		end
 
-		if not uv1:isUnlock() then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_tracking_error_pre", uv1:getPrevChapterName()))
+		if not getProxy(ChapterProxy):getChapterById(uv1):isUnlock() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_tracking_error_pre", slot0:getPrevChapterName()))
 
 			return
 		end
 
-		if not getProxy(ChapterProxy):getMapById(uv1:getConfig("map")):isRemaster() and not uv1:inActTime() then
+		if not getProxy(ChapterProxy):getMapById(slot0:getConfig("map")):isRemaster() and not slot0:inActTime() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_lock_1"))
 
 			return
 		end
 
-		if uv0.sceneParent.player.level < uv1:getConfig("unlocklevel") then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_chapter_level_limit", slot1))
+		if uv0.sceneParent.player.level < slot0:getConfig("unlocklevel") then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_chapter_level_limit", slot2))
 
 			return
 		end
 
-		slot2 = nil
+		slot3 = nil
 
-		for slot6, slot7 in pairs(uv0.sceneParent.maps) do
-			if slot7:getActiveChapter() then
+		for slot7, slot8 in pairs(uv0.sceneParent.maps) do
+			if slot8:getActiveChapter() then
 				break
 			end
 		end
 
-		if slot2 and slot2 ~= uv1 then
+		if slot3 and slot3 ~= slot0 then
 			uv0:InvokeParent("emit", LevelMediator2.ON_STRATEGYING_CHAPTER)
 
 			return
 		end
 
-		if uv1.active then
-			uv0:InvokeParent("switchToChapter", uv1)
+		if slot0.active then
+			uv0:InvokeParent("switchToChapter", slot0)
 		else
-			slot3 = uv2.localPosition
+			slot4 = uv2.localPosition
 
-			uv0:InvokeParent("displayChapterPanel", uv1, Vector3(slot3.x - 10, slot3.y + 150))
+			uv0:InvokeParent("displayChapterPanel", slot0, Vector3(slot4.x - 10, slot4.y + 150))
 		end
 	end, SFX_UI_WEIGHANCHOR_SELECT)
 end

@@ -14225,7 +14225,7 @@ pg.skill_data_template = {
 		name = "Giant Hunter",
 		type = 1,
 		max_level = 10,
-		desc = "When in the same fleet as Admiral Graf Spee: increases this ship's EVA by $2, torpedo DMG by $2, and damage dealt to Medium-Armored enemies by $1; After hitting an enemy CA with 4 Main Gun attacks, slows that ship by $3 for 5s (this effect cannot be stacked again until the slowing effect has worn off). ",
+		desc = "At the start of battle: increases this ship's EVA by $2, torpedo DMG by $2, and damage dealt to Medium-Armored enemies by $1; After hitting an enemy CA with 4 Main Gun attacks, slows that ship by $3 for 5s (this effect cannot be stacked again until the slowing effect has worn off). ",
 		id = 10710,
 		system_transform = {},
 		world_death_mark = {
@@ -44768,7 +44768,7 @@ pg.skill_data_template = {
 		name = "Enrapturing Dance",
 		type = 2,
 		max_level = 10,
-		desc = "At the start of the battle: increases this ship's EVA by $1 and decreases its DMG taken by $1 until the end of the battle. When sortied with 1 or more other Dragon Empery ships: heals this ship for 5.0% HP at the start of the battle, increases its Speed by 5, and increases your fleet's AA by $1 for 50s.",
+		desc = "At the start of the battle: increases this ship's EVA by $1 and decreases its DMG taken by $1 until the end of the battle. When sortied with 1 or more other Dragon Empery ships: heals this ship for 5.0% HP at the start of the battle, increases its Speed by 8, and increases your fleet's ASW by $1 for 50s. ",
 		id = 14100,
 		system_transform = {},
 		world_death_mark = {
@@ -45160,6 +45160,1235 @@ pg.skill_data_template = {
 				},
 				{
 					"10.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[14150] = {
+		desc_get = "",
+		name = "Curtain of Rime",
+		type = 1,
+		max_level = 10,
+		desc = "When this ship fires a Salvo: $1 chance to fire a $2 special barrage (Barrage DMG is based on this skill's level). If this barrage fails to activate, increases this ship's AA by 50.0% until the next Salvo is fired.",
+		id = 14150,
+		system_transform = {
+			[3.0] = 14155
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"45.0%",
+				"75.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"45.0%",
+					"+3.3%"
+				},
+				{
+					"48.3%",
+					"+3.3%"
+				},
+				{
+					"51.6%",
+					"+3.3%"
+				},
+				{
+					"54.9%",
+					"+3.3%"
+				},
+				{
+					"58.2%",
+					"+3.3%"
+				},
+				{
+					"61.5%",
+					"+3.3%"
+				},
+				{
+					"64.8%",
+					"+3.3%"
+				},
+				{
+					"68.1%",
+					"+3.3%"
+				},
+				{
+					"71.4%",
+					"+3.6%"
+				},
+				{
+					"75.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[14160] = {
+		desc_get = "",
+		name = "Ingenious Tactician",
+		type = 2,
+		max_level = 10,
+		desc = "In battle, when this ship's HP is greater than 60.0%: increases FP by $1 and reduces Burn duration by 3s. Twice per battle, when this ship's HP falls below 50.0% as a result of taking DMG: restores 9.0% of its max HP over 8s. From the third battle of each sortie that this ship participates in: reduces the DMG your vanguard fleet takes by 8.0%.",
+		id = 14160,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[14170] = {
+		desc_get = "",
+		name = "Kirov, Reporting!",
+		type = 1,
+		max_level = 10,
+		desc = "Bombing bays ready! Every 15s, $1 chance to trigger a $2 special barrage (Barrage DMG is based on this skill's level).",
+		id = 14170,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"50.0%",
+				"100.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"50.0%",
+					"+5.0%"
+				},
+				{
+					"55.0%",
+					"+5.0%"
+				},
+				{
+					"60.0%",
+					"+5.0%"
+				},
+				{
+					"65.0%",
+					"+5.0%"
+				},
+				{
+					"70.0%",
+					"+5.0%"
+				},
+				{
+					"75.0%",
+					"+5.0%"
+				},
+				{
+					"80.0%",
+					"+5.0%"
+				},
+				{
+					"85.0%",
+					"+5.0%"
+				},
+				{
+					"90.0%",
+					"+10.0%"
+				},
+				{
+					"100%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[14180] = {
+		desc_get = "",
+		name = "Revolutionary Strike",
+		type = 3,
+		max_level = 10,
+		desc = "Increases the Eff. Range and Shell Range of this ship's main gun to 75, and increases the damage this ship deals to Light-Armored enemies by $1. During battle, if there are other Northern Parliament ships in the same fleet as this ship, increases the shelling DMG that all enemy light cruisers take from Northern Parliament ships by $2.",
+		id = 14180,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"20.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.6%"
+				},
+				{
+					"6.6%",
+					"+1.6%"
+				},
+				{
+					"8.2%",
+					"+1.8%"
+				},
+				{
+					"10.0%",
+					"+1.6%"
+				},
+				{
+					"11.6%",
+					"+1.6%"
+				},
+				{
+					"13.2%",
+					"+1.8%"
+				},
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.8%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
+	[14190] = {
+		desc_get = "",
+		name = "Bulwark of Rime",
+		type = 2,
+		max_level = 10,
+		desc = "Every 18s: deploys a shield directly in front of this ship that can block up to 8 shells, lasting for up to 8s. If this shield is broken during its duration: immediately triggers a $1 special barrage (Barrage DMG is based on this skill's level), and deploys another shield that can absorb up to 5.0% of this ship's max HP, lasting for up to 4s.",
+		id = 14190,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[14200] = {
+		desc_get = "",
+		name = "Memorial of Ice and Iron",
+		type = 3,
+		max_level = 10,
+		desc = "When this ship is equipped with a Northern Parliament or Iron Blood CA main gun: increases the DMG this ship deals by $1; When equipped with an AP main gun: increases the travel speed of this ship's main gun shells by 10.0%. After this ship sinks 2 enemies in battle: additionally increases this ship's FP and AA by $2 (this effect can activate only once per battle and lasts until the end of that battle).",
+		id = 14200,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
+	[14210] = {
+		desc_get = "",
+		name = "Thunderous Guardian",
+		type = 1,
+		max_level = 10,
+		desc = "For the first 30s of battle: increases this ship's Speed by 5 and FP by $1; after that, instead increases this ship's EVA by $2.",
+		id = 14210,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[14220] = {
+		desc_get = "",
+		name = "Silent Advance",
+		type = 2,
+		max_level = 10,
+		desc = "Every 20s: $1 chance to launch a wave of torpedoes (these torpedoes are identical to manually fired torpedoes) and dodge all incoming attacks for 3s.",
+		id = 14220,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"25.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			}
+		}
+	},
+	[14230] = {
+		desc_get = "",
+		name = "Capricious Firing",
+		type = 1,
+		max_level = 10,
+		desc = "For the first 45s of battle: increases this ship's FP and TRP by $1; When this ship is equipped with an HE main gun, increases the DMG this ship deals to BBs and BCs by $2.",
+		id = 14230,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[14240] = {
+		desc_get = "",
+		name = "Laid-Back Defending",
+		type = 2,
+		max_level = 10,
+		desc = "Reduces the AP DMG this ship takes by $1; Every 20s, $2 chance to fire a $3 special barrage (Barrage DMG is based on this skill's level).",
+		id = 14240,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"30.0%",
+				"60.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"30.0%",
+					"+3.3%"
+				},
+				{
+					"33.3%",
+					"+3.3%"
+				},
+				{
+					"36.6%",
+					"+3.3%"
+				},
+				{
+					"39.9%",
+					"+3.3%"
+				},
+				{
+					"43.2%",
+					"+3.3%"
+				},
+				{
+					"46.5%",
+					"+3.3%"
+				},
+				{
+					"49.8%",
+					"+3.3%"
+				},
+				{
+					"53.1%",
+					"+3.3%"
+				},
+				{
+					"56.4%",
+					"+3.6%"
+				},
+				{
+					"60.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[14250] = {
+		desc_get = "",
+		name = "Selfless Aid",
+		type = 2,
+		max_level = 10,
+		desc = "At the beginning of battle, if there are other ships afloat in the vanguard fleet, increases this ship's Crit Rate by $1. Once per battle, if another ship's HP falls below 20.0% as a result of damage: sacrifices 5.0% of this ship's HP to restore $2 HP to that ship; 5s afterward, this ship restores 8.0% Max HP.",
+		id = 14250,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"20.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.6%"
+				},
+				{
+					"6.6%",
+					"+1.6%"
+				},
+				{
+					"8.2%",
+					"+1.8%"
+				},
+				{
+					"10.0%",
+					"+1.6%"
+				},
+				{
+					"11.6%",
+					"+1.6%"
+				},
+				{
+					"13.2%",
+					"+1.8%"
+				},
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.8%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[14260] = {
+		desc_get = "",
+		name = "From Merkuria With Love! ",
+		type = 1,
+		max_level = 10,
+		desc = "At the beginning of battle, increases this ship's AA and ACC by $1. Every 15s: $2 chance to fire a $3 special barrage that slows the movement speed of enemies hit by 20.0% (Barrage DMG is based on this skill's level).",
+		id = 14260,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70%"
 				}
 			},
 			{
@@ -52115,6 +53344,34 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[26211] = {
+		desc_get = "",
+		name = "All Out Assault - Tallinn I",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault: Tallinn I  every 9 times the Main Guns are fired.",
+		id = 26211,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[26212] = {
+		desc_get = "",
+		name = "All Out Assault - Tallinn II",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault: Tallinn II every 6 times the Main Guns are fired.",
+		id = 26212,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[28011] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -54118,6 +55375,34 @@ pg.skill_data_template = {
 		max_level = 1,
 		desc = "Activates All Out Assault Ⅱ: U-37 immediately after entering the battle.",
 		id = 29672,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29681] = {
+		desc_get = "",
+		name = "EX Barrage - Kirov I",
+		type = 1,
+		max_level = 1,
+		desc = "Activates EX Barrage - Kirov I/II every 12 times the Main /Guns are fired.",
+		id = 29681,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29682] = {
+		desc_get = "",
+		name = "EX Barrage - Kirov II",
+		type = 1,
+		max_level = 1,
+		desc = "Activates EX Barrage - Kirov I/II every 8 times the Main /Guns are fired.",
+		id = 29682,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -59991,6 +61276,18 @@ pg.skill_data_template = {
 		14120,
 		14130,
 		14140,
+		14150,
+		14160,
+		14170,
+		14180,
+		14190,
+		14200,
+		14210,
+		14220,
+		14230,
+		14240,
+		14250,
+		14260,
 		18010,
 		18040,
 		18050,
@@ -60226,6 +61523,8 @@ pg.skill_data_template = {
 		26022,
 		26111,
 		26112,
+		26211,
+		26212,
 		28011,
 		28012,
 		28021,
@@ -60369,6 +61668,8 @@ pg.skill_data_template = {
 		29662,
 		29671,
 		29672,
+		29681,
+		29682,
 		101010,
 		101020,
 		101030,

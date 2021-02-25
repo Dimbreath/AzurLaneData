@@ -78,16 +78,15 @@ pg.ship_data_create_material = {
 		icon = "build_4",
 		exchange_ship_id = 0,
 		rate_tip = {
-			"<color=#ffde38>Super Rare</color>：7%",
-			"<color=#d797ff>Elite</color>：12%",
-			"<color=#3dc6ff>Rare</color>：51%",
-			"Common：30%",
-			"<color=#ffde38>Zara</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Pola</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Formidable</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Littorio</color>：0.5%",
-			"<color=#d797ff>Vincenzo Gioberti</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Giulio Cesare</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>Super Rare</color>: 7%",
+			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#3dc6ff>Rare</color>: 51%",
+			"Common: 30%",
+			"<color=#ffde38>Sovetskaya Belorussiya</color>: 2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Kirov</color>: 2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Tallinn</color>: 0.5%",
+			"<color=#d797ff>Gremyashchy</color>: 2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>Murmansk</color>: 2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

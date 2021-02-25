@@ -1913,7 +1913,7 @@ function slot0.GetAllPessingAward(slot0, slot1)
 		end
 	end
 
-	if not nowWorld:GetActiveMap().visionFlag and nowWorld:IsMapPressingAwardFlag(slot5.id) then
+	if not nowWorld:GetActiveMap().visionFlag and nowWorld:IsMapVisioned(slot5.id) then
 		slot5:UpdateVisionFlag(true)
 	end
 

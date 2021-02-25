@@ -327,11 +327,11 @@ function slot8(slot0, slot1)
 	if slot1.content and slot1.content ~= "" then
 		slot0.singleItemIntroTF.text = slot1.content
 	elseif slot1.drop.type == DROP_TYPE_RESOURCE then
-		setTextEN(slot2, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot2, HXSet.hxLan(slot1.drop.cfg.display))
 	elseif slot1.drop.type == DROP_TYPE_ITEM then
-		setTextEN(slot2, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot2, SwitchSpecialChar(HXSet.hxLan(slot1.drop.cfg.display), true))
 	elseif slot1.drop.type == DROP_TYPE_FURNITURE then
-		setTextEN(slot2, slot1.drop.cfg.describe)
+		setText(slot2, slot1.drop.cfg.describe)
 	elseif slot1.drop.type == DROP_TYPE_SHIP then
 		slot10, slot11, slot12 = ShipWordHelper.GetWordAndCV(uv2.ship_data_statistics[slot1.drop.id].skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
 
@@ -501,7 +501,7 @@ function slot9(slot0, slot1)
 
 			slot10.text = string.format("<icon name=%s w=0.7 h=0.7/>%s", slot11, slot7.info or "")
 		else
-			setText(slot8, slot7.info or "")
+			setText(slot8, slot7.info and SwitchSpecialChar(slot7.info, true) or "")
 		end
 
 		setActive(slot10.gameObject, slot7.rawIcon)

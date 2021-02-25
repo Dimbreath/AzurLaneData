@@ -5,6 +5,7 @@ slot1 = {
 	main = 2
 }
 slot0.TabIndex = {
+	Adjustment = 4,
 	Commander = 2,
 	Formation = 1,
 	Duty = 3
@@ -38,17 +39,28 @@ function slot0.Show(slot0)
 
 	setActive(slot0._tf, true)
 
-	slot0.contextData.tabIndex = slot0.contextData.tabIndex or uv0.TabIndex.Formation
+	if not isActive(({
+		slot0.formationToggle,
+		slot0.commanderToggle,
+		slot0.dutyToggle,
+		slot0.adjustmentToggle
+	})[slot0.contextData.tabIndex or uv0.TabIndex.Formation]) then
+		slot4 = slot3[uv0.TabIndex.Formation]
+	end
 
-	triggerToggle(slot0.formationToggle, slot0.contextData.tabIndex == uv0.TabIndex.Formation)
-	triggerToggle(slot0.commanderToggle, slot0.contextData.tabIndex == uv0.TabIndex.Commander)
-	triggerToggle(slot0.dutyToggle, slot0.contextData.tabIndex == uv0.TabIndex.Duty)
+	for slot8, slot9 in ipairs(slot3) do
+		if isActive(slot9) then
+			triggerToggle(slot9, slot9 == slot4)
+		end
+	end
+
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 function slot0.Hide(slot0)
 	setActive(slot0.btnSp, false)
 	setActive(slot0._tf, false)
+	warning("CLEAR")
 
 	slot0.spItemID = nil
 
@@ -198,6 +210,7 @@ function slot0.InitUI(slot0)
 	slot0.formationToggle = slot0:findTF("panel/RightTabs/formation_btn")
 	slot0.commanderToggle = slot0:findTF("panel/RightTabs/commander_btn")
 	slot0.dutyToggle = slot0:findTF("panel/RightTabs/duty_btn")
+	slot0.adjustmentToggle = slot0:findTF("panel/RightTabs/adjustment_btn")
 	slot0.toggleMask = slot0:findTF("mask")
 	slot0.toggleList = slot0:findTF("mask/list")
 	slot0.toggles = {}
@@ -237,10 +250,11 @@ function slot0.InitUI(slot0)
 	setText(slot0:findTF("panel/title/SonarRange/desc"), i18n("fleet_antisub_range"))
 	setText(slot0:findTF("panel/RightTabs/formation_btn/text"), i18n("autofight_formation"))
 	setText(slot0:findTF("panel/RightTabs/commander_btn/text"), i18n("autofight_cat"))
+	setText(slot0:findTF("panel/RightTabs/duty_btn/text"), i18n("autofight_function"))
 
-	slot4 = "autofight_function"
+	slot4 = "word_adjustFleet"
 
-	setText(slot0:findTF("panel/RightTabs/duty_btn/text"), i18n(slot4))
+	setText(slot0.adjustmentToggle:Find("text"), i18n(slot4))
 
 	for slot4 = 1, 2 do
 		for slot8 = 1, 4 do
@@ -357,9 +371,10 @@ function slot0.set(slot0, slot1, slot2, slot3)
 
 			uv0:updateFleets()
 		end
-	end, SFX_UI_TAG)
+	end, SFX_PANEL)
 	setActive(slot0.commanderToggle, slot0.openedCommanerSystem)
 	setActive(slot0.dutyToggle, slot0.dutyTabEnabled)
+	setActive(slot0.adjustmentToggle, false)
 	slot0:clearFleets()
 	slot0:updateFleets()
 	slot0:updateLimit()
@@ -479,7 +494,7 @@ function slot0.UpdateFleetBar(slot0, slot1, slot2)
 	setActive(slot0:findTF("btn_select", slot5), slot3 and slot0.contextData.tabIndex == uv0.TabIndex.Formation)
 	setActive(slot0:findTF("btn_clear", slot5), slot3 and slot0.contextData.tabIndex == uv0.TabIndex.Formation)
 	setActive(slot0:findTF("commander", slot5), slot3 and slot11 and slot0.contextData.tabIndex == uv0.TabIndex.Commander)
-	setActive(slot0:findTF("blank", slot5), not slot3 or slot0.contextData.tabIndex == uv0.TabIndex.Commander and not slot11 or slot0.contextData.tabIndex == uv0.TabIndex.Duty)
+	setActive(slot0:findTF("blank", slot5), not slot3 or slot0.contextData.tabIndex == uv0.TabIndex.Commander and not slot11 or slot0.contextData.tabIndex == uv0.TabIndex.Duty or slot0.contextData.tabIndex == uv0.TabIndex.Adjustment)
 end
 
 function slot0.updateFleet(slot0, slot1, slot2)
@@ -495,6 +510,7 @@ function slot0.updateFleet(slot0, slot1, slot2)
 
 	setActive(slot0:findTF("btn_recom", slot7), false)
 	setActive(slot0:findTF("selected", slot7), false)
+	setActive(slot7:Find("adjustment_flag"), slot0.contextData.tabIndex == uv0.TabIndex.Adjustment)
 	setText(findTF(slot7, "bg/name"), "")
 
 	if slot0:findTF(TeamType.Main, slot7) then
@@ -712,15 +728,16 @@ function slot0.clearFleet(slot0, slot1)
 end
 
 function slot0.clear(slot0)
-	triggerToggle(slot0.formationToggle, true)
-
-	slot0.contextData.tabIndex = uv0.TabIndex.Formation
+	slot0.contextData.tabIndex = nil
 	slot0.duties = nil
 end
 
 function slot0.onCancelHard(slot0, slot1)
-	slot0:clear()
-	slot0:emit(LevelUIConst.HIDE_FLEET_EDIT, slot1)
+	if slot1 then
+		slot0:emit(LevelMediator2.ON_UPDATE_CUSTOM_FLEET, slot0.chapter)
+	end
+
+	slot0:emit(LevelUIConst.HIDE_FLEET_EDIT)
 end
 
 function slot0.setHardShipVOs(slot0, slot1)
@@ -803,6 +820,7 @@ function slot0.setOnHard(slot0, slot1)
 				uv2 = uv1.chapter:isLoop() and uv1:GetOrderedDuties() or nil
 				uv3 = uv1.chapter
 
+				uv1:clear()
 				uv1:onCancelHard()
 				uv1:emit(LevelUIConst.TRACK_CHAPTER, uv3, slot0)
 				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_BATTLE)
@@ -819,10 +837,12 @@ function slot0.setOnHard(slot0, slot1)
 		})
 	end, SFX_UI_CLICK)
 	onButton(slot0, slot0.btnBack, function ()
-		uv0:onCancelHard(uv0.chapter)
+		uv0:clear()
+		uv0:onCancelHard(true)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0._tf:Find("bg"), function ()
-		uv0:onCancelHard(uv0.chapter)
+		uv0:clear()
+		uv0:onCancelHard(true)
 	end, SFX_CANCEL)
 	onToggle(slot0, slot0.commanderToggle, function (slot0)
 		if slot0 then
@@ -845,8 +865,16 @@ function slot0.setOnHard(slot0, slot1)
 			uv0:flush()
 		end
 	end, SFX_UI_TAG)
+	onToggle(slot0, slot0.adjustmentToggle, function (slot0)
+		if slot0 then
+			uv0.contextData.tabIndex = uv1.TabIndex.Adjustment
+
+			uv0:flush()
+		end
+	end, SFX_PANEL)
 	setActive(slot0.commanderToggle, slot0.openedCommanerSystem)
 	setActive(slot0.dutyToggle, slot0.dutyTabEnabled)
+	setActive(slot0.adjustmentToggle, true)
 	slot0:flush()
 end
 
@@ -941,7 +969,9 @@ function slot0.initAddButton(slot0, slot1, slot2, slot3, slot4)
 		end
 	end
 
-	removeAllChildren(findTF(slot1, slot2))
+	slot8 = findTF(slot1, slot2)
+
+	removeAllChildren(slot8)
 
 	slot9 = 0
 	slot10 = false
@@ -957,27 +987,31 @@ function slot0.initAddButton(slot0, slot1, slot2, slot3, slot4)
 		end
 	end)
 
-	for slot15 = 1, 3 do
-		slot16, slot17, slot18 = nil
+	slot8:GetComponent("ContentSizeFitter").enabled = true
+	slot8:GetComponent("HorizontalLayoutGroup").enabled = true
+	slot0.isDraging = false
 
-		if slot7[slot15] and slot0.shipVOs[slot7[slot15]] or nil then
-			for slot23, slot24 in ipairs(slot3) do
-				if type(slot24) == "number" then
-					if slot24 == 0 or slot19:getShipType() == slot24 then
-						slot17 = slot19
-						slot18 = slot24
+	for slot17 = 1, 3 do
+		slot18, slot19, slot20 = nil
 
-						table.remove(slot3, slot23)
+		if slot7[slot17] and slot0.shipVOs[slot7[slot17]] or nil then
+			for slot25, slot26 in ipairs(slot3) do
+				if type(slot26) == "number" then
+					if slot26 == 0 or slot21:getShipType() == slot26 then
+						slot19 = slot21
+						slot20 = slot26
 
-						slot10 = slot10 or slot19:getShipType() == slot24
+						table.remove(slot3, slot25)
+
+						slot10 = slot10 or slot21:getShipType() == slot26
 
 						break
 					end
-				elseif type(slot24) == "string" and table.contains(ShipType.BundleList[slot24], slot19:getShipType()) then
-					slot17 = slot19
-					slot18 = slot24
+				elseif type(slot26) == "string" and table.contains(ShipType.BundleList[slot26], slot21:getShipType()) then
+					slot19 = slot21
+					slot20 = slot26
 
-					table.remove(slot3, slot23)
+					table.remove(slot3, slot25)
 
 					slot10 = true
 
@@ -985,38 +1019,36 @@ function slot0.initAddButton(slot0, slot1, slot2, slot3, slot4)
 				end
 			end
 		else
-			slot18 = slot3[1]
+			slot20 = slot3[1]
 
 			table.remove(slot3, 1)
 		end
 
-		if slot18 == 0 then
+		if slot20 == 0 then
 			slot11 = slot11 + 1
 		end
 
-		setActive(slot17 and cloneTplTo(slot0.tfShipTpl, slot8) or cloneTplTo(slot0.tfEmptyTpl, slot8), true)
+		setActive(slot19 and cloneTplTo(slot0.tfShipTpl, slot8) or cloneTplTo(slot0.tfEmptyTpl, slot8), true)
 
-		if slot17 then
-			updateShip(slot20, slot17)
-			setActive(slot0:findTF("event_block", slot20), slot17:getFlag("inEvent"))
+		if slot19 then
+			updateShip(slot22, slot19)
+			setActive(slot0:findTF("event_block", slot22), slot19:getFlag("inEvent"))
 
-			slot6[slot17] = true
+			slot6[slot19] = true
 		else
 			slot9 = slot9 + 1
 		end
 
-		slot16 = findTF(slot20, "icon_bg")
+		setActive(slot0:findTF("ship_type", slot22), true)
 
-		setActive(slot0:findTF("ship_type", slot20), true)
-
-		if type(slot18) == "number" then
-			if slot18 ~= 0 then
-				setImageSprite(slot0:findTF("ship_type", slot20), GetSpriteFromAtlas("shiptype", ShipType.Type2CNLabel(slot18)), true)
+		if type(slot20) == "number" then
+			if slot20 ~= 0 then
+				setImageSprite(slot0:findTF("ship_type", slot22), GetSpriteFromAtlas("shiptype", ShipType.Type2CNLabel(slot20)), true)
 			else
-				setActive(slot0:findTF("ship_type", slot20), false)
+				setActive(slot0:findTF("ship_type", slot22), false)
 			end
-		elseif type(slot18) == "string" then
-			setImageSprite(slot0:findTF("ship_type", slot20), GetSpriteFromAtlas("shiptype", ShipType.BundleType2CNLabel(slot18)), true)
+		elseif type(slot20) == "string" then
+			setImageSprite(slot0:findTF("ship_type", slot22), GetSpriteFromAtlas("shiptype", ShipType.BundleType2CNLabel(slot20)), true)
 		end
 
 		table.sort(_.map(slot5, function (slot0)
@@ -1024,38 +1056,155 @@ function slot0.initAddButton(slot0, slot1, slot2, slot3, slot4)
 		end), function (slot0, slot1)
 			return uv0[slot0:getTeamType()] < uv0[slot1:getTeamType()] or uv0[slot0:getTeamType()] == uv0[slot1:getTeamType()] and table.indexof(uv1, slot0.id) < table.indexof(uv1, slot1.id)
 		end)
+		GetOrAddComponent(slot22, typeof(UILongPressTrigger)).onLongPressed:RemoveAllListeners()
 
-		slot22 = GetOrAddComponent(slot16, typeof(UILongPressTrigger))
-
-		function slot23()
-			uv0:onCancelHard()
-			uv0:emit(LevelMediator2.ON_ELITE_OEPN_DECK, {
-				shipType = uv1,
-				fleet = uv2,
-				chapter = uv0.chapter,
-				shipVO = uv3,
-				fleetIndex = uv4,
-				teamType = uv5
-			})
+		if slot19 and slot0.contextData.tabIndex ~= uv1.TabIndex.Adjustment then
+			slot24.onLongPressed:AddListener(function ()
+				uv0:onCancelHard()
+				uv0:emit(LevelMediator2.ON_FLEET_SHIPINFO, {
+					shipId = uv1.id,
+					shipVOs = uv2,
+					chapter = uv0.chapter
+				})
+			end)
 		end
 
-		slot22.onReleased:RemoveAllListeners()
-		slot22.onLongPressed:RemoveAllListeners()
-		slot22.onReleased:AddListener(function ()
-			uv0()
-		end)
-		slot22.onLongPressed:AddListener(function ()
-			if not uv0 then
-				uv1()
-			else
-				uv2:onCancelHard()
-				uv2:emit(LevelMediator2.ON_FLEET_SHIPINFO, {
-					shipId = uv0.id,
-					shipVOs = uv3,
-					chapter = uv2.chapter
-				})
+		slot25 = GetOrAddComponent(slot22, "EventTriggerListener")
+
+		slot25:RemovePointClickFunc()
+		slot25:AddPointClickFunc(function (slot0, slot1)
+			if slot0 ~= uv0.gameObject then
+				return
 			end
+
+			if uv1.isDraging then
+				return
+			end
+
+			uv1:onCancelHard()
+			uv1:emit(LevelMediator2.ON_ELITE_OEPN_DECK, {
+				shipType = uv2,
+				fleet = uv3,
+				chapter = uv1.chapter,
+				shipVO = uv4,
+				fleetIndex = uv5,
+				teamType = uv6
+			})
 		end)
+		slot25:RemoveBeginDragFunc()
+		slot25:RemoveDragFunc()
+		slot25:RemoveDragEndFunc()
+
+		if slot19 and slot0.contextData.tabIndex == uv1.TabIndex.Adjustment then
+			slot26 = slot22.rect.width * 0.5
+			slot27 = {}
+			slot28 = {}
+
+			slot25:AddBeginDragFunc(function (slot0, slot1)
+				if slot0 ~= uv0.gameObject then
+					return
+				end
+
+				if uv1.isDraging then
+					return
+				end
+
+				uv1.isDraging = true
+				uv2.enabled = false
+				uv3.enabled = false
+
+				for slot5 = 1, 3 do
+					if uv0 == uv4:GetChild(slot5 - 1) then
+						uv1.dragIndex = slot5
+					end
+
+					uv5[slot5] = slot6.anchoredPosition
+					uv6[slot5] = slot6
+				end
+			end)
+			slot25:AddDragFunc(function (slot0, slot1)
+				if slot0 ~= uv0.gameObject then
+					return
+				end
+
+				if not uv1.isDraging then
+					return
+				end
+
+				slot2 = uv0.localPosition
+				slot2.x = uv1:change2ScrPos(uv0.parent, slot1.position).x
+				slot2.x = math.clamp(slot2.x, uv2[1].x, uv2[3].x)
+				uv0.localPosition = slot2
+				slot3 = 1
+
+				for slot7 = 1, 3 do
+					if uv0 ~= uv3[slot7] and uv0.localPosition.x > uv3[slot7].localPosition.x + (slot3 < uv1.dragIndex and 1.1 or -1.1) * uv4 then
+						slot3 = slot3 + 1
+					end
+				end
+
+				if uv1.dragIndex ~= slot3 then
+					slot4 = slot3 < uv1.dragIndex and -1 or 1
+
+					while uv1.dragIndex ~= slot3 do
+						slot5 = uv1.dragIndex
+						slot6 = uv1.dragIndex + slot4
+						uv5[slot6] = uv5[slot5]
+						uv5[slot5] = uv5[slot6]
+						uv3[slot6] = uv3[slot5]
+						uv3[slot5] = uv3[slot6]
+						uv1.dragIndex = uv1.dragIndex + slot4
+					end
+
+					for slot8 = 1, 3 do
+						if uv0 ~= uv3[slot8] then
+							uv3[slot8].anchoredPosition = uv2[slot8]
+						end
+					end
+				end
+			end)
+			slot25:AddDragEndFunc(function (slot0, slot1)
+				if slot0 ~= uv0.gameObject then
+					return
+				end
+
+				if not uv1.isDraging then
+					return
+				end
+
+				uv1.isDraging = false
+
+				for slot5 = 1, 3 do
+					if not uv2[slot5] then
+						for slot9 = slot5 + 1, 3 do
+							if uv2[slot9] then
+								uv2[slot9] = uv2[slot5]
+								uv2[slot5] = uv2[slot9]
+								uv3[slot9] = uv3[slot5]
+								uv3[slot5] = uv3[slot9]
+							end
+						end
+					end
+
+					if uv2[slot5] then
+						table.removebyvalue(uv4, uv2[slot5])
+						table.insert(uv4, uv2[slot5])
+					else
+						break
+					end
+				end
+
+				for slot5 = 1, 3 do
+					uv3[slot5]:SetSiblingIndex(slot5 - 1)
+				end
+
+				uv5.enabled = true
+				uv6.enabled = true
+				uv1.dragIndex = nil
+
+				uv1:emit(LevelMediator2.ON_ELITE_ADJUSTMENT, uv1.chapter)
+			end)
+		end
 	end
 
 	if (slot10 == true or slot11 == 3) and slot9 ~= 3 then
@@ -1065,33 +1214,39 @@ function slot0.initAddButton(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
+function slot0.change2ScrPos(slot0, slot1, slot2)
+	return LuaHelper.ScreenToLocal(slot1, slot2, pg.UIMgr.GetInstance().overlayCameraComp)
+end
+
 function slot0.updateEliteFleets(slot0)
 	slot1 = slot0.contextData.tabIndex == uv0.TabIndex.Formation
+	slot4 = slot0.contextData.tabIndex == uv0.TabIndex.Adjustment
 
-	for slot7, slot8 in ipairs(slot0.tfFleets[FleetType.Normal]) do
-		setActive(slot0:findTF("btn_select", slot8), false)
-		setActive(findTF(slot8, "selected"), false)
+	for slot8, slot9 in ipairs(slot0.tfFleets[FleetType.Normal]) do
+		setActive(slot0:findTF("btn_select", slot9), false)
+		setActive(findTF(slot9, "selected"), false)
 
-		slot14 = slot7 <= slot0.chapter:getConfig("group_num")
+		slot16 = slot8 <= slot0.chapter:getConfig("group_num")
 
-		setActive(findTF(slot8, TeamType.Main), slot14)
-		setActive(findTF(slot8, TeamType.Vanguard), slot14)
-		setActive(slot0:findTF("btn_clear", slot8), slot14 and slot1)
-		setActive(slot0:findTF("btn_recom", slot8), slot14 and slot1)
-		setActive(slot0:findTF("blank", slot8), not slot14 or slot0.contextData.tabIndex == uv0.TabIndex.Duty)
-		setActive(slot0:findTF("commander", slot8), slot14 and slot0.contextData.tabIndex == uv0.TabIndex.Commander)
-		setText(slot0:findTF("bg/name", slot8), slot14 and Fleet.DEFAULT_NAME[slot7] or "")
+		setActive(findTF(slot9, TeamType.Main), slot16)
+		setActive(findTF(slot9, TeamType.Vanguard), slot16)
+		setActive(slot0:findTF("btn_clear", slot9), slot16 and slot1)
+		setActive(slot0:findTF("btn_recom", slot9), slot16 and slot1)
+		setActive(slot0:findTF("blank", slot9), not slot16 or slot0.contextData.tabIndex == uv0.TabIndex.Duty or slot4)
+		setActive(slot0:findTF("commander", slot9), slot16 and slot0.contextData.tabIndex == uv0.TabIndex.Commander)
+		setActive(slot9:Find("adjustment_flag"), slot16 and slot4)
+		setText(slot0:findTF("bg/name", slot9), slot16 and Fleet.DEFAULT_NAME[slot8] or "")
 
-		if slot14 then
-			slot15 = slot0.typeLimitations[slot7]
+		if slot16 then
+			slot17 = slot0.typeLimitations[slot8]
 
-			slot0:initCommander(slot7, slot13, slot0.chapter)
+			slot0:initCommander(slot8, slot14, slot0.chapter)
 
-			if slot0:initAddButton(slot8, TeamType.Main, slot15[1], slot7) and slot0:initAddButton(slot8, TeamType.Vanguard, slot15[2], slot7) then
-				setActive(slot0:findTF("selected", slot8), true)
+			if slot0:initAddButton(slot9, TeamType.Main, slot17[1], slot8) and slot0:initAddButton(slot9, TeamType.Vanguard, slot17[2], slot8) then
+				setActive(slot0:findTF("selected", slot9), true)
 			end
 
-			onButton(slot0, slot9, function ()
+			onButton(slot0, slot10, function ()
 				if #uv0.eliteFleetList[uv1] ~= 0 then
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						content = i18n("battle_preCombatLayer_clear_confirm"),
@@ -1104,7 +1259,7 @@ function slot0.updateEliteFleets(slot0)
 					})
 				end
 			end)
-			onButton(slot0, slot10, function ()
+			onButton(slot0, slot11, function ()
 				if #uv0.eliteFleetList[uv1] ~= 6 then
 					if slot0 ~= 0 then
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -1127,32 +1282,33 @@ function slot0.updateEliteFleets(slot0)
 		end
 	end
 
-	for slot7, slot8 in ipairs(slot0.tfFleets[FleetType.Submarine]) do
-		slot14 = slot0:findTF("commander", slot8)
+	for slot8, slot9 in ipairs(slot0.tfFleets[FleetType.Submarine]) do
+		slot15 = slot0:findTF("commander", slot9)
 
-		setActive(slot0:findTF("btn_select", slot8), false)
-		setActive(findTF(slot8, "selected"), false)
-		setActive(findTF(slot8, TeamType.Submarine), slot7 <= slot0.chapter:getConfig("submarine_num"))
+		setActive(slot0:findTF("btn_select", slot9), false)
+		setActive(findTF(slot9, "selected"), false)
+		setActive(findTF(slot9, TeamType.Submarine), slot8 <= slot0.chapter:getConfig("submarine_num"))
 
-		slot15 = slot7 <= slot0.chapter:getConfig("submarine_num")
+		slot17 = slot8 <= slot0.chapter:getConfig("submarine_num")
 
-		setActive(slot0:findTF("btn_clear", slot8), slot15 and slot1)
-		setActive(slot0:findTF("btn_recom", slot8), slot15 and slot1)
-		setActive(slot0:findTF("blank", slot8), not slot15 or slot3)
-		setActive(slot14, slot15 and slot2)
-		setText(slot0:findTF("bg/name", slot8), slot7 <= slot0.chapter:getConfig("submarine_num") and Fleet.DEFAULT_NAME[Fleet.SUBMARINE_FLEET_ID + slot7 - 1] or "")
-		slot0:initCommander(slot7 + 2, slot14, slot0.chapter)
+		setActive(slot0:findTF("btn_clear", slot9), slot17 and slot1)
+		setActive(slot0:findTF("btn_recom", slot9), slot17 and slot1)
+		setActive(slot0:findTF("blank", slot9), not slot17 or slot3 or slot4)
+		setActive(slot15, slot17 and slot2)
+		setActive(slot9:Find("adjustment_flag"), slot17 and slot4)
+		setText(slot0:findTF("bg/name", slot9), slot8 <= slot0.chapter:getConfig("submarine_num") and Fleet.DEFAULT_NAME[Fleet.SUBMARINE_FLEET_ID + slot8 - 1] or "")
+		slot0:initCommander(slot8 + 2, slot15, slot0.chapter)
 
-		if slot7 <= slot0.chapter:getConfig("submarine_num") then
-			if slot0:initAddButton(slot8, TeamType.Submarine, {
+		if slot8 <= slot0.chapter:getConfig("submarine_num") then
+			if slot0:initAddButton(slot9, TeamType.Submarine, {
 				0,
 				0,
 				0
-			}, slot9) then
-				setActive(slot0:findTF("selected", slot8), true)
+			}, slot10) then
+				setActive(slot0:findTF("selected", slot9), true)
 			end
 
-			onButton(slot0, slot10, function ()
+			onButton(slot0, slot11, function ()
 				if #uv0.eliteFleetList[uv1] ~= 0 then
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						content = i18n("battle_preCombatLayer_clear_confirm"),
@@ -1165,7 +1321,7 @@ function slot0.updateEliteFleets(slot0)
 					})
 				end
 			end)
-			onButton(slot0, slot11, function ()
+			onButton(slot0, slot12, function ()
 				if #uv0.eliteFleetList[uv1] ~= 3 then
 					if slot0 ~= 0 then
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -1222,74 +1378,113 @@ function slot0.updateSpecialOperationTickets(slot0, slot1)
 	slot0.spOPTicketItems = slot1 or {}
 end
 
+function slot0.getLegalSPBuffList(slot0)
+	slot1 = {}
+
+	for slot6, slot7 in pairs(pg.benefit_buff_template) do
+		if slot7.benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC and table.contains(slot0.chapter:getConfig("special_operation_list"), slot7.id) then
+			for slot11, slot12 in ipairs(slot0.spOPTicketItems) do
+				if Chapter.GetSPBuffByItem(slot12.configId) == slot7.id then
+					table.insert(slot1, slot7)
+
+					break
+				end
+			end
+		end
+	end
+
+	return slot1
+end
+
 function slot0.initSPOPView(slot0)
 	slot0.spPanel = slot0.btnSp:Find("sp_panel")
 	slot0.spItem = slot0.btnSp:Find("item")
 	slot0.spDesc = slot0.btnSp:Find("desc")
+	slot0.spCheckBox = slot0.btnSp:Find("checkbox")
+	slot0.spCheckMark = slot0.spCheckBox:Find("mark")
 	slot0.spTpl = slot0.spPanel:Find("sp_tpl")
-	slot0.spItemEmpty = slot0.spPanel:Find("empty_tpl")
 	slot0.spContainer = slot0.spPanel:Find("sp_container")
+	slot0.spItemEmptyBlock = slot0.btnSp:Find("empty_block")
 
+	setText(slot0.spItemEmptyBlock, i18n("levelScene_select_noitem"))
 	removeAllChildren(slot0.spContainer)
 
-	for slot5, slot6 in pairs(pg.benefit_buff_template) do
-		if slot6.benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC then
-			table.insert({}, slot6)
-		end
-	end
+	slot3 = PlayerPrefs.GetInt(Chapter.GetSPOperationItemCacheKey(slot0.chapter.id), 0)
 
-	if #slot0.spOPTicketItems == 0 then
-		slot2 = cloneTplTo(slot0.spItemEmpty, slot0.spContainer)
-	else
-		for slot5, slot6 in ipairs(slot1) do
-			slot7 = cloneTplTo(slot0.spTpl, slot0.spContainer)
+	slot0:setSPBtnFormByBuffCount()
 
-			setText(slot7:Find("desc"), slot6.desc)
-			slot0:setTicketInfo(slot7, slot6.benefit_condition)
+	if #slot0:getLegalSPBuffList() == 0 then
+		slot0:clearSPBuff()
+	elseif #slot1 == 1 then
+		slot5 = pg.benefit_buff_template[slot1[1].id]
 
-			if table.contains(slot0.chapter:getConfig("special_operation_list"), slot6.id) then
-				setActive(slot7:Find("block"), false)
-				onButton(slot0, slot7, function ()
-					uv0:setSPBuffSelected(uv1.id)
-					setActive(uv0.spPanel, false)
-				end)
+		slot0:setTicketInfo(slot0.btnSp, slot5.benefit_condition)
+		setText(slot0.spDesc, slot5.desc)
+		onButton(slot0, slot0.btnSp:Find("item"), function ()
+			uv0:emit(BaseUI.ON_ITEM, tonumber(uv1.benefit_condition))
+		end)
+		onButton(slot0, slot0.btnSp, function ()
+			if uv0.spCheckMark.gameObject.activeSelf then
+				PlayerPrefs.SetInt(uv1, 0)
+				uv0:clearSPBuff()
 			else
-				setActive(slot7:Find("block"), true)
+				uv0.spItemID = tonumber(uv2.benefit_condition)
+
+				PlayerPrefs.SetInt(uv1, uv0.spItemID)
+				pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_select_sp"))
+				setActive(uv0.spCheckMark, true)
 			end
+		end)
+		setActive(slot0.spCheckMark, slot4 ~= (Chapter.GetSPBuffByItem(slot3) or 0))
+		triggerButton(slot0.btnSp)
+	elseif #slot1 > 1 then
+		slot7 = "levelScene_select_SP_OP"
+
+		setText(slot0.spDesc, i18n(slot7))
+
+		for slot7, slot8 in ipairs(slot1) do
+			slot9 = cloneTplTo(slot0.spTpl, slot0.spContainer)
+
+			setText(slot9:Find("desc"), slot8.desc)
+			slot0:setTicketInfo(slot9, slot8.benefit_condition)
+			setActive(slot9:Find("block"), false)
+			onButton(slot0, slot9, function ()
+				uv0:setSPBuffSelected(uv1.id)
+				setActive(uv0.spPanel, false)
+			end)
 		end
-	end
 
-	setText(slot0.spDesc, i18n("levelScene_select_SP_OP"))
-	onButton(slot0, slot0.btnSp, function ()
-		if uv0.spPanel.gameObject.activeSelf then
-			uv0:clearSPBuff()
-			PlayerPrefs.SetInt(Chapter.GetSPOperationItemCacheKey(uv0.chapter.id), 0)
-			setActive(uv0.spPanel, false)
-		else
-			setActive(uv0.spPanel, true)
-			setActive(uv0.btnSp:Find("item"), false)
-			setText(uv0.spDesc, i18n("levelScene_unselect_SP_OP"))
-		end
-	end)
-
-	if PlayerPrefs.GetInt(Chapter.GetSPOperationItemCacheKey(slot0.chapter.id), 0) ~= 0 and #slot0.spOPTicketItems > 0 then
-		slot4 = nil
-
-		for slot8, slot9 in ipairs(slot0.spOPTicketItems) do
-			if slot3 == slot9.configId and slot9.count > 0 then
-				slot4 = true
-
-				break
+		onButton(slot0, slot0.btnSp, function ()
+			if uv0.spPanel.gameObject.activeSelf then
+				uv0:clearSPBuff()
+				PlayerPrefs.SetInt(Chapter.GetSPOperationItemCacheKey(uv0.chapter.id), 0)
+				setActive(uv0.spPanel, false)
+			else
+				setActive(uv0.spPanel, true)
+				setActive(uv0.btnSp:Find("item"), false)
+				setText(uv0.spDesc, i18n("levelScene_unselect_SP_OP"))
 			end
-		end
+		end)
 
-		if slot4 then
-			slot0:setSPBuffSelected(Chapter.GetSPBuffByItem(slot3))
+		if slot3 ~= 0 then
+			slot4 = nil
+
+			for slot8, slot9 in ipairs(slot1) do
+				if slot9.id == Chapter.GetSPBuffByItem(slot3) then
+					slot4 = true
+
+					break
+				end
+			end
+
+			if slot4 then
+				slot0:setSPBuffSelected(Chapter.GetSPBuffByItem(slot3))
+			else
+				slot0:clearSPBuff()
+			end
 		else
 			slot0:clearSPBuff()
 		end
-	else
-		slot0:clearSPBuff()
 	end
 
 	setActive(slot0.spPanel, false)
@@ -1297,6 +1492,9 @@ end
 
 function slot0.setSPBuffSelected(slot0, slot1)
 	slot2 = pg.benefit_buff_template[slot1]
+
+	warning(slot1, tonumber(slot2.benefit_condition))
+
 	slot0.spItemID = tonumber(slot2.benefit_condition)
 
 	slot0:setTicketInfo(slot0.btnSp, slot0.spItemID)
@@ -1305,10 +1503,40 @@ function slot0.setSPBuffSelected(slot0, slot1)
 end
 
 function slot0.clearSPBuff(slot0)
+	warning("CLEAR")
+
 	slot0.spItemID = nil
 
-	setActive(slot0.btnSp:Find("item"), false)
-	setText(slot0.spDesc, i18n("levelScene_select_SP_OP"))
+	slot0:setSPBtnFormByBuffCount()
+
+	if #slot0:getLegalSPBuffList() == 0 then
+		setActive(slot0.btnSp:Find("item"), false)
+	elseif #slot1 == 1 then
+		setActive(slot0.btnSp:Find("item"), true)
+		setActive(slot0.spCheckMark, false)
+	elseif #slot1 > 1 then
+		setActive(slot0.btnSp:Find("item"), false)
+		setText(slot0.spDesc, i18n("levelScene_select_SP_OP"))
+	end
+end
+
+function slot0.setSPBtnFormByBuffCount(slot0)
+	if #slot0:getLegalSPBuffList() == 0 then
+		setActive(slot0.spItemEmptyBlock, true)
+		setActive(slot0.spDesc, false)
+		setActive(slot0.spCheckBox, false)
+		setActive(slot0.btnSp:Find("add"), false)
+	elseif #slot1 == 1 then
+		setActive(slot0.spItemEmptyBlock, false)
+		setActive(slot0.spDesc, true)
+		setActive(slot0.spCheckBox, true)
+		setActive(slot0.btnSp:Find("add"), false)
+	elseif #slot1 > 1 then
+		setActive(slot0.spItemEmptyBlock, false)
+		setActive(slot0.spDesc, true)
+		setActive(slot0.spCheckBox, false)
+		setActive(slot0.btnSp:Find("add"), true)
+	end
 end
 
 function slot0.setTicketInfo(slot0, slot1, slot2)

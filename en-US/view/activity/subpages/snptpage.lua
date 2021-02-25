@@ -6,8 +6,10 @@ function slot0.OnFirstFlush(slot0)
 	slot0.gameBtn = slot0:findTF("game_btn", slot0.bg)
 
 	onButton(slot0, slot0.gameBtn, function ()
-		if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot0:isEnd() then
-			if getProxy(MiniGameProxy):GetHubByHubId(slot0:getConfig("config_id")) and slot2.id == 7 then
+		if _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_MINIGAME), function (slot0)
+			return slot0:getConfig("config_id") == pg.mini_game[11].hub_id
+		end) and not slot1:isEnd() then
+			if getProxy(MiniGameProxy):GetHubByHubId(slot1:getConfig("config_id")) and slot3.id == 7 then
 				pg.m02:sendNotification(GAME.REQUEST_MINI_GAME, {
 					type = MiniGameRequestCommand.REQUEST_HUB_DATA,
 					callback = function ()

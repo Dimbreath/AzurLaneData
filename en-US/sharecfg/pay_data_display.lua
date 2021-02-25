@@ -3689,6 +3689,105 @@ pg.pay_data_display = {
 		},
 		ignorePlatform = {}
 	},
+	[131] = {
+		limit_arg = 1,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		name = "Dawn's Rime Lucky Pack",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Dawn's Rime Lucky Pack",
+		extra_service = 3,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai69",
+		id_str = "com.yostaren.azurlane.diamond144 ",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 131,
+		airijp_id = "com.yostaren.azurlane.diamond144 ",
+		extra_service_item = {
+			{
+				2,
+				69968,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69968,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		ignorePlatform = {}
+	},
 	all = {
 		1,
 		2,
@@ -3733,6 +3832,7 @@ pg.pay_data_display = {
 		127,
 		128,
 		129,
-		130
+		130,
+		131
 	}
 }

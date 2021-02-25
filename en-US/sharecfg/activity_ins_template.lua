@@ -5498,6 +5498,84 @@ pg.activity_ins_template = {
 			1766
 		}
 	},
+	{
+		ship_group = 70504,
+		name = "Proj23.Bel",
+		sculpture = "suweiaibeilaluosi",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 202,
+		group_id = 202,
+		order = 13,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 70301,
+		name = "Tallinn",
+		sculpture = "talin",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 203,
+		group_id = 203,
+		order = 13,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 70206,
+		name = "Мурманск",
+		sculpture = "moermansike",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 204,
+		group_id = 204,
+		order = 13,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 70108,
+		name = "Громкий",
+		sculpture = "hongliang",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 205,
+		group_id = 205,
+		order = 13,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 70107,
+		name = "ремящий",
+		sculpture = "leiming",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 206,
+		group_id = 206,
+		order = 13,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 70204,
+		name = "Киров",
+		sculpture = "jiluofu",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 207,
+		group_id = 207,
+		order = 13,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -5699,6 +5777,12 @@ pg.activity_ins_template = {
 		198,
 		199,
 		200,
-		201
+		201,
+		202,
+		203,
+		204,
+		205,
+		206,
+		207
 	}
 }

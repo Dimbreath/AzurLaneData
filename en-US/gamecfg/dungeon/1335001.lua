@@ -48,6 +48,7 @@ return {
 							delay = 9,
 							prefab = "hanbingquyu",
 							life_time = 13,
+							behaviours = 10014,
 							coordinate = {
 								40,
 								0,
@@ -55,71 +56,13 @@ return {
 							},
 							cld_data = {
 								40
-							},
-							behaviours = {
-								{
-									reload_time = 1,
-									hp_rate = 0.01,
-									damage = 1,
-									type = 2
-								},
-								{
-									buff_id = 8660,
-									reload_time = 1,
-									type = 3
-								},
-								{
-									random_speed = 7,
-									type = 4,
-									route = {
-										{
-											-20,
-											0,
-											30,
-											3
-										},
-										{
-											-70,
-											0,
-											30,
-											5
-										},
-										{
-											-20,
-											0,
-											30,
-											5
-										},
-										{
-											-70,
-											0,
-											30,
-											5
-										},
-										{
-											-20,
-											0,
-											30,
-											5
-										},
-										{
-											-70,
-											0,
-											30,
-											5
-										}
-									},
-									random_duration = {
-										3,
-										5
-									}
-								}
 							}
 						},
 						{
 							delay = 9,
 							prefab = "hanbingquyu",
 							life_time = 13,
+							behaviours = 10015,
 							coordinate = {
 								-80,
 								0,
@@ -127,71 +70,13 @@ return {
 							},
 							cld_data = {
 								40
-							},
-							behaviours = {
-								{
-									reload_time = 1,
-									hp_rate = 0.01,
-									damage = 1,
-									type = 2
-								},
-								{
-									buff_id = 8660,
-									reload_time = 1,
-									type = 3
-								},
-								{
-									random_speed = 7,
-									type = 4,
-									route = {
-										{
-											-70,
-											0,
-											80,
-											3
-										},
-										{
-											-20,
-											0,
-											80,
-											5
-										},
-										{
-											-70,
-											0,
-											80,
-											5
-										},
-										{
-											-20,
-											0,
-											80,
-											5
-										},
-										{
-											-70,
-											0,
-											80,
-											5
-										},
-										{
-											-20,
-											0,
-											80,
-											5
-										}
-									},
-									random_duration = {
-										3,
-										5
-									}
-								}
 							}
 						},
 						{
 							delay = 57,
 							prefab = "hanbingquyu",
 							life_time = 13,
+							behaviours = 10014,
 							coordinate = {
 								40,
 								0,
@@ -199,71 +84,13 @@ return {
 							},
 							cld_data = {
 								40
-							},
-							behaviours = {
-								{
-									reload_time = 1,
-									hp_rate = 0.01,
-									damage = 1,
-									type = 2
-								},
-								{
-									buff_id = 8660,
-									reload_time = 1,
-									type = 3
-								},
-								{
-									random_speed = 7,
-									type = 4,
-									route = {
-										{
-											-20,
-											0,
-											30,
-											3
-										},
-										{
-											-70,
-											0,
-											30,
-											5
-										},
-										{
-											-20,
-											0,
-											30,
-											5
-										},
-										{
-											-70,
-											0,
-											30,
-											5
-										},
-										{
-											-20,
-											0,
-											30,
-											5
-										},
-										{
-											-70,
-											0,
-											30,
-											5
-										}
-									},
-									random_duration = {
-										3,
-										5
-									}
-								}
 							}
 						},
 						{
 							delay = 57,
 							prefab = "hanbingquyu",
 							life_time = 13,
+							behaviours = 10015,
 							coordinate = {
 								-80,
 								0,
@@ -271,71 +98,13 @@ return {
 							},
 							cld_data = {
 								40
-							},
-							behaviours = {
-								{
-									reload_time = 1,
-									hp_rate = 0.01,
-									damage = 1,
-									type = 2
-								},
-								{
-									buff_id = 8660,
-									reload_time = 1,
-									type = 3
-								},
-								{
-									random_speed = 7,
-									type = 4,
-									route = {
-										{
-											-70,
-											0,
-											80,
-											3
-										},
-										{
-											-20,
-											0,
-											80,
-											5
-										},
-										{
-											-70,
-											0,
-											80,
-											5
-										},
-										{
-											-20,
-											0,
-											80,
-											5
-										},
-										{
-											-70,
-											0,
-											80,
-											5
-										},
-										{
-											-20,
-											0,
-											80,
-											5
-										}
-									},
-									random_duration = {
-										3,
-										5
-									}
-								}
 							}
 						},
 						{
 							delay = 105,
 							prefab = "hanbingquyu",
 							life_time = 13,
+							behaviours = 10014,
 							coordinate = {
 								40,
 								0,
@@ -343,71 +112,13 @@ return {
 							},
 							cld_data = {
 								40
-							},
-							behaviours = {
-								{
-									reload_time = 1,
-									hp_rate = 0.01,
-									damage = 1,
-									type = 2
-								},
-								{
-									buff_id = 8660,
-									reload_time = 1,
-									type = 3
-								},
-								{
-									random_speed = 7,
-									type = 4,
-									route = {
-										{
-											-20,
-											0,
-											30,
-											3
-										},
-										{
-											-70,
-											0,
-											30,
-											5
-										},
-										{
-											-20,
-											0,
-											30,
-											5
-										},
-										{
-											-70,
-											0,
-											30,
-											5
-										},
-										{
-											-20,
-											0,
-											30,
-											5
-										},
-										{
-											-70,
-											0,
-											30,
-											5
-										}
-									},
-									random_duration = {
-										3,
-										5
-									}
-								}
 							}
 						},
 						{
 							delay = 105,
 							prefab = "hanbingquyu",
 							life_time = 13,
+							behaviours = 10015,
 							coordinate = {
 								-80,
 								0,
@@ -415,71 +126,13 @@ return {
 							},
 							cld_data = {
 								40
-							},
-							behaviours = {
-								{
-									reload_time = 1,
-									hp_rate = 0.01,
-									damage = 1,
-									type = 2
-								},
-								{
-									buff_id = 8660,
-									reload_time = 1,
-									type = 3
-								},
-								{
-									random_speed = 7,
-									type = 4,
-									route = {
-										{
-											-70,
-											0,
-											80,
-											3
-										},
-										{
-											-20,
-											0,
-											80,
-											5
-										},
-										{
-											-70,
-											0,
-											80,
-											5
-										},
-										{
-											-20,
-											0,
-											80,
-											5
-										},
-										{
-											-70,
-											0,
-											80,
-											5
-										},
-										{
-											-20,
-											0,
-											80,
-											5
-										}
-									},
-									random_duration = {
-										3,
-										5
-									}
-								}
 							}
 						},
 						{
 							delay = 153,
 							prefab = "hanbingquyu",
 							life_time = 13,
+							behaviours = 10014,
 							coordinate = {
 								40,
 								0,
@@ -487,71 +140,13 @@ return {
 							},
 							cld_data = {
 								40
-							},
-							behaviours = {
-								{
-									reload_time = 1,
-									hp_rate = 0.01,
-									damage = 1,
-									type = 2
-								},
-								{
-									buff_id = 8660,
-									reload_time = 1,
-									type = 3
-								},
-								{
-									random_speed = 7,
-									type = 4,
-									route = {
-										{
-											-20,
-											0,
-											30,
-											3
-										},
-										{
-											-70,
-											0,
-											30,
-											5
-										},
-										{
-											-20,
-											0,
-											30,
-											5
-										},
-										{
-											-70,
-											0,
-											30,
-											5
-										},
-										{
-											-20,
-											0,
-											30,
-											5
-										},
-										{
-											-70,
-											0,
-											30,
-											5
-										}
-									},
-									random_duration = {
-										3,
-										5
-									}
-								}
 							}
 						},
 						{
 							delay = 153,
 							prefab = "hanbingquyu",
 							life_time = 13,
+							behaviours = 10015,
 							coordinate = {
 								-80,
 								0,
@@ -559,71 +154,13 @@ return {
 							},
 							cld_data = {
 								40
-							},
-							behaviours = {
-								{
-									reload_time = 1,
-									hp_rate = 0.01,
-									damage = 1,
-									type = 2
-								},
-								{
-									buff_id = 8660,
-									reload_time = 1,
-									type = 3
-								},
-								{
-									random_speed = 7,
-									type = 4,
-									route = {
-										{
-											-70,
-											0,
-											80,
-											3
-										},
-										{
-											-20,
-											0,
-											80,
-											5
-										},
-										{
-											-70,
-											0,
-											80,
-											5
-										},
-										{
-											-20,
-											0,
-											80,
-											5
-										},
-										{
-											-70,
-											0,
-											80,
-											5
-										},
-										{
-											-20,
-											0,
-											80,
-											5
-										}
-									},
-									random_duration = {
-										3,
-										5
-									}
-								}
 							}
 						},
 						{
 							delay = 201,
 							prefab = "hanbingquyu",
 							life_time = 13,
+							behaviours = 10014,
 							coordinate = {
 								40,
 								0,
@@ -631,71 +168,13 @@ return {
 							},
 							cld_data = {
 								40
-							},
-							behaviours = {
-								{
-									reload_time = 1,
-									hp_rate = 0.01,
-									damage = 1,
-									type = 2
-								},
-								{
-									buff_id = 8660,
-									reload_time = 1,
-									type = 3
-								},
-								{
-									random_speed = 7,
-									type = 4,
-									route = {
-										{
-											-20,
-											0,
-											30,
-											3
-										},
-										{
-											-70,
-											0,
-											30,
-											5
-										},
-										{
-											-20,
-											0,
-											30,
-											5
-										},
-										{
-											-70,
-											0,
-											30,
-											5
-										},
-										{
-											-20,
-											0,
-											30,
-											5
-										},
-										{
-											-70,
-											0,
-											30,
-											5
-										}
-									},
-									random_duration = {
-										3,
-										5
-									}
-								}
 							}
 						},
 						{
 							delay = 201,
 							prefab = "hanbingquyu",
 							life_time = 13,
+							behaviours = 10015,
 							coordinate = {
 								-80,
 								0,
@@ -703,71 +182,13 @@ return {
 							},
 							cld_data = {
 								40
-							},
-							behaviours = {
-								{
-									reload_time = 1,
-									hp_rate = 0.01,
-									damage = 1,
-									type = 2
-								},
-								{
-									buff_id = 8660,
-									reload_time = 1,
-									type = 3
-								},
-								{
-									random_speed = 7,
-									type = 4,
-									route = {
-										{
-											-70,
-											0,
-											80,
-											3
-										},
-										{
-											-20,
-											0,
-											80,
-											5
-										},
-										{
-											-70,
-											0,
-											80,
-											5
-										},
-										{
-											-20,
-											0,
-											80,
-											5
-										},
-										{
-											-70,
-											0,
-											80,
-											5
-										},
-										{
-											-20,
-											0,
-											80,
-											5
-										}
-									},
-									random_duration = {
-										3,
-										5
-									}
-								}
 							}
 						},
 						{
 							delay = 249,
 							prefab = "hanbingquyu",
 							life_time = 13,
+							behaviours = 10014,
 							coordinate = {
 								40,
 								0,
@@ -775,71 +196,13 @@ return {
 							},
 							cld_data = {
 								40
-							},
-							behaviours = {
-								{
-									reload_time = 1,
-									hp_rate = 0.01,
-									damage = 1,
-									type = 2
-								},
-								{
-									buff_id = 8660,
-									reload_time = 1,
-									type = 3
-								},
-								{
-									random_speed = 7,
-									type = 4,
-									route = {
-										{
-											-20,
-											0,
-											30,
-											3
-										},
-										{
-											-70,
-											0,
-											30,
-											5
-										},
-										{
-											-20,
-											0,
-											30,
-											5
-										},
-										{
-											-70,
-											0,
-											30,
-											5
-										},
-										{
-											-20,
-											0,
-											30,
-											5
-										},
-										{
-											-70,
-											0,
-											30,
-											5
-										}
-									},
-									random_duration = {
-										3,
-										5
-									}
-								}
 							}
 						},
 						{
 							delay = 249,
 							prefab = "hanbingquyu",
 							life_time = 13,
+							behaviours = 10015,
 							coordinate = {
 								-80,
 								0,
@@ -847,65 +210,6 @@ return {
 							},
 							cld_data = {
 								40
-							},
-							behaviours = {
-								{
-									reload_time = 1,
-									hp_rate = 0.01,
-									damage = 1,
-									type = 2
-								},
-								{
-									buff_id = 8660,
-									reload_time = 1,
-									type = 3
-								},
-								{
-									random_speed = 7,
-									type = 4,
-									route = {
-										{
-											-70,
-											0,
-											80,
-											3
-										},
-										{
-											-20,
-											0,
-											80,
-											5
-										},
-										{
-											-70,
-											0,
-											80,
-											5
-										},
-										{
-											-20,
-											0,
-											80,
-											5
-										},
-										{
-											-70,
-											0,
-											80,
-											5
-										},
-										{
-											-20,
-											0,
-											80,
-											5
-										}
-									},
-									random_duration = {
-										3,
-										5
-									}
-								}
 							}
 						}
 					}

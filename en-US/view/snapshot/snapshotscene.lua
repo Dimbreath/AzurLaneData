@@ -488,16 +488,14 @@ function slot0.updateSkin(slot0)
 			SetActive(uv0.live2d, true)
 			pg.UIMgr.GetInstance():LoadingOff()
 
-			if CSharpVersion > 18 then
-				slot5 = uv0.skin.lip_smoothing
+			slot5 = uv0.skin.lip_smoothing
 
-				if uv0.skin.lip_sync_gain and slot4 ~= 0 then
-					uv0.live2d:GetChild(0):GetComponent("CubismCriSrcMouthInput").Gain = slot4
-				end
+			if uv0.skin.lip_sync_gain and slot4 ~= 0 then
+				uv0.live2d:GetChild(0):GetComponent("CubismCriSrcMouthInput").Gain = slot4
+			end
 
-				if slot5 and slot5 ~= 0 then
-					uv0.live2d:GetChild(0):GetComponent("CubismCriSrcMouthInput").Smoothing = slot5
-				end
+			if slot5 and slot5 ~= 0 then
+				uv0.live2d:GetChild(0):GetComponent("CubismCriSrcMouthInput").Smoothing = slot5
 			end
 		end)
 	elseif slot0.showType == uv0.SHOW_PAINT then

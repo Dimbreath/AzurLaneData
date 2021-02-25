@@ -2,7 +2,7 @@ slot0 = class("CommanderIndexPage", import("...base.BaseSubView"))
 slot1 = {
 	sort = {
 		{
-			i18n("word_default"),
+			i18n("word_achieved_item"),
 			"id"
 		},
 		{
@@ -201,7 +201,7 @@ function slot0.Show(slot0, slot1)
 end
 
 function slot0.updateSelected(slot0, slot1)
-	triggerToggle(slot0.sortToggles[slot1.sortData or "id"], true)
+	triggerToggle(slot0.sortToggles[slot1.sortData or "Level"], true)
 
 	if #(slot1.nationData or {}) > 0 then
 		for slot7, slot8 in pairs(slot3) do
@@ -222,7 +222,7 @@ end
 
 function slot0.resetData(slot0)
 	slot0.data = {
-		sortData = "id",
+		sortData = "Level",
 		nationData = {},
 		rarityData = {}
 	}

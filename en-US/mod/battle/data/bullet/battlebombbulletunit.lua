@@ -13,7 +13,15 @@ function slot3.Ctor(slot0, slot1, slot2)
 end
 
 function slot3.InitSpeed(slot0)
-	uv0.super.InitSpeed(slot0, math.rad2Deg * math.atan2(slot0._explodePos.z - slot0._spawnPos.z, slot0._explodePos.x - slot0._spawnPos.x))
+	if slot0._barrageLowPriority then
+		slot0._yAngle = slot0._baseAngle + slot0._barrageAngle
+	else
+		slot0._yAngle = math.rad2Deg * math.atan2(slot0._explodePos.z - slot0._spawnPos.z, slot0._explodePos.x - slot0._spawnPos.x)
+	end
+
+	slot0:calcSpeed()
+
+	slot0.updateSpeed = uv0.doNothing
 end
 
 function slot3.Update(slot0)
@@ -83,6 +91,7 @@ function slot3.SetTemplateData(slot0, slot1)
 
 	slot2 = slot0:GetTemplate().extra_param
 	slot0._barragePriority = slot2.barragePriority
+	slot0._barrageLowPriority = slot2.barrageLowPriority
 	slot0._fixToRange = slot2.fixToRange
 
 	if slot2.barragePriority then

@@ -246,6 +246,78 @@ pg.strategy_data_template = {
 		desc = "Allied Air Support",
 		arg = {}
 	},
+	[8841] = {
+		buff_id = 8841,
+		name = "Radiance",
+		type = 10,
+		id = 8841,
+		icon = "8841",
+		desc = "In battle, your fleet will receive bombardment support.",
+		arg = {}
+	},
+	[8842] = {
+		buff_id = 8842,
+		name = "Afterglow",
+		type = 10,
+		id = 8842,
+		icon = "8842",
+		desc = "The light has faded, and a mysterious foe appears in the enemy's fleet.",
+		arg = {}
+	},
+	[8843] = {
+		buff_id = 8843,
+		name = "RadianceLV1",
+		type = 10,
+		id = 8843,
+		icon = "",
+		desc = "不显示图标及说明",
+		arg = {}
+	},
+	[8846] = {
+		buff_id = 8846,
+		name = "RadianceLV2",
+		type = 10,
+		id = 8846,
+		icon = "",
+		desc = "不显示图标及说明",
+		arg = {}
+	},
+	[8849] = {
+		buff_id = 8849,
+		name = "RadianceLV3",
+		type = 10,
+		id = 8849,
+		icon = "",
+		desc = "不显示图标及说明",
+		arg = {}
+	},
+	[8852] = {
+		buff_id = 8852,
+		name = "RadianceLV4",
+		type = 10,
+		id = 8852,
+		icon = "",
+		desc = "不显示图标及说明",
+		arg = {}
+	},
+	[8855] = {
+		buff_id = 8855,
+		name = "RadianceLV5",
+		type = 10,
+		id = 8855,
+		icon = "",
+		desc = "不显示图标及说明",
+		arg = {}
+	},
+	[8858] = {
+		buff_id = 8858,
+		name = "Confluence of Dawn",
+		type = 10,
+		id = 8858,
+		icon = "8858",
+		desc = "Your fleet will receive bombardment support, but a mysterious foe also appears in the enemy's fleet.",
+		arg = {}
+	},
 	[9500] = {
 		buff_id = 9500,
 		name = "Wisdom Cube Reactivity",
@@ -391,6 +463,14 @@ pg.strategy_data_template = {
 		8809,
 		8812,
 		8815,
+		8841,
+		8842,
+		8843,
+		8846,
+		8849,
+		8852,
+		8855,
+		8858,
 		9500,
 		9502,
 		9505,

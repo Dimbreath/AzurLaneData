@@ -188,7 +188,7 @@ return {
 		banner = "LanternFestival",
 		event = ActivityMediator.GO_MINI_GAME,
 		data = {
-			10
+			22
 		},
 		isShow = function ()
 			return getProxy(ActivityProxy):getActivityById(ActivityConst.LANTERNFESTIVAL) and not slot0:isEnd()
@@ -206,13 +206,15 @@ return {
 			11
 		},
 		isShow = function ()
-			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot0:isEnd() and function ()
-				return getProxy(MiniGameProxy):GetHubByHubId(uv0:getConfig("config_id")) and slot1.id == 7
-			end()
+			return _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_MINIGAME), function (slot0)
+				return slot0:getConfig("config_id") == 7
+			end) and not slot1:isEnd()
 		end,
 		isTip = function ()
-			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot0:isEnd() then
-				return getProxy(MiniGameProxy):GetHubByHubId(slot0:getConfig("config_id")) and slot2.id == 7 and slot2.count > 0
+			if _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_MINIGAME), function (slot0)
+				return slot0:getConfig("config_id") == 7
+			end) and not slot1:isEnd() then
+				return getProxy(MiniGameProxy):GetHubByHubId(slot1:getConfig("config_id")) and slot3.id == 7 and slot3.count > 0
 			end
 		end
 	},

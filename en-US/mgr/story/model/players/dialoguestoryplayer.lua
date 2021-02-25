@@ -403,11 +403,16 @@ function slot0.StartMovePrevPaitingToSide(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	if slot5:Find("fitter").childCount > 0 then
-		setParent(slot5:Find("fitter"):GetChild(0), slot8:Find("fitter"))
+	if slot1.side ~= slot2.side then
+		if slot5:Find("fitter").childCount > 0 then
+			removeAllChildren(slot8:Find("fitter"))
+			setParent(slot5:Find("fitter"):GetChild(0), slot8:Find("fitter"))
 
-		slot10 = slot2:GetPaintingDir()
-		slot8.localScale = Vector3(slot10, math.abs(slot10), 1)
+			slot10 = slot2:GetPaintingDir()
+			slot8.localScale = Vector3(slot10, math.abs(slot10), 1)
+		end
+	else
+		setPaintingPrefab(slot8, slot2:GetPainting(), "duihua")
 	end
 
 	slot0:TweenValue(slot8, slot5.localPosition.x, tf(slot8).localPosition.x, slot6, 0, function (slot0)

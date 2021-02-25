@@ -7099,6 +7099,297 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70137] = {
+		id = 70137,
+		name = "2020毛系活动D3代行者第一波浮游炮1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -5,
+					z = 25
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70138] = {
+		id = 70138,
+		name = "2020毛系活动D3代行者第一波浮游炮2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -5,
+					z = -25
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70139] = {
+		id = 70139,
+		name = "2021毛系活动D3代行者水平追踪移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 8,
+				param = {
+					offsetZ = 2,
+					duration = 300,
+					X = -5
+				}
+			}
+		}
+	},
+	[70140] = {
+		id = 70140,
+		name = "2021毛系活动道中代行者浮游炮移动1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					duration = 5,
+					z = 0,
+					x = -30
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					duration = 3,
+					z = -15,
+					x = -5
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 2,
+				param = {
+					duration = 3,
+					z = 30,
+					x = 0
+				}
+			},
+			{
+				index = 4,
+				to = 2,
+				type = 2,
+				param = {
+					duration = 5,
+					z = -15,
+					x = 5
+				}
+			}
+		}
+	},
+	[70141] = {
+		id = 70141,
+		name = "2021毛系活动道中代行者浮游炮移动2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					duration = 6,
+					z = 0,
+					x = -30
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					duration = 9,
+					z = -50,
+					x = 0
+				}
+			},
+			{
+				index = 3,
+				to = 2,
+				type = 2,
+				param = {
+					duration = 9,
+					z = 50,
+					x = 0
+				}
+			}
+		}
+	},
+	[70142] = {
+		id = 70142,
+		name = "2021毛系活动道中代行者浮游炮移动3",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					duration = 6,
+					z = 0,
+					x = -30
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					duration = 9,
+					z = 50,
+					x = 0
+				}
+			},
+			{
+				index = 3,
+				to = 2,
+				type = 2,
+				param = {
+					duration = 9,
+					z = -50,
+					x = 0
+				}
+			}
+		}
+	},
+	[70143] = {
+		id = 70143,
+		name = "2021毛系活动道中代行者浮游炮移动4",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					duration = 5,
+					z = 0,
+					x = -30
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					duration = 3,
+					z = 15,
+					x = -5
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 2,
+				param = {
+					duration = 3,
+					z = -30,
+					x = 0
+				}
+			},
+			{
+				index = 4,
+				to = 2,
+				type = 2,
+				param = {
+					duration = 5,
+					z = 15,
+					x = 5
+				}
+			}
+		}
+	},
+	[70144] = {
+		id = 70144,
+		name = "2020毛系活动EX代行者浮游炮1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 3,
+				param = {
+					stopCount = 0,
+					Z2 = 55,
+					moveCount = 5000,
+					Z1 = 20,
+					duration = 1,
+					X1 = -40,
+					X2 = -15
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 3
+				}
+			}
+		}
+	},
+	[70145] = {
+		id = 70145,
+		name = "2020毛系活动EX代行者浮游炮2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 3,
+				param = {
+					stopCount = 0,
+					Z2 = 90,
+					moveCount = 5000,
+					Z1 = 55,
+					duration = 1,
+					X1 = -40,
+					X2 = -15
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 3
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

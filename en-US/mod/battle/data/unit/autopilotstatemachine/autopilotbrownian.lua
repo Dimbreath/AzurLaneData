@@ -20,7 +20,6 @@ function slot1.SetParameter(slot0, slot1, slot2)
 	slot0._stop = slot1.stopCount
 	slot0._move = slot1.moveCount
 	slot0._random = slot1.randomCount or 30
-	slot0._duration = slot1.duration
 end
 
 function slot1.Active(slot0, slot1)
@@ -33,7 +32,7 @@ function slot1.Active(slot0, slot1)
 end
 
 function slot1.GetDirection(slot0, slot1)
-	if slot0._duration > 0 and slot0._duration < pg.TimeMgr.GetInstance():GetCombatTime() - slot0._startTime then
+	if slot0:IsExpired() then
 		slot0:Finish()
 
 		return Vector3.zero

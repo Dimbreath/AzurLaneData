@@ -215,7 +215,7 @@ function slot0.OnRefresh(slot0, slot1)
 								return
 							end
 
-							if slot5 and slot5:getChapter(slot3) and slot5:getChapter(slot3):isUnlock() then
+							if slot4:isUnlock() then
 								if slot4.active then
 									slot0.mapIdx = slot4:getConfig("map")
 								elseif slot1:getActiveChapter() then

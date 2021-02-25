@@ -529,7 +529,7 @@ pg.shop_template = {
 		effect_args = "skill_room_pos",
 		group = 0,
 		num = 1,
-		discount = 20,
+		discount = 0,
 		resource_type = 14,
 		id = 21,
 		genre = "skill_room_upgrade",
@@ -8703,6 +8703,168 @@ pg.shop_template = {
 			}
 		}
 	},
+	[60232] = {
+		group_type = 0,
+		resource_num = 980,
+		desc = "980钻石购买限时建造补给（北联二期）",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60232,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			40118
+		},
+		time = {
+			{
+				{
+					2021,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[60233] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "120钻石购买限时攻略补给（北联二期）",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60233,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				5
+			}
+		},
+		effect_args = {
+			40117
+		},
+		time = {
+			{
+				{
+					2021,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[60234] = {
+		group_type = 0,
+		resource_num = 500,
+		desc = "500钻石购买家具币礼包（北联二期）",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60234,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				2
+			}
+		},
+		effect_args = {
+			40106
+		},
+		time = {
+			{
+				{
+					2021,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[61001] = {
 		group_type = 0,
 		resource_num = 200,
@@ -10818,7 +10980,7 @@ pg.shop_template = {
 		order = 8900,
 		group = 0,
 		num = 1,
-		discount = 20,
+		discount = 0,
 		resource_type = 14,
 		id = 70067,
 		genre = "skin_shop",
@@ -10892,7 +11054,7 @@ pg.shop_template = {
 		order = 8900,
 		group = 0,
 		num = 1,
-		discount = 20,
+		discount = 0,
 		resource_type = 14,
 		id = 70068,
 		genre = "skin_shop",
@@ -10966,7 +11128,7 @@ pg.shop_template = {
 		order = 8900,
 		group = 0,
 		num = 1,
-		discount = 20,
+		discount = 0,
 		resource_type = 14,
 		id = 70069,
 		genre = "skin_shop",
@@ -11040,7 +11202,7 @@ pg.shop_template = {
 		order = 8900,
 		group = 0,
 		num = 1,
-		discount = 20,
+		discount = 0,
 		resource_type = 14,
 		id = 70070,
 		genre = "skin_shop",
@@ -12180,7 +12342,7 @@ pg.shop_template = {
 		time = "always",
 		group = 0,
 		num = 1,
-		discount = 10,
+		discount = 0,
 		resource_type = 14,
 		id = 70107,
 		genre = "skin_shop",
@@ -12979,7 +13141,7 @@ pg.shop_template = {
 		time = "always",
 		group = 0,
 		num = 1,
-		discount = 10,
+		discount = 0,
 		resource_type = 14,
 		id = 70139,
 		genre = "skin_shop",
@@ -29569,6 +29731,594 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70505] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤:塔林睡衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8770,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70505,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			703011
+		},
+		time = {
+			{
+				{
+					2021,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70506] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤:苏维埃白俄罗斯睡衣 ",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8770,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70506,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			705041
+		},
+		time = {
+			{
+				{
+					2021,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70507] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤:基洛夫睡衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8770,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70507,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			702041
+		},
+		time = {
+			{
+				{
+					2021,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70508] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:雷鸣睡衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8770,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70508,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			701071
+		},
+		time = {
+			{
+				{
+					2021,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70509] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:摩尔曼斯克 睡衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8770,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70509,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			702061
+		},
+		time = {
+			{
+				{
+					2021,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70510] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:洪亮睡衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8770,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70510,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			701081
+		},
+		time = {
+			{
+				{
+					2021,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70511] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:甘古特睡衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8770,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70511,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			705012
+		},
+		time = {
+			{
+				{
+					2021,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70513] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:水星纪念睡衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8770,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70513,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			702022
+		},
+		time = {
+			{
+				{
+					2021,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70514] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤:恰巴耶夫睡衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8770,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70514,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			702032
+		},
+		time = {
+			{
+				{
+					2021,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70515] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:威严睡衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8770,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70515,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			701022
+		},
+		time = {
+			{
+				{
+					2021,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70516] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:神速睡衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8770,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70516,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			701061
+		},
+		time = {
+			{
+				{
+					2021,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70517] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤:塔什干睡衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8770,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70517,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			701042
+		},
+		time = {
+			{
+				{
+					2021,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[90001] = {
 		group_type = 0,
 		resource_num = 1,
@@ -31887,6 +32637,153 @@ pg.shop_template = {
 					2021,
 					2,
 					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[90076] = {
+		group_type = 0,
+		resource_num = 1,
+		desc = "限时皮肤体验：贝拉罗斯睡衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 172800,
+		order = 1,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 189,
+		id = 90076,
+		genre = "skin_shop_timelimit",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			705041
+		},
+		time = {
+			{
+				{
+					2021,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[90077] = {
+		group_type = 0,
+		resource_num = 1,
+		desc = "限时皮肤体验：基洛夫睡衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 172800,
+		order = 2,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 189,
+		id = 90077,
+		genre = "skin_shop_timelimit",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			702041
+		},
+		time = {
+			{
+				{
+					2021,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[90078] = {
+		group_type = 0,
+		resource_num = 1,
+		desc = "限时皮肤体验：恰巴耶夫睡衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 172800,
+		order = 3,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 189,
+		id = 90078,
+		genre = "skin_shop_timelimit",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			702032
+		},
+		time = {
+			{
+				{
+					2021,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					11
 				},
 				{
 					23,
@@ -34719,6 +35616,9 @@ pg.shop_template = {
 		60229,
 		60230,
 		60231,
+		60232,
+		60233,
+		60234,
 		61001,
 		61002,
 		61003,
@@ -35208,6 +36108,18 @@ pg.shop_template = {
 		70502,
 		70503,
 		70504,
+		70505,
+		70506,
+		70507,
+		70508,
+		70509,
+		70510,
+		70511,
+		70513,
+		70514,
+		70515,
+		70516,
+		70517,
 		90001,
 		90002,
 		90003,
@@ -35266,6 +36178,9 @@ pg.shop_template = {
 		90073,
 		90074,
 		90075,
+		90076,
+		90077,
+		90078,
 		99000,
 		99001,
 		99002,

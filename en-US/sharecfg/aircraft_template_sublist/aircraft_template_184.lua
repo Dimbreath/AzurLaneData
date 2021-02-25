@@ -1,0 +1,223 @@
+pg = pg or {}
+pg.aircraft_template_184 = {
+	[67937] = {
+		max_hp = 75,
+		name = "独立技能鱼雷机Lv7",
+		base = 67931,
+		id = 67937,
+		hp_growth = 2879,
+		weapon_ID = {
+			67957
+		}
+	},
+	[67938] = {
+		max_hp = 80,
+		name = "独立技能鱼雷机Lv8",
+		base = 67931,
+		id = 67938,
+		hp_growth = 3090,
+		weapon_ID = {
+			67958
+		}
+	},
+	[67939] = {
+		max_hp = 86,
+		name = "独立技能鱼雷机Lv9",
+		base = 67931,
+		id = 67939,
+		hp_growth = 3301,
+		weapon_ID = {
+			67959
+		}
+	},
+	[67940] = {
+		max_hp = 91,
+		name = "独立技能鱼雷机Lv10",
+		base = 67931,
+		id = 67940,
+		hp_growth = 3511,
+		weapon_ID = {
+			67960
+		}
+	},
+	[67981] = {
+		name = "香格里拉技能飞机-PVE",
+		max_hp = 69,
+		accuracy = 23,
+		model_ID = "F6F",
+		ACC_growth = 0,
+		crash_DMG = 406,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F6F",
+		nationality = 1,
+		hp_growth = 2282,
+		speed = 48,
+		id = 67981,
+		scale = 1,
+		funnel_behavior = {
+			offsetX = 22,
+			hover_range = 18,
+			offsetZ = -26
+		},
+		weapon_ID = {},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.52,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[67982] = {
+		id = 67982,
+		name = "香格里拉技能飞机-PVP",
+		base = 67981,
+		funnel_behavior = {
+			offsetX = 4,
+			hover_range = 18,
+			offsetZ = -14
+		}
+	},
+	[68001] = {
+		name = "邦克山技能鱼雷机Lv1",
+		max_hp = 37,
+		accuracy = 23,
+		model_ID = "tbf",
+		ACC_growth = 0,
+		crash_DMG = 406,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "tbf",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1404,
+		speed = 48,
+		id = 68001,
+		scale = 1,
+		weapon_ID = {
+			68011
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.15,
+				-0.08,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[68002] = {
+		max_hp = 42,
+		name = "邦克山技能鱼雷机Lv2",
+		base = 68001,
+		id = 68002,
+		hp_growth = 1615,
+		weapon_ID = {
+			68012
+		}
+	},
+	[68003] = {
+		max_hp = 47,
+		name = "邦克山技能鱼雷机Lv3",
+		base = 68001,
+		id = 68003,
+		hp_growth = 1826,
+		weapon_ID = {
+			68013
+		}
+	}
+}

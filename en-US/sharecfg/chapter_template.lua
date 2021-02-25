@@ -38,6 +38,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Offshore Exercises",
 		chapter_name = "1–1",
 		type = 1,
@@ -297,6 +298,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Tora! Tora! Tora!",
 		chapter_name = "1–2",
 		type = 1,
@@ -665,6 +667,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Harbor Clash",
 		chapter_name = "1–3",
 		type = 1,
@@ -1067,6 +1070,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Sakura Fleet",
 		chapter_name = "1–4",
 		type = 1,
@@ -1556,6 +1560,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Fuerteventura",
 		chapter_name = "2–1",
 		type = 1,
@@ -2140,6 +2145,7 @@ pg.chapter_template = {
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Dark Clouds",
 		chapter_name = "2–2",
 		type = 1,
@@ -2775,6 +2781,7 @@ pg.chapter_template = {
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Coral Sea Fortune",
 		chapter_name = "2–3",
 		type = 1,
@@ -3391,6 +3398,7 @@ pg.chapter_template = {
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Rescuing Yorktown",
 		chapter_name = "2–4",
 		type = 1,
@@ -3975,6 +3983,7 @@ pg.chapter_template = {
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Midway Showdown!",
 		chapter_name = "3–1",
 		type = 1,
@@ -4580,6 +4589,7 @@ pg.chapter_template = {
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Five Minutes",
 		chapter_name = "3–2",
 		type = 1,
@@ -5209,6 +5219,7 @@ pg.chapter_template = {
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Last Stand",
 		chapter_name = "3–3",
 		type = 1,
@@ -5833,6 +5844,7 @@ pg.chapter_template = {
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Counterattack!",
 		chapter_name = "3–4",
 		type = 1,
@@ -6443,6 +6455,7 @@ pg.chapter_template = {
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Rescue Mission",
 		chapter_name = "SOS",
 		type = 1,
@@ -7125,6 +7138,7 @@ pg.chapter_template = {
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Midnight Fright",
 		chapter_name = "4–1",
 		type = 1,
@@ -7647,6 +7661,7 @@ pg.chapter_template = {
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Scarlet Dawn",
 		chapter_name = "4–2",
 		type = 1,
@@ -8162,6 +8177,7 @@ pg.chapter_template = {
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Solomon Skirmish",
 		chapter_name = "4–3",
 		type = 1,
@@ -8622,6 +8638,7 @@ pg.chapter_template = {
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "War of Vengeance",
 		chapter_name = "4–4",
 		type = 1,
@@ -9219,6 +9236,7 @@ pg.chapter_template = {
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Rescue Mission",
 		chapter_name = "SOS",
 		type = 1,
@@ -9867,6 +9885,7 @@ pg.chapter_template = {
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Interception",
 		chapter_name = "5–1",
 		type = 1,
@@ -10469,6 +10488,7 @@ pg.chapter_template = {
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Santa Cruz Skies",
 		chapter_name = "5–2",
 		type = 1,
@@ -11009,6 +11029,7 @@ pg.chapter_template = {
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Hornet's Fall",
 		chapter_name = "5–3",
 		type = 1,
@@ -11519,6 +11540,7 @@ pg.chapter_template = {
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Evacuation",
 		chapter_name = "5–4",
 		type = 1,
@@ -12054,6 +12076,7 @@ pg.chapter_template = {
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Rescue Mission",
 		chapter_name = "SOS",
 		type = 1,
@@ -12640,6 +12663,7 @@ pg.chapter_template = {
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Darkness Elites",
 		chapter_name = "6–1",
 		type = 1,
@@ -13213,6 +13237,7 @@ pg.chapter_template = {
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Counterattack",
 		chapter_name = "6–2",
 		type = 1,
@@ -13842,6 +13867,7 @@ pg.chapter_template = {
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Cannon Showdown",
 		chapter_name = "6–3",
 		type = 1,
@@ -14395,6 +14421,7 @@ pg.chapter_template = {
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Solomon's Tears",
 		chapter_name = "6–4",
 		type = 1,
@@ -14992,6 +15019,7 @@ pg.chapter_template = {
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Rescue Mission",
 		chapter_name = "SOS",
 		type = 1,
@@ -15588,6 +15616,7 @@ pg.chapter_template = {
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Ambush",
 		chapter_name = "7–1",
 		type = 1,
@@ -16008,6 +16037,7 @@ pg.chapter_template = {
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Close Combat",
 		chapter_name = "7–2",
 		type = 1,
@@ -16531,6 +16561,7 @@ pg.chapter_template = {
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Unprepared",
 		chapter_name = "7–3",
 		type = 1,
@@ -17125,6 +17156,7 @@ pg.chapter_template = {
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Unforeseen Chaos",
 		chapter_name = "7–4",
 		type = 1,
@@ -17703,6 +17735,7 @@ pg.chapter_template = {
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Rescue Mission",
 		chapter_name = "SOS",
 		type = 1,
@@ -18284,6 +18317,7 @@ pg.chapter_template = {
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Cold Wind",
 		chapter_name = "8–1",
 		type = 1,
@@ -18726,6 +18760,7 @@ pg.chapter_template = {
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Arctic Daybreak",
 		chapter_name = "8–2",
 		type = 1,
@@ -19254,6 +19289,7 @@ pg.chapter_template = {
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Arctic Fury",
 		chapter_name = "8–3",
 		type = 1,
@@ -19845,6 +19881,7 @@ pg.chapter_template = {
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Old Battlefield",
 		chapter_name = "8–4",
 		type = 1,
@@ -20499,6 +20536,7 @@ pg.chapter_template = {
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Rescue Mission",
 		chapter_name = "SOS",
 		type = 1,
@@ -21142,6 +21180,7 @@ pg.chapter_template = {
 		unlocklevel = 65,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Night is Dark",
 		chapter_name = "9–1",
 		type = 1,
@@ -21678,6 +21717,7 @@ pg.chapter_template = {
 		unlocklevel = 65,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Torpedo Rush",
 		chapter_name = "9–2",
 		type = 1,
@@ -22252,6 +22292,7 @@ pg.chapter_template = {
 		unlocklevel = 65,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Light in the Dark",
 		chapter_name = "9–3",
 		type = 1,
@@ -22850,6 +22891,7 @@ pg.chapter_template = {
 		unlocklevel = 65,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Helena",
 		chapter_name = "9–4",
 		type = 1,
@@ -23470,6 +23512,7 @@ pg.chapter_template = {
 		unlocklevel = 65,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Rescue Mission",
 		chapter_name = "SOS",
 		type = 1,
@@ -24100,6 +24143,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Once More, Sortie Again!",
 		chapter_name = "10–1",
 		type = 1,
@@ -24655,6 +24699,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Preemptive Strike",
 		chapter_name = "10–2",
 		type = 1,
@@ -25266,6 +25311,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Press the Attack",
 		chapter_name = "10–3",
 		type = 1,
@@ -25894,6 +25940,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Counterattack",
 		chapter_name = "10–4",
 		type = 1,
@@ -26536,6 +26583,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Rescue Mission",
 		chapter_name = "SOS",
 		type = 1,
@@ -27167,6 +27215,7 @@ pg.chapter_template = {
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Landing Operation",
 		chapter_name = "11–1",
 		type = 1,
@@ -27771,6 +27820,7 @@ pg.chapter_template = {
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Stormy Night",
 		chapter_name = "11–2",
 		type = 1,
@@ -28490,6 +28540,7 @@ pg.chapter_template = {
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Knights of the Sea",
 		chapter_name = "11–3",
 		type = 1,
@@ -29179,6 +29230,7 @@ pg.chapter_template = {
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Part the Night",
 		chapter_name = "11–4",
 		type = 1,
@@ -29977,6 +30029,7 @@ pg.chapter_template = {
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Information Warfare",
 		chapter_name = "12–1",
 		type = 1,
@@ -30559,6 +30612,7 @@ pg.chapter_template = {
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Ambush",
 		chapter_name = "12–2",
 		type = 1,
@@ -31254,6 +31308,7 @@ pg.chapter_template = {
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Carrier Showdown",
 		chapter_name = "12–3",
 		type = 1,
@@ -31985,6 +32040,7 @@ pg.chapter_template = {
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Task Force",
 		chapter_name = "12–4",
 		type = 1,
@@ -32831,6 +32887,7 @@ pg.chapter_template = {
 		unlocklevel = 85,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Skies Above",
 		chapter_name = "13–1",
 		type = 1,
@@ -33421,6 +33478,7 @@ pg.chapter_template = {
 		unlocklevel = 85,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Eternal Flute",
 		chapter_name = "13–2",
 		type = 1,
@@ -34116,6 +34174,7 @@ pg.chapter_template = {
 		unlocklevel = 85,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Wings of Inspiration",
 		chapter_name = "13–3",
 		type = 1,
@@ -34855,6 +34914,7 @@ pg.chapter_template = {
 		unlocklevel = 85,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Dancing Phoenix",
 		chapter_name = "13–4",
 		type = 1,
@@ -35704,6 +35764,7 @@ pg.chapter_template = {
 		unlocklevel = 15,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Intelligence",
 		chapter_name = "SP.1",
 		type = 2,
@@ -36108,6 +36169,7 @@ pg.chapter_template = {
 		unlocklevel = 15,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Z's Counterattack",
 		chapter_name = "SP.2",
 		type = 2,
@@ -36576,6 +36638,7 @@ pg.chapter_template = {
 		unlocklevel = 15,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Cannon's Elegy",
 		chapter_name = "SP.3",
 		type = 2,
@@ -37074,6 +37137,7 @@ pg.chapter_template = {
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Offshore Exercises",
 		chapter_name = "1–1",
 		type = 2,
@@ -37369,6 +37433,7 @@ pg.chapter_template = {
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Tora! Tora! Tora!",
 		chapter_name = "1–2",
 		type = 2,
@@ -37771,6 +37836,7 @@ pg.chapter_template = {
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "The Harbor Clash",
 		chapter_name = "1–3",
 		type = 2,
@@ -38209,6 +38275,7 @@ pg.chapter_template = {
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Sakura Fleet",
 		chapter_name = "1–4",
 		type = 2,
@@ -38730,6 +38797,7 @@ pg.chapter_template = {
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Fuerteventura",
 		chapter_name = "2–1",
 		type = 2,
@@ -39351,6 +39419,7 @@ pg.chapter_template = {
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Dark Clouds",
 		chapter_name = "2–2",
 		type = 2,
@@ -40025,6 +40094,7 @@ pg.chapter_template = {
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Coral Sea Fortune",
 		chapter_name = "2–3",
 		type = 2,
@@ -40676,6 +40746,7 @@ pg.chapter_template = {
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Rescuing Yorktown",
 		chapter_name = "2–4",
 		type = 2,
@@ -41297,6 +41368,7 @@ pg.chapter_template = {
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Midway Showdown!",
 		chapter_name = "3–1",
 		type = 2,
@@ -41939,6 +42011,7 @@ pg.chapter_template = {
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "The Five Minutes",
 		chapter_name = "3–2",
 		type = 2,
@@ -42605,6 +42678,7 @@ pg.chapter_template = {
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "The Last Stand",
 		chapter_name = "3–3",
 		type = 2,
@@ -43266,6 +43340,7 @@ pg.chapter_template = {
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Counterattack!",
 		chapter_name = "3–4",
 		type = 2,
@@ -43913,6 +43988,7 @@ pg.chapter_template = {
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Midnight Fright",
 		chapter_name = "4–1",
 		type = 2,
@@ -44477,6 +44553,7 @@ pg.chapter_template = {
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Scarlet Dawn",
 		chapter_name = "4–2",
 		type = 2,
@@ -45034,6 +45111,7 @@ pg.chapter_template = {
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Solomon Skirmish",
 		chapter_name = "4–3",
 		type = 2,
@@ -45536,6 +45614,7 @@ pg.chapter_template = {
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "War of Vengeance",
 		chapter_name = "4–4",
 		type = 2,
@@ -46175,6 +46254,7 @@ pg.chapter_template = {
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Interception",
 		chapter_name = "5–1",
 		type = 2,
@@ -46819,6 +46899,7 @@ pg.chapter_template = {
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Santa Cruz Skies",
 		chapter_name = "5–2",
 		type = 2,
@@ -47401,6 +47482,7 @@ pg.chapter_template = {
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Hornet's Fall",
 		chapter_name = "5–3",
 		type = 2,
@@ -47953,6 +48035,7 @@ pg.chapter_template = {
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Evacuation",
 		chapter_name = "5–4",
 		type = 2,
@@ -48530,6 +48613,7 @@ pg.chapter_template = {
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Darkness Elites",
 		chapter_name = "6–1",
 		type = 2,
@@ -49146,6 +49230,7 @@ pg.chapter_template = {
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Counterattack",
 		chapter_name = "6–2",
 		type = 2,
@@ -49818,6 +49903,7 @@ pg.chapter_template = {
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Cannon Showdown",
 		chapter_name = "6–3",
 		type = 2,
@@ -50414,6 +50500,7 @@ pg.chapter_template = {
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Solomon's Tears",
 		chapter_name = "6–4",
 		type = 2,
@@ -51054,6 +51141,7 @@ pg.chapter_template = {
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "The Ambush",
 		chapter_name = "7–1",
 		type = 2,
@@ -51519,6 +51607,7 @@ pg.chapter_template = {
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Close Combat",
 		chapter_name = "7–2",
 		type = 2,
@@ -52087,6 +52176,7 @@ pg.chapter_template = {
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Unprepared",
 		chapter_name = "7–3",
 		type = 2,
@@ -52726,6 +52816,7 @@ pg.chapter_template = {
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Unforeseen Chaos",
 		chapter_name = "7–4",
 		type = 2,
@@ -53349,6 +53440,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Cold Wind",
 		chapter_name = "8–1",
 		type = 2,
@@ -53836,6 +53928,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Arctic Daybreak",
 		chapter_name = "8–2",
 		type = 2,
@@ -54409,6 +54502,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Arctic Fury",
 		chapter_name = "8–3",
 		type = 2,
@@ -55045,6 +55139,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Old Battlefield",
 		chapter_name = "8–4",
 		type = 2,
@@ -55744,6 +55839,7 @@ pg.chapter_template = {
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "The Night is Dark",
 		chapter_name = "9–1",
 		type = 2,
@@ -56325,6 +56421,7 @@ pg.chapter_template = {
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Torpedo Rush",
 		chapter_name = "9–2",
 		type = 2,
@@ -56944,6 +57041,7 @@ pg.chapter_template = {
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Light in the Dark",
 		chapter_name = "9–3",
 		type = 2,
@@ -57587,6 +57685,7 @@ pg.chapter_template = {
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Helena",
 		chapter_name = "9–4",
 		type = 2,
@@ -58252,6 +58351,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Once More, Sortie Again!",
 		chapter_name = "10–1",
 		type = 2,
@@ -58852,6 +58952,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Preemptive Strike",
 		chapter_name = "10–2",
 		type = 2,
@@ -59508,6 +59609,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Press the Attack",
 		chapter_name = "10–3",
 		type = 2,
@@ -60181,6 +60283,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Counterattack",
 		chapter_name = "10–4",
 		type = 2,
@@ -60868,6 +60971,7 @@ pg.chapter_template = {
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Landing Operation",
 		chapter_name = "11–1",
 		type = 2,
@@ -61517,6 +61621,7 @@ pg.chapter_template = {
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Stormy Night",
 		chapter_name = "11–2",
 		type = 2,
@@ -62281,6 +62386,7 @@ pg.chapter_template = {
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Knights of the Sea",
 		chapter_name = "11–3",
 		type = 2,
@@ -63015,6 +63121,7 @@ pg.chapter_template = {
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "Part the Night",
 		chapter_name = "11–4",
 		type = 2,
@@ -63858,6 +63965,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Maritime Escort - Easy",
 		chapter_name = "CE1",
 		type = 1,
@@ -64339,6 +64447,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Maritime Escort - Normal",
 		chapter_name = "CE2",
 		type = 1,
@@ -64872,6 +64981,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Maritime Escort - Hard",
 		chapter_name = "CE3",
 		type = 1,
@@ -65497,6 +65607,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Storm's End",
 		chapter_name = "A1",
 		type = 1,
@@ -66030,6 +66141,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Distress signal",
 		chapter_name = "A2",
 		type = 1,
@@ -66618,6 +66730,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Sanctuary Protectors",
 		chapter_name = "A3",
 		type = 1,
@@ -67275,6 +67388,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Reddened Sea",
 		chapter_name = "B1",
 		type = 1,
@@ -67882,6 +67996,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Sistership",
 		chapter_name = "B2",
 		type = 1,
@@ -68588,6 +68703,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Crimson Protectors",
 		chapter_name = "B3",
 		type = 1,
@@ -69291,6 +69407,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Storm's End",
 		chapter_name = "C1",
 		type = 2,
@@ -69865,6 +69982,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Distress signal",
 		chapter_name = "C2",
 		type = 2,
@@ -70494,6 +70612,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Sanctuary Protectors",
 		chapter_name = "C3",
 		type = 2,
@@ -71193,6 +71312,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Reddened Sea",
 		chapter_name = "D1",
 		type = 2,
@@ -71842,6 +71962,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Sistership",
 		chapter_name = "D2",
 		type = 2,
@@ -72590,6 +72711,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Crimson Protectors",
 		chapter_name = "D3",
 		type = 2,
@@ -73334,6 +73456,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Carelessness",
 		chapter_name = "SP1",
 		type = 1,
@@ -73918,6 +74041,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Pursuit and Retreat",
 		chapter_name = "SP2",
 		type = 1,
@@ -74504,6 +74628,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Glorious Battle",
 		chapter_name = "SP3",
 		type = 1,
@@ -75213,6 +75338,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Carelessness",
 		chapter_name = "SP1",
 		type = 1,
@@ -75797,6 +75923,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Pursuit and Retreat",
 		chapter_name = "SP2",
 		type = 1,
@@ -76383,6 +76510,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Glorious Battle",
 		chapter_name = "SP3",
 		type = 1,
@@ -77092,6 +77220,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Search",
 		chapter_name = "SP1",
 		type = 1,
@@ -77677,6 +77806,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Pursuit",
 		chapter_name = "SP2",
 		type = 1,
@@ -78361,6 +78491,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Showdown",
 		chapter_name = "SP3",
 		type = 1,
@@ -79103,6 +79234,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Search",
 		chapter_name = "SP1",
 		type = 1,
@@ -79687,6 +79819,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Pursuit",
 		chapter_name = "SP2",
 		type = 1,
@@ -80370,6 +80503,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Showdown",
 		chapter_name = "SP3",
 		type = 1,
@@ -81111,6 +81245,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Black Gulf",
 		chapter_name = "SP1",
 		type = 1,
@@ -81628,6 +81763,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Green Bay",
 		chapter_name = "SP2",
 		type = 1,
@@ -82250,6 +82386,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "White Laguna",
 		chapter_name = "SP3",
 		type = 1,
@@ -82865,6 +83002,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Purple Creek",
 		chapter_name = "SP4",
 		type = 1,
@@ -83593,6 +83731,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Hyper Challenge",
 		chapter_name = "EX",
 		type = 2,
@@ -84368,6 +84507,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Storm's End",
 		chapter_name = "A1",
 		type = 1,
@@ -84916,6 +85056,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Distress signal",
 		chapter_name = "A2",
 		type = 1,
@@ -85520,6 +85661,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Sanctuary Protectors",
 		chapter_name = "A3",
 		type = 1,
@@ -86193,6 +86335,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Reddened Sea",
 		chapter_name = "B1",
 		type = 1,
@@ -86817,6 +86960,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Sistership",
 		chapter_name = "B2",
 		type = 1,
@@ -87540,6 +87684,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Crimson Protectors",
 		chapter_name = "B3",
 		type = 1,
@@ -88260,6 +88405,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Storm's End",
 		chapter_name = "C1",
 		type = 2,
@@ -88851,6 +88997,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Distress signal",
 		chapter_name = "C2",
 		type = 2,
@@ -89497,6 +89644,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Sanctuary Protectors",
 		chapter_name = "C3",
 		type = 2,
@@ -90213,6 +90361,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Reddened Sea",
 		chapter_name = "D1",
 		type = 2,
@@ -90879,6 +91028,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Sistership",
 		chapter_name = "D2",
 		type = 2,
@@ -91644,6 +91794,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Crimson Protectors",
 		chapter_name = "D3",
 		type = 2,
@@ -92405,6 +92556,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Final Rite",
 		chapter_name = "EX",
 		type = 2,
@@ -93155,6 +93307,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Homewards",
 		chapter_name = "A1",
 		type = 1,
@@ -93756,6 +93909,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Abnormality",
 		chapter_name = "A2",
 		type = 1,
@@ -94280,6 +94434,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Faded Faith",
 		chapter_name = "A3",
 		type = 1,
@@ -94854,6 +95009,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Protector",
 		chapter_name = "A4",
 		type = 1,
@@ -95516,6 +95672,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "New Sprout",
 		chapter_name = "B1",
 		type = 1,
@@ -96229,6 +96386,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Steel Sakura",
 		chapter_name = "B2",
 		type = 1,
@@ -96893,6 +97051,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Homewards",
 		chapter_name = "C1",
 		type = 2,
@@ -97536,6 +97695,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Abnormality",
 		chapter_name = "C2",
 		type = 2,
@@ -98102,6 +98262,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Faded Faith",
 		chapter_name = "C3",
 		type = 2,
@@ -98760,6 +98921,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Protector",
 		chapter_name = "C4",
 		type = 2,
@@ -99464,6 +99626,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "New Sprout",
 		chapter_name = "D1",
 		type = 2,
@@ -100221,6 +100384,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Steel Sakura",
 		chapter_name = "D2",
 		type = 2,
@@ -100929,6 +101093,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Otherworldly Sakura",
 		chapter_name = "EX",
 		type = 2,
@@ -101338,6 +101503,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Opening~",
 		chapter_name = "A1",
 		type = 1,
@@ -101896,6 +102062,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Development~",
 		chapter_name = "A2",
 		type = 1,
@@ -102594,6 +102761,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Initiative~",
 		chapter_name = "A3",
 		type = 1,
@@ -103259,6 +103427,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Promotion~",
 		chapter_name = "A4",
 		type = 1,
@@ -104042,6 +104211,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Transposition~",
 		chapter_name = "B1",
 		type = 1,
@@ -104620,6 +104790,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Deflection~",
 		chapter_name = "B2",
 		type = 1,
@@ -105206,6 +105377,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Overloading~",
 		chapter_name = "B3",
 		type = 1,
@@ -105847,6 +106019,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Checkmate~",
 		chapter_name = "B4",
 		type = 1,
@@ -106644,6 +106817,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Opening~",
 		chapter_name = "C1",
 		type = 2,
@@ -107243,6 +107417,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Development~",
 		chapter_name = "C2",
 		type = 2,
@@ -107984,6 +108159,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Initiative~",
 		chapter_name = "C3",
 		type = 2,
@@ -108690,6 +108866,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Promotion~",
 		chapter_name = "C4",
 		type = 2,
@@ -109514,6 +109691,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Transposition~",
 		chapter_name = "D1",
 		type = 2,
@@ -110133,6 +110311,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Deflection~",
 		chapter_name = "D2",
 		type = 2,
@@ -110760,6 +110939,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Overloading~",
 		chapter_name = "D3",
 		type = 2,
@@ -111442,6 +111622,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Checkmate~",
 		chapter_name = "D4",
 		type = 2,
@@ -112280,6 +112461,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Ending~ ",
 		chapter_name = "EX",
 		type = 2,
@@ -112708,6 +112890,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Alarm Under the Moon",
 		chapter_name = "SP1",
 		type = 1,
@@ -113202,6 +113385,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Suffering Sisters",
 		chapter_name = "SP2",
 		type = 1,
@@ -113757,6 +113941,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Unbreakable Bond",
 		chapter_name = "SP3",
 		type = 1,
@@ -114350,6 +114535,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Alarm Under the Moon",
 		chapter_name = "SP1",
 		type = 1,
@@ -114844,6 +115030,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Suffering Sisters",
 		chapter_name = "SP2",
 		type = 1,
@@ -115399,6 +115586,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Unbreakable Bond",
 		chapter_name = "SP3",
 		type = 1,
@@ -115992,6 +116180,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Eve of the Storm",
 		chapter_name = "A1",
 		type = 1,
@@ -116538,6 +116727,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Breakthrough",
 		chapter_name = "A2",
 		type = 1,
@@ -117190,6 +117380,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Operation Catapult",
 		chapter_name = "A3",
 		type = 1,
@@ -117954,6 +118145,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Rendezvous",
 		chapter_name = "B1",
 		type = 1,
@@ -118513,6 +118705,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Roar of Justice",
 		chapter_name = "B2",
 		type = 1,
@@ -119177,6 +119370,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Operation Torch",
 		chapter_name = "B3",
 		type = 1,
@@ -119974,6 +120168,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Eve of the Storm",
 		chapter_name = "C1",
 		type = 2,
@@ -120561,6 +120756,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Breakthrough",
 		chapter_name = "C2",
 		type = 2,
@@ -121254,6 +121450,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Operation Catapult",
 		chapter_name = "C3",
 		type = 2,
@@ -122059,6 +122256,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Rendezvous",
 		chapter_name = "D1",
 		type = 2,
@@ -122661,6 +122859,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Roar of Justice",
 		chapter_name = "D2",
 		type = 2,
@@ -123368,6 +123567,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Operation Torch",
 		chapter_name = "D3",
 		type = 2,
@@ -124201,6 +124401,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Light and Dark",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -124587,6 +124788,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Inburst",
 		chapter_name = "A1",
 		type = 1,
@@ -125173,6 +125375,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Encounter",
 		chapter_name = "A2",
 		type = 1,
@@ -125820,6 +126023,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Confusion",
 		chapter_name = "A3",
 		type = 1,
@@ -126558,6 +126762,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Signal",
 		chapter_name = "B1",
 		type = 1,
@@ -127234,6 +127439,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Crisis",
 		chapter_name = "B2",
 		type = 1,
@@ -128051,6 +128257,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Showdown",
 		chapter_name = "B3",
 		type = 1,
@@ -129047,6 +129254,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Inburst",
 		chapter_name = "C1",
 		type = 2,
@@ -129674,6 +129882,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Encounter",
 		chapter_name = "C2",
 		type = 2,
@@ -130362,6 +130571,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Confusion",
 		chapter_name = "C3",
 		type = 2,
@@ -131141,6 +131351,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Signal",
 		chapter_name = "D1",
 		type = 2,
@@ -131858,6 +132069,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Crisis",
 		chapter_name = "D2",
 		type = 2,
@@ -132716,6 +132928,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Showdown",
 		chapter_name = "D3",
 		type = 2,
@@ -133753,6 +133966,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Brave Wing",
 		chapter_name = "EX",
 		type = 2,
@@ -134268,6 +134482,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Shots Before Daybreak",
 		chapter_name = "SP1",
 		type = 1,
@@ -134804,6 +135019,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Confrontation At Sea",
 		chapter_name = "SP2",
 		type = 1,
@@ -135398,6 +135614,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Twilight Warrior",
 		chapter_name = "SP3",
 		type = 1,
@@ -136031,6 +136248,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Pawn's Gambit",
 		chapter_name = "A1",
 		type = 1,
@@ -136632,6 +136850,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Knight's Check",
 		chapter_name = "A2",
 		type = 1,
@@ -137204,6 +137423,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Clash of the Generals",
 		chapter_name = "A3",
 		type = 1,
@@ -137872,6 +138092,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Pursuit of Sunset ",
 		chapter_name = "B1",
 		type = 1,
@@ -138541,6 +138762,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Dark Before Dawn",
 		chapter_name = "B2",
 		type = 1,
@@ -139253,6 +139475,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "A Will Inherited",
 		chapter_name = "B3",
 		type = 1,
@@ -139939,6 +140162,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Pawn's Gambit",
 		chapter_name = "C1",
 		type = 2,
@@ -140582,6 +140806,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Knight's Check",
 		chapter_name = "C2",
 		type = 2,
@@ -141196,6 +141421,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Clash of the Generals",
 		chapter_name = "C3",
 		type = 2,
@@ -141906,6 +142132,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Pursuit of Sunset ",
 		chapter_name = "D1",
 		type = 2,
@@ -142617,6 +142844,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Dark Before Dawn",
 		chapter_name = "D2",
 		type = 2,
@@ -143373,6 +143601,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "A Will Inherited",
 		chapter_name = "D3",
 		type = 2,
@@ -144103,6 +144332,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Crimson and Jade",
 		chapter_name = "EX",
 		type = 2,
@@ -144511,6 +144741,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "March of the Iron Blood",
 		chapter_name = "SP0",
 		type = 1,
@@ -145100,6 +145331,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Recon in the Blizzard",
 		chapter_name = "SP1",
 		type = 1,
@@ -145838,6 +146070,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Blitz in the Fjord",
 		chapter_name = "SP2",
 		type = 1,
@@ -146592,6 +146825,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Stars of the Shimmering Fjord",
 		chapter_name = "SP3",
 		type = 1,
@@ -147339,6 +147573,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Homewards",
 		chapter_name = "A1",
 		type = 1,
@@ -147940,6 +148175,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Abnormality",
 		chapter_name = "A2",
 		type = 1,
@@ -148506,6 +148742,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Faded Faith",
 		chapter_name = "A3",
 		type = 1,
@@ -149170,6 +149407,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Protector",
 		chapter_name = "A4",
 		type = 1,
@@ -149832,6 +150070,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "New Sprout",
 		chapter_name = "B1",
 		type = 1,
@@ -150545,6 +150784,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Steel Sakura",
 		chapter_name = "B2",
 		type = 1,
@@ -151317,6 +151557,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Homewards",
 		chapter_name = "C1",
 		type = 2,
@@ -151961,6 +152202,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Abnormality",
 		chapter_name = "C2",
 		type = 2,
@@ -152569,6 +152811,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Faded Faith",
 		chapter_name = "C3",
 		type = 2,
@@ -153275,6 +153518,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Protector",
 		chapter_name = "C4",
 		type = 2,
@@ -153979,6 +154223,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "New Sprout",
 		chapter_name = "D1",
 		type = 2,
@@ -154736,6 +154981,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Steel Sakura",
 		chapter_name = "D2",
 		type = 2,
@@ -155553,6 +155799,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Otherworldly Sakura",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -155966,6 +156213,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Eve of the Storm",
 		chapter_name = "A1",
 		type = 1,
@@ -156512,6 +156760,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Breakthrough",
 		chapter_name = "A2",
 		type = 1,
@@ -157164,6 +157413,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Operation Catapult",
 		chapter_name = "A3",
 		type = 1,
@@ -157928,6 +158178,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Rendezvous",
 		chapter_name = "B1",
 		type = 1,
@@ -158487,6 +158738,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Roar of Justice",
 		chapter_name = "B2",
 		type = 1,
@@ -159150,6 +159402,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Operation Torch",
 		chapter_name = "B3",
 		type = 1,
@@ -159942,6 +160195,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Eve of the Storm",
 		chapter_name = "C1",
 		type = 2,
@@ -160529,6 +160783,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Breakthrough",
 		chapter_name = "C2",
 		type = 2,
@@ -161222,6 +161477,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Operation Catapult",
 		chapter_name = "C3",
 		type = 2,
@@ -162027,6 +162283,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Rendezvous",
 		chapter_name = "D1",
 		type = 2,
@@ -162629,6 +162886,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Roar of Justice",
 		chapter_name = "D2",
 		type = 2,
@@ -163336,6 +163594,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Operation Torch",
 		chapter_name = "D3",
 		type = 2,
@@ -164168,6 +164427,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Graceful Iris",
 		chapter_name = "SP",
 		type = 2,
@@ -164851,6 +165111,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Light and Dark",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -165236,6 +165497,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Frozen Seas",
 		chapter_name = "A1",
 		type = 1,
@@ -165822,6 +166084,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Opening Victory",
 		chapter_name = "A2",
 		type = 1,
@@ -166393,6 +166656,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Silver Precipice",
 		chapter_name = "A3",
 		type = 1,
@@ -167009,6 +167273,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Northern Parliament",
 		chapter_name = "B1",
 		type = 1,
@@ -167638,6 +167903,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Convergence and Counterattack",
 		chapter_name = "B2",
 		type = 1,
@@ -168215,6 +168481,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Frigid Stronghold",
 		chapter_name = "B3",
 		type = 1,
@@ -168855,6 +169122,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Frozen Seas",
 		chapter_name = "C1",
 		type = 2,
@@ -169484,6 +169752,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Opening Victory",
 		chapter_name = "C2",
 		type = 2,
@@ -170098,6 +170367,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Silver Precipice",
 		chapter_name = "C3",
 		type = 2,
@@ -170756,6 +171026,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Northern Parliament",
 		chapter_name = "D1",
 		type = 2,
@@ -171427,6 +171698,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Convergence and Counterattack",
 		chapter_name = "D2",
 		type = 2,
@@ -172048,6 +172320,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Frigid Stronghold",
 		chapter_name = "D3",
 		type = 2,
@@ -172732,6 +173005,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Union of Steel",
 		chapter_name = "SP",
 		type = 2,
@@ -173409,6 +173683,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Ruler of the Arctic Waters",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -173838,6 +174113,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Shots Before Daybreak",
 		chapter_name = "SP1",
 		type = 1,
@@ -174370,6 +174646,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Confrontation At Sea",
 		chapter_name = "SP2",
 		type = 1,
@@ -174960,6 +175237,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Twilight Warrior",
 		chapter_name = "SP3",
 		type = 1,
@@ -175587,6 +175865,7 @@ pg.chapter_template = {
 		map = 1330001,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Rescue Fleet",
 		chapter_name = "A1",
 		type = 1,
@@ -176136,6 +176415,7 @@ pg.chapter_template = {
 		map = 1330001,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Under the Mist",
 		chapter_name = "A2",
 		type = 1,
@@ -176713,6 +176993,7 @@ pg.chapter_template = {
 		map = 1330001,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "From the Abyss",
 		chapter_name = "A3",
 		type = 1,
@@ -177310,6 +177591,7 @@ pg.chapter_template = {
 		map = 1330002,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Return",
 		chapter_name = "B1",
 		type = 1,
@@ -177944,6 +178226,7 @@ pg.chapter_template = {
 		map = 1330002,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Hero's Party",
 		chapter_name = "B2",
 		type = 1,
@@ -178568,6 +178851,7 @@ pg.chapter_template = {
 		map = 1330002,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Mist Clears",
 		chapter_name = "B3",
 		type = 1,
@@ -179264,6 +179548,7 @@ pg.chapter_template = {
 		map = 1330011,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Rescue Fleet",
 		chapter_name = "C1",
 		type = 2,
@@ -179855,6 +180140,7 @@ pg.chapter_template = {
 		map = 1330011,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Under the Mist",
 		chapter_name = "C2",
 		type = 2,
@@ -180474,6 +180760,7 @@ pg.chapter_template = {
 		map = 1330011,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "From the Abyss",
 		chapter_name = "C3",
 		type = 2,
@@ -181114,6 +181401,7 @@ pg.chapter_template = {
 		map = 1330012,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Return",
 		chapter_name = "D1",
 		type = 2,
@@ -181790,6 +182078,7 @@ pg.chapter_template = {
 		map = 1330012,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Hero's Party",
 		chapter_name = "D2",
 		type = 2,
@@ -182458,6 +182747,7 @@ pg.chapter_template = {
 		map = 1330012,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Mist Clears",
 		chapter_name = "D3",
 		type = 2,
@@ -183198,6 +183488,7 @@ pg.chapter_template = {
 		map = 1330025,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Stars in the Firmament",
 		chapter_name = "SP",
 		type = 2,
@@ -183799,6 +184090,7 @@ pg.chapter_template = {
 		map = 1330026,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Microlayer Medley",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -184237,6 +184529,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Pawn's Gambit",
 		chapter_name = "A1",
 		type = 1,
@@ -184833,6 +185126,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Knight's Check",
 		chapter_name = "A2",
 		type = 1,
@@ -185400,6 +185694,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Clash of the Generals",
 		chapter_name = "A3",
 		type = 1,
@@ -186063,6 +186358,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Pursuit of Sunset ",
 		chapter_name = "B1",
 		type = 1,
@@ -186728,6 +187024,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Dark Before Dawn",
 		chapter_name = "B2",
 		type = 1,
@@ -187436,6 +187733,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "A Will Inherited",
 		chapter_name = "B3",
 		type = 1,
@@ -188118,6 +188416,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Pawn's Gambit",
 		chapter_name = "C1",
 		type = 2,
@@ -188756,6 +189055,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Knight's Check",
 		chapter_name = "C2",
 		type = 2,
@@ -189365,6 +189665,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Clash of the Generals",
 		chapter_name = "C3",
 		type = 2,
@@ -190070,6 +190371,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Pursuit of Sunset ",
 		chapter_name = "D1",
 		type = 2,
@@ -190777,6 +191079,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Dark Before Dawn",
 		chapter_name = "D2",
 		type = 2,
@@ -191529,6 +191832,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "A Will Inherited",
 		chapter_name = "D3",
 		type = 2,
@@ -192255,6 +192559,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Crimson and Jade",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -192663,6 +192968,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Dark Path Home",
 		chapter_name = "SP1",
 		type = 1,
@@ -193274,6 +193580,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Winter on the Méditerranée",
 		chapter_name = "SP2",
 		type = 1,
@@ -193945,6 +194252,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Forceful Breakthrough",
 		chapter_name = "SP3",
 		type = 1,
@@ -194612,6 +194920,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "A New Dawn",
 		chapter_name = "A1",
 		type = 1,
@@ -195192,6 +195501,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Information Exchange",
 		chapter_name = "A2",
 		type = 1,
@@ -195803,6 +196113,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Cardinal and the Knight",
 		chapter_name = "A3",
 		type = 1,
@@ -196507,6 +196818,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "God Incarnate",
 		chapter_name = "B1",
 		type = 1,
@@ -197201,6 +197513,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Surprise Attack",
 		chapter_name = "B2",
 		type = 1,
@@ -198213,6 +198526,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Under God's Banner",
 		chapter_name = "B3",
 		type = 1,
@@ -199977,6 +200291,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "A New Dawn",
 		chapter_name = "C1",
 		type = 2,
@@ -200599,6 +200914,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Information Exchange",
 		chapter_name = "C2",
 		type = 2,
@@ -201252,6 +201568,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Cardinal and the Knight",
 		chapter_name = "C3",
 		type = 2,
@@ -201999,6 +202316,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "God Incarnate",
 		chapter_name = "D1",
 		type = 2,
@@ -202734,6 +203052,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Surprise Attack",
 		chapter_name = "D2",
 		type = 2,
@@ -203789,6 +204108,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Under God's Banner",
 		chapter_name = "D3",
 		type = 2,
@@ -205596,6 +205916,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Hymn of the Bygone",
 		chapter_name = "SP",
 		type = 2,
@@ -206903,6 +207224,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Skybound Oratorio",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -207326,6 +207648,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Retreat",
 		chapter_name = "SP1",
 		type = 1,
@@ -208070,6 +208393,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Dark Clouds",
 		chapter_name = "SP2",
 		type = 1,
@@ -208821,6 +209145,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Danger",
 		chapter_name = "SP3",
 		type = 1,
@@ -209569,6 +209894,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Great Arctic Fleet",
 		chapter_name = "A1",
 		type = 1,
@@ -210152,12 +210478,7 @@ pg.chapter_template = {
 				-35
 			}
 		},
-		ambush_event_ratio = {
-			{
-				3001,
-				5000
-			}
-		},
+		ambush_event_ratio = {},
 		ambush_ratio_extra = {},
 		theme = {
 			"sea_yingxiv2_normal",
@@ -210255,6 +210576,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Polar Light",
 		chapter_name = "A2",
 		type = 1,
@@ -210822,12 +211144,7 @@ pg.chapter_template = {
 				0
 			}
 		},
-		ambush_event_ratio = {
-			{
-				3001,
-				5000
-			}
-		},
+		ambush_event_ratio = {},
 		ambush_ratio_extra = {},
 		theme = {
 			"sea_yingxiv2_normal",
@@ -210926,6 +211243,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Uninvited Guests",
 		chapter_name = "A3",
 		type = 1,
@@ -211514,12 +211832,7 @@ pg.chapter_template = {
 				0
 			}
 		},
-		ambush_event_ratio = {
-			{
-				3001,
-				5000
-			}
-		},
+		ambush_event_ratio = {},
 		ambush_ratio_extra = {},
 		theme = {
 			"sea_yingxiv2_normal",
@@ -211615,6 +211928,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Fangs of the Wolfpack",
 		chapter_name = "B1",
 		type = 1,
@@ -212358,6 +212672,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Phantom Fleet",
 		chapter_name = "B2",
 		type = 1,
@@ -213126,6 +213441,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "For the Queen",
 		chapter_name = "B3",
 		type = 1,
@@ -213991,6 +214307,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Great Arctic Fleet",
 		chapter_name = "C1",
 		type = 2,
@@ -214711,6 +215028,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Polar Light",
 		chapter_name = "C2",
 		type = 2,
@@ -215416,6 +215734,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Uninvited Guests",
 		chapter_name = "C3",
 		type = 2,
@@ -216139,6 +216458,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Fangs of the Wolfpack",
 		chapter_name = "D1",
 		type = 2,
@@ -216922,6 +217242,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Phantom Fleet",
 		chapter_name = "D2",
 		type = 2,
@@ -217732,6 +218053,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "For the Queen",
 		chapter_name = "D3",
 		type = 2,
@@ -218640,6 +218962,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Blinded by the Light",
 		chapter_name = "SP",
 		type = 2,
@@ -219784,6 +220107,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Aurora Noctis",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -220222,6 +220546,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Wolfpack",
 		chapter_name = "SP1",
 		type = 1,
@@ -220793,6 +221118,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Sink That Submarine",
 		chapter_name = "SP2",
 		type = 1,
@@ -221465,6 +221791,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Enigma's New Owner",
 		chapter_name = "SP3",
 		type = 1,
@@ -222102,6 +222429,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Backworldsmen",
 		chapter_name = "A1",
 		type = 1,
@@ -222668,6 +222996,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Great Longing",
 		chapter_name = "A2",
 		type = 1,
@@ -223236,6 +223565,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Joys and Passions",
 		chapter_name = "A3",
 		type = 1,
@@ -223889,6 +224219,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Songs of the Grave",
 		chapter_name = "B1",
 		type = 1,
@@ -224552,6 +224883,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Science and Learning",
 		chapter_name = "B2",
 		type = 1,
@@ -225258,6 +225590,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Convalescence",
 		chapter_name = "B3",
 		type = 1,
@@ -225936,6 +226269,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Backworldsmen",
 		chapter_name = "C1",
 		type = 2,
@@ -226544,6 +226878,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Great Longing",
 		chapter_name = "C2",
 		type = 2,
@@ -227154,6 +227489,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Joys and Passions",
 		chapter_name = "C3",
 		type = 2,
@@ -227849,6 +228185,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Songs of the Grave",
 		chapter_name = "D1",
 		type = 2,
@@ -228554,6 +228891,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Science and Learning",
 		chapter_name = "D2",
 		type = 2,
@@ -229304,6 +229642,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Convalescence",
 		chapter_name = "D3",
 		type = 2,
@@ -230026,6 +230365,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Song of Dance",
 		chapter_name = "SP",
 		type = 2,
@@ -230696,6 +231036,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Night Wanderer",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -231098,6 +231439,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Game of Reenactment",
 		chapter_name = "T1",
 		type = 1,
@@ -231883,6 +232225,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Drifting, Swelling",
 		chapter_name = "T2",
 		type = 1,
@@ -232550,6 +232893,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Final Torch",
 		chapter_name = "T3",
 		type = 1,
@@ -233397,6 +233741,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The First Voyage",
 		chapter_name = "T4",
 		type = 1,
@@ -234401,6 +234746,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Fragments of Fate",
 		chapter_name = "T5",
 		type = 1,
@@ -235309,6 +235655,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "To Shatter Destiny",
 		chapter_name = "T6",
 		type = 1,
@@ -236329,6 +236676,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Dreamwaker's Butterfly",
 		chapter_name = "TS1",
 		type = 1,
@@ -236852,6 +237200,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Light's Procession",
 		chapter_name = "TS2",
 		type = 1,
@@ -237497,6 +237846,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Game of Reenactment",
 		chapter_name = "HT1",
 		type = 2,
@@ -238323,6 +238673,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Drifting, Swelling",
 		chapter_name = "HT2",
 		type = 2,
@@ -239032,6 +239383,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Final Torch",
 		chapter_name = "HT3",
 		type = 2,
@@ -239921,6 +240273,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The First Voyage",
 		chapter_name = "HT4",
 		type = 2,
@@ -240966,6 +241319,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Fragments of Fate",
 		chapter_name = "HT5",
 		type = 2,
@@ -241917,6 +242271,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "To Shatter Destiny",
 		chapter_name = "HT6",
 		type = 2,
@@ -242981,6 +243336,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Dreamwaker's Butterfly",
 		chapter_name = "HTS1",
 		type = 1,
@@ -243504,6 +243860,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Light's Procession",
 		chapter_name = "HTS2",
 		type = 1,
@@ -244149,6 +244506,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Restful Dreams",
 		chapter_name = "SP",
 		type = 2,
@@ -245171,6 +245529,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Harrowing Dreams",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -245610,6 +245969,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "A Careful Stratagem",
 		chapter_name = "SP1",
 		type = 1,
@@ -246212,6 +246572,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Interception",
 		chapter_name = "SP2",
 		type = 1,
@@ -246826,6 +247187,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Air Superiority",
 		chapter_name = "SP3",
 		type = 1,
@@ -247436,6 +247798,7 @@ pg.chapter_template = {
 		map = 1430001,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Amassing Starlight",
 		chapter_name = "SP1",
 		type = 1,
@@ -248025,6 +248388,7 @@ pg.chapter_template = {
 		map = 1430001,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Rehearsing Astrum",
 		chapter_name = "SP2",
 		type = 1,
@@ -248699,6 +249063,7 @@ pg.chapter_template = {
 		map = 1430001,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Glamorous Lumière",
 		chapter_name = "SP3",
 		type = 1,
@@ -249380,6 +249745,7 @@ pg.chapter_template = {
 		map = 1430001,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Guiding Polaris",
 		chapter_name = "SP4",
 		type = 1,
@@ -250076,6 +250442,7 @@ pg.chapter_template = {
 		map = 1430001,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Ardent Verheerender",
 		chapter_name = "SP5",
 		type = 1,
@@ -250987,6 +251354,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Leisurely Bonus Time",
 		chapter_name = "μSP",
 		type = 2,
@@ -251642,6 +252010,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Unison Encore",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -252041,6 +252410,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "A New Encounter",
 		chapter_name = "SP1",
 		type = 1,
@@ -252659,6 +253029,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Sisters in Battle",
 		chapter_name = "SP2",
 		type = 1,
@@ -253331,6 +253702,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Best Team",
 		chapter_name = "SP3",
 		type = 1,
@@ -254004,6 +254376,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Final Battle",
 		chapter_name = "SP4",
 		type = 1,
@@ -254760,6 +255133,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "An Azure Vacation",
 		chapter_name = "VSP",
 		type = 2,
@@ -255408,6 +255782,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Dance of the Venuses",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -255861,6 +256236,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Preparation",
 		chapter_name = "A1",
 		type = 1,
@@ -256430,12 +256806,7 @@ pg.chapter_template = {
 				22
 			}
 		},
-		ambush_event_ratio = {
-			{
-				3001,
-				5000
-			}
-		},
+		ambush_event_ratio = {},
 		ambush_ratio_extra = {},
 		theme = {
 			"sea_doa",
@@ -256540,6 +256911,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Fruits of Training",
 		chapter_name = "A2",
 		type = 1,
@@ -257099,12 +257471,7 @@ pg.chapter_template = {
 				-18
 			}
 		},
-		ambush_event_ratio = {
-			{
-				3001,
-				5000
-			}
-		},
+		ambush_event_ratio = {},
 		ambush_ratio_extra = {},
 		theme = {
 			"sea_doa",
@@ -257205,6 +257572,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Out of Control",
 		chapter_name = "A3",
 		type = 1,
@@ -257756,12 +258124,7 @@ pg.chapter_template = {
 				26
 			}
 		},
-		ambush_event_ratio = {
-			{
-				3001,
-				5000
-			}
-		},
+		ambush_event_ratio = {},
 		ambush_ratio_extra = {},
 		theme = {
 			"sea_doa",
@@ -257866,6 +258229,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Sudden Visitors",
 		chapter_name = "B1",
 		type = 1,
@@ -258613,6 +258977,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Waves of Attackers",
 		chapter_name = "B2",
 		type = 1,
@@ -259407,6 +259772,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Above the Night Sky",
 		chapter_name = "B3",
 		type = 1,
@@ -260376,6 +260742,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Preparation",
 		chapter_name = "C1",
 		type = 2,
@@ -261091,6 +261458,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Fruits of Training",
 		chapter_name = "C2",
 		type = 2,
@@ -261792,6 +262160,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Out of Control",
 		chapter_name = "C3",
 		type = 2,
@@ -262491,6 +262860,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Sudden Visitors",
 		chapter_name = "D1",
 		type = 2,
@@ -263279,6 +263649,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Waves of Attackers",
 		chapter_name = "D2",
 		type = 2,
@@ -264116,6 +264487,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Above the Night Sky",
 		chapter_name = "D3",
 		type = 2,
@@ -265128,6 +265500,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Breach of Agreement",
 		chapter_name = "SP",
 		type = 2,
@@ -266270,6 +266643,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "\"Inverted Orthant\"",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -266712,6 +267086,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Vestibule of Hell",
 		chapter_name = "A1",
 		type = 1,
@@ -267285,6 +267660,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Purgatorio",
 		chapter_name = "A2",
 		type = 1,
@@ -267878,6 +268254,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Cocytus",
 		chapter_name = "A3",
 		type = 1,
@@ -268565,6 +268942,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Sardegna's Gambit",
 		chapter_name = "AS1",
 		type = 1,
@@ -269102,6 +269480,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Royal Manoeuvre",
 		chapter_name = "AS2",
 		type = 1,
@@ -269694,6 +270073,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Torus of Tribulation",
 		chapter_name = "B1",
 		type = 1,
@@ -270297,6 +270677,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Mass at Dusk",
 		chapter_name = "B2",
 		type = 1,
@@ -270942,6 +271323,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Jewel of Calabria",
 		chapter_name = "B3",
 		type = 1,
@@ -271554,6 +271936,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Vestibule of Hell",
 		chapter_name = "C1",
 		type = 2,
@@ -272169,6 +272552,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Purgatorio",
 		chapter_name = "C2",
 		type = 2,
@@ -272802,6 +273186,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Cocytus",
 		chapter_name = "C3",
 		type = 2,
@@ -273530,6 +273915,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Sardegna's Gambit",
 		chapter_name = "CS1",
 		type = 2,
@@ -274109,6 +274495,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Royal Manoeuvre",
 		chapter_name = "CS2",
 		type = 2,
@@ -274744,6 +275131,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Torus of Tribulation",
 		chapter_name = "D1",
 		type = 2,
@@ -275388,6 +275776,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Mass at Dusk",
 		chapter_name = "D2",
 		type = 2,
@@ -276076,6 +276465,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Jewel of Calabria",
 		chapter_name = "D3",
 		type = 2,
@@ -276730,6 +277120,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Paradiso",
 		chapter_name = "SP",
 		type = 2,
@@ -277400,6 +277791,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Canto",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -277767,6 +278159,11052 @@ pg.chapter_template = {
 		wall_prefab = {},
 		alarm_cell = {}
 	},
+	[1480001] = {
+		pos_x = "0.2515625",
+		num_3 = 1,
+		progress_boss = 50,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "POXIAOBINGHUA3",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 100,
+		best_air_dominance = 150,
+		id = 1480001,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 0,
+		formation = 1480001,
+		bgm = "bgm-cccp2",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.392708333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 23,
+		ammo_submarine = 0,
+		num_2 = 10,
+		is_ai = 1,
+		map = 1480001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "Invitation to Arcanum",
+		chapter_name = "A1",
+		type = 1,
+		act_id = 904,
+		enter_story = "POXIAOBINGHUA2",
+		boss_refresh = 3,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "Secrets slumber beneath the waves of the Northern Parliament. Your mission is to journey to the \"Arcana Sanctum.\"",
+		difficulty = 3,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1500001,
+				15,
+				0
+			},
+			{
+				1500002,
+				20,
+				0
+			},
+			{
+				1500003,
+				30,
+				1
+			},
+			{
+				1500004,
+				15,
+				0
+			},
+			{
+				1500005,
+				20,
+				0
+			},
+			{
+				1500006,
+				30,
+				1
+			},
+			{
+				1500007,
+				15,
+				0
+			},
+			{
+				1500008,
+				20,
+				0
+			},
+			{
+				1500009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1500005,
+			1500008
+		},
+		ai_expedition_list = {
+			1500301
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1500013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhongxun"
+		},
+		awards = {
+			{
+				2,
+				58132
+			},
+			{
+				2,
+				58120
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				1
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				8
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				16
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				4
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				12
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				4
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				4
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				6
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				5,
+				"maoxiv2_real_3x1_1",
+				0,
+				16
+			},
+			{
+				6,
+				0,
+				"maoxiv2_real_1x2_2",
+				3,
+				55
+			},
+			{
+				3,
+				3,
+				"maoxiv2_real_2x2_1",
+				51,
+				-9
+			},
+			{
+				1,
+				7,
+				"maoxiv2_real_2x2_2",
+				50,
+				-12
+			},
+			{
+				1,
+				3,
+				"maoxiv2_real_1x1_2",
+				0,
+				26
+			},
+			{
+				0,
+				0,
+				"maoxiv2_real_1x1_1",
+				4,
+				22
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_normal",
+			45,
+			20,
+			-163,
+			-120,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"POXIAOBINGHUA4"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480002] = {
+		pos_x = "0.38203125",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "POXIAOBINGHUA6",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 130,
+		best_air_dominance = 170,
+		id = 1480002,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480001,
+		formation = 1480001,
+		bgm = "bgm-cccp2",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.052083333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 24,
+		ammo_submarine = 0,
+		num_2 = 15,
+		is_ai = 1,
+		map = 1480001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "Convergence",
+		chapter_name = "A2",
+		type = 1,
+		act_id = 904,
+		enter_story = "POXIAOBINGHUA5",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "Allies carry out a daring feint to buy more time, but the enemies show no sign of retreat. Protect the Sanctum at all costs!",
+		difficulty = 4,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1500101,
+				15,
+				0
+			},
+			{
+				1500102,
+				20,
+				0
+			},
+			{
+				1500103,
+				30,
+				1
+			},
+			{
+				1500104,
+				15,
+				0
+			},
+			{
+				1500105,
+				20,
+				0
+			},
+			{
+				1500106,
+				30,
+				1
+			},
+			{
+				1500107,
+				15,
+				0
+			},
+			{
+				1500108,
+				20,
+				0
+			},
+			{
+				1500109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1500105,
+			1500108
+		},
+		ai_expedition_list = {
+			1500302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1500113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhanlie"
+		},
+		awards = {
+			{
+				2,
+				58133
+			},
+			{
+				2,
+				58121
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				4
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				12
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				1
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				4
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				12
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				8
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				4
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				3,
+				"maoxiv2_real_1x1_1",
+				3,
+				18
+			},
+			{
+				5,
+				7,
+				"maoxiv2_real_2x2_2",
+				46,
+				-20
+			},
+			{
+				3,
+				3,
+				"maoxiv2_real_1x2_2",
+				0,
+				-22
+			},
+			{
+				3,
+				1,
+				"maoxiv2_real_1x1_1",
+				1,
+				24
+			},
+			{
+				1,
+				7,
+				"maoxiv2_real_1x1_4",
+				4,
+				20
+			},
+			{
+				1,
+				3,
+				"maoxiv2_real_1x1_4",
+				4,
+				20
+			},
+			{
+				0,
+				8,
+				"maoxiv2_real_3x1_1",
+				-99,
+				21
+			},
+			{
+				0,
+				2,
+				"maoxiv2_real_3x1_1",
+				102,
+				21
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_normal",
+			45,
+			20,
+			-98,
+			-107,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"POXIAOBINGHUA7",
+			"POXIAOBINGHUA8"
+		},
+		defeat_story_count = {
+			1,
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480003] = {
+		pos_x = "0.665625",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "POXIAOBINGHUA10",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 205,
+		best_air_dominance = 270,
+		id = 1480003,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480002,
+		formation = 1480001,
+		bgm = "bgm-cccp2",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.344791667",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 24,
+		ammo_submarine = 0,
+		num_2 = 15,
+		is_ai = 1,
+		map = 1480001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "The Mirror Under the Sea",
+		chapter_name = "A3",
+		type = 1,
+		act_id = 904,
+		enter_story = "POXIAOBINGHUA9",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "A Mirror Sea discovered beneath the waves, a breathtaking new reality. What secrets lie in this sealed-away Sanctum?",
+		difficulty = 5,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1500201,
+				15,
+				0
+			},
+			{
+				1500202,
+				20,
+				0
+			},
+			{
+				1500203,
+				30,
+				1
+			},
+			{
+				1500204,
+				15,
+				0
+			},
+			{
+				1500205,
+				20,
+				0
+			},
+			{
+				1500206,
+				30,
+				1
+			},
+			{
+				1500207,
+				15,
+				0
+			},
+			{
+				1500208,
+				20,
+				0
+			},
+			{
+				1500209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1500205,
+			1500208
+		},
+		ai_expedition_list = {
+			1500303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1500213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenhangmu"
+		},
+		awards = {
+			{
+				2,
+				58134
+			},
+			{
+				2,
+				58122
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				true,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				0
+			},
+			{
+				9,
+				4,
+				true,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				0
+			},
+			{
+				9,
+				2,
+				false,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				false,
+				0
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				1
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				1
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				6
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				16
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				12
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				4
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				8
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				4
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				12
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				4
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				9,
+				6,
+				"maoxiv2_real_1x1_4",
+				4,
+				21
+			},
+			{
+				9,
+				2,
+				"maoxiv2_real_1x1_4",
+				4,
+				21
+			},
+			{
+				8,
+				5,
+				"maoxiv2_real_3x1_1",
+				102,
+				19
+			},
+			{
+				8,
+				1,
+				"maoxiv2_real_3x1_1",
+				102,
+				19
+			},
+			{
+				6,
+				8,
+				"maoxiv2_real_1x2_2",
+				-2,
+				-21
+			},
+			{
+				6,
+				6,
+				"maoxiv2_real_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				2,
+				"maoxiv2_real_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				0,
+				"maoxiv2_real_1x2_1",
+				0,
+				-15
+			},
+			{
+				2,
+				6,
+				"maoxiv2_real_1x1_4",
+				4,
+				21
+			},
+			{
+				2,
+				2,
+				"maoxiv2_real_1x1_4",
+				4,
+				21
+			},
+			{
+				1,
+				8,
+				"maoxiv2_real_1x2_1",
+				1,
+				-15
+			},
+			{
+				1,
+				0,
+				"maoxiv2_real_1x2_2",
+				-2,
+				-21
+			},
+			{
+				0,
+				5,
+				"maoxiv2_real_3x1_1",
+				102,
+				19
+			},
+			{
+				0,
+				4,
+				"maoxiv2_real_1x1_1",
+				3,
+				23
+			},
+			{
+				0,
+				1,
+				"maoxiv2_real_3x1_1",
+				102,
+				19
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_normal",
+			45,
+			20,
+			-230,
+			137,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"POXIAOBINGHUA12",
+			"POXIAOBINGHUA13",
+			"POXIAOBINGHUA14"
+		},
+		defeat_story_count = {
+			1,
+			2,
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480004] = {
+		pos_x = "0.23125",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 220,
+		best_air_dominance = 290,
+		id = 1480004,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480003,
+		formation = 1480002,
+		bgm = "deepblue-image",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.227083333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 25,
+		is_ai = 1,
+		map = 1480002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "City of Light",
+		chapter_name = "B1",
+		type = 1,
+		act_id = 905,
+		enter_story = "POXIAOBINGHUA16",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "Scattered wisps coalesce into a massive city of pure light. What awaits you on the other side of the veil?",
+		difficulty = 5,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1501001,
+				15,
+				0
+			},
+			{
+				1501002,
+				20,
+				0
+			},
+			{
+				1501003,
+				30,
+				1
+			},
+			{
+				1501004,
+				15,
+				0
+			},
+			{
+				1501005,
+				20,
+				0
+			},
+			{
+				1501006,
+				30,
+				1
+			},
+			{
+				1501007,
+				15,
+				0
+			},
+			{
+				1501008,
+				20,
+				0
+			},
+			{
+				1501009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1501005,
+			1501008
+		},
+		ai_expedition_list = {
+			1501301,
+			1501302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1501013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhongxun_M"
+		},
+		awards = {
+			{
+				2,
+				58135
+			},
+			{
+				2,
+				58123
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				4
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				12
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				16
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				4
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				1
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				1
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				8
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				6,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				7,
+				2,
+				"maoxiv2_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				7,
+				1,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				2,
+				"maoxiv2_virtual_1x1_1",
+				1,
+				24
+			},
+			{
+				5,
+				8,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				5,
+				6,
+				"maoxiv2_virtual_2x2_2",
+				53,
+				-16
+			},
+			{
+				3,
+				2,
+				"maoxiv2_virtual_1x2_2",
+				-6,
+				-25
+			},
+			{
+				3,
+				0,
+				"maoxiv2_virtual_1x1_1",
+				1,
+				24
+			},
+			{
+				2,
+				8,
+				"maoxiv2_virtual_1x2_1",
+				-2,
+				-22
+			},
+			{
+				1,
+				6,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				1,
+				2,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				0,
+				5,
+				"maoxiv2_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				0,
+				1,
+				"maoxiv2_virtual_3x1_1",
+				102,
+				19
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_normal",
+			45,
+			20,
+			-231,
+			-325,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"POXIAOBINGHUA17"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		ItemTransformPattern = {
+			[8] = {
+				"virtual",
+				"real"
+			}
+		},
+		chapter_buff = {
+			8846
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480005] = {
+		pos_x = "0.5390625",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "POXIAOBINGHUA20",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 300,
+		best_air_dominance = 390,
+		id = 1480005,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480004,
+		formation = 1480002,
+		bgm = "deepblue-image",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.052083333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 30,
+		is_ai = 1,
+		map = 1480002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "拨片 ",
+		chapter_name = "B2",
+		type = 1,
+		act_id = 905,
+		enter_story = "POXIAOBINGHUA18",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "预想中的返回之路没有出现，取而代之的是一处昏暗而巨大的会议厅，这里究竟是什么地方…… ",
+		difficulty = 6,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1501101,
+				15,
+				0
+			},
+			{
+				1501102,
+				20,
+				0
+			},
+			{
+				1501103,
+				30,
+				1
+			},
+			{
+				1501104,
+				15,
+				0
+			},
+			{
+				1501105,
+				20,
+				0
+			},
+			{
+				1501106,
+				30,
+				1
+			},
+			{
+				1501107,
+				15,
+				0
+			},
+			{
+				1501108,
+				20,
+				0
+			},
+			{
+				1501109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1501105,
+			1501108
+		},
+		ai_expedition_list = {
+			1501303,
+			1501304
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1501113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhanlie_M"
+		},
+		awards = {
+			{
+				2,
+				58136
+			},
+			{
+				2,
+				58124
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				4
+			},
+			{
+				5,
+				8,
+				true,
+				12
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				4
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				8
+			},
+			{
+				4,
+				10,
+				true,
+				1
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				4
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				1
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				12
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				10,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				12
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				10,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				true,
+				6
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				8,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				4,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				1,
+				"maoxiv2_virtual_3x1_1",
+				102,
+				12
+			},
+			{
+				5,
+				10,
+				"maoxiv2_virtual_1x2_1",
+				0,
+				-24
+			},
+			{
+				5,
+				6,
+				"maoxiv2_virtual_1x2_1",
+				0,
+				-24
+			},
+			{
+				3,
+				0,
+				"maoxiv2_virtual_2x2_1",
+				32,
+				-26
+			},
+			{
+				2,
+				9,
+				"maoxiv2_virtual_1x1_3",
+				3,
+				18
+			},
+			{
+				2,
+				6,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				1,
+				10,
+				"maoxiv2_virtual_1x2_2",
+				0,
+				-16
+			},
+			{
+				1,
+				4,
+				"maoxiv2_virtual_2x2_2",
+				53,
+				-4
+			},
+			{
+				1,
+				0,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				0,
+				10,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_normal",
+			45,
+			20,
+			-535,
+			-117,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"POXIAOBINGHUA19"
+		},
+		defeat_story = {
+			"POXIAOBINGHUA21"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		ItemTransformPattern = {
+			[8] = {
+				"virtual",
+				"real"
+			}
+		},
+		chapter_buff = {
+			8846
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480006] = {
+		pos_x = "0.67109375",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "POXIAOBINGHUA24",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 380,
+		best_air_dominance = 495,
+		id = 1480006,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480005,
+		formation = 1480002,
+		bgm = "deepblue-image",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.383333333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 30,
+		is_ai = 1,
+		map = 1480002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "记录机构 ",
+		chapter_name = "B3",
+		type = 1,
+		act_id = 905,
+		enter_story = "POXIAOBINGHUA22",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "海域中出现未知敌人，可是在另一处轨道下方，也许什么都不存在……战斗，直到光芒消散为止。 ",
+		difficulty = 7,
+		avoid_ratio = 12,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1501201,
+				15,
+				0
+			},
+			{
+				1501202,
+				20,
+				0
+			},
+			{
+				1501203,
+				30,
+				1
+			},
+			{
+				1501204,
+				15,
+				0
+			},
+			{
+				1501205,
+				20,
+				0
+			},
+			{
+				1501206,
+				30,
+				1
+			},
+			{
+				1501207,
+				15,
+				0
+			},
+			{
+				1501208,
+				20,
+				0
+			},
+			{
+				1501209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1501205,
+			1501208
+		},
+		ai_expedition_list = {
+			1501305,
+			1501306,
+			1501307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1501213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenboss12"
+		},
+		awards = {
+			{
+				2,
+				58137
+			},
+			{
+				2,
+				58125
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				true,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				0
+			},
+			{
+				9,
+				4,
+				true,
+				8
+			},
+			{
+				9,
+				3,
+				true,
+				0
+			},
+			{
+				9,
+				2,
+				false,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				false,
+				0
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				4
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				4
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				12
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				4
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				true,
+				4
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				1
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				1
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				9,
+				6,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				9,
+				2,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				8,
+				5,
+				"maoxiv2_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				8,
+				1,
+				"maoxiv2_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				6,
+				8,
+				"maoxiv2_virtual_1x2_2",
+				-2,
+				-21
+			},
+			{
+				6,
+				6,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				2,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				0,
+				"maoxiv2_virtual_1x2_1",
+				0,
+				-15
+			},
+			{
+				2,
+				6,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				2,
+				2,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				1,
+				8,
+				"maoxiv2_virtual_1x2_1",
+				1,
+				-15
+			},
+			{
+				1,
+				0,
+				"maoxiv2_virtual_1x2_2",
+				-2,
+				-21
+			},
+			{
+				0,
+				5,
+				"maoxiv2_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				0,
+				4,
+				"maoxiv2_virtual_1x1_1",
+				3,
+				23
+			},
+			{
+				0,
+				1,
+				"maoxiv2_virtual_3x1_1",
+				102,
+				19
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_normal",
+			45,
+			20,
+			-230,
+			-270,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"POXIAOBINGHUA23"
+		},
+		defeat_story = {
+			"POXIAOBINGHUA26",
+			"POXIAOBINGHUA27",
+			"POXIAOBINGHUA28",
+			"POXIAOBINGHUA29",
+			"POXIAOBINGHUA30",
+			"POXIAOBINGHUA31"
+		},
+		defeat_story_count = {
+			1,
+			4,
+			5,
+			6,
+			7,
+			8
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		ItemTransformPattern = {
+			[8] = {
+				"virtual",
+				"real"
+			}
+		},
+		chapter_buff = {
+			8846
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480021] = {
+		pos_x = "0.2515625",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "POXIAOBINGHUA3",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 450,
+		best_air_dominance = 585,
+		id = 1480021,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 0,
+		formation = 1480011,
+		bgm = "bgm-cccp2",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.392708333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 17,
+		is_ai = 1,
+		map = 1480011,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "Invitation to Arcanum",
+		chapter_name = "C1",
+		type = 2,
+		act_id = 904,
+		enter_story = "POXIAOBINGHUA2",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "Secrets slumber beneath the waves of the Northern Parliament. Your mission is to journey to the \"Arcana Sanctum.\"",
+		difficulty = 6,
+		avoid_ratio = 12,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					2,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				70
+			},
+			{
+				"cannon",
+				1,
+				700
+			},
+			{
+				"antiaircraft",
+				1,
+				1200
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1502001,
+				15,
+				0
+			},
+			{
+				1502002,
+				20,
+				0
+			},
+			{
+				1502003,
+				30,
+				1
+			},
+			{
+				1502004,
+				15,
+				0
+			},
+			{
+				1502005,
+				20,
+				0
+			},
+			{
+				1502006,
+				30,
+				1
+			},
+			{
+				1502007,
+				15,
+				0
+			},
+			{
+				1502008,
+				20,
+				0
+			},
+			{
+				1502009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1502005,
+			1502008
+		},
+		ai_expedition_list = {
+			1502301,
+			1502302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1502013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhongxun"
+		},
+		awards = {
+			{
+				2,
+				58150
+			},
+			{
+				2,
+				58138
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				1
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				8
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				16
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				4
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				12
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				4
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				4
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				6
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				5,
+				"maoxiv2hard_real_3x1_1",
+				0,
+				16
+			},
+			{
+				6,
+				0,
+				"maoxiv2hard_real_1x2_2",
+				3,
+				55
+			},
+			{
+				3,
+				3,
+				"maoxiv2hard_real_2x2_1",
+				51,
+				-9
+			},
+			{
+				1,
+				7,
+				"maoxiv2hard_real_2x2_2",
+				50,
+				-12
+			},
+			{
+				1,
+				3,
+				"maoxiv2hard_real_1x1_2",
+				0,
+				26
+			},
+			{
+				0,
+				0,
+				"maoxiv2hard_real_1x1_1",
+				4,
+				22
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_hard",
+			45,
+			20,
+			-163,
+			-120,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"POXIAOBINGHUA4"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480022] = {
+		pos_x = "0.38203125",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "POXIAOBINGHUA6",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 470,
+		best_air_dominance = 615,
+		id = 1480022,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480021,
+		formation = 1480011,
+		bgm = "bgm-cccp2",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.052083333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 17,
+		is_ai = 1,
+		map = 1480011,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "Convergence",
+		chapter_name = "C2",
+		type = 2,
+		act_id = 904,
+		enter_story = "POXIAOBINGHUA5",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "Allies carry out a daring feint to buy more time, but the enemies show no sign of retreat. Protect the Sanctum at all costs!",
+		difficulty = 7,
+		avoid_ratio = 13,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					2,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				75
+			},
+			{
+				"cannon",
+				1,
+				800
+			},
+			{
+				"reload",
+				1,
+				800
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1502101,
+				15,
+				0
+			},
+			{
+				1502102,
+				20,
+				0
+			},
+			{
+				1502103,
+				30,
+				1
+			},
+			{
+				1502104,
+				15,
+				0
+			},
+			{
+				1502105,
+				20,
+				0
+			},
+			{
+				1502106,
+				30,
+				1
+			},
+			{
+				1502107,
+				15,
+				0
+			},
+			{
+				1502108,
+				20,
+				0
+			},
+			{
+				1502109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1502105,
+			1502108
+		},
+		ai_expedition_list = {
+			1502303,
+			1502304
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1502113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhanlie"
+		},
+		awards = {
+			{
+				2,
+				58151
+			},
+			{
+				2,
+				58139
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				4
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				12
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				1
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				4
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				12
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				8
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				4
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				3,
+				"maoxiv2hard_real_1x1_1",
+				3,
+				18
+			},
+			{
+				5,
+				7,
+				"maoxiv2hard_real_2x2_2",
+				46,
+				-20
+			},
+			{
+				3,
+				3,
+				"maoxiv2hard_real_1x2_2",
+				0,
+				-22
+			},
+			{
+				3,
+				1,
+				"maoxiv2hard_real_1x1_1",
+				1,
+				24
+			},
+			{
+				1,
+				7,
+				"maoxiv2hard_real_1x1_4",
+				4,
+				20
+			},
+			{
+				1,
+				3,
+				"maoxiv2hard_real_1x1_4",
+				4,
+				20
+			},
+			{
+				0,
+				8,
+				"maoxiv2hard_real_3x1_1",
+				-99,
+				21
+			},
+			{
+				0,
+				2,
+				"maoxiv2hard_real_3x1_1",
+				102,
+				21
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_hard",
+			45,
+			20,
+			-98,
+			-107,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"POXIAOBINGHUA7",
+			"POXIAOBINGHUA8"
+		},
+		defeat_story_count = {
+			1,
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480023] = {
+		pos_x = "0.665625",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "POXIAOBINGHUA10",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 685,
+		best_air_dominance = 895,
+		id = 1480023,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480022,
+		formation = 1480011,
+		bgm = "bgm-cccp2",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.344791667",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 21,
+		is_ai = 1,
+		map = 1480011,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "The Mirror Under the Sea",
+		chapter_name = "C3",
+		type = 2,
+		act_id = 904,
+		enter_story = "POXIAOBINGHUA9",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "A Mirror Sea discovered beneath the waves, a breathtaking new reality. What secrets lie in this sealed-away Sanctum?",
+		difficulty = 8,
+		avoid_ratio = 14,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					2,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				80
+			},
+			{
+				"cannon",
+				1,
+				1100
+			},
+			{
+				"antiaircraft",
+				1,
+				1750
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1502201,
+				15,
+				0
+			},
+			{
+				1502202,
+				20,
+				0
+			},
+			{
+				1502203,
+				30,
+				1
+			},
+			{
+				1502204,
+				15,
+				0
+			},
+			{
+				1502205,
+				20,
+				0
+			},
+			{
+				1502206,
+				30,
+				1
+			},
+			{
+				1502207,
+				15,
+				0
+			},
+			{
+				1502208,
+				20,
+				0
+			},
+			{
+				1502209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1502205,
+			1502208
+		},
+		ai_expedition_list = {
+			1502305,
+			1502306,
+			1502307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1502213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenhangmu"
+		},
+		awards = {
+			{
+				2,
+				58152
+			},
+			{
+				2,
+				58140
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				true,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				0
+			},
+			{
+				9,
+				4,
+				true,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				0
+			},
+			{
+				9,
+				2,
+				false,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				false,
+				0
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				1
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				1
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				6
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				16
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				12
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				4
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				8
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				4
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				12
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				4
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				9,
+				6,
+				"maoxiv2hard_real_1x1_4",
+				4,
+				21
+			},
+			{
+				9,
+				2,
+				"maoxiv2hard_real_1x1_4",
+				4,
+				21
+			},
+			{
+				8,
+				5,
+				"maoxiv2hard_real_3x1_1",
+				102,
+				19
+			},
+			{
+				8,
+				1,
+				"maoxiv2hard_real_3x1_1",
+				102,
+				19
+			},
+			{
+				6,
+				8,
+				"maoxiv2hard_real_1x2_2",
+				-2,
+				-21
+			},
+			{
+				6,
+				6,
+				"maoxiv2hard_real_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				2,
+				"maoxiv2hard_real_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				0,
+				"maoxiv2hard_real_1x2_1",
+				0,
+				-15
+			},
+			{
+				2,
+				6,
+				"maoxiv2hard_real_1x1_4",
+				4,
+				21
+			},
+			{
+				2,
+				2,
+				"maoxiv2hard_real_1x1_4",
+				4,
+				21
+			},
+			{
+				1,
+				8,
+				"maoxiv2hard_real_1x2_1",
+				1,
+				-15
+			},
+			{
+				1,
+				0,
+				"maoxiv2hard_real_1x2_2",
+				-2,
+				-21
+			},
+			{
+				0,
+				5,
+				"maoxiv2hard_real_3x1_1",
+				102,
+				19
+			},
+			{
+				0,
+				4,
+				"maoxiv2hard_real_1x1_1",
+				3,
+				23
+			},
+			{
+				0,
+				1,
+				"maoxiv2hard_real_3x1_1",
+				102,
+				19
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_hard",
+			45,
+			20,
+			-230,
+			137,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"POXIAOBINGHUA12",
+			"POXIAOBINGHUA13",
+			"POXIAOBINGHUA14"
+		},
+		defeat_story_count = {
+			1,
+			2,
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480024] = {
+		pos_x = "0.14609375",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 730,
+		best_air_dominance = 950,
+		id = 1480024,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480023,
+		formation = 1480012,
+		bgm = "deepblue-image",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.380208333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 35,
+		is_ai = 1,
+		map = 1480012,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "City of Light",
+		chapter_name = "D1",
+		type = 2,
+		act_id = 905,
+		enter_story = "POXIAOBINGHUA16",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "Scattered wisps coalesce into a massive city of pure light. What awaits you on the other side of the veil?",
+		difficulty = 8,
+		avoid_ratio = 14,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					2,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					7,
+					0,
+					0
+				},
+				{
+					3,
+					1,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				90
+			},
+			{
+				"cannon",
+				1,
+				1200
+			},
+			{
+				"antisub",
+				1,
+				450
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1503001,
+				15,
+				0
+			},
+			{
+				1503002,
+				20,
+				0
+			},
+			{
+				1503003,
+				30,
+				1
+			},
+			{
+				1503004,
+				15,
+				0
+			},
+			{
+				1503005,
+				20,
+				0
+			},
+			{
+				1503006,
+				30,
+				1
+			},
+			{
+				1503007,
+				15,
+				0
+			},
+			{
+				1503008,
+				20,
+				0
+			},
+			{
+				1503009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1503005,
+			1503008
+		},
+		ai_expedition_list = {
+			1503301,
+			1503302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1503013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhongxun_M"
+		},
+		awards = {
+			{
+				2,
+				58153
+			},
+			{
+				2,
+				58141
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				4
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				12
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				16
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				4
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				1
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				1
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				8
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				6,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				7,
+				2,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				7,
+				1,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				2,
+				"maoxiv2hard_virtual_1x1_1",
+				1,
+				24
+			},
+			{
+				5,
+				8,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				5,
+				6,
+				"maoxiv2hard_virtual_2x2_2",
+				53,
+				-16
+			},
+			{
+				3,
+				2,
+				"maoxiv2hard_virtual_1x2_2",
+				-6,
+				-25
+			},
+			{
+				3,
+				0,
+				"maoxiv2hard_virtual_1x1_1",
+				1,
+				24
+			},
+			{
+				2,
+				8,
+				"maoxiv2hard_virtual_1x2_1",
+				-2,
+				-22
+			},
+			{
+				1,
+				6,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				1,
+				2,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				0,
+				5,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				0,
+				1,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_hard",
+			45,
+			20,
+			-231,
+			-325,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"POXIAOBINGHUA17"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		ItemTransformPattern = {
+			[8] = {
+				"virtual",
+				"real"
+			}
+		},
+		chapter_buff = {
+			8852
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480025] = {
+		pos_x = "0.28671875",
+		num_3 = 1,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "POXIAOBINGHUA20",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 930,
+		best_air_dominance = 1210,
+		id = 1480025,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480024,
+		formation = 1480012,
+		bgm = "deepblue-image",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.122916667",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 40,
+		is_ai = 1,
+		map = 1480012,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "拨片 ",
+		chapter_name = "D2",
+		type = 2,
+		act_id = 905,
+		enter_story = "POXIAOBINGHUA18",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "预想中的返回之路没有出现，取而代之的是一处昏暗而巨大的会议厅，这里究竟是什么地方…… ",
+		difficulty = 9,
+		avoid_ratio = 15,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					2,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					7,
+					0,
+					0
+				},
+				{
+					3,
+					1,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				95
+			},
+			{
+				"cannon",
+				1,
+				1350
+			},
+			{
+				"dodge",
+				1,
+				700
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1503101,
+				15,
+				0
+			},
+			{
+				1503102,
+				20,
+				0
+			},
+			{
+				1503103,
+				30,
+				1
+			},
+			{
+				1503104,
+				15,
+				0
+			},
+			{
+				1503105,
+				20,
+				0
+			},
+			{
+				1503106,
+				30,
+				1
+			},
+			{
+				1503107,
+				15,
+				0
+			},
+			{
+				1503108,
+				20,
+				0
+			},
+			{
+				1503109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1503105,
+			1503108
+		},
+		ai_expedition_list = {
+			1503303,
+			1503304
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1503113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhanlie_M"
+		},
+		awards = {
+			{
+				2,
+				58154
+			},
+			{
+				2,
+				58142
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				4
+			},
+			{
+				5,
+				8,
+				true,
+				12
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				4
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				8
+			},
+			{
+				4,
+				10,
+				true,
+				1
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				4
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				1
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				12
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				10,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				12
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				10,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				true,
+				6
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				8,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				4,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				1,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				12
+			},
+			{
+				5,
+				10,
+				"maoxiv2hard_virtual_1x2_1",
+				0,
+				-24
+			},
+			{
+				5,
+				6,
+				"maoxiv2hard_virtual_1x2_1",
+				0,
+				-24
+			},
+			{
+				3,
+				0,
+				"maoxiv2hard_virtual_2x2_1",
+				32,
+				-26
+			},
+			{
+				2,
+				9,
+				"maoxiv2hard_virtual_1x1_3",
+				3,
+				18
+			},
+			{
+				2,
+				6,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				1,
+				10,
+				"maoxiv2hard_virtual_1x2_2",
+				0,
+				-16
+			},
+			{
+				1,
+				4,
+				"maoxiv2hard_virtual_2x2_2",
+				53,
+				-4
+			},
+			{
+				1,
+				0,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				0,
+				10,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_hard",
+			45,
+			20,
+			-535,
+			-117,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"POXIAOBINGHUA19"
+		},
+		defeat_story = {
+			"POXIAOBINGHUA21"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		ItemTransformPattern = {
+			[8] = {
+				"virtual",
+				"real"
+			}
+		},
+		chapter_buff = {
+			8852
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480026] = {
+		pos_x = "0.67109375",
+		num_3 = 1,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "POXIAOBINGHUA24",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 1350,
+		best_air_dominance = 1755,
+		id = 1480026,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480025,
+		formation = 1480012,
+		bgm = "deepblue-image",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.35625",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 40,
+		is_ai = 1,
+		map = 1480012,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "记录机构 ",
+		chapter_name = "D3",
+		type = 2,
+		act_id = 905,
+		enter_story = "POXIAOBINGHUA22",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "海域中出现未知敌人，可是在另一处轨道下方，也许什么都不存在……战斗，直到光芒消散为止。 ",
+		difficulty = 10,
+		avoid_ratio = 16,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					2,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					7,
+					0,
+					0
+				},
+				{
+					3,
+					1,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				100
+			},
+			{
+				"cannon",
+				1,
+				1700
+			},
+			{
+				"antiaircraft",
+				1,
+				2450
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1503201,
+				15,
+				0
+			},
+			{
+				1503202,
+				20,
+				0
+			},
+			{
+				1503203,
+				30,
+				1
+			},
+			{
+				1503204,
+				15,
+				0
+			},
+			{
+				1503205,
+				20,
+				0
+			},
+			{
+				1503206,
+				30,
+				1
+			},
+			{
+				1503207,
+				15,
+				0
+			},
+			{
+				1503208,
+				20,
+				0
+			},
+			{
+				1503209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1503205,
+			1503208
+		},
+		ai_expedition_list = {
+			1503305,
+			1503306,
+			1503307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1503213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenboss12"
+		},
+		awards = {
+			{
+				2,
+				58155
+			},
+			{
+				2,
+				58143
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				true,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				0
+			},
+			{
+				9,
+				4,
+				true,
+				8
+			},
+			{
+				9,
+				3,
+				true,
+				0
+			},
+			{
+				9,
+				2,
+				false,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				false,
+				0
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				4
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				4
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				12
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				4
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				true,
+				4
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				1
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				1
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				9,
+				6,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				9,
+				2,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				8,
+				5,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				8,
+				1,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				6,
+				8,
+				"maoxiv2hard_virtual_1x2_2",
+				-2,
+				-21
+			},
+			{
+				6,
+				6,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				2,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				0,
+				"maoxiv2hard_virtual_1x2_1",
+				0,
+				-15
+			},
+			{
+				2,
+				6,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				2,
+				2,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				1,
+				8,
+				"maoxiv2hard_virtual_1x2_1",
+				1,
+				-15
+			},
+			{
+				1,
+				0,
+				"maoxiv2hard_virtual_1x2_2",
+				-2,
+				-21
+			},
+			{
+				0,
+				5,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				0,
+				4,
+				"maoxiv2hard_virtual_1x1_1",
+				3,
+				23
+			},
+			{
+				0,
+				1,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_hard",
+			45,
+			20,
+			-230,
+			-270,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"POXIAOBINGHUA23"
+		},
+		defeat_story = {
+			"POXIAOBINGHUA26",
+			"POXIAOBINGHUA27",
+			"POXIAOBINGHUA28",
+			"POXIAOBINGHUA29",
+			"POXIAOBINGHUA30",
+			"POXIAOBINGHUA31"
+		},
+		defeat_story_count = {
+			1,
+			5,
+			6,
+			7,
+			8,
+			9
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		ItemTransformPattern = {
+			[8] = {
+				"virtual",
+				"real"
+			}
+		},
+		chapter_buff = {
+			8852
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480041] = {
+		pos_x = "0.479",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 2030,
+		best_air_dominance = 2640,
+		id = 1480041,
+		count = 1,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480026,
+		formation = 1480025,
+		bgm = "bgm-cccp",
+		chapter_tag = 0,
+		star_require_1 = 0,
+		pos_y = "0.2979",
+		pop_pic = "",
+		num_1 = 0,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 0,
+		is_ai = 1,
+		map = 1480025,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "Confluence of Dawn",
+		chapter_name = "SP",
+		type = 2,
+		act_id = 905,
+		enter_story = "",
+		boss_refresh = 7,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "A cradle, a sanctum, a gate to innumerable treasures. The curtains must fall on all plays, as the light of day must always meld into the night.",
+		difficulty = 10,
+		avoid_ratio = 16,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				110
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1504001,
+				15,
+				0
+			},
+			{
+				1504002,
+				20,
+				0
+			},
+			{
+				1504003,
+				30,
+				1
+			},
+			{
+				1504004,
+				15,
+				0
+			},
+			{
+				1504005,
+				20,
+				0
+			},
+			{
+				1504006,
+				30,
+				1
+			},
+			{
+				1504007,
+				15,
+				0
+			},
+			{
+				1504008,
+				20,
+				0
+			},
+			{
+				1504009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1504005,
+			1504008
+		},
+		ai_expedition_list = {
+			1504301,
+			1504302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1504013
+		},
+		enemy_refresh = {
+			0,
+			0,
+			0,
+			4
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			3
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenboss12"
+		},
+		awards = {
+			{
+				2,
+				58158
+			},
+			{
+				2,
+				58156
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				false,
+				0
+			},
+			{
+				9,
+				4,
+				false,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				0
+			},
+			{
+				9,
+				2,
+				false,
+				0
+			},
+			{
+				9,
+				1,
+				false,
+				0
+			},
+			{
+				9,
+				0,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				1
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				1
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				12
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				16
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				12
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				12
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				8
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				9,
+				4,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				9,
+				0,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				8,
+				6,
+				"maoxiv2hard_virtual_1x1_1",
+				0,
+				20
+			},
+			{
+				8,
+				0,
+				"maoxiv2hard_virtual_1x1_1",
+				0,
+				20
+			},
+			{
+				6,
+				6,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				0,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				5,
+				4,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				5,
+				0,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				4,
+				6,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				4,
+				0,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				3,
+				3,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				2,
+				6,
+				"maoxiv2hard_virtual_1x2_2",
+				0,
+				-21
+			},
+			{
+				2,
+				0,
+				"maoxiv2hard_virtual_1x2_1",
+				0,
+				-20
+			},
+			{
+				1,
+				4,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				1,
+				0,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				0,
+				4,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				0,
+				2,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_hard",
+			45,
+			20,
+			-127,
+			146,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {
+			8855,
+			8858
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480051] = {
+		pos_x = "0.479",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 0,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 620,
+		best_air_dominance = 810,
+		id = 1480051,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480026,
+		formation = 1480026,
+		bgm = "bgm-cccp",
+		chapter_tag = 0,
+		star_require_1 = 0,
+		pos_y = "0.2979",
+		pop_pic = "",
+		num_1 = 0,
+		model = 5,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 0,
+		is_ai = 0,
+		map = 1480026,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "Khorovod of Dawn's Rime",
+		chapter_name = "EXTRA",
+		type = 2,
+		act_id = 905,
+		enter_story = "",
+		boss_refresh = 0,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 1,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "Warriors of the North, bloom like crystalline flowers and dance in the stormy night so that we may usher in the light of dawn.",
+		difficulty = 10,
+		avoid_ratio = 17,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					5,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1505001
+		},
+		enemy_refresh = {
+			0
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenboss12"
+		},
+		awards = {},
+		grids = {
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				1
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				8
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				2,
+				"maoxiv2hard_virtual_1x1_1",
+				0,
+				19
+			},
+			{
+				5,
+				1,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				12
+			},
+			{
+				4,
+				3,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				4,
+				1,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				2,
+				4,
+				"maoxiv2hard_virtual_1x2_2",
+				0,
+				-19
+			},
+			{
+				2,
+				0,
+				"maoxiv2hard_virtual_1x2_1",
+				0,
+				-14
+			},
+			{
+				1,
+				1,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				12
+			},
+			{
+				0,
+				2,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_hard",
+			45,
+			20,
+			-40,
+			-109,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
 	[2100001] = {
 		pos_x = "0.33125",
 		num_3 = 1,
@@ -277805,6 +289243,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Storm's End",
 		chapter_name = "A1",
 		type = 1,
@@ -278347,6 +289786,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Distress signal",
 		chapter_name = "A2",
 		type = 1,
@@ -278946,6 +290386,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Sanctuary Protectors",
 		chapter_name = "A3",
 		type = 1,
@@ -279612,6 +291053,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Reddened Sea",
 		chapter_name = "B1",
 		type = 1,
@@ -280228,6 +291670,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Sistership",
 		chapter_name = "B2",
 		type = 1,
@@ -280946,6 +292389,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Crimson Protectors",
 		chapter_name = "B3",
 		type = 1,
@@ -281659,6 +293103,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Storm's End",
 		chapter_name = "C1",
 		type = 2,
@@ -282242,6 +293687,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Distress signal",
 		chapter_name = "C2",
 		type = 2,
@@ -282882,6 +294328,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Sanctuary Protectors",
 		chapter_name = "C3",
 		type = 2,
@@ -283590,6 +295037,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Reddened Sea",
 		chapter_name = "D1",
 		type = 2,
@@ -284248,6 +295696,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Sistership",
 		chapter_name = "D2",
 		type = 2,
@@ -285008,6 +296457,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Crimson Protectors",
 		chapter_name = "D3",
 		type = 2,
@@ -285761,6 +297211,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Home Voyage",
 		chapter_name = "A1",
 		type = 1,
@@ -286254,6 +297705,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Hunting Grounds",
 		chapter_name = "A2",
 		type = 1,
@@ -286809,6 +298261,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Final Blow",
 		chapter_name = "A3",
 		type = 1,
@@ -287454,6 +298907,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Northern Sea Visitor",
 		chapter_name = "B1",
 		type = 1,
@@ -288122,6 +299576,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Operation Tungsten",
 		chapter_name = "B2",
 		type = 1,
@@ -288808,6 +300263,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Winter's Crown",
 		chapter_name = "B3",
 		type = 1,
@@ -289669,6 +301125,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Home Voyage",
 		chapter_name = "C1",
 		type = 2,
@@ -290203,6 +301660,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Hunting Grounds",
 		chapter_name = "C2",
 		type = 2,
@@ -290799,6 +302257,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Final Blow",
 		chapter_name = "C3",
 		type = 2,
@@ -291485,6 +302944,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Northern Sea Visitor",
 		chapter_name = "D1",
 		type = 2,
@@ -292194,6 +303654,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Operation Tungsten",
 		chapter_name = "D2",
 		type = 2,
@@ -292921,6 +304382,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Winter's Crown",
 		chapter_name = "D3",
 		type = 2,
@@ -293824,6 +305286,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Opening~",
 		chapter_name = "A1",
 		type = 1,
@@ -294378,6 +305841,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Development~",
 		chapter_name = "A2",
 		type = 1,
@@ -295072,6 +306536,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Initiative~",
 		chapter_name = "A3",
 		type = 1,
@@ -295733,6 +307198,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Promotion~",
 		chapter_name = "A4",
 		type = 1,
@@ -296512,6 +307978,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Transposition~",
 		chapter_name = "B1",
 		type = 1,
@@ -297086,6 +308553,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Deflection~",
 		chapter_name = "B2",
 		type = 1,
@@ -297668,6 +309136,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Overloading~",
 		chapter_name = "B3",
 		type = 1,
@@ -298305,6 +309774,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Checkmate~",
 		chapter_name = "B4",
 		type = 1,
@@ -299098,6 +310568,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Opening~",
 		chapter_name = "C1",
 		type = 2,
@@ -299693,6 +311164,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Development~",
 		chapter_name = "C2",
 		type = 2,
@@ -300430,6 +311902,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Initiative~",
 		chapter_name = "C3",
 		type = 2,
@@ -301132,6 +312605,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Promotion~",
 		chapter_name = "C4",
 		type = 2,
@@ -301952,6 +313426,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Transposition~",
 		chapter_name = "D1",
 		type = 2,
@@ -302567,6 +314042,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Deflection~",
 		chapter_name = "D2",
 		type = 2,
@@ -303190,6 +314666,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Overloading~",
 		chapter_name = "D3",
 		type = 2,
@@ -303868,6 +315345,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Checkmate~",
 		chapter_name = "D4",
 		type = 2,
@@ -304702,6 +316180,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Inburst",
 		chapter_name = "A1",
 		type = 1,
@@ -305287,6 +316766,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Encounter",
 		chapter_name = "A2",
 		type = 1,
@@ -305930,6 +317410,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Confusion",
 		chapter_name = "A3",
 		type = 1,
@@ -306664,6 +318145,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Signal",
 		chapter_name = "B1",
 		type = 1,
@@ -307336,6 +318818,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Crisis",
 		chapter_name = "B2",
 		type = 1,
@@ -308149,6 +319632,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Showdown",
 		chapter_name = "B3",
 		type = 1,
@@ -309141,6 +320625,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Inburst",
 		chapter_name = "C1",
 		type = 2,
@@ -309767,6 +321252,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Encounter",
 		chapter_name = "C2",
 		type = 2,
@@ -310451,6 +321937,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Confusion",
 		chapter_name = "C3",
 		type = 2,
@@ -311226,6 +322713,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Signal",
 		chapter_name = "D1",
 		type = 2,
@@ -311939,6 +323427,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Crisis",
 		chapter_name = "D2",
 		type = 2,
@@ -312793,6 +324282,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Showdown",
 		chapter_name = "D3",
 		type = 2,
@@ -313825,6 +325315,7 @@ pg.chapter_template = {
 		unlocklevel = 15,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Intelligence",
 		chapter_name = "SP.1",
 		type = 2,
@@ -314236,6 +325727,7 @@ pg.chapter_template = {
 		unlocklevel = 15,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Z's Counterattack",
 		chapter_name = "SP.2",
 		type = 2,
@@ -314721,6 +326213,7 @@ pg.chapter_template = {
 		unlocklevel = 15,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Cannon's Elegy",
 		chapter_name = "SP.3",
 		type = 2,
@@ -315236,6 +326729,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Search",
 		chapter_name = "SP1",
 		type = 1,
@@ -315820,6 +327314,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Pursuit",
 		chapter_name = "SP2",
 		type = 1,
@@ -316503,6 +327998,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "The Showdown",
 		chapter_name = "SP3",
 		type = 1,
@@ -317242,6 +328738,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Carelessness",
 		chapter_name = "SP1",
 		type = 1,
@@ -317936,6 +329433,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Pursuit and Retreat",
 		chapter_name = "SP2",
 		type = 1,
@@ -318643,6 +330141,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Glorious Battle",
 		chapter_name = "SP3",
 		type = 1,
@@ -319360,6 +330859,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Opening~",
 		chapter_name = "A1",
 		type = 1,
@@ -319914,6 +331414,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Development~",
 		chapter_name = "A2",
 		type = 1,
@@ -320608,6 +332109,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Initiative~",
 		chapter_name = "A3",
 		type = 1,
@@ -321269,6 +332771,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Promotion~",
 		chapter_name = "A4",
 		type = 1,
@@ -322048,6 +333551,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Transposition~",
 		chapter_name = "B1",
 		type = 1,
@@ -322622,6 +334126,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Deflection~",
 		chapter_name = "B2",
 		type = 1,
@@ -323204,6 +334709,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Overloading~",
 		chapter_name = "B3",
 		type = 1,
@@ -323841,6 +335347,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Checkmate~",
 		chapter_name = "B4",
 		type = 1,
@@ -324634,6 +336141,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Opening~",
 		chapter_name = "C1",
 		type = 2,
@@ -325229,6 +336737,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Development~",
 		chapter_name = "C2",
 		type = 2,
@@ -325966,6 +337475,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Initiative~",
 		chapter_name = "C3",
 		type = 2,
@@ -326668,6 +338178,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Promotion~",
 		chapter_name = "C4",
 		type = 2,
@@ -327488,6 +338999,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Transposition~",
 		chapter_name = "D1",
 		type = 2,
@@ -328103,6 +339615,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Deflection~",
 		chapter_name = "D2",
 		type = 2,
@@ -328726,6 +340239,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Overloading~",
 		chapter_name = "D3",
 		type = 2,
@@ -329404,6 +340918,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Checkmate~",
 		chapter_name = "D4",
 		type = 2,
@@ -330237,6 +341752,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "~Ending~ ",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -331052,6 +342568,20 @@ pg.chapter_template = {
 		1470028,
 		1470031,
 		1470041,
+		1480001,
+		1480002,
+		1480003,
+		1480004,
+		1480005,
+		1480006,
+		1480021,
+		1480022,
+		1480023,
+		1480024,
+		1480025,
+		1480026,
+		1480041,
+		1480051,
 		2100001,
 		2100002,
 		2100003,

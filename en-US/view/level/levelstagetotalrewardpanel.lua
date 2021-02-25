@@ -54,7 +54,6 @@ function slot0.UpdateView(slot0)
 
 			function slot2()
 				uv0.contextData.spItemID = nil
-				uv0.contextData.SpSelect = nil
 
 				uv0:UpdateSPItem()
 			end
@@ -198,92 +197,64 @@ function slot0.UpdateSPItem(slot0)
 	end
 
 	slot4 = {}
-	slot5 = {}
 
-	for slot9, slot10 in pairs(pg.benefit_buff_template) do
-		if slot10.benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC and table.contains(slot3, slot9) then
-			table.insert(slot4, slot10)
-
-			slot11 = tonumber(slot10.benefit_condition)
-
-			if _.detect(slot2, function (slot0)
-				return slot0.configId == uv0
-			end) and slot12.count > 0 then
-				table.insert(slot5, slot10)
-			end
+	for slot8, slot9 in pairs(pg.benefit_buff_template) do
+		if slot9.benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC and table.contains(slot3, slot8) then
+			table.insert(slot4, slot9)
 		end
 	end
 
-	function slot7()
-		uv0.contextData.SpSelect = not uv0.contextData.SpSelect
-
-		uv0:UpdateSPItem()
-	end
+	slot5 = 1
 
 	setActive(slot0.spList, #slot4 ~= 0)
-	UIItemList.StaticAlign(slot0.spList, slot0.spList:GetChild(0), not slot0.contextData.SpSelect and 1 or math.max(1, #slot5) + 1, function (slot0, slot1, slot2)
+
+	if #slot4 == 0 then
+		return
+	end
+
+	UIItemList.StaticAlign(slot0.spList, slot0.spList:GetChild(0), slot5, function (slot0, slot1, slot2)
 		if slot0 ~= UIItemList.EventUpdate then
 			return
 		end
 
-		if uv1.contextData.SpSelect then
-			if uv0 - slot1 == 1 then
-				setActive(slot2:Find("Active"), true)
-				setActive(slot2:Find("Block"), false)
-				setActive(slot2:Find("Active/Item"), false)
-				setText(slot2:Find("Active/Desc"), i18n("levelScene_unselect_SP_OP"))
-				onButton(uv1, slot2, function ()
-					uv0.contextData.spItemID = nil
+		slot3 = uv0[slot1 + 1]
 
-					uv1()
-				end, SFX_PANEL)
-			else
-				if slot1 - 1 <= #uv3 then
-					setActive(slot2:Find("Active"), true)
-					setActive(slot2:Find("Block"), false)
-					setActive(slot2:Find("Active/Item"), true)
+		setText(slot2:Find("Active/Desc"), slot3.desc)
 
-					slot3 = uv3[slot1 - 1]
+		slot5 = _.detect(uv1, function (slot0)
+			return slot0.configId == uv0
+		end) or {
+			count = 0,
+			id = tonumber(slot3.benefit_condition),
+			type = DROP_TYPE_ITEM
+		}
+		slot5.type = DROP_TYPE_ITEM
+		slot6 = slot5.count > 0
 
-					setText(slot2:Find("Active/Desc"), slot3.desc)
+		setActive(slot2:Find("Active"), slot6)
+		setActive(slot2:Find("Block"), not slot6)
 
-					slot5 = _.detect(uv4, function (slot0)
-						return slot0.configId == uv0
-					end) or {
-						count = 0,
-						id = tonumber(slot3.benefit_condition),
-						type = DROP_TYPE_ITEM
-					}
-					slot5.type = DROP_TYPE_ITEM
+		if not slot6 then
+			setText(slot2:Find("Block"):Find("Desc"), i18n("levelScene_select_noitem"))
 
-					updateDrop(slot2:Find("Active/Item/Icon"), slot5)
-					onButton(uv1, slot2, function ()
-						uv0.contextData.spBuff = uv1
-						uv0.contextData.spItemID = uv2
-
-						uv3()
-					end, SFX_PANEL)
-
-					return
-				end
-
-				setActive(slot2:Find("Active"), false)
-				setActive(slot2:Find("Block"), true)
-				onButton(uv1, slot2, uv2, SFX_PANEL)
-			end
-		else
-			setActive(slot2:Find("Active"), true)
-			setActive(slot2:Find("Block"), false)
-			setActive(slot2:Find("Active/Item"), uv1.contextData.spItemID)
-
-			if uv1.contextData.spItemID then
-				setText(slot2:Find("Active/Desc"), uv1.contextData.spBuff.desc)
-			else
-				setText(slot2:Find("Active/Desc"), i18n("autofight_selectprops_tip"))
-			end
-
-			onButton(uv1, slot2, uv2, SFX_PANEL)
+			return
 		end
+
+		setActive(slot2:Find("Active/Item"), true)
+		updateDrop(slot2:Find("Active/Item/Icon"), slot5)
+		onButton(uv2, slot2, function ()
+			uv0.contextData.spItemID = not uv0.contextData.spItemID and uv1 or nil
+
+			if uv0.contextData.spItemID then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_select_sp"))
+			end
+
+			uv0:UpdateSPItem()
+		end, SFX_PANEL)
+		onButton(uv2, slot2:Find("Active/Item/Icon"), function ()
+			uv0:emit(BaseUI.ON_ITEM, uv1)
+		end)
+		setActive(slot2:Find("Active/Checkbox/Mark"), tobool(uv2.contextData.spItemID))
 	end)
 end
 

@@ -366,14 +366,7 @@ function slot0.dynamicBgHandler(slot0, slot1, slot2)
 		return
 	end
 
-	if CSharpVersion < 40 then
-		findTF(slot1, "video/cpk"):GetComponent(typeof(CriManaCpkUI)):Stop()
-
-		if slot2 ~= nil then
-			slot2()
-			slot3:PlayCpk()
-		end
-	elseif slot2 ~= nil then
+	if slot2 ~= nil then
 		slot2()
 	end
 end

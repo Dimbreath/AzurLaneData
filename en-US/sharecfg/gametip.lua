@@ -4054,8 +4054,8 @@ Promise date: $1]]
 	charge_limit_weekly = {
 		tip = "Available this week: $1"
 	},
-	charge_erro = {
-		tip = "Failed to add Gems."
+	charge_error = {
+		tip = "Purchase failed."
 	},
 	charge_success = {
 		tip = "Gems added!"
@@ -5830,6 +5830,15 @@ Would you like to proceed with the retrofit?
 	ship_remould_warning_402134 = {
 		tip = "Completing this Retrofit will permanently change the first \"Auxiliary\" equipment slot to a <color=#92fc63>\"Helicopter\"</color>\n equipment slot. Proceed with the Retrofit? "
 	},
+	ship_remould_warning_702124 = {
+		tip = [[
+<size=35>Retrofitting <color=#92fc63>$1</color> will change her
+<color=#92fc63>Main Gun (Light Cruiser)</color> gear slot into a
+<color=#92fc63>Main Gun (Destroyer )</color> gear slot.<color=#92fc63>
+Gear in the <color=#92fc63>Main Gun</color> slot will be unequipped.
+Are you sure you want to continue?
+<material=underline c=#92fc63 event=clickDetail>Tap here for details.</material></color></size>]]
+	},
 	word_soundfiles_download_title = {
 		tip = "Download Language Pack"
 	},
@@ -7599,7 +7608,7 @@ Combat Details:
 		tip = "This Meowfficer does not have any Talent Points."
 	},
 	buildship_new_tip = {
-		tip = "Rate UP for Zara, Pola, and more! "
+		tip = "Rate UP for Sovetskaya Belorussiya, Kirov, and more!"
 	},
 	buildship_heavy_tip = {
 		tip = "Mikasa and Hiei are added to standard build pool!"
@@ -13212,7 +13221,7 @@ Large Nianjuu: 30 pts
 		tip = "HE"
 	},
 	equip_ammo_type_3 = {
-		tip = "Cannon"
+		tip = "Normal "
 	},
 	equip_ammo_type_4 = {
 		tip = "Magnetic "
@@ -13470,5 +13479,17 @@ Your Action Points will also reset, starting you off with <color=#92fc63>200 AP.
 	},
 	spring_invited_2021 = {
 		tip = "This invitation can only be used once.\nWould you like to invite <color=#92fc63>$1</color>?\n(You will obtain this ship and her commemorative item.)"
+	},
+	charge_error_count_limit = {
+		tip = "Unable to make any more purchases today."
+	},
+	levelScene_select_sp = {
+		tip = "A High-Efficiency Combat Logisitics Plan has been set."
+	},
+	word_adjustFleet = {
+		tip = "Adjust"
+	},
+	levelScene_select_noitem = {
+		tip = "Out of consumable items."
 	}
 }

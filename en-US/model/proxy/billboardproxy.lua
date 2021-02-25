@@ -8,7 +8,7 @@ function slot0.register(slot0)
 	}
 	slot0.data = {}
 	slot0.playerData = {}
-	slot0.timers = {}
+	slot0.timeStamps = {}
 	slot0.hashList = {}
 	slot0.hashCount = 0
 end
@@ -34,49 +34,24 @@ function slot0.setRankList(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	if not slot0.data[slot4] then
-		slot0:addTimer(slot1, slot2, GetHalfHour())
-	end
-
 	slot0.data[slot4] = slot3
+	slot0.timeStamps[slot4] = GetHalfHour()
 end
 
 function slot0.getRankList(slot0, slot1, slot2)
 	return slot0.data[slot0:getHashId(slot1, slot2)]
 end
 
-function slot0.addTimer(slot0, slot1, slot2, slot3)
-	if slot0.timers[slot0:getHashId(slot1, slot2)] then
-		slot0.timers[slot4]:Stop()
-
-		slot0.timers[slot4] = nil
-	end
-
-	slot0.timers[slot4] = Timer.New(function ()
-		uv0.timers[uv1]:Stop()
-
-		uv0.timers[uv1] = nil
-
-		uv0:sendNotification(GAME.GET_POWERRANK, {
-			type = uv2,
-			activityId = uv3
-		})
-		uv0:addTimer(uv2, uv3, GetHalfHour())
-	end, slot3 - pg.TimeMgr.GetInstance():GetServerTime(), 1)
-
-	slot0.timers[slot4]:Start()
-end
-
-function slot0.remove(slot0)
-	for slot4, slot5 in pairs(slot0.timers) do
-		slot5:Stop()
-	end
-
-	slot0.timers = nil
-end
-
 function slot0.canFetch(slot0, slot1, slot2)
-	return table.contains(uv0.NONTIMER, slot1) or slot0.timers[slot0:getHashId(slot1, slot2)] == nil
+	if table.contains(uv0.NONTIMER, slot1) then
+		return true
+	end
+
+	if not slot0.timeStamps[slot0:getHashId(slot1, slot2)] or slot0.timeStamps[slot3] < pg.TimeMgr.GetInstance():GetServerTime() then
+		return true
+	end
+
+	return false
 end
 
 function slot0.getHashId(slot0, slot1, slot2)

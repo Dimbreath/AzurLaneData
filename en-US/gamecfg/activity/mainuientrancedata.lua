@@ -139,9 +139,16 @@ return {
 		Tag = "MiniGameHub",
 		Tip = "tip",
 		UpdateButton = function (slot0, slot1)
-			onButton(slot0, slot1, function ()
-				pg.m02:sendNotification(GAME.GO_MINI_GAME, 21)
-			end, SFX_PANEL)
+			slot3 = getProxy(ActivityProxy):getActivityById(ActivityConst.LANTERNFESTIVAL) and not slot2:isEnd()
+
+			setActive(slot1, slot3)
+
+			if slot3 then
+				setActive(slot1:Find("Tip"), getProxy(MiniGameProxy):GetHubByHubId(slot2:getConfig("config_id")).count > 0 and slot5.usedtime < 7)
+				onButton(slot0, slot1, function ()
+					pg.m02:sendNotification(GAME.GO_MINI_GAME, 22)
+				end, SFX_PANEL)
+			end
 		end
 	},
 	{
@@ -219,13 +226,14 @@ return {
 		Tag = "MiniGameHub",
 		Tip = "tip",
 		UpdateButton = function (slot0, slot1)
-			slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot2:isEnd()
+			slot4 = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_MINIGAME), function (slot0)
+				return slot0:getConfig("config_id") == 7
+			end) and not slot3:isEnd()
 
-			setActive(slot1, slot3)
+			setActive(slot1, slot4)
 
-			if slot3 then
-				setActive(slot1, getProxy(MiniGameProxy):GetHubByHubId(slot2:getConfig("config_id")).id == 7)
-				setActive(slot1:Find("Tip"), slot5.count > 0)
+			if slot4 then
+				setActive(slot1:Find("Tip"), getProxy(MiniGameProxy):GetHubByHubId(slot3:getConfig("config_id")).count > 0)
 				onButton(slot0, slot1, function ()
 					pg.m02:sendNotification(GAME.REQUEST_MINI_GAME, {
 						type = MiniGameRequestCommand.REQUEST_HUB_DATA,
@@ -374,6 +382,6 @@ return {
 		2,
 		5,
 		6,
-		7
+		8
 	}
 }

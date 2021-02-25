@@ -3615,6 +3615,327 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[701070] = {
+		touch = "",
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		id = 701070,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"You've got all this work to do before the end of the day? ...I guess we just have to make a miracle happen..."
+			}
+		},
+		lose = {
+			{
+				1100,
+				"Next time, do your job and command properly."
+			}
+		},
+		home = {
+			{
+				1100,
+				"You've earned three cookies for today's sorties. Mm, that'll be all. Now say \"aah.\""
+			}
+		},
+		detail = {
+			{
+				1100,
+				"What are you ogling me for? I don't see what you get out of this..."
+			}
+		},
+		main = {
+			{
+				1100,
+				"nil|nil|Hmh. Just so you know, Gromky, the Commander isn't slacking on the job. Mhm, that's all."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"You always drink tea with me, so why do you leave all the cookies to me? ...You'd rather I eat all I want? Huh, I see..."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Are you ignoring all these missions, hoping they'll go away? Yikes..."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Uhh, woaaaahhhhh..."
+			}
+		}
+	},
+	[701080] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
+		mission = "",
+		touch2 = "",
+		id = 701080,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Heyy! You can't get up yet! Didn't I tell you to get more rest?"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"You've worked real hard, haven't you? Good job, good job~!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Comrade Commander, your reward for today's battle is... you can have as many blini as you'd like! Ehehe~"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Why are you staring at me like that? ...Ah! Did you want me to pat your head! ...Huh? That's not it?"
+			}
+		},
+		main = {
+			{
+				1100,
+				"Comrade Commander, you mustn't slack off! ...Huh? You want me to come relax with you? I, I guess I can't get mad at that... Wait, hey! Get back to work!|nil|nil"
+			}
+		}
+	},
+	[702060] = {
+		touch = "",
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		mission = "",
+		id = 702060,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Good morning! I managed to make it on time today. Teehee~♪"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Omaha gave me a few snacks. Would you like to eat them with me? Hehehe~ Then let's huddle up and enjoy~|A friend told me a while ago that being around me feels warming sometimes, and chilling other times... Umm, that's not really a good thing, is it?|Staaare... Hey~♡ You're really good-looking, Commander~♪"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Gosh, your hand feels so warm~"
+			}
+		}
+	},
+	[703010] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 703010,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Hats off to you for clocking in on time. See? You can do it if you just try. Hehehe."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Do you really think this is all it takes to satisfy everyone? Exactly. Let that annoyance motivate you to do better."
+			}
+		},
+		main = {
+			{
+				1100,
+				"Have you checked out that report yet? ...If you've got time to make excuses, you've got time to do your job.|nil|nil"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"|Maybe I should put a collar on you, like Chapayev suggested... What? Nothing important. Focus on your work.|Do your job well, and you'll be rewarded. Use your head and think up something good, then I'll see what I can do. Hehehe~"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"You're in need of some guidance, aren't you?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Hehehe. You know what? I'll let you have your fun for once."
+			}
+		}
+	},
+	[702040] = {
+		touch = "",
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 702040,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"What's on the itinerary today? If there's anything that requires me to uplift the spirits of our comrades, I'm all in!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"One's individual leadership abilities are hardly as important as the will to stand side-by-side with one's comrades. In this regard, you have excelled without a doubt."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"...Having that said, it isn't inconceivable that war devolves into attrition. In such cases, we must be able to adapt to changes...|Let me tell you this— never underestimate the eyes and ears of the Northern Parliament!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Hmm... I would like you to be a bit more mindful of the rules."
+			}
+		}
+	},
+	[705040] = {
+		touch = "",
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		mission = "",
+		id = 705040,
+		feeling1 = "",
+		unlock = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		main = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"You've come, Comrade. As punctual as always."
+			}
+		},
+		home = {
+			{
+				1100,
+				"There is no harm in prolonging the suffering of our foes, but do not forget the reason why we are here, Comrade."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"That's checkmate. Hey hey, throwing in the towel already? What, you're making it seem like I'm bullying you or something~|The port sure is peaceful... just as it should be. Violence should have no place outside the battlefield."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"What, you wanna bet on whether or not our commission fleet is bringing back a big haul? Nah, no need for that. We pretty much know the outcome already."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"All right. After we finish these missions, you should go back to pursuing your own ambitions."
+			}
+		},
+		mail = {
+			{
+				1100,
+				"Letters, huh? Let's take a look... Wouldn't want to miss out on anything juicy."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Hey, hey... I didn't call you here to make you all hot and bothered."
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -3675,6 +3996,12 @@ pg.ship_skin_words_extra = {
 		301630,
 		202290,
 		502040,
-		502050
+		502050,
+		701070,
+		701080,
+		702060,
+		703010,
+		702040,
+		705040
 	}
 }

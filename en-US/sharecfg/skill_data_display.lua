@@ -792,6 +792,26 @@ pg.skill_data_display = {
 		id = 8824,
 		name = "Emergency Procedures "
 	},
+	[8844] = {
+		id = 8844,
+		name = "Radiance"
+	},
+	[8847] = {
+		id = 8847,
+		name = "Radiance"
+	},
+	[8850] = {
+		id = 8850,
+		name = "Radiance"
+	},
+	[8853] = {
+		id = 8853,
+		name = "Radiance"
+	},
+	[8856] = {
+		id = 8856,
+		name = "Radiance"
+	},
 	[9010] = {
 		id = 9010,
 		name = "Eastern Bonds"
@@ -3468,6 +3488,110 @@ pg.skill_data_display = {
 		id = 14140,
 		name = "Scalawaggish Little Snowball"
 	},
+	[14150] = {
+		id = 14150,
+		name = "Curtain of Rime"
+	},
+	[14151] = {
+		id = 14151,
+		name = "Curtain of Rime"
+	},
+	[14160] = {
+		id = 14160,
+		name = "Ingenious Tactician"
+	},
+	[14161] = {
+		id = 14161,
+		name = "Ingenious Tactician"
+	},
+	[14162] = {
+		id = 14162,
+		name = "Ingenious Tactician"
+	},
+	[14163] = {
+		id = 14163,
+		name = "Ingenious Tactician"
+	},
+	[14170] = {
+		id = 14170,
+		name = "Kirov, Reporting!"
+	},
+	[14171] = {
+		id = 14171,
+		name = "Kirov, Reporting!"
+	},
+	[14180] = {
+		id = 14180,
+		name = "Revolutionary Strike"
+	},
+	[14181] = {
+		id = 14181,
+		name = "Revolutionary Strike"
+	},
+	[14190] = {
+		id = 14190,
+		name = "Bulwark of Rime"
+	},
+	[14191] = {
+		id = 14191,
+		name = "Bulwark of Rime"
+	},
+	[14192] = {
+		id = 14192,
+		name = "Bulwark of Rime"
+	},
+	[14200] = {
+		id = 14200,
+		name = "Memorial of Ice and Iron"
+	},
+	[14201] = {
+		id = 14201,
+		name = "Memorial of Ice and Iron"
+	},
+	[14202] = {
+		id = 14202,
+		name = "Memorial of Ice and Iron"
+	},
+	[14210] = {
+		id = 14210,
+		name = "Thunderous Guardian"
+	},
+	[14220] = {
+		id = 14220,
+		name = "Silent Advance"
+	},
+	[14221] = {
+		id = 14221,
+		name = "Silent Advance"
+	},
+	[14230] = {
+		id = 14230,
+		name = "Capricious Firing"
+	},
+	[14231] = {
+		id = 14231,
+		name = "Capricious Firing"
+	},
+	[14240] = {
+		id = 14240,
+		name = "Laid-Back Defending"
+	},
+	[14250] = {
+		id = 14250,
+		name = "Selfless Aid"
+	},
+	[14251] = {
+		id = 14251,
+		name = "Selfless Aid"
+	},
+	[14260] = {
+		id = 14260,
+		name = "From Merkuria With Love! "
+	},
+	[14261] = {
+		id = 14261,
+		name = "From Merkuria With Love! "
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -5663,6 +5787,11 @@ pg.skill_data_display = {
 		8820,
 		8821,
 		8824,
+		8844,
+		8847,
+		8850,
+		8853,
+		8856,
 		9010,
 		9020,
 		9030,
@@ -6332,6 +6461,32 @@ pg.skill_data_display = {
 		14120,
 		14130,
 		14140,
+		14150,
+		14151,
+		14160,
+		14161,
+		14162,
+		14163,
+		14170,
+		14171,
+		14180,
+		14181,
+		14190,
+		14191,
+		14192,
+		14200,
+		14201,
+		14202,
+		14210,
+		14220,
+		14221,
+		14230,
+		14231,
+		14240,
+		14250,
+		14251,
+		14260,
+		14261,
 		18010,
 		18040,
 		18041,

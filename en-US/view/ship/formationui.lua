@@ -1202,7 +1202,7 @@ function slot0.attachOnCardButton(slot0, slot1, slot2)
 end
 
 function slot0.change2ScrPos(slot0, slot1, slot2)
-	return LuaHelper.ScreenToLocal(slot1, slot2, GameObject.Find("OverlayCamera"):GetComponent("Camera"))
+	return LuaHelper.ScreenToLocal(slot1, slot2, pg.UIMgr.GetInstance().overlayCameraComp)
 end
 
 function slot0.tweenNumText(slot0, slot1, slot2, slot3, slot4)
