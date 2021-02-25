@@ -19,7 +19,7 @@ function slot0.execute(slot0, slot1)
 
 	slot9:updateCommander(slot4, slot5, slot6)
 	slot8:updateChapter(slot9)
-	slot8:duplicateEliteFleet(slot9, true)
+	slot8:duplicateEliteFleet(slot9)
 
 	if slot7 then
 		slot7()

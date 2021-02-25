@@ -352,25 +352,30 @@ function slot0.onInitCard(slot0, slot1)
 	slot2 = CollectionShipCard.New(slot1)
 
 	onButton(slot0, slot2.go, function ()
-		if uv0.state == ShipGroup.STATE_UNLOCK then
-			if not uv1.isClicked then
-				uv1.isClicked = true
+		if not uv0.isClicked then
+			uv0.isClicked = true
 
-				LeanTween.delayedCall(0.2, System.Action(function ()
-					uv0.isClicked = false
+			LeanTween.delayedCall(0.2, System.Action(function ()
+				uv0.isClicked = false
+
+				if not uv1:getIsInited() then
+					return
+				end
+
+				if uv1.state == ShipGroup.STATE_UNLOCK then
 					uv0.contextData.cardScrollValue = uv0.cardList.value
 
-					uv0:emit(uv1.SHOW_DETAIL, uv2.showTrans, uv2.shipGroup.id)
-				end))
-			end
-		elseif uv0.state == ShipGroup.STATE_NOTGET then
-			if uv0.showTrans == true and uv0.shipGroup.trans == true then
-				return
-			end
+					uv0:emit(uv2.SHOW_DETAIL, uv1.showTrans, uv1.shipGroup.id)
+				elseif uv1.state == ShipGroup.STATE_NOTGET then
+					if uv1.showTrans == true and uv1.shipGroup.trans == true then
+						return
+					end
 
-			if uv0.config then
-				uv1:showObtain(uv0.config.description, uv0.shipGroup:getShipConfigId())
-			end
+					if uv1.config then
+						uv0:showObtain(uv1.config.description, uv1.shipGroup:getShipConfigId())
+					end
+				end
+			end))
 		end
 	end, SOUND_BACK)
 

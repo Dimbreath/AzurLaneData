@@ -139,5 +139,18 @@ pg.furniture_specail_action = {
 				0.83
 			}
 		}
+	},
+	[77117] = {
+		id = 77117,
+		actions = {
+			{
+				"walk",
+				2
+			},
+			{
+				"sit",
+				1.5
+			}
+		}
 	}
 }

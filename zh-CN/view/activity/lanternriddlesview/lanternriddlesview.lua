@@ -8,22 +8,12 @@ end
 
 function slot0.SetUI(slot0, slot1)
 	slot0._tf = slot1
-	slot0.questioneTFs = {
-		slot0:findTF("labels/label1"),
-		slot0:findTF("labels/label2"),
-		slot0:findTF("labels/label3"),
-		slot0:findTF("labels/label4"),
-		slot0:findTF("labels/label5"),
-		slot0:findTF("labels/label6"),
-		slot0:findTF("labels/label7"),
-		slot0:findTF("labels/label8"),
-		slot0:findTF("labels/label9"),
-		slot0:findTF("labels/label10"),
-		slot0:findTF("labels/label11"),
-		slot0:findTF("labels/label12"),
-		slot0:findTF("labels/label13"),
-		slot0:findTF("labels/label14")
-	}
+	slot0.questioneTFs = {}
+
+	for slot5, slot6 in ipairs(pg.activity_event_question.all) do
+		slot0.questioneTFs[slot6] = slot0:findTF("labels/label" .. slot5)
+	end
+
 	slot0.mainPanel = slot0:findTF("main")
 	slot0.day = slot0:findTF("time/Text"):GetComponent(typeof(Text))
 	slot0:findTF("frame/time", slot0.mainPanel):GetComponent(typeof(Text)).text = i18n("LanternRiddle_wait_time_tip")
@@ -52,7 +42,7 @@ end
 
 function slot0.InitLanternRiddles(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
-		slot7 = slot0.questioneTFs[slot5]
+		slot7 = slot0.questioneTFs[slot6.id]
 		slot8 = slot6.isUnlock
 
 		onButton(slot0, slot7, function ()

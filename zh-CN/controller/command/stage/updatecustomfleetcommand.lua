@@ -1,45 +1,39 @@
 slot0 = class("UpdateCustomFleetCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot4 = slot2.callback
-	slot6 = getProxy(BayProxy):getRawData()
-	slot8 = getProxy(ChapterProxy):getChapterById(slot2.chapterId)
-	slot9 = slot8:getConfig("formation")
-	slot11 = slot8:getEliteFleetCommanders()
-	slot12 = {}
+	slot5 = getProxy(BayProxy):getRawData()
+	slot7 = getProxy(ChapterProxy):getChapterById(slot1:getBody().chapterId)
+	slot8 = slot7:getConfig("formation")
+	slot10 = slot7:getEliteFleetCommanders()
+	slot11 = {}
 
-	for slot16, slot17 in ipairs(slot8:getEliteFleetList()) do
+	for slot15, slot16 in ipairs(slot7:getEliteFleetList()) do
+		slot17 = {}
 		slot18 = {}
 		slot19 = {}
-		slot20 = {}
 
-		for slot24, slot25 in ipairs(slot17) do
-			slot19[#slot19 + 1] = slot25
+		for slot23, slot24 in ipairs(slot16) do
+			slot18[#slot18 + 1] = slot24
 		end
 
-		for slot25, slot26 in pairs(slot11[slot16]) do
-			table.insert(slot20, {
-				pos = slot25,
-				id = slot26
+		for slot24, slot25 in pairs(slot10[slot15]) do
+			table.insert(slot19, {
+				pos = slot24,
+				id = slot25
 			})
 		end
 
-		slot18.map_id = slot9
-		slot18.main_id = slot19
-		slot18.commanders = slot20
-		slot12[#slot12 + 1] = slot18
+		slot17.map_id = slot8
+		slot17.main_id = slot18
+		slot17.commanders = slot19
+		slot11[#slot11 + 1] = slot17
 	end
 
 	pg.ConnectionMgr.GetInstance():Send(13107, {
-		id = slot9,
-		elite_fleet_list = slot12
+		id = slot8,
+		elite_fleet_list = slot11
 	}, 13108, function (slot0)
-		if slot0.result == 0 then
-			if uv0 ~= nil then
-				uv0()
-			end
-		else
+		if slot0.result ~= 0 then
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("update_custom_fleet", slot0.result))
 		end
 	end)

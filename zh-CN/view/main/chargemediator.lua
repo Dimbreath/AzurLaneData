@@ -135,7 +135,7 @@ function slot0.handleNotification(slot0, slot1)
 		end
 
 		if slot3.id == slot8 then
-			if slot7[slot3.id].limit_args[3] and slot11 < slot0.viewComponent.player:getMaxShipBag() then
+			if slot7[slot3.id].limit_args[3] and slot11 < slot0.viewComponent.player:getMaxShipBagExcludeGuild() then
 				slot0.viewComponent:setItemVOs()
 				slot0.viewComponent:sortItems()
 			end

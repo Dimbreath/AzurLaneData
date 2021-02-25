@@ -16271,7 +16271,7 @@ pg.ship_data_group = {
 			}
 		}
 	},
-	[431] = {
+	[499] = {
 		type = 1,
 		trans_skin = 0,
 		trans_type = 0,
@@ -16280,6 +16280,68 @@ pg.ship_data_group = {
 		nationality = 7,
 		hide = 0,
 		index_id = 387,
+		group_type = 70108,
+		code = 499,
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：破晓冰华",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[497] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 7,
+		hide = 0,
+		index_id = 388,
+		group_type = 70107,
+		code = 497,
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：破晓冰华",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[431] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 7,
+		hide = 0,
+		index_id = 389,
 		group_type = 70102,
 		code = 431,
 		property_hexagon = {
@@ -16302,6 +16364,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[491] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 7,
+		hide = 0,
+		index_id = 390,
+		group_type = 70106,
+		code = 491,
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"月度签到",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[432] = {
 		type = 1,
 		trans_skin = 0,
@@ -16310,7 +16403,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 7,
 		hide = 0,
-		index_id = 388,
+		index_id = 391,
 		group_type = 70103,
 		code = 432,
 		property_hexagon = {
@@ -16341,7 +16434,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 7,
 		hide = 0,
-		index_id = 389,
+		index_id = 392,
 		group_type = 70104,
 		code = 433,
 		property_hexagon = {
@@ -16372,7 +16465,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 7,
 		hide = 0,
-		index_id = 390,
+		index_id = 393,
 		group_type = 70105,
 		code = 475,
 		property_hexagon = {
@@ -16395,37 +16488,6 @@ pg.ship_data_group = {
 			}
 		}
 	},
-	[491] = {
-		type = 1,
-		trans_skin = 0,
-		trans_type = 0,
-		handbook_type = 0,
-		redirect_id = 101,
-		nationality = 7,
-		hide = 0,
-		index_id = 391,
-		group_type = 70106,
-		code = 491,
-		property_hexagon = {
-			"A",
-			"D",
-			"E",
-			"B",
-			"C",
-			"D"
-		},
-		trans_radar_chart = {},
-		trans_skill = {},
-		description = {
-			{
-				"月度签到",
-				{
-					""
-				},
-				0
-			}
-		}
-	},
 	[262] = {
 		type = 2,
 		trans_skin = 0,
@@ -16434,7 +16496,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 7,
 		hide = 0,
-		index_id = 392,
+		index_id = 394,
 		group_type = 70201,
 		code = 262,
 		property_hexagon = {
@@ -16477,13 +16539,13 @@ pg.ship_data_group = {
 	},
 	[434] = {
 		type = 2,
-		trans_skin = 0,
-		trans_type = 0,
+		trans_skin = 702029,
+		trans_type = 2,
 		handbook_type = 0,
 		redirect_id = 101,
 		nationality = 7,
 		hide = 0,
-		index_id = 393,
+		index_id = 395,
 		group_type = 70202,
 		code = 434,
 		property_hexagon = {
@@ -16494,11 +16556,82 @@ pg.ship_data_group = {
 			"C",
 			"C"
 		},
+		trans_radar_chart = {
+			"C",
+			"D",
+			"E",
+			"C",
+			"C",
+			"C"
+		},
+		trans_skill = {
+			14260
+		},
+		description = {
+			{
+				"限时活动：北境序曲",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[498] = {
+		type = 2,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 7,
+		hide = 0,
+		index_id = 396,
+		group_type = 70206,
+		code = 498,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：北境序曲",
+				"限时活动：破晓冰华",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[435] = {
+		type = 2,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 7,
+		hide = 0,
+		index_id = 397,
+		group_type = 70204,
+		code = 435,
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：破晓冰华",
 				{
 					""
 				},
@@ -16514,7 +16647,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 7,
 		hide = 0,
-		index_id = 394,
+		index_id = 398,
 		group_type = 70203,
 		code = 436,
 		property_hexagon = {
@@ -16537,6 +16670,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[496] = {
+		type = 3,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 7,
+		hide = 0,
+		index_id = 399,
+		group_type = 70301,
+		code = 496,
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：破晓冰华",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[437] = {
 		type = 5,
 		trans_skin = 0,
@@ -16545,7 +16709,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 7,
 		hide = 0,
-		index_id = 395,
+		index_id = 400,
 		group_type = 70501,
 		code = 437,
 		property_hexagon = {
@@ -16568,6 +16732,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[440] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 7,
+		hide = 0,
+		index_id = 401,
+		group_type = 70504,
+		code = 440,
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"C",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：破晓冰华",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[441] = {
 		type = 5,
 		trans_skin = 0,
@@ -16576,7 +16771,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 7,
 		hide = 0,
-		index_id = 396,
+		index_id = 402,
 		group_type = 70505,
 		code = 441,
 		property_hexagon = {
@@ -16607,7 +16802,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 8,
 		hide = 0,
-		index_id = 397,
+		index_id = 403,
 		group_type = 80102,
 		code = 348,
 		property_hexagon = {
@@ -16658,7 +16853,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 8,
 		hide = 0,
-		index_id = 398,
+		index_id = 404,
 		group_type = 80103,
 		code = 359,
 		property_hexagon = {
@@ -16693,7 +16888,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 8,
 		hide = 0,
-		index_id = 399,
+		index_id = 405,
 		group_type = 80104,
 		code = 395,
 		property_hexagon = {
@@ -16735,7 +16930,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 8,
 		hide = 0,
-		index_id = 400,
+		index_id = 406,
 		group_type = 80101,
 		code = 347,
 		property_hexagon = {
@@ -16777,7 +16972,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 8,
 		hide = 0,
-		index_id = 401,
+		index_id = 407,
 		group_type = 80201,
 		code = 349,
 		property_hexagon = {
@@ -16827,7 +17022,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 8,
 		hide = 0,
-		index_id = 402,
+		index_id = 408,
 		group_type = 80202,
 		code = 454,
 		property_hexagon = {
@@ -16858,7 +17053,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 8,
 		hide = 0,
-		index_id = 403,
+		index_id = 409,
 		group_type = 80501,
 		code = 453,
 		property_hexagon = {
@@ -16889,7 +17084,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 8,
 		hide = 0,
-		index_id = 404,
+		index_id = 410,
 		group_type = 80701,
 		code = 458,
 		property_hexagon = {
@@ -16920,7 +17115,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 8,
 		hide = 0,
-		index_id = 405,
+		index_id = 411,
 		group_type = 80801,
 		code = 350,
 		property_hexagon = {
@@ -16962,7 +17157,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 406,
+		index_id = 412,
 		group_type = 90101,
 		code = 351,
 		property_hexagon = {
@@ -17023,7 +17218,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 407,
+		index_id = 413,
 		group_type = 90102,
 		code = 452,
 		property_hexagon = {
@@ -17054,7 +17249,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 408,
+		index_id = 414,
 		group_type = 90103,
 		code = 457,
 		property_hexagon = {
@@ -17085,7 +17280,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 409,
+		index_id = 415,
 		group_type = 90111,
 		code = 394,
 		property_hexagon = {
@@ -17127,7 +17322,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 410,
+		index_id = 416,
 		group_type = 90112,
 		code = 481,
 		property_hexagon = {
@@ -17158,7 +17353,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 411,
+		index_id = 417,
 		group_type = 90201,
 		code = 456,
 		property_hexagon = {
@@ -17189,7 +17384,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 412,
+		index_id = 418,
 		group_type = 90302,
 		code = 455,
 		property_hexagon = {
@@ -17220,7 +17415,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 413,
+		index_id = 419,
 		group_type = 90401,
 		code = 352,
 		property_hexagon = {
@@ -17262,7 +17457,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 414,
+		index_id = 420,
 		group_type = 90501,
 		code = 353,
 		property_hexagon = {
@@ -17304,7 +17499,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 415,
+		index_id = 421,
 		group_type = 90503,
 		code = 418,
 		property_hexagon = {
@@ -19379,15 +19574,21 @@ pg.ship_data_group = {
 		410,
 		411,
 		412,
+		499,
+		497,
 		431,
+		491,
 		432,
 		433,
 		475,
-		491,
 		262,
 		434,
+		498,
+		435,
 		436,
+		496,
 		437,
+		440,
 		441,
 		348,
 		359,

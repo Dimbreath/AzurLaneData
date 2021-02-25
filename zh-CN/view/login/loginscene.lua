@@ -308,25 +308,9 @@ function slot0.didEnter(slot0)
 			pg.SdkMgr.GetInstance():SwitchAccount()
 		end
 	end, SFX_MAIN)
-
-	if CSharpVersion >= 35 then
-		onButton(slot0, slot0.repairBtn, function ()
-			showRepairMsgbox()
-		end)
-	else
-		setActive(slot0.repairBtn, PathMgr.FileExists(Application.persistentDataPath .. "/hashes.csv") and PLATFORM_CODE ~= PLATFORM_JP)
-
-		if isActive(slot0.repairBtn) then
-			onButton(slot0, slot0.repairBtn, function ()
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("resource_verify_warn"),
-					onYes = function ()
-						resourceVerify()
-					end
-				})
-			end)
-		end
-	end
+	onButton(slot0, slot0.repairBtn, function ()
+		showRepairMsgbox()
+	end)
 
 	function slot1()
 		if pg.SdkMgr.GetInstance():GetLoginType() == LoginType.PLATFORM then

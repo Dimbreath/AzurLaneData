@@ -205,7 +205,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 313,
 		time_limit_type = 0,
-		desc = "等待后续活动获取",
+		desc = "<color=#ffffff>「让我们一同探寻隐藏在“密室”之中的秘密吧！」</color>\n「破晓冰华」活动获取",
 		scene = {}
 	},
 	[401] = {

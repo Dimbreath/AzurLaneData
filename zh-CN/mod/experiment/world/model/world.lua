@@ -1093,4 +1093,12 @@ function slot0.CheckSkipBattle(slot0)
 	return getProxy(PlayerProxy):getRawData():CheckIdentityFlag() and world_skip_battle == 1
 end
 
+function slot0.IsMapVisioned(slot0, slot1)
+	if slot0:GetActiveMap().id == slot1 and uv0.ReplacementMapType(slot0:GetActiveEntrance(), slot2) == "base_chapter" and slot2.isPressing then
+		return true
+	end
+
+	return slot0:IsMapPressingAwardFlag(slot1)
+end
+
 return slot0

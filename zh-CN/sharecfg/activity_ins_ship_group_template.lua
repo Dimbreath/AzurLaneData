@@ -1215,6 +1215,41 @@ pg.activity_ins_ship_group_template = {
 		name = "Zara",
 		sculpture = "zhala"
 	},
+	[70108] = {
+		ship_group = 70108,
+		name = "Громкий",
+		sculpture = "hongliang"
+	},
+	[70206] = {
+		ship_group = 70206,
+		name = "Мурманск",
+		sculpture = "moermansike"
+	},
+	[70107] = {
+		ship_group = 70107,
+		name = "ремящий",
+		sculpture = "leiming"
+	},
+	[70301] = {
+		ship_group = 70301,
+		name = "Tallinn",
+		sculpture = "talin"
+	},
+	[70204] = {
+		ship_group = 70204,
+		name = "Киров",
+		sculpture = "jiluofu"
+	},
+	[70106] = {
+		ship_group = 70106,
+		name = "cнежок",
+		sculpture = "shensu"
+	},
+	[70504] = {
+		ship_group = 70504,
+		name = "Proj23.Bel",
+		sculpture = "suweiaibeilaluosi"
+	},
 	all = {
 		30701,
 		30702,
@@ -1458,6 +1493,13 @@ pg.activity_ins_ship_group_template = {
 		31901,
 		60303,
 		60103,
-		60302
+		60302,
+		70108,
+		70206,
+		70107,
+		70301,
+		70204,
+		70106,
+		70504
 	}
 }

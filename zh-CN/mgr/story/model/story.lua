@@ -2,12 +2,14 @@ slot0 = class("Story")
 slot0.MODE_ASIDE = 1
 slot0.MODE_DIALOGUE = 2
 slot0.MODE_BG = 3
+slot0.MODE_CAROUSE = 4
 
 function slot0.GetStoryStepCls(slot0)
 	return ({
 		AsideStep,
 		DialogueStep,
-		BgStep
+		BgStep,
+		CarouselStep
 	})[slot0]
 end
 

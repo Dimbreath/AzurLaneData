@@ -50,6 +50,34 @@ function slot0.GetPrefab(slot0, slot1, slot2, slot3, slot4)
 	slot5:Start()
 end
 
+function slot0.GetPrefabBYStopLoading(slot0, slot1, slot2, slot3, slot4)
+	slot0:ClearRequest(slot4, uv0.PartLoading)
+
+	slot4 = slot4 or slot0:GenerateUID4LoadingRequest()
+	slot5 = nil
+	slot5 = uv1.New(slot1, slot2 or "", function (slot0)
+		uv0._loadingRequest[uv1] = nil
+
+		uv0:ClearRequest(uv1, uv2.PartLoaded)
+
+		uv0._instKeyDict[slot0] = uv1
+		uv0._keyInstDict[uv1] = slot0
+		uv0._returnRequest[uv1] = uv3.New(uv4, uv5, slot0)
+
+		if uv6 then
+			uv6(slot0)
+		end
+	end)
+
+	if uv3 then
+		print("AutoLoader Loading Path: " .. slot1 .. " Name: " .. slot2 .. " ;")
+	end
+
+	slot0._loadingRequest[slot4] = slot5
+
+	slot5:Start()
+end
+
 function slot0.ReturnPrefab(slot0, slot1)
 	slot0:ClearRequest(slot0._instKeyDict[go(slot1)])
 end

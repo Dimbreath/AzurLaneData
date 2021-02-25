@@ -113,6 +113,8 @@ function slot0.LoadScene(slot0, slot1)
 		uv0.tfSpriteScene = uv0.tfEntity:Find("sprite_scene")
 		uv0.tfCamera = uv0.transform:Find("Main Camera")
 		uv0.tfCamera:GetComponent("Camera").depthTextureMode = UnityEngine.DepthTextureMode.Depth
+		uv0.defaultSprite = uv0.tfEntity:Find("decolation_layer/edge"):GetComponent("SpriteRenderer").material
+		uv0.addSprite = uv0.tfEntity:Find("map_scene/mask_layer"):GetComponent("SpriteRenderer").material
 		uv0.dragTrigger = uv0.tfEntity:Find("Plane"):GetComponent("EventTriggerListener")
 		slot2 = uv0.tfCamera.localEulerAngles.x / 180 * math.pi
 		slot3 = Vector2(0.2, 0.2) * uv0.frontDistance / uv0.baseDistance

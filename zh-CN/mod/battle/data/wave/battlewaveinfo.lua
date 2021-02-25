@@ -20,7 +20,7 @@ function slot2.Ctor(slot0)
 end
 
 function slot2.IsReady(slot0)
-	return slot0:IsPreWavesFinished() and slot0:IsFlagsPass()
+	return slot0:IsPreWavesFinished()
 end
 
 function slot2.IsFlagsPass(slot0)
@@ -77,16 +77,20 @@ function slot2.IsFinish(slot0)
 end
 
 function slot2.DoBranch(slot0)
-	slot1 = false
-
-	for slot5, slot6 in ipairs(slot0._branchWaves) do
-		if not slot0._branchWaveIDs[slot6:GetIndex()] or slot6:GetState() ~= uv0.STATE_PASS then
-			if slot7 or slot6:GetState() ~= uv0.STATE_FAIL then
+	for slot4, slot5 in ipairs(slot0._branchWaves) do
+		if not slot0._branchWaveIDs[slot5:GetIndex()] or slot5:GetState() ~= uv0.STATE_PASS then
+			if slot6 or slot5:GetState() ~= uv0.STATE_FAIL then
 				slot0:doFail()
 
 				return
 			end
 		end
+	end
+
+	if not slot0:IsFlagsPass() then
+		slot0:doFail()
+
+		return
 	end
 
 	slot0:DoWave()

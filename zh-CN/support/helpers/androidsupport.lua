@@ -6,23 +6,15 @@ ANDROID_RECORD_AUDIO_PERMISSION = "android.permission.RECORD_AUDIO"
 ANDROID_WRITE_EXTERNAL_PERMISSION = "android.permission.WRITE_EXTERNAL_STORAGE"
 
 function CheckPermissionGranted(slot0)
-	if CSharpVersion >= 21 then
-		return PermissionMgr.Inst:CheckPermissionGranted(slot0)
-	else
-		return true
-	end
+	return PermissionMgr.Inst:CheckPermissionGranted(slot0)
 end
 
 function ApplyPermission(slot0)
-	if CSharpVersion >= 21 then
-		PermissionMgr.Inst:ApplyPermission(slot0)
-	end
+	PermissionMgr.Inst:ApplyPermission(slot0)
 end
 
 function OpenDetailSetting()
-	if CSharpVersion >= 21 then
-		PermissionMgr.Inst:OpenDetailSetting()
-	end
+	PermissionMgr.Inst:OpenDetailSetting()
 end
 
 function OnPermissionRequestResult(slot0)

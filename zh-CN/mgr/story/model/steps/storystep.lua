@@ -7,6 +7,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.bgShadow = slot1.bgShadow
 	slot0.blackBg = slot1.blackBg
 	slot0.bgGlitchArt = slot1.bgNoise
+	slot0.oldPhoto = slot1.oldPhoto
 	slot0.bgm = slot1.bgm
 	slot0.bgmDelay = slot1.bgmDelay or 0
 	slot0.stopbgm = slot1.stopbgm
@@ -20,6 +21,10 @@ function slot0.Ctor(slot0, slot1)
 	slot0.options = slot1.options
 	slot0.branchCode = slot1.optionFlag
 	slot0.nextScriptName = slot1.jumpto
+end
+
+function slot0.OldPhotoEffect(slot0)
+	return slot0.oldPhoto
 end
 
 function slot0.ShouldBgGlitchArt(slot0)

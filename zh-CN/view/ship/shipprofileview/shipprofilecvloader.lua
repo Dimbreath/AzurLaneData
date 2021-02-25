@@ -4,7 +4,7 @@ slot1 = pg.ship_skin_words
 function slot0.Ctor(slot0)
 	slot0.loadedCVBankName = nil
 	slot0.loadedCVBattleBankName = nil
-	slot0.currentVoice = nil
+	slot0.playbackInfo = nil
 	slot0.timers = {}
 end
 
@@ -36,15 +36,27 @@ function slot0.SetUp(slot0, slot1)
 end
 
 function slot0.PlaySound(slot0, slot1)
-	slot0:StopSound()
-	pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot1, function (slot0)
-		if slot0 then
-			uv0 = slot0.playback
-			uv1 = slot0.cueInfo
-		end
-	end)
+	if not slot0.playbackInfo or slot1 ~= slot0.prevCvPath or slot0.playbackInfo.cueData == nil then
+		slot0:StopSound()
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot1, function (slot0)
+			if slot0 then
+				uv0.playbackInfo = slot0
+			end
+		end)
 
-	slot0.currentVoice = nil
+		slot0.prevCvPath = slot1
+
+		if slot0.playbackInfo == nil then
+			return nil
+		end
+
+		return slot0.playbackInfo.cueInfo
+	elseif slot0.playbackInfo then
+		slot0.playbackInfo:PlaybackStop()
+		slot0.playbackInfo:SetStartTimeAndPlay()
+
+		return slot0.playbackInfo.cueInfo
+	end
 
 	return nil
 end
@@ -88,8 +100,8 @@ function slot0.RemoveTimer(slot0, slot1)
 end
 
 function slot0.StopSound(slot0)
-	if slot0.currentVoice then
-		slot0.currentVoice:Stop(true)
+	if slot0.playbackInfo then
+		slot0.playbackInfo:PlaybackStop()
 	end
 end
 
@@ -111,7 +123,12 @@ function slot0.Dispose(slot0)
 	slot0:StopSound()
 	slot0:Unload()
 
-	slot0.currentVoice = nil
+	if slot0.playbackInfo then
+		slot0.playbackInfo:Dispose()
+
+		slot0.playbackInfo = nil
+	end
+
 	slot0.exited = true
 
 	for slot4, slot5 in pairs(slot0.timers) do

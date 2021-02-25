@@ -33,7 +33,11 @@ function slot3.SetAoeData(slot0, slot1)
 	slot0._bulletTemp = uv0.GetBulletTmpDataFromID(slot0._bulletID)
 	slot0._angle = slot0._beamTemp.angle
 
-	slot0._aoe:SetAngle(slot0._angle)
+	slot0._aoe:SetAngle(slot0._angle + slot0._aimAngle)
+end
+
+function slot3.SetAimAngle(slot0, slot1)
+	slot0._aimAngle = slot1 or 0
 end
 
 function slot3.getAngleRatio(slot0)
@@ -51,7 +55,7 @@ end
 function slot3.UpdateBeamAngle(slot0)
 	slot0._angle = slot0._angle + slot0._beamTemp.delta_angle * slot0:getAngleRatio()
 
-	slot0._aoe:SetAngle(slot0._angle)
+	slot0._aoe:SetAngle(slot0._angle + slot0._aimAngle)
 end
 
 function slot3.AddCldUnit(slot0, slot1)

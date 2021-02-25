@@ -38,6 +38,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "近海演习",
 		chapter_name = "1–1",
 		type = 1,
@@ -297,6 +298,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "虎！虎！虎！",
 		chapter_name = "1–2",
 		type = 1,
@@ -665,6 +667,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "燃烧的军港",
 		chapter_name = "1–3",
 		type = 1,
@@ -1067,6 +1070,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "来自东方的舰队",
 		chapter_name = "1–4",
 		type = 1,
@@ -1556,6 +1560,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "支援图拉岛",
 		chapter_name = "2–1",
 		type = 1,
@@ -2133,6 +2138,7 @@ pg.chapter_template = {
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "乌云蔽日",
 		chapter_name = "2–2",
 		type = 1,
@@ -2761,6 +2767,7 @@ pg.chapter_template = {
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "珊瑚海的首秀",
 		chapter_name = "2–3",
 		type = 1,
@@ -3370,6 +3377,7 @@ pg.chapter_template = {
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "救援约克城",
 		chapter_name = "2–4",
 		type = 1,
@@ -3947,6 +3955,7 @@ pg.chapter_template = {
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "决战中途岛！",
 		chapter_name = "3–1",
 		type = 1,
@@ -4545,6 +4554,7 @@ pg.chapter_template = {
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "命运的五分钟",
 		chapter_name = "3–2",
 		type = 1,
@@ -5167,6 +5177,7 @@ pg.chapter_template = {
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "背水一战",
 		chapter_name = "3–3",
 		type = 1,
@@ -5784,6 +5795,7 @@ pg.chapter_template = {
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "最后的反击！",
 		chapter_name = "3–4",
 		type = 1,
@@ -6387,6 +6399,7 @@ pg.chapter_template = {
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "海域救援",
 		chapter_name = "SOS",
 		type = 1,
@@ -7062,6 +7075,7 @@ pg.chapter_template = {
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "午夜惊魂",
 		chapter_name = "4–1",
 		type = 1,
@@ -7584,6 +7598,7 @@ pg.chapter_template = {
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "血色黎明",
 		chapter_name = "4–2",
 		type = 1,
@@ -8099,6 +8114,7 @@ pg.chapter_template = {
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "东所罗门遭遇战",
 		chapter_name = "4–3",
 		type = 1,
@@ -8559,6 +8575,7 @@ pg.chapter_template = {
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "复仇之战",
 		chapter_name = "4–4",
 		type = 1,
@@ -9156,6 +9173,7 @@ pg.chapter_template = {
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "海域救援",
 		chapter_name = "SOS",
 		type = 1,
@@ -9804,6 +9822,7 @@ pg.chapter_template = {
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "物资拦截战",
 		chapter_name = "5–1",
 		type = 1,
@@ -10406,6 +10425,7 @@ pg.chapter_template = {
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "圣克鲁斯的天空",
 		chapter_name = "5–2",
 		type = 1,
@@ -10946,6 +10966,7 @@ pg.chapter_template = {
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "大黄蜂的陨落",
 		chapter_name = "5–3",
 		type = 1,
@@ -11456,6 +11477,7 @@ pg.chapter_template = {
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "撤离战区",
 		chapter_name = "5–4",
 		type = 1,
@@ -11991,6 +12013,7 @@ pg.chapter_template = {
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "海域救援",
 		chapter_name = "SOS",
 		type = 1,
@@ -12577,6 +12600,7 @@ pg.chapter_template = {
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "夜战精英",
 		chapter_name = "6–1",
 		type = 1,
@@ -13150,6 +13174,7 @@ pg.chapter_template = {
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "反攻",
 		chapter_name = "6–2",
 		type = 1,
@@ -13779,6 +13804,7 @@ pg.chapter_template = {
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "巨炮最后的对决",
 		chapter_name = "6–3",
 		type = 1,
@@ -14332,6 +14358,7 @@ pg.chapter_template = {
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "所罗门的噩梦",
 		chapter_name = "6–4",
 		type = 1,
@@ -14929,6 +14956,7 @@ pg.chapter_template = {
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "海域救援",
 		chapter_name = "SOS",
 		type = 1,
@@ -15525,6 +15553,7 @@ pg.chapter_template = {
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "增援拦截",
 		chapter_name = "7–1",
 		type = 1,
@@ -15945,6 +15974,7 @@ pg.chapter_template = {
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "短兵相接",
 		chapter_name = "7–2",
 		type = 1,
@@ -16468,6 +16498,7 @@ pg.chapter_template = {
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "措手不及",
 		chapter_name = "7–3",
 		type = 1,
@@ -17062,6 +17093,7 @@ pg.chapter_template = {
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "预料外的混乱",
 		chapter_name = "7–4",
 		type = 1,
@@ -17640,6 +17672,7 @@ pg.chapter_template = {
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "海域救援",
 		chapter_name = "SOS",
 		type = 1,
@@ -18221,6 +18254,7 @@ pg.chapter_template = {
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "寒风",
 		chapter_name = "8–1",
 		type = 1,
@@ -18663,6 +18697,7 @@ pg.chapter_template = {
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "北极圈的拂晓",
 		chapter_name = "8–2",
 		type = 1,
@@ -19191,6 +19226,7 @@ pg.chapter_template = {
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "冰海怒涛",
 		chapter_name = "8–3",
 		type = 1,
@@ -19782,6 +19818,7 @@ pg.chapter_template = {
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "被遗忘的战场",
 		chapter_name = "8–4",
 		type = 1,
@@ -20436,6 +20473,7 @@ pg.chapter_template = {
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "海域救援",
 		chapter_name = "SOS",
 		type = 1,
@@ -21079,6 +21117,7 @@ pg.chapter_template = {
 		unlocklevel = 65,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "不祥之夜",
 		chapter_name = "9–1",
 		type = 1,
@@ -21615,6 +21654,7 @@ pg.chapter_template = {
 		unlocklevel = 65,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "拦截作战",
 		chapter_name = "9–2",
 		type = 1,
@@ -22189,6 +22229,7 @@ pg.chapter_template = {
 		unlocklevel = 65,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "黑夜中的光芒",
 		chapter_name = "9–3",
 		type = 1,
@@ -22787,6 +22828,7 @@ pg.chapter_template = {
 		unlocklevel = 65,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "海伦娜",
 		chapter_name = "9–4",
 		type = 1,
@@ -23407,6 +23449,7 @@ pg.chapter_template = {
 		unlocklevel = 65,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "海域救援",
 		chapter_name = "SOS",
 		type = 1,
@@ -24037,6 +24080,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "再次出击，再次！",
 		chapter_name = "10–1",
 		type = 1,
@@ -24592,6 +24636,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "先发制人",
 		chapter_name = "10–2",
 		type = 1,
@@ -25203,6 +25248,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "乘胜追击",
 		chapter_name = "10–3",
 		type = 1,
@@ -25831,6 +25877,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "回马枪",
 		chapter_name = "10–4",
 		type = 1,
@@ -26473,6 +26520,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "海域救援",
 		chapter_name = "SOS",
 		type = 1,
@@ -27104,6 +27152,7 @@ pg.chapter_template = {
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "拂晓登陆！",
 		chapter_name = "11–1",
 		type = 1,
@@ -27708,6 +27757,7 @@ pg.chapter_template = {
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "暴风雨之夜",
 		chapter_name = "11–2",
 		type = 1,
@@ -28427,6 +28477,7 @@ pg.chapter_template = {
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "所罗门四骑士",
 		chapter_name = "11–3",
 		type = 1,
@@ -29116,6 +29167,7 @@ pg.chapter_template = {
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "撕裂黑夜！",
 		chapter_name = "11–4",
 		type = 1,
@@ -29914,6 +29966,7 @@ pg.chapter_template = {
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "先声夺人",
 		chapter_name = "12–1",
 		type = 1,
@@ -30496,6 +30549,7 @@ pg.chapter_template = {
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "鲁莽的后果",
 		chapter_name = "12–2",
 		type = 1,
@@ -31191,6 +31245,7 @@ pg.chapter_template = {
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "空中对决",
 		chapter_name = "12–3",
 		type = 1,
@@ -31922,6 +31977,7 @@ pg.chapter_template = {
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "TF58，翱翔于天际",
 		chapter_name = "12–4",
 		type = 1,
@@ -32768,6 +32824,7 @@ pg.chapter_template = {
 		unlocklevel = 85,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "激战的长空",
 		chapter_name = "13–1",
 		type = 1,
@@ -33358,6 +33415,7 @@ pg.chapter_template = {
 		unlocklevel = 85,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "羽栖之鹤",
 		chapter_name = "13–2",
 		type = 1,
@@ -34053,6 +34111,7 @@ pg.chapter_template = {
 		unlocklevel = 85,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "奋起之鹤",
 		chapter_name = "13–3",
 		type = 1,
@@ -34792,6 +34851,7 @@ pg.chapter_template = {
 		unlocklevel = 85,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "起舞之凤",
 		chapter_name = "13–4",
 		type = 1,
@@ -35641,6 +35701,7 @@ pg.chapter_template = {
 		unlocklevel = 15,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "不祥的疑云",
 		chapter_name = "SP.1",
 		type = 2,
@@ -36041,6 +36102,7 @@ pg.chapter_template = {
 		unlocklevel = 15,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Z舰队的反击",
 		chapter_name = "SP.2",
 		type = 2,
@@ -36509,6 +36571,7 @@ pg.chapter_template = {
 		unlocklevel = 15,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "大舰巨炮的挽歌",
 		chapter_name = "SP.3",
 		type = 2,
@@ -37007,6 +37070,7 @@ pg.chapter_template = {
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "近海演习",
 		chapter_name = "1–1",
 		type = 2,
@@ -37302,6 +37366,7 @@ pg.chapter_template = {
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "虎！虎！虎！",
 		chapter_name = "1–2",
 		type = 2,
@@ -37704,6 +37769,7 @@ pg.chapter_template = {
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "燃烧的军港",
 		chapter_name = "1–3",
 		type = 2,
@@ -38142,6 +38208,7 @@ pg.chapter_template = {
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "来自东方的舰队",
 		chapter_name = "1–4",
 		type = 2,
@@ -38663,6 +38730,7 @@ pg.chapter_template = {
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "支援图拉岛",
 		chapter_name = "2–1",
 		type = 2,
@@ -39284,6 +39352,7 @@ pg.chapter_template = {
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "乌云蔽日",
 		chapter_name = "2–2",
 		type = 2,
@@ -39958,6 +40027,7 @@ pg.chapter_template = {
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "珊瑚海的首秀",
 		chapter_name = "2–3",
 		type = 2,
@@ -40609,6 +40679,7 @@ pg.chapter_template = {
 		unlocklevel = 20,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "救援约克城",
 		chapter_name = "2–4",
 		type = 2,
@@ -41230,6 +41301,7 @@ pg.chapter_template = {
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "决战中途岛！",
 		chapter_name = "3–1",
 		type = 2,
@@ -41872,6 +41944,7 @@ pg.chapter_template = {
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "命运的五分钟",
 		chapter_name = "3–2",
 		type = 2,
@@ -42538,6 +42611,7 @@ pg.chapter_template = {
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "背水一战",
 		chapter_name = "3–3",
 		type = 2,
@@ -43199,6 +43273,7 @@ pg.chapter_template = {
 		unlocklevel = 25,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "最后的反击！",
 		chapter_name = "3–4",
 		type = 2,
@@ -43846,6 +43921,7 @@ pg.chapter_template = {
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "午夜惊魂",
 		chapter_name = "4–1",
 		type = 2,
@@ -44410,6 +44486,7 @@ pg.chapter_template = {
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "血色黎明",
 		chapter_name = "4–2",
 		type = 2,
@@ -44967,6 +45044,7 @@ pg.chapter_template = {
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "东所罗门遭遇战",
 		chapter_name = "4–3",
 		type = 2,
@@ -45469,6 +45547,7 @@ pg.chapter_template = {
 		unlocklevel = 30,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "复仇之战",
 		chapter_name = "4–4",
 		type = 2,
@@ -46108,6 +46187,7 @@ pg.chapter_template = {
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "物资拦截战",
 		chapter_name = "5–1",
 		type = 2,
@@ -46752,6 +46832,7 @@ pg.chapter_template = {
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "圣克鲁斯的天空",
 		chapter_name = "5–2",
 		type = 2,
@@ -47334,6 +47415,7 @@ pg.chapter_template = {
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "大黄蜂的陨落",
 		chapter_name = "5–3",
 		type = 2,
@@ -47886,6 +47968,7 @@ pg.chapter_template = {
 		unlocklevel = 40,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "撤离战区",
 		chapter_name = "5–4",
 		type = 2,
@@ -48463,6 +48546,7 @@ pg.chapter_template = {
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "夜战精英",
 		chapter_name = "6–1",
 		type = 2,
@@ -49079,6 +49163,7 @@ pg.chapter_template = {
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "反攻",
 		chapter_name = "6–2",
 		type = 2,
@@ -49751,6 +49836,7 @@ pg.chapter_template = {
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "巨炮最后的对决",
 		chapter_name = "6–3",
 		type = 2,
@@ -50347,6 +50433,7 @@ pg.chapter_template = {
 		unlocklevel = 50,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "所罗门的噩梦",
 		chapter_name = "6–4",
 		type = 2,
@@ -50987,6 +51074,7 @@ pg.chapter_template = {
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "增援拦截",
 		chapter_name = "7–1",
 		type = 2,
@@ -51452,6 +51540,7 @@ pg.chapter_template = {
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "短兵相接",
 		chapter_name = "7–2",
 		type = 2,
@@ -52020,6 +52109,7 @@ pg.chapter_template = {
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "措手不及",
 		chapter_name = "7–3",
 		type = 2,
@@ -52659,6 +52749,7 @@ pg.chapter_template = {
 		unlocklevel = 60,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "预料外的混乱",
 		chapter_name = "7–4",
 		type = 2,
@@ -53282,6 +53373,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "寒风",
 		chapter_name = "8–1",
 		type = 2,
@@ -53769,6 +53861,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "北极圈的拂晓",
 		chapter_name = "8–2",
 		type = 2,
@@ -54342,6 +54435,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "冰海怒涛",
 		chapter_name = "8–3",
 		type = 2,
@@ -54978,6 +55072,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "被遗忘的战场",
 		chapter_name = "8–4",
 		type = 2,
@@ -55677,6 +55772,7 @@ pg.chapter_template = {
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "不祥之夜",
 		chapter_name = "9–1",
 		type = 2,
@@ -56258,6 +56354,7 @@ pg.chapter_template = {
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "拦截作战",
 		chapter_name = "9–2",
 		type = 2,
@@ -56877,6 +56974,7 @@ pg.chapter_template = {
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "黑夜中的光芒",
 		chapter_name = "9–3",
 		type = 2,
@@ -57520,6 +57618,7 @@ pg.chapter_template = {
 		unlocklevel = 80,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "海伦娜",
 		chapter_name = "9–4",
 		type = 2,
@@ -58185,6 +58284,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "再次出击，再次！",
 		chapter_name = "10–1",
 		type = 2,
@@ -58785,6 +58885,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "先发制人",
 		chapter_name = "10–2",
 		type = 2,
@@ -59441,6 +59542,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "乘胜追击",
 		chapter_name = "10–3",
 		type = 2,
@@ -60114,6 +60216,7 @@ pg.chapter_template = {
 		unlocklevel = 70,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "回马枪",
 		chapter_name = "10–4",
 		type = 2,
@@ -60801,6 +60904,7 @@ pg.chapter_template = {
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "拂晓登陆！",
 		chapter_name = "11–1",
 		type = 2,
@@ -61450,6 +61554,7 @@ pg.chapter_template = {
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "暴风雨之夜",
 		chapter_name = "11–2",
 		type = 2,
@@ -62214,6 +62319,7 @@ pg.chapter_template = {
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "所罗门四骑士",
 		chapter_name = "11–3",
 		type = 2,
@@ -62948,6 +63054,7 @@ pg.chapter_template = {
 		unlocklevel = 75,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "撕裂黑夜！",
 		chapter_name = "11–4",
 		type = 2,
@@ -63791,6 +63898,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "商路护航简单",
 		chapter_name = "CE1",
 		type = 1,
@@ -64272,6 +64380,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "商路护航普通",
 		chapter_name = "CE2",
 		type = 1,
@@ -64805,6 +64914,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "商路护航困难",
 		chapter_name = "CE3",
 		type = 1,
@@ -65429,6 +65539,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "商路护航简单",
 		chapter_name = "CE1",
 		type = 1,
@@ -65904,6 +66015,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "商路护航普通",
 		chapter_name = "CE2",
 		type = 1,
@@ -66424,6 +66536,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "商路护航困难",
 		chapter_name = "CE3",
 		type = 1,
@@ -67036,6 +67149,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "商路护航简单",
 		chapter_name = "CE1",
 		type = 1,
@@ -67510,6 +67624,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "商路护航普通",
 		chapter_name = "CE2",
 		type = 1,
@@ -68035,6 +68150,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "商路护航困难",
 		chapter_name = "CE3",
 		type = 1,
@@ -68598,6 +68714,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "开局|~Openings~",
 		chapter_name = "A1",
 		type = 1,
@@ -69057,6 +69174,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "出子|~Development~",
 		chapter_name = "A2",
 		type = 1,
@@ -69578,6 +69696,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "主动权|~Initiative~",
 		chapter_name = "A3",
 		type = 1,
@@ -70169,6 +70288,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "升变|~Promotion~",
 		chapter_name = "A4",
 		type = 1,
@@ -70811,6 +70931,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "交汇点|~Transposition~",
 		chapter_name = "B1",
 		type = 1,
@@ -71288,6 +71409,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "引离|~Deflection~",
 		chapter_name = "B2",
 		type = 1,
@@ -71762,6 +71884,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "过载|~Overworked~",
 		chapter_name = "B3",
 		type = 1,
@@ -72422,6 +72545,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "将杀|~Checkmate~",
 		chapter_name = "B4",
 		type = 1,
@@ -73280,6 +73404,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "开局|~Openings~",
 		chapter_name = "C1",
 		type = 2,
@@ -73780,6 +73905,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "出子|~Development~",
 		chapter_name = "C2",
 		type = 2,
@@ -74342,6 +74468,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "主动权|~Initiative~",
 		chapter_name = "C3",
 		type = 2,
@@ -74974,6 +75101,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "升变|~Promotion~",
 		chapter_name = "C4",
 		type = 2,
@@ -75657,6 +75785,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "交汇点|~Transposition~",
 		chapter_name = "D1",
 		type = 2,
@@ -76175,6 +76304,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "引离|~Deflection~",
 		chapter_name = "D2",
 		type = 2,
@@ -76690,6 +76820,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "过载|~Overworked~",
 		chapter_name = "D3",
 		type = 2,
@@ -77391,6 +77522,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "将杀|~Checkmate~",
 		chapter_name = "D4",
 		type = 2,
@@ -78290,6 +78422,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "日出之国的少女们",
 		chapter_name = "SP1",
 		type = 1,
@@ -78782,6 +78915,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "永不西沉的太阳",
 		chapter_name = "SP2",
 		type = 1,
@@ -79304,6 +79438,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "“美丽”与“丑陋”",
 		chapter_name = "SP3",
 		type = 1,
@@ -79845,6 +79980,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "铅色的追忆I",
 		chapter_name = "SP1",
 		type = 1,
@@ -80374,6 +80510,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "铅色的追忆II",
 		chapter_name = "SP2",
 		type = 1,
@@ -80978,6 +81115,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "UIhuohua2",
+		ItemTransformPattern = "",
 		name = "铅色的追忆III",
 		chapter_name = "SP3",
 		type = 1,
@@ -81721,6 +81859,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "大意与袭击",
 		chapter_name = "SP1",
 		type = 1,
@@ -82305,6 +82444,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "追击与逃亡",
 		chapter_name = "SP2",
 		type = 1,
@@ -82891,6 +83031,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "光荣的一战",
 		chapter_name = "SP3",
 		type = 1,
@@ -83600,6 +83741,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "大意与袭击",
 		chapter_name = "SP1",
 		type = 1,
@@ -84184,6 +84326,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "追击与逃亡",
 		chapter_name = "SP2",
 		type = 1,
@@ -84770,6 +84913,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "光荣的一战",
 		chapter_name = "SP3",
 		type = 1,
@@ -85479,6 +85623,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "突入|～Inburst～",
 		chapter_name = "A1",
 		type = 1,
@@ -85918,6 +86063,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "接敌|～Engage～",
 		chapter_name = "A2",
 		type = 1,
@@ -86447,6 +86593,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "迷惑|～Confuse～",
 		chapter_name = "A3",
 		type = 1,
@@ -87062,6 +87209,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "信号|～Signal～",
 		chapter_name = "B1",
 		type = 1,
@@ -87651,6 +87799,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "危机|～Crisis～",
 		chapter_name = "B2",
 		type = 1,
@@ -88339,6 +88488,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "决战|～Decisive～",
 		chapter_name = "B3",
 		type = 1,
@@ -89189,6 +89339,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "突入|～Inburst～",
 		chapter_name = "C1",
 		type = 2,
@@ -89669,6 +89820,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "接敌|～Engage～",
 		chapter_name = "C2",
 		type = 2,
@@ -90239,6 +90391,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "迷惑|～Confuse～",
 		chapter_name = "C3",
 		type = 2,
@@ -90895,6 +91048,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "信号|～Signal～",
 		chapter_name = "D1",
 		type = 2,
@@ -91525,6 +91679,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "危机|～Crisis～",
 		chapter_name = "D2",
 		type = 2,
@@ -92254,6 +92409,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "决战|～Decisive～",
 		chapter_name = "D3",
 		type = 2,
@@ -93145,6 +93301,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "索敌",
 		chapter_name = "SP1",
 		type = 1,
@@ -93713,6 +93870,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "追击",
 		chapter_name = "SP2",
 		type = 1,
@@ -94380,6 +94538,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "对决",
 		chapter_name = "SP3",
 		type = 1,
@@ -95105,6 +95264,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "索敌",
 		chapter_name = "SP1",
 		type = 1,
@@ -95689,6 +95849,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "追击",
 		chapter_name = "SP2",
 		type = 1,
@@ -96372,6 +96533,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "对决",
 		chapter_name = "SP3",
 		type = 1,
@@ -97113,6 +97275,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "庄严的漆黑之海",
 		chapter_name = "SP1",
 		type = 1,
@@ -97630,6 +97793,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "雄壮的碧绿之海",
 		chapter_name = "SP2",
 		type = 1,
@@ -98252,6 +98416,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "梦想的纯白之海",
 		chapter_name = "SP3",
 		type = 1,
@@ -98867,6 +99032,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "革命的紫色之海",
 		chapter_name = "SP4",
 		type = 1,
@@ -99595,6 +99761,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "超次元的挑战书",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -100370,6 +100537,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "归途|~Voyage~",
 		chapter_name = "A1",
 		type = 1,
@@ -100864,6 +101032,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "狩猎场|~Hunting~",
 		chapter_name = "A2",
 		type = 1,
@@ -101390,6 +101559,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "捕鼠夹|~Trap~",
 		chapter_name = "A3",
 		type = 1,
@@ -101974,6 +102144,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "北方的访客|～Visitor~",
 		chapter_name = "B1",
 		type = 1,
@@ -102569,6 +102740,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "“钨”行动|~Operate~",
 		chapter_name = "B2",
 		type = 1,
@@ -103242,6 +103414,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "凛冬王冠|～Crown~",
 		chapter_name = "B3",
 		type = 1,
@@ -104090,6 +104263,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "归途|~Voyage~",
 		chapter_name = "C1",
 		type = 2,
@@ -104639,6 +104813,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "狩猎场|~Hunting~",
 		chapter_name = "C2",
 		type = 2,
@@ -105220,6 +105395,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "捕鼠夹|~Trap~",
 		chapter_name = "C3",
 		type = 2,
@@ -105859,6 +106035,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "北方的访客|～Visitor~",
 		chapter_name = "D1",
 		type = 2,
@@ -106509,6 +106686,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "“钨”行动|~Operate~",
 		chapter_name = "D2",
 		type = 2,
@@ -107237,6 +107415,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "凛冬王冠|～Crown~",
 		chapter_name = "D3",
 		type = 2,
@@ -108140,6 +108319,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "凛冬的挑战书",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -109003,6 +109183,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "风暴的尽头",
 		chapter_name = "A1",
 		type = 1,
@@ -109547,6 +109728,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "求救信号的彼方",
 		chapter_name = "A2",
 		type = 1,
@@ -110147,6 +110329,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "圣域的护卫",
 		chapter_name = "A3",
 		type = 1,
@@ -110816,6 +110999,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "红染的参道",
 		chapter_name = "B1",
 		type = 1,
@@ -111436,6 +111620,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "“姐妹”",
 		chapter_name = "B2",
 		type = 1,
@@ -112155,6 +112340,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "红染的守护者",
 		chapter_name = "B3",
 		type = 1,
@@ -112871,6 +113057,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "风暴的尽头",
 		chapter_name = "C1",
 		type = 2,
@@ -113458,6 +113645,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "求救信号的彼方",
 		chapter_name = "C2",
 		type = 2,
@@ -114100,6 +114288,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "圣域的护卫",
 		chapter_name = "C3",
 		type = 2,
@@ -114812,6 +115001,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "红染的参道",
 		chapter_name = "D1",
 		type = 2,
@@ -115474,6 +115664,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "“姐妹”",
 		chapter_name = "D2",
 		type = 2,
@@ -116235,6 +116426,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "红染的守护者",
 		chapter_name = "D3",
 		type = 2,
@@ -116992,6 +117184,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "红染的挑战书",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -117742,6 +117935,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "重归故里",
 		chapter_name = "A1",
 		type = 1,
@@ -118339,6 +118533,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "异变",
 		chapter_name = "A2",
 		type = 1,
@@ -118859,6 +119054,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "枯竭的信仰",
 		chapter_name = "A3",
 		type = 1,
@@ -119429,6 +119625,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "守护者",
 		chapter_name = "A4",
 		type = 1,
@@ -120087,6 +120284,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "新芽",
 		chapter_name = "B1",
 		type = 1,
@@ -120796,6 +120994,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "钢铁之花，盛放",
 		chapter_name = "B2",
 		type = 1,
@@ -121456,6 +121655,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "重归故里",
 		chapter_name = "C1",
 		type = 2,
@@ -122095,6 +122295,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "异变",
 		chapter_name = "C2",
 		type = 2,
@@ -122657,6 +122858,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "枯竭的信仰",
 		chapter_name = "C3",
 		type = 2,
@@ -123311,6 +123513,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "守护者",
 		chapter_name = "C4",
 		type = 2,
@@ -124011,6 +124214,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "新芽",
 		chapter_name = "D1",
 		type = 2,
@@ -124764,6 +124968,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "钢铁之花，盛放",
 		chapter_name = "D2",
 		type = 2,
@@ -125468,6 +125673,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "狂咲之花",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -125877,6 +126083,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "开局|~Openings~",
 		chapter_name = "A1",
 		type = 1,
@@ -126431,6 +126638,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "出子|~Development~",
 		chapter_name = "A2",
 		type = 1,
@@ -127125,6 +127333,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "主动权|~Initiative~",
 		chapter_name = "A3",
 		type = 1,
@@ -127786,6 +127995,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "升变|~Promotion~",
 		chapter_name = "A4",
 		type = 1,
@@ -128565,6 +128775,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "交汇点|~Transposition~",
 		chapter_name = "B1",
 		type = 1,
@@ -129139,6 +129350,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "引离|~Deflection~",
 		chapter_name = "B2",
 		type = 1,
@@ -129721,6 +129933,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "过载|~Overworked~",
 		chapter_name = "B3",
 		type = 1,
@@ -130358,6 +130571,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "将杀|~Checkmate~",
 		chapter_name = "B4",
 		type = 1,
@@ -131151,6 +131365,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "开局|~Openings~",
 		chapter_name = "C1",
 		type = 2,
@@ -131746,6 +131961,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "出子|~Development~",
 		chapter_name = "C2",
 		type = 2,
@@ -132483,6 +132699,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "主动权|~Initiative~",
 		chapter_name = "C3",
 		type = 2,
@@ -133185,6 +133402,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "升变|~Promotion~",
 		chapter_name = "C4",
 		type = 2,
@@ -134005,6 +134223,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "交汇点|~Transposition~",
 		chapter_name = "D1",
 		type = 2,
@@ -134620,6 +134839,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "引离|~Deflection~",
 		chapter_name = "D2",
 		type = 2,
@@ -135243,6 +135463,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "过载|~Overworked~",
 		chapter_name = "D3",
 		type = 2,
@@ -135921,6 +136142,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "将杀|~Checkmate~",
 		chapter_name = "D4",
 		type = 2,
@@ -136755,6 +136977,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "异色的终局|~Ending~",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -137183,6 +137406,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "夜色中的警报",
 		chapter_name = "SP1",
 		type = 1,
@@ -137694,6 +137918,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "受难的三姐妹",
 		chapter_name = "SP2",
 		type = 1,
@@ -138266,6 +138491,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "永不褪色的羁绊",
 		chapter_name = "SP3",
 		type = 1,
@@ -138876,6 +139102,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "夜色中的警报",
 		chapter_name = "SP1",
 		type = 1,
@@ -139387,6 +139614,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "受难的三姐妹",
 		chapter_name = "SP2",
 		type = 1,
@@ -139959,6 +140187,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "永不褪色的羁绊",
 		chapter_name = "SP3",
 		type = 1,
@@ -140569,6 +140798,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "暴雨前夕",
 		chapter_name = "A1",
 		type = 1,
@@ -141115,6 +141345,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "突破",
 		chapter_name = "A2",
 		type = 1,
@@ -141767,6 +141998,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "弩炮行动",
 		chapter_name = "A3",
 		type = 1,
@@ -142531,6 +142763,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "合流",
 		chapter_name = "B1",
 		type = 1,
@@ -143090,6 +143323,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "正义的怒吼",
 		chapter_name = "B2",
 		type = 1,
@@ -143754,6 +143988,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "火炬行动",
 		chapter_name = "B3",
 		type = 1,
@@ -144551,6 +144786,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "暴雨前夕",
 		chapter_name = "C1",
 		type = 2,
@@ -145138,6 +145374,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "突破",
 		chapter_name = "C2",
 		type = 2,
@@ -145831,6 +146068,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "弩炮行动",
 		chapter_name = "C3",
 		type = 2,
@@ -146636,6 +146874,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "合流",
 		chapter_name = "D1",
 		type = 2,
@@ -147238,6 +147477,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "正义的怒吼",
 		chapter_name = "D2",
 		type = 2,
@@ -147945,6 +148185,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "火炬行动",
 		chapter_name = "D3",
 		type = 2,
@@ -148778,6 +149019,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "光与影",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -149164,6 +149406,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "突入|～Inburst～",
 		chapter_name = "A1",
 		type = 1,
@@ -149746,6 +149989,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "接敌|～Engage～",
 		chapter_name = "A2",
 		type = 1,
@@ -150389,6 +150633,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "迷惑|～Confuse～",
 		chapter_name = "A3",
 		type = 1,
@@ -151123,6 +151368,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "信号|～Signal～",
 		chapter_name = "B1",
 		type = 1,
@@ -151795,6 +152041,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "危机|～Crisis～",
 		chapter_name = "B2",
 		type = 1,
@@ -152608,6 +152855,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "决战|～Decisive～",
 		chapter_name = "B3",
 		type = 1,
@@ -153600,6 +153848,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "突入|～Inburst～",
 		chapter_name = "C1",
 		type = 2,
@@ -154223,6 +154472,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "接敌|～Engage～",
 		chapter_name = "C2",
 		type = 2,
@@ -154907,6 +155157,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "迷惑|～Confuse～",
 		chapter_name = "C3",
 		type = 2,
@@ -155682,6 +155933,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "信号|～Signal～",
 		chapter_name = "D1",
 		type = 2,
@@ -156395,6 +156647,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "危机|～Crisis～",
 		chapter_name = "D2",
 		type = 2,
@@ -157249,6 +157502,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "决战|～Decisive～",
 		chapter_name = "D3",
 		type = 2,
@@ -158282,6 +158536,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "勇气之翼~Brave Wing~ ",
 		chapter_name = "EX",
 		type = 2,
@@ -158797,6 +159052,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "倾国之相",
 		chapter_name = "SP1",
 		type = 1,
@@ -159319,6 +159575,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "金兰之杯",
 		chapter_name = "SP2",
 		type = 1,
@@ -159958,6 +160215,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "锁之巫女的舞蹈",
 		chapter_name = "SP3",
 		type = 1,
@@ -160509,6 +160767,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "倒映镜中的梦幻",
 		chapter_name = "SP4",
 		type = 1,
@@ -161316,6 +161575,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "传颂之物",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -161878,6 +162138,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "黎明前的号炮",
 		chapter_name = "SP1",
 		type = 1,
@@ -162410,6 +162671,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "苍海上的对决",
 		chapter_name = "SP2",
 		type = 1,
@@ -163000,6 +163262,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "暮色中的武士",
 		chapter_name = "SP3",
 		type = 1,
@@ -163629,6 +163892,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "智和勇的序盘",
 		chapter_name = "A1",
 		type = 1,
@@ -164226,6 +164490,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "将上桂的王手",
 		chapter_name = "A2",
 		type = 1,
@@ -164794,6 +165059,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "王与玉的交锋",
 		chapter_name = "A3",
 		type = 1,
@@ -165458,6 +165724,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "落日下的追寻",
 		chapter_name = "B1",
 		type = 1,
@@ -166123,6 +166390,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "落幕后的曙光",
 		chapter_name = "B2",
 		type = 1,
@@ -166831,6 +167099,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "被继承的意志",
 		chapter_name = "B3",
 		type = 1,
@@ -167513,6 +167782,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "智和勇的序盘",
 		chapter_name = "C1",
 		type = 2,
@@ -168152,6 +168422,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "将上桂的王手",
 		chapter_name = "C2",
 		type = 2,
@@ -168762,6 +169033,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "王与玉的交锋",
 		chapter_name = "C3",
 		type = 2,
@@ -169468,6 +169740,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "落日下的追寻",
 		chapter_name = "D1",
 		type = 2,
@@ -170175,6 +170448,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "落幕后的曙光",
 		chapter_name = "D2",
 		type = 2,
@@ -170927,6 +171201,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "被继承的意志",
 		chapter_name = "D3",
 		type = 2,
@@ -171653,6 +171928,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "苍与红的试炼",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -172061,6 +172337,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "冰雪之海",
 		chapter_name = "A1",
 		type = 1,
@@ -172647,6 +172924,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "捷报",
 		chapter_name = "A2",
 		type = 1,
@@ -173218,6 +173496,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "绝壁",
 		chapter_name = "A3",
 		type = 1,
@@ -173834,6 +174113,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "北方利刃",
 		chapter_name = "B1",
 		type = 1,
@@ -174463,6 +174743,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "「巡洋舰」与「驱逐舰」",
 		chapter_name = "B2",
 		type = 1,
@@ -175040,6 +175321,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "终局与序曲",
 		chapter_name = "B3",
 		type = 1,
@@ -175680,6 +175962,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "冰雪之海",
 		chapter_name = "C1",
 		type = 2,
@@ -176309,6 +176592,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "捷报",
 		chapter_name = "C2",
 		type = 2,
@@ -176923,6 +177207,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "绝壁",
 		chapter_name = "C3",
 		type = 2,
@@ -177581,6 +177866,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "北方利刃",
 		chapter_name = "D1",
 		type = 2,
@@ -178252,6 +178538,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "「巡洋舰」与「驱逐舰」",
 		chapter_name = "D2",
 		type = 2,
@@ -178873,6 +179160,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "终局与序曲",
 		chapter_name = "D3",
 		type = 2,
@@ -179557,6 +179845,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "牢不可破的联盟",
 		chapter_name = "SP",
 		type = 2,
@@ -180234,6 +180523,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "北境序曲",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -180663,6 +180953,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "黎明前的号炮",
 		chapter_name = "SP1",
 		type = 1,
@@ -181195,6 +181486,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "苍海上的对决",
 		chapter_name = "SP2",
 		type = 1,
@@ -181785,6 +182077,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "暮色中的武士",
 		chapter_name = "SP3",
 		type = 1,
@@ -182412,6 +182705,7 @@ pg.chapter_template = {
 		map = 1330001,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "增援",
 		chapter_name = "A1",
 		type = 1,
@@ -182961,6 +183255,7 @@ pg.chapter_template = {
 		map = 1330001,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "迷雾之下",
 		chapter_name = "A2",
 		type = 1,
@@ -183538,6 +183833,7 @@ pg.chapter_template = {
 		map = 1330001,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "来自深渊",
 		chapter_name = "A3",
 		type = 1,
@@ -184135,6 +184431,7 @@ pg.chapter_template = {
 		map = 1330002,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "回归",
 		chapter_name = "B1",
 		type = 1,
@@ -184769,6 +185066,7 @@ pg.chapter_template = {
 		map = 1330002,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "英雄集结",
 		chapter_name = "B2",
 		type = 1,
@@ -185393,6 +185691,7 @@ pg.chapter_template = {
 		map = 1330002,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "雾淡云轻",
 		chapter_name = "B3",
 		type = 1,
@@ -186089,6 +186388,7 @@ pg.chapter_template = {
 		map = 1330011,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "增援",
 		chapter_name = "C1",
 		type = 2,
@@ -186680,6 +186980,7 @@ pg.chapter_template = {
 		map = 1330011,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "迷雾之下",
 		chapter_name = "C2",
 		type = 2,
@@ -187299,6 +187600,7 @@ pg.chapter_template = {
 		map = 1330011,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "来自深渊",
 		chapter_name = "C3",
 		type = 2,
@@ -187939,6 +188241,7 @@ pg.chapter_template = {
 		map = 1330012,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "回归",
 		chapter_name = "D1",
 		type = 2,
@@ -188615,6 +188918,7 @@ pg.chapter_template = {
 		map = 1330012,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "英雄集结",
 		chapter_name = "D2",
 		type = 2,
@@ -189283,6 +189587,7 @@ pg.chapter_template = {
 		map = 1330012,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "雾淡云轻",
 		chapter_name = "D3",
 		type = 2,
@@ -190023,6 +190328,7 @@ pg.chapter_template = {
 		map = 1330025,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "星空璀璨",
 		chapter_name = "SP",
 		type = 2,
@@ -190624,6 +190930,7 @@ pg.chapter_template = {
 		map = 1330026,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "微层混合",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -191062,6 +191369,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "智和勇的序盘",
 		chapter_name = "A1",
 		type = 1,
@@ -191658,6 +191966,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "将上桂的王手",
 		chapter_name = "A2",
 		type = 1,
@@ -192225,6 +192534,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "王与玉的交锋",
 		chapter_name = "A3",
 		type = 1,
@@ -192888,6 +193198,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "落日下的追寻",
 		chapter_name = "B1",
 		type = 1,
@@ -193553,6 +193864,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "落幕后的曙光",
 		chapter_name = "B2",
 		type = 1,
@@ -194261,6 +194573,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "被继承的意志",
 		chapter_name = "B3",
 		type = 1,
@@ -194943,6 +195256,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "智和勇的序盘",
 		chapter_name = "C1",
 		type = 2,
@@ -195581,6 +195895,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "将上桂的王手",
 		chapter_name = "C2",
 		type = 2,
@@ -196190,6 +196505,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "王与玉的交锋",
 		chapter_name = "C3",
 		type = 2,
@@ -196895,6 +197211,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "落日下的追寻",
 		chapter_name = "D1",
 		type = 2,
@@ -197602,6 +197919,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "落幕后的曙光",
 		chapter_name = "D2",
 		type = 2,
@@ -198354,6 +198672,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "被继承的意志",
 		chapter_name = "D3",
 		type = 2,
@@ -199080,6 +199399,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "苍与红的试炼",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -199488,6 +199808,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "月色正浓",
 		chapter_name = "SP1",
 		type = 1,
@@ -200099,6 +200420,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "陆间海气候",
 		chapter_name = "SP2",
 		type = 1,
@@ -200770,6 +201092,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "强行突破",
 		chapter_name = "SP3",
 		type = 1,
@@ -201437,6 +201760,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "新的一天 ",
 		chapter_name = "A1",
 		type = 1,
@@ -202017,6 +202341,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "广播",
 		chapter_name = "A2",
 		type = 1,
@@ -202628,6 +202953,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "主教与骑士 ",
 		chapter_name = "A3",
 		type = 1,
@@ -203332,6 +203658,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "命运 ",
 		chapter_name = "B1",
 		type = 1,
@@ -204026,6 +204353,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "奇袭 ",
 		chapter_name = "B2",
 		type = 1,
@@ -205038,6 +205366,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "圣旗之下 ",
 		chapter_name = "B3",
 		type = 1,
@@ -206802,6 +207131,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "新的一天 ",
 		chapter_name = "C1",
 		type = 2,
@@ -207424,6 +207754,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "广播",
 		chapter_name = "C2",
 		type = 2,
@@ -208077,6 +208408,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "主教与骑士 ",
 		chapter_name = "C3",
 		type = 2,
@@ -208824,6 +209156,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "命运 ",
 		chapter_name = "D1",
 		type = 2,
@@ -209559,6 +209892,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "奇袭 ",
 		chapter_name = "D2",
 		type = 2,
@@ -210614,6 +210948,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "圣旗之下 ",
 		chapter_name = "D3",
 		type = 2,
@@ -212421,6 +212756,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "昔日颂歌",
 		chapter_name = "SP",
 		type = 2,
@@ -213728,6 +214064,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "「穹顶下的圣咏曲」 ",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -214151,6 +214488,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "撤离 ",
 		chapter_name = "SP1",
 		type = 1,
@@ -214895,6 +215233,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "阴云 ",
 		chapter_name = "SP2",
 		type = 1,
@@ -215646,6 +215985,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "危机 ",
 		chapter_name = "SP3",
 		type = 1,
@@ -216394,6 +216734,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "船团",
 		chapter_name = "A1",
 		type = 1,
@@ -216977,12 +217318,7 @@ pg.chapter_template = {
 				-35
 			}
 		},
-		ambush_event_ratio = {
-			{
-				3001,
-				5000
-			}
-		},
+		ambush_event_ratio = {},
 		ambush_ratio_extra = {},
 		theme = {
 			"sea_yingxiv2_normal",
@@ -217080,6 +217416,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "极光",
 		chapter_name = "A2",
 		type = 1,
@@ -217647,12 +217984,7 @@ pg.chapter_template = {
 				0
 			}
 		},
-		ambush_event_ratio = {
-			{
-				3001,
-				5000
-			}
-		},
+		ambush_event_ratio = {},
 		ambush_ratio_extra = {},
 		theme = {
 			"sea_yingxiv2_normal",
@@ -217751,6 +218083,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "抉择",
 		chapter_name = "A3",
 		type = 1,
@@ -218339,12 +218672,7 @@ pg.chapter_template = {
 				0
 			}
 		},
-		ambush_event_ratio = {
-			{
-				3001,
-				5000
-			}
-		},
+		ambush_event_ratio = {},
 		ambush_ratio_extra = {},
 		theme = {
 			"sea_yingxiv2_normal",
@@ -218440,6 +218768,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "冰海下的狼群",
 		chapter_name = "B1",
 		type = 1,
@@ -219183,6 +219512,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "海市蜃楼",
 		chapter_name = "B2",
 		type = 1,
@@ -219951,6 +220281,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "使命",
 		chapter_name = "B3",
 		type = 1,
@@ -220816,6 +221147,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "船团",
 		chapter_name = "C1",
 		type = 2,
@@ -221536,6 +221868,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "极光",
 		chapter_name = "C2",
 		type = 2,
@@ -222241,6 +222574,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "抉择",
 		chapter_name = "C3",
 		type = 2,
@@ -222964,6 +223298,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "冰海下的狼群",
 		chapter_name = "D1",
 		type = 2,
@@ -223747,6 +224082,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "海市蜃楼",
 		chapter_name = "D2",
 		type = 2,
@@ -224557,6 +224893,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "使命",
 		chapter_name = "D3",
 		type = 2,
@@ -225465,6 +225802,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "璀璨星河",
 		chapter_name = "SP",
 		type = 2,
@@ -226609,6 +226947,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "永夜幻光",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -227047,6 +227386,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "“狼群”战术",
 		chapter_name = "SP1",
 		type = 1,
@@ -227618,6 +227958,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "目标，铁血潜艇！",
 		chapter_name = "SP2",
 		type = 1,
@@ -228290,6 +228631,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "恩尼格玛的去向",
 		chapter_name = "SP3",
 		type = 1,
@@ -228927,6 +229269,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "第一乐章: 来世之人| |V  O  N     D  E  N     H  I  N  T  E  R  W  E  L  T  L  E  R  N",
 		chapter_name = "A1",
 		type = 1,
@@ -229493,6 +229836,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "第二乐章: 极度的渴望| |V  O  N     D  E  R     G  R  O  ß  E  N     S  E  H  N  S  U  C  H  T",
 		chapter_name = "A2",
 		type = 1,
@@ -230061,6 +230405,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "第三乐章: 欢乐与激情| |V O N    D E N    F R E U D E N    U N D    L E I D E N S C H A F T E N",
 		chapter_name = "A3",
 		type = 1,
@@ -230714,6 +231059,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "第四乐章: 挽歌|  |D  A  S     G  R  A  B  L  I  E  D",
 		chapter_name = "B1",
 		type = 1,
@@ -231377,6 +231723,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "第五乐章: 科学与学习| |V  O  N     D  E  R     W  I  S  S  E  N  S  C  H A  F  T",
 		chapter_name = "B2",
 		type = 1,
@@ -232083,6 +232430,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "第六乐章: 新生| |D  E  R     G  E  N  E  S  E  N  D  E",
 		chapter_name = "B3",
 		type = 1,
@@ -232761,6 +233109,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "第一乐章: 来世之人| |V  O  N     D  E  N     H  I  N  T  E  R  W  E  L  T  L  E  R  N",
 		chapter_name = "C1",
 		type = 2,
@@ -233369,6 +233718,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "第二乐章: 极度的渴望| |V  O  N     D  E  R     G  R  O  ß  E  N     S  E  H  N  S  U  C  H  T",
 		chapter_name = "C2",
 		type = 2,
@@ -233979,6 +234329,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "第三乐章: 欢乐与激情| |V O N    D E N    F R E U D E N    U N D    L E I D E N S C H A F T E N",
 		chapter_name = "C3",
 		type = 2,
@@ -234674,6 +235025,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "第四乐章: 挽歌|  |D  A  S     G  R  A  B  L  I  E  D",
 		chapter_name = "D1",
 		type = 2,
@@ -235379,6 +235731,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "第五乐章: 科学与学习| |V  O  N     D  E  R     W  I  S  S  E  N  S  C  H A  F  T",
 		chapter_name = "D2",
 		type = 2,
@@ -236129,6 +236482,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "第六乐章: 新生| |D  E  R     G  E  N  E  S  E  N  D  E",
 		chapter_name = "D3",
 		type = 2,
@@ -236851,6 +237205,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "间奏: 舞曲| |D  A  S     T  A  N  Z  L  I  E  D",
 		chapter_name = "SP",
 		type = 2,
@@ -237521,6 +237876,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "终曲: 彷徨者的晚歌| |N  A  C  H  T  W  A  N  D  L  E  R  L  I  E  D ",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -237923,6 +238279,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "对局",
 		chapter_name = "T1",
 		type = 1,
@@ -238708,6 +239065,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "殊途",
 		chapter_name = "T2",
 		type = 1,
@@ -239375,6 +239733,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "浮光",
 		chapter_name = "T3",
 		type = 1,
@@ -240222,6 +240581,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "锈迹",
 		chapter_name = "T4",
 		type = 1,
@@ -241226,6 +241586,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "彼方",
 		chapter_name = "T5",
 		type = 1,
@@ -242134,6 +242495,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "破局",
 		chapter_name = "T6",
 		type = 1,
@@ -243154,6 +243516,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "蝴蝶之梦",
 		chapter_name = "TS1",
 		type = 1,
@@ -243677,6 +244040,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "樱下苍红",
 		chapter_name = "TS2",
 		type = 1,
@@ -244322,6 +244686,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "对局",
 		chapter_name = "HT1",
 		type = 2,
@@ -245148,6 +245513,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "殊途",
 		chapter_name = "HT2",
 		type = 2,
@@ -245857,6 +246223,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "浮光",
 		chapter_name = "HT3",
 		type = 2,
@@ -246746,6 +247113,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "锈迹",
 		chapter_name = "HT4",
 		type = 2,
@@ -247791,6 +248159,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "彼方",
 		chapter_name = "HT5",
 		type = 2,
@@ -248742,6 +249111,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "破局",
 		chapter_name = "HT6",
 		type = 2,
@@ -249806,6 +250176,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "蝴蝶之梦",
 		chapter_name = "HTS1",
 		type = 1,
@@ -250329,6 +250700,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "樱下苍红",
 		chapter_name = "HTS2",
 		type = 1,
@@ -250974,6 +251346,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "白日之梦",
 		chapter_name = "SP",
 		type = 2,
@@ -251996,6 +252369,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "蝶海梦花",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -252435,6 +252809,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "分流",
 		chapter_name = "SP1",
 		type = 1,
@@ -253037,6 +253412,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "迎敌",
 		chapter_name = "SP2",
 		type = 1,
@@ -253651,6 +254027,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "晴空",
 		chapter_name = "SP3",
 		type = 1,
@@ -254261,6 +254638,7 @@ pg.chapter_template = {
 		map = 1430001,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "集合的StarLight",
 		chapter_name = "SP1",
 		type = 1,
@@ -254850,6 +255228,7 @@ pg.chapter_template = {
 		map = 1430001,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "磨练的Astrum",
 		chapter_name = "SP2",
 		type = 1,
@@ -255524,6 +255903,7 @@ pg.chapter_template = {
 		map = 1430001,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "灿烂的Lumière",
 		chapter_name = "SP3",
 		type = 1,
@@ -256205,6 +256585,7 @@ pg.chapter_template = {
 		map = 1430001,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "引路的Polaris",
 		chapter_name = "SP4",
 		type = 1,
@@ -256901,6 +257282,7 @@ pg.chapter_template = {
 		map = 1430001,
 		unlocklevel = 0,
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "热情的Verheerender",
 		chapter_name = "SP5",
 		type = 1,
@@ -257812,6 +258194,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "余暇的BonusTime",
 		chapter_name = "μSP",
 		type = 2,
@@ -258467,6 +258850,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "激唱的Encore",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -258867,6 +259251,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "铁血的行军",
 		chapter_name = "SP0",
 		type = 1,
@@ -259456,6 +259841,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "风雪中的侦查",
 		chapter_name = "SP1",
 		type = 1,
@@ -260194,6 +260580,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "峡湾中的闪击",
 		chapter_name = "SP2",
 		type = 1,
@@ -260948,6 +261335,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "极北的星辰",
 		chapter_name = "SP3",
 		type = 1,
@@ -261693,6 +262081,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "新的邂逅",
 		chapter_name = "SP1",
 		type = 1,
@@ -262311,6 +262700,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "共斗的姐妹",
 		chapter_name = "SP2",
 		type = 1,
@@ -262983,6 +263373,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "默契的伙伴",
 		chapter_name = "SP3",
 		type = 1,
@@ -263656,6 +264047,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "落幕的大会",
 		chapter_name = "SP4",
 		type = 1,
@@ -264412,6 +264804,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "碧蓝的假期",
 		chapter_name = "VSP",
 		type = 2,
@@ -265060,6 +265453,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "女神之演舞",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -265513,6 +265907,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "大海葵",
 		chapter_name = "A1",
 		type = 1,
@@ -266082,12 +266477,7 @@ pg.chapter_template = {
 				22
 			}
 		},
-		ambush_event_ratio = {
-			{
-				3001,
-				5000
-			}
-		},
+		ambush_event_ratio = {},
 		ambush_ratio_extra = {},
 		theme = {
 			"sea_doa",
@@ -266192,6 +266582,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "判定基准",
 		chapter_name = "A2",
 		type = 1,
@@ -266751,12 +267142,7 @@ pg.chapter_template = {
 				-18
 			}
 		},
-		ambush_event_ratio = {
-			{
-				3001,
-				5000
-			}
-		},
+		ambush_event_ratio = {},
 		ambush_ratio_extra = {},
 		theme = {
 			"sea_doa",
@@ -266857,6 +267243,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "不受控",
 		chapter_name = "A3",
 		type = 1,
@@ -267408,12 +267795,7 @@ pg.chapter_template = {
 				26
 			}
 		},
-		ambush_event_ratio = {
-			{
-				3001,
-				5000
-			}
-		},
+		ambush_event_ratio = {},
 		ambush_ratio_extra = {},
 		theme = {
 			"sea_doa",
@@ -267518,6 +267900,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "观光者",
 		chapter_name = "B1",
 		type = 1,
@@ -268265,6 +268648,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "攻击波",
 		chapter_name = "B2",
 		type = 1,
@@ -269059,6 +269443,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "夜空之上",
 		chapter_name = "B3",
 		type = 1,
@@ -270028,6 +270413,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "大海葵",
 		chapter_name = "C1",
 		type = 2,
@@ -270743,6 +271129,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "判定基准",
 		chapter_name = "C2",
 		type = 2,
@@ -271444,6 +271831,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "不受控",
 		chapter_name = "C3",
 		type = 2,
@@ -272143,6 +272531,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "观光者",
 		chapter_name = "D1",
 		type = 2,
@@ -272931,6 +273320,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "攻击波",
 		chapter_name = "D2",
 		type = 2,
@@ -273768,6 +274158,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "夜空之上",
 		chapter_name = "D3",
 		type = 2,
@@ -274780,6 +275171,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "协议违反",
 		chapter_name = "SP",
 		type = 2,
@@ -275922,6 +276314,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "「负象限作战」",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -276364,6 +276757,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "地狱之门-Gate",
 		chapter_name = "A1",
 		type = 1,
@@ -276937,6 +277331,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "边狱-Limbo",
 		chapter_name = "A2",
 		type = 1,
@@ -277530,6 +277925,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "悲叹之川-Cocytus",
 		chapter_name = "A3",
 		type = 1,
@@ -278217,6 +278613,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "幕间I-Interlude",
 		chapter_name = "AS1",
 		type = 1,
@@ -278754,6 +279151,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "幕间II-Interlude",
 		chapter_name = "AS2",
 		type = 1,
@@ -279346,6 +279744,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "神圣的队伍-Revenge",
 		chapter_name = "B1",
 		type = 1,
@@ -279949,6 +280348,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "黄昏的祈祷-Pray",
 		chapter_name = "B2",
 		type = 1,
@@ -280594,6 +280994,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "虚妄与荣光-Honour",
 		chapter_name = "B3",
 		type = 1,
@@ -281206,6 +281607,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "地狱之门-Gate",
 		chapter_name = "C1",
 		type = 2,
@@ -281821,6 +282223,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "边狱-Limbo",
 		chapter_name = "C2",
 		type = 2,
@@ -282454,6 +282857,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "悲叹之川-Cocytus",
 		chapter_name = "C3",
 		type = 2,
@@ -283182,6 +283586,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "幕间I-Interlude ",
 		chapter_name = "CS1",
 		type = 2,
@@ -283761,6 +284166,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "幕间II-Interlude ",
 		chapter_name = "CS2",
 		type = 2,
@@ -284396,6 +284802,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "神圣的队伍-Revenge",
 		chapter_name = "D1",
 		type = 2,
@@ -285040,6 +285447,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "黄昏的祈祷-Pray",
 		chapter_name = "D2",
 		type = 2,
@@ -285728,6 +286136,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "虚妄与荣光-Honour",
 		chapter_name = "D3",
 		type = 2,
@@ -286382,6 +286791,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "希望-Hope",
 		chapter_name = "SP",
 		type = 2,
@@ -287052,6 +287462,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "颂歌-Comedy",
 		chapter_name = "EXTRA",
 		type = 2,
@@ -287419,6 +287830,11052 @@ pg.chapter_template = {
 		wall_prefab = {},
 		alarm_cell = {}
 	},
+	[1480001] = {
+		pos_x = "0.2515625",
+		num_3 = 1,
+		progress_boss = 50,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "POXIAOBINGHUA3",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 100,
+		best_air_dominance = 150,
+		id = 1480001,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 0,
+		formation = 1480001,
+		bgm = "bgm-cccp2",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.392708333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 23,
+		ammo_submarine = 0,
+		num_2 = 10,
+		is_ai = 1,
+		map = 1480001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "机密行动 ",
+		chapter_name = "A1",
+		type = 1,
+		act_id = 904,
+		enter_story = "POXIAOBINGHUA2",
+		boss_refresh = 3,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "根据情报，本次行动目标是……前往代号为“密室”的某个北方联合机密设施？ ",
+		difficulty = 3,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1500001,
+				15,
+				0
+			},
+			{
+				1500002,
+				20,
+				0
+			},
+			{
+				1500003,
+				30,
+				1
+			},
+			{
+				1500004,
+				15,
+				0
+			},
+			{
+				1500005,
+				20,
+				0
+			},
+			{
+				1500006,
+				30,
+				1
+			},
+			{
+				1500007,
+				15,
+				0
+			},
+			{
+				1500008,
+				20,
+				0
+			},
+			{
+				1500009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1500005,
+			1500008
+		},
+		ai_expedition_list = {
+			1500301
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1500013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhongxun"
+		},
+		awards = {
+			{
+				2,
+				58132
+			},
+			{
+				2,
+				58120
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				1
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				8
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				16
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				4
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				12
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				4
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				4
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				6
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				5,
+				"maoxiv2_real_3x1_1",
+				0,
+				16
+			},
+			{
+				6,
+				0,
+				"maoxiv2_real_1x2_2",
+				3,
+				55
+			},
+			{
+				3,
+				3,
+				"maoxiv2_real_2x2_1",
+				51,
+				-9
+			},
+			{
+				1,
+				7,
+				"maoxiv2_real_2x2_2",
+				50,
+				-12
+			},
+			{
+				1,
+				3,
+				"maoxiv2_real_1x1_2",
+				0,
+				26
+			},
+			{
+				0,
+				0,
+				"maoxiv2_real_1x1_1",
+				4,
+				22
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_normal",
+			45,
+			20,
+			-163,
+			-120,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"POXIAOBINGHUA4"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480002] = {
+		pos_x = "0.38203125",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "POXIAOBINGHUA6",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 130,
+		best_air_dominance = 170,
+		id = 1480002,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480001,
+		formation = 1480001,
+		bgm = "bgm-cccp2",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.052083333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 24,
+		ammo_submarine = 0,
+		num_2 = 15,
+		is_ai = 1,
+		map = 1480001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "协同 ",
+		chapter_name = "A2",
+		type = 1,
+		act_id = 904,
+		enter_story = "POXIAOBINGHUA5",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "即便在王冠已经遭到极地舰队袭击的情况下，塞壬依旧对“密室”发起了猛烈进攻……准备迎战。",
+		difficulty = 4,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1500101,
+				15,
+				0
+			},
+			{
+				1500102,
+				20,
+				0
+			},
+			{
+				1500103,
+				30,
+				1
+			},
+			{
+				1500104,
+				15,
+				0
+			},
+			{
+				1500105,
+				20,
+				0
+			},
+			{
+				1500106,
+				30,
+				1
+			},
+			{
+				1500107,
+				15,
+				0
+			},
+			{
+				1500108,
+				20,
+				0
+			},
+			{
+				1500109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1500105,
+			1500108
+		},
+		ai_expedition_list = {
+			1500302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1500113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhanlie"
+		},
+		awards = {
+			{
+				2,
+				58133
+			},
+			{
+				2,
+				58121
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				4
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				12
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				1
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				4
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				12
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				8
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				4
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				3,
+				"maoxiv2_real_1x1_1",
+				3,
+				18
+			},
+			{
+				5,
+				7,
+				"maoxiv2_real_2x2_2",
+				46,
+				-20
+			},
+			{
+				3,
+				3,
+				"maoxiv2_real_1x2_2",
+				0,
+				-22
+			},
+			{
+				3,
+				1,
+				"maoxiv2_real_1x1_1",
+				1,
+				24
+			},
+			{
+				1,
+				7,
+				"maoxiv2_real_1x1_4",
+				4,
+				20
+			},
+			{
+				1,
+				3,
+				"maoxiv2_real_1x1_4",
+				4,
+				20
+			},
+			{
+				0,
+				8,
+				"maoxiv2_real_3x1_1",
+				-99,
+				21
+			},
+			{
+				0,
+				2,
+				"maoxiv2_real_3x1_1",
+				102,
+				21
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_normal",
+			45,
+			20,
+			-98,
+			-107,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"POXIAOBINGHUA7",
+			"POXIAOBINGHUA8"
+		},
+		defeat_story_count = {
+			1,
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480003] = {
+		pos_x = "0.665625",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "POXIAOBINGHUA10",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 205,
+		best_air_dominance = 270,
+		id = 1480003,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480002,
+		formation = 1480001,
+		bgm = "bgm-cccp2",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.344791667",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 24,
+		ammo_submarine = 0,
+		num_2 = 15,
+		is_ai = 1,
+		map = 1480001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "控制室",
+		chapter_name = "A3",
+		type = 1,
+		act_id = 904,
+		enter_story = "POXIAOBINGHUA9",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "脚下是一层平静的海水，头顶上方原本应该属于天空的部分如今也被海水所占据，此处就是北方联合的“密室”…… ",
+		difficulty = 5,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1500201,
+				15,
+				0
+			},
+			{
+				1500202,
+				20,
+				0
+			},
+			{
+				1500203,
+				30,
+				1
+			},
+			{
+				1500204,
+				15,
+				0
+			},
+			{
+				1500205,
+				20,
+				0
+			},
+			{
+				1500206,
+				30,
+				1
+			},
+			{
+				1500207,
+				15,
+				0
+			},
+			{
+				1500208,
+				20,
+				0
+			},
+			{
+				1500209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1500205,
+			1500208
+		},
+		ai_expedition_list = {
+			1500303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1500213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenhangmu"
+		},
+		awards = {
+			{
+				2,
+				58134
+			},
+			{
+				2,
+				58122
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				true,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				0
+			},
+			{
+				9,
+				4,
+				true,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				0
+			},
+			{
+				9,
+				2,
+				false,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				false,
+				0
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				1
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				1
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				6
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				16
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				12
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				4
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				8
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				4
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				12
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				4
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				9,
+				6,
+				"maoxiv2_real_1x1_4",
+				4,
+				21
+			},
+			{
+				9,
+				2,
+				"maoxiv2_real_1x1_4",
+				4,
+				21
+			},
+			{
+				8,
+				5,
+				"maoxiv2_real_3x1_1",
+				102,
+				19
+			},
+			{
+				8,
+				1,
+				"maoxiv2_real_3x1_1",
+				102,
+				19
+			},
+			{
+				6,
+				8,
+				"maoxiv2_real_1x2_2",
+				-2,
+				-21
+			},
+			{
+				6,
+				6,
+				"maoxiv2_real_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				2,
+				"maoxiv2_real_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				0,
+				"maoxiv2_real_1x2_1",
+				0,
+				-15
+			},
+			{
+				2,
+				6,
+				"maoxiv2_real_1x1_4",
+				4,
+				21
+			},
+			{
+				2,
+				2,
+				"maoxiv2_real_1x1_4",
+				4,
+				21
+			},
+			{
+				1,
+				8,
+				"maoxiv2_real_1x2_1",
+				1,
+				-15
+			},
+			{
+				1,
+				0,
+				"maoxiv2_real_1x2_2",
+				-2,
+				-21
+			},
+			{
+				0,
+				5,
+				"maoxiv2_real_3x1_1",
+				102,
+				19
+			},
+			{
+				0,
+				4,
+				"maoxiv2_real_1x1_1",
+				3,
+				23
+			},
+			{
+				0,
+				1,
+				"maoxiv2_real_3x1_1",
+				102,
+				19
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_normal",
+			45,
+			20,
+			-230,
+			137,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"POXIAOBINGHUA12",
+			"POXIAOBINGHUA13",
+			"POXIAOBINGHUA14"
+		},
+		defeat_story_count = {
+			1,
+			2,
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480004] = {
+		pos_x = "0.23125",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 220,
+		best_air_dominance = 290,
+		id = 1480004,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480003,
+		formation = 1480002,
+		bgm = "deepblue-image",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.227083333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 25,
+		is_ai = 1,
+		map = 1480002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "流光群 ",
+		chapter_name = "B1",
+		type = 1,
+		act_id = 905,
+		enter_story = "POXIAOBINGHUA16",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "远方璀璨的都市群点亮了整片原本有些昏暗的海域……舰队已经成功穿越“大门”，继续探索吧。 ",
+		difficulty = 5,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1501001,
+				15,
+				0
+			},
+			{
+				1501002,
+				20,
+				0
+			},
+			{
+				1501003,
+				30,
+				1
+			},
+			{
+				1501004,
+				15,
+				0
+			},
+			{
+				1501005,
+				20,
+				0
+			},
+			{
+				1501006,
+				30,
+				1
+			},
+			{
+				1501007,
+				15,
+				0
+			},
+			{
+				1501008,
+				20,
+				0
+			},
+			{
+				1501009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1501005,
+			1501008
+		},
+		ai_expedition_list = {
+			1501301,
+			1501302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1501013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhongxun_M"
+		},
+		awards = {
+			{
+				2,
+				58135
+			},
+			{
+				2,
+				58123
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				4
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				12
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				16
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				4
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				1
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				1
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				8
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				6,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				7,
+				2,
+				"maoxiv2_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				7,
+				1,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				2,
+				"maoxiv2_virtual_1x1_1",
+				1,
+				24
+			},
+			{
+				5,
+				8,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				5,
+				6,
+				"maoxiv2_virtual_2x2_2",
+				53,
+				-16
+			},
+			{
+				3,
+				2,
+				"maoxiv2_virtual_1x2_2",
+				-6,
+				-25
+			},
+			{
+				3,
+				0,
+				"maoxiv2_virtual_1x1_1",
+				1,
+				24
+			},
+			{
+				2,
+				8,
+				"maoxiv2_virtual_1x2_1",
+				-2,
+				-22
+			},
+			{
+				1,
+				6,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				1,
+				2,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				0,
+				5,
+				"maoxiv2_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				0,
+				1,
+				"maoxiv2_virtual_3x1_1",
+				102,
+				19
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_normal",
+			45,
+			20,
+			-231,
+			-325,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"POXIAOBINGHUA17"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		ItemTransformPattern = {
+			[8] = {
+				"virtual",
+				"real"
+			}
+		},
+		chapter_buff = {
+			8846
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480005] = {
+		pos_x = "0.5390625",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "POXIAOBINGHUA20",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 300,
+		best_air_dominance = 390,
+		id = 1480005,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480004,
+		formation = 1480002,
+		bgm = "deepblue-image",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.052083333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 30,
+		is_ai = 1,
+		map = 1480002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "拨片 ",
+		chapter_name = "B2",
+		type = 1,
+		act_id = 905,
+		enter_story = "POXIAOBINGHUA18",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "预想中的返回之路没有出现，取而代之的是一处昏暗而巨大的会议厅，这里究竟是什么地方…… ",
+		difficulty = 6,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1501101,
+				15,
+				0
+			},
+			{
+				1501102,
+				20,
+				0
+			},
+			{
+				1501103,
+				30,
+				1
+			},
+			{
+				1501104,
+				15,
+				0
+			},
+			{
+				1501105,
+				20,
+				0
+			},
+			{
+				1501106,
+				30,
+				1
+			},
+			{
+				1501107,
+				15,
+				0
+			},
+			{
+				1501108,
+				20,
+				0
+			},
+			{
+				1501109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1501105,
+			1501108
+		},
+		ai_expedition_list = {
+			1501303,
+			1501304
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1501113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhanlie_M"
+		},
+		awards = {
+			{
+				2,
+				58136
+			},
+			{
+				2,
+				58124
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				4
+			},
+			{
+				5,
+				8,
+				true,
+				12
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				4
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				8
+			},
+			{
+				4,
+				10,
+				true,
+				1
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				4
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				1
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				12
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				10,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				12
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				10,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				true,
+				6
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				8,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				4,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				1,
+				"maoxiv2_virtual_3x1_1",
+				102,
+				12
+			},
+			{
+				5,
+				10,
+				"maoxiv2_virtual_1x2_1",
+				0,
+				-24
+			},
+			{
+				5,
+				6,
+				"maoxiv2_virtual_1x2_1",
+				0,
+				-24
+			},
+			{
+				3,
+				0,
+				"maoxiv2_virtual_2x2_1",
+				32,
+				-26
+			},
+			{
+				2,
+				9,
+				"maoxiv2_virtual_1x1_3",
+				3,
+				18
+			},
+			{
+				2,
+				6,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				1,
+				10,
+				"maoxiv2_virtual_1x2_2",
+				0,
+				-16
+			},
+			{
+				1,
+				4,
+				"maoxiv2_virtual_2x2_2",
+				53,
+				-4
+			},
+			{
+				1,
+				0,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				0,
+				10,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_normal",
+			45,
+			20,
+			-535,
+			-117,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"POXIAOBINGHUA19"
+		},
+		defeat_story = {
+			"POXIAOBINGHUA21"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		ItemTransformPattern = {
+			[8] = {
+				"virtual",
+				"real"
+			}
+		},
+		chapter_buff = {
+			8846
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480006] = {
+		pos_x = "0.67109375",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "POXIAOBINGHUA24",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 380,
+		best_air_dominance = 495,
+		id = 1480006,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480005,
+		formation = 1480002,
+		bgm = "deepblue-image",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.383333333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 30,
+		is_ai = 1,
+		map = 1480002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "记录机构 ",
+		chapter_name = "B3",
+		type = 1,
+		act_id = 905,
+		enter_story = "POXIAOBINGHUA22",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "海域中出现未知敌人，可是在另一处轨道下方，也许什么都不存在……战斗，直到光芒消散为止。 ",
+		difficulty = 7,
+		avoid_ratio = 12,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1501201,
+				15,
+				0
+			},
+			{
+				1501202,
+				20,
+				0
+			},
+			{
+				1501203,
+				30,
+				1
+			},
+			{
+				1501204,
+				15,
+				0
+			},
+			{
+				1501205,
+				20,
+				0
+			},
+			{
+				1501206,
+				30,
+				1
+			},
+			{
+				1501207,
+				15,
+				0
+			},
+			{
+				1501208,
+				20,
+				0
+			},
+			{
+				1501209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1501205,
+			1501208
+		},
+		ai_expedition_list = {
+			1501305,
+			1501306,
+			1501307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1501213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenboss12"
+		},
+		awards = {
+			{
+				2,
+				58137
+			},
+			{
+				2,
+				58125
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				true,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				0
+			},
+			{
+				9,
+				4,
+				true,
+				8
+			},
+			{
+				9,
+				3,
+				true,
+				0
+			},
+			{
+				9,
+				2,
+				false,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				false,
+				0
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				4
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				4
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				12
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				4
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				true,
+				4
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				1
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				1
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				9,
+				6,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				9,
+				2,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				8,
+				5,
+				"maoxiv2_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				8,
+				1,
+				"maoxiv2_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				6,
+				8,
+				"maoxiv2_virtual_1x2_2",
+				-2,
+				-21
+			},
+			{
+				6,
+				6,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				2,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				0,
+				"maoxiv2_virtual_1x2_1",
+				0,
+				-15
+			},
+			{
+				2,
+				6,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				2,
+				2,
+				"maoxiv2_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				1,
+				8,
+				"maoxiv2_virtual_1x2_1",
+				1,
+				-15
+			},
+			{
+				1,
+				0,
+				"maoxiv2_virtual_1x2_2",
+				-2,
+				-21
+			},
+			{
+				0,
+				5,
+				"maoxiv2_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				0,
+				4,
+				"maoxiv2_virtual_1x1_1",
+				3,
+				23
+			},
+			{
+				0,
+				1,
+				"maoxiv2_virtual_3x1_1",
+				102,
+				19
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_normal",
+			45,
+			20,
+			-230,
+			-270,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"POXIAOBINGHUA23"
+		},
+		defeat_story = {
+			"POXIAOBINGHUA26",
+			"POXIAOBINGHUA27",
+			"POXIAOBINGHUA28",
+			"POXIAOBINGHUA29",
+			"POXIAOBINGHUA30",
+			"POXIAOBINGHUA31"
+		},
+		defeat_story_count = {
+			1,
+			4,
+			5,
+			6,
+			7,
+			8
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		ItemTransformPattern = {
+			[8] = {
+				"virtual",
+				"real"
+			}
+		},
+		chapter_buff = {
+			8846
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480021] = {
+		pos_x = "0.2515625",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "POXIAOBINGHUA3",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 450,
+		best_air_dominance = 585,
+		id = 1480021,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 0,
+		formation = 1480011,
+		bgm = "bgm-cccp2",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.392708333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 17,
+		is_ai = 1,
+		map = 1480011,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "机密行动 ",
+		chapter_name = "C1",
+		type = 2,
+		act_id = 904,
+		enter_story = "POXIAOBINGHUA2",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "根据情报，本次行动目标是……前往代号为“密室”的某个北方联合机密设施？ ",
+		difficulty = 6,
+		avoid_ratio = 12,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					2,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				70
+			},
+			{
+				"cannon",
+				1,
+				700
+			},
+			{
+				"antiaircraft",
+				1,
+				1200
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1502001,
+				15,
+				0
+			},
+			{
+				1502002,
+				20,
+				0
+			},
+			{
+				1502003,
+				30,
+				1
+			},
+			{
+				1502004,
+				15,
+				0
+			},
+			{
+				1502005,
+				20,
+				0
+			},
+			{
+				1502006,
+				30,
+				1
+			},
+			{
+				1502007,
+				15,
+				0
+			},
+			{
+				1502008,
+				20,
+				0
+			},
+			{
+				1502009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1502005,
+			1502008
+		},
+		ai_expedition_list = {
+			1502301,
+			1502302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1502013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhongxun"
+		},
+		awards = {
+			{
+				2,
+				58150
+			},
+			{
+				2,
+				58138
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				1
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				8
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				16
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				4
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				12
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				4
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				4
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				6
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				5,
+				"maoxiv2hard_real_3x1_1",
+				0,
+				16
+			},
+			{
+				6,
+				0,
+				"maoxiv2hard_real_1x2_2",
+				3,
+				55
+			},
+			{
+				3,
+				3,
+				"maoxiv2hard_real_2x2_1",
+				51,
+				-9
+			},
+			{
+				1,
+				7,
+				"maoxiv2hard_real_2x2_2",
+				50,
+				-12
+			},
+			{
+				1,
+				3,
+				"maoxiv2hard_real_1x1_2",
+				0,
+				26
+			},
+			{
+				0,
+				0,
+				"maoxiv2hard_real_1x1_1",
+				4,
+				22
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_hard",
+			45,
+			20,
+			-163,
+			-120,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"POXIAOBINGHUA4"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480022] = {
+		pos_x = "0.38203125",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "POXIAOBINGHUA6",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 470,
+		best_air_dominance = 615,
+		id = 1480022,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480021,
+		formation = 1480011,
+		bgm = "bgm-cccp2",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.052083333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 17,
+		is_ai = 1,
+		map = 1480011,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "协同 ",
+		chapter_name = "C2",
+		type = 2,
+		act_id = 904,
+		enter_story = "POXIAOBINGHUA5",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "即便在王冠已经遭到极地舰队袭击的情况下，塞壬依旧对“密室”发起了猛烈进攻……准备迎战。",
+		difficulty = 7,
+		avoid_ratio = 13,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					2,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				75
+			},
+			{
+				"cannon",
+				1,
+				800
+			},
+			{
+				"reload",
+				1,
+				800
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1502101,
+				15,
+				0
+			},
+			{
+				1502102,
+				20,
+				0
+			},
+			{
+				1502103,
+				30,
+				1
+			},
+			{
+				1502104,
+				15,
+				0
+			},
+			{
+				1502105,
+				20,
+				0
+			},
+			{
+				1502106,
+				30,
+				1
+			},
+			{
+				1502107,
+				15,
+				0
+			},
+			{
+				1502108,
+				20,
+				0
+			},
+			{
+				1502109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1502105,
+			1502108
+		},
+		ai_expedition_list = {
+			1502303,
+			1502304
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1502113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhanlie"
+		},
+		awards = {
+			{
+				2,
+				58151
+			},
+			{
+				2,
+				58139
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				4
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				12
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				1
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				4
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				12
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				8
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				4
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				3,
+				"maoxiv2hard_real_1x1_1",
+				3,
+				18
+			},
+			{
+				5,
+				7,
+				"maoxiv2hard_real_2x2_2",
+				46,
+				-20
+			},
+			{
+				3,
+				3,
+				"maoxiv2hard_real_1x2_2",
+				0,
+				-22
+			},
+			{
+				3,
+				1,
+				"maoxiv2hard_real_1x1_1",
+				1,
+				24
+			},
+			{
+				1,
+				7,
+				"maoxiv2hard_real_1x1_4",
+				4,
+				20
+			},
+			{
+				1,
+				3,
+				"maoxiv2hard_real_1x1_4",
+				4,
+				20
+			},
+			{
+				0,
+				8,
+				"maoxiv2hard_real_3x1_1",
+				-99,
+				21
+			},
+			{
+				0,
+				2,
+				"maoxiv2hard_real_3x1_1",
+				102,
+				21
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_hard",
+			45,
+			20,
+			-98,
+			-107,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"POXIAOBINGHUA7",
+			"POXIAOBINGHUA8"
+		},
+		defeat_story_count = {
+			1,
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480023] = {
+		pos_x = "0.665625",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "POXIAOBINGHUA10",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 685,
+		best_air_dominance = 895,
+		id = 1480023,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480022,
+		formation = 1480011,
+		bgm = "bgm-cccp2",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.344791667",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 21,
+		is_ai = 1,
+		map = 1480011,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "控制室",
+		chapter_name = "C3",
+		type = 2,
+		act_id = 904,
+		enter_story = "POXIAOBINGHUA9",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "脚下是一层平静的海水，头顶上方原本应该属于天空的部分如今也被海水所占据，此处就是北方联合的“密室”…… ",
+		difficulty = 8,
+		avoid_ratio = 14,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					2,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				80
+			},
+			{
+				"cannon",
+				1,
+				1100
+			},
+			{
+				"antiaircraft",
+				1,
+				1750
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1502201,
+				15,
+				0
+			},
+			{
+				1502202,
+				20,
+				0
+			},
+			{
+				1502203,
+				30,
+				1
+			},
+			{
+				1502204,
+				15,
+				0
+			},
+			{
+				1502205,
+				20,
+				0
+			},
+			{
+				1502206,
+				30,
+				1
+			},
+			{
+				1502207,
+				15,
+				0
+			},
+			{
+				1502208,
+				20,
+				0
+			},
+			{
+				1502209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1502205,
+			1502208
+		},
+		ai_expedition_list = {
+			1502305,
+			1502306,
+			1502307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1502213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenhangmu"
+		},
+		awards = {
+			{
+				2,
+				58152
+			},
+			{
+				2,
+				58140
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				true,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				0
+			},
+			{
+				9,
+				4,
+				true,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				0
+			},
+			{
+				9,
+				2,
+				false,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				false,
+				0
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				1
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				1
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				6
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				16
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				12
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				4
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				8
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				4
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				12
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				4
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				9,
+				6,
+				"maoxiv2hard_real_1x1_4",
+				4,
+				21
+			},
+			{
+				9,
+				2,
+				"maoxiv2hard_real_1x1_4",
+				4,
+				21
+			},
+			{
+				8,
+				5,
+				"maoxiv2hard_real_3x1_1",
+				102,
+				19
+			},
+			{
+				8,
+				1,
+				"maoxiv2hard_real_3x1_1",
+				102,
+				19
+			},
+			{
+				6,
+				8,
+				"maoxiv2hard_real_1x2_2",
+				-2,
+				-21
+			},
+			{
+				6,
+				6,
+				"maoxiv2hard_real_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				2,
+				"maoxiv2hard_real_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				0,
+				"maoxiv2hard_real_1x2_1",
+				0,
+				-15
+			},
+			{
+				2,
+				6,
+				"maoxiv2hard_real_1x1_4",
+				4,
+				21
+			},
+			{
+				2,
+				2,
+				"maoxiv2hard_real_1x1_4",
+				4,
+				21
+			},
+			{
+				1,
+				8,
+				"maoxiv2hard_real_1x2_1",
+				1,
+				-15
+			},
+			{
+				1,
+				0,
+				"maoxiv2hard_real_1x2_2",
+				-2,
+				-21
+			},
+			{
+				0,
+				5,
+				"maoxiv2hard_real_3x1_1",
+				102,
+				19
+			},
+			{
+				0,
+				4,
+				"maoxiv2hard_real_1x1_1",
+				3,
+				23
+			},
+			{
+				0,
+				1,
+				"maoxiv2hard_real_3x1_1",
+				102,
+				19
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_hard",
+			45,
+			20,
+			-230,
+			137,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"POXIAOBINGHUA12",
+			"POXIAOBINGHUA13",
+			"POXIAOBINGHUA14"
+		},
+		defeat_story_count = {
+			1,
+			2,
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480024] = {
+		pos_x = "0.14609375",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 730,
+		best_air_dominance = 950,
+		id = 1480024,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480023,
+		formation = 1480012,
+		bgm = "deepblue-image",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.380208333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 35,
+		is_ai = 1,
+		map = 1480012,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "流光群 ",
+		chapter_name = "D1",
+		type = 2,
+		act_id = 905,
+		enter_story = "POXIAOBINGHUA16",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "远方璀璨的都市群点亮了整片原本有些昏暗的海域……舰队已经成功穿越“大门”，继续探索吧。 ",
+		difficulty = 8,
+		avoid_ratio = 14,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					2,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					7,
+					0,
+					0
+				},
+				{
+					3,
+					1,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				90
+			},
+			{
+				"cannon",
+				1,
+				1200
+			},
+			{
+				"antisub",
+				1,
+				450
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1503001,
+				15,
+				0
+			},
+			{
+				1503002,
+				20,
+				0
+			},
+			{
+				1503003,
+				30,
+				1
+			},
+			{
+				1503004,
+				15,
+				0
+			},
+			{
+				1503005,
+				20,
+				0
+			},
+			{
+				1503006,
+				30,
+				1
+			},
+			{
+				1503007,
+				15,
+				0
+			},
+			{
+				1503008,
+				20,
+				0
+			},
+			{
+				1503009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1503005,
+			1503008
+		},
+		ai_expedition_list = {
+			1503301,
+			1503302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1503013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhongxun_M"
+		},
+		awards = {
+			{
+				2,
+				58153
+			},
+			{
+				2,
+				58141
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				4
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				12
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				16
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				4
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				1
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				1
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				8
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				6,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				7,
+				2,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				7,
+				1,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				2,
+				"maoxiv2hard_virtual_1x1_1",
+				1,
+				24
+			},
+			{
+				5,
+				8,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				5,
+				6,
+				"maoxiv2hard_virtual_2x2_2",
+				53,
+				-16
+			},
+			{
+				3,
+				2,
+				"maoxiv2hard_virtual_1x2_2",
+				-6,
+				-25
+			},
+			{
+				3,
+				0,
+				"maoxiv2hard_virtual_1x1_1",
+				1,
+				24
+			},
+			{
+				2,
+				8,
+				"maoxiv2hard_virtual_1x2_1",
+				-2,
+				-22
+			},
+			{
+				1,
+				6,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				1,
+				2,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				0,
+				5,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				0,
+				1,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_hard",
+			45,
+			20,
+			-231,
+			-325,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"POXIAOBINGHUA17"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		ItemTransformPattern = {
+			[8] = {
+				"virtual",
+				"real"
+			}
+		},
+		chapter_buff = {
+			8852
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480025] = {
+		pos_x = "0.28671875",
+		num_3 = 1,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "POXIAOBINGHUA20",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 930,
+		best_air_dominance = 1210,
+		id = 1480025,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480024,
+		formation = 1480012,
+		bgm = "deepblue-image",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.122916667",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 40,
+		is_ai = 1,
+		map = 1480012,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "拨片 ",
+		chapter_name = "D2",
+		type = 2,
+		act_id = 905,
+		enter_story = "POXIAOBINGHUA18",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "预想中的返回之路没有出现，取而代之的是一处昏暗而巨大的会议厅，这里究竟是什么地方…… ",
+		difficulty = 9,
+		avoid_ratio = 15,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					2,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					7,
+					0,
+					0
+				},
+				{
+					3,
+					1,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				95
+			},
+			{
+				"cannon",
+				1,
+				1350
+			},
+			{
+				"dodge",
+				1,
+				700
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1503101,
+				15,
+				0
+			},
+			{
+				1503102,
+				20,
+				0
+			},
+			{
+				1503103,
+				30,
+				1
+			},
+			{
+				1503104,
+				15,
+				0
+			},
+			{
+				1503105,
+				20,
+				0
+			},
+			{
+				1503106,
+				30,
+				1
+			},
+			{
+				1503107,
+				15,
+				0
+			},
+			{
+				1503108,
+				20,
+				0
+			},
+			{
+				1503109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1503105,
+			1503108
+		},
+		ai_expedition_list = {
+			1503303,
+			1503304
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1503113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhanlie_M"
+		},
+		awards = {
+			{
+				2,
+				58154
+			},
+			{
+				2,
+				58142
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				4
+			},
+			{
+				5,
+				8,
+				true,
+				12
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				4
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				8
+			},
+			{
+				4,
+				10,
+				true,
+				1
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				4
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				1
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				12
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				10,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				12
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				10,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				true,
+				6
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				8,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				4,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				1,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				12
+			},
+			{
+				5,
+				10,
+				"maoxiv2hard_virtual_1x2_1",
+				0,
+				-24
+			},
+			{
+				5,
+				6,
+				"maoxiv2hard_virtual_1x2_1",
+				0,
+				-24
+			},
+			{
+				3,
+				0,
+				"maoxiv2hard_virtual_2x2_1",
+				32,
+				-26
+			},
+			{
+				2,
+				9,
+				"maoxiv2hard_virtual_1x1_3",
+				3,
+				18
+			},
+			{
+				2,
+				6,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				1,
+				10,
+				"maoxiv2hard_virtual_1x2_2",
+				0,
+				-16
+			},
+			{
+				1,
+				4,
+				"maoxiv2hard_virtual_2x2_2",
+				53,
+				-4
+			},
+			{
+				1,
+				0,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				0,
+				10,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_hard",
+			45,
+			20,
+			-535,
+			-117,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"POXIAOBINGHUA19"
+		},
+		defeat_story = {
+			"POXIAOBINGHUA21"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		ItemTransformPattern = {
+			[8] = {
+				"virtual",
+				"real"
+			}
+		},
+		chapter_buff = {
+			8852
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480026] = {
+		pos_x = "0.67109375",
+		num_3 = 1,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "POXIAOBINGHUA24",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 1350,
+		best_air_dominance = 1755,
+		id = 1480026,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480025,
+		formation = 1480012,
+		bgm = "deepblue-image",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.35625",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 40,
+		is_ai = 1,
+		map = 1480012,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "记录机构 ",
+		chapter_name = "D3",
+		type = 2,
+		act_id = 905,
+		enter_story = "POXIAOBINGHUA22",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "海域中出现未知敌人，可是在另一处轨道下方，也许什么都不存在……战斗，直到光芒消散为止。 ",
+		difficulty = 10,
+		avoid_ratio = 16,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					2,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					7,
+					0,
+					0
+				},
+				{
+					3,
+					1,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				100
+			},
+			{
+				"cannon",
+				1,
+				1700
+			},
+			{
+				"antiaircraft",
+				1,
+				2450
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1503201,
+				15,
+				0
+			},
+			{
+				1503202,
+				20,
+				0
+			},
+			{
+				1503203,
+				30,
+				1
+			},
+			{
+				1503204,
+				15,
+				0
+			},
+			{
+				1503205,
+				20,
+				0
+			},
+			{
+				1503206,
+				30,
+				1
+			},
+			{
+				1503207,
+				15,
+				0
+			},
+			{
+				1503208,
+				20,
+				0
+			},
+			{
+				1503209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1503205,
+			1503208
+		},
+		ai_expedition_list = {
+			1503305,
+			1503306,
+			1503307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1503213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenboss12"
+		},
+		awards = {
+			{
+				2,
+				58155
+			},
+			{
+				2,
+				58143
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				true,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				0
+			},
+			{
+				9,
+				4,
+				true,
+				8
+			},
+			{
+				9,
+				3,
+				true,
+				0
+			},
+			{
+				9,
+				2,
+				false,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				false,
+				0
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				4
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				4
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				12
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				4
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				true,
+				4
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				1
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				1
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				9,
+				6,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				9,
+				2,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				8,
+				5,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				8,
+				1,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				6,
+				8,
+				"maoxiv2hard_virtual_1x2_2",
+				-2,
+				-21
+			},
+			{
+				6,
+				6,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				2,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				0,
+				"maoxiv2hard_virtual_1x2_1",
+				0,
+				-15
+			},
+			{
+				2,
+				6,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				2,
+				2,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				1,
+				8,
+				"maoxiv2hard_virtual_1x2_1",
+				1,
+				-15
+			},
+			{
+				1,
+				0,
+				"maoxiv2hard_virtual_1x2_2",
+				-2,
+				-21
+			},
+			{
+				0,
+				5,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				0,
+				4,
+				"maoxiv2hard_virtual_1x1_1",
+				3,
+				23
+			},
+			{
+				0,
+				1,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_hard",
+			45,
+			20,
+			-230,
+			-270,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"POXIAOBINGHUA23"
+		},
+		defeat_story = {
+			"POXIAOBINGHUA26",
+			"POXIAOBINGHUA27",
+			"POXIAOBINGHUA28",
+			"POXIAOBINGHUA29",
+			"POXIAOBINGHUA30",
+			"POXIAOBINGHUA31"
+		},
+		defeat_story_count = {
+			1,
+			5,
+			6,
+			7,
+			8,
+			9
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		ItemTransformPattern = {
+			[8] = {
+				"virtual",
+				"real"
+			}
+		},
+		chapter_buff = {
+			8852
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480041] = {
+		pos_x = "0.479",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 2030,
+		best_air_dominance = 2640,
+		id = 1480041,
+		count = 1,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480026,
+		formation = 1480025,
+		bgm = "bgm-cccp",
+		chapter_tag = 0,
+		star_require_1 = 0,
+		pos_y = "0.2979",
+		pop_pic = "",
+		num_1 = 0,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 0,
+		is_ai = 1,
+		map = 1480025,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "璀璨余辉",
+		chapter_name = "SP",
+		type = 2,
+		act_id = 905,
+		enter_story = "",
+		boss_refresh = 7,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "尘封的密室，紧闭的大门，深藏的宝藏……在璀璨的余晖之下迎接终幕的到来吧。 ",
+		difficulty = 10,
+		avoid_ratio = 16,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				110
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1504001,
+				15,
+				0
+			},
+			{
+				1504002,
+				20,
+				0
+			},
+			{
+				1504003,
+				30,
+				1
+			},
+			{
+				1504004,
+				15,
+				0
+			},
+			{
+				1504005,
+				20,
+				0
+			},
+			{
+				1504006,
+				30,
+				1
+			},
+			{
+				1504007,
+				15,
+				0
+			},
+			{
+				1504008,
+				20,
+				0
+			},
+			{
+				1504009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1504005,
+			1504008
+		},
+		ai_expedition_list = {
+			1504301,
+			1504302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1504013
+		},
+		enemy_refresh = {
+			0,
+			0,
+			0,
+			4
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			3
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenboss12"
+		},
+		awards = {
+			{
+				2,
+				58158
+			},
+			{
+				2,
+				58156
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				false,
+				0
+			},
+			{
+				9,
+				4,
+				false,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				0
+			},
+			{
+				9,
+				2,
+				false,
+				0
+			},
+			{
+				9,
+				1,
+				false,
+				0
+			},
+			{
+				9,
+				0,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				1
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				1
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				12
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				16
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				12
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				12
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				8
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				9,
+				4,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				9,
+				0,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				8,
+				6,
+				"maoxiv2hard_virtual_1x1_1",
+				0,
+				20
+			},
+			{
+				8,
+				0,
+				"maoxiv2hard_virtual_1x1_1",
+				0,
+				20
+			},
+			{
+				6,
+				6,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				6,
+				0,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				5,
+				4,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				5,
+				0,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				4,
+				6,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				4,
+				0,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				3,
+				3,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				2,
+				6,
+				"maoxiv2hard_virtual_1x2_2",
+				0,
+				-21
+			},
+			{
+				2,
+				0,
+				"maoxiv2hard_virtual_1x2_1",
+				0,
+				-20
+			},
+			{
+				1,
+				4,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				1,
+				0,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				19
+			},
+			{
+				0,
+				4,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				0,
+				2,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_hard",
+			45,
+			20,
+			-127,
+			146,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {
+			8855,
+			8858
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
+	[1480051] = {
+		pos_x = "0.479",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 0,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 620,
+		best_air_dominance = 810,
+		id = 1480051,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1480026,
+		formation = 1480026,
+		bgm = "bgm-cccp",
+		chapter_tag = 0,
+		star_require_1 = 0,
+		pos_y = "0.2979",
+		pop_pic = "",
+		num_1 = 0,
+		model = 5,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 0,
+		is_ai = 0,
+		map = 1480026,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "「破晓冰华」 ",
+		chapter_name = "EXTRA",
+		type = 2,
+		act_id = 905,
+		enter_story = "",
+		boss_refresh = 0,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 1,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "北境的战士们，挥舞冷彻的冰华，斩断漫长的夜幕，迎接破晓之曙光吧！ ",
+		difficulty = 10,
+		avoid_ratio = 17,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					5,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1505001
+		},
+		enemy_refresh = {
+			0
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenboss12"
+		},
+		awards = {},
+		grids = {
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				1
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				8
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				2,
+				"maoxiv2hard_virtual_1x1_1",
+				0,
+				19
+			},
+			{
+				5,
+				1,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				12
+			},
+			{
+				4,
+				3,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				4,
+				1,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			},
+			{
+				2,
+				4,
+				"maoxiv2hard_virtual_1x2_2",
+				0,
+				-19
+			},
+			{
+				2,
+				0,
+				"maoxiv2hard_virtual_1x2_1",
+				0,
+				-14
+			},
+			{
+				1,
+				1,
+				"maoxiv2hard_virtual_3x1_1",
+				102,
+				12
+			},
+			{
+				0,
+				2,
+				"maoxiv2hard_virtual_1x1_4",
+				4,
+				21
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_maoxiv2_hard",
+			45,
+			20,
+			-40,
+			-109,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	},
 	[2100001] = {
 		pos_x = "0.33125",
 		num_3 = 1,
@@ -287457,6 +298914,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "风暴的尽头",
 		chapter_name = "A1",
 		type = 1,
@@ -287999,6 +299457,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "求救信号的彼方",
 		chapter_name = "A2",
 		type = 1,
@@ -288598,6 +300057,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "圣域的护卫",
 		chapter_name = "A3",
 		type = 1,
@@ -289264,6 +300724,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "红染的参道",
 		chapter_name = "B1",
 		type = 1,
@@ -289880,6 +301341,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "“姐妹”",
 		chapter_name = "B2",
 		type = 1,
@@ -290598,6 +302060,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "红染的守护者",
 		chapter_name = "B3",
 		type = 1,
@@ -291311,6 +302774,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "风暴的尽头",
 		chapter_name = "C1",
 		type = 2,
@@ -291894,6 +303358,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "求救信号的彼方",
 		chapter_name = "C2",
 		type = 2,
@@ -292534,6 +303999,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "圣域的护卫",
 		chapter_name = "C3",
 		type = 2,
@@ -293242,6 +304708,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "红染的参道",
 		chapter_name = "D1",
 		type = 2,
@@ -293900,6 +305367,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "“姐妹”",
 		chapter_name = "D2",
 		type = 2,
@@ -294660,6 +306128,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "红染的守护者",
 		chapter_name = "D3",
 		type = 2,
@@ -295413,6 +306882,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "归途|~Voyage~",
 		chapter_name = "A1",
 		type = 1,
@@ -295906,6 +307376,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "狩猎场|~Hunting~",
 		chapter_name = "A2",
 		type = 1,
@@ -296461,6 +307932,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "捕鼠夹|~Trap~",
 		chapter_name = "A3",
 		type = 1,
@@ -297106,6 +308578,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "北方的访客|～Visitor~",
 		chapter_name = "B1",
 		type = 1,
@@ -297774,6 +309247,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "“钨”行动|~Operate~",
 		chapter_name = "B2",
 		type = 1,
@@ -298460,6 +309934,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "凛冬王冠|～Crown~",
 		chapter_name = "B3",
 		type = 1,
@@ -299321,6 +310796,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "归途|~Voyage~",
 		chapter_name = "C1",
 		type = 2,
@@ -299855,6 +311331,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "狩猎场|~Hunting~",
 		chapter_name = "C2",
 		type = 2,
@@ -300451,6 +311928,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "捕鼠夹|~Trap~",
 		chapter_name = "C3",
 		type = 2,
@@ -301137,6 +312615,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "北方的访客|～Visitor~",
 		chapter_name = "D1",
 		type = 2,
@@ -301846,6 +313325,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "“钨”行动|~Operate~",
 		chapter_name = "D2",
 		type = 2,
@@ -302573,6 +314053,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "凛冬王冠|～Crown~",
 		chapter_name = "D3",
 		type = 2,
@@ -303476,6 +314957,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "开局|~Openings~",
 		chapter_name = "A1",
 		type = 1,
@@ -304030,6 +315512,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "出子|~Development~",
 		chapter_name = "A2",
 		type = 1,
@@ -304724,6 +316207,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "主动权|~Initiative~",
 		chapter_name = "A3",
 		type = 1,
@@ -305385,6 +316869,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "升变|~Promotion~",
 		chapter_name = "A4",
 		type = 1,
@@ -306164,6 +317649,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "交汇点|~Transposition~",
 		chapter_name = "B1",
 		type = 1,
@@ -306738,6 +318224,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "引离|~Deflection~",
 		chapter_name = "B2",
 		type = 1,
@@ -307320,6 +318807,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "过载|~Overworked~",
 		chapter_name = "B3",
 		type = 1,
@@ -307957,6 +319445,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "将杀|~Checkmate~",
 		chapter_name = "B4",
 		type = 1,
@@ -308750,6 +320239,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "开局|~Openings~",
 		chapter_name = "C1",
 		type = 2,
@@ -309345,6 +320835,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "出子|~Development~",
 		chapter_name = "C2",
 		type = 2,
@@ -310082,6 +321573,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "主动权|~Initiative~",
 		chapter_name = "C3",
 		type = 2,
@@ -310784,6 +322276,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "升变|~Promotion~",
 		chapter_name = "C4",
 		type = 2,
@@ -311604,6 +323097,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "交汇点|~Transposition~",
 		chapter_name = "D1",
 		type = 2,
@@ -312219,6 +323713,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "引离|~Deflection~",
 		chapter_name = "D2",
 		type = 2,
@@ -312842,6 +324337,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "过载|~Overworked~",
 		chapter_name = "D3",
 		type = 2,
@@ -313520,6 +325016,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "将杀|~Checkmate~",
 		chapter_name = "D4",
 		type = 2,
@@ -314354,6 +325851,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "突入|～Inburst～",
 		chapter_name = "A1",
 		type = 1,
@@ -314939,6 +326437,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "接敌|～Engage～",
 		chapter_name = "A2",
 		type = 1,
@@ -315582,6 +327081,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "迷惑|～Confuse～",
 		chapter_name = "A3",
 		type = 1,
@@ -316316,6 +327816,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "信号|～Signal～",
 		chapter_name = "B1",
 		type = 1,
@@ -316988,6 +328489,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "危机|～Crisis～",
 		chapter_name = "B2",
 		type = 1,
@@ -317801,6 +329303,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "决战|～Decisive～",
 		chapter_name = "B3",
 		type = 1,
@@ -318793,6 +330296,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "突入|～Inburst～",
 		chapter_name = "C1",
 		type = 2,
@@ -319419,6 +330923,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "接敌|～Engage～",
 		chapter_name = "C2",
 		type = 2,
@@ -320103,6 +331608,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "迷惑|～Confuse～",
 		chapter_name = "C3",
 		type = 2,
@@ -320878,6 +332384,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "信号|～Signal～",
 		chapter_name = "D1",
 		type = 2,
@@ -321591,6 +333098,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "危机|～Crisis～",
 		chapter_name = "D2",
 		type = 2,
@@ -322445,6 +333953,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "决战|～Decisive～",
 		chapter_name = "D3",
 		type = 2,
@@ -323478,6 +334987,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "暴雨前夕",
 		chapter_name = "A1",
 		type = 1,
@@ -324024,6 +335534,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "突破",
 		chapter_name = "A2",
 		type = 1,
@@ -324676,6 +336187,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "弩炮行动",
 		chapter_name = "A3",
 		type = 1,
@@ -325440,6 +336952,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "合流",
 		chapter_name = "B1",
 		type = 1,
@@ -325999,6 +337512,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "正义的怒吼",
 		chapter_name = "B2",
 		type = 1,
@@ -326662,6 +338176,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "火炬行动",
 		chapter_name = "B3",
 		type = 1,
@@ -327453,6 +338968,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "暴雨前夕",
 		chapter_name = "C1",
 		type = 2,
@@ -328040,6 +339556,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "突破",
 		chapter_name = "C2",
 		type = 2,
@@ -328733,6 +340250,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "弩炮行动",
 		chapter_name = "C3",
 		type = 2,
@@ -329538,6 +341056,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "合流",
 		chapter_name = "D1",
 		type = 2,
@@ -330138,6 +341657,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "正义的怒吼",
 		chapter_name = "D2",
 		type = 2,
@@ -330845,6 +342365,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "火炬行动",
 		chapter_name = "D3",
 		type = 2,
@@ -331676,6 +343197,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "重归故里",
 		chapter_name = "A1",
 		type = 1,
@@ -332277,6 +343799,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "异变",
 		chapter_name = "A2",
 		type = 1,
@@ -332843,6 +344366,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "枯竭的信仰",
 		chapter_name = "A3",
 		type = 1,
@@ -333507,6 +345031,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "守护者",
 		chapter_name = "A4",
 		type = 1,
@@ -334170,6 +345695,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "新芽",
 		chapter_name = "B1",
 		type = 1,
@@ -334884,6 +346410,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "钢铁之花，盛放",
 		chapter_name = "B2",
 		type = 1,
@@ -335659,6 +347186,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "重归故里",
 		chapter_name = "C1",
 		type = 2,
@@ -336303,6 +347831,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "异变",
 		chapter_name = "C2",
 		type = 2,
@@ -336911,6 +348440,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "枯竭的信仰",
 		chapter_name = "C3",
 		type = 2,
@@ -337617,6 +349147,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "守护者",
 		chapter_name = "C4",
 		type = 2,
@@ -338322,6 +349853,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "新芽",
 		chapter_name = "D1",
 		type = 2,
@@ -339080,6 +350612,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "钢铁之花，盛放",
 		chapter_name = "D2",
 		type = 2,
@@ -339898,6 +351431,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "智和勇的序盘",
 		chapter_name = "A1",
 		type = 1,
@@ -340494,6 +352028,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "将上桂的王手",
 		chapter_name = "A2",
 		type = 1,
@@ -341061,6 +352596,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "王与玉的交锋",
 		chapter_name = "A3",
 		type = 1,
@@ -341724,6 +353260,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "落日下的追寻",
 		chapter_name = "B1",
 		type = 1,
@@ -342389,6 +353926,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "落幕后的曙光",
 		chapter_name = "B2",
 		type = 1,
@@ -343097,6 +354635,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "被继承的意志",
 		chapter_name = "B3",
 		type = 1,
@@ -343779,6 +355318,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "智和勇的序盘",
 		chapter_name = "C1",
 		type = 2,
@@ -344417,6 +355957,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "将上桂的王手",
 		chapter_name = "C2",
 		type = 2,
@@ -345026,6 +356567,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "王与玉的交锋",
 		chapter_name = "C3",
 		type = 2,
@@ -345731,6 +357273,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "落日下的追寻",
 		chapter_name = "D1",
 		type = 2,
@@ -346438,6 +357981,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "落幕后的曙光",
 		chapter_name = "D2",
 		type = 2,
@@ -347190,6 +358734,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "被继承的意志",
 		chapter_name = "D3",
 		type = 2,
@@ -347915,6 +359460,7 @@ pg.chapter_template = {
 		unlocklevel = 15,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "不祥的疑云",
 		chapter_name = "SP.1",
 		type = 2,
@@ -348326,6 +359872,7 @@ pg.chapter_template = {
 		unlocklevel = 15,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "Z舰队的反击",
 		chapter_name = "SP.2",
 		type = 2,
@@ -348811,6 +360358,7 @@ pg.chapter_template = {
 		unlocklevel = 15,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "大舰巨炮的挽歌",
 		chapter_name = "SP.3",
 		type = 2,
@@ -349326,6 +360874,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "索敌",
 		chapter_name = "SP1",
 		type = 1,
@@ -349910,6 +361459,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "追击",
 		chapter_name = "SP2",
 		type = 1,
@@ -350593,6 +362143,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "对决",
 		chapter_name = "SP3",
 		type = 1,
@@ -351332,6 +362883,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "大意与袭击",
 		chapter_name = "SP1",
 		type = 1,
@@ -352026,6 +363578,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "追击与逃亡",
 		chapter_name = "SP2",
 		type = 1,
@@ -352733,6 +364286,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		chapter_fx = "",
 		uifx = "",
+		ItemTransformPattern = "",
 		name = "光荣的一战",
 		chapter_name = "SP3",
 		type = 1,
@@ -353854,6 +365408,20 @@ pg.chapter_template = {
 		1470028,
 		1470031,
 		1470041,
+		1480001,
+		1480002,
+		1480003,
+		1480004,
+		1480005,
+		1480006,
+		1480021,
+		1480022,
+		1480023,
+		1480024,
+		1480025,
+		1480026,
+		1480041,
+		1480051,
 		2100001,
 		2100002,
 		2100003,

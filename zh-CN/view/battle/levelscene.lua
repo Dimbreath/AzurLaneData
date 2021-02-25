@@ -317,8 +317,8 @@ function slot0.initEvents(slot0)
 	slot0:bind(LevelUIConst.HIDE_FLEET_SELECT, function ()
 		uv0:hideFleetSelect()
 	end)
-	slot0:bind(LevelUIConst.HIDE_FLEET_EDIT, function (slot0, slot1)
-		uv0:hideFleetEdit(slot1)
+	slot0:bind(LevelUIConst.HIDE_FLEET_EDIT, function (slot0)
+		uv0:hideFleetEdit()
 	end)
 end
 
@@ -858,7 +858,7 @@ end
 
 function slot0.updateChapterVO(slot0, slot1, slot2)
 	if not slot0.contextData.chapterVO then
-		if slot0.contextData.mapIdx == slot1:getConfig("map") then
+		if slot0.contextData.mapIdx == slot1:getConfig("map") and bit.band(slot2, ChapterConst.DirtyMapItems) > 0 then
 			slot0:updateMapItems()
 		end
 
@@ -956,6 +956,10 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 
 		if slot2 < 0 or bit.band(slot2, ChapterConst.DirtyBase) > 0 then
 			slot0.levelStageView:UpdateDefenseStatus()
+		end
+
+		if slot2 < 0 or bit.band(slot2, ChapterConst.DirtyFloatItems) > 0 then
+			slot0.grid:UpdateItemCells()
 		end
 
 		if slot6 then
@@ -1457,6 +1461,7 @@ function slot0.updateMap(slot0)
 	seriesAsync({
 		function (slot0)
 			uv0:SwitchBG(uv1:getConfig("bg"))
+			uv0:PlayBGM()
 			uv0:SwitchMapBuilder(uv0:JudgeMapBuilderType(), slot0)
 		end,
 		function (slot0)
@@ -1746,19 +1751,11 @@ function slot0.updateFleetEdit(slot0, slot1, slot2)
 	end
 end
 
-function slot0.hideFleetEdit(slot0, slot1)
-	if slot1 then
-		slot0:emit(LevelMediator2.ON_UPDATE_CUSTOM_FLEET, slot1.id)
-	end
-
+function slot0.hideFleetEdit(slot0)
 	slot0:hideFleetSelect()
 end
 
-function slot0.destroyFleetEdit(slot0, slot1)
-	if slot1 then
-		slot0:emit(LevelMediator2.ON_UPDATE_CUSTOM_FLEET, slot1.id)
-	end
-
+function slot0.destroyFleetEdit(slot0)
 	slot0:destroyFleetSelect()
 end
 

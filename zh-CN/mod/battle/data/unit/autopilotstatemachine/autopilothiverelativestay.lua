@@ -13,7 +13,6 @@ function slot1.SetParameter(slot0, slot1, slot2)
 
 	slot0._distX = slot1.x
 	slot0._distZ = slot1.z
-	slot0._duration = slot1.duration
 end
 
 function slot1.GetDirection(slot0, slot1)
@@ -26,7 +25,7 @@ function slot1.GetDirection(slot0, slot1)
 	slot3 = slot2:GetPosition()
 	slot5 = Vector3(slot3.x + slot0._distX, slot1.y, slot3.z + slot0._distZ) - slot1
 
-	if slot0._duration > 0 and slot0._duration < pg.TimeMgr.GetInstance():GetCombatTime() - slot0._startTime then
+	if slot0:IsExpired() then
 		slot0:Finish()
 	end
 

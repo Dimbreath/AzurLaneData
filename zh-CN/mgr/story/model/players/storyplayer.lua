@@ -10,6 +10,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.goCG = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
 	slot0.asidePanel = slot0:findTF("aside_panel")
 	slot0.bgGlitch = slot0:findTF("bg_glitch")
+	slot0.oldPhoto = slot0:findTF("oldphoto"):GetComponent(typeof(Image))
 	slot0.bgPanel = slot0:findTF("bg")
 	slot0.bgPanelCg = slot0.bgPanel:GetComponent(typeof(CanvasGroup))
 	slot0.bgImage = slot0:findTF("image", slot0.bgPanel):GetComponent(typeof(Image))
@@ -351,7 +352,22 @@ function slot0.UpdateBg(slot0, slot1)
 		end
 	end
 
+	slot0:ApplyOldPhotoEffect(slot1)
 	slot0:OnBgUpdate(slot1)
+end
+
+function slot0.ApplyOldPhotoEffect(slot0, slot1)
+	slot3 = slot1:OldPhotoEffect() ~= nil
+
+	setActive(slot0.oldPhoto.gameObject, slot3)
+
+	if slot3 then
+		if type(slot2) == "table" then
+			slot0.oldPhoto.color = Color.New(slot2[1], slot2[2], slot2[3], slot2[4])
+		else
+			slot0.oldPhoto.color = Color.New(0.62, 0.58, 0.14, 0.36)
+		end
+	end
 end
 
 function slot0.SetBgGlitchArt(slot0, slot1)

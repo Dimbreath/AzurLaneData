@@ -1,159 +1,159 @@
 pg = pg or {}
 pg.activity_event_question = {
-	{
-		question = "航速的单位“节”是指（）",
-		answer_right = "1海里/时",
-		answer_false1 = "1公里/时",
+	[15] = {
+		question = "为了缩短飞机起飞距离，航空母舰在起飞飞机时应该（）",
+		answer_right = "逆风航行",
+		answer_false1 = "顺风航行",
 		type = 1,
-		id = 1,
+		id = 15,
 		wrong_time = 300,
-		answer_false3 = "1英里/时",
-		answer_false2 = "1米/时"
+		answer_false3 = "静止不动",
+		answer_false2 = "侧风航行"
 	},
-	{
-		question = "舰艇上操控舰和指挥作战的地方被称为（）",
-		answer_right = "舰桥",
-		answer_false1 = "舰屋",
+	[16] = {
+		question = "以下哪种方式不是航母或军舰弹射飞机使用的动力方式？",
+		answer_right = "机械弹簧",
+		answer_false1 = "蒸汽",
 		type = 1,
-		id = 2,
+		id = 16,
 		wrong_time = 300,
-		answer_false3 = "舰洞",
-		answer_false2 = "舰房"
+		answer_false3 = "液压",
+		answer_false2 = "火药燃气"
 	},
-	{
-		question = "袖珍潜艇的排水量往往在（）吨以下",
-		answer_right = "100",
-		answer_false1 = "500",
+	[17] = {
+		question = "以下哪种方式不是军舰之间的通信方式？",
+		answer_right = "传声管",
+		answer_false1 = "旗语",
 		type = 1,
-		id = 3,
+		id = 17,
 		wrong_time = 300,
-		answer_false3 = "200",
-		answer_false2 = "300"
+		answer_false3 = "短波无线电",
+		answer_false2 = "信号灯"
 	},
-	{
-		question = "海军中常用单位“链”是（）单位",
-		answer_right = "长度",
-		answer_false1 = "时间",
+	[18] = {
+		question = "以下哪个选项不属于舰船舰艏类型？",
+		answer_right = "装甲型艏",
+		answer_false1 = "球鼻型艏",
 		type = 1,
-		id = 4,
+		id = 18,
 		wrong_time = 300,
-		answer_false3 = "速度",
-		answer_false2 = "重量"
+		answer_false3 = "前倾型艏",
+		answer_false2 = "飞剪型艏"
 	},
-	{
-		question = "轻巡和重巡的口径划分界限是（）英寸",
-		answer_right = "6.1",
-		answer_false1 = "5.5",
+	[19] = {
+		question = "VT引信又被称为（）",
+		answer_right = "无线电近炸引信",
+		answer_false1 = "触发引信",
 		type = 1,
-		id = 5,
+		id = 19,
 		wrong_time = 300,
-		answer_false3 = "6.4",
-		answer_false2 = "5.8"
+		answer_false3 = "气压定高引信",
+		answer_false2 = "定时引信"
 	},
-	{
-		question = "舰和艇的主要划分标准是（）",
-		answer_right = "吨位",
-		answer_false1 = "航速",
+	[20] = {
+		question = "炮弹未直接命中船体而是落在附近海水中爆炸的现象被称为（）",
+		answer_right = "近失弹",
+		answer_false1 = "过穿弹",
 		type = 1,
-		id = 6,
+		id = 20,
 		wrong_time = 300,
-		answer_false3 = "续航",
-		answer_false2 = "船员数"
+		answer_false3 = "反潜弹",
+		answer_false2 = "水中弹"
 	},
-	{
-		question = "在航空母舰上起降的飞机一般称作为（）",
-		answer_right = "舰载机",
-		answer_false1 = "舰装机",
+	[21] = {
+		question = "驱逐舰可以通过（）来攻击水下的潜艇",
+		answer_right = "深水炸弹",
+		answer_false1 = "主炮",
 		type = 1,
-		id = 7,
+		id = 21,
 		wrong_time = 300,
-		answer_false3 = "舰船机",
-		answer_false2 = "航母机"
+		answer_false3 = "撞击",
+		answer_false2 = "防空炮"
 	},
-	{
-		question = "游戏中在战斗时炮弹造成的伤害数值为紫色表示（）",
-		answer_right = "穿甲弹伤害",
-		answer_false1 = "暴击伤害",
+	[22] = {
+		question = "以下哪个选项不属于游戏中舰炮的炮弹种类？",
+		answer_right = "照明弹 ",
+		answer_false1 = "通常弹",
 		type = 2,
-		id = 8,
+		id = 22,
 		wrong_time = 300,
-		answer_false3 = "高爆弹伤害",
-		answer_false2 = "通常弹伤害"
+		answer_false3 = "高爆弹",
+		answer_false2 = "穿甲弹"
 	},
-	{
-		question = "游戏中轮型阵护卫阵型会提高（）属性",
-		answer_right = "防空",
-		answer_false1 = "机动",
+	[23] = {
+		question = "以下哪种飞机不会计入游戏中关卡的制空值？",
+		answer_right = "反潜机",
+		answer_false1 = "战斗机",
 		type = 2,
-		id = 9,
+		id = 23,
 		wrong_time = 300,
-		answer_false3 = "雷击",
-		answer_false2 = "炮击"
+		answer_false3 = "轰炸机",
+		answer_false2 = "鱼雷机"
 	},
-	{
-		question = "游戏中安全海域会提供（）的buff效果",
-		answer_right = "受伤减免",
-		answer_false1 = "造成伤害增加",
+	[24] = {
+		question = "以下哪种行为不会增加航母的被侦测计量条？",
+		answer_right = "处于进水状态",
+		answer_false1 = "进行空袭",
 		type = 2,
-		id = 10,
+		id = 24,
 		wrong_time = 300,
-		answer_false3 = "减少油耗",
-		answer_false2 = "属性提高"
+		answer_false3 = "敌方舰船触底",
+		answer_false2 = "处于点燃状态"
 	},
-	{
-		question = "触发茗获取任务需要在商店中点击（）次",
-		answer_right = "30",
-		answer_false1 = "20",
+	[25] = {
+		question = "开启关卡的周回模式需要达成三星以及（）",
+		answer_right = "安全海域",
+		answer_false1 = "高危海域",
 		type = 2,
-		id = 11,
+		id = 25,
 		wrong_time = 300,
-		answer_false3 = "40",
-		answer_false2 = "15"
+		answer_false3 = "低危海域",
+		answer_false2 = "危险海域"
 	},
-	{
-		question = "游戏中舰队弹药匮乏后减少其（）的伤害",
-		answer_right = "50%",
-		answer_false1 = "30%",
+	[26] = {
+		question = "目前游戏中舰船的等级上限是（）",
+		answer_right = "120",
+		answer_false1 = "70",
 		type = 2,
-		id = 12,
+		id = 26,
 		wrong_time = 300,
-		answer_false3 = "60%",
-		answer_false2 = "40%"
+		answer_false3 = "100",
+		answer_false2 = "90"
 	},
-	{
-		question = "游戏开发船坞中的方案舰最多可同时研究（）艘",
-		answer_right = "1",
-		answer_false1 = "2",
+	[27] = {
+		question = "每日可以完成的军事委托次数是（）",
+		answer_right = "不作限制",
+		answer_false1 = "4",
 		type = 2,
-		id = 13,
+		id = 27,
 		wrong_time = 300,
-		answer_false3 = "4",
-		answer_false2 = "3"
+		answer_false3 = "15",
+		answer_false2 = "8"
 	},
-	{
-		question = "下列指挥喵中属于SSR的是（）",
-		answer_right = "伯克喵",
-		answer_false1 = "乔治喵",
+	[28] = {
+		question = "游戏中钻石不可以购买的物品是（）",
+		answer_right = "舰船经验",
+		answer_false1 = "物资",
 		type = 2,
-		id = 14,
+		id = 28,
 		wrong_time = 300,
-		answer_false3 = "弗里喵",
-		answer_false2 = "谢尔喵"
+		answer_false3 = "心智魔方",
+		answer_false2 = "石油"
 	},
 	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14
+		15,
+		16,
+		17,
+		18,
+		19,
+		20,
+		21,
+		22,
+		23,
+		24,
+		25,
+		26,
+		27,
+		28
 	}
 }

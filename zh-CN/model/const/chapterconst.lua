@@ -234,19 +234,25 @@ slot0.DirtyAutoAction = 32
 slot0.DirtyCellFlag = 64
 slot0.DirtyBase = 128
 slot0.DirtyChampionPosition = 256
+slot0.DirtyFloatItems = 512
+slot0.DirtyMapItems = 1024
 slot0.KizunaJammingEngage = 1
 slot0.KizunaJammingDodge = 2
 slot0.StatusDay = 3
 slot0.StatusNight = 4
 slot0.StatusAirportOutControl = 5
 slot0.StatusAirportUnderControl = 6
+slot0.StatusSunrise = 7
+slot0.StatusSunset = 8
 slot0.Status2StgBuff = {
 	[slot0.KizunaJammingEngage] = 90,
 	[slot0.KizunaJammingDodge] = 91,
 	[slot0.StatusDay] = 93,
 	[slot0.StatusNight] = 92,
 	[slot0.StatusAirportOutControl] = 8801,
-	[slot0.StatusAirportUnderControl] = 8802
+	[slot0.StatusAirportUnderControl] = 8802,
+	[slot0.StatusSunrise] = 8841,
+	[slot0.StatusSunset] = 8842
 }
 slot0.HpGreen = 3000
 

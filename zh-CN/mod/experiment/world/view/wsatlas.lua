@@ -6,8 +6,10 @@ slot0.Fields = {
 	transform = "userdata",
 	onClickColor = "function",
 	tfMapSelect = "userdata",
+	defaultSprite = "userdata",
 	tfEntity = "userdata",
 	cmPointer = "userdata",
+	addSprite = "userdata",
 	tfSpriteScene = "userdata",
 	tfMapScene = "userdata",
 	tfActiveMark = "userdata",
@@ -133,10 +135,9 @@ function slot0.ActiveStatic(slot0, slot1, slot2)
 	end
 end
 
-slot0.sairenMaskColor = Color.New(0.6862745098039216, 0, 0, 0.5)
-slot0.pressingMaskColor = Color.New(0, 0, 0, 0)
-slot0.openMaskColor = Color.New(0, 0, 0, 0.35294117647058826)
-slot0.lockMaskColor = Color.New(0, 0, 0, 0.6666666666666666)
+slot0.pressingMaskColor = Color.New(0.027450980392156862, 0.27450980392156865, 0.5490196078431373, 0.5019607843137255)
+slot0.openMaskColor = Color.New(0, 0, 0, 0)
+slot0.lockMaskColor = Color.New(0, 0, 0, 0.4)
 
 function slot0.UpdateModelMask(slot0)
 	for slot4, slot5 in pairs(slot0.atlas.entranceDic) do
@@ -149,12 +150,19 @@ function slot0.UpdateEntranceMask(slot0, slot1)
 
 	if slot1:HasPort() then
 		-- Nothing
-	elseif slot2.isPressing then
-		slot0.tfMapScene:Find("lock_layer/A" .. slot1:GetColormaskUniqueID()):GetComponent("SpriteRenderer").color = uv0.pressingMaskColor
-	elseif slot0.atlas.transportDic[slot1.id] and slot2:IsMapOpen(true) then
-		slot4.color = uv0.openMaskColor
 	else
-		slot4.color = uv0.lockMaskColor
+		slot4 = slot0.tfMapScene:Find("lock_layer/A" .. slot1:GetColormaskUniqueID()):GetComponent("SpriteRenderer")
+
+		if slot2.isPressing then
+			slot4.color = uv0.pressingMaskColor
+			slot4.material = slot0.addSprite
+		elseif slot0.atlas.transportDic[slot1.id] and slot2:IsMapOpen(true) then
+			slot4.color = uv0.openMaskColor
+			slot4.material = slot0.defaultSprite
+		else
+			slot4.color = uv0.lockMaskColor
+			slot4.material = slot0.defaultSprite
+		end
 	end
 end
 

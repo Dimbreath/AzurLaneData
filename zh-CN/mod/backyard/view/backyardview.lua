@@ -82,6 +82,10 @@ function slot0.enableDecorateMode(slot0, slot1)
 		return
 	end
 
+	if slot1 then
+		slot0:StopMoveableFurnitures()
+	end
+
 	slot0.decorateMode = slot1
 
 	setActive(slot0.backBtn, slot1)
@@ -125,6 +129,14 @@ function slot0.enableDecorateMode(slot0, slot1)
 	setActive(slot0.floorBtn, not slot1)
 	setActive(slot0.bottomPanel, not slot1)
 	setActive(slot0.decorationBtn, not slot1)
+end
+
+function slot0.StopMoveableFurnitures(slot0)
+	for slot4, slot5 in pairs(slot0.furnitureModals) do
+		if slot5.furnitureVO:isMoveable() and slot5.touchSwitch then
+			triggerButton(slot5.iconTF)
+		end
+	end
 end
 
 function slot0.OnDidEnter(slot0)

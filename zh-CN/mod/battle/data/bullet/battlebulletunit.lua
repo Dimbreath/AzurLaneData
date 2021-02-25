@@ -14,7 +14,7 @@ slot10.ACC_INTERVAL = slot0.Battle.BattleConfig.calcInterval
 slot10.TRACKER_ANGLE = math.cos(math.deg2Rad * 10)
 slot10.MIRROR_RES = "_mirror"
 
-function slot11(slot0, slot1)
+function slot10.doAccelerate(slot0, slot1)
 	slot2, slot3 = slot0:GetAcceleration(slot1)
 
 	if slot2 == 0 and slot3 == 0 then
@@ -36,7 +36,7 @@ function slot11(slot0, slot1)
 	slot0._speedCross:Copy(slot0._speedNormal):Cross2(uv0)
 end
 
-function slot12(slot0)
+function slot10.doTrack(slot0)
 	if slot0:getTrackingTarget() == nil and uv0.TargetHarmNearest(slot0)[1] ~= nil and slot0:GetDistance(slot1) <= slot0._trackRange then
 		slot0:setTrackingTarget(slot1)
 	end
@@ -79,7 +79,7 @@ function slot12(slot0)
 	slot0._speed:Set(slot0._speed.x * slot10 + slot0._speed.z * slot11, 0, slot0._speed.z * slot10 - slot0._speed.x * slot11)
 end
 
-function slot13(slot0)
+function slot10.doOrbit(slot0)
 	slot1 = pg.Tool.FilterY(slot0._weapon:GetPosition())
 	slot2 = pg.Tool.FilterY(slot0:GetPosition())
 	slot4 = (slot1 - slot2).normalized
@@ -94,7 +94,7 @@ function slot10.RotateY(slot0, slot1)
 	return Vector3(slot0.x * slot2 + slot0.z * slot3, slot0.y, slot0.z * slot2 - slot0.x * slot3)
 end
 
-function slot14(slot0)
+function slot10.doCircle(slot0)
 	if not slot0._originPos then
 		return
 	end
@@ -109,7 +109,7 @@ function slot14(slot0)
 	slot0._speed = slot0.RotateY(slot2, slot3 / slot4 * (slot0._circleAntiClockwise and 1 or -1) * slot1):Mul(slot5 / slot4):Sub(slot2)
 end
 
-function slot15(slot0)
+function slot10.doNothing(slot0)
 	if slot0._gravity ~= 0 then
 		slot0._verticalSpeed = slot0._verticalSpeed + slot0._gravity * slot0:GetSpeedRatio()
 	end
@@ -630,11 +630,7 @@ end
 
 function slot10.InitSpeed(slot0, slot1)
 	if slot0._yAngle == nil then
-		if slot0._barragePriority then
-			slot0._yAngle = slot1 or slot0._baseAngle
-		else
-			slot0._yAngle = slot2 + slot0._barrageAngle
-		end
+		slot0._yAngle = (slot1 or slot0._baseAngle) + slot0._barrageAngle
 	end
 
 	slot0:calcSpeed()
@@ -644,7 +640,7 @@ function slot10.InitSpeed(slot0, slot1)
 		slot2 = math.deg2Rad * slot0._yAngle
 		slot0._speedNormal = Vector3(math.cos(slot2), 0, math.sin(slot2))
 		slot0._speedCross = Vector3.Cross(slot0._speedNormal, uv0)
-		slot0.updateSpeed = uv1
+		slot0.updateSpeed = uv1.doAccelerate
 	elseif slot0:IsTracker() then
 		slot2 = slot0._accTable.tracker
 		slot0._trackRange = slot2.range
@@ -652,15 +648,15 @@ function slot10.InitSpeed(slot0, slot1)
 		slot0._sinAngularSpeed = math.deg2Rad * slot2.angular
 		slot0._negativeCosAngularSpeed = math.deg2Rad * slot2.angular * -1
 		slot0._negativeSinAngularSpeed = math.deg2Rad * slot2.angular * -1
-		slot0.updateSpeed = uv2
+		slot0.updateSpeed = uv1.doTrack
 	elseif slot0:IsCircle() then
 		slot0._originPos = slot0._accTable.circle.center or slot0._targetPos
 		slot0._circleAntiClockwise = tobool(slot2.antiClockWise)
-		slot0._centripetalSpeed = (slot2.centripetalSpeed or 0) * uv3
+		slot0._centripetalSpeed = (slot2.centripetalSpeed or 0) * uv2
 		slot0._inverseFlag = 1
-		slot0.updateSpeed = uv4
+		slot0.updateSpeed = uv1.doCircle
 	else
-		slot0.updateSpeed = uv5
+		slot0.updateSpeed = uv1.doNothing
 	end
 end
 
