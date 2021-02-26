@@ -45,7 +45,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "这里是………………控制装置所在的大厅？",
+			say = "ここは…メンタルキューブを嵌めた台座がある入り口…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			bgName = "bg_cccpv2_11",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼…………呼……zZZZ",
+			say = "………………zZZZ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "……嗯…………zZZZ",
+			say = "………………zZZZ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "北方联合的众人分散躺倒在大厅之中，没有受伤的痕迹也没有痛苦的气息，众人只是在静静地沉睡着。",
+			say = "同行する北方連合の艦船たちが自分の周りで眠りについているようだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "大家都平安无事啊…………",
+			say = "艤装に大きな損傷も見当たらない。微かに聞こえる寝息も仲間たちの生還を示してくれている。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "我记得，进入“大门”之后………………",
+			say = "たしか、数時間前に艦船たちとここから「光の都市」に入って――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "对了，“大门”…………",
+			say = "「扉」のあった氷山の方向を眺めると、光の都市に通じる道はもはや存在せず、まるで鏡のようだった平たい表面はヒビだらけになっている。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "与记忆之中不同，大厅尽头那堵原本平整光滑的冰壁现在变得裂纹丛生，仿佛随时都要崩塌一般。",
+			say = "謎の施設での探索、管理端末、セイレーン相手の「再現」……目覚めたばかりのためか、記憶が少し曖昧だ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "感觉记忆有些模糊……刚刚进入“大门”之后的见到的璀璨都市，作战指挥室中的探索，最后经历的战斗难道都是————",
+			say = "――「最後の光がかき消されるまで、頑張って戦ってください」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "……………………看来不单纯是梦境这么简单呢。",
+			say = "あの戦いの最後、一体何が起こったか……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "与在“大门”之中的指挥舰上相同，在战斗失去意识前放在身边的一个小资料箱，如今正静置在身旁的地面上。",
+			say = "施設から回収できた資料が入ってる小箱が手元にある。そしてなにより、仲間たちが無事でいてくれている。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "打开资料箱，里面的资料也完好无损。",
+			say = "今はそれ以外のことを考えないでおこう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			blackBg = true,
-			say = "位于最上方的文件是………………「曙光计划」。",
+			say = "小箱を開け「曙光」と書いてある書類を手に取り、平穏の「海」で仲間たちの目覚めを待つことにした――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

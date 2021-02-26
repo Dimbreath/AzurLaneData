@@ -14,7 +14,7 @@ return {
 			bgm = "blueocean-image",
 			actor = 900307,
 			nameColor = "#ffff4d",
-			say = "听说你最近的研究取得了突破性进展？",
+			say = "研究が進んでいるようだな。アンジュ博士",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			nameColor = "#ffff4d",
-			say = "没错没错！听我说，最近我好像终于在心智觉醒的研究方向迈出关键一步了……！",
+			say = "そうね。ようやく例の「覚醒」の手がかりを見つけたわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "居然还在说这个……心智觉醒只是你的一种理论假设，没有任何证据支持吧。",
+			say = "またその話か。繰り返し言っているが、君の言っている「感情」は我々人類のものであり、その模倣である人形たちには存在しない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "还是说你找到了心智觉醒现象实际存在的有力证据？",
+			say = "それとも、この「覚醒」という現象を実証出来たとでもいうのかな？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "这倒还没有……不过我觉得我可能就快要找到了…！",
+			say = "まだね。…でももうすぐよ。もう少し時間をくれたら…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "你在今年的三月份，六月份，以及去年的十二月份也都是这么说的，以大概每三个月一次的频率？",
+			say = "………君のその話はもう何度目だ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "咳……这次是真的可能找到了！",
+			say = "今度こそ本当よ！…げほげほ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			blackBg = true,
 			actor = 900308,
 			nameColor = "#ffff4d",
-			say = "你还记得之前我跟你说过的那个对于心智魔方有着独特适应性的人么————",
+			say = "ええ、メンタルキューブの適正がある人間…その存在を実証できれば――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

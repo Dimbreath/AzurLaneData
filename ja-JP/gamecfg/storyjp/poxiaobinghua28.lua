@@ -13,7 +13,7 @@ return {
 			bgmDelay = 2,
 			bgm = "bgm-cccp2",
 			nameColor = "#a9f548",
-			say = "北方联合“密室”·上方海域 ",
+			say = "「秘密領域」上方の海 ",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -46,7 +46,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼~重新回到海面的感觉真好。",
+			say = "戻ってきたー！新鮮な空気だー！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			actor = 701070,
 			nameColor = "#a9f548",
-			say = "感觉头还是晕乎乎……大家也都记不清了么？",
+			say = "うぅ…まだ頭がぼーっとしてるわね…皆もそんなとこ…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "不能说完全记不清，我记得在进入“大门”之后，我们发现了一座璀璨的都市，然后进入了某个设施进行探索，最后遇到了大量敌人陷入苦战。",
+			say = "同志指揮官と同じく、記憶に曖昧なところがあるぞ。「光の都市」で謎の施設に入って、そこから資料を回収し敵と交戦状態に入ったところまでは覚えているけど",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "虽然大致过程都清楚，但是过程之间的细节之处特别模糊，尤其是关于最后敌人的部分，我们当时究竟是在和什么东西战斗……？",
+			say = "最後に戦っていた敵はなんだったのか、そして私たちがどうやって入り口に戻ってきたのかは何一つ思い出せないな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不知道。带去的记录仪器什么都没有记录下来。仪器之中只有我们进入控制室，然后从控制室中苏醒的记录。整个“密室”海域在此期间也并未发现任何异常。",
+			say = "さっき確認したけど、「私たちがは光の都市に入ってから戻ってくるまで」の記録は何もなかったわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "没有任何关于进入“大门”之后璀璨都市、作战设施与敌人的记录，那些事就像完全没有存在过一样。",
+			say = "それだけじゃなく、艤装のほうもまるで戦闘自体が起きなかったかのように直ってるわね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "可是我们确实有资料成功回收出来了啊……？究竟是怎么回事……",
+			say = "しかし同志指揮官とグレミャーシュチはたしかに資料を回収した。…ふむ、これは興味深いな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "算啦~之后复杂的事就交给调查部门，大家现在都平安无事结束了任务不是很好嘛~",
+			say = "キーロフは頑張ってね～それじゃあ皆で港まで戻りましょ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "是啊，任务总算平安无事的结束了………………等一下，前面的那支舰队是什么！？",
+			say = "おいおい、キーロフだけをここに置いていくなよ。……待って、前方に艦影だ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
-			say = "航线前方，一支庞大的舰队露出了地平线从远方缓缓接近着。除了白鹰舰船之外，似乎也有皇家舰船混在其中。",
+			say = "水平線から現れた艤装をまとった少女たち――ロイヤルとユニオンの混成艦隊がこちらに向かってやってきた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "联合演习么……？我没有收到过类似消息啊……",
+			say = "アズールレーンの共同演習？そんな予定聞いてないけど",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "根本没有什么联合演习。外围哨站在做什么？！这么庞大的舰队驶入极地我们居然没有得到任何预警？！",
+			say = "予定を切り上げるとかやるな女王陛下、完璧なタイミングじゃないか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "能完全绕过卡拉金司令部的监视，这支舰队明显是采用了某些非常规的潜入方式。",
+			say = "ここまで早いとは事前に知らせてきたルートじゃないと見た",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "白鹰有这样的技术和能力么……？",
+			say = "よっぽど急いでいたようね。気持ちは理解できるけど",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "至少从目前的实际情况看来……它们有。",
+			say = "タリン？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "我们的行动刚一结束白鹰舰队就围上来了，情报泄露？",
+			say = "指揮官のことだもの。いつまでも北方連合に「勾留」されたままにするわけにはいかないわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "“密室”的确切位置一直是我们的最高机密，就算是白鹰加上皇家也不可能了解得太清楚。",
+			say = "「秘密領域」の場所がバレたとは思えない。となると同志指揮官がいそうな場所を調べ上げてきたな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "不过……我们的行动时间和航线就另说了啊……",
+			say = "そしてこの決断の速さ…相当本気だな、ユニオンとロイヤルの子たち",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "专门冲着我们过来…这么来她们的目标果然是…………",
+			say = "鉄血や重桜も絡んでいるとすれば、たとえ我らが北方連合であれ流石に本気の四大陣営を前に指揮官の居場所を隠し通せないよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,8 +364,8 @@ return {
 			bgmDelay = 1,
 			bgName = "bg_cccpv2_12",
 			bgm = "bgm-cccp3",
-			actorName = "萨拉托加",
-			say = "北方联合的各位，很荣幸能在此处与你们相遇，还有指挥官，好久不见~",
+			actorName = "サラトガ",
+			say = "北方連合の皆さん！そして指揮官！久しぶりだよ！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -393,12 +393,12 @@ return {
 			}
 		},
 		{
-			actorName = "苏维埃贝拉罗斯",
+			actorName = "ソビエツカヤ・ベラルーシア",
 			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "白鹰和皇家的舰队来极地做什么，我们并没有申请作战支援吧？",
+			say = "ロイヤルとユニオンの方々こそ遠路はるばるお疲れさん。私の知ってる限り、我々北方連合は現在救援要請を出してはいないはずだが？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,12 +409,12 @@ return {
 			}
 		},
 		{
-			actorName = "萨拉托加",
+			actorName = "サラトガ",
 			side = 1,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听说附近发生了有趣的事所以我们就来了~这片区域严格来说并不是北方联合的领海，我们拥有通航自由哦。",
+			say = "んー指揮官と早く会いたいからちょっと予定を早めたんだ～それにここは北方連合所属の海域ではないでしょ？サラトガちゃんたちが通っちゃダメ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,12 +425,12 @@ return {
 			}
 		},
 		{
-			actorName = "苏维埃贝拉罗斯",
+			actorName = "ソビエツカヤ・ベラルーシア",
 			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那你们自便吧，之前来袭的敌人已经被我们全部清理干净，你们可以尽情欣赏一下风景。我们还要返回北方联合就不陪奉陪了。",
+			say = "そんなことはない！私たちも同志指揮官を港まで送り届けているところだ。そちらも一緒に来てくれるか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,12 +441,12 @@ return {
 			}
 		},
 		{
-			actorName = "萨拉托加",
+			actorName = "サラトガ",
 			side = 1,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题，祝你们一路顺风！不过~既然指挥官在北方联合的驻扎期限已满，就顺便同我们一起返回白鹰吧。",
+			say = "港に行ってもいいけど、まずは指揮官をサラトガちゃんたちの量産艦に移してくれない？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,12 +457,12 @@ return {
 			}
 		},
 		{
-			actorName = "华盛顿",
+			actorName = "ワシントン",
 			side = 1,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官就在后面那艘造型奇怪的军舰上么？如果军舰不能让我们借走的话也没问题，我们准备了指挥舰可以让指挥官换乘过来。",
+			say = "普通の量産艦ではなくそんな妙な潜水艦に乗っているなんて、どう見ても怪しさ満点じゃねぇか。指揮官の乗艦ならこちらが用意するよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,12 +473,12 @@ return {
 			}
 		},
 		{
-			actorName = "基洛夫",
+			actorName = "キーロフ",
 			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等，我有问题。",
+			say = "まあ、そう慌てるな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,12 +489,12 @@ return {
 			}
 		},
 		{
-			actorName = "基洛夫",
+			actorName = "キーロフ",
 			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官是碧蓝航线所属的指挥官吧，为什么长期以来都驻扎在白鹰那里，这件事本身不是很奇怪么？",
+			say = "同志指揮官が滞在してたのは確かにソユーズの要請があったからだけど、同志指揮官自身の意志もある",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,12 +505,12 @@ return {
 			}
 		},
 		{
-			actorName = "基洛夫",
+			actorName = "キーロフ",
 			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算是驻扎期已满，也应该等待指挥部的命令，不能白鹰随口一句话就完成指挥官的调动流程啊。",
+			say = "本人の意志を無視して一方的に「拉致」するのはあまり紳士的とは言えないぞ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,12 +521,12 @@ return {
 			}
 		},
 		{
-			actorName = "大黄蜂",
+			actorName = "ホーネット",
 			side = 1,
 			bgName = "bg_cccpv2_12",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果按照流程来说的话……指挥官早就已经在皇家了哦！只不过因为之前发生了紧急战况，这个调动过程被暂时延期了而已。",
+			say = "滞在を長引かせたのはそもそも北方連合でしょうに…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,12 +542,12 @@ return {
 			}
 		},
 		{
-			actorName = "基洛夫",
+			actorName = "キーロフ",
 			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那指挥官接下来也应该前往皇家才对不是么？总之我们先返回北方联合的港口，然后等待皇家迎接舰队到来。",
+			say = "ロイヤルもそれでいいのか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,12 +558,12 @@ return {
 			}
 		},
 		{
-			actorName = "谢菲尔德",
+			actorName = "シェフィールド",
 			side = 1,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "关于这一点，请北方联合的诸位不用担心。皇家已经同意了本次指挥官直接前往白鹰的调动行动。",
+			say = "それについてはご心配なく。すでに女王陛下から御主人様について「下僕はしばらくユニオンに行くといいわよ」との指示を仰せつかってますので",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,12 +574,12 @@ return {
 			}
 		},
 		{
-			actorName = "苏维埃贝拉罗斯",
+			actorName = "ソビエツカヤ・ベラルーシア",
 			side = 2,
 			bgName = "bg_cccpv2_12",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "什么……那个皇家女王居然……？！",
+			say = "じゃああとは指揮官の意志、か。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_12",
 			dir = 1,
-			say = "（这种时候应该————————）",
+			say = "（どう答えればいいか……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,11 +610,11 @@ return {
 			},
 			options = {
 				{
-					content = "表示前往白鹰",
+					content = "ユニオンに行く",
 					flag = 1
 				},
 				{
-					content = "表示留在北方联合",
+					content = "北方連合に留まる",
 					flag = 2
 				}
 			}
@@ -623,7 +623,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_12",
 			dir = 1,
-			say = "（不对……现在的状况下好像说出哪个方案都不太合适……）",
+			say = "（…と言いたいところだが、お互い素直に引くとは思えないな）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "打扰了，这还真是个意外的惊喜啊，萨拉托加。",
+			say = "この場は預からせていただきます",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "哦！苏维埃同盟，你已经知道这件事了么。",
+			say = "ソユーズ！？今は会合に行ってるはずでは…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -675,7 +675,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "我也是不久前知道的，正好在大会上作为紧急议题讨论了一下。",
+			say = "会合で指揮官への支援要請の件を話しました",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -693,7 +693,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "你们讨论的结果是？",
+			say = "陛下たちが？むむ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "经过大会评估，北方联合同意指挥官离开北方联合前往白鹰的调动行动。",
+			say = "……北方連合を含む主要陣営は、指揮官のユニオンへの支援を要請します",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "什么……？！大会怎么会做出这种决定！",
+			say = "つまり同志指揮官にユニオンに行ってほしいってことか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -755,7 +755,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "贝拉罗斯，情况比较复杂，等你们回来之后我们再细说。",
+			say = "ベラルーシア、情報はあとで詳しく説明します",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,7 +772,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "指挥官同志，千里相随终有一别，我们不会忘记您这段时间中为北方联合做出的贡献，期待未来再次与您并肩而战的一天。",
+			say = "指揮官、長らく北方連合へとご助力いただき感謝いたします。また一緒に戦えるのを楽しみにしています",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -790,7 +790,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "没办法了么……回去的路上注意安全，指挥官。",
+			say = "しょうがないわね。怪我しないように気をつけなさい",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -806,7 +806,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算是非作战事务，哪怕是以旅游的名义前来，北方联合也始终欢迎你的到来哦！",
+			say = "作戦だけでなく、旅行でも歓迎するさ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -821,7 +821,7 @@ return {
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
-			say = "非常感谢，我也不会忘记这段与诸位一同并肩作战的时光的。",
+			say = "ーー共に戦えてよかった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -836,7 +836,7 @@ return {
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
-			say = "在北方联合驻扎期间经历了热情的招待与严酷的战斗，而现在终于到离开的时间了。",
+			say = "北方連合の仲間たちと別れるのは名残り惜しいのだが、今はユニオンへの支援が優先だ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -853,7 +853,7 @@ return {
 			blackBg = true,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "指挥官，走吧，让我们一起回家吧~！",
+			say = "指揮官、みんなと一緒に港へと帰りましょう！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

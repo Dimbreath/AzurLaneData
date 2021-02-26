@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			bgm = "airRaidAlarm",
 			stopbgm = true,
-			say = "空气中充斥着警报声……鼻腔中浓郁的硝烟味，迎面而来灼热的气浪……………………有种令人熟悉的感觉。",
+			say = "鳴り響く耳障りな警報音。硝煙の匂い。熱を帯びた濁った空気。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
-			say = "…………这里是化为战场的长岛防线？",
+			say = "………NYシティのすぐそばまでやってきたのか。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
-			say = "我为什么会在这里……之前我是在做什么……不行脑中十分混乱，完全记不清楚了。",
+			say = "なぜ自分がここにいるのか、そもそも自分が何をしているのかが分からない。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			nameColor = "#ffff4d",
-			say = "喂！！！你怎么还留在这里！",
+			say = "なぜまだここにいるの？！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			actorName = "？？",
-			say = "不是说好跟着她们一起前往萨摩斯么，怎么你一个人留在这里了！",
+			say = "彼女たちとサモスに行くんじゃなかったの？ひとりで残ってるなんて――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			},
 			options = {
 				{
-					content = "我——————",
+					content = "自分は――――",
 					flag = 1
 				}
 			}
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
-			say = "远方的声音有些熟悉，却又如此的陌生，喊话的人究竟是……？",
+			say = "懐かしき「博士」の声がする。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			actorName = "？？",
-			say = "既然进攻以惨败告终，这里的沦陷也是迟早的事。",
+			say = "反撃が失敗に終わったの。ここが落ちるのも時間の問題よ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			actorName = "？？",
-			say = "就是提前想到了这种可能才决定让你跟着她们去萨摩斯执行任务的嘛……",
+			say = "…わがまま言わないの。だからあんたをサモスに行かせるんじゃない…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			actorName = "？？",
-			say = "现在虽然一时顶住了攻势，不过也快要到极限了。接下来它们肯定会再次大举压上，然后这里就会被彻底毁灭，就和计划中的时间一样。",
+			say = "…今のはただの一時しのぎね。でももう限界。ヤツらはすぐまた攻撃してくる。そうなったら一巻の終わり。計画通りだけど",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			actorName = "？？",
-			say = "当时制定计划的时候你也在场吧，投的是支持票还是反对票来着……哎，最近事情太多实在是记不清了。",
+			say = "計画のことはあんたも知ってるじゃない。確か賛成…いや反対？でしたっけ…うぅ、最近ちょっと忙しすぎて物忘れが激しいわ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			actorName = "？？",
-			say = "算了……不管怎么样，现在就算你再说要留在这里陪我，我也不需要哦。",
+			say = "とにかく、ここにいるって言われても困るわ。あんたはあっちにいるべきよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			actorName = "？？",
-			say = "比起我这边，还是那边更需要你…………让我看看还有没有延缓出发的撤离舰队，真是的，总是这么任性。",
+			say = "私なんかよりはあっちのほうが……もう、最終便が残っているか確認するわね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 					0
 				},
 				{
-					"<size=60>「快走，这里也要沦陷了」</size>",
+					"<size=60>「早く行け、ここはもう無理だ」</size>",
 					0
 				}
 			}
@@ -257,7 +257,7 @@ return {
 					0
 				},
 				{
-					"<size=60>「约定...看来就要到此为止了」</size>",
+					"<size=60>「ゲホゲホ…お前との約束も…ここまでのようだな……」</size>",
 					0
 				}
 			}
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			actorName = "？？",
-			say = "喂！你一个人在那里发呆什么呢，快过来，战斗还没结束，留在外面太危险了。",
+			say = "もう、せっかく船まで案内したのに、ほらさっさと乗って！戦闘に巻き込まれちゃうでしょう！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			},
 			options = {
 				{
-					content = "她们肯定会回来救你的。",
+					content = "彼女たちはきっと助けに戻ってくる",
 					flag = 1
 				}
 			}
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			actorName = "？？",
-			say = "哎？不会吧，既然是按照计划在走，那边再怎么说也会拖住她们……",
+			say = "そう？計画通りならあの子たちは敵と戦ってそのまま別の合流地点に行くんだよね…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
-			say = "不，她们肯定会回来，然后目睹到对她们来说最为悲伤的画面。",
+			say = "彼女たちが戻れば、あなたは……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			actorName = "？？",
-			say = "这样可就麻烦了啊，本来就是想瞒着她们才偷偷进行这个安排的……",
+			say = "嫌よ。もともと彼女たちに見せたくないからそうしたのに",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			bgName = "bg_xiangting_2",
 			dir = 1,
 			blackBg = true,
-			say = "所以————",
+			say = "だから―――――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			},
 			options = {
 				{
-					content = "她们肯定会回来救你的。",
+					content = "一緒に逃げよう",
 					flag = 1
 				}
 			}

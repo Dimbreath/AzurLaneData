@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgm = "deepblue-image",
 			nameColor = "#a9f548",
-			say = "进入走廊尽头的大门之后，视野突然变得开阔起来。",
+			say = "どうやらさっきの指揮室より広い広間に入ったようだ。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
-			say = "映入眼帘的是一个与之在空间上极为相似的大厅，一排又一排的座椅向前延伸着。",
+			say = "高さ数十メートルもあるホールに百個以上の席が左右に並べられており、そしてホールの最奥には議長席が設置されている。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
-			say = "在大厅的尽头原本应该是“大门”的位置，现在则是一面由数十个，或许是数百个大小显示窗口拼接而成的巨大显示墙。",
+			say = "演説台の後には巨大なモニターがいくつかあり、いずれも真っ黒のままである。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奇怪的仪器和“大门”都没出现，这里更像是一个普通的会议大厅。",
+			say = "指揮室と資料室の次にはホールかしら",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里就是设施的尽头啊……看来确实找错地方了。虽然大小和之前差不多，不过布局完全不一样。",
+			say = "ここが施設の中心か。さっきの指揮室の照明は点いたのに、ここは特に何も反応がないな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "与之前灯火通明不同，这里只保留了最基础的照明灯光，其他所有设备都没启动……真是一处压抑的地方。",
+			say = "殆どの人員を撤収させたから、ホールの照明も必要なくなったんじゃない？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过在完全启动之后这里肯定超级气派……苏维埃同盟现在就是在这么气派的会议厅里进行着演讲吧。",
+			say = "ソユーズが今、こんな素敵なホールで会合に参加しているのですよね～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "呜……我也好想去实际看一看……",
+			say = "私もいつか参加してみたいです～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "现在战争这么激烈，我们这样的一线军事人员如果要去参加这样的大会，最大可能是在授勋的时候吧。",
+			say = "いずれ機会があるさ。なんならソユーズが戻ったらすぐにでも祝宴を開いてやってもいいぞ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "说的也是……啊，这么说雷鸣肯定去过吧？！",
+			say = "いいですね！グレミャーシュチもそう思いませんか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			actor = 701070,
 			nameColor = "#a9f548",
-			say = "嗯……算是去过一次。",
+			say = "いいと思うよ。うん、そんなとこ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然场面很宏大，但是也让人很紧张。但是突然成为了万众瞩目的焦点，一言一行都要格外注意。",
+			say = "でもこういう場所で演説したら結構緊張するよね…皆に見られるからって意味で",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			actor = 701070,
 			nameColor = "#a9f548",
-			say = "比起我来，那边的指挥官才是拥有丰富经验的人吧。",
+			say = "そこは指揮官が一番わかってるはず。うん",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "哎……是这样么？！",
+			say = "そうですよね～でもみんな仲間ですし、気にしなくていいんじゃないですか…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
-			say = "算是……作为指挥官，有些时候确实不得不前往一些这样的场所。",
+			say = "確かにここにいる北方連合の仲間たちよりは自分の方がこういう環境に立つ機会は多い気がする。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "指挥官在这种时候应该都是坐在第一排的？",
+			say = "苦労しそうね。…指揮官としては当然だけど",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
-			say = "差不多……有些时候还需要到主席台上进行讲话。",
+			say = "素っ気ない言葉を投げられながらも、タリンから優しい（？）視線を向けられた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "聊着聊着就会忘记指挥官其实也是属于那些大人物中的一员啊，虽然平易近人的感觉还不错就是了。",
+			say = "共感はできないけど、指揮官がもしステージに立つことがあれば、注目と拍手だけはしてやるわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
-			say = "其实就算上台也只是说一些战略战术上的事……与其说是讲话，不如说是报告更加贴切。",
+			say = "実際、ほかの陣営との折衝などの仕事ではピリピリする状況もあるから、時々こういう味方が欲しくなるな…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "那也很厉害了哦~不过在媒体上却从来没见听说过指挥官参加大型会议的消息呢……",
+			say = "私も指揮官がステージに立っているのを観察してみたいですね～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为这些会议大多数是高度保密的军事会议，而且军事指挥官长时间站在聚光灯前也没有好处吧。",
+			say = "……タリンが言ってるのはそういう意味ではない。多分",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
-			say = "确实是这样。如果被卷到什么复杂的事情里就不好了。",
+			say = "これ以上変な話題に巻き込まれないよう、ホールの席を調査してみる。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "唔……这么一看苏维埃同盟确实是太辛苦了，舰队里只有她需要去定期参加这样的大型会议……",
+			say = "指揮官はあんなに頑張っていますのに、あまり知られていないのですね～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "啊，这里就是最前方的主席台了，指挥官同志平时就是在这里进行报告的么？",
+			say = "一応軍人さんですから難しいのはわかりますけど、もっとこう北方連合みたいに……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
-			say = "没错，在指挥部总部也有一个类似大小的会议厅。在中间的主席台也是这种感觉的设计，我记得有一个按钮在这里可以开启……",
+			say = "ムルマンスクの言葉を聞き流し、後ろの列から見渡していく。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
-			say = "啊，找到了。不知道这里的还能不能用，只要摁下这个下去……",
+			say = "確か以前出席した本部の会議のときに、ここと同じような席を見た気がする。確かこのボタンを押せば――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			stopbgm = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……………………",
+			say = "（今ボタンを押した音が…？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "……嗯？",
+			say = "…………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

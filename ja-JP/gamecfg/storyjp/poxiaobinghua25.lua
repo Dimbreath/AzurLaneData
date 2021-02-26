@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#a9f548",
-			say = "轰——————！",
+			say = "――――！",
 			flashN = {
 				color = {
 					1,
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 701080,
-			say = "这些敌人好难缠啊！",
+			say = "この敵、強いよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702060,
-			say = "到底是些什么东西，感觉身上始终带着一层迷雾一样……",
+			say = "なんというか、妙にモヤが掛かっているような…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 703010,
-			say = "反正绝对不是塞壬，而是某种……无法解释的存在。",
+			say = "セイレーンに見えて、セイレーンではない何かを感じさせるような何か…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 705040,
-			say = "虽说都是些尚未得到解释的存在，不过和这些尚未解释的存在进行战斗的时候还是有些难受啊，基洛夫你怎么看？",
+			say = "ならば同じだ！セイレーンもこいつらも私たちはよく分かってないじゃないか！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，很有研究价值的敌人，在战斗之后尝试带一些核心部件回去研究吧。",
+			say = "こっちも同感だ！まとめて片付けて隅々まで調べさせてもらうぞ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是基洛夫，很有气魄的发言……",
+			say = "そういうところがキーロフらしいな！ははは！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702040,
-			say = "在我们的事业完成之前，我基洛夫可不会轻易倒下哦！",
+			say = "我々の革命（レヴォリューツィア）が終わるまで、私は倒れるわけにはいかないのだ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702040,
-			say = "既然我们的攻击能够造成伤害，那么不管对面是什么东西都没什么可怕的。",
+			say = "攻撃が効かない相手でもなければ当たらない相手でもない！ならば倒すまで！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702040,
-			say = "我们只要开火，开火，开火。用持续不断的火力粉碎一切胆敢阻碍我们前进的敌人！",
+			say = "皆、撃ち続けろ！同志指揮官とグレミャーシュチが脱出するまで戦線を守るぞ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官同志和雷鸣也过来了！",
+			say = "指揮官、グレミャーシュチ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 705040,
-			say = "很好，看来资料已经整理完毕运上指挥舰了。本次收获颇丰，不知道之后能解析出什么有趣的情报呢~",
+			say = "いいところで情報の回収が終わったな！帰るのが楽しみだ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 705040,
-			say = "接下来就是得想个办法离开这个地方……",
+			say = "ムルマンスク、タリン！後退するぞ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702060,
-			say = "你们有没有觉得现在的情况和刚才在会议室里看到的态势图有点相似？",
+			say = "はい！そろそろ帰りませんと怒られちゃいますね…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702060,
-			say = "不知道那次战斗最后的结果是什么，要是再看仔细一些就好了……",
+			say = "指揮官、こっち！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

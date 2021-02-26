@@ -13,7 +13,7 @@ return {
 			bgm = "bgm-cccp3",
 			actor = 701070,
 			nameColor = "#a9f548",
-			say = "指挥官，快一些，回收完资料后我们也要撤退了。",
+			say = "指揮官、こっちに！資料は全部回収したから早く撤退して！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			},
 			options = {
 				{
-					content = "发生了什么事……？",
+					content = "何が起きた……？",
 					flag = 1
 				}
 			}
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			actor = 701070,
 			nameColor = "#a9f548",
-			say = "…………明明遭遇到如此紧急的情况，指挥官还真是泰然自若。",
+			say = "………指揮官が勇敢なのか馬鹿なのか分からなくなってきた",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "数分钟前，外部原本空无一人的海域中突然出现了大量来历不明型号不明的敌人。",
+			say = "コホン。ついさっき建物の外に急に防衛機構らしきヤツらが集まってきた",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			actor = 701070,
 			nameColor = "#a9f548",
-			say = "贝拉罗斯她们已经带领舰队前往了外部迎击，而我们在一边整理回收到的资料，一边等待她们清理完第一批敌人后进行撤离。",
+			say = "ベラルーシアたちは迎撃に出て、指揮官とグレミャーシュチはここで発見した資料を回収しているとこ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			actor = 701070,
 			nameColor = "#a9f548",
-			say = "你真的不记得了……？",
+			say = "………覚えてる？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 705040,
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
-			say = "在没有找到返回路线的时候遭遇到大量敌人袭击，情况非常不妙啊……",
+			say = "脱出路が見つかっていない状態でまた包囲されるとは！これは間違いなくピンチだな！",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "我们现在所处的设施位于一条轨道下方，之前的控制室也位于一条轨道下方。",
+			say = "どうする？ここにずっと留まっていてはやられるだけよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "既然此处设施是全新出现的，而控制室又不在这里，那么另一条轨道下方的冰山大概率就是控制装置的所在地了吧，而撤离的“大门”也应该就在那里。",
+			say = "それともここに入ってきたところとは反対側の方向へ進んでみるか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示赞同",
+					content = "資料を回収したら逃げよう",
 					flag = 1
 				}
 			}
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "那大家向立刻向另一侧进行撤离吧……！",
+			say = "早く脱出したほうがいいのでは…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不着急。现在敌情不明，指挥官同志还是先呆在这里比较安全。",
+			say = "早まるな。逃げるにしても逃げ道を作っておかないと",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "等我们先出去清理掉第一波敌人，打出一段安全距离后指挥官同志再随雷鸣一起撤离。",
+			say = "こんな狭い空間で乱戦になったら指揮官を守り切れる自信はない。せめて量産艦を呼び出せる安全区域を作り出すまでは敵の数を減らないと",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题。",
+			say = "うん。そんなとこね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "不管突然出现的那些是什么东西，都尽管放马过来吧，看我用北方的利刃粉碎将它们彻底粉碎！",
+			say = "私が出る！グレミャーシュチ、同志指揮官と資料を回収してから、こっちから脱出するぞ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			actor = 701070,
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
-			say = "你想起来了么？",
+			say = "思い出した？",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
-			say = "确实有这样的记忆，可是为什么刚才一下子没有想起来……",
+			say = "「ついさっきまで自分はホールで資料を集めていた」という記憶は確かにあった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			actor = 701070,
 			stopbgm = true,
-			say = "指挥官，贝拉罗斯已经发来了表示安全的信号，我们立刻————————",
+			say = "ベラルーシアの合図があったよ。指揮官、はやく――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			},
 			options = {
 				{
-					content = "雷鸣……？",
+					content = "……グレミャーシュチ？",
 					flag = 1
 				}
 			}
@@ -337,7 +337,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_cccpv2_7",
-			say = "突然，雷鸣毫无征兆的停止了手头的动作，一直大作的警报声也停止了，四周就像被摁住了暂停键的录像带画面一样。",
+			say = "資料を抱えながらホールから出ようとしたグレミャーシュチも、外から伝わってくる砲火の明かりも、まるで最初からそこになかったかのように消えた。",
 			dir = 1,
 			bgm = "bsm-2",
 			typewriter = {
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
-			say = "几乎与此同时整个大厅的电子设备重新开始了运转，透过屏幕可以清晰地看到外面正在与敌人激战的北方联合舰队。",
+			say = "それと同時に、ホールの奥にあるモニターが光り出し――そこに映し出されたのは、異型の敵と戦う北方連合の艦船たちの姿だった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
-			say = "敌人的型号完全没见过，即便是在如此清晰的屏幕之上其身形依然显得有些模糊，有一种强烈的不真实感……",
+			say = "少女たちを襲ってくる黒鉄の巨獣は、スクリーン越しではその姿がぼやけておりはっきりとは見えない。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
-			say = "而且北方联合舰队的成员也…………",
+			say = "当の北方連合の艦船たちの姿もよく見えないが、馴染みがない輪郭からベラルーシアとキーロフたちではないことだけが分かった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
-			say = "嗯？等等，眼前的画面好像不是海域中战况的实况转播，而是播放的某种影像资料……",
+			say = "ベラルーシアたちは大丈夫か……！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,18 +410,18 @@ return {
 			},
 			options = {
 				{
-					content = "联系贝拉罗斯",
+					content = "ベラルーシアに連絡する",
 					flag = 1
 				}
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "通信機",
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………………",
+			say = "…‥……………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
-			say = "通讯器中一片死寂，而联络键就像被锁死了一样根本无法摁下。当然就算真的摁下去了，也大概不会收到任何回应吧。",
+			say = "応答なし。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			blackBg = true,
-			say = "眼前发生的事看起来并不是单纯陷入幻觉这么简单……",
+			say = "この状況は、一体……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

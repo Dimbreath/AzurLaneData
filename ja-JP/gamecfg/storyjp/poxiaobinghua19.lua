@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "这里的感觉和之前完全不一样……",
+			say = "なんだか雰囲気ががらりと変わったね",
 			bgm = "deepblue-image",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 703010,
-			say = "虽然在海域中的位置相似，但是装饰、布局甚至内部空间结构本身都完全不同，我认为这里并不是之前的控制台所在地。",
+			say = "ここが「制御室」で間違いないわね…セイレーンの施設とも今まで見てきたどの施設とも全然作りが違うわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "此处也和远方的璀璨都市一样有一些我们的风格……感觉像是某处作战指挥室。",
+			say = "我々北方連合の軍事施設みたい、とでも言えるだろうか？正直私も同感だ。ただ、どちらかと言えばここは「制御室」というより「司令部」っぽいな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702040,
-			say = "确实有些这样的感觉，不过屋檐上悬挂的组织标识我完全没有印象哦。",
+			say = "ベラルーシア、このシンボルは見たことあるか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 705040,
-			say = "我也没有在任何地方见过……呵，这个地方真是越有趣了。",
+			say = "全く無いな。…つくづく面白い場所だな、ここは",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前面的房间那么多，我们要挨个探索么？",
+			say = "この先に部屋がいっぱいあるよ！中に入って探索してみる？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然看起来像作战指挥室，肯定存放着不少有用的情报，稍微探索一下也没关系吧~",
+			say = "誰もいなさそうですし、ちょっと邪魔しても怒られませんよね～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702060,
-			say = "而且我们现在也很闲……",
+			say = "それにここを探索しなければ帰る道がわかりませんし…うぅ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里既然被刻意隐藏在如此独特的镜面海域中，一定与塞壬有着千丝万缕联系。",
+			say = "私も探索するのに一票だ。ここまで厳重に守られた施設だ、機密情報が山ほどあってもおかしくないだろう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 705040,
-			say = "就算是为了尽快搞清现状找到回去的道路，对这里进行一下探索也是必要的。",
+			say = "例えば、もしかしたらこの鏡面海域の制御装置を発見できるかもしれないのだぞ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 705040,
-			say = "不过确实……房间太多了，逐次看过去会消耗大量时间。",
+			say = "………しかし、全部調べるのは骨が折れるな…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "重点寻找会议室或者档案室一类的地方怎么样？",
+			say = "広そうな場所から調べたほうが良さそうだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "赞同。如果是作战指挥室的话，会议室和档案室总是最有价值探索的地方。",
+			say = "司令部なら、会議室や資料室、それと作戦を発令する指揮室があるはずだな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊……如果是会议室的话，前面就有一个类似的地方哦！",
+			say = "…それっぽい部屋ならこの先にあるよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_cccpv2_8",
 			side = 2,
 			dir = 1,
-			say = "进入房间后，首先映入眼帘的是一个占据了大半面墙的巨大屏幕。",
+			say = "謎の施設の広間に足を踏み入れた。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -253,12 +253,12 @@ return {
 			}
 		},
 		{
-			actorName = "苏维埃贝拉罗斯",
+			actorName = "ソビエツカヤ・ベラルーシア",
 			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…………你们怎么看这个？",
+			say = "……………これは……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,12 +269,12 @@ return {
 			}
 		},
 		{
-			actorName = "塔林",
+			actorName = "タリン",
 			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是一幅记录了某场战役过程的战役态势图，好像是某场……岛屿防御战？",
+			say = "とある戦闘の配置図ね。この「島」を守る側が作成したものみたい",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,12 +285,12 @@ return {
 			}
 		},
 		{
-			actorName = "基洛夫",
+			actorName = "キーロフ",
 			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……中央的红星代表重要目标，围绕目标设定了防御线，表示要进行彻底的死守。",
+			say = "ああ。中の星マークの場所から何重も海上防衛線を張っている。どうやら死守するつもりだったらしい",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,12 +301,12 @@ return {
 			}
 		},
 		{
-			actorName = "苏维埃贝拉罗斯",
+			actorName = "ソビエツカヤ・ベラルーシア",
 			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在海上进行一味地防御战不是什么明智的选择。",
+			say = "小さな島に海上戦力で防衛戦を繰り広げる、あまりいい作戦とは思えないな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,12 +317,12 @@ return {
 			}
 		},
 		{
-			actorName = "基洛夫",
+			actorName = "キーロフ",
 			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊，龟缩在岛屿周边进行防御的舰队将会因为失去机动空间而陷入巨大的劣势。",
+			say = "同感だ。周りにも小さい島が何個かあるが、どこまで粘れるか楽観視できない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,12 +333,12 @@ return {
 			}
 		},
 		{
-			actorName = "基洛夫",
+			actorName = "キーロフ",
 			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "四周看上去倒还有些能够充当缓冲的小岛，不过就算这样，进行这样的布局也……",
+			say = "同数ならまだしも、この配置図のマークを見る限り、攻めてくる敵の数は少なく見積もっても数倍はいるから",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,12 +349,12 @@ return {
 			}
 		},
 		{
-			actorName = "摩尔曼斯克",
+			actorName = "ムルマンスク",
 			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "面对数倍于己、从四面八方包围上来的敌人，防御方选择了迎头而上。",
+			say = "「今回の作戦の要旨は島の施設の『絶対防衛」であり、敵の上陸を近海にて阻止するのが目的であり……」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,12 +365,12 @@ return {
 			}
 		},
 		{
-			actorName = "摩尔曼斯克",
+			actorName = "ムルマンスク",
 			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "目标是如此的重要，以至于就算在海面上布下漫长的防御线，也要拼死保护目标的完整与安全。",
+			say = "「たとえ何倍もの敵が襲ってこようと、決して一歩も引かず、降参することも撤退することもなく防衛線を死守する……」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,12 +381,12 @@ return {
 			}
 		},
 		{
-			actorName = "摩尔曼斯克",
+			actorName = "ムルマンスク",
 			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过当然，防御方也没有选择一味的死守，而是在抓住机会发起了主动进攻~",
+			say = "「艦隊の速力を生かして反撃を繰り出す。たとえ数の劣勢を覆すことができなくとも、時間を稼ぐことはできる……」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,12 +397,12 @@ return {
 			}
 		},
 		{
-			actorName = "摩尔曼斯克",
+			actorName = "ムルマンスク",
 			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "灵活的游击舰队穿插在敌方舰队的间隙中打乱着进攻方的部署。",
+			say = "「作戦の進行状況は思いのほか順調だ。一方的に圧殺されるだけだろうと思っていたが、敵の戦力の一部がほかの戦線に引き抜かれたのが幸運だった」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,12 +413,12 @@ return {
 			}
 		},
 		{
-			actorName = "摩尔曼斯克",
+			actorName = "ムルマンスク",
 			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而进攻方则似乎格外担心包围网被突破，反而选择谨慎的齐头并进战术。",
+			say = "「これで残った戦力で最後の一秒まで粘り続けられる」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,12 +429,12 @@ return {
 			}
 		},
 		{
-			actorName = "摩尔曼斯克",
+			actorName = "ムルマンスク",
 			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "双方完全不同的战术风格使得一场原本实力悬殊的歼灭战，在一时间竟变为了势均力敌的拉锯战。",
+			say = "「我々は全力を尽くした。諸君の健闘と犠牲に感謝する」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,12 +445,12 @@ return {
 			}
 		},
 		{
-			actorName = "摩尔曼斯克",
+			actorName = "ムルマンスク",
 			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大概就是这种感觉吧~~~",
+			say = "…………大変、ですね…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,12 +461,12 @@ return {
 			}
 		},
 		{
-			actorName = "基洛夫",
+			actorName = "キーロフ",
 			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感谢摩尔曼斯克同志声情并茂的解说。除了加入了不少主观臆断的细节之外，大体和这张态势图上所给出的信息相吻合。",
+			say = "推移を見れば概ねそんな感じだろうな。ムルマンスクが真面目に話すのがとてつもない違和感だったが",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,12 +477,12 @@ return {
 			}
 		},
 		{
-			actorName = "摩尔曼斯克",
+			actorName = "ムルマンスク",
 			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "主观臆断是多余的，这可是浪漫的发挥啊~",
+			say = "そうですか…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,12 +493,12 @@ return {
 			}
 		},
 		{
-			actorName = "摩尔曼斯克",
+			actorName = "ムルマンスク",
 			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？雷鸣，你不来看一下么？",
+			say = "……ん？グレミャーシュチ、どうしたの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,12 +509,12 @@ return {
 			}
 		},
 		{
-			actorName = "雷鸣",
+			actorName = "グレミャーシュチ",
 			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我就不必了。比起我来还是你们更擅长分析。",
+			say = "…………………ぐっ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,12 +525,12 @@ return {
 			}
 		},
 		{
-			actorName = "雷鸣",
+			actorName = "グレミャーシュチ",
 			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且从刚才开始我就有一种很不舒服的感觉，就像被谁紧盯着一样……你们有这种感觉么？",
+			say = "なんだか見られている気がしない？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,12 +541,12 @@ return {
 			}
 		},
 		{
-			actorName = "洪亮",
+			actorName = "グロームキィ",
 			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有哎……我什么都没感觉到。",
+			say = "ほえ！？わわわわたしは別にそんな気しないけど！…って言われたら本当に見られてる気がするじゃないっ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,12 +557,12 @@ return {
 			}
 		},
 		{
-			actorName = "摩尔曼斯克",
+			actorName = "ムルマンスク",
 			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也没有……别说的这么吓人啊雷鸣，我都感觉有些害怕了……",
+			say = "……私は別になにも感じませんよ…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_8",
 			dir = 1,
-			say = "其实在进入房间之后，我也有一种房间里还有其他人的奇怪感觉……",
+			say = "言われてみれば確かにこの部屋はちょっと「違和感」が――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,28 +587,12 @@ return {
 			}
 		},
 		{
-			actorName = "摩尔曼斯克",
-			side = 2,
-			bgName = "bg_cccpv2_8",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "哎？！指挥官同志居然也有这种感觉么？！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "摩尔曼斯克",
+			actorName = "ムルマンスク",
 			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜…现在回想起来，这座设施里明明空无一人各处的仪器却都在正常运转，就像在不久之前还在使用一样……",
+			say = "あ、なるほど～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,12 +603,12 @@ return {
 			}
 		},
 		{
-			actorName = "摩尔曼斯克",
+			actorName = "ムルマンスク",
 			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "会不会这里其实是幽灵屋之类的地方…………",
+			say = "誰もいないというのに、なぜか機械は普通に動いてて、まるで『人が急にいなくなったー』みたいな感じですね～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,12 +619,12 @@ return {
 			}
 		},
 		{
-			actorName = "基洛夫",
+			actorName = "ムルマンスク",
 			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，世界上可没有什么真的妖怪哦！包括塞壬在内，世间的一切未知都只是我们尚未理解的存在而已。",
+			say = "なんというか…お化け屋敷っぽい？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,12 +635,12 @@ return {
 			}
 		},
 		{
-			actorName = "基洛夫",
+			actorName = "キーロフ",
 			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，如果指挥官同志和雷鸣都产生了相似的异常感的话，恐怕不是单纯的错觉这么简单，这处设施里也许确实有一些不对劲的地方。",
+			say = "遊園地じゃあるまいし、そんなわけないだろ。おばけに出くわしても北方連合の革命戦士は怯まんぞ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,13 +651,29 @@ return {
 			}
 		},
 		{
-			actorName = "苏维埃贝拉罗斯",
+			actorName = "キーロフ",
+			side = 2,
+			bgName = "bg_cccpv2_8",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "しかし、グレミャーシュチだけでなく同志指揮官まで同感なら、やっぱり何かがあると思ったほうが良さそうだ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "ソビエツカヤ・ベラルーシア",
 			side = 2,
 			bgName = "bg_cccpv2_8",
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "现在返回的道路还没有调查清楚，大家把这幅图记录下来之后继续向前探索吧。",
+			say = "皆、集団行動だ。こういうときに分散していると一人ずつ危ない目に遭うのがお決まりだぞ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

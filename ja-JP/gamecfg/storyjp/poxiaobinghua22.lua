@@ -15,7 +15,7 @@ return {
 			bgm = "deepblue-image",
 			actor = 900307,
 			nameColor = "#ffff4d",
-			say = "嗯？外部干扰又出现了，这里应该是地下指挥中心，四周都进行过特殊处理的才对。",
+			say = "……またジャミングか。どうした、この地下指揮本部のジャミング対策は完璧じゃなかったのか？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			bgName = "bg_cccpv2_7",
 			actor = 900307,
 			nameColor = "#ffff4d",
-			say = "零，立刻检查一下上方及周边海域情况，是否有敌人接近？",
+			say = "「零」、センサーの出力を上げろ。周りに敵は接近しているか？",
 			flashout = {
 				dur = 0.25,
 				black = true,
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			actor = 900307,
 			nameColor = "#ffff4d",
-			say = "没有发现任何异常么……好的，我知道了。",
+			say = "異常なしか。…わかった。いい子だ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "看起来只是装置误启动了——",
+			say = "どうやら装置に誤作動があったようだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			},
 			options = {
 				{
-					content = "摁下摁钮",
+					content = "復旧ボタンを押す",
 					flag = 1
 				}
 			}
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			actor = 900307,
 			nameColor = "#ffff4d",
-			say = "啊，恢复正常了。原来如此……只是一处设备发生了故障么。",
+			say = "治ったか。ふぅ…ただの故障だったようだな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			actor = 900307,
 			nameColor = "#ffff4d",
-			say = "不过真的只是偶发性的故障还是……系统昨天才检查过，硬件软件也都运行良好，不可能无缘无故出现故障才对……",
+			say = "全く、昨日点検したばかりだというのに、いきなりトラブルになるとかありえないだろ…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			},
 			options = {
 				{
-					content = "现在好像还在会议中……？",
+					content = "周りがざわついている",
 					flag = 1
 				}
 			}
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			actor = 900307,
 			nameColor = "#ffff4d",
-			say = "说的也是，回头再仔细检查一下好了。最近电子设备出现不明情况的干扰极多，也许与太阳在这个活跃周期活动的格外剧烈有关。",
+			say = "ふぅ…そうだな、故障の件はあとにしよう。太陽活動が活発になっていることとも関係があるかもしれん",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_cccpv2_7",
 			actor = 900307,
 			nameColor = "#ffff4d",
-			say = "抱歉，让大家紧张了。经过排查，刚刚的事件只是一次普通的机械故障而已。",
+			say = "すまない、ただの誤作動だったようだ。只今トラブルの解消を確認した",
 			flashout = {
 				dur = 0.15,
 				black = true,
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			actor = 900307,
 			nameColor = "#ffff4d",
-			say = "请放心，此处会场已经被完好的隐藏起来了，周边海域也均由安蒂克丝的主力舰队进行驻守，安全性上绝对不会有任何问题。",
+			say = "このホールはジャミング・盗聴・ABCの対策は完全であり、周辺海域にもアンチエックス部隊が配置されている",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			actor = 900307,
 			nameColor = "#ffff4d",
-			say = "接下来要向大家介绍一位在心智魔方领域有着独特研究成果的人，其最近的研究成果也许能为META化现象提供一个全新的方案。",
+			say = "では会議を続けよう。ここにいるのはメンタルキューブとの感応現象が観測され、同時にメンタルキューブ関連研究の第一人者",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			blackBg = true,
 			actor = 900307,
 			nameColor = "#ffff4d",
-			say = "也许不少人已经认识了，这位专业人士就是站在我身边的——————-",
+			say = "「META化」現象への解決法を提示してくれる「■――――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
