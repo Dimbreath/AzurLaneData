@@ -13,7 +13,7 @@ return {
 			bgm = "bgm-cccp3",
 			actor = 701070,
 			nameColor = "#a9f548",
-			say = "指挥官，快一些，回收完资料后我们也要撤退了。",
+			say = "Hurry, Commander! We've gotten all the info we can, so it's time to get out of here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			},
 			options = {
 				{
-					content = "发生了什么事……？",
+					content = "\"Why? Did something happen...?\"",
 					flag = 1
 				}
 			}
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			actor = 701070,
 			nameColor = "#a9f548",
-			say = "…………明明遭遇到如此紧急的情况，指挥官还真是泰然自若。",
+			say = "Are you serious? You're either the bravest person alive, or the dumbest, and I can't tell which.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "数分钟前，外部原本空无一人的海域中突然出现了大量来历不明型号不明的敌人。",
+			say = "Whatever you did, this place's entire security entourage is here. I've never seen so many undocumented types of enemies before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			actor = 701070,
 			nameColor = "#a9f548",
-			say = "贝拉罗斯她们已经带领舰队前往了外部迎击，而我们在一边整理回收到的资料，一边等待她们清理完第一批敌人后进行撤离。",
+			say = "Belorussiya took the others out to intercept them, but we need to hurry up and grab as many documents as we can before getting out of here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			actor = 701070,
 			nameColor = "#a9f548",
-			say = "你真的不记得了……？",
+			say = "...Did you forget?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 705040,
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
-			say = "在没有找到返回路线的时候遭遇到大量敌人袭击，情况非常不妙啊……",
+			say = "We're surrounded, and we still haven't found the way out! We're in deep, deep trouble here!",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "我们现在所处的设施位于一条轨道下方，之前的控制室也位于一条轨道下方。",
+			say = "What should we do, then? We'll be annihilated for sure if we remain here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "既然此处设施是全新出现的，而控制室又不在这里，那么另一条轨道下方的冰山大概率就是控制装置的所在地了吧，而撤离的“大门”也应该就在那里。",
+			say = "If we head in the opposite direction of the Gate, we might just find the exit. It's better than awaiting our doom, at least...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示赞同",
+					content = "\"Kirov's right. We need to evacuate.\"",
 					flag = 1
 				}
 			}
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "那大家向立刻向另一侧进行撤离吧……！",
+			say = "Then what are we waiting for? Fire up those leg-engines!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不着急。现在敌情不明，指挥官同志还是先呆在这里比较安全。",
+			say = "Not so fast. If we flee now, we'll be putting the commander's life at risk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "等我们先出去清理掉第一波敌人，打出一段安全距离后指挥官同志再随雷鸣一起撤离。",
+			say = "I can cover for myself, but I cannot guarantee the commander's safety if a firefight breaks out in these cramped corridors. We must reduce the enemy's numbers until it's safe enough to leave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题。",
+			say = "Mm, I guess that's a plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "不管突然出现的那些是什么东西，都尽管放马过来吧，看我用北方的利刃粉碎将它们彻底粉碎！",
+			say = "Gremyashchy, you and Comrade Commander will stay here and gather up everything we've found! The rest of you, follow me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			actor = 701070,
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
-			say = "你想起来了么？",
+			say = "Now do you remember?",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
-			say = "确实有这样的记忆，可是为什么刚才一下子没有想起来……",
+			say = "I do, but... why did I forget in the first place? Why did I only remember just now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			actor = 701070,
 			stopbgm = true,
-			say = "指挥官，贝拉罗斯已经发来了表示安全的信号，我们立刻————————",
+			say = "Never mind that, Belorussiya just gave us the signal. Come on, we have to–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			},
 			options = {
 				{
-					content = "雷鸣……？",
+					content = "\"Gremyashchy...?\"",
 					flag = 1
 				}
 			}
@@ -337,7 +337,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_cccpv2_7",
-			say = "突然，雷鸣毫无征兆的停止了手头的动作，一直大作的警报声也停止了，四周就像被摁住了暂停键的录像带画面一样。",
+			say = "All of a sudden, Gremyashchy vanished without a trace, as did the flashes of the firefight happening outside. They were simply gone, like they had never existed in the first place.",
 			dir = 1,
 			bgm = "bsm-2",
 			typewriter = {
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
-			say = "几乎与此同时整个大厅的电子设备重新开始了运转，透过屏幕可以清晰地看到外面正在与敌人激战的北方联合舰队。",
+			say = "Simultaneously, the auditorium's monitors sprung to life, showing me what appeared to be footage of Northern Parliament girls doing battle with strange enemies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
-			say = "敌人的型号完全没见过，即便是在如此清晰的屏幕之上其身形依然显得有些模糊，有一种强烈的不真实感……",
+			say = "They were enormous beasts made of black steel, but even through the high-resolution screens, their shapes were blurred as if light itself was repulsed by their grotesque forms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
-			say = "而且北方联合舰队的成员也…………",
+			say = "The Northern Parliament girls were similarly blurry. All I could tell from looking at their contours was that they were not Kirov or Belorussiya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
-			say = "嗯？等等，眼前的画面好像不是海域中战况的实况转播，而是播放的某种影像资料……",
+			say = "Whatever the screens were showing me, it did not seem to be live footage of the battle outside. In any case, I had to contact Belorussiya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,18 +410,18 @@ return {
 			},
 			options = {
 				{
-					content = "联系贝拉罗斯",
+					content = "\"Belorussiya! What's happening out there?!\"",
 					flag = 1
 				}
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Recorded Voice",
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
-			say = "通讯器中一片死寂，而联络键就像被锁死了一样根本无法摁下。当然就算真的摁下去了，也大概不会收到任何回应吧。",
+			say = "That was when I realized that the button on the communicator was stuck, and no amount of pushing on it did anything. I could not contact her, and even if I could, it seemed extremely unlikely that I'd get a response.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			blackBg = true,
-			say = "眼前发生的事看起来并不是单纯陷入幻觉这么简单……",
+			say = "It seemed almost as though... time had stopped.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

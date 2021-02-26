@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			bgm = "airRaidAlarm",
 			stopbgm = true,
-			say = "空气中充斥着警报声……鼻腔中浓郁的硝烟味，迎面而来灼热的气浪……………………有种令人熟悉的感觉。",
+			say = "Loud alarms blaring through the air... the burning stench of gunpowder choking my lungs... waves of scorching heat flaying my skin... I’ve experienced this before.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
-			say = "…………这里是化为战场的长岛防线？",
+			say = "This must be... the defensive line... at NY Harbor...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
-			say = "我为什么会在这里……之前我是在做什么……不行脑中十分混乱，完全记不清楚了。",
+			say = "Why am I here...? What was I doing...? Why can’t I remember anything?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			nameColor = "#ffff4d",
-			say = "喂！！！你怎么还留在这里！",
+			say = "Hey! Why are you still here?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			actorName = "？？",
-			say = "不是说好跟着她们一起前往萨摩斯么，怎么你一个人留在这里了！",
+			say = "Didn’t we agree that you’d be heading to Samos with the others? Why are you here all by yourself?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			},
 			options = {
 				{
-					content = "我——————",
+					content = "I don’t know...",
 					flag = 1
 				}
 			}
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
-			say = "远方的声音有些熟悉，却又如此的陌生，喊话的人究竟是……？",
+			say = "The voice in the distance, calling to me... It feels so familiar, but also so alien... Who could it be...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			actorName = "？？",
-			say = "既然进攻以惨败告终，这里的沦陷也是迟早的事。",
+			say = "We were crushed terribly in our last-ditch counterattack, so this place will fall soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			actorName = "？？",
-			say = "就是提前想到了这种可能才决定让你跟着她们去萨摩斯执行任务的嘛……",
+			say = "You were supposed to go to Samos because we had anticipated this possibility...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			actorName = "？？",
-			say = "现在虽然一时顶住了攻势，不过也快要到极限了。接下来它们肯定会再次大举压上，然后这里就会被彻底毁灭，就和计划中的时间一样。",
+			say = "Our defenses are still holding for now, but that cannot last much longer. They will come again with even greater numbers and raze this place to the ground, just as was planned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			actorName = "？？",
-			say = "当时制定计划的时候你也在场吧，投的是支持票还是反对票来着……哎，最近事情太多实在是记不清了。",
+			say = "You were there when the plan was drafted, weren’t you? Did you vote for it, or against it? ...So much has happened, I can’t even remember the details anymore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			actorName = "？？",
-			say = "算了……不管怎么样，现在就算你再说要留在这里陪我，我也不需要哦。",
+			say = "Forget it... In any case, even if you wanted to stay with me, I can’t accept that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			actorName = "？？",
-			say = "比起我这边，还是那边更需要你…………让我看看还有没有延缓出发的撤离舰队，真是的，总是这么任性。",
+			say = "I’m not important, and you’re still needed elsewhere... Let’s see if any evacuation fleets have yet to leave. Good grief, so stubborn even at a time like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 					0
 				},
 				{
-					"<size=60>「快走，这里也要沦陷了」</size>",
+					"<size=60>“Hurry. This place will fall as well.”</size>",
 					0
 				}
 			}
@@ -257,7 +257,7 @@ return {
 					0
 				},
 				{
-					"<size=60>「约定...看来就要到此为止了」</size>",
+					"<size=60>“Unfortunately... I won’t be able to keep our promise.”</size>",
 					0
 				}
 			}
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
-			say = "……………………？！",
+			say = "What...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			actorName = "？？",
-			say = "喂！你一个人在那里发呆什么呢，快过来，战斗还没结束，留在外面太危险了。",
+			say = "Hey! What are you doing, staring off into space by yourself over there? The battle isn’t over yet, so you can’t be wandering around outside!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
-			say = "…………………………………………",
+			say = "...............",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			},
 			options = {
 				{
-					content = "她们肯定会回来救你的。",
+					content = "The others will come back and save you.",
 					flag = 1
 				}
 			}
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			actorName = "？？",
-			say = "哎？不会吧，既然是按照计划在走，那边再怎么说也会拖住她们……",
+			say = "Hm? Surely not. If they’re following the plan, there’s no way they’d be able to leave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
-			say = "不，她们肯定会回来，然后目睹到对她们来说最为悲伤的画面。",
+			say = "They’ll come back... I’m sure of it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			actor = 900308,
 			actorName = "？？",
-			say = "这样可就麻烦了啊，本来就是想瞒着她们才偷偷进行这个安排的……",
+			say = "Well, that complicates things. I wanted to make this deal without them finding out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			bgName = "bg_xiangting_2",
 			dir = 1,
 			blackBg = true,
-			say = "所以————",
+			say = "So...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			},
 			options = {
 				{
-					content = "她们肯定会回来救你的。",
+					content = "Let’s run away, together.",
 					flag = 1
 				}
 			}

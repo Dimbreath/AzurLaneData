@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#a9f548",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 701080,
-			say = "这些敌人好难缠啊！",
+			say = "Oof! These enemies don't mess around!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702060,
-			say = "到底是些什么东西，感觉身上始终带着一层迷雾一样……",
+			say = "Yeah, not to mention they're covered in some sort of... weird mist...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 703010,
-			say = "反正绝对不是塞壬，而是某种……无法解释的存在。",
+			say = "They look like Sirens, but there's something very different about these things!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 705040,
-			say = "虽说都是些尚未得到解释的存在，不过和这些尚未解释的存在进行战斗的时候还是有些难受啊，基洛夫你怎么看？",
+			say = "If they look like Sirens and come attacking us, then as far as I'm concerned, they might as well be Sirens! ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，很有研究价值的敌人，在战斗之后尝试带一些核心部件回去研究吧。",
+			say = "Well said! Either way, there's but one thing for us to do: dispatch them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是基洛夫，很有气魄的发言……",
+			say = "That's the Kirov I know! Hahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702040,
-			say = "在我们的事业完成之前，我基洛夫可不会轻易倒下哦！",
+			say = "Right you are! I cannot and will not rest until the revolution has come!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702040,
-			say = "既然我们的攻击能够造成伤害，那么不管对面是什么东西都没什么可怕的。",
+			say = "They are neither immune to our cannon fire, nor too fast to hit! We need only keep firing on them until they sink!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702040,
-			say = "我们只要开火，开火，开火。用持续不断的火力粉碎一切胆敢阻碍我们前进的敌人！",
+			say = "Blow them to dust, comrades! Hold the frontline until Comrade Commander and Gremyashchy have evacuated!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官同志和雷鸣也过来了！",
+			say = "Commander! Gremyashchy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 705040,
-			say = "很好，看来资料已经整理完毕运上指挥舰了。本次收获颇丰，不知道之后能解析出什么有趣的情报呢~",
+			say = "You finished at just the right time! I'm dying to return to the surface!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 705040,
-			say = "接下来就是得想个办法离开这个地方……",
+			say = "Murmansk! Tallinn! It's time to fall back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702060,
-			say = "你们有没有觉得现在的情况和刚才在会议室里看到的态势图有点相似？",
+			say = "Will do! I was just starting to worry we'd never make it back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702060,
-			say = "不知道那次战斗最后的结果是什么，要是再看仔细一些就好了……",
+			say = "Commander, this way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

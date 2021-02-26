@@ -8,7 +8,7 @@ return {
 		{
 			nameColor = "#a9f548",
 			side = 2,
-			say = "众人在复杂的走廊中穿行着。虽然设施内房间众多，不过总体来说排列有序，越走向深处房间的密度就越小。",
+			say = "The fleet moved in a single group through the complex corridors. There was much ground to cover, but not infeasibly so, now that we got through some of the biggest rooms.",
 			dir = 1,
 			bgm = "deepblue-image",
 			typewriter = {
@@ -26,7 +26,7 @@ return {
 			dir = 1,
 			actor = 701080,
 			nameColor = "#a9f548",
-			say = "指挥官，我这里又找到了一份文件哦！",
+			say = "Comrade, I’ve found something amazing here as well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			},
 			options = {
 				{
-					content = "辛苦了",
+					content = "\"Good find.\"",
 					flag = 1
 				}
 			}
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，那我再去那边的房间里找一下~！",
+			say = "Ehehe... Let’s go explore in that room and see if there’s any more treasure~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼呼，简直就像寻宝探险一样，我也去别处再找找咯~",
+			say = "Hehe~ Sounds like fun. Let’s all go on a treasure hunt~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "唔，刚刚这份文件是「关于计划……」后面的部分看不清了……因为印刷失误而产生的废件么。",
+			say = "I didn't find much in the way of treasure. All I recovered was this stack of misprinted documents.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "关于计划的内容？还是关于计划的细则……我看一下。",
+			say = "Let me have a look. Hmm... \"Summary on Bluepoint Ships\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 705040,
-			say = "哦……这个写的好像是关于计划舰啊，最后写的是舰么……印的太浅了实在有些看不清。",
+			say = "Actually, it must be \"Blueprint Ships.\" It's barely legible, but that looks more plausible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "计划舰…………有印象的词。",
+			say = "\"Blueprint Ships\" rings a bell...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,53 +164,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "记得是在之前的鸢尾圣堂作战后指挥部对意外出现的加斯科涅定下来的称呼。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			nameColor = "#a9f548",
-			side = 2,
-			dir = 1,
-			actor = 702040,
-			say = "没错，不过据说皇家在更早的时候就开始使用计划舰这一称呼了哦。在不久之前的文件中对于腓特烈大帝也采用了计划舰的称呼。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			dir = 1,
-			say = "腓特烈大帝么……确实是一位资料极其匮乏的谜团一般的人物。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 5,
-			nameColor = "#a9f548",
-			side = 2,
-			dir = 1,
-			actor = 702040,
-			say = "在围剿俾斯麦的战役结束后就立刻出现稳定了铁血局势，并将其最高权力牢牢掌控在手中的迷之铁血领导者，而皇家使用计划舰作为对其的定性。",
+			say = "I think that was the term the Naval HQ came up with after we first saw a ship called Gascogne at the Battle of the Basilica.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +180,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702040,
-			say = "这样的话……指挥官同志，你就没有觉得有些奇怪么？究竟什么样的存在才能被定义为计划舰？",
+			say = "That's right, but I remember coming across this term some earlier reports from the Iron Blood and Royal Navy. Bismarck's aide, Friedrich der Grosse, seems to have taken this classification for herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,12 +191,10 @@ return {
 			}
 		},
 		{
-			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 702040,
-			say = "最初一批出现的舰船，在诞生之初世界上通常存在有一艘与之同名的军舰。",
+			say = "Friedrich, huh? We have practically no information on her other than what you just said...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +210,23 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702040,
-			say = "不过随着心智魔方应用的发展，早在数十年前开始各阵营就变为了以舰船与其对应型号的量产型军舰进行战斗的模式，已经很久不曾有单独命名的军舰下水了。",
+			say = "Immediately after our campaign to suppress Bismarck, a mysterious new leader took command from the shadows and stabilized the situation in the Iron Blood. It is believed that the Royal Navy also started pursuing this technology as a countermeasure.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
+			actor = 702040,
+			say = "I've been thinking about this, Comrade. What kind of existence is a blueprint ship supposed to be?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +242,39 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702040,
-			say = "实践早已证明，只要进行了舰船设计，就算不需要制造出对应的军舰实体，舰船还是可以通过心智魔方诞生。",
+			say = "We have always thought that a ship's foundational hull is inseparable from its history. In essence, this history is supposed to be a sum of humanity's perceptions and notions about the ship.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 5,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
+			actor = 702040,
+			say = "A hull is widely considered a prerequisite to a ship's construction, even for mass-produced ships. By extension, a history is a prerequisite.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
+			actor = 702040,
+			say = "All this is to say, a shipgirl's history is her proof of existence. Even if she was only dreamed up in blueprints.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 705040,
-			say = "嗯，就用我来举例吧。北方联合有了这样的计划，投入了资源与设计，然后我就这样利用心智魔方诞生了。",
+			say = "...That's an interesting point. Soyuz, Rossiya, and I all fall under this category. We were just never given forms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这对现在来说是一件很普通的一件事，可却从来没有人因此称呼我们为计划舰。",
+			say = "This is hardly a unique occurence and yet we've never been referred to as blueprint ships, whereas Freidrich has.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "关于计划舰的命名来源指挥部没有相关的资料记录……也许是在诞生过程中与常规舰船有所区别的原因？",
+			say = "Based on how rarely the term comes up, I think there are a small number of blueprint ships in existence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702040,
-			say = "就现在掌握的情报来说，我们的科研人员认为心智魔方其实是某种信息的载体。",
+			say = "Yes, and this raises another question: What makes one a blueprint ship? Is it not something determined by the Wisdom Cubes that constitute our foundational hull?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702040,
-			say = "舰船之所以能够从心智魔方中诞生，是因为在心智魔方中早就以某种方式记入了我们的数据。",
+			say = "Through whatever means, the Wisdom Cubes already contain the data that makes us who we are. To build a ship, you must extract this information.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702040,
-			say = "在心智魔方中有所记录的舰船，就可以通过心智魔方诞生。而在心智魔方中不存在记录的舰船，则无法通过心智魔方诞生。",
+			say = "But what if there is not enough information within the Wisdom Cubes to give form to a ship? What would happen if you \"edited\" another reality into the Wisdom Cubes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "……你们是指在心智魔方中存储有数据并利用心智魔方诞生的舰船叫做正常舰船，而心智魔方中没有记录，却通过某种方式诞生的舰船叫做计划舰。",
+			say = "It's a lot to take in. If I understanding this right, Wisdom Cubes contain the \"essence\" of a shipgirl, and building them is the process of giving this essence a physical form, right? In contrast, blueprint ships...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "而至于这些记录…………你们假设为是被某种存在精心设计并录入心智魔方中的结果？！",
+			say = "Are you saying that someone is capable of inserting their own \"history\" into Wisdom Cubes and manifesting them...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702040,
-			say = "没错！如果这个假设成立的话，究竟是谁规定的哪些信息可以被存储在心智魔方中，哪些信息不能呢？",
+			say = "Who knows? This is just a theory of mine, but if it is true, what restrictions are there on the kinds of history you are able to edit into a Wisdom Cube?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702040,
-			say = "所谓计划舰，究竟是谁的计划？",
+			say = "And finally, what is a blueprint if not a plan for the future? Whose plan is it, and what is it they were trying to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "…………………………………………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然目前为止上面这一切都还只是假说，不过我们急于探索密室就是认为这里可能存在某些我们需要知晓的关键信息。",
+			say = "It seems our search has grown in scope, Comrade. We started out looking for an exit, but now we're also searching for the truth behind the Sirens, and behind our very existences.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 705040,
-			say = "出现在塞壬镜面海域核心区域的心智魔方驱动装置，证明至少塞壬早在数十年前就在暗中进行心智魔方的研究了。",
+			say = "The Sirens may have a deeper connection to the Wisdom Cubes than we first realized, but let's not jump to conclusions until we've fully explored this place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 705040,
-			say = "而刚刚回收的这份文件，虽然只有一个残缺不全的封面，但是也能证明塞壬也早已知晓计划舰的存在。",
+			say = "These documents may not tell us all that much, but it's clear that the Sirens know much more than we do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 705040,
-			say = "这里真像是一个尘封多年，埋藏有无数珍贵情报的信息宝库啊……",
+			say = "I'm certain that what we've learned so far is only the tip of the iceberg...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

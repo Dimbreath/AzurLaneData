@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#a9f548",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "啧……第二主炮受损，舰队受损情况如何？！",
+			say = "Damn... My second turret's been disabled! How's the rest of the fleet?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "雷鸣数座副炮受损，总体状况还过得去。我也问题不大，只是弹药消耗有些厉害。",
+			say = "Gremyashchy and Gromky are still resting... And we're about to run out of ammo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "洪亮受损严重，已经撤离至二线，摩尔曼斯克与我主炮、雷达、动力系统均有不同程度受损，不过还能继续战斗。",
+			say = "Murmansk and I have suffered varying degrees of damage, but we're still able to fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_cccpv2_10",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "量产型一边，除了指挥官的指挥舰外，其余的潜航舰也损失殆尽了。",
+			say = "We've lost nearly all of our mass-produced ships except for the icebreaker, but... we didn't have that many to begin with, and they don't have the same maneuverability as we do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "因为目标是一直长期处于我们控制之下的水下“密室”，我们这次的量产型舰队本来也不是为了如此硬仗准备的啊……",
+			say = "We'll have to make do without. I didn't expect to make it this far in, so I didn't bring as many mass-produced ships as I could have.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "这么下去可不妙。别说前往并守卫撤离点了，再维持战线四个小时都很困难。",
+			say = "We can't keep this up forever. How are we supposed to maintain our defenses while also holding the evacuation point?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "真没想到会出现这种情况，明明已经连每一个冰块都探查过了……居然会隐藏着这种规模的敌人………………",
+			say = "Damn, I can't believe the Sirens got the best of us... I thought it was impossible for there to be enemies like these still hidden after all the surveying we did!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "这次行动是北方联合的失误，我们愿意为此承担全部责任。但是指挥官同志绝对不能因此牺牲在这里。",
+			say = "This is a terrible failure on our part, but we shall assume full responsibility. Even should we all fall, Comrade Commander must not be lost here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "基洛夫、雷鸣，你们护送指挥官同志一同前往另一处轨道下的控制室。其余各舰，包括我在内均成为指挥舰的盾牌，不惜代价也要将指挥官护送出去。",
+			say = "Kirov, Tallinn, Gremyashchy, take the Commander aboard the icebreaker and make for the exit. Everyone else, we make our stand here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "只能采用这样的战术了么……即便是这样也不能保证成功哦？",
+			say = "Sorry, Belorussiya, but I don't intend to sink without seeing what's on the other side of that iceberg!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "我们已经也没有更好选择了……我也赞同这个计划，指挥官同志，执行吧。",
+			say = "We might have a better shot if we all stick together and press forward. What's your opinion, Comrade?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			},
 			options = {
 				{
-					content = "不同意",
+					content = "\"I disagree with both of those options.\"",
 					flag = 1
 				}
 			}
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "呵，抱歉了指挥官同志，就算你拒绝我们也要这么做。指挥官同志不是可以牺牲在这里的人。",
+			say = "...I know you don't like making sacrifices, but the world cannot afford to lose you here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,39 +274,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_10",
 			dir = 1,
-			say = "在另一处轨道下方，也许什么都没有……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_cccpv2_10",
-			dir = 1,
-			actor = 705040,
-			nameColor = "#a9f548",
-			say = "什么？！怎么会这样…………您从刚才回收的资料中看到了这里的结构么？！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_cccpv2_10",
-			dir = 1,
-			say = "算是吧。",
+			say = "If this is actually a \"Reenactment,\" then there is no escape route anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +291,39 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "可恶，现在已经没有重新分析和寻找镜面海域控制装置的时间和能力了…………",
+			say = "Reenactment? How were you able to come to that conclusion, Comrade?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_cccpv2_10",
+			dir = 1,
+			say = "Reality is a harsh mistress. I've already tried lining up the map to the information we recorded before, and I'm not seeing an exit.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_cccpv2_10",
+			dir = 1,
+			actor = 705040,
+			nameColor = "#a9f548",
+			say = "I see... As much as I don't believe in giving up, I don't think I have the strength anymore to search for the control device for this Mirror Sea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "非常抱歉，指挥官同志。",
+			say = "I'm sorry, Comrade. This might be it for us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,11 +361,11 @@ return {
 			},
 			options = {
 				{
-					content = "从踏上战场的那一刻起，对于这样的结局就已经有所准备了。",
+					content = "\"I've accepted this possibility from the moment we arrived here.\"",
 					flag = 1
 				},
 				{
-					content = "<size=24>也许还有别的撤离方法，大家不要放弃！</size>",
+					content = "<size=24>\"There must be another way.\"</size>",
 					flag = 2
 				}
 			}
@@ -375,7 +375,7 @@ return {
 			bgName = "bg_cccpv2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从这里撤离的路线在哪里？",
+			say = "Is there any way to leave this facility then?",
 			effects = {
 				{
 					active = true,
@@ -398,8 +398,8 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			actor = 900136,
-			actorName = "记录机构",
-			say = "此处没有撤退的路线。",
+			actorName = "Recorded Voice",
+			say = "<There is none.>",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
-			say = "………………",
+			say = "There... isn't...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,8 +431,8 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			actor = 900136,
-			actorName = "记录机构",
-			say = "战斗，直到光芒消散为止。",
+			actorName = "Recorded Voice",
+			say = "<Please fight until the last light has faded.>",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			bgName = "bg_cccpv2_10",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………大家仔细看中间的建筑群，是不是光芒比刚才减弱了一些？",
+			say = "The lights of the city are gradually dimming, one by one!",
 			effects = {
 				{
 					active = false,
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			actor = 701080,
 			nameColor = "#a9f548",
-			say = "好像是有一点……难道说我们要一直战斗到光芒彻底熄灭为止么……？",
+			say = "You're right! So, we're supposed to hold until all the lights go out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_10",
 			dir = 1,
-			say = "恐怕是这样。",
+			say = "Judging by how things are going, that might take a few more hours at this rate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "按照现在消失的速度，不知道还要战斗多久啊……",
+			say = "Will everything disappear once the lights go out? I don't think we can hold on that long...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			bgName = "bg_cccpv2_10",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系，至少现在又有了一丝希望的曙光。只要有希望，我们就能义无反顾的战斗下去！",
+			say = "Don't give up so soon! We may be cornered, but we must grasp onto this lifeline and hold on to it no matter what!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "如果不考虑撤离只是单纯拖延时间的话，可选的战术就变多了，也许真的能坚持下去也说不定……",
+			say = "Instead of trying to retreat, we'll focus on buying as much time as possible. Commander, please continue to lead us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			bgName = "bg_cccpv2_10",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请紧跟在我的身边指挥官，我会拼死保护你的安全的。嗯，就这样。",
+			say = "I'll protect you, even if all I have left is my flail. Mm, that's all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_10",
 			dir = 1,
-			say = "……………………",
+			say = "Everyone...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			},
 			options = {
 				{
-					content = "很荣幸能在这种时候与你们并肩战斗。",
+					content = "\"It's been an honor to fight alongside all of you.\"",
 					flag = 1
 				}
 			}
@@ -589,7 +589,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "我们也是，指挥官同志。",
+			say = "The feeling is mutual, Comrade.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "各舰注意，直到光芒消散前为止，尽情战斗吧！",
+			say = "Now, fight with everything you have until this false light is extinguished! Go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

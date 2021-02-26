@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgm = "deepblue-image",
 			nameColor = "#a9f548",
-			say = "进入走廊尽头的大门之后，视野突然变得开阔起来。",
+			say = "We stepped into another room, this one even bigger than the command room we found earlier.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
-			say = "映入眼帘的是一个与之在空间上极为相似的大厅，一排又一排的座椅向前延伸着。",
+			say = "Hundreds of seats lined both sides of what appears to be an auditorium, its roof well over 20 or even 30 meters above the floor. At the far opposite end of the room, there was a podium.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
-			say = "在大厅的尽头原本应该是“大门”的位置，现在则是一面由数十个，或许是数百个大小显示窗口拼接而成的巨大显示墙。",
+			say = "A few enormous monitors hanged on the wall behind it. These ones were turned off, projecting not a thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奇怪的仪器和“大门”都没出现，这里更像是一个普通的会议大厅。",
+			say = "First a control room, then a conference room, and now an auditorium. Not too surprising, I suppose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里就是设施的尽头啊……看来确实找错地方了。虽然大小和之前差不多，不过布局完全不一样。",
+			say = "This must be the heart of the facility. Unlike the control room though, the screens in here are all turned off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "与之前灯火通明不同，这里只保留了最基础的照明灯光，其他所有设备都没启动……真是一处压抑的地方。",
+			say = "It's not hard to imagine they simply switched off the power here after they'd evacuated everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过在完全启动之后这里肯定超级气派……苏维埃同盟现在就是在这么气派的会议厅里进行着演讲吧。",
+			say = "Just looking at it makes me think... Soyuz is probably having her meeting in a room much like this one right now~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "呜……我也好想去实际看一看……",
+			say = "I really hope we'll get to see her soon~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "现在战争这么激烈，我们这样的一线军事人员如果要去参加这样的大会，最大可能是在授勋的时候吧。",
+			say = "That can be arranged. We could throw a party as soon as she gets back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "说的也是……啊，这么说雷鸣肯定去过吧？！",
+			say = "Ooh, a party! Wouldn't that be nice, Gremyashchy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			actor = 701070,
 			nameColor = "#a9f548",
-			say = "嗯……算是去过一次。",
+			say = "It'd be cool. Mm, that's all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然场面很宏大，但是也让人很紧张。但是突然成为了万众瞩目的焦点，一言一行都要格外注意。",
+			say = "But I'm not good with situations where I need to pay extra attention to what I say and do. Especially not in front of a crowd of people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			actor = 701070,
 			nameColor = "#a9f548",
-			say = "比起我来，那边的指挥官才是拥有丰富经验的人吧。",
+			say = "The commander especially should know how that feels.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "哎……是这样么？！",
+			say = "I see how that could be off-putting, but we're all friends, aren't we? You shouldn't have to feel nervous in front of your friends.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
-			say = "算是……作为指挥官，有些时候确实不得不前往一些这样的场所。",
+			say = "\"When you're in my position, you sometimes don't have a choice. I at least know how you feel.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "指挥官在这种时候应该都是坐在第一排的？",
+			say = "Oh, you poor thing. It is part of your job though, so don't expect to garner too much sympathy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
-			say = "差不多……有些时候还需要到主席台上进行讲话。",
+			say = "Tallinn threw me a cold remark, but interestingly, followed it up with a friendly smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "聊着聊着就会忘记指挥官其实也是属于那些大人物中的一员啊，虽然平易近人的感觉还不错就是了。",
+			say = "It's easy to forget how influential you actually are from the way you talk, but I appreciate how easygoing and approachable you are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
-			say = "其实就算上台也只是说一些战略战术上的事……与其说是讲话，不如说是报告更加贴切。",
+			say = "\"Since my job also includes even more stressful things like negotiating with faction leaders, it helps to make a good impression on others...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "那也很厉害了哦~不过在媒体上却从来没见听说过指挥官参加大型会议的消息呢……",
+			say = "Now you've got me interested~ I don't think I've ever seen you giving a public speech though~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为这些会议大多数是高度保密的军事会议，而且军事指挥官长时间站在聚光灯前也没有好处吧。",
+			say = "That would be because commanders generally spend more time attending confidential naval meetings than they do talking to the public.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
-			say = "确实是这样。如果被卷到什么复杂的事情里就不好了。",
+			say = "\"True, but I think we've gone completely off-topic at this point. Let's get back on track and have a look around the auditorium.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "唔……这么一看苏维埃同盟确实是太辛苦了，舰队里只有她需要去定期参加这样的大型会议……",
+			say = "We're just chatting! What's wrong with that? As I was gonna say... Don't you ever wish you got more recognition for all your hard work?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "啊，这里就是最前方的主席台了，指挥官同志平时就是在这里进行报告的么？",
+			say = "I mean, I can only imagine how tough your job is. You must work day and night to make sure everything goes smoothly, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
-			say = "没错，在指挥部总部也有一个类似大小的会议厅。在中间的主席台也是这种感觉的设计，我记得有一个按钮在这里可以开启……",
+			say = "Rather than acknowledge Murmansk with a response, I instead pulled back an empty chair at a desk and examined its spine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
-			say = "啊，找到了。不知道这里的还能不能用，只要摁下这个下去……",
+			say = "It looked a lot like the chairs we sat in during a meeting at Naval HQ quite some time ago. They had buttons on the back that would power on the screens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			stopbgm = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……………………",
+			say = "Interestingly, this chair also has something like that. I wonder if it works the same way...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "……嗯？",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

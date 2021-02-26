@@ -13,7 +13,7 @@ return {
 			bgmDelay = 2,
 			bgm = "bgm-cccp2",
 			nameColor = "#a9f548",
-			say = "北方联合“密室”·上方海域 ",
+			say = "Northern Parliament “Arcana Sanctum” - Offshore",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -46,7 +46,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼~重新回到海面的感觉真好。",
+			say = "We're finally back! Oh, how I've missed you, fresh air~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			actor = 701070,
 			nameColor = "#a9f548",
-			say = "感觉头还是晕乎乎……大家也都记不清了么？",
+			say = "Ugh... My head is still throbbing like crazy... Is everyone alright...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "不能说完全记不清，我记得在进入“大门”之后，我们发现了一座璀璨的都市，然后进入了某个设施进行探索，最后遇到了大量敌人陷入苦战。",
+			say = "My memory also feels incomplete... I remember entering a mysterious facility in the City of Light and recovering some data, and then we ended up in a desperate battle against the enemy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "虽然大致过程都清楚，但是过程之间的细节之处特别模糊，尤其是关于最后敌人的部分，我们当时究竟是在和什么东西战斗……？",
+			say = "What happened at the end though? What exactly were we fighting, and how did we get back to the entrance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不知道。带去的记录仪器什么都没有记录下来。仪器之中只有我们进入控制室，然后从控制室中离开的记录。整个“密室”海域在此期间也并未发现任何异常。",
+			say = "I don't know... The recording equipment I brought in is completely blank. It's been running the entire time, but there's nothing but noise from the time we entered the city of light...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "没有任何关于进入“大门”之后璀璨都市、作战设施与敌人的记录，那些事就像完全没有存在过一样。",
+			say = "Our riggings have also been fixed, as if a battle had never taken place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "可是我们确实有资料成功回收出来了啊……？究竟是怎么回事……",
+			say = "But, the Commander and Gremyashchy managed to retrieve some data, right? What exactly is going on...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "算啦~之后复杂的事就交给调查部门，大家现在都平安无事结束了任务不是很好嘛~",
+			say = "Let's not worry too much about the complicated stuff~ We have experts for that after all! Now, let's just be thankful we're all safe and head back to port~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "是啊，任务总算平安无事的结束了………………等一下，前面的那支舰队是什么！？",
+			say = "Hey, don't just leave Kirov behind... Wait, what are those ships coming towards us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
-			say = "航线前方，一支庞大的舰队露出了地平线从远方缓缓接近着。除了白鹰舰船之外，似乎也有皇家舰船混在其中。",
+			say = "A large fleet began to appear over the horizon. Lifted above them were the banners of the Eagle Union and Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "联合演习么……？我没有收到过类似消息啊……",
+			say = "Did the Azur Lane schedule a joint exercise in our waters? I don't remember hearing anything about that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "根本没有什么联合演习。外围哨站在做什么？！这么庞大的舰队驶入极地我们居然没有得到任何预警？！",
+			say = "There definitely isn't anything of the sort. What have our outposts been doing, letting such a large fleet sail through without notifying us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "能完全绕过卡拉金司令部的监视，这支舰队明显是采用了某些非常规的潜入方式。",
+			say = "I was told they'd be coming, but I didn't expect them to be here so soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "白鹰有这样的技术和能力么……？",
+			say = "I see, I see. Well, I can understand why they'd be in such a hurry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "至少从目前的实际情况看来……它们有。",
+			say = "What do you mean, Tallinn?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "我们的行动刚一结束白鹰舰队就围上来了，情报泄露？",
+			say = "I'm talking about their beloved Commander, of course. It's been a while, hasn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "“密室”的确切位置一直是我们的最高机密，就算是白鹰加上皇家也不可能了解得太清楚。",
+			say = "That makes sense. I was afraid that our greatest secret had been compromised.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "不过……我们的行动时间和航线就另说了啊……",
+			say = "However... I must say I'm impressed by how quickly and decisively they put together this operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "专门冲着我们过来…这么来她们的目标果然是…………",
+			say = "I'm sure they suspect something. If the Iron Blood and Sakura Empire also got involved, we wouldn't be able to keep any secrets for long.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,8 +364,8 @@ return {
 			bgmDelay = 1,
 			bgName = "bg_cccpv2_12",
 			bgm = "bgm-cccp3",
-			actorName = "萨拉托加",
-			say = "北方联合的各位，很荣幸能在此处与你们相遇，还有指挥官，好久不见~",
+			actorName = "Saratoga",
+			say = "Hello, my lovely friends of the Northern Parliament! Commander, I've missed you sooooo much~!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -393,12 +393,12 @@ return {
 			}
 		},
 		{
-			actorName = "苏维埃贝拉罗斯",
+			actorName = "Sovetskaya Belorussiya",
 			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "白鹰和皇家的舰队来极地做什么，我们并没有申请作战支援吧？",
+			say = "To what do we owe the pleasure, comrades? I do not recall the Northern Parliament requesting aid from the Azur Lane.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,12 +409,12 @@ return {
 			}
 		},
 		{
-			actorName = "萨拉托加",
+			actorName = "Saratoga",
 			side = 1,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听说附近发生了有趣的事所以我们就来了~这片区域严格来说并不是北方联合的领海，我们拥有通航自由哦。",
+			say = "Hmm... I wanted to see my Commander so badly, I just couldn't wait~☆ And besides, these are technically neutral waters, right? Nothing wrong with Sister Sara here passing through, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,12 +425,12 @@ return {
 			}
 		},
 		{
-			actorName = "苏维埃贝拉罗斯",
+			actorName = "Sovetskaya Belorussiya",
 			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那你们自便吧，之前来袭的敌人已经被我们全部清理干净，你们可以尽情欣赏一下风景。我们还要返回北方联合就不陪奉陪了。",
+			say = "Ahaha, of course not, comrade! We were simply doing a bit of sightseeing before bringing the Commander back to port! Would you care to accompany us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,12 +441,12 @@ return {
 			}
 		},
 		{
-			actorName = "萨拉托加",
+			actorName = "Saratoga",
 			side = 1,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题，祝你们一路顺风！不过~既然指挥官在北方联合的驻扎期限已满，就顺便同我们一起返回白鹰吧。",
+			say = "We'd be glad to, but could I ask you to transfer Commander to one of our ships first?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,12 +457,12 @@ return {
 			}
 		},
 		{
-			actorName = "华盛顿",
+			actorName = "Washington",
 			side = 1,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官就在后面那艘造型奇怪的军舰上么？如果军舰不能让我们借走的话也没问题，我们准备了指挥舰可以让指挥官换乘过来。",
+			say = "Quite interesting to see you \"sightseeing\" on such a strange... ship. Is this the vessel that the Commander is on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,12 +473,12 @@ return {
 			}
 		},
 		{
-			actorName = "基洛夫",
+			actorName = "Kirov",
 			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等，我有问题。",
+			say = "Now now, let's not be in such a hurry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,12 +489,12 @@ return {
 			}
 		},
 		{
-			actorName = "基洛夫",
+			actorName = "Kirov",
 			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官是碧蓝航线所属的指挥官吧，为什么长期以来都驻扎在白鹰那里，这件事本身不是很奇怪么？",
+			say = "While Sovetsky Soyuz did request the presence of Comrade Commander, the decision to stay was ultimately not ours alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,12 +505,12 @@ return {
 			}
 		},
 		{
-			actorName = "基洛夫",
+			actorName = "Kirov",
 			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算是驻扎期已满，也应该等待指挥部的命令，不能白鹰随口一句话就完成指挥官的调动流程啊。",
+			say = "Where would the \"freedom\" be in not hearing out your Commander's own desires first?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,12 +521,12 @@ return {
 			}
 		},
 		{
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			side = 1,
 			bgName = "bg_cccpv2_12",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果按照流程来说的话……指挥官早就已经在皇家了哦！只不过因为之前发生了紧急战况，这个调动过程被暂时延期了而已。",
+			say = "No doubt the Northern Parliament found a reason to keep the Commander around longer...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,12 +542,12 @@ return {
 			}
 		},
 		{
-			actorName = "基洛夫",
+			actorName = "Kirov",
 			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那指挥官接下来也应该前往皇家才对不是么？总之我们先返回北方联合的港口，然后等待皇家迎接舰队到来。",
+			say = "What do our friends of the Royal Navy think of this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,12 +558,12 @@ return {
 			}
 		},
 		{
-			actorName = "谢菲尔德",
+			actorName = "Sheffield",
 			side = 1,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "关于这一点，请北方联合的诸位不用担心。皇家已经同意了本次指挥官直接前往白鹰的调动行动。",
+			say = "Her Majesty has already given her seal of approval. \"My loyal subject is permitted to go to the Eagle Union,\" she said.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,12 +574,12 @@ return {
 			}
 		},
 		{
-			actorName = "苏维埃贝拉罗斯",
+			actorName = "Sovetskaya Belorussiya",
 			side = 2,
 			bgName = "bg_cccpv2_12",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "什么……那个皇家女王居然……？！",
+			say = "Very well. What do you want to do, Comrade?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_12",
 			dir = 1,
-			say = "（这种时候应该————————）",
+			say = "(What should I say...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,11 +610,11 @@ return {
 			},
 			options = {
 				{
-					content = "表示前往白鹰",
+					content = "\"I'll go with them.\"",
 					flag = 1
 				},
 				{
-					content = "表示留在北方联合",
+					content = "\"I want to stay here.\"",
 					flag = 2
 				}
 			}
@@ -623,7 +623,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_12",
 			dir = 1,
-			say = "（不对……现在的状况下好像说出哪个方案都不太合适……）",
+			say = "(Or so I'd like to say... But I don't think there's a way to keep this from turning ugly...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "打扰了，这还真是个意外的惊喜啊，萨拉托加。",
+			say = "Oh my. Nobody told me that we'd have guests over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "哦！苏维埃同盟，你已经知道这件事了么。",
+			say = "Soyuz? Weren't you supposed to be at a meeting?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -675,7 +675,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "我也是不久前知道的，正好在大会上作为紧急议题讨论了一下。",
+			say = "Yes, and at the meeting, an urgent request for the Commander was brought up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -693,7 +693,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "你们讨论的结果是？",
+			say = "From Her Majesty? Ugh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "经过大会评估，北方联合同意指挥官离开北方联合前往白鹰的调动行动。",
+			say = "After much deliberation, the Northern Parliament has agreed to transfer the Commander to the Eagle Union.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "什么……？！大会怎么会做出这种决定！",
+			say = "What...?! How could you make a decision like that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -755,7 +755,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "贝拉罗斯，情况比较复杂，等你们回来之后我们再细说。",
+			say = "Belorussiya, I will explain the details to you in full at a later time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,7 +772,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "指挥官同志，千里相随终有一别，我们不会忘记您这段时间中为北方联合做出的贡献，期待未来再次与您并肩而战的一天。",
+			say = "Commander, thank you for everything you've done for the Northern Parliament. May we fight again side by side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -790,7 +790,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "没办法了么……回去的路上注意安全，指挥官。",
+			say = "I guess that's it, then. Don't get yourself killed out there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -806,7 +806,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算是非作战事务，哪怕是以旅游的名义前来，北方联合也始终欢迎你的到来哦！",
+			say = "You're always welcome here, Comrade! Maybe next time, you can come visit as a tourist!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -821,7 +821,7 @@ return {
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
-			say = "非常感谢，我也不会忘记这段与诸位一同并肩作战的时光的。",
+			say = "...Thank you. I won't forget my time here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -836,7 +836,7 @@ return {
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
-			say = "在北方联合驻扎期间经历了热情的招待与严酷的战斗，而现在终于到离开的时间了。",
+			say = "Looking back upon their warm hospitality and the arduous battles we had overcome together, I felt a pang in my heart from having to leave my new friends. However, the Eagle Union needed me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -853,7 +853,7 @@ return {
 			blackBg = true,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "指挥官，走吧，让我们一起回家吧~！",
+			say = "Commander, let's head back to port with the others!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

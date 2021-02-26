@@ -13,7 +13,7 @@ return {
 			bgm = "deepblue-image",
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "指挥官同志，您醒过来了么？",
+			say = "Are you finally awake, Comrade?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_6",
 			dir = 1,
-			say = "……感觉意识有点模糊，我刚刚昏过去了么？",
+			say = "...My head still feels fuzzy. Did I pass out just now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "只有一小会而已，舰队现在已经成功穿越大门了。",
+			say = "Only briefly. The fleet has managed to cross the Gate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_6",
 			dir = 1,
-			say = "很好……是你们送我回到了指挥舰上的么？",
+			say = "That’s good... Were you the one who brought me back to the command ship?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "很遗憾，不是……我们在穿越大门之后就直接分散到了这片海域之上，控制室和作为入口的“大门”都不见了。",
+			say = "Unfortunately not... As soon as we crossed the gate, we were scattered across this sector, with no sign of the control room or where we came through.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "然后在重新集结的过程中，发现您昏迷在潜航舰上。",
+			say = "While regrouping, we found you unconscious on the submarine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			},
 			options = {
 				{
-					content = "抱歉",
+					content = "Sorry to make you worry.",
 					flag = 1
 				}
 			}
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "啊啊，没有的事。倒不如说，带您直接前往危险不明战场的我们才是需要进行道歉的一方。",
+			say = "Hah, it’s nothing worth apologizing over. Rather, we owe you an apology for taking you into an unknown and dangerous battlefield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_6",
 			dir = 1,
-			say = "舰队指挥官哪有不跟随舰队一起行动的道理……",
+			say = "It’s my fault for not working with the fleet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_cccpv2_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，很英勇的发言啊，指挥官同志。",
+			say = "Ahaha, words fit for a hero, Comrade.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "其实也不光你陷入了昏迷，我们每个人在经过“大门”之后都出现了短暂的不适感。",
+			say = "At least, you weren’t the only one affected by passing through the Gate. Each of us experienced a short period of malaise as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			actor = 701080,
 			nameColor = "#a9f548",
-			say = "是啊，就像脑袋被铁锤狠狠砸了一下，真是奇怪的情况……",
+			say = "Yeah, it felt like someone clubbed me hard in the head or something... Ugh, this place is weird...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_cccpv2_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过前方依然闪烁的璀璨都市证明我们确实已经进入了“大门”的另一侧。",
+			say = "However, the city of light is still glowing brightly in front of us, so at least we can be sure that we passed through the other side of the gate. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "也是说这些莫名奇妙的情况全都是塞壬设下的某种机关么……算了，既然是镜面海域，偶尔出现些怪事也不是不可能。",
+			say = "Do you think that all these strange phenomena were set up by the Sirens? ...Well, it’s best not to dwell on it. We’ve seen enough Mirror Seas to know that pretty much anything is possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "海面上的巨大冰山也发生变化了哦……和之前的控制台一样，就像被激活的机器一样散发着发光的纹路……",
+			say = "The huge floaty icebergs are also totally different! Look, strange glowy lines are running through them now, just like the console when it was activated!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "果然之前镜面海域不停的对冰山进行复原不是单纯无意义的景观复原工作，包括冰山在内，所有的一切都是这座巨型都市必不可缺的组成部分。",
+			say = "As I suspected, it was no accident that the icebergs in the Mirror Sea continued to regenerate themselves. Everything, including the icebergs, is an indispensable part of this giant city.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_cccpv2_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "两条轨道也发生变化了。",
+			say = "You’re right... Everything the light is touching is being repaired.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			actor = 701080,
 			nameColor = "#a9f548",
-			say = "一闪一闪的发着光，如果能顺着轨道滑行下来肯定特别有趣！",
+			say = "Look, the tracks above us are glowing so prettily! Imagine how fun it’d be to slide all the way down from up there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "之前的控制室位于某条轨道正下方的冰山之中，要想前往轨道也必须从那里上去才行。",
+			say = "Those tracks seem to provide access throughout the whole city. We’ll have the best shot of finding our bearings if we take control of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "当然，在任何进一步探索行动之前，应该首先重新确认控制室与“大门”的位置确保回去的道路才行。",
+			say = "Of course, before we get pulled in too deeply, we should at least find our way back to the control room, just so we have an exit strategy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			blackBg = true,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "赞同。可惜我们这次没有飞机支援，一边收集沿途的情报，一边寻找位于某处轨道下的控制室吧。",
+			say = "Agreed. Unfortunately, we don’t have the luxury of aerial reconnaissance here, so we’ll have to gather whatever information we can while looking for a way back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

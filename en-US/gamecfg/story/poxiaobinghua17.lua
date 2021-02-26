@@ -13,7 +13,7 @@ return {
 			bgm = "deepblue-image",
 			actor = 701080,
 			nameColor = "#a9f548",
-			say = "哼哼哼~♪",
+			say = "Hum~ dee dum~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_6",
 			dir = 1,
-			say = "洪亮看起来心情很好的样子。",
+			say = "Gromky seemed to be enjoying this a lot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			actor = 701070,
 			nameColor = "#a9f548",
-			say = "…………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_6",
 			dir = 1,
-			say = "雷鸣则和之前一样，就算见到璀璨的都市出现后也是一副冷冰冰的感觉。",
+			say = "Gremyashchy, on the other hand, looked no different than before, even beneath the splendors of the city of light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			actor = 701070,
 			nameColor = "#a9f548",
-			say = "从刚才开始感觉指挥官的视线又移动上来了……有事？",
+			say = "Why are you staring at me again? ...Do you need something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			actor = 701080,
 			nameColor = "#a9f548",
-			say = "雷鸣，不要总是这么冷冰冰的嘛，态度再亲切一些才能更好地和他人相处哦~",
+			say = "Gremyashchy, it’s not good to be so grumpy around Comrade Commander! You’ll be able to get along better with others if you just put a smile on your face~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			actor = 701070,
 			nameColor = "#a9f548",
-			say = "没有冷冰冰，只是普通的态度而已。况且这次只是一次护卫行动，不是用来交流感情的旅游。嗯，就这样。",
+			say = "I’m not grumpy. This is just the face I was born with. Besides, I’m here as an escort ship, not a therapist. Mm, that’s all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			actor = 701080,
 			nameColor = "#a9f548",
-			say = "真是的，雷鸣总是这样~算啦，指挥官同志如果有不懂的地方，我替你翻译雷鸣的话就好~",
+			say = "Aww, why do you always have to be like this? Fine then! Comrade Commander, if there’s anything you don’t understand, I’ll be your Gremyashchy translator~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			actor = 701070,
 			nameColor = "#a9f548",
-			say = "哼……随便你了。",
+			say = "Hmph... Well, that’ll be all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_cccpv2_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿嘿，你看，对吧~",
+			say = "Look, look, she’s blushing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_cccpv2_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "雷鸣只是看起来有些冰冷，其实她本身是很乐意与你搞好关系哦！",
+			say = "Gremyashchy might act all cold, but she’s actually happy that she gets to work with you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_6",
 			dir = 1,
-			say = "你和雷鸣的关系真好啊。",
+			say = "You two really understand each other, huh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_cccpv2_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，没错！我们最开始就是同属一个舰队行动的，然后一起调去了极地航线~不过后来我就被单独调往了“密室”防御舰队了。",
+			say = "Heheh, we sure do! We used to be in the same fleet, but I was assigned to defend the Sanctum later on. It’s so nice to be back together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			actor = 701080,
 			nameColor = "#a9f548",
-			say = "当然关系还是一样好啦，对吧，雷鸣~~~",
+			say = "Naturally, it’s as if we were never apart! Right, Gremyashchy~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			actor = 701070,
 			nameColor = "#a9f548",
-			say = "是是是……所以这个漫长的拥抱可以结束了么……",
+			say = "Yeah, yeah... So, can you let go of me already...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			actor = 701080,
 			nameColor = "#a9f548",
-			say = "不要~好不容易才能见你一次，让我再抱一会吧~指挥官同志也一起要来么？",
+			say = "No can do! I’ve missed you a tooooooon, so you owe me a bazillion hugs! You should come join in too, Comrade Commander~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			actor = 701070,
 			nameColor = "#a9f548",
-			say = "………………（冷漠）",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_6",
 			dir = 1,
-			say = "感受到雷鸣冰冷刺骨的视线后……嗯，还是返回舰桥看看吧。",
+			say = "The hugging session was quickly cut short by the piercing sensation of Gremyashchy’s icy gaze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "很好……我们的推测完全正确，果然在大约是之前控制室冰山的位置上发现了一个设施入口！",
+			say = "Oh, you’ve returned? We’ve finally made some progress. There seems to be a passageway that goes deeper into this research facility, from this point here on the iceberg with the control room.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "唔……我们是从控制室里的“大门”来到这里的，如果再一次穿越这里“大门”真的能原路返回么？",
+			say = "Hm... Weird stuff happened when we got across the Gate. Do you think we’ll be able to leave the way we came through?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			blackBg = true,
 			actor = 702040,
 			nameColor = "#a9f548",
-			say = "这种事情，一会试一试就知道了吧~！",
+			say = "We’ll never know until we try.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -14,7 +14,7 @@ return {
 			bgm = "bsm-2",
 			actor = 900136,
 			nameColor = "#ff5c5c",
-			say = "结论呢？",
+			say = "And the conclusion...?",
 			flashin = {
 				dur = 1,
 				black = true,
@@ -38,7 +38,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "本处实验场的“指挥官”这一存在确实有着独特之处。",
+			say = "The one known as the \"Commander\" is in fact unique.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "你注意到了么，零。这次实验中有三次，在数微秒间观察对象从这个世界上完全消失了。",
+			say = "Three times, the one known as the \"Commander\" vanished from this world, albeit for a few microseconds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "消失，然后现身。没有产生任何能量波动，也没有借助任何设备。就像在正常的进程中被世界本身所排斥，然后又被重新接纳了一样。",
+			say = "Disappeared, then reappeared, with no fluctuations in energy. As if the world was rejecting its existence, then re-accepting it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			blackBg = true,
 			actor = 900136,
 			nameColor = "#ff5c5c",
-			say = "或许不是主动的转移，而是被动的交汇……",
+			say = "This timeline did not diverge then, but rather is being pruned...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "如果这种现象真的存在的话…………事情可能会变得非常不得了哦。",
+			say = "If this phenomenon is real, then there is much for us to consider.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			blackBg = true,
 			actor = 900136,
 			nameColor = "#ff5c5c",
-			say = "我明白。",
+			say = "Indeed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "你的另一个判断也是正确的，这里的观察者同样存在一些独特之处。",
+			say = "Your other intuition proved correct as well. The Observer's Reenactment was compromised.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "虽然尚不清楚发生这些变化的原因，不过在吾巧妙的设计下就算是有些独特的观察者也不可能发现自己的实验被动过手脚就是了~",
+			say = "The work of the Arbiters cannot be detected by even the most unique of Observers... Even the one in this timeline.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			blackBg = true,
 			actor = 900136,
 			nameColor = "#ff5c5c",
-			say = "就这样继续隐秘观察。不要干涉实验机关到行动，也不要被发现。关键点G那边，我派遣了其他仲裁机关进行处理。",
+			say = "Continue to monitor the experiment, and stay concealed. You are forbidden from interfering in it. Another Arbiter will be sent to deal with Code G.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			blackBg = true,
 			actor = 900136,
 			nameColor = "#ff5c5c",
-			say = "这里是一处需要被格外精密的对待的场所，有很多自然演算系统都无法确定其影响的变量正在汇聚其中……",
+			say = "A large number of variables that cannot be empirically determined have begun to converge upon a single timeline. We must handle this situation with extreme caution.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			blackBg = true,
 			actor = 900136,
 			nameColor = "#ff5c5c",
-			say = "…………………………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "在那期间，“指挥官”究竟去往了何方呢……",
+			say = "What exactly did you see... \"Commander?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

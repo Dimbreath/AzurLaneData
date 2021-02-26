@@ -7109,8 +7109,9 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 2,
 				param = {
-					x = -5,
-					z = 25
+					valve = 1,
+					z = 25,
+					x = -5
 				}
 			},
 			{
@@ -7133,8 +7134,9 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 2,
 				param = {
-					x = -5,
-					z = -25
+					valve = 1,
+					z = -25,
+					x = -5
 				}
 			},
 			{
@@ -7176,7 +7178,8 @@ pg.auto_pilot_template = {
 				param = {
 					duration = 5,
 					z = 0,
-					x = -30
+					x = -30,
+					valve = 1
 				}
 			},
 			{
@@ -7186,7 +7189,8 @@ pg.auto_pilot_template = {
 				param = {
 					duration = 3,
 					z = -15,
-					x = -5
+					x = -5,
+					valve = 1
 				}
 			},
 			{
@@ -7196,7 +7200,8 @@ pg.auto_pilot_template = {
 				param = {
 					duration = 3,
 					z = 30,
-					x = 0
+					x = 0,
+					valve = 1
 				}
 			},
 			{
@@ -7206,7 +7211,8 @@ pg.auto_pilot_template = {
 				param = {
 					duration = 5,
 					z = -15,
-					x = 5
+					x = 5,
+					valve = 1
 				}
 			}
 		}
@@ -7223,7 +7229,8 @@ pg.auto_pilot_template = {
 				param = {
 					duration = 6,
 					z = 0,
-					x = -30
+					x = -30,
+					valve = 1
 				}
 			},
 			{
@@ -7233,7 +7240,8 @@ pg.auto_pilot_template = {
 				param = {
 					duration = 9,
 					z = -50,
-					x = 0
+					x = 0,
+					valve = 1
 				}
 			},
 			{
@@ -7243,7 +7251,8 @@ pg.auto_pilot_template = {
 				param = {
 					duration = 9,
 					z = 50,
-					x = 0
+					x = 0,
+					valve = 1
 				}
 			}
 		}
@@ -7260,7 +7269,8 @@ pg.auto_pilot_template = {
 				param = {
 					duration = 6,
 					z = 0,
-					x = -30
+					x = -30,
+					valve = 1
 				}
 			},
 			{
@@ -7270,7 +7280,8 @@ pg.auto_pilot_template = {
 				param = {
 					duration = 9,
 					z = 50,
-					x = 0
+					x = 0,
+					valve = 1
 				}
 			},
 			{
@@ -7280,7 +7291,8 @@ pg.auto_pilot_template = {
 				param = {
 					duration = 9,
 					z = -50,
-					x = 0
+					x = 0,
+					valve = 1
 				}
 			}
 		}
@@ -7297,7 +7309,8 @@ pg.auto_pilot_template = {
 				param = {
 					duration = 5,
 					z = 0,
-					x = -30
+					x = -30,
+					valve = 1
 				}
 			},
 			{
@@ -7307,7 +7320,8 @@ pg.auto_pilot_template = {
 				param = {
 					duration = 3,
 					z = 15,
-					x = -5
+					x = -5,
+					valve = 1
 				}
 			},
 			{
@@ -7317,7 +7331,8 @@ pg.auto_pilot_template = {
 				param = {
 					duration = 3,
 					z = -30,
-					x = 0
+					x = 0,
+					valve = 1
 				}
 			},
 			{
@@ -7327,7 +7342,8 @@ pg.auto_pilot_template = {
 				param = {
 					duration = 5,
 					z = 15,
-					x = 5
+					x = 5,
+					valve = 1
 				}
 			}
 		}

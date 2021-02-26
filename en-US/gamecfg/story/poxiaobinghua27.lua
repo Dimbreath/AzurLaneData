@@ -13,7 +13,7 @@ return {
 			bgmDelay = 2,
 			bgm = "bgm-cccp2",
 			nameColor = "#a9f548",
-			say = "…………………………",
+			say = ".........",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "这里是………………控制装置所在的大厅？",
+			say = "Where am I...? Back to the place where I first inserted the Wisdom Cube into the console...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "…………zZZZZZ",
+			say = ".........Zzzzzz....",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			bgName = "bg_cccpv2_11",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼…………呼……zZZZ",
+			say = "............zzZZZ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			actor = 703010,
 			nameColor = "#a9f548",
-			say = "……嗯…………zZZZ",
+			say = "............zzZZZ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "北方联合的众人分散躺倒在大厅之中，没有受伤的痕迹也没有痛苦的气息，众人只是在静静地沉睡着。",
+			say = "The others are scattered across the hall, collapsed around the floor in deep slumber. None of them appear to be injured.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "大家都平安无事啊…………",
+			say = "Their rigging is unblemished as if no battle had taken place, and their breaths were soft and quiet like dreaming children.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "我记得，进入“大门”之后………………",
+			say = "But what about the city of light? I remembered passing through the Gate, and...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "对了，“大门”…………",
+			say = "I looked towards the place we had passed through. The passageway to the city of light had been closed off, a wall of ice with a surface that resembled a cracked mirror in its place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "与记忆之中不同，大厅尽头那堵原本平整光滑的冰壁现在变得裂纹丛生，仿佛随时都要崩塌一般。",
+			say = "I remembered searching around a mysterious facility, and interacting with some kind of terminal. I remember fighting against the Reenactment of a Siren foe... but then what happened...? My memory might be a little fuzzy because I just woke up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "感觉记忆有些模糊……刚刚进入“大门”之后的见到的璀璨都市，作战指挥室中的探索，最后经历的战斗难道都是————",
+			say = "—\"Please fight until the last light has faded.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "……………………看来不单纯是梦境这么简单呢。",
+			say = "...What happened at the end of that battle?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "与在“大门”之中的指挥舰上相同，在战斗失去意识前放在身边的一个小资料箱，如今正静置在身旁的地面上。",
+			say = "In my hand was a small box of materials collected from the facility. Above all else, my friends were safe and sound.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
-			say = "打开资料箱，里面的资料也完好无损。",
+			say = "Let's not worry about anything else right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			blackBg = true,
-			say = "位于最上方的文件是………………「曙光计划」。",
+			say = "I peered inside a box, and on the very top was a document with the words: \"Project Dawn.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
