@@ -105,7 +105,7 @@ return {
 			bgName = "bg_cccpv2_2",
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "指挥官同志，欢迎来到正式进入北方联合的“密室”！",
+			say = "指挥官同志，欢迎正式进入北方联合的“密室”！",
 			flashout = {
 				dur = 1,
 				black = true,
