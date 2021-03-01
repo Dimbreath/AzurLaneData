@@ -384,7 +384,7 @@ return {
 			},
 			options = {
 				{
-					content = "她们肯定会回来救你的。",
+					content = "我们一起撤离吧",
 					flag = 1
 				}
 			}
