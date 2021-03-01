@@ -38,6 +38,7 @@ function slot0.AfterReq(slot0, slot1)
 					if slot0.time == 0 then
 						nowWorld:TransDefaultFleets()
 						uv0:BuildWorld(World.TypeReset)
+						uv0:NetUpdateWorldMapPressing({})
 						nowWorld:CheckResetAward(uv1:BuildDrop(slot0.drop_list))
 						pg.TipsMgr.GetInstance():ShowTips(i18n("world_reset_success"))
 					else
