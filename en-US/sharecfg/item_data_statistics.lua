@@ -34291,8 +34291,8 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	},
 	[50004] = {
 		drop_gold_max = 0,
-		name = "Dumplings",
-		display = "A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color> ",
+		name = "Naval curry",
+		display = "Sweet Curry or Hot Curry that is the question",
 		type = 3,
 		is_world = 0,
 		shop_id = 50007,

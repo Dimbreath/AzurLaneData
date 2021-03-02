@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgm = "bsm-2",
 			nameColor = "#ffff4d",
-			say = "The auditorium's exit was not physically blocked, but I could go beyond its open doors. It's as though there was an invisible barrier, locking me in here.",
+			say = "The auditorium's exit was not physically blocked, but I couldn't go beyond its open doors. It's as though there was an invisible barrier, locking me in here.",
 			flashout = {
 				dur = 1,
 				black = true,

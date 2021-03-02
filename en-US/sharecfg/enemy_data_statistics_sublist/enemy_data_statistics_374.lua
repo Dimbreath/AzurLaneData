@@ -554,7 +554,7 @@ pg.enemy_data_statistics_374 = {
 		}
 	},
 	[900002] = {
-		name = "Kaga",
+		name = "Javelin",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck_growth = 0,

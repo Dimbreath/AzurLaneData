@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			actor = 900286,
 			actorName = "？？？",
-			say = "Sirens? Hah. I remember those insects. However, I am no Siren. It would be more apt to call me Antiochus.",
+			say = "Sirens? I've heard of that name before... But I prefer to be known as \"Antiochus.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

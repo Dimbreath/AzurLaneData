@@ -32589,7 +32589,7 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		id = 43411,
 		icon = "mt_red",
 		skill_id = 0,
-		descrip = "",
+		descrip = "After Modernization, this ship will gain +35 FP and +10 AA; After Retrofit, this ship’s <color=#92fc63>Main Gun (CL)</color> slot will be replaced with a <color=#92fc63>Main Gun (DD)</color> slot.",
 		condition_id = {
 			43409,
 			43410
