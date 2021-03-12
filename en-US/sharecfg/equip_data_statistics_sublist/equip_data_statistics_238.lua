@@ -25,7 +25,7 @@ pg.equip_data_statistics_238 = {
 		}
 	},
 	[35220] = {
-		name = "Quadruple 610mm Torpedo",
+		name = "610mm Quadruple Torpedo Mount",
 		speciality = "Torpedo",
 		type = 5,
 		tech = 2,
@@ -167,7 +167,7 @@ pg.equip_data_statistics_238 = {
 		}
 	},
 	[35240] = {
-		name = "Quadruple 610mm Torpedo",
+		name = "610mm Quadruple Torpedo Mount",
 		speciality = "Torpedo",
 		type = 5,
 		tech = 3,

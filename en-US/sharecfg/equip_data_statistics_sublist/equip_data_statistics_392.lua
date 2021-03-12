@@ -41,7 +41,7 @@ pg.equip_data_statistics_392 = {
 		}
 	},
 	[95120] = {
-		name = "Single 90mm High-Angle Gun (M1939)",
+		name = "Single 90mm Model 1939 AA Gun",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 2,
@@ -183,7 +183,7 @@ pg.equip_data_statistics_392 = {
 		}
 	},
 	[95140] = {
-		name = "Single 90mm High-Angle Gun (M1939)",
+		name = "Single 90mm Model 1939 AA Gun",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 3,

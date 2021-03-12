@@ -7,7 +7,7 @@ pg.equip_data_statistics_38 = {
 		base = 1920
 	},
 	[1940] = {
-		name = "Navy Camouflage",
+		name = "Naval Camouflage",
 		tech = 3,
 		type = 10,
 		speciality = "N/A",
@@ -81,7 +81,7 @@ pg.equip_data_statistics_38 = {
 		base = 1940
 	},
 	[1960] = {
-		name = "Marinière Camouflage",
+		name = "Ocean Soul Camouflage",
 		tech = 0,
 		type = 10,
 		speciality = "N/A",

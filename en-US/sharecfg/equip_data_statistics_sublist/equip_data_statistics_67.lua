@@ -119,7 +119,7 @@ pg.equip_data_statistics_67 = {
 		}
 	},
 	[5000] = {
-		name = "Triple 533mm Torpedo",
+		name = "533mm Triple Torpedo Mount",
 		speciality = "Torpedo",
 		type = 5,
 		tech = 1,
@@ -204,7 +204,7 @@ pg.equip_data_statistics_67 = {
 		}
 	},
 	[5020] = {
-		name = "Triple 533mm Torpedo",
+		name = "533mm Triple Torpedo Mount",
 		speciality = "Torpedo",
 		type = 5,
 		tech = 2,

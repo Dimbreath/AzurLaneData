@@ -115,13 +115,10 @@ pg.equip_data_statistics_114 = {
 		anti_siren = 100,
 		base = 15500,
 		value_2 = 32,
-		value_1 = "38",
-		weapon_id = {
-			1
-		}
+		value_1 = "38"
 	},
 	[16000] = {
-		name = "20mm AA Oerlikon",
+		name = "Single 20mm Oerlikon AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 1,
@@ -206,7 +203,7 @@ pg.equip_data_statistics_114 = {
 		}
 	},
 	[16020] = {
-		name = "20mm AA Oerlikon",
+		name = "Single 20mm Oerlikon AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 2,

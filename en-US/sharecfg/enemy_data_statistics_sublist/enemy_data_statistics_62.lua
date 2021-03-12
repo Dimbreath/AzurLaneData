@@ -35,8 +35,8 @@ pg.enemy_data_statistics_62 = {
 			"appearQ"
 		},
 		equipment_list = {
-			400902,
-			400906
+			319081,
+			319085
 		}
 	},
 	[9036] = {
@@ -74,8 +74,8 @@ pg.enemy_data_statistics_62 = {
 			"appearQ"
 		},
 		equipment_list = {
-			400902,
-			400906
+			319081,
+			319085
 		}
 	},
 	[9037] = {
@@ -113,8 +113,8 @@ pg.enemy_data_statistics_62 = {
 			"appearQ"
 		},
 		equipment_list = {
-			400901,
-			400904
+			319080,
+			319083
 		}
 	},
 	[9038] = {
@@ -218,8 +218,8 @@ pg.enemy_data_statistics_62 = {
 			"appearQ"
 		},
 		equipment_list = {
-			400901,
-			400904
+			319080,
+			319083
 		}
 	},
 	[9039] = {
@@ -370,7 +370,7 @@ pg.enemy_data_statistics_62 = {
 			318014,
 			318015,
 			318016,
-			400105
+			319078
 		}
 	},
 	[905200] = {
@@ -413,7 +413,7 @@ pg.enemy_data_statistics_62 = {
 			318014,
 			318015,
 			318016,
-			400105
+			319078
 		}
 	},
 	[905300] = {
@@ -455,8 +455,8 @@ pg.enemy_data_statistics_62 = {
 			318024,
 			318025,
 			318026,
-			400108,
-			400905
+			319079,
+			319084
 		}
 	},
 	[905400] = {
@@ -535,8 +535,8 @@ pg.enemy_data_statistics_62 = {
 			"appearQ"
 		},
 		equipment_list = {
-			400902,
-			400903
+			319081,
+			319082
 		}
 	},
 	[10001] = {

@@ -41,7 +41,7 @@ pg.equip_data_statistics_73 = {
 		}
 	},
 	[5440] = {
-		name = "Triple 550mm Torpedo",
+		name = "550mm Triple Torpedo Launcher",
 		speciality = "Torpedo",
 		type = 5,
 		tech = 3,

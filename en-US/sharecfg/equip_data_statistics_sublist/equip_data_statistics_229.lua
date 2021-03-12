@@ -25,7 +25,7 @@ pg.equip_data_statistics_229 = {
 		}
 	},
 	[34120] = {
-		name = "410mm Mounted Gun",
+		name = "Twin 410mm Naval Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 2,
@@ -126,7 +126,7 @@ pg.equip_data_statistics_229 = {
 		}
 	},
 	[34140] = {
-		name = "410mm Mounted Gun",
+		name = "Twin 410mm Naval Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 3,

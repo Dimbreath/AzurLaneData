@@ -1099,7 +1099,7 @@ function slot0.updateMapItems(slot0)
 	slot0.mapBuilder.buffer:UpdateMapItems(slot1)
 end
 
-function slot0.switchDifficulty(slot0)
+function slot0.updateDifficultyBtns(slot0)
 	slot1 = slot0.contextData.map
 	slot2 = slot1:getConfig("type")
 
@@ -1491,7 +1491,7 @@ function slot0.updateMap(slot0)
 			uv0:updateCouldAnimator()
 			uv0.mapBuilder:PostUpdateMap(uv1)
 			uv0:updateMapItems()
-			uv0:switchDifficulty()
+			uv0:updateDifficultyBtns()
 			uv0:updateActivityBtns()
 
 			if uv0.contextData.openChapterId then
@@ -1853,7 +1853,7 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 	slot0.leftCanvasGroup.blocksRaycasts = false
 	slot0.rightCanvasGroup.blocksRaycasts = false
 
-	slot0:onSubLayerContextChange()
+	slot0:DestroyLevelStageView()
 
 	if not slot0.levelStageView then
 		slot0.levelStageView = LevelStageView.New(slot0.topPanel, slot0.event, slot0.contextData)
@@ -1992,10 +1992,7 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 				end
 
 				uv0:unfrozen()
-
-				if uv0.levelStageView then
-					uv0.levelStageView:tryAutoTrigger(true)
-				end
+				uv0.levelStageView:tryAutoTrigger(true)
 
 				if uv1 then
 					uv1()
@@ -2047,9 +2044,10 @@ function slot0.switchToMap(slot0, slot1)
 	shiftPanel(slot0.topChapter, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 
 	if slot0.levelStageView then
-		slot0.levelStageView:ShiftStagePanelOut(function ()
+		slot0.levelStageView:ActionInvoke("ShiftStagePanelOut", function ()
 			uv0:DestroyLevelStageView()
 		end)
+		slot0.levelStageView:ActionInvoke("SwitchToMap")
 	end
 
 	slot0:SwitchBG(slot0.contextData.map:getConfig("bg"))
@@ -2064,8 +2062,7 @@ function slot0.switchToMap(slot0, slot1)
 		slot0:unfrozen()
 	end
 
-	slot0:onSubLayerContextChange()
-	slot0:switchDifficulty()
+	slot0:updateDifficultyBtns()
 	slot0:updateActivityBtns()
 end
 
@@ -2952,10 +2949,6 @@ function slot0.onSubLayerClose(slot0)
 	end
 
 	slot0.isSubLayerOpen = nil
-end
-
-function slot0.onSubLayerContextChange(slot0)
-	slot0.visibilityForPreCombat = nil
 end
 
 function slot0.resetLevelGrid(slot0)

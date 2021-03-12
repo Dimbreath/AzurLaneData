@@ -36,7 +36,7 @@ pg.equip_data_statistics_258 = {
 		}
 	},
 	[36700] = {
-		name = "Prototype 40mm AA Gun (Type 5)",
+		name = "Twin 40mm Bofors Type 5 AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 0,

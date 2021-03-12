@@ -1227,7 +1227,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[70107] = {
 		ship_group = 70107,
-		name = "ремящий",
+		name = "Гремящий",
 		sculpture = "leiming"
 	},
 	[70301] = {

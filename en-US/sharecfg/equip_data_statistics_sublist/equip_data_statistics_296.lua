@@ -1,11 +1,11 @@
 pg = pg or {}
 pg.equip_data_statistics_296 = {
 	[44100] = {
-		name = "Twin 380mm Main Gun (SK C)",
+		name = "Twin 380mm SK C/34 Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 1,
-		descrip = "The Twin 380mm Main Gun (SK C) is the main gun of Bismarck class ships, and may be used by battlecruisers and battleships.",
+		descrip = "The Twin 380mm SK C/34 Main Gun Mount is the main gun of Bismarck class ships, and may be used by battlecruisers and battleships.",
 		value_2 = 12,
 		icon = "44100",
 		attribute_2 = "cannon",
@@ -101,11 +101,11 @@ pg.equip_data_statistics_296 = {
 		}
 	},
 	[44120] = {
-		name = "Twin 380mm Main Gun (SK C)",
+		name = "Twin 380mm SK C/34 Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 2,
-		descrip = "The Twin 380mm Main Gun (SK C) is the main gun of Bismarck class ships, and may be used by battlecruisers and battleships.",
+		descrip = "The Twin 380mm SK C/34 Main Gun Mount is the main gun of Bismarck class ships, and may be used by battlecruisers and battleships.",
 		value_2 = 25,
 		icon = "44100",
 		attribute_2 = "cannon",

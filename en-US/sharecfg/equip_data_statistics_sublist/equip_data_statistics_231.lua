@@ -19,7 +19,7 @@ pg.equip_data_statistics_231 = {
 		}
 	},
 	[34180] = {
-		name = "Prototype Triple 410mm Mounted Gun",
+		name = "Prototype Triple 410mm Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 0,

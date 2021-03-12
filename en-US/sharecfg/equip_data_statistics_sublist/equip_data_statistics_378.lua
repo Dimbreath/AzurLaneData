@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.equip_data_statistics_378 = {
 	[90140] = {
-		name = "Single 138.6mm Main Gun (Mle 1929)",
+		name = "Single 138.6mm Mle 1929 Naval Gun",
 		speciality = "Lock",
 		type = 1,
 		tech = 3,
@@ -175,7 +175,7 @@ pg.equip_data_statistics_378 = {
 		}
 	},
 	[90200] = {
-		name = "Triple 152mm Main Gun (Mle 1930)",
+		name = "Triple 152mm Mle 1930 Main Gun Mount",
 		speciality = "Scatter",
 		type = 2,
 		tech = 1,

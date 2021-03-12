@@ -28,7 +28,7 @@ pg.equip_data_statistics_389 = {
 		}
 	},
 	[91000] = {
-		name = "Prototype Triple 406mm/50 Main Gun ",
+		name = "Prototype Triple 406mm /50 Main Gun Mount ",
 		speciality = "Volley",
 		type = 4,
 		tech = 0,

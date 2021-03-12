@@ -49,7 +49,7 @@ pg.equip_data_statistics_388 = {
 		}
 	},
 	[90900] = {
-		name = "Twin 203mm Main Gun (Mle 1924)",
+		name = "Twin 203mm Mle 1924 Main Gun Mount",
 		speciality = "Lock",
 		type = 3,
 		tech = 3,

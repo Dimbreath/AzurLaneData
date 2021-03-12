@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.equip_data_statistics_260 = {
 	[37100] = {
-		name = "A6M2 Zero",
+		name = "Type 0 Fighter Model 21",
 		type = 7,
 		speciality = "Air",
 		rarity = 2,
@@ -124,7 +124,7 @@ pg.equip_data_statistics_260 = {
 		}
 	},
 	[37120] = {
-		name = "A6M2 Zero",
+		name = "Type 0 Fighter Model 21",
 		type = 7,
 		speciality = "Air",
 		rarity = 3,
@@ -313,7 +313,7 @@ pg.equip_data_statistics_260 = {
 		}
 	},
 	[37140] = {
-		name = "A6M2 Zero",
+		name = "Type 0 Fighter Model 21",
 		type = 7,
 		speciality = "Air",
 		rarity = 4,

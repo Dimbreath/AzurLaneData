@@ -58,7 +58,7 @@ pg.equip_data_statistics_257 = {
 		}
 	},
 	[36660] = {
-		name = "127mm Type 89 High-Angle Gun",
+		name = "Twin 127mm Type 89 AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 0,

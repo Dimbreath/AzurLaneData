@@ -82,7 +82,7 @@ pg.equip_data_statistics_220 = {
 		}
 	},
 	[32200] = {
-		name = "Triple 155mm Mounted Gun",
+		name = "Triple 155mm Main Gun Mount",
 		speciality = "Lock",
 		type = 2,
 		tech = 1,

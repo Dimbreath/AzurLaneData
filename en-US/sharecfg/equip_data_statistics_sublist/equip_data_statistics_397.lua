@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.equip_data_statistics_397 = {
 	[95400] = {
-		name = "Twin 120mm Main Gun (M1936)",
+		name = "Twin 120mm M1936 Main Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		tech = 1,
@@ -91,7 +91,7 @@ pg.equip_data_statistics_397 = {
 		}
 	},
 	[95420] = {
-		name = "Twin 120mm Main Gun (M1936)",
+		name = "Twin 120mm M1936 Main Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		tech = 2,
@@ -205,7 +205,7 @@ pg.equip_data_statistics_397 = {
 		}
 	},
 	[95440] = {
-		name = "Twin 120mm Main Gun (M1936)",
+		name = "Twin 120mm M1936 Main Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		tech = 3,

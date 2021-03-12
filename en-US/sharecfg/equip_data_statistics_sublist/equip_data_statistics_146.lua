@@ -9,7 +9,7 @@ pg.equip_data_statistics_146 = {
 		}
 	},
 	[21140] = {
-		name = "Twin 102mm Secondary Gun",
+		name = "Twin 102mm Secondary Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		tech = 3,
@@ -130,7 +130,7 @@ pg.equip_data_statistics_146 = {
 		}
 	},
 	[21160] = {
-		name = "Twin 102mm Secondary Gun Mount MkXVI",
+		name = "Twin 102mm Mk XVI Secondary Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		tech = 0,

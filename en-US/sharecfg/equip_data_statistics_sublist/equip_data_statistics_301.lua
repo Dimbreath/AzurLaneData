@@ -41,11 +41,11 @@ pg.equip_data_statistics_301 = {
 		}
 	},
 	[45120] = {
-		name = "Quadruple 533mm Magnetic Torpedo",
+		name = "533mm Quadruple Magnetic Torpedo Mount",
 		speciality = "Torpedo",
 		type = 5,
 		tech = 2,
-		descrip = "The Quadruple 533mm Magnetic Torpedo was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
+		descrip = "The 533mm Quadruple Magnetic Torpedo Mount was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
 		value_2 = 25,
 		icon = "45100",
 		attribute_2 = "torpedo",
@@ -183,11 +183,11 @@ pg.equip_data_statistics_301 = {
 		}
 	},
 	[45140] = {
-		name = "Quadruple 533mm Magnetic Torpedo",
+		name = "533mm Quadruple Magnetic Torpedo Mount",
 		speciality = "Torpedo",
 		type = 5,
 		tech = 3,
-		descrip = "The Quadruple 533mm Magnetic Torpedo was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
+		descrip = "The 533mm Quadruple Magnetic Torpedo Mount was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
 		value_2 = 45,
 		icon = "45100",
 		attribute_2 = "torpedo",

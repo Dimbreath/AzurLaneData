@@ -50,7 +50,7 @@ pg.equip_data_statistics_75 = {
 		}
 	},
 	[6000] = {
-		name = "12.7mm AA Gun",
+		name = "Single 12.7mm AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 1,
@@ -135,7 +135,7 @@ pg.equip_data_statistics_75 = {
 		}
 	},
 	[6020] = {
-		name = "12.7mm AA Gun",
+		name = "Single 12.7mm AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 2,
@@ -221,7 +221,7 @@ pg.equip_data_statistics_75 = {
 		}
 	},
 	[6040] = {
-		name = "12.7mm AA Gun",
+		name = "Single 12.7mm AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 3,

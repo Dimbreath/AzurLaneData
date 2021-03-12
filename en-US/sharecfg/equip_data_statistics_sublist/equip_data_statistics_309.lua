@@ -9,7 +9,7 @@ pg.equip_data_statistics_309 = {
 		}
 	},
 	[46060] = {
-		name = "Twin 88mm SK C/32 Anti-Air Gun Mount",
+		name = "Twin 88mm SK C/32 AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 0,
@@ -160,12 +160,12 @@ pg.equip_data_statistics_309 = {
 		}
 	},
 	[46100] = {
-		name = "37mm Machine Gun",
+		name = "Single 37mm Flak AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 1,
 		rarity = 1,
-		descrip = "37mm Machine Gun used for anti-air defense.",
+		descrip = "Single 37mm Flak AA Gun Mount used for anti-air defense.",
 		value_2 = 0,
 		icon = "46100",
 		damage = "8/wave",

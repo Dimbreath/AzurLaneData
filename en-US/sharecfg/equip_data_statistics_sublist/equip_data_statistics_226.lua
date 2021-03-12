@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.equip_data_statistics_226 = {
 	[33080] = {
-		name = "203 mm 3rd-Year Type Naval Gun",
+		name = "Twin 203mm No. 2 Naval Gun Mount",
 		speciality = "Lock",
 		type = 3,
 		tech = 3,
@@ -149,7 +149,7 @@ pg.equip_data_statistics_226 = {
 		}
 	},
 	[33100] = {
-		name = "Prototype Triple 310mm Main Gun (Type 0)",
+		name = "Prototype Triple 310mm Type 0 Main Gun Mount",
 		speciality = "Volley",
 		type = 11,
 		tech = 0,

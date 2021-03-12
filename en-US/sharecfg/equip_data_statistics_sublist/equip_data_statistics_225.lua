@@ -26,7 +26,7 @@ pg.equip_data_statistics_225 = {
 		}
 	},
 	[33060] = {
-		name = "Prototype 203mm (Type 3) Mounted Gun",
+		name = "Prototype 203mm No. 3 Naval Gun Mount",
 		speciality = "Lock",
 		type = 3,
 		tech = 0,

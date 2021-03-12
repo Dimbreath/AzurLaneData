@@ -90,7 +90,7 @@ pg.equip_data_statistics_289 = {
 		}
 	},
 	[42300] = {
-		name = "Single 150mm Main Gun (TbtsK C/36) ",
+		name = "Single 150mm TbtsK C/36 Main Gun Mount ",
 		speciality = "Lock",
 		type = 2,
 		tech = 1,

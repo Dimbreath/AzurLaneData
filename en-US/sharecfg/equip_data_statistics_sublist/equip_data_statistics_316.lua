@@ -289,7 +289,7 @@ pg.equip_data_statistics_316 = {
 		}
 	},
 	[47060] = {
-		name = "Ar-197",
+		name = "Ar 197",
 		type = 7,
 		speciality = "Air",
 		rarity = 3,

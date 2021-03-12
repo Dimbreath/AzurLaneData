@@ -11863,7 +11863,7 @@ you can earn.]]
 		tip = "Progress:"
 	},
 	guild_join_event_exist_finished_mission_tip = {
-		tip = "You will be unable to claim the rewards if you abandon this operation. Are you sure you want to continue?"
+		tip = "This operation is already in progress. If you join now, you will be unable to claim the rewards from already completed operation events. \nAre you sure you want to join?"
 	},
 	guild_event_not_exist = {
 		tip = "This Guild Event no longer exists."
@@ -12989,6 +12989,39 @@ Large Nianjuu: 30 pts
 	valentinesday__shop_tip = {
 		tip = "Would you like to go to the Outfit Store?"
 	},
+	wwf_bamboo_tip1 = {
+		tip = "Da Bao's Friend(Ning Hai)"
+	},
+	wwf_bamboo_tip2 = {
+		tip = "Baobao's Buddy(Ping Hai)"
+	},
+	wwf_bamboo_tip3 = {
+		tip = "Not enough Tasty Bamboo. Complete missions to get more!"
+	},
+	wwf_bamboo_help = {
+		tip = {
+			{
+				info = [[
+• Event Period: <color=#92fc63>3/12/2021 - 3/24/2021</color>
+
+• Event Overview:
+During the event period, feed <color=#92fc63>Tasty Bamboo</color> to the pandas to increase their Trust. You can get <color=#92fc63>Tasty Bamboo</color> by completing event missions.
+
+Ping Hai and Ning Hai's panda companions have their own Trust meter. Switch between the two by tapping the button in the bottom-right corner.
+
+• How to Play:
+-Complete event missions to collect Tasty Bamboo. Missions and Tasty Bamboo amount are shared across Ping Hai and Ning Hai.
+-Use Tasty Bamboo on either event page to raise the Trust of the corresponding panda. Each panda has its own Trust meter and corresponding rewards.
+-There are three types of event missions:
+One-time only: Can only be completed once during the event.
+Weekly: Can be completed every week, resetting at 0:00 on Monday, up to a total of three times.
+Daily: Can be completed every day, resetting at 0:00 every day.]]
+			}
+		}
+	},
+	wwf_guide_tip = {
+		tip = "Check your event-limited tasks here!"
+	},
 	cumulative_victory_target_tip = {
 		tip = "Total Victories:"
 	},
@@ -13491,5 +13524,38 @@ Your Action Points will also reset, starting you off with <color=#92fc63>200 AP.
 	},
 	levelScene_select_noitem = {
 		tip = "Out of consumable items."
+	},
+	login_arrears_tips = {
+		tip = "Fraudulent chargeback activity has been detected on your account. You are only able to log in to the following server(s): $1"
+	},
+	Supplement_pay1 = {
+		tip = "Fraudulent chargeback activity has been confirmed on your account. Please resolve the disputed amount or contact customer support."
+	},
+	Supplement_pay2 = {
+		tip = "Fraudulent chargeback activity has been confirmed on your account. Please resolve the disputed amount shown to the right, or contact customer support."
+	},
+	Supplement_pay3 = {
+		tip = "All purchases have been successfully processed, and you are now able to log back in to the game. Thank you for your cooperation."
+	},
+	Supplement_pay4 = {
+		tip = "Confirm"
+	},
+	world_ship_repair = {
+		tip = "Please select target:"
+	},
+	Supplement_pay5 = {
+		tip = "Tap on a confirmed case of fraudulent chargeback activity to view details and how to resolve the dispute."
+	},
+	area_unkown = {
+		tip = "Unknown Sector"
+	},
+	Supplement_pay6 = {
+		tip = "Purchased:"
+	},
+	Supplement_pay7 = {
+		tip = "Refunded:"
+	},
+	Supplement_pay8 = {
+		tip = "Left:$1"
 	}
 }

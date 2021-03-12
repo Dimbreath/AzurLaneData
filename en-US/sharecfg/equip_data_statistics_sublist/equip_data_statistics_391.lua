@@ -9,7 +9,7 @@ pg.equip_data_statistics_391 = {
 		}
 	},
 	[95040] = {
-		name = "Triple 381mm Main Gun (M1934)",
+		name = "Triple 381mm M1934 Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 3,
@@ -171,7 +171,7 @@ pg.equip_data_statistics_391 = {
 		}
 	},
 	[95100] = {
-		name = "Single 90mm High-Angle Gun (M1939)",
+		name = "Single 90mm Model 1939 AA Gun",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 1,

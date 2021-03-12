@@ -8664,6 +8664,132 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2100080] = {
+		map = 2100080,
+		name = "Iris of Light and Dark - Pt. 1|| ||CHAPTER EX||E.X.",
+		bgm = "level03",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "FAXI01",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1140001",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1140001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100090,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100081] = {
+		map = 2100081,
+		name = "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
+		bgm = "Level-french2",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "FAXI05",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1140002",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1140002",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100091,
+		clouds_pos = {}
+	},
+	[2100090] = {
+		map = 2100090,
+		name = "Iris of Light and Dark - Pt. 1|| ||CHAPTER EX||E.X.",
+		bgm = "level03",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "FAXI01",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1140002",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1140002",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100080,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100091] = {
+		map = 2100091,
+		name = "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
+		bgm = "Level-french2",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "FAXI05",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1140003",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1140003",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100081,
+		clouds_pos = {}
+	},
 	[2200000] = {
 		map = 2200000,
 		name = "Strive, Wish, and Strategize || || Chapter SP || S.P.",
@@ -9145,6 +9271,10 @@ pg.expedition_data_by_map = {
 		2100061,
 		2100070,
 		2100071,
+		2100080,
+		2100081,
+		2100090,
+		2100091,
 		2200000,
 		2200010,
 		2200020,

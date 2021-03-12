@@ -297,6 +297,9 @@ function slot2.ExitBattle(slot0)
 	UpdateBeat:Remove(slot0.Update, slot0)
 	pg.EffectMgr.GetInstance():ClearBattleEffectMap()
 	GCThread.GetInstance():StopWatch()
+
+	slot0._timeScale = nil
+	slot0._timescalerCache = nil
 end
 
 function slot2.Stop(slot0, slot1)

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.equip_data_statistics_251 = {
 	[36360] = {
-		name = "25mm Type 96 Triple AT/AA Gun",
+		name = "Triple 25mm Type 96 AT/AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 0,
@@ -170,7 +170,7 @@ pg.equip_data_statistics_251 = {
 		}
 	},
 	[36400] = {
-		name = "40mm AA Vickers Gun",
+		name = "Twin 40mm V-Type AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 1,

@@ -40,12 +40,14 @@ function slot0.isUnlock(slot0)
 			else
 				return false, i18n("battle_levelScene_lock")
 			end
+		elseif not getProxy(ActivityProxy):getActivityById(slot0:getConfig("on_activity")) or slot2:isEnd() then
+			return false, i18n("common_activity_end")
 		else
-			slot2, slot3 = slot0:isAnyChapterUnlocked(true)
+			slot3, slot4 = slot0:isAnyChapterUnlocked(true)
 
-			if slot2 then
+			if slot3 then
 				return true
-			elseif slot3 then
+			elseif slot4 then
 				return false, i18n("battle_levelScene_lock_1")
 			else
 				return false, i18n("battle_levelScene_lock")

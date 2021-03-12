@@ -52,7 +52,7 @@ pg.equip_data_statistics_190 = {
 		}
 	},
 	[26660] = {
-		name = "Sextuple Bofors 40mm AA Gun ",
+		name = "Sextuple 40mm Bofors AA Gun Mount ",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 0,

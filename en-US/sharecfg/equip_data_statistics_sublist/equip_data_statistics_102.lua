@@ -41,7 +41,7 @@ pg.equip_data_statistics_102 = {
 		}
 	},
 	[14340] = {
-		name = "Triple 406mm MK6 Main Gun",
+		name = "Triple 406mm Mk 6 Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 3,

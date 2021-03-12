@@ -108,7 +108,7 @@ pg.equip_data_statistics_393 = {
 		}
 	},
 	[95200] = {
-		name = "Twin 203mm Main Gun (M1927)",
+		name = "Twin 203mm Model 1927 Main Gun Mount",
 		speciality = "Lock",
 		type = 3,
 		tech = 1,

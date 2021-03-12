@@ -34,7 +34,7 @@ pg.equip_data_statistics_183 = {
 		}
 	},
 	[26360] = {
-		name = "20mm Oerlikon High-Angle Gun MkII ",
+		name = "Single 20mm Mk II Oerlikon AA Gun Mount ",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 0,
@@ -185,7 +185,7 @@ pg.equip_data_statistics_183 = {
 		}
 	},
 	[26400] = {
-		name = "102mm AA Gun",
+		name = "Single 102mm AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 1,

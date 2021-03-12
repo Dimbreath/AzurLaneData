@@ -25,7 +25,7 @@ pg.equip_data_statistics_184 = {
 		}
 	},
 	[26420] = {
-		name = "102mm AA Gun",
+		name = "Single 102mm AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 2,
@@ -135,7 +135,7 @@ pg.equip_data_statistics_184 = {
 		}
 	},
 	[26440] = {
-		name = "102mm AA Gun",
+		name = "Single 102mm AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 3,

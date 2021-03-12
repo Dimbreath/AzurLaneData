@@ -33,7 +33,7 @@ pg.equip_data_statistics_243 = {
 		}
 	},
 	[35440] = {
-		name = "Type 92 Submarine Torpedo",
+		name = "Type 92 Electric Submarine Torpedo",
 		speciality = "Torpedo",
 		type = 13,
 		tech = 3,
@@ -181,7 +181,7 @@ pg.equip_data_statistics_243 = {
 		}
 	},
 	[35460] = {
-		name = "Submarine Type 92 Torpedo Kai",
+		name = "Type 92 Kai Electric Submarine Torpedo",
 		speciality = "Torpedo",
 		type = 13,
 		tech = 0,

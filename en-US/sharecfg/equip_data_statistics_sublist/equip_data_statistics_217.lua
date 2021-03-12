@@ -17,7 +17,7 @@ pg.equip_data_statistics_217 = {
 		}
 	},
 	[31280] = {
-		name = "127mm Type 3 Naval Gun",
+		name = "Twin 127mm Type 3 Kai Naval Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		tech = 0,
@@ -173,7 +173,7 @@ pg.equip_data_statistics_217 = {
 		}
 	},
 	[32000] = {
-		name = "Single 140mm Main Gun",
+		name = "Single 140mm Naval Gun",
 		speciality = "Lock",
 		type = 2,
 		tech = 1,

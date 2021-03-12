@@ -266,7 +266,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "2 x 20mm机炮",
+		name = "2 x 20mm Cannon",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,

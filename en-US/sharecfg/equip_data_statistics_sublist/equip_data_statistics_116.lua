@@ -50,7 +50,7 @@ pg.equip_data_statistics_116 = {
 		}
 	},
 	[16080] = {
-		name = "Twin 76mm Rapid Fire Gun Mount Mk27",
+		name = "Twin 76mm Mk 27 RF AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 0,

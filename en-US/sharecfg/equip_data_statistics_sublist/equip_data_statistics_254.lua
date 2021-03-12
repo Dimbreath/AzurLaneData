@@ -74,7 +74,7 @@ pg.equip_data_statistics_254 = {
 		}
 	},
 	[36560] = {
-		name = "100mm Mounted AA Gun",
+		name = "Twin 100mm Type 98 AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 0,

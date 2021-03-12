@@ -523,7 +523,7 @@ pg.enemy_data_statistics_61 = {
 			"appearQ"
 		},
 		equipment_list = {
-			400901
+			319080
 		}
 	},
 	[9034] = {
@@ -561,7 +561,7 @@ pg.enemy_data_statistics_61 = {
 			"appearQ"
 		},
 		equipment_list = {
-			400901
+			319080
 		}
 	}
 }

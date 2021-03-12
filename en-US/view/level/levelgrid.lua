@@ -710,6 +710,8 @@ function slot0.updateFleet(slot0, slot1)
 
 		setActive(slot3.go, slot4:isValid())
 
+		slot3.tf.localPosition = slot2.theme:GetLinePosition(slot5.row, slot5.column)
+
 		if slot4:getFleetType() == FleetType.Normal then
 			slot8, slot9 = slot2:existEnemy(ChapterConst.SubjectPlayer, slot5.row, slot5.column)
 			slot10 = slot2:existFleet(FleetType.Transport, slot5.row, slot5.column)
@@ -878,8 +880,6 @@ function slot0.updateFleet(slot0, slot1)
 			GetImageSpriteFromAtlasAsync("enemies/" .. slot4:getPrefab(), "", slot3.tfIcon, true)
 			setActive(slot3.tfFighting, slot2:existEnemy(ChapterConst.SubjectPlayer, slot5.row, slot5.column))
 		end
-
-		slot3.tf.localPosition = slot2.theme:GetLinePosition(slot5.row, slot5.column)
 
 		slot3:SetLine({
 			row = slot5.row,

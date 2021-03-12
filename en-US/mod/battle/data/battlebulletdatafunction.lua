@@ -5,6 +5,8 @@ slot2 = pg.bullet_template
 slot3 = pg.barrage_template
 slot0.Battle.BattleDataFunction = slot0.Battle.BattleDataFunction or {}
 slot4 = slot0.Battle.BattleDataFunction
+slot5 = slot1.UnitDir.LEFT
+slot6 = slot1.UnitDir.RIGHT
 
 function slot4.CreateBattleBulletData(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0.GetBulletTmpDataFromID(slot1)
@@ -30,7 +32,11 @@ function slot4.GetBarrageTmpDataFromID(slot0)
 	return uv0[slot0]
 end
 
-function slot4.GetConvertedBarrageTableFromID(slot0)
+function slot4.GetConvertedBarrageTableFromID(slot0, slot1)
+	if uv0.ConvertedBarrageTableList[slot0] == nil or uv0.ConvertedBarrageTableList[slot0][slot1] == nil then
+		uv0.ConvertSpecificBarrage(slot0, slot1)
+	end
+
 	return uv0.ConvertedBarrageTableList[slot0]
 end
 
@@ -228,20 +234,18 @@ slot4.generateBulletFuncs = {
 	[slot1.BulletType.AAMissile] = slot4._createAAMissile
 }
 
-function slot4.ConvertBarrage()
-	slot0 = {}
-
-	for slot6, slot7 in ipairs(pg.barrage_template.all) do
-		slot0[slot7][uv0.Battle.BattleConst.UnitDir.RIGHT], slot0[slot7][uv0.Battle.BattleConst.UnitDir.LEFT] = uv1.barrageInteration(pg.barrage_template[slot7])
-		slot0[slot7] = {}
-	end
-
-	uv1.ConvertedBarrageTableList = slot0
+function slot4.ConvertSpecificBarrage(slot0, slot1)
+	slot3 = uv0.ConvertedBarrageTableList[slot0] or {}
+	slot3[slot1] = uv0.barrageInteration(pg.barrage_template[slot0], slot1)
+	uv0.ConvertedBarrageTableList[slot0] = slot3
 end
 
-function slot4.barrageInteration(slot0)
-	slot1 = 1
-	slot3 = {}
+function slot4.ClearConvertedBarrage()
+	uv0.ConvertedBarrageTableList = {}
+end
+
+function slot4.barrageInteration(slot0, slot1)
+	slot2 = 1
 	slot4 = {}
 	slot5 = slot0.offset_x
 	slot6 = slot0.offset_z
@@ -249,19 +253,12 @@ function slot4.barrageInteration(slot0)
 	slot8 = slot0.delay
 
 	for slot16 = 0, slot0.primal_repeat do
-		slot17 = {
-			OffsetX = slot5,
+		table.insert(slot4, {
+			OffsetX = slot5 * slot1,
 			OffsetZ = slot6,
 			Angle = slot7,
 			Delay = slot8
-		}
-
-		table.insert(slot3, slot17)
-
-		slot18 = Clone(slot17)
-		slot18.OffsetX = slot18.OffsetX * -1
-
-		table.insert(slot4, slot18)
+		})
 
 		slot5 = slot5 + slot0.delta_offset_x
 		slot6 = slot6 + slot0.delta_offset_z
@@ -269,7 +266,7 @@ function slot4.barrageInteration(slot0)
 		slot8 = slot8 + slot0.delta_delay
 	end
 
-	return slot3, slot4
+	return slot4
 end
 
-slot4.ConvertBarrage()
+slot4.ClearConvertedBarrage()

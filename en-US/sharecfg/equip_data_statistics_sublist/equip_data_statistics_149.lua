@@ -9,7 +9,7 @@ pg.equip_data_statistics_149 = {
 		}
 	},
 	[21340] = {
-		name = "Single 120mm Main Gun",
+		name = "Single 120mm QF Mark IX Naval Gun",
 		speciality = "Lock",
 		type = 1,
 		tech = 3,
@@ -130,7 +130,7 @@ pg.equip_data_statistics_149 = {
 		}
 	},
 	[21400] = {
-		name = "Twin 120mm Main Gun",
+		name = "Twin 120mm Main Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		tech = 1,
@@ -219,7 +219,7 @@ pg.equip_data_statistics_149 = {
 		}
 	},
 	[21420] = {
-		name = "Twin 120mm Main Gun",
+		name = "Twin 120mm Main Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		tech = 2,

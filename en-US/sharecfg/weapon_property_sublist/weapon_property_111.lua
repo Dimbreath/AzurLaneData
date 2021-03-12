@@ -22,7 +22,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "7 x 12.7mmCannon",
+		name = "7 x 12.7mm Cannon",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,

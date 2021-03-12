@@ -10,7 +10,7 @@ pg.equip_data_statistics_384 = {
 		}
 	},
 	[90700] = {
-		name = "Single 138.6mm Main Gun (Mle 1927)",
+		name = "Single 138.6mm Mle 1927 Naval Gun",
 		speciality = "Lock",
 		type = 1,
 		tech = 1,
@@ -99,7 +99,7 @@ pg.equip_data_statistics_384 = {
 		}
 	},
 	[90720] = {
-		name = "Single 138.6mm Main Gun (Mle 1927)",
+		name = "Single 138.6mm Mle 1927 Naval Gun",
 		speciality = "Lock",
 		type = 1,
 		tech = 2,
@@ -213,7 +213,7 @@ pg.equip_data_statistics_384 = {
 		}
 	},
 	[90740] = {
-		name = "Single 138.6mm Main Gun (Mle 1927)",
+		name = "Single 138.6mm Mle 1927 Naval Gun",
 		speciality = "Lock",
 		type = 1,
 		tech = 3,

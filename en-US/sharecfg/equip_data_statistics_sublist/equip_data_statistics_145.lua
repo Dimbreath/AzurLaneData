@@ -17,7 +17,7 @@ pg.equip_data_statistics_145 = {
 		}
 	},
 	[21040] = {
-		name = "Single 102mm Secondary Gun",
+		name = "Single 102mm Secondary Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		tech = 3,
@@ -138,7 +138,7 @@ pg.equip_data_statistics_145 = {
 		}
 	},
 	[21100] = {
-		name = "Twin 102mm Secondary Gun",
+		name = "Twin 102mm Secondary Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		tech = 1,
@@ -226,7 +226,7 @@ pg.equip_data_statistics_145 = {
 		}
 	},
 	[21120] = {
-		name = "Twin 102mm Secondary Gun",
+		name = "Twin 102mm Secondary Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		tech = 2,

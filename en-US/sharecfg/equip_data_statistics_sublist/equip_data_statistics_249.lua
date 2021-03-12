@@ -90,7 +90,7 @@ pg.equip_data_statistics_249 = {
 		}
 	},
 	[36300] = {
-		name = "Triple 25mm Mounted AA Gun",
+		name = "Triple 25mm AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 1,
@@ -176,7 +176,7 @@ pg.equip_data_statistics_249 = {
 		}
 	},
 	[36320] = {
-		name = "Triple 25mm Mounted AA Gun",
+		name = "Triple 25mm AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 2,

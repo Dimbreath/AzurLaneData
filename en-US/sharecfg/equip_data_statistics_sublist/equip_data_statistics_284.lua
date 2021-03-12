@@ -185,11 +185,11 @@ pg.equip_data_statistics_284 = {
 		}
 	},
 	[42000] = {
-		name = "Single 150mm Main Gun (SK C/28)",
+		name = "Single 150mm SK C/28 Main Gun Mount",
 		speciality = "Lock",
 		type = 2,
 		tech = 1,
-		descrip = "The Single 150mm Main Gun (SK C/28) may be used by light cruisers and most destroyers.",
+		descrip = "The Single 150mm SK C/28 Main Gun Mount may be used by light cruisers and most destroyers.",
 		value_2 = 5,
 		icon = "42000",
 		attribute_2 = "cannon",

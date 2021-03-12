@@ -21,7 +21,7 @@ pg.equip_data_statistics_23 = {
 		base = 1020
 	},
 	[1040] = {
-		name = "Repair Toolkit",
+		name = "Ship Maintenance Facility",
 		tech = 3,
 		type = 10,
 		speciality = "N/A",

@@ -42,7 +42,7 @@ pg.equip_data_statistics_230 = {
 		}
 	},
 	[34160] = {
-		name = "410mm Mounted Gun (Type 3 Shell)",
+		name = "Twin 410mm (Type 3 Shell) Naval Gun Mount",
 		speciality = "Scatter",
 		type = 4,
 		attribute_3 = "antiaircraft",

@@ -9,7 +9,7 @@ pg.equip_data_statistics_187 = {
 		}
 	},
 	[26540] = {
-		name = "Twin 113mm AA Gun",
+		name = "Twin 113mm AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 3,

@@ -28,7 +28,7 @@ pg.equip_data_statistics_91 = {
 		}
 	},
 	[12200] = {
-		name = "Prototype Triple 152mm Main Gun (DP MK17)",
+		name = "Prototype Triple 152mm DP Mk 17 Main Gun Mount",
 		speciality = "Lock",
 		type = 2,
 		attribute_3 = "antiaircraft",

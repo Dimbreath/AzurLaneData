@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.equip_data_statistics_180 = {
 	[26200] = {
-		name = "Octuple 40mm Pom Pom Gun",
+		name = "Octuple 40mm Pom-Pom Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 1,
@@ -111,7 +111,7 @@ pg.equip_data_statistics_180 = {
 		}
 	},
 	[26220] = {
-		name = "Octuple 40mm Pom Pom Gun",
+		name = "Octuple 40mm Pom-Pom Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 2,

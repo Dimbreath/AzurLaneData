@@ -103,7 +103,7 @@ pg.equip_data_statistics_320 = {
 		}
 	},
 	[48020] = {
-		name = "Fi-167",
+		name = "Fi 167",
 		type = 8,
 		speciality = "Torpedo",
 		rarity = 4,

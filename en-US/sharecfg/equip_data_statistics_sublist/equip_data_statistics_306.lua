@@ -34,7 +34,7 @@ pg.equip_data_statistics_306 = {
 		}
 	},
 	[45400] = {
-		name = "G7e Acoustic Guided Torpedo",
+		name = "G7e Acoustic Homing Submarine Torpedo",
 		speciality = "Torpedo",
 		type = 13,
 		tech = 1,
@@ -141,7 +141,7 @@ pg.equip_data_statistics_306 = {
 		}
 	},
 	[45420] = {
-		name = "G7e Acoustic Guided Torpedo",
+		name = "G7e Acoustic Homing Submarine Torpedo",
 		speciality = "Torpedo",
 		type = 13,
 		tech = 2,

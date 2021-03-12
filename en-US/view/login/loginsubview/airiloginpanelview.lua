@@ -67,7 +67,7 @@ function slot0.InitEvent(slot0)
 	onButton(slot0, slot0.airiLoginBtn, function ()
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CONFIRM)
 
-		if not getProxy(SettingsProxy):getUserAgreement() then
+		if getProxy(SettingsProxy):CheckNeedUserAgreement() then
 			uv0.event:emit(LoginMediator.ON_LOGIN_PROCESS)
 		elseif not uv1() then
 			pg.SdkMgr.GetInstance():AiriLoginSDK()

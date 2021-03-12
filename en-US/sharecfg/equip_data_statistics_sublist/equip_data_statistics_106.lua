@@ -60,7 +60,7 @@ pg.equip_data_statistics_106 = {
 		}
 	},
 	[14500] = {
-		name = "Prototype Twin 457mm Main Gun (18\" MKA)",
+		name = "Prototype Twin 457mm Mk A Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 0,

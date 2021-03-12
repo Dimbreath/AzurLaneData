@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.equip_data_statistics_92 = {
 	[13000] = {
-		name = "Triple 203mm Main Gun",
+		name = "Triple 203mm Main Gun Mount (Improved)",
 		speciality = "Lock",
 		type = 3,
 		tech = 1,
@@ -83,7 +83,7 @@ pg.equip_data_statistics_92 = {
 		}
 	},
 	[13020] = {
-		name = "Triple 203mm Main Gun",
+		name = "Triple 203mm Main Gun Mount (Improved)",
 		speciality = "Lock",
 		type = 3,
 		tech = 2,
@@ -166,7 +166,7 @@ pg.equip_data_statistics_92 = {
 		}
 	},
 	[13040] = {
-		name = "Triple 203mm Main Gun",
+		name = "Triple 203mm Main Gun Mount (Improved)",
 		speciality = "Lock",
 		type = 3,
 		tech = 3,
@@ -281,7 +281,7 @@ pg.equip_data_statistics_92 = {
 		}
 	},
 	[13060] = {
-		name = "Triple 203mm Main Gun Mount Mk13",
+		name = "Triple 203mm Mk 13 Main Gun Mount",
 		speciality = "Lock",
 		type = 3,
 		tech = 0,

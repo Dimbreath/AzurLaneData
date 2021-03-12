@@ -42,11 +42,11 @@ pg.equip_data_statistics_288 = {
 		}
 	},
 	[42200] = {
-		name = "Twin 150mm Main Gun (TbtsK C/36)",
+		name = "Twin 150mm TbtsK C/36 Main Gun Mount",
 		speciality = "Lock",
 		type = 2,
 		tech = 1,
-		descrip = "The Twin 150mm Main Gun (TbtsK C/36) is a 1936A type destroyer gun which may be used by light carriers and most destroyers.",
+		descrip = "The Twin 150mm TbtsK C/36 Main Gun Mount is a 1936A type destroyer gun which may be used by light carriers and most destroyers.",
 		value_2 = 5,
 		icon = "42200",
 		attribute_2 = "cannon",
@@ -126,11 +126,11 @@ pg.equip_data_statistics_288 = {
 		}
 	},
 	[42220] = {
-		name = "Twin 150mm Main Gun (TbtsK C/36)",
+		name = "Twin 150mm TbtsK C/36 Main Gun Mount",
 		speciality = "Lock",
 		type = 2,
 		tech = 2,
-		descrip = "The Twin 150mm Main Gun (TbtsK C/36) is a 1936A type destroyer gun which may be used by light carriers and most destroyers.",
+		descrip = "The Twin 150mm TbtsK C/36 Main Gun Mount is a 1936A type destroyer gun which may be used by light carriers and most destroyers.",
 		value_2 = 12,
 		icon = "42200",
 		attribute_2 = "cannon",
@@ -234,11 +234,11 @@ pg.equip_data_statistics_288 = {
 		}
 	},
 	[42240] = {
-		name = "Twin 150mm Main Gun (TbtsK C/36)",
+		name = "Twin 150mm TbtsK C/36 Main Gun Mount",
 		speciality = "Lock",
 		type = 2,
 		tech = 3,
-		descrip = "The Twin 150mm Main Gun (TbtsK C/36) is a 1936A type destroyer gun which may be used by light carriers and most destroyers.",
+		descrip = "The Twin 150mm TbtsK C/36 Main Gun Mount is a 1936A type destroyer gun which may be used by light carriers and most destroyers.",
 		value_2 = 25,
 		icon = "42200",
 		attribute_2 = "cannon",

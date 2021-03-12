@@ -111,7 +111,7 @@ pg.equip_data_statistics_317 = {
 		}
 	},
 	[47080] = {
-		name = "Prototype Carrier-Based Fw 190 A-5",
+		name = "Prototype Fw 190 A-5 (Carrier-based)",
 		type = 7,
 		speciality = "Air",
 		rarity = 4,

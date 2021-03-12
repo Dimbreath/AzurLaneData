@@ -9,7 +9,7 @@ pg.equip_data_statistics_181 = {
 		}
 	},
 	[26240] = {
-		name = "Octuple 40mm Pom Pom Gun",
+		name = "Octuple 40mm Pom-Pom Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 3,

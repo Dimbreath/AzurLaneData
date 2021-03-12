@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.equip_data_statistics_211 = {
 	[31020] = {
-		name = "Twin 100mm (Type 98) AA Gun",
+		name = "Twin 100mm Type 98 High-Angle Gun",
 		speciality = "Lock",
 		type = 1,
 		attribute_3 = "antiaircraft",
@@ -147,7 +147,7 @@ pg.equip_data_statistics_211 = {
 		}
 	},
 	[31040] = {
-		name = "Twin 100mm (Type 98) AA Gun",
+		name = "Twin 100mm Type 98 High-Angle Gun",
 		speciality = "Lock",
 		type = 1,
 		attribute_3 = "antiaircraft",

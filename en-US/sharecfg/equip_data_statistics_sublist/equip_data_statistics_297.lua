@@ -9,11 +9,11 @@ pg.equip_data_statistics_297 = {
 		}
 	},
 	[44140] = {
-		name = "Twin 380mm Main Gun (SK C)",
+		name = "Twin 380mm SK C/34 Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 3,
-		descrip = "The Twin 380mm Main Gun (SK C) is the main gun of Bismarck class ships, and may be used by battlecruisers and battleships.",
+		descrip = "The Twin 380mm SK C/34 Main Gun Mount is the main gun of Bismarck class ships, and may be used by battlecruisers and battleships.",
 		value_2 = 45,
 		icon = "44100",
 		attribute_2 = "cannon",
@@ -169,7 +169,7 @@ pg.equip_data_statistics_297 = {
 		}
 	},
 	[44200] = {
-		name = "Prototype Twin 406mm Main Gun (SK C/34)",
+		name = "Prototype 406mm SK C/34 Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 0,

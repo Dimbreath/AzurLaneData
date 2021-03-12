@@ -253,7 +253,7 @@ pg.equip_data_statistics_124 = {
 		}
 	},
 	[17060] = {
-		name = "Brewster F2A Buffalo (Thach Squadron)",
+		name = "F2A Buffalo (Thach Squadron)",
 		type = 7,
 		speciality = "Air",
 		rarity = 5,

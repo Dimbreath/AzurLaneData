@@ -90,11 +90,11 @@ pg.equip_data_statistics_294 = {
 		}
 	},
 	[44000] = {
-		name = "Triple 283mm Main Gun (SK C/34)",
+		name = "Triple 283mm SK C/34 Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 1,
-		descrip = "The Triple 283mm Main Gun (SK C/34) is the main gun of Scharnhorst class ships, and may be used by battlecruisers and battleships.",
+		descrip = "The Triple 283mm SK C/34 Main Gun Mount is the main gun of Scharnhorst class ships, and may be used by battlecruisers and battleships.",
 		value_2 = 5,
 		icon = "44000",
 		attribute_2 = "cannon",
@@ -166,11 +166,11 @@ pg.equip_data_statistics_294 = {
 		}
 	},
 	[44020] = {
-		name = "Triple 283mm Main Gun (SK C/34)",
+		name = "Triple 283mm SK C/34 Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 2,
-		descrip = "The Triple 283mm Main Gun (SK C/34) is the main gun of Scharnhorst class ships, and may be used by battlecruisers and battleships.",
+		descrip = "The Triple 283mm SK C/34 Main Gun Mount is the main gun of Scharnhorst class ships, and may be used by battlecruisers and battleships.",
 		value_2 = 12,
 		icon = "44000",
 		attribute_2 = "cannon",

@@ -45,7 +45,7 @@ pg.equip_data_statistics_263 = {
 		}
 	},
 	[37240] = {
-		name = "A6M5 Zero",
+		name = "Type 0 Fighter Model 52",
 		type = 7,
 		speciality = "Air",
 		rarity = 5,

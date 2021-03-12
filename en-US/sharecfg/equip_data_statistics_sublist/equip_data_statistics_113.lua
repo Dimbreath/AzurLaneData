@@ -26,7 +26,7 @@ pg.equip_data_statistics_113 = {
 		}
 	},
 	[15240] = {
-		name = "533mm Quintuple Torpedo Mount Mk17",
+		name = "533mm Quintuple Torpedo Mount Mk 17",
 		speciality = "Torpedo",
 		type = 5,
 		tech = 0,

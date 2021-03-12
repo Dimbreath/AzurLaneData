@@ -15,7 +15,7 @@ pg.equip_data_statistics_16 = {
 		value_1 = "23"
 	},
 	[740] = {
-		name = "Fl 282 Helicopter",
+		name = "Fl 282 Kolibri",
 		tech = 0,
 		type = 17,
 		speciality = "N/A",

@@ -10,7 +10,7 @@ pg.equip_data_statistics_234 = {
 		}
 	},
 	[34300] = {
-		name = "410mm Breech-Loading Naval Gun Kai",
+		name = "Twin 410mm Kai Naval Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 0,
@@ -152,7 +152,7 @@ pg.equip_data_statistics_234 = {
 		}
 	},
 	[35000] = {
-		name = "Twin 610mm Torpedo",
+		name = "610mm Twin Torpedo Mount",
 		speciality = "Torpedo",
 		type = 5,
 		tech = 1,

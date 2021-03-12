@@ -52,7 +52,7 @@ pg.equip_data_statistics_255 = {
 		}
 	},
 	[36580] = {
-		name = "80mm High-Angle Gun",
+		name = "Single 80mm AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 0,

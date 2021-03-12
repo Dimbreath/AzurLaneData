@@ -26,7 +26,7 @@ pg.equip_data_statistics_45 = {
 		base = 2420
 	},
 	[2440] = {
-		name = "Repair Tools",
+		name = "Repair Toolkit",
 		tech = 3,
 		type = 10,
 		speciality = "N/A",
@@ -34,7 +34,7 @@ pg.equip_data_statistics_45 = {
 		value_2 = 0,
 		icon = "2400",
 		value_1 = "200",
-		descrip = "Repair tools allow for ships to repair themselves when damaged.",
+		descrip = "Repair Toolkit allow for ships to repair themselves when damaged.",
 		rarity = 4,
 		nationality = 0,
 		ammo = 10,

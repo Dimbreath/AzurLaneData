@@ -17,7 +17,7 @@ pg.equip_data_statistics_361 = {
 		}
 	},
 	[85320] = {
-		name = "Triple 406mm Main Gun (B-37 MK1)",
+		name = "Triple 406mm MK-1 Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 2,
@@ -150,7 +150,7 @@ pg.equip_data_statistics_361 = {
 		}
 	},
 	[85360] = {
-		name = "Twin 100mm DP AA Gun (B-34 MZ-14)",
+		name = "Twin 100mm B-34 MZ-14 Dual-Purpose AA Gun",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 1,

@@ -58,7 +58,7 @@ pg.equip_data_statistics_385 = {
 		}
 	},
 	[90780] = {
-		name = "Twin 155mm Main Gun (Mle 1920)",
+		name = "Twin 155mm Mle 1920 Main Gun Mount",
 		speciality = "Lock",
 		type = 2,
 		tech = 0,
@@ -174,7 +174,7 @@ pg.equip_data_statistics_385 = {
 		}
 	},
 	[90800] = {
-		name = "Single 155mm Secondary Gun (Mle 1920)",
+		name = "Single 155mm Mle 1920 Secondary Gun Mount",
 		speciality = "Lock",
 		type = 2,
 		tech = 0,

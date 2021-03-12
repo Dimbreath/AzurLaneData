@@ -105856,6 +105856,801 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[16440] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94756,
+		type = 36,
+		name = "WWF联动每日任务扫荡作战",
+		count_inherit = 0,
+		desc = "Claim victory 10 times.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16440,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				190,
+				250
+			}
+		}
+	},
+	[16441] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94757,
+		type = 36,
+		name = "WWF联动每日任务每日挑战",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges.",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16441,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				190,
+				250
+			}
+		}
+	},
+	[16442] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94758,
+		type = 36,
+		name = "WWF联动每日任务每日困难",
+		count_inherit = 0,
+		desc = "Sortie and clear 3 non-event Hard Mode Stage.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16442,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				190,
+				250
+			}
+		}
+	},
+	[16443] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94759,
+		type = 36,
+		name = "WWF联动每日任务后宅补给",
+		count_inherit = 0,
+		desc = "Resupply the Dorm with Snacks 1 times.",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 8,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16443,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				190,
+				250
+			}
+		}
+	},
+	[16444] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94740,
+		type = 6,
+		name = "WWF联动击破旗舰任务1",
+		count_inherit = 16445,
+		desc = "Destroy 10 enemy flagships.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16444,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				190,
+				250
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16445] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94741,
+		type = 6,
+		name = "WWF联动击破旗舰任务2",
+		count_inherit = 16446,
+		desc = "Destroy 20 enemy flagships.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16445,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				190,
+				250
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16446] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94742,
+		type = 6,
+		name = "WWF联动击破旗舰任务3",
+		count_inherit = 16447,
+		desc = "Destroy 30 enemy flagships.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16446,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				190,
+				250
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16447] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94743,
+		type = 6,
+		name = "WWF联动击破旗舰任务4",
+		count_inherit = 0,
+		desc = "Destroy 40 enemy flagships.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16447,
+		target_num = 40,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				190,
+				250
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16448] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94744,
+		type = 6,
+		name = "WWF联动出击任务1",
+		count_inherit = 16449,
+		desc = "Claim victory 20 times.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16448,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				190,
+				250
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16449] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94745,
+		type = 6,
+		name = "WWF联动出击任务2",
+		count_inherit = 16450,
+		desc = "Claim victory 40 times.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16449,
+		target_num = 40,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				190,
+				250
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16450] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94746,
+		type = 6,
+		name = "WWF联动出击任务3",
+		count_inherit = 16451,
+		desc = "Claim victory 60 times.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16450,
+		target_num = 60,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				190,
+				250
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16451] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94747,
+		type = 6,
+		name = "WWF联动出击任务4",
+		count_inherit = 0,
+		desc = "Claim victory 80 times.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16451,
+		target_num = 80,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				190,
+				250
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16452] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94748,
+		type = 6,
+		name = "WWF联动委托任务1",
+		count_inherit = 16453,
+		desc = "Complete 10 commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16452,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				190,
+				250
+			}
+		}
+	},
+	[16453] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94749,
+		type = 6,
+		name = "WWF联动委托任务2",
+		count_inherit = 16454,
+		desc = "Complete 20 commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16453,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				190,
+				250
+			}
+		}
+	},
+	[16454] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94750,
+		type = 6,
+		name = "WWF联动委托任务3",
+		count_inherit = 16455,
+		desc = "Complete 30 commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16454,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				190,
+				250
+			}
+		}
+	},
+	[16455] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94751,
+		type = 6,
+		name = "WWF联动委托任务4",
+		count_inherit = 0,
+		desc = "Complete 40 commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16455,
+		target_num = 40,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				190,
+				250
+			}
+		}
+	},
+	[16456] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94752,
+		type = 6,
+		name = "WWF联动石油任务1",
+		count_inherit = 16457,
+		desc = "Spent a total of 1,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16456,
+		target_num = 1000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				190,
+				250
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16457] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94753,
+		type = 6,
+		name = "WWF联动石油任务2",
+		count_inherit = 16458,
+		desc = "Spent a total of 2,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16457,
+		target_num = 2000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				190,
+				250
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16458] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94754,
+		type = 6,
+		name = "WWF联动石油任务3",
+		count_inherit = 16459,
+		desc = "Spent a total of 3,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16458,
+		target_num = 3000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				190,
+				250
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16459] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94755,
+		type = 6,
+		name = "WWF联动石油任务4",
+		count_inherit = 0,
+		desc = "Spent a total of 4,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16459,
+		target_num = 4000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				190,
+				250
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[16460] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94760,
+		type = 46,
+		name = "WWF联动每周任务大规模歼灭作战",
+		count_inherit = 0,
+		desc = "Destroy 20 enemy flagships.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16460,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				190,
+				500
+			}
+		}
+	},
+	[16461] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94761,
+		type = 46,
+		name = "WWF联动每周任务大规模扫荡作战",
+		count_inherit = 0,
+		desc = "Destroy a total of 1000 enemy ships.",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16461,
+		target_num = 1000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				190,
+				500
+			}
+		}
+	},
 	[31013] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -116819,7 +117614,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			}
 		}
 	},
-	[999969] = {
+	[1100001] = {
 		is_head = 1,
 		guild_coin_award = 0,
 		award = 8371,
@@ -116839,7 +117634,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 1050001,
-		id = 999969,
+		id = 1100001,
 		target_num = 1,
 		fix_task = 0,
 		target_id = "1050001",
@@ -116857,7 +117652,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			}
 		}
 	},
-	[999970] = {
+	[1100002] = {
 		is_head = 0,
 		guild_coin_award = 0,
 		award = 8372,
@@ -116877,7 +117672,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 1050002,
-		id = 999970,
+		id = 1100002,
 		target_num = 1,
 		fix_task = 0,
 		target_id = "1050002",
@@ -116895,7 +117690,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			}
 		}
 	},
-	[999971] = {
+	[1100003] = {
 		is_head = 0,
 		guild_coin_award = 0,
 		award = 8373,
@@ -116915,7 +117710,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 1050003,
-		id = 999971,
+		id = 1100003,
 		target_num = 1,
 		fix_task = 0,
 		target_id = "1050003",
@@ -116933,7 +117728,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			}
 		}
 	},
-	[999972] = {
+	[1100004] = {
 		is_head = 1,
 		guild_coin_award = 0,
 		award = 8374,
@@ -116953,7 +117748,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 1050001,
-		id = 999972,
+		id = 1100004,
 		target_num = 1,
 		fix_task = 0,
 		target_id = "1050001",
@@ -116966,7 +117761,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			}
 		}
 	},
-	[999973] = {
+	[1100005] = {
 		is_head = 0,
 		guild_coin_award = 0,
 		award = 8375,
@@ -116986,7 +117781,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 1050002,
-		id = 999973,
+		id = 1100005,
 		target_num = 1,
 		fix_task = 0,
 		target_id = "1050002",
@@ -117004,7 +117799,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			}
 		}
 	},
-	[999974] = {
+	[1100006] = {
 		is_head = 0,
 		guild_coin_award = 0,
 		award = 8376,
@@ -117024,7 +117819,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 1050003,
-		id = 999974,
+		id = 1100006,
 		target_num = 1,
 		fix_task = 0,
 		target_id = "1050003",
@@ -117037,7 +117832,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			}
 		}
 	},
-	[999975] = {
+	[1100007] = {
 		is_head = 1,
 		guild_coin_award = 0,
 		award = 8377,
@@ -117057,7 +117852,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 0,
 		story_id = "",
 		target_id_for_client = 1050003,
-		id = 999975,
+		id = 1100007,
 		target_num = 5,
 		fix_task = 0,
 		target_id = "1050003",
@@ -117070,7 +117865,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			}
 		}
 	},
-	[999976] = {
+	[1100008] = {
 		is_head = 1,
 		guild_coin_award = 0,
 		award = 8378,
@@ -117090,7 +117885,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 0,
 		story_id = "",
 		target_id_for_client = 1050003,
-		id = 999976,
+		id = 1100008,
 		target_num = 10,
 		fix_task = 0,
 		target_id = "1050003",
@@ -117103,7 +117898,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			}
 		}
 	},
-	[999977] = {
+	[1100009] = {
 		is_head = 1,
 		guild_coin_award = 0,
 		award = 8379,
@@ -117123,7 +117918,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 0,
 		story_id = "",
 		target_id_for_client = 1050003,
-		id = 999977,
+		id = 1100009,
 		target_num = 15,
 		fix_task = 0,
 		target_id = "1050003",
@@ -117136,7 +117931,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			}
 		}
 	},
-	[999978] = {
+	[1100010] = {
 		is_head = 1,
 		guild_coin_award = 0,
 		award = 8380,
@@ -117156,7 +117951,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 0,
 		story_id = "",
 		target_id_for_client = 1050003,
-		id = 999978,
+		id = 1100010,
 		target_num = 20,
 		fix_task = 0,
 		target_id = "1050003",
@@ -117169,7 +117964,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			}
 		}
 	},
-	[999979] = {
+	[1100011] = {
 		is_head = 1,
 		guild_coin_award = 0,
 		award = 8381,
@@ -117189,7 +117984,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 0,
 		story_id = "",
 		target_id_for_client = 1050003,
-		id = 999979,
+		id = 1100011,
 		target_num = 25,
 		fix_task = 0,
 		target_id = "1050003",
@@ -117202,7 +117997,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			}
 		}
 	},
-	[999980] = {
+	[1100012] = {
 		is_head = 1,
 		guild_coin_award = 0,
 		award = 8382,
@@ -117222,7 +118017,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 0,
 		story_id = "",
 		target_id_for_client = 1050003,
-		id = 999980,
+		id = 1100012,
 		target_num = 30,
 		fix_task = 0,
 		target_id = "1050003",
@@ -117235,7 +118030,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			}
 		}
 	},
-	[999981] = {
+	[1100013] = {
 		is_head = 1,
 		guild_coin_award = 0,
 		award = 8383,
@@ -117255,7 +118050,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 0,
 		story_id = "",
 		target_id_for_client = 1050003,
-		id = 999981,
+		id = 1100013,
 		target_num = 35,
 		fix_task = 0,
 		target_id = "1050003",
@@ -117268,7 +118063,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			}
 		}
 	},
-	[999982] = {
+	[1100014] = {
 		is_head = 1,
 		guild_coin_award = 0,
 		award = 8384,
@@ -117288,7 +118083,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 0,
 		story_id = "",
 		target_id_for_client = 1050003,
-		id = 999982,
+		id = 1100014,
 		target_num = 40,
 		fix_task = 0,
 		target_id = "1050003",
@@ -117301,7 +118096,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			}
 		}
 	},
-	[999983] = {
+	[1100015] = {
 		is_head = 1,
 		guild_coin_award = 0,
 		award = 8385,
@@ -117321,7 +118116,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 0,
 		story_id = "",
 		target_id_for_client = 1050003,
-		id = 999983,
+		id = 1100015,
 		target_num = 45,
 		fix_task = 0,
 		target_id = "1050003",
@@ -117334,7 +118129,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			}
 		}
 	},
-	[999984] = {
+	[1100016] = {
 		is_head = 1,
 		guild_coin_award = 0,
 		award = 8386,
@@ -117354,7 +118149,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 0,
 		story_id = "",
 		target_id_for_client = 1050003,
-		id = 999984,
+		id = 1100016,
 		target_num = 50,
 		fix_task = 0,
 		target_id = "1050003",
@@ -117367,7 +118162,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			}
 		}
 	},
-	[999985] = {
+	[1100017] = {
 		is_head = 1,
 		guild_coin_award = 0,
 		award = 8387,
@@ -117387,7 +118182,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 0,
 		story_id = "",
 		target_id_for_client = 1050003,
-		id = 999985,
+		id = 1100017,
 		target_num = 55,
 		fix_task = 0,
 		target_id = "1050003",
@@ -117400,7 +118195,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			}
 		}
 	},
-	[999986] = {
+	[1100018] = {
 		is_head = 1,
 		guild_coin_award = 0,
 		award = 8388,
@@ -117420,7 +118215,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 0,
 		story_id = "",
 		target_id_for_client = 1050003,
-		id = 999986,
+		id = 1100018,
 		target_num = 60,
 		fix_task = 0,
 		target_id = "1050003",
@@ -117433,7 +118228,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			}
 		}
 	},
-	[999987] = {
+	[1100019] = {
 		is_head = 1,
 		guild_coin_award = 0,
 		award = 1092571,
@@ -117452,7 +118247,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 0,
-		id = 999987,
+		id = 1100019,
 		target_num = 500,
 		fix_task = 0,
 		target_id = "0",
@@ -117478,7 +118273,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			"LEVEL"
 		}
 	},
-	[999988] = {
+	[1100020] = {
 		is_head = 0,
 		guild_coin_award = 0,
 		award = 1092572,
@@ -117497,7 +118292,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 0,
-		id = 999988,
+		id = 1100020,
 		target_num = 1000,
 		fix_task = 0,
 		target_id = "0",
@@ -117523,7 +118318,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			"LEVEL"
 		}
 	},
-	[999989] = {
+	[1100021] = {
 		is_head = 0,
 		guild_coin_award = 0,
 		award = 1092573,
@@ -117542,7 +118337,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 0,
-		id = 999989,
+		id = 1100021,
 		target_num = 1500,
 		fix_task = 0,
 		target_id = "0",
@@ -117568,7 +118363,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			"LEVEL"
 		}
 	},
-	[999990] = {
+	[1100022] = {
 		is_head = 0,
 		guild_coin_award = 0,
 		award = 1092574,
@@ -117587,7 +118382,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 0,
-		id = 999990,
+		id = 1100022,
 		target_num = 2000,
 		fix_task = 0,
 		target_id = "0",
@@ -117613,7 +118408,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			"LEVEL"
 		}
 	},
-	[999991] = {
+	[1100023] = {
 		is_head = 0,
 		guild_coin_award = 0,
 		award = 1092575,
@@ -117632,7 +118427,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 0,
-		id = 999991,
+		id = 1100023,
 		target_num = 2500,
 		fix_task = 0,
 		target_id = "0",
@@ -117658,7 +118453,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			"LEVEL"
 		}
 	},
-	[999992] = {
+	[1100024] = {
 		is_head = 0,
 		guild_coin_award = 0,
 		award = 1092576,
@@ -117677,7 +118472,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 0,
-		id = 999992,
+		id = 1100024,
 		target_num = 3000,
 		fix_task = 0,
 		target_id = "0",
@@ -117703,7 +118498,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			"LEVEL"
 		}
 	},
-	[999993] = {
+	[1100025] = {
 		is_head = 0,
 		guild_coin_award = 0,
 		award = 1092577,
@@ -117722,7 +118517,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 0,
-		id = 999993,
+		id = 1100025,
 		target_num = 4000,
 		fix_task = 0,
 		target_id = "0",
@@ -117748,7 +118543,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			"LEVEL"
 		}
 	},
-	[999994] = {
+	[1100026] = {
 		is_head = 0,
 		guild_coin_award = 0,
 		award = 1092578,
@@ -117767,7 +118562,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 0,
-		id = 999994,
+		id = 1100026,
 		target_num = 5000,
 		fix_task = 0,
 		target_id = "0",
@@ -117793,7 +118588,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			"LEVEL"
 		}
 	},
-	[999995] = {
+	[1100027] = {
 		is_head = 0,
 		guild_coin_award = 0,
 		award = 1092579,
@@ -117812,7 +118607,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 0,
-		id = 999995,
+		id = 1100027,
 		target_num = 6000,
 		fix_task = 0,
 		target_id = "0",
@@ -117838,7 +118633,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			"LEVEL"
 		}
 	},
-	[999996] = {
+	[1100028] = {
 		is_head = 0,
 		guild_coin_award = 0,
 		award = 1092580,
@@ -117857,7 +118652,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 0,
-		id = 999996,
+		id = 1100028,
 		target_num = 7000,
 		fix_task = 0,
 		target_id = "0",
@@ -117883,7 +118678,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			"LEVEL"
 		}
 	},
-	[999997] = {
+	[1100029] = {
 		is_head = 0,
 		guild_coin_award = 0,
 		award = 1092581,
@@ -117902,7 +118697,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 0,
-		id = 999997,
+		id = 1100029,
 		target_num = 8000,
 		fix_task = 0,
 		target_id = "0",
@@ -117928,7 +118723,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			"LEVEL"
 		}
 	},
-	[999998] = {
+	[1100030] = {
 		is_head = 0,
 		guild_coin_award = 0,
 		award = 1092582,
@@ -117947,7 +118742,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 0,
-		id = 999998,
+		id = 1100030,
 		target_num = 9000,
 		fix_task = 0,
 		target_id = "0",
@@ -117973,7 +118768,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			"LEVEL"
 		}
 	},
-	[999999] = {
+	[1100031] = {
 		is_head = 0,
 		guild_coin_award = 0,
 		award = 1092583,
@@ -117992,7 +118787,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 0,
-		id = 999999,
+		id = 1100031,
 		target_num = 10000,
 		fix_task = 0,
 		target_id = "0",
@@ -118018,7 +118813,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			"LEVEL"
 		}
 	},
-	[1000000] = {
+	[1100032] = {
 		is_head = 0,
 		guild_coin_award = 0,
 		award = 1092584,
@@ -118037,7 +118832,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 0,
-		id = 1000000,
+		id = 1100032,
 		target_num = 11000,
 		fix_task = 0,
 		target_id = "0",
@@ -118063,7 +118858,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			"LEVEL"
 		}
 	},
-	[1000001] = {
+	[1100033] = {
 		is_head = 0,
 		guild_coin_award = 0,
 		award = 1092585,
@@ -118082,7 +118877,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 0,
-		id = 1000001,
+		id = 1100033,
 		target_num = 12000,
 		fix_task = 0,
 		target_id = "0",
@@ -118108,7 +118903,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			"LEVEL"
 		}
 	},
-	[1000002] = {
+	[1100034] = {
 		is_head = 0,
 		guild_coin_award = 0,
 		award = 1092586,
@@ -118127,7 +118922,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 0,
-		id = 1000002,
+		id = 1100034,
 		target_num = 13000,
 		fix_task = 0,
 		target_id = "0",
@@ -118153,7 +118948,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			"LEVEL"
 		}
 	},
-	[1000003] = {
+	[1100035] = {
 		is_head = 0,
 		guild_coin_award = 0,
 		award = 1092587,
@@ -118172,7 +118967,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 0,
-		id = 1000003,
+		id = 1100035,
 		target_num = 14000,
 		fix_task = 0,
 		target_id = "0",
@@ -118198,7 +118993,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			"LEVEL"
 		}
 	},
-	[1000004] = {
+	[1100036] = {
 		is_head = 0,
 		guild_coin_award = 0,
 		award = 1092588,
@@ -118217,7 +119012,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 0,
-		id = 1000004,
+		id = 1100036,
 		target_num = 15000,
 		fix_task = 0,
 		target_id = "0",
@@ -121026,6 +121821,28 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		16417,
 		16418,
 		16419,
+		16440,
+		16441,
+		16442,
+		16443,
+		16444,
+		16445,
+		16446,
+		16447,
+		16448,
+		16449,
+		16450,
+		16451,
+		16452,
+		16453,
+		16454,
+		16455,
+		16456,
+		16457,
+		16458,
+		16459,
+		16460,
+		16461,
 		31013,
 		31014,
 		31015,
@@ -121329,41 +122146,41 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		999966,
 		999967,
 		999968,
-		999969,
-		999970,
-		999971,
-		999972,
-		999973,
-		999974,
-		999975,
-		999976,
-		999977,
-		999978,
-		999979,
-		999980,
-		999981,
-		999982,
-		999983,
-		999984,
-		999985,
-		999986,
-		999987,
-		999988,
-		999989,
-		999990,
-		999991,
-		999992,
-		999993,
-		999994,
-		999995,
-		999996,
-		999997,
-		999998,
-		999999,
-		1000000,
-		1000001,
-		1000002,
-		1000003,
-		1000004
+		1100001,
+		1100002,
+		1100003,
+		1100004,
+		1100005,
+		1100006,
+		1100007,
+		1100008,
+		1100009,
+		1100010,
+		1100011,
+		1100012,
+		1100013,
+		1100014,
+		1100015,
+		1100016,
+		1100017,
+		1100018,
+		1100019,
+		1100020,
+		1100021,
+		1100022,
+		1100023,
+		1100024,
+		1100025,
+		1100026,
+		1100027,
+		1100028,
+		1100029,
+		1100030,
+		1100031,
+		1100032,
+		1100033,
+		1100034,
+		1100035,
+		1100036
 	}
 }

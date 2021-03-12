@@ -68,7 +68,7 @@ pg.equip_data_statistics_97 = {
 		}
 	},
 	[14100] = {
-		name = "Triple 356mm Main Gun",
+		name = "Triple 356mm Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 1,
@@ -143,7 +143,7 @@ pg.equip_data_statistics_97 = {
 		}
 	},
 	[14120] = {
-		name = "Triple 356mm Main Gun",
+		name = "Triple 356mm Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 2,
@@ -220,7 +220,7 @@ pg.equip_data_statistics_97 = {
 		}
 	},
 	[14140] = {
-		name = "Triple 356mm Main Gun",
+		name = "Triple 356mm Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 3,

@@ -33,7 +33,7 @@ pg.equip_data_statistics_219 = {
 		}
 	},
 	[32100] = {
-		name = "140mm Mounted Gun",
+		name = "Twin 140mm Naval Gun Mount",
 		speciality = "Scatter",
 		type = 2,
 		tech = 1,
@@ -116,7 +116,7 @@ pg.equip_data_statistics_219 = {
 		}
 	},
 	[32120] = {
-		name = "140mm Mounted Gun",
+		name = "Twin 140mm Naval Gun Mount",
 		speciality = "Scatter",
 		type = 2,
 		tech = 2,
@@ -223,7 +223,7 @@ pg.equip_data_statistics_219 = {
 		}
 	},
 	[32140] = {
-		name = "140mm Mounted Gun",
+		name = "Twin 140mm Naval Gun Mount",
 		speciality = "Scatter",
 		type = 2,
 		tech = 3,

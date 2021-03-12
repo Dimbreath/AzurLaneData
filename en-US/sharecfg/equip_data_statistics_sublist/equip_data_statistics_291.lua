@@ -1,11 +1,11 @@
 pg = pg or {}
 pg.equip_data_statistics_291 = {
 	[43020] = {
-		name = "Twin 203mm Main Gun (SK C)",
+		name = "Twin 203mm Mle 1924 Submarine Gun Mount",
 		speciality = "Lock",
 		type = 3,
 		tech = 2,
-		descrip = "The Twin 203mm Main Gun (SK C) is the main gun of Admiral Hipper class cruisers. May be used by heavy cruisers.",
+		descrip = "The Twin 203mm Mle 1924 Submarine Gun Mount is the main gun of Admiral Hipper class cruisers. May be used by heavy cruisers.",
 		value_2 = 25,
 		icon = "43000",
 		attribute_2 = "cannon",
@@ -140,11 +140,11 @@ pg.equip_data_statistics_291 = {
 		}
 	},
 	[43040] = {
-		name = "Twin 203mm Main Gun (SK C)",
+		name = "Twin 203mm Mle 1924 Submarine Gun Mount",
 		speciality = "Lock",
 		type = 3,
 		tech = 3,
-		descrip = "The Twin 203mm Main Gun (SK C) is the main gun of Admiral Hipper class cruisers. May be used by heavy cruisers.",
+		descrip = "The Twin 203mm Mle 1924 Submarine Gun Mount is the main gun of Admiral Hipper class cruisers. May be used by heavy cruisers.",
 		value_2 = 45,
 		icon = "43000",
 		attribute_2 = "cannon",

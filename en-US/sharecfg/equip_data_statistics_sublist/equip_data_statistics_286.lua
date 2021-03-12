@@ -183,11 +183,11 @@ pg.equip_data_statistics_286 = {
 		}
 	},
 	[42100] = {
-		name = "Triple 150mm Main Gun (SK C/25)",
+		name = "Triple 150mm SK C/25 Main Gun Mount",
 		speciality = "Lock",
 		type = 2,
 		tech = 1,
-		descrip = "The Triple 150mm Main Gun (SK C/25) may be used by light cruisers and most destroyers.",
+		descrip = "The Triple 150mm SK C/25 Main Gun Mount may be used by light cruisers and most destroyers.",
 		value_2 = 5,
 		icon = "42100",
 		attribute_2 = "cannon",

@@ -62,7 +62,7 @@ pg.equip_data_statistics_37 = {
 		value_1 = "260"
 	},
 	[1900] = {
-		name = "Navy Camouflage",
+		name = "Naval Camouflage",
 		tech = 1,
 		type = 10,
 		speciality = "N/A",
@@ -111,7 +111,7 @@ pg.equip_data_statistics_37 = {
 		base = 1900
 	},
 	[1920] = {
-		name = "Navy Camouflage",
+		name = "Naval Camouflage",
 		tech = 2,
 		type = 10,
 		speciality = "N/A",

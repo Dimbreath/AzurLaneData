@@ -13,7 +13,7 @@ pg.equip_data_statistics_50 = {
 		base = 2720
 	},
 	[2740] = {
-		name = "533mm Acoustic Torpedo ",
+		name = "533mm Magnetic Torpedo",
 		tech = 3,
 		type = 10,
 		speciality = "N/A",
@@ -23,7 +23,7 @@ pg.equip_data_statistics_50 = {
 		value_1 = "28",
 		attribute_2 = "hit",
 		rarity = 5,
-		descrip = "A 533mm acoustic torpedo for surface ship use. These torpedoes home in on their target using equipment that tracks their acoustic signature. ",
+		descrip = "A 533mm Magnetic Torpedo for surface ship use. These torpedoes home in on their target using equipment that tracks their acoustic signature. ",
 		nationality = 4,
 		ammo = 10,
 		value_3 = 0,
@@ -139,7 +139,7 @@ pg.equip_data_statistics_50 = {
 		value_1 = "85"
 	},
 	[2800] = {
-		name = "Type 94 AA Device",
+		name = "Type 94 Anti-Air Fire Control System",
 		tech = 0,
 		type = 10,
 		speciality = "N/A",

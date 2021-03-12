@@ -41,7 +41,7 @@ pg.equip_data_statistics_248 = {
 		}
 	},
 	[36200] = {
-		name = "25mm Mounted AA Gun",
+		name = "Twin 25mm AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 1,
@@ -127,7 +127,7 @@ pg.equip_data_statistics_248 = {
 		}
 	},
 	[36220] = {
-		name = "25mm Mounted AA Gun",
+		name = "Twin 25mm AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 2,
@@ -237,7 +237,7 @@ pg.equip_data_statistics_248 = {
 		}
 	},
 	[36240] = {
-		name = "25mm Mounted AA Gun",
+		name = "Twin 25mm AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 3,

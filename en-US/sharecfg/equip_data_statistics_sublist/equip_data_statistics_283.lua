@@ -49,7 +49,7 @@ pg.equip_data_statistics_283 = {
 		}
 	},
 	[41140] = {
-		name = "Twin 128mm Dual Gun (SK C/41)",
+		name = "Twin 128mm SK C/41 Dual-Purpose Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		attribute_3 = "antiaircraft",
@@ -57,7 +57,7 @@ pg.equip_data_statistics_283 = {
 		value_2 = 15,
 		icon = "41100",
 		attribute_2 = "cannon",
-		descrip = "The Twin 128mm Dual Gun (SK C/41) was developed by Vickers Engineering for enhanced anti-aircraft capabilities.",
+		descrip = "The Twin 128mm SK C/41 Dual-Purpose Gun Mount was developed by Vickers Engineering for enhanced anti-aircraft capabilities.",
 		rarity = 4,
 		damage = "5 x 4",
 		nationality = 4,

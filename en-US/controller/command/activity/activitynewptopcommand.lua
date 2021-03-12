@@ -52,6 +52,16 @@ function slot0.execute(slot0, slot1)
 						break
 					end
 				end
+			elseif uv0.cmd == 5 then
+				slot2 = slot0.number[1]
+				uv1.data1 = uv1.data1 + slot2
+				slot3 = getProxy(PlayerProxy)
+				slot4 = slot3:getRawData()
+
+				slot4:consume({
+					[id2res(uv0.arg1)] = slot2
+				})
+				slot3:updatePlayer(slot4)
 			end
 
 			uv2:updateActivity(uv1)

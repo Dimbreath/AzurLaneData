@@ -76,7 +76,7 @@ pg.equip_data_statistics_227 = {
 		}
 	},
 	[34000] = {
-		name = "356mm Mounted Gun",
+		name = "Twin 356mm Naval Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 1,
@@ -151,7 +151,7 @@ pg.equip_data_statistics_227 = {
 		}
 	},
 	[34020] = {
-		name = "356mm Mounted Gun",
+		name = "Twin 356mm Naval Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 2,

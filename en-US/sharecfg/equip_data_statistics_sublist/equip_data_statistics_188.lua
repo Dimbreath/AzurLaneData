@@ -100,7 +100,7 @@ pg.equip_data_statistics_188 = {
 		}
 	},
 	[26620] = {
-		name = "Twin 40mm Bofors \"Hazemeyer\" AA Gun",
+		name = "Twin 40mm Bofors \"Hazemeyer\" AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		attribute_3 = "hit",

@@ -170,7 +170,7 @@ pg.equip_data_statistics_275 = {
 		}
 	},
 	[39100] = {
-		name = "Comet",
+		name = "Suisei",
 		type = 9,
 		speciality = "Bomber",
 		rarity = 3,
@@ -352,7 +352,7 @@ pg.equip_data_statistics_275 = {
 		}
 	},
 	[39120] = {
-		name = "Comet",
+		name = "Suisei",
 		type = 9,
 		speciality = "Bomber",
 		rarity = 4,

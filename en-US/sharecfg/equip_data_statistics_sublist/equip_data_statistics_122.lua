@@ -49,7 +49,7 @@ pg.equip_data_statistics_122 = {
 		}
 	},
 	[16420] = {
-		name = "Quadruple 40mm Bofors Gun",
+		name = "Quadruple 40mm Bofors AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 2,

@@ -172,7 +172,7 @@ pg.equip_data_statistics_269 = {
 		}
 	},
 	[38100] = {
-		name = "Nakajima B6N Tenzan",
+		name = "Tenzan",
 		type = 8,
 		speciality = "Torpedo",
 		rarity = 2,
@@ -275,7 +275,7 @@ pg.equip_data_statistics_269 = {
 		}
 	},
 	[38120] = {
-		name = "Nakajima B6N Tenzan",
+		name = "Tenzan",
 		type = 8,
 		speciality = "Torpedo",
 		rarity = 3,

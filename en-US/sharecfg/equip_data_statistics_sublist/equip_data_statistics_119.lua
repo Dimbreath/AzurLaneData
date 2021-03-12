@@ -34,7 +34,7 @@ pg.equip_data_statistics_119 = {
 		}
 	},
 	[16200] = {
-		name = "Quadruple 28mm Chicago Piano",
+		name = "Quadruple 28mm \"Chicago Piano\" AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 1,
@@ -120,7 +120,7 @@ pg.equip_data_statistics_119 = {
 		}
 	},
 	[16220] = {
-		name = "Quadruple 28mm Chicago Piano",
+		name = "Quadruple 28mm \"Chicago Piano\" AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 2,
@@ -230,7 +230,7 @@ pg.equip_data_statistics_119 = {
 		}
 	},
 	[16240] = {
-		name = "Quadruple 28mm Chicago Piano",
+		name = "Quadruple 28mm \"Chicago Piano\" AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 3,

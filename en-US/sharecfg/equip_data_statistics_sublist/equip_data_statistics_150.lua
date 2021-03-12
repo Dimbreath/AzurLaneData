@@ -25,7 +25,7 @@ pg.equip_data_statistics_150 = {
 		}
 	},
 	[21440] = {
-		name = "Twin 120mm Main Gun",
+		name = "Twin 120mm Main Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		tech = 3,
@@ -179,7 +179,7 @@ pg.equip_data_statistics_150 = {
 		}
 	},
 	[21460] = {
-		name = "Twin 120mm Dual-Purpose Gun Mount MkXI",
+		name = "Twin 120mm Mk XI Dual-Purpose Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		attribute_3 = "antiaircraft",

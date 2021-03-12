@@ -49,11 +49,11 @@ pg.equip_data_statistics_170 = {
 		}
 	},
 	[24340] = {
-		name = "Twin 381mm Advanced Main Gun",
+		name = "Twin 381mm Advanced Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 0,
-		descrip = "Twin 381mm Advanced Main Gun",
+		descrip = "Twin 381mm Advanced Main Gun Mount",
 		value_2 = 45,
 		icon = "24300",
 		attribute_2 = "cannon",

@@ -57,11 +57,11 @@ pg.equip_data_statistics_303 = {
 		}
 	},
 	[45220] = {
-		name = "Quintuple 533mm Magnetic Torpedo",
+		name = "533mm Quintuple Magnetic Torpedo Mount ",
 		speciality = "Torpedo",
 		type = 5,
 		tech = 2,
-		descrip = "The Quintuple 533mm Magnetic Torpedo was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
+		descrip = "The 533mm Quintuple Magnetic Torpedo Mount  was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
 		value_2 = 45,
 		icon = "45200",
 		attribute_2 = "torpedo",

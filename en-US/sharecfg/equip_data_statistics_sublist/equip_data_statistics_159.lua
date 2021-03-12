@@ -9,7 +9,7 @@ pg.equip_data_statistics_159 = {
 		}
 	},
 	[23020] = {
-		name = "Twin 203mm Main Gun",
+		name = "Twin 203mm Mk VIII Main Gun Mount",
 		speciality = "Lock",
 		type = 3,
 		tech = 2,
@@ -116,7 +116,7 @@ pg.equip_data_statistics_159 = {
 		}
 	},
 	[23040] = {
-		name = "Twin 203mm Main Gun",
+		name = "Twin 203mm Mk VIII Main Gun Mount",
 		speciality = "Lock",
 		type = 3,
 		tech = 3,

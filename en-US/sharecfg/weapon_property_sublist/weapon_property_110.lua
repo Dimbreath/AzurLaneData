@@ -364,7 +364,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "1 x 7.92mm MGCannon",
+		name = "1 x 7.92mm MG Cannon",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,

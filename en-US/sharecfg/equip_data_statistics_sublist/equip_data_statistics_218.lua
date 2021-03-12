@@ -9,7 +9,7 @@ pg.equip_data_statistics_218 = {
 		}
 	},
 	[32020] = {
-		name = "Single 140mm Main Gun",
+		name = "Single 140mm Naval Gun",
 		speciality = "Lock",
 		type = 2,
 		tech = 2,
@@ -92,7 +92,7 @@ pg.equip_data_statistics_218 = {
 		}
 	},
 	[32040] = {
-		name = "Single 140mm Main Gun",
+		name = "Single 140mm Naval Gun",
 		speciality = "Lock",
 		type = 2,
 		tech = 3,
@@ -207,7 +207,7 @@ pg.equip_data_statistics_218 = {
 		}
 	},
 	[32060] = {
-		name = "Single 152mm Naval Gun",
+		name = "Single 152mm Pattern 1892 Naval Gun Mount",
 		speciality = "Lock",
 		type = 2,
 		tech = 3,

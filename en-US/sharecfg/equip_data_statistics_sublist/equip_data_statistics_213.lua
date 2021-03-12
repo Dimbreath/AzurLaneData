@@ -26,7 +26,7 @@ pg.equip_data_statistics_213 = {
 		}
 	},
 	[31100] = {
-		name = "Single 120mm Main Gun",
+		name = "Single 120mm Type 3 Naval Gun",
 		speciality = "Lock",
 		type = 1,
 		tech = 1,
@@ -114,7 +114,7 @@ pg.equip_data_statistics_213 = {
 		}
 	},
 	[31120] = {
-		name = "Single 120mm Main Gun",
+		name = "Single 120mm Type 3 Naval Gun",
 		speciality = "Lock",
 		type = 1,
 		tech = 2,
@@ -203,7 +203,7 @@ pg.equip_data_statistics_213 = {
 		}
 	},
 	[31140] = {
-		name = "Single 120mm Main Gun",
+		name = "Single 120mm Type 3 Naval Gun",
 		speciality = "Lock",
 		type = 1,
 		tech = 3,

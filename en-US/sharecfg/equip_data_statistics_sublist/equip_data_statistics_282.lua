@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.equip_data_statistics_282 = {
 	[41060] = {
-		name = "127mm KM40 Twin Gun Mount",
+		name = "Twin 127mm KM40 Main Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		tech = 0,
@@ -157,7 +157,7 @@ pg.equip_data_statistics_282 = {
 		}
 	},
 	[41100] = {
-		name = "Twin 128mm Dual Gun (SK C/41)",
+		name = "Twin 128mm SK C/41 Dual-Purpose Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		attribute_3 = "antiaircraft",
@@ -165,7 +165,7 @@ pg.equip_data_statistics_282 = {
 		value_2 = 3,
 		icon = "41100",
 		attribute_2 = "cannon",
-		descrip = "The Twin 128mm Dual Gun (SK C/41) was developed by Vickers Engineering for enhanced anti-aircraft capabilities.",
+		descrip = "The Twin 128mm SK C/41 Dual-Purpose Gun Mount was developed by Vickers Engineering for enhanced anti-aircraft capabilities.",
 		rarity = 2,
 		damage = "4 x 4",
 		nationality = 4,
@@ -249,7 +249,7 @@ pg.equip_data_statistics_282 = {
 		}
 	},
 	[41120] = {
-		name = "Twin 128mm Dual Gun (SK C/41)",
+		name = "Twin 128mm SK C/41 Dual-Purpose Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		attribute_3 = "antiaircraft",
@@ -257,7 +257,7 @@ pg.equip_data_statistics_282 = {
 		value_2 = 7,
 		icon = "41100",
 		attribute_2 = "cannon",
-		descrip = "The Twin 128mm Dual Gun (SK C/41) was developed by Vickers Engineering for enhanced anti-aircraft capabilities.",
+		descrip = "The Twin 128mm SK C/41 Dual-Purpose Gun Mount was developed by Vickers Engineering for enhanced anti-aircraft capabilities.",
 		rarity = 3,
 		damage = "4 x 4",
 		nationality = 4,

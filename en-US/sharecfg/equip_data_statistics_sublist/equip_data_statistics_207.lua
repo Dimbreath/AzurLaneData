@@ -35,7 +35,7 @@ pg.equip_data_statistics_207 = {
 		}
 	},
 	[29100] = {
-		name = "Fairey Fulmar",
+		name = "Fulmar",
 		type = 9,
 		speciality = "Bomber",
 		rarity = 2,
@@ -138,7 +138,7 @@ pg.equip_data_statistics_207 = {
 		}
 	},
 	[29120] = {
-		name = "Fairey Fulmar",
+		name = "Fulmar",
 		type = 9,
 		speciality = "Bomber",
 		rarity = 3,
@@ -292,7 +292,7 @@ pg.equip_data_statistics_207 = {
 		}
 	},
 	[29140] = {
-		name = "Fairey Fulmar",
+		name = "Fulmar",
 		type = 9,
 		speciality = "Bomber",
 		rarity = 4,

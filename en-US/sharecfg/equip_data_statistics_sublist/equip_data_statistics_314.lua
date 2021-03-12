@@ -92,7 +92,7 @@ pg.equip_data_statistics_314 = {
 		}
 	},
 	[46360] = {
-		name = "Twin 105mm SK C/33 na Anti-Air Gun Mount",
+		name = "Twin 105mm SK C/33 na AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 0,

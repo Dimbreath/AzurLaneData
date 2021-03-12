@@ -50,7 +50,7 @@ pg.equip_data_statistics_90 = {
 		}
 	},
 	[12160] = {
-		name = "Triple 152mm Main Gun Mount Mk16",
+		name = "Triple 152mm Mk 16 Main Gun Mount",
 		speciality = "Lock",
 		type = 2,
 		tech = 0,

@@ -9,7 +9,7 @@ pg.equip_data_statistics_379 = {
 		}
 	},
 	[90220] = {
-		name = "Triple 152mm Main Gun (Mle 1930)",
+		name = "Triple 152mm Mle 1930 Main Gun Mount",
 		speciality = "Scatter",
 		type = 2,
 		tech = 2,
@@ -92,7 +92,7 @@ pg.equip_data_statistics_379 = {
 		}
 	},
 	[90240] = {
-		name = "Triple 152mm Main Gun (Mle 1930)",
+		name = "Triple 152mm Mle 1930 Main Gun Mount",
 		speciality = "Scatter",
 		type = 2,
 		tech = 3,
@@ -208,7 +208,7 @@ pg.equip_data_statistics_379 = {
 		}
 	},
 	[90300] = {
-		name = "Quadruple 330mm Main Gun (Mle 1931)",
+		name = "Quadruple 330mm Mle 1931 Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 1,

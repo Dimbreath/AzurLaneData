@@ -74,7 +74,7 @@ pg.equip_data_statistics_118 = {
 		}
 	},
 	[16160] = {
-		name = "Quadruple 20mm Oerlikon High-Angle Gun Mount Mk15",
+		name = "Quadruple 20mm Mk 15 Oerlikon AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 0,

@@ -19,12 +19,12 @@ pg.equip_data_statistics_308 = {
 		}
 	},
 	[46000] = {
-		name = "Quadruple 20mm Machine Gun",
+		name = "Quadruple 20mm Flakvierling Machine Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 1,
 		rarity = 1,
-		descrip = "Quadruple 20mm Machine Gun used for anti-air defense.",
+		descrip = "Quadruple 20mm Flakvierling Machine Gun Mount used for anti-air defense.",
 		value_2 = 0,
 		icon = "46000",
 		damage = "17/wave",
@@ -104,11 +104,11 @@ pg.equip_data_statistics_308 = {
 		}
 	},
 	[46020] = {
-		name = "Quadruple 20mm Machine Gun",
+		name = "Quadruple 20mm Flakvierling Machine Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 2,
-		descrip = "Quadruple 20mm Machine Gun used for anti-air defense.",
+		descrip = "Quadruple 20mm Flakvierling Machine Gun Mount used for anti-air defense.",
 		value_2 = 5,
 		icon = "46000",
 		attribute_2 = "antiaircraft",
@@ -190,11 +190,11 @@ pg.equip_data_statistics_308 = {
 		}
 	},
 	[46040] = {
-		name = "Quadruple 20mm Machine Gun",
+		name = "Quadruple 20mm Flakvierling Machine Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 3,
-		descrip = "Quadruple 20mm Machine Gun used for anti-air defense.",
+		descrip = "Quadruple 20mm Flakvierling Machine Gun Mount used for anti-air defense.",
 		value_2 = 12,
 		icon = "46000",
 		attribute_2 = "antiaircraft",

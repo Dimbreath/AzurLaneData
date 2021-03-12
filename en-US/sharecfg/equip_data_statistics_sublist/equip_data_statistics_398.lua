@@ -50,7 +50,7 @@ pg.equip_data_statistics_398 = {
 		}
 	},
 	[95460] = {
-		name = "Twin 120mm Main Gun (M1933)",
+		name = "Twin 120mm M1933 Main Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		tech = 0,
@@ -171,7 +171,7 @@ pg.equip_data_statistics_398 = {
 		}
 	},
 	[95480] = {
-		name = "Triple 320mm Main Gun (M1934)",
+		name = "Triple 320mm M1934 Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 0,

@@ -68,7 +68,7 @@ pg.equip_data_statistics_212 = {
 		}
 	},
 	[31060] = {
-		name = "100mm Type 88 Naval Gun",
+		name = "Single 100mm Type 88 Naval Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		tech = 0,

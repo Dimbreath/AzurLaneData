@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.equip_data_statistics_123 = {
 	[16440] = {
-		name = "Quadruple 40mm Bofors Gun",
+		name = "Quadruple 40mm Bofors AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 3,

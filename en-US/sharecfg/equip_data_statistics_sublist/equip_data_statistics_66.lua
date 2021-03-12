@@ -41,7 +41,7 @@ pg.equip_data_statistics_66 = {
 		}
 	},
 	[4300] = {
-		name = "TBM-3 Avenger (Anti-Sub)",
+		name = "TBM-3 Avenger (ASW)",
 		type = 15,
 		speciality = "Anti\nsubmarine",
 		rarity = 2,
@@ -124,7 +124,7 @@ pg.equip_data_statistics_66 = {
 		}
 	},
 	[4320] = {
-		name = "TBM-3 Avenger (Anti-Sub)",
+		name = "TBM-3 Avenger (ASW)",
 		type = 15,
 		speciality = "Anti\nsubmarine",
 		rarity = 3,
@@ -246,7 +246,7 @@ pg.equip_data_statistics_66 = {
 		}
 	},
 	[4340] = {
-		name = "TBM-3 Avenger (Anti-Sub)",
+		name = "TBM-3 Avenger (ASW)",
 		type = 15,
 		speciality = "Anti\nsubmarine",
 		rarity = 4,

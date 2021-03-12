@@ -155,7 +155,7 @@ pg.equip_data_statistics_64 = {
 		}
 	},
 	[4200] = {
-		name = "Swordfish Mark II-ASV (Anti-Sub)",
+		name = "Swordfish Mk II-ASV (ASW)",
 		type = 15,
 		speciality = "Anti\nsubmarine",
 		rarity = 2,

@@ -31,7 +31,7 @@ pg.activity_event_question = {
 		answer_false2 = "Gangrene"
 	},
 	[18] = {
-		question = "Which of the following is now a ship bow type?",
+		question = "Which of the following is not a ship bow type?",
 		answer_right = "Armored",
 		answer_false1 = "Bulbous",
 		type = 1,

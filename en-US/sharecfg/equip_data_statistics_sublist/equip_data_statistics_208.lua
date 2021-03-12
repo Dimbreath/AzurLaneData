@@ -138,7 +138,7 @@ pg.equip_data_statistics_208 = {
 		}
 	},
 	[29200] = {
-		name = "Fairey Firefly",
+		name = "Firefly",
 		type = 9,
 		speciality = "Bomber",
 		rarity = 5,

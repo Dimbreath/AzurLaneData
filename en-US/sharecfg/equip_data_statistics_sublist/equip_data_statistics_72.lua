@@ -25,7 +25,7 @@ pg.equip_data_statistics_72 = {
 		}
 	},
 	[5340] = {
-		name = "Twin 550mm Torpedo",
+		name = "550mm Twin Torpedo Launcher",
 		speciality = "Torpedo",
 		type = 5,
 		tech = 3,
@@ -143,7 +143,7 @@ pg.equip_data_statistics_72 = {
 		}
 	},
 	[5400] = {
-		name = "Triple 550mm Torpedo",
+		name = "550mm Triple Torpedo Launcher",
 		speciality = "Torpedo",
 		type = 5,
 		tech = 1,
@@ -229,7 +229,7 @@ pg.equip_data_statistics_72 = {
 		}
 	},
 	[5420] = {
-		name = "Triple 550mm Torpedo",
+		name = "550mm Triple Torpedo Launcher",
 		speciality = "Torpedo",
 		type = 5,
 		tech = 2,

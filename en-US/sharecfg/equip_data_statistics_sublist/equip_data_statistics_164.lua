@@ -76,7 +76,7 @@ pg.equip_data_statistics_164 = {
 		}
 	},
 	[24060] = {
-		name = "Twin 356mm Main Gun Mount Mk VII ",
+		name = "Twin 356mm Mk VII Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 0,

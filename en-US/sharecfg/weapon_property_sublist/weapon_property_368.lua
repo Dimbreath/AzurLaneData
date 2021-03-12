@@ -2,6 +2,222 @@ pg = pg or {}
 pg.weapon_property_368 = {}
 
 function ()
+	uv0.weapon_property_368[1003068] = {
+		id = 1003068,
+		name = "【量产型】梦境航母轰炸机T1 (飞机 III",
+		base = 1001068,
+		bullet_ID = {}
+	}
+	uv0.weapon_property_368[1003069] = {
+		id = 1003069,
+		name = "【量产型】梦境航母轰炸机T1 (飞机 IV",
+		base = 1001069,
+		bullet_ID = {}
+	}
+	uv0.weapon_property_368[1003070] = {
+		id = 1003070,
+		name = "【量产型】梦境航母轰炸机T1 (飞机 V",
+		base = 1001070,
+		bullet_ID = {}
+	}
+	uv0.weapon_property_368[1003071] = {
+		id = 1003071,
+		name = "【量产型】梦境航母战斗机T1 (飞机 I",
+		base = 1001071,
+		bullet_ID = {}
+	}
+	uv0.weapon_property_368[1003072] = {
+		id = 1003072,
+		name = "【量产型】梦境航母战斗机T1 (飞机 II",
+		base = 1001072,
+		bullet_ID = {}
+	}
+	uv0.weapon_property_368[1003073] = {
+		id = 1003073,
+		name = "【量产型】梦境航母战斗机T1 (飞机 III",
+		base = 1001073,
+		bullet_ID = {}
+	}
+	uv0.weapon_property_368[1003074] = {
+		id = 1003074,
+		name = "【量产型】梦境航母战斗机T1 (飞机 IV",
+		base = 1001074,
+		bullet_ID = {}
+	}
+	uv0.weapon_property_368[1003075] = {
+		id = 1003075,
+		name = "【量产型】梦境航母战斗机T1 (飞机 V",
+		base = 1001075,
+		bullet_ID = {}
+	}
+	uv0.weapon_property_368[1003076] = {
+		id = 1003076,
+		name = "【量产型】梦境航母轰炸机武器 I",
+		base = 1001076
+	}
+	uv0.weapon_property_368[1003077] = {
+		id = 1003077,
+		name = "【量产型】梦境航母轰炸机武器 II",
+		base = 1001077
+	}
+	uv0.weapon_property_368[1003078] = {
+		id = 1003078,
+		name = "【量产型】梦境航母轰炸机武器 III",
+		base = 1001078
+	}
+	uv0.weapon_property_368[1003079] = {
+		id = 1003079,
+		name = "【量产型】梦境航母轰炸机武器 IV",
+		base = 1001079
+	}
+	uv0.weapon_property_368[1003080] = {
+		id = 1003080,
+		name = "【量产型】梦境航母轰炸机武器 V",
+		base = 1001080
+	}
+	uv0.weapon_property_368[1003081] = {
+		id = 1003081,
+		name = "【量产型】梦境航母战斗机弹幕 I",
+		base = 1001081,
+		bullet_ID = {
+			20006,
+			20006,
+			20006,
+			20006
+		}
+	}
+	uv0.weapon_property_368[1003082] = {
+		id = 1003082,
+		name = "【量产型】梦境航母战斗机弹幕 II",
+		base = 1001082,
+		bullet_ID = {
+			20006,
+			20006,
+			20006,
+			20006
+		}
+	}
+	uv0.weapon_property_368[1003083] = {
+		id = 1003083,
+		name = "【量产型】梦境航母战斗机弹幕 III",
+		base = 1001083,
+		bullet_ID = {
+			20006,
+			20006,
+			20006,
+			20006
+		}
+	}
+	uv0.weapon_property_368[1003084] = {
+		id = 1003084,
+		name = "【量产型】梦境航母战斗机弹幕 IV",
+		base = 1001084,
+		bullet_ID = {
+			20006,
+			20006,
+			20006,
+			20006
+		}
+	}
+	uv0.weapon_property_368[1003085] = {
+		id = 1003085,
+		name = "【量产型】梦境航母战斗机弹幕 V",
+		base = 1001085,
+		bullet_ID = {
+			20006,
+			20006,
+			20006,
+			20006
+		}
+	}
+	uv0.weapon_property_368[1003086] = {
+		id = 1003086,
+		name = "【量产型】梦境航母战斗机空中 I",
+		base = 1001086
+	}
+	uv0.weapon_property_368[1003087] = {
+		id = 1003087,
+		name = "【量产型】梦境航母战斗机空中 II",
+		base = 1001087
+	}
+	uv0.weapon_property_368[1003088] = {
+		id = 1003088,
+		name = "【量产型】梦境航母战斗机空中 III",
+		base = 1001088
+	}
+	uv0.weapon_property_368[1003089] = {
+		id = 1003089,
+		name = "【量产型】梦境航母战斗机空中 IV",
+		base = 1001089
+	}
+	uv0.weapon_property_368[1003090] = {
+		id = 1003090,
+		name = "【量产型】梦境航母战斗机空中 V",
+		base = 1001090
+	}
+	uv0.weapon_property_368[1003091] = {
+		name = "【量产型】梦境塞壬潜艇单发鱼雷弹幕1",
+		base = 1100695,
+		id = 1003091,
+		bullet_ID = {
+			839
+		},
+		oxy_type = {
+			2
+		}
+	}
+	uv0.weapon_property_368[1003092] = {
+		name = "【量产型】梦境塞壬潜艇单发鱼雷弹幕2",
+		base = 1100696,
+		id = 1003092,
+		bullet_ID = {
+			839
+		},
+		oxy_type = {
+			2
+		}
+	}
+	uv0.weapon_property_368[1003093] = {
+		name = "【量产型】梦境塞壬潜艇单发鱼雷弹幕3",
+		base = 1100697,
+		id = 1003093,
+		bullet_ID = {
+			839
+		},
+		oxy_type = {
+			2
+		}
+	}
+	uv0.weapon_property_368[1003094] = {
+		name = "【量产型】梦境塞壬潜艇单发鱼雷弹幕4",
+		base = 1100698,
+		id = 1003094,
+		bullet_ID = {
+			839
+		},
+		oxy_type = {
+			2
+		}
+	}
+	uv0.weapon_property_368[1003095] = {
+		name = "【量产型】梦境塞壬潜艇单发鱼雷弹幕5",
+		base = 1100699,
+		id = 1003095,
+		bullet_ID = {
+			839
+		},
+		oxy_type = {
+			2
+		}
+	}
+	uv0.weapon_property_368[1003096] = {
+		id = 1003096,
+		name = "【量产型】梦境塞壬潜艇上浮主炮弹幕1",
+		base = 1100710,
+		bullet_ID = {
+			831
+		}
+	}
 	uv0.weapon_property_368[1003097] = {
 		id = 1003097,
 		name = "【量产型】梦境塞壬潜艇上浮主炮弹幕2",
@@ -273,255 +489,6 @@ function ()
 			831,
 			831,
 			831
-		}
-	}
-	uv0.weapon_property_368[1003127] = {
-		id = 1003127,
-		name = "【精英】梦境追迹者 瞄准连射 II",
-		base = 1001127,
-		bullet_ID = {
-			831,
-			831,
-			831,
-			831
-		}
-	}
-	uv0.weapon_property_368[1003128] = {
-		id = 1003128,
-		name = "【精英】梦境追迹者 瞄准连射 III",
-		base = 1001128,
-		bullet_ID = {
-			831,
-			831,
-			831,
-			831
-		}
-	}
-	uv0.weapon_property_368[1003129] = {
-		id = 1003129,
-		name = "【精英】梦境追迹者 瞄准连射 IV",
-		base = 1001129,
-		bullet_ID = {
-			831,
-			831,
-			831,
-			831
-		}
-	}
-	uv0.weapon_property_368[1003130] = {
-		id = 1003130,
-		name = "【精英】梦境追迹者 瞄准连射 V",
-		base = 1001130,
-		bullet_ID = {
-			831,
-			831,
-			831,
-			831
-		}
-	}
-	uv0.weapon_property_368[1003131] = {
-		id = 1003131,
-		name = "【精英】梦境追迹者 三联装鱼雷 I",
-		base = 1001131,
-		bullet_ID = {
-			838
-		}
-	}
-	uv0.weapon_property_368[1003132] = {
-		id = 1003132,
-		name = "【精英】梦境追迹者 三联装鱼雷 II",
-		base = 1001132,
-		bullet_ID = {
-			838
-		}
-	}
-	uv0.weapon_property_368[1003133] = {
-		id = 1003133,
-		name = "【精英】梦境追迹者 三联装鱼雷 III",
-		base = 1001133,
-		bullet_ID = {
-			838
-		}
-	}
-	uv0.weapon_property_368[1003134] = {
-		id = 1003134,
-		name = "【精英】梦境追迹者 三联装鱼雷 IV",
-		base = 1001134,
-		bullet_ID = {
-			838
-		}
-	}
-	uv0.weapon_property_368[1003135] = {
-		id = 1003135,
-		name = "【精英】梦境追迹者 三联装鱼雷 V",
-		base = 1001135,
-		bullet_ID = {
-			838
-		}
-	}
-	uv0.weapon_property_368[1003136] = {
-		id = 1003136,
-		name = "【精英】梦境领洋者 近程自卫火炮 I",
-		base = 1001136,
-		bullet_ID = {
-			831
-		}
-	}
-	uv0.weapon_property_368[1003137] = {
-		id = 1003137,
-		name = "【精英】梦境领洋者 近程自卫火炮 II",
-		base = 1001137,
-		bullet_ID = {
-			831
-		}
-	}
-	uv0.weapon_property_368[1003138] = {
-		id = 1003138,
-		name = "【精英】梦境领洋者 近程自卫火炮 III",
-		base = 1001138,
-		bullet_ID = {
-			831
-		}
-	}
-	uv0.weapon_property_368[1003139] = {
-		id = 1003139,
-		name = "【精英】梦境领洋者 近程自卫火炮 IV",
-		base = 1001139,
-		bullet_ID = {
-			831
-		}
-	}
-	uv0.weapon_property_368[1003140] = {
-		id = 1003140,
-		name = "【精英】梦境领洋者 近程自卫火炮 V",
-		base = 1001140,
-		bullet_ID = {
-			831
-		}
-	}
-	uv0.weapon_property_368[1003141] = {
-		id = 1003141,
-		name = "【精英】梦境领洋者 主炮1 I",
-		base = 1001141,
-		bullet_ID = {
-			835,
-			835
-		}
-	}
-	uv0.weapon_property_368[1003142] = {
-		id = 1003142,
-		name = "【精英】梦境领洋者 主炮1 II",
-		base = 1001142,
-		bullet_ID = {
-			835,
-			835
-		}
-	}
-	uv0.weapon_property_368[1003143] = {
-		id = 1003143,
-		name = "【精英】梦境领洋者 主炮1 III",
-		base = 1001143,
-		bullet_ID = {
-			835,
-			835
-		}
-	}
-	uv0.weapon_property_368[1003144] = {
-		id = 1003144,
-		name = "【精英】梦境领洋者 主炮1 IV",
-		base = 1001144,
-		bullet_ID = {
-			835,
-			835
-		}
-	}
-	uv0.weapon_property_368[1003145] = {
-		id = 1003145,
-		name = "【精英】梦境领洋者 主炮1 V",
-		base = 1001145,
-		bullet_ID = {
-			835,
-			835
-		}
-	}
-	uv0.weapon_property_368[1003146] = {
-		id = 1003146,
-		name = "【精英】梦境领洋者 主炮2 I",
-		base = 1001146,
-		bullet_ID = {
-			835
-		}
-	}
-	uv0.weapon_property_368[1003147] = {
-		id = 1003147,
-		name = "【精英】梦境领洋者 主炮2 II",
-		base = 1001147,
-		bullet_ID = {
-			835
-		}
-	}
-	uv0.weapon_property_368[1003148] = {
-		id = 1003148,
-		name = "【精英】梦境领洋者 主炮2 III",
-		base = 1001148,
-		bullet_ID = {
-			835
-		}
-	}
-	uv0.weapon_property_368[1003149] = {
-		id = 1003149,
-		name = "【精英】梦境领洋者 主炮2 IV",
-		base = 1001149,
-		bullet_ID = {
-			835
-		}
-	}
-	uv0.weapon_property_368[1003150] = {
-		id = 1003150,
-		name = "【精英】梦境领洋者 主炮2 V",
-		base = 1001150,
-		bullet_ID = {
-			835
-		}
-	}
-	uv0.weapon_property_368[1003151] = {
-		id = 1003151,
-		name = "【精英】梦境领洋者 三联装鱼雷 I",
-		base = 1001151,
-		bullet_ID = {
-			838
-		}
-	}
-	uv0.weapon_property_368[1003152] = {
-		id = 1003152,
-		name = "【精英】梦境领洋者 三联装鱼雷 II",
-		base = 1001152,
-		bullet_ID = {
-			838
-		}
-	}
-	uv0.weapon_property_368[1003153] = {
-		id = 1003153,
-		name = "【精英】梦境领洋者 三联装鱼雷 III",
-		base = 1001153,
-		bullet_ID = {
-			838
-		}
-	}
-	uv0.weapon_property_368[1003154] = {
-		id = 1003154,
-		name = "【精英】梦境领洋者 三联装鱼雷 IV",
-		base = 1001154,
-		bullet_ID = {
-			838
-		}
-	}
-	uv0.weapon_property_368[1003155] = {
-		id = 1003155,
-		name = "【精英】梦境领洋者 三联装鱼雷 V",
-		base = 1001155,
-		bullet_ID = {
-			838
 		}
 	}
 end()

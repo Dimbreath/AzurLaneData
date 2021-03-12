@@ -10,7 +10,7 @@ pg.equip_data_statistics_256 = {
 		}
 	},
 	[36600] = {
-		name = "127mm Mounted AA Gun",
+		name = "Twin 127mm AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 1,
@@ -96,7 +96,7 @@ pg.equip_data_statistics_256 = {
 		}
 	},
 	[36620] = {
-		name = "127mm Mounted AA Gun",
+		name = "Twin 127mm AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 2,
@@ -206,7 +206,7 @@ pg.equip_data_statistics_256 = {
 		}
 	},
 	[36640] = {
-		name = "127mm Mounted AA Gun",
+		name = "Twin 127mm AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 3,

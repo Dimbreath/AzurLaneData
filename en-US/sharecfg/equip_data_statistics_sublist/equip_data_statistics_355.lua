@@ -17,7 +17,7 @@ pg.equip_data_statistics_355 = {
 		}
 	},
 	[85040] = {
-		name = "Twin 130mm Main Gun (B-2LM)",
+		name = "Twin 130mm B-2LM Main Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		tech = 3,
@@ -189,7 +189,7 @@ pg.equip_data_statistics_355 = {
 		}
 	},
 	[85060] = {
-		name = "Twin 100mm AA Gun (SM-5-1s)",
+		name = "Twin 100mm SM-5-1s AA Gun",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 1,

@@ -42,7 +42,7 @@ pg.equip_data_statistics_215 = {
 		}
 	},
 	[31200] = {
-		name = "127mm Mounted Gun",
+		name = "Twin 127mm Naval Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		tech = 1,
@@ -131,7 +131,7 @@ pg.equip_data_statistics_215 = {
 		}
 	},
 	[31220] = {
-		name = "127mm Mounted Gun",
+		name = "Twin 127mm Naval Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		tech = 2,
@@ -244,7 +244,7 @@ pg.equip_data_statistics_215 = {
 		}
 	},
 	[31240] = {
-		name = "127mm Mounted Gun",
+		name = "Twin 127mm Naval Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		tech = 3,

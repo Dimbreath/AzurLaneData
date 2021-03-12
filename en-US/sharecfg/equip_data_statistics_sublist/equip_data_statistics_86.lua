@@ -17,7 +17,7 @@ pg.equip_data_statistics_86 = {
 		}
 	},
 	[11220] = {
-		name = "Twin 127mm MK12 Dual Gun",
+		name = "Twin 127mm Mk 12 Dual-Purpose Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		attribute_3 = "antiaircraft",
@@ -164,7 +164,7 @@ pg.equip_data_statistics_86 = {
 		}
 	},
 	[11240] = {
-		name = "Twin 127mm MK12 Dual Gun",
+		name = "Twin 127mm Mk 12 Dual-Purpose Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		attribute_3 = "antiaircraft",

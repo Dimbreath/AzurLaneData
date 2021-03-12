@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.equip_data_statistics_177 = {
 	[26000] = {
-		name = "Twin 40mm Pom Pom Gun",
+		name = "Twin 40mm Pom-Pom AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 1,
@@ -86,7 +86,7 @@ pg.equip_data_statistics_177 = {
 		}
 	},
 	[26020] = {
-		name = "Twin 40mm Pom Pom Gun",
+		name = "Twin 40mm Pom-Pom AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 2,
@@ -172,7 +172,7 @@ pg.equip_data_statistics_177 = {
 		}
 	},
 	[26040] = {
-		name = "Twin 40mm Pom Pom Gun",
+		name = "Twin 40mm Pom-Pom AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 3,
@@ -290,7 +290,7 @@ pg.equip_data_statistics_177 = {
 		}
 	},
 	[26060] = {
-		name = "Twin 40mm Bofors High-Angle Gun MkI",
+		name = "Twin 40mm Bofors RP Mark I AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 0,

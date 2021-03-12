@@ -22,6 +22,9 @@ function slot0.init(slot0)
 	slot0.nameTF = slot0:findTF("item/name_container/name")
 	slot0.descTF = slot0:findTF("item/desc")
 	slot0.fleetInfo = slot0:findTF("fleet_info")
+
+	setText(slot0.fleetInfo:Find("top/Text"), i18n("world_ship_repair"))
+
 	slot0.shipTpl = slot0:getTpl("fleet_info/shiptpl")
 	slot0.emptyTpl = slot0:getTpl("fleet_info/emptytpl")
 	slot0.shipsContainer = slot0:findTF("fleet_info/contain")

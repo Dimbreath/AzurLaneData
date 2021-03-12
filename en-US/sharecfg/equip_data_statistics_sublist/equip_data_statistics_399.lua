@@ -41,7 +41,7 @@ pg.equip_data_statistics_399 = {
 		}
 	},
 	[95500] = {
-		name = "Twin 37mm AA Gun (M1932)",
+		name = "Twin 37mm Model 1932 AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 1,
@@ -127,7 +127,7 @@ pg.equip_data_statistics_399 = {
 		}
 	},
 	[95520] = {
-		name = "Twin 37mm AA Gun (M1932)",
+		name = "Twin 37mm Model 1932 AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 2,
@@ -237,7 +237,7 @@ pg.equip_data_statistics_399 = {
 		}
 	},
 	[95540] = {
-		name = "Twin 37mm AA Gun (M1932)",
+		name = "Twin 37mm Model 1932 AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 3,

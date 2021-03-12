@@ -9,7 +9,7 @@ pg.equip_data_statistics_364 = {
 		}
 	},
 	[85460] = {
-		name = "Triple 180mm/57 B-1-P Pattern 1932 Naval Gun",
+		name = "Triple 180mm B-1-P Pattern 1932 Main Gun Mount",
 		speciality = "Lock",
 		type = 2,
 		tech = 1,

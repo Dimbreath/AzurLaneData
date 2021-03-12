@@ -17,7 +17,7 @@ pg.equip_data_statistics_223 = {
 		}
 	},
 	[32340] = {
-		name = "152mm Mounted Gun",
+		name = "Twin 152mm Naval Gun Mount",
 		speciality = "Scatter",
 		type = 2,
 		tech = 3,
@@ -166,7 +166,7 @@ pg.equip_data_statistics_223 = {
 		}
 	},
 	[33000] = {
-		name = "203mm Mounted Gun",
+		name = "Twin 203mm Naval Gun Mount",
 		speciality = "Lock",
 		type = 3,
 		tech = 1,

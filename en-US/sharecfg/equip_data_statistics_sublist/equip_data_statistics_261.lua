@@ -134,7 +134,7 @@ pg.equip_data_statistics_261 = {
 		}
 	},
 	[37160] = {
-		name = "Type 0 Model 32",
+		name = "Type 0 Fighter Model 32",
 		type = 7,
 		speciality = "Air",
 		rarity = 4,

@@ -151,7 +151,7 @@ pg.equip_data_statistics_273 = {
 		}
 	},
 	[39000] = {
-		name = "Aichi D3A Type 99",
+		name = "Type 99 Dive Bomber",
 		type = 9,
 		speciality = "Bomber",
 		rarity = 2,
@@ -270,7 +270,7 @@ pg.equip_data_statistics_273 = {
 		}
 	},
 	[39020] = {
-		name = "Aichi D3A Type 99",
+		name = "Type 99 Dive Bomber",
 		type = 9,
 		speciality = "Bomber",
 		rarity = 3,

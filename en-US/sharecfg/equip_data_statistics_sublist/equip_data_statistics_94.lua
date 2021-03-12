@@ -9,7 +9,7 @@ pg.equip_data_statistics_94 = {
 		}
 	},
 	[13140] = {
-		name = "Triple 203mm Advanced Main Gun",
+		name = "Triple 203mm Improved Main Gun Mount",
 		speciality = "Lock",
 		type = 3,
 		tech = 3,
@@ -157,7 +157,7 @@ pg.equip_data_statistics_94 = {
 		}
 	},
 	[13160] = {
-		name = "Triple 203mm Main Gun Mount Mk15",
+		name = "Triple 203mm Mk 15 Main Gun Mount",
 		speciality = "Lock",
 		type = 3,
 		tech = 0,

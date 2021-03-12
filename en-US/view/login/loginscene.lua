@@ -265,6 +265,12 @@ end
 
 function slot0.setLastLoginServer(slot0, slot1)
 	if not slot1 then
+		setText(findTF(slot0.currentServer, "server_name"), "")
+
+		slot0.shareData.lastLoginServer = nil
+
+		slot0:updateAdviceServer()
+
 		return
 	end
 
@@ -346,7 +352,7 @@ function slot0.didEnter(slot0)
 			return
 		end
 
-		if getProxy(SettingsProxy):CheckNeedUserAgreement() and not slot0:getUserAgreement() then
+		if getProxy(SettingsProxy):CheckNeedUserAgreement() then
 			uv0.event:emit(LoginMediator.ON_LOGIN_PROCESS)
 
 			return
@@ -546,6 +552,37 @@ function slot0.updateServerList(slot0, slot1)
 
 	for slot6, slot7 in pairs(slot2) do
 		slot0:updateServerTF(cloneTplTo(slot0.serverTpl, slot0.servers), slot7)
+	end
+end
+
+function slot0.fillterRefundServer(slot0)
+	slot2 = {}
+
+	if getProxy(UserProxy).data.limitServerIds and #slot1.data.limitServerIds > 0 and slot0.serverList and #slot0.serverList > 0 then
+		slot3 = slot1.data.limitServerIds
+		slot4 = nil
+
+		for slot8, slot9 in pairs(slot0.serverList) do
+			for slot15, slot16 in pairs(slot3) do
+				if slot3[slot15] == slot9.id and not false then
+					slot4 = not slot4 and "\n" .. slot9.name or "\n" .. slot9.name .. "," .. slot9.name
+
+					table.insert(slot2, slot9)
+
+					slot11 = true
+				end
+			end
+		end
+
+		slot0:updateServerList(slot2)
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			modal = true,
+			hideNo = true,
+			hideClose = true,
+			content = i18n("login_arrears_tips", slot4),
+			onYes = function ()
+			end
+		})
 	end
 end
 

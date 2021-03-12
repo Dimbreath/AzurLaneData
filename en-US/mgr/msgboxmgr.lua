@@ -900,6 +900,13 @@ function slot1.commonSetting(slot0, slot1)
 	slot0.settings = slot1
 
 	SetActive(slot0._go, true)
+
+	if slot1 and slot1.hideClose then
+		setActive(slot0._closeBtn, false)
+	else
+		setActive(slot0._closeBtn, true)
+	end
+
 	setActive(slot0._countSelect, slot0.settings.needCounter or false)
 
 	slot3 = slot0.settings.numUpdate
@@ -1006,9 +1013,15 @@ function slot1.commonSetting(slot0, slot1)
 
 	setActive(slot0._closeBtn, not slot1.hideClose)
 	onButton(slot0, slot0._closeBtn, function ()
+		slot0 = uv0.settings.onClose
+
+		if uv0.settings and uv0.settings.hideClose and not slot0 and uv0.settings.onYes then
+			uv0.settings.onYes()
+		end
+
 		uv0:hide()
 
-		if uv0.settings.onClose then
+		if slot0 then
 			slot0()
 		else
 			uv1()

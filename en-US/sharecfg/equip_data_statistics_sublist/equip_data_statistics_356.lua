@@ -49,7 +49,7 @@ pg.equip_data_statistics_356 = {
 		}
 	},
 	[85120] = {
-		name = "Triple 152mm Main Gun (B-38 MK5)",
+		name = "Triple 152mm B-38 MK 5 Main Gun Mount",
 		speciality = "Lock",
 		type = 2,
 		tech = 1,
@@ -155,7 +155,7 @@ pg.equip_data_statistics_356 = {
 		}
 	},
 	[85140] = {
-		name = "Triple 152mm Main Gun (B-38 MK5)",
+		name = "Triple 152mm B-38 MK 5 Main Gun Mount",
 		speciality = "Lock",
 		type = 2,
 		tech = 2,

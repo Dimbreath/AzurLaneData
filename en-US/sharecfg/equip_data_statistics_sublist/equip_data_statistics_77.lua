@@ -33,7 +33,7 @@ pg.equip_data_statistics_77 = {
 		}
 	},
 	[7000] = {
-		name = "Single 152mm Main Gun",
+		name = "Single 152mm Mk XII Main Gun Mount",
 		speciality = "Normal",
 		type = 2,
 		tech = 1,
@@ -115,7 +115,7 @@ pg.equip_data_statistics_77 = {
 		}
 	},
 	[7020] = {
-		name = "Single 152mm Main Gun",
+		name = "Single 152mm Mk XII Main Gun Mount",
 		speciality = "Normal",
 		type = 2,
 		tech = 2,
@@ -198,7 +198,7 @@ pg.equip_data_statistics_77 = {
 		}
 	},
 	[7040] = {
-		name = "Single 152mm Main Gun",
+		name = "Single 152mm Mk XII Main Gun Mount",
 		speciality = "Normal",
 		type = 2,
 		tech = 3,

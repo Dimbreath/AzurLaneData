@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.equip_data_statistics_390 = {
 	[95000] = {
-		name = "Triple 381mm Main Gun (M1934)",
+		name = "Triple 381mm M1934 Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 1,
@@ -101,7 +101,7 @@ pg.equip_data_statistics_390 = {
 		}
 	},
 	[95020] = {
-		name = "Triple 381mm Main Gun (M1934)",
+		name = "Triple 381mm M1934 Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 2,

@@ -752,5 +752,14 @@ pg.activity_const = {
 	},
 	SPRING_FES_MINIGAME_SECOND = {
 		act_id = 864
+	},
+	WWF_NING_PT_ID = {
+		act_id = 914
+	},
+	WWF_PING_PT_ID = {
+		act_id = 915
+	},
+	WWF_TASK_ID = {
+		act_id = 916
 	}
 }

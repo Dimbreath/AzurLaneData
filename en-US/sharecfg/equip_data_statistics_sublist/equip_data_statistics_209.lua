@@ -89,7 +89,7 @@ pg.equip_data_statistics_209 = {
 		}
 	},
 	[29300] = {
-		name = "Fairey Barracuda (831 Squadron)",
+		name = "Barracuda (831 Squadron)",
 		type = 9,
 		speciality = "Bomber",
 		rarity = 5,

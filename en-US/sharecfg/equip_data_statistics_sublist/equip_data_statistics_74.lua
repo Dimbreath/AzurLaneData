@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.equip_data_statistics_74 = {
 	[5500] = {
-		name = "Submarine-only 550mm 24V",
+		name = "550mm 24V Submarine Torpedo",
 		speciality = "Torpedo",
 		type = 13,
 		tech = 1,
@@ -84,7 +84,7 @@ pg.equip_data_statistics_74 = {
 		}
 	},
 	[5520] = {
-		name = "Submarine-only 550mm 24V",
+		name = "550mm 24V Submarine Torpedo",
 		speciality = "Torpedo",
 		type = 13,
 		tech = 2,
@@ -191,7 +191,7 @@ pg.equip_data_statistics_74 = {
 		}
 	},
 	[5540] = {
-		name = "Submarine-only 550mm 24V",
+		name = "550mm 24V Submarine Torpedo",
 		speciality = "Torpedo",
 		type = 13,
 		tech = 3,

@@ -76,7 +76,7 @@ pg.equip_data_statistics_189 = {
 		}
 	},
 	[26640] = {
-		name = "134mm Twin High-Angle Gun",
+		name = "Twin 134mm AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		attribute_3 = "cannon",

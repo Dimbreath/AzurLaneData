@@ -10,7 +10,7 @@ pg.equip_data_statistics_153 = {
 		}
 	},
 	[21600] = {
-		name = "Twin 114mm DP (4.5\" MK IV)",
+		name = "Twin 114mm Mk IV Dual-Purpose Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		attribute_3 = "antiaircraft",
@@ -184,7 +184,7 @@ pg.equip_data_statistics_153 = {
 		}
 	},
 	[22000] = {
-		name = "Single 152mm Secondary Gun",
+		name = "Single 152mm Secondary Gun Mount",
 		speciality = "Scatter",
 		type = 2,
 		tech = 1,

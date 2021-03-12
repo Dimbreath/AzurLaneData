@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.equip_data_statistics_228 = {
 	[34040] = {
-		name = "356mm Mounted Gun",
+		name = "Twin 356mm Naval Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 3,
@@ -110,7 +110,7 @@ pg.equip_data_statistics_228 = {
 		}
 	},
 	[34060] = {
-		name = "356mm 41st-Year Type Naval Gun",
+		name = "Twin 356mm 41st Year Type Naval Gun Mount ",
 		speciality = "Volley",
 		type = 4,
 		tech = 0,
@@ -219,7 +219,7 @@ pg.equip_data_statistics_228 = {
 		}
 	},
 	[34100] = {
-		name = "410mm Mounted Gun",
+		name = "Twin 410mm Naval Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 1,

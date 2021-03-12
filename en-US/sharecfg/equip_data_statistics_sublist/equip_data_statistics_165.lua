@@ -34,7 +34,7 @@ pg.equip_data_statistics_165 = {
 		}
 	},
 	[24100] = {
-		name = "Twin 381mm Main Gun",
+		name = "Twin 381mm Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 1,
@@ -110,7 +110,7 @@ pg.equip_data_statistics_165 = {
 		}
 	},
 	[24120] = {
-		name = "Twin 381mm Main Gun",
+		name = "Twin 381mm Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 2,
@@ -211,7 +211,7 @@ pg.equip_data_statistics_165 = {
 		}
 	},
 	[24140] = {
-		name = "Twin 381mm Main Gun",
+		name = "Twin 381mm Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 3,

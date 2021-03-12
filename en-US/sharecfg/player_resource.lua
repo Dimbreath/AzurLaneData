@@ -475,6 +475,21 @@ pg.player_resource = {
 		name = "skinTicket15",
 		itemid = 59202
 	},
+	[190] = {
+		id = 190,
+		name = "wwf2",
+		itemid = 59203
+	},
+	[191] = {
+		id = 191,
+		name = "wwf2_ning",
+		itemid = 59204
+	},
+	[192] = {
+		id = 192,
+		name = "wwf2_ping",
+		itemid = 59205
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -826,6 +841,15 @@ pg.player_resource = {
 		skinTicket15 = {
 			189
 		},
+		wwf2 = {
+			190
+		},
+		wwf2_ning = {
+			191
+		},
+		wwf2_ping = {
+			192
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -962,6 +986,9 @@ pg.player_resource = {
 		187,
 		188,
 		189,
+		190,
+		191,
+		192,
 		950,
 		951,
 		1001,

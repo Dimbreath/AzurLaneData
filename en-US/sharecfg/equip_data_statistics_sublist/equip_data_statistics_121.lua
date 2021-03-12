@@ -33,7 +33,7 @@ pg.equip_data_statistics_121 = {
 		}
 	},
 	[16340] = {
-		name = "Twin 40mm Bofors Gun",
+		name = "Twin 40mm Bofors AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 3,
@@ -184,7 +184,7 @@ pg.equip_data_statistics_121 = {
 		}
 	},
 	[16400] = {
-		name = "Quadruple 40mm Bofors Gun",
+		name = "Quadruple 40mm Bofors AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 1,

@@ -2922,13 +2922,9 @@ function CreateShell(slot0)
 		return slot0
 	end
 
-	slot1 = {
+	return setmetatable({}, setmetatable({
 		__index = slot0
-	}
-
-	setmetatable(slot1, slot1)
-
-	return slot1
+	}, slot0))
 end
 
 function CameraFittingSettin(slot0)

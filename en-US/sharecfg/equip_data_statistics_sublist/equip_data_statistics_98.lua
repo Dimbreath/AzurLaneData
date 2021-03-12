@@ -57,7 +57,7 @@ pg.equip_data_statistics_98 = {
 		}
 	},
 	[14160] = {
-		name = "Prototype Quadruple 356mm Main Gun Mount MkB",
+		name = "Prototype Quadruple 356mm Mk B Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 0,

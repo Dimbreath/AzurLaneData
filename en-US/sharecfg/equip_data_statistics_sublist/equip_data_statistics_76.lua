@@ -41,7 +41,7 @@ pg.equip_data_statistics_76 = {
 		}
 	},
 	[6100] = {
-		name = "Twin 100mm AA Gun",
+		name = "Twin 100mm Mle 1931 AA Gun",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 1,
@@ -126,7 +126,7 @@ pg.equip_data_statistics_76 = {
 		}
 	},
 	[6120] = {
-		name = "Twin 100mm AA Gun",
+		name = "Twin 100mm Mle 1931 AA Gun",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 2,
@@ -212,7 +212,7 @@ pg.equip_data_statistics_76 = {
 		}
 	},
 	[6140] = {
-		name = "Twin 100mm AA Gun",
+		name = "Twin 100mm Mle 1931 AA Gun",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 3,

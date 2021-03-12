@@ -82,7 +82,7 @@ pg.equip_data_statistics_359 = {
 		}
 	},
 	[85260] = {
-		name = "Twin 100mm AA Gun (B-54)",
+		name = "Twin 100mm B-54 AA Gun",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 2,

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.equip_data_statistics_376 = {
 	[90000] = {
-		name = "Single 130mm Main Gun (Mle 1924)",
+		name = "Single 130mm Mle 1924 Naval Gun",
 		speciality = "Lock",
 		type = 1,
 		tech = 1,
@@ -89,7 +89,7 @@ pg.equip_data_statistics_376 = {
 		}
 	},
 	[90020] = {
-		name = "Single 130mm Main Gun (Mle 1924)",
+		name = "Single 130mm Mle 1924 Naval Gun",
 		speciality = "Lock",
 		type = 1,
 		tech = 2,
@@ -179,7 +179,7 @@ pg.equip_data_statistics_376 = {
 		}
 	},
 	[90040] = {
-		name = "Single 130mm Main Gun (Mle 1924)",
+		name = "Single 130mm Mle 1924 Naval Gun",
 		speciality = "Lock",
 		type = 1,
 		tech = 3,
@@ -301,7 +301,7 @@ pg.equip_data_statistics_376 = {
 		}
 	},
 	[90100] = {
-		name = "Single 138.6mm Main Gun (Mle 1929)",
+		name = "Single 138.6mm Mle 1929 Naval Gun",
 		speciality = "Lock",
 		type = 1,
 		tech = 1,

@@ -49,7 +49,7 @@ pg.equip_data_statistics_236 = {
 		}
 	},
 	[35140] = {
-		name = "Triple 610mm Torpedo",
+		name = "610mm Triple Torpedo Mount",
 		speciality = "Torpedo",
 		type = 5,
 		tech = 3,

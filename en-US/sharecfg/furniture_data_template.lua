@@ -3798,6 +3798,43 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[193] = {
+		can_rotate = 0,
+		name = "亚瑟士衣柜",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 1,
+		belong = 1,
+		rarity = 0,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "yaseshiicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/yaseshi",
+		canputon = 0,
+		count = 1,
+		describe = "",
+		advice = 0,
+		deblocking = 1,
+		id = 193,
+		comfortable = 0,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		name = "Air Pump of Friendship",
 		gain_by = "",
@@ -73691,6 +73728,1366 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[76001] = {
+		can_rotate = 0,
+		name = "Panda Paradise Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 4,
+		icon = "dibanpdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 76,
+		spine_action_replace = "",
+		picture = "pd/dibanpd",
+		canputon = 0,
+		count = 1,
+		describe = "Green, lush, and well worth the maintenance expenses.",
+		advice = 0,
+		deblocking = 1,
+		id = 76001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76002] = {
+		can_rotate = 0,
+		name = "Panda Paradise Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 3,
+		icon = "qiangbipdicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 76,
+		spine_action_replace = "",
+		picture = "pd/qiangbipd",
+		canputon = 0,
+		count = 1,
+		describe = "Pandas spend 10-16 hours a day eating! Keep them away from the wallpaper!",
+		advice = 0,
+		deblocking = 1,
+		id = 76002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76101] = {
+		can_rotate = 0,
+		name = "Small Panda Basket",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "1pdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 76,
+		spine_action_replace = "",
+		picture = "pd/1pd",
+		canputon = 0,
+		count = 1,
+		describe = "Aww, it's so adorable!",
+		advice = 0,
+		deblocking = 1,
+		id = 76101,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76102] = {
+		can_rotate = 0,
+		name = "Kung Fu Training Stumps",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "2pdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "Pd/2pd",
+		canputon = 0,
+		themeId = 76,
+		count = 1,
+		describe = "Unlikely to be used as intended.",
+		advice = 0,
+		id = 76102,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-95,
+					-17
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					97,
+					-1
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-5,
+					-45
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76103] = {
+		can_rotate = 0,
+		name = "Stumpy Seat",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "3pdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 76,
+		spine_action_replace = "",
+		picture = "Pd/3pd",
+		canputon = 0,
+		count = 1,
+		describe = "Pandas sometimes will do handstands to mark their territory!",
+		advice = 0,
+		deblocking = 1,
+		id = 76103,
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76104] = {
+		can_rotate = 0,
+		name = "Fresh Bamboo Shoot",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "4pdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 76,
+		spine_action_replace = "",
+		picture = "Pd/4pd",
+		canputon = 0,
+		count = 2,
+		describe = "Pandas need two different species of bamboo to avoid starvation!",
+		advice = 0,
+		deblocking = 1,
+		id = 76104,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76105] = {
+		can_rotate = 0,
+		name = "Ordinary Rock",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "5pdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 76,
+		spine_action_replace = "",
+		picture = "Pd/5pd",
+		canputon = 0,
+		count = 2,
+		describe = "An ordinary decorative rock.",
+		advice = 0,
+		deblocking = 1,
+		id = 76105,
+		comfortable = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76106] = {
+		can_rotate = 0,
+		name = "Panda Photo Stand-In",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "6pdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "Pd/6pd",
+		canputon = 0,
+		themeId = 76,
+		count = 1,
+		describe = "Now you too can become a panda!",
+		advice = 0,
+		id = 76106,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-43,
+					-70
+				},
+				{
+					-1,
+					1
+				},
+				"pd/6pd"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76107] = {
+		can_rotate = 0,
+		name = "Panda Paradise Jungle Gym",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "7pdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "Pd/7pd",
+		canputon = 0,
+		themeId = 76,
+		count = 1,
+		describe = "Panda cubs learn how to climb at 5 months old!",
+		advice = 0,
+		id = 76107,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-102,
+					14
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					21,
+					-62
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-71,
+					-160
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76108] = {
+		can_rotate = 0,
+		name = "Panda Paradise Log Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "8pdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "Pd/8pd",
+		canputon = 0,
+		themeId = 76,
+		count = 1,
+		describe = "...But sometimes, nothing beats a day of relaxation!",
+		advice = 0,
+		id = 76108,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					29,
+					15
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76109] = {
+		can_rotate = 0,
+		name = "Panda Paradise Pond",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "9pdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "Pd/9pd",
+		canputon = 0,
+		themeId = 76,
+		count = 1,
+		describe = "A panda's digestive system is carnivore-adapted despite the animal being 99% vegetarian!",
+		advice = 0,
+		id = 76109,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			7,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-36,
+					-63
+				},
+				{
+					1,
+					1
+				},
+				"pd/9pd_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76110] = {
+		can_rotate = 0,
+		name = "Small Panda Stool A",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "10pdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "Pd/10pd",
+		canputon = 0,
+		themeId = 76,
+		count = 2,
+		describe = "A small stool with a panda motif. Cute!",
+		advice = 0,
+		id = 76110,
+		deblocking = 1,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					19,
+					47
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76111] = {
+		can_rotate = 0,
+		name = "Panda Paradise Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "11pdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 76,
+		spine_action_replace = "",
+		picture = "Pd/11pd",
+		canputon = 1,
+		count = 1,
+		describe = "A round table with a panda motif. Cute!",
+		advice = 0,
+		deblocking = 1,
+		id = 76111,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {
+			0,
+			20.63
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76112] = {
+		can_rotate = 0,
+		name = "Small Panda Stool B",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "12pdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "Pd/12pd",
+		canputon = 0,
+		themeId = 76,
+		count = 2,
+		describe = "A small stool with a panda motif. Cute!",
+		advice = 0,
+		id = 76112,
+		deblocking = 1,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-12,
+					45
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76113] = {
+		can_rotate = 0,
+		name = "Panda Recliner",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "13pdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "Pd/13pd",
+		canputon = 0,
+		themeId = 76,
+		count = 1,
+		describe = "Pandas have to live a sedentary, low-energy lifestyle because their bamboo has little nutritional content!",
+		advice = 0,
+		id = 76113,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-56,
+					36
+				},
+				{
+					-1,
+					1
+				},
+				"pd/13pd_using"
+			},
+			{
+				"sit",
+				{
+					14,
+					-3
+				},
+				{
+					-1,
+					1
+				},
+				"pd/13pd_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76114] = {
+		can_rotate = 0,
+		name = "Panda Sculpture",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "14pdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 76,
+		spine_action_replace = "",
+		picture = "Pd/14pd",
+		canputon = 0,
+		count = 1,
+		describe = "A stylish sculpture of a giant panda. It's a little rough around the edges, but that's part of the charm!",
+		advice = 0,
+		deblocking = 1,
+		id = 76114,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76115] = {
+		can_rotate = 0,
+		name = "Potted Bamboo",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "15pdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 76,
+		spine_action_replace = "",
+		picture = "Pd/15pd",
+		canputon = 0,
+		count = 2,
+		describe = "The all-important bamboo! Pandas need to eat about 30 pounds of this stuff daily!",
+		advice = 0,
+		deblocking = 1,
+		id = 76115,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76116] = {
+		can_rotate = 0,
+		name = "Panda Bookcase",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "16pdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 76,
+		spine_action_replace = "",
+		picture = "Pd/16pd",
+		canputon = 0,
+		count = 1,
+		describe = "Black and white and read all over.",
+		advice = 0,
+		deblocking = 1,
+		id = 76116,
+		comfortable = 2,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76117] = {
+		can_rotate = 0,
+		name = "Panda Drawers",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "17pdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 76,
+		spine_action_replace = "",
+		picture = "Pd/17pd",
+		canputon = 0,
+		count = 1,
+		describe = "A minimalistic drawer with a cute panda plushie resting on top.",
+		advice = 0,
+		deblocking = 1,
+		id = 76117,
+		comfortable = 2,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76118] = {
+		can_rotate = 0,
+		name = "Panda Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "18pdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "Pd/18pd",
+		canputon = 0,
+		themeId = 76,
+		count = 1,
+		describe = "\"Expressive\" Panda Face",
+		advice = 0,
+		id = 76118,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-18,
+					-19
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76119] = {
+		can_rotate = 0,
+		name = "Panda Slippers",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "19pdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 76,
+		spine_action_replace = "",
+		picture = "Pd/19pd",
+		canputon = 0,
+		count = 1,
+		describe = "\"When I have no fluffy slippers on my feet, that makes me a sad panda.\"",
+		advice = 0,
+		deblocking = 1,
+		id = 76119,
+		comfortable = 1,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76120] = {
+		can_rotate = 0,
+		name = "Panda Rug (Rectangular)",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "20pdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 76,
+		spine_action_replace = "",
+		picture = "Pd/20pd",
+		canputon = 0,
+		count = 1,
+		describe = "A small rectangular rug with a panda motif. Cute!",
+		advice = 0,
+		deblocking = 1,
+		id = 76120,
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76121] = {
+		can_rotate = 0,
+		name = "Panda Rug (Round)",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "21pdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 76,
+		spine_action_replace = "",
+		picture = "Pd/21pd",
+		canputon = 0,
+		count = 1,
+		describe = "A round, checkered rug with a panda design. Cute!",
+		advice = 0,
+		deblocking = 1,
+		id = 76121,
+		comfortable = 3,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76122] = {
+		can_rotate = 0,
+		name = "Panda Paradise Tiles",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "22pdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 76,
+		spine_action_replace = "",
+		picture = "Pd/22pd",
+		canputon = 0,
+		count = 3,
+		describe = "They're just decorations, but stepping on the pandas still makes you feel a tiny bit guilty.",
+		advice = 0,
+		deblocking = 1,
+		id = 76122,
+		comfortable = 3,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76123] = {
+		can_rotate = 0,
+		name = "Panda Paradise Slide",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		themeId = 76,
+		icon = "Apdicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "A wooden slide beloved by the pandas.",
+		advice = 0,
+		id = 76123,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			9,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ApdB",
+				"normal"
+			},
+			{
+				"ApdT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[76301] = {
+		can_rotate = 0,
+		name = "Panda Window",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "23pdicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 76,
+		spine_action_replace = "",
+		picture = "Pd/23pd",
+		canputon = 0,
+		count = 2,
+		describe = "To you, it may be a window to the outdoors. But to the pandas, it's a tasty treat locked behind a glass pane.",
+		advice = 0,
+		deblocking = 1,
+		id = 76301,
+		comfortable = 3,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76302] = {
+		can_rotate = 0,
+		name = "Hanging Panda(?) Picture",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "24pdicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 76,
+		spine_action_replace = "",
+		picture = "Pd/24pd",
+		canputon = 0,
+		count = 1,
+		describe = "Are Manjuus technically considered endangered?",
+		advice = 0,
+		deblocking = 1,
+		id = 76302,
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76303] = {
+		can_rotate = 0,
+		name = "\"Expressive\" Panda Face",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "25pdicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 76,
+		spine_action_replace = "",
+		picture = "Pd/25pd",
+		canputon = 0,
+		count = 1,
+		describe = "You can practically already see the expression on it...",
+		advice = 0,
+		deblocking = 1,
+		id = 76303,
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76304] = {
+		can_rotate = 0,
+		name = "Panda Paradise Sliding Door",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "26pdicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 76,
+		spine_action_replace = "",
+		picture = "Pd/26pd",
+		canputon = 0,
+		count = 1,
+		describe = "When the pandas tire of the indoors, these doors take them back to the reservation.",
+		advice = 0,
+		deblocking = 1,
+		id = 76304,
+		comfortable = 3,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[76305] = {
+		can_rotate = 0,
+		name = "Panda Paradise Walls",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "27pdicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 76,
+		spine_action_replace = "",
+		picture = "Pd/27pd",
+		canputon = 0,
+		count = 4,
+		describe = "Simple walls suitable for a wildlife conservation office.",
+		advice = 0,
+		deblocking = 1,
+		id = 76305,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[77001] = {
 		can_rotate = 0,
 		name = "Wonderland Flooring",
@@ -74716,6 +76113,7 @@ pg.furniture_data_template = {
 		190,
 		191,
 		192,
+		193,
 		100002,
 		100003,
 		100004,
@@ -76306,6 +77704,36 @@ pg.furniture_data_template = {
 		75117,
 		75118,
 		75301,
+		76001,
+		76002,
+		76101,
+		76102,
+		76103,
+		76104,
+		76105,
+		76106,
+		76107,
+		76108,
+		76109,
+		76110,
+		76111,
+		76112,
+		76113,
+		76114,
+		76115,
+		76116,
+		76117,
+		76118,
+		76119,
+		76120,
+		76121,
+		76122,
+		76123,
+		76301,
+		76302,
+		76303,
+		76304,
+		76305,
 		77001,
 		77002,
 		77101,

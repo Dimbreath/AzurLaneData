@@ -25,7 +25,7 @@ pg.equip_data_statistics_78 = {
 		}
 	},
 	[7100] = {
-		name = "Single 150mm Main Gun",
+		name = "Single 150mm Main Gun Mount",
 		speciality = "Normal",
 		type = 2,
 		tech = 1,
@@ -107,7 +107,7 @@ pg.equip_data_statistics_78 = {
 		}
 	},
 	[7120] = {
-		name = "Single 150mm Main Gun",
+		name = "Single 150mm Main Gun Mount",
 		speciality = "Normal",
 		type = 2,
 		tech = 2,
@@ -190,7 +190,7 @@ pg.equip_data_statistics_78 = {
 		}
 	},
 	[7140] = {
-		name = "Single 150mm Main Gun",
+		name = "Single 150mm Main Gun Mount",
 		speciality = "Normal",
 		type = 2,
 		tech = 3,

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.equip_data_statistics_186 = {
 	[26500] = {
-		name = "Twin 113mm AA Gun",
+		name = "Twin 113mm AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 1,
@@ -111,7 +111,7 @@ pg.equip_data_statistics_186 = {
 		}
 	},
 	[26520] = {
-		name = "Twin 113mm AA Gun",
+		name = "Twin 113mm AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 2,

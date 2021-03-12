@@ -24,7 +24,7 @@ pg.equip_data_statistics_268 = {
 		}
 	},
 	[38000] = {
-		name = "Nakajima B5N",
+		name = "Type 97 Torpedo Bomber",
 		tech = 1,
 		speciality = "Torpedo",
 		type = 8,
@@ -126,7 +126,7 @@ pg.equip_data_statistics_268 = {
 		}
 	},
 	[38020] = {
-		name = "Nakajima B5N",
+		name = "Type 97 Torpedo Bomber",
 		type = 8,
 		speciality = "Torpedo",
 		rarity = 2,
@@ -229,7 +229,7 @@ pg.equip_data_statistics_268 = {
 		}
 	},
 	[38040] = {
-		name = "Nakajima B5N",
+		name = "Type 97 Torpedo Bomber",
 		type = 8,
 		speciality = "Torpedo",
 		rarity = 3,

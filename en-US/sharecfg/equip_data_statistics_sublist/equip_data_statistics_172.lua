@@ -50,7 +50,7 @@ pg.equip_data_statistics_172 = {
 		}
 	},
 	[25040] = {
-		name = "533mm Quintuple Torpedo Mount MkIX",
+		name = "533mm Quintuple Torpedo Mount Mk IX",
 		speciality = "Torpedo",
 		type = 5,
 		tech = 0,

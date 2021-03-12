@@ -33,7 +33,7 @@ pg.equip_data_statistics_70 = {
 		}
 	},
 	[5220] = {
-		name = "Quintuple 533mm Torpedo",
+		name = "533mm Quintuple Torpedo Mount",
 		speciality = "Torpedo",
 		type = 5,
 		tech = 2,
@@ -175,7 +175,7 @@ pg.equip_data_statistics_70 = {
 		}
 	},
 	[5240] = {
-		name = "Quintuple 533mm Torpedo",
+		name = "533mm Quintuple Torpedo Mount",
 		speciality = "Torpedo",
 		type = 5,
 		tech = 3,

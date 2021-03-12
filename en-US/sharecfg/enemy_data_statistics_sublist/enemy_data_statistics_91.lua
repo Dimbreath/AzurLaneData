@@ -77,7 +77,7 @@ pg.enemy_data_statistics_91 = {
 		equipment_list = {
 			100337,
 			313092,
-			450051
+			316072
 		}
 	},
 	[106010] = {
@@ -117,7 +117,7 @@ pg.enemy_data_statistics_91 = {
 		equipment_list = {
 			100337,
 			313092,
-			450051
+			316072
 		}
 	},
 	[106011] = {
@@ -157,7 +157,7 @@ pg.enemy_data_statistics_91 = {
 		equipment_list = {
 			100317,
 			313092,
-			450051
+			316072
 		}
 	},
 	[106012] = {
@@ -202,7 +202,7 @@ pg.enemy_data_statistics_91 = {
 		equipment_list = {
 			100202,
 			100412,
-			400301
+			316070
 		}
 	},
 	[106013] = {
@@ -239,7 +239,7 @@ pg.enemy_data_statistics_91 = {
 		equipment_list = {
 			100202,
 			100412,
-			400301
+			316070
 		}
 	},
 	[106014] = {

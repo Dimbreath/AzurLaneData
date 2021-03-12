@@ -124,7 +124,7 @@ pg.equip_data_statistics_88 = {
 		}
 	},
 	[12060] = {
-		name = "Twin 152mm Main Gun Mount Mk15",
+		name = "Twin 152mm Mk 15 Main Gun Mount",
 		speciality = "Lock",
 		type = 2,
 		tech = 0,

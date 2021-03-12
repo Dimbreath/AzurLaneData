@@ -100,7 +100,7 @@ pg.equip_data_statistics_298 = {
 		}
 	},
 	[44300] = {
-		name = "Prototype Triple 305mm Main Gun (SK C/39) ",
+		name = "Prototype Triple 305mm SK C/39 Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 0,

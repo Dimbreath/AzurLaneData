@@ -33,7 +33,7 @@ pg.equip_data_statistics_100 = {
 		}
 	},
 	[14240] = {
-		name = "Twin 406mm MK5 Main Gun",
+		name = "Twin 406mm Mk 5 Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 3,
@@ -175,7 +175,7 @@ pg.equip_data_statistics_100 = {
 		}
 	},
 	[14260] = {
-		name = "Twin 406mm Main Gun Mount Mk8",
+		name = "Twin 406mm Mk 8 Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 0,

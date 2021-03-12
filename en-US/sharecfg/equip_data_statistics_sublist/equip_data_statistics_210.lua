@@ -43,7 +43,7 @@ pg.equip_data_statistics_210 = {
 		}
 	},
 	[30000] = {
-		name = "305mm Mounted Gun",
+		name = "Twin 356mm 41st Year Type Naval Gun Mount ",
 		speciality = "Volley",
 		type = 4,
 		tech = 0,
@@ -151,7 +151,7 @@ pg.equip_data_statistics_210 = {
 		}
 	},
 	[31000] = {
-		name = "Twin 100mm (Type 98) AA Gun",
+		name = "Twin 100mm Type 98 High-Angle Gun",
 		speciality = "Lock",
 		type = 1,
 		attribute_3 = "antiaircraft",

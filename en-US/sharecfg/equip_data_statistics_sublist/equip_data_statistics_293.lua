@@ -44,11 +44,11 @@ pg.equip_data_statistics_293 = {
 		}
 	},
 	[43100] = {
-		name = "Triple 283mm Main Gun (SK C/28)",
+		name = "Triple 283mm SK C/28 Main Gun Mount",
 		speciality = "Volley",
 		type = 11,
 		tech = 1,
-		descrip = "The Triple 283mm Main Gun (SK C/28) is the main gun of Deutschland class ships. May only be used by Deutschland class ships.",
+		descrip = "The Triple 283mm SK C/28 Main Gun Mount is the main gun of Deutschland class ships. May only be used by Deutschland class ships.",
 		value_2 = 5,
 		icon = "43100",
 		attribute_2 = "cannon",
@@ -118,11 +118,11 @@ pg.equip_data_statistics_293 = {
 		}
 	},
 	[43120] = {
-		name = "Triple 283mm Main Gun (SK C/28)",
+		name = "Triple 283mm SK C/28 Main Gun Mount",
 		speciality = "Volley",
 		type = 11,
 		tech = 2,
-		descrip = "The Triple 283mm Main Gun (SK C/28) is the main gun of Deutschland class ships. May only be used by Deutschland class ships.",
+		descrip = "The Triple 283mm SK C/28 Main Gun Mount is the main gun of Deutschland class ships. May only be used by Deutschland class ships.",
 		value_2 = 12,
 		icon = "43100",
 		attribute_2 = "cannon",
@@ -216,11 +216,11 @@ pg.equip_data_statistics_293 = {
 		}
 	},
 	[43140] = {
-		name = "Triple 283mm Main Gun (SK C/28)",
+		name = "Triple 283mm SK C/28 Main Gun Mount",
 		speciality = "Volley",
 		type = 11,
 		tech = 3,
-		descrip = "The Triple 283mm Main Gun (SK C/28) is the main gun of Deutschland class ships. May only be used by Deutschland class ships.",
+		descrip = "The Triple 283mm SK C/28 Main Gun Mount is the main gun of Deutschland class ships. May only be used by Deutschland class ships.",
 		value_2 = 25,
 		icon = "43100",
 		attribute_2 = "cannon",

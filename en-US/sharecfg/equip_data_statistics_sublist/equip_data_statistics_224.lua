@@ -9,7 +9,7 @@ pg.equip_data_statistics_224 = {
 		}
 	},
 	[33020] = {
-		name = "203mm Mounted Gun",
+		name = "Twin 203mm Naval Gun Mount",
 		speciality = "Lock",
 		type = 3,
 		tech = 2,
@@ -116,7 +116,7 @@ pg.equip_data_statistics_224 = {
 		}
 	},
 	[33040] = {
-		name = "203mm Mounted Gun",
+		name = "Twin 203mm Naval Gun Mount",
 		speciality = "Lock",
 		type = 3,
 		tech = 3,

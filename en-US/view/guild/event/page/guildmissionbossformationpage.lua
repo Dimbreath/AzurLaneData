@@ -21,6 +21,8 @@ function slot0.OnLoaded(slot0)
 
 	setText(slot0:findTF("oil/label", slot0.goBtn), i18n("text_consume"))
 
+	slot0.flag = slot0:findTF("frame/double/1/flag")
+	slot0.subFlag = slot0:findTF("frame/single/1/flag")
 	slot0.shipCards = {}
 end
 
@@ -170,6 +172,8 @@ function slot0.UpdateShips(slot0, slot1)
 		slot0:UpdateSubFleetShips(slot5)
 	end
 
+	setActive(slot0.flag, slot6 and #slot3 > 0)
+	setActive(slot0.subFlag, not slot6 and #slot5 > 0)
 	setActive(slot0.grids, slot6)
 	setActive(slot0.subGrids, not slot6)
 end

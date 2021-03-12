@@ -464,6 +464,10 @@ function slot0.loadFurnitureModel(slot0, slot1, slot2, slot3)
 		elseif uv1 then
 			uv1()
 		end
+
+		if uv2:isMat() then
+			uv0:sortAllMat()
+		end
 	end)
 end
 

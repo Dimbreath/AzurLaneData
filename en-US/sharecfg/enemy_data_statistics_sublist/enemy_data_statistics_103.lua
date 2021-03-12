@@ -218,7 +218,7 @@ pg.enemy_data_statistics_103 = {
 			"appearQ"
 		},
 		equipment_list = {
-			400909,
+			319528,
 			319501
 		}
 	},
@@ -256,7 +256,7 @@ pg.enemy_data_statistics_103 = {
 			"appearQ"
 		},
 		equipment_list = {
-			400910,
+			319529,
 			319501
 		}
 	},
@@ -297,7 +297,7 @@ pg.enemy_data_statistics_103 = {
 		},
 		equipment_list = {
 			319509,
-			400908
+			319527
 		}
 	},
 	[11005104] = {
@@ -403,8 +403,8 @@ pg.enemy_data_statistics_103 = {
 		},
 		equipment_list = {
 			319513,
-			400911,
-			400912
+			319530,
+			319531
 		}
 	},
 	[11005105] = {
@@ -603,7 +603,7 @@ pg.enemy_data_statistics_103 = {
 		equipment_list = {
 			100337,
 			313092,
-			450051
+			320018
 		}
 	}
 }

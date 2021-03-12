@@ -17,7 +17,7 @@ pg.equip_data_statistics_79 = {
 		}
 	},
 	[7200] = {
-		name = "Single 130mm Main Gun",
+		name = "Single 130mm Naval Gun",
 		speciality = "Lock",
 		type = 1,
 		tech = 1,
@@ -107,7 +107,7 @@ pg.equip_data_statistics_79 = {
 		}
 	},
 	[7220] = {
-		name = "Single 130mm Main Gun",
+		name = "Single 130mm Naval Gun",
 		speciality = "Lock",
 		type = 1,
 		tech = 2,
@@ -221,7 +221,7 @@ pg.equip_data_statistics_79 = {
 		}
 	},
 	[7240] = {
-		name = "Single 130mm Main Gun",
+		name = "Single 130mm Naval Gun",
 		speciality = "Lock",
 		type = 1,
 		tech = 3,

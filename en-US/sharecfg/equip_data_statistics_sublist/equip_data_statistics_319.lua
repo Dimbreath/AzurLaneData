@@ -309,7 +309,7 @@ pg.equip_data_statistics_319 = {
 		}
 	},
 	[48000] = {
-		name = "Ar-195",
+		name = "Ar 195",
 		type = 8,
 		speciality = "Torpedo",
 		rarity = 3,

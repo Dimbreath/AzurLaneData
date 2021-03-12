@@ -17,7 +17,7 @@ pg.equip_data_statistics_214 = {
 		}
 	},
 	[31160] = {
-		name = "Single 120mm Main Gun M",
+		name = "Single 120mm 11th Year Type Naval Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		tech = 0,
@@ -138,7 +138,7 @@ pg.equip_data_statistics_214 = {
 		}
 	},
 	[31180] = {
-		name = "Single 120mm High-Angle Gun",
+		name = "Single 120mm High-Angle Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		attribute_3 = "antiaircraft",

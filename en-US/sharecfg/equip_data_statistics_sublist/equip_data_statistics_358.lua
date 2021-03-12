@@ -36,7 +36,7 @@ pg.equip_data_statistics_358 = {
 		}
 	},
 	[85180] = {
-		name = "Single 37mm AA Gun (70-K)",
+		name = "Single 37mm 70-K AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 1,
@@ -122,7 +122,7 @@ pg.equip_data_statistics_358 = {
 		}
 	},
 	[85200] = {
-		name = "Single 37mm AA Gun (70-K)",
+		name = "Single 37mm 70-K AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 2,
@@ -232,7 +232,7 @@ pg.equip_data_statistics_358 = {
 		}
 	},
 	[85220] = {
-		name = "Single 37mm AA Gun (70-K)",
+		name = "Single 37mm 70-K AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 3,

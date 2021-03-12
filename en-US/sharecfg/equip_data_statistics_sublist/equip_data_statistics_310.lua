@@ -1,11 +1,11 @@
 pg = pg or {}
 pg.equip_data_statistics_310 = {
 	[46120] = {
-		name = "37mm Machine Gun",
+		name = "Single 37mm Flak AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 2,
-		descrip = "37mm Machine Gun used for anti-air defense.",
+		descrip = "Single 37mm Flak AA Gun Mount used for anti-air defense.",
 		value_2 = 5,
 		icon = "46100",
 		attribute_2 = "antiaircraft",
@@ -87,11 +87,11 @@ pg.equip_data_statistics_310 = {
 		}
 	},
 	[46140] = {
-		name = "37mm Machine Gun",
+		name = "Single 37mm Flak AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 3,
-		descrip = "37mm Machine Gun used for anti-air defense.",
+		descrip = "Single 37mm Flak AA Gun Mount used for anti-air defense.",
 		value_2 = 12,
 		icon = "46100",
 		attribute_2 = "antiaircraft",

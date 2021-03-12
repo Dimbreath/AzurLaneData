@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.equip_data_statistics_68 = {
 	[5040] = {
-		name = "Triple 533mm Torpedo",
+		name = "533mm Triple Torpedo Mount",
 		speciality = "Torpedo",
 		type = 5,
 		tech = 3,
@@ -119,7 +119,7 @@ pg.equip_data_statistics_68 = {
 		}
 	},
 	[5100] = {
-		name = "Quadruple 533mm Torpedo",
+		name = "533mm Quadruple Torpedo Mount",
 		speciality = "Torpedo",
 		type = 5,
 		tech = 1,
@@ -205,7 +205,7 @@ pg.equip_data_statistics_68 = {
 		}
 	},
 	[5120] = {
-		name = "Quadruple 533mm Torpedo",
+		name = "533mm Quadruple Torpedo Mount",
 		speciality = "Torpedo",
 		type = 5,
 		tech = 2,

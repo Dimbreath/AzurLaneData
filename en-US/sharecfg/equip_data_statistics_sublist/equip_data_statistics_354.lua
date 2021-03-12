@@ -282,7 +282,7 @@ pg.equip_data_statistics_354 = {
 		}
 	},
 	[85000] = {
-		name = "Twin 130mm Main Gun (B-2LM)",
+		name = "Twin 130mm B-2LM Main Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		tech = 1,

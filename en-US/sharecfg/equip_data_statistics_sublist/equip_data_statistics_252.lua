@@ -9,7 +9,7 @@ pg.equip_data_statistics_252 = {
 		}
 	},
 	[36420] = {
-		name = "40mm AA Vickers Gun",
+		name = "Twin 40mm V-Type AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 2,
@@ -119,7 +119,7 @@ pg.equip_data_statistics_252 = {
 		}
 	},
 	[36440] = {
-		name = "40mm AA Vickers Gun",
+		name = "Twin 40mm V-Type AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 3,

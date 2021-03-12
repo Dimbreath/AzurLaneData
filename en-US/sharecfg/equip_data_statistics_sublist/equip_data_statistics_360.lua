@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.equip_data_statistics_360 = {
 	[85280] = {
-		name = "Twin 100mm AA Gun (B-54)",
+		name = "Twin 100mm B-54 AA Gun",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 3,
@@ -152,7 +152,7 @@ pg.equip_data_statistics_360 = {
 		}
 	},
 	[85300] = {
-		name = "Triple 406mm Main Gun (B-37 MK1)",
+		name = "Triple 406mm MK-1 Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 1,

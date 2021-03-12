@@ -25,11 +25,11 @@ pg.equip_data_statistics_313 = {
 		}
 	},
 	[46320] = {
-		name = "Twin 105mm AA Gun (SK C)",
+		name = "Twin 105mm SK C/33 AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 2,
-		descrip = "Twin 105mm AA Gun (SK C) artillery used for anti-air defense.",
+		descrip = "Twin 105mm SK C/33 AA Gun Mount artillery used for anti-air defense.",
 		value_2 = 25,
 		icon = "46300",
 		attribute_2 = "antiaircraft",
@@ -167,11 +167,11 @@ pg.equip_data_statistics_313 = {
 		}
 	},
 	[46340] = {
-		name = "Twin 105mm AA Gun (SK C)",
+		name = "Twin 105mm SK C/33 AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 3,
-		descrip = "Twin 105mm AA Gun (SK C) artillery used for anti-air defense.",
+		descrip = "Twin 105mm SK C/33 AA Gun Mount artillery used for anti-air defense.",
 		value_2 = 45,
 		icon = "46300",
 		attribute_2 = "antiaircraft",

@@ -26,7 +26,7 @@ pg.equip_data_statistics_160 = {
 		}
 	},
 	[23100] = {
-		name = "Prototype Twin 234mm Main Gun (9.2\" MK XII) ",
+		name = "Prototype Twin 234mm Main Gun Mount",
 		speciality = "Lock",
 		type = 3,
 		tech = 0,

@@ -18,7 +18,7 @@ pg.equip_data_statistics_363 = {
 		}
 	},
 	[85420] = {
-		name = "Triple 305mm Main Gun (M1907)",
+		name = "Triple 305mm M1907 Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 3,
@@ -127,7 +127,7 @@ pg.equip_data_statistics_363 = {
 		}
 	},
 	[85440] = {
-		name = "Twin 152mm Main Gun (M1892)",
+		name = "Twin 152mm Pattern 1892 Main Gun Mount",
 		speciality = "Lock",
 		type = 2,
 		tech = 3,

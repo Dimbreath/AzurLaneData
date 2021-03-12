@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.equip_data_statistics_204 = {
 	[28300] = {
-		name = "Fairey Albacore",
+		name = "Albacore",
 		type = 8,
 		speciality = "Torpedo",
 		rarity = 2,
@@ -105,7 +105,7 @@ pg.equip_data_statistics_204 = {
 		}
 	},
 	[28320] = {
-		name = "Fairey Albacore",
+		name = "Albacore",
 		type = 8,
 		speciality = "Torpedo",
 		rarity = 3,
@@ -260,7 +260,7 @@ pg.equip_data_statistics_204 = {
 		}
 	},
 	[28340] = {
-		name = "Fairey Albacore",
+		name = "Albacore",
 		type = 8,
 		speciality = "Torpedo",
 		rarity = 4,

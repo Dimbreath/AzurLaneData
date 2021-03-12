@@ -17,7 +17,7 @@ pg.equip_data_statistics_154 = {
 		}
 	},
 	[22020] = {
-		name = "Single 152mm Secondary Gun",
+		name = "Single 152mm Secondary Gun Mount",
 		speciality = "Scatter",
 		type = 2,
 		tech = 2,
@@ -101,7 +101,7 @@ pg.equip_data_statistics_154 = {
 		}
 	},
 	[22040] = {
-		name = "Single 152mm Secondary Gun",
+		name = "Single 152mm Secondary Gun Mount",
 		speciality = "Scatter",
 		type = 2,
 		tech = 3,

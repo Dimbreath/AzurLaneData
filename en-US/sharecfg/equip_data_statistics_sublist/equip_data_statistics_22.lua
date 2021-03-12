@@ -22,7 +22,7 @@ pg.equip_data_statistics_22 = {
 		value_1 = "59"
 	},
 	[1000] = {
-		name = "Repair Toolkit",
+		name = "Ship Maintenance Facility",
 		tech = 1,
 		type = 10,
 		speciality = "N/A",
@@ -89,7 +89,7 @@ pg.equip_data_statistics_22 = {
 		base = 1000
 	},
 	[1020] = {
-		name = "Repair Toolkit",
+		name = "Ship Maintenance Facility",
 		tech = 2,
 		type = 10,
 		speciality = "N/A",

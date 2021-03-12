@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.equip_data_statistics_10 = {
 	[580] = {
-		name = "Type 91 Piercing Shell",
+		name = "Type 91 AP Shell",
 		tech = 0,
 		type = 10,
 		speciality = "N/A",
@@ -110,7 +110,7 @@ pg.equip_data_statistics_10 = {
 		value_1 = "38"
 	},
 	[600] = {
-		name = "Type 1 Piercing Shell",
+		name = "Type 1 AP Shell",
 		tech = 0,
 		type = 10,
 		speciality = "N/A",
@@ -120,7 +120,7 @@ pg.equip_data_statistics_10 = {
 		value_1 = "22",
 		attribute_2 = "hit",
 		rarity = 5,
-		descrip = "An improved version of the Type 91 Piercing Shell which causes even more devastating damage.",
+		descrip = "An improved version of the Type 91 AP Shell which causes even more devastating damage.",
 		nationality = 3,
 		ammo = 10,
 		value_3 = 0,

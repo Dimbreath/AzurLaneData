@@ -48,7 +48,7 @@ pg.equip_data_statistics_152 = {
 		}
 	},
 	[21540] = {
-		name = "Twin 134mm AA Gun",
+		name = "Twin 134mm High-Angle Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		attribute_3 = "antiaircraft",

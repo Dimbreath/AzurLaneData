@@ -68,7 +68,7 @@ pg.equip_data_statistics_292 = {
 		}
 	},
 	[43060] = {
-		name = "Prototype Triple 203mm Main Gun (SK C)",
+		name = "Prototype Triple 203mm SK C/34 Main Gun Mount",
 		speciality = "Lock",
 		type = 3,
 		tech = 0,

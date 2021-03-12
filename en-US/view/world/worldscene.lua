@@ -1831,7 +1831,8 @@ function slot0.DoTopBlock(slot0, slot1)
 end
 
 function slot0.SetMoveQueue(slot0, slot1)
-	slot0.moveQueueInteractive = false
+	slot0:ReContinueMoveQueue()
+
 	slot0.moveQueue = slot1
 end
 
@@ -1857,8 +1858,7 @@ function slot0.DoQueueMove(slot0, slot1)
 			uv0:Op("OpInteractive")
 		end)
 	else
-		slot0.moveQueueInteractive = false
-
+		slot0:ReContinueMoveQueue()
 		slot0:ShowFleetMoveTurn(true)
 		slot0:Op("OpReqMoveFleet", slot1, slot3.row, slot3.column)
 	end
@@ -1886,6 +1886,10 @@ function slot0.InteractiveMoveQueue(slot0)
 	else
 		slot0.moveQueueInteractive = true
 	end
+end
+
+function slot0.ReContinueMoveQueue(slot0)
+	slot0.moveQueueInteractive = false
 end
 
 function slot0.ShowFleetMoveTurn(slot0, slot1)

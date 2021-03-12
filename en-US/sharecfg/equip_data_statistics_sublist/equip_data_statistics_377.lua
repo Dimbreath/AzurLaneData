@@ -48,7 +48,7 @@ pg.equip_data_statistics_377 = {
 		}
 	},
 	[90120] = {
-		name = "Single 138.6mm Main Gun (Mle 1929)",
+		name = "Single 138.6mm Mle 1929 Naval Gun",
 		speciality = "Lock",
 		type = 1,
 		tech = 2,

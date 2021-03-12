@@ -41,7 +41,7 @@ pg.equip_data_statistics_179 = {
 		}
 	},
 	[26140] = {
-		name = "Quadruple 40mm Pom Pom Gun",
+		name = "Quadruple 40mm Pom-Pom AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
 		tech = 3,

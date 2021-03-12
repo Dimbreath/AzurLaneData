@@ -44,7 +44,7 @@ pg.equip_data_statistics_81 = {
 		}
 	},
 	[7320] = {
-		name = "四联装130mm副炮Mle1932",
+		name = "Quadruple 130mm Mle 1932 Secondary Gun Mount",
 		speciality = "Lock",
 		type = 1,
 		tech = 0,
@@ -166,7 +166,7 @@ pg.equip_data_statistics_81 = {
 		}
 	},
 	[7340] = {
-		name = "Submarine-mounted Twin 203mm Cannon (Mle 1924)",
+		name = "Twin 203mm Mle 1924 Submarine Gun Mount",
 		speciality = "Lock",
 		type = 3,
 		tech = 0,

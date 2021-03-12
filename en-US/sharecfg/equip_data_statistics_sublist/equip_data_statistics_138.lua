@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.equip_data_statistics_138 = {
 	[18220] = {
-		name = "XBT2D-1 Destroyer II",
+		name = "XTB2D-1 Skypirate",
 		type = 8,
 		speciality = "Torpedo",
 		rarity = 5,

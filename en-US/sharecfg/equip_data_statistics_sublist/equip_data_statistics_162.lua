@@ -92,7 +92,7 @@ pg.equip_data_statistics_162 = {
 		}
 	},
 	[24000] = {
-		name = "Quadruple 356mm Main Gun",
+		name = "Quadruple 356mm Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 1,

@@ -18,7 +18,7 @@ pg.equip_data_statistics_381 = {
 		}
 	},
 	[90400] = {
-		name = "Quadruple 380mm Main Gun (Mle 1935)",
+		name = "Quadruple 356mm Mle 1935 Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 1,
@@ -119,7 +119,7 @@ pg.equip_data_statistics_381 = {
 		}
 	},
 	[90420] = {
-		name = "Quadruple 380mm Main Gun (Mle 1935)",
+		name = "Quadruple 356mm Mle 1935 Main Gun Mount",
 		speciality = "Volley",
 		type = 4,
 		tech = 2,
