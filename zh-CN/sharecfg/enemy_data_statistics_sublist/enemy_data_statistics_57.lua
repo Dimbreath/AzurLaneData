@@ -35,8 +35,8 @@ pg.enemy_data_statistics_57 = {
 			"appearsmall"
 		},
 		equipment_list = {
-			400056,
-			450052
+			317028,
+			317038
 		}
 	},
 	[7020] = {
@@ -146,7 +146,7 @@ pg.enemy_data_statistics_57 = {
 			"appearsmall"
 		},
 		equipment_list = {
-			450103
+			317039
 		}
 	},
 	[7023] = {
@@ -296,7 +296,7 @@ pg.enemy_data_statistics_57 = {
 		},
 		equipment_list = {
 			100217,
-			450051,
+			317037,
 			313091
 		}
 	},
@@ -452,7 +452,7 @@ pg.enemy_data_statistics_57 = {
 		equipment_list = {
 			317006,
 			317007,
-			400104,
+			317032,
 			317009,
 			317010
 		}

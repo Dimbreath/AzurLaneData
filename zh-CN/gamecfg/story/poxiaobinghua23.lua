@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			actor = 702060,
 			nameColor = "#a9f548",
-			say = "那大家向立刻向另一侧进行撤离吧……！",
+			say = "那大家立刻向另一侧进行撤离吧……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "不管突然出现的那些是什么东西，都尽管放马过来吧，看我用北方的利刃粉碎将它们彻底粉碎！",
+			say = "不管突然出现的那些是什么东西，都尽管放马过来吧，看我用北方的利刃将它们彻底粉碎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

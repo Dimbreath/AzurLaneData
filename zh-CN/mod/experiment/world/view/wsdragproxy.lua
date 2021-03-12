@@ -34,6 +34,15 @@ function slot0.Setup(slot0, slot1)
 
 	slot0.dragTrigger.enabled = true
 	slot0.longPressTrigger = GetOrAddComponent(slot0.transform, typeof(UILongPressTrigger))
+	slot2 = slot0.callInfo.longPressCall
+
+	function slot0.callInfo.longPressCall(...)
+		if uv0.isDraging then
+			return
+		end
+
+		uv1(...)
+	end
 
 	slot0.longPressTrigger.onLongPressed:AddListener(slot0.callInfo.longPressCall)
 
@@ -75,6 +84,10 @@ function slot0.Focus(slot0, slot1, slot2, slot3)
 
 	if slot2 then
 		table.insert({}, function (slot0)
+			if uv0.isDraging then
+				uv0.isDraging = false
+			end
+
 			uv0.dragTrigger.enabled = false
 			uv0.longPressTrigger.enabled = false
 			uv0.twFocusId = LeanTween.moveLocal(uv0.transform.gameObject, uv1, (uv0.transform.localPosition - uv1).magnitude > 0 and slot1 / (40 * math.sqrt(slot1)) or 0):setEase(uv2 == 1 and LeanTweenType.linear or LeanTweenType.easeInOutSine):setOnComplete(System.Action(slot0)).uniqueId

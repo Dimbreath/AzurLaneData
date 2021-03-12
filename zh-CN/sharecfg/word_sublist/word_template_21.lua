@@ -525,9 +525,6 @@ function temp()
 						this = true
 					}
 				}
-			},
-			["娜"] = {
-				this = true
 			}
 		},
 		["螺"] = {

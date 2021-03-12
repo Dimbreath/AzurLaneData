@@ -169,6 +169,7 @@ function slot0.execute(slot0, slot1)
 	slot0.facade:registerCommand(GAME.CHARGE_CONFIRM, ChargeConfirmCommand)
 	slot0.facade:registerCommand(GAME.CLICK_MING_SHI, ClickMingShiCommand)
 	slot0.facade:registerCommand(GAME.CHARGE_FAILED, ChargeFailedCommand)
+	slot0.facade:registerCommand(GAME.REFUND_CHHARGE, RefundChargeCommand)
 	slot0.facade:registerCommand(GAME.CREATE_GUILD, CreateGuildCommand)
 	slot0.facade:registerCommand(GAME.MODIFY_GUILD_INFO, ModifyGuildInfoCommand)
 	slot0.facade:registerCommand(GAME.SET_GUILD_DUTY, SetGuildDutyCommand)
@@ -338,6 +339,7 @@ function slot0.execute(slot0, slot1)
 	slot0.facade:registerCommand(GAME.GET_OSS_ARGS, GetOSSArgsCommand)
 	slot0.facade:registerCommand(GAME.CHECK_HOTFIX_VER, CheckHotfixCommand)
 	slot0.facade:registerCommand(GAME.EXTRA_PROTO_RESULT, ExtraProtoResultCommand)
+	slot0.facade:registerCommand(GAME.GET_REFUND_INFO, GetRefundInfoCommand)
 end
 
 return slot0

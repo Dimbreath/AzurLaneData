@@ -35,7 +35,7 @@ pg.enemy_data_statistics_58 = {
 			"appearsmall"
 		},
 		equipment_list = {
-			400056,
+			318098,
 			100427
 		}
 	},
@@ -127,7 +127,7 @@ pg.enemy_data_statistics_58 = {
 			"appearsmall"
 		},
 		equipment_list = {
-			400056,
+			318098,
 			100427
 		}
 	},
@@ -357,9 +357,9 @@ pg.enemy_data_statistics_58 = {
 			"appearQ"
 		},
 		equipment_list = {
-			400403,
-			400501,
-			400404
+			318099,
+			318100,
+			318101
 		}
 	},
 	[8008] = {
@@ -509,7 +509,7 @@ pg.enemy_data_statistics_58 = {
 			"appearsmall"
 		},
 		equipment_list = {
-			450103
+			318109
 		}
 	},
 	[8023] = {
@@ -582,8 +582,8 @@ pg.enemy_data_statistics_58 = {
 		antiaircraft_growth = 2016,
 		armor = 0,
 		equipment_list = {
-			400805,
-			400807
+			318105,
+			318107
 		}
 	},
 	[8011] = {
@@ -618,8 +618,8 @@ pg.enemy_data_statistics_58 = {
 		antiaircraft_growth = 2016,
 		armor = 0,
 		equipment_list = {
-			400805,
-			400806
+			318105,
+			318106
 		}
 	}
 }

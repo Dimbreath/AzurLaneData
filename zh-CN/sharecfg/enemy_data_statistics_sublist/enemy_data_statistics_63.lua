@@ -37,7 +37,7 @@ pg.enemy_data_statistics_63 = {
 		equipment_list = {
 			100337,
 			313092,
-			450051
+			319532
 		}
 	},
 	[10006] = {
@@ -77,7 +77,7 @@ pg.enemy_data_statistics_63 = {
 		equipment_list = {
 			100317,
 			313092,
-			450051
+			319532
 		}
 	},
 	[10007] = {

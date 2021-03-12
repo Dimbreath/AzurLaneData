@@ -8,6 +8,7 @@ slot0.TYPE_ACTIVITY = 6
 slot0.TYPE_ACTIVITY_ROUTINE = 36
 slot0.TYPE_ACTIVITY_BRANCH = 26
 slot0.TYPE_GUILD_WEEKLY = 12
+slot0.TYPE_ACTIVITY_WEEKLY = 46
 slot1 = {
 	"scenario",
 	"branch",

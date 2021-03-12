@@ -622,7 +622,7 @@ function slot0.displayShipWord(slot0, slot1, slot2)
 		slot7 = slot0.chatText:GetComponent(typeof(Text))
 
 		if PLATFORM_CODE ~= PLATFORM_US then
-			setText(slot0.chatText, slot6)
+			setText(slot0.chatText, SwitchSpecialChar(slot6))
 		else
 			slot7.fontSize = slot0.initfontSize
 

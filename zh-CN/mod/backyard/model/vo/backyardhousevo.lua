@@ -1210,7 +1210,11 @@ function slot0.getMats(slot0)
 	end
 
 	table.sort(slot1, function (slot0, slot1)
-		return slot1:getOccupyGridCount() < slot0:getOccupyGridCount()
+		if slot0:getOccupyGridCount() == slot1:getOccupyGridCount() then
+			return slot0.position.x + slot0.position.y > slot1.position.x + slot1.position.y
+		else
+			return slot3 < slot2
+		end
 	end)
 
 	return slot1

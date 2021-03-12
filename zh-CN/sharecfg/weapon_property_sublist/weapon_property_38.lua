@@ -345,7 +345,7 @@ function ()
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 3,
-		reload_max = 48,
+		reload_max = 80,
 		queue = 1,
 		search_type = 1,
 		effect_move = 1,
@@ -370,25 +370,25 @@ function ()
 	}
 	uv0.weapon_property_38[26361] = {
 		id = 26361,
-		reload_max = 51,
+		reload_max = 76,
 		damage = 18,
 		base = 26360
 	}
 	uv0.weapon_property_38[26362] = {
 		id = 26362,
-		reload_max = 54,
+		reload_max = 72,
 		damage = 20,
 		base = 26360
 	}
 	uv0.weapon_property_38[26363] = {
 		id = 26363,
-		reload_max = 57,
+		reload_max = 69,
 		damage = 22,
 		base = 26360
 	}
 	uv0.weapon_property_38[26364] = {
 		id = 26364,
-		reload_max = 60,
+		reload_max = 66,
 		damage = 24,
 		base = 26360
 	}
@@ -400,36 +400,36 @@ function ()
 	}
 	uv0.weapon_property_38[26366] = {
 		id = 26366,
-		reload_max = 66,
+		reload_max = 60,
 		damage = 28,
 		base = 26360
 	}
 	uv0.weapon_property_38[26367] = {
 		id = 26367,
-		reload_max = 69,
+		reload_max = 57,
 		damage = 28,
 		base = 26360
 	}
 	uv0.weapon_property_38[26368] = {
 		id = 26368,
-		reload_max = 72,
+		reload_max = 54,
 		damage = 30,
 		base = 26360
 	}
 	uv0.weapon_property_38[26369] = {
 		id = 26369,
-		reload_max = 76,
+		reload_max = 51,
 		damage = 30,
 		base = 26360
 	}
 	uv0.weapon_property_38[26370] = {
 		id = 26370,
-		reload_max = 80,
+		reload_max = 48,
 		damage = 32,
 		base = 26360
 	}
 	uv0.weapon_property_38[26371] = {
-		reload_max = 80,
+		reload_max = 48,
 		damage = 32,
 		base = 26360,
 		id = 26371,

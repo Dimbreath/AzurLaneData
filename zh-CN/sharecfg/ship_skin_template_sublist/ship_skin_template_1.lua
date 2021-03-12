@@ -7132,5 +7132,109 @@ pg.ship_skin_template_1 = {
 				}
 			}
 		}
+	},
+	[101352] = {
+		ship_group = 10135,
+		name = "炫目的赛场之星",
+		bg_sp = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "锵啦啦啦！闪耀赛场的网球选手贝奇，登场啦！……喂，指挥官，别愣着啦，赶紧像现场的观众们那样给贝奇喝彩啦！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "beiqi_3",
+		air_bullet_skin = "",
+		shop_type_id = 13,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "132",
+		skin_type = 0,
+		id = 101352,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "beiqi_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70340,
+		voice_actor = 204,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.208,
+					1.073,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.24,
+					1.115,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.25,
+							0
+						}
+					}
+				}
+			}
+		}
 	}
 }

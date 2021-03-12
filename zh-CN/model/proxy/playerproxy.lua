@@ -243,4 +243,32 @@ function slot0.getInited(slot0)
 	return slot0.inited
 end
 
+function slot0.setRefundInfo(slot0, slot1)
+	slot2 = nil
+
+	if slot1 and #slot1 > 0 then
+		for slot6, slot7 in ipairs(slot1) do
+			table.insert({}, {
+				shopId = slot7.shop_id,
+				buyTime = slot7.buy_time,
+				refundTime = slot7.refund_time
+			})
+		end
+	end
+
+	slot0.refundInfo = slot2
+end
+
+function slot0.getRefundInfo(slot0)
+	if not slot0.refundInfo then
+		return nil
+	end
+
+	if #slot0.refundInfo <= 0 then
+		return nil
+	end
+
+	return slot0.refundInfo
+end
+
 return slot0

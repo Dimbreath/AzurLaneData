@@ -23,6 +23,10 @@ slot1 = {
 function slot0.init(slot0)
 	if slot0.contextData.form == NotificationLayer.FORM_BATTLE then
 		setParent(slot0._tf, slot0.contextData.parent)
+	elseif slot0.contextData.form == NotificationLayer.FORM_MAIN then
+		pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+			groupName = slot0:getGroupNameFromData()
+		})
 	else
 		pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 			groupName = slot0:getGroupNameFromData()

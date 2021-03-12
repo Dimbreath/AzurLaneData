@@ -67,6 +67,8 @@ function slot5.Clear(slot0)
 	end
 
 	slot0._battleCVList = {}
+
+	uv2.Battle.BattleDataFunction.ClearConvertedBarrage()
 end
 
 function slot5.GetBulletPath(slot0)
@@ -878,21 +880,21 @@ end
 function slot5.GetAircraftResource(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = uv0.GetAircraftTmpDataFromID(slot0)
-	slot5 = nil
+	slot5, slot6, slot7, slot8 = nil
 
 	if (slot2 or 0) ~= 0 then
-		slot5, bullet, torpedo, bomb = uv0.GetEquipSkin(slot2)
+		slot5, slot10, slot7, slot8 = uv0.GetEquipSkin(slot2)
 
-		if bullet ~= "" then
-			slot3[#slot3 + 1] = uv1.GetBulletPath(bullet)
+		if slot10 ~= "" then
+			slot3[#slot3 + 1] = uv1.GetBulletPath(slot6)
 		end
 
-		if torpedo ~= "" then
-			slot3[#slot3 + 1] = uv1.GetBulletPath(torpedo)
+		if slot7 ~= "" then
+			slot3[#slot3 + 1] = uv1.GetBulletPath(slot7)
 		end
 
-		if bomb ~= "" then
-			slot3[#slot3 + 1] = uv1.GetBulletPath(bomb)
+		if slot8 ~= "" then
+			slot3[#slot3 + 1] = uv1.GetBulletPath(slot8)
 		end
 	else
 		slot5 = slot4.model_ID
@@ -902,14 +904,14 @@ function slot5.GetAircraftResource(slot0, slot1, slot2)
 	slot3[#slot3 + 1] = uv1.GetAircraftIconPath(slot4.model_ID)
 
 	if type(slot1 or slot4.weapon_ID) == "table" then
-		for slot10, slot11 in ipairs(slot6) do
-			for slot16, slot17 in ipairs(uv1.GetWeaponResource(slot11)) do
-				slot3[#slot3 + 1] = slot17
+		for slot13, slot14 in ipairs(slot9) do
+			for slot19, slot20 in ipairs(uv1.GetWeaponResource(slot14)) do
+				slot3[#slot3 + 1] = slot20
 			end
 		end
 	else
-		for slot11, slot12 in ipairs(uv1.GetWeaponResource(slot6)) do
-			slot3[#slot3 + 1] = slot12
+		for slot14, slot15 in ipairs(uv1.GetWeaponResource(slot9)) do
+			slot3[#slot3 + 1] = slot15
 		end
 	end
 

@@ -19,8 +19,6 @@ function slot0.Ctor(slot0, slot1)
 
 	setActive(slot0.expUp, false)
 
-	slot0.anim = slot0._tf:GetComponent("Animator")
-	slot0.aniEvent = slot0._tf:GetComponent(typeof(DftAniEvent))
 	slot0.formationTF = slot0.infoTF:Find("formation")
 
 	setActive(slot0.formationTF, false)
@@ -41,13 +39,13 @@ function slot0.clearSelected(slot0)
 end
 
 function slot0.selectedAnim(slot0)
-	if slot0.anim then
-		slot0.aniEvent:SetEndEvent(function (slot0)
-			uv0.anim.enabled = false
-		end)
-
-		slot0.anim.enabled = true
+	if LeanTween.isTweening(slot0.infoTF) then
+		LeanTween.cancel(slot0.infoTF)
 	end
+
+	LeanTween.moveY(rtf(slot0.infoTF), 20, 0.1):setOnComplete(System.Action(function ()
+		LeanTween.moveY(rtf(uv0.infoTF), 0, 0.1)
+	end))
 end
 
 function slot0.update(slot0, slot1)
@@ -74,6 +72,9 @@ function slot0.updateCommander(slot0)
 end
 
 function slot0.clear(slot0)
+	if LeanTween.isTweening(slot0.infoTF) then
+		LeanTween.cancel(slot0.infoTF)
+	end
 end
 
 return slot0

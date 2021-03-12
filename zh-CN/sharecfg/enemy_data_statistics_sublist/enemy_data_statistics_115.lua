@@ -890,7 +890,7 @@ pg.enemy_data_statistics_115 = {
 		},
 		equipment_list = {
 			100217,
-			450051,
+			480251,
 			313091
 		}
 	}

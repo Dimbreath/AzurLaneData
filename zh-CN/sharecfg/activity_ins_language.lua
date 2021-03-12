@@ -6949,229 +6949,229 @@ pg.activity_ins_language = {
 		value = "哈哈，姑且谢谢指挥官的夸奖了。"
 	},
 	ins_202 = {
-		value = ""
+		value = "没错，舰队的指挥官之位暂时由我接收了——开玩笑的！"
 	},
 	ins_discuss_202_1 = {
-		value = ""
+		value = "咦？那是指挥官同志的位置？指挥官同志呢？"
 	},
 	ins_reply_202_1_1 = {
-		value = ""
+		value = "指挥官同志的话，已经…"
 	},
 	ins_reply_202_1_2 = {
-		value = ""
+		value = "欸欸欸！？"
 	},
 	ins_reply_202_1_3 = {
-		value = ""
+		value = "哈哈哈，只是趁着指挥官同志不在的时候摆拍了一张而已！"
 	},
 	ins_discuss_202_2 = {
-		value = ""
+		value = "哎呀呀，挺有种“幕后黑手”的感觉的？"
 	},
 	ins_reply_202_2_1 = {
-		value = ""
+		value = "偶尔扮演下“冷酷反派”其实也挺不错的！"
 	},
 	ins_discuss_202_3 = {
-		value = ""
+		value = "需要雷鸣帮忙“处理”的话，可以说一声…"
 	},
 	ins_reply_202_3_1 = {
-		value = ""
+		value = "只、只是开玩笑的而已~…吧？"
 	},
 	ins_op_202_1_1 = {
-		value = ""
+		value = "什么时候拍的…"
 	},
 	op_reply_202_1_1 = {
-		value = ""
+		value = "前面指挥官同志有事出去的时候顺便摆拍的！"
 	},
 	ins_op_202_1_2 = {
-		value = ""
+		value = "你才是指挥官！？"
 	},
 	op_reply_202_1_2 = {
-		value = ""
+		value = "让我真的坐上这个位置也不是不行…哈哈，开个玩笑！"
 	},
 	ins_203 = {
-		value = ""
+		value = "偶尔来点还是挺不错的！"
 	},
 	ins_discuss_203_1 = {
-		value = ""
+		value = "确实是一次愉快的酒会呢。"
 	},
 	ins_reply_203_1_1 = {
-		value = ""
+		value = "下次再一起喝吧，无论是啤酒的话题，还是吉他音乐的话题都可以再多聊聊！"
 	},
 	ins_reply_203_1_2 = {
-		value = ""
+		value = "关系真好呀，我都有点吃醋了呢~"
 	},
 	ins_reply_203_1_3 = {
-		value = ""
+		value = "哈啊！？你你你在说什么呢！也就一般般好啦！"
 	},
 	ins_discuss_203_2 = {
-		value = ""
+		value = "唔？北方联合的人喝酒不是只喝伏特加吗？"
 	},
 	ins_reply_203_2_1 = {
-		value = ""
+		value = "那是刻板印象哦，姐姐。"
 	},
 	ins_discuss_203_3 = {
-		value = ""
+		value = "唔…啤酒啊…总觉得有点不够刺激…"
 	},
 	ins_reply_203_3_1 = {
-		value = ""
+		value = "多尝试些不同的东西总是好的~"
 	},
 	ins_op_203_1_1 = {
-		value = ""
+		value = "感受到塔林对啤酒的爱了"
 	},
 	op_reply_203_1_1 = {
-		value = ""
+		value = "下次也要来参加酒会哦，指挥官同志。"
 	},
 	ins_op_203_1_2 = {
-		value = ""
+		value = "啤酒沫…"
 	},
 	op_reply_203_1_2 = {
-		value = ""
+		value = "啊，拍照的时候没注意…"
 	},
 	ins_204 = {
-		value = ""
+		value = "你只有一条尾巴，而我有两条尾巴呢，呼呼~"
 	},
 	ins_discuss_204_1 = {
-		value = ""
+		value = "哇，毛茸茸的好可爱呀~"
 	},
 	ins_reply_204_1_1 = {
-		value = ""
+		value = "是偶然遇到的孩子哦，下次有机会再碰到就好了~"
 	},
 	ins_discuss_204_2 = {
-		value = ""
+		value = "港区里还真是什么小动物都能碰到呢…"
 	},
 	ins_reply_204_2_1 = {
-		value = ""
+		value = "每天出门都有惊喜的邂逅可以期待，不是挺好的嘛~"
 	},
 	ins_discuss_204_3 = {
-		value = ""
+		value = "毛茸茸的尾巴…想摸"
 	},
 	ins_reply_204_3_1 = {
-		value = ""
+		value = "毛茸茸，雷鸣也想摸摸。"
 	},
 	ins_reply_204_3_2 = {
-		value = ""
+		value = "唔，要不…下次我的尾巴给你们摸摸？"
 	},
 	ins_op_204_1_1 = {
-		value = ""
+		value = "好想摸摸看"
 	},
 	op_reply_204_1_1 = {
-		value = ""
+		value = "嘻嘻，指挥官是想摸哪边呀~？"
 	},
 	ins_op_204_1_2 = {
-		value = ""
+		value = "好高的亲和力！"
 	},
 	op_reply_204_1_2 = {
-		value = ""
+		value = "只要温柔以待，这些孩子们自然会亲近你的~"
 	},
 	ins_205 = {
-		value = ""
+		value = "今天的作品( • ̀ω•́ )✧"
 	},
 	ins_discuss_205_1 = {
-		value = ""
+		value = "头上小家伙的伙伴…？"
 	},
 	ins_reply_205_1_1 = {
-		value = ""
+		value = "照着这孩子捏的，嘻嘻，还不错吧~"
 	},
 	ins_reply_205_1_2 = {
-		value = ""
+		value = "很可爱哦~"
 	},
 	ins_discuss_205_2 = {
-		value = ""
+		value = "哦哦！发现玩雪的小伙伴了！一起来堆雪人打雪仗嘛！"
 	},
 	ins_reply_205_2_1 = {
-		value = ""
+		value = "哈哈~好呀好呀~再多喊些小伙伴来吧！"
 	},
 	ins_discuss_205_3 = {
-		value = ""
+		value = "新挑战目标…雪雕制作…确认…！"
 	},
 	ins_reply_205_3_1 = {
-		value = ""
+		value = "哎？加斯科涅也想捏吗？"
 	},
 	ins_op_205_1_1 = {
-		value = ""
+		value = "真是心灵手巧！"
 	},
 	op_reply_205_1_1 = {
-		value = ""
+		value = "嘻嘻，谢谢夸奖~"
 	},
 	ins_op_205_1_2 = {
-		value = ""
+		value = "真是栩栩如生！"
 	},
 	op_reply_205_1_2 = {
-		value = ""
+		value = "是吧~这孩子看到了也很高兴的样子呢！"
 	},
 	ins_206 = {
-		value = ""
+		value = "侵入者逃到了书架后面…必须排除…！"
 	},
 	ins_discuss_206_1 = {
-		value = ""
+		value = "侵入者…？"
 	},
 	ins_reply_206_1_1 = {
-		value = ""
+		value = "黑黑的，小小的，跑得很快的…"
 	},
 	ins_reply_206_1_2 = {
-		value = ""
+		value = "难道是那个…"
 	},
 	ins_reply_206_1_3 = {
-		value = ""
+		value = "不要说出那个名字！"
 	},
 	ins_discuss_206_2 = {
-		value = ""
+		value = "啊哈哈，还好及时找到了杀虫剂，差点书架就要遭殃了呢…"
 	},
 	ins_reply_206_2_1 = {
-		value = ""
+		value = "感谢洪亮的支援…！"
 	},
 	ins_discuss_206_3 = {
-		value = ""
+		value = "呵呵，说到排除“害虫”…我就有不少经验可以分享了呢~"
 	},
 	ins_reply_206_3_1 = {
-		value = ""
+		value = "总感觉说的不是一件事情呢…"
 	},
 	ins_op_206_1_1 = {
-		value = ""
+		value = "希望书架没事…"
 	},
 	op_reply_206_1_1 = {
-		value = ""
+		value = "靠洪亮的杀虫剂解决了…"
 	},
 	ins_op_206_1_2 = {
-		value = ""
+		value = "冷、冷静下来！"
 	},
 	op_reply_206_1_2 = {
-		value = ""
+		value = "冷静地扑杀…！"
 	},
 	ins_207 = {
-		value = ""
+		value = "破冰航行，一往无前！"
 	},
 	ins_discuss_207_1 = {
-		value = ""
+		value = "哈哈哈！不错！这才是北方联合的战士应有的气势！"
 	},
 	ins_reply_207_1_1 = {
-		value = ""
+		value = "没有什么能阻挡我们前进的钢铁洪流！"
 	},
 	ins_discuss_207_2 = {
-		value = ""
+		value = "哦哦！气势出来了！北方联合平时就是这样航行的吗！"
 	},
 	ins_reply_207_2_1 = {
-		value = ""
+		value = "…还是正常的航行比较多吧…"
 	},
 	ins_reply_207_2_2 = {
-		value = ""
+		value = "稍~~微有点点夸张的成分在里面吧！哈哈！"
 	},
 	ins_discuss_207_3 = {
-		value = ""
+		value = "难道这就是北方联合的新技术？！"
 	},
 	ins_reply_207_3_1 = {
-		value = ""
+		value = "没有，靠的就是一往无前的气势！和无比坚定的意志！"
 	},
 	ins_op_207_1_1 = {
-		value = ""
+		value = "注意航行安全…"
 	},
 	op_reply_207_1_1 = {
-		value = ""
+		value = "这点阻碍不算什么！"
 	},
 	ins_op_207_1_2 = {
-		value = ""
+		value = "气势很足！"
 	},
 	op_reply_207_1_2 = {
-		value = ""
+		value = "论气势和意志，北方联合不会输任何人的！"
 	},
 	all = {
 		ins_op_1_1_1,

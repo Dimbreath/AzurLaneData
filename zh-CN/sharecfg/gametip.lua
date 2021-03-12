@@ -13198,6 +13198,33 @@ BUFF加成也会增加
 	valentinesday__shop_tip = {
 		tip = "是否前往换装商店界面？"
 	},
+	wwf_bamboo_tip1 = {
+		tip = "大宝的伙伴（宁海篇）"
+	},
+	wwf_bamboo_tip2 = {
+		tip = "二宝的伙伴（平海篇）"
+	},
+	wwf_bamboo_tip3 = {
+		tip = "美味竹子不足，请完成任务获取 "
+	},
+	wwf_bamboo_help = {
+		tip = {
+			{
+				info = [[
+活动时间：<color=#92fc63>2021.3.12-2021.3.25</color>
+活动简介：
+1.活动分为<color=#92fc63>大宝的伙伴（宁海篇）</color>和<color=#92fc63>二宝的伙伴（平海篇）</color>两个部分，点击页面右下方按钮可以进行切换
+2.活动期间完成任务可以获取<color=#92fc63>美味竹子</color>，消耗美味竹子照顾大熊猫达到指定亲密度可以领取奖励
+3.指挥官点击页面左下方美味竹子图标可以查看任务列表，任务分为三类：
+①活动任务：活动期间只可完成一次
+②每日任务：活动期间每天零点刷新
+③每周任务：活动期间每周一零点刷新]]
+			}
+		}
+	},
+	wwf_guide_tip = {
+		tip = "点击<color=#92fc63>美味竹子</color>图标可以查看任务列表哦"
+	},
 	cumulative_victory_target_tip = {
 		tip = "目标胜利次数："
 	},
@@ -13667,5 +13694,38 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	},
 	levelScene_select_noitem = {
 		tip = "暂无可使用的道具"
+	},
+	login_arrears_tips = {
+		tip = "账号中存在异常退款记录，仅允许登陆以下服务器：$1"
+	},
+	Supplement_pay1 = {
+		tip = "检测到账号中存在异常退款记录，需要完成全部\n异常退款交易处理后才能继续进行游戏"
+	},
+	Supplement_pay2 = {
+		tip = "完成右侧全部异常交易补款后，才能继续进行游戏"
+	},
+	Supplement_pay3 = {
+		tip = "账号中所有异常退款记录均已处理完毕，点击确定按钮将会关闭游戏进程。再次运行客户端后，账号即可正常进行游戏"
+	},
+	Supplement_pay4 = {
+		tip = "前往处理"
+	},
+	world_ship_repair = {
+		tip = "请选择需要使用的舰船："
+	},
+	Supplement_pay5 = {
+		tip = "※点击每项交易记录页签进入支付页面进行补款"
+	},
+	area_unkown = {
+		tip = "未知海域"
+	},
+	Supplement_pay6 = {
+		tip = "购买时间："
+	},
+	Supplement_pay7 = {
+		tip = "退款时间："
+	},
+	Supplement_pay8 = {
+		tip = "剩余 $1"
 	}
 }

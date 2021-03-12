@@ -3,6 +3,7 @@ slot0.InitCount = 10
 slot0.MaxCount = 100
 slot0.FORM_COMMON = 0
 slot0.FORM_BATTLE = 1
+slot0.FORM_MAIN = 2
 slot0.ChannelBits = {
 	send = ChatConst.ChannelWorld,
 	recv = IndexConst.Flags2Bits({

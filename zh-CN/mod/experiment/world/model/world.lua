@@ -562,7 +562,7 @@ function slot0.ReplacementMapType(slot0, slot1)
 		return "base_chapter", i18n("area_putong")
 	end
 
-	return "test_chapter", i18n("area_ceshi")
+	return "test_chapter", i18n("area_unkown")
 end
 
 function slot0.FindTreasureEntrance(slot0, slot1)
