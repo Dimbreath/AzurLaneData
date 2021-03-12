@@ -1671,40 +1671,52 @@ function ()
 		precast_param = {}
 	}
 	uv0.weapon_property_273[561024] = {
-		action_index = "",
-		oxy_type = "",
-		range = 0,
-		type = 0,
-		search_condition = "",
-		fire_fx = "",
+		action_index = "attack",
+		range = 100,
+		type = 1,
+		fire_fx = "CAFire",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		precast_param = "",
 		name = "【英系v1】舰船旋转子弹延迟3连弹——轻巡",
-		aim_type = 0,
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 0,
+		angle = 180,
 		charge_param = "",
-		damage = 0,
-		corrected = 0,
+		damage = 12,
+		corrected = 100,
 		min_range = 0,
 		id = 561024,
-		attack_attribute_ratio = 0,
-		barrage_ID = "",
-		bullet_ID = "",
-		fire_fx_loop_type = 0,
-		attack_attribute = 0,
-		reload_max = 0,
-		queue = 0,
-		search_type = 0,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1000,
+		queue = 1,
+		search_type = 1,
 		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "",
-		fire_sfx = "",
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
 		auto_aftercast = 0,
-		initial_over_heat = 0
+		initial_over_heat = 0,
+		bullet_ID = {
+			300109,
+			300110,
+			300111
+		},
+		barrage_ID = {
+			300109,
+			300110,
+			300111
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
 	uv0.weapon_property_273[561101] = {
 		action_index = "",

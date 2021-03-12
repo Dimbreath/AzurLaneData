@@ -210,6 +210,10 @@ function slot0.OnFirstFlush(slot0)
 		uv0:openTask()
 		PlayerPrefs.SetInt("wwf_first_" .. uv0.playerId, 1)
 		PlayerPrefs.Save()
+
+		if #uv0.finishItemList > 0 then
+			uv0:autoFinishTask()
+		end
 	end, SFX_PANEL)
 
 	slot2 = "pinghai_7"
@@ -244,14 +248,12 @@ function slot0.OnFirstFlush(slot0)
 
 	slot0:initTaskWindow()
 
-	if #slot0.finishItemList > 0 then
-		slot0:openTask()
-		slot0:autoFinishTask()
-	end
-
 	if slot0.isFirst == 0 then
 		setActive(slot0.guide, true)
 		setText(slot0.guideContent, i18n("wwf_guide_tip"))
+	elseif #slot0.finishItemList > 0 then
+		slot0:openTask()
+		slot0:autoFinishTask()
 	end
 
 	slot0:setPtActIndex()

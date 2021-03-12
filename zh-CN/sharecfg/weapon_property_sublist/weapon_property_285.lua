@@ -2531,39 +2531,47 @@ function ()
 	}
 	uv0.weapon_property_285[581014] = {
 		action_index = "",
-		oxy_type = "",
-		range = 0,
-		type = 0,
-		search_condition = "",
+		range = 90,
+		type = 3,
 		fire_fx = "",
-		recover_time = 0,
+		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		precast_param = "",
 		name = "【新奥】舰船鱼雷延迟散射2连——驱逐",
-		aim_type = 0,
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 0,
+		angle = 90,
 		charge_param = "",
-		damage = 0,
-		corrected = 0,
+		damage = 46,
+		corrected = 100,
 		min_range = 0,
 		id = 581014,
-		attack_attribute_ratio = 0,
-		barrage_ID = "",
-		bullet_ID = "",
-		fire_fx_loop_type = 0,
-		attack_attribute = 0,
-		reload_max = 0,
-		queue = 0,
-		search_type = 0,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 2400,
+		queue = 1,
+		search_type = 1,
 		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "",
+		suppress = 1,
+		spawn_bound = "torpedo",
 		fire_sfx = "",
 		auto_aftercast = 0,
-		initial_over_heat = 0
+		initial_over_heat = 0,
+		bullet_ID = {
+			350101
+		},
+		barrage_ID = {
+			350101
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
 	uv0.weapon_property_285[581100] = {
 		action_index = "attack",
