@@ -6949,229 +6949,229 @@ pg.activity_ins_language = {
 		value = "Indeed, and I consider myself an expert at it. Wouldn't you agree, Commander?"
 	},
 	ins_202 = {
-		value = ""
+		value = "The commander's chair is mine! You must all get into the ******* robot! (Don't take this seriously.)"
 	},
 	ins_discuss_202_1 = {
-		value = ""
+		value = "Hey, that's definitely Comrade Commander's chair! But... where's Comrade Commander?"
 	},
 	ins_reply_202_1_1 = {
-		value = ""
+		value = "No longer in office, that's where."
 	},
 	ins_reply_202_1_2 = {
-		value = ""
+		value = "WHOA WHAT?!"
 	},
 	ins_reply_202_1_3 = {
-		value = ""
+		value = "Which is to say, out in the harbor. I just seized the opportunity to take an amusing photo."
 	},
 	ins_discuss_202_2 = {
-		value = ""
+		value = "I don't like where this is going..."
 	},
 	ins_reply_202_2_1 = {
-		value = ""
+		value = "I Am (Not) A Four-Eyes."
 	},
 	ins_discuss_202_3 = {
-		value = ""
+		value = "This isn't a coup, is it? I'm allergic to power struggles."
 	},
 	ins_reply_202_3_1 = {
-		value = ""
+		value = "I think it's just Belorussiya having a little fun."
 	},
 	ins_op_202_1_1 = {
-		value = ""
+		value = "There's more to my job than just sitting in a chair."
 	},
 	op_reply_202_1_1 = {
-		value = ""
+		value = "Perhaps, but it's a big part of it. You should get out more often. I'll keep your seat warm while you do."
 	},
 	ins_op_202_1_2 = {
-		value = ""
+		value = "Being the commander comes with great responsibility."
 	},
 	op_reply_202_1_2 = {
-		value = ""
+		value = "And with great authority! Allow me to wield it, and I won't disappoint you!"
 	},
 	ins_203 = {
-		value = ""
+		value = "I like to treat myself and my comrades to a beer now and then."
 	},
 	ins_discuss_203_1 = {
-		value = ""
+		value = "Thanks for the drinks. That wasn't a half-bad evening at all."
 	},
 	ins_reply_203_1_1 = {
-		value = ""
+		value = "Then how about we do it again sometime? I'd love to chat some more about guitars and music."
 	},
 	ins_reply_203_1_2 = {
-		value = ""
+		value = "Aww, look, Hipper's made a friend. Now just don't flip your lid and lose her."
 	},
 	ins_reply_203_1_3 = {
-		value = ""
+		value = "I have PLENTY of friends and I NEVER flip my lid, thank you very much!"
 	},
 	ins_discuss_203_2 = {
-		value = ""
+		value = "Thought the cliche was that Northern Parliament folks only drank vodka?"
 	},
 	ins_reply_203_2_1 = {
-		value = ""
+		value = "Scharnhorst, please. That's only a stereotype. We don't drink only bier, do we?"
 	},
 	ins_discuss_203_3 = {
-		value = ""
+		value = "Bier is too weak. I need something with more kick to it."
 	},
 	ins_reply_203_3_1 = {
-		value = ""
+		value = "Variety is the spice of life. You need weak drinks to contrast strong drinks with!"
 	},
 	ins_op_203_1_1 = {
-		value = ""
+		value = "Who doesn't love a cold one after a day's work?"
 	},
 	op_reply_203_1_1 = {
-		value = ""
+		value = "You included, I hope. Try to make it for the next meet, would you?"
 	},
 	ins_op_203_1_2 = {
-		value = ""
+		value = "Heh, a classic beer mustache."
 	},
 	op_reply_203_1_2 = {
-		value = ""
+		value = "Didn't notice it until after we took the photo. Although I'd rather have that than a beer belly!"
 	},
 	ins_204 = {
-		value = ""
+		value = "Who's a good one-tailed girl? You are, yes you are~"
 	},
 	ins_discuss_204_1 = {
-		value = ""
+		value = "ADORABLE! I wanna pat her too~"
 	},
 	ins_reply_204_1_1 = {
-		value = ""
+		value = "She scuddled off back into the wild shortly after. I hope we'll meet again though~"
 	},
 	ins_discuss_204_2 = {
-		value = ""
+		value = "The port's vicinity is home to surprisingly many critters. I wonder if we're allowed to have pets."
 	},
 	ins_reply_204_2_1 = {
-		value = ""
+		value = "If not, I can make do with just meeting a new cute critter each day~"
 	},
 	ins_discuss_204_3 = {
-		value = ""
+		value = "So cute... Tashkent has a fever, and the only prescription is lots of fluffing."
 	},
 	ins_reply_204_3_1 = {
-		value = ""
+		value = "Me too. I'm powerless to resist the urge to fluff."
 	},
 	ins_reply_204_3_2 = {
-		value = ""
+		value = "You could each fluff one of my tails, if you'd like!"
 	},
 	ins_op_204_1_1 = {
-		value = ""
+		value = "I, too, need some fluffing right now."
 	},
 	op_reply_204_1_1 = {
-		value = ""
+		value = "Hehe, no surprise there! You're a fluffaholic through and through, aren't you, Commander~?"
 	},
 	ins_op_204_1_2 = {
-		value = ""
+		value = "You managed to tame a snow fox, just like that?"
 	},
 	op_reply_204_1_2 = {
-		value = ""
+		value = "Yep! They'll gladly let you pat them if you just show that you're friendly."
 	},
 	ins_205 = {
-		value = ""
+		value = "Check out what I made! Pretty good, right? ( • ̀ω•́ )✧"
 	},
 	ins_discuss_205_1 = {
-		value = ""
+		value = "Is that your raccoon? That's pretty cool."
 	},
 	ins_reply_205_1_1 = {
-		value = ""
+		value = "Yup, yup! I'm really proud of how it turned out!"
 	},
 	ins_reply_205_1_2 = {
-		value = ""
+		value = "You should enter a snow sculpture competition. I bet you would take home first prize~"
 	},
 	ins_discuss_205_2 = {
-		value = ""
+		value = "You like playing in the snow too? Oh boy! Let's make a snowman and have a snowball fight!"
 	},
 	ins_reply_205_2_1 = {
-		value = ""
+		value = "Sounds good! Bring all your friends too!"
 	},
 	ins_discuss_205_3 = {
-		value = ""
+		value = "New objective identified. Planning construction of snow sculpture."
 	},
 	ins_reply_205_3_1 = {
-		value = ""
+		value = "Ooh! What are you gonna make? A snow cathedral maybe?"
 	},
 	ins_op_205_1_1 = {
-		value = ""
+		value = "All that's missing is the stripes, then it's perfect."
 	},
 	op_reply_205_1_1 = {
-		value = ""
+		value = "I'd need soot or something for that! I don't wanna get my mittens dirty."
 	},
 	ins_op_205_1_2 = {
-		value = ""
+		value = "It even has the hat!"
 	},
 	op_reply_205_1_2 = {
-		value = ""
+		value = "The tail was the trickiest part! Snowsculpting is a real art."
 	},
 	ins_206 = {
-		value = ""
+		value = "Pests lurk behind the bookshelf. They must be terminated."
 	},
 	ins_discuss_206_1 = {
-		value = ""
+		value = "What kind of pests are we talking here?"
 	},
 	ins_reply_206_1_1 = {
-		value = ""
+		value = "The resilient kind whose name inspires fear and disgust... Cockroaches."
 	},
 	ins_reply_206_1_2 = {
-		value = ""
+		value = "Mother of god... Yeah, it's time to terminate all right."
 	},
 	ins_reply_206_1_3 = {
-		value = ""
+		value = "DU-DUN DUN-DUN-DUN! DU-DUN DUN-DUN-DUN!"
 	},
 	ins_discuss_206_2 = {
-		value = ""
+		value = "Good thing we discovered them sooner rather than later! And that we had roach spray in the storage!"
 	},
 	ins_reply_206_2_1 = {
-		value = ""
+		value = "Mm, that's all of them. The enroachment has been dealt with."
 	},
 	ins_discuss_206_3 = {
-		value = ""
+		value = "Pests, you say? I'm something of an expert on disposing of those, should you need help in the future."
 	},
 	ins_reply_206_3_1 = {
-		value = ""
+		value = "Um, I don't think we're on the same page here..."
 	},
 	ins_op_206_1_1 = {
-		value = ""
+		value = "You didn't... destroy the bookshelf, right?"
 	},
 	op_reply_206_1_1 = {
-		value = ""
+		value = "No. Thanks to Gromky's bug spray, we didn't have to resort to that."
 	},
 	ins_op_206_1_2 = {
-		value = ""
+		value = "Hasta la vista, roaches."
 	},
 	op_reply_206_1_2 = {
-		value = ""
+		value = "Just hope they won't return with a vengeance."
 	},
 	ins_207 = {
-		value = ""
+		value = "The revolution must go on! If ice blocks our path, we shall march THROUGH it!"
 	},
 	ins_discuss_207_1 = {
-		value = ""
+		value = "Well said, comrade! Mother nature's coldest obstacles are nothing to our fiery hot resolve!"
 	},
 	ins_reply_207_1_1 = {
-		value = ""
+		value = "Yes! We are an unstoppable wave of steel!"
 	},
 	ins_discuss_207_2 = {
-		value = ""
+		value = "Those are inspiring words to me as a leader... But I must ask: do you NP girls really sail through ice all the time?"
 	},
 	ins_reply_207_2_1 = {
-		value = ""
+		value = "Don't be ridiculous, we're not icebreakers. We only do it sometimes."
 	},
 	ins_reply_207_2_2 = {
-		value = ""
+		value = "A small embellishment for the sake of illustrating our fighting spirit, comrade. But it's not far from the truth."
 	},
 	ins_discuss_207_3 = {
-		value = ""
+		value = "interesting. what marvel of Northern Parliament engineering is this?"
 	},
 	ins_reply_207_3_1 = {
-		value = ""
+		value = "Engineering has nothing to do with it. We smash through the ice with our sheer determination!"
 	},
 	ins_op_207_1_1 = {
-		value = ""
+		value = "Just don't ram into the enemy, all right?"
 	},
 	op_reply_207_1_1 = {
-		value = ""
+		value = "If the enemy stands in our way, then they will meet the same fate as the ice!"
 	},
 	ins_op_207_1_2 = {
-		value = ""
+		value = "That's the fighting spirit I like to see!"
 	},
 	op_reply_207_1_2 = {
-		value = ""
+		value = "None can match our unwavering resolve!"
 	},
 	all = {
 		ins_op_1_1_1,
