@@ -53,6 +53,7 @@ slot0.ON_BLACKWHITE = "MainUIMediator.ON_BLACKWHITE"
 slot0.ON_MEMORYBOOK = "MainUIMediator.ON_MEMORYBOOK"
 slot0.GO_MINI_GAME = "MainUIMediator.GO_MINI_GAME"
 slot0.GO_SINGLE_ACTIVITY = "MainUIMediator:GO_SINGLE_ACTIVITY"
+slot0.LOG_OUT = "MainUIMediator:LOG_OUT"
 
 function slot0.register(slot0)
 	slot1 = getProxy(BayProxy)
@@ -247,7 +248,10 @@ function slot0.register(slot0)
 			onRemoved = function ()
 				uv0:updateChat()
 				uv0.viewComponent:enablePartialBlur()
-			end
+			end,
+			data = {
+				form = NotificationLayer.FORM_MAIN
+			}
 		}))
 	end)
 	slot0:bind(uv0.OPEN_SCHOOLSCENE, function (slot0)
@@ -455,6 +459,12 @@ function slot0.register(slot0)
 	else
 		slot0.viewComponent:updateMallBtnSellTag()
 	end
+
+	slot0:bind(uv0.LOG_OUT, function (slot0, slot1)
+		uv0:sendNotification(GAME.LOGOUT, {
+			code = 0
+		})
+	end)
 end
 
 function slot0.onBluePrintNotify(slot0)
@@ -873,6 +883,18 @@ function slot0.handleEnterMainUI(slot0)
 
 		coroutine.resume(coroutine.create(function ()
 			uv0.viewComponent:PlayBGM()
+
+			if getProxy(UserProxy).data.limitServerIds and #slot0.data.limitServerIds > 0 then
+				uv0:sendNotification(GAME.GET_REFUND_INFO, {
+					callback = function ()
+						uv0.viewComponent:checkRefundInfo(uv1)
+					end
+				})
+				coroutine.yield()
+
+				return
+			end
+
 			uv0:playStroys(function ()
 				onNextTick(uv0)
 			end)
@@ -887,18 +909,18 @@ function slot0.handleEnterMainUI(slot0)
 				return
 			end
 
-			if slot0:findRefluxAutoActivity() then
+			if slot1:findRefluxAutoActivity() then
 				uv0:sendNotification(GAME.GO_SCENE, SCENE.REFLUX)
 
 				return
 			end
 
-			slot4 = getProxy(ServerNoticeProxy):getServerNotices(false)
+			slot5 = getProxy(ServerNoticeProxy):getServerNotices(false)
 
-			filterCharForiOS(slot4)
-			filteAndDelTest(slot4)
+			filterCharForiOS(slot5)
+			filteAndDelTest(slot5)
 
-			if #slot4 > 0 and slot3:needAutoOpen() then
+			if #slot5 > 0 and slot4:needAutoOpen() then
 				uv0:addSubLayers(Context.New({
 					mediator = BulletinBoardMediator,
 					viewComponent = BulletinBoardLayer,
@@ -913,7 +935,7 @@ function slot0.handleEnterMainUI(slot0)
 				uv0:tryPlayGuide()
 			end
 
-			slot5 = false
+			slot6 = false
 
 			uv0:onChapterTimeUp(function ()
 				if not uv0 then
@@ -925,7 +947,7 @@ function slot0.handleEnterMainUI(slot0)
 			end)
 
 			if true then
-				slot5 = true
+				slot6 = true
 
 				coroutine.yield()
 			end

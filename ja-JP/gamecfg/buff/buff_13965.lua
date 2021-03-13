@@ -33,7 +33,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					maxHPRatio = 0.18
+					maxHPRatio = 0.018
 				}
 			}
 		}
@@ -46,7 +46,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					maxHPRatio = 0.22
+					maxHPRatio = 0.022
 				}
 			}
 		}
@@ -59,7 +59,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					maxHPRatio = 0.26
+					maxHPRatio = 0.026
 				}
 			}
 		}

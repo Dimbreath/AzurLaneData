@@ -467,7 +467,11 @@ function slot0.selectFleet(slot0, slot1, slot2, slot3)
 		end
 	end
 
-	slot6 = slot4[slot2]
+	slot6 = {
+		not slot0:IsListOfFleetEmpty(1) or nil,
+		not slot0:IsListOfFleetEmpty(2) or nil
+	}
+	slot7 = slot4[slot2]
 	slot4[slot2] = slot3
 
 	slot0:updateFleet(slot1, slot2)
@@ -480,7 +484,10 @@ function slot0.selectFleet(slot0, slot1, slot2, slot3)
 	slot0:UpdateSonarRange()
 	slot0:UpdateDutyBar()
 
-	if slot0.dutyTabEnabled and slot6 and slot6 > 0 and slot3 == 0 then
+	if slot0.dutyTabEnabled and table.getCount(slot6) == 2 and table.getCount({
+		not slot0:IsListOfFleetEmpty(1) or nil,
+		not slot0:IsListOfFleetEmpty(2) or nil
+	}) == 1 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("autofight_change_tip"))
 	end
 end

@@ -17,21 +17,13 @@ function slot0.Flush(slot0, slot1)
 	slot0.invaildShips = {}
 
 	for slot5, slot6 in ipairs(slot1.ships) do
-		for slot10, slot11 in ipairs(slot6.ship_ids) do
-			if slot0:IsVaildShip({
-				uid = slot6.user_id,
-				id = slot11
-			}) then
-				table.insert(slot0.userShips, {
-					uid = slot6.user_id,
-					id = slot11
-				})
-			else
-				table.insert(slot0.invaildShips, {
-					uid = slot6.user_id,
-					id = slot11
-				})
-			end
+		if slot0:IsVaildShip({
+			uid = slot6.user_id,
+			id = slot6.ship_id
+		}) then
+			table.insert(slot0.userShips, slot7)
+		else
+			table.insert(slot0.invaildShips, slot7)
 		end
 	end
 

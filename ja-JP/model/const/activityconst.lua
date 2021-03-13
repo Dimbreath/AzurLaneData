@@ -171,7 +171,9 @@ slot0.PageIdLink = {
 	[slot0.POCKY_SKIN_TASKLIST] = slot0.POCKY_SKIN_LOGIN,
 	[slot0.POCKY_SKIN_FINAL] = slot0.POCKY_SKIN_LOGIN,
 	[slot0.POCKY_SKIN_FINAL] = slot0.POCKY_SKIN_LOGIN,
-	[pg.activity_const.NEW_ORLEANS_TASK.act_id] = pg.activity_const.NEW_ORLEANS_LOGIN.act_id
+	[slot0.NEW_ORLEANS_TASK] = slot0.NEW_ORLEANS_LOGIN,
+	[slot0.WWF_NING_PT_ID] = slot0.WWF_TASK_ID,
+	[slot0.WWF_PING_PT_ID] = slot0.WWF_TASK_ID
 }
 
 return slot0

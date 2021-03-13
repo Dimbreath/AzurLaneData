@@ -246,7 +246,7 @@ pg.enemy_data_statistics_133 = {
 		},
 		equipment_list = {
 			100412,
-			400502
+			510147
 		}
 	},
 	[10044065] = {
@@ -283,7 +283,7 @@ pg.enemy_data_statistics_133 = {
 		antisub = 0,
 		equipment_list = {
 			100412,
-			400502
+			510147
 		}
 	},
 	[10044066] = {
@@ -324,7 +324,7 @@ pg.enemy_data_statistics_133 = {
 		equipment_list = {
 			513121,
 			513122,
-			400904
+			510148
 		}
 	},
 	[10044501] = {
@@ -577,7 +577,7 @@ pg.enemy_data_statistics_133 = {
 		},
 		equipment_list = {
 			100217,
-			450051,
+			510149,
 			313091
 		}
 	},

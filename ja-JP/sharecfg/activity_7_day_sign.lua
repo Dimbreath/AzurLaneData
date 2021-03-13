@@ -40,47 +40,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	{
-		id = 2,
-		front_drops = {
-			{
-				5,
-				127,
-				1
-			},
-			{
-				2,
-				18001,
-				1
-			},
-			{
-				5,
-				126,
-				1
-			},
-			{
-				2,
-				18002,
-				1
-			},
-			{
-				2,
-				18002,
-				1
-			},
-			{
-				2,
-				18003,
-				1
-			},
-			{
-				5,
-				125,
-				1
-			}
-		}
-	},
-	{
+	[3] = {
 		id = 3,
 		front_drops = {
 			{
@@ -100,47 +60,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	{
-		id = 4,
-		front_drops = {
-			{
-				5,
-				32103,
-				1
-			},
-			{
-				2,
-				18001,
-				1
-			},
-			{
-				5,
-				32104,
-				1
-			},
-			{
-				2,
-				18002,
-				1
-			},
-			{
-				5,
-				32105,
-				1
-			},
-			{
-				2,
-				18003,
-				1
-			},
-			{
-				5,
-				32106,
-				1
-			}
-		}
-	},
-	{
+	[5] = {
 		id = 5,
 		front_drops = {
 			{
@@ -185,7 +105,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	{
+	[6] = {
 		id = 6,
 		front_drops = {
 			{
@@ -225,7 +145,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	{
+	[7] = {
 		id = 7,
 		front_drops = {
 			{
@@ -300,7 +220,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	{
+	[8] = {
 		id = 8,
 		front_drops = {
 			{
@@ -330,7 +250,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	{
+	[9] = {
 		id = 9,
 		front_drops = {
 			{
@@ -370,7 +290,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	{
+	[10] = {
 		id = 10,
 		front_drops = {
 			{
@@ -445,7 +365,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	{
+	[11] = {
 		id = 11,
 		front_drops = {
 			{
@@ -490,7 +410,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	{
+	[12] = {
 		id = 12,
 		front_drops = {
 			{
@@ -530,7 +450,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	{
+	[13] = {
 		id = 13,
 		front_drops = {
 			{
@@ -555,7 +475,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	{
+	[14] = {
 		id = 14,
 		front_drops = {
 			{
@@ -595,7 +515,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	{
+	[15] = {
 		id = 15,
 		front_drops = {
 			{
@@ -620,7 +540,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	{
+	[16] = {
 		id = 16,
 		front_drops = {
 			{
@@ -660,7 +580,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	{
+	[17] = {
 		id = 17,
 		front_drops = {
 			{
@@ -700,7 +620,7 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
-	{
+	[18] = {
 		id = 18,
 		front_drops = {
 			{
@@ -727,9 +647,7 @@ pg.activity_7_day_sign = {
 	},
 	all = {
 		1,
-		2,
 		3,
-		4,
 		5,
 		6,
 		7,

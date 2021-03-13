@@ -2,6 +2,392 @@ pg = pg or {}
 pg.weapon_property_344 = {}
 
 function ()
+	uv0.weapon_property_344[763211] = {
+		aim_type = 1,
+		range = 120,
+		damage = 64,
+		base = 1000,
+		name = "【2020德系活动D3】塞壬构建者 第三波 连续自机狙触手",
+		fire_fx = "",
+		suppress = 1,
+		reload_max = 1800,
+		fire_sfx = "battle/cannon-main",
+		queue = 2,
+		id = 763211,
+		bullet_ID = {
+			810059,
+			810059,
+			810059,
+			810099
+		},
+		barrage_ID = {
+			820049,
+			820055,
+			820056,
+			820057
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_344[763212] = {
+		reload_max = 100,
+		name = "【2020德系活动D3】塞壬构建者 第四波 浮游炮",
+		damage = 18,
+		base = 1002,
+		id = 763212,
+		range = 120,
+		queue = 2,
+		barrage_ID = {
+			700143
+		}
+	}
+	uv0.weapon_property_344[763213] = {
+		reload_max = 100,
+		name = "【2020德系活动D3】塞壬构建者 第四波 浮游炮",
+		damage = 18,
+		base = 1002,
+		id = 763213,
+		range = 120,
+		queue = 3,
+		barrage_ID = {
+			700143
+		}
+	}
+	uv0.weapon_property_344[763214] = {
+		range = 120,
+		damage = 18,
+		base = 1000,
+		name = "【2020德系活动D3】塞壬构建者 第四波 浮游炮弹幕",
+		fire_fx = "",
+		action_index = "",
+		type = 2,
+		reload_max = 5000,
+		attack_attribute = 4,
+		fire_sfx = "",
+		queue = 1,
+		id = 763214,
+		bullet_ID = {
+			810100,
+			810100,
+			810100,
+			810100,
+			810100,
+			810100
+		},
+		barrage_ID = {
+			820058,
+			820059,
+			820060,
+			820061,
+			820062,
+			820063
+		}
+	}
+	uv0.weapon_property_344[763215] = {
+		range = 120,
+		damage = 18,
+		base = 1000,
+		name = "【2020德系活动D3】塞壬构建者 第四波 浮游炮弹幕",
+		fire_fx = "",
+		action_index = "",
+		type = 2,
+		reload_max = 5000,
+		attack_attribute = 4,
+		fire_sfx = "",
+		queue = 1,
+		id = 763215,
+		bullet_ID = {
+			810100,
+			810100,
+			810100,
+			810100,
+			810100,
+			810100
+		},
+		barrage_ID = {
+			820064,
+			820065,
+			820066,
+			820067,
+			820068,
+			820069
+		}
+	}
+	uv0.weapon_property_344[763216] = {
+		aim_type = 1,
+		range = 120,
+		damage = 20,
+		base = 1000,
+		name = "【2020德系活动D3】塞壬构建者 第四波 紫色自机狙弹幕",
+		suppress = 1,
+		action_index = "",
+		reload_max = 5000,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 763216,
+		bullet_ID = {
+			810102,
+			810103,
+			810104
+		},
+		barrage_ID = {
+			820070,
+			820071,
+			820072
+		}
+	}
+	uv0.weapon_property_344[763217] = {
+		range = 120,
+		name = "【2020德系活动D3】塞壬构建者 第五波 紫色扫射弹幕",
+		damage = 20,
+		base = 1000,
+		action_index = "",
+		reload_max = 5000,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 763217,
+		bullet_ID = {
+			810105,
+			810105,
+			810105,
+			810105
+		},
+		barrage_ID = {
+			820079,
+			820080,
+			820081,
+			820082
+		}
+	}
+	uv0.weapon_property_344[763218] = {
+		reload_max = 5000,
+		damage = 56,
+		base = 1001,
+		id = 763218,
+		name = "【2020德系活动D3】塞壬构建者 第五波 鱼雷自机狙",
+		suppress = 1,
+		bullet_ID = {
+			810106,
+			810107
+		},
+		barrage_ID = {
+			820083,
+			820084
+		}
+	}
+	uv0.weapon_property_344[763219] = {
+		range = 120,
+		name = "【2020德系活动D3】塞壬构建者 第五波 全屏触手",
+		damage = 64,
+		base = 1000,
+		fire_fx = "",
+		reload_max = 1800,
+		fire_sfx = "battle/cannon-main",
+		queue = 3,
+		id = 763219,
+		bullet_ID = {
+			810099
+		},
+		barrage_ID = {
+			820085
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_344[764001] = {
+		aim_type = 1,
+		range = 38,
+		damage = 8,
+		base = 1000,
+		name = "【2020德系活动SP】BOSS 海因里希亲王 常驻近程自卫火炮",
+		type = 2,
+		suppress = 1,
+		reload_max = 600,
+		id = 764001,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			13
+		}
+	}
+	uv0.weapon_property_344[764002] = {
+		range = 120,
+		name = "【2020德系活动SP】BOSS 海因里希亲王 第一波 铁拳无敌",
+		damage = 24,
+		base = 1000,
+		reload_max = 5000,
+		queue = 1,
+		id = 764002,
+		bullet_ID = {
+			810114,
+			810114,
+			810116
+		},
+		barrage_ID = {
+			820093,
+			820094,
+			820095
+		}
+	}
+	uv0.weapon_property_344[764003] = {
+		range = 120,
+		name = "【2020德系活动SP】BOSS 海因里希亲王 第一波 铁拳侧翼拳风小子弹",
+		damage = 16,
+		base = 1000,
+		reload_max = 5000,
+		queue = 2,
+		id = 764003,
+		bullet_ID = {
+			810128,
+			810128,
+			810128,
+			810128
+		},
+		barrage_ID = {
+			820097,
+			820098,
+			820099,
+			820100
+		}
+	}
+	uv0.weapon_property_344[764004] = {
+		range = 120,
+		name = "【2020德系活动SP】BOSS 海因里希亲王 第一波 铁拳爆炸小子弹",
+		damage = 16,
+		base = 1000,
+		reload_max = 5000,
+		queue = 3,
+		id = 764004,
+		bullet_ID = {
+			810118
+		},
+		barrage_ID = {
+			820095
+		}
+	}
+	uv0.weapon_property_344[764005] = {
+		range = 120,
+		name = "【2020德系活动SP】BOSS 海因里希亲王 第二波 主炮弹幕",
+		damage = 28,
+		base = 1000,
+		reload_max = 9999,
+		queue = 2,
+		id = 764005,
+		bullet_ID = {
+			750093,
+			750093
+		},
+		barrage_ID = {
+			760158,
+			760159
+		}
+	}
+	uv0.weapon_property_344[764006] = {
+		aim_type = 0,
+		damage = 56,
+		base = 1001,
+		name = "【2020德系活动SP】BOSS 海因里希亲王 第二波 鱼雷弹幕",
+		action_index = "",
+		suppress = 1,
+		reload_max = 9999,
+		fire_sfx = "battle/cannon-main",
+		queue = 3,
+		id = 764006,
+		bullet_ID = {
+			750094,
+			750094
+		},
+		barrage_ID = {
+			760160,
+			760161
+		}
+	}
+	uv0.weapon_property_344[764007] = {
+		range = 120,
+		name = "【2020德系活动SP】BOSS 海因里希亲王 第三波 不知道叫啥好",
+		damage = 16,
+		base = 1000,
+		reload_max = 9999,
+		queue = 2,
+		id = 764007,
+		bullet_ID = {
+			810132,
+			810132,
+			810132,
+			810132,
+			810132,
+			810132
+		},
+		barrage_ID = {
+			820102,
+			820103,
+			820104,
+			820105,
+			820106,
+			820107
+		}
+	}
+	uv0.weapon_property_344[764008] = {
+		range = 120,
+		name = "【2020德系活动SP】BOSS 海因里希亲王 第三波 主炮弹幕1",
+		damage = 28,
+		base = 1000,
+		reload_max = 9999,
+		queue = 2,
+		id = 764008,
+		bullet_ID = {
+			810135,
+			810135
+		},
+		barrage_ID = {
+			820111,
+			820113
+		}
+	}
+	uv0.weapon_property_344[764009] = {
+		aim_type = 1,
+		range = 120,
+		damage = 28,
+		base = 1000,
+		name = "【2020德系活动SP】BOSS 海因里希亲王 第三波 主炮弹幕2",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 6000,
+		fire_sfx = "battle/cannon-main",
+		queue = 3,
+		id = 764009,
+		bullet_ID = {
+			810138,
+			810139,
+			810138,
+			810139,
+			810138,
+			810139,
+			810138,
+			810139,
+			810137
+		},
+		barrage_ID = {
+			810009,
+			810010,
+			810011,
+			810012,
+			810013,
+			810014,
+			810015,
+			810016,
+			820112
+		}
+	}
 	uv0.weapon_property_344[765001] = {
 		reload_max = 100,
 		name = "【2020德系活动EX】塞壬构建者 第一波 浮游炮",
@@ -1311,458 +1697,6 @@ function ()
 		barrage_ID = {
 			200140,
 			200141
-		}
-	}
-	uv0.weapon_property_344[770003] = {
-		initial_over_heat = 0,
-		name = "【2021毛系活动A1】塞壬领洋者I型 主炮2",
-		type = 1,
-		aim_type = 1,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		reload_max = 1000,
-		queue = 1,
-		range = 90,
-		damage = 10,
-		base = 1000,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 770003,
-		bullet_ID = {
-			1403
-		},
-		barrage_ID = {
-			200101
-		}
-	}
-	uv0.weapon_property_344[770004] = {
-		initial_over_heat = 1,
-		name = "【2021毛系活动A1】塞壬领洋者I型 三联装鱼雷",
-		type = 3,
-		aim_type = 1,
-		fire_fx = "",
-		action_index = "attack",
-		reload_max = 1650,
-		queue = 4,
-		range = 80,
-		damage = 16,
-		base = 1001,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 770004,
-		bullet_ID = {
-			30067
-		},
-		barrage_ID = {
-			1402
-		}
-	}
-	uv0.weapon_property_344[770005] = {
-		initial_over_heat = 0,
-		name = "【2021毛系活动A1】塞壬领洋者I型 特殊主炮",
-		type = 2,
-		aim_type = 1,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		reload_max = 1700,
-		queue = 1,
-		range = 80,
-		damage = 11,
-		base = 1000,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 770005,
-		bullet_ID = {
-			803,
-			803,
-			803,
-			803
-		},
-		barrage_ID = {
-			21037,
-			21038,
-			21039,
-			21040
-		}
-	}
-	uv0.weapon_property_344[770006] = {
-		initial_over_heat = 1,
-		name = "【2021毛系活动A1】塞壬领洋者I型 特殊武器旋转子弹副炮",
-		type = 2,
-		aim_type = 1,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		reload_max = 800,
-		queue = 3,
-		range = 80,
-		damage = 8,
-		base = 1000,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 770006,
-		bullet_ID = {
-			801,
-			801
-		},
-		barrage_ID = {
-			21006,
-			21007
-		}
-	}
-	uv0.weapon_property_344[770101] = {
-		aim_type = 1,
-		name = "【2021毛系活动A2】塞壬破局者II型 前排跨射",
-		axis_angle = 0,
-		type = 19,
-		min_range = 20,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		initial_over_heat = 0,
-		reload_max = 1500,
-		queue = 1,
-		angle = 40,
-		range = 50,
-		damage = 18,
-		base = 1000,
-		suppress = 1,
-		spawn_bound = "cannon2",
-		fire_sfx = "battle/cannon-main",
-		id = 770101,
-		bullet_ID = {
-			399988
-		},
-		barrage_ID = {
-			399912
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2
-		}
-	}
-	uv0.weapon_property_344[770102] = {
-		aim_type = 1,
-		name = "【2021毛系活动A2】塞壬破局者II型 后排跨射",
-		axis_angle = 0,
-		type = 19,
-		min_range = 75,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		initial_over_heat = 0,
-		reload_max = 2000,
-		queue = 1,
-		angle = 40,
-		range = 150,
-		damage = 22,
-		base = 1000,
-		suppress = 1,
-		spawn_bound = "cannon3",
-		fire_sfx = "battle/cannon-main",
-		id = 770102,
-		bullet_ID = {
-			1530
-		},
-		barrage_ID = {
-			20017
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2
-		}
-	}
-	uv0.weapon_property_344[770103] = {
-		initial_over_heat = 0,
-		name = "【2021毛系活动A2】塞壬破局者II型 主炮中心弹幕",
-		type = 1,
-		aim_type = 1,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		reload_max = 1200,
-		queue = 3,
-		range = 90,
-		damage = 18,
-		base = 1000,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 770103,
-		bullet_ID = {
-			690102
-		},
-		barrage_ID = {
-			690104
-		}
-	}
-	uv0.weapon_property_344[770104] = {
-		initial_over_heat = 0,
-		name = "【2021毛系活动A2】塞壬破局者II型 主炮竖排弹幕",
-		type = 1,
-		aim_type = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		reload_max = 1500,
-		queue = 3,
-		range = 90,
-		damage = 18,
-		base = 1000,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 770104,
-		bullet_ID = {
-			816,
-			816
-		},
-		barrage_ID = {
-			690105,
-			690106
-		}
-	}
-	uv0.weapon_property_344[770105] = {
-		initial_over_heat = 1,
-		name = "【2021毛系活动A2】塞壬破局者II型 双联装炮连射",
-		type = 2,
-		aim_type = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		reload_max = 800,
-		queue = 4,
-		range = 70,
-		damage = 14,
-		base = 1000,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 770105,
-		bullet_ID = {
-			811
-		},
-		barrage_ID = {
-			690014
-		}
-	}
-	uv0.weapon_property_344[770106] = {
-		initial_over_heat = 1,
-		name = "【2021毛系活动A2】塞壬破局者II型 副炮4way射击",
-		type = 2,
-		aim_type = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		reload_max = 2000,
-		queue = 4,
-		range = 70,
-		damage = 10,
-		base = 1000,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 770106,
-		bullet_ID = {
-			811,
-			811
-		},
-		barrage_ID = {
-			690107,
-			690108
-		}
-	}
-	uv0.weapon_property_344[770201] = {
-		initial_over_heat = 0,
-		name = "【2021毛系活动A3】塞壬执棋者II型 轰炸机",
-		type = 11,
-		aim_type = 1,
-		fire_fx = "",
-		action_index = "attack",
-		attack_attribute = 4,
-		reload_max = 1200,
-		queue = 1,
-		range = 100,
-		damage = 24,
-		base = 1002,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		id = 770201,
-		bullet_ID = {},
-		barrage_ID = {
-			12015
-		}
-	}
-	uv0.weapon_property_344[770202] = {
-		initial_over_heat = 0,
-		name = "【2021毛系活动A3】塞壬执棋者II型 鱼雷机",
-		type = 11,
-		aim_type = 1,
-		fire_fx = "",
-		action_index = "attack",
-		attack_attribute = 4,
-		reload_max = 1200,
-		queue = 1,
-		range = 110,
-		damage = 25,
-		base = 1002,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		id = 770202,
-		bullet_ID = {},
-		barrage_ID = {
-			12015
-		}
-	}
-	uv0.weapon_property_344[770203] = {
-		initial_over_heat = 0,
-		name = "【2021毛系活动A3】塞壬执棋者II型 浮游炮1",
-		type = 11,
-		aim_type = 1,
-		fire_fx = "",
-		action_index = "attack",
-		attack_attribute = 4,
-		reload_max = 2000,
-		queue = 2,
-		range = 110,
-		damage = 9,
-		base = 1002,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		id = 770203,
-		bullet_ID = {},
-		barrage_ID = {
-			690109
-		}
-	}
-	uv0.weapon_property_344[770204] = {
-		initial_over_heat = 0,
-		name = "【2021毛系活动A3】塞壬执棋者II型 浮游炮2",
-		type = 11,
-		aim_type = 1,
-		fire_fx = "",
-		action_index = "attack",
-		attack_attribute = 4,
-		reload_max = 2000,
-		queue = 3,
-		range = 110,
-		damage = 9,
-		base = 1002,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		id = 770204,
-		bullet_ID = {},
-		barrage_ID = {
-			690110
-		}
-	}
-	uv0.weapon_property_344[770205] = {
-		aim_type = 0,
-		name = "【2021毛系活动A3】塞壬执棋者II型 轰炸机武器",
-		axis_angle = 0,
-		type = 2,
-		min_range = 0,
-		fire_fx = "",
-		action_index = "",
-		initial_over_heat = 0,
-		reload_max = 400,
-		attack_attribute = 4,
-		queue = 1,
-		angle = 180,
-		range = 10,
-		damage = 24,
-		base = 1000,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		id = 770205,
-		bullet_ID = {
-			130301
-		},
-		barrage_ID = {
-			130992
-		}
-	}
-	uv0.weapon_property_344[770206] = {
-		aim_type = 1,
-		name = "【2021毛系活动A3】塞壬执棋者II型 鱼雷机武器",
-		axis_angle = 0,
-		type = 3,
-		min_range = 0,
-		fire_fx = "",
-		action_index = "",
-		initial_over_heat = 0,
-		reload_max = 11954,
-		attack_attribute = 4,
-		queue = 1,
-		angle = 90,
-		range = 80,
-		damage = 25,
-		base = 1001,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 770206,
-		bullet_ID = {
-			30067
-		},
-		barrage_ID = {
-			12001
-		}
-	}
-	uv0.weapon_property_344[770207] = {
-		initial_over_heat = 0,
-		name = "【2021毛系活动A3】塞壬执棋者II型 浮游炮武器1",
-		type = 2,
-		aim_type = 0,
-		fire_fx = "fangkongpaohuoshe2",
-		action_index = "",
-		attack_attribute = 4,
-		reload_max = 1500,
-		queue = 3,
-		range = 70,
-		damage = 9,
-		base = 1000,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/air-atk",
-		id = 770207,
-		bullet_ID = {
-			700101,
-			700102
-		},
-		barrage_ID = {
-			690111,
-			690112
-		}
-	}
-	uv0.weapon_property_344[770208] = {
-		initial_over_heat = 0,
-		name = "【2021毛系活动A3】塞壬执棋者II型 浮游炮武器2",
-		type = 2,
-		aim_type = 0,
-		fire_fx = "fangkongpaohuoshe2",
-		action_index = "",
-		attack_attribute = 4,
-		reload_max = 500,
-		queue = 4,
-		range = 70,
-		damage = 9,
-		base = 1000,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/air-atk",
-		id = 770208,
-		bullet_ID = {
-			690105,
-			690106
-		},
-		barrage_ID = {
-			690113,
-			690114
 		}
 	}
 end()

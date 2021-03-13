@@ -30,17 +30,16 @@ end
 function slot0.OnInit(slot0)
 	slot0.btnOn = slot0._tf:Find("On")
 	slot0.btnOff = slot0._tf:Find("Off")
-	slot1 = "chapter_autofight_flag_" .. slot0.contextData.chapterVO.id
 
 	onButton(slot0, slot0.btnOn, function ()
 		getProxy(ChapterProxy):SetChapterAutoFlag(uv0.contextData.chapterVO.id, false)
-		PlayerPrefs.SetInt(uv1, 0)
+		PlayerPrefs.SetInt("chapter_autofight_flag_" .. uv0.contextData.chapterVO.id, 0)
 		PlayerPrefs.Save()
 		uv0:UpdateAutoFightMark()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.btnOff, function ()
 		getProxy(ChapterProxy):SetChapterAutoFlag(uv0.contextData.chapterVO.id, true)
-		PlayerPrefs.SetInt(uv1, 1)
+		PlayerPrefs.SetInt("chapter_autofight_flag_" .. uv0.contextData.chapterVO.id, 1)
 		PlayerPrefs.Save()
 		uv0:UpdateAutoFightMark()
 

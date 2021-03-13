@@ -406,6 +406,11 @@ slot4, slot5 = nil
 function slot0.didEnter(slot0)
 	slot0:setBG()
 	setActive(slot0._phonyui, false)
+
+	if getProxy(UserProxy).data.limitServerIds and #slot1.data.limitServerIds > 0 then
+		return
+	end
+
 	onToggle(slot0, slot0._moveBtn, function (slot0)
 		setActive(uv0._moveOn, slot0)
 		setActive(uv0._moveOff, not slot0)
@@ -917,11 +922,11 @@ function slot0.didEnter(slot0)
 		uv0:emit(MainUIMediator.OPEN_TECHNOLOGY)
 	end, SFX_PANEL)
 
-	slot3 = GetOrAddComponent(slot0._paintingTF, "UILongPressTrigger").onLongPressed
+	slot4 = GetOrAddComponent(slot0._paintingTF, "UILongPressTrigger").onLongPressed
 
-	pg.DelegateInfo.Add(slot0, slot3)
-	slot3:RemoveAllListeners()
-	slot3:AddListener(function ()
+	pg.DelegateInfo.Add(slot0, slot4)
+	slot4:RemoveAllListeners()
+	slot4:AddListener(function ()
 		if uv0.live2dChar then
 			return
 		end
@@ -1379,7 +1384,7 @@ function slot0.displayShipWord(slot0, slot1)
 	if PLATFORM_CODE == PLATFORM_US then
 		setTextEN(slot0._chatText, slot5)
 	else
-		setText(slot0._chatText, slot5)
+		setText(slot0._chatText, SwitchSpecialChar(slot5))
 	end
 
 	if CHAT_POP_STR_LEN < #slot0._chatText:GetComponent(typeof(Text)).text then
@@ -2371,6 +2376,35 @@ function slot0.UpdateMallBtnMonthcardTag(slot0)
 	end
 
 	setActive(slot0._montgcardTag, MonthCardOutDateTipPanel.GetShowMonthCardTag())
+end
+
+function slot0.checkRefundInfo(slot0, slot1)
+	if getProxy(PlayerProxy):getRefundInfo() then
+		slot3 = getProxy(ServerProxy)
+		slot4 = true
+
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			modal = true,
+			hideClose = true,
+			content = i18n("Supplement_pay1"),
+			onYes = function ()
+				if uv0 then
+					uv1:emit(MainUIMediator.GO_SCENE, {
+						SCENE.BACK_CHARGE
+					})
+				else
+					Application.Quit()
+				end
+
+				uv2()
+			end,
+			onNo = function ()
+				uv0:emit(MainUIMediator.LOG_OUT)
+			end,
+			yesText = i18n("Supplement_pay4"),
+			noText = i18n("word_back")
+		})
+	end
 end
 
 return slot0

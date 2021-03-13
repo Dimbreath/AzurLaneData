@@ -618,7 +618,7 @@ function slot0.ShowDailogue(slot0, slot1, slot2, slot3)
 
 	slot5 = slot1.wordData.voiceCalibrate
 
-	setText(slot0.chatText, slot4)
+	setText(slot0.chatText, SwitchSpecialChar(slot4))
 
 	slot6.alignment = CHAT_POP_STR_LEN < #slot0.chatText:GetComponent(typeof(Text)).text and TextAnchor.MiddleLeft or TextAnchor.MiddleCenter
 	slot0.chatBg.sizeDelta = slot0.initChatBgH < slot6.preferredHeight + 120 and Vector2.New(slot0.chatBg.sizeDelta.x, slot7) or Vector2.New(slot0.chatBg.sizeDelta.x, slot0.initChatBgH)

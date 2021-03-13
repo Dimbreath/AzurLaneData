@@ -124,7 +124,7 @@ pg.enemy_data_statistics_33 = {
 		},
 		equipment_list = {
 			100217,
-			450051,
+			920064,
 			313091
 		}
 	},
@@ -564,7 +564,7 @@ pg.enemy_data_statistics_33 = {
 			"appearsmall"
 		},
 		equipment_list = {
-			400056,
+			920066,
 			100427
 		}
 	},

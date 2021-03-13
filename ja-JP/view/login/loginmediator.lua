@@ -26,10 +26,10 @@ function slot0.loginProcessHandler(slot0)
 	slot0.process = coroutine.wrap(function ()
 		uv0.viewComponent:switchSubView({})
 
-		if uv1:CheckNeedUserAgreement() and not uv1:getUserAgreement() then
+		if uv1:CheckNeedUserAgreement() then
 			uv0.viewComponent:showUserAgreement(uv0.process)
 			coroutine.yield()
-			uv1:setUserAgreement()
+			uv1:SetUserAgreement()
 		end
 
 		slot0 = nil
@@ -162,6 +162,11 @@ function slot0.handleNotification(slot0, slot1)
 				mediator = GatewayNoticeMediator,
 				viewComponent = GatewayNoticeLayer
 			}))
+		end
+
+		if getProxy(UserProxy).data.limitServerIds and #slot9.data.limitServerIds > 0 then
+			slot0.viewComponent:fillterRefundServer()
+			slot0.viewComponent:setLastLoginServer(nil)
 		end
 	elseif slot2 == GAME.USER_REGISTER_SUCCESS then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({

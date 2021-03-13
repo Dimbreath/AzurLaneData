@@ -15,7 +15,6 @@ function slot5.Ctor(slot0, slot1, slot2, slot3)
 	slot0._stopFunc = slot2
 	slot0._barrageID = slot3
 	slot0._barrageTemp = uv0.GetBarrageTmpDataFromID(slot3)
-	slot0._convertedBarrage = uv0.GetConvertedBarrageTableFromID(slot3)
 	slot0._offsetPriority = slot0._barrageTemp.offset_prioritise
 	slot0._isRandomAngle = slot0._barrageTemp.random_angle
 	slot0._timerList = {}
@@ -45,7 +44,10 @@ end
 function slot5.Fire(slot0, slot1, slot2)
 	slot0._target = slot1
 	slot0._dir = slot2 or uv0.UnitDir.RIGHT
-	slot0._convertedDirBarrage = slot0._convertedBarrage[slot0._dir]
+
+	if not slot0._convertedDirBarrage then
+		slot0._convertedDirBarrage = uv1.GetConvertedBarrageTableFromID(slot0._barrageID, slot0._dir)[slot0._dir]
+	end
 
 	slot0:SeniorIteration()
 end
@@ -61,7 +63,6 @@ end
 function slot5.Destroy(slot0)
 	slot0._spawnFunc = nil
 	slot0._stopFunc = nil
-	slot0._convertedBarrage = nil
 	slot0._convertedDirBarrage = nil
 
 	if slot0._timerList then

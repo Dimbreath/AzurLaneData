@@ -38,6 +38,7 @@ function slot0.execute(slot0, slot1)
 				uv0.id = slot0.account_id
 				uv0.uid = slot0.account_id
 				uv0.token = slot0.server_ticket
+				uv0.limitServerIds = slot0.limit_server_ids
 				slot1 = getProxy(UserProxy)
 
 				slot1:setLastLogin(uv0)

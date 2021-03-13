@@ -4,6 +4,7 @@ function slot0.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.level = 1
+	slot0.order = slot0:getConfig("order")
 end
 
 function slot0.GetRawPutList(slot0)

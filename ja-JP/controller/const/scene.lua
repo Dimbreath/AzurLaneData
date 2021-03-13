@@ -77,6 +77,7 @@ SCENE = {
 	TASK = "scene task",
 	CARD_PAIRS = "card pairs",
 	CHALLENGE_MAIN_SCENE = "challenge main scene",
+	BACK_CHARGE = "back charge",
 	CREATE_PLAYER = "scene create player",
 	SNAPSHOT = "snapshot",
 	SELTECHNOLOGY = "seltechnology",
@@ -350,6 +351,9 @@ function SCENE.SetSceneInfo(slot0, slot1)
 	elseif slot1 == SCENE.REDPACKEY then
 		slot0.mediator = RedPacketMediator
 		slot0.viewComponent = RedPacketLayer
+	elseif slot1 == SCENE.BACK_CHARGE then
+		slot0.mediator = BackChargeMediator
+		slot0.viewComponent = BackChargeScene
 	end
 
 	slot0.scene = slot1

@@ -273,7 +273,7 @@ pg.enemy_data_statistics_173 = {
 		},
 		equipment_list = {
 			100217,
-			450051,
+			581014,
 			313091
 		}
 	},
@@ -311,7 +311,7 @@ pg.enemy_data_statistics_173 = {
 		armor = 0,
 		equipment_list = {
 			100217,
-			450051,
+			581014,
 			313091
 		}
 	},

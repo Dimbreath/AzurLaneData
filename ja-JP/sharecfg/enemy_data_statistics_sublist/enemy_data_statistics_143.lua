@@ -41,10 +41,10 @@ pg.enemy_data_statistics_143 = {
 		equipment_list = {
 			800010,
 			100204,
-			440143,
-			440144,
-			440145,
-			440146
+			800028,
+			800029,
+			800030,
+			800031
 		},
 		buff_list = {
 			{
@@ -128,7 +128,7 @@ pg.enemy_data_statistics_143 = {
 			"appearQ"
 		},
 		equipment_list = {
-			400056,
+			530500,
 			100349
 		}
 	},

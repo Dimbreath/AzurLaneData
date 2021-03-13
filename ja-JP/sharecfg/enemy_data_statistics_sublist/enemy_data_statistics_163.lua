@@ -414,7 +414,7 @@ pg.enemy_data_statistics_163 = {
 		antisub = 0,
 		antiaircraft_growth = 2250,
 		equipment_list = {
-			400056,
+			561024,
 			100349
 		}
 	},

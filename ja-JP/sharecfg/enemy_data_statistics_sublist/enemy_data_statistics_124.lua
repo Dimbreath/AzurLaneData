@@ -121,7 +121,7 @@ pg.enemy_data_statistics_124 = {
 		},
 		equipment_list = {
 			100412,
-			400502
+			510147
 		}
 	},
 	[10042062] = {
@@ -158,7 +158,7 @@ pg.enemy_data_statistics_124 = {
 		antisub = 0,
 		equipment_list = {
 			100412,
-			400502
+			510147
 		}
 	},
 	[10042501] = {
@@ -411,7 +411,7 @@ pg.enemy_data_statistics_124 = {
 		},
 		equipment_list = {
 			100217,
-			450051,
+			510149,
 			313091
 		}
 	},
@@ -493,7 +493,7 @@ pg.enemy_data_statistics_124 = {
 		},
 		equipment_list = {
 			100217,
-			450051,
+			510149,
 			313091
 		}
 	},
@@ -534,7 +534,7 @@ pg.enemy_data_statistics_124 = {
 		},
 		equipment_list = {
 			100217,
-			450051,
+			510149,
 			313091
 		}
 	},
@@ -576,7 +576,7 @@ pg.enemy_data_statistics_124 = {
 		},
 		equipment_list = {
 			100217,
-			450051,
+			510149,
 			313091
 		}
 	},

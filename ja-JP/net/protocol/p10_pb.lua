@@ -20,6 +20,7 @@ slot1 = {
 	SC_10021_SERVER_TICKET_FIELD = slot0.FieldDescriptor(),
 	SC_10021_NOTICE_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_10021_DEVICE_FIELD = slot0.FieldDescriptor(),
+	SC_10021_LIMIT_SERVER_IDS_FIELD = slot0.FieldDescriptor(),
 	SERVERINFO_IDS_FIELD = slot0.FieldDescriptor(),
 	SERVERINFO_IP_FIELD = slot0.FieldDescriptor(),
 	SERVERINFO_PORT_FIELD = slot0.FieldDescriptor(),
@@ -284,6 +285,15 @@ slot1.SC_10021_DEVICE_FIELD.has_default_value = false
 slot1.SC_10021_DEVICE_FIELD.default_value = 0
 slot1.SC_10021_DEVICE_FIELD.type = 13
 slot1.SC_10021_DEVICE_FIELD.cpp_type = 3
+slot1.SC_10021_LIMIT_SERVER_IDS_FIELD.name = "limit_server_ids"
+slot1.SC_10021_LIMIT_SERVER_IDS_FIELD.full_name = "p10.sc_10021.limit_server_ids"
+slot1.SC_10021_LIMIT_SERVER_IDS_FIELD.number = 7
+slot1.SC_10021_LIMIT_SERVER_IDS_FIELD.index = 6
+slot1.SC_10021_LIMIT_SERVER_IDS_FIELD.label = 3
+slot1.SC_10021_LIMIT_SERVER_IDS_FIELD.has_default_value = false
+slot1.SC_10021_LIMIT_SERVER_IDS_FIELD.default_value = {}
+slot1.SC_10021_LIMIT_SERVER_IDS_FIELD.type = 13
+slot1.SC_10021_LIMIT_SERVER_IDS_FIELD.cpp_type = 3
 SC_10021.name = "sc_10021"
 SC_10021.full_name = "p10.sc_10021"
 SC_10021.nested_types = {}
@@ -294,7 +304,8 @@ SC_10021.fields = {
 	slot1.SC_10021_ACCOUNT_ID_FIELD,
 	slot1.SC_10021_SERVER_TICKET_FIELD,
 	slot1.SC_10021_NOTICE_LIST_FIELD,
-	slot1.SC_10021_DEVICE_FIELD
+	slot1.SC_10021_DEVICE_FIELD,
+	slot1.SC_10021_LIMIT_SERVER_IDS_FIELD
 }
 SC_10021.is_extendable = false
 SC_10021.extensions = {}

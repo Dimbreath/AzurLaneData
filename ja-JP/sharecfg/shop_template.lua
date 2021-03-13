@@ -18222,7 +18222,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 3,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -18237,9 +18237,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2020,
-					9,
-					17
+					2021,
+					3,
+					12
 				},
 				{
 					0,
@@ -18249,9 +18249,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					10,
-					11
+					2021,
+					3,
+					24
 				},
 				{
 					23,
@@ -18271,7 +18271,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 3,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -18286,9 +18286,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2020,
-					9,
-					17
+					2021,
+					3,
+					12
 				},
 				{
 					0,
@@ -18298,9 +18298,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					10,
-					11
+					2021,
+					3,
+					24
 				},
 				{
 					23,
@@ -18320,7 +18320,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 3,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -18335,9 +18335,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2020,
-					9,
-					17
+					2021,
+					3,
+					12
 				},
 				{
 					0,
@@ -18347,9 +18347,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					10,
-					11
+					2021,
+					3,
+					24
 				},
 				{
 					23,
@@ -18369,7 +18369,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 3,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -18384,9 +18384,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2020,
-					9,
-					17
+					2021,
+					3,
+					12
 				},
 				{
 					0,
@@ -18396,9 +18396,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					10,
-					11
+					2021,
+					3,
+					24
 				},
 				{
 					23,
@@ -34661,6 +34661,202 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70518] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:独立COCO",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 2,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70518,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			107223
+		},
+		time = {
+			{
+				{
+					2021,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70520] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤:三笠COCO",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 1,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70520,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			305113
+		},
+		time = {
+			{
+				{
+					2021,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70523] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤:长门COCO",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 1,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70523,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			305053
+		},
+		time = {
+			{
+				{
+					2021,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70524] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:鲁莽COCO",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 2,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70524,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			801032
+		},
+		time = {
+			{
+				{
+					2021,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[90001] = {
 		group_type = 0,
 		resource_num = 1,
@@ -38815,6 +39011,10 @@ pg.shop_template = {
 		70515,
 		70516,
 		70517,
+		70518,
+		70520,
+		70523,
+		70524,
 		90001,
 		90002,
 		90003,

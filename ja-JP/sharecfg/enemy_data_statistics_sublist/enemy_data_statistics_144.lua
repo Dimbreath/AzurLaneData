@@ -477,7 +477,7 @@ pg.enemy_data_statistics_144 = {
 			"appearQ"
 		},
 		equipment_list = {
-			400056,
+			530500,
 			100349
 		}
 	},

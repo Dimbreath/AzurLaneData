@@ -610,7 +610,7 @@ pg.enemy_data_statistics_115 = {
 		},
 		equipment_list = {
 			100217,
-			450051,
+			510149,
 			313091
 		}
 	},
@@ -692,7 +692,7 @@ pg.enemy_data_statistics_115 = {
 		},
 		equipment_list = {
 			100217,
-			450051,
+			510149,
 			313091
 		}
 	},
@@ -733,7 +733,7 @@ pg.enemy_data_statistics_115 = {
 		},
 		equipment_list = {
 			100217,
-			450051,
+			510149,
 			313091
 		}
 	},
@@ -775,7 +775,7 @@ pg.enemy_data_statistics_115 = {
 		},
 		equipment_list = {
 			100217,
-			450051,
+			510149,
 			313091
 		}
 	},

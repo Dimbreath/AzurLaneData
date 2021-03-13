@@ -309,7 +309,7 @@ pg.enemy_data_statistics_91 = {
 		equipment_list = {
 			100337,
 			313092,
-			450051
+			316072
 		}
 	},
 	[106502] = {
@@ -348,9 +348,9 @@ pg.enemy_data_statistics_91 = {
 			"appearQ"
 		},
 		equipment_list = {
-			450101,
+			316074,
 			100207,
-			450052
+			316073
 		}
 	},
 	[106503] = {
@@ -455,7 +455,7 @@ pg.enemy_data_statistics_91 = {
 			"appearQ"
 		},
 		equipment_list = {
-			400053,
+			316066,
 			100442
 		}
 	},
@@ -495,7 +495,7 @@ pg.enemy_data_statistics_91 = {
 			"appearQ"
 		},
 		equipment_list = {
-			400103,
+			316068,
 			100432
 		}
 	},
@@ -532,7 +532,7 @@ pg.enemy_data_statistics_91 = {
 		torpedo_growth = 4491,
 		antisub = 0,
 		equipment_list = {
-			400051,
+			316065,
 			100432
 		}
 	},
@@ -572,7 +572,7 @@ pg.enemy_data_statistics_91 = {
 			"appearQ"
 		},
 		equipment_list = {
-			400201,
+			316069,
 			100442
 		}
 	},
@@ -612,9 +612,9 @@ pg.enemy_data_statistics_91 = {
 			"appearQ"
 		},
 		equipment_list = {
-			450001,
+			316071,
 			100517,
-			450052
+			316073
 		}
 	},
 	[106508] = {

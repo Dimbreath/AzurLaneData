@@ -6949,229 +6949,229 @@ pg.activity_ins_language = {
 		value = "そうだろう、もっと褒めちぎってくれていいわよ？はははは"
 	},
 	ins_202 = {
-		value = ""
+		value = "そうだ！指揮官の席はこの私がいただく！――なんてな！"
 	},
 	ins_discuss_202_1 = {
-		value = ""
+		value = "本当に同志指揮官の席だ！あれ？同志指揮官は？"
 	},
 	ins_reply_202_1_1 = {
-		value = ""
+		value = "あいつなら既に………"
 	},
 	ins_reply_202_1_2 = {
-		value = ""
+		value = "えええ！？"
 	},
 	ins_reply_202_1_3 = {
-		value = ""
+		value = "同志指揮官が出かけている間に写真を撮ってみただけだ。ははは"
 	},
 	ins_discuss_202_2 = {
-		value = ""
+		value = "「黒幕」って感じですか…？"
 	},
 	ins_reply_202_2_1 = {
-		value = ""
+		value = "うむ、悪役を演じてみるのも面白いからな"
 	},
 	ins_discuss_202_3 = {
-		value = ""
+		value = "指揮官をふん！するならグレミャーシュチに声かけてくれたらいつでも"
 	},
 	ins_reply_202_3_1 = {
-		value = ""
+		value = "じょ、冗談だよね！"
 	},
 	ins_op_202_1_1 = {
-		value = ""
+		value = "い、いつの間に…！？"
 	},
 	op_reply_202_1_1 = {
-		value = ""
+		value = "お前が執務室から抜け出した間にだ。ははは"
 	},
 	ins_op_202_1_2 = {
-		value = ""
+		value = "そんなに指揮官の力がほしいか……"
 	},
 	op_reply_202_1_2 = {
-		value = ""
+		value = "くれるなら使ってやるよ！なんてな、ははは"
 	},
 	ins_203 = {
-		value = ""
+		value = "たまにはビールもいいわね。ふふ"
 	},
 	ins_discuss_203_1 = {
-		value = ""
+		value = "結構楽しかったわ。ありがと"
 	},
 	ins_reply_203_1_1 = {
-		value = ""
+		value = "また今度一緒に飲みましょう？ビールの話もギターの話も、色々話が合って楽しかったわ"
 	},
 	ins_reply_203_1_2 = {
-		value = ""
+		value = "あら、仲が良くて妬いちゃうわ"
 	},
 	ins_reply_203_1_3 = {
-		value = ""
+		value = "はあ？！何言ってんのよ！"
 	},
 	ins_discuss_203_2 = {
-		value = ""
+		value = "北方連合の人はヴォッカしか飲まないんじゃなかった？"
 	},
 	ins_reply_203_2_1 = {
-		value = ""
+		value = "シャルンホルスト姉さん、それはただの偏見です"
 	},
 	ins_discuss_203_3 = {
-		value = ""
+		value = "ビールか…あまりパンチが足りないな"
 	},
 	ins_reply_203_3_1 = {
-		value = ""
+		value = "たまにはほかのを飲んでみたらどうですか？"
 	},
 	ins_op_203_1_1 = {
-		value = ""
+		value = "ビールが好きなのを知って良かった"
 	},
 	op_reply_203_1_1 = {
-		value = ""
+		value = "なら次回も参加しなさいな"
 	},
 	ins_op_203_1_2 = {
-		value = ""
+		value = "ビールの泡が……"
 	},
 	op_reply_203_1_2 = {
-		value = ""
+		value = "あっ、写真を撮ったときは気づいてなかったわね"
 	},
 	ins_204 = {
-		value = ""
+		value = "あなたにしっぽは一本、私にしっぽは二本～"
 	},
 	ins_discuss_204_1 = {
-		value = ""
+		value = "もふもふしてて可愛い！"
 	},
 	ins_reply_204_1_1 = {
-		value = ""
+		value = "たまたま見かけた子ですよ～また会えるといいですね～"
 	},
 	ins_discuss_204_2 = {
-		value = ""
+		value = "この母港には小動物がいっぱいいるわね"
 	},
 	ins_reply_204_2_1 = {
-		value = ""
+		value = "毎日新しい出会いの予感です♪"
 	},
 	ins_discuss_204_3 = {
-		value = ""
+		value = "もふもふ……タシュケントも触りたい"
 	},
 	ins_reply_204_3_1 = {
-		value = ""
+		value = "もふもふ、私も"
 	},
 	ins_reply_204_3_2 = {
-		value = ""
+		value = "私のしっぽならいつでもいいですよ~"
 	},
 	ins_op_204_1_1 = {
-		value = ""
+		value = "もふもふ……"
 	},
 	op_reply_204_1_1 = {
-		value = ""
+		value = "ははは、指揮官はどっちでもふもふしたいの～？"
 	},
 	ins_op_204_1_2 = {
-		value = ""
+		value = "初対面で手懐けた……？"
 	},
 	op_reply_204_1_2 = {
-		value = ""
+		value = "優しくしたらきっとこの子達は懐いてくれますよ"
 	},
 	ins_205 = {
-		value = ""
+		value = "今日作った！( • ̀ω•́ )✧"
 	},
 	ins_discuss_205_1 = {
-		value = ""
+		value = "いつも一緒にいる子と似てるね"
 	},
 	ins_reply_205_1_1 = {
-		value = ""
+		value = "うんうん！似せて作った！いいでしょー！"
 	},
 	ins_reply_205_1_2 = {
-		value = ""
+		value = "かわいいです～"
 	},
 	ins_discuss_205_2 = {
-		value = ""
+		value = "雪で遊んでいる仲間発見！雪だるま作ろ？雪合戦しよ？"
 	},
 	ins_reply_205_2_1 = {
-		value = ""
+		value = "いいよ！皆を呼んできて！"
 	},
 	ins_discuss_205_3 = {
-		value = ""
+		value = "彫像の製造、新規目標とする要を認む"
 	},
 	ins_reply_205_3_1 = {
-		value = ""
+		value = "ガスコーニュさんも雪だるまに興味あるの？"
 	},
 	ins_op_205_1_1 = {
-		value = ""
+		value = "よく作ったな"
 	},
 	op_reply_205_1_1 = {
-		value = ""
+		value = "同志指揮官に感謝だ！"
 	},
 	ins_op_205_1_2 = {
-		value = ""
+		value = "どっちが本物？"
 	},
 	op_reply_205_1_2 = {
-		value = ""
+		value = "えへへ～そんなに似てるの～？"
 	},
 	ins_206 = {
-		value = ""
+		value = "【センメツ】侵入者は本棚の裏に【センメツ】"
 	},
 	ins_discuss_206_1 = {
-		value = ""
+		value = "侵入者とは"
 	},
 	ins_reply_206_1_1 = {
-		value = ""
+		value = "黒光りする足が速いヤツ"
 	},
 	ins_reply_206_1_2 = {
-		value = ""
+		value = "ま、まさか…‥…"
 	},
 	ins_reply_206_1_3 = {
-		value = ""
+		value = "その名前を出すなーー！"
 	},
 	ins_discuss_206_2 = {
-		value = ""
+		value = "本棚危なかったね！スプレー見つかってよかったよ！"
 	},
 	ins_reply_206_2_1 = {
-		value = ""
+		value = "見つけてくれてありがと。うん、そんなとこ"
 	},
 	ins_discuss_206_3 = {
-		value = ""
+		value = "「害虫」のことなら色々相談に乗れますわ。ふふふ"
 	},
 	ins_reply_206_3_1 = {
-		value = ""
+		value = "違う話だと思うけど…"
 	},
 	ins_op_206_1_1 = {
-		value = ""
+		value = "本棚は無事か？"
 	},
 	op_reply_206_1_1 = {
-		value = ""
+		value = "グロームキィのスプレーで退治した"
 	},
 	ins_op_206_1_2 = {
-		value = ""
+		value = "き、気を静めろグレミャーシュチ――！"
 	},
 	op_reply_206_1_2 = {
-		value = ""
+		value = "【センメツ】だめだぞ【センメツ】"
 	},
 	ins_207 = {
-		value = ""
+		value = "我が革命は進み続ける！例え氷原の中でもだ！"
 	},
 	ins_discuss_207_1 = {
-		value = ""
+		value = "ははは！これぞわが北方連合の戦士の気魄だ！"
 	},
 	ins_reply_207_1_1 = {
-		value = ""
+		value = "押し寄せる鋼の波は誰にも止められたりしない！"
 	},
 	ins_discuss_207_2 = {
-		value = ""
+		value = "こ、これが北方連合のカリスマ…！？普段からこんな感じで航行しているの？"
 	},
 	ins_reply_207_2_1 = {
-		value = ""
+		value = "そんなわけないでしょ？まあ時々って程度ね"
 	},
 	ins_reply_207_2_2 = {
-		value = ""
+		value = "我が気魄を見せるのに必要な誇張というのさ"
 	},
 	ins_discuss_207_3 = {
-		value = ""
+		value = "むむ、北方連合の新技術…？"
 	},
 	ins_reply_207_3_1 = {
-		value = ""
+		value = "技術などではない、全てを突き抜ける気合と何者にも阻まれぬ決意の為せる技だ！"
 	},
 	ins_op_207_1_1 = {
-		value = ""
+		value = "安全航行に気をつけよう！"
 	},
 	op_reply_207_1_1 = {
-		value = ""
+		value = "この程度の障害、なんともない！"
 	},
 	ins_op_207_1_2 = {
-		value = ""
+		value = "見事なレヴォリューツィア魂だ！"
 	},
 	op_reply_207_1_2 = {
-		value = ""
+		value = "気魄も決心も誰にも負けないぞ！"
 	},
 	all = {
 		ins_op_1_1_1,

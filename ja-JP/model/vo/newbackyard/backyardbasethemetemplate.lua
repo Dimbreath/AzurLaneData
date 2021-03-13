@@ -21,6 +21,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.imageMd5 = slot1.image_md5
 	slot0.iconImageMd5 = slot1.icon_image_md5
 	slot0.sortIndex = 0
+	slot0.order = 0
 end
 
 function slot0.WarpPutInfo2BackYardFurnitrue(slot0, slot1, slot2)

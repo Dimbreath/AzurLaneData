@@ -6,7 +6,7 @@ function slot0.onRegister(slot0)
 	slot0._ShowLive2d = PlayerPrefs.GetInt("disableLive2d", 1) > 0
 	slot0._selectedShipId = PlayerPrefs.GetInt("playerShipId")
 	slot0._backyardFoodRemind = PlayerPrefs.GetString("backyardRemind")
-	slot0._userAgreement = PlayerPrefs.GetInt("userAgreement", 0) > 0
+	slot0._userAgreement = PlayerPrefs.GetInt("userAgreement", 0)
 	slot0._showMaxLevelHelp = PlayerPrefs.GetInt("maxLevelHelp", 0) > 0
 	slot0._nextTipAutoBattleTime = PlayerPrefs.GetInt("AutoBattleTip", 0)
 	slot0._setFlagShip = PlayerPrefs.GetInt("setFlagShip", 0) > 0
@@ -188,16 +188,34 @@ function slot0.GetSetFlagShip(slot0)
 	return slot0._setFlagShip
 end
 
-function slot0.getUserAgreement(slot0)
-	return slot0._userAgreement
+function slot0.CheckNeedUserAgreement(slot0)
+	if PLATFORM_CODE == PLATFORM_KR then
+		return false
+	elseif PLATFORM_CODE == PLATFORM_CH then
+		return false
+	else
+		return slot0._userAgreement < slot0:GetUserAgreementFlag()
+	end
 end
 
-function slot0.setUserAgreement(slot0)
-	if not slot0._userAgreement then
-		PlayerPrefs.SetInt("userAgreement", 1)
+function slot0.GetUserAgreementFlag(slot0)
+	slot1 = USER_AGREEMENT_FLAG_DEFAULT
+
+	if PLATFORM_CODE == PLATFORM_CHT then
+		slot1 = USER_AGREEMENT_FLAG_TW
+	end
+
+	return slot1
+end
+
+function slot0.SetUserAgreement(slot0)
+	if slot0:CheckNeedUserAgreement() then
+		slot1 = slot0:GetUserAgreementFlag()
+
+		PlayerPrefs.SetInt("userAgreement", slot1)
 		PlayerPrefs.Save()
 
-		slot0._userAgreement = true
+		slot0._userAgreement = slot1
 	end
 end
 
@@ -362,16 +380,6 @@ end
 function slot0.SetBeatMonseterNianFlag(slot0)
 	PlayerPrefs.SetString("HitMonsterNianLayer2020" .. getProxy(PlayerProxy):getRawData().id, GetZeroTime())
 	PlayerPrefs.Save()
-end
-
-function slot0.CheckNeedUserAgreement(slot0)
-	if PLATFORM_CODE == PLATFORM_KR then
-		return false
-	elseif PLATFORM_CODE == PLATFORM_CH then
-		return false
-	end
-
-	return true
 end
 
 function slot0.ShouldShowEventActHelp(slot0)

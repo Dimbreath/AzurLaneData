@@ -46,7 +46,11 @@ end
 function slot1(slot0, slot1, slot2)
 	if (slot0.isEmpty and 0 or 1) == (slot1.isEmpty and 0 or 1) then
 		if (slot0:IsSystem() and 0 or 1) == (slot1:IsSystem() and 0 or 1) then
-			return slot1.id < slot0.id
+			if slot0.order == slot1.order then
+				return slot1.id < slot0.id
+			else
+				return slot1.order < slot0.order
+			end
 		else
 			return slot5 < slot6
 		end
