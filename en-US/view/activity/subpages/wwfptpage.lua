@@ -246,6 +246,8 @@ function slot0.OnFirstFlush(slot0)
 		end)
 	end
 
+	slot0:setPtActIndex()
+	slot0:setStep2Progress()
 	slot0:initTaskWindow()
 
 	if slot0.isFirst == 0 then
@@ -255,9 +257,6 @@ function slot0.OnFirstFlush(slot0)
 		slot0:openTask()
 		slot0:autoFinishTask()
 	end
-
-	slot0:setPtActIndex()
-	slot0:setStep2Progress()
 end
 
 function slot0.OnUpdateFlush(slot0)
@@ -439,6 +438,11 @@ function slot0.closeTask(slot0)
 end
 
 function slot0.openTask(slot0)
+	if not slot0.curSubActID then
+		slot0:setPtActIndex()
+		slot0:setStep2Progress()
+	end
+
 	setActive(slot0.taskWindow, true)
 
 	if slot0.showTaskRedDot then
@@ -461,7 +465,7 @@ function slot0.autoFinishTask(slot0)
 	for slot6, slot7 in ipairs(slot0.finishItemList) do
 		slot8 = GetOrAddComponent(slot7, typeof(CanvasGroup))
 
-		LeanTween.delayedCall(slot1, System.Action(function ()
+		slot0:managedTween(LeanTween.delayedCall, function ()
 			uv0:SetAsFirstSibling()
 			LeanTween.value(go(uv0), 1, 0, uv1):setOnUpdate(System.Action_float(function (slot0)
 				uv0.alpha = slot0
@@ -471,16 +475,16 @@ function slot0.autoFinishTask(slot0)
 				setActive(uv1:findTF("finnal", uv2), true)
 				uv2:SetAsLastSibling()
 			end))
-		end))
+		end, slot1, nil)
 
 		slot1 = slot1 + 0.5 + 0.1
 	end
 
-	LeanTween.delayedCall(slot1, System.Action(function ()
+	slot0:managedTween(LeanTween.delayedCall, function ()
 		pg.m02:sendNotification(GAME.SUBMIT_TASK_ONESTEP, {
 			resultList = uv0.finishTaskVOList
 		})
-	end))
+	end, slot1, nil)
 end
 
 function slot0.canFinishTask(slot0)
@@ -583,6 +587,8 @@ function slot0.OnDestroy(slot0)
 		slot0.prefab2 = nil
 		slot0.model2 = nil
 	end
+
+	slot0:cleanManagedTween()
 end
 
 return slot0
