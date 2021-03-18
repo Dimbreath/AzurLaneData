@@ -192,14 +192,6 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>The Sirens' secrets shall dance in the palm of our hand!</color> ",
 		scene = {}
 	},
-	[314] = {
-		name = "意大利V2头像框",
-		time_second = 0,
-		id = 314,
-		time_limit_type = 0,
-		desc = "等待后续活动获取",
-		scene = {}
-	},
 	[501] = {
 		name = "Manjuu Pizzeria Frame ",
 		time_second = 0,
@@ -233,7 +225,6 @@ pg.item_data_frame = {
 		311,
 		312,
 		313,
-		314,
 		501
 	}
 }

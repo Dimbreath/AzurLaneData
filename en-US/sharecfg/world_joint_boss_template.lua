@@ -9,7 +9,7 @@ pg.world_joint_boss_template = {
 		meta_id = 970701
 	},
 	{
-		name = "皇家方舟·META",
+		name = "Ark Royal META",
 		item_id = 100000,
 		painting = "huangjiafangzhou",
 		boss_level_id = 16,

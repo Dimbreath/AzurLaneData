@@ -604,7 +604,7 @@ pg.world_port_data = {
 	},
 	{
 		id = 3,
-		name = "Gibraltr",
+		name = "Gibralar ",
 		port_entrance_icon = "port_zhibuluotuo",
 		scan_desc = "A port in Royal Navy territory.",
 		port_bg = "port_zhibuluotuo",
