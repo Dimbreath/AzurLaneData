@@ -1,26 +1,80 @@
 pg = pg or {}
 pg.aircraft_template_200 = {
-	[69201] = {
-		name = "库珀反潜PBY-Lv1",
-		max_hp = 42,
+	[81146] = {
+		id = 81146,
+		base = 81140,
+		max_hp = 77,
+		hp_growth = 2949,
+		weapon_ID = {
+			50446
+		}
+	},
+	[81147] = {
+		id = 81147,
+		base = 81140,
+		max_hp = 83,
+		hp_growth = 3182,
+		weapon_ID = {
+			50447
+		}
+	},
+	[81148] = {
+		id = 81148,
+		base = 81140,
+		max_hp = 89,
+		hp_growth = 3415,
+		weapon_ID = {
+			50448
+		}
+	},
+	[81149] = {
+		id = 81149,
+		base = 81140,
+		max_hp = 95,
+		hp_growth = 3648,
+		weapon_ID = {
+			50449
+		}
+	},
+	[81150] = {
+		id = 81150,
+		base = 81140,
+		max_hp = 101,
+		hp_growth = 3881,
+		weapon_ID = {
+			50450
+		}
+	},
+	[81151] = {
+		id = 81151,
+		base = 81140,
+		max_hp = 107,
+		hp_growth = 4114,
+		weapon_ID = {
+			50451
+		}
+	},
+	[81200] = {
+		name = "F4U海盗",
+		max_hp = 33,
 		accuracy = 23,
-		model_ID = "pby",
+		model_ID = "F4U",
 		ACC_growth = 0,
-		crash_DMG = 208,
-		dodge = 1,
+		crash_DMG = 66,
+		dodge = 0.357,
 		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
-		icon = "pby",
+		icon = "F4U",
 		funnel_behavior = "",
 		nationality = 1,
-		hp_growth = 1615,
-		speed = 66,
-		id = 69201,
+		hp_growth = 1270,
+		speed = 48,
+		id = 81200,
 		scale = 1,
 		weapon_ID = {
-			53141
+			50400
 		},
 		position_offset = {
 			0,
@@ -40,13 +94,13 @@ pg.aircraft_template_200 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					1.24,
+					-1.34,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					1.43,
+					1.6,
 					0
 				}
 			}
@@ -63,7 +117,7 @@ pg.aircraft_template_200 = {
 				0
 			},
 			{
-				0.64,
+				0.41,
 				0,
 				0
 			},
@@ -74,84 +128,31 @@ pg.aircraft_template_200 = {
 			}
 		}
 	},
-	[69202] = {
+	[81201] = {
+		id = 81201,
+		base = 81200,
+		max_hp = 38,
+		hp_growth = 1461,
+		weapon_ID = {
+			50401
+		}
+	},
+	[81202] = {
+		id = 81202,
+		base = 81200,
+		max_hp = 43,
+		hp_growth = 1651,
+		weapon_ID = {
+			50402
+		}
+	},
+	[81203] = {
+		id = 81203,
+		base = 81200,
 		max_hp = 48,
-		name = "库珀反潜PBY-Lv2",
-		base = 69201,
-		id = 69202,
-		hp_growth = 1826,
+		hp_growth = 1842,
 		weapon_ID = {
-			53142
-		}
-	},
-	[69203] = {
-		max_hp = 54,
-		name = "库珀反潜PBY-Lv3",
-		base = 69201,
-		id = 69203,
-		hp_growth = 2036,
-		weapon_ID = {
-			53143
-		}
-	},
-	[69204] = {
-		max_hp = 61,
-		name = "库珀反潜PBY-Lv4",
-		base = 69201,
-		id = 69204,
-		hp_growth = 2247,
-		weapon_ID = {
-			53144
-		}
-	},
-	[69205] = {
-		max_hp = 67,
-		name = "库珀反潜PBY-Lv5",
-		base = 69201,
-		id = 69205,
-		hp_growth = 2458,
-		weapon_ID = {
-			53145
-		}
-	},
-	[69206] = {
-		max_hp = 73,
-		name = "库珀反潜PBY-Lv6",
-		base = 69201,
-		id = 69206,
-		hp_growth = 2669,
-		weapon_ID = {
-			53146
-		}
-	},
-	[69207] = {
-		max_hp = 79,
-		name = "库珀反潜PBY-Lv7",
-		base = 69201,
-		id = 69207,
-		hp_growth = 2879,
-		weapon_ID = {
-			53147
-		}
-	},
-	[69208] = {
-		max_hp = 86,
-		name = "库珀反潜PBY-Lv8",
-		base = 69201,
-		id = 69208,
-		hp_growth = 3090,
-		weapon_ID = {
-			53148
-		}
-	},
-	[69209] = {
-		max_hp = 92,
-		name = "库珀反潜PBY-Lv9",
-		base = 69201,
-		id = 69209,
-		hp_growth = 3301,
-		weapon_ID = {
-			53149
+			50403
 		}
 	}
 }

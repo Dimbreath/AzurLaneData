@@ -1,26 +1,86 @@
 pg = pg or {}
 pg.aircraft_template_156 = {
-	[65491] = {
-		name = "彼得史特拉塞技能JU87鱼雷机LV1",
-		max_hp = 38,
+	[67325] = {
+		max_hp = 73,
+		name = "大凤技能鱼雷机Lv5",
+		base = 67320,
+		id = 67325,
+		hp_growth = 2809,
+		weapon_ID = {
+			67405
+		}
+	},
+	[67326] = {
+		max_hp = 79,
+		name = "大凤技能鱼雷机Lv6",
+		base = 67320,
+		id = 67326,
+		hp_growth = 3050,
+		weapon_ID = {
+			67406
+		}
+	},
+	[67327] = {
+		max_hp = 86,
+		name = "大凤技能鱼雷机Lv7",
+		base = 67320,
+		id = 67327,
+		hp_growth = 3290,
+		weapon_ID = {
+			67407
+		}
+	},
+	[67328] = {
+		max_hp = 92,
+		name = "大凤技能鱼雷机Lv8",
+		base = 67320,
+		id = 67328,
+		hp_growth = 3531,
+		weapon_ID = {
+			67408
+		}
+	},
+	[67329] = {
+		max_hp = 98,
+		name = "大凤技能鱼雷机Lv9",
+		base = 67320,
+		id = 67329,
+		hp_growth = 3772,
+		weapon_ID = {
+			67409
+		}
+	},
+	[67330] = {
+		max_hp = 104,
+		name = "大凤技能鱼雷机Lv10",
+		base = 67320,
+		id = 67330,
+		hp_growth = 4013,
+		weapon_ID = {
+			67410
+		}
+	},
+	[67340] = {
+		name = "埃塞克斯技能鱼雷机Lv0",
+		max_hp = 37,
 		accuracy = 23,
-		model_ID = "Ju87D4",
+		model_ID = "tbf",
 		ACC_growth = 0,
-		crash_DMG = 168,
-		dodge = 1.05,
+		crash_DMG = 406,
+		dodge = 1,
 		attack_power = 2,
-		dodge_limit = 5,
+		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "Ju87D4",
+		icon = "tbf",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1459,
-		speed = 51,
-		id = 65491,
+		nationality = 1,
+		hp_growth = 1404,
+		speed = 48,
+		id = 67340,
 		scale = 1,
 		weapon_ID = {
-			65501
+			67440
 		},
 		position_offset = {
 			0,
@@ -40,13 +100,13 @@ pg.aircraft_template_156 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.69,
-					-1.22,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.75,
-					1.26,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -63,8 +123,8 @@ pg.aircraft_template_156 = {
 				0
 			},
 			{
-				0,
-				0,
+				0.15,
+				-0.08,
 				0
 			},
 			{
@@ -74,84 +134,34 @@ pg.aircraft_template_156 = {
 			}
 		}
 	},
-	[65492] = {
-		max_hp = 44,
-		name = "彼得史特拉塞技能JU87鱼雷机LV2",
-		base = 65491,
-		id = 65492,
-		hp_growth = 1678,
+	[67341] = {
+		max_hp = 42,
+		name = "埃塞克斯技能鱼雷机Lv1",
+		base = 67340,
+		id = 67341,
+		hp_growth = 1615,
 		weapon_ID = {
-			65502
+			67441
 		}
 	},
-	[65493] = {
-		max_hp = 49,
-		name = "彼得史特拉塞技能JU87鱼雷机LV3",
-		base = 65491,
-		id = 65493,
-		hp_growth = 1897,
+	[67342] = {
+		max_hp = 47,
+		name = "埃塞克斯技能鱼雷机Lv2",
+		base = 67340,
+		id = 67342,
+		hp_growth = 1826,
 		weapon_ID = {
-			65503
+			67442
 		}
 	},
-	[65494] = {
-		max_hp = 55,
-		name = "彼得史特拉塞技能JU87鱼雷机LV4",
-		base = 65491,
-		id = 65494,
-		hp_growth = 2116,
+	[67343] = {
+		max_hp = 53,
+		name = "埃塞克斯技能鱼雷机Lv3",
+		base = 67340,
+		id = 67343,
+		hp_growth = 2036,
 		weapon_ID = {
-			65504
-		}
-	},
-	[65495] = {
-		max_hp = 61,
-		name = "彼得史特拉塞技能JU87鱼雷机LV5",
-		base = 65491,
-		id = 65495,
-		hp_growth = 2335,
-		weapon_ID = {
-			65505
-		}
-	},
-	[65496] = {
-		max_hp = 66,
-		name = "彼得史特拉塞技能JU87鱼雷机LV6",
-		base = 65491,
-		id = 65496,
-		hp_growth = 2554,
-		weapon_ID = {
-			65506
-		}
-	},
-	[65497] = {
-		max_hp = 72,
-		name = "彼得史特拉塞技能JU87鱼雷机LV7",
-		base = 65491,
-		id = 65497,
-		hp_growth = 2772,
-		weapon_ID = {
-			65507
-		}
-	},
-	[65498] = {
-		max_hp = 78,
-		name = "彼得史特拉塞技能JU87鱼雷机LV8",
-		base = 65491,
-		id = 65498,
-		hp_growth = 2991,
-		weapon_ID = {
-			65508
-		}
-	},
-	[65499] = {
-		max_hp = 83,
-		name = "彼得史特拉塞技能JU87鱼雷机LV9",
-		base = 65491,
-		id = 65499,
-		hp_growth = 3210,
-		weapon_ID = {
-			65509
+			67443
 		}
 	}
 }

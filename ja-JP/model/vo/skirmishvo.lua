@@ -13,7 +13,7 @@ end
 function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1
 	slot0.configId = slot1
-	slot0.state = nil
+	slot0.state = uv0.StateInactive
 	slot0.flagNew = nil
 end
 

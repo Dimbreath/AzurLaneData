@@ -1,93 +1,242 @@
 pg = pg or {}
 pg.aircraft_template_39 = {
-	[18225] = {
-		id = 18225,
-		base = 18220,
-		max_hp = 97,
-		hp_growth = 3726,
+	[19073] = {
+		id = 19073,
+		base = 19060,
+		max_hp = 136,
+		hp_growth = 5234,
 		weapon_ID = {
-			59745,
-			51245
+			52973,
+			52173
 		}
 	},
-	[18226] = {
-		id = 18226,
-		base = 18220,
-		max_hp = 105,
-		hp_growth = 4045,
+	[19100] = {
+		name = "SB2C地狱俯冲者",
+		max_hp = 35,
+		accuracy = 23,
+		model_ID = "sb2c",
+		ACC_growth = 0,
+		crash_DMG = 180,
+		dodge = 3.57,
+		attack_power = 2,
+		dodge_limit = 0.8,
+		type = 3,
+		AP_growth = 2000,
+		icon = "sb2c",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1331,
+		speed = 45,
+		id = 19100,
+		scale = 1,
 		weapon_ID = {
-			59746,
-			51246
+			50700,
+			52900,
+			52300
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.44,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	},
-	[18227] = {
-		id = 18227,
-		base = 18220,
-		max_hp = 113,
-		hp_growth = 4364,
+	[19101] = {
+		id = 19101,
+		base = 19100,
+		max_hp = 40,
+		hp_growth = 1530,
 		weapon_ID = {
-			59747,
-			51247
+			50701,
+			52901,
+			52301
 		}
 	},
-	[18228] = {
-		id = 18228,
-		base = 18220,
-		max_hp = 122,
-		hp_growth = 4684,
+	[19102] = {
+		id = 19102,
+		base = 19100,
+		max_hp = 45,
+		hp_growth = 1730,
 		weapon_ID = {
-			59748,
-			51248
+			50702,
+			52902,
+			52302
 		}
 	},
-	[18229] = {
-		id = 18229,
-		base = 18220,
-		max_hp = 130,
-		hp_growth = 5003,
+	[19103] = {
+		id = 19103,
+		base = 19100,
+		max_hp = 50,
+		hp_growth = 1929,
 		weapon_ID = {
-			59749,
-			51249
+			50703,
+			52903,
+			52303
 		}
 	},
-	[18230] = {
-		id = 18230,
-		base = 18220,
-		max_hp = 138,
-		hp_growth = 5322,
+	[19120] = {
+		name = "SB2C地狱俯冲者",
+		max_hp = 38,
+		accuracy = 23,
+		model_ID = "sb2c",
+		ACC_growth = 0,
+		crash_DMG = 180,
+		dodge = 3.45,
+		attack_power = 2,
+		dodge_limit = 0.9,
+		type = 3,
+		AP_growth = 2000,
+		icon = "sb2c",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1478,
+		speed = 45,
+		id = 19120,
+		scale = 1,
 		weapon_ID = {
-			59750,
-			51250
+			50720,
+			52920,
+			52320
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.44,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	},
-	[18231] = {
-		id = 18231,
-		base = 18220,
-		max_hp = 147,
-		hp_growth = 5642,
+	[19121] = {
+		id = 19121,
+		base = 19120,
+		max_hp = 44,
+		hp_growth = 1700,
 		weapon_ID = {
-			59751,
-			51251
+			50721,
+			52921,
+			52321
 		}
 	},
-	[18232] = {
-		id = 18232,
-		base = 18220,
-		max_hp = 155,
-		hp_growth = 5961,
+	[19122] = {
+		id = 19122,
+		base = 19120,
+		max_hp = 50,
+		hp_growth = 1922,
 		weapon_ID = {
-			59752,
-			51252
+			50722,
+			52922,
+			52322
 		}
 	},
-	[18233] = {
-		id = 18233,
-		base = 18220,
-		max_hp = 163,
-		hp_growth = 6280,
+	[19123] = {
+		id = 19123,
+		base = 19120,
+		max_hp = 56,
+		hp_growth = 2144,
 		weapon_ID = {
-			59753,
-			51253
+			50723,
+			52923,
+			52323
+		}
+	},
+	[19124] = {
+		id = 19124,
+		base = 19120,
+		max_hp = 62,
+		hp_growth = 2365,
+		weapon_ID = {
+			50724,
+			52924,
+			52324
 		}
 	}
 }

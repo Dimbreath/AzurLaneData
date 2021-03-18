@@ -2,81 +2,6 @@ pg = pg or {}
 pg.weapon_property_7 = {}
 
 function ()
-	uv0.weapon_property_7[5540] = {
-		action_index = "attack",
-		range = 50,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "潜艇用550mm24V鱼雷",
-		aim_type = 1,
-		torpedo_ammo = 6,
-		expose = 0,
-		angle = 80,
-		charge_param = "",
-		damage = 54,
-		corrected = 100,
-		min_range = 0,
-		id = 5540,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3100,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0.5,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1827
-		},
-		barrage_ID = {
-			1601
-		},
-		oxy_type = {
-			1,
-			2
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_7[5541] = {
-		id = 5541,
-		reload_max = 3020,
-		damage = 62,
-		base = 5540
-	}
-	uv0.weapon_property_7[5542] = {
-		id = 5542,
-		reload_max = 2940,
-		damage = 70,
-		base = 5540
-	}
-	uv0.weapon_property_7[5543] = {
-		id = 5543,
-		reload_max = 2860,
-		damage = 78,
-		base = 5540
-	}
-	uv0.weapon_property_7[5544] = {
-		id = 5544,
-		reload_max = 2780,
-		damage = 86,
-		base = 5540
-	}
-	uv0.weapon_property_7[5545] = {
-		id = 5545,
-		reload_max = 2700,
-		damage = 94,
-		base = 5540
-	}
 	uv0.weapon_property_7[5546] = {
 		id = 5546,
 		reload_max = 2620,
@@ -733,5 +658,124 @@ function ()
 		reload_max = 376,
 		damage = 32,
 		base = 7040
+	}
+	uv0.weapon_property_7[7046] = {
+		id = 7046,
+		reload_max = 366,
+		damage = 34,
+		base = 7040
+	}
+	uv0.weapon_property_7[7047] = {
+		reload_max = 366,
+		damage = 34,
+		base = 7040,
+		id = 7047,
+		corrected = 114
+	}
+	uv0.weapon_property_7[7100] = {
+		action_index = "attack",
+		range = 65,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "单装150mm主炮(东煌)T1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 14,
+		corrected = 110,
+		min_range = 0,
+		id = 7100,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 449,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0.3,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1101
+		},
+		barrage_ID = {
+			1103
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_7[7101] = {
+		id = 7101,
+		reload_max = 438,
+		damage = 16,
+		base = 7100
+	}
+	uv0.weapon_property_7[7102] = {
+		id = 7102,
+		reload_max = 428,
+		damage = 18,
+		base = 7100
+	}
+	uv0.weapon_property_7[7103] = {
+		id = 7103,
+		reload_max = 417,
+		damage = 20,
+		base = 7100
+	}
+	uv0.weapon_property_7[7120] = {
+		action_index = "attack",
+		range = 65,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "单装150mm主炮(东煌)T2",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 16,
+		corrected = 110,
+		min_range = 0,
+		id = 7120,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 426,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0.3,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1101
+		},
+		barrage_ID = {
+			1103
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
 end()

@@ -9,7 +9,7 @@ return {
 	{},
 	{},
 	{},
-	time = 7,
+	time = 8,
 	name = "破盾监听",
 	init_effect = "",
 	picture = "",
@@ -25,7 +25,8 @@ return {
 				"onShieldBroken"
 			},
 			arg_list = {
-				skill_id = 14191
+				skill_id = 14191,
+				shieldBuffID = 14191
 			}
 		},
 		{
@@ -34,7 +35,8 @@ return {
 				"onShieldBroken"
 			},
 			arg_list = {
-				skill_id = 14192
+				skill_id = 14192,
+				shieldBuffID = 14191
 			}
 		}
 	}

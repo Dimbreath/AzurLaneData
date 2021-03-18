@@ -11,6 +11,7 @@ end
 
 function slot2.SetArgs(slot0, slot1, slot2)
 	slot3 = slot0._tempData.arg_list
+	slot0._buffID = slot2:GetID()
 	slot0._dir = slot1:GetDirection()
 	slot0._count = slot3.count
 	slot0._bulletType = slot3.bulletType or uv0.Battle.BattleConst.BulletType.CANNON
@@ -61,7 +62,7 @@ function slot2.SetArgs(slot0, slot1, slot2)
 	slot0._currentTimeCount = 0
 
 	if slot3.effect then
-		slot0._effectIndex = "BattleBuffShieldWall" .. slot2:GetID() .. slot0._tempData.id
+		slot0._effectIndex = "BattleBuffShieldWall" .. slot0._buffID .. slot0._tempData.id
 		slot11 = nil
 		slot0._unit = slot1
 		slot0._evtData = {
@@ -134,7 +135,9 @@ function slot2.Deactive(slot0)
 		}))
 	end
 
-	slot0._unit:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_SHIELD_BROKEN, {})
+	slot0._unit:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_SHIELD_BROKEN, {
+		shieldBuffID = slot0._buffID
+	})
 end
 
 function slot2.Clear(slot0)

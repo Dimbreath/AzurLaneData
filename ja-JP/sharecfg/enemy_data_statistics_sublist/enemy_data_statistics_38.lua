@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.enemy_data_statistics_38 = {
+	[915] = {
+		cannon = 0,
+		name = "コンダクターⅠ型",
+		air = 60,
+		torpedo = 0,
+		id = 915,
+		reload = 150,
+		speed = 20,
+		dodge = 0,
+		armor = 0,
+		hit = 0,
+		base = 252,
+		durability = 20000,
+		antiaircraft = 450,
+		battle_unit_type = 54,
+		luck = 0,
+		antisub = 0,
+		equipment_list = {
+			531018,
+			531019,
+			531020,
+			531021,
+			531022
+		}
+	},
 	[70001] = {
 		cannon = 95,
 		air = 124,
@@ -529,47 +554,6 @@ pg.enemy_data_statistics_38 = {
 		equipment_list = {
 			311004,
 			311005,
-			311092
-		}
-	},
-	[1002] = {
-		cannon = 3,
-		name = "量産型フブキ級",
-		hit_growth = 120,
-		speed_growth = 0,
-		antiaircraft_growth = 630,
-		air = 0,
-		antisub = 0,
-		armor = 0,
-		rarity = 1,
-		antiaircraft = 8,
-		dodge_growth = 0,
-		star = 2,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 102,
-		durability = 56,
-		armor_growth = 0,
-		torpedo_growth = 1728,
-		speed = 15,
-		luck = 0,
-		id = 1002,
-		cannon_growth = 270,
-		pilot_ai_template_id = 20005,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 8,
-		torpedo = 21,
-		durability_growth = 1800,
-		luck_growth = 0,
-		battle_unit_type = 20,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			311007,
-			311008,
 			311092
 		}
 	}

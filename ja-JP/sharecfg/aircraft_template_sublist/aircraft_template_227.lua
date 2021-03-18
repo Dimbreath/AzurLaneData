@@ -1,96 +1,161 @@
 pg = pg or {}
 pg.aircraft_template_227 = {
-	[81324] = {
-		id = 81324,
-		base = 81320,
-		max_hp = 65,
-		hp_growth = 2484,
+	[83120] = {
+		name = "零战二一型",
+		max_hp = 33,
+		accuracy = 23,
+		model_ID = "lingzhan21",
+		ACC_growth = 0,
+		crash_DMG = 52,
+		dodge = 0.327,
+		attack_power = 2,
+		dodge_limit = 8.5,
+		type = 1,
+		AP_growth = 2000,
+		icon = "lingzhan21",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1277,
+		speed = 52,
+		id = 83120,
+		scale = 1,
 		weapon_ID = {
-			50324,
+			50020,
+			50520
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[83121] = {
+		id = 83121,
+		base = 83120,
+		max_hp = 38,
+		hp_growth = 1468,
+		weapon_ID = {
+			50021,
+			50521
+		}
+	},
+	[83122] = {
+		id = 83122,
+		base = 83120,
+		max_hp = 43,
+		hp_growth = 1660,
+		weapon_ID = {
+			50022,
+			50522
+		}
+	},
+	[83123] = {
+		id = 83123,
+		base = 83120,
+		max_hp = 48,
+		hp_growth = 1851,
+		weapon_ID = {
+			50023,
+			50523
+		}
+	},
+	[83124] = {
+		id = 83124,
+		base = 83120,
+		max_hp = 53,
+		hp_growth = 2043,
+		weapon_ID = {
+			50024,
 			50524
 		}
 	},
-	[81325] = {
-		id = 81325,
-		base = 81320,
-		max_hp = 71,
-		hp_growth = 2717,
+	[83125] = {
+		id = 83125,
+		base = 83120,
+		max_hp = 58,
+		hp_growth = 2234,
 		weapon_ID = {
-			50325,
+			50025,
 			50525
 		}
 	},
-	[81326] = {
-		id = 81326,
-		base = 81320,
-		max_hp = 77,
-		hp_growth = 2949,
+	[83126] = {
+		id = 83126,
+		base = 83120,
+		max_hp = 63,
+		hp_growth = 2426,
 		weapon_ID = {
-			50326,
+			50026,
 			50526
 		}
 	},
-	[81327] = {
-		id = 81327,
-		base = 81320,
-		max_hp = 83,
-		hp_growth = 3182,
-		weapon_ID = {
-			50327,
-			50527
-		}
-	},
-	[81328] = {
-		id = 81328,
-		base = 81320,
-		max_hp = 89,
-		hp_growth = 3415,
-		weapon_ID = {
-			50328,
-			50528
-		}
-	},
-	[81329] = {
-		id = 81329,
-		base = 81320,
-		max_hp = 95,
-		hp_growth = 3648,
-		weapon_ID = {
-			50329,
-			50529
-		}
-	},
-	[81330] = {
-		id = 81330,
-		base = 81320,
-		max_hp = 101,
-		hp_growth = 3881,
-		weapon_ID = {
-			50330,
-			50530
-		}
-	},
-	[81340] = {
-		name = "F6F地狱猫",
-		max_hp = 44,
+	[83140] = {
+		name = "零战二一型",
+		max_hp = 37,
 		accuracy = 23,
-		model_ID = "f6f",
+		model_ID = "lingzhan21",
 		ACC_growth = 0,
-		crash_DMG = 80,
+		crash_DMG = 52,
 		dodge = 0.315,
 		attack_power = 2,
-		dodge_limit = 11,
+		dodge_limit = 9,
 		type = 1,
 		AP_growth = 2000,
-		icon = "f6f",
+		icon = "lingzhan21",
 		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1693,
-		speed = 50,
-		id = 81340,
+		nationality = 3,
+		hp_growth = 1404,
+		speed = 52,
+		id = 83140,
 		scale = 1,
 		weapon_ID = {
-			50340,
+			50040,
 			50540
 		},
 		position_offset = {
@@ -111,13 +176,13 @@ pg.aircraft_template_227 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.28,
-					1.62,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					-1.12,
-					-1,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -134,7 +199,7 @@ pg.aircraft_template_227 = {
 				0
 			},
 			{
-				0,
+				0.27,
 				0,
 				0
 			},
@@ -145,14 +210,24 @@ pg.aircraft_template_227 = {
 			}
 		}
 	},
-	[81341] = {
-		id = 81341,
-		base = 81340,
-		max_hp = 51,
-		hp_growth = 1947,
+	[83141] = {
+		id = 83141,
+		base = 83140,
+		max_hp = 42,
+		hp_growth = 1615,
 		weapon_ID = {
-			50341,
+			50041,
 			50541
+		}
+	},
+	[83142] = {
+		id = 83142,
+		base = 83140,
+		max_hp = 47,
+		hp_growth = 1826,
+		weapon_ID = {
+			50042,
+			50542
 		}
 	}
 }

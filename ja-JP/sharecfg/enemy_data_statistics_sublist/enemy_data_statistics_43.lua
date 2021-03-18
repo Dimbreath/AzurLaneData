@@ -1,5 +1,80 @@
 pg = pg or {}
 pg.enemy_data_statistics_43 = {
+	[205200] = {
+		cannon = 65,
+		name = "ズイカク",
+		hit_growth = 0,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 90,
+		armor = 0,
+		antisub = 0,
+		dodge = 7,
+		rarity = 5,
+		antiaircraft = 100,
+		dodge_growth = 0,
+		star = 6,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 244,
+		durability = 1676,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		luck = 0,
+		id = 205200,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		reload_growth = 0,
+		hit = 17,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.83,
+							-0.03,
+							0.94
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.59,
+							1.23,
+							2.53
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			100201,
+			100360,
+			311081,
+			311084,
+			312048,
+			312050,
+			312051,
+			312052
+		}
+	},
 	[205300] = {
 		cannon = 75,
 		name = "ショウホウ",
@@ -530,43 +605,6 @@ pg.enemy_data_statistics_43 = {
 		appear_fx = {
 			"appearQ"
 		},
-		equipment_list = {
-			100341,
-			100421
-		}
-	},
-	[3011] = {
-		cannon = 11,
-		name = "イスズ",
-		air = 0,
-		cannon_growth = 936,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		armor = 0,
-		dodge = 11,
-		torpedo = 41,
-		antiaircraft_growth = 3744,
-		reload_growth = 0,
-		dodge_growth = 162,
-		hit_growth = 210,
-		star = 3,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 2,
-		speed_growth = 0,
-		base = 187,
-		durability = 465,
-		armor_growth = 0,
-		durability_growth = 21500,
-		antiaircraft = 45,
-		speed = 24,
-		luck = 0,
-		luck_growth = 0,
-		air_growth = 0,
-		id = 3011,
-		battle_unit_type = 55,
-		torpedo_growth = 3366,
-		antisub = 0,
 		equipment_list = {
 			100341,
 			100421

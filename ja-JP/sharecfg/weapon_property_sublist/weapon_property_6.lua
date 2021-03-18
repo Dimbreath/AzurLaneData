@@ -2,36 +2,6 @@ pg = pg or {}
 pg.weapon_property_6 = {}
 
 function ()
-	uv0.weapon_property_6[5246] = {
-		id = 5246,
-		reload_max = 4373,
-		damage = 116,
-		base = 5240
-	}
-	uv0.weapon_property_6[5247] = {
-		id = 5247,
-		reload_max = 4274,
-		damage = 126,
-		base = 5240
-	}
-	uv0.weapon_property_6[5248] = {
-		id = 5248,
-		reload_max = 4174,
-		damage = 136,
-		base = 5240
-	}
-	uv0.weapon_property_6[5249] = {
-		id = 5249,
-		reload_max = 4075,
-		damage = 146,
-		base = 5240
-	}
-	uv0.weapon_property_6[5250] = {
-		id = 5250,
-		reload_max = 3975,
-		damage = 156,
-		base = 5240
-	}
 	uv0.weapon_property_6[5251] = {
 		reload_max = 3975,
 		damage = 156,
@@ -660,5 +630,80 @@ function ()
 		reload_max = 2800,
 		damage = 91,
 		base = 5520
+	}
+	uv0.weapon_property_6[5540] = {
+		action_index = "attack",
+		range = 50,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "潜艇用550mm24V鱼雷",
+		aim_type = 1,
+		torpedo_ammo = 6,
+		expose = 0,
+		angle = 80,
+		charge_param = "",
+		damage = 54,
+		corrected = 100,
+		min_range = 0,
+		id = 5540,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3100,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0.5,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1827
+		},
+		barrage_ID = {
+			1601
+		},
+		oxy_type = {
+			1,
+			2
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_6[5541] = {
+		id = 5541,
+		reload_max = 3020,
+		damage = 62,
+		base = 5540
+	}
+	uv0.weapon_property_6[5542] = {
+		id = 5542,
+		reload_max = 2940,
+		damage = 70,
+		base = 5540
+	}
+	uv0.weapon_property_6[5543] = {
+		id = 5543,
+		reload_max = 2860,
+		damage = 78,
+		base = 5540
+	}
+	uv0.weapon_property_6[5544] = {
+		id = 5544,
+		reload_max = 2780,
+		damage = 86,
+		base = 5540
+	}
+	uv0.weapon_property_6[5545] = {
+		id = 5545,
+		reload_max = 2700,
+		damage = 94,
+		base = 5540
 	}
 end()

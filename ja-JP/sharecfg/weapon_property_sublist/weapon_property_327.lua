@@ -2,2201 +2,7 @@ pg = pg or {}
 pg.weapon_property_327 = {}
 
 function ()
-	uv0.weapon_property_327[680053] = {
-		action_index = "attack",
-		range = 120,
-		type = 1,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动A3】BOSS 侵扰者III型 第三波 感应式电磁炸弹",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 100,
-		min_range = 0,
-		id = 680053,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 9999,
-		queue = 4,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750058,
-			750058,
-			750058,
-			750058
-		},
-		barrage_ID = {
-			760124,
-			760125,
-			760126,
-			760127
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680101] = {
-		action_index = "attack",
-		range = 120,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B1】潜艇精英人形通用 开幕鱼雷1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 30,
-		corrected = 100,
-		min_range = 0,
-		id = 680101,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 9999,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750001,
-			750002,
-			750003,
-			750004,
-			750005
-		},
-		barrage_ID = {
-			760001,
-			760002,
-			760003,
-			760004,
-			760005
-		},
-		oxy_type = {
-			1,
-			2
-		},
-		search_condition = {
-			1,
-			2
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680102] = {
-		action_index = "attack",
-		range = 120,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B1】潜艇精英人形通用 开幕鱼雷2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 30,
-		corrected = 100,
-		min_range = 0,
-		id = 680102,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 9999,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750006,
-			750006
-		},
-		barrage_ID = {
-			760006,
-			760007
-		},
-		oxy_type = {
-			1,
-			2
-		},
-		search_condition = {
-			1,
-			2
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680103] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B1】潜艇精英人形通用 3way驱逐炮",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 7,
-		corrected = 100,
-		min_range = 0,
-		id = 680103,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1201,
-			1201,
-			1201
-		},
-		barrage_ID = {
-			1417,
-			1001,
-			1418
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680104] = {
-		action_index = "attack",
-		range = 120,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B1】潜艇精英人形通用 6+5双排鱼雷",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 22,
-		corrected = 100,
-		min_range = 0,
-		id = 680104,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 2400,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750007,
-			1821
-		},
-		barrage_ID = {
-			760014,
-			760015
-		},
-		oxy_type = {
-			1,
-			2
-		},
-		search_condition = {
-			1,
-			2
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680105] = {
-		action_index = "attack",
-		range = 120,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B1】精英人形U73 快速自机狙鱼雷",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 999,
-		charge_param = "",
-		damage = 22,
-		corrected = 100,
-		min_range = 0,
-		id = 680105,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 1500,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			750007
-		},
-		barrage_ID = {
-			700020
-		},
-		oxy_type = {
-			1,
-			2
-		},
-		search_condition = {
-			1,
-			2
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680106] = {
-		action_index = "attack",
-		range = 120,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B1】精英人形U73 3way自机狙鱼雷",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 999,
-		charge_param = "",
-		damage = 22,
-		corrected = 100,
-		min_range = 0,
-		id = 680106,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 1800,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1821,
-			1821,
-			1821,
-			1821,
-			1821,
-			1821
-		},
-		barrage_ID = {
-			760008,
-			760009,
-			760010,
-			760011,
-			760012,
-			760013
-		},
-		oxy_type = {
-			1,
-			2
-		},
-		search_condition = {
-			1,
-			2
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680107] = {
-		action_index = "attack",
-		range = 120,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B1】精英人形U101 快速自机狙鱼雷",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 999,
-		charge_param = "",
-		damage = 22,
-		corrected = 100,
-		min_range = 0,
-		id = 680107,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 1500,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			750007
-		},
-		barrage_ID = {
-			700020
-		},
-		oxy_type = {
-			1,
-			2
-		},
-		search_condition = {
-			1,
-			2
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680108] = {
-		action_index = "attack",
-		range = 120,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B1】精英人形U101 高频率箭头自机狙鱼雷",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 999,
-		charge_param = "",
-		damage = 22,
-		corrected = 100,
-		min_range = 0,
-		id = 680108,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 900,
-		queue = 3,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750001,
-			750002,
-			750003,
-			750004,
-			750005,
-			750001,
-			750002,
-			750003,
-			750004,
-			750005
-		},
-		barrage_ID = {
-			760016,
-			760017,
-			760018,
-			760019,
-			760020,
-			760021,
-			760022,
-			760023,
-			760024,
-			760025
-		},
-		oxy_type = {
-			1,
-			2
-		},
-		search_condition = {
-			1,
-			2
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680109] = {
-		action_index = "attack",
-		range = 120,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B1】精英人形U522 快速自机狙鱼雷",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 999,
-		charge_param = "",
-		damage = 22,
-		corrected = 100,
-		min_range = 0,
-		id = 680109,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 1500,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			750007
-		},
-		barrage_ID = {
-			700020
-		},
-		oxy_type = {
-			1,
-			2
-		},
-		search_condition = {
-			1,
-			2
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680110] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B1】精英人形U522 变向弹幕",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 14,
-		corrected = 100,
-		min_range = 0,
-		id = 680110,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 600,
-		queue = 5,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750008,
-			750009
-		},
-		barrage_ID = {
-			990001,
-			990002
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680111] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B1】精英人形U522 变向弹幕",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 14,
-		corrected = 100,
-		min_range = 0,
-		id = 680111,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 600,
-		queue = 6,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750010,
-			750011
-		},
-		barrage_ID = {
-			990241,
-			990242
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680112] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】道中人形Z1 3way自机狙穿透弹",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 14,
-		corrected = 100,
-		min_range = 0,
-		id = 680112,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 800,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			300115,
-			300116,
-			300117
-		},
-		barrage_ID = {
-			300115,
-			300116,
-			300117
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jinengenemy",
-			alertTime = 2,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_327[680113] = {
-		action_index = "attack",
-		range = 60,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】道中人形Z2 广域射击",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 100,
-		min_range = 0,
-		id = 680113,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 800,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1206,
-			1206,
-			1206,
-			1206,
-			1206,
-			1206,
-			1206,
-			1206
-		},
-		barrage_ID = {
-			740039,
-			740040,
-			740041,
-			740042,
-			740043,
-			740044,
-			740045,
-			740046
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680114] = {
-		action_index = "attack",
-		range = 60,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】道中人形Z36 魔力猛击",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 12,
-		corrected = 100,
-		min_range = 0,
-		id = 680114,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 800,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750012,
-			750012
-		},
-		barrage_ID = {
-			760026,
-			760027
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680115] = {
-		action_index = "",
-		range = 72,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】道中人形欧根亲王/希佩尔 四联装磁性鱼雷",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 680115,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 1600,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1803
-		},
-		barrage_ID = {
-			1403
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680116] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】道中人形欧根亲王 主炮射击1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 18,
-		corrected = 100,
-		min_range = 0,
-		id = 680116,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20003,
-			20003
-		},
-		barrage_ID = {
-			200140,
-			200141
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680117] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】道中人形欧根亲王 主炮射击2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 18,
-		corrected = 100,
-		min_range = 0,
-		id = 680117,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20003
-		},
-		barrage_ID = {
-			200120
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680118] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】道中人形欧根亲王 主炮射击3",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 18,
-		corrected = 100,
-		min_range = 0,
-		id = 680118,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1200,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20003,
-			20003
-		},
-		barrage_ID = {
-			200112,
-			200113
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680119] = {
-		action_index = "attack",
-		range = 38,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】道中人形希佩尔海军上将 主炮射击1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 18,
-		corrected = 100,
-		min_range = 0,
-		id = 680119,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			140001,
-			140002,
-			140003,
-			140004
-		},
-		barrage_ID = {
-			140001,
-			140002,
-			140003,
-			140004
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680120] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】道中人形希佩尔海军上将 主炮射击2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 18,
-		corrected = 100,
-		min_range = 0,
-		id = 680120,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1403
-		},
-		barrage_ID = {
-			200092
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680121] = {
-		action_index = "attack",
-		range = 38,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】道中人形希佩尔海军上将 近程自卫火炮",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 9,
-		corrected = 100,
-		min_range = 0,
-		id = 680121,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 600,
-		queue = 4,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			999
-		},
-		barrage_ID = {
-			11
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680122] = {
-		action_index = "attack",
-		range = 150,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】精英人形Z1 散乱串状子母弹",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 100,
-		min_range = 0,
-		id = 680122,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 3,
-		attack_attribute = 1,
-		reload_max = 700,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			740001
-		},
-		barrage_ID = {
-			740001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680123] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】精英人形Z2 中心穿透弹",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 15,
-		corrected = 100,
-		min_range = 0,
-		id = 680123,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 3,
-		attack_attribute = 1,
-		reload_max = 700,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			730022
-		},
-		barrage_ID = {
-			730009
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680124] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】精英人形Z36 大规模穿透自机狙",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 15,
-		corrected = 100,
-		min_range = 0,
-		id = 680124,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			300115,
-			300116,
-			300117,
-			300115,
-			300116,
-			300117,
-			300115,
-			300116,
-			300117
-		},
-		barrage_ID = {
-			740007,
-			740008,
-			740009,
-			740010,
-			740011,
-			740012,
-			740013,
-			740014,
-			740015
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jinengenemy",
-			alertTime = 2,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_327[680125] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】精英人形欧根亲王 慢速直射后分叉-上",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 15,
-		corrected = 100,
-		min_range = 0,
-		id = 680125,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 3,
-		attack_attribute = 1,
-		reload_max = 1600,
-		queue = 4,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			950280,
-			950281,
-			950282,
-			950283,
-			950284
-		},
-		barrage_ID = {
-			950190,
-			950191,
-			950192,
-			950193,
-			950194
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680126] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】精英人形欧根亲王 慢速直射后分叉-下",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 15,
-		corrected = 100,
-		min_range = 0,
-		id = 680126,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 3,
-		attack_attribute = 1,
-		reload_max = 1600,
-		queue = 4,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			950280,
-			950281,
-			950282,
-			950283,
-			950284
-		},
-		barrage_ID = {
-			950197,
-			950198,
-			950199,
-			950200,
-			950201
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680127] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】精英人形欧根亲王 慢速直射后分叉-中",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 15,
-		corrected = 100,
-		min_range = 0,
-		id = 680127,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 3,
-		attack_attribute = 1,
-		reload_max = 1600,
-		queue = 4,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			950280,
-			950281,
-			950282,
-			950283,
-			950284
-		},
-		barrage_ID = {
-			950202,
-			950203,
-			950204,
-			950205,
-			950206
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680128] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】精英人形希佩尔海军上将 大范围鱼雷",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 680128,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 1000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			140005,
-			140006,
-			140007,
-			140008
-		},
-		barrage_ID = {
-			140005,
-			140006,
-			140007,
-			140008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680129] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】道中人形希佩尔海军上将 主炮射击3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 18,
-		corrected = 100,
-		min_range = 0,
-		id = 680129,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 3,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			140003
-		},
-		barrage_ID = {
-			200120
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680130] = {
-		action_index = "attack",
-		range = 120,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B1】BOSS U81 开幕鱼雷1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 32,
-		corrected = 100,
-		min_range = 0,
-		id = 680130,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 9999,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750002,
-			750037
-		},
-		barrage_ID = {
-			760084,
-			760085
-		},
-		oxy_type = {
-			1,
-			2
-		},
-		search_condition = {
-			1,
-			2
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680131] = {
-		action_index = "attack",
-		range = 120,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B1】BOSS U81 开幕鱼雷2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 32,
-		corrected = 100,
-		min_range = 0,
-		id = 680131,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 9999,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750007,
-			750007
-		},
-		barrage_ID = {
-			760038,
-			760039
-		},
-		oxy_type = {
-			1,
-			2
-		},
-		search_condition = {
-			1,
-			2
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680132] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B1】BOSS U81 常驻 3way驱逐炮",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 680132,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 5,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1203,
-			1203,
-			1203
-		},
-		barrage_ID = {
-			1417,
-			1001,
-			1418
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680133] = {
-		action_index = "attack",
-		range = 120,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B1】BOSS U81 第一波 潜行猎杀鱼雷",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 22,
-		corrected = 100,
-		min_range = 0,
-		id = 680133,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 9999,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750038
-		},
-		barrage_ID = {
-			760086
-		},
-		oxy_type = {
-			1,
-			2
-		},
-		search_condition = {
-			1,
-			2
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680134] = {
-		action_index = "",
-		range = 120,
-		type = 1,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B1】BOSS U81 第一波 上下封锁子母弹",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 14,
-		corrected = 100,
-		min_range = 0,
-		id = 680134,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 9999,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750039,
-			750040
-		},
-		barrage_ID = {
-			760087,
-			760088
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680135] = {
-		action_index = "attack",
-		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B1】BOSS U81 第二波 3way 螺旋穿透弹",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 9,
-		corrected = 100,
-		min_range = 0,
-		id = 680135,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 3,
-		attack_attribute = 1,
-		reload_max = 9999,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			720001,
-			720002
-		},
-		barrage_ID = {
-			760091,
-			760092
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680136] = {
-		action_index = "attack",
-		range = 120,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B1】BOSS U81 第二波  扇形弹幕",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 100,
-		min_range = 0,
-		id = 680136,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 100,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750042,
-			750042,
-			750042,
-			750042
-		},
-		barrage_ID = {
-			760093,
-			760094,
-			760095,
-			760096
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680137] = {
-		action_index = "attack",
-		range = 120,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B1】BOSS U81 第三波 双排鱼雷",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 22,
-		corrected = 100,
-		min_range = 0,
-		id = 680137,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 9999,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750007,
-			1821
-		},
-		barrage_ID = {
-			760115,
-			760116
-		},
-		oxy_type = {
-			1,
-			2
-		},
-		search_condition = {
-			1,
-			2
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680138] = {
-		action_index = "attack",
-		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B1】BOSS U81 第三波 变向弹幕",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 14,
-		corrected = 100,
-		min_range = 0,
-		id = 680138,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 9999,
-		queue = 3,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750008,
-			750009
-		},
-		barrage_ID = {
-			990001,
-			990002
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680139] = {
-		action_index = "attack",
-		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B1】BOSS U81 第三波 变向弹幕",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 14,
-		corrected = 100,
-		min_range = 0,
-		id = 680139,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 9999,
-		queue = 4,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750010,
-			750011
-		},
-		barrage_ID = {
-			990241,
-			990242
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680140] = {
-		action_index = "attack",
-		range = 120,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】BOSS 领洋者III型 三重鱼雷 ",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 24,
-		corrected = 100,
-		min_range = 0,
-		id = 680140,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 2000,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			690008,
-			690008,
-			690008
-		},
-		barrage_ID = {
-			690048,
-			690049,
-			690050
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680141] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】BOSS 领洋者III型 主炮扫射",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 15,
-		corrected = 100,
-		min_range = 0,
-		id = 680141,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 900,
-		queue = 4,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			815,
-			815,
-			815,
-			815,
-			815
-		},
-		barrage_ID = {
-			690041,
-			690042,
-			690043,
-			690044,
-			690045
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680142] = {
-		action_index = "attack",
-		range = 30,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】BOSS 领洋者III型 近程自卫扫射",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 680142,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 5,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			821
-		},
-		barrage_ID = {
-			14
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680143] = {
-		action_index = "attack",
-		range = 120,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】BOSS 领洋者III型 主炮集中",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 15,
-		corrected = 100,
-		min_range = 0,
-		id = 680143,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 4,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			816
-		},
-		barrage_ID = {
-			690051
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680144] = {
-		action_index = "attack",
-		range = 80,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B2】BOSS 领洋者III型 副炮变向扫射",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 680144,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1200,
-		queue = 3,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			821,
-			821,
-			821,
-			821,
-			821,
-			821,
-			821,
-			821
-		},
-		barrage_ID = {
-			690052,
-			690053,
-			690054,
-			690055,
-			690056,
-			690057,
-			690058,
-			690059
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680146] = {
+	uv0.weapon_property_327[692610] = {
 		action_index = "attack",
 		range = 120,
 		type = 11,
@@ -2204,66 +10,24 @@ function ()
 		recover_time = 3,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动B3】BOSS 清除者 第一波 环绕浮游炮",
-		aim_type = 1,
+		name = "【2020信浓活动困难T1】BOSS 测试者 第三波 浮游炮",
+		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 8,
+		damage = 18,
 		corrected = 100,
 		min_range = 0,
-		id = 680146,
+		id = 692610,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
 		reload_max = 100,
-		queue = 2,
+		queue = 5,
 		search_type = 1,
 		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {},
-		barrage_ID = {
-			760169
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680147] = {
-		action_index = "attack",
-		range = 120,
-		type = 11,
-		fire_fx = "",
-		recover_time = 3,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B3】BOSS 清除者 第一波 环绕浮游炮",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 680147,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 100,
-		queue = 3,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
+		suppress = 0,
 		spawn_bound = "plane",
 		fire_sfx = "",
 		auto_aftercast = 0,
@@ -2280,241 +44,172 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_327[680148] = {
-		action_index = "",
+	uv0.weapon_property_327[692611] = {
 		range = 120,
+		damage = 16,
+		base = 1000,
+		name = "【2020信浓活动困难T1】BOSS 测试者 第三波 浮游炮蓝色子弹",
 		type = 2,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B3】BOSS 清除者 第一波 环绕浮游炮武器 开幕弹幕",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 100,
-		min_range = 0,
-		id = 680148,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
+		action_index = "",
 		reload_max = 9999,
 		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+		id = 692611,
 		bullet_ID = {
-			700601,
-			700602,
-			700603,
-			700604,
-			700605,
-			700606,
-			700607,
-			700608
+			760011
 		},
 		barrage_ID = {
-			760098,
-			760099,
-			760100,
-			760101,
-			760102,
-			760103,
-			760104,
-			760105
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			770022
+		}
 	}
-	uv0.weapon_property_327[680149] = {
-		action_index = "",
-		range = 120,
-		type = 2,
+	uv0.weapon_property_327[692612] = {
+		range = 999,
+		damage = 16,
+		base = 1000,
+		name = "【2020信浓活动困难T1】BOSS 测试者 第三波 浮游炮橙色扩散",
 		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B3】BOSS 清除者 第一波 环绕浮游炮武器 封位弹幕",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 100,
-		min_range = 0,
-		id = 680149,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
+		action_index = "",
+		type = 2,
 		reload_max = 9999,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "cannon",
 		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750095
-		},
-		barrage_ID = {
-			760164
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680150] = {
-		action_index = "attack",
-		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B3】BOSS 清除者 第一波 开幕主炮射击",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 100,
-		min_range = 0,
-		id = 680150,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 3,
-		attack_attribute = 1,
-		reload_max = 9999,
-		queue = 4,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750096,
-			750096
-		},
-		barrage_ID = {
-			760165,
-			760166
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_327[680151] = {
-		action_index = "attack",
-		range = 120,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B3】BOSS 清除者 第一波 黑雾子弹",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 1,
-		corrected = 100,
-		min_range = 0,
-		id = 680151,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 9999,
 		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+		id = 692612,
 		bullet_ID = {
-			750097,
-			750097
+			760013
 		},
 		barrage_ID = {
-			760167,
-			760168
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			770024
+		}
 	}
-	uv0.weapon_property_327[680152] = {
-		action_index = "attack",
-		range = 120,
-		type = 24,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B3】BOSS 清除者 第二波 魔炮",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 9,
-		corrected = 100,
-		min_range = 0,
-		id = 680152,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 9999,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
+	uv0.weapon_property_327[692701] = {
+		aim_type = 1,
+		range = 38,
+		damage = 12,
+		base = 1000,
+		name = "【2020信浓活动困难T2】BOSS 黑高雄 近程自卫火炮III",
+		type = 2,
 		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+		reload_max = 700,
+		queue = 1,
+		id = 692701,
 		bullet_ID = {
-			750098
+			999
 		},
 		barrage_ID = {
-			760171
+			13
+		}
+	}
+	uv0.weapon_property_327[692702] = {
+		name = "【2020信浓活动困难T2】BOSS 黑高雄 联装主炮x4-散射III型弹幕2",
+		damage = 24,
+		base = 1000,
+		fire_fx = "CAFire",
+		reload_max = 1800,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 692702,
+		bullet_ID = {
+			1403
 		},
-		oxy_type = {
-			1
+		barrage_ID = {
+			200101
+		}
+	}
+	uv0.weapon_property_327[692703] = {
+		aim_type = 1,
+		damage = 18,
+		base = 1000,
+		type = 2,
+		name = "【2020信浓活动困难T2】BOSS 黑高雄 扫射弹幕",
+		suppress = 1,
+		reload_max = 600,
+		queue = 3,
+		id = 692703,
+		bullet_ID = {
+			620010,
+			620010
 		},
-		search_condition = {
-			1
+		barrage_ID = {
+			940041,
+			940042
+		}
+	}
+	uv0.weapon_property_327[692704] = {
+		aim_type = 1,
+		damage = 18,
+		base = 1000,
+		type = 2,
+		name = "【2020信浓活动困难T2】BOSS 黑高雄 扫射弹幕",
+		suppress = 1,
+		reload_max = 600,
+		queue = 3,
+		id = 692704,
+		bullet_ID = {
+			620010,
+			620010
+		},
+		barrage_ID = {
+			940043,
+			940044
+		}
+	}
+	uv0.weapon_property_327[692705] = {
+		aim_type = 1,
+		damage = 24,
+		base = 1000,
+		name = "【2020信浓活动困难T2】BOSS 黑高雄 特殊弹幕",
+		suppress = 1,
+		reload_max = 1200,
+		id = 692705,
+		bullet_ID = {
+			620006,
+			620007,
+			620008,
+			620009
+		},
+		barrage_ID = {
+			990001,
+			990002,
+			990241,
+			990242
+		}
+	}
+	uv0.weapon_property_327[692706] = {
+		range = 60,
+		damage = 52,
+		base = 1001,
+		name = "【2020信浓活动困难T2】BOSS 黑高雄 鱼雷",
+		initial_over_heat = 1,
+		suppress = 1,
+		queue = 1,
+		id = 692706,
+		bullet_ID = {
+			620011,
+			620012
+		},
+		barrage_ID = {
+			620016,
+			620017
+		}
+	}
+	uv0.weapon_property_327[692707] = {
+		range = 150,
+		damage = 22,
+		base = 1000,
+		type = 19,
+		fire_fx = "CAFire",
+		min_range = 85,
+		suppress = 1,
+		reload_max = 2500,
+		name = "【2020信浓活动困难T2】BOSS 跨射攻击后排武器2x2轮",
+		fire_sfx = "battle/cannon-main",
+		queue = 3,
+		id = 692707,
+		aim_type = 1,
+		bullet_ID = {
+			1531
+		},
+		barrage_ID = {
+			20015
 		},
 		precast_param = {
 			time = 1,
@@ -2523,87 +218,702 @@ function ()
 			isBound = true
 		}
 	}
-	uv0.weapon_property_327[680153] = {
-		action_index = "",
-		range = 120,
-		type = 1,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B3】BOSS 清除者 第二波 星星散射",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 4,
-		corrected = 100,
-		min_range = 0,
-		id = 680153,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 9999,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+	uv0.weapon_property_327[692801] = {
+		aim_type = 1,
+		range = 75,
+		damage = 28,
+		base = 1000,
+		name = "【2020信浓活动困难T3】BOSS 梦境塞壬破局者 前排跨射",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 1500,
+		spawn_bound = "cannon2",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 692801,
+		type = 19,
 		bullet_ID = {
-			750100,
-			750101
+			400000
 		},
 		barrage_ID = {
-			760172,
-			760173
+			399912
 		},
-		oxy_type = {
-			1
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2
+		}
+	}
+	uv0.weapon_property_327[692802] = {
+		range = 150,
+		damage = 32,
+		base = 1000,
+		type = 19,
+		fire_fx = "CAFire",
+		min_range = 85,
+		suppress = 1,
+		spawn_bound = "cannon3",
+		name = "【2020信浓活动困难T3】BOSS 梦境塞壬破局者 后排跨射",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 692802,
+		aim_type = 1,
+		bullet_ID = {
+			834
 		},
-		search_condition = {
-			1
+		barrage_ID = {
+			20017
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2
+		}
+	}
+	uv0.weapon_property_327[692803] = {
+		aim_type = 1,
+		damage = 24,
+		base = 1000,
+		name = "【2020信浓活动困难T3】BOSS 梦境塞壬破局者 主炮中心弹幕",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 1000,
+		fire_sfx = "battle/cannon-main",
+		queue = 3,
+		id = 692803,
+		bullet_ID = {
+			760059
+		},
+		barrage_ID = {
+			690104
+		}
+	}
+	uv0.weapon_property_327[692804] = {
+		name = "【2020信浓活动困难T3】BOSS 梦境塞壬破局者 主炮竖排弹幕",
+		damage = 24,
+		base = 1000,
+		fire_fx = "CAFire",
+		reload_max = 1200,
+		fire_sfx = "battle/cannon-main",
+		queue = 3,
+		id = 692804,
+		bullet_ID = {
+			835,
+			835
+		},
+		barrage_ID = {
+			690105,
+			690106
+		}
+	}
+	uv0.weapon_property_327[692805] = {
+		range = 70,
+		damage = 20,
+		base = 1000,
+		name = "【2020信浓活动困难T3】BOSS 梦境塞壬破局者 双联装炮连射",
+		type = 2,
+		reload_max = 600,
+		id = 692805,
+		bullet_ID = {
+			760060
+		},
+		barrage_ID = {
+			690014
+		}
+	}
+	uv0.weapon_property_327[692806] = {
+		range = 70,
+		damage = 16,
+		base = 1000,
+		name = "【2020信浓活动困难T3】BOSS 梦境塞壬破局者 副炮4way射击",
+		type = 2,
+		reload_max = 1500,
+		id = 692806,
+		bullet_ID = {
+			831,
+			831
+		},
+		barrage_ID = {
+			690107,
+			690108
+		}
+	}
+	uv0.weapon_property_327[693601] = {
+		aim_type = 1,
+		range = 120,
+		damage = 9,
+		base = 1000,
+		name = "【2020信浓活动困难T4】BOSS 梦境塞壬潜伏者 开幕自机狙乱弹",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 9999,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 693601,
+		bullet_ID = {
+			760070
+		},
+		barrage_ID = {
+			700001
+		}
+	}
+	uv0.weapon_property_327[693602] = {
+		aim_type = 1,
+		range = 120,
+		base = 1000,
+		name = "【2020信浓活动困难T4】BOSS 梦境塞壬潜伏者 延时环状链子弹",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 9999,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 693602,
+		bullet_ID = {
+			760076,
+			760076,
+			760076,
+			760076,
+			760076,
+			760076,
+			760076,
+			760076
+		},
+		barrage_ID = {
+			700002,
+			700003,
+			700004,
+			700005,
+			700006,
+			700007,
+			700008,
+			700009
+		}
+	}
+	uv0.weapon_property_327[693603] = {
+		aim_type = 1,
+		range = 120,
+		base = 1000,
+		name = "【2020信浓活动困难T4】BOSS 梦境塞壬潜伏者 3way自机狙",
+		type = 2,
+		suppress = 1,
+		reload_max = 9999,
+		queue = 2,
+		id = 693603,
+		bullet_ID = {
+			760077,
+			760078,
+			760079,
+			760080,
+			760081,
+			760082,
+			760083,
+			760084,
+			760085,
+			760086
+		},
+		barrage_ID = {
+			700010,
+			700011,
+			700012,
+			700013,
+			700014,
+			700015,
+			700016,
+			700017,
+			700018,
+			700019
+		}
+	}
+	uv0.weapon_property_327[693604] = {
+		range = 120,
+		damage = 18,
+		base = 1000,
+		name = "【2020信浓活动困难T4】BOSS 梦境塞壬潜伏者 红黑色上下排子母弹 III",
+		fire_fx = "",
+		action_index = "",
+		type = 2,
+		reload_max = 9999,
+		fire_sfx = "",
+		queue = 1,
+		id = 693604,
+		bullet_ID = {
+			760071,
+			760072
+		},
+		barrage_ID = {
+			770060,
+			770061
+		}
+	}
+	uv0.weapon_property_327[693605] = {
+		name = "【2020信浓活动困难T4】BOSS 梦境塞壬潜伏者 2x4自机狙鱼雷",
+		damage = 52,
+		base = 1001,
+		suppress = 1,
+		reload_max = 1000,
+		queue = 1,
+		id = 693605,
+		bullet_ID = {
+			700017
+		},
+		barrage_ID = {
+			700020
+		}
+	}
+	uv0.weapon_property_327[693606] = {
+		aim_type = 0,
+		name = "【2020信浓活动困难T4】BOSS 梦境塞壬潜伏者 开幕雷击",
+		damage = 44,
+		base = 1001,
+		reload_max = 1000,
+		queue = 1,
+		id = 693606,
+		bullet_ID = {
+			700018,
+			700018,
+			700018,
+			700019
+		},
+		barrage_ID = {
+			700021,
+			700022,
+			700023,
+			700024
+		}
+	}
+	uv0.weapon_property_327[693607] = {
+		aim_type = 0,
+		name = "【2020信浓活动困难T4】BOSS 梦境塞壬潜伏者 开幕雷击2 通常鱼雷",
+		damage = 44,
+		base = 1001,
+		reload_max = 1000,
+		queue = 1,
+		id = 693607,
+		bullet_ID = {
+			700018,
+			700018,
+			700019
+		},
+		barrage_ID = {
+			700021,
+			700023,
+			700025
+		}
+	}
+	uv0.weapon_property_327[693608] = {
+		reload_max = 2700,
+		damage = 44,
+		base = 1001,
+		id = 693608,
+		name = "【2020信浓活动困难T4】BOSS 梦境塞壬潜伏者 开幕雷击2 磁性鱼雷",
+		suppress = 1,
+		bullet_ID = {
+			700020
+		},
+		barrage_ID = {
+			700026
+		}
+	}
+	uv0.weapon_property_327[693609] = {
+		aim_type = 0,
+		range = 999,
+		damage = 44,
+		base = 1001,
+		name = "【2020信浓活动困难T4】BOSS 梦境塞壬潜伏者 开幕雷击3 竖排鱼雷",
+		reload_max = 1000,
+		queue = 1,
+		id = 693609,
+		bullet_ID = {
+			700126,
+			700126,
+			700126
+		},
+		barrage_ID = {
+			700140,
+			700141,
+			700142
+		}
+	}
+	uv0.weapon_property_327[693701] = {
+		aim_type = 1,
+		damage = 15,
+		base = 1000,
+		type = 2,
+		name = "【2020信浓活动困难T5】BOSS 拉菲1way黄色长时间自机狙",
+		suppress = 1,
+		reload_max = 600,
+		queue = 1,
+		id = 693701,
+		bullet_ID = {
+			920001
+		},
+		barrage_ID = {
+			920002
+		}
+	}
+	uv0.weapon_property_327[693702] = {
+		aim_type = 1,
+		damage = 15,
+		base = 1000,
+		type = 2,
+		name = "【2020信浓活动困难T5】BOSS 拉菲3way黄色长时间自机狙",
+		suppress = 1,
+		reload_max = 300,
+		queue = 1,
+		id = 693702,
+		bullet_ID = {
+			920002,
+			920003,
+			920004,
+			920002,
+			920003,
+			920004,
+			920002,
+			920003,
+			920004
+		},
+		barrage_ID = {
+			921001,
+			921002,
+			921003,
+			921004,
+			921005,
+			921006,
+			921007,
+			921008,
+			921009
+		}
+	}
+	uv0.weapon_property_327[693703] = {
+		aim_type = 1,
+		damage = 15,
+		base = 1000,
+		name = "【2020信浓活动困难T5】BOSS 拉菲4way蓝色自机狙",
+		suppress = 1,
+		reload_max = 450,
+		queue = 2,
+		id = 693703,
+		bullet_ID = {
+			920052,
+			920052,
+			920052,
+			920052
+		},
+		barrage_ID = {
+			920052,
+			920053,
+			920054,
+			920055
+		}
+	}
+	uv0.weapon_property_327[693704] = {
+		name = "【2020信浓活动困难T5】BOSS 拉菲会返回的红色子弹",
+		damage = 19,
+		base = 1000,
+		suppress = 1,
+		reload_max = 450,
+		queue = 3,
+		id = 693704,
+		bullet_ID = {
+			920053,
+			920053
+		},
+		barrage_ID = {
+			920056,
+			920057
+		}
+	}
+	uv0.weapon_property_327[693705] = {
+		aim_type = 1,
+		damage = 19,
+		base = 1000,
+		name = "【2020信浓活动困难T5】BOSS 拉菲环绕蓝色子弹",
+		suppress = 1,
+		reload_max = 450,
+		queue = 5,
+		id = 693705,
+		bullet_ID = {
+			760042
+		},
+		barrage_ID = {
+			920061
+		}
+	}
+	uv0.weapon_property_327[693706] = {
+		aim_type = 1,
+		range = 120,
+		damage = 14,
+		base = 1000,
+		name = "【2020信浓活动困难T5】BOSS 拉菲仿UUZ非符 2way弹幕",
+		type = 2,
+		suppress = 1,
+		reload_max = 300,
+		action_index = "",
+		fire_sfx = "",
+		queue = 1,
+		id = 693706,
+		bullet_ID = {
+			760031
+		},
+		barrage_ID = {
+			770036
+		}
+	}
+	uv0.weapon_property_327[693707] = {
+		aim_type = 1,
+		range = 120,
+		damage = 14,
+		base = 1000,
+		name = "【2020信浓活动困难T5】BOSS 拉菲仿UUZ非符 4way弹幕",
+		type = 2,
+		suppress = 1,
+		reload_max = 300,
+		action_index = "",
+		fire_sfx = "",
+		queue = 2,
+		id = 693707,
+		bullet_ID = {
+			760033,
+			760034
+		},
+		barrage_ID = {
+			770037,
+			770038
+		}
+	}
+	uv0.weapon_property_327[693708] = {
+		aim_type = 1,
+		range = 120,
+		damage = 14,
+		base = 1000,
+		name = "【2020信浓活动困难T5】BOSS 拉菲仿UUZ非符 5way弹幕",
+		type = 2,
+		suppress = 1,
+		reload_max = 300,
+		action_index = "",
+		fire_sfx = "",
+		queue = 3,
+		id = 693708,
+		bullet_ID = {
+			760036,
+			760037
+		},
+		barrage_ID = {
+			770039,
+			770040
+		}
+	}
+	uv0.weapon_property_327[693709] = {
+		aim_type = 1,
+		range = 120,
+		damage = 14,
+		base = 1000,
+		name = "【2020信浓活动困难T5】BOSS 拉菲仿UUZ非符 圆形扩散",
+		suppress = 1,
+		reload_max = 450,
+		fire_sfx = "",
+		id = 693709,
+		bullet_ID = {
+			760039,
+			760040,
+			760041
+		},
+		barrage_ID = {
+			770041,
+			770041,
+			770041
+		}
+	}
+	uv0.weapon_property_327[693710] = {
+		aim_type = 0,
+		name = "【2020信浓活动困难T5】BOSS 拉菲末尾双排鱼雷",
+		damage = 56,
+		base = 1001,
+		reload_max = 2400,
+		queue = 1,
+		id = 693710,
+		bullet_ID = {
+			750007,
+			1821
+		},
+		barrage_ID = {
+			770042,
+			770043
+		}
+	}
+	uv0.weapon_property_327[693801] = {
+		fire_fx = "",
+		name = "【2020信浓活动困难T6】BOSS 测试者 一形态第一波 浮游炮",
+		type = 11,
+		aim_type = 0,
+		fire_fx_loop_type = 1,
+		recover_time = 3,
+		initial_over_heat = 0,
+		reload_max = 100,
+		charge_param = "",
+		queue = 2,
+		action_index = "attack",
+		effect_move = 1,
+		shakescreen = 0,
+		attack_attribute = 4,
+		attack_attribute_ratio = 100,
+		range = 120,
+		damage = 18,
+		torpedo_ammo = 0,
+		expose = 0,
+		corrected = 100,
+		suppress = 0,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		id = 693801,
+		auto_aftercast = 0,
+		bullet_ID = {},
+		barrage_ID = {
+			760169
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_327[680154] = {
-		action_index = "",
+	uv0.weapon_property_327[693802] = {
+		fire_fx = "",
+		name = "【2020信浓活动困难T6】BOSS 测试者 一形态第一波 浮游炮",
+		type = 11,
+		aim_type = 0,
+		fire_fx_loop_type = 1,
+		recover_time = 3,
+		initial_over_heat = 0,
+		reload_max = 100,
+		charge_param = "",
+		queue = 3,
+		action_index = "attack",
+		effect_move = 1,
+		shakescreen = 0,
+		attack_attribute = 4,
+		attack_attribute_ratio = 100,
 		range = 120,
+		damage = 18,
+		torpedo_ammo = 0,
+		expose = 0,
+		corrected = 100,
+		suppress = 0,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		id = 693802,
+		auto_aftercast = 0,
+		bullet_ID = {},
+		barrage_ID = {
+			760170
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_327[693803] = {
+		aim_type = 1,
+		range = 120,
+		damage = 18,
+		base = 1000,
+		name = "【2020信浓活动困难T6】BOSS 测试者 浮游炮紫色扩散弹幕",
+		fire_fx = "",
+		suppress = 1,
+		reload_max = 9999,
 		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0,
+		fire_sfx = "",
+		queue = 1,
+		id = 693803,
+		action_index = "",
+		bullet_ID = {
+			760001,
+			760001,
+			760001,
+			760001
+		},
+		barrage_ID = {
+			770001,
+			770002,
+			770003,
+			770004
+		}
+	}
+	uv0.weapon_property_327[693804] = {
+		aim_type = 1,
+		range = 120,
+		damage = 18,
+		base = 1000,
+		name = "【2020信浓活动困难T6】BOSS 测试者 浮游炮蓝色自机狙",
+		fire_fx = "",
+		suppress = 1,
+		reload_max = 9999,
+		action_index = "",
+		fire_sfx = "",
+		queue = 2,
+		id = 693804,
+		bullet_ID = {
+			760002,
+			760002,
+			760002,
+			760002
+		},
+		barrage_ID = {
+			770005,
+			770006,
+			770007,
+			770008
+		}
+	}
+	uv0.weapon_property_327[693805] = {
+		range = 120,
+		damage = 20,
+		base = 1000,
+		name = "【2020信浓活动困难T6】BOSS 测试者 一形态第二波 蓝色扩散弹幕",
+		fire_fx = "",
+		action_index = "",
+		type = 2,
+		reload_max = 9999,
+		fire_sfx = "",
+		queue = 1,
+		id = 693805,
+		bullet_ID = {
+			760003,
+			760004,
+			760005
+		},
+		barrage_ID = {
+			770012,
+			770013,
+			770014
+		}
+	}
+	uv0.weapon_property_327[693806] = {
+		action_index = "attack",
+		range = 120,
+		type = 11,
+		fire_fx = "CLFire",
+		recover_time = 3,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动B3】BOSS 清除者 第三波 五way红色随机弹",
+		name = "【2020信浓活动困难T6】BOSS 测试者 一形态第二波 航母飞机海",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 6,
+		damage = 24,
 		corrected = 100,
 		min_range = 0,
-		id = 680154,
+		id = 693806,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 9999,
+		attack_attribute = 4,
+		reload_max = 100,
 		queue = 1,
 		search_type = 1,
-		effect_move = 0,
+		effect_move = 1,
 		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
-		bullet_ID = {
-			750102
-		},
+		bullet_ID = {},
 		barrage_ID = {
-			760174
+			770015
 		},
 		oxy_type = {
 			1
@@ -2613,49 +923,39 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_327[680155] = {
+	uv0.weapon_property_327[693807] = {
 		action_index = "attack",
 		range = 120,
-		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0,
+		type = 11,
+		fire_fx = "CLFire",
+		recover_time = 3,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动B3】BOSS 清除者 第三波 五way蓝色自机狙",
-		aim_type = 1,
+		name = "【2020信浓活动困难T6】BOSS 测试者 一形态第二波 航母飞机海",
+		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 6,
+		damage = 24,
 		corrected = 100,
 		min_range = 0,
-		id = 680155,
+		id = 693807,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 9999,
+		attack_attribute = 4,
+		reload_max = 100,
 		queue = 2,
 		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
+		effect_move = 1,
+		suppress = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
-		bullet_ID = {
-			750104,
-			750104,
-			750104,
-			750104,
-			750104
-		},
+		bullet_ID = {},
 		barrage_ID = {
-			760178,
-			760179,
-			760180,
-			760181,
-			760182
+			770015
 		},
 		oxy_type = {
 			1
@@ -2665,53 +965,39 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_327[680156] = {
+	uv0.weapon_property_327[693808] = {
 		action_index = "attack",
-		range = 999,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
+		range = 120,
+		type = 11,
+		fire_fx = "CLFire",
+		recover_time = 3,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动B3】BOSS 清除者 第四波 直线主炮跨射",
-		aim_type = 1,
+		name = "【2020信浓活动困难T6】BOSS 测试者 一形态第二波 航母飞机海",
+		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 32,
+		damage = 24,
 		corrected = 100,
-		min_range = 90,
-		id = 680156,
+		min_range = 0,
+		id = 693808,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 9999,
+		attack_attribute = 4,
+		reload_max = 100,
 		queue = 3,
 		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
+		effect_move = 1,
+		suppress = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
-		bullet_ID = {
-			690501,
-			690502,
-			690503,
-			690504,
-			690505,
-			690506,
-			690507
-		},
+		bullet_ID = {},
 		barrage_ID = {
-			690501,
-			690501,
-			690501,
-			690501,
-			690501,
-			690501,
-			690501
+			770015
 		},
 		oxy_type = {
 			1
@@ -2719,65 +1005,199 @@ function ()
 		search_condition = {
 			1
 		},
+		precast_param = {}
+	}
+	uv0.weapon_property_327[693809] = {
+		aim_type = 1,
+		range = 120,
+		damage = 16,
+		base = 1000,
+		name = "【2020信浓活动困难T6】BOSS 测试者 一形态第三波 扩散弹幕",
+		type = 2,
+		suppress = 1,
+		reload_max = 9999,
+		queue = 1,
+		id = 693809,
+		bullet_ID = {
+			594006
+		},
+		barrage_ID = {
+			595006
+		}
+	}
+	uv0.weapon_property_327[693810] = {
+		aim_type = 1,
+		range = 120,
+		damage = 16,
+		base = 1000,
+		name = "【2020信浓活动困难T6】BOSS 测试者 一形态第三波 扩散弹幕",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 9999,
+		type = 2,
+		fire_sfx = "battle/cannon-main",
+		queue = 2,
+		id = 693810,
+		bullet_ID = {
+			594101
+		},
+		barrage_ID = {
+			595101
+		}
+	}
+	uv0.weapon_property_327[693811] = {
+		range = 150,
+		damage = 48,
+		base = 1000,
+		type = 19,
+		fire_fx = "CAFire",
+		min_range = 75,
+		suppress = 1,
+		reload_max = 9999,
+		name = "【2020信浓活动困难T6】BOSS 测试者 一形态第二波 后排跨射",
+		fire_sfx = "battle/cannon-main",
+		aim_type = 1,
+		id = 693811,
+		bullet_ID = {
+			1530
+		},
+		barrage_ID = {
+			20017
+		},
 		precast_param = {
 			time = 1,
 			fx = "jinengenemy",
 			alertTime = 2
 		}
 	}
-	uv0.weapon_property_327[680157] = {
-		action_index = "attack",
-		range = 999,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B3】BOSS 清除者 第四波 直线主炮跨射",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 32,
-		corrected = 100,
-		min_range = 90,
-		id = 680157,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 9999,
-		queue = 4,
-		search_type = 1,
-		effect_move = 0,
+	uv0.weapon_property_327[693812] = {
+		range = 24,
+		damage = 52,
+		base = 1001,
+		name = "【2020信浓活动困难T6】BOSS 测试者 一形态第二波 航母飞机鱼雷",
 		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+		action_index = "",
+		reload_max = 9999,
+		queue = 1,
+		id = 693812,
 		bullet_ID = {
-			690508,
-			690509,
-			690510,
-			690511,
-			690512,
-			690513,
-			690514
+			10031
 		},
 		barrage_ID = {
-			690501,
-			690501,
-			690501,
-			690501,
-			690501,
-			690501,
-			690501
+			12001
 		},
 		oxy_type = {
 			1
+		}
+	}
+	uv0.weapon_property_327[693813] = {
+		aim_type = 1,
+		range = 120,
+		damage = 20,
+		base = 1000,
+		name = "【2020信浓活动困难T6】BOSS 测试者 二阶段黄色子母弹",
+		type = 2,
+		suppress = 1,
+		reload_max = 9999,
+		action_index = "skill",
+		fire_sfx = "",
+		queue = 1,
+		id = 693813,
+		bullet_ID = {
+			760014
 		},
-		search_condition = {
+		barrage_ID = {
+			770025
+		}
+	}
+	uv0.weapon_property_327[693814] = {
+		aim_type = 1,
+		range = 120,
+		damage = 28,
+		base = 1000,
+		name = "【2020信浓活动困难T6】BOSS 测试者 二阶段蓝色子弹扩散",
+		suppress = 1,
+		action_index = "skill2",
+		reload_max = 300,
+		fire_sfx = "",
+		queue = 1,
+		id = 693814,
+		bullet_ID = {
+			760025,
+			760026,
+			760027
+		},
+		barrage_ID = {
+			770028,
+			770028,
+			770028
+		}
+	}
+	uv0.weapon_property_327[693815] = {
+		aim_type = 1,
+		range = 120,
+		damage = 20,
+		base = 1000,
+		name = "【2020信浓活动困难T6】BOSS 测试者 二阶段紫色子母弹",
+		type = 2,
+		suppress = 1,
+		reload_max = 300,
+		action_index = "",
+		fire_sfx = "",
+		queue = 2,
+		id = 693815,
+		bullet_ID = {
+			760028,
+			760029
+		},
+		barrage_ID = {
+			770030,
+			770032
+		}
+	}
+	uv0.weapon_property_327[693816] = {
+		damage = 50,
+		base = 1001,
+		name = "【2020信浓活动困难T6】BOSS 测试者 二阶段三角形鱼雷弹幕",
+		action_index = "",
+		suppress = 1,
+		reload_max = 300,
+		queue = 3,
+		id = 693816,
+		bullet_ID = {
+			760160,
+			760162,
+			760164
+		},
+		barrage_ID = {
+			730076,
+			730078,
+			730080
+		},
+		oxy_type = {
 			1
+		}
+	}
+	uv0.weapon_property_327[693817] = {
+		aim_type = 1,
+		name = "【2020信浓活动困难T6】BOSS 测试者 二阶段前排跨射",
+		suppress = 1,
+		type = 19,
+		fire_fx = "CAFire",
+		fire_fx_loop_type = 1,
+		action_index = "",
+		reload_max = 300,
+		min_range = 20,
+		range = 80,
+		damage = 42,
+		base = 1000,
+		fire_sfx = "battle/cannon-main",
+		id = 693817,
+		bullet_ID = {
+			399988
+		},
+		barrage_ID = {
+			399912
 		},
 		precast_param = {
 			time = 1,
@@ -2785,59 +1205,174 @@ function ()
 			alertTime = 2
 		}
 	}
-	uv0.weapon_property_327[680158] = {
-		action_index = "attack",
-		range = 999,
+	uv0.weapon_property_327[693818] = {
+		aim_type = 1,
+		name = "【2020信浓活动困难T6】BOSS 测试者 二阶段后排跨射",
+		min_range = 80,
 		type = 19,
 		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动B3】BOSS 清除者 第四波 直线主炮跨射",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 32,
-		corrected = 100,
-		min_range = 90,
-		id = 680158,
-		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 9999,
+		action_index = "",
+		reload_max = 500,
 		queue = 5,
-		search_type = 1,
-		effect_move = 0,
+		range = 150,
+		damage = 52,
+		base = 1000,
 		suppress = 1,
-		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+		id = 693818,
 		bullet_ID = {
-			690515,
-			690516,
-			690517,
-			690518,
-			690519,
-			690520,
-			690521
+			1530
 		},
 		barrage_ID = {
-			690501,
-			690501,
-			690501,
-			690501,
-			690501,
-			690501,
-			690501
+			20017
 		},
-		oxy_type = {
-			1
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2
+		}
+	}
+	uv0.weapon_property_327[694601] = {
+		range = 120,
+		name = "【2020信浓活动SP】BOSS 测试者(过劳死) 第一波 横排黄色子弹",
+		damage = 20,
+		base = 1000,
+		fire_fx = "CAFire",
+		action_index = "",
+		reload_max = 9999,
+		queue = 1,
+		id = 694601,
+		bullet_ID = {
+			760043,
+			760043,
+			760043,
+			760043,
+			760043,
+			760043
 		},
-		search_condition = {
-			1
+		barrage_ID = {
+			770044,
+			770045,
+			770046,
+			770047,
+			770048,
+			770049
+		}
+	}
+	uv0.weapon_property_327[694602] = {
+		aim_type = 1,
+		range = 120,
+		damage = 28,
+		base = 1000,
+		name = "【2020信浓活动SP】BOSS 测试者(过劳死) 第一波 4way蓝色自机狙",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 9999,
+		type = 2,
+		action_index = "",
+		queue = 2,
+		id = 694602,
+		bullet_ID = {
+			760044,
+			760045,
+			760046,
+			760047,
+			760048
+		},
+		barrage_ID = {
+			770050,
+			770050,
+			770050,
+			770050,
+			770050
+		}
+	}
+	uv0.weapon_property_327[694603] = {
+		range = 120,
+		damage = 20,
+		base = 1000,
+		name = "【2020信浓活动SP】BOSS 测试者(过劳死) 第二波 紫圆球放出黄色子弹",
+		type = 2,
+		action_index = "skill",
+		reload_max = 9999,
+		fire_sfx = "",
+		queue = 1,
+		id = 694603,
+		bullet_ID = {
+			760049,
+			760049
+		},
+		barrage_ID = {
+			770051,
+			770053
+		}
+	}
+	uv0.weapon_property_327[694604] = {
+		range = 120,
+		damage = 20,
+		base = 1000,
+		name = "【2020信浓活动SP】BOSS 测试者(过劳死) 第二波 紫圆球放出红色子弹",
+		type = 2,
+		action_index = "skill",
+		reload_max = 9999,
+		fire_sfx = "",
+		queue = 2,
+		id = 694604,
+		bullet_ID = {
+			760050,
+			760050
+		},
+		barrage_ID = {
+			770051,
+			770053
+		}
+	}
+	uv0.weapon_property_327[694605] = {
+		range = 120,
+		name = "【2020信浓活动SP】BOSS 测试者(过劳死) 第三波 主炮扫射",
+		damage = 48,
+		base = 1000,
+		fire_fx = "CAFire",
+		action_index = "",
+		reload_max = 9999,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 694605,
+		bullet_ID = {
+			815,
+			815,
+			815,
+			815,
+			815
+		},
+		barrage_ID = {
+			690041,
+			690042,
+			690043,
+			690044,
+			690045
+		}
+	}
+	uv0.weapon_property_327[694606] = {
+		range = 150,
+		damage = 62,
+		base = 1000,
+		type = 19,
+		fire_fx = "CAFire",
+		min_range = 75,
+		suppress = 1,
+		reload_max = 9999,
+		name = "【2020信浓活动SP】BOSS 测试者(过劳死) 第三波 后排跨射",
+		fire_sfx = "battle/cannon-main",
+		queue = 2,
+		id = 694606,
+		aim_type = 1,
+		bullet_ID = {
+			1530
+		},
+		barrage_ID = {
+			20017
 		},
 		precast_param = {
 			time = 1,

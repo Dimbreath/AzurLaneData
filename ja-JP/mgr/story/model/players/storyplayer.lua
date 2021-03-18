@@ -1,5 +1,4 @@
 slot0 = class("StoryPlayer", import("..animation.StoryAnimtion"))
-slot1 = false
 
 function slot0.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0)
@@ -53,7 +52,7 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	if slot1:ShouldSkipAll() and slot4:ExistOption() and not slot1:IsPlayed() then
+	if slot1:ShouldSkipAll() and slot4:ExistOption() and not slot1:IsReView() then
 		slot1:StopSkip()
 	elseif slot1:ShouldSkipAll() then
 		slot3()
@@ -62,9 +61,18 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 	end
 
 	slot0.callback = slot3
+	slot0.step = slot4
+	slot0.autoNext = slot1:GetAutoPlayFlag()
+	slot0.isRegisterEvent = false
+
+	if slot0.autoNext and slot4:IsImport() then
+		slot0.autoNext = nil
+	end
+
+	slot0:SetTimeScale(1 - slot1:GetPlaySpeed() * 0.1)
+
 	slot5 = slot1:GetNextStep(slot2)
 	slot6 = slot1:GetPrevStep(slot2)
-	slot0.step = slot4
 
 	seriesAsync({
 		function (slot0)
@@ -95,10 +103,21 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 			}, slot0)
 		end,
 		function (slot0)
-			if uv0:ExistOption() then
-				uv1:InitBranches(uv2, uv0, slot0)
+			if uv1:ExistOption() then
+				uv0:InitBranches(uv2, uv1, slot0, function ()
+					uv0.isRegisterEvent = true
+
+					if uv0.autoNext then
+						uv0.autoNext = nil
+
+						uv0:DelayCall(0.1, function ()
+							uv0:TriggerEventAuto()
+						end)
+					end
+				end)
 			else
-				uv1:RegisetEvent(slot0)
+				uv0:RegisetEvent(slot0)
+				slot1()
 			end
 		end,
 		function (slot0)
@@ -138,11 +157,35 @@ function slot0.CanSkip(slot0)
 end
 
 function slot0.Next(slot0)
-	slot0.callback()
+	slot0.timeScale = 0.0001
+
+	if slot0.isRegisterEvent then
+		slot0:TriggerEventAuto()
+	else
+		slot0.autoNext = true
+	end
 end
 
-function slot0.InitBranches(slot0, slot1, slot2, slot3)
-	slot4 = false
+function slot0.NextImmediately(slot0)
+	if slot0.callback then
+		slot0.callback()
+	end
+
+	slot0.callback = nil
+end
+
+function slot0.TriggerEventAuto(slot0)
+	if slot0.step:ExistOption() then
+		if slot0.step:GetOptionIndexByAutoSel() ~= nil then
+			triggerButton(slot0.optionUIlist.container:GetChild(slot1 - 1):Find("content"))
+		end
+	else
+		triggerButton(slot0._go)
+	end
+end
+
+function slot0.InitBranches(slot0, slot1, slot2, slot3, slot4)
+	slot5 = false
 
 	slot0.optionUIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -166,7 +209,7 @@ function slot0.InitBranches(slot0, slot1, slot2, slot3)
 		uv0 = true
 
 		if uv1 then
-			triggerButton(uv2.optionUIlist.container:GetChild(0):Find("content"))
+			uv1()
 		end
 	end)
 end
@@ -283,15 +326,50 @@ function slot0.fadeTransform(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	end))
 end
 
+function slot0.setPaintingAlpha(slot0, slot1, slot2)
+	slot3 = {}
+	slot4 = {}
+
+	for slot9 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
+		slot11 = {
+			name = "_Color",
+			color = Color.white
+		}
+
+		if slot5[slot9].material.shader.name == "UI/GrayScale" then
+			slot11 = {
+				name = "_GrayScale",
+				color = Color.New(0.21176470588235294, 0.7137254901960784, 0.07058823529411765)
+			}
+		elseif slot10.material.shader.name == "UI/Line_Add_Blue" then
+			slot11 = {
+				name = "_GrayScale",
+				color = Color.New(1, 1, 1, 0.5882352941176471)
+			}
+		end
+
+		table.insert(slot4, slot11)
+
+		if slot10.material == slot10.defaultGraphicMaterial then
+			slot10.material = Material.Instantiate(slot10.defaultGraphicMaterial)
+		end
+
+		table.insert(slot3, slot10.material)
+	end
+
+	for slot9, slot10 in ipairs(slot3) do
+		if not IsNil(slot10) then
+			slot10:SetColor(slot4[slot9].name, slot4[slot9].color * Color.New(slot2, slot2, slot2))
+		end
+	end
+end
+
 function slot0.RegisetEvent(slot0, slot1)
+	setButtonEnabled(slot0._go, not slot0.autoNext)
 	onButton(slot0, slot0._go, function ()
 		removeOnButton(uv0._go)
 		uv1()
 	end, SFX_PANEL)
-
-	if uv0 then
-		triggerButton(slot0._go)
-	end
 end
 
 function slot0.flashEffect(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
@@ -502,7 +580,7 @@ function slot0.Clear(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 end
 
-function slot0.StoryStart(slot0)
+function slot0.StoryStart(slot0, slot1)
 	slot0:OnStart()
 end
 

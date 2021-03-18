@@ -2955,7 +2955,7 @@ No.7 駆逐艦「鞍山」
 		tip = "艦隊がまだ編成されていません"
 	},
 	world_fleet_choose = {
-		tip = "セイレーン作戦における戦闘はコンディションに影響せず、また、燃料も消費しません"
+		tip = "<color=#80e742>セイレーン作戦における戦闘はコンディションに影響せず、また、燃料も消費しません</color>"
 	},
 	world_fleet_formation_not_valid = {
 		tip = "$1を編成する必要があります"
@@ -3162,8 +3162,8 @@ No.7 駆逐艦「鞍山」
 		tip = {
 			{
 				info = [[
-<color=#92fc63>2020.12.22-2021.3.18</color>
-余燼戦・飛龍(META)が開催中です。余燼戦で解析Ptを集め、META艦船を手に入れましょう。
+<color=#92fc63>2021.3.18-2021.6.10</color>
+余燼戦・アーク・ロイヤル(META)が開催中です。余燼戦で解析Ptを集め、META艦船を手に入れましょう。
 （※<color=#ff5c5c>解析Pt並びに解析Pt累計獲得数報酬は開催期間終了後にリセットされます</color>）
 
 ■余燼戦について
@@ -5589,6 +5589,9 @@ No.7 駆逐艦「鞍山」
 	elite_condition_reload = {
 		tip = "装填合計"
 	},
+	elite_condition_fleet_totle_level = {
+		tip = "レベル合計が$1を超える艦隊"
+	},
 	common_compare_larger = {
 		tip = ">"
 	},
@@ -5597,6 +5600,12 @@ No.7 駆逐艦「鞍山」
 	},
 	common_compare_smaller = {
 		tip = "<"
+	},
+	common_compare_not_less_than = {
+		tip = "≥"
+	},
+	common_compare_not_more_than = {
+		tip = "≤"
 	},
 	level_scene_formation_active_already = {
 		tip = "陣形が変更されました"
@@ -7158,7 +7167,7 @@ No.7 駆逐艦「鞍山」
 		tip = "<color=#92fc63>$1</color>クリアで参加可能"
 	},
 	ship_limit_notice = {
-		tip = "潜水艦ステータスが含まれない"
+		tip = "*潜水艦ステータスが含まれない"
 	},
 	idle = {
 		tip = "待機"
@@ -9414,7 +9423,7 @@ Pt」が加算されます。
 す。]]
 			},
 			{
-				info = "  作戦進捗7/30までは１日１回進行させることができ、\nまた7/25以降は前日分を進行させることができます。"
+				info = "  作戦進捗3/24までは１日１回進行させることができ、\nまた3/19以降は前日分を進行させることができます。"
 			},
 			{
 				info = [[
@@ -11858,7 +11867,7 @@ GET!
 		tip = "開発加速では、「戦術データパック」を開発任務「戦術データ収集」の蓄積経験値に変換することができます。\n「戦術データパック」は「任務」などで入手することが出来ます。"
 	},
 	click_back_tip = {
-		tip = "タップで戻る"
+		tip = "画面タップで戻る"
 	},
 	tech_catchup_sentence_pauses = {
 		tip = "――"
@@ -13661,7 +13670,7 @@ GET!
 ・解析Ptを一定数貯めると、「META艦船」を入手する場合があります。
 ・「META」艦船が入手済みの状態では、艦船の操作画面で「情報解析」で解析Pt関連の情報を確認することが出来ます。
 
-※<color=#92fc63>2020.12.22-2021.3.18</color>飛龍(META)余燼戦開放期間は「飛龍・META」の解析Ptを入手できます。
+※<color=#92fc63>2021.3.18-2021.6.10</color>アーク・ロイヤル(META)余燼戦開放期間は「アーク・ロイヤル・META」の解析Ptを入手できます。
  解析PtおよびかいせきPt累計入手数報酬は開催期間終了後にリセットされます。
 
 ■「META」艦船の艤装強化について
@@ -13863,6 +13872,9 @@ EN補給箱・小×45
 	levelScene_select_noitem = {
 		tip = "消費アイテムがありません"
 	},
+	story_setting_label = {
+		tip = "オートページ送りスピード"
+	},
 	login_arrears_tips = {
 		tip = "不正な支払い（払い戻し）情報が確認されました。下記のサーバーにのみログインできます：【$1】"
 	},
@@ -13895,5 +13907,20 @@ EN補給箱・小×45
 	},
 	Supplement_pay8 = {
 		tip = "残り $1"
+	},
+	world_battle_damage = {
+		tip = "<color=#ff5c5c>戦闘損傷状態</color>は整備オーダーか港の修理で解除できます"
+	},
+	setting_story_speed_1 = {
+		tip = "遅い"
+	},
+	setting_story_speed_2 = {
+		tip = "普通"
+	},
+	setting_story_speed_3 = {
+		tip = "速い"
+	},
+	setting_story_speed_4 = {
+		tip = "非常に速い"
 	}
 }

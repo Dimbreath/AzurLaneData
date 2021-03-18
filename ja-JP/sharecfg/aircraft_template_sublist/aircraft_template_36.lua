@@ -1,107 +1,38 @@
 pg = pg or {}
 pg.aircraft_template_36 = {
-	[18186] = {
-		id = 18186,
-		base = 18180,
-		max_hp = 77,
-		hp_growth = 2969,
+	[18233] = {
+		id = 18233,
+		base = 18220,
+		max_hp = 163,
+		hp_growth = 6280,
 		weapon_ID = {
-			50046,
-			59646
+			59753,
+			51253
 		}
 	},
-	[18187] = {
-		id = 18187,
-		base = 18180,
-		max_hp = 83,
-		hp_growth = 3204,
-		weapon_ID = {
-			50047,
-			59647
-		}
-	},
-	[18188] = {
-		id = 18188,
-		base = 18180,
-		max_hp = 89,
-		hp_growth = 3438,
-		weapon_ID = {
-			50048,
-			59648
-		}
-	},
-	[18189] = {
-		id = 18189,
-		base = 18180,
-		max_hp = 95,
-		hp_growth = 3673,
-		weapon_ID = {
-			50049,
-			59649
-		}
-	},
-	[18190] = {
-		id = 18190,
-		base = 18180,
-		max_hp = 102,
-		hp_growth = 3907,
-		weapon_ID = {
-			50050,
-			59650
-		}
-	},
-	[18191] = {
-		id = 18191,
-		base = 18180,
-		max_hp = 108,
-		hp_growth = 4141,
-		weapon_ID = {
-			50051,
-			59651
-		}
-	},
-	[18192] = {
-		id = 18192,
-		base = 18180,
-		max_hp = 114,
-		hp_growth = 4376,
-		weapon_ID = {
-			50052,
-			59652
-		}
-	},
-	[18193] = {
-		id = 18193,
-		base = 18180,
-		max_hp = 120,
-		hp_growth = 4610,
-		weapon_ID = {
-			50053,
-			59653
-		}
-	},
-	[18200] = {
-		name = "TBM复仇者(VT-18中队)",
-		max_hp = 41,
+	[19000] = {
+		name = "SBD-3无畏",
+		max_hp = 31,
 		accuracy = 23,
-		model_ID = "tbmvt-18",
+		model_ID = "sbdwuwei",
 		ACC_growth = 0,
-		crash_DMG = 300,
-		dodge = 1.05,
+		crash_DMG = 156,
+		dodge = 3.75,
 		attack_power = 2,
-		dodge_limit = 6,
-		type = 2,
+		dodge_limit = 0.8,
+		type = 3,
 		AP_growth = 2000,
-		icon = "tbmvt-18",
+		icon = "sbdwuwei",
 		funnel_behavior = "",
 		nationality = 1,
-		hp_growth = 1563,
-		speed = 48,
-		id = 18200,
+		hp_growth = 1183,
+		speed = 45,
+		id = 19000,
 		scale = 1,
 		weapon_ID = {
-			50040,
-			59620
+			50700,
+			52900,
+			52100
 		},
 		position_offset = {
 			0,
@@ -144,8 +75,226 @@ pg.aircraft_template_36 = {
 				0
 			},
 			{
-				0.15,
-				-0.08,
+				0.72,
+				-0.15,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[19001] = {
+		id = 19001,
+		base = 19000,
+		max_hp = 35,
+		hp_growth = 1360,
+		weapon_ID = {
+			50701,
+			52901,
+			52101
+		}
+	},
+	[19002] = {
+		id = 19002,
+		base = 19000,
+		max_hp = 40,
+		hp_growth = 1538,
+		weapon_ID = {
+			50702,
+			52902,
+			52102
+		}
+	},
+	[19003] = {
+		id = 19003,
+		base = 19000,
+		max_hp = 45,
+		hp_growth = 1715,
+		weapon_ID = {
+			50703,
+			52903,
+			52103
+		}
+	},
+	[19020] = {
+		name = "SBD-3无畏",
+		max_hp = 35,
+		accuracy = 23,
+		model_ID = "sbdwuwei",
+		ACC_growth = 0,
+		crash_DMG = 156,
+		dodge = 3.63,
+		attack_power = 2,
+		dodge_limit = 0.9,
+		type = 3,
+		AP_growth = 2000,
+		icon = "sbdwuwei",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1331,
+		speed = 45,
+		id = 19020,
+		scale = 1,
+		weapon_ID = {
+			50720,
+			52920,
+			52120
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[19021] = {
+		id = 19021,
+		base = 19020,
+		max_hp = 40,
+		hp_growth = 1530,
+		weapon_ID = {
+			50721,
+			52921,
+			52121
+		}
+	},
+	[19022] = {
+		id = 19022,
+		base = 19020,
+		max_hp = 45,
+		hp_growth = 1730,
+		weapon_ID = {
+			50722,
+			52922,
+			52122
+		}
+	},
+	[19023] = {
+		id = 19023,
+		base = 19020,
+		max_hp = 50,
+		hp_growth = 1929,
+		weapon_ID = {
+			50723,
+			52923,
+			52123
+		}
+	},
+	[19040] = {
+		name = "SBD-3无畏",
+		max_hp = 38,
+		accuracy = 23,
+		model_ID = "sbdwuwei",
+		ACC_growth = 0,
+		crash_DMG = 156,
+		dodge = 3.51,
+		attack_power = 2,
+		dodge_limit = 1,
+		type = 3,
+		AP_growth = 2000,
+		icon = "sbdwuwei",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1478,
+		speed = 45,
+		id = 19040,
+		scale = 1,
+		weapon_ID = {
+			50740,
+			52940,
+			52140
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
 				0
 			},
 			{

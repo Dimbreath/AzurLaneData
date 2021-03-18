@@ -300,6 +300,306 @@ pg.world_boss_level = {
 			}
 		}
 	},
+	{
+		hp = 50000,
+		enemy_id = 295016,
+		expedition_id = 296016,
+		id = 16,
+		drop_show_self = {
+			{
+				1,
+				3003,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3003,
+				100
+			}
+		}
+	},
+	{
+		hp = 54000,
+		enemy_id = 295017,
+		expedition_id = 296017,
+		id = 17,
+		drop_show_self = {
+			{
+				1,
+				3003,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3003,
+				100
+			}
+		}
+	},
+	{
+		hp = 58000,
+		enemy_id = 295018,
+		expedition_id = 296018,
+		id = 18,
+		drop_show_self = {
+			{
+				1,
+				3003,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3003,
+				100
+			}
+		}
+	},
+	{
+		hp = 70000,
+		enemy_id = 295019,
+		expedition_id = 296019,
+		id = 19,
+		drop_show_self = {
+			{
+				1,
+				3003,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3003,
+				100
+			}
+		}
+	},
+	{
+		hp = 110000,
+		enemy_id = 295020,
+		expedition_id = 296020,
+		id = 20,
+		drop_show_self = {
+			{
+				1,
+				3003,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3003,
+				100
+			}
+		}
+	},
+	{
+		hp = 150000,
+		enemy_id = 295021,
+		expedition_id = 296021,
+		id = 21,
+		drop_show_self = {
+			{
+				1,
+				3003,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3003,
+				100
+			}
+		}
+	},
+	{
+		hp = 230000,
+		enemy_id = 295022,
+		expedition_id = 296022,
+		id = 22,
+		drop_show_self = {
+			{
+				1,
+				3003,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3003,
+				100
+			}
+		}
+	},
+	{
+		hp = 310000,
+		enemy_id = 295023,
+		expedition_id = 296023,
+		id = 23,
+		drop_show_self = {
+			{
+				1,
+				3003,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3003,
+				100
+			}
+		}
+	},
+	{
+		hp = 390000,
+		enemy_id = 295024,
+		expedition_id = 296024,
+		id = 24,
+		drop_show_self = {
+			{
+				1,
+				3003,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3003,
+				100
+			}
+		}
+	},
+	{
+		hp = 480000,
+		enemy_id = 295025,
+		expedition_id = 296025,
+		id = 25,
+		drop_show_self = {
+			{
+				1,
+				3003,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3003,
+				100
+			}
+		}
+	},
+	{
+		hp = 600000,
+		enemy_id = 295026,
+		expedition_id = 296026,
+		id = 26,
+		drop_show_self = {
+			{
+				1,
+				3003,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3003,
+				100
+			}
+		}
+	},
+	{
+		hp = 760000,
+		enemy_id = 295027,
+		expedition_id = 296027,
+		id = 27,
+		drop_show_self = {
+			{
+				1,
+				3003,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3003,
+				100
+			}
+		}
+	},
+	{
+		hp = 950000,
+		enemy_id = 295028,
+		expedition_id = 296028,
+		id = 28,
+		drop_show_self = {
+			{
+				1,
+				3003,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3003,
+				100
+			}
+		}
+	},
+	{
+		hp = 1170000,
+		enemy_id = 295029,
+		expedition_id = 296029,
+		id = 29,
+		drop_show_self = {
+			{
+				1,
+				3003,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3003,
+				100
+			}
+		}
+	},
+	{
+		hp = 1420000,
+		enemy_id = 295030,
+		expedition_id = 296030,
+		id = 30,
+		drop_show_self = {
+			{
+				1,
+				3003,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3003,
+				100
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -315,6 +615,21 @@ pg.world_boss_level = {
 		12,
 		13,
 		14,
-		15
+		15,
+		16,
+		17,
+		18,
+		19,
+		20,
+		21,
+		22,
+		23,
+		24,
+		25,
+		26,
+		27,
+		28,
+		29,
+		30
 	}
 }

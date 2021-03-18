@@ -1,25 +1,38 @@
 pg = pg or {}
 pg.aircraft_template_190 = {
-	[68541] = {
-		name = "伊25技能零侦LV1",
-		max_hp = 42,
+	[69760] = {
+		max_hp = 87,
+		name = "鹰技能剑鱼 Lv10",
+		base = 69751,
+		id = 69760,
+		hp_growth = 3344,
+		weapon_ID = {
+			69780
+		}
+	},
+	[69921] = {
+		name = "信浓技能试制紫电改二 LV1",
+		max_hp = 40,
 		accuracy = 23,
-		model_ID = "glen",
+		model_ID = "shizhizidiangaier",
 		ACC_growth = 0,
-		crash_DMG = 208,
-		dodge = 1,
+		crash_DMG = 162,
+		dodge = 0.297,
 		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
+		dodge_limit = 10,
+		type = 1,
 		AP_growth = 2000,
-		icon = "glen",
+		icon = "shizhizidiangaier",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1615,
-		speed = 66,
-		id = 68541,
+		hp_growth = 1532,
+		speed = 60,
+		id = 69921,
 		scale = 1,
-		weapon_ID = {},
+		weapon_ID = {
+			59541,
+			69961
+		},
 		position_offset = {
 			0,
 			5,
@@ -38,13 +51,13 @@ pg.aircraft_template_190 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -61,7 +74,7 @@ pg.aircraft_template_190 = {
 				0
 			},
 			{
-				0.64,
+				0.51,
 				0,
 				0
 			},
@@ -72,68 +85,92 @@ pg.aircraft_template_190 = {
 			}
 		}
 	},
-	[68542] = {
-		max_hp = 48,
-		name = "伊25技能零侦LV2",
-		base = 68541,
-		id = 68542,
-		hp_growth = 1826,
-		weapon_ID = {}
+	[69922] = {
+		max_hp = 46,
+		name = "信浓技能试制紫电改二 LV2",
+		base = 69921,
+		id = 69922,
+		hp_growth = 1762,
+		weapon_ID = {
+			59542,
+			69962
+		}
 	},
-	[68543] = {
-		max_hp = 54,
-		name = "伊25技能零侦LV3",
-		base = 68541,
-		id = 68543,
-		hp_growth = 2036,
-		weapon_ID = {}
+	[69923] = {
+		max_hp = 52,
+		name = "信浓技能试制紫电改二 LV3",
+		base = 69921,
+		id = 69923,
+		hp_growth = 1992,
+		weapon_ID = {
+			59543,
+			69963
+		}
 	},
-	[68544] = {
-		max_hp = 61,
-		name = "伊25技能零侦LV4",
-		base = 68541,
-		id = 68544,
-		hp_growth = 2247,
-		weapon_ID = {}
+	[69924] = {
+		max_hp = 58,
+		name = "信浓技能试制紫电改二 LV4",
+		base = 69921,
+		id = 69924,
+		hp_growth = 2222,
+		weapon_ID = {
+			59544,
+			69964
+		}
 	},
-	[68545] = {
-		max_hp = 67,
-		name = "伊25技能零侦LV5",
-		base = 68541,
-		id = 68545,
-		hp_growth = 2458,
-		weapon_ID = {}
+	[69925] = {
+		max_hp = 64,
+		name = "信浓技能试制紫电改二 LV5",
+		base = 69921,
+		id = 69925,
+		hp_growth = 2451,
+		weapon_ID = {
+			59545,
+			69965
+		}
 	},
-	[68546] = {
-		max_hp = 73,
-		name = "伊25技能零侦LV6",
-		base = 68541,
-		id = 68546,
-		hp_growth = 2669,
-		weapon_ID = {}
+	[69926] = {
+		max_hp = 70,
+		name = "信浓技能试制紫电改二 LV6",
+		base = 69921,
+		id = 69926,
+		hp_growth = 2681,
+		weapon_ID = {
+			59546,
+			69966
+		}
 	},
-	[68547] = {
-		max_hp = 79,
-		name = "伊25技能零侦LV7",
-		base = 68541,
-		id = 68547,
-		hp_growth = 2879,
-		weapon_ID = {}
+	[69927] = {
+		max_hp = 76,
+		name = "信浓技能试制紫电改二 LV7",
+		base = 69921,
+		id = 69927,
+		hp_growth = 2911,
+		weapon_ID = {
+			59547,
+			69967
+		}
 	},
-	[68548] = {
-		max_hp = 86,
-		name = "伊25技能零侦LV8",
-		base = 68541,
-		id = 68548,
-		hp_growth = 3090,
-		weapon_ID = {}
+	[69928] = {
+		max_hp = 82,
+		name = "信浓技能试制紫电改二 LV8",
+		base = 69921,
+		id = 69928,
+		hp_growth = 3141,
+		weapon_ID = {
+			59548,
+			69968
+		}
 	},
-	[68549] = {
-		max_hp = 92,
-		name = "伊25技能零侦LV9",
-		base = 68541,
-		id = 68549,
-		hp_growth = 3301,
-		weapon_ID = {}
+	[69929] = {
+		max_hp = 88,
+		name = "信浓技能试制紫电改二 LV9",
+		base = 69921,
+		id = 69929,
+		hp_growth = 3371,
+		weapon_ID = {
+			59549,
+			69969
+		}
 	}
 }

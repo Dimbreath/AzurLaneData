@@ -1,37 +1,28 @@
 pg = pg or {}
 pg.aircraft_template_101 = {
-	[37330] = {
-		id = 37330,
-		base = 37320,
-		max_hp = 91,
-		hp_growth = 3511,
-		weapon_ID = {
-			59530,
-			52330
-		}
-	},
-	[37340] = {
-		name = "烈风",
-		max_hp = 40,
+	[38160] = {
+		name = "天山改",
+		max_hp = 33,
 		accuracy = 23,
-		model_ID = "liefeng",
+		model_ID = "tianshanGai",
 		ACC_growth = 0,
-		crash_DMG = 162,
-		dodge = 0.297,
+		crash_DMG = 168,
+		dodge = 1.11,
 		attack_power = 2,
-		dodge_limit = 10,
-		type = 1,
+		dodge_limit = 6,
+		type = 2,
 		AP_growth = 2000,
-		icon = "liefeng",
+		icon = "tianshanGai",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1532,
-		speed = 60,
-		id = 37340,
+		hp_growth = 1271,
+		speed = 48,
+		id = 38160,
 		scale = 1,
 		weapon_ID = {
-			59540,
-			52340
+			50840,
+			59720,
+			51460
 		},
 		position_offset = {
 			0,
@@ -51,13 +42,13 @@ pg.aircraft_template_101 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.98,
+					-1.19,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.99,
+					1.58,
 					0
 				}
 			}
@@ -74,7 +65,7 @@ pg.aircraft_template_101 = {
 				0
 			},
 			{
-				0.51,
+				0.58,
 				0,
 				0
 			},
@@ -85,74 +76,103 @@ pg.aircraft_template_101 = {
 			}
 		}
 	},
-	[37341] = {
-		id = 37341,
-		base = 37340,
-		max_hp = 46,
-		hp_growth = 1762,
+	[38161] = {
+		id = 38161,
+		base = 38160,
+		max_hp = 38,
+		hp_growth = 1461,
 		weapon_ID = {
-			59541,
-			52341
+			50841,
+			59721,
+			51461
 		}
 	},
-	[37342] = {
-		id = 37342,
-		base = 37340,
-		max_hp = 52,
-		hp_growth = 1992,
+	[38162] = {
+		id = 38162,
+		base = 38160,
+		max_hp = 43,
+		hp_growth = 1652,
 		weapon_ID = {
-			59542,
-			52342
+			50842,
+			59722,
+			51462
 		}
 	},
-	[37343] = {
-		id = 37343,
-		base = 37340,
+	[38163] = {
+		id = 38163,
+		base = 38160,
+		max_hp = 48,
+		hp_growth = 1843,
+		weapon_ID = {
+			50843,
+			59723,
+			51463
+		}
+	},
+	[38164] = {
+		id = 38164,
+		base = 38160,
+		max_hp = 53,
+		hp_growth = 2033,
+		weapon_ID = {
+			50844,
+			59724,
+			51464
+		}
+	},
+	[38165] = {
+		id = 38165,
+		base = 38160,
 		max_hp = 58,
-		hp_growth = 2222,
+		hp_growth = 2224,
 		weapon_ID = {
-			59543,
-			52343
+			50845,
+			59725,
+			51465
 		}
 	},
-	[37344] = {
-		id = 37344,
-		base = 37340,
-		max_hp = 64,
-		hp_growth = 2451,
+	[38166] = {
+		id = 38166,
+		base = 38160,
+		max_hp = 63,
+		hp_growth = 2414,
 		weapon_ID = {
-			59544,
-			52344
+			50846,
+			59726,
+			51466
 		}
 	},
-	[37345] = {
-		id = 37345,
-		base = 37340,
-		max_hp = 70,
-		hp_growth = 2681,
+	[38167] = {
+		id = 38167,
+		base = 38160,
+		max_hp = 68,
+		hp_growth = 2605,
 		weapon_ID = {
-			59545,
-			52345
+			50847,
+			59727,
+			51467
 		}
 	},
-	[37346] = {
-		id = 37346,
-		base = 37340,
-		max_hp = 76,
-		hp_growth = 2911,
+	[38168] = {
+		id = 38168,
+		base = 38160,
+		max_hp = 73,
+		hp_growth = 2796,
 		weapon_ID = {
-			59546,
-			52346
+			50848,
+			59728,
+			51468
 		}
 	},
-	[37347] = {
-		id = 37347,
-		base = 37340,
-		max_hp = 82,
-		hp_growth = 3141,
+	[38169] = {
+		id = 38169,
+		base = 38160,
+		max_hp = 78,
+		hp_growth = 2986,
 		weapon_ID = {
-			59547,
-			52347
+			50849,
+			59729,
+			51469
 		}
 	}
 }

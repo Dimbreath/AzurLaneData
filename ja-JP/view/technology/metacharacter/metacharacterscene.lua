@@ -221,9 +221,11 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 
 	function slot4()
-		uv0.isMainOpenLayerTag = true
+		if not isActive(uv0.synBtnLock) then
+			uv0.isMainOpenLayerTag = true
 
-		uv0:switchPage(uv1.PAGES.SYN)
+			uv0:switchPage(uv1.PAGES.SYN)
+		end
 	end
 
 	slot5 = SFX_PANEL
@@ -286,6 +288,15 @@ function slot0.updateBannerTF(slot0, slot1, slot2, slot3)
 	slot6 = slot0:findTF("WillCome", slot5)
 	slot7 = slot0:findTF("Empty", slot5)
 	slot8 = slot0:findTF("Active", slot5)
+
+	if slot1 then
+		slot9 = slot1:isInAct()
+
+		setActive(slot0:findTF("ActType/Tag", slot7), slot9)
+		setActive(slot0:findTF("BuildType/Tag", slot7), slot9)
+		setActive(slot0:findTF("ActType/Tag", slot8), slot9)
+		setActive(slot0:findTF("BuildType/Tag", slot8), slot9)
+	end
 
 	if slot1 then
 		slot10 = Ship.New({
@@ -357,15 +368,14 @@ function slot0.updateBannerTF(slot0, slot1, slot2, slot3)
 			end)
 			slot22:align(slot17:getMaxStar())
 		else
-			slot12 = slot0:findTF("Active/ActType", slot5)
 			slot13 = slot0:findTF("Active/BuildType", slot5)
 
-			setActive(slot12, slot10)
+			setActive(slot0:findTF("Active/ActType", slot5), slot10)
 			setActive(slot13, slot11)
 
 			slot14, slot15 = slot1:getBannerPathAndName()
 
-			setImageSprite(slot12, LoadSprite(slot14, slot15))
+			setImageSprite(slot0:findTF("Active", slot5), LoadSprite(slot14, slot15))
 			setImageSprite(slot13, LoadSprite(slot14, slot15))
 
 			slot17 = slot1:getShip():getMetaCharacter()
@@ -467,11 +477,22 @@ function slot0.updateMain(slot0, slot1)
 
 	slot4, slot5 = slot2:getPaintPathAndName()
 
-	setImageSprite(slot0.shipImg, LoadSprite(slot4, slot5))
+	setImageSprite(slot0.shipImg, LoadSprite(slot4, slot5), true)
 
 	slot6, slot7 = slot2:getBGNamePathAndName()
 
-	setImageSprite(slot0.shipNameImg, LoadSprite(slot6, slot7))
+	setImageSprite(slot0.shipNameImg, LoadSprite(slot6, slot7), true)
+
+	slot7 = MetaCharacterConst.UIConfig[slot2.id]
+
+	setLocalPosition(slot0.shipImg, {
+		x = slot7[1],
+		y = slot7[2]
+	})
+	setLocalScale(slot0.shipImg, {
+		x = slot7[3],
+		y = slot7[4]
+	})
 end
 
 function slot0.TryPlayGuide(slot0)
@@ -483,6 +504,7 @@ function slot0.updateActTimePanel(slot0)
 	slot3 = slot1:isInAct()
 
 	setActive(slot0.actTimePanel, not slot1:isUnlocked() and slot3)
+	setActive(slot0.synBtnLimitTimeTF, slot3)
 
 	if slot3 then
 		slot4 = slot1.metaAct:getConfig("time")[2][1]
@@ -674,7 +696,7 @@ end
 
 function slot0.backFromNotRepair(slot0)
 	setActive(slot0.menuPanel, false)
-	slot0:managedTween(LeanTween.moveX, nil, rtf(slot0.shipImg), 29, 0.3):setFrom(-250):setOnComplete(System.Action(function ()
+	slot0:managedTween(LeanTween.moveX, nil, rtf(slot0.shipImg), MetaCharacterConst.UIConfig[slot0:getCurMetaProgressVO().id][1], 0.3):setFrom(-250):setOnComplete(System.Action(function ()
 		GetComponent(uv0.menuPanel, "Animator").enabled = true
 
 		setActive(uv0.menuPanel, true)

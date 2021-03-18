@@ -1,167 +1,103 @@
 pg = pg or {}
 pg.aircraft_template_45 = {
-	[19144] = {
-		id = 19144,
-		base = 19140,
-		max_hp = 68,
-		hp_growth = 2602,
-		weapon_ID = {
-			50744,
-			52944,
-			52344
-		}
-	},
-	[19145] = {
-		id = 19145,
-		base = 19140,
+	[19244] = {
+		id = 19244,
+		base = 19240,
 		max_hp = 74,
-		hp_growth = 2846,
+		hp_growth = 2839,
 		weapon_ID = {
-			50745,
-			52945,
-			52345
+			50544,
+			52844
 		}
 	},
-	[19146] = {
-		id = 19146,
-		base = 19140,
-		max_hp = 80,
-		hp_growth = 3090,
+	[19245] = {
+		id = 19245,
+		base = 19240,
+		max_hp = 81,
+		hp_growth = 3105,
 		weapon_ID = {
-			50746,
-			52946,
-			52346
+			50545,
+			52845
 		}
 	},
-	[19147] = {
-		id = 19147,
-		base = 19140,
-		max_hp = 87,
-		hp_growth = 3334,
+	[19246] = {
+		id = 19246,
+		base = 19240,
+		max_hp = 88,
+		hp_growth = 3371,
 		weapon_ID = {
-			50747,
-			52947,
-			52347
+			50546,
+			52846
 		}
 	},
-	[19148] = {
-		id = 19148,
-		base = 19140,
-		max_hp = 93,
-		hp_growth = 3578,
+	[19247] = {
+		id = 19247,
+		base = 19240,
+		max_hp = 95,
+		hp_growth = 3637,
 		weapon_ID = {
-			50748,
-			52948,
-			52348
+			50547,
+			52847
 		}
 	},
-	[19149] = {
-		id = 19149,
-		base = 19140,
-		max_hp = 99,
-		hp_growth = 3822,
+	[19248] = {
+		id = 19248,
+		base = 19240,
+		max_hp = 101,
+		hp_growth = 3903,
 		weapon_ID = {
-			50749,
-			52949,
-			52349
+			50548,
+			52848
 		}
 	},
-	[19150] = {
-		id = 19150,
-		base = 19140,
-		max_hp = 106,
-		hp_growth = 4066,
+	[19249] = {
+		id = 19249,
+		base = 19240,
+		max_hp = 108,
+		hp_growth = 4169,
 		weapon_ID = {
-			50750,
-			52950,
-			52350
+			50549,
+			52849
 		}
 	},
-	[19151] = {
-		id = 19151,
-		base = 19140,
-		max_hp = 112,
-		hp_growth = 4310,
+	[19250] = {
+		id = 19250,
+		base = 19240,
+		max_hp = 115,
+		hp_growth = 4435,
 		weapon_ID = {
-			50751,
-			52951,
-			52351
+			50550,
+			52850
 		}
 	},
-	[19160] = {
-		name = "实验型XSB3C-1",
-		max_hp = 50,
-		accuracy = 23,
-		model_ID = "XSB3C1",
-		ACC_growth = 0,
-		crash_DMG = 200,
-		dodge = 3.15,
-		attack_power = 2,
-		dodge_limit = 1.5,
-		type = 3,
-		AP_growth = 2000,
-		icon = "XSB3C1",
-		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1916,
-		speed = 45,
-		id = 19160,
-		scale = 1,
+	[19251] = {
+		id = 19251,
+		base = 19240,
+		max_hp = 122,
+		hp_growth = 4701,
 		weapon_ID = {
-			50640,
-			52940,
-			52340
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.88,
-					-1.34,
-					0
-				},
-				{
-					0.93,
-					1.44,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
+			50551,
+			52851
+		}
+	},
+	[19252] = {
+		id = 19252,
+		base = 19240,
+		max_hp = 129,
+		hp_growth = 4967,
+		weapon_ID = {
+			50552,
+			52852
+		}
+	},
+	[19253] = {
+		id = 19253,
+		base = 19240,
+		max_hp = 136,
+		hp_growth = 5234,
+		weapon_ID = {
+			50553,
+			52853
 		}
 	}
 }

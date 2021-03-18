@@ -1,5 +1,54 @@
 pg = pg or {}
 pg.enemy_data_statistics_129 = {
+	[10043504] = {
+		cannon = 300,
+		name = "ヤマシロ改",
+		hit_growth = 210,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 250,
+		antisub = 0,
+		armor = 0,
+		rarity = 5,
+		antiaircraft = 760,
+		dodge_growth = 60,
+		star = 6,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 246,
+		durability = 94000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 20,
+		luck = 0,
+		id = 10043504,
+		cannon_growth = 0,
+		reload = 150,
+		dodge = 4,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			512138,
+			512140,
+			512141,
+			512142,
+			512143,
+			512144
+		},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 3
+			}
+		}
+	},
 	[10044001] = {
 		cannon = 5,
 		name = "量産型ユウグモ級",
@@ -618,48 +667,6 @@ pg.enemy_data_statistics_129 = {
 			100205,
 			100506,
 			100406
-		}
-	},
-	[10044016] = {
-		cannon = 60,
-		name = "タニカゼ",
-		hit_growth = 210,
-		speed_growth = 0,
-		antiaircraft_growth = 1557,
-		air = 0,
-		antisub = 0,
-		armor = 0,
-		rarity = 3,
-		antiaircraft = 140,
-		dodge_growth = 210,
-		star = 3,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 174,
-		durability = 1800,
-		armor_growth = 0,
-		torpedo_growth = 6000,
-		speed = 32,
-		luck = 0,
-		id = 10044016,
-		cannon_growth = 580,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 14,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 210,
-		durability_growth = 48000,
-		luck_growth = 0,
-		battle_unit_type = 35,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			513005,
-			513006,
-			513007,
-			513008
 		}
 	}
 }

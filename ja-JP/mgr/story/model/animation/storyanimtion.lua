@@ -3,11 +3,16 @@ slot0 = class("StoryAnimtion")
 function slot0.Ctor(slot0, slot1)
 	slot0.tweens = {}
 	slot0.timers = {}
+	slot0.timeScale = 1
+end
+
+function slot0.SetTimeScale(slot0, slot1)
+	slot0.timeScale = slot1
 end
 
 function slot0.TweenMove(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	if slot4 > 1 then
-		LeanTween.move(rtf(slot1), slot2, slot3):setDelay(slot5):setLoopPingPong(slot4)
+		LeanTween.move(rtf(slot1), slot2, slot3 * slot0.timeScale):setDelay(slot5):setLoopPingPong(slot4)
 	end
 
 	if slot6 then
@@ -19,7 +24,7 @@ end
 
 function slot0.TweenScale(slot0, slot1, slot2, slot3, slot4, slot5)
 	if slot5 then
-		LeanTween.scale(rtf(slot1), slot2, slot3):setDelay(slot4):setOnComplete(System.Action(slot5))
+		LeanTween.scale(rtf(slot1), slot2, slot3 * slot0.timeScale):setDelay(slot4):setOnComplete(System.Action(slot5))
 	end
 
 	table.insert(slot0.tweens, slot1)
@@ -27,7 +32,7 @@ end
 
 function slot0.TweenRotate(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	if slot6 then
-		LeanTween.rotate(rtf(slot1), slot2, slot3):setLoopPingPong(slot4):setDelay(slot5):setOnComplete(System.Action(slot6))
+		LeanTween.rotate(rtf(slot1), slot2, slot3 * slot0.timeScale):setLoopPingPong(slot4):setDelay(slot5):setOnComplete(System.Action(slot6))
 	end
 
 	table.insert(slot0.tweens, slot1)
@@ -35,7 +40,7 @@ end
 
 function slot0.TweenValueForcanvasGroup(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	if slot6 then
-		LeanTween.value(go(slot1), slot2, slot3, slot4):setOnUpdate(System.Action_float(function (slot0)
+		LeanTween.value(go(slot1), slot2, slot3, slot4 * slot0.timeScale):setOnUpdate(System.Action_float(function (slot0)
 			uv0.alpha = slot0
 		end)):setDelay(slot5):setOnComplete(System.Action(slot6))
 	end
@@ -45,7 +50,7 @@ end
 
 function slot0.TweenValue(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	if slot7 then
-		LeanTween.value(go(slot1), slot2, slot3, slot4):setOnUpdate(System.Action_float(slot6)):setDelay(slot5):setOnComplete(System.Action(function ()
+		LeanTween.value(go(slot1), slot2, slot3, slot4 * slot0.timeScale):setOnUpdate(System.Action_float(slot6)):setDelay(slot5):setOnComplete(System.Action(function ()
 			if uv0 then
 				uv0()
 			end
@@ -57,7 +62,7 @@ end
 
 function slot0.TweenValueLoop(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	if slot7 then
-		LeanTween.value(go(slot1), slot2, slot3, slot4):setOnUpdate(System.Action_float(slot6)):setDelay(slot5):setLoopClamp():setOnComplete(System.Action(function ()
+		LeanTween.value(go(slot1), slot2, slot3, slot4 * slot0.timeScale):setOnUpdate(System.Action_float(slot6)):setDelay(slot5):setLoopClamp():setOnComplete(System.Action(function ()
 			if uv0 then
 				uv0()
 			end
@@ -69,7 +74,7 @@ end
 
 function slot0.TweenTextAlpha(slot0, slot1, slot2, slot3, slot4, slot5)
 	if slot5 then
-		LeanTween.textAlpha(slot1, slot2, slot3 or 1):setDelay(slot4):setOnComplete(System.Action(slot5))
+		LeanTween.textAlpha(slot1, slot2, (slot3 or 1) * slot0.timeScale):setDelay(slot4):setOnComplete(System.Action(slot5))
 	end
 
 	table.insert(slot0.tweens, slot1)
@@ -77,7 +82,7 @@ end
 
 function slot0.TweenAlpha(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	if slot6 then
-		LeanTween.alpha(slot1, slot3, slot4):setFrom(slot2):setDelay(slot5):setOnComplete(System.Action(slot6))
+		LeanTween.alpha(slot1, slot3, slot4 * slot0.timeScale):setFrom(slot2):setDelay(slot5):setOnComplete(System.Action(slot6))
 	end
 
 	table.insert(slot0.tweens, slot1)
@@ -85,7 +90,7 @@ end
 
 function slot0.TweenMovex(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	if slot6 then
-		LeanTween.moveX(slot1, slot2, slot4):setDelay(slot5):setFrom(slot3):setLoopPingPong(slot6)
+		LeanTween.moveX(slot1, slot2, slot4 * slot0.timeScale):setDelay(slot5):setFrom(slot3):setLoopPingPong(slot6)
 	end
 
 	if slot7 then
@@ -118,7 +123,7 @@ function slot0.DelayCall(slot0, slot1, slot2)
 		uv0.timers[uv1] = nil
 
 		uv1()
-	end, slot1, 1)
+	end, slot1 * slot0.timeScale, 1)
 
 	slot0.timers[slot2]:Start()
 end
@@ -130,7 +135,7 @@ function slot0.CreateDelayTimer(slot0, slot1, slot2)
 		return nil
 	end
 
-	slot3 = Timer.New(slot2, slot1, 1)
+	slot3 = Timer.New(slot2, slot1 * slot0.timeScale, 1)
 
 	slot3:Start()
 

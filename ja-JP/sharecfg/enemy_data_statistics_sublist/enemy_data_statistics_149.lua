@@ -1,5 +1,95 @@
 pg = pg or {}
 pg.enemy_data_statistics_149 = {
+	[10070411] = {
+		cannon = 490,
+		name = "テスターβ",
+		antiaircraft = 840,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 460,
+		luck = 0,
+		id = 10070411,
+		type = 5,
+		durability = 122000,
+		hit_growth = 144,
+		antiaircraft_growth = 0,
+		dodge_growth = 360,
+		star = 6,
+		antisub_growth = 0,
+		rarity = 6,
+		base = 247,
+		icon_type = 5,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 17,
+		armor = 0,
+		antisub = 0,
+		scale = 120,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 32,
+		reload_growth = 0,
+		hit = 8,
+		torpedo = 200,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		bound_bone = {
+			cannon = {
+				{
+					-0.27,
+					0.64,
+					0
+				}
+			},
+			vicegun = {
+				{
+					3.87,
+					4.63,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.13,
+					0.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					3.87,
+					4.63,
+					0
+				}
+			},
+			plane = {
+				{
+					0.94,
+					4.3,
+					0
+				}
+			}
+		},
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			534023,
+			534024,
+			534025,
+			534026,
+			534027,
+			534028
+		},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 4
+			}
+		}
+	},
 	[10070412] = {
 		cannon = 110,
 		hit_growth = 210,
@@ -528,56 +618,6 @@ pg.enemy_data_statistics_149 = {
 			534513,
 			534514,
 			534518
-		}
-	},
-	[10070492] = {
-		cannon = 220,
-		hit_growth = 210,
-		luck_growth = 0,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		armor = 0,
-		antisub = 0,
-		battle_unit_type = 95,
-		dodge_growth = 228,
-		star = 6,
-		antisub_growth = 0,
-		rarity = 6,
-		base = 251,
-		durability = 82000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 18,
-		luck = 60,
-		id = 10070492,
-		scale = 150,
-		cannon_growth = 0,
-		pilot_ai_template_id = 70073,
-		reload = 150,
-		dodge = 16,
-		reload_growth = 0,
-		hit = 35,
-		torpedo = 0,
-		durability_growth = 0,
-		antiaircraft = 480,
-		antiaircraft_growth = 0,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			534520,
-			534521,
-			534522,
-			534523,
-			534526
-		},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 4
-			}
 		}
 	}
 }

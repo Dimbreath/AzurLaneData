@@ -23,6 +23,7 @@ return {
 				"onRemove"
 			},
 			arg_list = {
+				group = 14222,
 				number = 1,
 				attr = "perfectDodge"
 			}

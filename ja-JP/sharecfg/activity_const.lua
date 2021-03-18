@@ -636,6 +636,9 @@ pg.activity_const = {
 	DOA_COLLECTION_FURNITURE = {
 		act_id = 783
 	},
+	ACTIVITY_ID_US_SKIRMISH_RE = {
+		act_id = 940
+	},
 	SUMMER_REMAKE = {
 		act_id = 20248
 	},

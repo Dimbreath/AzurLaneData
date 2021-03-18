@@ -2,15 +2,550 @@ pg = pg or {}
 pg.weapon_property_172 = {}
 
 function ()
-	uv0.weapon_property_172[69371] = {
+	uv0.weapon_property_172[69502] = {
+		name = "小光辉技能圣光飞机Lv2",
+		damage = 52,
+		base = 69501,
+		id = 69502,
+		bullet_ID = {
+			69502
+		}
+	}
+	uv0.weapon_property_172[69503] = {
+		name = "小光辉技能圣光飞机Lv3",
+		damage = 54,
+		base = 69501,
+		id = 69503,
+		bullet_ID = {
+			69503
+		}
+	}
+	uv0.weapon_property_172[69504] = {
+		name = "小光辉技能圣光飞机Lv4",
+		damage = 57,
+		base = 69501,
+		id = 69504,
+		bullet_ID = {
+			69504
+		}
+	}
+	uv0.weapon_property_172[69505] = {
+		name = "小光辉技能圣光飞机Lv5",
+		damage = 61,
+		base = 69501,
+		id = 69505,
+		bullet_ID = {
+			69505
+		}
+	}
+	uv0.weapon_property_172[69506] = {
+		name = "小光辉技能圣光飞机Lv6",
+		damage = 66,
+		base = 69501,
+		id = 69506,
+		bullet_ID = {
+			69506
+		}
+	}
+	uv0.weapon_property_172[69507] = {
+		name = "小光辉技能圣光飞机Lv7",
+		damage = 72,
+		base = 69501,
+		id = 69507,
+		bullet_ID = {
+			69507
+		}
+	}
+	uv0.weapon_property_172[69508] = {
+		name = "小光辉技能圣光飞机Lv8",
+		damage = 79,
+		base = 69501,
+		id = 69508,
+		bullet_ID = {
+			69508
+		}
+	}
+	uv0.weapon_property_172[69509] = {
+		name = "小光辉技能圣光飞机Lv9",
+		damage = 87,
+		base = 69501,
+		id = 69509,
+		bullet_ID = {
+			69509
+		}
+	}
+	uv0.weapon_property_172[69510] = {
+		name = "小光辉技能圣光飞机Lv10",
+		damage = 96,
+		base = 69501,
+		id = 69510,
+		bullet_ID = {
+			69510
+		}
+	}
+	uv0.weapon_property_172[69511] = {
 		action_index = "attack",
-		range = 200,
+		range = 90,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "圣光弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 51,
+		corrected = 100,
+		min_range = 0,
+		id = 69511,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19145
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_172[69512] = {
+		id = 69512,
+		damage = 52,
+		base = 69511
+	}
+	uv0.weapon_property_172[69513] = {
+		id = 69513,
+		damage = 54,
+		base = 69511
+	}
+	uv0.weapon_property_172[69514] = {
+		id = 69514,
+		damage = 57,
+		base = 69511
+	}
+	uv0.weapon_property_172[69515] = {
+		id = 69515,
+		damage = 61,
+		base = 69511
+	}
+	uv0.weapon_property_172[69516] = {
+		id = 69516,
+		damage = 66,
+		base = 69511
+	}
+	uv0.weapon_property_172[69517] = {
+		id = 69517,
+		damage = 72,
+		base = 69511
+	}
+	uv0.weapon_property_172[69518] = {
+		id = 69518,
+		damage = 79,
+		base = 69511
+	}
+	uv0.weapon_property_172[69519] = {
+		id = 69519,
+		damage = 87,
+		base = 69511
+	}
+	uv0.weapon_property_172[69520] = {
+		id = 69520,
+		damage = 96,
+		base = 69511
+	}
+	uv0.weapon_property_172[69521] = {
+		action_index = "attack",
+		range = 50,
 		type = 1,
 		fire_fx = "CLFire",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "土佐支援炮击扫射母弹LV1",
+		name = "爱斯基摩人弹幕LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 12,
+		corrected = 100,
+		min_range = 0,
+		id = 69521,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19146
+		},
+		barrage_ID = {
+			80886
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_172[69522] = {
+		id = 69522,
+		name = "爱斯基摩人弹幕LV2",
+		damage = 13,
+		base = 69521
+	}
+	uv0.weapon_property_172[69523] = {
+		id = 69523,
+		name = "爱斯基摩人弹幕LV3",
+		damage = 14,
+		base = 69521
+	}
+	uv0.weapon_property_172[69524] = {
+		name = "爱斯基摩人弹幕LV4",
+		damage = 15,
+		base = 69521,
+		id = 69524,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_172[69525] = {
+		name = "爱斯基摩人弹幕LV5",
+		damage = 16,
+		base = 69521,
+		id = 69525,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_172[69526] = {
+		name = "爱斯基摩人弹幕LV6",
+		damage = 17,
+		base = 69521,
+		id = 69526,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_172[69527] = {
+		name = "爱斯基摩人弹幕LV7",
+		damage = 18,
+		base = 69521,
+		id = 69527,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_172[69528] = {
+		name = "爱斯基摩人弹幕LV8",
+		damage = 20,
+		base = 69521,
+		id = 69528,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_172[69529] = {
+		name = "爱斯基摩人弹幕LV9",
+		damage = 22,
+		base = 69521,
+		id = 69529,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_172[69530] = {
+		name = "爱斯基摩人弹幕LV10",
+		damage = 24,
+		base = 69521,
+		id = 69530,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_172[69531] = {
+		action_index = "attack",
+		range = 60,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "柴郡猫爪技能Lv1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 11,
+		corrected = 118,
+		min_range = 0,
+		id = 69531,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19147
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_172[69532] = {
+		id = 69532,
+		name = "柴郡猫爪技能Lv2",
+		damage = 13,
+		base = 69531
+	}
+	uv0.weapon_property_172[69533] = {
+		id = 69533,
+		name = "柴郡猫爪技能Lv3",
+		damage = 16,
+		base = 69531
+	}
+	uv0.weapon_property_172[69534] = {
+		id = 69534,
+		name = "柴郡猫爪技能Lv4",
+		damage = 20,
+		base = 69531
+	}
+	uv0.weapon_property_172[69535] = {
+		id = 69535,
+		name = "柴郡猫爪技能Lv5",
+		damage = 25,
+		base = 69531
+	}
+	uv0.weapon_property_172[69536] = {
+		id = 69536,
+		name = "柴郡猫爪技能Lv6",
+		damage = 30,
+		base = 69531
+	}
+	uv0.weapon_property_172[69537] = {
+		name = "柴郡猫爪技能Lv7",
+		damage = 36,
+		base = 69531,
+		id = 69537,
+		barrage_ID = {
+			80915
+		}
+	}
+	uv0.weapon_property_172[69538] = {
+		name = "柴郡猫爪技能Lv8",
+		damage = 42,
+		base = 69531,
+		id = 69538,
+		barrage_ID = {
+			80915
+		}
+	}
+	uv0.weapon_property_172[69539] = {
+		name = "柴郡猫爪技能Lv9",
+		damage = 49,
+		base = 69531,
+		id = 69539,
+		barrage_ID = {
+			80915
+		}
+	}
+	uv0.weapon_property_172[69540] = {
+		name = "柴郡猫爪技能Lv10",
+		damage = 56,
+		base = 69531,
+		id = 69540,
+		barrage_ID = {
+			80915
+		}
+	}
+	uv0.weapon_property_172[69541] = {
+		action_index = "attack_main",
+		range = 200,
+		type = 23,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "香槟独立射击大子弹LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		damage = 58,
+		corrected = 110,
+		min_range = 35,
+		id = 69541,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			19150
+		},
+		barrage_ID = {
+			1301
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 2
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_172[69542] = {
+		id = 69542,
+		name = "香槟独立射击大子弹LV2",
+		damage = 70,
+		base = 69541
+	}
+	uv0.weapon_property_172[69543] = {
+		id = 69543,
+		name = "香槟独立射击大子弹LV3",
+		damage = 82,
+		base = 69541
+	}
+	uv0.weapon_property_172[69544] = {
+		id = 69544,
+		name = "香槟独立射击大子弹LV4",
+		damage = 94,
+		base = 69541
+	}
+	uv0.weapon_property_172[69545] = {
+		id = 69545,
+		name = "香槟独立射击大子弹LV5",
+		damage = 106,
+		base = 69541
+	}
+	uv0.weapon_property_172[69546] = {
+		id = 69546,
+		name = "香槟独立射击大子弹LV6",
+		damage = 118,
+		base = 69541
+	}
+	uv0.weapon_property_172[69547] = {
+		id = 69547,
+		name = "香槟独立射击大子弹LV7",
+		damage = 130,
+		base = 69541
+	}
+	uv0.weapon_property_172[69548] = {
+		id = 69548,
+		name = "香槟独立射击大子弹LV8",
+		damage = 142,
+		base = 69541
+	}
+	uv0.weapon_property_172[69549] = {
+		id = 69549,
+		name = "香槟独立射击大子弹LV9",
+		damage = 154,
+		base = 69541
+	}
+	uv0.weapon_property_172[69550] = {
+		id = 69550,
+		name = "香槟独立射击大子弹LV10",
+		damage = 170,
+		base = 69541
+	}
+	uv0.weapon_property_172[69551] = {
+		action_index = "attack",
+		range = 150,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "香槟伴随射击平射小子弹LV1",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -19,7 +554,7 @@ function ()
 		damage = 20,
 		corrected = 100,
 		min_range = 0,
-		id = 69371,
+		id = 69551,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -33,12 +568,12 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19131,
-			19132
+			19156,
+			19156
 		},
 		barrage_ID = {
-			80871,
-			80871
+			80902,
+			80903
 		},
 		oxy_type = {
 			1
@@ -48,576 +583,58 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_172[69372] = {
-		id = 69372,
-		name = "土佐支援炮击扫射母弹LV2",
+	uv0.weapon_property_172[69552] = {
+		id = 69552,
+		name = "香槟伴随射击平射小子弹LV2",
 		damage = 22,
-		base = 69371
+		base = 69551
 	}
-	uv0.weapon_property_172[69373] = {
-		id = 69373,
-		name = "土佐支援炮击扫射母弹LV3",
+	uv0.weapon_property_172[69553] = {
+		id = 69553,
+		name = "香槟伴随射击平射小子弹LV3",
 		damage = 24,
-		base = 69371
+		base = 69551
 	}
-	uv0.weapon_property_172[69374] = {
-		id = 69374,
-		name = "土佐支援炮击扫射母弹LV4",
+	uv0.weapon_property_172[69554] = {
+		id = 69554,
+		name = "香槟伴随射击平射小子弹LV4",
 		damage = 28,
-		base = 69371
+		base = 69551
 	}
-	uv0.weapon_property_172[69375] = {
-		id = 69375,
-		name = "土佐支援炮击扫射母弹LV5",
+	uv0.weapon_property_172[69555] = {
+		id = 69555,
+		name = "香槟伴随射击平射小子弹LV5",
 		damage = 26,
-		base = 69371
+		base = 69551
 	}
-	uv0.weapon_property_172[69376] = {
-		id = 69376,
-		name = "土佐支援炮击扫射母弹LV6",
+	uv0.weapon_property_172[69556] = {
+		id = 69556,
+		name = "香槟伴随射击平射小子弹LV6",
 		damage = 28,
-		base = 69371
+		base = 69551
 	}
-	uv0.weapon_property_172[69377] = {
-		id = 69377,
-		name = "土佐支援炮击扫射母弹LV7",
+	uv0.weapon_property_172[69557] = {
+		id = 69557,
+		name = "香槟伴随射击平射小子弹LV7",
 		damage = 30,
-		base = 69371
+		base = 69551
 	}
-	uv0.weapon_property_172[69378] = {
-		id = 69378,
-		name = "土佐支援炮击扫射母弹LV8",
+	uv0.weapon_property_172[69558] = {
+		id = 69558,
+		name = "香槟伴随射击平射小子弹LV8",
 		damage = 32,
-		base = 69371
+		base = 69551
 	}
-	uv0.weapon_property_172[69379] = {
-		id = 69379,
-		name = "土佐支援炮击扫射母弹LV9",
+	uv0.weapon_property_172[69559] = {
+		id = 69559,
+		name = "香槟伴随射击平射小子弹LV9",
 		damage = 34,
-		base = 69371
+		base = 69551
 	}
-	uv0.weapon_property_172[69380] = {
-		id = 69380,
-		name = "土佐支援炮击扫射母弹LV10",
+	uv0.weapon_property_172[69560] = {
+		id = 69560,
+		name = "香槟伴随射击平射小子弹LV10",
 		damage = 36,
-		base = 69371
-	}
-	uv0.weapon_property_172[69381] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "阿尔及利亚技能弹幕-LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 11,
-		corrected = 100,
-		min_range = 0,
-		id = 69381,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 412,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19134,
-			19134
-		},
-		barrage_ID = {
-			80872,
-			80873
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_172[69382] = {
-		id = 69382,
-		name = "阿尔及利亚技能弹幕-LV2",
-		damage = 12,
-		base = 69381
-	}
-	uv0.weapon_property_172[69383] = {
-		id = 69383,
-		name = "阿尔及利亚技能弹幕-LV3",
-		damage = 13,
-		base = 69381
-	}
-	uv0.weapon_property_172[69384] = {
-		id = 69384,
-		name = "阿尔及利亚技能弹幕-LV4",
-		damage = 14,
-		base = 69381
-	}
-	uv0.weapon_property_172[69385] = {
-		id = 69385,
-		name = "阿尔及利亚技能弹幕-LV5",
-		damage = 15,
-		base = 69381
-	}
-	uv0.weapon_property_172[69386] = {
-		id = 69386,
-		name = "阿尔及利亚技能弹幕-LV6",
-		damage = 16,
-		base = 69381
-	}
-	uv0.weapon_property_172[69387] = {
-		name = "阿尔及利亚技能弹幕-LV7",
-		damage = 17,
-		base = 69381,
-		id = 69387,
-		barrage_ID = {
-			80874,
-			80875
-		}
-	}
-	uv0.weapon_property_172[69388] = {
-		name = "阿尔及利亚技能弹幕-LV8",
-		damage = 18,
-		base = 69381,
-		id = 69388,
-		barrage_ID = {
-			80874,
-			80875
-		}
-	}
-	uv0.weapon_property_172[69389] = {
-		name = "阿尔及利亚技能弹幕-LV9",
-		damage = 19,
-		base = 69381,
-		id = 69389,
-		barrage_ID = {
-			80874,
-			80875
-		}
-	}
-	uv0.weapon_property_172[69390] = {
-		name = "阿尔及利亚技能弹幕-LV10",
-		damage = 20,
-		base = 69381,
-		id = 69390,
-		barrage_ID = {
-			80874,
-			80875
-		}
-	}
-	uv0.weapon_property_172[69391] = {
-		action_index = "attack",
-		range = 95,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "黎塞留PVE主炮弹幕LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 58,
-		corrected = 100,
-		min_range = 25,
-		id = 69391,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19135,
-			19136
-		},
-		barrage_ID = {
-			80876,
-			80877
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jineng",
-			alertTime = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_172[69392] = {
-		id = 69392,
-		name = "黎塞留PVE主炮弹幕LV2",
-		damage = 70,
-		base = 69391
-	}
-	uv0.weapon_property_172[69393] = {
-		id = 69393,
-		name = "黎塞留PVE主炮弹幕LV3",
-		damage = 82,
-		base = 69391
-	}
-	uv0.weapon_property_172[69394] = {
-		id = 69394,
-		name = "黎塞留PVE主炮弹幕LV4",
-		damage = 94,
-		base = 69391
-	}
-	uv0.weapon_property_172[69395] = {
-		id = 69395,
-		name = "黎塞留PVE主炮弹幕LV5",
-		damage = 106,
-		base = 69391
-	}
-	uv0.weapon_property_172[69396] = {
-		id = 69396,
-		name = "黎塞留PVE主炮弹幕LV6",
-		damage = 118,
-		base = 69391
-	}
-	uv0.weapon_property_172[69397] = {
-		id = 69397,
-		name = "黎塞留PVE主炮弹幕LV7",
-		damage = 130,
-		base = 69391
-	}
-	uv0.weapon_property_172[69398] = {
-		id = 69398,
-		name = "黎塞留PVE主炮弹幕LV8",
-		damage = 142,
-		base = 69391
-	}
-	uv0.weapon_property_172[69399] = {
-		id = 69399,
-		name = "黎塞留PVE主炮弹幕LV9",
-		damage = 154,
-		base = 69391
-	}
-	uv0.weapon_property_172[69400] = {
-		id = 69400,
-		name = "黎塞留PVE主炮弹幕LV10",
-		damage = 170,
-		base = 69391
-	}
-	uv0.weapon_property_172[69401] = {
-		action_index = "attack",
-		range = 120,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "黎塞留PVP主炮弹幕-Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 58,
-		corrected = 100,
-		min_range = 35,
-		id = 69401,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19135,
-			19136
-		},
-		barrage_ID = {
-			80876,
-			80877
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jineng",
-			alertTime = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_172[69402] = {
-		id = 69402,
-		name = "黎塞留PVP主炮弹幕-Lv2",
-		damage = 70,
-		base = 69401
-	}
-	uv0.weapon_property_172[69403] = {
-		id = 69403,
-		name = "黎塞留PVP主炮弹幕-Lv3",
-		damage = 82,
-		base = 69401
-	}
-	uv0.weapon_property_172[69404] = {
-		id = 69404,
-		name = "黎塞留PVP主炮弹幕-Lv4",
-		damage = 94,
-		base = 69401
-	}
-	uv0.weapon_property_172[69405] = {
-		id = 69405,
-		name = "黎塞留PVP主炮弹幕-Lv5",
-		damage = 106,
-		base = 69401
-	}
-	uv0.weapon_property_172[69406] = {
-		id = 69406,
-		name = "黎塞留PVP主炮弹幕-Lv6",
-		damage = 118,
-		base = 69401
-	}
-	uv0.weapon_property_172[69407] = {
-		id = 69407,
-		name = "黎塞留PVP主炮弹幕-Lv7",
-		damage = 130,
-		base = 69401
-	}
-	uv0.weapon_property_172[69408] = {
-		id = 69408,
-		name = "黎塞留PVP主炮弹幕-Lv8",
-		damage = 142,
-		base = 69401
-	}
-	uv0.weapon_property_172[69409] = {
-		id = 69409,
-		name = "黎塞留PVP主炮弹幕-Lv9",
-		damage = 154,
-		base = 69401
-	}
-	uv0.weapon_property_172[69410] = {
-		id = 69410,
-		name = "黎塞留PVP主炮弹幕-Lv10",
-		damage = 170,
-		base = 69401
-	}
-	uv0.weapon_property_172[69411] = {
-		action_index = "attack",
-		range = 95,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "黎塞留技能小子弹-LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 11,
-		corrected = 100,
-		min_range = 0,
-		id = 69411,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19137,
-			19137,
-			19139,
-			19138
-		},
-		barrage_ID = {
-			80878,
-			80879,
-			80880,
-			80881
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_172[69412] = {
-		id = 69412,
-		name = "黎塞留技能小子弹-LV2",
-		damage = 12,
-		base = 69411
-	}
-	uv0.weapon_property_172[69413] = {
-		id = 69413,
-		name = "黎塞留技能小子弹-LV3",
-		damage = 13,
-		base = 69411
-	}
-	uv0.weapon_property_172[69414] = {
-		id = 69414,
-		name = "黎塞留技能小子弹-LV4",
-		damage = 14,
-		base = 69411
-	}
-	uv0.weapon_property_172[69415] = {
-		id = 69415,
-		name = "黎塞留技能小子弹-LV5",
-		damage = 15,
-		base = 69411
-	}
-	uv0.weapon_property_172[69416] = {
-		id = 69416,
-		name = "黎塞留技能小子弹-LV6",
-		damage = 16,
-		base = 69411
-	}
-	uv0.weapon_property_172[69417] = {
-		id = 69417,
-		name = "黎塞留技能小子弹-LV7",
-		damage = 17,
-		base = 69411
-	}
-	uv0.weapon_property_172[69418] = {
-		id = 69418,
-		name = "黎塞留技能小子弹-LV8",
-		damage = 18,
-		base = 69411
-	}
-	uv0.weapon_property_172[69419] = {
-		id = 69419,
-		name = "黎塞留技能小子弹-LV9",
-		damage = 19,
-		base = 69411
-	}
-	uv0.weapon_property_172[69420] = {
-		id = 69420,
-		name = "黎塞留技能小子弹-LV10",
-		damage = 20,
-		base = 69411
-	}
-	uv0.weapon_property_172[69421] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "贝亚恩技能·穿甲LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 18,
-		corrected = 100,
-		min_range = 0,
-		id = 69421,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19141,
-			19141
-		},
-		barrage_ID = {
-			80882,
-			80884
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_172[69422] = {
-		id = 69422,
-		name = "贝亚恩技能·穿甲LV2",
-		damage = 19,
-		base = 69421
-	}
-	uv0.weapon_property_172[69423] = {
-		id = 69423,
-		name = "贝亚恩技能·穿甲LV3",
-		damage = 20,
-		base = 69421
-	}
-	uv0.weapon_property_172[69424] = {
-		id = 69424,
-		name = "贝亚恩技能·穿甲LV4",
-		damage = 21,
-		base = 69421
-	}
-	uv0.weapon_property_172[69425] = {
-		id = 69425,
-		name = "贝亚恩技能·穿甲LV5",
-		damage = 22,
-		base = 69421
-	}
-	uv0.weapon_property_172[69426] = {
-		id = 69426,
-		name = "贝亚恩技能·穿甲LV6",
-		damage = 23,
-		base = 69421
-	}
-	uv0.weapon_property_172[69427] = {
-		id = 69427,
-		name = "贝亚恩技能·穿甲LV7",
-		damage = 24,
-		base = 69421
-	}
-	uv0.weapon_property_172[69428] = {
-		id = 69428,
-		name = "贝亚恩技能·穿甲LV8",
-		damage = 25,
-		base = 69421
+		base = 69551
 	}
 end()

@@ -1,83 +1,37 @@
 pg = pg or {}
 pg.aircraft_template_97 = {
-	[37226] = {
-		id = 37226,
-		base = 37220,
-		max_hp = 69,
-		hp_growth = 2669,
+	[38023] = {
+		id = 38023,
+		base = 38020,
+		max_hp = 39,
+		hp_growth = 1508,
 		weapon_ID = {
-			50026,
-			50526,
-			52126
+			50023,
+			51323
 		}
 	},
-	[37227] = {
-		id = 37227,
-		base = 37220,
-		max_hp = 75,
-		hp_growth = 2879,
-		weapon_ID = {
-			50027,
-			50527,
-			52127
-		}
-	},
-	[37228] = {
-		id = 37228,
-		base = 37220,
-		max_hp = 80,
-		hp_growth = 3090,
-		weapon_ID = {
-			50028,
-			50528,
-			52128
-		}
-	},
-	[37229] = {
-		id = 37229,
-		base = 37220,
-		max_hp = 86,
-		hp_growth = 3301,
-		weapon_ID = {
-			50029,
-			50529,
-			52129
-		}
-	},
-	[37230] = {
-		id = 37230,
-		base = 37220,
-		max_hp = 91,
-		hp_growth = 3511,
-		weapon_ID = {
-			50030,
-			50530,
-			52130
-		}
-	},
-	[37240] = {
-		name = "零战五二型",
-		max_hp = 40,
+	[38040] = {
+		name = "九七式舰攻",
+		max_hp = 30,
 		accuracy = 23,
-		model_ID = "lingzhan52",
+		model_ID = "97jiangong",
 		ACC_growth = 0,
-		crash_DMG = 140,
-		dodge = 0.315,
+		crash_DMG = 148,
+		dodge = 1.17,
 		attack_power = 2,
-		dodge_limit = 9,
-		type = 1,
+		dodge_limit = 4,
+		type = 2,
 		AP_growth = 2000,
-		icon = "lingzhan52",
+		icon = "97jiangong",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1532,
-		speed = 55,
-		id = 37240,
+		hp_growth = 1155,
+		speed = 48,
+		id = 38040,
 		scale = 1,
 		weapon_ID = {
 			50040,
-			50540,
-			52140
+			51340
 		},
 		position_offset = {
 			0,
@@ -120,7 +74,7 @@ pg.aircraft_template_97 = {
 				0
 			},
 			{
-				0.51,
+				0.54,
 				0,
 				0
 			},
@@ -131,37 +85,149 @@ pg.aircraft_template_97 = {
 			}
 		}
 	},
-	[37241] = {
-		id = 37241,
-		base = 37240,
-		max_hp = 46,
-		hp_growth = 1762,
+	[38041] = {
+		id = 38041,
+		base = 38040,
+		max_hp = 35,
+		hp_growth = 1328,
 		weapon_ID = {
 			50041,
-			50541,
-			52141
+			51341
 		}
 	},
-	[37242] = {
-		id = 37242,
-		base = 37240,
-		max_hp = 52,
-		hp_growth = 1992,
+	[38042] = {
+		id = 38042,
+		base = 38040,
+		max_hp = 39,
+		hp_growth = 1502,
 		weapon_ID = {
 			50042,
-			50542,
-			52142
+			51342
 		}
 	},
-	[37243] = {
-		id = 37243,
-		base = 37240,
-		max_hp = 58,
-		hp_growth = 2222,
+	[38043] = {
+		id = 38043,
+		base = 38040,
+		max_hp = 44,
+		hp_growth = 1675,
 		weapon_ID = {
 			50043,
-			50543,
-			52143
+			51343
+		}
+	},
+	[38044] = {
+		id = 38044,
+		base = 38040,
+		max_hp = 48,
+		hp_growth = 1848,
+		weapon_ID = {
+			50044,
+			51344
+		}
+	},
+	[38045] = {
+		id = 38045,
+		base = 38040,
+		max_hp = 53,
+		hp_growth = 2022,
+		weapon_ID = {
+			50045,
+			51345
+		}
+	},
+	[38046] = {
+		id = 38046,
+		base = 38040,
+		max_hp = 57,
+		hp_growth = 2195,
+		weapon_ID = {
+			50046,
+			51346
+		}
+	},
+	[38047] = {
+		id = 38047,
+		base = 38040,
+		max_hp = 62,
+		hp_growth = 2368,
+		weapon_ID = {
+			50047,
+			51347
+		}
+	},
+	[38060] = {
+		name = "九七式舰攻改",
+		max_hp = 30,
+		accuracy = 23,
+		model_ID = "97jiangongGai",
+		ACC_growth = 0,
+		crash_DMG = 148,
+		dodge = 1.17,
+		attack_power = 2,
+		dodge_limit = 4,
+		type = 2,
+		AP_growth = 2000,
+		icon = "97jiangongGai",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1155,
+		speed = 48,
+		id = 38060,
+		scale = 1,
+		weapon_ID = {
+			50040,
+			51340
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.84,
+					-1.17,
+					0
+				},
+				{
+					1.02,
+					1.5,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	}
 }

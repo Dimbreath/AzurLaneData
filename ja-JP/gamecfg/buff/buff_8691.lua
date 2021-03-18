@@ -23,6 +23,7 @@ return {
 				"onRemove"
 			},
 			arg_list = {
+				group = 8691,
 				number = 1,
 				attr = "isInvincible"
 			}

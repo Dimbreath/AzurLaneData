@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_142 = {
+	[10052010] = {
+		cannon = 110,
+		antisub = 0,
+		air = 0,
+		cannon_growth = 1150,
+		armor = 0,
+		reload = 150,
+		base = 195,
+		dodge = 11,
+		torpedo_growth = 3650,
+		air_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 156,
+		speed_growth = 0,
+		star = 3,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 2,
+		luck_growth = 0,
+		torpedo = 90,
+		durability = 3000,
+		armor_growth = 0,
+		durability_growth = 42500,
+		antiaircraft = 70,
+		speed = 20,
+		luck = 0,
+		hit_growth = 210,
+		battle_unit_type = 55,
+		id = 10052010,
+		antiaircraft_growth = 4500,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			520025,
+			520026,
+			520027,
+			520028
+		}
+	},
 	[10052011] = {
 		hit_growth = 210,
 		luck_growth = 0,
@@ -728,47 +768,6 @@ pg.enemy_data_statistics_142 = {
 		equipment_list = {
 			800017,
 			100349
-		}
-	},
-	[10060003] = {
-		cannon = 31,
-		name = "戦艦「Rook」",
-		hit_growth = 144,
-		speed_growth = 0,
-		antiaircraft_growth = 1404,
-		air = 0,
-		antisub = 0,
-		armor = 0,
-		rarity = 3,
-		antiaircraft = 80,
-		dodge_growth = 0,
-		star = 3,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 126,
-		durability = 1200,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		luck = 0,
-		id = 10060003,
-		cannon_growth = 2000,
-		pilot_ai_template_id = 20001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 10,
-		torpedo = 0,
-		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 60,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			800025,
-			800026,
-			800027
 		}
 	}
 }

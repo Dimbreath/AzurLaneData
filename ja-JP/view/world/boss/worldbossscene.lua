@@ -25,6 +25,9 @@ function slot0.SetBossProxy(slot0, slot1, slot2)
 	slot0.detailPage = WorldBossDetailPage.New(slot0.pagesTF, slot0.event)
 
 	slot0.detailPage:Setup(slot0.bossProxy)
+
+	slot0.formationPreviewPage = WorldBossFormationPreViewPage.New(slot0.pagesTF, slot0.event)
+
 	slot0:AddListeners()
 	slot0:UpdatePt()
 	slot0:UpdateMeta()
@@ -42,6 +45,10 @@ end
 
 function slot0.OnPtUpdated(slot0, slot1)
 	slot0:UpdatePt()
+end
+
+function slot0.OnShowFormationPreview(slot0, slot1)
+	slot0.formationPreviewPage:ExecuteAction("Show", slot1)
 end
 
 function slot0.init(slot0)
@@ -99,10 +106,7 @@ function slot0.OnRemoveLayers(slot0)
 end
 
 function slot0.UpdateMeta(slot0)
-	slot4, slot5, slot6 = slot0.metaCharacterProxy:getMetaProgressVOByID(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLD_WORLDBOSS):getConfig("config_client").id).metaPtData:GetResProgress()
-	slot0.metaProgress.text = ""
-
-	setActive(slot0.metaTip, slot5 <= slot4)
+	setActive(slot0.metaTip, MetaCharacterConst.isMetaSynRedTag(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLD_WORLDBOSS):getConfig("config_client").id))
 end
 
 function slot0.getAwardDone(slot0)
@@ -187,6 +191,12 @@ function slot0.willExit(slot0)
 		slot0.detailPage:Destroy()
 
 		slot0.detailPage = nil
+	end
+
+	if slot0.formationPreviewPage then
+		slot0.formationPreviewPage:Destroy()
+
+		slot0.formationPreviewPage = nil
 	end
 end
 

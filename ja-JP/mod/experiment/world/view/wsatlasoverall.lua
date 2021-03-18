@@ -42,6 +42,7 @@ function slot0.LoadScene(slot0, slot1)
 				uv1.onClickColor(slot2, slot1.position)
 			end
 		end)
+		setActive(uv0.tfEntity:Find("Plane"), false)
 
 		uv0.tfCamera = uv0.transform:Find("Main Camera")
 

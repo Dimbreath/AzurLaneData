@@ -583,12 +583,11 @@ function slot0.GenBattleData(slot0)
 	elseif slot2 == SYSTEM_WORLD_BOSS then
 		slot6 = nowWorld:GetBossProxy()
 		slot7 = slot6:GetFleet()
-		slot8 = getProxy(BayProxy)
 
 		if slot6:GetBossById(slot0.contextData.bossId):GetHP() then
-			if slot10:IsSelf() then
+			if slot9:IsSelf() then
 				slot1.RepressInfo = {
-					repressEnemyHpRant = slot11 / slot10:GetMaxHp()
+					repressEnemyHpRant = slot10 / slot9:GetMaxHp()
 				}
 			else
 				slot1.RepressInfo = {
@@ -597,38 +596,51 @@ function slot0.GenBattleData(slot0)
 			end
 		end
 
-		slot12 = _.values(slot7:getCommanders())
+		slot11 = _.values(slot7:getCommanders())
 		slot1.CommanderList = slot7:buildBattleBuffList()
-		slot0.mainShips = slot8:getShipsByFleet(slot7)
+		slot0.mainShips = slot3:getShipsByFleet(slot7)
+		slot12 = {}
 		slot13 = {}
 		slot14 = {}
-		slot15 = {}
 
-		for slot20, slot21 in ipairs(slot7:getTeamByName(TeamType.Main)) do
+		for slot19, slot20 in ipairs(slot7:getTeamByName(TeamType.Main)) do
+			if table.contains(slot4, slot20) then
+				BattleVertify.cloneShipVertiry = true
+			end
+
+			slot4[#slot4 + 1] = slot20
+			slot21 = slot3:getShipById(slot20)
+
+			table.insert(slot12, slot21)
+			table.insert(slot1.MainUnitList, uv0(slot2, slot21, slot11))
+		end
+
+		for slot20, slot21 in ipairs(slot7:getTeamByName(TeamType.Vanguard)) do
 			if table.contains(slot4, slot21) then
 				BattleVertify.cloneShipVertiry = true
 			end
 
 			slot4[#slot4 + 1] = slot21
-			slot22 = slot8:getShipById(slot21)
+			slot22 = slot3:getShipById(slot21)
 
 			table.insert(slot13, slot22)
-			table.insert(slot1.MainUnitList, uv0(slot2, slot22, slot12))
+			table.insert(slot1.VanguardUnitList, uv0(slot2, slot22, slot11))
 		end
 
-		for slot21, slot22 in ipairs(slot7:getTeamByName(TeamType.Vanguard)) do
-			if table.contains(slot4, slot22) then
-				BattleVertify.cloneShipVertiry = true
+		slot0.viewComponent:setFleet(slot12, slot13, slot14)
+
+		slot1.MapAidSkills = {}
+
+		if slot9:IsSelf() then
+			slot17, slot1.WorldBossSupportDays, slot19 = slot6.GetSupportValue()
+
+			if slot17 then
+				table.insert(slot1.MapAidSkills, {
+					level = 1,
+					id = slot19
+				})
 			end
-
-			slot4[#slot4 + 1] = slot22
-			slot23 = slot8:getShipById(slot22)
-
-			table.insert(slot14, slot23)
-			table.insert(slot1.VanguardUnitList, uv0(slot2, slot23, slot12))
 		end
-
-		slot0.viewComponent:setFleet(slot13, slot14, slot15)
 	elseif slot2 == SYSTEM_HP_SHARE_ACT_BOSS or slot2 == SYSTEM_ACT_BOSS or slot2 == SYSTEM_BOSS_EXPERIMENT then
 		if slot0.contextData.mainFleetId then
 			slot7 = getProxy(FleetProxy):getActivityFleets()[slot0.contextData.actId][slot0.contextData.mainFleetId]

@@ -15,6 +15,7 @@ return {
 				"onShieldBroken"
 			},
 			arg_list = {
+				shieldBuffID = 8018,
 				countTarget = 3,
 				countType = 8020
 			}

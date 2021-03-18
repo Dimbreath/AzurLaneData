@@ -1,26 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_385 = {
-	[761113] = {
-		name = "【2020德系活动B2】BOSS 五航战支援 鱼雷机",
-		max_hp = 96,
+	[1101012] = {
+		name = "德系陆航轰炸机III",
+		max_hp = 310,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "JU88A",
 		ACC_growth = 0,
-		crash_DMG = 69,
+		crash_DMG = 16,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "JU88A",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2380,
-		speed = 30,
-		id = 761113,
+		hp_growth = 12470,
+		speed = 32,
+		id = 1101012,
 		scale = 0.75,
 		weapon_ID = {
-			761116
+			1101012
 		},
 		position_offset = {
 			0,
@@ -74,27 +74,175 @@ pg.aircraft_template_385 = {
 			}
 		}
 	},
-	[761114] = {
-		name = "【2020德系活动B2】BOSS 五航战支援 轰炸机",
-		max_hp = 104,
+	[1101013] = {
+		name = "德系陆航轰炸机IV",
+		max_hp = 355,
+		accuracy = 23,
+		model_ID = "JU88A",
+		ACC_growth = 0,
+		crash_DMG = 20,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "JU88A",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 14385,
+		speed = 32,
+		id = 1101013,
+		scale = 0.75,
+		weapon_ID = {
+			1101013
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1101014] = {
+		name = "德系陆航轰炸机V",
+		max_hp = 405,
+		accuracy = 23,
+		model_ID = "JU88A",
+		ACC_growth = 0,
+		crash_DMG = 24,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "JU88A",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 16300,
+		speed = 32,
+		id = 1101014,
+		scale = 0.75,
+		weapon_ID = {
+			1101014
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1101020] = {
+		name = "新日系舰载轰炸机——高爆弹药1",
+		max_hp = 80,
 		accuracy = 23,
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
-		crash_DMG = 74,
+		crash_DMG = 65,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "99shijianbao1",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2580,
-		speed = 28,
-		id = 761114,
+		hp_growth = 2280,
+		speed = 30,
+		id = 1101020,
 		scale = 0.75,
 		weapon_ID = {
-			761117
+			1101035
 		},
 		position_offset = {
 			0,
@@ -148,29 +296,27 @@ pg.aircraft_template_385 = {
 			}
 		}
 	},
-	[761212] = {
-		name = "【2020德系活动B3】塞壬构建者 第四波 浮游炮",
-		max_hp = 5000,
+	[1101021] = {
+		name = "新日系舰载轰炸机——高爆弹药2",
+		max_hp = 110,
 		accuracy = 23,
-		model_ID = "fuyoupao2",
+		model_ID = "99shijianbao1",
 		ACC_growth = 0,
-		crash_DMG = 500,
+		crash_DMG = 85,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 1,
+		type = 3,
 		AP_growth = 2000,
-		icon = "fuyoupao2",
+		icon = "99shijianbao1",
+		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3680,
-		speed = 50,
-		id = 761212,
+		hp_growth = 2660,
+		speed = 30,
+		id = 1101021,
 		scale = 0.75,
-		funnel_behavior = {
-			AI = 70127
-		},
 		weapon_ID = {
-			761215
+			1101036
 		},
 		position_offset = {
 			0,
@@ -190,13 +336,13 @@ pg.aircraft_template_385 = {
 		bound_bone = {
 			weapon = {
 				{
-					2.72,
-					-0.21,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					3.2,
-					-0.14,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -224,29 +370,27 @@ pg.aircraft_template_385 = {
 			}
 		}
 	},
-	[761213] = {
-		name = "【2020德系活动B3】塞壬构建者 第四波 浮游炮",
-		max_hp = 5000,
+	[1101022] = {
+		name = "新日系舰载轰炸机——高爆弹药3",
+		max_hp = 140,
 		accuracy = 23,
-		model_ID = "fuyoupao2",
+		model_ID = "99shijianbao1",
 		ACC_growth = 0,
-		crash_DMG = 500,
+		crash_DMG = 110,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 1,
+		type = 3,
 		AP_growth = 2000,
-		icon = "fuyoupao2",
+		icon = "99shijianbao1",
+		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3680,
-		speed = 50,
-		id = 761213,
+		hp_growth = 3040,
+		speed = 30,
+		id = 1101022,
 		scale = 0.75,
-		funnel_behavior = {
-			AI = 70128
-		},
 		weapon_ID = {
-			761214
+			1101037
 		},
 		position_offset = {
 			0,
@@ -266,13 +410,13 @@ pg.aircraft_template_385 = {
 		bound_bone = {
 			weapon = {
 				{
-					2.72,
-					-0.21,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					3.2,
-					-0.14,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -300,13 +444,161 @@ pg.aircraft_template_385 = {
 			}
 		}
 	},
-	[762001] = {
-		name = "【2020德系活动C1】塞壬执棋者I型 轰炸机",
-		max_hp = 154,
+	[1101023] = {
+		name = "新日系舰载轰炸机——高爆弹药4",
+		max_hp = 170,
+		accuracy = 23,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 140,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "99shijianbao1",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3420,
+		speed = 30,
+		id = 1101023,
+		scale = 0.75,
+		weapon_ID = {
+			1101038
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1101024] = {
+		name = "新日系舰载轰炸机——高爆弹药5",
+		max_hp = 200,
+		accuracy = 23,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 175,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "99shijianbao1",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3800,
+		speed = 30,
+		id = 1101024,
+		scale = 0.75,
+		weapon_ID = {
+			1101039
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[2000402] = {
+		name = "塞壬空袭-轰炸机 I",
+		max_hp = 200,
 		accuracy = 23,
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 114,
+		crash_DMG = 720,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
@@ -315,12 +607,12 @@ pg.aircraft_template_385 = {
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2880,
-		speed = 30,
-		id = 762001,
+		hp_growth = 8800,
+		speed = 42,
+		id = 2000402,
 		scale = 0.75,
 		weapon_ID = {
-			762003
+			2000403
 		},
 		position_offset = {
 			0,
@@ -374,13 +666,13 @@ pg.aircraft_template_385 = {
 			}
 		}
 	},
-	[762002] = {
-		name = "【2020德系活动C1】塞壬执棋者I型 浮游炮",
-		max_hp = 126,
+	[2004020] = {
+		name = "【大世界】深渊BOSS执棋者III型1_浮游炮（狙击型）",
+		max_hp = 156,
 		accuracy = 23,
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
-		crash_DMG = 96,
+		crash_DMG = 320,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
@@ -388,16 +680,16 @@ pg.aircraft_template_385 = {
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
-		hp_growth = 2380,
+		hp_growth = 46000,
 		speed = 70,
-		id = 762002,
+		id = 2004020,
 		scale = 0.75,
 		funnel_behavior = {
-			stay = 2,
-			exist = 20
+			stay = 2.5,
+			exist = 16
 		},
 		weapon_ID = {
-			762004
+			2004021
 		},
 		position_offset = {
 			0,
@@ -424,228 +716,6 @@ pg.aircraft_template_385 = {
 				{
 					3.2,
 					-0.14,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[762202] = {
-		name = "【2020德系活动C3】BOSS 通用战斗机（自机狙）",
-		max_hp = 141,
-		accuracy = 23,
-		model_ID = "lingzhan52",
-		ACC_growth = 0,
-		crash_DMG = 79,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "lingzhan52",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2520,
-		speed = 33,
-		id = 762202,
-		scale = 0.75,
-		weapon_ID = {
-			762204
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.27,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[762203] = {
-		name = "【2020德系活动C3】BOSS 通用轰炸机",
-		max_hp = 162,
-		accuracy = 23,
-		model_ID = "huixing",
-		ACC_growth = 0,
-		crash_DMG = 136,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "huixing",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3060,
-		speed = 30,
-		id = 762203,
-		scale = 0.75,
-		weapon_ID = {
-			762205
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-0.91,
-					0
-				},
-				{
-					0.77,
-					1,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.51,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[763112] = {
-		name = "【2020德系活动D2】BOSS 五航战支援 战斗机",
-		max_hp = 181,
-		accuracy = 23,
-		model_ID = "lingzhan21gai",
-		ACC_growth = 0,
-		crash_DMG = 89,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "shenhaifeiji",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2720,
-		speed = 32,
-		id = 763112,
-		scale = 0.75,
-		weapon_ID = {
-			763115
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
 					0
 				}
 			}

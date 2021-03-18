@@ -1,5 +1,41 @@
 pg = pg or {}
 pg.enemy_data_statistics_124 = {
+	[10042058] = {
+		cannon = 0,
+		name = "運輸艦",
+		air = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		torpedo = 0,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		hit_growth = 120,
+		star = 2,
+		hit = 8,
+		antisub_growth = 0,
+		rarity = 1,
+		speed_growth = 0,
+		base = 90,
+		durability = 650,
+		armor_growth = 0,
+		durability_growth = 6800,
+		antiaircraft = 0,
+		speed = 30,
+		luck = 0,
+		luck_growth = 0,
+		air_growth = 0,
+		id = 10042058,
+		battle_unit_type = 20,
+		antisub = 0,
+		appear_fx = {
+			"appearsmall"
+		}
+	},
 	[10042059] = {
 		cannon = 0,
 		name = "魚雷ボート",
@@ -578,47 +614,6 @@ pg.enemy_data_statistics_124 = {
 			100217,
 			510149,
 			313091
-		}
-	},
-	[10043006] = {
-		cannon = 10,
-		name = "量産型ナガラ級",
-		hit_growth = 144,
-		speed_growth = 0,
-		antiaircraft_growth = 2250,
-		air = 0,
-		antisub = 0,
-		armor = 0,
-		rarity = 1,
-		antiaircraft = 240,
-		dodge_growth = 0,
-		star = 2,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 107,
-		durability = 680,
-		armor_growth = 0,
-		torpedo_growth = 3500,
-		speed = 15,
-		luck = 0,
-		id = 10043006,
-		cannon_growth = 880,
-		pilot_ai_template_id = 20005,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 10,
-		torpedo = 50,
-		durability_growth = 24500,
-		luck_growth = 0,
-		battle_unit_type = 30,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			100316,
-			313092,
-			100406
 		}
 	}
 }

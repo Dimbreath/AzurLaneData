@@ -1,158 +1,103 @@
 pg = pg or {}
 pg.aircraft_template_80 = {
-	[28406] = {
-		id = 28406,
-		base = 28400,
+	[29324] = {
+		id = 29324,
+		base = 29320,
+		max_hp = 61,
+		hp_growth = 2335,
+		weapon_ID = {
+			50044,
+			53284
+		}
+	},
+	[29325] = {
+		id = 29325,
+		base = 29320,
+		max_hp = 66,
+		hp_growth = 2554,
+		weapon_ID = {
+			50045,
+			53285
+		}
+	},
+	[29326] = {
+		id = 29326,
+		base = 29320,
+		max_hp = 72,
+		hp_growth = 2772,
+		weapon_ID = {
+			50046,
+			53286
+		}
+	},
+	[29327] = {
+		id = 29327,
+		base = 29320,
 		max_hp = 78,
-		hp_growth = 3004,
+		hp_growth = 2991,
 		weapon_ID = {
-			50666,
-			51586
+			50047,
+			53287
 		}
 	},
-	[28407] = {
-		id = 28407,
-		base = 28400,
-		max_hp = 84,
-		hp_growth = 3241,
+	[29328] = {
+		id = 29328,
+		base = 29320,
+		max_hp = 83,
+		hp_growth = 3210,
 		weapon_ID = {
-			50667,
-			51587
+			50048,
+			53288
 		}
 	},
-	[28408] = {
-		id = 28408,
-		base = 28400,
-		max_hp = 90,
-		hp_growth = 3478,
+	[29329] = {
+		id = 29329,
+		base = 29320,
+		max_hp = 89,
+		hp_growth = 3429,
 		weapon_ID = {
-			50668,
-			51588
+			50049,
+			53289
 		}
 	},
-	[28409] = {
-		id = 28409,
-		base = 28400,
-		max_hp = 97,
-		hp_growth = 3715,
+	[29330] = {
+		id = 29330,
+		base = 29320,
+		max_hp = 95,
+		hp_growth = 3648,
 		weapon_ID = {
-			50669,
-			51589
+			50050,
+			53290
 		}
 	},
-	[28410] = {
-		id = 28410,
-		base = 28400,
-		max_hp = 103,
-		hp_growth = 3952,
+	[29331] = {
+		id = 29331,
+		base = 29320,
+		max_hp = 101,
+		hp_growth = 3867,
 		weapon_ID = {
-			50670,
-			51590
+			50051,
+			53291
 		}
 	},
-	[28411] = {
-		id = 28411,
-		base = 28400,
-		max_hp = 109,
-		hp_growth = 4189,
+	[29332] = {
+		id = 29332,
+		base = 29320,
+		max_hp = 106,
+		hp_growth = 4086,
 		weapon_ID = {
-			50671,
-			51591
+			50052,
+			53292
 		}
 	},
-	[28412] = {
-		id = 28412,
-		base = 28400,
-		max_hp = 115,
-		hp_growth = 4426,
+	[29333] = {
+		id = 29333,
+		base = 29320,
+		max_hp = 112,
+		hp_growth = 4305,
 		weapon_ID = {
-			50672,
-			51592
-		}
-	},
-	[28413] = {
-		id = 28413,
-		base = 28400,
-		max_hp = 121,
-		hp_growth = 4663,
-		weapon_ID = {
-			50673,
-			51593
-		}
-	},
-	[29000] = {
-		name = "贼鸥",
-		max_hp = 29,
-		accuracy = 23,
-		model_ID = "zeiou",
-		ACC_growth = 0,
-		crash_DMG = 156,
-		dodge = 3.75,
-		attack_power = 2,
-		dodge_limit = 0.8,
-		type = 3,
-		AP_growth = 2000,
-		icon = "zeiou",
-		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1126,
-		speed = 45,
-		id = 29000,
-		scale = 1,
-		weapon_ID = {
-			50100,
-			52200
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.37,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
+			50053,
+			53293
 		}
 	}
 }

@@ -96,6 +96,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		desc = "飛龍(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
+	[106] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970702",
+		id = 106,
+		target_num = 1,
+		desc = "アーク・ロイヤル(META)を編成した艦隊で1回戦闘を勝利する"
+	},
+	[107] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970702",
+		id = 107,
+		target_num = 1,
+		desc = "アーク・ロイヤル(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+	},
+	[108] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970702",
+		id = 108,
+		target_num = 1,
+		desc = "アーク・ロイヤル(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+	},
+	[109] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970702",
+		id = 109,
+		target_num = 1,
+		desc = "アーク・ロイヤル(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+	},
+	[110] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970702",
+		id = 110,
+		target_num = 1,
+		desc = "アーク・ロイヤル(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+	},
 	[200] = {
 		target_id = "0",
 		sub_type = 302,
@@ -128,6 +168,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		desc = "セイレーン作戦で飛龍(META)を含めた艦隊でLv100+の敵を撃破 "
 	},
+	[204] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970702",
+		id = 204,
+		target_num = 1,
+		desc = "セイレーン作戦でアーク・ロイヤル(META)を含めた艦隊で1回勝利する"
+	},
+	[205] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970702",
+		id = 205,
+		target_num = 1,
+		desc = "セイレーン作戦でアーク・ロイヤル(META)を含めた艦隊でLv70+の敵を撃破"
+	},
+	[206] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970702",
+		id = 206,
+		target_num = 1,
+		desc = "セイレーン作戦でアーク・ロイヤル(META)を含めた艦隊でLv90+の敵を撃破"
+	},
+	[207] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970702",
+		id = 207,
+		target_num = 1,
+		desc = "セイレーン作戦でアーク・ロイヤル(META)を含めた艦隊でLv100+の敵を撃破 "
+	},
 	[301] = {
 		target_id = "0",
 		sub_type = 305,
@@ -157,10 +229,19 @@ pg.task_meta_data_template = {
 		103,
 		104,
 		105,
+		106,
+		107,
+		108,
+		109,
+		110,
 		200,
 		201,
 		202,
 		203,
+		204,
+		205,
+		206,
+		207,
 		301,
 		302
 	}

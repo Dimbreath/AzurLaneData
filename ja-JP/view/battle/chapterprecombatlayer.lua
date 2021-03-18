@@ -137,7 +137,13 @@ function slot0.didEnter(slot0)
 		groupName = LayerWeightConst.GROUP_LEVELUI
 	})
 	setParent(slot0.strategyInfo, slot0._tf.parent)
-	triggerToggle(slot0._autoToggle, ys.Battle.BattleState.IsAutoBotActive())
+	onNextTick(function ()
+		if uv0.exited then
+			return
+		end
+
+		triggerToggle(uv0._autoToggle, ys.Battle.BattleState.IsAutoBotActive())
+	end)
 	setAnchoredPosition(slot0.topPanel, {
 		y = slot0.topPanel.rect.height
 	})

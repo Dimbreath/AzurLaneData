@@ -1,5 +1,48 @@
 pg = pg or {}
 pg.enemy_data_statistics_51 = {
+	[5031] = {
+		cannon = 0,
+		name = "ズイカク",
+		hit_growth = 210,
+		speed_growth = 0,
+		antiaircraft_growth = 2912,
+		air = 44,
+		antisub = 0,
+		armor = 0,
+		rarity = 5,
+		antiaircraft = 32,
+		dodge_growth = 72,
+		star = 6,
+		antisub_growth = 0,
+		air_growth = 3627,
+		base = 244,
+		durability = 1260,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 18,
+		luck = 0,
+		id = 5031,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 5,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 0,
+		durability_growth = 68000,
+		luck_growth = 0,
+		battle_unit_type = 70,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			100202,
+			100352,
+			315069,
+			315070,
+			315071
+		}
+	},
 	[5034] = {
 		cannon = 40,
 		name = "量産型自爆ボート",
@@ -517,80 +560,6 @@ pg.enemy_data_statistics_51 = {
 			100337,
 			313092,
 			100407
-		}
-	},
-	[5047] = {
-		cannon = 9999,
-		name = "機雷",
-		hit_growth = 60,
-		speed_growth = 0,
-		antiaircraft_growth = 504,
-		air = 9999,
-		antisub = 0,
-		armor = 0,
-		rarity = 1,
-		antiaircraft = 9999,
-		dodge_growth = 0,
-		star = 4,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 122,
-		durability = 250,
-		armor_growth = 0,
-		torpedo_growth = 1600,
-		speed = 5,
-		luck = 0,
-		id = 5047,
-		wave_fx = "movewave",
-		prefab = "boom",
-		cannon_growth = 320,
-		reload = 9999,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 9999,
-		torpedo = 9999,
-		durability_growth = 9240,
-		luck_growth = 0,
-		battle_unit_type = 20,
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							{
-								{
-									0,
-									0,
-									0
-								},
-								{
-									0,
-									0,
-									0
-								},
-								{
-									0,
-									0,
-									0
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			300013
 		}
 	}
 }

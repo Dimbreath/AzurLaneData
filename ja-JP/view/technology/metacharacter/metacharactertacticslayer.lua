@@ -176,7 +176,18 @@ end
 function slot0.updateShipImg(slot0)
 	slot1, slot2 = MetaCharacterConst.GetMetaCharacterPaintPath(slot0.curMetaCharacterVO.id, true)
 
-	setImageSprite(slot0.shipImg, LoadSprite(slot1, slot2))
+	setImageSprite(slot0.shipImg, LoadSprite(slot1, slot2), true)
+
+	slot4 = MetaCharacterConst.UIConfig[slot0.curMetaCharacterVO.id]
+
+	setLocalPosition(slot0.shipImg, {
+		x = slot4[7],
+		y = slot4[8]
+	})
+	setLocalScale(slot0.shipImg, {
+		x = slot4[3],
+		y = slot4[4]
+	})
 end
 
 function slot0.updateNamePanel(slot0)
@@ -403,7 +414,9 @@ function slot0.tryLearnSkillAfterFirstUnlock(slot0)
 end
 
 function slot0.moveShipImg(slot0, slot1)
-	slot0:managedTween(LeanTween.moveX, nil, rtf(slot0.shipImg), slot1 and -250 or -2000, 0.2):setFrom(slot1 and -2000 or -250)
+	slot3 = MetaCharacterConst.UIConfig[slot0.curMetaCharacterVO.id]
+
+	slot0:managedTween(LeanTween.moveX, nil, rtf(slot0.shipImg), slot1 and slot3[7] or -2000, 0.2):setFrom(slot1 and -2000 or slot3[7])
 end
 
 function slot0.moveRightPanel(slot0)

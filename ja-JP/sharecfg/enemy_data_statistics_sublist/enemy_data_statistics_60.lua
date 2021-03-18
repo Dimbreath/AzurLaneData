@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_60 = {
+	[9012] = {
+		cannon = 95,
+		name = "シグレ",
+		hit_growth = 210,
+		speed_growth = 0,
+		antiaircraft_growth = 2200,
+		air = 0,
+		antisub = 0,
+		armor = 0,
+		rarity = 3,
+		antiaircraft = 105,
+		dodge_growth = 270,
+		star = 4,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 166,
+		durability = 4500,
+		armor_growth = 0,
+		torpedo_growth = 5200,
+		speed = 36,
+		luck = 0,
+		id = 9012,
+		cannon_growth = 616,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 18,
+		reload_growth = 0,
+		hit = 20,
+		torpedo = 230,
+		durability_growth = 26000,
+		luck_growth = 0,
+		battle_unit_type = 50,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			318033,
+			318034
+		}
+	},
 	[9013] = {
 		cannon = 95,
 		name = "ノワキ",
@@ -581,54 +621,6 @@ pg.enemy_data_statistics_60 = {
 			318071,
 			318072,
 			318092
-		},
-		buff_list = {
-			{
-				ID = 50510,
-				LV = 3
-			}
-		}
-	},
-	[9026] = {
-		cannon = 360,
-		name = "ナガト",
-		hit_growth = 210,
-		speed_growth = 0,
-		antiaircraft_growth = 3680,
-		air = 0,
-		antisub = 0,
-		armor = 0,
-		rarity = 5,
-		antiaircraft = 160,
-		dodge_growth = 102,
-		star = 6,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 230,
-		durability = 9600,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 14,
-		luck = 0,
-		id = 9026,
-		cannon_growth = 3400,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 7,
-		reload_growth = 0,
-		hit = 20,
-		torpedo = 0,
-		durability_growth = 82000,
-		luck_growth = 0,
-		battle_unit_type = 65,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			318073,
-			318074,
-			318075,
-			318093
 		},
 		buff_list = {
 			{

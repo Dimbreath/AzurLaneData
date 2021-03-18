@@ -1,11 +1,141 @@
 return {
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 65821
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 65822
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 65823
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 65824
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 65825
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 65826
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 65827
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 65828
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 65829
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 65830
+				}
+			}
+		}
+	},
 	uiEffect = "",
-	name = "LuckyE",
+	name = "",
 	cd = 0,
 	picture = "0",
-	desc = "空中支援时造成2倍伤害",
+	desc = "",
 	painting = 1,
-	id = 9050,
+	id = 800010,
 	castCV = "skill",
 	aniEffect = {
 		effect = "jineng",
@@ -19,10 +149,10 @@ return {
 		{
 			targetAniEffect = "",
 			casterAniEffect = "",
-			type = "BattleSkillAddBuff",
-			target_choise = "TargetSelf",
+			type = "BattleSkillFire",
+			target_choise = "TargetNil",
 			arg_list = {
-				buff_id = 9051
+				weapon_id = 65821
 			}
 		}
 	}

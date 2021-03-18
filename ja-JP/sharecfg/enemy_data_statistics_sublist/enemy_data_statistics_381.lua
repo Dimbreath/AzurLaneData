@@ -1,5 +1,42 @@
 pg = pg or {}
 pg.enemy_data_statistics_381 = {
+	[209505] = {
+		cannon = 0,
+		air = 0,
+		torpedo = 22,
+		cannon_growth = 0,
+		id = 209505,
+		reload = 150,
+		armor = 0,
+		dodge = 4,
+		torpedo_growth = 3456,
+		antiaircraft_growth = 0,
+		hit_growth = 126,
+		reload_growth = 0,
+		dodge_growth = 96,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 8,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 265,
+		durability = 270,
+		armor_growth = 0,
+		durability_growth = 35100,
+		antiaircraft = 0,
+		speed = 12,
+		luck = 0,
+		antisub = 0,
+		world_enhancement = {
+			2.5,
+			5.4,
+			1.1,
+			0.8,
+			1.2,
+			1.2,
+			0
+		}
+	},
 	[211000] = {
 		cannon = 480,
 		prefab = "sairenquzhu",
@@ -575,49 +612,6 @@ pg.enemy_data_statistics_381 = {
 			1100276,
 			1100436,
 			1100466
-		}
-	},
-	[212010] = {
-		cannon = 12,
-		air = 0,
-		torpedo = 36,
-		cannon_growth = 996,
-		id = 212010,
-		reload = 150,
-		armor = 0,
-		dodge = 16,
-		torpedo_growth = 2880,
-		hit_growth = 189,
-		reload_growth = 0,
-		dodge_growth = 200,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 13,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 302,
-		durability = 126,
-		armor_growth = 0,
-		durability_growth = 50400,
-		antiaircraft = 49,
-		speed = 24,
-		luck = 0,
-		battle_unit_type = 55,
-		antiaircraft_growth = 3912,
-		antisub = 0,
-		world_enhancement = {
-			1.2,
-			3.8,
-			0.9,
-			0,
-			0.7,
-			0.7,
-			0
-		},
-		equipment_list = {
-			1100246,
-			1100391,
-			1100361
 		}
 	}
 }

@@ -22,7 +22,15 @@ function slot0.update(slot0, slot1, slot2, slot3)
 	slot6 = (not (table.contains(slot3, slot1.id) or slot1:firstPayDouble()) or slot1:getConfig("gem")) and slot1:hasExtraGem() and slot1:getConfig("extra_gem")
 
 	setText(slot0.diamondCountText, slot1:getConfig("gem"))
-	setText(slot0.priceText, slot1:getConfig("money"))
+
+	if PLATFORM_CODE == PLATFORM_US then
+		slot6 = slot1:getConfig("money")
+
+		setText(slot0.priceText, math.floor(slot6 / 100) .. "." .. slot6 - math.floor(slot6 / 100) * 100)
+	else
+		setText(slot0.priceText, slot1:getConfig("money"))
+	end
+
 	LoadSpriteAsync("chargeicon/" .. slot1:getConfig("picture"), function (slot0)
 		if slot0 then
 			setImageSprite(uv0.iconImg, slot0, true)
@@ -30,11 +38,11 @@ function slot0.update(slot0, slot1, slot2, slot3)
 	end)
 
 	if slot0.goods.buyTime then
-		setText(slot0.beginTimeText, pg.TimeMgr.GetInstance():STimeDescC(slot0.goods.buyTime, "%Y-%m-%d %H:%M"))
+		setText(slot0.beginTimeText, pg.TimeMgr.GetInstance():STimeDescS(slot0.goods.buyTime, "%Y-%m-%d %H:%M"))
 	end
 
 	if slot0.goods.refundTime then
-		setText(slot0.backTimeText, pg.TimeMgr.GetInstance():STimeDescC(slot0.goods.refundTime, "%Y-%m-%d %H:%M"))
+		setText(slot0.backTimeText, pg.TimeMgr.GetInstance():STimeDescS(slot0.goods.refundTime, "%Y-%m-%d %H:%M"))
 	end
 
 	setText(slot0.beginTimeDesc, i18n("Supplement_pay6"))

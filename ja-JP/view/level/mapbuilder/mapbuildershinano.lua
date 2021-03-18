@@ -36,6 +36,16 @@ function slot0.OnInit(slot0)
 	slot0:InitTransformMapBtn(slot0._tf:Find("huigui"), -1, slot1.prefabItem[3])
 end
 
+function slot0.OnShow(slot0)
+	uv0.super.OnShow(slot0)
+	setActive(slot0.sceneParent.topChapter:Find("type_skirmish"), true)
+end
+
+function slot0.OnHide(slot0)
+	setActive(slot0.sceneParent.topChapter:Find("type_skirmish"), false)
+	uv0.super.OnHide(slot0)
+end
+
 function slot0.InitTransformMapBtn(slot0, slot1, slot2, slot3)
 	function slot4()
 		slot0 = uv0.sceneParent
@@ -127,9 +137,6 @@ end
 
 function slot0.PostUpdateMap(slot0, slot1)
 	uv0.super.PostUpdateMap(slot0, slot1)
-	setActive(slot0.sceneParent.topChapter:Find("type_chapter"), false)
-	setActive(slot0.sceneParent.topChapter:Find("type_escort"), false)
-	setActive(slot0.sceneParent.topChapter:Find("type_skirmish"), true)
 	setActive(slot0._tf:Find("rumeng"), false)
 	setActive(slot0._tf:Find("huigui"), false)
 

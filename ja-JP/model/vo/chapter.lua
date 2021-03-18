@@ -1162,62 +1162,69 @@ end
 
 function slot0.IsPropertyLimitationSatisfy(slot0)
 	slot1 = getProxy(BayProxy):getRawData()
-	slot2 = {
-		[slot7[1]] = 0
+	slot3 = {
+		[slot8[1]] = 0
 	}
-	slot6 = "property_limitation"
 
-	for slot6, slot7 in ipairs(slot0:getConfig(slot6)) do
+	for slot7, slot8 in ipairs(slot0:getConfig("property_limitation")) do
 		-- Nothing
 	end
 
-	slot3 = 0
+	slot4 = 0
 
-	for slot7 = 1, 2 do
-		if slot0:singleEliteFleetVertify(slot7) == true then
-			for slot13, slot14 in ipairs(slot0.eliteFleetList[slot7]) do
-				slot3 = slot3 + 1
-				slot16 = intProperties(slot1[slot14]:getProperties())
+	for slot8 = 1, 2 do
+		if slot0:singleEliteFleetVertify(slot8) then
+			slot9 = {
+				[slot17] = 0
+			}
+			slot11 = 0
 
-				for slot20, slot21 in pairs(slot2) do
-					if slot20 == "level" then
-						slot2[slot20] = slot21 + slot15.level
+			for slot15, slot16 in ipairs(slot2) do
+				slot17, slot18, slot19, ({})[slot17] = unpack(slot16)
+
+				if string.sub(slot17, 1, 5) == "fleet" then
+					-- Nothing
+				end
+			end
+
+			for slot16, slot17 in ipairs(slot0.eliteFleetList[slot8]) do
+				slot4 = slot4 + 1
+				slot19 = intProperties(slot1[slot17]:getProperties())
+
+				for slot23, slot24 in pairs(slot3) do
+					if string.sub(slot23, 1, 5) == "fleet" then
+						if slot23 == "fleet_totle_level" then
+							slot9[slot23] = slot9[slot23] + slot18.level
+						end
+					elseif slot23 == "level" then
+						slot3[slot23] = slot24 + slot18.level
 					else
-						slot2[slot20] = slot21 + slot16[slot20]
+						slot3[slot23] = slot24 + slot19[slot23]
 					end
+				end
+			end
+
+			for slot16, slot17 in pairs(slot9) do
+				if slot16 == "fleet_totle_level" and slot10[slot16] < slot17 then
+					slot3[slot16] = slot3[slot16] + 1
 				end
 			end
 		end
 	end
 
-	slot4 = {}
-	slot8 = "property_limitation"
+	slot5 = {}
 
-	for slot8, slot9 in ipairs(slot0:getConfig(slot8)) do
-		slot10 = slot9[1]
-		slot11 = slot9[2]
-		slot12 = slot9[3]
+	for slot9, slot10 in ipairs(slot2) do
+		slot11, slot12, slot13, slot14 = unpack(slot10)
 
-		if slot10 == "level" then
-			if slot2[slot10] == 0 then
-				slot2[slot10] = 0
-			else
-				slot2[slot10] = math.ceil(slot13 / slot3)
-			end
+		if slot11 == "level" and slot4 > 0 then
+			slot3[slot11] = math.ceil(slot3[slot11] / slot4)
 		end
 
-		slot14 = 0
-
-		if slot11 == -1 and slot2[slot10] < slot12 then
-			slot14 = 1
-		elseif slot11 == 1 and slot12 < slot13 then
-			slot14 = 1
-		end
-
-		slot4[slot8] = slot14
+		slot5[slot9] = AttributeType.EliteConditionCompare(slot12, slot3[slot11], slot13) and 1 or 0
 	end
 
-	return slot4, slot2
+	return slot5, slot3
 end
 
 function slot0.EliteShipTypeFilter(slot0)

@@ -34,7 +34,8 @@ return {
 				"onShieldBroken"
 			},
 			arg_list = {
-				skill_id = 13571
+				skill_id = 13571,
+				shieldBuffID = 13571
 			}
 		}
 	}

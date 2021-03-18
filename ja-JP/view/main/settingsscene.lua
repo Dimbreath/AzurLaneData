@@ -372,6 +372,35 @@ function slot0.initOptionsPanel(slot0, slot1)
 	if slot10 then
 		slot0:InitWorldPanel(slot1)
 	end
+
+	slot0:InitStorySpeedPanel(slot1)
+end
+
+function slot0.InitStorySpeedPanel(slot0, slot1)
+	setText(slot1:Find("scroll_view/Viewport/content/story_speed_setting/title"), i18n("story_setting_label"))
+	setText(slot1:Find("scroll_view/Viewport/content/story_speed_setting/title/title_text"), i18n1("/AUTO SPEED"))
+
+	slot3 = slot1:Find("scroll_view/Viewport/content/story_speed_setting/speeds")
+
+	for slot9 = 1, slot3.childCount do
+		slot10 = slot3:GetChild(slot9 - 1)
+
+		onToggle(slot0, slot10, function (slot0)
+			if slot0 then
+				getProxy(SettingsProxy):SetStorySpeed(uv0[uv1])
+			end
+		end, SFX_PANEL)
+		setText(slot10:Find("Text"), i18n("setting_story_speed_" .. slot9))
+
+		if slot9 == (table.indexof({
+			-9,
+			0,
+			5,
+			9
+		}, getProxy(SettingsProxy):GetStorySpeed()) or 2) then
+			triggerToggle(slot10, true)
+		end
+	end
 end
 
 function slot0.UpdateBackYardConfig(slot0)

@@ -403,7 +403,6 @@ function slot0.initActCatchupPage(slot0)
 			slot5 = pg.activity_event_blueprint_catchup[uv0.actCatchup:getConfig("config_id")].obtain_max
 
 			updateDrop(uv0.actCatchupItemTF, {
-				count = 1,
 				type = DROP_TYPE_ITEM,
 				id = uv0.actCatchup:getConfig("config_client").itemid
 			})

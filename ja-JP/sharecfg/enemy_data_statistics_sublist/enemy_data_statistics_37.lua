@@ -1,5 +1,76 @@
 pg = pg or {}
 pg.enemy_data_statistics_37 = {
+	[841] = {
+		cannon = 95,
+		name = "護衛フリゲートAce",
+		hit_growth = 0,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 0,
+		reload = 150,
+		antisub = 100,
+		armor = 0,
+		rarity = 2,
+		antiaircraft = 50,
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 124,
+		durability = 2350,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		luck = 0,
+		id = 841,
+		scale = 150,
+		cannon_growth = 0,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 80,
+		torpedo = 120,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 30,
+		cld_box = {
+			9.75,
+			5.625,
+			6.75
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.66,
+				-0.19,
+				-0.02
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {
+			danchuanlanghuazhong2 = 0.75
+		},
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			300180,
+			300183,
+			300184
+		}
+	},
 	[842] = {
 		cannon = 0,
 		name = "輸送艦",
@@ -397,31 +468,6 @@ pg.enemy_data_statistics_37 = {
 			531015,
 			531016,
 			531017
-		}
-	},
-	[915] = {
-		cannon = 0,
-		name = "コンダクターⅠ型",
-		air = 60,
-		torpedo = 0,
-		id = 915,
-		reload = 150,
-		speed = 20,
-		dodge = 0,
-		armor = 0,
-		hit = 0,
-		base = 252,
-		durability = 20000,
-		antiaircraft = 450,
-		battle_unit_type = 54,
-		luck = 0,
-		antisub = 0,
-		equipment_list = {
-			531018,
-			531019,
-			531020,
-			531021,
-			531022
 		}
 	}
 }

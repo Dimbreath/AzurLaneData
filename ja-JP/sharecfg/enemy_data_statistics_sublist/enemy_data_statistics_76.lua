@@ -1,5 +1,65 @@
 pg = pg or {}
 pg.enemy_data_statistics_76 = {
+	[13046] = {
+		cannon = 0,
+		rarity = 1,
+		hit_growth = 0,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 0,
+		reload = 150,
+		durability = 1800,
+		armor = 0,
+		antisub = 0,
+		antiaircraft = 450,
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 133,
+		icon_type = 2,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 20,
+		luck = 0,
+		id = 13046,
+		cannon_growth = 0,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 30,
+		torpedo = 0,
+		durability_growth = 6000,
+		luck_growth = 0,
+		battle_unit_type = 45,
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1,
+				0.2,
+				-0.3464
+			},
+			{
+				0,
+				-1,
+				2.2
+			}
+		},
+		specific_fx_scale = {
+			zhihuiRing02_buff = 2
+		},
+		equipment_list = {
+			340015
+		}
+	},
 	[13047] = {
 		cannon = 0,
 		rarity = 1,
@@ -539,46 +599,6 @@ pg.enemy_data_statistics_76 = {
 		hit = 14,
 		torpedo = 180,
 		durability_growth = 12000,
-		luck_growth = 0,
-		battle_unit_type = 50,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			100211,
-			100411
-		}
-	},
-	[101006] = {
-		cannon = 46,
-		name = "シラヌイ",
-		hit_growth = 210,
-		speed_growth = 0,
-		antiaircraft_growth = 1638,
-		air = 0,
-		antisub = 0,
-		armor = 0,
-		rarity = 2,
-		antiaircraft = 35,
-		dodge_growth = 222,
-		star = 3,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 170,
-		durability = 180,
-		armor_growth = 0,
-		torpedo_growth = 4491,
-		speed = 24,
-		luck = 0,
-		id = 101006,
-		cannon_growth = 520,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 15,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 165,
-		durability_growth = 11800,
 		luck_growth = 0,
 		battle_unit_type = 50,
 		appear_fx = {

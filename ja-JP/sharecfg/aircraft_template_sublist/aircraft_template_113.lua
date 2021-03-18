@@ -1,72 +1,83 @@
 pg = pg or {}
 pg.aircraft_template_113 = {
-	[38168] = {
-		id = 38168,
-		base = 38160,
-		max_hp = 73,
-		hp_growth = 2796,
+	[39169] = {
+		id = 39169,
+		base = 39160,
+		max_hp = 98,
+		hp_growth = 3772,
 		weapon_ID = {
-			50848,
-			59728,
-			51468
+			50049,
+			52669,
+			52169
 		}
 	},
-	[38169] = {
-		id = 38169,
-		base = 38160,
-		max_hp = 78,
-		hp_growth = 2986,
+	[39170] = {
+		id = 39170,
+		base = 39160,
+		max_hp = 104,
+		hp_growth = 4013,
 		weapon_ID = {
-			50849,
-			59729,
-			51469
+			50050,
+			52670,
+			52170
 		}
 	},
-	[38170] = {
-		id = 38170,
-		base = 38160,
-		max_hp = 83,
-		hp_growth = 3177,
+	[39171] = {
+		id = 39171,
+		base = 39160,
+		max_hp = 111,
+		hp_growth = 4254,
 		weapon_ID = {
-			50850,
-			59730,
-			51470
+			50051,
+			52671,
+			52171
 		}
 	},
-	[38171] = {
-		id = 38171,
-		base = 38160,
-		max_hp = 88,
-		hp_growth = 3367,
+	[39172] = {
+		id = 39172,
+		base = 39160,
+		max_hp = 117,
+		hp_growth = 4494,
 		weapon_ID = {
-			50851,
-			59731,
-			51471
+			50052,
+			52672,
+			52172
 		}
 	},
-	[38200] = {
-		name = "流星",
-		max_hp = 30,
+	[39173] = {
+		id = 39173,
+		base = 39160,
+		max_hp = 123,
+		hp_growth = 4735,
+		weapon_ID = {
+			50053,
+			52673,
+			52173
+		}
+	},
+	[39200] = {
+		name = "瑞云",
+		max_hp = 27,
 		accuracy = 23,
-		model_ID = "liuxing",
+		model_ID = "ruiyun",
 		ACC_growth = 0,
-		crash_DMG = 188,
-		dodge = 1.13,
+		crash_DMG = 120,
+		dodge = 3.75,
 		attack_power = 2,
-		dodge_limit = 4,
-		type = 2,
+		dodge_limit = 0.8,
+		type = 3,
 		AP_growth = 2000,
-		icon = "liuxing",
+		icon = "ruiyun",
 		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1155,
-		speed = 52,
-		id = 38200,
+		nationality = 3,
+		hp_growth = 1023,
+		speed = 46,
+		id = 39200,
 		scale = 1,
 		weapon_ID = {
 			50500,
 			50800,
-			51420
+			52200
 		},
 		position_offset = {
 			0,
@@ -86,13 +97,13 @@ pg.aircraft_template_113 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -109,7 +120,7 @@ pg.aircraft_template_113 = {
 				0
 			},
 			{
-				0.26,
+				0,
 				0,
 				0
 			},
@@ -120,48 +131,113 @@ pg.aircraft_template_113 = {
 			}
 		}
 	},
-	[38201] = {
-		id = 38201,
-		base = 38200,
-		max_hp = 35,
-		hp_growth = 1328,
+	[39201] = {
+		id = 39201,
+		base = 39200,
+		max_hp = 31,
+		hp_growth = 1177,
 		weapon_ID = {
 			50501,
 			50801,
-			51421
+			52201
 		}
 	},
-	[38202] = {
-		id = 38202,
-		base = 38200,
-		max_hp = 39,
-		hp_growth = 1502,
+	[39202] = {
+		id = 39202,
+		base = 39200,
+		max_hp = 35,
+		hp_growth = 1330,
 		weapon_ID = {
 			50502,
 			50802,
-			51422
+			52202
 		}
 	},
-	[38203] = {
-		id = 38203,
-		base = 38200,
-		max_hp = 44,
-		hp_growth = 1675,
+	[39203] = {
+		id = 39203,
+		base = 39200,
+		max_hp = 39,
+		hp_growth = 1484,
 		weapon_ID = {
 			50503,
 			50803,
-			51423
+			52203
 		}
 	},
-	[38204] = {
-		id = 38204,
-		base = 38200,
-		max_hp = 48,
-		hp_growth = 1848,
+	[39220] = {
+		name = "瑞云",
+		max_hp = 30,
+		accuracy = 23,
+		model_ID = "ruiyun",
+		ACC_growth = 0,
+		crash_DMG = 120,
+		dodge = 3.63,
+		attack_power = 2,
+		dodge_limit = 0.9,
+		type = 3,
+		AP_growth = 2000,
+		icon = "ruiyun",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1137,
+		speed = 46,
+		id = 39220,
+		scale = 1,
 		weapon_ID = {
-			50504,
-			50804,
-			51424
+			50520,
+			50820,
+			52220
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	}
 }

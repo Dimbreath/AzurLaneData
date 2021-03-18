@@ -1,248 +1,29 @@
 pg = pg or {}
 pg.aircraft_template_390 = {
-	[950159] = {
-		name = "挑战关卡8地毯轰炸机T1",
-		max_hp = 1800,
-		accuracy = 50,
-		model_ID = "tbd",
-		ACC_growth = 0,
-		crash_DMG = 240,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "tbd",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 0,
-		speed = 30,
-		id = 950159,
-		scale = 0.75,
-		weapon_ID = {
-			950163
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.64,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[950201] = {
-		name = "【挑战关卡12】赤城_轰炸机",
-		max_hp = 3500,
-		accuracy = 50,
-		model_ID = "99shijianbao1",
-		ACC_growth = 0,
-		crash_DMG = 240,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "99shijianbao1",
-		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 0,
-		speed = 30,
-		id = 950201,
-		scale = 0.75,
-		weapon_ID = {
-			950207
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.64,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[950202] = {
-		name = "【挑战关卡12】赤城_鱼雷机",
-		max_hp = 141,
+	[2950000] = {
+		name = "【大世界】皇家方舟浮游炮",
+		max_hp = 156,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "fuyoupao2",
 		ACC_growth = 0,
-		crash_DMG = 79,
+		crash_DMG = 220,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "97jiangong",
-		funnel_behavior = "",
+		icon = "fuyoupao2",
 		nationality = 3,
-		hp_growth = 2520,
-		speed = 33,
-		id = 950202,
-		scale = 0.75,
-		weapon_ID = {
-			950208
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.27,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[950250] = {
-		name = "【俾斯麦活动C3】鱼雷封锁",
-		max_hp = 3500,
-		accuracy = 50,
-		model_ID = "jianyu810",
-		ACC_growth = 0,
-		crash_DMG = 240,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "jianyu810",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 0,
+		hp_growth = 40000,
 		speed = 30,
-		id = 950250,
+		id = 2950000,
 		scale = 0.75,
+		funnel_behavior = {
+			stay = 4,
+			exist = 16
+		},
 		weapon_ID = {
-			610111
+			2950001
 		},
 		position_offset = {
 			0,
@@ -262,13 +43,13 @@ pg.aircraft_template_390 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					2.72,
+					-0.21,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					3.2,
+					-0.14,
 					0
 				}
 			}
@@ -285,7 +66,7 @@ pg.aircraft_template_390 = {
 				0
 			},
 			{
-				0.64,
+				0,
 				0,
 				0
 			},
@@ -296,28 +77,30 @@ pg.aircraft_template_390 = {
 			}
 		}
 	},
-	[950241] = {
-		name = "【挑战关卡15】皇家方舟_战斗机",
-		max_hp = 141,
+	[2950002] = {
+		name = "【大世界】皇家方舟浮游炮2",
+		max_hp = 156,
 		accuracy = 23,
-		model_ID = "haipenhuo",
+		model_ID = "fuyoupao2",
 		ACC_growth = 0,
-		crash_DMG = 79,
+		crash_DMG = 220,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "haipenhuo",
-		funnel_behavior = "",
+		icon = "fuyoupao2",
 		nationality = 3,
-		hp_growth = 2520,
-		speed = 33,
-		id = 950241,
+		hp_growth = 80000,
+		speed = 70,
+		id = 2950002,
 		scale = 0.75,
+		funnel_behavior = {
+			stay = 4,
+			exist = 16
+		},
 		weapon_ID = {
-			950244,
-			950245
+			2950003
 		},
 		position_offset = {
 			0,
@@ -337,13 +120,13 @@ pg.aircraft_template_390 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					2.72,
+					-0.21,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					3.2,
+					-0.14,
 					0
 				}
 			}
@@ -360,7 +143,7 @@ pg.aircraft_template_390 = {
 				0
 			},
 			{
-				0.27,
+				0,
 				0,
 				0
 			},
@@ -371,176 +154,105 @@ pg.aircraft_template_390 = {
 			}
 		}
 	},
-	[950242] = {
-		name = "【挑战关卡15】皇家方舟_轰炸机",
-		max_hp = 1800,
-		accuracy = 50,
-		model_ID = "haiyan",
-		ACC_growth = 0,
-		crash_DMG = 240,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "haiyan",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 0,
-		speed = 30,
-		id = 950242,
-		scale = 0.75,
-		weapon_ID = {
-			950243
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.64,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[950263] = {
-		name = "轰炸机",
-		max_hp = 150,
+	[2950004] = {
+		name = "【大世界】皇家方舟浮游炮3",
+		max_hp = 156,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "fuyoupao2",
 		ACC_growth = 0,
-		crash_DMG = 80,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "99shijianbao1",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2520,
-		speed = 30,
-		id = 950263,
-		scale = 0.75,
-		weapon_ID = {
-			950273
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[950264] = {
-		name = "战斗机",
-		max_hp = 150,
-		accuracy = 23,
-		model_ID = "lingzhan21gai",
-		ACC_growth = 0,
-		crash_DMG = 80,
+		crash_DMG = 220,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "lingzhan21gai",
+		icon = "fuyoupao2",
+		nationality = 3,
+		hp_growth = 200000,
+		speed = 70,
+		id = 2950004,
+		scale = 0.75,
+		funnel_behavior = {
+			stay = 4,
+			exist = 16
+		},
+		weapon_ID = {
+			2950005
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					2.72,
+					-0.21,
+					0
+				},
+				{
+					3.2,
+					-0.14,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[2200765] = {
+		name = "【大世界】美系舰载-战斗机I",
+		max_hp = 128,
+		accuracy = 35,
+		model_ID = "F4F",
+		ACC_growth = 0,
+		crash_DMG = 72,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F4F",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2520,
+		hp_growth = 3360,
 		speed = 33,
-		id = 950264,
+		id = 2200765,
 		scale = 0.75,
 		weapon_ID = {
-			950274,
-			950275
+			1100745,
+			1100750
 		},
 		position_offset = {
 			0,
@@ -594,26 +306,328 @@ pg.aircraft_template_390 = {
 			}
 		}
 	},
-	[950276] = {
-		name = "赤城蓄力武器飞机群",
-		max_hp = 150,
-		accuracy = 23,
-		model_ID = "99shijianbao1",
+	[2200766] = {
+		name = "【大世界】美系舰载-战斗机II",
+		max_hp = 176,
+		accuracy = 35,
+		model_ID = "F4F",
 		ACC_growth = 0,
-		crash_DMG = 80,
+		crash_DMG = 96,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F4F",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3920,
+		speed = 33,
+		id = 2200766,
+		scale = 0.75,
+		weapon_ID = {
+			1100746,
+			1100751
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[2200767] = {
+		name = "【大世界】美系舰载-战斗机III",
+		max_hp = 224,
+		accuracy = 35,
+		model_ID = "F4F",
+		ACC_growth = 0,
+		crash_DMG = 124,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F4F",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 4480,
+		speed = 33,
+		id = 2200767,
+		scale = 0.75,
+		weapon_ID = {
+			1100747,
+			1100752
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[2200768] = {
+		name = "【大世界】美系舰载-战斗机IV",
+		max_hp = 272,
+		accuracy = 35,
+		model_ID = "F4F",
+		ACC_growth = 0,
+		crash_DMG = 156,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F4F",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 5040,
+		speed = 33,
+		id = 2200768,
+		scale = 0.75,
+		weapon_ID = {
+			1100748,
+			1100753
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[2200769] = {
+		name = "【大世界】美系舰载-战斗机V",
+		max_hp = 320,
+		accuracy = 35,
+		model_ID = "F4F",
+		ACC_growth = 0,
+		crash_DMG = 196,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F4F",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 5600,
+		speed = 33,
+		id = 2200769,
+		scale = 0.75,
+		weapon_ID = {
+			1100749,
+			1100754
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[2200770] = {
+		name = "【大世界】美系舰载-鱼雷机I",
+		max_hp = 144,
+		accuracy = 35,
+		model_ID = "tbd",
+		ACC_growth = 0,
+		crash_DMG = 104,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "tbd",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2520,
-		speed = 50,
-		id = 950276,
+		hp_growth = 4080,
+		speed = 30,
+		id = 2200770,
 		scale = 0.75,
-		weapon_ID = {},
+		weapon_ID = {
+			1100755
+		},
 		position_offset = {
 			0,
 			5,
@@ -632,13 +646,13 @@ pg.aircraft_template_390 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.56,
-					-0.76,
+					-1.13,
+					-1.29,
 					0
 				},
 				{
-					0.48,
-					0.99,
+					-1.25,
+					1.47,
 					0
 				}
 			}
@@ -655,7 +669,81 @@ pg.aircraft_template_390 = {
 				0
 			},
 			{
+				0.54,
 				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[2200771] = {
+		name = "【大世界】美系舰载-鱼雷机II",
+		max_hp = 198,
+		accuracy = 35,
+		model_ID = "tbd",
+		ACC_growth = 0,
+		crash_DMG = 140,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "tbd",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 4760,
+		speed = 30,
+		id = 2200771,
+		scale = 0.75,
+		weapon_ID = {
+			1100756
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
 				0,
 				0
 			},

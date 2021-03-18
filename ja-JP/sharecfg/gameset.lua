@@ -1707,5 +1707,24 @@ pg.gameset = {
 			10,
 			10
 		}
+	},
+	world_fleet_unlock_level = {
+		key_value = 0,
+		description = {
+			{
+				"fleet_totle_level",
+				2,
+				1,
+				480
+			}
+		}
+	},
+	world_metaboss_supportattack = {
+		key_value = 0,
+		description = {
+			31,
+			75,
+			8832
+		}
 	}
 }

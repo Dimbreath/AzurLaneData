@@ -1,80 +1,40 @@
 pg = pg or {}
 pg.aircraft_template_153 = {
-	[65254] = {
-		max_hp = 52,
-		name = "坠星机LV4",
-		base = 65251,
-		id = 65254,
-		hp_growth = 2010,
+	[67168] = {
+		max_hp = 77,
+		name = "半人马技能鱼雷机Lv8",
+		base = 67160,
+		id = 67168,
+		hp_growth = 2943,
 		weapon_ID = {
-			65264
+			67208
 		}
 	},
-	[65255] = {
-		max_hp = 58,
-		name = "坠星机LV5",
-		base = 65251,
-		id = 65255,
-		hp_growth = 2218,
+	[67169] = {
+		max_hp = 82,
+		name = "半人马技能鱼雷机Lv9",
+		base = 67160,
+		id = 67169,
+		hp_growth = 3143,
 		weapon_ID = {
-			65265
+			67209
 		}
 	},
-	[65256] = {
-		max_hp = 63,
-		name = "坠星机LV6",
-		base = 65251,
-		id = 65256,
-		hp_growth = 2426,
+	[67170] = {
+		max_hp = 87,
+		name = "半人马技能鱼雷机Lv10",
+		base = 67160,
+		id = 67170,
+		hp_growth = 3344,
 		weapon_ID = {
-			65266
+			67210
 		}
 	},
-	[65257] = {
-		max_hp = 68,
-		name = "坠星机LV7",
-		base = 65251,
-		id = 65257,
-		hp_growth = 2634,
-		weapon_ID = {
-			65267
-		}
-	},
-	[65258] = {
-		max_hp = 74,
-		name = "坠星机LV8",
-		base = 65251,
-		id = 65258,
-		hp_growth = 2842,
-		weapon_ID = {
-			65268
-		}
-	},
-	[65259] = {
-		max_hp = 79,
-		name = "坠星机LV9",
-		base = 65251,
-		id = 65259,
-		hp_growth = 3050,
-		weapon_ID = {
-			65269
-		}
-	},
-	[65260] = {
-		max_hp = 85,
-		name = "坠星机LV10",
-		base = 65251,
-		id = 65260,
-		hp_growth = 3258,
-		weapon_ID = {
-			65270
-		}
-	},
-	[65381] = {
-		name = "女天狗沙排啾轰炸机Lv1",
+	[67240] = {
+		name = "伊势技能轰炸机Lv0",
 		max_hp = 42,
 		accuracy = 23,
-		model_ID = "feiji_doa",
+		model_ID = "huixing",
 		ACC_growth = 0,
 		crash_DMG = 208,
 		dodge = 1,
@@ -82,16 +42,16 @@ pg.aircraft_template_153 = {
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "feiji_doa",
+		icon = "huixing",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1846,
+		hp_growth = 1605,
 		speed = 48,
-		id = 65381,
+		id = 67240,
 		scale = 1,
 		weapon_ID = {
-			65391,
-			65401
+			67260,
+			67280
 		},
 		position_offset = {
 			0,
@@ -145,15 +105,70 @@ pg.aircraft_template_153 = {
 			}
 		}
 	},
-	[65382] = {
+	[67241] = {
 		max_hp = 48,
-		name = "女天狗沙排啾轰炸机Lv2",
-		base = 65381,
-		id = 65382,
+		name = "伊势技能轰炸机Lv1",
+		base = 67240,
+		id = 67241,
+		hp_growth = 1846,
+		weapon_ID = {
+			67261,
+			67281
+		}
+	},
+	[67242] = {
+		max_hp = 54,
+		name = "伊势技能轰炸机Lv2",
+		base = 67240,
+		id = 67242,
 		hp_growth = 2087,
 		weapon_ID = {
-			65392,
-			65402
+			67262,
+			67282
+		}
+	},
+	[67243] = {
+		max_hp = 61,
+		name = "伊势技能轰炸机Lv3",
+		base = 67240,
+		id = 67243,
+		hp_growth = 2327,
+		weapon_ID = {
+			67263,
+			67283
+		}
+	},
+	[67244] = {
+		max_hp = 67,
+		name = "伊势技能轰炸机Lv4",
+		base = 67240,
+		id = 67244,
+		hp_growth = 2568,
+		weapon_ID = {
+			67264,
+			67284
+		}
+	},
+	[67245] = {
+		max_hp = 73,
+		name = "伊势技能轰炸机Lv5",
+		base = 67240,
+		id = 67245,
+		hp_growth = 2809,
+		weapon_ID = {
+			67265,
+			67285
+		}
+	},
+	[67246] = {
+		max_hp = 79,
+		name = "伊势技能轰炸机Lv6",
+		base = 67240,
+		id = 67246,
+		hp_growth = 3050,
+		weapon_ID = {
+			67266,
+			67286
 		}
 	}
 }

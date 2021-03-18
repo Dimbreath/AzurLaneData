@@ -16,7 +16,7 @@ function slot1.Update(slot0, ...)
 	slot1.anchorMax = Vector2(0.5, 1)
 	slot1.anchoredPosition = Vector2((slot2 - 0.5) * slot0._parentTf.rect.width, 0)
 	slot0.map.pivot = Vector2(slot2, 1)
-	slot6 = 1
+	slot6 = nil
 	slot6 = slot0.map.rect.width / slot0.map.rect.height < slot0._parentTf.rect.width / slot0._parentTf.rect.height and slot0._parentTf.rect.width / slot0._tf.rect.width or slot0._parentTf.rect.height / slot0._tf.rect.height
 	slot0._tf.localScale = Vector3(slot6, slot6, slot6)
 
@@ -47,13 +47,26 @@ function slot1.UpdateMapItems()
 	-- IndexError: pop from empty list
 end
 
+function slot1.OnShow(slot0)
+	setActive(slot0.sceneParent.topChapter:Find("type_skirmish"), true)
+	setActive(slot0.sceneParent.skirmishBar, true)
+	setActive(slot0.sceneParent.leftChapter:Find("buttons"), false)
+	setActive(slot0.sceneParent.eventContainer, false)
+	setActive(slot0.sceneParent.rightChapter, false)
+end
+
 function slot1.OnHide(slot0)
+	setActive(slot0.sceneParent.topChapter:Find("type_skirmish"), false)
+	setActive(slot0.sceneParent.skirmishBar, false)
+	setActive(slot0.sceneParent.leftChapter:Find("buttons"), true)
+	setActive(slot0.sceneParent.eventContainer, true)
+	setActive(slot0.sceneParent.rightChapter, true)
+
 	for slot5 = 1, slot0._tf:Find("skirmish_items").childCount do
 		LeanTween.cancel(go(slot1:GetChild(slot5 - 1)))
 	end
 
 	LeanTween.cancel(go(slot0._tf:Find("cloud")))
-	setActive(slot0.sceneParent.skirmishBar, false)
 end
 
 return slot1

@@ -8,9 +8,7 @@ function slot0.register(slot0)
 
 	slot0:getViewComponent():SetEnv(slot0.env)
 
-	slot1 = EquipmentTraceBackLayer.GetTracebackResultFuncCreator()
-	slot0.env.GetEquipTraceBack = slot1.traceback
-	slot0.env.GetSameTypeInEquips = slot1.getSameEquipTypeInDict
+	slot0.env.tracebackHelper = getProxy(EquipmentProxy):GetWeakEquipsDict()
 	slot0.env.nationsTree = EquipmentProxy.EquipmentTransformTreeTemplate
 end
 
@@ -29,7 +27,6 @@ function slot0.listNotificationInterests(slot0)
 		EquipmentProxy.EQUIPMENT_ADDED,
 		EquipmentProxy.EQUIPMENT_UPDATED,
 		EquipmentProxy.EQUIPMENT_REMOVED,
-		BayProxy.SHIP_UPDATED,
 		EquipmentTransformMediator.UPDATE_NEW_FLAG
 	}
 end
@@ -39,11 +36,7 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == PlayerProxy.UPDATED or slot2 == BagProxy.ITEM_ADDED or slot2 == BagProxy.ITEM_UPDATED then
 		slot0:getViewComponent():UpdateItemNodes()
-	elseif slot2 == EquipmentProxy.EQUIPMENT_ADDED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED or slot2 == EquipmentProxy.EQUIPMENT_REMOVED or slot2 == BayProxy.SHIP_UPDATED then
-		slot4 = EquipmentTraceBackLayer.GetTracebackResultFuncCreator()
-		slot0.env.GetEquipTraceBack = slot4.traceback
-		slot0.env.GetSameTypeInEquips = slot4.getSameEquipTypeInDict
-
+	elseif slot2 == EquipmentProxy.EQUIPMENT_ADDED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED or slot2 == EquipmentProxy.EQUIPMENT_REMOVED then
 		if slot2 == EquipmentProxy.EQUIPMENT_REMOVED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED and slot3.count == 0 then
 			slot0:getViewComponent():UpdateItemNodes()
 		end

@@ -201,6 +201,19 @@ function slot0.Preload(slot0)
 			for slot12, slot13 in ipairs(slot2:getSortShipsByFleet(nowWorld:GetBossProxy():GetFleet())) do
 				table.insert(slot3, slot13)
 			end
+
+			if slot6:GetBossById(slot0.contextData.bossId) and slot9:IsSelf() then
+				slot10, slot11, slot12 = slot6.GetSupportValue()
+
+				if slot10 then
+					uv0.addChapterAuraRes({
+						{
+							level = 1,
+							id = slot12
+						}
+					})
+				end
+			end
 		elseif slot0.contextData.system == SYSTEM_WORLD then
 			slot11 = true
 

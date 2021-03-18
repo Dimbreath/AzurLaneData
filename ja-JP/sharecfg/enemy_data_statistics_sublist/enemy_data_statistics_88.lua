@@ -1,5 +1,68 @@
 pg = pg or {}
 pg.enemy_data_statistics_88 = {
+	[105026] = {
+		name = "ヒエイ",
+		rarity = 4,
+		speed_growth = 0,
+		hit_growth = 210,
+		air = 0,
+		armor = 0,
+		antisub = 0,
+		antiaircraft_growth = 3744,
+		antiaircraft = 275,
+		cannon = 265,
+		dodge_growth = 48,
+		star = 5,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 220,
+		durability = 6000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 18,
+		luck = 0,
+		id = 105026,
+		cannon_growth = 2000,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 3,
+		reload_growth = 0,
+		hit = 18,
+		torpedo = 0,
+		durability_growth = 72800,
+		luck_growth = 0,
+		battle_unit_type = 65,
+		bound_bone = {
+			cannon = {
+				{
+					0.82,
+					0.67,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			100202,
+			100542,
+			315060
+		},
+		buff_list = {
+			{
+				ID = 50510,
+				LV = 2
+			}
+		}
+	},
 	[105027] = {
 		name = "キリシマ",
 		rarity = 4,
@@ -607,44 +670,6 @@ pg.enemy_data_statistics_88 = {
 			100202,
 			100522,
 			100422
-		}
-	},
-	[105042] = {
-		cannon = 155,
-		name = "アオバ",
-		air = 0,
-		cannon_growth = 1638,
-		pilot_ai_template_id = 20002,
-		reload = 150,
-		armor = 0,
-		dodge = 6,
-		torpedo = 180,
-		antiaircraft_growth = 2340,
-		reload_growth = 0,
-		dodge_growth = 84,
-		hit_growth = 210,
-		star = 4,
-		hit = 18,
-		antisub_growth = 0,
-		rarity = 3,
-		speed_growth = 0,
-		base = 201,
-		durability = 2800,
-		armor_growth = 0,
-		durability_growth = 41500,
-		antiaircraft = 225,
-		speed = 16,
-		luck = 0,
-		luck_growth = 0,
-		air_growth = 0,
-		id = 105042,
-		battle_unit_type = 60,
-		torpedo_growth = 2250,
-		antisub = 0,
-		equipment_list = {
-			100202,
-			100512,
-			100412
 		}
 	}
 }

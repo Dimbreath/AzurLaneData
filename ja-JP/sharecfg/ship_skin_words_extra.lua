@@ -4014,6 +4014,37 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[9707020] = {
+		touch = "",
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		id = 9707020,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = "",
+		detail = "",
+		main_extra = {
+			{
+				1100,
+				"守るべき存在を大事にしたいのはヒトの然るべき感情だ。閣下もそのうちわかるさ|愛でたいものをとことん愛でるがいい。自分に素直のほうが長生きするぞ"
+			}
+		}
+	},
 	all = {
 		999010,
 		801040,
@@ -4083,6 +4114,7 @@ pg.ship_skin_words_extra = {
 		702060,
 		703010,
 		702040,
-		705040
+		705040,
+		9707020
 	}
 }

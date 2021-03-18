@@ -53,28 +53,11 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.Destroy(slot0)
-	if slot0._state == uv0.STATES.DESTROY then
-		return
+	if slot0._state == uv0.STATES.INITED then
+		slot0:Hide()
 	end
 
-	if not slot0:GetLoaded() then
-		slot0._state = uv0.STATES.DESTROY
-
-		return
-	end
-
-	slot0:Hide()
-	slot0:OnDestroy()
-	pg.DelegateInfo.Dispose(slot0)
-	setParent(slot0._tf, pg.UIMgr.GetInstance().UIMain, false)
-	slot0:DisposeGO(slot0:getUIName(), slot0._go)
-
-	slot0._go = nil
-
-	slot0:disposeEvent()
-	slot0:cleanManagedTween()
-
-	slot0._state = uv0.STATES.DESTROY
+	uv0.super.Destroy(slot0, go)
 end
 
 function slot0.OnDestroy(slot0)
@@ -104,6 +87,9 @@ end
 
 function slot0.Update(slot0, slot1)
 	slot0.data = slot1
+end
+
+function slot0.UpdateButtons(slot0)
 end
 
 function slot0.PostUpdateMap(slot0, slot1)

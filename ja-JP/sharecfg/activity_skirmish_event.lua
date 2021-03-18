@@ -5,7 +5,7 @@ pg.activity_skirmish_event = {
 		name = "P1 演習",
 		type = 1,
 		event = "1242017",
-		task_id = 14780,
+		task_id = 16500,
 		award_display = {}
 	},
 	[102] = {
@@ -13,7 +13,7 @@ pg.activity_skirmish_event = {
 		name = "P2 護衛",
 		type = 2,
 		event = "1250031",
-		task_id = 14781,
+		task_id = 16501,
 		award_display = {}
 	},
 	[103] = {
@@ -21,7 +21,7 @@ pg.activity_skirmish_event = {
 		name = "P3 作戦",
 		type = 1,
 		event = "FENGBAOQIANXI3",
-		task_id = 14782,
+		task_id = 16502,
 		award_display = {}
 	},
 	[104] = {
@@ -29,7 +29,7 @@ pg.activity_skirmish_event = {
 		name = "P4 合流",
 		type = 2,
 		event = "1250032",
-		task_id = 14783,
+		task_id = 16503,
 		award_display = {}
 	},
 	[105] = {
@@ -37,7 +37,7 @@ pg.activity_skirmish_event = {
 		name = "P5 掃討",
 		type = 2,
 		event = "1250033",
-		task_id = 14784,
+		task_id = 16504,
 		award_display = {}
 	},
 	[106] = {
@@ -45,7 +45,7 @@ pg.activity_skirmish_event = {
 		name = "P6 撹乱",
 		type = 1,
 		event = "FENGBAOQIANXI7",
-		task_id = 14785,
+		task_id = 16505,
 		award_display = {}
 	},
 	[107] = {
@@ -53,7 +53,7 @@ pg.activity_skirmish_event = {
 		name = "P7 連絡",
 		type = 2,
 		event = "1250034",
-		task_id = 14786,
+		task_id = 16506,
 		award_display = {}
 	},
 	all = {

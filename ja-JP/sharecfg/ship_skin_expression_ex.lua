@@ -3238,5 +3238,37 @@ pg.ship_skin_expression_ex = {
 				"5"
 			}
 		}
+	},
+	huangjiafangzhou_alter = {
+		touch = "",
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		touch2 = "",
+		mail = "",
+		painting = "huangjiafangzhou_alter",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = "",
+		detail = "",
+		main_ex = {
+			{
+				1100,
+				"1|4"
+			}
+		}
 	}
 }

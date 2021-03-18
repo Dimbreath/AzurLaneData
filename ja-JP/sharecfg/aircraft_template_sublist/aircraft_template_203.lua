@@ -1,160 +1,93 @@
 pg = pg or {}
 pg.aircraft_template_203 = {
-	[69458] = {
+	[81261] = {
+		id = 81261,
+		base = 81260,
+		max_hp = 51,
+		hp_growth = 1947,
+		weapon_ID = {
+			50461
+		}
+	},
+	[81262] = {
+		id = 81262,
+		base = 81260,
+		max_hp = 57,
+		hp_growth = 2201,
+		weapon_ID = {
+			50462
+		}
+	},
+	[81263] = {
+		id = 81263,
+		base = 81260,
+		max_hp = 64,
+		hp_growth = 2455,
+		weapon_ID = {
+			50463
+		}
+	},
+	[81264] = {
+		id = 81264,
+		base = 81260,
+		max_hp = 70,
+		hp_growth = 2710,
+		weapon_ID = {
+			50464
+		}
+	},
+	[81265] = {
+		id = 81265,
+		base = 81260,
+		max_hp = 77,
+		hp_growth = 2964,
+		weapon_ID = {
+			50465
+		}
+	},
+	[81266] = {
+		id = 81266,
+		base = 81260,
+		max_hp = 84,
+		hp_growth = 3218,
+		weapon_ID = {
+			50466
+		}
+	},
+	[81267] = {
+		id = 81267,
+		base = 81260,
+		max_hp = 90,
+		hp_growth = 3472,
+		weapon_ID = {
+			50467
+		}
+	},
+	[81268] = {
+		id = 81268,
+		base = 81260,
 		max_hp = 97,
-		name = "贝亚恩V-156F-LV8",
-		base = 69451,
-		id = 69458,
 		hp_growth = 3726,
 		weapon_ID = {
-			50708,
-			69468
+			50468
 		}
 	},
-	[69459] = {
+	[81269] = {
+		id = 81269,
+		base = 81260,
 		max_hp = 103,
-		name = "贝亚恩V-156F-LV9",
-		base = 69451,
-		id = 69459,
 		hp_growth = 3980,
 		weapon_ID = {
-			50709,
-			69469
+			50469
 		}
 	},
-	[69460] = {
+	[81270] = {
+		id = 81270,
+		base = 81260,
 		max_hp = 110,
-		name = "贝亚恩V-156F-LV10",
-		base = 69451,
-		id = 69460,
 		hp_growth = 4234,
 		weapon_ID = {
-			50710,
-			69470
-		}
-	},
-	[69481] = {
-		name = "小光辉技能鱼雷机Lv1",
-		max_hp = 40,
-		accuracy = 23,
-		model_ID = "jianyu",
-		ACC_growth = 0,
-		crash_DMG = 306,
-		dodge = 1.11,
-		attack_power = 2,
-		dodge_limit = 4,
-		type = 2,
-		AP_growth = 2000,
-		icon = "jianyu",
-		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1538,
-		speed = 45,
-		id = 69481,
-		scale = 1,
-		weapon_ID = {
-			69491
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.52,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[69482] = {
-		max_hp = 45,
-		name = "小光辉技能鱼雷机Lv2",
-		base = 69481,
-		id = 69482,
-		hp_growth = 1739,
-		weapon_ID = {
-			69492
-		}
-	},
-	[69483] = {
-		max_hp = 50,
-		name = "小光辉技能鱼雷机Lv3",
-		base = 69481,
-		id = 69483,
-		hp_growth = 1940,
-		weapon_ID = {
-			69493
-		}
-	},
-	[69484] = {
-		max_hp = 56,
-		name = "小光辉技能鱼雷机Lv4",
-		base = 69481,
-		id = 69484,
-		hp_growth = 2140,
-		weapon_ID = {
-			69494
-		}
-	},
-	[69485] = {
-		max_hp = 61,
-		name = "小光辉技能鱼雷机Lv5",
-		base = 69481,
-		id = 69485,
-		hp_growth = 2341,
-		weapon_ID = {
-			69495
-		}
-	},
-	[69486] = {
-		max_hp = 66,
-		name = "小光辉技能鱼雷机Lv6",
-		base = 69481,
-		id = 69486,
-		hp_growth = 2541,
-		weapon_ID = {
-			69496
+			50470
 		}
 	}
 }

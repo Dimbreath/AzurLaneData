@@ -1,5 +1,102 @@
 pg = pg or {}
 pg.enemy_data_statistics_59 = {
+	[805200] = {
+		name = "イカヅチ",
+		rarity = 3,
+		speed_growth = 0,
+		hit_growth = 0,
+		air = 0,
+		dodge = 100,
+		armor = 0,
+		antisub = 0,
+		antiaircraft_growth = 0,
+		antiaircraft = 235,
+		cannon = 394,
+		dodge_growth = 0,
+		star = 4,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 163,
+		durability = 34652,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 37,
+		luck = 0,
+		id = 805200,
+		cannon_growth = 0,
+		reload = 150,
+		reload_growth = 0,
+		hit = 31,
+		torpedo = 742,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		bound_bone = {
+			cannon = {
+				{
+					0.61,
+					0.49,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.61,
+					0.49,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.31,
+					0.17,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.61,
+					0.49,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.23,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.56,
+							2.91,
+							-0.14
+						}
+					}
+				}
+			}
+		},
+		equipment_list = {
+			100223,
+			100432,
+			317007,
+			317012,
+			318102
+		}
+	},
 	[805300] = {
 		cannon = 646,
 		name = "ナチ",
@@ -553,46 +650,6 @@ pg.enemy_data_statistics_59 = {
 		equipment_list = {
 			318031,
 			318032
-		}
-	},
-	[9012] = {
-		cannon = 95,
-		name = "シグレ",
-		hit_growth = 210,
-		speed_growth = 0,
-		antiaircraft_growth = 2200,
-		air = 0,
-		antisub = 0,
-		armor = 0,
-		rarity = 3,
-		antiaircraft = 105,
-		dodge_growth = 270,
-		star = 4,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 166,
-		durability = 4500,
-		armor_growth = 0,
-		torpedo_growth = 5200,
-		speed = 36,
-		luck = 0,
-		id = 9012,
-		cannon_growth = 616,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 18,
-		reload_growth = 0,
-		hit = 20,
-		torpedo = 230,
-		durability_growth = 26000,
-		luck_growth = 0,
-		battle_unit_type = 50,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			318033,
-			318034
 		}
 	}
 }

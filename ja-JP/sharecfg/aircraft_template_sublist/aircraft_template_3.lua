@@ -1,153 +1,5 @@
 pg = pg or {}
 pg.aircraft_template_3 = {
-	[127] = {
-		name = "默认鸢尾轰炸机",
-		max_hp = 29,
-		accuracy = 23,
-		model_ID = "GL2",
-		ACC_growth = 0,
-		crash_DMG = 9,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "GL2",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1126,
-		speed = 46,
-		id = 127,
-		scale = 1,
-		weapon_ID = {
-			139
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[128] = {
-		name = "默认鸢尾战斗机-自动防空",
-		max_hp = 28,
-		accuracy = 23,
-		model_ID = "GL2",
-		ACC_growth = 0,
-		crash_DMG = 9,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "GL2",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1075,
-		speed = 50,
-		id = 128,
-		scale = 1,
-		weapon_ID = {
-			146
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.72,
-				-0.15,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
 	[144] = {
 		name = "默认潜母水侦",
 		max_hp = 27,
@@ -469,6 +321,33 @@ pg.aircraft_template_3 = {
 				0,
 				0
 			}
+		}
+	},
+	[4221] = {
+		id = 4221,
+		base = 4220,
+		max_hp = 36,
+		hp_growth = 1398,
+		weapon_ID = {
+			53121
+		}
+	},
+	[4222] = {
+		id = 4222,
+		base = 4220,
+		max_hp = 41,
+		hp_growth = 1581,
+		weapon_ID = {
+			53122
+		}
+	},
+	[4223] = {
+		id = 4223,
+		base = 4220,
+		max_hp = 46,
+		hp_growth = 1763,
+		weapon_ID = {
+			53123
 		}
 	}
 }

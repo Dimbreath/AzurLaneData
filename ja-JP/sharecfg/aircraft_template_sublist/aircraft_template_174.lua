@@ -1,25 +1,39 @@
 pg = pg or {}
 pg.aircraft_template_174 = {
-	[67360] = {
-		name = "大凤技能轰炸机Lv0",
-		max_hp = 42,
+	[68630] = {
+		max_hp = 110,
+		name = "巴丹技能F6FLV10",
+		base = 68621,
+		id = 68630,
+		hp_growth = 4234,
+		weapon_ID = {
+			50350,
+			50550,
+			68640
+		}
+	},
+	[68651] = {
+		name = "可畏技能鱼雷机Lv1",
+		max_hp = 36,
 		accuracy = 23,
-		model_ID = "huixing",
+		model_ID = "qinghuayu",
 		ACC_growth = 0,
-		crash_DMG = 208,
+		crash_DMG = 406,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 3,
+		type = 2,
 		AP_growth = 2000,
-		icon = "huixing",
+		icon = "qinghuayu",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1605,
+		nationality = 1,
+		hp_growth = 1385,
 		speed = 60,
-		id = 67360,
+		id = 68651,
 		scale = 1,
-		weapon_ID = {},
+		weapon_ID = {
+			68661
+		},
 		position_offset = {
 			0,
 			5,
@@ -38,13 +52,13 @@ pg.aircraft_template_174 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -61,8 +75,8 @@ pg.aircraft_template_174 = {
 				0
 			},
 			{
-				0.64,
-				0,
+				0.15,
+				-0.08,
 				0
 			},
 			{
@@ -72,60 +86,84 @@ pg.aircraft_template_174 = {
 			}
 		}
 	},
-	[67361] = {
-		id = 67361,
-		name = "大凤技能轰炸机Lv1",
-		base = 67360,
+	[68652] = {
+		max_hp = 42,
+		name = "可畏技能鱼雷机Lv2",
+		base = 68651,
+		id = 68652,
+		hp_growth = 1621,
+		weapon_ID = {
+			68662
+		}
+	},
+	[68653] = {
 		max_hp = 48,
-		hp_growth = 1846
+		name = "可畏技能鱼雷机Lv3",
+		base = 68651,
+		id = 68653,
+		hp_growth = 1857,
+		weapon_ID = {
+			68663
+		}
 	},
-	[67362] = {
-		id = 67362,
-		name = "大凤技能轰炸机Lv2",
-		base = 67360,
+	[68654] = {
 		max_hp = 54,
-		hp_growth = 2087
+		name = "可畏技能鱼雷机Lv4",
+		base = 68651,
+		id = 68654,
+		hp_growth = 2093,
+		weapon_ID = {
+			68664
+		}
 	},
-	[67363] = {
-		id = 67363,
-		name = "大凤技能轰炸机Lv3",
-		base = 67360,
-		max_hp = 61,
-		hp_growth = 2327
+	[68655] = {
+		max_hp = 60,
+		name = "可畏技能鱼雷机Lv5",
+		base = 68651,
+		id = 68655,
+		hp_growth = 2329,
+		weapon_ID = {
+			68665
+		}
 	},
-	[67364] = {
-		id = 67364,
-		name = "大凤技能轰炸机Lv4",
-		base = 67360,
-		max_hp = 67,
-		hp_growth = 2568
+	[68656] = {
+		max_hp = 66,
+		name = "可畏技能鱼雷机Lv6",
+		base = 68651,
+		id = 68656,
+		hp_growth = 2565,
+		weapon_ID = {
+			68666
+		}
 	},
-	[67365] = {
-		id = 67365,
-		name = "大凤技能轰炸机Lv5",
-		base = 67360,
-		max_hp = 73,
-		hp_growth = 2809
+	[68657] = {
+		max_hp = 72,
+		name = "可畏技能鱼雷机Lv7",
+		base = 68651,
+		id = 68657,
+		hp_growth = 2801,
+		weapon_ID = {
+			68667
+		}
 	},
-	[67366] = {
-		id = 67366,
-		name = "大凤技能轰炸机Lv6",
-		base = 67360,
-		max_hp = 79,
-		hp_growth = 3050
+	[68658] = {
+		max_hp = 78,
+		name = "可畏技能鱼雷机Lv8",
+		base = 68651,
+		id = 68658,
+		hp_growth = 3037,
+		weapon_ID = {
+			68668
+		}
 	},
-	[67367] = {
-		id = 67367,
-		name = "大凤技能轰炸机Lv7",
-		base = 67360,
-		max_hp = 86,
-		hp_growth = 3290
-	},
-	[67368] = {
-		id = 67368,
-		name = "大凤技能轰炸机Lv8",
-		base = 67360,
-		max_hp = 92,
-		hp_growth = 3531
+	[68659] = {
+		max_hp = 84,
+		name = "可畏技能鱼雷机Lv9",
+		base = 68651,
+		id = 68659,
+		hp_growth = 3274,
+		weapon_ID = {
+			68669
+		}
 	}
 }

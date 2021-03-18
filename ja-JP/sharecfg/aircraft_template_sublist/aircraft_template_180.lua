@@ -1,114 +1,37 @@
 pg = pg or {}
 pg.aircraft_template_180 = {
-	[67893] = {
-		max_hp = 50,
-		name = "追赶者剑鱼 Lv3",
-		base = 67891,
-		id = 67893,
-		hp_growth = 1940,
+	[68960] = {
+		max_hp = 98,
+		name = "白上吹雪狐笋轰炸机Lv10",
+		base = 68951,
+		id = 68960,
+		hp_growth = 3678,
 		weapon_ID = {
-			67903,
-			67913
+			68970
 		}
 	},
-	[67894] = {
-		max_hp = 56,
-		name = "追赶者剑鱼 Lv4",
-		base = 67891,
-		id = 67894,
-		hp_growth = 2140,
-		weapon_ID = {
-			67904,
-			67914
-		}
-	},
-	[67895] = {
-		max_hp = 61,
-		name = "追赶者剑鱼 Lv5",
-		base = 67891,
-		id = 67895,
-		hp_growth = 2341,
-		weapon_ID = {
-			67905,
-			67915
-		}
-	},
-	[67896] = {
-		max_hp = 66,
-		name = "追赶者剑鱼 Lv6",
-		base = 67891,
-		id = 67896,
-		hp_growth = 2541,
-		weapon_ID = {
-			67906,
-			67916
-		}
-	},
-	[67897] = {
-		max_hp = 71,
-		name = "追赶者剑鱼 Lv7",
-		base = 67891,
-		id = 67897,
-		hp_growth = 2742,
-		weapon_ID = {
-			67907,
-			67917
-		}
-	},
-	[67898] = {
-		max_hp = 77,
-		name = "追赶者剑鱼 Lv8",
-		base = 67891,
-		id = 67898,
-		hp_growth = 2943,
-		weapon_ID = {
-			67908,
-			67918
-		}
-	},
-	[67899] = {
-		max_hp = 82,
-		name = "追赶者剑鱼 Lv9",
-		base = 67891,
-		id = 67899,
-		hp_growth = 3143,
-		weapon_ID = {
-			67909,
-			67919
-		}
-	},
-	[67900] = {
-		max_hp = 87,
-		name = "追赶者剑鱼 Lv10",
-		base = 67891,
-		id = 67900,
-		hp_growth = 3344,
-		weapon_ID = {
-			67910,
-			67920
-		}
-	},
-	[67921] = {
-		name = "独立技能鱼雷机Lv1",
-		max_hp = 42,
+	[69161] = {
+		name = "无畏技能SB2C(VB-18)轰炸机Lv1",
+		max_hp = 49,
 		accuracy = 23,
-		model_ID = "tbf",
+		model_ID = "sb2c",
 		ACC_growth = 0,
-		crash_DMG = 406,
-		dodge = 1,
+		crash_DMG = 180,
+		dodge = 3.33,
 		attack_power = 2,
-		dodge_limit = 0,
-		type = 2,
+		dodge_limit = 1,
+		type = 3,
 		AP_growth = 2000,
-		icon = "tbf",
+		icon = "sb2c",
 		funnel_behavior = "",
 		nationality = 1,
-		hp_growth = 1615,
-		speed = 48,
-		id = 67921,
+		hp_growth = 1870,
+		speed = 45,
+		id = 69161,
 		scale = 1,
 		weapon_ID = {
-			67941
+			69171,
+			69181
 		},
 		position_offset = {
 			0,
@@ -151,7 +74,7 @@ pg.aircraft_template_180 = {
 				0
 			},
 			{
-				0.52,
+				0.44,
 				0,
 				0
 			},
@@ -160,6 +83,94 @@ pg.aircraft_template_180 = {
 				0,
 				0
 			}
+		}
+	},
+	[69162] = {
+		max_hp = 55,
+		name = "无畏技能SB2C(VB-18)轰炸机Lv2",
+		base = 69161,
+		id = 69162,
+		hp_growth = 2114,
+		weapon_ID = {
+			69172,
+			69182
+		}
+	},
+	[69163] = {
+		max_hp = 61,
+		name = "无畏技能SB2C(VB-18)轰炸机Lv3",
+		base = 69161,
+		id = 69163,
+		hp_growth = 2358,
+		weapon_ID = {
+			69173,
+			69183
+		}
+	},
+	[69164] = {
+		max_hp = 68,
+		name = "无畏技能SB2C(VB-18)轰炸机Lv4",
+		base = 69161,
+		id = 69164,
+		hp_growth = 2602,
+		weapon_ID = {
+			69174,
+			69184
+		}
+	},
+	[69165] = {
+		max_hp = 74,
+		name = "无畏技能SB2C(VB-18)轰炸机Lv5",
+		base = 69161,
+		id = 69165,
+		hp_growth = 2846,
+		weapon_ID = {
+			69175,
+			69185
+		}
+	},
+	[69166] = {
+		max_hp = 80,
+		name = "无畏技能SB2C(VB-18)轰炸机Lv6",
+		base = 69161,
+		id = 69166,
+		hp_growth = 3090,
+		weapon_ID = {
+			69176,
+			69186
+		}
+	},
+	[69167] = {
+		max_hp = 87,
+		name = "无畏技能SB2C(VB-18)轰炸机Lv7",
+		base = 69161,
+		id = 69167,
+		hp_growth = 3334,
+		weapon_ID = {
+			69177,
+			69187
+		}
+	},
+	[69168] = {
+		max_hp = 93,
+		name = "无畏技能SB2C(VB-18)轰炸机Lv8",
+		base = 69161,
+		id = 69168,
+		hp_growth = 3578,
+		weapon_ID = {
+			69178,
+			69188
+		}
+	},
+	[69169] = {
+		max_hp = 99,
+		name = "无畏技能SB2C(VB-18)轰炸机Lv9",
+		base = 69161,
+		id = 69169,
+		hp_growth = 3822,
+		weapon_ID = {
+			69179,
+			69189
 		}
 	}
 }
