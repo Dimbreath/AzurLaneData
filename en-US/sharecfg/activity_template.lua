@@ -1359,7 +1359,7 @@ pg.activity_template = {
 				{
 					2021,
 					6,
-					10
+					9
 				},
 				{
 					23,
@@ -1399,7 +1399,7 @@ pg.activity_template = {
 				{
 					2021,
 					6,
-					10
+					9
 				},
 				{
 					23,

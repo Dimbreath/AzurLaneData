@@ -3180,7 +3180,7 @@ Morale drain and Affection gain are also increased by 100%. ]]
 				info = [[
 About Ashes Showdown:
 
-1. From <color=#92fc63>3/18/21 to 6/10/21</color>, challenge Ark Royal META
+1. From <color=#92fc63>3/18/21 to 6/9/21</color>, challenge Ark Royal META
 to earn Sync Points. Sync Points can be used
 to obtain the limited character, <color=#92fc63>Ark Royal META</color> as well
 as other great rewards.
@@ -7620,13 +7620,13 @@ Combat Details:
 		tip = "Rate UP for Sovetskaya Belorussiya, Kirov, and more!"
 	},
 	buildship_heavy_tip = {
-		tip = "Surcouf is added to standard build pool!"
+		tip = "Jean Bart, Massaschusetts and others are added to standard build pool! "
 	},
 	buildship_light_tip = {
-		tip = "Le Malin, Le Triomphant, L'Opiniâtre, Forbin and Le Mars are added to standard build pool!"
+		tip = "Le Malin, Le Triomphant and others are added to standard build pool! "
 	},
 	buildship_special_tip = {
-		tip = "Jean Bart, Massachusetts and Dunkerque are added to standard build pool! "
+		tip = "Surcouf is added to standard build pool! "
 	},
 	open_skill_pos = {
 		tip = "It will cost you <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffff00>$1</color> to unlock 3rd slot, Do you wish to proceed?"
@@ -13197,7 +13197,7 @@ Daily: Can be completed every day, resetting at 0:00 every day.]]
 		tip = "Select the skill to learn. "
 	},
 	meta_unlock_skill_tip = {
-		tip = "The following materials are required to learn <color=#92fc63>$2</color>: "
+		tip = "The following materials are required to learn \n<color=#92fc63>$2</color>: "
 	},
 	meta_unlock_skill_select = {
 		tip = "未配置tip"

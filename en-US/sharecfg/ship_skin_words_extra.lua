@@ -3963,7 +3963,7 @@ pg.ship_skin_words_extra = {
 		main_extra = {
 			{
 				1100,
-				"想要照顾需要保护的存在乃人之常情，阁下以后自然会懂的、|对关爱之人不必掩饰情感，尽量关心就好，直面自我才能活得长久哦。"
+				"It's only human to want to protect your loved ones. You'll come to understand it one day, Commander.|What are lovable things for, if not being loved with all one's heart? The takeaway is: be honest with yourself, and you'll live longer."
 			}
 		}
 	},
