@@ -1,17 +1,17 @@
 return {
 	name = "",
 	init_effect = "jinengchufared",
-	time = 50,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800078,
-	icon = 800070,
+	id = 800088,
+	icon = 800080,
 	last_effect = "",
 	blink = {
+		0,
+		0.7,
 		1,
-		0,
-		0,
 		0.3,
 		0.3
 	},

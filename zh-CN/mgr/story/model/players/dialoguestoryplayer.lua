@@ -415,8 +415,8 @@ function slot0.StartMovePrevPaitingToSide(slot0, slot1, slot2, slot3)
 			slot10 = slot2:GetPaintingDir()
 			slot8.localScale = Vector3(slot10, math.abs(slot10), 1)
 		end
-	else
-		setPaintingPrefab(slot8, slot2:GetPainting(), "duihua")
+	elseif slot2:GetPainting() then
+		setPaintingPrefab(slot8, slot9, "duihua")
 	end
 
 	slot0:TweenValue(slot8, slot5.localPosition.x, tf(slot8).localPosition.x, slot6, 0, function (slot0)
