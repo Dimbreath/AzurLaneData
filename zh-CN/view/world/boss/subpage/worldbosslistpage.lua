@@ -3,6 +3,16 @@ slot0.Listeners = {
 	onCacheBossUpdated = "OnCacheBossUpdated",
 	onRankListUpdated = "OnRankListUpdated"
 }
+slot1 = {
+	[970701] = {
+		411,
+		777
+	},
+	[970702] = {
+		411,
+		574
+	}
+}
 
 function slot0.getUIName(slot0)
 	return "WorldBossListUI"
@@ -23,10 +33,19 @@ function slot0.OnLoaded(slot0)
 	slot0.rankPage = WorldBossRankPage.New(slot0._tf.parent.parent, slot0._event)
 
 	slot0:AddListeners(slot0.proxy)
+
+	slot0.groupId = WorldBossConst.GetCurrBossGroup()
 end
 
 function slot0.OnInit(slot0)
-	slot0.scrollRect = WorldBossItemList.New(slot0:findTF("list_panel/mask/bg/container"), slot0:getTpl("list_panel/mask/tpl"))
+	slot0:findTF("main/label"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_title")
+	slot1 = slot0:getTpl("list_panel/mask/tpl")
+	slot1:Find("complete"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_02")
+	slot1:Find("raiding"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_03")
+	slot1:Find("empty"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_04")
+	slot1:Find("selected/challenging"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_01")
+	slot1:Find("selected/finished"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_05")
+	slot0.scrollRect = WorldBossItemList.New(slot0:findTF("list_panel/mask/bg/container"), slot1)
 
 	slot0.scrollRect:Make(function (slot0, slot1)
 		uv0:OnInitCard(slot0, slot1)
@@ -73,7 +92,7 @@ function slot0.OnInit(slot0)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_not_refresh_frequently"))
 	end, SFX_PANEL)
 
-	function slot1()
+	function slot2()
 		if _.all(uv0.filterFlags, function (slot0)
 			return slot0 == -1
 		end) then
@@ -108,7 +127,14 @@ function slot0.OnInit(slot0)
 		uv1()
 		uv0:UpdateNonProcessList()
 	end, SFX_PANEL)
-	setPaintingPrefabAsync(slot0.painting, "heilong", "lihuisha")
+	setPaintingPrefabAsync(slot0.painting, slot0.groupId, "lihuisha")
+
+	if uv0[slot0.groupId] then
+		setAnchoredPosition(slot0.painting, {
+			x = uv0[slot0.groupId][1],
+			y = uv0[slot0.groupId][2]
+		})
+	end
 end
 
 function slot0.RotateRefreshBtn(slot0, slot1)
@@ -331,7 +357,7 @@ function slot0.removeBattleTimer(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-	retPaintingPrefab(slot0.painting, "heilong")
+	retPaintingPrefab(slot0.painting, slot0.groupId)
 	slot0:RemoveListeners(slot0.proxy)
 	slot0:removeBattleTimer()
 	slot0.scrollRect:Dispose()

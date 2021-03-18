@@ -28,6 +28,10 @@ function slot0.register(slot0)
 			}
 		end
 	end)
+
+	slot0.weakTable = setmetatable({}, {
+		__mode = "v"
+	})
 end
 
 function slot0.getEquipmentSkins(slot0)
@@ -80,6 +84,7 @@ function slot0.addEquipment(slot0, slot1)
 		slot0.data.equipments[slot1.id] = slot1:clone()
 
 		slot0.data.equipments[slot1.id]:display("added")
+		slot0:OnEquipsUpdate(slot0.data.equipments[slot1.id])
 		slot0.facade:sendNotification(uv0.EQUIPMENT_ADDED, slot1:clone())
 	else
 		slot2.count = slot2.count + slot1.count
@@ -100,6 +105,7 @@ function slot0.updateEquipment(slot0, slot1)
 	slot0.data.equipments[slot1.id] = slot1.count ~= 0 and slot1:clone() or nil
 
 	slot1:display("updated")
+	slot0:OnEquipsUpdate(slot0.data.equipments[slot1.id] or slot1)
 	slot0.facade:sendNotification(uv0.EQUIPMENT_UPDATED, slot1:clone())
 end
 
@@ -259,6 +265,59 @@ for slot4, slot5 in pairs(pg.equip_upgrade_template.all) do
 	slot6 = pg.equip_upgrade_template[slot5]
 	slot0.EquipmentTransformTreeTemplate[slot6.category1] = slot0.EquipmentTransformTreeTemplate[slot6.category1] or {}
 	slot0.EquipmentTransformTreeTemplate[slot6.category1][slot6.category2] = slot6
+end
+
+function slot0.SameEquip(slot0, slot1)
+	if not slot0 or not slot1 then
+		return false
+	end
+
+	return slot0.id == slot1.id and slot0.shipId == slot1.shipId and slot0.shipPos == slot1.shipPos
+end
+
+function slot0.GetWeakEquipsDict(slot0)
+	if slot0.weakTable.equipsDict then
+		return slot0.weakTable.equipsDict
+	end
+
+	slot1 = EquipmentsDict.New()
+	slot0.weakTable.equipsDict = slot1
+
+	collectgarbage("collect")
+
+	return slot1
+end
+
+function slot0.OnEquipsUpdate(slot0, slot1)
+	if not slot0.weakTable.equipsDict then
+		return
+	end
+
+	slot0.weakTable.equipsDict:UpdateEquipment(slot1)
+end
+
+function slot0.OnShipEquipsAdd(slot0, slot1, slot2, slot3)
+	if not slot0.weakTable.equipsDict then
+		return
+	end
+
+	slot1 = CreateShell(slot1)
+	slot1.shipId = slot2
+	slot1.shipPos = slot3
+
+	slot0.weakTable.equipsDict:AddEquipment(slot1)
+end
+
+function slot0.OnShipEquipsRemove(slot0, slot1, slot2, slot3)
+	if not slot0.weakTable.equipsDict then
+		return
+	end
+
+	slot1 = CreateShell(slot1)
+	slot1.shipId = slot2
+	slot1.shipPos = slot3
+
+	slot0.weakTable.equipsDict:RemoveEquipment(slot1)
 end
 
 return slot0

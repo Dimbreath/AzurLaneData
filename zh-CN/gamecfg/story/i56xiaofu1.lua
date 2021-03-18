@@ -142,7 +142,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你的末日才到了，哈曼今天要好好教训你一顿！伊168！",
+			say = "你的末日才到了，哈曼今天要好好教训你一顿！{namecode:256}！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -349,7 +349,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，今天还是一样精神呢，伊168。",
+			say = "呵呵，今天还是一样精神呢，{namecode:256}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "哎呀？伊56，你躲在草丛里干什么呢？",
+			say = "哎呀？{namecode:254}，你躲在草丛里干什么呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

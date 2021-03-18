@@ -89,7 +89,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是、是伊25啊…",
+			say = "是、是{namecode:252}啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = -1,
 			actor = 308041,
 			nameColor = "#a9f548",
-			say = "因为伊56你出任务总是一个人，而且在校园里也是一个人，还以为你不喜欢和别人交流——",
+			say = "因为{namecode:254}你出任务总是一个人，而且在校园里也是一个人，还以为你不喜欢和别人交流——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "还以为你不喜欢和别人交流……其实伊56也是很想和大家交朋友的吧！",
+			say = "还以为你不喜欢和别人交流……其实{namecode:254}也是很想和大家交朋友的吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没、没有……（伊25平时也是这么补充指挥官成分的吗…）",
+			say = "没、没有……（{namecode:252}平时也是这么补充指挥官成分的吗…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

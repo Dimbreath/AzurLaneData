@@ -19,6 +19,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.voice = slot1.voice
 	slot0.voiceDelay = slot1.voiceDelay or 0
 	slot0.options = slot1.options
+	slot0.important = slot1.important
 	slot0.branchCode = slot1.optionFlag
 	slot0.nextScriptName = slot1.jumpto
 end
@@ -116,6 +117,41 @@ end
 
 function slot0.ExistOption(slot0)
 	return slot0.options ~= nil and #slot0.options > 0
+end
+
+function slot0.SetOptionSelCodes(slot0, slot1)
+	slot0.optionSelCode = slot1
+end
+
+function slot0.GetOptionIndexByAutoSel(slot0)
+	slot1 = 0
+	slot2 = 0
+
+	for slot6, slot7 in ipairs(slot0.options) do
+		if slot0.optionSelCode and slot7.flag == slot0.optionSelCode then
+			slot1 = slot6
+
+			break
+		end
+
+		if slot7.autochoice and slot7.autochoice == 1 then
+			slot2 = slot6
+		end
+	end
+
+	if slot1 > 0 then
+		return slot1
+	end
+
+	if slot2 > 0 then
+		return slot2
+	end
+
+	return nil
+end
+
+function slot0.IsImport(slot0)
+	return slot0.important
 end
 
 function slot0.GetOptions(slot0)

@@ -1,5 +1,28 @@
 pg = pg or {}
 pg.enemy_data_statistics_38 = {
+	[905] = {
+		cannon = 0,
+		id = 905,
+		torpedo = 0,
+		base = 127,
+		durability = 5000,
+		air = 50,
+		reload = 150,
+		antiaircraft = 150,
+		speed = 15,
+		armor = 0,
+		luck = 0,
+		dodge = 0,
+		antisub = 0,
+		battle_unit_type = 4,
+		hit = 0,
+		equipment_list = {
+			473041,
+			473042,
+			473043,
+			473044
+		}
+	},
 	[911] = {
 		cannon = 10,
 		id = 911,
@@ -451,45 +474,6 @@ pg.enemy_data_statistics_38 = {
 				ID = 50510,
 				LV = 5
 			}
-		}
-	},
-	[70031] = {
-		cannon = 165,
-		antisub = 0,
-		air = 0,
-		cannon_growth = 0,
-		armor = 0,
-		reload = 150,
-		base = 249,
-		dodge = 22,
-		torpedo_growth = 0,
-		air_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		star = 4,
-		hit = 100,
-		antisub_growth = 0,
-		rarity = 3,
-		luck_growth = 0,
-		torpedo = 175,
-		durability = 1000000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 260,
-		speed = 20,
-		luck = 0,
-		hit_growth = 0,
-		battle_unit_type = 95,
-		id = 70031,
-		antiaircraft_growth = 0,
-		equipment_list = {
-			200901,
-			200902,
-			200903,
-			200904,
-			200905,
-			200906
 		}
 	}
 }

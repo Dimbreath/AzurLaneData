@@ -40,9 +40,10 @@ return {
 			}
 		},
 		{
-			actor = 900009,
-			actorName = "俾斯麦 ??",
 			side = 1,
+			actorName = "俾斯麦 ??",
+			actorAlpha = 0,
+			actor = 900009,
 			nameColor = "#ff0000",
 			say = "“皇家舰队的荣耀”…吗？这样才有意思嘛~倒要看看你们的实力能够满足得了我吗？",
 			shake = {

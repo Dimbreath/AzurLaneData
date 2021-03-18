@@ -399,4 +399,21 @@ function slot0.MarkEventActHelpFlag(slot0)
 	end
 end
 
+function slot0.SetStorySpeed(slot0, slot1)
+	slot0.storySpeed = slot1
+	slot2 = nil
+
+	PlayerPrefs.SetInt("story_speed_flag" .. ((not getProxy(PlayerProxy) or getProxy(PlayerProxy):getRawData().id) and 1), slot1)
+	PlayerPrefs.Save()
+end
+
+function slot0.GetStorySpeed(slot0)
+	if not slot0.storySpeed then
+		slot1 = nil
+		slot0.storySpeed = PlayerPrefs.GetInt("story_speed_flag" .. ((not getProxy(PlayerProxy) or getProxy(PlayerProxy):getRawData().id) and 1), 0)
+	end
+
+	return slot0.storySpeed
+end
+
 return slot0

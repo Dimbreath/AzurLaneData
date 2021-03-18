@@ -121,7 +121,7 @@ function slot0.FadeOutPrevPaiting(slot0, slot1, slot2, slot3)
 	if slot0:GetSideTF(slot2:GetPrevSide(slot1)) and slot2 and slot2:IsDialogueMode() and slot2:GetPainting() ~= nil and not slot2:IsSameSide(slot1) then
 		slot5 = slot1:GetPaintingData()
 
-		slot0:fadeTransform(slot4, 1, slot5.alpha, slot5.time, false, slot3)
+		slot0:fadeTransform(slot4, slot1:GetPaintingAlpha() and slot1:GetPaintingAlpha() or 1, slot5.alpha, slot5.time, false, slot3)
 	else
 		slot3()
 	end
@@ -131,7 +131,7 @@ function slot0.FadeInPaiting(slot0, slot1, slot2, slot3)
 	if slot2 and slot2:IsDialogueMode() and slot2:GetPainting() ~= nil and not slot1:IsSameSide(slot2) then
 		slot5 = slot1:GetPaintingData()
 
-		if not IsNil(slot0:GetSideTF(slot1:GetSide())) then
+		if not IsNil(slot0:GetSideTF(slot1:GetSide())) and not slot1:GetPaintingAlpha() then
 			slot0:fadeTransform(slot4, slot5.alpha, 1, slot5.time, false)
 		end
 	end
@@ -153,13 +153,13 @@ function slot0.UpdateTypeWriter(slot0, slot1, slot2)
 		uv1()
 	end
 
-	slot4 = slot3.speed or 0.1
+	slot4 = (slot3.speed or 0.1) * slot0.timeScale
 	slot5 = slot3.speedUp or slot4
 
 	slot0.typewriter:setSpeed(slot4)
 	slot0.typewriter:Play()
 	onButton(slot0, slot0._tf, function ()
-		uv0.typewriter:setSpeed(uv1)
+		uv0.typewriter:setSpeed(math.min(uv1, uv2))
 	end, SFX_PANEL)
 end
 
@@ -187,6 +187,10 @@ function slot0.UpdatePainting(slot0, slot1, slot2)
 
 		if findTF(slot10, "shadow") then
 			setActive(slot11, slot1:ShouldFaceBlack())
+		end
+
+		if slot1:GetPaintingAlpha() then
+			slot0:setPaintingAlpha(slot4, slot12)
 		end
 	end
 

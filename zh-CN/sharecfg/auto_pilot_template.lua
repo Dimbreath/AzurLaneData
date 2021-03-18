@@ -7406,6 +7406,52 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70146] = {
+		id = 70146,
+		name = "黑方舟有节奏地随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 2
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 0,
+					Z2 = 75,
+					moveCount = 5000,
+					Z1 = 35,
+					duration = 0.7,
+					X1 = -10,
+					X2 = 10
+				}
+			}
+		}
+	},
+	[70147] = {
+		id = 70147,
+		name = "黑方舟水平追踪移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 8,
+				param = {
+					offsetZ = -3,
+					duration = 300,
+					X = -5
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",
@@ -8707,6 +8753,582 @@ pg.auto_pilot_template = {
 					Z2 = 75,
 					moveCount = 240,
 					Z1 = 35,
+					duration = -1,
+					X1 = -10,
+					X2 = 5
+				}
+			}
+		}
+	},
+	[100130] = {
+		id = 100130,
+		name = "控制者后半场移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 75,
+					moveCount = 240,
+					Z1 = 35,
+					duration = -1,
+					X1 = -10,
+					X2 = 5
+				}
+			}
+		}
+	},
+	[100135] = {
+		id = 100135,
+		name = "控制者浮游炮_环绕移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 7,
+				param = {
+					antiClockWise = false,
+					radius = 50,
+					duration = 120
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 3
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 5
+				}
+			}
+		}
+	},
+	[100136] = {
+		id = 100136,
+		name = "控制者浮游炮_固定位置1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 180,
+					z = -20,
+					x = 2
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 3
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 5
+				}
+			}
+		}
+	},
+	[100137] = {
+		id = 100137,
+		name = "控制者浮游炮_固定位置2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 180,
+					z = 20,
+					x = 2
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 3
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 5
+				}
+			}
+		}
+	},
+	[100140] = {
+		id = 100140,
+		name = "控制者浮游炮p2_固定位置1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 3,
+				type = 6,
+				param = {
+					duration = 16,
+					z = -13,
+					x = 22
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 7,
+				param = {
+					antiClockWise = false,
+					radius = 25,
+					duration = 15
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 55
+				}
+			}
+		}
+	},
+	[100141] = {
+		id = 100141,
+		name = "控制者浮游炮p2_固定位置2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 3,
+				type = 6,
+				param = {
+					duration = 16,
+					z = 13,
+					x = 22
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 7,
+				param = {
+					antiClockWise = false,
+					radius = 25,
+					duration = 15
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 55
+				}
+			}
+		}
+	},
+	[100142] = {
+		id = 100142,
+		name = "控制者浮游炮p2_固定位置3",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 3,
+				type = 6,
+				param = {
+					duration = 16,
+					z = 25,
+					x = 0
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 7,
+				param = {
+					antiClockWise = false,
+					radius = 25,
+					duration = 15
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 55
+				}
+			}
+		}
+	},
+	[100143] = {
+		id = 100143,
+		name = "控制者浮游炮p2_固定位置4",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 3,
+				type = 6,
+				param = {
+					duration = 16,
+					z = 13,
+					x = -22
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 7,
+				param = {
+					antiClockWise = false,
+					radius = 25,
+					duration = 15
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 55
+				}
+			}
+		}
+	},
+	[100144] = {
+		id = 100144,
+		name = "控制者浮游炮p2_固定位置5",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 3,
+				type = 6,
+				param = {
+					duration = 16,
+					z = -13,
+					x = -22
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 7,
+				param = {
+					antiClockWise = false,
+					radius = 25,
+					duration = 15
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 55
+				}
+			}
+		}
+	},
+	[100145] = {
+		id = 100145,
+		name = "控制者浮游炮p2_固定位置6",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 3,
+				type = 6,
+				param = {
+					duration = 16,
+					z = -25,
+					x = 0
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 7,
+				param = {
+					antiClockWise = false,
+					radius = 25,
+					duration = 15
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 55
+				}
+			}
+		}
+	},
+	[100150] = {
+		id = 100150,
+		name = "控制者浮游炮p3_固定位置1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 3,
+				type = 6,
+				param = {
+					duration = 20,
+					z = 12,
+					x = -20
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 7,
+				param = {
+					antiClockWise = false,
+					radius = 25,
+					duration = 15
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 55
+				}
+			}
+		}
+	},
+	[100151] = {
+		id = 100151,
+		name = "控制者浮游炮p3_固定位置2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 3,
+				type = 6,
+				param = {
+					duration = 20,
+					z = 8,
+					x = -14
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 7,
+				param = {
+					antiClockWise = false,
+					radius = 25,
+					duration = 15
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 55
+				}
+			}
+		}
+	},
+	[100152] = {
+		id = 100152,
+		name = "控制者浮游炮p3_固定位置3",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 3,
+				type = 6,
+				param = {
+					duration = 20,
+					z = 16,
+					x = -14
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 7,
+				param = {
+					antiClockWise = false,
+					radius = 25,
+					duration = 15
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 55
+				}
+			}
+		}
+	},
+	[100153] = {
+		id = 100153,
+		name = "控制者浮游炮p3_固定位置4",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 3,
+				type = 6,
+				param = {
+					duration = 20,
+					z = -20,
+					x = -20
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 7,
+				param = {
+					antiClockWise = false,
+					radius = 25,
+					duration = 15
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 55
+				}
+			}
+		}
+	},
+	[100154] = {
+		id = 100154,
+		name = "控制者浮游炮p3_固定位置5",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 3,
+				type = 6,
+				param = {
+					duration = 20,
+					z = -16,
+					x = -14
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 7,
+				param = {
+					antiClockWise = false,
+					radius = 25,
+					duration = 15
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 55
+				}
+			}
+		}
+	},
+	[100155] = {
+		id = 100155,
+		name = "控制者浮游炮p3_固定位置6",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 3,
+				type = 6,
+				param = {
+					duration = 20,
+					z = -24,
+					x = -14
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 7,
+				param = {
+					antiClockWise = false,
+					radius = 25,
+					duration = 15
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 55
+				}
+			}
+		}
+	},
+	[100160] = {
+		id = 100160,
+		name = "控制者后半场中央移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 65,
+					moveCount = 240,
+					Z1 = 45,
 					duration = -1,
 					X1 = -10,
 					X2 = 5

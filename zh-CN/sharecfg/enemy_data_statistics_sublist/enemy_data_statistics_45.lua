@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.enemy_data_statistics_45 = {
+	[3020] = {
+		cannon = 12,
+		antisub = 0,
+		air = 0,
+		cannon_growth = 990,
+		armor = 0,
+		reload = 150,
+		base = 114,
+		dodge = 0,
+		torpedo_growth = 954,
+		air_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		star = 3,
+		hit = 8,
+		antisub_growth = 0,
+		rarity = 2,
+		luck_growth = 0,
+		torpedo = 12,
+		durability = 380,
+		armor_growth = 0,
+		durability_growth = 18000,
+		antiaircraft = 12,
+		speed = 15,
+		luck = 0,
+		hit_growth = 120,
+		battle_unit_type = 30,
+		id = 3020,
+		antiaircraft_growth = 990,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			100206,
+			100516,
+			100407
+		}
+	},
 	[3021] = {
 		cannon = 12,
 		antisub = 0,
@@ -668,79 +707,6 @@ pg.enemy_data_statistics_45 = {
 		armor = 0,
 		appear_fx = {
 			"appearQ"
-		}
-	},
-	[3036] = {
-		cannon = 9999,
-		battle_unit_type = 20,
-		hit_growth = 60,
-		speed_growth = 0,
-		luck_growth = 0,
-		air = 9999,
-		dodge = 0,
-		armor = 0,
-		air_growth = 0,
-		id = 3036,
-		dodge_growth = 0,
-		star = 4,
-		antisub_growth = 0,
-		rarity = 1,
-		base = 122,
-		durability = 250,
-		armor_growth = 0,
-		torpedo_growth = 1600,
-		speed = 5,
-		luck = 0,
-		antisub = 0,
-		wave_fx = "movewave",
-		prefab = "boom",
-		cannon_growth = 320,
-		reload = 9999,
-		reload_growth = 0,
-		hit = 9999,
-		torpedo = 9999,
-		durability_growth = 9240,
-		antiaircraft = 9999,
-		antiaircraft_growth = 504,
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							{
-								{
-									0,
-									0,
-									0
-								},
-								{
-									0,
-									0,
-									0
-								},
-								{
-									0,
-									0,
-									0
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			300013
 		}
 	}
 }

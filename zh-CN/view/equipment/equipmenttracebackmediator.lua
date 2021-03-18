@@ -8,9 +8,7 @@ function slot0.register(slot0)
 
 	slot0:getViewComponent():SetEnv(slot0.env)
 
-	slot1 = EquipmentTraceBackLayer.GetTracebackResultFuncCreator()
-	slot0.env.GetEquipTraceBack = slot1.traceback
-	slot0.env.GetSameTypeInEquips = slot1.getSameEquipTypeInDict
+	slot0.env.tracebackHelper = getProxy(EquipmentProxy):GetWeakEquipsDict()
 
 	slot0:getViewComponent():UpdatePlayer(getProxy(PlayerProxy):getData())
 
@@ -38,7 +36,7 @@ function slot0.listNotificationInterests(slot0)
 		EquipmentProxy.EQUIPMENT_ADDED,
 		EquipmentProxy.EQUIPMENT_UPDATED,
 		EquipmentProxy.EQUIPMENT_REMOVED,
-		BayProxy.SHIP_UPDATED,
+		GAME.EQUIP_TO_SHIP_DONE,
 		GAME.UNEQUIP_FROM_SHIP_DONE,
 		GAME.TRANSFORM_EQUIPMENT_DONE,
 		GAME.TRANSFORM_EQUIPMENT_FAIL
@@ -53,45 +51,48 @@ function slot0.handleNotification(slot0, slot1)
 			return
 		end
 
+		slot4 = slot0:getViewComponent()
+
 		slot4:UpdateSort()
 		slot4:UpdateSourceList()
 		slot4:UpdateFormula()
-	elseif slot2 == EquipmentProxy.EQUIPMENT_ADDED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED or slot2 == EquipmentProxy.EQUIPMENT_REMOVED or slot2 == BayProxy.SHIP_UPDATED then
+	elseif slot2 == EquipmentProxy.EQUIPMENT_ADDED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED or slot2 == EquipmentProxy.EQUIPMENT_REMOVED then
 		if slot0.stopUpdateView then
 			return
 		end
 
-		slot5 = EquipmentTraceBackLayer.GetTracebackResultFuncCreator()
-		slot0.env.GetEquipTraceBack = slot5.traceback
-		slot0.env.GetSameTypeInEquips = slot5.getSameEquipTypeInDict
+		if slot0.contextData.sourceEquipmentInstance and (slot2 == EquipmentProxy.EQUIPMENT_REMOVED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED and slot3.count == 0) and EquipmentProxy.SameEquip(slot3, slot0.contextData.sourceEquipmentInstance) then
+			slot0.contextData.sourceEquipmentInstance = nil
+		end
+
+		slot4 = slot0:getViewComponent()
 
 		slot4:UpdateSourceEquipmentPaths()
 		slot4:UpdateSort()
 		slot4:UpdateSourceList()
 		slot4:UpdateFormula()
-	elseif slot2 == GAME.UNEQUIP_FROM_SHIP_DONE then
+	elseif slot2 == GAME.UNEQUIP_FROM_SHIP_DONE or slot2 == GAME.EQUIP_TO_SHIP_DONE then
 		if slot0.stopUpdateView then
 			return
 		end
 
-		if not slot0.contextData.sourceEquipmentInstance then
-			return
+		if slot0.contextData.sourceEquipmentInstance then
+			slot5 = slot3:getEquip(slot4.shipPos)
+
+			if slot4.shipId == slot3.id and (not slot5 or slot5.id ~= slot4.id) then
+				slot0.contextData.sourceEquipmentInstance = nil
+			end
 		end
 
-		if slot0.contextData.sourceEquipmentInstance.shipId ~= slot3.id then
-			return
-		end
+		slot5 = slot0:getViewComponent()
 
-		if slot3:getEquip(slot5.shipPos) ~= slot5.id then
-			slot0.contextData.sourceEquipmentInstance = nil
-		end
-
-		slot4:UpdateFormula()
+		slot5:UpdateSourceEquipmentPaths()
+		slot5:UpdateSort()
+		slot5:UpdateSourceList()
+		slot5:UpdateFormula()
 	elseif slot2 == GAME.TRANSFORM_EQUIPMENT_DONE or slot2 == GAME.TRANSFORM_EQUIPMENT_FAIL then
 		slot0.stopUpdateView = false
-		slot5 = EquipmentTraceBackLayer.GetTracebackResultFuncCreator()
-		slot0.env.GetEquipTraceBack = slot5.traceback
-		slot0.env.GetSameTypeInEquips = slot5.getSameEquipTypeInDict
+		slot4 = slot0:getViewComponent()
 
 		slot4:UpdateSourceEquipmentPaths()
 		slot4:UpdateSort()

@@ -408,4 +408,26 @@ function slot0.IsOpen(slot0)
 	return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLD_WORLDBOSS) and not slot1:isEnd()
 end
 
+function slot0.IsNeedSupport()
+	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLD_WORLDBOSS) or slot0:isEnd() then
+		return
+	end
+
+	if slot0:getDayIndex() < pg.gameset.world_metaboss_supportattack.description[1] then
+		return
+	end
+
+	return true, math.min(slot1, slot2[2])
+end
+
+function slot0.GetSupportValue()
+	slot0, slot1 = WorldBossProxy.IsNeedSupport()
+
+	if not slot0 then
+		return
+	end
+
+	return true, slot1, pg.gameset.world_metaboss_supportattack.description[3]
+end
+
 return slot0

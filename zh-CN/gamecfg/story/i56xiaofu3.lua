@@ -74,7 +74,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我是伊25，她是……",
+			say = "我是{namecode:252}，她是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			actor = 308051,
 			nameColor = "#a9f548",
-			say = "呜呜呜呜呜呜呜(屁股压到我了）……我、我叫伊56",
+			say = "呜呜呜呜呜呜呜(屁股压到我了）……我、我叫{namecode:254}",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "U557和伊58经常会在天台一起发呆……",
+			say = "U557和{namecode:156}经常会在天台一起发呆……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			actor = 308051,
 			nameColor = "#a9f548",
-			say = "伊26经常和U81玩捉迷藏，也会和鲦鱼会一起训练……",
+			say = "{namecode:155}经常和U81玩捉迷藏，也会和鲦鱼会一起训练……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			actor = 308051,
 			nameColor = "#a9f548",
-			say = "U73和伊19跟谁都合得来所以有点微妙，伊13经常去找航母们玩，所以她们比较……嗯……",
+			say = "U73和{namecode:154}跟谁都合得来所以有点微妙，{namecode:163}经常去找航母们玩，所以她们比较……嗯……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -2,7 +2,7 @@ pg = pg or {}
 pg.weapon_property_354 = {}
 
 function ()
-	uv0.weapon_property_354[1000706] = {
+	uv0.weapon_property_354[1001110] = {
 		action_index = "attack",
 		range = 70,
 		type = 2,
@@ -10,100 +10,8 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】塞壬追迹者I型  特殊弹幕2 II",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 125,
-		min_range = 0,
-		id = 1000706,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 5000,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			8050,
-			8051
-		},
-		barrage_ID = {
-			8050,
-			8051
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000707] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】塞壬追迹者I型  特殊弹幕2 III",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 125,
-		min_range = 0,
-		id = 1000707,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 5000,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			8050,
-			8051
-		},
-		barrage_ID = {
-			8050,
-			8051
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000708] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】塞壬追迹者I型  特殊弹幕2 IV",
-		aim_type = 0,
+		name = "【精英】探索者II型 单发瞄准x4随机 V",
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
@@ -111,12 +19,12 @@ function ()
 		damage = 12,
 		corrected = 125,
 		min_range = 0,
-		id = 1000708,
+		id = 1001110,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 5000,
-		queue = 2,
+		reload_max = 500,
+		queue = 1,
 		search_type = 1,
 		effect_move = 0,
 		suppress = 1,
@@ -125,12 +33,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			8050,
-			8051
+			811
 		},
 		barrage_ID = {
-			8050,
-			8051
+			1023
 		},
 		oxy_type = {
 			1
@@ -140,7 +46,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000709] = {
+	uv0.weapon_property_354[1001111] = {
 		action_index = "attack",
 		range = 70,
 		type = 2,
@@ -148,21 +54,21 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】塞壬追迹者I型  特殊弹幕2 V",
-		aim_type = 0,
+		name = "【精英】探索者II型 双联装炮瞄准 I",
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 15,
-		corrected = 125,
+		damage = 7,
+		corrected = 110,
 		min_range = 0,
-		id = 1000709,
+		id = 1001111,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 5000,
-		queue = 2,
+		reload_max = 350,
+		queue = 1,
 		search_type = 1,
 		effect_move = 0,
 		suppress = 1,
@@ -171,12 +77,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			8050,
-			8051
+			811
 		},
 		barrage_ID = {
-			8050,
-			8051
+			690012
 		},
 		oxy_type = {
 			1
@@ -186,15 +90,911 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000710] = {
+	uv0.weapon_property_354[1001112] = {
 		action_index = "attack",
 		range = 70,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】探索者II型 双联装炮瞄准 II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 8,
+		corrected = 110,
+		min_range = 0,
+		id = 1001112,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 350,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			811
+		},
+		barrage_ID = {
+			690012
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_354[1001113] = {
+		action_index = "attack",
+		range = 70,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】探索者II型 双联装炮瞄准 III",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 10,
+		corrected = 110,
+		min_range = 0,
+		id = 1001113,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 350,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			811
+		},
+		barrage_ID = {
+			690012
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_354[1001114] = {
+		action_index = "attack",
+		range = 70,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】探索者II型 双联装炮瞄准 IV",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 12,
+		corrected = 110,
+		min_range = 0,
+		id = 1001114,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 350,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			811
+		},
+		barrage_ID = {
+			690012
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_354[1001115] = {
+		action_index = "attack",
+		range = 70,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】探索者II型 双联装炮瞄准 V",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 15,
+		corrected = 110,
+		min_range = 0,
+		id = 1001115,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 350,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			811
+		},
+		barrage_ID = {
+			690012
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_354[1001116] = {
+		action_index = "attack",
+		range = 80,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】追迹者II型 轻巡联装炮x6散射*2 I",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 10,
+		corrected = 105,
+		min_range = 0,
+		id = 1001116,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			811
+		},
+		barrage_ID = {
+			690013
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_354[1001117] = {
+		action_index = "attack",
+		range = 80,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】追迹者II型 轻巡联装炮x6散射*2 II",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 12,
+		corrected = 105,
+		min_range = 0,
+		id = 1001117,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			811
+		},
+		barrage_ID = {
+			690013
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_354[1001118] = {
+		action_index = "attack",
+		range = 80,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】追迹者II型 轻巡联装炮x6散射*2 III",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 15,
+		corrected = 105,
+		min_range = 0,
+		id = 1001118,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			811
+		},
+		barrage_ID = {
+			690013
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_354[1001119] = {
+		action_index = "attack",
+		range = 80,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】追迹者II型 轻巡联装炮x6散射*2 IV",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 18,
+		corrected = 105,
+		min_range = 0,
+		id = 1001119,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			811
+		},
+		barrage_ID = {
+			690013
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_354[1001120] = {
+		action_index = "attack",
+		range = 80,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】追迹者II型 轻巡联装炮x6散射*2 V",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 22,
+		corrected = 105,
+		min_range = 0,
+		id = 1001120,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			811
+		},
+		barrage_ID = {
+			690013
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_354[1001121] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】追迹者II型 大范围缓速子弹 I",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 12,
+		corrected = 100,
+		min_range = 0,
+		id = 1001121,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 2000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			8072,
+			8072,
+			8072,
+			8072,
+			8072,
+			8072,
+			8072
+		},
+		barrage_ID = {
+			21093,
+			21094,
+			21095,
+			21096,
+			21097,
+			21098,
+			21099
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_354[1001122] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】追迹者II型 大范围缓速子弹 II",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 15,
+		corrected = 100,
+		min_range = 0,
+		id = 1001122,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 2000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			8072,
+			8072,
+			8072,
+			8072,
+			8072,
+			8072,
+			8072
+		},
+		barrage_ID = {
+			21093,
+			21094,
+			21095,
+			21096,
+			21097,
+			21098,
+			21099
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_354[1001123] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】追迹者II型 大范围缓速子弹 III",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 18,
+		corrected = 100,
+		min_range = 0,
+		id = 1001123,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 2000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			8072,
+			8072,
+			8072,
+			8072,
+			8072,
+			8072,
+			8072
+		},
+		barrage_ID = {
+			21093,
+			21094,
+			21095,
+			21096,
+			21097,
+			21098,
+			21099
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_354[1001124] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】追迹者II型 大范围缓速子弹 IV",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 22,
+		corrected = 100,
+		min_range = 0,
+		id = 1001124,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 2000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			8072,
+			8072,
+			8072,
+			8072,
+			8072,
+			8072,
+			8072
+		},
+		barrage_ID = {
+			21093,
+			21094,
+			21095,
+			21096,
+			21097,
+			21098,
+			21099
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_354[1001125] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】追迹者II型 大范围缓速子弹 V",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 28,
+		corrected = 100,
+		min_range = 0,
+		id = 1001125,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 2000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			8072,
+			8072,
+			8072,
+			8072,
+			8072,
+			8072,
+			8072
+		},
+		barrage_ID = {
+			21093,
+			21094,
+			21095,
+			21096,
+			21097,
+			21098,
+			21099
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_354[1001126] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】追迹者II型 瞄准连射 I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 7,
+		corrected = 100,
+		min_range = 0,
+		id = 1001126,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			811
+		},
+		barrage_ID = {
+			300134
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_354[1001127] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】追迹者II型 瞄准连射 II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 8,
+		corrected = 100,
+		min_range = 0,
+		id = 1001127,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			811
+		},
+		barrage_ID = {
+			300134
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_354[1001128] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】追迹者II型 瞄准连射 III",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 1001128,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			811
+		},
+		barrage_ID = {
+			300134
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_354[1001129] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】追迹者II型 瞄准连射 IV",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 12,
+		corrected = 100,
+		min_range = 0,
+		id = 1001129,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			811
+		},
+		barrage_ID = {
+			300134
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_354[1001130] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】追迹者II型 瞄准连射 V",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 15,
+		corrected = 100,
+		min_range = 0,
+		id = 1001130,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			811
+		},
+		barrage_ID = {
+			300134
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_354[1001131] = {
+		action_index = "attack",
+		range = 80,
 		type = 3,
 		fire_fx = "",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】探索者I型 四联装鱼雷 I",
+		name = "【精英】追迹者II型 三联装鱼雷 I",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -203,11 +1003,11 @@ function ()
 		damage = 32,
 		corrected = 100,
 		min_range = 0,
-		id = 1000710,
+		id = 1001131,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
-		reload_max = 1750,
+		reload_max = 1400,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
@@ -220,7 +1020,7 @@ function ()
 			30067
 		},
 		barrage_ID = {
-			1403
+			1402
 		},
 		oxy_type = {
 			1
@@ -230,15 +1030,15 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000711] = {
+	uv0.weapon_property_354[1001132] = {
 		action_index = "attack",
-		range = 70,
+		range = 80,
 		type = 3,
 		fire_fx = "",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】探索者I型 四联装鱼雷 II",
+		name = "【精英】追迹者II型 三联装鱼雷 II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -247,11 +1047,11 @@ function ()
 		damage = 40,
 		corrected = 100,
 		min_range = 0,
-		id = 1000711,
+		id = 1001132,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
-		reload_max = 1750,
+		reload_max = 1400,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
@@ -264,7 +1064,7 @@ function ()
 			30067
 		},
 		barrage_ID = {
-			1403
+			1402
 		},
 		oxy_type = {
 			1
@@ -274,15 +1074,15 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000712] = {
+	uv0.weapon_property_354[1001133] = {
 		action_index = "attack",
-		range = 70,
+		range = 80,
 		type = 3,
 		fire_fx = "",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】探索者I型 四联装鱼雷 III",
+		name = "【精英】追迹者II型 三联装鱼雷 III",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -291,11 +1091,11 @@ function ()
 		damage = 50,
 		corrected = 100,
 		min_range = 0,
-		id = 1000712,
+		id = 1001133,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
-		reload_max = 1750,
+		reload_max = 1400,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
@@ -308,7 +1108,7 @@ function ()
 			30067
 		},
 		barrage_ID = {
-			1403
+			1402
 		},
 		oxy_type = {
 			1
@@ -318,15 +1118,15 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000713] = {
+	uv0.weapon_property_354[1001134] = {
 		action_index = "attack",
-		range = 70,
+		range = 80,
 		type = 3,
 		fire_fx = "",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】探索者I型 四联装鱼雷 IV",
+		name = "【精英】追迹者II型 三联装鱼雷 IV",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -335,11 +1135,11 @@ function ()
 		damage = 62,
 		corrected = 100,
 		min_range = 0,
-		id = 1000713,
+		id = 1001134,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
-		reload_max = 1750,
+		reload_max = 1400,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
@@ -352,7 +1152,7 @@ function ()
 			30067
 		},
 		barrage_ID = {
-			1403
+			1402
 		},
 		oxy_type = {
 			1
@@ -362,15 +1162,15 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000714] = {
+	uv0.weapon_property_354[1001135] = {
 		action_index = "attack",
-		range = 70,
+		range = 80,
 		type = 3,
 		fire_fx = "",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】探索者I型 四联装鱼雷 V",
+		name = "【精英】追迹者II型 三联装鱼雷 V",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -379,11 +1179,11 @@ function ()
 		damage = 76,
 		corrected = 100,
 		min_range = 0,
-		id = 1000714,
+		id = 1001135,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
-		reload_max = 1750,
+		reload_max = 1400,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
@@ -396,7 +1196,7 @@ function ()
 			30067
 		},
 		barrage_ID = {
-			1403
+			1402
 		},
 		oxy_type = {
 			1
@@ -406,59 +1206,15 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000715] = {
+	uv0.weapon_property_354[1001136] = {
 		action_index = "attack",
-		range = 70,
+		range = 80,
 		type = 2,
 		fire_fx = "CLFire",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】探索者I型 单发瞄准x4随机 I",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 125,
-		min_range = 0,
-		id = 1000715,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1005
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000716] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 单发瞄准x4随机 II",
+		name = "【精英】领洋者II型 近程自卫火炮 I",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -467,1113 +1223,7 @@ function ()
 		damage = 7,
 		corrected = 125,
 		min_range = 0,
-		id = 1000716,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1005
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000717] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 单发瞄准x4随机 III",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 125,
-		min_range = 0,
-		id = 1000717,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1005
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000718] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 单发瞄准x4随机 IV",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 125,
-		min_range = 0,
-		id = 1000718,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1005
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000719] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 单发瞄准x4随机 V",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 125,
-		min_range = 0,
-		id = 1000719,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1005
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000720] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 双联装炮瞄准 I",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 7,
-		corrected = 110,
-		min_range = 0,
-		id = 1000720,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 350,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000721] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 双联装炮瞄准 II",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 110,
-		min_range = 0,
-		id = 1000721,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 350,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000722] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 双联装炮瞄准 III",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 110,
-		min_range = 0,
-		id = 1000722,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 350,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000723] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 双联装炮瞄准 IV",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 110,
-		min_range = 0,
-		id = 1000723,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 350,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000724] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 双联装炮瞄准 V",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 15,
-		corrected = 110,
-		min_range = 0,
-		id = 1000724,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 350,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000725] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 特殊弹幕武器 I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 110,
-		min_range = 0,
-		id = 1000725,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1500,
-		queue = 3,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801,
-			801,
-			801,
-			801
-		},
-		barrage_ID = {
-			21047,
-			21048,
-			21049,
-			21050
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000726] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 特殊弹幕武器 II",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 110,
-		min_range = 0,
-		id = 1000726,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1500,
-		queue = 3,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801,
-			801,
-			801,
-			801
-		},
-		barrage_ID = {
-			21047,
-			21048,
-			21049,
-			21050
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000727] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 特殊弹幕武器 III",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 15,
-		corrected = 110,
-		min_range = 0,
-		id = 1000727,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1500,
-		queue = 3,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801,
-			801,
-			801,
-			801
-		},
-		barrage_ID = {
-			21047,
-			21048,
-			21049,
-			21050
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000728] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 特殊弹幕武器 IV",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 18,
-		corrected = 110,
-		min_range = 0,
-		id = 1000728,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1500,
-		queue = 3,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801,
-			801,
-			801,
-			801
-		},
-		barrage_ID = {
-			21047,
-			21048,
-			21049,
-			21050
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000729] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 特殊弹幕武器 V",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 22,
-		corrected = 110,
-		min_range = 0,
-		id = 1000729,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1500,
-		queue = 3,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			801,
-			801,
-			801,
-			801
-		},
-		barrage_ID = {
-			21047,
-			21048,
-			21049,
-			21050
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000730] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 旋转穿透 I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 125,
-		min_range = 0,
-		id = 1000730,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1250,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			8070,
-			8071
-		},
-		barrage_ID = {
-			21056,
-			21057
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000731] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 旋转穿透 II",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 125,
-		min_range = 0,
-		id = 1000731,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1250,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			8070,
-			8071
-		},
-		barrage_ID = {
-			21056,
-			21057
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000732] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 旋转穿透 III",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 125,
-		min_range = 0,
-		id = 1000732,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1250,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			8070,
-			8071
-		},
-		barrage_ID = {
-			21056,
-			21057
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000733] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 旋转穿透 IV",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 15,
-		corrected = 125,
-		min_range = 0,
-		id = 1000733,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1250,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			8070,
-			8071
-		},
-		barrage_ID = {
-			21056,
-			21057
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000734] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 旋转穿透 V",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 18,
-		corrected = 125,
-		min_range = 0,
-		id = 1000734,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1250,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			8070,
-			8071
-		},
-		barrage_ID = {
-			21056,
-			21057
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000735] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 特殊弹幕2 I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 7,
-		corrected = 125,
-		min_range = 0,
-		id = 1000735,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 5000,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			8051,
-			8050
-		},
-		barrage_ID = {
-			8050,
-			8051
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000736] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 特殊弹幕2 II",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 125,
-		min_range = 0,
-		id = 1000736,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 5000,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			8051,
-			8050
-		},
-		barrage_ID = {
-			8050,
-			8051
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000737] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 特殊弹幕2 III",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 125,
-		min_range = 0,
-		id = 1000737,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 5000,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			8051,
-			8050
-		},
-		barrage_ID = {
-			8050,
-			8051
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000738] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 特殊弹幕2 IV",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 125,
-		min_range = 0,
-		id = 1000738,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 5000,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			8051,
-			8050
-		},
-		barrage_ID = {
-			8050,
-			8051
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000739] = {
-		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】探索者I型 特殊弹幕2 V",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 15,
-		corrected = 125,
-		min_range = 0,
-		id = 1000739,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 5000,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			8051,
-			8050
-		},
-		barrage_ID = {
-			8050,
-			8051
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_354[1000740] = {
-		action_index = "attack",
-		range = 80,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【精英】领洋者I型 近程自卫火炮 I",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 7,
-		corrected = 125,
-		min_range = 0,
-		id = 1000740,
+		id = 1001136,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1587,10 +1237,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			801
+			811
 		},
 		barrage_ID = {
-			13
+			14
 		},
 		oxy_type = {
 			1
@@ -1600,7 +1250,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000741] = {
+	uv0.weapon_property_354[1001137] = {
 		action_index = "attack",
 		range = 80,
 		type = 2,
@@ -1608,7 +1258,7 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 近程自卫火炮 II",
+		name = "【精英】领洋者II型 近程自卫火炮 II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1617,7 +1267,7 @@ function ()
 		damage = 8,
 		corrected = 125,
 		min_range = 0,
-		id = 1000741,
+		id = 1001137,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1631,10 +1281,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			801
+			811
 		},
 		barrage_ID = {
-			13
+			14
 		},
 		oxy_type = {
 			1
@@ -1644,7 +1294,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000742] = {
+	uv0.weapon_property_354[1001138] = {
 		action_index = "attack",
 		range = 80,
 		type = 2,
@@ -1652,7 +1302,7 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 近程自卫火炮 III",
+		name = "【精英】领洋者II型 近程自卫火炮 III",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1661,7 +1311,7 @@ function ()
 		damage = 10,
 		corrected = 125,
 		min_range = 0,
-		id = 1000742,
+		id = 1001138,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1675,10 +1325,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			801
+			811
 		},
 		barrage_ID = {
-			13
+			14
 		},
 		oxy_type = {
 			1
@@ -1688,7 +1338,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000743] = {
+	uv0.weapon_property_354[1001139] = {
 		action_index = "attack",
 		range = 80,
 		type = 2,
@@ -1696,7 +1346,7 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 近程自卫火炮 IV",
+		name = "【精英】领洋者II型 近程自卫火炮 IV",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1705,7 +1355,7 @@ function ()
 		damage = 12,
 		corrected = 125,
 		min_range = 0,
-		id = 1000743,
+		id = 1001139,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1719,10 +1369,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			801
+			811
 		},
 		barrage_ID = {
-			13
+			14
 		},
 		oxy_type = {
 			1
@@ -1732,7 +1382,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000744] = {
+	uv0.weapon_property_354[1001140] = {
 		action_index = "attack",
 		range = 80,
 		type = 2,
@@ -1740,7 +1390,7 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 近程自卫火炮 V",
+		name = "【精英】领洋者II型 近程自卫火炮 V",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1749,7 +1399,7 @@ function ()
 		damage = 15,
 		corrected = 125,
 		min_range = 0,
-		id = 1000744,
+		id = 1001140,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1763,10 +1413,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			801
+			811
 		},
 		barrage_ID = {
-			13
+			14
 		},
 		oxy_type = {
 			1
@@ -1776,7 +1426,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000745] = {
+	uv0.weapon_property_354[1001141] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -1784,7 +1434,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 主炮1 I",
+		name = "【精英】领洋者II型 主炮1 I",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1793,7 +1443,7 @@ function ()
 		damage = 10,
 		corrected = 100,
 		min_range = 0,
-		id = 1000745,
+		id = 1001141,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1807,8 +1457,8 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			20003,
-			20003
+			815,
+			815
 		},
 		barrage_ID = {
 			200140,
@@ -1822,7 +1472,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000746] = {
+	uv0.weapon_property_354[1001142] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -1830,7 +1480,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 主炮1 II",
+		name = "【精英】领洋者II型 主炮1 II",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1839,7 +1489,7 @@ function ()
 		damage = 12,
 		corrected = 100,
 		min_range = 0,
-		id = 1000746,
+		id = 1001142,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1853,8 +1503,8 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			20003,
-			20003
+			815,
+			815
 		},
 		barrage_ID = {
 			200140,
@@ -1868,7 +1518,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000747] = {
+	uv0.weapon_property_354[1001143] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -1876,7 +1526,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 主炮1 III",
+		name = "【精英】领洋者II型 主炮1 III",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1885,7 +1535,7 @@ function ()
 		damage = 15,
 		corrected = 100,
 		min_range = 0,
-		id = 1000747,
+		id = 1001143,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1899,8 +1549,8 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			20003,
-			20003
+			815,
+			815
 		},
 		barrage_ID = {
 			200140,
@@ -1914,7 +1564,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000748] = {
+	uv0.weapon_property_354[1001144] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -1922,7 +1572,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 主炮1 IV",
+		name = "【精英】领洋者II型 主炮1 IV",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1931,7 +1581,7 @@ function ()
 		damage = 18,
 		corrected = 100,
 		min_range = 0,
-		id = 1000748,
+		id = 1001144,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1945,8 +1595,8 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			20003,
-			20003
+			815,
+			815
 		},
 		barrage_ID = {
 			200140,
@@ -1960,7 +1610,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000749] = {
+	uv0.weapon_property_354[1001145] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -1968,7 +1618,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 主炮1 V",
+		name = "【精英】领洋者II型 主炮1 V",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1977,7 +1627,7 @@ function ()
 		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 1000749,
+		id = 1001145,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1991,8 +1641,8 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			20003,
-			20003
+			815,
+			815
 		},
 		barrage_ID = {
 			200140,
@@ -2006,7 +1656,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000750] = {
+	uv0.weapon_property_354[1001146] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -2014,7 +1664,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 主炮2 I",
+		name = "【精英】领洋者II型 主炮2 I",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -2023,7 +1673,7 @@ function ()
 		damage = 10,
 		corrected = 100,
 		min_range = 0,
-		id = 1000750,
+		id = 1001146,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2035,9 +1685,9 @@ function ()
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
 		auto_aftercast = 0,
-		initial_over_heat = 1,
+		initial_over_heat = 0,
 		bullet_ID = {
-			1403
+			816
 		},
 		barrage_ID = {
 			200101
@@ -2050,7 +1700,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000751] = {
+	uv0.weapon_property_354[1001147] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -2058,7 +1708,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 主炮2 II",
+		name = "【精英】领洋者II型 主炮2 II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -2067,7 +1717,7 @@ function ()
 		damage = 12,
 		corrected = 100,
 		min_range = 0,
-		id = 1000751,
+		id = 1001147,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2079,9 +1729,9 @@ function ()
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
 		auto_aftercast = 0,
-		initial_over_heat = 1,
+		initial_over_heat = 0,
 		bullet_ID = {
-			1403
+			816
 		},
 		barrage_ID = {
 			200101
@@ -2094,7 +1744,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000752] = {
+	uv0.weapon_property_354[1001148] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -2102,7 +1752,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 主炮2 III",
+		name = "【精英】领洋者II型 主炮2 III",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -2111,7 +1761,7 @@ function ()
 		damage = 15,
 		corrected = 100,
 		min_range = 0,
-		id = 1000752,
+		id = 1001148,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2123,9 +1773,9 @@ function ()
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
 		auto_aftercast = 0,
-		initial_over_heat = 1,
+		initial_over_heat = 0,
 		bullet_ID = {
-			1403
+			816
 		},
 		barrage_ID = {
 			200101
@@ -2138,7 +1788,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000753] = {
+	uv0.weapon_property_354[1001149] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -2146,7 +1796,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 主炮2 IV",
+		name = "【精英】领洋者II型 主炮2 IV",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -2155,7 +1805,7 @@ function ()
 		damage = 18,
 		corrected = 100,
 		min_range = 0,
-		id = 1000753,
+		id = 1001149,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2167,9 +1817,9 @@ function ()
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
 		auto_aftercast = 0,
-		initial_over_heat = 1,
+		initial_over_heat = 0,
 		bullet_ID = {
-			1403
+			816
 		},
 		barrage_ID = {
 			200101
@@ -2182,7 +1832,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000754] = {
+	uv0.weapon_property_354[1001150] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -2190,7 +1840,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 主炮2 V",
+		name = "【精英】领洋者II型 主炮2 V",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -2199,7 +1849,7 @@ function ()
 		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 1000754,
+		id = 1001150,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2211,9 +1861,9 @@ function ()
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
 		auto_aftercast = 0,
-		initial_over_heat = 1,
+		initial_over_heat = 0,
 		bullet_ID = {
-			1403
+			816
 		},
 		barrage_ID = {
 			200101
@@ -2226,7 +1876,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000755] = {
+	uv0.weapon_property_354[1001151] = {
 		action_index = "attack",
 		range = 80,
 		type = 3,
@@ -2234,7 +1884,7 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 三联装鱼雷 I",
+		name = "【精英】领洋者II型 三联装鱼雷 I",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -2243,7 +1893,7 @@ function ()
 		damage = 32,
 		corrected = 100,
 		min_range = 0,
-		id = 1000755,
+		id = 1001151,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2270,7 +1920,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000756] = {
+	uv0.weapon_property_354[1001152] = {
 		action_index = "attack",
 		range = 80,
 		type = 3,
@@ -2278,7 +1928,7 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 三联装鱼雷 II",
+		name = "【精英】领洋者II型 三联装鱼雷 II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -2287,7 +1937,7 @@ function ()
 		damage = 40,
 		corrected = 100,
 		min_range = 0,
-		id = 1000756,
+		id = 1001152,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2314,7 +1964,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000757] = {
+	uv0.weapon_property_354[1001153] = {
 		action_index = "attack",
 		range = 80,
 		type = 3,
@@ -2322,7 +1972,7 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 三联装鱼雷 III",
+		name = "【精英】领洋者II型 三联装鱼雷 III",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -2331,7 +1981,7 @@ function ()
 		damage = 50,
 		corrected = 100,
 		min_range = 0,
-		id = 1000757,
+		id = 1001153,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2358,7 +2008,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000758] = {
+	uv0.weapon_property_354[1001154] = {
 		action_index = "attack",
 		range = 80,
 		type = 3,
@@ -2366,7 +2016,7 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 三联装鱼雷 IV",
+		name = "【精英】领洋者II型 三联装鱼雷 IV",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -2375,7 +2025,7 @@ function ()
 		damage = 62,
 		corrected = 100,
 		min_range = 0,
-		id = 1000758,
+		id = 1001154,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2402,7 +2052,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000759] = {
+	uv0.weapon_property_354[1001155] = {
 		action_index = "attack",
 		range = 80,
 		type = 3,
@@ -2410,7 +2060,7 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 三联装鱼雷 V",
+		name = "【精英】领洋者II型 三联装鱼雷 V",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -2419,7 +2069,7 @@ function ()
 		damage = 76,
 		corrected = 100,
 		min_range = 0,
-		id = 1000759,
+		id = 1001155,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2446,47 +2096,135 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000760] = {
+	uv0.weapon_property_354[1001156] = {
 		action_index = "attack",
-		range = 80,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
+		range = 100,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 特殊主炮 I",
+		name = "【精英】破局者II型 武器1 I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 7,
+		corrected = 100,
+		min_range = 0,
+		id = 1001156,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 250,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			811,
+			811
+		},
+		barrage_ID = {
+			399960,
+			399959
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_354[1001157] = {
+		action_index = "attack",
+		range = 100,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】破局者II型 武器1 II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 8,
+		corrected = 100,
+		min_range = 0,
+		id = 1001157,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 250,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			811,
+			811
+		},
+		barrage_ID = {
+			399960,
+			399959
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_354[1001158] = {
+		action_index = "attack",
+		range = 100,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】破局者II型 武器1 III",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
 		damage = 10,
-		corrected = 125,
+		corrected = 100,
 		min_range = 0,
-		id = 1000760,
-		attack_attribute_ratio = 100,
+		id = 1001158,
+		attack_attribute_ratio = 80,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 2450,
+		reload_max = 250,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
-		suppress = 1,
+		suppress = 0,
 		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
+		fire_sfx = "battle/cannon-main",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			803,
-			803,
-			803,
-			803
+			811,
+			811
 		},
 		barrage_ID = {
-			21037,
-			21038,
-			21039,
-			21040
+			399960,
+			399959
 		},
 		oxy_type = {
 			1
@@ -2496,47 +2234,43 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000761] = {
+	uv0.weapon_property_354[1001159] = {
 		action_index = "attack",
-		range = 80,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
+		range = 100,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 特殊主炮 II",
+		name = "【精英】破局者II型 武器1 IV",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
 		damage = 12,
-		corrected = 125,
+		corrected = 100,
 		min_range = 0,
-		id = 1000761,
-		attack_attribute_ratio = 100,
+		id = 1001159,
+		attack_attribute_ratio = 80,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 2450,
+		reload_max = 250,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
-		suppress = 1,
+		suppress = 0,
 		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
+		fire_sfx = "battle/cannon-main",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			803,
-			803,
-			803,
-			803
+			811,
+			811
 		},
 		barrage_ID = {
-			21037,
-			21038,
-			21039,
-			21040
+			399960,
+			399959
 		},
 		oxy_type = {
 			1
@@ -2546,47 +2280,43 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000762] = {
+	uv0.weapon_property_354[1001160] = {
 		action_index = "attack",
-		range = 80,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
+		range = 100,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 特殊主炮 III",
+		name = "【精英】破局者II型 武器1 V",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
 		damage = 15,
-		corrected = 125,
+		corrected = 100,
 		min_range = 0,
-		id = 1000762,
-		attack_attribute_ratio = 100,
+		id = 1001160,
+		attack_attribute_ratio = 80,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 2450,
+		reload_max = 250,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
-		suppress = 1,
+		suppress = 0,
 		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
+		fire_sfx = "battle/cannon-main",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			803,
-			803,
-			803,
-			803
+			811,
+			811
 		},
 		barrage_ID = {
-			21037,
-			21038,
-			21039,
-			21040
+			399960,
+			399959
 		},
 		oxy_type = {
 			1
@@ -2596,47 +2326,89 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_354[1000763] = {
+	uv0.weapon_property_354[1001161] = {
 		action_index = "attack",
-		range = 80,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
+		range = 50,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 特殊主炮 IV",
+		name = "【精英】破局者II型 4颗炮弹2轮攻击前排 I",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 360,
+		angle = 40,
+		charge_param = "",
+		damage = 15,
+		corrected = 100,
+		min_range = 20,
+		id = 1001161,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon2",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			399988
+		},
+		barrage_ID = {
+			399912
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2
+		}
+	}
+	uv0.weapon_property_354[1001162] = {
+		action_index = "attack",
+		range = 50,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】破局者II型 4颗炮弹2轮攻击前排 II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 40,
 		charge_param = "",
 		damage = 18,
-		corrected = 125,
-		min_range = 0,
-		id = 1000763,
+		corrected = 100,
+		min_range = 20,
+		id = 1001162,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 2450,
+		reload_max = 1650,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
 		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
+		spawn_bound = "cannon2",
+		fire_sfx = "battle/cannon-main",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			803,
-			803,
-			803,
-			803
+			399988
 		},
 		barrage_ID = {
-			21037,
-			21038,
-			21039,
-			21040
+			399912
 		},
 		oxy_type = {
 			1
@@ -2644,49 +2416,47 @@ function ()
 		search_condition = {
 			1
 		},
-		precast_param = {}
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2
+		}
 	}
-	uv0.weapon_property_354[1000764] = {
+	uv0.weapon_property_354[1001163] = {
 		action_index = "attack",
-		range = 80,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
+		range = 50,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【精英】领洋者I型 特殊主炮 V",
+		name = "【精英】破局者II型 4颗炮弹2轮攻击前排 III",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 360,
+		angle = 40,
 		charge_param = "",
 		damage = 22,
-		corrected = 125,
-		min_range = 0,
-		id = 1000764,
+		corrected = 100,
+		min_range = 20,
+		id = 1001163,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 2450,
+		reload_max = 1650,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
 		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
+		spawn_bound = "cannon2",
+		fire_sfx = "battle/cannon-main",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			803,
-			803,
-			803,
-			803
+			399988
 		},
 		barrage_ID = {
-			21037,
-			21038,
-			21039,
-			21040
+			399912
 		},
 		oxy_type = {
 			1
@@ -2694,6 +2464,298 @@ function ()
 		search_condition = {
 			1
 		},
-		precast_param = {}
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2
+		}
+	}
+	uv0.weapon_property_354[1001164] = {
+		action_index = "attack",
+		range = 50,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】破局者II型 4颗炮弹2轮攻击前排 IV",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 40,
+		charge_param = "",
+		damage = 26,
+		corrected = 100,
+		min_range = 20,
+		id = 1001164,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon2",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			399988
+		},
+		barrage_ID = {
+			399912
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2
+		}
+	}
+	uv0.weapon_property_354[1001165] = {
+		action_index = "attack",
+		range = 50,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】破局者II型 4颗炮弹2轮攻击前排 V",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 40,
+		charge_param = "",
+		damage = 32,
+		corrected = 100,
+		min_range = 20,
+		id = 1001165,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon2",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			399988
+		},
+		barrage_ID = {
+			399912
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2
+		}
+	}
+	uv0.weapon_property_354[1001166] = {
+		action_index = "attack",
+		range = 150,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】破局者II型 2颗炮弹3轮攻击后排 I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 40,
+		charge_param = "",
+		damage = 30,
+		corrected = 100,
+		min_range = 75,
+		id = 1001166,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3600,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon3",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1530
+		},
+		barrage_ID = {
+			20016
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2
+		}
+	}
+	uv0.weapon_property_354[1001167] = {
+		action_index = "attack",
+		range = 150,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】破局者II型 2颗炮弹3轮攻击后排 II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 40,
+		charge_param = "",
+		damage = 36,
+		corrected = 100,
+		min_range = 75,
+		id = 1001167,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3600,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon3",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1530
+		},
+		barrage_ID = {
+			20016
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2
+		}
+	}
+	uv0.weapon_property_354[1001168] = {
+		action_index = "attack",
+		range = 150,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】破局者II型 2颗炮弹3轮攻击后排 III",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 40,
+		charge_param = "",
+		damage = 45,
+		corrected = 100,
+		min_range = 75,
+		id = 1001168,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3600,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon3",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1530
+		},
+		barrage_ID = {
+			20016
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2
+		}
+	}
+	uv0.weapon_property_354[1001169] = {
+		action_index = "attack",
+		range = 150,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【精英】破局者II型 2颗炮弹3轮攻击后排 IV",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 40,
+		charge_param = "",
+		damage = 56,
+		corrected = 100,
+		min_range = 75,
+		id = 1001169,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3600,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon3",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1530
+		},
+		barrage_ID = {
+			20016
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2
+		}
 	}
 end()

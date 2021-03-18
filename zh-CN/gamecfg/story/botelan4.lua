@@ -362,7 +362,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过我能理解呢。我也经历过一样的事……夕立和比叡……",
+			say = "不过我能理解呢。我也经历过一样的事……{namecode:16}和{namecode:71}……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

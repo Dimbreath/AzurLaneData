@@ -1232,6 +1232,7 @@ pg.activity_template = {
 	[801] = {
 		mark = 20201222,
 		page_info = "",
+		time = "stop",
 		type = 34,
 		login_pop = 0,
 		config_id = 0,
@@ -1241,33 +1242,6 @@ pg.activity_template = {
 		config_data = {
 			1
 		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					12,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 970701
 		}
@@ -1275,6 +1249,7 @@ pg.activity_template = {
 	[802] = {
 		mark = 20201222,
 		page_info = "",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 802,
@@ -1282,34 +1257,7 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 802,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					12,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[850] = {
 		mark = 20210121,
@@ -1914,7 +1862,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 879,
-		is_show = 11,
+		is_show = 6,
 		title_res_tag = "maoxiV2_frame",
 		id = 879,
 		config_data = {},
@@ -2029,6 +1977,7 @@ pg.activity_template = {
 	},
 	[881] = {
 		mark = 20210219,
+		time = "stop",
 		type = 69,
 		login_pop = 0,
 		config_id = 4,
@@ -2036,33 +1985,6 @@ pg.activity_template = {
 		title_res_tag = "Neptune_catchup",
 		id = 881,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					2,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "LuyijiushiTecCatchupPage",
 			ui_name = "LuyijiushiTecCatchupPage"
@@ -2242,7 +2164,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 906,
-		is_show = 9,
+		is_show = 7,
 		title_res_tag = "MaoxiV2_Pt",
 		id = 906,
 		config_data = {},
@@ -2591,6 +2513,197 @@ pg.activity_template = {
 				914,
 				915
 			}
+		}
+	},
+	[920] = {
+		mark = 20210318,
+		page_info = "",
+		type = 74,
+		login_pop = 0,
+		config_id = 920,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 920,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					3,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					6,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[921] = {
+		mark = 20210318,
+		page_info = "",
+		type = 34,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 921,
+		config_data = {
+			2
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					3,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					6,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 970702
+		}
+	},
+	[925] = {
+		mark = 20210318,
+		type = 69,
+		login_pop = 0,
+		config_id = 5,
+		is_show = 8,
+		title_res_tag = "Neptune_catchup",
+		id = 925,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					3,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "IbukiTecCatchupPage",
+			ui_name = "IbukiTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42003
+		}
+	},
+	[940] = {
+		mark = 20210318,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 9,
+		config_client = "",
+		title_res_tag = "us_skirmish",
+		id = 940,
+		config_data = {
+			{
+				16500
+			},
+			{
+				16501
+			},
+			{
+				16502
+			},
+			{
+				16503
+			},
+			{
+				16504
+			},
+			{
+				16505
+			},
+			{
+				16506,
+				16507
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					3,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "USSkirmishRePage",
+			ui_name = "USSkirmishRePage"
 		}
 	},
 	[2001] = {
@@ -3409,6 +3522,22 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[2054] = {
+		mark = 20210318,
+		page_info = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5581,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 2054,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	[100001] = {
 		mark = 20190530,
 		page_info = "",
@@ -3585,6 +3714,10 @@ pg.activity_template = {
 		914,
 		915,
 		916,
+		920,
+		921,
+		925,
+		940,
 		2001,
 		2002,
 		2003,
@@ -3636,6 +3769,7 @@ pg.activity_template = {
 		2051,
 		2052,
 		2053,
+		2054,
 		100001,
 		100002,
 		40001,

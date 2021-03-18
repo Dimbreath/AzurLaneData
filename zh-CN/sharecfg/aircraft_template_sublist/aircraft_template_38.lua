@@ -1,158 +1,103 @@
 pg = pg or {}
 pg.aircraft_template_38 = {
-	[18210] = {
-		id = 18210,
-		base = 18200,
-		max_hp = 102,
-		hp_growth = 3907,
+	[19063] = {
+		id = 19063,
+		base = 19060,
+		max_hp = 67,
+		hp_growth = 2572,
 		weapon_ID = {
-			50050,
-			59630
+			52963,
+			52163
 		}
 	},
-	[18211] = {
-		id = 18211,
-		base = 18200,
+	[19064] = {
+		id = 19064,
+		base = 19060,
+		max_hp = 74,
+		hp_growth = 2839,
+		weapon_ID = {
+			52964,
+			52164
+		}
+	},
+	[19065] = {
+		id = 19065,
+		base = 19060,
+		max_hp = 81,
+		hp_growth = 3105,
+		weapon_ID = {
+			52965,
+			52165
+		}
+	},
+	[19066] = {
+		id = 19066,
+		base = 19060,
+		max_hp = 88,
+		hp_growth = 3371,
+		weapon_ID = {
+			52966,
+			52166
+		}
+	},
+	[19067] = {
+		id = 19067,
+		base = 19060,
+		max_hp = 95,
+		hp_growth = 3637,
+		weapon_ID = {
+			52967,
+			52167
+		}
+	},
+	[19068] = {
+		id = 19068,
+		base = 19060,
+		max_hp = 101,
+		hp_growth = 3903,
+		weapon_ID = {
+			52968,
+			52168
+		}
+	},
+	[19069] = {
+		id = 19069,
+		base = 19060,
 		max_hp = 108,
-		hp_growth = 4141,
+		hp_growth = 4169,
 		weapon_ID = {
-			50051,
-			59631
+			52969,
+			52169
 		}
 	},
-	[18212] = {
-		id = 18212,
-		base = 18200,
-		max_hp = 114,
-		hp_growth = 4376,
+	[19070] = {
+		id = 19070,
+		base = 19060,
+		max_hp = 115,
+		hp_growth = 4435,
 		weapon_ID = {
-			50052,
-			59632
+			52970,
+			52170
 		}
 	},
-	[18213] = {
-		id = 18213,
-		base = 18200,
-		max_hp = 120,
-		hp_growth = 4610,
+	[19071] = {
+		id = 19071,
+		base = 19060,
+		max_hp = 122,
+		hp_growth = 4701,
 		weapon_ID = {
-			50053,
-			59633
+			52971,
+			52171
 		}
 	},
-	[18220] = {
-		name = "XTB2D-1天空海盗",
-		max_hp = 55,
-		accuracy = 23,
-		model_ID = "XTB2D1",
-		ACC_growth = 0,
-		crash_DMG = 206,
-		dodge = 1.05,
-		attack_power = 2,
-		dodge_limit = 6,
-		type = 2,
-		AP_growth = 2000,
-		icon = "XTB2D1",
-		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 2129,
-		speed = 45,
-		id = 18220,
-		scale = 1,
+	[19072] = {
+		id = 19072,
+		base = 19060,
+		max_hp = 129,
+		hp_growth = 4967,
 		weapon_ID = {
-			59740,
-			51240
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.93,
-					-1.03,
-					0
-				},
-				{
-					0.96,
-					1.08,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[18221] = {
-		id = 18221,
-		base = 18220,
-		max_hp = 64,
-		hp_growth = 2448,
-		weapon_ID = {
-			59741,
-			51241
-		}
-	},
-	[18222] = {
-		id = 18222,
-		base = 18220,
-		max_hp = 72,
-		hp_growth = 2768,
-		weapon_ID = {
-			59742,
-			51242
-		}
-	},
-	[18223] = {
-		id = 18223,
-		base = 18220,
-		max_hp = 80,
-		hp_growth = 3087,
-		weapon_ID = {
-			59743,
-			51243
-		}
-	},
-	[18224] = {
-		id = 18224,
-		base = 18220,
-		max_hp = 89,
-		hp_growth = 3406,
-		weapon_ID = {
-			59744,
-			51244
+			52972,
+			52172
 		}
 	}
 }

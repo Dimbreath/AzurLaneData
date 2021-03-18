@@ -150,7 +150,8 @@ function slot0.Init(slot0, slot1)
 
 		uv0._go.transform:SetParent(uv0.UIOverlay.transform, false)
 
-		uv0.skinBtn = findTF(uv0._tf, "skip_button")
+		uv0.skinBtn = findTF(uv0._tf, "btns/skip_button")
+		uv0.autoBtn = findTF(uv0._tf, "btns/auto_button")
 		uv0.players = {
 			AsideStoryPlayer.New(slot0),
 			DialogueStoryPlayer.New(slot0),
@@ -196,6 +197,13 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
+function slot0.AutoPlay(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot0.optionSelCodes = slot2 or {}
+
+	slot0:Play(slot1, slot3, slot4, slot5)
+	triggerButton(slot0.autoBtn)
+end
+
 function slot0.SeriesPlay(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {}
 
@@ -224,7 +232,7 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4)
 		return nil
 	end
 
-	slot0.storyScript = Story.New(slot6, slot3, slot0:IsReView())
+	slot0.storyScript = Story.New(slot6, slot3, slot0:IsReView(), slot0.optionSelCodes)
 
 	if not slot0:CheckState() then
 		uv0("story state error")
@@ -270,6 +278,7 @@ end
 function slot0.OnStart(slot0)
 	removeOnButton(slot0._go)
 	removeOnButton(slot0.skinBtn)
+	removeOnButton(slot0.autoBtn)
 
 	slot0.state = uv0
 
@@ -284,16 +293,19 @@ function slot0.OnStart(slot0)
 	pg.DelegateInfo.New(slot0)
 
 	for slot4, slot5 in ipairs(slot0.players) do
-		slot5:StoryStart()
+		slot5:StoryStart(slot0.storyScript)
 	end
 
 	setActive(slot0._go, true)
 	slot0._tf:SetAsLastSibling()
 	setActive(slot0.skinBtn, not slot0.storyScript:ShouldHideSkip())
+	setActive(slot0.autoBtn:Find("sel"), false)
+	setActive(slot0.autoBtn:Find("unsel"), true)
+	setActive(slot0.autoBtn, true)
 
 	function slot1()
 		uv0.storyScript:SkipAll()
-		uv0.currPlayer:Next()
+		uv0.currPlayer:NextImmediately()
 	end
 
 	onButton(slot0, slot0.skinBtn, function ()
@@ -307,6 +319,11 @@ function slot0.OnStart(slot0)
 			return
 		end
 
+		if uv0.storyScript:GetAutoPlayFlag() then
+			uv0.storyScript:StopAutoPlay()
+			uv0:UpdateAutoBtn()
+		end
+
 		pg.MsgboxMgr:GetInstance():ShowMsgBox({
 			parent = rtf(uv0._tf),
 			canvasOrder = GetComponent(uv0._go, typeof(Canvas)).sortingOrder + 1,
@@ -315,6 +332,25 @@ function slot0.OnStart(slot0)
 			weight = LayerWeightConst.TOP_LAYER
 		})
 	end, SFX_PANEL)
+	onButton(slot0, slot0.autoBtn, function ()
+		if uv0.storyScript:GetAutoPlayFlag() then
+			uv0.storyScript:StopAutoPlay()
+		else
+			uv0.storyScript:SetAutoPlay()
+			uv0.currPlayer:Next()
+		end
+
+		if uv0.storyScript then
+			uv0:UpdateAutoBtn()
+		end
+	end, SFX_PANEL)
+end
+
+function slot0.UpdateAutoBtn(slot0)
+	slot1 = slot0.storyScript:GetAutoPlayFlag()
+
+	setActive(slot0.autoBtn:Find("sel"), slot1)
+	setActive(slot0.autoBtn:Find("unsel"), not slot1)
 end
 
 function slot0.Clear(slot0)
@@ -329,8 +365,10 @@ function slot0.Clear(slot0)
 	setActive(slot0._go, false)
 
 	for slot4, slot5 in ipairs(slot0.players) do
-		slot5:StoryEnd()
+		slot5:StoryEnd(slot0.storyScript)
 	end
+
+	slot0.optionSelCodes = nil
 
 	pg.CriMgr.GetInstance():ResumeLastNormalBGM()
 	pg.m02:sendNotification(GAME.STORY_END)

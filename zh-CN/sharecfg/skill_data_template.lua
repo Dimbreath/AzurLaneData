@@ -52622,7 +52622,7 @@ pg.skill_data_template = {
 		name = "全弹发射I",
 		type = 1,
 		max_level = 1,
-		desc = "进入战斗时，触发全弹发射-伊型I",
+		desc = "进入战斗时，触发全弹发射-{namecode:285}I",
 		id = 22311,
 		system_transform = {},
 		world_death_mark = {
@@ -52636,7 +52636,7 @@ pg.skill_data_template = {
 		name = "全弹发射II",
 		type = 1,
 		max_level = 1,
-		desc = "进入战斗时，触发全弹发射-伊型II",
+		desc = "进入战斗时，触发全弹发射-{namecode:285}II",
 		id = 22312,
 		system_transform = {},
 		world_death_mark = {
@@ -54243,10 +54243,10 @@ pg.skill_data_template = {
 	},
 	[29261] = {
 		desc_get = "",
-		name = "专属弹幕-I19I",
+		name = "专属弹幕-{namecode:154}I",
 		type = 1,
 		max_level = 1,
-		desc = "进入战斗时，触发专属弹幕-I19I",
+		desc = "进入战斗时，触发专属弹幕-{namecode:154}I",
 		id = 29261,
 		system_transform = {},
 		world_death_mark = {
@@ -54257,10 +54257,10 @@ pg.skill_data_template = {
 	},
 	[29262] = {
 		desc_get = "",
-		name = "专属弹幕-I19II",
+		name = "专属弹幕-{namecode:154}II",
 		type = 1,
 		max_level = 1,
-		desc = "进入战斗时，触发专属弹幕-I19II",
+		desc = "进入战斗时，触发专属弹幕-{namecode:154}II",
 		id = 29262,
 		system_transform = {},
 		world_death_mark = {
@@ -54544,7 +54544,7 @@ pg.skill_data_template = {
 		name = "专属弹幕-{namecode:163}I",
 		type = 1,
 		max_level = 1,
-		desc = "进入战斗时，触发专属弹幕-I13I",
+		desc = "进入战斗时，触发专属弹幕-{namecode:163}I",
 		id = 29371,
 		system_transform = {},
 		world_death_mark = {
@@ -54558,7 +54558,7 @@ pg.skill_data_template = {
 		name = "专属弹幕-{namecode:163}II",
 		type = 1,
 		max_level = 1,
-		desc = "进入战斗时，触发专属弹幕-I13II",
+		desc = "进入战斗时，触发专属弹幕-{namecode:163}II",
 		id = 29372,
 		system_transform = {},
 		world_death_mark = {
@@ -54681,10 +54681,10 @@ pg.skill_data_template = {
 	},
 	[29421] = {
 		desc_get = "",
-		name = "专属弹幕-伊168I",
+		name = "专属弹幕-{namecode:256}I",
 		type = 1,
 		max_level = 1,
-		desc = "进入战斗时，触发专属弹幕-伊168I",
+		desc = "进入战斗时，触发专属弹幕-{namecode:256}I",
 		id = 29421,
 		system_transform = {},
 		world_death_mark = {
@@ -54695,10 +54695,10 @@ pg.skill_data_template = {
 	},
 	[29422] = {
 		desc_get = "",
-		name = "专属弹幕-伊168II",
+		name = "专属弹幕-{namecode:256}II",
 		type = 1,
 		max_level = 1,
-		desc = "进入战斗时，触发专属弹幕-伊168II",
+		desc = "进入战斗时，触发专属弹幕-{namecode:256}II",
 		id = 29422,
 		system_transform = {},
 		world_death_mark = {
@@ -61047,6 +61047,252 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[800010] = {
+		desc_get = "",
+		name = "烬火枪焰",
+		type = 1,
+		max_level = 10,
+		desc = "战斗中每20秒，触发一轮特殊弹幕$1，被特殊弹幕命中的角色减速20%，持续5秒(威力依据技能等级)",
+		id = 800010,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[800020] = {
+		desc_get = "",
+		name = "幻影强袭",
+		type = 1,
+		max_level = 10,
+		desc = "自身发动空袭时，有$1概率触发，8秒内自身造成的所有伤害提高50%，触发失败时，发射一轮特殊弹幕$2(威力依据技能等级)",
+		id = 800020,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"20.0%",
+				"50.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+3.3%"
+				},
+				{
+					"23.3%",
+					"+3.3%"
+				},
+				{
+					"26.6%",
+					"+3.3%"
+				},
+				{
+					"29.9%",
+					"+3.3%"
+				},
+				{
+					"33.2%",
+					"+3.3%"
+				},
+				{
+					"36.5%",
+					"+3.3%"
+				},
+				{
+					"39.8%",
+					"+3.3%"
+				},
+				{
+					"43.1%",
+					"+3.3%"
+				},
+				{
+					"46.4%",
+					"+3.6%"
+				},
+				{
+					"50.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[800030] = {
+		desc_get = "",
+		name = "荣光之锋",
+		type = 3,
+		max_level = 10,
+		desc = "战斗开始时，提升自身命中属性$1，若自身装备有任意皇家阵营舰载机武器，自身发动空袭时，释放一轮航空弹幕$2（威力及样式依据技能等级）；若未装备任何皇家阵营舰载机武器，本场战斗前60秒，自身及先锋舰队领舰角色防空属性提高$1",
+		id = 800030,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
 	[800040] = {
 		desc_get = "",
 		name = "烬火之刃",
@@ -61466,7 +61712,7 @@ pg.skill_data_template = {
 	},
 	[800071] = {
 		desc_get = "",
-		name = "破敌之炬",
+		name = "破敌之炬·{namecode:94}I",
 		type = 3,
 		max_level = 1,
 		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高3%",
@@ -61482,7 +61728,7 @@ pg.skill_data_template = {
 	},
 	[800072] = {
 		desc_get = "",
-		name = "破敌之炬",
+		name = "破敌之炬·{namecode:94}II",
 		type = 3,
 		max_level = 1,
 		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高8%",
@@ -61498,7 +61744,7 @@ pg.skill_data_template = {
 	},
 	[800075] = {
 		desc_get = "",
-		name = "破敌之炬",
+		name = "破敌之炬·{namecode:94}I",
 		type = 3,
 		max_level = 1,
 		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高3%",
@@ -61514,13 +61760,77 @@ pg.skill_data_template = {
 	},
 	[800077] = {
 		desc_get = "",
-		name = "破敌之炬",
+		name = "破敌之炬·{namecode:94}II",
 		type = 3,
 		max_level = 1,
 		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高8%",
 		id = 800077,
 		system_transform = {
 			[51.0] = 800077
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800081] = {
+		desc_get = "",
+		name = "破敌之炬·皇家方舟I",
+		type = 3,
+		max_level = 1,
+		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，先锋舰队受到的伤害降低3%",
+		id = 800081,
+		system_transform = {
+			[51.0] = 800085
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800082] = {
+		desc_get = "",
+		name = "破敌之炬·皇家方舟II",
+		type = 3,
+		max_level = 1,
+		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，先锋舰队受到的伤害降低8%",
+		id = 800082,
+		system_transform = {
+			[51.0] = 800087
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800085] = {
+		desc_get = "",
+		name = "破敌之炬·皇家方舟I",
+		type = 3,
+		max_level = 1,
+		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，先锋舰队受到的伤害降低3%",
+		id = 800085,
+		system_transform = {
+			[51.0] = 800085
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800087] = {
+		desc_get = "",
+		name = "破敌之炬·皇家方舟II",
+		type = 3,
+		max_level = 1,
+		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，先锋舰队受到的伤害降低8%",
+		id = 800087,
+		system_transform = {
+			[51.0] = 800087
 		},
 		world_death_mark = {
 			1
@@ -62650,12 +62960,19 @@ pg.skill_data_template = {
 		106120,
 		106130,
 		106140,
+		800010,
+		800020,
+		800030,
 		800040,
 		800050,
 		800060,
 		800071,
 		800072,
 		800075,
-		800077
+		800077,
+		800081,
+		800082,
+		800085,
+		800087
 	}
 }

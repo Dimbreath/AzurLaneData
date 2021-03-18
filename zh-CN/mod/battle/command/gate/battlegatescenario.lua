@@ -61,10 +61,10 @@ function slot0.Entrance(slot0, slot1)
 
 		if uv3.enter_energy_cost > 0 and not uv4 then
 			for slot5, slot6 in ipairs(uv6) do
-				slot7 = uv7:getShipById(slot6)
-
-				slot7:cosumeEnergy(pg.gameset.battle_consume_energy.key_value * uv5)
-				uv7:updateShip(slot7)
+				if uv7:getShipById(slot6) then
+					slot7:cosumeEnergy(pg.gameset.battle_consume_energy.key_value * uv5)
+					uv7:updateShip(slot7)
+				end
 			end
 		end
 

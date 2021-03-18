@@ -1,39 +1,78 @@
 pg = pg or {}
 pg.aircraft_template_92 = {
-	[37103] = {
-		id = 37103,
-		base = 37100,
-		max_hp = 43,
-		hp_growth = 1666,
+	[37349] = {
+		id = 37349,
+		base = 37340,
+		max_hp = 94,
+		hp_growth = 3601,
 		weapon_ID = {
-			50003,
-			50503,
-			52103
+			59549,
+			52349
 		}
 	},
-	[37120] = {
-		name = "零战二一型",
-		max_hp = 33,
+	[37350] = {
+		id = 37350,
+		base = 37340,
+		max_hp = 100,
+		hp_growth = 3830,
+		weapon_ID = {
+			59550,
+			52350
+		}
+	},
+	[37351] = {
+		id = 37351,
+		base = 37340,
+		max_hp = 106,
+		hp_growth = 4060,
+		weapon_ID = {
+			59551,
+			52351
+		}
+	},
+	[37352] = {
+		id = 37352,
+		base = 37340,
+		max_hp = 112,
+		hp_growth = 4290,
+		weapon_ID = {
+			59552,
+			52352
+		}
+	},
+	[37353] = {
+		id = 37353,
+		base = 37340,
+		max_hp = 118,
+		hp_growth = 4520,
+		weapon_ID = {
+			59553,
+			52353
+		}
+	},
+	[37400] = {
+		name = "紫电改二",
+		max_hp = 36,
 		accuracy = 23,
-		model_ID = "lingzhan21",
+		model_ID = "zidiangaier",
 		ACC_growth = 0,
-		crash_DMG = 106,
-		dodge = 0.327,
+		crash_DMG = 162,
+		dodge = 0.297,
 		attack_power = 2,
-		dodge_limit = 8.5,
+		dodge_limit = 10,
 		type = 1,
 		AP_growth = 2000,
-		icon = "lingzhan21",
+		icon = "zidiangaier",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1277,
-		speed = 52,
-		id = 37120,
+		hp_growth = 1379,
+		speed = 60,
+		id = 37400,
 		scale = 1,
 		weapon_ID = {
-			50020,
-			50520,
-			52120
+			59540,
+			52340,
+			50860
 		},
 		position_offset = {
 			0,
@@ -76,7 +115,7 @@ pg.aircraft_template_92 = {
 				0
 			},
 			{
-				0.27,
+				0.51,
 				0,
 				0
 			},
@@ -87,146 +126,48 @@ pg.aircraft_template_92 = {
 			}
 		}
 	},
-	[37121] = {
-		id = 37121,
-		base = 37120,
-		max_hp = 38,
-		hp_growth = 1468,
+	[37401] = {
+		id = 37401,
+		base = 37400,
+		max_hp = 41,
+		hp_growth = 1586,
 		weapon_ID = {
-			50021,
-			50521,
-			52121
+			59541,
+			52341,
+			50861
 		}
 	},
-	[37122] = {
-		id = 37122,
-		base = 37120,
-		max_hp = 43,
-		hp_growth = 1660,
+	[37402] = {
+		id = 37402,
+		base = 37400,
+		max_hp = 47,
+		hp_growth = 1793,
 		weapon_ID = {
-			50022,
-			50522,
-			52122
+			59542,
+			52342,
+			50862
 		}
 	},
-	[37123] = {
-		id = 37123,
-		base = 37120,
-		max_hp = 48,
-		hp_growth = 1851,
+	[37403] = {
+		id = 37403,
+		base = 37400,
+		max_hp = 52,
+		hp_growth = 1999,
 		weapon_ID = {
-			50023,
-			50523,
-			52123
+			59543,
+			52343,
+			50863
 		}
 	},
-	[37124] = {
-		id = 37124,
-		base = 37120,
-		max_hp = 53,
-		hp_growth = 2043,
+	[37404] = {
+		id = 37404,
+		base = 37400,
+		max_hp = 57,
+		hp_growth = 2206,
 		weapon_ID = {
-			50024,
-			50524,
-			52124
-		}
-	},
-	[37125] = {
-		id = 37125,
-		base = 37120,
-		max_hp = 58,
-		hp_growth = 2234,
-		weapon_ID = {
-			50025,
-			50525,
-			52125
-		}
-	},
-	[37126] = {
-		id = 37126,
-		base = 37120,
-		max_hp = 63,
-		hp_growth = 2426,
-		weapon_ID = {
-			50026,
-			50526,
-			52126
-		}
-	},
-	[37140] = {
-		name = "零战二一型",
-		max_hp = 37,
-		accuracy = 23,
-		model_ID = "lingzhan21",
-		ACC_growth = 0,
-		crash_DMG = 106,
-		dodge = 0.315,
-		attack_power = 2,
-		dodge_limit = 9,
-		type = 1,
-		AP_growth = 2000,
-		icon = "lingzhan21",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1404,
-		speed = 52,
-		id = 37140,
-		scale = 1,
-		weapon_ID = {
-			50040,
-			50540,
-			52140
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.27,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
+			59544,
+			52344,
+			50864
 		}
 	}
 }

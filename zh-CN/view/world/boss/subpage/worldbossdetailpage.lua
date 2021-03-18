@@ -3,6 +3,16 @@ slot0.Listeners = {
 	onBossUpdated = "OnBossUpdated",
 	onRankListUpdated = "OnRankListUpdated"
 }
+slot1 = {
+	[970701] = {
+		-36.45481,
+		717.0379
+	},
+	[970702] = {
+		-36.45481,
+		629.5
+	}
+}
 
 function slot0.getUIName(slot0)
 	return "WorldBossDetailUI"
@@ -43,6 +53,9 @@ function slot0.OnLoaded(slot0)
 	slot0.helpWindow = WorldBossHelpPage.New(slot0._tf, slot0._event)
 
 	slot0:AddListeners(slot0.proxy)
+
+	slot0.groupId = WorldBossConst.GetCurrBossGroup()
+	slot0:findTF("label"):GetComponent(typeof(Image)).sprite = LoadSprite("MetaShip/" .. slot0.groupId .. "_title")
 end
 
 function slot0.OnInit(slot0)
@@ -66,7 +79,14 @@ function slot0.OnInit(slot0)
 			uv0:emit(WorldBossMediator.ON_SUBMIT_AWARD, uv0.boss.id)
 		end
 	end, SFX_PANEL)
-	setPaintingPrefabAsync(slot0.painting, "heilong", "lihuisha")
+	setPaintingPrefabAsync(slot0.painting, slot0.groupId, "lihuisha")
+
+	if uv0[slot0.groupId] then
+		setAnchoredPosition(slot0.painting, {
+			x = uv0[slot0.groupId][1],
+			y = uv0[slot0.groupId][2]
+		})
+	end
 end
 
 function slot0.AddListeners(slot0, slot1)
@@ -178,6 +198,10 @@ function slot0.UpdateRankTF(slot0, slot1, slot2, slot3)
 	setText(slot1:Find("name"), slot2.name)
 	setText(slot1:Find("value"), slot2.damage)
 	setText(slot1:Find("number"), slot2.number or slot3)
+	setActive(slot1:Find("view"), false)
+	onButton(slot0, slot1:Find("view"), function ()
+		uv0:emit(WorldBossMediator.FETCH_RANK_FORMATION, uv1.id, uv0.boss.id)
+	end, SFX_PANEL)
 end
 
 function slot0.UpdateSelfRank(slot0, slot1)
@@ -325,7 +349,7 @@ function slot0.Hide(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-	retPaintingPrefab(slot0.painting, "heilong")
+	retPaintingPrefab(slot0.painting, slot0.groupId)
 	slot0:RemoveGetAwardTimer()
 	slot0:RemoveListeners(slot0.proxy)
 	slot0:RemoveChallengeTimer()

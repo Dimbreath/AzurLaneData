@@ -1512,21 +1512,38 @@ function slot15(slot0, slot1, slot2, slot3)
 	slot5 = slot5.DOT_CONFIG
 	slot6 = slot4.dotType
 	slot5 = slot5[slot6]
-	slot7 = slot2
-	slot6 = slot2.GetAttrByName
-	slot8 = slot5.hit
-	slot6 = slot6(slot7, slot8)
-	slot8 = slot3
-	slot7 = slot3.GetAttrByName
-	slot9 = slot5.resist
-	slot7 = slot7(slot8, slot9)
-	slot8 = uv1
+
+	if slot2 then
+		slot7 = slot2
+		slot6 = slot2.GetAttrByName
+		slot8 = slot5.hit
+		slot6 = slot6(slot7, slot8)
+
+		if not slot6 then
+			slot6 = uv1
+			slot6 = slot6.NUM0
+		end
+	end
+
+	if slot3 then
+		slot8 = slot3
+		slot7 = slot3.GetAttrByName
+		slot9 = slot5.resist
+		slot7 = slot7(slot8, slot9)
+
+		if not slot7 then
+			slot7 = uv1
+			slot7 = slot7.NUM0
+		end
+	end
+
+	slot8 = uv2
 	slot8 = slot8.IsHappen
-	slot9 = uv2
+	slot9 = uv1
 	slot9 = slot9.NUM1
 	slot9 = slot9 + slot6
 	slot9 = slot0 * slot9
-	slot10 = uv2
+	slot10 = uv1
 	slot10 = slot10.NUM1
 	slot10 = slot10 - slot7
 	slot9 = slot9 * slot10
@@ -1542,14 +1559,31 @@ function slot15(slot0, slot1, slot2)
 	slot4 = slot4.DOT_CONFIG
 	slot5 = slot3.dotType
 	slot4 = slot4[slot5]
-	slot6 = slot1
-	slot5 = slot1.GetAttrByName
-	slot7 = slot4.prolong
-	slot5 = slot5(slot6, slot7)
-	slot7 = slot2
-	slot6 = slot2.GetAttrByName
-	slot8 = slot4.shorten
-	slot6 = slot6(slot7, slot8)
+
+	if slot1 then
+		slot6 = slot1
+		slot5 = slot1.GetAttrByName
+		slot7 = slot4.prolong
+		slot5 = slot5(slot6, slot7)
+
+		if not slot5 then
+			slot5 = uv1
+			slot5 = slot5.NUM0
+		end
+	end
+
+	if slot2 then
+		slot7 = slot2
+		slot6 = slot2.GetAttrByName
+		slot8 = slot4.shorten
+		slot6 = slot6(slot7, slot8)
+
+		if not slot6 then
+			slot6 = uv1
+			slot6 = slot6.NUM0
+		end
+	end
+
 	slot7 = slot5 - slot6
 
 	return slot7
@@ -1563,14 +1597,31 @@ function slot15(slot0, slot1, slot2)
 	slot4 = slot4.DOT_CONFIG
 	slot5 = slot3.dotType
 	slot4 = slot4[slot5]
-	slot6 = slot1
-	slot5 = slot1.GetAttrByName
-	slot7 = slot4.enhance
-	slot5 = slot5(slot6, slot7)
-	slot7 = slot2
-	slot6 = slot2.GetAttrByName
-	slot8 = slot4.reduce
-	slot6 = slot6(slot7, slot8)
+
+	if slot1 then
+		slot6 = slot1
+		slot5 = slot1.GetAttrByName
+		slot7 = slot4.enhance
+		slot5 = slot5(slot6, slot7)
+
+		if not slot5 then
+			slot5 = uv1
+			slot5 = slot5.NUM0
+		end
+	end
+
+	if slot2 then
+		slot7 = slot2
+		slot6 = slot2.GetAttrByName
+		slot8 = slot4.reduce
+		slot6 = slot6(slot7, slot8)
+
+		if not slot6 then
+			slot6 = uv1
+			slot6 = slot6.NUM0
+		end
+	end
+
 	slot7 = slot5 - slot6
 	slot8 = uv1
 	slot8 = slot8.PERCENT2

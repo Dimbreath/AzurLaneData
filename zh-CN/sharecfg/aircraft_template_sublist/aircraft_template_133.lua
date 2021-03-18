@@ -1,93 +1,479 @@
 pg = pg or {}
 pg.aircraft_template_133 = {
-	[47043] = {
-		id = 47043,
-		base = 47040,
-		max_hp = 56,
-		hp_growth = 2144,
-		weapon_ID = {
-			59043,
-			59443
+	[61020] = {
+		name = "黑企业剧情轰炸机",
+		max_hp = 120,
+		accuracy = 23,
+		model_ID = "shenhaifeiji",
+		ACC_growth = 0,
+		crash_DMG = 208,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "shenhaifeiji",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 5000,
+		speed = 66,
+		id = 61020,
+		scale = 1,
+		weapon_ID = {},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.64,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	},
-	[47044] = {
-		id = 47044,
-		base = 47040,
-		max_hp = 62,
-		hp_growth = 2365,
-		weapon_ID = {
-			59044,
-			59444
+	[61022] = {
+		name = "香格里拉技能飞机",
+		max_hp = 69,
+		accuracy = 23,
+		model_ID = "F6F",
+		ACC_growth = 0,
+		crash_DMG = 406,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "F6F",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 2282,
+		speed = 40,
+		id = 61022,
+		scale = 1,
+		weapon_ID = {},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.52,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	},
-	[47045] = {
-		id = 47045,
-		base = 47040,
-		max_hp = 67,
-		hp_growth = 2587,
-		weapon_ID = {
-			59045,
-			59445
+	[61023] = {
+		name = "伊13技能彩云",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "caiyun",
+		ACC_growth = 0,
+		crash_DMG = 208,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "caiyun",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1605,
+		speed = 66,
+		id = 61023,
+		scale = 1,
+		weapon_ID = {},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.64,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	},
-	[47046] = {
-		id = 47046,
-		base = 47040,
-		max_hp = 73,
-		hp_growth = 2809,
-		weapon_ID = {
-			59046,
-			59446
+	[61024] = {
+		name = "信浓技能彩云",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "caiyun",
+		ACC_growth = 0,
+		crash_DMG = 208,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "caiyun",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1594,
+		speed = 66,
+		id = 61024,
+		scale = 1,
+		weapon_ID = {},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.64,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	},
-	[47047] = {
-		id = 47047,
-		base = 47040,
-		max_hp = 79,
-		hp_growth = 3031,
-		weapon_ID = {
-			59047,
-			59447
-		}
-	},
-	[47048] = {
-		id = 47048,
-		base = 47040,
-		max_hp = 85,
-		hp_growth = 3252,
-		weapon_ID = {
-			59048,
-			59448
-		}
-	},
-	[47049] = {
-		id = 47049,
-		base = 47040,
-		max_hp = 90,
-		hp_growth = 3474,
-		weapon_ID = {
-			59049,
-			59449
-		}
-	},
-	[47050] = {
-		id = 47050,
-		base = 47040,
+	[61026] = {
+		name = "次郎丸大世界内技能鱼雷机",
 		max_hp = 96,
-		hp_growth = 3696,
+		accuracy = 23,
+		model_ID = "97jiangong",
+		ACC_growth = 0,
+		crash_DMG = 180,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "97jiangong",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3678,
+		speed = 45,
+		id = 61026,
+		scale = 1,
 		weapon_ID = {
-			59050,
-			59450
+			61027
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	},
-	[47051] = {
-		id = 47051,
-		base = 47040,
-		max_hp = 102,
-		hp_growth = 3918,
+	[65061] = {
+		name = "普林斯顿技能鱼雷机Lv1",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "tbf",
+		ACC_growth = 0,
+		crash_DMG = 406,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "tbf",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1615,
+		speed = 48,
+		id = 65061,
+		scale = 1,
 		weapon_ID = {
-			59051,
-			59451
+			65071
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.52,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[65062] = {
+		max_hp = 47,
+		name = "普林斯顿技能鱼雷机Lv2",
+		base = 65061,
+		id = 65062,
+		hp_growth = 1826,
+		weapon_ID = {
+			65072
+		}
+	},
+	[65063] = {
+		max_hp = 53,
+		name = "普林斯顿技能鱼雷机Lv3",
+		base = 65061,
+		id = 65063,
+		hp_growth = 2036,
+		weapon_ID = {
+			65073
+		}
+	},
+	[65064] = {
+		max_hp = 58,
+		name = "普林斯顿技能鱼雷机Lv4",
+		base = 65061,
+		id = 65064,
+		hp_growth = 2247,
+		weapon_ID = {
+			65074
+		}
+	},
+	[65065] = {
+		max_hp = 64,
+		name = "普林斯顿技能鱼雷机Lv5",
+		base = 65061,
+		id = 65065,
+		hp_growth = 2458,
+		weapon_ID = {
+			65075
 		}
 	}
 }

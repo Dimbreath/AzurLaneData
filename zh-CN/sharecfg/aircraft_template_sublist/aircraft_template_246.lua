@@ -1,84 +1,168 @@
 pg = pg or {}
 pg.aircraft_template_246 = {
-	[82323] = {
-		id = 82323,
-		base = 82320,
-		max_hp = 72,
-		hp_growth = 2760,
-		weapon_ID = {
-			50663
-		}
-	},
-	[82324] = {
-		id = 82324,
-		base = 82320,
+	[84127] = {
+		id = 84127,
+		base = 84120,
 		max_hp = 79,
-		hp_growth = 3045,
+		hp_growth = 3031,
 		weapon_ID = {
-			50664
+			59127,
+			59227
 		}
 	},
-	[82325] = {
-		id = 82325,
-		base = 82320,
-		max_hp = 87,
-		hp_growth = 3330,
+	[84128] = {
+		id = 84128,
+		base = 84120,
+		max_hp = 85,
+		hp_growth = 3252,
 		weapon_ID = {
-			50665
+			59128,
+			59228
 		}
 	},
-	[82326] = {
-		id = 82326,
-		base = 82320,
-		max_hp = 94,
-		hp_growth = 3616,
+	[84129] = {
+		id = 84129,
+		base = 84120,
+		max_hp = 90,
+		hp_growth = 3474,
 		weapon_ID = {
-			50666
+			59129,
+			59229
 		}
 	},
-	[82327] = {
-		id = 82327,
-		base = 82320,
-		max_hp = 101,
-		hp_growth = 3901,
+	[84130] = {
+		id = 84130,
+		base = 84120,
+		max_hp = 96,
+		hp_growth = 3696,
 		weapon_ID = {
-			50667
+			59130,
+			59230
 		}
 	},
-	[82328] = {
-		id = 82328,
-		base = 82320,
-		max_hp = 109,
-		hp_growth = 4187,
+	[84140] = {
+		name = "Me-155A舰载战斗机T3",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "Me155A",
+		ACC_growth = 0,
+		crash_DMG = 65,
+		dodge = 0.315,
+		attack_power = 2,
+		dodge_limit = 10,
+		type = 1,
+		AP_growth = 2000,
+		icon = "Me155A",
+		funnel_behavior = "",
+		nationality = 4,
+		hp_growth = 1613,
+		speed = 50,
+		id = 84140,
+		scale = 1,
 		weapon_ID = {
-			50668
+			59140,
+			59240
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.51,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	},
-	[82329] = {
-		id = 82329,
-		base = 82320,
-		max_hp = 116,
-		hp_growth = 4472,
+	[84141] = {
+		id = 84141,
+		base = 84140,
+		max_hp = 48,
+		hp_growth = 1855,
 		weapon_ID = {
-			50669
+			59141,
+			59241
 		}
 	},
-	[82330] = {
-		id = 82330,
-		base = 82320,
-		max_hp = 124,
-		hp_growth = 4758,
+	[84142] = {
+		id = 84142,
+		base = 84140,
+		max_hp = 55,
+		hp_growth = 2097,
 		weapon_ID = {
-			50670
+			59142,
+			59242
 		}
 	},
-	[82331] = {
-		id = 82331,
-		base = 82320,
-		max_hp = 131,
-		hp_growth = 5043,
+	[84143] = {
+		id = 84143,
+		base = 84140,
+		max_hp = 61,
+		hp_growth = 2339,
 		weapon_ID = {
-			50671
+			59143,
+			59243
+		}
+	},
+	[84144] = {
+		id = 84144,
+		base = 84140,
+		max_hp = 67,
+		hp_growth = 2580,
+		weapon_ID = {
+			59144,
+			59244
+		}
+	},
+	[84145] = {
+		id = 84145,
+		base = 84140,
+		max_hp = 73,
+		hp_growth = 2822,
+		weapon_ID = {
+			59145,
+			59245
 		}
 	}
 }

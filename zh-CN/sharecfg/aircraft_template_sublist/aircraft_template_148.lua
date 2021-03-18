@@ -1,154 +1,98 @@
 pg = pg or {}
 pg.aircraft_template_148 = {
-	[61024] = {
-		name = "信浓技能彩云",
-		max_hp = 42,
-		accuracy = 23,
-		model_ID = "caiyun",
-		ACC_growth = 0,
-		crash_DMG = 208,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "caiyun",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1594,
-		speed = 66,
-		id = 61024,
-		scale = 1,
-		weapon_ID = {},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.64,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[61026] = {
-		name = "次郎丸大世界内技能鱼雷机",
-		max_hp = 96,
-		accuracy = 23,
-		model_ID = "97jiangong",
-		ACC_growth = 0,
-		crash_DMG = 180,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "97jiangong",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3678,
-		speed = 45,
-		id = 61026,
-		scale = 1,
+	[66822] = {
+		max_hp = 30,
+		name = "飞鹰隼鹰技能Lv2",
+		base = 66820,
+		id = 66822,
+		hp_growth = 1178,
 		weapon_ID = {
-			61027
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
+			66842
 		}
 	},
-	[65061] = {
-		name = "普林斯顿技能鱼雷机Lv1",
-		max_hp = 42,
+	[66823] = {
+		max_hp = 33,
+		name = "飞鹰隼鹰技能Lv3",
+		base = 66820,
+		id = 66823,
+		hp_growth = 1305,
+		weapon_ID = {
+			66843
+		}
+	},
+	[66824] = {
+		max_hp = 37,
+		name = "飞鹰隼鹰技能Lv4",
+		base = 66820,
+		id = 66824,
+		hp_growth = 1432,
+		weapon_ID = {
+			66844
+		}
+	},
+	[66825] = {
+		max_hp = 40,
+		name = "飞鹰隼鹰技能Lv5",
+		base = 66820,
+		id = 66825,
+		hp_growth = 1559,
+		weapon_ID = {
+			66845
+		}
+	},
+	[66826] = {
+		max_hp = 43,
+		name = "飞鹰隼鹰技能Lv6",
+		base = 66820,
+		id = 66826,
+		hp_growth = 1686,
+		weapon_ID = {
+			66846
+		}
+	},
+	[66827] = {
+		max_hp = 47,
+		name = "飞鹰隼鹰技能Lv7",
+		base = 66820,
+		id = 66827,
+		hp_growth = 1813,
+		weapon_ID = {
+			66847
+		}
+	},
+	[66828] = {
+		max_hp = 50,
+		name = "飞鹰隼鹰技能Lv8",
+		base = 66820,
+		id = 66828,
+		hp_growth = 1940,
+		weapon_ID = {
+			66848
+		}
+	},
+	[66829] = {
+		max_hp = 53,
+		name = "飞鹰隼鹰技能Lv9",
+		base = 66820,
+		id = 66829,
+		hp_growth = 2067,
+		weapon_ID = {
+			66849
+		}
+	},
+	[66830] = {
+		max_hp = 57,
+		name = "飞鹰隼鹰技能Lv10",
+		base = 66820,
+		id = 66830,
+		hp_growth = 2195,
+		weapon_ID = {
+			66850
+		}
+	},
+	[66940] = {
+		name = "萨拉托加技能鱼雷机Lv0",
+		max_hp = 30,
 		accuracy = 23,
 		model_ID = "tbf",
 		ACC_growth = 0,
@@ -161,12 +105,12 @@ pg.aircraft_template_148 = {
 		icon = "tbf",
 		funnel_behavior = "",
 		nationality = 1,
-		hp_growth = 1615,
+		hp_growth = 1149,
 		speed = 48,
-		id = 65061,
+		id = 66940,
 		scale = 1,
 		weapon_ID = {
-			65071
+			66980
 		},
 		position_offset = {
 			0,
@@ -209,8 +153,8 @@ pg.aircraft_template_148 = {
 				0
 			},
 			{
-				0.52,
-				0,
+				0.15,
+				-0.08,
 				0
 			},
 			{
@@ -218,66 +162,6 @@ pg.aircraft_template_148 = {
 				0,
 				0
 			}
-		}
-	},
-	[65062] = {
-		max_hp = 47,
-		name = "普林斯顿技能鱼雷机Lv2",
-		base = 65061,
-		id = 65062,
-		hp_growth = 1826,
-		weapon_ID = {
-			65072
-		}
-	},
-	[65063] = {
-		max_hp = 53,
-		name = "普林斯顿技能鱼雷机Lv3",
-		base = 65061,
-		id = 65063,
-		hp_growth = 2036,
-		weapon_ID = {
-			65073
-		}
-	},
-	[65064] = {
-		max_hp = 58,
-		name = "普林斯顿技能鱼雷机Lv4",
-		base = 65061,
-		id = 65064,
-		hp_growth = 2247,
-		weapon_ID = {
-			65074
-		}
-	},
-	[65065] = {
-		max_hp = 64,
-		name = "普林斯顿技能鱼雷机Lv5",
-		base = 65061,
-		id = 65065,
-		hp_growth = 2458,
-		weapon_ID = {
-			65075
-		}
-	},
-	[65066] = {
-		max_hp = 69,
-		name = "普林斯顿技能鱼雷机Lv6",
-		base = 65061,
-		id = 65066,
-		hp_growth = 2669,
-		weapon_ID = {
-			65076
-		}
-	},
-	[65067] = {
-		max_hp = 75,
-		name = "普林斯顿技能鱼雷机Lv7",
-		base = 65061,
-		id = 65067,
-		hp_growth = 2879,
-		weapon_ID = {
-			65077
 		}
 	}
 }

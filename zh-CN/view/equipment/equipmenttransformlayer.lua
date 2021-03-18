@@ -62,10 +62,6 @@ function slot0.UpdateConsumeComparer(slot0)
 	slot3 = slot0.consumePanel:Find("ComposeBtn"):GetComponent(typeof(Button))
 end
 
-function slot0.SameEquip(slot0, slot1)
-	return slot0.id == slot1.id and slot0.shipId == slot1.shipId and slot0.shipPos == slot1.shipPos
-end
-
 function slot0.UpdateFormula(slot0, slot1)
 	if slot1 == slot0.contextData.formulaId then
 		return
@@ -83,8 +79,8 @@ function slot0.UpdateFormula(slot0, slot1)
 	slot4 = nil
 
 	if slot0.contextData.sourceEquipmentInstance then
-		slot4 = _.detect(slot0.env.GetSameTypeInEquips(slot0.equipmentSourceId), function (slot0)
-			return uv0.SameEquip(slot0, uv0.contextData.sourceEquipmentInstance)
+		slot4 = _.detect(slot0.env.tracebackHelper:GetSameTypeInEquips(slot0.equipmentSourceId), function (slot0)
+			return EquipmentProxy.SameEquip(slot0, uv0.contextData.sourceEquipmentInstance)
 		end)
 	end
 
@@ -108,10 +104,10 @@ function slot0.UpdatePage(slot0)
 end
 
 function slot0.UpdateSourceEquipmentPaths(slot0)
-	slot0.hasRoot = _.any(slot0.env.GetEquipTraceBack(slot0.equipmentSourceId), function (slot0)
+	slot0.hasRoot = _.any(slot0.env.tracebackHelper:GetSortedEquipTraceBack(slot0.equipmentSourceId), function (slot0)
 		return slot0.candicates and #slot1 > 0 and TransformEquipmentCommand.CheckEquipmentFormulasSucceed(slot0.formulas, slot1[#slot1].id)
 	end)
-	slot0.childsCanUse = #slot0.env.GetSameTypeInEquips(slot0.equipmentSourceId) > 0
+	slot0.childsCanUse = #slot0.env.tracebackHelper:GetSameTypeInEquips(slot0.equipmentSourceId) > 0
 end
 
 function slot0.CheckEnoughMaterials(slot0)
@@ -173,7 +169,7 @@ function slot0.UpdateTargetInfo(slot0)
 	slot2 = slot0.layer:Find("InfoPanel")
 	slot5 = 0
 
-	for slot9, slot10 in ipairs(slot0.env.GetSameTypeInEquips(slot0.equipmentTarget)) do
+	for slot9, slot10 in ipairs(slot0.env.tracebackHelper:GetSameTypeInEquips(slot0.equipmentTarget)) do
 		if slot10.shipId then
 			slot4 = 0 + slot10.count
 		else

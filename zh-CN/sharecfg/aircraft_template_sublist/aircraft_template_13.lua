@@ -1,46 +1,35 @@
 pg = pg or {}
 pg.aircraft_template_13 = {
-	[17090] = {
-		id = 17090,
-		base = 17080,
-		max_hp = 101,
-		hp_growth = 3881,
+	[17126] = {
+		id = 17126,
+		base = 17120,
+		max_hp = 70,
+		hp_growth = 2681,
 		weapon_ID = {
-			50350,
-			52150
+			50426
 		}
 	},
-	[17091] = {
-		id = 17091,
-		base = 17080,
-		max_hp = 107,
-		hp_growth = 4114,
-		weapon_ID = {
-			50351,
-			52151
-		}
-	},
-	[17100] = {
+	[17140] = {
 		name = "F4F野猫",
-		max_hp = 33,
+		max_hp = 40,
 		accuracy = 23,
 		model_ID = "f4f",
 		ACC_growth = 0,
 		crash_DMG = 116,
-		dodge = 0.357,
+		dodge = 0.333,
 		attack_power = 2,
-		dodge_limit = 9,
+		dodge_limit = 10,
 		type = 1,
 		AP_growth = 2000,
 		icon = "f4f",
 		funnel_behavior = "",
 		nationality = 1,
-		hp_growth = 1270,
+		hp_growth = 1552,
 		speed = 48,
-		id = 17100,
+		id = 17140,
 		scale = 1,
 		weapon_ID = {
-			50400
+			50440
 		},
 		position_offset = {
 			0,
@@ -94,123 +83,76 @@ pg.aircraft_template_13 = {
 			}
 		}
 	},
-	[17101] = {
-		id = 17101,
-		base = 17100,
-		max_hp = 38,
-		hp_growth = 1461,
+	[17141] = {
+		id = 17141,
+		base = 17140,
+		max_hp = 46,
+		hp_growth = 1785,
 		weapon_ID = {
-			50401
+			50441
 		}
 	},
-	[17102] = {
-		id = 17102,
-		base = 17100,
-		max_hp = 43,
-		hp_growth = 1651,
+	[17142] = {
+		id = 17142,
+		base = 17140,
+		max_hp = 52,
+		hp_growth = 2018,
 		weapon_ID = {
-			50402
+			50442
 		}
 	},
-	[17103] = {
-		id = 17103,
-		base = 17100,
-		max_hp = 48,
-		hp_growth = 1842,
+	[17143] = {
+		id = 17143,
+		base = 17140,
+		max_hp = 59,
+		hp_growth = 2251,
 		weapon_ID = {
-			50403
+			50443
 		}
 	},
-	[17120] = {
-		name = "F4F野猫",
-		max_hp = 37,
-		accuracy = 23,
-		model_ID = "f4f",
-		ACC_growth = 0,
-		crash_DMG = 116,
-		dodge = 0.345,
-		attack_power = 2,
-		dodge_limit = 9.5,
-		type = 1,
-		AP_growth = 2000,
-		icon = "f4f",
-		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1411,
-		speed = 48,
-		id = 17120,
-		scale = 1,
+	[17144] = {
+		id = 17144,
+		base = 17140,
+		max_hp = 65,
+		hp_growth = 2484,
 		weapon_ID = {
-			50420
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					1.24,
-					-1.34,
-					0
-				},
-				{
-					1.43,
-					1.6,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.32,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
+			50444
 		}
 	},
-	[17121] = {
-		id = 17121,
-		base = 17120,
-		max_hp = 42,
-		hp_growth = 1623,
+	[17145] = {
+		id = 17145,
+		base = 17140,
+		max_hp = 71,
+		hp_growth = 2717,
 		weapon_ID = {
-			50421
+			50445
 		}
 	},
-	[17122] = {
-		id = 17122,
-		base = 17120,
-		max_hp = 48,
-		hp_growth = 1835,
+	[17146] = {
+		id = 17146,
+		base = 17140,
+		max_hp = 77,
+		hp_growth = 2949,
 		weapon_ID = {
-			50422
+			50446
+		}
+	},
+	[17147] = {
+		id = 17147,
+		base = 17140,
+		max_hp = 83,
+		hp_growth = 3182,
+		weapon_ID = {
+			50447
+		}
+	},
+	[17148] = {
+		id = 17148,
+		base = 17140,
+		max_hp = 89,
+		hp_growth = 3415,
+		weapon_ID = {
+			50448
 		}
 	}
 }

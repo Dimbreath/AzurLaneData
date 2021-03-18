@@ -1,93 +1,183 @@
 pg = pg or {}
 pg.aircraft_template_173 = {
-	[67342] = {
-		max_hp = 47,
-		name = "埃塞克斯技能鱼雷机Lv2",
-		base = 67340,
-		id = 67342,
-		hp_growth = 1826,
-		weapon_ID = {
-			67442
-		}
-	},
-	[67343] = {
-		max_hp = 53,
-		name = "埃塞克斯技能鱼雷机Lv3",
-		base = 67340,
-		id = 67343,
-		hp_growth = 2036,
-		weapon_ID = {
-			67443
-		}
-	},
-	[67344] = {
-		max_hp = 58,
-		name = "埃塞克斯技能鱼雷机Lv4",
-		base = 67340,
-		id = 67344,
-		hp_growth = 2247,
-		weapon_ID = {
-			67444
-		}
-	},
-	[67345] = {
-		max_hp = 64,
-		name = "埃塞克斯技能鱼雷机Lv5",
-		base = 67340,
-		id = 67345,
-		hp_growth = 2458,
-		weapon_ID = {
-			67445
-		}
-	},
-	[67346] = {
-		max_hp = 69,
-		name = "埃塞克斯技能鱼雷机Lv6",
-		base = 67340,
-		id = 67346,
-		hp_growth = 2669,
-		weapon_ID = {
-			67446
-		}
-	},
-	[67347] = {
-		max_hp = 75,
-		name = "埃塞克斯技能鱼雷机Lv7",
-		base = 67340,
-		id = 67347,
-		hp_growth = 2879,
-		weapon_ID = {
-			67447
-		}
-	},
-	[67348] = {
-		max_hp = 80,
-		name = "埃塞克斯技能鱼雷机Lv8",
-		base = 67340,
-		id = 67348,
-		hp_growth = 3090,
-		weapon_ID = {
-			67448
-		}
-	},
-	[67349] = {
-		max_hp = 86,
-		name = "埃塞克斯技能鱼雷机Lv9",
-		base = 67340,
-		id = 67349,
-		hp_growth = 3301,
-		weapon_ID = {
-			67449
-		}
-	},
-	[67350] = {
-		max_hp = 91,
-		name = "埃塞克斯技能鱼雷机Lv10",
-		base = 67340,
-		id = 67350,
+	[68550] = {
+		max_hp = 98,
+		name = "伊25技能零侦LV10",
+		base = 68541,
+		id = 68550,
 		hp_growth = 3511,
+		weapon_ID = {}
+	},
+	[68621] = {
+		name = "巴丹技能F6FLV1",
+		max_hp = 51,
+		accuracy = 23,
+		model_ID = "f6f",
+		ACC_growth = 0,
+		crash_DMG = 156,
+		dodge = 0.315,
+		attack_power = 2,
+		dodge_limit = 11,
+		type = 1,
+		AP_growth = 2000,
+		icon = "f6f",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1947,
+		speed = 50,
+		id = 68621,
+		scale = 1,
 		weapon_ID = {
-			67450
+			50341,
+			50541,
+			68631
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.28,
+					1.62,
+					0
+				},
+				{
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[68622] = {
+		max_hp = 57,
+		name = "巴丹技能F6FLV2",
+		base = 68621,
+		id = 68622,
+		hp_growth = 2201,
+		weapon_ID = {
+			50342,
+			50542,
+			68632
+		}
+	},
+	[68623] = {
+		max_hp = 64,
+		name = "巴丹技能F6FLV3",
+		base = 68621,
+		id = 68623,
+		hp_growth = 2455,
+		weapon_ID = {
+			50343,
+			50543,
+			68633
+		}
+	},
+	[68624] = {
+		max_hp = 70,
+		name = "巴丹技能F6FLV4",
+		base = 68621,
+		id = 68624,
+		hp_growth = 2710,
+		weapon_ID = {
+			50344,
+			50544,
+			68634
+		}
+	},
+	[68625] = {
+		max_hp = 77,
+		name = "巴丹技能F6FLV5",
+		base = 68621,
+		id = 68625,
+		hp_growth = 2964,
+		weapon_ID = {
+			50345,
+			50545,
+			68635
+		}
+	},
+	[68626] = {
+		max_hp = 84,
+		name = "巴丹技能F6FLV6",
+		base = 68621,
+		id = 68626,
+		hp_growth = 3218,
+		weapon_ID = {
+			50346,
+			50546,
+			68636
+		}
+	},
+	[68627] = {
+		max_hp = 90,
+		name = "巴丹技能F6FLV7",
+		base = 68621,
+		id = 68627,
+		hp_growth = 3472,
+		weapon_ID = {
+			50347,
+			50547,
+			68637
+		}
+	},
+	[68628] = {
+		max_hp = 97,
+		name = "巴丹技能F6FLV8",
+		base = 68621,
+		id = 68628,
+		hp_growth = 3726,
+		weapon_ID = {
+			50348,
+			50548,
+			68638
+		}
+	},
+	[68629] = {
+		max_hp = 103,
+		name = "巴丹技能F6FLV9",
+		base = 68621,
+		id = 68629,
+		hp_growth = 3980,
+		weapon_ID = {
+			50349,
+			50549,
+			68639
 		}
 	}
 }

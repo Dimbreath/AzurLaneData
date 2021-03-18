@@ -41,25 +41,42 @@ function slot0.Type2Name(slot0)
 	return i18n("attribute_" .. slot0)
 end
 
-slot0.eliteCondition = {
-	level = i18n("elite_condition_level"),
-	durability = i18n("elite_condition_durability"),
-	cannon = i18n("elite_condition_cannon"),
-	torpedo = i18n("elite_condition_torpedo"),
-	antiaircraft = i18n("elite_condition_antiaircraft"),
-	air = i18n("elite_condition_air"),
-	antisub = i18n("elite_condition_antisub"),
-	dodge = i18n("elite_condition_dodge"),
-	reload = i18n("elite_condition_reload")
+slot0.eliteConditionTip = {
+	cannon = "elite_condition_cannon",
+	antiaircraft = "elite_condition_antiaircraft",
+	reload = "elite_condition_reload",
+	torpedo = "elite_condition_torpedo",
+	durability = "elite_condition_durability",
+	air = "elite_condition_air",
+	fleet_totle_level = "elite_condition_fleet_totle_level",
+	dodge = "elite_condition_dodge",
+	antisub = "elite_condition_antisub",
+	level = "elite_condition_level"
 }
-slot0.eliteConditionCompare = {
+slot0.eliteConditionCompareTip = {
 	[0] = i18n("common_compare_equal"),
 	i18n("common_compare_larger"),
+	i18n("common_compare_not_less_than"),
+	[-2] = i18n("common_compare_not_more_than"),
 	[-1] = i18n("common_compare_smaller")
 }
 
-function slot0.EliteCondition2Name(slot0)
-	return uv0.eliteCondition[slot0]
+function slot0.EliteCondition2Name(slot0, ...)
+	return i18n(uv0.eliteConditionTip[slot0], ...)
+end
+
+function slot0.EliteConditionCompare(slot0, slot1, slot2)
+	if slot0 == 0 then
+		return slot1 == slot2
+	elseif slot0 == 1 then
+		return slot2 < slot1
+	elseif slot0 == -1 then
+		return slot1 < slot2
+	elseif slot0 == 2 then
+		return slot2 <= slot1
+	elseif slot0 == -2 then
+		return slot1 <= slot2
+	end
 end
 
 return slot0

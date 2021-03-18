@@ -121,6 +121,9 @@ function slot0.initUI(slot0)
 	slot0.entranceLayer = slot0:findTF("entrance")
 	slot0.entranceBg = slot0:findTF("entrance_bg")
 	slot0.topChapter = slot0:findTF("top_chapter", slot0.topPanel)
+
+	setActive(slot0:findTF("title_chapter", slot0.topChapter), false)
+
 	slot0.chapterName = slot0:findTF("title_chapter/name", slot0.topChapter)
 	slot0.chapterNoTitle = slot0:findTF("title_chapter/chapter", slot0.topChapter)
 	slot0.resChapter = slot0:findTF("resources", slot0.topChapter)
@@ -160,6 +163,9 @@ function slot0.initUI(slot0)
 
 	slot0.skirmishBar = slot0:findTF("left_times", slot0.leftChapter)
 	slot0.mainLayer = slot0:findTF("main")
+
+	setActive(slot0.mainLayer:Find("title_chapter_lines"), false)
+
 	slot0.rightChapter = slot0:findTF("main/right_chapter")
 	slot0.rightCanvasGroup = slot0.rightChapter:GetComponent(typeof(CanvasGroup))
 	slot0.eventContainer = slot0:findTF("event_btns/event_container", slot0.rightChapter)
@@ -240,6 +246,7 @@ function slot0.initUI(slot0)
 	slot0.clouds = slot0:findTF("clouds", slot0.float)
 
 	setActive(slot0.clouds, true)
+	setActive(slot0.float:Find("levels"), false)
 
 	slot0.resources = slot0:findTF("resources"):GetComponent("ItemList")
 	slot0.arrowTarget = slot0.resources.prefabItem[0]
@@ -373,6 +380,8 @@ function slot0.didEnter(slot0)
 			uv0:emit(LevelMediator2.ON_SWITCH_NORMAL_MAP)
 
 			return
+		elseif slot0 and slot0:isSkirmish() then
+			uv0:emit(uv1.ON_BACK)
 		elseif not uv0.contextData.entranceStatus then
 			uv0:ShowEntranceUI(true)
 		else
@@ -632,6 +641,10 @@ function slot0.checkChallengeOpen(slot0)
 end
 
 function slot0.tryPlaySubGuide(slot0)
+	if slot0.contextData.map and slot0.contextData.map:isSkirmish() then
+		return
+	end
+
 	pg.SystemGuideMgr.GetInstance():Play(slot0)
 end
 
@@ -1159,8 +1172,8 @@ function slot0.updateActivityBtns(slot0)
 		setActive(slot0.ptTotal, false)
 	end
 
-	setActive(slot0.eventContainer, (not slot1 or not slot2) and not slot4 and not slot5)
-	setActive(slot0.remasterBtn, OPEN_REMASTER and (slot3 or not slot1 and not slot5))
+	setActive(slot0.eventContainer, (not slot1 or not slot2) and not slot5)
+	setActive(slot0.remasterBtn, OPEN_REMASTER and (slot3 or not slot1 and not slot5 and not slot4))
 	setActive(slot0.ticketTxt.parent, slot3)
 	slot0:updateRemasterTicket()
 	slot0:updateCountDown()
@@ -1423,7 +1436,6 @@ function slot0.SwitchMapBuilder(slot0, slot1, slot2)
 		slot0.mapBuilder = slot0.mbDict[slot1]
 	end
 
-	slot3.buffer:Show()
 	slot3.buffer:DoFunction(function ()
 		if uv0.mapBuilder and uv0.mapBuilder:GetType() ~= uv1 then
 			uv0.mapBuilder.buffer:Hide()
@@ -1431,7 +1443,8 @@ function slot0.SwitchMapBuilder(slot0, slot1, slot2)
 
 		uv0.mapBuilder = uv0.mbDict[uv1]
 
-		uv2(uv3)
+		uv2:Show()
+		uv3(uv2)
 	end)
 end
 
@@ -1476,23 +1489,10 @@ function slot0.updateMap(slot0)
 
 			uv0.mapBuilder:Update(uv1)
 			uv0:UpdateSwitchMapButton()
-			setActive(uv0:findTF("title_chapter", uv0.topChapter), not uv1:isSkirmish())
-			setText(uv0.chapterName, string.split(uv1:getConfig("name"), "||")[1])
-
-			if uv1:isEscort() then
-				uv0.loader:GetSprite("chapterno", "chapterex", uv0.chapterNoTitle, true)
-			else
-				uv0.loader:GetSprite("chapterno", "chapter" .. uv1:getMapTitleNumber(), uv0.chapterNoTitle, true)
-			end
-
-			setActive(uv0.topChapter:Find("type_chapter"), uv1:isNormalMap())
-			setActive(uv0.topChapter:Find("type_escort"), uv1:isEscort())
-			setActive(uv0.topChapter:Find("type_skirmish"), uv1:isSkirmish())
 			uv0:updateCouldAnimator()
-			uv0.mapBuilder:PostUpdateMap(uv1)
 			uv0:updateMapItems()
-			uv0:updateDifficultyBtns()
-			uv0:updateActivityBtns()
+			uv0.mapBuilder:UpdateButtons()
+			uv0.mapBuilder:PostUpdateMap(uv1)
 
 			if uv0.contextData.openChapterId then
 				uv0.mapBuilder.buffer:TryOpenChapter(uv0.contextData.openChapterId)
@@ -2062,8 +2062,7 @@ function slot0.switchToMap(slot0, slot1)
 		slot0:unfrozen()
 	end
 
-	slot0:updateDifficultyBtns()
-	slot0:updateActivityBtns()
+	slot0.mapBuilder:UpdateButtons()
 end
 
 function slot0.SwitchBG(slot0, slot1, slot2)

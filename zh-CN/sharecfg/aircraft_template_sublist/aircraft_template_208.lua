@@ -1,114 +1,107 @@
 pg = pg or {}
 pg.aircraft_template_208 = {
-	[69713] = {
-		max_hp = 64,
-		name = "英仙座技能萤火虫Lv3",
-		base = 69711,
-		id = 69713,
-		hp_growth = 2450,
+	[81365] = {
+		id = 81365,
+		base = 81360,
+		max_hp = 92,
+		hp_growth = 3556,
 		weapon_ID = {
-			50663,
-			52743
+			50665
 		}
 	},
-	[69714] = {
-		max_hp = 70,
-		name = "英仙座技能萤火虫Lv4",
-		base = 69711,
-		id = 69714,
-		hp_growth = 2703,
+	[81366] = {
+		id = 81366,
+		base = 81360,
+		max_hp = 100,
+		hp_growth = 3861,
 		weapon_ID = {
-			50664,
-			52744
+			50666
 		}
 	},
-	[69715] = {
-		max_hp = 77,
-		name = "英仙座技能萤火虫Lv5",
-		base = 69711,
-		id = 69715,
-		hp_growth = 2957,
+	[81367] = {
+		id = 81367,
+		base = 81360,
+		max_hp = 108,
+		hp_growth = 4166,
 		weapon_ID = {
-			50665,
-			52745
+			50667
 		}
 	},
-	[69716] = {
-		max_hp = 83,
-		name = "英仙座技能萤火虫Lv6",
-		base = 69711,
-		id = 69716,
-		hp_growth = 3210,
+	[81368] = {
+		id = 81368,
+		base = 81360,
+		max_hp = 116,
+		hp_growth = 4471,
 		weapon_ID = {
-			50666,
-			52746
+			50668
 		}
 	},
-	[69717] = {
-		max_hp = 90,
-		name = "英仙座技能萤火虫Lv7",
-		base = 69711,
-		id = 69717,
-		hp_growth = 3464,
+	[81369] = {
+		id = 81369,
+		base = 81360,
+		max_hp = 124,
+		hp_growth = 4776,
 		weapon_ID = {
-			50667,
-			52747
+			50669
 		}
 	},
-	[69718] = {
-		max_hp = 97,
-		name = "英仙座技能萤火虫Lv8",
-		base = 69711,
-		id = 69718,
-		hp_growth = 3717,
+	[81370] = {
+		id = 81370,
+		base = 81360,
+		max_hp = 132,
+		hp_growth = 5080,
 		weapon_ID = {
-			50668,
-			52748
+			50670
 		}
 	},
-	[69719] = {
-		max_hp = 103,
-		name = "英仙座技能萤火虫Lv9",
-		base = 69711,
-		id = 69719,
-		hp_growth = 3971,
+	[81371] = {
+		id = 81371,
+		base = 81360,
+		max_hp = 140,
+		hp_growth = 5385,
 		weapon_ID = {
-			50669,
-			52749
+			50671
 		}
 	},
-	[69720] = {
-		max_hp = 110,
-		name = "英仙座技能萤火虫Lv10",
-		base = 69711,
-		id = 69720,
-		hp_growth = 4224,
+	[81372] = {
+		id = 81372,
+		base = 81360,
+		max_hp = 148,
+		hp_growth = 5690,
 		weapon_ID = {
-			50670,
-			52750
+			50672
 		}
 	},
-	[69751] = {
-		name = "鹰技能剑鱼 Lv1",
-		max_hp = 40,
+	[81373] = {
+		id = 81373,
+		base = 81360,
+		max_hp = 156,
+		hp_growth = 5995,
+		weapon_ID = {
+			50673
+		}
+	},
+	[81380] = {
+		name = "F8F熊猫",
+		max_hp = 48,
 		accuracy = 23,
-		model_ID = "jianyu",
+		model_ID = "f8f",
 		ACC_growth = 0,
-		crash_DMG = 102,
-		dodge = 1,
+		crash_DMG = 162,
+		dodge = 0.303,
 		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
+		dodge_limit = 12,
+		type = 1,
 		AP_growth = 2000,
-		icon = "jianyu",
+		icon = "f8f",
 		funnel_behavior = "",
-		nationality = 0,
-		hp_growth = 1538,
-		speed = 45,
-		id = 69751,
+		nationality = 1,
+		hp_growth = 1829,
+		speed = 50,
+		id = 81380,
 		scale = 1,
 		weapon_ID = {
-			69771
+			50660
 		},
 		position_offset = {
 			0,
@@ -128,13 +121,13 @@ pg.aircraft_template_208 = {
 		bound_bone = {
 			weapon = {
 				{
-					1.03,
-					-1.43,
+					0.84,
+					-1.25,
 					0
 				},
 				{
-					1.01,
-					1.43,
+					0.77,
+					1.48,
 					0
 				}
 			}
@@ -151,7 +144,7 @@ pg.aircraft_template_208 = {
 				0
 			},
 			{
-				0.52,
+				0,
 				0,
 				0
 			},

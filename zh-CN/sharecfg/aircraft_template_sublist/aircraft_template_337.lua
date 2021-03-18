@@ -1,178 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_337 = {
-	[534032] = {
-		name = "塞壬航母蛋船战斗机T1 (飞机",
-		max_hp = 176,
+	[670213] = {
+		name = "【2020埃塞克斯世界BOSS H难度】 轰炸机*10",
+		max_hp = 205,
 		accuracy = 23,
-		model_ID = "shenhaifeiji",
+		model_ID = "BTD",
 		ACC_growth = 0,
-		crash_DMG = 170,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "shenhaifeiji",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2800,
-		speed = 33,
-		id = 534032,
-		scale = 0.75,
-		weapon_ID = {
-			534208,
-			534209
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.56,
-					-0.76,
-					0
-				},
-				{
-					0.48,
-					0.99,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[534512] = {
-		name = "执棋者BOSS 浮游炮机体",
-		max_hp = 580,
-		accuracy = 23,
-		model_ID = "fuyoupao2",
-		ACC_growth = 0,
-		crash_DMG = 350,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "fuyoupao2",
-		nationality = 3,
-		hp_growth = 8000,
-		speed = 70,
-		id = 534512,
-		scale = 0.75,
-		funnel_behavior = {
-			stay = 2,
-			exist = 20
-		},
-		weapon_ID = {
-			534515
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					2.72,
-					-0.21,
-					0
-				},
-				{
-					3.2,
-					-0.14,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[534513] = {
-		name = "执棋者BOSS 轰炸机T3",
-		max_hp = 210,
-		accuracy = 23,
-		model_ID = "shenhaifeiji",
-		ACC_growth = 0,
-		crash_DMG = 280,
+		crash_DMG = 119,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "BTD",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3800,
+		nationality = 1,
+		hp_growth = 3360,
 		speed = 30,
-		id = 534513,
+		id = 670213,
 		scale = 0.75,
 		weapon_ID = {
-			534516
+			670216
 		},
 		position_offset = {
 			0,
@@ -192,13 +40,13 @@ pg.aircraft_template_337 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					-1.28,
+					1.62,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					-1.12,
+					-1,
 					0
 				}
 			}
@@ -215,8 +63,8 @@ pg.aircraft_template_337 = {
 				0
 			},
 			{
-				0,
-				0,
+				0.72,
+				-0.15,
 				0
 			},
 			{
@@ -226,250 +74,28 @@ pg.aircraft_template_337 = {
 			}
 		}
 	},
-	[534514] = {
-		name = "执棋者BOSS 鱼雷机T3",
-		max_hp = 192,
+	[670214] = {
+		name = "【2020埃塞克斯世界BOSS H难度】 战斗机*7",
+		max_hp = 145,
 		accuracy = 23,
-		model_ID = "shenhaifeiji",
+		model_ID = "F6F",
 		ACC_growth = 0,
-		crash_DMG = 220,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 2,
-		AP_growth = 2000,
-		icon = "shenhaifeiji",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3200,
-		speed = 33,
-		id = 534514,
-		scale = 0.75,
-		weapon_ID = {
-			534517
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.56,
-					-0.76,
-					0
-				},
-				{
-					0.48,
-					0.99,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[534518] = {
-		name = "执棋者BOSS蓄力武器飞机群",
-		max_hp = 192,
-		accuracy = 23,
-		model_ID = "shenhaifeiji",
-		ACC_growth = 0,
-		crash_DMG = 65,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 2,
-		AP_growth = 2000,
-		icon = "shenhaifeiji",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3200,
-		speed = 50,
-		id = 534518,
-		scale = 0.75,
-		weapon_ID = {},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.56,
-					-0.76,
-					0
-				},
-				{
-					0.48,
-					0.99,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[534532] = {
-		name = "执棋者BOSS 浮游炮机体",
-		max_hp = 42,
-		accuracy = 23,
-		model_ID = "fuyoupao2",
-		ACC_growth = 0,
-		crash_DMG = 350,
+		crash_DMG = 68,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "fuyoupao2",
-		nationality = 3,
-		hp_growth = 6000,
-		speed = 70,
-		id = 534532,
-		scale = 0.75,
-		funnel_behavior = {
-			stay = 2,
-			exist = 20
-		},
-		weapon_ID = {
-			534535
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					2.72,
-					-0.21,
-					0
-				},
-				{
-					3.2,
-					-0.14,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[534533] = {
-		name = "执棋者BOSS 轰炸机T3",
-		max_hp = 248,
-		accuracy = 23,
-		model_ID = "shenhaifeiji",
-		ACC_growth = 0,
-		crash_DMG = 302,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "F6F",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3800,
-		speed = 30,
-		id = 534533,
+		nationality = 1,
+		hp_growth = 2550,
+		speed = 33,
+		id = 670214,
 		scale = 0.75,
 		weapon_ID = {
-			534536
+			670217,
+			670218
 		},
 		position_offset = {
 			0,
@@ -489,13 +115,13 @@ pg.aircraft_template_337 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -512,7 +138,7 @@ pg.aircraft_template_337 = {
 				0
 			},
 			{
-				0,
+				0.32,
 				0,
 				0
 			},
@@ -523,27 +149,27 @@ pg.aircraft_template_337 = {
 			}
 		}
 	},
-	[534534] = {
-		name = "执棋者BOSS 鱼雷机T3",
-		max_hp = 204,
+	[670312] = {
+		name = "【2020埃塞克斯世界BOSS EX难度】 鱼雷机*10",
+		max_hp = 336,
 		accuracy = 23,
-		model_ID = "shenhaifeiji",
+		model_ID = "tbf",
 		ACC_growth = 0,
-		crash_DMG = 226,
+		crash_DMG = 256,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "tbf",
 		funnel_behavior = "",
-		nationality = 3,
+		nationality = 1,
 		hp_growth = 3600,
-		speed = 33,
-		id = 534534,
+		speed = 30,
+		id = 670312,
 		scale = 0.75,
 		weapon_ID = {
-			534537
+			670315
 		},
 		position_offset = {
 			0,
@@ -563,13 +189,13 @@ pg.aircraft_template_337 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.56,
-					-0.76,
+					1.24,
+					-1.34,
 					0
 				},
 				{
-					0.48,
-					0.99,
+					1.43,
+					1.6,
 					0
 				}
 			}
@@ -597,26 +223,28 @@ pg.aircraft_template_337 = {
 			}
 		}
 	},
-	[534538] = {
-		name = "执棋者BOSS蓄力武器飞机群",
-		max_hp = 142,
+	[670313] = {
+		name = "【2020埃塞克斯世界BOSS EX难度】 轰炸机*7",
+		max_hp = 365,
 		accuracy = 23,
-		model_ID = "shenhaifeiji",
+		model_ID = "BTD",
 		ACC_growth = 0,
-		crash_DMG = 96,
+		crash_DMG = 296,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 3,
 		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "BTD",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3000,
-		speed = 50,
-		id = 534538,
+		nationality = 1,
+		hp_growth = 3900,
+		speed = 30,
+		id = 670313,
 		scale = 0.75,
-		weapon_ID = {},
+		weapon_ID = {
+			670316
+		},
 		position_offset = {
 			0,
 			5,
@@ -635,13 +263,473 @@ pg.aircraft_template_337 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.56,
-					-0.76,
+					-1.28,
+					1.62,
 					0
 				},
 				{
-					0.48,
-					0.99,
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[670314] = {
+		name = "【2020埃塞克斯世界BOSS EX难度】 战斗机*7",
+		max_hp = 324,
+		accuracy = 23,
+		model_ID = "F6F",
+		ACC_growth = 0,
+		crash_DMG = 216,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F6F",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 3400,
+		speed = 33,
+		id = 670314,
+		scale = 0.75,
+		weapon_ID = {
+			670317,
+			670318
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.32,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[680146] = {
+		name = "【2020英系活动B3】BOSS 清除者 第一波 环绕浮游炮",
+		max_hp = 3000,
+		accuracy = 23,
+		model_ID = "fuyoupao",
+		ACC_growth = 0,
+		crash_DMG = 86,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "fuyoupao",
+		nationality = 3,
+		hp_growth = 3680,
+		speed = 50,
+		id = 680146,
+		scale = 0.75,
+		funnel_behavior = {
+			AI = 70096
+		},
+		weapon_ID = {
+			680148,
+			680149
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					2.72,
+					-0.21,
+					0
+				},
+				{
+					3.2,
+					-0.14,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[680147] = {
+		name = "【2020英系活动B3】BOSS 清除者 第一波 环绕浮游炮",
+		max_hp = 3000,
+		accuracy = 23,
+		model_ID = "fuyoupao",
+		ACC_growth = 0,
+		crash_DMG = 86,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "fuyoupao",
+		nationality = 3,
+		hp_growth = 3680,
+		speed = 50,
+		id = 680147,
+		scale = 0.75,
+		funnel_behavior = {
+			AI = 70097
+		},
+		weapon_ID = {
+			680148,
+			680149
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					2.72,
+					-0.21,
+					0
+				},
+				{
+					3.2,
+					-0.14,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[680346] = {
+		name = "【2020英系活动D3】BOSS 清除者 第一波 环绕浮游炮",
+		max_hp = 8000,
+		accuracy = 23,
+		model_ID = "fuyoupao",
+		ACC_growth = 0,
+		crash_DMG = 240,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "fuyoupao",
+		nationality = 3,
+		hp_growth = 3680,
+		speed = 50,
+		id = 680346,
+		scale = 0.75,
+		funnel_behavior = {
+			AI = 70096
+		},
+		weapon_ID = {
+			680348,
+			680349
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					2.72,
+					-0.21,
+					0
+				},
+				{
+					3.2,
+					-0.14,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[680347] = {
+		name = "【2020英系活动D3】BOSS 清除者 第一波 环绕浮游炮",
+		max_hp = 8000,
+		accuracy = 23,
+		model_ID = "fuyoupao",
+		ACC_growth = 0,
+		crash_DMG = 240,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "fuyoupao",
+		nationality = 3,
+		hp_growth = 3680,
+		speed = 50,
+		id = 680347,
+		scale = 0.75,
+		funnel_behavior = {
+			AI = 70097
+		},
+		weapon_ID = {
+			680348,
+			680349
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					2.72,
+					-0.21,
+					0
+				},
+				{
+					3.2,
+					-0.14,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[690609] = {
+		name = "【2020信浓活动普通T1】BOSS 测试者 第三波 浮游炮",
+		max_hp = 260,
+		accuracy = 23,
+		model_ID = "fuyoupao",
+		ACC_growth = 0,
+		crash_DMG = 183,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "fuyoupao",
+		nationality = 3,
+		hp_growth = 3680,
+		speed = 40,
+		id = 690609,
+		scale = 0.75,
+		funnel_behavior = {
+			AI = 70106
+		},
+		weapon_ID = {
+			690611,
+			690612
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					2.72,
+					-0.21,
+					0
+				},
+				{
+					3.2,
+					-0.14,
 					0
 				}
 			}

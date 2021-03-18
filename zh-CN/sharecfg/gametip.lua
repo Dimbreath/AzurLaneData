@@ -2704,7 +2704,7 @@ pg.gametip = {
 		tip = "尚未部署该舰队"
 	},
 	world_fleet_choose = {
-		tip = "在大型作战中，战斗将不会影响心情与消耗石油"
+		tip = "<color=#80e742>在大型作战中，战斗将不会影响心情与消耗石油</color>"
 	},
 	world_fleet_formation_not_valid = {
 		tip = "必须部署$1"
@@ -2911,7 +2911,7 @@ pg.gametip = {
 				info = [[
 信标·烬功能说明
 
-1. <color=#92fc63>2020.12.22-2021.3.18</color>期间限时开放「龙·META」的挑战，在此期间指挥官可挑战「龙·META」累计其同步值获取<color=#92fc63>「龙·META」角色</color>及其他丰厚奖励
+1. <color=#92fc63>2021.3.18-2021.6.10</color>期间限时开放「皇家方舟·META」的挑战，在此期间指挥官可挑战「皇家方舟·META」累计其同步值获取<color=#92fc63>「皇家方舟·META」角色</color>及其他丰厚奖励
  <color=#ff5c5c>注意：同步值将于时间结束后消失</color>
 
 2.「余烬信标数据」获取与解析
@@ -2937,7 +2937,7 @@ pg.gametip = {
 ·战斗中不可中途退出，如果出现网络波动导致掉线的情况：
 ①挑战自己解析的信标时将会消耗40点石油(非第一次挑战)，且不会计算已造成的伤害
 ②挑战信标列表中的信标时将会消耗挑战次数且无法获得任何奖励
-  <color=#92fc63>请在参与作战时保持网络环境畅通</color>]]
+ <color=#92fc63>请在参与作战时保持网络环境畅通</color>]]
 			}
 		}
 	},
@@ -5312,6 +5312,9 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 	elite_condition_reload = {
 		tip = "装填总值"
 	},
+	elite_condition_fleet_totle_level = {
+		tip = "舰船等级总和大于$1的舰队数量"
+	},
 	common_compare_larger = {
 		tip = "大于"
 	},
@@ -5320,6 +5323,12 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 	},
 	common_compare_smaller = {
 		tip = "小于"
+	},
+	common_compare_not_less_than = {
+		tip = "大于等于"
+	},
+	common_compare_not_more_than = {
+		tip = "小于等于"
 	},
 	level_scene_formation_active_already = {
 		tip = "当前阵型已被激活"
@@ -7218,7 +7227,7 @@ $3]]
 		tip = "通关<color=#92fc63>$1</color>后开启"
 	},
 	ship_limit_notice = {
-		tip = "不计算潜艇舰队的数据."
+		tip = "*不计算潜艇舰队的数据"
 	},
 	idle = {
 		tip = "待机"
@@ -11671,7 +11680,7 @@ BUFF加成也会增加
 		tip = "在研发加速功能中，可以将科研测试数据转化为技术测试所需经验，科研测试数据可以从研发加速任务获得"
 	},
 	click_back_tip = {
-		tip = "点击空白处返回"
+		tip = "点击任意位置返回"
 	},
 	tech_catchup_sentence_pauses = {
 		tip = "——"
@@ -13205,7 +13214,7 @@ BUFF加成也会增加
 		tip = "二宝的伙伴（平海篇）"
 	},
 	wwf_bamboo_tip3 = {
-		tip = "美味竹子不足，请完成任务获取 "
+		tip = "美味竹子不足，请完成任务获取"
 	},
 	wwf_bamboo_help = {
 		tip = {
@@ -13502,9 +13511,9 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 			{
 				info = [[
 1.<color=#92fc63>资讯同步</color>
-·<color=#92fc63>2020.12.22-2021.3.18</color>期间限时开放「龙·META」的「资讯同步」，通过「信标·烬」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「龙·META」角色</color>
+·<color=#92fc63>2021.3.18-2021.6.10</color>期间限时开放「皇家方舟·META」的「资讯同步」，通过「信标·烬」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「皇家方舟·META」角色</color>
 ·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励
-·注意：<color=#ff5c5c>「龙·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
+·注意：<color=#ff5c5c>「皇家方舟·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
 
 2.<color=#92fc63>能量激活</color>
 ·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级
@@ -13695,6 +13704,9 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	levelScene_select_noitem = {
 		tip = "暂无可使用的道具"
 	},
+	story_setting_label = {
+		tip = "剧情自动播放速度调整"
+	},
 	login_arrears_tips = {
 		tip = "账号中存在异常退款记录，仅允许登陆以下服务器：$1"
 	},
@@ -13727,5 +13739,20 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	},
 	Supplement_pay8 = {
 		tip = "剩余 $1"
+	},
+	world_battle_damage = {
+		tip = "<color=#ff5c5c>战损状态</color>需要通过舰队维护或港口修理消除"
+	},
+	setting_story_speed_1 = {
+		tip = "慢"
+	},
+	setting_story_speed_2 = {
+		tip = "正常"
+	},
+	setting_story_speed_3 = {
+		tip = "快"
+	},
+	setting_story_speed_4 = {
+		tip = "特快"
 	}
 }

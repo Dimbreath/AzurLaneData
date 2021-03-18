@@ -1,79 +1,5 @@
 pg = pg or {}
 pg.aircraft_template_2 = {
-	[118] = {
-		name = "默认重樱鱼雷机",
-		max_hp = 24,
-		accuracy = 23,
-		model_ID = "97jiangong",
-		ACC_growth = 0,
-		crash_DMG = 9,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 2,
-		AP_growth = 2000,
-		icon = "97jiangong",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 924,
-		speed = 48,
-		id = 118,
-		scale = 1,
-		weapon_ID = {
-			135
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.54,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
 	[119] = {
 		name = "默认重樱轰炸机",
 		max_hp = 28,
@@ -657,6 +583,154 @@ pg.aircraft_template_2 = {
 			{
 				0.54,
 				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[127] = {
+		name = "默认鸢尾轰炸机",
+		max_hp = 29,
+		accuracy = 23,
+		model_ID = "GL2",
+		ACC_growth = 0,
+		crash_DMG = 9,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "GL2",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1126,
+		speed = 46,
+		id = 127,
+		scale = 1,
+		weapon_ID = {
+			139
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[128] = {
+		name = "默认鸢尾战斗机-自动防空",
+		max_hp = 28,
+		accuracy = 23,
+		model_ID = "GL2",
+		ACC_growth = 0,
+		crash_DMG = 9,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "GL2",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1075,
+		speed = 50,
+		id = 128,
+		scale = 1,
+		weapon_ID = {
+			146
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
 				0
 			},
 			{

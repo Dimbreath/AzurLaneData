@@ -53,8 +53,8 @@ return {
 					}
 				},
 				{
-					triggerType = 0,
 					key = true,
+					triggerType = 0,
 					waveIndex = 101,
 					conditionType = 1,
 					preWaves = {
@@ -63,11 +63,12 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 294202,
-							moveCast = true,
 							score = 0,
+							reinforceDelay = 20,
 							delay = 0,
+							moveCast = true,
 							affix = true,
+							monsterTemplateID = 294202,
 							corrdinate = {
 								-5,
 								0,
@@ -79,68 +80,189 @@ return {
 							},
 							phase = {
 								{
-									switchParam = 24,
+									switchParam = 8,
 									switchTo = 1,
 									index = 0,
 									switchType = 1,
 									setAI = 100100,
 									addWeapon = {
-										2040050,
-										2040110,
-										2040120,
-										2040130
+										2041000
 									}
 								},
 								{
-									switchParam = 28,
+									switchParam = 10,
 									switchTo = 2,
 									index = 1,
 									switchType = 1,
-									removeWeapon = {
-										2040050,
-										2040110,
-										2040120,
-										2040130
-									},
+									setAI = 100100,
 									addWeapon = {
-										2040150,
-										2040160,
-										2040170,
-										2040180,
-										2040190,
-										2040200
+										2041020
 									}
 								},
 								{
-									switchParam = 40,
-									switchTo = 1,
-									index = 2,
 									switchType = 1,
-									setAI = 100101,
+									switchParam = 4,
+									index = 2,
+									switchTo = 3,
+									setAI = 20006,
+									addBuff = {
+										79075
+									},
 									removeWeapon = {
-										2040150,
-										2040160,
-										2040170,
-										2040180,
-										2040190,
-										2040200
+										2041000,
+										2041020
 									},
 									addWeapon = {
-										2040300,
-										2040310
+										2041100,
+										2041110
 									}
+								},
+								{
+									switchType = 1,
+									switchParam = 21,
+									index = 3,
+									switchTo = 4,
+									setAI = 10001,
+									removeBuff = {
+										79075
+									},
+									removeWeapon = {
+										2041100,
+										2041110
+									},
+									addWeapon = {
+										2041120
+									}
+								},
+								{
+									switchParam = 24,
+									switchTo = 5,
+									index = 4,
+									switchType = 1,
+									setAI = 10001,
+									removeWeapon = {
+										2041120
+									},
+									addWeapon = {
+										2041200,
+										2041210
+									}
+								},
+								{
+									switchType = 1,
+									switchParam = 4,
+									index = 5,
+									switchTo = 6,
+									setAI = 20006,
+									addBuff = {
+										79075
+									},
+									removeWeapon = {
+										2041200,
+										2041210
+									},
+									addWeapon = {
+										2041300,
+										2041310
+									}
+								},
+								{
+									switchType = 1,
+									switchParam = 6,
+									index = 6,
+									switchTo = 7,
+									setAI = 20006,
+									removeBuff = {
+										79075
+									},
+									removeWeapon = {
+										2041300,
+										2041310
+									},
+									addWeapon = {
+										2041320
+									}
+								},
+								{
+									switchType = 1,
+									switchTo = 0,
+									index = 7,
+									switchParam = 60,
+									setAI = 100100
 								}
+							}
+						}
+					},
+					reinforcement = {
+						{
+							monsterTemplateID = 291010,
+							score = 0,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								35,
+								0,
+								75
+							},
+							buffList = {
+								8001,
+								8002
+							}
+						},
+						{
+							monsterTemplateID = 291010,
+							score = 0,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								50,
+								0,
+								75
+							},
+							buffList = {
+								8001,
+								8002
+							}
+						},
+						{
+							monsterTemplateID = 291010,
+							score = 0,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								35,
+								0,
+								35
+							},
+							buffList = {
+								8001,
+								8002
+							}
+						},
+						{
+							monsterTemplateID = 291010,
+							score = 0,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								50,
+								0,
+								35
+							},
+							buffList = {
+								8001,
+								8002
 							}
 						}
 					},
 					airFighter = {
 						{
-							interval = 20,
-							onceNumber = 5,
-							formation = 10008,
-							templateID = 2200900,
+							interval = 12,
+							onceNumber = 6,
+							formation = 10009,
+							templateID = 2200903,
 							delay = 0,
-							totalNumber = 15,
+							totalNumber = 18,
 							weaponID = {},
 							attr = {
 								airPower = 40,

@@ -3436,6 +3436,115 @@ pg.ship_skin_template_19 = {
 			}
 		}
 	},
+	[900309] = {
+		ship_group = 900308,
+		name = "？？？",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "苏维埃同盟级战列舰—苏维埃贝拉罗斯",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "suweiaibeilaluosi_hei",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 900309,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "suweiaibeilaluosi_hei",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.068,
+					0.997,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.084,
+					1.006,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.092,
+					1.003,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.346,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[9707010] = {
 		ship_group = 970701,
 		name = "{namecode:191}",
@@ -3463,6 +3572,115 @@ pg.ship_skin_template_19 = {
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = 30,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.07,
+					1.53,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.1,
+					1.55,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.04,
+					-0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.01,
+					1.56,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.56,
+							2.2,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9707020] = {
+		ship_group = 970702,
+		name = "皇家方舟·META",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "航空母舰皇家方舟，加入你的麾下。只要阁下是心怀大志之人，我就会全力为你而战！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "huangjiafangzhou_alter",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 9707020,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "huangjiafangzhou_alter",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -4072,7 +4290,7 @@ pg.ship_skin_template_19 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bg = "201",
-		skin_type = 0,
+		skin_type = 4,
 		id = 10100051,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
@@ -4278,7 +4496,7 @@ pg.ship_skin_template_19 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bg = "202",
-		skin_type = 0,
+		skin_type = 4,
 		id = 10100061,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
@@ -4484,7 +4702,7 @@ pg.ship_skin_template_19 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bg = "203",
-		skin_type = 0,
+		skin_type = 4,
 		id = 10100071,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
@@ -4690,7 +4908,7 @@ pg.ship_skin_template_19 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bg = "204",
-		skin_type = 0,
+		skin_type = 4,
 		id = 10100081,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
@@ -5100,7 +5318,7 @@ pg.ship_skin_template_19 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bg = "206",
-		skin_type = 0,
+		skin_type = 4,
 		id = 10300011,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
@@ -5306,7 +5524,7 @@ pg.ship_skin_template_19 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bg = "208",
-		skin_type = 0,
+		skin_type = 4,
 		id = 10300021,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
@@ -5512,7 +5730,7 @@ pg.ship_skin_template_19 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bg = "207",
-		skin_type = 0,
+		skin_type = 4,
 		id = 10300031,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
@@ -5718,7 +5936,7 @@ pg.ship_skin_template_19 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bg = "209",
-		skin_type = 0,
+		skin_type = 4,
 		id = 10300041,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
@@ -5924,7 +6142,7 @@ pg.ship_skin_template_19 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bg = "209",
-		skin_type = 0,
+		skin_type = 4,
 		id = 10300051,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
@@ -6130,7 +6348,7 @@ pg.ship_skin_template_19 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bg = "205",
-		skin_type = 0,
+		skin_type = 4,
 		id = 10300061,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
@@ -6336,7 +6554,7 @@ pg.ship_skin_template_19 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bg = "114",
-		skin_type = 0,
+		skin_type = 4,
 		id = 10400011,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
@@ -6836,218 +7054,6 @@ pg.ship_skin_template_19 = {
 						{
 							-0.4,
 							2.386,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10500011] = {
-		ship_group = 1050001,
-		name = "沙滩之狐",
-		bg_sp = "",
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "锵锵~是Hololive Summer Ver的白上吹雪哦！指挥官请多指教狐狸！",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "vtuber_fubuki_2",
-		air_bullet_skin = "",
-		shop_type_id = 6,
-		hand_id = 14,
-		bgm = "holo-fbk",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "106",
-		skin_type = 0,
-		id = 10500011,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "vtuber_fubuki_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70267,
-		voice_actor = 206,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.094,
-					1.076,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.002,
-					0.004,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.071,
-					1.072,
-					0
-				}
-			},
-			remote = {
-				-50,
-				0,
-				0
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.385,
-							2.379,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10500020] = {
-		ship_group = 1050002,
-		name = "时乃空",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "你好指挥官~！我是hololive所属虚拟偶像时乃空！在这边也会竭尽全力为指挥官加油的！",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "vtuber_sora",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 14,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		skin_type = -1,
-		id = 10500020,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "vtuber_sora",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 211,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.161,
-					1.097,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.003,
-					-0.001,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.181,
-					1.153,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.57,
-							2.46,
 							0
 						}
 					}

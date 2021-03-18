@@ -1,98 +1,54 @@
 pg = pg or {}
 pg.aircraft_template_154 = {
-	[65383] = {
-		max_hp = 54,
-		name = "女天狗沙排啾轰炸机Lv3",
-		base = 65381,
-		id = 65383,
-		hp_growth = 2327,
-		weapon_ID = {
-			65393,
-			65403
-		}
-	},
-	[65384] = {
-		max_hp = 61,
-		name = "女天狗沙排啾轰炸机Lv4",
-		base = 65381,
-		id = 65384,
-		hp_growth = 2568,
-		weapon_ID = {
-			65394,
-			65404
-		}
-	},
-	[65385] = {
-		max_hp = 67,
-		name = "女天狗沙排啾轰炸机Lv5",
-		base = 65381,
-		id = 65385,
-		hp_growth = 2809,
-		weapon_ID = {
-			65395,
-			65405
-		}
-	},
-	[65386] = {
-		max_hp = 73,
-		name = "女天狗沙排啾轰炸机Lv6",
-		base = 65381,
-		id = 65386,
-		hp_growth = 3050,
-		weapon_ID = {
-			65396,
-			65406
-		}
-	},
-	[65387] = {
-		max_hp = 79,
-		name = "女天狗沙排啾轰炸机Lv7",
-		base = 65381,
-		id = 65387,
+	[67247] = {
+		max_hp = 86,
+		name = "伊势技能轰炸机Lv7",
+		base = 67240,
+		id = 67247,
 		hp_growth = 3290,
 		weapon_ID = {
-			65397,
-			65407
+			67267,
+			67287
 		}
 	},
-	[65388] = {
-		max_hp = 86,
-		name = "女天狗沙排啾轰炸机Lv8",
-		base = 65381,
-		id = 65388,
+	[67248] = {
+		max_hp = 92,
+		name = "伊势技能轰炸机Lv8",
+		base = 67240,
+		id = 67248,
 		hp_growth = 3531,
 		weapon_ID = {
-			65398,
-			65408
+			67268,
+			67288
 		}
 	},
-	[65389] = {
-		max_hp = 92,
-		name = "女天狗沙排啾轰炸机Lv9",
-		base = 65381,
-		id = 65389,
+	[67249] = {
+		max_hp = 98,
+		name = "伊势技能轰炸机Lv9",
+		base = 67240,
+		id = 67249,
 		hp_growth = 3772,
 		weapon_ID = {
-			65399,
-			65409
+			67269,
+			67289
 		}
 	},
-	[65390] = {
-		max_hp = 98,
-		name = "女天狗沙排啾轰炸机Lv10",
-		base = 65381,
-		id = 65390,
+	[67250] = {
+		max_hp = 104,
+		name = "伊势技能轰炸机Lv10",
+		base = 67240,
+		id = 67250,
 		hp_growth = 4013,
 		weapon_ID = {
-			65400,
-			65410
+			67270,
+			67290
 		}
 	},
-	[65451] = {
-		name = "META飞龙鱼雷机Lv1",
+	[67300] = {
+		name = "大凤技能轰炸机Lv0",
 		max_hp = 42,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "huixing",
 		ACC_growth = 0,
 		crash_DMG = 208,
 		dodge = 1,
@@ -100,15 +56,15 @@ pg.aircraft_template_154 = {
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "97jiangong",
+		icon = "huixing",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1692,
-		speed = 48,
-		id = 65451,
+		hp_growth = 1605,
+		speed = 60,
+		id = 67300,
 		scale = 1,
 		weapon_ID = {
-			65461
+			67380
 		},
 		position_offset = {
 			0,
@@ -128,13 +84,13 @@ pg.aircraft_template_154 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -151,7 +107,7 @@ pg.aircraft_template_154 = {
 				0
 			},
 			{
-				0.54,
+				0.64,
 				0,
 				0
 			},
@@ -160,6 +116,56 @@ pg.aircraft_template_154 = {
 				0,
 				0
 			}
+		}
+	},
+	[67301] = {
+		max_hp = 48,
+		name = "大凤技能轰炸机Lv1",
+		base = 67300,
+		id = 67301,
+		hp_growth = 1846,
+		weapon_ID = {
+			67381
+		}
+	},
+	[67302] = {
+		max_hp = 54,
+		name = "大凤技能轰炸机Lv2",
+		base = 67300,
+		id = 67302,
+		hp_growth = 2087,
+		weapon_ID = {
+			67382
+		}
+	},
+	[67303] = {
+		max_hp = 61,
+		name = "大凤技能轰炸机Lv3",
+		base = 67300,
+		id = 67303,
+		hp_growth = 2327,
+		weapon_ID = {
+			67383
+		}
+	},
+	[67304] = {
+		max_hp = 67,
+		name = "大凤技能轰炸机Lv4",
+		base = 67300,
+		id = 67304,
+		hp_growth = 2568,
+		weapon_ID = {
+			67384
+		}
+	},
+	[67305] = {
+		max_hp = 73,
+		name = "大凤技能轰炸机Lv5",
+		base = 67300,
+		id = 67305,
+		hp_growth = 2809,
+		weapon_ID = {
+			67385
 		}
 	}
 }

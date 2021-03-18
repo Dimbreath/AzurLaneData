@@ -6,7 +6,7 @@ return {
 				"playStory"
 			},
 			stories = {
-				"GWORLDX162A"
+				"GWORLDX161A"
 			}
 		},
 		{
@@ -14,8 +14,8 @@ return {
 				{
 					notify = "world help event",
 					body = {
-						titleId = 2,
-						pageId = 4
+						titleId = 4,
+						pageId = 2
 					}
 				}
 			}

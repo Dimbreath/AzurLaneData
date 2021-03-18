@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			actor = 308041,
 			nameColor = "#a9f548",
-			say = "其实我很想和伊56一起看呢……",
+			say = "其实我很想和{namecode:254}一起看呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

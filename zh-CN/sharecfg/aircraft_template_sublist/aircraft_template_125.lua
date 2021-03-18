@@ -1,102 +1,168 @@
 pg = pg or {}
 pg.aircraft_template_125 = {
-	[39165] = {
-		id = 39165,
-		base = 39160,
+	[47145] = {
+		id = 47145,
+		base = 47140,
 		max_hp = 73,
-		hp_growth = 2809,
+		hp_growth = 2822,
 		weapon_ID = {
-			50045,
-			52665,
-			52165
+			59145,
+			59245
 		}
 	},
-	[39166] = {
-		id = 39166,
-		base = 39160,
-		max_hp = 79,
-		hp_growth = 3050,
+	[47146] = {
+		id = 47146,
+		base = 47140,
+		max_hp = 80,
+		hp_growth = 3064,
 		weapon_ID = {
-			50046,
-			52666,
-			52166
+			59146,
+			59246
 		}
 	},
-	[39167] = {
-		id = 39167,
-		base = 39160,
+	[47147] = {
+		id = 47147,
+		base = 47140,
 		max_hp = 86,
-		hp_growth = 3290,
+		hp_growth = 3306,
 		weapon_ID = {
-			50047,
-			52667,
-			52167
+			59147,
+			59247
 		}
 	},
-	[39168] = {
-		id = 39168,
-		base = 39160,
+	[47148] = {
+		id = 47148,
+		base = 47140,
 		max_hp = 92,
-		hp_growth = 3531,
+		hp_growth = 3548,
 		weapon_ID = {
-			50048,
-			52668,
-			52168
+			59148,
+			59248
 		}
 	},
-	[39169] = {
-		id = 39169,
-		base = 39160,
-		max_hp = 98,
-		hp_growth = 3772,
+	[47149] = {
+		id = 47149,
+		base = 47140,
+		max_hp = 99,
+		hp_growth = 3790,
 		weapon_ID = {
-			50049,
-			52669,
-			52169
+			59149,
+			59249
 		}
 	},
-	[39170] = {
-		id = 39170,
-		base = 39160,
-		max_hp = 104,
-		hp_growth = 4013,
+	[47150] = {
+		id = 47150,
+		base = 47140,
+		max_hp = 105,
+		hp_growth = 4032,
 		weapon_ID = {
-			50050,
-			52670,
-			52170
+			59150,
+			59250
 		}
 	},
-	[39171] = {
-		id = 39171,
-		base = 39160,
+	[47151] = {
+		id = 47151,
+		base = 47140,
 		max_hp = 111,
-		hp_growth = 4254,
+		hp_growth = 4274,
 		weapon_ID = {
-			50051,
-			52671,
-			52171
+			59151,
+			59251
 		}
 	},
-	[39172] = {
-		id = 39172,
-		base = 39160,
+	[47152] = {
+		id = 47152,
+		base = 47140,
 		max_hp = 117,
-		hp_growth = 4494,
+		hp_growth = 4516,
 		weapon_ID = {
-			50052,
-			52672,
-			52172
+			59152,
+			59252
 		}
 	},
-	[39173] = {
-		id = 39173,
-		base = 39160,
-		max_hp = 123,
-		hp_growth = 4735,
+	[47153] = {
+		id = 47153,
+		base = 47140,
+		max_hp = 124,
+		hp_growth = 4758,
 		weapon_ID = {
-			50053,
-			52673,
-			52173
+			59153,
+			59253
+		}
+	},
+	[48000] = {
+		name = "Ar-195舰载鱼雷机",
+		max_hp = 32,
+		accuracy = 23,
+		model_ID = "Ar195",
+		ACC_growth = 0,
+		crash_DMG = 141,
+		dodge = 1.17,
+		attack_power = 2,
+		dodge_limit = 3,
+		type = 2,
+		AP_growth = 2000,
+		icon = "Ar195",
+		funnel_behavior = "",
+		nationality = 4,
+		hp_growth = 1216,
+		speed = 48,
+		id = 48000,
+		scale = 1,
+		weapon_ID = {
+			59760,
+			59660
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.01,
+					0
+				},
+				{
+					0.84,
+					1.5,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	}
 }

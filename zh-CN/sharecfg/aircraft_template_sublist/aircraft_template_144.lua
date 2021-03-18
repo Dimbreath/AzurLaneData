@@ -1,232 +1,167 @@
 pg = pg or {}
 pg.aircraft_template_144 = {
-	[49020] = {
-		name = "Ju-87C俯冲轰炸机T2",
+	[65846] = {
+		max_hp = 66,
+		name = "黑方舟技能-特殊鱼雷机Lv6",
+		base = 65841,
+		id = 65846,
+		hp_growth = 2554,
+		weapon_ID = {
+			65856
+		}
+	},
+	[65847] = {
+		max_hp = 72,
+		name = "黑方舟技能-特殊鱼雷机Lv7",
+		base = 65841,
+		id = 65847,
+		hp_growth = 2772,
+		weapon_ID = {
+			65857
+		}
+	},
+	[65848] = {
+		max_hp = 78,
+		name = "黑方舟技能-特殊鱼雷机Lv8",
+		base = 65841,
+		id = 65848,
+		hp_growth = 2991,
+		weapon_ID = {
+			65858
+		}
+	},
+	[65849] = {
+		max_hp = 83,
+		name = "黑方舟技能-特殊鱼雷机Lv9",
+		base = 65841,
+		id = 65849,
+		hp_growth = 3210,
+		weapon_ID = {
+			65859
+		}
+	},
+	[65850] = {
+		max_hp = 89,
+		name = "黑方舟技能-特殊鱼雷机Lv10",
+		base = 65841,
+		id = 65850,
+		hp_growth = 3429,
+		weapon_ID = {
+			65860
+		}
+	},
+	[66240] = {
+		name = "山城改技能Lv0",
+		max_hp = 27,
+		accuracy = 23,
+		model_ID = "ruiyun",
+		ACC_growth = 0,
+		crash_DMG = 120,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "ruiyun",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1023,
+		speed = 46,
+		id = 66240,
+		scale = 1,
+		weapon_ID = {
+			66260
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.26,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[66241] = {
+		max_hp = 32,
+		name = "山城改技能Lv1",
+		base = 66240,
+		id = 66241,
+		hp_growth = 1233,
+		weapon_ID = {
+			66261
+		}
+	},
+	[66242] = {
 		max_hp = 37,
-		accuracy = 23,
-		model_ID = "JU87C",
-		ACC_growth = 0,
-		crash_DMG = 112,
-		dodge = 3.45,
-		attack_power = 2,
-		dodge_limit = 0.9,
-		type = 3,
-		AP_growth = 2000,
-		icon = "JU87C",
-		funnel_behavior = "",
-		nationality = 4,
-		hp_growth = 1408,
-		speed = 46,
-		id = 49020,
-		scale = 1,
+		name = "山城改技能Lv2",
+		base = 66240,
+		id = 66242,
+		hp_growth = 1443,
 		weapon_ID = {
-			59320,
-			52620,
-			53020
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
+			66262
 		}
 	},
-	[49021] = {
-		id = 49021,
-		base = 49020,
+	[66243] = {
 		max_hp = 42,
-		hp_growth = 1619,
+		name = "山城改技能Lv3",
+		base = 66240,
+		id = 66243,
+		hp_growth = 1653,
 		weapon_ID = {
-			59321,
-			52621,
-			53021
+			66263
 		}
 	},
-	[49022] = {
-		id = 49022,
-		base = 49020,
-		max_hp = 48,
-		hp_growth = 1830,
+	[66244] = {
+		max_hp = 47,
+		name = "山城改技能Lv4",
+		base = 66240,
+		id = 66244,
+		hp_growth = 1863,
 		weapon_ID = {
-			59322,
-			52622,
-			53022
-		}
-	},
-	[49023] = {
-		id = 49023,
-		base = 49020,
-		max_hp = 53,
-		hp_growth = 2042,
-		weapon_ID = {
-			59323,
-			52623,
-			53023
-		}
-	},
-	[49024] = {
-		id = 49024,
-		base = 49020,
-		max_hp = 59,
-		hp_growth = 2253,
-		weapon_ID = {
-			59324,
-			52624,
-			53024
-		}
-	},
-	[49025] = {
-		id = 49025,
-		base = 49020,
-		max_hp = 64,
-		hp_growth = 2464,
-		weapon_ID = {
-			59325,
-			52625,
-			53025
-		}
-	},
-	[49026] = {
-		id = 49026,
-		base = 49020,
-		max_hp = 70,
-		hp_growth = 2675,
-		weapon_ID = {
-			59326,
-			52626,
-			53026
-		}
-	},
-	[49040] = {
-		name = "Ju-87C俯冲轰炸机T3",
-		max_hp = 40,
-		accuracy = 23,
-		model_ID = "JU87C",
-		ACC_growth = 0,
-		crash_DMG = 112,
-		dodge = 3.33,
-		attack_power = 2,
-		dodge_limit = 1,
-		type = 3,
-		AP_growth = 2000,
-		icon = "JU87C",
-		funnel_behavior = "",
-		nationality = 4,
-		hp_growth = 1549,
-		speed = 46,
-		id = 49040,
-		scale = 1,
-		weapon_ID = {
-			59340,
-			52640,
-			53040
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[49041] = {
-		id = 49041,
-		base = 49040,
-		max_hp = 46,
-		hp_growth = 1781,
-		weapon_ID = {
-			59341,
-			52641,
-			53041
+			66264
 		}
 	}
 }

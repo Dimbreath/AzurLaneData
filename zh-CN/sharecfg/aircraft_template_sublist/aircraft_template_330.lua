@@ -1,26 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_330 = {
-	[514800] = {
-		name = "龙骧轰炸机",
-		max_hp = 316,
-		accuracy = 23,
-		model_ID = "99shijianbao1",
+	[616077] = {
+		name = "【hololive联动T3】BOSS-大神澪 特殊鱼雷封锁",
+		max_hp = 420,
+		accuracy = 50,
+		model_ID = "feiji_vtuber2",
 		ACC_growth = 0,
-		crash_DMG = 300,
+		crash_DMG = 90,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "99shijianbao1",
+		icon = "feiji_vtuber2",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3377,
+		hp_growth = 0,
 		speed = 30,
-		id = 514800,
+		id = 616077,
 		scale = 0.75,
 		weapon_ID = {
-			514900
+			616087
 		},
 		position_offset = {
 			0,
@@ -63,81 +63,7 @@ pg.aircraft_template_330 = {
 				0
 			},
 			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[514801] = {
-		name = "龙骧鱼雷机",
-		max_hp = 288,
-		accuracy = 23,
-		model_ID = "97jiangong",
-		ACC_growth = 0,
-		crash_DMG = 240,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 2,
-		AP_growth = 2000,
-		icon = "97jiangong",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3013,
-		speed = 30,
-		id = 514801,
-		scale = 0.75,
-		weapon_ID = {
-			514901
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					-1.13,
-					-1.29,
-					0
-				},
-				{
-					-1.25,
-					1.47,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.54,
+				0.64,
 				0,
 				0
 			},
@@ -148,28 +74,28 @@ pg.aircraft_template_330 = {
 			}
 		}
 	},
-	[514802] = {
-		name = "龙骧战斗机",
-		max_hp = 210,
+	[616082] = {
+		name = "【hololive联动T3】BOSS-大神澪 战斗机",
+		max_hp = 86,
 		accuracy = 23,
-		model_ID = "lingzhan21gai",
+		model_ID = "feiji_vtuber2",
 		ACC_growth = 0,
-		crash_DMG = 125,
+		crash_DMG = 48,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "lingzhan21gai",
+		icon = "feiji_vtuber2",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2518,
+		hp_growth = 1960,
 		speed = 33,
-		id = 514802,
+		id = 616082,
 		scale = 0.75,
 		weapon_ID = {
-			514902,
-			514903
+			616084,
+			616085
 		},
 		position_offset = {
 			0,
@@ -189,13 +115,13 @@ pg.aircraft_template_330 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.56,
-					-0.76,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.48,
-					0.99,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -212,7 +138,7 @@ pg.aircraft_template_330 = {
 				0
 			},
 			{
-				0,
+				0.27,
 				0,
 				0
 			},
@@ -223,27 +149,250 @@ pg.aircraft_template_330 = {
 			}
 		}
 	},
-	[514803] = {
-		name = "凤翔轰炸机",
-		max_hp = 316,
+	[616083] = {
+		name = "【hololive联动T3】BOSS-大神澪 鱼雷机",
+		max_hp = 96,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "feiji_vtuber2",
 		ACC_growth = 0,
-		crash_DMG = 260,
+		crash_DMG = 69,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "feiji_vtuber2",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2380,
+		speed = 30,
+		id = 616083,
+		scale = 0.75,
+		weapon_ID = {
+			616086
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-0.91,
+					0
+				},
+				{
+					0.77,
+					1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.51,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[616101] = {
+		name = "【hololive联动TS4】BOSS-时乃空 战斗机",
+		max_hp = 90,
+		accuracy = 50,
+		model_ID = "lingzhan21",
+		ACC_growth = 0,
+		crash_DMG = 82,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "lingzhan21",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2000,
+		speed = 33,
+		id = 616101,
+		scale = 0.75,
+		weapon_ID = {
+			616104,
+			616105
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[616102] = {
+		name = "【hololive联动TS4】BOSS-时乃空 鱼雷机",
+		max_hp = 140,
+		accuracy = 23,
+		model_ID = "jianyu",
+		ACC_growth = 0,
+		crash_DMG = 111,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "jianyu",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2400,
+		speed = 28,
+		id = 616102,
+		scale = 0.75,
+		weapon_ID = {
+			616103
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-0.91,
+					0
+				},
+				{
+					0.77,
+					1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.51,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[616109] = {
+		name = "【hololive联动TS4】BOSS-时乃空 地毯轰炸飞机",
+		max_hp = 500,
+		accuracy = 50,
+		model_ID = "huixing",
+		ACC_growth = 0,
+		crash_DMG = 160,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "99shijianbao1",
+		icon = "huixing",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3377,
+		hp_growth = 0,
 		speed = 30,
-		id = 514803,
+		id = 616109,
 		scale = 0.75,
 		weapon_ID = {
-			514904
+			616110
 		},
 		position_offset = {
 			0,
@@ -286,81 +435,7 @@ pg.aircraft_template_330 = {
 				0
 			},
 			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[514804] = {
-		name = "凤翔鱼雷机",
-		max_hp = 288,
-		accuracy = 23,
-		model_ID = "97jiangong",
-		ACC_growth = 0,
-		crash_DMG = 200,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 2,
-		AP_growth = 2000,
-		icon = "97jiangong",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3013,
-		speed = 30,
-		id = 514804,
-		scale = 0.75,
-		weapon_ID = {
-			514905
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					-1.13,
-					-1.29,
-					0
-				},
-				{
-					-1.25,
-					1.47,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.54,
+				0.64,
 				0,
 				0
 			},
@@ -371,28 +446,28 @@ pg.aircraft_template_330 = {
 			}
 		}
 	},
-	[514805] = {
-		name = "凤翔战斗机",
-		max_hp = 210,
-		accuracy = 23,
-		model_ID = "lingzhan21gai",
+	[616128] = {
+		name = "【hololive联动T5】BOSS-紫咲诗音 战斗机",
+		max_hp = 262,
+		accuracy = 50,
+		model_ID = "lingzhan21",
 		ACC_growth = 0,
-		crash_DMG = 125,
+		crash_DMG = 88,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "lingzhan21gai",
+		icon = "lingzhan21",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2518,
+		hp_growth = 2640,
 		speed = 33,
-		id = 514805,
+		id = 616128,
 		scale = 0.75,
 		weapon_ID = {
-			514906,
-			514907
+			616130,
+			616131
 		},
 		position_offset = {
 			0,
@@ -412,13 +487,13 @@ pg.aircraft_template_330 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.56,
-					-0.76,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.48,
-					0.99,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -435,7 +510,7 @@ pg.aircraft_template_330 = {
 				0
 			},
 			{
-				0,
+				0.27,
 				0,
 				0
 			},
@@ -446,27 +521,27 @@ pg.aircraft_template_330 = {
 			}
 		}
 	},
-	[514806] = {
-		name = "祥凤轰炸机",
-		max_hp = 316,
-		accuracy = 23,
+	[616129] = {
+		name = "【hololive联动T5】BOSS-紫咲诗音 轰炸机",
+		max_hp = 284,
+		accuracy = 50,
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
-		crash_DMG = 260,
+		crash_DMG = 148,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 3,
+		type = 1,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3377,
+		hp_growth = 2940,
 		speed = 30,
-		id = 514806,
+		id = 616129,
 		scale = 0.75,
 		weapon_ID = {
-			514908
+			616132
 		},
 		position_offset = {
 			0,
@@ -487,12 +562,12 @@ pg.aircraft_template_330 = {
 			weapon = {
 				{
 					0.71,
-					-1.73,
+					-0.91,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.77,
+					1,
 					0
 				}
 			}
@@ -509,7 +584,7 @@ pg.aircraft_template_330 = {
 				0
 			},
 			{
-				0,
+				0.51,
 				0,
 				0
 			},
@@ -520,27 +595,27 @@ pg.aircraft_template_330 = {
 			}
 		}
 	},
-	[514807] = {
-		name = "祥凤鱼雷机",
-		max_hp = 288,
-		accuracy = 23,
-		model_ID = "97jiangong",
+	[616146] = {
+		name = "【hololive联动TS5】BOSS-白上吹雪 轰炸机",
+		max_hp = 124,
+		accuracy = 50,
+		model_ID = "feiji_hulifeiji",
 		ACC_growth = 0,
-		crash_DMG = 200,
+		crash_DMG = 186,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 3,
 		AP_growth = 2000,
-		icon = "97jiangong",
+		icon = "feiji_hulifeiji",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3013,
-		speed = 30,
-		id = 514807,
+		hp_growth = 2620,
+		speed = 46,
+		id = 616146,
 		scale = 0.75,
 		weapon_ID = {
-			514909
+			616147
 		},
 		position_offset = {
 			0,
@@ -560,13 +635,13 @@ pg.aircraft_template_330 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.13,
-					-1.29,
+					0.71,
+					-0.91,
 					0
 				},
 				{
-					-1.25,
-					1.47,
+					0.77,
+					1,
 					0
 				}
 			}
@@ -583,7 +658,7 @@ pg.aircraft_template_330 = {
 				0
 			},
 			{
-				0.54,
+				0.51,
 				0,
 				0
 			},
@@ -594,28 +669,27 @@ pg.aircraft_template_330 = {
 			}
 		}
 	},
-	[514808] = {
-		name = "祥凤战斗机",
-		max_hp = 210,
-		accuracy = 23,
-		model_ID = "lingzhan21gai",
+	[616157] = {
+		name = "【hololive联动T6】BOSS-白上吹雪 轰炸机",
+		max_hp = 242,
+		accuracy = 50,
+		model_ID = "feiji_hulifeiji",
 		ACC_growth = 0,
-		crash_DMG = 125,
+		crash_DMG = 212,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 1,
+		type = 3,
 		AP_growth = 2000,
-		icon = "lingzhan21gai",
+		icon = "feiji_hulifeiji",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2518,
-		speed = 33,
-		id = 514808,
+		hp_growth = 3040,
+		speed = 46,
+		id = 616157,
 		scale = 0.75,
 		weapon_ID = {
-			514910,
-			514911
+			616158
 		},
 		position_offset = {
 			0,
@@ -635,13 +709,13 @@ pg.aircraft_template_330 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.56,
-					-0.76,
+					0.71,
+					-0.91,
 					0
 				},
 				{
-					0.48,
-					0.99,
+					0.77,
+					1,
 					0
 				}
 			}
@@ -658,7 +732,7 @@ pg.aircraft_template_330 = {
 				0
 			},
 			{
-				0,
+				0.51,
 				0,
 				0
 			},

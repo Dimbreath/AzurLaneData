@@ -16,6 +16,7 @@ return {
 			},
 			arg_list = {
 				number = 1,
+				group = 12121,
 				attr = "GCT",
 				index = {
 					1

@@ -62,6 +62,7 @@ return {
 			actor = 900009,
 			side = 1,
 			nameColor = "#ff0000",
+			actorAlpha = 0,
 			say = "诶？~战况这么有利，为什么不继续玩下去呢",
 			typewriter = {
 				speed = 0.05,
@@ -83,6 +84,7 @@ return {
 			actorName = "欧根亲王",
 			nameColor = "#ff0000",
 			side = 1,
+			actorAlpha = 0,
 			say = "哎呀——真是没办法，对面的小绵羊们~我们以后再见咯",
 			typewriter = {
 				speed = 0.05,

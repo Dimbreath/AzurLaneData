@@ -94,7 +94,7 @@ return {
 			actor = 308020,
 			dir = 1,
 			hideOther = true,
-			actorName = "伊26&鲦鱼",
+			actorName = "{namecode:155}&鲦鱼",
 			say = "一，二——！",
 			subActors = {
 				{
@@ -168,7 +168,7 @@ return {
 			actor = 408010,
 			dir = 1,
 			hideOther = true,
-			actorName = "U81&伊19",
+			actorName = "U81&{namecode:154}",
 			say = "三，四~",
 			subActors = {
 				{
@@ -242,7 +242,7 @@ return {
 			actor = 308030,
 			dir = 1,
 			hideOther = true,
-			actorName = "伊58&U557",
+			actorName = "{namecode:156}&U557",
 			say = "五，六……",
 			subActors = {
 				{

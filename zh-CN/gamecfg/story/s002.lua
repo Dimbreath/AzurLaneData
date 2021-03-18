@@ -40,10 +40,11 @@ return {
 			}
 		},
 		{
-			actor = 900009,
-			nameColor = "#ff0000",
-			actorName = "？？？？？",
 			side = 2,
+			nameColor = "#ff0000",
+			actorAlpha = 0,
+			actor = 900009,
+			actorName = "？？？？？",
 			say = "哼哼哼，这条航线上果然被布置了伏兵呢，你们说的不详的预感就是指我们吗？",
 			shake = {
 				speed = 1,
@@ -96,10 +97,11 @@ return {
 			}
 		},
 		{
-			actor = 900009,
-			actorName = "？？？？？",
-			nameColor = "#ff0000",
 			side = 1,
+			actorName = "？？？？？",
+			actorAlpha = 0,
+			actor = 900009,
+			nameColor = "#ff0000",
 			say = "哎呀呀~不过是区区两艘巡洋舰，居然准备攻过来了，哼哼哼，那就让我好好的享用一番吧~",
 			shake = {
 				speed = 1,
@@ -110,7 +112,7 @@ return {
 				speedUp = 0.01
 			},
 			painting = {
-				alpha = 0.3,
+				alpha = 0,
 				time = 0.5
 			}
 		},
