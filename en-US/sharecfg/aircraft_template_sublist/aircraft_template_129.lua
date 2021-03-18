@@ -1,93 +1,239 @@
 pg = pg or {}
 pg.aircraft_template_129 = {
-	[39303] = {
-		id = 39303,
-		base = 39300,
-		max_hp = 55,
-		hp_growth = 2133,
+	[48050] = {
+		id = 48050,
+		base = 48040,
+		max_hp = 95,
+		hp_growth = 3648,
 		weapon_ID = {
-			50843,
-			53263
+			59350,
+			59710
 		}
 	},
-	[39304] = {
-		id = 39304,
-		base = 39300,
-		max_hp = 61,
-		hp_growth = 2354,
-		weapon_ID = {
-			50844,
-			53264
-		}
-	},
-	[39305] = {
-		id = 39305,
-		base = 39300,
-		max_hp = 67,
-		hp_growth = 2575,
-		weapon_ID = {
-			50845,
-			53265
-		}
-	},
-	[39306] = {
-		id = 39306,
-		base = 39300,
-		max_hp = 73,
-		hp_growth = 2796,
-		weapon_ID = {
-			50846,
-			53266
-		}
-	},
-	[39307] = {
-		id = 39307,
-		base = 39300,
-		max_hp = 78,
-		hp_growth = 3016,
-		weapon_ID = {
-			50847,
-			53267
-		}
-	},
-	[39308] = {
-		id = 39308,
-		base = 39300,
-		max_hp = 84,
-		hp_growth = 3237,
-		weapon_ID = {
-			50848,
-			53268
-		}
-	},
-	[39309] = {
-		id = 39309,
-		base = 39300,
-		max_hp = 90,
-		hp_growth = 3458,
-		weapon_ID = {
-			50849,
-			53269
-		}
-	},
-	[39310] = {
-		id = 39310,
-		base = 39300,
-		max_hp = 96,
-		hp_growth = 3678,
-		weapon_ID = {
-			50850,
-			53270
-		}
-	},
-	[39311] = {
-		id = 39311,
-		base = 39300,
+	[48051] = {
+		id = 48051,
+		base = 48040,
 		max_hp = 101,
-		hp_growth = 3899,
+		hp_growth = 3867,
 		weapon_ID = {
-			50851,
-			53271
+			59351,
+			59711
+		}
+	},
+	[48052] = {
+		id = 48052,
+		base = 48040,
+		max_hp = 106,
+		hp_growth = 4086,
+		weapon_ID = {
+			59352,
+			59712
+		}
+	},
+	[48053] = {
+		id = 48053,
+		base = 48040,
+		max_hp = 112,
+		hp_growth = 4305,
+		weapon_ID = {
+			59353,
+			59713
+		}
+	},
+	[49000] = {
+		name = "Ju-87C俯冲轰炸机T1",
+		max_hp = 33,
+		accuracy = 23,
+		model_ID = "JU87C",
+		ACC_growth = 0,
+		crash_DMG = 112,
+		dodge = 3.57,
+		attack_power = 2,
+		dodge_limit = 0.8,
+		type = 3,
+		AP_growth = 2000,
+		icon = "JU87C",
+		funnel_behavior = "",
+		nationality = 4,
+		hp_growth = 1267,
+		speed = 46,
+		id = 49000,
+		scale = 1,
+		weapon_ID = {
+			59300,
+			52600,
+			53000
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[49001] = {
+		id = 49001,
+		base = 49000,
+		max_hp = 38,
+		hp_growth = 1457,
+		weapon_ID = {
+			59301,
+			52601,
+			53001
+		}
+	},
+	[49002] = {
+		id = 49002,
+		base = 49000,
+		max_hp = 43,
+		hp_growth = 1647,
+		weapon_ID = {
+			59302,
+			52602,
+			53002
+		}
+	},
+	[49003] = {
+		id = 49003,
+		base = 49000,
+		max_hp = 48,
+		hp_growth = 1837,
+		weapon_ID = {
+			59303,
+			52603,
+			53003
+		}
+	},
+	[49020] = {
+		name = "Ju-87C俯冲轰炸机T2",
+		max_hp = 37,
+		accuracy = 23,
+		model_ID = "JU87C",
+		ACC_growth = 0,
+		crash_DMG = 112,
+		dodge = 3.45,
+		attack_power = 2,
+		dodge_limit = 0.9,
+		type = 3,
+		AP_growth = 2000,
+		icon = "JU87C",
+		funnel_behavior = "",
+		nationality = 4,
+		hp_growth = 1408,
+		speed = 46,
+		id = 49020,
+		scale = 1,
+		weapon_ID = {
+			59320,
+			52620,
+			53020
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[49021] = {
+		id = 49021,
+		base = 49020,
+		max_hp = 42,
+		hp_growth = 1619,
+		weapon_ID = {
+			59321,
+			52621,
+			53021
 		}
 	}
 }

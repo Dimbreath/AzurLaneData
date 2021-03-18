@@ -1,145 +1,107 @@
 pg = pg or {}
 pg.aircraft_template_243 = {
-	[82202] = {
-		id = 82202,
-		base = 82200,
-		max_hp = 36,
-		hp_growth = 1398,
+	[84044] = {
+		id = 84044,
+		base = 84040,
+		max_hp = 62,
+		hp_growth = 2365,
 		weapon_ID = {
-			50102
+			59044,
+			59444
 		}
 	},
-	[82203] = {
-		id = 82203,
-		base = 82200,
-		max_hp = 41,
-		hp_growth = 1559,
+	[84045] = {
+		id = 84045,
+		base = 84040,
+		max_hp = 67,
+		hp_growth = 2587,
 		weapon_ID = {
-			50103
+			59045,
+			59445
 		}
 	},
-	[82220] = {
-		name = "海斗士",
-		max_hp = 31,
-		accuracy = 23,
-		model_ID = "haidoushi",
-		ACC_growth = 0,
-		crash_DMG = 76,
-		dodge = 0.363,
-		attack_power = 2,
-		dodge_limit = 8.5,
-		type = 1,
-		AP_growth = 2000,
-		icon = "haidoushi",
-		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1210,
-		speed = 47,
-		id = 82220,
-		scale = 1,
+	[84046] = {
+		id = 84046,
+		base = 84040,
+		max_hp = 73,
+		hp_growth = 2809,
 		weapon_ID = {
-			50120
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.69,
-					-2.62,
-					0
-				},
-				{
-					0.85,
-					0.17,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.62,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
+			59046,
+			59446
 		}
 	},
-	[82221] = {
-		id = 82221,
-		base = 82220,
-		max_hp = 36,
-		hp_growth = 1391,
+	[84047] = {
+		id = 84047,
+		base = 84040,
+		max_hp = 79,
+		hp_growth = 3031,
 		weapon_ID = {
-			50121
+			59047,
+			59447
 		}
 	},
-	[82222] = {
-		id = 82222,
-		base = 82220,
-		max_hp = 41,
-		hp_growth = 1572,
+	[84048] = {
+		id = 84048,
+		base = 84040,
+		max_hp = 85,
+		hp_growth = 3252,
 		weapon_ID = {
-			50122
+			59048,
+			59448
 		}
 	},
-	[82223] = {
-		id = 82223,
-		base = 82220,
-		max_hp = 46,
-		hp_growth = 1754,
+	[84049] = {
+		id = 84049,
+		base = 84040,
+		max_hp = 90,
+		hp_growth = 3474,
 		weapon_ID = {
-			50123
+			59049,
+			59449
 		}
 	},
-	[82240] = {
-		name = "海斗士",
+	[84050] = {
+		id = 84050,
+		base = 84040,
+		max_hp = 96,
+		hp_growth = 3696,
+		weapon_ID = {
+			59050,
+			59450
+		}
+	},
+	[84051] = {
+		id = 84051,
+		base = 84040,
+		max_hp = 102,
+		hp_growth = 3918,
+		weapon_ID = {
+			59051,
+			59451
+		}
+	},
+	[84060] = {
+		name = "Ar-197舰载战斗机",
 		max_hp = 35,
 		accuracy = 23,
-		model_ID = "haidoushi",
+		model_ID = "Ar197",
 		ACC_growth = 0,
-		crash_DMG = 76,
-		dodge = 0.351,
+		crash_DMG = 40,
+		dodge = 0.345,
 		attack_power = 2,
-		dodge_limit = 9,
+		dodge_limit = 8,
 		type = 1,
 		AP_growth = 2000,
-		icon = "haidoushi",
+		icon = "Ar197",
 		funnel_behavior = "",
-		nationality = 2,
+		nationality = 4,
 		hp_growth = 1344,
-		speed = 47,
-		id = 82240,
+		speed = 49,
+		id = 84060,
 		scale = 1,
 		weapon_ID = {
-			50140
+			59040,
+			59440
 		},
 		position_offset = {
 			0,
@@ -159,13 +121,13 @@ pg.aircraft_template_243 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.69,
-					-2.62,
+					0.62,
+					-1.03,
 					0
 				},
 				{
-					0.85,
-					0.17,
+					0.62,
+					1.32,
 					0
 				}
 			}
@@ -182,7 +144,7 @@ pg.aircraft_template_243 = {
 				0
 			},
 			{
-				0.62,
+				0,
 				0,
 				0
 			},
@@ -193,22 +155,14 @@ pg.aircraft_template_243 = {
 			}
 		}
 	},
-	[82241] = {
-		id = 82241,
-		base = 82240,
+	[84061] = {
+		id = 84061,
+		base = 84060,
 		max_hp = 40,
 		hp_growth = 1546,
 		weapon_ID = {
-			50141
-		}
-	},
-	[82242] = {
-		id = 82242,
-		base = 82240,
-		max_hp = 45,
-		hp_growth = 1747,
-		weapon_ID = {
-			50142
+			59041,
+			59441
 		}
 	}
 }

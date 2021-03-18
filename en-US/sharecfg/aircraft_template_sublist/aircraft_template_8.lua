@@ -1,80 +1,53 @@
 pg = pg or {}
 pg.aircraft_template_8 = {
-	[4346] = {
-		id = 4346,
-		base = 4340,
-		max_hp = 69,
-		hp_growth = 2669,
+	[17001] = {
+		id = 17001,
+		base = 17000,
+		max_hp = 34,
+		hp_growth = 1298,
 		weapon_ID = {
-			53246
+			50301
 		}
 	},
-	[4347] = {
-		id = 4347,
-		base = 4340,
-		max_hp = 75,
-		hp_growth = 2879,
+	[17002] = {
+		id = 17002,
+		base = 17000,
+		max_hp = 38,
+		hp_growth = 1468,
 		weapon_ID = {
-			53247
+			50302
 		}
 	},
-	[4348] = {
-		id = 4348,
-		base = 4340,
-		max_hp = 80,
-		hp_growth = 3090,
+	[17003] = {
+		id = 17003,
+		base = 17000,
+		max_hp = 43,
+		hp_growth = 1637,
 		weapon_ID = {
-			53248
+			50303
 		}
 	},
-	[4349] = {
-		id = 4349,
-		base = 4340,
-		max_hp = 86,
-		hp_growth = 3301,
-		weapon_ID = {
-			53249
-		}
-	},
-	[4350] = {
-		id = 4350,
-		base = 4340,
-		max_hp = 91,
-		hp_growth = 3511,
-		weapon_ID = {
-			53250
-		}
-	},
-	[4351] = {
-		id = 4351,
-		base = 4340,
-		max_hp = 97,
-		hp_growth = 3722,
-		weapon_ID = {
-			53251
-		}
-	},
-	[17000] = {
+	[17020] = {
 		name = "F2A水牛",
-		max_hp = 29,
+		max_hp = 33,
 		accuracy = 23,
 		model_ID = "F2A",
 		ACC_growth = 0,
 		crash_DMG = 88,
-		dodge = 0.375,
+		dodge = 0.363,
 		attack_power = 2,
-		dodge_limit = 8,
+		dodge_limit = 8.5,
 		type = 1,
 		AP_growth = 2000,
 		icon = "F2A",
 		funnel_behavior = "",
 		nationality = 1,
-		hp_growth = 1129,
+		hp_growth = 1270,
 		speed = 45,
-		id = 17000,
+		id = 17020,
 		scale = 1,
 		weapon_ID = {
-			50300
+			50320
 		},
 		position_offset = {
 			0,
@@ -128,22 +101,123 @@ pg.aircraft_template_8 = {
 			}
 		}
 	},
-	[17001] = {
-		id = 17001,
-		base = 17000,
-		max_hp = 34,
-		hp_growth = 1298,
+	[17021] = {
+		id = 17021,
+		base = 17020,
+		max_hp = 38,
+		hp_growth = 1461,
 		weapon_ID = {
-			50301
+			50321
 		}
 	},
-	[17002] = {
-		id = 17002,
-		base = 17000,
-		max_hp = 38,
-		hp_growth = 1468,
+	[17022] = {
+		id = 17022,
+		base = 17020,
+		max_hp = 43,
+		hp_growth = 1651,
 		weapon_ID = {
-			50302
+			50322
+		}
+	},
+	[17023] = {
+		id = 17023,
+		base = 17020,
+		max_hp = 48,
+		hp_growth = 1842,
+		weapon_ID = {
+			50323
+		}
+	},
+	[17040] = {
+		name = "F2A水牛",
+		max_hp = 37,
+		accuracy = 23,
+		model_ID = "F2A",
+		ACC_growth = 0,
+		crash_DMG = 88,
+		dodge = 0.351,
+		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F2A",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1411,
+		speed = 45,
+		id = 17040,
+		scale = 1,
+		weapon_ID = {
+			50340
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					1.24,
+					-1.34,
+					0
+				},
+				{
+					1.43,
+					1.6,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.24,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[17041] = {
+		id = 17041,
+		base = 17040,
+		max_hp = 42,
+		hp_growth = 1623,
+		weapon_ID = {
+			50341
+		}
+	},
+	[17042] = {
+		id = 17042,
+		base = 17040,
+		max_hp = 48,
+		hp_growth = 1835,
+		weapon_ID = {
+			50342
 		}
 	}
 }

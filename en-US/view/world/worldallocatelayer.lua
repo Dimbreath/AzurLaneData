@@ -29,6 +29,9 @@ function slot0.init(slot0)
 	slot0.emptyTpl = slot0:getTpl("fleet_info/emptytpl")
 	slot0.shipsContainer = slot0:findTF("fleet_info/contain")
 	slot0.descLabel = slot0:findTF("fleet_info/top/Text")
+
+	setText(slot0.fleetInfo:Find("tip/Text"), i18n("world_battle_damage"))
+
 	slot0.countLabel = slot0:findTF("count")
 	slot0.quotaTxt = slot0:findTF("count/value")
 	slot0.btnFleet = slot0:findTF("fleets/selected")
@@ -248,6 +251,10 @@ function slot0.setFleet(slot0, slot1)
 			slot13 = cloneTplTo(slot0.emptyTpl, slot0.shipsContainer)
 		end
 	end
+
+	setActive(slot0.fleetInfo:Find("tip"), underscore.any(slot4, function (slot0)
+		return slot0:IsBroken()
+	end))
 end
 
 function slot0.OnUpdateShipHP(slot0)

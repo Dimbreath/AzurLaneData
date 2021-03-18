@@ -28,7 +28,14 @@ function slot1.Update(slot0, slot1)
 
 	slot0.scaleRatio = slot4
 
+	setText(slot0.sceneParent.chapterName, string.split(slot1:getConfig("name"), "||")[1])
+	slot0.sceneParent.loader:GetSprite("chapterno", "chapterex", slot0.sceneParent.chapterNoTitle, true)
 	uv0.super.Update(slot0, slot1)
+end
+
+function slot1.UpdateButtons(slot0)
+	slot0.sceneParent:updateDifficultyBtns()
+	slot0.sceneParent:updateActivityBtns()
 end
 
 function slot1.UpdateEscortInfo(slot0)
@@ -99,7 +106,16 @@ function slot1.UpdateEscortItem(slot0, slot1, slot2, slot3)
 	end, SFX_PANEL)
 end
 
+function slot1.OnShow(slot0)
+	setActive(slot0.sceneParent.mainLayer:Find("title_chapter_lines"), true)
+	setActive(slot0.sceneParent.topChapter:Find("title_chapter"), true)
+	setActive(slot0.sceneParent.topChapter:Find("type_escort"), true)
+end
+
 function slot1.OnHide(slot0)
+	setActive(slot0.sceneParent.mainLayer:Find("title_chapter_lines"), false)
+	setActive(slot0.sceneParent.topChapter:Find("title_chapter"), false)
+	setActive(slot0.sceneParent.topChapter:Find("type_escort"), false)
 	setActive(slot0.sceneParent.escortBar, false)
 	setActive(slot0.sceneParent.mapHelpBtn, false)
 end

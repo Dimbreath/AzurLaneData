@@ -9,8 +9,15 @@ slot0.ON_ACTIVE_BOSS = "WorldBossMediator:ON_ACTIVE_BOSS"
 slot0.GET_RANK_CNT = "WorldBossMediator:GET_RANK_CNT"
 slot0.UPDATE_CACHE_BOSS_HP = "WorldBossMediator:UPDATE_CACHE_BOSS_HP"
 slot0.GO_META = "WorldBossMediator:GO_META"
+slot0.FETCH_RANK_FORMATION = "WorldBossMediator:FETCH_RANK_FORMATION"
 
 function slot0.register(slot0)
+	slot0:bind(uv0.FETCH_RANK_FORMATION, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.WORLD_BOSS_GET_FORMATION, {
+			bossId = slot2,
+			userId = slot1
+		})
+	end)
 	slot0:bind(uv0.GO_META, function (slot0, slot1)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.METACHARACTER, {
 			autoOpenSyn = true,
@@ -108,7 +115,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.WORLD_GET_BOSS_DONE,
 		GAME.WORLD_BOSS_SUPPORT_DONE,
 		GAME.WORLD_BOSS_SUBMIT_AWARD_DONE,
-		GAME.REMOVE_LAYERS
+		GAME.REMOVE_LAYERS,
+		GAME.WORLD_BOSS_GET_FORMATION_DONE
 	}
 end
 
@@ -122,8 +130,12 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.WORLD_BOSS_SUBMIT_AWARD_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.items)
 		slot0.viewComponent:getAwardDone()
-	elseif slot2 == GAME.REMOVE_LAYERS and not slot3.onHome and slot3.context.mediator == WorldBossFormationMediator then
-		slot0.viewComponent:OnRemoveLayers()
+	elseif slot2 == GAME.REMOVE_LAYERS then
+		if not slot3.onHome and slot3.context.mediator == WorldBossFormationMediator then
+			slot0.viewComponent:OnRemoveLayers()
+		end
+	elseif slot2 == GAME.WORLD_BOSS_GET_FORMATION_DONE then
+		slot0.viewComponent:OnShowFormationPreview(slot3.ships)
 	end
 end
 

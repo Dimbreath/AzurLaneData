@@ -1,254 +1,100 @@
 pg = pg or {}
 pg.aircraft_template_327 = {
-	[513134] = {
-		name = "赤城浮游炮",
-		max_hp = 580,
+	[607089] = {
+		name = "世界boss专用轰炸机T1",
+		max_hp = 50,
 		accuracy = 23,
-		model_ID = "liefeng",
+		model_ID = "tbd",
 		ACC_growth = 0,
-		crash_DMG = 500,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "liefeng",
-		nationality = 3,
-		hp_growth = 8000,
-		speed = 70,
-		id = 513134,
-		scale = 0.75,
-		funnel_behavior = {
-			stay = 2,
-			exist = 20
-		},
-		weapon_ID = {
-			513135
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.56,
-					-0.76,
-					0
-				},
-				{
-					0.48,
-					0.99,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[513138] = {
-		name = "加贺战斗机",
-		max_hp = 220,
-		accuracy = 23,
-		model_ID = "liefeng",
-		ACC_growth = 0,
-		crash_DMG = 165,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "liefeng",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3532,
-		speed = 44,
-		id = 513138,
-		scale = 0.75,
-		weapon_ID = {
-			513139
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.56,
-					-0.76,
-					0
-				},
-				{
-					0.48,
-					0.99,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[513140] = {
-		name = "加贺浮游炮",
-		max_hp = 580,
-		accuracy = 23,
-		model_ID = "liefeng",
-		ACC_growth = 0,
-		crash_DMG = 500,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "liefeng",
-		nationality = 3,
-		hp_growth = 8000,
-		speed = 70,
-		id = 513140,
-		scale = 0.75,
-		funnel_behavior = {
-			stay = 2,
-			exist = 20
-		},
-		weapon_ID = {
-			513141
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.56,
-					-0.76,
-					0
-				},
-				{
-					0.48,
-					0.99,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[513144] = {
-		name = "翔鹤轰炸机 BOSS使用",
-		max_hp = 366,
-		accuracy = 23,
-		model_ID = "99shijianbao1",
-		ACC_growth = 0,
-		crash_DMG = 360,
+		crash_DMG = 78,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "99shijianbao1",
+		icon = "tbd",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3822,
-		speed = 40,
-		id = 513144,
+		nationality = 1,
+		hp_growth = 3632,
+		speed = 30,
+		id = 607089,
 		scale = 0.75,
 		weapon_ID = {
-			513924
+			607093
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.28,
+					1.62,
+					0
+				},
+				{
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[609010] = {
+		name = "【绊爱联动】空袭 轰炸机",
+		max_hp = 80,
+		accuracy = 23,
+		model_ID = "feiji_ai_aijiang",
+		ACC_growth = 0,
+		crash_DMG = 65,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "feiji_ai_aijiang",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2280,
+		speed = 30,
+		id = 609010,
+		scale = 0.75,
+		weapon_ID = {
+			609004
 		},
 		position_offset = {
 			0,
@@ -302,27 +148,27 @@ pg.aircraft_template_327 = {
 			}
 		}
 	},
-	[513145] = {
-		name = "翔鹤鱼雷机 BOSS使用",
-		max_hp = 338,
+	[609020] = {
+		name = "【绊爱联动】空袭 鱼雷机",
+		max_hp = 62,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "feiji_ai_gamer",
 		ACC_growth = 0,
-		crash_DMG = 300,
+		crash_DMG = 52,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "97jiangong",
+		icon = "feiji_ai_gamer",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3613,
-		speed = 42,
-		id = 513145,
+		hp_growth = 1920,
+		speed = 30,
+		id = 609020,
 		scale = 0.75,
 		weapon_ID = {
-			513925
+			609005
 		},
 		position_offset = {
 			0,
@@ -376,27 +222,177 @@ pg.aircraft_template_327 = {
 			}
 		}
 	},
-	[513146] = {
-		name = "赤城轰炸机 BOSS使用",
-		max_hp = 246,
+	[609030] = {
+		name = "【绊爱联动】空袭 战斗机",
+		max_hp = 51,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "feiji_ai_perform",
 		ACC_growth = 0,
-		crash_DMG = 280,
+		crash_DMG = 36,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 3,
+		type = 1,
 		AP_growth = 2000,
-		icon = "99shijianbao1",
+		icon = "feiji_ai_perform",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3822,
-		speed = 40,
-		id = 513146,
+		hp_growth = 1680,
+		speed = 33,
+		id = 609030,
 		scale = 0.75,
 		weapon_ID = {
-			513916
+			609006,
+			609007
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[609021] = {
+		name = "【绊爱联动SP2】战斗机",
+		max_hp = 86,
+		accuracy = 23,
+		model_ID = "feiji_ai_perform",
+		ACC_growth = 0,
+		crash_DMG = 48,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "feiji_ai_perform",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1960,
+		speed = 33,
+		id = 609021,
+		scale = 0.75,
+		weapon_ID = {
+			609023,
+			609025
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[609022] = {
+		name = "【绊爱联动SP2】轰炸机",
+		max_hp = 109,
+		accuracy = 23,
+		model_ID = "feiji_ai_aijiang",
+		ACC_growth = 0,
+		crash_DMG = 85,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "feiji_ai_aijiang",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2660,
+		speed = 30,
+		id = 609022,
+		scale = 0.75,
+		weapon_ID = {
+			609024
 		},
 		position_offset = {
 			0,
@@ -417,12 +413,12 @@ pg.aircraft_template_327 = {
 			weapon = {
 				{
 					0.71,
-					-1.73,
+					-0.91,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.77,
+					1,
 					0
 				}
 			}
@@ -439,7 +435,7 @@ pg.aircraft_template_327 = {
 				0
 			},
 			{
-				0,
+				0.51,
 				0,
 				0
 			},
@@ -450,27 +446,28 @@ pg.aircraft_template_327 = {
 			}
 		}
 	},
-	[513147] = {
-		name = "赤城鱼雷机 BOSS使用",
-		max_hp = 218,
+	[609051] = {
+		name = "【绊爱联动SP5】战斗机",
+		max_hp = 141,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "feiji_ai_perform",
 		ACC_growth = 0,
-		crash_DMG = 240,
+		crash_DMG = 79,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 1,
 		AP_growth = 2000,
-		icon = "97jiangong",
+		icon = "feiji_ai_perform",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3613,
-		speed = 42,
-		id = 513147,
+		hp_growth = 2520,
+		speed = 33,
+		id = 609051,
 		scale = 0.75,
 		weapon_ID = {
-			513917
+			609053,
+			609055
 		},
 		position_offset = {
 			0,
@@ -490,13 +487,13 @@ pg.aircraft_template_327 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.13,
-					-1.29,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					-1.25,
-					1.47,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -513,7 +510,7 @@ pg.aircraft_template_327 = {
 				0
 			},
 			{
-				0.54,
+				0.27,
 				0,
 				0
 			},
@@ -524,27 +521,27 @@ pg.aircraft_template_327 = {
 			}
 		}
 	},
-	[513148] = {
-		name = "加贺轰炸机 BOSS使用",
-		max_hp = 246,
+	[609052] = {
+		name = "【绊爱联动SP5】轰炸机",
+		max_hp = 168,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "feiji_ai_aijiang",
 		ACC_growth = 0,
-		crash_DMG = 280,
+		crash_DMG = 140,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 3,
+		type = 1,
 		AP_growth = 2000,
-		icon = "99shijianbao1",
+		icon = "feiji_ai_aijiang",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3822,
-		speed = 40,
-		id = 513148,
+		hp_growth = 3420,
+		speed = 30,
+		id = 609052,
 		scale = 0.75,
 		weapon_ID = {
-			513920
+			609054
 		},
 		position_offset = {
 			0,
@@ -565,12 +562,12 @@ pg.aircraft_template_327 = {
 			weapon = {
 				{
 					0.71,
-					-1.73,
+					-0.91,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.77,
+					1,
 					0
 				}
 			}
@@ -587,7 +584,7 @@ pg.aircraft_template_327 = {
 				0
 			},
 			{
-				0,
+				0.51,
 				0,
 				0
 			},
@@ -598,27 +595,28 @@ pg.aircraft_template_327 = {
 			}
 		}
 	},
-	[513149] = {
-		name = "加贺鱼雷机 BOSS使用",
-		max_hp = 218,
-		accuracy = 23,
-		model_ID = "97jiangong",
+	[609130] = {
+		name = "【绊爱联动EX】战斗机",
+		max_hp = 1024,
+		accuracy = 50,
+		model_ID = "feiji_ai_perform",
 		ACC_growth = 0,
-		crash_DMG = 240,
+		crash_DMG = 220,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 1,
 		AP_growth = 2000,
-		icon = "97jiangong",
+		icon = "feiji_ai_perform",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3613,
-		speed = 42,
-		id = 513149,
+		hp_growth = 0,
+		speed = 33,
+		id = 609130,
 		scale = 0.75,
 		weapon_ID = {
-			513921
+			609132,
+			609134
 		},
 		position_offset = {
 			0,
@@ -638,13 +636,13 @@ pg.aircraft_template_327 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.13,
-					-1.29,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					-1.25,
-					1.47,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -661,7 +659,81 @@ pg.aircraft_template_327 = {
 				0
 			},
 			{
-				0.54,
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[609131] = {
+		name = "【绊爱联动EX】轰炸机",
+		max_hp = 1600,
+		accuracy = 50,
+		model_ID = "feiji_ai_aijiang",
+		ACC_growth = 0,
+		crash_DMG = 400,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "feiji_ai_aijiang",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 609131,
+		scale = 0.75,
+		weapon_ID = {
+			609133
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-0.91,
+					0
+				},
+				{
+					0.77,
+					1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.51,
 				0,
 				0
 			},

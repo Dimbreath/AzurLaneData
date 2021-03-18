@@ -1,66 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_149 = {
-	[65067] = {
-		max_hp = 75,
-		name = "普林斯顿技能鱼雷机Lv7",
-		base = 65061,
-		id = 65067,
-		hp_growth = 2879,
-		weapon_ID = {
-			65077
-		}
-	},
-	[65068] = {
-		max_hp = 80,
-		name = "普林斯顿技能鱼雷机Lv8",
-		base = 65061,
-		id = 65068,
-		hp_growth = 3090,
-		weapon_ID = {
-			65078
-		}
-	},
-	[65069] = {
-		max_hp = 86,
-		name = "普林斯顿技能鱼雷机Lv9",
-		base = 65061,
-		id = 65069,
-		hp_growth = 3301,
-		weapon_ID = {
-			65079
-		}
-	},
-	[65070] = {
-		max_hp = 91,
-		name = "普林斯顿技能鱼雷机Lv10",
-		base = 65061,
-		id = 65070,
-		hp_growth = 3511,
-		weapon_ID = {
-			65080
-		}
-	},
-	[65121] = {
-		name = "恶毒μ神圣天使轰炸机Lv1",
-		max_hp = 42,
+	[66820] = {
+		name = "飞鹰隼鹰技能Lv0",
+		max_hp = 24,
 		accuracy = 23,
-		model_ID = "feiji_shenshengtianshi",
+		model_ID = "97jiangong",
 		ACC_growth = 0,
-		crash_DMG = 208,
+		crash_DMG = 148,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 3,
+		type = 2,
 		AP_growth = 2000,
-		icon = "feiji_shenshengtianshi",
+		icon = "97jiangong",
 		funnel_behavior = "",
-		nationality = 9,
-		hp_growth = 1692,
+		nationality = 3,
+		hp_growth = 924,
 		speed = 48,
-		id = 65121,
+		id = 66820,
 		scale = 1,
 		weapon_ID = {
-			65131
+			66840
 		},
 		position_offset = {
 			0,
@@ -114,44 +74,94 @@ pg.aircraft_template_149 = {
 			}
 		}
 	},
-	[65122] = {
-		max_hp = 48,
-		name = "恶毒μ神圣天使轰炸机Lv2",
-		base = 65121,
-		id = 65122,
-		hp_growth = 1913,
+	[66821] = {
+		max_hp = 27,
+		name = "飞鹰隼鹰技能Lv1",
+		base = 66820,
+		id = 66821,
+		hp_growth = 1051,
 		weapon_ID = {
-			65132
+			66841
 		}
 	},
-	[65123] = {
-		max_hp = 54,
-		name = "恶毒μ神圣天使轰炸机Lv3",
-		base = 65121,
-		id = 65123,
-		hp_growth = 2133,
+	[66822] = {
+		max_hp = 30,
+		name = "飞鹰隼鹰技能Lv2",
+		base = 66820,
+		id = 66822,
+		hp_growth = 1178,
 		weapon_ID = {
-			65133
+			66842
 		}
 	},
-	[65124] = {
-		max_hp = 61,
-		name = "恶毒μ神圣天使轰炸机Lv4",
-		base = 65121,
-		id = 65124,
-		hp_growth = 2354,
+	[66823] = {
+		max_hp = 33,
+		name = "飞鹰隼鹰技能Lv3",
+		base = 66820,
+		id = 66823,
+		hp_growth = 1305,
 		weapon_ID = {
-			65134
+			66843
 		}
 	},
-	[65125] = {
-		max_hp = 67,
-		name = "恶毒μ神圣天使轰炸机Lv5",
-		base = 65121,
-		id = 65125,
-		hp_growth = 2575,
+	[66824] = {
+		max_hp = 37,
+		name = "飞鹰隼鹰技能Lv4",
+		base = 66820,
+		id = 66824,
+		hp_growth = 1432,
 		weapon_ID = {
-			65135
+			66844
+		}
+	},
+	[66825] = {
+		max_hp = 40,
+		name = "飞鹰隼鹰技能Lv5",
+		base = 66820,
+		id = 66825,
+		hp_growth = 1559,
+		weapon_ID = {
+			66845
+		}
+	},
+	[66826] = {
+		max_hp = 43,
+		name = "飞鹰隼鹰技能Lv6",
+		base = 66820,
+		id = 66826,
+		hp_growth = 1686,
+		weapon_ID = {
+			66846
+		}
+	},
+	[66827] = {
+		max_hp = 47,
+		name = "飞鹰隼鹰技能Lv7",
+		base = 66820,
+		id = 66827,
+		hp_growth = 1813,
+		weapon_ID = {
+			66847
+		}
+	},
+	[66828] = {
+		max_hp = 50,
+		name = "飞鹰隼鹰技能Lv8",
+		base = 66820,
+		id = 66828,
+		hp_growth = 1940,
+		weapon_ID = {
+			66848
+		}
+	},
+	[66829] = {
+		max_hp = 53,
+		name = "飞鹰隼鹰技能Lv9",
+		base = 66820,
+		id = 66829,
+		hp_growth = 2067,
+		weapon_ID = {
+			66849
 		}
 	}
 }

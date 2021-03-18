@@ -2585,6 +2585,21 @@ pg.memory_group = {
 			1567
 		}
 	},
+	[556] = {
+		title = "White Gallantry",
+		type = 3,
+		id = 556,
+		icon = "title_chara_beilaluosi",
+		memories = {
+			1571,
+			1572,
+			1573,
+			1574,
+			1575,
+			1576,
+			1577
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2730,6 +2745,7 @@ pg.memory_group = {
 		552,
 		553,
 		554,
-		555
+		555,
+		556
 	}
 }

@@ -25,6 +25,7 @@ return {
 				"onShieldBroken"
 			},
 			arg_list = {
+				shieldBuffID = 13281,
 				buff_id_list = {
 					13283
 				}

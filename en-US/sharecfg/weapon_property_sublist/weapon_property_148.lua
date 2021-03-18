@@ -2,229 +2,68 @@ pg = pg or {}
 pg.weapon_property_148 = {}
 
 function ()
-	uv0.weapon_property_148[67924] = {
-		name = "独立技能鱼雷机1Lv4",
-		damage = 107,
-		base = 67921,
-		id = 67924,
+	uv0.weapon_property_148[68038] = {
+		name = "邦克山技能轰炸机Lv8",
+		damage = 154,
+		base = 68031,
+		id = 68038,
 		bullet_ID = {
-			67924
+			68038
 		}
 	}
-	uv0.weapon_property_148[67925] = {
-		name = "独立技能鱼雷机1Lv5",
-		damage = 123,
-		base = 67921,
-		id = 67925,
+	uv0.weapon_property_148[68039] = {
+		name = "邦克山技能轰炸机Lv9",
+		damage = 167,
+		base = 68031,
+		id = 68039,
 		bullet_ID = {
-			67925
+			68039
 		}
 	}
-	uv0.weapon_property_148[67926] = {
-		name = "独立技能鱼雷机1Lv6",
-		damage = 141,
-		base = 67921,
-		id = 67926,
+	uv0.weapon_property_148[68040] = {
+		name = "邦克山技能轰炸机Lv10",
+		damage = 179,
+		base = 68031,
+		id = 68040,
 		bullet_ID = {
-			67926
+			68040
 		}
 	}
-	uv0.weapon_property_148[67927] = {
-		name = "独立技能鱼雷机1Lv7",
-		damage = 157,
-		base = 67921,
-		id = 67927,
-		bullet_ID = {
-			67927
-		}
-	}
-	uv0.weapon_property_148[67928] = {
-		name = "独立技能鱼雷机1Lv8",
-		damage = 175,
-		base = 67921,
-		id = 67928,
-		bullet_ID = {
-			67928
-		}
-	}
-	uv0.weapon_property_148[67929] = {
-		name = "独立技能鱼雷机1Lv9",
-		damage = 191,
-		base = 67921,
-		id = 67929,
-		bullet_ID = {
-			67929
-		}
-	}
-	uv0.weapon_property_148[67930] = {
-		name = "独立技能鱼雷机1Lv10",
-		damage = 207,
-		base = 67921,
-		id = 67930,
-		bullet_ID = {
-			67930
-		}
-	}
-	uv0.weapon_property_148[67931] = {
+	uv0.weapon_property_148[68041] = {
 		action_index = "",
-		range = 90,
-		type = 11,
+		range = 500,
+		type = 2,
 		fire_fx = "",
-		recover_time = 1,
-		axis_angle = 0,
+		recover_time = 0,
+		axis_angle = 25,
 		shakescreen = 0,
-		name = "独立技能鱼雷机2Lv1",
+		name = "1 x 2000lb Bomb",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 90,
+		angle = 25,
 		charge_param = "",
-		damage = 58,
+		damage = 209,
 		corrected = 100,
 		min_range = 0,
-		id = 67931,
-		attack_attribute_ratio = 100,
+		id = 68041,
+		attack_attribute_ratio = 120,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
 		reload_max = 3000,
 		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			67931
-		},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_148[67932] = {
-		name = "独立技能鱼雷机2Lv2",
-		damage = 74,
-		base = 67931,
-		id = 67932,
-		bullet_ID = {
-			67932
-		}
-	}
-	uv0.weapon_property_148[67933] = {
-		name = "独立技能鱼雷机2Lv3",
-		damage = 92,
-		base = 67931,
-		id = 67933,
-		bullet_ID = {
-			67933
-		}
-	}
-	uv0.weapon_property_148[67934] = {
-		name = "独立技能鱼雷机2Lv4",
-		damage = 107,
-		base = 67931,
-		id = 67934,
-		bullet_ID = {
-			67934
-		}
-	}
-	uv0.weapon_property_148[67935] = {
-		name = "独立技能鱼雷机2Lv5",
-		damage = 123,
-		base = 67931,
-		id = 67935,
-		bullet_ID = {
-			67935
-		}
-	}
-	uv0.weapon_property_148[67936] = {
-		name = "独立技能鱼雷机2Lv6",
-		damage = 141,
-		base = 67931,
-		id = 67936,
-		bullet_ID = {
-			67936
-		}
-	}
-	uv0.weapon_property_148[67937] = {
-		name = "独立技能鱼雷机2Lv7",
-		damage = 157,
-		base = 67931,
-		id = 67937,
-		bullet_ID = {
-			67937
-		}
-	}
-	uv0.weapon_property_148[67938] = {
-		name = "独立技能鱼雷机2Lv8",
-		damage = 175,
-		base = 67931,
-		id = 67938,
-		bullet_ID = {
-			67938
-		}
-	}
-	uv0.weapon_property_148[67939] = {
-		name = "独立技能鱼雷机2Lv9",
-		damage = 191,
-		base = 67931,
-		id = 67939,
-		bullet_ID = {
-			67939
-		}
-	}
-	uv0.weapon_property_148[67940] = {
-		name = "独立技能鱼雷机2Lv10",
-		damage = 207,
-		base = 67931,
-		id = 67940,
-		bullet_ID = {
-			67940
-		}
-	}
-	uv0.weapon_property_148[67941] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "独立技能鱼雷Lv1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 24,
-		charge_param = "",
-		damage = 58,
-		corrected = 100,
-		min_range = 0,
-		id = 67941,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 1,
+		search_type = 2,
 		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
+		suppress = 1,
+		spawn_bound = "cannon",
 		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			2111
+			19992
 		},
 		barrage_ID = {
-			80530
+			2120
 		},
 		oxy_type = {
 			1
@@ -234,235 +73,86 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_148[67942] = {
-		id = 67942,
-		name = "独立技能鱼雷Lv2",
-		damage = 74,
-		base = 67941
+	uv0.weapon_property_148[68042] = {
+		id = 68042,
+		damage = 236,
+		base = 68041
 	}
-	uv0.weapon_property_148[67943] = {
-		id = 67943,
-		name = "独立技能鱼雷Lv3",
-		damage = 92,
-		base = 67941
+	uv0.weapon_property_148[68043] = {
+		id = 68043,
+		damage = 263,
+		base = 68041
 	}
-	uv0.weapon_property_148[67944] = {
-		name = "独立技能鱼雷Lv4",
-		damage = 107,
-		base = 67941,
-		id = 67944,
-		barrage_ID = {
-			80532
-		}
+	uv0.weapon_property_148[68044] = {
+		id = 68044,
+		damage = 290,
+		base = 68041
 	}
-	uv0.weapon_property_148[67945] = {
-		name = "独立技能鱼雷Lv5",
-		damage = 123,
-		base = 67941,
-		id = 67945,
-		barrage_ID = {
-			80532
-		}
+	uv0.weapon_property_148[68045] = {
+		id = 68045,
+		damage = 317,
+		base = 68041
 	}
-	uv0.weapon_property_148[67946] = {
-		name = "独立技能鱼雷Lv6",
-		damage = 141,
-		base = 67941,
-		id = 67946,
-		barrage_ID = {
-			80532
-		}
+	uv0.weapon_property_148[68046] = {
+		id = 68046,
+		damage = 344,
+		base = 68041
 	}
-	uv0.weapon_property_148[67947] = {
-		name = "独立技能鱼雷Lv7",
-		damage = 157,
-		base = 67941,
-		id = 67947,
-		barrage_ID = {
-			80534
-		}
+	uv0.weapon_property_148[68047] = {
+		id = 68047,
+		damage = 371,
+		base = 68041
 	}
-	uv0.weapon_property_148[67948] = {
-		name = "独立技能鱼雷Lv8",
-		damage = 175,
-		base = 67941,
-		id = 67948,
-		barrage_ID = {
-			80534
-		}
+	uv0.weapon_property_148[68048] = {
+		id = 68048,
+		damage = 399,
+		base = 68041
 	}
-	uv0.weapon_property_148[67949] = {
-		name = "独立技能鱼雷Lv9",
-		damage = 191,
-		base = 67941,
-		id = 67949,
-		barrage_ID = {
-			80534
-		}
+	uv0.weapon_property_148[68049] = {
+		id = 68049,
+		damage = 428,
+		base = 68041
 	}
-	uv0.weapon_property_148[67950] = {
-		name = "独立技能鱼雷Lv10",
-		damage = 207,
-		base = 67941,
-		id = 67950,
-		barrage_ID = {
-			80534
-		}
+	uv0.weapon_property_148[68050] = {
+		id = 68050,
+		damage = 456,
+		base = 68041
 	}
-	uv0.weapon_property_148[67951] = {
+	uv0.weapon_property_148[68051] = {
 		action_index = "",
-		range = 90,
-		type = 3,
+		range = 500,
+		type = 2,
 		fire_fx = "",
 		recover_time = 0,
-		axis_angle = 0,
+		axis_angle = 25,
 		shakescreen = 0,
-		name = "独立技能鱼雷Lv1",
-		aim_type = 0,
+		name = "2 x 100lb Bomb",
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 24,
+		angle = 25,
 		charge_param = "",
-		damage = 58,
+		damage = 48,
 		corrected = 100,
 		min_range = 0,
-		id = 67951,
-		attack_attribute_ratio = 100,
+		id = 68051,
+		attack_attribute_ratio = 120,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 9500,
+		reload_max = 3000,
 		queue = 1,
-		search_type = 1,
+		search_type = 2,
 		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
+		suppress = 1,
+		spawn_bound = "cannon",
 		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			2111
+			19993
 		},
 		barrage_ID = {
-			80531
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_148[67952] = {
-		id = 67952,
-		name = "独立技能鱼雷Lv2",
-		damage = 74,
-		base = 67951
-	}
-	uv0.weapon_property_148[67953] = {
-		id = 67953,
-		name = "独立技能鱼雷Lv3",
-		damage = 92,
-		base = 67951
-	}
-	uv0.weapon_property_148[67954] = {
-		name = "独立技能鱼雷Lv4",
-		damage = 107,
-		base = 67951,
-		id = 67954,
-		barrage_ID = {
-			80533
-		}
-	}
-	uv0.weapon_property_148[67955] = {
-		name = "独立技能鱼雷Lv5",
-		damage = 123,
-		base = 67951,
-		id = 67955,
-		barrage_ID = {
-			80533
-		}
-	}
-	uv0.weapon_property_148[67956] = {
-		name = "独立技能鱼雷Lv6",
-		damage = 141,
-		base = 67951,
-		id = 67956,
-		barrage_ID = {
-			80533
-		}
-	}
-	uv0.weapon_property_148[67957] = {
-		name = "独立技能鱼雷Lv7",
-		damage = 157,
-		base = 67951,
-		id = 67957,
-		barrage_ID = {
-			80535
-		}
-	}
-	uv0.weapon_property_148[67958] = {
-		name = "独立技能鱼雷Lv8",
-		damage = 175,
-		base = 67951,
-		id = 67958,
-		barrage_ID = {
-			80535
-		}
-	}
-	uv0.weapon_property_148[67959] = {
-		name = "独立技能鱼雷Lv9",
-		damage = 191,
-		base = 67951,
-		id = 67959,
-		barrage_ID = {
-			80535
-		}
-	}
-	uv0.weapon_property_148[67960] = {
-		name = "独立技能鱼雷Lv10",
-		damage = 207,
-		base = 67951,
-		id = 67960,
-		barrage_ID = {
-			80535
-		}
-	}
-	uv0.weapon_property_148[67961] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "香格里拉技能专用武器-随机位置",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 180,
-		charge_param = "",
-		damage = 83,
-		corrected = 100,
-		min_range = 0,
-		id = 67961,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 2400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19988
-		},
-		barrage_ID = {
-			60001
+			2121
 		},
 		oxy_type = {
 			1
@@ -472,86 +162,86 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_148[67962] = {
-		id = 67962,
-		damage = 98,
-		base = 67961
+	uv0.weapon_property_148[68052] = {
+		id = 68052,
+		damage = 56,
+		base = 68051
 	}
-	uv0.weapon_property_148[67963] = {
-		id = 67963,
-		damage = 113,
-		base = 67961
+	uv0.weapon_property_148[68053] = {
+		id = 68053,
+		damage = 64,
+		base = 68051
 	}
-	uv0.weapon_property_148[67964] = {
-		id = 67964,
-		damage = 128,
-		base = 67961
+	uv0.weapon_property_148[68054] = {
+		id = 68054,
+		damage = 72,
+		base = 68051
 	}
-	uv0.weapon_property_148[67965] = {
-		id = 67965,
-		damage = 143,
-		base = 67961
+	uv0.weapon_property_148[68055] = {
+		id = 68055,
+		damage = 80,
+		base = 68051
 	}
-	uv0.weapon_property_148[67966] = {
-		id = 67966,
-		damage = 158,
-		base = 67961
+	uv0.weapon_property_148[68056] = {
+		id = 68056,
+		damage = 88,
+		base = 68051
 	}
-	uv0.weapon_property_148[67967] = {
-		id = 67967,
-		damage = 174,
-		base = 67961
+	uv0.weapon_property_148[68057] = {
+		id = 68057,
+		damage = 96,
+		base = 68051
 	}
-	uv0.weapon_property_148[67968] = {
-		id = 67968,
-		damage = 190,
-		base = 67961
+	uv0.weapon_property_148[68058] = {
+		id = 68058,
+		damage = 104,
+		base = 68051
 	}
-	uv0.weapon_property_148[67969] = {
-		id = 67969,
-		damage = 206,
-		base = 67961
+	uv0.weapon_property_148[68059] = {
+		id = 68059,
+		damage = 112,
+		base = 68051
 	}
-	uv0.weapon_property_148[67970] = {
-		id = 67970,
-		damage = 222,
-		base = 67961
+	uv0.weapon_property_148[68060] = {
+		id = 68060,
+		damage = 121,
+		base = 68051
 	}
-	uv0.weapon_property_148[67971] = {
-		action_index = "",
-		range = 500,
+	uv0.weapon_property_148[68061] = {
+		action_index = "attack",
+		range = 75,
 		type = 2,
 		fire_fx = "CAFire",
 		recover_time = 0.5,
 		axis_angle = 0,
-		shakescreen = 0,
-		name = "香格里拉技能专用武器-固定位置",
+		shakescreen = 302,
+		name = "试作型主炮Type0",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 180,
+		angle = 60,
 		charge_param = "",
-		damage = 83,
-		corrected = 100,
+		damage = 14,
+		corrected = 120,
 		min_range = 0,
-		id = 67971,
+		id = 68061,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 2400,
-		queue = 1,
+		attack_attribute = 1,
+		reload_max = 1700,
+		queue = 4,
 		search_type = 1,
 		effect_move = 0,
 		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19989
+			19844
 		},
 		barrage_ID = {
-			10001
+			1207
 		},
 		oxy_type = {
 			1
@@ -561,52 +251,52 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_148[67972] = {
-		id = 67972,
-		damage = 98,
-		base = 67971
+	uv0.weapon_property_148[68062] = {
+		id = 68062,
+		damage = 18,
+		base = 68061
 	}
-	uv0.weapon_property_148[67973] = {
-		id = 67973,
-		damage = 113,
-		base = 67971
+	uv0.weapon_property_148[68063] = {
+		id = 68063,
+		damage = 22,
+		base = 68061
 	}
-	uv0.weapon_property_148[67974] = {
-		id = 67974,
-		damage = 128,
-		base = 67971
+	uv0.weapon_property_148[68064] = {
+		id = 68064,
+		damage = 26,
+		base = 68061
 	}
-	uv0.weapon_property_148[67975] = {
-		id = 67975,
-		damage = 143,
-		base = 67971
+	uv0.weapon_property_148[68065] = {
+		id = 68065,
+		damage = 30,
+		base = 68061
 	}
-	uv0.weapon_property_148[67976] = {
-		id = 67976,
-		damage = 158,
-		base = 67971
+	uv0.weapon_property_148[68066] = {
+		id = 68066,
+		damage = 35,
+		base = 68061
 	}
-	uv0.weapon_property_148[67977] = {
-		id = 67977,
-		damage = 174,
-		base = 67971
+	uv0.weapon_property_148[68067] = {
+		id = 68067,
+		damage = 41,
+		base = 68061
 	}
-	uv0.weapon_property_148[67978] = {
-		id = 67978,
-		damage = 190,
-		base = 67971
+	uv0.weapon_property_148[68068] = {
+		id = 68068,
+		damage = 46,
+		base = 68061
 	}
-	uv0.weapon_property_148[67979] = {
-		id = 67979,
-		damage = 206,
-		base = 67971
+	uv0.weapon_property_148[68069] = {
+		id = 68069,
+		damage = 51,
+		base = 68061
 	}
-	uv0.weapon_property_148[67980] = {
-		id = 67980,
-		damage = 222,
-		base = 67971
+	uv0.weapon_property_148[68070] = {
+		id = 68070,
+		damage = 56,
+		base = 68061
 	}
-	uv0.weapon_property_148[67981] = {
+	uv0.weapon_property_148[68071] = {
 		action_index = "",
 		range = 90,
 		type = 3,
@@ -614,16 +304,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "勇敢技能首轮鱼雷-3至7枚",
+		name = "试作连射鱼雷",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 60,
 		charge_param = "",
-		damage = 30,
+		damage = 14,
 		corrected = 100,
 		min_range = 0,
-		id = 67981,
+		id = 68071,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -637,10 +327,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19990
+			1801
 		},
 		barrage_ID = {
-			80525
+			80540
 		},
 		oxy_type = {
 			1
@@ -650,9 +340,228 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_148[67982] = {
-		id = 67982,
-		damage = 38,
-		base = 67981
+	uv0.weapon_property_148[68072] = {
+		id = 68072,
+		damage = 16,
+		base = 68071
+	}
+	uv0.weapon_property_148[68073] = {
+		id = 68073,
+		damage = 18,
+		base = 68071
+	}
+	uv0.weapon_property_148[68074] = {
+		id = 68074,
+		damage = 20,
+		base = 68071
+	}
+	uv0.weapon_property_148[68075] = {
+		id = 68075,
+		damage = 22,
+		base = 68071
+	}
+	uv0.weapon_property_148[68076] = {
+		id = 68076,
+		damage = 24,
+		base = 68071
+	}
+	uv0.weapon_property_148[68077] = {
+		id = 68077,
+		damage = 26,
+		base = 68071
+	}
+	uv0.weapon_property_148[68078] = {
+		id = 68078,
+		damage = 28,
+		base = 68071
+	}
+	uv0.weapon_property_148[68079] = {
+		id = 68079,
+		damage = 30,
+		base = 68071
+	}
+	uv0.weapon_property_148[68080] = {
+		id = 68080,
+		damage = 32,
+		base = 68071
+	}
+	uv0.weapon_property_148[68081] = {
+		action_index = "attack",
+		range = 100,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "夕张烟花弹",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 68081,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19845
+		},
+		barrage_ID = {
+			1
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_148[68082] = {
+		id = 68082,
+		damage = 2,
+		base = 68081
+	}
+	uv0.weapon_property_148[68083] = {
+		id = 68083,
+		damage = 3,
+		base = 68081
+	}
+	uv0.weapon_property_148[68084] = {
+		id = 68084,
+		damage = 4,
+		base = 68081
+	}
+	uv0.weapon_property_148[68085] = {
+		id = 68085,
+		damage = 5,
+		base = 68081
+	}
+	uv0.weapon_property_148[68086] = {
+		id = 68086,
+		damage = 6,
+		base = 68081
+	}
+	uv0.weapon_property_148[68087] = {
+		id = 68087,
+		damage = 7,
+		base = 68081
+	}
+	uv0.weapon_property_148[68088] = {
+		id = 68088,
+		damage = 8,
+		base = 68081
+	}
+	uv0.weapon_property_148[68089] = {
+		id = 68089,
+		damage = 9,
+		base = 68081
+	}
+	uv0.weapon_property_148[68090] = {
+		id = 68090,
+		damage = 10,
+		base = 68081
+	}
+	uv0.weapon_property_148[68091] = {
+		action_index = "attack",
+		range = 50,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "吾妻技能小子弹I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 6,
+		corrected = 100,
+		min_range = 0,
+		id = 68091,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19995,
+			19995,
+			19995
+		},
+		barrage_ID = {
+			80555,
+			80556,
+			80557
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_148[68092] = {
+		id = 68092,
+		damage = 7,
+		base = 68091
+	}
+	uv0.weapon_property_148[68093] = {
+		id = 68093,
+		damage = 8,
+		base = 68091
+	}
+	uv0.weapon_property_148[68094] = {
+		id = 68094,
+		damage = 9,
+		base = 68091
+	}
+	uv0.weapon_property_148[68095] = {
+		id = 68095,
+		damage = 10,
+		base = 68091
+	}
+	uv0.weapon_property_148[68096] = {
+		id = 68096,
+		damage = 11,
+		base = 68091
+	}
+	uv0.weapon_property_148[68097] = {
+		damage = 12,
+		base = 68091,
+		id = 68097,
+		bullet_ID = {
+			19995,
+			19995,
+			19995,
+			19995
+		},
+		barrage_ID = {
+			80555,
+			80556,
+			80557,
+			80558
+		}
 	}
 end()

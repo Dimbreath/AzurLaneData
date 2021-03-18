@@ -1,39 +1,27 @@
 pg = pg or {}
 pg.aircraft_template_126 = {
-	[39173] = {
-		id = 39173,
-		base = 39160,
-		max_hp = 123,
-		hp_growth = 4735,
-		weapon_ID = {
-			50053,
-			52673,
-			52173
-		}
-	},
-	[39200] = {
-		name = "瑞云",
-		max_hp = 27,
+	[48000] = {
+		name = "Ar-195舰载鱼雷机",
+		max_hp = 32,
 		accuracy = 23,
-		model_ID = "ruiyun",
+		model_ID = "Ar195",
 		ACC_growth = 0,
-		crash_DMG = 120,
-		dodge = 3.75,
+		crash_DMG = 141,
+		dodge = 1.17,
 		attack_power = 2,
-		dodge_limit = 0.8,
-		type = 3,
+		dodge_limit = 3,
+		type = 2,
 		AP_growth = 2000,
-		icon = "ruiyun",
+		icon = "Ar195",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1023,
-		speed = 46,
-		id = 39200,
+		nationality = 4,
+		hp_growth = 1216,
+		speed = 48,
+		id = 48000,
 		scale = 1,
 		weapon_ID = {
-			50500,
-			50800,
-			52200
+			59760,
+			59660
 		},
 		position_offset = {
 			0,
@@ -54,12 +42,12 @@ pg.aircraft_template_126 = {
 			weapon = {
 				{
 					0.71,
-					-1.73,
+					-1.01,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.84,
+					1.5,
 					0
 				}
 			}
@@ -87,62 +75,98 @@ pg.aircraft_template_126 = {
 			}
 		}
 	},
-	[39201] = {
-		id = 39201,
-		base = 39200,
-		max_hp = 31,
-		hp_growth = 1177,
+	[48001] = {
+		id = 48001,
+		base = 48000,
+		max_hp = 36,
+		hp_growth = 1398,
 		weapon_ID = {
-			50501,
-			50801,
-			52201
+			59761,
+			59661
 		}
 	},
-	[39202] = {
-		id = 39202,
-		base = 39200,
+	[48002] = {
+		id = 48002,
+		base = 48000,
+		max_hp = 41,
+		hp_growth = 1581,
+		weapon_ID = {
+			59762,
+			59662
+		}
+	},
+	[48003] = {
+		id = 48003,
+		base = 48000,
+		max_hp = 46,
+		hp_growth = 1763,
+		weapon_ID = {
+			59763,
+			59663
+		}
+	},
+	[48004] = {
+		id = 48004,
+		base = 48000,
+		max_hp = 51,
+		hp_growth = 1946,
+		weapon_ID = {
+			59764,
+			59664
+		}
+	},
+	[48005] = {
+		id = 48005,
+		base = 48000,
+		max_hp = 55,
+		hp_growth = 2128,
+		weapon_ID = {
+			59765,
+			59665
+		}
+	},
+	[48006] = {
+		id = 48006,
+		base = 48000,
+		max_hp = 60,
+		hp_growth = 2310,
+		weapon_ID = {
+			59766,
+			59666
+		}
+	},
+	[48007] = {
+		id = 48007,
+		base = 48000,
+		max_hp = 65,
+		hp_growth = 2493,
+		weapon_ID = {
+			59767,
+			59667
+		}
+	},
+	[48020] = {
+		name = "Fi-167舰载鱼雷机",
 		max_hp = 35,
-		hp_growth = 1330,
-		weapon_ID = {
-			50502,
-			50802,
-			52202
-		}
-	},
-	[39203] = {
-		id = 39203,
-		base = 39200,
-		max_hp = 39,
-		hp_growth = 1484,
-		weapon_ID = {
-			50503,
-			50803,
-			52203
-		}
-	},
-	[39220] = {
-		name = "瑞云",
-		max_hp = 30,
 		accuracy = 23,
-		model_ID = "ruiyun",
+		model_ID = "FI167",
 		ACC_growth = 0,
-		crash_DMG = 120,
-		dodge = 3.63,
+		crash_DMG = 152,
+		dodge = 1.11,
 		attack_power = 2,
-		dodge_limit = 0.9,
-		type = 3,
+		dodge_limit = 1,
+		type = 2,
 		AP_growth = 2000,
-		icon = "ruiyun",
+		icon = "FI167",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1137,
-		speed = 46,
-		id = 39220,
+		nationality = 4,
+		hp_growth = 1338,
+		speed = 48,
+		id = 48020,
 		scale = 1,
 		weapon_ID = {
-			50520,
-			50820,
-			52220
+			59760,
+			59680
 		},
 		position_offset = {
 			0,
@@ -162,13 +186,13 @@ pg.aircraft_template_126 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					-1.13,
+					-1.29,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					-1.25,
+					1.47,
 					0
 				}
 			}
@@ -185,7 +209,7 @@ pg.aircraft_template_126 = {
 				0
 			},
 			{
-				0,
+				0.54,
 				0,
 				0
 			},
@@ -196,37 +220,14 @@ pg.aircraft_template_126 = {
 			}
 		}
 	},
-	[39221] = {
-		id = 39221,
-		base = 39220,
-		max_hp = 34,
-		hp_growth = 1308,
+	[48021] = {
+		id = 48021,
+		base = 48020,
+		max_hp = 40,
+		hp_growth = 1538,
 		weapon_ID = {
-			50521,
-			50821,
-			52221
-		}
-	},
-	[39222] = {
-		id = 39222,
-		base = 39220,
-		max_hp = 38,
-		hp_growth = 1478,
-		weapon_ID = {
-			50522,
-			50822,
-			52222
-		}
-	},
-	[39223] = {
-		id = 39223,
-		base = 39220,
-		max_hp = 43,
-		hp_growth = 1649,
-		weapon_ID = {
-			50523,
-			50823,
-			52223
+			59761,
+			59681
 		}
 	}
 }

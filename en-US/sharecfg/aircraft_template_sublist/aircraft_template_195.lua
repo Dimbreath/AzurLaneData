@@ -1,103 +1,53 @@
 pg = pg or {}
 pg.aircraft_template_195 = {
-	[68774] = {
-		max_hp = 61,
-		name = "赤城μ技能舰爆Lv4",
-		base = 68771,
-		id = 68774,
-		hp_growth = 2354,
+	[69988] = {
+		id = 69988,
+		base = 69981,
+		max_hp = 74,
+		hp_growth = 3050,
 		weapon_ID = {
-			68784,
-			68794
+			51348
 		}
 	},
-	[68775] = {
-		max_hp = 67,
-		name = "赤城μ技能舰爆Lv5",
-		base = 68771,
-		id = 68775,
-		hp_growth = 2575,
-		weapon_ID = {
-			68785,
-			68795
-		}
-	},
-	[68776] = {
-		max_hp = 73,
-		name = "赤城μ技能舰爆Lv6",
-		base = 68771,
-		id = 68776,
-		hp_growth = 2796,
-		weapon_ID = {
-			68786,
-			68796
-		}
-	},
-	[68777] = {
+	[69989] = {
+		id = 69989,
+		base = 69981,
 		max_hp = 79,
-		name = "赤城μ技能舰爆Lv7",
-		base = 68771,
-		id = 68777,
-		hp_growth = 3016,
+		hp_growth = 3258,
 		weapon_ID = {
-			68787,
-			68797
+			51349
 		}
 	},
-	[68778] = {
-		max_hp = 86,
-		name = "赤城μ技能舰爆Lv8",
-		base = 68771,
-		id = 68778,
-		hp_growth = 3237,
+	[69990] = {
+		id = 69990,
+		base = 69981,
+		max_hp = 85,
+		hp_growth = 3466,
 		weapon_ID = {
-			68788,
-			68798
+			51350
 		}
 	},
-	[68779] = {
-		max_hp = 92,
-		name = "赤城μ技能舰爆Lv9",
-		base = 68771,
-		id = 68779,
-		hp_growth = 3458,
-		weapon_ID = {
-			68789,
-			68799
-		}
-	},
-	[68780] = {
-		max_hp = 98,
-		name = "赤城μ技能舰爆Lv10",
-		base = 68771,
-		id = 68780,
-		hp_growth = 3678,
-		weapon_ID = {
-			68790,
-			68800
-		}
-	},
-	[68801] = {
-		name = "赤城μ技能舰攻Lv1",
-		max_hp = 42,
+	[81000] = {
+		name = "F2A水牛",
+		max_hp = 29,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "F2A",
 		ACC_growth = 0,
-		crash_DMG = 208,
-		dodge = 1,
+		crash_DMG = 42,
+		dodge = 0.375,
 		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
+		dodge_limit = 8,
+		type = 1,
 		AP_growth = 2000,
-		icon = "97jiangong",
+		icon = "F2A",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1692,
-		speed = 48,
-		id = 68801,
+		nationality = 1,
+		hp_growth = 1129,
+		speed = 45,
+		id = 81000,
 		scale = 1,
 		weapon_ID = {
-			68811
+			50300
 		},
 		position_offset = {
 			0,
@@ -117,13 +67,13 @@ pg.aircraft_template_195 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					1.24,
+					-1.34,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					1.43,
+					1.6,
 					0
 				}
 			}
@@ -140,7 +90,7 @@ pg.aircraft_template_195 = {
 				0
 			},
 			{
-				0.54,
+				0.24,
 				0,
 				0
 			},
@@ -151,14 +101,123 @@ pg.aircraft_template_195 = {
 			}
 		}
 	},
-	[68802] = {
-		max_hp = 48,
-		name = "赤城μ技能舰攻Lv2",
-		base = 68801,
-		id = 68802,
-		hp_growth = 1913,
+	[81001] = {
+		id = 81001,
+		base = 81000,
+		max_hp = 34,
+		hp_growth = 1298,
 		weapon_ID = {
-			68812
+			50301
+		}
+	},
+	[81002] = {
+		id = 81002,
+		base = 81000,
+		max_hp = 38,
+		hp_growth = 1468,
+		weapon_ID = {
+			50302
+		}
+	},
+	[81003] = {
+		id = 81003,
+		base = 81000,
+		max_hp = 43,
+		hp_growth = 1637,
+		weapon_ID = {
+			50303
+		}
+	},
+	[81020] = {
+		name = "F2A水牛",
+		max_hp = 33,
+		accuracy = 23,
+		model_ID = "F2A",
+		ACC_growth = 0,
+		crash_DMG = 42,
+		dodge = 0.363,
+		attack_power = 2,
+		dodge_limit = 8.5,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F2A",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1270,
+		speed = 45,
+		id = 81020,
+		scale = 1,
+		weapon_ID = {
+			50320
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					1.24,
+					-1.34,
+					0
+				},
+				{
+					1.43,
+					1.6,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.24,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[81021] = {
+		id = 81021,
+		base = 81020,
+		max_hp = 38,
+		hp_growth = 1461,
+		weapon_ID = {
+			50321
+		}
+	},
+	[81022] = {
+		id = 81022,
+		base = 81020,
+		max_hp = 43,
+		hp_growth = 1651,
+		weapon_ID = {
+			50322
 		}
 	}
 }

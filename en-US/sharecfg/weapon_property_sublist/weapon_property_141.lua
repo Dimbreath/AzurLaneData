@@ -2,91 +2,97 @@ pg = pg or {}
 pg.weapon_property_141 = {}
 
 function ()
-	uv0.weapon_property_141[67381] = {
-		id = 67381,
-		damage = 66,
-		base = 67380
+	uv0.weapon_property_141[67562] = {
+		id = 67562,
+		name = "圣地亚哥星之歌弹幕Lv2",
+		damage = 7,
+		base = 67560
 	}
-	uv0.weapon_property_141[67382] = {
-		id = 67382,
-		damage = 88,
-		base = 67380
+	uv0.weapon_property_141[67563] = {
+		id = 67563,
+		name = "圣地亚哥星之歌弹幕Lv3",
+		damage = 8,
+		base = 67560
 	}
-	uv0.weapon_property_141[67383] = {
-		id = 67383,
-		damage = 108,
-		base = 67380
+	uv0.weapon_property_141[67564] = {
+		id = 67564,
+		name = "圣地亚哥星之歌弹幕Lv4",
+		damage = 9,
+		base = 67560
 	}
-	uv0.weapon_property_141[67384] = {
-		id = 67384,
-		damage = 130,
-		base = 67380
+	uv0.weapon_property_141[67565] = {
+		id = 67565,
+		name = "圣地亚哥星之歌弹幕Lv5",
+		damage = 10,
+		base = 67560
 	}
-	uv0.weapon_property_141[67385] = {
-		id = 67385,
-		damage = 152,
-		base = 67380
+	uv0.weapon_property_141[67566] = {
+		id = 67566,
+		name = "圣地亚哥星之歌弹幕Lv6",
+		damage = 12,
+		base = 67560
 	}
-	uv0.weapon_property_141[67386] = {
-		id = 67386,
-		damage = 174,
-		base = 67380
+	uv0.weapon_property_141[67567] = {
+		id = 67567,
+		name = "圣地亚哥星之歌弹幕Lv7",
+		damage = 14,
+		base = 67560
 	}
-	uv0.weapon_property_141[67387] = {
-		id = 67387,
-		damage = 196,
-		base = 67380
+	uv0.weapon_property_141[67568] = {
+		id = 67568,
+		name = "圣地亚哥星之歌弹幕Lv8",
+		damage = 17,
+		base = 67560
 	}
-	uv0.weapon_property_141[67388] = {
-		id = 67388,
-		damage = 216,
-		base = 67380
+	uv0.weapon_property_141[67569] = {
+		id = 67569,
+		name = "圣地亚哥星之歌弹幕Lv9",
+		damage = 20,
+		base = 67560
 	}
-	uv0.weapon_property_141[67389] = {
-		id = 67389,
-		damage = 238,
-		base = 67380
+	uv0.weapon_property_141[67570] = {
+		id = 67570,
+		name = "圣地亚哥星之歌弹幕Lv10",
+		damage = 24,
+		base = 67560
 	}
-	uv0.weapon_property_141[67390] = {
-		id = 67390,
-		damage = 260,
-		base = 67380
-	}
-	uv0.weapon_property_141[67400] = {
-		action_index = "",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = -10,
+	uv0.weapon_property_141[67580] = {
+		action_index = "attack",
+		range = 50,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
 		shakescreen = 0,
-		name = "3 x 机载鱼雷-重樱 大凤技能投雷",
+		name = "蜜月激光",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 25,
+		angle = 360,
 		charge_param = "",
-		damage = 48,
+		damage = 1,
 		corrected = 100,
 		min_range = 0,
-		id = 67400,
+		id = 67580,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
+		attack_attribute = 1,
+		reload_max = 412,
 		queue = 1,
-		search_type = 2,
+		search_type = 1,
 		effect_move = 0,
 		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
+		spawn_bound = "cannon",
+		fire_sfx = "battle/raser",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			2112
+			19958,
+			19970
 		},
 		barrage_ID = {
-			2142
+			1,
+			20
 		},
 		oxy_type = {
 			1
@@ -96,74 +102,316 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_141[67401] = {
-		id = 67401,
-		damage = 68,
-		base = 67400
-	}
-	uv0.weapon_property_141[67402] = {
-		id = 67402,
-		damage = 86,
-		base = 67400
-	}
-	uv0.weapon_property_141[67403] = {
-		id = 67403,
-		damage = 106,
-		base = 67400
-	}
-	uv0.weapon_property_141[67404] = {
-		id = 67404,
-		damage = 124,
-		base = 67400
-	}
-	uv0.weapon_property_141[67405] = {
-		id = 67405,
-		damage = 144,
-		base = 67400
-	}
-	uv0.weapon_property_141[67406] = {
-		id = 67406,
-		damage = 164,
-		base = 67400
-	}
-	uv0.weapon_property_141[67407] = {
-		id = 67407,
-		damage = 182,
-		base = 67400
-	}
-	uv0.weapon_property_141[67408] = {
-		id = 67408,
-		damage = 202,
-		base = 67400
-	}
-	uv0.weapon_property_141[67409] = {
-		id = 67409,
-		damage = 220,
-		base = 67400
-	}
-	uv0.weapon_property_141[67410] = {
-		id = 67410,
-		damage = 240,
-		base = 67400
-	}
-	uv0.weapon_property_141[67420] = {
-		action_index = "",
-		range = 90,
+	uv0.weapon_property_141[67581] = {
+		action_index = "attack",
+		range = 80,
 		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "蜜月爆炸Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 120,
+		charge_param = "",
+		damage = 68,
+		corrected = 245,
+		min_range = 0,
+		id = 67581,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19957
+		},
+		barrage_ID = {
+			80520
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_141[67582] = {
+		id = 67582,
+		name = "蜜月爆炸Lv2",
+		damage = 80,
+		base = 67581
+	}
+	uv0.weapon_property_141[67583] = {
+		id = 67583,
+		name = "蜜月爆炸Lv3",
+		damage = 92,
+		base = 67581
+	}
+	uv0.weapon_property_141[67584] = {
+		id = 67584,
+		name = "蜜月爆炸Lv4",
+		damage = 104,
+		base = 67581
+	}
+	uv0.weapon_property_141[67585] = {
+		id = 67585,
+		name = "蜜月爆炸Lv5",
+		damage = 116,
+		base = 67581
+	}
+	uv0.weapon_property_141[67586] = {
+		id = 67586,
+		name = "蜜月爆炸Lv6",
+		damage = 128,
+		base = 67581
+	}
+	uv0.weapon_property_141[67587] = {
+		id = 67587,
+		name = "蜜月爆炸Lv7",
+		damage = 140,
+		base = 67581
+	}
+	uv0.weapon_property_141[67588] = {
+		id = 67588,
+		name = "蜜月爆炸Lv8",
+		damage = 152,
+		base = 67581
+	}
+	uv0.weapon_property_141[67589] = {
+		id = 67589,
+		name = "蜜月爆炸Lv9",
+		damage = 164,
+		base = 67581
+	}
+	uv0.weapon_property_141[67590] = {
+		id = 67590,
+		name = "蜜月爆炸Lv10",
+		damage = 176,
+		base = 67581
+	}
+	uv0.weapon_property_141[67601] = {
+		action_index = "attack",
+		range = 100,
+		type = 3,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "久远技能Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 2,
+		corrected = 265,
+		min_range = 0,
+		id = 67601,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 280,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19959
+		},
+		barrage_ID = {
+			80521
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_141[67602] = {
+		id = 67602,
+		name = "久远技能Lv2",
+		base = 67601
+	}
+	uv0.weapon_property_141[67603] = {
+		id = 67603,
+		name = "久远技能Lv3",
+		base = 67601
+	}
+	uv0.weapon_property_141[67604] = {
+		id = 67604,
+		name = "久远技能Lv4",
+		damage = 3,
+		base = 67601
+	}
+	uv0.weapon_property_141[67605] = {
+		id = 67605,
+		name = "久远技能Lv5",
+		damage = 3,
+		base = 67601
+	}
+	uv0.weapon_property_141[67606] = {
+		id = 67606,
+		name = "久远技能Lv6",
+		damage = 4,
+		base = 67601
+	}
+	uv0.weapon_property_141[67607] = {
+		id = 67607,
+		name = "久远技能Lv7",
+		damage = 4,
+		base = 67601
+	}
+	uv0.weapon_property_141[67608] = {
+		id = 67608,
+		name = "久远技能Lv8",
+		damage = 5,
+		base = 67601
+	}
+	uv0.weapon_property_141[67609] = {
+		id = 67609,
+		name = "久远技能Lv9",
+		damage = 6,
+		base = 67601
+	}
+	uv0.weapon_property_141[67610] = {
+		id = 67610,
+		name = "久远技能Lv10",
+		damage = 7,
+		base = 67601
+	}
+	uv0.weapon_property_141[67611] = {
+		action_index = "attack",
+		range = 60,
+		type = 2,
 		fire_fx = "",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "大青花鱼技能鱼雷LV0",
-		aim_type = 1,
+		name = "猫音技能Lv1",
+		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 60,
 		charge_param = "",
-		damage = 9,
-		corrected = 100,
+		damage = 11,
+		corrected = 118,
 		min_range = 0,
-		id = 67420,
+		id = 67611,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19960
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_141[67612] = {
+		id = 67612,
+		name = "猫音技能Lv2",
+		damage = 13,
+		base = 67611
+	}
+	uv0.weapon_property_141[67613] = {
+		id = 67613,
+		name = "猫音技能Lv3",
+		damage = 16,
+		base = 67611
+	}
+	uv0.weapon_property_141[67614] = {
+		id = 67614,
+		name = "猫音技能Lv4",
+		damage = 20,
+		base = 67611
+	}
+	uv0.weapon_property_141[67615] = {
+		id = 67615,
+		name = "猫音技能Lv5",
+		damage = 25,
+		base = 67611
+	}
+	uv0.weapon_property_141[67616] = {
+		id = 67616,
+		name = "猫音技能Lv6",
+		damage = 30,
+		base = 67611
+	}
+	uv0.weapon_property_141[67617] = {
+		id = 67617,
+		name = "猫音技能Lv7",
+		damage = 36,
+		base = 67611
+	}
+	uv0.weapon_property_141[67618] = {
+		id = 67618,
+		name = "猫音技能Lv8",
+		damage = 42,
+		base = 67611
+	}
+	uv0.weapon_property_141[67619] = {
+		id = 67619,
+		name = "猫音技能Lv9",
+		damage = 49,
+		base = 67611
+	}
+	uv0.weapon_property_141[67620] = {
+		id = 67620,
+		name = "猫音技能Lv10",
+		damage = 56,
+		base = 67611
+	}
+	uv0.weapon_property_141[67621] = {
+		action_index = "attack",
+		range = 100,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "露露缇耶技能4段Lv1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 50,
+		corrected = 300,
+		min_range = 0,
+		id = 67621,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -177,10 +425,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19951
+			19961
 		},
 		barrage_ID = {
-			80501
+			2120
 		},
 		oxy_type = {
 			1
@@ -190,109 +438,82 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_141[67421] = {
-		id = 67421,
-		name = "大青花鱼技能鱼雷LV1",
-		damage = 12,
-		base = 67420
+	uv0.weapon_property_141[67622] = {
+		id = 67622,
+		name = "露露缇耶技能4段Lv2",
+		damage = 56,
+		base = 67621
 	}
-	uv0.weapon_property_141[67422] = {
-		id = 67422,
-		name = "大青花鱼技能鱼雷LV2",
-		damage = 15,
-		base = 67420
+	uv0.weapon_property_141[67623] = {
+		id = 67623,
+		name = "露露缇耶技能4段Lv3",
+		damage = 62,
+		base = 67621
 	}
-	uv0.weapon_property_141[67423] = {
-		id = 67423,
-		name = "大青花鱼技能鱼雷LV3",
-		damage = 18,
-		base = 67420
+	uv0.weapon_property_141[67624] = {
+		id = 67624,
+		name = "露露缇耶技能4段Lv4",
+		damage = 70,
+		base = 67621
 	}
-	uv0.weapon_property_141[67424] = {
-		name = "大青花鱼技能鱼雷LV4",
-		damage = 21,
-		base = 67420,
-		id = 67424,
-		barrage_ID = {
-			80502
-		}
+	uv0.weapon_property_141[67625] = {
+		id = 67625,
+		name = "露露缇耶技能4段Lv5",
+		damage = 78,
+		base = 67621
 	}
-	uv0.weapon_property_141[67425] = {
-		name = "大青花鱼技能鱼雷LV5",
-		damage = 24,
-		base = 67420,
-		id = 67425,
-		barrage_ID = {
-			80502
-		}
+	uv0.weapon_property_141[67626] = {
+		id = 67626,
+		name = "露露缇耶技能4段Lv6",
+		damage = 90,
+		base = 67621
 	}
-	uv0.weapon_property_141[67426] = {
-		name = "大青花鱼技能鱼雷LV6",
-		damage = 27,
-		base = 67420,
-		id = 67426,
-		barrage_ID = {
-			80502
-		}
+	uv0.weapon_property_141[67627] = {
+		id = 67627,
+		name = "露露缇耶技能4段Lv7",
+		damage = 100,
+		base = 67621
 	}
-	uv0.weapon_property_141[67427] = {
-		name = "大青花鱼技能鱼雷LV7",
-		damage = 30,
-		base = 67420,
-		id = 67427,
-		barrage_ID = {
-			80502
-		}
+	uv0.weapon_property_141[67628] = {
+		id = 67628,
+		name = "露露缇耶技能4段Lv8",
+		damage = 110,
+		base = 67621
 	}
-	uv0.weapon_property_141[67428] = {
-		name = "大青花鱼技能鱼雷LV8",
-		damage = 33,
-		base = 67420,
-		id = 67428,
-		barrage_ID = {
-			80503
-		}
+	uv0.weapon_property_141[67629] = {
+		id = 67629,
+		name = "露露缇耶技能4段Lv9",
+		damage = 125,
+		base = 67621
 	}
-	uv0.weapon_property_141[67429] = {
-		name = "大青花鱼技能鱼雷LV9",
-		damage = 36,
-		base = 67420,
-		id = 67429,
-		barrage_ID = {
-			80503
-		}
+	uv0.weapon_property_141[67630] = {
+		id = 67630,
+		name = "露露缇耶技能4段Lv10",
+		damage = 140,
+		base = 67621
 	}
-	uv0.weapon_property_141[67430] = {
-		name = "大青花鱼技能鱼雷LV10",
-		damage = 40,
-		base = 67420,
-		id = 67430,
-		barrage_ID = {
-			80503
-		}
-	}
-	uv0.weapon_property_141[67440] = {
-		action_index = "",
-		range = 75,
+	uv0.weapon_property_141[67631] = {
+		action_index = "attack",
+		range = 100,
 		type = 3,
 		fire_fx = "",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "4 x 机载鱼雷-埃塞克斯",
+		name = "露露缇耶技能鱼雷1段Lv1",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 24,
+		angle = 60,
 		charge_param = "",
-		damage = 99,
-		corrected = 100,
+		damage = 12,
+		corrected = 115,
 		min_range = 0,
-		id = 67440,
+		id = 67631,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
+		attack_attribute = 2,
+		reload_max = 3000,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
@@ -302,10 +523,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19952
+			19962
 		},
 		barrage_ID = {
-			2113
+			1402
 		},
 		oxy_type = {
 			1
@@ -315,212 +536,58 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_141[67441] = {
-		id = 67441,
-		damage = 120,
-		base = 67440
+	uv0.weapon_property_141[67632] = {
+		id = 67632,
+		name = "露露缇耶技能鱼雷1段Lv2",
+		damage = 16,
+		base = 67631
 	}
-	uv0.weapon_property_141[67442] = {
-		id = 67442,
-		damage = 139,
-		base = 67440
+	uv0.weapon_property_141[67633] = {
+		id = 67633,
+		name = "露露缇耶技能鱼雷1段Lv3",
+		damage = 20,
+		base = 67631
 	}
-	uv0.weapon_property_141[67443] = {
-		id = 67443,
-		damage = 160,
-		base = 67440
+	uv0.weapon_property_141[67634] = {
+		id = 67634,
+		name = "露露缇耶技能鱼雷1段Lv4",
+		damage = 24,
+		base = 67631
 	}
-	uv0.weapon_property_141[67444] = {
-		id = 67444,
-		damage = 179,
-		base = 67440
+	uv0.weapon_property_141[67635] = {
+		id = 67635,
+		name = "露露缇耶技能鱼雷1段Lv5",
+		damage = 27,
+		base = 67631
 	}
-	uv0.weapon_property_141[67445] = {
-		id = 67445,
-		damage = 200,
-		base = 67440
+	uv0.weapon_property_141[67636] = {
+		id = 67636,
+		name = "露露缇耶技能鱼雷1段Lv6",
+		damage = 30,
+		base = 67631
 	}
-	uv0.weapon_property_141[67446] = {
-		id = 67446,
-		damage = 221,
-		base = 67440
+	uv0.weapon_property_141[67637] = {
+		id = 67637,
+		name = "露露缇耶技能鱼雷1段Lv7",
+		damage = 33,
+		base = 67631
 	}
-	uv0.weapon_property_141[67447] = {
-		id = 67447,
-		damage = 240,
-		base = 67440
+	uv0.weapon_property_141[67638] = {
+		id = 67638,
+		name = "露露缇耶技能鱼雷1段Lv8",
+		damage = 36,
+		base = 67631
 	}
-	uv0.weapon_property_141[67448] = {
-		id = 67448,
-		damage = 261,
-		base = 67440
+	uv0.weapon_property_141[67639] = {
+		id = 67639,
+		name = "露露缇耶技能鱼雷1段Lv9",
+		damage = 38,
+		base = 67631
 	}
-	uv0.weapon_property_141[67449] = {
-		id = 67449,
-		damage = 280,
-		base = 67440
-	}
-	uv0.weapon_property_141[67450] = {
-		id = 67450,
-		damage = 301,
-		base = 67440
-	}
-	uv0.weapon_property_141[67460] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "大黄蜂技能专用武器-随机位置",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 180,
-		charge_param = "",
-		damage = 68,
-		corrected = 100,
-		min_range = 0,
-		id = 67460,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 2400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19953
-		},
-		barrage_ID = {
-			60001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_141[67461] = {
-		id = 67461,
-		damage = 83,
-		base = 67460
-	}
-	uv0.weapon_property_141[67462] = {
-		id = 67462,
-		damage = 98,
-		base = 67460
-	}
-	uv0.weapon_property_141[67463] = {
-		id = 67463,
-		damage = 113,
-		base = 67460
-	}
-	uv0.weapon_property_141[67464] = {
-		id = 67464,
-		damage = 128,
-		base = 67460
-	}
-	uv0.weapon_property_141[67465] = {
-		id = 67465,
-		damage = 143,
-		base = 67460
-	}
-	uv0.weapon_property_141[67466] = {
-		id = 67466,
-		damage = 158,
-		base = 67460
-	}
-	uv0.weapon_property_141[67467] = {
-		id = 67467,
-		damage = 174,
-		base = 67460
-	}
-	uv0.weapon_property_141[67468] = {
-		id = 67468,
-		damage = 190,
-		base = 67460
-	}
-	uv0.weapon_property_141[67469] = {
-		id = 67469,
-		damage = 206,
-		base = 67460
-	}
-	uv0.weapon_property_141[67470] = {
-		id = 67470,
-		damage = 222,
-		base = 67460
-	}
-	uv0.weapon_property_141[67480] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "大黄蜂技能专用武器-固定位置",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 68,
-		corrected = 100,
-		min_range = 0,
-		id = 67480,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 2400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19954
-		},
-		barrage_ID = {
-			10001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_141[67481] = {
-		id = 67481,
-		damage = 83,
-		base = 67480
-	}
-	uv0.weapon_property_141[67482] = {
-		id = 67482,
-		damage = 98,
-		base = 67480
-	}
-	uv0.weapon_property_141[67483] = {
-		id = 67483,
-		damage = 113,
-		base = 67480
-	}
-	uv0.weapon_property_141[67484] = {
-		id = 67484,
-		damage = 128,
-		base = 67480
+	uv0.weapon_property_141[67640] = {
+		id = 67640,
+		name = "露露缇耶技能鱼雷1段Lv10",
+		damage = 40,
+		base = 67631
 	}
 end()

@@ -1,56 +1,37 @@
 pg = pg or {}
 pg.aircraft_template_164 = {
-	[66588] = {
-		max_hp = 99,
-		name = "宝石枪雨LV8",
-		base = 66580,
-		id = 66588,
-		hp_growth = 3843,
+	[67800] = {
+		max_hp = 98,
+		name = "双龙改雷1 Lv10",
+		base = 67791,
+		id = 67800,
+		hp_growth = 3678,
 		weapon_ID = {
-			66628
+			67830
 		}
 	},
-	[66589] = {
-		max_hp = 107,
-		name = "宝石枪雨LV9",
-		base = 66580,
-		id = 66589,
-		hp_growth = 4139,
-		weapon_ID = {
-			66629
-		}
-	},
-	[66590] = {
-		max_hp = 115,
-		name = "宝石枪雨LV10",
-		base = 66580,
-		id = 66590,
-		hp_growth = 4435,
-		weapon_ID = {
-			66630
-		}
-	},
-	[66820] = {
-		name = "飞鹰隼鹰技能Lv0",
-		max_hp = 24,
+	[67891] = {
+		name = "追赶者剑鱼 Lv1",
+		max_hp = 40,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "jianyu816",
 		ACC_growth = 0,
-		crash_DMG = 148,
+		crash_DMG = 102,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 3,
 		AP_growth = 2000,
-		icon = "97jiangong",
+		icon = "jianyu816",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 924,
-		speed = 48,
-		id = 66820,
+		nationality = 0,
+		hp_growth = 1538,
+		speed = 45,
+		id = 67891,
 		scale = 1,
 		weapon_ID = {
-			66840
+			67901,
+			67911
 		},
 		position_offset = {
 			0,
@@ -70,13 +51,13 @@ pg.aircraft_template_164 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					1.03,
+					-1.43,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					1.01,
+					1.43,
 					0
 				}
 			}
@@ -93,7 +74,7 @@ pg.aircraft_template_164 = {
 				0
 			},
 			{
-				0.54,
+				0.52,
 				0,
 				0
 			},
@@ -104,54 +85,92 @@ pg.aircraft_template_164 = {
 			}
 		}
 	},
-	[66821] = {
-		max_hp = 27,
-		name = "飞鹰隼鹰技能Lv1",
-		base = 66820,
-		id = 66821,
-		hp_growth = 1051,
+	[67892] = {
+		max_hp = 45,
+		name = "追赶者剑鱼 Lv2",
+		base = 67891,
+		id = 67892,
+		hp_growth = 1739,
 		weapon_ID = {
-			66841
+			67902,
+			67912
 		}
 	},
-	[66822] = {
-		max_hp = 30,
-		name = "飞鹰隼鹰技能Lv2",
-		base = 66820,
-		id = 66822,
-		hp_growth = 1178,
+	[67893] = {
+		max_hp = 50,
+		name = "追赶者剑鱼 Lv3",
+		base = 67891,
+		id = 67893,
+		hp_growth = 1940,
 		weapon_ID = {
-			66842
+			67903,
+			67913
 		}
 	},
-	[66823] = {
-		max_hp = 33,
-		name = "飞鹰隼鹰技能Lv3",
-		base = 66820,
-		id = 66823,
-		hp_growth = 1305,
+	[67894] = {
+		max_hp = 56,
+		name = "追赶者剑鱼 Lv4",
+		base = 67891,
+		id = 67894,
+		hp_growth = 2140,
 		weapon_ID = {
-			66843
+			67904,
+			67914
 		}
 	},
-	[66824] = {
-		max_hp = 37,
-		name = "飞鹰隼鹰技能Lv4",
-		base = 66820,
-		id = 66824,
-		hp_growth = 1432,
+	[67895] = {
+		max_hp = 61,
+		name = "追赶者剑鱼 Lv5",
+		base = 67891,
+		id = 67895,
+		hp_growth = 2341,
 		weapon_ID = {
-			66844
+			67905,
+			67915
 		}
 	},
-	[66825] = {
-		max_hp = 40,
-		name = "飞鹰隼鹰技能Lv5",
-		base = 66820,
-		id = 66825,
-		hp_growth = 1559,
+	[67896] = {
+		max_hp = 66,
+		name = "追赶者剑鱼 Lv6",
+		base = 67891,
+		id = 67896,
+		hp_growth = 2541,
 		weapon_ID = {
-			66845
+			67906,
+			67916
+		}
+	},
+	[67897] = {
+		max_hp = 71,
+		name = "追赶者剑鱼 Lv7",
+		base = 67891,
+		id = 67897,
+		hp_growth = 2742,
+		weapon_ID = {
+			67907,
+			67917
+		}
+	},
+	[67898] = {
+		max_hp = 77,
+		name = "追赶者剑鱼 Lv8",
+		base = 67891,
+		id = 67898,
+		hp_growth = 2943,
+		weapon_ID = {
+			67908,
+			67918
+		}
+	},
+	[67899] = {
+		max_hp = 82,
+		name = "追赶者剑鱼 Lv9",
+		base = 67891,
+		id = 67899,
+		hp_growth = 3143,
+		weapon_ID = {
+			67909,
+			67919
 		}
 	}
 }

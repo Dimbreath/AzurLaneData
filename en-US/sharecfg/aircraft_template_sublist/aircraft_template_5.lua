@@ -1,41 +1,5 @@
 pg = pg or {}
 pg.aircraft_template_5 = {
-	[4242] = {
-		id = 4242,
-		base = 4240,
-		max_hp = 45,
-		hp_growth = 1739,
-		weapon_ID = {
-			53142
-		}
-	},
-	[4243] = {
-		id = 4243,
-		base = 4240,
-		max_hp = 50,
-		hp_growth = 1940,
-		weapon_ID = {
-			53143
-		}
-	},
-	[4244] = {
-		id = 4244,
-		base = 4240,
-		max_hp = 56,
-		hp_growth = 2140,
-		weapon_ID = {
-			53144
-		}
-	},
-	[4245] = {
-		id = 4245,
-		base = 4240,
-		max_hp = 61,
-		hp_growth = 2341,
-		weapon_ID = {
-			53145
-		}
-	},
 	[4246] = {
 		id = 4246,
 		base = 4240,
@@ -79,6 +43,116 @@ pg.aircraft_template_5 = {
 		hp_growth = 3344,
 		weapon_ID = {
 			53150
+		}
+	},
+	[4251] = {
+		id = 4251,
+		base = 4240,
+		max_hp = 92,
+		hp_growth = 3545,
+		weapon_ID = {
+			53151
+		}
+	},
+	[4300] = {
+		name = "TBM-3复仇者",
+		max_hp = 30,
+		accuracy = 23,
+		model_ID = "tbm-3",
+		ACC_growth = 0,
+		crash_DMG = 135,
+		dodge = 1.19,
+		attack_power = 2,
+		dodge_limit = 4,
+		type = 3,
+		AP_growth = 2000,
+		icon = "tbm-3",
+		funnel_behavior = "",
+		nationality = 0,
+		hp_growth = 1149,
+		speed = 48,
+		id = 4300,
+		scale = 1,
+		weapon_ID = {
+			53200
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.85,
+					-1.39,
+					0
+				},
+				{
+					1.08,
+					1.64,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.15,
+				-0.08,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[4301] = {
+		id = 4301,
+		base = 4300,
+		max_hp = 34,
+		hp_growth = 1321,
+		weapon_ID = {
+			53201
+		}
+	},
+	[4302] = {
+		id = 4302,
+		base = 4300,
+		max_hp = 39,
+		hp_growth = 1494,
+		weapon_ID = {
+			53202
+		}
+	},
+	[4303] = {
+		id = 4303,
+		base = 4300,
+		max_hp = 43,
+		hp_growth = 1666,
+		weapon_ID = {
+			53203
 		}
 	}
 }

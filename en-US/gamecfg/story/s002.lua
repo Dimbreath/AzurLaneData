@@ -40,10 +40,11 @@ return {
 			}
 		},
 		{
-			actor = 900009,
-			nameColor = "#ff0000",
-			actorName = "？？？？？",
 			side = 2,
+			nameColor = "#ff0000",
+			actorAlpha = 0,
+			actor = 900009,
+			actorName = "？？？？？",
 			say = "Hehehe... So there was an ambush after all! Looking for us?",
 			shake = {
 				speed = 1,
@@ -96,10 +97,11 @@ return {
 			}
 		},
 		{
-			actor = 900009,
-			actorName = "？？？？？",
-			nameColor = "#ff0000",
 			side = 1,
+			actorName = "？？？？？",
+			actorAlpha = 0,
+			actor = 900009,
+			nameColor = "#ff0000",
 			say = "Haha~! Two puny cruisers? Getting ready to attack? Hah! I suppose I'll try to enjoy this as much as I can~!",
 			shake = {
 				speed = 1,
@@ -110,7 +112,7 @@ return {
 				speedUp = 0.01
 			},
 			painting = {
-				alpha = 0.3,
+				alpha = 0,
 				time = 0.5
 			}
 		},

@@ -1,27 +1,36 @@
 pg = pg or {}
 pg.aircraft_template_81 = {
-	[29000] = {
-		name = "贼鸥",
-		max_hp = 29,
+	[29333] = {
+		id = 29333,
+		base = 29320,
+		max_hp = 112,
+		hp_growth = 4305,
+		weapon_ID = {
+			50053,
+			53293
+		}
+	},
+	[37000] = {
+		name = "96式舰战",
+		max_hp = 27,
 		accuracy = 23,
-		model_ID = "zeiou",
+		model_ID = "96jiangong",
 		ACC_growth = 0,
-		crash_DMG = 156,
-		dodge = 3.75,
+		crash_DMG = 86,
+		dodge = 0.357,
 		attack_power = 2,
-		dodge_limit = 0.8,
-		type = 3,
+		dodge_limit = 7,
+		type = 1,
 		AP_growth = 2000,
-		icon = "zeiou",
+		icon = "96jiangong",
 		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1126,
-		speed = 45,
-		id = 29000,
+		nationality = 3,
+		hp_growth = 1021,
+		speed = 48,
+		id = 37000,
 		scale = 1,
 		weapon_ID = {
-			50100,
-			52200
+			50000
 		},
 		position_offset = {
 			0,
@@ -41,13 +50,13 @@ pg.aircraft_template_81 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -64,8 +73,8 @@ pg.aircraft_template_81 = {
 				0
 			},
 			{
-				0.37,
-				0,
+				0.72,
+				-0.15,
 				0
 			},
 			{
@@ -75,58 +84,155 @@ pg.aircraft_template_81 = {
 			}
 		}
 	},
-	[29001] = {
-		id = 29001,
-		base = 29000,
+	[37001] = {
+		id = 37001,
+		base = 37000,
+		max_hp = 31,
+		hp_growth = 1175,
+		weapon_ID = {
+			50001
+		}
+	},
+	[37002] = {
+		id = 37002,
+		base = 37000,
+		max_hp = 35,
+		hp_growth = 1328,
+		weapon_ID = {
+			50002
+		}
+	},
+	[37003] = {
+		id = 37003,
+		base = 37000,
+		max_hp = 39,
+		hp_growth = 1481,
+		weapon_ID = {
+			50003
+		}
+	},
+	[37020] = {
+		name = "96式舰战",
+		max_hp = 30,
+		accuracy = 23,
+		model_ID = "96jiangong",
+		ACC_growth = 0,
+		crash_DMG = 86,
+		dodge = 0.345,
+		attack_power = 2,
+		dodge_limit = 7.5,
+		type = 1,
+		AP_growth = 2000,
+		icon = "96jiangong",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1149,
+		speed = 48,
+		id = 37020,
+		scale = 1,
+		weapon_ID = {
+			50020
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[37021] = {
+		id = 37021,
+		base = 37020,
 		max_hp = 34,
-		hp_growth = 1295,
+		hp_growth = 1321,
 		weapon_ID = {
-			50101,
-			52201
+			50021
 		}
 	},
-	[29002] = {
-		id = 29002,
-		base = 29000,
-		max_hp = 38,
-		hp_growth = 1464,
+	[37022] = {
+		id = 37022,
+		base = 37020,
+		max_hp = 39,
+		hp_growth = 1494,
 		weapon_ID = {
-			50102,
-			52202
+			50022
 		}
 	},
-	[29003] = {
-		id = 29003,
-		base = 29000,
-		max_hp = 42,
-		hp_growth = 1633,
+	[37023] = {
+		id = 37023,
+		base = 37020,
+		max_hp = 43,
+		hp_growth = 1666,
 		weapon_ID = {
-			50103,
-			52203
+			50023
 		}
 	},
-	[29020] = {
-		name = "贼鸥",
+	[37040] = {
+		name = "96式舰战",
 		max_hp = 33,
 		accuracy = 23,
-		model_ID = "zeiou",
+		model_ID = "96jiangong",
 		ACC_growth = 0,
-		crash_DMG = 156,
-		dodge = 3.63,
+		crash_DMG = 86,
+		dodge = 0.333,
 		attack_power = 2,
-		dodge_limit = 0.9,
-		type = 3,
+		dodge_limit = 8,
+		type = 1,
 		AP_growth = 2000,
-		icon = "zeiou",
+		icon = "96jiangong",
 		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1267,
-		speed = 45,
-		id = 29020,
+		nationality = 3,
+		hp_growth = 1277,
+		speed = 48,
+		id = 37040,
 		scale = 1,
 		weapon_ID = {
-			50120,
-			52220
+			50040
 		},
 		position_offset = {
 			0,
@@ -146,13 +252,13 @@ pg.aircraft_template_81 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -169,113 +275,8 @@ pg.aircraft_template_81 = {
 				0
 			},
 			{
-				0.37,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[29021] = {
-		id = 29021,
-		base = 29020,
-		max_hp = 38,
-		hp_growth = 1457,
-		weapon_ID = {
-			50121,
-			52221
-		}
-	},
-	[29022] = {
-		id = 29022,
-		base = 29020,
-		max_hp = 43,
-		hp_growth = 1647,
-		weapon_ID = {
-			50122,
-			52222
-		}
-	},
-	[29023] = {
-		id = 29023,
-		base = 29020,
-		max_hp = 48,
-		hp_growth = 1837,
-		weapon_ID = {
-			50123,
-			52223
-		}
-	},
-	[29040] = {
-		name = "贼鸥",
-		max_hp = 37,
-		accuracy = 23,
-		model_ID = "zeiou",
-		ACC_growth = 0,
-		crash_DMG = 156,
-		dodge = 3.51,
-		attack_power = 2,
-		dodge_limit = 1,
-		type = 3,
-		AP_growth = 2000,
-		icon = "zeiou",
-		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1408,
-		speed = 45,
-		id = 29040,
-		scale = 1,
-		weapon_ID = {
-			50140,
-			52240
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.37,
-				0,
+				0.72,
+				-0.15,
 				0
 			},
 			{

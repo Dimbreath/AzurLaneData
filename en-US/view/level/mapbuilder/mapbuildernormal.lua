@@ -59,7 +59,19 @@ function slot1.OnInit(slot0)
 	slot0.itemHolder = slot0._tf:Find("items")
 end
 
+function slot1.OnShow(slot0)
+	setActive(slot0.sceneParent.mainLayer:Find("title_chapter_lines"), true)
+	setActive(slot0.sceneParent.topChapter:Find("title_chapter"), true)
+	setActive(slot0.sceneParent.topChapter:Find("type_chapter"), true)
+end
+
 function slot1.OnHide(slot0)
+	setActive(slot0.sceneParent.mainLayer:Find("title_chapter_lines"), false)
+	setActive(slot0.sceneParent.topChapter:Find("title_chapter"), false)
+
+	slot4 = "type_chapter"
+
+	setActive(slot0.sceneParent.topChapter:Find(slot4), false)
 	table.clear(slot0.chaptersInBackAnimating)
 	slot0:StopMapItemTimers()
 
@@ -98,7 +110,14 @@ function slot1.Update(slot0, slot1)
 	slot0.float.pivot = Vector2(0.5, 0.5)
 	slot0.float.localPosition = Vector2(0, 0)
 
+	setText(slot0.sceneParent.chapterName, string.split(slot1:getConfig("name"), "||")[1])
+	slot0.sceneParent.loader:GetSprite("chapterno", "chapter" .. slot1:getMapTitleNumber(), slot0.sceneParent.chapterNoTitle, true)
 	uv0.super.Update(slot0, slot1)
+end
+
+function slot1.UpdateButtons(slot0)
+	slot0.sceneParent:updateDifficultyBtns()
+	slot0.sceneParent:updateActivityBtns()
 end
 
 function slot1.UpdateMapItems(slot0)

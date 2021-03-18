@@ -1,52 +1,60 @@
 pg = pg or {}
 pg.aircraft_template_190 = {
-	[68339] = {
-		max_hp = 92,
-		name = "小赤城技能飞机Lv9",
-		base = 68331,
-		id = 68339,
-		hp_growth = 3458,
+	[69718] = {
+		max_hp = 97,
+		name = "英仙座技能萤火虫Lv8",
+		base = 69711,
+		id = 69718,
+		hp_growth = 3717,
 		weapon_ID = {
-			68349,
-			68359
+			50668,
+			52748
 		}
 	},
-	[68340] = {
-		max_hp = 98,
-		name = "小赤城技能飞机Lv10",
-		base = 68331,
-		id = 68340,
-		hp_growth = 3678,
+	[69719] = {
+		max_hp = 103,
+		name = "英仙座技能萤火虫Lv9",
+		base = 69711,
+		id = 69719,
+		hp_growth = 3971,
 		weapon_ID = {
-			68350,
-			68360
+			50669,
+			52749
 		}
 	},
-	[68391] = {
-		name = "科隆改直升机Lv1",
-		max_hp = 42,
+	[69720] = {
+		max_hp = 110,
+		name = "英仙座技能萤火虫Lv10",
+		base = 69711,
+		id = 69720,
+		hp_growth = 4224,
+		weapon_ID = {
+			50670,
+			52750
+		}
+	},
+	[69751] = {
+		name = "鹰技能剑鱼 Lv1",
+		max_hp = 40,
 		accuracy = 23,
-		model_ID = "fl-282",
+		model_ID = "jianyu",
 		ACC_growth = 0,
-		crash_DMG = 180,
+		crash_DMG = 102,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 1,
+		type = 3,
 		AP_growth = 2000,
-		icon = "fl-282",
-		nationality = 4,
-		hp_growth = 1692,
-		speed = 48,
-		id = 68391,
+		icon = "jianyu",
+		funnel_behavior = "",
+		nationality = 0,
+		hp_growth = 1538,
+		speed = 45,
+		id = 69751,
 		scale = 1,
-		funnel_behavior = {
-			rear = -40,
-			exist = 10,
-			front = -40,
-			stay = 2
+		weapon_ID = {
+			69771
 		},
-		weapon_ID = {},
 		position_offset = {
 			0,
 			5,
@@ -65,13 +73,13 @@ pg.aircraft_template_190 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					1.03,
+					-1.43,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					1.01,
+					1.43,
 					0
 				}
 			}
@@ -88,7 +96,7 @@ pg.aircraft_template_190 = {
 				0
 			},
 			{
-				0,
+				0.52,
 				0,
 				0
 			},
@@ -99,46 +107,64 @@ pg.aircraft_template_190 = {
 			}
 		}
 	},
-	[68392] = {
-		id = 68392,
-		name = "科隆改直升机Lv2",
-		base = 68391,
-		max_hp = 48,
-		hp_growth = 1913
+	[69752] = {
+		max_hp = 45,
+		name = "鹰技能剑鱼 Lv2",
+		base = 69751,
+		id = 69752,
+		hp_growth = 1739,
+		weapon_ID = {
+			69772
+		}
 	},
-	[68393] = {
-		id = 68393,
-		name = "科隆改直升机Lv3",
-		base = 68391,
-		max_hp = 54,
-		hp_growth = 2133
+	[69753] = {
+		max_hp = 50,
+		name = "鹰技能剑鱼 Lv3",
+		base = 69751,
+		id = 69753,
+		hp_growth = 1940,
+		weapon_ID = {
+			69773
+		}
 	},
-	[68394] = {
-		id = 68394,
-		name = "科隆改直升机Lv4",
-		base = 68391,
+	[69754] = {
+		max_hp = 56,
+		name = "鹰技能剑鱼 Lv4",
+		base = 69751,
+		id = 69754,
+		hp_growth = 2140,
+		weapon_ID = {
+			69774
+		}
+	},
+	[69755] = {
 		max_hp = 61,
-		hp_growth = 2354
+		name = "鹰技能剑鱼 Lv5",
+		base = 69751,
+		id = 69755,
+		hp_growth = 2341,
+		weapon_ID = {
+			69775
+		}
 	},
-	[68395] = {
-		id = 68395,
-		name = "科隆改直升机Lv5",
-		base = 68391,
-		max_hp = 67,
-		hp_growth = 2575
+	[69756] = {
+		max_hp = 66,
+		name = "鹰技能剑鱼 Lv6",
+		base = 69751,
+		id = 69756,
+		hp_growth = 2541,
+		weapon_ID = {
+			69776
+		}
 	},
-	[68396] = {
-		id = 68396,
-		name = "科隆改直升机Lv6",
-		base = 68391,
-		max_hp = 73,
-		hp_growth = 2796
-	},
-	[68397] = {
-		id = 68397,
-		name = "科隆改直升机Lv7",
-		base = 68391,
-		max_hp = 79,
-		hp_growth = 3016
+	[69757] = {
+		max_hp = 71,
+		name = "鹰技能剑鱼 Lv7",
+		base = 69751,
+		id = 69757,
+		hp_growth = 2742,
+		weapon_ID = {
+			69777
+		}
 	}
 }

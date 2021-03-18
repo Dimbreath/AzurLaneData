@@ -1,60 +1,61 @@
 pg = pg or {}
 pg.aircraft_template_192 = {
-	[68547] = {
-		max_hp = 79,
-		name = "伊25技能零侦LV7",
-		base = 68541,
-		id = 68547,
-		hp_growth = 2879,
-		weapon_ID = {}
+	[69928] = {
+		max_hp = 82,
+		name = "信浓技能试制紫电改二 LV8",
+		base = 69921,
+		id = 69928,
+		hp_growth = 3141,
+		weapon_ID = {
+			59548,
+			69968
+		}
 	},
-	[68548] = {
-		max_hp = 86,
-		name = "伊25技能零侦LV8",
-		base = 68541,
-		id = 68548,
-		hp_growth = 3090,
-		weapon_ID = {}
+	[69929] = {
+		max_hp = 88,
+		name = "信浓技能试制紫电改二 LV9",
+		base = 69921,
+		id = 69929,
+		hp_growth = 3371,
+		weapon_ID = {
+			59549,
+			69969
+		}
 	},
-	[68549] = {
-		max_hp = 92,
-		name = "伊25技能零侦LV9",
-		base = 68541,
-		id = 68549,
-		hp_growth = 3301,
-		weapon_ID = {}
+	[69930] = {
+		max_hp = 94,
+		name = "信浓技能试制紫电改二 LV10",
+		base = 69921,
+		id = 69930,
+		hp_growth = 3601,
+		weapon_ID = {
+			59550,
+			69970
+		}
 	},
-	[68550] = {
-		max_hp = 98,
-		name = "伊25技能零侦LV10",
-		base = 68541,
-		id = 68550,
-		hp_growth = 3511,
-		weapon_ID = {}
-	},
-	[68621] = {
-		name = "巴丹技能F6FLV1",
-		max_hp = 51,
+	[69931] = {
+		name = "信浓技能流星 LV1",
+		max_hp = 41,
 		accuracy = 23,
-		model_ID = "f6f",
+		model_ID = "liuxing",
 		ACC_growth = 0,
-		crash_DMG = 156,
-		dodge = 0.315,
+		crash_DMG = 188,
+		dodge = 1.05,
 		attack_power = 2,
-		dodge_limit = 11,
-		type = 1,
+		dodge_limit = 5,
+		type = 2,
 		AP_growth = 2000,
-		icon = "f6f",
+		icon = "liuxing",
 		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1947,
-		speed = 50,
-		id = 68621,
+		nationality = 2,
+		hp_growth = 1594,
+		speed = 52,
+		id = 69931,
 		scale = 1,
 		weapon_ID = {
-			50341,
 			50541,
-			68631
+			50841,
+			51461
 		},
 		position_offset = {
 			0,
@@ -74,13 +75,13 @@ pg.aircraft_template_192 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.28,
-					1.62,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					-1.12,
-					-1,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -97,7 +98,7 @@ pg.aircraft_template_192 = {
 				0
 			},
 			{
-				0,
+				0.26,
 				0,
 				0
 			},
@@ -108,52 +109,76 @@ pg.aircraft_template_192 = {
 			}
 		}
 	},
-	[68622] = {
-		max_hp = 57,
-		name = "巴丹技能F6FLV2",
-		base = 68621,
-		id = 68622,
-		hp_growth = 2201,
+	[69932] = {
+		max_hp = 47,
+		name = "信浓技能流星 LV2",
+		base = 69931,
+		id = 69932,
+		hp_growth = 1802,
 		weapon_ID = {
-			50342,
 			50542,
-			68632
+			50842,
+			51462
 		}
 	},
-	[68623] = {
-		max_hp = 64,
-		name = "巴丹技能F6FLV3",
-		base = 68621,
-		id = 68623,
-		hp_growth = 2455,
+	[69933] = {
+		max_hp = 52,
+		name = "信浓技能流星 LV3",
+		base = 69931,
+		id = 69933,
+		hp_growth = 2010,
 		weapon_ID = {
-			50343,
 			50543,
-			68633
+			50843,
+			51463
 		}
 	},
-	[68624] = {
-		max_hp = 70,
-		name = "巴丹技能F6FLV4",
-		base = 68621,
-		id = 68624,
-		hp_growth = 2710,
+	[69934] = {
+		max_hp = 58,
+		name = "信浓技能流星 LV4",
+		base = 69931,
+		id = 69934,
+		hp_growth = 2218,
 		weapon_ID = {
-			50344,
 			50544,
-			68634
+			50844,
+			51464
 		}
 	},
-	[68625] = {
-		max_hp = 77,
-		name = "巴丹技能F6FLV5",
-		base = 68621,
-		id = 68625,
-		hp_growth = 2964,
+	[69935] = {
+		max_hp = 63,
+		name = "信浓技能流星 LV5",
+		base = 69931,
+		id = 69935,
+		hp_growth = 2426,
 		weapon_ID = {
-			50345,
 			50545,
-			68635
+			50845,
+			51465
+		}
+	},
+	[69936] = {
+		max_hp = 68,
+		name = "信浓技能流星 LV6",
+		base = 69931,
+		id = 69936,
+		hp_growth = 2634,
+		weapon_ID = {
+			50546,
+			50846,
+			51466
+		}
+	},
+	[69937] = {
+		max_hp = 74,
+		name = "信浓技能流星 LV7",
+		base = 69931,
+		id = 69937,
+		hp_growth = 2842,
+		weapon_ID = {
+			50547,
+			50847,
+			51467
 		}
 	}
 }

@@ -69,10 +69,83 @@ pg.ship_meta_breakout = {
 		level = 0,
 		weapon_ids = {}
 	},
+	[9707021] = {
+		breakout_view = "Learn skill Ashen Might/All Torpedo Bombers +1/Torpedo Bomber efficiency +3%",
+		item2 = 21002,
+		pre_id = 0,
+		repair = 0,
+		gold = 1000,
+		breakout_id = 9707022,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9707021,
+		item1 = 21002,
+		level = 10,
+		weapon_ids = {
+			60101,
+			54014
+		}
+	},
+	[9707022] = {
+		breakout_view = "Hangar capacity +1/All Dive Bombers +1/Torpedo Bomber efficiency +5%",
+		item2 = 21002,
+		pre_id = 9707021,
+		repair = 0,
+		gold = 3000,
+		breakout_id = 9707023,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9707022,
+		item1 = 21002,
+		level = 30,
+		weapon_ids = {
+			60102,
+			54014,
+			60102,
+			54014
+		}
+	},
+	[9707023] = {
+		breakout_view = "Improve skill Ashen Might/All Torpedo Bombers +1/Torpedo Bomber efficiency +7%",
+		item2 = 21002,
+		pre_id = 9707022,
+		repair = 0,
+		gold = 10000,
+		breakout_id = 9707024,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9707023,
+		item1 = 21002,
+		level = 70,
+		weapon_ids = {
+			60103,
+			54015,
+			60103,
+			54015
+		}
+	},
+	[9707024] = {
+		breakout_view = "N/A",
+		item2 = 21002,
+		pre_id = 9707023,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9707024,
+		item1 = 21002,
+		level = 0,
+		weapon_ids = {}
+	},
 	all = {
 		9707011,
 		9707012,
 		9707013,
-		9707014
+		9707014,
+		9707021,
+		9707022,
+		9707023,
+		9707024
 	}
 }

@@ -1,77 +1,27 @@
 pg = pg or {}
 pg.aircraft_template_32 = {
-	[18122] = {
-		id = 18122,
-		base = 18120,
-		max_hp = 43,
-		hp_growth = 1660,
-		weapon_ID = {
-			50022,
-			51122
-		}
-	},
-	[18123] = {
-		id = 18123,
-		base = 18120,
-		max_hp = 48,
-		hp_growth = 1851,
-		weapon_ID = {
-			50023,
-			51123
-		}
-	},
-	[18124] = {
-		id = 18124,
-		base = 18120,
-		max_hp = 53,
-		hp_growth = 2043,
-		weapon_ID = {
-			50024,
-			51124
-		}
-	},
-	[18125] = {
-		id = 18125,
-		base = 18120,
-		max_hp = 58,
-		hp_growth = 2234,
-		weapon_ID = {
-			50025,
-			51125
-		}
-	},
-	[18126] = {
-		id = 18126,
-		base = 18120,
-		max_hp = 63,
-		hp_growth = 2426,
-		weapon_ID = {
-			50026,
-			51126
-		}
-	},
-	[18140] = {
-		name = "TBF复仇者",
-		max_hp = 37,
+	[18180] = {
+		name = "TBM复仇者(VT-18中队)",
+		max_hp = 41,
 		accuracy = 23,
-		model_ID = "tbf",
+		model_ID = "tbmvt-18",
 		ACC_growth = 0,
-		crash_DMG = 406,
-		dodge = 1.11,
+		crash_DMG = 300,
+		dodge = 1.05,
 		attack_power = 2,
-		dodge_limit = 5,
+		dodge_limit = 6,
 		type = 2,
 		AP_growth = 2000,
-		icon = "tbf",
+		icon = "tbmvt-18",
 		funnel_behavior = "",
 		nationality = 1,
-		hp_growth = 1404,
+		hp_growth = 1563,
 		speed = 48,
-		id = 18140,
+		id = 18180,
 		scale = 1,
 		weapon_ID = {
 			50040,
-			51140
+			59640
 		},
 		position_offset = {
 			0,
@@ -125,34 +75,94 @@ pg.aircraft_template_32 = {
 			}
 		}
 	},
-	[18141] = {
-		id = 18141,
-		base = 18140,
-		max_hp = 42,
-		hp_growth = 1615,
+	[18181] = {
+		id = 18181,
+		base = 18180,
+		max_hp = 47,
+		hp_growth = 1797,
 		weapon_ID = {
 			50041,
-			51141
+			59641
 		}
 	},
-	[18142] = {
-		id = 18142,
-		base = 18140,
-		max_hp = 47,
-		hp_growth = 1826,
+	[18182] = {
+		id = 18182,
+		base = 18180,
+		max_hp = 53,
+		hp_growth = 2032,
 		weapon_ID = {
 			50042,
-			51142
+			59642
 		}
 	},
-	[18143] = {
-		id = 18143,
-		base = 18140,
-		max_hp = 53,
-		hp_growth = 2036,
+	[18183] = {
+		id = 18183,
+		base = 18180,
+		max_hp = 59,
+		hp_growth = 2266,
 		weapon_ID = {
 			50043,
-			51143
+			59643
+		}
+	},
+	[18184] = {
+		id = 18184,
+		base = 18180,
+		max_hp = 65,
+		hp_growth = 2500,
+		weapon_ID = {
+			50044,
+			59644
+		}
+	},
+	[18185] = {
+		id = 18185,
+		base = 18180,
+		max_hp = 71,
+		hp_growth = 2735,
+		weapon_ID = {
+			50045,
+			59645
+		}
+	},
+	[18186] = {
+		id = 18186,
+		base = 18180,
+		max_hp = 77,
+		hp_growth = 2969,
+		weapon_ID = {
+			50046,
+			59646
+		}
+	},
+	[18187] = {
+		id = 18187,
+		base = 18180,
+		max_hp = 83,
+		hp_growth = 3204,
+		weapon_ID = {
+			50047,
+			59647
+		}
+	},
+	[18188] = {
+		id = 18188,
+		base = 18180,
+		max_hp = 89,
+		hp_growth = 3438,
+		weapon_ID = {
+			50048,
+			59648
+		}
+	},
+	[18189] = {
+		id = 18189,
+		base = 18180,
+		max_hp = 95,
+		hp_growth = 3673,
+		weapon_ID = {
+			50049,
+			59649
 		}
 	}
 }

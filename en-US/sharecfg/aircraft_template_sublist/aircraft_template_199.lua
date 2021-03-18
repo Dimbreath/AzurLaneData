@@ -1,36 +1,71 @@
 pg = pg or {}
 pg.aircraft_template_199 = {
-	[68890] = {
-		max_hp = 98,
-		name = "大神澪技能轰炸机Lv10",
-		base = 68881,
-		id = 68890,
-		hp_growth = 3678,
+	[81087] = {
+		id = 81087,
+		base = 81080,
+		max_hp = 83,
+		hp_growth = 3182,
 		weapon_ID = {
-			68900
+			50347
 		}
 	},
-	[68951] = {
-		name = "白上吹雪狐笋轰炸机Lv1",
-		max_hp = 42,
+	[81088] = {
+		id = 81088,
+		base = 81080,
+		max_hp = 89,
+		hp_growth = 3415,
+		weapon_ID = {
+			50348
+		}
+	},
+	[81089] = {
+		id = 81089,
+		base = 81080,
+		max_hp = 95,
+		hp_growth = 3648,
+		weapon_ID = {
+			50349
+		}
+	},
+	[81090] = {
+		id = 81090,
+		base = 81080,
+		max_hp = 101,
+		hp_growth = 3881,
+		weapon_ID = {
+			50350
+		}
+	},
+	[81091] = {
+		id = 81091,
+		base = 81080,
+		max_hp = 107,
+		hp_growth = 4114,
+		weapon_ID = {
+			50351
+		}
+	},
+	[81100] = {
+		name = "F4F野猫",
+		max_hp = 33,
 		accuracy = 23,
-		model_ID = "feiji_hulifeiji",
+		model_ID = "f4f",
 		ACC_growth = 0,
-		crash_DMG = 208,
-		dodge = 1,
+		crash_DMG = 56,
+		dodge = 0.357,
 		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
-		icon = "feiji_hulifeiji",
+		icon = "f4f",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1692,
+		nationality = 1,
+		hp_growth = 1270,
 		speed = 48,
-		id = 68951,
+		id = 81100,
 		scale = 1,
 		weapon_ID = {
-			68961
+			50400
 		},
 		position_offset = {
 			0,
@@ -50,13 +85,13 @@ pg.aircraft_template_199 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					1.24,
+					-1.34,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					1.43,
+					1.6,
 					0
 				}
 			}
@@ -73,7 +108,7 @@ pg.aircraft_template_199 = {
 				0
 			},
 			{
-				0.54,
+				0.32,
 				0,
 				0
 			},
@@ -84,74 +119,105 @@ pg.aircraft_template_199 = {
 			}
 		}
 	},
-	[68952] = {
+	[81101] = {
+		id = 81101,
+		base = 81100,
+		max_hp = 38,
+		hp_growth = 1461,
+		weapon_ID = {
+			50401
+		}
+	},
+	[81102] = {
+		id = 81102,
+		base = 81100,
+		max_hp = 43,
+		hp_growth = 1651,
+		weapon_ID = {
+			50402
+		}
+	},
+	[81103] = {
+		id = 81103,
+		base = 81100,
 		max_hp = 48,
-		name = "白上吹雪狐笋轰炸机Lv2",
-		base = 68951,
-		id = 68952,
-		hp_growth = 1913,
+		hp_growth = 1842,
 		weapon_ID = {
-			68962
+			50403
 		}
 	},
-	[68953] = {
-		max_hp = 54,
-		name = "白上吹雪狐笋轰炸机Lv3",
-		base = 68951,
-		id = 68953,
-		hp_growth = 2133,
+	[81120] = {
+		name = "F4F野猫",
+		max_hp = 37,
+		accuracy = 23,
+		model_ID = "f4f",
+		ACC_growth = 0,
+		crash_DMG = 56,
+		dodge = 0.345,
+		attack_power = 2,
+		dodge_limit = 9.5,
+		type = 1,
+		AP_growth = 2000,
+		icon = "f4f",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1411,
+		speed = 48,
+		id = 81120,
+		scale = 1,
 		weapon_ID = {
-			68963
-		}
-	},
-	[68954] = {
-		max_hp = 61,
-		name = "白上吹雪狐笋轰炸机Lv4",
-		base = 68951,
-		id = 68954,
-		hp_growth = 2354,
-		weapon_ID = {
-			68964
-		}
-	},
-	[68955] = {
-		max_hp = 67,
-		name = "白上吹雪狐笋轰炸机Lv5",
-		base = 68951,
-		id = 68955,
-		hp_growth = 2575,
-		weapon_ID = {
-			68965
-		}
-	},
-	[68956] = {
-		max_hp = 73,
-		name = "白上吹雪狐笋轰炸机Lv6",
-		base = 68951,
-		id = 68956,
-		hp_growth = 2796,
-		weapon_ID = {
-			68966
-		}
-	},
-	[68957] = {
-		max_hp = 79,
-		name = "白上吹雪狐笋轰炸机Lv7",
-		base = 68951,
-		id = 68957,
-		hp_growth = 3016,
-		weapon_ID = {
-			68967
-		}
-	},
-	[68958] = {
-		max_hp = 86,
-		name = "白上吹雪狐笋轰炸机Lv8",
-		base = 68951,
-		id = 68958,
-		hp_growth = 3237,
-		weapon_ID = {
-			68968
+			50420
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					1.24,
+					-1.34,
+					0
+				},
+				{
+					1.43,
+					1.6,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.32,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	}
 }

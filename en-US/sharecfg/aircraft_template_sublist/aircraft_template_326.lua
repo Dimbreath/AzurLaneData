@@ -1,100 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_326 = {
-	[512818] = {
-		name = "翔鹤轰炸机",
-		max_hp = 220,
+	[607028] = {
+		name = "世界boss专用鱼雷机T1",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "F6F",
 		ACC_growth = 0,
-		crash_DMG = 180,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "99shijianbao1",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3822,
-		speed = 30,
-		id = 512818,
-		scale = 0.75,
-		weapon_ID = {
-			512924
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[512819] = {
-		name = "翔鹤鱼雷机",
-		max_hp = 206,
-		accuracy = 23,
-		model_ID = "liuxing",
-		ACC_growth = 0,
-		crash_DMG = 150,
+		crash_DMG = 57,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "liuxing",
+		icon = "F6F",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3613,
+		nationality = 1,
+		hp_growth = 3136,
 		speed = 30,
-		id = 512819,
+		id = 607028,
 		scale = 0.75,
 		weapon_ID = {
-			512925
+			607032
 		},
 		position_offset = {
 			0,
@@ -114,88 +40,13 @@ pg.aircraft_template_326 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.13,
-					-1.29,
+					1.24,
+					-1.34,
 					0
 				},
 				{
-					-1.25,
-					1.47,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.54,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[512820] = {
-		name = "翔鹤战斗机",
-		max_hp = 182,
-		accuracy = 23,
-		model_ID = "liefeng",
-		ACC_growth = 0,
-		crash_DMG = 100,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "liefeng",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2918,
-		speed = 33,
-		id = 512820,
-		scale = 0.75,
-		weapon_ID = {
-			512926,
-			512927
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.56,
-					-0.76,
-					0
-				},
-				{
-					0.48,
-					0.99,
+					1.43,
+					1.6,
 					0
 				}
 			}
@@ -223,27 +74,27 @@ pg.aircraft_template_326 = {
 			}
 		}
 	},
-	[512821] = {
-		name = "瑞鹤轰炸机",
-		max_hp = 220,
+	[607029] = {
+		name = "世界boss专用轰炸机T1",
+		max_hp = 50,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "tbd",
 		ACC_growth = 0,
-		crash_DMG = 180,
+		crash_DMG = 78,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "99shijianbao1",
+		icon = "tbd",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3822,
+		nationality = 1,
+		hp_growth = 3632,
 		speed = 30,
-		id = 512821,
+		id = 607029,
 		scale = 0.75,
 		weapon_ID = {
-			512928
+			607033
 		},
 		position_offset = {
 			0,
@@ -263,13 +114,13 @@ pg.aircraft_template_326 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					-1.28,
+					1.62,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					-1.12,
+					-1,
 					0
 				}
 			}
@@ -286,7 +137,82 @@ pg.aircraft_template_326 = {
 				0
 			},
 			{
+				0.72,
+				-0.15,
+				0
+			},
+			{
 				0,
+				0,
+				0
+			}
+		}
+	},
+	[607047] = {
+		name = "世界boss专用战斗机T1",
+		max_hp = 39,
+		accuracy = 23,
+		model_ID = "F4F",
+		ACC_growth = 0,
+		crash_DMG = 39,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F4F",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 2686,
+		speed = 33,
+		id = 607047,
+		scale = 0.75,
+		weapon_ID = {
+			607050,
+			607051
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.32,
 				0,
 				0
 			},
@@ -297,27 +223,27 @@ pg.aircraft_template_326 = {
 			}
 		}
 	},
-	[512822] = {
-		name = "瑞鹤鱼雷机",
-		max_hp = 206,
+	[607048] = {
+		name = "世界boss专用鱼雷机T1",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "liuxing",
+		model_ID = "F6F",
 		ACC_growth = 0,
-		crash_DMG = 150,
+		crash_DMG = 57,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "liuxing",
+		icon = "F6F",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3613,
+		nationality = 1,
+		hp_growth = 3136,
 		speed = 30,
-		id = 512822,
+		id = 607048,
 		scale = 0.75,
 		weapon_ID = {
-			512929
+			607052
 		},
 		position_offset = {
 			0,
@@ -337,13 +263,13 @@ pg.aircraft_template_326 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.13,
-					-1.29,
+					1.24,
+					-1.34,
 					0
 				},
 				{
-					-1.25,
-					1.47,
+					1.43,
+					1.6,
 					0
 				}
 			}
@@ -360,7 +286,7 @@ pg.aircraft_template_326 = {
 				0
 			},
 			{
-				0.54,
+				0,
 				0,
 				0
 			},
@@ -371,28 +297,102 @@ pg.aircraft_template_326 = {
 			}
 		}
 	},
-	[512823] = {
-		name = "瑞鹤战斗机",
-		max_hp = 182,
+	[607049] = {
+		name = "世界boss专用轰炸机T1",
+		max_hp = 50,
 		accuracy = 23,
-		model_ID = "liefeng",
+		model_ID = "tbd",
 		ACC_growth = 0,
-		crash_DMG = 100,
+		crash_DMG = 78,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "tbd",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 3632,
+		speed = 30,
+		id = 607049,
+		scale = 0.75,
+		weapon_ID = {
+			607053
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.28,
+					1.62,
+					0
+				},
+				{
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[607067] = {
+		name = "世界boss专用战斗机T1",
+		max_hp = 39,
+		accuracy = 23,
+		model_ID = "F4F",
+		ACC_growth = 0,
+		crash_DMG = 39,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "liefeng",
+		icon = "F4F",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2918,
+		nationality = 1,
+		hp_growth = 2686,
 		speed = 33,
-		id = 512823,
+		id = 607067,
 		scale = 0.75,
 		weapon_ID = {
-			512930,
-			512931
+			607070,
+			607071
 		},
 		position_offset = {
 			0,
@@ -412,13 +412,13 @@ pg.aircraft_template_326 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.56,
-					-0.76,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.48,
-					0.99,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -435,7 +435,7 @@ pg.aircraft_template_326 = {
 				0
 			},
 			{
-				0,
+				0.32,
 				0,
 				0
 			},
@@ -446,27 +446,27 @@ pg.aircraft_template_326 = {
 			}
 		}
 	},
-	[513126] = {
-		name = "翔鹤战斗机",
-		max_hp = 320,
+	[607068] = {
+		name = "世界boss专用鱼雷机T1",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "liefeng",
+		model_ID = "F6F",
 		ACC_growth = 0,
-		crash_DMG = 210,
+		crash_DMG = 57,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 1,
+		type = 2,
 		AP_growth = 2000,
-		icon = "liefeng",
+		icon = "F6F",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3532,
-		speed = 46,
-		id = 513126,
+		nationality = 1,
+		hp_growth = 3136,
+		speed = 30,
+		id = 607068,
 		scale = 0.75,
 		weapon_ID = {
-			513127
+			607072
 		},
 		position_offset = {
 			0,
@@ -486,13 +486,13 @@ pg.aircraft_template_326 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.56,
-					-0.76,
+					1.24,
+					-1.34,
 					0
 				},
 				{
-					0.48,
-					0.99,
+					1.43,
+					1.6,
 					0
 				}
 			}
@@ -520,104 +520,27 @@ pg.aircraft_template_326 = {
 			}
 		}
 	},
-	[513128] = {
-		name = "翔鹤浮游炮",
-		max_hp = 580,
+	[607069] = {
+		name = "世界boss专用轰炸机T1",
+		max_hp = 50,
 		accuracy = 23,
-		model_ID = "liefeng",
+		model_ID = "tbd",
 		ACC_growth = 0,
-		crash_DMG = 500,
+		crash_DMG = 78,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 1,
+		type = 3,
 		AP_growth = 2000,
-		icon = "liefeng",
-		nationality = 3,
-		hp_growth = 8000,
-		speed = 70,
-		id = 513128,
-		scale = 0.75,
-		funnel_behavior = {
-			stay = 2,
-			exist = 20
-		},
-		weapon_ID = {
-			513129
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.56,
-					-0.76,
-					0
-				},
-				{
-					0.48,
-					0.99,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[513132] = {
-		name = "赤城战斗机",
-		max_hp = 220,
-		accuracy = 23,
-		model_ID = "liefeng",
-		ACC_growth = 0,
-		crash_DMG = 165,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "liefeng",
+		icon = "tbd",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3532,
-		speed = 44,
-		id = 513132,
+		nationality = 1,
+		hp_growth = 3632,
+		speed = 30,
+		id = 607069,
 		scale = 0.75,
 		weapon_ID = {
-			513133
+			607073
 		},
 		position_offset = {
 			0,
@@ -637,13 +560,162 @@ pg.aircraft_template_326 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.56,
-					-0.76,
+					-1.28,
+					1.62,
 					0
 				},
 				{
-					0.48,
-					0.99,
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[607087] = {
+		name = "世界boss专用战斗机T1",
+		max_hp = 39,
+		accuracy = 23,
+		model_ID = "F4F",
+		ACC_growth = 0,
+		crash_DMG = 39,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F4F",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 2686,
+		speed = 33,
+		id = 607087,
+		scale = 0.75,
+		weapon_ID = {
+			607090,
+			607091
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.32,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[607088] = {
+		name = "世界boss专用鱼雷机T1",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "F6F",
+		ACC_growth = 0,
+		crash_DMG = 57,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "F6F",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 3136,
+		speed = 30,
+		id = 607088,
+		scale = 0.75,
+		weapon_ID = {
+			607092
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					1.24,
+					-1.34,
+					0
+				},
+				{
+					1.43,
+					1.6,
 					0
 				}
 			}

@@ -540,6 +540,11 @@ pg.player_resource = {
 		name = "dashijiechongzhi",
 		itemid = 110002
 	},
+	[3003] = {
+		id = 3003,
+		name = "synchronize_huangjiafangzhou",
+		itemid = 21902
+	},
 	[2006] = {
 		id = 2006,
 		name = "contribution_worldboss624",
@@ -880,6 +885,9 @@ pg.player_resource = {
 		dashijiechongzhi = {
 			3002
 		},
+		synchronize_huangjiafangzhou = {
+			3003
+		},
 		contribution_worldboss624 = {
 			2006
 		},
@@ -999,6 +1007,7 @@ pg.player_resource = {
 		2005,
 		3001,
 		3002,
+		3003,
 		2006,
 		2007,
 		3000

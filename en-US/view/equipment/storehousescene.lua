@@ -960,7 +960,7 @@ function slot0.Scroll2Equip(slot0, slot1)
 	end
 
 	for slot5, slot6 in ipairs(slot0.loadEquipmentVOs) do
-		if EquipmentTransformLayer.SameEquip(slot6, slot1) then
+		if EquipmentProxy.SameEquip(slot6, slot1) then
 			slot7 = slot0.equipmentView:Find("equipment_grid"):GetComponent(typeof(GridLayoutGroup))
 
 			slot0:ScrollEquipPos((slot7.cellSize.y + slot7.spacing.y) * math.floor((slot5 - 1) / slot7.constraintCount) + slot0.equipmentRect.paddingFront + slot0.equipmentView.rect.height * 0.5 - slot0.equipmentRect.paddingFront)

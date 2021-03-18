@@ -24,17 +24,19 @@ function slot4.SetArgs(slot0, slot1, slot2)
 	slot0._maxHPRatio = slot0._tempData.arg_list.maxHPRatio or 0
 	slot0._currentHPRatio = slot0._tempData.arg_list.currentHPRatio or 0
 	slot0._minRestHPRatio = slot0._tempData.arg_list.minRestHPRatio or 0
+	slot0._randExtraRange = slot0._tempData.arg_list.randExtraRange or 0
 	slot0._cloakExpose = slot0._tempData.arg_list.cloakExpose or 0
 	slot0._exposeGroup = slot0._tempData.arg_list._exposeGroup or slot2:GetID()
 	slot0._level = slot0._level or 0
 
-	if slot0._orb then
-		slot2:SetOrbDuration(uv0.CaclulateDOTDuration(slot0._tempData, slot0._orb, slot1))
+	slot2:SetOrbDuration(uv0.CaclulateDOTDuration(slot0._tempData, slot0._orb, slot1))
 
+	if slot0._tempData.arg_list.WorldBossDotDamage then
+		slot0._igniteDMG = (uv1.Battle.BattleDataProxy.GetInstance():GetInitData()[slot0._tempData.arg_list.WorldBossDotDamage.useGlobalAttr] or pg.bfConsts.NUM0) * (slot5.paramA or pg.bfConsts.NUM1)
+	elseif slot0._orb then
 		slot0._igniteAttr = slot0._tempData.arg_list.attr
 		slot0._igniteCoefficient = slot0._tempData.arg_list.k
 		slot0._igniteDMG = uv0.CalculateIgniteDamage(slot0._orb, slot0._igniteAttr, slot0._igniteCoefficient)
-		slot0._igniteDMG = slot0._igniteDMG
 	else
 		slot0._igniteDMG = 0
 	end
@@ -76,15 +78,14 @@ function slot4.onRemove(slot0, slot1, slot2)
 end
 
 function slot4.CalcNumber(slot0, slot1, slot2)
-	slot3 = 0
-
-	if slot0._orb then
-		slot3 = uv0.CaclulateDOTDamageEnhanceRate(slot0._tempData, slot0._orb, slot1)
-	end
-
+	slot3 = uv0.CaclulateDOTDamageEnhanceRate(slot0._tempData, slot0._orb, slot1)
 	slot4, slot5 = slot1:GetHP()
 
-	return math.max(0, math.floor(math.min(slot4 - slot5 * slot0._minRestHPRatio, (slot4 * slot0._currentHPRatio + slot5 * slot0._maxHPRatio + slot0._number + slot0._igniteDMG) * (1 + slot3) * slot2._stack * uv1.GetCurrent(slot1, "repressReduce"))))
+	if slot0._randExtraRange > 0 then
+		slot6 = slot4 * slot0._currentHPRatio + slot5 * slot0._maxHPRatio + slot0._number + slot0._igniteDMG + math.random(0, slot0._randExtraRange)
+	end
+
+	return math.max(0, math.floor(math.min(slot4 - slot5 * slot0._minRestHPRatio, slot6 * (1 + slot3) * slot2._stack * uv1.GetCurrent(slot1, "repressReduce"))))
 end
 
 function slot4.SetOrb(slot0, slot1, slot2, slot3)

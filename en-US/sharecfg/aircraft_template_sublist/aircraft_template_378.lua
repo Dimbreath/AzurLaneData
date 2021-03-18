@@ -1,177 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_378 = {
-	[700041] = {
-		name = "魔鬼鱼浮游炮",
-		max_hp = 580,
+	[1100860] = {
+		name = "日系舰载轰炸机I",
+		max_hp = 80,
 		accuracy = 23,
-		model_ID = "fuyoupao",
+		model_ID = "99shijianbao1",
 		ACC_growth = 0,
-		crash_DMG = 500,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "fuyoupao",
-		nationality = 3,
-		hp_growth = 8000,
-		speed = 70,
-		id = 700041,
-		scale = 0.75,
-		funnel_behavior = {
-			stay = 2,
-			exist = 20
-		},
-		weapon_ID = {
-			700042
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.56,
-					-0.76,
-					0
-				},
-				{
-					0.48,
-					0.99,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[711021] = {
-		name = "【2020普林斯顿SP2】BOSS 大凤 红色弹幕战斗机",
-		max_hp = 120,
-		accuracy = 50,
-		model_ID = "lingzhan21",
-		ACC_growth = 0,
-		crash_DMG = 75,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "lingzhan21",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2400,
-		speed = 33,
-		id = 711021,
-		scale = 0.75,
-		weapon_ID = {
-			711023
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.27,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[711022] = {
-		name = "【2020普林斯顿SP2】BOSS 大凤 地毯式轰炸机",
-		max_hp = 480,
-		accuracy = 50,
-		model_ID = "huixing",
-		ACC_growth = 0,
-		crash_DMG = 172,
+		crash_DMG = 65,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "huixing",
+		icon = "99shijianbao1",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 0,
+		hp_growth = 2280,
 		speed = 30,
-		id = 711022,
+		id = 1100860,
 		scale = 0.75,
 		weapon_ID = {
-			711024
+			1100760
 		},
 		position_offset = {
 			0,
@@ -214,7 +63,7 @@ pg.aircraft_template_378 = {
 				0
 			},
 			{
-				0.64,
+				0,
 				0,
 				0
 			},
@@ -225,101 +74,27 @@ pg.aircraft_template_378 = {
 			}
 		}
 	},
-	[712022] = {
-		name = "【2020普林斯顿SP3】BOSS 通用战斗机",
-		max_hp = 141,
+	[1100861] = {
+		name = "日系舰载轰炸机II",
+		max_hp = 110,
 		accuracy = 23,
-		model_ID = "lingzhan52",
+		model_ID = "99shijianbao1",
 		ACC_growth = 0,
-		crash_DMG = 79,
+		crash_DMG = 85,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 1,
+		type = 3,
 		AP_growth = 2000,
-		icon = "lingzhan52",
+		icon = "99shijianbao1",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2520,
-		speed = 33,
-		id = 712022,
-		scale = 0.75,
-		weapon_ID = {
-			712024
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.27,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[712023] = {
-		name = "【2020普林斯顿SP3】BOSS 通用轰炸机",
-		max_hp = 154,
-		accuracy = 23,
-		model_ID = "huixing",
-		ACC_growth = 0,
-		crash_DMG = 114,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "huixing",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2880,
+		hp_growth = 2660,
 		speed = 30,
-		id = 712023,
+		id = 1100861,
 		scale = 0.75,
 		weapon_ID = {
-			712025
+			1100761
 		},
 		position_offset = {
 			0,
@@ -340,12 +115,12 @@ pg.aircraft_template_378 = {
 			weapon = {
 				{
 					0.71,
-					-0.91,
+					-1.73,
 					0
 				},
 				{
-					0.77,
-					1,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -362,7 +137,7 @@ pg.aircraft_template_378 = {
 				0
 			},
 			{
-				0.51,
+				0,
 				0,
 				0
 			},
@@ -373,27 +148,27 @@ pg.aircraft_template_378 = {
 			}
 		}
 	},
-	[721102] = {
-		name = "【2020偶像活动二期SP2】BOSS 光辉 音符鱼雷机",
-		max_hp = 96,
+	[1100862] = {
+		name = "日系舰载轰炸机III",
+		max_hp = 140,
 		accuracy = 23,
-		model_ID = "suoyu",
+		model_ID = "99shijianbao1",
 		ACC_growth = 0,
-		crash_DMG = 69,
+		crash_DMG = 110,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 3,
 		AP_growth = 2000,
-		icon = "suoyu",
+		icon = "99shijianbao1",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2380,
+		hp_growth = 3040,
 		speed = 30,
-		id = 721102,
+		id = 1100862,
 		scale = 0.75,
 		weapon_ID = {
-			721105
+			1100762
 		},
 		position_offset = {
 			0,
@@ -413,13 +188,13 @@ pg.aircraft_template_378 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.13,
-					-1.29,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					-1.25,
-					1.47,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -436,7 +211,7 @@ pg.aircraft_template_378 = {
 				0
 			},
 			{
-				0.54,
+				0,
 				0,
 				0
 			},
@@ -447,13 +222,161 @@ pg.aircraft_template_378 = {
 			}
 		}
 	},
-	[721103] = {
-		name = "【2020偶像活动二期SP2】BOSS 光辉 音符轰炸机",
-		max_hp = 106,
+	[1100863] = {
+		name = "日系舰载轰炸机IV",
+		max_hp = 170,
+		accuracy = 23,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 140,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "99shijianbao1",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3420,
+		speed = 30,
+		id = 1100863,
+		scale = 0.75,
+		weapon_ID = {
+			1100763
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100864] = {
+		name = "日系舰载轰炸机V",
+		max_hp = 200,
+		accuracy = 23,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 175,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "99shijianbao1",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3800,
+		speed = 30,
+		id = 1100864,
+		scale = 0.75,
+		weapon_ID = {
+			1100764
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100865] = {
+		name = "英系空袭轰炸机I",
+		max_hp = 80,
 		accuracy = 23,
 		model_ID = "haiyan",
 		ACC_growth = 0,
-		crash_DMG = 89,
+		crash_DMG = 65,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
@@ -462,12 +385,12 @@ pg.aircraft_template_378 = {
 		icon = "haiyan",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2560,
+		hp_growth = 2280,
 		speed = 30,
-		id = 721103,
+		id = 1100865,
 		scale = 0.75,
 		weapon_ID = {
-			721106
+			1100865
 		},
 		position_offset = {
 			0,
@@ -521,28 +444,27 @@ pg.aircraft_template_378 = {
 			}
 		}
 	},
-	[721104] = {
-		name = "【2020偶像活动二期SP2】BOSS 光辉 音符战斗机",
-		max_hp = 86,
+	[1100866] = {
+		name = "英系空袭轰炸机II",
+		max_hp = 110,
 		accuracy = 23,
-		model_ID = "haiduya",
+		model_ID = "haiyan",
 		ACC_growth = 0,
-		crash_DMG = 48,
+		crash_DMG = 85,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "haiduya",
+		icon = "haiyan",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1960,
-		speed = 33,
-		id = 721104,
+		hp_growth = 2660,
+		speed = 30,
+		id = 1100866,
 		scale = 0.75,
 		weapon_ID = {
-			721107,
-			1100752
+			1100866
 		},
 		position_offset = {
 			0,
@@ -562,13 +484,13 @@ pg.aircraft_template_378 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.56,
-					-0.76,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.48,
-					0.99,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -596,27 +518,27 @@ pg.aircraft_template_378 = {
 			}
 		}
 	},
-	[724110] = {
-		name = "【2020偶像活动二期SP5】BOSS 大凤 第四波 音符鱼雷机",
-		max_hp = 154,
+	[1100867] = {
+		name = "英系空袭轰炸机III",
+		max_hp = 140,
 		accuracy = 23,
-		model_ID = "liuxing",
+		model_ID = "haiyan",
 		ACC_growth = 0,
-		crash_DMG = 114,
+		crash_DMG = 110,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 3,
 		AP_growth = 2000,
-		icon = "liuxing",
+		icon = "haiyan",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2880,
+		hp_growth = 3040,
 		speed = 30,
-		id = 724110,
+		id = 1100867,
 		scale = 0.75,
 		weapon_ID = {
-			724113
+			1100867
 		},
 		position_offset = {
 			0,
@@ -636,13 +558,13 @@ pg.aircraft_template_378 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.13,
-					-1.29,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					-1.25,
-					1.47,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -659,7 +581,155 @@ pg.aircraft_template_378 = {
 				0
 			},
 			{
-				0.54,
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100868] = {
+		name = "英系空袭轰炸机IV",
+		max_hp = 170,
+		accuracy = 23,
+		model_ID = "haiyan",
+		ACC_growth = 0,
+		crash_DMG = 140,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "haiyan",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3420,
+		speed = 30,
+		id = 1100868,
+		scale = 0.75,
+		weapon_ID = {
+			1100868
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100869] = {
+		name = "英系空袭轰炸机V",
+		max_hp = 200,
+		accuracy = 23,
+		model_ID = "haiyan",
+		ACC_growth = 0,
+		crash_DMG = 175,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "haiyan",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3800,
+		speed = 30,
+		id = 1100869,
+		scale = 0.75,
+		weapon_ID = {
+			1100869
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			},

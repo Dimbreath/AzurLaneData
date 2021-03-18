@@ -1,36 +1,37 @@
 pg = pg or {}
 pg.aircraft_template_163 = {
-	[66450] = {
-		max_hp = 106,
-		name = "联结·阿萨姆LV10",
-		base = 66440,
-		id = 66450,
-		hp_growth = 4066,
+	[67790] = {
+		max_hp = 98,
+		name = "双龙改轰炸5 Lv10",
+		base = 67781,
+		id = 67790,
+		hp_growth = 3678,
 		weapon_ID = {
-			66610
+			67810,
+			67820
 		}
 	},
-	[66580] = {
-		name = "宝石枪雨LV0",
-		max_hp = 38,
+	[67791] = {
+		name = "双龙改雷1 Lv1",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "Nep_green",
+		model_ID = "97jiangong",
 		ACC_growth = 0,
-		crash_DMG = 100,
+		crash_DMG = 208,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "Nep_green",
+		icon = "97jiangong",
 		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1478,
-		speed = 50,
-		id = 66580,
+		nationality = 3,
+		hp_growth = 1692,
+		speed = 48,
+		id = 67791,
 		scale = 1,
 		weapon_ID = {
-			66620
+			67821
 		},
 		position_offset = {
 			0,
@@ -50,13 +51,13 @@ pg.aircraft_template_163 = {
 		bound_bone = {
 			weapon = {
 				{
-					1.28,
-					-0.38,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					1.43,
-					1.85,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -73,7 +74,7 @@ pg.aircraft_template_163 = {
 				0
 			},
 			{
-				0.62,
+				0.54,
 				0,
 				0
 			},
@@ -84,74 +85,84 @@ pg.aircraft_template_163 = {
 			}
 		}
 	},
-	[66581] = {
-		max_hp = 45,
-		name = "宝石枪雨LV1",
-		base = 66580,
-		id = 66581,
-		hp_growth = 1773,
+	[67792] = {
+		max_hp = 48,
+		name = "双龙改雷1 Lv2",
+		base = 67791,
+		id = 67792,
+		hp_growth = 1913,
 		weapon_ID = {
-			66621
+			67822
 		}
 	},
-	[66582] = {
-		max_hp = 52,
-		name = "宝石枪雨LV2",
-		base = 66580,
-		id = 66582,
-		hp_growth = 2068,
+	[67793] = {
+		max_hp = 54,
+		name = "双龙改雷1 Lv3",
+		base = 67791,
+		id = 67793,
+		hp_growth = 2133,
 		weapon_ID = {
-			66622
+			67823
 		}
 	},
-	[66583] = {
-		max_hp = 59,
-		name = "宝石枪雨LV3",
-		base = 66580,
-		id = 66583,
-		hp_growth = 2363,
+	[67794] = {
+		max_hp = 61,
+		name = "双龙改雷1 Lv4",
+		base = 67791,
+		id = 67794,
+		hp_growth = 2354,
 		weapon_ID = {
-			66623
+			67824
 		}
 	},
-	[66584] = {
+	[67795] = {
 		max_hp = 67,
-		name = "宝石枪雨LV4",
-		base = 66580,
-		id = 66584,
-		hp_growth = 2659,
+		name = "双龙改雷1 Lv5",
+		base = 67791,
+		id = 67795,
+		hp_growth = 2575,
 		weapon_ID = {
-			66624
+			67825
 		}
 	},
-	[66585] = {
-		max_hp = 75,
-		name = "宝石枪雨LV5",
-		base = 66580,
-		id = 66585,
-		hp_growth = 2955,
+	[67796] = {
+		max_hp = 73,
+		name = "双龙改雷1 Lv6",
+		base = 67791,
+		id = 67796,
+		hp_growth = 2796,
 		weapon_ID = {
-			66625
+			67826
 		}
 	},
-	[66586] = {
-		max_hp = 83,
-		name = "宝石枪雨LV6",
-		base = 66580,
-		id = 66586,
-		hp_growth = 3251,
+	[67797] = {
+		max_hp = 79,
+		name = "双龙改雷1 Lv7",
+		base = 67791,
+		id = 67797,
+		hp_growth = 3016,
 		weapon_ID = {
-			66626
+			67827
 		}
 	},
-	[66587] = {
-		max_hp = 91,
-		name = "宝石枪雨LV7",
-		base = 66580,
-		id = 66587,
-		hp_growth = 3547,
+	[67798] = {
+		max_hp = 86,
+		name = "双龙改雷1 Lv8",
+		base = 67791,
+		id = 67798,
+		hp_growth = 3237,
 		weapon_ID = {
-			66627
+			67828
+		}
+	},
+	[67799] = {
+		max_hp = 92,
+		name = "双龙改雷1 Lv9",
+		base = 67791,
+		id = 67799,
+		hp_growth = 3458,
+		weapon_ID = {
+			67829
 		}
 	}
 }

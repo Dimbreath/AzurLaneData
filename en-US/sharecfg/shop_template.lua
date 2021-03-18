@@ -31666,6 +31666,93 @@ pg.shop_template = {
 			2016
 		}
 	},
+	[100007] = {
+		group_type = 0,
+		resource_num = 50,
+		desc = "强力效能样本-攻击",
+		type = 12,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 7,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 3002,
+		id = 100007,
+		genre = "world",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				6
+			}
+		},
+		effect_args = {
+			304
+		}
+	},
+	[100008] = {
+		group_type = 0,
+		resource_num = 50,
+		desc = "强力效能样本-耐久",
+		type = 12,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 8,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 3002,
+		id = 100008,
+		genre = "world",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				6
+			}
+		},
+		effect_args = {
+			305
+		}
+	},
+	[100009] = {
+		group_type = 0,
+		resource_num = 50,
+		desc = "强力效能样本-恢复",
+		type = 12,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 9,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 3002,
+		id = 100009,
+		genre = "world",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				6
+			}
+		},
+		effect_args = {
+			306
+		}
+	},
 	[90049] = {
 		group_type = 0,
 		resource_num = 1,
@@ -36354,6 +36441,9 @@ pg.shop_template = {
 		100004,
 		100005,
 		100006,
+		100007,
+		100008,
+		100009,
 		90049,
 		90050,
 		90051,

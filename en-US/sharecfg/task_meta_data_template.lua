@@ -96,6 +96,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet with Hiryuu META in your fleet."
 	},
+	[106] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970702",
+		id = 106,
+		target_num = 1,
+		desc = "Win 1 battle with Ark Royal META in your fleet."
+	},
+	[107] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970702",
+		id = 107,
+		target_num = 1,
+		desc = "Defeat a Lv. 30+ fleet with Ark Royal META in your fleet."
+	},
+	[108] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970702",
+		id = 108,
+		target_num = 1,
+		desc = "Defeat a Lv. 55+ fleet with Ark Royal META in your fleet."
+	},
+	[109] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970702",
+		id = 109,
+		target_num = 1,
+		desc = "Defeat a Lv. 80+ fleet with Ark Royal META in your fleet."
+	},
+	[110] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970702",
+		id = 110,
+		target_num = 1,
+		desc = "Defeat a Lv. 100+ fleet with Ark Royal META in your fleet."
+	},
 	[200] = {
 		target_id = "0",
 		sub_type = 302,
@@ -128,6 +168,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ enemy in Operation Siren with Hiryuu META in your fleet."
 	},
+	[204] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970702",
+		id = 204,
+		target_num = 1,
+		desc = "Win 1 Operation Siren battle with Ark Royal META in your fleet."
+	},
+	[205] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970702",
+		id = 205,
+		target_num = 1,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Ark Royal META in your fleet."
+	},
+	[206] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970702",
+		id = 206,
+		target_num = 1,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Ark Royal META in your fleet."
+	},
+	[207] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970702",
+		id = 207,
+		target_num = 1,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Ark Royal META in your fleet."
+	},
 	[301] = {
 		target_id = "0",
 		sub_type = 305,
@@ -157,10 +229,19 @@ pg.task_meta_data_template = {
 		103,
 		104,
 		105,
+		106,
+		107,
+		108,
+		109,
+		110,
 		200,
 		201,
 		202,
 		203,
+		204,
+		205,
+		206,
+		207,
 		301,
 		302
 	}

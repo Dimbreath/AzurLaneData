@@ -116,6 +116,10 @@ pg.world_help_data = {
 			},
 			{
 				10,
+				"WorldHelpbg/worldhelp4_9"
+			},
+			{
+				10,
 				"WorldHelpbg/worldhelp4_2"
 			},
 			{

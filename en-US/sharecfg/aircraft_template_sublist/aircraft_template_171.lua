@@ -1,92 +1,60 @@
 pg = pg or {}
 pg.aircraft_template_171 = {
-	[67245] = {
-		max_hp = 73,
-		name = "伊势技能轰炸机Lv5",
-		base = 67240,
-		id = 67245,
-		hp_growth = 2809,
-		weapon_ID = {
-			67265,
-			67285
-		}
-	},
-	[67246] = {
-		max_hp = 79,
-		name = "伊势技能轰炸机Lv6",
-		base = 67240,
-		id = 67246,
-		hp_growth = 3050,
-		weapon_ID = {
-			67266,
-			67286
-		}
-	},
-	[67247] = {
+	[68308] = {
 		max_hp = 86,
-		name = "伊势技能轰炸机Lv7",
-		base = 67240,
-		id = 67247,
-		hp_growth = 3290,
-		weapon_ID = {
-			67267,
-			67287
-		}
-	},
-	[67248] = {
-		max_hp = 92,
-		name = "伊势技能轰炸机Lv8",
-		base = 67240,
-		id = 67248,
+		name = "绊爱技能轰炸机Lv8",
+		base = 68301,
+		id = 68308,
 		hp_growth = 3531,
 		weapon_ID = {
-			67268,
-			67288
+			68318,
+			68328
 		}
 	},
-	[67249] = {
-		max_hp = 98,
-		name = "伊势技能轰炸机Lv9",
-		base = 67240,
-		id = 67249,
+	[68309] = {
+		max_hp = 92,
+		name = "绊爱技能轰炸机Lv9",
+		base = 68301,
+		id = 68309,
 		hp_growth = 3772,
 		weapon_ID = {
-			67269,
-			67289
+			68319,
+			68329
 		}
 	},
-	[67250] = {
-		max_hp = 104,
-		name = "伊势技能轰炸机Lv10",
-		base = 67240,
-		id = 67250,
+	[68310] = {
+		max_hp = 98,
+		name = "绊爱技能轰炸机Lv10",
+		base = 68301,
+		id = 68310,
 		hp_growth = 4013,
 		weapon_ID = {
-			67270,
-			67290
+			68320,
+			68330
 		}
 	},
-	[67300] = {
-		name = "大凤技能轰炸机Lv0",
+	[68331] = {
+		name = "小赤城技能飞机Lv1",
 		max_hp = 42,
 		accuracy = 23,
-		model_ID = "huixing",
+		model_ID = "99shijianbao1",
 		ACC_growth = 0,
-		crash_DMG = 208,
+		crash_DMG = 180,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "huixing",
+		icon = "99shijianbao1",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1605,
-		speed = 60,
-		id = 67300,
+		hp_growth = 1692,
+		speed = 48,
+		id = 68331,
 		scale = 1,
 		weapon_ID = {
-			67380
+			68341,
+			68351
 		},
 		position_offset = {
 			0,
@@ -129,7 +97,7 @@ pg.aircraft_template_171 = {
 				0
 			},
 			{
-				0.64,
+				0,
 				0,
 				0
 			},
@@ -140,24 +108,70 @@ pg.aircraft_template_171 = {
 			}
 		}
 	},
-	[67301] = {
+	[68332] = {
 		max_hp = 48,
-		name = "大凤技能轰炸机Lv1",
-		base = 67300,
-		id = 67301,
-		hp_growth = 1846,
+		name = "小赤城技能飞机Lv2",
+		base = 68331,
+		id = 68332,
+		hp_growth = 1913,
 		weapon_ID = {
-			67381
+			68342,
+			68352
 		}
 	},
-	[67302] = {
+	[68333] = {
 		max_hp = 54,
-		name = "大凤技能轰炸机Lv2",
-		base = 67300,
-		id = 67302,
-		hp_growth = 2087,
+		name = "小赤城技能飞机Lv3",
+		base = 68331,
+		id = 68333,
+		hp_growth = 2133,
 		weapon_ID = {
-			67382
+			68343,
+			68353
+		}
+	},
+	[68334] = {
+		max_hp = 61,
+		name = "小赤城技能飞机Lv4",
+		base = 68331,
+		id = 68334,
+		hp_growth = 2354,
+		weapon_ID = {
+			68344,
+			68354
+		}
+	},
+	[68335] = {
+		max_hp = 67,
+		name = "小赤城技能飞机Lv5",
+		base = 68331,
+		id = 68335,
+		hp_growth = 2575,
+		weapon_ID = {
+			68345,
+			68355
+		}
+	},
+	[68336] = {
+		max_hp = 73,
+		name = "小赤城技能飞机Lv6",
+		base = 68331,
+		id = 68336,
+		hp_growth = 2796,
+		weapon_ID = {
+			68346,
+			68356
+		}
+	},
+	[68337] = {
+		max_hp = 79,
+		name = "小赤城技能飞机Lv7",
+		base = 68331,
+		id = 68337,
+		hp_growth = 3016,
+		weapon_ID = {
+			68347,
+			68357
 		}
 	}
 }

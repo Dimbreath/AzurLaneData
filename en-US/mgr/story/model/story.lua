@@ -13,7 +13,7 @@ function slot0.GetStoryStepCls(slot0)
 	})[slot0]
 end
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0.name = slot1.id
 	slot0.mode = slot1.mode
 	slot0.once = slot1.once
@@ -21,10 +21,16 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.hideSkip = slot1.hideSkip
 	slot0.skipTip = defaultValue(slot1.skipTip, true)
 	slot0.noWaitFade = defaultValue(slot1.noWaitFade, false)
+	slot0.speedData = slot1.speed or getProxy(SettingsProxy):GetStorySpeed() or 0
 	slot0.steps = {}
+	slot7 = slot4 or {}
 
-	for slot7, slot8 in ipairs(slot1.scripts) do
-		table.insert(slot0.steps, uv0.GetStoryStepCls(slot8.mode or slot0.mode).New(slot8))
+	for slot11, slot12 in ipairs(slot1.scripts) do
+		if uv0.GetStoryStepCls(slot12.mode or slot0.mode).New(slot12):ExistOption() and slot7[0 + 1] then
+			slot15:SetOptionSelCodes(slot7[slot6])
+		end
+
+		table.insert(slot0.steps, slot15)
 	end
 
 	slot0.branchCode = nil
@@ -33,6 +39,36 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.isPlayed = pg.NewStoryMgr:GetInstance():IsPlayed(slot0.name)
 	slot0.nextScriptName = nil
 	slot0.skipAll = false
+	slot0.isAuto = false
+	slot0.speed = 0
+end
+
+function slot0.SetAutoPlay(slot0)
+	slot0.isAuto = true
+
+	slot0:SetPlaySpeed(slot0.speedData)
+end
+
+function slot0.StopAutoPlay(slot0)
+	slot0.isAuto = false
+
+	slot0:ResetSpeed()
+end
+
+function slot0.SetPlaySpeed(slot0, slot1)
+	slot0.speed = slot1
+end
+
+function slot0.ResetSpeed(slot0)
+	slot0.speed = 0
+end
+
+function slot0.GetPlaySpeed(slot0)
+	return slot0.speed
+end
+
+function slot0.GetAutoPlayFlag(slot0)
+	return slot0.isAuto
 end
 
 function slot0.ShowSkipTip(slot0)
@@ -49,6 +85,10 @@ end
 
 function slot0.CanPlay(slot0)
 	return slot0.force or not slot0.isPlayed or slot0.isReview
+end
+
+function slot0.IsReView(slot0)
+	return slot0.isReview
 end
 
 function slot0.GetId(slot0)

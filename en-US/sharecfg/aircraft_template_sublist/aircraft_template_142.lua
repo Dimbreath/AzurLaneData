@@ -1,37 +1,86 @@
 pg = pg or {}
 pg.aircraft_template_142 = {
-	[48031] = {
-		id = 48031,
-		base = 48020,
-		max_hp = 92,
-		hp_growth = 3545,
+	[65565] = {
+		max_hp = 77,
+		name = "威悉技能轰炸机Lv5",
+		base = 65561,
+		id = 65565,
+		hp_growth = 2478,
 		weapon_ID = {
-			59771,
-			59691
+			65585
 		}
 	},
-	[48040] = {
-		name = "Ju-87 D-4",
-		max_hp = 38,
+	[65566] = {
+		max_hp = 84,
+		name = "威悉技能轰炸机Lv6",
+		base = 65561,
+		id = 65566,
+		hp_growth = 2710,
+		weapon_ID = {
+			65586
+		}
+	},
+	[65567] = {
+		max_hp = 90,
+		name = "威悉技能轰炸机Lv7",
+		base = 65561,
+		id = 65567,
+		hp_growth = 2943,
+		weapon_ID = {
+			65587
+		}
+	},
+	[65568] = {
+		max_hp = 97,
+		name = "威悉技能轰炸机Lv8",
+		base = 65561,
+		id = 65568,
+		hp_growth = 3175,
+		weapon_ID = {
+			65588
+		}
+	},
+	[65569] = {
+		max_hp = 103,
+		name = "威悉技能轰炸机Lv9",
+		base = 65561,
+		id = 65569,
+		hp_growth = 3407,
+		weapon_ID = {
+			65589
+		}
+	},
+	[65570] = {
+		max_hp = 110,
+		name = "威悉技能轰炸机Lv10",
+		base = 65561,
+		id = 65570,
+		hp_growth = 3640,
+		weapon_ID = {
+			65590
+		}
+	},
+	[65571] = {
+		name = "威悉技能轰炸机PlusLv1",
+		max_hp = 51,
 		accuracy = 23,
-		model_ID = "Ju87D4",
+		model_ID = "JU87C",
 		ACC_growth = 0,
-		crash_DMG = 168,
-		dodge = 1.05,
+		crash_DMG = 156,
+		dodge = 0.315,
 		attack_power = 2,
-		dodge_limit = 5,
-		type = 2,
+		dodge_limit = 11,
+		type = 3,
 		AP_growth = 2000,
-		icon = "Ju87D4",
+		icon = "JU87C",
 		funnel_behavior = "",
 		nationality = 4,
-		hp_growth = 1459,
-		speed = 51,
-		id = 48040,
+		hp_growth = 1549,
+		speed = 50,
+		id = 65571,
 		scale = 1,
 		weapon_ID = {
-			59340,
-			59700
+			65581
 		},
 		position_offset = {
 			0,
@@ -51,13 +100,13 @@ pg.aircraft_template_142 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.69,
-					-1.22,
+					-1.28,
+					1.62,
 					0
 				},
 				{
-					0.75,
-					1.26,
+					-1.12,
+					-1,
 					0
 				}
 			}
@@ -85,74 +134,34 @@ pg.aircraft_template_142 = {
 			}
 		}
 	},
-	[48041] = {
-		id = 48041,
-		base = 48040,
-		max_hp = 44,
-		hp_growth = 1678,
+	[65572] = {
+		max_hp = 57,
+		name = "威悉技能轰炸机PlusLv2",
+		base = 65561,
+		id = 65572,
+		hp_growth = 1781,
 		weapon_ID = {
-			59341,
-			59701
+			65582
 		}
 	},
-	[48042] = {
-		id = 48042,
-		base = 48040,
-		max_hp = 49,
-		hp_growth = 1897,
+	[65573] = {
+		max_hp = 64,
+		name = "威悉技能轰炸机PlusLv3",
+		base = 65561,
+		id = 65573,
+		hp_growth = 2013,
 		weapon_ID = {
-			59342,
-			59702
+			65583
 		}
 	},
-	[48043] = {
-		id = 48043,
-		base = 48040,
-		max_hp = 55,
-		hp_growth = 2116,
+	[65574] = {
+		max_hp = 70,
+		name = "威悉技能轰炸机PlusLv4",
+		base = 65561,
+		id = 65574,
+		hp_growth = 2246,
 		weapon_ID = {
-			59343,
-			59703
-		}
-	},
-	[48044] = {
-		id = 48044,
-		base = 48040,
-		max_hp = 61,
-		hp_growth = 2335,
-		weapon_ID = {
-			59344,
-			59704
-		}
-	},
-	[48045] = {
-		id = 48045,
-		base = 48040,
-		max_hp = 66,
-		hp_growth = 2554,
-		weapon_ID = {
-			59345,
-			59705
-		}
-	},
-	[48046] = {
-		id = 48046,
-		base = 48040,
-		max_hp = 72,
-		hp_growth = 2772,
-		weapon_ID = {
-			59346,
-			59706
-		}
-	},
-	[48047] = {
-		id = 48047,
-		base = 48040,
-		max_hp = 78,
-		hp_growth = 2991,
-		weapon_ID = {
-			59347,
-			59707
+			65584
 		}
 	}
 }

@@ -1,77 +1,115 @@
 pg = pg or {}
 pg.aircraft_template_49 = {
-	[19226] = {
-		id = 19226,
-		base = 19220,
-		max_hp = 80,
-		hp_growth = 3090,
+	[27066] = {
+		id = 27066,
+		base = 27060,
+		max_hp = 81,
+		hp_growth = 3110,
 		weapon_ID = {
-			50526,
-			52826
+			50166,
+			50566,
+			52246
 		}
 	},
-	[19227] = {
-		id = 19227,
-		base = 19220,
+	[27067] = {
+		id = 27067,
+		base = 27060,
 		max_hp = 87,
-		hp_growth = 3334,
+		hp_growth = 3356,
 		weapon_ID = {
-			50527,
-			52827
+			50167,
+			50567,
+			52247
 		}
 	},
-	[19228] = {
-		id = 19228,
-		base = 19220,
-		max_hp = 93,
-		hp_growth = 3578,
+	[27068] = {
+		id = 27068,
+		base = 27060,
+		max_hp = 94,
+		hp_growth = 3601,
 		weapon_ID = {
-			50528,
-			52828
+			50168,
+			50568,
+			52248
 		}
 	},
-	[19229] = {
-		id = 19229,
-		base = 19220,
-		max_hp = 99,
-		hp_growth = 3822,
+	[27069] = {
+		id = 27069,
+		base = 27060,
+		max_hp = 100,
+		hp_growth = 3847,
 		weapon_ID = {
-			50529,
-			52829
+			50169,
+			50569,
+			52249
 		}
 	},
-	[19230] = {
-		id = 19230,
-		base = 19220,
+	[27070] = {
+		id = 27070,
+		base = 27060,
 		max_hp = 106,
-		hp_growth = 4066,
+		hp_growth = 4092,
 		weapon_ID = {
-			50530,
-			52830
+			50170,
+			50570,
+			52250
 		}
 	},
-	[19240] = {
-		name = "BTD-1毁灭者",
-		max_hp = 46,
+	[27071] = {
+		id = 27071,
+		base = 27060,
+		max_hp = 113,
+		hp_growth = 4338,
+		weapon_ID = {
+			50171,
+			50571,
+			52251
+		}
+	},
+	[27072] = {
+		id = 27072,
+		base = 27060,
+		max_hp = 119,
+		hp_growth = 4584,
+		weapon_ID = {
+			50172,
+			50572,
+			52252
+		}
+	},
+	[27073] = {
+		id = 27073,
+		base = 27060,
+		max_hp = 126,
+		hp_growth = 4829,
+		weapon_ID = {
+			50173,
+			50573,
+			52253
+		}
+	},
+	[27100] = {
+		name = "海毒牙",
+		max_hp = 35,
 		accuracy = 23,
-		model_ID = "BTD",
+		model_ID = "haiduya",
 		ACC_growth = 0,
-		crash_DMG = 206,
-		dodge = 3.15,
+		crash_DMG = 156,
+		dodge = 0.357,
 		attack_power = 2,
-		dodge_limit = 2,
-		type = 3,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
-		icon = "BTD",
+		icon = "haiduya",
 		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1774,
-		speed = 45,
-		id = 19240,
+		nationality = 2,
+		hp_growth = 1344,
+		speed = 53,
+		id = 27100,
 		scale = 1,
 		weapon_ID = {
-			50540,
-			52840
+			50600,
+			52300
 		},
 		position_offset = {
 			0,
@@ -91,13 +129,13 @@ pg.aircraft_template_49 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.69,
+					-2.62,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.85,
+					0.17,
 					0
 				}
 			}
@@ -114,8 +152,8 @@ pg.aircraft_template_49 = {
 				0
 			},
 			{
-				0.46,
-				0,
+				0.86,
+				-0.12,
 				0
 			},
 			{
@@ -125,34 +163,14 @@ pg.aircraft_template_49 = {
 			}
 		}
 	},
-	[19241] = {
-		id = 19241,
-		base = 19240,
-		max_hp = 53,
-		hp_growth = 2040,
+	[27101] = {
+		id = 27101,
+		base = 27100,
+		max_hp = 40,
+		hp_growth = 1546,
 		weapon_ID = {
-			50541,
-			52841
-		}
-	},
-	[19242] = {
-		id = 19242,
-		base = 19240,
-		max_hp = 60,
-		hp_growth = 2306,
-		weapon_ID = {
-			50542,
-			52842
-		}
-	},
-	[19243] = {
-		id = 19243,
-		base = 19240,
-		max_hp = 67,
-		hp_growth = 2572,
-		weapon_ID = {
-			50543,
-			52843
+			50601,
+			52301
 		}
 	}
 }

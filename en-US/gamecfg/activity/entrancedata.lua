@@ -93,6 +93,19 @@ return {
 	},
 	{},
 	{
+		banner = "commom_build",
+		event = ActivityMediator.EVENT_GO_SCENE,
+		data = {
+			SCENE.GETBOAT,
+			{
+				projectName = BuildShipScene.PROJECTS.ACTIVITY
+			}
+		},
+		isShow = function ()
+			return getProxy(ActivityProxy):getActivityById(ActivityConst.FRANCE_RE_BUILD) and not slot0:isEnd()
+		end
+	},
+	{
 		banner = "commom_pt_shop",
 		event = ActivityMediator.GO_SHOPS_LAYER,
 		data = {
@@ -253,20 +266,20 @@ return {
 		end
 	},
 	{
-		banner = "meta_entrance_970701",
+		banner = "meta_entrance_970702",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {
 			SCENE.METACHARACTER,
 			{
-				autoOpenShipConfigID = 9707011
+				autoOpenShipConfigID = 9707021
 			}
 		},
 		isShow = function ()
-			return getProxy(ActivityProxy):getActivityById(30802) and not slot1:isEnd()
+			return getProxy(ActivityProxy):getActivityById(920) and not slot1:isEnd()
 		end,
 		isTip = function ()
-			slot0 = 970701
-			slot1 = getProxy(MetaCharacterProxy):getMetaProgressVOByID(970701)
+			slot0 = 970702
+			slot1 = getProxy(MetaCharacterProxy):getMetaProgressVOByID(970702)
 
 			slot1:setDataBeforeGet()
 

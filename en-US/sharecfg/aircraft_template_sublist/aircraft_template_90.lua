@@ -1,26 +1,37 @@
 pg = pg or {}
 pg.aircraft_template_90 = {
-	[37000] = {
-		name = "96式舰战",
-		max_hp = 27,
+	[37306] = {
+		id = 37306,
+		base = 37300,
+		max_hp = 63,
+		hp_growth = 2426,
+		weapon_ID = {
+			59506,
+			52306
+		}
+	},
+	[37320] = {
+		name = "烈风",
+		max_hp = 37,
 		accuracy = 23,
-		model_ID = "96jiangong",
+		model_ID = "liefeng",
 		ACC_growth = 0,
-		crash_DMG = 86,
-		dodge = 0.357,
+		crash_DMG = 162,
+		dodge = 0.309,
 		attack_power = 2,
-		dodge_limit = 7,
+		dodge_limit = 9.5,
 		type = 1,
 		AP_growth = 2000,
-		icon = "96jiangong",
+		icon = "liefeng",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1021,
-		speed = 48,
-		id = 37000,
+		hp_growth = 1404,
+		speed = 60,
+		id = 37320,
 		scale = 1,
 		weapon_ID = {
-			50000
+			59520,
+			52320
 		},
 		position_offset = {
 			0,
@@ -63,8 +74,8 @@ pg.aircraft_template_90 = {
 				0
 			},
 			{
-				0.72,
-				-0.15,
+				0.51,
+				0,
 				0
 			},
 			{
@@ -74,206 +85,84 @@ pg.aircraft_template_90 = {
 			}
 		}
 	},
-	[37001] = {
-		id = 37001,
-		base = 37000,
-		max_hp = 31,
-		hp_growth = 1175,
+	[37321] = {
+		id = 37321,
+		base = 37320,
+		max_hp = 42,
+		hp_growth = 1615,
 		weapon_ID = {
-			50001
+			59521,
+			52321
 		}
 	},
-	[37002] = {
-		id = 37002,
-		base = 37000,
-		max_hp = 35,
-		hp_growth = 1328,
+	[37322] = {
+		id = 37322,
+		base = 37320,
+		max_hp = 47,
+		hp_growth = 1826,
 		weapon_ID = {
-			50002
+			59522,
+			52322
 		}
 	},
-	[37003] = {
-		id = 37003,
-		base = 37000,
-		max_hp = 39,
-		hp_growth = 1481,
+	[37323] = {
+		id = 37323,
+		base = 37320,
+		max_hp = 53,
+		hp_growth = 2036,
 		weapon_ID = {
-			50003
+			59523,
+			52323
 		}
 	},
-	[37020] = {
-		name = "96式舰战",
-		max_hp = 30,
-		accuracy = 23,
-		model_ID = "96jiangong",
-		ACC_growth = 0,
-		crash_DMG = 86,
-		dodge = 0.345,
-		attack_power = 2,
-		dodge_limit = 7.5,
-		type = 1,
-		AP_growth = 2000,
-		icon = "96jiangong",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1149,
-		speed = 48,
-		id = 37020,
-		scale = 1,
+	[37324] = {
+		id = 37324,
+		base = 37320,
+		max_hp = 58,
+		hp_growth = 2247,
 		weapon_ID = {
-			50020
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.72,
-				-0.15,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
+			59524,
+			52324
 		}
 	},
-	[37021] = {
-		id = 37021,
-		base = 37020,
-		max_hp = 34,
-		hp_growth = 1321,
+	[37325] = {
+		id = 37325,
+		base = 37320,
+		max_hp = 64,
+		hp_growth = 2458,
 		weapon_ID = {
-			50021
+			59525,
+			52325
 		}
 	},
-	[37022] = {
-		id = 37022,
-		base = 37020,
-		max_hp = 39,
-		hp_growth = 1494,
+	[37326] = {
+		id = 37326,
+		base = 37320,
+		max_hp = 69,
+		hp_growth = 2669,
 		weapon_ID = {
-			50022
+			59526,
+			52326
 		}
 	},
-	[37023] = {
-		id = 37023,
-		base = 37020,
-		max_hp = 43,
-		hp_growth = 1666,
+	[37327] = {
+		id = 37327,
+		base = 37320,
+		max_hp = 75,
+		hp_growth = 2879,
 		weapon_ID = {
-			50023
+			59527,
+			52327
 		}
 	},
-	[37040] = {
-		name = "96式舰战",
-		max_hp = 33,
-		accuracy = 23,
-		model_ID = "96jiangong",
-		ACC_growth = 0,
-		crash_DMG = 86,
-		dodge = 0.333,
-		attack_power = 2,
-		dodge_limit = 8,
-		type = 1,
-		AP_growth = 2000,
-		icon = "96jiangong",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1277,
-		speed = 48,
-		id = 37040,
-		scale = 1,
+	[37328] = {
+		id = 37328,
+		base = 37320,
+		max_hp = 80,
+		hp_growth = 3090,
 		weapon_ID = {
-			50040
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.72,
-				-0.15,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
+			59528,
+			52328
 		}
 	}
 }

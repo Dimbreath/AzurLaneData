@@ -125,10 +125,16 @@ function slot0.register(slot0)
 	slot0:bind(uv0.OPEN_LAYER, function (slot0, ...)
 		uv0:addSubLayers(...)
 	end)
-	slot0.viewComponent:setEquipment(getProxy(EquipmentProxy):getEquipmentById(slot0.contextData.equipmentId) or slot5 and slot5 > 0 and Equipment.New({
-		id = slot5
-	}) or nil)
-	slot0.viewComponent:setShip(getProxy(BayProxy):getShipById(slot0.contextData.shipId), slot0.contextData.oldShipId and slot7:getShipById(slot0.contextData.oldShipId) or nil)
+
+	if slot0.contextData.equipment then
+		slot0.viewComponent:setEquipment(slot0.contextData.equipment)
+	else
+		slot0.viewComponent:setEquipment(getProxy(EquipmentProxy):getEquipmentById(slot0.contextData.equipmentId) or slot5 and slot5 > 0 and Equipment.New({
+			id = slot5
+		}) or nil)
+	end
+
+	slot0.viewComponent:setShip(getProxy(BayProxy):getShipById(slot0.contextData.shipId), slot0.contextData.oldShipId and slot4:getShipById(slot0.contextData.oldShipId) or nil)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 end
 

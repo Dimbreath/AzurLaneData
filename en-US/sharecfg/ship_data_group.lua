@@ -4083,6 +4083,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -16581,6 +16592,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -16654,6 +16676,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -16683,6 +16716,17 @@ pg.ship_data_group = {
 				"Event: Iris of Light and Dark",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -16849,6 +16893,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Special Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -16887,6 +16942,17 @@ pg.ship_data_group = {
 				"Event: Iris of Light and Dark",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -16980,6 +17046,17 @@ pg.ship_data_group = {
 				"Event: Iris of Light and Dark",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -17106,6 +17183,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -17135,6 +17223,17 @@ pg.ship_data_group = {
 				"Event: Iris of Light and Dark",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -18589,6 +18688,40 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[30002] = {
+		type = 7,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		nationality = 97,
+		hide = 0,
+		index_id = 30002,
+		group_type = 970702,
+		code = 30002,
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"A",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"META Lab - Coordinate Analysis",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9707021
+					}
+				},
+				0
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -19053,6 +19186,7 @@ pg.ship_data_group = {
 		20015,
 		20016,
 		20017,
-		30001
+		30001,
+		30002
 	}
 }

@@ -1,88 +1,37 @@
 pg = pg or {}
 pg.aircraft_template_213 = {
-	[69936] = {
-		max_hp = 68,
-		name = "信浓技能流星 LV6",
-		base = 69931,
-		id = 69936,
-		hp_growth = 2634,
+	[82003] = {
+		id = 82003,
+		base = 82000,
+		max_hp = 46,
+		hp_growth = 1754,
 		weapon_ID = {
-			50546,
-			50846,
-			51466
+			50103,
+			50503
 		}
 	},
-	[69937] = {
-		max_hp = 74,
-		name = "信浓技能流星 LV7",
-		base = 69931,
-		id = 69937,
-		hp_growth = 2842,
-		weapon_ID = {
-			50547,
-			50847,
-			51467
-		}
-	},
-	[69938] = {
-		max_hp = 79,
-		name = "信浓技能流星 LV8",
-		base = 69931,
-		id = 69938,
-		hp_growth = 3050,
-		weapon_ID = {
-			50548,
-			50848,
-			51468
-		}
-	},
-	[69939] = {
-		max_hp = 85,
-		name = "信浓技能流星 LV9",
-		base = 69931,
-		id = 69939,
-		hp_growth = 3258,
-		weapon_ID = {
-			50549,
-			50849,
-			51469
-		}
-	},
-	[69940] = {
-		max_hp = 90,
-		name = "信浓技能流星 LV10",
-		base = 69931,
-		id = 69940,
-		hp_growth = 3466,
-		weapon_ID = {
-			50550,
-			50850,
-			51470
-		}
-	},
-	[69971] = {
-		name = "千岁千代田技能瑞云",
-		max_hp = 37,
+	[82020] = {
+		name = "海喷火",
+		max_hp = 35,
 		accuracy = 23,
-		model_ID = "ruiyun",
+		model_ID = "haipenhuo",
 		ACC_growth = 0,
-		crash_DMG = 120,
-		dodge = 3.51,
+		crash_DMG = 52,
+		dodge = 0.345,
 		attack_power = 2,
-		dodge_limit = 1,
-		type = 3,
+		dodge_limit = 9.5,
+		type = 1,
 		AP_growth = 2000,
-		icon = "ruiyun",
+		icon = "haipenhuo",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1438,
-		speed = 46,
-		id = 69971,
+		nationality = 2,
+		hp_growth = 1344,
+		speed = 50,
+		id = 82020,
 		scale = 1,
 		weapon_ID = {
-			50541,
-			50841,
-			52241
+			50120,
+			50520
 		},
 		position_offset = {
 			0,
@@ -102,13 +51,13 @@ pg.aircraft_template_213 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					0.69,
+					-2.62,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.85,
+					0.17,
 					0
 				}
 			}
@@ -125,7 +74,7 @@ pg.aircraft_template_213 = {
 				0
 			},
 			{
-				0,
+				0.62,
 				0,
 				0
 			},
@@ -136,37 +85,149 @@ pg.aircraft_template_213 = {
 			}
 		}
 	},
-	[69972] = {
-		id = 69972,
-		base = 69971,
-		max_hp = 42,
-		hp_growth = 1626,
+	[82021] = {
+		id = 82021,
+		base = 82020,
+		max_hp = 40,
+		hp_growth = 1546,
 		weapon_ID = {
-			50542,
-			50842,
-			52242
+			50121,
+			50521
 		}
 	},
-	[69973] = {
-		id = 69973,
-		base = 69971,
-		max_hp = 47,
-		hp_growth = 1813,
+	[82022] = {
+		id = 82022,
+		base = 82020,
+		max_hp = 45,
+		hp_growth = 1747,
 		weapon_ID = {
-			50543,
-			50843,
-			52243
+			50122,
+			50522
 		}
 	},
-	[69974] = {
-		id = 69974,
-		base = 69971,
-		max_hp = 52,
-		hp_growth = 2001,
+	[82023] = {
+		id = 82023,
+		base = 82020,
+		max_hp = 51,
+		hp_growth = 1949,
 		weapon_ID = {
-			50544,
-			50844,
-			52244
+			50123,
+			50523
+		}
+	},
+	[82024] = {
+		id = 82024,
+		base = 82020,
+		max_hp = 56,
+		hp_growth = 2150,
+		weapon_ID = {
+			50124,
+			50524
+		}
+	},
+	[82025] = {
+		id = 82025,
+		base = 82020,
+		max_hp = 61,
+		hp_growth = 2352,
+		weapon_ID = {
+			50125,
+			50525
+		}
+	},
+	[82026] = {
+		id = 82026,
+		base = 82020,
+		max_hp = 66,
+		hp_growth = 2554,
+		weapon_ID = {
+			50126,
+			50526
+		}
+	},
+	[82040] = {
+		name = "海喷火",
+		max_hp = 38,
+		accuracy = 23,
+		model_ID = "haipenhuo",
+		ACC_growth = 0,
+		crash_DMG = 52,
+		dodge = 0.333,
+		attack_power = 2,
+		dodge_limit = 10,
+		type = 1,
+		AP_growth = 2000,
+		icon = "haipenhuo",
+		funnel_behavior = "",
+		nationality = 2,
+		hp_growth = 1478,
+		speed = 50,
+		id = 82040,
+		scale = 1,
+		weapon_ID = {
+			50140,
+			50540
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.69,
+					-2.62,
+					0
+				},
+				{
+					0.85,
+					0.17,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.62,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[82041] = {
+		id = 82041,
+		base = 82040,
+		max_hp = 44,
+		hp_growth = 1700,
+		weapon_ID = {
+			50141,
+			50541
 		}
 	}
 }

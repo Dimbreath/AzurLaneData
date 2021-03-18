@@ -1,49 +1,47 @@
 pg = pg or {}
 pg.aircraft_template_99 = {
-	[37252] = {
-		id = 37252,
-		base = 37240,
-		max_hp = 112,
-		hp_growth = 4290,
+	[38102] = {
+		id = 38102,
+		base = 38100,
+		max_hp = 35,
+		hp_growth = 1352,
 		weapon_ID = {
-			50052,
-			50552,
-			52152
+			50002,
+			51402
 		}
 	},
-	[37253] = {
-		id = 37253,
-		base = 37240,
-		max_hp = 118,
-		hp_growth = 4520,
+	[38103] = {
+		id = 38103,
+		base = 38100,
+		max_hp = 39,
+		hp_growth = 1508,
 		weapon_ID = {
-			50053,
-			50553,
-			52153
+			50003,
+			51403
 		}
 	},
-	[37300] = {
-		name = "烈风",
-		max_hp = 33,
+	[38120] = {
+		name = "天山",
+		max_hp = 30,
 		accuracy = 23,
-		model_ID = "liefeng",
+		model_ID = "tianshan",
 		ACC_growth = 0,
-		crash_DMG = 162,
-		dodge = 0.321,
+		crash_DMG = 168,
+		dodge = 1.15,
 		attack_power = 2,
-		dodge_limit = 9,
-		type = 1,
+		dodge_limit = 4.5,
+		type = 2,
 		AP_growth = 2000,
-		icon = "liefeng",
+		icon = "tianshan",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1277,
-		speed = 60,
-		id = 37300,
+		hp_growth = 1155,
+		speed = 48,
+		id = 38120,
 		scale = 1,
 		weapon_ID = {
-			59500,
-			52300
+			50020,
+			51420
 		},
 		position_offset = {
 			0,
@@ -86,7 +84,7 @@ pg.aircraft_template_99 = {
 				0
 			},
 			{
-				0.51,
+				0.58,
 				0,
 				0
 			},
@@ -97,64 +95,139 @@ pg.aircraft_template_99 = {
 			}
 		}
 	},
-	[37301] = {
-		id = 37301,
-		base = 37300,
-		max_hp = 38,
-		hp_growth = 1468,
+	[38121] = {
+		id = 38121,
+		base = 38120,
+		max_hp = 35,
+		hp_growth = 1328,
 		weapon_ID = {
-			59501,
-			52301
+			50021,
+			51421
 		}
 	},
-	[37302] = {
-		id = 37302,
-		base = 37300,
-		max_hp = 43,
-		hp_growth = 1660,
+	[38122] = {
+		id = 38122,
+		base = 38120,
+		max_hp = 39,
+		hp_growth = 1502,
 		weapon_ID = {
-			59502,
-			52302
+			50022,
+			51422
 		}
 	},
-	[37303] = {
-		id = 37303,
-		base = 37300,
+	[38123] = {
+		id = 38123,
+		base = 38120,
+		max_hp = 44,
+		hp_growth = 1675,
+		weapon_ID = {
+			50023,
+			51423
+		}
+	},
+	[38124] = {
+		id = 38124,
+		base = 38120,
 		max_hp = 48,
-		hp_growth = 1851,
+		hp_growth = 1848,
 		weapon_ID = {
-			59503,
-			52303
+			50024,
+			51424
 		}
 	},
-	[37304] = {
-		id = 37304,
-		base = 37300,
+	[38125] = {
+		id = 38125,
+		base = 38120,
 		max_hp = 53,
-		hp_growth = 2043,
+		hp_growth = 2022,
 		weapon_ID = {
-			59504,
-			52304
+			50025,
+			51425
 		}
 	},
-	[37305] = {
-		id = 37305,
-		base = 37300,
-		max_hp = 58,
-		hp_growth = 2234,
+	[38126] = {
+		id = 38126,
+		base = 38120,
+		max_hp = 57,
+		hp_growth = 2195,
 		weapon_ID = {
-			59505,
-			52305
+			50026,
+			51426
 		}
 	},
-	[37306] = {
-		id = 37306,
-		base = 37300,
-		max_hp = 63,
-		hp_growth = 2426,
+	[38140] = {
+		name = "天山",
+		max_hp = 33,
+		accuracy = 23,
+		model_ID = "tianshan",
+		ACC_growth = 0,
+		crash_DMG = 168,
+		dodge = 1.11,
+		attack_power = 2,
+		dodge_limit = 5,
+		type = 2,
+		AP_growth = 2000,
+		icon = "tianshan",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1271,
+		speed = 48,
+		id = 38140,
+		scale = 1,
 		weapon_ID = {
-			59506,
-			52306
+			50040,
+			51440
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.58,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	}
 }

@@ -248408,6 +248408,506 @@ pg.ship_data_statistics = {
 			"Hiryu"
 		}
 	},
+	[9707021] = {
+		oxy_max = 0,
+		type = 7,
+		name = "Ark Royal META ",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 9707021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Ark Royal META ",
+		oxy_cost = 0,
+		skin_id = 9707020,
+		attack_duration = 0,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1066,
+			0,
+			0,
+			61,
+			80,
+			42,
+			0,
+			27,
+			9,
+			31,
+			87,
+			0
+		},
+		attrs_growth = {
+			15495,
+			0,
+			0,
+			588,
+			793,
+			209,
+			0,
+			350,
+			123,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			114,
+			114,
+			115
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.25,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Ark Royal.META",
+			"Ark Royal"
+		}
+	},
+	[9707022] = {
+		oxy_max = 0,
+		type = 7,
+		name = "Ark Royal META ",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 9707022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Ark Royal META ",
+		oxy_cost = 0,
+		skin_id = 9707020,
+		attack_duration = 0,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1326,
+			0,
+			0,
+			76,
+			100,
+			42,
+			0,
+			27,
+			9,
+			31,
+			87,
+			0
+		},
+		attrs_growth = {
+			15495,
+			0,
+			0,
+			588,
+			793,
+			209,
+			0,
+			350,
+			123,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			114,
+			114,
+			115
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.33,
+			1.28,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Ark Royal.META",
+			"Ark Royal"
+		}
+	},
+	[9707023] = {
+		oxy_max = 0,
+		type = 7,
+		name = "Ark Royal META ",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 9707023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Ark Royal META ",
+		oxy_cost = 0,
+		skin_id = 9707020,
+		attack_duration = 0,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1846,
+			0,
+			0,
+			106,
+			139,
+			42,
+			0,
+			27,
+			9,
+			31,
+			87,
+			0
+		},
+		attrs_growth = {
+			15495,
+			0,
+			0,
+			588,
+			793,
+			209,
+			0,
+			350,
+			123,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			114,
+			114,
+			115
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.38,
+			1.33,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Ark Royal.META",
+			"Ark Royal"
+		}
+	},
+	[9707024] = {
+		oxy_max = 0,
+		type = 7,
+		name = "Ark Royal META ",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 9707024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Ark Royal META ",
+		oxy_cost = 0,
+		skin_id = 9707020,
+		attack_duration = 0,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2626,
+			0,
+			0,
+			150,
+			199,
+			42,
+			0,
+			27,
+			9,
+			31,
+			87,
+			0
+		},
+		attrs_growth = {
+			15495,
+			0,
+			0,
+			588,
+			793,
+			209,
+			0,
+			350,
+			123,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			23505,
+			0,
+			0,
+			1191,
+			1183,
+			496,
+			0,
+			171,
+			827,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			114,
+			114,
+			115
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.4,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Ark Royal.META",
+			"Ark Royal"
+		}
+	},
 	[10100011] = {
 		oxy_max = 0,
 		type = 2,
@@ -272210,6 +272710,10 @@ pg.ship_data_statistics = {
 		9707012,
 		9707013,
 		9707014,
+		9707021,
+		9707022,
+		9707023,
+		9707024,
 		10100011,
 		10100012,
 		10100013,

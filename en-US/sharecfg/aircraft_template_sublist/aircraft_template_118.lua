@@ -1,61 +1,82 @@
 pg = pg or {}
 pg.aircraft_template_118 = {
-	[39024] = {
-		id = 39024,
-		base = 39020,
-		max_hp = 56,
-		hp_growth = 2140,
+	[39329] = {
+		id = 39329,
+		base = 39320,
+		max_hp = 98,
+		hp_growth = 3772,
 		weapon_ID = {
-			50024,
-			52224,
-			52124
+			50049,
+			52649,
+			52149
 		}
 	},
-	[39025] = {
-		id = 39025,
-		base = 39020,
-		max_hp = 61,
-		hp_growth = 2341,
+	[39330] = {
+		id = 39330,
+		base = 39320,
+		max_hp = 104,
+		hp_growth = 4013,
 		weapon_ID = {
-			50025,
-			52225,
-			52125
+			50050,
+			52650,
+			52150
 		}
 	},
-	[39026] = {
-		id = 39026,
-		base = 39020,
-		max_hp = 66,
-		hp_growth = 2541,
+	[39331] = {
+		id = 39331,
+		base = 39320,
+		max_hp = 111,
+		hp_growth = 4254,
 		weapon_ID = {
-			50026,
-			52226,
-			52126
+			50051,
+			52651,
+			52151
 		}
 	},
-	[39040] = {
-		name = "九九式舰爆",
-		max_hp = 38,
+	[39332] = {
+		id = 39332,
+		base = 39320,
+		max_hp = 117,
+		hp_growth = 4494,
+		weapon_ID = {
+			50052,
+			52652,
+			52152
+		}
+	},
+	[39333] = {
+		id = 39333,
+		base = 39320,
+		max_hp = 123,
+		hp_growth = 4735,
+		weapon_ID = {
+			50053,
+			52653,
+			52153
+		}
+	},
+	[47000] = {
+		name = "BF-109T舰载战斗机T1",
+		max_hp = 31,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "BF109T",
 		ACC_growth = 0,
-		crash_DMG = 180,
-		dodge = 3.33,
+		crash_DMG = 42,
+		dodge = 0.357,
 		attack_power = 2,
-		dodge_limit = 1,
-		type = 3,
+		dodge_limit = 8,
+		type = 1,
 		AP_growth = 2000,
-		icon = "99shijianbao1",
+		icon = "BF109T",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1471,
-		speed = 45,
-		id = 39040,
+		nationality = 4,
+		hp_growth = 1210,
+		speed = 50,
+		id = 47000,
 		scale = 1,
 		weapon_ID = {
-			50040,
-			52240,
-			52140
+			59000,
+			59400
 		},
 		position_offset = {
 			0,
@@ -75,13 +96,13 @@ pg.aircraft_template_118 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -98,7 +119,7 @@ pg.aircraft_template_118 = {
 				0
 			},
 			{
-				0,
+				0.27,
 				0,
 				0
 			},
@@ -109,59 +130,109 @@ pg.aircraft_template_118 = {
 			}
 		}
 	},
-	[39041] = {
-		id = 39041,
-		base = 39040,
-		max_hp = 44,
-		hp_growth = 1692,
+	[47001] = {
+		id = 47001,
+		base = 47000,
+		max_hp = 36,
+		hp_growth = 1391,
 		weapon_ID = {
-			50041,
-			52241,
-			52141
+			59001,
+			59401
 		}
 	},
-	[39042] = {
-		id = 39042,
-		base = 39040,
-		max_hp = 50,
-		hp_growth = 1913,
+	[47002] = {
+		id = 47002,
+		base = 47000,
+		max_hp = 41,
+		hp_growth = 1572,
 		weapon_ID = {
-			50042,
-			52242,
-			52142
+			59002,
+			59402
 		}
 	},
-	[39043] = {
-		id = 39043,
-		base = 39040,
-		max_hp = 55,
-		hp_growth = 2133,
+	[47003] = {
+		id = 47003,
+		base = 47000,
+		max_hp = 46,
+		hp_growth = 1754,
 		weapon_ID = {
-			50043,
-			52243,
-			52143
+			59003,
+			59403
 		}
 	},
-	[39044] = {
-		id = 39044,
-		base = 39040,
-		max_hp = 61,
-		hp_growth = 2354,
+	[47020] = {
+		name = "BF-109T舰载战斗机T2",
+		max_hp = 35,
+		accuracy = 23,
+		model_ID = "BF109T",
+		ACC_growth = 0,
+		crash_DMG = 42,
+		dodge = 0.345,
+		attack_power = 2,
+		dodge_limit = 8.5,
+		type = 1,
+		AP_growth = 2000,
+		icon = "BF109T",
+		funnel_behavior = "",
+		nationality = 4,
+		hp_growth = 1344,
+		speed = 50,
+		id = 47020,
+		scale = 1,
 		weapon_ID = {
-			50044,
-			52244,
-			52144
-		}
-	},
-	[39045] = {
-		id = 39045,
-		base = 39040,
-		max_hp = 67,
-		hp_growth = 2575,
-		weapon_ID = {
-			50045,
-			52245,
-			52145
+			59020,
+			59420
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	}
 }

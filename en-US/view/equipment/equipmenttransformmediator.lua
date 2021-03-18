@@ -12,9 +12,7 @@ function slot0.register(slot0)
 
 	slot0:getViewComponent():SetEnv(slot0.env)
 
-	slot1 = EquipmentTraceBackLayer.GetTracebackResultFuncCreator()
-	slot0.env.GetEquipTraceBack = slot1.traceback
-	slot0.env.GetSameTypeInEquips = slot1.getSameEquipTypeInDict
+	slot0.env.tracebackHelper = getProxy(EquipmentProxy):GetWeakEquipsDict()
 
 	slot0:getViewComponent():UpdatePlayer(getProxy(PlayerProxy):getData())
 end
@@ -43,7 +41,7 @@ function slot0.BindEvent(slot0)
 	slot0:bind(uv0.SELECT_TRANSFORM_FROM_STOREHOUSE, function (slot0, slot1)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SELECT_TRANSFORM_EQUIPMENT, {
 			warp = StoreHouseConst.WARP_TO_WEAPON,
-			equipmentVOs = uv0.env.GetSameTypeInEquips(slot1),
+			equipmentVOs = uv0.env.tracebackHelper:GetSameTypeInEquips(slot1),
 			onSelect = function (slot0)
 				return true
 			end,
@@ -69,7 +67,7 @@ function slot0.listNotificationInterests(slot0)
 		EquipmentProxy.EQUIPMENT_ADDED,
 		EquipmentProxy.EQUIPMENT_UPDATED,
 		EquipmentProxy.EQUIPMENT_REMOVED,
-		BayProxy.SHIP_UPDATED,
+		GAME.EQUIP_TO_SHIP_DONE,
 		GAME.UNEQUIP_FROM_SHIP_DONE
 	}
 end
@@ -79,33 +77,30 @@ function slot0.handleNotification(slot0, slot1)
 		slot0:getViewComponent():UpdatePlayer(slot1:getBody())
 	elseif slot2 == BagProxy.ITEM_ADDED or slot2 == BagProxy.ITEM_UPDATED then
 		slot0:getViewComponent():UpdatePage()
-	elseif slot2 == EquipmentProxy.EQUIPMENT_ADDED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED or slot2 == EquipmentProxy.EQUIPMENT_REMOVED or slot2 == BayProxy.SHIP_UPDATED then
-		slot4 = EquipmentTraceBackLayer.GetTracebackResultFuncCreator()
-		slot0.env.GetEquipTraceBack = slot4.traceback
-		slot0.env.GetSameTypeInEquips = slot4.getSameEquipTypeInDict
-
-		slot0:getViewComponent():UpdateSourceEquipmentPaths()
-
-		if (slot2 == EquipmentProxy.EQUIPMENT_REMOVED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED and slot3.count == 0) and slot0.contextData.sourceEquipmentInstance and slot0.contextData.sourceEquipmentInstance.id == slot3.id then
+	elseif slot2 == EquipmentProxy.EQUIPMENT_ADDED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED or slot2 == EquipmentProxy.EQUIPMENT_REMOVED then
+		if slot0.contextData.sourceEquipmentInstance and (slot2 == EquipmentProxy.EQUIPMENT_REMOVED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED and slot3.count == 0) and EquipmentProxy.SameEquip(slot3, slot0.contextData.sourceEquipmentInstance) then
 			slot0.contextData.sourceEquipmentInstance = nil
 		end
 
+		slot4 = slot0:getViewComponent()
+
+		slot4:UpdateSourceEquipmentPaths()
+		slot4:UpdateSourceInfo()
+		slot4:UpdateTargetInfo()
+	elseif slot2 == GAME.UNEQUIP_FROM_SHIP_DONE or slot2 == GAME.EQUIP_TO_SHIP_DONE then
+		if slot0.contextData.sourceEquipmentInstance then
+			slot5 = slot3:getEquip(slot4.shipPos)
+
+			if slot4.shipId == slot3.id and (not slot5 or slot5.id ~= slot4.id) then
+				slot0.contextData.sourceEquipmentInstance = nil
+			end
+		end
+
+		slot5 = slot0:getViewComponent()
+
+		slot5:UpdateSourceEquipmentPaths()
 		slot5:UpdateSourceInfo()
 		slot5:UpdateTargetInfo()
-	elseif slot2 == GAME.UNEQUIP_FROM_SHIP_DONE then
-		if not slot0.contextData.sourceEquipmentInstance then
-			return
-		end
-
-		if slot0.contextData.sourceEquipmentInstance.shipId ~= slot3.id then
-			return
-		end
-
-		if slot3:getEquip(slot4.shipPos) ~= slot4.id then
-			slot0.contextData.sourceEquipmentInstance = nil
-
-			slot0:getViewComponent():UpdateSourceInfo()
-		end
 	elseif slot2 == GAME.TRANSFORM_EQUIPMENT_DONE then
 		slot0.contextData.sourceEquipmentInstance = nil
 

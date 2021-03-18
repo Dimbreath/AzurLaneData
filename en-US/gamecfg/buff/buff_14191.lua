@@ -12,7 +12,7 @@ return {
 	time = 8,
 	name = "",
 	init_effect = "",
-	id = 14192,
+	id = 14191,
 	picture = "",
 	desc = "",
 	stack = 1,

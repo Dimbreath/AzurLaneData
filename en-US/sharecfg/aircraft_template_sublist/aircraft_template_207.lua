@@ -1,102 +1,168 @@
 pg = pg or {}
 pg.aircraft_template_207 = {
-	[69692] = {
-		max_hp = 48,
-		name = "英仙座技能海黄蜂Lv2",
-		base = 69691,
-		id = 69692,
-		hp_growth = 1913,
+	[81328] = {
+		id = 81328,
+		base = 81320,
+		max_hp = 89,
+		hp_growth = 3415,
 		weapon_ID = {
-			50662,
-			69722
+			50328,
+			50528
 		}
 	},
-	[69693] = {
-		max_hp = 54,
-		name = "英仙座技能海黄蜂Lv3",
-		base = 69691,
-		id = 69693,
-		hp_growth = 2133,
+	[81329] = {
+		id = 81329,
+		base = 81320,
+		max_hp = 95,
+		hp_growth = 3648,
 		weapon_ID = {
-			50663,
-			69723
+			50329,
+			50529
 		}
 	},
-	[69694] = {
-		max_hp = 61,
-		name = "英仙座技能海黄蜂Lv4",
-		base = 69691,
-		id = 69694,
-		hp_growth = 2354,
+	[81330] = {
+		id = 81330,
+		base = 81320,
+		max_hp = 101,
+		hp_growth = 3881,
 		weapon_ID = {
-			50664,
-			69724
+			50330,
+			50530
 		}
 	},
-	[69695] = {
-		max_hp = 67,
-		name = "英仙座技能海黄蜂Lv5",
-		base = 69691,
-		id = 69695,
-		hp_growth = 2575,
+	[81340] = {
+		name = "F6F地狱猫",
+		max_hp = 44,
+		accuracy = 23,
+		model_ID = "f6f",
+		ACC_growth = 0,
+		crash_DMG = 80,
+		dodge = 0.315,
+		attack_power = 2,
+		dodge_limit = 11,
+		type = 1,
+		AP_growth = 2000,
+		icon = "f6f",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1693,
+		speed = 50,
+		id = 81340,
+		scale = 1,
 		weapon_ID = {
-			50665,
-			69725
+			50340,
+			50540
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.28,
+					1.62,
+					0
+				},
+				{
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	},
-	[69696] = {
-		max_hp = 73,
-		name = "英仙座技能海黄蜂Lv6",
-		base = 69691,
-		id = 69696,
-		hp_growth = 2796,
+	[81341] = {
+		id = 81341,
+		base = 81340,
+		max_hp = 51,
+		hp_growth = 1947,
 		weapon_ID = {
-			50666,
-			69726
+			50341,
+			50541
 		}
 	},
-	[69697] = {
-		max_hp = 79,
-		name = "英仙座技能海黄蜂Lv7",
-		base = 69691,
-		id = 69697,
-		hp_growth = 3016,
+	[81342] = {
+		id = 81342,
+		base = 81340,
+		max_hp = 57,
+		hp_growth = 2201,
 		weapon_ID = {
-			50667,
-			69727
+			50342,
+			50542
 		}
 	},
-	[69698] = {
-		max_hp = 86,
-		name = "英仙座技能海黄蜂Lv8",
-		base = 69691,
-		id = 69698,
-		hp_growth = 3237,
+	[81343] = {
+		id = 81343,
+		base = 81340,
+		max_hp = 64,
+		hp_growth = 2455,
 		weapon_ID = {
-			50668,
-			69728
+			50343,
+			50543
 		}
 	},
-	[69699] = {
-		max_hp = 92,
-		name = "英仙座技能海黄蜂Lv9",
-		base = 69691,
-		id = 69699,
-		hp_growth = 3458,
+	[81344] = {
+		id = 81344,
+		base = 81340,
+		max_hp = 70,
+		hp_growth = 2710,
 		weapon_ID = {
-			50669,
-			69729
+			50344,
+			50544
 		}
 	},
-	[69700] = {
-		max_hp = 98,
-		name = "英仙座技能海黄蜂Lv10",
-		base = 69691,
-		id = 69700,
-		hp_growth = 3678,
+	[81345] = {
+		id = 81345,
+		base = 81340,
+		max_hp = 77,
+		hp_growth = 2964,
 		weapon_ID = {
-			50670,
-			69730
+			50345,
+			50545
+		}
+	},
+	[81346] = {
+		id = 81346,
+		base = 81340,
+		max_hp = 84,
+		hp_growth = 3218,
+		weapon_ID = {
+			50346,
+			50546
 		}
 	}
 }

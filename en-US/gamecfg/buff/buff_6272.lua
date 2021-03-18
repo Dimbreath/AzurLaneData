@@ -23,6 +23,7 @@ return {
 				"onRemove"
 			},
 			arg_list = {
+				group = 6272,
 				number = 1,
 				attr = "perfectDodge"
 			}
@@ -34,6 +35,7 @@ return {
 				"onRemove"
 			},
 			arg_list = {
+				group = 6272,
 				number = 1,
 				attr = "immuneDirectHit"
 			}

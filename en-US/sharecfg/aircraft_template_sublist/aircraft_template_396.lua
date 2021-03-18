@@ -1,87 +1,12 @@
 pg = pg or {}
 pg.aircraft_template_396 = {
-	[33100] = {
-		name = "夏活困难空袭BF109T",
-		max_hp = 200,
-		accuracy = 23,
-		model_ID = "BF109T",
-		ACC_growth = 0,
-		crash_DMG = 268,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "BF109T",
-		funnel_behavior = "",
-		nationality = 4,
-		hp_growth = 3200,
-		speed = 42,
-		id = 33100,
-		scale = 0.75,
-		weapon_ID = {
-			470000,
-			470001
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.83,
-					-1.48,
-					0
-				},
-				{
-					0.87,
-					1.34,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.27,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[33101] = {
-		name = "夏活困难空袭Me155A",
-		max_hp = 226,
-		accuracy = 23,
+	[2200810] = {
+		name = "【大世界】德系舰载战斗机I",
+		max_hp = 128,
+		accuracy = 35,
 		model_ID = "Me155A",
 		ACC_growth = 0,
-		crash_DMG = 312,
+		crash_DMG = 72,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
@@ -89,14 +14,14 @@ pg.aircraft_template_396 = {
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
-		nationality = 4,
-		hp_growth = 3400,
-		speed = 44,
-		id = 33101,
+		nationality = 3,
+		hp_growth = 3360,
+		speed = 33,
+		id = 2200810,
 		scale = 0.75,
 		weapon_ID = {
-			470002,
-			470003
+			1100745,
+			1100750
 		},
 		position_offset = {
 			0,
@@ -116,13 +41,13 @@ pg.aircraft_template_396 = {
 		bound_bone = {
 			weapon = {
 				{
-					1.04,
-					1.18,
+					0.56,
+					-0.76,
 					0
 				},
 				{
-					0.83,
-					-0.79,
+					0.48,
+					0.99,
 					0
 				}
 			}
@@ -139,7 +64,7 @@ pg.aircraft_template_396 = {
 				0
 			},
 			{
-				0.51,
+				0,
 				0,
 				0
 			},
@@ -150,13 +75,313 @@ pg.aircraft_template_396 = {
 			}
 		}
 	},
-	[33200] = {
-		name = "夏活困难空袭qibolin",
-		max_hp = 286,
-		accuracy = 23,
+	[2200811] = {
+		name = "【大世界】德系舰载战斗机II",
+		max_hp = 176,
+		accuracy = 35,
+		model_ID = "Me155A",
+		ACC_growth = 0,
+		crash_DMG = 96,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "Me155A",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3920,
+		speed = 33,
+		id = 2200811,
+		scale = 0.75,
+		weapon_ID = {
+			1100746,
+			1100751
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[2200812] = {
+		name = "【大世界】德系舰载战斗机III",
+		max_hp = 224,
+		accuracy = 35,
+		model_ID = "Me155A",
+		ACC_growth = 0,
+		crash_DMG = 124,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "Me155A",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 4480,
+		speed = 33,
+		id = 2200812,
+		scale = 0.75,
+		weapon_ID = {
+			1100747,
+			1100752
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[2200813] = {
+		name = "【大世界】德系舰载战斗机IV",
+		max_hp = 272,
+		accuracy = 35,
+		model_ID = "Me155A",
+		ACC_growth = 0,
+		crash_DMG = 156,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "Me155A",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 5040,
+		speed = 33,
+		id = 2200813,
+		scale = 0.75,
+		weapon_ID = {
+			1100748,
+			1100753
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[2200814] = {
+		name = "【大世界】德系舰载战斗机V",
+		max_hp = 320,
+		accuracy = 35,
+		model_ID = "Me155A",
+		ACC_growth = 0,
+		crash_DMG = 196,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "Me155A",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 5600,
+		speed = 33,
+		id = 2200814,
+		scale = 0.75,
+		weapon_ID = {
+			1100749,
+			1100754
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[2200815] = {
+		name = "【大世界】德系舰载鱼雷机I",
+		max_hp = 144,
+		accuracy = 35,
 		model_ID = "qibolin",
 		ACC_growth = 0,
-		crash_DMG = 338,
+		crash_DMG = 104,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
@@ -164,13 +389,13 @@ pg.aircraft_template_396 = {
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
-		nationality = 4,
-		hp_growth = 4300,
-		speed = 42,
-		id = 33200,
+		nationality = 3,
+		hp_growth = 4080,
+		speed = 30,
+		id = 2200815,
 		scale = 0.75,
 		weapon_ID = {
-			470005
+			1100755
 		},
 		position_offset = {
 			0,
@@ -190,13 +415,13 @@ pg.aircraft_template_396 = {
 		bound_bone = {
 			weapon = {
 				{
-					1.14,
-					-1.17,
+					-1.13,
+					-1.29,
 					0
 				},
 				{
-					1.02,
-					1.37,
+					-1.25,
+					1.47,
 					0
 				}
 			}
@@ -213,7 +438,7 @@ pg.aircraft_template_396 = {
 				0
 			},
 			{
-				0.27,
+				0.54,
 				0,
 				0
 			},
@@ -224,397 +449,27 @@ pg.aircraft_template_396 = {
 			}
 		}
 	},
-	[33300] = {
-		name = "夏活困难空袭JU87C",
-		max_hp = 340,
-		accuracy = 23,
-		model_ID = "JU87C",
+	[2200816] = {
+		name = "【大世界】德系舰载鱼雷机II",
+		max_hp = 198,
+		accuracy = 35,
+		model_ID = "qibolin",
 		ACC_growth = 0,
-		crash_DMG = 416,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "JU87C",
-		funnel_behavior = "",
-		nationality = 4,
-		hp_growth = 4800,
-		speed = 41,
-		id = 33300,
-		scale = 0.75,
-		weapon_ID = {
-			470004
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.86,
-					-1.3,
-					0
-				},
-				{
-					1.14,
-					1.13,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[34001] = {
-		name = "七夕活动F4F野猫",
-		max_hp = 52,
-		accuracy = 23,
-		model_ID = "F4F",
-		ACC_growth = 0,
-		crash_DMG = 1,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "F4F",
-		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 2518,
-		speed = 33,
-		id = 34001,
-		scale = 0.75,
-		weapon_ID = {
-			190014
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					1.24,
-					-1.34,
-					0
-				},
-				{
-					1.43,
-					1.6,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.32,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[34002] = {
-		name = "七夕活动F6F地狱猫",
-		max_hp = 52,
-		accuracy = 23,
-		model_ID = "F6F",
-		ACC_growth = 0,
-		crash_DMG = 1,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "F6F",
-		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 2518,
-		speed = 33,
-		id = 34002,
-		scale = 0.75,
-		weapon_ID = {
-			50000
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					-1.28,
-					1.62,
-					0
-				},
-				{
-					-1.12,
-					-1,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[34003] = {
-		name = "七夕活动SBD无畏",
-		max_hp = 52,
-		accuracy = 23,
-		model_ID = "sbdwuwei",
-		ACC_growth = 0,
-		crash_DMG = 1,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "sbdwuwei",
-		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 2518,
-		speed = 33,
-		id = 34003,
-		scale = 0.75,
-		weapon_ID = {
-			50000
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.72,
-				-0.15,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[34004] = {
-		name = "七夕活动海喷火",
-		max_hp = 68,
-		accuracy = 23,
-		model_ID = "haipenhuo",
-		ACC_growth = 0,
-		crash_DMG = 1,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "haipenhuo",
-		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 3386,
-		speed = 33,
-		id = 34004,
-		scale = 0.75,
-		weapon_ID = {
-			50000
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.69,
-					-2.62,
-					0
-				},
-				{
-					0.85,
-					0.17,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.62,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[34005] = {
-		name = "七夕活动剑鱼",
-		max_hp = 68,
-		accuracy = 23,
-		model_ID = "sbdwuwei",
-		ACC_growth = 0,
-		crash_DMG = 1,
+		crash_DMG = 140,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "sbdwuwei",
+		icon = "qibolin",
 		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 3386,
-		speed = 33,
-		id = 34005,
+		nationality = 3,
+		hp_growth = 4760,
+		speed = 30,
+		id = 2200816,
 		scale = 0.75,
 		weapon_ID = {
-			50000
+			1100756
 		},
 		position_offset = {
 			0,
@@ -634,13 +489,13 @@ pg.aircraft_template_396 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					-1.13,
+					-1.29,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					-1.25,
+					1.47,
 					0
 				}
 			}
@@ -657,8 +512,230 @@ pg.aircraft_template_396 = {
 				0
 			},
 			{
-				0.72,
-				-0.15,
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[2200817] = {
+		name = "【大世界】德系舰载鱼雷机III",
+		max_hp = 252,
+		accuracy = 35,
+		model_ID = "qibolin",
+		ACC_growth = 0,
+		crash_DMG = 180,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "qibolin",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 5440,
+		speed = 30,
+		id = 2200817,
+		scale = 0.75,
+		weapon_ID = {
+			1100757
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[2200818] = {
+		name = "【大世界】德系舰载鱼雷机IV",
+		max_hp = 306,
+		accuracy = 35,
+		model_ID = "qibolin",
+		ACC_growth = 0,
+		crash_DMG = 224,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "qibolin",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 6120,
+		speed = 30,
+		id = 2200818,
+		scale = 0.75,
+		weapon_ID = {
+			1100758
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[2200819] = {
+		name = "【大世界】德系舰载鱼雷机V",
+		max_hp = 360,
+		accuracy = 35,
+		model_ID = "qibolin",
+		ACC_growth = 0,
+		crash_DMG = 272,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "qibolin",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 6800,
+		speed = 30,
+		id = 2200819,
+		scale = 0.75,
+		weapon_ID = {
+			1100759
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
 				0
 			},
 			{

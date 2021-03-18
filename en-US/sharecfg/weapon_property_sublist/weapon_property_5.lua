@@ -2,68 +2,6 @@ pg = pg or {}
 pg.weapon_property_5 = {}
 
 function ()
-	uv0.weapon_property_5[5002] = {
-		id = 5002,
-		reload_max = 3954,
-		damage = 62,
-		base = 5000
-	}
-	uv0.weapon_property_5[5003] = {
-		id = 5003,
-		reload_max = 3872,
-		damage = 70,
-		base = 5000
-	}
-	uv0.weapon_property_5[5020] = {
-		action_index = "attack",
-		range = 50,
-		type = 16,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "三联533mm鱼雷T2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 50,
-		corrected = 100,
-		min_range = 0,
-		id = 5020,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3924,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1800
-		},
-		barrage_ID = {
-			1402
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_5[5021] = {
-		id = 5021,
-		reload_max = 3845,
-		damage = 59,
-		base = 5020
-	}
 	uv0.weapon_property_5[5022] = {
 		id = 5022,
 		reload_max = 3766,
@@ -660,6 +598,36 @@ function ()
 		id = 5243,
 		reload_max = 4672,
 		damage = 86,
+		base = 5240
+	}
+	uv0.weapon_property_5[5244] = {
+		id = 5244,
+		reload_max = 4572,
+		damage = 96,
+		base = 5240
+	}
+	uv0.weapon_property_5[5245] = {
+		id = 5245,
+		reload_max = 4472,
+		damage = 106,
+		base = 5240
+	}
+	uv0.weapon_property_5[5246] = {
+		id = 5246,
+		reload_max = 4373,
+		damage = 116,
+		base = 5240
+	}
+	uv0.weapon_property_5[5247] = {
+		id = 5247,
+		reload_max = 4274,
+		damage = 126,
+		base = 5240
+	}
+	uv0.weapon_property_5[5248] = {
+		id = 5248,
+		reload_max = 4174,
+		damage = 136,
 		base = 5240
 	}
 end()

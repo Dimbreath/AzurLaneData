@@ -21208,6 +21208,269 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5581] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5422,
+		type = 5,
+		name = "The Earliest Bird",
+		count_inherit = 0,
+		desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "suweiaibeilaluosi",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5582",
+		visibility = 1,
+		story_id = "BEILALUOSI1",
+		target_id_for_client = 50003,
+		id = 5581,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5582] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5423,
+		type = 5,
+		name = "Eyes on the Prize",
+		count_inherit = 0,
+		desc = "Enhance any character 10 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "suweiaibeilaluosi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5583",
+		visibility = 1,
+		story_id = "BEILALUOSI2",
+		target_id_for_client = 0,
+		id = 5582,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5583] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5424,
+		type = 5,
+		name = "Luck of the Draw",
+		count_inherit = 0,
+		desc = "Sortie and obtain 20 victories with Sovetskaya Belorussiya in the fleet.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "suweiaibeilaluosi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5584",
+		visibility = 1,
+		story_id = "BEILALUOSI3",
+		target_id_for_client = 70504,
+		id = 5583,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "70504",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5584] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5425,
+		type = 5,
+		name = "Belorussiya, As a Person",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges with Sovetskaya Belorussiya in the fleet.",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "suweiaibeilaluosi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5585",
+		visibility = 1,
+		story_id = "BEILALUOSI4",
+		target_id_for_client = 70504,
+		id = 5584,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "70504",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5585] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5426,
+		type = 5,
+		name = "Drunken Stupor",
+		count_inherit = 0,
+		desc = "Reach 100 Affinity with Sovetskaya Belorussiya.",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "suweiaibeilaluosi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5586",
+		visibility = 1,
+		story_id = "BEILALUOSI5",
+		target_id_for_client = 70504,
+		id = 5585,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "70504",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5586] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5427,
+		type = 5,
+		name = "A Refreshing Morning",
+		count_inherit = 0,
+		desc = "Fully Limit Break Sovetskaya Belorussiya.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "suweiaibeilaluosi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5587",
+		visibility = 1,
+		story_id = "BEILALUOSI6",
+		target_id_for_client = 705044,
+		id = 5586,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "705044",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18022,
+				1
+			}
+		}
+	},
+	[5587] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5428,
+		type = 5,
+		name = "Back in Office",
+		count_inherit = 0,
+		desc = "Get Sovetskaya Belorussiya to Level 100.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "suweiaibeilaluosi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "BEILALUOSI7",
+		target_id_for_client = 70504,
+		id = 5587,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "70504",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18023,
+				1
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -106651,6 +106914,309 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[16500] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94830,
+		type = 26,
+		name = "『箱庭疗法复刻』风暴前夕前哨战任务1",
+		count_inherit = 0,
+		desc = "Clear \"Approaching Storm\" P1.",
+		target_id_2 = "",
+		sub_type = 29,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1242017,
+		id = 16500,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1242017",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1011,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[16501] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94831,
+		type = 26,
+		name = "『箱庭疗法复刻』风暴前夕前哨战任务2",
+		count_inherit = 0,
+		desc = "Clear \"Approaching Storm\" P2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1250031,
+		id = 16501,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1250031",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1011,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[16502] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94832,
+		type = 26,
+		name = "『箱庭疗法复刻』风暴前夕前哨战任务3",
+		count_inherit = 0,
+		desc = "Clear \"Approaching Storm\" P3.",
+		target_id_2 = "",
+		sub_type = 1005,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 12303,
+		id = 16502,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			12303
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1011,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[16503] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94833,
+		type = 26,
+		name = "『箱庭疗法复刻』风暴前夕前哨战任务4",
+		count_inherit = 0,
+		desc = "Clear \"Approaching Storm\" P4.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1250032,
+		id = 16503,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1250032",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1011,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[16504] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94834,
+		type = 26,
+		name = "『箱庭疗法复刻』风暴前夕前哨战任务5",
+		count_inherit = 0,
+		desc = "Clear \"Approaching Storm\" P5.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1250033,
+		id = 16504,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1250033",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1011,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[16505] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94835,
+		type = 26,
+		name = "『箱庭疗法复刻』风暴前夕前哨战任务6",
+		count_inherit = 0,
+		desc = "Clear \"Approaching Storm\" P6.",
+		target_id_2 = "",
+		sub_type = 1005,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 12307,
+		id = 16505,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			12307
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1011,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[16506] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94836,
+		type = 26,
+		name = "『箱庭疗法复刻』风暴前夕前哨战任务7",
+		count_inherit = 0,
+		desc = "Clear \"Approaching Storm\" P7.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1250034,
+		id = 16506,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1250034",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1011,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[16507] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94837,
+		type = 26,
+		name = "『箱庭疗法复刻』风暴前夕前哨战任务8",
+		count_inherit = 0,
+		desc = "Obtain all 7 Mission Reports.",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1011,
+		id = 16507,
+		target_num = 7,
+		fix_task = 0,
+		target_id = "1011",
+		open_need = {},
+		award_display = {
+			{
+				3,
+				760,
+				1
+			}
+		}
+	},
 	[31013] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -119592,6 +120158,13 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		5575,
 		5576,
 		5577,
+		5581,
+		5582,
+		5583,
+		5584,
+		5585,
+		5586,
+		5587,
 		6001,
 		6002,
 		6003,
@@ -121843,6 +122416,14 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		16459,
 		16460,
 		16461,
+		16500,
+		16501,
+		16502,
+		16503,
+		16504,
+		16505,
+		16506,
+		16507,
 		31013,
 		31014,
 		31015,

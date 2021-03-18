@@ -1,88 +1,27 @@
 pg = pg or {}
 pg.aircraft_template_160 = {
-	[66245] = {
-		max_hp = 52,
-		name = "山城改技能Lv5",
-		base = 66240,
-		id = 66245,
-		hp_growth = 2073,
-		weapon_ID = {
-			66265
-		}
-	},
-	[66246] = {
-		max_hp = 57,
-		name = "山城改技能Lv6",
-		base = 66240,
-		id = 66246,
-		hp_growth = 2283,
-		weapon_ID = {
-			66266
-		}
-	},
-	[66247] = {
-		max_hp = 63,
-		name = "山城改技能Lv7",
-		base = 66240,
-		id = 66247,
-		hp_growth = 2494,
-		weapon_ID = {
-			66267
-		}
-	},
-	[66248] = {
-		max_hp = 69,
-		name = "山城改技能Lv8",
-		base = 66240,
-		id = 66248,
-		hp_growth = 2705,
-		weapon_ID = {
-			66268
-		}
-	},
-	[66249] = {
-		max_hp = 75,
-		name = "山城改技能Lv9",
-		base = 66240,
-		id = 66249,
-		hp_growth = 2916,
-		weapon_ID = {
-			66269
-		}
-	},
-	[66250] = {
-		max_hp = 81,
-		name = "山城改技能Lv10",
-		base = 66240,
-		id = 66250,
-		hp_growth = 3127,
-		weapon_ID = {
-			66270
-		}
-	},
-	[66420] = {
-		name = "胡蜂技能LV0",
+	[67500] = {
+		name = "约克城SBD",
 		max_hp = 31,
 		accuracy = 23,
-		model_ID = "haipenhuo",
+		model_ID = "sbdwuwei",
 		ACC_growth = 0,
-		crash_DMG = 100,
+		crash_DMG = 156,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 1,
+		type = 3,
 		AP_growth = 2000,
-		icon = "haipenhuo",
+		icon = "sbdwuwei",
 		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1210,
-		speed = 50,
-		id = 66420,
+		nationality = 1,
+		hp_growth = 1183,
+		speed = 46,
+		id = 67500,
 		scale = 1,
 		weapon_ID = {
-			50140,
-			50540,
-			52240
+			67520,
+			67540
 		},
 		position_offset = {
 			0,
@@ -102,13 +41,13 @@ pg.aircraft_template_160 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.69,
-					-2.62,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.85,
-					0.17,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -125,8 +64,8 @@ pg.aircraft_template_160 = {
 				0
 			},
 			{
-				0.62,
-				0,
+				0.72,
+				-0.15,
 				0
 			},
 			{
@@ -136,28 +75,94 @@ pg.aircraft_template_160 = {
 			}
 		}
 	},
-	[66421] = {
-		max_hp = 37,
-		name = "胡蜂技能LV1",
-		base = 66420,
-		id = 66421,
-		hp_growth = 1458,
+	[67501] = {
+		id = 67501,
+		base = 67500,
+		max_hp = 35,
+		hp_growth = 1345,
 		weapon_ID = {
-			50141,
-			50541,
-			52241
+			67521,
+			67541
 		}
 	},
-	[66422] = {
-		max_hp = 43,
-		name = "胡蜂技能LV2",
-		base = 66420,
-		id = 66422,
-		hp_growth = 1706,
+	[67502] = {
+		id = 67502,
+		base = 67500,
+		max_hp = 39,
+		hp_growth = 1507,
 		weapon_ID = {
-			50142,
-			50542,
-			52242
+			67522,
+			67542
+		}
+	},
+	[67503] = {
+		id = 67503,
+		base = 67500,
+		max_hp = 43,
+		hp_growth = 1669,
+		weapon_ID = {
+			67523,
+			67543
+		}
+	},
+	[67504] = {
+		id = 67504,
+		base = 67500,
+		max_hp = 47,
+		hp_growth = 1831,
+		weapon_ID = {
+			67524,
+			67544
+		}
+	},
+	[67505] = {
+		id = 67505,
+		base = 67500,
+		max_hp = 51,
+		hp_growth = 1994,
+		weapon_ID = {
+			67525,
+			67545
+		}
+	},
+	[67506] = {
+		id = 67506,
+		base = 67500,
+		max_hp = 55,
+		hp_growth = 2157,
+		weapon_ID = {
+			67526,
+			67546
+		}
+	},
+	[67507] = {
+		id = 67507,
+		base = 67500,
+		max_hp = 59,
+		hp_growth = 2320,
+		weapon_ID = {
+			67527,
+			67547
+		}
+	},
+	[67508] = {
+		id = 67508,
+		base = 67500,
+		max_hp = 63,
+		hp_growth = 2483,
+		weapon_ID = {
+			67528,
+			67548
+		}
+	},
+	[67509] = {
+		id = 67509,
+		base = 67500,
+		max_hp = 68,
+		hp_growth = 2646,
+		weapon_ID = {
+			67529,
+			67549
 		}
 	}
 }

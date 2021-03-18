@@ -1,86 +1,64 @@
 pg = pg or {}
 pg.aircraft_template_193 = {
-	[68626] = {
-		max_hp = 84,
-		name = "巴丹技能F6FLV6",
-		base = 68621,
-		id = 68626,
-		hp_growth = 3218,
+	[69938] = {
+		max_hp = 79,
+		name = "信浓技能流星 LV8",
+		base = 69931,
+		id = 69938,
+		hp_growth = 3050,
 		weapon_ID = {
-			50346,
-			50546,
-			68636
-		}
-	},
-	[68627] = {
-		max_hp = 90,
-		name = "巴丹技能F6FLV7",
-		base = 68621,
-		id = 68627,
-		hp_growth = 3472,
-		weapon_ID = {
-			50347,
-			50547,
-			68637
-		}
-	},
-	[68628] = {
-		max_hp = 97,
-		name = "巴丹技能F6FLV8",
-		base = 68621,
-		id = 68628,
-		hp_growth = 3726,
-		weapon_ID = {
-			50348,
 			50548,
-			68638
+			50848,
+			51468
 		}
 	},
-	[68629] = {
-		max_hp = 103,
-		name = "巴丹技能F6FLV9",
-		base = 68621,
-		id = 68629,
-		hp_growth = 3980,
+	[69939] = {
+		max_hp = 85,
+		name = "信浓技能流星 LV9",
+		base = 69931,
+		id = 69939,
+		hp_growth = 3258,
 		weapon_ID = {
-			50349,
 			50549,
-			68639
+			50849,
+			51469
 		}
 	},
-	[68630] = {
-		max_hp = 110,
-		name = "巴丹技能F6FLV10",
-		base = 68621,
-		id = 68630,
-		hp_growth = 4234,
+	[69940] = {
+		max_hp = 90,
+		name = "信浓技能流星 LV10",
+		base = 69931,
+		id = 69940,
+		hp_growth = 3466,
 		weapon_ID = {
-			50350,
 			50550,
-			68640
+			50850,
+			51470
 		}
 	},
-	[68651] = {
-		name = "可畏技能鱼雷机Lv1",
-		max_hp = 36,
+	[69971] = {
+		name = "千岁千代田技能瑞云",
+		max_hp = 37,
 		accuracy = 23,
-		model_ID = "qinghuayu",
+		model_ID = "ruiyun",
 		ACC_growth = 0,
-		crash_DMG = 406,
-		dodge = 1,
+		crash_DMG = 120,
+		dodge = 3.51,
 		attack_power = 2,
-		dodge_limit = 0,
-		type = 2,
+		dodge_limit = 1,
+		type = 3,
 		AP_growth = 2000,
-		icon = "qinghuayu",
+		icon = "ruiyun",
 		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1385,
-		speed = 60,
-		id = 68651,
+		nationality = 3,
+		hp_growth = 1438,
+		speed = 46,
+		id = 69971,
 		scale = 1,
 		weapon_ID = {
-			68661
+			50541,
+			50841,
+			52241
 		},
 		position_offset = {
 			0,
@@ -100,13 +78,13 @@ pg.aircraft_template_193 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -123,8 +101,8 @@ pg.aircraft_template_193 = {
 				0
 			},
 			{
-				0.15,
-				-0.08,
+				0,
+				0,
 				0
 			},
 			{
@@ -134,34 +112,70 @@ pg.aircraft_template_193 = {
 			}
 		}
 	},
-	[68652] = {
+	[69972] = {
+		id = 69972,
+		base = 69971,
 		max_hp = 42,
-		name = "可畏技能鱼雷机Lv2",
-		base = 68651,
-		id = 68652,
-		hp_growth = 1621,
+		hp_growth = 1626,
 		weapon_ID = {
-			68662
+			50542,
+			50842,
+			52242
 		}
 	},
-	[68653] = {
-		max_hp = 48,
-		name = "可畏技能鱼雷机Lv3",
-		base = 68651,
-		id = 68653,
-		hp_growth = 1857,
+	[69973] = {
+		id = 69973,
+		base = 69971,
+		max_hp = 47,
+		hp_growth = 1813,
 		weapon_ID = {
-			68663
+			50543,
+			50843,
+			52243
 		}
 	},
-	[68654] = {
-		max_hp = 54,
-		name = "可畏技能鱼雷机Lv4",
-		base = 68651,
-		id = 68654,
-		hp_growth = 2093,
+	[69974] = {
+		id = 69974,
+		base = 69971,
+		max_hp = 52,
+		hp_growth = 2001,
 		weapon_ID = {
-			68664
+			50544,
+			50844,
+			52244
+		}
+	},
+	[69975] = {
+		id = 69975,
+		base = 69971,
+		max_hp = 57,
+		hp_growth = 2189,
+		weapon_ID = {
+			50545,
+			50845,
+			52245
+		}
+	},
+	[69976] = {
+		id = 69976,
+		base = 69971,
+		max_hp = 62,
+		hp_growth = 2376,
+		weapon_ID = {
+			50546,
+			50846,
+			52246
+		}
+	},
+	[69977] = {
+		id = 69977,
+		base = 69971,
+		max_hp = 67,
+		hp_growth = 2564,
+		weapon_ID = {
+			50547,
+			50847,
+			52247
 		}
 	}
 }

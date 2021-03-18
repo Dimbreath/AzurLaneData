@@ -812,6 +812,10 @@ pg.skill_data_display = {
 		id = 8856,
 		name = "Radiance"
 	},
+	[8859] = {
+		id = 8859,
+		name = "Renegade Sniper"
+	},
 	[9010] = {
 		id = 9010,
 		name = "Eastern Bonds"
@@ -5544,6 +5548,34 @@ pg.skill_data_display = {
 		id = 106141,
 		name = "Hanakagura"
 	},
+	[800010] = {
+		id = 800010,
+		name = "Shadowflame Torch"
+	},
+	[800020] = {
+		id = 800020,
+		name = "Shadow Skirmisher"
+	},
+	[800021] = {
+		id = 800021,
+		name = "Shadow Skirmisher"
+	},
+	[800030] = {
+		id = 800030,
+		name = "Glorious Onslaught"
+	},
+	[800031] = {
+		id = 800031,
+		name = "Glorious Onslaught"
+	},
+	[800032] = {
+		id = 800032,
+		name = "Glorious Onslaught"
+	},
+	[800033] = {
+		id = 800033,
+		name = "Glorious Onslaught"
+	},
 	[800040] = {
 		id = 800040,
 		name = "Scorched Blade"
@@ -5582,11 +5614,19 @@ pg.skill_data_display = {
 	},
 	[800075] = {
 		id = 800075,
-		name = "Scorched Blade "
+		name = "Scorched Blade·Hiryuu"
 	},
 	[800077] = {
 		id = 800077,
-		name = "Scorched Blade "
+		name = "Scorched Blade·Hiryuu"
+	},
+	[800085] = {
+		id = 800085,
+		name = "Scorched Blade·Ark Royal"
+	},
+	[800087] = {
+		id = 800087,
+		name = "Scorched Blade·Ark Royal"
 	},
 	all = {
 		4,
@@ -5792,6 +5832,7 @@ pg.skill_data_display = {
 		8850,
 		8853,
 		8856,
+		8859,
 		9010,
 		9020,
 		9030,
@@ -6975,6 +7016,13 @@ pg.skill_data_display = {
 		106131,
 		106140,
 		106141,
+		800010,
+		800020,
+		800021,
+		800030,
+		800031,
+		800032,
+		800033,
 		800040,
 		800041,
 		800050,
@@ -6985,6 +7033,8 @@ pg.skill_data_display = {
 		800062,
 		800063,
 		800075,
-		800077
+		800077,
+		800085,
+		800087
 	}
 }

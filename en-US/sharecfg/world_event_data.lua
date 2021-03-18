@@ -103947,21 +103947,19 @@ pg.world_event_data = {
 		},
 		slg_bufflist = {
 			{
-				1030
+				1060
 			},
 			{
-				1300,
 				1310,
-				1320,
 				1420,
+				1430,
 				1440,
 				1450,
-				1500,
 				1510
 			},
 			{
 				1460,
-				1470,
+				1480,
 				1490
 			}
 		},
@@ -103972,7 +103970,7 @@ pg.world_event_data = {
 		},
 		deviation = {
 			0,
-			20
+			5
 		}
 	},
 	[4100062] = {
@@ -104014,21 +104012,19 @@ pg.world_event_data = {
 		},
 		slg_bufflist = {
 			{
-				1030
+				1060
 			},
 			{
-				1300,
 				1310,
-				1320,
 				1420,
+				1430,
 				1440,
 				1450,
-				1500,
 				1510
 			},
 			{
 				1460,
-				1470,
+				1480,
 				1490
 			}
 		},
@@ -104039,7 +104035,7 @@ pg.world_event_data = {
 		},
 		deviation = {
 			0,
-			20
+			5
 		}
 	},
 	[4100063] = {
@@ -104081,21 +104077,19 @@ pg.world_event_data = {
 		},
 		slg_bufflist = {
 			{
-				1030
+				1060
 			},
 			{
-				1300,
 				1310,
-				1320,
 				1420,
+				1430,
 				1440,
 				1450,
-				1500,
 				1510
 			},
 			{
 				1460,
-				1470,
+				1480,
 				1490
 			}
 		},
@@ -104106,7 +104100,7 @@ pg.world_event_data = {
 		},
 		deviation = {
 			0,
-			20
+			5
 		}
 	},
 	[4100064] = {
@@ -104148,21 +104142,19 @@ pg.world_event_data = {
 		},
 		slg_bufflist = {
 			{
-				1030
+				1060
 			},
 			{
-				1300,
 				1310,
-				1320,
 				1420,
+				1430,
 				1440,
 				1450,
-				1500,
 				1510
 			},
 			{
 				1460,
-				1470,
+				1480,
 				1490
 			}
 		},
@@ -104173,7 +104165,7 @@ pg.world_event_data = {
 		},
 		deviation = {
 			0,
-			20
+			5
 		}
 	},
 	[4100065] = {
@@ -104215,21 +104207,19 @@ pg.world_event_data = {
 		},
 		slg_bufflist = {
 			{
-				1030
+				1060
 			},
 			{
-				1300,
 				1310,
-				1320,
 				1420,
+				1430,
 				1440,
 				1450,
-				1500,
 				1510
 			},
 			{
 				1460,
-				1470,
+				1480,
 				1490
 			}
 		},
@@ -104240,7 +104230,7 @@ pg.world_event_data = {
 		},
 		deviation = {
 			0,
-			20
+			5
 		}
 	},
 	[4100071] = {
@@ -104927,21 +104917,17 @@ pg.world_event_data = {
 		},
 		slg_bufflist = {
 			{
-				1010
+				1040
 			},
 			{
-				1300,
-				1310,
-				1320,
+				1410,
 				1420,
-				1440,
-				1450,
-				1500,
-				1510
+				1430,
+				1450
 			},
 			{
-				1460,
 				1470,
+				1480,
 				1490
 			}
 		},
@@ -104994,21 +104980,17 @@ pg.world_event_data = {
 		},
 		slg_bufflist = {
 			{
-				1010
+				1040
 			},
 			{
-				1300,
-				1310,
-				1320,
+				1410,
 				1420,
-				1440,
-				1450,
-				1500,
-				1510
+				1430,
+				1450
 			},
 			{
-				1460,
 				1470,
+				1480,
 				1490
 			}
 		},
@@ -105061,21 +105043,17 @@ pg.world_event_data = {
 		},
 		slg_bufflist = {
 			{
-				1010
+				1040
 			},
 			{
-				1300,
-				1310,
-				1320,
+				1410,
 				1420,
-				1440,
-				1450,
-				1500,
-				1510
+				1430,
+				1450
 			},
 			{
-				1460,
 				1470,
+				1480,
 				1490
 			}
 		},
@@ -105128,21 +105106,17 @@ pg.world_event_data = {
 		},
 		slg_bufflist = {
 			{
-				1010
+				1040
 			},
 			{
-				1300,
-				1310,
-				1320,
+				1410,
 				1420,
-				1440,
-				1450,
-				1500,
-				1510
+				1430,
+				1450
 			},
 			{
-				1460,
 				1470,
+				1480,
 				1490
 			}
 		},
@@ -105195,21 +105169,17 @@ pg.world_event_data = {
 		},
 		slg_bufflist = {
 			{
-				1010
+				1040
 			},
 			{
-				1300,
-				1310,
-				1320,
+				1410,
 				1420,
-				1440,
-				1450,
-				1500,
-				1510
+				1430,
+				1450
 			},
 			{
-				1460,
 				1470,
+				1480,
 				1490
 			}
 		},
@@ -131084,8 +131054,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -131119,8 +131089,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -131154,8 +131124,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -131189,8 +131159,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -131224,8 +131194,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -131259,8 +131229,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -131331,8 +131301,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				13,
-				13
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -131366,8 +131336,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				13,
-				13
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -131401,8 +131371,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -131436,8 +131406,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -131690,8 +131660,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -131725,8 +131695,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -131760,8 +131730,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -131795,8 +131765,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -131831,8 +131801,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -131867,8 +131837,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -131908,8 +131878,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -131949,8 +131919,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -131990,8 +131960,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -132031,8 +132001,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -132072,8 +132042,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -132113,8 +132083,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -132154,8 +132124,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -132195,8 +132165,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -132236,8 +132206,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -132277,8 +132247,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -132318,8 +132288,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -132359,8 +132329,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -132395,8 +132365,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -132680,8 +132650,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				8,
-				15
+				7,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -132715,8 +132685,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				8,
-				15
+				7,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -132750,8 +132720,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				9,
-				16
+				8,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -132785,8 +132755,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				9,
-				16
+				8,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -132820,8 +132790,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -132855,8 +132825,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -132927,8 +132897,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				10,
-				17
+				9,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -132962,8 +132932,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				10,
-				17
+				9,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -132997,8 +132967,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -133032,8 +133002,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -133286,8 +133256,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -133321,8 +133291,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -133356,8 +133326,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -133391,8 +133361,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -133427,8 +133397,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -133463,8 +133433,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -133504,8 +133474,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -133545,8 +133515,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -133586,8 +133556,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -133627,8 +133597,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -133668,8 +133638,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -133709,8 +133679,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -133750,8 +133720,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -133791,8 +133761,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -133832,8 +133802,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -133873,8 +133843,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -133914,8 +133884,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -133955,8 +133925,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -133991,8 +133961,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				9,
-				16
+				8,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -134276,8 +134246,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				8,
-				15
+				7,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -134311,8 +134281,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				8,
-				15
+				7,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -134346,8 +134316,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				9,
-				16
+				8,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -134381,8 +134351,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				9,
-				16
+				8,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -134416,8 +134386,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -134451,8 +134421,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -134523,8 +134493,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				10,
-				17
+				9,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -134558,8 +134528,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				10,
-				17
+				9,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -134593,8 +134563,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -134628,8 +134598,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -134882,8 +134852,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -134917,8 +134887,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -134952,8 +134922,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -134987,8 +134957,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -135023,8 +134993,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -135059,8 +135029,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -135100,8 +135070,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -135141,8 +135111,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -135182,8 +135152,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -135223,8 +135193,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -135264,8 +135234,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -135305,8 +135275,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -135346,8 +135316,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -135387,8 +135357,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -135428,8 +135398,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -135469,8 +135439,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -135510,8 +135480,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -135551,8 +135521,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -135587,8 +135557,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				9,
-				16
+				8,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -135872,8 +135842,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -135907,8 +135877,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -135942,8 +135912,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				14
+				8,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -135977,8 +135947,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				14
+				8,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -136012,8 +135982,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -136047,8 +136017,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -136119,8 +136089,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				14
+				8,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -136154,8 +136124,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				14
+				8,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -136189,8 +136159,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -136443,8 +136413,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -136478,8 +136448,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -136513,8 +136483,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -136548,8 +136518,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -136584,8 +136554,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -136620,8 +136590,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -136661,8 +136631,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -136702,8 +136672,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -136743,8 +136713,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -136784,8 +136754,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -136825,8 +136795,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -136866,8 +136836,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -136907,8 +136877,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -136948,8 +136918,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -136989,8 +136959,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -137030,8 +137000,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -137071,8 +137041,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -137112,8 +137082,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -137148,8 +137118,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -137433,8 +137403,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -137468,8 +137438,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -137503,8 +137473,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -137538,8 +137508,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -137610,8 +137580,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -137645,8 +137615,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -137680,8 +137650,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -137934,8 +137904,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -137969,8 +137939,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -138004,8 +137974,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -138039,8 +138009,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -138080,8 +138050,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -138121,8 +138091,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -138162,8 +138132,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -138203,8 +138173,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -138244,8 +138214,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -138285,8 +138255,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -138326,8 +138296,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -138367,8 +138337,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -138403,8 +138373,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				6,
-				6
+				5,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -138688,8 +138658,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				10,
-				5
+				9,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -138723,8 +138693,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				10,
-				5
+				9,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -138758,8 +138728,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -138793,8 +138763,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -138865,8 +138835,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				10,
-				5
+				9,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -138900,8 +138870,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				10,
-				5
+				9,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -138935,8 +138905,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -139189,8 +139159,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -139224,8 +139194,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -139259,8 +139229,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -139294,8 +139264,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -139335,8 +139305,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -139376,8 +139346,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -139417,8 +139387,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -139458,8 +139428,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -139499,8 +139469,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -139540,8 +139510,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -139581,8 +139551,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -139622,8 +139592,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -139658,8 +139628,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				9,
-				4
+				8,
+				3
 			}
 		},
 		slg_bufflist = {},
@@ -139943,8 +139913,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -139978,8 +139948,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -140013,8 +139983,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -140048,8 +140018,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -140120,8 +140090,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -140155,8 +140125,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -140190,8 +140160,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -140444,8 +140414,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -140479,8 +140449,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -140514,8 +140484,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -140549,8 +140519,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -140590,8 +140560,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -140631,8 +140601,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -140672,8 +140642,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -140713,8 +140683,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -140754,8 +140724,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -140795,8 +140765,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -140836,8 +140806,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -140877,8 +140847,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -140913,8 +140883,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				6,
-				6
+				5,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -141198,8 +141168,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				5,
-				10
+				4,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -141233,8 +141203,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				5,
-				10
+				4,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -141268,8 +141238,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -141303,8 +141273,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -141375,8 +141345,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				5,
-				10
+				4,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -141410,8 +141380,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				5,
-				10
+				4,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -141445,8 +141415,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -141699,8 +141669,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -141734,8 +141704,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -141769,8 +141739,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -141804,8 +141774,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -141845,8 +141815,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -141886,8 +141856,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -141927,8 +141897,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -141968,8 +141938,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -142009,8 +141979,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -142050,8 +142020,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -142091,8 +142061,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -142132,8 +142102,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -142168,8 +142138,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				4,
-				9
+				3,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -142453,8 +142423,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -142488,8 +142458,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -142523,8 +142493,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -142558,8 +142528,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -142630,8 +142600,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -142665,8 +142635,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -142700,8 +142670,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -142735,8 +142705,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -142989,8 +142959,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -143024,8 +142994,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -143059,8 +143029,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -143094,8 +143064,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -143130,8 +143100,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -143166,8 +143136,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -143207,8 +143177,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -143248,8 +143218,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -143289,8 +143259,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -143330,8 +143300,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -143371,8 +143341,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -143412,8 +143382,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -143453,8 +143423,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -143494,8 +143464,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -143535,8 +143505,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -143576,8 +143546,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -143612,8 +143582,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -143897,8 +143867,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -143932,8 +143902,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -143967,8 +143937,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -144002,8 +143972,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -144074,8 +144044,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -144109,8 +144079,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -144144,8 +144114,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -144398,8 +144368,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -144433,8 +144403,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -144468,8 +144438,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -144503,8 +144473,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -144544,8 +144514,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -144585,8 +144555,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -144626,8 +144596,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -144667,8 +144637,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -144708,8 +144678,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -144749,8 +144719,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -144790,8 +144760,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -144831,8 +144801,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -144867,8 +144837,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				6,
-				6
+				5,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -145152,8 +145122,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -145187,8 +145157,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -145222,8 +145192,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -145257,8 +145227,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -145329,8 +145299,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -145364,8 +145334,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -145399,8 +145369,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -145434,8 +145404,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -145688,8 +145658,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -145723,8 +145693,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -145758,8 +145728,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -145793,8 +145763,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -145829,8 +145799,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -145865,8 +145835,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -145906,8 +145876,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -145947,8 +145917,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -145988,8 +145958,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -146029,8 +145999,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -146070,8 +146040,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -146111,8 +146081,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -146152,8 +146122,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -146193,8 +146163,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -146234,8 +146204,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -146275,8 +146245,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -146311,8 +146281,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -146596,8 +146566,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -146631,8 +146601,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -146666,8 +146636,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -146701,8 +146671,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -146773,8 +146743,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -146808,8 +146778,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -146843,8 +146813,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -146878,8 +146848,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -147132,8 +147102,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -147167,8 +147137,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -147202,8 +147172,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -147237,8 +147207,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -147273,8 +147243,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -147309,8 +147279,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -147350,8 +147320,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -147391,8 +147361,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -147432,8 +147402,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -147473,8 +147443,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -147514,8 +147484,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -147555,8 +147525,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -147596,8 +147566,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -147637,8 +147607,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -147678,8 +147648,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -147719,8 +147689,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -147755,8 +147725,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -148040,8 +148010,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -148075,8 +148045,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -148110,8 +148080,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -148145,8 +148115,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -148217,8 +148187,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -148252,8 +148222,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -148287,8 +148257,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -148322,8 +148292,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -148576,8 +148546,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -148611,8 +148581,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -148646,8 +148616,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -148681,8 +148651,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -148717,8 +148687,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -148753,8 +148723,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -148794,8 +148764,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -148835,8 +148805,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -148876,8 +148846,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -148917,8 +148887,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -148958,8 +148928,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -148999,8 +148969,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -149040,8 +149010,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -149081,8 +149051,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -149122,8 +149092,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -149163,8 +149133,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -149199,8 +149169,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -149484,8 +149454,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				15,
-				5
+				14,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -149519,8 +149489,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				15,
-				5
+				14,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -149554,8 +149524,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -149589,8 +149559,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -149661,8 +149631,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				15,
-				5
+				14,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -149696,8 +149666,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				15,
-				5
+				14,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -149731,8 +149701,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -149766,8 +149736,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -150020,8 +149990,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -150055,8 +150025,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -150090,8 +150060,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -150125,8 +150095,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -150161,8 +150131,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -150197,8 +150167,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -150238,8 +150208,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -150279,8 +150249,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -150320,8 +150290,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -150361,8 +150331,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -150402,8 +150372,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -150443,8 +150413,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -150484,8 +150454,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -150525,8 +150495,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -150566,8 +150536,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -150607,8 +150577,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -150643,8 +150613,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				14,
-				4
+				13,
+				3
 			}
 		},
 		slg_bufflist = {},
@@ -150928,8 +150898,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				18,
-				5
+				17,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -150963,8 +150933,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				18,
-				5
+				17,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -150998,8 +150968,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				19,
-				6
+				18,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -151033,8 +151003,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				19,
-				6
+				18,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -151068,8 +151038,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				20,
-				7
+				19,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -151103,8 +151073,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				20,
-				7
+				19,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -151175,8 +151145,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				19,
-				6
+				18,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -151210,8 +151180,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				19,
-				6
+				18,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -151245,8 +151215,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				20,
-				7
+				19,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -151499,8 +151469,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				20,
-				7
+				19,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -151534,8 +151504,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				20,
-				7
+				19,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -151569,8 +151539,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				20,
-				7
+				19,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -151604,8 +151574,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				20,
-				7
+				19,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -151640,8 +151610,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				20,
-				7
+				19,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -151676,8 +151646,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				20,
-				7
+				19,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -151717,8 +151687,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				20,
-				7
+				19,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -151758,8 +151728,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				20,
-				7
+				19,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -151799,8 +151769,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				20,
-				7
+				19,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -151840,8 +151810,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				20,
-				7
+				19,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -151881,8 +151851,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				20,
-				7
+				19,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -151922,8 +151892,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				20,
-				7
+				19,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -151963,8 +151933,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				20,
-				7
+				19,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -152004,8 +151974,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				20,
-				7
+				19,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -152045,8 +152015,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				20,
-				7
+				19,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -152086,8 +152056,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				20,
-				7
+				19,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -152127,8 +152097,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				20,
-				7
+				19,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -152168,8 +152138,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				20,
-				7
+				19,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -152204,8 +152174,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				18,
-				5
+				17,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -152489,8 +152459,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -152524,8 +152494,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -152559,8 +152529,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -152594,8 +152564,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -152666,8 +152636,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -152701,8 +152671,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -152736,8 +152706,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -152990,8 +152960,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -153025,8 +152995,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -153060,8 +153030,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -153095,8 +153065,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -153136,8 +153106,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -153177,8 +153147,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -153218,8 +153188,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -153259,8 +153229,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -153300,8 +153270,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -153341,8 +153311,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -153382,8 +153352,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -153423,8 +153393,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -153459,8 +153429,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				6,
-				6
+				5,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -153744,8 +153714,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				10,
-				5
+				9,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -153779,8 +153749,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				10,
-				5
+				9,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -153814,8 +153784,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -153849,8 +153819,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -153921,8 +153891,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				10,
-				5
+				9,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -153956,8 +153926,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				10,
-				5
+				9,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -153991,8 +153961,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -154245,8 +154215,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -154280,8 +154250,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -154315,8 +154285,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -154350,8 +154320,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -154391,8 +154361,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -154432,8 +154402,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -154473,8 +154443,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -154514,8 +154484,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -154555,8 +154525,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -154596,8 +154566,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -154637,8 +154607,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -154678,8 +154648,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -154714,8 +154684,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				9,
-				4
+				8,
+				3
 			}
 		},
 		slg_bufflist = {},
@@ -154999,8 +154969,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -155034,8 +155004,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -155069,8 +155039,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -155104,8 +155074,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -155139,8 +155109,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -155174,8 +155144,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -155246,8 +155216,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -155281,8 +155251,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -155316,8 +155286,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -155570,8 +155540,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -155605,8 +155575,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -155640,8 +155610,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -155675,8 +155645,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -155711,8 +155681,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -155747,8 +155717,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -155788,8 +155758,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -155829,8 +155799,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -155870,8 +155840,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -155911,8 +155881,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -155952,8 +155922,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -155993,8 +155963,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -156034,8 +156004,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -156075,8 +156045,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -156116,8 +156086,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -156157,8 +156127,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -156198,8 +156168,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -156239,8 +156209,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -156275,8 +156245,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -156560,8 +156530,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -156595,8 +156565,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -156630,8 +156600,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -156665,8 +156635,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -156700,8 +156670,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -156735,8 +156705,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -156807,8 +156777,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -156842,8 +156812,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -156877,8 +156847,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -157131,8 +157101,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -157166,8 +157136,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -157201,8 +157171,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -157236,8 +157206,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -157272,8 +157242,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -157308,8 +157278,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -157349,8 +157319,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -157390,8 +157360,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -157431,8 +157401,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -157472,8 +157442,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -157513,8 +157483,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -157554,8 +157524,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -157595,8 +157565,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -157636,8 +157606,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -157677,8 +157647,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -157718,8 +157688,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -157759,8 +157729,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -157800,8 +157770,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -157836,8 +157806,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -158121,8 +158091,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -158156,8 +158126,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -158191,8 +158161,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -158226,8 +158196,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -158261,8 +158231,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -158296,8 +158266,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -158368,8 +158338,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -158403,8 +158373,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -158438,8 +158408,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -158692,8 +158662,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -158727,8 +158697,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -158762,8 +158732,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -158797,8 +158767,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -158833,8 +158803,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -158869,8 +158839,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -158910,8 +158880,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -158951,8 +158921,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -158992,8 +158962,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -159033,8 +159003,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -159074,8 +159044,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -159115,8 +159085,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -159156,8 +159126,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -159197,8 +159167,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -159238,8 +159208,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -159279,8 +159249,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -159320,8 +159290,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -159361,8 +159331,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -159397,8 +159367,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -159682,8 +159652,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -159717,8 +159687,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -159752,8 +159722,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -159787,8 +159757,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -159822,8 +159792,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -159857,8 +159827,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -159929,8 +159899,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -159964,8 +159934,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -159999,8 +159969,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -160253,8 +160223,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -160288,8 +160258,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -160323,8 +160293,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -160358,8 +160328,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -160394,8 +160364,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -160430,8 +160400,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -160471,8 +160441,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -160512,8 +160482,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -160553,8 +160523,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -160594,8 +160564,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -160635,8 +160605,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -160676,8 +160646,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -160717,8 +160687,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -160758,8 +160728,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -160799,8 +160769,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -160840,8 +160810,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -160881,8 +160851,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -160922,8 +160892,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -160958,8 +160928,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -161243,8 +161213,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -161278,8 +161248,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -161313,8 +161283,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				14,
-				9
+				13,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -161348,8 +161318,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				14,
-				9
+				13,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -161383,8 +161353,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -161418,8 +161388,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -161490,8 +161460,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				14,
-				9
+				13,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -161525,8 +161495,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				14,
-				9
+				13,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -161560,8 +161530,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -161814,8 +161784,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -161849,8 +161819,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -161884,8 +161854,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -161919,8 +161889,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -161955,8 +161925,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -161991,8 +161961,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -162032,8 +162002,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -162073,8 +162043,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -162114,8 +162084,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -162155,8 +162125,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -162196,8 +162166,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -162237,8 +162207,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -162278,8 +162248,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -162319,8 +162289,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -162360,8 +162330,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -162401,8 +162371,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -162442,8 +162412,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -162483,8 +162453,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -162519,8 +162489,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -162804,8 +162774,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -162839,8 +162809,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -162874,8 +162844,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -162909,8 +162879,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -162981,8 +162951,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -163016,8 +162986,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -163051,8 +163021,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -163086,8 +163056,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -163340,8 +163310,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -163375,8 +163345,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -163410,8 +163380,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -163445,8 +163415,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -163481,8 +163451,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -163517,8 +163487,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -163558,8 +163528,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -163599,8 +163569,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -163640,8 +163610,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -163681,8 +163651,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -163722,8 +163692,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -163763,8 +163733,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -163804,8 +163774,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -163845,8 +163815,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -163886,8 +163856,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -163927,8 +163897,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -163963,8 +163933,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -164248,8 +164218,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -164283,8 +164253,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -164318,8 +164288,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				14,
-				9
+				13,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -164353,8 +164323,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				14,
-				9
+				13,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -164388,8 +164358,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -164423,8 +164393,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -164495,8 +164465,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				14,
-				9
+				13,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -164530,8 +164500,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				14,
-				9
+				13,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -164565,8 +164535,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -164819,8 +164789,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -164854,8 +164824,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -164889,8 +164859,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -164924,8 +164894,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -164960,8 +164930,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -164996,8 +164966,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -165037,8 +165007,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -165078,8 +165048,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -165119,8 +165089,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -165160,8 +165130,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -165201,8 +165171,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -165242,8 +165212,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -165283,8 +165253,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -165324,8 +165294,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -165365,8 +165335,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -165406,8 +165376,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -165447,8 +165417,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -165488,8 +165458,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -165524,8 +165494,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -165809,8 +165779,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -165844,8 +165814,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -165879,8 +165849,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -165914,8 +165884,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -165949,8 +165919,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -165984,8 +165954,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -166056,8 +166026,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -166091,8 +166061,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -166126,8 +166096,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -166380,8 +166350,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -166415,8 +166385,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -166450,8 +166420,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -166485,8 +166455,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -166521,8 +166491,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -166557,8 +166527,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -166598,8 +166568,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -166639,8 +166609,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -166680,8 +166650,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -166721,8 +166691,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -166762,8 +166732,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -166803,8 +166773,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -166844,8 +166814,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -166885,8 +166855,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -166926,8 +166896,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -166967,8 +166937,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -167008,8 +166978,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -167049,8 +167019,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -167085,8 +167055,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -167370,8 +167340,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -167405,8 +167375,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -167440,8 +167410,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -167475,8 +167445,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -167547,8 +167517,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -167582,8 +167552,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -167617,8 +167587,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -167652,8 +167622,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -167906,8 +167876,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -167941,8 +167911,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -167976,8 +167946,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -168011,8 +167981,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -168047,8 +168017,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -168083,8 +168053,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -168124,8 +168094,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -168165,8 +168135,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -168206,8 +168176,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -168247,8 +168217,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -168288,8 +168258,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -168329,8 +168299,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -168370,8 +168340,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -168411,8 +168381,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -168452,8 +168422,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -168493,8 +168463,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -168529,8 +168499,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -168814,8 +168784,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -168849,8 +168819,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -168884,8 +168854,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -168919,8 +168889,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -168991,8 +168961,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -169026,8 +168996,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -169061,8 +169031,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -169096,8 +169066,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -169350,8 +169320,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -169385,8 +169355,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -169420,8 +169390,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -169455,8 +169425,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -169491,8 +169461,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -169527,8 +169497,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -169568,8 +169538,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -169609,8 +169579,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -169650,8 +169620,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -169691,8 +169661,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -169732,8 +169702,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -169773,8 +169743,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -169814,8 +169784,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -169855,8 +169825,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -169896,8 +169866,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -169937,8 +169907,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -169973,8 +169943,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -170258,8 +170228,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				8,
-				15
+				7,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -170293,8 +170263,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				8,
-				15
+				7,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -170328,8 +170298,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				9,
-				16
+				8,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -170363,8 +170333,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				9,
-				16
+				8,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -170398,8 +170368,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -170433,8 +170403,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -170505,8 +170475,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				10,
-				17
+				9,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -170540,8 +170510,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				10,
-				17
+				9,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -170575,8 +170545,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -170610,8 +170580,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -170864,8 +170834,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -170899,8 +170869,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -170934,8 +170904,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -170969,8 +170939,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -171005,8 +170975,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -171041,8 +171011,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -171082,8 +171052,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -171123,8 +171093,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -171164,8 +171134,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -171205,8 +171175,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -171246,8 +171216,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -171287,8 +171257,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -171328,8 +171298,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -171369,8 +171339,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -171410,8 +171380,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -171451,8 +171421,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -171492,8 +171462,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -171533,8 +171503,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -171569,8 +171539,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				9,
-				16
+				8,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -171854,8 +171824,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				15,
-				8
+				14,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -171889,8 +171859,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				15,
-				8
+				14,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -171924,8 +171894,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				16,
-				9
+				15,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -171959,8 +171929,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				16,
-				9
+				15,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -171994,8 +171964,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -172029,8 +171999,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -172101,8 +172071,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				17,
-				10
+				16,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -172136,8 +172106,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				17,
-				10
+				16,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -172171,8 +172141,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -172206,8 +172176,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -172460,8 +172430,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -172495,8 +172465,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -172530,8 +172500,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -172565,8 +172535,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -172601,8 +172571,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -172637,8 +172607,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -172678,8 +172648,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -172719,8 +172689,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -172760,8 +172730,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -172801,8 +172771,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -172842,8 +172812,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -172883,8 +172853,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -172924,8 +172894,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -172965,8 +172935,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -173006,8 +172976,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -173047,8 +173017,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -173088,8 +173058,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -173129,8 +173099,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -173165,8 +173135,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				16,
-				9
+				15,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -173450,8 +173420,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				5,
-				20
+				4,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -173485,8 +173455,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				5,
-				20
+				4,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -173520,8 +173490,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				6,
-				21
+				5,
+				20
 			}
 		},
 		slg_bufflist = {},
@@ -173555,8 +173525,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				6,
-				21
+				5,
+				20
 			}
 		},
 		slg_bufflist = {},
@@ -173590,8 +173560,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -173625,8 +173595,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -173697,8 +173667,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				22
+				6,
+				21
 			}
 		},
 		slg_bufflist = {},
@@ -173732,8 +173702,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -173767,8 +173737,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -173802,8 +173772,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -174056,8 +174026,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -174091,8 +174061,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -174126,8 +174096,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -174161,8 +174131,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -174197,8 +174167,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -174233,8 +174203,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -174274,8 +174244,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -174315,8 +174285,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -174356,8 +174326,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -174397,8 +174367,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -174438,8 +174408,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -174479,8 +174449,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -174520,8 +174490,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -174561,8 +174531,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -174602,8 +174572,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -174643,8 +174613,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -174684,8 +174654,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -174725,8 +174695,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -174761,8 +174731,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				6,
-				21
+				5,
+				20
 			}
 		},
 		slg_bufflist = {},
@@ -175046,8 +175016,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				5,
-				10
+				4,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -175081,8 +175051,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				5,
-				10
+				4,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -175116,8 +175086,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -175151,8 +175121,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -175223,8 +175193,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				5,
-				10
+				4,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -175258,8 +175228,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				5,
-				10
+				4,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -175293,8 +175263,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -175547,8 +175517,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -175582,8 +175552,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -175617,8 +175587,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -175652,8 +175622,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -175693,8 +175663,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -175734,8 +175704,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -175775,8 +175745,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -175816,8 +175786,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -175857,8 +175827,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -175898,8 +175868,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -175939,8 +175909,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -175980,8 +175950,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -176016,8 +175986,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				4,
-				9
+				3,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -176301,8 +176271,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -176336,8 +176306,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -176371,8 +176341,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -176406,8 +176376,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -176441,8 +176411,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -176476,8 +176446,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -176548,8 +176518,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -176583,8 +176553,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -176618,8 +176588,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -176872,8 +176842,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -176907,8 +176877,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -176942,8 +176912,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -176977,8 +176947,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -177013,8 +176983,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -177049,8 +177019,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -177090,8 +177060,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -177131,8 +177101,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -177172,8 +177142,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -177213,8 +177183,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -177254,8 +177224,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -177295,8 +177265,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -177336,8 +177306,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -177377,8 +177347,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -177418,8 +177388,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -177459,8 +177429,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -177500,8 +177470,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -177541,8 +177511,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -177577,8 +177547,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -177862,8 +177832,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -177897,8 +177867,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -177932,8 +177902,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -177967,8 +177937,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -178039,8 +178009,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -178074,8 +178044,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -178109,8 +178079,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -178363,8 +178333,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -178398,8 +178368,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -178433,8 +178403,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -178468,8 +178438,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -178509,8 +178479,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -178550,8 +178520,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -178591,8 +178561,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -178632,8 +178602,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -178673,8 +178643,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -178714,8 +178684,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -178755,8 +178725,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -178796,8 +178766,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -178832,8 +178802,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				6,
-				6
+				5,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -179117,8 +179087,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -179152,8 +179122,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -179187,8 +179157,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -179222,8 +179192,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -179294,8 +179264,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -179329,8 +179299,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -179364,8 +179334,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -179618,8 +179588,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -179653,8 +179623,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -179688,8 +179658,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -179723,8 +179693,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -179764,8 +179734,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -179805,8 +179775,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -179846,8 +179816,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -179887,8 +179857,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -179928,8 +179898,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -179969,8 +179939,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -180010,8 +179980,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -180051,8 +180021,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -180087,8 +180057,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				6,
-				6
+				5,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -180372,8 +180342,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -180407,8 +180377,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -180442,8 +180412,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				14,
-				9
+				13,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -180477,8 +180447,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				14,
-				9
+				13,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -180512,8 +180482,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -180547,8 +180517,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -180619,8 +180589,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				14,
-				9
+				13,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -180654,8 +180624,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				14,
-				9
+				13,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -180689,8 +180659,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -180943,8 +180913,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -180978,8 +180948,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -181013,8 +180983,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -181048,8 +181018,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -181084,8 +181054,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -181120,8 +181090,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -181161,8 +181131,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -181202,8 +181172,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -181243,8 +181213,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -181284,8 +181254,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -181325,8 +181295,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -181366,8 +181336,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -181407,8 +181377,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -181448,8 +181418,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -181489,8 +181459,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -181530,8 +181500,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -181571,8 +181541,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -181612,8 +181582,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -181648,8 +181618,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -181933,8 +181903,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -181968,8 +181938,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -182003,8 +181973,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -182038,8 +182008,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -182073,8 +182043,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -182108,8 +182078,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -182180,8 +182150,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -182215,8 +182185,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -182250,8 +182220,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -182504,8 +182474,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -182539,8 +182509,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -182574,8 +182544,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -182609,8 +182579,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -182645,8 +182615,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -182681,8 +182651,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -182722,8 +182692,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -182763,8 +182733,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -182804,8 +182774,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -182845,8 +182815,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -182886,8 +182856,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -182927,8 +182897,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -182968,8 +182938,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -183009,8 +182979,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -183050,8 +183020,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -183091,8 +183061,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -183132,8 +183102,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -183173,8 +183143,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -183209,8 +183179,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -183494,8 +183464,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -183529,8 +183499,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -183564,8 +183534,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -183599,8 +183569,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -183671,8 +183641,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -183706,8 +183676,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -183741,8 +183711,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -183995,8 +183965,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -184030,8 +184000,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -184065,8 +184035,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -184100,8 +184070,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -184141,8 +184111,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -184182,8 +184152,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -184223,8 +184193,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -184264,8 +184234,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -184305,8 +184275,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -184346,8 +184316,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -184387,8 +184357,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -184428,8 +184398,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -184464,8 +184434,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				6,
-				6
+				5,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -184749,8 +184719,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -184784,8 +184754,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -184819,8 +184789,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -184854,8 +184824,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -184926,8 +184896,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -184961,8 +184931,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -184996,8 +184966,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -185250,8 +185220,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -185285,8 +185255,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -185320,8 +185290,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -185355,8 +185325,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -185396,8 +185366,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -185437,8 +185407,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -185478,8 +185448,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -185519,8 +185489,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -185560,8 +185530,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -185601,8 +185571,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -185642,8 +185612,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -185683,8 +185653,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -185719,8 +185689,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				6,
-				6
+				5,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -186004,8 +185974,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -186039,8 +186009,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -186074,8 +186044,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -186109,8 +186079,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -186181,8 +186151,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -186216,8 +186186,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -186251,8 +186221,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -186286,8 +186256,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -186540,8 +186510,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -186575,8 +186545,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -186610,8 +186580,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -186645,8 +186615,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -186681,8 +186651,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -186717,8 +186687,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -186758,8 +186728,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -186799,8 +186769,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -186840,8 +186810,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -186881,8 +186851,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -186922,8 +186892,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -186963,8 +186933,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -187004,8 +186974,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -187045,8 +187015,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -187086,8 +187056,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -187127,8 +187097,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -187163,8 +187133,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -187448,8 +187418,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -187483,8 +187453,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -187518,8 +187488,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -187553,8 +187523,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -187625,8 +187595,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -187660,8 +187630,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -187695,8 +187665,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -187730,8 +187700,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -187984,8 +187954,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -188019,8 +187989,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -188054,8 +188024,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -188089,8 +188059,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -188125,8 +188095,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -188161,8 +188131,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -188202,8 +188172,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -188243,8 +188213,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -188284,8 +188254,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -188325,8 +188295,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -188366,8 +188336,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -188407,8 +188377,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -188448,8 +188418,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -188489,8 +188459,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -188530,8 +188500,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -188571,8 +188541,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -188607,8 +188577,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -188892,8 +188862,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				20,
-				5
+				19,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -188927,8 +188897,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				20,
-				5
+				19,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -188962,8 +188932,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				21,
-				6
+				20,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -188997,8 +188967,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				21,
-				6
+				20,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -189032,8 +189002,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -189067,8 +189037,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -189139,8 +189109,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				22,
-				7
+				21,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -189174,8 +189144,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				22,
-				7
+				21,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -189209,8 +189179,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -189244,8 +189214,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -189498,8 +189468,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -189533,8 +189503,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -189568,8 +189538,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -189603,8 +189573,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -189639,8 +189609,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -189675,8 +189645,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -189716,8 +189686,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -189757,8 +189727,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -189798,8 +189768,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -189839,8 +189809,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -189880,8 +189850,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -189921,8 +189891,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -189962,8 +189932,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -190003,8 +189973,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -190044,8 +190014,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -190085,8 +190055,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -190126,8 +190096,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -190167,8 +190137,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -190203,8 +190173,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				21,
-				6
+				20,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -190488,8 +190458,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				15,
-				8
+				14,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -190523,8 +190493,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				15,
-				8
+				14,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -190558,8 +190528,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				16,
-				9
+				15,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -190593,8 +190563,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				16,
-				9
+				15,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -190628,8 +190598,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -190663,8 +190633,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -190735,8 +190705,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				17,
-				10
+				16,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -190770,8 +190740,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				17,
-				10
+				16,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -190805,8 +190775,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -190840,8 +190810,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -191094,8 +191064,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -191129,8 +191099,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -191164,8 +191134,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -191199,8 +191169,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -191235,8 +191205,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -191271,8 +191241,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -191312,8 +191282,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -191353,8 +191323,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -191394,8 +191364,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -191435,8 +191405,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -191476,8 +191446,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -191517,8 +191487,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -191558,8 +191528,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -191599,8 +191569,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -191640,8 +191610,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -191681,8 +191651,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -191722,8 +191692,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -191763,8 +191733,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -191799,8 +191769,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				16,
-				9
+				15,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -192084,8 +192054,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				5,
-				18
+				4,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -192119,8 +192089,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				5,
-				18
+				4,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -192154,8 +192124,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				6,
-				19
+				5,
+				18
 			}
 		},
 		slg_bufflist = {},
@@ -192189,8 +192159,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				6,
-				19
+				5,
+				18
 			}
 		},
 		slg_bufflist = {},
@@ -192224,8 +192194,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				7,
-				20
+				6,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -192259,8 +192229,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				7,
-				20
+				6,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -192331,8 +192301,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				6,
-				19
+				5,
+				18
 			}
 		},
 		slg_bufflist = {},
@@ -192366,8 +192336,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				7,
-				20
+				6,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -192401,8 +192371,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				7,
-				20
+				6,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -192655,8 +192625,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				7,
-				20
+				6,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -192690,8 +192660,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				7,
-				20
+				6,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -192725,8 +192695,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				7,
-				20
+				6,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -192760,8 +192730,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				7,
-				20
+				6,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -192796,8 +192766,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				7,
-				20
+				6,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -192832,8 +192802,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				7,
-				20
+				6,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -192873,8 +192843,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				7,
-				20
+				6,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -192914,8 +192884,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				7,
-				20
+				6,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -192955,8 +192925,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				7,
-				20
+				6,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -192996,8 +192966,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				7,
-				20
+				6,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -193037,8 +193007,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				7,
-				20
+				6,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -193078,8 +193048,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				7,
-				20
+				6,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -193119,8 +193089,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				7,
-				20
+				6,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -193160,8 +193130,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				7,
-				20
+				6,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -193201,8 +193171,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				7,
-				20
+				6,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -193242,8 +193212,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				7,
-				20
+				6,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -193283,8 +193253,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				7,
-				20
+				6,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -193324,8 +193294,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				7,
-				20
+				6,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -193360,8 +193330,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				5,
-				18
+				4,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -193645,8 +193615,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -193680,8 +193650,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -193715,8 +193685,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				14,
-				9
+				13,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -193750,8 +193720,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				14,
-				9
+				13,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -193785,8 +193755,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -193820,8 +193790,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -193892,8 +193862,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				14,
-				9
+				13,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -193927,8 +193897,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				14,
-				9
+				13,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -193962,8 +193932,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -194216,8 +194186,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -194251,8 +194221,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -194286,8 +194256,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -194321,8 +194291,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -194357,8 +194327,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -194393,8 +194363,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -194434,8 +194404,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -194475,8 +194445,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -194516,8 +194486,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -194557,8 +194527,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -194598,8 +194568,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -194639,8 +194609,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -194680,8 +194650,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -194721,8 +194691,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -194762,8 +194732,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -194803,8 +194773,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -194844,8 +194814,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -194885,8 +194855,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				15,
-				10
+				14,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -194921,8 +194891,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -195206,8 +195176,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -195241,8 +195211,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -195276,8 +195246,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -195311,8 +195281,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -195383,8 +195353,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -195418,8 +195388,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -195453,8 +195423,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -195488,8 +195458,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -195742,8 +195712,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -195777,8 +195747,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -195812,8 +195782,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -195847,8 +195817,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -195883,8 +195853,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -195919,8 +195889,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -195960,8 +195930,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -196001,8 +195971,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -196042,8 +196012,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -196083,8 +196053,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -196124,8 +196094,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -196165,8 +196135,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -196206,8 +196176,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -196247,8 +196217,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -196288,8 +196258,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -196329,8 +196299,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -196365,8 +196335,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -196650,8 +196620,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				8,
-				15
+				7,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -196685,8 +196655,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				8,
-				15
+				7,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -196720,8 +196690,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				9,
-				16
+				8,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -196755,8 +196725,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				9,
-				16
+				8,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -196790,8 +196760,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -196825,8 +196795,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -196897,8 +196867,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				10,
-				17
+				9,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -196932,8 +196902,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				10,
-				17
+				9,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -196967,8 +196937,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -197002,8 +196972,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -197256,8 +197226,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -197291,8 +197261,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -197326,8 +197296,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -197361,8 +197331,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -197397,8 +197367,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -197433,8 +197403,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -197474,8 +197444,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -197515,8 +197485,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -197556,8 +197526,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -197597,8 +197567,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -197638,8 +197608,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -197679,8 +197649,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -197720,8 +197690,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -197761,8 +197731,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -197802,8 +197772,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -197843,8 +197813,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -197884,8 +197854,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -197925,8 +197895,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				18
+				10,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -197961,8 +197931,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				9,
-				16
+				8,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -198246,8 +198216,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -198281,8 +198251,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -198316,8 +198286,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -198351,8 +198321,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -198423,8 +198393,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -198458,8 +198428,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -198493,8 +198463,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -198528,8 +198498,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -198782,8 +198752,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -198817,8 +198787,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -198852,8 +198822,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -198887,8 +198857,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -198923,8 +198893,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -198959,8 +198929,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -199000,8 +198970,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -199041,8 +199011,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -199082,8 +199052,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -199123,8 +199093,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -199164,8 +199134,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -199205,8 +199175,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -199246,8 +199216,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -199287,8 +199257,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -199328,8 +199298,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -199369,8 +199339,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -199405,8 +199375,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -199690,8 +199660,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				10,
-				5
+				9,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -199725,8 +199695,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				10,
-				5
+				9,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -199760,8 +199730,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -199795,8 +199765,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -199867,8 +199837,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				10,
-				5
+				9,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -199902,8 +199872,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				10,
-				5
+				9,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -199937,8 +199907,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -200191,8 +200161,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -200226,8 +200196,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -200261,8 +200231,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -200296,8 +200266,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -200337,8 +200307,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -200378,8 +200348,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -200419,8 +200389,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -200460,8 +200430,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -200501,8 +200471,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -200542,8 +200512,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -200583,8 +200553,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -200624,8 +200594,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -200660,8 +200630,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				9,
-				4
+				8,
+				3
 			}
 		},
 		slg_bufflist = {},
@@ -200945,8 +200915,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -200980,8 +200950,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -201015,8 +200985,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -201050,8 +201020,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -201122,8 +201092,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -201157,8 +201127,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -201192,8 +201162,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -201227,8 +201197,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -201481,8 +201451,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -201516,8 +201486,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -201551,8 +201521,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -201586,8 +201556,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -201622,8 +201592,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -201658,8 +201628,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -201699,8 +201669,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -201740,8 +201710,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -201781,8 +201751,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -201822,8 +201792,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -201863,8 +201833,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -201904,8 +201874,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -201945,8 +201915,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -201986,8 +201956,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -202027,8 +201997,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -202068,8 +202038,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -202104,8 +202074,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -202389,8 +202359,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				12
+				6,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -202424,8 +202394,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				12
+				6,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -202459,8 +202429,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -202494,8 +202464,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -202566,8 +202536,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				12
+				6,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -202601,8 +202571,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				12
+				6,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -202636,8 +202606,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -202671,8 +202641,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -202925,8 +202895,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -202960,8 +202930,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -202995,8 +202965,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -203030,8 +203000,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -203066,8 +203036,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -203102,8 +203072,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -203143,8 +203113,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -203184,8 +203154,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -203225,8 +203195,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -203266,8 +203236,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -203307,8 +203277,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -203348,8 +203318,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -203389,8 +203359,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -203430,8 +203400,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -203471,8 +203441,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -203512,8 +203482,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -203548,8 +203518,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -203833,8 +203803,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				15,
-				8
+				14,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -203868,8 +203838,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				15,
-				8
+				14,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -203903,8 +203873,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				16,
-				9
+				15,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -203938,8 +203908,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				16,
-				9
+				15,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -203973,8 +203943,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -204008,8 +203978,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -204080,8 +204050,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				17,
-				10
+				16,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -204115,8 +204085,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				17,
-				10
+				16,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -204150,8 +204120,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -204185,8 +204155,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -204439,8 +204409,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -204474,8 +204444,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -204509,8 +204479,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -204544,8 +204514,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -204580,8 +204550,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -204616,8 +204586,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -204657,8 +204627,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -204698,8 +204668,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -204739,8 +204709,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -204780,8 +204750,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -204821,8 +204791,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -204862,8 +204832,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -204903,8 +204873,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -204944,8 +204914,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -204985,8 +204955,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -205026,8 +204996,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -205067,8 +205037,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -205108,8 +205078,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				11
+				17,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -205144,8 +205114,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				16,
-				9
+				15,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -205429,8 +205399,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -205464,8 +205434,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -205499,8 +205469,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -205534,8 +205504,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -205606,8 +205576,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -205641,8 +205611,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -205676,8 +205646,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -205930,8 +205900,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -205965,8 +205935,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -206000,8 +205970,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -206035,8 +206005,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -206076,8 +206046,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -206117,8 +206087,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -206158,8 +206128,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -206199,8 +206169,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -206240,8 +206210,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -206281,8 +206251,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -206322,8 +206292,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -206363,8 +206333,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -206399,8 +206369,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				6,
-				6
+				5,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -206684,8 +206654,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -206719,8 +206689,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -206754,8 +206724,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -206789,8 +206759,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -206861,8 +206831,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -206896,8 +206866,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -206931,8 +206901,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -206966,8 +206936,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -207220,8 +207190,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -207255,8 +207225,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -207290,8 +207260,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -207325,8 +207295,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -207361,8 +207331,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -207397,8 +207367,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -207438,8 +207408,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -207479,8 +207449,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -207520,8 +207490,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -207561,8 +207531,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -207602,8 +207572,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -207643,8 +207613,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -207684,8 +207654,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -207725,8 +207695,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -207766,8 +207736,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -207807,8 +207777,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -207843,8 +207813,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -208128,8 +208098,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				5,
-				20
+				4,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -208163,8 +208133,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				5,
-				20
+				4,
+				19
 			}
 		},
 		slg_bufflist = {},
@@ -208198,8 +208168,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				6,
-				21
+				5,
+				20
 			}
 		},
 		slg_bufflist = {},
@@ -208233,8 +208203,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				6,
-				21
+				5,
+				20
 			}
 		},
 		slg_bufflist = {},
@@ -208268,8 +208238,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -208303,8 +208273,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -208375,8 +208345,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				22
+				6,
+				21
 			}
 		},
 		slg_bufflist = {},
@@ -208410,8 +208380,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -208445,8 +208415,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -208480,8 +208450,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -208734,8 +208704,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -208769,8 +208739,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -208804,8 +208774,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -208839,8 +208809,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -208875,8 +208845,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -208911,8 +208881,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -208952,8 +208922,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -208993,8 +208963,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -209034,8 +209004,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -209075,8 +209045,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -209116,8 +209086,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -209157,8 +209127,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -209198,8 +209168,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -209239,8 +209209,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -209280,8 +209250,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -209321,8 +209291,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -209362,8 +209332,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -209403,8 +209373,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				23
+				7,
+				22
 			}
 		},
 		slg_bufflist = {},
@@ -209439,8 +209409,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				6,
-				21
+				5,
+				20
 			}
 		},
 		slg_bufflist = {},
@@ -209724,8 +209694,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -209759,8 +209729,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -209794,8 +209764,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -209829,8 +209799,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -209901,8 +209871,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -209936,8 +209906,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				12,
-				7
+				11,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -209971,8 +209941,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -210006,8 +209976,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -210260,8 +210230,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -210295,8 +210265,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -210330,8 +210300,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -210365,8 +210335,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -210401,8 +210371,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -210437,8 +210407,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -210478,8 +210448,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -210519,8 +210489,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -210560,8 +210530,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -210601,8 +210571,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -210642,8 +210612,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -210683,8 +210653,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -210724,8 +210694,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -210765,8 +210735,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -210806,8 +210776,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -210847,8 +210817,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				13,
-				8
+				12,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -210883,8 +210853,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				11,
-				6
+				10,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -211168,8 +211138,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -211203,8 +211173,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -211238,8 +211208,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -211273,8 +211243,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -211345,8 +211315,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -211380,8 +211350,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -211415,8 +211385,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -211669,8 +211639,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -211704,8 +211674,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -211739,8 +211709,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -211774,8 +211744,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -211815,8 +211785,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -211856,8 +211826,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -211897,8 +211867,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -211938,8 +211908,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -211979,8 +211949,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -212020,8 +211990,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -212061,8 +212031,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -212102,8 +212072,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -212138,8 +212108,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				6,
-				6
+				5,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -212423,8 +212393,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				5,
-				10
+				4,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -212458,8 +212428,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				5,
-				10
+				4,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -212493,8 +212463,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -212528,8 +212498,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -212600,8 +212570,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				5,
-				10
+				4,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -212635,8 +212605,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				5,
-				10
+				4,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -212670,8 +212640,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -212924,8 +212894,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -212959,8 +212929,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -212994,8 +212964,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -213029,8 +212999,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -213070,8 +213040,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -213111,8 +213081,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -213152,8 +213122,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -213193,8 +213163,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -213234,8 +213204,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -213275,8 +213245,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -213316,8 +213286,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -213357,8 +213327,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				11
+				5,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -213393,8 +213363,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				4,
-				9
+				3,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -213678,8 +213648,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -213713,8 +213683,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -213748,8 +213718,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -213783,8 +213753,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -213855,8 +213825,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -213890,8 +213860,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -213925,8 +213895,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -213960,8 +213930,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -214214,8 +214184,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -214249,8 +214219,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -214284,8 +214254,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -214319,8 +214289,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -214355,8 +214325,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -214391,8 +214361,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -214432,8 +214402,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -214473,8 +214443,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -214514,8 +214484,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -214555,8 +214525,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -214596,8 +214566,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -214637,8 +214607,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -214678,8 +214648,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -214719,8 +214689,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -214760,8 +214730,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -214801,8 +214771,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -214837,8 +214807,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -215122,8 +215092,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -215157,8 +215127,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -215192,8 +215162,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -215227,8 +215197,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -215299,8 +215269,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -215334,8 +215304,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				7,
-				7
+				6,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -215369,8 +215339,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -215623,8 +215593,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -215658,8 +215628,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -215693,8 +215663,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -215728,8 +215698,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -215769,8 +215739,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -215810,8 +215780,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -215851,8 +215821,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -215892,8 +215862,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -215933,8 +215903,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -215974,8 +215944,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -216015,8 +215985,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -216056,8 +216026,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -216092,8 +216062,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				6,
-				6
+				5,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -216377,8 +216347,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -216412,8 +216382,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -216447,8 +216417,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -216482,8 +216452,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -216554,8 +216524,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -216589,8 +216559,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				9
+				8,
+				8
 			}
 		},
 		slg_bufflist = {},
@@ -216624,8 +216594,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -216659,8 +216629,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -216913,8 +216883,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -216948,8 +216918,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -216983,8 +216953,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -217018,8 +216988,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -217054,8 +217024,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -217090,8 +217060,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -217131,8 +217101,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -217172,8 +217142,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -217213,8 +217183,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -217254,8 +217224,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -217295,8 +217265,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -217336,8 +217306,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -217377,8 +217347,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -217418,8 +217388,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -217459,8 +217429,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -217500,8 +217470,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				10
+				9,
+				9
 			}
 		},
 		slg_bufflist = {},
@@ -217536,8 +217506,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				8,
-				8
+				7,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -217821,8 +217791,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				15,
-				5
+				14,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -217856,8 +217826,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				15,
-				5
+				14,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -217891,8 +217861,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -217926,8 +217896,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -217998,8 +217968,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				15,
-				5
+				14,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -218033,8 +218003,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				15,
-				5
+				14,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -218068,8 +218038,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -218103,8 +218073,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -218357,8 +218327,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -218392,8 +218362,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -218427,8 +218397,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -218462,8 +218432,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -218498,8 +218468,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -218534,8 +218504,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -218575,8 +218545,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -218616,8 +218586,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -218657,8 +218627,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -218698,8 +218668,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -218739,8 +218709,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -218780,8 +218750,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -218821,8 +218791,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -218862,8 +218832,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -218903,8 +218873,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -218944,8 +218914,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				16,
-				6
+				15,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -218980,8 +218950,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				14,
-				4
+				13,
+				3
 			}
 		},
 		slg_bufflist = {},
@@ -219265,8 +219235,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -219300,8 +219270,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -219335,8 +219305,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				14
+				8,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -219370,8 +219340,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				14
+				8,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -219405,8 +219375,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -219440,8 +219410,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -219512,8 +219482,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				14
+				8,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -219547,8 +219517,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				9,
-				14
+				8,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -219582,8 +219552,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -219836,8 +219806,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -219871,8 +219841,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -219906,8 +219876,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -219941,8 +219911,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -219977,8 +219947,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -220013,8 +219983,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -220054,8 +220024,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -220095,8 +220065,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -220136,8 +220106,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -220177,8 +220147,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -220218,8 +220188,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -220259,8 +220229,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -220300,8 +220270,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -220341,8 +220311,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -220382,8 +220352,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -220423,8 +220393,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -220464,8 +220434,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -220505,8 +220475,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				10,
-				15
+				9,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -220541,8 +220511,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				8,
-				13
+				7,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -220826,8 +220796,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				5,
-				15
+				4,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -220861,8 +220831,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				5,
-				15
+				4,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -220896,8 +220866,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				16
+				5,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -220931,8 +220901,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				16
+				5,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -221003,8 +220973,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				5,
-				15
+				4,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -221038,8 +221008,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				5,
-				15
+				4,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -221073,8 +221043,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				16
+				5,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -221108,8 +221078,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				16
+				5,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -221362,8 +221332,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				16
+				5,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -221397,8 +221367,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				16
+				5,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -221432,8 +221402,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				16
+				5,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -221467,8 +221437,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				16
+				5,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -221503,8 +221473,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				16
+				5,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -221539,8 +221509,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				16
+				5,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -221580,8 +221550,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				16
+				5,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -221621,8 +221591,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				16
+				5,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -221662,8 +221632,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				16
+				5,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -221703,8 +221673,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				16
+				5,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -221744,8 +221714,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				16
+				5,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -221785,8 +221755,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				16
+				5,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -221826,8 +221796,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				16
+				5,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -221867,8 +221837,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				16
+				5,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -221908,8 +221878,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				16
+				5,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -221949,8 +221919,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				6,
-				16
+				5,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -221985,8 +221955,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				4,
-				14
+				3,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -222270,8 +222240,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				20,
-				5
+				19,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -222305,8 +222275,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				20,
-				5
+				19,
+				4
 			}
 		},
 		slg_bufflist = {},
@@ -222340,8 +222310,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				21,
-				6
+				20,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -222375,8 +222345,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				21,
-				6
+				20,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -222410,8 +222380,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -222445,8 +222415,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -222517,8 +222487,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				22,
-				7
+				21,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -222552,8 +222522,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				22,
-				7
+				21,
+				6
 			}
 		},
 		slg_bufflist = {},
@@ -222587,8 +222557,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -222622,8 +222592,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -222876,8 +222846,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -222911,8 +222881,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -222946,8 +222916,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -222981,8 +222951,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -223017,8 +222987,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -223053,8 +223023,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -223094,8 +223064,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -223135,8 +223105,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -223176,8 +223146,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -223217,8 +223187,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -223258,8 +223228,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -223299,8 +223269,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -223340,8 +223310,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -223381,8 +223351,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -223422,8 +223392,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -223463,8 +223433,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -223504,8 +223474,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -223545,8 +223515,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				23,
-				8
+				22,
+				7
 			}
 		},
 		slg_bufflist = {},
@@ -223581,8 +223551,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				21,
-				6
+				20,
+				5
 			}
 		},
 		slg_bufflist = {},
@@ -223866,8 +223836,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -223901,8 +223871,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -223936,8 +223906,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -223971,8 +223941,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -224006,8 +223976,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -224041,8 +224011,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -224113,8 +224083,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				13,
-				13
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -224148,8 +224118,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				13,
-				13
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -224183,8 +224153,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -224218,8 +224188,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -224472,8 +224442,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -224507,8 +224477,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -224542,8 +224512,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -224577,8 +224547,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -224613,8 +224583,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -224649,8 +224619,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -224690,8 +224660,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -224731,8 +224701,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -224772,8 +224742,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -224813,8 +224783,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -224854,8 +224824,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -224895,8 +224865,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -224936,8 +224906,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -224977,8 +224947,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -225018,8 +224988,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -225059,8 +225029,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -225100,8 +225070,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -225141,8 +225111,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -225177,8 +225147,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -225462,8 +225432,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -225497,8 +225467,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -225532,8 +225502,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -225567,8 +225537,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -225602,8 +225572,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -225637,8 +225607,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -225709,8 +225679,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				13,
-				13
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -225744,8 +225714,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				13,
-				13
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -225779,8 +225749,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -225814,8 +225784,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -226068,8 +226038,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -226103,8 +226073,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -226138,8 +226108,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -226173,8 +226143,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -226209,8 +226179,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -226245,8 +226215,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -226286,8 +226256,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -226327,8 +226297,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -226368,8 +226338,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -226409,8 +226379,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -226450,8 +226420,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -226491,8 +226461,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -226532,8 +226502,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -226573,8 +226543,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -226614,8 +226584,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -226655,8 +226625,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -226696,8 +226666,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -226737,8 +226707,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -226773,8 +226743,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -227058,8 +227028,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -227093,8 +227063,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -227128,8 +227098,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -227163,8 +227133,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -227198,8 +227168,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -227233,8 +227203,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -227305,8 +227275,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				13,
-				13
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -227340,8 +227310,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				13,
-				13
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -227375,8 +227345,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -227410,8 +227380,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -227664,8 +227634,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -227699,8 +227669,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -227734,8 +227704,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -227769,8 +227739,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -227805,8 +227775,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -227841,8 +227811,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -227882,8 +227852,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -227923,8 +227893,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -227964,8 +227934,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -228005,8 +227975,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -228046,8 +228016,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -228087,8 +228057,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -228128,8 +228098,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -228169,8 +228139,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -228210,8 +228180,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -228251,8 +228221,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -228292,8 +228262,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -228333,8 +228303,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -228369,8 +228339,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -228654,8 +228624,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				15,
-				15
+				14,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -228689,8 +228659,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				15,
-				15
+				14,
+				14
 			}
 		},
 		slg_bufflist = {},
@@ -228724,8 +228694,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				16,
-				16
+				15,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -228759,8 +228729,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				16,
-				16
+				15,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -228794,8 +228764,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				18
+				17,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -228829,8 +228799,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				18
+				17,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -228901,8 +228871,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				17,
-				17
+				16,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -228936,8 +228906,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				17,
-				17
+				16,
+				16
 			}
 		},
 		slg_bufflist = {},
@@ -228971,8 +228941,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				18
+				17,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -229225,8 +229195,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				18
+				17,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -229260,8 +229230,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				18
+				17,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -229295,8 +229265,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				18
+				17,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -229330,8 +229300,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				18
+				17,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -229366,8 +229336,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				18
+				17,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -229402,8 +229372,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				18
+				17,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -229443,8 +229413,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				18
+				17,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -229484,8 +229454,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				18
+				17,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -229525,8 +229495,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				18
+				17,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -229566,8 +229536,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				18
+				17,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -229607,8 +229577,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				18
+				17,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -229648,8 +229618,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				18,
-				18
+				17,
+				17
 			}
 		},
 		slg_bufflist = {},
@@ -229684,8 +229654,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				16,
-				16
+				15,
+				15
 			}
 		},
 		slg_bufflist = {},
@@ -229969,8 +229939,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -230004,8 +229974,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -230039,8 +230009,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -230074,8 +230044,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -230109,8 +230079,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -230144,8 +230114,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -230216,8 +230186,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				13,
-				13
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -230251,8 +230221,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				13,
-				13
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -230286,8 +230256,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -230321,8 +230291,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -230575,8 +230545,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -230610,8 +230580,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -230645,8 +230615,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -230680,8 +230650,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -230716,8 +230686,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -230752,8 +230722,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -230793,8 +230763,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -230834,8 +230804,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -230875,8 +230845,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -230916,8 +230886,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -230957,8 +230927,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -230998,8 +230968,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -231039,8 +231009,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -231080,8 +231050,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -231121,8 +231091,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -231162,8 +231132,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -231203,8 +231173,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -231244,8 +231214,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -231280,8 +231250,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -231565,8 +231535,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -231600,8 +231570,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -231635,8 +231605,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -231670,8 +231640,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -231705,8 +231675,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -231740,8 +231710,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -231812,8 +231782,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				13,
-				13
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -231847,8 +231817,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				13,
-				13
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -231882,8 +231852,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -231917,8 +231887,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -232171,8 +232141,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -232206,8 +232176,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -232241,8 +232211,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -232276,8 +232246,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -232312,8 +232282,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -232348,8 +232318,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -232389,8 +232359,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -232430,8 +232400,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -232471,8 +232441,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -232512,8 +232482,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -232553,8 +232523,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -232594,8 +232564,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -232635,8 +232605,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -232676,8 +232646,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -232717,8 +232687,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -232758,8 +232728,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -232799,8 +232769,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -232840,8 +232810,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -232876,8 +232846,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -233161,8 +233131,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -233196,8 +233166,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -233231,8 +233201,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -233266,8 +233236,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -233301,8 +233271,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -233336,8 +233306,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -233408,8 +233378,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				13,
-				13
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -233443,8 +233413,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				13,
-				13
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -233478,8 +233448,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -233513,8 +233483,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -233767,8 +233737,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -233802,8 +233772,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -233837,8 +233807,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -233872,8 +233842,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -233908,8 +233878,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -233944,8 +233914,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -233985,8 +233955,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -234026,8 +233996,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -234067,8 +234037,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -234108,8 +234078,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -234149,8 +234119,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -234190,8 +234160,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -234231,8 +234201,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -234272,8 +234242,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -234313,8 +234283,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -234354,8 +234324,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -234395,8 +234365,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -234436,8 +234406,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -234472,8 +234442,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -234757,8 +234727,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -234792,8 +234762,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -234827,8 +234797,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -234862,8 +234832,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -234897,8 +234867,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -234932,8 +234902,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -235004,8 +234974,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				13,
-				13
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -235039,8 +235009,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				13,
-				13
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -235074,8 +235044,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -235109,8 +235079,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -235363,8 +235333,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -235398,8 +235368,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -235433,8 +235403,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -235468,8 +235438,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -235504,8 +235474,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -235540,8 +235510,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -235581,8 +235551,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -235622,8 +235592,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -235663,8 +235633,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -235704,8 +235674,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -235745,8 +235715,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -235786,8 +235756,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -235827,8 +235797,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -235868,8 +235838,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -235909,8 +235879,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -235950,8 +235920,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -235991,8 +235961,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -236032,8 +236002,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -236068,8 +236038,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -236353,8 +236323,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -236388,8 +236358,8 @@ pg.world_event_data = {
 			{
 				5,
 				5,
-				11,
-				11
+				10,
+				10
 			}
 		},
 		slg_bufflist = {},
@@ -236423,8 +236393,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -236458,8 +236428,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},
@@ -236493,8 +236463,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -236528,8 +236498,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -236600,8 +236570,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				13,
-				13
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -236635,8 +236605,8 @@ pg.world_event_data = {
 			{
 				3,
 				3,
-				13,
-				13
+				12,
+				12
 			}
 		},
 		slg_bufflist = {},
@@ -236670,8 +236640,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -236705,8 +236675,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -236959,8 +236929,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -236994,8 +236964,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -237029,8 +236999,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -237064,8 +237034,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -237100,8 +237070,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -237136,8 +237106,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -237177,8 +237147,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -237218,8 +237188,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -237259,8 +237229,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -237300,8 +237270,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -237341,8 +237311,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -237382,8 +237352,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -237423,8 +237393,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -237464,8 +237434,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -237505,8 +237475,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -237546,8 +237516,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -237587,8 +237557,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -237628,8 +237598,8 @@ pg.world_event_data = {
 			{
 				2,
 				2,
-				14,
-				14
+				13,
+				13
 			}
 		},
 		slg_bufflist = {},
@@ -237664,8 +237634,8 @@ pg.world_event_data = {
 			{
 				4,
 				4,
-				12,
-				12
+				11,
+				11
 			}
 		},
 		slg_bufflist = {},

@@ -921,18 +921,16 @@ function slot0.updateEliteLimit(slot0)
 		slot1, slot2 = slot0.chapter:IsPropertyLimitationSatisfy()
 
 		for slot6, slot7 in ipairs(slot0.propetyLimitation) do
-			slot8 = slot7[1]
-			slot9 = slot7[2]
-			slot10 = slot7[3]
+			slot8, slot9, slot10, slot11 = unpack(slot7)
 
 			if slot1[slot6] == 1 then
 				slot0:findTF("Text", cloneTplTo(slot0.tfLimitTpl, slot0.tfLimitContainer)):GetComponent(typeof(Text)).color = Color.New(1, 0.9607843137254902, 0.5019607843137255)
 			else
-				slot0:findTF("Text", slot11):GetComponent(typeof(Text)).color = Color.New(0.9568627450980393, 0.30196078431372547, 0.30196078431372547)
+				slot0:findTF("Text", slot12):GetComponent(typeof(Text)).color = Color.New(0.9568627450980393, 0.30196078431372547, 0.30196078431372547)
 			end
 
-			setActive(slot11, true)
-			setText(slot0:findTF("Text", slot11), AttributeType.EliteCondition2Name(slot8) .. AttributeType.eliteConditionCompare[slot9] .. slot10 .. "（" .. slot2[slot8] .. "）")
+			setActive(slot12, true)
+			setText(slot0:findTF("Text", slot12), AttributeType.EliteCondition2Name(slot8, slot11) .. AttributeType.eliteConditionCompareTip[slot9] .. slot10 .. "（" .. slot2[slot8] .. "）")
 		end
 
 		setActive(slot0.tfLimitElite:Find("sub"), slot0.chapter:getConfig("submarine_num") > 0)

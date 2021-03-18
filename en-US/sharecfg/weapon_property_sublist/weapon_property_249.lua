@@ -2,315 +2,7 @@ pg = pg or {}
 pg.weapon_property_249 = {}
 
 function ()
-	uv0.weapon_property_249[510819] = {
-		action_index = "attack",
-		range = 110,
-		type = 11,
-		fire_fx = "",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "翔鹤鱼雷机T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 48,
-		corrected = 100,
-		min_range = 0,
-		id = 510819,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 4500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30014
-		},
-		barrage_ID = {
-			12014
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_249[510820] = {
-		action_index = "attack",
-		range = 120,
-		type = 11,
-		fire_fx = "zhupao",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "翔鹤战斗机T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 15,
-		corrected = 100,
-		min_range = 0,
-		id = 510820,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 5000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30013
-		},
-		barrage_ID = {
-			12014
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_249[510821] = {
-		action_index = "attack",
-		range = 100,
-		type = 11,
-		fire_fx = "",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "瑞鹤轰炸机T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 60,
-		corrected = 100,
-		min_range = 0,
-		id = 510821,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3250,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30019
-		},
-		barrage_ID = {
-			12014
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_249[510822] = {
-		action_index = "attack",
-		range = 110,
-		type = 11,
-		fire_fx = "",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "瑞鹤鱼雷机T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 48,
-		corrected = 100,
-		min_range = 0,
-		id = 510822,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 4500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30014
-		},
-		barrage_ID = {
-			12014
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_249[510823] = {
-		action_index = "attack",
-		range = 120,
-		type = 11,
-		fire_fx = "zhupao",
-		recover_time = 5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "瑞鹤战斗机T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 15,
-		corrected = 100,
-		min_range = 0,
-		id = 510823,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 5000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30013
-		},
-		barrage_ID = {
-			12014
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_249[510900] = {
-		action_index = "",
-		range = 10,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "龙骧轰炸机(以下飞机武器）",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 60,
-		corrected = 100,
-		min_range = 0,
-		id = 510900,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			10012
-		},
-		barrage_ID = {
-			10001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_249[510901] = {
-		action_index = "",
-		range = 40,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "龙骧鱼雷机T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 35,
-		charge_param = "",
-		damage = 48,
-		corrected = 100,
-		min_range = 22,
-		id = 510901,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 11954,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			10031
-		},
-		barrage_ID = {
-			12001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_249[510902] = {
+	uv0.weapon_property_249[511902] = {
 		action_index = "",
 		range = 85,
 		type = 1,
@@ -327,7 +19,7 @@ function ()
 		damage = 5,
 		corrected = 100,
 		min_range = 0,
-		id = 510902,
+		id = 511902,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -360,7 +52,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510903] = {
+	uv0.weapon_property_249[511903] = {
 		action_index = "",
 		range = 200,
 		type = 4,
@@ -377,7 +69,7 @@ function ()
 		damage = 15,
 		corrected = 100,
 		min_range = 0,
-		id = 510903,
+		id = 511903,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -404,7 +96,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510904] = {
+	uv0.weapon_property_249[511904] = {
 		action_index = "",
 		range = 10,
 		type = 2,
@@ -421,7 +113,7 @@ function ()
 		damage = 60,
 		corrected = 100,
 		min_range = 0,
-		id = 510904,
+		id = 511904,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -448,7 +140,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510905] = {
+	uv0.weapon_property_249[511905] = {
 		action_index = "",
 		range = 40,
 		type = 3,
@@ -465,7 +157,7 @@ function ()
 		damage = 48,
 		corrected = 100,
 		min_range = 22,
-		id = 510905,
+		id = 511905,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -492,7 +184,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510906] = {
+	uv0.weapon_property_249[511906] = {
 		action_index = "",
 		range = 85,
 		type = 1,
@@ -509,7 +201,7 @@ function ()
 		damage = 5,
 		corrected = 100,
 		min_range = 0,
-		id = 510906,
+		id = 511906,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -542,7 +234,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510907] = {
+	uv0.weapon_property_249[511907] = {
 		action_index = "",
 		range = 200,
 		type = 4,
@@ -559,7 +251,7 @@ function ()
 		damage = 15,
 		corrected = 100,
 		min_range = 0,
-		id = 510907,
+		id = 511907,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -586,7 +278,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510908] = {
+	uv0.weapon_property_249[511908] = {
 		action_index = "",
 		range = 10,
 		type = 2,
@@ -603,7 +295,7 @@ function ()
 		damage = 60,
 		corrected = 100,
 		min_range = 0,
-		id = 510908,
+		id = 511908,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -630,7 +322,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510909] = {
+	uv0.weapon_property_249[511909] = {
 		action_index = "",
 		range = 40,
 		type = 3,
@@ -647,7 +339,7 @@ function ()
 		damage = 48,
 		corrected = 100,
 		min_range = 22,
-		id = 510909,
+		id = 511909,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -674,7 +366,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510910] = {
+	uv0.weapon_property_249[511910] = {
 		action_index = "",
 		range = 85,
 		type = 1,
@@ -691,7 +383,7 @@ function ()
 		damage = 5,
 		corrected = 100,
 		min_range = 0,
-		id = 510910,
+		id = 511910,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -724,7 +416,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510911] = {
+	uv0.weapon_property_249[511911] = {
 		action_index = "",
 		range = 200,
 		type = 4,
@@ -741,7 +433,7 @@ function ()
 		damage = 15,
 		corrected = 100,
 		min_range = 0,
-		id = 510911,
+		id = 511911,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -768,7 +460,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510912] = {
+	uv0.weapon_property_249[511912] = {
 		action_index = "",
 		range = 10,
 		type = 2,
@@ -785,7 +477,7 @@ function ()
 		damage = 60,
 		corrected = 100,
 		min_range = 0,
-		id = 510912,
+		id = 511912,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -812,7 +504,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510913] = {
+	uv0.weapon_property_249[511913] = {
 		action_index = "",
 		range = 40,
 		type = 3,
@@ -829,7 +521,7 @@ function ()
 		damage = 48,
 		corrected = 100,
 		min_range = 22,
-		id = 510913,
+		id = 511913,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -856,7 +548,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510914] = {
+	uv0.weapon_property_249[511914] = {
 		action_index = "",
 		range = 85,
 		type = 1,
@@ -873,7 +565,7 @@ function ()
 		damage = 5,
 		corrected = 100,
 		min_range = 0,
-		id = 510914,
+		id = 511914,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -906,7 +598,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510915] = {
+	uv0.weapon_property_249[511915] = {
 		action_index = "",
 		range = 200,
 		type = 4,
@@ -923,7 +615,7 @@ function ()
 		damage = 15,
 		corrected = 100,
 		min_range = 0,
-		id = 510915,
+		id = 511915,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -950,7 +642,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510916] = {
+	uv0.weapon_property_249[511916] = {
 		action_index = "",
 		range = 10,
 		type = 2,
@@ -967,7 +659,7 @@ function ()
 		damage = 60,
 		corrected = 100,
 		min_range = 0,
-		id = 510916,
+		id = 511916,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -994,7 +686,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510917] = {
+	uv0.weapon_property_249[511917] = {
 		action_index = "",
 		range = 40,
 		type = 3,
@@ -1011,7 +703,7 @@ function ()
 		damage = 48,
 		corrected = 100,
 		min_range = 22,
-		id = 510917,
+		id = 511917,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1038,7 +730,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510918] = {
+	uv0.weapon_property_249[511918] = {
 		action_index = "",
 		range = 85,
 		type = 1,
@@ -1055,7 +747,7 @@ function ()
 		damage = 5,
 		corrected = 100,
 		min_range = 0,
-		id = 510918,
+		id = 511918,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1088,7 +780,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510919] = {
+	uv0.weapon_property_249[511919] = {
 		action_index = "",
 		range = 200,
 		type = 4,
@@ -1105,7 +797,7 @@ function ()
 		damage = 15,
 		corrected = 100,
 		min_range = 0,
-		id = 510919,
+		id = 511919,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1132,7 +824,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510920] = {
+	uv0.weapon_property_249[511920] = {
 		action_index = "",
 		range = 10,
 		type = 2,
@@ -1149,7 +841,7 @@ function ()
 		damage = 60,
 		corrected = 100,
 		min_range = 0,
-		id = 510920,
+		id = 511920,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1176,7 +868,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510921] = {
+	uv0.weapon_property_249[511921] = {
 		action_index = "",
 		range = 40,
 		type = 3,
@@ -1193,7 +885,7 @@ function ()
 		damage = 48,
 		corrected = 100,
 		min_range = 22,
-		id = 510921,
+		id = 511921,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1220,7 +912,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510922] = {
+	uv0.weapon_property_249[511922] = {
 		action_index = "",
 		range = 85,
 		type = 1,
@@ -1237,7 +929,7 @@ function ()
 		damage = 5,
 		corrected = 100,
 		min_range = 0,
-		id = 510922,
+		id = 511922,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1270,7 +962,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510923] = {
+	uv0.weapon_property_249[511923] = {
 		action_index = "",
 		range = 200,
 		type = 4,
@@ -1287,7 +979,7 @@ function ()
 		damage = 15,
 		corrected = 100,
 		min_range = 0,
-		id = 510923,
+		id = 511923,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1314,7 +1006,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510924] = {
+	uv0.weapon_property_249[511924] = {
 		action_index = "",
 		range = 10,
 		type = 2,
@@ -1331,7 +1023,7 @@ function ()
 		damage = 60,
 		corrected = 100,
 		min_range = 0,
-		id = 510924,
+		id = 511924,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1358,7 +1050,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510925] = {
+	uv0.weapon_property_249[511925] = {
 		action_index = "",
 		range = 40,
 		type = 3,
@@ -1375,7 +1067,7 @@ function ()
 		damage = 48,
 		corrected = 100,
 		min_range = 22,
-		id = 510925,
+		id = 511925,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1402,7 +1094,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510926] = {
+	uv0.weapon_property_249[511926] = {
 		action_index = "",
 		range = 85,
 		type = 1,
@@ -1419,7 +1111,7 @@ function ()
 		damage = 5,
 		corrected = 100,
 		min_range = 0,
-		id = 510926,
+		id = 511926,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1452,7 +1144,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510927] = {
+	uv0.weapon_property_249[511927] = {
 		action_index = "",
 		range = 200,
 		type = 4,
@@ -1469,7 +1161,7 @@ function ()
 		damage = 15,
 		corrected = 100,
 		min_range = 0,
-		id = 510927,
+		id = 511927,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1496,7 +1188,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510928] = {
+	uv0.weapon_property_249[511928] = {
 		action_index = "",
 		range = 10,
 		type = 2,
@@ -1513,7 +1205,7 @@ function ()
 		damage = 60,
 		corrected = 100,
 		min_range = 0,
-		id = 510928,
+		id = 511928,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1540,7 +1232,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510929] = {
+	uv0.weapon_property_249[511929] = {
 		action_index = "",
 		range = 40,
 		type = 3,
@@ -1557,7 +1249,7 @@ function ()
 		damage = 48,
 		corrected = 100,
 		min_range = 22,
-		id = 510929,
+		id = 511929,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1584,7 +1276,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510930] = {
+	uv0.weapon_property_249[511930] = {
 		action_index = "",
 		range = 85,
 		type = 1,
@@ -1601,7 +1293,7 @@ function ()
 		damage = 5,
 		corrected = 100,
 		min_range = 0,
-		id = 510930,
+		id = 511930,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1634,7 +1326,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[510931] = {
+	uv0.weapon_property_249[511931] = {
 		action_index = "",
 		range = 200,
 		type = 4,
@@ -1651,7 +1343,7 @@ function ()
 		damage = 15,
 		corrected = 100,
 		min_range = 0,
-		id = 510931,
+		id = 511931,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1678,7 +1370,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[511005] = {
+	uv0.weapon_property_249[512005] = {
 		action_index = "attack",
 		range = 38,
 		type = 2,
@@ -1695,7 +1387,7 @@ function ()
 		damage = 6,
 		corrected = 125,
 		min_range = 0,
-		id = 511005,
+		id = 512005,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1722,7 +1414,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[511006] = {
+	uv0.weapon_property_249[512006] = {
 		action_index = "attack",
 		range = 50,
 		type = 3,
@@ -1739,7 +1431,7 @@ function ()
 		damage = 48,
 		corrected = 100,
 		min_range = 0,
-		id = 511006,
+		id = 512006,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -1766,7 +1458,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[511007] = {
+	uv0.weapon_property_249[512007] = {
 		action_index = "attack",
 		range = 60,
 		type = 2,
@@ -1783,7 +1475,7 @@ function ()
 		damage = 10,
 		corrected = 125,
 		min_range = 0,
-		id = 511007,
+		id = 512007,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1810,7 +1502,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[511008] = {
+	uv0.weapon_property_249[512008] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -1827,7 +1519,7 @@ function ()
 		damage = 15,
 		corrected = 100,
 		min_range = 0,
-		id = 511008,
+		id = 512008,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1863,7 +1555,7 @@ function ()
 			isBound = true
 		}
 	}
-	uv0.weapon_property_249[511009] = {
+	uv0.weapon_property_249[512009] = {
 		action_index = "attack",
 		range = 50,
 		type = 2,
@@ -1880,7 +1572,7 @@ function ()
 		damage = 10,
 		corrected = 110,
 		min_range = 0,
-		id = 511009,
+		id = 512009,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1907,7 +1599,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[511010] = {
+	uv0.weapon_property_249[512010] = {
 		action_index = "attack",
 		range = 50,
 		type = 3,
@@ -1924,7 +1616,7 @@ function ()
 		damage = 48,
 		corrected = 100,
 		min_range = 0,
-		id = 511010,
+		id = 512010,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -1951,7 +1643,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[511011] = {
+	uv0.weapon_property_249[512011] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -1968,7 +1660,7 @@ function ()
 		damage = 12,
 		corrected = 100,
 		min_range = 0,
-		id = 511011,
+		id = 512011,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2004,7 +1696,7 @@ function ()
 			isBound = true
 		}
 	}
-	uv0.weapon_property_249[511012] = {
+	uv0.weapon_property_249[512012] = {
 		action_index = "attack",
 		range = 55,
 		type = 2,
@@ -2021,7 +1713,7 @@ function ()
 		damage = 10,
 		corrected = 125,
 		min_range = 0,
-		id = 511012,
+		id = 512012,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2048,7 +1740,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[511013] = {
+	uv0.weapon_property_249[512013] = {
 		action_index = "",
 		range = 72,
 		type = 3,
@@ -2065,7 +1757,7 @@ function ()
 		damage = 35,
 		corrected = 100,
 		min_range = 0,
-		id = 511013,
+		id = 512013,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2094,7 +1786,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[511014] = {
+	uv0.weapon_property_249[512014] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -2111,7 +1803,7 @@ function ()
 		damage = 30,
 		corrected = 100,
 		min_range = 0,
-		id = 511014,
+		id = 512014,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2140,7 +1832,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[511015] = {
+	uv0.weapon_property_249[512015] = {
 		action_index = "attack",
 		range = 50,
 		type = 2,
@@ -2157,7 +1849,7 @@ function ()
 		damage = 14,
 		corrected = 110,
 		min_range = 0,
-		id = 511015,
+		id = 512015,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2184,7 +1876,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[511016] = {
+	uv0.weapon_property_249[512016] = {
 		action_index = "attack",
 		range = 60,
 		type = 3,
@@ -2201,7 +1893,7 @@ function ()
 		damage = 46,
 		corrected = 100,
 		min_range = 0,
-		id = 511016,
+		id = 512016,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2228,7 +1920,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[511017] = {
+	uv0.weapon_property_249[512017] = {
 		action_index = "attack",
 		range = 50,
 		type = 2,
@@ -2245,7 +1937,7 @@ function ()
 		damage = 14,
 		corrected = 110,
 		min_range = 0,
-		id = 511017,
+		id = 512017,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2272,7 +1964,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[511018] = {
+	uv0.weapon_property_249[512018] = {
 		action_index = "attack",
 		range = 60,
 		type = 3,
@@ -2289,7 +1981,7 @@ function ()
 		damage = 46,
 		corrected = 100,
 		min_range = 0,
-		id = 511018,
+		id = 512018,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2316,7 +2008,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[511019] = {
+	uv0.weapon_property_249[512019] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -2333,7 +2025,7 @@ function ()
 		damage = 8,
 		corrected = 100,
 		min_range = 0,
-		id = 511019,
+		id = 512019,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2360,7 +2052,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[511020] = {
+	uv0.weapon_property_249[512020] = {
 		action_index = "attack",
 		range = 60,
 		type = 3,
@@ -2377,7 +2069,7 @@ function ()
 		damage = 46,
 		corrected = 100,
 		min_range = 0,
-		id = 511020,
+		id = 512020,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2404,7 +2096,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[511021] = {
+	uv0.weapon_property_249[512021] = {
 		action_index = "attack",
 		range = 60,
 		type = 2,
@@ -2421,7 +2113,7 @@ function ()
 		damage = 6,
 		corrected = 125,
 		min_range = 0,
-		id = 511021,
+		id = 512021,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2448,7 +2140,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[511022] = {
+	uv0.weapon_property_249[512022] = {
 		action_index = "attack",
 		range = 60,
 		type = 3,
@@ -2465,7 +2157,7 @@ function ()
 		damage = 35,
 		corrected = 100,
 		min_range = 0,
-		id = 511022,
+		id = 512022,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2492,7 +2184,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[511023] = {
+	uv0.weapon_property_249[512023] = {
 		action_index = "attack",
 		range = 60,
 		type = 2,
@@ -2509,7 +2201,7 @@ function ()
 		damage = 6,
 		corrected = 125,
 		min_range = 0,
-		id = 511023,
+		id = 512023,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2536,7 +2228,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[511024] = {
+	uv0.weapon_property_249[512024] = {
 		action_index = "attack",
 		range = 60,
 		type = 3,
@@ -2553,7 +2245,7 @@ function ()
 		damage = 35,
 		corrected = 100,
 		min_range = 0,
-		id = 511024,
+		id = 512024,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2580,7 +2272,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[511025] = {
+	uv0.weapon_property_249[512025] = {
 		action_index = "attack",
 		range = 50,
 		type = 2,
@@ -2597,7 +2289,7 @@ function ()
 		damage = 6,
 		corrected = 110,
 		min_range = 0,
-		id = 511025,
+		id = 512025,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2624,7 +2316,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_249[511026] = {
+	uv0.weapon_property_249[512026] = {
 		action_index = "attack",
 		range = 60,
 		type = 3,
@@ -2641,11 +2333,363 @@ function ()
 		damage = 35,
 		corrected = 100,
 		min_range = 0,
-		id = 511026,
+		id = 512026,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
 		reload_max = 2600,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1801
+		},
+		barrage_ID = {
+			1403
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_249[512027] = {
+		action_index = "attack",
+		range = 50,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "白露双联装炮瞄准II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 6,
+		corrected = 110,
+		min_range = 0,
+		id = 512027,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 350,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1200
+		},
+		barrage_ID = {
+			1001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_249[512028] = {
+		action_index = "attack",
+		range = 60,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "白露四联装鱼雷II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 35,
+		corrected = 100,
+		min_range = 0,
+		id = 512028,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 2600,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1801
+		},
+		barrage_ID = {
+			1403
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_249[512029] = {
+		action_index = "attack",
+		range = 60,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "不知火单发瞄准x4随机II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 6,
+		corrected = 125,
+		min_range = 0,
+		id = 512029,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1200
+		},
+		barrage_ID = {
+			1005
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_249[512030] = {
+		action_index = "attack",
+		range = 60,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "不知火四联装鱼雷II",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 35,
+		corrected = 100,
+		min_range = 0,
+		id = 512030,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 2600,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1801
+		},
+		barrage_ID = {
+			1403
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_249[512031] = {
+		action_index = "attack",
+		range = 50,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "如月双联装炮瞄准III",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 10,
+		corrected = 110,
+		min_range = 0,
+		id = 512031,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 300,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1200
+		},
+		barrage_ID = {
+			1001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_249[512032] = {
+		action_index = "attack",
+		range = 60,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "如月四联装鱼雷III",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 46,
+		corrected = 100,
+		min_range = 0,
+		id = 512032,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 2400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1801
+		},
+		barrage_ID = {
+			1403
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_249[512033] = {
+		action_index = "attack",
+		range = 50,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "晓双联装炮瞄准III",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 10,
+		corrected = 110,
+		min_range = 0,
+		id = 512033,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 300,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1200
+		},
+		barrage_ID = {
+			1001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_249[512034] = {
+		action_index = "attack",
+		range = 60,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "晓四联装鱼雷III",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 46,
+		corrected = 100,
+		min_range = 0,
+		id = 512034,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 2400,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,

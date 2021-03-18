@@ -2952,7 +2952,7 @@ Morale drain and Affection gain are also increased by 100%. ]]
 		tip = "Fleet not yet formed. "
 	},
 	world_fleet_choose = {
-		tip = "Fighting in Operation Siren will not affect Morale or consume Oil. "
+		tip = "<color=#80e742>Fighting in Operation Siren will not affect Morale or consume Oil. </color>"
 	},
 	world_fleet_formation_not_valid = {
 		tip = "The formation of $1 must be changed. "
@@ -3180,9 +3180,9 @@ Morale drain and Affection gain are also increased by 100%. ]]
 				info = [[
 About Ashes Showdown:
 
-1. From <color=#92fc63>12/22/20 to 3/18/21</color>, challenge Hiryuu META
+1. From <color=#92fc63>3/18/21 to 6/10/21</color>, challenge Ark Royal META
 to earn Sync Points. Sync Points can be used
-to obtain the limited character, <color=#92fc63>Hiryuu META</color> as well
+to obtain the limited character, <color=#92fc63>Ark Royal META</color> as well
 as other great rewards.
  <color=#ff5c5c>Notice: Sync Points will expire after the event period ends.</color>
 
@@ -5636,6 +5636,9 @@ Attack/Support Range Level:
 	elite_condition_reload = {
 		tip = "Total RLD"
 	},
+	elite_condition_fleet_totle_level = {
+		tip = "Fleets with at least 480 total level"
+	},
 	common_compare_larger = {
 		tip = ">"
 	},
@@ -5644,6 +5647,12 @@ Attack/Support Range Level:
 	},
 	common_compare_smaller = {
 		tip = "<"
+	},
+	common_compare_not_less_than = {
+		tip = "≥"
+	},
+	common_compare_not_more_than = {
+		tip = "≤"
 	},
 	level_scene_formation_active_already = {
 		tip = "This has already been activated."
@@ -7238,7 +7247,7 @@ Combat Details:
 		tip = "Available after <color=#92fc63>$1</color> cleared"
 	},
 	ship_limit_notice = {
-		tip = "The Submarine Fleet's stats do not count towards the Status Requirements. "
+		tip = "*The Submarine Fleet's stats do not count towards the Status Requirements. "
 	},
 	idle = {
 		tip = "Pause"
@@ -7611,13 +7620,13 @@ Combat Details:
 		tip = "Rate UP for Sovetskaya Belorussiya, Kirov, and more!"
 	},
 	buildship_heavy_tip = {
-		tip = "Mikasa and Hiei are added to standard build pool!"
+		tip = "Surcouf is added to standard build pool!"
 	},
 	buildship_light_tip = {
-		tip = "Dido, Gloucester, Biloxi, and Mullany added to standard build pool!"
+		tip = "Le Malin, Le Triomphant, L'Opiniâtre, Forbin and Le Mars are added to standard build pool!"
 	},
 	buildship_special_tip = {
-		tip = "Glorious is added to standard build pool! "
+		tip = "Jean Bart, Massachusetts and Dunkerque are added to standard build pool! "
 	},
 	open_skill_pos = {
 		tip = "It will cost you <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffff00>$1</color> to unlock 3rd slot, Do you wish to proceed?"
@@ -13525,6 +13534,9 @@ Your Action Points will also reset, starting you off with <color=#92fc63>200 AP.
 	levelScene_select_noitem = {
 		tip = "Out of consumable items."
 	},
+	story_setting_label = {
+		tip = "Text Auto-Scroll Speed"
+	},
 	login_arrears_tips = {
 		tip = "Fraudulent chargeback activity has been detected on your account. You are only able to log in to the following server(s): $1"
 	},
@@ -13557,5 +13569,20 @@ Your Action Points will also reset, starting you off with <color=#92fc63>200 AP.
 	},
 	Supplement_pay8 = {
 		tip = "Left:$1"
+	},
+	world_battle_damage = {
+		tip = "The <color=#ff5c5c>Tolls of War</color> debuff can be cleared with a Regroup and Rest command or by repairing your ships at a port. "
+	},
+	setting_story_speed_1 = {
+		tip = "Slow"
+	},
+	setting_story_speed_2 = {
+		tip = "Normal"
+	},
+	setting_story_speed_3 = {
+		tip = "Fast"
+	},
+	setting_story_speed_4 = {
+		tip = "Very Fast"
 	}
 }

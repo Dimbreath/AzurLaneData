@@ -1,56 +1,56 @@
 pg = pg or {}
 pg.aircraft_template_183 = {
-	[67928] = {
-		max_hp = 80,
-		name = "独立技能鱼雷机Lv8",
-		base = 67921,
-		id = 67928,
+	[69208] = {
+		max_hp = 86,
+		name = "库珀反潜PBY-Lv8",
+		base = 69201,
+		id = 69208,
 		hp_growth = 3090,
 		weapon_ID = {
-			67948
+			53148
 		}
 	},
-	[67929] = {
-		max_hp = 86,
-		name = "独立技能鱼雷机Lv9",
-		base = 67921,
-		id = 67929,
+	[69209] = {
+		max_hp = 92,
+		name = "库珀反潜PBY-Lv9",
+		base = 69201,
+		id = 69209,
 		hp_growth = 3301,
 		weapon_ID = {
-			67949
+			53149
 		}
 	},
-	[67930] = {
-		max_hp = 91,
-		name = "独立技能鱼雷机Lv10",
-		base = 67921,
-		id = 67930,
+	[69210] = {
+		max_hp = 98,
+		name = "库珀反潜PBY-Lv10",
+		base = 69201,
+		id = 69210,
 		hp_growth = 3511,
 		weapon_ID = {
-			67950
+			53150
 		}
 	},
-	[67931] = {
-		name = "独立技能鱼雷机Lv1",
+	[69211] = {
+		name = "库珀轰炸PBY-Lv1",
 		max_hp = 42,
 		accuracy = 23,
-		model_ID = "tbf",
+		model_ID = "pby",
 		ACC_growth = 0,
-		crash_DMG = 406,
+		crash_DMG = 208,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 3,
 		AP_growth = 2000,
-		icon = "tbf",
+		icon = "pby",
 		funnel_behavior = "",
 		nationality = 1,
 		hp_growth = 1615,
-		speed = 48,
-		id = 67931,
+		speed = 66,
+		id = 69211,
 		scale = 1,
 		weapon_ID = {
-			67951
+			69221
 		},
 		position_offset = {
 			0,
@@ -70,13 +70,13 @@ pg.aircraft_template_183 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -93,7 +93,7 @@ pg.aircraft_template_183 = {
 				0
 			},
 			{
-				0.52,
+				0.64,
 				0,
 				0
 			},
@@ -104,54 +104,64 @@ pg.aircraft_template_183 = {
 			}
 		}
 	},
-	[67932] = {
-		max_hp = 47,
-		name = "独立技能鱼雷机Lv2",
-		base = 67931,
-		id = 67932,
+	[69212] = {
+		max_hp = 48,
+		name = "库珀轰炸PBY-Lv2",
+		base = 69211,
+		id = 69212,
 		hp_growth = 1826,
 		weapon_ID = {
-			67952
+			69222
 		}
 	},
-	[67933] = {
-		max_hp = 53,
-		name = "独立技能鱼雷机Lv3",
-		base = 67931,
-		id = 67933,
+	[69213] = {
+		max_hp = 54,
+		name = "库珀轰炸PBY-Lv3",
+		base = 69211,
+		id = 69213,
 		hp_growth = 2036,
 		weapon_ID = {
-			67953
+			69223
 		}
 	},
-	[67934] = {
-		max_hp = 58,
-		name = "独立技能鱼雷机Lv4",
-		base = 67931,
-		id = 67934,
+	[69214] = {
+		max_hp = 61,
+		name = "库珀轰炸PBY-Lv4",
+		base = 69211,
+		id = 69214,
 		hp_growth = 2247,
 		weapon_ID = {
-			67954
+			69224
 		}
 	},
-	[67935] = {
-		max_hp = 64,
-		name = "独立技能鱼雷机Lv5",
-		base = 67931,
-		id = 67935,
+	[69215] = {
+		max_hp = 67,
+		name = "库珀轰炸PBY-Lv5",
+		base = 69211,
+		id = 69215,
 		hp_growth = 2458,
 		weapon_ID = {
-			67955
+			69225
 		}
 	},
-	[67936] = {
-		max_hp = 69,
-		name = "独立技能鱼雷机Lv6",
-		base = 67931,
-		id = 67936,
+	[69216] = {
+		max_hp = 73,
+		name = "库珀轰炸PBY-Lv6",
+		base = 69211,
+		id = 69216,
 		hp_growth = 2669,
 		weapon_ID = {
-			67956
+			69226
+		}
+	},
+	[69217] = {
+		max_hp = 79,
+		name = "库珀轰炸PBY-Lv7",
+		base = 69211,
+		id = 69217,
+		hp_growth = 2879,
+		weapon_ID = {
+			69227
 		}
 	}
 }

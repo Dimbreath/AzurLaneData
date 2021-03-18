@@ -75,6 +75,10 @@ end
 function slot0.UpdateRank(slot0, slot1, slot2)
 	setText(slot1:Find("Text"), slot2.name)
 	setText(slot1:Find("damage/Text"), slot2.damage)
+	setActive(slot1:Find("view"), false)
+	onButton(slot0, slot1:Find("view"), function ()
+		uv0:emit(WorldBossMediator.FETCH_RANK_FORMATION, uv1.id, uv0.bossId)
+	end, SFX_PANEL)
 end
 
 function slot0.UpdateMyRank(slot0, slot1, slot2)

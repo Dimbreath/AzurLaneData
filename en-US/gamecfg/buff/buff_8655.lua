@@ -58,6 +58,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
+				group = 8655,
 				number = 1,
 				attr = "isInvincible"
 			}

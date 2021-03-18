@@ -199,7 +199,8 @@ slot0.DOT_CONFIG = {
 		resist = "floodingResist",
 		enhance = "floodingEnhance",
 		hit = "flooding_accuracy"
-	}
+	},
+	[10] = {}
 }
 slot0.DOT_CONFIG_DEFAULT = {
 	reduce = 0,

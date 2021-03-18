@@ -1,27 +1,59 @@
 pg = pg or {}
 pg.aircraft_template_188 = {
-	[68301] = {
-		name = "绊爱技能轰炸机Lv1",
-		max_hp = 42,
+	[69698] = {
+		max_hp = 86,
+		name = "英仙座技能海黄蜂Lv8",
+		base = 69691,
+		id = 69698,
+		hp_growth = 3237,
+		weapon_ID = {
+			50668,
+			69728
+		}
+	},
+	[69699] = {
+		max_hp = 92,
+		name = "英仙座技能海黄蜂Lv9",
+		base = 69691,
+		id = 69699,
+		hp_growth = 3458,
+		weapon_ID = {
+			50669,
+			69729
+		}
+	},
+	[69700] = {
+		max_hp = 98,
+		name = "英仙座技能海黄蜂Lv10",
+		base = 69691,
+		id = 69700,
+		hp_growth = 3678,
+		weapon_ID = {
+			50670,
+			69730
+		}
+	},
+	[69701] = {
+		name = "英仙座技能TBFLv1",
+		max_hp = 44,
 		accuracy = 23,
-		model_ID = "feiji_ai_aijiang",
+		model_ID = "tbf",
 		ACC_growth = 0,
-		crash_DMG = 208,
-		dodge = 1,
+		crash_DMG = 300,
+		dodge = 1.05,
 		attack_power = 2,
-		dodge_limit = 0,
+		dodge_limit = 6,
 		type = 3,
 		AP_growth = 2000,
-		icon = "feiji_ai_aijiang",
+		icon = "tbf",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1846,
+		nationality = 2,
+		hp_growth = 1674,
 		speed = 48,
-		id = 68301,
+		id = 69701,
 		scale = 1,
 		weapon_ID = {
-			68311,
-			68321
+			69731
 		},
 		position_offset = {
 			0,
@@ -41,13 +73,13 @@ pg.aircraft_template_188 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -64,8 +96,8 @@ pg.aircraft_template_188 = {
 				0
 			},
 			{
-				0.64,
-				0,
+				0.15,
+				-0.08,
 				0
 			},
 			{
@@ -75,92 +107,64 @@ pg.aircraft_template_188 = {
 			}
 		}
 	},
-	[68302] = {
-		max_hp = 48,
-		name = "绊爱技能轰炸机Lv2",
-		base = 68301,
-		id = 68302,
-		hp_growth = 2087,
+	[69702] = {
+		max_hp = 49,
+		name = "英仙座技能TBFLv2",
+		base = 69701,
+		id = 69702,
+		hp_growth = 1892,
 		weapon_ID = {
-			68312,
-			68322
+			69732
 		}
 	},
-	[68303] = {
-		max_hp = 54,
-		name = "绊爱技能轰炸机Lv3",
-		base = 68301,
-		id = 68303,
-		hp_growth = 2327,
+	[69703] = {
+		max_hp = 55,
+		name = "英仙座技能TBFLv3",
+		base = 69701,
+		id = 69703,
+		hp_growth = 2111,
 		weapon_ID = {
-			68313,
-			68323
+			69733
 		}
 	},
-	[68304] = {
+	[69704] = {
 		max_hp = 61,
-		name = "绊爱技能轰炸机Lv4",
-		base = 68301,
-		id = 68304,
-		hp_growth = 2568,
+		name = "英仙座技能TBFLv4",
+		base = 69701,
+		id = 69704,
+		hp_growth = 2329,
 		weapon_ID = {
-			68314,
-			68324
+			69734
 		}
 	},
-	[68305] = {
-		max_hp = 67,
-		name = "绊爱技能轰炸机Lv5",
-		base = 68301,
-		id = 68305,
-		hp_growth = 2809,
+	[69705] = {
+		max_hp = 66,
+		name = "英仙座技能TBFLv5",
+		base = 69701,
+		id = 69705,
+		hp_growth = 2547,
 		weapon_ID = {
-			68315,
-			68325
+			69735
 		}
 	},
-	[68306] = {
-		max_hp = 73,
-		name = "绊爱技能轰炸机Lv6",
-		base = 68301,
-		id = 68306,
-		hp_growth = 3050,
+	[69706] = {
+		max_hp = 72,
+		name = "英仙座技能TBFLv6",
+		base = 69701,
+		id = 69706,
+		hp_growth = 2766,
 		weapon_ID = {
-			68316,
-			68326
+			69736
 		}
 	},
-	[68307] = {
-		max_hp = 79,
-		name = "绊爱技能轰炸机Lv7",
-		base = 68301,
-		id = 68307,
-		hp_growth = 3290,
+	[69707] = {
+		max_hp = 78,
+		name = "英仙座技能TBFLv7",
+		base = 69701,
+		id = 69707,
+		hp_growth = 2984,
 		weapon_ID = {
-			68317,
-			68327
-		}
-	},
-	[68308] = {
-		max_hp = 86,
-		name = "绊爱技能轰炸机Lv8",
-		base = 68301,
-		id = 68308,
-		hp_growth = 3531,
-		weapon_ID = {
-			68318,
-			68328
-		}
-	},
-	[68309] = {
-		max_hp = 92,
-		name = "绊爱技能轰炸机Lv9",
-		base = 68301,
-		id = 68309,
-		hp_growth = 3772,
-		weapon_ID = {
-			68319,
-			68329
+			69737
 		}
 	}
 }

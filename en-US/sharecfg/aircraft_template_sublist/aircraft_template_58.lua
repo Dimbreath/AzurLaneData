@@ -1,96 +1,47 @@
 pg = pg or {}
 pg.aircraft_template_58 = {
-	[27147] = {
-		id = 27147,
-		base = 27140,
-		max_hp = 86,
-		hp_growth = 3306,
+	[27332] = {
+		id = 27332,
+		base = 27320,
+		max_hp = 139,
+		hp_growth = 5329,
 		weapon_ID = {
-			50647,
-			52347
+			50672,
+			52772
 		}
 	},
-	[27148] = {
-		id = 27148,
-		base = 27140,
-		max_hp = 92,
-		hp_growth = 3548,
+	[27333] = {
+		id = 27333,
+		base = 27320,
+		max_hp = 146,
+		hp_growth = 5614,
 		weapon_ID = {
-			50648,
-			52348
+			50673,
+			52773
 		}
 	},
-	[27149] = {
-		id = 27149,
-		base = 27140,
-		max_hp = 99,
-		hp_growth = 3790,
-		weapon_ID = {
-			50649,
-			52349
-		}
-	},
-	[27150] = {
-		id = 27150,
-		base = 27140,
-		max_hp = 105,
-		hp_growth = 4032,
-		weapon_ID = {
-			50650,
-			52350
-		}
-	},
-	[27151] = {
-		id = 27151,
-		base = 27140,
-		max_hp = 111,
-		hp_growth = 4274,
-		weapon_ID = {
-			50651,
-			52351
-		}
-	},
-	[27152] = {
-		id = 27152,
-		base = 27140,
-		max_hp = 117,
-		hp_growth = 4516,
-		weapon_ID = {
-			50652,
-			52352
-		}
-	},
-	[27153] = {
-		id = 27153,
-		base = 27140,
-		max_hp = 124,
-		hp_growth = 4758,
-		weapon_ID = {
-			50653,
-			52353
-		}
-	},
-	[27200] = {
-		name = "海斗士",
+	[28000] = {
+		name = "剑鱼",
 		max_hp = 28,
 		accuracy = 23,
-		model_ID = "haidoushi",
+		model_ID = "jianyu",
 		ACC_growth = 0,
-		crash_DMG = 76,
-		dodge = 0.375,
+		crash_DMG = 306,
+		dodge = 1.19,
 		attack_power = 2,
-		dodge_limit = 8,
-		type = 1,
+		dodge_limit = 3,
+		type = 2,
 		AP_growth = 2000,
-		icon = "haidoushi",
+		icon = "jianyu",
 		funnel_behavior = "",
 		nationality = 2,
-		hp_growth = 1075,
-		speed = 47,
-		id = 27200,
+		hp_growth = 1094,
+		speed = 45,
+		id = 28000,
 		scale = 1,
 		weapon_ID = {
-			50100
+			50000,
+			51000
 		},
 		position_offset = {
 			0,
@@ -110,13 +61,13 @@ pg.aircraft_template_58 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.69,
-					-2.62,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.85,
-					0.17,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -133,7 +84,7 @@ pg.aircraft_template_58 = {
 				0
 			},
 			{
-				0.62,
+				0.52,
 				0,
 				0
 			},
@@ -144,13 +95,139 @@ pg.aircraft_template_58 = {
 			}
 		}
 	},
-	[27201] = {
-		id = 27201,
-		base = 27200,
-		max_hp = 32,
-		hp_growth = 1236,
+	[28001] = {
+		id = 28001,
+		base = 28000,
+		max_hp = 33,
+		hp_growth = 1259,
 		weapon_ID = {
-			50101
+			50001,
+			51001
+		}
+	},
+	[28002] = {
+		id = 28002,
+		base = 28000,
+		max_hp = 37,
+		hp_growth = 1423,
+		weapon_ID = {
+			50002,
+			51002
+		}
+	},
+	[28003] = {
+		id = 28003,
+		base = 28000,
+		max_hp = 41,
+		hp_growth = 1587,
+		weapon_ID = {
+			50003,
+			51003
+		}
+	},
+	[28020] = {
+		name = "剑鱼",
+		max_hp = 32,
+		accuracy = 23,
+		model_ID = "jianyu",
+		ACC_growth = 0,
+		crash_DMG = 306,
+		dodge = 1.15,
+		attack_power = 2,
+		dodge_limit = 3.5,
+		type = 2,
+		AP_growth = 2000,
+		icon = "jianyu",
+		funnel_behavior = "",
+		nationality = 2,
+		hp_growth = 1216,
+		speed = 45,
+		id = 28020,
+		scale = 1,
+		weapon_ID = {
+			50020,
+			51020
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.52,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[28021] = {
+		id = 28021,
+		base = 28020,
+		max_hp = 36,
+		hp_growth = 1398,
+		weapon_ID = {
+			50021,
+			51021
+		}
+	},
+	[28022] = {
+		id = 28022,
+		base = 28020,
+		max_hp = 41,
+		hp_growth = 1581,
+		weapon_ID = {
+			50022,
+			51022
+		}
+	},
+	[28023] = {
+		id = 28023,
+		base = 28020,
+		max_hp = 46,
+		hp_growth = 1763,
+		weapon_ID = {
+			50023,
+			51023
 		}
 	}
 }

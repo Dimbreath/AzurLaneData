@@ -23,6 +23,7 @@ return {
 		{
 			actor = 900009,
 			nameColor = "#ff0000",
+			actorAlpha = 0,
 			side = 1,
 			say = "We've been figured out... To be expected from King George V, I suppose...",
 			shake = {
@@ -34,7 +35,7 @@ return {
 				speedUp = 0.01
 			},
 			painting = {
-				alpha = 0.3,
+				alpha = 0,
 				time = 0.5
 			}
 		},
@@ -59,6 +60,7 @@ return {
 		{
 			actor = 900009,
 			nameColor = "#ff0000",
+			actorAlpha = 0,
 			side = 1,
 			say = "Who cares, all you sisters look the same to me. Let's see what you've got!",
 			shake = {

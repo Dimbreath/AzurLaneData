@@ -1,175 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_323 = {
-	[511816] = {
-		name = "加贺鱼雷机",
-		max_hp = 114,
+	[593901] = {
+		name = "空袭-轰炸机",
+		max_hp = 168,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 150,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 2,
-		AP_growth = 2000,
-		icon = "97jiangong",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3613,
-		speed = 30,
-		id = 511816,
-		scale = 0.75,
-		weapon_ID = {
-			511921
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					-1.13,
-					-1.29,
-					0
-				},
-				{
-					-1.25,
-					1.47,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.54,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[511817] = {
-		name = "加贺战斗机",
-		max_hp = 102,
-		accuracy = 23,
-		model_ID = "lingzhan21gai",
-		ACC_growth = 0,
-		crash_DMG = 100,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "lingzhan21gai",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2918,
-		speed = 33,
-		id = 511817,
-		scale = 0.75,
-		weapon_ID = {
-			511922,
-			511923
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.56,
-					-0.76,
-					0
-				},
-				{
-					0.48,
-					0.99,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[511818] = {
-		name = "翔鹤轰炸机",
-		max_hp = 120,
-		accuracy = 23,
-		model_ID = "99shijianbao1",
-		ACC_growth = 0,
-		crash_DMG = 180,
+		crash_DMG = 140,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "99shijianbao1",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3822,
+		hp_growth = 3420,
 		speed = 30,
-		id = 511818,
+		id = 593901,
 		scale = 0.75,
 		weapon_ID = {
-			511924
+			593901
 		},
 		position_offset = {
 			0,
@@ -223,27 +74,27 @@ pg.aircraft_template_323 = {
 			}
 		}
 	},
-	[511819] = {
-		name = "翔鹤鱼雷机",
-		max_hp = 114,
+	[593902] = {
+		name = "空袭-鱼雷机",
+		max_hp = 154,
 		accuracy = 23,
-		model_ID = "liuxing",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 150,
+		crash_DMG = 114,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "liuxing",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3613,
+		hp_growth = 2880,
 		speed = 30,
-		id = 511819,
+		id = 593902,
 		scale = 0.75,
 		weapon_ID = {
-			511925
+			593902
 		},
 		position_offset = {
 			0,
@@ -297,28 +148,28 @@ pg.aircraft_template_323 = {
 			}
 		}
 	},
-	[511820] = {
-		name = "翔鹤战斗机",
-		max_hp = 102,
+	[593903] = {
+		name = "空袭-战斗机",
+		max_hp = 141,
 		accuracy = 23,
-		model_ID = "liefeng",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 100,
+		crash_DMG = 79,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "liefeng",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2918,
+		hp_growth = 2520,
 		speed = 33,
-		id = 511820,
+		id = 593903,
 		scale = 0.75,
 		weapon_ID = {
-			511926,
-			511927
+			593903,
+			593904
 		},
 		position_offset = {
 			0,
@@ -372,27 +223,27 @@ pg.aircraft_template_323 = {
 			}
 		}
 	},
-	[511821] = {
-		name = "瑞鹤轰炸机",
-		max_hp = 120,
+	[604003] = {
+		name = "【传颂联动SP1BOSS】芙米露露轰炸机",
+		max_hp = 205,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 180,
+		crash_DMG = 175,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "99shijianbao1",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3822,
+		hp_growth = 3800,
 		speed = 30,
-		id = 511821,
+		id = 604003,
 		scale = 0.75,
 		weapon_ID = {
-			511928
+			604005
 		},
 		position_offset = {
 			0,
@@ -446,102 +297,27 @@ pg.aircraft_template_323 = {
 			}
 		}
 	},
-	[511822] = {
-		name = "瑞鹤鱼雷机",
-		max_hp = 114,
+	[604004] = {
+		name = "【传颂联动SP1BOSS】芙米露露鱼雷机",
+		max_hp = 164,
 		accuracy = 23,
-		model_ID = "liuxing",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 150,
+		crash_DMG = 144,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "liuxing",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3613,
-		speed = 30,
-		id = 511822,
-		scale = 0.75,
-		weapon_ID = {
-			511929
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					-1.13,
-					-1.29,
-					0
-				},
-				{
-					-1.25,
-					1.47,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.54,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[511823] = {
-		name = "瑞鹤战斗机",
-		max_hp = 102,
-		accuracy = 23,
-		model_ID = "liefeng",
-		ACC_growth = 0,
-		crash_DMG = 100,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "liefeng",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2918,
+		hp_growth = 3400,
 		speed = 33,
-		id = 511823,
+		id = 604004,
 		scale = 0.75,
 		weapon_ID = {
-			511930,
-			511931
+			604006
 		},
 		position_offset = {
 			0,
@@ -595,27 +371,101 @@ pg.aircraft_template_323 = {
 			}
 		}
 	},
-	[512138] = {
-		name = "山城改BOSS水上机",
-		max_hp = 346,
+	[604023] = {
+		name = "【传颂联动SP3BOSS】乌璐露轰炸机",
+		max_hp = 205,
 		accuracy = 23,
-		model_ID = "ruiyun",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 354,
+		crash_DMG = 175,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 1,
+		type = 3,
 		AP_growth = 2000,
-		icon = "ruiyun",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2778,
-		speed = 35,
-		id = 512138,
+		hp_growth = 3800,
+		speed = 30,
+		id = 604023,
 		scale = 0.75,
 		weapon_ID = {
-			512139
+			604025
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[604024] = {
+		name = "【传颂联动SP3BOSS】乌璐露鱼雷机",
+		max_hp = 164,
+		accuracy = 23,
+		model_ID = "shenhaifeiji",
+		ACC_growth = 0,
+		crash_DMG = 144,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "shenhaifeiji",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3400,
+		speed = 33,
+		id = 604024,
+		scale = 0.75,
+		weapon_ID = {
+			604026
 		},
 		position_offset = {
 			0,
@@ -642,6 +492,231 @@ pg.aircraft_template_323 = {
 				{
 					0.48,
 					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[604033] = {
+		name = "【传颂联动SP3BOSS】萨拉娜轰炸机",
+		max_hp = 205,
+		accuracy = 23,
+		model_ID = "shenhaifeiji",
+		ACC_growth = 0,
+		crash_DMG = 175,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "shenhaifeiji",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3800,
+		speed = 30,
+		id = 604033,
+		scale = 0.75,
+		weapon_ID = {
+			604035
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[604034] = {
+		name = "【传颂联动SP3BOSS】萨拉娜鱼雷机",
+		max_hp = 164,
+		accuracy = 23,
+		model_ID = "shenhaifeiji",
+		ACC_growth = 0,
+		crash_DMG = 144,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "shenhaifeiji",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3400,
+		speed = 33,
+		id = 604034,
+		scale = 0.75,
+		weapon_ID = {
+			604036
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[604040] = {
+		name = "【传颂联动SP4BOSS】测试者 浮游炮机体",
+		max_hp = 298,
+		accuracy = 23,
+		model_ID = "fuyoupao2",
+		ACC_growth = 0,
+		crash_DMG = 293,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "fuyoupao2",
+		nationality = 3,
+		hp_growth = 4600,
+		speed = 70,
+		id = 604040,
+		scale = 0.75,
+		funnel_behavior = {
+			stay = 2,
+			exist = 20
+		},
+		weapon_ID = {
+			604046
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					2.72,
+					-0.21,
+					0
+				},
+				{
+					3.2,
+					-0.14,
 					0
 				}
 			}

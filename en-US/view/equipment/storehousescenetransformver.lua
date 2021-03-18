@@ -40,7 +40,7 @@ end
 function slot0.SelectTransformEquip(slot0, slot1, slot2)
 	slot3 = false
 
-	if slot0.selectedIds[1] and slot0.SameEquip(slot0.selectedIds[1][1], slot1) then
+	if slot0.selectedIds[1] and EquipmentProxy.SameEquip(slot0.selectedIds[1][1], slot1) then
 		slot3 = true
 	end
 
@@ -91,7 +91,7 @@ function slot0.updateEquipment(slot0, slot1, slot2)
 
 	if slot4 then
 		for slot10, slot11 in ipairs(slot0.selectedIds) do
-			if slot0.SameEquip(slot4, slot11[1]) then
+			if EquipmentProxy.SameEquip(slot4, slot11[1]) then
 				slot5 = true
 				slot6 = slot11[2]
 
@@ -110,7 +110,7 @@ function slot0.updateSelected(slot0)
 			slot7 = 0
 
 			for slot11, slot12 in pairs(slot0.selectedIds) do
-				if slot0.SameEquip(slot5.equipmentVO, slot12[1]) then
+				if EquipmentProxy.SameEquip(slot5.equipmentVO, slot12[1]) then
 					slot6 = true
 					slot7 = slot12[2]
 
@@ -121,10 +121,6 @@ function slot0.updateSelected(slot0)
 			slot5:updateSelected(slot6, slot7)
 		end
 	end
-end
-
-function slot0.SameEquip(slot0, slot1)
-	return slot0.id == slot1.id and slot0.shipId == slot1.shipId and slot0.shipPos == slot1.shipPos
 end
 
 function slot0.filterEquipment(slot0)

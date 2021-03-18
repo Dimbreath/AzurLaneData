@@ -672,7 +672,7 @@ pg.world_effect_data = {
 		effective_num = 0,
 		effect_type = 44,
 		id = 252,
-		autoactivate = 0,
+		autoactivate = 1,
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
@@ -685,7 +685,7 @@ pg.world_effect_data = {
 		effective_num = 0,
 		effect_type = 44,
 		id = 253,
-		autoactivate = 0,
+		autoactivate = 1,
 		log_text = "",
 		sound_effects = "",
 		effect_paramater = {
@@ -133956,11 +133956,19 @@ pg.world_effect_data = {
 				1
 			},
 			{
+				41000042,
+				1
+			},
+			{
 				41000043,
 				1
 			},
 			{
 				41000044,
+				1
+			},
+			{
+				41000045,
 				1
 			}
 		}
@@ -133980,7 +133988,7 @@ pg.world_effect_data = {
 	[41000042] = {
 		autocomplete = 0,
 		effective_num = 0,
-		effect_type = 11,
+		effect_type = 10,
 		id = 41000042,
 		autoactivate = 2,
 		log_text = "",
@@ -134016,7 +134024,7 @@ pg.world_effect_data = {
 	[41000045] = {
 		autocomplete = 0,
 		effective_num = 0,
-		effect_type = 11,
+		effect_type = 10,
 		id = 41000045,
 		autoactivate = 2,
 		log_text = "",
@@ -134039,11 +134047,19 @@ pg.world_effect_data = {
 				1
 			},
 			{
+				41000052,
+				1
+			},
+			{
 				41000053,
 				1
 			},
 			{
 				41000054,
+				1
+			},
+			{
+				41000055,
 				1
 			}
 		}
@@ -134063,7 +134079,7 @@ pg.world_effect_data = {
 	[41000052] = {
 		autocomplete = 0,
 		effective_num = 0,
-		effect_type = 11,
+		effect_type = 10,
 		id = 41000052,
 		autoactivate = 2,
 		log_text = "",
@@ -134099,7 +134115,7 @@ pg.world_effect_data = {
 	[41000055] = {
 		autocomplete = 0,
 		effective_num = 0,
-		effect_type = 11,
+		effect_type = 10,
 		id = 41000055,
 		autoactivate = 2,
 		log_text = "",
@@ -134122,11 +134138,19 @@ pg.world_effect_data = {
 				1
 			},
 			{
+				41000062,
+				1
+			},
+			{
 				41000063,
 				1
 			},
 			{
 				41000064,
+				1
+			},
+			{
+				41000065,
 				1
 			}
 		}
@@ -134146,7 +134170,7 @@ pg.world_effect_data = {
 	[41000062] = {
 		autocomplete = 0,
 		effective_num = 0,
-		effect_type = 11,
+		effect_type = 10,
 		id = 41000062,
 		autoactivate = 2,
 		log_text = "",
@@ -134182,7 +134206,7 @@ pg.world_effect_data = {
 	[41000065] = {
 		autocomplete = 0,
 		effective_num = 0,
-		effect_type = 11,
+		effect_type = 10,
 		id = 41000065,
 		autoactivate = 2,
 		log_text = "",

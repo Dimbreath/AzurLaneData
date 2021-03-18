@@ -1,157 +1,73 @@
 pg = pg or {}
 pg.aircraft_template_159 = {
-	[65577] = {
-		max_hp = 90,
-		name = "威悉技能轰炸机PlusLv7",
-		base = 65561,
-		id = 65577,
-		hp_growth = 2943,
-		weapon_ID = {
-			65587
-		}
+	[67361] = {
+		id = 67361,
+		name = "大凤技能轰炸机Lv1",
+		base = 67360,
+		max_hp = 48,
+		hp_growth = 1846
 	},
-	[65578] = {
-		max_hp = 97,
-		name = "威悉技能轰炸机PlusLv8",
-		base = 65561,
-		id = 65578,
-		hp_growth = 3175,
-		weapon_ID = {
-			65588
-		}
+	[67362] = {
+		id = 67362,
+		name = "大凤技能轰炸机Lv2",
+		base = 67360,
+		max_hp = 54,
+		hp_growth = 2087
 	},
-	[65579] = {
-		max_hp = 103,
-		name = "威悉技能轰炸机PlusLv9",
-		base = 65561,
-		id = 65579,
-		hp_growth = 3407,
-		weapon_ID = {
-			65589
-		}
+	[67363] = {
+		id = 67363,
+		name = "大凤技能轰炸机Lv3",
+		base = 67360,
+		max_hp = 61,
+		hp_growth = 2327
 	},
-	[65580] = {
-		max_hp = 110,
-		name = "威悉技能轰炸机PlusLv10",
-		base = 65561,
-		id = 65580,
-		hp_growth = 3640,
-		weapon_ID = {
-			65590
-		}
+	[67364] = {
+		id = 67364,
+		name = "大凤技能轰炸机Lv4",
+		base = 67360,
+		max_hp = 67,
+		hp_growth = 2568
 	},
-	[66240] = {
-		name = "山城改技能Lv0",
-		max_hp = 27,
-		accuracy = 23,
-		model_ID = "ruiyun",
-		ACC_growth = 0,
-		crash_DMG = 120,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "ruiyun",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1023,
-		speed = 46,
-		id = 66240,
-		scale = 1,
-		weapon_ID = {
-			66260
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.26,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
+	[67365] = {
+		id = 67365,
+		name = "大凤技能轰炸机Lv5",
+		base = 67360,
+		max_hp = 73,
+		hp_growth = 2809
 	},
-	[66241] = {
-		max_hp = 32,
-		name = "山城改技能Lv1",
-		base = 66240,
-		id = 66241,
-		hp_growth = 1233,
-		weapon_ID = {
-			66261
-		}
+	[67366] = {
+		id = 67366,
+		name = "大凤技能轰炸机Lv6",
+		base = 67360,
+		max_hp = 79,
+		hp_growth = 3050
 	},
-	[66242] = {
-		max_hp = 37,
-		name = "山城改技能Lv2",
-		base = 66240,
-		id = 66242,
-		hp_growth = 1443,
-		weapon_ID = {
-			66262
-		}
+	[67367] = {
+		id = 67367,
+		name = "大凤技能轰炸机Lv7",
+		base = 67360,
+		max_hp = 86,
+		hp_growth = 3290
 	},
-	[66243] = {
-		max_hp = 42,
-		name = "山城改技能Lv3",
-		base = 66240,
-		id = 66243,
-		hp_growth = 1653,
-		weapon_ID = {
-			66263
-		}
+	[67368] = {
+		id = 67368,
+		name = "大凤技能轰炸机Lv8",
+		base = 67360,
+		max_hp = 92,
+		hp_growth = 3531
 	},
-	[66244] = {
-		max_hp = 47,
-		name = "山城改技能Lv4",
-		base = 66240,
-		id = 66244,
-		hp_growth = 1863,
-		weapon_ID = {
-			66264
-		}
+	[67369] = {
+		id = 67369,
+		name = "大凤技能轰炸机Lv9",
+		base = 67360,
+		max_hp = 98,
+		hp_growth = 3772
+	},
+	[67370] = {
+		id = 67370,
+		name = "大凤技能轰炸机Lv10",
+		base = 67360,
+		max_hp = 104,
+		hp_growth = 4013
 	}
 }

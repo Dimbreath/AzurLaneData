@@ -38,6 +38,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.paingtingScale = slot1.actorScale
 	slot0.hidePainting = slot1.withoutPainting
 	slot0.actorShadow = slot1.actorShadow
+	slot0.actorAlpha = slot1.actorAlpha
 
 	if slot0.hidePainting or slot0.actor == nil then
 		slot0.actor = nil
@@ -74,6 +75,10 @@ end
 
 function slot0.GetPaintingDir(slot0)
 	return (slot0.dir or 1) * (slot0.paingtingScale or 1)
+end
+
+function slot0.GetPaintingAlpha(slot0)
+	return slot0.actorAlpha
 end
 
 function slot0.GetPaitingOffst(slot0)

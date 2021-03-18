@@ -1,38 +1,57 @@
 pg = pg or {}
 pg.aircraft_template_189 = {
-	[68310] = {
-		max_hp = 98,
-		name = "绊爱技能轰炸机Lv10",
-		base = 68301,
-		id = 68310,
-		hp_growth = 4013,
+	[69708] = {
+		max_hp = 83,
+		name = "英仙座技能TBFLv8",
+		base = 69701,
+		id = 69708,
+		hp_growth = 3202,
 		weapon_ID = {
-			68320,
-			68330
+			69738
 		}
 	},
-	[68331] = {
-		name = "小赤城技能飞机Lv1",
-		max_hp = 42,
+	[69709] = {
+		max_hp = 89,
+		name = "英仙座技能TBFLv9",
+		base = 69701,
+		id = 69709,
+		hp_growth = 3421,
+		weapon_ID = {
+			69739
+		}
+	},
+	[69710] = {
+		max_hp = 95,
+		name = "英仙座技能TBFLv10",
+		base = 69701,
+		id = 69710,
+		hp_growth = 3639,
+		weapon_ID = {
+			69740
+		}
+	},
+	[69711] = {
+		name = "英仙座技能萤火虫Lv1",
+		max_hp = 51,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "yinghuochong",
 		ACC_growth = 0,
-		crash_DMG = 180,
-		dodge = 1,
+		crash_DMG = 210,
+		dodge = 0.75,
 		attack_power = 2,
-		dodge_limit = 0,
+		dodge_limit = 7,
 		type = 3,
 		AP_growth = 2000,
-		icon = "99shijianbao1",
+		icon = "yinghuochong",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1692,
-		speed = 48,
-		id = 68331,
+		nationality = 2,
+		hp_growth = 1943,
+		speed = 47,
+		id = 69711,
 		scale = 1,
 		weapon_ID = {
-			68341,
-			68351
+			50661,
+			52741
 		},
 		position_offset = {
 			0,
@@ -52,13 +71,13 @@ pg.aircraft_template_189 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					1.26,
+					-1.13,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					1.35,
+					1.18,
 					0
 				}
 			}
@@ -75,7 +94,7 @@ pg.aircraft_template_189 = {
 				0
 			},
 			{
-				0,
+				0.44,
 				0,
 				0
 			},
@@ -86,81 +105,70 @@ pg.aircraft_template_189 = {
 			}
 		}
 	},
-	[68332] = {
-		max_hp = 48,
-		name = "小赤城技能飞机Lv2",
-		base = 68331,
-		id = 68332,
-		hp_growth = 1913,
+	[69712] = {
+		max_hp = 57,
+		name = "英仙座技能萤火虫Lv2",
+		base = 69711,
+		id = 69712,
+		hp_growth = 2196,
 		weapon_ID = {
-			68342,
-			68352
+			50662,
+			52742
 		}
 	},
-	[68333] = {
-		max_hp = 54,
-		name = "小赤城技能飞机Lv3",
-		base = 68331,
-		id = 68333,
-		hp_growth = 2133,
+	[69713] = {
+		max_hp = 64,
+		name = "英仙座技能萤火虫Lv3",
+		base = 69711,
+		id = 69713,
+		hp_growth = 2450,
 		weapon_ID = {
-			68343,
-			68353
+			50663,
+			52743
 		}
 	},
-	[68334] = {
-		max_hp = 61,
-		name = "小赤城技能飞机Lv4",
-		base = 68331,
-		id = 68334,
-		hp_growth = 2354,
+	[69714] = {
+		max_hp = 70,
+		name = "英仙座技能萤火虫Lv4",
+		base = 69711,
+		id = 69714,
+		hp_growth = 2703,
 		weapon_ID = {
-			68344,
-			68354
+			50664,
+			52744
 		}
 	},
-	[68335] = {
-		max_hp = 67,
-		name = "小赤城技能飞机Lv5",
-		base = 68331,
-		id = 68335,
-		hp_growth = 2575,
+	[69715] = {
+		max_hp = 77,
+		name = "英仙座技能萤火虫Lv5",
+		base = 69711,
+		id = 69715,
+		hp_growth = 2957,
 		weapon_ID = {
-			68345,
-			68355
+			50665,
+			52745
 		}
 	},
-	[68336] = {
-		max_hp = 73,
-		name = "小赤城技能飞机Lv6",
-		base = 68331,
-		id = 68336,
-		hp_growth = 2796,
+	[69716] = {
+		max_hp = 83,
+		name = "英仙座技能萤火虫Lv6",
+		base = 69711,
+		id = 69716,
+		hp_growth = 3210,
 		weapon_ID = {
-			68346,
-			68356
+			50666,
+			52746
 		}
 	},
-	[68337] = {
-		max_hp = 79,
-		name = "小赤城技能飞机Lv7",
-		base = 68331,
-		id = 68337,
-		hp_growth = 3016,
+	[69717] = {
+		max_hp = 90,
+		name = "英仙座技能萤火虫Lv7",
+		base = 69711,
+		id = 69717,
+		hp_growth = 3464,
 		weapon_ID = {
-			68347,
-			68357
-		}
-	},
-	[68338] = {
-		max_hp = 86,
-		name = "小赤城技能飞机Lv8",
-		base = 68331,
-		id = 68338,
-		hp_growth = 3237,
-		weapon_ID = {
-			68348,
-			68358
+			50667,
+			52747
 		}
 	}
 }

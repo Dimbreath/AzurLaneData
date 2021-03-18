@@ -1,38 +1,61 @@
 pg = pg or {}
 pg.aircraft_template_40 = {
-	[18233] = {
-		id = 18233,
-		base = 18220,
-		max_hp = 163,
-		hp_growth = 6280,
+	[19124] = {
+		id = 19124,
+		base = 19120,
+		max_hp = 62,
+		hp_growth = 2365,
 		weapon_ID = {
-			59753,
-			51253
+			50724,
+			52924,
+			52324
 		}
 	},
-	[19000] = {
-		name = "SBD-3无畏",
-		max_hp = 31,
+	[19125] = {
+		id = 19125,
+		base = 19120,
+		max_hp = 67,
+		hp_growth = 2587,
+		weapon_ID = {
+			50725,
+			52925,
+			52325
+		}
+	},
+	[19126] = {
+		id = 19126,
+		base = 19120,
+		max_hp = 73,
+		hp_growth = 2809,
+		weapon_ID = {
+			50726,
+			52926,
+			52326
+		}
+	},
+	[19140] = {
+		name = "SB2C地狱俯冲者",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "sbdwuwei",
+		model_ID = "sb2c",
 		ACC_growth = 0,
-		crash_DMG = 156,
-		dodge = 3.75,
+		crash_DMG = 180,
+		dodge = 3.33,
 		attack_power = 2,
-		dodge_limit = 0.8,
+		dodge_limit = 1,
 		type = 3,
 		AP_growth = 2000,
-		icon = "sbdwuwei",
+		icon = "sb2c",
 		funnel_behavior = "",
 		nationality = 1,
-		hp_growth = 1183,
+		hp_growth = 1626,
 		speed = 45,
-		id = 19000,
+		id = 19140,
 		scale = 1,
 		weapon_ID = {
-			50700,
-			52900,
-			52100
+			50740,
+			52940,
+			52340
 		},
 		position_offset = {
 			0,
@@ -75,8 +98,8 @@ pg.aircraft_template_40 = {
 				0
 			},
 			{
-				0.72,
-				-0.15,
+				0.44,
+				0,
 				0
 			},
 			{
@@ -86,146 +109,70 @@ pg.aircraft_template_40 = {
 			}
 		}
 	},
-	[19001] = {
-		id = 19001,
-		base = 19000,
-		max_hp = 35,
-		hp_growth = 1360,
+	[19141] = {
+		id = 19141,
+		base = 19140,
+		max_hp = 49,
+		hp_growth = 1870,
 		weapon_ID = {
-			50701,
-			52901,
-			52101
+			50741,
+			52941,
+			52341
 		}
 	},
-	[19002] = {
-		id = 19002,
-		base = 19000,
-		max_hp = 40,
-		hp_growth = 1538,
+	[19142] = {
+		id = 19142,
+		base = 19140,
+		max_hp = 55,
+		hp_growth = 2114,
 		weapon_ID = {
-			50702,
-			52902,
-			52102
+			50742,
+			52942,
+			52342
 		}
 	},
-	[19003] = {
-		id = 19003,
-		base = 19000,
-		max_hp = 45,
-		hp_growth = 1715,
+	[19143] = {
+		id = 19143,
+		base = 19140,
+		max_hp = 61,
+		hp_growth = 2358,
 		weapon_ID = {
-			50703,
-			52903,
-			52103
+			50743,
+			52943,
+			52343
 		}
 	},
-	[19020] = {
-		name = "SBD-3无畏",
-		max_hp = 35,
-		accuracy = 23,
-		model_ID = "sbdwuwei",
-		ACC_growth = 0,
-		crash_DMG = 156,
-		dodge = 3.63,
-		attack_power = 2,
-		dodge_limit = 0.9,
-		type = 3,
-		AP_growth = 2000,
-		icon = "sbdwuwei",
-		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1331,
-		speed = 45,
-		id = 19020,
-		scale = 1,
+	[19144] = {
+		id = 19144,
+		base = 19140,
+		max_hp = 68,
+		hp_growth = 2602,
 		weapon_ID = {
-			50720,
-			52920,
-			52120
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.72,
-				-0.15,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
+			50744,
+			52944,
+			52344
 		}
 	},
-	[19021] = {
-		id = 19021,
-		base = 19020,
-		max_hp = 40,
-		hp_growth = 1530,
+	[19145] = {
+		id = 19145,
+		base = 19140,
+		max_hp = 74,
+		hp_growth = 2846,
 		weapon_ID = {
-			50721,
-			52921,
-			52121
+			50745,
+			52945,
+			52345
 		}
 	},
-	[19022] = {
-		id = 19022,
-		base = 19020,
-		max_hp = 45,
-		hp_growth = 1730,
+	[19146] = {
+		id = 19146,
+		base = 19140,
+		max_hp = 80,
+		hp_growth = 3090,
 		weapon_ID = {
-			50722,
-			52922,
-			52122
-		}
-	},
-	[19023] = {
-		id = 19023,
-		base = 19020,
-		max_hp = 50,
-		hp_growth = 1929,
-		weapon_ID = {
-			50723,
-			52923,
-			52123
+			50746,
+			52946,
+			52346
 		}
 	}
 }

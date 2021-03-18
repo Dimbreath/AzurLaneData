@@ -17,6 +17,7 @@ function slot0.OnLoaded(slot0)
 	slot0.rader = slot0:findTF("rader/rader")
 	slot0.timeTxt = slot0:findTF("time/Text"):GetComponent(typeof(Text))
 	slot0.uilist = UIItemList.New(slot0:findTF("useItem/list"), slot0:findTF("useItem/list/tpl"))
+	slot0:findTF("useItem/list/tpl"):GetComponent(typeof(Image)).sprite = LoadSprite("MetaShip/" .. WorldBossConst.GetCurrBossGroup() .. "_useitem")
 	slot0.useItem = slot0:findTF("useItem")
 	slot0.noItem = slot0:findTF("noitem")
 end

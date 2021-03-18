@@ -25,7 +25,8 @@ return {
 				"onShieldBroken"
 			},
 			arg_list = {
-				skill_id = 19312
+				skill_id = 19312,
+				shieldBuffID = 19312
 			}
 		},
 		{
@@ -34,7 +35,8 @@ return {
 				"onShieldBroken"
 			},
 			arg_list = {
-				skill_id = 19313
+				skill_id = 19313,
+				shieldBuffID = 19312
 			}
 		}
 	}

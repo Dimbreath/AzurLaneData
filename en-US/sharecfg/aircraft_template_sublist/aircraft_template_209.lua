@@ -1,165 +1,93 @@
 pg = pg or {}
 pg.aircraft_template_209 = {
-	[69710] = {
-		max_hp = 95,
-		name = "英仙座技能TBFLv10",
-		base = 69701,
-		id = 69710,
-		hp_growth = 3639,
-		weapon_ID = {
-			69740
-		}
-	},
-	[69711] = {
-		name = "英仙座技能萤火虫Lv1",
-		max_hp = 51,
-		accuracy = 23,
-		model_ID = "yinghuochong",
-		ACC_growth = 0,
-		crash_DMG = 210,
-		dodge = 0.75,
-		attack_power = 2,
-		dodge_limit = 7,
-		type = 3,
-		AP_growth = 2000,
-		icon = "yinghuochong",
-		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1943,
-		speed = 47,
-		id = 69711,
-		scale = 1,
-		weapon_ID = {
-			50661,
-			52741
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					1.26,
-					-1.13,
-					0
-				},
-				{
-					1.35,
-					1.18,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.44,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[69712] = {
-		max_hp = 57,
-		name = "英仙座技能萤火虫Lv2",
-		base = 69711,
-		id = 69712,
-		hp_growth = 2196,
-		weapon_ID = {
-			50662,
-			52742
-		}
-	},
-	[69713] = {
-		max_hp = 64,
-		name = "英仙座技能萤火虫Lv3",
-		base = 69711,
-		id = 69713,
-		hp_growth = 2450,
-		weapon_ID = {
-			50663,
-			52743
-		}
-	},
-	[69714] = {
-		max_hp = 70,
-		name = "英仙座技能萤火虫Lv4",
-		base = 69711,
-		id = 69714,
-		hp_growth = 2703,
-		weapon_ID = {
-			50664,
-			52744
-		}
-	},
-	[69715] = {
+	[81363] = {
+		id = 81363,
+		base = 81360,
 		max_hp = 77,
-		name = "英仙座技能萤火虫Lv5",
-		base = 69711,
-		id = 69715,
-		hp_growth = 2957,
+		hp_growth = 2947,
 		weapon_ID = {
-			50665,
-			52745
+			50663
 		}
 	},
-	[69716] = {
-		max_hp = 83,
-		name = "英仙座技能萤火虫Lv6",
-		base = 69711,
-		id = 69716,
-		hp_growth = 3210,
+	[81364] = {
+		id = 81364,
+		base = 81360,
+		max_hp = 85,
+		hp_growth = 3251,
 		weapon_ID = {
-			50666,
-			52746
+			50664
 		}
 	},
-	[69717] = {
-		max_hp = 90,
-		name = "英仙座技能萤火虫Lv7",
-		base = 69711,
-		id = 69717,
-		hp_growth = 3464,
+	[81365] = {
+		id = 81365,
+		base = 81360,
+		max_hp = 92,
+		hp_growth = 3556,
 		weapon_ID = {
-			50667,
-			52747
+			50665
 		}
 	},
-	[69718] = {
-		max_hp = 97,
-		name = "英仙座技能萤火虫Lv8",
-		base = 69711,
-		id = 69718,
-		hp_growth = 3717,
+	[81366] = {
+		id = 81366,
+		base = 81360,
+		max_hp = 100,
+		hp_growth = 3861,
 		weapon_ID = {
-			50668,
-			52748
+			50666
+		}
+	},
+	[81367] = {
+		id = 81367,
+		base = 81360,
+		max_hp = 108,
+		hp_growth = 4166,
+		weapon_ID = {
+			50667
+		}
+	},
+	[81368] = {
+		id = 81368,
+		base = 81360,
+		max_hp = 116,
+		hp_growth = 4471,
+		weapon_ID = {
+			50668
+		}
+	},
+	[81369] = {
+		id = 81369,
+		base = 81360,
+		max_hp = 124,
+		hp_growth = 4776,
+		weapon_ID = {
+			50669
+		}
+	},
+	[81370] = {
+		id = 81370,
+		base = 81360,
+		max_hp = 132,
+		hp_growth = 5080,
+		weapon_ID = {
+			50670
+		}
+	},
+	[81371] = {
+		id = 81371,
+		base = 81360,
+		max_hp = 140,
+		hp_growth = 5385,
+		weapon_ID = {
+			50671
+		}
+	},
+	[81372] = {
+		id = 81372,
+		base = 81360,
+		max_hp = 148,
+		hp_growth = 5690,
+		weapon_ID = {
+			50672
 		}
 	}
 }

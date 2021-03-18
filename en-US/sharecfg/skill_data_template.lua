@@ -60131,6 +60131,252 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[800010] = {
+		desc_get = "",
+		name = "Shadowflame Torch",
+		type = 1,
+		max_level = 10,
+		desc = "Every 20s: launches a $1 special barrage that decreases the Speed of all enemies hit by 20.0% (DMG is based on the skill's level).",
+		id = 800010,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[800020] = {
+		desc_get = "",
+		name = "Shadow Skirmisher",
+		type = 1,
+		max_level = 10,
+		desc = "When this ship launches an Airstrike: $1 chance to increase this ship's DMG dealt by 50.0% for 8s. If this effect does not activate, instead fires a $2 special barrage (DMG is based on the skill's level).",
+		id = 800020,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"20.0%",
+				"50.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+3.3%"
+				},
+				{
+					"23.3%",
+					"+3.3%"
+				},
+				{
+					"26.6%",
+					"+3.3%"
+				},
+				{
+					"29.9%",
+					"+3.3%"
+				},
+				{
+					"33.2%",
+					"+3.3%"
+				},
+				{
+					"36.5%",
+					"+3.3%"
+				},
+				{
+					"39.8%",
+					"+3.3%"
+				},
+				{
+					"43.1%",
+					"+3.3%"
+				},
+				{
+					"46.4%",
+					"+3.6%"
+				},
+				{
+					"50.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[800030] = {
+		desc_get = "",
+		name = "Glorious Onslaught",
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's Accuracy by $1. While this ship has a Royal Navy aircraft equipped: when this ship launches an Airstrike, launches an additional $2 special airstrike (DMG is based on the skill's level). If not equipping one: at the start of the battle, increases AA by $1 for this ship and the ship in the frontmost position of your Vanguard for 60s.",
+		id = 800030,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
 	[800040] = {
 		desc_get = "",
 		name = "Scorched Blade",
@@ -60550,7 +60796,7 @@ pg.skill_data_template = {
 	},
 	[800071] = {
 		desc_get = "",
-		name = "Scorched Blade ",
+		name = "Scorched Blade·Hiryuu I",
 		type = 3,
 		max_level = 1,
 		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: this ship deals 3% more DMG. ",
@@ -60566,7 +60812,7 @@ pg.skill_data_template = {
 	},
 	[800072] = {
 		desc_get = "",
-		name = "Scorched Blade ",
+		name = "Scorched Blade·Hiryuu II",
 		type = 3,
 		max_level = 1,
 		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: this ship deals 8% more DMG. ",
@@ -60582,7 +60828,7 @@ pg.skill_data_template = {
 	},
 	[800075] = {
 		desc_get = "",
-		name = "Scorched Blade ",
+		name = "Scorched Blade·Hiryuu I",
 		type = 3,
 		max_level = 1,
 		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: this ship deals 3% more DMG. ",
@@ -60598,13 +60844,77 @@ pg.skill_data_template = {
 	},
 	[800077] = {
 		desc_get = "",
-		name = "Scorched Blade ",
+		name = "Scorched Blade·Hiryuu II",
 		type = 3,
 		max_level = 1,
 		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: this ship deals 8% more DMG. ",
 		id = 800077,
 		system_transform = {
 			[51.0] = 800077
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800081] = {
+		desc_get = "",
+		name = "Scorched Blade·Ark Royal I",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: reduces the DMG your Vanguard takes by 3.0%.",
+		id = 800081,
+		system_transform = {
+			[51.0] = 800085
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800082] = {
+		desc_get = "",
+		name = "Scorched Blade·Ark Royal II",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: reduces the DMG your Vanguard takes by 8.0%.",
+		id = 800082,
+		system_transform = {
+			[51.0] = 800087
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800085] = {
+		desc_get = "",
+		name = "Scorched Blade·Ark Royal I",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: reduces the DMG your Vanguard takes by 3.0%.",
+		id = 800085,
+		system_transform = {
+			[51.0] = 800085
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800087] = {
+		desc_get = "",
+		name = "Scorched Blade·Ark Royal II",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: reduces the DMG your Vanguard takes by 8.0%.",
+		id = 800087,
+		system_transform = {
+			[51.0] = 800087
 		},
 		world_death_mark = {
 			1
@@ -61722,12 +62032,19 @@ pg.skill_data_template = {
 		106120,
 		106130,
 		106140,
+		800010,
+		800020,
+		800030,
 		800040,
 		800050,
 		800060,
 		800071,
 		800072,
 		800075,
-		800077
+		800077,
+		800081,
+		800082,
+		800085,
+		800087
 	}
 }

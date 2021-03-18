@@ -17,6 +17,32 @@ slot0.ENERGY_ATTRS = {
 	AttributeType.AntiSub,
 	AttributeType.Expend
 }
+slot0.UIConfig = {
+	[970701] = {
+		29,
+		-4,
+		1.35,
+		1.35,
+		-250,
+		0,
+		-250,
+		0,
+		-250,
+		0
+	},
+	[970702] = {
+		29,
+		-73.3,
+		1.4,
+		1.4,
+		-300,
+		-58,
+		-300,
+		-58,
+		-300,
+		-58
+	}
+}
 slot0.META_ART_RESOURCE_PERFIX = "metaship/"
 slot0.META_ACTIVE_LASTFIX = "_active"
 slot0.META_DISACTIVE_LASTFIX = "_disactive"

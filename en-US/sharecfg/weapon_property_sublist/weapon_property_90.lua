@@ -2,176 +2,42 @@ pg = pg or {}
 pg.weapon_property_90 = {}
 
 function ()
-	uv0.weapon_property_90[51302] = {
-		id = 51302,
-		damage = 72,
-		base = 51300
+	uv0.weapon_property_90[51467] = {
+		id = 51467,
+		damage = 197,
+		base = 51460
 	}
-	uv0.weapon_property_90[51303] = {
-		id = 51303,
-		damage = 88,
-		base = 51300
+	uv0.weapon_property_90[51468] = {
+		id = 51468,
+		damage = 218,
+		base = 51460
 	}
-	uv0.weapon_property_90[51304] = {
-		id = 51304,
-		damage = 104,
-		base = 51300
+	uv0.weapon_property_90[51469] = {
+		id = 51469,
+		damage = 239,
+		base = 51460
 	}
-	uv0.weapon_property_90[51305] = {
-		id = 51305,
-		damage = 120,
-		base = 51300
-	}
-	uv0.weapon_property_90[51306] = {
-		id = 51306,
-		damage = 136,
-		base = 51300
-	}
-	uv0.weapon_property_90[51307] = {
-		id = 51307,
-		damage = 152,
-		base = 51300
-	}
-	uv0.weapon_property_90[51308] = {
-		id = 51308,
-		damage = 168,
-		base = 51300
-	}
-	uv0.weapon_property_90[51309] = {
-		id = 51309,
-		damage = 184,
-		base = 51300
-	}
-	uv0.weapon_property_90[51310] = {
-		id = 51310,
-		damage = 200,
-		base = 51300
-	}
-	uv0.weapon_property_90[51311] = {
-		id = 51311,
-		damage = 208,
-		base = 51300
-	}
-	uv0.weapon_property_90[51312] = {
-		id = 51312,
-		damage = 220,
-		base = 51300
-	}
-	uv0.weapon_property_90[51313] = {
-		id = 51313,
-		damage = 236,
-		base = 51300
-	}
-	uv0.weapon_property_90[51320] = {
-		action_index = "",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = -10,
-		shakescreen = 0,
-		name = "2 x Torpedo-Sakura",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 44,
-		corrected = 100,
-		min_range = 0,
-		id = 51320,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 10000,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2112
-		},
-		barrage_ID = {
-			2141
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_90[51321] = {
-		id = 51321,
-		damage = 62,
-		base = 51320
-	}
-	uv0.weapon_property_90[51322] = {
-		id = 51322,
-		damage = 79,
-		base = 51320
-	}
-	uv0.weapon_property_90[51323] = {
-		id = 51323,
-		damage = 97,
-		base = 51320
-	}
-	uv0.weapon_property_90[51324] = {
-		id = 51324,
-		damage = 114,
-		base = 51320
-	}
-	uv0.weapon_property_90[51325] = {
-		id = 51325,
-		damage = 132,
-		base = 51320
-	}
-	uv0.weapon_property_90[51326] = {
-		id = 51326,
-		damage = 150,
-		base = 51320
-	}
-	uv0.weapon_property_90[51327] = {
-		id = 51327,
-		damage = 167,
-		base = 51320
-	}
-	uv0.weapon_property_90[51328] = {
-		id = 51328,
-		damage = 185,
-		base = 51320
-	}
-	uv0.weapon_property_90[51329] = {
-		id = 51329,
-		damage = 202,
-		base = 51320
-	}
-	uv0.weapon_property_90[51330] = {
-		id = 51330,
-		damage = 220,
-		base = 51320
-	}
-	uv0.weapon_property_90[51331] = {
-		id = 51331,
-		damage = 229,
-		base = 51320
-	}
-	uv0.weapon_property_90[51332] = {
-		id = 51332,
-		damage = 242,
-		base = 51320
-	}
-	uv0.weapon_property_90[51333] = {
-		id = 51333,
+	uv0.weapon_property_90[51470] = {
+		id = 51470,
 		damage = 260,
-		base = 51320
+		base = 51460
 	}
-	uv0.weapon_property_90[51340] = {
+	uv0.weapon_property_90[51471] = {
+		id = 51471,
+		damage = 270,
+		base = 51460
+	}
+	uv0.weapon_property_90[51472] = {
+		id = 51472,
+		damage = 286,
+		base = 51460
+	}
+	uv0.weapon_property_90[51473] = {
+		id = 51473,
+		damage = 307,
+		base = 51460
+	}
+	uv0.weapon_property_90[51480] = {
 		action_index = "",
 		range = 80,
 		type = 3,
@@ -179,16 +45,16 @@ function ()
 		recover_time = 0,
 		axis_angle = -10,
 		shakescreen = 0,
-		name = "2 x Torpedo-Sakura",
+		name = "3 x Torpedo-Sakura",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 25,
 		charge_param = "",
-		damage = 48,
+		damage = 56,
 		corrected = 100,
 		min_range = 0,
-		id = 51340,
+		id = 51480,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -205,7 +71,7 @@ function ()
 			2112
 		},
 		barrage_ID = {
-			2141
+			2142
 		},
 		oxy_type = {
 			1
@@ -215,72 +81,72 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_90[51341] = {
-		id = 51341,
-		damage = 68,
-		base = 51340
+	uv0.weapon_property_90[51481] = {
+		id = 51481,
+		damage = 78,
+		base = 51480
 	}
-	uv0.weapon_property_90[51342] = {
-		id = 51342,
-		damage = 86,
-		base = 51340
+	uv0.weapon_property_90[51482] = {
+		id = 51482,
+		damage = 100,
+		base = 51480
 	}
-	uv0.weapon_property_90[51343] = {
-		id = 51343,
-		damage = 106,
-		base = 51340
+	uv0.weapon_property_90[51483] = {
+		id = 51483,
+		damage = 122,
+		base = 51480
 	}
-	uv0.weapon_property_90[51344] = {
-		id = 51344,
-		damage = 124,
-		base = 51340
-	}
-	uv0.weapon_property_90[51345] = {
-		id = 51345,
+	uv0.weapon_property_90[51484] = {
+		id = 51484,
 		damage = 144,
-		base = 51340
+		base = 51480
 	}
-	uv0.weapon_property_90[51346] = {
-		id = 51346,
-		damage = 164,
-		base = 51340
+	uv0.weapon_property_90[51485] = {
+		id = 51485,
+		damage = 166,
+		base = 51480
 	}
-	uv0.weapon_property_90[51347] = {
-		id = 51347,
-		damage = 182,
-		base = 51340
+	uv0.weapon_property_90[51486] = {
+		id = 51486,
+		damage = 188,
+		base = 51480
 	}
-	uv0.weapon_property_90[51348] = {
-		id = 51348,
-		damage = 202,
-		base = 51340
+	uv0.weapon_property_90[51487] = {
+		id = 51487,
+		damage = 211,
+		base = 51480
 	}
-	uv0.weapon_property_90[51349] = {
-		id = 51349,
-		damage = 220,
-		base = 51340
+	uv0.weapon_property_90[51488] = {
+		id = 51488,
+		damage = 234,
+		base = 51480
 	}
-	uv0.weapon_property_90[51350] = {
-		id = 51350,
-		damage = 240,
-		base = 51340
+	uv0.weapon_property_90[51489] = {
+		id = 51489,
+		damage = 257,
+		base = 51480
 	}
-	uv0.weapon_property_90[51351] = {
-		id = 51351,
-		damage = 250,
-		base = 51340
+	uv0.weapon_property_90[51490] = {
+		id = 51490,
+		damage = 280,
+		base = 51480
 	}
-	uv0.weapon_property_90[51352] = {
-		id = 51352,
-		damage = 264,
-		base = 51340
+	uv0.weapon_property_90[51491] = {
+		id = 51491,
+		damage = 291,
+		base = 51480
 	}
-	uv0.weapon_property_90[51353] = {
-		id = 51353,
-		damage = 283,
-		base = 51340
+	uv0.weapon_property_90[51492] = {
+		id = 51492,
+		damage = 308,
+		base = 51480
 	}
-	uv0.weapon_property_90[51400] = {
+	uv0.weapon_property_90[51493] = {
+		id = 51493,
+		damage = 330,
+		base = 51480
+	}
+	uv0.weapon_property_90[51500] = {
 		action_index = "",
 		range = 80,
 		type = 3,
@@ -288,7 +154,7 @@ function ()
 		recover_time = 0,
 		axis_angle = -10,
 		shakescreen = 0,
-		name = "3 x Torpedo-Sakura",
+		name = "4 x Torpedo-Sakura",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -297,7 +163,7 @@ function ()
 		damage = 40,
 		corrected = 100,
 		min_range = 0,
-		id = 51400,
+		id = 51500,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -314,7 +180,7 @@ function ()
 			2112
 		},
 		barrage_ID = {
-			2142
+			2143
 		},
 		oxy_type = {
 			1
@@ -324,72 +190,72 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_90[51401] = {
-		id = 51401,
+	uv0.weapon_property_90[51501] = {
+		id = 51501,
 		damage = 56,
-		base = 51400
+		base = 51500
 	}
-	uv0.weapon_property_90[51402] = {
-		id = 51402,
+	uv0.weapon_property_90[51502] = {
+		id = 51502,
 		damage = 72,
-		base = 51400
+		base = 51500
 	}
-	uv0.weapon_property_90[51403] = {
-		id = 51403,
+	uv0.weapon_property_90[51503] = {
+		id = 51503,
 		damage = 88,
-		base = 51400
+		base = 51500
 	}
-	uv0.weapon_property_90[51404] = {
-		id = 51404,
+	uv0.weapon_property_90[51504] = {
+		id = 51504,
 		damage = 104,
-		base = 51400
+		base = 51500
 	}
-	uv0.weapon_property_90[51405] = {
-		id = 51405,
+	uv0.weapon_property_90[51505] = {
+		id = 51505,
 		damage = 120,
-		base = 51400
+		base = 51500
 	}
-	uv0.weapon_property_90[51406] = {
-		id = 51406,
+	uv0.weapon_property_90[51506] = {
+		id = 51506,
 		damage = 136,
-		base = 51400
+		base = 51500
 	}
-	uv0.weapon_property_90[51407] = {
-		id = 51407,
+	uv0.weapon_property_90[51507] = {
+		id = 51507,
 		damage = 152,
-		base = 51400
+		base = 51500
 	}
-	uv0.weapon_property_90[51408] = {
-		id = 51408,
+	uv0.weapon_property_90[51508] = {
+		id = 51508,
 		damage = 168,
-		base = 51400
+		base = 51500
 	}
-	uv0.weapon_property_90[51409] = {
-		id = 51409,
+	uv0.weapon_property_90[51509] = {
+		id = 51509,
 		damage = 184,
-		base = 51400
+		base = 51500
 	}
-	uv0.weapon_property_90[51410] = {
-		id = 51410,
+	uv0.weapon_property_90[51510] = {
+		id = 51510,
 		damage = 200,
-		base = 51400
+		base = 51500
 	}
-	uv0.weapon_property_90[51411] = {
-		id = 51411,
+	uv0.weapon_property_90[51511] = {
+		id = 51511,
 		damage = 208,
-		base = 51400
+		base = 51500
 	}
-	uv0.weapon_property_90[51412] = {
-		id = 51412,
+	uv0.weapon_property_90[51512] = {
+		id = 51512,
 		damage = 220,
-		base = 51400
+		base = 51500
 	}
-	uv0.weapon_property_90[51413] = {
-		id = 51413,
+	uv0.weapon_property_90[51513] = {
+		id = 51513,
 		damage = 236,
-		base = 51400
+		base = 51500
 	}
-	uv0.weapon_property_90[51420] = {
+	uv0.weapon_property_90[51520] = {
 		action_index = "",
 		range = 80,
 		type = 3,
@@ -397,7 +263,7 @@ function ()
 		recover_time = 0,
 		axis_angle = -10,
 		shakescreen = 0,
-		name = "3 x Torpedo-Sakura",
+		name = "4 x Torpedo-Sakura",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -406,7 +272,7 @@ function ()
 		damage = 44,
 		corrected = 100,
 		min_range = 0,
-		id = 51420,
+		id = 51520,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -423,7 +289,7 @@ function ()
 			2112
 		},
 		barrage_ID = {
-			2142
+			2143
 		},
 		oxy_type = {
 			1
@@ -433,24 +299,163 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_90[51421] = {
-		id = 51421,
+	uv0.weapon_property_90[51521] = {
+		id = 51521,
 		damage = 62,
-		base = 51420
+		base = 51520
 	}
-	uv0.weapon_property_90[51422] = {
-		id = 51422,
+	uv0.weapon_property_90[51522] = {
+		id = 51522,
 		damage = 79,
-		base = 51420
+		base = 51520
 	}
-	uv0.weapon_property_90[51423] = {
-		id = 51423,
+	uv0.weapon_property_90[51523] = {
+		id = 51523,
 		damage = 97,
-		base = 51420
+		base = 51520
 	}
-	uv0.weapon_property_90[51424] = {
-		id = 51424,
+	uv0.weapon_property_90[51524] = {
+		id = 51524,
 		damage = 114,
-		base = 51420
+		base = 51520
+	}
+	uv0.weapon_property_90[51525] = {
+		id = 51525,
+		damage = 132,
+		base = 51520
+	}
+	uv0.weapon_property_90[51526] = {
+		id = 51526,
+		damage = 150,
+		base = 51520
+	}
+	uv0.weapon_property_90[51527] = {
+		id = 51527,
+		damage = 167,
+		base = 51520
+	}
+	uv0.weapon_property_90[51528] = {
+		id = 51528,
+		damage = 185,
+		base = 51520
+	}
+	uv0.weapon_property_90[51529] = {
+		id = 51529,
+		damage = 202,
+		base = 51520
+	}
+	uv0.weapon_property_90[51530] = {
+		id = 51530,
+		damage = 220,
+		base = 51520
+	}
+	uv0.weapon_property_90[51531] = {
+		id = 51531,
+		damage = 229,
+		base = 51520
+	}
+	uv0.weapon_property_90[51532] = {
+		id = 51532,
+		damage = 242,
+		base = 51520
+	}
+	uv0.weapon_property_90[51533] = {
+		id = 51533,
+		damage = 260,
+		base = 51520
+	}
+	uv0.weapon_property_90[51540] = {
+		action_index = "",
+		range = 80,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = -10,
+		shakescreen = 0,
+		name = "4 x Torpedo-Sakura",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 48,
+		corrected = 100,
+		min_range = 0,
+		id = 51540,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2112
+		},
+		barrage_ID = {
+			2143
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_90[51541] = {
+		id = 51541,
+		damage = 68,
+		base = 51540
+	}
+	uv0.weapon_property_90[51542] = {
+		id = 51542,
+		damage = 86,
+		base = 51540
+	}
+	uv0.weapon_property_90[51543] = {
+		id = 51543,
+		damage = 106,
+		base = 51540
+	}
+	uv0.weapon_property_90[51544] = {
+		id = 51544,
+		damage = 124,
+		base = 51540
+	}
+	uv0.weapon_property_90[51545] = {
+		id = 51545,
+		damage = 144,
+		base = 51540
+	}
+	uv0.weapon_property_90[51546] = {
+		id = 51546,
+		damage = 164,
+		base = 51540
+	}
+	uv0.weapon_property_90[51547] = {
+		id = 51547,
+		damage = 182,
+		base = 51540
+	}
+	uv0.weapon_property_90[51548] = {
+		id = 51548,
+		damage = 202,
+		base = 51540
+	}
+	uv0.weapon_property_90[51549] = {
+		id = 51549,
+		damage = 220,
+		base = 51540
+	}
+	uv0.weapon_property_90[51550] = {
+		id = 51550,
+		damage = 240,
+		base = 51540
 	}
 end()

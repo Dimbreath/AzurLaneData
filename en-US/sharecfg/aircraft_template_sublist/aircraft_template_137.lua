@@ -1,37 +1,92 @@
 pg = pg or {}
 pg.aircraft_template_137 = {
-	[47106] = {
-		id = 47106,
-		base = 47100,
-		max_hp = 66,
-		hp_growth = 2554,
+	[65205] = {
+		max_hp = 67,
+		name = "大凤μ技能轰炸机Lv5",
+		base = 65201,
+		id = 65205,
+		hp_growth = 2568,
 		weapon_ID = {
-			59106,
-			59206
+			65215,
+			65225
 		}
 	},
-	[47120] = {
-		name = "Me-155A舰载战斗机T2",
-		max_hp = 38,
+	[65206] = {
+		max_hp = 73,
+		name = "大凤μ技能轰炸机Lv6",
+		base = 65201,
+		id = 65206,
+		hp_growth = 2809,
+		weapon_ID = {
+			65216,
+			65226
+		}
+	},
+	[65207] = {
+		max_hp = 79,
+		name = "大凤μ技能轰炸机Lv7",
+		base = 65201,
+		id = 65207,
+		hp_growth = 3050,
+		weapon_ID = {
+			65217,
+			65227
+		}
+	},
+	[65208] = {
+		max_hp = 86,
+		name = "大凤μ技能轰炸机Lv8",
+		base = 65201,
+		id = 65208,
+		hp_growth = 3290,
+		weapon_ID = {
+			65218,
+			65228
+		}
+	},
+	[65209] = {
+		max_hp = 92,
+		name = "大凤μ技能轰炸机Lv9",
+		base = 65201,
+		id = 65209,
+		hp_growth = 3531,
+		weapon_ID = {
+			65219,
+			65229
+		}
+	},
+	[65210] = {
+		max_hp = 98,
+		name = "大凤μ技能轰炸机Lv10",
+		base = 65201,
+		id = 65210,
+		hp_growth = 3772,
+		weapon_ID = {
+			65220,
+			65230
+		}
+	},
+	[65251] = {
+		name = "坠星机LV1",
+		max_hp = 36,
 		accuracy = 23,
-		model_ID = "Me155A",
+		model_ID = "feiji_weixingbanwu",
 		ACC_growth = 0,
-		crash_DMG = 65,
-		dodge = 0.327,
+		crash_DMG = 188,
+		dodge = 1.05,
 		attack_power = 2,
-		dodge_limit = 9.5,
-		type = 1,
+		dodge_limit = 5,
+		type = 2,
 		AP_growth = 2000,
-		icon = "Me155A",
+		icon = "feiji_weixingbanwu",
 		funnel_behavior = "",
-		nationality = 4,
-		hp_growth = 1478,
-		speed = 50,
-		id = 47120,
+		nationality = 2,
+		hp_growth = 1386,
+		speed = 52,
+		id = 65251,
 		scale = 1,
 		weapon_ID = {
-			59120,
-			59220
+			65261
 		},
 		position_offset = {
 			0,
@@ -74,7 +129,7 @@ pg.aircraft_template_137 = {
 				0
 			},
 			{
-				0.51,
+				0.26,
 				0,
 				0
 			},
@@ -85,74 +140,34 @@ pg.aircraft_template_137 = {
 			}
 		}
 	},
-	[47121] = {
-		id = 47121,
-		base = 47120,
-		max_hp = 44,
-		hp_growth = 1700,
+	[65252] = {
+		max_hp = 41,
+		name = "坠星机LV2",
+		base = 65251,
+		id = 65252,
+		hp_growth = 1594,
 		weapon_ID = {
-			59121,
-			59221
+			65262
 		}
 	},
-	[47122] = {
-		id = 47122,
-		base = 47120,
-		max_hp = 50,
-		hp_growth = 1922,
+	[65253] = {
+		max_hp = 47,
+		name = "坠星机LV3",
+		base = 65251,
+		id = 65253,
+		hp_growth = 1802,
 		weapon_ID = {
-			59122,
-			59222
+			65263
 		}
 	},
-	[47123] = {
-		id = 47123,
-		base = 47120,
-		max_hp = 56,
-		hp_growth = 2144,
+	[65254] = {
+		max_hp = 52,
+		name = "坠星机LV4",
+		base = 65251,
+		id = 65254,
+		hp_growth = 2010,
 		weapon_ID = {
-			59123,
-			59223
-		}
-	},
-	[47124] = {
-		id = 47124,
-		base = 47120,
-		max_hp = 62,
-		hp_growth = 2365,
-		weapon_ID = {
-			59124,
-			59224
-		}
-	},
-	[47125] = {
-		id = 47125,
-		base = 47120,
-		max_hp = 67,
-		hp_growth = 2587,
-		weapon_ID = {
-			59125,
-			59225
-		}
-	},
-	[47126] = {
-		id = 47126,
-		base = 47120,
-		max_hp = 73,
-		hp_growth = 2809,
-		weapon_ID = {
-			59126,
-			59226
-		}
-	},
-	[47127] = {
-		id = 47127,
-		base = 47120,
-		max_hp = 79,
-		hp_growth = 3031,
-		weapon_ID = {
-			59127,
-			59227
+			65264
 		}
 	}
 }

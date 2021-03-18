@@ -787,6 +787,14 @@ end
 
 function slot0.updateEquip(slot0, slot1, slot2)
 	slot0.equipments[slot1] = slot2 and Clone(slot2) or false
+
+	if slot0.equipments[slot1] then
+		getProxy(EquipmentProxy):OnShipEquipsRemove(slot3, slot0.id, slot1)
+	end
+
+	if slot2 then
+		getProxy(EquipmentProxy):OnShipEquipsAdd(slot2, slot0.id, slot1)
+	end
 end
 
 function slot0.getEquip(slot0, slot1)

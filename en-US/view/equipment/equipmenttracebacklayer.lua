@@ -1,132 +1,5 @@
 slot0 = class("EquipmentTraceBackLayer", import("view.base.BaseUI"))
 
-function slot0.GetTracebackResultFuncCreator()
-	slot0 = {}
-
-	for slot5, slot6 in pairs(getProxy(EquipmentProxy):GetEquipmentsRaw()) do
-		slot0[slot6.id] = slot0[slot6.id] or {}
-
-		table.insert(slot0[slot6.id], CreateShell(slot6))
-	end
-
-	for slot5, slot6 in pairs(getProxy(BayProxy):GetEquipsInShipsRaw()) do
-		slot0[slot6.id] = slot0[slot6.id] or {}
-
-		table.insert(slot0[slot6.id], slot6)
-	end
-
-	slot3 = nil
-
-	function slot3(slot0, slot1, slot2)
-		if #EquipmentProxy.GetTransformSources(slot0) == 0 then
-			table.insert(slot2 or {}, slot1 or {
-				slot0
-			})
-		end
-
-		for slot7, slot8 in ipairs(slot3) do
-			slot9 = pg.equip_upgrade_data[slot8].upgrade_from
-			slot10 = slot7 == #slot3 and slot1 or Clone(slot1)
-
-			table.insert(slot10, slot9)
-
-			slot10.formulas = slot10.formulas or {}
-
-			table.insert(slot10.formulas, 1, slot8)
-
-			if #uv0(slot9) > 0 then
-				slot10.candicates = slot11
-
-				table.insert(slot2, slot10)
-			elseif slot9 == 0 then
-				slot10.candicates = {
-					setmetatable({
-						id = 0
-					}, Equipment)
-				}
-
-				table.insert(slot2, slot10)
-			else
-				uv1(slot9, slot10, slot2)
-			end
-		end
-
-		return slot2
-	end
-
-	function slot5(slot0, slot1)
-		return slot0.id == slot1.id and slot0.shipId == slot1.shipId and slot0.shipPos == slot1.shipPos
-	end
-
-	return {
-		traceback = function (...)
-			slot0 = uv0(...)
-
-			table.sort(slot0, function (slot0, slot1)
-				if #slot0 ~= #slot1 then
-					return #slot0 < #slot1
-				else
-					for slot5 = 1, #slot0 do
-						if slot0[slot5] ~= slot1[1] then
-							return slot0[slot5] < slot1[slot5]
-						end
-					end
-
-					return false
-				end
-			end)
-
-			return slot0
-		end,
-		getSameEquipTypeInDict = function (slot0)
-			slot1 = {}
-
-			while slot0 ~= nil do
-				if uv0[slot0] then
-					table.insertto(slot1, uv0[slot0])
-				end
-
-				slot0 = pg.equip_data_template[slot0] and pg.equip_data_template[slot0].next
-			end
-
-			return slot1
-		end,
-		findEquip = function (slot0)
-			if not slot0 or not uv0[slot0.id] then
-				return
-			end
-
-			for slot4, slot5 in ipairs(uv0[slot0.id]) do
-				if uv1(slot0, slot5) then
-					return slot4, slot5
-				end
-			end
-		end,
-		addEquip = function (slot0)
-			uv0[slot0.id] = uv0[slot0.id] or {}
-			uv0[slot0.id][uv1(slot0) or #uv0[slot0.id] + 1] = slot0
-		end,
-		removeEquip = function (slot0)
-			if not slot0 or not uv0[slot0.id] then
-				return
-			end
-
-			if not uv1(slot0) then
-				return
-			end
-
-			table.remove(uv0[slot0.id], slot1)
-		end,
-		updateEquip = function (slot0)
-			if slot0.count == 0 then
-				uv0(slot0)
-			else
-				uv1(slot0)
-			end
-		end
-	}
-end
-
 function slot0.getUIName(slot0)
 	return "EquipmentTraceBackUI"
 end
@@ -208,7 +81,7 @@ function slot0.GetAllPaths(slot0, slot1)
 				slot12
 			})
 
-			if #slot0.env.GetSameTypeInEquips(slot11) > 0 then
+			if #slot0.env.tracebackHelper:GetSameTypeInEquips(slot11) > 0 then
 				table.insertto(slot2, _.map(slot13, function (slot0)
 					return {
 						equipment = slot0,
@@ -227,7 +100,7 @@ function slot0.UpdateSourceEquipmentPaths(slot0)
 
 	if slot0.contextData.sourceEquipmentInstance then
 		slot0.contextData.sourceEquipmentInstance = _.detect(slot0.totalPaths, function (slot0)
-			return EquipmentTransformLayer.SameEquip(slot0.equipment, uv0.contextData.sourceEquipmentInstance)
+			return EquipmentProxy.SameEquip(slot0.equipment, uv0.contextData.sourceEquipmentInstance)
 		end) and slot1.equipment or nil
 	end
 end

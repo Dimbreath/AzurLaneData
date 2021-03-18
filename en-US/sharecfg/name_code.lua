@@ -954,5 +954,75 @@ pg.name_code = {
 		id = 191,
 		name = "Hiryuu META ",
 		code = "Hiryuu META "
+	},
+	[250] = {
+		id = 250,
+		name = "I-9",
+		code = "I-9"
+	},
+	[251] = {
+		id = 251,
+		name = "I-16",
+		code = "I-16"
+	},
+	[252] = {
+		id = 252,
+		name = "I-25",
+		code = "I-25"
+	},
+	[253] = {
+		id = 253,
+		name = "I-54",
+		code = "I-54"
+	},
+	[254] = {
+		id = 254,
+		name = "I-56",
+		code = "I-56"
+	},
+	[255] = {
+		id = 255,
+		name = "I-60",
+		code = "I-60"
+	},
+	[256] = {
+		id = 256,
+		name = "I-168",
+		code = "I-168"
+	},
+	[257] = {
+		id = 257,
+		name = "I-490",
+		code = "I-490"
+	},
+	[280] = {
+		id = 280,
+		name = "Type B1",
+		code = "Type B1"
+	},
+	[281] = {
+		id = 281,
+		name = "Kaidai Type ",
+		code = "Kaidai Type "
+	},
+	[282] = {
+		id = 282,
+		name = "Type A Mod. 2",
+		code = "Type A Mod. 2"
+	},
+	[283] = {
+		id = 283,
+		name = "Type B Mod. 2",
+		code = "Type B Mod. 2"
+	},
+	[284] = {
+		id = 284,
+		name = "Kaidai Type VIa",
+		code = "Kaidai Type VIa"
+	},
+	[285] = {
+		id = 285,
+		name = "I-Type",
+		code = "I-Type"
 	}
 }

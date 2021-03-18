@@ -1,116 +1,55 @@
 pg = pg or {}
 pg.aircraft_template_186 = {
-	[68023] = {
-		max_hp = 64,
-		name = "邦克山技能战斗机Lv3",
-		base = 68021,
-		id = 68023,
-		hp_growth = 2455,
-		weapon_ID = {
-			50443,
-			68053
-		}
-	},
-	[68024] = {
-		max_hp = 70,
-		name = "邦克山技能战斗机Lv4",
-		base = 68021,
-		id = 68024,
-		hp_growth = 2710,
-		weapon_ID = {
-			50444,
-			68054
-		}
-	},
-	[68025] = {
+	[69488] = {
 		max_hp = 77,
-		name = "邦克山技能战斗机Lv5",
-		base = 68021,
-		id = 68025,
-		hp_growth = 2964,
+		name = "小光辉技能鱼雷机Lv8",
+		base = 69481,
+		id = 69488,
+		hp_growth = 2943,
 		weapon_ID = {
-			50445,
-			68055
+			69498
 		}
 	},
-	[68026] = {
-		max_hp = 84,
-		name = "邦克山技能战斗机Lv6",
-		base = 68021,
-		id = 68026,
-		hp_growth = 3218,
+	[69489] = {
+		max_hp = 82,
+		name = "小光辉技能鱼雷机Lv9",
+		base = 69481,
+		id = 69489,
+		hp_growth = 3143,
 		weapon_ID = {
-			50446,
-			68056
+			69499
 		}
 	},
-	[68027] = {
-		max_hp = 90,
-		name = "邦克山技能战斗机Lv7",
-		base = 68021,
-		id = 68027,
-		hp_growth = 3472,
+	[69490] = {
+		max_hp = 87,
+		name = "小光辉技能鱼雷机Lv10",
+		base = 69481,
+		id = 69490,
+		hp_growth = 3344,
 		weapon_ID = {
-			50447,
-			68057
+			69500
 		}
 	},
-	[68028] = {
-		max_hp = 97,
-		name = "邦克山技能战斗机Lv8",
-		base = 68021,
-		id = 68028,
-		hp_growth = 3726,
-		weapon_ID = {
-			50448,
-			68058
-		}
-	},
-	[68029] = {
-		max_hp = 103,
-		name = "邦克山技能战斗机Lv9",
-		base = 68021,
-		id = 68029,
-		hp_growth = 3980,
-		weapon_ID = {
-			50449,
-			68059
-		}
-	},
-	[68030] = {
-		max_hp = 110,
-		name = "邦克山技能战斗机Lv10",
-		base = 68021,
-		id = 68030,
-		hp_growth = 4234,
-		weapon_ID = {
-			50450,
-			68060
-		}
-	},
-	[68031] = {
-		name = "邦克山技能轰炸机Lv1",
-		max_hp = 35,
+	[69501] = {
+		name = "小光辉圣光飞机Lv1",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "sbdwuwei",
+		model_ID = "jianyu",
 		ACC_growth = 0,
-		crash_DMG = 156,
-		dodge = 1,
+		crash_DMG = 306,
+		dodge = 1.11,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "sbdwuwei",
+		icon = "jianyu",
 		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1183,
-		speed = 46,
-		id = 68031,
+		nationality = 2,
+		hp_growth = 1615,
+		speed = 60,
+		id = 69501,
 		scale = 1,
-		weapon_ID = {
-			68041,
-			68051
-		},
+		weapon_ID = {},
 		position_offset = {
 			0,
 			5,
@@ -152,8 +91,8 @@ pg.aircraft_template_186 = {
 				0
 			},
 			{
-				0.72,
-				-0.15,
+				0.37,
+				0,
 				0
 			},
 			{
@@ -162,5 +101,53 @@ pg.aircraft_template_186 = {
 				0
 			}
 		}
+	},
+	[69502] = {
+		max_hp = 48,
+		name = "小光辉圣光飞机Lv2",
+		base = 69501,
+		id = 69502,
+		hp_growth = 1826,
+		weapon_ID = {}
+	},
+	[69503] = {
+		max_hp = 54,
+		name = "小光辉圣光飞机Lv3",
+		base = 69501,
+		id = 69503,
+		hp_growth = 2036,
+		weapon_ID = {}
+	},
+	[69504] = {
+		max_hp = 61,
+		name = "小光辉圣光飞机Lv4",
+		base = 69501,
+		id = 69504,
+		hp_growth = 2247,
+		weapon_ID = {}
+	},
+	[69505] = {
+		max_hp = 67,
+		name = "小光辉圣光飞机Lv5",
+		base = 69501,
+		id = 69505,
+		hp_growth = 2458,
+		weapon_ID = {}
+	},
+	[69506] = {
+		max_hp = 73,
+		name = "小光辉圣光飞机Lv6",
+		base = 69501,
+		id = 69506,
+		hp_growth = 2669,
+		weapon_ID = {}
+	},
+	[69507] = {
+		max_hp = 79,
+		name = "小光辉圣光飞机Lv7",
+		base = 69501,
+		id = 69507,
+		hp_growth = 2879,
+		weapon_ID = {}
 	}
 }
