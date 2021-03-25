@@ -1,5 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_360 = {
+	[85265] = {
+		id = 85265,
+		damage = "66/wave",
+		base = 85260,
+		weapon_id = {
+			85265
+		}
+	},
+	[85266] = {
+		id = 85266,
+		damage = "73/wave",
+		base = 85260,
+		weapon_id = {
+			85266
+		}
+	},
 	[85280] = {
 		name = "Twin 100mm B-54 AA Gun",
 		speciality = "Anti-Air",
@@ -217,22 +233,6 @@ pg.equip_data_statistics_360 = {
 		base = 85300,
 		weapon_id = {
 			85302
-		}
-	},
-	[85303] = {
-		id = 85303,
-		damage = "76 x 3",
-		base = 85300,
-		weapon_id = {
-			85303
-		}
-	},
-	[85304] = {
-		id = 85304,
-		damage = "84 x 3",
-		base = 85300,
-		weapon_id = {
-			85304
 		}
 	}
 }

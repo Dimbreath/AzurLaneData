@@ -151,7 +151,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			actor = 900011,
+			actor = 900313,
 			mode = 2,
 			say = "... Humanity is such an interesting lifeform... The power we gave them was just the beginning... History has already begun to be rewritten...",
 			shake = {

@@ -11,7 +11,7 @@ function slot0.GetUIName(slot0)
 end
 
 function slot0.OnInit(slot0)
-	if not getProxy(ActivityProxy):getActivityById(ActivityConst.APRILFOOL_DISCOVERY) or slot1:isEnd() then
+	if not getProxy(ActivityProxy):getActivityById(ActivityConst.APRILFOOL_DISCOVERY_RE) or slot1:isEnd() then
 		slot0:Destroy()
 
 		return
@@ -23,6 +23,7 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0.bulin, function ()
 		pg.m02:sendNotification(GAME.PUZZLE_PIECE_OP, {
 			cmd = 2,
+			isPickUp = true,
 			actId = uv1.id,
 			id = uv0.pieceID,
 			callback = function ()
@@ -50,7 +51,7 @@ function slot0.SetParent(slot0, slot1)
 end
 
 function slot0.ShowAprilFoolBulin(slot0, slot1, slot2)
-	if not getProxy(ActivityProxy):getActivityById(ActivityConst.APRILFOOL_DISCOVERY) or slot3:isEnd() or table.contains(slot3.data2_list, slot1) then
+	if not getProxy(ActivityProxy):getActivityById(ActivityConst.APRILFOOL_DISCOVERY_RE) or slot3:isEnd() or table.contains(slot3.data2_list, slot1) then
 		return
 	end
 

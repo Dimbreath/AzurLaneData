@@ -106,6 +106,7 @@ pg.equip_data_statistics_19 = {
 		part_sub = {},
 		equip_parameters = {},
 		label = {
+			"USS",
 			"DEV",
 			"UEDC"
 		}

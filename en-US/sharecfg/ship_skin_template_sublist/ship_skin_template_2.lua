@@ -1,5 +1,108 @@
 pg = pg or {}
 pg.ship_skin_template_2 = {
+	[101360] = {
+		name = "Hobby",
+		ship_group = 10136,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "Benson class Destroyer— Hobby, hull number DD-610.",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "huobi",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 101360,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "huobi",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 151,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.53,
+					1.02,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.45,
+					1.02,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.16,
+					0.09,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.31,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101361] = {
 		name = "Little Idol Schoolgirl",
 		ship_group = 10136,
@@ -1815,6 +1918,212 @@ pg.ship_skin_template_2 = {
 			main_2 = 1.47,
 			touch_special = 0.54,
 			mission = 1.6
+		}
+	},
+	[101450] = {
+		name = "Allen M. Sumner",
+		ship_group = 10145,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "I'm Eagle Union destroyer Allen M. Sumner! Just call me Allen! It's a pleasure, Commander! Anyway, I've heard you've got yummy food and cushy work here at this port. That true?",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "ailunsamuna",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 101450,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ailunsamuna",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 266,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.244,
+					1.085,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.099,
+					1.05,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.402,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[101460] = {
+		name = "Stephen Potter",
+		ship_group = 10146,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "Fletcher-class Stephen Potter here. You've probably met a million of my sisters already, so I'll spare you my life story. See you around.",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "shidifenbote",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 101460,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "shidifenbote",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 267,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.226,
+					1.007,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.23,
+					1.007,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.521,
+							2.444,
+							0
+						}
+					}
+				}
+			}
 		}
 	},
 	[102010] = {
@@ -6953,319 +7262,6 @@ pg.ship_skin_template_2 = {
 						{
 							-0.49,
 							2.23,
-							-0.16
-						}
-					}
-				}
-			}
-		}
-	},
-	[102230] = {
-		name = "Birmingham",
-		ship_group = 10223,
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "Cleveland-class light cruiser – Birmingham, Hull Number CL-62.",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "bominghan",
-		no_showing = "0",
-		air_bullet_skin = "",
-		bg_sp = "",
-		shop_type_id = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		bg = "",
-		skin_type = -1,
-		id = 102230,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "bominghan",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 203,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.088,
-					1.068,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.039,
-					0.032,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.071,
-					1.046,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.183,
-							-0.16
-						}
-					}
-				}
-			}
-		}
-	},
-	[102231] = {
-		name = "Rider of Red",
-		ship_group = 10223,
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "Good morning, Commander. Unfortunately, this bicycle only seats one person, but I could dismount and lead it along as we walk together.",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "bominghan_2",
-		no_showing = "0",
-		air_bullet_skin = "",
-		bg_sp = "",
-		shop_type_id = 4,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		bg = "103",
-		skin_type = 0,
-		id = 102231,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "bominghan_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70209,
-		voice_actor = 203,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.074,
-					1.01,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.032,
-					0.025,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.042,
-					0.98,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.183,
-							-0.16
-						}
-					}
-				}
-			}
-		}
-	},
-	[102232] = {
-		name = "Fruitful Snow of an Auspicious Year",
-		ship_group = 10223,
-		group_index = 2,
-		illustrator2 = -1,
-		desc = "Happy Lunar New Year, Commander. I'm trying out Dragon Empery fashion for a change, though this dress will some getting used to. Hey, uh, do you want to join me under the umbrella? For cover against the snowfall, I mean.",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "bominghan_4",
-		no_showing = "0",
-		air_bullet_skin = "",
-		bg_sp = "1102",
-		shop_type_id = 3,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		bg = "144",
-		skin_type = 0,
-		id = 102232,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "bominghan_4",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70492,
-		voice_actor = 203,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.993,
-					1.01,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.002,
-					1.007,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.375,
-							2.506,
 							-0.16
 						}
 					}

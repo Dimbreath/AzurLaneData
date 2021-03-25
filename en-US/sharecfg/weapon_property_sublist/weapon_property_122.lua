@@ -2,6 +2,24 @@ pg = pg or {}
 pg.weapon_property_122 = {}
 
 function ()
+	uv0.weapon_property_122[65579] = {
+		name = "威悉技能轰炸机PlusLv9",
+		damage = 81,
+		base = 65571,
+		id = 65579,
+		bullet_ID = {
+			65579
+		}
+	}
+	uv0.weapon_property_122[65580] = {
+		name = "威悉技能轰炸机PlusLv10",
+		damage = 86,
+		base = 65571,
+		id = 65580,
+		bullet_ID = {
+			65580
+		}
+	}
 	uv0.weapon_property_122[65581] = {
 		action_index = "",
 		range = 500,
@@ -605,18 +623,6 @@ function ()
 		id = 65638,
 		name = "应瑞技能弹幕LV8",
 		damage = 15,
-		base = 65631
-	}
-	uv0.weapon_property_122[65639] = {
-		id = 65639,
-		name = "应瑞技能弹幕LV9",
-		damage = 16,
-		base = 65631
-	}
-	uv0.weapon_property_122[65640] = {
-		id = 65640,
-		name = "应瑞技能弹幕LV10",
-		damage = 18,
 		base = 65631
 	}
 end()

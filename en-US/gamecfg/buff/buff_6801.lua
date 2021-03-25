@@ -39,6 +39,16 @@ return {
 				number = 0.03,
 				attr = "DMG_TAG_EHC_T_10"
 			}
+		},
+		{
+			type = "BattleBuffShiftWeapon",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				detach_id = 18191,
+				weapon_id = 18211
+			}
 		}
 	}
 }

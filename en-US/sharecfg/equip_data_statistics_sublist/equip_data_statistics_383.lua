@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.equip_data_statistics_383 = {
+	[90452] = {
+		anti_siren = 200,
+		damage = "120 x 4",
+		base = 90440,
+		id = 90452,
+		weapon_id = {
+			90452
+		}
+	},
+	[90453] = {
+		anti_siren = 300,
+		damage = "120 x 4",
+		base = 90440,
+		id = 90453,
+		weapon_id = {
+			90453
+		}
+	},
 	[90500] = {
 		name = "Twin 130mm Mle 1935 Main Gun Mount",
 		speciality = "Lock",
@@ -229,24 +247,6 @@ pg.equip_data_statistics_383 = {
 		base = 90600,
 		weapon_id = {
 			90610
-		}
-	},
-	[90611] = {
-		anti_siren = 100,
-		damage = "78/wave",
-		base = 90600,
-		id = 90611,
-		weapon_id = {
-			90611
-		}
-	},
-	[90612] = {
-		anti_siren = 200,
-		damage = "78/wave",
-		base = 90600,
-		id = 90612,
-		weapon_id = {
-			90612
 		}
 	}
 }

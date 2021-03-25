@@ -358,6 +358,10 @@ function slot0.initPlane(slot0)
 				if uv1.offset then
 					tf(slot0).localPosition = Vector3(unpack(uv1.offset))
 				end
+
+				if uv1.rotation then
+					tf(slot0).localRotation = Quaternion.Euler(unpack(uv1.rotation))
+				end
 			end)
 		end
 	end

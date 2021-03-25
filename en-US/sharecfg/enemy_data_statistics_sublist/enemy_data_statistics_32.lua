@@ -1,5 +1,94 @@
 pg = pg or {}
 pg.enemy_data_statistics_32 = {
+	[613] = {
+		cannon = 35,
+		speed = 18,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 2000,
+		air = 50,
+		dodge = 6,
+		armor = 0,
+		antiaircraft_growth = 5148,
+		antisub = 0,
+		hit_growth = 210,
+		dodge_growth = 90,
+		star = 6,
+		antisub_growth = 0,
+		rarity = 5,
+		base = 239,
+		durability = 800,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck = 0,
+		id = 613,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 0,
+		durability_growth = 36000,
+		antiaircraft = 62,
+		battle_unit_type = 70,
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-1.39,
+							1,
+							-0.21
+						}
+					}
+				}
+			},
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							1.326,
+							1.256,
+							-0.046
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.487,
+							2,
+							-0.16
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {
+			100201,
+			311079,
+			311081,
+			311082,
+			311083,
+			311090
+		}
+	},
 	[614] = {
 		cannon = 35,
 		antisub = 0,
@@ -597,48 +686,6 @@ pg.enemy_data_statistics_32 = {
 			314081,
 			314082,
 			314520
-		}
-	},
-	[651] = {
-		cannon = 355,
-		antisub = 0,
-		air = 0,
-		cannon_growth = 1700,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		base = 203,
-		dodge = 9,
-		torpedo_growth = 4600,
-		air_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 126,
-		speed_growth = 0,
-		star = 5,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 4,
-		luck_growth = 0,
-		torpedo = 342,
-		durability = 8170,
-		armor_growth = 0,
-		durability_growth = 81500,
-		antiaircraft = 44,
-		speed = 18,
-		luck = 0,
-		hit_growth = 210,
-		battle_unit_type = 60,
-		id = 651,
-		antiaircraft_growth = 4600,
-		armor = 0,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			315072,
-			315073,
-			315074,
-			315075
 		}
 	}
 }

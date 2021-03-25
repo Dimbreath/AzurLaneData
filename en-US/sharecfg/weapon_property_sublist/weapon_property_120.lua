@@ -2,6 +2,18 @@ pg = pg or {}
 pg.weapon_property_120 = {}
 
 function ()
+	uv0.weapon_property_120[65449] = {
+		id = 65449,
+		name = "飞龙META_斩击技能Lv9",
+		damage = 158,
+		base = 65441
+	}
+	uv0.weapon_property_120[65450] = {
+		id = 65450,
+		name = "飞龙META_斩击技能Lv10",
+		damage = 174,
+		base = 65441
+	}
 	uv0.weapon_property_120[65451] = {
 		action_index = "attack",
 		range = 90,
@@ -668,16 +680,6 @@ function ()
 	uv0.weapon_property_120[65508] = {
 		id = 65508,
 		damage = 202,
-		base = 65501
-	}
-	uv0.weapon_property_120[65509] = {
-		id = 65509,
-		damage = 220,
-		base = 65501
-	}
-	uv0.weapon_property_120[65510] = {
-		id = 65510,
-		damage = 240,
 		base = 65501
 	}
 end()

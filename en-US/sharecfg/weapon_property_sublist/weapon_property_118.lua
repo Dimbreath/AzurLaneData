@@ -2,6 +2,18 @@ pg = pg or {}
 pg.weapon_property_118 = {}
 
 function ()
+	uv0.weapon_property_118[65329] = {
+		id = 65329,
+		name = "穗香弹幕LV9-类佐治亚超重弹2枚-PVP",
+		damage = 158,
+		base = 65321
+	}
+	uv0.weapon_property_118[65330] = {
+		id = 65330,
+		name = "穗香弹幕LV10-类佐治亚超重弹2枚-PVP",
+		damage = 170,
+		base = 65321
+	}
 	uv0.weapon_property_118[65331] = {
 		action_index = "attack",
 		range = 50,
@@ -617,30 +629,6 @@ function ()
 		id = 65388,
 		bullet_ID = {
 			65388
-		},
-		barrage_ID = {
-			12010
-		}
-	}
-	uv0.weapon_property_118[65389] = {
-		name = "女天狗沙排啾轰炸机Lv9",
-		damage = 238,
-		base = 65381,
-		id = 65389,
-		bullet_ID = {
-			65389
-		},
-		barrage_ID = {
-			12010
-		}
-	}
-	uv0.weapon_property_118[65390] = {
-		name = "女天狗沙排啾轰炸机Lv10",
-		damage = 260,
-		base = 65381,
-		id = 65390,
-		bullet_ID = {
-			65390
 		},
 		barrage_ID = {
 			12010

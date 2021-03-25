@@ -1,5 +1,75 @@
 pg = pg or {}
 pg.equip_data_statistics_400 = {
+	[95526] = {
+		id = 95526,
+		damage = "34/wave",
+		base = 95520,
+		weapon_id = {
+			95526
+		}
+	},
+	[95540] = {
+		name = "Twin 37mm Model 1932 AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 3,
+		descrip = "37mm mounted anti-aircraft guns. Can be used as an AA gun.",
+		value_2 = 25,
+		icon = "55500",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "20/wave",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 95540,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			95540
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"ST",
+			"AA"
+		}
+	},
 	[95541] = {
 		id = 95541,
 		damage = "23/wave",
@@ -303,6 +373,158 @@ pg.equip_data_statistics_400 = {
 		},
 		weapon_id = {
 			630012
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[630021] = {
+		name = "【愚人节活动2021】金布里自卫火炮",
+		tech = 3,
+		speciality = "锁定",
+		type = 2,
+		rarity = 4,
+		value_2 = 0,
+		icon = "12100",
+		value_1 = "0",
+		descrip = "说明未填写",
+		nationality = 1,
+		ammo = 2,
+		value_3 = 0,
+		id = 630021,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			630021
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[630022] = {
+		name = "【愚人节活动2021】金布里特殊弹幕",
+		tech = 3,
+		speciality = "锁定",
+		type = 2,
+		rarity = 4,
+		value_2 = 0,
+		icon = "12100",
+		value_1 = "0",
+		descrip = "说明未填写",
+		nationality = 1,
+		ammo = 2,
+		value_3 = 0,
+		id = 630022,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			630022
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[630023] = {
+		name = "【愚人节活动2021】金布里特殊弹幕",
+		tech = 3,
+		speciality = "锁定",
+		type = 2,
+		rarity = 4,
+		value_2 = 0,
+		icon = "12100",
+		value_1 = "0",
+		descrip = "说明未填写",
+		nationality = 1,
+		ammo = 2,
+		value_3 = 0,
+		id = 630023,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			630023
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[630024] = {
+		name = "【愚人节活动2021】金布里特殊钻头",
+		tech = 3,
+		speciality = "锁定",
+		type = 2,
+		rarity = 4,
+		value_2 = 0,
+		icon = "12100",
+		value_1 = "0",
+		descrip = "说明未填写",
+		nationality = 1,
+		ammo = 2,
+		value_3 = 0,
+		id = 630024,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			630024
 		},
 		skill_id = {},
 		part_main = {

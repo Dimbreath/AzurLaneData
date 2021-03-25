@@ -68,6 +68,7 @@ pg.equip_data_statistics_25 = {
 			ambush_extra = 1200
 		},
 		label = {
+			"HMS",
 			"DEV"
 		}
 	},

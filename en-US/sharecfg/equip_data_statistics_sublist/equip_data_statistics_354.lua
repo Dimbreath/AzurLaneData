@@ -281,6 +281,53 @@ pg.equip_data_statistics_354 = {
 			60612
 		}
 	},
+	[79691] = {
+		name = "专属弹幕-艾伦萨姆纳I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79691,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60621
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79692] = {
+		id = 79692,
+		name = "专属弹幕-艾伦萨姆纳II",
+		base = 79691,
+		weapon_id = {
+			60622
+		}
+	},
 	[85000] = {
 		name = "Twin 130mm B-2LM Main Gun Mount",
 		speciality = "Lock",
@@ -360,22 +407,6 @@ pg.equip_data_statistics_354 = {
 		base = 85000,
 		weapon_id = {
 			85002
-		}
-	},
-	[85003] = {
-		id = 85003,
-		damage = "4 x 6",
-		base = 85000,
-		weapon_id = {
-			85003
-		}
-	},
-	[85004] = {
-		id = 85004,
-		damage = "5 x 6",
-		base = 85000,
-		weapon_id = {
-			85004
 		}
 	}
 }

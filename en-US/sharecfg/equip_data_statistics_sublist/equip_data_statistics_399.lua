@@ -1,5 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_399 = {
+	[95481] = {
+		id = 95481,
+		damage = "39 x 3",
+		base = 95480,
+		weapon_id = {
+			95481
+		}
+	},
+	[95482] = {
+		id = 95482,
+		damage = "56 x 3",
+		base = 95480,
+		weapon_id = {
+			95482
+		}
+	},
 	[95483] = {
 		id = 95483,
 		damage = "62 x 3",
@@ -226,76 +242,6 @@ pg.equip_data_statistics_399 = {
 		base = 95520,
 		weapon_id = {
 			95525
-		}
-	},
-	[95526] = {
-		id = 95526,
-		damage = "34/wave",
-		base = 95520,
-		weapon_id = {
-			95526
-		}
-	},
-	[95540] = {
-		name = "Twin 37mm Model 1932 AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 3,
-		descrip = "37mm mounted anti-aircraft guns. Can be used as an AA gun.",
-		value_2 = 25,
-		icon = "55500",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "20/wave",
-		nationality = 6,
-		ammo = 5,
-		value_3 = 0,
-		id = 95540,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			95540
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"RN",
-			"ST",
-			"AA"
 		}
 	}
 }

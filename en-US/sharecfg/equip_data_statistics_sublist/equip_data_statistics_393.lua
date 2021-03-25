@@ -1,5 +1,75 @@
 pg = pg or {}
 pg.equip_data_statistics_393 = {
+	[95130] = {
+		id = 95130,
+		damage = "90/wave",
+		base = 95120,
+		weapon_id = {
+			95130
+		}
+	},
+	[95140] = {
+		name = "Single 90mm Model 1939 AA Gun",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 45,
+		icon = "55100",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "40/wave",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 95140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			95140
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"ST",
+			"AA"
+		}
+	},
 	[95141] = {
 		id = 95141,
 		damage = "45/wave",
@@ -172,22 +242,6 @@ pg.equip_data_statistics_393 = {
 		base = 95200,
 		weapon_id = {
 			95201
-		}
-	},
-	[95202] = {
-		id = 95202,
-		damage = "21 x 8",
-		base = 95200,
-		weapon_id = {
-			95202
-		}
-	},
-	[95203] = {
-		id = 95203,
-		damage = "22 x 8",
-		base = 95200,
-		weapon_id = {
-			95203
 		}
 	}
 }

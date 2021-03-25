@@ -1,5 +1,318 @@
 pg = pg or {}
 pg.ship_skin_template_3 = {
+	[102230] = {
+		name = "Birmingham",
+		ship_group = 10223,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "Cleveland-class light cruiser – Birmingham, Hull Number CL-62.",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "bominghan",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 102230,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bominghan",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 203,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.088,
+					1.068,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.039,
+					0.032,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.071,
+					1.046,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.183,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[102231] = {
+		name = "Rider of Red",
+		ship_group = 10223,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "Good morning, Commander. Unfortunately, this bicycle only seats one person, but I could dismount and lead it along as we walk together.",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "bominghan_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 4,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "103",
+		skin_type = 0,
+		id = 102231,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bominghan_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70209,
+		voice_actor = 203,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.074,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.032,
+					0.025,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.042,
+					0.98,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.183,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[102232] = {
+		name = "Fruitful Snow of an Auspicious Year",
+		ship_group = 10223,
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "Happy Lunar New Year, Commander. I'm trying out Dragon Empery fashion for a change, though this dress will some getting used to. Hey, uh, do you want to join me under the umbrella? For cover against the snowfall, I mean.",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "bominghan_4",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "1102",
+		shop_type_id = 3,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "144",
+		skin_type = 0,
+		id = 102232,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bominghan_4",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70492,
+		voice_actor = 203,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.993,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.002,
+					1.007,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.375,
+							2.506,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
 	[102240] = {
 		name = "Cleveland μ",
 		ship_group = 10224,
@@ -4472,6 +4785,111 @@ pg.ship_skin_template_3 = {
 			touch_body = 0.66
 		}
 	},
+	[103164] = {
+		name = "Ace's Travel Journal",
+		ship_group = 10316,
+		group_index = 4,
+		illustrator2 = -1,
+		desc = "\"Our meeting here must have been preordained by fate. Hail to you. I am a passing traveler by the name of Baltimore.\" ...Hahah, it's nothing. Just some lines I came up with to match my traditional getup. Did they do the trick, Commander?",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "baerdimo_3",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "1102",
+		shop_type_id = 2,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "142",
+		skin_type = 0,
+		id = 103164,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "baerdimo_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70525,
+		voice_actor = 191,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.176,
+					1.177,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.172,
+					1.204,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.009,
+					0.004,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.433,
+							2.437,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
 	[103240] = {
 		name = "Bremerton",
 		ship_group = 10324,
@@ -6719,446 +7137,6 @@ pg.ship_skin_template_3 = {
 						{
 							-0.45,
 							2.16,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[105191] = {
-		name = "Dressed to Impress",
-		ship_group = 10519,
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "Hey... Is this outfit that strange to you? Thought it looks just like what my sister's wearing... so what are you staring at? I don't get you at all...",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "masazhusai_2",
-		no_showing = "0",
-		air_bullet_skin = "",
-		bg_sp = "",
-		shop_type_id = 7,
-		hand_id = 3,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		bg = "135",
-		skin_type = 0,
-		id = 105191,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "masazhusai_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70371,
-		voice_actor = 131,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.388,
-					1.075,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.358,
-					1.155,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.007,
-					0.002,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.399,
-					1.23,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.16,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[105200] = {
-		name = "Alabama",
-		ship_group = 10520,
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "South Dakota-class battleship – Alabama, Hull Number BB-60.",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "alabama",
-		no_showing = "0",
-		air_bullet_skin = "",
-		bg_sp = "",
-		shop_type_id = 0,
-		hand_id = 3,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		bg = "",
-		skin_type = -1,
-		id = 105200,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "alabama",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 190,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.32,
-					1.339,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.37,
-					1.356,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.17,
-					0.03,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.144,
-					0.875,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.522,
-							2.16,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[106010] = {
-		name = "Long Island",
-		ship_group = 10601,
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "Long Island-class escort carrier – Long Island, Hull Number CVE-1!",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "changdao",
-		no_showing = "0",
-		air_bullet_skin = "",
-		bg_sp = "",
-		shop_type_id = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		bg = "",
-		skin_type = -1,
-		id = 106010,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "changdao",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 45,
-		air_bomb_skin = "",
-		illustrator = 13,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.59,
-					0.597,
-					0
-				}
-			},
-			plane = {
-				{
-					0.59,
-					0.597,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.509,
-							0.442,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.416,
-							0.493,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[106011] = {
-		name = "Long Island - Indoor Slacker",
-		ship_group = 10601,
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "Everyone's favorite and talked-about Long Island, actually has another hidden secret...",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "changdao_2",
-		no_showing = "0",
-		air_bullet_skin = "",
-		bg_sp = "",
-		shop_type_id = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		bg = "",
-		skin_type = 0,
-		id = 106011,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "changdao_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 45,
-		air_bomb_skin = "",
-		illustrator = 13,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.46,
-					0.49,
-					0
-				}
-			},
-			plane = {
-				{
-					0.46,
-					0.49,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.509,
-							0.442,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.416,
-							0.493,
 							0
 						}
 					}

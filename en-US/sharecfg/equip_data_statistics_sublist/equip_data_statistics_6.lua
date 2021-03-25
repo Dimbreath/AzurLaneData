@@ -447,6 +447,7 @@ pg.equip_data_statistics_6 = {
 		part_sub = {},
 		equip_parameters = {},
 		label = {
+			"USS",
 			"DEV"
 		}
 	},

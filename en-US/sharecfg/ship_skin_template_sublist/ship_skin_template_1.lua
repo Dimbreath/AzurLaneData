@@ -6672,6 +6672,109 @@ pg.ship_skin_template_1 = {
 			}
 		}
 	},
+	[101331] = {
+		name = "Budding Painter",
+		ship_group = 10133,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "Tadaaah! All done! How does it look? I think I'm pretty talented as an artist!",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "bushi_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 0,
+		id = 101331,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bushi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70182,
+		voice_actor = 161,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.012,
+					0.73,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.012,
+					0.73,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.36,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.335,
+							2.623,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101340] = {
 		name = "Hazelwood",
 		ship_group = 10134,
@@ -7081,109 +7184,6 @@ pg.ship_skin_template_1 = {
 						{
 							-0.6,
 							2.25,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[101360] = {
-		name = "Hobby",
-		ship_group = 10136,
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "Benson class Destroyer— Hobby, hull number DD-610.",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "huobi",
-		no_showing = "0",
-		air_bullet_skin = "",
-		bg_sp = "",
-		shop_type_id = 0,
-		hand_id = 5,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		bg = "",
-		skin_type = -1,
-		id = 101360,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "huobi",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 151,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.53,
-					1.02,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.45,
-					1.02,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.16,
-					0.09,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.31,
 							0
 						}
 					}

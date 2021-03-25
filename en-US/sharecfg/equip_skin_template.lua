@@ -8716,6 +8716,34 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[398] = {
+		icon = "99911",
+		bullet_name = "paodan_chuitou",
+		name = "Kitty Kabam Hammer",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "It goes glimmer-glammer, sparkely sparkle, and whooshy-kablam, causing an earth-shattering kaboom.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 99,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 398,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
 	[1001] = {
 		icon = "90640",
 		bullet_name = "Nep_bullet_shizi",
@@ -9959,6 +9987,7 @@ pg.equip_skin_template = {
 		395,
 		396,
 		397,
+		398,
 		1001,
 		1002,
 		1003,

@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.equip_data_statistics_390 = {
+	[91012] = {
+		anti_siren = 200,
+		damage = "150 x 3",
+		base = 91000,
+		id = 91012,
+		weapon_id = {
+			91012
+		}
+	},
+	[91013] = {
+		anti_siren = 300,
+		damage = "150 x 3",
+		base = 91000,
+		id = 91013,
+		weapon_id = {
+			91013
+		}
+	},
 	[95000] = {
 		name = "Triple 381mm M1934 Main Gun Mount",
 		speciality = "Volley",
@@ -207,22 +225,6 @@ pg.equip_data_statistics_390 = {
 		base = 95020,
 		weapon_id = {
 			95027
-		}
-	},
-	[95028] = {
-		id = 95028,
-		damage = "117 x 3",
-		base = 95020,
-		weapon_id = {
-			95028
-		}
-	},
-	[95029] = {
-		id = 95029,
-		damage = "126 x 3",
-		base = 95020,
-		weapon_id = {
-			95029
 		}
 	}
 }

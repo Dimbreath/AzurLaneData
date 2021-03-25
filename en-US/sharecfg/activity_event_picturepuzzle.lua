@@ -1,11 +1,10 @@
 pg = pg or {}
 pg.activity_event_picturepuzzle = {
 	[549] = {
-		define = 0,
-		cd = 1200,
-		drop = 92889,
-		chapter = 1360001,
 		id = 549,
+		cd = 1200,
+		define = 0,
+		chapter = 1360001,
 		pickup_picturepuzzle = {
 			60031,
 			60033,
@@ -46,14 +45,14 @@ pg.activity_event_picturepuzzle = {
 				60038,
 				1
 			}
-		}
+		},
+		auto_finish_args = {}
 	},
 	[758] = {
-		define = 0,
-		cd = 0,
-		drop = 94005,
-		chapter = 0,
 		id = 758,
+		cd = 0,
+		define = 0,
+		chapter = 0,
 		pickup_picturepuzzle = {},
 		drop_picturepuzzle = {
 			70053,
@@ -70,14 +69,14 @@ pg.activity_event_picturepuzzle = {
 			70064
 		},
 		story = {},
-		awards = {}
+		awards = {},
+		auto_finish_args = {}
 	},
 	[783] = {
-		define = 0,
-		cd = 0,
-		drop = 94156,
-		chapter = 0,
 		id = 783,
+		cd = 0,
+		define = 0,
+		chapter = 0,
 		pickup_picturepuzzle = {},
 		drop_picturepuzzle = {
 			70077,
@@ -96,14 +95,14 @@ pg.activity_event_picturepuzzle = {
 			70066
 		},
 		story = {},
-		awards = {}
+		awards = {},
+		auto_finish_args = {}
 	},
-	[30378] = {
-		define = 0,
+	[935] = {
+		id = 935,
 		cd = 1200,
-		drop = 92889,
+		define = 0,
 		chapter = 1360001,
-		id = 30378,
 		pickup_picturepuzzle = {
 			60031,
 			60033,
@@ -144,14 +143,65 @@ pg.activity_event_picturepuzzle = {
 				60038,
 				1
 			}
+		},
+		auto_finish_args = {
+			1,
+			100001
 		}
 	},
-	[30751] = {
+	[30378] = {
+		id = 30378,
+		cd = 1200,
 		define = 0,
-		cd = 0,
-		drop = 94005,
-		chapter = 0,
+		chapter = 1360001,
+		pickup_picturepuzzle = {
+			60031,
+			60033,
+			60035,
+			60037,
+			60038
+		},
+		drop_picturepuzzle = {
+			60030,
+			60032,
+			60034,
+			60036
+		},
+		story = {},
+		awards = {
+			{
+				8,
+				60031,
+				1
+			},
+			{
+				8,
+				60033,
+				1
+			},
+			{
+				8,
+				60035,
+				1
+			},
+			{
+				8,
+				60037,
+				1
+			},
+			{
+				8,
+				60038,
+				1
+			}
+		},
+		auto_finish_args = {}
+	},
+	[30751] = {
 		id = 30751,
+		cd = 0,
+		define = 0,
+		chapter = 0,
 		pickup_picturepuzzle = {},
 		drop_picturepuzzle = {
 			70053,
@@ -168,14 +218,14 @@ pg.activity_event_picturepuzzle = {
 			70064
 		},
 		story = {},
-		awards = {}
+		awards = {},
+		auto_finish_args = {}
 	},
 	[30774] = {
-		define = 0,
-		cd = 0,
-		drop = 94156,
-		chapter = 0,
 		id = 30774,
+		cd = 0,
+		define = 0,
+		chapter = 0,
 		pickup_picturepuzzle = {},
 		drop_picturepuzzle = {
 			70077,
@@ -194,12 +244,14 @@ pg.activity_event_picturepuzzle = {
 			70066
 		},
 		story = {},
-		awards = {}
+		awards = {},
+		auto_finish_args = {}
 	},
 	all = {
 		549,
 		758,
 		783,
+		935,
 		30378,
 		30751,
 		30774

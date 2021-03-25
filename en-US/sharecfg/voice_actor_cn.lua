@@ -1059,5 +1059,13 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Kozakai  Yurie",
 		code = 265
+	},
+	{
+		actor_name = "Ogino Hazuki ",
+		code = 266
+	},
+	{
+		actor_name = "Sugiura Shiori ",
+		code = 267
 	}
 }

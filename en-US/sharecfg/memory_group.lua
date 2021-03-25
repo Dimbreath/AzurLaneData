@@ -2600,6 +2600,21 @@ pg.memory_group = {
 			1577
 		}
 	},
+	[557] = {
+		title = "Denver's Quest!",
+		type = 3,
+		id = 557,
+		icon = "title_chara_danfo",
+		memories = {
+			1581,
+			1582,
+			1583,
+			1584,
+			1585,
+			1586,
+			1587
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2746,6 +2761,7 @@ pg.memory_group = {
 		553,
 		554,
 		555,
-		556
+		556,
+		557
 	}
 }

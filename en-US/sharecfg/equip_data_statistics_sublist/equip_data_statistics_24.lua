@@ -34,6 +34,7 @@ pg.equip_data_statistics_24 = {
 		part_sub = {},
 		equip_parameters = {},
 		label = {
+			"USS",
 			"DEV"
 		}
 	},
@@ -80,6 +81,7 @@ pg.equip_data_statistics_24 = {
 		part_sub = {},
 		equip_parameters = {},
 		label = {
+			"USS",
 			"DEV"
 		}
 	},
@@ -141,6 +143,7 @@ pg.equip_data_statistics_24 = {
 		part_sub = {},
 		equip_parameters = {},
 		label = {
+			"USS",
 			"DEV"
 		}
 	},

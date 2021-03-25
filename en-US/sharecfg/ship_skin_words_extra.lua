@@ -3936,16 +3936,75 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
-	[9707020] = {
+	[101450] = {
 		touch = "",
 		feeling3 = "",
-		win_mvp = "",
 		upgrade = "",
 		expedition = "",
 		home = "",
-		mission = "",
 		touch2 = "",
-		id = 9707020,
+		id = 101450,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		main = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"Hwuh?! Wait, did I fall asleep? *yawn*... I might just call in sick today. Too lazy."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"This victory's for me and you, Commander! Ahaha!"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"I'm givin' it one-hundo percent!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"You could go for some cuddling? Don't mind if I do! We're gonna cuddle 'till dawn breaks!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"What do you mean \"please help\"? I'm your secretary, just tell me \"get this done\" like a commander would! ...Right, I'm on it."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"A new mission? I could help, if you want. I'll get it done in a jiffy!"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Beep boop, this is an automated deadpan mission reminder. Mission rewards detected. Go claim them. Beep boop."
+			}
+		}
+	},
+	[101460] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		touch2 = "",
+		id = 101460,
 		feeling1 = "",
 		unlock = "",
 		mail = "",
@@ -3958,12 +4017,34 @@ pg.ship_skin_words_extra = {
 		headtouch = "",
 		feeling2 = "",
 		battle = "",
-		login = "",
-		detail = "",
+		login = {
+			{
+				1100,
+				"Welcome back to the little bit o' heaven known as \"the office.\" Of course, heaven is wherever I am, right?"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Meh. Can't afford to let you down, and all that jazz."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Got something you need from me? Sure, just say the word and you got it. Not a whole lot going on anyway, so maybe I'll do you a little favor~"
+			}
+		},
 		main_extra = {
 			{
 				1100,
-				"It's only human to want to protect your loved ones. You'll come to understand it one day, Commander.|What are lovable things for, if not being loved with all one's heart? The takeaway is: be honest with yourself, and you'll live longer."
+				"Listening to music really puts you in that efficient state. Oh, I was talking about gaming. I'm fallin' asleep over here at work anyway, so what's the harm in enjoying some beats?|Commander's jacket... *sniff, sniff*... Great, nice and clean. Go, me!"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"We've got new missions! Gotta do this stuff sooner or later, so why not get it outta the way now?"
 			}
 		}
 	},
@@ -4034,6 +4115,7 @@ pg.ship_skin_words_extra = {
 		703010,
 		702040,
 		705040,
-		9707020
+		101450,
+		101460
 	}
 }

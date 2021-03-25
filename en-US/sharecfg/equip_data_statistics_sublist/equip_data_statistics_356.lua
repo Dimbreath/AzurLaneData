@@ -1,5 +1,76 @@
 pg = pg or {}
 pg.equip_data_statistics_356 = {
+	[85053] = {
+		anti_siren = 300,
+		damage = "15 x 6",
+		base = 85040,
+		id = 85053,
+		weapon_id = {
+			85053
+		}
+	},
+	[85060] = {
+		name = "Twin 100mm SM-5-1s AA Gun",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 1,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "85060",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "35/wave",
+		nationality = 7,
+		ammo = 5,
+		value_3 = 0,
+		id = 85060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			85060
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
 	[85061] = {
 		id = 85061,
 		damage = "40/wave",
@@ -219,22 +290,6 @@ pg.equip_data_statistics_356 = {
 		base = 85140,
 		weapon_id = {
 			85141
-		}
-	},
-	[85142] = {
-		id = 85142,
-		damage = "7 x 6",
-		base = 85140,
-		weapon_id = {
-			85142
-		}
-	},
-	[85143] = {
-		id = 85143,
-		damage = "8 x 6",
-		base = 85140,
-		weapon_id = {
-			85143
 		}
 	}
 }

@@ -2,6 +2,55 @@ pg = pg or {}
 pg.weapon_property_113 = {}
 
 function ()
+	uv0.weapon_property_113[61013] = {
+		action_index = "",
+		range = 40,
+		type = 3,
+		fire_fx = "zhupao",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "皇家方舟技能鱼雷机使用武器LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 35,
+		charge_param = "",
+		damage = 70,
+		corrected = 100,
+		min_range = 22,
+		id = 61013,
+		attack_attribute_ratio = 120,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 11954,
+		queue = 1,
+		search_type = 2,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19927
+		},
+		barrage_ID = {
+			12001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_113[61014] = {
+		id = 61014,
+		name = "皇家方舟技能鱼雷机使用武器LV2",
+		base = 61013
+	}
 	uv0.weapon_property_113[61015] = {
 		id = 61015,
 		name = "皇家方舟技能鱼雷机使用武器LV3",
@@ -1591,24 +1640,6 @@ function ()
 		id = 65068,
 		bullet_ID = {
 			65068
-		}
-	}
-	uv0.weapon_property_113[65069] = {
-		name = "普林斯顿鱼雷机弹幕LV9",
-		damage = 191,
-		base = 65061,
-		id = 65069,
-		bullet_ID = {
-			65069
-		}
-	}
-	uv0.weapon_property_113[65070] = {
-		name = "普林斯顿鱼雷机弹幕LV10",
-		damage = 207,
-		base = 65061,
-		id = 65070,
-		bullet_ID = {
-			65070
 		}
 	}
 end()

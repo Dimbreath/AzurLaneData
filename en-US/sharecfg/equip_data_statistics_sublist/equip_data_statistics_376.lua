@@ -1,5 +1,19 @@
 pg = pg or {}
 pg.equip_data_statistics_376 = {
+	[89272] = {
+		id = 89272,
+		anti_siren = 200,
+		base = 89260,
+		value_2 = 34,
+		value_1 = "41"
+	},
+	[89273] = {
+		id = 89273,
+		anti_siren = 300,
+		base = 89260,
+		value_2 = 36,
+		value_1 = "44"
+	},
 	[90000] = {
 		name = "Single 130mm Mle 1924 Naval Gun",
 		speciality = "Lock",
@@ -290,80 +304,6 @@ pg.equip_data_statistics_376 = {
 		base = 90040,
 		weapon_id = {
 			90046
-		}
-	},
-	[90047] = {
-		id = 90047,
-		damage = "8 x 5",
-		base = 90040,
-		weapon_id = {
-			90047
-		}
-	},
-	[90100] = {
-		name = "Single 138.6mm Mle 1929 Naval Gun",
-		speciality = "Lock",
-		type = 1,
-		tech = 1,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "50100",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "4 x 5",
-		nationality = 8,
-		ammo = 3,
-		value_3 = 0,
-		id = 90100,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2200
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2200
-			},
-			{
-				4,
-				1021
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90100
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"DD",
-			"MG"
 		}
 	}
 }

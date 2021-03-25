@@ -128,6 +128,24 @@ function slot0.DelayCall(slot0, slot1, slot2)
 	slot0.timers[slot2]:Start()
 end
 
+function slot0.UnscaleDelayCall(slot0, slot1, slot2)
+	if slot1 <= 0 then
+		slot2()
+
+		return
+	end
+
+	slot0.timers[slot2] = Timer.New(function ()
+		uv0.timers[uv1]:Stop()
+
+		uv0.timers[uv1] = nil
+
+		uv1()
+	end, slot1, 1)
+
+	slot0.timers[slot2]:Start()
+end
+
 function slot0.CreateDelayTimer(slot0, slot1, slot2)
 	if slot1 == 0 then
 		slot2()

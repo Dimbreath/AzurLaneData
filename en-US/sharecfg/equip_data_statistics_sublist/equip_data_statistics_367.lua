@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.equip_data_statistics_367 = {
+	[89053] = {
+		id = 89053,
+		anti_siren = 300,
+		base = 89040,
+		value_2 = 8,
+		value_1 = "290"
+	},
+	[89060] = {
+		name = "Team Emblem",
+		tech = 0,
+		type = 10,
+		speciality = "N/A",
+		id = 89060,
+		value_2 = 16,
+		icon = "89060",
+		value_1 = "6",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "It started out as the design for a team emblem, but it's kind of... changed.",
+		nationality = 105,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6490
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
 	[89061] = {
 		id = 89061,
 		value_1 = "7",
@@ -116,16 +157,6 @@ pg.equip_data_statistics_367 = {
 	[89081] = {
 		id = 89081,
 		value_1 = "280",
-		base = 89080
-	},
-	[89082] = {
-		id = 89082,
-		value_1 = "310",
-		base = 89080
-	},
-	[89083] = {
-		id = 89083,
-		value_1 = "340",
 		base = 89080
 	}
 }

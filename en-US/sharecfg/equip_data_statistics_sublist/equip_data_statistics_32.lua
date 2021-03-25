@@ -68,6 +68,7 @@ pg.equip_data_statistics_32 = {
 			ambush_extra = 800
 		},
 		label = {
+			"USS",
 			"DEV",
 			"SG"
 		}
@@ -193,6 +194,7 @@ pg.equip_data_statistics_32 = {
 			ambush_extra = 1200
 		},
 		label = {
+			"USS",
 			"DEV",
 			"SG"
 		}

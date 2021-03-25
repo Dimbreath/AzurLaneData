@@ -109,6 +109,7 @@ pg.equip_data_statistics_38 = {
 		part_sub = {},
 		equip_parameters = {},
 		label = {
+			"SN",
 			"DEV"
 		}
 	},

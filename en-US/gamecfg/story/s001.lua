@@ -3,7 +3,7 @@ return {
 	mode = 2,
 	scripts = {
 		{
-			actor = 900004,
+			actor = 900312,
 			nameColor = "#fff157",
 			side = 0,
 			say = "Intelligence reports that the Iron blood's newest battleships are set to sail through this area. If we surprise them here, the Queen will surely reward us upon our return!",
@@ -57,7 +57,7 @@ return {
 			}
 		},
 		{
-			actor = 900004,
+			actor = 900312,
 			nameColor = "#a9f548",
 			expression = "4",
 			side = 0,
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			actor = 900004,
+			actor = 900312,
 			nameColor = "#a9f548",
 			expression = "5",
 			side = 0,
@@ -131,7 +131,7 @@ return {
 			}
 		},
 		{
-			actor = 900004,
+			actor = 900312,
 			nameColor = "#a9f548",
 			expression = "9",
 			side = 0,
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			actor = 900004,
+			actor = 900312,
 			nameColor = "#a9f548",
 			side = 0,
 			say = "Iron blood destroyer squadron detected ahead! Maybe it's just a few scouts? Report to Hood immediately!",
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 900004,
+			actor = 900312,
 			nameColor = "#a9f548",
 			expression = "10",
 			side = 0,

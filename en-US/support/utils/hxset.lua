@@ -4,8 +4,10 @@ HXSet = {
 
 if PLATFORM_CODE == PLATFORM_CH then
 	slot0.codeMode = false
+	slot0.antiSkinMode = true
 else
 	slot0.codeMode = true
+	slot0.antiSkinMode = true
 end
 
 slot0.nameCodeMap = {}
@@ -35,11 +37,24 @@ function slot0.init()
 		slot0 = nil
 
 		if PathMgr.FileExists((not Application.isEditor or PathMgr.getAssetBundle("../localization.txt")) and Application.persistentDataPath .. "/localization.txt") then
-			if string.gsub(PathMgr.ReadAllText(slot0), "%w+%s*=%s*", "") == "true" then
+			if string.gsub(PathMgr.ReadAllLines(slot0)[0], "%w+%s*=%s*", "") == "true" then
 				uv0.codeMode = true
 			end
+
+			if slot1.Length <= 1 then
+				System.IO.File.WriteAllLines(slot0, {
+					slot1[0],
+					"Localization_skin = false"
+				})
+			else
+				slot2 = slot1[1]
+			end
+
+			if string.gsub(slot2, "[_%w]+%s*=%s*", "") == "true" then
+				uv0.antiSkinMode = true
+			end
 		else
-			System.IO.File.WriteAllText(slot0, "Localization = false")
+			System.IO.File.WriteAllText(slot0, "Localization = false\nLocalization_skin = false")
 		end
 	end
 end
@@ -153,6 +168,10 @@ end
 
 function slot0.isHx()
 	return not uv0.codeMode
+end
+
+function slot0.isHxSkin()
+	return not uv0.antiSkinMode
 end
 
 slot0.hxPathList = {

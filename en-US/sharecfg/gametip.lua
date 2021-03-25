@@ -7617,7 +7617,7 @@ Combat Details:
 		tip = "This Meowfficer does not have any Talent Points."
 	},
 	buildship_new_tip = {
-		tip = "Rate UP for Sovetskaya Belorussiya, Kirov, and more!"
+		tip = "Rate up for Baltimore, Allen M. Sumner, and more!"
 	},
 	buildship_heavy_tip = {
 		tip = "Jean Bart, Massaschusetts and others are added to standard build pool! "
@@ -10453,6 +10453,12 @@ Note: You may only get one hint every 20 minutes.
 to earn special rewards.]]
 			}
 		}
+	},
+	super_bulin = {
+		tip = "Would you like to proceed to the bonus stage?"
+	},
+	super_bulin_tip = {
+		tip = "Tap here to get bonking, bulin!"
 	},
 	bulin_tip1 = {
 		tip = "Sortie nya! Target 1-2 nya!"

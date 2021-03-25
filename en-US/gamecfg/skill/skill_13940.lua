@@ -21,16 +21,10 @@ return {
 			casterAniEffect = "",
 			type = "BattleSkillAddBuff",
 			target_choise = {
-				"TargetAllHelp",
-				"TargetNationality",
-				"TargetShipType"
+				"TargetSelf"
 			},
 			arg_list = {
-				buff_id = 13942,
-				nationality = 4,
-				ship_type_list = {
-					8
-				}
+				buff_id = 13942
 			}
 		}
 	}

@@ -3596,6 +3596,34 @@ pg.skill_data_display = {
 		id = 14261,
 		name = "From Merkuria With Love! "
 	},
+	[14270] = {
+		id = 14270,
+		name = "Shooting Gun-Star"
+	},
+	[14271] = {
+		id = 14271,
+		name = "Shooting Gun-Star"
+	},
+	[14280] = {
+		id = 14280,
+		name = "Bang for Your Buck"
+	},
+	[14281] = {
+		id = 14281,
+		name = "Bang for Your Buck"
+	},
+	[14282] = {
+		id = 14282,
+		name = "Bang for Your Buck"
+	},
+	[14290] = {
+		id = 14290,
+		name = "Whimsical Protector"
+	},
+	[14291] = {
+		id = 14291,
+		name = "Whimsical Protector"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -5128,6 +5156,14 @@ pg.skill_data_display = {
 		id = 29572,
 		name = "All Out Assault Ⅱ"
 	},
+	[29691] = {
+		id = 29691,
+		name = "All Out Assault Ⅰ"
+	},
+	[29692] = {
+		id = 29692,
+		name = "All Out Assault Ⅱ"
+	},
 	[39000] = {
 		id = 39000,
 		name = "Optimize I"
@@ -6528,6 +6564,13 @@ pg.skill_data_display = {
 		14251,
 		14260,
 		14261,
+		14270,
+		14271,
+		14280,
+		14281,
+		14282,
+		14290,
+		14291,
 		18010,
 		18040,
 		18041,
@@ -6911,6 +6954,8 @@ pg.skill_data_display = {
 		29562,
 		29571,
 		29572,
+		29691,
+		29692,
 		39000,
 		39001,
 		39002,

@@ -46434,6 +46434,414 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[14270] = {
+		desc_get = "",
+		name = "Shooting Gun-Star",
+		type = 1,
+		max_level = 10,
+		desc = "Decreases the Burn duration inflicted on this ship by 3s and increases DMG dealt to Light Armor enemies by $1. Every 20s: 70.0% chance to fire a $3 special barrage (DMG is based on the skill's level) and increase your fleet's AA by $2 for 8s.",
+		id = 14270,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[14280] = {
+		desc_get = "",
+		name = "Bang for Your Buck",
+		type = 3,
+		max_level = 10,
+		desc = "When there is at least 1 more Eagle Union ship in the same fleet as this ship or when this ship has sunk 2 or more enemies: increases this ship's TRP and AA by $1 until the end of the battle. When this ship equips Eagle Union gear: in battle, this ship additionally equips a special $2 AA gun (Special AA gun DMG is based on the skill's level).",
+		id = 14280,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[14290] = {
+		desc_get = "",
+		name = "Whimsical Protector",
+		type = 3,
+		max_level = 10,
+		desc = "At the start of the battle: increases this ship's AA and EVA by $1 for 60s. While there are 3 ships in your Vanguard and this ship is in the middle position: decreases DMG taken by your Vanguard's frontmost ship by $2 for 50s, and increases DMG dealt by your Vanguard's backmost ship by $3 for 50s.",
+		id = 14290,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells 194/160+",
@@ -55387,7 +55795,7 @@ pg.skill_data_template = {
 		name = "EX Barrage - Kirov I",
 		type = 1,
 		max_level = 1,
-		desc = "Activates EX Barrage - Kirov I/II every 12 times the Main /Guns are fired.",
+		desc = "Activates EX Barrage - Kirov I every 12 times the Main /Guns are fired.",
 		id = 29681,
 		system_transform = {},
 		world_death_mark = {
@@ -55401,8 +55809,36 @@ pg.skill_data_template = {
 		name = "EX Barrage - Kirov II",
 		type = 1,
 		max_level = 1,
-		desc = "Activates EX Barrage - Kirov I/II every 8 times the Main /Guns are fired.",
+		desc = "Activates EX Barrage - Kirov II every 8 times the Main /Guns are fired.",
 		id = 29682,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29691] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All-Out Assault I: Allen M. Sumner-class every 15 times the Main Guns are fired.",
+		id = 29691,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29692] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All-Out Assault II: Allen M. Sumner-class every 10 times the Main Guns are fired.",
+		id = 29692,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -61598,6 +62034,9 @@ pg.skill_data_template = {
 		14240,
 		14250,
 		14260,
+		14270,
+		14280,
+		14290,
 		18010,
 		18040,
 		18050,
@@ -61980,6 +62419,8 @@ pg.skill_data_template = {
 		29672,
 		29681,
 		29682,
+		29691,
+		29692,
 		101010,
 		101020,
 		101030,

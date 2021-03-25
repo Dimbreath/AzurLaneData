@@ -134,4 +134,11 @@ function slot0.loadLayer(slot0, slot1, slot2, slot3)
 	})
 end
 
+function slot0.LoadLayerOnTopContext(slot0)
+	pg.m02:sendNotification(GAME.LOAD_LAYERS, {
+		parentContext = getProxy(ContextProxy):getCurrentContext(),
+		context = slot0
+	})
+end
+
 return slot0

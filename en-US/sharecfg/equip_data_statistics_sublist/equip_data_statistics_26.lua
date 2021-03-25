@@ -68,6 +68,7 @@ pg.equip_data_statistics_26 = {
 		},
 		equip_parameters = {},
 		label = {
+			"USS",
 			"DEV"
 		}
 	},
@@ -132,6 +133,7 @@ pg.equip_data_statistics_26 = {
 		},
 		equip_parameters = {},
 		label = {
+			"USS",
 			"DEV"
 		}
 	},
@@ -216,6 +218,7 @@ pg.equip_data_statistics_26 = {
 		},
 		equip_parameters = {},
 		label = {
+			"USS",
 			"DEV"
 		}
 	},

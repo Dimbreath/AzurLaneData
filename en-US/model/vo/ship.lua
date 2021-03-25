@@ -601,7 +601,12 @@ function slot0.Ctor(slot0, slot1)
 	end
 
 	slot0.maxIntimacy = pg.intimacy_template[#pg.intimacy_template.all].upper_bound
-	slot0.skinId = slot1.skin_id or 0
+
+	if not HXSet.isHxSkin() then
+		slot0.skinId = slot1.skin_id or 0
+	else
+		slot0.skinId = 0
+	end
 
 	if slot0.skinId == 0 then
 		slot0.skinId = slot0:getConfig("skin_id")

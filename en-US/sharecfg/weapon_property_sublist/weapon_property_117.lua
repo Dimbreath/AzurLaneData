@@ -2,6 +2,16 @@ pg = pg or {}
 pg.weapon_property_117 = {}
 
 function ()
+	uv0.weapon_property_117[65269] = {
+		id = 65269,
+		damage = 135,
+		base = 65261
+	}
+	uv0.weapon_property_117[65270] = {
+		id = 65270,
+		damage = 145,
+		base = 65261
+	}
 	uv0.weapon_property_117[65271] = {
 		action_index = "attack",
 		range = 100,
@@ -642,18 +652,6 @@ function ()
 		id = 65328,
 		name = "穗香弹幕LV8-类佐治亚超重弹2枚-PVP",
 		damage = 146,
-		base = 65321
-	}
-	uv0.weapon_property_117[65329] = {
-		id = 65329,
-		name = "穗香弹幕LV9-类佐治亚超重弹2枚-PVP",
-		damage = 158,
-		base = 65321
-	}
-	uv0.weapon_property_117[65330] = {
-		id = 65330,
-		name = "穗香弹幕LV10-类佐治亚超重弹2枚-PVP",
-		damage = 170,
 		base = 65321
 	}
 end()

@@ -46,6 +46,18 @@ function slot8.RemoveCrewUnit(slot0, slot1)
 	end
 end
 
+function slot8.FlushCrewUnit(slot0, slot1)
+	if #slot1:GetFleetAntiAirList() <= 0 then
+		slot0:RemoveCrewUnit(slot1)
+	elseif slot0._crewUnitList[slot1] == nil then
+		slot0:AppendCrewUnit(slot1)
+	else
+		slot0._crewUnitList[slot1] = slot2
+
+		slot0:flush()
+	end
+end
+
 function slot8.SwitchHost(slot0, slot1)
 	slot0._host = slot1
 end

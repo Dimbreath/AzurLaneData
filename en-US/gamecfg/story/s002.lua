@@ -21,7 +21,7 @@ return {
 			}
 		},
 		{
-			actor = 900004,
+			actor = 900312,
 			nameColor = "#a9f548",
 			expression = "11",
 			side = 1,
@@ -63,7 +63,7 @@ return {
 			side = 0,
 			say = "Danger!!! Enemies at starboard!!! Two large warships detected at 220 degrees... New Iron blood battleship spotted! All personnel, get ready to fight!",
 			expression = "13",
-			actor = 900004,
+			actor = 900312,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,

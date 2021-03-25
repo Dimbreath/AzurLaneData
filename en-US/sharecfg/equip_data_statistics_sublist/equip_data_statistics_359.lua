@@ -1,5 +1,75 @@
 pg = pg or {}
 pg.equip_data_statistics_359 = {
+	[85220] = {
+		name = "Single 37mm 70-K AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "85180",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "14/wave",
+		nationality = 7,
+		ammo = 5,
+		value_3 = 0,
+		id = 85220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			85220
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85221] = {
+		id = 85221,
+		damage = "17/wave",
+		base = 85220,
+		weapon_id = {
+			85221
+		}
+	},
 	[85222] = {
 		id = 85222,
 		damage = "20/wave",
@@ -173,22 +243,6 @@ pg.equip_data_statistics_359 = {
 		base = 85260,
 		weapon_id = {
 			85264
-		}
-	},
-	[85265] = {
-		id = 85265,
-		damage = "66/wave",
-		base = 85260,
-		weapon_id = {
-			85265
-		}
-	},
-	[85266] = {
-		id = 85266,
-		damage = "73/wave",
-		base = 85260,
-		weapon_id = {
-			85266
 		}
 	}
 }

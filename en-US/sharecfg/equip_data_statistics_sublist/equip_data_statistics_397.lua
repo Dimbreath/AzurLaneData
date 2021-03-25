@@ -1,5 +1,22 @@
 pg = pg or {}
 pg.equip_data_statistics_397 = {
+	[95350] = {
+		id = 95350,
+		damage = "46 x 6",
+		base = 95340,
+		weapon_id = {
+			95350
+		}
+	},
+	[95351] = {
+		anti_siren = 100,
+		damage = "46 x 6",
+		base = 95340,
+		id = 95351,
+		weapon_id = {
+			95351
+		}
+	},
 	[95400] = {
 		name = "Twin 120mm M1936 Main Gun Mount",
 		speciality = "Lock",
@@ -293,22 +310,6 @@ pg.equip_data_statistics_397 = {
 		base = 95440,
 		weapon_id = {
 			95443
-		}
-	},
-	[95444] = {
-		id = 95444,
-		damage = "10 x 4",
-		base = 95440,
-		weapon_id = {
-			95444
-		}
-	},
-	[95445] = {
-		id = 95445,
-		damage = "11 x 4",
-		base = 95440,
-		weapon_id = {
-			95445
 		}
 	}
 }

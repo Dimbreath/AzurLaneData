@@ -248,7 +248,11 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 			end
 		end
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_PUZZLA then
-		slot3.data1 = 1
+		if slot1.cmd == 1 then
+			slot3.data1 = 1
+		elseif slot1.cmd == 4 then
+			slot3.data1 = 2
+		end
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_VOTE then
 		if slot1.cmd == 1 then
 			getProxy(VoteProxy):getVoteGroup():voteShip(slot1.arg2)

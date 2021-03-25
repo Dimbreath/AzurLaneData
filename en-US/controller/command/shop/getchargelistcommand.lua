@@ -44,6 +44,10 @@ function slot0.execute(slot0, slot1)
 			normalList = slot3,
 			normalGroupList = slot4
 		})
+
+		if uv1 and uv1.callback then
+			uv1.callback()
+		end
 	end)
 end
 

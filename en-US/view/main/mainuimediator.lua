@@ -451,13 +451,6 @@ function slot0.register(slot0)
 
 	slot0.viewComponent:updateVoteBtn(slot7:GetVoteActivity(), getProxy(VoteProxy):GetOrderBook())
 	slot0.viewComponent:ResetActivityBtns()
-
-	if PlayerPrefs.GetInt("Ever_Enter_Mall_" .. Goods.CUR_PACKET_ID, 0) == 0 then
-		slot0:sendNotification(GAME.GET_CHARGE_LIST)
-	else
-		slot0.viewComponent:updateMallBtnSellTag()
-	end
-
 	slot0:bind(uv0.LOG_OUT, function (slot0, slot1)
 		uv0:sendNotification(GAME.LOGOUT, {
 			code = 0
@@ -671,7 +664,6 @@ function slot0.listNotificationInterests(slot0)
 		GAME.SEND_MINI_GAME_OP_DONE,
 		GAME.ON_OPEN_INS_LAYER,
 		PileGameConst.OPEN_PILEGAME,
-		ShopsProxy.CHARGED_LIST_UPDATED,
 		GAME.ZERO_HOUR_OP_DONE,
 		GAME.GET_GUILD_INFO_DONE,
 		GAME.GUILD_GET_USER_INFO_DONE
@@ -829,9 +821,6 @@ function slot0.handleNotification(slot0, slot1)
 		slot5 = slot3.argList[2]
 
 		slot0:getViewComponent():HandleMiniGameBtns()
-	elseif slot2 == ShopsProxy.CHARGED_LIST_UPDATED then
-		slot0.viewComponent:updateMallBtnSellTag(slot3)
-		slot0.viewComponent:UpdateMallBtnMonthcardTag()
 	elseif slot2 == GAME.ZERO_HOUR_OP_DONE then
 		slot0.viewComponent:UpdateActivityBtn("activity_map_btn")
 	elseif slot2 == GAME.GET_GUILD_INFO_DONE then

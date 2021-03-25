@@ -59,7 +59,7 @@ pg.world_chapter_random = {
 		target_drop_show = {}
 	},
 	{
-		name = "Gibralar ",
+		name = "Gibraltar",
 		complete_effect = 1,
 		enter_cost = 0,
 		entrance_mapicon = "port3",
