@@ -7602,7 +7602,7 @@ $3]]
 		tip = "天赋点不足"
 	},
 	buildship_new_tip = {
-		tip = "苏维埃贝拉罗斯、基洛夫 等角色建造概率UP！"
+		tip = "阿拉巴马、巴尔的摩、艾伦·萨姆纳 等角色建造概率UP！"
 	},
 	buildship_heavy_tip = {
 		tip = "{namecode:161}、{namecode:81}、{namecode:92} 等角色建造追加！"
@@ -10577,6 +10577,12 @@ TIPS：
 得胜利可以获得特殊奖励]]
 			}
 		}
+	},
+	super_bulin = {
+		tip = "是否挑战特殊关卡？"
+	},
+	super_bulin_tip = {
+		tip = "点这里接受我的额外挑战burin！"
 	},
 	bulin_tip1 = {
 		tip = "出击喵！目标1-2喵！"

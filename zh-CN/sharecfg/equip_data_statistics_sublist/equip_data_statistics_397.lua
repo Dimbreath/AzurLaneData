@@ -1,5 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_397 = {
+	[95345] = {
+		id = 95345,
+		damage = "36 x 6",
+		base = 95340,
+		weapon_id = {
+			95345
+		}
+	},
+	[95346] = {
+		id = 95346,
+		damage = "38 x 6",
+		base = 95340,
+		weapon_id = {
+			95346
+		}
+	},
 	[95347] = {
 		id = 95347,
 		damage = "40 x 6",
@@ -235,81 +251,6 @@ pg.equip_data_statistics_397 = {
 		base = 95420,
 		weapon_id = {
 			95425
-		}
-	},
-	[95426] = {
-		id = 95426,
-		damage = "11 x 4",
-		base = 95420,
-		weapon_id = {
-			95426
-		}
-	},
-	[95440] = {
-		name = "双联装120mm炮Model1936",
-		speciality = "锁定",
-		type = 1,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "55400",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "6 x 4",
-		nationality = 6,
-		ammo = 3,
-		value_3 = 0,
-		id = 95440,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2300
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2300
-			},
-			{
-				4,
-				1022
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			95440
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"RN",
-			"DD",
-			"MG",
-			"AP"
 		}
 	}
 }

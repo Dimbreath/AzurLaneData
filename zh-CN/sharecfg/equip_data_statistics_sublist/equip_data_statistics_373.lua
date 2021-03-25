@@ -1,5 +1,19 @@
 pg = pg or {}
 pg.equip_data_statistics_373 = {
+	[89192] = {
+		id = 89192,
+		anti_siren = 200,
+		base = 89180,
+		value_2 = 34,
+		value_1 = "41"
+	},
+	[89193] = {
+		id = 89193,
+		anti_siren = 300,
+		base = 89180,
+		value_2 = 36,
+		value_1 = "44"
+	},
 	[89200] = {
 		name = "引力舞鞋",
 		tech = 0,
@@ -145,15 +159,5 @@ pg.equip_data_statistics_373 = {
 		label = {
 			"DEV"
 		}
-	},
-	[89221] = {
-		id = 89221,
-		value_1 = "280",
-		base = 89220
-	},
-	[89222] = {
-		id = 89222,
-		value_1 = "310",
-		base = 89220
 	}
 }

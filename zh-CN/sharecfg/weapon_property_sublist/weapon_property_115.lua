@@ -2,6 +2,30 @@ pg = pg or {}
 pg.weapon_property_115 = {}
 
 function ()
+	uv0.weapon_property_115[65129] = {
+		name = "恶毒μ神圣天使轰炸机Lv9",
+		damage = 202,
+		base = 65121,
+		id = 65129,
+		bullet_ID = {
+			65129
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_115[65130] = {
+		name = "恶毒μ神圣天使轰炸机Lv10",
+		damage = 220,
+		base = 65121,
+		id = 65130,
+		bullet_ID = {
+			65130
+		},
+		barrage_ID = {
+			12009
+		}
+	}
 	uv0.weapon_property_115[65131] = {
 		action_index = "",
 		range = 500,
@@ -623,30 +647,6 @@ function ()
 		id = 65208,
 		bullet_ID = {
 			65208
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_115[65209] = {
-		name = "大凤μ技能轰炸机Lv9",
-		damage = 220,
-		base = 65201,
-		id = 65209,
-		bullet_ID = {
-			65209
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_115[65210] = {
-		name = "大凤μ技能轰炸机Lv10",
-		damage = 240,
-		base = 65201,
-		id = 65210,
-		bullet_ID = {
-			65210
 		},
 		barrage_ID = {
 			12009

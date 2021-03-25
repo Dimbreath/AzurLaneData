@@ -2,6 +2,370 @@ pg = pg or {}
 pg.weapon_property_177 = {}
 
 function ()
+	uv0.weapon_property_177[69808] = {
+		id = 69808,
+		name = "英勇弹幕技能小子弹LV8",
+		damage = 17,
+		base = 69801
+	}
+	uv0.weapon_property_177[69809] = {
+		id = 69809,
+		name = "英勇弹幕技能小子弹LV9",
+		damage = 18,
+		base = 69801
+	}
+	uv0.weapon_property_177[69810] = {
+		id = 69810,
+		name = "英勇弹幕技能小子弹LV10",
+		damage = 20,
+		base = 69801
+	}
+	uv0.weapon_property_177[69811] = {
+		action_index = "attack",
+		range = 50,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "伊卡洛斯复合弹幕-子弹LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 12,
+		corrected = 100,
+		min_range = 0,
+		id = 69811,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19174
+		},
+		barrage_ID = {
+			80924
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_177[69812] = {
+		id = 69812,
+		name = "伊卡洛斯复合弹幕-子弹LV2",
+		damage = 13,
+		base = 69811
+	}
+	uv0.weapon_property_177[69813] = {
+		id = 69813,
+		name = "伊卡洛斯复合弹幕-子弹LV3",
+		damage = 14,
+		base = 69811
+	}
+	uv0.weapon_property_177[69814] = {
+		name = "伊卡洛斯复合弹幕-子弹LV4",
+		damage = 15,
+		base = 69811,
+		id = 69814,
+		bullet_ID = {
+			19174,
+			19174
+		},
+		barrage_ID = {
+			80924,
+			80926
+		}
+	}
+	uv0.weapon_property_177[69815] = {
+		name = "伊卡洛斯复合弹幕-子弹LV5",
+		damage = 16,
+		base = 69811,
+		id = 69815,
+		bullet_ID = {
+			19174,
+			19174
+		},
+		barrage_ID = {
+			80924,
+			80926
+		}
+	}
+	uv0.weapon_property_177[69816] = {
+		name = "伊卡洛斯复合弹幕-子弹LV6",
+		damage = 17,
+		base = 69811,
+		id = 69816,
+		bullet_ID = {
+			19174,
+			19174
+		},
+		barrage_ID = {
+			80924,
+			80926
+		}
+	}
+	uv0.weapon_property_177[69817] = {
+		name = "伊卡洛斯复合弹幕-子弹LV7",
+		damage = 18,
+		base = 69811,
+		id = 69817,
+		bullet_ID = {
+			19174,
+			19174
+		},
+		barrage_ID = {
+			80924,
+			80926
+		}
+	}
+	uv0.weapon_property_177[69818] = {
+		name = "伊卡洛斯复合弹幕-子弹LV8",
+		damage = 20,
+		base = 69811,
+		id = 69818,
+		bullet_ID = {
+			19174,
+			19174
+		},
+		barrage_ID = {
+			80924,
+			80926
+		}
+	}
+	uv0.weapon_property_177[69819] = {
+		name = "伊卡洛斯复合弹幕-子弹LV9",
+		damage = 22,
+		base = 69811,
+		id = 69819,
+		bullet_ID = {
+			19174,
+			19174
+		},
+		barrage_ID = {
+			80924,
+			80926
+		}
+	}
+	uv0.weapon_property_177[69820] = {
+		name = "伊卡洛斯复合弹幕-子弹LV10",
+		damage = 24,
+		base = 69811,
+		id = 69820,
+		bullet_ID = {
+			19174,
+			19174
+		},
+		barrage_ID = {
+			80924,
+			80926
+		}
+	}
+	uv0.weapon_property_177[69821] = {
+		action_index = "",
+		range = 50,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "伊卡洛斯复合弹幕-鱼雷LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 20,
+		corrected = 100,
+		min_range = 0,
+		id = 69821,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19175
+		},
+		barrage_ID = {
+			80925
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_177[69822] = {
+		id = 69822,
+		name = "伊卡洛斯复合弹幕-鱼雷LV2",
+		damage = 21,
+		base = 69821
+	}
+	uv0.weapon_property_177[69823] = {
+		id = 69823,
+		name = "伊卡洛斯复合弹幕-鱼雷LV3",
+		damage = 22,
+		base = 69821
+	}
+	uv0.weapon_property_177[69824] = {
+		id = 69824,
+		name = "伊卡洛斯复合弹幕-鱼雷LV4",
+		damage = 23,
+		base = 69821
+	}
+	uv0.weapon_property_177[69825] = {
+		id = 69825,
+		name = "伊卡洛斯复合弹幕-鱼雷LV5",
+		damage = 24,
+		base = 69821
+	}
+	uv0.weapon_property_177[69826] = {
+		id = 69826,
+		name = "伊卡洛斯复合弹幕-鱼雷LV6",
+		damage = 25,
+		base = 69821
+	}
+	uv0.weapon_property_177[69827] = {
+		id = 69827,
+		name = "伊卡洛斯复合弹幕-鱼雷LV7",
+		damage = 26,
+		base = 69821
+	}
+	uv0.weapon_property_177[69828] = {
+		id = 69828,
+		name = "伊卡洛斯复合弹幕-鱼雷LV8",
+		damage = 28,
+		base = 69821
+	}
+	uv0.weapon_property_177[69829] = {
+		id = 69829,
+		name = "伊卡洛斯复合弹幕-鱼雷LV9",
+		damage = 30,
+		base = 69821
+	}
+	uv0.weapon_property_177[69830] = {
+		id = 69830,
+		name = "伊卡洛斯复合弹幕-鱼雷LV10",
+		damage = 34,
+		base = 69821
+	}
+	uv0.weapon_property_177[69831] = {
+		action_index = "attack",
+		range = 85,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "赫敏-平射对舰弹LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 69831,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19176,
+			19176
+		},
+		barrage_ID = {
+			80916,
+			80917
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_177[69832] = {
+		id = 69832,
+		name = "赫敏-平射对舰弹LV2",
+		damage = 11,
+		base = 69831
+	}
+	uv0.weapon_property_177[69833] = {
+		id = 69833,
+		name = "赫敏-平射对舰弹LV3",
+		damage = 12,
+		base = 69831
+	}
+	uv0.weapon_property_177[69834] = {
+		id = 69834,
+		name = "赫敏-平射对舰弹LV4",
+		damage = 13,
+		base = 69831
+	}
+	uv0.weapon_property_177[69835] = {
+		id = 69835,
+		name = "赫敏-平射对舰弹LV5",
+		damage = 14,
+		base = 69831
+	}
+	uv0.weapon_property_177[69836] = {
+		id = 69836,
+		name = "赫敏-平射对舰弹LV6",
+		damage = 15,
+		base = 69831
+	}
+	uv0.weapon_property_177[69837] = {
+		id = 69837,
+		name = "赫敏-平射对舰弹LV7",
+		damage = 16,
+		base = 69831
+	}
+	uv0.weapon_property_177[69838] = {
+		id = 69838,
+		name = "赫敏-平射对舰弹LV8",
+		damage = 17,
+		base = 69831
+	}
+	uv0.weapon_property_177[69839] = {
+		id = 69839,
+		name = "赫敏-平射对舰弹LV9",
+		damage = 18,
+		base = 69831
+	}
 	uv0.weapon_property_177[69840] = {
 		id = 69840,
 		name = "赫敏-平射对舰弹LV10",
@@ -327,375 +691,5 @@ function ()
 		name = "Z26ATF破盾反击鱼雷LV7",
 		damage = 62,
 		base = 69861
-	}
-	uv0.weapon_property_177[69868] = {
-		id = 69868,
-		name = "Z26ATF破盾反击鱼雷LV8",
-		damage = 70,
-		base = 69861
-	}
-	uv0.weapon_property_177[69869] = {
-		id = 69869,
-		name = "Z26ATF破盾反击鱼雷LV9",
-		damage = 78,
-		base = 69861
-	}
-	uv0.weapon_property_177[69870] = {
-		id = 69870,
-		name = "Z26ATF破盾反击鱼雷LV10",
-		damage = 86,
-		base = 69861
-	}
-	uv0.weapon_property_177[69871] = {
-		action_index = "attack",
-		range = 95,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "纪伊主炮弹幕PVE-LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 48,
-		corrected = 100,
-		min_range = 25,
-		id = 69871,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19180,
-			19180,
-			19180
-		},
-		barrage_ID = {
-			80940,
-			80942,
-			80943
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jineng",
-			alertTime = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_177[69872] = {
-		id = 69872,
-		name = "纪伊主炮弹幕PVE-LV2",
-		damage = 56,
-		base = 69871
-	}
-	uv0.weapon_property_177[69873] = {
-		id = 69873,
-		name = "纪伊主炮弹幕PVE-LV3",
-		damage = 64,
-		base = 69871
-	}
-	uv0.weapon_property_177[69874] = {
-		id = 69874,
-		name = "纪伊主炮弹幕PVE-LV4",
-		damage = 72,
-		base = 69871
-	}
-	uv0.weapon_property_177[69875] = {
-		id = 69875,
-		name = "纪伊主炮弹幕PVE-LV5",
-		damage = 80,
-		base = 69871
-	}
-	uv0.weapon_property_177[69876] = {
-		id = 69876,
-		name = "纪伊主炮弹幕PVE-LV6",
-		damage = 88,
-		base = 69871
-	}
-	uv0.weapon_property_177[69877] = {
-		name = "纪伊主炮弹幕PVE-LV7",
-		damage = 96,
-		base = 69871,
-		id = 69877,
-		barrage_ID = {
-			80941,
-			80942,
-			80943
-		}
-	}
-	uv0.weapon_property_177[69878] = {
-		name = "纪伊主炮弹幕PVE-LV8",
-		damage = 104,
-		base = 69871,
-		id = 69878,
-		barrage_ID = {
-			80941,
-			80942,
-			80943
-		}
-	}
-	uv0.weapon_property_177[69879] = {
-		name = "纪伊主炮弹幕PVE-LV9",
-		damage = 112,
-		base = 69871,
-		id = 69879,
-		barrage_ID = {
-			80941,
-			80942,
-			80943
-		}
-	}
-	uv0.weapon_property_177[69880] = {
-		name = "纪伊主炮弹幕PVE-LV10",
-		damage = 121,
-		base = 69871,
-		id = 69880,
-		barrage_ID = {
-			80941,
-			80942,
-			80943
-		}
-	}
-	uv0.weapon_property_177[69881] = {
-		action_index = "attack",
-		range = 120,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "纪伊主炮弹幕PVP-LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 48,
-		corrected = 100,
-		min_range = 25,
-		id = 69881,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19180,
-			19180,
-			19180
-		},
-		barrage_ID = {
-			80940,
-			80944,
-			80945
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jineng",
-			alertTime = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_177[69882] = {
-		id = 69882,
-		name = "纪伊主炮弹幕PVP-LV2",
-		damage = 56,
-		base = 69881
-	}
-	uv0.weapon_property_177[69883] = {
-		id = 69883,
-		name = "纪伊主炮弹幕PVP-LV3",
-		damage = 64,
-		base = 69881
-	}
-	uv0.weapon_property_177[69884] = {
-		id = 69884,
-		name = "纪伊主炮弹幕PVP-LV4",
-		damage = 72,
-		base = 69881
-	}
-	uv0.weapon_property_177[69885] = {
-		id = 69885,
-		name = "纪伊主炮弹幕PVP-LV5",
-		damage = 80,
-		base = 69881
-	}
-	uv0.weapon_property_177[69886] = {
-		id = 69886,
-		name = "纪伊主炮弹幕PVP-LV6",
-		damage = 88,
-		base = 69881
-	}
-	uv0.weapon_property_177[69887] = {
-		name = "纪伊主炮弹幕PVP-LV7",
-		damage = 96,
-		base = 69881,
-		id = 69887,
-		barrage_ID = {
-			80941,
-			80944,
-			80945
-		}
-	}
-	uv0.weapon_property_177[69888] = {
-		name = "纪伊主炮弹幕PVP-LV8",
-		damage = 104,
-		base = 69881,
-		id = 69888,
-		barrage_ID = {
-			80941,
-			80944,
-			80945
-		}
-	}
-	uv0.weapon_property_177[69889] = {
-		name = "纪伊主炮弹幕PVP-LV9",
-		damage = 112,
-		base = 69881,
-		id = 69889,
-		barrage_ID = {
-			80941,
-			80944,
-			80945
-		}
-	}
-	uv0.weapon_property_177[69890] = {
-		name = "纪伊主炮弹幕PVP-LV10",
-		damage = 121,
-		base = 69881,
-		id = 69890,
-		barrage_ID = {
-			80941,
-			80944,
-			80945
-		}
-	}
-	uv0.weapon_property_177[69891] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "纪伊副炮弹幕-LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 10,
-		corrected = 100,
-		min_range = 0,
-		id = 69891,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19181,
-			19182,
-			19181,
-			19182
-		},
-		barrage_ID = {
-			80935,
-			80936,
-			80938,
-			80939
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_177[69892] = {
-		id = 69892,
-		name = "纪伊副炮弹幕-LV2",
-		damage = 11,
-		base = 69891
-	}
-	uv0.weapon_property_177[69893] = {
-		id = 69893,
-		name = "纪伊副炮弹幕-LV3",
-		damage = 12,
-		base = 69891
-	}
-	uv0.weapon_property_177[69894] = {
-		id = 69894,
-		name = "纪伊副炮弹幕-LV4",
-		damage = 13,
-		base = 69891
-	}
-	uv0.weapon_property_177[69895] = {
-		id = 69895,
-		name = "纪伊副炮弹幕-LV5",
-		damage = 14,
-		base = 69891
-	}
-	uv0.weapon_property_177[69896] = {
-		id = 69896,
-		name = "纪伊副炮弹幕-LV6",
-		damage = 15,
-		base = 69891
-	}
-	uv0.weapon_property_177[69897] = {
-		id = 69897,
-		name = "纪伊副炮弹幕-LV7",
-		damage = 16,
-		base = 69891
-	}
-	uv0.weapon_property_177[69898] = {
-		id = 69898,
-		name = "纪伊副炮弹幕-LV8",
-		damage = 17,
-		base = 69891
-	}
-	uv0.weapon_property_177[69899] = {
-		id = 69899,
-		name = "纪伊副炮弹幕-LV9",
-		damage = 18,
-		base = 69891
 	}
 end()

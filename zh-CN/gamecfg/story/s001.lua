@@ -3,7 +3,7 @@ return {
 	mode = 2,
 	scripts = {
 		{
-			actor = 900004,
+			actor = 900312,
 			nameColor = "#fff157",
 			side = 0,
 			say = "情报说铁血的最新型战舰会通过这里进入大洋，如果能在这里给他们一个惊喜回去后一定会受到女皇的嘉奖的~",
@@ -57,7 +57,7 @@ return {
 			}
 		},
 		{
-			actor = 900004,
+			actor = 900312,
 			nameColor = "#a9f548",
 			expression = "4",
 			side = 0,
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			actor = 900004,
+			actor = 900312,
 			nameColor = "#a9f548",
 			expression = "5",
 			side = 0,
@@ -131,7 +131,7 @@ return {
 			}
 		},
 		{
-			actor = 900004,
+			actor = 900312,
 			nameColor = "#a9f548",
 			expression = "9",
 			side = 0,
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			actor = 900004,
+			actor = 900312,
 			nameColor = "#a9f548",
 			side = 0,
 			say = "前方发现铁血的驱逐舰部队，也许只是外围侦查部队，立刻向胡德大姐头汇报情况！",
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 900004,
+			actor = 900312,
 			nameColor = "#a9f548",
 			expression = "10",
 			side = 0,

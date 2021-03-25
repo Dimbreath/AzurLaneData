@@ -85,6 +85,7 @@ pg.equip_data_statistics_50 = {
 		},
 		equip_parameters = {},
 		label = {
+			"KMS",
 			"DEV"
 		}
 	},

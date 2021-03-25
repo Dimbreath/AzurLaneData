@@ -107,6 +107,7 @@ pg.equip_data_statistics_56 = {
 			hunting_lv = 1
 		},
 		label = {
+			"KMS",
 			"DEV"
 		}
 	},

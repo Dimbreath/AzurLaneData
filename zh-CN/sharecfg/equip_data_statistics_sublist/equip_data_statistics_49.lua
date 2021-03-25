@@ -86,6 +86,7 @@ pg.equip_data_statistics_49 = {
 		},
 		equip_parameters = {},
 		label = {
+			"KMS",
 			"DEV"
 		}
 	},
@@ -166,6 +167,7 @@ pg.equip_data_statistics_49 = {
 		},
 		equip_parameters = {},
 		label = {
+			"KMS",
 			"DEV"
 		}
 	},

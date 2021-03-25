@@ -40,6 +40,7 @@ pg.equip_data_statistics_59 = {
 		},
 		equip_parameters = {},
 		label = {
+			"PRAN",
 			"DEV"
 		}
 	},

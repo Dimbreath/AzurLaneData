@@ -1,5 +1,19 @@
 pg = pg or {}
 pg.equip_data_statistics_368 = {
+	[89071] = {
+		id = 89071,
+		anti_siren = 100,
+		base = 89060,
+		value_2 = 26,
+		value_1 = "16"
+	},
+	[89072] = {
+		id = 89072,
+		anti_siren = 200,
+		base = 89060,
+		value_2 = 27,
+		value_1 = "17"
+	},
 	[89073] = {
 		id = 89073,
 		anti_siren = 300,
@@ -107,45 +121,5 @@ pg.equip_data_statistics_368 = {
 		anti_siren = 300,
 		value_1 = "640",
 		base = 89080
-	},
-	[89100] = {
-		name = "玉米灯笼",
-		tech = 0,
-		type = 10,
-		speciality = "无",
-		id = 89100,
-		value_2 = 50,
-		icon = "89100",
-		value_1 = "9",
-		attribute_2 = "durability",
-		rarity = 5,
-		descrip = "印着玉米图案的灯笼.......夏色吹雪？！ ",
-		nationality = 105,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "antisub",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6510
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[89101] = {
-		id = 89101,
-		value_2 = 55,
-		value_1 = "10",
-		base = 89100
 	}
 }

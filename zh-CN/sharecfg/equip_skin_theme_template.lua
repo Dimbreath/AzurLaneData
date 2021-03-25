@@ -527,6 +527,13 @@ pg.equip_skin_theme_template = {
 			397
 		}
 	},
+	[199] = {
+		id = 199,
+		name = "其他",
+		ids = {
+			398
+		}
+	},
 	all = {
 		1,
 		2,
@@ -552,6 +559,7 @@ pg.equip_skin_theme_template = {
 		22,
 		23,
 		24,
-		25
+		25,
+		199
 	}
 }

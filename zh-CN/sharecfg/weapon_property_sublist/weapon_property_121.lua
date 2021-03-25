@@ -2,6 +2,16 @@ pg = pg or {}
 pg.weapon_property_121 = {}
 
 function ()
+	uv0.weapon_property_121[65509] = {
+		id = 65509,
+		damage = 220,
+		base = 65501
+	}
+	uv0.weapon_property_121[65510] = {
+		id = 65510,
+		damage = 240,
+		base = 65501
+	}
 	uv0.weapon_property_121[65511] = {
 		action_index = "attack",
 		range = 120,
@@ -629,24 +639,6 @@ function ()
 		id = 65578,
 		bullet_ID = {
 			65578
-		}
-	}
-	uv0.weapon_property_121[65579] = {
-		name = "威悉技能轰炸机PlusLv9",
-		damage = 81,
-		base = 65571,
-		id = 65579,
-		bullet_ID = {
-			65579
-		}
-	}
-	uv0.weapon_property_121[65580] = {
-		name = "威悉技能轰炸机PlusLv10",
-		damage = 86,
-		base = 65571,
-		id = 65580,
-		bullet_ID = {
-			65580
 		}
 	}
 end()

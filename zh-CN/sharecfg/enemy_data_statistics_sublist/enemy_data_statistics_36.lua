@@ -1,5 +1,43 @@
 pg = pg or {}
 pg.enemy_data_statistics_36 = {
+	[803] = {
+		cannon = 0,
+		antisub = 0,
+		air = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		base = 140,
+		dodge = 0,
+		torpedo_growth = 0,
+		air_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		star = 1,
+		hit = 80,
+		antisub_growth = 0,
+		rarity = 1,
+		luck_growth = 0,
+		torpedo = 40,
+		durability = 35,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 0,
+		speed = 25,
+		luck = 0,
+		hit_growth = 0,
+		battle_unit_type = 15,
+		id = 803,
+		antiaircraft_growth = 0,
+		armor = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			300104
+		}
+	},
 	[810] = {
 		cannon = 35,
 		name = "标准护卫舰",
@@ -738,73 +776,6 @@ pg.enemy_data_statistics_36 = {
 			300160,
 			300163,
 			300164
-		}
-	},
-	[832] = {
-		cannon = 0,
-		name = "运输舰",
-		hit_growth = 0,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		reload = 150,
-		antisub = 0,
-		armor = 0,
-		rarity = 1,
-		antiaircraft = 40,
-		dodge_growth = 0,
-		star = 1,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90,
-		durability = 1150,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		luck = 0,
-		id = 832,
-		scale = 150,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20005,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		torpedo = 0,
-		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		cld_box = {
-			4.125,
-			5.625,
-			6
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				-0.48,
-				0
-			},
-			{
-				0.2,
-				0.006,
-				0.5
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {
-			danchuanlanghuaxiao = 0.75
-		},
-		appear_fx = {
-			"appearsmall"
 		}
 	}
 }

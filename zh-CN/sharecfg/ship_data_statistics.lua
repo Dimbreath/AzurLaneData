@@ -17220,6 +17220,998 @@ pg.ship_data_statistics = {
 			"Allen M. Sumner-class"
 		}
 	},
+	[101451] = {
+		oxy_max = 0,
+		type = 1,
+		name = "艾伦·萨姆纳",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		ammo = 0,
+		id = 101451,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Allen M. Sumner ",
+		oxy_cost = 0,
+		skin_id = 101450,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			407,
+			26,
+			70,
+			43,
+			0,
+			84,
+			0,
+			76,
+			59,
+			40.8,
+			80,
+			55
+		},
+		attrs_growth = {
+			9935,
+			256,
+			698,
+			852,
+			0,
+			418,
+			0,
+			1128,
+			876,
+			0,
+			0,
+			540
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.25,
+			1.5
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Allen M. Sumner-class"
+		}
+	},
+	[101452] = {
+		oxy_max = 0,
+		type = 1,
+		name = "艾伦·萨姆纳",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		ammo = 0,
+		id = 101452,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Allen M. Sumner ",
+		oxy_cost = 0,
+		skin_id = 101450,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			506,
+			32,
+			87,
+			54,
+			0,
+			84,
+			0,
+			76,
+			59,
+			40.8,
+			80,
+			69
+		},
+		attrs_growth = {
+			9935,
+			256,
+			698,
+			852,
+			0,
+			418,
+			0,
+			1128,
+			876,
+			0,
+			0,
+			540
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.27,
+			1.27,
+			1.52
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Allen M. Sumner-class"
+		}
+	},
+	[101453] = {
+		oxy_max = 0,
+		type = 1,
+		name = "艾伦·萨姆纳",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		ammo = 0,
+		id = 101453,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Allen M. Sumner ",
+		oxy_cost = 0,
+		skin_id = 101450,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			705,
+			45,
+			122,
+			75,
+			0,
+			84,
+			0,
+			76,
+			59,
+			40.8,
+			80,
+			96
+		},
+		attrs_growth = {
+			9935,
+			256,
+			698,
+			852,
+			0,
+			418,
+			0,
+			1128,
+			876,
+			0,
+			0,
+			540
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.3,
+			1.55
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Allen M. Sumner-class"
+		}
+	},
+	[101454] = {
+		oxy_max = 0,
+		type = 1,
+		name = "艾伦·萨姆纳",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		ammo = 0,
+		id = 101454,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Allen M. Sumner ",
+		oxy_cost = 0,
+		skin_id = 101450,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1003,
+			64,
+			175,
+			107,
+			0,
+			84,
+			0,
+			76,
+			59,
+			40.8,
+			80,
+			136
+		},
+		attrs_growth = {
+			9935,
+			256,
+			698,
+			852,
+			0,
+			418,
+			0,
+			1128,
+			876,
+			0,
+			0,
+			540
+		},
+		attrs_growth_extra = {
+			9925,
+			607,
+			1210,
+			581,
+			0,
+			992,
+			0,
+			-661,
+			287,
+			0,
+			0,
+			440
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.35,
+			1.6
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Allen M. Sumner-class"
+		}
+	},
+	[101461] = {
+		oxy_max = 0,
+		type = 1,
+		name = "史蒂芬·波特",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 101461,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Stephen Potter",
+		oxy_cost = 0,
+		skin_id = 101460,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			347,
+			17,
+			54,
+			34,
+			0,
+			75,
+			0,
+			72,
+			59,
+			42,
+			70,
+			52
+		},
+		attrs_growth = {
+			8475,
+			164,
+			538,
+			660,
+			0,
+			372,
+			0,
+			1068,
+			876,
+			0,
+			0,
+			518
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.2,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher-Class"
+		}
+	},
+	[101462] = {
+		oxy_max = 0,
+		type = 1,
+		name = "史蒂芬·波特",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 101462,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Stephen Potter",
+		oxy_cost = 0,
+		skin_id = 101460,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			432,
+			21,
+			67,
+			42,
+			0,
+			75,
+			0,
+			72,
+			59,
+			42,
+			70,
+			65
+		},
+		attrs_growth = {
+			8475,
+			164,
+			538,
+			660,
+			0,
+			372,
+			0,
+			1068,
+			876,
+			0,
+			0,
+			518
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.12,
+			1.22,
+			1.22
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher-Class"
+		}
+	},
+	[101463] = {
+		oxy_max = 0,
+		type = 1,
+		name = "史蒂芬·波特",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 101463,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Stephen Potter",
+		oxy_cost = 0,
+		skin_id = 101460,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			601,
+			29,
+			94,
+			59,
+			0,
+			75,
+			0,
+			72,
+			59,
+			42,
+			70,
+			91
+		},
+		attrs_growth = {
+			8475,
+			164,
+			538,
+			660,
+			0,
+			372,
+			0,
+			1068,
+			876,
+			0,
+			0,
+			518
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.25,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher-Class"
+		}
+	},
+	[101464] = {
+		oxy_max = 0,
+		type = 1,
+		name = "史蒂芬·波特",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 101464,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Stephen Potter",
+		oxy_cost = 0,
+		skin_id = 101460,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			856,
+			42,
+			135,
+			84,
+			0,
+			75,
+			0,
+			72,
+			59,
+			42,
+			70,
+			130
+		},
+		attrs_growth = {
+			8475,
+			164,
+			538,
+			660,
+			0,
+			372,
+			0,
+			1068,
+			876,
+			0,
+			0,
+			518
+		},
+		attrs_growth_extra = {
+			8475,
+			391,
+			1150,
+			458,
+			0,
+			881,
+			0,
+			-626,
+			-614,
+			0,
+			0,
+			444
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.3,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher-Class"
+		}
+	},
 	[102011] = {
 		oxy_max = 0,
 		type = 2,
@@ -127922,6 +128914,502 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Akizuki-Class"
+		}
+	},
+	[301851] = {
+		oxy_max = 0,
+		type = 1,
+		name = "追风",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301851,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Oite",
+		oxy_cost = 0,
+		skin_id = 301850,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		attrs_growth = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kamikaze-Class"
+		}
+	},
+	[301852] = {
+		oxy_max = 0,
+		type = 1,
+		name = "追风",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301852,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Oite",
+		oxy_cost = 0,
+		skin_id = 301850,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		attrs_growth = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kamikaze-Class"
+		}
+	},
+	[301853] = {
+		oxy_max = 0,
+		type = 1,
+		name = "追风",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301853,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Oite",
+		oxy_cost = 0,
+		skin_id = 301850,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		attrs_growth = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kamikaze-Class"
+		}
+	},
+	[301854] = {
+		oxy_max = 0,
+		type = 1,
+		name = "追风",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301854,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Oite",
+		oxy_cost = 0,
+		skin_id = 301850,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		attrs_growth = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kamikaze-Class"
 		}
 	},
 	[302011] = {
@@ -250303,6 +251791,246 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[900310] = {
+		oxy_max = 0,
+		type = 2,
+		name = "泛用型布里",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 900310,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "UNIV Universal Bulin",
+		oxy_cost = 0,
+		skin_id = 100000,
+		attack_duration = 0,
+		nationality = 0,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			175643,
+			50,
+			45,
+			133,
+			0,
+			64,
+			0,
+			46,
+			10,
+			28.4,
+			65,
+			0
+		},
+		attrs_growth = {
+			15110,
+			312,
+			0,
+			1168,
+			0,
+			340,
+			0,
+			888,
+			414,
+			0,
+			0,
+			262
+		},
+		attrs_growth_extra = {
+			3778,
+			738,
+			0,
+			597,
+			0,
+			800,
+			0,
+			0,
+			426,
+			0,
+			0,
+			353
+		},
+		lock = {},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			630012,
+			630011,
+			16450
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900311] = {
+		oxy_max = 0,
+		type = 1,
+		name = "试作型布里MKII",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.5",
+		rarity = 5,
+		ammo = 0,
+		id = 900311,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "UNIV Trial Bulin MKII",
+		oxy_cost = 0,
+		skin_id = 100010,
+		attack_duration = 0,
+		nationality = 0,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			175643,
+			50,
+			45,
+			133,
+			0,
+			64,
+			0,
+			46,
+			10,
+			28.4,
+			65,
+			0
+		},
+		attrs_growth = {
+			15110,
+			312,
+			0,
+			1168,
+			0,
+			340,
+			0,
+			888,
+			414,
+			0,
+			0,
+			262
+		},
+		attrs_growth_extra = {
+			3778,
+			738,
+			0,
+			597,
+			0,
+			800,
+			0,
+			0,
+			426,
+			0,
+			0,
+			353
+		},
+		lock = {},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			630024,
+			630023,
+			630021
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[900801] = {
 		oxy_max = 0,
 		type = 1,
@@ -279633,6 +281361,14 @@ pg.ship_data_statistics = {
 		101442,
 		101443,
 		101444,
+		101451,
+		101452,
+		101453,
+		101454,
+		101461,
+		101462,
+		101463,
+		101464,
 		102011,
 		102012,
 		102013,
@@ -280502,6 +282238,10 @@ pg.ship_data_statistics = {
 		301842,
 		301843,
 		301844,
+		301851,
+		301852,
+		301853,
+		301854,
 		302011,
 		302012,
 		302013,
@@ -281411,6 +283151,8 @@ pg.ship_data_statistics = {
 		900291,
 		900292,
 		900293,
+		900310,
+		900311,
 		900801,
 		900802,
 		900803,

@@ -440,7 +440,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "房间们没锁哦…就差一点了……加油……",
+			say = "房间门没锁哦…就差一点了……加油……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,5 +1,72 @@
 pg = pg or {}
 pg.equip_data_statistics_364 = {
+	[85440] = {
+		name = "双联装152mm主炮Model1892",
+		speciality = "锁定",
+		type = 2,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "85440",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "8 x 4",
+		nationality = 7,
+		ammo = 3,
+		value_3 = 0,
+		id = 85440,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1001
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1001
+			},
+			{
+				4,
+				1101
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85440
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		}
+	},
+	[85441] = {
+		id = 85441,
+		damage = "9 x 4",
+		base = 85440,
+		weapon_id = {
+			85441
+		}
+	},
 	[85442] = {
 		id = 85442,
 		damage = "10 x 4",
@@ -191,18 +258,6 @@ pg.equip_data_statistics_364 = {
 	},
 	[89001] = {
 		id = 89001,
-		base = 89000
-	},
-	[89002] = {
-		id = 89002,
-		value_2 = 7,
-		value_1 = "17",
-		base = 89000
-	},
-	[89003] = {
-		id = 89003,
-		value_2 = 8,
-		value_1 = "18",
 		base = 89000
 	}
 }

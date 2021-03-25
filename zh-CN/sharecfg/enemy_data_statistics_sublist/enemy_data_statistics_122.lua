@@ -1,5 +1,97 @@
 pg = pg or {}
 pg.enemy_data_statistics_122 = {
+	[10031005] = {
+		id = 10031005,
+		hit_growth = 120,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 0,
+		antiaircraft_growth = 1440,
+		armor = 0,
+		air_growth = 0,
+		cannon = 7,
+		dodge_growth = 0,
+		icon = "changliangdanchuan",
+		star = 2,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 109,
+		durability = 240,
+		armor_growth = 0,
+		torpedo_growth = 1296,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		prefab = "changliangdanchuan",
+		cannon_growth = 540,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 8,
+		torpedo = 16,
+		durability_growth = 9200,
+		antiaircraft = 17,
+		battle_unit_type = 25,
+		bound_bone = {
+			cannon = {
+				{
+					1.77,
+					1.29,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.17,
+					0.35,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.77,
+					1.29,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							1.035,
+							0.869,
+							0.099
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.964,
+							1.16,
+							-0.022
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			480246,
+			100427
+		}
+	},
 	[10031006] = {
 		cannon = 7,
 		antisub = 0,
@@ -532,47 +624,6 @@ pg.enemy_data_statistics_122 = {
 		equipment_list = {
 			100202,
 			100512,
-			100412,
-			490013
-		}
-	},
-	[10031019] = {
-		cannon = 20,
-		antisub = 0,
-		air = 0,
-		cannon_growth = 1638,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		base = 203,
-		dodge = 6,
-		torpedo_growth = 2250,
-		air_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 84,
-		speed_growth = 0,
-		star = 4,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 3,
-		luck_growth = 0,
-		torpedo = 27,
-		durability = 1080,
-		armor_growth = 0,
-		durability_growth = 43200,
-		antiaircraft = 28,
-		speed = 16,
-		luck = 0,
-		hit_growth = 210,
-		battle_unit_type = 60,
-		id = 10031019,
-		antiaircraft_growth = 2340,
-		armor = 0,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			100202,
-			100522,
 			100412,
 			490013
 		}

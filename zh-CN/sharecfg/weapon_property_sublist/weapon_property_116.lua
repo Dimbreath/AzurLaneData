@@ -2,6 +2,30 @@ pg = pg or {}
 pg.weapon_property_116 = {}
 
 function ()
+	uv0.weapon_property_116[65209] = {
+		name = "大凤μ技能轰炸机Lv9",
+		damage = 220,
+		base = 65201,
+		id = 65209,
+		bullet_ID = {
+			65209
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_116[65210] = {
+		name = "大凤μ技能轰炸机Lv10",
+		damage = 240,
+		base = 65201,
+		id = 65210,
+		bullet_ID = {
+			65210
+		},
+		barrage_ID = {
+			12009
+		}
+	}
 	uv0.weapon_property_116[65211] = {
 		action_index = "",
 		range = 500,
@@ -625,16 +649,6 @@ function ()
 	uv0.weapon_property_116[65268] = {
 		id = 65268,
 		damage = 125,
-		base = 65261
-	}
-	uv0.weapon_property_116[65269] = {
-		id = 65269,
-		damage = 135,
-		base = 65261
-	}
-	uv0.weapon_property_116[65270] = {
-		id = 65270,
-		damage = 145,
 		base = 65261
 	}
 end()

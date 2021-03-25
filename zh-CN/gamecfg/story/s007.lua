@@ -5,7 +5,7 @@ return {
 		{
 			expression = "14",
 			side = 0,
-			actor = 900004,
+			actor = 900312,
 			nameColor = "#a9f548",
 			say = "大姐头！你们终于来了",
 			shake = {

@@ -56,6 +56,7 @@ pg.equip_data_statistics_51 = {
 		part_sub = {},
 		equip_parameters = {},
 		label = {
+			"IJN",
 			"DEV"
 		}
 	},

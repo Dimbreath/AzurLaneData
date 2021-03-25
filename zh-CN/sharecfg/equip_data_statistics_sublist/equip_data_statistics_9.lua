@@ -94,6 +94,7 @@ pg.equip_data_statistics_9 = {
 			ambush_extra = 800
 		},
 		label = {
+			"PRAN",
 			"DEV"
 		}
 	},

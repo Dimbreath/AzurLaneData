@@ -1,5 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_359 = {
+	[85202] = {
+		id = 85202,
+		damage = "16/轮",
+		base = 85200,
+		weapon_id = {
+			85202
+		}
+	},
+	[85203] = {
+		id = 85203,
+		damage = "19/轮",
+		base = 85200,
+		weapon_id = {
+			85203
+		}
+	},
 	[85204] = {
 		id = 85204,
 		damage = "22/轮",
@@ -173,76 +189,6 @@ pg.equip_data_statistics_359 = {
 		id = 85231,
 		weapon_id = {
 			85231
-		}
-	},
-	[85260] = {
-		name = "B-54 100mm双联装防空炮",
-		speciality = "防空",
-		type = 6,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "85240",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "36/轮",
-		nationality = 7,
-		ammo = 5,
-		value_3 = 0,
-		id = 85260,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			85260
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"ST",
-			"AA"
-		}
-	},
-	[85261] = {
-		id = 85261,
-		damage = "41/轮",
-		base = 85260,
-		weapon_id = {
-			85261
 		}
 	}
 }

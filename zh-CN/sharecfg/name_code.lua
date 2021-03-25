@@ -955,6 +955,11 @@ pg.name_code = {
 		name = "飞龙·META",
 		code = "龙·META"
 	},
+	{
+		id = 192,
+		name = "追风",
+		code = "椎"
+	},
 	[250] = {
 		id = 250,
 		name = "伊9",

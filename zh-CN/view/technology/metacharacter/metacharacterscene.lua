@@ -518,7 +518,7 @@ end
 function slot0.updatePTPanel(slot0, slot1)
 	slot2 = slot0:getCurMetaProgressVO()
 	slot3 = slot2:getSynRate()
-	slot4 = slot3 * 100
+	slot4 = tonumber(tostring(slot3 * 100))
 
 	setImageSprite(slot0.ptIcon, LoadSprite(slot2:getPtIconPath()))
 	setFillAmount(slot0.ptProgressImg, slot3)

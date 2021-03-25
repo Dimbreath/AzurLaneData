@@ -1,5 +1,42 @@
 pg = pg or {}
 pg.enemy_data_statistics_115 = {
+	[10013015] = {
+		cannon = 74,
+		antisub = 0,
+		air = 0,
+		cannon_growth = 936,
+		armor = 0,
+		reload = 150,
+		base = 194,
+		dodge = 11,
+		torpedo_growth = 3366,
+		air_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 162,
+		speed_growth = 0,
+		star = 3,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 3,
+		luck_growth = 0,
+		torpedo = 112,
+		durability = 5270,
+		armor_growth = 0,
+		durability_growth = 33600,
+		antiaircraft = 255,
+		speed = 24,
+		luck = 0,
+		hit_growth = 210,
+		battle_unit_type = 55,
+		id = 10013015,
+		antiaircraft_growth = 3744,
+		equipment_list = {
+			473125,
+			473126,
+			473127,
+			473128
+		}
+	},
 	[10013016] = {
 		cannon = 74,
 		antisub = 0,
@@ -791,104 +828,6 @@ pg.enemy_data_statistics_115 = {
 				ID = 50500,
 				LV = 4
 			}
-		}
-	},
-	[10013601] = {
-		battle_unit_type = 95,
-		luck_growth = 0,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		dodge = 22,
-		armor = 0,
-		antiaircraft_growth = 0,
-		antisub = 0,
-		cannon = 460,
-		dodge_growth = 284,
-		star = 6,
-		antisub_growth = 0,
-		rarity = 6,
-		base = 233,
-		durability = 250000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 30,
-		luck = 50,
-		id = 10013601,
-		cannon_growth = 0,
-		reload = 150,
-		reload_growth = 0,
-		hit = 9999,
-		torpedo = 300,
-		durability_growth = 0,
-		antiaircraft = 999,
-		hit_growth = 210,
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.28,
-					1.19,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.28,
-					1.19,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.29,
-					0.09,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.28,
-					1.19,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.74,
-							0.86,
-							-0.18
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0.03,
-							2.66,
-							-1.22
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
 		}
 	}
 }

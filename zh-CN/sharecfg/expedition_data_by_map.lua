@@ -8899,6 +8899,258 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1490001] = {
+		map = 1490001,
+		name = "箱庭疗法·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 4,
+		on_activity = 937,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XIANGTINGLIAOFA1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1230001",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1230001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1490011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1490002] = {
+		map = 1490002,
+		name = "箱庭疗法·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 4,
+		on_activity = 938,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XIANGTINGLIAOFA16",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1230002",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1230002",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1490012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1490011] = {
+		map = 1490011,
+		name = "箱庭疗法·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 5,
+		on_activity = 937,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XIANGTINGLIAOFA1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1230003",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1230003",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1490001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1490012] = {
+		map = 1490012,
+		name = "箱庭疗法·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 5,
+		on_activity = 938,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XIANGTINGLIAOFA16",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1230004",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1230004",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1490002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1490025] = {
+		map = 1490025,
+		name = "箱庭疗法·SP|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 8,
+		on_activity = 938,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1230004",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1230004",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1490012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1490026] = {
+		map = 1490026,
+		name = "箱庭疗法·EX|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 8,
+		on_activity = 938,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1230004",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1230004",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1490012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『红染的参访者』-前篇|| ||CHAPTER EX||E.X.",
@@ -10331,6 +10583,12 @@ pg.expedition_data_by_map = {
 		1480012,
 		1480025,
 		1480026,
+		1490001,
+		1490002,
+		1490011,
+		1490012,
+		1490025,
+		1490026,
 		2100000,
 		2100001,
 		2100010,

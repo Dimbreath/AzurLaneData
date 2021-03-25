@@ -151,7 +151,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			actor = 900011,
+			actor = 900313,
 			mode = 2,
 			say = "…人类真是有趣的生物，只不过施舍了他们冰山一角的力量，历史就要开始重演了",
 			shake = {

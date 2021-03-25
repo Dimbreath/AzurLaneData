@@ -1,5 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_400 = {
+	[95521] = {
+		id = 95521,
+		damage = "19/轮",
+		base = 95520,
+		weapon_id = {
+			95521
+		}
+	},
+	[95522] = {
+		id = 95522,
+		damage = "22/轮",
+		base = 95520,
+		weapon_id = {
+			95522
+		}
+	},
 	[95523] = {
 		id = 95523,
 		damage = "25/轮",
@@ -397,6 +413,158 @@ pg.equip_data_statistics_400 = {
 		},
 		weapon_id = {
 			630012
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[630021] = {
+		name = "【愚人节活动2021】金布里自卫火炮",
+		tech = 3,
+		speciality = "锁定",
+		type = 2,
+		rarity = 4,
+		value_2 = 0,
+		icon = "12100",
+		value_1 = "0",
+		descrip = "说明未填写",
+		nationality = 1,
+		ammo = 2,
+		value_3 = 0,
+		id = 630021,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			630021
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[630022] = {
+		name = "【愚人节活动2021】金布里特殊弹幕",
+		tech = 3,
+		speciality = "锁定",
+		type = 2,
+		rarity = 4,
+		value_2 = 0,
+		icon = "12100",
+		value_1 = "0",
+		descrip = "说明未填写",
+		nationality = 1,
+		ammo = 2,
+		value_3 = 0,
+		id = 630022,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			630022
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[630023] = {
+		name = "【愚人节活动2021】金布里特殊弹幕",
+		tech = 3,
+		speciality = "锁定",
+		type = 2,
+		rarity = 4,
+		value_2 = 0,
+		icon = "12100",
+		value_1 = "0",
+		descrip = "说明未填写",
+		nationality = 1,
+		ammo = 2,
+		value_3 = 0,
+		id = 630023,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			630023
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[630024] = {
+		name = "【愚人节活动2021】金布里特殊钻头",
+		tech = 3,
+		speciality = "锁定",
+		type = 2,
+		rarity = 4,
+		value_2 = 0,
+		icon = "12100",
+		value_1 = "0",
+		descrip = "说明未填写",
+		nationality = 1,
+		ammo = 2,
+		value_3 = 0,
+		id = 630024,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			630024
 		},
 		skill_id = {},
 		part_main = {

@@ -1,5 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_395 = {
+	[95227] = {
+		id = 95227,
+		damage = "32 x 8",
+		base = 95220,
+		weapon_id = {
+			95227
+		}
+	},
+	[95228] = {
+		id = 95228,
+		damage = "33 x 8",
+		base = 95220,
+		weapon_id = {
+			95228
+		}
+	},
 	[95229] = {
 		id = 95229,
 		damage = "34 x 8",
@@ -171,74 +187,6 @@ pg.equip_data_statistics_395 = {
 		id = 95252,
 		weapon_id = {
 			95252
-		}
-	},
-	[95253] = {
-		anti_siren = 300,
-		damage = "43 x 8",
-		base = 95240,
-		id = 95253,
-		weapon_id = {
-			95253
-		}
-	},
-	[95300] = {
-		name = "双联203mm主炮Model1924",
-		speciality = "锁定",
-		type = 3,
-		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "55300",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "22 x 6",
-		nationality = 6,
-		ammo = 3,
-		value_3 = 0,
-		id = 95300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1400
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1400
-			},
-			{
-				4,
-				1205
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			95300
-		},
-		skill_id = {},
-		part_main = {
-			3,
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"RN",
-			"CA",
-			"MG",
-			"CM"
 		}
 	}
 }

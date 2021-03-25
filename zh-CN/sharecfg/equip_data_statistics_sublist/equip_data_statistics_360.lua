@@ -1,5 +1,75 @@
 pg = pg or {}
 pg.equip_data_statistics_360 = {
+	[85260] = {
+		name = "B-54 100mm双联装防空炮",
+		speciality = "防空",
+		type = 6,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "85240",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "36/轮",
+		nationality = 7,
+		ammo = 5,
+		value_3 = 0,
+		id = 85260,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			85260
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85261] = {
+		id = 85261,
+		damage = "41/轮",
+		base = 85260,
+		weapon_id = {
+			85261
+		}
+	},
 	[85262] = {
 		id = 85262,
 		damage = "47/轮",
@@ -172,23 +242,6 @@ pg.equip_data_statistics_360 = {
 		base = 85280,
 		weapon_id = {
 			85289
-		}
-	},
-	[85290] = {
-		id = 85290,
-		damage = "110/轮",
-		base = 85280,
-		weapon_id = {
-			85290
-		}
-	},
-	[85291] = {
-		anti_siren = 100,
-		damage = "110/轮",
-		base = 85280,
-		id = 85291,
-		weapon_id = {
-			85291
 		}
 	}
 }

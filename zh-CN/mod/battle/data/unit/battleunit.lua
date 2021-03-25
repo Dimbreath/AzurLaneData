@@ -593,6 +593,12 @@ function slot9.RemoveAutoWeaponByWeaponID(slot0, slot1)
 	end
 end
 
+function slot9.AddFleetAntiAirWeapon(slot0, slot1)
+end
+
+function slot9.RemoveFleetAntiAirWeapon(slot0, slot1)
+end
+
 function slot9.ShiftWeapon(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot1) do
 		slot0:RemoveAutoWeaponByWeaponID(slot7)

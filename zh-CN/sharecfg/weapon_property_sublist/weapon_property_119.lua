@@ -2,6 +2,30 @@ pg = pg or {}
 pg.weapon_property_119 = {}
 
 function ()
+	uv0.weapon_property_119[65389] = {
+		name = "女天狗沙排啾轰炸机Lv9",
+		damage = 238,
+		base = 65381,
+		id = 65389,
+		bullet_ID = {
+			65389
+		},
+		barrage_ID = {
+			12010
+		}
+	}
+	uv0.weapon_property_119[65390] = {
+		name = "女天狗沙排啾轰炸机Lv10",
+		damage = 260,
+		base = 65381,
+		id = 65390,
+		bullet_ID = {
+			65390
+		},
+		barrage_ID = {
+			12010
+		}
+	}
 	uv0.weapon_property_119[65391] = {
 		action_index = "",
 		range = 500,
@@ -566,18 +590,6 @@ function ()
 		id = 65448,
 		name = "飞龙META_斩击技能Lv8",
 		damage = 146,
-		base = 65441
-	}
-	uv0.weapon_property_119[65449] = {
-		id = 65449,
-		name = "飞龙META_斩击技能Lv9",
-		damage = 158,
-		base = 65441
-	}
-	uv0.weapon_property_119[65450] = {
-		id = 65450,
-		name = "飞龙META_斩击技能Lv10",
-		damage = 174,
 		base = 65441
 	}
 end()

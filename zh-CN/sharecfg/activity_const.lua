@@ -606,6 +606,9 @@ pg.activity_const = {
 	APRILFOOL_DISCOVERY = {
 		act_id = 549
 	},
+	APRILFOOL_DISCOVERY_RE = {
+		act_id = 935
+	},
 	LEMARS_RE_OIL_PAGE = {
 		act_id = 582
 	},

@@ -2,6 +2,24 @@ pg = pg or {}
 pg.weapon_property_124 = {}
 
 function ()
+	uv0.weapon_property_124[65699] = {
+		name = "贝拉罗斯冰锥3-100-LV9",
+		damage = 152,
+		base = 65691,
+		id = 65699,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_124[65700] = {
+		name = "贝拉罗斯冰锥3-100-LV10",
+		damage = 164,
+		base = 65691,
+		id = 65700,
+		barrage_ID = {
+			81026
+		}
+	}
 	uv0.weapon_property_124[65701] = {
 		action_index = "",
 		range = 105,
@@ -682,26 +700,6 @@ function ()
 		damage = 140,
 		base = 65751,
 		id = 65758,
-		barrage_ID = {
-			81026,
-			81026
-		}
-	}
-	uv0.weapon_property_124[65759] = {
-		name = "贝拉罗斯PVP冰锥4-120上下-LV9",
-		damage = 152,
-		base = 65751,
-		id = 65759,
-		barrage_ID = {
-			81026,
-			81026
-		}
-	}
-	uv0.weapon_property_124[65760] = {
-		name = "贝拉罗斯PVP冰锥4-120上下-LV10",
-		damage = 164,
-		base = 65751,
-		id = 65760,
 		barrage_ID = {
 			81026,
 			81026

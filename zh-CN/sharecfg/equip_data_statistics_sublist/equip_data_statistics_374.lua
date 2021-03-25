@@ -1,5 +1,15 @@
 pg = pg or {}
 pg.equip_data_statistics_374 = {
+	[89221] = {
+		id = 89221,
+		value_1 = "280",
+		base = 89220
+	},
+	[89222] = {
+		id = 89222,
+		value_1 = "310",
+		base = 89220
+	},
 	[89223] = {
 		id = 89223,
 		value_1 = "340",
@@ -107,18 +117,6 @@ pg.equip_data_statistics_374 = {
 		id = 89243,
 		value_2 = 18,
 		value_1 = "8",
-		base = 89240
-	},
-	[89244] = {
-		id = 89244,
-		value_2 = 19,
-		value_1 = "9",
-		base = 89240
-	},
-	[89245] = {
-		id = 89245,
-		value_2 = 20,
-		value_1 = "10",
 		base = 89240
 	}
 }

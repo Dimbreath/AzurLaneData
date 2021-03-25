@@ -48,7 +48,7 @@ pg.activity_template = {
 			ui_name = "monthsignpage"
 		},
 		config_client = {
-			2,
+			4,
 			21,
 			1
 		}
@@ -2369,6 +2369,7 @@ pg.activity_template = {
 	[914] = {
 		mark = 20210312,
 		page_info = "",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 914,
@@ -2376,38 +2377,12 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 914,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					3,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[915] = {
 		mark = 20210312,
 		page_info = "",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 915,
@@ -2415,42 +2390,16 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 915,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					3,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[916] = {
 		mark = 20210312,
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 12,
-		title_res_tag = "",
+		is_show = 7,
+		title_res_tag = "wwf_pt",
 		id = 916,
 		config_data = {
 			16440,
@@ -2475,33 +2424,6 @@ pg.activity_template = {
 			16459,
 			16460,
 			16461
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					3,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "WWFPtPage",
@@ -2602,7 +2524,7 @@ pg.activity_template = {
 		type = 69,
 		login_pop = 0,
 		config_id = 5,
-		is_show = 8,
+		is_show = 5,
 		title_res_tag = "Neptune_catchup",
 		id = 925,
 		config_data = {},
@@ -2641,12 +2563,262 @@ pg.activity_template = {
 			itemid = 42003
 		}
 	},
+	[934] = {
+		mark = 20210325,
+		page_info = "",
+		type = 23,
+		login_pop = 0,
+		config_id = 935,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 934,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					4,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[935] = {
+		mark = 20210325,
+		type = 21,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 11,
+		title_res_tag = "AprilFool",
+		id = 935,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					4,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AprilFoolDiscoveryRePage",
+			ui_name = "AprilFoolDiscoveryRePage"
+		},
+		config_client = {
+			{},
+			"HUANGJINDEMIBAO1",
+			guideName = "HJDMB001",
+			lastChapter = 1360002,
+			popStory = "HUANGJINDEMIBAO4"
+		}
+	},
+	[937] = {
+		mark = 20210325,
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 937,
+		config_data = {
+			1490001,
+			1490002,
+			1490003,
+			1490011,
+			1490012,
+			1490013,
+			1490007,
+			1490008,
+			1490022,
+			1490023
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					3,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					4,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[938] = {
+		mark = 20210325,
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 938,
+		config_data = {
+			1490004,
+			1490005,
+			1490006,
+			1490014,
+			1490015,
+			1490016,
+			1490017,
+			1490021,
+			1490009,
+			1490010,
+			1490024,
+			1490025
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					3,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					4,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[939] = {
+		mark = 20210325,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 939,
+		config_data = {
+			16520,
+			16521,
+			16522,
+			16523,
+			16524,
+			16525,
+			16526,
+			16527,
+			16528,
+			16529,
+			16530,
+			16531,
+			16532,
+			16533,
+			16534,
+			16535,
+			16536
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					3,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					4,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[940] = {
 		mark = 20210318,
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 9,
+		is_show = 6,
 		config_client = "",
 		title_res_tag = "us_skirmish",
 		id = 940,
@@ -2704,6 +2876,384 @@ pg.activity_template = {
 		page_info = {
 			class_name = "USSkirmishRePage",
 			ui_name = "USSkirmishRePage"
+		}
+	},
+	[941] = {
+		mark = 20210325,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 194,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		title_res_tag = "",
+		id = 941,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					3,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					4,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[942] = {
+		mark = 20210325,
+		type = 74,
+		login_pop = 0,
+		config_id = 942,
+		is_show = 9,
+		config_client = "",
+		title_res_tag = "newmeixi_pt",
+		id = 942,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					3,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "USDefencePTPage",
+			ui_name = "usdefenceptpage"
+		}
+	},
+	[943] = {
+		mark = 20210325,
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 943,
+		config_data = {
+			1360,
+			1361,
+			1362,
+			1363,
+			1364,
+			1365,
+			1366,
+			1367,
+			1368,
+			1369,
+			1370,
+			1371,
+			1372,
+			1373,
+			1374,
+			1375,
+			1376,
+			1377,
+			1378
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					3,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_newmeixi",
+			{
+				0.18,
+				0.16,
+				0.27,
+				1
+			},
+			painting = "jiqi_pt",
+			pt_id = 194,
+			outline = {
+				0,
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[944] = {
+		mark = 20210325,
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 10,
+		title_res_tag = "newmeixi",
+		id = 944,
+		config_data = {
+			16538,
+			16539,
+			16540,
+			16541,
+			16542,
+			16543,
+			16544,
+			16545
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					3,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "USDefenceMainPage",
+			ui_name = "usdefencemainpage"
+		},
+		config_client = {
+			16538,
+			buildLinkActID = 946
+		}
+	},
+	[945] = {
+		mark = 20210325,
+		type = 74,
+		login_pop = 0,
+		config_id = 945,
+		is_show = 8,
+		config_client = "",
+		title_res_tag = "newmeixi_oil",
+		id = 945,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					3,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					4,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "USDefenceOilPage",
+			ui_name = "usdefenceoilpage"
+		}
+	},
+	[946] = {
+		mark = 20210325,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 946,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					3,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					4,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[947] = {
+		mark = 20210325,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 947,
+		config_data = {
+			16537
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					3,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					4,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[948] = {
+		mark = 20210325,
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 948,
+		config_data = {
+			1241301,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					3,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					4,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[2001] = {
@@ -3538,6 +4088,22 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[2055] = {
+		mark = 20210325,
+		page_info = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5591,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 2055,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	[100001] = {
 		mark = 20190530,
 		page_info = "",
@@ -3717,7 +4283,20 @@ pg.activity_template = {
 		920,
 		921,
 		925,
+		934,
+		935,
+		937,
+		938,
+		939,
 		940,
+		941,
+		942,
+		943,
+		944,
+		945,
+		946,
+		947,
+		948,
 		2001,
 		2002,
 		2003,
@@ -3770,6 +4349,7 @@ pg.activity_template = {
 		2052,
 		2053,
 		2054,
+		2055,
 		100001,
 		100002,
 		40001,

@@ -16,7 +16,9 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnDataSetting(slot0)
-	if slot0.activity.data1 ~= 1 and slot0.activity.data3 == 1 then
+	if slot0.activity.data1 == 0 and slot0.activity.data3 == 1 then
+		slot0.activity.data3 = 0
+
 		pg.m02:sendNotification(GAME.PUZZLE_PIECE_OP, {
 			cmd = 1,
 			actId = slot0.activity.id
@@ -87,8 +89,8 @@ function slot0.OnUpdateFlush(slot0)
 
 	slot2 = #slot0.activity.data2_list == #slot0.keyList
 
-	if (slot0.activity.data1 == 1 and "activity_bg_aprilfool_final" or "activity_bg_aprilfool_discovery") ~= slot0.bgName then
-		setImageSprite(slot0.bg, LoadSprite("clutter/" .. slot3, slot3))
+	if (slot0.activity.data1 > 0 and "activity_bg_aprilfool_final" or "activity_bg_aprilfool_discovery") ~= slot0.bgName then
+		setImageSprite(slot0.bg, LoadSprite("ui/activityuipage/AprilFoolDiscoveryPage_atlas", slot3))
 
 		slot0.bg:GetComponent(typeof(Image)).enabled = true
 		slot0.bgName = slot3

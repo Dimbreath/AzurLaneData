@@ -1,5 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_388 = {
+	[90865] = {
+		id = 90865,
+		damage = "36 x 4",
+		base = 90860,
+		weapon_id = {
+			90865
+		}
+	},
+	[90866] = {
+		id = 90866,
+		damage = "38 x 4",
+		base = 90860,
+		weapon_id = {
+			90866
+		}
+	},
 	[90880] = {
 		name = "双联装203mm主炮Mle1924",
 		speciality = "锁定",
@@ -220,22 +236,6 @@ pg.equip_data_statistics_388 = {
 		base = 90900,
 		weapon_id = {
 			90903
-		}
-	},
-	[90904] = {
-		id = 90904,
-		damage = "39 x 4",
-		base = 90900,
-		weapon_id = {
-			90904
-		}
-	},
-	[90905] = {
-		id = 90905,
-		damage = "41 x 4",
-		base = 90900,
-		weapon_id = {
-			90905
 		}
 	}
 }

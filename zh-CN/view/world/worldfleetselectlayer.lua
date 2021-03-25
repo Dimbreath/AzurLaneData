@@ -279,6 +279,16 @@ function slot0.updateCommanders(slot0, slot1, slot2, slot3)
 		if slot10 then
 			setImageSprite(slot13:Find("frame"), GetSpriteFromAtlas("weaponframes", "commander_" .. Commander.rarity2Frame(slot10:getRarity())))
 			GetImageSpriteFromAtlasAsync("CommanderHrz/" .. slot10:getPainting(), "", slot13:Find("mask/icon"))
+		else
+			slot14 = 1
+
+			while slot4.commanders[slot14] and slot4.commanders[slot14].pos ~= slot9 do
+				slot14 = slot14 + 1
+			end
+
+			if slot4.commanders[slot14] then
+				table.remove(slot4.commanders, slot14)
+			end
 		end
 
 		onButton(slot0, slot12, function ()

@@ -270,6 +270,8 @@ function slot0.didEnter(slot0)
 
 	slot0:updateDorm(slot0.dormVO)
 	slot0:initItems()
+
+	Input.multiTouchEnabled = false
 end
 
 function slot0.initItems(slot0)
@@ -511,6 +513,8 @@ function slot0.willExit(slot0)
 	slot0.foodMsgBox:Dispose()
 	slot0.extendPanel:Dispose()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.foodPanel, slot0._tf)
+
+	Input.multiTouchEnabled = true
 end
 
 return slot0

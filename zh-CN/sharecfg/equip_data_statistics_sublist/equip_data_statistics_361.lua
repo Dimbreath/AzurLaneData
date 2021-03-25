@@ -1,5 +1,22 @@
 pg = pg or {}
 pg.equip_data_statistics_361 = {
+	[85290] = {
+		id = 85290,
+		damage = "110/轮",
+		base = 85280,
+		weapon_id = {
+			85290
+		}
+	},
+	[85291] = {
+		anti_siren = 100,
+		damage = "110/轮",
+		base = 85280,
+		id = 85291,
+		weapon_id = {
+			85291
+		}
+	},
 	[85300] = {
 		name = "B-37 三联装406mm主炮Mk-1",
 		speciality = "跨射",
@@ -207,22 +224,6 @@ pg.equip_data_statistics_361 = {
 		base = 85320,
 		weapon_id = {
 			85327
-		}
-	},
-	[85328] = {
-		id = 85328,
-		damage = "129 x 3",
-		base = 85320,
-		weapon_id = {
-			85328
-		}
-	},
-	[85329] = {
-		id = 85329,
-		damage = "139 x 3",
-		base = 85320,
-		weapon_id = {
-			85329
 		}
 	}
 }

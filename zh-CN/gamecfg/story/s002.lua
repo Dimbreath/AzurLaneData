@@ -21,7 +21,7 @@ return {
 			}
 		},
 		{
-			actor = 900004,
+			actor = 900312,
 			nameColor = "#a9f548",
 			expression = "11",
 			side = 1,
@@ -63,7 +63,7 @@ return {
 			side = 0,
 			say = "！！！注意，右舷方向！！！发现两艘大型军舰，航向220度，判断是铁血的新型战列舰！全员准备作战！",
 			expression = "13",
-			actor = 900004,
+			actor = 900312,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,

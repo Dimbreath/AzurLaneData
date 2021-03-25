@@ -218,7 +218,12 @@ function slot0.UpdateDetail(slot0, slot1)
 		end, SFX_PANEL)
 	end
 
-	setActive(slot0.fashionToggle, slot0.shareData:HasFashion())
+	if not HXSet.isHxSkin() then
+		setActive(slot0.fashionToggle, slot0.shareData:HasFashion())
+	else
+		setActive(slot0.fashionToggle, false)
+	end
+
 	setActive(slot0.profileBtn, not slot1:isActivityNpc())
 end
 

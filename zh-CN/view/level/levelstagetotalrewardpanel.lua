@@ -26,6 +26,11 @@ end
 function slot0.didEnter(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	slot0:UpdateView()
+
+	if slot0.contextData.isAutoFight and PlayerPrefs.GetInt(AUTO_BATTLE_LABEL, 0) > 0 then
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_AUTO_BATTLE)
+		LuaHelper.Vibrate()
+	end
 end
 
 function slot0.willExit(slot0)

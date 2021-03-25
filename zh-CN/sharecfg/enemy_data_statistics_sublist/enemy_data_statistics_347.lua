@@ -1,5 +1,79 @@
 pg = pg or {}
 pg.enemy_data_statistics_347 = {
+	[14205101] = {
+		cannon = 45,
+		antisub = 0,
+		air = 0,
+		cannon_growth = 640,
+		armor = 0,
+		reload = 150,
+		base = 473,
+		dodge = 28,
+		torpedo_growth = 5200,
+		air_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 450,
+		speed_growth = 0,
+		star = 4,
+		hit = 30,
+		antisub_growth = 0,
+		rarity = 4,
+		luck_growth = 0,
+		torpedo = 135,
+		durability = 4340,
+		armor_growth = 0,
+		durability_growth = 23600,
+		antiaircraft = 125,
+		speed = 36,
+		luck = 0,
+		hit_growth = 350,
+		battle_unit_type = 50,
+		id = 14205101,
+		antiaircraft_growth = 3000,
+		equipment_list = {
+			1100449,
+			1100024,
+			729005,
+			1100189
+		}
+	},
+	[14205102] = {
+		cannon = 74,
+		antisub = 0,
+		air = 0,
+		cannon_growth = 936,
+		armor = 0,
+		reload = 150,
+		base = 474,
+		dodge = 11,
+		torpedo_growth = 3366,
+		air_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 162,
+		speed_growth = 0,
+		star = 4,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 4,
+		luck_growth = 0,
+		torpedo = 112,
+		durability = 5270,
+		armor_growth = 0,
+		durability_growth = 33600,
+		antiaircraft = 255,
+		speed = 24,
+		luck = 0,
+		hit_growth = 210,
+		battle_unit_type = 55,
+		id = 14205102,
+		antiaircraft_growth = 3744,
+		equipment_list = {
+			1100024,
+			729010,
+			1100224,
+			1100479
+		}
+	},
 	[14205103] = {
 		cannon = 116,
 		antisub = 0,
@@ -782,160 +856,5 @@ pg.enemy_data_statistics_347 = {
 		random_equipment_list = {},
 		random_nub = {},
 		buff_list = {}
-	},
-	[14300005] = {
-		cannon = 0,
-		name = "G·S·F空战狙击模块",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		luck = 0,
-		air = 0,
-		nationality = 99,
-		icon_type = 0,
-		type = 15,
-		rarity = 0,
-		antiaircraft = 0,
-		dodge_growth = 0,
-		icon = "sairenfuyoupao2",
-		star = 0,
-		battle_unit_type = 50,
-		antisub_growth = 0,
-		air_growth = 0,
-		antisub = 0,
-		durability = 5000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		friendly_cld = 1,
-		speed = 15,
-		armor = 0,
-		id = 14300005,
-		wave_fx = "",
-		scale = 150,
-		prefab = "sairenfuyoupao2",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		bubble_fx = "",
-		hit = 0,
-		torpedo = 0,
-		durability_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			4,
-			10,
-			10
-		},
-		cld_offset = {
-			-5,
-			0,
-			-5
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0,
-					1,
-					0
-				}
-			}
-		},
-		smoke = {},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				1.25,
-				0,
-				1.353
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {
-			plane_shadow = 1.5
-		},
-		appear_fx = {
-			"appearsmall",
-			"plane_shadow"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			3
-		},
-		equipment_list = {
-			730023,
-			730022
-		},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[14400001] = {
-		cannon = 5,
-		air = 0,
-		torpedo = 27,
-		cannon_growth = 300,
-		pilot_ai_template_id = 20005,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		torpedo_growth = 3000,
-		hit_growth = 144,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 25,
-		base = 488,
-		durability = 105,
-		armor_growth = 0,
-		durability_growth = 4000,
-		antiaircraft = 25,
-		speed = 15,
-		luck = 0,
-		antiaircraft_growth = 800,
-		id = 14400001,
-		antisub = 0,
-		equipment_list = {
-			1100100,
-			1100495
-		}
 	}
 }

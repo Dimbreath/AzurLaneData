@@ -19,7 +19,7 @@ function slot0.execute(slot0, slot1)
 			return
 		end
 
-		if slot8.data1 == 1 then
+		if slot8.data1 ~= 0 then
 			return
 		end
 
@@ -30,7 +30,7 @@ function slot0.execute(slot0, slot1)
 
 		return
 	elseif slot4 == 2 then
-		if not table.contains(slot8.data1_list, slot3) then
+		if not slot2.isPickUp and not table.contains(slot8.data1_list, slot3) then
 			return
 		end
 
@@ -47,6 +47,17 @@ function slot0.execute(slot0, slot1)
 
 			return
 		end
+	elseif slot4 == 4 then
+		if slot8.data1 ~= 1 then
+			return
+		end
+
+		slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
+			cmd = 4,
+			activity_id = slot5
+		})
+
+		return
 	end
 
 	pg.ConnectionMgr.GetInstance():Send(11202, {
@@ -67,6 +78,8 @@ function slot0.execute(slot0, slot1)
 				table.insert(uv0.data3_list, uv3)
 
 				uv0.data2 = pg.TimeMgr.GetInstance():GetServerTime() + uv4.cd
+			elseif uv2 == 4 then
+				uv0.data1 = 2
 			end
 
 			uv5:updateActivity(uv0)

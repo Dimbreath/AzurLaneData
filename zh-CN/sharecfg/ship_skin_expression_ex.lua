@@ -3270,5 +3270,104 @@ pg.ship_skin_expression_ex = {
 				"1|4"
 			}
 		}
+	},
+	ailunsamuna = {
+		touch = "",
+		feeling3 = "",
+		main_1 = "",
+		expedition = "",
+		home = "",
+		touch2 = "",
+		mail = "",
+		painting = "ailunsamuna",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"3"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"1"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"1"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"4|5"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"1"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"3"
+			}
+		}
+	},
+	shidifenbote = {
+		touch = "",
+		feeling3 = "",
+		main_1 = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		main_ex = "",
+		touch2 = "",
+		mail = "",
+		painting = "shidifenbote",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"1"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"4"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"2"
+			}
+		}
 	}
 }
