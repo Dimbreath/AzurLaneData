@@ -62,7 +62,6 @@ return {
 			actor = 900009,
 			side = 1,
 			nameColor = "#ff0000",
-			actorAlpha = 0,
 			say = "Oh? We've got the upper hand! Why would we turn back now?",
 			typewriter = {
 				speed = 0.05,
@@ -84,7 +83,6 @@ return {
 			actorName = "Prinz Eugen",
 			nameColor = "#ff0000",
 			side = 1,
-			actorAlpha = 0,
 			say = "Damn... So there's no helping it.... Take care, little sheep. We'll be seeing you again.",
 			typewriter = {
 				speed = 0.05,
@@ -151,7 +149,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			actor = 900313,
+			actor = 900011,
 			mode = 2,
 			say = "... Humanity is such an interesting lifeform... The power we gave them was just the beginning... History has already begun to be rewritten...",
 			shake = {

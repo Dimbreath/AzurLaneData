@@ -5,7 +5,7 @@ return {
 		{
 			expression = "14",
 			side = 0,
-			actor = 900312,
+			actor = 900004,
 			nameColor = "#a9f548",
 			say = "Big sister! You're finally here!",
 			shake = {
@@ -40,10 +40,9 @@ return {
 			}
 		},
 		{
-			side = 1,
-			actorName = "Bismarck ??",
-			actorAlpha = 0,
 			actor = 900009,
+			actorName = "Bismarck ??",
+			side = 1,
 			nameColor = "#ff0000",
 			say = "“'The Glory of the Royal Navy'? This should be fun. I wonder if you're actually strong enough to satisfy me.",
 			shake = {

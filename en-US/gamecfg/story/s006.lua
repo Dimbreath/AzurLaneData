@@ -7,7 +7,6 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			actorName = "Bismarck??",
-			actorAlpha = 0,
 			say = "You've got quite the firepower, but it's useless against me!",
 			shake = {
 				speed = 2,
