@@ -1,5 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_369 = {
+	[85202] = {
+		id = 85202,
+		damage = "16/回",
+		base = 85200,
+		weapon_id = {
+			85202
+		}
+	},
+	[85203] = {
+		id = 85203,
+		damage = "19/回",
+		base = 85200,
+		weapon_id = {
+			85203
+		}
+	},
 	[85204] = {
 		id = 85204,
 		damage = "22/回",
@@ -164,77 +180,6 @@ pg.equip_data_statistics_369 = {
 		base = 85220,
 		weapon_id = {
 			85230
-		}
-	},
-	[85231] = {
-		anti_siren = 100,
-		damage = "44/回",
-		base = 85220,
-		id = 85231,
-		weapon_id = {
-			85231
-		}
-	},
-	[85260] = {
-		name = "100mm連装高角砲B-54",
-		speciality = "対空",
-		type = 6,
-		tech = 2,
-		descrip = "0",
-		value_2 = 12,
-		icon = "85240",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "36/回",
-		nationality = 7,
-		ammo = 5,
-		value_3 = 0,
-		id = 85260,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			85260
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"ST",
-			"AA"
 		}
 	}
 }

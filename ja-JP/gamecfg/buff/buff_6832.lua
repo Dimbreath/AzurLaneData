@@ -17,7 +17,7 @@ return {
 			},
 			arg_list = {
 				detach_id = 29302,
-				attach_id = 29322
+				weapon_id = 29322
 			}
 		}
 	}

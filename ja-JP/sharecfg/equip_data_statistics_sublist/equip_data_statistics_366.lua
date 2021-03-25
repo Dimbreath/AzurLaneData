@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.equip_data_statistics_366 = {
+	[85051] = {
+		anti_siren = 100,
+		damage = "15 x 6",
+		base = 85040,
+		id = 85051,
+		weapon_id = {
+			85051
+		}
+	},
+	[85052] = {
+		anti_siren = 200,
+		damage = "15 x 6",
+		base = 85040,
+		id = 85052,
+		weapon_id = {
+			85052
+		}
+	},
 	[85053] = {
 		anti_siren = 300,
 		damage = "15 x 6",
@@ -216,74 +234,6 @@ pg.equip_data_statistics_366 = {
 		base = 85120,
 		weapon_id = {
 			85125
-		}
-	},
-	[85126] = {
-		id = 85126,
-		damage = "10 x 6",
-		base = 85120,
-		weapon_id = {
-			85126
-		}
-	},
-	[85140] = {
-		name = "152mm三連装砲B-38 MK5",
-		speciality = "追尾",
-		type = 2,
-		tech = 2,
-		descrip = "0",
-		value_2 = 25,
-		icon = "85120",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "6 x 6",
-		nationality = 7,
-		ammo = 2,
-		value_3 = 0,
-		id = 85140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1207
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1207
-			},
-			{
-				4,
-				1110
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			85140
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"CL",
-			"MG",
-			"HE"
 		}
 	}
 }

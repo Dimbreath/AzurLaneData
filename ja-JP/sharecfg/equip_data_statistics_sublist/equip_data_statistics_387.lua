@@ -1,5 +1,17 @@
 pg = pg or {}
 pg.equip_data_statistics_387 = {
+	[89266] = {
+		id = 89266,
+		value_2 = 22,
+		value_1 = "26",
+		base = 89260
+	},
+	[89267] = {
+		id = 89267,
+		value_2 = 24,
+		value_1 = "28",
+		base = 89260
+	},
 	[89268] = {
 		id = 89268,
 		value_2 = 26,
@@ -216,80 +228,6 @@ pg.equip_data_statistics_387 = {
 		base = 90020,
 		weapon_id = {
 			90023
-		}
-	},
-	[90040] = {
-		name = "130mm単装砲Mle1924",
-		speciality = "追尾",
-		type = 1,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "50000",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "4 x 5",
-		nationality = 8,
-		ammo = 3,
-		value_3 = 0,
-		id = 90040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2200
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2200
-			},
-			{
-				4,
-				1021
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90040
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"DD",
-			"MG"
-		}
-	},
-	[90041] = {
-		id = 90041,
-		damage = "5 x 5",
-		base = 90040,
-		weapon_id = {
-			90041
 		}
 	}
 }

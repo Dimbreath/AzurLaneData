@@ -2,6 +2,56 @@ pg = pg or {}
 pg.weapon_property_122 = {}
 
 function ()
+	uv0.weapon_property_122[65601] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "文琴佐鱼雷 LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 38,
+		corrected = 100,
+		min_range = 0,
+		id = 65601,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19256
+		},
+		barrage_ID = {
+			81007
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_122[65602] = {
+		id = 65602,
+		name = "文琴佐鱼雷 LV2",
+		damage = 44,
+		base = 65601
+	}
 	uv0.weapon_property_122[65603] = {
 		id = 65603,
 		name = "文琴佐鱼雷 LV3",
@@ -569,55 +619,5 @@ function ()
 		name = "肇和技能弹幕LV9",
 		damage = 16,
 		base = 65651
-	}
-	uv0.weapon_property_122[65660] = {
-		id = 65660,
-		name = "肇和技能弹幕LV10",
-		damage = 18,
-		base = 65651
-	}
-	uv0.weapon_property_122[65661] = {
-		action_index = "attack",
-		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "神速技能弹幕LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 18,
-		corrected = 100,
-		min_range = 0,
-		id = 65661,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19262
-		},
-		barrage_ID = {
-			81023
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

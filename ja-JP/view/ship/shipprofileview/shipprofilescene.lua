@@ -191,6 +191,7 @@ function slot0.InitSkinList(slot0)
 
 				uv1.prevSkinBtn = uv0
 			end, SFX_PANEL)
+			setActive(slot2, slot3.skin_type == ShipSkin.SKIN_TYPE_DEFAULT or not HXSet.isHxSkin())
 		end
 	end)
 	slot0.UISkinList:align(#slot0.groupSkinList)
@@ -515,14 +516,7 @@ function slot0.OnCVBtnClick(slot0, slot1)
 				parallelAsync({
 					function (slot0)
 						uv0:RemoveLive2DTimer()
-
-						if uv1.voice.key == "propose" then
-							uv0.Live2DTimer = LeanTween.delayedCall(ProposeUI.Live2DProposeDelayTime, System.Action(function ()
-								uv0.l2dChar:TriggerAction(uv1.l2d_action, uv2)
-							end)).id
-						else
-							uv0.l2dChar:TriggerAction(uv2.l2d_action, slot0)
-						end
+						uv0.l2dChar:TriggerAction(uv1.l2d_action, slot0)
 					end,
 					function (slot0)
 						uv0:PlayVoice(uv1, uv2)

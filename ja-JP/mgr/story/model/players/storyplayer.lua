@@ -103,14 +103,14 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 			}, slot0)
 		end,
 		function (slot0)
-			if uv1:ExistOption() then
-				uv0:InitBranches(uv2, uv1, slot0, function ()
+			if uv2:ExistOption() then
+				uv0:InitBranches(uv1, uv2, slot0, function ()
 					uv0.isRegisterEvent = true
 
 					if uv0.autoNext then
 						uv0.autoNext = nil
 
-						uv0:DelayCall(0.1, function ()
+						uv0:UnscaleDelayCall(uv1:GetTriggerDelayTime(), function ()
 							uv0:TriggerEventAuto()
 						end)
 					end

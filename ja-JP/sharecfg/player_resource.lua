@@ -490,6 +490,16 @@ pg.player_resource = {
 		name = "wwf2_ping",
 		itemid = 59205
 	},
+	[194] = {
+		id = 194,
+		name = "newmeixire_pt",
+		itemid = 59207
+	},
+	[195] = {
+		id = 195,
+		name = "skinTicket16",
+		itemid = 59208
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -499,6 +509,21 @@ pg.player_resource = {
 		id = 951,
 		name = "unionkr_pt",
 		itemid = 99950
+	},
+	[952] = {
+		id = 952,
+		name = "skinTicketkr",
+		itemid = 99951
+	},
+	[953] = {
+		id = 953,
+		name = "battery3",
+		itemid = 99956
+	},
+	[954] = {
+		id = 954,
+		name = "unionkr_pt_2021",
+		itemid = 99957
 	},
 	[1001] = {
 		id = 1001,
@@ -855,11 +880,26 @@ pg.player_resource = {
 		wwf2_ping = {
 			192
 		},
+		newmeixire_pt = {
+			194
+		},
+		skinTicket16 = {
+			195
+		},
 		yisegefuke_pt1 = {
 			950
 		},
 		unionkr_pt = {
 			951
+		},
+		skinTicketkr = {
+			952
+		},
+		battery3 = {
+			953
+		},
+		unionkr_pt_2021 = {
+			954
 		},
 		vote2019_pt = {
 			1001
@@ -997,8 +1037,13 @@ pg.player_resource = {
 		190,
 		191,
 		192,
+		194,
+		195,
 		950,
 		951,
+		952,
+		953,
+		954,
 		1001,
 		2001,
 		2002,

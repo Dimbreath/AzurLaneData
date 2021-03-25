@@ -1,107 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_2 = {
-	[101360] = {
-		ship_group = 10136,
-		name = "ホビー",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "ベンソン級駆逐艦・ホビー（DD-610)",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "huobi",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 5,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		skin_type = -1,
-		id = 101360,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "huobi",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 151,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.53,
-					1.02,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.45,
-					1.02,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.16,
-					0.09,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.31,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[101361] = {
 		ship_group = 10136,
 		name = "リトルスクールスター",
@@ -1887,6 +1785,210 @@ pg.ship_skin_template_2 = {
 			main_2 = 1.47,
 			touch_special = 0.54,
 			mission = 1.6
+		}
+	},
+	[101450] = {
+		ship_group = 10145,
+		name = "アレン・M・サムナー",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "アレン・M・サムナー級駆逐艦「アレン・M・サムナー」（DD-692)",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "ailunsamuna",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 101450,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ailunsamuna",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 266,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.244,
+					1.085,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.099,
+					1.05,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.402,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[101460] = {
+		ship_group = 10146,
+		name = "ステフェン・ポッター",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "フレッチャー級駆逐艦・キンバリー（DD-538)",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "shidifenbote",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 101460,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "shidifenbote",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 267,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.226,
+					1.007,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.23,
+					1.007,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.521,
+							2.444,
+							0
+						}
+					}
+				}
+			}
 		}
 	},
 	[102010] = {

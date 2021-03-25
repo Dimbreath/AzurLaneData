@@ -3,6 +3,18 @@ slot0.MODE_ASIDE = 1
 slot0.MODE_DIALOGUE = 2
 slot0.MODE_BG = 3
 slot0.MODE_CAROUSE = 4
+slot0.STORY_AUTO_SPEED = {
+	-9,
+	0,
+	5,
+	9
+}
+slot0.TRIGGER_DELAY_TIME = {
+	4,
+	3,
+	1.5,
+	0
+}
 
 function slot0.GetStoryStepCls(slot0)
 	return ({
@@ -41,6 +53,14 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0.skipAll = false
 	slot0.isAuto = false
 	slot0.speed = 0
+end
+
+function slot0.GetTriggerDelayTime(slot0)
+	if table.indexof(uv0.STORY_AUTO_SPEED, slot0.speedData) then
+		return uv0.TRIGGER_DELAY_TIME[slot1] or 0
+	end
+
+	return 0
 end
 
 function slot0.SetAutoPlay(slot0)

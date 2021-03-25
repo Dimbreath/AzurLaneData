@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.enemy_data_statistics_143 = {
+	[10060002] = {
+		cannon = 10,
+		name = "軽巡「Knight」",
+		air = 0,
+		cannon_growth = 846,
+		antisub = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		torpedo = 50,
+		antiaircraft_growth = 2250,
+		reload_growth = 0,
+		dodge_growth = 0,
+		hit_growth = 144,
+		star = 3,
+		hit = 10,
+		antisub_growth = 0,
+		rarity = 3,
+		speed_growth = 0,
+		base = 124,
+		durability = 720,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 140,
+		speed = 15,
+		luck = 0,
+		luck_growth = 0,
+		air_growth = 0,
+		id = 10060002,
+		battle_unit_type = 30,
+		torpedo_growth = 3500,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			800017,
+			100349
+		}
+	},
 	[10060003] = {
 		cannon = 31,
 		name = "戦艦「Rook」",
@@ -605,60 +644,6 @@ pg.enemy_data_statistics_143 = {
 				ID = 50500,
 				LV = 1
 			}
-		}
-	},
-	[10070112] = {
-		cannon = 5,
-		hit_growth = 210,
-		luck_growth = 0,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		armor = 0,
-		dodge = 11,
-		antisub = 0,
-		battle_unit_type = 55,
-		dodge_growth = 156,
-		star = 4,
-		antisub_growth = 0,
-		rarity = 4,
-		base = 250,
-		durability = 1200,
-		armor_growth = 0,
-		torpedo_growth = 1200,
-		speed = 20,
-		luck = 0,
-		id = 10070112,
-		scale = 150,
-		cannon_growth = 1500,
-		pilot_ai_template_id = 20001,
-		reload = 150,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 15,
-		durability_growth = 24500,
-		antiaircraft = 65,
-		antiaircraft_growth = 1000,
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.64,
-							2.22,
-							0
-						}
-					}
-				}
-			}
-		},
-		equipment_list = {
-			531009,
-			531010,
-			531011,
-			531012
 		}
 	}
 }

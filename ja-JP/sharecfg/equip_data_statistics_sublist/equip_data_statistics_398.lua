@@ -1,5 +1,73 @@
 pg = pg or {}
 pg.equip_data_statistics_398 = {
+	[90800] = {
+		name = "155mm単装副砲Mle1920",
+		speciality = "追尾",
+		type = 2,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "50800",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "10 x 4",
+		nationality = 8,
+		ammo = 3,
+		value_3 = 0,
+		id = 90800,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2201
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2200
+			},
+			{
+				4,
+				1025
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90800
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[90801] = {
+		id = 90801,
+		damage = "12 x 4",
+		base = 90800,
+		weapon_id = {
+			90801
+		}
+	},
 	[90802] = {
 		id = 90802,
 		damage = "14 x 4",
@@ -193,75 +261,6 @@ pg.equip_data_statistics_398 = {
 		weapon_id = {
 			90827,
 			88007
-		}
-	},
-	[90840] = {
-		name = "ピエール・ルヴァッスールPL.7攻撃機",
-		type = 8,
-		speciality = "雷撃",
-		rarity = 3,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "50840",
-		attribute_2 = "air",
-		nationality = 8,
-		ammo = 5,
-		value_3 = 0,
-		id = 90840,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50020
-			},
-			{
-				4,
-				51560
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			90840
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"CV",
-			"TB"
-		}
-	},
-	[90841] = {
-		id = 90841,
-		base = 90840,
-		ammo_info = {
-			{
-				6,
-				50021
-			},
-			{
-				4,
-				51561
-			}
-		},
-		weapon_id = {
-			90841
 		}
 	}
 }

@@ -115,6 +115,7 @@ pg.equip_data_statistics_21 = {
 		part_sub = {},
 		equip_parameters = {},
 		label = {
+			"HMS",
 			"DEV"
 		}
 	},

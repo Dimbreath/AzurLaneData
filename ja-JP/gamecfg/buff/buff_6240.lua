@@ -13,7 +13,7 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onAllInStrike"
+				"onAllInStrikeSteady"
 			},
 			arg_list = {
 				skill_id = 6240,

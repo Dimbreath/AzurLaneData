@@ -2,6 +2,18 @@ pg = pg or {}
 pg.weapon_property_119 = {}
 
 function ()
+	uv0.weapon_property_119[65414] = {
+		id = 65414,
+		name = "穗香-类霞樱花天舞袭弹幕LV4",
+		damage = 9,
+		base = 65411
+	}
+	uv0.weapon_property_119[65415] = {
+		id = 65415,
+		name = "穗香-类霞樱花天舞袭弹幕LV5",
+		damage = 10,
+		base = 65411
+	}
 	uv0.weapon_property_119[65416] = {
 		id = 65416,
 		name = "穗香-类霞樱花天舞袭弹幕LV6",
@@ -606,18 +618,6 @@ function ()
 		id = 65472,
 		name = "飞龙META_爆炸花牌LV2",
 		damage = 7,
-		base = 65471
-	}
-	uv0.weapon_property_119[65473] = {
-		id = 65473,
-		name = "飞龙META_爆炸花牌LV3",
-		damage = 8,
-		base = 65471
-	}
-	uv0.weapon_property_119[65474] = {
-		id = 65474,
-		name = "飞龙META_爆炸花牌LV4",
-		damage = 9,
 		base = 65471
 	}
 end()

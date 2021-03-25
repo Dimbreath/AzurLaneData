@@ -1,5 +1,19 @@
 pg = pg or {}
 pg.equip_data_statistics_376 = {
+	[89012] = {
+		id = 89012,
+		anti_siren = 200,
+		base = 89000,
+		value_2 = 17,
+		value_1 = "27"
+	},
+	[89013] = {
+		id = 89013,
+		anti_siren = 300,
+		base = 89000,
+		value_2 = 18,
+		value_1 = "28"
+	},
 	[89020] = {
 		name = "ぴょこぴょこ",
 		tech = 0,
@@ -105,44 +119,5 @@ pg.equip_data_statistics_376 = {
 		base = 89020,
 		value_2 = 2,
 		value_1 = "590"
-	},
-	[89040] = {
-		name = "インテリジェントチップ",
-		tech = 0,
-		type = 10,
-		speciality = "なし",
-		id = 89040,
-		value_2 = 3,
-		icon = "89040",
-		value_1 = "98",
-		attribute_2 = "speed",
-		rarity = 5,
-		descrip = "キズナアイがプラグインを導入するときに使用するチップ…？――もうポンコツだなんて言わせません！",
-		nationality = 104,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "durability",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6400
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[89041] = {
-		id = 89041,
-		value_1 = "112",
-		base = 89040
 	}
 }

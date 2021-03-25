@@ -1,5 +1,75 @@
 pg = pg or {}
 pg.equip_data_statistics_373 = {
+	[85386] = {
+		id = 85386,
+		damage = "64/回",
+		base = 85380,
+		weapon_id = {
+			85386
+		}
+	},
+	[85400] = {
+		name = "100mm連装両用砲B-34 MZ-14",
+		speciality = "対空",
+		type = 6,
+		tech = 3,
+		descrip = "0",
+		value_2 = 25,
+		icon = "85360",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "38/回",
+		nationality = 7,
+		ammo = 5,
+		value_3 = 0,
+		id = 85400,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			85400
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
 	[85401] = {
 		id = 85401,
 		damage = "42/回",
@@ -156,22 +226,6 @@ pg.equip_data_statistics_373 = {
 		base = 85420,
 		weapon_id = {
 			85422
-		}
-	},
-	[85423] = {
-		id = 85423,
-		damage = "70 x 3",
-		base = 85420,
-		weapon_id = {
-			85423
-		}
-	},
-	[85424] = {
-		id = 85424,
-		damage = "76 x 3",
-		base = 85420,
-		weapon_id = {
-			85424
 		}
 	}
 }

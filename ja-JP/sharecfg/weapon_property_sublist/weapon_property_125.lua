@@ -2,6 +2,18 @@ pg = pg or {}
 pg.weapon_property_125 = {}
 
 function ()
+	uv0.weapon_property_125[65778] = {
+		id = 65778,
+		name = "基洛夫技能首轮-带点燃易伤Lv8",
+		damage = 71,
+		base = 65771
+	}
+	uv0.weapon_property_125[65779] = {
+		id = 65779,
+		name = "基洛夫技能首轮-带点燃易伤Lv9",
+		damage = 78,
+		base = 65771
+	}
 	uv0.weapon_property_125[65780] = {
 		id = 65780,
 		name = "基洛夫技能首轮-带点燃易伤Lv10",
@@ -768,18 +780,6 @@ function ()
 		id = 65836,
 		name = "黑方舟技能-虚影强袭Lv6",
 		damage = 57,
-		base = 65831
-	}
-	uv0.weapon_property_125[65837] = {
-		id = 65837,
-		name = "黑方舟技能-虚影强袭Lv7",
-		damage = 64,
-		base = 65831
-	}
-	uv0.weapon_property_125[65838] = {
-		id = 65838,
-		name = "黑方舟技能-虚影强袭Lv8",
-		damage = 71,
 		base = 65831
 	}
 end()

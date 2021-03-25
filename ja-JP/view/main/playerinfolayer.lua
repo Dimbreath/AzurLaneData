@@ -127,6 +127,7 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.swichSkinBtn, function ()
 		uv0:emit(PlayerInfoMediator.CHANGE_SKIN, uv0.flagShip)
 	end)
+	setActive(slot0.swichSkinBtn, not HXSet.isHxSkin())
 	onButton(slot0, slot0.writeBtn, function ()
 		activateInputField(uv0.inputField)
 	end, SFX_PANEL)
@@ -197,38 +198,43 @@ function slot0.showCharacters(slot0)
 	slot0:updateSecretaryMax()
 	slot0:initCharacters()
 	setActive(slot0.characters, true)
-	setActive(slot0.hzszBtn, true)
 	setActive(slot0.replaceBtn, false)
 	setActive(slot0.helpBtn, true)
 	setActive(slot0.rightPanel, false)
 	setActive(slot0.bottomPanel, false)
 	setActive(slot0.swichSkinBtn, false)
 	setActive(slot0.paintContain, false)
-	onToggle(slot0, slot0.hzszBtn, function (slot0)
-		setActive(uv0:findTF("setting_on", uv0.hzszBtn), slot0)
 
-		slot4 = "setting_off"
-		slot5 = uv0.hzszBtn
+	if not HXSet.isHxSkin() then
+		setActive(slot0.hzszBtn, true)
+		onToggle(slot0, slot0.hzszBtn, function (slot0)
+			setActive(uv0:findTF("setting_on", uv0.hzszBtn), slot0)
 
-		setActive(uv0:findTF(slot4, slot5), not slot0)
+			slot4 = "setting_off"
+			slot5 = uv0.hzszBtn
 
-		for slot4, slot5 in ipairs(uv0.cards) do
-			if slot5.state == STATE_INFO then
-				setActive(slot5.tr:Find("mask"), slot0)
+			setActive(uv0:findTF(slot4, slot5), not slot0)
+
+			for slot4, slot5 in ipairs(uv0.cards) do
+				if slot5.state == STATE_INFO then
+					setActive(slot5.tr:Find("mask"), slot0)
+				end
 			end
-		end
 
-		if slot0 then
-			for slot4 = 1, 5 do
-				uv0:detachOnCardButton(uv0.cards[slot4])
+			if slot0 then
+				for slot4 = 1, 5 do
+					uv0:detachOnCardButton(uv0.cards[slot4])
+				end
+			else
+				for slot4 = 1, uv0.secretary_max do
+					uv0:attachOnCardButton(uv0.cards[slot4])
+				end
 			end
-		else
-			for slot4 = 1, uv0.secretary_max do
-				uv0:attachOnCardButton(uv0.cards[slot4])
-			end
-		end
-	end)
-	triggerToggle(slot0.hzszBtn, false)
+		end)
+		triggerToggle(slot0.hzszBtn, false)
+	else
+		setActive(slot0.hzszBtn, false)
+	end
 end
 
 function slot0.hideCharacters(slot0)
@@ -238,7 +244,13 @@ function slot0.hideCharacters(slot0)
 	setActive(slot0.helpBtn, false)
 	setActive(slot0.rightPanel, true)
 	setActive(slot0.bottomPanel, true)
-	setActive(slot0.swichSkinBtn, slot0.isExistSkin)
+
+	if HXSet.isHxSkin() then
+		setActive(slot0.swichSkinBtn, false)
+	else
+		setActive(slot0.swichSkinBtn, slot0.isExistSkin)
+	end
+
 	slot0:updateLive2DState()
 	slot0:updateBGState()
 	setActive(slot0.paintContain, true)
@@ -473,7 +485,11 @@ end
 function slot0.updateSwichSkinBtn(slot0, slot1)
 	slot0.isExistSkin = slot0:isCurrentShipExistSkin(slot1)
 
-	setActive(slot0.swichSkinBtn, slot0.isExistSkin and not isActive(slot0.characters))
+	if HXSet.isHxSkin() then
+		setActive(slot0.swichSkinBtn, false)
+	else
+		setActive(slot0.swichSkinBtn, slot0.isExistSkin and not isActive(slot0.characters))
+	end
 end
 
 function slot0.isCurrentShipExistSkin(slot0, slot1)

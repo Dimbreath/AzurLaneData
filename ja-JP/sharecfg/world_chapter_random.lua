@@ -3371,7 +3371,7 @@ pg.world_chapter_random = {
 		}
 	},
 	[91] = {
-		name = "NA海域西北A",
+		name = "NA海域北西A",
 		complete_effect = 2,
 		enter_cost = 40,
 		entrance_mapicon = "yahandai",

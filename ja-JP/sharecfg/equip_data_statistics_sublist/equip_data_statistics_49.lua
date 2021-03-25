@@ -45,6 +45,7 @@ pg.equip_data_statistics_49 = {
 		},
 		equip_parameters = {},
 		label = {
+			"IJN",
 			"DEV"
 		}
 	},
@@ -181,6 +182,7 @@ pg.equip_data_statistics_49 = {
 		},
 		equip_parameters = {},
 		label = {
+			"KMS",
 			"DEV"
 		}
 	},

@@ -392,12 +392,7 @@ function slot0.InitStorySpeedPanel(slot0, slot1)
 		end, SFX_PANEL)
 		setText(slot10:Find("Text"), i18n("setting_story_speed_" .. slot9))
 
-		if slot9 == (table.indexof({
-			-9,
-			0,
-			5,
-			9
-		}, getProxy(SettingsProxy):GetStorySpeed()) or 2) then
+		if slot9 == (table.indexof(Story.STORY_AUTO_SPEED, getProxy(SettingsProxy):GetStorySpeed()) or 2) then
 			triggerToggle(slot10, true)
 		end
 	end

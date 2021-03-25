@@ -1,5 +1,19 @@
 pg = pg or {}
 pg.equip_data_statistics_383 = {
+	[89172] = {
+		id = 89172,
+		anti_siren = 200,
+		base = 89160,
+		value_2 = 34,
+		value_1 = "41"
+	},
+	[89173] = {
+		id = 89173,
+		anti_siren = 300,
+		base = 89160,
+		value_2 = 36,
+		value_1 = "44"
+	},
 	[89180] = {
 		name = "輝けるアストラム",
 		tech = 0,
@@ -114,44 +128,5 @@ pg.equip_data_statistics_383 = {
 		base = 89180,
 		value_2 = 36,
 		value_1 = "44"
-	},
-	[89200] = {
-		name = "グラヴィティシューズ",
-		tech = 0,
-		type = 10,
-		speciality = "なし",
-		id = 89200,
-		value_2 = 1,
-		icon = "89200",
-		value_1 = "13",
-		attribute_2 = "speed",
-		rarity = 5,
-		descrip = "「名付けて、なりきりアイドルにゃ！」装備艦船は「μ兵装」としても扱われます",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "dodge",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6690
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[89201] = {
-		id = 89201,
-		value_1 = "14",
-		base = 89200
 	}
 }

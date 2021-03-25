@@ -725,21 +725,33 @@ function slot0.displayShipWord(slot0, slot1)
 			end)
 		end
 
-		if slot0.l2dChar and slot7 and slot7 ~= 0 then
-			slot0._delayVoiceTweenID = LeanTween.delayedCall(slot7, System.Action(function ()
-				uv0()
+		slot9 = uv0.Live2DProposeDelayTime
 
-				uv1._delayVoiceTweenID = nil
-			end)).uniqueId
-		else
-			slot8()
+		if not slot0:useL2dOrPainting() then
+			slot9 = 0
 		end
+
+		table.insert(slot0.tweenList, LeanTween.delayedCall(slot9, System.Action(function ()
+			if uv0.l2dChar and uv1 and uv1 ~= 0 then
+				uv0._delayVoiceTweenID = LeanTween.delayedCall(uv1, System.Action(function ()
+					uv0()
+
+					uv1._delayVoiceTweenID = nil
+				end)).uniqueId
+			else
+				uv2()
+			end
+		end)).uniqueId)
 	end
+end
+
+function slot0.useL2dOrPainting(slot0)
+	return PathMgr.FileExists(PathMgr.getAssetBundle("live2d/" .. string.lower(slot0.paintingName)))
 end
 
 function slot0.showStoryUI(slot0, slot1)
 	function slot2()
-		if PathMgr.FileExists(PathMgr.getAssetBundle("live2d/" .. string.lower(uv0.paintingName))) then
+		if uv0:useL2dOrPainting() then
 			uv0:showLive2D("wedding")
 		else
 			uv0:showPainting(true, 2)

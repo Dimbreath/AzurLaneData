@@ -10,7 +10,7 @@ end
 
 function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._detachID = slot0._tempData.arg_list.detach_id
-	slot0._attachID = slot0._tempData.arg_list.attach_id
+	slot0._attachID = slot0._tempData.arg_list.weapon_id
 end
 
 function slot1.onAttach(slot0, slot1, slot2)

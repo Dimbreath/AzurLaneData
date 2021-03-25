@@ -234,11 +234,18 @@ function slot0.onInitCard(slot0, slot1)
 
 	onButton(slot0, slot2.go, function ()
 		if uv0.shipGroup then
-			if #uv1(uv0.shipGroup.id) > 1 then
-				uv3:openSelectSkinPanel(slot0, uv2(uv0.shipGroup.id))
+			if HXSet.isHxSkin() then
+				uv1:emit(uv2.SELECT_CHAR, ShipGroup.getDefaultSkin(uv0.shipGroup.id).id)
+				uv1:back()
+
+				return
+			end
+
+			if #uv3(uv0.shipGroup.id) > 1 then
+				uv1:openSelectSkinPanel(slot0, uv4(uv0.shipGroup.id))
 			elseif #slot0 == 1 then
-				uv3:emit(uv4.SELECT_CHAR, slot0[1].id)
-				uv3:back()
+				uv1:emit(uv2.SELECT_CHAR, slot0[1].id)
+				uv1:back()
 			end
 		end
 	end)

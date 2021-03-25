@@ -21480,6 +21480,269 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5591] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5429,
+		type = 5,
+		name = "作業依頼（クエスト）お受けします",
+		count_inherit = 0,
+		desc = "魚雷天ぷらを3個準備する（消費）",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "danfo",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5592",
+		visibility = 1,
+		story_id = "DANFO1",
+		target_id_for_client = 50003,
+		id = 5591,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5592] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5430,
+		type = 5,
+		name = "初のクエスト、初のパーティ",
+		count_inherit = 0,
+		desc = "任意の艦を10回強化する",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "danfo",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5593",
+		visibility = 1,
+		story_id = "DANFO2",
+		target_id_for_client = 0,
+		id = 5592,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5593] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5431,
+		type = 5,
+		name = "騎士は助言が必要",
+		count_inherit = 0,
+		desc = "デンバーを含めた艦隊で出撃し、20回勝利する",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "danfo",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5594",
+		visibility = 1,
+		story_id = "DANFO3",
+		target_id_for_client = 10215,
+		id = 5593,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "10215",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5594] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5432,
+		type = 5,
+		name = "騎士の姉と妹",
+		count_inherit = 0,
+		desc = "デンバーを含めた艦隊で3回デイリーチャレンジをクリアする",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "danfo",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5595",
+		visibility = 1,
+		story_id = "DANFO4",
+		target_id_for_client = 10215,
+		id = 5594,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "10215",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5595] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5433,
+		type = 5,
+		name = "ライバルの依頼",
+		count_inherit = 0,
+		desc = "デンバーの親密度が100に到達",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "danfo",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5596",
+		visibility = 1,
+		story_id = "DANFO5",
+		target_id_for_client = 10215,
+		id = 5595,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "10215",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5596] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5434,
+		type = 5,
+		name = "いざ激突",
+		count_inherit = 0,
+		desc = "デンバーを3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "danfo",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5597",
+		visibility = 1,
+		story_id = "DANFO6",
+		target_id_for_client = 102154,
+		id = 5596,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "102154",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5597] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5435,
+		type = 5,
+		name = "まっすぐな誓い",
+		count_inherit = 0,
+		desc = "デンバーのレベルが100に到達",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "danfo",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "DANFO7",
+		target_id_for_client = 10215,
+		id = 5597,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "10215",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				2
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -119944,6 +120207,1004 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[16520] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94850,
+		type = 36,
+		name = "『箱庭疗法复刻』-日常建造",
+		count_inherit = 0,
+		desc = "3回建造する",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16520,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59207,
+				300
+			}
+		}
+	},
+	[16521] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94851,
+		type = 36,
+		name = "『箱庭疗法复刻』-日常出击",
+		count_inherit = 0,
+		desc = "艦隊を出撃させ、15回勝利せよ！",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16521,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59207,
+				300
+			}
+		}
+	},
+	[16522] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94852,
+		type = 36,
+		name = "『箱庭疗法复刻』-日常困难本",
+		count_inherit = 0,
+		desc = "通常海域ハードを1回クリアする",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16522,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59207,
+				100
+			}
+		}
+	},
+	[16523] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94853,
+		type = 6,
+		name = "『箱庭疗法复刻』通关A1/C1",
+		count_inherit = 0,
+		desc = "イベントステージA1かC1をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16524",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16523,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1490001,
+			1490011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59207,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16524] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94854,
+		type = 6,
+		name = "『箱庭疗法复刻』通关A2/C2",
+		count_inherit = 0,
+		desc = "イベントステージA2かC2をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16525",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16524,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1490002,
+			1490012
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59207,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16525] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94855,
+		type = 6,
+		name = "『箱庭疗法复刻』通关A3/C3",
+		count_inherit = 0,
+		desc = "イベントステージA3かC3をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16526",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16525,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1490003,
+			1490013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59207,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16526] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94856,
+		type = 6,
+		name = "『箱庭疗法复刻』通关B1/D1",
+		count_inherit = 0,
+		desc = "イベントステージB1かD1をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16527",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16526,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1490004,
+			1490014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59207,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16527] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94857,
+		type = 6,
+		name = "『箱庭疗法复刻』通关B2/D2",
+		count_inherit = 0,
+		desc = "イベントステージB2かD2をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16528",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16527,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1490005,
+			1490015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59207,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16528] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94858,
+		type = 6,
+		name = "『箱庭疗法复刻』通关B3/D3",
+		count_inherit = 0,
+		desc = "イベントステージB3かD3をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16529",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16528,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1490006,
+			1490016
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59207,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16529] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94859,
+		type = 6,
+		name = "『箱庭疗法复刻』通关SP",
+		count_inherit = 0,
+		desc = "イベントステージSPをクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1490017,
+		id = 16529,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1490017",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16530] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94860,
+		type = 6,
+		name = "『箱庭疗法复刻』通关D3",
+		count_inherit = 0,
+		desc = "イベントステージD3をクリア(2個目は取得できません)",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1490016,
+		id = 16530,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1490016",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				148,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16531] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94861,
+		type = 6,
+		name = "『箱庭疗法复刻』A1/C1的3星",
+		count_inherit = 0,
+		desc = "A1かC1の作戦目標(星3つ)を全て達成!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16532",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16531,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1490001,
+			1490011
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16532] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94862,
+		type = 6,
+		name = "『箱庭疗法复刻』A2/C2的3星",
+		count_inherit = 0,
+		desc = "A2かC2の作戦目標(星3つ)を全て達成!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16533",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16532,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1490002,
+			1490012
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16533] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94863,
+		type = 6,
+		name = "『箱庭疗法复刻』A3/C3的3星",
+		count_inherit = 0,
+		desc = "A3かC3の作戦目標(星3つ)を全て達成!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16534",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16533,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1490003,
+			1490013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16534] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94864,
+		type = 6,
+		name = "『箱庭疗法复刻』B1/D1的3星",
+		count_inherit = 0,
+		desc = "B1かD1の作戦目標(星3つ)を全て達成!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16535",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16534,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1490004,
+			1490014
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16535] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94865,
+		type = 6,
+		name = "『箱庭疗法复刻』B2/D2的3星",
+		count_inherit = 0,
+		desc = "B2かD2の作戦目標(星3つ)を全て達成!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16536",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16535,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1490005,
+			1490015
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16536] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 94866,
+		type = 6,
+		name = "『箱庭疗法复刻』B3/D3的3星",
+		count_inherit = 0,
+		desc = "B3かD3の作戦目標(星3つ)を全て達成!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16536,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1490006,
+			1490016
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16537] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94867,
+		type = 6,
+		name = "『箱庭疗法复刻』登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "ゲームにログインせよ！",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16537,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				195,
+				2
+			}
+		}
+	},
+	[16538] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94868,
+		type = 6,
+		name = "『箱庭疗法复刻』角色收集总任务",
+		count_inherit = 0,
+		desc = "実績取得後に報酬を獲得可能",
+		target_id_2 = "",
+		sub_type = 90,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16538,
+		target_num = 7,
+		fix_task = 0,
+		target_id = {
+			16539,
+			16540,
+			16541,
+			16542,
+			16543,
+			16544,
+			16545
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54005,
+				5
+			}
+		}
+	},
+	[16539] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "『箱庭疗法复刻』角色收集：阿拉巴马",
+		count_inherit = 0,
+		desc = "[アラバマ]を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 105204,
+		id = 16539,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "105204",
+		open_need = {},
+		award_display = {}
+	},
+	[16540] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "『箱庭疗法复刻』角色收集：棘鳍",
+		count_inherit = 0,
+		desc = "[カヴァラ]を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 108034,
+		id = 16540,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "108034",
+		open_need = {},
+		award_display = {}
+	},
+	[16541] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "『箱庭疗法复刻』角色收集：巴尔的摩",
+		count_inherit = 0,
+		desc = "[ボルチモア]を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 103164,
+		id = 16541,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "103164",
+		open_need = {},
+		award_display = {}
+	},
+	[16542] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "『箱庭疗法复刻』角色收集：巴丹",
+		count_inherit = 0,
+		desc = "[バターン]を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 107294,
+		id = 16542,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "107294",
+		open_need = {},
+		award_display = {}
+	},
+	[16543] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "『箱庭疗法复刻』角色收集：伯明翰",
+		count_inherit = 0,
+		desc = "[バーミンガム]を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 102234,
+		id = 16543,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "102234",
+		open_need = {},
+		award_display = {}
+	},
+	[16544] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "『箱庭疗法复刻』角色收集：艾尔温",
+		count_inherit = 0,
+		desc = "[エールウィン]を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 101404,
+		id = 16544,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "101404",
+		open_need = {},
+		award_display = {}
+	},
+	[16545] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "『箱庭疗法复刻』角色收集：圣胡安",
+		count_inherit = 0,
+		desc = "[サンフアン]を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 102224,
+		id = 16545,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "102224",
+		open_need = {},
+		award_display = {}
+	},
 	[30201] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -124810,6 +126071,10 @@ pg.task_data_template = {
 			{
 				2,
 				18
+			},
+			{
+				2,
+				19
 			}
 		},
 		open_need = {},
@@ -124854,6 +126119,10 @@ pg.task_data_template = {
 			{
 				2,
 				18
+			},
+			{
+				2,
+				19
 			}
 		},
 		open_need = {},
@@ -124956,6 +126225,10 @@ pg.task_data_template = {
 			{
 				2,
 				18
+			},
+			{
+				2,
+				19
 			}
 		},
 		open_need = {
@@ -125470,6 +126743,10 @@ pg.task_data_template = {
 			{
 				3,
 				18
+			},
+			{
+				3,
+				19
 			}
 		},
 		open_need = {},
@@ -125514,6 +126791,10 @@ pg.task_data_template = {
 			{
 				3,
 				18
+			},
+			{
+				3,
+				19
 			}
 		},
 		open_need = {},
@@ -125616,6 +126897,10 @@ pg.task_data_template = {
 			{
 				3,
 				18
+			},
+			{
+				3,
+				19
 			}
 		},
 		open_need = {
@@ -126130,6 +127415,10 @@ pg.task_data_template = {
 			{
 				4,
 				18
+			},
+			{
+				4,
+				19
 			}
 		},
 		open_need = {},
@@ -126174,6 +127463,10 @@ pg.task_data_template = {
 			{
 				4,
 				18
+			},
+			{
+				4,
+				19
 			}
 		},
 		open_need = {},
@@ -126276,6 +127569,10 @@ pg.task_data_template = {
 			{
 				4,
 				18
+			},
+			{
+				4,
+				19
 			}
 		},
 		open_need = {
@@ -126436,6 +127733,10 @@ pg.task_data_template = {
 			{
 				1,
 				18
+			},
+			{
+				1,
+				19
 			}
 		},
 		open_need = {},
@@ -126480,6 +127781,10 @@ pg.task_data_template = {
 			{
 				1,
 				18
+			},
+			{
+				1,
+				19
 			}
 		},
 		open_need = {},
@@ -126582,6 +127887,10 @@ pg.task_data_template = {
 			{
 				1,
 				18
+			},
+			{
+				1,
+				19
 			}
 		},
 		open_need = {
@@ -126769,6 +128078,10 @@ pg.task_data_template = {
 			{
 				1,
 				18
+			},
+			{
+				1,
+				19
 			}
 		},
 		open_need = {},
@@ -126871,6 +128184,10 @@ pg.task_data_template = {
 			{
 				1,
 				18
+			},
+			{
+				1,
+				19
 			}
 		},
 		open_need = {
@@ -127379,6 +128696,10 @@ pg.task_data_template = {
 			{
 				3,
 				18
+			},
+			{
+				3,
+				19
 			}
 		},
 		open_need = {},
@@ -127481,6 +128802,10 @@ pg.task_data_template = {
 			{
 				3,
 				18
+			},
+			{
+				3,
+				19
 			}
 		},
 		open_need = {
@@ -127786,6 +129111,10 @@ pg.task_data_template = {
 			{
 				3,
 				18
+			},
+			{
+				3,
+				19
 			}
 		},
 		open_need = {
@@ -128770,6 +130099,10 @@ pg.task_data_template = {
 			{
 				2,
 				18
+			},
+			{
+				2,
+				19
 			}
 		},
 		open_need = {},
@@ -128872,6 +130205,10 @@ pg.task_data_template = {
 			{
 				2,
 				18
+			},
+			{
+				2,
+				19
 			}
 		},
 		open_need = {
@@ -129059,6 +130396,10 @@ pg.task_data_template = {
 			{
 				2,
 				18
+			},
+			{
+				2,
+				19
 			}
 		},
 		open_need = {},
@@ -129161,6 +130502,10 @@ pg.task_data_template = {
 			{
 				2,
 				18
+			},
+			{
+				2,
+				19
 			}
 		},
 		open_need = {
@@ -129348,6 +130693,10 @@ pg.task_data_template = {
 			{
 				4,
 				18
+			},
+			{
+				4,
+				19
 			}
 		},
 		open_need = {},
@@ -129450,6 +130799,10 @@ pg.task_data_template = {
 			{
 				4,
 				18
+			},
+			{
+				4,
+				19
 			}
 		},
 		open_need = {
@@ -131253,6 +132606,13 @@ pg.task_data_template = {
 		5585,
 		5586,
 		5587,
+		5591,
+		5592,
+		5593,
+		5594,
+		5595,
+		5596,
+		5597,
 		6001,
 		6002,
 		6003,
@@ -133848,6 +135208,32 @@ pg.task_data_template = {
 		16505,
 		16506,
 		16507,
+		16520,
+		16521,
+		16522,
+		16523,
+		16524,
+		16525,
+		16526,
+		16527,
+		16528,
+		16529,
+		16530,
+		16531,
+		16532,
+		16533,
+		16534,
+		16535,
+		16536,
+		16537,
+		16538,
+		16539,
+		16540,
+		16541,
+		16542,
+		16543,
+		16544,
+		16545,
 		30201,
 		30202,
 		31001,

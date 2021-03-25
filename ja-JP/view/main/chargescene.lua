@@ -91,7 +91,8 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
-	PlayerPrefs.SetInt("Ever_Enter_Mall_" .. Goods.CUR_PACKET_ID, 1)
+	TagTipHelper.SetFuDaiTagMark()
+	TagTipHelper.SetSkinTagMark()
 
 	if getProxy(ActivityProxy):getActiveBannerByType(GAMEUI_BANNER_9) ~= nil then
 		LoadImageSpriteAsync("activitybanner/" .. slot3.pic, slot0:findTF("skin_shop", slot0.menu))

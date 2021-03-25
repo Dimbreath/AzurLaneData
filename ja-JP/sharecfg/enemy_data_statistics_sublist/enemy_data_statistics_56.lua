@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_56 = {
+	[7007] = {
+		cannon = 50,
+		name = "シラヌイ",
+		hit_growth = 210,
+		speed_growth = 0,
+		antiaircraft_growth = 2200,
+		air = 0,
+		antisub = 0,
+		armor = 0,
+		rarity = 3,
+		antiaircraft = 17,
+		dodge_growth = 360,
+		star = 4,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 170,
+		durability = 2400,
+		armor_growth = 0,
+		torpedo_growth = 5000,
+		speed = 33,
+		luck = 0,
+		id = 7007,
+		cannon_growth = 500,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 13,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 100,
+		durability_growth = 34000,
+		luck_growth = 0,
+		battle_unit_type = 50,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			100211,
+			100432
+		}
+	},
 	[7008] = {
 		cannon = 80,
 		name = "ユウダチ",
@@ -572,46 +612,6 @@ pg.enemy_data_statistics_56 = {
 		antisub = 0,
 		appear_fx = {
 			"appearsmall"
-		}
-	},
-	[7022] = {
-		cannon = 0,
-		name = "量産型PTボート",
-		hit_growth = 120,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		antisub = 0,
-		armor = 0,
-		rarity = 1,
-		antiaircraft = 0,
-		dodge_growth = 0,
-		star = 1,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 70,
-		durability = 300,
-		armor_growth = 0,
-		torpedo_growth = 864,
-		speed = 15,
-		luck = 0,
-		id = 7022,
-		wave_fx = "danchuanlanghuaxiao2",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 8,
-		torpedo = 10,
-		durability_growth = 2550,
-		luck_growth = 0,
-		battle_unit_type = 35,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			317039
 		}
 	}
 }

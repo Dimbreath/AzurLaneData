@@ -3,6 +3,7 @@ pg.pay_data_display = {
 	{
 		limit_arg = 7,
 		descrip_extra = "",
+		type = 0,
 		name = "貿易許可証（30日間）",
 		descrip = "ダイヤ$1個+30日間毎日資源が貰える",
 		subject = "貿易許可証（30日間）",
@@ -41,6 +42,7 @@ pg.pay_data_display = {
 	{
 		limit_arg = 1,
 		descrip_extra = "",
+		type = 0,
 		name = "新規着任パック",
 		descrip = "ダイヤなどのアイテムを入手可能",
 		subject = "新規着任パック",
@@ -95,11 +97,12 @@ pg.pay_data_display = {
 	{
 		limit_arg = 10,
 		descrip_extra = "",
-		extra_service_item = "0",
+		type = 0,
 		name = "ダイヤ一摘み",
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ一摘み",
 		extra_service = 0,
+		extra_service_item = "0",
 		money = 120,
 		tag = 0,
 		gem = 60,
@@ -117,11 +120,12 @@ pg.pay_data_display = {
 	{
 		limit_arg = 10,
 		descrip_extra = "",
-		extra_service_item = "0",
+		type = 0,
 		name = "ダイヤ一握り",
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ一握り",
 		extra_service = 0,
+		extra_service_item = "0",
 		money = 610,
 		tag = 0,
 		gem = 305,
@@ -139,11 +143,12 @@ pg.pay_data_display = {
 	{
 		limit_arg = 0,
 		descrip_extra = "",
-		extra_service_item = "0",
+		type = 0,
 		name = "ダイヤ一袋",
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ一袋",
 		extra_service = 0,
+		extra_service_item = "0",
 		money = 1220,
 		tag = 0,
 		gem = 610,
@@ -161,11 +166,12 @@ pg.pay_data_display = {
 	{
 		limit_arg = 0,
 		descrip_extra = "",
-		extra_service_item = "0",
+		type = 0,
 		name = "ダイヤ小箱",
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ小箱",
 		extra_service = 0,
+		extra_service_item = "0",
 		money = 2440,
 		tag = 0,
 		gem = 1220,
@@ -183,11 +189,12 @@ pg.pay_data_display = {
 	{
 		limit_arg = 0,
 		descrip_extra = "",
-		extra_service_item = "0",
+		type = 0,
 		name = "ダイヤ大箱",
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ大箱",
 		extra_service = 0,
+		extra_service_item = "0",
 		money = 4900,
 		tag = 0,
 		gem = 2450,
@@ -205,11 +212,12 @@ pg.pay_data_display = {
 	{
 		limit_arg = 0,
 		descrip_extra = "",
-		extra_service_item = "0",
+		type = 0,
 		name = "ダイヤ一船",
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ一船",
 		extra_service = 0,
+		extra_service_item = "0",
 		money = 10000,
 		tag = 1,
 		gem = 5000,
@@ -227,6 +235,7 @@ pg.pay_data_display = {
 	{
 		limit_arg = 1,
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\n※すでに所有している衣装を入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
 		name = "福袋",
 		descrip = "アイテム・資源とランダムに正月シリーズの着せ替え衣装を入手可能",
 		subject = "福袋",
@@ -321,6 +330,7 @@ pg.pay_data_display = {
 	{
 		limit_arg = 1,
 		descrip_extra = "アプリストア新生活キャンペーン特典",
+		type = 0,
 		name = "新生活キャンペｰン",
 		descrip = "など6つのアイテム",
 		subject = "新生活キャンペｰン",
@@ -415,6 +425,7 @@ pg.pay_data_display = {
 	{
 		limit_arg = 1,
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の初回割引販売時の価格分の無償ダイヤに変換されます。",
+		type = 1,
 		name = "一周年福袋",
 		descrip = "アイテム・資源とランダムにドレスシリーズの着せ替え衣装を入手可能",
 		subject = "福袋",
@@ -509,6 +520,7 @@ pg.pay_data_display = {
 	{
 		limit_arg = 1,
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
 		name = "福袋2019",
 		descrip = "アイテム・資源とランダムにお正月シリーズの着せ替え衣装を入手可能",
 		subject = "福袋2019",
@@ -603,6 +615,7 @@ pg.pay_data_display = {
 	{
 		limit_arg = 1,
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
 		name = "春節福袋",
 		descrip = "アイテム・資源とランダムに旧正月2019シリーズの着せ替え衣装を入手可能",
 		subject = "福袋",
@@ -697,6 +710,7 @@ pg.pay_data_display = {
 	{
 		limit_arg = 1,
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
 		name = "福袋",
 		descrip = "アイテム・資源とランダムにドレスシリーズの着せ替え衣装を入手可能",
 		subject = "福袋",
@@ -791,6 +805,7 @@ pg.pay_data_display = {
 	{
 		limit_arg = 1,
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
 		name = "二週年福袋",
 		descrip = "アイテム・資源とランダムにドレスシリーズの着せ替え衣装を入手可能",
 		subject = "二週年福袋",
@@ -885,6 +900,7 @@ pg.pay_data_display = {
 	{
 		limit_arg = 1,
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
 		name = "新年福袋2020",
 		descrip = "アイテム・資源とランダムにお正月2020シリーズの着せ替え衣装を入手可能",
 		subject = "新年福袋2020",
@@ -984,6 +1000,7 @@ pg.pay_data_display = {
 	{
 		limit_arg = 1,
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
 		name = "新年福袋復刻(2019)",
 		descrip = "アイテム・資源とランダムにお正月2019シリーズの着せ替え衣装を入手可能",
 		subject = "新年福袋復刻(2019)",
@@ -1078,6 +1095,7 @@ pg.pay_data_display = {
 	{
 		limit_arg = 1,
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
 		name = "春節福袋2020",
 		descrip = "アイテム・資源とランダムに旧正月2020シリーズの着せ替え衣装を入手可能",
 		subject = "春節福袋2020",
@@ -1177,6 +1195,7 @@ pg.pay_data_display = {
 	{
 		limit_arg = 1,
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
 		name = "春節福袋復刻(2019)",
 		descrip = "アイテム・資源とランダムに旧正月2019シリーズの着せ替え衣装を入手可能",
 		subject = "春節福袋復刻(2019)",
@@ -1271,6 +1290,7 @@ pg.pay_data_display = {
 	{
 		limit_arg = 1,
 		descrip_extra = "お得パックのアイテムはメールボックスに送られます ",
+		type = 0,
 		name = "着任応援パック・Ⅰ",
 		descrip = "ダイヤ×180、燃料貯蔵箱(1000)×2などのアイテムを入手可能",
 		subject = "着任応援パック・Ⅰ",
@@ -1350,6 +1370,7 @@ pg.pay_data_display = {
 	{
 		limit_arg = 1,
 		descrip_extra = "お得パックのアイテムはメールボックスに送られます ",
+		type = 0,
 		name = "着任応援パック・Ⅱ",
 		descrip = "ダイヤ×780、SSR選択装備箱×2、燃料貯蔵箱(1000)×4などのアイテムを入手可能",
 		subject = "着任応援パック・Ⅱ",
@@ -1454,6 +1475,7 @@ pg.pay_data_display = {
 	{
 		limit_arg = 1,
 		descrip_extra = "お得パックのアイテムはメールボックスに送られます ",
+		type = 0,
 		name = "着任応援パック・Ⅲ",
 		descrip = "ダイヤ×1680、SSR選択装備箱×4、燃料貯蔵箱(1000)×8などのアイテムを入手可能",
 		subject = "着任応援パック・Ⅲ",
@@ -1563,6 +1585,7 @@ pg.pay_data_display = {
 	{
 		limit_arg = 1,
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\n既に所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
 		name = "福袋（夏2020）",
 		descrip = "アイテム・資源とランダムなドレス（夏2020）シリーズの着せ替え衣装を入手可能",
 		subject = "福袋（夏2020）",
@@ -1662,6 +1685,7 @@ pg.pay_data_display = {
 	{
 		limit_arg = 1,
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
 		name = "三周年福袋",
 		descrip = "アイテム・資源とランダムなドレスシリーズの着せ替え衣装を入手可能",
 		subject = "三周年福袋",
@@ -1761,6 +1785,7 @@ pg.pay_data_display = {
 	{
 		limit_arg = 1,
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
 		name = "新年福袋2021",
 		descrip = "アイテム・資源とランダムにお正月2021シリーズの着せ替え衣装を入手可能",
 		subject = "新年福袋2021",
@@ -1860,6 +1885,7 @@ pg.pay_data_display = {
 	{
 		limit_arg = 1,
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
 		name = "新年福袋2020(復刻)",
 		descrip = "アイテム・資源とランダムにお正月2020シリーズの着せ替え衣装を入手可能",
 		subject = "新年福袋2020(復刻)",
@@ -1959,6 +1985,7 @@ pg.pay_data_display = {
 	{
 		limit_arg = 1,
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
 		name = "春節福袋2021",
 		descrip = "アイテム・資源とランダムに旧正月2021シリーズの着せ替え衣装を入手可能",
 		subject = "春節福袋2021",
@@ -2058,6 +2085,7 @@ pg.pay_data_display = {
 	{
 		limit_arg = 1,
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
 		name = "春節福袋2020(復刻)",
 		descrip = "アイテム・資源とランダムに旧正月2020シリーズの着せ替え衣装を入手可能",
 		subject = "春節福袋2020(復刻)",

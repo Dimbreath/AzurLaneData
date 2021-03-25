@@ -88,6 +88,7 @@ pg.equip_data_statistics_10 = {
 		},
 		equip_parameters = {},
 		label = {
+			"IJN",
 			"DEV"
 		}
 	},

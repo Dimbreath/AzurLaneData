@@ -72,4 +72,8 @@ function slot0.InShowTime(slot0)
 	return getProxy(ShipSkinProxy):InShowTime(slot0.id)
 end
 
+function slot0.IsDefault(slot0)
+	return slot0:getConfig("skin_type") == uv0.SKIN_TYPE_DEFAULT
+end
+
 return slot0

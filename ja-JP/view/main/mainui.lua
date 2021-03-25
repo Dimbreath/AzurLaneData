@@ -178,6 +178,7 @@ function slot0.init(slot0)
 	slot0._guildButton = slot0:findTF("toTop/frame/bottomPanel/btm/buttons_container/guildButton")
 	slot0._mallBtn = slot0:findTF("toTop/frame/bottomPanel/btm/buttons_container/mallBtn")
 	slot0._mallSellTag = slot0:findTF("SellTag", slot0._mallBtn)
+	slot0._skinSellTag = slot0:findTF("skinTag", slot0._mallBtn)
 	slot0._montgcardTag = slot0:findTF("MonthcardTag", slot0._mallBtn)
 	slot0._liveBtn = slot0:findTF("toTop/frame/bottomPanel/btm/buttons_container/liveButton")
 	slot0._technologyBtn = slot0:findTF("toTop/frame/bottomPanel/btm/buttons_container/technologyButton")
@@ -946,7 +947,9 @@ function slot0.didEnter(slot0)
 
 	setActive(slot0._settingBottom, false)
 	setActive(slot0._settingRight, false)
-	slot0:UpdateMallBtnMonthcardTag()
+	TagTipHelper.MonthCardTagTip(slot0._montgcardTag)
+	TagTipHelper.SkinTagTip(slot0._skinSellTag)
+	TagTipHelper.FuDaiTagTip(slot0._mallSellTag)
 end
 
 function slot0.openSnapShot(slot0)
@@ -2344,38 +2347,6 @@ function slot0.recycleSpineChar(slot0)
 		slot0.shipPrefab = nil
 		slot0.shipModel = nil
 	end
-end
-
-function slot0.updateMallBtnSellTag(slot0)
-	slot1 = false
-
-	if PlayerPrefs.GetInt("Ever_Enter_Mall_" .. Goods.CUR_PACKET_ID, 0) == 0 then
-		if pg.pay_data_display[slot2] and pg.TimeMgr:GetInstance():inTime(slot4.time) then
-			slot6 = nil
-
-			if getProxy(ShopsProxy):getChargedList() then
-				slot6 = slot5[slot2]
-			end
-
-			if not slot6 or slot6 and slot6.buyCount == 0 then
-				slot1 = true
-			end
-		else
-			slot1 = false
-		end
-	end
-
-	setActive(slot0._mallSellTag, slot1)
-end
-
-function slot0.UpdateMallBtnMonthcardTag(slot0)
-	if go(slot0._mallSellTag).activeSelf then
-		setActive(slot0._montgcardTag, false)
-
-		return
-	end
-
-	setActive(slot0._montgcardTag, MonthCardOutDateTipPanel.GetShowMonthCardTag())
 end
 
 function slot0.checkRefundInfo(slot0, slot1)

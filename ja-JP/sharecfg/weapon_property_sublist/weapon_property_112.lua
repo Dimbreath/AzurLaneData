@@ -343,6 +343,70 @@ function ()
 			79686
 		}
 	}
+	uv0.weapon_property_112[60621] = {
+		action_index = "attack",
+		range = 50,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "艾伦·萨姆纳弹幕展示I",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 1,
+		corrected = 125,
+		min_range = 0,
+		id = 60621,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79691,
+			79691,
+			79693
+		},
+		barrage_ID = {
+			79691,
+			79692,
+			79695
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_112[60622] = {
+		name = "艾伦·萨姆纳弹幕展示II",
+		damage = 1,
+		base = 60621,
+		id = 60622,
+		bullet_ID = {
+			79692,
+			79692,
+			79693
+		},
+		barrage_ID = {
+			79693,
+			79694,
+			79695
+		}
+	}
 	uv0.weapon_property_112[61000] = {
 		action_index = "",
 		range = 100,
@@ -1938,28 +2002,6 @@ function ()
 		damage = 27,
 		base = 64001,
 		id = 64005,
-		barrage_ID = {
-			80991,
-			80992,
-			80993
-		}
-	}
-	uv0.weapon_property_112[64006] = {
-		name = "U-37技能鱼雷弹幕LV6",
-		damage = 29,
-		base = 64001,
-		id = 64006,
-		barrage_ID = {
-			80991,
-			80992,
-			80993
-		}
-	}
-	uv0.weapon_property_112[64007] = {
-		name = "U-37技能鱼雷弹幕LV7",
-		damage = 31,
-		base = 64001,
-		id = 64007,
 		barrage_ID = {
 			80991,
 			80992,

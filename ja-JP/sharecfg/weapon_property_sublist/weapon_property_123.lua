@@ -2,6 +2,56 @@ pg = pg or {}
 pg.weapon_property_123 = {}
 
 function ()
+	uv0.weapon_property_123[65660] = {
+		id = 65660,
+		name = "肇和技能弹幕LV10",
+		damage = 18,
+		base = 65651
+	}
+	uv0.weapon_property_123[65661] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "神速技能弹幕LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 18,
+		corrected = 100,
+		min_range = 0,
+		id = 65661,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19262
+		},
+		barrage_ID = {
+			81023
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_123[65662] = {
 		id = 65662,
 		name = "神速技能弹幕LV2",
@@ -679,24 +729,6 @@ function ()
 		damage = 140,
 		base = 65711,
 		id = 65718,
-		barrage_ID = {
-			81026
-		}
-	}
-	uv0.weapon_property_123[65719] = {
-		name = "贝拉罗斯冰锥5-110-LV9",
-		damage = 152,
-		base = 65711,
-		id = 65719,
-		barrage_ID = {
-			81026
-		}
-	}
-	uv0.weapon_property_123[65720] = {
-		name = "贝拉罗斯冰锥5-110-LV10",
-		damage = 164,
-		base = 65711,
-		id = 65720,
 		barrage_ID = {
 			81026
 		}

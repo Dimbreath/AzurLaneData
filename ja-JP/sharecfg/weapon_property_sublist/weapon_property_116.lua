@@ -2,6 +2,18 @@ pg = pg or {}
 pg.weapon_property_116 = {}
 
 function ()
+	uv0.weapon_property_116[65237] = {
+		id = 65237,
+		name = "大凤μ-吸血弹幕Lv7",
+		damage = 47,
+		base = 65231
+	}
+	uv0.weapon_property_116[65238] = {
+		id = 65238,
+		name = "大凤μ-吸血弹幕Lv8",
+		damage = 49,
+		base = 65231
+	}
 	uv0.weapon_property_116[65239] = {
 		id = 65239,
 		name = "大凤μ-吸血弹幕Lv9",
@@ -681,18 +693,6 @@ function ()
 		id = 65295,
 		name = "穗香弹幕LV5-类佐治亚超重弹2枚",
 		damage = 110,
-		base = 65291
-	}
-	uv0.weapon_property_116[65296] = {
-		id = 65296,
-		name = "穗香弹幕LV6-类佐治亚超重弹2枚",
-		damage = 122,
-		base = 65291
-	}
-	uv0.weapon_property_116[65297] = {
-		id = 65297,
-		name = "穗香弹幕LV7-类佐治亚超重弹2枚",
-		damage = 134,
 		base = 65291
 	}
 end()

@@ -58,6 +58,7 @@ pg.equip_data_statistics_25 = {
 		part_sub = {},
 		equip_parameters = {},
 		label = {
+			"USS",
 			"DEV"
 		}
 	},

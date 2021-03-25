@@ -1,5 +1,41 @@
 pg = pg or {}
 pg.enemy_data_statistics_95 = {
+	[108005] = {
+		cannon = 95,
+		name = "イカヅチ",
+		air = 0,
+		cannon_growth = 0,
+		antisub = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 53,
+		torpedo = 240,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 360,
+		hit_growth = 210,
+		star = 4,
+		hit = 20,
+		antisub_growth = 0,
+		rarity = 3,
+		speed_growth = 0,
+		base = 163,
+		durability = 4300,
+		armor_growth = 0,
+		durability_growth = 25000,
+		antiaircraft = 125,
+		speed = 36,
+		luck = 0,
+		luck_growth = 0,
+		air_growth = 0,
+		id = 108005,
+		battle_unit_type = 50,
+		torpedo_growth = 0,
+		equipment_list = {
+			100223,
+			100432
+		}
+	},
 	[108006] = {
 		cannon = 95,
 		name = "イナヅマ",
@@ -652,75 +688,6 @@ pg.enemy_data_statistics_95 = {
 			100432,
 			318103,
 			100572
-		}
-	},
-	[10805400] = {
-		name = "マヤ",
-		rarity = 4,
-		speed_growth = 0,
-		hit_growth = 210,
-		air = 0,
-		armor = 0,
-		antisub = 0,
-		antiaircraft_growth = 0,
-		antiaircraft = 480,
-		cannon = 560,
-		dodge_growth = 360,
-		star = 5,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 209,
-		durability = 86000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 24,
-		luck = 0,
-		id = 10805400,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20001,
-		reload = 150,
-		dodge = 36,
-		reload_growth = 0,
-		hit = 30,
-		torpedo = 660,
-		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 95,
-		bound_bone = {
-			cannon = {
-				{
-					0.088,
-					0.917,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.694,
-					0.853,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.088,
-					0.917,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.096,
-					3.156,
-					0
-				}
-			}
-		},
-		equipment_list = {
-			100203,
-			100432,
-			318104,
-			318108
 		}
 	}
 }

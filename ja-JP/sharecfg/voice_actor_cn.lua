@@ -1039,5 +1039,13 @@ pg.voice_actor_CN = {
 	[265] = {
 		actor_name = "小坂井祐莉絵",
 		code = 265
+	},
+	[266] = {
+		actor_name = "荻野葉月",
+		code = 266
+	},
+	[267] = {
+		actor_name = "杉浦しおり",
+		code = 267
 	}
 }

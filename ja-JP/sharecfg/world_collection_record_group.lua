@@ -79,7 +79,6 @@ pg.world_collection_record_group = {
 		type = 1,
 		child = {
 			100053,
-			100053,
 			100054,
 			100055,
 			100056,

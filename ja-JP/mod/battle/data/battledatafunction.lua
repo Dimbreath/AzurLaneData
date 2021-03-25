@@ -169,42 +169,48 @@ function slot3.GetResFromBuff(slot0, slot1, slot2, slot3)
 			end
 		end
 
+		if slot11.arg_list.bullet_id then
+			for slot18, slot19 in ipairs(uv1.Battle.BattleResourceManager.GetBulletResource(slot13)) do
+				slot4[#slot4 + 1] = slot19
+			end
+		end
+
 		if slot11.arg_list.skill_id_list ~= nil then
-			for slot17, slot18 in ipairs(slot13) do
-				for slot23, slot24 in ipairs(uv0.GetBulletResFromSkill(slot18, slot1, slot2)) do
-					slot4[#slot4 + 1] = slot24
+			for slot18, slot19 in ipairs(slot14) do
+				for slot24, slot25 in ipairs(uv0.GetBulletResFromSkill(slot19, slot1, slot2)) do
+					slot4[#slot4 + 1] = slot25
 				end
 			end
 		end
 
-		if slot11.arg_list.bullet_id then
-			for slot19, slot20 in ipairs(uv1.Battle.BattleResourceManager.GetBulletResource(slot14)) do
-				slot4[#slot4 + 1] = slot20
-			end
-		end
-
-		if slot11.arg_list.skin_id then
-			for slot20, slot21 in ipairs(uv1.Battle.BattleResourceManager.GetEquipSkinBulletRes(slot15)) do
+		if slot11.arg_list.weapon_id then
+			for slot20, slot21 in ipairs(uv1.Battle.BattleResourceManager.GetWeaponResource(slot15)) do
 				slot4[#slot4 + 1] = slot21
 			end
 		end
 
-		if slot11.arg_list.buff_id then
-			slot21 = slot3
+		if slot11.arg_list.skin_id then
+			for slot21, slot22 in ipairs(uv1.Battle.BattleResourceManager.GetEquipSkinBulletRes(slot16)) do
+				slot4[#slot4 + 1] = slot22
+			end
+		end
 
-			for slot21, slot22 in ipairs(uv0.GetResFromBuff(slot16, slot1, slot2, slot21)) do
-				if type(slot22) == "string" then
-					slot4[#slot4 + 1] = slot22
-				elseif type(slot22) == "table" then
-					for slot26, slot27 in ipairs(slot22) do
-						slot4[#slot4 + 1] = slot27
+		if slot11.arg_list.buff_id then
+			slot22 = slot3
+
+			for slot22, slot23 in ipairs(uv0.GetResFromBuff(slot17, slot1, slot2, slot22)) do
+				if type(slot23) == "string" then
+					slot4[#slot4 + 1] = slot23
+				elseif type(slot23) == "table" then
+					for slot27, slot28 in ipairs(slot23) do
+						slot4[#slot4 + 1] = slot28
 					end
 				end
 			end
 		end
 
 		if slot11.arg_list.effect then
-			slot4[#slot4 + 1] = uv1.Battle.BattleResourceManager.GetFXPath(slot17)
+			slot4[#slot4 + 1] = uv1.Battle.BattleResourceManager.GetFXPath(slot18)
 		end
 	end
 

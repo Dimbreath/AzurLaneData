@@ -1,5 +1,74 @@
 pg = pg or {}
 pg.equip_data_statistics_399 = {
+	[90840] = {
+		name = "ピエール・ルヴァッスールPL.7攻撃機",
+		type = 8,
+		speciality = "雷撃",
+		rarity = 3,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "50840",
+		attribute_2 = "air",
+		nationality = 8,
+		ammo = 5,
+		value_3 = 0,
+		id = 90840,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50020
+			},
+			{
+				4,
+				51560
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			90840
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CV",
+			"TB"
+		}
+	},
+	[90841] = {
+		id = 90841,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50021
+			},
+			{
+				4,
+				51561
+			}
+		},
+		weapon_id = {
+			90841
+		}
+	},
 	[90842] = {
 		id = 90842,
 		base = 90840,
@@ -266,22 +335,6 @@ pg.equip_data_statistics_399 = {
 			"CA",
 			"MG",
 			"HE"
-		}
-	},
-	[90881] = {
-		id = 90881,
-		damage = "30 x 4",
-		base = 90880,
-		weapon_id = {
-			90881
-		}
-	},
-	[90882] = {
-		id = 90882,
-		damage = "32 x 4",
-		base = 90880,
-		weapon_id = {
-			90882
 		}
 	}
 }

@@ -2,6 +2,18 @@ pg = pg or {}
 pg.weapon_property_120 = {}
 
 function ()
+	uv0.weapon_property_120[65473] = {
+		id = 65473,
+		name = "飞龙META_爆炸花牌LV3",
+		damage = 8,
+		base = 65471
+	}
+	uv0.weapon_property_120[65474] = {
+		id = 65474,
+		name = "飞龙META_爆炸花牌LV4",
+		damage = 9,
+		base = 65471
+	}
 	uv0.weapon_property_120[65475] = {
 		name = "飞龙META_爆炸花牌LV5",
 		damage = 10,
@@ -641,17 +653,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_120[65532] = {
-		id = 65532,
-		name = "z24技能弹幕LV2",
-		damage = 12,
-		base = 65531
-	}
-	uv0.weapon_property_120[65533] = {
-		id = 65533,
-		name = "z24技能弹幕LV3",
-		damage = 13,
-		base = 65531
 	}
 end()

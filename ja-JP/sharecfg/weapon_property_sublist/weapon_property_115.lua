@@ -2,6 +2,18 @@ pg = pg or {}
 pg.weapon_property_115 = {}
 
 function ()
+	uv0.weapon_property_115[65178] = {
+		id = 65178,
+		name = "黛朵μ-复数强弹幕LV8",
+		damage = 22,
+		base = 65171
+	}
+	uv0.weapon_property_115[65179] = {
+		id = 65179,
+		name = "黛朵μ-复数强弹幕LV9",
+		damage = 23,
+		base = 65171
+	}
 	uv0.weapon_property_115[65180] = {
 		id = 65180,
 		name = "黛朵μ-复数强弹幕LV10",
@@ -627,18 +639,6 @@ function ()
 		id = 65236,
 		name = "大凤μ-吸血弹幕Lv6",
 		damage = 45,
-		base = 65231
-	}
-	uv0.weapon_property_115[65237] = {
-		id = 65237,
-		name = "大凤μ-吸血弹幕Lv7",
-		damage = 47,
-		base = 65231
-	}
-	uv0.weapon_property_115[65238] = {
-		id = 65238,
-		name = "大凤μ-吸血弹幕Lv8",
-		damage = 49,
 		base = 65231
 	}
 end()

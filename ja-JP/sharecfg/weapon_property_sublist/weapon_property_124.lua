@@ -2,6 +2,24 @@ pg = pg or {}
 pg.weapon_property_124 = {}
 
 function ()
+	uv0.weapon_property_124[65719] = {
+		name = "贝拉罗斯冰锥5-110-LV9",
+		damage = 152,
+		base = 65711,
+		id = 65719,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_124[65720] = {
+		name = "贝拉罗斯冰锥5-110-LV10",
+		damage = 164,
+		base = 65711,
+		id = 65720,
+		barrage_ID = {
+			81026
+		}
+	}
 	uv0.weapon_property_124[65721] = {
 		action_index = "",
 		range = 50,
@@ -669,18 +687,6 @@ function ()
 		id = 65777,
 		name = "基洛夫技能首轮-带点燃易伤Lv7",
 		damage = 64,
-		base = 65771
-	}
-	uv0.weapon_property_124[65778] = {
-		id = 65778,
-		name = "基洛夫技能首轮-带点燃易伤Lv8",
-		damage = 71,
-		base = 65771
-	}
-	uv0.weapon_property_124[65779] = {
-		id = 65779,
-		name = "基洛夫技能首轮-带点燃易伤Lv9",
-		damage = 78,
 		base = 65771
 	}
 end()

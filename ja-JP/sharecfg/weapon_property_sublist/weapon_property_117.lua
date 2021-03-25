@@ -2,6 +2,18 @@ pg = pg or {}
 pg.weapon_property_117 = {}
 
 function ()
+	uv0.weapon_property_117[65296] = {
+		id = 65296,
+		name = "穗香弹幕LV6-类佐治亚超重弹2枚",
+		damage = 122,
+		base = 65291
+	}
+	uv0.weapon_property_117[65297] = {
+		id = 65297,
+		name = "穗香弹幕LV7-类佐治亚超重弹2枚",
+		damage = 134,
+		base = 65291
+	}
 	uv0.weapon_property_117[65298] = {
 		id = 65298,
 		name = "穗香弹幕LV8-类佐治亚超重弹2枚",
@@ -592,18 +604,6 @@ function ()
 		id = 65354,
 		name = "凪咲弹幕技能小子弹LV4",
 		damage = 13,
-		base = 65351
-	}
-	uv0.weapon_property_117[65355] = {
-		id = 65355,
-		name = "凪咲弹幕技能小子弹LV5",
-		damage = 14,
-		base = 65351
-	}
-	uv0.weapon_property_117[65356] = {
-		id = 65356,
-		name = "凪咲弹幕技能小子弹LV6",
-		damage = 15,
 		base = 65351
 	}
 end()

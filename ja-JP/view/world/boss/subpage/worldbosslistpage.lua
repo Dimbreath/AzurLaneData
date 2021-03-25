@@ -268,7 +268,7 @@ function slot0.OnPreviewCard(slot0, slot1, slot2)
 		setActive(slot1:Find("selected/challenging"), not slot4)
 		setActive(slot1:Find("selected/finished"), slot4)
 
-		slot1:Find("tags").anchoredPosition = Vector3(14.2, 41.69, 0)
+		slot1:Find("tags").anchoredPosition = Vector3(-17, 41.69, 0)
 
 		setActive(slot1:Find("tags/friend/Text"), true)
 		setActive(slot1:Find("tags/guild/Text"), true)

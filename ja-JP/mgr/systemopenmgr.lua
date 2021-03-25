@@ -25,6 +25,10 @@ function pm.Facade.sendNotification(slot0, slot1, slot2, slot3)
 			end
 		end
 
+		if HXSet.isHxSkin() and slot5 == "SkinShopMediator" then
+			return
+		end
+
 		uv1(slot0, GAME.CHECK_HOTFIX_VER, {
 			mediatorName = slot5
 		})

@@ -2,6 +2,24 @@ pg = pg or {}
 pg.weapon_property_114 = {}
 
 function ()
+	uv0.weapon_property_114[65099] = {
+		name = "大青花鱼μ上浮破甲鱼雷LV9",
+		damage = 30,
+		base = 65091,
+		id = 65099,
+		barrage_ID = {
+			80503
+		}
+	}
+	uv0.weapon_property_114[65100] = {
+		name = "大青花鱼μ上浮破甲鱼雷LV10",
+		damage = 33,
+		base = 65091,
+		id = 65100,
+		barrage_ID = {
+			80503
+		}
+	}
 	uv0.weapon_property_114[65101] = {
 		action_index = "",
 		range = 90,
@@ -623,18 +641,6 @@ function ()
 		id = 65177,
 		name = "黛朵μ-复数强弹幕LV7",
 		damage = 21,
-		base = 65171
-	}
-	uv0.weapon_property_114[65178] = {
-		id = 65178,
-		name = "黛朵μ-复数强弹幕LV8",
-		damage = 22,
-		base = 65171
-	}
-	uv0.weapon_property_114[65179] = {
-		id = 65179,
-		name = "黛朵μ-复数强弹幕LV9",
-		damage = 23,
 		base = 65171
 	}
 end()

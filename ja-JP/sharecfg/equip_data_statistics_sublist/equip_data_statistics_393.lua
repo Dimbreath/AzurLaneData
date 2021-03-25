@@ -1,5 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_393 = {
+	[90401] = {
+		id = 90401,
+		damage = "46 x 4",
+		base = 90400,
+		weapon_id = {
+			90401
+		}
+	},
+	[90402] = {
+		id = 90402,
+		damage = "52 x 4",
+		base = 90400,
+		weapon_id = {
+			90402
+		}
+	},
 	[90403] = {
 		id = 90403,
 		damage = "58 x 4",
@@ -155,67 +171,6 @@ pg.equip_data_statistics_393 = {
 		base = 90420,
 		weapon_id = {
 			90429
-		}
-	},
-	[90430] = {
-		id = 90430,
-		damage = "110 x 4",
-		base = 90420,
-		weapon_id = {
-			90430
-		}
-	},
-	[90440] = {
-		name = "380mm四連装砲Mle1935",
-		speciality = "投射",
-		type = 4,
-		tech = 3,
-		descrip = "リシュリュー級戦艦に搭載された四連装380mm主砲。戦艦・巡洋戦艦が装備可能",
-		value_2 = 45,
-		icon = "50400",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "48 x 4",
-		nationality = 8,
-		ammo = 2,
-		value_3 = 0,
-		id = 90440,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				2,
-				1552
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90440
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"BB",
-			"MG",
-			"HE"
 		}
 	}
 }

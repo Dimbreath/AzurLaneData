@@ -1,5 +1,65 @@
 pg = pg or {}
 pg.enemy_data_statistics_76 = {
+	[13045] = {
+		cannon = 0,
+		rarity = 1,
+		hit_growth = 0,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 0,
+		reload = 150,
+		durability = 12600,
+		armor = 0,
+		antisub = 0,
+		antiaircraft = 200,
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 134,
+		icon_type = 12,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 20,
+		luck = 0,
+		id = 13045,
+		cannon_growth = 0,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 30,
+		torpedo = 0,
+		durability_growth = 74000,
+		luck_growth = 0,
+		battle_unit_type = 85,
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1,
+				0.2,
+				-0.3464
+			},
+			{
+				0,
+				-1,
+				2.2
+			}
+		},
+		specific_fx_scale = {
+			zhihuiRing02_buff = 2
+		},
+		equipment_list = {
+			1100136
+		}
+	},
 	[13046] = {
 		cannon = 0,
 		rarity = 1,
@@ -551,46 +611,6 @@ pg.enemy_data_statistics_76 = {
 		speed = 20,
 		luck = 0,
 		id = 101004,
-		cannon_growth = 520,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 14,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 180,
-		durability_growth = 12000,
-		luck_growth = 0,
-		battle_unit_type = 50,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			100211,
-			100411
-		}
-	},
-	[101005] = {
-		cannon = 46,
-		name = "モーリー",
-		hit_growth = 210,
-		speed_growth = 0,
-		antiaircraft_growth = 1719,
-		air = 0,
-		antisub = 0,
-		armor = 0,
-		rarity = 2,
-		antiaircraft = 35,
-		dodge_growth = 210,
-		star = 3,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 153,
-		durability = 180,
-		armor_growth = 0,
-		torpedo_growth = 3744,
-		speed = 30,
-		luck = 0,
-		id = 101005,
 		cannon_growth = 520,
 		pilot_ai_template_id = 10001,
 		reload = 150,

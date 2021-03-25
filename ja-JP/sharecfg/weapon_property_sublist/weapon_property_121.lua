@@ -2,6 +2,18 @@ pg = pg or {}
 pg.weapon_property_121 = {}
 
 function ()
+	uv0.weapon_property_121[65532] = {
+		id = 65532,
+		name = "z24技能弹幕LV2",
+		damage = 12,
+		base = 65531
+	}
+	uv0.weapon_property_121[65533] = {
+		id = 65533,
+		name = "z24技能弹幕LV3",
+		damage = 13,
+		base = 65531
+	}
 	uv0.weapon_property_121[65534] = {
 		id = 65534,
 		name = "z24技能弹幕LV4",
@@ -586,55 +598,5 @@ function ()
 		name = "文琴佐弹幕LV10",
 		damage = 17,
 		base = 65591
-	}
-	uv0.weapon_property_121[65601] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "文琴佐鱼雷 LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 38,
-		corrected = 100,
-		min_range = 0,
-		id = 65601,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19256
-		},
-		barrage_ID = {
-			81007
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_121[65602] = {
-		id = 65602,
-		name = "文琴佐鱼雷 LV2",
-		damage = 44,
-		base = 65601
 	}
 end()

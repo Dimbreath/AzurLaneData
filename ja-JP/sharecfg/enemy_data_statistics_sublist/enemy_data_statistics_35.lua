@@ -1,5 +1,43 @@
 pg = pg or {}
 pg.enemy_data_statistics_35 = {
+	[725] = {
+		cannon = 160,
+		name = "五十铃",
+		rarity = 3,
+		speed_growth = 0,
+		antiaircraft_growth = 3744,
+		air = 0,
+		antisub = 0,
+		luck = 0,
+		hit_growth = 210,
+		antiaircraft = 140,
+		dodge_growth = 162,
+		star = 3,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 187,
+		durability = 2400,
+		armor_growth = 0,
+		torpedo_growth = 4500,
+		speed = 25,
+		armor = 0,
+		id = 725,
+		cannon_growth = 1400,
+		pilot_ai_template_id = 30002,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 130,
+		durability_growth = 72000,
+		luck_growth = 0,
+		battle_unit_type = 55,
+		armor_type = 4,
+		equipment_list = {
+			700047,
+			700049
+		}
+	},
 	[726] = {
 		cannon = 50,
 		name = "自爆船",
@@ -742,44 +780,6 @@ pg.enemy_data_statistics_35 = {
 		},
 		equipment_list = {
 			300125
-		}
-	},
-	[814] = {
-		cannon = 0,
-		antisub = 0,
-		air = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20005,
-		reload = 150,
-		base = 140,
-		dodge = 0,
-		torpedo_growth = 0,
-		air_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		star = 1,
-		hit = 80,
-		antisub_growth = 0,
-		rarity = 1,
-		luck_growth = 0,
-		torpedo = 80,
-		durability = 75,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 0,
-		speed = 25,
-		luck = 0,
-		hit_growth = 0,
-		battle_unit_type = 15,
-		id = 814,
-		antiaircraft_growth = 0,
-		armor = 0,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			300126
 		}
 	}
 }

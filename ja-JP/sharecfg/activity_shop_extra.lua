@@ -1954,74 +1954,24 @@ pg.activity_shop_extra = {
 	[68] = {
 		num_limit = 1,
 		activity = 915,
+		time = "stop",
 		commodity_type = 7,
 		num = 1,
 		commodity_id = 502036,
 		scene = "",
 		id = 68,
-		order = 4,
-		time = {
-			{
-				{
-					2021,
-					3,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		order = 4
 	},
 	[69] = {
 		num_limit = 1,
 		activity = 914,
+		time = "stop",
 		commodity_type = 7,
 		num = 1,
 		commodity_id = 502026,
 		scene = "",
 		id = 69,
-		order = 4,
-		time = {
-			{
-				{
-					2021,
-					3,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		order = 4
 	},
 	all = {
 		1,

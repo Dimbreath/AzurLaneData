@@ -221,7 +221,7 @@ function slot7.AddWeapon(slot0, slot1, slot2, slot3, slot4, slot5)
 	elseif slot7 == uv1.PASSIVE_SCOUT then
 		-- Nothing
 	elseif slot7 == uv1.FLEET_ANTI_AIR then
-		slot0._fleetAAList[#slot0._fleetAAList + 1] = slot6
+		slot0:AddFleetAntiAirWeapon(slot6)
 	else
 		slot0:AddAutoWeapon(slot6)
 	end
@@ -276,6 +276,20 @@ function slot7.RemoveWeapon(slot0, slot1)
 	end
 
 	return slot3
+end
+
+function slot7.AddFleetAntiAirWeapon(slot0, slot1)
+	slot0._fleetAAList[#slot0._fleetAAList + 1] = slot1
+end
+
+function slot7.RemoveFleetAntiAirWeapon(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0._fleetAAList) do
+		if slot6 == slot1 then
+			table.remove(slot0._fleetAAList, slot5)
+
+			return
+		end
+	end
 end
 
 function slot7.ShiftWeapon(slot0, slot1)

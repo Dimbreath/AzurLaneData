@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_130 = {
+	[10044013] = {
+		cannon = 17,
+		name = "量産型フルタカ級",
+		air = 0,
+		cannon_growth = 1800,
+		antisub = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		torpedo = 14,
+		antiaircraft_growth = 1404,
+		reload_growth = 0,
+		dodge_growth = 0,
+		hit_growth = 144,
+		star = 3,
+		hit = 10,
+		antisub_growth = 0,
+		rarity = 2,
+		speed_growth = 0,
+		base = 111,
+		durability = 1360,
+		armor_growth = 0,
+		durability_growth = 43000,
+		antiaircraft = 180,
+		speed = 15,
+		luck = 0,
+		luck_growth = 0,
+		air_growth = 0,
+		id = 10044013,
+		battle_unit_type = 35,
+		torpedo_growth = 1125,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			100205,
+			100506,
+			100406
+		}
+	},
 	[10044016] = {
 		cannon = 60,
 		name = "タニカゼ",
@@ -570,46 +610,6 @@ pg.enemy_data_statistics_130 = {
 		equipment_list = {
 			513033,
 			513034
-		}
-	},
-	[10044029] = {
-		cannon = 60,
-		name = "アヤナミ",
-		hit_growth = 210,
-		speed_growth = 0,
-		antiaircraft_growth = 1557,
-		air = 0,
-		antisub = 0,
-		armor = 0,
-		rarity = 4,
-		antiaircraft = 140,
-		dodge_growth = 210,
-		star = 4,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 160,
-		durability = 2000,
-		armor_growth = 0,
-		torpedo_growth = 3933,
-		speed = 33,
-		luck = 0,
-		id = 10044029,
-		cannon_growth = 690,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 14,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 210,
-		durability_growth = 52000,
-		luck_growth = 0,
-		battle_unit_type = 35,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			513035,
-			513036
 		}
 	}
 }
