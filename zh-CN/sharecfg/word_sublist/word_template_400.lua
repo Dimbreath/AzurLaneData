@@ -2667,3 +2667,19 @@ function temp()
 end
 
 temp()
+
+function temp()
+	uv0["喫"] = {
+		["中"] = {
+			["國"] = {
+				["的"] = {
+					["飯"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()

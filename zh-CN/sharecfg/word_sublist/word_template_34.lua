@@ -2058,6 +2058,11 @@ function temp()
 				["爱"] = {
 					this = true
 				}
+			},
+			["暴"] = {
+				["露"] = {
+					this = true
+				}
 			}
 		},
 		["美"] = {
@@ -2127,6 +2132,11 @@ function temp()
 			},
 			["營"] = {
 				this = true
+			},
+			["教"] = {
+				["育"] = {
+					this = true
+				}
 			}
 		}
 	}

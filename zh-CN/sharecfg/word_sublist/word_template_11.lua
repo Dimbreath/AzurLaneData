@@ -168,6 +168,11 @@ function temp()
 						this = true
 					}
 				}
+			},
+			["品"] = {
+				["牌"] = {
+					this = true
+				}
 			}
 		},
 		["幼"] = {

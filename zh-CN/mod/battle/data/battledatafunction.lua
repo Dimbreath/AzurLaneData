@@ -169,11 +169,9 @@ function slot3.GetResFromBuff(slot0, slot1, slot2, slot3)
 			end
 		end
 
-		if slot11.arg_list.skill_id_list ~= nil then
-			for slot17, slot18 in ipairs(slot13) do
-				for slot23, slot24 in ipairs(uv0.GetBulletResFromSkill(slot18, slot1, slot2)) do
-					slot4[#slot4 + 1] = slot24
-				end
+		if slot11.arg_list.bullet_id then
+			for slot18, slot19 in ipairs(uv1.Battle.BattleResourceManager.GetBulletResource(slot13)) do
+				slot4[#slot4 + 1] = slot19
 			end
 		end
 

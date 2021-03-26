@@ -969,6 +969,24 @@ function temp()
 				["犯"] = {
 					this = true
 				}
+			},
+			["産"] = {
+				["品"] = {
+					this = true
+				}
+			},
+			["棉"] = {
+				["蘤"] = {
+					this = true
+				},
+				["花"] = {
+					this = true
+				}
+			},
+			["产"] = {
+				["品"] = {
+					this = true
+				}
 			}
 		},
 		["党"] = {

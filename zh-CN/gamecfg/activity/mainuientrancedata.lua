@@ -255,9 +255,9 @@ return {
 			setActive(slot1, slot3)
 
 			if slot3 then
-				slot5 = pg.activity_event_picturepuzzle[slot2.id]
+				slot4 = pg.activity_event_picturepuzzle[slot2.id]
 
-				setActive(slot1:Find("Tip"), not (slot2.data1 == 1))
+				setActive(slot1:Find("Tip"), slot2:readyToAchieve())
 				onButton(slot0, slot1, function ()
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
 						id = uv0.id
@@ -382,6 +382,6 @@ return {
 		2,
 		5,
 		6,
-		8
+		12
 	}
 }

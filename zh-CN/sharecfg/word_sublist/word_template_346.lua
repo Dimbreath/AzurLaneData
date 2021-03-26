@@ -548,6 +548,13 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["廹"] = {
+			["勞"] = {
+				["動"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

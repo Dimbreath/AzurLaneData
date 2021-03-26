@@ -823,6 +823,14 @@ function temp()
 				["迫"] = {
 					this = true
 				}
+			},
+			["歧"] = {
+				["視"] = {
+					this = true
+				},
+				["视"] = {
+					this = true
+				}
 			}
 		},
 		["凤"] = {

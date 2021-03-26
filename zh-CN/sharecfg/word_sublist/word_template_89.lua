@@ -485,6 +485,16 @@ function temp()
 					}
 				}
 			}
+		},
+		["疆"] = {
+			["行"] = {
+				["動"] = {
+					this = true
+				},
+				["动"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

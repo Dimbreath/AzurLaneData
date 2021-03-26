@@ -567,6 +567,11 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["&"] = {
+			M = {
+				this = true
+			}
 		}
 	}
 end
