@@ -329,6 +329,10 @@ SPECIAL_DATE = {
 	{
 		"20210214",
 		"login_0214"
+	},
+	{
+		"20210401",
+		"login_0401"
 	}
 }
 SPECIAL_PROPOSE = {
