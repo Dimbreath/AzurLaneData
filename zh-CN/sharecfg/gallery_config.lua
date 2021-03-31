@@ -39,19 +39,6 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[5] = {
-		unlock_other = 0,
-		name = "",
-		year = 1,
-		id = 5,
-		illustrate = "",
-		illustration = "gallerypic5",
-		unlock_level = {
-			1,
-			0
-		},
-		unlock_cost = {}
-	},
 	[6] = {
 		unlock_other = 0,
 		name = "",
@@ -91,19 +78,6 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[10] = {
-		unlock_other = 0,
-		name = "",
-		year = 1,
-		id = 10,
-		illustrate = "",
-		illustration = "gallerypic10",
-		unlock_level = {
-			1,
-			0
-		},
-		unlock_cost = {}
-	},
 	[11] = {
 		unlock_other = 0,
 		name = "",
@@ -130,19 +104,6 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[14] = {
-		unlock_other = 0,
-		name = "",
-		year = 1,
-		id = 14,
-		illustrate = "",
-		illustration = "gallerypic14",
-		unlock_level = {
-			1,
-			0
-		},
-		unlock_cost = {}
-	},
 	[16] = {
 		unlock_other = 0,
 		name = "",
@@ -150,32 +111,6 @@ pg.gallery_config = {
 		id = 16,
 		illustrate = "",
 		illustration = "gallerypic16",
-		unlock_level = {
-			1,
-			0
-		},
-		unlock_cost = {}
-	},
-	[17] = {
-		unlock_other = 0,
-		name = "",
-		year = 1,
-		id = 17,
-		illustrate = "",
-		illustration = "gallerypic17",
-		unlock_level = {
-			1,
-			0
-		},
-		unlock_cost = {}
-	},
-	[20] = {
-		unlock_other = 0,
-		name = "",
-		year = 1,
-		id = 20,
-		illustrate = "",
-		illustration = "gallerypic20",
 		unlock_level = {
 			1,
 			0
@@ -215,19 +150,6 @@ pg.gallery_config = {
 		id = 24,
 		illustrate = "",
 		illustration = "gallerypic24",
-		unlock_level = {
-			1,
-			0
-		},
-		unlock_cost = {}
-	},
-	[27] = {
-		unlock_other = 0,
-		name = "",
-		year = 1,
-		id = 27,
-		illustrate = "",
-		illustration = "gallerypic27",
 		unlock_level = {
 			1,
 			0
@@ -351,32 +273,6 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[37] = {
-		unlock_other = 0,
-		name = "",
-		year = 1,
-		id = 37,
-		illustrate = "",
-		illustration = "gallerypic37",
-		unlock_level = {
-			1,
-			0
-		},
-		unlock_cost = {}
-	},
-	[38] = {
-		unlock_other = 0,
-		name = "",
-		year = 1,
-		id = 38,
-		illustrate = "",
-		illustration = "gallerypic38",
-		unlock_level = {
-			1,
-			0
-		},
-		unlock_cost = {}
-	},
 	[40] = {
 		unlock_other = 0,
 		name = "",
@@ -394,21 +290,15 @@ pg.gallery_config = {
 		2,
 		3,
 		4,
-		5,
 		6,
 		7,
 		9,
-		10,
 		11,
 		12,
-		14,
 		16,
-		17,
-		20,
 		21,
 		23,
 		24,
-		27,
 		28,
 		29,
 		30,
@@ -418,8 +308,6 @@ pg.gallery_config = {
 		34,
 		35,
 		36,
-		37,
-		38,
 		40
 	}
 }
