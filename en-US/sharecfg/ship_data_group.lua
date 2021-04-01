@@ -868,16 +868,6 @@ pg.ship_data_group = {
 					}
 				},
 				0
-			},
-			{
-				"Guild shop exchange",
-				{
-					"SHOP",
-					{
-						warp = "guild"
-					}
-				},
-				0
 			}
 		}
 	},
@@ -10236,6 +10226,17 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -10670,6 +10671,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Munition shop exchange",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -10699,6 +10710,16 @@ pg.ship_data_group = {
 				"The War God's Return",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Munition shop exchange",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -10863,6 +10884,17 @@ pg.ship_data_group = {
 				"The War God's Return",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -12245,6 +12277,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -12420,6 +12463,17 @@ pg.ship_data_group = {
 				"The War God's Return",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -16862,6 +16916,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Core Data Exchange",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -17045,6 +17109,16 @@ pg.ship_data_group = {
 					{
 						projectName = "light",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"Core Data Exchange",
+				{
+					"SHOP",
+					{
+						warp = "sham"
 					}
 				},
 				0

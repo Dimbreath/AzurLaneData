@@ -631,19 +631,6 @@ pg.memory_group = {
 			464
 		}
 	},
-	[140] = {
-		title = "Fight On, Royal Maids! ",
-		type = 2,
-		id = 140,
-		icon = "title_event",
-		memories = {
-			466,
-			467,
-			468,
-			469,
-			470
-		}
-	},
 	[141] = {
 		title = "Trick or Treat Halloween Night! ",
 		type = 2,
@@ -2657,7 +2644,6 @@ pg.memory_group = {
 		137,
 		138,
 		139,
-		140,
 		141,
 		145,
 		146,

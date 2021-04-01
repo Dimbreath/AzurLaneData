@@ -55,7 +55,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "(Work too much longer than I anticipated thanks to that little hiccup this morning.)",
+			say = "(Work took much longer than I anticipated thanks to that little hiccup this morning.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

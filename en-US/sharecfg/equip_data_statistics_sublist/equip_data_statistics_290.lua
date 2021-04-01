@@ -82,11 +82,11 @@ pg.equip_data_statistics_290 = {
 		}
 	},
 	[43000] = {
-		name = "Twin 203mm Mle 1924 Submarine Gun Mount",
+		name = "Twin 203mm (SK C/34)",
 		speciality = "Lock",
 		type = 3,
 		tech = 1,
-		descrip = "The Twin 203mm Mle 1924 Submarine Gun Mount is the main gun of Admiral Hipper class cruisers. May be used by heavy cruisers.",
+		descrip = "The Twin 203mm (SK C/34) is the main gun of Admiral Hipper class cruisers. May be used by heavy cruisers.",
 		value_2 = 12,
 		icon = "43000",
 		attribute_2 = "cannon",

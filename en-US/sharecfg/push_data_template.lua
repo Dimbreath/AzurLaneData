@@ -66,7 +66,7 @@ pg.push_data_template = {
 	{
 		alignment = 0,
 		id = 10,
-		title = "Dispatch notification, nya! ",
+		title = "Dispatch notification \nnya! ",
 		content = "Another fleet can be dispatched on your Guild Operation, nya! Come check back and make sure your operation is a success, nya! ",
 		desc = "Enable push notifications for when Guild Event dispatch is refreshed"
 	},
