@@ -229,7 +229,7 @@ function slot0.setShip(slot0, slot1)
 		slot5, slot7, slot6 = ShipWordHelper.GetWordAndCV(slot0._shipVO.skinId, ShipWordHelper.WORD_TYPE_UNLOCK)
 	end
 
-	setWidgetText(slot0._dialogue, slot6, "desc/Text")
+	setWidgetText(slot0._dialogue, SwitchSpecialChar(slot6, true), "desc/Text")
 
 	slot0._dialogue.transform.localScale = Vector3(0, 1, 1)
 

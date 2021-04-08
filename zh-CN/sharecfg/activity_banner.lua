@@ -1,13 +1,38 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		time = "always",
 		type = 2,
 		id = 1,
 		pic = "temp7",
 		param = {
 			"scene skinshop",
 			{}
+		},
+		time = {
+			{
+				{
+					2021,
+					4,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					4,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
@@ -16,7 +41,9 @@ pg.activity_banner = {
 		pic = "temp3",
 		param = {
 			"scene level",
-			{}
+			{
+				entranceStatus = false
+			}
 		},
 		time = {
 			{
@@ -149,10 +176,35 @@ pg.activity_banner = {
 	},
 	{
 		param = "",
-		time = "always",
 		type = 9,
 		id = 6,
-		pic = "temp99"
+		pic = "temp99",
+		time = {
+			{
+				{
+					2021,
+					4,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					4,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	all = {
 		1,

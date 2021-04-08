@@ -23,7 +23,7 @@ function slot0.execute(slot0, slot1)
 		if slot0.result == 0 then
 			uv0:UpdateCount(uv0.count - 1)
 
-			slot1 = PlayerConst.addTranDrop(slot0)
+			slot1 = PlayerConst.addTranDrop(slot0.drop_list)
 			slot2 = uv1:GetActiveMap()
 			slot3 = slot2:GetFleet()
 			slot4 = slot2:GetPort()
