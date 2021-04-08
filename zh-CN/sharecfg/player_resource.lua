@@ -525,6 +525,11 @@ pg.player_resource = {
 		name = "unionkr_pt_2021",
 		itemid = 99957
 	},
+	[955] = {
+		id = 955,
+		name = "unionkr_pt_2021_2",
+		itemid = 99957
+	},
 	[1001] = {
 		id = 1001,
 		name = "vote2019_pt",
@@ -570,6 +575,16 @@ pg.player_resource = {
 		name = "synchronize_huangjiafangzhou",
 		itemid = 21902
 	},
+	[3106] = {
+		id = 3106,
+		name = "twhongran_pt",
+		itemid = 59107
+	},
+	[3137] = {
+		id = 3137,
+		name = "TWkaifuPT",
+		itemid = 70050
+	},
 	[2006] = {
 		id = 2006,
 		name = "contribution_worldboss624",
@@ -584,6 +599,11 @@ pg.player_resource = {
 		id = 3000,
 		name = "guild_boss_damage",
 		itemid = 69000
+	},
+	[40275] = {
+		id = 40275,
+		name = "Twouxiang_pt",
+		itemid = 59143
 	},
 	get_id_list_by_name = {
 		gold = {
@@ -901,6 +921,9 @@ pg.player_resource = {
 		unionkr_pt_2021 = {
 			954
 		},
+		unionkr_pt_2021_2 = {
+			955
+		},
 		vote2019_pt = {
 			1001
 		},
@@ -928,6 +951,12 @@ pg.player_resource = {
 		synchronize_huangjiafangzhou = {
 			3003
 		},
+		twhongran_pt = {
+			3106
+		},
+		TWkaifuPT = {
+			3137
+		},
 		contribution_worldboss624 = {
 			2006
 		},
@@ -936,6 +965,9 @@ pg.player_resource = {
 		},
 		guild_boss_damage = {
 			3000
+		},
+		Twouxiang_pt = {
+			40275
 		}
 	},
 	all = {
@@ -1044,6 +1076,7 @@ pg.player_resource = {
 		952,
 		953,
 		954,
+		955,
 		1001,
 		2001,
 		2002,
@@ -1053,8 +1086,11 @@ pg.player_resource = {
 		3001,
 		3002,
 		3003,
+		3106,
+		3137,
 		2006,
 		2007,
-		3000
+		3000,
+		40275
 	}
 }

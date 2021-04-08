@@ -6,6 +6,7 @@ function ()
 		is_transfer = 0,
 		name = "碎片海域-3-6-国庆风格",
 		port_name = "商船",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -17,7 +18,7 @@ function ()
 		expedition_map_id = 50004,
 		expedition_level = 110,
 		id = 135090,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -3712,12 +3713,14 @@ function ()
 				4,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_49[140000] = {
 		is_transfer = 0,
 		name = "深渊碎片海域普通测试",
 		port_name = "商船",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -3729,7 +3732,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 140000,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -4389,12 +4392,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_49[140004] = {
 		is_transfer = 0,
 		name = "深渊海域LV4",
 		port_name = "",
+		version = 0,
 		bgm = "story-6",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -4406,7 +4411,7 @@ function ()
 		expedition_map_id = 50028,
 		expedition_level = 104,
 		id = 140004,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -6066,12 +6071,14 @@ function ()
 				4,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_49[140005] = {
 		is_transfer = 0,
 		name = "深渊海域LV5",
 		port_name = "",
+		version = 0,
 		bgm = "battle-boss-4",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -6083,7 +6090,7 @@ function ()
 		expedition_map_id = 50028,
 		expedition_level = 112,
 		id = 140005,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -7743,12 +7750,14 @@ function ()
 				4,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_49[140006] = {
 		is_transfer = 0,
 		name = "深渊海域LV6",
 		port_name = "",
+		version = 0,
 		bgm = "bsm-2",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -7760,7 +7769,7 @@ function ()
 		expedition_map_id = 50028,
 		expedition_level = 120,
 		id = 140006,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -9420,12 +9429,14 @@ function ()
 				4,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_49[140310] = {
 		is_transfer = 0,
 		name = "深渊碎片海域普通-3-追迹者",
 		port_name = "商船",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -9437,7 +9448,7 @@ function ()
 		expedition_map_id = 50028,
 		expedition_level = 96,
 		id = 140310,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -10005,12 +10016,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_49[140320] = {
 		is_transfer = 0,
 		name = "深渊碎片海域普通-3-领洋者",
 		port_name = "商船",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -10022,7 +10035,7 @@ function ()
 		expedition_map_id = 50028,
 		expedition_level = 96,
 		id = 140320,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -10668,12 +10681,14 @@ function ()
 				-1,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_49[140330] = {
 		is_transfer = 0,
 		name = "深渊碎片海域普通-3-破局者",
 		port_name = "商船",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -10685,7 +10700,7 @@ function ()
 		expedition_map_id = 50028,
 		expedition_level = 96,
 		id = 140330,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -11383,12 +11398,14 @@ function ()
 				8,
 				2
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_49[140340] = {
 		is_transfer = 0,
 		name = "深渊碎片海域普通-3-执棋者",
 		port_name = "商船",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -11400,7 +11417,7 @@ function ()
 		expedition_map_id = 50028,
 		expedition_level = 96,
 		id = 140340,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -12271,12 +12288,14 @@ function ()
 				-1,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_49[140350] = {
 		is_transfer = 0,
 		name = "深渊碎片海域普通-3-游弋者",
 		port_name = "商船",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -12288,7 +12307,7 @@ function ()
 		expedition_map_id = 50028,
 		expedition_level = 96,
 		id = 140350,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -13159,6 +13178,7 @@ function ()
 				-1,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 end()

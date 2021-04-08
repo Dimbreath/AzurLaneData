@@ -1,5 +1,197 @@
 pg = pg or {}
 pg.ship_skin_template_13 = {
+	[308012] = {
+		ship_group = 30801,
+		name = "枕头天堂",
+		bg_sp = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "好困……嗯，指挥官？要和“鱼雷先生”一起睡会吗？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "I19_3",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 14,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "109",
+		skin_type = 4,
+		id = 308012,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "I19_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70391,
+		voice_actor = 83,
+		air_bomb_skin = "",
+		illustrator = 14,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.563,
+					0.382,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.011,
+					-0.417,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[308020] = {
+		ship_group = 30802,
+		name = "{namecode:155}",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "{namecode:280}潜艇{namecode:155}",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "I26",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 17,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 308020,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "I26",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 121,
+		air_bomb_skin = "",
+		illustrator = 14,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.97,
+					0.24,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.97,
+					0.3,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[308021] = {
 		ship_group = 30802,
 		name = "深海少女",
@@ -7100,239 +7292,6 @@ pg.ship_skin_template_13 = {
 							-0.444,
 							2.549,
 							-0.568
-						}
-					}
-				}
-			}
-		}
-	},
-	[402051] = {
-		ship_group = 40205,
-		name = "正月的漫游",
-		bg_sp = "1102",
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "竟然这么爽快就答应了一起旅行的请求，指挥官肯定另有打算…啊，我的意思是，如果指挥官准备好了的话，随时都可以出发哦？",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "niulunbao_2",
-		air_bullet_skin = "",
-		shop_type_id = 2,
-		hand_id = 13,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "126",
-		skin_type = 4,
-		id = 402051,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "niulunbao_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70470,
-		voice_actor = 258,
-		air_bomb_skin = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.064,
-					1.002,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.058,
-					1.008,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.082,
-					1.002,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.438,
-							2.465,
-							-0.568
-						}
-					}
-				}
-			}
-		}
-	},
-	[403010] = {
-		ship_group = 40301,
-		name = "希佩尔海军上将",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "希佩尔海军上将级重巡洋舰—希佩尔海军上将",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "xipeierhaijunshangjiang",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 1,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		skin_type = -1,
-		id = 403010,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "xipeierhaijunshangjiang",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 61,
-		air_bomb_skin = "",
-		illustrator = 29,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.27,
-					0.57,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.27,
-					0.57,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.49,
-					0.05,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.27,
-					0.57,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.26,
-							0.686,
-							-0.081
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.259,
-							2.6,
-							-1.18
 						}
 					}
 				}

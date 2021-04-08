@@ -21,8 +21,9 @@ return {
 			},
 			options = {
 				{
-					content = "准备战斗",
-					flag = 1
+					flag = 1,
+					autochoice = 1,
+					content = "准备战斗"
 				}
 			}
 		}

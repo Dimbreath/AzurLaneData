@@ -2731,7 +2731,7 @@ pg.gametip = {
 		}
 	},
 	world_transport_disable = {
-		tip = "当前海域无法通过边界区域离开"
+		tip = "当前海域无法通过边界区域离开。是否继续？"
 	},
 	world_resource_tip_1 = {
 		tip = "未资源提示1(未使用)"
@@ -2752,8 +2752,8 @@ pg.gametip = {
   <color=#92fc63>舰队维护</color>
   为所有舰队恢复士气与耐久，并消除战损状态。
 
-  <color=#92fc63>空域侦查</color>
-  消耗行动力侦查当前海域的全部区域。
+  <color=#92fc63>空域侦察</color>
+  消耗行动力侦察当前海域的全部区域。
 
   <color=#92fc63>潜艇支援</color>
   可以部署与呼叫潜艇编队支援，潜艇部队需要在港口海域进行部署。
@@ -2827,6 +2827,9 @@ pg.gametip = {
 	world_shop_preview_tip = {
 		tip = "重置后可购买商品预览"
 	},
+	world_shop_init_notice = {
+		tip = "大型作战已经重置，是否打开特别兑换商店？"
+	},
 	world_map_title_tips_en = {
 		tip = "OPERATION INFO"
 	},
@@ -2858,7 +2861,7 @@ pg.gametip = {
 		tip = "目标海域存在尚未完成的任务，无法接受该任务"
 	},
 	world_task_maplock = {
-		tip = "当前海域存在尚未完成的任务，目前无法离开，请在<color=#ff5c5c>情报</color>中进行确认。"
+		tip = "当前海域存在尚未完成的任务，目前无法离开。\n请在<color=#ff5c5c>情报</color>中进行确认。\n是否继续？"
 	},
 	world_task_goto0 = {
 		tip = "当前海域并非任务目标海域"
@@ -3002,7 +3005,10 @@ pg.gametip = {
 		tip = "作战强度等级：\n指挥官当前的作战强度等级为<color=#92fc63>$1</color>，建议攻略该侵蚀等级及以下的海域。"
 	},
 	world_movelimit_event_text = {
-		tip = "当前海域存在尚未完成的任务，目前无法离开"
+		tip = "当前海域存在尚未完成的事件，目前无法离开。\n是否继续？"
+	},
+	world_sametask_tip = {
+		tip = "领取任务失败，相同的任务最多只能领取一个"
 	},
 	task_notfound_error = {
 		tip = "缺少任务配置，请检查是否需要热更新，id:"
@@ -13140,6 +13146,27 @@ BUFF加成也会增加
 	autofight_task = {
 		tip = "本次作战完成任务：$1"
 	},
+	autofight_effect = {
+		tip = "适应性调整：攻击 +$1,耐久 +$2,恢复 +$3"
+	},
+	autofight_file = {
+		tip = "本次作战解锁档案——$1"
+	},
+	autofight_discovery = {
+		tip = "本次作战完成海域探索目标：$1"
+	},
+	autofight_tip_bigworld_dead = {
+		tip = "当前舰队已战败，无法继续自律寻敌"
+	},
+	autofight_tip_bigworld_begin = {
+		tip = "当前所选舰队开始自律寻敌"
+	},
+	autofight_tip_bigworld_stop = {
+		tip = "当前所选舰队自律寻敌停止"
+	},
+	autofight_tip_bigworld_suspend = {
+		tip = "当前所选舰队视野内无可自律事件，无法继续自律寻敌"
+	},
 	autofight_farm = {
 		tip = "周回模式"
 	},
@@ -13614,6 +13641,12 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	world_setting_quickmodetip = {
 		tip = "功能开启后，不再播放重复的TB引导说明"
 	},
+	world_setting_submititem = {
+		tip = "自律时自动提交道具"
+	},
+	world_setting_submititemtip = {
+		tip = "功能开启后，自律时自动完成需要提交道具的事件"
+	},
 	world_boss_maintenance = {
 		tip = "服务器即将维护,无法进行信标·烬作战"
 	},
@@ -13760,5 +13793,14 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	},
 	setting_story_speed_4 = {
 		tip = "特快"
+	},
+	story_autoplay_setting_label = {
+		tip = "剧情自动播放"
+	},
+	story_autoplay_setting_1 = {
+		tip = "关闭"
+	},
+	story_autoplay_setting_2 = {
+		tip = "开启"
 	}
 }

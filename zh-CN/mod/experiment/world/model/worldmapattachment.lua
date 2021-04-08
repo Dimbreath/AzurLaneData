@@ -4,13 +4,15 @@ slot0.Fields = {
 	dataop = "number",
 	buffList = "table",
 	type = "number",
-	column = "number",
-	data = "number",
-	id = "number",
-	triggered = "boolean",
 	row = "number",
-	hp = "number",
+	data = "number",
+	column = "number",
 	flag = "number",
+	effects = "table",
+	triggered = "boolean",
+	hp = "number",
+	markGuider = "number",
+	id = "number",
 	lurk = "boolean"
 }
 slot0.EventUpdateFlag = "WorldMapAttachment.EventUpdateFlag"
@@ -62,18 +64,19 @@ function slot0.MakeFakePort(slot0, slot1, slot2)
 		},
 		item_type = uv0.TypePort,
 		item_id = slot2,
-		buff_list = {}
+		buff_list = {},
+		effect_list = {}
 	})
 
 	return slot3
 end
 
-slot0.EffectEventBattle = 1
+function slot0.IsClientType(slot0)
+	return slot0 > 1000
+end
+
 slot0.EffectEventStory = 2
 slot0.EffectEventTeleport = 3
-slot0.EffectEventInnerRes = 4
-slot0.EffectEventTask = 5
-slot0.EffectEventCollection = 6
 slot0.EffectEventDrop = 7
 slot0.EffectEventShipBuff = 8
 slot0.EffectEventGuide = 13
@@ -85,15 +88,10 @@ slot0.EffectEventConsumeCarry = 19
 slot0.EffectEventTeleportEvent = 20
 slot0.EffectEventConsumeItem = 24
 slot0.EffectEventStoryOption = 27
-slot0.EffectEventTrap = 28
 slot0.EffectEventFleetShipHP = 30
 slot0.EffectEventProgress = 32
-slot0.EffectEventSpecific = 33
-slot0.EffectEventLogicReplace = 35
-slot0.EffectEventRandomReplace = 36
 slot0.EffectEventTeleportBack = 37
 slot0.EffectEventDeleteTask = 40
-slot0.EffectEventMeetingPoint = 43
 slot0.EffectEventGlobalBuff = 44
 slot0.EffectEventMapClearFlag = 45
 slot0.EffectEventBrokenClean = 48
@@ -106,11 +104,11 @@ slot0.EffectEventFlash = 1004
 slot0.EffectEventHelp = 1005
 slot0.EffectEventShowMapMark = 1006
 slot0.EffectEventReturn2World = 1007
-slot0.EffectEventTriggerSilently = 1008
 slot0.EffectEventStoryOptionClient = 1009
 slot0.EffectEventShowPort = 1010
 slot0.EffectEventSound = 1011
 slot0.EffectEventHelpLayer = 1012
+slot0.EffectEventMsgbox = 1013
 slot0.CompassTypeNone = 0
 slot0.CompassTypeBattle = 1
 slot0.CompassTypeExploration = 2
@@ -123,36 +121,57 @@ slot0.CompassTypeSalvage = 8
 slot0.CompassTypeFile = 9
 slot0.SpEventHaibao = 1
 slot0.SpEventFufen = 2
+slot0.SpEventEnemy = 3
+slot0.SpEventConsumeItem = 4
 
 function slot0.DebugPrint(slot0)
 	if slot0.type == uv0.TypeEvent then
-		for slot5, slot6 in ipairs(slot0.config.effect) do
-			if slot5 <= #slot0.config.effect - slot0.data then
-				table.insert({}, "<color=#00FF00FF>" .. slot6 .. "</color>")
+		slot1 = {}
+		slot3 = ""
+
+		if #slot0.effects > #pg.world_event_data[slot0.id].effect then
+			slot3 = setColorStr("effect error !!!: " .. table.concat(slot0.effects, ", "), COLOR_RED)
+		else
+			slot4 = {}
+
+			for slot8 = #slot2, 1, -1 do
+				if not slot0.effects[#slot0.effects - #slot2 + slot8] then
+					table.insert(slot4, 1, setColorStr(slot2[slot8], COLOR_GREEN))
+				elseif slot9 ~= slot10 then
+					if pg.world_effect_data[slot10].effect_type == 27 or slot11 == 35 or slot11 == 36 then
+						table.insert(slot4, 1, setColorStr(slot9, COLOR_BLUE))
+					else
+						table.insert(slot4, 1, setColorStr(slot9, COLOR_RED))
+					end
+				else
+					table.insert(slot4, 1, slot9)
+				end
+			end
+
+			slot3 = slot3 .. table.concat(slot4, ", ")
+		end
+
+		for slot7, slot8 in ipairs(slot0.config.event_op) do
+			if slot7 <= #slot0.config.event_op - slot0.dataop then
+				table.insert(slot1, "<color=#00FF00FF>" .. slot8 .. "</color>")
 			else
-				table.insert(slot1, slot6)
+				table.insert(slot1, slot8)
 			end
 		end
 
-		slot2 = {}
-
-		for slot6, slot7 in ipairs(slot0.config.event_op) do
-			if slot6 <= #slot0.config.event_op - slot0.dataop then
-				table.insert(slot2, "<color=#00FF00FF>" .. slot7 .. "</color>")
-			else
-				table.insert(slot2, slot7)
-			end
-		end
-
-		return string.format("事件 [%s] [id: %s] [位置: %s, %s] [flag: %s] [data: %s] [effect: %s] [buff: %s] [effect_op: %s] [感染值：%s]", HXSet.hxLan(slot0.config.name), slot0.id, slot0.row, slot0.column, tostring(slot0.flag), tostring(slot0.data), table.concat(slot1, ", "), table.concat(slot0.buffList, ", "), table.concat(slot2, ", "), setColorStr(slot0.config.infection_value, COLOR_RED))
+		return string.format([[
+事件  [id: %d]  [%s]  [位置: %d, %d]  [flag: %s]  [data: %d]  [感染值：%s]  [自动优先级：%s] 
+     [effect: %s] 
+     [effect_op: %s] 
+     [buff: %s]]], slot0.id, HXSet.hxLan(slot0.config.name), slot0.row, slot0.column, slot0.flag, slot0.data, setColorStr(slot0.config.infection_value, COLOR_RED), setColorStr(slot0.config.auto_pri, COLOR_YELLOW), slot3, table.concat(slot1, ", "), table.concat(slot0.buffList, ", "))
 	elseif uv0.IsEnemyType(slot0.type) then
-		return string.format("敌人 [类型 %s] [%s] [id: %s] [位置: %s, %s] [flag: %s] [data: %s] [buff: %s]", slot0.type, slot0.config.name, slot0.id, slot0.row, slot0.column, tostring(slot0.flag), tostring(slot0.data), table.concat(slot0.buffList, ", "))
+		return string.format("敌人  [id: %s]  [%s]  [类型 %s]  [位置: %s, %s]  [flag: %s]  [data: %s]  [buff: %s]", slot0.id, slot0.config.name, slot0.type, slot0.row, slot0.column, tostring(slot0.flag), tostring(slot0.data), table.concat(slot0.buffList, ", "))
 	elseif slot0.type == uv0.TypeTrap then
-		return string.format("陷阱 [%s] [id: %s] [位置: %s, %s] [flag: %s] [data: %s]", slot0.config.name, slot0.id, slot0.row, slot0.column, tostring(slot0.flag), tostring(slot0.data))
+		return string.format("陷阱  [id: %s]  [%s]  [位置: %s, %s]  [flag: %s]  [data: %s]", slot0.id, slot0.config.name, slot0.row, slot0.column, tostring(slot0.flag), tostring(slot0.data))
 	elseif slot0.type == uv0.TypeFleet then
-		return string.format("舰队 [%s] [id: %s] [位置: %s, %s] [flag: %s] [data: %s]", "我的舰队", slot0.id, slot0.row, slot0.column, tostring(slot0.flag), tostring(slot0.data))
+		return string.format("舰队  [id: %s]  [%s]  [位置: %s, %s]  [flag: %s]  [data: %s]", slot0.id, "我方舰队", slot0.row, slot0.column, tostring(slot0.flag), tostring(slot0.data))
 	elseif slot0.type == uv0.TypeArtifact then
-		return string.format("场景物件 [id: %s] [位置: %s, %s] [flag: %s] [data: %s] [buff: %s]", slot0.id, slot0.row, slot0.column, tostring(slot0.flag), tostring(slot0.data), table.concat(slot0.buffList, ", "))
+		return string.format("场景物件  [id: %s]  [位置: %s, %s]  [flag: %s]  [data: %s]  [buff: %s]", slot0.id, slot0.row, slot0.column, tostring(slot0.flag), tostring(slot0.data), table.concat(slot0.buffList, ", "))
 	end
 end
 
@@ -163,7 +182,8 @@ function slot0.Setup(slot0, slot1)
 	slot0.id = slot1.item_id
 	slot0.flag = slot1.item_flag
 	slot0.data = slot1.item_data
-	slot0.buffList = _.rest(slot1.buff_list, 1)
+	slot0.effects = underscore.rest(slot1.effect_list, 1)
+	slot0.buffList = underscore.rest(slot1.buff_list, 1)
 	slot0.hp = slot1.boss_hp
 
 	slot0:InitConfig()
@@ -196,11 +216,7 @@ end
 
 function slot0.IsAlive(slot0)
 	if slot0.type == uv0.TypeEvent then
-		if slot0:IsSign() then
-			return true
-		end
-
-		return slot0.data > 0
+		return true
 	elseif uv0.IsEnemyType(slot0.type) then
 		return slot0.flag ~= 1 and slot0.data ~= 0
 	elseif slot0.type == uv0.TypeTransportFleet then
@@ -216,7 +232,7 @@ function slot0.IsVisible(slot0)
 	if slot0.type == uv0.TypeEvent then
 		slot1 = not slot0.lurk and slot0.config.discover_type == 2
 	elseif uv0.IsEnemyType(slot0.type) then
-		slot1 = slot1 and slot0.data ~= 0 and slot0.flag ~= 1
+		slot1 = slot1 and slot0:IsAlive()
 	end
 
 	return slot1
@@ -234,12 +250,14 @@ function slot0.UpdateFlag(slot0, slot1)
 	end
 end
 
-function slot0.UpdateData(slot0, slot1)
-	if slot0.data ~= slot1 then
-		slot0.data = slot1
+function slot0.UpdateData(slot0, slot1, slot2)
+	slot0.data = slot1
 
-		slot0:DispatchEvent(uv0.EventUpdateData)
+	if slot0.type == uv0.TypeEvent then
+		slot0.effects = underscore.rest(slot2, 1)
 	end
+
+	slot0:DispatchEvent(uv0.EventUpdateData)
 end
 
 function slot0.UpdateLurk(slot0, slot1)
@@ -254,25 +272,13 @@ function slot0.UpdateDataOp(slot0, slot1)
 	slot0.dataop = slot1
 end
 
-function slot0.HasEventEffect(slot0)
-	return #slot0.config.effect > 0
-end
-
 function slot0.GetEventEffect(slot0)
-	slot1 = slot0.config.effect
-
-	return pg.world_effect_data[slot1[#slot1 - slot0.data + 1]]
+	return slot0.effects[1] and pg.world_effect_data[slot1]
 end
 
 function slot0.GetEventEffects(slot0)
-	return _.map(slot0.config.effect, function (slot0)
+	return _.map(slot0.effects, function (slot0)
 		return pg.world_effect_data[slot0]
-	end)
-end
-
-function slot0.HasBattleEvent(slot0)
-	return _.detect(slot0.config.effect, function (slot0)
-		return pg.world_effect_data[slot0].effect_type == uv0.EffectEventBattle
 	end)
 end
 
@@ -298,29 +304,31 @@ function slot0.ShouldMarkAsLurk(slot0)
 	return slot0.type == uv0.TypeEvent and slot0.config.visuality == 1 and slot0.config.discover_type == 2
 end
 
-function slot0.IsWalkable(slot0)
-	if slot0.type == uv0.TypeEvent or slot0.type == uv0.TypeTrap then
-		return slot0.config.obstacle ~= 3
+function slot0.CanLeave(slot0)
+	if uv0.IsEnemyType(slot0.type) then
+		return false
+	elseif slot0.type == uv0.TypeEvent or slot0.type == uv0.TypeTrap then
+		return WorldConst.GetObstacleConfig(slot0.config.obstacle, "leave")
 	else
 		return true
 	end
 end
 
-function slot0.IsObstacle(slot0)
-	if uv0.IsEnemyType(slot0.type) then
+function slot0.CanArrive(slot0)
+	if slot0.type == uv0.TypeEvent or slot0.type == uv0.TypeTrap then
+		return WorldConst.GetObstacleConfig(slot0.config.obstacle, "arrive")
+	else
 		return true
-	elseif slot0.type == uv0.TypeEvent or slot0.type == uv0.TypeTrap then
-		return slot0.config.obstacle == 0
 	end
 end
 
-function slot0.IsCage(slot0)
+function slot0.CanPass(slot0)
 	if uv0.IsEnemyType(slot0.type) then
-		return true
-	elseif slot0.type == uv0.TypeEvent and slot0.config.is_guide then
 		return false
 	elseif slot0.type == uv0.TypeEvent or slot0.type == uv0.TypeTrap then
-		return slot0.config.obstacle == 0 or slot0.config.obstacle == 1
+		return WorldConst.GetObstacleConfig(slot0.config.obstacle, "pass")
+	else
+		return true
 	end
 end
 
@@ -351,13 +359,22 @@ function slot0.IsBoss(slot0)
 end
 
 function slot0.GetBuffList(slot0)
-	return slot0.buffList
+	return underscore.map(slot0.buffList, function (slot0)
+		slot1 = WorldBuff.New()
+
+		slot1:Setup({
+			floor = 1,
+			id = slot0
+		})
+
+		return slot1
+	end)
 end
 
 function slot0.UpdateBuffList(slot0, slot1)
 	slot0.buffList = slot1
 
-	if slot0:GetWeaknessBuff() ~= slot0:GetWeaknessBuff() then
+	if slot0:GetWeaknessBuffId() ~= slot0:GetWeaknessBuffId() then
 		return slot2 and {
 			anim = "WorldWeaknessUpgradeWindow",
 			hp = slot0:GetMaxHP()
@@ -368,26 +385,29 @@ function slot0.UpdateBuffList(slot0, slot1)
 	end
 end
 
-function slot0.GetWeaknessBuff(slot0)
+function slot0.GetWeaknessBuffId(slot0)
 	if not uv0.IsEnemyType(slot0.type) then
 		return
 	end
 
-	slot1 = _.flatten(pg.world_expedition_data[slot0:GetBattleStageId()].weak_list)
+	slot6 = slot0
+	slot5 = slot0.GetBattleStageId(slot6)
 
-	for slot5, slot6 in ipairs(slot0:GetBuffList()) do
-		for slot10, slot11 in ipairs(slot1) do
-			if slot6 == slot11 then
-				return slot6
-			end
+	underscore.each(underscore.flatten(pg.world_expedition_data[slot5].weak_list), function (slot0)
+		uv0[slot0] = true
+	end)
+
+	for slot5, slot6 in ipairs(slot0.buffList) do
+		if ({})[slot6] then
+			return slot6
 		end
 	end
 end
 
-function slot0.GetBattleBuffList(slot0)
-	_.each(slot0:GetBuffList(), function (slot0)
-		if pg.world_SLGbuff_data[slot0].lua_id > 0 then
-			table.insert(uv0, slot1.lua_id)
+function slot0.GetBattleLuaBuffs(slot0)
+	underscore.each(slot0:GetBuffList(), function (slot0)
+		if slot0.config.lua_id > 0 then
+			table.insert(uv0, slot0.config.lua_id)
 		end
 	end)
 
@@ -426,20 +446,31 @@ function slot0.GetDeviation(slot0)
 	return Vector2.zero
 end
 
-function slot0.GetScale(slot0)
-	slot1 = 1
+function slot0.GetScale(slot0, slot1)
+	slot2 = 1
 
 	if slot0.type == uv0.TypeEvent then
 		if slot0.config.scale == 0 then
 			return Vector3.one
 		else
-			slot1 = slot0.config.scale / 100
+			slot2 = slot0.config.scale / 100
 		end
 	elseif uv0.IsEnemyType(slot0.type) then
-		slot1 = 0.4 * slot0.config.scale / 100
+		slot2 = 0.4 * slot0.config.scale / 100
+	elseif slot0.type == uv0.TypeTrap and slot0.id == 200 then
+		slot1 = slot1 or slot0.data
+		slot2 = slot2 * (slot1 + slot1 - 1)
 	end
 
-	return Vector3(slot1, slot1, 1)
+	return Vector3(slot2, slot2, slot2)
+end
+
+function slot0.GetModelOrder(slot0)
+	if slot0.type == uv0.TypeTrap then
+		return WorldConst.LOEffectC
+	end
+
+	return WorldConst.LOCell
 end
 
 function slot0.GetMillor(slot0)
@@ -453,7 +484,11 @@ function slot0.GetMillor(slot0)
 end
 
 function slot0.GetDirType(slot0)
-	return slot0:GetSpEventType() == uv0.SpEventFufen and WorldConst.DirType4 or WorldConst.DirType2
+	if slot0:GetSpEventType() == uv0.SpEventFufen then
+		return WorldConst.DirType4
+	else
+		return WorldConst.DirType2
+	end
 end
 
 function slot0.GetReplaceDisplayEnemyConfig(slot0)
@@ -536,6 +571,22 @@ function slot0.GetVisionRadius(slot0)
 	else
 		return -1
 	end
+end
+
+function slot0.GetMapBuffs(slot0)
+	if slot0.type == uv0.TypeEvent then
+		return slot0.config.map_buff
+	else
+		return {}
+	end
+end
+
+function slot0.IsGuideFinish(slot0)
+	return slot0.markGuider == slot0.data
+end
+
+function slot0.GetEventAutoPri(slot0)
+	return slot0.config.auto_pri
 end
 
 return slot0

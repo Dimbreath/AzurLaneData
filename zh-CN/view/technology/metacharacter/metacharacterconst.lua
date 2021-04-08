@@ -148,7 +148,7 @@ function slot0.isMetaEnergyRedTag(slot0)
 end
 
 function slot0.isMetaTacticsRedTag(slot0)
-	return false
+	return getProxy(MetaCharacterProxy):getRedTag(slot0)
 end
 
 function slot0.isMetaSynRedTag(slot0)

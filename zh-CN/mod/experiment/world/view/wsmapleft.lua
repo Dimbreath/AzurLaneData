@@ -28,6 +28,7 @@ slot0.Fields = {
 slot0.Listeners = {
 	onUpdateShipHpRate = "OnUpdateShipHpRate",
 	onUpdateFleetOrder = "OnUpdateFleetOrder",
+	onUpdateFleetBar = "OnUpdateFleetBar",
 	onUpdateCatSalvage = "OnUpdateCatSalvage",
 	onUpdateShipBroken = "OnUpdateShipBroken",
 	onUpdateSelectedFleet = "OnUpdateSelectedFleet"
@@ -79,8 +80,8 @@ function slot0.Init(slot0)
 	slot0.btnCollapse = slot0.rtBG:Find("collapse")
 	slot0.rtArrow = slot0.btnCollapse:Find("arrow")
 	slot0.rtFleetBar = slot1:Find("other/fleet_bar")
-	slot0.toggleMask = slot0.rtFleetBar:Find("mask")
-	slot0.toggleList = slot0.rtFleetBar:Find("mask/list")
+	slot0.toggleMask = slot1:Find("mask")
+	slot0.toggleList = slot0.toggleMask:Find("list")
 	slot0.toggles = {}
 
 	for slot5 = 0, slot0.toggleList.childCount - 1 do
@@ -125,7 +126,6 @@ function slot0.UpdateMap(slot0, slot1)
 	slot0.map = slot1
 
 	slot0:AddMapListener()
-	slot0:HideToggleMask()
 	slot0:OnUpdateSelectedFleet()
 	slot0:OnUpdateSubmarineSupport()
 end
@@ -145,6 +145,7 @@ end
 function slot0.AddFleetListener(slot0, slot1)
 	if slot1 then
 		slot1:AddListener(WorldMapFleet.EventUpdateShipOrder, slot0.onUpdateFleetOrder)
+		slot1:AddListener(WorldMapFleet.EventUpdateBuff, slot0.onUpdateFleetBar)
 		_.each(slot1:GetShips(true), function (slot0)
 			slot0:AddListener(WorldMapShip.EventHpRantChange, uv0.onUpdateShipHpRate)
 			slot0:AddListener(WorldMapShip.EventUpdateBroken, uv0.onUpdateShipBroken)
@@ -155,6 +156,7 @@ end
 function slot0.RemoveFleetListener(slot0, slot1)
 	if slot1 then
 		slot1:RemoveListener(WorldMapFleet.EventUpdateShipOrder, slot0.onUpdateFleetOrder)
+		slot1:RemoveListener(WorldMapFleet.EventUpdateBuff, slot0.onUpdateFleetBar)
 		_.each(slot1:GetShips(true), function (slot0)
 			slot0:RemoveListener(WorldMapShip.EventHpRantChange, uv0.onUpdateShipHpRate)
 			slot0:RemoveListener(WorldMapShip.EventUpdateBroken, uv0.onUpdateShipBroken)
@@ -174,7 +176,8 @@ function slot0.OnUpdateSelectedFleet(slot0)
 
 		slot0:UpdateShipList(slot0.rtMain, slot0.fleet:GetTeamShips(TeamType.Main, true))
 		slot0:UpdateShipList(slot0.rtVanguard, slot0.fleet:GetTeamShips(TeamType.Vanguard, true))
-		setImageSprite(slot0.rtFleetBar:Find("text_selected/x"), getImageSprite(slot0.toggles[slot0.fleet.index]:Find("text_selected/x")))
+		setImageSprite(slot0.rtFleetBar:Find("text_selected/x"), getImageSprite(slot0.toggles[slot1.index]:Find("text_selected/x")))
+		slot0:OnUpdateFleetBar(nil, slot1)
 	end
 end
 
@@ -257,6 +260,20 @@ function slot0.OnUpdateShipBroken(slot0, slot1, slot2)
 	setActive(slot0:GetShipObject(slot2):Find("broken"), slot2:IsBroken())
 end
 
+function slot0.OnUpdateFleetBar(slot0, slot1, slot2)
+	slot3 = slot2:GetWatchingBuff()
+
+	setActive(slot0.rtFleetBar:Find("watching_buff"), slot3)
+
+	if slot3 then
+		if #slot3.config.icon > 0 then
+			GetImageSpriteFromAtlasAsync("world/watchingbuff/" .. slot3.config.icon, "", slot0.rtFleetBar:Find("watching_buff"))
+		else
+			setImageSprite(slot0.rtFleetBar:Find("watching_buff"), nil)
+		end
+	end
+end
+
 function slot0.UpdateShipList(slot0, slot1, slot2)
 	slot3 = UIItemList.New(slot1, slot0.rtShip)
 
@@ -320,6 +337,11 @@ function slot0.ShipDamageDisplay(slot0, slot1, slot2, slot3)
 					end
 				}, function ()
 					uv0.localPosition = Vector3(0, 0, 0)
+
+					if not uv1.delayCallFuncs[uv2.id] then
+						return
+					end
+
 					uv1.delayCallFuncs[uv2.id].isDoing = false
 
 					if #uv1.delayCallFuncs[uv2.id] > 0 then
@@ -346,20 +368,35 @@ function slot0.ShipDamageDisplay(slot0, slot1, slot2, slot3)
 end
 
 function slot0.ShowToggleMask(slot0, slot1)
+	slot2 = slot0.toggleList.position
+	slot2.x = slot0.rtFleetBar.position.x
+	slot0.toggleList.position = slot2
+
 	setActive(slot0.toggleMask, true)
 
-	for slot6, slot7 in ipairs(slot0.toggles) do
-		slot8 = slot0.map:GetNormalFleets()[slot6]
+	for slot7, slot8 in ipairs(slot0.toggles) do
+		slot9 = slot0.map:GetNormalFleets()[slot7]
 
-		setActive(slot7, slot8)
+		setActive(slot8, slot9)
 
-		if slot8 then
-			slot9 = slot6 == slot0.map.findex
+		if slot9 then
+			slot10 = slot7 == slot0.map.findex
+			slot11 = slot9:GetWatchingBuff()
 
-			setActive(slot7:Find("selected"), slot9)
-			setActive(slot7:Find("text"), not slot9)
-			setActive(slot7:Find("text_selected"), slot9)
-			onButton(slot0, slot7, function ()
+			setActive(slot8:Find("selected"), slot10)
+			setActive(slot8:Find("text"), not slot10)
+			setActive(slot8:Find("text_selected"), slot10)
+			setActive(slot8:Find("watching_buff"), slot11)
+
+			if slot11 then
+				if #slot11.config.icon > 0 then
+					GetImageSpriteFromAtlasAsync("world/watchingbuff/" .. slot11.config.icon, "", slot8:Find("watching_buff"))
+				else
+					setImageSprite(slot8:Find("watching_buff"), nil)
+				end
+			end
+
+			onButton(slot0, slot8, function ()
 				uv0:HideToggleMask()
 				uv1(uv2)
 			end, SFX_UI_TAG)

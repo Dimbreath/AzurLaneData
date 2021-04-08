@@ -34,29 +34,16 @@ function slot0.execute(slot0, slot1)
 		selected = _.values(slot13)
 	}, 60036, function (slot0)
 		if slot0.result == 0 then
-			slot1 = {}
+			slot2 = uv0:getGuildShop()
 
-			for slot5, slot6 in ipairs(slot0.drop_list) do
-				slot7 = Item.New({
-					type = slot6.type,
-					id = slot6.id,
-					count = slot6.number
-				})
-
-				uv0:sendNotification(GAME.ADD_ITEM, slot7)
-				table.insert(slot1, slot7)
-			end
-
-			slot2 = uv1:getGuildShop()
-
-			slot2:UpdateGoodsCnt(uv2, uv3)
-			uv1:updateGuildShop(slot2)
-			uv4:consume({
-				guildCoin = uv5 * uv3
+			slot2:UpdateGoodsCnt(uv1, uv2)
+			uv0:updateGuildShop(slot2)
+			uv3:consume({
+				guildCoin = uv4 * uv2
 			})
-			uv6:updatePlayer(uv4)
-			uv0:sendNotification(GAME.ON_GUILD_SHOP_PURCHASE_DONE, {
-				awards = slot1
+			uv5:updatePlayer(uv3)
+			uv6:sendNotification(GAME.ON_GUILD_SHOP_PURCHASE_DONE, {
+				awards = PlayerConst.addTranDrop(slot0.drop_list)
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)

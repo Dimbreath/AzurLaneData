@@ -1,6 +1,6 @@
 slot0 = class("World", import("...BaseEntity"))
 slot0.Fields = {
-	achieveMapStar = "table",
+	achieveEntranceStar = "table",
 	stepCount = "number",
 	cdTimeList = "table",
 	type = "number",
@@ -18,20 +18,21 @@ slot0.Fields = {
 	collectionProxy = "table",
 	defaultFleets = "table",
 	goodDic = "table",
-	taskProxy = "table",
+	autoInfos = "table",
 	nowEntrance = "number",
 	fleets = "table",
-	inventoryProxy = "table",
 	staminaMgr = "table",
+	taskProxy = "table",
+	inventoryProxy = "table",
+	isAutoFight = "boolean",
 	worldBossProxy = "table",
-	baseShipIds = "table",
 	baseCmdIds = "table",
 	colorDic = "table",
 	expiredTime = "number",
 	pressingAwardDic = "table",
+	baseShipIds = "table",
 	submarineSupport = "boolean"
 }
-slot0.EventUpdateRound = "World.EventUpdateRound"
 slot0.EventUpdateSubmarineSupport = "World.EventUpdateSubmarineSupport"
 slot0.EventSwitchMap = "World.EventSwitchMap"
 slot0.EventUpdateProgress = "World.EventUpdateProgress"
@@ -77,7 +78,7 @@ function slot0.Build(slot0)
 	slot0.roundIndex = nil
 	slot0.submarineSupport = nil
 	slot0.achievements = {}
-	slot0.achieveMapStar = {}
+	slot0.achieveEntranceStar = {}
 	slot0.nowEntrance = nil
 
 	slot0:InitWorldShopGoods()
@@ -90,6 +91,10 @@ function slot0.Build(slot0)
 	slot0.cdTimeList = {}
 	slot0.globalBuffDic = {}
 	slot0.pressingAwardDic = {}
+	slot0.isAutoFight = false
+
+	slot0:InitAutoInfos()
+
 	slot0.inventoryProxy = WorldInventoryProxy.New()
 
 	slot0.inventoryProxy:AddListener(WorldInventoryProxy.EventUpdateItem, slot0.onUpdateItem)
@@ -118,7 +123,7 @@ function slot0.Dispose(slot0, slot1)
 			realm = slot0.realm,
 			defaultFleets = slot0.defaultFleets,
 			achievements = slot0.achievements,
-			achieveMapStar = slot0.achieveMapStar,
+			achieveEntranceStar = slot0.achieveEntranceStar,
 			nowEntrance = slot0.nowEntrance,
 			activateCount = slot0.activateCount,
 			progress = slot0.progress,
@@ -225,8 +230,6 @@ end
 
 function slot0.IncRound(slot0)
 	slot0.roundIndex = slot0.roundIndex + 1
-
-	slot0:DispatchEvent(uv0.EventUpdateRound)
 end
 
 function slot0.ResetRound(slot0)
@@ -488,7 +491,7 @@ function slot0.CalcRepairCost(slot0, slot1)
 end
 
 function slot0.GetMoveRange(slot0, slot1)
-	if slot0:GetActiveMap():IsUnlockFleetMode() and not slot1:HasTrapBuff() then
+	if slot0:GetActiveMap():CanLongMove(slot1) then
 		return slot2:GetLongMoveRange(slot1)
 	else
 		return slot2:GetMoveRange(slot1)
@@ -500,30 +503,30 @@ function slot0.IsRookie(slot0)
 end
 
 function slot0.EntranceToReplacementMapList(slot0, slot1)
-	for slot7, slot8 in ipairs(slot1:GetBaseMap().config.stage_chapter) do
-		if slot8[1] <= slot0:GetProgress() and slot0:GetProgress() <= slot8[2] then
-			table.insert({}, slot0:GetMap(slot8[3]))
+	for slot6, slot7 in ipairs(slot1.config.stage_chapter) do
+		if slot7[1] <= slot0:GetProgress() and slot0:GetProgress() <= slot7[2] then
+			table.insert({}, slot0:GetMap(slot7[3]))
 		end
 	end
 
-	for slot7, slot8 in ipairs(slot3.config.task_chapter) do
-		if slot0.taskProxy:getTaskById(slot8[1]) and slot9:getState() == WorldTask.STATE_ONGOING then
-			table.insert(slot2, slot0:GetMap(slot8[2]))
+	for slot6, slot7 in ipairs(slot1.config.task_chapter) do
+		if slot0.taskProxy:getTaskById(slot7[1]) and slot8:getState() == WorldTask.STATE_ONGOING then
+			table.insert(slot2, slot0:GetMap(slot7[2]))
 		end
 	end
 
-	for slot7, slot8 in ipairs(slot3.config.teasure_chapter) do
-		if slot0.inventoryProxy:GetItemCount(slot8[1]) > 0 then
-			table.insert(slot2, slot0:GetMap(slot8[2]))
+	for slot6, slot7 in ipairs(slot1.config.teasure_chapter) do
+		if slot0.inventoryProxy:GetItemCount(slot7[1]) > 0 then
+			table.insert(slot2, slot0:GetMap(slot7[2]))
 		end
 	end
 
-	if slot3.becomeSairen then
-		table.insert(slot2, slot0:GetMap(slot3.config.sairen_chapter[1]))
+	if slot1.becomeSairen then
+		table.insert(slot2, slot0:GetMap(slot1.config.sairen_chapter[1]))
 	end
 
-	if slot3.isPressing and #slot3.config.complete_chapter > 0 then
-		table.insert(slot2, slot0:GetMap(slot3.config.complete_chapter[1]))
+	if slot1:GetBaseMap().isPressing and #slot1.config.complete_chapter > 0 then
+		table.insert(slot2, slot0:GetMap(slot1.config.complete_chapter[1]))
 	end
 
 	table.insert(slot2, slot3)
@@ -532,33 +535,33 @@ function slot0.EntranceToReplacementMapList(slot0, slot1)
 end
 
 function slot0.ReplacementMapType(slot0, slot1)
-	for slot6, slot7 in ipairs(slot0:GetBaseMap().config.stage_chapter) do
-		if slot7[3] == slot1.id then
+	for slot5, slot6 in ipairs(slot0.config.stage_chapter) do
+		if slot6[3] == slot1.id then
 			return "stage_chapter", i18n("area_zhuxian")
 		end
 	end
 
-	for slot6, slot7 in ipairs(slot2.config.task_chapter) do
-		if slot7[2] == slot1.id then
-			return "task_chapter", pg.world_task_data[slot7[1]].type == 0 and i18n("area_zhuxian") or i18n("area_renwu")
+	for slot5, slot6 in ipairs(slot0.config.task_chapter) do
+		if slot6[2] == slot1.id then
+			return "task_chapter", pg.world_task_data[slot6[1]].type == 0 and i18n("area_zhuxian") or i18n("area_renwu")
 		end
 	end
 
-	for slot6, slot7 in ipairs(slot2.config.teasure_chapter) do
-		if slot7[2] == slot1.id then
-			return "teasure_chapter", pg.world_item_data_template[slot7[1]].usage_arg[1] == 1 and i18n("area_shenyuan") or i18n("area_yinmi")
+	for slot5, slot6 in ipairs(slot0.config.teasure_chapter) do
+		if slot6[2] == slot1.id then
+			return "teasure_chapter", pg.world_item_data_template[slot6[1]].usage_arg[1] == 1 and i18n("area_shenyuan") or i18n("area_yinmi")
 		end
 	end
 
-	if slot2.config.sairen_chapter[1] == slot1.id then
+	if slot0.config.sairen_chapter[1] == slot1.id then
 		return "sairen_chapter", i18n("area_yaosai")
 	end
 
-	if slot2.config.complete_chapter[1] == slot1.id then
+	if slot0.config.complete_chapter[1] == slot1.id then
 		return "complete_chapter", i18n("area_anquan")
 	end
 
-	if slot2.id == slot1.id then
+	if slot0:GetBaseMapId() == slot1.id then
 		return "base_chapter", i18n("area_putong")
 	end
 
@@ -570,7 +573,7 @@ function slot0.FindTreasureEntrance(slot0, slot1)
 end
 
 function slot0.TreasureMap2ItemId(slot0, slot1, slot2)
-	for slot7, slot8 in ipairs(slot0:GetEntrance(slot2):GetBaseMap().config.teasure_chapter) do
+	for slot7, slot8 in ipairs(slot0:GetEntrance(slot2).config.teasure_chapter) do
 		if slot8[2] == slot1 then
 			return slot8[1]
 		end
@@ -581,20 +584,13 @@ function slot0.CheckFleetMovable(slot0)
 	return slot0:GetRound() == WorldConst.RoundPlayer and slot1:CheckFleetMovable(slot0:GetActiveMap():GetFleet()) and not slot1:CheckInteractive()
 end
 
-function slot0.IsFeetCageInTerrain(slot0)
-	slot1 = slot0:GetActiveMap()
-	slot2 = slot1:GetFleet()
-
-	return slot1:GetCell(slot2.row, slot2.column):IsTerrainCage()
-end
-
-function slot0.SetMapAchieveSuccess(slot0, slot1, slot2)
-	slot0.achieveMapStar[slot1] = slot0.achieveMapStar[slot1] or {}
-	slot0.achieveMapStar[slot1][slot2] = true
+function slot0.SetAchieveSuccess(slot0, slot1, slot2)
+	slot0.achieveEntranceStar[slot1] = slot0.achieveEntranceStar[slot1] or {}
+	slot0.achieveEntranceStar[slot1][slot2] = true
 end
 
 function slot0.GetMapAchieveStarDic(slot0, slot1)
-	return slot0.achieveMapStar[slot1] or {}
+	return slot0.achieveEntranceStar[slot1] or {}
 end
 
 function slot0.GetAchievement(slot0, slot1)
@@ -619,19 +615,18 @@ function slot0.GetAchievements(slot0, slot1)
 end
 
 function slot0.IsNormalAchievementAchieved(slot0, slot1)
-	return slot0:CountAchievements(slot1) >= #slot1:GetBaseMap().config.normal_target
+	return slot0:CountAchievements(slot1) >= #slot1.config.normal_target
 end
 
 function slot0.AnyUnachievedAchievement(slot0, slot1)
-	slot2 = slot1:GetBaseMap()
-	slot3 = slot0:GetMapAchieveStarDic(slot2.id)
+	slot2 = slot0:GetMapAchieveStarDic(slot1.id)
 
-	if _.detect(slot2:GetAchievementAwards(), function (slot0)
+	if _.detect(slot1:GetAchievementAwards(), function (slot0)
 		return not uv0[slot0.star]
 	end) then
-		slot5, slot6 = slot0:CountAchievements(slot1)
+		slot4, slot5 = slot0:CountAchievements(slot1)
 
-		return slot4.star <= slot5 + slot6, slot4
+		return slot3.star <= slot4 + slot5, slot3
 	end
 end
 
@@ -643,19 +638,18 @@ function slot0.GetFinishAchievements(slot0, slot1)
 		slot1
 	} or slot0.atlas:GetAchEntranceList()) do
 		slot10, slot11 = slot0:CountAchievements(slot9)
-		slot12 = slot9:GetBaseMap()
-		slot14 = {}
+		slot13 = {}
 
-		for slot18, slot19 in ipairs(slot12:GetAchievementAwards()) do
-			if not slot0:GetMapAchieveStarDic(slot12.id)[slot19.star] and slot19.star <= slot10 + slot11 then
-				table.insert(slot14, slot19.star)
+		for slot17, slot18 in ipairs(slot9:GetAchievementAwards()) do
+			if not slot0:GetMapAchieveStarDic(slot9.id)[slot18.star] and slot18.star <= slot10 + slot11 then
+				table.insert(slot13, slot18.star)
 			end
 		end
 
-		if #slot14 > 0 then
+		if #slot13 > 0 then
 			table.insert(slot2, {
-				id = slot9:GetBaseMapId(),
-				star_list = slot14
+				id = slot9.id,
+				star_list = slot13
 			})
 			table.insert(slot3, slot9.id)
 		end
@@ -672,15 +666,15 @@ function slot0.CountAchievements(slot0, slot1)
 	for slot9, slot10 in ipairs(slot1 and {
 		slot1
 	} or slot0.atlas:GetAchEntranceList()) do
-		for slot15, slot16 in ipairs(slot10:GetBaseMap().config.normal_target) do
-			slot2 = slot2 + (slot0.achievements[slot16] and slot0.achievements[slot16]:IsAchieved() and 1 or 0)
+		for slot14, slot15 in ipairs(slot10.config.normal_target) do
+			slot2 = slot2 + (slot0.achievements[slot15] and slot0.achievements[slot15]:IsAchieved() and 1 or 0)
 		end
 
-		for slot15, slot16 in ipairs(slot11.config.cryptic_target) do
-			slot3 = slot3 + (slot0.achievements[slot16] and slot0.achievements[slot16]:IsAchieved() and 1 or 0)
+		for slot14, slot15 in ipairs(slot10.config.cryptic_target) do
+			slot3 = slot3 + (slot0.achievements[slot15] and slot0.achievements[slot15]:IsAchieved() and 1 or 0)
 		end
 
-		slot4 = slot4 + #slot11.config.normal_target + #slot11.config.cryptic_target
+		slot4 = slot4 + #slot10.config.normal_target + #slot10.config.cryptic_target
 	end
 
 	return slot2, slot3, slot4
@@ -933,15 +927,13 @@ function slot0.AddGlobalBuff(slot0, slot1, slot2)
 end
 
 function slot0.RemoveBuff(slot0, slot1, slot2)
-	if slot0.globalBuffDic[slot1] then
-		if slot2 and slot2 < slot3:GetFloor() then
-			slot3:AddFloor(slot2 * -1)
-		else
-			slot0.globalBuffDic[slot1] = nil
-		end
-
-		slot0:DispatchEvent(uv0.EventUpdateGlobalBuff)
+	if slot2 then
+		slot0:GetGlobalBuff(slot1):AddFloor(slot2 * -1)
+	else
+		slot0.globalBuffDic[slot1] = nil
 	end
+
+	slot0:DispatchEvent(uv0.EventUpdateGlobalBuff)
 end
 
 function slot0.GetWorldMapBuffLevel(slot0)
@@ -1099,6 +1091,47 @@ function slot0.IsMapVisioned(slot0, slot1)
 	end
 
 	return slot0:IsMapPressingAwardFlag(slot1)
+end
+
+function slot0.HasAutoFightDrops(slot0)
+	return #slot0.autoInfos.drops > 0 or underscore.any(slot1.salvage, function (slot0)
+		return #slot0 > 0
+	end) or #slot1.buffs > 0 or #slot1.message > 0
+end
+
+function slot0.AddAutoInfo(slot0, slot1, slot2)
+	if slot1 == "drops" then
+		slot0.autoInfos.drops = table.mergeArray(slot0.autoInfos.drops, slot2)
+	elseif slot1 == "salvage" then
+		slot0.autoInfos.salvage[slot2.rarity] = table.mergeArray(slot0.autoInfos.salvage[slot2.rarity], slot2.drops)
+	elseif slot1 == "events" then
+		table.insert(slot0.autoInfos.events, slot2)
+	elseif slot1 == "buffs" then
+		table.insert(slot0.autoInfos.buffs, slot2)
+	elseif slot1 == "message" then
+		table.insert(slot0.autoInfos.message, slot2)
+	end
+end
+
+function slot0.InitAutoInfos(slot0)
+	slot0.autoInfos = {
+		drops = {},
+		salvage = {
+			{},
+			{},
+			{}
+		},
+		buffs = {},
+		message = {}
+	}
+end
+
+function slot0.TriggerAutoFight(slot0, slot1)
+	if tobool(slot1) ~= tobool(slot0.isAutoFight) then
+		slot0.isAutoFight = slot1
+
+		pg.m02:sendNotification(GAME.WORLD_TRIGGER_AUTO_FIGHT)
+	end
 end
 
 return slot0

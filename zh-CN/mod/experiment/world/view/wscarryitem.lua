@@ -81,9 +81,8 @@ function slot0.Update(slot0, slot1)
 			end)
 		end
 
-		eachChild(slot2:Find("buffs"), function (slot0)
-			setActive(slot0, false)
-		end)
+		setActive(slot2:Find("buffs"), false)
+		setActive(slot2:Find("map_buff"), false)
 	end
 end
 

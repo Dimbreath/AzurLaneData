@@ -18,8 +18,9 @@ return {
 			},
 			options = {
 				{
-					content = "确认",
-					flag = 1
+					flag = 1,
+					autochoice = 1,
+					content = "确认"
 				},
 				{
 					content = "取消",

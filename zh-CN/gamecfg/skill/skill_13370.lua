@@ -226,7 +226,7 @@ return {
 	desc = "圣光",
 	painting = 1,
 	id = 13370,
-	castCV = "",
+	castCV = "skill",
 	aniEffect = {
 		effect = "jineng",
 		offset = {

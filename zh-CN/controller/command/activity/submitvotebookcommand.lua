@@ -14,28 +14,15 @@ function slot0.execute(slot0, slot1)
 		arg_list = {}
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
-			slot1 = {}
-
-			for slot5, slot6 in ipairs(slot0.award_list) do
-				slot7 = {
-					type = slot6.type,
-					id = slot6.id,
-					count = slot6.number
-				}
-
-				uv0:sendNotification(GAME.ADD_ITEM, Item.New(slot7))
-				table.insert(slot1, slot7)
-			end
-
-			uv0:sendNotification(GAME.SUBMIT_VOTE_BOOK_DONE, {
-				awards = slot1,
+			uv2:sendNotification(GAME.SUBMIT_VOTE_BOOK_DONE, {
+				awards = PlayerConst.addTranDrop(slot0.award_list),
 				callback = function ()
 					uv0:RemoveOrderBook()
 					uv1()
 				end
 			})
-		elseif uv2 then
-			uv2()
+		elseif uv1 then
+			uv1()
 		end
 	end)
 end

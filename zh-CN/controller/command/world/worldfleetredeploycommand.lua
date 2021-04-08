@@ -10,11 +10,12 @@ function slot0.execute(slot0, slot1)
 
 			slot3 = slot2:GetActiveMap()
 
+			slot3:SetValid(false)
 			slot3:UnbindFleets()
-			slot3:BindFleets(slot2.fleets)
 
 			slot3.findex = table.indexof(slot2.fleets, slot2:GetFleet(slot0.group_list[1].id))
 
+			slot3:BindFleets(slot2.fleets)
 			slot2.staminaMgr:ConsumeStamina(nowWorld:CalcOrderCost(WorldConst.OpReqRedeploy))
 			slot2:SetReqCDTime(WorldConst.OpReqRedeploy, pg.TimeMgr.GetInstance():GetServerTime())
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_instruction_redeploy_2"))

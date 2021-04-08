@@ -900,7 +900,7 @@ pg.memory_template = {
 		story = "HOSHO1",
 		id = 82,
 		icon = "activity",
-		is_open = 1
+		is_open = 0
 	},
 	{
 		mask = "bg/bg_memory",
@@ -911,7 +911,7 @@ pg.memory_template = {
 		story = "HOSHO2",
 		id = 83,
 		icon = "activity",
-		is_open = 1
+		is_open = 0
 	},
 	{
 		mask = "bg/bg_memory",
@@ -922,7 +922,7 @@ pg.memory_template = {
 		story = "HOSHO3",
 		id = 84,
 		icon = "activity",
-		is_open = 1
+		is_open = 0
 	},
 	{
 		mask = "bg/bg_memory",
@@ -933,7 +933,7 @@ pg.memory_template = {
 		story = "HOSHO4",
 		id = 85,
 		icon = "activity",
-		is_open = 1
+		is_open = 0
 	},
 	{
 		mask = "bg/bg_memory",
@@ -944,7 +944,7 @@ pg.memory_template = {
 		story = "HOSHO5",
 		id = 86,
 		icon = "activity",
-		is_open = 1
+		is_open = 0
 	},
 	{
 		mask = "bg/bg_memory",
@@ -955,7 +955,7 @@ pg.memory_template = {
 		story = "HOSHO6",
 		id = 87,
 		icon = "activity",
-		is_open = 1
+		is_open = 0
 	},
 	{
 		mask = "bg/bg_memory",
@@ -966,7 +966,7 @@ pg.memory_template = {
 		story = "HOSHO7",
 		id = 88,
 		icon = "activity",
-		is_open = 1
+		is_open = 0
 	},
 	{
 		mask = "bg/bg_memory",
@@ -977,7 +977,7 @@ pg.memory_template = {
 		story = "HOSHO8",
 		id = 89,
 		icon = "activity",
-		is_open = 1
+		is_open = 0
 	},
 	{
 		mask = "bg/bg_memory",

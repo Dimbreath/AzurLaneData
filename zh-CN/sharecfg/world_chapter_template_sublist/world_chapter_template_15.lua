@@ -6,6 +6,7 @@ function ()
 		is_transfer = 0,
 		name = "破碎的空间Vir-III",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -17,7 +18,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 9206,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -484,12 +485,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_15[9207] = {
 		is_transfer = 0,
 		name = "破碎的空间Lib-III",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -501,7 +504,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 9207,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -968,12 +971,14 @@ function ()
 				20
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_15[9208] = {
 		is_transfer = 0,
 		name = "破碎的空间Sco-III",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -985,7 +990,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 9208,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -1459,12 +1464,14 @@ function ()
 				20
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_15[9209] = {
 		is_transfer = 0,
 		name = "破碎的空间Sgr-III",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -1476,7 +1483,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 9209,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -1929,12 +1936,14 @@ function ()
 				20
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_15[9210] = {
 		is_transfer = 0,
 		name = "破碎的空间Cap-III",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -1946,7 +1955,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 9210,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -2406,12 +2415,14 @@ function ()
 				-100
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_15[9211] = {
 		is_transfer = 0,
 		name = "破碎的空间Aqr-III",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -2423,7 +2434,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 9211,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -2897,12 +2908,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_15[9212] = {
 		is_transfer = 0,
 		name = "破碎的空间Psc-III",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -2914,7 +2927,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 9212,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -3395,12 +3408,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_15[1001001] = {
 		is_transfer = 1,
 		name = "NY",
 		port_name = "NY",
+		version = 0,
 		bgm = "story-richang",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -3412,7 +3427,7 @@ function ()
 		expedition_map_id = 100042,
 		expedition_level = 60,
 		id = 1001001,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -3964,12 +3979,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_15[1002001] = {
 		is_transfer = 1,
 		name = "利维浦",
 		port_name = "利维浦",
+		version = 0,
 		bgm = "blueocean-image",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -3981,7 +3998,7 @@ function ()
 		expedition_map_id = 100042,
 		expedition_level = 70,
 		id = 1002001,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -4540,12 +4557,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_15[1003001] = {
 		is_transfer = 1,
 		name = "直布罗特",
 		port_name = "直布罗特",
+		version = 0,
 		bgm = "story-richang",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -4557,7 +4576,7 @@ function ()
 		expedition_map_id = 100043,
 		expedition_level = 80,
 		id = 1003001,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -5109,6 +5128,7 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 end()

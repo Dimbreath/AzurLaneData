@@ -1,5 +1,239 @@
 pg = pg or {}
 pg.ship_skin_template_8 = {
+	[206050] = {
+		ship_group = 20605,
+		name = "追赶者",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "攻击者级航空母舰—追赶者，舷号D32",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "zhuiganzhe",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 206050,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "zhuiganzhe",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 165,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			80,
+			-120,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.69,
+					0.745,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.641,
+					0.726,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.159,
+					0.053,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.837,
+					1.279,
+					0
+				}
+			},
+			plane = {
+				{
+					0.767,
+					1.231,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.481,
+							2.325,
+							-0.55
+						}
+					}
+				}
+			}
+		}
+	},
+	[206051] = {
+		ship_group = 20605,
+		name = "东煌之道",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "这一身东煌的装扮，是不是很适合我呢？虽然生在白鹰，长在皇家，但我也在东煌留下过痕迹哦～让我们来聊聊东煌的茶与文化吧？呵呵～",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "zhuiganzhe_2",
+		air_bullet_skin = "",
+		shop_type_id = 3,
+		hand_id = 9,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "102",
+		skin_type = 4,
+		id = 206051,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "zhuiganzhe_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70159,
+		voice_actor = 165,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			80,
+			-120,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.758,
+					1.146,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.758,
+					1.146,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.159,
+					0.053,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.739,
+					1.269,
+					0
+				}
+			},
+			plane = {
+				{
+					0.767,
+					1.231,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.481,
+							2.325,
+							-0.55
+						}
+					}
+				}
+			}
+		}
+	},
 	[206052] = {
 		ship_group = 20605,
 		name = "Gamer Style",
@@ -6969,212 +7203,6 @@ pg.ship_skin_template_8 = {
 				{
 					0.62,
 					1.06,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.42,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301142] = {
-		ship_group = 30114,
-		name = "肉包杀手",
-		bg_sp = "",
-		group_index = 2,
-		illustrator2 = -1,
-		desc = "哈呣……指挥官，要是当店员就有肉包吃的话，我当多久都可以……",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "xili_3",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 14,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		skin_type = 4,
-		id = 301142,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "xili_3",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 17,
-		air_bomb_skin = "",
-		illustrator = 10,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.11,
-					0.7,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.05,
-					0.1,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.1,
-					0.64,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.42,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301143] = {
-		ship_group = 30114,
-		name = "肉肉之宴！",
-		bg_sp = "",
-		group_index = 3,
-		illustrator2 = -1,
-		desc = "指挥官，快看看快看看，我的新衣服好不好看呀？好看的话，要不要摸摸看",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "xili_4",
-		air_bullet_skin = "",
-		shop_type_id = 7,
-		hand_id = 14,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "115",
-		skin_type = 4,
-		id = 301143,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "xili_4",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70241,
-		voice_actor = 17,
-		air_bomb_skin = "",
-		illustrator = 10,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.11,
-					0.339,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.05,
-					0.051,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.1,
-					0.347,
 					0
 				}
 			}

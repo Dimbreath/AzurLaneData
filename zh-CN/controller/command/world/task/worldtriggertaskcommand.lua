@@ -3,19 +3,11 @@ slot0 = class("WorldTriggerTaskCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.portId
+	slot6 = nowWorld:GetTaskProxy()
+	slot7, slot8 = WorldTask.canTrigger(slot2.taskId)
 
-	if nowWorld:GetTaskProxy():getTaskById(slot2.taskId) then
-		pg.TipsMgr.GetInstance():ShowTips(i18n1("该任务已存在" .. slot3))
-
-		return
-	end
-
-	print("trigger task ", slot3)
-
-	slot8, slot9 = WorldTask.canTrigger(slot3)
-
-	if not slot8 then
-		pg.TipsMgr.GetInstance():ShowTips(slot9)
+	if not slot7 then
+		pg.TipsMgr.GetInstance():ShowTips(slot8)
 
 		return
 	end

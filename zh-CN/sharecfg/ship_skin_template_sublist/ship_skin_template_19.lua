@@ -1,5 +1,215 @@
 pg = pg or {}
 pg.ship_skin_template_19 = {
+	[900268] = {
+		ship_group = 900268,
+		name = "萨拉托加",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "列克星敦级航空母舰—萨拉托加，舷号CV-3",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "salatuojia",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 900268,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "salatuojia",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.772,
+					0.605,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.772,
+					0.605,
+					0
+				}
+			},
+			plane = {
+				{
+					-0.772,
+					0.605,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.887,
+							1.243,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.642,
+							1.068,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[900269] = {
+		ship_group = 900269,
+		name = "埃塞克斯",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "埃塞克斯级航空母舰—埃塞克斯，舷号CV-9",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "aisaikesi",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 900269,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "aisaikesi",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = 8,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.12,
+					1.3,
+					0
+				}
+			},
+			plane = {
+				{
+					1.09,
+					1.32,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.37,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[900270] = {
 		ship_group = 900270,
 		name = "无畏",
@@ -6865,212 +7075,6 @@ pg.ship_skin_template_19 = {
 				{
 					0.98,
 					0.93,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.57,
-							2.46,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10300050] = {
-		ship_group = 1030005,
-		name = "萨拉娜",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "锁之巫女萨拉娜——奉主人之命前来。今天开始为指挥官大人服务",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "salana",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 8,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		skin_type = -1,
-		id = 10300050,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "salana",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 21,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.11,
-					0.82,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.13,
-					0.08,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.04,
-					0.81,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.57,
-							2.46,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10300051] = {
-		ship_group = 1030005,
-		name = "萨拉娜(传颂之物)",
-		bg_sp = "",
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "旁边是姐姐乌璐鲁。我是萨拉娜。我等奉献一切的证明在此。向主人献上永远的忠诚",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "salana_2",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 8,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "209",
-		skin_type = 4,
-		id = 10300051,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "salana_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70121,
-		voice_actor = 21,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.11,
-					0.82,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.13,
-					0.08,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.04,
-					0.81,
 					0
 				}
 			}

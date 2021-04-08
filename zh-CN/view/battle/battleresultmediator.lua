@@ -84,6 +84,8 @@ function slot0.register(slot0)
 				table.insert(slot8, slot20)
 			end
 		end
+
+		slot0.viewComponent:SetSkipFlag(nowWorld.isAutoFight)
 	elseif slot7 == SYSTEM_CHALLENGE then
 		slot0:bind(uv0.ON_CHALLENGE_SHARE, function (slot0)
 			uv0:addSubLayers(Context.New({

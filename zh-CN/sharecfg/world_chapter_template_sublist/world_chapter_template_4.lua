@@ -6,6 +6,7 @@ function ()
 		is_transfer = 0,
 		name = "剧情海域",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -17,7 +18,7 @@ function ()
 		expedition_map_id = 100042,
 		expedition_level = 60,
 		id = 4011,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {},
@@ -641,12 +642,14 @@ function ()
 				1,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_4[4012] = {
 		is_transfer = 0,
 		name = "剧情海域",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -658,7 +661,7 @@ function ()
 		expedition_map_id = 100042,
 		expedition_level = 60,
 		id = 4012,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {},
@@ -1260,12 +1263,14 @@ function ()
 				50
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_4[4013] = {
 		is_transfer = 0,
 		name = "剧情海域",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 0,
 		is_moveingcost = 1,
@@ -1277,7 +1282,7 @@ function ()
 		expedition_map_id = 100042,
 		expedition_level = 60,
 		id = 4013,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {},
@@ -1908,12 +1913,14 @@ function ()
 				-1,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_4[4014] = {
 		is_transfer = 0,
 		name = "剧情海域",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 0,
 		is_moveingcost = 1,
@@ -1925,7 +1932,7 @@ function ()
 		expedition_map_id = 100044,
 		expedition_level = 60,
 		id = 4014,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {},
@@ -2570,12 +2577,14 @@ function ()
 				1,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_4[4015] = {
 		is_transfer = 0,
 		name = "剧情海域",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 0,
 		is_moveingcost = 1,
@@ -2587,7 +2596,7 @@ function ()
 		expedition_map_id = 100042,
 		expedition_level = 60,
 		id = 4015,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {},
@@ -3189,12 +3198,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_4[4016] = {
 		is_transfer = 0,
 		name = "剧情海域",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 0,
 		is_moveingcost = 1,
@@ -3206,7 +3217,7 @@ function ()
 		expedition_map_id = 100042,
 		expedition_level = 70,
 		id = 4016,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {},
@@ -4762,12 +4773,14 @@ function ()
 				0,
 				4
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_4[4017] = {
 		is_transfer = 0,
 		name = "剧情海域",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 0,
 		is_moveingcost = 1,
@@ -4779,7 +4792,7 @@ function ()
 		expedition_map_id = 100042,
 		expedition_level = 70,
 		id = 4017,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {},
@@ -5332,12 +5345,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_4[4018] = {
 		is_transfer = 0,
 		name = "剧情海域",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 0,
 		is_moveingcost = 1,
@@ -5349,7 +5364,7 @@ function ()
 		expedition_map_id = 100042,
 		expedition_level = 60,
 		id = 4018,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {},
@@ -5923,12 +5938,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_4[4019] = {
 		is_transfer = 0,
 		name = "剧情海域",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -5940,7 +5957,7 @@ function ()
 		expedition_map_id = 100046,
 		expedition_level = 70,
 		id = 4019,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {},
@@ -6628,12 +6645,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_4[4020] = {
 		is_transfer = 0,
 		name = "剧情海域",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -6645,7 +6664,7 @@ function ()
 		expedition_map_id = 50006,
 		expedition_level = 75,
 		id = 4020,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {},
@@ -8193,6 +8212,7 @@ function ()
 				1,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 end()

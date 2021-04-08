@@ -1,5 +1,211 @@
 pg = pg or {}
 pg.ship_skin_template_9 = {
+	[301142] = {
+		ship_group = 30114,
+		name = "肉包杀手",
+		bg_sp = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "哈呣……指挥官，要是当店员就有肉包吃的话，我当多久都可以……",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "xili_3",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 14,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 4,
+		id = 301142,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "xili_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 17,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.11,
+					0.7,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.05,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.1,
+					0.64,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.42,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301143] = {
+		ship_group = 30114,
+		name = "肉肉之宴！",
+		bg_sp = "",
+		group_index = 3,
+		illustrator2 = -1,
+		desc = "指挥官，快看看快看看，我的新衣服好不好看呀？好看的话，要不要摸摸看",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "xili_4",
+		air_bullet_skin = "",
+		shop_type_id = 7,
+		hand_id = 14,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "115",
+		skin_type = 4,
+		id = 301143,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "xili_4",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70241,
+		voice_actor = 17,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.11,
+					0.339,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.05,
+					0.051,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.1,
+					0.347,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.42,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301144] = {
 		ship_group = 30114,
 		name = "美梦环绕圣诞夜",
@@ -6949,212 +7155,6 @@ pg.ship_skin_template_9 = {
 						{
 							-0.46,
 							2.667,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301580] = {
-		ship_group = 30158,
-		name = "{namecode:28}",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "{namecode:26}级驱逐舰十番舰—{namecode:28}",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "xiaoyue",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 14,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		skin_type = -1,
-		id = 301580,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "xiaoyue",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 126,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.812,
-					1.325,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.141,
-					0.053,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.759,
-					1.219,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.48,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301581] = {
-		ship_group = 30158,
-		name = "运动会的准备",
-		bg_sp = "",
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "欸，到我上场了吗？再等一等，马上就好……那个，指挥官，能不要一直盯着{namecode:28}看吗？有点…不好意思",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "xiaoyue_2",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 14,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "112",
-		skin_type = 4,
-		id = 301581,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "xiaoyue_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70168,
-		voice_actor = 126,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.53,
-					1.325,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.141,
-					0.053,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.49,
-					1.27,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.48,
 							0
 						}
 					}

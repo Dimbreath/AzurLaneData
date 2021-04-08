@@ -384,7 +384,7 @@ function seriesAsync(slot0, slot1)
 		if uv0 <= uv1 then
 			uv2[uv0](uv3, ...)
 		elseif uv4 then
-			uv4()
+			uv4(...)
 		end
 	end()
 end
@@ -392,11 +392,11 @@ end
 function seriesAsyncExtend(slot0, slot1)
 	slot2 = nil
 
-	function ()
+	function (...)
 		if #uv0 > 0 then
-			table.remove(uv0, 1)(uv1)
+			table.remove(uv0, 1)(uv1, ...)
 		elseif uv2 then
-			uv2()
+			uv2(...)
 		end
 	end()
 end

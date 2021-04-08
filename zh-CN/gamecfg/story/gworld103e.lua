@@ -30,7 +30,7 @@ return {
 			side = 2,
 			dir = 1,
 			paintingNoise = true,
-			say = "您可以使用G.M系统的分析模块，对海域中已经侦查到的敌方舰队或异常事件进行进一步分析。",
+			say = "您可以使用G.M系统的分析模块，对海域中已经侦察到的敌方舰队或异常事件进行进一步分析。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

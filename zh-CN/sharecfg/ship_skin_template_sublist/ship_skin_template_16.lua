@@ -1,5 +1,225 @@
 pg = pg or {}
 pg.ship_skin_template_16 = {
+	[702061] = {
+		ship_group = 70206,
+		name = "纯白雪景",
+		bg_sp = "1101",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "…阿嚏！唔，早上好…雪？是哦，确实天气预报说过今天会下雪——啊，真的在下着呢…嘻嘻",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "moermansike_2",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "109",
+		skin_type = 4,
+		id = 702061,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "moermansike_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70509,
+		voice_actor = 88,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.268,
+					1.006,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.259,
+					1.005,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.293,
+					1.02,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.458,
+							2.329,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[703010] = {
+		ship_group = 70301,
+		name = "塔林",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "重巡洋舰—塔林",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "talin",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 703010,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "talin",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 113,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.12,
+					1.402,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.126,
+					1.374,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.01,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.133,
+					1.39,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.641,
+							2.36,
+							-0.081
+						}
+					}
+				}
+			}
+		}
+	},
 	[703011] = {
 		ship_group = 70301,
 		name = "Pilsner·Nostalgic",
@@ -7298,234 +7518,6 @@ pg.ship_skin_template_16 = {
 							0.3,
 							0.87,
 							-0.4
-						}
-					}
-				}
-			}
-		}
-	},
-	[900007] = {
-		ship_group = 900007,
-		name = "威尔士亲王",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = 0,
-		desc = "无描述",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "weiershiqinwang",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 0,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		skin_type = -1,
-		id = 900007,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "weiershiqinwang",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 0,
-		air_bomb_skin = "",
-		illustrator = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.6,
-					0.11,
-					-0.06
-				}
-			},
-			vicegun = {
-				{
-					-0.235,
-					0.409,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.552,
-					1.098,
-					0
-				},
-				{
-					0.764,
-					0.871,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-1.014,
-							1.52,
-							-0.59
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.57,
-							0.723,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900008] = {
-		ship_group = 900008,
-		name = "皇家方舟",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = 0,
-		desc = "无描述",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "huangjiafangzhou",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 0,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		skin_type = -1,
-		id = 900008,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "huangjiafangzhou",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 0,
-		air_bomb_skin = "",
-		illustrator = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.333,
-					1.037,
-					0
-				}
-			},
-			plane = {
-				{
-					-0.81,
-					0.757,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.469,
-							0.402,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.34,
-							0.854,
-							0
 						}
 					}
 				}

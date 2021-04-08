@@ -1,5 +1,238 @@
 pg = pg or {}
 pg.ship_skin_template_11 = {
+	[302213] = {
+		ship_group = 30221,
+		name = "冬雪沁香",
+		bg_sp = "1102",
+		group_index = 3,
+		illustrator2 = -1,
+		desc = "呼…啊，指挥官是不是觉得冷了？要不要来点热茶？ 想找个人聊聊天的话，我也乐意奉陪哦？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "nengdai_6",
+		air_bullet_skin = "",
+		shop_type_id = 3,
+		hand_id = 2,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "144",
+		skin_type = 4,
+		id = 302213,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "nengdai_6",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70488,
+		voice_actor = 147,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			20,
+			50,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.28,
+					0.993,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.277,
+					0.99,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.303,
+					1.005,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.524,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[303010] = {
+		ship_group = 30301,
+		name = "{namecode:53}",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "{namecode:53}级重巡洋舰一番舰—{namecode:53}",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "guying",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 2,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 303010,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "guying",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 48,
+		air_bomb_skin = "",
+		illustrator = 20,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.571,
+					0.481,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.304,
+					0.803,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.188,
+					0.274,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.304,
+					0.803,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.498,
+							0.298,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.44,
+							2.15,
+							-0.34
+						}
+					}
+				}
+			}
+		}
+	},
 	[303019] = {
 		ship_group = 30301,
 		name = "{namecode:53}.改",
@@ -7135,214 +7368,6 @@ pg.ship_skin_template_11 = {
 				{
 					1.571,
 					0.711,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.394,
-							2.446,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[305052] = {
-		ship_group = 30505,
-		name = "御狐的辉振袖",
-		bg_sp = "",
-		group_index = 2,
-		illustrator2 = -1,
-		desc = "来得正好，有汝在，就算是一成不变的赏月也多少会变得有趣些吧——今天就好好在这休息吧",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "changmen_3",
-		air_bullet_skin = "",
-		shop_type_id = 2,
-		hand_id = 6,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "126",
-		skin_type = 4,
-		id = 305052,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "changmen_3",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70287,
-		voice_actor = 11,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.593,
-					0.988,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.571,
-					0.711,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.394,
-							2.446,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[305053] = {
-		ship_group = 30505,
-		name = "神子的闲暇一刻",
-		bg_sp = "",
-		group_index = 3,
-		illustrator2 = -1,
-		desc = "“睡衣派对”一般是会做什么？虽然吾经常和{namecode:75}她们一起睡，不过和其他人还是第一次……唔…感觉有点紧张…",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "changmen_4",
-		air_bullet_skin = "",
-		shop_type_id = 9,
-		hand_id = 6,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "142",
-		skin_type = 4,
-		id = 305053,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "changmen_4",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70523,
-		voice_actor = 11,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.479,
-					0.988,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.479,
-					0.995,
 					0
 				}
 			}

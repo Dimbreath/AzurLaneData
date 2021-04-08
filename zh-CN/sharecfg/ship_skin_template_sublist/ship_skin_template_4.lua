@@ -1,5 +1,116 @@
 pg = pg or {}
 pg.ship_skin_template_4 = {
+	[105141] = {
+		ship_group = 10514,
+		name = "剧场上的独奏",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = 19,
+		desc = "为了在战场之外也能派上用场，马萨诸塞建议我学习了钢琴。虽然一开始觉得自己不是这块料，实际上手之后意外地有挑战的价值……",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "nandaketa_2",
+		air_bullet_skin = "",
+		shop_type_id = 7,
+		hand_id = 3,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "107",
+		skin_type = 4,
+		id = 105141,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "nandaketa_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70103,
+		voice_actor = 19,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.22,
+					0.74,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.41,
+					0.84,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.11,
+					0.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.25,
+					0.96,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.34,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[105190] = {
 		ship_group = 10519,
 		name = "马萨诸塞",
@@ -4700,6 +4811,103 @@ pg.ship_skin_template_4 = {
 			}
 		}
 	},
+	[107171] = {
+		ship_group = 10717,
+		name = "纵情假日",
+		bg_sp = "1102",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "任务告一段落，正好来试试长岛推荐的新游戏吧。…指挥官？自己找个位置坐吧，就不特意招待你了。",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "bangkeshan_2",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "109",
+		skin_type = 4,
+		id = 107171,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bangkeshan_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70526,
+		voice_actor = 179,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.29,
+					1.03,
+					0
+				}
+			},
+			plane = {
+				{
+					1.41,
+					1.07,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.34,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[107220] = {
 		ship_group = 10722,
 		name = "独立",
@@ -6544,198 +6752,6 @@ pg.ship_skin_template_4 = {
 						{
 							-0.5,
 							2.497,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[108041] = {
-		ship_group = 10804,
-		name = "见习王牌守备！",
-		bg_sp = "",
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "无畏小姐，看我的超稳定防守！——嘿嘿，指挥官，我最近在练习棒球哦！来看看我的练习成果吧！",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "lansaiyu_2",
-		air_bullet_skin = "",
-		shop_type_id = 13,
-		hand_id = 7,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "132",
-		skin_type = 4,
-		id = 108041,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "lansaiyu_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70335,
-		voice_actor = 227,
-		air_bomb_skin = "",
-		illustrator = 14,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.83,
-					1.127,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.002,
-					-0.009,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.64,
-							2.45,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[108050] = {
-		ship_group = 10805,
-		name = "大青花鱼(μ兵装)",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "偶像大青花鱼，闪！亮！登！台！哈哈，顺势来了这么一段！哦？指挥官有什么更好的登场点子吗？快跟我说说~",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "daqinghuayu_idol",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 5,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "140",
-		skin_type = -1,
-		id = 108050,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "daqinghuayu_idol",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 146,
-		air_bomb_skin = "",
-		illustrator = 14,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.284,
-					0.819,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.64,
-							2.45,
 							0
 						}
 					}

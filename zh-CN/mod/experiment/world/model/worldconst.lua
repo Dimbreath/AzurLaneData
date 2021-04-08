@@ -72,7 +72,7 @@ slot0.ReqName = {
 	"OpReqRetreat",
 	nil,
 	nil,
-	"OpReqReturn",
+	nil,
 	"OpReqTask",
 	nil,
 	"OpReqMaintenance",
@@ -103,6 +103,7 @@ slot0.OpActionFleetAnim = -107
 slot0.OpActionEventEffect = -108
 slot0.OpActionTaskGoto = -109
 slot0.OpActionCameraMove = -110
+slot0.OpActionTrapGravityAnim = -111
 slot0.RoundPlayer = 0
 slot0.RoundElse = 1
 slot0.DirNone = 0
@@ -255,7 +256,9 @@ slot0.WindScale = {
 }
 
 function slot0.GetWindScale(slot0)
-	return slot0 and uv0.WindScale[slot0] or 1
+	slot1 = slot0 and uv0.WindScale[slot0] or 1
+
+	return Vector3(slot1, slot1, slot1)
 end
 
 slot0.BaseMoveDuration = 0.35
@@ -284,10 +287,6 @@ slot0.DirType1 = 1
 slot0.DirType2 = 2
 slot0.DirType4 = 4
 
-function slot0.CalcWorldPowerRank(slot0)
-	return 1
-end
-
 function slot0.CalcModelPosition(slot0, slot1)
 	return Vector3((slot0.config.area_pos[1] - slot1.x / 2) / PIXEL_PER_UNIT, 0, (slot0.config.area_pos[2] - slot1.y / 2) / PIXEL_PER_UNIT)
 end
@@ -296,11 +295,11 @@ slot0.BrokenBuffId = pg.gameset.world_death_buff.key_value
 slot0.MoveLimitBuffId = pg.gameset.world_move_buff_desc.key_value
 slot0.DamageBuffList = pg.gameset.world_buff_morale.description
 
-function slot0.ExtendpropertiesRatesFromBuffList(slot0, slot1)
+function slot0.ExtendPropertiesRatesFromBuffList(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		if slot6:IsValid() then
 			for slot10, slot11 in ipairs(slot6.config.buff_attr) do
-				slot0[slot11] = defaultValue(slot0[slot11], 1) * (10000 + slot6.config.buff_effect[slot10] * slot6.floor) / 10000
+				slot0[slot11] = defaultValue(slot0[slot11], 1) * (10000 + slot6.config.buff_effect[slot10] * slot6:GetFloor()) / 10000
 			end
 		end
 	end
@@ -311,9 +310,9 @@ function slot0.AppendPropertiesFromBuffList(slot0, slot1, slot2)
 		if slot7:IsValid() then
 			for slot11, slot12 in ipairs(slot7.config.buff_attr) do
 				if slot7.config.percent[slot11] == 1 then
-					slot1[slot12] = defaultValue(slot1[slot12], 0) + slot7.config.buff_effect[slot11] * slot7.floor
+					slot1[slot12] = defaultValue(slot1[slot12], 0) + slot7.config.buff_effect[slot11] * slot7:GetFloor()
 				else
-					slot0[slot12] = defaultValue(slot0[slot12], 0) + slot7.config.buff_effect[slot11] * slot7.floor
+					slot0[slot12] = defaultValue(slot0[slot12], 0) + slot7.config.buff_effect[slot11] * slot7:GetFloor()
 				end
 			end
 		end
@@ -407,6 +406,8 @@ slot0.SystemOrderSubmarine = slot0.SystemSubmarine
 slot0.SystemResetCountDown = 16
 slot0.SystemResetExchange = 17
 slot0.SystemResetShop = 18
+slot0.SystemAutoFight_1 = 19
+slot0.SystemAutoFight_2 = 20
 
 function slot0.BuildHelpTips(slot0)
 	slot1 = i18n("world_stage_help")
@@ -446,9 +447,8 @@ function slot0.GetRookieBattleLoseStory()
 	return pg.gameset.world_story_special_2.description[1]
 end
 
-slot0.FOVInRange = 1
+slot0.FOVMapSight = 1
 slot0.FOVEventEffect = 2
-slot0.FOVMapSight = 4
 slot0.GuideEnemyEnd = false
 
 function slot0.IsWorldGuideEnemyId(slot0)
@@ -601,6 +601,40 @@ function slot0.ReqWorldForServer()
 		type = 1
 	}, 33001, function (slot0)
 	end)
+end
+
+slot0.ObstacleConfig = {
+	[0] = 2,
+	3,
+	7,
+	0,
+	6,
+	1,
+	4,
+	5
+}
+slot0.ObstacleType = {
+	"leave",
+	"arrive",
+	"pass"
+}
+
+function slot0.GetObstacleKey(slot0)
+	return bit.lshift(1, #uv0.ObstacleType - table.indexof(uv0.ObstacleType, slot0))
+end
+
+function slot0.GetObstacleConfig(slot0, slot1)
+	return bit.band(uv0.ObstacleConfig[slot0], uv0.GetObstacleKey(slot1)) > 0
+end
+
+function slot0.RangeCheck(slot0, slot1, slot2)
+	for slot6 = slot0.row - slot1, slot0.row + slot1 do
+		for slot10 = slot0.column - slot1, slot0.column + slot1 do
+			if uv0.InFOVRange(slot0.row, slot0.column, slot6, slot10, slot1) then
+				slot2(slot6, slot10)
+			end
+		end
+	end
 end
 
 return slot0

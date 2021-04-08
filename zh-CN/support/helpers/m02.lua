@@ -1490,7 +1490,7 @@ function shortenString(slot0, slot1)
 	while slot2 <= slot5 do
 		slot7, slot8 = GetPerceptualSize(string.byte(slot0, slot2))
 
-		if slot1 <= slot3 + slot8 then
+		if slot1 <= math.ceil(slot3 + slot8) then
 			slot4 = slot2 + slot7
 
 			break
@@ -2911,4 +2911,109 @@ function SwitchSpecialChar(slot0, slot1)
 	end
 
 	return slot0
+end
+
+function AfterCheck(slot0, slot1)
+	slot2 = {
+		[slot6] = slot7[1]()
+	}
+
+	for slot6, slot7 in ipairs(slot0) do
+		-- Nothing
+	end
+
+	slot1()
+
+	for slot6, slot7 in ipairs(slot0) do
+		if slot2[slot6] ~= slot7[1]() then
+			slot7[2]()
+		end
+
+		slot2[slot6] = slot7[1]()
+	end
+end
+
+function CompareFuncs(slot0, slot1, slot2)
+	slot3 = 1
+
+	while slot3 <= #slot2 do
+		slot4 = slot2[slot3]
+
+		if slot4(slot0) == slot4(slot1) then
+			slot3 = slot3 + 1
+		else
+			return slot5 < slot6
+		end
+	end
+
+	return false
+end
+
+function DropResultIntegration(slot0)
+	slot1 = {}
+	slot2 = 1
+
+	while slot2 <= #slot0 do
+		slot1[slot3] = slot1[slot0[slot2].type] or {}
+
+		if slot1[slot3][slot0[slot2].id] then
+			slot5 = slot0[slot1[slot3][slot4]]
+			slot5.count = slot5.count + table.remove(slot0, slot2).count
+		else
+			slot1[slot3][slot4] = slot2
+			slot2 = slot2 + 1
+		end
+	end
+
+	slot3 = {
+		function (slot0)
+			slot2 = slot0.id
+
+			if slot0.type == DROP_TYPE_SHIP then
+				return 1
+			elseif slot1 == DROP_TYPE_RESOURCE then
+				if slot2 == 1 then
+					return 2
+				else
+					return 3
+				end
+			elseif slot1 == DROP_TYPE_ITEM then
+				if slot2 == 59010 then
+					return 4
+				elseif slot2 == 59900 then
+					return 5
+				elseif (pg.item_data_statistics[slot2] and slot3.type or 0) == 9 then
+					return 6
+				elseif slot4 == 5 then
+					return 7
+				elseif slot4 == 4 then
+					return 8
+				elseif slot4 == 7 then
+					return 9
+				end
+			elseif slot1 == DROP_TYPE_VITEM and slot2 == 59011 then
+				return 4
+			end
+
+			return 100
+		end,
+		function (slot0)
+			slot1 = nil
+
+			if slot0.type == DROP_TYPE_SHIP then
+				slot1 = pg.ship_data_statistics[slot0.id]
+			elseif slot0.type == DROP_TYPE_ITEM then
+				slot1 = pg.item_data_statistics[slot0.id]
+			end
+
+			return (slot1 and slot1.rarity or 0) * -1
+		end,
+		function (slot0)
+			return slot0.id
+		end
+	}
+
+	table.sort(slot0, function (slot0, slot1)
+		return CompareFuncs(slot0, slot1, uv0)
+	end)
 end

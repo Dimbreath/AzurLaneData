@@ -85,8 +85,10 @@ function slot0.Init(slot0)
 end
 
 function slot0.Update(slot0, slot1)
+	slot2 = slot0.cell
+
 	if slot1 == nil or slot1 == WorldMapCell.EventUpdateInFov or slot1 == WorldMapCell.EventUpdateFog then
-		setActive(slot0.rtQuad, not slot0.cell.fog and slot0.cell:GetInFOV())
+		setActive(slot0.rtQuad, slot2:GetInFOV() and not slot2:InFog())
 		slot0:OnUpdateAttachment()
 	end
 end

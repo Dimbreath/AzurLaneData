@@ -8,10 +8,9 @@ slot0.Fields = {
 	rtTime = "userdata",
 	cmdSkills = "table",
 	rtFleetBuffs = "userdata",
-	entrance = "table",
-	rtMoveLimit = "userdata",
-	rtMapName = "userdata",
 	rtCmdSkills = "userdata",
+	rtMapName = "userdata",
+	entrance = "table",
 	rtPoisonRate = "userdata",
 	fleet = "table",
 	cmdSkillFunc = "function",
@@ -23,25 +22,22 @@ slot0.Fields = {
 	globalBuffs = "table",
 	poisonFunc = "function",
 	fleetBuffs = "table",
-	rtStamina = "userdata"
+	rtMoveLimit = "userdata"
 }
 slot0.Listeners = {
 	onUpdateFleetBuff = "OnUpdateFleetBuff",
 	onUpdateGlobalBuff = "OnUpdateGlobalBuff",
 	onUpdateCmdSkill = "OnUpdateCmdSkill",
-	onUpdateStamina = "OnUpdateStamina",
 	onUpdateSelectedFleet = "OnUpdateSelectedFleet"
 }
 
 function slot0.Setup(slot0)
-	nowWorld.staminaMgr:AddListener(WorldStaminaManager.EventUpdateStamina, slot0.onUpdateStamina)
 	nowWorld:AddListener(World.EventUpdateGlobalBuff, slot0.onUpdateGlobalBuff)
 	pg.DelegateInfo.New(slot0)
 	slot0:Init()
 end
 
 function slot0.Dispose(slot0)
-	nowWorld.staminaMgr:RemoveListener(WorldStaminaManager.EventUpdateStamina, slot0.onUpdateStamina)
 	nowWorld:RemoveListener(World.EventUpdateGlobalBuff, slot0.onUpdateGlobalBuff)
 	slot0:RemoveFleetListener(slot0.fleet)
 	slot0:RemoveMapListener()
@@ -84,7 +80,6 @@ function slot0.Init(slot0)
 	slot0.rtMapName = slot1:Find("title/name")
 	slot0.rtTime = slot1:Find("title/time")
 	slot0.rtResource = slot1:Find("resources")
-	slot0.rtStamina = slot1:Find("features/stamina")
 	slot0.rtGlobalBuffs = slot1:Find("features/status_field/global_buffs")
 	slot0.rtMoveLimit = slot1:Find("features/status_field/move_limit")
 	slot0.rtPoisonRate = slot1:Find("features/status_field/poison_rate")
@@ -125,7 +120,6 @@ function slot0.Init(slot0)
 			end, SFX_PANEL)
 		end
 	end)
-	slot0:OnUpdateStamina()
 end
 
 function slot0.Update(slot0, slot1, slot2)
@@ -175,23 +169,6 @@ end
 
 function slot0.OnUpdateMap(slot0)
 	setText(slot0.rtMapName, slot0.map:GetName(slot0.entrance:GetBaseMap()))
-	setActive(slot0.rtStamina, slot0.map:GetMovingCostRate() > 0)
-
-	if isActive(slot0.rtStamina) then
-		WorldGuider.GetInstance():PlayGuide("WorldG011")
-	end
-
-	slot1 = WorldConst.IsRookieMap(slot0.map.id)
-
-	setActive(slot0.btnBack:Find("arrow"), slot1)
-	setActive(slot0.btnBack:Find("world"), not slot1)
-end
-
-function slot0.OnUpdateStamina(slot0)
-	slot1 = nowWorld.staminaMgr
-
-	setSlider(slot0.rtStamina:Find("silder"), 0, slot1:GetMaxStamina(), slot1:GetTotalStamina())
-	setText(slot0.rtStamina:Find("text"), "(" .. slot1:GetDisplayStanima() .. ")/" .. slot1:GetMaxStamina())
 end
 
 function slot0.OnUpdateSelectedFleet(slot0)

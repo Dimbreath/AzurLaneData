@@ -15,6 +15,34 @@ function slot0.register(slot0)
 		table.insert(slot0.metaProgressVOList, slot6)
 	end
 
+	slot0.redTagTable = {}
+
+	for slot4, slot5 in pairs(uv0.all) do
+		slot0.redTagTable[slot5] = {
+			false,
+			false
+		}
+	end
+
+	slot0:on(63315, function (slot0)
+		print("63315 get red tag info")
+
+		for slot5, slot6 in ipairs(slot0.arg1) do
+			table.insert({}, MetaCharacterConst.GetMetaShipGroupIDByConfigID(slot6))
+		end
+
+		if slot0.type == 1 then
+			for slot5, slot6 in pairs(uv0.redTagTable) do
+				if table.contains(slot1, slot5) then
+					slot6[1] = true
+					slot6[2] = false
+				else
+					slot6[1] = false
+					slot6[2] = false
+				end
+			end
+		end
+	end)
 	slot0:on(63316, function (slot0)
 		print("get 63316 exp info")
 
@@ -54,6 +82,16 @@ function slot0.getMetaProgressVOByID(slot0, slot1)
 	end
 
 	return slot2
+end
+
+function slot0.updateRedTag(slot0, slot1)
+	if slot0.redTagTable[slot1][1] == true then
+		slot0.redTagTable[slot1][2] = true
+	end
+end
+
+function slot0.getRedTag(slot0, slot1)
+	return slot0.redTagTable[slot1][2] == false and slot2[1] == true
 end
 
 function slot0.isHaveVaildMetaProgressVO(slot0)

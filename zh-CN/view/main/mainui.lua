@@ -1328,12 +1328,12 @@ function slot0.paintMove(slot0, slot1, slot2, slot3, slot4, slot5)
 	end))
 end
 
-function slot0.displayShipWord(slot0, slot1)
-	if slot0.chatFlag then
-		return
+function slot0.getCvData(slot0, slot1)
+	if slot1 == "" then
+		return nil
 	end
 
-	slot4, slot5, slot6, slot7, slot8 = nil
+	slot4, slot5, slot6, slot7, slot8, slot9 = nil
 
 	if string.split(slot1, "_")[1] == "main" then
 		slot4, slot6, slot5 = ShipWordHelper.GetWordAndCV(slot0.flagShip.skinId, slot3[1], tonumber(slot3[2]), nil, slot0.flagShip:getCVIntimacy())
@@ -1345,7 +1345,25 @@ function slot0.displayShipWord(slot0, slot1)
 		slot8 = ShipWordHelper.GetL2dSoundEffect(slot0.flagShip.skinId, slot1)
 	end
 
-	if not slot5 or slot5 == nil or slot5 == "" or slot5 == "nil" then
+	slot9 = slot7 == -1
+
+	if slot0.l2dEventFlag then
+		slot7 = 0
+	end
+
+	return slot4, slot6, slot5, slot7, slot8, slot9
+end
+
+function slot0.displayShipWord(slot0, slot1)
+	if slot0.chatFlag then
+		return
+	end
+
+	slot2 = slot0.flagShip:getCVIntimacy()
+	slot3 = string.split(slot1, "_")
+	slot4, slot5, slot6, slot7, slot8, slot9 = slot0:getCvData(slot1)
+
+	if not slot6 or slot6 == nil or slot6 == "" or slot6 == "nil" then
 		return
 	end
 
@@ -1358,30 +1376,30 @@ function slot0.displayShipWord(slot0, slot1)
 	end
 
 	if PLATFORM_CODE == PLATFORM_US then
-		setTextEN(slot0._chatText, slot5)
+		setTextEN(slot0._chatText, slot6)
 	else
-		setText(slot0._chatText, SwitchSpecialChar(slot5))
+		setText(slot0._chatText, SwitchSpecialChar(slot6))
 	end
 
 	if CHAT_POP_STR_LEN < #slot0._chatText:GetComponent(typeof(Text)).text then
-		slot9.alignment = TextAnchor.MiddleLeft
+		slot10.alignment = TextAnchor.MiddleLeft
 	else
-		slot9.alignment = TextAnchor.MiddleCenter
+		slot10.alignment = TextAnchor.MiddleCenter
 	end
 
-	if slot0.initChatBgH < slot9.preferredHeight + 26 then
-		slot0._chatTextBg.sizeDelta = Vector2.New(slot0._chatTextBg.sizeDelta.x, slot10)
+	if slot0.initChatBgH < slot10.preferredHeight + 26 then
+		slot0._chatTextBg.sizeDelta = Vector2.New(slot0._chatTextBg.sizeDelta.x, slot11)
 	else
 		slot0._chatTextBg.sizeDelta = Vector2.New(slot0._chatTextBg.sizeDelta.x, slot0.initChatBgH)
 	end
 
-	slot11 = slot0.CHAT_SHOW_TIME
+	slot12 = slot0.CHAT_SHOW_TIME
 
 	if findTF(slot0._paintingTF, "fitter").childCount > 0 then
 		ShipExpressionHelper.SetExpression(findTF(slot0._paintingTF, "fitter"):GetChild(0), slot0.flagShip:getPainting(), slot1, slot2, slot0.flagShip.skinId)
 	end
 
-	function slot12()
+	function slot13()
 		LeanTween.scale(rtf(uv0._chat.gameObject), Vector3.New(1, 1, 1), uv0.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function ()
 			uv0._lastChatTween = LeanTween.scale(rtf(uv0._chat.gameObject), Vector3.New(0, 0, 1), uv0.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeInBack):setDelay(uv0.CHAT_ANIMATION_TIME + uv1):setOnComplete(System.Action(function ()
 				uv0._lastChatTween = nil
@@ -1406,12 +1424,12 @@ function slot0.displayShipWord(slot0, slot1)
 		end)).id
 	end
 
-	slot13 = pg.NewStoryMgr.GetInstance():IsRunning()
+	slot14 = pg.NewStoryMgr.GetInstance():IsRunning()
 
 	if getProxy(ContextProxy):getContextByMediator(NewShipMediator) then
 		-- Nothing
-	elseif slot6 and not slot13 then
-		function slot14()
+	elseif slot5 and not slot14 then
+		function slot15()
 			if uv0._currentVoice then
 				uv0._currentVoice:Stop(true)
 			end
@@ -1443,9 +1461,9 @@ function slot0.displayShipWord(slot0, slot1)
 			end
 		end
 
-		slot16 = pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(slot0.flagShip.skinId))
+		slot17 = pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(slot0.flagShip.skinId))
 
-		pg.CriMgr.GetInstance():LoadCueSheet(slot16, function (slot0)
+		pg.CriMgr.GetInstance():LoadCueSheet(slot17, function (slot0)
 			if slot0 then
 				uv0()
 			else
@@ -1453,9 +1471,9 @@ function slot0.displayShipWord(slot0, slot1)
 			end
 		end)
 
-		slot0.preCvCueSheetName = slot16
-	elseif slot5 then
-		slot12()
+		slot0.preCvCueSheetName = slot17
+	elseif slot6 then
+		slot13()
 	else
 		slot0.chatFlag = false
 	end
@@ -1626,13 +1644,19 @@ function slot0.AssistantEventEffect(slot0, slot1)
 		return
 	end
 
-	slot2 = uv0.assistantEvents[slot1]
+	slot3, slot4, slot5, slot6, slot7, slot8 = slot0:getCvData(uv0.assistantEvents[slot1].dialog)
 
 	if slot0.live2dChar then
-		slot0.live2dChar:TriggerAction(slot2.action)
+		if not slot8 then
+			slot0.live2dChar:TriggerAction(slot2.action)
+		else
+			slot0.live2dChar:TriggerAction(slot2.action, nil, , function ()
+				uv0:displayShipWord(uv1.dialog)
+			end)
+		end
 	end
 
-	if slot2.dialog ~= "" then
+	if slot2.dialog ~= "" and not slot8 then
 		slot0:displayShipWord(slot2.dialog)
 	else
 		slot0:startChatTimer()

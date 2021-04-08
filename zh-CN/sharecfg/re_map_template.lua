@@ -467,6 +467,46 @@ pg.re_map_template = {
 			}
 		}
 	},
+	[12] = {
+		bg = "temp_xinaoerliang",
+		name = "月光下的序曲常驻复刻",
+		memory_group = 132,
+		id = 12,
+		activity_type = 2,
+		order = 12,
+		config_data = {
+			2200031,
+			2200032,
+			2200033
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					4,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					12,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -477,6 +517,7 @@ pg.re_map_template = {
 		8,
 		9,
 		10,
-		11
+		11,
+		12
 	}
 }

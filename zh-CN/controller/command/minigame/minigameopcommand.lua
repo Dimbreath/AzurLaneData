@@ -31,18 +31,17 @@ function slot0.execute(slot0, slot1)
 				MiniGameDataCreator.DataCreateFunc(uv0, uv1, slot0.data.datas, slot0.data.date1_key_value_list)
 			end
 
-			for slot6, slot7 in ipairs(slot0.award_list) do
-				slot8 = {
-					type = slot7.type,
-					id = slot7.id,
-					count = slot7.number
+			PlayerConst.addTranDrop(slot0.award_list)
+
+			slot2 = underscore.map(slot0.award_list, function (slot0)
+				return {
+					type = slot0.type,
+					id = slot0.id,
+					count = slot0.number
 				}
+			end)
 
-				table.insert({}, slot8)
-				uv2:sendNotification(GAME.ADD_ITEM, Item.New(slot8))
-			end
-
-			if uv0 == uv3.CMD_COMPLETE and slot1:GetHubByHubId(uv4):getConfig("reward_target") ~= "" and slot4 ~= 0 then
+			if uv0 == uv2.CMD_COMPLETE and slot1:GetHubByHubId(uv3):getConfig("reward_target") ~= "" and slot4 ~= 0 then
 				table.insert(slot2, {
 					count = 1,
 					type = DROP_TYPE_VITEM,
@@ -50,9 +49,9 @@ function slot0.execute(slot0, slot1)
 				})
 			end
 
-			uv2:sendNotification(GAME.SEND_MINI_GAME_OP_DONE, {
+			uv4:sendNotification(GAME.SEND_MINI_GAME_OP_DONE, {
 				awards = slot2,
-				hubid = uv4,
+				hubid = uv3,
 				cmd = uv0,
 				argList = uv1
 			})

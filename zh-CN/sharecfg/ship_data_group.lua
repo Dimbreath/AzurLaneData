@@ -3114,37 +3114,6 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
-				{
-					"GETBOAT",
-					{
-						page = 3
-					}
-				},
-				0
-			},
-			{
-				"推荐探索关卡4-1",
-				{
-					"LEVEL",
-					{
-						chapterid = 401
-					}
-				},
-				0
-			},
-			{
-				"进行重型、特型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "special",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"舰队商店兑换",
 				{
 					"SHOP",
@@ -3367,18 +3336,7 @@ pg.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"收藏解锁",
-				{
-					"COLLECTSHIP",
-					{
-						shipGroupId = 10311
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[50] = {
 		type = 3,
@@ -4071,18 +4029,7 @@ pg.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"军需商店兑换",
-				{
-					"SHOP",
-					{
-						warp = "supplies"
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[354] = {
 		type = 5,
@@ -7082,29 +7029,7 @@ pg.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"荣誉勋章兑换（概率刷新）",
-				{
-					"GETBOAT",
-					{
-						page = 3
-					}
-				},
-				0
-			},
-			{
-				"进行轻型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[335] = {
 		type = 2,
@@ -7273,26 +7198,7 @@ pg.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"进行轻型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
-			},
-			{
-				"限时活动：凛冬王冠",
-				{
-					""
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[408] = {
 		type = 2,
@@ -7944,39 +7850,7 @@ pg.ship_data_group = {
 		trans_skill = {
 			10710
 		},
-		description = {
-			{
-				"荣誉勋章兑换（概率刷新）",
-				{
-					"GETBOAT",
-					{
-						page = 3
-					}
-				},
-				0
-			},
-			{
-				"推荐探索关卡8-1",
-				{
-					"LEVEL",
-					{
-						chapterid = 801
-					}
-				},
-				0
-			},
-			{
-				"进行重型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[127] = {
 		type = 4,
@@ -8380,39 +8254,7 @@ pg.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"荣誉勋章兑换（概率刷新）",
-				{
-					"GETBOAT",
-					{
-						page = 3
-					}
-				},
-				0
-			},
-			{
-				"推荐探索关卡2-4",
-				{
-					"LEVEL",
-					{
-						chapterid = 204
-					}
-				},
-				0
-			},
-			{
-				"进行重型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[134] = {
 		type = 5,
@@ -8852,39 +8694,7 @@ pg.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"荣誉勋章兑换（概率刷新）",
-				{
-					"GETBOAT",
-					{
-						page = 3
-					}
-				},
-				0
-			},
-			{
-				"推荐探索关卡6-3",
-				{
-					"LEVEL",
-					{
-						chapterid = 603
-					}
-				},
-				0
-			},
-			{
-				"进行特型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "special",
-						page = 1
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[145] = {
 		type = 7,
@@ -8907,29 +8717,7 @@ pg.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"荣誉勋章兑换（概率刷新）",
-				{
-					"GETBOAT",
-					{
-						page = 3
-					}
-				},
-				0
-			},
-			{
-				"进行特型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "special",
-						page = 1
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[146] = {
 		type = 7,
@@ -10306,18 +10094,7 @@ pg.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"推荐探索关卡6-4",
-				{
-					"LEVEL",
-					{
-						chapterid = 604
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[288] = {
 		type = 1,
@@ -11503,26 +11280,7 @@ pg.ship_data_group = {
 		trans_skill = {
 			12040
 		},
-		description = {
-			{
-				"进行轻型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
-			},
-			{
-				"限时活动：电量支援计划",
-				{
-					""
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[308] = {
 		type = 2,
@@ -12629,18 +12387,7 @@ pg.ship_data_group = {
 		trans_skill = {
 			10830
 		},
-		description = {
-			{
-				"推荐探索关卡6-3",
-				{
-					"LEVEL",
-					{
-						chapterid = 603
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[209] = {
 		type = 5,
@@ -12776,36 +12523,7 @@ pg.ship_data_group = {
 		trans_skill = {
 			11600
 		},
-		description = {
-			{
-				"限时活动：红染的参访者",
-				{
-					""
-				},
-				0
-			},
-			{
-				"进行重型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
-			},
-			{
-				"荣誉勋章兑换（概率刷新）",
-				{
-					"GETBOAT",
-					{
-						page = 3
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[212] = {
 		type = 5,
@@ -13336,18 +13054,7 @@ pg.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"推荐探索关卡3-4",
-				{
-					"LEVEL",
-					{
-						chapterid = 304
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[225] = {
 		type = 7,
@@ -13370,18 +13077,7 @@ pg.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"推荐探索关卡3-4",
-				{
-					"LEVEL",
-					{
-						chapterid = 304
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[384] = {
 		type = 7,
@@ -13647,19 +13343,7 @@ pg.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"进行特型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "special",
-						page = 1
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[474] = {
 		type = 7,
@@ -15133,25 +14817,7 @@ pg.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"限时活动：异色格",
-				{
-					""
-				},
-				0
-			},
-			{
-				"核心兑换获得",
-				{
-					"SHOP",
-					{
-						warp = "sham"
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[249] = {
 		type = 4,
@@ -15309,26 +14975,7 @@ pg.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"限时活动：异色格",
-				{
-					""
-				},
-				0
-			},
-			{
-				"进行特型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "special",
-						page = 1
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[482] = {
 		type = 7,

@@ -6,6 +6,7 @@ function ()
 		is_transfer = 1,
 		name = "NA海域东南B",
 		port_name = "商船",
+		version = 0,
 		bgm = "bsm-5",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -17,7 +18,7 @@ function ()
 		expedition_map_id = 100042,
 		expedition_level = 80,
 		id = 1062002,
-		version = 0,
+		is_auto = 1,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -767,12 +768,14 @@ function ()
 			}
 		},
 		float_items = {},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_26[1063002] = {
 		is_transfer = 1,
 		name = "NA海域东南C",
 		port_name = "商船",
+		version = 0,
 		bgm = "bsm-5",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -784,7 +787,7 @@ function ()
 		expedition_map_id = 100042,
 		expedition_level = 90,
 		id = 1063002,
-		version = 0,
+		is_auto = 1,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -1834,12 +1837,14 @@ function ()
 			}
 		},
 		float_items = {},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_26[1064002] = {
 		is_transfer = 1,
 		name = "NA海域东南D",
 		port_name = "商船",
+		version = 0,
 		bgm = "bsm-5",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -1851,7 +1856,7 @@ function ()
 		expedition_map_id = 100044,
 		expedition_level = 90,
 		id = 1064002,
-		version = 0,
+		is_auto = 1,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -2861,12 +2866,14 @@ function ()
 			}
 		},
 		float_items = {},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_26[1065002] = {
 		is_transfer = 1,
 		name = "NA海域东南E",
 		port_name = "商船",
+		version = 0,
 		bgm = "bsm-5",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -2878,7 +2885,7 @@ function ()
 		expedition_map_id = 100042,
 		expedition_level = 80,
 		id = 1065002,
-		version = 0,
+		is_auto = 1,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -3658,12 +3665,14 @@ function ()
 			}
 		},
 		float_items = {},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_26[1066002] = {
 		is_transfer = 1,
 		name = "NA海域东南B",
 		port_name = "商船",
+		version = 0,
 		bgm = "bsm-5",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -3675,7 +3684,7 @@ function ()
 		expedition_map_id = 100042,
 		expedition_level = 80,
 		id = 1066002,
-		version = 0,
+		is_auto = 1,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -4455,12 +4464,14 @@ function ()
 			}
 		},
 		float_items = {},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_26[1071002] = {
 		is_transfer = 1,
 		name = "陆间海A",
 		port_name = "商船",
+		version = 0,
 		bgm = "story-italy",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -4472,7 +4483,7 @@ function ()
 		expedition_map_id = 100043,
 		expedition_level = 100,
 		id = 1071002,
-		version = 0,
+		is_auto = 1,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -5802,12 +5813,14 @@ function ()
 			}
 		},
 		float_items = {},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_26[1072002] = {
 		is_transfer = 1,
 		name = "陆间海B",
 		port_name = "商船",
+		version = 0,
 		bgm = "story-italy",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -5819,7 +5832,7 @@ function ()
 		expedition_map_id = 100043,
 		expedition_level = 110,
 		id = 1072002,
-		version = 0,
+		is_auto = 1,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -7149,12 +7162,14 @@ function ()
 			}
 		},
 		float_items = {},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_26[1073002] = {
 		is_transfer = 1,
 		name = "陆间海C",
 		port_name = "商船",
+		version = 0,
 		bgm = "story-italy",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -7166,7 +7181,7 @@ function ()
 		expedition_map_id = 100043,
 		expedition_level = 100,
 		id = 1073002,
-		version = 0,
+		is_auto = 1,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -8446,12 +8461,14 @@ function ()
 			}
 		},
 		float_items = {},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_26[1081002] = {
 		is_transfer = 1,
 		name = "NA海域西A",
 		port_name = "商船",
+		version = 0,
 		bgm = "story-masazhusai",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -8463,7 +8480,7 @@ function ()
 		expedition_map_id = 100042,
 		expedition_level = 70,
 		id = 1081002,
-		version = 0,
+		is_auto = 1,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -9013,12 +9030,14 @@ function ()
 			}
 		},
 		float_items = {},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_26[1082002] = {
 		is_transfer = 1,
 		name = "NA海域西B",
 		port_name = "商船",
+		version = 0,
 		bgm = "story-masazhusai",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -9030,7 +9049,7 @@ function ()
 		expedition_map_id = 100042,
 		expedition_level = 90,
 		id = 1082002,
-		version = 0,
+		is_auto = 1,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -10040,6 +10059,7 @@ function ()
 			}
 		},
 		float_items = {},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 end()

@@ -4,6 +4,8 @@ slot0.__name = "BattleGateWorld"
 
 function slot0.Entrance(slot0, slot1)
 	if BeginStageCommand.DockOverload() then
+		nowWorld:TriggerAutoFight(false)
+
 		return
 	end
 

@@ -11,6 +11,7 @@ function slot0.onRegister(slot0)
 	slot0._nextTipAutoBattleTime = PlayerPrefs.GetInt("AutoBattleTip", 0)
 	slot0._setFlagShip = PlayerPrefs.GetInt("setFlagShip", 0) > 0
 	slot0._screenRatio = PlayerPrefs.GetFloat("SetScreenRatio", ADAPT_TARGET)
+	slot0.storyAutoPlayCode = PlayerPrefs.GetInt("story_autoplay_flag", 0)
 	NotchAdapt.CheckNotchRatio = slot0._screenRatio
 	slot0.nextTipActBossExchangeTicket = nil
 
@@ -414,6 +415,19 @@ function slot0.GetStorySpeed(slot0)
 	end
 
 	return slot0.storySpeed
+end
+
+function slot0.GetStoryAutoPlayFlag(slot0)
+	return slot0.storyAutoPlayCode > 0
+end
+
+function slot0.SetStoryAutoPlayFlag(slot0, slot1)
+	if slot0.storyAutoPlayCode ~= slot1 then
+		PlayerPrefs.SetInt("story_autoplay_flag", slot1)
+		PlayerPrefs.Save()
+
+		slot0.storyAutoPlayCode = slot1
+	end
 end
 
 return slot0

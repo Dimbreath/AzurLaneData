@@ -13,7 +13,7 @@ return {
 			bgm = "level02",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "海域侦查已完成，已将侦察情报同步整合至G.M系统中。",
+			say = "海域侦察已完成，已将侦察情报同步整合至G.M系统中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

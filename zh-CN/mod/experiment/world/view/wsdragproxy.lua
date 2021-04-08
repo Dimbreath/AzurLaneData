@@ -69,20 +69,20 @@ function slot0.Dispose(slot0)
 	slot0:Clear()
 end
 
-function slot0.Focus(slot0, slot1, slot2, slot3)
-	slot5 = slot0.transform:Find("plane")
-	slot6 = slot0.transform.parent:InverseTransformVector(slot1 - slot5.position)
-	slot6.x = slot6.x + slot5.localPosition.x
-	slot6.y = slot6.y + slot5.localPosition.y - slot5.localPosition.z * math.tan(math.pi / 180 * slot0.map.theme.angle)
-	slot6.x = math.clamp(-slot6.x, -slot0.rightExtend, slot0.leftExtend)
-	slot6.y = math.clamp(-slot6.y, -slot0.topExtend, slot0.bottomExtend)
-	slot6.z = 0
+function slot0.Focus(slot0, slot1, slot2, slot3, slot4)
+	slot6 = slot0.transform:Find("plane")
+	slot7 = slot0.transform.parent:InverseTransformVector(slot1 - slot6.position)
+	slot7.x = slot7.x + slot6.localPosition.x
+	slot7.y = slot7.y + slot6.localPosition.y - slot6.localPosition.z * math.tan(math.pi / 180 * slot0.map.theme.angle)
+	slot7.x = math.clamp(-slot7.x, -slot0.rightExtend, slot0.leftExtend)
+	slot7.y = math.clamp(-slot7.y, -slot0.topExtend, slot0.bottomExtend)
+	slot7.z = 0
 
 	if slot0.twFocusId then
 		slot0.wsTimer:RemoveInMapTween(slot0.twFocusId)
 	end
 
-	if slot2 then
+	if slot3 then
 		table.insert({}, function (slot0)
 			if uv0.isDraging then
 				uv0.isDraging = false
@@ -90,15 +90,20 @@ function slot0.Focus(slot0, slot1, slot2, slot3)
 
 			uv0.dragTrigger.enabled = false
 			uv0.longPressTrigger.enabled = false
-			uv0.twFocusId = LeanTween.moveLocal(uv0.transform.gameObject, uv1, (uv0.transform.localPosition - uv1).magnitude > 0 and slot1 / (40 * math.sqrt(slot1)) or 0):setEase(uv2 == 1 and LeanTweenType.linear or LeanTweenType.easeInOutSine):setOnComplete(System.Action(slot0)).uniqueId
+
+			if not uv1 then
+				uv1 = (uv0.transform.localPosition - uv2).magnitude > 0 and slot1 / (40 * math.sqrt(slot1)) or 0
+			end
+
+			uv0.twFocusId = LeanTween.moveLocal(uv0.transform.gameObject, uv2, uv1):setEase(uv3):setOnComplete(System.Action(slot0)).uniqueId
 
 			uv0.wsTimer:AddInMapTween(uv0.twFocusId)
 		end)
 	else
-		slot0.transform.localPosition = slot6
+		slot0.transform.localPosition = slot7
 	end
 
-	seriesAsync(slot7, function ()
+	seriesAsync(slot8, function ()
 		uv0.dragTrigger.enabled = true
 		uv0.longPressTrigger.enabled = true
 

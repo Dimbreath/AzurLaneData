@@ -1,8 +1,9 @@
 slot0 = class("WSAtlasWorld", import(".WSAtlas"))
 slot0.Fields = {
 	isDragging = "boolean",
-	wsTimer = "table",
 	tfAreaScene = "userdata",
+	wsTimer = "table",
+	tfMapModel = "userdata",
 	nowArea = "number",
 	dragTrigger = "userdata",
 	tfModel = "userdata",
@@ -79,7 +80,7 @@ function slot0.LoadModel(slot0, slot1)
 				if uv0.transform then
 					uv0.tfModel = tf(slot0)
 
-					setParent(uv0.tfModel, uv0.tfEntity:Find("model"), false)
+					setParent(uv0.tfModel, uv0.tfMapModel, false)
 				else
 					uv1:ReturnPrefab("model/worldmapmodel", "WorldMapModel", slot0, true)
 				end
@@ -109,6 +110,7 @@ function slot0.LoadScene(slot0, slot1)
 		uv0.tfEntity = uv0.transform:Find("entity")
 		uv0.tfAreaScene = uv0.tfEntity:Find("area_scene")
 		uv0.tfMapScene = uv0.tfEntity:Find("map_scene")
+		uv0.tfMapModel = uv0.tfEntity:Find("model")
 		uv0.tfMapSelect = uv0.tfMapScene:Find("selected_layer")
 		uv0.tfSpriteScene = uv0.tfEntity:Find("sprite_scene")
 		uv0.tfCamera = uv0.transform:Find("Main Camera")
@@ -144,6 +146,7 @@ function slot0.LoadScene(slot0, slot1)
 		uv0.dragTrigger:AddDragEndFunc(function (slot0, slot1)
 			uv0.isDragging = false
 		end)
+		uv0:UpdateCenterEffectDisplay()
 		uv0:BuildActiveMark()
 
 		slot4 = nowWorld
@@ -201,6 +204,8 @@ end
 
 function slot0.UpdateSelect(slot0, slot1)
 	if slot1 then
+		slot0.nowArea = slot1:GetAreaId()
+
 		slot0:FocusPos(Vector2(slot1.config.area_pos[1], slot1.config.area_pos[2]) + slot0:GetOffsetMapPos(), nil, 1, true, function ()
 			uv0.super.UpdateSelect(uv1, uv2)
 			uv1:DispatchEvent(uv0.EventUpdateselectEntrance, uv2)
@@ -218,7 +223,7 @@ end
 
 function slot0.UpdateEntranceMask(slot0, slot1)
 	if slot1:HasPort() then
-		slot0.entranceTplDic[slot1.id]:UpdatePort(slot0.atlas.transportDic[slot1.id], slot0.atlas.taskPortDic[slot1.config.port_map_icon])
+		slot0.entranceTplDic[slot1.id]:UpdatePort(slot0.atlas.transportDic[slot1.id], slot0.atlas.taskPortDic[slot1:GetPortId()])
 	end
 
 	uv0.super.UpdateEntranceMask(slot0, slot1)
@@ -287,7 +292,7 @@ function slot0.OnUpdatePortTaskMark(slot0, slot1, slot2, slot3)
 		if slot8 then
 			slot9 = slot0.atlas:GetEntrance(slot7)
 
-			slot0.entranceTplDic[slot7]:UpdatePort(slot0.atlas.transportDic[slot9.id], slot0.atlas.taskPortDic[slot9.config.port_map_icon])
+			slot0.entranceTplDic[slot7]:UpdatePort(slot0.atlas.transportDic[slot9.id], slot0.atlas.taskPortDic[slot9:GetPortId()])
 		end
 	end
 end
@@ -361,14 +366,16 @@ function slot0.FocusPos(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot15 = {}
 
 		table.insert(slot15, function (slot0)
-			uv0.twFocusIds[1] = LeanTween.moveLocal(go(uv0.tfCamera), uv1, uv2):setEase(LeanTweenType.easeInOutSine):setOnComplete(System.Action(slot0)).uniqueId
+			slot1 = LeanTween.moveLocal(go(uv0.tfCamera), uv1, uv2):setEase(LeanTweenType.easeInOutSine):setOnComplete(System.Action(slot0)).uniqueId
 
-			uv0.wsTimer:AddTween(uv0.twFocusIds[1])
+			table.insert(uv0.twFocusIds, slot1)
+			uv0.wsTimer:AddTween(slot1)
 		end)
 		table.insert(slot15, function (slot0)
-			uv0.twFocusIds[2] = LeanTween.rotateY(go(uv0.tfEntity), uv1, uv2):setEase(LeanTweenType.easeInOutSine):setOnComplete(System.Action(slot0)).uniqueId
+			slot1 = LeanTween.rotateY(go(uv0.tfEntity), uv1, uv2):setEase(LeanTweenType.easeInOutSine):setOnComplete(System.Action(slot0)).uniqueId
 
-			uv0.wsTimer:AddTween(uv0.twFocusIds[2])
+			table.insert(uv0.twFocusIds, slot1)
+			uv0.wsTimer:AddTween(slot1)
 		end)
 		parallelAsync(slot15, function ()
 			existCall(uv0)
@@ -377,7 +384,6 @@ function slot0.FocusPos(slot0, slot1, slot2, slot3, slot4, slot5)
 		return
 	end
 
-	slot0.twFocusIds = {}
 	slot0.tfCamera.localPosition = slot10
 	slot0.tfEntity.localEulerAngles = Vector3(0, slot2, 0)
 
@@ -395,17 +401,20 @@ function slot0.FocusPosInArea(slot0, slot1, slot2, slot3)
 end
 
 function slot0.SwitchArea(slot0, slot1, slot2, slot3)
+	slot4 = {}
+
 	if slot2 and tobool(slot1) ~= tobool(slot0.nowArea) then
-		table.insert({}, function (slot0)
+		table.insert(slot4, function (slot0)
 			uv0:SwitchMode(uv1, uv2, slot0)
 		end)
-	else
-		table.insert(slot4, function (slot0)
-			setActive(uv0.tfAreaScene, not uv1)
-			setActive(uv0.tfMapScene, uv1)
-			slot0()
-		end)
 	end
+
+	table.insert(slot4, function (slot0)
+		setActive(uv0.tfAreaScene, not uv1)
+		setActive(uv0.tfMapScene, uv1)
+		setActive(uv0.tfMapModel, not uv1)
+		slot0()
+	end)
 
 	slot0.nowArea = slot1
 
@@ -422,9 +431,7 @@ function slot0.SwitchArea(slot0, slot1, slot2, slot3)
 end
 
 function slot0.SwitchMode(slot0, slot1, slot2, slot3)
-	function slot6()
-		setActive(uv0.tfAreaScene, not uv1)
-		setActive(uv0.tfMapScene, uv1)
+	function slot7()
 		uv0:BreathRotate(not uv1)
 
 		return existCall(uv2)
@@ -440,17 +447,19 @@ function slot0.SwitchMode(slot0, slot1, slot2, slot3)
 
 				slot1:UpdateAlpha()
 
-				uv0.twFocusIds[3] = LeanTween.value(go(uv0.tfAreaScene), uv1 and 1 or 0, uv1 and 0 or 1, uv2.baseDuration):setOnUpdate(System.Action_float(function (slot0)
+				slot2 = LeanTween.value(go(uv0.tfAreaScene), uv1 and 1 or 0, uv1 and 0 or 1, uv2.baseDuration):setOnUpdate(System.Action_float(function (slot0)
 					uv0.alpha = slot0
 				end)):setOnComplete(System.Action(function ()
 					uv0.alpha = 1
 
 					uv0:UpdateAlpha()
+					setActive(uv1.tfAreaScene, not uv2)
 
-					return uv1()
+					return uv3()
 				end)).uniqueId
 
-				uv0.wsTimer:AddTween(uv0.twFocusIds[3])
+				table.insert(uv0.twFocusIds, slot2)
+				uv0.wsTimer:AddTween(slot2)
 			end,
 			function (slot0)
 				setActive(uv0.tfMapScene, true)
@@ -460,23 +469,69 @@ function slot0.SwitchMode(slot0, slot1, slot2, slot3)
 
 				slot1:UpdateAlpha()
 
-				uv0.twFocusIds[4] = LeanTween.value(go(uv0.tfMapScene), uv1 and 0 or 1, uv1 and 1 or 0, uv2.baseDuration):setOnUpdate(System.Action_float(function (slot0)
+				slot2 = LeanTween.value(go(uv0.tfMapScene), uv1 and 0 or 1, uv1 and 1 or 0, uv2.baseDuration):setOnUpdate(System.Action_float(function (slot0)
 					uv0.alpha = slot0
 				end)):setOnComplete(System.Action(function ()
 					uv0.alpha = 1
 
 					uv0:UpdateAlpha()
+					setActive(uv1.tfMapScene, uv2)
 
-					return uv1()
+					return uv3()
 				end)).uniqueId
 
-				uv0.wsTimer:AddTween(uv0.twFocusIds[4])
+				table.insert(uv0.twFocusIds, slot2)
+				uv0.wsTimer:AddTween(slot2)
+			end,
+			function (slot0)
+				setActive(uv0.tfMapModel, true)
+
+				slot1 = {}
+				slot2 = uv1.baseDuration
+
+				table.insert(slot1, function (slot0)
+					uv0.tfModel:Find("Terrain_LOD9_perfect"):GetComponent("MeshRenderer").material:SetFloat("_Invisible", uv1 and 1 or 0)
+
+					slot3 = LeanTween.value(go(slot1), uv1 and 1 or 0, uv1 and 0 or 1, uv2):setOnUpdate(System.Action_float(function (slot0)
+						uv0:SetFloat("_Invisible", slot0)
+					end)):setOnComplete(System.Action(function ()
+						uv0:SetFloat("_Invisible", uv1 and 0 or 1)
+						uv2()
+					end)).uniqueId
+
+					table.insert(uv0.twFocusIds, slot3)
+					uv0.wsTimer:AddTween(slot3)
+				end)
+				table.insert(slot1, function (slot0)
+					uv0.tfModel:Find("decolation_model"):GetComponent("FMultiSpriteRenderCtrl"):Init()
+
+					slot2.alpha = uv1 and 1 or 0
+
+					slot2:UpdateAlpha()
+
+					slot3 = LeanTween.value(go(slot1), uv1 and 1 or 0, uv1 and 0 or 1, uv2):setOnUpdate(System.Action_float(function (slot0)
+						uv0.alpha = slot0
+					end)):setOnComplete(System.Action(function ()
+						uv0.alpha = 1
+
+						uv0:UpdateAlpha()
+						uv1()
+					end)).uniqueId
+
+					table.insert(uv0.twFocusIds, slot3)
+					uv0.wsTimer:AddTween(slot3)
+				end)
+				parallelAsync(slot1, function ()
+					setActive(uv0.tfMapModel, not uv1)
+
+					return uv2()
+				end)
 			end
 		}, function ()
 			return uv0()
 		end)
 	else
-		return slot6()
+		return slot7()
 	end
 end
 
@@ -510,9 +565,11 @@ function slot0.BreathRotate(slot0, slot1)
 end
 
 function slot0.CheckIsTweening(slot0)
-	return slot0.isTransAnim or #slot0.twFocusIds > 0 and _.any(underscore.values(slot0.twFocusIds), function (slot0)
-		return LeanTween.isTweening(slot0)
-	end)
+	while #slot0.twFocusIds > 0 and not LeanTween.isTweening(slot0.twFocusIds[1]) do
+		table.remove(slot0.twFocusIds, 1)
+	end
+
+	return slot0.isTransAnim or #slot0.twFocusIds > 0
 end
 
 function slot0.ActiveTrans(slot0, slot1)
@@ -566,6 +623,15 @@ function slot0.UpdateTransMark(slot0, slot1, slot2)
 	else
 		slot2()
 	end
+end
+
+function slot0.UpdateActiveMark(slot0)
+	slot1 = nowWorld:GetActiveMap():CkeckTransport()
+
+	eachChild(slot0.tfActiveMark, function (slot0)
+		setActive(slot0:Find("base"), uv0)
+		setActive(slot0:Find("limit"), not uv0)
+	end)
 end
 
 return slot0

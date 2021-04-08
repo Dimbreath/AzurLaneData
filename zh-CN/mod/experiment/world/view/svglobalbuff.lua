@@ -43,8 +43,12 @@ function slot0.Setup(slot0, slot1, slot2)
 		setActive(slot0, slot0.name == tostring(uv0.id))
 	end)
 
-	slot3 = nowWorld:GetGlobalBuff(slot1.id):Clone()
+	slot3 = WorldBuff.New()
 
+	slot3:Setup({
+		id = slot1.id,
+		floor = slot1.before
+	})
 	setText(slot0.rtInfo:Find("name"), slot3.config.name)
 	setText(slot0.rtInfo:Find("value_before"), slot3:GetFloor())
 	slot3:AddFloor(slot1.floor)
