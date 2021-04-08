@@ -136,7 +136,7 @@ return {
 	desc = "剑鱼",
 	painting = 1,
 	id = 13360,
-	castCV = "",
+	castCV = "skill",
 	aniEffect = {
 		effect = "jineng",
 		offset = {

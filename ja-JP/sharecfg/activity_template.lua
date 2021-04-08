@@ -2597,6 +2597,7 @@ pg.activity_template = {
 	[934] = {
 		mark = 20210325,
 		page_info = "",
+		time = "stop",
 		type = 23,
 		login_pop = 0,
 		config_id = 935,
@@ -2604,37 +2605,11 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 934,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					4,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[935] = {
 		mark = 20210325,
+		time = "stop",
 		type = 21,
 		login_pop = 0,
 		config_id = 0,
@@ -2642,33 +2617,6 @@ pg.activity_template = {
 		title_res_tag = "AprilFool",
 		id = 935,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					4,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "AprilFoolDiscoveryRePage",
 			ui_name = "AprilFoolDiscoveryRePage"
@@ -2684,6 +2632,7 @@ pg.activity_template = {
 	[937] = {
 		mark = 20210325,
 		page_info = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -2702,33 +2651,6 @@ pg.activity_template = {
 			1490022,
 			1490023
 		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
 		}
@@ -2736,6 +2658,7 @@ pg.activity_template = {
 	[938] = {
 		mark = 20210325,
 		page_info = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -2756,33 +2679,6 @@ pg.activity_template = {
 			1490024,
 			1490025
 		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
 		}
@@ -2790,6 +2686,7 @@ pg.activity_template = {
 	[939] = {
 		mark = 20210325,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -2815,33 +2712,6 @@ pg.activity_template = {
 			16534,
 			16535,
 			16536
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[940] = {
@@ -3121,6 +2991,7 @@ pg.activity_template = {
 	},
 	[945] = {
 		mark = 20210325,
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 945,
@@ -3129,33 +3000,6 @@ pg.activity_template = {
 		title_res_tag = "newmeixi_oil",
 		id = 945,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "USDefenceOilPage",
 			ui_name = "usdefenceoilpage"
@@ -3164,6 +3008,7 @@ pg.activity_template = {
 	[946] = {
 		mark = 20210325,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -3171,34 +3016,7 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 946,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[947] = {
 		mark = 20210325,
@@ -3287,6 +3105,77 @@ pg.activity_template = {
 			}
 		}
 	},
+	[949] = {
+		mark = 20210408,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 11,
+		config_client = "",
+		title_res_tag = "Votoms",
+		id = 949,
+		config_data = {
+			{
+				16546,
+				16547
+			},
+			{
+				16548,
+				16549
+			},
+			{
+				16550,
+				16551
+			},
+			{
+				16552,
+				16553
+			},
+			{
+				16554,
+				16555
+			},
+			{
+				16556,
+				16557
+			},
+			{
+				16558,
+				16559
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					4,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					4,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "VotomsPage",
+			ui_name = "VotomsPage"
+		}
+	},
 	[10006] = {
 		mark = 20170726,
 		page_info = "",
@@ -3304,7 +3193,7 @@ pg.activity_template = {
 		}
 	},
 	[10056] = {
-		mark = 20200409,
+		mark = 20210409,
 		page_info = "",
 		type = 0,
 		login_pop = 0,
@@ -3318,9 +3207,9 @@ pg.activity_template = {
 			timer,
 			{
 				{
-					2020,
-					12,
-					11
+					2021,
+					4,
+					9
 				},
 				{
 					0,
@@ -3330,9 +3219,9 @@ pg.activity_template = {
 			},
 			{
 				{
-					2020,
-					12,
-					20
+					2021,
+					4,
+					18
 				},
 				{
 					23,
@@ -4597,6 +4486,7 @@ pg.activity_template = {
 		946,
 		947,
 		948,
+		949,
 		10006,
 		10056,
 		10123,

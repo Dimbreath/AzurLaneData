@@ -22,7 +22,7 @@ return {
 				"ShowClickArea"
 			},
 			style = {
-				text = "マップ外の空間をタップすると、「エリア移動モード」に切り替えられます。",
+				text = "マップ外の空間をタップすると、「エリア一覧」画面に切り替えられます。",
 				mode = 2,
 				dir = -1,
 				char = "1",
@@ -54,12 +54,7 @@ return {
 			},
 			notifies = {
 				{
-					notify = "world open transport pos",
-					body = {
-						mapIds = {
-							13
-						}
-					}
+					notify = "world open transport pos"
 				}
 			}
 		},
@@ -70,7 +65,7 @@ return {
 				"ShowClickArea2"
 			},
 			style = {
-				text = "海域マップでエリアを選択して移動できるます。「海域進入」をタップすると、艦隊をエリアに移動できます。",
+				text = "エリア一覧モードでは、艦隊をエリアに移動することが可能です",
 				mode = 2,
 				dir = -1,
 				char = "1",
@@ -122,6 +117,30 @@ return {
 				char = "1",
 				posY = 0,
 				posX = 300
+			}
+		},
+		{
+			alpha = 0.4,
+			style = {
+				text = "ここをタップし、メイン画面に戻ってください",
+				mode = 2,
+				dir = -1,
+				char = "1",
+				posY = 245.23,
+				posX = -552.4
+			},
+			ui = {
+				path = "OverlayCamera/Overlay/UIMain/top/adapt/top_chapter/back_button",
+				triggerType = {
+					1
+				},
+				fingerPos = {
+					rotateY = 0,
+					posY = 0,
+					rotateX = 0,
+					rotateZ = 238.9,
+					posX = -76.32
+				}
 			}
 		},
 		{

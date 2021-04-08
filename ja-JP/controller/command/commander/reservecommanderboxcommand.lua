@@ -29,23 +29,9 @@ function slot0.execute(slot0, slot1)
 				gold = uv1
 			})
 			uv2:updatePlayer(uv0)
-
-			slot1 = {}
-
-			for slot5, slot6 in ipairs(slot0.awards) do
-				slot7 = Item.New({
-					type = slot6.type,
-					id = slot6.id,
-					count = slot6.number
-				})
-
-				table.insert(slot1, slot7)
-				uv3:sendNotification(GAME.ADD_ITEM, slot7)
-			end
-
-			uv4:updateBoxUseCnt(uv5)
-			uv3:sendNotification(GAME.COMMANDER_RESERVE_BOX_DONE, {
-				awards = slot1
+			uv3:updateBoxUseCnt(uv4)
+			uv5:sendNotification(GAME.COMMANDER_RESERVE_BOX_DONE, {
+				awards = PlayerConst.addTranDrop(slot0.awards)
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_lock_erro", slot0.result))

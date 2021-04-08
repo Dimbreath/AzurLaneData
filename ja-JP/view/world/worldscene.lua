@@ -7,9 +7,9 @@ slot0.Listeners = {
 	onUpdateEventTips = "OnUpdateEventTips",
 	onFleetSelected = "OnFleetSelected",
 	onModelSelectMap = "OnModelSelectMap",
+	onClearMoveQueue = "ClearMoveQueue",
 	onUpdateProgress = "OnUpdateProgress",
 	onUpdateScale = "OnUpdateScale",
-	onClickTransport = "OnClickTransport",
 	onDisposeMap = "OnDisposeMap",
 	onUpdateRound = "OnUpdateRound"
 }
@@ -23,11 +23,15 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.getBGM(slot0)
-	table.insert({}, defaultValue(slot0:GetInMap(), slot0:EnterCheck()) and nowWorld:GetActiveMap():GetBGM() or "")
+	slot1 = {}
 
-	for slot6, slot7 in ipairs(slot1) do
-		if slot7 ~= "" then
-			return slot7
+	if slot0:GetInMap() ~= false then
+		table.insert(slot1, nowWorld:GetActiveMap():GetBGM() or "")
+	end
+
+	for slot5, slot6 in ipairs(slot1) do
+		if slot6 ~= "" then
+			return slot6
 		end
 	end
 
@@ -93,6 +97,22 @@ function slot0.init(slot0)
 	slot0.rtOutMap = slot0.rtTop:Find("effect_stage")
 
 	setActive(slot0.rtOutMap, false)
+
+	slot0.rtClickStop = slot0.rtTop:Find("stop_click")
+
+	onButton(slot0, slot0.rtClickStop:Find("long_move"), function ()
+		if #uv0.moveQueue > 0 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("world_fleet_stop"))
+			uv0:ClearMoveQueue()
+		end
+	end)
+	onButton(slot0, slot0.rtClickStop:Find("auto_fight"), function ()
+		if nowWorld.isAutoFight then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("autofight_tip_bigworld_stop"))
+			nowWorld:TriggerAutoFight(false)
+		end
+	end)
+	setActive(slot0.rtClickStop, false)
 
 	slot0.resAtlas = WorldResource.New()
 
@@ -170,6 +190,12 @@ function slot0.InitSubView(slot0)
 		setActive(uv0.wsMap.rtTop, true)
 		uv0:DisplayMapUI()
 	end)
+	slot0:bind(SVScannerPanel.HideGoing, function (slot0, slot1, slot2)
+		uv0.wsMap:ShowScannerMap(false)
+		setActive(uv0.wsMap.rtTop, true)
+		uv0:DisplayMapUI()
+		uv0:OnClickCell(slot1, slot2)
+	end)
 
 	slot0.svRealmPanel = SVRealmPanel.New(slot0.rtPanelList, slot0.event)
 	slot0.svAchievement = SVAchievement.New(slot0.rtPanelList, slot0.event)
@@ -210,12 +236,16 @@ function slot0.InitSubView(slot0)
 	slot0.svFloatPanel = SVFloatPanel.New(slot0.rtTop, slot0.event)
 
 	slot0:bind(SVFloatPanel.ReturnCall, function (slot0, slot1)
-		if slot1:GetAreaId() ~= nowWorld:GetActiveEntrance():GetAreaId() or slot1.id ~= slot2 then
-			uv0:Op("OpCall", function (slot0)
-				slot0()
-				uv0:ClickAtlas(uv1)
-			end)
-		end
+		uv0:Op("OpCall", function (slot0)
+			slot0()
+
+			if uv0.id == nowWorld:GetActiveEntrance().id then
+				uv1.wsAtlas:UpdateSelect()
+				uv1.wsAtlas:UpdateSelect(uv0)
+			else
+				uv1:ClickAtlas(slot1)
+			end
+		end)
 	end)
 
 	slot0.svPoisonPanel = SVPoisonPanel.New(slot0.rtPanelList, slot0.event)
@@ -234,34 +264,17 @@ function slot0.InitSubView(slot0)
 	slot0.svSalvageResult = SVSalvageResult.New(slot0.rtPanelList, slot0.event)
 end
 
-function slot0.EnterCheck(slot0)
-	return slot0.contextData.inPort or slot0.contextData.inMap or WorldConst.IsRookieMap(nowWorld:GetActiveMap().id)
-end
-
 function slot0.didEnter(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.rtTop)
 
-	if slot0:EnterCheck() then
-		slot0:Op("OpSetInMap", true)
-	elseif slot0.contextData.inShop then
-		slot0.inAreaMode = true
+	slot0.warningSairen = not slot0.contextData.inSave
 
-		slot0:Op("OpSetInMap", false, function ()
-			uv0:Op("OpOpenLayer", Context.New({
-				mediator = WorldShopMediator,
-				viewComponent = WorldShopLayer
-			}))
-		end)
-	elseif slot0.contextData.inWorldBoss then
-		slot0.contextData.inWorldBoss = nil
-
-		slot0:Op("OpOpenScene", SCENE.WORLDBOSS)
-	else
-		slot0.warningSairen = not slot0.contextData.inSave
-
+	if slot0.contextData.inWorld then
 		slot0:Op("OpSetInMap", false, function ()
 			uv0.wsAtlas:UpdateSelect(nowWorld:GetActiveEntrance())
 		end)
+	else
+		slot0:Op("OpSetInMap", true)
 	end
 end
 
@@ -286,10 +299,10 @@ function slot0.onBackPressed(slot0)
 		slot0:HideSubView("PoisonPanel")
 	elseif slot0.svSalvageResult:isShowing() then
 		slot0:HideSubView("SalvageResult")
+	elseif slot0.wsMapLeft and isActive(slot0.wsMapLeft.toggleMask) then
+		slot0.wsMapLeft:HideToggleMask()
 	elseif slot0:GetInMap() then
 		triggerButton(slot0.wsMapTop.btnBack)
-	elseif slot0.inTransportMode then
-		triggerButton(slot0.wsAtlasTransport.btnBack)
 	else
 		triggerButton(slot0.rtTopAtlas:Find("back_button"))
 	end
@@ -356,7 +369,7 @@ end
 
 function slot0.SaveState(slot0)
 	slot0.contextData.inSave = true
-	slot0.contextData.inMap = slot0:GetInMap()
+	slot0.contextData.inWorld = slot0:GetInMap() == false
 	slot0.contextData.inShop = false
 	slot0.contextData.inPort = false
 end
@@ -462,13 +475,8 @@ function slot0.SetInMap(slot0, slot1, slot2)
 			uv0:PlayBGM()
 
 			if uv1 then
-				uv0.inTransportMode = false
 				uv2 = defaultValue(uv2, function ()
-					if nowWorld:GetRound() == WorldConst.RoundElse then
-						uv0:Op("OpReqRound")
-					else
-						uv0:Op("OpInteractive")
-					end
+					uv0:Op("OpInteractive")
 				end)
 			end
 
@@ -496,92 +504,68 @@ function slot0.HideSubView(slot0, slot1, ...)
 end
 
 function slot0.DisplayAtlasUI(slot0)
-	if slot0.inTransportMode then
-		slot0:DisplayAtlasTransport()
-	else
-		slot0:DisplayAtlasTop()
-		slot0:DisplayAtlasRight()
-		slot0:DisplayAtlasBottom()
-		slot0:UpdateSystemOpen()
-	end
+	slot0:DisplayAtlasTop()
+	slot0:DisplayAtlasRight()
+	slot0:DisplayAtlasBottom()
+	slot0:UpdateSystemOpen()
 end
 
 function slot0.HideAtlasUI(slot0)
-	if slot0.inTransportMode then
-		slot0:HideAtlasTransport()
-	else
-		slot0:HideAtlasTop()
-		slot0:HideAtlasRight()
-		slot0:HideAtlasBottom()
-	end
+	slot0:HideAtlasTop()
+	slot0:HideAtlasRight()
+	slot0:HideAtlasBottom()
 end
 
 function slot0.EaseInAtlasUI(slot0, slot1)
 	slot0:CancelAtlasUITween()
-
-	if slot0.inTransportMode then
-		setCanvasGroupAlpha(slot0.rtTransportAtlas, 0)
-		slot0.wsTimer:AddTween(LeanTween.alphaCanvas(slot0.rtTransportAtlas:GetComponent(typeof(CanvasGroup)), 1, WorldConst.UIEaseFasterDuration):setOnComplete(System.Action(function ()
-			return existCall(uv0)
-		end)).uniqueId)
-	else
-		parallelAsync({
-			function (slot0)
-				setAnchoredPosition(uv0.rtTopAtlas, {
-					y = uv0.rtTopAtlas.rect.height
-				})
-				uv0.wsTimer:AddTween(LeanTween.moveY(uv0.rtTopAtlas, 0, WorldConst.UIEaseFasterDuration):setEase(LeanTweenType.easeInSine):setOnComplete(System.Action(slot0)).uniqueId)
-			end,
-			function (slot0)
-				setAnchoredPosition(uv0.rtBottomAtlas, {
-					y = -uv0.rtBottomAtlas.rect.height
-				})
-				uv0.wsTimer:AddTween(LeanTween.moveY(uv0.rtBottomAtlas, 0, WorldConst.UIEaseFasterDuration):setEase(LeanTweenType.easeInSine):setOnComplete(System.Action(slot0)).uniqueId)
-			end,
-			function (slot0)
-				setAnchoredPosition(uv0.rtRightAtlas, {
-					x = uv0.rtRightAtlas.rect.width
-				})
-				uv0.wsTimer:AddTween(LeanTween.moveX(uv0.rtRightAtlas, 0, WorldConst.UIEaseFasterDuration):setEase(LeanTweenType.easeInSine):setOnComplete(System.Action(slot0)).uniqueId)
-			end
-		}, function ()
-			return existCall(uv0)
-		end)
-	end
+	parallelAsync({
+		function (slot0)
+			setAnchoredPosition(uv0.rtTopAtlas, {
+				y = uv0.rtTopAtlas.rect.height
+			})
+			uv0.wsTimer:AddTween(LeanTween.moveY(uv0.rtTopAtlas, 0, WorldConst.UIEaseFasterDuration):setEase(LeanTweenType.easeInSine):setOnComplete(System.Action(slot0)).uniqueId)
+		end,
+		function (slot0)
+			setAnchoredPosition(uv0.rtBottomAtlas, {
+				y = -uv0.rtBottomAtlas.rect.height
+			})
+			uv0.wsTimer:AddTween(LeanTween.moveY(uv0.rtBottomAtlas, 0, WorldConst.UIEaseFasterDuration):setEase(LeanTweenType.easeInSine):setOnComplete(System.Action(slot0)).uniqueId)
+		end,
+		function (slot0)
+			setAnchoredPosition(uv0.rtRightAtlas, {
+				x = uv0.rtRightAtlas.rect.width
+			})
+			uv0.wsTimer:AddTween(LeanTween.moveX(uv0.rtRightAtlas, 0, WorldConst.UIEaseFasterDuration):setEase(LeanTweenType.easeInSine):setOnComplete(System.Action(slot0)).uniqueId)
+		end
+	}, function ()
+		return existCall(uv0)
+	end)
 end
 
 function slot0.EaseOutAtlasUI(slot0, slot1)
 	slot0:CancelAtlasUITween()
-
-	if slot0.inTransportMode then
-		setCanvasGroupAlpha(slot0.rtTransportAtlas, 1)
-		slot0.wsTimer:AddTween(LeanTween.alphaCanvas(slot0.rtTransportAtlas:GetComponent(typeof(CanvasGroup)), 0, WorldConst.UIEaseFasterDuration):setOnComplete(System.Action(function ()
-			return existCall(uv0)
-		end)).uniqueId)
-	else
-		parallelAsync({
-			function (slot0)
-				setAnchoredPosition(uv0.rtTopAtlas, {
-					y = 0
-				})
-				uv0.wsTimer:AddTween(LeanTween.moveY(uv0.rtTopAtlas, uv0.rtTopAtlas.rect.height, WorldConst.UIEaseFasterDuration):setEase(LeanTweenType.easeOutSine):setOnComplete(System.Action(slot0)).uniqueId)
-			end,
-			function (slot0)
-				setAnchoredPosition(uv0.rtBottomAtlas, {
-					y = 0
-				})
-				uv0.wsTimer:AddTween(LeanTween.moveY(uv0.rtBottomAtlas, -uv0.rtBottomAtlas.rect.height, WorldConst.UIEaseFasterDuration):setEase(LeanTweenType.easeOutSine):setOnComplete(System.Action(slot0)).uniqueId)
-			end,
-			function (slot0)
-				setAnchoredPosition(uv0.rtRightAtlas, {
-					x = 0
-				})
-				uv0.wsTimer:AddTween(LeanTween.moveX(uv0.rtRightAtlas, uv0.rtRightAtlas.rect.width, WorldConst.UIEaseFasterDuration):setEase(LeanTweenType.easeOutSine):setOnComplete(System.Action(slot0)).uniqueId)
-			end
-		}, function ()
-			return existCall(uv0)
-		end)
-	end
+	parallelAsync({
+		function (slot0)
+			setAnchoredPosition(uv0.rtTopAtlas, {
+				y = 0
+			})
+			uv0.wsTimer:AddTween(LeanTween.moveY(uv0.rtTopAtlas, uv0.rtTopAtlas.rect.height, WorldConst.UIEaseFasterDuration):setEase(LeanTweenType.easeOutSine):setOnComplete(System.Action(slot0)).uniqueId)
+		end,
+		function (slot0)
+			setAnchoredPosition(uv0.rtBottomAtlas, {
+				y = 0
+			})
+			uv0.wsTimer:AddTween(LeanTween.moveY(uv0.rtBottomAtlas, -uv0.rtBottomAtlas.rect.height, WorldConst.UIEaseFasterDuration):setEase(LeanTweenType.easeOutSine):setOnComplete(System.Action(slot0)).uniqueId)
+		end,
+		function (slot0)
+			setAnchoredPosition(uv0.rtRightAtlas, {
+				x = 0
+			})
+			uv0.wsTimer:AddTween(LeanTween.moveX(uv0.rtRightAtlas, uv0.rtRightAtlas.rect.width, WorldConst.UIEaseFasterDuration):setEase(LeanTweenType.easeOutSine):setOnComplete(System.Action(slot0)).uniqueId)
+		end
+	}, function ()
+		return existCall(uv0)
+	end)
 end
 
 function slot0.CancelAtlasUITween(slot0)
@@ -600,8 +584,8 @@ function slot0.DisposeAtlasUI(slot0)
 end
 
 function slot0.DisplayAtlas(slot0)
-	slot0.wsAtlas:SwitchArea(not slot0.inAreaMode and nowWorld:GetActiveEntrance():GetAreaId() or nil)
-	setActive(slot0.wsAtlas.tfEntity:Find("model"), not slot0.inTransportMode)
+	slot0.wsAtlas:SwitchArea(nowWorld:GetActiveEntrance():GetAreaId())
+	slot0.wsAtlas:UpdateActiveMark()
 	slot0.wsAtlas:ShowOrHide(true)
 end
 
@@ -611,7 +595,7 @@ function slot0.HideAtlas(slot0)
 end
 
 function slot0.ClickAtlas(slot0, slot1)
-	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_PANEL)
 
 	if not nowWorld:CheckAreaUnlock(slot1:GetAreaId()) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("area_lock"))
@@ -620,20 +604,10 @@ function slot0.ClickAtlas(slot0, slot1)
 	end
 
 	if slot0.wsAtlas.nowArea then
-		if slot0.wsAtlas.nowArea == slot2 then
-			if slot0.wsAtlas.selectEntrance ~= slot1 then
-				slot0.wsAtlas:UpdateSelect()
-				slot0.wsAtlas:UpdateSelect(slot1)
-			else
-				slot0.wsAtlas:UpdateSelect()
-			end
-		else
-			slot0.wsAtlas:UpdateSelect()
-			slot0.wsAtlas:SwitchArea(slot2, true, function ()
-				if nowWorld:GetActiveEntrance():GetAreaId() == uv0 then
-					uv1.wsAtlas:UpdateSelect(slot0)
-				end
-			end)
+		slot0.wsAtlas:UpdateSelect()
+
+		if slot0.wsAtlas.selectEntrance ~= slot1 then
+			slot0.wsAtlas:UpdateSelect(slot1)
 		end
 	else
 		slot0:EnterToModelMap(slot2)
@@ -641,8 +615,10 @@ function slot0.ClickAtlas(slot0, slot1)
 end
 
 function slot0.LoadAtlas(slot0, slot1)
+	slot2 = {}
+
 	if not slot0.wsAtlas then
-		table.insert({}, function (slot0)
+		table.insert(slot2, function (slot0)
 			uv0.wsAtlas = uv0:NewAtlas()
 
 			uv0.wsAtlas:LoadScene(function ()
@@ -651,12 +627,6 @@ function slot0.LoadAtlas(slot0, slot1)
 
 				return uv1()
 			end)
-		end)
-	end
-
-	if not slot0.inTransportMode then
-		table.insert(slot2, function (slot0)
-			uv0.wsAtlas:LoadModel(slot0)
 		end)
 	end
 
@@ -698,7 +668,9 @@ function slot0.DisplayAtlasTop(slot0)
 	slot0.wsAtlasTop = slot0.wsAtlasTop or slot0:NewAtlasTop(slot0.rtTopAtlas)
 
 	setActive(slot0.rtTopAtlas, true)
-	setActive(slot0.rtTopAtlas:Find("sairen_warning"), slot0.warningSairen and #nowWorld:GetAtlas().sairenMapList > 0)
+	setActive(slot0.rtTopAtlas:Find("print/title_world"), true)
+	setActive(slot0.rtTopAtlas:Find("print/title_view"), false)
+	setActive(slot0.rtTopAtlas:Find("sairen_warning"), slot0.warningSairen and #nowWorld:GetAtlas().sairenEntranceList > 0)
 
 	slot0.warningSairen = false
 end
@@ -710,7 +682,8 @@ end
 function slot0.NewAtlasTop(slot0, slot1)
 	onButton(slot0, slot1:Find("back_button"), function ()
 		uv0:Op("OpCall", function (slot0)
-			uv0:ExitWorld(slot0)
+			slot0()
+			uv0:BackToMap()
 		end)
 	end, SFX_CANCEL)
 
@@ -740,7 +713,10 @@ function slot0.NewAtlasRight(slot0, slot1, slot2)
 
 	slot3:Setup()
 	onButton(slot0, slot3.btnSettings, function ()
-		uv0:Op("OpOpenScene", SCENE.SETTINGS)
+		uv0:Op("OpOpenScene", SCENE.SETTINGS, {
+			scroll = "world_settings",
+			toggle = SettingsScene.EnterToggle.options
+		})
 	end, SFX_PANEL)
 
 	return slot3
@@ -758,7 +734,7 @@ function slot0.DisplayAtlasBottom(slot0)
 	slot0.wsAtlasBottom = slot0.wsAtlasBottom or slot0:NewAtlasBottom(slot0.rtBottomAtlas)
 
 	slot0.wsAtlasBottom:SetOverSize(slot0.rtTop:Find("adapt").offsetMax.x)
-	slot0.wsAtlasBottom:UpdateScale(slot0.inAreaMode and 0 or 1)
+	slot0.wsAtlasBottom:UpdateScale(1)
 	setActive(slot0.rtBottomAtlas, true)
 end
 
@@ -778,11 +754,16 @@ function slot0.NewAtlasBottom(slot0, slot1)
 	end
 
 	onButton(slot0, slot2.btnOverview, function ()
-		if uv0.wsAtlas:CheckIsTweening() or uv0.inAreaMode then
+		if uv0.wsAtlas:CheckIsTweening() then
 			return
 		end
 
-		uv0:ReturnToModelArea()
+		uv0:Op("OpCall", function (slot0)
+			uv0.wsAtlas:LoadModel(function ()
+				uv0()
+				uv1:ReturnToModelArea()
+			end)
+		end)
 	end, SFX_PANEL)
 	onButton(slot0, slot2.btnBoss, function ()
 		if nowWorld:GetBossProxy():IsOpen() then
@@ -961,6 +942,7 @@ function slot0.LoadMap(slot0, slot1, slot2)
 			return existCall(uv1)
 		else
 			uv2:AddListener(WorldMap.EventUpdateActive, uv0.onDisposeMap)
+			uv2:AddListener(WorldMap.EventUpdateMoveSpeed, uv0.onClearMoveQueue)
 
 			uv0.wsMap = uv0:NewMap(uv2)
 
@@ -978,15 +960,12 @@ end
 function slot0.InitMap(slot0)
 	for slot4, slot5 in ipairs(slot0.wsMap.wsMapFleets) do
 		onButton(slot0, slot5.rtRetreat, function ()
-			uv0:Op("OpReqRetreat", uv1.fleet, function ()
-				uv0:Op("OpInteractive")
-			end)
+			uv0:Op("OpReqRetreat", uv1.fleet)
 		end, SFX_PANEL)
 		slot5:AddListener(WSMapFleet.EventUpdateSelected, slot0.onFleetSelected)
 	end
 
 	slot0.wsMap:AddListener(WSMap.EventUpdateEventTips, slot0.onUpdateEventTips)
-	nowWorld:AddListener(World.EventUpdateRound, slot0.onUpdateRound)
 	nowWorld:AddListener(World.EventUpdateSubmarineSupport, slot0.onUpdateSubmarineSupport)
 	nowWorld:AddListener(World.EventAchieved, slot0.onAchievementAchieved)
 
@@ -996,7 +975,6 @@ function slot0.InitMap(slot0)
 	slot0.wsDragProxy:Focus(slot0.wsMap:GetFleet().transform.position)
 	slot0.wsMapCamera:UpdateMap(slot1)
 	slot0:OnUpdateSubmarineSupport()
-	slot0:DoSubmitAutoCompleteTaskByMapLoaded()
 end
 
 function slot0.NewMap(slot0, slot1)
@@ -1019,10 +997,13 @@ function slot0.DisposeMap(slot0)
 
 		slot1 = nowWorld
 
-		slot1:RemoveListener(World.EventUpdateRound, slot0.onUpdateRound)
 		slot1:RemoveListener(World.EventUpdateSubmarineSupport, slot0.onUpdateSubmarineSupport)
 		slot1:RemoveListener(World.EventAchieved, slot0.onAchievementAchieved)
-		slot0.wsMap.map:RemoveListener(WorldMap.EventUpdateActive, slot0.onDisposeMap)
+
+		slot2 = slot0.wsMap.map
+
+		slot2:RemoveListener(WorldMap.EventUpdateActive, slot0.onDisposeMap)
+		slot2:RemoveListener(WorldMap.EventUpdateMoveSpeed, slot0.onClearMoveQueue)
 		slot0.wsMap:Dispose()
 
 		slot0.wsMap = nil
@@ -1075,17 +1056,9 @@ function slot0.NewMapTop(slot0, slot1)
 	end
 
 	onButton(slot0, slot2.btnBack, function ()
-		if uv0:GetInMap() then
-			if WorldConst.IsRookieMap(nowWorld:GetActiveMap().id) then
-				uv0:Op("OpCall", function (slot0)
-					uv0:ExitWorld(slot0)
-				end)
-			else
-				uv0:Op("OpSetInMap", false, function ()
-					uv0.wsAtlas:UpdateSelect(nowWorld:GetActiveEntrance())
-				end)
-			end
-		end
+		uv0:Op("OpCall", function (slot0)
+			uv0:ExitWorld(slot0)
+		end)
 	end, SFX_CANCEL)
 
 	return slot2
@@ -1161,6 +1134,7 @@ function slot0.DisplayMapRight(slot0)
 	slot0.wsMapRight = slot0.wsMapRight or slot0:NewMapRight(slot0.rtRightMap)
 
 	setActive(slot0.rtRightMap, true)
+	slot0:UpdateAutoFightDisplay()
 end
 
 function slot0.HideMapRight(slot0)
@@ -1179,17 +1153,26 @@ function slot0.NewMapRight(slot0, slot1)
 	slot2.wsPool = slot0.wsPool
 	slot2.wsTimer = slot0.wsTimer
 
-	function slot2.onOpenOrder()
-		uv0:Op("OpShowOrderPanel")
-	end
-
-	function slot2.onOpenScanner()
-		uv0:Op("OpShowScannerPanel")
-	end
-
 	slot2:Setup()
 	slot2:OnUpdateInfoBtnTip()
 	slot2:OnUpdateHelpBtnTip()
+	onButton(slot0, slot2.btnOrder, function ()
+		uv0:Op("OpShowOrderPanel")
+	end, SFX_PANEL)
+	onButton(slot0, slot2.btnScan, function ()
+		uv0:Op("OpShowScannerPanel")
+	end, SFX_PANEL)
+	onButton(slot0, slot2.btnDefeat, function ()
+		uv0:OnUpdateHelpBtnTip(true)
+		uv1:Op("OpOpenLayer", Context.New({
+			mediator = WorldHelpMediator,
+			viewComponent = WorldHelpLayer,
+			data = {
+				titleId = 4,
+				pageId = 5
+			}
+		}))
+	end, SFX_PANEL)
 	onButton(slot0, slot2.btnDetail, function ()
 		uv0:Op("OpOpenLayer", Context.New({
 			mediator = WorldDetailMediator,
@@ -1217,6 +1200,9 @@ function slot0.NewMapRight(slot0, slot1)
 			}
 		}))
 	end, SFX_PANEL)
+	onButton(slot0, slot2.btnTransport, function ()
+		uv0:OnClickTransport()
+	end, SFX_PANEL)
 	onButton(slot0, slot2.btnPort, function ()
 		uv0:Op("OpReqEnterPort")
 	end, SFX_PANEL)
@@ -1242,18 +1228,44 @@ function slot0.NewMapRight(slot0, slot1)
 			mediator = WorldHelpMediator,
 			viewComponent = WorldHelpLayer
 		}))
-	end)
-	onButton(slot0, slot2.btnDefeat, function ()
-		uv0:OnUpdateHelpBtnTip(true)
-		uv1:Op("OpOpenLayer", Context.New({
-			mediator = WorldHelpMediator,
-			viewComponent = WorldHelpLayer,
-			data = {
-				titleId = 4,
-				pageId = 5
-			}
-		}))
-	end)
+	end, SFX_PANEL)
+	onButton(slot0, slot2.toggleAutoFight:Find("off"), function ()
+		uv0:Op("OpCall", function (slot0)
+			slot0()
+
+			slot1 = {}
+
+			if PlayerPrefs.GetInt("first_auto_fight_mark", 0) == 0 then
+				table.insert(slot1, function (slot0)
+					PlayerPrefs.SetInt("first_auto_fight_mark", 1)
+					uv0:Op("OpOpenLayer", Context.New({
+						mediator = WorldHelpMediator,
+						viewComponent = WorldHelpLayer,
+						data = {
+							titleId = 2,
+							pageId = 8
+						},
+						onRemoved = slot0
+					}))
+				end)
+			end
+
+			seriesAsync(slot1, function ()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("autofight_tip_bigworld_begin"))
+				triggerToggle(uv0.wsMapRight.toggleSkipPrecombat, true)
+				PlayerPrefs.SetInt("autoBotIsAcitve" .. AutoBotCommand.GetAutoBotMark(SYSTEM_WORLD), 1)
+				nowWorld:TriggerAutoFight(true)
+				uv0:Op("OpInteractive")
+			end)
+		end)
+	end, SFX_PANEL)
+	onButton(slot0, slot2.toggleAutoFight:Find("on"), function ()
+		uv0:Op("OpCall", function (slot0)
+			slot0()
+			nowWorld:TriggerAutoFight(false)
+			uv0:Op("OpInteractive")
+		end)
+	end, SFX_PANEL)
 
 	return slot2
 end
@@ -1364,21 +1376,10 @@ function slot0.OnModelSelectMap(slot0, slot1, slot2, slot3)
 	if slot3 then
 		slot0:ShowSubView("FloatPanel", {
 			slot3,
-			slot2,
-			slot0.inTransportMode
+			slot2
 		})
 	else
 		slot0:HideSubView("FloatPanel")
-	end
-end
-
-function slot0.OnUpdateRound(slot0, slot1)
-	if nowWorld:GetActiveMap():GetMaxRound() > 0 and slot3:GetMaxRound() <= nowWorld.roundIndex then
-		slot0:Op("OpReturn")
-	elseif slot2:GetRound() == WorldConst.RoundElse then
-		slot0:Op("OpReqRound")
-	else
-		slot0:Op("OpInteractive", true)
 	end
 end
 
@@ -1392,7 +1393,7 @@ end
 
 function slot0.OnFleetSelected(slot0, slot1, slot2)
 	if slot2.selected then
-		slot0.wsDragProxy:Focus(slot2.transform.position, true)
+		slot0.wsDragProxy:Focus(slot2.transform.position, nil, LeanTweenType.easeInOutSine)
 	end
 end
 
@@ -1404,41 +1405,47 @@ function slot0.OnSelectFleet(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.OnClickCell(slot0, slot1)
-	slot2 = nowWorld:GetActiveMap()
+function slot0.OnClickCell(slot0, slot1, slot2)
+	slot3 = nowWorld:GetActiveMap()
+	slot5 = slot3:GetCell(slot1, slot2)
 
-	if slot2:FindFleet(slot1.row, slot1.column) and slot4 ~= slot2:GetFleet() then
-		slot0:Op("OpReqSwitchFleet", slot4)
-	elseif slot2:CheckInteractive() then
+	if slot3:FindFleet(slot5.row, slot5.column) and slot6 ~= slot3:GetFleet() then
+		slot0:Op("OpReqSwitchFleet", slot6)
+	elseif slot3:CheckInteractive() then
 		slot0:Op("OpInteractive", true)
-	elseif slot2:IsSign(slot1.row, slot1.column) and ManhattonDist({
-		row = slot3.row,
-		column = slot3.column
+	elseif slot3:IsSign(slot1, slot2) and ManhattonDist({
+		row = slot4.row,
+		column = slot4.column
 	}, {
-		row = slot1.row,
-		column = slot1.column
+		row = slot5.row,
+		column = slot5.column
 	}) <= 1 then
-		slot0:Op("OpTriggerSign", slot1:GetEventAttachment())
-	elseif slot2:IsUnlockFleetMode() and not slot3:HasTrapBuff() then
-		slot0:Op("OpLongMoveFleet", slot2:GetFleet(), slot1.row, slot1.column)
+		slot0:Op("OpTriggerSign", slot4, slot5:GetEventAttachment(), function ()
+			uv0:Op("OpInteractive")
+		end)
+	elseif slot3:CanLongMove(slot4) then
+		slot0:Op("OpLongMoveFleet", slot4, slot5.row, slot5.column)
 	else
-		slot0:Op("OpReqMoveFleet", slot2:GetFleet(), slot1.row, slot1.column)
+		slot0:Op("OpReqMoveFleet", slot4, slot5.row, slot5.column)
 	end
 end
 
-function slot0.OnClickTransport(slot0, slot1, slot2)
+function slot0.OnClickTransport(slot0)
 	if slot0.svScannerPanel:isShowing() then
 		return
 	end
 
 	slot0:Op("OpCall", function (slot0)
 		slot0()
-		uv0:ClickTransport(uv1, uv2)
+		uv0:QueryTransport(function ()
+			uv0:EnterTransportWorld()
+		end)
 	end)
 end
 
-function slot0.ClickTransport(slot0, slot1, slot2)
-	slot3 = nowWorld:GetActiveMap()
+function slot0.QueryTransport(slot0, slot1)
+	slot2 = nowWorld:GetActiveMap()
+	slot3 = {}
 
 	if not nowWorld:IsSystemOpen(WorldConst.SystemOutMap) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("word_systemClose"))
@@ -1446,41 +1453,10 @@ function slot0.ClickTransport(slot0, slot1, slot2)
 		return
 	end
 
-	if slot3.config.is_transfer == 0 then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("world_transport_disable"))
+	if slot2:CheckAttachmentTransport() == "story" then
+		slot5 = pg.gameset.world_transfer_eventstory.description[1]
 
-		return
-	end
-
-	if slot3:CheckAttachmentTransport() == "block" then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("world_movelimit_event_text"))
-
-		return
-	end
-
-	if not nowWorld:GetActiveEntrance():IsPressing() and not slot3:AnyFleetInEdge() then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("world_transport_locked"))
-
-		return
-	end
-
-	if nowWorld:CheckTaskLockMap() then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("world_task_maplock"))
-		slot0:Op("OpOpenLayer", Context.New({
-			mediator = WorldInformationMediator,
-			viewComponent = WorldInformationLayer,
-			data = {
-				fleetId = nowWorld:GetActiveMap():GetFleet().id
-			}
-		}))
-
-		return
-	end
-
-	if slot4 == "story" then
-		slot6 = pg.gameset.world_transfer_eventstory.description[1]
-
-		table.insert({}, function (slot0)
+		table.insert(slot3, function (slot0)
 			pg.NewStoryMgr.GetInstance():Play(uv0, function (slot0, slot1)
 				if slot1 == 1 then
 					uv0()
@@ -1489,8 +1465,8 @@ function slot0.ClickTransport(slot0, slot1, slot2)
 		end)
 	end
 
-	if nowWorld:IsSubmarineSupporting() and slot3:GetSubmarineFleet():GetAmmo() > 0 then
-		table.insert(slot5, function (slot0)
+	if nowWorld:IsSubmarineSupporting() and slot2:GetSubmarineFleet():GetAmmo() > 0 then
+		table.insert(slot3, function (slot0)
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("world_instruction_submarine_6"),
 				onYes = slot0
@@ -1498,8 +1474,8 @@ function slot0.ClickTransport(slot0, slot1, slot2)
 		end)
 	end
 
-	if slot3:CheckFleetSalvage(true) then
-		table.insert(slot5, function (slot0)
+	if slot2:CheckFleetSalvage(true) then
+		table.insert(slot3, function (slot0)
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("world_catsearch_leavemap"),
 				onYes = slot0
@@ -1507,20 +1483,20 @@ function slot0.ClickTransport(slot0, slot1, slot2)
 		end)
 	end
 
-	slot6 = nil
+	slot5 = nil
 
-	for slot10, slot11 in ipairs(slot3:GetNormalFleets()) do
-		for slot15, slot16 in ipairs(slot11:GetCarries()) do
-			if slot16.config.out_story ~= "" then
-				slot6 = slot16.config.out_story
+	for slot9, slot10 in ipairs(slot2:GetNormalFleets()) do
+		for slot14, slot15 in ipairs(slot10:GetCarries()) do
+			if slot15.config.out_story ~= "" then
+				slot5 = slot15.config.out_story
 			end
 		end
 	end
 
-	if slot6 then
-		slot7 = pg.NewStoryMgr.GetInstance()
+	if slot5 then
+		slot6 = pg.NewStoryMgr.GetInstance()
 
-		table.insert(slot5, function (slot0)
+		table.insert(slot3, function (slot0)
 			uv0:Play(uv1, function (slot0, slot1)
 				if slot1 == 1 then
 					uv0()
@@ -1529,9 +1505,18 @@ function slot0.ClickTransport(slot0, slot1, slot2)
 		end)
 	end
 
-	seriesAsync(slot5, function ()
-		uv0:EnterTransportWorld()
-	end)
+	slot6, slot7 = slot2:CkeckTransport()
+
+	if not slot6 then
+		table.insert(slot3, function (slot0)
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = uv0,
+				onYes = slot0
+			})
+		end)
+	end
+
+	seriesAsync(slot3, slot1)
 end
 
 function slot0.OnUpdateEventTips(slot0, slot1, slot2)
@@ -1545,22 +1530,19 @@ function slot0.OnUpdateEventTips(slot0, slot1, slot2)
 end
 
 function slot0.OnClickMap(slot0, slot1, slot2)
-	if #slot0.moveQueue > 0 then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("world_fleet_stop"))
-		slot0:ClearMoveQueue()
-	end
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_PANEL)
 
 	slot3 = slot0.wsMap.map
 
 	if slot1 < slot3.top or slot3.bottom < slot1 or slot2 < slot3.left or slot3.right < slot2 then
 		slot0:OnClickTransport()
 	else
-		slot0:OnClickCell(slot3:GetCell(slot1, slot2))
+		slot0:OnClickCell(slot1, slot2)
 	end
 end
 
 function slot0.CheckScannerEnable(slot0, slot1, slot2)
-	if nowWorld:IsSystemOpen(WorldConst.SystemScanner) and slot0.wsMap.map:GetCell(slot1, slot2) and slot4:GetInFOV() and not slot4.fog and slot4:GetScannerAttachment() then
+	if nowWorld:IsSystemOpen(WorldConst.SystemScanner) and slot0.wsMap.map:GetCell(slot1, slot2) and slot4:GetInFOV() and not slot4:InFog() and slot4:GetScannerAttachment() then
 		return slot5, slot0.camera:WorldToScreenPoint(slot0.wsMap:GetCell(slot1, slot2).rtAttachments.position)
 	end
 end
@@ -1581,10 +1563,14 @@ function slot0.OnAchievementAchieved(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	if slot4 then
-		table.insert(slot0.achievedList, {
-			slot4,
-			slot0.wsMapRight.btnInformation.position
-		})
+		if nowWorld.isAutoFight then
+			nowWorld:AddAutoInfo("message", i18n("autofight_discovery", slot4.config.target_desc))
+		else
+			table.insert(slot0.achievedList, {
+				slot4,
+				slot0.wsMapRight.btnInformation.position
+			})
+		end
 	end
 end
 
@@ -1634,21 +1620,16 @@ function slot0.StopAnim(slot0)
 	slot0.wsAnim:Stop()
 end
 
-function slot0.DoSubmitAutoCompleteTaskByMapLoaded(slot0)
-	slot0:emit(WorldMediator.OnSubmitAutoCompleteTask, {
-		1,
-		2
-	})
-end
-
 function slot0.UpdateSystemOpen(slot0)
 	if slot0:GetInMap() then
 		slot0.wsMapLeft.onAgonyClickEnabled = nowWorld:IsSystemOpen(WorldConst.SystemInventory)
 
 		setActive(slot0.wsMapRight.btnInventory, nowWorld:IsSystemOpen(WorldConst.SystemInventory))
+		setActive(slot0.wsMapRight.btnTransport, nowWorld:IsSystemOpen(WorldConst.SystemOutMap))
 		setActive(slot0.wsMapRight.btnDetail, nowWorld:IsSystemOpen(WorldConst.SystemFleetDetail))
 		setActive(slot0.wsMapRight.rtCompassPanel, nowWorld:IsSystemOpen(WorldConst.SystemCompass))
-	elseif not slot0.inTransportMode then
+		setActive(slot0.wsMapRight.toggleAutoFight, nowWorld:GetActiveMap():CanAutoFight())
+	else
 		setActive(slot0.wsAtlasBottom.btnBoss, nowWorld:IsSystemOpen(WorldConst.SystemWorldBoss))
 
 		slot3 = nowWorld:GetBossProxy():CanUnlock()
@@ -1692,16 +1673,16 @@ function slot0.EnterToModelMap(slot0, slot1)
 	slot2 = {}
 
 	table.insert(slot2, function (slot0)
+		setActive(uv0.rtTopAtlas:Find("print/title_world"), true)
+		setActive(uv0.rtTopAtlas:Find("print/title_view"), false)
 		uv0.wsAtlasBottom:UpdateScale(1, true, slot0)
 	end)
 	table.insert(slot2, function (slot0)
 		uv0.wsAtlas:SwitchArea(uv1, true, slot0)
 	end)
 	parallelAsync(slot2, function ()
-		uv0.inAreaMode = false
-
-		if uv1 == nowWorld:GetAtlas():GetActiveEntrance():GetAreaId() then
-			uv0.wsAtlas:UpdateSelect(slot0)
+		if uv0 == nowWorld:GetAtlas():GetActiveEntrance():GetAreaId() then
+			uv1.wsAtlas:UpdateSelect(slot0)
 		end
 	end)
 end
@@ -1712,19 +1693,18 @@ function slot0.ReturnToModelArea(slot0)
 	slot1 = {}
 
 	table.insert(slot1, function (slot0)
+		setActive(uv0.rtTopAtlas:Find("print/title_world"), false)
+		setActive(uv0.rtTopAtlas:Find("print/title_view"), true)
 		uv0.wsAtlasBottom:UpdateScale(0, true, slot0)
 	end)
 	table.insert(slot1, function (slot0)
 		uv0.wsAtlas:SwitchArea(nil, true, slot0)
 	end)
 	parallelAsync(slot1, function ()
-		uv0.inAreaMode = true
 	end)
 end
 
 function slot0.EnterTransportWorld(slot0)
-	slot0.inTransportMode = true
-
 	slot0:Op("OpSetInMap", false, function ()
 		uv0.wsAtlas:SwitchArea(nowWorld:GetActiveEntrance():GetAreaId(), false, function ()
 			uv0.wsAtlas:UpdateSelect(uv1)
@@ -1837,6 +1817,8 @@ function slot0.SetMoveQueue(slot0, slot1)
 end
 
 function slot0.ClearMoveQueue(slot0)
+	slot0:DisplayMoveStopClick(false)
+
 	slot0.moveQueueInteractive = true
 
 	if #slot0.moveQueue > 0 then
@@ -1847,6 +1829,8 @@ function slot0.ClearMoveQueue(slot0)
 end
 
 function slot0.DoQueueMove(slot0, slot1)
+	slot0:DisplayMoveStopClick(true)
+
 	slot2 = nowWorld:GetActiveMap()
 	slot3 = _.detect(slot0.moveQueue, function (slot0)
 		return slot0.stay
@@ -1854,7 +1838,7 @@ function slot0.DoQueueMove(slot0, slot1)
 
 	if #slot0.moveQueue == 1 and slot2:IsSign(slot3.row, slot3.column) then
 		slot0:ClearMoveQueue()
-		slot0:Op("OpTriggerSign", slot2:GetCell(slot3.row, slot3.column):GetEventAttachment(), function ()
+		slot0:Op("OpTriggerSign", slot1, slot2:GetCell(slot3.row, slot3.column):GetEventAttachment(), function ()
 			uv0:Op("OpInteractive")
 		end)
 	else
@@ -1884,12 +1868,23 @@ function slot0.InteractiveMoveQueue(slot0)
 	if slot0.moveQueueInteractive then
 		slot0:ClearMoveQueue()
 	else
+		slot0:DisplayMoveStopClick(false)
+
 		slot0.moveQueueInteractive = true
 	end
 end
 
 function slot0.ReContinueMoveQueue(slot0)
 	slot0.moveQueueInteractive = false
+end
+
+function slot0.DisplayMoveStopClick(slot0, slot1)
+	setActive(slot0.rtClickStop, slot1)
+
+	if slot1 then
+		setActive(slot0.rtClickStop:Find("long_move"), not nowWorld.isAutoFight)
+		setActive(slot0.rtClickStop:Find("auto_fight"), nowWorld.isAutoFight)
+	end
 end
 
 function slot0.ShowFleetMoveTurn(slot0, slot1)
@@ -1933,10 +1928,11 @@ function slot0.GetAllPessingAward(slot0, slot1)
 
 	for slot10, slot11 in pairs(slot4) do
 		table.insert(slot6, function (slot0)
-			uv0:ShowSubView("GlobalBuff", {
+			uv2:ShowSubView("GlobalBuff", {
 				{
-					id = uv1,
-					floor = uv2
+					id = uv0,
+					floor = uv1,
+					before = nowWorld:GetGlobalBuff(uv0):GetFloor()
 				},
 				slot0
 			})
@@ -1970,7 +1966,7 @@ function slot0.CheckGuideSLG(slot0, slot1, slot2)
 	table.insert(slot3, {
 		"WorldG112",
 		function ()
-			return nowWorld:GetActiveEntrance():GetBaseMap().becomeSairen and slot0:GetSairenMapId() == uv0.id
+			return nowWorld:GetActiveEntrance().becomeSairen and slot0:GetSairenMapId() == uv0.id
 		end
 	})
 	table.insert(slot3, {
@@ -2066,6 +2062,66 @@ function slot0.ShowTransportMarkOverall(slot0, slot1, slot2)
 	end
 end
 
+function slot0.UpdateAutoFightDisplay(slot0)
+	slot0:ClearMoveQueue()
+
+	slot1 = nowWorld.isAutoFight
+
+	if slot0.wsMapRight then
+		setActive(slot0.wsMapRight.toggleAutoFight:Find("off"), not slot1)
+		setActive(slot0.wsMapRight.toggleAutoFight:Find("on"), slot1)
+		setActive(slot0.wsMapRight.toggleSkipPrecombat, not slot1)
+	end
+end
+
+function slot0.GuideShowScannerEvent(slot0, slot1)
+	slot2 = slot0.wsMap.map:FindAttachments(WorldMapAttachment.TypeEvent, slot1)
+	slot3, slot4 = slot0:CheckScannerEnable(slot2[1].row, slot2[1].column)
+
+	slot0.svScannerPanel:ActionInvoke("DisplayWindow", slot3, slot4)
+end
+
+function slot0.DisplayAwards(slot0, slot1, slot2, slot3)
+	slot4 = {}
+
+	for slot9, slot10 in ipairs(slot1) do
+		if slot10.type == DROP_TYPE_WORLD_COLLECTION then
+			table.insert({}, slot10)
+		else
+			table.insert(slot4, slot10)
+		end
+	end
+
+	seriesAsync({
+		function (slot0)
+			if #uv0 == 0 then
+				return slot0()
+			end
+
+			uv1.items = uv0
+			uv1.removeFunc = slot0
+
+			uv2:emit(BaseUI.ON_WORLD_ACHIEVE, uv1)
+		end,
+		function (slot0)
+			if not uv0[1] then
+				slot0()
+
+				return
+			end
+
+			uv1:emit(WorldMediator.OnOpenLayer, Context.New({
+				mediator = WorldMediaCollectionFilePreviewMediator,
+				viewComponent = WorldMediaCollectionFilePreviewLayer,
+				data = {
+					collectionId = slot1.id
+				},
+				onRemoved = slot0
+			}))
+		end
+	}, slot3)
+end
+
 function slot0.GetDepth(slot0)
 	return #slot0.wsCommands
 end
@@ -2115,11 +2171,7 @@ function slot0.NewMapOp(slot0, slot1)
 	WBank:Fetch(WorldMapOp).depth = slot0:GetDepth()
 
 	for slot6, slot7 in pairs(slot1) do
-		if slot6 == "callback" then
-			slot2:AddCallbackWhenApplied(slot7)
-		else
-			slot2[slot6] = slot7
-		end
+		slot2[slot6] = slot7
 	end
 
 	return slot2
@@ -2166,13 +2218,6 @@ end
 
 function slot0.GuideSelectModelMap(slot0, slot1)
 	slot0:ClickAtlas(nowWorld:GetEntrance(slot1))
-end
-
-function slot0.GuideShowScannerEvent(slot0, slot1)
-	slot2 = slot0.wsMap.map:FindAttachments(WorldMapAttachment.TypeEvent, slot1)
-	slot3, slot4 = slot0:CheckScannerEnable(slot2[1].row, slot2[1].column)
-
-	slot0.svScannerPanel:ActionInvoke("DisplayWindow", slot3, slot4)
 end
 
 return slot0

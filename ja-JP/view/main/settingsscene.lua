@@ -1,6 +1,12 @@
 slot0 = class("SettingsScene", import("..base.BaseUI"))
 slot0.CLD_RED = Color.New(0.6, 0.05, 0.05, 0.5)
 slot0.DEFAULT_GREY = Color.New(0.5, 0.5, 0.5, 0.5)
+slot0.EnterToggle = {
+	options = "options",
+	res = "res",
+	interface = "interface",
+	sound = "sound"
+}
 
 function slot0.getUIName(slot0)
 	return "SettingsUI"
@@ -374,6 +380,7 @@ function slot0.initOptionsPanel(slot0, slot1)
 	end
 
 	slot0:InitStorySpeedPanel(slot1)
+	slot0:InitStoryAutoPlayPanel(slot1)
 end
 
 function slot0.InitStorySpeedPanel(slot0, slot1)
@@ -394,6 +401,27 @@ function slot0.InitStorySpeedPanel(slot0, slot1)
 
 		if slot9 == (table.indexof(Story.STORY_AUTO_SPEED, getProxy(SettingsProxy):GetStorySpeed()) or 2) then
 			triggerToggle(slot10, true)
+		end
+	end
+end
+
+function slot0.InitStoryAutoPlayPanel(slot0, slot1)
+	setText(slot1:Find("scroll_view/Viewport/content/story_autoplay_setting/title"), i18n("story_autoplay_setting_label"))
+	setText(slot1:Find("scroll_view/Viewport/content/story_autoplay_setting/title/title_text"), i18n1("/AUTO"))
+
+	for slot7, slot8 in ipairs({
+		slot1:Find("scroll_view/Viewport/content/story_autoplay_setting/speeds/1"),
+		slot1:Find("scroll_view/Viewport/content/story_autoplay_setting/speeds/2")
+	}) do
+		onToggle(slot0, slot8, function (slot0)
+			if slot0 then
+				getProxy(SettingsProxy):SetStoryAutoPlayFlag(uv0 - 1)
+			end
+		end, SFX_PANEL)
+		setText(slot8:Find("Text"), i18n("story_autoplay_setting_" .. slot7))
+
+		if slot7 == (getProxy(SettingsProxy):GetStoryAutoPlayFlag() and 2 or 1) then
+			triggerToggle(slot8, true)
 		end
 	end
 end
@@ -460,18 +488,27 @@ end
 
 function slot0.InitWorldPanel(slot0, slot1)
 	for slot8, slot9 in pairs({
-		story_tips = i18n("world_setting_quickmode")
+		{
+			key = "story_tips",
+			title = i18n("world_setting_quickmode"),
+			desc = i18n("world_setting_quickmodetip")
+		},
+		{
+			key = "consume_item",
+			title = i18n("world_setting_submititem"),
+			desc = i18n("world_setting_submititemtip")
+		}
 	}) do
 		slot10 = cloneTplTo(slot1:Find("scroll_view/Viewport/content/world_settings/options"):Find("notify_tpl"), slot2)
-		slot11 = getProxy(SettingsProxy):GetWorldFlag(slot8)
+		slot11 = getProxy(SettingsProxy):GetWorldFlag(slot9.key)
 
-		setText(slot10:Find("Text"), slot9)
+		setText(slot10:Find("Text"), slot9.title)
 		onButton(slot0, slot10:Find("Text"), function ()
-			uv0.msgBox:ExecuteAction("Show", i18n("world_setting_quickmodetip"))
+			uv0.msgBox:ExecuteAction("Show", uv1.desc)
 		end)
 		onToggle(slot0, slot10:Find("on"), function (slot0)
 			if uv0 ~= slot0 then
-				getProxy(SettingsProxy):SetWorldFlag(uv1, slot0)
+				getProxy(SettingsProxy):SetWorldFlag(uv1.key, slot0)
 
 				uv0 = slot0
 			end
@@ -1303,7 +1340,22 @@ function slot0.didEnter(slot0)
 			PlayerPrefs.Save()
 		end
 	end)
-	triggerToggle(slot0.soundToggle, true)
+
+	slot1 = slot0.soundToggle
+
+	if slot0.contextData.toggle and uv0.EnterToggle[slot0.contextData.toggle] then
+		slot1 = slot0[slot0.contextData.toggle .. "Toggle"]
+	end
+
+	triggerToggle(slot1, true)
+
+	if slot1 == slot0.optionsToggle and slot0.contextData.scroll then
+		if slot0._tf:Find("main/options/scroll_view"):Find("Viewport"):Find("content"):Find(slot0.contextData.scroll) then
+			onDelayTick(function ()
+				scrollTo(uv3, nil, 1 - math.clamp(math.abs(uv0.anchoredPosition.y) / (uv1.rect.height - uv2.rect.height), 0, 1))
+			end, 0.05)
+		end
+	end
 end
 
 function slot0.onBackPressed(slot0)

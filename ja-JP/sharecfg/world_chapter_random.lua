@@ -19,15 +19,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	{
 		name = "リバープール",
@@ -48,15 +40,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	{
 		name = "ジブラルタル",
@@ -77,15 +61,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	{
 		name = "ペテルブルク",
@@ -106,15 +82,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	{
 		name = "キール",
@@ -135,15 +103,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	{
 		name = "タラント",
@@ -164,15 +124,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	{
 		name = "ブレスト",
@@ -193,15 +145,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	{
 		name = "ダカール",
@@ -222,15 +166,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[11] = {
 		name = "カリブ海A",
@@ -251,75 +187,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {
-			1011
-		},
-		teasure_chapter = {
-			{
-				110011,
-				20016
-			},
-			{
-				100011,
-				20006
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30001
-		},
-		normal_target = {
-			1101,
-			1102,
-			1103
-		},
-		cryptic_target = {
-			1104,
-			1105
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					3
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					3
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2016,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20013,
-					2
-				}
-			}
 		}
 	},
 	[12] = {
@@ -341,75 +208,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {
-			1012
-		},
-		teasure_chapter = {
-			{
-				110012,
-				20015
-			},
-			{
-				100012,
-				20005
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30002
-		},
-		normal_target = {
-			1201,
-			1202,
-			1203
-		},
-		cryptic_target = {
-			1204,
-			1205
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					3
-				}
-			},
-			{
-				2,
-				{
-					2,
-					59001,
-					200
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					2
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					250
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20013,
-					1
-				}
-			}
 		}
 	},
 	[13] = {
@@ -431,75 +229,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {
-			1013
-		},
-		teasure_chapter = {
-			{
-				110013,
-				20015
-			},
-			{
-				100013,
-				20005
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30003
-		},
-		normal_target = {
-			1301,
-			1302,
-			1303
-		},
-		cryptic_target = {
-			1304,
-			1305
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					3
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					2
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					250
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20013,
-					1
-				}
-			}
 		}
 	},
 	[14] = {
@@ -521,75 +250,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {
-			1014
-		},
-		teasure_chapter = {
-			{
-				110014,
-				20014
-			},
-			{
-				100014,
-				20004
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30004
-		},
-		normal_target = {
-			1401,
-			1402,
-			1403
-		},
-		cryptic_target = {
-			1404,
-			1405
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					50
-				}
-			},
-			{
-				2,
-				{
-					2,
-					59001,
-					160
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54018,
-					10
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					250
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[21] = {
@@ -611,71 +271,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {
-			1021
-		},
-		teasure_chapter = {
-			{
-				100021,
-				20002
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30005
-		},
-		normal_target = {
-			2101,
-			2102,
-			2103
-		},
-		cryptic_target = {
-			2104,
-			2105
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					20
-				}
-			},
-			{
-				2,
-				{
-					2,
-					59001,
-					80
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54016,
-					10
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					54018,
-					6
-				}
-			}
 		}
 	},
 	[22] = {
@@ -697,71 +292,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {
-			1022
-		},
-		teasure_chapter = {},
-		task_chapter = {
-			{
-				2000,
-				203
-			}
-		},
-		stage_chapter = {},
-		sairen_chapter = {
-			30006
-		},
-		normal_target = {
-			2201,
-			2202,
-			2203
-		},
-		cryptic_target = {
-			2204,
-			2205
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					10
-				}
-			},
-			{
-				2,
-				{
-					2,
-					61001,
-					1
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54016,
-					4
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					50
-				}
-			},
-			{
-				5,
-				{
-					2,
-					59001,
-					200
-				}
-			}
 		}
 	},
 	[23] = {
@@ -783,71 +313,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {
-			1023
-		},
-		teasure_chapter = {
-			{
-				100023,
-				20002
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30007
-		},
-		normal_target = {
-			2301,
-			2302,
-			2303
-		},
-		cryptic_target = {
-			2304,
-			2305
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					1
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54016,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54016,
-					10
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					54018,
-					6
-				}
-			}
 		}
 	},
 	[24] = {
@@ -869,76 +334,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {
-			1024
-		},
-		teasure_chapter = {
-			{
-				100024,
-				20002
-			}
-		},
-		task_chapter = {
-			{
-				2001,
-				204
-			}
-		},
-		stage_chapter = {},
-		sairen_chapter = {
-			30008
-		},
-		normal_target = {
-			2401,
-			2402,
-			2403
-		},
-		cryptic_target = {
-			2404,
-			2405
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					1
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54016,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					59001,
-					120
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					59001,
-					400
-				}
-			}
 		}
 	},
 	[25] = {
@@ -960,71 +355,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {
-			1025
-		},
-		teasure_chapter = {
-			{
-				100025,
-				20003
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30009
-		},
-		normal_target = {
-			2501,
-			2502,
-			2503
-		},
-		cryptic_target = {
-			2504,
-			2505
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54016,
-					10
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54018,
-					4
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					54018,
-					6
-				}
-			}
 		}
 	},
 	[31] = {
@@ -1046,76 +376,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {
-			1031
-		},
-		teasure_chapter = {
-			{
-				100031,
-				20002
-			}
-		},
-		task_chapter = {
-			{
-				2003,
-				206
-			}
-		},
-		stage_chapter = {},
-		sairen_chapter = {
-			30010
-		},
-		normal_target = {
-			3101,
-			3102,
-			3103
-		},
-		cryptic_target = {
-			3104,
-			3105
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					20
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54016,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54016,
-					10
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					59001,
-					400
-				}
-			}
 		}
 	},
 	[32] = {
@@ -1137,76 +397,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {
-			1032
-		},
-		teasure_chapter = {
-			{
-				100032,
-				20003
-			}
-		},
-		task_chapter = {
-			{
-				2004,
-				207
-			}
-		},
-		stage_chapter = {},
-		sairen_chapter = {
-			30011
-		},
-		normal_target = {
-			3201,
-			3202,
-			3203
-		},
-		cryptic_target = {
-			3204,
-			3205
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54016,
-					10
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54018,
-					4
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2006,
-					2
-				}
-			},
-			{
-				5,
-				{
-					2,
-					54018,
-					6
-				}
-			}
 		}
 	},
 	[33] = {
@@ -1228,76 +418,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {
-			1033
-		},
-		teasure_chapter = {
-			{
-				100033,
-				20003
-			}
-		},
-		task_chapter = {
-			{
-				2002,
-				205
-			}
-		},
-		stage_chapter = {},
-		sairen_chapter = {
-			30012
-		},
-		normal_target = {
-			3301,
-			3302,
-			3303
-		},
-		cryptic_target = {
-			3304,
-			3305
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54016,
-					10
-				}
-			},
-			{
-				3,
-				{
-					2,
-					59001,
-					180
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2006,
-					2
-				}
-			},
-			{
-				5,
-				{
-					2,
-					54018,
-					6
-				}
-			}
 		}
 	},
 	[34] = {
@@ -1319,71 +439,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {
-			1034
-		},
-		teasure_chapter = {
-			{
-				100034,
-				20003
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30013
-		},
-		normal_target = {
-			3401,
-			3402,
-			3403
-		},
-		cryptic_target = {
-			3404,
-			3405
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54016,
-					10
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54016,
-					20
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2006,
-					2
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[41] = {
@@ -1405,76 +460,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {
-			1041
-		},
-		teasure_chapter = {
-			{
-				100041,
-				20003
-			}
-		},
-		task_chapter = {
-			{
-				2200,
-				220
-			}
-		},
-		stage_chapter = {},
-		sairen_chapter = {
-			30014
-		},
-		normal_target = {
-			4101,
-			4102,
-			4103
-		},
-		cryptic_target = {
-			4104,
-			4105
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				2,
-				{
-					2,
-					59001,
-					120
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54018,
-					4
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[42] = {
@@ -1496,75 +481,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {
-			1042
-		},
-		teasure_chapter = {
-			{
-				110042,
-				20014
-			},
-			{
-				100042,
-				20004
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30015
-		},
-		normal_target = {
-			4201,
-			4202,
-			4203
-		},
-		cryptic_target = {
-			4204,
-			4205
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				2,
-				{
-					2,
-					59001,
-					160
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54018,
-					10
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					250
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[43] = {
@@ -1586,71 +502,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {
-			1043
-		},
-		teasure_chapter = {
-			{
-				100043,
-				20002
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30016
-		},
-		normal_target = {
-			4301,
-			4302,
-			4303
-		},
-		cryptic_target = {
-			4304,
-			4305
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					20
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54016,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					59001,
-					120
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					59001,
-					400
-				}
-			}
 		}
 	},
 	[44] = {
@@ -1672,66 +523,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {
-			1044
-		},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30017
-		},
-		normal_target = {
-			4401,
-			4402,
-			4403
-		},
-		cryptic_target = {
-			4404,
-			4405
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					10
-				}
-			},
-			{
-				2,
-				{
-					2,
-					61001,
-					1
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54016,
-					4
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					50
-				}
-			},
-			{
-				5,
-				{
-					2,
-					59001,
-					200
-				}
-			}
 		}
 	},
 	[51] = {
@@ -1753,75 +544,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {
-			1051
-		},
-		teasure_chapter = {
-			{
-				110051,
-				20014
-			},
-			{
-				100051,
-				20004
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30018
-		},
-		normal_target = {
-			5101,
-			5102,
-			5103
-		},
-		cryptic_target = {
-			5104,
-			5105
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				2,
-				{
-					2,
-					59001,
-					160
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					1
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2014,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[52] = {
@@ -1843,80 +565,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {
-			1052
-		},
-		teasure_chapter = {
-			{
-				110052,
-				20014
-			},
-			{
-				100052,
-				20004
-			}
-		},
-		task_chapter = {
-			{
-				2304,
-				234
-			}
-		},
-		stage_chapter = {},
-		sairen_chapter = {
-			30019
-		},
-		normal_target = {
-			5201,
-			5202,
-			5203
-		},
-		cryptic_target = {
-			5204,
-			5205
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					50
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					1
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					250
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[53] = {
@@ -1938,75 +586,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {
-			1053
-		},
-		teasure_chapter = {
-			{
-				110053,
-				20014
-			},
-			{
-				100053,
-				20004
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30020
-		},
-		normal_target = {
-			5301,
-			5302,
-			5303
-		},
-		cryptic_target = {
-			5304,
-			5305
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					1
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					250
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[54] = {
@@ -2028,80 +607,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {
-			1054
-		},
-		teasure_chapter = {
-			{
-				110054,
-				20014
-			},
-			{
-				100054,
-				20004
-			}
-		},
-		task_chapter = {
-			{
-				2303,
-				233
-			}
-		},
-		stage_chapter = {},
-		sairen_chapter = {
-			30021
-		},
-		normal_target = {
-			5401,
-			5402,
-			5403
-		},
-		cryptic_target = {
-			5404,
-			5405
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54018,
-					10
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2014,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[61] = {
@@ -2123,80 +628,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {
-			1061
-		},
-		teasure_chapter = {
-			{
-				110061,
-				20014
-			},
-			{
-				100061,
-				20004
-			}
-		},
-		task_chapter = {
-			{
-				2305,
-				235
-			}
-		},
-		stage_chapter = {},
-		sairen_chapter = {
-			30022
-		},
-		normal_target = {
-			6101,
-			6102,
-			6103
-		},
-		cryptic_target = {
-			6104,
-			6105
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				2,
-				{
-					2,
-					59001,
-					160
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					1
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2014,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[62] = {
@@ -2218,71 +649,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {
-			1062
-		},
-		teasure_chapter = {
-			{
-				100062,
-				20003
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30023
-		},
-		normal_target = {
-			6201,
-			6202,
-			6203
-		},
-		cryptic_target = {
-			6204,
-			6205
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				2,
-				{
-					2,
-					59001,
-					120
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54018,
-					4
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2006,
-					2
-				}
-			},
-			{
-				5,
-				{
-					2,
-					54016,
-					30
-				}
-			}
 		}
 	},
 	[63] = {
@@ -2304,75 +670,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {
-			1063
-		},
-		teasure_chapter = {
-			{
-				110063,
-				20014
-			},
-			{
-				100063,
-				20004
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30024
-		},
-		normal_target = {
-			6301,
-			6302,
-			6303
-		},
-		cryptic_target = {
-			6304,
-			6305
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				2,
-				{
-					2,
-					59001,
-					160
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54018,
-					10
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					250
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[64] = {
@@ -2394,75 +691,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {
-			1064
-		},
-		teasure_chapter = {
-			{
-				110064,
-				20014
-			},
-			{
-				100064,
-				20004
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30025
-		},
-		normal_target = {
-			6401,
-			6402,
-			6403
-		},
-		cryptic_target = {
-			6404,
-			6405
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54018,
-					10
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2014,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[65] = {
@@ -2484,71 +712,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {
-			1065
-		},
-		teasure_chapter = {
-			{
-				100065,
-				20003
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30026
-		},
-		normal_target = {
-			6501,
-			6502,
-			6503
-		},
-		cryptic_target = {
-			6504,
-			6505
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				2,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54018,
-					4
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[66] = {
@@ -2570,71 +733,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {
-			1066
-		},
-		teasure_chapter = {
-			{
-				100066,
-				20003
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30027
-		},
-		normal_target = {
-			6601,
-			6602,
-			6603
-		},
-		cryptic_target = {
-			6604,
-			6605
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				2,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				3,
-				{
-					2,
-					59001,
-					180
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[71] = {
@@ -2656,75 +754,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {
-			1071
-		},
-		teasure_chapter = {
-			{
-				110071,
-				20015
-			},
-			{
-				100071,
-				20005
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30028
-		},
-		normal_target = {
-			7101,
-			7102,
-			7103
-		},
-		cryptic_target = {
-			7104,
-			7105
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					3
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					2
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2015,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20013,
-					1
-				}
-			}
 		}
 	},
 	[72] = {
@@ -2746,80 +775,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {
-			1072
-		},
-		teasure_chapter = {
-			{
-				110072,
-				20016
-			},
-			{
-				100072,
-				20006
-			}
-		},
-		task_chapter = {
-			{
-				2301,
-				231
-			}
-		},
-		stage_chapter = {},
-		sairen_chapter = {
-			30029
-		},
-		normal_target = {
-			7201,
-			7202,
-			7203
-		},
-		cryptic_target = {
-			7204,
-			7205
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					3
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					3
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2016,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20013,
-					2
-				}
-			}
 		}
 	},
 	[73] = {
@@ -2841,80 +796,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {
-			1073
-		},
-		teasure_chapter = {
-			{
-				110073,
-				20015
-			},
-			{
-				100073,
-				20005
-			}
-		},
-		task_chapter = {
-			{
-				2300,
-				230
-			}
-		},
-		stage_chapter = {},
-		sairen_chapter = {
-			30030
-		},
-		normal_target = {
-			7301,
-			7302,
-			7303
-		},
-		cryptic_target = {
-			7304,
-			7305
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					3
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					2
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2015,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20013,
-					1
-				}
-			}
 		}
 	},
 	[81] = {
@@ -2936,76 +817,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {
-			1081
-		},
-		teasure_chapter = {
-			{
-				100081,
-				20002
-			}
-		},
-		task_chapter = {
-			{
-				2201,
-				221
-			}
-		},
-		stage_chapter = {},
-		sairen_chapter = {
-			30031
-		},
-		normal_target = {
-			8101,
-			8102,
-			8103
-		},
-		cryptic_target = {
-			8104,
-			8105
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					1
-				}
-			},
-			{
-				2,
-				{
-					2,
-					61001,
-					1
-				}
-			},
-			{
-				3,
-				{
-					2,
-					59001,
-					120
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					54018,
-					6
-				}
-			}
 		}
 	},
 	[82] = {
@@ -3027,80 +838,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {
-			1082
-		},
-		teasure_chapter = {
-			{
-				110082,
-				20014
-			},
-			{
-				100082,
-				20004
-			}
-		},
-		task_chapter = {
-			{
-				2205,
-				225
-			}
-		},
-		stage_chapter = {},
-		sairen_chapter = {
-			30032
-		},
-		normal_target = {
-			8201,
-			8202,
-			8203
-		},
-		cryptic_target = {
-			8204,
-			8205
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					50
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					1
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2014,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[83] = {
@@ -3122,71 +859,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {
-			1083
-		},
-		teasure_chapter = {
-			{
-				100083,
-				20002
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30033
-		},
-		normal_target = {
-			8301,
-			8302,
-			8303
-		},
-		cryptic_target = {
-			8304,
-			8305
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					1
-				}
-			},
-			{
-				2,
-				{
-					2,
-					59001,
-					80
-				}
-			},
-			{
-				3,
-				{
-					2,
-					59001,
-					120
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					54018,
-					6
-				}
-			}
 		}
 	},
 	[84] = {
@@ -3208,76 +880,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {
-			1084
-		},
-		teasure_chapter = {
-			{
-				100084,
-				20002
-			}
-		},
-		task_chapter = {
-			{
-				2202,
-				222
-			}
-		},
-		stage_chapter = {},
-		sairen_chapter = {
-			30034
-		},
-		normal_target = {
-			8401,
-			8402,
-			8403
-		},
-		cryptic_target = {
-			8404,
-			8405
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					20
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54016,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					59001,
-					120
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					54018,
-					6
-				}
-			}
 		}
 	},
 	[85] = {
@@ -3299,75 +901,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {
-			1085
-		},
-		teasure_chapter = {
-			{
-				110085,
-				20014
-			},
-			{
-				100085,
-				20004
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30035
-		},
-		normal_target = {
-			8501,
-			8502,
-			8503
-		},
-		cryptic_target = {
-			8504,
-			8505
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					1
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2014,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[91] = {
@@ -3389,80 +922,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {
-			1091
-		},
-		teasure_chapter = {
-			{
-				110091,
-				20014
-			},
-			{
-				100091,
-				20004
-			}
-		},
-		task_chapter = {
-			{
-				2204,
-				224
-			}
-		},
-		stage_chapter = {},
-		sairen_chapter = {
-			30036
-		},
-		normal_target = {
-			9101,
-			9102,
-			9103
-		},
-		cryptic_target = {
-			9104,
-			9105
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					1
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2014,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[92] = {
@@ -3484,71 +943,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {
-			1092
-		},
-		teasure_chapter = {
-			{
-				100092,
-				20002
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30037
-		},
-		normal_target = {
-			9201,
-			9202,
-			9203
-		},
-		cryptic_target = {
-			9204,
-			9205
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					20
-				}
-			},
-			{
-				2,
-				{
-					2,
-					61001,
-					1
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54016,
-					10
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					59001,
-					400
-				}
-			}
 		}
 	},
 	[93] = {
@@ -3570,71 +964,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {
-			1093
-		},
-		teasure_chapter = {
-			{
-				100093,
-				20002
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30038
-		},
-		normal_target = {
-			9301,
-			9302,
-			9303
-		},
-		cryptic_target = {
-			9304,
-			9305
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					1
-				}
-			},
-			{
-				2,
-				{
-					2,
-					61001,
-					1
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54016,
-					10
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					59001,
-					400
-				}
-			}
 		}
 	},
 	[94] = {
@@ -3656,71 +985,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {
-			1094
-		},
-		teasure_chapter = {
-			{
-				100094,
-				20003
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30039
-		},
-		normal_target = {
-			9401,
-			9402,
-			9403
-		},
-		cryptic_target = {
-			9404,
-			9405
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				2,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				3,
-				{
-					2,
-					59001,
-					180
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2006,
-					2
-				}
-			},
-			{
-				5,
-				{
-					2,
-					54016,
-					30
-				}
-			}
 		}
 	},
 	[95] = {
@@ -3742,71 +1006,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {
-			1095
-		},
-		teasure_chapter = {
-			{
-				100095,
-				20003
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30040
-		},
-		normal_target = {
-			9501,
-			9502,
-			9503
-		},
-		cryptic_target = {
-			9504,
-			9505
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					2
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54016,
-					20
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2006,
-					2
-				}
-			},
-			{
-				5,
-				{
-					2,
-					54016,
-					30
-				}
-			}
 		}
 	},
 	[101] = {
@@ -3828,75 +1027,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {
-			1101
-		},
-		teasure_chapter = {
-			{
-				110101,
-				20015
-			},
-			{
-				100101,
-				20005
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30041
-		},
-		normal_target = {
-			10101,
-			10102,
-			10103
-		},
-		cryptic_target = {
-			10104,
-			10105
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					3
-				}
-			},
-			{
-				2,
-				{
-					2,
-					59001,
-					200
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					2
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2015,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20013,
-					1
-				}
-			}
 		}
 	},
 	[102] = {
@@ -3918,75 +1048,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {
-			1102
-		},
-		teasure_chapter = {
-			{
-				110102,
-				20015
-			},
-			{
-				100102,
-				20005
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30042
-		},
-		normal_target = {
-			10201,
-			10202,
-			10203
-		},
-		cryptic_target = {
-			10204,
-			10205
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					3
-				}
-			},
-			{
-				2,
-				{
-					2,
-					59001,
-					200
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					2
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2015,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20013,
-					1
-				}
-			}
 		}
 	},
 	[103] = {
@@ -4008,75 +1069,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {
-			1103
-		},
-		teasure_chapter = {
-			{
-				110103,
-				20014
-			},
-			{
-				100103,
-				20004
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30043
-		},
-		normal_target = {
-			10301,
-			10302,
-			10303
-		},
-		cryptic_target = {
-			10304,
-			10305
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					50
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					1
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2014,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[104] = {
@@ -4098,75 +1090,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {
-			1104
-		},
-		teasure_chapter = {
-			{
-				110104,
-				20014
-			},
-			{
-				100104,
-				20004
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30044
-		},
-		normal_target = {
-			10401,
-			10402,
-			10403
-		},
-		cryptic_target = {
-			10404,
-			10405
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					50
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					1
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2014,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[105] = {
@@ -4188,76 +1111,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {
-			1105
-		},
-		teasure_chapter = {
-			{
-				100105,
-				20003
-			}
-		},
-		task_chapter = {
-			{
-				2203,
-				223
-			}
-		},
-		stage_chapter = {},
-		sairen_chapter = {
-			30045
-		},
-		normal_target = {
-			10501,
-			10502,
-			10503
-		},
-		cryptic_target = {
-			10504,
-			10505
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					20
-				}
-			},
-			{
-				2,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54016,
-					20
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2006,
-					2
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[106] = {
@@ -4279,75 +1132,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {
-			1106
-		},
-		teasure_chapter = {
-			{
-				110106,
-				20016
-			},
-			{
-				100106,
-				20006
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30046
-		},
-		normal_target = {
-			10601,
-			10602,
-			10603
-		},
-		cryptic_target = {
-			10604,
-			10605
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					3
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					3
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2016,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20013,
-					2
-				}
-			}
 		}
 	},
 	[111] = {
@@ -4369,76 +1153,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {
-			1111
-		},
-		teasure_chapter = {
-			{
-				100111,
-				20003
-			}
-		},
-		task_chapter = {
-			{
-				2104,
-				214
-			}
-		},
-		stage_chapter = {},
-		sairen_chapter = {
-			30047
-		},
-		normal_target = {
-			11101,
-			11102,
-			11103
-		},
-		cryptic_target = {
-			11104,
-			11105
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					20
-				}
-			},
-			{
-				2,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54018,
-					4
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[112] = {
@@ -4460,71 +1174,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {
-			1112
-		},
-		teasure_chapter = {
-			{
-				100112,
-				20002
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30048
-		},
-		normal_target = {
-			11201,
-			11202,
-			11203
-		},
-		cryptic_target = {
-			11204,
-			11205
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					1
-				}
-			},
-			{
-				2,
-				{
-					2,
-					61001,
-					1
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54016,
-					10
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					59001,
-					400
-				}
-			}
 		}
 	},
 	[113] = {
@@ -4546,76 +1195,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {
-			1113
-		},
-		teasure_chapter = {
-			{
-				100113,
-				20003
-			}
-		},
-		task_chapter = {
-			{
-				2105,
-				215
-			}
-		},
-		stage_chapter = {},
-		sairen_chapter = {
-			30049
-		},
-		normal_target = {
-			11301,
-			11302,
-			11303
-		},
-		cryptic_target = {
-			11304,
-			11305
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					20
-				}
-			},
-			{
-				2,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54018,
-					4
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[114] = {
@@ -4637,71 +1216,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {
-			1114
-		},
-		teasure_chapter = {
-			{
-				100114,
-				20003
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30050
-		},
-		normal_target = {
-			11401,
-			11402,
-			11403
-		},
-		cryptic_target = {
-			11404,
-			11405
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					20
-				}
-			},
-			{
-				2,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				3,
-				{
-					2,
-					59001,
-					180
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2006,
-					2
-				}
-			},
-			{
-				5,
-				{
-					2,
-					59001,
-					600
-				}
-			}
 		}
 	},
 	[121] = {
@@ -4723,75 +1237,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {
-			1121
-		},
-		teasure_chapter = {
-			{
-				110121,
-				20016
-			},
-			{
-				100121,
-				20006
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30051
-		},
-		normal_target = {
-			12101,
-			12102,
-			12103
-		},
-		cryptic_target = {
-			12104,
-			12105
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					3
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					3
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2016,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20013,
-					2
-				}
-			}
 		}
 	},
 	[122] = {
@@ -4813,71 +1258,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {
-			1122
-		},
-		teasure_chapter = {
-			{
-				100122,
-				20002
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30052
-		},
-		normal_target = {
-			12201,
-			12202,
-			12203
-		},
-		cryptic_target = {
-			12204,
-			12205
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					1
-				}
-			},
-			{
-				2,
-				{
-					2,
-					59001,
-					80
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54016,
-					10
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					59001,
-					400
-				}
-			}
 		}
 	},
 	[123] = {
@@ -4899,71 +1279,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {
-			1123
-		},
-		teasure_chapter = {
-			{
-				100123,
-				20003
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30053
-		},
-		normal_target = {
-			12301,
-			12302,
-			12303
-		},
-		cryptic_target = {
-			12304,
-			12305
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					20
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					2
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54016,
-					20
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					59001,
-					600
-				}
-			}
 		}
 	},
 	[124] = {
@@ -4985,75 +1300,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {
-			1124
-		},
-		teasure_chapter = {
-			{
-				110124,
-				20015
-			},
-			{
-				100124,
-				20005
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30054
-		},
-		normal_target = {
-			12401,
-			12402,
-			12403
-		},
-		cryptic_target = {
-			12404,
-			12405
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					3
-				}
-			},
-			{
-				2,
-				{
-					2,
-					59001,
-					200
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					2
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					250
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20013,
-					1
-				}
-			}
 		}
 	},
 	[125] = {
@@ -5075,71 +1321,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {
-			1125
-		},
-		teasure_chapter = {
-			{
-				100125,
-				20003
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30055
-		},
-		normal_target = {
-			12501,
-			12502,
-			12503
-		},
-		cryptic_target = {
-			12504,
-			12505
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					20
-				}
-			},
-			{
-				2,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54016,
-					20
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					59001,
-					600
-				}
-			}
 		}
 	},
 	[131] = {
@@ -5161,71 +1342,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {
-			1131
-		},
-		teasure_chapter = {
-			{
-				100131,
-				20002
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30056
-		},
-		normal_target = {
-			13101,
-			13102,
-			13103
-		},
-		cryptic_target = {
-			13104,
-			13105
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					1
-				}
-			},
-			{
-				2,
-				{
-					2,
-					61001,
-					1
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54016,
-					10
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					59001,
-					400
-				}
-			}
 		}
 	},
 	[132] = {
@@ -5247,76 +1363,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {
-			1132
-		},
-		teasure_chapter = {
-			{
-				100132,
-				20002
-			}
-		},
-		task_chapter = {
-			{
-				2101,
-				211
-			}
-		},
-		stage_chapter = {},
-		sairen_chapter = {
-			30057
-		},
-		normal_target = {
-			13201,
-			13202,
-			13203
-		},
-		cryptic_target = {
-			13204,
-			13205
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					1
-				}
-			},
-			{
-				2,
-				{
-					2,
-					59001,
-					80
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54016,
-					10
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					59001,
-					400
-				}
-			}
 		}
 	},
 	[133] = {
@@ -5338,71 +1384,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {
-			1133
-		},
-		teasure_chapter = {
-			{
-				100133,
-				20003
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30058
-		},
-		normal_target = {
-			13301,
-			13302,
-			13303
-		},
-		cryptic_target = {
-			13304,
-			13305
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					20
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					2
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54018,
-					4
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					59001,
-					600
-				}
-			}
 		}
 	},
 	[134] = {
@@ -5424,76 +1405,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {
-			1134
-		},
-		teasure_chapter = {
-			{
-				100134,
-				20002
-			}
-		},
-		task_chapter = {
-			{
-				2102,
-				212
-			}
-		},
-		stage_chapter = {},
-		sairen_chapter = {
-			30059
-		},
-		normal_target = {
-			13401,
-			13402,
-			13403
-		},
-		cryptic_target = {
-			13404,
-			13405
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					1
-				}
-			},
-			{
-				2,
-				{
-					2,
-					59001,
-					80
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54016,
-					10
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					59001,
-					400
-				}
-			}
 		}
 	},
 	[135] = {
@@ -5515,76 +1426,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {
-			1135
-		},
-		teasure_chapter = {
-			{
-				100135,
-				20003
-			}
-		},
-		task_chapter = {
-			{
-				2103,
-				213
-			}
-		},
-		stage_chapter = {},
-		sairen_chapter = {
-			30060
-		},
-		normal_target = {
-			13501,
-			13502,
-			13503
-		},
-		cryptic_target = {
-			13504,
-			13505
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					20
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					2
-				}
-			},
-			{
-				3,
-				{
-					2,
-					59001,
-					180
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2006,
-					2
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[141] = {
@@ -5606,71 +1447,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {
-			1141
-		},
-		teasure_chapter = {
-			{
-				100141,
-				20003
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30061
-		},
-		normal_target = {
-			14101,
-			14102,
-			14103
-		},
-		cryptic_target = {
-			14104,
-			14105
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					20
-				}
-			},
-			{
-				2,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54018,
-					4
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					100
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[142] = {
@@ -5692,75 +1468,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {
-			1142
-		},
-		teasure_chapter = {
-			{
-				110142,
-				20014
-			},
-			{
-				100142,
-				20004
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30062
-		},
-		normal_target = {
-			14201,
-			14202,
-			14203
-		},
-		cryptic_target = {
-			14204,
-			14205
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					50
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					1
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2014,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[143] = {
@@ -5782,71 +1489,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {
-			1143
-		},
-		teasure_chapter = {
-			{
-				100143,
-				20003
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30063
-		},
-		normal_target = {
-			14301,
-			14302,
-			14303
-		},
-		cryptic_target = {
-			14304,
-			14305
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					12,
-					101,
-					20
-				}
-			},
-			{
-				2,
-				{
-					2,
-					61001,
-					2
-				}
-			},
-			{
-				3,
-				{
-					2,
-					54018,
-					4
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2006,
-					2
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20001,
-					2
-				}
-			}
 		}
 	},
 	[144] = {
@@ -5868,75 +1510,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {
-			1144
-		},
-		teasure_chapter = {
-			{
-				110144,
-				20015
-			},
-			{
-				100144,
-				20005
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {
-			30064
-		},
-		normal_target = {
-			14401,
-			14402,
-			14403
-		},
-		cryptic_target = {
-			14404,
-			14405
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					3
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					2
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					250
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20013,
-					1
-				}
-			}
 		}
 	},
 	[151] = {
@@ -5958,73 +1531,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			200,
 			200
-		},
-		complete_chapter = {
-			1151
-		},
-		teasure_chapter = {
-			{
-				110151,
-				20015
-			},
-			{
-				100151,
-				20005
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {
-			15101,
-			15102,
-			15103
-		},
-		cryptic_target = {
-			15104,
-			15105
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					3
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					2
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2015,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20013,
-					1
-				}
-			}
 		}
 	},
 	[152] = {
@@ -6046,73 +1552,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			200,
 			200
-		},
-		complete_chapter = {
-			1152
-		},
-		teasure_chapter = {
-			{
-				110152,
-				20015
-			},
-			{
-				100152,
-				20005
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {
-			15201,
-			15202,
-			15203
-		},
-		cryptic_target = {
-			15204,
-			15205
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					3
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					2
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					250
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20013,
-					1
-				}
-			}
 		}
 	},
 	[153] = {
@@ -6134,78 +1573,11 @@ pg.world_chapter_random = {
 		open_stage = {
 			200,
 			200
-		},
-		complete_chapter = {
-			1153
-		},
-		teasure_chapter = {
-			{
-				110153,
-				20016
-			},
-			{
-				100153,
-				20006
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {
-			15301,
-			15302,
-			15303
-		},
-		cryptic_target = {
-			15304,
-			15305
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					3
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					3
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2016,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20013,
-					2
-				}
-			}
 		}
 	},
 	[154] = {
 		name = "NA海域中心",
-		complete_effect = 2,
+		complete_effect = 0,
 		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
 		entrance_ui = 2,
@@ -6216,21 +1588,13 @@ pg.world_chapter_random = {
 				1154001,
 				100,
 				0,
-				10000
+				9999
 			}
 		},
 		open_stage = {
-			200,
-			200
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+			100,
+			100
+		}
 	},
 	[155] = {
 		name = "NA海域深部D",
@@ -6251,73 +1615,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			200,
 			200
-		},
-		complete_chapter = {
-			1155
-		},
-		teasure_chapter = {
-			{
-				110155,
-				20016
-			},
-			{
-				100155,
-				20006
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {
-			15501,
-			15502,
-			15503
-		},
-		cryptic_target = {
-			15504,
-			15505
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					3
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					3
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2016,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20013,
-					2
-				}
-			}
 		}
 	},
 	[156] = {
@@ -6339,73 +1636,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			200,
 			200
-		},
-		complete_chapter = {
-			1156
-		},
-		teasure_chapter = {
-			{
-				110156,
-				20016
-			},
-			{
-				100156,
-				20006
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {
-			15601,
-			15602,
-			15603
-		},
-		cryptic_target = {
-			15604,
-			15605
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					3
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					3
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2016,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20013,
-					2
-				}
-			}
 		}
 	},
 	[157] = {
@@ -6427,73 +1657,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			200,
 			200
-		},
-		complete_chapter = {
-			1157
-		},
-		teasure_chapter = {
-			{
-				110157,
-				20016
-			},
-			{
-				100157,
-				20006
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {
-			15701,
-			15702,
-			15703
-		},
-		cryptic_target = {
-			15704,
-			15705
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					3
-				}
-			},
-			{
-				2,
-				{
-					2,
-					54018,
-					5
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					3
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2016,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20013,
-					2
-				}
-			}
 		}
 	},
 	[158] = {
@@ -6515,73 +1678,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			200,
 			200
-		},
-		complete_chapter = {
-			1158
-		},
-		teasure_chapter = {
-			{
-				110158,
-				20015
-			},
-			{
-				100158,
-				20005
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {
-			15801,
-			15802,
-			15803
-		},
-		cryptic_target = {
-			15804,
-			15805
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					3
-				}
-			},
-			{
-				2,
-				{
-					2,
-					59001,
-					200
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					2
-				}
-			},
-			{
-				4,
-				{
-					12,
-					101,
-					250
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20013,
-					1
-				}
-			}
 		}
 	},
 	[159] = {
@@ -6603,73 +1699,6 @@ pg.world_chapter_random = {
 		open_stage = {
 			200,
 			200
-		},
-		complete_chapter = {
-			1159
-		},
-		teasure_chapter = {
-			{
-				110159,
-				20015
-			},
-			{
-				100159,
-				20005
-			}
-		},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {
-			15901,
-			15902,
-			15903
-		},
-		cryptic_target = {
-			15904,
-			15905
-		},
-		target_drop_show = {
-			{
-				1,
-				{
-					2,
-					61001,
-					3
-				}
-			},
-			{
-				2,
-				{
-					2,
-					59001,
-					200
-				}
-			},
-			{
-				3,
-				{
-					2,
-					20001,
-					2
-				}
-			},
-			{
-				4,
-				{
-					12,
-					2015,
-					1
-				}
-			},
-			{
-				5,
-				{
-					2,
-					20013,
-					1
-				}
-			}
 		}
 	},
 	[200] = {
@@ -6691,15 +1720,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[201] = {
 		name = "Chapter1-1 出航",
@@ -6720,15 +1741,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[202] = {
 		name = "Chapter1-0-1 演習海域",
@@ -6749,15 +1762,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[203] = {
 		name = "Chapter1-2 既視感",
@@ -6778,15 +1783,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[204] = {
 		name = "Chapter1-3 バミューダへ",
@@ -6807,15 +1804,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[205] = {
 		name = "Chapter1-4 赤い影",
@@ -6836,15 +1825,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[206] = {
 		name = "Chapter1-5 和平条約",
@@ -6865,15 +1846,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[207] = {
 		name = "Chapter1-6 前哨基地",
@@ -6894,15 +1867,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[211] = {
 		name = "Chapter2-2 共同作戦",
@@ -6923,15 +1888,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[212] = {
 		name = "Chapter2-3 掃討戦",
@@ -6952,15 +1909,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[213] = {
 		name = "Chapter2-4 救援信号",
@@ -6981,15 +1930,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[214] = {
 		name = "Chapter2-5 女王の連絡",
@@ -7010,15 +1951,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[215] = {
 		name = "Chapter2-6 強敵",
@@ -7039,15 +1972,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[220] = {
 		name = "Chapter3-1 片翼戦線",
@@ -7068,15 +1993,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[221] = {
 		name = "Chapter3-2 TBについて",
@@ -7097,15 +2014,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[222] = {
 		name = "Chapter3-3 友軍信号",
@@ -7126,15 +2035,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[223] = {
 		name = "Chapter3-4 救援",
@@ -7155,15 +2056,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[224] = {
 		name = "Chapter3-5 残影",
@@ -7184,15 +2077,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[225] = {
 		name = "Chapter3-6 一気突破",
@@ -7213,15 +2098,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[230] = {
 		name = "Chapter4-1 地中海",
@@ -7242,15 +2119,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[231] = {
 		name = "Chapter4-2 タラント",
@@ -7271,15 +2140,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[232] = {
 		name = "Chapter4-3 ダカール",
@@ -7300,15 +2161,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[233] = {
 		name = "Chapter4-4 侵入",
@@ -7329,15 +2182,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[234] = {
 		name = "Chapter4-5 海霧",
@@ -7358,15 +2203,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[235] = {
 		name = "Chapter4-6 戦略調整",
@@ -7387,15 +2224,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[301] = {
 		name = "剧情海域(暂不使用）",
@@ -7416,15 +2245,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[400] = {
 		name = "剧情海域(暂不使用）",
@@ -7445,15 +2266,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[401] = {
 		name = "剧情海域(暂不使用）",
@@ -7474,15 +2287,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[410] = {
 		name = "剧情海域(暂不使用）",
@@ -7503,15 +2308,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[411] = {
 		name = "剧情海域(暂不使用）",
@@ -7532,15 +2329,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[412] = {
 		name = "剧情海域(暂不使用）",
@@ -7561,15 +2350,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[413] = {
 		name = "剧情海域(暂不使用）",
@@ -7590,15 +2371,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[414] = {
 		name = "剧情海域(暂不使用）",
@@ -7619,15 +2392,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[415] = {
 		name = "剧情海域(暂不使用）",
@@ -7648,15 +2413,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[416] = {
 		name = "剧情海域(暂不使用）",
@@ -7677,15 +2434,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[417] = {
 		name = "剧情海域(暂不使用）",
@@ -7706,15 +2455,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[418] = {
 		name = "剧情海域(暂不使用）",
@@ -7735,15 +2476,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[419] = {
 		name = "剧情海域(暂不使用）",
@@ -7764,15 +2497,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[420] = {
 		name = "剧情海域(暂不使用）",
@@ -7793,15 +2518,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[500] = {
 		name = "剧情海域(暂不使用）",
@@ -7822,15 +2539,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[510] = {
 		name = "剧情海域(暂不使用）",
@@ -7851,15 +2560,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[511] = {
 		name = "剧情海域(暂不使用）",
@@ -7880,15 +2581,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[512] = {
 		name = "剧情海域(暂不使用）",
@@ -7909,15 +2602,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[513] = {
 		name = "剧情海域(暂不使用）",
@@ -7938,15 +2623,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[514] = {
 		name = "剧情海域(暂不使用）",
@@ -7967,15 +2644,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[515] = {
 		name = "剧情海域(暂不使用）",
@@ -7996,15 +2665,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[516] = {
 		name = "剧情海域(暂不使用）",
@@ -8025,15 +2686,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[517] = {
 		name = "剧情海域(暂不使用）",
@@ -8054,15 +2707,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[518] = {
 		name = "剧情海域(暂不使用）",
@@ -8083,15 +2728,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[519] = {
 		name = "剧情海域(暂不使用）",
@@ -8112,15 +2749,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[520] = {
 		name = "剧情海域(暂不使用）",
@@ -8141,15 +2770,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[541] = {
 		name = "异常空间（暂不使用）",
@@ -8170,15 +2791,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[544] = {
 		name = "异常空间（暂不使用）",
@@ -8199,15 +2812,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[547] = {
 		name = "异常空间（暂不使用）",
@@ -8228,15 +2833,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[550] = {
 		name = "异常空间（暂不使用）",
@@ -8257,15 +2854,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[553] = {
 		name = "异常空间（暂不使用）",
@@ -8286,15 +2875,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[601] = {
 		name = "异常空间（暂不使用）",
@@ -8315,15 +2896,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[602] = {
 		name = "异常空间（暂不使用）",
@@ -8344,15 +2917,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[610] = {
 		name = "异常空间（暂不使用）",
@@ -8373,15 +2938,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[620] = {
 		name = "异常空间（暂不使用）",
@@ -8402,15 +2959,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[630] = {
 		name = "异常空间（暂不使用）",
@@ -8431,15 +2980,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[631] = {
 		name = "异常空间（暂不使用）",
@@ -8460,15 +3001,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[632] = {
 		name = "异常空间（暂不使用）",
@@ -8489,15 +3022,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[640] = {
 		name = "异常空间（暂不使用）",
@@ -8518,15 +3043,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[650] = {
 		name = "异常空间（暂不使用）",
@@ -8547,15 +3064,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[660] = {
 		name = "异常空间（暂不使用）",
@@ -8576,15 +3085,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[700] = {
 		name = "神秘海域（暂不使用）",
@@ -8605,15 +3106,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[701] = {
 		name = "神秘海域（暂不使用）",
@@ -8634,15 +3127,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[702] = {
 		name = "神秘海域（暂不使用）",
@@ -8663,15 +3148,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[703] = {
 		name = "神秘海域（暂不使用）",
@@ -8692,15 +3169,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[710] = {
 		name = "混乱之海（暂不使用）",
@@ -8721,15 +3190,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[711] = {
 		name = "意识之海（暂不使用）",
@@ -8750,15 +3211,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[712] = {
 		name = "意识之海（暂不使用）",
@@ -8779,15 +3232,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[713] = {
 		name = "混乱之海（暂不使用）",
@@ -8808,15 +3253,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[715] = {
 		name = "神秘海域（暂不使用）",
@@ -8837,15 +3274,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[720] = {
 		name = "精神空间（暂不使用）",
@@ -8866,15 +3295,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[721] = {
 		name = "精神空间（暂不使用）",
@@ -8895,15 +3316,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[722] = {
 		name = "精神空间（暂不使用）",
@@ -8924,15 +3337,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[723] = {
 		name = "精神空间（暂不使用）",
@@ -8953,15 +3358,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[730] = {
 		name = "精神空间（暂不使用）",
@@ -8982,15 +3379,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[731] = {
 		name = "精神空间·深层（暂不使用）",
@@ -9011,15 +3400,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[740] = {
 		name = "图腾空间（暂不使用）",
@@ -9040,15 +3421,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[741] = {
 		name = "图腾空间（暂不使用）",
@@ -9069,15 +3442,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[742] = {
 		name = "图腾空间（暂不使用）",
@@ -9098,15 +3463,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[743] = {
 		name = "图腾空间（暂不使用）",
@@ -9127,15 +3484,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[750] = {
 		name = "图腾空间·深层（暂不使用）",
@@ -9156,15 +3505,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[760] = {
 		name = "春之幻境（暂不使用）",
@@ -9185,15 +3526,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[761] = {
 		name = "夏之幻境（暂不使用）",
@@ -9214,15 +3547,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[762] = {
 		name = "秋之幻境（暂不使用）",
@@ -9243,15 +3568,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[763] = {
 		name = "冬之幻境（暂不使用）",
@@ -9272,15 +3589,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[770] = {
 		name = "季节幻境·深层（暂不使用）",
@@ -9301,15 +3610,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[800] = {
 		name = "セイレーン海域NO.Q2A7L",
@@ -9330,15 +3631,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[803] = {
 		name = "セイレーン海域NO.MY4BE",
@@ -9359,15 +3652,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[806] = {
 		name = "セイレーン海域NO.K8ALD",
@@ -9388,15 +3673,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[809] = {
 		name = "セイレーン海域NO.IKTJB",
@@ -9417,15 +3694,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[820] = {
 		name = "セイレーン海域NO.EMHOD",
@@ -9446,15 +3715,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[823] = {
 		name = "セイレーン海域NO.3PF6Z",
@@ -9475,15 +3736,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[826] = {
 		name = "セイレーン海域NO.COU42",
@@ -9504,15 +3757,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[829] = {
 		name = "セイレーン海域NO.QK3RM",
@@ -9533,15 +3778,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[840] = {
 		name = "セイレーン海域NO.E8BIJ",
@@ -9562,15 +3799,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[841] = {
 		name = "セイレーン海域NO.E8BIJ-II",
@@ -9591,15 +3820,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[843] = {
 		name = "セイレーン海域NO.9RYH2",
@@ -9620,15 +3841,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[844] = {
 		name = "セイレーン海域NO.9RYH2-II",
@@ -9649,15 +3862,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[846] = {
 		name = "セイレーン海域NO.ZKT5G",
@@ -9678,15 +3883,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[847] = {
 		name = "セイレーン海域NO.ZKT5G-II",
@@ -9707,15 +3904,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[849] = {
 		name = "セイレーン海域NO.YH16W",
@@ -9736,15 +3925,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[850] = {
 		name = "セイレーン海域NO.YH16W-II",
@@ -9765,15 +3946,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[860] = {
 		name = "セイレーン海域NO.SLUIA",
@@ -9794,15 +3967,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[863] = {
 		name = "セイレーン海域NO.4KXZG",
@@ -9823,15 +3988,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[866] = {
 		name = "セイレーン海域NO.EC57Y",
@@ -9852,15 +4009,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[869] = {
 		name = "セイレーン海域NO.KAD7O",
@@ -9881,15 +4030,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[901] = {
 		name = "破碎的空间-I",
@@ -9976,15 +4117,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[902] = {
 		name = "破碎的空间-II",
@@ -10071,15 +4204,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[903] = {
 		name = "破碎的空间-III",
@@ -10166,15 +4291,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1011] = {
 		name = "安全海域",
@@ -10195,15 +4312,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1012] = {
 		name = "安全海域",
@@ -10224,15 +4333,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1013] = {
 		name = "安全海域",
@@ -10253,15 +4354,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1014] = {
 		name = "安全海域",
@@ -10282,15 +4375,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1021] = {
 		name = "安全海域",
@@ -10311,15 +4396,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1022] = {
 		name = "安全海域",
@@ -10340,15 +4417,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1023] = {
 		name = "安全海域",
@@ -10369,15 +4438,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1024] = {
 		name = "安全海域",
@@ -10398,15 +4459,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1025] = {
 		name = "安全海域",
@@ -10427,15 +4480,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1031] = {
 		name = "安全海域",
@@ -10456,15 +4501,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1032] = {
 		name = "安全海域",
@@ -10485,15 +4522,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1033] = {
 		name = "安全海域",
@@ -10514,15 +4543,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1034] = {
 		name = "安全海域",
@@ -10543,15 +4564,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1041] = {
 		name = "安全海域",
@@ -10572,15 +4585,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1042] = {
 		name = "安全海域",
@@ -10601,15 +4606,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1043] = {
 		name = "安全海域",
@@ -10630,15 +4627,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1044] = {
 		name = "安全海域",
@@ -10659,15 +4648,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1051] = {
 		name = "安全海域",
@@ -10688,15 +4669,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1052] = {
 		name = "安全海域",
@@ -10717,15 +4690,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1053] = {
 		name = "安全海域",
@@ -10746,15 +4711,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1054] = {
 		name = "安全海域",
@@ -10775,15 +4732,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1061] = {
 		name = "安全海域",
@@ -10804,15 +4753,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1062] = {
 		name = "安全海域",
@@ -10833,15 +4774,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1063] = {
 		name = "安全海域",
@@ -10862,15 +4795,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1064] = {
 		name = "安全海域",
@@ -10891,15 +4816,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1065] = {
 		name = "安全海域",
@@ -10920,15 +4837,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1066] = {
 		name = "安全海域",
@@ -10949,15 +4858,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1071] = {
 		name = "安全海域",
@@ -10978,15 +4879,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1072] = {
 		name = "安全海域",
@@ -11007,15 +4900,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1073] = {
 		name = "安全海域",
@@ -11036,15 +4921,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			75,
 			75
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1081] = {
 		name = "安全海域",
@@ -11065,15 +4942,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1082] = {
 		name = "安全海域",
@@ -11094,15 +4963,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1083] = {
 		name = "安全海域",
@@ -11123,15 +4984,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1084] = {
 		name = "安全海域",
@@ -11152,15 +5005,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1085] = {
 		name = "安全海域",
@@ -11181,15 +5026,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1091] = {
 		name = "安全海域",
@@ -11210,15 +5047,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1092] = {
 		name = "安全海域",
@@ -11239,15 +5068,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1093] = {
 		name = "安全海域",
@@ -11268,15 +5089,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1094] = {
 		name = "安全海域",
@@ -11297,15 +5110,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1095] = {
 		name = "安全海域",
@@ -11326,15 +5131,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1101] = {
 		name = "安全海域",
@@ -11355,15 +5152,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1102] = {
 		name = "安全海域",
@@ -11384,15 +5173,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1103] = {
 		name = "安全海域",
@@ -11413,15 +5194,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1104] = {
 		name = "安全海域",
@@ -11442,15 +5215,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1105] = {
 		name = "安全海域",
@@ -11471,15 +5236,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1106] = {
 		name = "安全海域",
@@ -11500,15 +5257,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			50,
 			50
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1111] = {
 		name = "安全海域",
@@ -11529,15 +5278,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1112] = {
 		name = "安全海域",
@@ -11558,15 +5299,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1113] = {
 		name = "安全海域",
@@ -11587,15 +5320,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1114] = {
 		name = "安全海域",
@@ -11616,15 +5341,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1121] = {
 		name = "安全海域",
@@ -11645,15 +5362,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1122] = {
 		name = "安全海域",
@@ -11674,15 +5383,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1123] = {
 		name = "安全海域",
@@ -11703,15 +5404,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1124] = {
 		name = "安全海域",
@@ -11732,15 +5425,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1125] = {
 		name = "安全海域",
@@ -11761,15 +5446,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1131] = {
 		name = "安全海域",
@@ -11790,15 +5467,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1132] = {
 		name = "安全海域",
@@ -11819,15 +5488,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1133] = {
 		name = "安全海域",
@@ -11848,15 +5509,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1134] = {
 		name = "安全海域",
@@ -11877,15 +5530,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1135] = {
 		name = "安全海域",
@@ -11906,15 +5551,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1141] = {
 		name = "安全海域",
@@ -11935,15 +5572,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1142] = {
 		name = "安全海域",
@@ -11964,15 +5593,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1143] = {
 		name = "安全海域",
@@ -11993,15 +5614,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1144] = {
 		name = "安全海域",
@@ -12022,15 +5635,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			25,
 			25
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1151] = {
 		name = "安全海域",
@@ -12051,15 +5656,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			200,
 			200
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1152] = {
 		name = "安全海域",
@@ -12080,15 +5677,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			200,
 			200
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1153] = {
 		name = "安全海域",
@@ -12109,15 +5698,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			200,
 			200
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1154] = {
 		name = "安全海域",
@@ -12138,15 +5719,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			200,
 			200
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1155] = {
 		name = "安全海域",
@@ -12167,15 +5740,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			200,
 			200
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1156] = {
 		name = "安全海域",
@@ -12196,15 +5761,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			200,
 			200
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1157] = {
 		name = "安全海域",
@@ -12225,15 +5782,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			200,
 			200
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1158] = {
 		name = "安全海域",
@@ -12254,15 +5803,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			200,
 			200
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[1159] = {
 		name = "安全海域",
@@ -12283,15 +5824,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			200,
 			200
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[20001] = {
 		name = "秘密海域",
@@ -12486,15 +6019,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[20002] = {
 		name = "秘密海域",
@@ -12689,15 +6214,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[20003] = {
 		name = "秘密海域",
@@ -12892,15 +6409,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[20004] = {
 		name = "秘密海域",
@@ -13095,15 +6604,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[20005] = {
 		name = "秘密海域",
@@ -13298,15 +6799,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[20006] = {
 		name = "秘密海域",
@@ -13501,15 +6994,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[20013] = {
 		name = "異常海域（暂不使用）",
@@ -13536,15 +7021,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[20014] = {
 		name = "異常海域",
@@ -13565,15 +7042,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[20015] = {
 		name = "異常海域",
@@ -13594,15 +7063,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[20016] = {
 		name = "異常海域",
@@ -13623,15 +7084,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[20017] = {
 		name = "異常海域（暂不使用）",
@@ -13658,15 +7111,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[20101] = {
 		name = "塞壬要塞海域（暂不使用）",
@@ -13687,15 +7132,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[20103] = {
 		name = "塞壬要塞海域（暂不使用）",
@@ -13716,15 +7153,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[20200] = {
 		name = "塞壬要塞海域（暂不使用）",
@@ -13745,15 +7174,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[20201] = {
 		name = "塞壬要塞海域（暂不使用）",
@@ -13774,15 +7195,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[20202] = {
 		name = "塞壬要塞海域（暂不使用）",
@@ -13803,15 +7216,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[20203] = {
 		name = "塞壬要塞海域（暂不使用）",
@@ -13832,15 +7237,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[20204] = {
 		name = "塞壬要塞海域（暂不使用）",
@@ -13861,15 +7258,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30001] = {
 		name = "セイレーン要塞海域",
@@ -13890,15 +7279,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30002] = {
 		name = "セイレーン要塞海域",
@@ -13919,15 +7300,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30003] = {
 		name = "セイレーン要塞海域",
@@ -13948,15 +7321,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30004] = {
 		name = "セイレーン要塞海域",
@@ -13977,15 +7342,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30005] = {
 		name = "セイレーン要塞海域",
@@ -14006,15 +7363,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30006] = {
 		name = "セイレーン要塞海域",
@@ -14035,15 +7384,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30007] = {
 		name = "セイレーン要塞海域",
@@ -14064,15 +7405,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30008] = {
 		name = "セイレーン要塞海域",
@@ -14093,15 +7426,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30009] = {
 		name = "セイレーン要塞海域",
@@ -14122,15 +7447,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30010] = {
 		name = "セイレーン要塞海域",
@@ -14151,15 +7468,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30011] = {
 		name = "セイレーン要塞海域",
@@ -14180,15 +7489,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30012] = {
 		name = "セイレーン要塞海域",
@@ -14209,15 +7510,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30013] = {
 		name = "セイレーン要塞海域",
@@ -14238,15 +7531,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30014] = {
 		name = "セイレーン要塞海域",
@@ -14267,15 +7552,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30015] = {
 		name = "セイレーン要塞海域",
@@ -14296,15 +7573,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30016] = {
 		name = "セイレーン要塞海域",
@@ -14325,15 +7594,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30017] = {
 		name = "セイレーン要塞海域",
@@ -14354,15 +7615,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30018] = {
 		name = "セイレーン要塞海域",
@@ -14383,15 +7636,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30019] = {
 		name = "セイレーン要塞海域",
@@ -14412,15 +7657,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30020] = {
 		name = "セイレーン要塞海域",
@@ -14441,15 +7678,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30021] = {
 		name = "セイレーン要塞海域",
@@ -14470,15 +7699,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30022] = {
 		name = "セイレーン要塞海域",
@@ -14499,15 +7720,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30023] = {
 		name = "セイレーン要塞海域",
@@ -14528,15 +7741,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30024] = {
 		name = "セイレーン要塞海域",
@@ -14557,15 +7762,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30025] = {
 		name = "セイレーン要塞海域",
@@ -14586,15 +7783,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30026] = {
 		name = "セイレーン要塞海域",
@@ -14615,15 +7804,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30027] = {
 		name = "セイレーン要塞海域",
@@ -14644,15 +7825,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30028] = {
 		name = "セイレーン要塞海域",
@@ -14673,15 +7846,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30029] = {
 		name = "セイレーン要塞海域",
@@ -14702,15 +7867,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30030] = {
 		name = "セイレーン要塞海域",
@@ -14731,15 +7888,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30031] = {
 		name = "セイレーン要塞海域",
@@ -14760,15 +7909,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30032] = {
 		name = "セイレーン要塞海域",
@@ -14789,15 +7930,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30033] = {
 		name = "セイレーン要塞海域",
@@ -14818,15 +7951,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30034] = {
 		name = "セイレーン要塞海域",
@@ -14847,15 +7972,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30035] = {
 		name = "セイレーン要塞海域",
@@ -14876,15 +7993,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30036] = {
 		name = "セイレーン要塞海域",
@@ -14905,15 +8014,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30037] = {
 		name = "セイレーン要塞海域",
@@ -14934,15 +8035,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30038] = {
 		name = "セイレーン要塞海域",
@@ -14963,15 +8056,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30039] = {
 		name = "セイレーン要塞海域",
@@ -14992,15 +8077,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30040] = {
 		name = "セイレーン要塞海域",
@@ -15021,15 +8098,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30041] = {
 		name = "セイレーン要塞海域",
@@ -15050,15 +8119,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30042] = {
 		name = "セイレーン要塞海域",
@@ -15079,15 +8140,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30043] = {
 		name = "セイレーン要塞海域",
@@ -15108,15 +8161,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30044] = {
 		name = "セイレーン要塞海域",
@@ -15137,15 +8182,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30045] = {
 		name = "セイレーン要塞海域",
@@ -15166,15 +8203,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30046] = {
 		name = "セイレーン要塞海域",
@@ -15195,15 +8224,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30047] = {
 		name = "セイレーン要塞海域",
@@ -15224,15 +8245,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30048] = {
 		name = "セイレーン要塞海域",
@@ -15253,15 +8266,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30049] = {
 		name = "セイレーン要塞海域",
@@ -15282,15 +8287,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30050] = {
 		name = "セイレーン要塞海域",
@@ -15311,15 +8308,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30051] = {
 		name = "セイレーン要塞海域",
@@ -15340,15 +8329,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30052] = {
 		name = "セイレーン要塞海域",
@@ -15369,15 +8350,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30053] = {
 		name = "セイレーン要塞海域",
@@ -15398,15 +8371,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30054] = {
 		name = "セイレーン要塞海域",
@@ -15427,15 +8392,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30055] = {
 		name = "セイレーン要塞海域",
@@ -15456,15 +8413,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30056] = {
 		name = "セイレーン要塞海域",
@@ -15485,15 +8434,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30057] = {
 		name = "セイレーン要塞海域",
@@ -15514,15 +8455,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30058] = {
 		name = "セイレーン要塞海域",
@@ -15543,15 +8476,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30059] = {
 		name = "セイレーン要塞海域",
@@ -15572,15 +8497,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30060] = {
 		name = "セイレーン要塞海域",
@@ -15601,15 +8518,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30061] = {
 		name = "セイレーン要塞海域",
@@ -15630,15 +8539,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30062] = {
 		name = "セイレーン要塞海域",
@@ -15659,15 +8560,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30063] = {
 		name = "セイレーン要塞海域",
@@ -15688,15 +8581,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30064] = {
 		name = "セイレーン要塞海域",
@@ -15717,15 +8602,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30065] = {
 		name = "セイレーン要塞海域",
@@ -15746,15 +8623,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30066] = {
 		name = "セイレーン要塞海域",
@@ -15775,15 +8644,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30067] = {
 		name = "セイレーン要塞海域",
@@ -15804,15 +8665,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30068] = {
 		name = "セイレーン要塞海域",
@@ -15833,15 +8686,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30069] = {
 		name = "セイレーン要塞海域",
@@ -15862,15 +8707,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30070] = {
 		name = "セイレーン要塞海域",
@@ -15891,15 +8728,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30071] = {
 		name = "セイレーン要塞海域",
@@ -15920,15 +8749,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[30072] = {
 		name = "セイレーン要塞海域",
@@ -15949,15 +8770,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[89003] = {
 		name = "测试用地图原819",
@@ -15978,15 +8791,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[89004] = {
 		name = "测试用地图原819",
@@ -16007,20 +8812,12 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[89014] = {
 		name = "被破坏的海域",
 		complete_effect = 0,
-		enter_cost = 10,
+		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
 		entrance_ui = 1,
 		id = 89014,
@@ -16036,20 +8833,12 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[89015] = {
 		name = "被破坏的海域",
 		complete_effect = 0,
-		enter_cost = 10,
+		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
 		entrance_ui = 1,
 		id = 89015,
@@ -16065,20 +8854,12 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[89016] = {
 		name = "被破坏的海域",
 		complete_effect = 0,
-		enter_cost = 10,
+		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
 		entrance_ui = 1,
 		id = 89016,
@@ -16094,20 +8875,12 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	[89017] = {
 		name = "被破坏的海域",
 		complete_effect = 0,
-		enter_cost = 10,
+		enter_cost = 0,
 		entrance_mapicon = "daxuanwo",
 		entrance_ui = 1,
 		id = 89017,
@@ -16123,15 +8896,7 @@ pg.world_chapter_random = {
 		open_stage = {
 			0,
 			0
-		},
-		complete_chapter = {},
-		teasure_chapter = {},
-		task_chapter = {},
-		stage_chapter = {},
-		sairen_chapter = {},
-		normal_target = {},
-		cryptic_target = {},
-		target_drop_show = {}
+		}
 	},
 	all = {
 		1,

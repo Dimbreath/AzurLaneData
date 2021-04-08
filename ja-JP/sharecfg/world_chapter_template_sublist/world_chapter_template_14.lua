@@ -6,6 +6,7 @@ function ()
 		is_transfer = 0,
 		name = "破碎的空间Sco-II",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -17,7 +18,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 9108,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -491,12 +492,14 @@ function ()
 				20
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_14[9109] = {
 		is_transfer = 0,
 		name = "破碎的空间Sgr-II",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -508,7 +511,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 9109,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -961,12 +964,14 @@ function ()
 				20
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_14[9110] = {
 		is_transfer = 0,
 		name = "破碎的空间Cap-II",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -978,7 +983,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 9110,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -1438,12 +1443,14 @@ function ()
 				-100
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_14[9111] = {
 		is_transfer = 0,
 		name = "破碎的空间Aqr-II",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -1455,7 +1462,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 9111,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -1929,12 +1936,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_14[9112] = {
 		is_transfer = 0,
 		name = "破碎的空间Psc-II",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -1946,7 +1955,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 9112,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -2427,12 +2436,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_14[9201] = {
 		is_transfer = 0,
 		name = "破碎的空间Ari-III",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -2444,7 +2455,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 9201,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -2918,12 +2929,14 @@ function ()
 				-50
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_14[9202] = {
 		is_transfer = 0,
 		name = "破碎的空间Tau-III",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -2935,7 +2948,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 9202,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -3402,12 +3415,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_14[9203] = {
 		is_transfer = 0,
 		name = "破碎的空间Gem-III",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -3419,7 +3434,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 9203,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -3893,12 +3908,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_14[9204] = {
 		is_transfer = 0,
 		name = "破碎的空间Cnc-III",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -3910,7 +3927,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 9204,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -4370,12 +4387,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_14[9205] = {
 		is_transfer = 0,
 		name = "破碎的空间Leo-III",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -4387,7 +4406,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 9205,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -4854,6 +4873,7 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 end()

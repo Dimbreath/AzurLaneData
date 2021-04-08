@@ -74,19 +74,17 @@ function slot0.execute(slot0, slot1)
 
 			slot7:updatePlayer(slot8)
 
-			slot10 = getProxy(BagProxy)
-
-			for slot14, slot15 in ipairs(slot6) do
-				if slot15.count > 0 then
+			for slot13, slot14 in ipairs(slot6) do
+				if slot14.count > 0 then
 					table.insert(slot9, {
-						type = slot15.type,
-						id = slot15.id,
-						count = slot15.count
+						type = slot14.type,
+						id = slot14.id,
+						count = slot14.count
 					})
 					uv2:sendNotification(GAME.ADD_ITEM, Item.New({
-						type = slot15.type,
-						id = slot15.id,
-						count = slot15.count
+						type = slot14.type,
+						id = slot14.id,
+						count = slot14.count
 					}))
 				end
 			end

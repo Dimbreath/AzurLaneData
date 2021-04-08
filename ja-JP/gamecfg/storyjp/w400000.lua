@@ -37,8 +37,9 @@ return {
 			},
 			options = {
 				{
-					content = "はい",
-					flag = 1
+					flag = 1,
+					autochoice = 1,
+					content = "はい"
 				},
 				{
 					content = "セイレーン座標の説明を確認する",

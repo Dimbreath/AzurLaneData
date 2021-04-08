@@ -1,5 +1,229 @@
 pg = pg or {}
 pg.ship_skin_template_5 = {
+	[201010] = {
+		ship_group = 20101,
+		name = "アマゾン",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "A級実験駆逐艦・アマゾン（D39)",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "nvjiang",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 201010,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "nvjiang",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 4,
+		air_bomb_skin = "",
+		illustrator = 15,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.318,
+					0.719,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.181,
+					0.477,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.318,
+					0.719,
+					0
+				},
+				{
+					0.824,
+					0.507,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.593,
+							0.319,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.527,
+							0.483,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201011] = {
+		ship_group = 20101,
+		name = "リトルオーケストラ",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "パーティーにはオーケストラが欠かせない！ほーれ、ロイヤル駆逐艦たちで編成された、この私がリーダーを務める吹奏楽団が華を添えてやる！では最初に…あわわわ！マントを踏んじゃった！？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "nvjiang_2",
+		air_bullet_skin = "",
+		shop_type_id = 7,
+		hand_id = 5,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "107",
+		skin_type = 0,
+		id = 201011,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "nvjiang_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70102,
+		voice_actor = 4,
+		air_bomb_skin = "",
+		illustrator = 15,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.09,
+					1.11,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.1,
+					1.09,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.32,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[201019] = {
 		ship_group = 20101,
 		name = "アマゾン改",
@@ -7169,265 +7393,6 @@ pg.ship_skin_template_5 = {
 						{
 							-0.39,
 							2.47,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[202032] = {
-		ship_group = 20203,
-		name = "バレンタインのご褒美？",
-		bg_sp = "",
-		group_index = 2,
-		illustrator2 = -1,
-		desc = "と・く・べ・つ・な、チョコを用意してあげましたわ。ふふふ、欲しければここからしっかりと受け取ってみなさ～い",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "ajiakesi_3",
-		air_bullet_skin = "",
-		shop_type_id = 4,
-		hand_id = 1,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "108",
-		skin_type = 5,
-		id = 202032,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "ajiakesi_3",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70502,
-		voice_actor = 34,
-		air_bomb_skin = "",
-		illustrator = 1,
-		rarity_bg = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.173,
-					1.002,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.198,
-					0.995,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.007,
-					-0.014,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.16,
-					1.002,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.39,
-							2.47,
-							0
-						}
-					}
-				}
-			}
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					2,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2031,
-					2,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[202039] = {
-		ship_group = 20203,
-		name = "エイジャックス改",
-		bg_sp = "",
-		group_index = 9,
-		illustrator2 = -1,
-		desc = "今日は機嫌がいいから、特別に私の足を舐めること許してあげます。ほーら、私のご褒美に誠心誠意感謝しなさい♪",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "ajiakesi_g",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 1,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		skin_type = 2,
-		id = 202039,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "ajiakesi_g",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 34,
-		air_bomb_skin = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.98,
-					0.82,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.98,
-					0.82,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.27,
-					0.21,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.98,
-					0.82,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.521,
-							0.29,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.431,
-							0.392,
 							0
 						}
 					}

@@ -136,7 +136,7 @@ function slot0.setSkinPri(slot0, slot1)
 		slot6, slot8, slot7 = ShipWordHelper.GetWordAndCV(slot1, ShipWordHelper.WORD_TYPE_UNLOCK)
 	end
 
-	setWidgetText(slot0._dialogue, slot7, "desc/Text")
+	setWidgetText(slot0._dialogue, SwitchSpecialChar(slot7, true), "desc/Text")
 
 	slot0._dialogue.transform.localScale = Vector3(0, 1, 1)
 

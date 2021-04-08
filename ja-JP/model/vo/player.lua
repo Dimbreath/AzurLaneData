@@ -117,6 +117,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.commanderBagMax = slot1.commander_bag_max
 	slot0.displayTrophyList = slot1.medal_id or {}
 	slot0.banBackyardUploadTime = slot1.theme_upload_not_allowed_time or 0
+	slot0.identityFlag = slot1.gm_flag
 
 	if slot1.appreciation then
 		for slot7, slot8 in ipairs(slot1.appreciation.gallerys or {}) do
@@ -567,6 +568,14 @@ end
 
 function slot0.GetBanUploadBackYardThemeTemplateTime(slot0)
 	return pg.TimeMgr.GetInstance():STimeDescC(slot0.banBackyardUploadTime or 0)
+end
+
+function slot0.CheckIdentityFlag(slot0)
+	return slot0.identityFlag == 1
+end
+
+function slot0.GetRegisterTime(slot0)
+	return slot0.registerTime
 end
 
 return slot0

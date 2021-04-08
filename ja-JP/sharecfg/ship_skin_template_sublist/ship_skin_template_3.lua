@@ -2749,6 +2749,110 @@ pg.ship_skin_template_3 = {
 			}
 		}
 	},
+	[103082] = {
+		ship_group = 10308,
+		name = "黒うさかーにばる！",
+		bg_sp = "1102",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "ちわーす！指揮官、準備はいい？今日はカーニバルの日よ～飲み物は飲み放題だから、思いっきり楽しんでね！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "asituoliya_2",
+		air_bullet_skin = "",
+		shop_type_id = 9999,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "104",
+		skin_type = 0,
+		id = 103082,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "asituoliya_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70527,
+		voice_actor = 143,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.15,
+					0.83,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.15,
+					0.84,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.33,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[103090] = {
 		ship_group = 10309,
 		name = "クインシー",
@@ -7088,114 +7192,6 @@ pg.ship_skin_template_3 = {
 						{
 							-0.522,
 							2.16,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[106010] = {
-		ship_group = 10601,
-		name = "ロング・アイランド",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "ロングアイランド級護衛空母・ロングアイランド（CVE-1)",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "changdao",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 13,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		skin_type = -1,
-		id = 106010,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "changdao",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 45,
-		air_bomb_skin = "",
-		illustrator = 13,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.59,
-					0.597,
-					0
-				}
-			},
-			plane = {
-				{
-					0.59,
-					0.597,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.509,
-							0.442,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.416,
-							0.493,
 							0
 						}
 					}

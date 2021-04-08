@@ -6,6 +6,7 @@ function ()
 		is_transfer = 0,
 		name = "虫洞空间3_1二层",
 		port_name = "",
+		version = 0,
 		bgm = "story-6",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -17,7 +18,7 @@ function ()
 		expedition_map_id = 100046,
 		expedition_level = 110,
 		id = 8410,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -934,12 +935,14 @@ function ()
 				6,
 				4
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_11[8430] = {
 		is_transfer = 0,
 		name = "虫洞空间3_2一层",
 		port_name = "",
+		version = 0,
 		bgm = "story-6",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -951,7 +954,7 @@ function ()
 		expedition_map_id = 100046,
 		expedition_level = 110,
 		id = 8430,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -1842,12 +1845,14 @@ function ()
 				3,
 				2
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_11[8440] = {
 		is_transfer = 0,
 		name = "虫洞空间3_2二层",
 		port_name = "",
+		version = 0,
 		bgm = "story-6",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -1859,7 +1864,7 @@ function ()
 		expedition_map_id = 100046,
 		expedition_level = 110,
 		id = 8440,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -2784,12 +2789,14 @@ function ()
 				6,
 				4
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_11[8460] = {
 		is_transfer = 0,
 		name = "虫洞空间3_3一层",
 		port_name = "",
+		version = 0,
 		bgm = "story-6",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -2801,7 +2808,7 @@ function ()
 		expedition_map_id = 100046,
 		expedition_level = 110,
 		id = 8460,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -3648,12 +3655,14 @@ function ()
 				6,
 				4
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_11[8470] = {
 		is_transfer = 0,
 		name = "虫洞空间3_3二层",
 		port_name = "",
+		version = 0,
 		bgm = "story-6",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -3665,7 +3674,7 @@ function ()
 		expedition_map_id = 100046,
 		expedition_level = 110,
 		id = 8470,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -4512,12 +4521,14 @@ function ()
 				6,
 				4
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_11[8490] = {
 		is_transfer = 0,
 		name = "虫洞空间3_4一层",
 		port_name = "",
+		version = 0,
 		bgm = "story-6",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -4529,7 +4540,7 @@ function ()
 		expedition_map_id = 100046,
 		expedition_level = 110,
 		id = 8490,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -5376,12 +5387,14 @@ function ()
 				6,
 				4
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_11[8500] = {
 		is_transfer = 0,
 		name = "虫洞空间3_4二层",
 		port_name = "",
+		version = 0,
 		bgm = "story-6",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -5393,7 +5406,7 @@ function ()
 		expedition_map_id = 100046,
 		expedition_level = 110,
 		id = 8500,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -6282,12 +6295,14 @@ function ()
 				6,
 				4
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_11[8600] = {
 		is_transfer = 0,
 		name = "虫洞空间4_1",
 		port_name = "",
+		version = 0,
 		bgm = "story-6",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -6299,7 +6314,7 @@ function ()
 		expedition_map_id = 50000,
 		expedition_level = 120,
 		id = 8600,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -7374,12 +7389,14 @@ function ()
 				-1,
 				4
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_11[8630] = {
 		is_transfer = 0,
 		name = "虫洞空间4_2",
 		port_name = "",
+		version = 0,
 		bgm = "story-6",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -7391,7 +7408,7 @@ function ()
 		expedition_map_id = 50000,
 		expedition_level = 120,
 		id = 8630,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -9249,12 +9266,14 @@ function ()
 				4,
 				2
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_11[8660] = {
 		is_transfer = 0,
 		name = "虫洞空间4_3",
 		port_name = "",
+		version = 0,
 		bgm = "story-6",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -9266,7 +9285,7 @@ function ()
 		expedition_map_id = 50000,
 		expedition_level = 120,
 		id = 8660,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -10588,6 +10607,7 @@ function ()
 				-1,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 end()

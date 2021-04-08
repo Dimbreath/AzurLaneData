@@ -12,6 +12,7 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
+	slot0:updateRedTag()
 	slot0:updateShipImg()
 	slot0:updateNamePanel()
 	slot0:updateChar()
@@ -171,6 +172,10 @@ function slot0.addListener(slot0)
 			})
 		end
 	end, SFX_PANEL)
+end
+
+function slot0.updateRedTag(slot0)
+	slot0.metaCharacterProxy:updateRedTag(slot0.curMetaCharacterVO.id)
 end
 
 function slot0.updateShipImg(slot0)

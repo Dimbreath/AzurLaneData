@@ -107,10 +107,8 @@ function slot0.Preload(slot0)
 			end
 		end
 
-		for slot10, slot11 in pairs(pg.aircraft_template) do
-			if type(slot10) == "number" then
-				slot1:AddPreloadResource(slot1.GetAircraftResource(slot10, {}))
-			end
+		for slot11, slot12 in pairs(pg.aircraft_template.indexs) do
+			slot1:AddPreloadResource(slot1.GetAircraftResource(slot11, {}))
 		end
 	else
 		slot3 = {}
@@ -248,7 +246,9 @@ function slot0.Preload(slot0)
 				uv0.addChapterBuffRes(slot16)
 			end
 
-			uv0.addChapterBuffRes(slot6:GetCell(slot7.row, slot7.column):GetStageEnemy():GetBattleBuffList())
+			slot15 = slot6:GetCell(slot7.row, slot7.column):GetStageEnemy()
+
+			uv0.addChapterBuffRes(table.mergeArray(slot15:GetBattleLuaBuffs(), slot6:GetBattleLuaBuffs(WorldMap.FactionEnemy, slot15)))
 		elseif slot0.contextData.mainFleetId then
 			for slot11, slot12 in ipairs(slot2:getShipsByFleet(getProxy(FleetProxy):getFleetById(slot0.contextData.mainFleetId))) do
 				table.insert(slot3, slot12)

@@ -21,8 +21,9 @@ return {
 			},
 			options = {
 				{
-					content = "戦闘に備えよう",
-					flag = 1
+					flag = 1,
+					autochoice = 1,
+					content = "戦闘に備えよう"
 				}
 			}
 		}

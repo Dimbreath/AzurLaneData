@@ -13,12 +13,16 @@ function slot0.Dispose(slot0)
 	slot0:Clear()
 end
 
-function slot0.GetBuffByTrap(slot0, slot1)
-	for slot5, slot6 in pairs(slot0.buffs) do
-		if slot6:GetFloor() > 0 and slot6:GetTrapType() == slot1 then
-			return slot6
+function slot0.GetBuffsByTrap(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot0.buffs) do
+		if slot7:GetFloor() > 0 and slot7:GetTrapType() == slot1 then
+			table.insert(slot2, slot7)
 		end
 	end
+
+	return slot2
 end
 
 return slot0

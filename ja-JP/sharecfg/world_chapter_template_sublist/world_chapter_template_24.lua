@@ -6,6 +6,7 @@ function ()
 		is_transfer = 1,
 		name = "卡利比安海C",
 		port_name = "商船",
+		version = 0,
 		bgm = "hunhe-level",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -17,7 +18,7 @@ function ()
 		expedition_map_id = 100044,
 		expedition_level = 100,
 		id = 1013002,
-		version = 0,
+		is_auto = 1,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -1347,12 +1348,14 @@ function ()
 			}
 		},
 		float_items = {},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_24[1014002] = {
 		is_transfer = 1,
 		name = "卡利比安海D",
 		port_name = "商船",
+		version = 0,
 		bgm = "hunhe-level",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -1364,7 +1367,7 @@ function ()
 		expedition_map_id = 100044,
 		expedition_level = 90,
 		id = 1014002,
-		version = 0,
+		is_auto = 1,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -2414,12 +2417,14 @@ function ()
 			}
 		},
 		float_items = {},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_24[1021002] = {
 		is_transfer = 1,
 		name = "NA海域西南A",
 		port_name = "商船",
+		version = 0,
 		bgm = "blueocean-image",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -2431,7 +2436,7 @@ function ()
 		expedition_map_id = 100042,
 		expedition_level = 70,
 		id = 1021002,
-		version = 0,
+		is_auto = 1,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -2961,12 +2966,14 @@ function ()
 			}
 		},
 		float_items = {},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_24[1022002] = {
 		is_transfer = 1,
 		name = "NA海域西南B",
 		port_name = "商船",
+		version = 0,
 		bgm = "blueocean-image",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -2978,7 +2985,7 @@ function ()
 		expedition_map_id = 100042,
 		expedition_level = 60,
 		id = 1022002,
-		version = 0,
+		is_auto = 1,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -3528,12 +3535,14 @@ function ()
 			}
 		},
 		float_items = {},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_24[1023002] = {
 		is_transfer = 1,
 		name = "NA海域西南C",
 		port_name = "商船",
+		version = 0,
 		bgm = "blueocean-image",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -3545,7 +3554,7 @@ function ()
 		expedition_map_id = 100042,
 		expedition_level = 70,
 		id = 1023002,
-		version = 0,
+		is_auto = 1,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -4075,12 +4084,14 @@ function ()
 			}
 		},
 		float_items = {},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_24[1024002] = {
 		is_transfer = 1,
 		name = "NA海域西南D",
 		port_name = "商船",
+		version = 0,
 		bgm = "blueocean-image",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -4092,7 +4103,7 @@ function ()
 		expedition_map_id = 100044,
 		expedition_level = 70,
 		id = 1024002,
-		version = 0,
+		is_auto = 1,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -4642,12 +4653,14 @@ function ()
 			}
 		},
 		float_items = {},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_24[1025002] = {
 		is_transfer = 1,
 		name = "NA海域西南E",
 		port_name = "商船",
+		version = 0,
 		bgm = "blueocean-image",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -4659,7 +4672,7 @@ function ()
 		expedition_map_id = 100042,
 		expedition_level = 80,
 		id = 1025002,
-		version = 0,
+		is_auto = 1,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -5439,12 +5452,14 @@ function ()
 			}
 		},
 		float_items = {},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_24[1031002] = {
 		is_transfer = 1,
 		name = "西南洋脊A",
 		port_name = "商船",
+		version = 0,
 		bgm = "xinnong-3",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -5456,7 +5471,7 @@ function ()
 		expedition_map_id = 100042,
 		expedition_level = 70,
 		id = 1031002,
-		version = 0,
+		is_auto = 1,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -5986,12 +6001,14 @@ function ()
 			}
 		},
 		float_items = {},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_24[1032002] = {
 		is_transfer = 1,
 		name = "西南洋脊B",
 		port_name = "商船",
+		version = 0,
 		bgm = "xinnong-3",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -6003,7 +6020,7 @@ function ()
 		expedition_map_id = 100042,
 		expedition_level = 80,
 		id = 1032002,
-		version = 0,
+		is_auto = 1,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -6753,12 +6770,14 @@ function ()
 			}
 		},
 		float_items = {},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_24[1033002] = {
 		is_transfer = 1,
 		name = "西南洋脊C",
 		port_name = "商船",
+		version = 0,
 		bgm = "xinnong-3",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -6770,7 +6789,7 @@ function ()
 		expedition_map_id = 100044,
 		expedition_level = 80,
 		id = 1033002,
-		version = 0,
+		is_auto = 1,
 		is_sairen = 0,
 		map_bg = {},
 		port_id = {
@@ -7520,6 +7539,7 @@ function ()
 			}
 		},
 		float_items = {},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 end()

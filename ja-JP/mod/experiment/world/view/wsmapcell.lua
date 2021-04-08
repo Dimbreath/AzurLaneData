@@ -114,12 +114,17 @@ end
 
 function slot0.Update(slot0, slot1)
 	slot2 = slot0.cell
-	slot3 = slot0.map.centerCellFOV
-	slot5 = math.sqrt(math.pow(slot3.row - slot2.row, 2) + math.pow(slot3.column - slot2.column, 2)) * 0.1
-	slot6 = 0.2
+	slot4 = 0
+	slot5 = 0
+	slot6 = 0
+
+	if slot0.map.centerCellFOV then
+		slot5 = math.sqrt(math.pow(slot3.row - slot2.row, 2) + math.pow(slot3.column - slot2.column, 2)) * 0.1
+		slot6 = 0.2
+	end
 
 	if slot1 == nil or slot1 == WorldMapCell.EventUpdateInFov or slot1 == WorldMapCell.EventUpdateFog then
-		setActive(slot0.rtAttachments, slot2:GetInFOV() and not slot2.fog)
+		setActive(slot0.rtAttachments, slot2:GetInFOV() and not slot2:InFog())
 	end
 
 	if slot1 == nil or slot1 == WorldMapCell.EventUpdateFog then
@@ -135,7 +140,7 @@ function slot0.Update(slot0, slot1)
 			slot0.fogUid = nil
 		end
 
-		if slot2.fog then
+		if slot2:InFog() then
 			setActive(slot0.rtFog, true)
 
 			if slot1 and slot5 > 0 then
@@ -210,10 +215,10 @@ function slot0.Update(slot0, slot1)
 end
 
 function slot0.UpdateFogImage(slot0)
-	slot1 = slot0.cell
+	slot2 = slot0.cell:LookSairenFog()
 
-	setActive(slot0.rtFog:Find("dark_fog"), not slot1.isSairenFog)
-	setActive(slot0.rtFog:Find("sairen_fog"), slot1.isSairenFog)
+	setActive(slot0.rtFog:Find("dark_fog"), not slot2)
+	setActive(slot0.rtFog:Find("sairen_fog"), slot2)
 end
 
 function slot0.GetWorldPos(slot0)

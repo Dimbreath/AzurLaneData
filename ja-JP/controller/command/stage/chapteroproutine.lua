@@ -13,12 +13,7 @@ function slot0.initData(slot0, slot1, slot2, slot3)
 end
 
 function slot0.doDropUpdate(slot0)
-	for slot6, slot7 in ipairs(slot0.data.drop_list) do
-		slot8 = Item.New(slot7)
-
-		table.insert(slot0.items, slot8)
-		slot0:sendNotification(GAME.ADD_ITEM, slot8)
-	end
+	slot0.items = PlayerConst.addTranDrop(slot0.data.drop_list)
 end
 
 function slot0.doMapUpdate(slot0)

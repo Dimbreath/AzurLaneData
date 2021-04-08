@@ -702,19 +702,18 @@ function slot0.PlayActionAccordingFurniture(slot0, slot1, slot2)
 			if slot1 then
 				if slot2 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_ALL then
 					uv3()
-				elseif slot2 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_LAST_ONE and uv2:HasFollower() then
-					uv4:endSpineAnimator(uv2)
-					uv4:setSpineAnimtorParent(uv2)
+				elseif slot2 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_LAST_ONE then
+					-- Nothing
 				end
 			elseif uv2:hasTailAction() then
-				if uv5 ~= uv2:getTailAction() then
-					uv4:playTailActions(slot3)
+				if uv4 ~= uv2:getTailAction() then
+					uv5:playTailActions(slot3)
 				end
 			else
-				uv4:clearSpine()
-				uv4:updateShadowTF(true)
-				uv4:updateShadowPos()
-				uv4.viewComponent:emit(BackyardMainMediator.RESET_BOAT_POS, uv4.boatVO.id)
+				uv5:clearSpine()
+				uv5:updateShadowTF(true)
+				uv5:updateShadowPos()
+				uv5.viewComponent:emit(BackyardMainMediator.RESET_BOAT_POS, uv5.boatVO.id)
 			end
 		else
 			if type(uv0[slot0][1]) == "table" then
@@ -723,21 +722,21 @@ function slot0.PlayActionAccordingFurniture(slot0, slot1, slot2)
 
 			uv1:SetAction(slot1, 0)
 
-			if uv4.roles[1] then
-				uv4.roles[1]:SetAction(slot1, 0)
+			if uv5.roles[1] then
+				uv5.roles[1]:SetAction(slot1, 0)
 			end
 
-			if uv4.roles[3] then
-				uv4.roles[3]:SetAction(slot1, 0)
+			if uv5.roles[3] then
+				uv5.roles[3]:SetAction(slot1, 0)
 			end
 
-			if uv4.bodyMask then
-				uv4.bodyMask:GetComponent(typeof(Image)).enabled = not uv0[slot0][2]
+			if uv5.bodyMask then
+				uv5.bodyMask:GetComponent(typeof(Image)).enabled = not uv0[slot0][2]
 			end
 
-			uv5 = slot1
+			uv4 = slot1
 
-			uv4:callActionCB("update", slot1)
+			uv5:callActionCB("update", slot1)
 		end
 	end
 
@@ -834,9 +833,8 @@ function slot0.PlayActionTogether(slot0, slot1, slot2)
 
 				if slot2 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_ALL then
 					uv3()
-				elseif slot2 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_LAST_ONE and uv0:HasFollower() then
-					uv1:endSpineAnimator(uv0)
-					uv1:setSpineAnimtorParent(uv0)
+				elseif slot2 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_LAST_ONE then
+					-- Nothing
 				end
 			elseif uv0:hasTailAction() then
 				if uv4 ~= uv0:getTailAction() then

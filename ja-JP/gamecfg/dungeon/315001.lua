@@ -1,5 +1,5 @@
 return {
-	id = 314201,
+	id = 315001,
 	map_id = 10001,
 	bgm = "story-6",
 	stages = {
@@ -63,106 +63,211 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 295000,
+							monsterTemplateID = 296000,
+							moveCast = true,
 							score = 0,
 							delay = 0,
-							moveCast = true,
+							affix = true,
 							corrdinate = {
-								0,
+								-5,
 								0,
 								55
 							},
 							bossData = {
-								hpBarNum = 100,
-								icon = "huangjiafangzhou"
-							},
-							buffList = {
-								8050,
-								8051
+								hpBarNum = 50,
+								icon = "zhumo"
 							},
 							phase = {
 								{
-									switchType = 1,
 									switchParam = 12,
 									switchTo = 1,
 									index = 0,
+									switchType = 1,
 									setAI = 10001,
 									addWeapon = {
-										2030120,
-										2030020
-									},
-									addRandomWeapon = {
-										{
-											2030000
-										},
-										{
-											2030001
-										}
+										2013300
 									}
 								},
 								{
-									switchType = 2,
-									switchTo = 2,
 									index = 1,
-									switchParam = 0.5,
-									story = "WNN209"
-								},
-								{
-									switchParam = 7,
-									index = 2,
-									switchType = 1,
-									switchTo = 3,
-									story = "WNN209A",
 									removeWeapon = {
-										2030120,
-										2030020
-									},
-									removeRandomWeapon = {
-										2030000,
-										2030001
+										2013300,
+										2013302,
+										2013360,
+										2013520,
+										2013525
 									},
 									addWeapon = {
-										2030200
+										2013320
+									},
+									switchType = {
+										1,
+										2
+									},
+									switchParam = {
+										3,
+										0.5
+									},
+									switchTo = {
+										2,
+										6
+									}
+								},
+								{
+									index = 2,
+									removeWeapon = {
+										2013320
+									},
+									addWeapon = {
+										2013350,
+										2013500,
+										2013505
+									},
+									switchType = {
+										1,
+										2
+									},
+									switchParam = {
+										12,
+										0.5
+									},
+									switchTo = {
+										3,
+										6
+									}
+								},
+								{
+									index = 3,
+									removeWeapon = {
+										2013350,
+										2013500,
+										2013505
+									},
+									addWeapon = {
+										2013340,
+										2013510,
+										2013515
+									},
+									switchType = {
+										1,
+										2
+									},
+									switchParam = {
+										12,
+										0.5
+									},
+									switchTo = {
+										4,
+										6
+									}
+								},
+								{
+									index = 4,
+									removeWeapon = {
+										2013340,
+										2013510,
+										2013515
+									},
+									addWeapon = {
+										2013321
+									},
+									switchType = {
+										1,
+										2
+									},
+									switchParam = {
+										3,
+										0.5
+									},
+									switchTo = {
+										5,
+										6
+									}
+								},
+								{
+									index = 5,
+									removeWeapon = {
+										2013321
+									},
+									addWeapon = {
+										2013360,
+										2013520,
+										2013525
+									},
+									switchType = {
+										1,
+										2
+									},
+									switchParam = {
+										22,
+										0.5
+									},
+									switchTo = {
+										1,
+										6
 									}
 								},
 								{
 									switchType = 1,
-									switchParam = 900,
-									index = 3,
-									switchTo = 0,
+									switchTo = 7,
+									index = 6,
+									switchParam = 2,
 									removeWeapon = {
-										2030200
+										2013300,
+										2013320,
+										2013321,
+										2013340,
+										2013350,
+										2013360,
+										2013500,
+										2013505,
+										2013510,
+										2013515,
+										2013520,
+										2013525
+									}
+								},
+								{
+									switchType = 1,
+									switchTo = 8,
+									index = 7,
+									switchParam = 5,
+									addBuff = {
+										79012
+									}
+								},
+								{
+									switchParam = 16,
+									switchTo = 9,
+									index = 8,
+									switchType = 1,
+									removeWeapon = {
+										2013360,
+										2013540,
+										2013545
 									},
 									addWeapon = {
-										2030300,
-										2030320,
-										2030340,
-										2030330,
-										2030335
+										2013330,
+										2013530,
+										2013535
+									}
+								},
+								{
+									switchParam = 16,
+									switchTo = 8,
+									index = 9,
+									switchType = 1,
+									removeWeapon = {
+										2013330,
+										2013530,
+										2013535
 									},
-									removeBuff = {
-										8045,
-										8046
+									addWeapon = {
+										2013370,
+										2013540,
+										2013545
 									}
 								}
-							}
-						}
-					},
-					airFighter = {
-						{
-							interval = 12,
-							onceNumber = 10,
-							formation = 20001,
-							templateID = 2030030,
-							delay = 0,
-							totalNumber = 60,
-							weaponID = {
-								1100759
-							},
-							attr = {
-								airPower = 40,
-								maxHP = 15,
-								attackRating = 23
 							}
 						}
 					}

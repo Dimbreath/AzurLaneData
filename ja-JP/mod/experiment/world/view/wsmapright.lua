@@ -1,8 +1,8 @@
 slot0 = class("WSMapRight", import("...BaseEntity"))
 slot0.Fields = {
 	map = "table",
-	btnInventory = "userdata",
 	btnPort = "userdata",
+	btnInventory = "userdata",
 	btnHelp = "userdata",
 	rtTipWord = "userdata",
 	btnDetail = "userdata",
@@ -11,20 +11,20 @@ slot0.Fields = {
 	toggleSkipPrecombat = "userdata",
 	world = "table",
 	btnInformation = "userdata",
-	onOpenOrder = "function",
+	toggleAutoFight = "userdata",
 	gid = "number",
 	entrance = "table",
+	btnTransport = "userdata",
 	fleet = "table",
 	taskProxy = "table",
-	wsPool = "table",
 	btnDefeat = "userdata",
 	btnExit = "userdata",
 	transform = "userdata",
 	wsCompass = "table",
 	btnOrder = "userdata",
+	wsPool = "table",
 	rtCompassPanel = "userdata",
-	wsTimer = "table",
-	onOpenScanner = "function"
+	wsTimer = "table"
 }
 slot0.Listeners = {
 	onUpdateFleetBuff = "OnUpdateFleetBuff",
@@ -62,18 +62,7 @@ function slot0.Init(slot0)
 	slot0.btnOrder = slot0.rtCompassPanel:Find("btn_order")
 	slot0.btnScan = slot0.rtCompassPanel:Find("btn_scan")
 	slot0.btnDefeat = slot0.rtCompassPanel:Find("btn_defeat")
-
-	onButton(slot0, slot0.btnOrder, function ()
-		if uv0.onOpenOrder then
-			uv0.onOpenOrder()
-		end
-	end, SFX_PANEL)
-	onButton(slot0, slot0.btnScan, function ()
-		if uv0.onOpenScanner then
-			uv0.onOpenScanner()
-		end
-	end, SFX_PANEL)
-
+	slot0.btnDetail = slot0.rtCompassPanel:Find("btn_detail")
 	slot0.toggleSkipPrecombat = slot1:Find("btn_list/lock_fleet")
 
 	onToggle(slot0, slot0.toggleSkipPrecombat, function (slot0)
@@ -81,9 +70,10 @@ function slot0.Init(slot0)
 	end, SFX_PANEL)
 	triggerToggle(slot0.toggleSkipPrecombat, PlayerPrefs.GetInt("world_skip_precombat", 0) == 1)
 
+	slot0.toggleAutoFight = slot1:Find("btn_list/auto_fight")
 	slot0.btnInventory = slot1:Find("btn_list/dock/inventory_button")
 	slot0.btnInformation = slot1:Find("btn_list/dock/information_button")
-	slot0.btnDetail = slot1:Find("btn_list/dock/detail_button")
+	slot0.btnTransport = slot1:Find("btn_list/dock/transport_button")
 	slot0.btnHelp = slot1:Find("btn_list/dock/help_button")
 	slot0.btnPort = slot1:Find("btn_list/dock/port_button")
 
@@ -175,7 +165,7 @@ function slot0.OnUpdateFleetLocation(slot0)
 end
 
 function slot0.OnUpdateFleetBuff(slot0)
-	setActive(slot0.wsCompass.tf, not slot0.fleet:GetBuffByTrap(WorldBuff.TrapCompassInterference))
+	setActive(slot0.wsCompass.tf, #slot0.fleet:GetBuffsByTrap(WorldBuff.TrapCompassInterference) == 0)
 end
 
 function slot0.OnUpdateFleetDefeat(slot0)

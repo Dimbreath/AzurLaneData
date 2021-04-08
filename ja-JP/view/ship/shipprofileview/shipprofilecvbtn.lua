@@ -48,6 +48,12 @@ function slot0.Init(slot0, slot1, slot2, slot3, slot4)
 		end
 	end
 
+	slot0.l2dEventFlag = slot11 == -1
+
+	if slot0.l2dEventFlag then
+		slot11 = 0
+	end
+
 	slot0.wordData = {
 		maxfavor = 0,
 		cvKey = slot7,
@@ -89,6 +95,10 @@ end
 
 function slot0.UpdateIcon(slot0)
 	setActive(slot0.playIcon, slot0.voice.key == "unlock" and PathMgr.FileExists(PathMgr.getAssetBundle("ui/star_level_unlock_anim_" .. slot0.skin.id)))
+end
+
+function slot0.L2dHasEvent(slot0)
+	return slot0.l2dEventFlag
 end
 
 function slot0.Destroy(slot0)

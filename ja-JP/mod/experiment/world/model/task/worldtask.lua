@@ -140,11 +140,15 @@ function slot0.IsAutoSubmit(slot0)
 end
 
 function slot0.canTrigger(slot0)
-	if nowWorld:GetLevel() < WorldTask.New({
+	slot1 = WorldTask.New({
 		id = slot0
-	}).config.need_level then
+	})
+
+	if nowWorld:GetTaskProxy():getTaskById(slot0) then
+		return false, i18n("world_sametask_tip")
+	elseif nowWorld:GetLevel() < slot1.config.need_level then
 		return false, i18n1("舰队总等级需达到（缺gametip）" .. slot1.config.need_level)
-	elseif slot2:GetTaskProxy().taskFinishCount < slot1.config.need_task_complete then
+	elseif slot2.taskFinishCount < slot1.config.need_task_complete then
 		return false, i18n1("任务完成数需达到（缺gametip）" .. slot1.config.need_task_complete)
 	end
 

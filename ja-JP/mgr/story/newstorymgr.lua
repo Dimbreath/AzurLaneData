@@ -80,6 +80,32 @@ function slot0.SetData(slot0, slot1)
 
 		slot0.playedList[slot7] = true
 	end
+
+	if getProxy(PlayerProxy):getRawData():GetRegisterTime() <= pg.TimeMgr.GetInstance():parseTimeFromConfig({
+		{
+			2021,
+			4,
+			8
+		},
+		{
+			9,
+			0,
+			0
+		}
+	}) then
+		_.each({
+			10020,
+			10021,
+			10022,
+			10023,
+			10024,
+			10025,
+			10026,
+			10027
+		}, function (slot0)
+			uv0.playedList[slot0] = true
+		end)
+	end
 end
 
 function slot0.SetPlayedFlag(slot0, slot1)
@@ -199,9 +225,9 @@ end
 
 function slot0.AutoPlay(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.optionSelCodes = slot2 or {}
+	slot0.autoPlayFlag = true
 
 	slot0:Play(slot1, slot3, slot4, slot5)
-	triggerButton(slot0.autoBtn)
 end
 
 function slot0.SeriesPlay(slot0, slot1, slot2, slot3, slot4)
@@ -275,34 +301,7 @@ function slot0.CheckState(slot0)
 	return true
 end
 
-function slot0.OnStart(slot0)
-	removeOnButton(slot0._go)
-	removeOnButton(slot0.skinBtn)
-	removeOnButton(slot0.autoBtn)
-
-	slot0.state = uv0
-
-	pg.m02:sendNotification(GAME.STORY_BEGIN, slot0.storyScript:GetName())
-
-	slot4 = {
-		storyId = slot5
-	}
-	slot5 = slot0.storyScript:GetName()
-
-	pg.m02:sendNotification(GAME.STORY_UPDATE, slot4)
-	pg.DelegateInfo.New(slot0)
-
-	for slot4, slot5 in ipairs(slot0.players) do
-		slot5:StoryStart(slot0.storyScript)
-	end
-
-	setActive(slot0._go, true)
-	slot0._tf:SetAsLastSibling()
-	setActive(slot0.skinBtn, not slot0.storyScript:ShouldHideSkip())
-	setActive(slot0.autoBtn:Find("sel"), false)
-	setActive(slot0.autoBtn:Find("unsel"), true)
-	setActive(slot0.autoBtn, true)
-
+function slot0.RegistSkinBtn(slot0)
 	function slot1()
 		uv0.storyScript:SkipAll()
 		uv0.currPlayer:NextImmediately()
@@ -332,6 +331,9 @@ function slot0.OnStart(slot0)
 			weight = LayerWeightConst.TOP_LAYER
 		})
 	end, SFX_PANEL)
+end
+
+function slot0.RegistAutoBtn(slot0)
 	onButton(slot0, slot0.autoBtn, function ()
 		if uv0.storyScript:GetAutoPlayFlag() then
 			uv0.storyScript:StopAutoPlay()
@@ -344,6 +346,44 @@ function slot0.OnStart(slot0)
 			uv0:UpdateAutoBtn()
 		end
 	end, SFX_PANEL)
+
+	if slot0:IsAutoPlay() then
+		slot0.storyScript:SetAutoPlay()
+		slot0:UpdateAutoBtn()
+
+		slot0.autoPlayFlag = false
+	end
+end
+
+function slot0.OnStart(slot0)
+	removeOnButton(slot0._go)
+	removeOnButton(slot0.skinBtn)
+	removeOnButton(slot0.autoBtn)
+
+	slot0.state = uv0
+
+	pg.m02:sendNotification(GAME.STORY_BEGIN, slot0.storyScript:GetName())
+
+	slot4 = {
+		storyId = slot5
+	}
+	slot5 = slot0.storyScript:GetName()
+
+	pg.m02:sendNotification(GAME.STORY_UPDATE, slot4)
+	pg.DelegateInfo.New(slot0)
+
+	for slot4, slot5 in ipairs(slot0.players) do
+		slot5:StoryStart(slot0.storyScript)
+	end
+
+	setActive(slot0._go, true)
+	slot0._tf:SetAsLastSibling()
+	setActive(slot0.skinBtn, not slot0.storyScript:ShouldHideSkip())
+	setActive(slot0.autoBtn:Find("sel"), false)
+	setActive(slot0.autoBtn:Find("unsel"), true)
+	setActive(slot0.autoBtn, true)
+	slot0:RegistSkinBtn()
+	slot0:RegistAutoBtn()
 end
 
 function slot0.UpdateAutoBtn(slot0)
@@ -354,6 +394,8 @@ function slot0.UpdateAutoBtn(slot0)
 end
 
 function slot0.Clear(slot0)
+	slot0.autoPlayFlag = false
+
 	removeOnButton(slot0._go)
 	removeOnButton(slot0.skinBtn)
 
@@ -420,6 +462,10 @@ end
 
 function slot0.IsRunning(slot0)
 	return slot0.state == uv0
+end
+
+function slot0.IsAutoPlay(slot0)
+	return getProxy(SettingsProxy):GetStoryAutoPlayFlag() or slot0.autoPlayFlag == true
 end
 
 function slot0.Quit(slot0)

@@ -11,6 +11,7 @@ slot0.Fields = {
 	isFetched = "boolean",
 	pt = "number",
 	ranks = "table",
+	unlockTip = "boolean",
 	cacheBosses = "table",
 	fleet = "table",
 	timers = "table"
@@ -365,6 +366,10 @@ function slot0.NeedTip(slot0)
 end
 
 function slot0.UpdatedUnlockProgress(slot0)
+	if slot0:CanUnlock() then
+		slot0.unlockTip = true
+	end
+
 	slot0:DispatchEvent(uv0.EventUnlockProgressUpdated)
 end
 

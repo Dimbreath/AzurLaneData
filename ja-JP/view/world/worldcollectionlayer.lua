@@ -12,10 +12,10 @@ function slot0.init(slot0)
 	slot0.top = slot0._tf:Find("top")
 	slot0.backBtn = slot0.top:Find("back_btn")
 	slot0.rtMain = slot0._tf:Find("main")
-	slot0.achMapList = slot0.rtMain:Find("list_bg/map_list/content")
-	slot0.mapItemList = UIItemList.New(slot0.achMapList, slot0.achMapList:Find("item"))
+	slot0.entranceContainer = slot0.rtMain:Find("list_bg/map_list/content")
+	slot0.entranceItemList = UIItemList.New(slot0.entranceContainer, slot0.entranceContainer:Find("item"))
 
-	slot0.mapItemList:make(function (slot0, slot1, slot2)
+	slot0.entranceItemList:make(function (slot0, slot1, slot2)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
@@ -25,10 +25,10 @@ function slot0.init(slot0)
 			setText(slot2:Find("icon/deco_id"), slot3.config.serial_number)
 			setText(slot2:Find("icon/name"), slot3:GetBaseMap():GetName())
 
-			slot5 = slot2:Find("icon")
+			slot4 = slot2:Find("icon")
 
-			setAnchoredPosition(slot5, {
-				y = (1 - slot1 % 2 * 2) * slot5.anchoredPosition.y
+			setAnchoredPosition(slot4, {
+				y = (1 - slot1 % 2 * 2) * slot4.anchoredPosition.y
 			})
 			onToggle(uv0, slot2, function (slot0)
 				if slot0 then
@@ -44,20 +44,20 @@ function slot0.init(slot0)
 			end
 		end
 	end)
-	slot0.achMapList:GetComponent(typeof(ScrollRect)).onValueChanged:AddListener(function (slot0)
+	slot0.entranceContainer:GetComponent(typeof(ScrollRect)).onValueChanged:AddListener(function (slot0)
 		uv0:UpdateJumpBtn()
 	end)
 
-	slot0.achMapPanel = slot0.rtMain:Find("map")
-	slot0.achMapTitle = slot0.achMapPanel:Find("target_rect/title")
-	slot0.achMapTargetList = slot0.achMapPanel:Find("target_rect/target_list/content")
-	slot0.targetItemList = UIItemList.New(slot0.achMapTargetList, slot0.achMapTargetList:Find("item"))
+	slot0.entrancePanel = slot0.rtMain:Find("map")
+	slot0.entranceTitle = slot0.entrancePanel:Find("target_rect/title")
+	slot0.targetContainer = slot0.entrancePanel:Find("target_rect/target_list/content")
+	slot0.targetItemList = UIItemList.New(slot0.targetContainer, slot0.targetContainer:Find("item"))
 
 	slot0.targetItemList:make(function (slot0, slot1, slot2)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
-			slot4 = slot1 > #uv0.achEntranceList[uv0.selectedMapIndex]:GetBaseMap().config.normal_target
+			slot4 = slot1 > #uv0.achEntranceList[uv0.selectedIndex].config.normal_target
 			slot5 = slot2:Find("bg")
 
 			setActive(slot5:Find("normal"), not slot4)
@@ -102,9 +102,9 @@ function slot0.init(slot0)
 		end
 	end)
 
-	slot0.achAwardRect = slot0.achMapPanel:Find("award_rect")
+	slot0.achAwardRect = slot0.entrancePanel:Find("award_rect")
 	slot0.achAchieveBtn = slot0.achAwardRect:Find("btn_achieve")
-	slot0.overviewBtn = slot0.achMapPanel:Find("btn_overview")
+	slot0.overviewBtn = slot0.entrancePanel:Find("btn_overview")
 	slot0.subviewAchAward = WorldAchAwardSubview.New(slot0._tf, slot0.event)
 
 	slot0:bind(WorldAchAwardSubview.ShowDrop, function (slot0, slot1)
@@ -132,12 +132,12 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.rtMain:Find("list_bg/jump_icon_left"), function ()
-		triggerToggle(uv0.achMapList:GetChild(uv0:GetAwardIndex(false) - 1), true)
-		uv0:ScrollToSelectMap()
+		triggerToggle(uv0.entranceContainer:GetChild(uv0:GetAwardIndex(false) - 1), true)
+		uv0:ScrollToSelectEntrance()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.rtMain:Find("list_bg/jump_icon_right"), function ()
-		triggerToggle(uv0.achMapList:GetChild(uv0:GetAwardIndex(true) - 1), true)
-		uv0:ScrollToSelectMap()
+		triggerToggle(uv0.entranceContainer:GetChild(uv0:GetAwardIndex(true) - 1), true)
+		uv0:ScrollToSelectEntrance()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.achAchieveBtn, function ()
 		slot0, slot1 = nowWorld:AnyUnachievedAchievement(uv0.entrance)
@@ -145,7 +145,7 @@ function slot0.didEnter(slot0)
 		if slot0 then
 			uv0:emit(WorldCollectionMediator.ON_ACHIEVE_STAR, {
 				{
-					id = uv0.entrance:GetBaseMapId(),
+					id = uv0.entrance.id,
 					star_list = {
 						slot1.star
 					}
@@ -153,13 +153,13 @@ function slot0.didEnter(slot0)
 			})
 		end
 	end, SFX_PANEL)
-	onButton(slot0, slot0.achMapPanel:Find("page_left"), function ()
-		triggerToggle(uv0.achMapList:GetChild(uv0.selectedMapIndex - 1 - 1), true)
-		uv0:ScrollToSelectMap()
+	onButton(slot0, slot0.entrancePanel:Find("page_left"), function ()
+		triggerToggle(uv0.entranceContainer:GetChild(uv0.selectedIndex - 1 - 1), true)
+		uv0:ScrollToSelectEntrance()
 	end, SFX_PANEL)
-	onButton(slot0, slot0.achMapPanel:Find("page_right"), function ()
-		triggerToggle(uv0.achMapList:GetChild(uv0.selectedMapIndex + 1 - 1), true)
-		uv0:ScrollToSelectMap()
+	onButton(slot0, slot0.entrancePanel:Find("page_right"), function ()
+		triggerToggle(uv0.entranceContainer:GetChild(uv0.selectedIndex + 1 - 1), true)
+		uv0:ScrollToSelectEntrance()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.overviewBtn, function ()
 		uv0:emit(WorldCollectionMediator.ON_ACHIEVE_OVERVIEW)
@@ -169,12 +169,12 @@ function slot0.didEnter(slot0)
 	slot0.achAwardIndexList = {}
 	slot0.entranceIndexDic = {}
 
-	slot0.mapItemList:align(#slot0.achEntranceList)
+	slot0.entranceItemList:align(#slot0.achEntranceList)
 
 	slot0.contextData.entranceId = defaultValue(slot0.contextData.entranceId, 0)
 
-	triggerToggle(slot0.achMapList:GetChild(defaultValue(slot0.entranceIndexDic[slot0.contextData.entranceId], 1) - 1), true)
-	slot0:ScrollToSelectMap()
+	triggerToggle(slot0.entranceContainer:GetChild(defaultValue(slot0.entranceIndexDic[slot0.contextData.entranceId], 1) - 1), true)
+	slot0:ScrollToSelectEntrance()
 end
 
 function slot0.willExit(slot0)
@@ -185,23 +185,19 @@ end
 function slot0.InitAchievement(slot0)
 end
 
-function slot0.FlushMapItem(slot0, slot1)
+function slot0.FlushEntranceItem(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
-		if not nowWorld:AnyUnachievedAchievement(slot0.achEntranceList[slot0:GetEntranceIndex(slot6.id)]) then
-			setActive(slot0.achMapList:GetChild(slot7 - 1):Find("icon/tip"), false)
+		if not nowWorld:AnyUnachievedAchievement(slot0.achEntranceList[slot0.entranceIndexDic[slot6.id]]) then
+			setActive(slot0.entranceContainer:GetChild(slot7 - 1):Find("icon/tip"), false)
 			table.remove(slot0.achAwardIndexList, dichotomy(slot7, slot0.achAwardIndexList))
 		end
 	end
 end
 
-function slot0.GetEntranceIndex(slot0, slot1)
-	return nowWorld:GetAtlas().mapEntrance[slot1] and slot0.entranceIndexDic[slot2.id] or nil
-end
-
 function slot0.UpdateAchievement(slot0, slot1)
-	if slot0.selectedMapIndex ~= slot1 then
-		slot0.selectedMapIndex = slot1
-		slot0.entrance = slot0.achEntranceList[slot0.selectedMapIndex]
+	if slot0.selectedIndex ~= slot1 then
+		slot0.selectedIndex = slot1
+		slot0.entrance = slot0.achEntranceList[slot0.selectedIndex]
 
 		slot0:FlushAchievement()
 	end
@@ -209,14 +205,14 @@ end
 
 function slot0.GetAwardIndex(slot0, slot1)
 	if slot1 then
-		if not dichotomy(math.ceil(slot0.achMapList:GetComponent(typeof(ScrollRect)).normalizedPosition.x * (#slot0.achEntranceList - 1 - slot0.rtMain:Find("list_bg/map_list").rect.width / slot0.achMapList:Find("item"):GetComponent(typeof(LayoutElement)).preferredWidth) + 1 + slot2), slot0.achAwardIndexList) then
+		if not dichotomy(math.ceil(slot0.entranceContainer:GetComponent(typeof(ScrollRect)).normalizedPosition.x * (#slot0.achEntranceList - 1 - slot0.rtMain:Find("list_bg/map_list").rect.width / slot0.entranceContainer:Find("item"):GetComponent(typeof(LayoutElement)).preferredWidth) + 1 + slot2), slot0.achAwardIndexList) then
 			return
 		elseif slot0.achAwardIndexList[slot5] <= slot4 then
 			return slot0.achAwardIndexList[slot5 + 1]
 		else
 			return slot0.achAwardIndexList[slot5]
 		end
-	elseif not dichotomy(math.floor(slot0.achMapList:GetComponent(typeof(ScrollRect)).normalizedPosition.x * slot3 + 1), slot0.achAwardIndexList) then
+	elseif not dichotomy(math.floor(slot0.entranceContainer:GetComponent(typeof(ScrollRect)).normalizedPosition.x * slot3 + 1), slot0.achAwardIndexList) then
 		return
 	elseif slot4 <= slot0.achAwardIndexList[slot5] then
 		return slot0.achAwardIndexList[slot5 - 1]
@@ -225,9 +221,9 @@ function slot0.GetAwardIndex(slot0, slot1)
 	end
 end
 
-function slot0.ScrollToSelectMap(slot0)
-	if #slot0.achEntranceList - 1 - slot0.rtMain:Find("list_bg/map_list").rect.width / slot0.achMapList:Find("item"):GetComponent(typeof(LayoutElement)).preferredWidth > 0 then
-		scrollTo(slot0.achMapList, math.clamp(slot0.selectedMapIndex - 1 - slot1 / 2, 0, slot2) / slot2, 0)
+function slot0.ScrollToSelectEntrance(slot0)
+	if #slot0.achEntranceList - 1 - slot0.rtMain:Find("list_bg/map_list").rect.width / slot0.entranceContainer:Find("item"):GetComponent(typeof(LayoutElement)).preferredWidth > 0 then
+		scrollTo(slot0.entranceContainer, math.clamp(slot0.selectedIndex - 1 - slot1 / 2, 0, slot2) / slot2, 0)
 	end
 end
 
@@ -240,19 +236,19 @@ function slot0.FlushAchievement(slot0)
 	slot0:UpdateJumpBtn()
 
 	slot0.showHiddenDesc = nowWorld:IsNormalAchievementAchieved(slot0.entrance)
-	slot0.targetList = nowWorld:GetAchievements(slot0.entrance:GetBaseMap())
+	slot0.targetList = nowWorld:GetAchievements(slot0.entrance)
 
 	slot0.targetItemList:align(#slot0.targetList)
 
 	slot1 = slot0.entrance:GetBaseMap()
 
-	GetImageSpriteFromAtlasAsync("world/targeticon/" .. slot1.config.entrance_mapicon, "", slot0.achMapTitle)
-	setText(slot0.achMapTitle:Find("deco_id"), slot0.entrance.config.serial_number)
-	setText(slot0.achMapTitle:Find("name"), slot1:GetName())
+	GetImageSpriteFromAtlasAsync("world/targeticon/" .. slot1.config.entrance_mapicon, "", slot0.entranceTitle)
+	setText(slot0.entranceTitle:Find("name"), slot1:GetName())
+	setText(slot0.entranceTitle:Find("deco_id"), slot0.entrance.config.serial_number)
 
 	slot2, slot3, slot4 = nowWorld:CountAchievements(slot0.entrance)
 
-	setText(slot0.achMapTitle:Find("progress_text"), slot2 + slot3 .. "/" .. slot4)
+	setText(slot0.entranceTitle:Find("progress_text"), slot2 + slot3 .. "/" .. slot4)
 
 	slot5, slot6 = nowWorld:AnyUnachievedAchievement(slot0.entrance)
 	slot7 = slot0.achAwardRect:Find("award")
@@ -261,7 +257,7 @@ function slot0.FlushAchievement(slot0)
 		setActive(slot0.achAwardRect:Find("get_mask"), slot5)
 		setActive(slot0.achAwardRect:Find("got_mask"), false)
 	else
-		slot8 = slot0.entrance:GetBaseMap():GetAchievementAwards()
+		slot8 = slot0.entrance:GetAchievementAwards()
 		slot6 = slot8[#slot8]
 
 		setActive(slot0.achAwardRect:Find("get_mask"), false)
@@ -274,12 +270,12 @@ function slot0.FlushAchievement(slot0)
 	end, SFX_PANEL)
 	setText(slot0.achAwardRect:Find("star_count/Text"), slot2 + slot3 .. "/" .. slot6.star)
 	setActive(slot0.achAchieveBtn, slot5)
-	setActive(slot0.achMapPanel:Find("page_left"), slot0.selectedMapIndex > 1)
-	setActive(slot0.achMapPanel:Find("page_right"), slot0.selectedMapIndex < #slot0.achEntranceList)
+	setActive(slot0.entrancePanel:Find("page_left"), slot0.selectedIndex > 1)
+	setActive(slot0.entrancePanel:Find("page_right"), slot0.selectedIndex < #slot0.achEntranceList)
 end
 
 function slot0.flushAchieveUpdate(slot0, slot1)
-	slot0:FlushMapItem(slot1)
+	slot0:FlushEntranceItem(slot1)
 	slot0:FlushAchievement()
 end
 

@@ -60,13 +60,14 @@ end
 function slot0.AddFloor(slot0, slot1)
 	slot0:CheckValid()
 
-	slot0.floor = math.min(slot0.floor + slot1, slot0:GetMaxFloor())
+	slot0.floor = slot0.floor + slot1
+	slot0.floor = math.max(slot0.floor, 0)
 end
 
 function slot0.GetFloor(slot0)
 	slot0:CheckValid()
 
-	return slot0.floor
+	return math.min(slot0.floor, slot0:GetMaxFloor())
 end
 
 return slot0

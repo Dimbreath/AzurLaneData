@@ -191,7 +191,7 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot1, slot5, slot6)
 
 	for slot5, slot6 in ipairs(slot0.toggles) do
-		if PLATFORM_CODE == PLATFORM_CH and (slot5 == 1 or slot5 == 3) then
+		if PLATFORM_CODE == PLATFORM_CH and (slot5 == 1 or slot5 == 3) and LOCK_COLLECTION then
 			setActive(slot6, false)
 		else
 			onToggle(slot0, slot6, function (slot0)

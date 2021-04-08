@@ -8653,7 +8653,7 @@ pg.auto_pilot_template = {
 		}
 	},
 	[100100] = {
-		id = 10001,
+		id = 100100,
 		name = "游弋者后半场移动",
 		default = 1,
 		list = {
@@ -8674,7 +8674,7 @@ pg.auto_pilot_template = {
 		}
 	},
 	[100101] = {
-		id = 100100,
+		id = 100101,
 		name = "游弋者中场移动",
 		default = 1,
 		list = {
@@ -8716,7 +8716,7 @@ pg.auto_pilot_template = {
 		}
 	},
 	[100120] = {
-		id = 100010,
+		id = 100120,
 		name = "防卫者回到后方",
 		default = 1,
 		list = {
@@ -8740,7 +8740,7 @@ pg.auto_pilot_template = {
 		}
 	},
 	[100121] = {
-		id = 10001,
+		id = 100121,
 		name = "防卫者后半场移动",
 		default = 1,
 		list = {

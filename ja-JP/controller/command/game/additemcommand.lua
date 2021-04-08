@@ -37,12 +37,15 @@ function slot0.execute(slot0, slot1)
 		}):getConfig("virtual_type") == 0 then
 			getProxy(ActivityProxy):addVitemById(slot2.id, slot2.count)
 		elseif slot4 == 1 then
-			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) and not slot6:isEnd() then
-				if not table.contains(slot6.data1_list, slot2.id) then
-					table.insert(slot6.data1_list, slot2.id)
+			slot5 = getProxy(ActivityProxy)
+			slot7 = nil
+
+			if (slot3:getConfig("link_id") <= 0 or slot5:getActivityById(slot6)) and slot5:getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) and not slot7:isEnd() then
+				if not table.contains(slot7.data1_list, slot2.id) then
+					table.insert(slot7.data1_list, slot2.id)
 				end
 
-				slot5:updateActivity(slot6)
+				slot5:updateActivity(slot7)
 			end
 		elseif slot4 == 2 or slot4 == 3 then
 			slot5 = getProxy(VoteProxy)

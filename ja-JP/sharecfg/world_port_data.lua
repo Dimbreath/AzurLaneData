@@ -938,7 +938,7 @@ pg.world_port_data = {
 	},
 	{
 		id = 4,
-		name = "ペテルブルク格",
+		name = "ペテルブルク",
 		port_entrance_icon = "port_shenbidebao",
 		scan_desc = "北方連合所領の港です",
 		port_bg = "port_shenbidebao",

@@ -40,6 +40,7 @@ function slot0.Setup(slot0, slot1, slot2, slot3)
 	slot0.cell = slot2
 
 	slot0.cell:AddListener(WorldMapCell.EventUpdateInFov, slot0.onUpdate)
+	slot0.cell:AddListener(WorldMap.EventUpdateMapBuff, slot0.onUpdate)
 
 	slot0.attachment = slot3
 
@@ -48,6 +49,7 @@ end
 
 function slot0.Dispose(slot0)
 	slot0.cell:RemoveListener(WorldMapCell.EventUpdateInFov, slot0.onUpdate)
+	slot0.cell:RemoveListener(WorldMap.EventUpdateMapBuff, slot0.onUpdate)
 
 	if slot0.twBreathId then
 		LeanTween.cancel(slot0.twBreathId)
@@ -67,10 +69,8 @@ function slot0.Init(slot0)
 	slot0.transform.localEulerAngles = Vector3.zero
 	slot0.transform.name = slot0.attachment:GetDebugName()
 
-	slot0:SetModelOrder(WorldConst.LOCell, slot0.cell.row)
+	slot0:SetModelOrder(slot0.attachment:GetModelOrder(), slot0.cell.row)
 	slot0:Update()
-	slot0:UpdateModelAngles(slot0.attachment:GetMillor() and Vector3(0, 180, 0) or Vector3.zero)
-	slot0:UpdateModelScale(slot0.attachment:GetScale())
 end
 
 function slot0.LoadAvatar(slot0, slot1, slot2, slot3)
@@ -138,6 +138,8 @@ function slot0.Update(slot0, slot1)
 	end
 
 	slot0:UpdateBreathTween()
+	slot0:UpdateModelAngles(slot0.attachment:GetMillor() and Vector3(0, 180, 0) or Vector3.zero)
+	slot0:UpdateModelScale(slot0.attachment:GetScale())
 end
 
 function slot0.UpdateEvent(slot0, slot1)
@@ -148,6 +150,10 @@ function slot0.UpdateEvent(slot0, slot1)
 
 	if slot6 then
 		slot7 = slot4:IsAvatar()
+
+		if slot0.isInit and slot1 == WorldMap.EventUpdateMapBuff then
+			slot0:UpdateMapBuff(slot5, slot2:GetBuffList(WorldMap.FactionEnemy, slot4))
+		end
 
 		if not slot0.isInit then
 			slot0.isInit = true
@@ -175,7 +181,8 @@ function slot0.UpdateEvent(slot0, slot1)
 				end)
 			end
 
-			slot0:UpdateBuffList(slot5:Find("buffs"), slot4:GetBuffList())
+			slot0:UpdateBuffList(slot5, slot4:GetBuffList())
+			slot0:UpdateMapBuff(slot5, slot2:GetBuffList(WorldMap.FactionEnemy, slot4))
 		end
 
 		if slot1 == WorldMapAttachment.EventUpdateLurk and slot3:GetInFOV() and not slot4.lurk then
@@ -205,6 +212,10 @@ function slot0.UpdateEventEnemy(slot0, slot1)
 		slot9 = slot4:IsAlive()
 		slot10 = slot4:IsAvatar()
 
+		if slot0.isInit and slot1 == WorldMap.EventUpdateMapBuff then
+			slot0:UpdateMapBuff(slot6, slot2:GetBuffList(WorldMap.FactionEnemy, slot4))
+		end
+
 		if not slot0.isInit then
 			slot0.isInit = true
 
@@ -230,8 +241,9 @@ function slot0.UpdateEventEnemy(slot0, slot1)
 				GetImageSpriteFromAtlasAsync("enemies/" .. slot11.icon .. "_d_blue", "", slot7:Find("icon"))
 			end
 
-			slot0:UpdateBuffList(slot6:Find("buffs"), slot4:GetBuffList())
 			slot0:UpdateHP(slot6:Find("hp"), slot4:GetHP(), slot4:GetMaxHP())
+			slot0:UpdateBuffList(slot6, slot4:GetBuffList())
+			slot0:UpdateMapBuff(slot6, slot2:GetBuffList(WorldMap.FactionEnemy, slot4))
 		end
 
 		setActive(slot6, slot9)
@@ -276,6 +288,9 @@ function slot0.UpdateBox(slot0, slot1)
 			else
 				slot0:LoadBoxPrefab(slot8.icon, slot10)
 			end
+
+			slot0:UpdateBuffList(slot5, {})
+			slot0:UpdateMapBuff(slot5, {})
 		end
 	end
 end
@@ -292,6 +307,10 @@ function slot0.UpdateEnemy(slot0, slot1)
 	if slot8 then
 		slot9 = slot4:IsAlive()
 		slot10 = slot4:IsAvatar()
+
+		if slot0.isInit and slot1 == WorldMap.EventUpdateMapBuff then
+			slot0:UpdateMapBuff(slot6, slot2:GetBuffList(WorldMap.FactionEnemy, slot4))
+		end
 
 		if not slot0.isInit then
 			slot0.isInit = true
@@ -318,8 +337,9 @@ function slot0.UpdateEnemy(slot0, slot1)
 				GetImageSpriteFromAtlasAsync("enemies/" .. slot11.icon .. "_d_blue", "", slot7:Find("icon"))
 			end
 
-			slot0:UpdateBuffList(slot6:Find("buffs"), slot4:GetBuffList())
 			slot0:UpdateHP(slot6:Find("hp"), slot4:GetHP(), slot4:GetMaxHP())
+			slot0:UpdateBuffList(slot6, slot4:GetBuffList())
+			slot0:UpdateMapBuff(slot6, slot2:GetBuffList(WorldMap.FactionEnemy, slot4))
 		end
 
 		setActive(slot6, slot9)
@@ -373,23 +393,34 @@ function slot0.UpdateTrap(slot0, slot1)
 				slot0:LoadBoxPrefab(slot8.trap_fx, slot10)
 			end
 
-			slot0:UpdateBuffList(slot5:Find("buffs"), {})
+			slot0:UpdateBuffList(slot5, {})
+			slot0:UpdateMapBuff(slot5, {})
 		end
 	end
 end
 
 function slot0.UpdateBuffList(slot0, slot1, slot2)
-	slot3 = UIItemList.New(slot1, slot1:GetChild(0))
+	setActive(slot1:Find("buffs"), #slot2 > 0)
 
-	slot3:make(function (slot0, slot1, slot2)
+	slot4 = UIItemList.New(slot3, slot3:GetChild(0))
+
+	slot4:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			GetImageSpriteFromAtlasAsync("world/buff/" .. WorldBuff.GetTemplate(uv0[slot1 + 1]).icon, "", slot2)
+			GetImageSpriteFromAtlasAsync("world/buff/" .. uv0[slot1 + 1].config.icon, "", slot2)
 		end
 	end)
-	slot3:align(#slot2)
-	setAnchoredPosition(slot1, {
+	slot4:align(#slot2)
+	setAnchoredPosition(slot3, {
 		y = slot0.modelType == WorldConst.ModelSpine and 100 or 0
 	})
+end
+
+function slot0.UpdateMapBuff(slot0, slot1, slot2)
+	setActive(slot1:Find("map_buff"), #slot2 > 0)
+
+	if #slot2 > 0 then
+		GetImageSpriteFromAtlasAsync("world/mapbuff/" .. slot2[1].config.icon, "", slot3:Find("Image"))
+	end
 end
 
 function slot0.UpdateHP(slot0, slot1, slot2, slot3)
@@ -423,6 +454,27 @@ function slot0.UpdateIsFighting(slot0, slot1)
 
 		slot0:UpdateEnemy()
 	end
+end
+
+function slot0.TrapAnimDisplay(slot0, slot1)
+	slot2 = {}
+	slot3 = slot0.model:GetChild(0)
+
+	table.insert(slot2, function (slot0)
+		uv0:GetComponent("DftAniEvent"):SetEndEvent(slot0)
+		uv0:GetComponent("Animator"):Play("disappear")
+	end)
+	table.insert(slot2, function (slot0)
+		uv0:UpdateModelScale(uv0.attachment:GetScale(uv0.attachment.config.trap_range[1]))
+		uv1:GetComponent("DftAniEvent"):SetEndEvent(slot0)
+		uv1:GetComponent("Animator"):Play("vortexAnimation")
+	end)
+	table.insert(slot2, function (slot0)
+		uv0:UpdateModelScale(Vector3.zero)
+		uv1:GetComponent("Animator"):Play("loop")
+		slot0()
+	end)
+	seriesAsync(slot2, slot1)
 end
 
 return slot0

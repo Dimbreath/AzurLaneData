@@ -18,8 +18,9 @@ return {
 			},
 			options = {
 				{
-					content = "エリアから離脱する",
-					flag = 1
+					flag = 1,
+					autochoice = 1,
+					content = "エリアから離脱する"
 				},
 				{
 					content = "もう少し見回る",

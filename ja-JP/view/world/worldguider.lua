@@ -54,10 +54,6 @@ function slot0.CheckMapLimit(slot0)
 	pg.GuideMgr.GetInstance():play("WorldG012")
 end
 
-function slot0.CheckSlgGuide(slot0, slot1, slot2, slot3)
-	slot0:PlayGuide(slot0:SpecialCheck(slot1), slot2, slot3)
-end
-
 function slot0.SpecialCheck(slot0, slot1)
 	if slot1 == "WorldG008" and nowWorld:GetActiveMap() ~= nil and slot2.findex == 2 then
 		return "WorldG008_2"
@@ -111,22 +107,6 @@ function slot0.PlayGuideAndUpdateOnEnd(slot0, slot1)
 			storyId = uv0
 		})
 	end)
-end
-
-slot0.WORLD_OPEN_HELP = "world_open_help"
-
-function slot0.CheckSpecificGuide(slot0, slot1, slot2)
-	if slot1 == uv0.WORLD_OPEN_HELP then
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			type = MSGBOX_TYPE_HELP,
-			helps = WorldConst.BuildHelpTips(nowWorld:GetProgress()),
-			onClose = function ()
-				uv0()
-			end
-		})
-	else
-		slot2()
-	end
 end
 
 slot0.WORLD_HIDE_UI = "world hide ui"

@@ -177,11 +177,25 @@ end
 slot0.hxPathList = {
 	"live2d",
 	"painting",
-	"shipYardIcon"
+	"shipYardIcon",
+	"paintingface"
+}
+slot0.folderBundle = {
+	"paintingface"
 }
 
 function slot0.needShift(slot0)
 	for slot4, slot5 in ipairs(uv0.hxPathList) do
+		if string.find(slot0, slot5) then
+			return true
+		end
+	end
+
+	return false
+end
+
+function slot0.isFolderBundle(slot0)
+	for slot4, slot5 in ipairs(uv0.folderBundle) do
 		if string.find(slot0, slot5) then
 			return true
 		end
@@ -227,7 +241,9 @@ function slot0.autoHxShiftPath(slot0, slot1, slot2)
 		end
 
 		if uv0.needShift(slot0) and PathMgr.FileExists(PathMgr.getAssetBundle(slot0 .. "_hx")) then
-			if slot1 then
+			if uv0.isFolderBundle(slot0) then
+				return slot0 .. "_hx", slot1
+			elseif slot1 then
 				return slot0 .. "_hx", slot1 .. "_hx"
 			else
 				return slot0 .. "_hx", slot1

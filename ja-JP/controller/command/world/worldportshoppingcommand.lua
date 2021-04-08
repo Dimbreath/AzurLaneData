@@ -23,44 +23,31 @@ function slot0.execute(slot0, slot1)
 		if slot0.result == 0 then
 			uv0:UpdateCount(uv0.count - 1)
 
-			slot1 = uv1:BuildDrop(slot0)
-			slot2 = uv2:GetActiveMap()
+			slot1 = PlayerConst.addTranDrop(slot0.drop_list)
+			slot2 = uv1:GetActiveMap()
 			slot3 = slot2:GetFleet()
 			slot4 = slot2:GetPort()
-			slot5 = uv3.id
+			slot5 = uv2.id
 
-			if uv3.type == DROP_TYPE_RESOURCE then
-				slot5 = id2ItemId(uv3.id)
-				slot6 = uv4:getData()
+			if uv2.type == DROP_TYPE_RESOURCE then
+				slot5 = id2ItemId(uv2.id)
+				slot6 = uv3:getData()
 
 				slot6:consume({
-					[id2res(shopCfg.resource_type)] = uv3.count
+					[id2res(shopCfg.resource_type)] = uv2.count
 				})
-				uv4:updatePlayer(slot6)
-			elseif uv3.type == DROP_TYPE_WORLD_ITEM then
-				uv5:RemoveItem(uv3.id, uv3.count)
+				uv3:updatePlayer(slot6)
+			elseif uv2.type == DROP_TYPE_WORLD_ITEM then
+				uv4:RemoveItem(uv2.id, uv2.count)
 			end
 
-			uv1:sendNotification(GAME.WORLD_PORT_SHOPPING_DONE, {
+			uv5:sendNotification(GAME.WORLD_PORT_SHOPPING_DONE, {
 				drops = slot1
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("world_port_shopping_error_", slot0.result))
 		end
 	end)
-end
-
-function slot0.BuildDrop(slot0, slot1)
-	slot2 = {}
-
-	for slot6, slot7 in ipairs(slot1.drop_list) do
-		slot8 = Item.New(slot7)
-
-		table.insert(slot2, slot8)
-		slot0:sendNotification(GAME.ADD_ITEM, slot8)
-	end
-
-	return slot2
 end
 
 return slot0

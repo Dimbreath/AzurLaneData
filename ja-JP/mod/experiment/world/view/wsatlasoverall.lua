@@ -32,6 +32,7 @@ function slot0.LoadScene(slot0, slot1)
 		uv0.defaultSprite = uv0.tfEntity:Find("decolation_layer/edge"):GetComponent("SpriteRenderer").material
 		uv0.addSprite = uv0.tfEntity:Find("map_scene/mask_layer"):GetComponent("SpriteRenderer").material
 
+		uv0:UpdateCenterEffectDisplay()
 		uv0:BuildActiveMark()
 
 		uv0.cmPointer = uv0.tfEntity:Find("Plane"):GetComponent(typeof(PointerInfo))

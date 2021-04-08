@@ -3080,6 +3080,9 @@ No.7 駆逐艦「鞍山」
 	world_shop_preview_tip = {
 		tip = "商品ラインナッププレビュー"
 	},
+	world_shop_init_notice = {
+		tip = "セイレーン作戦がリセットされました。ショップに移動しますか？"
+	},
 	world_map_title_tips_en = {
 		tip = "OPERATION INFO"
 	},
@@ -3262,6 +3265,9 @@ No.7 駆逐艦「鞍山」
 	},
 	world_movelimit_event_text = {
 		tip = "エリアに未完了の任務が存在しているため、エリカ移動を行えません"
+	},
+	world_sametask_tip = {
+		tip = "任務受領に失敗しました：同じ任務は同時に一つしか受領できません"
 	},
 	task_notfound_error = {
 		tip = "ステージ情報が見つかりませんでした。エラーid:"
@@ -13298,6 +13304,27 @@ GET!
 	autofight_task = {
 		tip = "大艦隊個人任務完了：$1"
 	},
+	autofight_effect = {
+		tip = "適応調整上昇：攻撃+$1、耐久+$2、回復＋$3"
+	},
+	autofight_file = {
+		tip = "情報開放：$1"
+	},
+	autofight_discovery = {
+		tip = "海域探索実績達成：$1"
+	},
+	autofight_tip_bigworld_dead = {
+		tip = "艦隊戦闘敗北のため、自動攻略モードが中止されました"
+	},
+	autofight_tip_bigworld_begin = {
+		tip = "本艦隊の自動攻略モードが開始しました"
+	},
+	autofight_tip_bigworld_stop = {
+		tip = "本艦隊の自動攻略モードが中止しました"
+	},
+	autofight_tip_bigworld_suspend = {
+		tip = "可視範囲内で調査対象が存在しないため、自動攻略モードが中止されました"
+	},
 	autofight_farm = {
 		tip = "周回モード"
 	},
@@ -13769,6 +13796,12 @@ GET!
 	world_setting_quickmodetip = {
 		tip = "ONに設定されている場合、セイレーン作戦の一部のTBチュートリアル/メッセージが次回ログインまで1回しか表示されなくなります"
 	},
+	world_setting_submititem = {
+		tip = "自動攻略ｱｲﾃﾑ自動使用"
+	},
+	world_setting_submititemtip = {
+		tip = "on：自動攻略モード適用中、アイテムを消費する特殊イベントはアイテムが自動で消費されます\noff：自動攻略モード適用中、アイテムを消費する特殊イベントは無視されます"
+	},
 	world_boss_maintenance = {
 		tip = "メンテナンス開始直前のため、挑戦できません"
 	},
@@ -13928,5 +13961,14 @@ EN補給箱・小×45
 	},
 	setting_story_speed_4 = {
 		tip = "非常に速い"
+	},
+	story_autoplay_setting_label = {
+		tip = "ストーリー自動送り"
+	},
+	story_autoplay_setting_1 = {
+		tip = "OFF"
+	},
+	story_autoplay_setting_2 = {
+		tip = "ON"
 	}
 }

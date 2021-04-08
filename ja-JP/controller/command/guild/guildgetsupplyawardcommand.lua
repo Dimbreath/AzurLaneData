@@ -43,22 +43,8 @@ function slot0.execute(slot0, slot1)
 
 			slot2:updateSupplyTime(slot1)
 			uv0:updateGuild(slot2)
-
-			slot3 = {}
-
-			for slot7, slot8 in ipairs(slot0.drop_list) do
-				slot9 = Item.New({
-					type = slot8.type,
-					id = slot8.id,
-					count = slot8.number
-				})
-
-				uv1:sendNotification(GAME.ADD_ITEM, slot9)
-				table.insert(slot3, slot9)
-			end
-
 			uv1:sendNotification(GAME.GUILD_GET_SUPPLY_AWARD_DONE, {
-				list = slot3
+				list = PlayerConst.addTranDrop(slot0.drop_list)
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)

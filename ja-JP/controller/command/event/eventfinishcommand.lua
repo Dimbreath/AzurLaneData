@@ -72,22 +72,6 @@ function slot0.OnFinish(slot0, slot1, slot2)
 		end
 	end
 
-	slot6 = {}
-
-	for slot10, slot11 in ipairs(slot1.drop_list) do
-		slot12 = {
-			type = slot11.type,
-			id = slot11.id,
-			count = slot11.num or slot11.number
-		}
-
-		if slot11.type ~= DROP_TYPE_SHIP then
-			pg.m02:sendNotification(GAME.ADD_ITEM, Item.New(slot12))
-		end
-
-		table.insert(slot6, slot12)
-	end
-
 	slot7 = getProxy(PlayerProxy)
 	slot8 = slot7:getData()
 	slot8.collect_attack_count = slot8.collect_attack_count + 1
@@ -106,7 +90,7 @@ function slot0.OnFinish(slot0, slot1, slot2)
 		eventId = slot0,
 		oldShips = slot4,
 		newShips = slot5,
-		awards = slot6,
+		awards = PlayerConst.addTranDrop(slot1.drop_list),
 		isCri = slot1.is_cri > 0,
 		onConfirm = slot2
 	})

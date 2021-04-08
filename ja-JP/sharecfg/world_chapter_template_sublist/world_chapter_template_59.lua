@@ -6,6 +6,7 @@ function ()
 		is_transfer = 1,
 		name = "NA海域东A",
 		port_name = "",
+		version = 0,
 		bgm = "hunhe-level",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -17,7 +18,7 @@ function ()
 		expedition_map_id = 50000,
 		expedition_level = 120,
 		id = 347000,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 50,
 		map_bg = {
 			"world_map_chongdong"
@@ -3846,12 +3847,14 @@ function ()
 				9,
 				2
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_59[348000] = {
 		is_transfer = 1,
 		name = "NA海域东B",
 		port_name = "",
+		version = 0,
 		bgm = "hunhe-level",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -3863,7 +3866,7 @@ function ()
 		expedition_map_id = 50000,
 		expedition_level = 120,
 		id = 348000,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 50,
 		map_bg = {
 			"world_map_chongdong"
@@ -8099,12 +8102,14 @@ function ()
 				4,
 				2
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_59[349000] = {
 		is_transfer = 1,
 		name = "NA海域东C",
 		port_name = "",
+		version = 0,
 		bgm = "hunhe-level",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -8116,7 +8121,7 @@ function ()
 		expedition_map_id = 50000,
 		expedition_level = 120,
 		id = 349000,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 50,
 		map_bg = {
 			"world_map_chongdong"
@@ -12088,12 +12093,14 @@ function ()
 				-1,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_59[350000] = {
 		is_transfer = 1,
 		name = "NA海域东D",
 		port_name = "",
+		version = 0,
 		bgm = "hunhe-level",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -12105,7 +12112,7 @@ function ()
 		expedition_map_id = 50000,
 		expedition_level = 120,
 		id = 350000,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 50,
 		map_bg = {
 			"world_map_chongdong"
@@ -15859,12 +15866,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_59[351000] = {
 		is_transfer = 1,
 		name = "东大陆架A",
 		port_name = "",
+		version = 0,
 		bgm = "xinnong-3",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -15876,7 +15885,7 @@ function ()
 		expedition_map_id = 50000,
 		expedition_level = 120,
 		id = 351000,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 50,
 		map_bg = {
 			"world_map_chongdong"
@@ -19959,12 +19968,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_59[352000] = {
 		is_transfer = 1,
 		name = "东大陆架B",
 		port_name = "",
+		version = 0,
 		bgm = "xinnong-3",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -19976,7 +19987,7 @@ function ()
 		expedition_map_id = 50000,
 		expedition_level = 120,
 		id = 352000,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 50,
 		map_bg = {
 			"world_map_chongdong"
@@ -23929,12 +23940,14 @@ function ()
 				0,
 				-1
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_59[353000] = {
 		is_transfer = 1,
 		name = "东大陆架C",
 		port_name = "",
+		version = 0,
 		bgm = "xinnong-3",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -23946,7 +23959,7 @@ function ()
 		expedition_map_id = 50000,
 		expedition_level = 120,
 		id = 353000,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 50,
 		map_bg = {
 			"world_map_chongdong"
@@ -27775,12 +27788,14 @@ function ()
 				9,
 				2
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_59[354000] = {
 		is_transfer = 1,
 		name = "东大陆架D",
 		port_name = "",
+		version = 0,
 		bgm = "xinnong-3",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -27792,7 +27807,7 @@ function ()
 		expedition_map_id = 50000,
 		expedition_level = 120,
 		id = 354000,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 50,
 		map_bg = {
 			"world_map_chongdong"
@@ -32028,12 +32043,14 @@ function ()
 				4,
 				2
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_59[355000] = {
 		is_transfer = 1,
 		name = "东大陆架E",
 		port_name = "",
+		version = 0,
 		bgm = "xinnong-3",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -32045,7 +32062,7 @@ function ()
 		expedition_map_id = 50000,
 		expedition_level = 120,
 		id = 355000,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 50,
 		map_bg = {
 			"world_map_chongdong"
@@ -36017,12 +36034,14 @@ function ()
 				-1,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_59[356000] = {
 		is_transfer = 1,
 		name = "NA海域东北A",
 		port_name = "",
+		version = 0,
 		bgm = "xinnong-3",
 		is_clear = 0,
 		is_moveingcost = 0,
@@ -36034,7 +36053,7 @@ function ()
 		expedition_map_id = 50000,
 		expedition_level = 120,
 		id = 356000,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 50,
 		map_bg = {
 			"world_map_chongdong"
@@ -39788,6 +39807,7 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 end()

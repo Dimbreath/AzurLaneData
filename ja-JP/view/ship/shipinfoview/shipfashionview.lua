@@ -68,12 +68,9 @@ function slot0.OnSelected(slot0, slot1)
 	slot0.onSelected = slot1
 end
 
-function slot0.UpdateFashion(slot0, slot1)
-	slot0.fashionSkins = slot0.shareData:GetGroupSkinList(slot0:GetShipVO().groupId)
-
-	if ShipViewConst.currentPage ~= ShipViewConst.PAGE.FASHION or not slot0.shareData:HasFashion() then
-		return
-	end
+function slot0.UpdateAllFashion(slot0, slot1)
+	slot2 = slot0:GetShipVO().groupId
+	slot0.fashionSkins = slot0.shareData:GetGroupSkinList(slot2)
 
 	if slot0.fashionGroup ~= slot2 or slot1 then
 		slot0.fashionGroup = slot2
@@ -154,6 +151,14 @@ function slot0.UpdateFashion(slot0, slot1)
 	end
 
 	triggerButton(slot3)
+end
+
+function slot0.UpdateFashion(slot0, slot1)
+	if ShipViewConst.currentPage ~= ShipViewConst.PAGE.FASHION or not slot0.shareData:HasFashion() then
+		return
+	end
+
+	slot0:UpdateAllFashion(slot1)
 end
 
 function slot0.ResetFashion(slot0)

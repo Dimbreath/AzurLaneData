@@ -736,7 +736,7 @@ pg.activity_const = {
 		act_id = 779
 	},
 	ELITE_AWARD_ACTIVITY_ID = {
-		act_id = 40
+		act_id = 10056
 	},
 	NEWYEAR_SNACKSTREET_MINIGAME = {
 		act_id = 831

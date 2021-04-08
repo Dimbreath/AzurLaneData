@@ -64,24 +64,6 @@ function slot0.OnInit(slot0)
 			end
 		},
 		{
-			name = "开场事件",
-			func = function ()
-				uv0:AppendText("-------------------------------------------------------------------------")
-				uv0:AppendText("强制触发开场事件：")
-
-				if nowWorld:GetActiveMap() and slot0:IsValid() then
-					_.each(slot0:FindAttachments(WorldMapAttachment.TypeEvent), function (slot0)
-						if #slot0.config.event_op > 0 then
-							slot0:UpdateDataOp(#slot0.config.event_op)
-						end
-					end)
-					uv0:AppendText("修改成功")
-				end
-
-				uv0:AppendText("-------------------------------------------------------------------------")
-			end
-		},
-		{
 			name = "地图信息",
 			func = function ()
 				uv0:AppendText("-------------------------------------------------------------------------")
@@ -105,10 +87,23 @@ function slot0.OnInit(slot0)
 			end
 		},
 		{
+			name = "任务信息",
+			func = function ()
+				uv0:AppendText("-------------------------------------------------------------------------")
+				uv0:AppendText("任务信息：")
+
+				for slot5, slot6 in pairs(nowWorld:GetTaskProxy():getTasks()) do
+					uv0:AppendText(slot6:DebugPrint())
+				end
+
+				uv0:AppendText("-------------------------------------------------------------------------")
+			end
+		},
+		{
 			name = "事件信息",
 			func = function ()
 				uv0:AppendText("-------------------------------------------------------------------------")
-				uv0:AppendText("当前所在地图事件信息：")
+				uv0:AppendText("事件信息：")
 
 				if nowWorld:GetActiveMap() then
 					_.each(slot0:FindAttachments(WorldMapAttachment.TypeEvent), function (slot0)
@@ -123,7 +118,7 @@ function slot0.OnInit(slot0)
 			name = "感染事件",
 			func = function ()
 				uv0:AppendText("-------------------------------------------------------------------------")
-				uv0:AppendText("当前所在地图感染事件信息：")
+				uv0:AppendText("感染事件：")
 
 				if nowWorld:GetActiveMap() then
 					_.each(slot0:FindAttachments(WorldMapAttachment.TypeEvent), function (slot0)
@@ -137,13 +132,17 @@ function slot0.OnInit(slot0)
 			end
 		},
 		{
-			name = "任务信息",
+			name = "路标事件",
 			func = function ()
 				uv0:AppendText("-------------------------------------------------------------------------")
-				uv0:AppendText("大世界任务信息：")
+				uv0:AppendText("路标事件：")
 
-				for slot5, slot6 in pairs(nowWorld:GetTaskProxy():getTasks()) do
-					uv0:AppendText(slot6:DebugPrint())
+				if nowWorld:GetActiveMap() then
+					_.each(slot0:FindAttachments(WorldMapAttachment.TypeEvent), function (slot0)
+						if slot0:IsSign() then
+							uv0:AppendText(slot0:DebugPrint())
+						end
+					end)
 				end
 
 				uv0:AppendText("-------------------------------------------------------------------------")
@@ -167,10 +166,8 @@ function slot0.OnInit(slot0)
 				uv0:AppendText("打印敌人信息：")
 
 				if nowWorld:GetActiveMap() then
-					_.each(slot0:FindAttachments(), function (slot0)
-						if WorldMapAttachment.IsEnemyType(slot0.type) then
-							uv0:AppendText(slot0:DebugPrint())
-						end
+					_.each(slot0:FindEnemys(), function (slot0)
+						uv0:AppendText(slot0:DebugPrint())
 					end)
 				end
 

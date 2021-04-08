@@ -146,22 +146,20 @@ function slot0.UpdateModelMask(slot0)
 end
 
 function slot0.UpdateEntranceMask(slot0, slot1)
-	slot2 = slot1:GetBaseMap()
-
 	if slot1:HasPort() then
 		-- Nothing
 	else
-		slot4 = slot0.tfMapScene:Find("lock_layer/A" .. slot1:GetColormaskUniqueID()):GetComponent("SpriteRenderer")
+		slot3 = slot0.tfMapScene:Find("lock_layer/A" .. slot1:GetColormaskUniqueID()):GetComponent("SpriteRenderer")
 
-		if slot2.isPressing then
-			slot4.color = uv0.pressingMaskColor
-			slot4.material = slot0.addSprite
-		elseif slot0.atlas.transportDic[slot1.id] and slot2:IsMapOpen(true) then
-			slot4.color = uv0.openMaskColor
-			slot4.material = slot0.defaultSprite
+		if slot1:IsPressing() then
+			slot3.color = uv0.pressingMaskColor
+			slot3.material = slot0.addSprite
+		elseif slot0.atlas.transportDic[slot1.id] and slot1:IsOpen() then
+			slot3.color = uv0.openMaskColor
+			slot3.material = slot0.defaultSprite
 		else
-			slot4.color = uv0.lockMaskColor
-			slot4.material = slot0.defaultSprite
+			slot3.color = uv0.lockMaskColor
+			slot3.material = slot0.defaultSprite
 		end
 	end
 end
@@ -178,6 +176,8 @@ function slot0.OnUpdateProgress(slot0, slot1, slot2, slot3)
 	for slot7 in pairs(slot3) do
 		slot0:UpdateEntranceMask(slot0.atlas:GetEntrance(slot7))
 	end
+
+	slot0:UpdateCenterEffectDisplay()
 end
 
 function slot0.BuildActiveMark(slot0)
@@ -251,6 +251,13 @@ function slot0.OnUpdatePressingAward(slot0, slot1, slot2, slot3)
 			slot0:UpdateEntranceMask(slot0.atlas:GetEntrance(slot7))
 		end
 	end
+end
+
+function slot0.UpdateCenterEffectDisplay(slot0)
+	slot1 = nowWorld:CheckAreaUnlock(5)
+
+	setActive(slot0.tfEntity:Find("decolation_layer/DSJ_xuanwo"), not slot1)
+	setActive(slot0.tfEntity:Find("decolation_layer/DSJ_xuanwo_jianhua"), slot1)
 end
 
 return slot0

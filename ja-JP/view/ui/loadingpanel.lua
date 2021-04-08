@@ -79,7 +79,7 @@ end
 
 function slot0.displayBG(slot0, slot1)
 	setActive(slot0.bg, slot1)
-	setActive(slot0.logo, false)
+	setActive(slot0.logo, slot1)
 
 	slot2 = GetComponent(slot0.bg, "Image")
 
