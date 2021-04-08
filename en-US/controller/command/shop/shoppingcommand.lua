@@ -137,46 +137,37 @@ function slot0.execute(slot0, slot1)
 
 			if uv0.type ~= 0 then
 				if uv0.is_auto_use == 1 then
-					for slot5, slot6 in ipairs(slot0.drop_list) do
-						slot7 = Item.New({
-							type = slot6.type,
-							id = slot6.id,
-							count = slot6.number
-						})
-
-						uv1:sendNotification(GAME.ADD_ITEM, slot7)
-						table.insert(slot1, slot7)
-					end
+					slot1 = PlayerConst.addTranDrop(slot0.drop_list)
 				else
 					slot2 = uv0.num
 
 					if uv0.num == -1 and uv0.genre == ShopArgs.BuyOil then
-						slot2 = ShopArgs.getOilByLevel(uv2:getData().level)
+						slot2 = ShopArgs.getOilByLevel(uv1:getData().level)
 					end
 
 					slot3 = Item.New({
 						type = uv0.type,
 						id = uv0.effect_args[1],
-						count = slot2 * uv3
+						count = slot2 * uv2
 					})
 
-					uv1:sendNotification(GAME.ADD_ITEM, slot3)
+					uv3:sendNotification(GAME.ADD_ITEM, slot3)
 					table.insert(slot1, slot3)
 				end
 
 				if uv4 == GoldExchangeView.itemid1 or uv4 == GoldExchangeView.itemid2 then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_gold_success", pg.shop_template[uv4].num * uv3))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_gold_success", pg.shop_template[uv4].num * uv2))
 				else
 					pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
 				end
 			elseif uv0.type == 0 then
-				uv1:sendNotification(GAME.EXTEND, {
+				uv3:sendNotification(GAME.EXTEND, {
 					id = uv4,
-					count = uv3
+					count = uv2
 				})
 			end
 
-			uv2:getData():consume({
+			uv1:getData():consume({
 				[id2res(uv0.resource_type)] = uv5
 			})
 
@@ -184,7 +175,7 @@ function slot0.execute(slot0, slot1)
 				slot2:increaseBuyOilCount()
 			end
 
-			uv2:updatePlayer(slot2)
+			uv1:updatePlayer(slot2)
 
 			slot3 = nil
 
@@ -196,7 +187,7 @@ function slot0.execute(slot0, slot1)
 				uv7:UpdateShopStreet(slot4)
 
 				if slot1[1].type == DROP_TYPE_ITEM and slot6:isEquipmentSkinBox() then
-					uv1:sendNotification(GAME.USE_ITEM, {
+					uv3:sendNotification(GAME.USE_ITEM, {
 						skip_check = true,
 						count = 1,
 						id = slot6.id
@@ -223,12 +214,12 @@ function slot0.execute(slot0, slot1)
 				if getProxy(ShipSkinProxy):getSkinById(uv0.effect_args[1]) and slot6:isExpireType() then
 					slot5:addSkin(ShipSkin.New({
 						id = slot4,
-						end_time = uv0.time_second * uv3 + slot6.endTime
+						end_time = uv0.time_second * uv2 + slot6.endTime
 					}))
 				elseif not slot6 then
 					slot5:addSkin(ShipSkin.New({
 						id = slot4,
-						end_time = uv0.time_second * uv3 + pg.TimeMgr.GetInstance():GetServerTime()
+						end_time = uv0.time_second * uv2 + pg.TimeMgr.GetInstance():GetServerTime()
 					}))
 				end
 			elseif uv0.genre == ShopArgs.guildShop then
@@ -240,7 +231,7 @@ function slot0.execute(slot0, slot1)
 				nowWorld:UpdateWorldShopGoods({
 					{
 						goods_id = uv4,
-						count = uv3
+						count = uv2
 					}
 				})
 			end
@@ -261,7 +252,7 @@ function slot0.execute(slot0, slot1)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("shop_extendcommander_success"))
 			end
 
-			uv1:sendNotification(GAME.SHOPPING_DONE, {
+			uv3:sendNotification(GAME.SHOPPING_DONE, {
 				id = uv4,
 				shopType = slot3,
 				normalList = uv7:GetNormalList(),

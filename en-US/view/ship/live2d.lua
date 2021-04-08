@@ -100,6 +100,14 @@ function slot6(slot0, slot1)
 		uv0.liveCom:SetAction(uv1.idleActions[math.ceil(math.random(#uv1.idleActions))])
 	end
 
+	function slot0.liveCom.EventAction(slot0)
+		if uv0.animEventCB then
+			uv0.animEventCB(slot0)
+
+			uv0.animEventCB = nil
+		end
+	end
+
 	slot0.liveCom:SetTouchParts(uv0.assistantTouchParts)
 	setActive(slot0.live2dData.parent, true)
 	uv1(slot0)
@@ -134,12 +142,9 @@ function slot0.GetTouchPart(slot0)
 	return slot0.liveCom:GetTouchPart()
 end
 
-function slot0.TriggerAction(slot0, slot1, slot2, slot3)
-	if slot2 then
-		slot0.finishActionCB = slot2
-	else
-		slot0.finishActionCB = nil
-	end
+function slot0.TriggerAction(slot0, slot1, slot2, slot3, slot4)
+	slot0.finishActionCB = slot2
+	slot0.animEventCB = slot4
 
 	uv0(slot0, slot1, slot3)
 end

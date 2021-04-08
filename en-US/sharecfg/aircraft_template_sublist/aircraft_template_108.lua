@@ -1,16 +1,5 @@
 pg = pg or {}
 pg.aircraft_template_108 = {
-	[39062] = {
-		id = 39062,
-		base = 39060,
-		max_hp = 50,
-		hp_growth = 1913,
-		weapon_ID = {
-			50042,
-			52242,
-			52162
-		}
-	},
 	[39063] = {
 		id = 39063,
 		base = 39060,
@@ -108,6 +97,82 @@ pg.aircraft_template_108 = {
 			50051,
 			52251,
 			52171
+		}
+	},
+	[39100] = {
+		name = "彗星",
+		max_hp = 35,
+		accuracy = 23,
+		model_ID = "huixing",
+		ACC_growth = 0,
+		crash_DMG = 208,
+		dodge = 3.57,
+		attack_power = 2,
+		dodge_limit = 0.8,
+		type = 3,
+		AP_growth = 2000,
+		icon = "huixing",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1338,
+		speed = 48,
+		id = 39100,
+		scale = 1,
+		weapon_ID = {
+			50000,
+			52600,
+			52100
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.64,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	}
 }

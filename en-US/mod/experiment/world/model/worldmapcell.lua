@@ -1,17 +1,17 @@
 slot0 = class("WorldMapCell", import("...BaseEntity"))
 slot0.Fields = {
+	inLight = "number",
 	row = "number",
-	flagLight = "boolean",
-	fog = "boolean",
-	isSairenFog = "boolean",
+	fogLight = "boolean",
+	terrain = "number",
 	dir = "number",
 	column = "number",
 	walkable = "boolean",
 	terrainDir = "number",
 	discovered = "boolean",
 	attachments = "table",
-	terrain = "number",
-	inLight = "number",
+	fogSairen = "boolean",
+	fog = "boolean",
 	terrainStrong = "number",
 	infov = "number"
 }
@@ -40,7 +40,9 @@ function slot0.Build(slot0)
 	slot0.dir = 0
 	slot0.infov = 0
 	slot0.inLight = 0
-	slot0.flagLight = false
+	slot0.fog = false
+	slot0.fogLight = false
+	slot0.fogSairen = false
 end
 
 function slot0.Setup(slot0, slot1)
@@ -99,28 +101,86 @@ function slot0.ContainsAttachment(slot0, slot1)
 end
 
 function slot0.GetInFOV(slot0)
-	return slot0.infov > 0 or slot0.flagLight and slot0.inLight > 0
+	if slot0.fog then
+		return slot0.fogLight
+	else
+		return slot0.infov > 0 or slot0.inLight > 0
+	end
 end
 
-function slot0.UpdateInFov(slot0, slot1, slot2)
-	slot2 = slot2 or slot0.flagLight
-
-	if slot0.infov ~= (slot1 or slot0.infov) or slot0.flagLight ~= slot2 then
-		slot0.infov = slot1
-		slot0.flagLight = slot2
-
-		if slot0:GetInFOV() ~= slot0:GetInFOV() then
-			slot0:DispatchEvent(uv0.EventUpdateInFov)
-		end
-	end
+function slot0.UpdateInFov(slot0, slot1)
+	AfterCheck({
+		{
+			function ()
+				return uv0:GetInFOV()
+			end,
+			function ()
+				uv0:DispatchEvent(uv1.EventUpdateInFov)
+			end
+		}
+	}, function ()
+		uv0.infov = uv1
+	end)
 end
 
 function slot0.ChangeInLight(slot0, slot1)
-	slot0.inLight = slot0.inLight + (slot1 and 1 or -1)
+	AfterCheck({
+		{
+			function ()
+				return uv0:GetInFOV()
+			end,
+			function ()
+				uv0:DispatchEvent(uv1.EventUpdateInFov)
+			end
+		}
+	}, function ()
+		uv0.inLight = uv0.inLight + (uv1 and 1 or -1)
+	end)
+end
 
-	if slot0:GetInFOV() ~= slot0:GetInFOV() then
-		slot0:DispatchEvent(uv0.EventUpdateInFov)
+function slot0.InFog(slot0)
+	if slot0.fog then
+		return not slot0.fogLight
+	else
+		return slot0:GetTerrain() == uv0.TerrainFog
 	end
+end
+
+function slot0.LookSairenFog(slot0)
+	return slot0.fogSairen or slot0:IsTerrainSairenFog()
+end
+
+function slot0.UpdateFog(slot0, slot1, slot2, slot3)
+	AfterCheck({
+		{
+			function ()
+				return uv0:GetInFOV()
+			end,
+			function ()
+				uv0:DispatchEvent(uv1.EventUpdateInFov)
+			end
+		},
+		{
+			function ()
+				return uv0:InFog()
+			end,
+			function ()
+				uv0:DispatchEvent(uv1.EventUpdateFog)
+			end
+		},
+		{
+			function ()
+				return uv0:LookSairenFog()
+			end,
+			function ()
+				uv0:DispatchEvent(uv1.EventUpdateFogImage)
+			end
+		}
+	}, function ()
+		uv0.fog = defaultValue(uv1, uv0.fog)
+		uv0.fogLight = defaultValue(uv2, uv0.fogLight)
+		uv0.fogSairen = defaultValue(uv3, uv0.fogSairen)
+	end)
 end
 
 function slot0.UpdateDiscovered(slot0, slot1)
@@ -131,39 +191,44 @@ function slot0.UpdateDiscovered(slot0, slot1)
 	end
 end
 
-function slot0.UpdateFog(slot0, slot1, slot2)
-	if tobool(slot0.isSairenFog) ~= tobool(slot2) then
-		slot0.isSairenFog = slot2
-
-		slot0:DispatchEvent(uv0.EventUpdateFogImage)
-	end
-
-	if tobool(slot0.fog) ~= tobool(slot1) then
-		slot0.fog = slot1
-
-		slot0:DispatchEvent(uv0.EventUpdateFog)
-	end
-end
-
 function slot0.GetTerrain(slot0)
 	return slot0.terrain or uv0.TerrainNone
 end
 
 function slot0.UpdateTerrain(slot0, slot1, slot2, slot3)
-	slot0.terrain = slot1
+	AfterCheck({
+		{
+			function ()
+				return uv0:InFog()
+			end,
+			function ()
+				uv0:DispatchEvent(uv1.EventUpdateFog)
+			end
+		},
+		{
+			function ()
+				return uv0:LookSairenFog()
+			end,
+			function ()
+				uv0:DispatchEvent(uv1.EventUpdateFogImage)
+			end
+		}
+	}, function ()
+		uv0.terrain = uv1
 
-	if slot0.terrain == uv0.TerrainStream then
-		slot0.terrainDir = slot2
-	elseif slot0.terrain == uv0.TerrainWind then
-		slot0.terrainDir = slot2
-		slot0.terrainStrong = slot3
-	elseif slot0.terrain == uv0.TerrainFog then
-		slot0.terrainStrong = slot3
-	elseif slot0.terrain == uv0.TerrainPoison then
-		slot0.terrainStrong = slot3
-	end
+		if uv0.terrain == uv2.TerrainStream then
+			uv0.terrainDir = uv3
+		elseif uv0.terrain == uv2.TerrainWind then
+			uv0.terrainDir = uv3
+			uv0.terrainStrong = uv4
+		elseif uv0.terrain == uv2.TerrainFog then
+			uv0.terrainStrong = uv4
+		elseif uv0.terrain == uv2.TerrainPoison then
+			uv0.terrainStrong = uv4
+		end
 
-	slot0:DispatchEvent(uv0.EventUpdateTerrain)
+		uv0:DispatchEvent(uv2.EventUpdateTerrain)
+	end)
 end
 
 function slot0.GetAliveAttachments(slot0)
@@ -222,51 +287,41 @@ function slot0.FindAliveAttachment(slot0, slot1)
 	end)
 end
 
-function slot0.IsTerrainCage(slot0)
-	return slot0.terrain == uv0.TerrainWind
-end
-
 function slot0.IsTerrainSairenFog(slot0)
 	return slot0.terrain == uv0.TerrainFog and slot0.terrainStrong == 0
 end
 
-function slot0.IsTerrainObstacle(slot0)
-	return slot0.terrain == uv0.TerrainStream or slot0.terrain == uv0.TerrainIce or slot0.terrain == uv0.TerrainWind or slot0.terrain == uv0.TerrainFog
-end
-
-function slot0.IsWalkable(slot0)
-	return slot0.walkable and not slot0:IsTerrainSairenFog() and not _.any(slot0.attachments, function (slot0)
-		return slot0:IsAlive() and not slot0:IsWalkable()
+function slot0.CanLeave(slot0)
+	return slot0.walkable and slot0:GetTerrainObstacleConfig("leave") and underscore.all(slot0.attachments, function (slot0)
+		return not slot0:IsAlive() or slot0:CanLeave()
 	end)
 end
 
-function slot0.IsObstacle(slot0)
-	return _.any(slot0.attachments, function (slot0)
-		return slot0:IsAlive() and slot0:IsObstacle()
-	end) or slot0:IsTerrainObstacle()
+function slot0.CanArrive(slot0)
+	return slot0.walkable and slot0:GetTerrainObstacleConfig("arrive") and underscore.all(slot0.attachments, function (slot0)
+		return not slot0:IsAlive() or slot0:CanArrive()
+	end)
 end
 
-function slot0.IsCage(slot0)
-	return _.any(slot0.attachments, function (slot0)
-		return slot0:IsCage() and slot0:IsAlive()
-	end) or slot0:IsTerrainCage()
+function slot0.CanPass(slot0)
+	return slot0.walkable and slot0:GetTerrainObstacleConfig("pass") and underscore.all(slot0.attachments, function (slot0)
+		return not slot0:IsAlive() or slot0:CanPass()
+	end)
 end
 
 function slot0.IsSign(slot0)
 	return _.any(slot0.attachments, function (slot0)
-		return slot0:IsSign() and slot0:IsAlive()
+		return slot0:IsAlive() and slot0:IsSign()
 	end)
 end
 
 function slot0.ExistEnemy(slot0)
-	return _.any(slot0.attachments, function (slot0)
-		return WorldMapAttachment.IsEnemyType(slot0.type) and slot0:IsAlive()
-	end)
+	return tobool(slot0:GetStageEnemy())
 end
 
 function slot0.GetStageEnemy(slot0)
 	return _.detect(slot0.attachments, function (slot0)
-		return WorldMapAttachment.IsEnemyType(slot0.type) and slot0.flag ~= 1
+		return slot0:IsAlive() and WorldMapAttachment.IsEnemyType(slot0.type)
 	end)
 end
 
@@ -274,14 +329,10 @@ function slot0.GetDisplayQuad(slot0)
 	slot1 = nil
 	slot2 = slot0:GetDisplayAttachment()
 
-	if not slot0.fog and slot2 then
+	if not slot0:InFog() and slot2 then
 		if slot2.type == WorldMapAttachment.TypeEvent then
 			if slot2.config.object_icon and #slot3 > 0 then
 				slot1 = slot3
-			elseif slot2:HasBattleEvent() then
-				slot1 = {
-					"cell_red"
-				}
 			end
 		elseif WorldMapAttachment.IsEnemyType(slot2.type) then
 			slot1 = {
@@ -310,6 +361,25 @@ function slot0.GetScannerAttachment(slot0)
 	end
 
 	return slot2
+end
+
+slot0.TerrainObstacleConfig = {
+	SairenFog = 4,
+	[slot0.TerrainNone] = 7,
+	[slot0.TerrainStream] = 6,
+	[slot0.TerrainIce] = 6,
+	[slot0.TerrainWind] = 2,
+	[slot0.TerrainFog] = 6,
+	[slot0.TerrainFire] = 7,
+	[slot0.TerrainPoison] = 7
+}
+
+function slot0.GetTerrainObstacleConfig(slot0, slot1)
+	return bit.band(uv0.TerrainObstacleConfig[slot0:IsTerrainSairenFog() and "SairenFog" or slot0:GetTerrain()], WorldConst.GetObstacleKey(slot1)) > 0
+end
+
+function slot0.IsMovingTerrain(slot0)
+	return slot0 == uv0.TerrainStream or slot0 == uv0.TerrainIce or slot0 == uv0.TerrainWind
 end
 
 return slot0

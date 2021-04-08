@@ -64,74 +64,84 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 296002,
+							moveCast = true,
 							score = 0,
 							delay = 0,
-							moveCast = true,
+							affix = true,
 							corrdinate = {
-								0,
+								-3,
 								0,
 								55
 							},
 							bossData = {
 								hpBarNum = 100,
-								icon = "sairenboss9"
-							},
-							buffList = {
-								8050,
-								8051
+								icon = "zhumo"
 							},
 							phase = {
 								{
-									switchParam = 5,
+									switchType = 1,
 									switchTo = 1,
 									index = 0,
-									switchType = 1,
-									setAI = 10001,
-									addWeapon = {
-										2012300
-									}
+									switchParam = 1,
+									setAI = 10001
 								},
 								{
 									switchType = 1,
 									switchTo = 2,
 									index = 1,
-									switchParam = 45,
+									switchParam = 15,
 									addWeapon = {
-										2012340,
-										2012350
+										2012400
 									}
 								},
 								{
+									switchParam = 15,
+									switchTo = 3,
 									index = 2,
 									switchType = 1,
-									switchTo = 3,
-									switchParam = 32
+									setAI = 100012,
+									removeWeapon = {
+										2012400
+									},
+									addWeapon = {
+										2012450
+									}
+								},
+								{
+									switchParam = 6,
+									switchTo = 4,
+									index = 3,
+									switchType = 1,
+									setAI = 100010,
+									addBuff = {
+										79001
+									}
 								},
 								{
 									switchType = 1,
-									switchTo = 1,
-									index = 3,
-									switchParam = 40,
-									setAI = 20006
+									switchParam = 13,
+									index = 4,
+									switchTo = 5,
+									setAI = 100012,
+									addBuff = {
+										79001
+									},
+									removeWeapon = {
+										2012450
+									},
+									addWeapon = {
+										2004520
+									}
+								},
+								{
+									switchType = 1,
+									switchTo = 4,
+									index = 5,
+									switchParam = 13,
+									addWeapon = {
+										2012550
+									}
 								}
-							}
-						}
-					},
-					airFighter = {
-						{
-							interval = 12,
-							onceNumber = 10,
-							formation = 20001,
-							templateID = 2030030,
-							delay = 0,
-							totalNumber = 60,
-							weaponID = {
-								1100759
-							},
-							attr = {
-								airPower = 40,
-								maxHP = 15,
-								attackRating = 23
 							}
 						}
 					}

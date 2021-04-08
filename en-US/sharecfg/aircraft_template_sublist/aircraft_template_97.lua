@@ -1,15 +1,5 @@
 pg = pg or {}
 pg.aircraft_template_97 = {
-	[38022] = {
-		id = 38022,
-		base = 38020,
-		max_hp = 35,
-		hp_growth = 1352,
-		weapon_ID = {
-			50022,
-			51322
-		}
-	},
 	[38023] = {
 		id = 38023,
 		base = 38020,
@@ -163,6 +153,81 @@ pg.aircraft_template_97 = {
 		weapon_ID = {
 			50047,
 			51347
+		}
+	},
+	[38060] = {
+		name = "九七式舰攻改",
+		max_hp = 30,
+		accuracy = 23,
+		model_ID = "97jiangongGai",
+		ACC_growth = 0,
+		crash_DMG = 148,
+		dodge = 1.17,
+		attack_power = 2,
+		dodge_limit = 4,
+		type = 2,
+		AP_growth = 2000,
+		icon = "97jiangongGai",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1155,
+		speed = 48,
+		id = 38060,
+		scale = 1,
+		weapon_ID = {
+			50040,
+			51340
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.84,
+					-1.17,
+					0
+				},
+				{
+					1.02,
+					1.5,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	}
 }

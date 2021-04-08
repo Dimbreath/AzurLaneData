@@ -13,15 +13,13 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onHPRatioUpdate"
+				"onAttach"
 			},
 			arg_list = {
-				check_target = "TargetSelf",
-				skill_id = 30000007,
 				minTargetNumber = 1,
-				hpOutInterval = true,
+				skill_id = 30000007,
 				target = "TargetSelf",
-				hpLowerBound = 0.95
+				check_target = "TargetSelf"
 			}
 		}
 	}

@@ -2979,7 +2979,7 @@ Morale drain and Affection gain are also increased by 100%. ]]
 		}
 	},
 	world_transport_disable = {
-		tip = "Unable to leave through this zone. "
+		tip = "Unable to leave through this zone. Confirm?"
 	},
 	world_resource_tip_1 = {
 		tip = "未配置tip"
@@ -3096,6 +3096,9 @@ Morale drain and Affection gain are also increased by 100%. ]]
 	world_shop_preview_tip = {
 		tip = "Purchase is available after reset"
 	},
+	world_shop_init_notice = {
+		tip = "Operation Siren has reset. Would you like to go to the shop?"
+	},
 	world_map_title_tips_en = {
 		tip = "OPERATION INFO"
 	},
@@ -3127,7 +3130,7 @@ Morale drain and Affection gain are also increased by 100%. ]]
 		tip = "Unable to accept new missions until all unfinished missions in this zone are completed. "
 	},
 	world_task_maplock = {
-		tip = "You may not leave this zone yet because there are still unfinished missions. Please check\"Information\" for more details. "
+		tip = "You may not leave this zone yet because there are still unfinished missions. Please check\"Information\" for more details. Confirm？"
 	},
 	world_task_goto0 = {
 		tip = "There are no missions in this zone."
@@ -3308,7 +3311,10 @@ Are you sure you want to cancel the item retrieval?
 		tip = "Operation Level:\nYour current Operation Level is <color=#92fc63>$1</color>. Please consider challenging stages with an equal or lower Corrosion Level. "
 	},
 	world_movelimit_event_text = {
-		tip = "Can't leave now due to unfinished missions in this zone"
+		tip = "Can't leave now due to unfinished missions in this zone. Confirm？"
+	},
+	world_sametask_tip = {
+		tip = "Unable to accept mission: Only one of the same mission can be active."
 	},
 	task_notfound_error = {
 		tip = "Unable to find mission config. Update may be required. Error ID: "
@@ -12918,6 +12924,27 @@ next character that appears on-screen.
 	autofight_task = {
 		tip = "Mission Completed: $1"
 	},
+	autofight_effect = {
+		tip = "Adaptability Increased: Offensive +$1, Survival +$2, Tactical +$3"
+	},
+	autofight_file = {
+		tip = "Files Retrieved: $1"
+	},
+	autofight_discovery = {
+		tip = "Exploration Goals Achieved:$1"
+	},
+	autofight_tip_bigworld_dead = {
+		tip = "Auto Search has been disabled\ndue to your fleet being defeated."
+	},
+	autofight_tip_bigworld_begin = {
+		tip = "Auto Search has been enabled for this fleet."
+	},
+	autofight_tip_bigworld_stop = {
+		tip = "Auto Search has been disabled for this fleet."
+	},
+	autofight_tip_bigworld_suspend = {
+		tip = "Auto Search has been disabled because there are no more visible exploration targets."
+	},
 	autofight_farm = {
 		tip = "Clearing Mode"
 	},
@@ -13425,6 +13452,12 @@ Daily: Can be completed every day, resetting at 0:00 every day.]]
 	world_setting_quickmodetip = {
 		tip = "Disable TB's repeated instruction dialogue "
 	},
+	world_setting_submititem = {
+		tip = "Auto use items during\nAuto Search"
+	},
+	world_setting_submititemtip = {
+		tip = "When enabled: During Auto Search mode, items will automatically be used when encountering events that normally require the use of items.\nWhen disabled: During Auto Search mode, events that normally require the use of items will be ignored."
+	},
 	world_boss_maintenance = {
 		tip = "You are unable to begin an Ashes Showdown immediately before server maintenance. "
 	},
@@ -13590,5 +13623,14 @@ Your Action Points will also reset, starting you off with <color=#92fc63>200 AP.
 	},
 	setting_story_speed_4 = {
 		tip = "Very Fast"
+	},
+	story_autoplay_setting_label = {
+		tip = "Story Autoplay"
+	},
+	story_autoplay_setting_1 = {
+		tip = "Disabled"
+	},
+	story_autoplay_setting_2 = {
+		tip = "Enabled"
 	}
 }

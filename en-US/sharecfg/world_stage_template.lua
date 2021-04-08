@@ -123,10 +123,10 @@ pg.world_stage_template = {
 	},
 	{
 		fleet_num = 0,
-		stage_key = 100,
+		stage_key = 23,
 		id = 11,
 		stage_ui = {
-			16,
+			19,
 			0
 		},
 		stage_effect = {
@@ -139,7 +139,7 @@ pg.world_stage_template = {
 		stage_key = 100,
 		id = 12,
 		stage_ui = {
-			17,
+			16,
 			0
 		},
 		stage_effect = {
@@ -152,6 +152,19 @@ pg.world_stage_template = {
 		stage_key = 100,
 		id = 13,
 		stage_ui = {
+			17,
+			0
+		},
+		stage_effect = {
+			{},
+			{}
+		}
+	},
+	{
+		fleet_num = 0,
+		stage_key = 100,
+		id = 14,
+		stage_ui = {
 			18,
 			0
 		},
@@ -162,8 +175,21 @@ pg.world_stage_template = {
 	},
 	{
 		fleet_num = 0,
+		stage_key = 100,
+		id = 15,
+		stage_ui = {
+			20,
+			0
+		},
+		stage_effect = {
+			{},
+			{}
+		}
+	},
+	{
+		fleet_num = 0,
 		stage_key = 20,
-		id = 14,
+		id = 16,
 		stage_ui = {
 			13,
 			0
@@ -176,7 +202,7 @@ pg.world_stage_template = {
 	{
 		fleet_num = 0,
 		stage_key = 9999,
-		id = 15,
+		id = 17,
 		stage_ui = {
 			14,
 			0
@@ -189,7 +215,7 @@ pg.world_stage_template = {
 	{
 		fleet_num = 0,
 		stage_key = 9999,
-		id = 16,
+		id = 18,
 		stage_ui = {
 			2,
 			0
@@ -215,6 +241,8 @@ pg.world_stage_template = {
 		13,
 		14,
 		15,
-		16
+		16,
+		17,
+		18
 	}
 }

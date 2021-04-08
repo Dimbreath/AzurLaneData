@@ -257,11 +257,7 @@ function slot0.SetFleetSuccess(slot0)
 	}
 
 	if slot0.contextData.mapId then
-		if WorldConst.IsRookieMap(slot0.contextData.mapId) then
-			slot1 = {
-				inMap = true
-			}
-		elseif nowWorld:IsReseted() then
+		if nowWorld:IsReseted() then
 			slot1 = {
 				inShop = true
 			}

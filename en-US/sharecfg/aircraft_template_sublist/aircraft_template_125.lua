@@ -1,15 +1,5 @@
 pg = pg or {}
 pg.aircraft_template_125 = {
-	[47144] = {
-		id = 47144,
-		base = 47140,
-		max_hp = 67,
-		hp_growth = 2580,
-		weapon_ID = {
-			59144,
-			59244
-		}
-	},
 	[47145] = {
 		id = 47145,
 		base = 47140,
@@ -98,6 +88,81 @@ pg.aircraft_template_125 = {
 		weapon_ID = {
 			59153,
 			59253
+		}
+	},
+	[48000] = {
+		name = "Ar-195舰载鱼雷机",
+		max_hp = 32,
+		accuracy = 23,
+		model_ID = "Ar195",
+		ACC_growth = 0,
+		crash_DMG = 141,
+		dodge = 1.17,
+		attack_power = 2,
+		dodge_limit = 3,
+		type = 2,
+		AP_growth = 2000,
+		icon = "Ar195",
+		funnel_behavior = "",
+		nationality = 4,
+		hp_growth = 1216,
+		speed = 48,
+		id = 48000,
+		scale = 1,
+		weapon_ID = {
+			59760,
+			59660
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.01,
+					0
+				},
+				{
+					0.84,
+					1.5,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	}
 }

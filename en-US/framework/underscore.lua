@@ -262,20 +262,22 @@ function slot0.funcs.slice(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.funcs.flatten(slot0)
-	slot1 = {}
-
-	for slot5 in uv0.iter(slot0) do
-		if type(slot5) == "table" then
-			uv0.funcs.each(uv0.funcs.flatten(slot5), function (slot0)
-				uv0[#uv0 + 1] = slot0
-			end)
-		else
-			slot1[#slot1 + 1] = slot5
+function slot0.funcs.unfold(slot0, slot1)
+	if type(slot0) == "table" then
+		for slot5 in uv0.iter(slot0) do
+			uv0.funcs.unfold(slot5, slot1)
 		end
+	else
+		slot1(slot0)
 	end
+end
 
-	return slot1
+function slot0.funcs.flatten(slot0)
+	uv0.funcs.unfold(slot0, function (slot0)
+		uv0[#uv0 + 1] = slot0
+	end)
+
+	return {}
 end
 
 function slot0.funcs.push(slot0, slot1)

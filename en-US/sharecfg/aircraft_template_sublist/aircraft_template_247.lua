@@ -1,87 +1,106 @@
 pg = pg or {}
 pg.aircraft_template_247 = {
-	[84125] = {
-		id = 84125,
-		base = 84120,
-		max_hp = 67,
-		hp_growth = 2587,
+	[84146] = {
+		id = 84146,
+		base = 84140,
+		max_hp = 80,
+		hp_growth = 3064,
 		weapon_ID = {
-			59125,
-			59225
+			59146,
+			59246
 		}
 	},
-	[84126] = {
-		id = 84126,
-		base = 84120,
-		max_hp = 73,
-		hp_growth = 2809,
+	[84147] = {
+		id = 84147,
+		base = 84140,
+		max_hp = 86,
+		hp_growth = 3306,
 		weapon_ID = {
-			59126,
-			59226
+			59147,
+			59247
 		}
 	},
-	[84127] = {
-		id = 84127,
-		base = 84120,
-		max_hp = 79,
-		hp_growth = 3031,
+	[84148] = {
+		id = 84148,
+		base = 84140,
+		max_hp = 92,
+		hp_growth = 3548,
 		weapon_ID = {
-			59127,
-			59227
+			59148,
+			59248
 		}
 	},
-	[84128] = {
-		id = 84128,
-		base = 84120,
-		max_hp = 85,
-		hp_growth = 3252,
+	[84149] = {
+		id = 84149,
+		base = 84140,
+		max_hp = 99,
+		hp_growth = 3790,
 		weapon_ID = {
-			59128,
-			59228
+			59149,
+			59249
 		}
 	},
-	[84129] = {
-		id = 84129,
-		base = 84120,
-		max_hp = 90,
-		hp_growth = 3474,
+	[84150] = {
+		id = 84150,
+		base = 84140,
+		max_hp = 105,
+		hp_growth = 4032,
 		weapon_ID = {
-			59129,
-			59229
+			59150,
+			59250
 		}
 	},
-	[84130] = {
-		id = 84130,
-		base = 84120,
-		max_hp = 96,
-		hp_growth = 3696,
+	[84151] = {
+		id = 84151,
+		base = 84140,
+		max_hp = 111,
+		hp_growth = 4274,
 		weapon_ID = {
-			59130,
-			59230
+			59151,
+			59251
 		}
 	},
-	[84140] = {
-		name = "Me-155A舰载战斗机T3",
-		max_hp = 42,
+	[84152] = {
+		id = 84152,
+		base = 84140,
+		max_hp = 117,
+		hp_growth = 4516,
+		weapon_ID = {
+			59152,
+			59252
+		}
+	},
+	[84153] = {
+		id = 84153,
+		base = 84140,
+		max_hp = 124,
+		hp_growth = 4758,
+		weapon_ID = {
+			59153,
+			59253
+		}
+	},
+	[88000] = {
+		name = "GL.2舰载战斗机T0",
+		max_hp = 31,
 		accuracy = 23,
-		model_ID = "Me155A",
+		model_ID = "GL2",
 		ACC_growth = 0,
-		crash_DMG = 65,
-		dodge = 0.315,
+		crash_DMG = 51,
+		dodge = 0.354,
 		attack_power = 2,
-		dodge_limit = 10,
+		dodge_limit = 8.5,
 		type = 1,
 		AP_growth = 2000,
-		icon = "Me155A",
+		icon = "GL2",
 		funnel_behavior = "",
-		nationality = 4,
-		hp_growth = 1613,
-		speed = 50,
-		id = 84140,
+		nationality = 8,
+		hp_growth = 1210,
+		speed = 48,
+		id = 88000,
 		scale = 1,
 		weapon_ID = {
-			59140,
-			59240
+			50020
 		},
 		position_offset = {
 			0,
@@ -135,34 +154,13 @@ pg.aircraft_template_247 = {
 			}
 		}
 	},
-	[84141] = {
-		id = 84141,
-		base = 84140,
-		max_hp = 48,
-		hp_growth = 1855,
+	[88001] = {
+		id = 88001,
+		base = 88000,
+		max_hp = 36,
+		hp_growth = 1391,
 		weapon_ID = {
-			59141,
-			59241
-		}
-	},
-	[84142] = {
-		id = 84142,
-		base = 84140,
-		max_hp = 55,
-		hp_growth = 2097,
-		weapon_ID = {
-			59142,
-			59242
-		}
-	},
-	[84143] = {
-		id = 84143,
-		base = 84140,
-		max_hp = 61,
-		hp_growth = 2339,
-		weapon_ID = {
-			59143,
-			59243
+			50021
 		}
 	}
 }

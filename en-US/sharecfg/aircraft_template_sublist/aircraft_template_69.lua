@@ -1,15 +1,5 @@
 pg = pg or {}
 pg.aircraft_template_69 = {
-	[28231] = {
-		id = 28231,
-		base = 28220,
-		max_hp = 104,
-		hp_growth = 3983,
-		weapon_ID = {
-			50671,
-			51151
-		}
-	},
 	[28232] = {
 		id = 28232,
 		base = 28220,
@@ -228,6 +218,16 @@ pg.aircraft_template_69 = {
 		weapon_ID = {
 			50022,
 			51022
+		}
+	},
+	[28323] = {
+		id = 28323,
+		base = 28320,
+		max_hp = 46,
+		hp_growth = 1763,
+		weapon_ID = {
+			50023,
+			51023
 		}
 	}
 }

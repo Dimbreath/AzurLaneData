@@ -1,61 +1,41 @@
 pg = pg or {}
 pg.aircraft_template_171 = {
-	[68308] = {
-		max_hp = 86,
-		name = "绊爱技能轰炸机Lv8",
-		base = 68301,
-		id = 68308,
-		hp_growth = 3531,
-		weapon_ID = {
-			68318,
-			68328
-		}
-	},
-	[68309] = {
-		max_hp = 92,
-		name = "绊爱技能轰炸机Lv9",
-		base = 68301,
-		id = 68309,
-		hp_growth = 3772,
-		weapon_ID = {
-			68319,
-			68329
-		}
-	},
-	[68310] = {
+	[68340] = {
 		max_hp = 98,
-		name = "绊爱技能轰炸机Lv10",
-		base = 68301,
-		id = 68310,
-		hp_growth = 4013,
+		name = "小赤城技能飞机Lv10",
+		base = 68331,
+		id = 68340,
+		hp_growth = 3678,
 		weapon_ID = {
-			68320,
-			68330
+			68350,
+			68360
 		}
 	},
-	[68331] = {
-		name = "小赤城技能飞机Lv1",
+	[68391] = {
+		name = "科隆改直升机Lv1",
 		max_hp = 42,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "fl-282",
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 3,
+		type = 1,
 		AP_growth = 2000,
-		icon = "99shijianbao1",
-		funnel_behavior = "",
-		nationality = 3,
+		icon = "fl-282",
+		nationality = 4,
 		hp_growth = 1692,
 		speed = 48,
-		id = 68331,
+		id = 68391,
 		scale = 1,
-		weapon_ID = {
-			68341,
-			68351
+		funnel_behavior = {
+			rear = -40,
+			exist = 10,
+			front = -40,
+			stay = 2
 		},
+		weapon_ID = {},
 		position_offset = {
 			0,
 			5,
@@ -108,70 +88,60 @@ pg.aircraft_template_171 = {
 			}
 		}
 	},
-	[68332] = {
+	[68392] = {
+		id = 68392,
+		name = "科隆改直升机Lv2",
+		base = 68391,
 		max_hp = 48,
-		name = "小赤城技能飞机Lv2",
-		base = 68331,
-		id = 68332,
-		hp_growth = 1913,
-		weapon_ID = {
-			68342,
-			68352
-		}
+		hp_growth = 1913
 	},
-	[68333] = {
+	[68393] = {
+		id = 68393,
+		name = "科隆改直升机Lv3",
+		base = 68391,
 		max_hp = 54,
-		name = "小赤城技能飞机Lv3",
-		base = 68331,
-		id = 68333,
-		hp_growth = 2133,
-		weapon_ID = {
-			68343,
-			68353
-		}
+		hp_growth = 2133
 	},
-	[68334] = {
+	[68394] = {
+		id = 68394,
+		name = "科隆改直升机Lv4",
+		base = 68391,
 		max_hp = 61,
-		name = "小赤城技能飞机Lv4",
-		base = 68331,
-		id = 68334,
-		hp_growth = 2354,
-		weapon_ID = {
-			68344,
-			68354
-		}
+		hp_growth = 2354
 	},
-	[68335] = {
+	[68395] = {
+		id = 68395,
+		name = "科隆改直升机Lv5",
+		base = 68391,
 		max_hp = 67,
-		name = "小赤城技能飞机Lv5",
-		base = 68331,
-		id = 68335,
-		hp_growth = 2575,
-		weapon_ID = {
-			68345,
-			68355
-		}
+		hp_growth = 2575
 	},
-	[68336] = {
+	[68396] = {
+		id = 68396,
+		name = "科隆改直升机Lv6",
+		base = 68391,
 		max_hp = 73,
-		name = "小赤城技能飞机Lv6",
-		base = 68331,
-		id = 68336,
-		hp_growth = 2796,
-		weapon_ID = {
-			68346,
-			68356
-		}
+		hp_growth = 2796
 	},
-	[68337] = {
+	[68397] = {
+		id = 68397,
+		name = "科隆改直升机Lv7",
+		base = 68391,
 		max_hp = 79,
-		name = "小赤城技能飞机Lv7",
-		base = 68331,
-		id = 68337,
-		hp_growth = 3016,
-		weapon_ID = {
-			68347,
-			68357
-		}
+		hp_growth = 3016
+	},
+	[68398] = {
+		id = 68398,
+		name = "科隆改直升机Lv8",
+		base = 68391,
+		max_hp = 86,
+		hp_growth = 3237
+	},
+	[68399] = {
+		id = 68399,
+		name = "科隆改直升机Lv9",
+		base = 68391,
+		max_hp = 92,
+		hp_growth = 3458
 	}
 }

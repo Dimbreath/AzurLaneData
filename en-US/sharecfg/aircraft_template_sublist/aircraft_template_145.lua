@@ -1,15 +1,5 @@
 pg = pg or {}
 pg.aircraft_template_145 = {
-	[66244] = {
-		max_hp = 47,
-		name = "山城改技能Lv4",
-		base = 66240,
-		id = 66244,
-		hp_growth = 1863,
-		weapon_ID = {
-			66264
-		}
-	},
 	[66245] = {
 		max_hp = 52,
 		name = "山城改技能Lv5",
@@ -168,6 +158,18 @@ pg.aircraft_template_145 = {
 			50142,
 			50542,
 			52242
+		}
+	},
+	[66423] = {
+		max_hp = 49,
+		name = "胡蜂技能LV3",
+		base = 66420,
+		id = 66423,
+		hp_growth = 1954,
+		weapon_ID = {
+			50143,
+			50543,
+			52243
 		}
 	}
 }

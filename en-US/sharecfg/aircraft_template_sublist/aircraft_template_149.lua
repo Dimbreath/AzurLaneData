@@ -1,167 +1,103 @@
 pg = pg or {}
 pg.aircraft_template_149 = {
-	[66820] = {
-		name = "飞鹰隼鹰技能Lv0",
-		max_hp = 24,
-		accuracy = 23,
-		model_ID = "97jiangong",
-		ACC_growth = 0,
-		crash_DMG = 148,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 2,
-		AP_growth = 2000,
-		icon = "97jiangong",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 924,
-		speed = 48,
-		id = 66820,
-		scale = 1,
+	[66941] = {
+		max_hp = 36,
+		name = "萨拉托加技能鱼雷机Lv1",
+		base = 66940,
+		id = 66941,
+		hp_growth = 1385,
 		weapon_ID = {
-			66840
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.54,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
+			66981
 		}
 	},
-	[66821] = {
-		max_hp = 27,
-		name = "飞鹰隼鹰技能Lv1",
-		base = 66820,
-		id = 66821,
-		hp_growth = 1051,
+	[66942] = {
+		max_hp = 42,
+		name = "萨拉托加技能鱼雷机Lv2",
+		base = 66940,
+		id = 66942,
+		hp_growth = 1621,
 		weapon_ID = {
-			66841
+			66982
 		}
 	},
-	[66822] = {
-		max_hp = 30,
-		name = "飞鹰隼鹰技能Lv2",
-		base = 66820,
-		id = 66822,
-		hp_growth = 1178,
+	[66943] = {
+		max_hp = 48,
+		name = "萨拉托加技能鱼雷机Lv3",
+		base = 66940,
+		id = 66943,
+		hp_growth = 1857,
 		weapon_ID = {
-			66842
+			66983
 		}
 	},
-	[66823] = {
-		max_hp = 33,
-		name = "飞鹰隼鹰技能Lv3",
-		base = 66820,
-		id = 66823,
-		hp_growth = 1305,
+	[66944] = {
+		max_hp = 54,
+		name = "萨拉托加技能鱼雷机Lv4",
+		base = 66940,
+		id = 66944,
+		hp_growth = 2093,
 		weapon_ID = {
-			66843
+			66984
 		}
 	},
-	[66824] = {
-		max_hp = 37,
-		name = "飞鹰隼鹰技能Lv4",
-		base = 66820,
-		id = 66824,
-		hp_growth = 1432,
+	[66945] = {
+		max_hp = 60,
+		name = "萨拉托加技能鱼雷机Lv5",
+		base = 66940,
+		id = 66945,
+		hp_growth = 2329,
 		weapon_ID = {
-			66844
+			66985
 		}
 	},
-	[66825] = {
-		max_hp = 40,
-		name = "飞鹰隼鹰技能Lv5",
-		base = 66820,
-		id = 66825,
-		hp_growth = 1559,
+	[66946] = {
+		max_hp = 66,
+		name = "萨拉托加技能鱼雷机Lv6",
+		base = 66940,
+		id = 66946,
+		hp_growth = 2565,
 		weapon_ID = {
-			66845
+			66986
 		}
 	},
-	[66826] = {
-		max_hp = 43,
-		name = "飞鹰隼鹰技能Lv6",
-		base = 66820,
-		id = 66826,
-		hp_growth = 1686,
+	[66947] = {
+		max_hp = 72,
+		name = "萨拉托加技能鱼雷机Lv7",
+		base = 66940,
+		id = 66947,
+		hp_growth = 2801,
 		weapon_ID = {
-			66846
+			66987
 		}
 	},
-	[66827] = {
-		max_hp = 47,
-		name = "飞鹰隼鹰技能Lv7",
-		base = 66820,
-		id = 66827,
-		hp_growth = 1813,
+	[66948] = {
+		max_hp = 78,
+		name = "萨拉托加技能鱼雷机Lv8",
+		base = 66940,
+		id = 66948,
+		hp_growth = 3037,
 		weapon_ID = {
-			66847
+			66988
 		}
 	},
-	[66828] = {
-		max_hp = 50,
-		name = "飞鹰隼鹰技能Lv8",
-		base = 66820,
-		id = 66828,
-		hp_growth = 1940,
+	[66949] = {
+		max_hp = 84,
+		name = "萨拉托加技能鱼雷机Lv9",
+		base = 66940,
+		id = 66949,
+		hp_growth = 3274,
 		weapon_ID = {
-			66848
+			66989
 		}
 	},
-	[66829] = {
-		max_hp = 53,
-		name = "飞鹰隼鹰技能Lv9",
-		base = 66820,
-		id = 66829,
-		hp_growth = 2067,
+	[66950] = {
+		max_hp = 91,
+		name = "萨拉托加技能鱼雷机Lv10",
+		base = 66940,
+		id = 66950,
+		hp_growth = 3511,
 		weapon_ID = {
-			66849
+			66990
 		}
 	}
 }

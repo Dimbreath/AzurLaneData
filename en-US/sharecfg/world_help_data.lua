@@ -49,6 +49,10 @@ pg.world_help_data = {
 				"WorldHelpbg/worldhelp2_7"
 			},
 			{
+				15,
+				"WorldHelpbg/worldhelp2_9"
+			},
+			{
 				100,
 				"WorldHelpbg/worldhelp2_8"
 			}

@@ -101,6 +101,8 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_QUIT_BATTLE_MANUALLY, function (slot0)
 		if uv0 == SYSTEM_SCENARIO then
 			getProxy(ChapterProxy):StopAutoFight()
+		elseif uv0 == SYSTEM_WORLD then
+			nowWorld:TriggerAutoFight(false)
 		end
 	end)
 
@@ -478,9 +480,12 @@ function slot0.GenBattleData(slot0)
 			}
 		end
 
-		slot1.AffixBuffList = slot9:GetBattleBuffList()
-
-		function slot11(slot0)
+		slot16 = slot9
+		slot1.AffixBuffList = table.mergeArray(slot9:GetBattleLuaBuffs(), slot6:GetBattleLuaBuffs(WorldMap.FactionEnemy, slot16))
+		slot1.DefeatCount = slot7:getDefeatCount()
+		slot1.ChapterBuffIDs, slot1.CommanderList = slot6:getFleetBattleBuffs(slot7, true)
+		slot1.MapAuraSkills = slot6:GetChapterAuraBuffs()
+		slot1.MapAuraSkills = function (slot0)
 			slot1 = {}
 
 			for slot5, slot6 in ipairs(slot0) do
@@ -491,13 +496,7 @@ function slot0.GenBattleData(slot0)
 			end
 
 			return slot1
-		end
-
-		slot1.DefeatCount = slot7:getDefeatCount()
-		slot1.ChapterBuffIDs, slot1.CommanderList = slot6:getFleetBattleBuffs(slot7, true)
-		slot1.ChapterBuffIDs = slot11(slot1.ChapterBuffIDs)
-		slot1.MapAuraSkills = slot6:GetChapterAuraBuffs()
-		slot1.MapAuraSkills = slot11(slot1.MapAuraSkills)
+		end(slot1.MapAuraSkills)
 		slot1.MapAidSkills = {}
 
 		for slot16, slot17 in pairs(slot6:GetChapterAidBuffs()) do

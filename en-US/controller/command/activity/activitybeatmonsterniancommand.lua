@@ -16,28 +16,18 @@ function slot0.execute(slot0, slot1)
 		arg_list = {}
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
-			for slot5, slot6 in ipairs(slot0.award_list) do
-				slot7 = {
-					type = slot6.type,
-					id = slot6.id,
-					count = slot6.number
-				}
+			slot1 = PlayerConst.addTranDrop(slot0.award_list)
+			uv0.data2 = uv0.data2 + 1
+			uv0.data3 = slot0.number[1]
 
-				table.insert({}, slot7)
-				uv0:sendNotification(GAME.ADD_ITEM, Item.New(slot7))
+			if uv0:GetDataConfig("hp") - uv0.data3 <= 0 then
+				uv0.data1 = 1
 			end
 
-			uv1.data2 = uv1.data2 + 1
-			uv1.data3 = slot0.number[1]
+			getProxy(ActivityProxy):updateActivity(uv0)
 
-			if uv1:GetDataConfig("hp") - uv1.data3 <= 0 then
-				uv1.data1 = 1
-			end
-
-			getProxy(ActivityProxy):updateActivity(uv1)
-
-			if uv2 then
-				uv2(slot1)
+			if uv1 then
+				uv1(slot1)
 			end
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)

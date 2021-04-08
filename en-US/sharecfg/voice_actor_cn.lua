@@ -569,7 +569,7 @@ pg.voice_actor_CN = {
 		code = 142
 	},
 	{
-		actor_name = "Yoshie Sakai",
+		actor_name = "Sakai Yoshie ",
 		code = 143
 	},
 	{

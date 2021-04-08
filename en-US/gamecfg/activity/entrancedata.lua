@@ -297,6 +297,10 @@ return {
 				slot2 = slot1.metaPtData:CanGetAward()
 			end
 
+			if slot2 == false then
+				slot2 = getProxy(MetaCharacterProxy):getRedTag(970702)
+			end
+
 			return slot2
 		end
 	}

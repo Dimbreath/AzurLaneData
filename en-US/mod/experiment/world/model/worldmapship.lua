@@ -96,10 +96,16 @@ function slot0.IsHpSafe(slot0)
 	return slot0.hpRant >= 3000
 end
 
-function slot0.GetBuffList(slot0, slot1)
-	return _.filter(_.values(slot0.buffs), function (slot0)
-		return slot0:GetFloor() > 0 and (not uv0 or slot0.id ~= WorldConst.BrokenBuffId)
+function slot0.GetBuffList(slot0)
+	slot1 = underscore.filter(underscore.values(slot0.buffs), function (slot0)
+		return slot0:GetFloor() > 0
 	end)
+
+	if slot0.fleetId and nowWorld:GetFleet(slot0.fleetId):GetDamageBuff() then
+		table.insert(slot1, slot2)
+	end
+
+	return slot1
 end
 
 function slot0.GetBuff(slot0, slot1)
@@ -116,7 +122,7 @@ function slot0.GetBuff(slot0, slot1)
 end
 
 function slot0.AddBuff(slot0, slot1, slot2)
-	slot0.buffs[slot1]:AddFloor(slot2)
+	slot0:GetBuff(slot1):AddFloor(slot2)
 
 	if slot1 == WorldConst.BrokenBuffId then
 		slot0:DispatchEvent(uv0.EventUpdateBroken)
@@ -126,19 +132,17 @@ function slot0.AddBuff(slot0, slot1, slot2)
 end
 
 function slot0.RemoveBuff(slot0, slot1, slot2)
-	if slot0.buffs[slot1] then
-		if slot2 and slot2 < slot3:GetFloor() then
-			slot3:AddFloor(slot2 * -1)
-		else
-			slot0.buffs[slot1] = nil
-		end
-
-		if slot1 == WorldConst.BrokenBuffId then
-			slot0:DispatchEvent(uv0.EventUpdateBroken)
-		end
-
-		slot0:DispatchEvent(uv0.EventUpdateBuff)
+	if slot2 then
+		slot0:GetBuff(slot1):AddFloor(slot2 * -1)
+	else
+		slot0.buffs[slot1] = nil
 	end
+
+	if slot1 == WorldConst.BrokenBuffId then
+		slot0:DispatchEvent(uv0.EventUpdateBroken)
+	end
+
+	slot0:DispatchEvent(uv0.EventUpdateBuff)
 end
 
 function slot0.IsBuffMax(slot0, slot1)
@@ -167,54 +171,19 @@ function slot0.IsBroken(slot0)
 	return slot0:GetBuff(WorldConst.BrokenBuffId):GetFloor() > 0
 end
 
-function slot0.GetShipBuffList(slot0)
-	slot1 = slot0:GetBuffList(true)
-
-	if slot0.fleetId and nowWorld:GetFleet(slot0.fleetId) then
-		for slot7, slot8 in ipairs(slot3:GetBuffList()) do
-			table.insert(slot1, slot8)
-		end
-	end
-
-	return slot1
-end
-
 function slot0.GetShipBuffProperties(slot0)
 	slot1 = {}
 	slot2 = {}
 
-	WorldConst.AppendPropertiesFromBuffList(slot1, slot2, slot0:GetShipBuffList())
+	WorldConst.AppendPropertiesFromBuffList(slot1, slot2, slot0.fleetId and nowWorld:GetFleet(slot0.fleetId):GetBuffList() or {})
 
 	return slot1, slot2
 end
 
 function slot0.GetShipPowerBuffProperties(slot0)
-	slot1 = nowWorld
-	slot3 = {}
-
-	if slot0:GetBuff(WorldConst.BrokenBuffId):GetFloor() > 0 then
-		table.insert({}, slot4)
-	end
-
-	if slot0.fleetId and checkExist(slot1:GetFleet(slot0.fleetId), {
-		"GetDamageBuff"
-	}) then
-		table.insert(slot2, slot5)
-	end
-
-	WorldConst.ExtendpropertiesRatesFromBuffList(slot3, slot2)
-
-	return slot3
-end
-
-function slot0.GetShipBattleBuff(slot0)
 	slot1 = {}
 
-	for slot6, slot7 in ipairs(slot0:GetShipBuffList()) do
-		if slot7.config.lua_id > 0 then
-			table.insert(slot1, slot8)
-		end
-	end
+	WorldConst.ExtendPropertiesRatesFromBuffList(slot1, slot0:GetBuffList())
 
 	return slot1
 end

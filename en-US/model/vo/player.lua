@@ -575,4 +575,8 @@ function slot0.CheckIdentityFlag(slot0)
 	return slot0.identityFlag == 1
 end
 
+function slot0.GetRegisterTime(slot0)
+	return slot0.registerTime
+end
+
 return slot0

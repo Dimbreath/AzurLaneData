@@ -1,17 +1,5 @@
 pg = pg or {}
 pg.aircraft_template_146 = {
-	[66423] = {
-		max_hp = 49,
-		name = "胡蜂技能LV3",
-		base = 66420,
-		id = 66423,
-		hp_growth = 1954,
-		weapon_ID = {
-			50143,
-			50543,
-			52243
-		}
-	},
 	[66424] = {
 		max_hp = 55,
 		name = "胡蜂技能LV4",
@@ -96,11 +84,11 @@ pg.aircraft_template_146 = {
 			52250
 		}
 	},
-	[66440] = {
-		name = "联结·阿萨姆LV0",
-		max_hp = 35,
+	[66580] = {
+		name = "宝石枪雨LV0",
+		max_hp = 38,
 		accuracy = 23,
-		model_ID = "sb2c",
+		model_ID = "Nep_green",
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
@@ -108,15 +96,15 @@ pg.aircraft_template_146 = {
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "sb2c",
+		icon = "Nep_green",
 		funnel_behavior = "",
 		nationality = 1,
-		hp_growth = 1331,
+		hp_growth = 1478,
 		speed = 50,
-		id = 66440,
+		id = 66580,
 		scale = 1,
 		weapon_ID = {
-			66600
+			66620
 		},
 		position_offset = {
 			0,
@@ -136,13 +124,13 @@ pg.aircraft_template_146 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.69,
-					-2.62,
+					1.28,
+					-0.38,
 					0
 				},
 				{
-					0.85,
-					0.17,
+					1.43,
+					1.85,
 					0
 				}
 			}
@@ -170,14 +158,24 @@ pg.aircraft_template_146 = {
 			}
 		}
 	},
-	[66441] = {
-		max_hp = 42,
-		name = "联结·阿萨姆LV1",
-		base = 66440,
-		id = 66441,
-		hp_growth = 1604,
+	[66581] = {
+		max_hp = 45,
+		name = "宝石枪雨LV1",
+		base = 66580,
+		id = 66581,
+		hp_growth = 1773,
 		weapon_ID = {
-			66601
+			66621
+		}
+	},
+	[66582] = {
+		max_hp = 52,
+		name = "宝石枪雨LV2",
+		base = 66580,
+		id = 66582,
+		hp_growth = 2068,
+		weapon_ID = {
+			66622
 		}
 	}
 }

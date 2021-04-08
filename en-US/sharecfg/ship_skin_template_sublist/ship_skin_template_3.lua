@@ -2982,6 +2982,111 @@ pg.ship_skin_template_3 = {
 			}
 		}
 	},
+	[103082] = {
+		name = "Black Bunny Carnival",
+		ship_group = 10308,
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "Heyyo! You ready for this, Commander? It's carnival day! You can have all the drinks you want, it's on the house!",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "asituoliya_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "1102",
+		shop_type_id = 9999,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "104",
+		skin_type = 0,
+		id = 103082,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "asituoliya_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70527,
+		voice_actor = 143,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.15,
+					0.83,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.15,
+					0.84,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.33,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[103090] = {
 		name = "Quincy",
 		ship_group = 10309,
@@ -7027,116 +7132,6 @@ pg.ship_skin_template_3 = {
 						{
 							-0.4,
 							2.34,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[105190] = {
-		name = "Massachusetts",
-		ship_group = 10519,
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "South Dakota-class battleship – Massachusetts, Hull Number BB-59.",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "masazhusai",
-		no_showing = "0",
-		air_bullet_skin = "",
-		bg_sp = "",
-		shop_type_id = 0,
-		hand_id = 3,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		bg = "",
-		skin_type = -1,
-		id = 105190,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "masazhusai",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 131,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.11,
-					1.23,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.11,
-					1.24,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.17,
-					0.11,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.05,
-					1.23,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.16,
 							0
 						}
 					}

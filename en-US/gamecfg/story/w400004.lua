@@ -18,8 +18,9 @@ return {
 			},
 			options = {
 				{
-					content = "Leave the zone.",
-					flag = 1
+					flag = 1,
+					autochoice = 1,
+					content = "Leave the zone."
 				},
 				{
 					content = "Stay a bit longer.",

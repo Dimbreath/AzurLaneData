@@ -11085,7 +11085,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8665,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -11125,9 +11125,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2020,
-					11,
-					18
+					2021,
+					4,
+					8
 				},
 				{
 					0,
@@ -11137,9 +11137,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					12,
-					2
+					2021,
+					4,
+					14
 				},
 				{
 					23,
@@ -11159,7 +11159,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8665,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -11199,9 +11199,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2020,
-					11,
-					18
+					2021,
+					4,
+					8
 				},
 				{
 					0,
@@ -11211,9 +11211,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					12,
-					2
+					2021,
+					4,
+					14
 				},
 				{
 					23,
@@ -11233,7 +11233,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8665,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -11273,9 +11273,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2020,
-					11,
-					18
+					2021,
+					4,
+					8
 				},
 				{
 					0,
@@ -11285,9 +11285,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					12,
-					2
+					2021,
+					4,
+					14
 				},
 				{
 					23,
@@ -11307,7 +11307,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8665,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -11347,9 +11347,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2020,
-					11,
-					18
+					2021,
+					4,
+					8
 				},
 				{
 					0,
@@ -11359,9 +11359,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					12,
-					2
+					2021,
+					4,
+					14
 				},
 				{
 					23,
@@ -14185,14 +14185,14 @@ pg.shop_template = {
 	[70166] = {
 		group_type = 0,
 		resource_num = 880,
-		desc = "购买皮肤：长门",
+		desc = "购买皮肤：长门睡衣",
 		type = 6,
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8665,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -14232,9 +14232,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2020,
-					11,
-					18
+					2021,
+					4,
+					8
 				},
 				{
 					0,
@@ -14244,9 +14244,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					12,
-					2
+					2021,
+					4,
+					14
 				},
 				{
 					23,
@@ -14259,14 +14259,14 @@ pg.shop_template = {
 	[70167] = {
 		group_type = 0,
 		resource_num = 780,
-		desc = "购买皮肤：金刚",
+		desc = "购买皮肤：金刚浴衣",
 		type = 6,
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8665,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -14306,9 +14306,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2020,
-					11,
-					18
+					2021,
+					4,
+					8
 				},
 				{
 					0,
@@ -14318,9 +14318,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					12,
-					2
+					2021,
+					4,
+					14
 				},
 				{
 					23,
@@ -14333,14 +14333,14 @@ pg.shop_template = {
 	[70168] = {
 		group_type = 0,
 		resource_num = 780,
-		desc = "购买皮肤：宵月",
+		desc = "购买皮肤：宵月运动服",
 		type = 6,
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8665,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -14380,9 +14380,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2020,
-					11,
-					18
+					2021,
+					4,
+					8
 				},
 				{
 					0,
@@ -14392,9 +14392,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					12,
-					2
+					2021,
+					4,
+					14
 				},
 				{
 					23,
@@ -14463,7 +14463,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8900,
+		order = 8665,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -14503,9 +14503,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2020,
-					11,
-					18
+					2021,
+					4,
+					8
 				},
 				{
 					0,
@@ -14515,9 +14515,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					12,
-					2
+					2021,
+					4,
+					14
 				},
 				{
 					23,
@@ -19828,7 +19828,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 8882,
+		order = 8665,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -19868,9 +19868,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2020,
-					12,
-					29
+					2021,
+					4,
+					8
 				},
 				{
 					0,
@@ -19881,8 +19881,8 @@ pg.shop_template = {
 			{
 				{
 					2021,
-					1,
-					13
+					4,
+					14
 				},
 				{
 					23,
@@ -30721,6 +30721,104 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70526] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤:邦克山常服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8664,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70526,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			107171
+		},
+		time = {
+			{
+				{
+					2021,
+					4,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					4,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70527] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:阿斯托里亚兔女郎（2021.4.8版本国服未上）",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8664,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70527,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			103082
+		},
+		time = {
+			{
+				{
+					2021,
+					4,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					4,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[90001] = {
 		group_type = 0,
 		resource_num = 1,
@@ -36764,6 +36862,8 @@ pg.shop_template = {
 		70523,
 		70524,
 		70525,
+		70526,
+		70527,
 		90001,
 		90002,
 		90003,

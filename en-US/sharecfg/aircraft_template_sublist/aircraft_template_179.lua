@@ -1,40 +1,20 @@
 pg = pg or {}
 pg.aircraft_template_179 = {
-	[68868] = {
-		max_hp = 86,
-		name = "大神澪技能鱼雷机Lv8",
-		base = 68861,
-		id = 68868,
-		hp_growth = 3237,
-		weapon_ID = {
-			68878
-		}
-	},
-	[68869] = {
-		max_hp = 92,
-		name = "大神澪技能鱼雷机Lv9",
-		base = 68861,
-		id = 68869,
-		hp_growth = 3458,
-		weapon_ID = {
-			68879
-		}
-	},
-	[68870] = {
+	[68890] = {
 		max_hp = 98,
-		name = "大神澪技能鱼雷机Lv10",
-		base = 68861,
-		id = 68870,
+		name = "大神澪技能轰炸机Lv10",
+		base = 68881,
+		id = 68890,
 		hp_growth = 3678,
 		weapon_ID = {
-			68880
+			68900
 		}
 	},
-	[68881] = {
-		name = "大神澪技能轰炸机Lv1",
+	[68951] = {
+		name = "白上吹雪狐笋轰炸机Lv1",
 		max_hp = 42,
 		accuracy = 23,
-		model_ID = "feiji_vtuber2",
+		model_ID = "feiji_hulifeiji",
 		ACC_growth = 0,
 		crash_DMG = 208,
 		dodge = 1,
@@ -42,15 +22,15 @@ pg.aircraft_template_179 = {
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "feiji_vtuber2",
+		icon = "feiji_hulifeiji",
 		funnel_behavior = "",
 		nationality = 3,
 		hp_growth = 1692,
 		speed = 48,
-		id = 68881,
+		id = 68951,
 		scale = 1,
 		weapon_ID = {
-			68891
+			68961
 		},
 		position_offset = {
 			0,
@@ -104,64 +84,84 @@ pg.aircraft_template_179 = {
 			}
 		}
 	},
-	[68882] = {
+	[68952] = {
 		max_hp = 48,
-		name = "大神澪技能轰炸机Lv2",
-		base = 68881,
-		id = 68882,
+		name = "白上吹雪狐笋轰炸机Lv2",
+		base = 68951,
+		id = 68952,
 		hp_growth = 1913,
 		weapon_ID = {
-			68892
+			68962
 		}
 	},
-	[68883] = {
+	[68953] = {
 		max_hp = 54,
-		name = "大神澪技能轰炸机Lv3",
-		base = 68881,
-		id = 68883,
+		name = "白上吹雪狐笋轰炸机Lv3",
+		base = 68951,
+		id = 68953,
 		hp_growth = 2133,
 		weapon_ID = {
-			68893
+			68963
 		}
 	},
-	[68884] = {
+	[68954] = {
 		max_hp = 61,
-		name = "大神澪技能轰炸机Lv4",
-		base = 68881,
-		id = 68884,
+		name = "白上吹雪狐笋轰炸机Lv4",
+		base = 68951,
+		id = 68954,
 		hp_growth = 2354,
 		weapon_ID = {
-			68894
+			68964
 		}
 	},
-	[68885] = {
+	[68955] = {
 		max_hp = 67,
-		name = "大神澪技能轰炸机Lv5",
-		base = 68881,
-		id = 68885,
+		name = "白上吹雪狐笋轰炸机Lv5",
+		base = 68951,
+		id = 68955,
 		hp_growth = 2575,
 		weapon_ID = {
-			68895
+			68965
 		}
 	},
-	[68886] = {
+	[68956] = {
 		max_hp = 73,
-		name = "大神澪技能轰炸机Lv6",
-		base = 68881,
-		id = 68886,
+		name = "白上吹雪狐笋轰炸机Lv6",
+		base = 68951,
+		id = 68956,
 		hp_growth = 2796,
 		weapon_ID = {
-			68896
+			68966
 		}
 	},
-	[68887] = {
+	[68957] = {
 		max_hp = 79,
-		name = "大神澪技能轰炸机Lv7",
-		base = 68881,
-		id = 68887,
+		name = "白上吹雪狐笋轰炸机Lv7",
+		base = 68951,
+		id = 68957,
 		hp_growth = 3016,
 		weapon_ID = {
-			68897
+			68967
+		}
+	},
+	[68958] = {
+		max_hp = 86,
+		name = "白上吹雪狐笋轰炸机Lv8",
+		base = 68951,
+		id = 68958,
+		hp_growth = 3237,
+		weapon_ID = {
+			68968
+		}
+	},
+	[68959] = {
+		max_hp = 92,
+		name = "白上吹雪狐笋轰炸机Lv9",
+		base = 68951,
+		id = 68959,
+		hp_growth = 3458,
+		weapon_ID = {
+			68969
 		}
 	}
 }

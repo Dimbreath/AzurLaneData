@@ -61,16 +61,7 @@ function slot0.execute(slot0, slot1)
 					count = uv2
 				})
 			elseif uv3.usage == ItemUsage.DROP or uv3.usage == ItemUsage.DROP_APPOINTED then
-				for slot5, slot6 in ipairs(slot0.drop_list) do
-					slot7 = Item.New({
-						type = slot6.type,
-						id = slot6.id,
-						count = slot6.number
-					})
-
-					table.insert(slot1, slot7)
-					uv4:sendNotification(GAME.ADD_ITEM, slot7)
-				end
+				slot1 = PlayerConst.addTranDrop(slot0.drop_list)
 			elseif uv3.usage == ItemUsage.DORM_LV_UP then
 				uv4:sendNotification(GAME.EXTEND_BACKYARD_AREA)
 			elseif uv3.usage == ItemUsage.SOS then

@@ -26,7 +26,7 @@ return {
 				"ShowClickArea"
 			},
 			style = {
-				text = "After you’ve secured a zone, just tap on a tile outside of the map to go into Quick Travel mode!",
+				text = "After you’ve secured a zone, just tap on a tile outside of the map to go into Operation Overview!",
 				mode = 2,
 				dir = -1,
 				char = "1",
@@ -58,12 +58,7 @@ return {
 			},
 			notifies = {
 				{
-					notify = "world open transport pos",
-					body = {
-						mapIds = {
-							13
-						}
-					}
+					notify = "world open transport pos"
 				}
 			}
 		},
@@ -80,6 +75,30 @@ return {
 				char = "1",
 				posY = -150,
 				posX = 100
+			}
+		},
+		{
+			alpha = 0.4,
+			style = {
+				text = "Tap here to return to current sector",
+				mode = 2,
+				dir = -1,
+				char = "1",
+				posY = 245.23,
+				posX = -552.4
+			},
+			ui = {
+				path = "OverlayCamera/Overlay/UIMain/top/adapt/top_chapter/back_button",
+				triggerType = {
+					1
+				},
+				fingerPos = {
+					rotateY = 0,
+					posY = 0,
+					rotateX = 0,
+					rotateZ = 238.9,
+					posX = -76.32
+				}
 			}
 		},
 		{

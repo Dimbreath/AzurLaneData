@@ -191,45 +191,49 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot1, slot5, slot6)
 
 	for slot5, slot6 in ipairs(slot0.toggles) do
-		onToggle(slot0, slot6, function (slot0)
-			if slot0 then
-				if uv0.contextData.toggle ~= uv1 then
-					if uv0.contextData.toggle == 1 and uv0.contextData.cardToggle == 1 then
-						uv0.contextData.cardScrollValue = uv0.cardList.value
+		if PLATFORM_CODE == PLATFORM_CH and (slot5 == 1 or slot5 == 3) and LOCK_COLLECTION then
+			setActive(slot6, false)
+		else
+			onToggle(slot0, slot6, function (slot0)
+				if slot0 then
+					if uv0.contextData.toggle ~= uv1 then
+						if uv0.contextData.toggle == 1 and uv0.contextData.cardToggle == 1 then
+							uv0.contextData.cardScrollValue = uv0.cardList.value
+						end
+
+						uv0.contextData.toggle = uv1
+
+						if uv0.toggleUpdates[uv1] then
+							uv0[uv0.toggleUpdates[uv1]](uv0)
+							uv0:calFavoriteRate()
+						end
 					end
 
-					uv0.contextData.toggle = uv1
+					setActive(uv0.helpBtn, uv1 == 1)
 
-					if uv0.toggleUpdates[uv1] then
-						uv0[uv0.toggleUpdates[uv1]](uv0)
-						uv0:calFavoriteRate()
-					end
-				end
-
-				setActive(uv0.helpBtn, uv1 == 1)
-
-				if uv1 == 1 and not getProxy(SettingsProxy):IsShowCollectionHelp() then
-					triggerButton(uv0.helpBtn)
-					slot1:SetCollectionHelpFlag(true)
-				end
-
-				if uv1 ~= 5 then
-					if uv0.musicView and uv0.musicView:CheckState(BaseSubView.STATES.INITED) then
-						uv0.musicView:tryPauseMusic()
-						uv0.musicView:closeSongListPanel()
+					if uv1 == 1 and not getProxy(SettingsProxy):IsShowCollectionHelp() then
+						triggerButton(uv0.helpBtn)
+						slot1:SetCollectionHelpFlag(true)
 					end
 
-					pg.CriMgr.GetInstance():ResumeLastNormalBGM()
-				elseif uv1 == 5 and uv0.musicView and uv0.musicView:CheckState(BaseSubView.STATES.INITED) then
-					pg.CriMgr.GetInstance():StopBGM()
-					uv0.musicView:tryPlayMusic()
-				end
+					if uv1 ~= 5 then
+						if uv0.musicView and uv0.musicView:CheckState(BaseSubView.STATES.INITED) then
+							uv0.musicView:tryPauseMusic()
+							uv0.musicView:closeSongListPanel()
+						end
 
-				if uv1 ~= 4 and uv0.galleryView and uv0.galleryView:CheckState(BaseSubView.STATES.INITED) then
-					uv0.galleryView:closePicPanel()
+						pg.CriMgr.GetInstance():ResumeLastNormalBGM()
+					elseif uv1 == 5 and uv0.musicView and uv0.musicView:CheckState(BaseSubView.STATES.INITED) then
+						pg.CriMgr.GetInstance():StopBGM()
+						uv0.musicView:tryPlayMusic()
+					end
+
+					if uv1 ~= 4 and uv0.galleryView and uv0.galleryView:CheckState(BaseSubView.STATES.INITED) then
+						uv0.galleryView:closePicPanel()
+					end
 				end
-			end
-		end, SFX_UI_TAG)
+			end, SFX_UI_TAG)
+		end
 	end
 
 	for slot5, slot6 in ipairs(slot0.memoryToggles) do

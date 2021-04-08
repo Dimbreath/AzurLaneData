@@ -122,7 +122,10 @@ function slot0.initUI(slot0)
 	slot0.entranceBg = slot0:findTF("entrance_bg")
 	slot0.topChapter = slot0:findTF("top_chapter", slot0.topPanel)
 
-	setActive(slot0:findTF("title_chapter", slot0.topChapter), false)
+	setActive(slot0.topChapter:Find("title_chapter"), false)
+	setActive(slot0.topChapter:Find("type_chapter"), false)
+	setActive(slot0.topChapter:Find("type_escort"), false)
+	setActive(slot0.topChapter:Find("type_skirmish"), false)
 
 	slot0.chapterName = slot0:findTF("title_chapter/name", slot0.topChapter)
 	slot0.chapterNoTitle = slot0:findTF("title_chapter/chapter", slot0.topChapter)
@@ -721,7 +724,7 @@ function slot0.ShowEntranceUI(slot0, slot1)
 	slot0.contextData.entranceStatus = tobool(slot1)
 
 	if slot1 then
-		setActive(slot0:findTF("title_chapter", slot0.topChapter), false)
+		setActive(slot0.topChapter:Find("title_chapter"), false)
 		setActive(slot0.topChapter:Find("type_chapter"), false)
 		setActive(slot0.topChapter:Find("type_escort"), false)
 		setActive(slot0.topChapter:Find("type_skirmish"), false)

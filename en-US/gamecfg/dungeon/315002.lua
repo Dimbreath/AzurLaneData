@@ -1,5 +1,5 @@
 return {
-	id = 314201,
+	id = 315002,
 	map_id = 10001,
 	bgm = "story-6",
 	stages = {
@@ -41,7 +41,7 @@ return {
 					waveIndex = 202,
 					preWaves = {},
 					triggerParams = {
-						timeout = 20
+						timeout = 40
 					}
 				},
 				{
@@ -63,18 +63,19 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 296002,
 							score = 0,
 							delay = 0,
 							moveCast = true,
+							affix = true,
+							monsterTemplateID = 296001,
 							corrdinate = {
-								0,
+								30,
 								0,
 								55
 							},
 							bossData = {
 								hpBarNum = 100,
-								icon = "huangjiafangzhou"
+								icon = "zhumo"
 							},
 							buffList = {
 								8050,
@@ -82,87 +83,150 @@ return {
 							},
 							phase = {
 								{
-									switchType = 2,
-									switchParam = 0.75,
+									switchParam = 8,
 									switchTo = 1,
 									index = 0,
-									setAI = 10001,
+									switchType = 1,
+									setAI = 100020,
 									addWeapon = {
-										2030120,
-										2030020
-									},
-									addRandomWeapon = {
-										{
-											2030000
-										},
-										{
-											2030001
-										}
+										2011430,
+										2011990
 									}
 								},
 								{
-									switchType = 2,
+									switchParam = 6,
 									switchTo = 2,
 									index = 1,
-									switchParam = 0.5,
-									story = "WNN209"
-								},
-								{
-									switchParam = 0.25,
-									index = 2,
-									switchType = 2,
-									switchTo = 3,
-									story = "WNN209A",
+									switchType = 1,
+									setAI = 10001,
 									removeWeapon = {
-										2030120,
-										2030020
-									},
-									removeRandomWeapon = {
-										2030000,
-										2030001
+										2011990
 									},
 									addWeapon = {
-										2030200
+										2011340
 									}
 								},
 								{
+									switchParam = 24,
+									switchTo = 3,
+									index = 2,
 									switchType = 1,
-									switchParam = 900,
-									index = 3,
-									switchTo = 0,
 									removeWeapon = {
-										2030200
+										2011340,
+										2011400
 									},
 									addWeapon = {
-										2030300,
-										2030320,
-										2030340,
-										2030330,
-										2030335
+										2011500
+									}
+								},
+								{
+									switchParam = 20,
+									switchTo = 1,
+									index = 3,
+									switchType = 1,
+									removeWeapon = {
+										2011500,
+										2011400
 									},
-									removeBuff = {
-										8045,
-										8046
+									addWeapon = {
+										2011900
 									}
 								}
 							}
 						}
+					}
+				},
+				{
+					triggerType = 10,
+					waveIndex = 102,
+					conditionType = 1,
+					preWaves = {
+						202
 					},
-					airFighter = {
+					triggerParam = {},
+					spawn = {
 						{
-							interval = 12,
-							onceNumber = 10,
-							formation = 20001,
-							templateID = 2030030,
 							delay = 0,
-							totalNumber = 60,
-							weaponID = {
-								1100759
+							prefab = "haidihuoshan_yujing",
+							life_time = 3.5,
+							behaviours = 105,
+							coordinate = {
+								-30,
+								0,
+								65
 							},
-							attr = {
-								airPower = 40,
-								maxHP = 15,
-								attackRating = 23
+							cld_data = {
+								15
+							}
+						},
+						{
+							delay = 4,
+							prefab = "haidihuoshan_yujing",
+							life_time = 3.5,
+							behaviours = 105,
+							coordinate = {
+								-45,
+								0,
+								40
+							},
+							cld_data = {
+								15
+							}
+						},
+						{
+							delay = 8,
+							prefab = "haidihuoshan_yujing",
+							life_time = 3.5,
+							behaviours = 105,
+							coordinate = {
+								-60,
+								0,
+								65
+							},
+							cld_data = {
+								15
+							}
+						},
+						{
+							delay = 12,
+							prefab = "haidihuoshan_yujing",
+							life_time = 3.5,
+							behaviours = 105,
+							coordinate = {
+								-30,
+								0,
+								40
+							},
+							cld_data = {
+								15
+							}
+						},
+						{
+							delay = 16,
+							prefab = "haidihuoshan_yujing",
+							life_time = 3.5,
+							behaviours = 105,
+							coordinate = {
+								-45,
+								0,
+								65
+							},
+							cld_data = {
+								15
+							}
+						},
+						{
+							delay = 20,
+							prefab = "haidihuoshan_yujing",
+							life_time = 3.5,
+							behaviours = 105,
+							coordinate = {
+								-60,
+								0,
+								40
+							},
+							cld_data = {
+								15
 							}
 						}
 					}

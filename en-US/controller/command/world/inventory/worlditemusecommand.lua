@@ -32,12 +32,7 @@ function slot0.execute(slot0, slot1)
 				slot2.staminaMgr:ExchangeStamina(slot4:getItemStaminaRecover() * slot4.count)
 				uv3:sendNotification(GAME.WORLD_STAMINA_EXCHANGE_DONE)
 			elseif slot5 == WorldItem.UsageDrop or slot5 == WorldItem.UsageWorldItem or slot5 == WorldItem.UsageLoot or slot5 == WorldItem.UsageWorldClean or slot5 == WorldItem.UsageWorldBuff or slot5 == WorldItem.UsageDropAppointed then
-				for slot9, slot10 in ipairs(slot0.drop_list) do
-					slot11 = Item.New(slot10)
-
-					table.insert(slot1, slot11)
-					uv3:sendNotification(GAME.ADD_ITEM, slot11)
-				end
+				slot1 = PlayerConst.addTranDrop(slot0.drop_list)
 			end
 
 			uv3:sendNotification(GAME.WORLD_ITEM_USE_DONE, {

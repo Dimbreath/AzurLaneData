@@ -262,10 +262,14 @@ SPECIAL_DATE = {
 		"loginbg_0401",
 		"loginbg_0401",
 		"login_us_0401"
+	},
+	{
+		"20210401",
+		"login_0401"
 	}
 }
 SPECIAL_PROPOSE = {}
-CRI_BG_FLAG = false
+CRI_BG_FLAG = true
 OPEN_ESCORT = false
 OPEN_REMASTER = true
 OPEN_AIR_DOMINANCE = true
@@ -299,6 +303,7 @@ WORLD_ENTER_LOCK = false
 LOCK_META = false
 LOCK_WORLD_COLLECTION = false
 LOCK_EQUIPMENT_TRANSFORM = false
+LOCK_COLLECTION = false
 GAMEUI_BANNER_1 = 1
 GAMEUI_BANNER_2 = 2
 GAMEUI_BANNER_3 = 3

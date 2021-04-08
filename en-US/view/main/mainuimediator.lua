@@ -1015,11 +1015,13 @@ function slot0.playStroys(slot0, slot1)
 		end)
 	end
 
-	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) and not slot6:isEnd() then
-		if type(slot6:getConfig("config_client")) == "table" and slot7[2] and type(slot7[2]) == "string" and not pg.NewStoryMgr.GetInstance():IsPlayed(slot7[2]) then
-			table.insert(slot3, function (slot0)
-				uv0:Play(uv1[2], slot0, true, true)
-			end)
+	for slot10, slot11 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PUZZLA)) do
+		if slot11 and not slot11:isEnd() then
+			if type(slot11:getConfig("config_client")) == "table" and slot12[2] and type(slot12[2]) == "string" and not pg.NewStoryMgr.GetInstance():IsPlayed(slot12[2]) then
+				table.insert(slot3, function (slot0)
+					uv0:Play(uv1[2], slot0, true, true)
+				end)
+			end
 		end
 	end
 

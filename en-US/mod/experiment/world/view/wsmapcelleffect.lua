@@ -27,10 +27,7 @@ function slot0.Setup(slot0, slot1, slot2)
 		elseif slot1 == WorldMapCell.TerrainWind then
 			uv0:SetModelOrder(WorldConst.LOEffectC, slot0.row)
 			setActive(uv0.model:GetChild(0):Find("Xyz/Arrow"), slot0.terrainStrong > 0)
-
-			slot2 = WorldConst.GetWindScale(slot0.terrainStrong)
-
-			uv0:UpdateModelScale(Vector3(slot2, slot2, slot2))
+			uv0:UpdateModelScale(WorldConst.GetWindScale(slot0.terrainStrong))
 		elseif slot1 == WorldMapCell.TerrainIce then
 			uv0:SetModelOrder(WorldConst.LOEffectA, slot0.row)
 		elseif slot1 == WorldMapCell.TerrainPoison then
@@ -60,7 +57,7 @@ function slot0.Update(slot0, slot1)
 	slot2 = slot0.cell
 
 	if slot1 == nil or slot1 == WorldMapCell.EventUpdateInFov or slot1 == WorldMapCell.EventUpdateFog then
-		setActive(slot0.transform, not slot2.fog and slot2:GetInFOV())
+		setActive(slot0.transform, slot2:GetInFOV() and not slot2:InFog())
 	end
 end
 

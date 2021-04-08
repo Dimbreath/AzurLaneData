@@ -1,79 +1,5 @@
 pg = pg or {}
 pg.aircraft_template_3 = {
-	[142] = {
-		name = "默认反潜机",
-		max_hp = 25,
-		accuracy = 23,
-		model_ID = "jianyu",
-		ACC_growth = 0,
-		crash_DMG = 9,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "jianyu",
-		funnel_behavior = "",
-		nationality = 0,
-		hp_growth = 973,
-		speed = 48,
-		id = 142,
-		scale = 1,
-		weapon_ID = {
-			143
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.52,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
 	[144] = {
 		name = "默认潜母水侦",
 		max_hp = 27,
@@ -413,6 +339,15 @@ pg.aircraft_template_3 = {
 		hp_growth = 1581,
 		weapon_ID = {
 			53122
+		}
+	},
+	[4223] = {
+		id = 4223,
+		base = 4220,
+		max_hp = 46,
+		hp_growth = 1763,
+		weapon_ID = {
+			53123
 		}
 	}
 }

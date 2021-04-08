@@ -1,81 +1,5 @@
 pg = pg or {}
 pg.aircraft_template_114 = {
-	[39220] = {
-		name = "瑞云",
-		max_hp = 30,
-		accuracy = 23,
-		model_ID = "ruiyun",
-		ACC_growth = 0,
-		crash_DMG = 120,
-		dodge = 3.63,
-		attack_power = 2,
-		dodge_limit = 0.9,
-		type = 3,
-		AP_growth = 2000,
-		icon = "ruiyun",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1137,
-		speed = 46,
-		id = 39220,
-		scale = 1,
-		weapon_ID = {
-			50520,
-			50820,
-			52220
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
 	[39221] = {
 		id = 39221,
 		base = 39220,
@@ -238,6 +162,17 @@ pg.aircraft_template_114 = {
 			50542,
 			50842,
 			52242
+		}
+	},
+	[39243] = {
+		id = 39243,
+		base = 39240,
+		max_hp = 47,
+		hp_growth = 1813,
+		weapon_ID = {
+			50543,
+			50843,
+			52243
 		}
 	}
 }

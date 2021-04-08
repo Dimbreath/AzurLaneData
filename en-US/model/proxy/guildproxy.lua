@@ -593,7 +593,7 @@ function slot0.ShouldShowBattleTip(slot0)
 
 				return false
 			end() or slot5 and not slot0:GetBattleBtnRecord() or slot5:IsParticipant() and slot5:AnyMissionCanFormation() or function (slot0)
-				if slot0 then
+				if slot0 and slot0:IsParticipant() then
 					return slot0:GetBossMission() and slot1:IsActive() and slot1:CanEnterBattle()
 				end
 

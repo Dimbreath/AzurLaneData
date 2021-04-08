@@ -18,13 +18,11 @@ function slot0.register(slot0)
 	end)
 	slot0:on(11003, function (slot0)
 		slot1 = Player.New(slot0)
-
-		pg.NewStoryMgr.GetInstance():SetData(slot0.story_list or {})
-
 		slot1.resUpdateTm = pg.TimeMgr.GetInstance():GetServerTime()
 
 		uv0:updatePlayer(slot1)
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inAdmiral")
+		pg.NewStoryMgr.GetInstance():SetData(slot0.story_list or {})
 		print("days from regist time to new :" .. uv0.data:GetDaysFromRegister())
 
 		if uv0.data:GetDaysFromRegister() == 1 then

@@ -23,24 +23,15 @@ function slot0.execute(slot0, slot1)
 		ids = slot3
 	}, 61020, function (slot0)
 		if slot0.result == 0 then
-			for slot5, slot6 in ipairs(slot0.drop_list) do
-				slot7 = Item.New({
-					type = slot6.type,
-					id = slot6.id,
-					count = slot6.number
-				})
+			slot1 = PlayerConst.addTranDrop(slot0.drop_list)
 
-				uv0:sendNotification(GAME.ADD_ITEM, slot7)
-				table.insert({}, slot7)
+			for slot5, slot6 in ipairs(uv0) do
+				uv1:GetReportById(slot6):Submit()
 			end
 
-			for slot5, slot6 in ipairs(uv1) do
-				uv2:GetReportById(slot6):Submit()
-			end
-
-			uv0:sendNotification(GAME.SUBMIT_GUILD_REPORT_DONE, {
+			uv2:sendNotification(GAME.SUBMIT_GUILD_REPORT_DONE, {
 				awards = slot1,
-				list = uv1,
+				list = uv0,
 				callback = uv3
 			})
 		else

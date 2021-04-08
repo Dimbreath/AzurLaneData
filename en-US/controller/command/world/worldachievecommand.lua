@@ -3,23 +3,18 @@ slot0 = class("WorldAchieveCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	pg.ConnectionMgr.GetInstance():Send(33602, slot1:getBody(), 33603, function (slot0)
 		if slot0.result == 0 then
-			for slot5, slot6 in ipairs(slot0.drops) do
-				slot7 = Item.New(slot6)
+			slot1 = PlayerConst.addTranDrop(slot0.drops)
 
-				table.insert({}, slot7)
-				uv0:sendNotification(GAME.ADD_ITEM, slot7)
-			end
+			for slot5, slot6 in ipairs(uv0.list) do
+				slot7 = nowWorld:GetMap(slot6.id)
 
-			for slot6, slot7 in ipairs(uv1.list) do
-				slot8 = nowWorld:GetMap(slot7.id)
-
-				for slot12, slot13 in ipairs(slot7.star_list) do
-					slot2:SetMapAchieveSuccess(slot7.id, slot13)
+				for slot11, slot12 in ipairs(slot6.star_list) do
+					nowWorld:SetAchieveSuccess(slot6.id, slot12)
 				end
 			end
 
-			uv0:sendNotification(GAME.WORLD_ACHIEVE_DONE, {
-				list = uv1.list,
+			uv1:sendNotification(GAME.WORLD_ACHIEVE_DONE, {
+				list = uv0.list,
 				drops = slot1
 			})
 		else

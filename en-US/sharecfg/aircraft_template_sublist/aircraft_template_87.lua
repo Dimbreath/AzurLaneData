@@ -1,16 +1,5 @@
 pg = pg or {}
 pg.aircraft_template_87 = {
-	[37221] = {
-		id = 37221,
-		base = 37220,
-		max_hp = 42,
-		hp_growth = 1615,
-		weapon_ID = {
-			50021,
-			50521,
-			52121
-		}
-	},
 	[37222] = {
 		id = 37222,
 		base = 37220,
@@ -108,6 +97,82 @@ pg.aircraft_template_87 = {
 			50030,
 			50530,
 			52130
+		}
+	},
+	[37240] = {
+		name = "零战五二型",
+		max_hp = 40,
+		accuracy = 23,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 140,
+		dodge = 0.315,
+		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
+		AP_growth = 2000,
+		icon = "lingzhan52",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1532,
+		speed = 55,
+		id = 37240,
+		scale = 1,
+		weapon_ID = {
+			50040,
+			50540,
+			52140
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.51,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	}
 }

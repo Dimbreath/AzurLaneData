@@ -13,8 +13,9 @@ function slot0.execute(slot0, slot1)
 		if slot0.result == 0 then
 			slot1 = getProxy(WorldProxy)
 			slot2 = nowWorld:GetActiveMap()
-			uv0.drops = uv1:BuildDrop(slot0.drop_list)
+			uv0.drops = PlayerConst.addTranDrop(slot0.drop_list)
 			uv0.updateAttachmentCells = slot1:NetBuildMapAttachmentCells(slot0.pos_list)
+			uv0.fleetAttachUpdates = slot1:NetBuildFleetAttachUpdate(slot0.pos_list)
 			uv0.terrainUpdates = slot1:NetBulidTerrainUpdate(slot0.land_list)
 			uv0.fleetUpdates = slot1:NetBuildFleetUpdate(slot0.group_update)
 			uv0.shipUpdates = slot1:NetBuildShipUpdate(slot0.ship_update)
@@ -26,20 +27,13 @@ function slot0.execute(slot0, slot1)
 			if uv0.op == WorldConst.OpReqMoveFleet then
 				uv1:BuildFleetMove(slot0.move_path, uv0)
 			elseif uv0.op == WorldConst.OpReqRetreat then
-				uv0.fleetAttachUpdates = slot1:NetBuildFleetAttachUpdate(slot0.pos_list)
 				uv0.childOps = uv1:BuildAIAction(slot0)
 			elseif uv0.op == WorldConst.OpReqEvent then
-				if uv0.effect.effect_type == WorldMapAttachment.EffectEventLogicReplace or uv0.effect.effect_type == WorldMapAttachment.EffectEventRandomReplace then
-					uv0.effect = pg.world_effect_data[slot0.event_id]
-				end
-
 				slot3 = uv0.effect
 				slot5 = slot3.effect_paramater
 
 				if slot3.effect_type == WorldMapAttachment.EffectEventTeleport or slot4 == WorldMapAttachment.EffectEventTeleportBack then
 					uv1:BuildTransfer(slot0, uv0)
-				elseif slot4 == WorldMapAttachment.EffectEventTeleportEvent or slot4 == WorldMapAttachment.EffectEventMeetingPoint then
-					uv0.fleetAttachUpdates = slot1:NetBuildFleetAttachUpdate(slot0.pos_list)
 				elseif slot4 == WorldMapAttachment.EffectEventProgress then
 					uv0.childOps = uv1:BuildProgressAction(slot5[1])
 				elseif slot4 == WorldMapAttachment.EffectEventBlink1 or slot4 == WorldMapAttachment.EffectEventBlink2 then
@@ -47,7 +41,7 @@ function slot0.execute(slot0, slot1)
 				end
 			elseif uv0.op == WorldConst.OpReqTransport then
 				uv1:BuildTransfer(slot0, uv0)
-			elseif uv0.op == WorldConst.OpReqReturn or uv0.op == WorldConst.OpReqJumpOut then
+			elseif uv0.op == WorldConst.OpReqJumpOut then
 				uv1:BuildTransfer(slot0, uv0)
 			elseif uv0.op == WorldConst.OpReqRound then
 				uv0.childOps = uv1:BuildAIAction(slot0)
@@ -75,25 +69,15 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.BuildDrop(slot0, slot1)
-	slot2 = {}
-
-	for slot6, slot7 in ipairs(slot1) do
-		slot8 = Item.New(slot7)
-
-		table.insert(slot2, slot8)
-		slot0:sendNotification(GAME.ADD_ITEM, slot8)
-	end
-
-	return slot2
-end
-
 function slot0.BuildAIAction(slot0, slot1)
 	slot2 = {}
+	slot3 = getProxy(WorldProxy)
 
 	for slot7, slot8 in ipairs(slot1.ai_act_list) do
-		slot9 = slot8.type == WorldMapAttachment.TypeFleet and slot0:BuildFleetAction(slot8) or slot0:BuildAttachmentAction(slot8, slot2)
-		slot9[#slot9].shipUpdates = getProxy(WorldProxy):NetBuildShipUpdate(slot8.ship_update)
+		slot9 = {}
+		slot9 = (slot8.type ~= WorldMapAttachment.TypeFleet or slot0:BuildFleetAction(slot8)) and (slot8.type ~= WorldMapAttachment.TypeTrap or slot0:BuildTrapAction(slot8)) and slot0:BuildAttachmentAction(slot8, slot2)
+		slot9[#slot9].shipUpdates = slot3:NetBuildShipUpdate(slot8.ship_update)
+		slot9[#slot9].fleetAttachUpdates = slot3:NetBuildFleetAttachUpdate(slot8.pos_list)
 		slot2 = table.mergeArray(slot2, slot9)
 	end
 
@@ -131,41 +115,12 @@ function slot0.BuildFleetMove(slot0, slot1, slot2)
 end
 
 function slot0.BuildFleetPath(slot0, slot1, slot2, slot3, slot4)
-	slot6 = nowWorld:GetActiveMap():GetFleet(slot3.id)
-	slot7 = {}
-
-	if #slot1 > 0 then
-		slot9, slot10 = slot5:FindPath(slot2, {
-			row = slot3.arg1,
-			column = slot3.arg2
-		})
-
-		if slot9 < PathFinding.PrioObstacle then
-			slot7 = {}
-
-			for slot14, slot15 in ipairs(slot10) do
-				if slot1[slot14] == nil or slot1[slot14].row ~= slot15.row or slot1[slot14].column ~= slot15.column then
-					break
-				end
-
-				table.insert(slot7, slot15)
-			end
-		else
-			slot7 = _.rest(slot1, 1)
-		end
-
-		table.insert(slot7, 1, {
-			row = slot2.row,
-			column = slot2.column
-		})
-	end
-
 	_.each(slot1, function (slot0)
 		slot0.duration = slot0.duration * uv0:GetStepDurationRate()
 	end)
 
-	slot9 = {}
-	slot12 = _.map(slot6:GetCarries(), function (slot0)
+	slot8 = {}
+	slot11 = _.map(nowWorld:GetActiveMap():GetFleet(slot3.id):GetCarries(), function (slot0)
 		return uv0:BuildCarryPath(slot0, uv1, uv2)
 	end)
 
@@ -173,8 +128,10 @@ function slot0.BuildFleetPath(slot0, slot1, slot2, slot3, slot4)
 		slot1 = WBank:Fetch(WorldMapOp)
 		slot1.op = WorldConst.OpActionMoveStep
 		slot1.id = uv0.id
-		slot1.row = slot0.row
-		slot1.column = slot0.column
+		slot1.pos = {
+			row = slot0.row,
+			column = slot0.column
+		}
 		slot1.updateAttachmentCells = {}
 		slot1.hiddenCells = {}
 		slot1.hiddenAttachments = {}
@@ -193,33 +150,37 @@ function slot0.BuildFleetPath(slot0, slot1, slot2, slot3, slot4)
 		end
 
 		slot2 = uv4.theme
+		slot7 = slot0.column
+		slot3 = uv4:GetFOVRange(uv5, slot0.row, slot7)
 
-		for slot6, slot7 in pairs(uv4.cells) do
-			slot10 = slot7.row .. "_" .. slot7.column
+		for slot7 = slot0.row - slot3, slot0.row + slot3 do
+			for slot11 = slot0.column - slot3, slot0.column + slot3 do
+				slot13 = slot7 .. "_" .. slot11
 
-			if not slot7.discovered and WorldConst.InFOVRange(slot0.row, slot0.column, slot7.row, slot7.column, uv4:GetFOVRange(uv5, slot0.row, slot0.column)) and not uv6[slot10] then
-				uv6[slot10] = true
+				if uv4:GetCell(slot7, slot11) and not slot12.discovered and WorldConst.InFOVRange(slot0.row, slot0.column, slot7, slot11, slot3) and not uv6[slot13] then
+					uv6[slot13] = true
 
-				table.insert(slot1.hiddenCells, slot7)
-				table.insert(uv7, {
-					row = slot7.row,
-					column = slot7.column
-				})
-				_.each(slot7.attachments, function (slot0)
-					if slot0:ShouldMarkAsLurk() then
-						table.insert(uv0.hiddenAttachments, slot0)
-					end
-				end)
-
-				if uv8[WorldMapCell.GetName(slot7.row, slot7.column)] then
-					_.each(uv8[slot11].attachmentList, function (slot0)
+					table.insert(slot1.hiddenCells, slot12)
+					table.insert(uv7, {
+						row = slot12.row,
+						column = slot12.column
+					})
+					_.each(slot12.attachments, function (slot0)
 						if slot0:ShouldMarkAsLurk() then
 							table.insert(uv0.hiddenAttachments, slot0)
 						end
 					end)
 
-					slot1.updateAttachmentCells[slot11] = uv8[slot11]
-					uv8[slot11] = nil
+					if uv8[WorldMapCell.GetName(slot12.row, slot12.column)] then
+						_.each(uv8[slot14].attachmentList, function (slot0)
+							if slot0:ShouldMarkAsLurk() then
+								table.insert(uv0.hiddenAttachments, slot0)
+							end
+						end)
+
+						slot1.updateAttachmentCells[slot14] = uv8[slot14]
+						uv8[slot14] = nil
+					end
 				end
 			end
 		end
@@ -229,24 +190,29 @@ function slot0.BuildFleetPath(slot0, slot1, slot2, slot3, slot4)
 
 	slot3.stepOps = {}
 	slot3.path = slot1
-	slot3.fullPath = slot7
+	slot3.pos = {
+		row = slot2.row,
+		column = slot2.column
+	}
 	slot3.locations = {}
 end
 
 function slot0.BuildFleetAction(slot0, slot1)
-	slot4 = nowWorld:GetActiveMap():FindFleet(slot1.ai_pos.row, slot1.ai_pos.column)
+	slot3 = nowWorld:GetActiveMap():FindFleet(slot1.ai_pos.row, slot1.ai_pos.column)
+	slot5 = nil
 
 	if #slot1.move_path > 0 then
-		return slot0:BuildFleetMoveAction(slot1.move_path, slot3, slot4.id, slot4.row, slot4.column, getProxy(WorldProxy):NetBuildMapAttachmentCells(slot1.pos_list))
+		slot5 = slot0:BuildFleetMoveAction(slot1.move_path, slot2, slot3.id, slot3.row, slot3.column, getProxy(WorldProxy):NetBuildMapAttachmentCells(slot1.pos_list))
 	else
 		slot6 = WBank:Fetch(WorldMapOp)
 		slot6.op = WorldConst.OpActionUpdate
-		slot6.updateAttachmentCells = slot5
-
-		return {
+		slot6.updateAttachmentCells = slot4
+		slot5 = {
 			slot6
 		}
 	end
+
+	return slot5
 end
 
 function slot0.BuildFleetMoveAction(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
@@ -264,6 +230,7 @@ function slot0.BuildFleetMoveAction(slot0, slot1, slot2, slot3, slot4, slot5, sl
 		table.insert(slot13, {
 			row = slot18.row,
 			column = slot18.column,
+			terrain = slot9,
 			duration = WorldConst.GetTerrainMoveStepDuration(slot9)
 		})
 
@@ -311,19 +278,6 @@ function slot0.BuildFleetMoveAction(slot0, slot1, slot2, slot3, slot4, slot5, sl
 	return slot8
 end
 
-function slot0.BuildAttachmentPath(slot0, slot1, slot2)
-	slot3 = nowWorld:GetActiveMap()
-	slot5 = _.rest(slot1, 1)
-
-	table.insert(slot5, 1, {
-		row = slot2.attachment.row,
-		column = slot2.attachment.column
-	})
-
-	slot2.path = _.rest(slot1, 1)
-	slot2.fullPath = slot5
-end
-
 function slot0.BuildAttachmentAction(slot0, slot1)
 	slot8 = WBank:Fetch(WorldMapOp)
 	slot8.op = WorldConst.OpActionCameraMove
@@ -337,10 +291,43 @@ function slot0.BuildAttachmentAction(slot0, slot1)
 		slot9.op = WorldConst.OpActionAttachmentMove
 		slot9.attachment = slot6
 
-		slot0:BuildAttachmentPath(slot1.move_path, slot9)
+		slot0:BuildAttachmentActionPath(slot1.move_path, slot9)
 	else
 		slot9.op = WorldConst.OpActionUpdate
 	end
+
+	table.insert(slot7, slot9)
+
+	return slot7
+end
+
+function slot0.BuildAttachmentActionPath(slot0, slot1, slot2)
+	slot3 = nowWorld:GetActiveMap()
+	slot2.path = underscore.map(slot1, function (slot0)
+		return {
+			row = slot0.row,
+			column = slot0.column,
+			duration = WorldConst.GetTerrainMoveStepDuration(WorldMapCell.TerrainNone)
+		}
+	end)
+	slot2.pos = {
+		row = slot2.attachment.row,
+		column = slot2.attachment.column
+	}
+end
+
+function slot0.BuildTrapAction(slot0, slot1)
+	slot6 = nowWorld:GetActiveMap():GetCell(slot1.ai_pos.row, slot1.ai_pos.column):FindAliveAttachment(WorldMapAttachment.TypeTrap)
+	slot7 = {}
+	slot8 = WBank:Fetch(WorldMapOp)
+	slot8.op = WorldConst.OpActionCameraMove
+	slot8.attachment = slot6
+
+	table.insert(slot7, slot8)
+
+	slot9 = WBank:Fetch(WorldMapOp)
+	slot9.op = WorldConst.OpActionTrapGravityAnim
+	slot9.attachment = slot6
 
 	table.insert(slot7, slot9)
 
@@ -399,7 +386,7 @@ function slot0.BuildBlinkAction(slot0, slot1, slot2)
 			slot10.op = WorldConst.OpActionAttachmentMove
 			slot10.attachment = slot1
 
-			slot0:BuildAttachmentPath(slot9, slot10)
+			slot0:BuildAttachmentActionPath(slot9, slot10)
 			table.insert(slot3, slot10)
 		end
 	end

@@ -6,6 +6,7 @@ function ()
 		is_transfer = 0,
 		name = "碎片海域-3-2-国庆风格",
 		port_name = "商船",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -17,7 +18,7 @@ function ()
 		expedition_map_id = 50004,
 		expedition_level = 95,
 		id = 131090,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -3296,12 +3297,14 @@ function ()
 				4,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_45[132000] = {
 		is_transfer = 0,
 		name = "碎片海域-3-3-美系残骸风格",
 		port_name = "商船",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -3313,7 +3316,7 @@ function ()
 		expedition_map_id = 50006,
 		expedition_level = 95,
 		id = 132000,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -6657,12 +6660,14 @@ function ()
 				4,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_45[132010] = {
 		is_transfer = 0,
 		name = "碎片海域-3-3-异色格风格",
 		port_name = "商船",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -6674,7 +6679,7 @@ function ()
 		expedition_map_id = 50000,
 		expedition_level = 95,
 		id = 132010,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -10018,12 +10023,14 @@ function ()
 				4,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_45[132020] = {
 		is_transfer = 0,
 		name = "碎片海域-3-3-虫洞风格",
 		port_name = "商船",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -10035,7 +10042,7 @@ function ()
 		expedition_map_id = 100046,
 		expedition_level = 95,
 		id = 132020,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -13379,12 +13386,14 @@ function ()
 				4,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_45[132030] = {
 		is_transfer = 0,
 		name = "碎片海域-3-3-地中海风格",
 		port_name = "商船",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -13396,7 +13405,7 @@ function ()
 		expedition_map_id = 100043,
 		expedition_level = 95,
 		id = 132030,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -16740,12 +16749,14 @@ function ()
 				4,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_45[132040] = {
 		is_transfer = 0,
 		name = "碎片海域-3-3-热带草原风格",
 		port_name = "商船",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -16757,7 +16768,7 @@ function ()
 		expedition_map_id = 100044,
 		expedition_level = 95,
 		id = 132040,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -20101,12 +20112,14 @@ function ()
 				4,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_45[132050] = {
 		is_transfer = 0,
 		name = "碎片海域-3-3-温带海洋风格",
 		port_name = "商船",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -20118,7 +20131,7 @@ function ()
 		expedition_map_id = 100042,
 		expedition_level = 95,
 		id = 132050,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -23462,12 +23475,14 @@ function ()
 				4,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_45[132060] = {
 		is_transfer = 0,
 		name = "碎片海域-3-3-亚寒带风格",
 		port_name = "商船",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -23479,7 +23494,7 @@ function ()
 		expedition_map_id = 100045,
 		expedition_level = 95,
 		id = 132060,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -26823,12 +26838,14 @@ function ()
 				4,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_45[132070] = {
 		is_transfer = 0,
 		name = "碎片海域-3-3-英系风格",
 		port_name = "商船",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -26840,7 +26857,7 @@ function ()
 		expedition_map_id = 50009,
 		expedition_level = 95,
 		id = 132070,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -30184,12 +30201,14 @@ function ()
 				4,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_45[132080] = {
 		is_transfer = 0,
 		name = "碎片海域-3-3-七夕风格",
 		port_name = "商船",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -30201,7 +30220,7 @@ function ()
 		expedition_map_id = 50002,
 		expedition_level = 95,
 		id = 132080,
-		version = 0,
+		is_auto = 2,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -33545,6 +33564,7 @@ function ()
 				4,
 				0
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 end()

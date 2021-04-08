@@ -37,8 +37,9 @@ return {
 			},
 			options = {
 				{
-					content = "Let’s go.",
-					flag = 1
+					flag = 1,
+					autochoice = 1,
+					content = "Let’s go."
 				},
 				{
 					content = "Check the details of the Siren coordinates.",

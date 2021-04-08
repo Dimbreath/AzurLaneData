@@ -1,64 +1,37 @@
 pg = pg or {}
 pg.aircraft_template_193 = {
-	[69938] = {
-		max_hp = 79,
-		name = "信浓技能流星 LV8",
-		base = 69931,
-		id = 69938,
-		hp_growth = 3050,
-		weapon_ID = {
-			50548,
-			50848,
-			51468
-		}
-	},
-	[69939] = {
-		max_hp = 85,
-		name = "信浓技能流星 LV9",
-		base = 69931,
-		id = 69939,
-		hp_growth = 3258,
-		weapon_ID = {
-			50549,
-			50849,
-			51469
-		}
-	},
-	[69940] = {
-		max_hp = 90,
-		name = "信浓技能流星 LV10",
-		base = 69931,
-		id = 69940,
-		hp_growth = 3466,
+	[69980] = {
+		id = 69980,
+		base = 69971,
+		max_hp = 81,
+		hp_growth = 3127,
 		weapon_ID = {
 			50550,
 			50850,
-			51470
+			52250
 		}
 	},
-	[69971] = {
-		name = "千岁千代田技能瑞云",
-		max_hp = 37,
+	[69981] = {
+		name = "千岁千代田技能九七式舰攻",
+		max_hp = 36,
 		accuracy = 23,
-		model_ID = "ruiyun",
+		model_ID = "97jiangong",
 		ACC_growth = 0,
-		crash_DMG = 120,
-		dodge = 3.51,
+		crash_DMG = 188,
+		dodge = 1.05,
 		attack_power = 2,
-		dodge_limit = 1,
-		type = 3,
+		dodge_limit = 5,
+		type = 2,
 		AP_growth = 2000,
-		icon = "ruiyun",
+		icon = "97jiangong",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1438,
-		speed = 46,
-		id = 69971,
+		nationality = 2,
+		hp_growth = 1594,
+		speed = 52,
+		id = 69981,
 		scale = 1,
 		weapon_ID = {
-			50541,
-			50841,
-			52241
+			51341
 		},
 		position_offset = {
 			0,
@@ -78,13 +51,13 @@ pg.aircraft_template_193 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -101,7 +74,7 @@ pg.aircraft_template_193 = {
 				0
 			},
 			{
-				0,
+				0.26,
 				0,
 				0
 			},
@@ -112,70 +85,76 @@ pg.aircraft_template_193 = {
 			}
 		}
 	},
-	[69972] = {
-		id = 69972,
-		base = 69971,
-		max_hp = 42,
-		hp_growth = 1626,
+	[69982] = {
+		id = 69982,
+		base = 69981,
+		max_hp = 41,
+		hp_growth = 1802,
 		weapon_ID = {
-			50542,
-			50842,
-			52242
+			51342
 		}
 	},
-	[69973] = {
-		id = 69973,
-		base = 69971,
+	[69983] = {
+		id = 69983,
+		base = 69981,
 		max_hp = 47,
-		hp_growth = 1813,
+		hp_growth = 2010,
 		weapon_ID = {
-			50543,
-			50843,
-			52243
+			51343
 		}
 	},
-	[69974] = {
-		id = 69974,
-		base = 69971,
+	[69984] = {
+		id = 69984,
+		base = 69981,
 		max_hp = 52,
-		hp_growth = 2001,
+		hp_growth = 2218,
 		weapon_ID = {
-			50544,
-			50844,
-			52244
+			51344
 		}
 	},
-	[69975] = {
-		id = 69975,
-		base = 69971,
-		max_hp = 57,
-		hp_growth = 2189,
+	[69985] = {
+		id = 69985,
+		base = 69981,
+		max_hp = 58,
+		hp_growth = 2426,
 		weapon_ID = {
-			50545,
-			50845,
-			52245
+			51345
 		}
 	},
-	[69976] = {
-		id = 69976,
-		base = 69971,
-		max_hp = 62,
-		hp_growth = 2376,
+	[69986] = {
+		id = 69986,
+		base = 69981,
+		max_hp = 63,
+		hp_growth = 2634,
 		weapon_ID = {
-			50546,
-			50846,
-			52246
+			51346
 		}
 	},
-	[69977] = {
-		id = 69977,
-		base = 69971,
-		max_hp = 67,
-		hp_growth = 2564,
+	[69987] = {
+		id = 69987,
+		base = 69981,
+		max_hp = 68,
+		hp_growth = 2842,
 		weapon_ID = {
-			50547,
-			50847,
-			52247
+			51347
+		}
+	},
+	[69988] = {
+		id = 69988,
+		base = 69981,
+		max_hp = 74,
+		hp_growth = 3050,
+		weapon_ID = {
+			51348
+		}
+	},
+	[69989] = {
+		id = 69989,
+		base = 69981,
+		max_hp = 79,
+		hp_growth = 3258,
+		weapon_ID = {
+			51349
 		}
 	}
 }

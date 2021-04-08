@@ -1,11 +1,11 @@
 slot0 = class("WorldEntrance", import("...BaseEntity"))
 slot0.Fields = {
 	config = "table",
-	atlas = "table",
+	marks = "table",
 	transportDic = "table",
 	world = "table",
 	id = "number",
-	marks = "table",
+	becomeSairen = "boolean",
 	active = "boolean"
 }
 slot0.Listeners = {}
@@ -19,7 +19,6 @@ end
 function slot0.Setup(slot0, slot1, slot2)
 	slot0.id = slot1
 	slot0.config = pg.world_chapter_colormask[slot1]
-	slot0.atlas = slot2
 	slot0.transportDic = {}
 
 	for slot6, slot7 in ipairs(slot0.config.map_transfer) do
@@ -38,36 +37,16 @@ function slot0.Setup(slot0, slot1, slot2)
 	}
 end
 
+function slot0.IsOpen(slot0)
+	return slot0:GetBaseMap():IsMapOpen()
+end
+
 function slot0.GetBaseMapId(slot0)
 	return slot0.config.chapter
 end
 
 function slot0.GetBaseMap(slot0)
-	return slot0.atlas:GetMap(slot0:GetBaseMapId())
-end
-
-function slot0.GetReplaceMapIds(slot0)
-	for slot6, slot7 in ipairs(slot0:GetBaseMap().config.sairen_chapter) do
-		table.insert({}, slot7)
-	end
-
-	for slot6, slot7 in ipairs(slot1.stage_chapter) do
-		table.insert(slot2, slot7[3])
-	end
-
-	for slot6, slot7 in ipairs(slot1.task_chapter) do
-		table.insert(slot2, slot7[2])
-	end
-
-	for slot6, slot7 in ipairs(slot1.teasure_chapter) do
-		table.insert(slot2, slot7[2])
-	end
-
-	for slot6, slot7 in ipairs(slot1.complete_chapter) do
-		table.insert(slot2, slot7)
-	end
-
-	return slot2
+	return nowWorld:GetMap(slot0:GetBaseMapId())
 end
 
 function slot0.GetColormaskUniqueID(slot0)
@@ -110,6 +89,29 @@ end
 
 function slot0.GetDisplayMarks(slot0)
 	return slot0.marks
+end
+
+function slot0.GetSairenMapId(slot0)
+	return slot0.config.sairen_chapter[1]
+end
+
+function slot0.UpdateSairenMark(slot0, slot1)
+	if tobool(slot0.becomeSairen) ~= tobool(slot1) then
+		slot0.becomeSairen = slot1
+	end
+end
+
+function slot0.GetAchievementAwards(slot0)
+	return _.map(slot0.config.target_drop_show, function (slot0)
+		return {
+			star = slot0[1],
+			drop = {
+				type = slot0[2][1],
+				id = slot0[2][2],
+				count = slot0[2][3]
+			}
+		}
+	end)
 end
 
 return slot0

@@ -116,6 +116,8 @@ end
 function slot0.GetContent(slot0)
 	if not slot0.say then
 		return "..."
+	elseif PLATFORM_CODE ~= PLATFORM_US then
+		return SwitchSpecialChar(HXSet.hxLan(slot0.say), true)
 	else
 		return HXSet.hxLan(slot0.say)
 	end

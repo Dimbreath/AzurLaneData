@@ -1,15 +1,5 @@
 pg = pg or {}
 pg.aircraft_template_74 = {
-	[29042] = {
-		id = 29042,
-		base = 29040,
-		max_hp = 48,
-		hp_growth = 1830,
-		weapon_ID = {
-			50142,
-			52242
-		}
-	},
 	[29043] = {
 		id = 29043,
 		base = 29040,
@@ -163,6 +153,81 @@ pg.aircraft_template_74 = {
 		weapon_ID = {
 			50203,
 			52103
+		}
+	},
+	[29120] = {
+		name = "海燕",
+		max_hp = 37,
+		accuracy = 23,
+		model_ID = "haiyan",
+		ACC_growth = 0,
+		crash_DMG = 200,
+		dodge = 3.45,
+		attack_power = 2,
+		dodge_limit = 0.9,
+		type = 3,
+		AP_growth = 2000,
+		icon = "haiyan",
+		funnel_behavior = "",
+		nationality = 2,
+		hp_growth = 1408,
+		speed = 48,
+		id = 29120,
+		scale = 1,
+		weapon_ID = {
+			50220,
+			52120
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.44,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	}
 }

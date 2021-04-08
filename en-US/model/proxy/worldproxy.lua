@@ -18,7 +18,14 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.WORLD_GET_BOSS)
 	end)
 	slot0:on(33105, function (slot0)
-		uv0:UpdateMapAttachmentCells(nowWorld:GetActiveMap().id, uv0:NetBuildMapAttachmentCells(slot0.pos_list))
+		slot1 = nowWorld:GetActiveMap()
+
+		uv0:UpdateMapAttachmentCells(slot1.id, uv0:NetBuildMapAttachmentCells(slot0.pos_list))
+
+		slot3 = uv0:NetBuildFleetAttachUpdate(slot0.pos_list)
+
+		uv0:ApplyFleetAttachUpdate(slot1.id, slot3)
+		WPool:ReturnArray(slot3)
 	end)
 	slot0:on(33203, function (slot0)
 		slot1 = nowWorld:GetTaskProxy()
@@ -44,13 +51,15 @@ function slot0.register(slot0)
 	end)
 	slot0:on(34507, function (slot0)
 		if nowWorld then
+			slot1 = nowWorld:GetBossProxy()
 			slot2 = WorldBoss.New()
 
 			slot2:Setup(slot0.boss_info, Player.New(slot0.user_info))
+			slot1:ClearRank(slot2.id)
 			slot2:UpdateBossType(slot0.type)
 			slot2:SetJoinTime(pg.TimeMgr.GetInstance():GetServerTime())
 
-			if nowWorld:GetBossProxy().isSetup then
+			if slot1.isSetup then
 				slot1:UpdateCacheBoss(slot2)
 			end
 
@@ -148,7 +157,7 @@ function slot0.NetUpdateWorld(slot0, slot1, slot2, slot3)
 		slot1.action_power_fetch_count
 	})
 	slot4:GetAtlas():SetCostMapList(_.rest(slot1.chapter_list, 1))
-	slot4:GetAtlas():SetSairenMapList(_.rest(slot1.sairen_chapter, 1))
+	slot4:GetAtlas():SetSairenEntranceList(_.rest(slot1.sairen_chapter, 1))
 	slot4:SetFleets(slot0:NetBuildMapFleetList(slot1.group_list))
 
 	if slot1.map_id > 0 and _.detect(slot1.chapter_list, function (slot0)
@@ -158,10 +167,10 @@ function slot0.NetUpdateWorld(slot0, slot1, slot2, slot3)
 
 		slot4:GetEntrance(slot1.enter_map_id):UpdateActive(true)
 		slot10:UpdateGridId(slot5.template_id)
-		slot10:BindFleets(slot4.fleets)
 
 		slot10.findex = table.indexof(slot4.fleets, slot4:GetFleet(slot1.group_list[1].id))
 
+		slot10:BindFleets(slot4.fleets)
 		slot10:UpdateActive(true)
 	end
 
@@ -207,11 +216,11 @@ function slot0.NetUpdateWorldAchievements(slot0, slot1, slot2)
 
 	slot0:NetUpdateAchievements(slot1)
 
-	nowWorld.achieveMapStar = {}
+	nowWorld.achieveEntranceStar = {}
 
 	_.each(slot2, function (slot0)
 		for slot4, slot5 in ipairs(slot0.star_list) do
-			nowWorld:SetMapAchieveSuccess(slot0.id, slot5)
+			nowWorld:SetAchieveSuccess(slot0.id, slot5)
 		end
 	end)
 end
@@ -228,7 +237,7 @@ end
 function slot0.NetUpdateActiveMap(slot0, slot1, slot2, slot3)
 	slot4 = nowWorld:GetActiveEntrance()
 
-	if nowWorld:GetActiveMap():NeedClear() and slot4:GetBaseMap().becomeSairen and slot6:GetSairenMapId() == slot5.id then
+	if nowWorld:GetActiveMap():NeedClear() and slot4.becomeSairen and slot4:GetSairenMapId() == slot5.id then
 		nowWorld:GetAtlas():RemoveSairenEntrance(slot4)
 	end
 
@@ -278,7 +287,6 @@ function slot0.NetUpdateMap(slot0, slot1)
 	slot0:ApplyTerrainUpdate(slot5.id, slot8)
 	WPool:ReturnArray(slot8)
 	slot5:SetValid(true)
-	slot5:UpdateFOV()
 end
 
 function slot0.NetUpdateMapDiscoveredCells(slot0, slot1, slot2, slot3)
@@ -364,16 +372,6 @@ function slot0.NetResetWorld(slot0)
 	})
 end
 
-function slot0.NetSubmitTaskByAutoTypes(slot0, slot1)
-	for slot7, slot8 in pairs(nowWorld:GetTaskProxy():getTasks()) do
-		if slot8:getState() == WorldTask.STATE_FINISHED and table.contains(slot1, slot8.config.auto_complete) then
-			slot0:sendNotification(GAME.WORLD_SUMBMIT_TASK, {
-				taskId = slot8.id
-			})
-		end
-	end
-end
-
 function slot0.NetBuildMapAttachmentCells(slot0, slot1)
 	_.each(slot1, function (slot0)
 		uv0[WorldMapCell.GetName(slot0.pos.row, slot0.pos.column)] = {
@@ -423,7 +421,7 @@ function slot0.UpdateMapAttachmentCells(slot0, slot1, slot2)
 					return slot0.type == uv0.type and slot0.id == uv0.id
 				end) then
 					slot1:UpdateFlag(slot0.flag)
-					slot1:UpdateData(slot0.data)
+					slot1:UpdateData(slot0.data, slot0.effects)
 					uv1:AddPhaseDisplay(slot1:UpdateBuffList(slot0.buffList))
 				else
 					uv0:AddAttachment(slot0)
@@ -460,11 +458,9 @@ end
 function slot0.ApplyFleetAttachUpdate(slot0, slot1, slot2)
 	slot3 = nowWorld:GetMap(slot1)
 
-	slot3:SetFleetLocationSkip(true)
 	_.each(slot2, function (slot0)
-		uv0:GetFleet(slot0.id):UpdateLocation(slot0.row, slot0.column)
+		uv0:UpdateFleetLocation(slot0.id, slot0.row, slot0.column)
 	end)
-	slot3:SetFleetLocationSkip(false)
 end
 
 function slot0.NetBulidTerrainUpdate(slot0, slot1)
@@ -481,7 +477,15 @@ function slot0.ApplyTerrainUpdate(slot0, slot1, slot2)
 	slot3 = nowWorld:GetMap(slot1)
 
 	_.each(slot2, function (slot0)
-		uv0:GetCell(slot0.row, slot0.column):UpdateTerrain(slot0:GetTerrain(), slot0.terrainDir, slot0.terrainStrong)
+		slot1 = uv0:GetCell(slot0.row, slot0.column)
+
+		if uv0:FindFleet(slot1.row, slot1.column) then
+			uv0:CheckFleetUpdateFOV(slot2, function ()
+				uv0:UpdateTerrain(uv1:GetTerrain(), uv1.terrainDir, uv1.terrainStrong)
+			end)
+		else
+			slot1:UpdateTerrain(slot0:GetTerrain(), slot0.terrainDir, slot0.terrainStrong)
+		end
 	end)
 end
 
@@ -499,7 +503,9 @@ function slot0.ApplyFleetUpdate(slot0, slot1, slot2)
 	slot3 = nowWorld:GetMap(slot1)
 
 	_.each(slot2, function (slot0)
-		uv0:GetFleet(slot0.id):UpdateBuffs(slot0.buffs)
+		uv0:CheckFleetUpdateFOV(uv0:GetFleet(slot0.id), function ()
+			uv0:UpdateBuffs(uv1.buffs)
+		end)
 	end)
 end
 
@@ -520,7 +526,7 @@ function slot0.ApplyShipUpdate(slot0, slot1)
 end
 
 function slot0.NetUpdateWorldSairenChapter(slot0, slot1)
-	nowWorld:GetAtlas():SetSairenMapList(_.rest(slot1, 1))
+	nowWorld:GetAtlas():SetSairenEntranceList(_.rest(slot1, 1))
 end
 
 function slot0.NetUpdateWorldMapPressing(slot0, slot1)

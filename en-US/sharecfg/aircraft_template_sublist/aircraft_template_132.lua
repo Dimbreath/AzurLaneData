@@ -1,15 +1,5 @@
 pg = pg or {}
 pg.aircraft_template_132 = {
-	[49063] = {
-		id = 49063,
-		base = 49060,
-		max_hp = 53,
-		hp_growth = 2042,
-		weapon_ID = {
-			59763,
-			52243
-		}
-	},
 	[49064] = {
 		id = 49064,
 		base = 49060,
@@ -280,6 +270,80 @@ pg.aircraft_template_132 = {
 			},
 			{
 				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[61019] = {
+		name = "黑企业剧情轰炸机",
+		max_hp = 120,
+		accuracy = 23,
+		model_ID = "shenhaifeiji",
+		ACC_growth = 0,
+		crash_DMG = 208,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "shenhaifeiji",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 5000,
+		speed = 66,
+		id = 61019,
+		scale = 1,
+		weapon_ID = {
+			61021
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.64,
 				0,
 				0
 			},

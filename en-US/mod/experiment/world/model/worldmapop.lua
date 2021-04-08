@@ -2,35 +2,30 @@ slot0 = class("WorldMapOp", import("...BaseEntity"))
 slot0.Fields = {
 	terrainUpdates = "table",
 	fleetUpdates = "table",
-	destMapId = "number",
-	loadingMap = "table",
 	drops = "table",
+	callbacksWhenApplied = "table",
+	destMapId = "number",
 	salvageUpdates = "table",
 	hiddenAttachments = "table",
 	path = "table",
-	row = "number",
-	depth = "number",
-	name = "string",
 	duration = "number",
+	depth = "number",
+	updateAttachmentCells = "table",
+	childOps = "table",
 	arg1 = "number",
 	anim = "string",
 	arg2 = "number",
-	callbacksWhenApplied = "table",
-	column = "number",
 	effect = "table",
-	stepOps = "table",
 	applied = "boolean",
-	childOps = "table",
 	op = "number",
-	triggered = "boolean",
 	id = "number",
 	trap = "number",
 	routine = "function",
 	updateCarryItems = "table",
 	entranceId = "number",
-	fullPath = "table",
+	pos = "table",
 	hiddenCells = "table",
-	updateAttachmentCells = "table",
+	stepOps = "table",
 	locations = "table",
 	staminaUpdate = "table",
 	attachment = "table",
@@ -46,15 +41,8 @@ function slot0.Apply(slot0)
 	slot3 = nowWorld:GetActiveMap()
 
 	if slot0.op == WorldConst.OpReqMoveFleet then
-		if slot3:GetMovingCostRate() > 0 then
-			slot2.staminaMgr:ConsumeStamina(slot2.staminaMgr:GetStepStaminaCost() * #_.filter(slot0.path, function (slot0)
-				return uv0:GetCell(slot0.row, slot0.column):GetTerrain() ~= WorldMapCell.TerrainStream and slot1 ~= WorldMapCell.TerrainIce
-			end) * slot3:GetMovingCostRate())
-		end
-
 		slot2:IncRound()
 	elseif slot0.op == WorldConst.OpReqRound then
-		slot0:ApplyNetUpdate()
 		slot2:IncRound()
 	elseif slot0.op == WorldConst.OpReqEvent then
 		slot4 = slot3:GetFleet(slot0.id)
@@ -63,8 +51,6 @@ function slot0.Apply(slot0)
 
 		if slot5.effect_type == WorldMapAttachment.EffectEventTeleport or slot6 == WorldMapAttachment.EffectEventTeleportBack then
 			slot1:NetUpdateActiveMap(slot0.entranceId, slot0.destMapId, slot0.destGridId)
-		elseif slot6 == WorldMapAttachment.EffectEventCollection then
-			slot2:GetCollectionProxy():unlockPlace(slot7[1])
 		elseif slot6 == WorldMapAttachment.EffectEventShipBuff then
 			slot8 = slot7[1]
 
@@ -113,18 +99,8 @@ function slot0.Apply(slot0)
 			slot8:updateActivity(slot9)
 		end
 
-		if slot6 ~= WorldMapAttachment.EffectEventBlink1 then
-			if slot6 ~= WorldMapAttachment.EffectEventBlink2 then
-				slot0.attachment:UpdateData(slot0.attachment.data - 1)
-			end
-		end
-
 		if #slot5.sound_effects > 0 then
 			pg.CriMgr.GetInstance():PlaySoundEffect_V3("event:" .. slot5.sound_effects)
-		end
-
-		if slot5.effective_num > 1 then
-			slot3:TriggerEventEffectKeys(slot5)
 		end
 	elseif slot0.op == WorldConst.OpReqDiscover then
 		_.each(slot0.locations, function (slot0)
@@ -153,10 +129,6 @@ function slot0.Apply(slot0)
 		if not slot2:GetMap(slot4).visionFlag and nowWorld:IsMapVisioned(slot4) then
 			slot6:UpdateVisionFlag(true)
 		end
-	elseif slot0.op == WorldConst.OpReqReturn then
-		slot1:NetUpdateActiveMap(slot0.entranceId, slot0.destMapId, slot0.destGridId)
-
-		slot3 = slot2:GetActiveMap()
 	elseif slot0.op == WorldConst.OpReqJumpOut then
 		slot5 = slot2:GetInventoryProxy()
 
@@ -178,7 +150,7 @@ function slot0.Apply(slot0)
 	elseif slot0.op == WorldConst.OpActionFleetMove then
 		slot4 = slot0.path[#slot0.path]
 
-		slot3:GetFleet(slot0.id):UpdateLocation(slot4.row, slot4.column)
+		slot3:UpdateFleetLocation(slot0.id, slot4.row, slot4.column)
 
 		slot2.stepCount = slot2.stepCount + #slot0.path
 	elseif slot0.op == WorldConst.OpActionMoveStep then
@@ -203,7 +175,7 @@ function slot0.Apply(slot0)
 			slot0.updateCarryItems = nil
 		end
 
-		slot4:UpdateLocation(slot0.row, slot0.column)
+		slot3:UpdateFleetLocation(slot0.id, slot0.pos.row, slot0.pos.column)
 		_.each(slot0.hiddenAttachments, function (slot0)
 			slot0:UpdateLurk(false)
 		end)
@@ -276,7 +248,6 @@ end
 function slot0.ApplyNetUpdate(slot0)
 	slot1 = getProxy(WorldProxy)
 	slot3 = nowWorld:GetActiveMap()
-	slot4 = false
 
 	if slot0.staminaUpdate then
 		slot2.staminaMgr:ChangeStamina(slot0.staminaUpdate[1], slot0.staminaUpdate[2])
@@ -292,8 +263,6 @@ function slot0.ApplyNetUpdate(slot0)
 	end
 
 	if slot0.fleetAttachUpdates and #slot0.fleetAttachUpdates > 0 then
-		slot4 = true
-
 		slot1:ApplyFleetAttachUpdate(slot3.id, slot0.fleetAttachUpdates)
 		WPool:ReturnArray(slot0.fleetAttachUpdates)
 
@@ -301,10 +270,6 @@ function slot0.ApplyNetUpdate(slot0)
 	end
 
 	if slot0.fleetUpdates and #slot0.fleetUpdates > 0 then
-		slot4 = slot4 or _.any(slot0.fleetUpdates, function (slot0)
-			return slot0:GetBuffByTrap(WorldBuff.TrapCripple) ~= nil ~= (uv0:GetFleet(slot0.id):GetBuffByTrap(WorldBuff.TrapCripple) ~= nil)
-		end)
-
 		slot1:ApplyFleetUpdate(slot3.id, slot0.fleetUpdates)
 		WPool:ReturnArray(slot0.fleetUpdates)
 
@@ -312,10 +277,6 @@ function slot0.ApplyNetUpdate(slot0)
 	end
 
 	if slot0.terrainUpdates and #slot0.terrainUpdates > 0 then
-		slot4 = slot4 or _.any(slot0.terrainUpdates, function (slot0)
-			return slot0:GetTerrain() == WorldMapCell.TerrainFog or uv0:GetCell(slot0.row, slot0.column):GetTerrain() == WorldMapCell.TerrainFog
-		end)
-
 		slot1:ApplyTerrainUpdate(slot3.id, slot0.terrainUpdates)
 		WPool:ReturnArray(slot0.terrainUpdates)
 
@@ -327,10 +288,6 @@ function slot0.ApplyNetUpdate(slot0)
 		WPool:ReturnArray(slot0.salvageUpdates)
 
 		slot0.salvageUpdates = nil
-	end
-
-	if slot4 then
-		slot3:UpdateFOV()
 	end
 end
 

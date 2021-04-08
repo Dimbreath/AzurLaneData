@@ -1,81 +1,47 @@
 pg = pg or {}
 pg.aircraft_template_250 = {
-	[90822] = {
-		id = 90822,
-		base = 90820,
-		max_hp = 41,
-		hp_growth = 1572,
+	[90846] = {
+		id = 90846,
+		base = 90840,
+		max_hp = 66,
+		hp_growth = 2541,
 		weapon_ID = {
-			50022
+			50026,
+			51566
 		}
 	},
-	[90823] = {
-		id = 90823,
-		base = 90820,
-		max_hp = 46,
-		hp_growth = 1754,
+	[90847] = {
+		id = 90847,
+		base = 90840,
+		max_hp = 71,
+		hp_growth = 2742,
 		weapon_ID = {
-			50023
+			50027,
+			51567
 		}
 	},
-	[90824] = {
-		id = 90824,
-		base = 90820,
-		max_hp = 50,
-		hp_growth = 1935,
-		weapon_ID = {
-			50024
-		}
-	},
-	[90825] = {
-		id = 90825,
-		base = 90820,
-		max_hp = 55,
-		hp_growth = 2117,
-		weapon_ID = {
-			50025
-		}
-	},
-	[90826] = {
-		id = 90826,
-		base = 90820,
-		max_hp = 60,
-		hp_growth = 2298,
-		weapon_ID = {
-			50026
-		}
-	},
-	[90827] = {
-		id = 90827,
-		base = 90820,
-		max_hp = 64,
-		hp_growth = 2480,
-		weapon_ID = {
-			50027
-		}
-	},
-	[90840] = {
-		name = "PL.7舰载鱼雷机T0",
-		max_hp = 35,
+	[100720] = {
+		name = "美系舰载-战斗机I（大世界通用飞机）",
+		max_hp = 34,
 		accuracy = 23,
-		model_ID = "PL7",
+		model_ID = "F4F",
 		ACC_growth = 0,
-		crash_DMG = 286,
-		dodge = 1.16,
+		crash_DMG = 39,
+		dodge = 1,
 		attack_power = 2,
-		dodge_limit = 3.5,
-		type = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
-		icon = "PL7",
+		icon = "F4F",
 		funnel_behavior = "",
-		nationality = 8,
-		hp_growth = 1338,
-		speed = 38,
-		id = 90840,
-		scale = 1,
+		nationality = 3,
+		hp_growth = 2518,
+		speed = 33,
+		id = 100720,
+		scale = 0.75,
 		weapon_ID = {
-			50020,
-			51560
+			100700,
+			100705
 		},
 		position_offset = {
 			0,
@@ -95,13 +61,13 @@ pg.aircraft_template_250 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.56,
+					-0.76,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.48,
+					0.99,
 					0
 				}
 			}
@@ -118,7 +84,7 @@ pg.aircraft_template_250 = {
 				0
 			},
 			{
-				0.52,
+				0,
 				0,
 				0
 			},
@@ -129,34 +95,526 @@ pg.aircraft_template_250 = {
 			}
 		}
 	},
-	[90841] = {
-		id = 90841,
-		base = 90840,
-		max_hp = 40,
-		hp_growth = 1538,
+	[100721] = {
+		name = "美系舰载-战斗机II",
+		max_hp = 34,
+		accuracy = 23,
+		model_ID = "F4F",
+		ACC_growth = 0,
+		crash_DMG = 39,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F4F",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2518,
+		speed = 33,
+		id = 100721,
+		scale = 0.75,
 		weapon_ID = {
-			50021,
-			51561
+			100701,
+			100706
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	},
-	[90842] = {
-		id = 90842,
-		base = 90840,
-		max_hp = 45,
-		hp_growth = 1739,
+	[100722] = {
+		name = "美系舰载-战斗机III",
+		max_hp = 34,
+		accuracy = 23,
+		model_ID = "F4F",
+		ACC_growth = 0,
+		crash_DMG = 39,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F4F",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2518,
+		speed = 33,
+		id = 100722,
+		scale = 0.75,
 		weapon_ID = {
-			50022,
-			51562
+			100702,
+			100707
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	},
-	[90843] = {
-		id = 90843,
-		base = 90840,
-		max_hp = 50,
-		hp_growth = 1940,
+	[100723] = {
+		name = "美系舰载-战斗机IV",
+		max_hp = 34,
+		accuracy = 23,
+		model_ID = "F4F",
+		ACC_growth = 0,
+		crash_DMG = 39,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F4F",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2518,
+		speed = 33,
+		id = 100723,
+		scale = 0.75,
 		weapon_ID = {
-			50023,
-			51563
+			100703,
+			100708
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[100724] = {
+		name = "美系舰载-战斗机V",
+		max_hp = 34,
+		accuracy = 23,
+		model_ID = "F4F",
+		ACC_growth = 0,
+		crash_DMG = 39,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F4F",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2518,
+		speed = 33,
+		id = 100724,
+		scale = 0.75,
+		weapon_ID = {
+			100704,
+			100709
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[100725] = {
+		name = "美系舰载-鱼雷机I",
+		max_hp = 39,
+		accuracy = 23,
+		model_ID = "tbd",
+		ACC_growth = 0,
+		crash_DMG = 57,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "tbd",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3013,
+		speed = 30,
+		id = 100725,
+		scale = 0.75,
+		weapon_ID = {
+			100710
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[100726] = {
+		name = "美系舰载-鱼雷机II",
+		max_hp = 39,
+		accuracy = 23,
+		model_ID = "tbd",
+		ACC_growth = 0,
+		crash_DMG = 57,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "tbd",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3013,
+		speed = 30,
+		id = 100726,
+		scale = 0.75,
+		weapon_ID = {
+			100711
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[100727] = {
+		name = "美系舰载-鱼雷机III",
+		max_hp = 39,
+		accuracy = 23,
+		model_ID = "tbd",
+		ACC_growth = 0,
+		crash_DMG = 57,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "tbd",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3013,
+		speed = 30,
+		id = 100727,
+		scale = 0.75,
+		weapon_ID = {
+			100712
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	}
 }

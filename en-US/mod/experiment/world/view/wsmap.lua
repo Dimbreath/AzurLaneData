@@ -13,11 +13,11 @@ slot0.Fields = {
 	wsTerrainEffects = "table",
 	rtEffectA = "userdata",
 	wsMapQuads = "table",
-	wsMapEffects = "table",
 	wsCarryItems = "table",
+	wsMapPath = "table",
 	twTimerId = "number",
 	wsMapArtifacts = "table",
-	wsMapResource = "table",
+	twTimer = "userdata",
 	world = "table",
 	rtItems = "userdata",
 	wsPool = "table",
@@ -25,24 +25,22 @@ slot0.Fields = {
 	taskQueue = "table",
 	displayRangeLines = "table",
 	wsTimer = "table",
-	wsMapPath = "table",
+	rangeVisible = "boolean",
 	transportDisplay = "number",
 	wsMapItems = "table",
-	twTimer = "userdata",
+	wsMapResource = "table",
 	wsMapTransports = "table",
-	rangeVisible = "boolean",
+	displayRangeTimer = "table",
 	rtEffectC = "userdata"
 }
 slot0.Listeners = {
-	onAddCarry = "OnAddCarry",
-	onFlushFleetVisibility = "FlushFleetVisibility",
-	onUpdateAttachment = "OnUpdateAttachment",
-	onAddAttachment = "OnAddAttachment",
-	onUpdateFleetLocation = "OnUpdateFleetLocation",
 	onRemoveCarry = "OnRemoveCarry",
 	onUpdateTerrain = "OnUpdateTerrain",
+	onUpdateAttachment = "OnUpdateAttachment",
+	onUpdateFleetFOV = "OnUpdateFleetFOV",
+	onAddAttachment = "OnAddAttachment",
 	onRemoveAttachment = "OnRemoveAttachment",
-	onUpdateSelectedFleet = "OnUpdateSelectedFleet"
+	onAddCarry = "OnAddCarry"
 }
 slot0.EventUpdateEventTips = "WSMap.EventUpdateEventTips"
 
@@ -57,7 +55,6 @@ function slot0.Setup(slot0, slot1)
 	slot0.wsMapTransports = {}
 	slot0.wsMapAttachments = {}
 	slot0.wsTerrainEffects = {}
-	slot0.wsMapEffects = {}
 	slot0.wsCarryItems = {}
 	slot0.wsMapPath = WSMapPath.New()
 
@@ -269,16 +266,13 @@ function slot0.InitMap(slot0)
 	slot3:Enqueue(function ()
 		uv0:FlushFleets()
 	end)
-	slot1:AddListener(WorldMap.EventUpdateFIndex, slot0.onUpdateSelectedFleet)
-	slot1:AddListener(WorldMap.EventUpdateFOV, slot0.onFlushFleetVisibility)
+	slot1:AddListener(WorldMap.EventUpdateFleetFOV, slot0.onUpdateFleetFOV)
 end
 
 function slot0.DisposeMap(slot0)
-	slot0.map:RemoveListener(WorldMap.EventUpdateFIndex, slot0.onUpdateSelectedFleet)
+	slot4 = slot0.onUpdateFleetFOV
 
-	slot4 = slot0.onFlushFleetVisibility
-
-	slot0.map:RemoveListener(WorldMap.EventUpdateFOV, slot4)
+	slot0.map:RemoveListener(WorldMap.EventUpdateFleetFOV, slot4)
 	_.each(slot0.wsCarryItems, function (slot0)
 		uv0:DisposeCarryItem(slot0)
 	end)
@@ -338,12 +332,6 @@ function slot0.DisposeMap(slot0)
 	end
 
 	slot0.wsTerrainEffects = {}
-
-	for slot4 = #slot0.wsMapEffects, 1, -1 do
-		slot0:RemoveMapEffect(slot0.wsMapEffects[slot4])
-	end
-
-	slot0.wsMapEffects = {}
 end
 
 function slot0.OnAddAttachment(slot0, slot1, slot2, slot3)
@@ -390,7 +378,7 @@ function slot0.OnUpdateAttachment(slot0, slot1, slot2)
 	end)
 
 	if slot0:FindFleet(slot2.row, slot2.column) then
-		slot0:FlushFleet(slot4)
+		slot0:FlushFleets()
 	end
 
 	slot0:DispatchEvent(uv0.EventUpdateEventTips)
@@ -424,18 +412,8 @@ function slot0.OnRemoveCarry(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.OnUpdateFleetLocation(slot0, slot1, slot2)
-	slot0:FlushFleet(slot0:GetFleet(slot2))
-end
-
-function slot0.OnUpdateSelectedFleet(slot0, slot1)
-	slot2 = slot0.map:GetFleet()
-
-	_.each(slot0.wsMapFleets, function (slot0)
-		slot0:UpdateSelected(slot0.fleet == uv0)
-	end)
-	slot0:FlushFleetRetreatBtn()
-	slot0:FlushFleetVisibility()
+function slot0.OnUpdateFleetFOV(slot0)
+	slot0:FlushFleets()
 end
 
 function slot0.NewQuad(slot0, slot1)
@@ -583,27 +561,6 @@ function slot0.GetTerrainEffect(slot0, slot1, slot2)
 	end
 end
 
-function slot0.NewMapEffect(slot0, slot1, slot2)
-	slot3 = WPool:Get(WSMapEffect)
-	slot3.transform = createNewGameObject("mapEffect")
-
-	slot3:Setup(slot1, slot2)
-	slot3:Load()
-
-	return slot3
-end
-
-function slot0.RemoveMapEffect(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.wsMapEffects) do
-		if slot6 == slot1 then
-			WPool:Return(table.remove(slot0.wsMapEffects, slot5))
-			Destroy(slot1.transform)
-
-			return
-		end
-	end
-end
-
 function slot0.NewFleet(slot0, slot1)
 	slot2 = WPool:Get(WSMapFleet)
 	slot2.transform = slot0.wsPool:Get(WSMapFleet.GetResName()).transform
@@ -611,7 +568,6 @@ function slot0.NewFleet(slot0, slot1)
 	slot2.transform:SetParent(slot0.rtCells, false)
 	slot2:Setup(slot1, slot0.map.theme)
 	slot2.rtRetreat:SetParent(slot0.rtTop, false)
-	slot1:AddListener(WorldMapFleet.EventUpdateLocation, slot0.onUpdateFleetLocation)
 	slot1:AddListener(WorldMapFleet.EventAddCarry, slot0.onAddCarry)
 	slot1:AddListener(WorldMapFleet.EventRemoveCarry, slot0.onRemoveCarry)
 
@@ -619,7 +575,6 @@ function slot0.NewFleet(slot0, slot1)
 end
 
 function slot0.DisposeFleet(slot0, slot1)
-	slot1.fleet:RemoveListener(WorldMapFleet.EventUpdateLocation, slot0.onUpdateFleetLocation)
 	slot1.fleet:RemoveListener(WorldMapFleet.EventAddCarry, slot0.onAddCarry)
 	slot1.fleet:RemoveListener(WorldMapFleet.EventRemoveCarry, slot0.onRemoveCarry)
 	slot1.rtRetreat:SetParent(slot1.transform, false)
@@ -711,150 +666,145 @@ end
 function slot0.DisplayMoveRange(slot0)
 	slot0.displayRangeLines = {}
 
-	if #nowWorld:GetMoveRange(slot0.map:GetFleet()) > 0 then
-		_.each(slot2, function (slot0)
-			if slot0.row == uv0.row and slot0.column == uv0.column then
-				return
+	for slot7, slot8 in ipairs(nowWorld:GetMoveRange(slot0.map:GetFleet())) do
+		setImageAlpha(slot0:GetQuad(slot8.row, slot8.column).rtWalkQuad, math.pow(0.75, slot8.stay and slot8.stay - 1 or 0))
+		setLocalScale(slot9.rtWalkQuad, Vector3.zero)
+
+		slot10 = ManhattonDist(slot1, slot8)
+		slot3 = math.max(0, slot10)
+		slot0.displayRangeLines[slot10] = slot0.displayRangeLines[slot10] or {}
+
+		table.insert(slot0.displayRangeLines[slot10], {
+			line = slot8,
+			func = function ()
+				uv0.uid = LeanTween.scale(uv1.rtWalkQuad, Vector3.one, 0.2):setEase(LeanTweenType.easeInOutSine).uniqueId
+
+				uv2.wsTimer:AddInMapTween(uv0.uid)
 			end
+		})
+	end
 
-			setImageAlpha(uv1:GetQuad(slot0.row, slot0.column).rtWalkQuad, math.pow(0.75, slot0.stay and slot0.stay - 1 or 0))
-			setLocalScale(slot1.rtWalkQuad, Vector3.zero)
+	if slot3 > 0 then
+		slot4 = 0
+		slot0.displayRangeTimer = slot0.wsTimer:AddInMapTimer(function ()
+			uv0 = uv0 + 1
 
-			slot2 = {
-				line = slot0,
-				timer = uv1.wsTimer:AddInMapTimer(function ()
-					uv0.uid = LeanTween.scale(uv1.rtWalkQuad, Vector3.one, 0.2):setEase(LeanTweenType.easeInOutSine).uniqueId
+			if uv1.displayRangeLines[uv0] then
+				for slot3, slot4 in ipairs(uv1.displayRangeLines[uv0]) do
+					slot4.func()
+				end
+			end
+		end, 0.1, slot3)
 
-					uv2.wsTimer:AddInMapTween(uv0.uid)
-				end, ManhattonDist(uv0, slot0) * 0.1)
-			}
-
-			slot2.timer:Start()
-			table.insert(uv1.displayRangeLines, slot2)
-		end)
+		slot0.displayRangeTimer:Start()
 	end
 end
 
 function slot0.HideMoveRange(slot0)
-	_.each(slot0.displayRangeLines or {}, function (slot0)
-		if slot0.timer then
-			uv0.wsTimer:RemoveInMapTimer(slot0.timer)
+	if slot0.displayRangeTimer then
+		slot0.wsTimer:RemoveInMapTimer(slot0.displayRangeTimer)
+
+		slot0.displayRangeTimer = nil
+	end
+
+	if slot0.displayRangeLines then
+		for slot4, slot5 in pairs(slot0.displayRangeLines) do
+			for slot9, slot10 in ipairs(slot5) do
+				if slot10.uid then
+					slot0.wsTimer:RemoveInMapTween(slot10.uid)
+				end
+
+				slot11 = slot10.line
+				slot12 = slot0:GetQuad(slot11.row, slot11.column)
+
+				setImageAlpha(slot12.rtWalkQuad, 0)
+				setLocalScale(slot12.rtWalkQuad, Vector3.one)
+			end
 		end
 
-		if slot0.uid then
-			uv0.wsTimer:RemoveInMapTween(slot0.uid)
-		end
-
-		slot1 = slot0.line
-		slot2 = uv0:GetQuad(slot1.row, slot1.column)
-
-		setImageAlpha(slot2.rtWalkQuad, 0)
-		setLocalScale(slot2.rtWalkQuad, Vector3.one)
-	end)
-
-	slot0.displayRangeLines = nil
+		slot0.displayRangeLines = nil
+	end
 end
 
 function slot0.MovePath(slot0, slot1, slot2, slot3, slot4, slot5)
-	if slot3 then
-		slot6 = slot0.map
-		slot7 = 0.3
-		slot8 = 0.1
-		slot9 = 0
-		slot10 = 0
-		slot11 = _.map(_.map(slot4, function (slot0)
-			return uv0:GetCell(slot0.row, slot0.column)
-		end), function (slot0)
-			return uv0:GetQuad(slot0.row, slot0.column)
-		end)
+	slot6 = slot0.map
+	slot7 = _.map(slot2, function (slot0)
+		return uv0:GetQuad(slot0.row, slot0.column)
+	end)
+	slot8 = nil
 
-		slot11[1]:UpdateStatic(true)
-		_.each(slot11, function (slot0)
-			LeanTween.cancel(slot0.rtWalkQuad)
-			setLocalScale(slot0.rtWalkQuad, Vector3.one)
-			setImageAlpha(slot0.rtWalkQuad, 0)
-			LeanTween.alpha(slot0.rtWalkQuad, 1, uv0):setDelay(uv1)
+	if slot5 then
+		slot8 = WPool:Get(WSMapEffect)
+		slot8.transform = createNewGameObject("mapEffect")
 
-			uv1 = uv1 + uv2
-		end)
-		function ()
-			uv0 = uv0 + 1
+		slot8.transform:SetParent(slot1.transform, false)
 
-			if uv0 <= #uv1 then
-				slot0 = uv1[uv0]
+		slot8.transform.anchoredPosition3D = Vector3.zero
+		slot8.transform.localEulerAngles = Vector3(slot0.map.theme.angle, 0, 0)
+		slot8.modelOrder = slot1.modelOrder
 
-				LeanTween.cancel(slot0.rtWalkQuad)
-				setImageAlpha(slot0.rtWalkQuad, 1)
-				LeanTween.alpha(slot0.rtWalkQuad, 0, uv2)
-			end
-		end()
-
-		slot13 = nil
-		slot14 = nil
-
-		slot0.wsMapPath:AddListener(WSMapPath.EventArrivedStep, function (slot0, slot1, slot2)
-			uv0()
-		end)
-		slot0.wsMapPath:AddListener(WSMapPath.EventArrived, function ()
-			uv0.wsMapPath:RemoveListener(WSMapPath.EventArrivedStep, uv1)
-			uv0.wsMapPath:RemoveListener(WSMapPath.EventArrived, uv2)
-			uv3()
-			uv4[1]:UpdateStatic(false)
-		end)
+		slot8:Setup(WorldConst.GetWindEffect())
+		slot8:Load()
 	end
 
-	slot0.wsMapPath:UpdateObject(slot1)
-	slot0.wsMapPath:UpdateAction(WorldConst.ActionMove)
-	slot0.wsMapPath:UpdateDirType(slot5)
-	slot0.wsMapPath:StartMove(slot4[1], slot2)
+	slot9 = 0
 
-	return slot0.wsMapPath
-end
+	for slot13, slot14 in ipairs(slot7) do
+		LeanTween.cancel(slot14.rtWalkQuad)
+		setLocalScale(slot14.rtWalkQuad, Vector3.one)
+		setImageAlpha(slot14.rtWalkQuad, 0)
+		LeanTween.alpha(slot14.rtWalkQuad, 1, slot2[slot13].duration / 2):setDelay(slot9)
 
-function slot0.BlowPath(slot0, slot1, slot2, slot3)
-	slot5 = nil
-
-	if slot0:GetCell(slot3.row, slot3.column).cell:GetTerrain() == WorldMapCell.TerrainWind then
-		slot5 = slot0:NewMapEffect(WorldConst.GetWindEffect())
-
-		slot5.transform:SetParent(slot1.transform, false)
-
-		slot5.transform.anchoredPosition3D = Vector3.zero
-		slot5.transform.localEulerAngles = Vector3(slot0.map.theme.angle, 0, 0)
-
-		table.insert(slot0.wsMapEffects, slot5)
+		slot9 = slot9 + slot2[slot13].duration / 2
 	end
 
-	slot0.wsMapPath:UpdateObject(slot1)
-	slot0.wsMapPath:UpdateAction(WorldConst.ActionDrag)
-	slot0.wsMapPath:UpdateDirType(WorldConst.DirType2)
-	slot0.wsMapPath:StartMove(slot3, slot2, 100)
+	slot10 = 0
+	slot11 = nil
+	slot12 = nil
 
-	slot6 = nil
+	slot0.wsMapPath:AddListener(WSMapPath.EventArrivedStep, function (slot0, slot1, slot2)
+		uv0 = uv0 + 1
 
-	slot0.wsMapPath:AddListener(WSMapPath.EventArrived, function ()
-		uv0.wsMapPath:RemoveListener(WSMapPath.EventArrived, uv1)
+		if uv0 <= #uv1 then
+			slot3 = uv1[uv0]
 
-		if uv2 then
-			uv0:RemoveMapEffect(uv2)
+			LeanTween.cancel(slot3.rtWalkQuad)
+			setImageAlpha(slot3.rtWalkQuad, 1)
+			LeanTween.alpha(slot3.rtWalkQuad, 0, uv2[uv0].duration)
 		end
 	end)
+	slot0.wsMapPath:AddListener(WSMapPath.EventArrived, function ()
+		uv0.wsMapPath:RemoveListener(WSMapPath.EventArrivedStep, uv1)
+		uv0.wsMapPath:RemoveListener(WSMapPath.EventArrived, uv2)
+		_.each(uv3, function (slot0)
+			LeanTween.cancel(slot0.rtWalkQuad)
+			setImageAlpha(slot0.rtWalkQuad, 0)
+		end)
+
+		if uv4 then
+			WPool:Return(uv5)
+			Destroy(uv5.transform)
+		end
+	end)
+	slot0.wsMapPath:UpdateObject(slot1)
+	slot0.wsMapPath:UpdateAction(slot5 and WorldConst.ActionDrag or WorldConst.ActionMove)
+	slot0.wsMapPath:UpdateDirType(slot4)
+	slot0.wsMapPath:StartMove(slot3, slot2, slot5 and 100 or 0)
 
 	return slot0.wsMapPath
 end
 
 function slot0.FlushFleets(slot0)
-	_.each(slot0.wsMapFleets, function (slot0)
-		uv0:FlushFleet(slot0)
-	end)
-	slot0:OnUpdateSelectedFleet()
-end
-
-function slot0.FlushFleet(slot0, slot1)
 	slot0:FlushFleetVisibility()
 	slot0:FlushFleetRetreatBtn()
 	slot0:FlushEnemyFightingMark()
 	slot0:FlushTransportDisplay()
+
+	slot1 = slot0.map:GetFleet()
+
+	_.each(slot0.wsMapFleets, function (slot0)
+		slot0:UpdateSelected(slot0.fleet == uv0)
+	end)
 end
 
 function slot0.FlushFleetRetreatBtn(slot0)
@@ -926,27 +876,10 @@ function slot0.FlushTransportVisibleByFleet(slot0)
 end
 
 function slot0.FlushFleetVisibility(slot0)
-	slot1 = slot0.map:GetFleet()
-
-	if slot0.map:GetCell(slot1.row, slot1.column):GetTerrain() == WorldMapCell.TerrainFog then
-		slot4 = slot0.map:GetFOVRange(slot1, slot1.row, slot1.column)
-
-		_.each(slot0.wsMapFleets, function (slot0)
-			slot1 = slot0.fleet
-
-			slot0:UpdateActive(not uv2.map:ExistEnemy(slot1.row, slot1.column) and (slot1 == uv0 or WorldConst.InFOVRange(uv0.row, uv0.column, slot1.row, slot1.column, uv1)))
-			_.each(uv2:FindCarryItems(slot1), function (slot0)
-				slot0:UpdateActive(uv0)
-			end)
-		end)
-
-		return
-	end
-
-	_.each(slot0.wsMapFleets, function (slot0)
+	underscore.each(slot0.wsMapFleets, function (slot0)
 		slot1 = slot0.fleet
 
-		slot0:UpdateActive(not uv0.map:ExistEnemy(slot1.row, slot1.column) and not (uv0.map:GetCell(slot1.row, slot1.column):GetTerrain() == WorldMapCell.TerrainFog))
+		slot0:UpdateActive(not uv0.map:GetCell(slot1.row, slot1.column):ExistEnemy() and not slot2:InFog())
 		_.each(uv0:FindCarryItems(slot1), function (slot0)
 			slot0:UpdateActive(uv0)
 		end)
@@ -979,8 +912,8 @@ function slot0.FlushMovingAttachment(slot0, slot1)
 end
 
 function slot0.FlushMovingAttachmentOrder(slot0, slot1, slot2)
-	setActive(slot1.transform, not slot0:GetCell(slot2.row, slot2.column).cell.fog and slot4:GetInFOV())
-	slot1:SetModelOrder(WorldConst.LOCell, slot2.row)
+	setActive(slot1.transform, slot0:GetCell(slot2.row, slot2.column).cell:GetInFOV() and not slot4:InFog())
+	slot1:SetModelOrder(slot1.attachment:GetModelOrder(), slot2.row)
 end
 
 function slot0.UpdateTransportDisplay(slot0, slot1)

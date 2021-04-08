@@ -1,39 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_152 = {
-	[66968] = {
-		max_hp = 63,
-		name = "萨拉托加技能轰炸机Lv8",
-		base = 66960,
-		id = 66968,
-		hp_growth = 2483,
+	[67149] = {
+		max_hp = 82,
+		name = "半人马技能鱼雷机Lv9",
+		base = 67140,
+		id = 67149,
+		hp_growth = 3143,
 		weapon_ID = {
-			67008,
-			67028
+			67189
 		}
 	},
-	[66969] = {
-		max_hp = 68,
-		name = "萨拉托加技能轰炸机Lv9",
-		base = 66960,
-		id = 66969,
-		hp_growth = 2646,
+	[67150] = {
+		max_hp = 87,
+		name = "半人马技能鱼雷机Lv10",
+		base = 67140,
+		id = 67150,
+		hp_growth = 3344,
 		weapon_ID = {
-			67009,
-			67029
+			67190
 		}
 	},
-	[66970] = {
-		max_hp = 73,
-		name = "萨拉托加技能轰炸机Lv10",
-		base = 66960,
-		id = 66970,
-		hp_growth = 2809,
-		weapon_ID = {
-			67010,
-			67030
-		}
-	},
-	[67140] = {
+	[67160] = {
 		name = "半人马技能鱼雷机Lv0",
 		max_hp = 35,
 		accuracy = 23,
@@ -50,10 +37,10 @@ pg.aircraft_template_152 = {
 		nationality = 2,
 		hp_growth = 1338,
 		speed = 45,
-		id = 67140,
+		id = 67160,
 		scale = 1,
 		weapon_ID = {
-			67180
+			67200
 		},
 		position_offset = {
 			0,
@@ -107,64 +94,74 @@ pg.aircraft_template_152 = {
 			}
 		}
 	},
-	[67141] = {
+	[67161] = {
 		max_hp = 40,
 		name = "半人马技能鱼雷机Lv1",
-		base = 67140,
-		id = 67141,
+		base = 67160,
+		id = 67161,
 		hp_growth = 1538,
 		weapon_ID = {
-			67181
+			67201
 		}
 	},
-	[67142] = {
+	[67162] = {
 		max_hp = 45,
 		name = "半人马技能鱼雷机Lv2",
-		base = 67140,
-		id = 67142,
+		base = 67160,
+		id = 67162,
 		hp_growth = 1739,
 		weapon_ID = {
-			67182
+			67202
 		}
 	},
-	[67143] = {
+	[67163] = {
 		max_hp = 50,
 		name = "半人马技能鱼雷机Lv3",
-		base = 67140,
-		id = 67143,
+		base = 67160,
+		id = 67163,
 		hp_growth = 1940,
 		weapon_ID = {
-			67183
+			67203
 		}
 	},
-	[67144] = {
+	[67164] = {
 		max_hp = 56,
 		name = "半人马技能鱼雷机Lv4",
-		base = 67140,
-		id = 67144,
+		base = 67160,
+		id = 67164,
 		hp_growth = 2140,
 		weapon_ID = {
-			67184
+			67204
 		}
 	},
-	[67145] = {
+	[67165] = {
 		max_hp = 61,
 		name = "半人马技能鱼雷机Lv5",
-		base = 67140,
-		id = 67145,
+		base = 67160,
+		id = 67165,
 		hp_growth = 2341,
 		weapon_ID = {
-			67185
+			67205
 		}
 	},
-	[67146] = {
+	[67166] = {
 		max_hp = 66,
 		name = "半人马技能鱼雷机Lv6",
-		base = 67140,
-		id = 67146,
+		base = 67160,
+		id = 67166,
 		hp_growth = 2541,
 		weapon_ID = {
-			67186
+			67206
+		}
+	},
+	[67167] = {
+		max_hp = 71,
+		name = "半人马技能鱼雷机Lv7",
+		base = 67160,
+		id = 67167,
+		hp_growth = 2742,
+		weapon_ID = {
+			67207
 		}
 	}
 }

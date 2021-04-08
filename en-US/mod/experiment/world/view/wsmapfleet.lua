@@ -90,6 +90,9 @@ function slot0.Update(slot0, slot1)
 
 	if slot1 == nil or slot1 == WorldMapFleet.EventUpdateLocation then
 		slot0:SetModelOrder(WorldConst.LOFleet, slot2.row)
+		underscore.each(slot0.attaches, function (slot0)
+			slot0.modelOrder = uv0.modelOrder
+		end)
 	end
 
 	if slot1 == nil or slot1 == WorldMapFleet.EventUpdateShipOrder then
@@ -144,6 +147,9 @@ function slot0.UpdateAttaches(slot0)
 		slot6.transform = createNewGameObject("mapEffect")
 
 		slot6.transform:SetParent(slot0.rtFx, false)
+
+		slot6.modelOrder = slot0.modelOrder
+
 		table.insert(slot0.attaches, slot6)
 	end
 

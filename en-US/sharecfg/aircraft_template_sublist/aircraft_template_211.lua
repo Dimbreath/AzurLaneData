@@ -1,72 +1,77 @@
 pg = pg or {}
 pg.aircraft_template_211 = {
-	[81389] = {
-		id = 81389,
-		base = 81380,
-		max_hp = 112,
-		hp_growth = 4298,
+	[81407] = {
+		id = 81407,
+		base = 81400,
+		max_hp = 83,
+		hp_growth = 3182,
 		weapon_ID = {
-			50669
+			50547,
+			50747
 		}
 	},
-	[81390] = {
-		id = 81390,
-		base = 81380,
-		max_hp = 119,
-		hp_growth = 4572,
+	[81408] = {
+		id = 81408,
+		base = 81400,
+		max_hp = 89,
+		hp_growth = 3415,
 		weapon_ID = {
-			50670
+			50548,
+			50748
 		}
 	},
-	[81391] = {
-		id = 81391,
-		base = 81380,
-		max_hp = 126,
-		hp_growth = 4847,
+	[81409] = {
+		id = 81409,
+		base = 81400,
+		max_hp = 95,
+		hp_growth = 3648,
 		weapon_ID = {
-			50671
+			50549,
+			50749
 		}
 	},
-	[81392] = {
-		id = 81392,
-		base = 81380,
-		max_hp = 133,
-		hp_growth = 5121,
+	[81410] = {
+		id = 81410,
+		base = 81400,
+		max_hp = 101,
+		hp_growth = 3881,
 		weapon_ID = {
-			50672
+			50550,
+			50750
 		}
 	},
-	[81393] = {
-		id = 81393,
-		base = 81380,
-		max_hp = 140,
-		hp_growth = 5395,
+	[81411] = {
+		id = 81411,
+		base = 81400,
+		max_hp = 107,
+		hp_growth = 4114,
 		weapon_ID = {
-			50673
+			50551,
+			50751
 		}
 	},
-	[81400] = {
-		name = "XF5F天箭",
-		max_hp = 40,
+	[82000] = {
+		name = "海喷火",
+		max_hp = 31,
 		accuracy = 23,
-		model_ID = "XF5F",
+		model_ID = "haipenhuo",
 		ACC_growth = 0,
-		crash_DMG = 136,
-		dodge = 0.333,
+		crash_DMG = 52,
+		dodge = 0.357,
 		attack_power = 2,
 		dodge_limit = 9,
 		type = 1,
 		AP_growth = 2000,
-		icon = "XF5F",
+		icon = "haipenhuo",
 		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1552,
-		speed = 47,
-		id = 81400,
+		nationality = 2,
+		hp_growth = 1210,
+		speed = 50,
+		id = 82000,
 		scale = 1,
 		weapon_ID = {
-			50540,
-			50740
+			50100,
+			50500
 		},
 		position_offset = {
 			0,
@@ -86,8 +91,13 @@ pg.aircraft_template_211 = {
 		bound_bone = {
 			weapon = {
 				{
-					2.63,
-					0.34,
+					0.69,
+					-2.62,
+					0
+				},
+				{
+					0.85,
+					0.17,
 					0
 				}
 			}
@@ -104,7 +114,7 @@ pg.aircraft_template_211 = {
 				0
 			},
 			{
-				0.24,
+				0.62,
 				0,
 				0
 			},
@@ -115,44 +125,109 @@ pg.aircraft_template_211 = {
 			}
 		}
 	},
-	[81401] = {
-		id = 81401,
-		base = 81400,
+	[82001] = {
+		id = 82001,
+		base = 82000,
+		max_hp = 36,
+		hp_growth = 1391,
+		weapon_ID = {
+			50101,
+			50501
+		}
+	},
+	[82002] = {
+		id = 82002,
+		base = 82000,
+		max_hp = 41,
+		hp_growth = 1572,
+		weapon_ID = {
+			50102,
+			50502
+		}
+	},
+	[82003] = {
+		id = 82003,
+		base = 82000,
 		max_hp = 46,
-		hp_growth = 1785,
+		hp_growth = 1754,
 		weapon_ID = {
-			50541,
-			50741
+			50103,
+			50503
 		}
 	},
-	[81402] = {
-		id = 81402,
-		base = 81400,
-		max_hp = 52,
-		hp_growth = 2018,
+	[82020] = {
+		name = "海喷火",
+		max_hp = 35,
+		accuracy = 23,
+		model_ID = "haipenhuo",
+		ACC_growth = 0,
+		crash_DMG = 52,
+		dodge = 0.345,
+		attack_power = 2,
+		dodge_limit = 9.5,
+		type = 1,
+		AP_growth = 2000,
+		icon = "haipenhuo",
+		funnel_behavior = "",
+		nationality = 2,
+		hp_growth = 1344,
+		speed = 50,
+		id = 82020,
+		scale = 1,
 		weapon_ID = {
-			50542,
-			50742
-		}
-	},
-	[81403] = {
-		id = 81403,
-		base = 81400,
-		max_hp = 59,
-		hp_growth = 2251,
-		weapon_ID = {
-			50543,
-			50743
-		}
-	},
-	[81404] = {
-		id = 81404,
-		base = 81400,
-		max_hp = 65,
-		hp_growth = 2484,
-		weapon_ID = {
-			50544,
-			50744
+			50120,
+			50520
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.69,
+					-2.62,
+					0
+				},
+				{
+					0.85,
+					0.17,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.62,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	}
 }

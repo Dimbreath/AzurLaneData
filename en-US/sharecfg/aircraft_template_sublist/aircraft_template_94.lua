@@ -1,81 +1,5 @@
 pg = pg or {}
 pg.aircraft_template_94 = {
-	[37420] = {
-		name = "二式水上战斗机",
-		max_hp = 37,
-		accuracy = 23,
-		model_ID = "ershishuizhan",
-		ACC_growth = 0,
-		crash_DMG = 116,
-		dodge = 0.315,
-		attack_power = 2,
-		dodge_limit = 8,
-		type = 3,
-		AP_growth = 2000,
-		icon = "ershishuizhan",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1404,
-		speed = 50,
-		id = 37420,
-		scale = 1,
-		weapon_ID = {
-			50040,
-			50540,
-			52140
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.64,
-					-0.96,
-					0
-				},
-				{
-					0.9,
-					1.22,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
 	[37421] = {
 		id = 37421,
 		base = 37420,
@@ -173,6 +97,17 @@ pg.aircraft_template_94 = {
 			50049,
 			50549,
 			52149
+		}
+	},
+	[37430] = {
+		id = 37430,
+		base = 37420,
+		max_hp = 91,
+		hp_growth = 3511,
+		weapon_ID = {
+			50050,
+			50550,
+			52150
 		}
 	}
 }

@@ -24,6 +24,7 @@ function slot0.init(slot0)
 		return slot0.type ~= DROP_TYPE_ICON_FRAME and slot0.type ~= DROP_TYPE_CHAT_FRAME
 	end)
 	slot0._itemsWindow = slot0._tf:Find("items")
+	slot0.spriteMask = slot0._itemsWindow:Find("SpriteMask")
 	slot0.title = slot0.contextData.title or uv0.TITLE.ITEM
 
 	for slot4, slot5 in pairs(uv0.TITLE) do
@@ -47,6 +48,8 @@ function slot0.init(slot0)
 	else
 		slot0.container = slot1.items_scroll
 	end
+
+	setActive(slot0.container, true)
 
 	for slot5, slot6 in pairs(slot1) do
 		setActive(slot0._itemsWindow:Find(slot5), slot0.container == slot6)
@@ -82,13 +85,12 @@ end
 
 function slot0.doAnim(slot0, slot1)
 	LeanTween.scale(rtf(slot0._itemsWindow), Vector3(1, 1, 1), 0.15):setEase(LeanTweenType.linear):setOnComplete(System.Action(function ()
-		if uv0 then
-			uv0()
-		end
-
-		if uv1.exited then
+		if uv0.exited then
 			return
 		end
+
+		uv0:updateSpriteMaskScale()
+		uv1()
 	end))
 end
 
@@ -118,37 +120,38 @@ function slot0.didEnter(slot0)
 		triggerButton(uv0._tf)
 	end)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_GETITEM)
-end
 
-function slot0.onUIAnimEnd(slot0, slot1)
-	function slot2()
-		if uv0 then
-			uv0()
-		end
+	if slot0.contextData.animation then
+		table.insert({}, function (slot0)
+			uv0.inAniming = true
+			uv0.containerCG.alpha = 0
 
-		if uv1.exited then
+			setActive(uv0.container, false)
+			uv0:doAnim(function ()
+				setActive(uv0.container, true)
+				uv0:displayAwards()
+				uv0:playAnim(uv1)
+			end)
+		end)
+	else
+		table.insert(slot1, function (slot0)
+			uv0:displayAwards()
+			uv0:doAnim(function ()
+				scrollTo(uv0._itemsWindow:Find("items_scroll"), 0, 1)
+				uv1()
+			end)
+		end)
+	end
+
+	seriesAsync(slot1, function ()
+		if uv0.exited then
 			return
 		end
 
-		if uv1.contextData.closeOnCompleted then
-			uv1:closeView()
+		if uv0.contextData.closeOnCompleted then
+			uv0:closeView()
 		end
-	end
-
-	if slot0.contextData.animation then
-		slot0.inAniming = true
-		slot0.containerCG.alpha = 0
-
-		setActive(slot0.container, false)
-		slot0:doAnim(function ()
-			setActive(uv0.container, true)
-			uv0:displayAwards()
-			uv0:playAnim(uv1)
-		end)
-	else
-		slot0:displayAwards()
-		slot0:doAnim(slot2)
-	end
+	end)
 end
 
 function slot0.onBackPressed(slot0)
@@ -269,6 +272,10 @@ function slot0.playAnim(slot0, slot1)
 
 			table.insert(uv0.tweenItems, LeanTween.delayedCall(uv3, System.Action(slot0)).id)
 		end)
+		table.insert(slot2, function (slot0)
+			uv0:updateSpriteMaskScale()
+			slot0()
+		end)
 	end
 
 	slot0.containerCG.alpha = 1
@@ -302,6 +309,10 @@ function slot0.willExit(slot0)
 	if slot0.contextData.removeFunc then
 		slot0.contextData.removeFunc()
 	end
+end
+
+function slot0.updateSpriteMaskScale(slot0)
+	setLocalScale(slot0.spriteMask, Vector3(slot0.spriteMask.rect.width / WHITE_DOT_SIZE * PIXEL_PER_UNIT, slot0.spriteMask.rect.height / WHITE_DOT_SIZE * PIXEL_PER_UNIT, 1))
 end
 
 return slot0

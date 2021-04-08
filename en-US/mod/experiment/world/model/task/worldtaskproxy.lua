@@ -83,7 +83,6 @@ function slot0.addTask(slot0, slot1)
 
 	slot0:addTaskListener(slot1)
 	slot0:DispatchEvent(uv0.EventUpdateTask, slot1)
-	slot0:checkTaskAutoSubmit(slot1)
 end
 
 function slot0.deleteTask(slot0, slot1)
@@ -106,15 +105,6 @@ function slot0.updateTask(slot0, slot1)
 	end
 
 	slot0:DispatchEvent(uv0.EventUpdateTask, slot1)
-	slot0:checkTaskAutoSubmit(slot1)
-end
-
-function slot0.checkTaskAutoSubmit(slot0, slot1)
-	if slot1:IsAutoSubmit() and slot1:getState() == WorldTask.STATE_FINISHED then
-		pg.m02:sendNotification(GAME.WORLD_SUMBMIT_TASK, {
-			taskId = slot1.id
-		})
-	end
 end
 
 function slot0.getTasks(slot0)
@@ -135,6 +125,16 @@ function slot0.getDoingTaskVOs(slot0)
 	end
 
 	return slot1
+end
+
+function slot0.getAutoSubmitTaskVO(slot0)
+	for slot4, slot5 in pairs(slot0:getTasks()) do
+		if slot5:IsAutoSubmit() and slot5:getState() == WorldTask.STATE_FINISHED then
+			return slot5
+		end
+	end
+
+	return nil
 end
 
 function slot0.riseTaskFinishCount(slot0)

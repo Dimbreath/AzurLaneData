@@ -6,6 +6,7 @@ function ()
 		is_transfer = 0,
 		name = "剧情海域",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -17,7 +18,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 6020,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -1875,12 +1876,14 @@ function ()
 				4,
 				2
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_7[6030] = {
 		is_transfer = 0,
 		name = "剧情海域",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -1892,7 +1895,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 6030,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -2746,12 +2749,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_7[6031] = {
 		is_transfer = 0,
 		name = "剧情海域",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -2763,7 +2768,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 6031,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -3852,12 +3857,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_7[6032] = {
 		is_transfer = 0,
 		name = "剧情海域",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -3869,7 +3876,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 6032,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -4571,12 +4578,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_7[6040] = {
 		is_transfer = 0,
 		name = "剧情海域",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -4588,7 +4597,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 6040,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -5442,12 +5451,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_7[6050] = {
 		is_transfer = 0,
 		name = "剧情海域",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -5459,7 +5470,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 6050,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -6567,12 +6578,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_7[6060] = {
 		is_transfer = 0,
 		name = "剧情海域",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -6584,7 +6597,7 @@ function ()
 		expedition_map_id = 50008,
 		expedition_level = 100,
 		id = 6060,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -7492,12 +7505,14 @@ function ()
 				5,
 				4
 			}
-		}
+		},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_7[7000] = {
 		is_transfer = 0,
 		name = "第一章前置副本1",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -7509,7 +7524,7 @@ function ()
 		expedition_map_id = 100046,
 		expedition_level = 100,
 		id = 7000,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -8171,12 +8186,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_7[7010] = {
 		is_transfer = 0,
 		name = "第一章前置副本2",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -8188,7 +8205,7 @@ function ()
 		expedition_map_id = 100046,
 		expedition_level = 100,
 		id = 7010,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -8850,12 +8867,14 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 	uv0.world_chapter_template_7[7020] = {
 		is_transfer = 0,
 		name = "第一章前置副本3",
 		port_name = "",
+		version = 0,
 		bgm = "level02",
 		is_clear = 1,
 		is_moveingcost = 0,
@@ -8867,7 +8886,7 @@ function ()
 		expedition_map_id = 100046,
 		expedition_level = 100,
 		id = 7020,
-		version = 0,
+		is_auto = 0,
 		is_sairen = 0,
 		map_bg = {
 			"world_map_chongdong"
@@ -9529,6 +9548,7 @@ function ()
 				0
 			}
 		},
-		terrain = {}
+		terrain = {},
+		world_chapter_buff = {}
 	}
 end()

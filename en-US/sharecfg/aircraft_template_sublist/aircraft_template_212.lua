@@ -1,97 +1,87 @@
 pg = pg or {}
 pg.aircraft_template_212 = {
-	[81405] = {
-		id = 81405,
-		base = 81400,
-		max_hp = 71,
-		hp_growth = 2717,
+	[82021] = {
+		id = 82021,
+		base = 82020,
+		max_hp = 40,
+		hp_growth = 1546,
 		weapon_ID = {
-			50545,
-			50745
+			50121,
+			50521
 		}
 	},
-	[81406] = {
-		id = 81406,
-		base = 81400,
-		max_hp = 77,
-		hp_growth = 2949,
+	[82022] = {
+		id = 82022,
+		base = 82020,
+		max_hp = 45,
+		hp_growth = 1747,
 		weapon_ID = {
-			50546,
-			50746
+			50122,
+			50522
 		}
 	},
-	[81407] = {
-		id = 81407,
-		base = 81400,
-		max_hp = 83,
-		hp_growth = 3182,
+	[82023] = {
+		id = 82023,
+		base = 82020,
+		max_hp = 51,
+		hp_growth = 1949,
 		weapon_ID = {
-			50547,
-			50747
+			50123,
+			50523
 		}
 	},
-	[81408] = {
-		id = 81408,
-		base = 81400,
-		max_hp = 89,
-		hp_growth = 3415,
+	[82024] = {
+		id = 82024,
+		base = 82020,
+		max_hp = 56,
+		hp_growth = 2150,
 		weapon_ID = {
-			50548,
-			50748
+			50124,
+			50524
 		}
 	},
-	[81409] = {
-		id = 81409,
-		base = 81400,
-		max_hp = 95,
-		hp_growth = 3648,
+	[82025] = {
+		id = 82025,
+		base = 82020,
+		max_hp = 61,
+		hp_growth = 2352,
 		weapon_ID = {
-			50549,
-			50749
+			50125,
+			50525
 		}
 	},
-	[81410] = {
-		id = 81410,
-		base = 81400,
-		max_hp = 101,
-		hp_growth = 3881,
+	[82026] = {
+		id = 82026,
+		base = 82020,
+		max_hp = 66,
+		hp_growth = 2554,
 		weapon_ID = {
-			50550,
-			50750
+			50126,
+			50526
 		}
 	},
-	[81411] = {
-		id = 81411,
-		base = 81400,
-		max_hp = 107,
-		hp_growth = 4114,
-		weapon_ID = {
-			50551,
-			50751
-		}
-	},
-	[82000] = {
+	[82040] = {
 		name = "海喷火",
-		max_hp = 31,
+		max_hp = 38,
 		accuracy = 23,
 		model_ID = "haipenhuo",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		dodge = 0.357,
+		dodge = 0.333,
 		attack_power = 2,
-		dodge_limit = 9,
+		dodge_limit = 10,
 		type = 1,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
 		nationality = 2,
-		hp_growth = 1210,
+		hp_growth = 1478,
 		speed = 50,
-		id = 82000,
+		id = 82040,
 		scale = 1,
 		weapon_ID = {
-			50100,
-			50500
+			50140,
+			50540
 		},
 		position_offset = {
 			0,
@@ -145,24 +135,34 @@ pg.aircraft_template_212 = {
 			}
 		}
 	},
-	[82001] = {
-		id = 82001,
-		base = 82000,
-		max_hp = 36,
-		hp_growth = 1391,
+	[82041] = {
+		id = 82041,
+		base = 82040,
+		max_hp = 44,
+		hp_growth = 1700,
 		weapon_ID = {
-			50101,
-			50501
+			50141,
+			50541
 		}
 	},
-	[82002] = {
-		id = 82002,
-		base = 82000,
-		max_hp = 41,
-		hp_growth = 1572,
+	[82042] = {
+		id = 82042,
+		base = 82040,
+		max_hp = 50,
+		hp_growth = 1922,
 		weapon_ID = {
-			50102,
-			50502
+			50142,
+			50542
+		}
+	},
+	[82043] = {
+		id = 82043,
+		base = 82040,
+		max_hp = 56,
+		hp_growth = 2144,
+		weapon_ID = {
+			50143,
+			50543
 		}
 	}
 }

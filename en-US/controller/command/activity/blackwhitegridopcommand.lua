@@ -22,25 +22,16 @@ function slot0.execute(slot0, slot1)
 		arg_list = {}
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
-			for slot5, slot6 in ipairs(slot0.award_list) do
-				slot7 = {
-					type = slot6.type,
-					id = slot6.id,
-					count = slot6.number
-				}
+			slot1 = PlayerConst.addTranDrop(slot0.award_list)
 
-				table.insert({}, slot7)
-				uv0:sendNotification(GAME.ADD_ITEM, Item.New(slot7))
+			if not table.contains(uv0.data1_list, uv1) then
+				table.insert(uv0.data1_list, uv1)
 			end
 
-			if not table.contains(uv1.data1_list, uv2) then
-				table.insert(uv1.data1_list, uv2)
-			end
+			uv0.data2_list[table.indexof(uv0.data1_list, uv1)] = uv2
 
-			uv1.data2_list[table.indexof(uv1.data1_list, uv2)] = uv3
-
-			uv4:updateActivity(uv1)
-			uv0:sendNotification(GAME.BLACK_WHITE_GRID_OP_DONE, {
+			uv3:updateActivity(uv0)
+			uv4:sendNotification(GAME.BLACK_WHITE_GRID_OP_DONE, {
 				awards = slot1
 			})
 		else

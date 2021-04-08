@@ -174,15 +174,6 @@ function slot0.GetLevelCount(slot0)
 	return 0
 end
 
-function slot0.UpdateLocation(slot0, slot1, slot2)
-	if slot0.row ~= slot1 or slot0.column ~= slot2 then
-		slot0.row = slot1
-		slot0.column = slot2
-
-		slot0:DispatchEvent(uv0.EventUpdateLocation)
-	end
-end
-
 function slot0.AddShip(slot0, slot1, slot2)
 	slot4 = slot0[WorldConst.FetchRawShipVO(slot1.id):getTeamType()]
 	slot1.fleetId = slot0.id
@@ -277,31 +268,37 @@ function slot0.RepairSubmarine(slot0)
 end
 
 function slot0.GetSpeed(slot0)
-	if slot0:GetBuffByTrap(WorldBuff.TrapVortex) then
+	if #slot0:GetBuffsByTrap(WorldBuff.TrapVortex) > 0 then
 		slot1 = math.min(pg.gameset.world_move_initial_step.key_value, 1)
 	end
 
-	if slot0:GetBuffByTrap(WorldBuff.TrapCripple) then
-		slot1 = math.min(slot1, slot2:GetTrapParams()[2])
+	slot5 = WorldBuff.TrapCripple
+
+	for slot5, slot6 in ipairs(slot0:GetBuffsByTrap(slot5)) do
+		slot1 = math.min(slot1, slot6:GetTrapParams()[2])
 	end
 
 	return slot1
 end
 
 function slot0.GetStepDurationRate(slot0)
-	if slot0:GetBuffByTrap(WorldBuff.TrapCripple) then
-		slot1 = 1 * 100 / slot2:GetTrapParams()[3]
+	slot5 = WorldBuff.TrapCripple
+
+	for slot5, slot6 in ipairs(slot0:GetBuffsByTrap(slot5)) do
+		slot1 = math.min(1, slot6:GetTrapParams()[3] / 100)
 	end
 
-	return slot1
+	return 1 / slot1
 end
 
 function slot0.GetFOVRange(slot0)
-	if slot0:GetBuffByTrap(WorldBuff.TrapCripple) then
-		slot1 = WorldConst.GetFOVRadius() * slot2:GetTrapParams()[1] / 100
+	slot5 = WorldBuff.TrapCripple
+
+	for slot5, slot6 in ipairs(slot0:GetBuffsByTrap(slot5)) do
+		slot1 = math.min(1, slot6:GetTrapParams()[1] / 100)
 	end
 
-	return slot1
+	return WorldConst.GetFOVRadius() * slot1
 end
 
 function slot0.GetCarries(slot0)
@@ -407,19 +404,22 @@ function slot0.GetDamageBuff(slot0)
 end
 
 function slot0.GetBuffList(slot0)
-	return _.filter(_.values(slot0.buffs), function (slot0)
+	return table.mergeArray(_.filter(_.values(slot0.buffs), function (slot0)
 		return slot0:GetFloor() > 0
-	end)
+	end), nowWorld:GetActiveMap():GetBuffList(WorldMap.FactionSelf))
 end
 
 function slot0.UpdateBuffs(slot0, slot1)
 	if slot0.buffs ~= slot1 then
-		slot2 = {}
-		slot6 = slot1
+		if not nowWorld.isAutoFight then
+			slot6 = slot1
 
-		for slot6, slot7 in pairs(WorldConst.CompareBuffs(slot0.buffs, slot6).add) do
-			if #slot7.config.trap_lua > 0 then
-				pg.NewStoryMgr.GetInstance():Play(slot7.config.trap_lua, nil, true)
+			for slot6, slot7 in pairs(WorldConst.CompareBuffs(slot0.buffs, slot6).add) do
+				if #slot7.config.trap_lua > 0 then
+					nowWorld:GetActiveMap():AddPhaseDisplay({
+						story = slot7.config.trap_lua
+					})
+				end
 			end
 		end
 
@@ -433,12 +433,10 @@ function slot0.GetBuff(slot0, slot1)
 	return slot0.buffs[slot1]
 end
 
-function slot0.GetBuffByTrap(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0:GetBuffList()) do
-		if slot6:GetTrapType() == slot1 then
-			return slot6
-		end
-	end
+function slot0.GetBuffsByTrap(slot0, slot1)
+	return underscore.filter(slot0:GetBuffList(), function (slot0)
+		return slot0:GetTrapType() == uv0
+	end)
 end
 
 function slot0.HasTrapBuff(slot0)
@@ -459,6 +457,24 @@ function slot0.GetBuffFxList(slot0)
 	end)
 
 	return {}
+end
+
+function slot0.GetWatchingBuff(slot0)
+	slot1 = {
+		[slot6] = true
+	}
+
+	for slot5, slot6 in ipairs(pg.gameset.world_sairenbuff_fleeticon.description) do
+		-- Nothing
+	end
+
+	for slot5, slot6 in ipairs(slot0:GetBuffList()) do
+		if slot1[slot6.id] then
+			return slot6
+		end
+	end
+
+	return nil
 end
 
 function slot0.AddDefeatEnemies(slot0, slot1)
@@ -639,7 +655,7 @@ function slot0.UpdateCatSalvage(slot0, slot1, slot2, slot3)
 	slot0.catSalvageList = slot2
 	slot0.catSalvageFrom = slot3
 
-	if slot0:GetRarityState() == 2 then
+	if slot0:GetRarityState() == 2 and not nowWorld.isAutoFight then
 		nowWorld:GetActiveMap():AddPhaseDisplay({
 			story = pg.gameset.world_catsearch_raritytip.description[1]
 		})

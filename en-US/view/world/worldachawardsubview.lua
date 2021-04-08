@@ -64,12 +64,12 @@ function slot0.isShowing(slot0)
 end
 
 function slot0.Setup(slot0, slot1)
-	slot0.awards = slot1:GetBaseMap():GetAchievementAwards()
-	slot0.hasAward, slot4 = nowWorld:AnyUnachievedAchievement(slot1)
-	slot0.nextStar = slot4 and slot4.star or nil
+	slot0.awards = slot1:GetAchievementAwards()
+	slot0.hasAward, slot3 = nowWorld:AnyUnachievedAchievement(slot1)
+	slot0.nextStar = slot3 and slot3.star or nil
 
 	slot0.itemList:align(#slot0.awards)
-	setText(slot0._tf:Find("title/Text"), slot2:GetName())
+	setText(slot0._tf:Find("title/Text"), slot1:GetBaseMap():GetName())
 end
 
 return slot0

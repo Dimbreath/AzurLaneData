@@ -1415,6 +1415,7 @@ pg.activity_template = {
 	[934] = {
 		mark = 20210325,
 		page_info = "",
+		time = "stop",
 		type = 23,
 		login_pop = 0,
 		config_id = 935,
@@ -1422,37 +1423,11 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 934,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					4,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[935] = {
 		mark = 20210325,
+		time = "stop",
 		type = 21,
 		login_pop = 0,
 		config_id = 0,
@@ -1460,33 +1435,6 @@ pg.activity_template = {
 		title_res_tag = "AprilFool",
 		id = 935,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					4,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "AprilFoolDiscoveryRePage",
 			ui_name = "AprilFoolDiscoveryRePage"
@@ -1502,6 +1450,7 @@ pg.activity_template = {
 	[937] = {
 		mark = 20210325,
 		page_info = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -1520,33 +1469,6 @@ pg.activity_template = {
 			1490022,
 			1490023
 		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
 		}
@@ -1554,6 +1476,7 @@ pg.activity_template = {
 	[938] = {
 		mark = 20210325,
 		page_info = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -1574,33 +1497,6 @@ pg.activity_template = {
 			1490024,
 			1490025
 		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
 		}
@@ -1608,6 +1504,7 @@ pg.activity_template = {
 	[939] = {
 		mark = 20210325,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -1633,33 +1530,6 @@ pg.activity_template = {
 			16534,
 			16535,
 			16536
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[940] = {
@@ -1939,6 +1809,7 @@ pg.activity_template = {
 	},
 	[945] = {
 		mark = 20210325,
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 945,
@@ -1947,33 +1818,6 @@ pg.activity_template = {
 		title_res_tag = "newmeixi_oil",
 		id = 945,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "USDefenceOilPage",
 			ui_name = "usdefenceoilpage"
@@ -1982,6 +1826,7 @@ pg.activity_template = {
 	[946] = {
 		mark = 20210325,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -1989,34 +1834,7 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 946,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					3,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[947] = {
 		mark = 20210325,
@@ -6062,9 +5880,9 @@ pg.activity_template = {
 			timer,
 			{
 				{
-					2020,
-					12,
-					11
+					2021,
+					4,
+					9
 				},
 				{
 					0,
@@ -6074,9 +5892,9 @@ pg.activity_template = {
 			},
 			{
 				{
-					2020,
-					12,
-					20
+					2021,
+					4,
+					18
 				},
 				{
 					23,
@@ -17772,6 +17590,67 @@ pg.activity_template = {
 			itemid = 42003
 		}
 	},
+	[30811] = {
+		mark = 20210408,
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30811",
+		title_res_tag = "",
+		id = 30811,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					4,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					4,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 3,
+			bg = "loadingbg/bg_build_3_act",
+			buildship_tip = "Rate Up characters:Nagato, I-13 and more",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>：7%",
+				"<color=#d797ff>Elite</color>：12%",
+				"<color=#3dc6ff>Rare</color>：51%",
+				"Common：30%",
+				"<color=#ffde38>Nagato</color>：2.0%(<color=#92fc63>up!</color>)",
+				"<color=#ffde38> I-13</color>：2.0%(<color=#92fc63>up!</color>)",
+				"<color=#ffde38>Kawakaze</color>：2.0%(<color=#92fc63>up!</color>)",
+				"<color=#d797ff>Yoizuki</color>：2.5%(<color=#92fc63>up!</color>)",
+				"<color=#d797ff>Harutsuki</color>：2.5%(<color=#92fc63>up!</color>)",
+				"<color=#d797ff>Suzuya</color>：2.5%(<color=#92fc63>up!</color>)",
+				"<color=#d797ff>Kongou</color>：1.0%",
+				"<color=#d797ff>Haruna</color>：1.0%",
+				"<color=#d797ff>Mutsu</color>：1.0%",
+				"<color=#3dc6ff>Fumizuki</color>：5.0%(<color=#92fc63>up!</color>)",
+				"<color=#3dc6ff>Asashio</color>：5.0%(<color=#92fc63>up!</color>)",
+				"<color=#3dc6ff>Ooshio</color>：2.5%"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -18437,6 +18316,7 @@ pg.activity_template = {
 		30807,
 		30808,
 		30809,
-		30810
+		30810,
+		30811
 	}
 }

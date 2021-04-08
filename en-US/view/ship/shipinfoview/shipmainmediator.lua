@@ -473,7 +473,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.SHOPPING_DONE,
 		GAME.UPGRADE_MAX_LEVEL_DONE,
 		GAME.SKIN_COUPON_SHOPPING_DONE,
-		GAME.HIDE_Ship_MAIN_SCENE_WORD
+		GAME.HIDE_Ship_MAIN_SCENE_WORD,
+		GAME.PROPOSE_SHIP_DONE
 	}
 end
 
@@ -554,6 +555,8 @@ function slot0.handleNotification(slot0, slot1)
 		end
 	elseif slot2 == GAME.HIDE_Ship_MAIN_SCENE_WORD then
 		slot0.viewComponent:hideShipWord()
+	elseif slot2 == GAME.PROPOSE_SHIP_DONE and slot0.viewComponent.shipFashionView and slot4:GetLoaded() then
+		slot4:UpdateAllFashion(true)
 	end
 end
 

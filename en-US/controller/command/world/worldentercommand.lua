@@ -12,19 +12,6 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.BuildDrop(slot0, slot1)
-	slot2 = {}
-
-	for slot6, slot7 in ipairs(slot1) do
-		slot8 = Item.New(slot7)
-
-		table.insert(slot2, slot8)
-		slot0:sendNotification(GAME.ADD_ITEM, slot8)
-	end
-
-	return slot2
-end
-
 function slot0.AfterReq(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = getProxy(WorldProxy)
@@ -39,13 +26,13 @@ function slot0.AfterReq(slot0, slot1)
 						nowWorld:TransDefaultFleets()
 						uv0:BuildWorld(World.TypeReset)
 						uv0:NetUpdateWorldMapPressing({})
-						nowWorld:CheckResetAward(uv1:BuildDrop(slot0.drop_list))
+						nowWorld:CheckResetAward(PlayerConst.addTranDrop(slot0.drop_list))
 						pg.TipsMgr.GetInstance():ShowTips(i18n("world_reset_success"))
 					else
 						nowWorld.expiredTime = slot0.time
 					end
 
-					uv2()
+					uv1()
 				else
 					pg.TipsMgr.GetInstance():ShowTips(errorTip("world_reset_error_", slot0.result))
 				end
@@ -89,8 +76,12 @@ function slot0.AfterReq(slot0, slot1)
 				mapId = slot2,
 				entranceId = slot3
 			})
+		elseif checkExist(uv1, {
+			"inWorldBoss"
+		}) then
+			uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLDBOSS)
 		else
-			uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLD, uv1)
+			uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLD)
 		end
 	end)
 end

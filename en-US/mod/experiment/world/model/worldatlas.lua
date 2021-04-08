@@ -1,16 +1,16 @@
 slot0 = class("WorldAtlas", import("...BaseEntity"))
 slot0.Fields = {
 	achEntranceList = "table",
-	replaceDic = "table",
+	sairenEntranceList = "table",
 	entranceDic = "table",
-	config = "table",
+	replaceDic = "table",
 	costMapDic = "table",
 	mapDic = "table",
+	config = "table",
 	taskPortDic = "table",
 	pressingMapList = "table",
 	portEntranceList = "table",
 	activeMapId = "number",
-	sairenMapList = "table",
 	taskMarkDic = "table",
 	world = "table",
 	transportDic = "table",
@@ -41,7 +41,7 @@ function slot0.Build(slot0)
 	slot0.mapDic = {}
 	slot0.taskMarkDic = {}
 	slot0.treasureMarkDic = {}
-	slot0.sairenMapList = {}
+	slot0.sairenEntranceList = {}
 	slot0.costMapDic = {}
 	slot0.pressingMapList = {}
 	slot0.transportDic = {}
@@ -125,34 +125,31 @@ function slot0.BuildEntranceDic(slot0)
 			table.insert(uv0.portEntranceList[slot4], slot0)
 		end
 
-		slot4 = slot1.chapter
-		uv0.mapEntrance[slot4] = slot2
-
-		if #uv0:NewMap(slot4).config.normal_target > 0 or #slot5.config.cryptic_target > 0 then
-			table.insert(uv0.achEntranceList, slot2)
-		end
-
-		for slot9, slot10 in ipairs(uv1) do
-			for slot14, slot15 in ipairs(slot5.config[slot10.field]) do
-				if slot10.name == "step" then
-					for slot19 = slot15[1], slot15[2] do
-						uv0.replaceDic[slot10.name][slot19] = uv0.replaceDic[slot10.name][slot19] or {}
-						uv0.replaceDic[slot10.name][slot19][slot0] = slot2
+		for slot7, slot8 in ipairs(uv1) do
+			for slot12, slot13 in ipairs(slot2.config[slot8.field]) do
+				if slot8.name == "step" then
+					for slot17 = slot13[1], slot13[2] do
+						uv0.replaceDic[slot8.name][slot17] = uv0.replaceDic[slot8.name][slot17] or {}
+						uv0.replaceDic[slot8.name][slot17][slot0] = slot2
 					end
 				else
-					uv0.replaceDic[slot10.name][slot15[1]] = uv0.replaceDic[slot10.name][slot15[1]] or {}
-					uv0.replaceDic[slot10.name][slot15[1]][slot0] = slot2
+					uv0.replaceDic[slot8.name][slot13[1]] = uv0.replaceDic[slot8.name][slot13[1]] or {}
+					uv0.replaceDic[slot8.name][slot13[1]][slot0] = slot2
 				end
 			end
 		end
 
+		if #slot2.config.normal_target > 0 or #slot2.config.cryptic_target > 0 then
+			table.insert(uv0.achEntranceList, slot2)
+		end
+
+		slot4 = slot1.chapter
+		slot5 = uv0:NewMap(slot4)
+		uv0.mapEntrance[slot4] = slot2
 		uv0.replaceDic.open[1][slot5.config.open_stage[1]] = uv0.replaceDic.open[1][slot5.config.open_stage[1]] or {}
 		uv0.replaceDic.open[1][slot5.config.open_stage[1]][slot0] = 1
 		uv0.replaceDic.open[2][slot5.config.open_stage[2]] = uv0.replaceDic.open[2][slot5.config.open_stage[2]] or {}
 		uv0.replaceDic.open[2][slot5.config.open_stage[2]][slot0] = 1
-	end)
-	table.sort(slot0.achEntranceList, function (slot0, slot1)
-		return slot0:GetBaseMapId() < slot1:GetBaseMapId()
 	end)
 end
 
@@ -315,7 +312,7 @@ function slot0.BuildTransportDic(slot0)
 	slot0.transportDic = {}
 
 	for slot4, slot5 in pairs(slot0.entranceDic) do
-		if slot5:GetBaseMap().isPressing then
+		if slot5:IsPressing() then
 			slot0.transportDic[slot4] = true
 
 			for slot9 in pairs(slot5.transportDic) do
@@ -371,35 +368,28 @@ function slot0.AddPressingMap(slot0, slot1)
 	end
 end
 
-function slot0.SetSairenMapList(slot0, slot1)
-	_.each(slot0.sairenMapList, function (slot0)
-		uv0:GetMap(slot0):UpdateSairenMark(false)
-		checkExist(uv0.mapEntrance[slot0], {
-			"UpdateDisplayMarks",
-			{
-				"sairen",
-				false
-			}
-		})
+function slot0.SetSairenEntranceList(slot0, slot1)
+	_.each(slot0.sairenEntranceList, function (slot0)
+		slot1 = uv0:GetEntrance(slot0)
+
+		slot1:UpdateSairenMark(false)
+		slot1:UpdateDisplayMarks("sairen", false)
 	end)
 
-	slot0.sairenMapList = slot1
+	slot0.sairenEntranceList = slot1
 
-	_.each(slot0.sairenMapList, function (slot0)
-		uv0:GetMap(slot0):UpdateSairenMark(true)
-		checkExist(uv0.mapEntrance[slot0], {
-			"UpdateDisplayMarks",
-			{
-				"sairen",
-				true
-			}
-		})
+	_.each(slot0.sairenEntranceList, function (slot0)
+		slot1 = uv0:GetEntrance(slot0)
+
+		slot1:UpdateSairenMark(true)
+		slot1:UpdateDisplayMarks("sairen", true)
 	end)
 end
 
 function slot0.RemoveSairenEntrance(slot0, slot1)
-	if table.indexof(slot0.sairenMapList, slot1:GetBaseMapId()) then
-		slot0:GetMap(table.remove(slot0.sairenMapList, slot2)):UpdateSairenMark(false)
+	if table.indexof(slot0.sairenEntranceList, slot1.id) then
+		table.remove(slot0.sairenEntranceList, slot2)
+		slot1:UpdateSairenMark(false)
 		slot1:UpdateDisplayMarks("sairen", false)
 	end
 end

@@ -40,11 +40,7 @@ function slot0.OnInit(slot0)
 	slot0.btnBack = slot0.rtInfoPanel:Find("back")
 
 	onButton(slot0, slot0.btnBack, function ()
-		if uv0.mapList[uv0.destIndex].active then
-			uv0:emit(WorldScene.SceneOp, "OpSetInMap", true)
-		else
-			uv0:emit(WorldScene.SceneOp, "OpTransport", uv0.entrance, slot0)
-		end
+		uv0:emit(WorldScene.SceneOp, "OpSetInMap", true)
 	end, SFX_CONFIRM)
 
 	slot0.btnEnter = slot0.rtInfoPanel:Find("enter")
@@ -134,23 +130,22 @@ function slot0.Hide(slot0)
 	setActive(slot0._tf, false)
 end
 
-function slot0.Setup(slot0, slot1, slot2, slot3)
-	slot0.isTransport = slot3
+function slot0.Setup(slot0, slot1, slot2)
 	slot0.entrance = slot1
 
 	setAnchoredPosition(slot0.rtBasePoint, slot0._tf:InverseTransformPoint(GameObject.Find("OverlayCamera"):GetComponent(typeof(Camera)):ScreenToWorldPoint(slot2:GetMapScreenPos(Vector2(slot1.config.area_pos[1], slot1.config.area_pos[2])))))
 
 	slot0.mapList = nowWorld:EntranceToReplacementMapList(slot1)
-	slot5 = 1
+	slot4 = 1
 
 	if slot1.active and not table.indexof(slot0.mapList, nowWorld:GetActiveMap()) then
-		table.insert(slot0.mapList, 1, slot6)
+		table.insert(slot0.mapList, 1, slot5)
 
-		slot5 = 1
+		slot4 = 1
 	end
 
 	slot0.toggleItemList:align(#slot0.mapList)
-	triggerToggle(slot0.rtToggles:GetChild(slot5 - 1), true)
+	triggerToggle(slot0.rtToggles:GetChild(slot4 - 1), true)
 end
 
 function slot0.setColorfulImage(slot0, slot1, slot2, slot3)
@@ -161,7 +156,6 @@ function slot0.UpdatePanel(slot0)
 	slot1 = nowWorld
 	slot4, slot5 = World.ReplacementMapType(slot0.entrance, slot0.mapList[slot0.destIndex])
 	slot6 = slot4 == "complete_chapter" and "safe" or WorldConst.GetMapIconState(slot3.config.entrance_ui)
-	slot8 = slot0.isTransport
 
 	slot0:setColorfulImage(slot0.rtBasePoint, slot6)
 	slot0:setColorfulImage(slot0.rtInfoPanel, slot6, false)
@@ -179,41 +173,37 @@ function slot0.UpdatePanel(slot0)
 	setText(slot0.rtInfoPanel:Find("danger_text"), slot3:IsMapOpen() and slot3:GetDanger() or "?")
 	changeToScrollText(slot0.rtInfoPanel:Find("title/name"), slot3:GetName(slot0.entrance:GetBaseMap()))
 
-	slot10, slot11, slot12 = slot1:CountAchievements(slot0.entrance)
+	slot9, slot10, slot11 = slot1:CountAchievements(slot0.entrance)
 
-	setText(slot0.rtInfoPanel:Find("title/achievement/number"), slot10 + slot11 .. "/" .. slot12)
-	setActive(slot0.rtInfoPanel:Find("pressing_award"), slot1:GetPressingAward(slot3.id) and slot13.flag)
+	setText(slot0.rtInfoPanel:Find("title/achievement/number"), slot9 + slot10 .. "/" .. slot11)
+	setActive(slot0.rtInfoPanel:Find("pressing_award"), slot1:GetPressingAward(slot3.id) and slot12.flag)
 
-	if slot13 and slot13.flag then
-		slot0.awardConfig = pg.world_event_complete[slot13.id].tips_icon
+	if slot12 and slot12.flag then
+		slot0.awardConfig = pg.world_event_complete[slot12.id].tips_icon
 
 		slot0.awardItemList:align(#slot0.awardConfig)
 	end
 
 	slot0:UpdateCost()
 
-	if slot7 then
-		if slot8 then
-			setActive(slot0.btnBack, nowWorld:GetAtlas():GetActiveMap() == slot3 or slot3.isCost)
-			setActive(slot0.btnEnter, not isActive(slot0.btnBack) and slot14.transportDic[slot0.entrance.id])
-			setText(slot0.btnLock:Find("Text"), i18n("world_map_locked_border"))
-		else
-			setActive(slot0.btnBack, slot16 == slot3)
-			setActive(slot0.btnEnter, false)
-		end
+	slot15, slot16 = nowWorld:GetAtlas():GetActiveMap():CkeckTransport()
 
-		setActive(slot0.btnLock, slot8 and not isActive(slot0.btnBack) and not isActive(slot0.btnEnter))
-		setActive(slot0.btnReturn, not slot8 and not isActive(slot0.btnBack) and not isActive(slot0.btnEnter))
-	else
-		if slot8 then
-			setText(slot0.btnLock:Find("Text"), i18n("world_map_locked_stage"))
-		end
+	setActive(slot0.btnBack, not false and slot13:GetActiveEntrance() == slot0.entrance and slot14 == slot3)
 
-		setActive(slot0.btnBack, false)
-		setActive(slot0.btnEnter, false)
-		setActive(slot0.btnLock, slot8)
-		setActive(slot0.btnReturn, not slot8)
-	end
+	slot17 = slot17 or isActive(slot0.btnBack)
+
+	setActive(slot0.btnEnter, not slot17 and slot15 and slot7 and slot13.transportDic[slot0.entrance.id])
+
+	slot17 = slot17 or isActive(slot0.btnEnter)
+
+	setText(slot0.btnLock:Find("Text"), slot7 and i18n("world_map_locked_border") or i18n("world_map_locked_stage"))
+	setActive(slot0.btnLock, not slot17 and slot15)
+
+	slot17 = slot17 or isActive(slot0.btnLock)
+
+	setActive(slot0.btnReturn, not slot17)
+
+	slot17 = slot17 or isActive(slot0.btnReturn)
 end
 
 function slot0.UpdateCost(slot0)
@@ -260,7 +250,7 @@ function slot0.HideToggleMask(slot0)
 
 		uv0.isTweening = false
 
-		setActive(uv0.btnSwitch, uv0.isTransport and #uv0.mapList > 1)
+		setActive(uv0.btnSwitch, #uv0.mapList > 1)
 	end))
 end
 

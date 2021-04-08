@@ -1,14 +1,5 @@
 pg = pg or {}
 pg.aircraft_template_5 = {
-	[4246] = {
-		id = 4246,
-		base = 4240,
-		max_hp = 66,
-		hp_growth = 2541,
-		weapon_ID = {
-			53146
-		}
-	},
 	[4247] = {
 		id = 4247,
 		base = 4240,
@@ -153,6 +144,80 @@ pg.aircraft_template_5 = {
 		hp_growth = 1666,
 		weapon_ID = {
 			53203
+		}
+	},
+	[4320] = {
+		name = "TBM-3复仇者",
+		max_hp = 33,
+		accuracy = 23,
+		model_ID = "tbm-3",
+		ACC_growth = 0,
+		crash_DMG = 135,
+		dodge = 1.15,
+		attack_power = 2,
+		dodge_limit = 4.5,
+		type = 3,
+		AP_growth = 2000,
+		icon = "tbm-3",
+		funnel_behavior = "",
+		nationality = 0,
+		hp_growth = 1277,
+		speed = 48,
+		id = 4320,
+		scale = 1,
+		weapon_ID = {
+			53220
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.85,
+					-1.39,
+					0
+				},
+				{
+					1.08,
+					1.64,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.15,
+				-0.08,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	}
 }
