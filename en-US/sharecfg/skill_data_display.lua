@@ -792,6 +792,10 @@ pg.skill_data_display = {
 		id = 8824,
 		name = "Emergency Procedures "
 	},
+	[8832] = {
+		id = 8832,
+		name = "火力支援"
+	},
 	[8844] = {
 		id = 8844,
 		name = "Radiance"
@@ -3624,6 +3628,14 @@ pg.skill_data_display = {
 		id = 14291,
 		name = "Whimsical Protector"
 	},
+	[14300] = {
+		id = 14300,
+		name = "Dutiful Support"
+	},
+	[14301] = {
+		id = 14301,
+		name = "Dutiful Support"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -5863,6 +5875,7 @@ pg.skill_data_display = {
 		8820,
 		8821,
 		8824,
+		8832,
 		8844,
 		8847,
 		8850,
@@ -6571,6 +6584,8 @@ pg.skill_data_display = {
 		14282,
 		14290,
 		14291,
+		14300,
+		14301,
 		18010,
 		18040,
 		18041,

@@ -271,8 +271,8 @@ function slot0.updateSkillTF(slot0, slot1, slot2)
 end
 
 function slot0.updateSkillTFLearning(slot0)
-	for slot4, slot5 in pairs(slot0.skillBtnList) do
-		setActive(slot0:findTF("Learning", slot5), slot4 == slot0.curSkillID)
+	for slot5, slot6 in pairs(slot0.skillBtnList) do
+		setActive(slot0:findTF("Learning", slot6), slot5 == slot0.curSkillID and not slot0.curShipVO:isSkillLevelMax(slot5))
 	end
 end
 

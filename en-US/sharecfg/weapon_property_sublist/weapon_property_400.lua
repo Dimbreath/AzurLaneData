@@ -3042,6 +3042,50 @@ function ()
 		},
 		precast_param = {}
 	}
+	uv0.weapon_property_400[2940000] = {
+		action_index = "attack",
+		range = 360,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】保底伤害",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 0,
+		corrected = 0,
+		min_range = 0,
+		id = 2940000,
+		attack_attribute_ratio = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 100,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29400000
+		},
+		barrage_ID = {
+			29400000
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_400[2940200] = {
 		action_index = "attack",
 		range = 38,
@@ -5587,6 +5631,8 @@ function ()
 		},
 		precast_param = {}
 	}
+end()
+function ()
 	uv0.weapon_property_400[2950201] = {
 		action_index = "attack",
 		range = 100,
@@ -6205,8 +6251,6 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
-function ()
 	uv0.weapon_property_400[2950202] = {
 		action_index = "attack",
 		range = 100,
@@ -13198,6 +13242,8 @@ function ()
 		},
 		precast_param = {}
 	}
+end()
+function ()
 	uv0.weapon_property_400[2965053] = {
 		action_index = "attack",
 		range = 120,
@@ -13242,8 +13288,6 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
-function ()
 	uv0.weapon_property_400[2965054] = {
 		action_index = "attack",
 		range = 120,

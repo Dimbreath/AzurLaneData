@@ -2603,6 +2603,21 @@ pg.memory_group = {
 			1587
 		}
 	},
+	[558] = {
+		title = "Three-Star Luxury Romance",
+		type = 3,
+		id = 558,
+		icon = "title_chara_ailunsamuna",
+		memories = {
+			1591,
+			1592,
+			1593,
+			1594,
+			1595,
+			1596,
+			1597
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2749,6 +2764,7 @@ pg.memory_group = {
 		554,
 		555,
 		556,
-		557
+		557,
+		558
 	}
 }

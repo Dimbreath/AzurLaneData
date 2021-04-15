@@ -157,8 +157,9 @@ return {
 			},
 			options = {
 				{
-					content = "...shall take command once more.",
-					flag = 1
+					flag = 1,
+					autochoice = 1,
+					content = "...shall take command once more."
 				}
 			}
 		},

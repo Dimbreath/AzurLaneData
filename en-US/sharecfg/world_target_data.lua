@@ -3050,7 +3050,7 @@ pg.world_target_data = {
 	},
 	[12105] = {
 		target_name = "深度探索",
-		target_desc = "Destroyer 3 Siren weather control device(s).",
+		target_desc = "Destroy 3 Siren weather control device(s).",
 		id = 12105,
 		condition = {
 			{
@@ -3890,7 +3890,7 @@ pg.world_target_data = {
 	},
 	[15105] = {
 		target_name = "深度探索",
-		target_desc = "Destroyer 2 Siren weather control device(s).",
+		target_desc = "Destroy 2 Siren weather control device(s).",
 		id = 15105,
 		condition = {
 			{
@@ -4370,7 +4370,7 @@ pg.world_target_data = {
 	},
 	[15905] = {
 		target_name = "深度探索",
-		target_desc = "Destroyer 2 Siren weather control device(s).",
+		target_desc = "Destroy 2 Siren weather control device(s).",
 		id = 15905,
 		condition = {
 			{

@@ -298,7 +298,7 @@ function slot0.GetFOVRange(slot0)
 		slot1 = math.min(1, slot6:GetTrapParams()[1] / 100)
 	end
 
-	return WorldConst.GetFOVRadius() * slot1
+	return math.floor(WorldConst.GetFOVRadius() * slot1)
 end
 
 function slot0.GetCarries(slot0)

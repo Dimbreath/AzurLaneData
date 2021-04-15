@@ -2803,7 +2803,7 @@ Page 7: An Shan-class destroyer – An Shan]]
 		}
 	},
 	levelScene_activate_loop_mode_failed = {
-		tip = "Bring the Threat Level to Safe and clear with 3 Stars to unlock Clearing Mode."
+		tip = "You must reach 100% completion on this map to unlock Clearing Mode."
 	},
 	levelScene_coastalgun_help_tip = {
 		tip = {
@@ -3242,7 +3242,11 @@ b. If challenging someone else's boss,
 a challenge attempt will be used, but no rewards
 will be granted.
 <color=#92fc63>Please make sure your network conditions are stable
-before attempting an Ashes Showdown!</color>]]
+before attempting an Ashes Showdown!</color>.
+
+6. Artillery Support/n-From the 31st day of this Ashes Showdown season onwards, whenever you begin an Ashes Showdown, your fleet will gain an additional wave of artillery support. This artillery support will deal damage to the enemy and apply a special debuff that inflicts damage over time (this damage cannot be amplified by any bonus effects).
+The later in the Ashes Showdown season it is, the greater the damage inflicted by this artillery support.
+*Artillery Support will only appear during Ashes Showdown battles you discover, and will trigger with each challenge attempt.]]
 			}
 		}
 	},
@@ -4765,7 +4769,19 @@ Fierce Assault is available on Wednesdays, Saturdays, and Sundays.
 Tactical Training is available every day of the week.
 <color=#92fc63>Airstrikes</color> are highly effective for <color=#92fc63>Tactical Training (Aviation)</color>.
 <color=#92fc63>Main Fleet Salvos</color> are highly effective for <color=#92fc63>Tactical Training (Shelling)</color>.
-<color=#92fc63>Vanguard Torpedoes</color> are highly effective for <color=#92fc63>Tactical Training (Torpedo)</color>.]]
+<color=#92fc63>Vanguard Torpedoes</color> are highly effective for <color=#92fc63>Tactical Training (Torpedo)</color>.
+
+Completing a Daily Raid stage with an S rating will <color=#92fc63>unlock</color> the quick battle option for that stage.
+-Quick battle allows you to challenge that stage multiple times at once.
+-Carrying out quick battles will skip the battle and grant you rewards according to the number of battles carried out.
+-Quick battles <color=#92fc63>do not consume</color> Oil, but also do not grant Commander or Ship EXP.
+-Quick battles will not affect the Morale or Affection of your ships.
+-Quick battle sortie victories <color=#92fc63>will not affect</color> your number of victories or victory rate on your profile page.
+-Quick battles count towards the progress of certain missions such as:
+Obtain victory with a B/A/S rating.
+Complete Daily Raids.
+Defeat small/medium/large fleets.
+-Quick battles will not count towards the completion of character story missions.]]
 			}
 		}
 	},
@@ -6495,7 +6511,7 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		tip = "<size=28>Threat Level Evaluation:<color=#92fc63>【$1】</color>\nDamage reduction received when sortieing: <color=#92fc63>$2%</color></size> "
 	},
 	level_diffcult_chapter_state_safety = {
-		tip = "<size=24>After you achieve <color=#92fc63>3 stars</color> in the stage and make it a <color=#92fc63>safe area</color>,\nyour fleets can attack <color=#92fc63>enemy flagships</color> directly.</size>"
+		tip = "<size=24>After reaching 100% completion on this map, you may directly attack the <color=#92fc63>enemy flagships</color>. directly.</size>"
 	},
 	level_chapter_state_high_risk = {
 		tip = "<color=#EE2C00>【Threat: Lethal】</color>"
@@ -7104,27 +7120,25 @@ Fate Simulation:
 		tip = {
 			{
 				info = [[
-About Distress Signals:
-- You can receive Distress Signals at random from any Chapter on the world map.Even when you're logged out, you can still receive Distress Signals.
-- You must first clear the final stage (X-4) of a Chapter before you can receive Distress Signals from it.
+About SOS Signals
+-SOS Signals are received at random. You can receive them even if not logged in to the game.
+-You must first clear the final stage (X-4) of a Chapter before you can receive SOS Signals from that chapter.
 
-About The Find Source Button:
-- When you tap this button, you will locate which Chapter the Distress Signal is coming from.
-- Once you've located the signal's source, you can initiate a Rescue Mission.
-- You can only have 1 Rescue Mission active per Chapter. You must complete the Rescue Mission or let its timer run out before you can get another Rescue Mission for the same Chapter.
-- A Rescue Mission will disappear once you've cleared it or 12 hours have passed.
+About the Search Function
+-Tap on the Search button search for the location the SOS Signal came from.
+-Once you've located the signal's source, you can initiate a Rescue Mission.
+-Rescue Missions correspond to different Chapters, and only one Rescue Mission can be active per chapter.
+-Rescue Missions must be cleared within 12 hours, after which they will disappear.
 
-Signal Sensitivity:
-- Your Signal Sensitivity dictates which Chapters you may receive Distress Signals from.
-- At Sensitivity level 1, Rescue Missions will only appear in Chapter 3.
-- As you increase your Signal Sensitivity level, you will gain access to Rescue Missions in higher Chapters on the world map.
-- You can increase your Signal Sensitivity by 1 level by S-Ranking the Boss Node on your currently highest level available Rescue Mission. Your Signal Sensitivity caps out at level 8.
-- Additionally, the higher your Sensitivity level, the better the rewards you may receive from clearing the Boss Node.
+Signal Strength
+-Signal Strength affects the range that Rescue Missions can appear in.
+-At a Signal Strength of 1, Rescue Missions will only appear in Chapter 3.
+-As Signal Strength increases, Rescue Missions will be able to appear in higher and higher Chapters.
+-Signal Strength will increase by 1 every time you complete the furthest unlocked Rescue Mission with an S rating.
+-The maximum Signal Strength possible is 8. The higher the Signal Strength, the better the potential rewards.
 
-Combat Details:
-- You will encounter enemy Submarines during Rescue Missions. Before you attempt a Rescue Mission, it's recommended that you first equip your DDs and CLs with Anti-Sub gear.
-
-]]
+Combat Encounters
+-Enemy submarines will appear in Rescue Missions. Use DDs or CLs equipped with ASW equipment to counter them.]]
 			}
 		}
 	},
@@ -7626,13 +7640,13 @@ Combat Details:
 		tip = "Rate up for Baltimore, Allen M. Sumner, and more!"
 	},
 	buildship_heavy_tip = {
-		tip = "Jean Bart, Massaschusetts and others are added to standard build pool! "
+		tip = "Nagato and Suzuya are added to standard build pool! "
 	},
 	buildship_light_tip = {
-		tip = "Le Malin, Le Triomphant and others are added to standard build pool! "
+		tip = "Kawakaze, Yoizuki and others are added to standard build pool! "
 	},
 	buildship_special_tip = {
-		tip = "Surcouf is added to standard build pool! "
+		tip = "I-13 is added to standard build pool! "
 	},
 	open_skill_pos = {
 		tip = "It will cost you <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffff00>$1</color> to unlock 3rd slot, Do you wish to proceed?"
@@ -8433,7 +8447,7 @@ Once the mission is completed, all players who participated will be rewarded wit
 		tip = {
 			{
 				info = [[
-Once you get a stage’s Threat Level down to <color=#92fc63>Safe</color> and clear it with <color=#92fc63>3 stars</color>, you will be able to use <color=#92fc63>Clearing Mode</color>.
+You may set this map to <color=#92fc63>Clearing Mode</color> on the operation selection screen after reaching 100% completion..
 
 Enabling Clearing Mode affects a stage in the following ways:：
 
@@ -12948,6 +12962,9 @@ next character that appears on-screen.
 	autofight_farm = {
 		tip = "Clearing Mode"
 	},
+	autofight_story = {
+		tip = "The story will start playing shortly. "
+	},
 	fushun_adventure_help = {
 		tip = {
 			{
@@ -13632,5 +13649,32 @@ Your Action Points will also reset, starting you off with <color=#92fc63>200 AP.
 	},
 	story_autoplay_setting_2 = {
 		tip = "Enabled"
+	},
+	daily_level_quick_battle_label2 = {
+		tip = "Battle"
+	},
+	daily_level_quick_battle_label1 = {
+		tip = "Quick\nBattle x"
+	},
+	dailyLevel_quickfinish = {
+		tip = "Carrying out quick battles will grant rewards according to the total number of battle attempts.\nCommander EXP and Ship EXP will not be granted from quick battles, and Morale/Affection will not be affected.\nAre you sure you want to continue? "
+	},
+	daily_level_quick_battle_label3 = {
+		tip = "Quick\nBattle x"
+	},
+	LevelSignal = {
+		tip = "SOS Signal"
+	},
+	LevelSignal_go = {
+		tip = "Sortie"
+	},
+	LevelSignal_search = {
+		tip = "Search"
+	},
+	LevelSignal_times = {
+		tip = "Search Attempts"
+	},
+	LevelSignal_intensity = {
+		tip = "Signal Strength"
 	}
 }

@@ -151,7 +151,17 @@ function slot0.didEnter(slot0)
 		if uv0.contextData.closeOnCompleted then
 			uv0:closeView()
 		end
+
+		if uv0.enterCallback then
+			uv0.enterCallback()
+
+			uv0.enterCallback = nil
+		end
 	end)
+end
+
+function slot0.onUIAnimEnd(slot0, slot1)
+	slot0.enterCallback = slot1
 end
 
 function slot0.onBackPressed(slot0)

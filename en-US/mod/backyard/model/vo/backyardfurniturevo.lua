@@ -15,7 +15,11 @@ function slot0.getWallDir(slot0)
 end
 
 function slot0.getCloneId(slot0, slot1)
-	return slot0.configId * 10000000 + slot1
+	if BackYardConst.SAME_ID_MODIFY_ID < slot0.configId then
+		return slot0.configId + slot1
+	else
+		return slot0.configId * 10000000 + slot1
+	end
 end
 
 function slot0.isRightWall(slot0)

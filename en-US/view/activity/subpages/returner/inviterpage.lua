@@ -133,7 +133,7 @@ function slot0.UpdateData(slot0)
 	slot0.nextDrops = slot0.config.drop_client[slot0.nextIndex]
 	slot0.nextTarget = slot0.targets[slot0.nextIndex]
 	slot0.returners = slot1:getClientList()
-	slot0.pt = slot0:getTotalPt(getProxy(PlayerProxy):getRawData():getResource(slot0.config.pt))
+	slot0.pt = slot0:getTotalPt(slot1.data3)
 
 	setActive(slot0.pushBtn, not slot0.isPush and #slot0.returners < 3)
 	setActive(slot0.pushedBtn, slot0.isPush)

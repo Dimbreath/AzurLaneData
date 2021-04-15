@@ -7398,7 +7398,7 @@ pg.world_effect_data = {
 		id = 5200,
 		autoactivate = 2,
 		effect_paramater = {
-			5200
+			5206
 		},
 		autoflag = {}
 	},
@@ -7841,14 +7841,20 @@ pg.world_effect_data = {
 	[5215] = {
 		autocomplete = 0,
 		effective_num = 0,
-		effect_type = 39,
+		effect_type = 51,
 		log_text = "",
 		sound_effects = "",
 		id = 5215,
 		autoactivate = 0,
 		effect_paramater = {
-			5200,
-			5203
+			{
+				5200,
+				5203
+			},
+			{
+				5207,
+				5203
+			}
 		},
 		autoflag = {}
 	},
@@ -8111,6 +8117,32 @@ pg.world_effect_data = {
 			1024,
 			1025,
 			1026
+		},
+		autoflag = {}
+	},
+	[5221] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 10,
+		log_text = "",
+		sound_effects = "",
+		id = 5221,
+		autoactivate = 2,
+		effect_paramater = {
+			5207
+		},
+		autoflag = {}
+	},
+	[5222] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 10,
+		log_text = "",
+		sound_effects = "",
+		id = 5222,
+		autoactivate = 2,
+		effect_paramater = {
+			5202
 		},
 		autoflag = {}
 	},
@@ -131121,6 +131153,58 @@ pg.world_effect_data = {
 		},
 		autoflag = {}
 	},
+	[10000353] = {
+		autocomplete = 0,
+		effective_num = 0,
+		effect_type = 51,
+		log_text = "",
+		sound_effects = "",
+		id = 10000353,
+		autoactivate = 2,
+		effect_paramater = {
+			{
+				1000011,
+				1009111
+			},
+			{
+				1000012,
+				1009112
+			},
+			{
+				1000013,
+				1009113
+			},
+			{
+				1000015,
+				1009115
+			},
+			{
+				1000016,
+				1009116
+			},
+			{
+				1000017,
+				1009117
+			},
+			{
+				1002300,
+				1002310
+			},
+			{
+				1009001,
+				1009011
+			},
+			{
+				1009002,
+				1009012
+			},
+			{
+				1009003,
+				1009013
+			}
+		},
+		autoflag = {}
+	},
 	[10000401] = {
 		autocomplete = 0,
 		effective_num = 0,
@@ -135160,9 +135244,7 @@ pg.world_effect_data = {
 				}
 			}
 		},
-		autoflag = {
-			1
-		}
+		autoflag = {}
 	},
 	[10020006] = {
 		autocomplete = 0,
@@ -145118,7 +145200,9 @@ pg.world_effect_data = {
 				}
 			}
 		},
-		autoflag = {}
+		autoflag = {
+			1
+		}
 	},
 	[41000014] = {
 		autocomplete = 0,
@@ -145799,7 +145883,9 @@ pg.world_effect_data = {
 				}
 			}
 		},
-		autoflag = {}
+		autoflag = {
+			1
+		}
 	},
 	[41002011] = {
 		autocomplete = 0,
@@ -249867,6 +249953,8 @@ pg.world_effect_data = {
 		5218,
 		5219,
 		5220,
+		5221,
+		5222,
 		5300,
 		5301,
 		5302,
@@ -256356,6 +256444,7 @@ pg.world_effect_data = {
 		10000350,
 		10000351,
 		10000352,
+		10000353,
 		10000401,
 		10000402,
 		10000403,

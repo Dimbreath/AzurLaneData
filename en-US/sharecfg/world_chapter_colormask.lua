@@ -1554,6 +1554,7 @@ pg.world_chapter_colormask = {
 			43,
 			81,
 			83,
+			104,
 			105
 		},
 		complete_chapter = {
@@ -4471,7 +4472,8 @@ pg.world_chapter_colormask = {
 		},
 		map_transfer = {
 			103,
-			105
+			105,
+			41
 		},
 		complete_chapter = {
 			1104

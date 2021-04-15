@@ -128938,32 +128938,32 @@ pg.ship_data_statistics = {
 		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
-			1,
+			252,
+			11,
+			77,
+			24,
 			0,
+			74,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			67,
+			72,
+			44.76,
+			42,
+			48
 		},
 		attrs_growth = {
+			6140,
+			108,
+			760,
+			480,
+			0,
+			370,
+			0,
+			990,
+			1062,
 			0,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			474
 		},
 		attrs_growth_extra = {
 			0,
@@ -129005,7 +129005,7 @@ pg.ship_data_statistics = {
 		fix_equip_list = {},
 		default_equip_list = {
 			100,
-			107,
+			105,
 			104
 		},
 		depth_charge_list = {
@@ -129027,9 +129027,9 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1,
-			1,
-			1
+			0.7,
+			1.2,
+			0.7
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -129062,32 +129062,32 @@ pg.ship_data_statistics = {
 		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
-			1,
+			313,
+			14,
+			96,
+			30,
 			0,
+			74,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			67,
+			72,
+			44.76,
+			42,
+			60
 		},
 		attrs_growth = {
+			6140,
+			108,
+			760,
+			480,
+			0,
+			370,
+			0,
+			990,
+			1062,
 			0,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			474
 		},
 		attrs_growth_extra = {
 			0,
@@ -129129,7 +129129,7 @@ pg.ship_data_statistics = {
 		fix_equip_list = {},
 		default_equip_list = {
 			100,
-			107,
+			105,
 			104
 		},
 		depth_charge_list = {
@@ -129151,9 +129151,9 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1,
-			1,
-			1
+			0.7,
+			1.25,
+			0.7
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -129186,32 +129186,32 @@ pg.ship_data_statistics = {
 		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
-			1,
+			436,
+			19,
+			134,
+			42,
 			0,
+			74,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			67,
+			72,
+			44.76,
+			42,
+			84
 		},
 		attrs_growth = {
+			6140,
+			108,
+			760,
+			480,
+			0,
+			370,
+			0,
+			990,
+			1062,
 			0,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			474
 		},
 		attrs_growth_extra = {
 			0,
@@ -129253,7 +129253,7 @@ pg.ship_data_statistics = {
 		fix_equip_list = {},
 		default_equip_list = {
 			100,
-			107,
+			105,
 			104
 		},
 		depth_charge_list = {
@@ -129275,9 +129275,9 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1,
-			1,
-			1
+			0.7,
+			1.35,
+			0.7
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -129310,46 +129310,46 @@ pg.ship_data_statistics = {
 		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
-			1,
+			620,
+			27,
+			191,
+			60,
 			0,
+			74,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			67,
+			72,
+			44.76,
+			42,
+			119
 		},
 		attrs_growth = {
+			6140,
+			108,
+			760,
+			480,
+			0,
+			370,
+			0,
+			990,
+			1062,
 			0,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			474
 		},
 		attrs_growth_extra = {
+			6130,
+			252,
+			1198,
+			323,
+			0,
+			875,
+			0,
+			-578,
+			-770,
 			0,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			447
 		},
 		lock = {
 			"air"
@@ -129377,7 +129377,7 @@ pg.ship_data_statistics = {
 		fix_equip_list = {},
 		default_equip_list = {
 			100,
-			107,
+			105,
 			104
 		},
 		depth_charge_list = {
@@ -129399,9 +129399,9 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1,
-			1,
-			1
+			0.75,
+			1.4,
+			0.75
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -134608,7 +134608,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Agano-Class"
+			"Agano-Class",
+			"Agano"
 		}
 	},
 	[302202] = {
@@ -134735,7 +134736,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Agano-Class"
+			"Agano-Class",
+			"Agano"
 		}
 	},
 	[302203] = {
@@ -134862,7 +134864,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Agano-Class"
+			"Agano-Class",
+			"Agano"
 		}
 	},
 	[302204] = {
@@ -134989,7 +134992,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Agano-Class"
+			"Agano-Class",
+			"Agano"
 		}
 	},
 	[302211] = {

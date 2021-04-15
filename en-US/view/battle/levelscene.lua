@@ -855,6 +855,10 @@ function slot0.updateSubInfo(slot0, slot1, slot2)
 
 	setText(slot0.signalBtn:Find("nums"), slot0.subRefreshCount)
 	setText(slot0.entranceLayer:Find("enters/right_panel/btn_signal/nums"), slot0.subRefreshCount)
+
+	if slot0.levelSignalView then
+		slot0.levelSignalView:ActionInvoke("set", slot0.subRefreshCount, slot0.subProgress)
+	end
 end
 
 function slot0.updateLastFleet(slot0, slot1)
@@ -1551,21 +1555,32 @@ function slot0.tryPlayMapStory(slot0)
 		function (slot0)
 			if uv0.contextData.map:getConfig("enter_story") and slot1 ~= "" and not pg.SystemOpenMgr.GetInstance().active then
 				pg.NewStoryMgr.GetInstance():Play(slot1, function (slot0)
-					if not slot0 then
-						if uv0.contextData.map:getConfig("guide_id") and slot1 ~= "" then
-							pg.SystemGuideMgr.GetInstance():PlayByGuideId(slot1, nil, uv1)
-						else
-							uv1()
-						end
-					else
-						uv1()
-					end
+					uv0(not slot0)
 				end)
-			else
-				slot0()
+
+				return
 			end
+
+			slot0()
+		end,
+		function (slot0, slot1)
+			if not slot1 then
+				return slot0()
+			end
+
+			if uv0.contextData.map:getConfig("guide_id") and slot2 ~= "" then
+				pg.SystemGuideMgr.GetInstance():PlayByGuideId(slot2, nil, slot0)
+
+				return
+			end
+
+			slot0()
 		end,
 		function (slot0)
+			if uv0.exited then
+				return
+			end
+
 			pg.SystemOpenMgr.GetInstance():notification(uv0.player.level)
 
 			if pg.SystemOpenMgr.GetInstance().active then
@@ -1580,9 +1595,8 @@ function slot0.displaySignalPanel(slot0)
 
 	slot0.levelSignalView:Load()
 	slot0.levelSignalView:ActionInvoke("set", slot0.subRefreshCount, slot0.subProgress)
-	slot0.levelSignalView:ActionInvoke("setCBFunc", function ()
-		uv0:hideSignalPanel()
-		uv0:emit(LevelMediator2.ON_REFRESH_SUB_CHAPTER)
+	slot0.levelSignalView:ActionInvoke("setCBFunc", function (slot0)
+		uv0:emit(LevelMediator2.ON_REFRESH_SUB_CHAPTER, slot0)
 	end, function (slot0)
 		uv0:hideSignalPanel()
 
@@ -1821,9 +1835,9 @@ function slot0.trackChapter(slot0, slot1, slot2)
 		end
 
 		if uv2:getConfig("enter_story") and slot2 ~= "" and uv0:isCrossStoryLimit(uv2:getConfig("enter_story_limit")) then
-			pg.NewStoryMgr.GetInstance():Play(slot2, function ()
+			ChapterOpCommand.PlayChapterStory(slot2, function ()
 				onNextTick(uv0)
-			end)
+			end, uv2:isLoop() and PlayerPrefs.GetInt("chapter_autofight_flag_" .. uv2.id, 1) == 1)
 			coroutine.yield()
 		end
 
@@ -2805,6 +2819,16 @@ function slot0.destroySignalSearch(slot0)
 
 		slot0.signalAni = nil
 	end
+end
+
+function slot0.PlaySubRefreshAnimation(slot0, slot1, slot2)
+	if not slot0.levelSignalView then
+		existCall(slot2)
+
+		return
+	end
+
+	slot0.levelSignalView:ActionInvoke("PlaySubRefreshAnimation", slot1, slot2)
 end
 
 function slot0.doPlayCommander(slot0, slot1, slot2)

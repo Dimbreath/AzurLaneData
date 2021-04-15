@@ -21734,6 +21734,269 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5601] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5436,
+		type = 5,
+		name = "Easily Distracted",
+		count_inherit = 0,
+		desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "ailunsamuna",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5602",
+		visibility = 1,
+		story_id = "AILUNSAMUNA1",
+		target_id_for_client = 50003,
+		id = 5601,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5602] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5437,
+		type = 5,
+		name = "Sticker Star",
+		count_inherit = 0,
+		desc = "Enhance any character 10 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "ailunsamuna",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5603",
+		visibility = 1,
+		story_id = "AILUNSAMUNA2",
+		target_id_for_client = 0,
+		id = 5602,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5603] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5438,
+		type = 5,
+		name = "Work Hard, Play Hard",
+		count_inherit = 0,
+		desc = "Sortie and obtain 20 victories with Allen M. Sumner in the fleet.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "ailunsamuna",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5604",
+		visibility = 1,
+		story_id = "AILUNSAMUNA3",
+		target_id_for_client = 10145,
+		id = 5603,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "10145",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5604] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5439,
+		type = 5,
+		name = "Shopping in the Daylight",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges with Allen M. Sumner in the fleet.",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "ailunsamuna",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5605",
+		visibility = 1,
+		story_id = "AILUNSAMUNA4",
+		target_id_for_client = 10145,
+		id = 5604,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "10145",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5605] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5440,
+		type = 5,
+		name = "Dinner in the Sunset",
+		count_inherit = 0,
+		desc = "Reach 100 Affinity with Allen M. Sumner.",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "ailunsamuna",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5606",
+		visibility = 1,
+		story_id = "AILUNSAMUNA5",
+		target_id_for_client = 10145,
+		id = 5605,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "10145",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5606] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5441,
+		type = 5,
+		name = "A Surprise Gift",
+		count_inherit = 0,
+		desc = "Fully Limit Break Allen M. Sumner.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "ailunsamuna",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5607",
+		visibility = 1,
+		story_id = "AILUNSAMUNA6",
+		target_id_for_client = 101454,
+		id = 5606,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "101454",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[5607] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5442,
+		type = 5,
+		name = "What Allen Wanted",
+		count_inherit = 0,
+		desc = "Get Allen M. Sumner to Level 100.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "ailunsamuna",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "AILUNSAMUNA7",
+		target_id_for_client = 10145,
+		id = 5607,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "10145",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -107271,7 +107534,7 @@ pg.task_data_template = {
 		next_task = "0",
 		visibility = 1,
 		story_id = "",
-		target_id_for_client = 12303,
+		target_id_for_client = 2103,
 		id = 16502,
 		target_num = 1,
 		fix_task = 0,
@@ -107387,7 +107650,7 @@ pg.task_data_template = {
 		next_task = "0",
 		visibility = 1,
 		story_id = "",
-		target_id_for_client = 12307,
+		target_id_for_client = 2107,
 		id = 16505,
 		target_num = 1,
 		fix_task = 0,
@@ -121525,6 +121788,13 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		5595,
 		5596,
 		5597,
+		5601,
+		5602,
+		5603,
+		5604,
+		5605,
+		5606,
+		5607,
 		6001,
 		6002,
 		6003,

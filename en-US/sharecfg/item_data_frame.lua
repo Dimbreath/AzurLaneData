@@ -192,6 +192,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>The Sirens' secrets shall dance in the palm of our hand!</color> ",
 		scene = {}
 	},
+	[314] = {
+		name = "Pride of Sardegna",
+		time_second = 0,
+		id = 314,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Obtained from a subsequent event</color>",
+		scene = {}
+	},
 	[501] = {
 		name = "Manjuu Pizzeria Frame ",
 		time_second = 0,
@@ -225,6 +233,7 @@ pg.item_data_frame = {
 		311,
 		312,
 		313,
+		314,
 		501
 	}
 }

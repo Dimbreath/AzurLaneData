@@ -246,6 +246,15 @@ pg.strategy_data_template = {
 		desc = "Allied Air Support",
 		arg = {}
 	},
+	[8832] = {
+		buff_id = 8832,
+		name = "Artillery Support",
+		type = 10,
+		id = 8832,
+		icon = "8832",
+		desc = "Allies provide 1 wave of artillery support, dealing continuous DMG to the enemy for a period of time (DMG increases the longer the Ashes Showdown boss has been active). ",
+		arg = {}
+	},
 	[8841] = {
 		buff_id = 8841,
 		name = "Radiance",
@@ -463,6 +472,7 @@ pg.strategy_data_template = {
 		8809,
 		8812,
 		8815,
+		8832,
 		8841,
 		8842,
 		8843,

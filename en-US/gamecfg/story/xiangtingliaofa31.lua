@@ -397,8 +397,9 @@ return {
 			},
 			options = {
 				{
-					content = "\"Of course. I would...\"",
-					flag = 1
+					flag = 1,
+					autochoice = 1,
+					content = "\"Of course. I would...\""
 				}
 			}
 		}

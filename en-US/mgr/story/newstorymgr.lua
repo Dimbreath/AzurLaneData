@@ -6,18 +6,20 @@ slot2 = 2
 slot3 = 3
 slot4 = 4
 slot5 = 5
+slot6 = 6
+slot7 = 7
 
 require("Mgr/Story/Include")
 
-slot6 = true
+slot8 = true
 
-function slot7(...)
+function slot9(...)
 	if uv0 and Application.isEditor then
 		print(...)
 	end
 end
 
-slot8 = {
+slot10 = {
 	"",
 	"JP",
 	"KR",
@@ -130,7 +132,7 @@ function slot0.IsPlayed(slot0, slot1, slot2)
 	return slot5 and slot6
 end
 
-function slot9(slot0)
+function slot11(slot0)
 	for slot5, slot6 in pairs(slot0) do
 		-- Nothing
 	end
@@ -176,7 +178,7 @@ function slot0.Init(slot0, slot1)
 
 		uv0._go.transform:SetParent(uv0.UIOverlay.transform, false)
 
-		uv0.skinBtn = findTF(uv0._tf, "btns/skip_button")
+		uv0.skipBtn = findTF(uv0._tf, "btns/skip_button")
 		uv0.autoBtn = findTF(uv0._tf, "btns/auto_button")
 		uv0.players = {
 			AsideStoryPlayer.New(slot0),
@@ -220,6 +222,48 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 				uv2()
 			end, uv2, uv3)
 		end()
+	end
+end
+
+function slot0.Puase(slot0)
+	if slot0.state ~= uv0 then
+		uv1("state is not 'running'")
+
+		return
+	end
+
+	slot0.state = uv2
+
+	for slot4, slot5 in ipairs(slot0.players) do
+		slot5:Pause()
+	end
+end
+
+function slot0.Resume(slot0)
+	if slot0.state ~= uv0 then
+		uv1("state is not 'pause'")
+
+		return
+	end
+
+	slot0.state = uv2
+
+	for slot4, slot5 in ipairs(slot0.players) do
+		slot5:Resume()
+	end
+end
+
+function slot0.Stop(slot0)
+	if slot0.state ~= uv0 then
+		uv1("state is not 'running'")
+
+		return
+	end
+
+	slot0.state = uv2
+
+	for slot4, slot5 in ipairs(slot0.players) do
+		slot5:Stop()
 	end
 end
 
@@ -294,27 +338,25 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.CheckState(slot0)
-	if slot0.state == uv0 or slot0.state == uv1 then
+	if slot0.state == uv0 or slot0.state == uv1 or slot0.state == uv2 then
 		return false
 	end
 
 	return true
 end
 
-function slot0.RegistSkinBtn(slot0)
+function slot0.RegistSkipBtn(slot0)
 	function slot1()
 		uv0.storyScript:SkipAll()
-		uv0.currPlayer:NextImmediately()
+		uv0.currPlayer:NextOneImmediately()
 	end
 
-	onButton(slot0, slot0.skinBtn, function ()
-		if not uv0.currPlayer:CanSkip() then
+	onButton(slot0, slot0.skipBtn, function ()
+		if uv0:IsStopping() or uv0:IsPausing() then
 			return
 		end
 
-		if uv0:IsReView() or uv0.storyScript:IsPlayed() or not uv0.storyScript:ShowSkipTip() then
-			uv1()
-
+		if not uv0.currPlayer:CanSkip() then
 			return
 		end
 
@@ -323,11 +365,23 @@ function slot0.RegistSkinBtn(slot0)
 			uv0:UpdateAutoBtn()
 		end
 
+		if uv0:IsReView() or uv0.storyScript:IsPlayed() or not uv0.storyScript:ShowSkipTip() then
+			uv1()
+
+			return
+		end
+
+		uv0:Puase()
 		pg.MsgboxMgr:GetInstance():ShowMsgBox({
 			parent = rtf(uv0._tf),
-			canvasOrder = GetComponent(uv0._go, typeof(Canvas)).sortingOrder + 1,
 			content = i18n("story_skip_confirm"),
-			onYes = uv1,
+			onYes = function ()
+				uv0:Resume()
+				uv1()
+			end,
+			onNo = function ()
+				uv0:Resume()
+			end,
 			weight = LayerWeightConst.TOP_LAYER
 		})
 	end, SFX_PANEL)
@@ -335,11 +389,15 @@ end
 
 function slot0.RegistAutoBtn(slot0)
 	onButton(slot0, slot0.autoBtn, function ()
+		if uv0:IsStopping() or uv0:IsPausing() then
+			return
+		end
+
 		if uv0.storyScript:GetAutoPlayFlag() then
 			uv0.storyScript:StopAutoPlay()
 		else
 			uv0.storyScript:SetAutoPlay()
-			uv0.currPlayer:Next()
+			uv0.currPlayer:NextOne()
 		end
 
 		if uv0.storyScript then
@@ -355,9 +413,17 @@ function slot0.RegistAutoBtn(slot0)
 	end
 end
 
+function slot0.TriggerAutoBtn(slot0)
+	if not slot0:IsRunning() then
+		return
+	end
+
+	triggerButton(slot0.autoBtn)
+end
+
 function slot0.OnStart(slot0)
 	removeOnButton(slot0._go)
-	removeOnButton(slot0.skinBtn)
+	removeOnButton(slot0.skipBtn)
 	removeOnButton(slot0.autoBtn)
 
 	slot0.state = uv0
@@ -378,11 +444,11 @@ function slot0.OnStart(slot0)
 
 	setActive(slot0._go, true)
 	slot0._tf:SetAsLastSibling()
-	setActive(slot0.skinBtn, not slot0.storyScript:ShouldHideSkip())
+	setActive(slot0.skipBtn, not slot0.storyScript:ShouldHideSkip())
 	setActive(slot0.autoBtn:Find("sel"), false)
 	setActive(slot0.autoBtn:Find("unsel"), true)
 	setActive(slot0.autoBtn, true)
-	slot0:RegistSkinBtn()
+	slot0:RegistSkipBtn()
 	slot0:RegistAutoBtn()
 end
 
@@ -397,13 +463,13 @@ function slot0.Clear(slot0)
 	slot0.autoPlayFlag = false
 
 	removeOnButton(slot0._go)
-	removeOnButton(slot0.skinBtn)
+	removeOnButton(slot0.skipBtn)
 
 	if isActive(slot0._go) then
 		pg.DelegateInfo.Dispose(slot0)
 	end
 
-	setActive(slot0.skinBtn, false)
+	setActive(slot0.skipBtn, false)
 	setActive(slot0._go, false)
 
 	for slot4, slot5 in ipairs(slot0.players) do
@@ -419,8 +485,8 @@ end
 function slot0.OnEnd(slot0, slot1)
 	slot0:Clear()
 
-	if slot0.state == uv0 then
-		slot0.state = uv1
+	if slot0.state == uv0 or slot0.state == uv1 then
+		slot0.state = uv2
 
 		if slot0.storyScript:GetNextScriptName() and not slot0:IsReView() then
 			slot0.storyScript = nil
@@ -434,7 +500,11 @@ function slot0.OnEnd(slot0, slot1)
 			end
 		end
 	else
-		slot0.state = uv1
+		slot0.state = uv2
+
+		if slot1 then
+			slot1(true, code)
+		end
 	end
 end
 
@@ -461,6 +531,14 @@ function slot0.IsReView(slot0)
 end
 
 function slot0.IsRunning(slot0)
+	return slot0.state == uv0
+end
+
+function slot0.IsStopping(slot0)
+	return slot0.state == uv0
+end
+
+function slot0.IsPausing(slot0)
 	return slot0.state == uv0
 end
 

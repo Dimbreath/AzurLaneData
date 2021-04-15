@@ -610,8 +610,9 @@ return {
 			},
 			options = {
 				{
-					content = "\"I'll go with them.\"",
-					flag = 1
+					flag = 1,
+					autochoice = 1,
+					content = "\"I'll go with them.\""
 				},
 				{
 					content = "\"I want to stay here.\"",
