@@ -259,20 +259,6 @@ function slot0.GetRealm(slot0)
 	return 1
 end
 
-function slot0.GetCurrentProgress(slot0)
-	slot1, slot2 = nil
-	slot3 = slot0:GetProgress()
-
-	for slot8, slot9 in ipairs(pg.world_stage_data.all) do
-		if slot4[slot9].start_num <= slot3 and slot3 <= slot10.end_num then
-			slot1 = slot3 - slot10.start_num
-			slot2 = slot10.end_num - slot10.start_num
-		end
-	end
-
-	return slot1, slot2
-end
-
 function slot0.CanCallSubmarineSupport(slot0)
 	return slot0:GetSubmarineFleet()
 end

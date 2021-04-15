@@ -157,8 +157,9 @@ return {
 			},
 			options = {
 				{
-					content = "下达出击指令",
-					flag = 1
+					flag = 1,
+					autochoice = 1,
+					content = "下达出击指令"
 				}
 			}
 		},

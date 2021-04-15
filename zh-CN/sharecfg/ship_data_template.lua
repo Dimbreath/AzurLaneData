@@ -44355,8 +44355,13 @@ pg.ship_data_template = {
 			14
 		},
 		airassist_time = {},
-		buff_list = {},
-		buff_list_display = {},
+		buff_list = {
+			14300
+		},
+		buff_list_display = {
+			14300,
+			22081
+		},
 		hide_buff_list = {}
 	},
 	[301852] = {
@@ -44392,8 +44397,14 @@ pg.ship_data_template = {
 			14
 		},
 		airassist_time = {},
-		buff_list = {},
-		buff_list_display = {},
+		buff_list = {
+			14300,
+			22081
+		},
+		buff_list_display = {
+			14300,
+			22081
+		},
 		hide_buff_list = {}
 	},
 	[301853] = {
@@ -44429,8 +44440,14 @@ pg.ship_data_template = {
 			14
 		},
 		airassist_time = {},
-		buff_list = {},
-		buff_list_display = {},
+		buff_list = {
+			14300,
+			22081
+		},
+		buff_list_display = {
+			14300,
+			22081
+		},
 		hide_buff_list = {}
 	},
 	[301854] = {
@@ -44466,8 +44483,14 @@ pg.ship_data_template = {
 			14
 		},
 		airassist_time = {},
-		buff_list = {},
-		buff_list_display = {},
+		buff_list = {
+			14300,
+			22082
+		},
+		buff_list_display = {
+			14300,
+			22082
+		},
 		hide_buff_list = {}
 	},
 	[302011] = {

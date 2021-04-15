@@ -11,6 +11,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.actorRgiht = slot0:findTF("actor_right", slot0.actorPanel)
 	slot0.initActorRgihtPos = slot0.actorRgiht.localPosition
 	slot0.mainPanel = slot0:findTF("main", slot0.dialoguePanel)
+	slot0.contentArr = slot0.mainPanel:Find("next/arrow")
 	slot0.conentTxt = slot0:findTF("content", slot0.mainPanel):GetComponent(typeof(Text))
 	slot0.typewriter = slot0:findTF("content", slot0.mainPanel):GetComponent(typeof(Typewriter))
 	slot0.nameLeft = slot0:findTF("name_left", slot0.mainPanel)
@@ -23,6 +24,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.glitchArtMaterial = slot0:findTF("resource/material1"):GetComponent(typeof(Image)).material
 	slot0.maskMaterial = slot0:findTF("resource/material2"):GetComponent(typeof(Image)).material
 	slot0.glitchArtMaterialForPainting = slot0:findTF("resource/material3"):GetComponent(typeof(Image)).material
+	slot0.typewriterSpeed = 0
 end
 
 function slot0.OnReset(slot0, slot1, slot2)
@@ -32,6 +34,8 @@ function slot0.OnReset(slot0, slot1, slot2)
 	setActive(slot0.dialoguePanel, true)
 
 	slot0.conentTxt.text = ""
+
+	slot0:CancelTween(slot0.contentArr)
 end
 
 function slot0.ResetActorTF(slot0, slot1, slot2)
@@ -147,19 +151,26 @@ function slot0.UpdateTypeWriter(slot0, slot1, slot2)
 	end
 
 	function slot0.typewriter.endFunc()
+		uv0.typewriterSpeed = 0
 		uv0.typewriter.endFunc = nil
 
 		removeOnButton(uv0._tf)
 		uv1()
 	end
 
-	slot4 = math.max((slot3.speed or 0.1) * slot0.timeScale, 0.001)
-	slot5 = slot3.speedUp or slot4
+	slot0.typewriterSpeed = math.max((slot3.speed or 0.1) * slot0.timeScale, 0.001)
+	slot4 = slot3.speedUp or slot0.typewriterSpeed
 
-	slot0.typewriter:setSpeed(slot4)
+	slot0.typewriter:setSpeed(slot0.typewriterSpeed)
 	slot0.typewriter:Play()
 	onButton(slot0, slot0._tf, function ()
-		uv0.typewriter:setSpeed(math.min(uv1, uv2))
+		if uv0.puase or uv0.stop then
+			return
+		end
+
+		uv0.typewriterSpeed = math.min(uv0.typewriterSpeed, uv1)
+
+		uv0.typewriter:setSpeed(uv0.typewriterSpeed)
 	end, SFX_PANEL)
 end
 
@@ -454,6 +465,7 @@ function slot0.UpdateContent(slot0, slot1, slot2)
 
 	if slot3 and slot3 ~= "" and slot3 ~= "…" and #slot3 > 1 then
 		slot0:UpdateTypeWriter(slot1, slot2)
+		slot0:TweenMovey(slot0.contentArr, 0, 10, 0.5, 0, -1, nil)
 	else
 		slot2()
 	end
@@ -520,6 +532,22 @@ function slot0.RecyclePainting(slot0, slot1)
 		end
 	else
 		slot2(slot1)
+	end
+end
+
+function slot0.Resume(slot0)
+	uv0.super.Resume(slot0)
+
+	if slot0.typewriterSpeed ~= 0 then
+		slot0.typewriter:setSpeed(slot0.typewriterSpeed)
+	end
+end
+
+function slot0.Puase(slot0)
+	uv0.super.Puase(slot0)
+
+	if slot0.typewriterSpeed ~= 0 then
+		slot0.typewriter:setSpeed(100000000)
 	end
 end
 

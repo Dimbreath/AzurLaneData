@@ -142,7 +142,7 @@ function slot0.doRetreat(slot0)
 	else
 		slot4:retreat(slot1.win)
 
-		slot3 = 0
+		slot3 = ChapterConst.DirtyMapItems
 	end
 
 	slot0.flag = slot3

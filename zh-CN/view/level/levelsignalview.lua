@@ -6,6 +6,9 @@ end
 
 function slot0.OnInit(slot0)
 	slot0:InitUI()
+
+	slot0.barAnims = {}
+
 	setActive(slot0._tf, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
@@ -44,6 +47,12 @@ function slot0.InitUI(slot0)
 	slot0.empty = slot0:findTF("panel/empty")
 
 	setActive(slot0.item, false)
+	setText(slot0.item:Find("Info/t1"), i18n("time_remaining_tip"))
+	setText(slot0:findTF("panel/title/Text"), i18n("LevelSignal"))
+	setText(slot0.item:Find("Info/go/Text"), i18n("LevelSignal_go"))
+	setText(slot0.item:Find("Info/start/Text"), i18n("LevelSignal_search"))
+	setText(slot0:findTF("panel/signals/text"), i18n("LevelSignal_times"))
+	setText(slot0:findTF("panel/intensity/text"), i18n("LevelSignal_intensity"))
 end
 
 function slot0.set(slot0, slot1, slot2)
@@ -62,15 +71,6 @@ function slot0.set(slot0, slot1, slot2)
 			uv0.onCancel()
 		end
 	end, SFX_CANCEL)
-	onButton(slot0, slot0.btnStart, function ()
-		if uv0.subRefreshCount > 0 then
-			if uv0.onSearch then
-				uv0.onSearch()
-			end
-		else
-			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_sub_refresh_count_not_enough"))
-		end
-	end, SFX_CONFIRM)
 end
 
 function slot0.flush(slot0)
@@ -88,7 +88,7 @@ function slot0.flush(slot0)
 	_.each(getProxy(ChapterProxy):getNormalMaps(), function (slot0)
 		for slot4, slot5 in ipairs(slot0:getChapters()) do
 			if slot5:getPlayType() == ChapterConst.TypeMainSub and slot5:isValid() then
-				table.insert(uv0, slot5)
+				uv0[slot5:getConfig("map")] = slot5
 			end
 		end
 	end)
@@ -99,7 +99,7 @@ function slot0.flush(slot0)
 		end)
 	end
 
-	setActive(slot0.empty, #slot3 <= 0)
+	setActive(slot0.empty, slot2 <= 0)
 
 	slot0.timers = {}
 	slot4 = pg.TimeMgr.GetInstance()
@@ -107,30 +107,66 @@ function slot0.flush(slot0)
 
 	slot5:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot4 = slot2:Find("time")
+			slot3 = slot1 + 3
+			slot4 = uv0[slot3]
+			uv1.barAnims[slot3] = slot2
+			slot5 = slot2:Find("Info/time")
+			slot6 = slot2:Find("Info/t1")
 
-			function slot5()
-				if math.max(uv0.expireTime - uv1:GetServerTime(), 0) > 0 then
-					setText(uv2, uv1:DescCDTime(slot0))
-				elseif not uv0.active then
-					uv0:clearSubChapter()
-					getProxy(ChapterProxy):updateChapter(uv0)
+			function slot7()
+				setActive(uv0, uv1)
+				setActive(uv2, uv1)
+
+				if not uv1 then
+					return
+				end
+
+				if (uv1.expireTime and math.max(uv1.expireTime - uv3:GetServerTime(), 0) or 0) > 0 then
+					setText(uv0, uv3:DescCDTime(slot0))
+				elseif not uv1.active then
+					uv1:clearSubChapter()
+					getProxy(ChapterProxy):updateChapter(uv1)
 				end
 			end
 
-			uv2.timers[slot1 + 1] = Timer.New(slot5, 1, -1)
+			uv1.timers[slot1 + 1] = Timer.New(slot7, 1, -1)
 
-			uv2.timers[slot1 + 1]:Start()
-			slot5()
-			setText(slot2:Find("name"), i18n("chapter_no", uv0[slot1 + 1]:getConfig("map")))
-			onButton(uv2, slot2:Find("go"), function ()
-				if uv0.onGo then
+			uv1.timers[slot1 + 1]:Start()
+			slot7()
+			setText(slot2:Find("name"), i18n("chapter_no", slot3))
+			setActive(slot2:Find("Info/go"), slot4)
+			onButton(uv1, slot2:Find("Info/go"), function ()
+				if uv0.onGo and uv1 then
 					uv0.onGo(uv1)
 				end
 			end, SFX_PANEL)
+			setActive(slot2:Find("Info/start"), not slot4)
+			onButton(uv1, slot2:Find("Info/start"), function ()
+				if uv0.subRefreshCount > 0 then
+					if uv0.onSearch and not uv1 then
+						uv0.onSearch(uv2 or 0)
+					end
+				else
+					pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_sub_refresh_count_not_enough"))
+				end
+			end, SFX_CONFIRM)
 		end
 	end)
-	slot5:align(#slot3)
+	slot5:align(slot2)
+end
+
+function slot0.PlaySubRefreshAnimation(slot0, slot1, slot2)
+	if IsNil(slot0.barAnims[slot1]) then
+		existCall(slot2)
+
+		return
+	end
+
+	slot3:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
+		uv0:SetEndEvent(nil)
+		existCall(uv1)
+	end)
+	slot3:GetComponent(typeof(Animator)):Play("loading", -1, 0)
 end
 
 return slot0

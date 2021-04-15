@@ -13,6 +13,7 @@ slot0.BACKYARD_GREEN = Color.New(0.48, 1, 0.03)
 slot0.BACKYARD_BLUE = Color.New(0.3, 0.63, 0.95)
 slot0.TAG_INDEX_THEME = 0
 slot0.DEBUG = false
+slot0.SAME_ID_MODIFY_ID = 79000
 slot0.ARCH_MASK_NAME = "icon_front_arch"
 slot0.FURNITRUE_MASK_NAME = "icon_front"
 slot0.FURNITRUE_MASK_ORDER_NAME = "icon_front_"

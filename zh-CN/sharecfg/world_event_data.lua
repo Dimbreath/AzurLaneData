@@ -7227,7 +7227,7 @@ pg.world_event_data = {
 		name = "塞壬海雾控制器",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 0,
+		auto_pri = 4,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 2,
@@ -7409,6 +7409,102 @@ pg.world_event_data = {
 				-1,
 				1,
 				1
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		map_buff = {},
+		deviation = {}
+	},
+	[5206] = {
+		enemyicon = 0,
+		name = "",
+		visuality = 0,
+		scale = 0,
+		auto_pri = 0,
+		icontype = 2,
+		is_scanevent = 0,
+		obstacle = 2,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 0,
+		discover_type = 2,
+		scan_desc = "",
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 5206,
+		event_op = {},
+		effect = {
+			5221,
+			5222
+		},
+		grid = {
+			{
+				0,
+				0,
+				0,
+				0
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		map_buff = {},
+		deviation = {}
+	},
+	[5207] = {
+		enemyicon = 0,
+		name = "",
+		visuality = 0,
+		scale = 0,
+		auto_pri = 0,
+		icontype = 2,
+		is_scanevent = 0,
+		obstacle = 2,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 0,
+		infection_value = 1,
+		compass_index = 0,
+		discover_type = 2,
+		scan_desc = "",
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 5207,
+		event_op = {},
+		effect = {
+			5201,
+			5204,
+			5203,
+			500
+		},
+		grid = {
+			{
+				-6,
+				-6,
+				-5,
+				4
+			},
+			{
+				-6,
+				5,
+				4,
+				6
+			},
+			{
+				5,
+				-4,
+				6,
+				6
+			},
+			{
+				-4,
+				-6,
+				6,
+				-5
 			}
 		},
 		slg_bufflist = {},
@@ -8209,7 +8305,7 @@ pg.world_event_data = {
 		name = "塞壬增援装置",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 2,
+		auto_pri = 5,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 2,
@@ -8253,7 +8349,7 @@ pg.world_event_data = {
 		name = "塞壬增援装置",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 2,
+		auto_pri = 5,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 2,
@@ -8294,7 +8390,7 @@ pg.world_event_data = {
 		name = "塞壬增援装置",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 2,
+		auto_pri = 5,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 2,
@@ -8335,7 +8431,7 @@ pg.world_event_data = {
 		name = "塞壬增援装置",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 2,
+		auto_pri = 5,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 2,
@@ -66781,7 +66877,7 @@ pg.world_event_data = {
 		name = "塞壬增援点",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 5,
+		auto_pri = 6,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 2,
@@ -67062,7 +67158,7 @@ pg.world_event_data = {
 		auto_pri = 0,
 		icontype = 2,
 		is_scanevent = 1,
-		obstacle = 2,
+		obstacle = 4,
 		event_sight = -1,
 		icon = "dengta",
 		special_enemy = 0,
@@ -67340,7 +67436,7 @@ pg.world_event_data = {
 		name = "塞壬量产型增援舰队",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 0,
+		auto_pri = 1,
 		icontype = 2,
 		is_scanevent = 3,
 		obstacle = 0,
@@ -67473,7 +67569,7 @@ pg.world_event_data = {
 		name = "塞壬量产型增援舰队",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 0,
+		auto_pri = 1,
 		icontype = 2,
 		is_scanevent = 3,
 		obstacle = 0,
@@ -67606,7 +67702,7 @@ pg.world_event_data = {
 		name = "塞壬量产型增援舰队",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 0,
+		auto_pri = 1,
 		icontype = 2,
 		is_scanevent = 3,
 		obstacle = 0,
@@ -67868,7 +67964,7 @@ pg.world_event_data = {
 		name = "塞壬强化量产型增援舰队",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 0,
+		auto_pri = 1,
 		icontype = 2,
 		is_scanevent = 3,
 		obstacle = 0,
@@ -67941,7 +68037,7 @@ pg.world_event_data = {
 		name = "塞壬强化量产型增援舰队",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 0,
+		auto_pri = 1,
 		icontype = 2,
 		is_scanevent = 3,
 		obstacle = 0,
@@ -68014,7 +68110,7 @@ pg.world_event_data = {
 		name = "塞壬强化量产型增援舰队",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 0,
+		auto_pri = 1,
 		icontype = 2,
 		is_scanevent = 3,
 		obstacle = 0,
@@ -68930,7 +69026,7 @@ pg.world_event_data = {
 		auto_pri = 0,
 		icontype = 2,
 		is_scanevent = 1,
-		obstacle = 2,
+		obstacle = 4,
 		event_sight = -1,
 		icon = "chuansong01",
 		special_enemy = 0,
@@ -68978,7 +69074,7 @@ pg.world_event_data = {
 		auto_pri = 0,
 		icontype = 2,
 		is_scanevent = 1,
-		obstacle = 2,
+		obstacle = 4,
 		event_sight = -1,
 		icon = "chuansong01",
 		special_enemy = 0,
@@ -69026,7 +69122,7 @@ pg.world_event_data = {
 		auto_pri = 0,
 		icontype = 2,
 		is_scanevent = 1,
-		obstacle = 2,
+		obstacle = 4,
 		event_sight = -1,
 		icon = "chuansong01",
 		special_enemy = 0,
@@ -69088,7 +69184,8 @@ pg.world_event_data = {
 		id = 1000035,
 		event_op = {},
 		effect = {
-			10000352
+			10000352,
+			10000353
 		},
 		grid = {
 			{
@@ -69331,7 +69428,7 @@ pg.world_event_data = {
 		name = "塞壬增援点",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 5,
+		auto_pri = 7,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 0,
@@ -69565,7 +69662,7 @@ pg.world_event_data = {
 		name = "塞壬浮冰控制器",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 6,
+		auto_pri = 7,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 2,
@@ -69653,7 +69750,7 @@ pg.world_event_data = {
 		name = "塞壬增援点",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 5,
+		auto_pri = 7,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 0,
@@ -69836,7 +69933,7 @@ pg.world_event_data = {
 		name = "塞壬飓风控制器",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 6,
+		auto_pri = 7,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 2,
@@ -69923,7 +70020,7 @@ pg.world_event_data = {
 		name = "塞壬增援点",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 5,
+		auto_pri = 7,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 0,
@@ -70244,7 +70341,7 @@ pg.world_event_data = {
 		name = "塞壬海雾控制器",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 6,
+		auto_pri = 7,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 2,
@@ -70332,7 +70429,7 @@ pg.world_event_data = {
 		name = "塞壬增援点",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 5,
+		auto_pri = 7,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 0,
@@ -70515,7 +70612,7 @@ pg.world_event_data = {
 		name = "塞壬洋流控制器",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 6,
+		auto_pri = 7,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 2,
@@ -70602,7 +70699,7 @@ pg.world_event_data = {
 		name = "塞壬增援点",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 5,
+		auto_pri = 7,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 0,
@@ -70931,7 +71028,7 @@ pg.world_event_data = {
 		name = "资源补给箱",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 2,
+		auto_pri = 3,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 0,
@@ -71037,7 +71134,7 @@ pg.world_event_data = {
 		name = "稀有资源补给箱",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 2,
+		auto_pri = 3,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 0,
@@ -71104,7 +71201,7 @@ pg.world_event_data = {
 		name = "探索者I型",
 		visuality = 0,
 		scale = 40,
-		auto_pri = 0,
+		auto_pri = 3,
 		icontype = 2,
 		is_scanevent = 3,
 		obstacle = 0,
@@ -71177,7 +71274,7 @@ pg.world_event_data = {
 		name = "追迹者I型",
 		visuality = 0,
 		scale = 40,
-		auto_pri = 0,
+		auto_pri = 3,
 		icontype = 2,
 		is_scanevent = 3,
 		obstacle = 0,
@@ -71250,7 +71347,7 @@ pg.world_event_data = {
 		name = "领洋者I型",
 		visuality = 0,
 		scale = 40,
-		auto_pri = 0,
+		auto_pri = 3,
 		icontype = 2,
 		is_scanevent = 3,
 		obstacle = 0,
@@ -71323,7 +71420,7 @@ pg.world_event_data = {
 		name = "破局者I型",
 		visuality = 0,
 		scale = 40,
-		auto_pri = 0,
+		auto_pri = 3,
 		icontype = 2,
 		is_scanevent = 3,
 		obstacle = 0,
@@ -71396,7 +71493,7 @@ pg.world_event_data = {
 		name = "执棋者I型",
 		visuality = 0,
 		scale = 40,
-		auto_pri = 0,
+		auto_pri = 3,
 		icontype = 2,
 		is_scanevent = 3,
 		obstacle = 0,
@@ -71616,10 +71713,10 @@ pg.world_event_data = {
 		name = "能源矩阵启动装置",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 3,
+		auto_pri = 4,
 		icontype = 2,
 		is_scanevent = 1,
-		obstacle = 2,
+		obstacle = 4,
 		event_sight = -1,
 		icon = "xuying",
 		special_enemy = 0,
@@ -71674,7 +71771,7 @@ pg.world_event_data = {
 		name = "",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 2,
+		auto_pri = 3,
 		icontype = 2,
 		is_scanevent = 0,
 		obstacle = 1,
@@ -71776,7 +71873,7 @@ pg.world_event_data = {
 		name = "特殊资源点",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 2,
+		auto_pri = 3,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 2,
@@ -71818,7 +71915,7 @@ pg.world_event_data = {
 		name = "能源矩阵",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 4,
+		auto_pri = 5,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 2,
@@ -72026,7 +72123,7 @@ pg.world_event_data = {
 		name = "稀有资源补给箱",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 2,
+		auto_pri = 3,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 0,
@@ -72373,7 +72470,7 @@ pg.world_event_data = {
 		name = "搜寻点",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 5,
+		auto_pri = 6,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 2,
@@ -72526,7 +72623,7 @@ pg.world_event_data = {
 		name = "神秘商人",
 		visuality = 0,
 		scale = 40,
-		auto_pri = 1,
+		auto_pri = 0,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 0,
@@ -72564,7 +72661,7 @@ pg.world_event_data = {
 		name = "神秘商人",
 		visuality = 0,
 		scale = 40,
-		auto_pri = 1,
+		auto_pri = 0,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 0,
@@ -72602,10 +72699,10 @@ pg.world_event_data = {
 		name = "",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 0,
+		auto_pri = 2,
 		icontype = 2,
 		is_scanevent = 0,
-		obstacle = 2,
+		obstacle = 4,
 		event_sight = -1,
 		icon = "",
 		special_enemy = 0,
@@ -72659,7 +72756,7 @@ pg.world_event_data = {
 		name = "神秘商人",
 		visuality = 0,
 		scale = 40,
-		auto_pri = 1,
+		auto_pri = 0,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 0,
@@ -72696,7 +72793,7 @@ pg.world_event_data = {
 		name = "神秘商人",
 		visuality = 0,
 		scale = 40,
-		auto_pri = 1,
+		auto_pri = 0,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 0,
@@ -75129,10 +75226,10 @@ pg.world_event_data = {
 		name = "",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 1,
+		auto_pri = 0,
 		icontype = 2,
 		is_scanevent = 0,
-		obstacle = 2,
+		obstacle = 4,
 		event_sight = -1,
 		icon = "sairenbaoxiang",
 		special_enemy = 0,
@@ -75222,12 +75319,52 @@ pg.world_event_data = {
 		map_buff = {},
 		deviation = {}
 	},
+	[1002310] = {
+		enemyicon = 0,
+		name = "",
+		visuality = 0,
+		scale = 0,
+		auto_pri = 3,
+		icontype = 2,
+		is_scanevent = 0,
+		obstacle = 1,
+		event_sight = -1,
+		icon = "sairenbaoxiang",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 2,
+		discover_type = 2,
+		scan_desc = "",
+		expedition_icon = 0,
+		is_guide = 0,
+		object_icon = "",
+		id = 1002310,
+		event_op = {},
+		effect = {
+			10023011,
+			10023001,
+			10009,
+			10023004
+		},
+		grid = {
+			{
+				0,
+				0,
+				0,
+				0
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		map_buff = {},
+		deviation = {}
+	},
 	[1009001] = {
 		enemyicon = 0,
 		name = "塞壬量产型舰队",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 0,
+		auto_pri = 1,
 		icontype = 2,
 		is_scanevent = 3,
 		obstacle = 0,
@@ -75300,7 +75437,7 @@ pg.world_event_data = {
 		name = "塞壬量产型舰队",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 0,
+		auto_pri = 1,
 		icontype = 2,
 		is_scanevent = 3,
 		obstacle = 0,
@@ -75373,7 +75510,7 @@ pg.world_event_data = {
 		name = "塞壬量产型舰队",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 0,
+		auto_pri = 1,
 		icontype = 2,
 		is_scanevent = 3,
 		obstacle = 0,
@@ -75446,7 +75583,7 @@ pg.world_event_data = {
 		name = "资源补给箱",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 3,
+		auto_pri = 4,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 1,
@@ -75580,7 +75717,7 @@ pg.world_event_data = {
 		name = "资源补给箱",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 2,
+		auto_pri = 3,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 0,
@@ -75647,7 +75784,7 @@ pg.world_event_data = {
 		name = "稀有资源补给箱",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 2,
+		auto_pri = 3,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 0,
@@ -75714,7 +75851,7 @@ pg.world_event_data = {
 		name = "搜寻点",
 		visuality = 0,
 		scale = 0,
-		auto_pri = 5,
+		auto_pri = 6,
 		icontype = 2,
 		is_scanevent = 1,
 		obstacle = 2,
@@ -75773,6 +75910,843 @@ pg.world_event_data = {
 		},
 		slg_bufflist = {},
 		slg_buffnum = {},
+		map_buff = {},
+		deviation = {}
+	},
+	[1009011] = {
+		enemyicon = 0,
+		name = "塞壬量产型舰队",
+		visuality = 0,
+		scale = 0,
+		auto_pri = 0,
+		icontype = 2,
+		is_scanevent = 3,
+		obstacle = 0,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 3,
+		infection_value = 0,
+		compass_index = 1,
+		discover_type = 2,
+		scan_desc = "一支主要由量产型舰船构成的常规塞壬舰队。",
+		expedition_icon = 293011,
+		is_guide = 0,
+		id = 1009011,
+		object_icon = {
+			"cell_red",
+			1,
+			100,
+			0
+		},
+		event_op = {},
+		effect = {
+			10090010,
+			999
+		},
+		grid = {
+			{
+				-2,
+				-1,
+				-2,
+				1
+			},
+			{
+				-1,
+				-2,
+				-1,
+				2
+			},
+			{
+				0,
+				-2,
+				0,
+				-1
+			},
+			{
+				0,
+				1,
+				0,
+				2
+			},
+			{
+				1,
+				-2,
+				1,
+				2
+			},
+			{
+				2,
+				-1,
+				2,
+				1
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		map_buff = {},
+		deviation = {}
+	},
+	[1009012] = {
+		enemyicon = 0,
+		name = "塞壬量产型舰队",
+		visuality = 0,
+		scale = 0,
+		auto_pri = 0,
+		icontype = 2,
+		is_scanevent = 3,
+		obstacle = 0,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 3,
+		infection_value = 0,
+		compass_index = 1,
+		discover_type = 2,
+		scan_desc = "一支主要由量产型舰船构成的常规塞壬舰队。",
+		expedition_icon = 293211,
+		is_guide = 0,
+		id = 1009012,
+		object_icon = {
+			"cell_red",
+			1,
+			100,
+			0
+		},
+		event_op = {},
+		effect = {
+			10090020,
+			999
+		},
+		grid = {
+			{
+				-2,
+				-1,
+				-2,
+				1
+			},
+			{
+				-1,
+				-2,
+				-1,
+				2
+			},
+			{
+				0,
+				-2,
+				0,
+				-1
+			},
+			{
+				0,
+				1,
+				0,
+				2
+			},
+			{
+				1,
+				-2,
+				1,
+				2
+			},
+			{
+				2,
+				-1,
+				2,
+				1
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		map_buff = {},
+		deviation = {}
+	},
+	[1009013] = {
+		enemyicon = 0,
+		name = "塞壬量产型舰队",
+		visuality = 0,
+		scale = 0,
+		auto_pri = 0,
+		icontype = 2,
+		is_scanevent = 3,
+		obstacle = 0,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 3,
+		infection_value = 0,
+		compass_index = 1,
+		discover_type = 2,
+		scan_desc = "一支主要由量产型舰船构成的常规塞壬舰队。",
+		expedition_icon = 293411,
+		is_guide = 0,
+		id = 1009013,
+		object_icon = {
+			"cell_red",
+			1,
+			100,
+			0
+		},
+		event_op = {},
+		effect = {
+			10090030,
+			999
+		},
+		grid = {
+			{
+				-2,
+				-1,
+				-2,
+				1
+			},
+			{
+				-1,
+				-2,
+				-1,
+				2
+			},
+			{
+				0,
+				-2,
+				0,
+				-1
+			},
+			{
+				0,
+				1,
+				0,
+				2
+			},
+			{
+				1,
+				-2,
+				1,
+				2
+			},
+			{
+				2,
+				-1,
+				2,
+				1
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		map_buff = {},
+		deviation = {}
+	},
+	[1009111] = {
+		enemyicon = 0,
+		name = "塞壬量产型增援舰队",
+		visuality = 0,
+		scale = 0,
+		auto_pri = 0,
+		icontype = 2,
+		is_scanevent = 3,
+		obstacle = 0,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 3,
+		infection_value = 0,
+		compass_index = 1,
+		discover_type = 2,
+		scan_desc = "一支主要由量产型舰船构成的常规塞壬舰队，正在向海域中进行提供增援。",
+		expedition_icon = 292000,
+		is_guide = 0,
+		id = 1009111,
+		object_icon = {
+			"cell_red",
+			1,
+			100,
+			0
+		},
+		event_op = {},
+		effect = {
+			10000110,
+			999
+		},
+		grid = {
+			{
+				18,
+				2,
+				18,
+				18
+			},
+			{
+				15,
+				18,
+				17,
+				18
+			},
+			{
+				15,
+				12,
+				17,
+				14
+			},
+			{
+				15,
+				6,
+				17,
+				8
+			},
+			{
+				15,
+				2,
+				17,
+				2
+			},
+			{
+				12,
+				2,
+				14,
+				18
+			},
+			{
+				9,
+				18,
+				11,
+				18
+			},
+			{
+				9,
+				12,
+				11,
+				14
+			},
+			{
+				9,
+				6,
+				11,
+				8
+			},
+			{
+				9,
+				2,
+				11,
+				2
+			},
+			{
+				6,
+				2,
+				8,
+				18
+			},
+			{
+				3,
+				18,
+				5,
+				18
+			},
+			{
+				3,
+				12,
+				5,
+				14
+			},
+			{
+				3,
+				6,
+				5,
+				8
+			},
+			{
+				3,
+				2,
+				5,
+				2
+			},
+			{
+				2,
+				2,
+				2,
+				18
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		map_buff = {},
+		deviation = {}
+	},
+	[1009112] = {
+		enemyicon = 0,
+		name = "塞壬量产型增援舰队",
+		visuality = 0,
+		scale = 0,
+		auto_pri = 0,
+		icontype = 2,
+		is_scanevent = 3,
+		obstacle = 0,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 3,
+		infection_value = 0,
+		compass_index = 1,
+		discover_type = 2,
+		scan_desc = "一支主要由量产型舰船构成的常规塞壬舰队，正在向海域中进行提供增援。",
+		expedition_icon = 292010,
+		is_guide = 0,
+		id = 1009112,
+		object_icon = {
+			"cell_red",
+			1,
+			100,
+			0
+		},
+		event_op = {},
+		effect = {
+			10000120,
+			999
+		},
+		grid = {
+			{
+				18,
+				2,
+				18,
+				18
+			},
+			{
+				15,
+				18,
+				17,
+				18
+			},
+			{
+				15,
+				12,
+				17,
+				14
+			},
+			{
+				15,
+				6,
+				17,
+				8
+			},
+			{
+				15,
+				2,
+				17,
+				2
+			},
+			{
+				12,
+				2,
+				14,
+				18
+			},
+			{
+				9,
+				18,
+				11,
+				18
+			},
+			{
+				9,
+				12,
+				11,
+				14
+			},
+			{
+				9,
+				6,
+				11,
+				8
+			},
+			{
+				9,
+				2,
+				11,
+				2
+			},
+			{
+				6,
+				2,
+				8,
+				18
+			},
+			{
+				3,
+				18,
+				5,
+				18
+			},
+			{
+				3,
+				12,
+				5,
+				14
+			},
+			{
+				3,
+				6,
+				5,
+				8
+			},
+			{
+				3,
+				2,
+				5,
+				2
+			},
+			{
+				2,
+				2,
+				2,
+				18
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		map_buff = {},
+		deviation = {}
+	},
+	[1009113] = {
+		enemyicon = 0,
+		name = "塞壬量产型增援舰队",
+		visuality = 0,
+		scale = 0,
+		auto_pri = 0,
+		icontype = 2,
+		is_scanevent = 3,
+		obstacle = 0,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 3,
+		infection_value = 0,
+		compass_index = 1,
+		discover_type = 2,
+		scan_desc = "一支主要由量产型舰船构成的常规塞壬舰队，正在向海域中进行提供增援。",
+		expedition_icon = 292020,
+		is_guide = 0,
+		id = 1009113,
+		object_icon = {
+			"cell_red",
+			1,
+			100,
+			0
+		},
+		event_op = {},
+		effect = {
+			10000130,
+			999
+		},
+		grid = {
+			{
+				18,
+				2,
+				18,
+				18
+			},
+			{
+				15,
+				18,
+				17,
+				18
+			},
+			{
+				15,
+				12,
+				17,
+				14
+			},
+			{
+				15,
+				6,
+				17,
+				8
+			},
+			{
+				15,
+				2,
+				17,
+				2
+			},
+			{
+				12,
+				2,
+				14,
+				18
+			},
+			{
+				9,
+				18,
+				11,
+				18
+			},
+			{
+				9,
+				12,
+				11,
+				14
+			},
+			{
+				9,
+				6,
+				11,
+				8
+			},
+			{
+				9,
+				2,
+				11,
+				2
+			},
+			{
+				6,
+				2,
+				8,
+				18
+			},
+			{
+				3,
+				18,
+				5,
+				18
+			},
+			{
+				3,
+				12,
+				5,
+				14
+			},
+			{
+				3,
+				6,
+				5,
+				8
+			},
+			{
+				3,
+				2,
+				5,
+				2
+			},
+			{
+				2,
+				2,
+				2,
+				18
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		map_buff = {},
+		deviation = {}
+	},
+	[1009115] = {
+		enemyicon = 0,
+		name = "塞壬强化量产型增援舰队",
+		visuality = 0,
+		scale = 0,
+		auto_pri = 0,
+		icontype = 2,
+		is_scanevent = 3,
+		obstacle = 0,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 3,
+		infection_value = 0,
+		compass_index = 1,
+		discover_type = 2,
+		scan_desc = "一支搭载有多种附加模块的塞壬量产型舰队，正在向海域中进行提供增援。",
+		expedition_icon = 292050,
+		is_guide = 0,
+		id = 1009115,
+		object_icon = {
+			"cell_red",
+			1,
+			100,
+			0
+		},
+		event_op = {},
+		effect = {
+			10000150,
+			999
+		},
+		grid = {
+			{
+				0,
+				0,
+				0,
+				0
+			}
+		},
+		slg_bufflist = {
+			{
+				1010,
+				1020,
+				1030,
+				1040,
+				1050,
+				1060
+			},
+			{
+				1110,
+				1120,
+				1130
+			},
+			{
+				1410,
+				1420,
+				1430,
+				1440,
+				1450,
+				1460,
+				1470,
+				1480,
+				1490,
+				1500,
+				1510
+			}
+		},
+		slg_buffnum = {
+			1,
+			1
+		},
+		map_buff = {},
+		deviation = {}
+	},
+	[1009116] = {
+		enemyicon = 0,
+		name = "塞壬强化量产型增援舰队",
+		visuality = 0,
+		scale = 0,
+		auto_pri = 0,
+		icontype = 2,
+		is_scanevent = 3,
+		obstacle = 0,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 3,
+		infection_value = 0,
+		compass_index = 1,
+		discover_type = 2,
+		scan_desc = "一支搭载有多种附加模块的塞壬量产型舰队，正在向海域中进行提供增援。",
+		expedition_icon = 292060,
+		is_guide = 0,
+		id = 1009116,
+		object_icon = {
+			"cell_red",
+			1,
+			100,
+			0
+		},
+		event_op = {},
+		effect = {
+			10000160,
+			999
+		},
+		grid = {
+			{
+				0,
+				0,
+				0,
+				0
+			}
+		},
+		slg_bufflist = {
+			{
+				1010,
+				1020,
+				1030,
+				1040,
+				1050,
+				1060
+			},
+			{
+				1110,
+				1120,
+				1130
+			},
+			{
+				1410,
+				1420,
+				1430,
+				1440,
+				1450,
+				1460,
+				1470,
+				1480,
+				1490,
+				1500,
+				1510
+			}
+		},
+		slg_buffnum = {
+			1,
+			1
+		},
+		map_buff = {},
+		deviation = {}
+	},
+	[1009117] = {
+		enemyicon = 0,
+		name = "塞壬强化量产型增援舰队",
+		visuality = 0,
+		scale = 0,
+		auto_pri = 0,
+		icontype = 2,
+		is_scanevent = 3,
+		obstacle = 0,
+		event_sight = -1,
+		icon = "",
+		special_enemy = 3,
+		infection_value = 0,
+		compass_index = 1,
+		discover_type = 2,
+		scan_desc = "一支搭载有多种附加模块的塞壬量产型舰队，正在向海域中进行提供增援。",
+		expedition_icon = 292070,
+		is_guide = 0,
+		id = 1009117,
+		object_icon = {
+			"cell_red",
+			1,
+			100,
+			0
+		},
+		event_op = {},
+		effect = {
+			10000170,
+			999
+		},
+		grid = {
+			{
+				0,
+				0,
+				0,
+				0
+			}
+		},
+		slg_bufflist = {
+			{
+				1010,
+				1020,
+				1030,
+				1040,
+				1050,
+				1060
+			},
+			{
+				1110,
+				1120,
+				1130
+			},
+			{
+				1410,
+				1420,
+				1430,
+				1440,
+				1450,
+				1460,
+				1470,
+				1480,
+				1490,
+				1500,
+				1510
+			}
+		},
+		slg_buffnum = {
+			1,
+			1
+		},
 		map_buff = {},
 		deviation = {}
 	},
@@ -250019,6 +250993,8 @@ pg.world_event_data = {
 		5203,
 		5204,
 		5205,
+		5206,
+		5207,
 		5300,
 		5400,
 		5401,
@@ -251552,6 +252528,7 @@ pg.world_event_data = {
 		1002235,
 		1002300,
 		1002301,
+		1002310,
 		1009001,
 		1009002,
 		1009003,
@@ -251560,6 +252537,15 @@ pg.world_event_data = {
 		1009006,
 		1009007,
 		1009010,
+		1009011,
+		1009012,
+		1009013,
+		1009111,
+		1009112,
+		1009113,
+		1009115,
+		1009116,
+		1009117,
 		2000001,
 		2000002,
 		2000003,

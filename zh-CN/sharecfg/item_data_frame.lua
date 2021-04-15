@@ -208,6 +208,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「让我们一同探寻隐藏在“密室”之中的秘密吧！」</color>\n「破晓冰华」活动获取",
 		scene = {}
 	},
+	[314] = {
+		name = "帝国之柱",
+		time_second = 0,
+		id = 314,
+		time_limit_type = 0,
+		desc = "等待后续活动获取",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂纪念：企业",
 		time_second = 0,
@@ -267,6 +275,7 @@ pg.item_data_frame = {
 		311,
 		312,
 		313,
+		314,
 		401,
 		402,
 		404,

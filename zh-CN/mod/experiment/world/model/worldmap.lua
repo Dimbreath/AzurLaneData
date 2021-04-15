@@ -1752,8 +1752,16 @@ function slot0.CheckEventAutoTrigger(slot0, slot1)
 		return getProxy(SettingsProxy):GetWorldFlag("consume_item")
 	end
 
-	if slot1:GetEventEffect() and slot2.effect_type == WorldMapAttachment.EffectEventCatSalvage then
-		return slot0:GetFleet():GetDisplayCommander() and not slot4:IsCatSalvage()
+	if slot1:GetEventEffect() then
+		slot3 = slot0:GetFleet()
+
+		if slot2.effect_type == WorldMapAttachment.EffectEventConsumeCarry then
+			return not underscore.any(slot2.effect_paramater[1] or {}, function (slot0)
+				return not uv0:ExistCarry(slot0)
+			end)
+		elseif slot4 == WorldMapAttachment.EffectEventCatSalvage then
+			return slot3:GetDisplayCommander() and not slot3:IsCatSalvage()
+		end
 	end
 
 	return true

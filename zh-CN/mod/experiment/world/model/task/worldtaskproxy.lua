@@ -98,13 +98,13 @@ function slot0.deleteTask(slot0, slot1)
 end
 
 function slot0.updateTask(slot0, slot1)
-	slot0.list[slot1.id] = slot1
-
 	if slot1:getState() == WorldTask.STATE_RECEIVED then
-		slot0:removeTaskListener(slot1)
-	end
+		slot0:deleteTask(slot1.id)
+	else
+		slot0.list[slot1.id] = slot1
 
-	slot0:DispatchEvent(uv0.EventUpdateTask, slot1)
+		slot0:DispatchEvent(uv0.EventUpdateTask, slot1)
+	end
 end
 
 function slot0.getTasks(slot0)

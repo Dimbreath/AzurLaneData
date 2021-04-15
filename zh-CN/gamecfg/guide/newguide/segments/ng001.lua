@@ -14,7 +14,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击求救信号，就能查找到信号是从哪片海域发送出来的",
+				text = "点击海域救援，就能查找到信号是从哪片海域发送出来的",
 				mode = 1,
 				dir = 1,
 				posY = -110,
@@ -55,13 +55,12 @@ return {
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/LevelSignalView(Clone)/panel/start_button"
+				path = "/OverlayCamera/Overlay/UIMain/LevelSignalView(Clone)/panel/list/content/item(Clone)/Info/start"
 			}
 		},
 		{
 			ui = {
-				notfoundSkip = true,
-				path = "/OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_1(Clone)"
+				path = "/OverlayCamera/Overlay/UIMain/LevelSignalView(Clone)/panel/list/content/item(Clone)/Info/go"
 			}
 		},
 		{

@@ -153,6 +153,7 @@ function slot0.PrepareChapterRetreat(slot0)
 				slot1:UpdateProgressOnRetreat()
 
 				slot3 = slot1:getConfig("defeat_story")
+				slot4 = false
 
 				table.eachAsync(slot1:getConfig("defeat_story_count"), function (slot0, slot1, slot2)
 					if uv0.defeatCount < slot1 then
@@ -161,17 +162,22 @@ function slot0.PrepareChapterRetreat(slot0)
 						return
 					end
 
-					if uv1[slot0] and type(slot3) == "number" and not pg.NewStoryMgr.GetInstance():IsPlayed(tostring(slot3)) then
-						pg.m02:sendNotification(GAME.STORY_UPDATE, {
-							storyId = tostring(slot3)
-						})
+					if not uv1[slot0] or pg.NewStoryMgr.GetInstance():IsPlayed(tostring(slot3)) then
+						slot2()
+
+						return
+					end
+
+					if type(slot3) == "number" then
 						pg.m02:sendNotification(GAME.BEGIN_STAGE, {
 							system = SYSTEM_PERFORM,
 							stageId = slot3,
 							exitCallback = slot2
 						})
-					elseif slot3 and type(slot3) == "string" then
-						pg.NewStoryMgr.GetInstance():Play(slot3, slot2)
+					elseif type(slot3) == "string" then
+						if ChapterOpCommand.PlayChapterStory(slot3, slot2, not uv2 and uv0:IsAutoFight()) then
+							uv2 = true
+						end
 					else
 						slot2()
 					end
@@ -190,6 +196,29 @@ function slot0.PrepareChapterRetreat(slot0)
 		end,
 		slot0
 	})
+end
+
+function slot0.PlayChapterStory(slot0, slot1, slot2)
+	pg.NewStoryMgr.GetInstance():Play(slot0, slot1)
+
+	if not getProxy(SettingsProxy):GetStoryAutoPlayFlag() and slot2 and slot3:IsRunning() then
+		slot3:Puase()
+		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			hideYes = true,
+			parent = rtf(slot3._tf),
+			type = MSGBOX_TYPE_STORY_CANCEL_TIP,
+			onYes = function ()
+				uv0()
+				uv1:TriggerAutoBtn()
+			end,
+			onNo = function ()
+				uv0:Resume()
+			end,
+			weight = LayerWeightConst.TOP_LAYER
+		})
+
+		return true
+	end
 end
 
 return slot0

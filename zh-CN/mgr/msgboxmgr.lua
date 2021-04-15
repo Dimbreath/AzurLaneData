@@ -30,6 +30,7 @@ MSGBOX_TYPE_JUST_FOR_SHOW = 11
 MSGBOX_TYPE_MONTH_CARD_TIP = 12
 MSGBOX_TYPE_WORLD_RESET = 13
 MSGBOX_TYPE_WORLD_STAMINA_EXCHANGE = 14
+MSGBOX_TYPE_STORY_CANCEL_TIP = 15
 slot1.enable = false
 slot2 = require("Mgr.const.MsgboxBtnNameMap")
 
@@ -1237,6 +1238,8 @@ function slot1.ShowMsgBox(slot0, slot1)
 		slot0:GetPanel(ItemShowPanel).buffer:UpdateView(slot1)
 	elseif slot2 == MSGBOX_TYPE_MONTH_CARD_TIP then
 		slot0:GetPanel(MonthCardOutDateTipPanel).buffer:UpdateView(slot1)
+	elseif slot2 == MSGBOX_TYPE_STORY_CANCEL_TIP then
+		slot0:GetPanel(StoryCancelTipPanel).buffer:UpdateView(slot1)
 	end
 end
 

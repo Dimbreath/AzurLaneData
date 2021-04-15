@@ -29,13 +29,16 @@ function slot1.DoWave(slot0)
 
 	if slot1 then
 		pg.MsgboxMgr.GetInstance():hide()
-		pg.NewStoryMgr.GetInstance():Play(slot0._storyID, function (slot0, slot1)
+
+		slot4 = getProxy(ChapterProxy) and slot3:getActiveChapter()
+
+		ChapterOpCommand.PlayChapterStory(slot0._storyID, function (slot0, slot1)
 			if slot0 then
 				uv0:doFail(slot1)
 			else
 				uv0:doPass(slot1)
 			end
-		end)
+		end, slot4 and slot4:IsAutoFight())
 		gcAll()
 	else
 		slot0:doPass()

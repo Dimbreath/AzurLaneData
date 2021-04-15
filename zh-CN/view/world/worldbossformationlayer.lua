@@ -24,6 +24,10 @@ function slot0.init(slot0)
 
 	setActive(slot0.subToggle, false)
 
+	slot0._buffContainer = slot0._tf:Find("BuffContainer")
+
+	setActive(slot0._buffContainer, false)
+
 	slot0._fleetInfo = slot1:Find("fleet_info")
 	slot0._fleetNameText = slot1:Find("fleet_info/fleet_name/Text")
 	slot0._fleetNumText = slot1:Find("fleet_info/fleet_number")
@@ -277,6 +281,9 @@ function slot0.didEnter(slot0)
 	if slot0._currentForm == uv0.FORM_PREVIEW and slot0._currentFleetVO:isLegalToFight() ~= true then
 		triggerButton(slot0._checkBtn)
 	end
+
+	slot0:UpdateBuffContainer()
+	slot0:TryPlayGuide()
 end
 
 function slot0.onBackPressed(slot0)
@@ -733,6 +740,54 @@ end
 function slot0.disableAllStepper(slot0)
 	SetActive(slot0._nextPage, false)
 	SetActive(slot0._prevPage, false)
+end
+
+function slot0.GetActiveStgs(slot0)
+	slot1 = {}
+	slot2, slot3, slot4 = WorldBossProxy.GetSupportValue()
+
+	if slot2 and slot0.boss and slot0.boss:IsSelf() then
+		table.insert(slot1, slot4)
+	end
+
+	return slot1
+end
+
+function slot0.UpdateBuffContainer(slot0)
+	slot2 = #slot0:GetActiveStgs() > 0
+
+	setActive(slot0._buffContainer, slot2)
+
+	if not slot2 then
+		return
+	end
+
+	UIItemList.StaticAlign(slot0._buffContainer, slot0._buffContainer:GetChild(0), #slot1, function (slot0, slot1, slot2)
+		if slot0 ~= UIItemList.EventUpdate then
+			return
+		end
+
+		GetImageSpriteFromAtlasAsync("strategyicon/" .. pg.strategy_data_template[uv0[slot1 + 1]].icon, "", slot2)
+		onButton(uv1, slot2, function ()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				yesText = "text_confirm",
+				hideNo = true,
+				content = "",
+				type = MSGBOX_TYPE_SINGLE_ITEM,
+				drop = {
+					type = DROP_TYPE_STRATEGY,
+					id = uv0.id,
+					cfg = uv0
+				}
+			})
+		end, SFX_PANEL)
+	end)
+end
+
+function slot0.TryPlayGuide(slot0)
+	if #slot0:GetActiveStgs() > 0 then
+		WorldGuider.GetInstance():PlayGuide("WorldG200")
+	end
 end
 
 function slot0.recycleCharacterList(slot0, slot1, slot2)

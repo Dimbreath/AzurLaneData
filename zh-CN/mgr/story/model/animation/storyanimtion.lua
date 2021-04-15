@@ -11,93 +11,125 @@ function slot0.SetTimeScale(slot0, slot1)
 end
 
 function slot0.TweenMove(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	if slot4 > 1 then
-		LeanTween.move(rtf(slot1), slot2, slot3 * slot0.timeScale):setDelay(slot5):setLoopPingPong(slot4)
-	end
+	slot0:DelayCall(slot5, function ()
+		if uv4 > 1 then
+			LeanTween.move(rtf(uv0), uv1, uv2 * uv3.timeScale):setLoopPingPong(uv4)
+		end
 
-	if slot6 then
-		slot7:setOnComplete(System.Action(slot6))
-	end
+		if uv5 then
+			slot0:setOnComplete(System.Action(uv5))
+		end
 
-	table.insert(slot0.tweens, slot1)
+		table.insert(uv3.tweens, uv0)
+	end)
 end
 
 function slot0.TweenScale(slot0, slot1, slot2, slot3, slot4, slot5)
-	if slot5 then
-		LeanTween.scale(rtf(slot1), slot2, slot3 * slot0.timeScale):setDelay(slot4):setOnComplete(System.Action(slot5))
-	end
+	slot0:DelayCall(slot4, function ()
+		if uv4 then
+			LeanTween.scale(rtf(uv0), uv1, uv2 * uv3.timeScale):setOnComplete(System.Action(uv4))
+		end
 
-	table.insert(slot0.tweens, slot1)
+		table.insert(uv3.tweens, uv0)
+	end)
 end
 
 function slot0.TweenRotate(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	if slot6 then
-		LeanTween.rotate(rtf(slot1), slot2, slot3 * slot0.timeScale):setLoopPingPong(slot4):setDelay(slot5):setOnComplete(System.Action(slot6))
-	end
+	slot0:DelayCall(slot5, function ()
+		if uv5 then
+			LeanTween.rotate(rtf(uv0), uv1, uv2 * uv3.timeScale):setLoopPingPong(uv4):setOnComplete(System.Action(uv5))
+		end
 
-	table.insert(slot0.tweens, slot1)
+		table.insert(uv3.tweens, uv0)
+	end)
 end
 
 function slot0.TweenValueForcanvasGroup(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	if slot6 then
-		LeanTween.value(go(slot1), slot2, slot3, slot4 * slot0.timeScale):setOnUpdate(System.Action_float(function (slot0)
-			uv0.alpha = slot0
-		end)):setDelay(slot5):setOnComplete(System.Action(slot6))
-	end
+	slot0:DelayCall(slot5, function ()
+		if uv5 then
+			LeanTween.value(go(uv0), uv1, uv2, uv3 * uv4.timeScale):setOnUpdate(System.Action_float(function (slot0)
+				uv0.alpha = slot0
+			end)):setOnComplete(System.Action(uv5))
+		end
 
-	table.insert(slot0.tweens, slot1.gameObject.transform)
+		table.insert(uv4.tweens, uv0.gameObject.transform)
+	end)
 end
 
 function slot0.TweenValue(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
-	if slot7 then
-		LeanTween.value(go(slot1), slot2, slot3, slot4 * slot0.timeScale):setOnUpdate(System.Action_float(slot6)):setDelay(slot5):setOnComplete(System.Action(function ()
-			if uv0 then
-				uv0()
-			end
-		end))
-	end
+	slot0:DelayCall(slot5, function ()
+		if uv6 then
+			LeanTween.value(go(uv0), uv1, uv2, uv3 * uv4.timeScale):setOnUpdate(System.Action_float(uv5)):setOnComplete(System.Action(function ()
+				if uv0 then
+					uv0()
+				end
+			end))
+		end
 
-	table.insert(slot0.tweens, slot1)
+		table.insert(uv4.tweens, uv0)
+	end)
 end
 
 function slot0.TweenValueLoop(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
-	if slot7 then
-		LeanTween.value(go(slot1), slot2, slot3, slot4 * slot0.timeScale):setOnUpdate(System.Action_float(slot6)):setDelay(slot5):setLoopClamp():setOnComplete(System.Action(function ()
-			if uv0 then
-				uv0()
-			end
-		end))
-	end
+	slot0:DelayCall(slot5, function ()
+		if uv6 then
+			LeanTween.value(go(uv0), uv1, uv2, uv3 * uv4.timeScale):setOnUpdate(System.Action_float(uv5)):setLoopClamp():setOnComplete(System.Action(function ()
+				if uv0 then
+					uv0()
+				end
+			end))
+		end
 
-	table.insert(slot0.tweens, slot1)
+		table.insert(uv4.tweens, uv0)
+	end)
 end
 
 function slot0.TweenTextAlpha(slot0, slot1, slot2, slot3, slot4, slot5)
-	if slot5 then
-		LeanTween.textAlpha(slot1, slot2, (slot3 or 1) * slot0.timeScale):setDelay(slot4):setOnComplete(System.Action(slot5))
-	end
+	slot0:DelayCall(slot4, function ()
+		if uv4 then
+			LeanTween.textAlpha(uv0, uv1, (uv2 or 1) * uv3.timeScale):setOnComplete(System.Action(uv4))
+		end
 
-	table.insert(slot0.tweens, slot1)
+		table.insert(uv3.tweens, uv0)
+	end)
 end
 
 function slot0.TweenAlpha(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	if slot6 then
-		LeanTween.alpha(slot1, slot3, slot4 * slot0.timeScale):setFrom(slot2):setDelay(slot5):setOnComplete(System.Action(slot6))
-	end
+	slot0:DelayCall(slot5, function ()
+		if uv5 then
+			LeanTween.alpha(uv0, uv1, uv2 * uv3.timeScale):setFrom(uv4):setOnComplete(System.Action(uv5))
+		end
 
-	table.insert(slot0.tweens, slot1)
+		table.insert(uv3.tweens, uv0)
+	end)
 end
 
 function slot0.TweenMovex(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
-	if slot6 then
-		LeanTween.moveX(slot1, slot2, slot4 * slot0.timeScale):setDelay(slot5):setFrom(slot3):setLoopPingPong(slot6)
-	end
+	slot0:DelayCall(slot5, function ()
+		if uv5 then
+			LeanTween.moveX(uv0, uv1, uv2 * uv3.timeScale):setFrom(uv4):setLoopPingPong(uv5)
+		end
 
-	if slot7 then
-		slot8:setOnComplete(System.Action(slot7))
-	end
+		if uv6 then
+			slot0:setOnComplete(System.Action(uv6))
+		end
 
-	table.insert(slot0.tweens, slot1)
+		table.insert(uv3.tweens, uv0)
+	end)
+end
+
+function slot0.TweenMovey(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+	slot0:DelayCall(slot5, function ()
+		if uv5 then
+			LeanTween.moveY(uv0, uv1, uv2 * uv3.timeScale):setFrom(uv4):setLoopPingPong(uv5)
+		end
+
+		if uv6 then
+			slot0:setOnComplete(System.Action(uv6))
+		end
+
+		table.insert(uv3.tweens, uv0)
+	end)
 end
 
 function slot0.IsTweening(slot0, slot1)
@@ -111,13 +143,13 @@ function slot0.CancelTween(slot0, slot1)
 end
 
 function slot0.DelayCall(slot0, slot1, slot2)
-	if slot1 <= 0 then
+	if not slot1 or slot1 <= 0 then
 		slot2()
 
 		return
 	end
 
-	slot0.timers[slot2] = Timer.New(function ()
+	slot0.timers[slot2] = StoryTimer.New(function ()
 		uv0.timers[uv1]:Stop()
 
 		uv0.timers[uv1] = nil
@@ -135,7 +167,7 @@ function slot0.UnscaleDelayCall(slot0, slot1, slot2)
 		return
 	end
 
-	slot0.timers[slot2] = Timer.New(function ()
+	slot0.timers[slot2] = StoryTimer.New(function ()
 		uv0.timers[uv1]:Stop()
 
 		uv0.timers[uv1] = nil
@@ -153,11 +185,49 @@ function slot0.CreateDelayTimer(slot0, slot1, slot2)
 		return nil
 	end
 
-	slot3 = Timer.New(slot2, slot1 * slot0.timeScale, 1)
+	slot3 = StoryTimer.New(slot2, slot1 * slot0.timeScale, 1)
 
 	slot3:Start()
 
 	return slot3
+end
+
+function slot0.PauseAllTween(slot0)
+	for slot4, slot5 in ipairs(slot0.tweens) do
+		if not IsNil(slot5) and slot0:IsTweening(slot5.gameObject) then
+			LeanTween.pause(slot5.gameObject)
+		end
+	end
+end
+
+function slot0.ResumeAllTween(slot0)
+	for slot4, slot5 in ipairs(slot0.tweens) do
+		if not IsNil(slot5) then
+			LeanTween.resume(slot5.gameObject)
+		end
+	end
+end
+
+function slot0.PauseAllTimer(slot0)
+	for slot4, slot5 in pairs(slot0.timers) do
+		slot5:Pause()
+	end
+end
+
+function slot0.ResumeAllTimer(slot0)
+	for slot4, slot5 in pairs(slot0.timers) do
+		slot5:Resume()
+	end
+end
+
+function slot0.ResumeAllAnimation(slot0)
+	slot0:ResumeAllTween()
+	slot0:ResumeAllTimer()
+end
+
+function slot0.PauseAllAnimation(slot0)
+	slot0:PauseAllTween()
+	slot0:PauseAllTimer()
 end
 
 function slot0.ClearAllTween(slot0)
@@ -166,6 +236,8 @@ function slot0.ClearAllTween(slot0)
 			LeanTween.cancel(slot5.gameObject)
 		end
 	end
+
+	slot0.tweens = {}
 end
 
 function slot0.ClearAllTimers(slot0)

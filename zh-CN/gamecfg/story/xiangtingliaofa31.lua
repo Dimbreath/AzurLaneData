@@ -397,8 +397,9 @@ return {
 			},
 			options = {
 				{
-					content = "我————",
-					flag = 1
+					flag = 1,
+					autochoice = 1,
+					content = "我————"
 				}
 			}
 		}

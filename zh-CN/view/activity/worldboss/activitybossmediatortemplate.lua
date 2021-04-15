@@ -415,14 +415,6 @@ function slot0.handleNotification(slot0, slot1)
 				slot0.contextData.ptData = ActivityBossPtData.New(slot3)
 			end
 
-			slot4 = slot0.contextData.ptData.count
-
-			if slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_RANK) and slot5.data1 ~= slot4 then
-				slot5.data1 = slot4
-
-				slot0.activityProxy:updateActivity(slot5)
-			end
-
 			slot0:UpdateView()
 		elseif slot3.id == slot0.contextData.activityID then
 			slot0.contextData.bossHP = slot3.data1

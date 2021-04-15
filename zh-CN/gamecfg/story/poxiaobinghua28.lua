@@ -610,8 +610,9 @@ return {
 			},
 			options = {
 				{
-					content = "表示前往白鹰",
-					flag = 1
+					flag = 1,
+					autochoice = 1,
+					content = "表示前往白鹰"
 				},
 				{
 					content = "表示留在北方联合",

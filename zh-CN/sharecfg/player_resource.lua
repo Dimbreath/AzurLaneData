@@ -490,6 +490,11 @@ pg.player_resource = {
 		name = "wwf2_ping",
 		itemid = 59205
 	},
+	[193] = {
+		id = 193,
+		name = "yidaliv2_frame",
+		itemid = 59206
+	},
 	[194] = {
 		id = 194,
 		name = "newmeixire_pt",
@@ -900,6 +905,9 @@ pg.player_resource = {
 		wwf2_ping = {
 			192
 		},
+		yidaliv2_frame = {
+			193
+		},
 		newmeixire_pt = {
 			194
 		},
@@ -1069,6 +1077,7 @@ pg.player_resource = {
 		190,
 		191,
 		192,
+		193,
 		194,
 		195,
 		950,

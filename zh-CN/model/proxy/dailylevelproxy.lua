@@ -5,6 +5,7 @@ function slot0.register(slot0)
 	slot0.data = {}
 	slot0.eliteCount = 0
 	slot0.chapterCountList = {}
+	slot0.quickStages = {}
 
 	slot0:on(13201, function (slot0)
 		uv0.data = {}
@@ -22,7 +23,19 @@ function slot0.register(slot0)
 				count = slot6.count
 			})
 		end
+
+		for slot5, slot6 in ipairs(slot0.quick_expedition_list) do
+			uv0:AddQuickStage(slot6)
+		end
 	end)
+end
+
+function slot0.AddQuickStage(slot0, slot1)
+	slot0.quickStages[slot1] = true
+end
+
+function slot0.CanQuickBattle(slot0, slot1)
+	return slot0.quickStages[slot1] == true
 end
 
 function slot0.clearChaptersDefeatCount(slot0)

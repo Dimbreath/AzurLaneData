@@ -24,6 +24,28 @@ function slot0.Ctor(slot0, slot1)
 	slot0.optionPrint = slot0:findTF("options_panel/bg")
 	slot0.optionsCg = slot0:findTF("options_panel"):GetComponent(typeof(CanvasGroup))
 	slot0.bgs = {}
+	slot0.stop = false
+	slot0.pause = false
+end
+
+function slot0.Pause(slot0)
+	slot0.pause = true
+
+	slot0:PauseAllAnimation()
+	setActive(slot0.effectPanel, false)
+end
+
+function slot0.Resume(slot0)
+	slot0.pause = false
+
+	slot0:ResumeAllAnimation()
+	setActive(slot0.effectPanel, true)
+end
+
+function slot0.Stop(slot0)
+	slot0.stop = true
+
+	slot0:NextOneImmediately()
 end
 
 function slot0.Play(slot0, slot1, slot2, slot3)
@@ -33,7 +55,7 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	if slot1:GetNextScriptName() then
+	if slot1:GetNextScriptName() or slot0.stop then
 		slot3()
 
 		return
@@ -107,6 +129,10 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 				uv0:InitBranches(uv1, uv2, slot0, function ()
 					uv0.isRegisterEvent = true
 
+					if uv0.pause or uv0.stop then
+						return
+					end
+
 					if uv0.autoNext then
 						uv0.autoNext = nil
 
@@ -149,14 +175,18 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 		function (slot0)
 			uv0:Clear(slot0)
 		end
-	}, slot3)
+	}, function ()
+		if uv0.callback then
+			uv0.callback()
+		end
+	end)
 end
 
 function slot0.CanSkip(slot0)
 	return slot0.step and not slot0.step:ExistOption()
 end
 
-function slot0.Next(slot0)
+function slot0.NextOne(slot0)
 	slot0.timeScale = 0.0001
 
 	if slot0.isRegisterEvent then
@@ -166,7 +196,7 @@ function slot0.Next(slot0)
 	end
 end
 
-function slot0.NextImmediately(slot0)
+function slot0.NextOneImmediately(slot0)
 	if slot0.callback then
 		slot0.callback()
 	end
@@ -193,12 +223,16 @@ function slot0.InitBranches(slot0, slot1, slot2, slot3, slot4)
 			slot5 = uv0[slot1 + 1][2]
 
 			onButton(uv1, slot3, function ()
-				if not uv0 then
+				if uv0.pause or uv0.stop then
 					return
 				end
 
-				uv1:SetBranchCode(uv2)
-				uv3:ShowOrHideBranches(false, uv4)
+				if not uv1 then
+					return
+				end
+
+				uv2:SetBranchCode(uv3)
+				uv0:ShowOrHideBranches(false, uv4)
 			end, SFX_PANEL)
 			setText(slot3:Find("Text"), uv0[slot1 + 1][1])
 			setActive(slot3, false)
@@ -367,6 +401,10 @@ end
 function slot0.RegisetEvent(slot0, slot1)
 	setButtonEnabled(slot0._go, not slot0.autoNext)
 	onButton(slot0, slot0._go, function ()
+		if uv0.pause or uv0.stop then
+			return
+		end
+
 		removeOnButton(uv0._go)
 		uv1()
 	end, SFX_PANEL)
@@ -585,6 +623,9 @@ function slot0.StoryStart(slot0, slot1)
 end
 
 function slot0.StoryEnd(slot0)
+	slot0.stop = false
+	slot0.pause = false
+
 	if slot0.voiceDelayTimer then
 		slot0.voiceDelayTimer:Stop()
 
