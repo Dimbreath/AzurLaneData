@@ -67150,6 +67150,83 @@ pg.world_event_data = {
 		map_buff = {},
 		deviation = {}
 	},
+	[1000006] = {
+		enemyicon = 0,
+		name = "Guide Beacon",
+		visuality = 0,
+		scale = 0,
+		auto_pri = 0,
+		icontype = 2,
+		is_scanevent = 1,
+		obstacle = 4,
+		event_sight = -1,
+		icon = "dengta",
+		special_enemy = 0,
+		infection_value = 0,
+		compass_index = 5,
+		discover_type = 2,
+		scan_desc = "A lighthouse-like device built by the Sirens. It seems possible to operate it if the energy supply is restored.",
+		expedition_icon = 0,
+		is_guide = 0,
+		id = 1000006,
+		object_icon = {
+			"cell_yellow",
+			1,
+			100,
+			0
+		},
+		event_op = {},
+		effect = {
+			10000051,
+			10000052,
+			102,
+			101,
+			102,
+			10000053
+		},
+		grid = {
+			{
+				-2,
+				-1,
+				-2,
+				1
+			},
+			{
+				-1,
+				-2,
+				-1,
+				2
+			},
+			{
+				0,
+				-2,
+				0,
+				-1
+			},
+			{
+				0,
+				1,
+				0,
+				2
+			},
+			{
+				1,
+				-2,
+				1,
+				2
+			},
+			{
+				2,
+				-1,
+				2,
+				1
+			}
+		},
+		slg_bufflist = {},
+		slg_buffnum = {},
+		map_buff = {},
+		deviation = {}
+	},
 	[1000007] = {
 		enemyicon = 0,
 		name = "Guide Beacon",
@@ -252313,6 +252390,7 @@ pg.world_event_data = {
 		1000003,
 		1000004,
 		1000005,
+		1000006,
 		1000007,
 		1000008,
 		1000010,
