@@ -106,7 +106,9 @@ function slot0.BuildTestFunc(slot0)
 			PlayerPrefs.Save()
 			pg.TipsMgr.GetInstance():ShowTips(world_skip_battle == 1 and "已开启大世界战斗跳略" or "已关闭大世界战斗跳略")
 		end
+	end
 
+	if Application.isEditor then
 		function display_world_debug_panel()
 			if pg.m02:retrieveMediator(WorldMediator.__cname) then
 				slot0.viewComponent:ShowSubView("DebugPanel")

@@ -436,7 +436,7 @@ function slot0.existLoop(slot0)
 end
 
 function slot0.canActivateLoop(slot0)
-	return slot0:getRiskLevel() == 4 and slot0:isAllAchieve()
+	return slot0.progress == 100
 end
 
 function slot0.isLoop(slot0)

@@ -28,10 +28,8 @@ function slot0.execute(slot0, slot1)
 				getProxy(TechnologyProxy):judgeOnCatchupOldAndFinished()
 			end)
 
-			slot3 = PlayerConst.addTranDrop(slot0.catchupact_list)
-
 			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BLUEPRINT_CATCHUP) and not slot4:isEnd() then
-				underscore.each(slot2, function (slot0)
+				underscore.each(PlayerConst.addTranDrop(slot0.catchupact_list), function (slot0)
 					uv0.data1 = uv0.data1 + slot0.count
 				end)
 			end

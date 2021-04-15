@@ -127538,6 +127538,25 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59206] = {
+		drop_gold_max = 0,
+		name = "訓練Pt",
+		display = "「作戦準備・サディア帝国」報酬交換用アイテム。イベント終了後に削除される。",
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/xunliandianshu_yv2",
+		rarity = 2,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59206,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59207] = {
 		drop_gold_max = 0,
 		name = "バトルスター・黒",
@@ -139789,6 +139808,7 @@ pg.item_data_statistics = {
 		59203,
 		59204,
 		59205,
+		59206,
 		59207,
 		59208,
 		59601,

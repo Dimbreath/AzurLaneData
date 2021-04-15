@@ -64,10 +64,10 @@ end
 function slot0.FlushModelAction(slot0)
 	if slot0.model and slot0.modelAction then
 		if slot0.modelType == WorldConst.ModelSpine then
-			if slot0.modelComps[1] then
+			if slot0.modelComps and slot0.modelComps[1] then
 				slot1:SetAction(slot0.modelAction, 0)
 			end
-		elseif slot0.modelType == WorldConst.ModelPrefab and slot0.modelComps[1] and slot1:HasState(0, Animator.StringToHash(slot0.modelAction)) then
+		elseif slot0.modelType == WorldConst.ModelPrefab and slot0.modelComps and slot0.modelComps[1] and slot1:HasState(0, Animator.StringToHash(slot0.modelAction)) then
 			slot1:Play(slot2)
 		end
 	end
@@ -76,7 +76,7 @@ end
 function slot0.PlayModelAction(slot0, slot1, slot2, slot3)
 	if slot0.model then
 		if slot0.modelType == WorldConst.ModelSpine then
-			if slot0.modelComps[1] and slot5.transform.gameObject.activeInHierarchy then
+			if slot0.modelComps and slot0.modelComps[1] and slot5.transform.gameObject.activeInHierarchy then
 				table.insert({}, function (slot0)
 					uv0:SetAction(uv1, 0)
 
@@ -93,7 +93,7 @@ function slot0.PlayModelAction(slot0, slot1, slot2, slot3)
 				end)
 			end
 		elseif slot0.modelType == WorldConst.ModelPrefab then
-			if slot0.modelComps[1] and slot5.transform.gameObject.activeInHierarchy then
+			if slot0.modelComps and slot0.modelComps[1] and slot5.transform.gameObject.activeInHierarchy then
 				if slot5:HasState(0, Animator.StringToHash(slot1)) then
 					table.insert(slot4, function (slot0)
 						uv0:Play(uv1)

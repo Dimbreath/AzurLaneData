@@ -586,6 +586,17 @@ function setTextAlpha(slot0, slot1)
 	slot2.color = slot3
 end
 
+function setSizeDelta(slot0, slot1)
+	if not GetComponent(slot0, typeof(RectTransform)) then
+		return
+	end
+
+	slot3 = slot2.sizeDelta
+	slot3.x = slot1.x
+	slot3.y = slot1.y
+	slot2.sizeDelta = slot3
+end
+
 function getOutlineColor(slot0)
 	return GetComponent(slot0, typeof(Outline)).effectColor
 end

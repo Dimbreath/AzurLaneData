@@ -57,7 +57,11 @@ slot0.INDEX_TO_SHOP_TYPE = {
 }
 
 function slot0.getCloneId(slot0, slot1)
-	return slot0.configId * 10000000 + slot1
+	if BackYardConst.SAME_ID_MODIFY_ID < slot0.configId then
+		return slot0.configId + slot1
+	else
+		return slot0.configId * 10000000 + slot1
+	end
 end
 
 function slot0.Ctor(slot0, slot1)
@@ -70,6 +74,13 @@ function slot0.Ctor(slot0, slot1)
 	slot0.count = slot1.count or 0
 	slot0.date = slot1.get_time or slot1.date or 0
 	slot0.floor = slot1.floor or 0
+	slot2 = pg.furniture_data_template[slot0.id]
+
+	if BackYardConst.SAME_ID_MODIFY_ID < slot0.id and slot2 and slot2.count > 1 then
+		for slot6 = 1, slot2.count - 1 do
+			slot7 = slot0.configId + slot6
+		end
+	end
 end
 
 function slot0.getDate(slot0)

@@ -124,7 +124,8 @@ function slot0.UpdateData(slot0)
 	slot1 = slot0.activity
 	slot0.config = pg.activity_template_returnner[slot1.id]
 	slot0.code = slot1.data2
-	slot0.pt = getProxy(PlayerProxy):getRawData():getResource(pg.activity_template_headhunting[slot1.id].pt)
+	slot2 = pg.activity_template_headhunting[slot1.id]
+	slot0.pt = slot1.data3
 	slot0.taskIndex = slot1.data4
 	slot0.ptTxt.text = slot0.pt
 	slot0.day = pg.TimeMgr.GetInstance():DiffDay(slot1:getStartTime(), pg.TimeMgr.GetInstance():GetServerTime()) + 1

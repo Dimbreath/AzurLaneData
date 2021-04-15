@@ -44315,7 +44315,7 @@ pg.ship_data_template = {
 	},
 	[301851] = {
 		oil_at_start = 1,
-		max_level = 100,
+		max_level = 70,
 		equip_id_3 = 0,
 		oil_at_end = 1,
 		type = 1,
@@ -44346,13 +44346,18 @@ pg.ship_data_template = {
 			14
 		},
 		airassist_time = {},
-		buff_list = {},
-		buff_list_display = {},
+		buff_list = {
+			14300
+		},
+		buff_list_display = {
+			14300,
+			22081
+		},
 		hide_buff_list = {}
 	},
 	[301852] = {
 		oil_at_start = 1,
-		max_level = 100,
+		max_level = 80,
 		equip_id_3 = 0,
 		oil_at_end = 3,
 		type = 1,
@@ -44383,13 +44388,19 @@ pg.ship_data_template = {
 			14
 		},
 		airassist_time = {},
-		buff_list = {},
-		buff_list_display = {},
+		buff_list = {
+			14300,
+			22081
+		},
+		buff_list_display = {
+			14300,
+			22081
+		},
 		hide_buff_list = {}
 	},
 	[301853] = {
 		oil_at_start = 1,
-		max_level = 100,
+		max_level = 90,
 		equip_id_3 = 0,
 		oil_at_end = 5,
 		type = 1,
@@ -44420,8 +44431,14 @@ pg.ship_data_template = {
 			14
 		},
 		airassist_time = {},
-		buff_list = {},
-		buff_list_display = {},
+		buff_list = {
+			14300,
+			22081
+		},
+		buff_list_display = {
+			14300,
+			22081
+		},
 		hide_buff_list = {}
 	},
 	[301854] = {
@@ -44457,8 +44474,14 @@ pg.ship_data_template = {
 			14
 		},
 		airassist_time = {},
-		buff_list = {},
-		buff_list_display = {},
+		buff_list = {
+			14300,
+			22082
+		},
+		buff_list_display = {
+			14300,
+			22082
+		},
 		hide_buff_list = {}
 	},
 	[302011] = {

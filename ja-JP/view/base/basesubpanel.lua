@@ -49,6 +49,8 @@ function slot0.Detach(slot0)
 	slot0.viewParent = nil
 end
 
+slot0.NeedAsyncLoading = true
+
 function slot0.Load(slot0)
 	if slot0._state ~= uv0.STATES.NONE then
 		return
@@ -57,7 +59,7 @@ function slot0.Load(slot0)
 	slot0._state = uv0.STATES.LOADING
 
 	pg.UIMgr.GetInstance():LoadingOn()
-	PoolMgr.GetInstance():GetUI(slot0:GetUIName(), true, function (slot0)
+	PoolMgr.GetInstance():GetUI(slot0:GetUIName(), slot0.NeedAsyncLoading, function (slot0)
 		uv0:Loaded(slot0)
 		uv0:Init()
 	end)

@@ -230,7 +230,7 @@ function slot0.set(slot0, slot1, slot2)
 				PlayerPrefs.Save()
 			end
 		end, SFX_UI_TAG)
-		triggerToggle(slot0.autoFightToggle, PlayerPrefs.GetInt("chapter_autofight_flag_" .. slot1.id, 1) == 1)
+		triggerToggle(slot0.autoFightToggle, slot13 and PlayerPrefs.GetInt("chapter_autofight_flag_" .. slot1.id, 1) == 1)
 	end
 
 	onButton(slot0, slot0.btnConfirm, function ()

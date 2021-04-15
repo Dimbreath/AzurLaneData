@@ -637,4 +637,8 @@ function slot0.RangeCheck(slot0, slot1, slot2)
 	end
 end
 
+function slot0.CheckWorldStorySkip(slot0)
+	return table.contains(pg.gameset.world_quickmode_skiplua.description, slot0) and getProxy(SettingsProxy):GetWorldFlag("story_tips") and pg.NewStoryMgr.GetInstance():IsPlayed(slot0)
+end
+
 return slot0

@@ -87,9 +87,14 @@ function slot0.Exit(slot0, slot1)
 
 		uv1.GeneralPlayerCosume(SYSTEM_SUB_ROUTINE, slot3, uv5, slot0.player_exp, exFlag)
 
+		slot4 = getProxy(DailyLevelProxy)
+
 		if slot3 then
-			slot4 = getProxy(DailyLevelProxy)
 			slot4.data[slot4.dailyLevelId] = (slot4.data[slot4.dailyLevelId] or 0) + 1
+		end
+
+		if uv4 == ys.Battle.BattleConst.BattleScore.S then
+			slot4:AddQuickStage(uv2.stageId)
 		end
 
 		uv1:sendNotification(GAME.FINISH_STAGE_DONE, {

@@ -33,7 +33,7 @@ function slot0.register(slot0)
 				arg2 = slot5[3],
 				arg3 = slot5[4]
 			})
-		elseif Application.isEditor and slot2 == "world battle skip" then
+		elseif slot2 == "world battle skip" then
 			switch_world_skip_battle()
 		elseif slot2 == pg.gameset.code_switch.description then
 			if getProxy(PlayerProxy):getRawData().level >= 9 then

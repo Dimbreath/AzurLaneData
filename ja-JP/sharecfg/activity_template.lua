@@ -2550,6 +2550,113 @@ pg.activity_template = {
 			id = 970702
 		}
 	},
+	[922] = {
+		mark = 20210415,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 11,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 922,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					4,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					4,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[923] = {
+		mark = 20210415,
+		type = 74,
+		login_pop = 0,
+		config_id = 923,
+		is_show = 9,
+		title_res_tag = "maoxiV2_frame",
+		id = 923,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					4,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					5,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YidaliV2framePage",
+			ui_name = "YidaliV2framePage"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2021,
+					4,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					5,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[925] = {
 		mark = 20210318,
 		type = 69,
@@ -3105,12 +3212,56 @@ pg.activity_template = {
 			}
 		}
 	},
+	[953] = {
+		mark = 20210415,
+		type = 69,
+		login_pop = 0,
+		config_id = 6,
+		is_show = 5,
+		title_res_tag = "Neptune_catchup",
+		id = 953,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					4,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					5,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "JunZhuTecCatchupPage",
+			ui_name = "JunZhuTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42002
+		}
+	},
 	[949] = {
 		mark = 20210408,
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 11,
+		is_show = 4,
 		config_client = "",
 		title_res_tag = "Votoms",
 		id = 949,
@@ -4377,6 +4528,22 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[2056] = {
+		mark = 20210415,
+		page_info = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5601,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 2056,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	[100001] = {
 		mark = 20190530,
 		page_info = "",
@@ -4471,6 +4638,8 @@ pg.activity_template = {
 		916,
 		920,
 		921,
+		922,
+		923,
 		925,
 		934,
 		935,
@@ -4486,6 +4655,7 @@ pg.activity_template = {
 		946,
 		947,
 		948,
+		953,
 		949,
 		10006,
 		10056,
@@ -4546,6 +4716,7 @@ pg.activity_template = {
 		2053,
 		2054,
 		2055,
+		2056,
 		100001
 	}
 }

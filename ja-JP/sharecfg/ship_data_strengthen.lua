@@ -6171,11 +6171,11 @@ pg.ship_data_strengthen = {
 	[30185] = {
 		id = 30185,
 		durability = {
+			11,
+			76,
 			0,
 			0,
-			0,
-			0,
-			0
+			56
 		},
 		level_exp = {
 			40,
@@ -6185,11 +6185,11 @@ pg.ship_data_strengthen = {
 			15
 		},
 		attr_exp = {
+			4,
+			25,
 			0,
 			0,
-			0,
-			0,
-			0
+			14
 		}
 	},
 	[30201] = {

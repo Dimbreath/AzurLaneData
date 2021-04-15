@@ -7,6 +7,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.init(slot0)
+	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.topPanel = slot0:findTF("blur_panel/adapt/top")
 	slot0.backBtn = slot0:findTF("back_button", slot0.topPanel)
 	slot0.resPanel = PlayerResource.New()
@@ -20,11 +21,16 @@ function slot0.init(slot0)
 
 	slot0.dailylevelTpl = slot0:getTpl("list_panel/list/captertpl")
 	slot0.descPanel = slot0:findTF("desc_panel")
+	slot0.selectedPanel = slot0.descPanel:Find("selected")
 	slot0.descMain = slot0:findTF("main_mask/main", slot0.descPanel)
 	slot0.stageTpl = slot0:getTpl("scrollview/content/stagetpl", slot0.descMain)
+	slot0.stageScrollRect = slot0:findTF("scrollview", slot0.descMain):GetComponent(typeof(ScrollRect))
 	slot0.stageContain = slot0:findTF("scrollview/content", slot0.descMain)
 	slot0.arrows = slot0:findTF("arrows")
 	slot0.itemTpl = slot0:getTpl("item_tpl")
+	slot0.selStageTF = slot0.selectedPanel:Find("stagetpl/info")
+	slot0.selQuicklyTF = slot0.selStageTF.parent:Find("quickly/bg")
+	slot0.selQuicklyTFSizeDeltaY = slot0.selQuicklyTF.sizeDelta.y
 	slot0.descChallengeNum = slot0:findTF("challenge_count", slot0.descMain)
 	slot0.descChallengeText = slot0:findTF("Text", slot0.descChallengeNum)
 	slot0.challengeQuotaDaily = slot0:findTF("challenge_count/label", slot0.descMain)
@@ -201,16 +207,19 @@ function slot0.initDailyLevel(slot0, slot1)
 		slot0.name = "card"
 	end)
 	setText(findTF(slot3, "Text"), "")
+	slot0:UpdateDailyLevelCnt(slot1)
+end
 
-	slot7 = slot0.dailyCounts[slot1] or 0
+function slot0.UpdateDailyLevelCnt(slot0, slot1)
+	slot5 = slot0.dailyCounts[slot1] or 0
 
-	if slot2.limit_time == 0 then
-		setText(findTF(slot3, "count"), "N/A")
+	if pg.expedition_daily_template[slot1].limit_time == 0 then
+		setText(findTF(slot0.dailyLevelTFs[slot1], "count"), "N/A")
 	else
-		setText(slot6, string.format("%d/%d", slot2.limit_time - slot7, slot2.limit_time))
+		setText(slot4, string.format("%d/%d", slot2.limit_time - slot5, slot2.limit_time))
 	end
 
-	setActive(slot6, slot2.limit_time > 0)
+	setActive(slot4, slot2.limit_time > 0)
 end
 
 function slot0.openDailyDesc(slot0, slot1)
@@ -220,9 +229,7 @@ function slot0.openDailyDesc(slot0, slot1)
 	slot0:displayStageList(slot1)
 end
 
-function slot0.displayStageList(slot0, slot1)
-	slot0.dailyLevelId = slot1
-	slot0.contextData.dailyLevelId = slot0.dailyLevelId
+function slot0.UpdateDailyLevelCntForDescPanel(slot0, slot1)
 	slot3 = slot0.dailyCounts[slot1] or 0
 
 	if pg.expedition_daily_template[slot1].limit_time == 0 then
@@ -230,14 +237,20 @@ function slot0.displayStageList(slot0, slot1)
 	else
 		setText(slot0.descChallengeText, string.format("%d/%d", slot2.limit_time - slot3, slot2.limit_time))
 	end
+end
 
-	setActive(slot0.challengeQuotaDaily, slot2.limit_type == 1)
+function slot0.displayStageList(slot0, slot1)
+	slot0.dailyLevelId = slot1
+	slot0.contextData.dailyLevelId = slot0.dailyLevelId
+
+	slot0:UpdateDailyLevelCntForDescPanel(slot1)
+	setActive(slot0.challengeQuotaDaily, pg.expedition_daily_template[slot1].limit_type == 1)
 	setActive(slot0.challengeQuotaWeekly, slot2.limit_type == 2)
 	removeAllChildren(slot0.stageContain)
 
 	slot0.stageTFs = {}
 
-	for slot8, slot9 in ipairs(_.sort(slot2.expedition_and_lv_limit_list, function (slot0, slot1)
+	for slot7, slot8 in ipairs(_.sort(slot2.expedition_and_lv_limit_list, function (slot0, slot1)
 		slot2 = slot0[2] <= uv0.player.level and 1 or 0
 		slot3 = slot1[2] <= uv0.player.level and 1 or 0
 
@@ -255,53 +268,217 @@ function slot0.displayStageList(slot0, slot1)
 			return slot3 < slot2
 		end
 	end)) do
-		slot10 = slot9[1]
-		slot0.stageTFs[slot10] = cloneTplTo(slot0.stageTpl, slot0.stageContain)
+		slot9 = slot8[1]
+		slot0.stageTFs[slot9] = cloneTplTo(slot0.stageTpl, slot0.stageContain)
 
 		if slot1 == CHALLENGE_CARD_ID then
 			slot0:updateChallenge({
-				id = slot10,
-				level = slot9[2]
+				id = slot9,
+				level = slot8[2]
 			})
 		else
-			slot0:updateStage(slot12)
+			slot0:updateStage(slot11)
 		end
 	end
 end
 
-function slot0.updateStage(slot0, slot1)
-	slot3 = slot0.stageTFs[slot1.id]
+function slot0.updateStageTF(slot0, slot1, slot2)
+	setText(findTF(slot1, "left_panel/name"), pg.expedition_data_template[slot2.id].name)
+	setText(findTF(slot1, "left_panel/lv/Text"), "Lv." .. slot2.level)
+	setActive(slot0:findTF("mask", slot1), slot0.player.level < slot2.level)
 
-	setText(findTF(slot3, "left_panel/name"), pg.expedition_data_template[slot1.id].name)
-	setText(findTF(slot3, "left_panel/lv/Text"), "Lv." .. slot1.level)
-	setActive(slot0:findTF("mask", slot3), slot0.player.level < slot1.level)
-
-	if slot0.player.level < slot1.level then
-		setText(slot0:findTF("msg/msg_contain/Text", slot4), "Lv." .. slot1.level .. " ")
+	if slot0.player.level < slot2.level then
+		setText(slot0:findTF("msg/msg_contain/Text", slot4), "Lv." .. slot2.level .. " ")
 	end
 
-	for slot9, slot10 in ipairs(slot2.award_display) do
-		updateDrop(cloneTplTo(slot0.itemTpl, slot0:findTF("scrollView/right_panel", slot3)), {
-			type = slot10[1],
-			id = slot10[2],
-			count = slot10[3]
-		})
-	end
+	slot5 = UIItemList.New(slot0:findTF("scrollView/right_panel", slot1), slot0.itemTpl)
 
-	setImageSprite(slot3, getImageSprite(findTF(slot0.resource, "normal_bg")))
-	setActive(findTF(slot3, "score"), false)
-	onButton(slot0, slot3, function ()
-		if pg.expedition_daily_template[uv0.dailyLevelId].limit_time <= (uv0.dailyCounts[uv0.dailyLevelId] or 0) then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("dailyLevel_restCount_notEnough"))
+	slot5:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			slot3 = uv0.award_display[slot1 + 1]
 
-			return
+			updateDrop(slot2, {
+				type = slot3[1],
+				id = slot3[2],
+				count = slot3[3]
+			})
 		end
-
-		uv0:emit(DailyLevelMediator.ON_STAGE, uv1)
-	end, SFX_PANEL)
+	end)
+	slot5:align(#slot3.award_display)
+	setImageSprite(slot1, getImageSprite(findTF(slot0.resource, "normal_bg")))
+	setActive(findTF(slot1, "score"), false)
 	onButton(slot0, slot4, function ()
 		pg.TipsMgr.GetInstance():ShowTips(i18n("dailyLevel_unopened"))
 	end, SFX_PANEL)
+end
+
+function slot0.updateStage(slot0, slot1)
+	slot2 = slot0.stageTFs[slot1.id]:Find("info")
+
+	slot0:updateStageTF(slot2, slot1)
+	onButton(slot0, slot2, function ()
+		if getProxy(DailyLevelProxy):CanQuickBattle(uv0.id) then
+			uv1:OnSelectStage(uv0)
+		else
+			uv1:OnOpenPreCombat(uv0)
+		end
+	end, SFX_PANEL)
+end
+
+function slot0.OnOpenPreCombat(slot0, slot1)
+	if pg.expedition_daily_template[slot0.dailyLevelId].limit_time <= (slot0.dailyCounts[slot0.dailyLevelId] or 0) then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("dailyLevel_restCount_notEnough"))
+
+		return
+	end
+
+	slot0:emit(DailyLevelMediator.ON_STAGE, slot1)
+end
+
+function slot0.OnSelectStage(slot0, slot1)
+	onButton(slot0, slot0.selectedPanel:Find("stagetpl/info"), function ()
+		uv0:EnableOrDisable(uv1, false)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.selectedPanel, function ()
+		uv0:EnableOrDisable(uv1, false)
+	end, SFX_PANEL)
+	slot0:EnableOrDisable(slot1, true)
+end
+
+function slot0.EnableOrDisable(slot0, slot1, slot2)
+	slot3 = slot0.stageTFs[slot1.id]:Find("quickly")
+
+	if LeanTween.isTweening(go(slot0.stageContain)) or LeanTween.isTweening(go(slot0.selQuicklyTF)) then
+		return
+	end
+
+	if slot2 then
+		slot0:updateStageTF(slot0.selStageTF, slot1)
+		slot0:UpdateBattleBtn(slot1)
+		slot0:DoSelectedAnimation(slot3, -1 * slot0.stageContain:GetComponent(typeof(VerticalLayoutGroup)).padding.top - slot0.stageContain.parent:InverseTransformPoint(slot3.parent.position).y, function ()
+			uv0.selectedStage = uv1
+		end)
+	else
+		slot0:DoUnselectAnimtion(slot3, function ()
+			uv0.selectedStage = nil
+		end)
+	end
+end
+
+function slot0.DoSelectedAnimation(slot0, slot1, slot2, slot3)
+	slot4 = math.abs(slot2) / 2000
+
+	seriesAsync({
+		function (slot0)
+			uv0.stageScrollRect.enabled = false
+
+			pg.UIMgr.GetInstance():BlurPanel(uv0.selectedPanel)
+			setParent(uv0.blurPanel, pg.UIMgr.GetInstance().OverlayMain)
+
+			uv1.sizeDelta = Vector2(uv1.sizeDelta.x, 0)
+
+			setActive(uv1, true)
+
+			slot1 = uv0.stageContain.anchoredPosition
+			uv0.stageContainLposY = slot1.y
+			uv0.offsetY = uv2
+
+			LeanTween.value(go(uv0.stageContain), slot1.y, slot1.y + uv2, uv3):setOnUpdate(System.Action_float(function (slot0)
+				uv0.stageContain.anchoredPosition = Vector3(uv1.x, slot0, 0)
+				slot1 = uv0.selectedPanel:InverseTransformPoint(uv2.parent.position)
+				uv0.selStageTF.parent.localPosition = Vector3(slot1.x, slot1.y, 0)
+				uv0.selQuicklyTF.sizeDelta = Vector2(uv0.selQuicklyTF.sizeDelta.x, 0)
+
+				setActive(uv0.selectedPanel, true)
+			end)):setEase(LeanTweenType.easeInOutCirc):setOnComplete(System.Action(slot0))
+		end,
+		function (slot0)
+			slot1 = uv0:GetComponent(typeof(LayoutElement))
+
+			LeanTween.value(go(uv1.selQuicklyTF), 0, uv1.selQuicklyTFSizeDeltaY, 0.1):setOnUpdate(System.Action_float(function (slot0)
+				uv0.preferredHeight = slot0
+				uv1.selQuicklyTF.sizeDelta = Vector2(uv1.selQuicklyTF.sizeDelta.x, slot0)
+			end)):setEase(LeanTweenType.easeInOutCirc):setOnComplete(System.Action(slot0))
+		end
+	}, slot3)
+end
+
+function slot0.DoUnselectAnimtion(slot0, slot1, slot2)
+	slot3 = slot0.stageContain.anchoredPosition
+
+	seriesAsync({
+		function (slot0)
+			pg.UIMgr.GetInstance():UnblurPanel(uv0.selectedPanel, uv0._tf)
+			setParent(uv0.blurPanel, uv0._tf)
+			setActive(uv0.selectedPanel, false)
+
+			slot1 = uv1:GetComponent(typeof(LayoutElement))
+
+			LeanTween.value(go(uv0.selQuicklyTF), uv0.selQuicklyTFSizeDeltaY, 0, 0.1):setOnUpdate(System.Action_float(function (slot0)
+				uv0.preferredHeight = slot0
+				uv1.selQuicklyTF.sizeDelta = Vector2(uv1.selQuicklyTF.sizeDelta.x, slot0)
+			end)):setEase(LeanTweenType.easeInOutCirc):setOnComplete(System.Action(slot0))
+		end,
+		function (slot0)
+			slot1 = uv0.y - uv1.offsetY
+			slot2 = slot1 / 2000
+
+			LeanTween.value(go(uv1.stageContain), uv0.y, slot1, 0.15):setOnUpdate(System.Action_float(function (slot0)
+				uv0.stageContain.anchoredPosition = Vector3(uv1.x, slot0, 0)
+			end)):setDelay(0.1):setEase(LeanTweenType.easeInOutCirc):setOnComplete(System.Action(slot0))
+		end
+	}, function ()
+		uv0.stageScrollRect.enabled = true
+
+		uv1()
+	end)
+end
+
+function slot0.UpdateBattleBtn(slot0, slot1)
+	slot3 = slot0.selectedPanel:Find("stagetpl/info").parent:Find("quickly/bg")
+	slot7 = slot3:Find("challenge")
+
+	onButton(slot0, slot7, function ()
+		uv0:OnOpenPreCombat(uv1)
+	end, SFX_PANEL)
+	setText(slot7:Find("Text"), i18n("daily_level_quick_battle_label2"))
+
+	slot8 = slot3:Find("mult")
+
+	onButton(slot0, slot8, function ()
+		uv0:OnQuickBattle(uv1, uv2)
+	end, SFX_PANEL)
+	setText(slot8:Find("label"), i18n("daily_level_quick_battle_label1", "   ", COLOR_WHITE))
+	setText(slot8:Find("Text"), "<color=" .. COLOR_GREEN .. ">" .. math.max(1, pg.expedition_daily_template[slot0.dailyLevelId].limit_time - (slot0.dailyCounts[slot0.dailyLevelId] or 0)) .. "</color>")
+
+	slot9 = slot3:Find("once")
+
+	onButton(slot0, slot9, function ()
+		uv0:OnQuickBattle(uv1, 1)
+	end, SFX_PANEL)
+	setText(slot9:Find("label"), i18n("daily_level_quick_battle_label1", "   ", COLOR_WHITE))
+	setText(slot9:Find("Text"), 1)
+end
+
+function slot0.OnQuickBattle(slot0, slot1, slot2)
+	if slot2 <= 0 then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("dailyLevel_restCount_notEnough"))
+
+		return
+	end
+
+	if PlayerPrefs.GetInt("daily_level_quick_battle_tip", 0) == 0 then
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("dailyLevel_quickfinish"),
+			onYes = function ()
+				uv0:emit(DailyLevelMediator.ON_QUICK_BATTLE, uv0.dailyLevelId, uv1.id, uv2)
+			end
+		})
+		PlayerPrefs.SetInt("daily_level_quick_battle_tip", 1)
+		PlayerPrefs.Save()
+	else
+		slot0:emit(DailyLevelMediator.ON_QUICK_BATTLE, slot0.dailyLevelId, slot1.id, slot2)
+	end
 end
 
 function slot0.enableDescMode(slot0, slot1, slot2)
@@ -353,6 +530,10 @@ function slot0.enableDescMode(slot0, slot1, slot2)
 			uv0(uv1.descMain, 0, uv2)
 		end)
 	else
+		if slot0.selectedStage then
+			slot0:EnableOrDisable(slot0.selectedStage, false)
+		end
+
 		slot5()
 		slot4()
 		slot3(slot0.listPanel, 0)
@@ -398,6 +579,11 @@ function slot0.clearTween(slot0)
 end
 
 function slot0.willExit(slot0)
+	if slot0.selectedStage then
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.selectedPanel, slot0._tf)
+		setParent(slot0.blurPanel, slot0._tf)
+	end
+
 	slot0:clearTween()
 
 	if slot0.checkAniTimer then

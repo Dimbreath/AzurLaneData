@@ -20,7 +20,11 @@ function slot0.register(slot0)
 			end
 
 			if not slot6 then
-				table.insert(uv0.data, ServerNotice.New(slot5))
+				if #slot0.notice_list == 1 then
+					table.insert(uv0.data, 1, ServerNotice.New(slot5))
+				else
+					table.insert(uv0.data, ServerNotice.New(slot5))
+				end
 			end
 		end
 

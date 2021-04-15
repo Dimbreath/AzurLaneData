@@ -160,7 +160,8 @@ function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.BEGIN_STAGE_DONE,
 		GAME.WORLD_BOSS_START_BATTLE_FIALED,
-		PlayerProxy.UPDATED
+		PlayerProxy.UPDATED,
+		GAME.END_GUIDE
 	}
 end
 
@@ -171,6 +172,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:emit(BaseUI.ON_CLOSE)
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:SetPlayerInfo(getProxy(PlayerProxy):getData())
+	elseif slot2 == GAME.END_GUIDE then
+		slot0.viewComponent:TryPlayGuide()
 	end
 end
 

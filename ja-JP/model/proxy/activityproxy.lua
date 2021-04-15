@@ -392,6 +392,10 @@ function slot0.addVitemById(slot0, slot1, slot2)
 	end
 
 	slot0:updateActivity(slot3)
+
+	if pg.item_data_statistics[slot1].link_id ~= 0 and slot0:getActivityById(slot5) and not slot6:isEnd() then
+		PlayerResChangeCommand.UpdateActivity(slot6, slot2)
+	end
 end
 
 function slot0.monitorTaskList(slot0, slot1)

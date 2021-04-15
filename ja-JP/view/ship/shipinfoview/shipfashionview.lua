@@ -186,7 +186,7 @@ function slot0.UpdateFashionDetail(slot0, slot1)
 	end
 
 	setText(slot2.name, HXSet.hxLan(slot1.name))
-	setText(slot2.descTxt, HXSet.hxLan(slot1.desc))
+	setText(slot2.descTxt, SwitchSpecialChar(HXSet.hxLan(slot1.desc), true))
 
 	if #slot2.descTxt:GetComponent(typeof(Text)).text > 50 then
 		slot3.alignment = TextAnchor.MiddleLeft
