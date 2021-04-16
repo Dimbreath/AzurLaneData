@@ -6511,7 +6511,7 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		tip = "<size=28>Threat Level Evaluation:<color=#92fc63>【$1】</color>\nDamage reduction received when sortieing: <color=#92fc63>$2%</color></size> "
 	},
 	level_diffcult_chapter_state_safety = {
-		tip = "<size=24>After reaching 100% completion on this map, you may directly attack the <color=#92fc63>enemy flagships</color>. directly.</size>"
+		tip = "<size=24>After reaching 100% completion on this map, you may directly attack the <color=#92fc63>enemy flagships</color> directly.</size>"
 	},
 	level_chapter_state_high_risk = {
 		tip = "<color=#EE2C00>【Threat: Lethal】</color>"
@@ -8449,7 +8449,7 @@ Once the mission is completed, all players who participated will be rewarded wit
 				info = [[
 You may set this map to <color=#92fc63>Clearing Mode</color> on the operation selection screen after reaching 100% completion..
 
-Enabling Clearing Mode affects a stage in the following ways:：
+Enabling Clearing Mode affects a stage in the following ways: 
 
 1 On Normal and Hard Mode stages, enemy escort fleets <color=#92fc63>will not appear</color>.
 2 On Event stages, some changes will be made to the configuration of enemy fleets.

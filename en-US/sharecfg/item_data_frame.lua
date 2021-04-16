@@ -101,7 +101,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 302,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>Red blood and cold iron temper our indomitable will.</color>\nAvailable from achievements in The \"Scherzo of Iron and Blood\" event!",
+		desc = "<color=#ffffff>\"Red blood and cold iron temper our indomitable will.\"</color>\nObtained from the \"Scherzo of Iron and Blood\" event.",
 		scene = {}
 	},
 	[303] = {
@@ -109,7 +109,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 303,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>\"For our azure freedom! God bless the Eagle Union!\"</color>\nAvailable during the \"Ashen Simulacrum\" event.",
+		desc = "<color=#ffffff>\"For our azure freedom! God bless the Eagle Union!\"</color>\nObtained from the \"Ashen Simulacrum\" event.",
 		scene = {}
 	},
 	[304] = {
@@ -117,7 +117,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 304,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>\"Display the glory and dignity of the Sardegna Empire to the whole world!\"</color>\nObtained in a subsequent event.",
+		desc = "<color=#ffffff>\"Display the glory and dignity of the Sardegna Empire to the whole world!\"</color>\nObtained from the \"Empyreal Tragicomedy\" event.",
 		scene = {}
 	},
 	[305] = {
@@ -125,7 +125,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 305,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>\"With this offering, we pray for a bright future for the Sakura Empire.\"</color>\nAvailable during the \"Swirling Cherry Blossoms\" event. ",
+		desc = "<color=#ffffff>\"With this offering, we pray for a bright future for the Sakura Empire.\"</color>\nObtained from the \"Swirling Cherry Blossoms\" event. ",
 		scene = {}
 	},
 	[306] = {
@@ -133,7 +133,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 306,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>\"Unite, comrades! The world is ours to change!\"</color>\n――Can be obtained during the \"Northern Overture\" event. ",
+		desc = "<color=#ffffff>\"Unite, comrades! The world is ours to change!\"</color>\nObtained from the \"Northern Overture\" event. ",
 		scene = {}
 	},
 	[307] = {
@@ -141,7 +141,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 307,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>\"O, fearless thunderbolts of liberty! Guide us through the darkness!\"</color>\n――Can be obtained during the \"Microlayer Medley\" event. ",
+		desc = "<color=#ffffff>\"O, fearless thunderbolts of liberty! Guide us through the darkness!\"</color> \nObtained from the \"Microlayer Medley\" event. ",
 		scene = {}
 	},
 	[308] = {
@@ -149,7 +149,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 308,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>May numerous hymns cross the seas to reach the skies... Vive la Iris！ </color>\n―― Earned in the \"Skybound Oratorio\" Event.",
+		desc = "<color=#ffffff>\"May numerous hymns cross the seas to reach the skies... Vive la Iris!\"</color>\nObtained from the \"Skybound Oratorio\" event.",
 		scene = {}
 	},
 	[309] = {
@@ -157,7 +157,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 309,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>For the glory of Her Majesty and the Royal Navy!</color>\n―Obtained from \"Aurora Noctis\"",
+		desc = "<color=#ffffff>\"For the glory of Her Majesty and the Royal Navy!\"</color>\nObtained from the \"Aurora Noctis\" event.",
 		scene = {}
 	},
 	[310] = {
@@ -165,7 +165,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 310,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>A special portrait frame designed with Laffey's motifs.</color>\nObtained by participating in the 2nd Anniversary Event.",
+		desc = "<color=#ffffff>A special portrait frame designed with Laffey's motifs.</color>\nObtained from the 2nd Anniversary event.",
 		scene = {}
 	},
 	[311] = {
@@ -173,7 +173,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 311,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>May the light of hope shine forevermore, whether in reality or in a dream.</color>\nObtained from \"Dreamwaker's Butterfly.\" ",
+		desc = "<color=#ffffff>\"May the light of hope shine forevermore, whether in reality or in a dream.\"</color>\nObtained from \"Dreamwaker's Butterfly\" event.",
 		scene = {}
 	},
 	[312] = {
@@ -181,7 +181,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 312,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>\"May my red blood flow into the frigid mold of war.\" Awarded to commanders who participated in the \"Inverted Orthant\" event.</color> ",
+		desc = "<color=#ffffff>\"May my red blood flow into the frigid mold of war.\"</color>\nObtained from the \"Inverted Orthant\" event.",
 		scene = {}
 	},
 	[313] = {
@@ -189,7 +189,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 313,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>The Sirens' secrets shall dance in the palm of our hand!</color> ",
+		desc = "<color=#ffffff>\"The Sirens' secrets shall dance in the palm of our hand!\"</color> \nObtained from the \"Khorovod of Dawn's Rime\" event.",
 		scene = {}
 	},
 	[314] = {
