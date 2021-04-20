@@ -3,7 +3,7 @@ HXSet = {
 }
 
 if PLATFORM_CODE == PLATFORM_CH then
-	slot0.codeMode = false
+	slot0.codeMode = true
 	slot0.antiSkinMode = true
 else
 	slot0.codeMode = true
