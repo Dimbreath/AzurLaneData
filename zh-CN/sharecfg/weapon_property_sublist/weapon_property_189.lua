@@ -2,166 +2,6 @@ pg = pg or {}
 pg.weapon_property_189 = {}
 
 function ()
-	uv0.weapon_property_189[81410] = {
-		reload_max = 1350,
-		damage = 72,
-		base = 81400,
-		id = 81410,
-		bullet_ID = {
-			17410
-		}
-	}
-	uv0.weapon_property_189[81411] = {
-		reload_max = 1350,
-		damage = 72,
-		base = 81400,
-		id = 81411,
-		bullet_ID = {
-			17410
-		}
-	}
-	uv0.weapon_property_189[82000] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "海喷火T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 30,
-		charge_param = "",
-		damage = 18,
-		corrected = 100,
-		min_range = 0,
-		id = 82000,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1934,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			27000
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_189[82001] = {
-		reload_max = 1911,
-		damage = 20,
-		base = 82000,
-		id = 82001,
-		bullet_ID = {
-			27001
-		}
-	}
-	uv0.weapon_property_189[82002] = {
-		reload_max = 1888,
-		damage = 22,
-		base = 82000,
-		id = 82002,
-		bullet_ID = {
-			27002
-		}
-	}
-	uv0.weapon_property_189[82003] = {
-		reload_max = 1865,
-		damage = 24,
-		base = 82000,
-		id = 82003,
-		bullet_ID = {
-			27003
-		}
-	}
-	uv0.weapon_property_189[82020] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "海喷火T2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 30,
-		charge_param = "",
-		damage = 20,
-		corrected = 100,
-		min_range = 0,
-		id = 82020,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1902,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			27000
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_189[82021] = {
-		reload_max = 1879,
-		damage = 22,
-		base = 82020,
-		id = 82021,
-		bullet_ID = {
-			27001
-		}
-	}
-	uv0.weapon_property_189[82022] = {
-		reload_max = 1855,
-		damage = 24,
-		base = 82020,
-		id = 82022,
-		bullet_ID = {
-			27002
-		}
-	}
-	uv0.weapon_property_189[82023] = {
-		reload_max = 1832,
-		damage = 26,
-		base = 82020,
-		id = 82023,
-		bullet_ID = {
-			27003
-		}
-	}
 	uv0.weapon_property_189[82024] = {
 		reload_max = 1809,
 		damage = 29,
@@ -732,6 +572,106 @@ function ()
 		id = 82142,
 		bullet_ID = {
 			27102
+		}
+	}
+	uv0.weapon_property_189[82143] = {
+		reload_max = 1721,
+		damage = 47,
+		base = 82140,
+		id = 82143,
+		bullet_ID = {
+			27103
+		}
+	}
+	uv0.weapon_property_189[82144] = {
+		reload_max = 1693,
+		damage = 51,
+		base = 82140,
+		id = 82144,
+		bullet_ID = {
+			27104
+		}
+	}
+	uv0.weapon_property_189[82145] = {
+		reload_max = 1665,
+		damage = 57,
+		base = 82140,
+		id = 82145,
+		bullet_ID = {
+			27105
+		}
+	}
+	uv0.weapon_property_189[82146] = {
+		reload_max = 1637,
+		damage = 61,
+		base = 82140,
+		id = 82146,
+		bullet_ID = {
+			27106
+		}
+	}
+	uv0.weapon_property_189[82147] = {
+		reload_max = 1609,
+		damage = 67,
+		base = 82140,
+		id = 82147,
+		bullet_ID = {
+			27107
+		}
+	}
+	uv0.weapon_property_189[82148] = {
+		reload_max = 1581,
+		damage = 71,
+		base = 82140,
+		id = 82148,
+		bullet_ID = {
+			27108
+		}
+	}
+	uv0.weapon_property_189[82149] = {
+		reload_max = 1553,
+		damage = 75,
+		base = 82140,
+		id = 82149,
+		bullet_ID = {
+			27109
+		}
+	}
+	uv0.weapon_property_189[82150] = {
+		reload_max = 1525,
+		damage = 82,
+		base = 82140,
+		id = 82150,
+		bullet_ID = {
+			27110
+		}
+	}
+	uv0.weapon_property_189[82151] = {
+		reload_max = 1525,
+		damage = 82,
+		base = 82140,
+		id = 82151,
+		bullet_ID = {
+			27110
+		}
+	}
+	uv0.weapon_property_189[82152] = {
+		reload_max = 1525,
+		damage = 82,
+		base = 82140,
+		id = 82152,
+		bullet_ID = {
+			27110
+		}
+	}
+	uv0.weapon_property_189[82153] = {
+		reload_max = 1525,
+		damage = 82,
+		base = 82140,
+		id = 82153,
+		precast_param = " ",
+		bullet_ID = {
+			27110
 		}
 	}
 end()

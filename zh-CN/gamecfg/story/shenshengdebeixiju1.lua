@@ -272,11 +272,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_story_italy",
-			nameColor = "#ffde38",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "这里可是陆间海，怎么会有塞壬舰队出没…确认清楚了吗？",
 			typewriter = {
 				speed = 0.05,
@@ -320,6 +321,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "竟然让塞壬进入到这么深入的位置…铁血的家伙究竟在做什么？！",
 			typewriter = {
 				speed = 0.05,
@@ -337,6 +339,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "明明已经再三强调过了，一切合作的前提必须是保证陆间海的纯净",
 			typewriter = {
 				speed = 0.05,
@@ -354,6 +357,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "之前以掩护维希教廷为由引来塞壬的舰队已是越界，如今竟然还敢…！",
 			typewriter = {
 				speed = 0.05,
@@ -387,6 +391,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "是你啊，我的妹妹",
 			typewriter = {
 				speed = 0.05,
@@ -522,6 +527,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "可是…",
 			typewriter = {
 				speed = 0.05,
@@ -555,6 +561,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "……",
 			typewriter = {
 				speed = 0.05,

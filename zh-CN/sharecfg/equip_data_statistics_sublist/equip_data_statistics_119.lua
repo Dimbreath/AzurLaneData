@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_119 = {
+	[16160] = {
+		name = "四联装20mm厄利孔高射炮Mk15",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "16160",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "25/轮",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 16160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			16160
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
+	},
+	[16161] = {
+		id = 16161,
+		damage = "27/轮",
+		base = 16160,
+		weapon_id = {
+			16161
+		}
+	},
+	[16162] = {
+		id = 16162,
+		damage = "29/轮",
+		base = 16160,
+		weapon_id = {
+			16162
+		}
+	},
 	[16163] = {
 		id = 16163,
 		damage = "31/轮",
@@ -219,30 +297,6 @@ pg.equip_data_statistics_119 = {
 			"USS",
 			"ST",
 			"AA"
-		}
-	},
-	[16221] = {
-		id = 16221,
-		damage = "29/轮",
-		base = 16220,
-		weapon_id = {
-			16221
-		}
-	},
-	[16222] = {
-		id = 16222,
-		damage = "33/轮",
-		base = 16220,
-		weapon_id = {
-			16222
-		}
-	},
-	[16223] = {
-		id = 16223,
-		damage = "37/轮",
-		base = 16220,
-		weapon_id = {
-			16223
 		}
 	}
 }

@@ -2,131 +2,6 @@ pg = pg or {}
 pg.weapon_property_179 = {}
 
 function ()
-	uv0.weapon_property_179[69928] = {
-		name = "信浓试飞搭载试制型紫电改二 Lv8",
-		damage = 216,
-		base = 69921,
-		id = 69928,
-		bullet_ID = {
-			69928
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_179[69929] = {
-		name = "信浓试飞搭载试制型紫电改二 Lv9",
-		damage = 238,
-		base = 69921,
-		id = 69929,
-		bullet_ID = {
-			69929
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_179[69930] = {
-		name = "信浓试飞搭载试制型紫电改二 Lv10",
-		damage = 260,
-		base = 69921,
-		id = 69930,
-		bullet_ID = {
-			69930
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_179[69931] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "信浓试飞搭载流星 Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 90,
-		charge_param = "",
-		damage = 68,
-		corrected = 100,
-		min_range = 0,
-		id = 69931,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1890,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			69931
-		},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_179[69932] = {
-		name = "信浓试飞搭载流星 Lv2",
-		damage = 86,
-		base = 69931,
-		id = 69932,
-		bullet_ID = {
-			69932
-		}
-	}
-	uv0.weapon_property_179[69933] = {
-		name = "信浓试飞搭载流星 Lv3",
-		damage = 106,
-		base = 69931,
-		id = 69933,
-		bullet_ID = {
-			69933
-		}
-	}
-	uv0.weapon_property_179[69934] = {
-		name = "信浓试飞搭载流星 Lv4",
-		damage = 124,
-		base = 69931,
-		id = 69934,
-		bullet_ID = {
-			69934
-		}
-	}
-	uv0.weapon_property_179[69935] = {
-		name = "信浓试飞搭载流星 Lv5",
-		damage = 144,
-		base = 69931,
-		id = 69935,
-		bullet_ID = {
-			69935
-		}
-	}
-	uv0.weapon_property_179[69936] = {
-		name = "信浓试飞搭载流星 Lv6",
-		damage = 164,
-		base = 69931,
-		id = 69936,
-		bullet_ID = {
-			69936
-		}
-	}
 	uv0.weapon_property_179[69937] = {
 		name = "信浓试飞搭载流星 Lv7",
 		damage = 182,
@@ -699,5 +574,246 @@ function ()
 		barrage_ID = {
 			12009
 		}
+	}
+	uv0.weapon_property_179[69988] = {
+		name = "双千技能舰载机-弱化起飞1次-强化起飞2次-Lv8",
+		damage = 216,
+		base = 69981,
+		id = 69988,
+		bullet_ID = {
+			69978
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_179[69989] = {
+		name = "双千技能舰载机-弱化起飞1次-强化起飞2次-Lv9",
+		damage = 238,
+		base = 69981,
+		id = 69989,
+		bullet_ID = {
+			69979
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_179[69990] = {
+		name = "双千技能舰载机-弱化起飞1次-强化起飞2次-Lv10",
+		damage = 260,
+		base = 69981,
+		id = 69990,
+		bullet_ID = {
+			69980
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_179[70011] = {
+		action_index = "attack",
+		range = 50,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "全弹发射-法拉格特级I",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 6,
+		corrected = 125,
+		min_range = 0,
+		id = 70011,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1102
+		},
+		barrage_ID = {
+			70011
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_179[70012] = {
+		name = "全弹发射-法拉格特级II",
+		damage = 10,
+		base = 70011,
+		id = 70012,
+		barrage_ID = {
+			70012
+		}
+	}
+	uv0.weapon_property_179[70021] = {
+		action_index = "attack",
+		range = 50,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "全弹发射-马汉级I",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 6,
+		corrected = 125,
+		min_range = 0,
+		id = 70021,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1102
+		},
+		barrage_ID = {
+			19001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_179[70022] = {
+		name = "全弹发射-马汉级II",
+		damage = 10,
+		base = 70021,
+		id = 70022,
+		barrage_ID = {
+			19002
+		}
+	}
+	uv0.weapon_property_179[70031] = {
+		action_index = "attack",
+		range = 50,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "全弹发射-格里德利级I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 6,
+		corrected = 125,
+		min_range = 0,
+		id = 70031,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1102
+		},
+		barrage_ID = {
+			70013
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_179[70032] = {
+		name = "全弹发射-格里德利级II",
+		damage = 10,
+		base = 70031,
+		id = 70032,
+		barrage_ID = {
+			70014
+		}
+	}
+	uv0.weapon_property_179[70041] = {
+		action_index = "attack",
+		range = 50,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "全弹发射-弗莱彻级I",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 6,
+		corrected = 125,
+		min_range = 0,
+		id = 70041,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1102,
+			1102
+		},
+		barrage_ID = {
+			70015,
+			70016
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
 end()

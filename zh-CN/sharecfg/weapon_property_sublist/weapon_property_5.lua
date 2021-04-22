@@ -630,4 +630,10 @@ function ()
 		damage = 136,
 		base = 5240
 	}
+	uv0.weapon_property_5[5249] = {
+		id = 5249,
+		reload_max = 4075,
+		damage = 146,
+		base = 5240
+	}
 end()

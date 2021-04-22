@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_311 = {
+	[46145] = {
+		id = 46145,
+		damage = "22/轮",
+		base = 46140,
+		weapon_id = {
+			46145
+		}
+	},
+	[46146] = {
+		id = 46146,
+		damage = "24/轮",
+		base = 46140,
+		weapon_id = {
+			46146
+		}
+	},
+	[46147] = {
+		id = 46147,
+		damage = "24/轮",
+		base = 46140,
+		weapon_id = {
+			46147
+		}
+	},
 	[46200] = {
 		name = "双联37mm手拉机枪",
 		speciality = "防空",
@@ -272,30 +296,6 @@ pg.equip_data_statistics_311 = {
 		base = 46240,
 		weapon_id = {
 			46242
-		}
-	},
-	[46243] = {
-		id = 46243,
-		damage = "29/轮",
-		base = 46240,
-		weapon_id = {
-			46243
-		}
-	},
-	[46244] = {
-		id = 46244,
-		damage = "32/轮",
-		base = 46240,
-		weapon_id = {
-			46244
-		}
-	},
-	[46245] = {
-		id = 46245,
-		damage = "35/轮",
-		base = 46240,
-		weapon_id = {
-			46245
 		}
 	}
 }

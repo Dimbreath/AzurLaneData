@@ -1,5 +1,56 @@
 pg = pg or {}
 pg.equip_data_statistics_324 = {
+	[49065] = {
+		id = 49065,
+		base = 49060,
+		ammo_info = {
+			{
+				6,
+				59765
+			},
+			{
+				5,
+				52245
+			}
+		},
+		weapon_id = {
+			49065
+		}
+	},
+	[49066] = {
+		id = 49066,
+		base = 49060,
+		ammo_info = {
+			{
+				6,
+				59766
+			},
+			{
+				5,
+				52246
+			}
+		},
+		weapon_id = {
+			49066
+		}
+	},
+	[49067] = {
+		id = 49067,
+		base = 49060,
+		ammo_info = {
+			{
+				6,
+				59767
+			},
+			{
+				5,
+				52247
+			}
+		},
+		weapon_id = {
+			49067
+		}
+	},
 	[54010] = {
 		name = "轻航专用空中支援技能-轰炸Lv1",
 		tech = 1,
@@ -190,50 +241,6 @@ pg.equip_data_statistics_324 = {
 		base = 60021,
 		weapon_id = {
 			60022
-		}
-	},
-	[60023] = {
-		id = 60023,
-		name = "航空攻击展示-兰利III",
-		base = 60021,
-		weapon_id = {
-			60023
-		}
-	},
-	[60031] = {
-		name = "航空攻击展示-列克星敦I",
-		tech = 1,
-		speciality = "无",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航母空袭展示用",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60031,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60031
-		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60032] = {
-		id = 60032,
-		name = "航空攻击展示-列克星敦II",
-		base = 60031,
-		weapon_id = {
-			60032
 		}
 	}
 }

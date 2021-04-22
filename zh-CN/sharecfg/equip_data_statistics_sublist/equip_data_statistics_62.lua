@@ -1,5 +1,20 @@
 pg = pg or {}
 pg.equip_data_statistics_62 = {
+	[3527] = {
+		id = 3527,
+		value_1 = "460",
+		base = 3520
+	},
+	[3528] = {
+		id = 3528,
+		value_1 = "490",
+		base = 3520
+	},
+	[3529] = {
+		id = 3529,
+		value_1 = "520",
+		base = 3520
+	},
 	[3530] = {
 		id = 3530,
 		value_1 = "550",
@@ -103,69 +118,5 @@ pg.equip_data_statistics_62 = {
 		anti_siren = 100,
 		value_1 = "580",
 		base = 3540
-	},
-	[4000] = {
-		name = "基础深弹投射器",
-		speciality = "反潜",
-		type = 14,
-		tech = 1,
-		rarity = 1,
-		descrip = "说明未填写",
-		value_2 = 0,
-		icon = "4000",
-		damage = "16 x 3",
-		nationality = 2,
-		ammo = 8,
-		value_3 = 0,
-		id = 4000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				7,
-				1811
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			4000
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2
-		},
-		part_sub = {
-			1,
-			2
-		},
-		equip_parameters = {},
-		label = {
-			"DC"
-		}
-	},
-	[4001] = {
-		id = 4001,
-		damage = "17 x 3",
-		base = 4000,
-		weapon_id = {
-			4001
-		}
-	},
-	[4002] = {
-		id = 4002,
-		damage = "18 x 3",
-		base = 4000,
-		weapon_id = {
-			4002
-		}
 	}
 }

@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_172 = {
+	[25006] = {
+		id = 25006,
+		damage = "128 x 3",
+		base = 25000,
+		weapon_id = {
+			25006
+		}
+	},
+	[25007] = {
+		id = 25007,
+		damage = "128 x 3",
+		base = 25000,
+		weapon_id = {
+			25007
+		}
+	},
+	[25020] = {
+		name = "四联装533mm鱼雷Mark IX",
+		speciality = "雷击",
+		type = 5,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "25020",
+		attribute_2 = "torpedo",
+		rarity = 4,
+		damage = "62 x 4",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 25020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1828
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1828
+			},
+			{
+				4,
+				1403
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			25020
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"TP",
+			"QUAD"
+		}
+	},
 	[25021] = {
 		id = 25021,
 		damage = "73 x 4",
@@ -165,30 +243,6 @@ pg.equip_data_statistics_172 = {
 		base = 25040,
 		weapon_id = {
 			25042
-		}
-	},
-	[25043] = {
-		id = 25043,
-		damage = "95 x 5",
-		base = 25040,
-		weapon_id = {
-			25043
-		}
-	},
-	[25044] = {
-		id = 25044,
-		damage = "106 x 5",
-		base = 25040,
-		weapon_id = {
-			25044
-		}
-	},
-	[25045] = {
-		id = 25045,
-		damage = "117 x 5",
-		base = 25040,
-		weapon_id = {
-			25045
 		}
 	}
 }

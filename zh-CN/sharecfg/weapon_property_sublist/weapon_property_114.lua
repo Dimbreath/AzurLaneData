@@ -2,74 +2,6 @@ pg = pg or {}
 pg.weapon_property_114 = {}
 
 function ()
-	uv0.weapon_property_114[65069] = {
-		name = "普林斯顿鱼雷机弹幕LV9",
-		damage = 191,
-		base = 65061,
-		id = 65069,
-		bullet_ID = {
-			65069
-		}
-	}
-	uv0.weapon_property_114[65070] = {
-		name = "普林斯顿鱼雷机弹幕LV10",
-		damage = 207,
-		base = 65061,
-		id = 65070,
-		bullet_ID = {
-			65070
-		}
-	}
-	uv0.weapon_property_114[65071] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "普林斯顿鱼雷LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 24,
-		charge_param = "",
-		damage = 58,
-		corrected = 100,
-		min_range = 0,
-		id = 65071,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2111
-		},
-		barrage_ID = {
-			80536
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_114[65072] = {
-		id = 65072,
-		name = "普林斯顿鱼雷LV2",
-		damage = 74,
-		base = 65071
-	}
 	uv0.weapon_property_114[65073] = {
 		id = 65073,
 		name = "普林斯顿鱼雷LV3",
@@ -745,5 +677,83 @@ function ()
 		barrage_ID = {
 			12009
 		}
+	}
+	uv0.weapon_property_114[65129] = {
+		name = "恶毒μ神圣天使轰炸机Lv9",
+		damage = 202,
+		base = 65121,
+		id = 65129,
+		bullet_ID = {
+			65129
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_114[65130] = {
+		name = "恶毒μ神圣天使轰炸机Lv10",
+		damage = 220,
+		base = 65121,
+		id = 65130,
+		bullet_ID = {
+			65130
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_114[65131] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 22,
+		shakescreen = 0,
+		name = "2 x 500lb 炸弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 22,
+		charge_param = "",
+		damage = 48,
+		corrected = 100,
+		min_range = 0,
+		id = 65131,
+		attack_attribute_ratio = 60,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19199
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_114[65132] = {
+		id = 65132,
+		damage = 68,
+		base = 65131
+	}
+	uv0.weapon_property_114[65133] = {
+		id = 65133,
+		damage = 86,
+		base = 65131
 	}
 end()

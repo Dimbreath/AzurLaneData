@@ -1,288 +1,93 @@
 pg = pg or {}
 pg.aircraft_template_225 = {
-	[83000] = {
-		name = "96式舰战",
-		max_hp = 27,
-		accuracy = 23,
-		model_ID = "96jiangong",
-		ACC_growth = 0,
-		crash_DMG = 40,
-		dodge = 0.357,
-		attack_power = 2,
-		dodge_limit = 7,
-		type = 1,
-		AP_growth = 2000,
-		icon = "96jiangong",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1021,
-		speed = 48,
-		id = 83000,
-		scale = 1,
+	[82324] = {
+		id = 82324,
+		base = 82320,
+		max_hp = 79,
+		hp_growth = 3045,
 		weapon_ID = {
-			50000
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.72,
-				-0.15,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
+			50664
 		}
 	},
-	[83001] = {
-		id = 83001,
-		base = 83000,
-		max_hp = 31,
-		hp_growth = 1175,
+	[82325] = {
+		id = 82325,
+		base = 82320,
+		max_hp = 87,
+		hp_growth = 3330,
 		weapon_ID = {
-			50001
+			50665
 		}
 	},
-	[83002] = {
-		id = 83002,
-		base = 83000,
-		max_hp = 35,
-		hp_growth = 1328,
+	[82326] = {
+		id = 82326,
+		base = 82320,
+		max_hp = 94,
+		hp_growth = 3616,
 		weapon_ID = {
-			50002
+			50666
 		}
 	},
-	[83003] = {
-		id = 83003,
-		base = 83000,
-		max_hp = 39,
-		hp_growth = 1481,
+	[82327] = {
+		id = 82327,
+		base = 82320,
+		max_hp = 101,
+		hp_growth = 3901,
 		weapon_ID = {
-			50003
+			50667
 		}
 	},
-	[83020] = {
-		name = "96式舰战",
-		max_hp = 30,
-		accuracy = 23,
-		model_ID = "96jiangong",
-		ACC_growth = 0,
-		crash_DMG = 40,
-		dodge = 0.345,
-		attack_power = 2,
-		dodge_limit = 7.5,
-		type = 1,
-		AP_growth = 2000,
-		icon = "96jiangong",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1149,
-		speed = 48,
-		id = 83020,
-		scale = 1,
+	[82328] = {
+		id = 82328,
+		base = 82320,
+		max_hp = 109,
+		hp_growth = 4187,
 		weapon_ID = {
-			50020
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.72,
-				-0.15,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
+			50668
 		}
 	},
-	[83021] = {
-		id = 83021,
-		base = 83020,
-		max_hp = 34,
-		hp_growth = 1321,
+	[82329] = {
+		id = 82329,
+		base = 82320,
+		max_hp = 116,
+		hp_growth = 4472,
 		weapon_ID = {
-			50021
+			50669
 		}
 	},
-	[83022] = {
-		id = 83022,
-		base = 83020,
-		max_hp = 39,
-		hp_growth = 1494,
+	[82330] = {
+		id = 82330,
+		base = 82320,
+		max_hp = 124,
+		hp_growth = 4758,
 		weapon_ID = {
-			50022
+			50670
 		}
 	},
-	[83023] = {
-		id = 83023,
-		base = 83020,
-		max_hp = 43,
-		hp_growth = 1666,
+	[82331] = {
+		id = 82331,
+		base = 82320,
+		max_hp = 131,
+		hp_growth = 5043,
 		weapon_ID = {
-			50023
+			50671
 		}
 	},
-	[83040] = {
-		name = "96式舰战",
-		max_hp = 33,
-		accuracy = 23,
-		model_ID = "96jiangong",
-		ACC_growth = 0,
-		crash_DMG = 40,
-		dodge = 0.333,
-		attack_power = 2,
-		dodge_limit = 8,
-		type = 1,
-		AP_growth = 2000,
-		icon = "96jiangong",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1277,
-		speed = 48,
-		id = 83040,
-		scale = 1,
+	[82332] = {
+		id = 82332,
+		base = 82320,
+		max_hp = 139,
+		hp_growth = 5329,
 		weapon_ID = {
-			50040
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.72,
-				-0.15,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
+			50672
 		}
 	},
-	[83041] = {
-		id = 83041,
-		base = 83040,
-		max_hp = 38,
-		hp_growth = 1468,
+	[82333] = {
+		id = 82333,
+		base = 82320,
+		max_hp = 146,
+		hp_growth = 5614,
 		weapon_ID = {
-			50041
+			50673
 		}
 	}
 }

@@ -1,5 +1,60 @@
 pg = pg or {}
 pg.equip_data_statistics_266 = {
+	[37349] = {
+		id = 37349,
+		base = 37340,
+		ammo_info = {
+			{
+				6,
+				59549
+			},
+			{
+				5,
+				52349
+			}
+		},
+		weapon_id = {
+			37349,
+			83349
+		}
+	},
+	[37350] = {
+		id = 37350,
+		base = 37340,
+		ammo_info = {
+			{
+				6,
+				59550
+			},
+			{
+				5,
+				52350
+			}
+		},
+		weapon_id = {
+			37350,
+			83350
+		}
+	},
+	[37351] = {
+		anti_siren = 100,
+		base = 37340,
+		id = 37351,
+		ammo_info = {
+			{
+				6,
+				59551
+			},
+			{
+				5,
+				52351
+			}
+		},
+		weapon_id = {
+			37351,
+			83351
+		}
+	},
 	[37352] = {
 		anti_siren = 200,
 		base = 37340,
@@ -336,109 +391,6 @@ pg.equip_data_statistics_266 = {
 		weapon_id = {
 			37411,
 			83411
-		}
-	},
-	[37412] = {
-		anti_siren = 200,
-		base = 37400,
-		id = 37412,
-		ammo_info = {
-			{
-				6,
-				59552
-			},
-			{
-				6,
-				50872
-			},
-			{
-				5,
-				52352
-			}
-		},
-		weapon_id = {
-			37412,
-			83412
-		}
-	},
-	[37413] = {
-		anti_siren = 300,
-		base = 37400,
-		id = 37413,
-		ammo_info = {
-			{
-				6,
-				59553
-			},
-			{
-				6,
-				50873
-			},
-			{
-				5,
-				52353
-			}
-		},
-		weapon_id = {
-			37413,
-			83413
-		}
-	},
-	[37420] = {
-		name = "二式水上战斗机",
-		type = 12,
-		speciality = "空战",
-		rarity = 4,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "37420",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 37420,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50040
-			},
-			{
-				6,
-				50540
-			},
-			{
-				5,
-				52140
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			37420,
-			83420
-		},
-		skill_id = {},
-		part_main = {
-			10,
-			17
-		},
-		part_sub = {
-			10,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"SCOUT"
 		}
 	}
 }

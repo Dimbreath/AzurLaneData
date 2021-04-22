@@ -2,240 +2,12 @@ pg = pg or {}
 pg.weapon_property_91 = {}
 
 function ()
-	uv0.weapon_property_91[51551] = {
-		id = 51551,
-		damage = 250,
-		base = 51540
+	uv0.weapon_property_91[52113] = {
+		id = 52113,
+		damage = 170,
+		base = 52100
 	}
-	uv0.weapon_property_91[51552] = {
-		id = 51552,
-		damage = 264,
-		base = 51540
-	}
-	uv0.weapon_property_91[51553] = {
-		id = 51553,
-		damage = 283,
-		base = 51540
-	}
-	uv0.weapon_property_91[51560] = {
-		action_index = "",
-		range = 75,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "3 x 机载鱼雷-鸢尾",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 20,
-		charge_param = "",
-		damage = 72,
-		corrected = 100,
-		min_range = 0,
-		id = 51560,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 10000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2116
-		},
-		barrage_ID = {
-			2112
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_91[51561] = {
-		id = 51561,
-		damage = 84,
-		base = 51560
-	}
-	uv0.weapon_property_91[51562] = {
-		id = 51562,
-		damage = 96,
-		base = 51560
-	}
-	uv0.weapon_property_91[51563] = {
-		id = 51563,
-		damage = 108,
-		base = 51560
-	}
-	uv0.weapon_property_91[51564] = {
-		id = 51564,
-		damage = 120,
-		base = 51560
-	}
-	uv0.weapon_property_91[51565] = {
-		id = 51565,
-		damage = 132,
-		base = 51560
-	}
-	uv0.weapon_property_91[51566] = {
-		id = 51566,
-		damage = 144,
-		base = 51560
-	}
-	uv0.weapon_property_91[51567] = {
-		id = 51567,
-		damage = 156,
-		base = 51560
-	}
-	uv0.weapon_property_91[51568] = {
-		id = 51568,
-		damage = 168,
-		base = 51560
-	}
-	uv0.weapon_property_91[51569] = {
-		id = 51569,
-		damage = 180,
-		base = 51560
-	}
-	uv0.weapon_property_91[51570] = {
-		id = 51570,
-		damage = 192,
-		base = 51560
-	}
-	uv0.weapon_property_91[51571] = {
-		id = 51571,
-		damage = 200,
-		base = 51560
-	}
-	uv0.weapon_property_91[51572] = {
-		id = 51572,
-		damage = 211,
-		base = 51560
-	}
-	uv0.weapon_property_91[51573] = {
-		id = 51573,
-		damage = 227,
-		base = 51560
-	}
-	uv0.weapon_property_91[51580] = {
-		action_index = "",
-		range = 75,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "4 x 机载鱼雷-通用",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 28,
-		charge_param = "",
-		damage = 115,
-		corrected = 100,
-		min_range = 0,
-		id = 51580,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2111
-		},
-		barrage_ID = {
-			2113
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_91[51581] = {
-		id = 51581,
-		damage = 137,
-		base = 51580
-	}
-	uv0.weapon_property_91[51582] = {
-		id = 51582,
-		damage = 160,
-		base = 51580
-	}
-	uv0.weapon_property_91[51583] = {
-		id = 51583,
-		damage = 182,
-		base = 51580
-	}
-	uv0.weapon_property_91[51584] = {
-		id = 51584,
-		damage = 205,
-		base = 51580
-	}
-	uv0.weapon_property_91[51585] = {
-		id = 51585,
-		damage = 227,
-		base = 51580
-	}
-	uv0.weapon_property_91[51586] = {
-		id = 51586,
-		damage = 250,
-		base = 51580
-	}
-	uv0.weapon_property_91[51587] = {
-		id = 51587,
-		damage = 272,
-		base = 51580
-	}
-	uv0.weapon_property_91[51588] = {
-		id = 51588,
-		damage = 295,
-		base = 51580
-	}
-	uv0.weapon_property_91[51589] = {
-		id = 51589,
-		damage = 317,
-		base = 51580
-	}
-	uv0.weapon_property_91[51590] = {
-		id = 51590,
-		damage = 340,
-		base = 51580
-	}
-	uv0.weapon_property_91[51591] = {
-		id = 51591,
-		damage = 354,
-		base = 51580
-	}
-	uv0.weapon_property_91[51592] = {
-		id = 51592,
-		damage = 374,
-		base = 51580
-	}
-	uv0.weapon_property_91[51593] = {
-		id = 51593,
-		damage = 401,
-		base = 51580
-	}
-	uv0.weapon_property_91[52000] = {
+	uv0.weapon_property_91[52120] = {
 		action_index = "",
 		range = 500,
 		type = 2,
@@ -243,16 +15,343 @@ function ()
 		recover_time = 0,
 		axis_angle = 25,
 		shakescreen = 0,
-		name = "1 x 100lb 炸弹",
+		name = "2 x 100lb 炸弹",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 25,
 		charge_param = "",
-		damage = 57,
+		damage = 63,
 		corrected = 100,
 		min_range = 0,
-		id = 52000,
+		id = 52120,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 10000,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2121
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_91[52121] = {
+		id = 52121,
+		damage = 72,
+		base = 52120
+	}
+	uv0.weapon_property_91[52122] = {
+		id = 52122,
+		damage = 81,
+		base = 52120
+	}
+	uv0.weapon_property_91[52123] = {
+		id = 52123,
+		damage = 90,
+		base = 52120
+	}
+	uv0.weapon_property_91[52124] = {
+		id = 52124,
+		damage = 99,
+		base = 52120
+	}
+	uv0.weapon_property_91[52125] = {
+		id = 52125,
+		damage = 108,
+		base = 52120
+	}
+	uv0.weapon_property_91[52126] = {
+		id = 52126,
+		damage = 117,
+		base = 52120
+	}
+	uv0.weapon_property_91[52127] = {
+		id = 52127,
+		damage = 128,
+		base = 52120
+	}
+	uv0.weapon_property_91[52128] = {
+		id = 52128,
+		damage = 138,
+		base = 52120
+	}
+	uv0.weapon_property_91[52129] = {
+		id = 52129,
+		damage = 149,
+		base = 52120
+	}
+	uv0.weapon_property_91[52130] = {
+		id = 52130,
+		damage = 159,
+		base = 52120
+	}
+	uv0.weapon_property_91[52131] = {
+		id = 52131,
+		damage = 165,
+		base = 52120
+	}
+	uv0.weapon_property_91[52132] = {
+		id = 52132,
+		damage = 175,
+		base = 52120
+	}
+	uv0.weapon_property_91[52133] = {
+		id = 52133,
+		damage = 188,
+		base = 52120
+	}
+	uv0.weapon_property_91[52140] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 25,
+		shakescreen = 0,
+		name = "2 x 100lb 炸弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 69,
+		corrected = 100,
+		min_range = 0,
+		id = 52140,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2121
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_91[52141] = {
+		id = 52141,
+		damage = 78,
+		base = 52140
+	}
+	uv0.weapon_property_91[52142] = {
+		id = 52142,
+		damage = 89,
+		base = 52140
+	}
+	uv0.weapon_property_91[52143] = {
+		id = 52143,
+		damage = 99,
+		base = 52140
+	}
+	uv0.weapon_property_91[52144] = {
+		id = 52144,
+		damage = 110,
+		base = 52140
+	}
+	uv0.weapon_property_91[52145] = {
+		id = 52145,
+		damage = 120,
+		base = 52140
+	}
+	uv0.weapon_property_91[52146] = {
+		id = 52146,
+		damage = 131,
+		base = 52140
+	}
+	uv0.weapon_property_91[52147] = {
+		id = 52147,
+		damage = 141,
+		base = 52140
+	}
+	uv0.weapon_property_91[52148] = {
+		id = 52148,
+		damage = 152,
+		base = 52140
+	}
+	uv0.weapon_property_91[52149] = {
+		id = 52149,
+		damage = 162,
+		base = 52140
+	}
+	uv0.weapon_property_91[52150] = {
+		id = 52150,
+		damage = 173,
+		base = 52140
+	}
+	uv0.weapon_property_91[52151] = {
+		id = 52151,
+		damage = 180,
+		base = 52140
+	}
+	uv0.weapon_property_91[52152] = {
+		id = 52152,
+		damage = 190,
+		base = 52140
+	}
+	uv0.weapon_property_91[52153] = {
+		id = 52153,
+		damage = 204,
+		base = 52140
+	}
+	uv0.weapon_property_91[52160] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 25,
+		shakescreen = 0,
+		name = "2 x 100lb 炸弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 74,
+		corrected = 100,
+		min_range = 0,
+		id = 52160,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9000,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2121
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_91[52161] = {
+		id = 52161,
+		damage = 85,
+		base = 52160
+	}
+	uv0.weapon_property_91[52162] = {
+		id = 52162,
+		damage = 96,
+		base = 52160
+	}
+	uv0.weapon_property_91[52163] = {
+		id = 52163,
+		damage = 107,
+		base = 52160
+	}
+	uv0.weapon_property_91[52164] = {
+		id = 52164,
+		damage = 118,
+		base = 52160
+	}
+	uv0.weapon_property_91[52165] = {
+		id = 52165,
+		damage = 129,
+		base = 52160
+	}
+	uv0.weapon_property_91[52166] = {
+		id = 52166,
+		damage = 140,
+		base = 52160
+	}
+	uv0.weapon_property_91[52167] = {
+		id = 52167,
+		damage = 151,
+		base = 52160
+	}
+	uv0.weapon_property_91[52168] = {
+		id = 52168,
+		damage = 162,
+		base = 52160
+	}
+	uv0.weapon_property_91[52169] = {
+		id = 52169,
+		damage = 173,
+		base = 52160
+	}
+	uv0.weapon_property_91[52170] = {
+		id = 52170,
+		damage = 185,
+		base = 52160
+	}
+	uv0.weapon_property_91[52171] = {
+		id = 52171,
+		damage = 192,
+		base = 52160
+	}
+	uv0.weapon_property_91[52172] = {
+		id = 52172,
+		damage = 204,
+		base = 52160
+	}
+	uv0.weapon_property_91[52173] = {
+		id = 52173,
+		damage = 218,
+		base = 52160
+	}
+	uv0.weapon_property_91[52200] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 22,
+		shakescreen = 0,
+		name = "1 x 500lb 炸弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 22,
+		charge_param = "",
+		damage = 120,
+		corrected = 100,
+		min_range = 0,
+		id = 52200,
 		attack_attribute_ratio = 80,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -266,7 +365,7 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			2121
+			2122
 		},
 		barrage_ID = {
 			2120
@@ -279,89 +378,89 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_91[52001] = {
-		id = 52001,
-		damage = 65,
-		base = 52000
+	uv0.weapon_property_91[52201] = {
+		id = 52201,
+		damage = 138,
+		base = 52200
 	}
-	uv0.weapon_property_91[52002] = {
-		id = 52002,
-		damage = 72,
-		base = 52000
+	uv0.weapon_property_91[52202] = {
+		id = 52202,
+		damage = 156,
+		base = 52200
 	}
-	uv0.weapon_property_91[52003] = {
-		id = 52003,
-		damage = 81,
-		base = 52000
+	uv0.weapon_property_91[52203] = {
+		id = 52203,
+		damage = 174,
+		base = 52200
 	}
-	uv0.weapon_property_91[52004] = {
-		id = 52004,
-		damage = 90,
-		base = 52000
+	uv0.weapon_property_91[52204] = {
+		id = 52204,
+		damage = 192,
+		base = 52200
 	}
-	uv0.weapon_property_91[52005] = {
-		id = 52005,
-		damage = 99,
-		base = 52000
+	uv0.weapon_property_91[52205] = {
+		id = 52205,
+		damage = 210,
+		base = 52200
 	}
-	uv0.weapon_property_91[52006] = {
-		id = 52006,
-		damage = 108,
-		base = 52000
+	uv0.weapon_property_91[52206] = {
+		id = 52206,
+		damage = 228,
+		base = 52200
 	}
-	uv0.weapon_property_91[52007] = {
-		id = 52007,
-		damage = 117,
-		base = 52000
+	uv0.weapon_property_91[52207] = {
+		id = 52207,
+		damage = 246,
+		base = 52200
 	}
-	uv0.weapon_property_91[52008] = {
-		id = 52008,
-		damage = 126,
-		base = 52000
+	uv0.weapon_property_91[52208] = {
+		id = 52208,
+		damage = 264,
+		base = 52200
 	}
-	uv0.weapon_property_91[52009] = {
-		id = 52009,
-		damage = 135,
-		base = 52000
+	uv0.weapon_property_91[52209] = {
+		id = 52209,
+		damage = 282,
+		base = 52200
 	}
-	uv0.weapon_property_91[52010] = {
-		id = 52010,
-		damage = 144,
-		base = 52000
+	uv0.weapon_property_91[52210] = {
+		id = 52210,
+		damage = 300,
+		base = 52200
 	}
-	uv0.weapon_property_91[52011] = {
-		id = 52011,
-		damage = 150,
-		base = 52000
+	uv0.weapon_property_91[52211] = {
+		id = 52211,
+		damage = 312,
+		base = 52200
 	}
-	uv0.weapon_property_91[52012] = {
-		id = 52012,
-		damage = 158,
-		base = 52000
+	uv0.weapon_property_91[52212] = {
+		id = 52212,
+		damage = 330,
+		base = 52200
 	}
-	uv0.weapon_property_91[52013] = {
-		id = 52013,
-		damage = 170,
-		base = 52000
+	uv0.weapon_property_91[52213] = {
+		id = 52213,
+		damage = 354,
+		base = 52200
 	}
-	uv0.weapon_property_91[52020] = {
+	uv0.weapon_property_91[52220] = {
 		action_index = "",
 		range = 500,
 		type = 2,
 		fire_fx = "",
 		recover_time = 0,
-		axis_angle = 25,
+		axis_angle = 22,
 		shakescreen = 0,
-		name = "1 x 100lb 炸弹",
+		name = "1 x 500lb 炸弹",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 25,
+		angle = 22,
 		charge_param = "",
-		damage = 63,
+		damage = 132,
 		corrected = 100,
 		min_range = 0,
-		id = 52020,
+		id = 52220,
 		attack_attribute_ratio = 80,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -375,7 +474,7 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			2121
+			2122
 		},
 		barrage_ID = {
 			2120
@@ -388,113 +487,19 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_91[52021] = {
-		id = 52021,
-		damage = 72,
-		base = 52020
+	uv0.weapon_property_91[52221] = {
+		id = 52221,
+		damage = 152,
+		base = 52220
 	}
-	uv0.weapon_property_91[52022] = {
-		id = 52022,
-		damage = 81,
-		base = 52020
+	uv0.weapon_property_91[52222] = {
+		id = 52222,
+		damage = 171,
+		base = 52220
 	}
-	uv0.weapon_property_91[52023] = {
-		id = 52023,
-		damage = 90,
-		base = 52020
-	}
-	uv0.weapon_property_91[52024] = {
-		id = 52024,
-		damage = 99,
-		base = 52020
-	}
-	uv0.weapon_property_91[52025] = {
-		id = 52025,
-		damage = 108,
-		base = 52020
-	}
-	uv0.weapon_property_91[52026] = {
-		id = 52026,
-		damage = 117,
-		base = 52020
-	}
-	uv0.weapon_property_91[52027] = {
-		id = 52027,
-		damage = 128,
-		base = 52020
-	}
-	uv0.weapon_property_91[52028] = {
-		id = 52028,
-		damage = 138,
-		base = 52020
-	}
-	uv0.weapon_property_91[52029] = {
-		id = 52029,
-		damage = 149,
-		base = 52020
-	}
-	uv0.weapon_property_91[52030] = {
-		id = 52030,
-		damage = 159,
-		base = 52020
-	}
-	uv0.weapon_property_91[52031] = {
-		id = 52031,
-		damage = 165,
-		base = 52020
-	}
-	uv0.weapon_property_91[52032] = {
-		id = 52032,
-		damage = 175,
-		base = 52020
-	}
-	uv0.weapon_property_91[52033] = {
-		id = 52033,
-		damage = 188,
-		base = 52020
-	}
-	uv0.weapon_property_91[52040] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 25,
-		shakescreen = 0,
-		name = "1 x 100lb 炸弹",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 69,
-		corrected = 100,
-		min_range = 0,
-		id = 52040,
-		attack_attribute_ratio = 80,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2121
-		},
-		barrage_ID = {
-			2120
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_91[52223] = {
+		id = 52223,
+		damage = 191,
+		base = 52220
 	}
 end()

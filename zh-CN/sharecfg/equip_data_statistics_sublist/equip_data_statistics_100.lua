@@ -1,5 +1,73 @@
 pg = pg or {}
 pg.equip_data_statistics_100 = {
+	[14187] = {
+		id = 14187,
+		damage = "106 x 2",
+		base = 14180,
+		weapon_id = {
+			14187
+		}
+	},
+	[14200] = {
+		name = "双联装406mm主炮Mk5",
+		speciality = "跨射",
+		type = 4,
+		tech = 1,
+		descrip = "说明未填写",
+		value_2 = 5,
+		icon = "14200",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "48 x 2",
+		nationality = 1,
+		ammo = 3,
+		value_3 = 0,
+		id = 14200,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1500
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			14200
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		}
+	},
+	[14201] = {
+		id = 14201,
+		damage = "56 x 2",
+		base = 14200,
+		weapon_id = {
+			14201
+		}
+	},
 	[14202] = {
 		id = 14202,
 		damage = "64 x 2",
@@ -200,30 +268,6 @@ pg.equip_data_statistics_100 = {
 		base = 14240,
 		weapon_id = {
 			14244
-		}
-	},
-	[14245] = {
-		id = 14245,
-		damage = "106 x 2",
-		base = 14240,
-		weapon_id = {
-			14245
-		}
-	},
-	[14246] = {
-		id = 14246,
-		damage = "116 x 2",
-		base = 14240,
-		weapon_id = {
-			14246
-		}
-	},
-	[14247] = {
-		id = 14247,
-		damage = "124 x 2",
-		base = 14240,
-		weapon_id = {
-			14247
 		}
 	}
 }

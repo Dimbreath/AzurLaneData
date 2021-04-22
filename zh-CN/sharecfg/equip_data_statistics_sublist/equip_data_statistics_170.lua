@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_170 = {
+	[24304] = {
+		id = 24304,
+		damage = "74 x 2",
+		base = 24300,
+		weapon_id = {
+			24304
+		}
+	},
+	[24305] = {
+		id = 24305,
+		damage = "81 x 2",
+		base = 24300,
+		weapon_id = {
+			24305
+		}
+	},
+	[24306] = {
+		id = 24306,
+		damage = "88 x 2",
+		base = 24300,
+		weapon_id = {
+			24306
+		}
+	},
 	[24320] = {
 		name = "双联装381mm主炮改",
 		speciality = "跨射",
@@ -200,30 +224,6 @@ pg.equip_data_statistics_170 = {
 		base = 24340,
 		weapon_id = {
 			24342
-		}
-	},
-	[24343] = {
-		id = 24343,
-		damage = "77 x 2",
-		base = 24340,
-		weapon_id = {
-			24343
-		}
-	},
-	[24344] = {
-		id = 24344,
-		damage = "85 x 2",
-		base = 24340,
-		weapon_id = {
-			24344
-		}
-	},
-	[24345] = {
-		id = 24345,
-		damage = "93 x 2",
-		base = 24340,
-		weapon_id = {
-			24345
 		}
 	}
 }

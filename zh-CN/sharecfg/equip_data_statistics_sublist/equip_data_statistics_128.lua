@@ -1,5 +1,87 @@
 pg = pg or {}
 pg.equip_data_statistics_128 = {
+	[17150] = {
+		id = 17150,
+		base = 17140,
+		ammo_info = {
+			{
+				6,
+				50450
+			}
+		},
+		weapon_id = {
+			17150,
+			81150
+		}
+	},
+	[17151] = {
+		anti_siren = 100,
+		base = 17140,
+		id = 17151,
+		ammo_info = {
+			{
+				6,
+				50451
+			}
+		},
+		weapon_id = {
+			17151,
+			81151
+		}
+	},
+	[17200] = {
+		name = "F4U海盗",
+		type = 7,
+		speciality = "空战",
+		rarity = 2,
+		tech = 1,
+		descrip = "说明未填写",
+		value_2 = 5,
+		icon = "17200",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 17200,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50400
+			},
+			{
+				5,
+				52300
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			17200,
+			81200
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
+	},
 	[17201] = {
 		id = 17201,
 		base = 17200,
@@ -320,60 +402,6 @@ pg.equip_data_statistics_128 = {
 		weapon_id = {
 			17243,
 			81243
-		}
-	},
-	[17244] = {
-		id = 17244,
-		base = 17240,
-		ammo_info = {
-			{
-				6,
-				50444
-			},
-			{
-				5,
-				52344
-			}
-		},
-		weapon_id = {
-			17244,
-			81244
-		}
-	},
-	[17245] = {
-		id = 17245,
-		base = 17240,
-		ammo_info = {
-			{
-				6,
-				50445
-			},
-			{
-				5,
-				52345
-			}
-		},
-		weapon_id = {
-			17245,
-			81245
-		}
-	},
-	[17246] = {
-		id = 17246,
-		base = 17240,
-		ammo_info = {
-			{
-				6,
-				50446
-			},
-			{
-				5,
-				52346
-			}
-		},
-		weapon_id = {
-			17246,
-			81246
 		}
 	}
 }

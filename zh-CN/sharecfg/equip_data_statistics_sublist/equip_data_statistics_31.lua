@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.equip_data_statistics_31 = {
+	[1426] = {
+		id = 1426,
+		value_2 = 44,
+		value_1 = "53",
+		base = 1420
+	},
+	[1427] = {
+		id = 1427,
+		value_2 = 48,
+		value_1 = "57",
+		base = 1420
+	},
+	[1428] = {
+		id = 1428,
+		value_2 = 52,
+		value_1 = "61",
+		base = 1420
+	},
 	[1429] = {
 		id = 1429,
 		value_2 = 56,
@@ -118,86 +136,5 @@ pg.equip_data_statistics_31 = {
 		base = 1440,
 		value_2 = 80,
 		value_1 = "106"
-	},
-	[1452] = {
-		id = 1452,
-		anti_siren = 200,
-		base = 1440,
-		value_2 = 85,
-		value_1 = "112"
-	},
-	[1453] = {
-		id = 1453,
-		anti_siren = 300,
-		base = 1440,
-		value_2 = 90,
-		value_1 = "118"
-	},
-	[1500] = {
-		name = "SG雷达",
-		tech = 1,
-		type = 10,
-		speciality = "无",
-		id = 1500,
-		value_2 = 2,
-		icon = "1500",
-		value_1 = "6",
-		attribute_2 = "dodge",
-		rarity = 3,
-		descrip = "白鹰联邦的先进雷达，可以更有效的发现敌人并选择作战或避开",
-		nationality = 1,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "hit",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6040
-		},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		equip_parameters = {
-			avoid_extra = 500,
-			ambush_extra = 500
-		},
-		label = {
-			"USS",
-			"DEV",
-			"SG"
-		}
 	}
 }

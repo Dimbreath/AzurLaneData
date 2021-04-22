@@ -1,5 +1,82 @@
 pg = pg or {}
 pg.equip_data_statistics_127 = {
+	[17120] = {
+		name = "F4F野猫",
+		type = 7,
+		speciality = "空战",
+		rarity = 3,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "17100",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 17120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50420
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			17120,
+			81120
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
+	},
+	[17121] = {
+		id = 17121,
+		base = 17120,
+		ammo_info = {
+			{
+				6,
+				50421
+			}
+		},
+		weapon_id = {
+			17121,
+			81121
+		}
+	},
+	[17122] = {
+		id = 17122,
+		base = 17120,
+		ammo_info = {
+			{
+				6,
+				50422
+			}
+		},
+		weapon_id = {
+			17122,
+			81122
+		}
+	},
 	[17123] = {
 		id = 17123,
 		base = 17120,
@@ -229,88 +306,6 @@ pg.equip_data_statistics_127 = {
 		weapon_id = {
 			17149,
 			81149
-		}
-	},
-	[17150] = {
-		id = 17150,
-		base = 17140,
-		ammo_info = {
-			{
-				6,
-				50450
-			}
-		},
-		weapon_id = {
-			17150,
-			81150
-		}
-	},
-	[17151] = {
-		anti_siren = 100,
-		base = 17140,
-		id = 17151,
-		ammo_info = {
-			{
-				6,
-				50451
-			}
-		},
-		weapon_id = {
-			17151,
-			81151
-		}
-	},
-	[17200] = {
-		name = "F4U海盗",
-		type = 7,
-		speciality = "空战",
-		rarity = 2,
-		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "17200",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 17200,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50400
-			},
-			{
-				5,
-				52300
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			17200,
-			81200
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"FT"
 		}
 	}
 }

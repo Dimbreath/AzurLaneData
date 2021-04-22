@@ -1,5 +1,110 @@
 pg = pg or {}
 pg.aircraft_template_29 = {
+	[18120] = {
+		name = "TBF复仇者",
+		max_hp = 33,
+		accuracy = 23,
+		model_ID = "tbf",
+		ACC_growth = 0,
+		crash_DMG = 406,
+		dodge = 1.15,
+		attack_power = 2,
+		dodge_limit = 4.5,
+		type = 2,
+		AP_growth = 2000,
+		icon = "tbf",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1277,
+		speed = 48,
+		id = 18120,
+		scale = 1,
+		weapon_ID = {
+			50020,
+			51120
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.15,
+				-0.08,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[18121] = {
+		id = 18121,
+		base = 18120,
+		max_hp = 38,
+		hp_growth = 1468,
+		weapon_ID = {
+			50021,
+			51121
+		}
+	},
+	[18122] = {
+		id = 18122,
+		base = 18120,
+		max_hp = 43,
+		hp_growth = 1660,
+		weapon_ID = {
+			50022,
+			51122
+		}
+	},
+	[18123] = {
+		id = 18123,
+		base = 18120,
+		max_hp = 48,
+		hp_growth = 1851,
+		weapon_ID = {
+			50023,
+			51123
+		}
+	},
 	[18124] = {
 		id = 18124,
 		base = 18120,
@@ -123,46 +228,6 @@ pg.aircraft_template_29 = {
 		weapon_ID = {
 			50042,
 			51142
-		}
-	},
-	[18143] = {
-		id = 18143,
-		base = 18140,
-		max_hp = 53,
-		hp_growth = 2036,
-		weapon_ID = {
-			50043,
-			51143
-		}
-	},
-	[18144] = {
-		id = 18144,
-		base = 18140,
-		max_hp = 58,
-		hp_growth = 2247,
-		weapon_ID = {
-			50044,
-			51144
-		}
-	},
-	[18145] = {
-		id = 18145,
-		base = 18140,
-		max_hp = 64,
-		hp_growth = 2458,
-		weapon_ID = {
-			50045,
-			51145
-		}
-	},
-	[18146] = {
-		id = 18146,
-		base = 18140,
-		max_hp = 69,
-		hp_growth = 2669,
-		weapon_ID = {
-			50046,
-			51146
 		}
 	}
 }

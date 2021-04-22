@@ -1,5 +1,114 @@
 pg = pg or {}
 pg.aircraft_template_94 = {
+	[37411] = {
+		id = 37411,
+		base = 37400,
+		max_hp = 95,
+		hp_growth = 3654,
+		weapon_ID = {
+			59551,
+			52351,
+			50871
+		}
+	},
+	[37412] = {
+		id = 37412,
+		base = 37400,
+		max_hp = 100,
+		hp_growth = 3861,
+		weapon_ID = {
+			59552,
+			52352,
+			50872
+		}
+	},
+	[37413] = {
+		id = 37413,
+		base = 37400,
+		max_hp = 106,
+		hp_growth = 4068,
+		weapon_ID = {
+			59553,
+			52353,
+			50873
+		}
+	},
+	[37420] = {
+		name = "二式水上战斗机",
+		max_hp = 37,
+		accuracy = 23,
+		model_ID = "ershishuizhan",
+		ACC_growth = 0,
+		crash_DMG = 116,
+		dodge = 0.315,
+		attack_power = 2,
+		dodge_limit = 8,
+		type = 3,
+		AP_growth = 2000,
+		icon = "ershishuizhan",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1404,
+		speed = 50,
+		id = 37420,
+		scale = 1,
+		weapon_ID = {
+			50040,
+			50540,
+			52140
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.64,
+					-0.96,
+					0
+				},
+				{
+					0.9,
+					1.22,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
 	[37421] = {
 		id = 37421,
 		base = 37420,
@@ -64,50 +173,6 @@ pg.aircraft_template_94 = {
 			50046,
 			50546,
 			52146
-		}
-	},
-	[37427] = {
-		id = 37427,
-		base = 37420,
-		max_hp = 75,
-		hp_growth = 2879,
-		weapon_ID = {
-			50047,
-			50547,
-			52147
-		}
-	},
-	[37428] = {
-		id = 37428,
-		base = 37420,
-		max_hp = 80,
-		hp_growth = 3090,
-		weapon_ID = {
-			50048,
-			50548,
-			52148
-		}
-	},
-	[37429] = {
-		id = 37429,
-		base = 37420,
-		max_hp = 86,
-		hp_growth = 3301,
-		weapon_ID = {
-			50049,
-			50549,
-			52149
-		}
-	},
-	[37430] = {
-		id = 37430,
-		base = 37420,
-		max_hp = 91,
-		hp_growth = 3511,
-		weapon_ID = {
-			50050,
-			50550,
-			52150
 		}
 	}
 }

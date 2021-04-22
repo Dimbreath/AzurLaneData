@@ -2,6 +2,125 @@ pg = pg or {}
 pg.weapon_property_158 = {}
 
 function ()
+	uv0.weapon_property_158[68626] = {
+		name = "巴丹技能战斗机Lv6",
+		damage = 64,
+		base = 68621,
+		id = 68626,
+		bullet_ID = {
+			68626
+		}
+	}
+	uv0.weapon_property_158[68627] = {
+		name = "巴丹技能战斗机Lv7",
+		damage = 71,
+		base = 68621,
+		id = 68627,
+		bullet_ID = {
+			68627
+		}
+	}
+	uv0.weapon_property_158[68628] = {
+		name = "巴丹技能战斗机Lv8",
+		damage = 75,
+		base = 68621,
+		id = 68628,
+		bullet_ID = {
+			68628
+		}
+	}
+	uv0.weapon_property_158[68629] = {
+		name = "巴丹技能战斗机Lv9",
+		damage = 81,
+		base = 68621,
+		id = 68629,
+		bullet_ID = {
+			68629
+		}
+	}
+	uv0.weapon_property_158[68630] = {
+		name = "巴丹技能战斗机Lv10",
+		damage = 86,
+		base = 68621,
+		id = 68630,
+		bullet_ID = {
+			68630
+		}
+	}
+	uv0.weapon_property_158[68631] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 22,
+		shakescreen = 0,
+		name = "2 x 500lb 炸弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 22,
+		charge_param = "",
+		damage = 174,
+		corrected = 100,
+		min_range = 0,
+		id = 68631,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2122
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_158[68632] = {
+		id = 68632,
+		damage = 196,
+		base = 68631
+	}
+	uv0.weapon_property_158[68633] = {
+		id = 68633,
+		damage = 219,
+		base = 68631
+	}
+	uv0.weapon_property_158[68634] = {
+		id = 68634,
+		damage = 242,
+		base = 68631
+	}
+	uv0.weapon_property_158[68635] = {
+		id = 68635,
+		damage = 265,
+		base = 68631
+	}
+	uv0.weapon_property_158[68636] = {
+		id = 68636,
+		damage = 288,
+		base = 68631
+	}
+	uv0.weapon_property_158[68637] = {
+		id = 68637,
+		damage = 311,
+		base = 68631
+	}
 	uv0.weapon_property_158[68638] = {
 		id = 68638,
 		damage = 334,
@@ -569,109 +688,5 @@ function ()
 		name = "利托里奥弹幕强化PVP-Lv6",
 		damage = 122,
 		base = 68681
-	}
-	uv0.weapon_property_158[68687] = {
-		id = 68687,
-		name = "利托里奥弹幕强化PVP-Lv7",
-		damage = 134,
-		base = 68681
-	}
-	uv0.weapon_property_158[68688] = {
-		id = 68688,
-		name = "利托里奥弹幕强化PVP-Lv8",
-		damage = 146,
-		base = 68681
-	}
-	uv0.weapon_property_158[68689] = {
-		id = 68689,
-		name = "利托里奥弹幕强化PVP-Lv9",
-		damage = 158,
-		base = 68681
-	}
-	uv0.weapon_property_158[68690] = {
-		id = 68690,
-		name = "利托里奥弹幕强化PVP-Lv10",
-		damage = 174,
-		base = 68681
-	}
-	uv0.weapon_property_158[68691] = {
-		action_index = "attack",
-		range = 50,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "利托里奥技能小子弹-LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 11,
-		corrected = 100,
-		min_range = 0,
-		id = 68691,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19024
-		},
-		barrage_ID = {
-			80785
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_158[68692] = {
-		id = 68692,
-		name = "利托里奥技能小子弹-LV2",
-		damage = 12,
-		base = 68691
-	}
-	uv0.weapon_property_158[68693] = {
-		id = 68693,
-		name = "利托里奥技能小子弹-LV3",
-		damage = 13,
-		base = 68691
-	}
-	uv0.weapon_property_158[68694] = {
-		id = 68694,
-		name = "利托里奥技能小子弹-LV4",
-		damage = 14,
-		base = 68691
-	}
-	uv0.weapon_property_158[68695] = {
-		id = 68695,
-		name = "利托里奥技能小子弹-LV5",
-		damage = 15,
-		base = 68691
-	}
-	uv0.weapon_property_158[68696] = {
-		id = 68696,
-		name = "利托里奥技能小子弹-LV6",
-		damage = 16,
-		base = 68691
-	}
-	uv0.weapon_property_158[68697] = {
-		id = 68697,
-		name = "利托里奥技能小子弹-LV7",
-		damage = 17,
-		base = 68691
 	}
 end()

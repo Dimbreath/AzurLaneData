@@ -2,82 +2,6 @@ pg = pg or {}
 pg.weapon_property_174 = {}
 
 function ()
-	uv0.weapon_property_174[69618] = {
-		name = "加斯科涅技能·箭型国旗红-PVE-强化LV8",
-		damage = 48,
-		base = 69611,
-		id = 69618,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_174[69619] = {
-		name = "加斯科涅技能·箭型国旗红-PVE-强化LV9",
-		damage = 53,
-		base = 69611,
-		id = 69619,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_174[69620] = {
-		name = "加斯科涅技能·箭型国旗红-PVE-强化LV10",
-		damage = 58,
-		base = 69611,
-		id = 69620,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_174[69621] = {
-		action_index = "attack",
-		range = 95,
-		type = 19,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "加斯科涅技能·箭型国旗白-PVE-强化LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 50,
-		charge_param = "",
-		damage = 23,
-		corrected = 100,
-		min_range = 35,
-		id = 69621,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19848,
-			19848
-		},
-		barrage_ID = {
-			80906,
-			80907
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
 	uv0.weapon_property_174[69622] = {
 		id = 69622,
 		name = "加斯科涅技能·箭型国旗白-PVE-强化LV2",
@@ -753,5 +677,77 @@ function ()
 		name = "北风技能额外六联装鱼雷-天运强化LV7",
 		damage = 72,
 		base = 69671
+	}
+	uv0.weapon_property_174[69678] = {
+		id = 69678,
+		name = "北风技能额外六联装鱼雷-天运强化LV8",
+		damage = 76,
+		base = 69671
+	}
+	uv0.weapon_property_174[69679] = {
+		id = 69679,
+		name = "北风技能额外六联装鱼雷-天运强化LV9",
+		damage = 82,
+		base = 69671
+	}
+	uv0.weapon_property_174[69680] = {
+		id = 69680,
+		name = "北风技能额外六联装鱼雷-天运强化LV10",
+		damage = 85,
+		base = 69671
+	}
+	uv0.weapon_property_174[69681] = {
+		action_index = "attack",
+		range = 55,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "北风技能额外弹幕-天运追加LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 6,
+		corrected = 100,
+		min_range = 0,
+		id = 69681,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19171,
+			19171,
+			19171
+		},
+		barrage_ID = {
+			80912,
+			80913,
+			80914
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_174[69682] = {
+		id = 69682,
+		name = "北风技能额外弹幕-天运追加LV2",
+		damage = 7,
+		base = 69681
 	}
 end()

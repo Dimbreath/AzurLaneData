@@ -82,32 +82,6 @@ function slot0.SetData(slot0, slot1)
 
 		slot0.playedList[slot7] = true
 	end
-
-	if getProxy(PlayerProxy):getRawData():GetRegisterTime() <= pg.TimeMgr.GetInstance():parseTimeFromConfig({
-		{
-			2021,
-			4,
-			8
-		},
-		{
-			9,
-			0,
-			0
-		}
-	}) then
-		_.each({
-			10020,
-			10021,
-			10022,
-			10023,
-			10024,
-			10025,
-			10026,
-			10027
-		}, function (slot0)
-			uv0.playedList[slot0] = true
-		end)
-	end
 end
 
 function slot0.SetPlayedFlag(slot0, slot1)
@@ -347,7 +321,6 @@ end
 
 function slot0.RegistSkipBtn(slot0)
 	function slot1()
-		uv0:Resume()
 		uv0.storyScript:SkipAll()
 		uv0.currPlayer:NextOneImmediately()
 	end
@@ -361,6 +334,11 @@ function slot0.RegistSkipBtn(slot0)
 			return
 		end
 
+		if uv0.storyScript:GetAutoPlayFlag() then
+			uv0.storyScript:StopAutoPlay()
+			uv0:UpdateAutoBtn()
+		end
+
 		if uv0:IsReView() or uv0.storyScript:IsPlayed() or not uv0.storyScript:ShowSkipTip() then
 			uv1()
 
@@ -368,16 +346,13 @@ function slot0.RegistSkipBtn(slot0)
 		end
 
 		uv0:Puase()
-
-		if uv0.storyScript:GetAutoPlayFlag() then
-			uv0.storyScript:StopAutoPlay()
-			uv0:UpdateAutoBtn()
-		end
-
 		pg.MsgboxMgr:GetInstance():ShowMsgBox({
 			parent = rtf(uv0._tf),
 			content = i18n("story_skip_confirm"),
-			onYes = uv1,
+			onYes = function ()
+				uv0:Resume()
+				uv1()
+			end,
 			onNo = function ()
 				uv0:Resume()
 			end,
@@ -551,4 +526,63 @@ function slot0.Quit(slot0)
 	slot0.playQueue = {}
 	slot0.playedList = {}
 	slot0.scenes = {}
+end
+
+function slot0.Fix(slot0)
+	if getProxy(PlayerProxy):getRawData():GetRegisterTime() <= pg.TimeMgr.GetInstance():parseTimeFromConfig({
+		{
+			2021,
+			4,
+			8
+		},
+		{
+			9,
+			0,
+			0
+		}
+	}) then
+		_.each({
+			10020,
+			10021,
+			10022,
+			10023,
+			10024,
+			10025,
+			10026,
+			10027
+		}, function (slot0)
+			uv0.playedList[slot0] = true
+		end)
+	end
+
+	slot7 = getProxy(TaskProxy)
+	slot8 = 0
+
+	for slot12 = 5001, 5020, -1 do
+		if slot7:getFinishTaskById(slot12) or slot7:getTaskById(slot12) then
+			slot8 = slot12
+
+			break
+		end
+	end
+
+	for slot12 = slot8, slot6, -1 do
+		if pg.task_data_template[slot12] and slot13.story_id and #slot14 > 0 and not slot0:IsPlayed(slot14) then
+			slot0.playedList[slot14] = true
+		end
+	end
+
+	if getProxy(ActivityProxy):getActivityById(ActivityConst.JYHZ_ACTIVITY_ID) and not slot9:isEnd() then
+		for slot15 = #_.flatten(slot9:getConfig("config_data")), 1, -1 do
+			if pg.task_data_template[slot10[slot15]].story_id and #slot16 > 0 then
+				if nil then
+					if not slot0:IsPlayed(slot16) then
+						slot0.playedList[slot16] = true
+					end
+				elseif slot17 then
+					slot11 = slot15
+				end
+			end
+		end
+	end
 end

@@ -1,5 +1,75 @@
 pg = pg or {}
 pg.equip_data_statistics_44 = {
+	[2320] = {
+		name = "陀螺仪",
+		tech = 2,
+		type = 10,
+		speciality = "无",
+		id = 2320,
+		value_2 = 2,
+		icon = "2300",
+		value_1 = "9",
+		attribute_2 = "speed",
+		rarity = 3,
+		descrip = "陀螺仪可以稳定舰体，从而提高命中和航速",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "hit",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[2321] = {
+		id = 2321,
+		value_1 = "10",
+		base = 2320
+	},
+	[2322] = {
+		id = 2322,
+		value_1 = "11",
+		base = 2320
+	},
 	[2323] = {
 		id = 2323,
 		value_2 = 3,
@@ -136,51 +206,5 @@ pg.equip_data_statistics_44 = {
 		value_2 = 7,
 		value_1 = "32",
 		base = 2340
-	},
-	[2350] = {
-		id = 2350,
-		value_2 = 8,
-		value_1 = "35",
-		base = 2340
-	},
-	[2351] = {
-		id = 2351,
-		anti_siren = 100,
-		base = 2340,
-		value_2 = 8,
-		value_1 = "38"
-	},
-	[2400] = {
-		name = "维修工具",
-		tech = 1,
-		type = 10,
-		speciality = "无",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "2400",
-		value_1 = "90",
-		descrip = "携带维修工具才能让损管队有效损管，但是只能维修自身",
-		rarity = 2,
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 2400,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6100
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
 	}
 }

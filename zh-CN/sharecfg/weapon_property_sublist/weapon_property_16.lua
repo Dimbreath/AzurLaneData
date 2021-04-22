@@ -2,114 +2,6 @@ pg = pg or {}
 pg.weapon_property_16 = {}
 
 function ()
-	uv0.weapon_property_16[14505] = {
-		id = 14505,
-		reload_max = 3481,
-		damage = 143,
-		base = 14500
-	}
-	uv0.weapon_property_16[14506] = {
-		id = 14506,
-		reload_max = 3405,
-		damage = 156,
-		base = 14500
-	}
-	uv0.weapon_property_16[14507] = {
-		id = 14507,
-		reload_max = 3330,
-		damage = 167,
-		base = 14500
-	}
-	uv0.weapon_property_16[14508] = {
-		id = 14508,
-		reload_max = 3255,
-		damage = 180,
-		base = 14500
-	}
-	uv0.weapon_property_16[14509] = {
-		id = 14509,
-		reload_max = 3181,
-		damage = 194,
-		base = 14500
-	}
-	uv0.weapon_property_16[14510] = {
-		id = 14510,
-		reload_max = 3105,
-		damage = 207,
-		base = 14500
-	}
-	uv0.weapon_property_16[14511] = {
-		reload_max = 3105,
-		damage = 207,
-		base = 14500,
-		id = 14511,
-		corrected = 109
-	}
-	uv0.weapon_property_16[14512] = {
-		reload_max = 3105,
-		damage = 207,
-		base = 14500,
-		id = 14512,
-		corrected = 116
-	}
-	uv0.weapon_property_16[14513] = {
-		reload_max = 3105,
-		damage = 207,
-		base = 14500,
-		id = 14513,
-		corrected = 124
-	}
-	uv0.weapon_property_16[15000] = {
-		action_index = "attack",
-		range = 50,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "潜艇用Mark14鱼雷",
-		aim_type = 1,
-		torpedo_ammo = 6,
-		expose = 0,
-		angle = 80,
-		charge_param = "",
-		damage = 42,
-		corrected = 100,
-		min_range = 0,
-		id = 15000,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 5100,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0.5,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1821
-		},
-		barrage_ID = {
-			1602
-		},
-		oxy_type = {
-			1,
-			2
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_16[15001] = {
-		id = 15001,
-		reload_max = 5020,
-		damage = 48,
-		base = 15000
-	}
 	uv0.weapon_property_16[15002] = {
 		id = 15002,
 		reload_max = 4940,
@@ -600,5 +492,116 @@ function ()
 		reload_max = 4120,
 		damage = 143,
 		base = 15120
+	}
+	uv0.weapon_property_16[15129] = {
+		id = 15129,
+		reload_max = 4035,
+		damage = 153,
+		base = 15120
+	}
+	uv0.weapon_property_16[15130] = {
+		id = 15130,
+		reload_max = 3950,
+		damage = 163,
+		base = 15120
+	}
+	uv0.weapon_property_16[15140] = {
+		action_index = "attack",
+		range = 50,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "潜艇用Mark16鱼雷",
+		aim_type = 1,
+		torpedo_ammo = 6,
+		expose = 0,
+		angle = 80,
+		charge_param = "",
+		damage = 72,
+		corrected = 100,
+		min_range = 0,
+		id = 15140,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 4600,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0.5,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1822
+		},
+		barrage_ID = {
+			1602
+		},
+		oxy_type = {
+			1,
+			2
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_16[15141] = {
+		id = 15141,
+		reload_max = 4510,
+		damage = 82,
+		base = 15140
+	}
+	uv0.weapon_property_16[15142] = {
+		id = 15142,
+		reload_max = 4420,
+		damage = 93,
+		base = 15140
+	}
+	uv0.weapon_property_16[15143] = {
+		id = 15143,
+		reload_max = 4330,
+		damage = 104,
+		base = 15140
+	}
+	uv0.weapon_property_16[15144] = {
+		id = 15144,
+		reload_max = 4240,
+		damage = 115,
+		base = 15140
+	}
+	uv0.weapon_property_16[15145] = {
+		id = 15145,
+		reload_max = 4150,
+		damage = 126,
+		base = 15140
+	}
+	uv0.weapon_property_16[15146] = {
+		id = 15146,
+		reload_max = 4060,
+		damage = 137,
+		base = 15140
+	}
+	uv0.weapon_property_16[15147] = {
+		id = 15147,
+		reload_max = 3970,
+		damage = 148,
+		base = 15140
+	}
+	uv0.weapon_property_16[15148] = {
+		id = 15148,
+		reload_max = 3880,
+		damage = 159,
+		base = 15140
+	}
+	uv0.weapon_property_16[15149] = {
+		id = 15149,
+		reload_max = 3790,
+		damage = 170,
+		base = 15140
 	}
 end()

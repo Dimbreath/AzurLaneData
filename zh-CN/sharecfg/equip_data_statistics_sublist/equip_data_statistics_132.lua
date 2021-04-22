@@ -1,5 +1,74 @@
 pg = pg or {}
 pg.equip_data_statistics_132 = {
+	[17351] = {
+		anti_siren = 100,
+		base = 17340,
+		id = 17351,
+		ammo_info = {
+			{
+				6,
+				50351
+			},
+			{
+				6,
+				50551
+			},
+			{
+				5,
+				52351
+			}
+		},
+		weapon_id = {
+			17351,
+			81351
+		}
+	},
+	[17352] = {
+		anti_siren = 200,
+		base = 17340,
+		id = 17352,
+		ammo_info = {
+			{
+				6,
+				50352
+			},
+			{
+				6,
+				50552
+			},
+			{
+				5,
+				52352
+			}
+		},
+		weapon_id = {
+			17352,
+			81352
+		}
+	},
+	[17353] = {
+		anti_siren = 300,
+		base = 17340,
+		id = 17353,
+		ammo_info = {
+			{
+				6,
+				50353
+			},
+			{
+				6,
+				50553
+			},
+			{
+				5,
+				52353
+			}
+		},
+		weapon_id = {
+			17353,
+			81353
+		}
+	},
 	[17360] = {
 		name = "F7F虎猫",
 		type = 7,
@@ -288,95 +357,6 @@ pg.equip_data_statistics_132 = {
 		weapon_id = {
 			17373,
 			81373
-		}
-	},
-	[17380] = {
-		name = "F8F熊猫",
-		type = 7,
-		speciality = "空战",
-		rarity = 5,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 45,
-		icon = "17380",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 17380,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50660
-			},
-			{
-				5,
-				52660
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			17380,
-			81380
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"FT"
-		}
-	},
-	[17381] = {
-		id = 17381,
-		base = 17380,
-		ammo_info = {
-			{
-				6,
-				50661
-			},
-			{
-				5,
-				52661
-			}
-		},
-		weapon_id = {
-			17381,
-			81381
-		}
-	},
-	[17382] = {
-		id = 17382,
-		base = 17380,
-		ammo_info = {
-			{
-				6,
-				50662
-			},
-			{
-				5,
-				52662
-			}
-		},
-		weapon_id = {
-			17382,
-			81382
 		}
 	}
 }

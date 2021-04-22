@@ -1,5 +1,53 @@
 pg = pg or {}
 pg.equip_data_statistics_8 = {
+	[512] = {
+		id = 512,
+		anti_siren = 200,
+		base = 500,
+		value_2 = 85,
+		value_1 = "41"
+	},
+	[513] = {
+		id = 513,
+		anti_siren = 300,
+		base = 500,
+		value_2 = 90,
+		value_1 = "44"
+	},
+	[520] = {
+		name = "珍珠之泪",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "520",
+		value_1 = "200",
+		descrip = "一颗奇怪的珠子，似乎记载着某一段历史",
+		rarity = 5,
+		nationality = 1,
+		ammo = 10,
+		value_3 = 0,
+		id = 520,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6130
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DEV"
+		}
+	},
 	[521] = {
 		id = 521,
 		value_1 = "230",
@@ -101,20 +149,5 @@ pg.equip_data_statistics_8 = {
 			"IJN",
 			"DEV"
 		}
-	},
-	[541] = {
-		id = 541,
-		value_1 = "138",
-		base = 540
-	},
-	[542] = {
-		id = 542,
-		value_1 = "156",
-		base = 540
-	},
-	[543] = {
-		id = 543,
-		value_1 = "174",
-		base = 540
 	}
 }

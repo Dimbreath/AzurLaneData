@@ -2,108 +2,6 @@ pg = pg or {}
 pg.weapon_property_121 = {}
 
 function ()
-	uv0.weapon_property_121[65509] = {
-		id = 65509,
-		damage = 220,
-		base = 65501
-	}
-	uv0.weapon_property_121[65510] = {
-		id = 65510,
-		damage = 240,
-		base = 65501
-	}
-	uv0.weapon_property_121[65511] = {
-		action_index = "attack",
-		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "海因里希亲王 直感之拳LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 65511,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 3,
-		attack_attribute = 1,
-		reload_max = 5000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19248
-		},
-		barrage_ID = {
-			80987
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_121[65512] = {
-		id = 65512,
-		name = "海因里希亲王 直感之拳LV2",
-		damage = 9,
-		base = 65511
-	}
-	uv0.weapon_property_121[65513] = {
-		id = 65513,
-		name = "海因里希亲王 直感之拳LV3",
-		damage = 10,
-		base = 65511
-	}
-	uv0.weapon_property_121[65514] = {
-		id = 65514,
-		name = "海因里希亲王 直感之拳LV4",
-		damage = 11,
-		base = 65511
-	}
-	uv0.weapon_property_121[65515] = {
-		id = 65515,
-		name = "海因里希亲王 直感之拳LV5",
-		damage = 12,
-		base = 65511
-	}
-	uv0.weapon_property_121[65516] = {
-		id = 65516,
-		name = "海因里希亲王 直感之拳LV6",
-		damage = 14,
-		base = 65511
-	}
-	uv0.weapon_property_121[65517] = {
-		id = 65517,
-		name = "海因里希亲王 直感之拳LV7",
-		damage = 16,
-		base = 65511
-	}
-	uv0.weapon_property_121[65518] = {
-		id = 65518,
-		name = "海因里希亲王 直感之拳LV8",
-		damage = 18,
-		base = 65511
-	}
-	uv0.weapon_property_121[65519] = {
-		id = 65519,
-		name = "海因里希亲王 直感之拳LV9",
-		damage = 20,
-		base = 65511
-	}
 	uv0.weapon_property_121[65520] = {
 		id = 65520,
 		name = "海因里希亲王 直感之拳LV10",
@@ -640,5 +538,112 @@ function ()
 		bullet_ID = {
 			65578
 		}
+	}
+	uv0.weapon_property_121[65579] = {
+		name = "威悉技能轰炸机PlusLv9",
+		damage = 81,
+		base = 65571,
+		id = 65579,
+		bullet_ID = {
+			65579
+		}
+	}
+	uv0.weapon_property_121[65580] = {
+		name = "威悉技能轰炸机PlusLv10",
+		damage = 86,
+		base = 65571,
+		id = 65580,
+		bullet_ID = {
+			65580
+		}
+	}
+	uv0.weapon_property_121[65581] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 22,
+		shakescreen = 0,
+		name = "2 x 500lb 炸弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 22,
+		charge_param = "",
+		damage = 58,
+		corrected = 100,
+		min_range = 0,
+		id = 65581,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2122
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_121[65582] = {
+		id = 65582,
+		damage = 74,
+		base = 68631
+	}
+	uv0.weapon_property_121[65583] = {
+		id = 65583,
+		damage = 92,
+		base = 68631
+	}
+	uv0.weapon_property_121[65584] = {
+		id = 65584,
+		damage = 107,
+		base = 68631
+	}
+	uv0.weapon_property_121[65585] = {
+		id = 65585,
+		damage = 123,
+		base = 68631
+	}
+	uv0.weapon_property_121[65586] = {
+		id = 65586,
+		damage = 141,
+		base = 68631
+	}
+	uv0.weapon_property_121[65587] = {
+		id = 65587,
+		damage = 157,
+		base = 68631
+	}
+	uv0.weapon_property_121[65588] = {
+		id = 65588,
+		damage = 175,
+		base = 68631
+	}
+	uv0.weapon_property_121[65589] = {
+		id = 65589,
+		damage = 191,
+		base = 68631
+	}
+	uv0.weapon_property_121[65590] = {
+		id = 65590,
+		damage = 207,
+		base = 68631
 	}
 end()

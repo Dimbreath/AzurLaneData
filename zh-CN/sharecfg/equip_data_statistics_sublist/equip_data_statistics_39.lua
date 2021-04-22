@@ -1,5 +1,50 @@
 pg = pg or {}
 pg.equip_data_statistics_39 = {
+	[1960] = {
+		name = "海魂迷彩",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		id = 1960,
+		value_2 = 35,
+		icon = "1960",
+		value_1 = "8",
+		attribute_2 = "durability",
+		rarity = 4,
+		descrip = "似乎是能提高战斗力的涂装",
+		nationality = 7,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"DEV"
+		}
+	},
+	[1961] = {
+		id = 1961,
+		value_2 = 40,
+		value_1 = "9",
+		base = 1960
+	},
+	[1962] = {
+		id = 1962,
+		value_2 = 45,
+		value_1 = "10",
+		base = 1960
+	},
 	[1963] = {
 		id = 1963,
 		value_2 = 50,
@@ -133,20 +178,5 @@ pg.equip_data_statistics_39 = {
 		label = {
 			"DEV"
 		}
-	},
-	[2021] = {
-		id = 2021,
-		value_1 = "103",
-		base = 2020
-	},
-	[2022] = {
-		id = 2022,
-		value_1 = "117",
-		base = 2020
-	},
-	[2023] = {
-		id = 2023,
-		value_1 = "130",
-		base = 2020
 	}
 }

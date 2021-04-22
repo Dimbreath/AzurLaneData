@@ -1,5 +1,106 @@
 pg = pg or {}
 pg.equip_data_statistics_261 = {
+	[37125] = {
+		id = 37125,
+		base = 37120,
+		ammo_info = {
+			{
+				6,
+				50025
+			},
+			{
+				6,
+				50525
+			},
+			{
+				5,
+				52125
+			}
+		},
+		weapon_id = {
+			37125,
+			83125
+		}
+	},
+	[37126] = {
+		id = 37126,
+		base = 37120,
+		ammo_info = {
+			{
+				6,
+				50026
+			},
+			{
+				6,
+				50526
+			},
+			{
+				5,
+				52126
+			}
+		},
+		weapon_id = {
+			37126,
+			83126
+		}
+	},
+	[37140] = {
+		name = "零战二一型",
+		type = 7,
+		speciality = "空战",
+		rarity = 4,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "37100",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 37140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				6,
+				50540
+			},
+			{
+				5,
+				52140
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			37140,
+			83140
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
+	},
 	[37141] = {
 		id = 37141,
 		base = 37140,
@@ -342,72 +443,6 @@ pg.equip_data_statistics_261 = {
 		weapon_id = {
 			37162,
 			83162
-		}
-	},
-	[37163] = {
-		id = 37163,
-		base = 37160,
-		ammo_info = {
-			{
-				6,
-				50043
-			},
-			{
-				6,
-				50563
-			},
-			{
-				5,
-				52143
-			}
-		},
-		weapon_id = {
-			37163,
-			83163
-		}
-	},
-	[37164] = {
-		id = 37164,
-		base = 37160,
-		ammo_info = {
-			{
-				6,
-				50044
-			},
-			{
-				6,
-				50564
-			},
-			{
-				5,
-				52144
-			}
-		},
-		weapon_id = {
-			37164,
-			83164
-		}
-	},
-	[37165] = {
-		id = 37165,
-		base = 37160,
-		ammo_info = {
-			{
-				6,
-				50045
-			},
-			{
-				6,
-				50565
-			},
-			{
-				5,
-				52145
-			}
-		},
-		weapon_id = {
-			37165,
-			83165
 		}
 	}
 }

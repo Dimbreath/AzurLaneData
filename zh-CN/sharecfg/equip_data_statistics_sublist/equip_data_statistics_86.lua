@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.equip_data_statistics_86 = {
+	[11169] = {
+		id = 11169,
+		damage = "14 x 4",
+		base = 11160,
+		weapon_id = {
+			11169
+		}
+	},
+	[11170] = {
+		id = 11170,
+		damage = "15 x 4",
+		base = 11160,
+		weapon_id = {
+			11170
+		}
+	},
+	[11171] = {
+		anti_siren = 100,
+		damage = "15 x 4",
+		base = 11160,
+		id = 11171,
+		weapon_id = {
+			11171
+		}
+	},
 	[11200] = {
 		name = "双联装127mm高平两用炮Mk12",
 		speciality = "锁定",
@@ -227,30 +252,6 @@ pg.equip_data_statistics_86 = {
 		base = 11220,
 		weapon_id = {
 			11226
-		}
-	},
-	[11227] = {
-		id = 11227,
-		damage = "11 x 4",
-		base = 11220,
-		weapon_id = {
-			11227
-		}
-	},
-	[11228] = {
-		id = 11228,
-		damage = "12 x 4",
-		base = 11220,
-		weapon_id = {
-			11228
-		}
-	},
-	[11229] = {
-		id = 11229,
-		damage = "13 x 4",
-		base = 11220,
-		weapon_id = {
-			11229
 		}
 	}
 }

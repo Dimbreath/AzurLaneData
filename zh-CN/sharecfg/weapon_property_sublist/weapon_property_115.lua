@@ -2,84 +2,6 @@ pg = pg or {}
 pg.weapon_property_115 = {}
 
 function ()
-	uv0.weapon_property_115[65129] = {
-		name = "恶毒μ神圣天使轰炸机Lv9",
-		damage = 202,
-		base = 65121,
-		id = 65129,
-		bullet_ID = {
-			65129
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_115[65130] = {
-		name = "恶毒μ神圣天使轰炸机Lv10",
-		damage = 220,
-		base = 65121,
-		id = 65130,
-		bullet_ID = {
-			65130
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_115[65131] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 22,
-		shakescreen = 0,
-		name = "2 x 500lb 炸弹",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 22,
-		charge_param = "",
-		damage = 48,
-		corrected = 100,
-		min_range = 0,
-		id = 65131,
-		attack_attribute_ratio = 60,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19199
-		},
-		barrage_ID = {
-			2121
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_115[65132] = {
-		id = 65132,
-		damage = 68,
-		base = 65131
-	}
-	uv0.weapon_property_115[65133] = {
-		id = 65133,
-		damage = 86,
-		base = 65131
-	}
 	uv0.weapon_property_115[65134] = {
 		id = 65134,
 		damage = 106,
@@ -651,5 +573,88 @@ function ()
 		barrage_ID = {
 			12009
 		}
+	}
+	uv0.weapon_property_115[65209] = {
+		name = "大凤μ技能轰炸机Lv9",
+		damage = 220,
+		base = 65201,
+		id = 65209,
+		bullet_ID = {
+			65209
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_115[65210] = {
+		name = "大凤μ技能轰炸机Lv10",
+		damage = 240,
+		base = 65201,
+		id = 65210,
+		bullet_ID = {
+			65210
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_115[65211] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 19,
+		shakescreen = 0,
+		name = "1 x 1000lb 炸弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 19,
+		charge_param = "",
+		damage = 150,
+		corrected = 100,
+		min_range = 0,
+		id = 65211,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19215
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_115[65212] = {
+		id = 65212,
+		damage = 169,
+		base = 65211
+	}
+	uv0.weapon_property_115[65213] = {
+		id = 65213,
+		damage = 188,
+		base = 65211
+	}
+	uv0.weapon_property_115[65214] = {
+		id = 65214,
+		damage = 207,
+		base = 65211
 	}
 end()

@@ -2,129 +2,6 @@ pg = pg or {}
 pg.weapon_property_19 = {}
 
 function ()
-	uv0.weapon_property_19[16143] = {
-		id = 16143,
-		reload_max = 91,
-		damage = 24,
-		base = 16140
-	}
-	uv0.weapon_property_19[16144] = {
-		id = 16144,
-		reload_max = 90,
-		damage = 27,
-		base = 16140
-	}
-	uv0.weapon_property_19[16145] = {
-		id = 16145,
-		reload_max = 87,
-		damage = 30,
-		base = 16140
-	}
-	uv0.weapon_property_19[16146] = {
-		id = 16146,
-		reload_max = 86,
-		damage = 33,
-		base = 16140
-	}
-	uv0.weapon_property_19[16147] = {
-		id = 16147,
-		reload_max = 82,
-		damage = 36,
-		base = 16140
-	}
-	uv0.weapon_property_19[16148] = {
-		id = 16148,
-		reload_max = 81,
-		damage = 39,
-		base = 16140
-	}
-	uv0.weapon_property_19[16149] = {
-		id = 16149,
-		reload_max = 79,
-		damage = 42,
-		base = 16140
-	}
-	uv0.weapon_property_19[16150] = {
-		id = 16150,
-		reload_max = 78,
-		damage = 45,
-		base = 16140
-	}
-	uv0.weapon_property_19[16151] = {
-		reload_max = 78,
-		damage = 45,
-		base = 16140,
-		id = 16151,
-		corrected = 104
-	}
-	uv0.weapon_property_19[16160] = {
-		action_index = "attack",
-		range = 18,
-		type = 22,
-		fire_fx = "fangkongpaohuoshe",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "四联装20mm厄利孔高射炮Mk15",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 25,
-		corrected = 100,
-		min_range = 0,
-		id = 16160,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 3,
-		reload_max = 95,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/cannon-air",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2000
-		},
-		barrage_ID = {
-			2000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_19[16161] = {
-		id = 16161,
-		reload_max = 92,
-		damage = 27,
-		base = 16160
-	}
-	uv0.weapon_property_19[16162] = {
-		id = 16162,
-		reload_max = 91,
-		damage = 29,
-		base = 16160
-	}
-	uv0.weapon_property_19[16163] = {
-		id = 16163,
-		reload_max = 89,
-		damage = 31,
-		base = 16160
-	}
-	uv0.weapon_property_19[16164] = {
-		id = 16164,
-		reload_max = 88,
-		damage = 34,
-		base = 16160
-	}
 	uv0.weapon_property_19[16165] = {
 		id = 16165,
 		reload_max = 85,
@@ -630,5 +507,172 @@ function ()
 		reload_max = 138,
 		damage = 38,
 		base = 16340
+	}
+	uv0.weapon_property_19[16345] = {
+		id = 16345,
+		reload_max = 134,
+		damage = 42,
+		base = 16340
+	}
+	uv0.weapon_property_19[16346] = {
+		id = 16346,
+		reload_max = 132,
+		damage = 46,
+		base = 16340
+	}
+	uv0.weapon_property_19[16347] = {
+		id = 16347,
+		reload_max = 129,
+		damage = 50,
+		base = 16340
+	}
+	uv0.weapon_property_19[16348] = {
+		id = 16348,
+		reload_max = 126,
+		damage = 54,
+		base = 16340
+	}
+	uv0.weapon_property_19[16349] = {
+		id = 16349,
+		reload_max = 121,
+		damage = 58,
+		base = 16340
+	}
+	uv0.weapon_property_19[16350] = {
+		id = 16350,
+		reload_max = 119,
+		damage = 62,
+		base = 16340
+	}
+	uv0.weapon_property_19[16351] = {
+		reload_max = 119,
+		damage = 62,
+		base = 16340,
+		id = 16351,
+		corrected = 104
+	}
+	uv0.weapon_property_19[16400] = {
+		action_index = "attack",
+		range = 28,
+		type = 22,
+		fire_fx = "fangkongpaohuoshe",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "四联40mm博福斯对空机炮T1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 38,
+		corrected = 100,
+		min_range = 0,
+		id = 16400,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 3,
+		reload_max = 214,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/cannon-air",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2000
+		},
+		barrage_ID = {
+			2000
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_19[16401] = {
+		id = 16401,
+		reload_max = 210,
+		damage = 44,
+		base = 16400
+	}
+	uv0.weapon_property_19[16402] = {
+		id = 16402,
+		reload_max = 206,
+		damage = 50,
+		base = 16400
+	}
+	uv0.weapon_property_19[16403] = {
+		id = 16403,
+		reload_max = 202,
+		damage = 56,
+		base = 16400
+	}
+	uv0.weapon_property_19[16404] = {
+		id = 16404,
+		reload_max = 198,
+		damage = 62,
+		base = 16400
+	}
+	uv0.weapon_property_19[16405] = {
+		id = 16405,
+		reload_max = 193,
+		damage = 69,
+		base = 16400
+	}
+	uv0.weapon_property_19[16406] = {
+		id = 16406,
+		reload_max = 189,
+		damage = 76,
+		base = 16400
+	}
+	uv0.weapon_property_19[16420] = {
+		action_index = "attack",
+		range = 28,
+		type = 22,
+		fire_fx = "fangkongpaohuoshe",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "四联40mm博福斯对空机炮T2",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 43,
+		corrected = 100,
+		min_range = 0,
+		id = 16420,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 3,
+		reload_max = 204,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/cannon-air",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2000
+		},
+		barrage_ID = {
+			2000
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
 end()

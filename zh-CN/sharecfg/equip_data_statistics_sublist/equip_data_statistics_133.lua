@@ -1,5 +1,94 @@
 pg = pg or {}
 pg.equip_data_statistics_133 = {
+	[17380] = {
+		name = "F8F熊猫",
+		type = 7,
+		speciality = "空战",
+		rarity = 5,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "17380",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 17380,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50660
+			},
+			{
+				5,
+				52660
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			17380,
+			81380
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
+	},
+	[17381] = {
+		id = 17381,
+		base = 17380,
+		ammo_info = {
+			{
+				6,
+				50661
+			},
+			{
+				5,
+				52661
+			}
+		},
+		weapon_id = {
+			17381,
+			81381
+		}
+	},
+	[17382] = {
+		id = 17382,
+		base = 17380,
+		ammo_info = {
+			{
+				6,
+				50662
+			},
+			{
+				5,
+				52662
+			}
+		},
+		weapon_id = {
+			17382,
+			81382
+		}
+	},
 	[17383] = {
 		id = 17383,
 		base = 17380,
@@ -288,60 +377,6 @@ pg.equip_data_statistics_133 = {
 		weapon_id = {
 			17402,
 			81402
-		}
-	},
-	[17403] = {
-		id = 17403,
-		base = 17400,
-		ammo_info = {
-			{
-				6,
-				50543
-			},
-			{
-				6,
-				50743
-			}
-		},
-		weapon_id = {
-			17403,
-			81403
-		}
-	},
-	[17404] = {
-		id = 17404,
-		base = 17400,
-		ammo_info = {
-			{
-				6,
-				50544
-			},
-			{
-				6,
-				50744
-			}
-		},
-		weapon_id = {
-			17404,
-			81404
-		}
-	},
-	[17405] = {
-		id = 17405,
-		base = 17400,
-		ammo_info = {
-			{
-				6,
-				50545
-			},
-			{
-				6,
-				50745
-			}
-		},
-		weapon_id = {
-			17405,
-			81405
 		}
 	}
 }

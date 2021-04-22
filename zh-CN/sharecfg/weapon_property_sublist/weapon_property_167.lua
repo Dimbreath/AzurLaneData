@@ -2,6 +2,28 @@ pg = pg or {}
 pg.weapon_property_167 = {}
 
 function ()
+	uv0.weapon_property_167[69195] = {
+		id = 69195,
+		name = "布莱默顿技能弹幕-LV5",
+		damage = 15,
+		base = 69191
+	}
+	uv0.weapon_property_167[69196] = {
+		id = 69196,
+		name = "布莱默顿技能弹幕-LV6",
+		damage = 16,
+		base = 69191
+	}
+	uv0.weapon_property_167[69197] = {
+		name = "布莱默顿技能弹幕-LV7",
+		damage = 17,
+		base = 69191,
+		id = 69197,
+		barrage_ID = {
+			80848,
+			80849
+		}
+	}
 	uv0.weapon_property_167[69198] = {
 		name = "布莱默顿技能弹幕-LV8",
 		damage = 18,
@@ -657,18 +679,6 @@ function ()
 		id = 69255,
 		name = "土佐Center子母弹LV5",
 		damage = 15,
-		base = 69251
-	}
-	uv0.weapon_property_167[69256] = {
-		id = 69256,
-		name = "土佐Center子母弹LV6",
-		damage = 16,
-		base = 69251
-	}
-	uv0.weapon_property_167[69257] = {
-		id = 69257,
-		name = "土佐Center子母弹LV7",
-		damage = 17,
 		base = 69251
 	}
 end()

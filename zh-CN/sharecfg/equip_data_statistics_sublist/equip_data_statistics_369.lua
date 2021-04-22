@@ -1,5 +1,106 @@
 pg = pg or {}
 pg.equip_data_statistics_369 = {
+	[89080] = {
+		name = "Gamers的证明",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "89080",
+		value_1 = "245",
+		descrip = "hololivegamers成员的证明徽章！ ",
+		rarity = 5,
+		nationality = 105,
+		ammo = 10,
+		value_3 = 0,
+		id = 89080,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6500
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89081] = {
+		id = 89081,
+		value_1 = "280",
+		base = 89080
+	},
+	[89082] = {
+		id = 89082,
+		value_1 = "310",
+		base = 89080
+	},
+	[89083] = {
+		id = 89083,
+		value_1 = "340",
+		base = 89080
+	},
+	[89084] = {
+		id = 89084,
+		value_1 = "370",
+		base = 89080
+	},
+	[89085] = {
+		id = 89085,
+		value_1 = "400",
+		base = 89080
+	},
+	[89086] = {
+		id = 89086,
+		value_1 = "430",
+		base = 89080
+	},
+	[89087] = {
+		id = 89087,
+		value_1 = "460",
+		base = 89080
+	},
+	[89088] = {
+		id = 89088,
+		value_1 = "490",
+		base = 89080
+	},
+	[89089] = {
+		id = 89089,
+		value_1 = "520",
+		base = 89080
+	},
+	[89090] = {
+		id = 89090,
+		value_1 = "550",
+		base = 89080
+	},
+	[89091] = {
+		id = 89091,
+		anti_siren = 100,
+		value_1 = "580",
+		base = 89080
+	},
+	[89092] = {
+		id = 89092,
+		anti_siren = 200,
+		value_1 = "610",
+		base = 89080
+	},
+	[89093] = {
+		id = 89093,
+		anti_siren = 300,
+		value_1 = "640",
+		base = 89080
+	},
 	[89100] = {
 		name = "玉米灯笼",
 		tech = 0,
@@ -45,119 +146,5 @@ pg.equip_data_statistics_369 = {
 		value_2 = 60,
 		value_1 = "11",
 		base = 89100
-	},
-	[89103] = {
-		id = 89103,
-		value_2 = 65,
-		value_1 = "12",
-		base = 89100
-	},
-	[89104] = {
-		id = 89104,
-		value_2 = 70,
-		value_1 = "13",
-		base = 89100
-	},
-	[89105] = {
-		id = 89105,
-		value_2 = 75,
-		value_1 = "14",
-		base = 89100
-	},
-	[89106] = {
-		id = 89106,
-		value_2 = 80,
-		value_1 = "16",
-		base = 89100
-	},
-	[89107] = {
-		id = 89107,
-		value_2 = 90,
-		value_1 = "18",
-		base = 89100
-	},
-	[89108] = {
-		id = 89108,
-		value_2 = 100,
-		value_1 = "20",
-		base = 89100
-	},
-	[89109] = {
-		id = 89109,
-		value_2 = 110,
-		value_1 = "22",
-		base = 89100
-	},
-	[89110] = {
-		id = 89110,
-		value_2 = 120,
-		value_1 = "24",
-		base = 89100
-	},
-	[89111] = {
-		id = 89111,
-		anti_siren = 100,
-		base = 89100,
-		value_2 = 130,
-		value_1 = "26"
-	},
-	[89112] = {
-		id = 89112,
-		anti_siren = 200,
-		base = 89100,
-		value_2 = 140,
-		value_1 = "28"
-	},
-	[89113] = {
-		id = 89113,
-		anti_siren = 300,
-		base = 89100,
-		value_2 = 150,
-		value_1 = "30"
-	},
-	[89120] = {
-		name = "鮟鱇肝",
-		tech = 0,
-		type = 10,
-		speciality = "无",
-		id = 89120,
-		value_2 = 3,
-		icon = "89120",
-		value_1 = "98",
-		attribute_2 = "speed",
-		rarity = 5,
-		descrip = "hololive社内自由行动的吉祥物...不动的时候会埋在地里！？",
-		nationality = 105,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "durability",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6520
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[89121] = {
-		id = 89121,
-		value_1 = "112",
-		base = 89120
-	},
-	[89122] = {
-		id = 89122,
-		value_2 = 4,
-		value_1 = "127",
-		base = 89120
 	}
 }

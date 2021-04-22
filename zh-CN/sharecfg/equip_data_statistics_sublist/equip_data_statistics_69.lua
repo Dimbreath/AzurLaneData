@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_69 = {
+	[5101] = {
+		id = 5101,
+		damage = "54 x 4",
+		base = 5100,
+		weapon_id = {
+			5101
+		}
+	},
+	[5102] = {
+		id = 5102,
+		damage = "62 x 4",
+		base = 5100,
+		weapon_id = {
+			5102
+		}
+	},
+	[5103] = {
+		id = 5103,
+		damage = "70 x 4",
+		base = 5100,
+		weapon_id = {
+			5103
+		}
+	},
 	[5120] = {
 		name = "四联装533mm鱼雷",
 		speciality = "雷击",
@@ -218,30 +242,6 @@ pg.equip_data_statistics_69 = {
 		base = 5140,
 		weapon_id = {
 			5146
-		}
-	},
-	[5147] = {
-		id = 5147,
-		damage = "126 x 4",
-		base = 5140,
-		weapon_id = {
-			5147
-		}
-	},
-	[5148] = {
-		id = 5148,
-		damage = "136 x 4",
-		base = 5140,
-		weapon_id = {
-			5148
-		}
-	},
-	[5149] = {
-		id = 5149,
-		damage = "146 x 4",
-		base = 5140,
-		weapon_id = {
-			5149
 		}
 	}
 }

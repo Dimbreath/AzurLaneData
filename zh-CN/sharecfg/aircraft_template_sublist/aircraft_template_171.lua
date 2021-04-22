@@ -1,41 +1,83 @@
 pg = pg or {}
 pg.aircraft_template_171 = {
-	[68340] = {
-		max_hp = 98,
-		name = "小赤城技能飞机Lv10",
-		base = 68331,
-		id = 68340,
-		hp_growth = 3678,
+	[68036] = {
+		max_hp = 55,
+		name = "邦克山技能轰炸机Lv6",
+		base = 68031,
+		id = 68036,
+		hp_growth = 1994,
 		weapon_ID = {
-			68350,
-			68360
+			68046,
+			68056
 		}
 	},
-	[68391] = {
-		name = "科隆改直升机Lv1",
+	[68037] = {
+		max_hp = 59,
+		name = "邦克山技能轰炸机Lv7",
+		base = 68031,
+		id = 68037,
+		hp_growth = 2157,
+		weapon_ID = {
+			68047,
+			68057
+		}
+	},
+	[68038] = {
+		max_hp = 63,
+		name = "邦克山技能轰炸机Lv8",
+		base = 68031,
+		id = 68038,
+		hp_growth = 2320,
+		weapon_ID = {
+			68048,
+			68058
+		}
+	},
+	[68039] = {
+		max_hp = 68,
+		name = "邦克山技能轰炸机Lv9",
+		base = 68031,
+		id = 68039,
+		hp_growth = 2483,
+		weapon_ID = {
+			68049,
+			68059
+		}
+	},
+	[68040] = {
+		max_hp = 73,
+		name = "邦克山技能轰炸机Lv10",
+		base = 68031,
+		id = 68040,
+		hp_growth = 2646,
+		weapon_ID = {
+			68050,
+			68060
+		}
+	},
+	[68301] = {
+		name = "绊爱技能轰炸机Lv1",
 		max_hp = 42,
 		accuracy = 23,
-		model_ID = "fl-282",
+		model_ID = "feiji_ai_aijiang",
 		ACC_growth = 0,
-		crash_DMG = 180,
+		crash_DMG = 208,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 1,
+		type = 3,
 		AP_growth = 2000,
-		icon = "fl-282",
-		nationality = 4,
-		hp_growth = 1692,
+		icon = "feiji_ai_aijiang",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1846,
 		speed = 48,
-		id = 68391,
+		id = 68301,
 		scale = 1,
-		funnel_behavior = {
-			rear = -40,
-			exist = 10,
-			front = -40,
-			stay = 2
+		weapon_ID = {
+			68311,
+			68321
 		},
-		weapon_ID = {},
 		position_offset = {
 			0,
 			5,
@@ -77,7 +119,7 @@ pg.aircraft_template_171 = {
 				0
 			},
 			{
-				0,
+				0.64,
 				0,
 				0
 			},
@@ -88,60 +130,48 @@ pg.aircraft_template_171 = {
 			}
 		}
 	},
-	[68392] = {
-		id = 68392,
-		name = "科隆改直升机Lv2",
-		base = 68391,
+	[68302] = {
 		max_hp = 48,
-		hp_growth = 1913
+		name = "绊爱技能轰炸机Lv2",
+		base = 68301,
+		id = 68302,
+		hp_growth = 2087,
+		weapon_ID = {
+			68312,
+			68322
+		}
 	},
-	[68393] = {
-		id = 68393,
-		name = "科隆改直升机Lv3",
-		base = 68391,
+	[68303] = {
 		max_hp = 54,
-		hp_growth = 2133
+		name = "绊爱技能轰炸机Lv3",
+		base = 68301,
+		id = 68303,
+		hp_growth = 2327,
+		weapon_ID = {
+			68313,
+			68323
+		}
 	},
-	[68394] = {
-		id = 68394,
-		name = "科隆改直升机Lv4",
-		base = 68391,
+	[68304] = {
 		max_hp = 61,
-		hp_growth = 2354
+		name = "绊爱技能轰炸机Lv4",
+		base = 68301,
+		id = 68304,
+		hp_growth = 2568,
+		weapon_ID = {
+			68314,
+			68324
+		}
 	},
-	[68395] = {
-		id = 68395,
-		name = "科隆改直升机Lv5",
-		base = 68391,
+	[68305] = {
 		max_hp = 67,
-		hp_growth = 2575
-	},
-	[68396] = {
-		id = 68396,
-		name = "科隆改直升机Lv6",
-		base = 68391,
-		max_hp = 73,
-		hp_growth = 2796
-	},
-	[68397] = {
-		id = 68397,
-		name = "科隆改直升机Lv7",
-		base = 68391,
-		max_hp = 79,
-		hp_growth = 3016
-	},
-	[68398] = {
-		id = 68398,
-		name = "科隆改直升机Lv8",
-		base = 68391,
-		max_hp = 86,
-		hp_growth = 3237
-	},
-	[68399] = {
-		id = 68399,
-		name = "科隆改直升机Lv9",
-		base = 68391,
-		max_hp = 92,
-		hp_growth = 3458
+		name = "绊爱技能轰炸机Lv5",
+		base = 68301,
+		id = 68305,
+		hp_growth = 2809,
+		weapon_ID = {
+			68315,
+			68325
+		}
 	}
 }

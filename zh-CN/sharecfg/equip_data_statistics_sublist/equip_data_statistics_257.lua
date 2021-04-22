@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_257 = {
+	[36624] = {
+		id = 36624,
+		damage = "63/轮",
+		base = 36620,
+		weapon_id = {
+			36624
+		}
+	},
+	[36625] = {
+		id = 36625,
+		damage = "70/轮",
+		base = 36620,
+		weapon_id = {
+			36625
+		}
+	},
+	[36626] = {
+		id = 36626,
+		damage = "77/轮",
+		base = 36620,
+		weapon_id = {
+			36626
+		}
+	},
 	[36640] = {
 		name = "127mm连装高射炮",
 		speciality = "防空",
@@ -219,30 +243,6 @@ pg.equip_data_statistics_257 = {
 		base = 36660,
 		weapon_id = {
 			36661
-		}
-	},
-	[36662] = {
-		id = 36662,
-		damage = "68/轮",
-		base = 36660,
-		weapon_id = {
-			36662
-		}
-	},
-	[36663] = {
-		id = 36663,
-		damage = "75/轮",
-		base = 36660,
-		weapon_id = {
-			36663
-		}
-	},
-	[36664] = {
-		id = 36664,
-		damage = "82/轮",
-		base = 36660,
-		weapon_id = {
-			36664
 		}
 	}
 }

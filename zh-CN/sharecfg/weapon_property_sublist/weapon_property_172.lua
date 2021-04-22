@@ -2,16 +2,6 @@ pg = pg or {}
 pg.weapon_property_172 = {}
 
 function ()
-	uv0.weapon_property_172[69498] = {
-		id = 69498,
-		damage = 202,
-		base = 69491
-	}
-	uv0.weapon_property_172[69499] = {
-		id = 69499,
-		damage = 220,
-		base = 69491
-	}
 	uv0.weapon_property_172[69500] = {
 		id = 69500,
 		damage = 240,
@@ -676,6 +666,24 @@ function ()
 		id = 69557,
 		name = "香槟伴随射击平射小子弹LV7",
 		damage = 30,
+		base = 69551
+	}
+	uv0.weapon_property_172[69558] = {
+		id = 69558,
+		name = "香槟伴随射击平射小子弹LV8",
+		damage = 32,
+		base = 69551
+	}
+	uv0.weapon_property_172[69559] = {
+		id = 69559,
+		name = "香槟伴随射击平射小子弹LV9",
+		damage = 34,
+		base = 69551
+	}
+	uv0.weapon_property_172[69560] = {
+		id = 69560,
+		name = "香槟伴随射击平射小子弹LV10",
+		damage = 36,
 		base = 69551
 	}
 end()

@@ -1,5 +1,74 @@
 pg = pg or {}
 pg.equip_data_statistics_165 = {
+	[24060] = {
+		name = "双联装356mm主炮",
+		speciality = "跨射",
+		type = 4,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "24060",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "56 x 2",
+		nationality = 2,
+		ammo = 2,
+		value_3 = 0,
+		id = 24060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1522
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			24060
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"BB",
+			"MG",
+			"HE"
+		}
+	},
+	[24061] = {
+		id = 24061,
+		damage = "63 x 2",
+		base = 24060,
+		weapon_id = {
+			24061
+		}
+	},
+	[24062] = {
+		id = 24062,
+		damage = "68 x 2",
+		base = 24060,
+		weapon_id = {
+			24062
+		}
+	},
 	[24063] = {
 		id = 24063,
 		damage = "75 x 2",
@@ -200,30 +269,6 @@ pg.equip_data_statistics_165 = {
 			"BB",
 			"MG",
 			"AP"
-		}
-	},
-	[24121] = {
-		id = 24121,
-		damage = "57 x 2",
-		base = 24120,
-		weapon_id = {
-			24121
-		}
-	},
-	[24122] = {
-		id = 24122,
-		damage = "64 x 2",
-		base = 24120,
-		weapon_id = {
-			24122
-		}
-	},
-	[24123] = {
-		id = 24123,
-		damage = "70 x 2",
-		base = 24120,
-		weapon_id = {
-			24123
 		}
 	}
 }

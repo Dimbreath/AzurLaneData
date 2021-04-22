@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_64 = {
+	[4101] = {
+		id = 4101,
+		damage = "22 x 3",
+		base = 4100,
+		weapon_id = {
+			4101
+		}
+	},
+	[4102] = {
+		id = 4102,
+		damage = "24 x 3",
+		base = 4100,
+		weapon_id = {
+			4102
+		}
+	},
+	[4103] = {
+		id = 4103,
+		damage = "26 x 3",
+		base = 4100,
+		weapon_id = {
+			4103
+		}
+	},
 	[4120] = {
 		name = "改良深弹投射器",
 		speciality = "反潜",
@@ -192,30 +216,6 @@ pg.equip_data_statistics_64 = {
 		base = 4140,
 		weapon_id = {
 			4146
-		}
-	},
-	[4147] = {
-		id = 4147,
-		damage = "49 x 3",
-		base = 4140,
-		weapon_id = {
-			4147
-		}
-	},
-	[4148] = {
-		id = 4148,
-		damage = "53 x 3",
-		base = 4140,
-		weapon_id = {
-			4148
-		}
-	},
-	[4149] = {
-		id = 4149,
-		damage = "57 x 3",
-		base = 4140,
-		weapon_id = {
-			4149
 		}
 	}
 }

@@ -1,5 +1,56 @@
 pg = pg or {}
 pg.equip_data_statistics_201 = {
+	[28101] = {
+		id = 28101,
+		base = 28100,
+		ammo_info = {
+			{
+				6,
+				50001
+			},
+			{
+				4,
+				51101
+			}
+		},
+		weapon_id = {
+			28101
+		}
+	},
+	[28102] = {
+		id = 28102,
+		base = 28100,
+		ammo_info = {
+			{
+				6,
+				50002
+			},
+			{
+				4,
+				51102
+			}
+		},
+		weapon_id = {
+			28102
+		}
+	},
+	[28103] = {
+		id = 28103,
+		base = 28100,
+		ammo_info = {
+			{
+				6,
+				50003
+			},
+			{
+				4,
+				51103
+			}
+		},
+		weapon_id = {
+			28103
+		}
+	},
 	[28104] = {
 		id = 28104,
 		base = 28100,
@@ -271,92 +322,6 @@ pg.equip_data_statistics_201 = {
 		},
 		weapon_id = {
 			28130
-		}
-	},
-	[28140] = {
-		name = "梭鱼",
-		type = 8,
-		speciality = "雷击",
-		rarity = 5,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 45,
-		icon = "28100",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 28140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50040
-			},
-			{
-				4,
-				51140
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			28140
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"TB"
-		}
-	},
-	[28141] = {
-		id = 28141,
-		base = 28140,
-		ammo_info = {
-			{
-				6,
-				50041
-			},
-			{
-				4,
-				51141
-			}
-		},
-		weapon_id = {
-			28141
-		}
-	},
-	[28142] = {
-		id = 28142,
-		base = 28140,
-		ammo_info = {
-			{
-				6,
-				50042
-			},
-			{
-				4,
-				51142
-			}
-		},
-		weapon_id = {
-			28142
 		}
 	}
 }

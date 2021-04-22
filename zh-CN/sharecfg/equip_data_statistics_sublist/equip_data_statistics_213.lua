@@ -1,5 +1,28 @@
 pg = pg or {}
 pg.equip_data_statistics_213 = {
+	[31061] = {
+		id = 31061,
+		base = 31060,
+		weapon_id = {
+			31061
+		}
+	},
+	[31062] = {
+		id = 31062,
+		damage = "5 x 4",
+		base = 31060,
+		weapon_id = {
+			31062
+		}
+	},
+	[31063] = {
+		id = 31063,
+		damage = "5 x 4",
+		base = 31060,
+		weapon_id = {
+			31063
+		}
+	},
 	[31064] = {
 		id = 31064,
 		damage = "6 x 4",
@@ -224,88 +247,6 @@ pg.equip_data_statistics_213 = {
 		base = 31120,
 		weapon_id = {
 			31121
-		}
-	},
-	[31122] = {
-		id = 31122,
-		damage = "4 x 1",
-		base = 31120,
-		weapon_id = {
-			31122
-		}
-	},
-	[31123] = {
-		id = 31123,
-		damage = "4 x 1",
-		base = 31120,
-		weapon_id = {
-			31123
-		}
-	},
-	[31140] = {
-		name = "120mm单装炮",
-		speciality = "锁定",
-		type = 1,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "31100",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "3 x 1",
-		nationality = 3,
-		ammo = 3,
-		value_3 = 0,
-		id = 31140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1200
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1200
-			},
-			{
-				4,
-				1000
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			31140
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"DD",
-			"MG"
 		}
 	}
 }

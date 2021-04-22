@@ -104,6 +104,26 @@ function slot7.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
 	return slot8
 end
 
+function slot7.interruptAllEmitter(slot0)
+	if slot0._majorEmitterList then
+		for slot4, slot5 in ipairs(slot0._majorEmitterList) do
+			slot5:Interrupt()
+		end
+	end
+
+	for slot4, slot5 in ipairs(slot0._tempEmittersList) do
+		for slot9, slot10 in ipairs(slot5) do
+			slot10:Interrupt()
+		end
+	end
+
+	for slot4, slot5 in ipairs(slot0._dumpedEmittersList) do
+		for slot9, slot10 in ipairs(slot5) do
+			slot10:Interrupt()
+		end
+	end
+end
+
 function slot7.cacheSectorData(slot0)
 	slot0._upperEdge = math.deg2Rad * slot0:GetAttackAngle() / 2
 	slot0._lowerEdge = -1 * slot0._upperEdge
@@ -556,14 +576,16 @@ function slot7.PreCast(slot0)
 end
 
 function slot7.Fire(slot0, slot1)
-	slot0:DispatchGCD()
+	if not slot0._host:IsCease() then
+		slot0:DispatchGCD()
 
-	slot0._currentState = slot0.STATE_ATTACK
+		slot0._currentState = slot0.STATE_ATTACK
 
-	if slot0._tmpData.action_index == "" then
-		slot0:DoAttack(slot1)
-	else
-		slot0:DispatchFireEvent(slot1, slot0._tmpData.action_index)
+		if slot0._tmpData.action_index == "" then
+			slot0:DoAttack(slot1)
+		else
+			slot0:DispatchFireEvent(slot1, slot0._tmpData.action_index)
+		end
 	end
 
 	return true
@@ -731,6 +753,13 @@ function slot7.Interrupt(slot0)
 	slot0:DispatchEvent(uv0.Event.New(uv0.Battle.BattleUnitEvent.WEAPON_INTERRUPT, slot1))
 	slot0:RemovePrecastTimer()
 	slot0:EnterCoolDown()
+end
+
+function slot7.Cease(slot0)
+	if slot0._currentState == uv0.STATE_ATTACK or slot0._currentState == uv0.STATE_PRECAST or slot0._currentState == uv0.STATE_PRECAST_FINISH then
+		slot0:interruptAllEmitter()
+		slot0:EnterCoolDown()
+	end
 end
 
 function slot7.DispatchGCD(slot0)

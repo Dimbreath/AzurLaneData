@@ -1,5 +1,63 @@
 pg = pg or {}
 pg.equip_data_statistics_28 = {
+	[1251] = {
+		id = 1251,
+		anti_siren = 100,
+		base = 1240,
+		value_2 = 23,
+		value_1 = "25"
+	},
+	[1260] = {
+		name = "高性能火控雷达",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		id = 1260,
+		value_2 = 12,
+		icon = "1260",
+		value_1 = "14",
+		attribute_2 = "cannon",
+		rarity = 5,
+		descrip = "先进的火控雷达，有效提高炮击命中和伤害，比普通的火控雷达性能更好",
+		nationality = 1,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "hit",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6260
+		},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {
+			4,
+			5,
+			10,
+			13
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DEV"
+		}
+	},
+	[1261] = {
+		id = 1261,
+		value_2 = 13,
+		value_1 = "16",
+		base = 1260
+	},
 	[1262] = {
 		id = 1262,
 		value_2 = 14,
@@ -138,74 +196,5 @@ pg.equip_data_statistics_28 = {
 		id = 1301,
 		value_1 = "57",
 		base = 1300
-	},
-	[1302] = {
-		id = 1302,
-		value_1 = "65",
-		base = 1300
-	},
-	[1303] = {
-		id = 1303,
-		value_1 = "72",
-		base = 1300
-	},
-	[1320] = {
-		name = "防鱼雷隔舱",
-		tech = 2,
-		type = 10,
-		speciality = "无",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "1300",
-		value_1 = "90",
-		descrip = "防鱼雷隔舱，可以减少鱼雷造成的伤害",
-		rarity = 3,
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 1320,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6020
-		},
-		part_main = {
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			10,
-			11,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			10,
-			11,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
 	}
 }

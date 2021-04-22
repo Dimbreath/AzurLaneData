@@ -1,5 +1,49 @@
 pg = pg or {}
 pg.equip_data_statistics_330 = {
+	[60292] = {
+		id = 60292,
+		name = "航空攻击展示-隼鹰II",
+		base = 60291,
+		weapon_id = {
+			60292
+		}
+	},
+	[60293] = {
+		id = 60293,
+		name = "航空攻击展示-隼鹰III",
+		base = 60291,
+		weapon_id = {
+			60293
+		}
+	},
+	[60301] = {
+		name = "Z46弹幕展示I",
+		tech = 1,
+		speciality = "无",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕展示用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60301,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60301
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
 	[60302] = {
 		id = 60302,
 		name = "Z46弹幕展示II",
@@ -205,50 +249,6 @@ pg.equip_data_statistics_330 = {
 		equip_info = {},
 		weapon_id = {
 			60351
-		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60352] = {
-		id = 60352,
-		name = "航空攻击展示-乌璐露II",
-		base = 60351,
-		weapon_id = {
-			60352
-		}
-	},
-	[60353] = {
-		id = 60353,
-		name = "航空攻击展示-乌璐露III",
-		base = 60351,
-		weapon_id = {
-			60353
-		}
-	},
-	[60361] = {
-		name = "航空攻击展示-萨拉娜I",
-		tech = 1,
-		speciality = "无",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航母空袭展示用",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60361,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60361
 		},
 		skill_id = {},
 		part_main = {},

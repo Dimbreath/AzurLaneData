@@ -7,7 +7,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetNil",
 				arg_list = {
-					weapon_id = 64001
+					weapon_id = 64011
 				}
 			}
 		}
@@ -20,7 +20,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetNil",
 				arg_list = {
-					weapon_id = 64002
+					weapon_id = 64012
 				}
 			}
 		}
@@ -33,7 +33,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetNil",
 				arg_list = {
-					weapon_id = 64003
+					weapon_id = 64013
 				}
 			}
 		}
@@ -46,7 +46,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetNil",
 				arg_list = {
-					weapon_id = 64004
+					weapon_id = 64014
 				}
 			}
 		}
@@ -59,7 +59,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetNil",
 				arg_list = {
-					weapon_id = 64005
+					weapon_id = 64015
 				}
 			}
 		}
@@ -72,7 +72,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetNil",
 				arg_list = {
-					weapon_id = 64006
+					weapon_id = 64016
 				}
 			}
 		}
@@ -85,7 +85,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetNil",
 				arg_list = {
-					weapon_id = 64007
+					weapon_id = 64017
 				}
 			}
 		}
@@ -98,7 +98,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetNil",
 				arg_list = {
-					weapon_id = 64008
+					weapon_id = 64018
 				}
 			}
 		}
@@ -111,7 +111,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetNil",
 				arg_list = {
-					weapon_id = 64009
+					weapon_id = 64019
 				}
 			}
 		}
@@ -124,7 +124,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetNil",
 				arg_list = {
-					weapon_id = 64010
+					weapon_id = 64020
 				}
 			}
 		}
@@ -152,7 +152,7 @@ return {
 			type = "BattleSkillFire",
 			target_choise = "TargetNil",
 			arg_list = {
-				weapon_id = 64001
+				weapon_id = 64011
 			}
 		}
 	}

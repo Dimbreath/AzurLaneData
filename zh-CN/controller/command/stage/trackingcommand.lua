@@ -124,7 +124,6 @@ function slot0.execute(slot0, slot1)
 			end
 
 			uv7:sendNotification(GAME.TRACKING_DONE, uv0)
-			uv7:sendNotification(ChapterProxy.CHAPTER_EXTAR_FLAG_UPDATED, uv0.extraFlagList)
 			getProxy(ChapterProxy):updateExtraFlag(uv0, uv0.extraFlagList, {}, true)
 
 			if uv9 ~= 0 and uv8.autoFightFlag then

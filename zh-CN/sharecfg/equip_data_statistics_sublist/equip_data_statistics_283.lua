@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.equip_data_statistics_283 = {
+	[41069] = {
+		id = 41069,
+		damage = "9 x 4",
+		base = 41060,
+		weapon_id = {
+			41069
+		}
+	},
+	[41070] = {
+		id = 41070,
+		damage = "10 x 4",
+		base = 41060,
+		weapon_id = {
+			41070
+		}
+	},
+	[41071] = {
+		anti_siren = 100,
+		damage = "10 x 4",
+		base = 41060,
+		id = 41071,
+		weapon_id = {
+			41071
+		}
+	},
 	[41100] = {
 		name = "双联装128mmSKC41高平两用炮",
 		speciality = "锁定",
@@ -290,30 +315,6 @@ pg.equip_data_statistics_283 = {
 		base = 41140,
 		weapon_id = {
 			41142
-		}
-	},
-	[41143] = {
-		id = 41143,
-		damage = "7 x 4",
-		base = 41140,
-		weapon_id = {
-			41143
-		}
-	},
-	[41144] = {
-		id = 41144,
-		damage = "7 x 4",
-		base = 41140,
-		weapon_id = {
-			41144
-		}
-	},
-	[41145] = {
-		id = 41145,
-		damage = "8 x 4",
-		base = 41140,
-		weapon_id = {
-			41145
 		}
 	}
 }

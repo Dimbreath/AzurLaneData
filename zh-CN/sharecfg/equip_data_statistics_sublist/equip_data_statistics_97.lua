@@ -1,5 +1,73 @@
 pg = pg or {}
 pg.equip_data_statistics_97 = {
+	[14029] = {
+		id = 14029,
+		damage = "79 x 3",
+		base = 14020,
+		weapon_id = {
+			14029
+		}
+	},
+	[14030] = {
+		id = 14030,
+		damage = "84 x 3",
+		base = 14020,
+		weapon_id = {
+			14030
+		}
+	},
+	[14040] = {
+		name = "三联装305mm主炮Mk8",
+		speciality = "跨射",
+		type = 4,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "14000",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "44 x 3",
+		nationality = 1,
+		ammo = 3,
+		value_3 = 0,
+		id = 14040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1510
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			14040
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		}
+	},
 	[14041] = {
 		id = 14041,
 		damage = "48 x 3",
@@ -156,30 +224,6 @@ pg.equip_data_statistics_97 = {
 			"USS",
 			"BB",
 			"MG"
-		}
-	},
-	[14101] = {
-		id = 14101,
-		damage = "46 x 3",
-		base = 14100,
-		weapon_id = {
-			14101
-		}
-	},
-	[14102] = {
-		id = 14102,
-		damage = "50 x 3",
-		base = 14100,
-		weapon_id = {
-			14102
-		}
-	},
-	[14103] = {
-		id = 14103,
-		damage = "56 x 3",
-		base = 14100,
-		weapon_id = {
-			14103
 		}
 	}
 }

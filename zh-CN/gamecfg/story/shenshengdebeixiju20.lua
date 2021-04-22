@@ -96,9 +96,10 @@ return {
 		},
 		{
 			actor = 900198,
-			side = 2,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "啊啊…利托里奥真的没救了（扶额",
 			typewriter = {
 				speed = 0.05,

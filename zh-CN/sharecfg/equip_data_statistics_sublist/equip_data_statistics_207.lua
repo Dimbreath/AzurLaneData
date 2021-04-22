@@ -1,5 +1,91 @@
 pg = pg or {}
 pg.equip_data_statistics_207 = {
+	[29022] = {
+		id = 29022,
+		base = 29020,
+		ammo_info = {
+			{
+				6,
+				50122
+			},
+			{
+				5,
+				52222
+			}
+		},
+		weapon_id = {
+			29022
+		}
+	},
+	[29023] = {
+		id = 29023,
+		base = 29020,
+		ammo_info = {
+			{
+				6,
+				50123
+			},
+			{
+				5,
+				52223
+			}
+		},
+		weapon_id = {
+			29023
+		}
+	},
+	[29040] = {
+		name = "贼鸥",
+		type = 9,
+		speciality = "轰炸",
+		rarity = 3,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "29000",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 29040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50140
+			},
+			{
+				5,
+				52240
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			29040
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		}
+	},
 	[29041] = {
 		id = 29041,
 		base = 29040,
@@ -306,57 +392,6 @@ pg.equip_data_statistics_207 = {
 		},
 		weapon_id = {
 			29122
-		}
-	},
-	[29123] = {
-		id = 29123,
-		base = 29120,
-		ammo_info = {
-			{
-				6,
-				50223
-			},
-			{
-				5,
-				52123
-			}
-		},
-		weapon_id = {
-			29123
-		}
-	},
-	[29124] = {
-		id = 29124,
-		base = 29120,
-		ammo_info = {
-			{
-				6,
-				50224
-			},
-			{
-				5,
-				52124
-			}
-		},
-		weapon_id = {
-			29124
-		}
-	},
-	[29125] = {
-		id = 29125,
-		base = 29120,
-		ammo_info = {
-			{
-				6,
-				50225
-			},
-			{
-				5,
-				52125
-			}
-		},
-		weapon_id = {
-			29125
 		}
 	}
 }

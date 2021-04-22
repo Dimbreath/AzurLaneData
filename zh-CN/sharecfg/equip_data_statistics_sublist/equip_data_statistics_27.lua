@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.equip_data_statistics_27 = {
+	[1221] = {
+		id = 1221,
+		value_2 = 6,
+		value_1 = "7",
+		base = 1220
+	},
+	[1222] = {
+		id = 1222,
+		value_2 = 7,
+		value_1 = "8",
+		base = 1220
+	},
+	[1223] = {
+		id = 1223,
+		value_2 = 7,
+		value_1 = "9",
+		base = 1220
+	},
 	[1224] = {
 		id = 1224,
 		value_2 = 8,
@@ -126,63 +144,5 @@ pg.equip_data_statistics_27 = {
 		value_2 = 21,
 		value_1 = "24",
 		base = 1240
-	},
-	[1251] = {
-		id = 1251,
-		anti_siren = 100,
-		base = 1240,
-		value_2 = 23,
-		value_1 = "25"
-	},
-	[1260] = {
-		name = "高性能火控雷达",
-		tech = 0,
-		type = 10,
-		speciality = "无",
-		id = 1260,
-		value_2 = 12,
-		icon = "1260",
-		value_1 = "14",
-		attribute_2 = "cannon",
-		rarity = 5,
-		descrip = "先进的火控雷达，有效提高炮击命中和伤害，比普通的火控雷达性能更好",
-		nationality = 1,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "hit",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6260
-		},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {
-			4,
-			5,
-			10,
-			13
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"DEV"
-		}
-	},
-	[1261] = {
-		id = 1261,
-		value_2 = 13,
-		value_1 = "16",
-		base = 1260
 	}
 }

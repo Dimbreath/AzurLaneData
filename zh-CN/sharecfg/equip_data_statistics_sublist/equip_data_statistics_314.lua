@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_314 = {
+	[46326] = {
+		id = 46326,
+		damage = "77/轮",
+		base = 46320,
+		weapon_id = {
+			46326
+		}
+	},
+	[46327] = {
+		id = 46327,
+		damage = "83/轮",
+		base = 46320,
+		weapon_id = {
+			46327
+		}
+	},
+	[46328] = {
+		id = 46328,
+		damage = "89/轮",
+		base = 46320,
+		weapon_id = {
+			46328
+		}
+	},
 	[46329] = {
 		id = 46329,
 		damage = "95/轮",
@@ -165,86 +189,6 @@ pg.equip_data_statistics_314 = {
 		id = 46351,
 		weapon_id = {
 			46351
-		}
-	},
-	[46352] = {
-		anti_siren = 200,
-		damage = "122/轮",
-		base = 46340,
-		id = 46352,
-		weapon_id = {
-			46352
-		}
-	},
-	[46353] = {
-		anti_siren = 300,
-		damage = "122/轮",
-		base = 46340,
-		id = 46353,
-		weapon_id = {
-			46353
-		}
-	},
-	[46360] = {
-		name = "双联105mmSKC高炮改进型",
-		speciality = "防空",
-		type = 6,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 45,
-		icon = "46360",
-		attribute_2 = "antiaircraft",
-		rarity = 5,
-		damage = "55/轮",
-		nationality = 4,
-		ammo = 5,
-		value_3 = 0,
-		id = 46360,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			46360
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"ST",
-			"AA"
 		}
 	}
 }

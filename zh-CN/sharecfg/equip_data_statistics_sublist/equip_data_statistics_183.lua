@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_183 = {
+	[26340] = {
+		name = "76mm高射炮",
+		speciality = "防空",
+		type = 6,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "26300",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "22/轮",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 26340,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			26340
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
+	[26341] = {
+		id = 26341,
+		damage = "25/轮",
+		base = 26340,
+		weapon_id = {
+			26341
+		}
+	},
+	[26342] = {
+		id = 26342,
+		damage = "28/轮",
+		base = 26340,
+		weapon_id = {
+			26342
+		}
+	},
 	[26343] = {
 		id = 26343,
 		damage = "31/轮",
@@ -165,30 +243,6 @@ pg.equip_data_statistics_183 = {
 		base = 26360,
 		weapon_id = {
 			26364
-		}
-	},
-	[26365] = {
-		id = 26365,
-		damage = "26/轮",
-		base = 26360,
-		weapon_id = {
-			26365
-		}
-	},
-	[26366] = {
-		id = 26366,
-		damage = "28/轮",
-		base = 26360,
-		weapon_id = {
-			26366
-		}
-	},
-	[26367] = {
-		id = 26367,
-		damage = "28/轮",
-		base = 26360,
-		weapon_id = {
-			26367
 		}
 	}
 }

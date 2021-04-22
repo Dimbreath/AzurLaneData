@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.equip_data_statistics_42 = {
+	[2145] = {
+		id = 2145,
+		value_2 = 40,
+		value_1 = "49",
+		base = 2140
+	},
+	[2146] = {
+		id = 2146,
+		value_2 = 44,
+		value_1 = "53",
+		base = 2140
+	},
+	[2147] = {
+		id = 2147,
+		value_2 = 48,
+		value_1 = "57",
+		base = 2140
+	},
 	[2148] = {
 		id = 2148,
 		value_2 = 52,
@@ -187,76 +205,5 @@ pg.equip_data_statistics_42 = {
 		value_2 = 4,
 		value_1 = "15",
 		base = 2220
-	},
-	[2226] = {
-		id = 2226,
-		value_2 = 4,
-		value_1 = "17",
-		base = 2220
-	},
-	[2240] = {
-		name = "链式装弹机",
-		tech = 3,
-		type = 10,
-		speciality = "无",
-		id = 2240,
-		value_2 = 3,
-		icon = "2200",
-		value_1 = "14",
-		attribute_2 = "cannon",
-		rarity = 4,
-		descrip = "较先进的装弹机，总比一个个手动填装要好得多",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "reload",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[2241] = {
-		id = 2241,
-		value_1 = "16",
-		base = 2240
 	}
 }

@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_166 = {
+	[24121] = {
+		id = 24121,
+		damage = "57 x 2",
+		base = 24120,
+		weapon_id = {
+			24121
+		}
+	},
+	[24122] = {
+		id = 24122,
+		damage = "64 x 2",
+		base = 24120,
+		weapon_id = {
+			24122
+		}
+	},
+	[24123] = {
+		id = 24123,
+		damage = "70 x 2",
+		base = 24120,
+		weapon_id = {
+			24123
+		}
+	},
 	[24124] = {
 		id = 24124,
 		damage = "77 x 2",
@@ -155,76 +179,6 @@ pg.equip_data_statistics_166 = {
 		base = 24140,
 		weapon_id = {
 			24150
-		}
-	},
-	[24151] = {
-		anti_siren = 100,
-		damage = "128 x 2",
-		base = 24140,
-		id = 24151,
-		weapon_id = {
-			24151
-		}
-	},
-	[24160] = {
-		name = "试作型三联装381mm主炮",
-		speciality = "跨射",
-		type = 4,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 45,
-		icon = "24160",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "56 x 3",
-		nationality = 2,
-		ammo = 2,
-		value_3 = 0,
-		id = 24160,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				2,
-				1512
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			24160
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"BB",
-			"MG",
-			"HE"
-		}
-	},
-	[24161] = {
-		id = 24161,
-		damage = "64 x 3",
-		base = 24160,
-		weapon_id = {
-			24161
 		}
 	}
 }

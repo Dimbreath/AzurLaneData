@@ -2,106 +2,6 @@ pg = pg or {}
 pg.weapon_property_190 = {}
 
 function ()
-	uv0.weapon_property_190[82143] = {
-		reload_max = 1721,
-		damage = 47,
-		base = 82140,
-		id = 82143,
-		bullet_ID = {
-			27103
-		}
-	}
-	uv0.weapon_property_190[82144] = {
-		reload_max = 1693,
-		damage = 51,
-		base = 82140,
-		id = 82144,
-		bullet_ID = {
-			27104
-		}
-	}
-	uv0.weapon_property_190[82145] = {
-		reload_max = 1665,
-		damage = 57,
-		base = 82140,
-		id = 82145,
-		bullet_ID = {
-			27105
-		}
-	}
-	uv0.weapon_property_190[82146] = {
-		reload_max = 1637,
-		damage = 61,
-		base = 82140,
-		id = 82146,
-		bullet_ID = {
-			27106
-		}
-	}
-	uv0.weapon_property_190[82147] = {
-		reload_max = 1609,
-		damage = 67,
-		base = 82140,
-		id = 82147,
-		bullet_ID = {
-			27107
-		}
-	}
-	uv0.weapon_property_190[82148] = {
-		reload_max = 1581,
-		damage = 71,
-		base = 82140,
-		id = 82148,
-		bullet_ID = {
-			27108
-		}
-	}
-	uv0.weapon_property_190[82149] = {
-		reload_max = 1553,
-		damage = 75,
-		base = 82140,
-		id = 82149,
-		bullet_ID = {
-			27109
-		}
-	}
-	uv0.weapon_property_190[82150] = {
-		reload_max = 1525,
-		damage = 82,
-		base = 82140,
-		id = 82150,
-		bullet_ID = {
-			27110
-		}
-	}
-	uv0.weapon_property_190[82151] = {
-		reload_max = 1525,
-		damage = 82,
-		base = 82140,
-		id = 82151,
-		bullet_ID = {
-			27110
-		}
-	}
-	uv0.weapon_property_190[82152] = {
-		reload_max = 1525,
-		damage = 82,
-		base = 82140,
-		id = 82152,
-		bullet_ID = {
-			27110
-		}
-	}
-	uv0.weapon_property_190[82153] = {
-		reload_max = 1525,
-		damage = 82,
-		base = 82140,
-		id = 82153,
-		precast_param = " ",
-		bullet_ID = {
-			27110
-		}
-	}
 	uv0.weapon_property_190[82200] = {
 		action_index = "attack",
 		range = 90,
@@ -678,5 +578,102 @@ function ()
 		id = 82330,
 		reload_max = 1596,
 		base = 82320
+	}
+	uv0.weapon_property_190[82331] = {
+		id = 82331,
+		reload_max = 1596,
+		base = 82320
+	}
+	uv0.weapon_property_190[82332] = {
+		id = 82332,
+		reload_max = 1596,
+		base = 82320
+	}
+	uv0.weapon_property_190[82333] = {
+		id = 82333,
+		reload_max = 1596,
+		base = 82320
+	}
+	uv0.weapon_property_190[82980] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "飞龙T0",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 90,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 82980,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 2300,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_190[82981] = {
+		id = 82981,
+		reload_max = 2245,
+		base = 82980
+	}
+	uv0.weapon_property_190[82982] = {
+		id = 82982,
+		reload_max = 2190,
+		base = 82980
+	}
+	uv0.weapon_property_190[82983] = {
+		id = 82983,
+		reload_max = 2135,
+		base = 82980
+	}
+	uv0.weapon_property_190[82984] = {
+		id = 82984,
+		reload_max = 2080,
+		base = 82980
+	}
+	uv0.weapon_property_190[82985] = {
+		id = 82985,
+		reload_max = 2025,
+		base = 82980
+	}
+	uv0.weapon_property_190[82986] = {
+		id = 82986,
+		reload_max = 1970,
+		base = 82980
+	}
+	uv0.weapon_property_190[82987] = {
+		id = 82987,
+		reload_max = 1915,
+		base = 82980
+	}
+	uv0.weapon_property_190[82988] = {
+		id = 82988,
+		reload_max = 1860,
+		base = 82980
 	}
 end()

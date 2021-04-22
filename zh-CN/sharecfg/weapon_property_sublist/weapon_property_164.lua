@@ -2,6 +2,42 @@ pg = pg or {}
 pg.weapon_property_164 = {}
 
 function ()
+	uv0.weapon_property_164[69002] = {
+		id = 69002,
+		name = "骏河副炮弹幕PVPLV2",
+		damage = 12,
+		base = 69001
+	}
+	uv0.weapon_property_164[69003] = {
+		id = 69003,
+		name = "骏河副炮弹幕PVPLV3",
+		damage = 13,
+		base = 69001
+	}
+	uv0.weapon_property_164[69004] = {
+		id = 69004,
+		name = "骏河副炮弹幕PVPLV4",
+		damage = 14,
+		base = 69001
+	}
+	uv0.weapon_property_164[69005] = {
+		id = 69005,
+		name = "骏河副炮弹幕PVPLV5",
+		damage = 15,
+		base = 69001
+	}
+	uv0.weapon_property_164[69006] = {
+		id = 69006,
+		name = "骏河副炮弹幕PVPLV6",
+		damage = 16,
+		base = 69001
+	}
+	uv0.weapon_property_164[69007] = {
+		id = 69007,
+		name = "骏河副炮弹幕PVPLV7",
+		damage = 17,
+		base = 69001
+	}
 	uv0.weapon_property_164[69008] = {
 		id = 69008,
 		name = "骏河副炮弹幕PVPLV8",
@@ -610,36 +646,6 @@ function ()
 		id = 69072,
 		name = "苏俄PVP主炮弹幕-Lv2",
 		damage = 70,
-		base = 69071
-	}
-	uv0.weapon_property_164[69073] = {
-		id = 69073,
-		name = "苏俄PVP主炮弹幕-Lv3",
-		damage = 82,
-		base = 69071
-	}
-	uv0.weapon_property_164[69074] = {
-		id = 69074,
-		name = "苏俄PVP主炮弹幕-Lv4",
-		damage = 94,
-		base = 69071
-	}
-	uv0.weapon_property_164[69075] = {
-		id = 69075,
-		name = "苏俄PVP主炮弹幕-Lv5",
-		damage = 106,
-		base = 69071
-	}
-	uv0.weapon_property_164[69076] = {
-		id = 69076,
-		name = "苏俄PVP主炮弹幕-Lv6",
-		damage = 118,
-		base = 69071
-	}
-	uv0.weapon_property_164[69077] = {
-		id = 69077,
-		name = "苏俄PVP主炮弹幕-Lv7",
-		damage = 130,
 		base = 69071
 	}
 end()

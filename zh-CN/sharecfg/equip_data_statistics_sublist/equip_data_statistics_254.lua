@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_254 = {
+	[36522] = {
+		id = 36522,
+		damage = "24/轮",
+		base = 36520,
+		weapon_id = {
+			36522
+		}
+	},
+	[36523] = {
+		id = 36523,
+		damage = "27/轮",
+		base = 36520,
+		weapon_id = {
+			36523
+		}
+	},
+	[36524] = {
+		id = 36524,
+		damage = "30/轮",
+		base = 36520,
+		weapon_id = {
+			36524
+		}
+	},
 	[36525] = {
 		id = 36525,
 		damage = "33/轮",
@@ -165,84 +189,6 @@ pg.equip_data_statistics_254 = {
 		id = 36551,
 		weapon_id = {
 			36551
-		}
-	},
-	[36560] = {
-		name = "100mm连装高炮",
-		speciality = "防空",
-		type = 6,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 45,
-		icon = "36560",
-		attribute_2 = "antiaircraft",
-		rarity = 5,
-		damage = "50/轮",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 36560,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			36560
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"AA"
-		}
-	},
-	[36561] = {
-		id = 36561,
-		damage = "57/轮",
-		base = 36560,
-		weapon_id = {
-			36561
-		}
-	},
-	[36562] = {
-		id = 36562,
-		damage = "64/轮",
-		base = 36560,
-		weapon_id = {
-			36562
 		}
 	}
 }

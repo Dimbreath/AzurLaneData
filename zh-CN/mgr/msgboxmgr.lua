@@ -809,16 +809,7 @@ function slot13(slot0, slot1)
 							})
 						end
 					elseif uv2[1] == "SHOP" then
-						slot2, slot3 = NewShopsScene.getSceneOpen(getProxy(PlayerProxy).data.level, uv2[2].warp)
-
-						if not slot2 then
-							uv1.m02:sendNotification(GAME.GO_SCENE, SCENE[uv2[1]], {
-								warp = NewShopsScene.TYPE_SHOP_STREET
-							})
-							uv1.TipsMgr.GetInstance():ShowTips(slot3)
-						else
-							uv1.m02:sendNotification(GAME.GO_SCENE, SCENE[uv2[1]], uv2[2])
-						end
+						uv1.m02:sendNotification(GAME.GO_SCENE, SCENE[uv2[1]], uv2[2])
 					else
 						uv1.m02:sendNotification(GAME.GO_SCENE, SCENE[uv2[1]], uv2[2])
 					end

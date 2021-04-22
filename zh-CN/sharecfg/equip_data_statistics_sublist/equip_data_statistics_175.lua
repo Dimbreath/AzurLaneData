@@ -1,5 +1,80 @@
 pg = pg or {}
 pg.equip_data_statistics_175 = {
+	[25200] = {
+		name = "潜艇用Mark 12鱼雷-菲里",
+		speciality = "雷击",
+		type = 13,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "25200",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "56 x 3",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 25200,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1830
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1830
+			},
+			{
+				4,
+				1602
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			25200
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"SS",
+			"TP"
+		}
+	},
+	[25201] = {
+		id = 25201,
+		damage = "64 x 3",
+		base = 25200,
+		weapon_id = {
+			25201
+		}
+	},
+	[25202] = {
+		id = 25202,
+		damage = "72 x 3",
+		base = 25200,
+		weapon_id = {
+			25202
+		}
+	},
 	[25203] = {
 		id = 25203,
 		damage = "80 x 3",
@@ -164,30 +239,6 @@ pg.equip_data_statistics_175 = {
 		base = 25300,
 		weapon_id = {
 			25302
-		}
-	},
-	[25303] = {
-		id = 25303,
-		damage = "100 x 3",
-		base = 25300,
-		weapon_id = {
-			25303
-		}
-	},
-	[25304] = {
-		id = 25304,
-		damage = "110 x 3",
-		base = 25300,
-		weapon_id = {
-			25304
-		}
-	},
-	[25305] = {
-		id = 25305,
-		damage = "121 x 3",
-		base = 25300,
-		weapon_id = {
-			25305
 		}
 	}
 }

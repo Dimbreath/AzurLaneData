@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_65 = {
+	[4147] = {
+		id = 4147,
+		damage = "49 x 3",
+		base = 4140,
+		weapon_id = {
+			4147
+		}
+	},
+	[4148] = {
+		id = 4148,
+		damage = "53 x 3",
+		base = 4140,
+		weapon_id = {
+			4148
+		}
+	},
+	[4149] = {
+		id = 4149,
+		damage = "57 x 3",
+		base = 4140,
+		weapon_id = {
+			4149
+		}
+	},
 	[4150] = {
 		id = 4150,
 		damage = "61 x 3",
@@ -264,45 +288,6 @@ pg.equip_data_statistics_65 = {
 		equip_parameters = {},
 		label = {
 			"ASA"
-		}
-	},
-	[4241] = {
-		id = 4241,
-		base = 4240,
-		ammo_info = {
-			{
-				8,
-				53141
-			}
-		},
-		weapon_id = {
-			4241
-		}
-	},
-	[4242] = {
-		id = 4242,
-		base = 4240,
-		ammo_info = {
-			{
-				8,
-				53142
-			}
-		},
-		weapon_id = {
-			4242
-		}
-	},
-	[4243] = {
-		id = 4243,
-		base = 4240,
-		ammo_info = {
-			{
-				8,
-				53143
-			}
-		},
-		weapon_id = {
-			4243
 		}
 	}
 }

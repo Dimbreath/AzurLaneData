@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_259 = {
+	[36705] = {
+		id = 36705,
+		damage = "67/轮",
+		base = 36700,
+		weapon_id = {
+			36705
+		}
+	},
+	[36706] = {
+		id = 36706,
+		damage = "71/轮",
+		base = 36700,
+		weapon_id = {
+			36706
+		}
+	},
+	[36707] = {
+		id = 36707,
+		damage = "75/轮",
+		base = 36700,
+		weapon_id = {
+			36707
+		}
+	},
 	[36708] = {
 		id = 36708,
 		damage = "79/轮",
@@ -230,83 +254,6 @@ pg.equip_data_statistics_259 = {
 		weapon_id = {
 			37023,
 			83023
-		}
-	},
-	[37040] = {
-		name = "九六式舰战",
-		type = 7,
-		speciality = "空战",
-		rarity = 3,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "37000",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 37040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50040
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			37040,
-			83040
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"FT"
-		}
-	},
-	[37041] = {
-		id = 37041,
-		base = 37040,
-		ammo_info = {
-			{
-				6,
-				50041
-			}
-		},
-		weapon_id = {
-			37041,
-			83041
-		}
-	},
-	[37042] = {
-		id = 37042,
-		base = 37040,
-		ammo_info = {
-			{
-				6,
-				50042
-			}
-		},
-		weapon_id = {
-			37042,
-			83042
 		}
 	}
 }

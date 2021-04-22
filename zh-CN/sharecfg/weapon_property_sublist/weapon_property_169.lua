@@ -2,6 +2,12 @@ pg = pg or {}
 pg.weapon_property_169 = {}
 
 function ()
+	uv0.weapon_property_169[69317] = {
+		id = 69317,
+		name = "土佐Upper二段跨射子母弹PVP-LV7",
+		damage = 120,
+		base = 69311
+	}
 	uv0.weapon_property_169[69318] = {
 		id = 69318,
 		name = "土佐Upper二段跨射子母弹PVP-LV8",

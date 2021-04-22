@@ -1,5 +1,82 @@
 pg = pg or {}
 pg.equip_data_statistics_290 = {
+	[42250] = {
+		id = 42250,
+		damage = "21 x 4",
+		base = 42240,
+		weapon_id = {
+			42250
+		}
+	},
+	[42251] = {
+		anti_siren = 100,
+		damage = "21 x 4",
+		base = 42240,
+		id = 42251,
+		weapon_id = {
+			42251
+		}
+	},
+	[42300] = {
+		name = "单装TbtsKC36式150mm主炮",
+		speciality = "锁定",
+		type = 2,
+		tech = 1,
+		descrip = "单装TbtsKC36式150mm主炮，1936A型驱逐舰主炮，轻巡和部分驱逐可以使用",
+		value_2 = 5,
+		icon = "42300",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "7 x 3",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 0,
+		id = 42300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1304
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1304
+			},
+			{
+				4,
+				1003
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			42300
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
 	[42301] = {
 		id = 42301,
 		damage = "8 x 3",
@@ -161,82 +238,6 @@ pg.equip_data_statistics_290 = {
 		base = 42340,
 		weapon_id = {
 			42350
-		}
-	},
-	[42351] = {
-		anti_siren = 100,
-		damage = "15 x 3",
-		base = 42340,
-		id = 42351,
-		weapon_id = {
-			42351
-		}
-	},
-	[43000] = {
-		name = "双联装203mmSKC主炮",
-		speciality = "锁定",
-		type = 3,
-		tech = 1,
-		descrip = "双联装203mmSKC主炮，希佩尔海军上将级重巡主炮，重巡可以使用",
-		value_2 = 12,
-		icon = "43000",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "25 x 6",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 43000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1401
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1401
-			},
-			{
-				4,
-				1206
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			43000
-		},
-		skill_id = {},
-		part_main = {
-			3,
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CA",
-			"MG",
-			"AP"
-		}
-	},
-	[43001] = {
-		id = 43001,
-		damage = "27 x 6",
-		base = 43000,
-		weapon_id = {
-			43001
 		}
 	}
 }

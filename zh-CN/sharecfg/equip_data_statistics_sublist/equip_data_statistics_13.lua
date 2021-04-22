@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.equip_data_statistics_13 = {
+	[643] = {
+		id = 643,
+		value_2 = 6,
+		value_1 = "8",
+		base = 640
+	},
+	[644] = {
+		id = 644,
+		value_2 = 6,
+		value_1 = "9",
+		base = 640
+	},
+	[645] = {
+		id = 645,
+		value_2 = 7,
+		value_1 = "10",
+		base = 640
+	},
 	[646] = {
 		id = 646,
 		value_2 = 8,
@@ -116,21 +134,6 @@ pg.equip_data_statistics_13 = {
 	[665] = {
 		id = 665,
 		value_1 = "49",
-		base = 660
-	},
-	[666] = {
-		id = 666,
-		value_1 = "53",
-		base = 660
-	},
-	[667] = {
-		id = 667,
-		value_1 = "57",
-		base = 660
-	},
-	[668] = {
-		id = 668,
-		value_1 = "61",
 		base = 660
 	}
 }

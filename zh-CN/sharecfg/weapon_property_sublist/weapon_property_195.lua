@@ -2,191 +2,6 @@ pg = pg or {}
 pg.weapon_property_195 = {}
 
 function ()
-	uv0.weapon_property_195[84149] = {
-		reload_max = 1515,
-		damage = 87,
-		base = 84140,
-		id = 84149,
-		bullet_ID = {
-			47149
-		}
-	}
-	uv0.weapon_property_195[84150] = {
-		reload_max = 1490,
-		damage = 92,
-		base = 84140,
-		id = 84150,
-		bullet_ID = {
-			47150
-		}
-	}
-	uv0.weapon_property_195[84151] = {
-		reload_max = 1490,
-		damage = 92,
-		base = 84140,
-		id = 84151,
-		bullet_ID = {
-			47150
-		}
-	}
-	uv0.weapon_property_195[84152] = {
-		reload_max = 1490,
-		damage = 92,
-		base = 84140,
-		id = 84152,
-		bullet_ID = {
-			47150
-		}
-	}
-	uv0.weapon_property_195[84153] = {
-		reload_max = 1490,
-		damage = 92,
-		base = 84140,
-		id = 84153,
-		bullet_ID = {
-			47150
-		}
-	}
-	uv0.weapon_property_195[85000] = {
-		action_index = "attack",
-		range = 55,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "B-13 双联装130mm主炮B-2LM",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 200,
-		charge_param = "",
-		damage = 3,
-		corrected = 125,
-		min_range = 0,
-		id = 85000,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 358,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0.3,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1700
-		},
-		barrage_ID = {
-			1024
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_195[85001] = {
-		id = 85001,
-		reload_max = 352,
-		base = 85000
-	}
-	uv0.weapon_property_195[85002] = {
-		id = 85002,
-		reload_max = 345,
-		damage = 4,
-		base = 85000
-	}
-	uv0.weapon_property_195[85003] = {
-		id = 85003,
-		reload_max = 339,
-		damage = 4,
-		base = 85000
-	}
-	uv0.weapon_property_195[85004] = {
-		id = 85004,
-		reload_max = 332,
-		damage = 5,
-		base = 85000
-	}
-	uv0.weapon_property_195[85005] = {
-		id = 85005,
-		reload_max = 326,
-		damage = 6,
-		base = 85000
-	}
-	uv0.weapon_property_195[85006] = {
-		id = 85006,
-		reload_max = 319,
-		damage = 7,
-		base = 85000
-	}
-	uv0.weapon_property_195[85040] = {
-		action_index = "attack",
-		range = 65,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "B-13 双联装130mm主炮B-2LM",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 200,
-		charge_param = "",
-		damage = 6,
-		corrected = 125,
-		min_range = 0,
-		id = 85040,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 322,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0.3,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1710
-		},
-		barrage_ID = {
-			1024
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_195[85041] = {
-		id = 85041,
-		reload_max = 316,
-		base = 85040
-	}
-	uv0.weapon_property_195[85042] = {
-		id = 85042,
-		reload_max = 310,
-		damage = 7,
-		base = 85040
-	}
-	uv0.weapon_property_195[85043] = {
-		id = 85043,
-		reload_max = 303,
-		damage = 8,
-		base = 85040
-	}
 	uv0.weapon_property_195[85044] = {
 		id = 85044,
 		reload_max = 298,
@@ -602,5 +417,225 @@ function ()
 		reload_max = 565,
 		damage = 14,
 		base = 85160
+	}
+	uv0.weapon_property_195[85169] = {
+		id = 85169,
+		reload_max = 552,
+		damage = 15,
+		base = 85160
+	}
+	uv0.weapon_property_195[85170] = {
+		id = 85170,
+		reload_max = 535,
+		damage = 16,
+		base = 85160
+	}
+	uv0.weapon_property_195[85171] = {
+		reload_max = 535,
+		damage = 16,
+		base = 85160,
+		id = 85171,
+		corrected = 109
+	}
+	uv0.weapon_property_195[85172] = {
+		reload_max = 535,
+		damage = 16,
+		base = 85160,
+		id = 85172,
+		corrected = 116
+	}
+	uv0.weapon_property_195[85173] = {
+		reload_max = 535,
+		damage = 16,
+		base = 85160,
+		id = 85173,
+		corrected = 124
+	}
+	uv0.weapon_property_195[85180] = {
+		action_index = "attack",
+		range = 26,
+		type = 22,
+		fire_fx = "fangkongpaohuoshe",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "37mm防空炮70-K",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 9,
+		corrected = 100,
+		min_range = 0,
+		id = 85180,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 3,
+		reload_max = 161,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/cannon-air",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2000
+		},
+		barrage_ID = {
+			2000
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_195[85181] = {
+		id = 85181,
+		reload_max = 156,
+		damage = 11,
+		base = 85180
+	}
+	uv0.weapon_property_195[85182] = {
+		reload_max = 153,
+		name = " ",
+		damage = 13,
+		base = 85180,
+		id = 85182
+	}
+	uv0.weapon_property_195[85183] = {
+		id = 85183,
+		reload_max = 151,
+		damage = 16,
+		base = 85180
+	}
+	uv0.weapon_property_195[85200] = {
+		action_index = "attack",
+		range = 26,
+		type = 22,
+		fire_fx = "fangkongpaohuoshe",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "37mm防空炮70-K",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 11,
+		corrected = 100,
+		min_range = 0,
+		id = 85200,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 3,
+		reload_max = 153,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/cannon-air",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2000
+		},
+		barrage_ID = {
+			2000
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_195[85201] = {
+		id = 85201,
+		reload_max = 149,
+		damage = 13,
+		base = 85200
+	}
+	uv0.weapon_property_195[85202] = {
+		id = 85202,
+		reload_max = 146,
+		damage = 16,
+		base = 85200
+	}
+	uv0.weapon_property_195[85203] = {
+		id = 85203,
+		reload_max = 143,
+		damage = 19,
+		base = 85200
+	}
+	uv0.weapon_property_195[85204] = {
+		id = 85204,
+		reload_max = 140,
+		damage = 22,
+		base = 85200
+	}
+	uv0.weapon_property_195[85205] = {
+		id = 85205,
+		reload_max = 136,
+		damage = 25,
+		base = 85200
+	}
+	uv0.weapon_property_195[85206] = {
+		id = 85206,
+		reload_max = 134,
+		damage = 28,
+		base = 85200
+	}
+	uv0.weapon_property_195[85220] = {
+		action_index = "attack",
+		range = 26,
+		type = 22,
+		fire_fx = "fangkongpaohuoshe",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "37mm防空炮70-K",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 14,
+		corrected = 100,
+		min_range = 0,
+		id = 85220,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 3,
+		reload_max = 145,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/cannon-air",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2000
+		},
+		barrage_ID = {
+			2000
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
 end()

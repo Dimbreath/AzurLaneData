@@ -1,5 +1,82 @@
 pg = pg or {}
 pg.equip_data_statistics_260 = {
+	[37040] = {
+		name = "九六式舰战",
+		type = 7,
+		speciality = "空战",
+		rarity = 3,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "37000",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 37040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			37040,
+			83040
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
+	},
+	[37041] = {
+		id = 37041,
+		base = 37040,
+		ammo_info = {
+			{
+				6,
+				50041
+			}
+		},
+		weapon_id = {
+			37041,
+			83041
+		}
+	},
+	[37042] = {
+		id = 37042,
+		base = 37040,
+		ammo_info = {
+			{
+				6,
+				50042
+			}
+		},
+		weapon_id = {
+			37042,
+			83042
+		}
+	},
 	[37043] = {
 		id = 37043,
 		base = 37040,
@@ -336,107 +413,6 @@ pg.equip_data_statistics_260 = {
 		weapon_id = {
 			37124,
 			83124
-		}
-	},
-	[37125] = {
-		id = 37125,
-		base = 37120,
-		ammo_info = {
-			{
-				6,
-				50025
-			},
-			{
-				6,
-				50525
-			},
-			{
-				5,
-				52125
-			}
-		},
-		weapon_id = {
-			37125,
-			83125
-		}
-	},
-	[37126] = {
-		id = 37126,
-		base = 37120,
-		ammo_info = {
-			{
-				6,
-				50026
-			},
-			{
-				6,
-				50526
-			},
-			{
-				5,
-				52126
-			}
-		},
-		weapon_id = {
-			37126,
-			83126
-		}
-	},
-	[37140] = {
-		name = "零战二一型",
-		type = 7,
-		speciality = "空战",
-		rarity = 4,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "37100",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 37140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50040
-			},
-			{
-				6,
-				50540
-			},
-			{
-				5,
-				52140
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			37140,
-			83140
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"FT"
 		}
 	}
 }

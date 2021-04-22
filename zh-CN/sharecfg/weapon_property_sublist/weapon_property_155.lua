@@ -2,6 +2,134 @@ pg = pg or {}
 pg.weapon_property_155 = {}
 
 function ()
+	uv0.weapon_property_155[68433] = {
+		id = 68433,
+		name = "KGV技能增强弹幕-LV3",
+		damage = 85,
+		base = 68431
+	}
+	uv0.weapon_property_155[68434] = {
+		id = 68434,
+		name = "KGV技能增强弹幕-LV4",
+		damage = 93,
+		base = 68431
+	}
+	uv0.weapon_property_155[68435] = {
+		id = 68435,
+		name = "KGV技能增强弹幕-LV5",
+		damage = 100,
+		base = 68431
+	}
+	uv0.weapon_property_155[68436] = {
+		id = 68436,
+		name = "KGV技能增强弹幕-LV6",
+		damage = 108,
+		base = 68431
+	}
+	uv0.weapon_property_155[68437] = {
+		id = 68437,
+		name = "KGV技能增强弹幕-LV7",
+		damage = 115,
+		base = 68431
+	}
+	uv0.weapon_property_155[68438] = {
+		id = 68438,
+		name = "KGV技能增强弹幕-LV8",
+		damage = 123,
+		base = 68431
+	}
+	uv0.weapon_property_155[68439] = {
+		id = 68439,
+		name = "KGV技能增强弹幕-LV9",
+		damage = 130,
+		base = 68431
+	}
+	uv0.weapon_property_155[68440] = {
+		id = 68440,
+		name = "KGV技能增强弹幕-LV10",
+		damage = 138,
+		base = 68431
+	}
+	uv0.weapon_property_155[68441] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "U-556技能鱼雷LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 19,
+		corrected = 100,
+		min_range = 0,
+		id = 68441,
+		attack_attribute_ratio = 120,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19884
+		},
+		barrage_ID = {
+			80711
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_155[68442] = {
+		id = 68442,
+		name = "U-556技能鱼雷LV2",
+		damage = 21,
+		base = 68441
+	}
+	uv0.weapon_property_155[68443] = {
+		id = 68443,
+		name = "U-556技能鱼雷LV3",
+		damage = 24,
+		base = 68441
+	}
+	uv0.weapon_property_155[68444] = {
+		id = 68444,
+		name = "U-556技能鱼雷LV4",
+		damage = 30,
+		base = 68441
+	}
+	uv0.weapon_property_155[68445] = {
+		id = 68445,
+		name = "U-556技能鱼雷LV5",
+		damage = 33,
+		base = 68441
+	}
+	uv0.weapon_property_155[68446] = {
+		id = 68446,
+		name = "U-556技能鱼雷LV6",
+		damage = 36,
+		base = 68441
+	}
+	uv0.weapon_property_155[68447] = {
+		id = 68447,
+		name = "U-556技能鱼雷LV7",
+		damage = 39,
+		base = 68441
+	}
 	uv0.weapon_property_155[68448] = {
 		id = 68448,
 		name = "U-556技能鱼雷LV8",
@@ -531,142 +659,5 @@ function ()
 		name = "俾斯麦·小子弹LV3",
 		damage = 13,
 		base = 68491
-	}
-	uv0.weapon_property_155[68494] = {
-		id = 68494,
-		name = "俾斯麦·小子弹LV4",
-		damage = 14,
-		base = 68491
-	}
-	uv0.weapon_property_155[68495] = {
-		id = 68495,
-		name = "俾斯麦·小子弹LV5",
-		damage = 15,
-		base = 68491
-	}
-	uv0.weapon_property_155[68496] = {
-		id = 68496,
-		name = "俾斯麦·小子弹LV6",
-		damage = 16,
-		base = 68491
-	}
-	uv0.weapon_property_155[68497] = {
-		id = 68497,
-		name = "俾斯麦·小子弹LV7",
-		damage = 17,
-		base = 68491
-	}
-	uv0.weapon_property_155[68498] = {
-		id = 68498,
-		name = "俾斯麦·小子弹LV8",
-		damage = 18,
-		base = 68491
-	}
-	uv0.weapon_property_155[68499] = {
-		id = 68499,
-		name = "俾斯麦·小子弹LV9",
-		damage = 19,
-		base = 68491
-	}
-	uv0.weapon_property_155[68500] = {
-		id = 68500,
-		name = "俾斯麦·小子弹LV10",
-		damage = 20,
-		base = 68491
-	}
-	uv0.weapon_property_155[68501] = {
-		action_index = "attack",
-		range = 75,
-		type = 23,
-		fire_fx = "zhupao",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "小圣地亚哥LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		damage = 30,
-		corrected = 100,
-		min_range = 0,
-		id = 68501,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 5,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			19887
-		},
-		barrage_ID = {
-			1
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		charge_param = {
-			lockTime = 0.3,
-			maxLock = 2
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_155[68502] = {
-		id = 68502,
-		name = "小圣地亚哥LV2",
-		damage = 33,
-		base = 68501
-	}
-	uv0.weapon_property_155[68503] = {
-		id = 68503,
-		name = "小圣地亚哥LV3",
-		damage = 36,
-		base = 68501
-	}
-	uv0.weapon_property_155[68504] = {
-		name = "小圣地亚哥LV4",
-		damage = 39,
-		base = 68501,
-		id = 68504,
-		barrage_ID = {
-			5
-		}
-	}
-	uv0.weapon_property_155[68505] = {
-		name = "小圣地亚哥LV5",
-		damage = 42,
-		base = 68501,
-		id = 68505,
-		barrage_ID = {
-			5
-		}
-	}
-	uv0.weapon_property_155[68506] = {
-		name = "小圣地亚哥LV6",
-		damage = 46,
-		base = 68501,
-		id = 68506,
-		barrage_ID = {
-			5
-		}
-	}
-	uv0.weapon_property_155[68507] = {
-		name = "小圣地亚哥LV7",
-		damage = 50,
-		base = 68501,
-		id = 68507,
-		barrage_ID = {
-			5
-		}
 	}
 end()

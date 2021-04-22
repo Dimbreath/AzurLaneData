@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_118 = {
+	[16122] = {
+		id = 16122,
+		damage = "19/轮",
+		base = 16120,
+		weapon_id = {
+			16122
+		}
+	},
+	[16123] = {
+		id = 16123,
+		damage = "21/轮",
+		base = 16120,
+		weapon_id = {
+			16123
+		}
+	},
+	[16124] = {
+		id = 16124,
+		damage = "24/轮",
+		base = 16120,
+		weapon_id = {
+			16124
+		}
+	},
 	[16125] = {
 		id = 16125,
 		damage = "27/轮",
@@ -165,84 +189,6 @@ pg.equip_data_statistics_118 = {
 		id = 16151,
 		weapon_id = {
 			16151
-		}
-	},
-	[16160] = {
-		name = "四联装20mm厄利孔高射炮Mk15",
-		speciality = "防空",
-		type = 6,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "16160",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "25/轮",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 16160,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			16160
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"ST",
-			"AA"
-		}
-	},
-	[16161] = {
-		id = 16161,
-		damage = "27/轮",
-		base = 16160,
-		weapon_id = {
-			16161
-		}
-	},
-	[16162] = {
-		id = 16162,
-		damage = "29/轮",
-		base = 16160,
-		weapon_id = {
-			16162
 		}
 	}
 }

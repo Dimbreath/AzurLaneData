@@ -1,5 +1,110 @@
 pg = pg or {}
 pg.aircraft_template_76 = {
+	[29140] = {
+		name = "海燕",
+		max_hp = 40,
+		accuracy = 23,
+		model_ID = "haiyan",
+		ACC_growth = 0,
+		crash_DMG = 200,
+		dodge = 3.33,
+		attack_power = 2,
+		dodge_limit = 1,
+		type = 3,
+		AP_growth = 2000,
+		icon = "haiyan",
+		funnel_behavior = "",
+		nationality = 2,
+		hp_growth = 1549,
+		speed = 48,
+		id = 29140,
+		scale = 1,
+		weapon_ID = {
+			50240,
+			52140
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.44,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[29141] = {
+		id = 29141,
+		base = 29140,
+		max_hp = 46,
+		hp_growth = 1781,
+		weapon_ID = {
+			50241,
+			52141
+		}
+	},
+	[29142] = {
+		id = 29142,
+		base = 29140,
+		max_hp = 52,
+		hp_growth = 2013,
+		weapon_ID = {
+			50242,
+			52142
+		}
+	},
+	[29143] = {
+		id = 29143,
+		base = 29140,
+		max_hp = 58,
+		hp_growth = 2246,
+		weapon_ID = {
+			50243,
+			52143
+		}
+	},
 	[29144] = {
 		id = 29144,
 		base = 29140,
@@ -58,111 +163,6 @@ pg.aircraft_template_76 = {
 		weapon_ID = {
 			50249,
 			52149
-		}
-	},
-	[29150] = {
-		id = 29150,
-		base = 29140,
-		max_hp = 101,
-		hp_growth = 3872,
-		weapon_ID = {
-			50250,
-			52150
-		}
-	},
-	[29151] = {
-		id = 29151,
-		base = 29140,
-		max_hp = 107,
-		hp_growth = 4104,
-		weapon_ID = {
-			50251,
-			52151
-		}
-	},
-	[29200] = {
-		name = "萤火虫",
-		max_hp = 44,
-		accuracy = 23,
-		model_ID = "yinghuochong",
-		ACC_growth = 0,
-		crash_DMG = 210,
-		dodge = 0.75,
-		attack_power = 2,
-		dodge_limit = 7,
-		type = 3,
-		AP_growth = 2000,
-		icon = "yinghuochong",
-		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1690,
-		speed = 47,
-		id = 29200,
-		scale = 1,
-		weapon_ID = {
-			50660,
-			52740
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					1.26,
-					-1.13,
-					0
-				},
-				{
-					1.35,
-					1.18,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.44,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[29201] = {
-		id = 29201,
-		base = 29200,
-		max_hp = 51,
-		hp_growth = 1943,
-		weapon_ID = {
-			50661,
-			52741
 		}
 	}
 }

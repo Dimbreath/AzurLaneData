@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_287 = {
+	[42065] = {
+		id = 42065,
+		damage = "14 x 4",
+		base = 42060,
+		weapon_id = {
+			42065
+		}
+	},
+	[42066] = {
+		id = 42066,
+		damage = "15 x 4",
+		base = 42060,
+		weapon_id = {
+			42066
+		}
+	},
+	[42067] = {
+		id = 42067,
+		damage = "16 x 4",
+		base = 42060,
+		weapon_id = {
+			42067
+		}
+	},
 	[42068] = {
 		id = 42068,
 		damage = "17 x 4",
@@ -215,82 +239,6 @@ pg.equip_data_statistics_287 = {
 		base = 42120,
 		weapon_id = {
 			42125
-		}
-	},
-	[42126] = {
-		id = 42126,
-		damage = "14 x 3",
-		base = 42120,
-		weapon_id = {
-			42126
-		}
-	},
-	[42140] = {
-		name = "三联装SKC25式150mm主炮",
-		speciality = "锁定",
-		type = 2,
-		tech = 3,
-		descrip = "三联装SKC25式150mm主炮，轻巡和部分驱逐可以使用",
-		value_2 = 25,
-		icon = "42100",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "9 x 3",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 42140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1304
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1304
-			},
-			{
-				4,
-				1003
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			42140
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CL",
-			"MG",
-			"AP"
-		}
-	},
-	[42141] = {
-		id = 42141,
-		damage = "10 x 3",
-		base = 42140,
-		weapon_id = {
-			42141
 		}
 	}
 }

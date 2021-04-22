@@ -297,4 +297,37 @@ function slot0.fillStudens(slot0, slot1)
 	return slot1
 end
 
+function slot0.IsShowTip(slot0)
+	if getProxy(PlayerProxy) and not slot1:getFlag("blockResourceUpgrade") and slot1:getData() and slot0:isResourceFieldUpgradeConditionSatisfy() then
+		return true
+	end
+
+	if getProxy(ShopsProxy) and slot2:getShopStreet() and slot3:isUpdateGoods() then
+		return true
+	end
+
+	for slot7, slot8 in pairs(slot0.students) do
+		if slot8:getFinishTime() <= pg.TimeMgr.GetInstance():GetServerTime() then
+			return true
+		end
+	end
+
+	if getProxy(CollectionProxy):unclaimTrophyCount() > 0 then
+		return true
+	end
+
+	slot6 = getProxy(TaskProxy)
+
+	if _.any(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST), function (slot0)
+		slot2 = slot0:getTaskShip() and uv0:getAcademyTask(slot1.groupId) or nil
+		slot3 = uv0:getTaskById(slot2)
+
+		return slot1 and (slot2 and not slot3 and not uv0:getFinishTaskById(slot2) or slot3 and slot3:isFinish())
+	end) then
+		return true
+	end
+
+	return false
+end
+
 return slot0

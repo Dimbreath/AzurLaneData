@@ -1,5 +1,100 @@
 pg = pg or {}
 pg.equip_data_statistics_141 = {
+	[19073] = {
+		anti_siren = 300,
+		base = 19060,
+		id = 19073,
+		ammo_info = {
+			{
+				5,
+				52973
+			},
+			{
+				5,
+				52173
+			}
+		},
+		weapon_id = {
+			19073
+		}
+	},
+	[19100] = {
+		name = "SB2C地狱俯冲者",
+		type = 9,
+		speciality = "轰炸",
+		rarity = 2,
+		tech = 1,
+		descrip = "说明未填写",
+		value_2 = 5,
+		icon = "19100",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 19100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50700
+			},
+			{
+				5,
+				52900
+			},
+			{
+				5,
+				52300
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			19100
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
+	},
+	[19101] = {
+		id = 19101,
+		base = 19100,
+		ammo_info = {
+			{
+				6,
+				50701
+			},
+			{
+				5,
+				52901
+			},
+			{
+				5,
+				52301
+			}
+		},
+		weapon_id = {
+			19101
+		}
+	},
 	[19102] = {
 		id = 19102,
 		base = 19100,
@@ -362,69 +457,6 @@ pg.equip_data_statistics_141 = {
 		},
 		weapon_id = {
 			19144
-		}
-	},
-	[19145] = {
-		id = 19145,
-		base = 19140,
-		ammo_info = {
-			{
-				6,
-				50745
-			},
-			{
-				5,
-				52945
-			},
-			{
-				5,
-				52345
-			}
-		},
-		weapon_id = {
-			19145
-		}
-	},
-	[19146] = {
-		id = 19146,
-		base = 19140,
-		ammo_info = {
-			{
-				6,
-				50746
-			},
-			{
-				5,
-				52946
-			},
-			{
-				5,
-				52346
-			}
-		},
-		weapon_id = {
-			19146
-		}
-	},
-	[19147] = {
-		id = 19147,
-		base = 19140,
-		ammo_info = {
-			{
-				6,
-				50747
-			},
-			{
-				5,
-				52947
-			},
-			{
-				5,
-				52347
-			}
-		},
-		weapon_id = {
-			19147
 		}
 	}
 }

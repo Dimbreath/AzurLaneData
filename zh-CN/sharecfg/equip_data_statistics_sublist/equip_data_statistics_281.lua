@@ -1,5 +1,68 @@
 pg = pg or {}
 pg.equip_data_statistics_281 = {
+	[39325] = {
+		id = 39325,
+		base = 39320,
+		ammo_info = {
+			{
+				6,
+				50045
+			},
+			{
+				5,
+				52645
+			},
+			{
+				5,
+				52145
+			}
+		},
+		weapon_id = {
+			39325
+		}
+	},
+	[39326] = {
+		id = 39326,
+		base = 39320,
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				5,
+				52646
+			},
+			{
+				5,
+				52146
+			}
+		},
+		weapon_id = {
+			39326
+		}
+	},
+	[39327] = {
+		id = 39327,
+		base = 39320,
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				5,
+				52647
+			},
+			{
+				5,
+				52147
+			}
+		},
+		weapon_id = {
+			39327
+		}
+	},
 	[39328] = {
 		id = 39328,
 		base = 39320,
@@ -306,88 +369,6 @@ pg.equip_data_statistics_281 = {
 		base = 41020,
 		weapon_id = {
 			41023
-		}
-	},
-	[41040] = {
-		name = "单装127mm主炮",
-		speciality = "锁定",
-		type = 1,
-		tech = 3,
-		descrip = "单装127mm主炮，大部分驱逐都可以使用",
-		value_2 = 12,
-		icon = "41000",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "4 x 1",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 41040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1303
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1303
-			},
-			{
-				4,
-				1000
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			41040
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"DD",
-			"MG",
-			"AP"
-		}
-	},
-	[41041] = {
-		id = 41041,
-		base = 41040,
-		weapon_id = {
-			41041
-		}
-	},
-	[41042] = {
-		id = 41042,
-		damage = "7 x 1",
-		base = 41040,
-		weapon_id = {
-			41042
 		}
 	}
 }

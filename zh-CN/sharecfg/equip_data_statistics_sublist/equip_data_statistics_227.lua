@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.equip_data_statistics_227 = {
+	[33089] = {
+		id = 33089,
+		damage = "46 x 4",
+		base = 33080,
+		weapon_id = {
+			33089
+		}
+	},
+	[33090] = {
+		id = 33090,
+		damage = "48 x 4",
+		base = 33080,
+		weapon_id = {
+			33090
+		}
+	},
+	[33091] = {
+		anti_siren = 100,
+		damage = "48 x 4",
+		base = 33080,
+		id = 33091,
+		weapon_id = {
+			33091
+		}
+	},
 	[33100] = {
 		name = "试作型三联装310mm主炮",
 		speciality = "跨射",
@@ -155,73 +180,6 @@ pg.equip_data_statistics_227 = {
 		id = 33113,
 		weapon_id = {
 			33113
-		}
-	},
-	[34000] = {
-		name = "356mm连装炮",
-		speciality = "跨射",
-		type = 4,
-		tech = 1,
-		rarity = 1,
-		descrip = "说明未填写",
-		value_2 = 0,
-		icon = "34000",
-		damage = "38 x 2",
-		nationality = 3,
-		ammo = 3,
-		value_3 = 0,
-		id = 34000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1500
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			34000
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"BB",
-			"MG"
-		}
-	},
-	[34001] = {
-		id = 34001,
-		damage = "44 x 2",
-		base = 34000,
-		weapon_id = {
-			34001
-		}
-	},
-	[34002] = {
-		id = 34002,
-		damage = "50 x 2",
-		base = 34000,
-		weapon_id = {
-			34002
 		}
 	}
 }

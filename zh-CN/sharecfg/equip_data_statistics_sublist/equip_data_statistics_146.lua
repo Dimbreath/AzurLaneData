@@ -1,5 +1,85 @@
 pg = pg or {}
 pg.equip_data_statistics_146 = {
+	[21047] = {
+		id = 21047,
+		damage = "7 x 1",
+		base = 21040,
+		weapon_id = {
+			21047
+		}
+	},
+	[21100] = {
+		name = "双联装102mm副炮",
+		speciality = "锁定",
+		type = 1,
+		tech = 1,
+		rarity = 1,
+		descrip = "说明未填写",
+		value_2 = 0,
+		icon = "21100",
+		damage = "3 x 2",
+		nationality = 2,
+		ammo = 3,
+		value_3 = 0,
+		id = 21100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1100
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1100
+			},
+			{
+				4,
+				1007
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			21100
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
+	},
+	[21101] = {
+		id = 21101,
+		base = 21100,
+		weapon_id = {
+			21101
+		}
+	},
 	[21102] = {
 		id = 21102,
 		damage = "4 x 2",
@@ -224,85 +304,6 @@ pg.equip_data_statistics_146 = {
 		base = 21140,
 		weapon_id = {
 			21147
-		}
-	},
-	[21160] = {
-		name = "双联装102mm副炮Mark XVI",
-		speciality = "锁定",
-		type = 1,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "21160",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "3 x 2",
-		nationality = 2,
-		ammo = 3,
-		value_3 = 0,
-		id = 21160,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1100
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1100
-			},
-			{
-				4,
-				1007
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			21160
-		},
-		skill_id = {},
-		part_main = {
-			1
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"DD",
-			"MG"
-		}
-	},
-	[21161] = {
-		id = 21161,
-		base = 21160,
-		weapon_id = {
-			21161
-		}
-	},
-	[21162] = {
-		id = 21162,
-		damage = "4 x 2",
-		base = 21160,
-		weapon_id = {
-			21162
 		}
 	}
 }

@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_188 = {
+	[26548] = {
+		id = 26548,
+		damage = "114/轮",
+		base = 26540,
+		weapon_id = {
+			26548
+		}
+	},
+	[26549] = {
+		id = 26549,
+		damage = "122/轮",
+		base = 26540,
+		weapon_id = {
+			26549
+		}
+	},
+	[26550] = {
+		id = 26550,
+		damage = "130/轮",
+		base = 26540,
+		weapon_id = {
+			26550
+		}
+	},
 	[26551] = {
 		anti_siren = 100,
 		damage = "130/轮",
@@ -168,33 +192,6 @@ pg.equip_data_statistics_188 = {
 		base = 26600,
 		weapon_id = {
 			26610
-		}
-	},
-	[26611] = {
-		anti_siren = 100,
-		damage = "96/轮",
-		base = 26600,
-		id = 26611,
-		weapon_id = {
-			26611
-		}
-	},
-	[26612] = {
-		anti_siren = 200,
-		damage = "96/轮",
-		base = 26600,
-		id = 26612,
-		weapon_id = {
-			26612
-		}
-	},
-	[26613] = {
-		anti_siren = 300,
-		damage = "96/轮",
-		base = 26600,
-		id = 26613,
-		weapon_id = {
-			26613
 		}
 	}
 }

@@ -2,68 +2,6 @@ pg = pg or {}
 pg.weapon_property_15 = {}
 
 function ()
-	uv0.weapon_property_15[14363] = {
-		id = 14363,
-		reload_max = 4270,
-		damage = 86,
-		base = 14360
-	}
-	uv0.weapon_property_15[14364] = {
-		id = 14364,
-		reload_max = 4180,
-		damage = 96,
-		base = 14360
-	}
-	uv0.weapon_property_15[14365] = {
-		id = 14365,
-		reload_max = 4090,
-		damage = 106,
-		base = 14360
-	}
-	uv0.weapon_property_15[14366] = {
-		id = 14366,
-		reload_max = 4000,
-		damage = 116,
-		base = 14360
-	}
-	uv0.weapon_property_15[14367] = {
-		id = 14367,
-		reload_max = 3910,
-		damage = 124,
-		base = 14360
-	}
-	uv0.weapon_property_15[14368] = {
-		id = 14368,
-		reload_max = 3820,
-		damage = 134,
-		base = 14360
-	}
-	uv0.weapon_property_15[14369] = {
-		id = 14369,
-		reload_max = 3730,
-		damage = 144,
-		base = 14360
-	}
-	uv0.weapon_property_15[14370] = {
-		id = 14370,
-		reload_max = 3640,
-		damage = 154,
-		base = 14360
-	}
-	uv0.weapon_property_15[14371] = {
-		reload_max = 3640,
-		damage = 154,
-		base = 14360,
-		id = 14371,
-		corrected = 109
-	}
-	uv0.weapon_property_15[14372] = {
-		reload_max = 3640,
-		damage = 154,
-		base = 14360,
-		id = 14372,
-		corrected = 116
-	}
 	uv0.weapon_property_15[14373] = {
 		reload_max = 3640,
 		damage = 154,
@@ -573,5 +511,113 @@ function ()
 		reload_max = 3557,
 		damage = 129,
 		base = 14500
+	}
+	uv0.weapon_property_15[14505] = {
+		id = 14505,
+		reload_max = 3481,
+		damage = 143,
+		base = 14500
+	}
+	uv0.weapon_property_15[14506] = {
+		id = 14506,
+		reload_max = 3405,
+		damage = 156,
+		base = 14500
+	}
+	uv0.weapon_property_15[14507] = {
+		id = 14507,
+		reload_max = 3330,
+		damage = 167,
+		base = 14500
+	}
+	uv0.weapon_property_15[14508] = {
+		id = 14508,
+		reload_max = 3255,
+		damage = 180,
+		base = 14500
+	}
+	uv0.weapon_property_15[14509] = {
+		id = 14509,
+		reload_max = 3181,
+		damage = 194,
+		base = 14500
+	}
+	uv0.weapon_property_15[14510] = {
+		id = 14510,
+		reload_max = 3105,
+		damage = 207,
+		base = 14500
+	}
+	uv0.weapon_property_15[14511] = {
+		reload_max = 3105,
+		damage = 207,
+		base = 14500,
+		id = 14511,
+		corrected = 109
+	}
+	uv0.weapon_property_15[14512] = {
+		reload_max = 3105,
+		damage = 207,
+		base = 14500,
+		id = 14512,
+		corrected = 116
+	}
+	uv0.weapon_property_15[14513] = {
+		reload_max = 3105,
+		damage = 207,
+		base = 14500,
+		id = 14513,
+		corrected = 124
+	}
+	uv0.weapon_property_15[15000] = {
+		action_index = "attack",
+		range = 50,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "潜艇用Mark14鱼雷",
+		aim_type = 1,
+		torpedo_ammo = 6,
+		expose = 0,
+		angle = 80,
+		charge_param = "",
+		damage = 42,
+		corrected = 100,
+		min_range = 0,
+		id = 15000,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 5100,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0.5,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1821
+		},
+		barrage_ID = {
+			1602
+		},
+		oxy_type = {
+			1,
+			2
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_15[15001] = {
+		id = 15001,
+		reload_max = 5020,
+		damage = 48,
+		base = 15000
 	}
 end()

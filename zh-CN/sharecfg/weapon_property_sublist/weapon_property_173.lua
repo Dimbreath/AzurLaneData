@@ -2,24 +2,6 @@ pg = pg or {}
 pg.weapon_property_173 = {}
 
 function ()
-	uv0.weapon_property_173[69558] = {
-		id = 69558,
-		name = "香槟伴随射击平射小子弹LV8",
-		damage = 32,
-		base = 69551
-	}
-	uv0.weapon_property_173[69559] = {
-		id = 69559,
-		name = "香槟伴随射击平射小子弹LV9",
-		damage = 34,
-		base = 69551
-	}
-	uv0.weapon_property_173[69560] = {
-		id = 69560,
-		name = "香槟伴随射击平射小子弹LV10",
-		damage = 36,
-		base = 69551
-	}
 	uv0.weapon_property_173[69561] = {
 		action_index = "attack",
 		range = 50,
@@ -643,5 +625,81 @@ function ()
 			80910,
 			80911
 		}
+	}
+	uv0.weapon_property_173[69618] = {
+		name = "加斯科涅技能·箭型国旗红-PVE-强化LV8",
+		damage = 48,
+		base = 69611,
+		id = 69618,
+		barrage_ID = {
+			80910,
+			80911
+		}
+	}
+	uv0.weapon_property_173[69619] = {
+		name = "加斯科涅技能·箭型国旗红-PVE-强化LV9",
+		damage = 53,
+		base = 69611,
+		id = 69619,
+		barrage_ID = {
+			80910,
+			80911
+		}
+	}
+	uv0.weapon_property_173[69620] = {
+		name = "加斯科涅技能·箭型国旗红-PVE-强化LV10",
+		damage = 58,
+		base = 69611,
+		id = 69620,
+		barrage_ID = {
+			80910,
+			80911
+		}
+	}
+	uv0.weapon_property_173[69621] = {
+		action_index = "attack",
+		range = 95,
+		type = 19,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "加斯科涅技能·箭型国旗白-PVE-强化LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		charge_param = "",
+		damage = 23,
+		corrected = 100,
+		min_range = 35,
+		id = 69621,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19848,
+			19848
+		},
+		barrage_ID = {
+			80906,
+			80907
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
 end()

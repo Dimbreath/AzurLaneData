@@ -2,6 +2,120 @@ pg = pg or {}
 pg.weapon_property_157 = {}
 
 function ()
+	uv0.weapon_property_157[68555] = {
+		id = 68555,
+		damage = 108,
+		base = 68551
+	}
+	uv0.weapon_property_157[68556] = {
+		id = 68556,
+		damage = 117,
+		base = 68551
+	}
+	uv0.weapon_property_157[68557] = {
+		id = 68557,
+		damage = 128,
+		base = 68551
+	}
+	uv0.weapon_property_157[68558] = {
+		id = 68558,
+		damage = 138,
+		base = 68551
+	}
+	uv0.weapon_property_157[68559] = {
+		id = 68559,
+		damage = 149,
+		base = 68551
+	}
+	uv0.weapon_property_157[68560] = {
+		id = 68560,
+		damage = 159,
+		base = 68551
+	}
+	uv0.weapon_property_157[68561] = {
+		action_index = "attack",
+		range = 50,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "伊25上浮技能弹幕LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 20,
+		corrected = 100,
+		min_range = 0,
+		id = 68561,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19865,
+			19865,
+			19865
+		},
+		barrage_ID = {
+			80741,
+			80742,
+			80743
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_157[68562] = {
+		id = 68562,
+		name = "伊25上浮技能弹幕LV2",
+		damage = 22,
+		base = 68561
+	}
+	uv0.weapon_property_157[68563] = {
+		id = 68563,
+		name = "伊25上浮技能弹幕LV3",
+		damage = 24,
+		base = 68561
+	}
+	uv0.weapon_property_157[68564] = {
+		id = 68564,
+		name = "伊25上浮技能弹幕LV4",
+		damage = 28,
+		base = 68561
+	}
+	uv0.weapon_property_157[68565] = {
+		id = 68565,
+		name = "伊25上浮技能弹幕LV5",
+		damage = 26,
+		base = 68561
+	}
+	uv0.weapon_property_157[68566] = {
+		id = 68566,
+		name = "伊25上浮技能弹幕LV6",
+		damage = 28,
+		base = 68561
+	}
+	uv0.weapon_property_157[68567] = {
+		id = 68567,
+		name = "伊25上浮技能弹幕LV7",
+		damage = 30,
+		base = 68561
+	}
 	uv0.weapon_property_157[68568] = {
 		id = 68568,
 		name = "伊25上浮技能弹幕LV8",
@@ -705,124 +819,5 @@ function ()
 		bullet_ID = {
 			68625
 		}
-	}
-	uv0.weapon_property_157[68626] = {
-		name = "巴丹技能战斗机Lv6",
-		damage = 64,
-		base = 68621,
-		id = 68626,
-		bullet_ID = {
-			68626
-		}
-	}
-	uv0.weapon_property_157[68627] = {
-		name = "巴丹技能战斗机Lv7",
-		damage = 71,
-		base = 68621,
-		id = 68627,
-		bullet_ID = {
-			68627
-		}
-	}
-	uv0.weapon_property_157[68628] = {
-		name = "巴丹技能战斗机Lv8",
-		damage = 75,
-		base = 68621,
-		id = 68628,
-		bullet_ID = {
-			68628
-		}
-	}
-	uv0.weapon_property_157[68629] = {
-		name = "巴丹技能战斗机Lv9",
-		damage = 81,
-		base = 68621,
-		id = 68629,
-		bullet_ID = {
-			68629
-		}
-	}
-	uv0.weapon_property_157[68630] = {
-		name = "巴丹技能战斗机Lv10",
-		damage = 86,
-		base = 68621,
-		id = 68630,
-		bullet_ID = {
-			68630
-		}
-	}
-	uv0.weapon_property_157[68631] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 22,
-		shakescreen = 0,
-		name = "2 x 500lb 炸弹",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 22,
-		charge_param = "",
-		damage = 174,
-		corrected = 100,
-		min_range = 0,
-		id = 68631,
-		attack_attribute_ratio = 80,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2122
-		},
-		barrage_ID = {
-			2121
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_157[68632] = {
-		id = 68632,
-		damage = 196,
-		base = 68631
-	}
-	uv0.weapon_property_157[68633] = {
-		id = 68633,
-		damage = 219,
-		base = 68631
-	}
-	uv0.weapon_property_157[68634] = {
-		id = 68634,
-		damage = 242,
-		base = 68631
-	}
-	uv0.weapon_property_157[68635] = {
-		id = 68635,
-		damage = 265,
-		base = 68631
-	}
-	uv0.weapon_property_157[68636] = {
-		id = 68636,
-		damage = 288,
-		base = 68631
-	}
-	uv0.weapon_property_157[68637] = {
-		id = 68637,
-		damage = 311,
-		base = 68631
 	}
 end()

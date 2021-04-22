@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_98 = {
+	[14101] = {
+		id = 14101,
+		damage = "46 x 3",
+		base = 14100,
+		weapon_id = {
+			14101
+		}
+	},
+	[14102] = {
+		id = 14102,
+		damage = "50 x 3",
+		base = 14100,
+		weapon_id = {
+			14102
+		}
+	},
+	[14103] = {
+		id = 14103,
+		damage = "56 x 3",
+		base = 14100,
+		weapon_id = {
+			14103
+		}
+	},
 	[14120] = {
 		name = "三联装356mm主炮",
 		speciality = "跨射",
@@ -245,30 +269,6 @@ pg.equip_data_statistics_98 = {
 		base = 14160,
 		weapon_id = {
 			14161
-		}
-	},
-	[14162] = {
-		id = 14162,
-		damage = "68 x 4",
-		base = 14160,
-		weapon_id = {
-			14162
-		}
-	},
-	[14163] = {
-		id = 14163,
-		damage = "75 x 4",
-		base = 14160,
-		weapon_id = {
-			14163
-		}
-	},
-	[14164] = {
-		id = 14164,
-		damage = "80 x 4",
-		base = 14160,
-		weapon_id = {
-			14164
 		}
 	}
 }

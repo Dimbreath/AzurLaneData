@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.equip_data_statistics_66 = {
+	[4241] = {
+		id = 4241,
+		base = 4240,
+		ammo_info = {
+			{
+				8,
+				53141
+			}
+		},
+		weapon_id = {
+			4241
+		}
+	},
+	[4242] = {
+		id = 4242,
+		base = 4240,
+		ammo_info = {
+			{
+				8,
+				53142
+			}
+		},
+		weapon_id = {
+			4242
+		}
+	},
+	[4243] = {
+		id = 4243,
+		base = 4240,
+		ammo_info = {
+			{
+				8,
+				53143
+			}
+		},
+		weapon_id = {
+			4243
+		}
+	},
 	[4244] = {
 		id = 4244,
 		base = 4240,
@@ -243,45 +282,6 @@ pg.equip_data_statistics_66 = {
 		},
 		weapon_id = {
 			4321
-		}
-	},
-	[4322] = {
-		id = 4322,
-		base = 4320,
-		ammo_info = {
-			{
-				8,
-				53222
-			}
-		},
-		weapon_id = {
-			4322
-		}
-	},
-	[4323] = {
-		id = 4323,
-		base = 4320,
-		ammo_info = {
-			{
-				8,
-				53223
-			}
-		},
-		weapon_id = {
-			4323
-		}
-	},
-	[4324] = {
-		id = 4324,
-		base = 4320,
-		ammo_info = {
-			{
-				8,
-				53224
-			}
-		},
-		weapon_id = {
-			4324
 		}
 	}
 }

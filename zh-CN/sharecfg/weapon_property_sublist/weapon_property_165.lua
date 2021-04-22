@@ -2,6 +2,36 @@ pg = pg or {}
 pg.weapon_property_165 = {}
 
 function ()
+	uv0.weapon_property_165[69073] = {
+		id = 69073,
+		name = "苏俄PVP主炮弹幕-Lv3",
+		damage = 82,
+		base = 69071
+	}
+	uv0.weapon_property_165[69074] = {
+		id = 69074,
+		name = "苏俄PVP主炮弹幕-Lv4",
+		damage = 94,
+		base = 69071
+	}
+	uv0.weapon_property_165[69075] = {
+		id = 69075,
+		name = "苏俄PVP主炮弹幕-Lv5",
+		damage = 106,
+		base = 69071
+	}
+	uv0.weapon_property_165[69076] = {
+		id = 69076,
+		name = "苏俄PVP主炮弹幕-Lv6",
+		damage = 118,
+		base = 69071
+	}
+	uv0.weapon_property_165[69077] = {
+		id = 69077,
+		name = "苏俄PVP主炮弹幕-Lv7",
+		damage = 130,
+		base = 69071
+	}
 	uv0.weapon_property_165[69078] = {
 		id = 69078,
 		name = "苏俄PVP主炮弹幕-Lv8",
@@ -593,30 +623,6 @@ function ()
 		id = 69133,
 		name = "定点冰锥PVP1-50-LV3",
 		damage = 16,
-		base = 69131
-	}
-	uv0.weapon_property_165[69134] = {
-		id = 69134,
-		name = "定点冰锥PVP1-50-LV4",
-		damage = 20,
-		base = 69131
-	}
-	uv0.weapon_property_165[69135] = {
-		id = 69135,
-		name = "定点冰锥PVP1-50-LV5",
-		damage = 25,
-		base = 69131
-	}
-	uv0.weapon_property_165[69136] = {
-		id = 69136,
-		name = "定点冰锥PVP1-50-LV6",
-		damage = 30,
-		base = 69131
-	}
-	uv0.weapon_property_165[69137] = {
-		id = 69137,
-		name = "定点冰锥PVP1-50-LV7",
-		damage = 36,
 		base = 69131
 	}
 end()

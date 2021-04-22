@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.aircraft_template_117 = {
+	[39308] = {
+		id = 39308,
+		base = 39300,
+		max_hp = 84,
+		hp_growth = 3237,
+		weapon_ID = {
+			50848,
+			53268
+		}
+	},
+	[39309] = {
+		id = 39309,
+		base = 39300,
+		max_hp = 90,
+		hp_growth = 3458,
+		weapon_ID = {
+			50849,
+			53269
+		}
+	},
+	[39310] = {
+		id = 39310,
+		base = 39300,
+		max_hp = 96,
+		hp_growth = 3678,
+		weapon_ID = {
+			50850,
+			53270
+		}
+	},
+	[39311] = {
+		id = 39311,
+		base = 39300,
+		max_hp = 101,
+		hp_growth = 3899,
+		weapon_ID = {
+			50851,
+			53271
+		}
+	},
 	[39320] = {
 		name = "彗星二一型",
 		max_hp = 42,
@@ -129,50 +169,6 @@ pg.aircraft_template_117 = {
 			50045,
 			52645,
 			52145
-		}
-	},
-	[39326] = {
-		id = 39326,
-		base = 39320,
-		max_hp = 79,
-		hp_growth = 3050,
-		weapon_ID = {
-			50046,
-			52646,
-			52146
-		}
-	},
-	[39327] = {
-		id = 39327,
-		base = 39320,
-		max_hp = 86,
-		hp_growth = 3290,
-		weapon_ID = {
-			50047,
-			52647,
-			52147
-		}
-	},
-	[39328] = {
-		id = 39328,
-		base = 39320,
-		max_hp = 92,
-		hp_growth = 3531,
-		weapon_ID = {
-			50048,
-			52648,
-			52148
-		}
-	},
-	[39329] = {
-		id = 39329,
-		base = 39320,
-		max_hp = 98,
-		hp_growth = 3772,
-		weapon_ID = {
-			50049,
-			52649,
-			52149
 		}
 	}
 }

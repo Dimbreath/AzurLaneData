@@ -1,5 +1,91 @@
 pg = pg or {}
 pg.equip_data_statistics_135 = {
+	[18040] = {
+		name = "TBD蹂躏者",
+		type = 8,
+		speciality = "雷击",
+		rarity = 3,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "18000",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 18040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				4,
+				51040
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			18040
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
+	},
+	[18041] = {
+		id = 18041,
+		base = 18040,
+		ammo_info = {
+			{
+				6,
+				50041
+			},
+			{
+				4,
+				51041
+			}
+		},
+		weapon_id = {
+			18041
+		}
+	},
+	[18042] = {
+		id = 18042,
+		base = 18040,
+		ammo_info = {
+			{
+				6,
+				50042
+			},
+			{
+				4,
+				51042
+			}
+		},
+		weapon_id = {
+			18042
+		}
+	},
 	[18043] = {
 		id = 18043,
 		base = 18040,
@@ -297,67 +383,6 @@ pg.equip_data_statistics_135 = {
 		},
 		skill_id = {
 			6328
-		}
-	},
-	[18069] = {
-		base = 18060,
-		id = 18069,
-		ammo_info = {
-			{
-				6,
-				59569
-			},
-			{
-				4,
-				59589
-			}
-		},
-		weapon_id = {
-			18069
-		},
-		skill_id = {
-			6329
-		}
-	},
-	[18070] = {
-		base = 18060,
-		id = 18070,
-		ammo_info = {
-			{
-				6,
-				59570
-			},
-			{
-				4,
-				59590
-			}
-		},
-		weapon_id = {
-			18070
-		},
-		skill_id = {
-			6330
-		}
-	},
-	[18071] = {
-		anti_siren = 100,
-		base = 18060,
-		id = 18071,
-		ammo_info = {
-			{
-				6,
-				59571
-			},
-			{
-				4,
-				59591
-			}
-		},
-		weapon_id = {
-			18071
-		},
-		skill_id = {
-			6331
 		}
 	}
 }

@@ -632,4 +632,10 @@ function ()
 		damage = 17,
 		base = 69431
 	}
+	uv0.weapon_property_170[69438] = {
+		id = 69438,
+		name = "贝亚恩技能·高爆LV8",
+		damage = 18,
+		base = 69431
+	}
 end()

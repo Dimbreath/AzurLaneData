@@ -1,5 +1,84 @@
 pg = pg or {}
 pg.equip_data_statistics_121 = {
+	[16251] = {
+		anti_siren = 100,
+		damage = "72/轮",
+		base = 16240,
+		id = 16251,
+		weapon_id = {
+			16251
+		}
+	},
+	[16300] = {
+		name = "双联40mm博福斯对空机炮",
+		speciality = "防空",
+		type = 6,
+		tech = 1,
+		descrip = "说明未填写",
+		value_2 = 5,
+		icon = "16300",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "19/轮",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 16300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			16300
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
+	},
+	[16301] = {
+		id = 16301,
+		damage = "22/轮",
+		base = 16300,
+		weapon_id = {
+			16301
+		}
+	},
 	[16302] = {
 		id = 16302,
 		damage = "25/轮",
@@ -218,30 +297,6 @@ pg.equip_data_statistics_121 = {
 		base = 16340,
 		weapon_id = {
 			16344
-		}
-	},
-	[16345] = {
-		id = 16345,
-		damage = "42/轮",
-		base = 16340,
-		weapon_id = {
-			16345
-		}
-	},
-	[16346] = {
-		id = 16346,
-		damage = "46/轮",
-		base = 16340,
-		weapon_id = {
-			16346
-		}
-	},
-	[16347] = {
-		id = 16347,
-		damage = "50/轮",
-		base = 16340,
-		weapon_id = {
-			16347
 		}
 	}
 }

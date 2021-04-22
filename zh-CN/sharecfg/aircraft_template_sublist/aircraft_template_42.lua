@@ -1,5 +1,49 @@
 pg = pg or {}
 pg.aircraft_template_42 = {
+	[19162] = {
+		id = 19162,
+		base = 19160,
+		max_hp = 65,
+		hp_growth = 2491,
+		weapon_ID = {
+			50642,
+			52942,
+			52342
+		}
+	},
+	[19163] = {
+		id = 19163,
+		base = 19160,
+		max_hp = 72,
+		hp_growth = 2778,
+		weapon_ID = {
+			50643,
+			52943,
+			52343
+		}
+	},
+	[19164] = {
+		id = 19164,
+		base = 19160,
+		max_hp = 80,
+		hp_growth = 3066,
+		weapon_ID = {
+			50644,
+			52944,
+			52344
+		}
+	},
+	[19165] = {
+		id = 19165,
+		base = 19160,
+		max_hp = 87,
+		hp_growth = 3353,
+		weapon_ID = {
+			50645,
+			52945,
+			52345
+		}
+	},
 	[19166] = {
 		id = 19166,
 		base = 19160,
@@ -64,113 +108,6 @@ pg.aircraft_template_42 = {
 			50651,
 			52951,
 			52351
-		}
-	},
-	[19172] = {
-		id = 19172,
-		base = 19160,
-		max_hp = 139,
-		hp_growth = 5365,
-		weapon_ID = {
-			50652,
-			52952,
-			52352
-		}
-	},
-	[19173] = {
-		id = 19173,
-		base = 19160,
-		max_hp = 147,
-		hp_growth = 5652,
-		weapon_ID = {
-			50653,
-			52953,
-			52353
-		}
-	},
-	[19200] = {
-		name = "BTD-1毁灭者",
-		max_hp = 38,
-		accuracy = 23,
-		model_ID = "BTD",
-		ACC_growth = 0,
-		crash_DMG = 206,
-		dodge = 3.39,
-		attack_power = 2,
-		dodge_limit = 1.6,
-		type = 3,
-		AP_growth = 2000,
-		icon = "BTD",
-		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1478,
-		speed = 45,
-		id = 19200,
-		scale = 1,
-		weapon_ID = {
-			50500,
-			52800
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.46,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[19201] = {
-		id = 19201,
-		base = 19200,
-		max_hp = 44,
-		hp_growth = 1700,
-		weapon_ID = {
-			50501,
-			52801
 		}
 	}
 }

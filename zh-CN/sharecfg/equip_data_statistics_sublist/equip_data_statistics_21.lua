@@ -1,5 +1,50 @@
 pg = pg or {}
 pg.equip_data_statistics_21 = {
+	[860] = {
+		name = "华盛顿海军条约",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		id = 860,
+		value_2 = 12,
+		icon = "860",
+		value_1 = "8",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "......我们决心，为达此目的，签订条约限制各自的海军军备",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6760
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[861] = {
+		id = 861,
+		value_2 = 13,
+		base = 860
+	},
+	[862] = {
+		id = 862,
+		value_2 = 14,
+		value_1 = "9",
+		base = 860
+	},
 	[863] = {
 		id = 863,
 		value_2 = 16,
@@ -117,24 +162,6 @@ pg.equip_data_statistics_21 = {
 		id = 882,
 		value_2 = 9,
 		value_1 = "26",
-		base = 880
-	},
-	[883] = {
-		id = 883,
-		value_2 = 10,
-		value_1 = "29",
-		base = 880
-	},
-	[884] = {
-		id = 884,
-		value_2 = 11,
-		value_1 = "32",
-		base = 880
-	},
-	[885] = {
-		id = 885,
-		value_2 = 12,
-		value_1 = "35",
 		base = 880
 	}
 }

@@ -1,5 +1,24 @@
 pg = pg or {}
 pg.equip_data_statistics_115 = {
+	[15509] = {
+		id = 15509,
+		value_2 = 28,
+		value_1 = "32",
+		base = 15500
+	},
+	[15510] = {
+		id = 15510,
+		value_2 = 30,
+		value_1 = "35",
+		base = 15500
+	},
+	[15511] = {
+		id = 15511,
+		anti_siren = 100,
+		base = 15500,
+		value_2 = 32,
+		value_1 = "38"
+	},
 	[16000] = {
 		name = "20mm厄利孔高射炮",
 		speciality = "防空",
@@ -271,84 +290,6 @@ pg.equip_data_statistics_115 = {
 		base = 16040,
 		weapon_id = {
 			16045
-		}
-	},
-	[16046] = {
-		id = 16046,
-		damage = "20/轮",
-		base = 16040,
-		weapon_id = {
-			16046
-		}
-	},
-	[16047] = {
-		id = 16047,
-		damage = "20/轮",
-		base = 16040,
-		weapon_id = {
-			16047
-		}
-	},
-	[16060] = {
-		name = "76mm高射炮改进型",
-		speciality = "防空",
-		type = 6,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "16060",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "29/轮",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 16060,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			16060
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"ST",
-			"AA"
 		}
 	}
 }

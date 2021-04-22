@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.aircraft_template_12 = {
+	[17088] = {
+		id = 17088,
+		base = 17080,
+		max_hp = 89,
+		hp_growth = 3415,
+		weapon_ID = {
+			50348,
+			52148
+		}
+	},
+	[17089] = {
+		id = 17089,
+		base = 17080,
+		max_hp = 95,
+		hp_growth = 3648,
+		weapon_ID = {
+			50349,
+			52149
+		}
+	},
+	[17090] = {
+		id = 17090,
+		base = 17080,
+		max_hp = 101,
+		hp_growth = 3881,
+		weapon_ID = {
+			50350,
+			52150
+		}
+	},
+	[17091] = {
+		id = 17091,
+		base = 17080,
+		max_hp = 107,
+		hp_growth = 4114,
+		weapon_ID = {
+			50351,
+			52151
+		}
+	},
 	[17100] = {
 		name = "F4F野猫",
 		max_hp = 33,
@@ -182,42 +222,6 @@ pg.aircraft_template_12 = {
 		hp_growth = 1623,
 		weapon_ID = {
 			50421
-		}
-	},
-	[17122] = {
-		id = 17122,
-		base = 17120,
-		max_hp = 48,
-		hp_growth = 1835,
-		weapon_ID = {
-			50422
-		}
-	},
-	[17123] = {
-		id = 17123,
-		base = 17120,
-		max_hp = 53,
-		hp_growth = 2046,
-		weapon_ID = {
-			50423
-		}
-	},
-	[17124] = {
-		id = 17124,
-		base = 17120,
-		max_hp = 59,
-		hp_growth = 2258,
-		weapon_ID = {
-			50424
-		}
-	},
-	[17125] = {
-		id = 17125,
-		base = 17120,
-		max_hp = 64,
-		hp_growth = 2470,
-		weapon_ID = {
-			50425
 		}
 	}
 }

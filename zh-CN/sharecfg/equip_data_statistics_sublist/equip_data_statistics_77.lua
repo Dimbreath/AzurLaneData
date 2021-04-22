@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_77 = {
+	[6120] = {
+		name = "双联装100mm高炮",
+		speciality = "防空",
+		type = 6,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 5,
+		icon = "6100",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "20/轮",
+		nationality = 8,
+		ammo = 5,
+		value_3 = 0,
+		id = 6120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			6120
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		}
+	},
+	[6121] = {
+		id = 6121,
+		damage = "23/轮",
+		base = 6120,
+		weapon_id = {
+			6121
+		}
+	},
+	[6122] = {
+		id = 6122,
+		damage = "26/轮",
+		base = 6120,
+		weapon_id = {
+			6122
+		}
+	},
 	[6123] = {
 		id = 6123,
 		damage = "29/轮",
@@ -265,30 +343,6 @@ pg.equip_data_statistics_77 = {
 			"SN",
 			"CL",
 			"MG"
-		}
-	},
-	[7021] = {
-		id = 7021,
-		damage = "20 x 3",
-		base = 7020,
-		weapon_id = {
-			7021
-		}
-	},
-	[7022] = {
-		id = 7022,
-		damage = "22 x 3",
-		base = 7020,
-		weapon_id = {
-			7022
-		}
-	},
-	[7023] = {
-		id = 7023,
-		damage = "24 x 3",
-		base = 7020,
-		weapon_id = {
-			7023
 		}
 	}
 }

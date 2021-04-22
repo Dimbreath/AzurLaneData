@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_231 = {
+	[34164] = {
+		id = 34164,
+		damage = "16 x 10 x 2",
+		base = 34160,
+		weapon_id = {
+			34164
+		}
+	},
+	[34165] = {
+		id = 34165,
+		damage = "17 x 10 x 2",
+		base = 34160,
+		weapon_id = {
+			34165
+		}
+	},
+	[34166] = {
+		id = 34166,
+		damage = "18 x 10 x 2",
+		base = 34160,
+		weapon_id = {
+			34166
+		}
+	},
 	[34167] = {
 		id = 34167,
 		damage = "19 x 10 x 2",
@@ -158,30 +182,6 @@ pg.equip_data_statistics_231 = {
 		base = 34180,
 		weapon_id = {
 			34186
-		}
-	},
-	[34187] = {
-		id = 34187,
-		damage = "124 x 3",
-		base = 34180,
-		weapon_id = {
-			34187
-		}
-	},
-	[34188] = {
-		id = 34188,
-		damage = "134 x 3",
-		base = 34180,
-		weapon_id = {
-			34188
-		}
-	},
-	[34189] = {
-		id = 34189,
-		damage = "144 x 3",
-		base = 34180,
-		weapon_id = {
-			34189
 		}
 	}
 }

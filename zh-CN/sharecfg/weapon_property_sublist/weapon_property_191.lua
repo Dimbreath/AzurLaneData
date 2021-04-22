@@ -2,103 +2,6 @@ pg = pg or {}
 pg.weapon_property_191 = {}
 
 function ()
-	uv0.weapon_property_191[82331] = {
-		id = 82331,
-		reload_max = 1596,
-		base = 82320
-	}
-	uv0.weapon_property_191[82332] = {
-		id = 82332,
-		reload_max = 1596,
-		base = 82320
-	}
-	uv0.weapon_property_191[82333] = {
-		id = 82333,
-		reload_max = 1596,
-		base = 82320
-	}
-	uv0.weapon_property_191[82980] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "飞龙T0",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 90,
-		charge_param = "",
-		damage = 1,
-		corrected = 100,
-		min_range = 0,
-		id = 82980,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 2300,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_191[82981] = {
-		id = 82981,
-		reload_max = 2245,
-		base = 82980
-	}
-	uv0.weapon_property_191[82982] = {
-		id = 82982,
-		reload_max = 2190,
-		base = 82980
-	}
-	uv0.weapon_property_191[82983] = {
-		id = 82983,
-		reload_max = 2135,
-		base = 82980
-	}
-	uv0.weapon_property_191[82984] = {
-		id = 82984,
-		reload_max = 2080,
-		base = 82980
-	}
-	uv0.weapon_property_191[82985] = {
-		id = 82985,
-		reload_max = 2025,
-		base = 82980
-	}
-	uv0.weapon_property_191[82986] = {
-		id = 82986,
-		reload_max = 1970,
-		base = 82980
-	}
-	uv0.weapon_property_191[82987] = {
-		id = 82987,
-		reload_max = 1915,
-		base = 82980
-	}
-	uv0.weapon_property_191[82988] = {
-		id = 82988,
-		reload_max = 1860,
-		base = 82980
-	}
 	uv0.weapon_property_191[82989] = {
 		id = 82989,
 		reload_max = 1805,
@@ -741,5 +644,125 @@ function ()
 		id = 83163,
 		reload_max = 1658,
 		base = 83160
+	}
+	uv0.weapon_property_191[83164] = {
+		id = 83164,
+		reload_max = 1636,
+		base = 83160
+	}
+	uv0.weapon_property_191[83165] = {
+		id = 83165,
+		reload_max = 1614,
+		base = 83160
+	}
+	uv0.weapon_property_191[83166] = {
+		id = 83166,
+		reload_max = 1592,
+		base = 83160
+	}
+	uv0.weapon_property_191[83167] = {
+		id = 83167,
+		reload_max = 1570,
+		base = 83160
+	}
+	uv0.weapon_property_191[83168] = {
+		id = 83168,
+		reload_max = 1548,
+		base = 83160
+	}
+	uv0.weapon_property_191[83169] = {
+		id = 83169,
+		reload_max = 1526,
+		base = 83160
+	}
+	uv0.weapon_property_191[83170] = {
+		id = 83170,
+		reload_max = 1504,
+		base = 83160
+	}
+	uv0.weapon_property_191[83171] = {
+		id = 83171,
+		reload_max = 1504,
+		base = 83160
+	}
+	uv0.weapon_property_191[83200] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "零战五二型T1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 24,
+		corrected = 100,
+		min_range = 0,
+		id = 83200,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1674,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			37200
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_191[83201] = {
+		reload_max = 1652,
+		damage = 28,
+		base = 83200,
+		id = 83201,
+		bullet_ID = {
+			37201
+		}
+	}
+	uv0.weapon_property_191[83202] = {
+		reload_max = 1629,
+		damage = 32,
+		base = 83200,
+		id = 83202,
+		bullet_ID = {
+			37202
+		}
+	}
+	uv0.weapon_property_191[83203] = {
+		reload_max = 1607,
+		damage = 36,
+		base = 83200,
+		id = 83203,
+		bullet_ID = {
+			37203
+		}
+	}
+	uv0.weapon_property_191[83204] = {
+		reload_max = 1584,
+		damage = 40,
+		base = 83200,
+		id = 83204,
+		bullet_ID = {
+			37204
+		}
 	}
 end()

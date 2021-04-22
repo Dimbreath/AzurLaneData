@@ -28,7 +28,6 @@ function slot0.execute(slot0, slot1)
 				type = DROP_TYPE_ITEM
 			}))
 			uv4:sendNotification(GAME.REPAIR_META_CHARACTER_DONE)
-			pg.TipsMgr.GetInstance():ShowTips(i18n("meta_repair_success"))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end

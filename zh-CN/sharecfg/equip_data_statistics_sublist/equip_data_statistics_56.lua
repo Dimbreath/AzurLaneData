@@ -1,5 +1,56 @@
 pg = pg or {}
 pg.equip_data_statistics_56 = {
+	[3111] = {
+		value_2 = 10,
+		anti_siren = 100,
+		base = 3100,
+		id = 3111,
+		value_1 = "45",
+		attribute_2 = "hit"
+	},
+	[3120] = {
+		name = "改良型水下进气管",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		attribute_1 = "oxy_max",
+		value_2 = 0,
+		icon = "3120",
+		value_1 = "34",
+		descrip = "通气管使潜艇能在潜望镜深度进行空气交换",
+		rarity = 5,
+		nationality = 4,
+		ammo = 10,
+		value_3 = 0,
+		id = 3120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"DEV"
+		}
+	},
+	[3121] = {
+		id = 3121,
+		value_1 = "39",
+		base = 3120
+	},
 	[3122] = {
 		id = 3122,
 		value_1 = "44",
@@ -114,21 +165,6 @@ pg.equip_data_statistics_56 = {
 	[3141] = {
 		id = 3141,
 		value_1 = "3",
-		base = 3140
-	},
-	[3142] = {
-		id = 3142,
-		value_1 = "4",
-		base = 3140
-	},
-	[3143] = {
-		id = 3143,
-		value_1 = "5",
-		base = 3140
-	},
-	[3144] = {
-		id = 3144,
-		value_1 = "6",
 		base = 3140
 	}
 }

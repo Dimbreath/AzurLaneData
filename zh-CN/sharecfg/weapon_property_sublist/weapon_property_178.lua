@@ -2,101 +2,6 @@ pg = pg or {}
 pg.weapon_property_178 = {}
 
 function ()
-	uv0.weapon_property_178[69868] = {
-		id = 69868,
-		name = "Z26ATF破盾反击鱼雷LV8",
-		damage = 70,
-		base = 69861
-	}
-	uv0.weapon_property_178[69869] = {
-		id = 69869,
-		name = "Z26ATF破盾反击鱼雷LV9",
-		damage = 78,
-		base = 69861
-	}
-	uv0.weapon_property_178[69870] = {
-		id = 69870,
-		name = "Z26ATF破盾反击鱼雷LV10",
-		damage = 86,
-		base = 69861
-	}
-	uv0.weapon_property_178[69871] = {
-		action_index = "attack",
-		range = 95,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "纪伊主炮弹幕PVE-LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 48,
-		corrected = 100,
-		min_range = 25,
-		id = 69871,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19180,
-			19180,
-			19180
-		},
-		barrage_ID = {
-			80940,
-			80942,
-			80943
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jineng",
-			alertTime = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_178[69872] = {
-		id = 69872,
-		name = "纪伊主炮弹幕PVE-LV2",
-		damage = 56,
-		base = 69871
-	}
-	uv0.weapon_property_178[69873] = {
-		id = 69873,
-		name = "纪伊主炮弹幕PVE-LV3",
-		damage = 64,
-		base = 69871
-	}
-	uv0.weapon_property_178[69874] = {
-		id = 69874,
-		name = "纪伊主炮弹幕PVE-LV4",
-		damage = 72,
-		base = 69871
-	}
-	uv0.weapon_property_178[69875] = {
-		id = 69875,
-		name = "纪伊主炮弹幕PVE-LV5",
-		damage = 80,
-		base = 69871
-	}
 	uv0.weapon_property_178[69876] = {
 		id = 69876,
 		name = "纪伊主炮弹幕PVE-LV6",
@@ -675,6 +580,131 @@ function ()
 		},
 		barrage_ID = {
 			12009
+		}
+	}
+	uv0.weapon_property_178[69928] = {
+		name = "信浓试飞搭载试制型紫电改二 Lv8",
+		damage = 216,
+		base = 69921,
+		id = 69928,
+		bullet_ID = {
+			69928
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_178[69929] = {
+		name = "信浓试飞搭载试制型紫电改二 Lv9",
+		damage = 238,
+		base = 69921,
+		id = 69929,
+		bullet_ID = {
+			69929
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_178[69930] = {
+		name = "信浓试飞搭载试制型紫电改二 Lv10",
+		damage = 260,
+		base = 69921,
+		id = 69930,
+		bullet_ID = {
+			69930
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_178[69931] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "信浓试飞搭载流星 Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 90,
+		charge_param = "",
+		damage = 68,
+		corrected = 100,
+		min_range = 0,
+		id = 69931,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1890,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			69931
+		},
+		barrage_ID = {
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_178[69932] = {
+		name = "信浓试飞搭载流星 Lv2",
+		damage = 86,
+		base = 69931,
+		id = 69932,
+		bullet_ID = {
+			69932
+		}
+	}
+	uv0.weapon_property_178[69933] = {
+		name = "信浓试飞搭载流星 Lv3",
+		damage = 106,
+		base = 69931,
+		id = 69933,
+		bullet_ID = {
+			69933
+		}
+	}
+	uv0.weapon_property_178[69934] = {
+		name = "信浓试飞搭载流星 Lv4",
+		damage = 124,
+		base = 69931,
+		id = 69934,
+		bullet_ID = {
+			69934
+		}
+	}
+	uv0.weapon_property_178[69935] = {
+		name = "信浓试飞搭载流星 Lv5",
+		damage = 144,
+		base = 69931,
+		id = 69935,
+		bullet_ID = {
+			69935
+		}
+	}
+	uv0.weapon_property_178[69936] = {
+		name = "信浓试飞搭载流星 Lv6",
+		damage = 164,
+		base = 69931,
+		id = 69936,
+		bullet_ID = {
+			69936
 		}
 	}
 end()

@@ -1,5 +1,103 @@
 pg = pg or {}
 pg.equip_data_statistics_273 = {
+	[38230] = {
+		id = 38230,
+		base = 38220,
+		ammo_info = {
+			{
+				6,
+				50530
+			},
+			{
+				6,
+				50830
+			},
+			{
+				4,
+				51450
+			}
+		},
+		weapon_id = {
+			38230
+		}
+	},
+	[38240] = {
+		name = "流星",
+		type = 8,
+		speciality = "雷击",
+		rarity = 5,
+		tech = 3,
+		descrip = "Aichi B7A Ryusei 流星式舰载攻击机，搭载有2门20毫米机炮、1门13mm机枪和800kg鱼雷",
+		value_2 = 45,
+		icon = "38200",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 38240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50540
+			},
+			{
+				6,
+				50840
+			},
+			{
+				4,
+				51460
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			38240
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
+	},
+	[38241] = {
+		id = 38241,
+		base = 38240,
+		ammo_info = {
+			{
+				6,
+				50541
+			},
+			{
+				6,
+				50841
+			},
+			{
+				4,
+				51461
+			}
+		},
+		weapon_id = {
+			38241
+		}
+	},
 	[38242] = {
 		id = 38242,
 		base = 38240,
@@ -330,104 +428,6 @@ pg.equip_data_statistics_273 = {
 		},
 		weapon_id = {
 			39001
-		}
-	},
-	[39002] = {
-		id = 39002,
-		base = 39000,
-		ammo_info = {
-			{
-				6,
-				50002
-			},
-			{
-				5,
-				52202
-			},
-			{
-				5,
-				52102
-			}
-		},
-		weapon_id = {
-			39002
-		}
-	},
-	[39003] = {
-		id = 39003,
-		base = 39000,
-		ammo_info = {
-			{
-				6,
-				50003
-			},
-			{
-				5,
-				52203
-			},
-			{
-				5,
-				52103
-			}
-		},
-		weapon_id = {
-			39003
-		}
-	},
-	[39020] = {
-		name = "九九式舰爆",
-		type = 9,
-		speciality = "轰炸",
-		rarity = 3,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "39000",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 39020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50020
-			},
-			{
-				5,
-				52220
-			},
-			{
-				5,
-				52120
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			39020
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"DB"
 		}
 	}
 }

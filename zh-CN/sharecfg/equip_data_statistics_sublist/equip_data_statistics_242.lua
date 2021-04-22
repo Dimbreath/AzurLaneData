@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_242 = {
+	[35327] = {
+		id = 35327,
+		damage = "142 x 5",
+		base = 35320,
+		weapon_id = {
+			35327
+		}
+	},
+	[35328] = {
+		id = 35328,
+		damage = "154 x 5",
+		base = 35320,
+		weapon_id = {
+			35328
+		}
+	},
+	[35329] = {
+		id = 35329,
+		damage = "166 x 5",
+		base = 35320,
+		weapon_id = {
+			35329
+		}
+	},
 	[35330] = {
 		id = 35330,
 		damage = "178 x 5",
@@ -166,82 +190,6 @@ pg.equip_data_statistics_242 = {
 		id = 35352,
 		weapon_id = {
 			35352
-		}
-	},
-	[35353] = {
-		anti_siren = 300,
-		damage = "206 x 5",
-		base = 35340,
-		id = 35353,
-		weapon_id = {
-			35353
-		}
-	},
-	[35400] = {
-		name = "潜艇用92式潜射鱼雷",
-		speciality = "雷击",
-		type = 13,
-		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "35400",
-		attribute_2 = "torpedo",
-		rarity = 2,
-		damage = "48 x 2",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 35400,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1823
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1823
-			},
-			{
-				4,
-				1601
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			35400
-		},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"SS",
-			"TP"
-		}
-	},
-	[35401] = {
-		id = 35401,
-		damage = "55 x 2",
-		base = 35400,
-		weapon_id = {
-			35401
 		}
 	}
 }

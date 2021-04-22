@@ -1,5 +1,57 @@
 pg = pg or {}
 pg.equip_data_statistics_12 = {
+	[620] = {
+		name = "超重弹",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		attribute_1 = "cannon",
+		value_2 = 0,
+		icon = "620",
+		value_1 = "28",
+		descrip = "弹重系数远大于一般弹药的炮弹，称为『超重弹』，有着非同一般的重量",
+		rarity = 5,
+		nationality = 1,
+		ammo = 10,
+		value_3 = 0,
+		id = 620,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6210
+		},
+		part_main = {
+			4,
+			5,
+			10
+		},
+		part_sub = {
+			4,
+			5,
+			10
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DEV"
+		}
+	},
+	[621] = {
+		id = 621,
+		value_1 = "32",
+		base = 620
+	},
+	[622] = {
+		id = 622,
+		value_1 = "36",
+		base = 620
+	},
 	[623] = {
 		id = 623,
 		value_1 = "40",
@@ -113,24 +165,6 @@ pg.equip_data_statistics_12 = {
 		id = 642,
 		value_2 = 5,
 		value_1 = "7",
-		base = 640
-	},
-	[643] = {
-		id = 643,
-		value_2 = 6,
-		value_1 = "8",
-		base = 640
-	},
-	[644] = {
-		id = 644,
-		value_2 = 6,
-		value_1 = "9",
-		base = 640
-	},
-	[645] = {
-		id = 645,
-		value_2 = 7,
-		value_1 = "10",
 		base = 640
 	}
 }

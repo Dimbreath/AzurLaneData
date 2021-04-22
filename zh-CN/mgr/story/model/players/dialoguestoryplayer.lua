@@ -178,6 +178,10 @@ function slot0.UpdatePainting(slot0, slot1, slot2)
 	slot4, slot5, slot6, slot7 = slot0:GetSideTF(slot1:GetSide())
 
 	if slot1:GetPainting() then
+		if slot1:IsShowNPainting() and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot3 .. "_n")) then
+			slot3 = slot3 .. "_n"
+		end
+
 		setPaintingPrefab(slot4, slot3, "duihua")
 
 		slot8 = slot1:GetPaintingDir()

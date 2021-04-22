@@ -1,5 +1,81 @@
 pg = pg or {}
 pg.equip_data_statistics_289 = {
+	[42220] = {
+		name = "双联装TbtsKC36式150mm主炮",
+		speciality = "锁定",
+		type = 2,
+		tech = 2,
+		descrip = "双联装TbtsKC36式150mm主炮，1936A型驱逐舰主炮，轻巡和部分驱逐可以使用",
+		value_2 = 12,
+		icon = "42200",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "8 x 4",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 0,
+		id = 42220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1304
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1304
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			42220
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[42221] = {
+		id = 42221,
+		damage = "9 x 4",
+		base = 42220,
+		weapon_id = {
+			42221
+		}
+	},
+	[42222] = {
+		id = 42222,
+		damage = "10 x 4",
+		base = 42220,
+		weapon_id = {
+			42222
+		}
+	},
 	[42223] = {
 		id = 42223,
 		damage = "11 x 4",
@@ -162,83 +238,6 @@ pg.equip_data_statistics_289 = {
 		base = 42240,
 		weapon_id = {
 			42249
-		}
-	},
-	[42250] = {
-		id = 42250,
-		damage = "21 x 4",
-		base = 42240,
-		weapon_id = {
-			42250
-		}
-	},
-	[42251] = {
-		anti_siren = 100,
-		damage = "21 x 4",
-		base = 42240,
-		id = 42251,
-		weapon_id = {
-			42251
-		}
-	},
-	[42300] = {
-		name = "单装TbtsKC36式150mm主炮",
-		speciality = "锁定",
-		type = 2,
-		tech = 1,
-		descrip = "单装TbtsKC36式150mm主炮，1936A型驱逐舰主炮，轻巡和部分驱逐可以使用",
-		value_2 = 5,
-		icon = "42300",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "7 x 3",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 42300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1304
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1304
-			},
-			{
-				4,
-				1003
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			42300
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CL",
-			"MG",
-			"AP"
 		}
 	}
 }

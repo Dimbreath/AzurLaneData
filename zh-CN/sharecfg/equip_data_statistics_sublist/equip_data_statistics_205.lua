@@ -1,5 +1,92 @@
 pg = pg or {}
 pg.equip_data_statistics_205 = {
+	[28325] = {
+		id = 28325,
+		base = 28320,
+		ammo_info = {
+			{
+				6,
+				50025
+			},
+			{
+				4,
+				51025
+			}
+		},
+		weapon_id = {
+			28325
+		}
+	},
+	[28326] = {
+		id = 28326,
+		base = 28320,
+		ammo_info = {
+			{
+				6,
+				50026
+			},
+			{
+				4,
+				51026
+			}
+		},
+		weapon_id = {
+			28326
+		}
+	},
+	[28340] = {
+		name = "青花鱼",
+		type = 8,
+		speciality = "雷击",
+		rarity = 4,
+		tech = 3,
+		descrip = "剑鱼式鱼雷轰炸机的后继机型，但最后仍与剑鱼并用直到同被梭鱼式鱼雷轰炸机取代",
+		value_2 = 25,
+		icon = "28300",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 28340,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				4,
+				51040
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			28340
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"TB",
+			"Albacore"
+		}
+	},
 	[28341] = {
 		id = 28341,
 		base = 28340,
@@ -275,60 +362,6 @@ pg.equip_data_statistics_205 = {
 		weapon_id = {
 			28402,
 			82982
-		}
-	},
-	[28403] = {
-		id = 28403,
-		base = 28400,
-		ammo_info = {
-			{
-				6,
-				50663
-			},
-			{
-				4,
-				51583
-			}
-		},
-		weapon_id = {
-			28403,
-			82983
-		}
-	},
-	[28404] = {
-		id = 28404,
-		base = 28400,
-		ammo_info = {
-			{
-				6,
-				50664
-			},
-			{
-				4,
-				51584
-			}
-		},
-		weapon_id = {
-			28404,
-			82984
-		}
-	},
-	[28405] = {
-		id = 28405,
-		base = 28400,
-		ammo_info = {
-			{
-				6,
-				50665
-			},
-			{
-				4,
-				51585
-			}
-		},
-		weapon_id = {
-			28405,
-			82985
 		}
 	}
 }

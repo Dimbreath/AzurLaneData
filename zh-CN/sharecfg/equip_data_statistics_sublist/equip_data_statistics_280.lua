@@ -1,5 +1,93 @@
 pg = pg or {}
 pg.equip_data_statistics_280 = {
+	[39300] = {
+		name = "晴岚",
+		type = 12,
+		speciality = "轰炸",
+		rarity = 4,
+		tech = 0,
+		descrip = "Aichi M6A1 Seiran 晴岚式特殊攻击机，搭载1门13mm机枪和1枚约1600磅炸弹",
+		value_2 = 25,
+		icon = "39300",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 39300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50840
+			},
+			{
+				5,
+				53260
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			39300
+		},
+		skill_id = {
+			6370
+		},
+		part_main = {
+			10,
+			17
+		},
+		part_sub = {
+			10,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		}
+	},
+	[39301] = {
+		id = 39301,
+		base = 39300,
+		ammo_info = {
+			{
+				6,
+				50841
+			},
+			{
+				5,
+				53261
+			}
+		},
+		weapon_id = {
+			39301
+		}
+	},
+	[39302] = {
+		id = 39302,
+		base = 39300,
+		ammo_info = {
+			{
+				6,
+				50842
+			},
+			{
+				5,
+				53262
+			}
+		},
+		weapon_id = {
+			39302
+		}
+	},
 	[39303] = {
 		id = 39303,
 		base = 39300,
@@ -290,69 +378,6 @@ pg.equip_data_statistics_280 = {
 		},
 		weapon_id = {
 			39324
-		}
-	},
-	[39325] = {
-		id = 39325,
-		base = 39320,
-		ammo_info = {
-			{
-				6,
-				50045
-			},
-			{
-				5,
-				52645
-			},
-			{
-				5,
-				52145
-			}
-		},
-		weapon_id = {
-			39325
-		}
-	},
-	[39326] = {
-		id = 39326,
-		base = 39320,
-		ammo_info = {
-			{
-				6,
-				50046
-			},
-			{
-				5,
-				52646
-			},
-			{
-				5,
-				52146
-			}
-		},
-		weapon_id = {
-			39326
-		}
-	},
-	[39327] = {
-		id = 39327,
-		base = 39320,
-		ammo_info = {
-			{
-				6,
-				50047
-			},
-			{
-				5,
-				52647
-			},
-			{
-				5,
-				52147
-			}
-		},
-		weapon_id = {
-			39327
 		}
 	}
 }

@@ -1,5 +1,59 @@
 pg = pg or {}
 pg.equip_data_statistics_134 = {
+	[17403] = {
+		id = 17403,
+		base = 17400,
+		ammo_info = {
+			{
+				6,
+				50543
+			},
+			{
+				6,
+				50743
+			}
+		},
+		weapon_id = {
+			17403,
+			81403
+		}
+	},
+	[17404] = {
+		id = 17404,
+		base = 17400,
+		ammo_info = {
+			{
+				6,
+				50544
+			},
+			{
+				6,
+				50744
+			}
+		},
+		weapon_id = {
+			17404,
+			81404
+		}
+	},
+	[17405] = {
+		id = 17405,
+		base = 17400,
+		ammo_info = {
+			{
+				6,
+				50545
+			},
+			{
+				6,
+				50745
+			}
+		},
+		weapon_id = {
+			17405,
+			81405
+		}
+	},
 	[17406] = {
 		id = 17406,
 		base = 17400,
@@ -312,92 +366,6 @@ pg.equip_data_statistics_134 = {
 		},
 		weapon_id = {
 			18023
-		}
-	},
-	[18040] = {
-		name = "TBD蹂躏者",
-		type = 8,
-		speciality = "雷击",
-		rarity = 3,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "18000",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 18040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50040
-			},
-			{
-				4,
-				51040
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			18040
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"TB"
-		}
-	},
-	[18041] = {
-		id = 18041,
-		base = 18040,
-		ammo_info = {
-			{
-				6,
-				50041
-			},
-			{
-				4,
-				51041
-			}
-		},
-		weapon_id = {
-			18041
-		}
-	},
-	[18042] = {
-		id = 18042,
-		base = 18040,
-		ammo_info = {
-			{
-				6,
-				50042
-			},
-			{
-				4,
-				51042
-			}
-		},
-		weapon_id = {
-			18042
 		}
 	}
 }

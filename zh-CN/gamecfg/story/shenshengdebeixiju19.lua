@@ -67,6 +67,7 @@ return {
 			bgm = "story-italy",
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "最后还是没有来吗？",
 			flashout = {
 				dur = 0.5,
@@ -128,11 +129,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -144,11 +146,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "看来我们这次也要变成弃子了，就同维希教廷的战舰们一样…",
 			typewriter = {
 				speed = 0.05,
@@ -166,6 +169,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "口口声声说着帝国的艺术、罗穆路斯的希望",
 			typewriter = {
 				speed = 0.05,
@@ -177,11 +181,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "最后却只能成为任人笑话的喜剧演员吗？",
 			typewriter = {
 				speed = 0.05,
@@ -210,11 +215,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "是的，不论是喜剧还是悲剧，这出戏都该谢幕了，以它应有的方式",
 			typewriter = {
 				speed = 0.05,

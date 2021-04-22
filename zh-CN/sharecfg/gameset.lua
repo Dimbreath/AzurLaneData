@@ -338,8 +338,8 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "箱庭疗法复刻",
-		key_value = 194
+		description = "意大利V2",
+		key_value = 196
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1622,7 +1622,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 195
+		key_value = 197
 	},
 	order_pt_max = {
 		key_value = 0,

@@ -1,5 +1,47 @@
 pg = pg or {}
 pg.equip_data_statistics_125 = {
+	[17044] = {
+		id = 17044,
+		base = 17040,
+		ammo_info = {
+			{
+				6,
+				50344
+			}
+		},
+		weapon_id = {
+			17044,
+			81044
+		}
+	},
+	[17045] = {
+		id = 17045,
+		base = 17040,
+		ammo_info = {
+			{
+				6,
+				50345
+			}
+		},
+		weapon_id = {
+			17045,
+			81045
+		}
+	},
+	[17046] = {
+		id = 17046,
+		base = 17040,
+		ammo_info = {
+			{
+				6,
+				50346
+			}
+		},
+		weapon_id = {
+			17046,
+			81046
+		}
+	},
 	[17047] = {
 		id = 17047,
 		base = 17040,
@@ -233,92 +275,6 @@ pg.equip_data_statistics_125 = {
 		weapon_id = {
 			17072,
 			81072
-		}
-	},
-	[17073] = {
-		anti_siren = 300,
-		base = 17060,
-		id = 17073,
-		ammo_info = {
-			{
-				6,
-				50373
-			}
-		},
-		weapon_id = {
-			17073,
-			81073
-		}
-	},
-	[17080] = {
-		name = "试作型XF2A-4水牛",
-		type = 7,
-		speciality = "空战",
-		rarity = 4,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "17080",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 17080,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50340
-			},
-			{
-				5,
-				52140
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			17080,
-			81080
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"FT"
-		}
-	},
-	[17081] = {
-		id = 17081,
-		base = 17080,
-		ammo_info = {
-			{
-				6,
-				50341
-			},
-			{
-				5,
-				52141
-			}
-		},
-		weapon_id = {
-			17081,
-			81081
 		}
 	}
 }

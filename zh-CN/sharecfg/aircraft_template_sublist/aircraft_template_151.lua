@@ -1,37 +1,56 @@
 pg = pg or {}
 pg.aircraft_template_151 = {
-	[66970] = {
-		max_hp = 73,
-		name = "萨拉托加技能轰炸机Lv10",
-		base = 66960,
-		id = 66970,
-		hp_growth = 2809,
+	[66828] = {
+		max_hp = 50,
+		name = "飞鹰隼鹰技能Lv8",
+		base = 66820,
+		id = 66828,
+		hp_growth = 1940,
 		weapon_ID = {
-			67010,
-			67030
+			66848
 		}
 	},
-	[67140] = {
-		name = "半人马技能鱼雷机Lv0",
-		max_hp = 35,
+	[66829] = {
+		max_hp = 53,
+		name = "飞鹰隼鹰技能Lv9",
+		base = 66820,
+		id = 66829,
+		hp_growth = 2067,
+		weapon_ID = {
+			66849
+		}
+	},
+	[66830] = {
+		max_hp = 57,
+		name = "飞鹰隼鹰技能Lv10",
+		base = 66820,
+		id = 66830,
+		hp_growth = 2195,
+		weapon_ID = {
+			66850
+		}
+	},
+	[66940] = {
+		name = "萨拉托加技能鱼雷机Lv0",
+		max_hp = 30,
 		accuracy = 23,
-		model_ID = "jianyu",
+		model_ID = "tbf",
 		ACC_growth = 0,
-		crash_DMG = 306,
+		crash_DMG = 406,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "jianyu",
+		icon = "tbf",
 		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1338,
-		speed = 45,
-		id = 67140,
+		nationality = 1,
+		hp_growth = 1149,
+		speed = 48,
+		id = 66940,
 		scale = 1,
 		weapon_ID = {
-			67180
+			66980
 		},
 		position_offset = {
 			0,
@@ -74,8 +93,8 @@ pg.aircraft_template_151 = {
 				0
 			},
 			{
-				0.52,
-				0,
+				0.15,
+				-0.08,
 				0
 			},
 			{
@@ -85,84 +104,64 @@ pg.aircraft_template_151 = {
 			}
 		}
 	},
-	[67141] = {
-		max_hp = 40,
-		name = "半人马技能鱼雷机Lv1",
-		base = 67140,
-		id = 67141,
-		hp_growth = 1538,
+	[66941] = {
+		max_hp = 36,
+		name = "萨拉托加技能鱼雷机Lv1",
+		base = 66940,
+		id = 66941,
+		hp_growth = 1385,
 		weapon_ID = {
-			67181
+			66981
 		}
 	},
-	[67142] = {
-		max_hp = 45,
-		name = "半人马技能鱼雷机Lv2",
-		base = 67140,
-		id = 67142,
-		hp_growth = 1739,
+	[66942] = {
+		max_hp = 42,
+		name = "萨拉托加技能鱼雷机Lv2",
+		base = 66940,
+		id = 66942,
+		hp_growth = 1621,
 		weapon_ID = {
-			67182
+			66982
 		}
 	},
-	[67143] = {
-		max_hp = 50,
-		name = "半人马技能鱼雷机Lv3",
-		base = 67140,
-		id = 67143,
-		hp_growth = 1940,
+	[66943] = {
+		max_hp = 48,
+		name = "萨拉托加技能鱼雷机Lv3",
+		base = 66940,
+		id = 66943,
+		hp_growth = 1857,
 		weapon_ID = {
-			67183
+			66983
 		}
 	},
-	[67144] = {
-		max_hp = 56,
-		name = "半人马技能鱼雷机Lv4",
-		base = 67140,
-		id = 67144,
-		hp_growth = 2140,
+	[66944] = {
+		max_hp = 54,
+		name = "萨拉托加技能鱼雷机Lv4",
+		base = 66940,
+		id = 66944,
+		hp_growth = 2093,
 		weapon_ID = {
-			67184
+			66984
 		}
 	},
-	[67145] = {
-		max_hp = 61,
-		name = "半人马技能鱼雷机Lv5",
-		base = 67140,
-		id = 67145,
-		hp_growth = 2341,
+	[66945] = {
+		max_hp = 60,
+		name = "萨拉托加技能鱼雷机Lv5",
+		base = 66940,
+		id = 66945,
+		hp_growth = 2329,
 		weapon_ID = {
-			67185
+			66985
 		}
 	},
-	[67146] = {
+	[66946] = {
 		max_hp = 66,
-		name = "半人马技能鱼雷机Lv6",
-		base = 67140,
-		id = 67146,
-		hp_growth = 2541,
+		name = "萨拉托加技能鱼雷机Lv6",
+		base = 66940,
+		id = 66946,
+		hp_growth = 2565,
 		weapon_ID = {
-			67186
-		}
-	},
-	[67147] = {
-		max_hp = 71,
-		name = "半人马技能鱼雷机Lv7",
-		base = 67140,
-		id = 67147,
-		hp_growth = 2742,
-		weapon_ID = {
-			67187
-		}
-	},
-	[67148] = {
-		max_hp = 77,
-		name = "半人马技能鱼雷机Lv8",
-		base = 67140,
-		id = 67148,
-		hp_growth = 2943,
-		weapon_ID = {
-			67188
+			66986
 		}
 	}
 }

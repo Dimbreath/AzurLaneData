@@ -1,5 +1,114 @@
 pg = pg or {}
 pg.aircraft_template_88 = {
+	[37228] = {
+		id = 37228,
+		base = 37220,
+		max_hp = 80,
+		hp_growth = 3090,
+		weapon_ID = {
+			50028,
+			50528,
+			52128
+		}
+	},
+	[37229] = {
+		id = 37229,
+		base = 37220,
+		max_hp = 86,
+		hp_growth = 3301,
+		weapon_ID = {
+			50029,
+			50529,
+			52129
+		}
+	},
+	[37230] = {
+		id = 37230,
+		base = 37220,
+		max_hp = 91,
+		hp_growth = 3511,
+		weapon_ID = {
+			50030,
+			50530,
+			52130
+		}
+	},
+	[37240] = {
+		name = "零战五二型",
+		max_hp = 40,
+		accuracy = 23,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 140,
+		dodge = 0.315,
+		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
+		AP_growth = 2000,
+		icon = "lingzhan52",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1532,
+		speed = 55,
+		id = 37240,
+		scale = 1,
+		weapon_ID = {
+			50040,
+			50540,
+			52140
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.51,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
 	[37241] = {
 		id = 37241,
 		base = 37240,
@@ -64,50 +173,6 @@ pg.aircraft_template_88 = {
 			50046,
 			50546,
 			52146
-		}
-	},
-	[37247] = {
-		id = 37247,
-		base = 37240,
-		max_hp = 82,
-		hp_growth = 3141,
-		weapon_ID = {
-			50047,
-			50547,
-			52147
-		}
-	},
-	[37248] = {
-		id = 37248,
-		base = 37240,
-		max_hp = 88,
-		hp_growth = 3371,
-		weapon_ID = {
-			50048,
-			50548,
-			52148
-		}
-	},
-	[37249] = {
-		id = 37249,
-		base = 37240,
-		max_hp = 94,
-		hp_growth = 3601,
-		weapon_ID = {
-			50049,
-			50549,
-			52149
-		}
-	},
-	[37250] = {
-		id = 37250,
-		base = 37240,
-		max_hp = 100,
-		hp_growth = 3830,
-		weapon_ID = {
-			50050,
-			50550,
-			52150
 		}
 	}
 }

@@ -1,5 +1,87 @@
 pg = pg or {}
 pg.equip_data_statistics_211 = {
+	[30007] = {
+		id = 30007,
+		damage = "74 x 2",
+		base = 30000,
+		weapon_id = {
+			30007
+		}
+	},
+	[31000] = {
+		name = "双联100mm98式高射炮",
+		speciality = "锁定",
+		type = 1,
+		attribute_3 = "antiaircraft",
+		tech = 1,
+		value_2 = 4,
+		icon = "31000",
+		attribute_2 = "cannon",
+		descrip = "说明未填写",
+		rarity = 3,
+		damage = "4 x 4",
+		nationality = 3,
+		ammo = 3,
+		value_3 = 8,
+		id = 31000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1200
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1200
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			31000
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		}
+	},
+	[31001] = {
+		id = 31001,
+		base = 31000,
+		weapon_id = {
+			31001
+		}
+	},
 	[31002] = {
 		id = 31002,
 		damage = "6 x 4",
@@ -168,89 +250,6 @@ pg.equip_data_statistics_211 = {
 		base = 31020,
 		weapon_id = {
 			31028
-		}
-	},
-	[31029] = {
-		id = 31029,
-		damage = "10 x 4",
-		base = 31020,
-		weapon_id = {
-			31029
-		}
-	},
-	[31030] = {
-		id = 31030,
-		damage = "11 x 4",
-		base = 31020,
-		weapon_id = {
-			31030
-		}
-	},
-	[31040] = {
-		name = "双联100mm98式高射炮",
-		speciality = "锁定",
-		type = 1,
-		attribute_3 = "antiaircraft",
-		tech = 3,
-		value_2 = 15,
-		icon = "31000",
-		attribute_2 = "cannon",
-		descrip = "说明未填写",
-		rarity = 5,
-		damage = "4 x 4",
-		nationality = 3,
-		ammo = 3,
-		value_3 = 30,
-		id = 31040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1200
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1200
-			},
-			{
-				4,
-				1001
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			31040
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"DD",
-			"MG"
 		}
 	}
 }

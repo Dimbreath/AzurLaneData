@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.equip_data_statistics_162 = {
+	[23129] = {
+		id = 23129,
+		damage = "52 x 6",
+		base = 23120,
+		weapon_id = {
+			23129
+		}
+	},
+	[23130] = {
+		id = 23130,
+		damage = "54 x 6",
+		base = 23120,
+		weapon_id = {
+			23130
+		}
+	},
+	[23131] = {
+		anti_siren = 100,
+		damage = "54 x 6",
+		base = 23120,
+		id = 23131,
+		weapon_id = {
+			23131
+		}
+	},
 	[23132] = {
 		anti_siren = 200,
 		damage = "54 x 6",
@@ -164,76 +189,6 @@ pg.equip_data_statistics_162 = {
 		id = 23211,
 		weapon_id = {
 			23211
-		}
-	},
-	[23212] = {
-		anti_siren = 200,
-		damage = "49 x 6",
-		base = 23200,
-		id = 23212,
-		weapon_id = {
-			23212
-		}
-	},
-	[23213] = {
-		anti_siren = 300,
-		damage = "49 x 6",
-		base = 23200,
-		id = 23213,
-		weapon_id = {
-			23213
-		}
-	},
-	[24000] = {
-		name = "四联装356mm主炮",
-		speciality = "跨射",
-		type = 4,
-		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "24000",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "40 x 4",
-		nationality = 2,
-		ammo = 3,
-		value_3 = 0,
-		id = 24000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1520
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			24000
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"BB",
-			"MG"
 		}
 	}
 }

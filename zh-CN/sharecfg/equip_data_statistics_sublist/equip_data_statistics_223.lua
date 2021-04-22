@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_223 = {
+	[32301] = {
+		id = 32301,
+		damage = "7 x 4",
+		base = 32300,
+		weapon_id = {
+			32301
+		}
+	},
+	[32302] = {
+		id = 32302,
+		damage = "8 x 4",
+		base = 32300,
+		weapon_id = {
+			32302
+		}
+	},
+	[32303] = {
+		id = 32303,
+		damage = "9 x 4",
+		base = 32300,
+		weapon_id = {
+			32303
+		}
+	},
 	[32320] = {
 		name = "152mm连装炮",
 		speciality = "散射",
@@ -214,30 +238,6 @@ pg.equip_data_statistics_223 = {
 		base = 32340,
 		weapon_id = {
 			32346
-		}
-	},
-	[32347] = {
-		id = 32347,
-		damage = "15 x 4",
-		base = 32340,
-		weapon_id = {
-			32347
-		}
-	},
-	[32348] = {
-		id = 32348,
-		damage = "16 x 4",
-		base = 32340,
-		weapon_id = {
-			32348
-		}
-	},
-	[32349] = {
-		id = 32349,
-		damage = "17 x 4",
-		base = 32340,
-		weapon_id = {
-			32349
 		}
 	}
 }

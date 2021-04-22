@@ -1,5 +1,81 @@
 pg = pg or {}
 pg.equip_data_statistics_90 = {
+	[12125] = {
+		id = 12125,
+		damage = "13 x 6",
+		base = 12120,
+		weapon_id = {
+			12125
+		}
+	},
+	[12126] = {
+		id = 12126,
+		damage = "14 x 6",
+		base = 12120,
+		weapon_id = {
+			12126
+		}
+	},
+	[12140] = {
+		name = "三联装152mm主炮",
+		speciality = "锁定",
+		type = 2,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "12100",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "9 x 6",
+		nationality = 1,
+		ammo = 2,
+		value_3 = 0,
+		id = 12140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1007
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1007
+			},
+			{
+				4,
+				1102
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			12140
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CL",
+			"MG",
+			"HE"
+		}
+	},
 	[12141] = {
 		id = 12141,
 		damage = "10 x 6",
@@ -163,30 +239,6 @@ pg.equip_data_statistics_90 = {
 		base = 12160,
 		weapon_id = {
 			12162
-		}
-	},
-	[12163] = {
-		id = 12163,
-		damage = "13 x 6",
-		base = 12160,
-		weapon_id = {
-			12163
-		}
-	},
-	[12164] = {
-		id = 12164,
-		damage = "14 x 6",
-		base = 12160,
-		weapon_id = {
-			12164
-		}
-	},
-	[12165] = {
-		id = 12165,
-		damage = "15 x 6",
-		base = 12160,
-		weapon_id = {
-			12165
 		}
 	}
 }

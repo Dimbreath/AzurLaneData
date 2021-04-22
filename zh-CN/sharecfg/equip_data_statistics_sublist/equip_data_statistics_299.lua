@@ -1,5 +1,32 @@
 pg = pg or {}
 pg.equip_data_statistics_299 = {
+	[44211] = {
+		anti_siren = 100,
+		damage = "154 x 2",
+		base = 44200,
+		id = 44211,
+		weapon_id = {
+			44211
+		}
+	},
+	[44212] = {
+		anti_siren = 200,
+		damage = "154 x 2",
+		base = 44200,
+		id = 44212,
+		weapon_id = {
+			44212
+		}
+	},
+	[44213] = {
+		anti_siren = 300,
+		damage = "154 x 2",
+		base = 44200,
+		id = 44213,
+		weapon_id = {
+			44213
+		}
+	},
 	[44300] = {
 		name = "试作型三联装305mmSKC39主炮",
 		speciality = "跨射",
@@ -158,84 +185,6 @@ pg.equip_data_statistics_299 = {
 		id = 44313,
 		weapon_id = {
 			44313
-		}
-	},
-	[45000] = {
-		name = "三联装533mm磁性鱼雷",
-		speciality = "雷击",
-		type = 5,
-		tech = 1,
-		descrip = "三联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
-		value_2 = 5,
-		icon = "45000",
-		attribute_2 = "torpedo",
-		rarity = 2,
-		damage = "63 x 3",
-		nationality = 4,
-		ammo = 4,
-		value_3 = 0,
-		id = 45000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1803
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1803
-			},
-			{
-				4,
-				1402
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			45000
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"ST",
-			"TP",
-			"TRI"
-		}
-	},
-	[45001] = {
-		id = 45001,
-		damage = "69 x 3",
-		base = 45000,
-		weapon_id = {
-			45001
-		}
-	},
-	[45002] = {
-		id = 45002,
-		damage = "75 x 3",
-		base = 45000,
-		weapon_id = {
-			45002
 		}
 	}
 }

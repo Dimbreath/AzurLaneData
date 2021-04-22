@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.equip_data_statistics_124 = {
+	[16449] = {
+		id = 16449,
+		damage = "112/轮",
+		base = 16440,
+		weapon_id = {
+			16449
+		}
+	},
+	[16450] = {
+		id = 16450,
+		damage = "120/轮",
+		base = 16440,
+		weapon_id = {
+			16450
+		}
+	},
+	[16451] = {
+		anti_siren = 100,
+		damage = "120/轮",
+		base = 16440,
+		id = 16451,
+		weapon_id = {
+			16451
+		}
+	},
 	[16452] = {
 		anti_siren = 200,
 		damage = "120/轮",
@@ -288,48 +313,6 @@ pg.equip_data_statistics_124 = {
 		weapon_id = {
 			17043,
 			81043
-		}
-	},
-	[17044] = {
-		id = 17044,
-		base = 17040,
-		ammo_info = {
-			{
-				6,
-				50344
-			}
-		},
-		weapon_id = {
-			17044,
-			81044
-		}
-	},
-	[17045] = {
-		id = 17045,
-		base = 17040,
-		ammo_info = {
-			{
-				6,
-				50345
-			}
-		},
-		weapon_id = {
-			17045,
-			81045
-		}
-	},
-	[17046] = {
-		id = 17046,
-		base = 17040,
-		ammo_info = {
-			{
-				6,
-				50346
-			}
-		},
-		weapon_id = {
-			17046,
-			81046
 		}
 	}
 }

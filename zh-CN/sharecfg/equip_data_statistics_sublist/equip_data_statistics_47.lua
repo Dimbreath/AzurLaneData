@@ -1,5 +1,20 @@
 pg = pg or {}
 pg.equip_data_statistics_47 = {
+	[2541] = {
+		id = 2541,
+		value_1 = "161",
+		base = 2540
+	},
+	[2542] = {
+		id = 2542,
+		value_1 = "182",
+		base = 2540
+	},
+	[2543] = {
+		id = 2543,
+		value_1 = "203",
+		base = 2540
+	},
 	[2544] = {
 		id = 2544,
 		value_1 = "224",
@@ -121,66 +136,5 @@ pg.equip_data_statistics_47 = {
 		value_2 = 9,
 		value_1 = "42",
 		base = 2600
-	},
-	[2610] = {
-		id = 2610,
-		base = 2600,
-		value_2 = 10,
-		value_1 = "45",
-		torpedo_ammo = 2
-	},
-	[2620] = {
-		name = "九三式纯氧鱼雷",
-		tech = 2,
-		type = 10,
-		speciality = "无",
-		id = 2620,
-		value_2 = 3,
-		icon = "2600",
-		value_1 = "28",
-		attribute_2 = "reload",
-		rarity = 5,
-		descrip = "九三式纯氧鱼雷，性能优于大部分鱼雷，可装备在设备栏，提高角色的雷击属性",
-		nationality = 3,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "torpedo",
-		torpedo_ammo = 1,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			8,
-			11,
-			17,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			8,
-			11,
-			17,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"DEV"
-		}
-	},
-	[2621] = {
-		id = 2621,
-		value_1 = "32",
-		base = 2620
 	}
 }

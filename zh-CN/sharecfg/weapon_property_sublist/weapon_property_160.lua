@@ -2,6 +2,154 @@ pg = pg or {}
 pg.weapon_property_160 = {}
 
 function ()
+	uv0.weapon_property_160[68748] = {
+		id = 68748,
+		name = "利托里奥弹幕PVP-Lv8",
+		damage = 146,
+		base = 68741
+	}
+	uv0.weapon_property_160[68749] = {
+		id = 68749,
+		name = "利托里奥弹幕PVP-Lv9",
+		damage = 158,
+		base = 68741
+	}
+	uv0.weapon_property_160[68750] = {
+		id = 68750,
+		name = "利托里奥弹幕PVP-Lv10",
+		damage = 174,
+		base = 68741
+	}
+	uv0.weapon_property_160[68751] = {
+		action_index = "attack",
+		range = 50,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "时雨改造弹幕LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 16,
+		corrected = 100,
+		min_range = 0,
+		id = 68751,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19027
+		},
+		barrage_ID = {
+			80801
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_160[68752] = {
+		id = 68752,
+		name = "时雨改造弹幕LV2",
+		damage = 17,
+		base = 68751
+	}
+	uv0.weapon_property_160[68753] = {
+		name = "时雨改造弹幕LV3",
+		damage = 18,
+		base = 68751,
+		id = 68753,
+		bullet_ID = {
+			19027,
+			19027,
+			19027
+		},
+		barrage_ID = {
+			80801,
+			80802,
+			80805
+		}
+	}
+	uv0.weapon_property_160[68754] = {
+		name = "时雨改造弹幕LV4",
+		damage = 19,
+		base = 68751,
+		id = 68754,
+		bullet_ID = {
+			19027,
+			19027,
+			19027
+		},
+		barrage_ID = {
+			80801,
+			80803,
+			80806
+		}
+	}
+	uv0.weapon_property_160[68755] = {
+		name = "时雨改造弹幕LV5",
+		damage = 20,
+		base = 68751,
+		id = 68755,
+		bullet_ID = {
+			19027,
+			19027,
+			19027
+		},
+		barrage_ID = {
+			80801,
+			80803,
+			80806
+		}
+	}
+	uv0.weapon_property_160[68756] = {
+		name = "时雨改造弹幕LV6",
+		damage = 21,
+		base = 68751,
+		id = 68756,
+		bullet_ID = {
+			19027,
+			19027,
+			19027
+		},
+		barrage_ID = {
+			80801,
+			80804,
+			80807
+		}
+	}
+	uv0.weapon_property_160[68757] = {
+		name = "时雨改造弹幕LV7",
+		damage = 22,
+		base = 68751,
+		id = 68757,
+		bullet_ID = {
+			19027,
+			19027,
+			19027
+		},
+		barrage_ID = {
+			80801,
+			80804,
+			80807
+		}
+	}
 	uv0.weapon_property_160[68758] = {
 		name = "时雨改造弹幕LV8",
 		damage = 23,
@@ -631,105 +779,5 @@ function ()
 			12010,
 			12010
 		}
-	}
-	uv0.weapon_property_160[68809] = {
-		name = "赤城μ技能鱼雷机Lv9",
-		damage = 220,
-		base = 68801,
-		id = 68809,
-		bullet_ID = {
-			68809
-		},
-		barrage_ID = {
-			12010,
-			12010
-		}
-	}
-	uv0.weapon_property_160[68810] = {
-		name = "赤城μ技能鱼雷机Lv10",
-		damage = 240,
-		base = 68801,
-		id = 68810,
-		bullet_ID = {
-			68810
-		},
-		barrage_ID = {
-			12010,
-			12010
-		}
-	}
-	uv0.weapon_property_160[68811] = {
-		action_index = "",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = -10,
-		shakescreen = 0,
-		name = "2 x 机载鱼雷-重樱",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 68,
-		corrected = 100,
-		min_range = 0,
-		id = 68811,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2112
-		},
-		barrage_ID = {
-			2141
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_160[68812] = {
-		id = 68812,
-		damage = 86,
-		base = 68811
-	}
-	uv0.weapon_property_160[68813] = {
-		id = 68813,
-		damage = 106,
-		base = 68811
-	}
-	uv0.weapon_property_160[68814] = {
-		id = 68814,
-		damage = 124,
-		base = 68811
-	}
-	uv0.weapon_property_160[68815] = {
-		id = 68815,
-		damage = 144,
-		base = 68811
-	}
-	uv0.weapon_property_160[68816] = {
-		id = 68816,
-		damage = 164,
-		base = 68811
-	}
-	uv0.weapon_property_160[68817] = {
-		id = 68817,
-		damage = 182,
-		base = 68811
 	}
 end()

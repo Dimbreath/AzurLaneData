@@ -459,7 +459,10 @@ function slot0.GetRecommendShipsForMission(slot0, slot1)
 				level = slot10.level,
 				tagList = slot10:getConfig("tag_list"),
 				configId = slot10.configId,
-				attrs = slot10:getProperties()
+				attrs = slot10:getProperties(),
+				isActivityNpc = function ()
+					return uv0:isActivityNpc()
+				end
 			})
 		end
 

@@ -1,5 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_37 = {
+	[1821] = {
+		id = 1821,
+		value_1 = "72",
+		base = 1820
+	},
+	[1822] = {
+		id = 1822,
+		value_1 = "81",
+		base = 1820
+	},
+	[1823] = {
+		id = 1823,
+		value_2 = 3,
+		value_1 = "91",
+		base = 1820
+	},
 	[1824] = {
 		id = 1824,
 		value_2 = 3,
@@ -108,49 +124,5 @@ pg.equip_data_statistics_37 = {
 		value_2 = 8,
 		value_1 = "245",
 		base = 1840
-	},
-	[1851] = {
-		id = 1851,
-		anti_siren = 100,
-		base = 1840,
-		value_2 = 8,
-		value_1 = "260"
-	},
-	[1900] = {
-		name = "海军迷彩",
-		tech = 1,
-		type = 10,
-		speciality = "无",
-		id = 1900,
-		value_2 = 14,
-		icon = "1900",
-		value_1 = "2",
-		attribute_2 = "durability",
-		rarity = 1,
-		descrip = "虽说涂装可以随意，但是这么贵的东西就不要弄个一点隐蔽性能都没有的东西了吧",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "dodge",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[1901] = {
-		id = 1901,
-		value_2 = 16,
-		base = 1900
 	}
 }

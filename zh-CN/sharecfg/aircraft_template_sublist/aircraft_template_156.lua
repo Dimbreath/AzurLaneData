@@ -1,86 +1,114 @@
 pg = pg or {}
 pg.aircraft_template_156 = {
-	[67325] = {
+	[67243] = {
+		max_hp = 61,
+		name = "伊势技能轰炸机Lv3",
+		base = 67240,
+		id = 67243,
+		hp_growth = 2327,
+		weapon_ID = {
+			67263,
+			67283
+		}
+	},
+	[67244] = {
+		max_hp = 67,
+		name = "伊势技能轰炸机Lv4",
+		base = 67240,
+		id = 67244,
+		hp_growth = 2568,
+		weapon_ID = {
+			67264,
+			67284
+		}
+	},
+	[67245] = {
 		max_hp = 73,
-		name = "大凤技能鱼雷机Lv5",
-		base = 67320,
-		id = 67325,
+		name = "伊势技能轰炸机Lv5",
+		base = 67240,
+		id = 67245,
 		hp_growth = 2809,
 		weapon_ID = {
-			67405
+			67265,
+			67285
 		}
 	},
-	[67326] = {
+	[67246] = {
 		max_hp = 79,
-		name = "大凤技能鱼雷机Lv6",
-		base = 67320,
-		id = 67326,
+		name = "伊势技能轰炸机Lv6",
+		base = 67240,
+		id = 67246,
 		hp_growth = 3050,
 		weapon_ID = {
-			67406
+			67266,
+			67286
 		}
 	},
-	[67327] = {
+	[67247] = {
 		max_hp = 86,
-		name = "大凤技能鱼雷机Lv7",
-		base = 67320,
-		id = 67327,
+		name = "伊势技能轰炸机Lv7",
+		base = 67240,
+		id = 67247,
 		hp_growth = 3290,
 		weapon_ID = {
-			67407
+			67267,
+			67287
 		}
 	},
-	[67328] = {
+	[67248] = {
 		max_hp = 92,
-		name = "大凤技能鱼雷机Lv8",
-		base = 67320,
-		id = 67328,
+		name = "伊势技能轰炸机Lv8",
+		base = 67240,
+		id = 67248,
 		hp_growth = 3531,
 		weapon_ID = {
-			67408
+			67268,
+			67288
 		}
 	},
-	[67329] = {
+	[67249] = {
 		max_hp = 98,
-		name = "大凤技能鱼雷机Lv9",
-		base = 67320,
-		id = 67329,
+		name = "伊势技能轰炸机Lv9",
+		base = 67240,
+		id = 67249,
 		hp_growth = 3772,
 		weapon_ID = {
-			67409
+			67269,
+			67289
 		}
 	},
-	[67330] = {
+	[67250] = {
 		max_hp = 104,
-		name = "大凤技能鱼雷机Lv10",
-		base = 67320,
-		id = 67330,
+		name = "伊势技能轰炸机Lv10",
+		base = 67240,
+		id = 67250,
 		hp_growth = 4013,
 		weapon_ID = {
-			67410
+			67270,
+			67290
 		}
 	},
-	[67340] = {
-		name = "埃塞克斯技能鱼雷机Lv0",
-		max_hp = 37,
+	[67300] = {
+		name = "大凤技能轰炸机Lv0",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "tbf",
+		model_ID = "huixing",
 		ACC_growth = 0,
-		crash_DMG = 406,
+		crash_DMG = 208,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 3,
 		AP_growth = 2000,
-		icon = "tbf",
+		icon = "huixing",
 		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1404,
-		speed = 48,
-		id = 67340,
+		nationality = 3,
+		hp_growth = 1605,
+		speed = 60,
+		id = 67300,
 		scale = 1,
 		weapon_ID = {
-			67440
+			67380
 		},
 		position_offset = {
 			0,
@@ -100,13 +128,13 @@ pg.aircraft_template_156 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -123,8 +151,8 @@ pg.aircraft_template_156 = {
 				0
 			},
 			{
-				0.15,
-				-0.08,
+				0.64,
+				0,
 				0
 			},
 			{
@@ -134,34 +162,14 @@ pg.aircraft_template_156 = {
 			}
 		}
 	},
-	[67341] = {
-		max_hp = 42,
-		name = "埃塞克斯技能鱼雷机Lv1",
-		base = 67340,
-		id = 67341,
-		hp_growth = 1615,
+	[67301] = {
+		max_hp = 48,
+		name = "大凤技能轰炸机Lv1",
+		base = 67300,
+		id = 67301,
+		hp_growth = 1846,
 		weapon_ID = {
-			67441
-		}
-	},
-	[67342] = {
-		max_hp = 47,
-		name = "埃塞克斯技能鱼雷机Lv2",
-		base = 67340,
-		id = 67342,
-		hp_growth = 1826,
-		weapon_ID = {
-			67442
-		}
-	},
-	[67343] = {
-		max_hp = 53,
-		name = "埃塞克斯技能鱼雷机Lv3",
-		base = 67340,
-		id = 67343,
-		hp_growth = 2036,
-		weapon_ID = {
-			67443
+			67381
 		}
 	}
 }

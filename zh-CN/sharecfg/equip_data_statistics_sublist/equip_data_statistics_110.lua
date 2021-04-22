@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_110 = {
+	[15104] = {
+		id = 15104,
+		damage = "91 x 3",
+		base = 15100,
+		weapon_id = {
+			15104
+		}
+	},
+	[15105] = {
+		id = 15105,
+		damage = "100 x 3",
+		base = 15100,
+		weapon_id = {
+			15105
+		}
+	},
+	[15106] = {
+		id = 15106,
+		damage = "109 x 3",
+		base = 15100,
+		weapon_id = {
+			15106
+		}
+	},
 	[15120] = {
 		name = "潜艇用Mark 16鱼雷",
 		speciality = "雷击",
@@ -212,30 +236,6 @@ pg.equip_data_statistics_110 = {
 		base = 15140,
 		weapon_id = {
 			15142
-		}
-	},
-	[15143] = {
-		id = 15143,
-		damage = "104 x 3",
-		base = 15140,
-		weapon_id = {
-			15143
-		}
-	},
-	[15144] = {
-		id = 15144,
-		damage = "115 x 3",
-		base = 15140,
-		weapon_id = {
-			15144
-		}
-	},
-	[15145] = {
-		id = 15145,
-		damage = "126 x 3",
-		base = 15140,
-		weapon_id = {
-			15145
 		}
 	}
 }

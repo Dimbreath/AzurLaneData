@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.aircraft_template_136 = {
+	[65182] = {
+		max_hp = 48,
+		name = "大凤μ技能鱼雷机Lv2",
+		base = 65181,
+		id = 65182,
+		hp_growth = 1846,
+		weapon_ID = {
+			65192
+		}
+	},
+	[65183] = {
+		max_hp = 54,
+		name = "大凤μ技能鱼雷机Lv3",
+		base = 65181,
+		id = 65183,
+		hp_growth = 2087,
+		weapon_ID = {
+			65193
+		}
+	},
+	[65184] = {
+		max_hp = 61,
+		name = "大凤μ技能鱼雷机Lv4",
+		base = 65181,
+		id = 65184,
+		hp_growth = 2327,
+		weapon_ID = {
+			65194
+		}
+	},
+	[65185] = {
+		max_hp = 67,
+		name = "大凤μ技能鱼雷机Lv5",
+		base = 65181,
+		id = 65185,
+		hp_growth = 2568,
+		weapon_ID = {
+			65195
+		}
+	},
 	[65186] = {
 		max_hp = 73,
 		name = "大凤μ技能鱼雷机Lv6",
@@ -123,50 +163,6 @@ pg.aircraft_template_136 = {
 				0,
 				0
 			}
-		}
-	},
-	[65202] = {
-		max_hp = 48,
-		name = "大凤μ技能轰炸机Lv2",
-		base = 65201,
-		id = 65202,
-		hp_growth = 1846,
-		weapon_ID = {
-			65212,
-			65222
-		}
-	},
-	[65203] = {
-		max_hp = 54,
-		name = "大凤μ技能轰炸机Lv3",
-		base = 65201,
-		id = 65203,
-		hp_growth = 2087,
-		weapon_ID = {
-			65213,
-			65223
-		}
-	},
-	[65204] = {
-		max_hp = 61,
-		name = "大凤μ技能轰炸机Lv4",
-		base = 65201,
-		id = 65204,
-		hp_growth = 2327,
-		weapon_ID = {
-			65214,
-			65224
-		}
-	},
-	[65205] = {
-		max_hp = 67,
-		name = "大凤μ技能轰炸机Lv5",
-		base = 65201,
-		id = 65205,
-		hp_growth = 2568,
-		weapon_ID = {
-			65215,
-			65225
 		}
 	}
 }

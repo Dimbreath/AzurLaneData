@@ -1,5 +1,20 @@
 pg = pg or {}
 pg.equip_data_statistics_17 = {
+	[747] = {
+		id = 747,
+		value_1 = "18",
+		base = 740
+	},
+	[748] = {
+		id = 748,
+		value_1 = "20",
+		base = 740
+	},
+	[749] = {
+		id = 749,
+		value_1 = "22",
+		base = 740
+	},
 	[750] = {
 		id = 750,
 		value_1 = "24",
@@ -111,51 +126,5 @@ pg.equip_data_statistics_17 = {
 		base = 760,
 		value_2 = 130,
 		value_1 = "16"
-	},
-	[780] = {
-		name = "机密文件·极地海峡",
-		tech = 0,
-		type = 10,
-		speciality = "无",
-		id = 780,
-		value_2 = 100,
-		icon = "780",
-		value_1 = "10",
-		attribute_2 = "durability",
-		rarity = 4,
-		descrip = "通过解析冰雪要塞战役中的获得的情报，整理而成的机密报告书",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "cannon",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6440
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[781] = {
-		id = 781,
-		value_2 = 105,
-		value_1 = "11",
-		base = 780
-	},
-	[782] = {
-		id = 782,
-		value_2 = 110,
-		value_1 = "12",
-		base = 780
 	}
 }

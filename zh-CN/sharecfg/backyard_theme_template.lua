@@ -3067,6 +3067,41 @@ pg.backyard_theme_template = {
 			77116
 		}
 	},
+	[78] = {
+		Cfg_1 = 5,
+		name = "啾啾圣堂",
+		desc = "撒丁知名观光地——「神圣的威光护佑着你~」",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 77,
+		id = 78,
+		icon = "ydl2themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			78001,
+			78002,
+			78101,
+			78102,
+			78103,
+			78104,
+			78105,
+			78106,
+			78107,
+			78108,
+			78109,
+			78110,
+			78111,
+			78112,
+			78113,
+			78114,
+			78115
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3135,6 +3170,7 @@ pg.backyard_theme_template = {
 		74,
 		75,
 		76,
-		77
+		77,
+		78
 	}
 }

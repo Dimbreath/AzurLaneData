@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_108 = {
+	[15021] = {
+		id = 15021,
+		damage = "53 x 3",
+		base = 15020,
+		weapon_id = {
+			15021
+		}
+	},
+	[15022] = {
+		id = 15022,
+		damage = "60 x 3",
+		base = 15020,
+		weapon_id = {
+			15022
+		}
+	},
+	[15023] = {
+		id = 15023,
+		damage = "67 x 3",
+		base = 15020,
+		weapon_id = {
+			15023
+		}
+	},
 	[15024] = {
 		id = 15024,
 		damage = "74 x 3",
@@ -161,82 +185,6 @@ pg.equip_data_statistics_108 = {
 		base = 15040,
 		weapon_id = {
 			15050
-		}
-	},
-	[15051] = {
-		anti_siren = 100,
-		damage = "131 x 3",
-		base = 15040,
-		id = 15051,
-		weapon_id = {
-			15051
-		}
-	},
-	[15060] = {
-		name = "潜艇用Mark 18鱼雷",
-		speciality = "雷击",
-		type = 13,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "15060",
-		attribute_2 = "torpedo",
-		rarity = 4,
-		damage = "41 x 2",
-		nationality = 1,
-		ammo = 4,
-		value_3 = 0,
-		id = 15060,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1823
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1823
-			},
-			{
-				4,
-				1601
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			15060
-		},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"SS",
-			"TP"
-		}
-	},
-	[15061] = {
-		id = 15061,
-		damage = "48 x 2",
-		base = 15060,
-		weapon_id = {
-			15061
 		}
 	}
 }

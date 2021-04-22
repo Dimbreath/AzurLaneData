@@ -45,6 +45,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "呼…漫长的谈判终于顺利结束了。我也要赶回撒丁帝国做进一步的安排，就在这里告别吧。",
 			typewriter = {
 				speed = 0.05,

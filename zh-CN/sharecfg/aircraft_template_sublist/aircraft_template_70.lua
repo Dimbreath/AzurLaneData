@@ -1,5 +1,110 @@
 pg = pg or {}
 pg.aircraft_template_70 = {
+	[28320] = {
+		name = "青花鱼",
+		max_hp = 32,
+		accuracy = 23,
+		model_ID = "qinghuayu",
+		ACC_growth = 0,
+		crash_DMG = 306,
+		dodge = 1.15,
+		attack_power = 2,
+		dodge_limit = 3.5,
+		type = 2,
+		AP_growth = 2000,
+		icon = "qinghuayu",
+		funnel_behavior = "",
+		nationality = 2,
+		hp_growth = 1216,
+		speed = 45,
+		id = 28320,
+		scale = 1,
+		weapon_ID = {
+			50020,
+			51020
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.52,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[28321] = {
+		id = 28321,
+		base = 28320,
+		max_hp = 36,
+		hp_growth = 1398,
+		weapon_ID = {
+			50021,
+			51021
+		}
+	},
+	[28322] = {
+		id = 28322,
+		base = 28320,
+		max_hp = 41,
+		hp_growth = 1581,
+		weapon_ID = {
+			50022,
+			51022
+		}
+	},
+	[28323] = {
+		id = 28323,
+		base = 28320,
+		max_hp = 46,
+		hp_growth = 1763,
+		weapon_ID = {
+			50023,
+			51023
+		}
+	},
 	[28324] = {
 		id = 28324,
 		base = 28320,
@@ -123,46 +228,6 @@ pg.aircraft_template_70 = {
 		weapon_ID = {
 			50042,
 			51042
-		}
-	},
-	[28343] = {
-		id = 28343,
-		base = 28340,
-		max_hp = 50,
-		hp_growth = 1940,
-		weapon_ID = {
-			50043,
-			51043
-		}
-	},
-	[28344] = {
-		id = 28344,
-		base = 28340,
-		max_hp = 56,
-		hp_growth = 2140,
-		weapon_ID = {
-			50044,
-			51044
-		}
-	},
-	[28345] = {
-		id = 28345,
-		base = 28340,
-		max_hp = 61,
-		hp_growth = 2341,
-		weapon_ID = {
-			50045,
-			51045
-		}
-	},
-	[28346] = {
-		id = 28346,
-		base = 28340,
-		max_hp = 66,
-		hp_growth = 2541,
-		weapon_ID = {
-			50046,
-			51046
 		}
 	}
 }

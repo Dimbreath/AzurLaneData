@@ -1,5 +1,80 @@
 pg = pg or {}
 pg.equip_data_statistics_88 = {
+	[11253] = {
+		anti_siren = 300,
+		damage = "15 x 4",
+		base = 11240,
+		id = 11253,
+		weapon_id = {
+			11253
+		}
+	},
+	[12000] = {
+		name = "双联152mm主炮",
+		speciality = "锁定",
+		type = 2,
+		tech = 1,
+		rarity = 1,
+		descrip = "说明未填写",
+		value_2 = 0,
+		icon = "12000",
+		damage = "7 x 4",
+		nationality = 1,
+		ammo = 3,
+		value_3 = 0,
+		id = 12000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1001
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1001
+			},
+			{
+				4,
+				1101
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			12000
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		}
+	},
+	[12001] = {
+		id = 12001,
+		damage = "8 x 4",
+		base = 12000,
+		weapon_id = {
+			12001
+		}
+	},
 	[12002] = {
 		id = 12002,
 		damage = "9 x 4",
@@ -212,81 +287,6 @@ pg.equip_data_statistics_88 = {
 		base = 12040,
 		weapon_id = {
 			12047
-		}
-	},
-	[12060] = {
-		name = "双联152mm主炮Mk15",
-		speciality = "锁定",
-		type = 2,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "12060",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "10 x 4",
-		nationality = 1,
-		ammo = 3,
-		value_3 = 0,
-		id = 12060,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1010
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1010
-			},
-			{
-				4,
-				1101
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			12060
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CL",
-			"MG"
-		}
-	},
-	[12061] = {
-		id = 12061,
-		damage = "11 x 4",
-		base = 12060,
-		weapon_id = {
-			12061
-		}
-	},
-	[12062] = {
-		id = 12062,
-		damage = "12 x 4",
-		base = 12060,
-		weapon_id = {
-			12062
 		}
 	}
 }

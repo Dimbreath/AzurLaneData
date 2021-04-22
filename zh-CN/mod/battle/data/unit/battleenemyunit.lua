@@ -105,6 +105,10 @@ function slot8.IsShowHPBar(slot0)
 	return slot0._IFF ~= uv0.FRIENDLY_CODE
 end
 
+function slot8.IsSpectre(slot0)
+	return slot0._tmpData.battle_unit_type <= uv0.SPECTRE_UNIT_TYPE
+end
+
 function slot8.InitCldComponent(slot0)
 	uv0.super.InitCldComponent(slot0)
 	slot0._cldComponent:SetCldData({

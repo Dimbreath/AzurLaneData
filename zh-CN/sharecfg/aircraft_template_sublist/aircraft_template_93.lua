@@ -1,5 +1,49 @@
 pg = pg or {}
 pg.aircraft_template_93 = {
+	[37401] = {
+		id = 37401,
+		base = 37400,
+		max_hp = 41,
+		hp_growth = 1586,
+		weapon_ID = {
+			59541,
+			52341,
+			50861
+		}
+	},
+	[37402] = {
+		id = 37402,
+		base = 37400,
+		max_hp = 47,
+		hp_growth = 1793,
+		weapon_ID = {
+			59542,
+			52342,
+			50862
+		}
+	},
+	[37403] = {
+		id = 37403,
+		base = 37400,
+		max_hp = 52,
+		hp_growth = 1999,
+		weapon_ID = {
+			59543,
+			52343,
+			50863
+		}
+	},
+	[37404] = {
+		id = 37404,
+		base = 37400,
+		max_hp = 57,
+		hp_growth = 2206,
+		weapon_ID = {
+			59544,
+			52344,
+			50864
+		}
+	},
 	[37405] = {
 		id = 37405,
 		base = 37400,
@@ -64,115 +108,6 @@ pg.aircraft_template_93 = {
 			59550,
 			52350,
 			50870
-		}
-	},
-	[37411] = {
-		id = 37411,
-		base = 37400,
-		max_hp = 95,
-		hp_growth = 3654,
-		weapon_ID = {
-			59551,
-			52351,
-			50871
-		}
-	},
-	[37412] = {
-		id = 37412,
-		base = 37400,
-		max_hp = 100,
-		hp_growth = 3861,
-		weapon_ID = {
-			59552,
-			52352,
-			50872
-		}
-	},
-	[37413] = {
-		id = 37413,
-		base = 37400,
-		max_hp = 106,
-		hp_growth = 4068,
-		weapon_ID = {
-			59553,
-			52353,
-			50873
-		}
-	},
-	[37420] = {
-		name = "二式水上战斗机",
-		max_hp = 37,
-		accuracy = 23,
-		model_ID = "ershishuizhan",
-		ACC_growth = 0,
-		crash_DMG = 116,
-		dodge = 0.315,
-		attack_power = 2,
-		dodge_limit = 8,
-		type = 3,
-		AP_growth = 2000,
-		icon = "ershishuizhan",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1404,
-		speed = 50,
-		id = 37420,
-		scale = 1,
-		weapon_ID = {
-			50040,
-			50540,
-			52140
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.64,
-					-0.96,
-					0
-				},
-				{
-					0.9,
-					1.22,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
 		}
 	}
 }

@@ -1,5 +1,26 @@
 pg = pg or {}
 pg.equip_data_statistics_49 = {
+	[2645] = {
+		id = 2645,
+		base = 2640,
+		value_2 = 6,
+		value_1 = "70",
+		torpedo_ammo = 2
+	},
+	[2646] = {
+		id = 2646,
+		base = 2640,
+		value_2 = 7,
+		value_1 = "76",
+		torpedo_ammo = 2
+	},
+	[2647] = {
+		id = 2647,
+		base = 2640,
+		value_2 = 8,
+		value_1 = "82",
+		torpedo_ammo = 3
+	},
 	[2648] = {
 		id = 2648,
 		base = 2640,
@@ -170,22 +191,5 @@ pg.equip_data_statistics_49 = {
 			"KMS",
 			"DEV"
 		}
-	},
-	[2721] = {
-		id = 2721,
-		value_1 = "22",
-		base = 2720
-	},
-	[2722] = {
-		id = 2722,
-		value_2 = 5,
-		value_1 = "25",
-		base = 2720
-	},
-	[2723] = {
-		id = 2723,
-		value_2 = 6,
-		value_1 = "28",
-		base = 2720
 	}
 }

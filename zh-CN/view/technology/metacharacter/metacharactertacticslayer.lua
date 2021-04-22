@@ -105,6 +105,7 @@ function slot0.initUI(slot0)
 	slot0.taskPanel = slot0:findTF("TaskPanel")
 	slot0.qCharContainer = slot0:findTF("QChar", slot0.taskPanel)
 	slot0.taskTpl = slot0:findTF("TaskTpl", slot0.taskPanel)
+	slot0.taskScrollTF = slot0:findTF("ScrollView", slot0.taskPanel)
 	slot0.taskTplContainer = slot0:findTF("ScrollView/Viewport/Content", slot0.taskPanel)
 	slot0.taskScrollBar = slot0:findTF("ScrollView/Scrollbar Vertical", slot0.taskPanel)
 	slot0.taskUIItemList = UIItemList.New(slot0.taskTplContainer, slot0.taskTpl)
@@ -389,9 +390,11 @@ function slot0.updateMain(slot0)
 	slot2 = slot0:getSkillIDListForShow(slot0.curShipVO.configId)
 	slot3 = true
 	slot4 = 0
-	slot5, slot4 = slot0:isAllSkillLock()
+	slot3, slot4 = slot0:isAllSkillLock()
 
-	if slot5 then
+	setActive(slot0.taskScrollTF, not slot3)
+
+	if slot3 then
 		setActive(slot0.expPanel, false)
 		setActive(slot0.skillInfoPanel, false)
 		setActive(slot0.taskTplContainer, false)

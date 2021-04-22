@@ -2,6 +2,30 @@ pg = pg or {}
 pg.weapon_property_166 = {}
 
 function ()
+	uv0.weapon_property_166[69134] = {
+		id = 69134,
+		name = "定点冰锥PVP1-50-LV4",
+		damage = 20,
+		base = 69131
+	}
+	uv0.weapon_property_166[69135] = {
+		id = 69135,
+		name = "定点冰锥PVP1-50-LV5",
+		damage = 25,
+		base = 69131
+	}
+	uv0.weapon_property_166[69136] = {
+		id = 69136,
+		name = "定点冰锥PVP1-50-LV6",
+		damage = 30,
+		base = 69131
+	}
+	uv0.weapon_property_166[69137] = {
+		id = 69137,
+		name = "定点冰锥PVP1-50-LV7",
+		damage = 36,
+		base = 69131
+	}
 	uv0.weapon_property_166[69138] = {
 		id = 69138,
 		name = "定点冰锥PVP1-50-LV8",
@@ -600,27 +624,5 @@ function ()
 		name = "布莱默顿技能弹幕-LV4",
 		damage = 14,
 		base = 69191
-	}
-	uv0.weapon_property_166[69195] = {
-		id = 69195,
-		name = "布莱默顿技能弹幕-LV5",
-		damage = 15,
-		base = 69191
-	}
-	uv0.weapon_property_166[69196] = {
-		id = 69196,
-		name = "布莱默顿技能弹幕-LV6",
-		damage = 16,
-		base = 69191
-	}
-	uv0.weapon_property_166[69197] = {
-		name = "布莱默顿技能弹幕-LV7",
-		damage = 17,
-		base = 69191,
-		id = 69197,
-		barrage_ID = {
-			80848,
-			80849
-		}
 	}
 end()

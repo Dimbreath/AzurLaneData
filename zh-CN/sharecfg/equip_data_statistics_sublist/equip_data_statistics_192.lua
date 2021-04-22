@@ -1,5 +1,71 @@
 pg = pg or {}
 pg.equip_data_statistics_192 = {
+	[27022] = {
+		id = 27022,
+		base = 27020,
+		ammo_info = {
+			{
+				6,
+				50122
+			},
+			{
+				6,
+				50522
+			},
+			{
+				5,
+				52222
+			}
+		},
+		weapon_id = {
+			27022,
+			82022
+		}
+	},
+	[27023] = {
+		id = 27023,
+		base = 27020,
+		ammo_info = {
+			{
+				6,
+				50123
+			},
+			{
+				6,
+				50523
+			},
+			{
+				5,
+				52223
+			}
+		},
+		weapon_id = {
+			27023,
+			82023
+		}
+	},
+	[27024] = {
+		id = 27024,
+		base = 27020,
+		ammo_info = {
+			{
+				6,
+				50124
+			},
+			{
+				6,
+				50524
+			},
+			{
+				5,
+				52224
+			}
+		},
+		weapon_id = {
+			27024,
+			82024
+		}
+	},
 	[27025] = {
 		id = 27025,
 		base = 27020,
@@ -342,107 +408,6 @@ pg.equip_data_statistics_192 = {
 		weapon_id = {
 			27051,
 			82051
-		}
-	},
-	[27060] = {
-		name = "海喷火FR.47",
-		type = 7,
-		speciality = "空战",
-		rarity = 5,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 45,
-		icon = "27060",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 27060,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50160
-			},
-			{
-				6,
-				50560
-			},
-			{
-				5,
-				52240
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			27060,
-			82060
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"FT"
-		}
-	},
-	[27061] = {
-		id = 27061,
-		base = 27060,
-		ammo_info = {
-			{
-				6,
-				50161
-			},
-			{
-				6,
-				50561
-			},
-			{
-				5,
-				52241
-			}
-		},
-		weapon_id = {
-			27061,
-			82061
-		}
-	},
-	[27062] = {
-		id = 27062,
-		base = 27060,
-		ammo_info = {
-			{
-				6,
-				50162
-			},
-			{
-				6,
-				50562
-			},
-			{
-				5,
-				52242
-			}
-		},
-		weapon_id = {
-			27062,
-			82062
 		}
 	}
 }

@@ -118,6 +118,10 @@ function slot6.IsAlive(slot0)
 	return slot0._aliveState
 end
 
+function slot6.IsCease(slot0)
+	return false
+end
+
 function slot6.GetOxyState(slot0)
 	return nil
 end

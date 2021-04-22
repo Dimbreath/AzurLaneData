@@ -1,5 +1,87 @@
 pg = pg or {}
 pg.equip_data_statistics_84 = {
+	[11066] = {
+		id = 11066,
+		damage = "12 x 2",
+		base = 11060,
+		weapon_id = {
+			11066
+		}
+	},
+	[11067] = {
+		id = 11067,
+		damage = "12 x 2",
+		base = 11060,
+		weapon_id = {
+			11067
+		}
+	},
+	[11100] = {
+		name = "127mm单装炮",
+		speciality = "锁定",
+		type = 1,
+		tech = 1,
+		descrip = "说明未填写",
+		value_2 = 5,
+		icon = "11100",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "4 x 3",
+		nationality = 1,
+		ammo = 3,
+		value_3 = 0,
+		id = 11100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1000
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1000
+			},
+			{
+				4,
+				1003
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			11100
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		}
+	},
 	[11101] = {
 		id = 11101,
 		base = 11100,
@@ -224,30 +306,6 @@ pg.equip_data_statistics_84 = {
 		base = 11140,
 		weapon_id = {
 			11143
-		}
-	},
-	[11144] = {
-		id = 11144,
-		damage = "9 x 3",
-		base = 11140,
-		weapon_id = {
-			11144
-		}
-	},
-	[11145] = {
-		id = 11145,
-		damage = "10 x 3",
-		base = 11140,
-		weapon_id = {
-			11145
-		}
-	},
-	[11146] = {
-		id = 11146,
-		damage = "11 x 3",
-		base = 11140,
-		weapon_id = {
-			11146
 		}
 	}
 }

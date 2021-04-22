@@ -1,5 +1,81 @@
 pg = pg or {}
 pg.equip_data_statistics_222 = {
+	[32229] = {
+		id = 32229,
+		damage = "16 x 6",
+		base = 32220,
+		weapon_id = {
+			32229
+		}
+	},
+	[32230] = {
+		id = 32230,
+		damage = "17 x 6",
+		base = 32220,
+		weapon_id = {
+			32230
+		}
+	},
+	[32240] = {
+		name = "155mm三连装炮",
+		speciality = "锁定",
+		type = 2,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "32200",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "8 x 6",
+		nationality = 3,
+		ammo = 2,
+		value_3 = 0,
+		id = 32240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1207
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1207
+			},
+			{
+				4,
+				1105
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			32240
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CL",
+			"MG",
+			"HE"
+		}
+	},
 	[32241] = {
 		id = 32241,
 		damage = "9 x 6",
@@ -164,30 +240,6 @@ pg.equip_data_statistics_222 = {
 			"IJN",
 			"CL",
 			"MG"
-		}
-	},
-	[32301] = {
-		id = 32301,
-		damage = "7 x 4",
-		base = 32300,
-		weapon_id = {
-			32301
-		}
-	},
-	[32302] = {
-		id = 32302,
-		damage = "8 x 4",
-		base = 32300,
-		weapon_id = {
-			32302
-		}
-	},
-	[32303] = {
-		id = 32303,
-		damage = "9 x 4",
-		base = 32300,
-		weapon_id = {
-			32303
 		}
 	}
 }

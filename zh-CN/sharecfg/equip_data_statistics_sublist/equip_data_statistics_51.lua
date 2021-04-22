@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.equip_data_statistics_51 = {
+	[2747] = {
+		id = 2747,
+		value_2 = 12,
+		value_1 = "57",
+		base = 2740
+	},
+	[2748] = {
+		id = 2748,
+		value_2 = 13,
+		value_1 = "61",
+		base = 2740
+	},
+	[2749] = {
+		id = 2749,
+		value_2 = 14,
+		value_1 = "65",
+		base = 2740
+	},
 	[2750] = {
 		id = 2750,
 		value_2 = 15,
@@ -113,58 +131,5 @@ pg.equip_data_statistics_51 = {
 		value_2 = 9,
 		value_1 = "51",
 		base = 2800
-	},
-	[2810] = {
-		id = 2810,
-		value_2 = 10,
-		value_1 = "55",
-		base = 2800
-	},
-	[2811] = {
-		id = 2811,
-		anti_siren = 100,
-		base = 2800,
-		value_2 = 11,
-		value_1 = "59"
-	},
-	[2900] = {
-		name = "基础声呐",
-		tech = 1,
-		type = 10,
-		speciality = "无",
-		id = 2900,
-		value_2 = 1,
-		icon = "2900",
-		value_1 = "1",
-		attribute_2 = "hit",
-		rarity = 2,
-		descrip = "说明未填写",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "antisub",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {
-			1,
-			2
-		},
-		part_sub = {
-			1,
-			2
-		},
-		equip_parameters = {
-			range = 3
-		},
-		label = {
-			"DEV"
-		}
 	}
 }

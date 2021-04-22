@@ -1,5 +1,80 @@
 pg = pg or {}
 pg.equip_data_statistics_89 = {
+	[12060] = {
+		name = "双联152mm主炮Mk15",
+		speciality = "锁定",
+		type = 2,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "12060",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "10 x 4",
+		nationality = 1,
+		ammo = 3,
+		value_3 = 0,
+		id = 12060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1010
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1010
+			},
+			{
+				4,
+				1101
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			12060
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		}
+	},
+	[12061] = {
+		id = 12061,
+		damage = "11 x 4",
+		base = 12060,
+		weapon_id = {
+			12061
+		}
+	},
+	[12062] = {
+		id = 12062,
+		damage = "12 x 4",
+		base = 12060,
+		weapon_id = {
+			12062
+		}
+	},
 	[12063] = {
 		id = 12063,
 		damage = "13 x 4",
@@ -212,82 +287,6 @@ pg.equip_data_statistics_89 = {
 		base = 12120,
 		weapon_id = {
 			12124
-		}
-	},
-	[12125] = {
-		id = 12125,
-		damage = "13 x 6",
-		base = 12120,
-		weapon_id = {
-			12125
-		}
-	},
-	[12126] = {
-		id = 12126,
-		damage = "14 x 6",
-		base = 12120,
-		weapon_id = {
-			12126
-		}
-	},
-	[12140] = {
-		name = "三联装152mm主炮",
-		speciality = "锁定",
-		type = 2,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "12100",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "9 x 6",
-		nationality = 1,
-		ammo = 2,
-		value_3 = 0,
-		id = 12140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1007
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1007
-			},
-			{
-				4,
-				1102
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			12140
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CL",
-			"MG",
-			"HE"
 		}
 	}
 }

@@ -299,6 +299,20 @@ function slot7.GetManualWeaponParallel(slot0)
 	return slot0._tmpData.parallel_max
 end
 
+function slot7.CeaseAllWeapon(slot0, slot1)
+	if slot1 then
+		for slot5, slot6 in ipairs(slot0._totalWeapon) do
+			slot6:Cease()
+		end
+
+		for slot6, slot7 in pairs(slot0._buffList) do
+			slot7:Interrupt()
+		end
+	end
+
+	uv0.super.CeaseAllWeapon(slot0, slot1)
+end
+
 function slot7.LeaderSetting(slot0)
 	if uv0.GetWords(slot0:GetSkinID(), "hp_warning", slot0:GetIntimacy()) and slot2 ~= "" then
 		slot0._warningValue = uv1.WARNING_HP_RATE * slot0:GetMaxHP()

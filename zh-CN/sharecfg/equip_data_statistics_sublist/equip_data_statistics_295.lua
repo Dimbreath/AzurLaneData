@@ -1,5 +1,74 @@
 pg = pg or {}
 pg.equip_data_statistics_295 = {
+	[43150] = {
+		id = 43150,
+		damage = "55 x 6",
+		base = 43140,
+		weapon_id = {
+			43150
+		}
+	},
+	[43151] = {
+		anti_siren = 100,
+		damage = "55 x 6",
+		base = 43140,
+		id = 43151,
+		weapon_id = {
+			43151
+		}
+	},
+	[44000] = {
+		name = "三联283mmSKC34主炮",
+		speciality = "跨射",
+		type = 4,
+		tech = 1,
+		descrip = "三联283mmSKC34主炮，沙恩霍斯特级战列巡洋舰主炮，战巡和战列可以使用",
+		value_2 = 5,
+		icon = "44000",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "34 x 3",
+		nationality = 4,
+		ammo = 3,
+		value_3 = 0,
+		id = 44000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1510
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			44000
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		}
+	},
 	[44001] = {
 		id = 44001,
 		damage = "38 x 3",
@@ -198,30 +267,6 @@ pg.equip_data_statistics_295 = {
 		base = 44040,
 		weapon_id = {
 			44043
-		}
-	},
-	[44044] = {
-		id = 44044,
-		damage = "60 x 3",
-		base = 44040,
-		weapon_id = {
-			44044
-		}
-	},
-	[44045] = {
-		id = 44045,
-		damage = "64 x 3",
-		base = 44040,
-		weapon_id = {
-			44045
-		}
-	},
-	[44046] = {
-		id = 44046,
-		damage = "70 x 3",
-		base = 44040,
-		weapon_id = {
-			44046
 		}
 	}
 }

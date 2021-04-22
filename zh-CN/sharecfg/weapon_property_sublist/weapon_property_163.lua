@@ -2,6 +2,86 @@ pg = pg or {}
 pg.weapon_property_163 = {}
 
 function ()
+	uv0.weapon_property_163[68941] = {
+		action_index = "attack",
+		range = 200,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "紫咲诗音EXPLOSION火球LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 360,
+		charge_param = "",
+		damage = 106,
+		corrected = 200,
+		min_range = 0,
+		id = 68941,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 412,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19084
+		},
+		barrage_ID = {
+			80819
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_163[68942] = {
+		id = 68942,
+		name = "紫咲诗音EXPLOSION火球LV2",
+		damage = 121,
+		base = 68941
+	}
+	uv0.weapon_property_163[68943] = {
+		id = 68943,
+		name = "紫咲诗音EXPLOSION火球LV3",
+		damage = 136,
+		base = 68941
+	}
+	uv0.weapon_property_163[68944] = {
+		id = 68944,
+		name = "紫咲诗音EXPLOSION火球LV4",
+		damage = 152,
+		base = 68941
+	}
+	uv0.weapon_property_163[68945] = {
+		id = 68945,
+		name = "紫咲诗音EXPLOSION火球LV5",
+		damage = 167,
+		base = 68941
+	}
+	uv0.weapon_property_163[68946] = {
+		id = 68946,
+		name = "紫咲诗音EXPLOSION火球LV6",
+		damage = 182,
+		base = 68941
+	}
+	uv0.weapon_property_163[68947] = {
+		id = 68947,
+		name = "紫咲诗音EXPLOSION火球LV7",
+		damage = 198,
+		base = 68941
+	}
 	uv0.weapon_property_163[68948] = {
 		id = 68948,
 		name = "紫咲诗音EXPLOSION火球LV8",
@@ -656,41 +736,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_163[69002] = {
-		id = 69002,
-		name = "骏河副炮弹幕PVPLV2",
-		damage = 12,
-		base = 69001
-	}
-	uv0.weapon_property_163[69003] = {
-		id = 69003,
-		name = "骏河副炮弹幕PVPLV3",
-		damage = 13,
-		base = 69001
-	}
-	uv0.weapon_property_163[69004] = {
-		id = 69004,
-		name = "骏河副炮弹幕PVPLV4",
-		damage = 14,
-		base = 69001
-	}
-	uv0.weapon_property_163[69005] = {
-		id = 69005,
-		name = "骏河副炮弹幕PVPLV5",
-		damage = 15,
-		base = 69001
-	}
-	uv0.weapon_property_163[69006] = {
-		id = 69006,
-		name = "骏河副炮弹幕PVPLV6",
-		damage = 16,
-		base = 69001
-	}
-	uv0.weapon_property_163[69007] = {
-		id = 69007,
-		name = "骏河副炮弹幕PVPLV7",
-		damage = 17,
-		base = 69001
 	}
 end()

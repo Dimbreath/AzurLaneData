@@ -2,6 +2,142 @@ pg = pg or {}
 pg.weapon_property_154 = {}
 
 function ()
+	uv0.weapon_property_154[68372] = {
+		id = 68372,
+		name = "竞技神黑弹Lv2",
+		damage = 163,
+		base = 68371
+	}
+	uv0.weapon_property_154[68373] = {
+		id = 68373,
+		name = "竞技神黑弹Lv3",
+		damage = 175,
+		base = 68371
+	}
+	uv0.weapon_property_154[68374] = {
+		id = 68374,
+		name = "竞技神黑弹Lv4",
+		damage = 187,
+		base = 68371
+	}
+	uv0.weapon_property_154[68375] = {
+		id = 68375,
+		name = "竞技神黑弹Lv5",
+		damage = 199,
+		base = 68371
+	}
+	uv0.weapon_property_154[68376] = {
+		id = 68376,
+		name = "竞技神黑弹Lv6",
+		damage = 212,
+		base = 68371
+	}
+	uv0.weapon_property_154[68377] = {
+		id = 68377,
+		name = "竞技神黑弹Lv7",
+		damage = 229,
+		base = 68371
+	}
+	uv0.weapon_property_154[68378] = {
+		id = 68378,
+		name = "竞技神黑弹Lv8",
+		damage = 247,
+		base = 68371
+	}
+	uv0.weapon_property_154[68379] = {
+		id = 68379,
+		name = "竞技神黑弹Lv9",
+		damage = 267,
+		base = 68371
+	}
+	uv0.weapon_property_154[68380] = {
+		id = 68380,
+		name = "竞技神黑弹Lv10",
+		damage = 294,
+		base = 68371
+	}
+	uv0.weapon_property_154[68381] = {
+		action_index = "attack",
+		range = 95,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "竞技神飞刀Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 360,
+		charge_param = "",
+		damage = 27,
+		corrected = 100,
+		min_range = 0,
+		id = 68381,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19864,
+			19864
+		},
+		barrage_ID = {
+			80601,
+			80602
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_154[68382] = {
+		id = 68382,
+		name = "竞技神飞刀Lv2",
+		damage = 32,
+		base = 68381
+	}
+	uv0.weapon_property_154[68383] = {
+		id = 68383,
+		name = "竞技神飞刀Lv3",
+		damage = 37,
+		base = 68381
+	}
+	uv0.weapon_property_154[68384] = {
+		id = 68384,
+		name = "竞技神飞刀Lv4",
+		damage = 42,
+		base = 68381
+	}
+	uv0.weapon_property_154[68385] = {
+		id = 68385,
+		name = "竞技神飞刀Lv5",
+		damage = 47,
+		base = 68381
+	}
+	uv0.weapon_property_154[68386] = {
+		id = 68386,
+		name = "竞技神飞刀Lv6",
+		damage = 52,
+		base = 68381
+	}
+	uv0.weapon_property_154[68387] = {
+		id = 68387,
+		name = "竞技神飞刀Lv7",
+		damage = 57,
+		base = 68381
+	}
 	uv0.weapon_property_154[68388] = {
 		id = 68388,
 		name = "竞技神飞刀Lv8",
@@ -519,133 +655,5 @@ function ()
 		name = "KGV技能增强弹幕-LV2",
 		damage = 78,
 		base = 68431
-	}
-	uv0.weapon_property_154[68433] = {
-		id = 68433,
-		name = "KGV技能增强弹幕-LV3",
-		damage = 85,
-		base = 68431
-	}
-	uv0.weapon_property_154[68434] = {
-		id = 68434,
-		name = "KGV技能增强弹幕-LV4",
-		damage = 93,
-		base = 68431
-	}
-	uv0.weapon_property_154[68435] = {
-		id = 68435,
-		name = "KGV技能增强弹幕-LV5",
-		damage = 100,
-		base = 68431
-	}
-	uv0.weapon_property_154[68436] = {
-		id = 68436,
-		name = "KGV技能增强弹幕-LV6",
-		damage = 108,
-		base = 68431
-	}
-	uv0.weapon_property_154[68437] = {
-		id = 68437,
-		name = "KGV技能增强弹幕-LV7",
-		damage = 115,
-		base = 68431
-	}
-	uv0.weapon_property_154[68438] = {
-		id = 68438,
-		name = "KGV技能增强弹幕-LV8",
-		damage = 123,
-		base = 68431
-	}
-	uv0.weapon_property_154[68439] = {
-		id = 68439,
-		name = "KGV技能增强弹幕-LV9",
-		damage = 130,
-		base = 68431
-	}
-	uv0.weapon_property_154[68440] = {
-		id = 68440,
-		name = "KGV技能增强弹幕-LV10",
-		damage = 138,
-		base = 68431
-	}
-	uv0.weapon_property_154[68441] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "U-556技能鱼雷LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 19,
-		corrected = 100,
-		min_range = 0,
-		id = 68441,
-		attack_attribute_ratio = 120,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19884
-		},
-		barrage_ID = {
-			80711
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_154[68442] = {
-		id = 68442,
-		name = "U-556技能鱼雷LV2",
-		damage = 21,
-		base = 68441
-	}
-	uv0.weapon_property_154[68443] = {
-		id = 68443,
-		name = "U-556技能鱼雷LV3",
-		damage = 24,
-		base = 68441
-	}
-	uv0.weapon_property_154[68444] = {
-		id = 68444,
-		name = "U-556技能鱼雷LV4",
-		damage = 30,
-		base = 68441
-	}
-	uv0.weapon_property_154[68445] = {
-		id = 68445,
-		name = "U-556技能鱼雷LV5",
-		damage = 33,
-		base = 68441
-	}
-	uv0.weapon_property_154[68446] = {
-		id = 68446,
-		name = "U-556技能鱼雷LV6",
-		damage = 36,
-		base = 68441
-	}
-	uv0.weapon_property_154[68447] = {
-		id = 68447,
-		name = "U-556技能鱼雷LV7",
-		damage = 39,
-		base = 68441
 	}
 end()

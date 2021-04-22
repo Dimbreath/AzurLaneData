@@ -1,5 +1,56 @@
 pg = pg or {}
 pg.equip_data_statistics_322 = {
+	[48048] = {
+		id = 48048,
+		base = 48040,
+		ammo_info = {
+			{
+				6,
+				59348
+			},
+			{
+				4,
+				59708
+			}
+		},
+		weapon_id = {
+			48048
+		}
+	},
+	[48049] = {
+		id = 48049,
+		base = 48040,
+		ammo_info = {
+			{
+				6,
+				59349
+			},
+			{
+				4,
+				59709
+			}
+		},
+		weapon_id = {
+			48049
+		}
+	},
+	[48050] = {
+		id = 48050,
+		base = 48040,
+		ammo_info = {
+			{
+				6,
+				59350
+			},
+			{
+				4,
+				59710
+			}
+		},
+		weapon_id = {
+			48050
+		}
+	},
 	[48051] = {
 		anti_siren = 100,
 		base = 48040,
@@ -353,104 +404,6 @@ pg.equip_data_statistics_322 = {
 		},
 		weapon_id = {
 			49026
-		}
-	},
-	[49040] = {
-		name = "Ju-87C俯冲轰炸机",
-		type = 9,
-		speciality = "轰炸",
-		rarity = 4,
-		tech = 3,
-		descrip = "Ju-87的舰载用版本，是铁血公国最泛用的轰炸机型号，通称”斯图卡”",
-		value_2 = 25,
-		icon = "49000",
-		attribute_2 = "air",
-		nationality = 4,
-		ammo = 5,
-		value_3 = 0,
-		id = 49040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				59340
-			},
-			{
-				5,
-				52640
-			},
-			{
-				5,
-				53040
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			49040
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CV",
-			"DB"
-		}
-	},
-	[49041] = {
-		id = 49041,
-		base = 49040,
-		ammo_info = {
-			{
-				6,
-				59341
-			},
-			{
-				5,
-				52641
-			},
-			{
-				5,
-				53041
-			}
-		},
-		weapon_id = {
-			49041
-		}
-	},
-	[49042] = {
-		id = 49042,
-		base = 49040,
-		ammo_info = {
-			{
-				6,
-				59342
-			},
-			{
-				5,
-				52642
-			},
-			{
-				5,
-				53042
-			}
-		},
-		weapon_id = {
-			49042
 		}
 	}
 }

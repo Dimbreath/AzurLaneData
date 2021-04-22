@@ -435,6 +435,7 @@ return {
 			bgm = "story-italy",
 			actor = 900198,
 			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "这么说，协议谈妥了？",
 			flashout = {
 				dur = 1,
@@ -605,6 +606,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "确实是个妙计，可是…这么做就意味着正式和皇家宣战了",
 			typewriter = {
 				speed = 0.05,
@@ -666,11 +668,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 1,
 			bgName = "bg_story_italy",
-			nameColor = "#ffde38",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "比起服役时间，你才应该是我的姐姐啊~呵呵",
 			typewriter = {
 				speed = 0.05,
@@ -682,11 +685,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 1,
 			bgName = "bg_story_italy",
-			nameColor = "#ffde38",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "利托里奥，每次在我犹豫不决的时候，总是你能站出来帮我一把",
 			typewriter = {
 				speed = 0.05,
@@ -704,6 +708,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "我早就说过，其实这个总旗舰的位置应该…",
 			typewriter = {
 				speed = 0.05,
@@ -748,11 +753,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 1,
 			bgName = "bg_story_italy",
-			nameColor = "#ffde38",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -803,6 +809,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "…呵呵呵，乐意之极~",
 			typewriter = {
 				speed = 0.05,

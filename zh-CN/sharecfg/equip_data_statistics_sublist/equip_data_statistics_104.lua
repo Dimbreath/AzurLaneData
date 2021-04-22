@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.equip_data_statistics_104 = {
+	[14369] = {
+		id = 14369,
+		damage = "144 x 3",
+		base = 14360,
+		weapon_id = {
+			14369
+		}
+	},
+	[14370] = {
+		id = 14370,
+		damage = "154 x 3",
+		base = 14360,
+		weapon_id = {
+			14370
+		}
+	},
+	[14371] = {
+		anti_siren = 100,
+		damage = "154 x 3",
+		base = 14360,
+		id = 14371,
+		weapon_id = {
+			14371
+		}
+	},
 	[14372] = {
 		anti_siren = 200,
 		damage = "154 x 3",
@@ -157,74 +182,6 @@ pg.equip_data_statistics_104 = {
 		id = 14391,
 		weapon_id = {
 			14391
-		}
-	},
-	[14400] = {
-		name = "三联装406mm主炮Mk7",
-		speciality = "跨射",
-		type = 4,
-		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "14400",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "52 x 3",
-		nationality = 1,
-		ammo = 3,
-		value_3 = 0,
-		id = 14400,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1510
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			14400
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"BB",
-			"MG"
-		}
-	},
-	[14401] = {
-		id = 14401,
-		damage = "62 x 3",
-		base = 14400,
-		weapon_id = {
-			14401
-		}
-	},
-	[14402] = {
-		id = 14402,
-		damage = "72 x 3",
-		base = 14400,
-		weapon_id = {
-			14402
 		}
 	}
 }

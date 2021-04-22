@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_236 = {
+	[35045] = {
+		id = 35045,
+		damage = "136 x 2",
+		base = 35040,
+		weapon_id = {
+			35045
+		}
+	},
+	[35046] = {
+		id = 35046,
+		damage = "150 x 2",
+		base = 35040,
+		weapon_id = {
+			35046
+		}
+	},
+	[35047] = {
+		id = 35047,
+		damage = "150 x 2",
+		base = 35040,
+		weapon_id = {
+			35047
+		}
+	},
 	[35100] = {
 		name = "三联装610mm鱼雷",
 		speciality = "雷击",
@@ -272,30 +296,6 @@ pg.equip_data_statistics_236 = {
 		base = 35140,
 		weapon_id = {
 			35142
-		}
-	},
-	[35143] = {
-		id = 35143,
-		damage = "108 x 3",
-		base = 35140,
-		weapon_id = {
-			35143
-		}
-	},
-	[35144] = {
-		id = 35144,
-		damage = "122 x 3",
-		base = 35140,
-		weapon_id = {
-			35144
-		}
-	},
-	[35145] = {
-		id = 35145,
-		damage = "136 x 3",
-		base = 35140,
-		weapon_id = {
-			35145
 		}
 	}
 }

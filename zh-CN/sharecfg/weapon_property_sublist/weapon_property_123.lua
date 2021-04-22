@@ -2,162 +2,6 @@ pg = pg or {}
 pg.weapon_property_123 = {}
 
 function ()
-	uv0.weapon_property_123[65639] = {
-		id = 65639,
-		name = "应瑞技能弹幕LV9",
-		damage = 16,
-		base = 65631
-	}
-	uv0.weapon_property_123[65640] = {
-		id = 65640,
-		name = "应瑞技能弹幕LV10",
-		damage = 18,
-		base = 65631
-	}
-	uv0.weapon_property_123[65641] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "应瑞肇和技能鱼雷 LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 38,
-		corrected = 100,
-		min_range = 0,
-		id = 65641,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19261
-		},
-		barrage_ID = {
-			81022
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_123[65642] = {
-		id = 65642,
-		name = "应瑞肇和技能鱼雷 LV2",
-		damage = 40,
-		base = 65641
-	}
-	uv0.weapon_property_123[65643] = {
-		id = 65643,
-		name = "应瑞肇和技能鱼雷 LV3",
-		damage = 42,
-		base = 65641
-	}
-	uv0.weapon_property_123[65644] = {
-		id = 65644,
-		name = "应瑞肇和技能鱼雷 LV4",
-		damage = 44,
-		base = 65641
-	}
-	uv0.weapon_property_123[65645] = {
-		id = 65645,
-		name = "应瑞肇和技能鱼雷 LV5",
-		damage = 48,
-		base = 65641
-	}
-	uv0.weapon_property_123[65646] = {
-		id = 65646,
-		name = "应瑞肇和技能鱼雷 LV6",
-		damage = 50,
-		base = 65641
-	}
-	uv0.weapon_property_123[65647] = {
-		id = 65647,
-		name = "应瑞肇和技能鱼雷 LV7",
-		damage = 52,
-		base = 65641
-	}
-	uv0.weapon_property_123[65648] = {
-		id = 65648,
-		name = "应瑞肇和技能鱼雷 LV8",
-		damage = 54,
-		base = 65641
-	}
-	uv0.weapon_property_123[65649] = {
-		id = 65649,
-		name = "应瑞肇和技能鱼雷 LV9",
-		damage = 58,
-		base = 65641
-	}
-	uv0.weapon_property_123[65650] = {
-		id = 65650,
-		name = "应瑞肇和技能鱼雷 LV10",
-		damage = 62,
-		base = 65641
-	}
-	uv0.weapon_property_123[65651] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "肇和技能弹幕LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 65651,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19260,
-			19259
-		},
-		barrage_ID = {
-			81019,
-			81020
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
 	uv0.weapon_property_123[65652] = {
 		id = 65652,
 		name = "肇和技能弹幕LV2",
@@ -701,5 +545,189 @@ function ()
 		barrage_ID = {
 			81026
 		}
+	}
+	uv0.weapon_property_123[65699] = {
+		name = "贝拉罗斯冰锥3-100-LV9",
+		damage = 152,
+		base = 65691,
+		id = 65699,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_123[65700] = {
+		name = "贝拉罗斯冰锥3-100-LV10",
+		damage = 164,
+		base = 65691,
+		id = 65700,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_123[65701] = {
+		action_index = "",
+		range = 105,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "贝拉罗斯冰锥4-105-LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 56,
+		corrected = 100,
+		min_range = 0,
+		id = 65701,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 9500,
+		queue = 4,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19263,
+			19265
+		},
+		barrage_ID = {
+			81025,
+			81025
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_123[65702] = {
+		id = 65702,
+		name = "贝拉罗斯冰锥4-105-LV2",
+		damage = 68,
+		base = 65701
+	}
+	uv0.weapon_property_123[65703] = {
+		id = 65703,
+		name = "贝拉罗斯冰锥4-105-LV3",
+		damage = 80,
+		base = 65701
+	}
+	uv0.weapon_property_123[65704] = {
+		id = 65704,
+		name = "贝拉罗斯冰锥4-105-LV4",
+		damage = 92,
+		base = 65701
+	}
+	uv0.weapon_property_123[65705] = {
+		id = 65705,
+		name = "贝拉罗斯冰锥4-105-LV5",
+		damage = 104,
+		base = 65701
+	}
+	uv0.weapon_property_123[65706] = {
+		id = 65706,
+		name = "贝拉罗斯冰锥4-105-LV6",
+		damage = 118,
+		base = 65701
+	}
+	uv0.weapon_property_123[65707] = {
+		name = "贝拉罗斯冰锥4-105-LV7",
+		damage = 128,
+		base = 65701,
+		id = 65707,
+		barrage_ID = {
+			81026,
+			81026
+		}
+	}
+	uv0.weapon_property_123[65708] = {
+		name = "贝拉罗斯冰锥4-105-LV8",
+		damage = 140,
+		base = 65701,
+		id = 65708,
+		barrage_ID = {
+			81026,
+			81026
+		}
+	}
+	uv0.weapon_property_123[65709] = {
+		name = "贝拉罗斯冰锥4-105-LV9",
+		damage = 152,
+		base = 65701,
+		id = 65709,
+		barrage_ID = {
+			81026,
+			81026
+		}
+	}
+	uv0.weapon_property_123[65710] = {
+		name = "贝拉罗斯冰锥4-105-LV10",
+		damage = 164,
+		base = 65701,
+		id = 65710,
+		barrage_ID = {
+			81026,
+			81026
+		}
+	}
+	uv0.weapon_property_123[65711] = {
+		action_index = "",
+		range = 110,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "贝拉罗斯冰锥5-110-LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 56,
+		corrected = 100,
+		min_range = 0,
+		id = 65711,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 9500,
+		queue = 4,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19264
+		},
+		barrage_ID = {
+			81025
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_123[65712] = {
+		id = 65712,
+		name = "贝拉罗斯冰锥5-110-LV2",
+		damage = 68,
+		base = 65711
 	}
 end()

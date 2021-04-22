@@ -1,5 +1,81 @@
 pg = pg or {}
 pg.equip_data_statistics_286 = {
+	[42040] = {
+		name = "单装SKC28式150mm主炮",
+		speciality = "锁定",
+		type = 2,
+		tech = 3,
+		descrip = "单装SKC28式150mm主炮，轻巡和部分驱逐可以使用",
+		value_2 = 25,
+		icon = "42000",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "9 x 1",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 0,
+		id = 42040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1304
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1304
+			},
+			{
+				4,
+				1000
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			42040
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[42041] = {
+		id = 42041,
+		damage = "10 x 1",
+		base = 42040,
+		weapon_id = {
+			42041
+		}
+	},
+	[42042] = {
+		id = 42042,
+		damage = "11 x 1",
+		base = 42040,
+		weapon_id = {
+			42042
+		}
+	},
 	[42043] = {
 		id = 42043,
 		damage = "12 x 1",
@@ -163,30 +239,6 @@ pg.equip_data_statistics_286 = {
 		base = 42060,
 		weapon_id = {
 			42064
-		}
-	},
-	[42065] = {
-		id = 42065,
-		damage = "14 x 4",
-		base = 42060,
-		weapon_id = {
-			42065
-		}
-	},
-	[42066] = {
-		id = 42066,
-		damage = "15 x 4",
-		base = 42060,
-		weapon_id = {
-			42066
-		}
-	},
-	[42067] = {
-		id = 42067,
-		damage = "16 x 4",
-		base = 42060,
-		weapon_id = {
-			42067
 		}
 	}
 }

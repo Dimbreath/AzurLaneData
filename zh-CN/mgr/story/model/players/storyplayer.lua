@@ -175,11 +175,7 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 		function (slot0)
 			uv0:Clear(slot0)
 		end
-	}, function ()
-		if uv0.callback then
-			uv0.callback()
-		end
-	end)
+	}, slot3)
 end
 
 function slot0.CanSkip(slot0)
@@ -198,10 +194,10 @@ end
 
 function slot0.NextOneImmediately(slot0)
 	if slot0.callback then
-		slot0.callback()
+		slot0:ClearAnimation()
+		slot0:Clear()
+		slot1()
 	end
-
-	slot0.callback = nil
 end
 
 function slot0.TriggerEventAuto(slot0)
@@ -608,6 +604,8 @@ end
 function slot0.Clear(slot0, slot1)
 	slot0.bgs = {}
 	slot0.goCG.alpha = 1
+	slot0.callback = nil
+	slot0.autoNext = nil
 
 	slot0:OnClear()
 

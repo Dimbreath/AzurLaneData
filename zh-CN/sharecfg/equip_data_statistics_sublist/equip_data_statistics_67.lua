@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.equip_data_statistics_67 = {
+	[4322] = {
+		id = 4322,
+		base = 4320,
+		ammo_info = {
+			{
+				8,
+				53222
+			}
+		},
+		weapon_id = {
+			4322
+		}
+	},
+	[4323] = {
+		id = 4323,
+		base = 4320,
+		ammo_info = {
+			{
+				8,
+				53223
+			}
+		},
+		weapon_id = {
+			4323
+		}
+	},
+	[4324] = {
+		id = 4324,
+		base = 4320,
+		ammo_info = {
+			{
+				8,
+				53224
+			}
+		},
+		weapon_id = {
+			4324
+		}
+	},
 	[4325] = {
 		id = 4325,
 		base = 4320,
@@ -212,83 +251,6 @@ pg.equip_data_statistics_67 = {
 		},
 		weapon_id = {
 			4351
-		}
-	},
-	[5000] = {
-		name = "三联装533mm鱼雷",
-		speciality = "雷击",
-		type = 5,
-		tech = 1,
-		rarity = 1,
-		descrip = "说明未填写",
-		value_2 = 0,
-		icon = "5000",
-		damage = "46 x 3",
-		nationality = 0,
-		ammo = 5,
-		value_3 = 0,
-		id = 5000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1800
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1800
-			},
-			{
-				4,
-				1402
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			5000
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"UN",
-			"ST",
-			"TP",
-			"TRI"
-		}
-	},
-	[5001] = {
-		id = 5001,
-		damage = "54 x 3",
-		base = 5000,
-		weapon_id = {
-			5001
-		}
-	},
-	[5002] = {
-		id = 5002,
-		damage = "62 x 3",
-		base = 5000,
-		weapon_id = {
-			5002
 		}
 	}
 }

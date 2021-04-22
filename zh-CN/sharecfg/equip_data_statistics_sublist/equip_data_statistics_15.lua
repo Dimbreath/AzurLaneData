@@ -1,5 +1,60 @@
 pg = pg or {}
 pg.equip_data_statistics_15 = {
+	[691] = {
+		id = 691,
+		anti_siren = 100,
+		value_1 = "65",
+		base = 680
+	},
+	[700] = {
+		name = "九八式射击延迟装置",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		attribute_1 = "cannon",
+		value_2 = 0,
+		icon = "700",
+		value_1 = "12",
+		descrip = "九八式射击延迟装置，通过使各炮射击之间形成微小的时间差，从而减少炮弹飞行中的互相干扰，缩小散布界",
+		rarity = 4,
+		nationality = 3,
+		ammo = 10,
+		value_3 = 0,
+		id = 700,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6360
+		},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {
+			4,
+			5,
+			10,
+			13
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DEV"
+		}
+	},
+	[701] = {
+		id = 701,
+		value_1 = "14",
+		base = 700
+	},
 	[702] = {
 		id = 702,
 		value_1 = "16",
@@ -112,24 +167,6 @@ pg.equip_data_statistics_15 = {
 		id = 723,
 		value_2 = 95,
 		value_1 = "14",
-		base = 720
-	},
-	[724] = {
-		id = 724,
-		value_2 = 100,
-		value_1 = "14",
-		base = 720
-	},
-	[725] = {
-		id = 725,
-		value_2 = 105,
-		value_1 = "15",
-		base = 720
-	},
-	[726] = {
-		id = 726,
-		value_2 = 110,
-		value_1 = "16",
 		base = 720
 	}
 }

@@ -1,27 +1,62 @@
 pg = pg or {}
 pg.aircraft_template_227 = {
-	[83120] = {
-		name = "零战二一型",
-		max_hp = 33,
+	[82990] = {
+		id = 82990,
+		base = 82980,
+		max_hp = 103,
+		hp_growth = 3952,
+		weapon_ID = {
+			50670
+		}
+	},
+	[82991] = {
+		id = 82991,
+		base = 82980,
+		max_hp = 109,
+		hp_growth = 4189,
+		weapon_ID = {
+			50671
+		}
+	},
+	[82992] = {
+		id = 82992,
+		base = 82980,
+		max_hp = 115,
+		hp_growth = 4426,
+		weapon_ID = {
+			50672
+		}
+	},
+	[82993] = {
+		id = 82993,
+		base = 82980,
+		max_hp = 121,
+		hp_growth = 4663,
+		weapon_ID = {
+			50673
+		}
+	},
+	[83000] = {
+		name = "96式舰战",
+		max_hp = 27,
 		accuracy = 23,
-		model_ID = "lingzhan21",
+		model_ID = "96jiangong",
 		ACC_growth = 0,
-		crash_DMG = 52,
-		dodge = 0.327,
+		crash_DMG = 40,
+		dodge = 0.357,
 		attack_power = 2,
-		dodge_limit = 8.5,
+		dodge_limit = 7,
 		type = 1,
 		AP_growth = 2000,
-		icon = "lingzhan21",
+		icon = "96jiangong",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1277,
-		speed = 52,
-		id = 83120,
+		hp_growth = 1021,
+		speed = 48,
+		id = 83000,
 		scale = 1,
 		weapon_ID = {
-			50020,
-			50520
+			50000
 		},
 		position_offset = {
 			0,
@@ -64,8 +99,8 @@ pg.aircraft_template_227 = {
 				0
 			},
 			{
-				0.27,
-				0,
+				0.72,
+				-0.15,
 				0
 			},
 			{
@@ -75,88 +110,54 @@ pg.aircraft_template_227 = {
 			}
 		}
 	},
-	[83121] = {
-		id = 83121,
-		base = 83120,
-		max_hp = 38,
-		hp_growth = 1468,
+	[83001] = {
+		id = 83001,
+		base = 83000,
+		max_hp = 31,
+		hp_growth = 1175,
 		weapon_ID = {
-			50021,
-			50521
+			50001
 		}
 	},
-	[83122] = {
-		id = 83122,
-		base = 83120,
-		max_hp = 43,
-		hp_growth = 1660,
+	[83002] = {
+		id = 83002,
+		base = 83000,
+		max_hp = 35,
+		hp_growth = 1328,
 		weapon_ID = {
-			50022,
-			50522
+			50002
 		}
 	},
-	[83123] = {
-		id = 83123,
-		base = 83120,
-		max_hp = 48,
-		hp_growth = 1851,
+	[83003] = {
+		id = 83003,
+		base = 83000,
+		max_hp = 39,
+		hp_growth = 1481,
 		weapon_ID = {
-			50023,
-			50523
+			50003
 		}
 	},
-	[83124] = {
-		id = 83124,
-		base = 83120,
-		max_hp = 53,
-		hp_growth = 2043,
-		weapon_ID = {
-			50024,
-			50524
-		}
-	},
-	[83125] = {
-		id = 83125,
-		base = 83120,
-		max_hp = 58,
-		hp_growth = 2234,
-		weapon_ID = {
-			50025,
-			50525
-		}
-	},
-	[83126] = {
-		id = 83126,
-		base = 83120,
-		max_hp = 63,
-		hp_growth = 2426,
-		weapon_ID = {
-			50026,
-			50526
-		}
-	},
-	[83140] = {
-		name = "零战二一型",
-		max_hp = 37,
+	[83020] = {
+		name = "96式舰战",
+		max_hp = 30,
 		accuracy = 23,
-		model_ID = "lingzhan21",
+		model_ID = "96jiangong",
 		ACC_growth = 0,
-		crash_DMG = 52,
-		dodge = 0.315,
+		crash_DMG = 40,
+		dodge = 0.345,
 		attack_power = 2,
-		dodge_limit = 9,
+		dodge_limit = 7.5,
 		type = 1,
 		AP_growth = 2000,
-		icon = "lingzhan21",
+		icon = "96jiangong",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1404,
-		speed = 52,
-		id = 83140,
+		hp_growth = 1149,
+		speed = 48,
+		id = 83020,
 		scale = 1,
 		weapon_ID = {
-			50040,
-			50540
+			50020
 		},
 		position_offset = {
 			0,
@@ -199,8 +200,8 @@ pg.aircraft_template_227 = {
 				0
 			},
 			{
-				0.27,
-				0,
+				0.72,
+				-0.15,
 				0
 			},
 			{
@@ -210,24 +211,13 @@ pg.aircraft_template_227 = {
 			}
 		}
 	},
-	[83141] = {
-		id = 83141,
-		base = 83140,
-		max_hp = 42,
-		hp_growth = 1615,
+	[83021] = {
+		id = 83021,
+		base = 83020,
+		max_hp = 34,
+		hp_growth = 1321,
 		weapon_ID = {
-			50041,
-			50541
-		}
-	},
-	[83142] = {
-		id = 83142,
-		base = 83140,
-		max_hp = 47,
-		hp_growth = 1826,
-		weapon_ID = {
-			50042,
-			50542
+			50021
 		}
 	}
 }

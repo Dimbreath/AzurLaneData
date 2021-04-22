@@ -1,5 +1,49 @@
 pg = pg or {}
 pg.equip_data_statistics_325 = {
+	[60023] = {
+		id = 60023,
+		name = "航空攻击展示-兰利III",
+		base = 60021,
+		weapon_id = {
+			60023
+		}
+	},
+	[60031] = {
+		name = "航空攻击展示-列克星敦I",
+		tech = 1,
+		speciality = "无",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航母空袭展示用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60031,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60031
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60032] = {
+		id = 60032,
+		name = "航空攻击展示-列克星敦II",
+		base = 60031,
+		weapon_id = {
+			60032
+		}
+	},
 	[60033] = {
 		id = 60033,
 		name = "航空攻击展示-列克星敦III",
@@ -205,50 +249,6 @@ pg.equip_data_statistics_325 = {
 		equip_info = {},
 		weapon_id = {
 			60081
-		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60082] = {
-		id = 60082,
-		name = "航空攻击展示-大黄蜂II",
-		base = 60081,
-		weapon_id = {
-			60082
-		}
-	},
-	[60083] = {
-		id = 60083,
-		name = "航空攻击展示-大黄蜂III",
-		base = 60081,
-		weapon_id = {
-			60083
-		}
-	},
-	[60091] = {
-		name = "航空攻击展示-竞技神I",
-		tech = 1,
-		speciality = "无",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航母空袭展示用",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60091,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60091
 		},
 		skill_id = {},
 		part_main = {},

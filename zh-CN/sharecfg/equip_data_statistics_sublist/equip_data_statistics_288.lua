@@ -1,5 +1,81 @@
 pg = pg or {}
 pg.equip_data_statistics_288 = {
+	[42126] = {
+		id = 42126,
+		damage = "14 x 3",
+		base = 42120,
+		weapon_id = {
+			42126
+		}
+	},
+	[42140] = {
+		name = "三联装SKC25式150mm主炮",
+		speciality = "锁定",
+		type = 2,
+		tech = 3,
+		descrip = "三联装SKC25式150mm主炮，轻巡和部分驱逐可以使用",
+		value_2 = 25,
+		icon = "42100",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "9 x 3",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 0,
+		id = 42140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1304
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1304
+			},
+			{
+				4,
+				1003
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			42140
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[42141] = {
+		id = 42141,
+		damage = "10 x 3",
+		base = 42140,
+		weapon_id = {
+			42141
+		}
+	},
 	[42142] = {
 		id = 42142,
 		damage = "11 x 3",
@@ -163,82 +239,6 @@ pg.equip_data_statistics_288 = {
 		base = 42200,
 		weapon_id = {
 			42203
-		}
-	},
-	[42220] = {
-		name = "双联装TbtsKC36式150mm主炮",
-		speciality = "锁定",
-		type = 2,
-		tech = 2,
-		descrip = "双联装TbtsKC36式150mm主炮，1936A型驱逐舰主炮，轻巡和部分驱逐可以使用",
-		value_2 = 12,
-		icon = "42200",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "8 x 4",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 42220,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1304
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1304
-			},
-			{
-				4,
-				1001
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			42220
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CL",
-			"MG",
-			"AP"
-		}
-	},
-	[42221] = {
-		id = 42221,
-		damage = "9 x 4",
-		base = 42220,
-		weapon_id = {
-			42221
-		}
-	},
-	[42222] = {
-		id = 42222,
-		damage = "10 x 4",
-		base = 42220,
-		weapon_id = {
-			42222
 		}
 	}
 }

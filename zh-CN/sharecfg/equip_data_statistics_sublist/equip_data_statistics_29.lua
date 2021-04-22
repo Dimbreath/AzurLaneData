@@ -1,5 +1,74 @@
 pg = pg or {}
 pg.equip_data_statistics_29 = {
+	[1302] = {
+		id = 1302,
+		value_1 = "65",
+		base = 1300
+	},
+	[1303] = {
+		id = 1303,
+		value_1 = "72",
+		base = 1300
+	},
+	[1320] = {
+		name = "防鱼雷隔舱",
+		tech = 2,
+		type = 10,
+		speciality = "无",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "1300",
+		value_1 = "90",
+		descrip = "防鱼雷隔舱，可以减少鱼雷造成的伤害",
+		rarity = 3,
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 1320,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6020
+		},
+		part_main = {
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			10,
+			11,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			10,
+			11,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
 	[1321] = {
 		id = 1321,
 		value_1 = "103",
@@ -122,21 +191,6 @@ pg.equip_data_statistics_29 = {
 	[1347] = {
 		id = 1347,
 		value_1 = "287",
-		base = 1340
-	},
-	[1348] = {
-		id = 1348,
-		value_1 = "308",
-		base = 1340
-	},
-	[1349] = {
-		id = 1349,
-		value_1 = "329",
-		base = 1340
-	},
-	[1350] = {
-		id = 1350,
-		value_1 = "350",
 		base = 1340
 	}
 }

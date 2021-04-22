@@ -1,5 +1,22 @@
 pg = pg or {}
 pg.equip_data_statistics_35 = {
+	[1701] = {
+		id = 1701,
+		value_2 = 16,
+		base = 1700
+	},
+	[1702] = {
+		id = 1702,
+		value_2 = 18,
+		value_1 = "3",
+		base = 1700
+	},
+	[1703] = {
+		id = 1703,
+		value_2 = 20,
+		value_1 = "3",
+		base = 1700
+	},
 	[1720] = {
 		name = "液压舵机",
 		tech = 2,
@@ -162,24 +179,6 @@ pg.equip_data_statistics_35 = {
 		id = 1761,
 		value_2 = 27,
 		value_1 = "18",
-		base = 1760
-	},
-	[1762] = {
-		id = 1762,
-		value_2 = 30,
-		value_1 = "20",
-		base = 1760
-	},
-	[1763] = {
-		id = 1763,
-		value_2 = 33,
-		value_1 = "22",
-		base = 1760
-	},
-	[1764] = {
-		id = 1764,
-		value_2 = 36,
-		value_1 = "24",
 		base = 1760
 	}
 }

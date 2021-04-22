@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_95 = {
+	[13148] = {
+		id = 13148,
+		damage = "48 x 3",
+		base = 13140,
+		weapon_id = {
+			13148
+		}
+	},
+	[13149] = {
+		id = 13149,
+		damage = "50 x 3",
+		base = 13140,
+		weapon_id = {
+			13149
+		}
+	},
+	[13150] = {
+		id = 13150,
+		damage = "52 x 3",
+		base = 13140,
+		weapon_id = {
+			13150
+		}
+	},
 	[13151] = {
 		anti_siren = 100,
 		damage = "52 x 3",
@@ -164,75 +188,6 @@ pg.equip_data_statistics_95 = {
 		id = 13172,
 		weapon_id = {
 			13172
-		}
-	},
-	[13173] = {
-		anti_siren = 300,
-		damage = "51 x 6",
-		base = 13160,
-		id = 13173,
-		weapon_id = {
-			13173
-		}
-	},
-	[14000] = {
-		name = "三联装305mm主炮Mk8",
-		speciality = "跨射",
-		type = 4,
-		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "14000",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "36 x 3",
-		nationality = 1,
-		ammo = 3,
-		value_3 = 0,
-		id = 14000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1510
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			14000
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"BB",
-			"MG"
-		}
-	},
-	[14001] = {
-		id = 14001,
-		damage = "40 x 3",
-		base = 14000,
-		weapon_id = {
-			14001
 		}
 	}
 }

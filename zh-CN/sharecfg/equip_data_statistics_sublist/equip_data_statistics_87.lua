@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_87 = {
+	[11227] = {
+		id = 11227,
+		damage = "11 x 4",
+		base = 11220,
+		weapon_id = {
+			11227
+		}
+	},
+	[11228] = {
+		id = 11228,
+		damage = "12 x 4",
+		base = 11220,
+		weapon_id = {
+			11228
+		}
+	},
+	[11229] = {
+		id = 11229,
+		damage = "13 x 4",
+		base = 11220,
+		weapon_id = {
+			11229
+		}
+	},
 	[11230] = {
 		id = 11230,
 		damage = "14 x 4",
@@ -171,81 +195,6 @@ pg.equip_data_statistics_87 = {
 		id = 11252,
 		weapon_id = {
 			11252
-		}
-	},
-	[11253] = {
-		anti_siren = 300,
-		damage = "15 x 4",
-		base = 11240,
-		id = 11253,
-		weapon_id = {
-			11253
-		}
-	},
-	[12000] = {
-		name = "双联152mm主炮",
-		speciality = "锁定",
-		type = 2,
-		tech = 1,
-		rarity = 1,
-		descrip = "说明未填写",
-		value_2 = 0,
-		icon = "12000",
-		damage = "7 x 4",
-		nationality = 1,
-		ammo = 3,
-		value_3 = 0,
-		id = 12000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1001
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1001
-			},
-			{
-				4,
-				1101
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			12000
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CL",
-			"MG"
-		}
-	},
-	[12001] = {
-		id = 12001,
-		damage = "8 x 4",
-		base = 12000,
-		weapon_id = {
-			12001
 		}
 	}
 }

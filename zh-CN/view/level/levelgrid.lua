@@ -766,7 +766,7 @@ function slot0.updateFleet(slot0, slot1)
 					end
 
 					if uv1 then
-						if function ()
+						function ()
 							for slot4, slot5 in ipairs({
 								{
 									1,
@@ -798,10 +798,10 @@ function slot0.updateFleet(slot0, slot1)
 								end
 							end
 
-							return true
-						end() then
 							pg.TipsMgr.GetInstance():ShowTips(i18n("no_way_to_escape"))
-						end
+
+							return true
+						end()
 					else
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
 							content = i18n("levelScene_who_to_retreat", uv4.name),
@@ -866,6 +866,8 @@ function slot0.updateFleet(slot0, slot1)
 
 				slot0.lastSelectedId = slot4.id
 			end
+
+			slot3:SetActiveNoPassIcon(slot2:existBarrier(slot5.row, slot5.column))
 		elseif slot7 == FleetType.Submarine then
 			slot8 = slot2:existEnemy(ChapterConst.SubjectPlayer, slot5.row, slot5.column) or slot2:existAlly(slot4)
 

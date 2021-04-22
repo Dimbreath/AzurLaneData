@@ -1,5 +1,106 @@
 pg = pg or {}
 pg.equip_data_statistics_145 = {
+	[19252] = {
+		anti_siren = 200,
+		base = 19240,
+		id = 19252,
+		ammo_info = {
+			{
+				6,
+				50552
+			},
+			{
+				5,
+				52852
+			}
+		},
+		weapon_id = {
+			19252
+		}
+	},
+	[19253] = {
+		anti_siren = 300,
+		base = 19240,
+		id = 19253,
+		ammo_info = {
+			{
+				6,
+				50553
+			},
+			{
+				5,
+				52853
+			}
+		},
+		weapon_id = {
+			19253
+		}
+	},
+	[21000] = {
+		name = "单装102mm副炮",
+		speciality = "锁定",
+		type = 1,
+		tech = 1,
+		rarity = 1,
+		descrip = "说明未填写",
+		value_2 = 0,
+		icon = "21000",
+		damage = "3 x 1",
+		nationality = 2,
+		ammo = 3,
+		value_3 = 0,
+		id = 21000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				999
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				999
+			},
+			{
+				4,
+				1000
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			21000
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
+	},
 	[21001] = {
 		id = 21001,
 		base = 21000,
@@ -223,86 +324,6 @@ pg.equip_data_statistics_145 = {
 		base = 21040,
 		weapon_id = {
 			21046
-		}
-	},
-	[21047] = {
-		id = 21047,
-		damage = "7 x 1",
-		base = 21040,
-		weapon_id = {
-			21047
-		}
-	},
-	[21100] = {
-		name = "双联装102mm副炮",
-		speciality = "锁定",
-		type = 1,
-		tech = 1,
-		rarity = 1,
-		descrip = "说明未填写",
-		value_2 = 0,
-		icon = "21100",
-		damage = "3 x 2",
-		nationality = 2,
-		ammo = 3,
-		value_3 = 0,
-		id = 21100,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1100
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1100
-			},
-			{
-				4,
-				1007
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			21100
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"DD",
-			"MG"
-		}
-	},
-	[21101] = {
-		id = 21101,
-		base = 21100,
-		weapon_id = {
-			21101
 		}
 	}
 }

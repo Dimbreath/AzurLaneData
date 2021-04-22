@@ -2,89 +2,6 @@ pg = pg or {}
 pg.weapon_property_116 = {}
 
 function ()
-	uv0.weapon_property_116[65209] = {
-		name = "大凤μ技能轰炸机Lv9",
-		damage = 220,
-		base = 65201,
-		id = 65209,
-		bullet_ID = {
-			65209
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_116[65210] = {
-		name = "大凤μ技能轰炸机Lv10",
-		damage = 240,
-		base = 65201,
-		id = 65210,
-		bullet_ID = {
-			65210
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_116[65211] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 19,
-		shakescreen = 0,
-		name = "1 x 1000lb 炸弹",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 19,
-		charge_param = "",
-		damage = 150,
-		corrected = 100,
-		min_range = 0,
-		id = 65211,
-		attack_attribute_ratio = 80,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19215
-		},
-		barrage_ID = {
-			2120
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_116[65212] = {
-		id = 65212,
-		damage = 169,
-		base = 65211
-	}
-	uv0.weapon_property_116[65213] = {
-		id = 65213,
-		damage = 188,
-		base = 65211
-	}
-	uv0.weapon_property_116[65214] = {
-		id = 65214,
-		damage = 207,
-		base = 65211
-	}
 	uv0.weapon_property_116[65215] = {
 		id = 65215,
 		damage = 226,
@@ -650,5 +567,83 @@ function ()
 		id = 65268,
 		damage = 125,
 		base = 65261
+	}
+	uv0.weapon_property_116[65269] = {
+		id = 65269,
+		damage = 135,
+		base = 65261
+	}
+	uv0.weapon_property_116[65270] = {
+		id = 65270,
+		damage = 145,
+		base = 65261
+	}
+	uv0.weapon_property_116[65271] = {
+		action_index = "attack",
+		range = 100,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "玛莉萝丝反击弹幕技能Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 6,
+		corrected = 100,
+		min_range = 0,
+		id = 65271,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 280,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19223
+		},
+		barrage_ID = {
+			80965
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_116[65272] = {
+		id = 65272,
+		name = "玛莉萝丝反击弹幕技能Lv2",
+		damage = 8,
+		base = 65271
+	}
+	uv0.weapon_property_116[65273] = {
+		id = 65273,
+		name = "玛莉萝丝反击弹幕技能Lv3",
+		damage = 10,
+		base = 65271
+	}
+	uv0.weapon_property_116[65274] = {
+		id = 65274,
+		name = "玛莉萝丝反击弹幕技能Lv4",
+		damage = 12,
+		base = 65271
+	}
+	uv0.weapon_property_116[65275] = {
+		id = 65275,
+		name = "玛莉萝丝反击弹幕技能Lv5",
+		damage = 14,
+		base = 65271
 	}
 end()

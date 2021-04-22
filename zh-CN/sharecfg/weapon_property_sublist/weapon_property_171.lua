@@ -2,12 +2,6 @@ pg = pg or {}
 pg.weapon_property_171 = {}
 
 function ()
-	uv0.weapon_property_171[69438] = {
-		id = 69438,
-		name = "贝亚恩技能·高爆LV8",
-		damage = 18,
-		base = 69431
-	}
 	uv0.weapon_property_171[69439] = {
 		id = 69439,
 		name = "贝亚恩技能·高爆LV9",
@@ -648,6 +642,16 @@ function ()
 	uv0.weapon_property_171[69497] = {
 		id = 69497,
 		damage = 182,
+		base = 69491
+	}
+	uv0.weapon_property_171[69498] = {
+		id = 69498,
+		damage = 202,
+		base = 69491
+	}
+	uv0.weapon_property_171[69499] = {
+		id = 69499,
+		damage = 220,
 		base = 69491
 	}
 end()

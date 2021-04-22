@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_155 = {
+	[22043] = {
+		id = 22043,
+		damage = "13 x 3",
+		base = 22040,
+		weapon_id = {
+			22043
+		}
+	},
+	[22044] = {
+		id = 22044,
+		damage = "14 x 3",
+		base = 22040,
+		weapon_id = {
+			22044
+		}
+	},
+	[22045] = {
+		id = 22045,
+		damage = "15 x 3",
+		base = 22040,
+		weapon_id = {
+			22045
+		}
+	},
 	[22046] = {
 		id = 22046,
 		damage = "16 x 3",
@@ -214,82 +238,6 @@ pg.equip_data_statistics_155 = {
 		base = 22100,
 		weapon_id = {
 			22103
-		}
-	},
-	[22120] = {
-		name = "双联装152mm主炮",
-		speciality = "锁定",
-		type = 2,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "22100",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "9 x 4",
-		nationality = 2,
-		ammo = 1,
-		value_3 = 0,
-		id = 22120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1104
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1104
-			},
-			{
-				4,
-				1101
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			22120
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CL",
-			"MG",
-			"AP"
-		}
-	},
-	[22121] = {
-		id = 22121,
-		damage = "10 x 4",
-		base = 22120,
-		weapon_id = {
-			22121
-		}
-	},
-	[22122] = {
-		id = 22122,
-		damage = "11 x 4",
-		base = 22120,
-		weapon_id = {
-			22122
 		}
 	}
 }

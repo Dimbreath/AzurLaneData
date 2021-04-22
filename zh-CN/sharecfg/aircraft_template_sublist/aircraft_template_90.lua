@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.aircraft_template_90 = {
+	[37303] = {
+		id = 37303,
+		base = 37300,
+		max_hp = 48,
+		hp_growth = 1851,
+		weapon_ID = {
+			59503,
+			52303
+		}
+	},
+	[37304] = {
+		id = 37304,
+		base = 37300,
+		max_hp = 53,
+		hp_growth = 2043,
+		weapon_ID = {
+			59504,
+			52304
+		}
+	},
+	[37305] = {
+		id = 37305,
+		base = 37300,
+		max_hp = 58,
+		hp_growth = 2234,
+		weapon_ID = {
+			59505,
+			52305
+		}
+	},
+	[37306] = {
+		id = 37306,
+		base = 37300,
+		max_hp = 63,
+		hp_growth = 2426,
+		weapon_ID = {
+			59506,
+			52306
+		}
+	},
 	[37320] = {
 		name = "烈风",
 		max_hp = 37,
@@ -123,46 +163,6 @@ pg.aircraft_template_90 = {
 		weapon_ID = {
 			59525,
 			52325
-		}
-	},
-	[37326] = {
-		id = 37326,
-		base = 37320,
-		max_hp = 69,
-		hp_growth = 2669,
-		weapon_ID = {
-			59526,
-			52326
-		}
-	},
-	[37327] = {
-		id = 37327,
-		base = 37320,
-		max_hp = 75,
-		hp_growth = 2879,
-		weapon_ID = {
-			59527,
-			52327
-		}
-	},
-	[37328] = {
-		id = 37328,
-		base = 37320,
-		max_hp = 80,
-		hp_growth = 3090,
-		weapon_ID = {
-			59528,
-			52328
-		}
-	},
-	[37329] = {
-		id = 37329,
-		base = 37320,
-		max_hp = 86,
-		hp_growth = 3301,
-		weapon_ID = {
-			59529,
-			52329
 		}
 	}
 }

@@ -2,133 +2,6 @@ pg = pg or {}
 pg.weapon_property_120 = {}
 
 function ()
-	uv0.weapon_property_120[65449] = {
-		id = 65449,
-		name = "飞龙META_斩击技能Lv9",
-		damage = 158,
-		base = 65441
-	}
-	uv0.weapon_property_120[65450] = {
-		id = 65450,
-		name = "飞龙META_斩击技能Lv10",
-		damage = 174,
-		base = 65441
-	}
-	uv0.weapon_property_120[65451] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "飞龙META_鱼雷机 Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 90,
-		charge_param = "",
-		damage = 1,
-		corrected = 100,
-		min_range = 0,
-		id = 65451,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1890,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			65451
-		},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_120[65452] = {
-		id = 65452,
-		name = "飞龙META_鱼雷机 Lv2",
-		base = 65451,
-		bullet_ID = {
-			65452
-		}
-	}
-	uv0.weapon_property_120[65453] = {
-		id = 65453,
-		name = "飞龙META_鱼雷机 Lv3",
-		base = 65451,
-		bullet_ID = {
-			65453
-		}
-	}
-	uv0.weapon_property_120[65454] = {
-		name = "飞龙META_鱼雷机 Lv4",
-		base = 65451,
-		id = 65454,
-		bullet_ID = {
-			65454
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_120[65455] = {
-		name = "飞龙META_鱼雷机 Lv5",
-		base = 65451,
-		id = 65455,
-		bullet_ID = {
-			65455
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_120[65456] = {
-		name = "飞龙META_鱼雷机 Lv6",
-		base = 65451,
-		id = 65456,
-		bullet_ID = {
-			65456
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_120[65457] = {
-		name = "飞龙META_鱼雷机 Lv7",
-		base = 65451,
-		id = 65457,
-		bullet_ID = {
-			65457
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_120[65458] = {
-		name = "飞龙META_鱼雷机 Lv8",
-		base = 65451,
-		id = 65458,
-		bullet_ID = {
-			65458
-		},
-		barrage_ID = {
-			12009
-		}
-	}
 	uv0.weapon_property_120[65459] = {
 		name = "飞龙META_鱼雷机 Lv9",
 		base = 65451,
@@ -681,5 +554,107 @@ function ()
 		id = 65508,
 		damage = 202,
 		base = 65501
+	}
+	uv0.weapon_property_120[65509] = {
+		id = 65509,
+		damage = 220,
+		base = 65501
+	}
+	uv0.weapon_property_120[65510] = {
+		id = 65510,
+		damage = 240,
+		base = 65501
+	}
+	uv0.weapon_property_120[65511] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "海因里希亲王 直感之拳LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 8,
+		corrected = 100,
+		min_range = 0,
+		id = 65511,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 5000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19248
+		},
+		barrage_ID = {
+			80987
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_120[65512] = {
+		id = 65512,
+		name = "海因里希亲王 直感之拳LV2",
+		damage = 9,
+		base = 65511
+	}
+	uv0.weapon_property_120[65513] = {
+		id = 65513,
+		name = "海因里希亲王 直感之拳LV3",
+		damage = 10,
+		base = 65511
+	}
+	uv0.weapon_property_120[65514] = {
+		id = 65514,
+		name = "海因里希亲王 直感之拳LV4",
+		damage = 11,
+		base = 65511
+	}
+	uv0.weapon_property_120[65515] = {
+		id = 65515,
+		name = "海因里希亲王 直感之拳LV5",
+		damage = 12,
+		base = 65511
+	}
+	uv0.weapon_property_120[65516] = {
+		id = 65516,
+		name = "海因里希亲王 直感之拳LV6",
+		damage = 14,
+		base = 65511
+	}
+	uv0.weapon_property_120[65517] = {
+		id = 65517,
+		name = "海因里希亲王 直感之拳LV7",
+		damage = 16,
+		base = 65511
+	}
+	uv0.weapon_property_120[65518] = {
+		id = 65518,
+		name = "海因里希亲王 直感之拳LV8",
+		damage = 18,
+		base = 65511
+	}
+	uv0.weapon_property_120[65519] = {
+		id = 65519,
+		name = "海因里希亲王 直感之拳LV9",
+		damage = 20,
+		base = 65511
 	}
 end()

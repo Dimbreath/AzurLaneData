@@ -337,7 +337,9 @@ slot1 = {
 		inClass = 2,
 		isActivityNpc = 2
 	},
-	inWorld = {},
+	inWorld = {
+		isActivityNpc = 2
+	},
 	onPropose = {
 		inEvent = 2,
 		inChapter = 2
@@ -403,7 +405,7 @@ slot2 = {
 		tips_block = "word_shipState_guild_event"
 	},
 	isActivityNpc = {
-		tips_block = "word_shipState_fight"
+		tips_block = "word_shipState_npc"
 	},
 	inWorld = {
 		tips_block = "word_shipState_world"

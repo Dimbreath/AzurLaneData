@@ -1,5 +1,270 @@
 pg = pg or {}
 pg.equip_data_statistics_400 = {
+	[95467] = {
+		id = 95467,
+		damage = "9 x 4",
+		base = 95460,
+		weapon_id = {
+			95467
+		}
+	},
+	[95480] = {
+		name = "三联装320mm主炮Model1934",
+		speciality = "跨射",
+		type = 4,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "55480",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "34 x 3",
+		nationality = 6,
+		ammo = 1,
+		value_3 = 0,
+		id = 95480,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1511
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			95480
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"BB",
+			"MG",
+			"AP"
+		}
+	},
+	[95481] = {
+		id = 95481,
+		damage = "39 x 3",
+		base = 95480,
+		weapon_id = {
+			95481
+		}
+	},
+	[95482] = {
+		id = 95482,
+		damage = "56 x 3",
+		base = 95480,
+		weapon_id = {
+			95482
+		}
+	},
+	[95483] = {
+		id = 95483,
+		damage = "62 x 3",
+		base = 95480,
+		weapon_id = {
+			95483
+		}
+	},
+	[95484] = {
+		id = 95484,
+		damage = "68 x 3",
+		base = 95480,
+		weapon_id = {
+			95484
+		}
+	},
+	[95485] = {
+		id = 95485,
+		damage = "74 x 3",
+		base = 95480,
+		weapon_id = {
+			95485
+		}
+	},
+	[95486] = {
+		id = 95486,
+		damage = "80 x 3",
+		base = 95480,
+		weapon_id = {
+			95486
+		}
+	},
+	[95487] = {
+		id = 95487,
+		damage = "80 x 3",
+		base = 95480,
+		weapon_id = {
+			95487
+		}
+	},
+	[95500] = {
+		name = "双联37mm机枪Model1932",
+		speciality = "防空",
+		type = 6,
+		tech = 1,
+		descrip = "双联37mm手拉机枪，可以用于防空",
+		value_2 = 5,
+		icon = "55500",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "15/轮",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 95500,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			95500
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"ST",
+			"AA"
+		}
+	},
+	[95501] = {
+		id = 95501,
+		damage = "17/轮",
+		base = 95500,
+		weapon_id = {
+			95501
+		}
+	},
+	[95502] = {
+		id = 95502,
+		damage = "19/轮",
+		base = 95500,
+		weapon_id = {
+			95502
+		}
+	},
+	[95503] = {
+		id = 95503,
+		damage = "22/轮",
+		base = 95500,
+		weapon_id = {
+			95503
+		}
+	},
+	[95520] = {
+		name = "双联37mm机枪Model1932",
+		speciality = "防空",
+		type = 6,
+		tech = 2,
+		descrip = "双联37mm手拉机枪，可以用于防空",
+		value_2 = 12,
+		icon = "55500",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "17/轮",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 95520,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			95520
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"ST",
+			"AA"
+		}
+	},
 	[95521] = {
 		id = 95521,
 		damage = "19/轮",
@@ -197,6 +462,1610 @@ pg.equip_data_statistics_400 = {
 		id = 95551,
 		weapon_id = {
 			95551
+		}
+	},
+	[95560] = {
+		name = "双联装120mm主炮",
+		speciality = "锁定",
+		type = 1,
+		tech = 1,
+		descrip = "说明未填写",
+		value_2 = 5,
+		icon = "55560",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "5 x 4",
+		nationality = 6,
+		ammo = 3,
+		value_3 = 0,
+		id = 95560,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2300
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2300
+			},
+			{
+				4,
+				1022
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			95560
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"DD",
+			"MG",
+			"AP"
+		}
+	},
+	[95561] = {
+		id = 95561,
+		base = 95560,
+		weapon_id = {
+			95561
+		}
+	},
+	[95562] = {
+		id = 95562,
+		damage = "6 x 4",
+		base = 95560,
+		weapon_id = {
+			95562
+		}
+	},
+	[95563] = {
+		id = 95563,
+		damage = "7 x 4",
+		base = 95560,
+		weapon_id = {
+			95563
+		}
+	},
+	[95600] = {
+		name = "三联装152mm主炮Model1934",
+		speciality = "锁定",
+		type = 2,
+		tech = 1,
+		descrip = "撒丁帝国制造的改良型轻巡洋舰主炮",
+		value_2 = 12,
+		icon = "55600",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "5 x 6",
+		nationality = 6,
+		ammo = 1,
+		value_3 = 0,
+		id = 95600,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1713
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1713
+			},
+			{
+				4,
+				1110
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			95600
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[95601] = {
+		id = 95601,
+		damage = "5 x 6",
+		base = 95600,
+		weapon_id = {
+			95601
+		}
+	},
+	[95602] = {
+		id = 95602,
+		damage = "6 x 6",
+		base = 95600,
+		weapon_id = {
+			95602
+		}
+	},
+	[95603] = {
+		id = 95603,
+		damage = "7 x 6",
+		base = 95600,
+		weapon_id = {
+			95603
+		}
+	},
+	[95604] = {
+		id = 95604,
+		damage = "8 x 6",
+		base = 95600,
+		weapon_id = {
+			95604
+		}
+	},
+	[95605] = {
+		id = 95605,
+		damage = "9 x 6",
+		base = 95600,
+		weapon_id = {
+			95605
+		}
+	},
+	[95606] = {
+		id = 95606,
+		damage = "10 x 6",
+		base = 95600,
+		weapon_id = {
+			95606
+		}
+	},
+	[95640] = {
+		name = "三联装152mm主炮Model1934 ",
+		speciality = "锁定",
+		type = 2,
+		tech = 3,
+		descrip = "撒丁帝国制造的改良型轻巡洋舰主炮",
+		value_2 = 45,
+		icon = "55600",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "6 x 6",
+		nationality = 6,
+		ammo = 1,
+		value_3 = 0,
+		id = 95640,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1713
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1713
+			},
+			{
+				4,
+				1110
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			95640
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[95641] = {
+		id = 95641,
+		damage = "6 x 6",
+		base = 95640,
+		weapon_id = {
+			95641
+		}
+	},
+	[95642] = {
+		id = 95642,
+		damage = "7 x 6",
+		base = 95640,
+		weapon_id = {
+			95642
+		}
+	},
+	[95643] = {
+		id = 95643,
+		damage = "8 x 6",
+		base = 95640,
+		weapon_id = {
+			95643
+		}
+	},
+	[95644] = {
+		id = 95644,
+		damage = "9 x 6",
+		base = 95640,
+		weapon_id = {
+			95644
+		}
+	},
+	[95645] = {
+		id = 95645,
+		damage = "10 x 6",
+		base = 95640,
+		weapon_id = {
+			95645
+		}
+	},
+	[95646] = {
+		id = 95646,
+		damage = "11 x 6",
+		base = 95640,
+		weapon_id = {
+			95646
+		}
+	},
+	[95647] = {
+		id = 95647,
+		damage = "12 x 6",
+		base = 95640,
+		weapon_id = {
+			95647
+		}
+	},
+	[95648] = {
+		id = 95648,
+		damage = "13 x 6",
+		base = 95640,
+		weapon_id = {
+			95648
+		}
+	},
+	[95649] = {
+		id = 95649,
+		damage = "14 x 6",
+		base = 95640,
+		weapon_id = {
+			95649
+		}
+	},
+	[95650] = {
+		id = 95650,
+		damage = "15 x 6",
+		base = 95640,
+		weapon_id = {
+			95650
+		}
+	},
+	[95651] = {
+		anti_siren = 100,
+		damage = "15 x 6",
+		base = 95640,
+		id = 95651,
+		weapon_id = {
+			95651
+		}
+	},
+	[95652] = {
+		anti_siren = 200,
+		damage = "15 x 6",
+		base = 95640,
+		id = 95652,
+		weapon_id = {
+			95652
+		}
+	},
+	[95653] = {
+		anti_siren = 300,
+		damage = "15 x 6",
+		base = 95640,
+		id = 95653,
+		weapon_id = {
+			95653
+		}
+	},
+	[95700] = {
+		name = "潜艇用533mm鱼雷Si 270",
+		speciality = "雷击",
+		type = 13,
+		tech = 1,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "55700",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		damage = "42 x 2",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 95700,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1836
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1836
+			},
+			{
+				4,
+				1601
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			95700
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"SS",
+			"TP"
+		}
+	},
+	[95701] = {
+		id = 95701,
+		damage = "50 x 2",
+		base = 95700,
+		weapon_id = {
+			95701
+		}
+	},
+	[95702] = {
+		id = 95702,
+		damage = "58 x 2",
+		base = 95700,
+		weapon_id = {
+			95702
+		}
+	},
+	[95703] = {
+		id = 95703,
+		damage = "66 x 2",
+		base = 95700,
+		weapon_id = {
+			95703
+		}
+	},
+	[95704] = {
+		id = 95704,
+		damage = "74 x 2",
+		base = 95700,
+		weapon_id = {
+			95704
+		}
+	},
+	[95705] = {
+		id = 95705,
+		damage = "82 x 2",
+		base = 95700,
+		weapon_id = {
+			95705
+		}
+	},
+	[95706] = {
+		id = 95706,
+		damage = "90 x 2",
+		base = 95700,
+		weapon_id = {
+			95706
+		}
+	},
+	[95720] = {
+		name = "G.50箭式战斗机",
+		type = 7,
+		speciality = "空战",
+		rarity = 2,
+		tech = 1,
+		descrip = "说明未填写",
+		value_2 = 5,
+		icon = "55720",
+		attribute_2 = "air",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 95720,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50700
+			},
+			{
+				5,
+				52200
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			95720,
+			86000
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CV",
+			"FT"
+		}
+	},
+	[95721] = {
+		id = 95721,
+		base = 95720,
+		ammo_info = {
+			{
+				6,
+				50701
+			},
+			{
+				5,
+				52201
+			}
+		},
+		weapon_id = {
+			95721,
+			86001
+		}
+	},
+	[95722] = {
+		id = 95722,
+		base = 95720,
+		ammo_info = {
+			{
+				6,
+				50702
+			},
+			{
+				5,
+				52202
+			}
+		},
+		weapon_id = {
+			95722,
+			86002
+		}
+	},
+	[95723] = {
+		id = 95723,
+		base = 95720,
+		ammo_info = {
+			{
+				6,
+				50703
+			},
+			{
+				5,
+				52203
+			}
+		},
+		weapon_id = {
+			95723,
+			86003
+		}
+	},
+	[95740] = {
+		name = "G.50箭式战斗机",
+		type = 7,
+		speciality = "空战",
+		rarity = 3,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "55720",
+		attribute_2 = "air",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 95740,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50720
+			},
+			{
+				5,
+				52220
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			95740,
+			86020
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CV",
+			"FT"
+		}
+	},
+	[95741] = {
+		id = 95741,
+		base = 95740,
+		ammo_info = {
+			{
+				6,
+				50721
+			},
+			{
+				5,
+				52221
+			}
+		},
+		weapon_id = {
+			95741,
+			86021
+		}
+	},
+	[95742] = {
+		id = 95742,
+		base = 95740,
+		ammo_info = {
+			{
+				6,
+				50722
+			},
+			{
+				5,
+				52222
+			}
+		},
+		weapon_id = {
+			95742,
+			86022
+		}
+	},
+	[95743] = {
+		id = 95743,
+		base = 95740,
+		ammo_info = {
+			{
+				6,
+				50723
+			},
+			{
+				5,
+				52223
+			}
+		},
+		weapon_id = {
+			95743,
+			86023
+		}
+	},
+	[95744] = {
+		id = 95744,
+		base = 95740,
+		ammo_info = {
+			{
+				6,
+				50724
+			},
+			{
+				5,
+				52224
+			}
+		},
+		weapon_id = {
+			95744,
+			86024
+		}
+	},
+	[95745] = {
+		id = 95745,
+		base = 95740,
+		ammo_info = {
+			{
+				6,
+				50725
+			},
+			{
+				5,
+				52225
+			}
+		},
+		weapon_id = {
+			95745,
+			86025
+		}
+	},
+	[95746] = {
+		id = 95746,
+		base = 95740,
+		ammo_info = {
+			{
+				6,
+				50726
+			},
+			{
+				5,
+				52226
+			}
+		},
+		weapon_id = {
+			95746,
+			86026
+		}
+	},
+	[95760] = {
+		name = "G.50箭式战斗机",
+		type = 7,
+		speciality = "空战",
+		rarity = 4,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "55720",
+		attribute_2 = "air",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 95760,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50740
+			},
+			{
+				5,
+				52240
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			95760,
+			86040
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CV",
+			"FT"
+		}
+	},
+	[95761] = {
+		id = 95761,
+		base = 95760,
+		ammo_info = {
+			{
+				6,
+				50741
+			},
+			{
+				5,
+				52241
+			}
+		},
+		weapon_id = {
+			95761,
+			86041
+		}
+	},
+	[95762] = {
+		id = 95762,
+		base = 95760,
+		ammo_info = {
+			{
+				6,
+				50742
+			},
+			{
+				5,
+				52242
+			}
+		},
+		weapon_id = {
+			95762,
+			86042
+		}
+	},
+	[95763] = {
+		id = 95763,
+		base = 95760,
+		ammo_info = {
+			{
+				6,
+				50743
+			},
+			{
+				5,
+				52243
+			}
+		},
+		weapon_id = {
+			95763,
+			86043
+		}
+	},
+	[95764] = {
+		id = 95764,
+		base = 95760,
+		ammo_info = {
+			{
+				6,
+				50744
+			},
+			{
+				5,
+				52244
+			}
+		},
+		weapon_id = {
+			95764,
+			86044
+		}
+	},
+	[95765] = {
+		id = 95765,
+		base = 95760,
+		ammo_info = {
+			{
+				6,
+				50745
+			},
+			{
+				5,
+				52245
+			}
+		},
+		weapon_id = {
+			95765,
+			86045
+		}
+	},
+	[95766] = {
+		id = 95766,
+		base = 95760,
+		ammo_info = {
+			{
+				6,
+				50746
+			},
+			{
+				5,
+				52246
+			}
+		},
+		weapon_id = {
+			95766,
+			86046
+		}
+	},
+	[95767] = {
+		id = 95767,
+		base = 95760,
+		ammo_info = {
+			{
+				6,
+				50747
+			},
+			{
+				5,
+				52247
+			}
+		},
+		weapon_id = {
+			95767,
+			86047
+		}
+	},
+	[95768] = {
+		id = 95768,
+		base = 95760,
+		ammo_info = {
+			{
+				6,
+				50748
+			},
+			{
+				5,
+				52248
+			}
+		},
+		weapon_id = {
+			95768,
+			86048
+		}
+	},
+	[95769] = {
+		id = 95769,
+		base = 95760,
+		ammo_info = {
+			{
+				6,
+				50749
+			},
+			{
+				5,
+				52249
+			}
+		},
+		weapon_id = {
+			95769,
+			86049
+		}
+	},
+	[95770] = {
+		id = 95770,
+		base = 95760,
+		ammo_info = {
+			{
+				6,
+				50750
+			},
+			{
+				5,
+				52250
+			}
+		},
+		weapon_id = {
+			95770,
+			86050
+		}
+	},
+	[95771] = {
+		anti_siren = 100,
+		base = 95760,
+		id = 95771,
+		ammo_info = {
+			{
+				6,
+				50751
+			},
+			{
+				5,
+				52251
+			}
+		},
+		weapon_id = {
+			95771,
+			86051
+		}
+	},
+	[95800] = {
+		name = "Re.2001公羊",
+		type = 7,
+		speciality = "空战",
+		rarity = 2,
+		tech = 1,
+		descrip = "说明未填写",
+		value_2 = 5,
+		icon = "55800",
+		attribute_2 = "air",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 95800,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50000
+			},
+			{
+				6,
+				50700
+			},
+			{
+				5,
+				52200
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			95800,
+			86060
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CV",
+			"FT"
+		}
+	},
+	[95801] = {
+		id = 95801,
+		base = 95800,
+		ammo_info = {
+			{
+				6,
+				50001
+			},
+			{
+				6,
+				50701
+			},
+			{
+				5,
+				52201
+			}
+		},
+		weapon_id = {
+			95801,
+			86061
+		}
+	},
+	[95802] = {
+		id = 95802,
+		base = 95800,
+		ammo_info = {
+			{
+				6,
+				50002
+			},
+			{
+				6,
+				50702
+			},
+			{
+				5,
+				52202
+			}
+		},
+		weapon_id = {
+			95802,
+			86062
+		}
+	},
+	[95803] = {
+		id = 95803,
+		base = 95800,
+		ammo_info = {
+			{
+				6,
+				50003
+			},
+			{
+				6,
+				50703
+			},
+			{
+				5,
+				52203
+			}
+		},
+		weapon_id = {
+			95803,
+			86063
+		}
+	},
+	[95820] = {
+		name = "Re.2001公羊",
+		type = 7,
+		speciality = "空战",
+		rarity = 3,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "55800",
+		attribute_2 = "air",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 95820,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50020
+			},
+			{
+				6,
+				50720
+			},
+			{
+				5,
+				52220
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			95820,
+			86080
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CV",
+			"FT"
+		}
+	},
+	[95821] = {
+		id = 95821,
+		base = 95820,
+		ammo_info = {
+			{
+				6,
+				50021
+			},
+			{
+				6,
+				50721
+			},
+			{
+				5,
+				52221
+			}
+		},
+		weapon_id = {
+			95821,
+			86081
+		}
+	},
+	[95822] = {
+		id = 95822,
+		base = 95820,
+		ammo_info = {
+			{
+				6,
+				50022
+			},
+			{
+				6,
+				50722
+			},
+			{
+				5,
+				52222
+			}
+		},
+		weapon_id = {
+			95822,
+			86082
+		}
+	},
+	[95823] = {
+		id = 95823,
+		base = 95820,
+		ammo_info = {
+			{
+				6,
+				50023
+			},
+			{
+				6,
+				50723
+			},
+			{
+				5,
+				52223
+			}
+		},
+		weapon_id = {
+			95823,
+			86083
+		}
+	},
+	[95824] = {
+		id = 95824,
+		base = 95820,
+		ammo_info = {
+			{
+				6,
+				50024
+			},
+			{
+				6,
+				50724
+			},
+			{
+				5,
+				52224
+			}
+		},
+		weapon_id = {
+			95824,
+			86084
+		}
+	},
+	[95825] = {
+		id = 95825,
+		base = 95820,
+		ammo_info = {
+			{
+				6,
+				50025
+			},
+			{
+				6,
+				50725
+			},
+			{
+				5,
+				52225
+			}
+		},
+		weapon_id = {
+			95825,
+			86085
+		}
+	},
+	[95826] = {
+		id = 95826,
+		base = 95820,
+		ammo_info = {
+			{
+				6,
+				50026
+			},
+			{
+				6,
+				50726
+			},
+			{
+				5,
+				52226
+			}
+		},
+		weapon_id = {
+			95826,
+			86086
+		}
+	},
+	[95840] = {
+		name = "Re.2001公羊",
+		type = 7,
+		speciality = "空战",
+		rarity = 4,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "55800",
+		attribute_2 = "air",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 95840,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				6,
+				50740
+			},
+			{
+				5,
+				52240
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			95840,
+			86100
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CV",
+			"FT"
+		}
+	},
+	[95841] = {
+		id = 95841,
+		base = 95840,
+		ammo_info = {
+			{
+				6,
+				50041
+			},
+			{
+				6,
+				50741
+			},
+			{
+				5,
+				52241
+			}
+		},
+		weapon_id = {
+			95841,
+			86101
+		}
+	},
+	[95842] = {
+		id = 95842,
+		base = 95840,
+		ammo_info = {
+			{
+				6,
+				50042
+			},
+			{
+				6,
+				50742
+			},
+			{
+				5,
+				52242
+			}
+		},
+		weapon_id = {
+			95842,
+			86102
+		}
+	},
+	[95843] = {
+		id = 95843,
+		base = 95840,
+		ammo_info = {
+			{
+				6,
+				50043
+			},
+			{
+				6,
+				50743
+			},
+			{
+				5,
+				52243
+			}
+		},
+		weapon_id = {
+			95843,
+			86103
+		}
+	},
+	[95844] = {
+		id = 95844,
+		base = 95840,
+		ammo_info = {
+			{
+				6,
+				50044
+			},
+			{
+				6,
+				50744
+			},
+			{
+				5,
+				52244
+			}
+		},
+		weapon_id = {
+			95844,
+			86104
+		}
+	},
+	[95845] = {
+		id = 95845,
+		base = 95840,
+		ammo_info = {
+			{
+				6,
+				50045
+			},
+			{
+				6,
+				50745
+			},
+			{
+				5,
+				52245
+			}
+		},
+		weapon_id = {
+			95845,
+			86105
+		}
+	},
+	[95846] = {
+		id = 95846,
+		base = 95840,
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				6,
+				50746
+			},
+			{
+				5,
+				52246
+			}
+		},
+		weapon_id = {
+			95846,
+			86106
+		}
+	},
+	[95847] = {
+		id = 95847,
+		base = 95840,
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				6,
+				50747
+			},
+			{
+				5,
+				52247
+			}
+		},
+		weapon_id = {
+			95847,
+			86107
+		}
+	},
+	[95848] = {
+		id = 95848,
+		base = 95840,
+		ammo_info = {
+			{
+				6,
+				50048
+			},
+			{
+				6,
+				50748
+			},
+			{
+				5,
+				52248
+			}
+		},
+		weapon_id = {
+			95848,
+			86108
+		}
+	},
+	[95849] = {
+		id = 95849,
+		base = 95840,
+		ammo_info = {
+			{
+				6,
+				50049
+			},
+			{
+				6,
+				50749
+			},
+			{
+				5,
+				52249
+			}
+		},
+		weapon_id = {
+			95849,
+			86109
+		}
+	},
+	[95850] = {
+		id = 95850,
+		base = 95840,
+		ammo_info = {
+			{
+				6,
+				50050
+			},
+			{
+				6,
+				50750
+			},
+			{
+				5,
+				52250
+			}
+		},
+		weapon_id = {
+			95850,
+			86110
+		}
+	},
+	[95851] = {
+		anti_siren = 100,
+		base = 95840,
+		id = 95851,
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				6,
+				50751
+			},
+			{
+				5,
+				52251
+			}
+		},
+		weapon_id = {
+			95851,
+			86111
 		}
 	},
 	[100000] = {

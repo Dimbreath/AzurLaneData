@@ -4,22 +4,34 @@ slot1 = ys.Battle.BattleAttr
 slot2 = {}
 ys.Battle.BattleTargetChoise = slot2
 
-function slot2.TargetNil(slot0)
+function slot2.TargetNil()
 	return nil
 end
 
-function slot2.TargetNull(slot0)
+function slot2.TargetNull()
 	return {}
 end
 
-function slot2.TargetAll(slot0)
+function slot2.TargetAll()
 	return ys.Battle.BattleDataProxy.GetInstance():GetUnitList()
+end
+
+function slot2.TargetEntityUnit()
+	slot0 = {}
+
+	for slot5, slot6 in ipairs(ys.Battle.BattleDataProxy.GetInstance():GetUnitList()) do
+		if not slot6:IsSpectre() then
+			slot0[#slot0 + 1] = slot6
+		end
+	end
+
+	return slot0
 end
 
 function slot2.TargetTemplate(slot0, slot1, slot2)
 	slot5 = {}
 
-	for slot10, slot11 in pairs(slot2 or ys.Battle.BattleDataProxy.GetInstance():GetUnitList()) do
+	for slot10, slot11 in pairs(slot2 or uv0.TargetEntityUnit()) do
 		if table.contains(slot1.targetTemplateIDList or {
 			slot1.targetTemplateID
 		}, slot11:GetTemplateID()) and slot0:GetIFF() == slot11:GetIFF() then
@@ -52,7 +64,7 @@ end
 function slot2.TargetShipType(slot0, slot1, slot2)
 	slot4 = {}
 
-	for slot9, slot10 in pairs(slot2 or ys.Battle.BattleDataProxy.GetInstance():GetUnitList()) do
+	for slot9, slot10 in pairs(slot2 or uv0.TargetEntityUnit()) do
 		if table.contains(slot1.ship_type_list, slot10:GetTemplate().type) then
 			slot4[#slot4 + 1] = slot10
 		end
@@ -64,7 +76,7 @@ end
 function slot2.TargetShipTag(slot0, slot1, slot2)
 	slot4 = {}
 
-	for slot9, slot10 in pairs(slot2 or ys.Battle.BattleDataProxy.GetInstance():GetUnitList()) do
+	for slot9, slot10 in pairs(slot2 or uv0.TargetEntityUnit()) do
 		if slot10:ContainsLabelTag(slot1.ship_tag_list) then
 			slot4[#slot4 + 1] = slot10
 		end
@@ -76,7 +88,7 @@ end
 function slot2.TargetShipArmor(slot0, slot1, slot2)
 	slot4 = {}
 
-	for slot9, slot10 in ipairs(slot2 or ys.Battle.BattleDataProxy.GetInstance():GetUnitList()) do
+	for slot9, slot10 in ipairs(slot2 or uv0.TargetEntityUnit()) do
 		if slot10:GetAttrByName("armorType") == slot1.armor_type then
 			slot4[#slot4 + 1] = slot10
 		end
@@ -152,7 +164,7 @@ function slot2.TargetHighestHP(slot0, slot1, slot2)
 	slot3 = nil
 
 	if slot0 then
-		for slot9, slot10 in pairs(slot2 or ys.Battle.BattleDataProxy.GetInstance():GetUnitList()) do
+		for slot9, slot10 in pairs(slot2 or uv0.TargetEntityUnit()) do
 			if slot10:IsAlive() and 1 < slot10:GetCurrentHP() then
 				slot3 = slot10
 				slot5 = slot10:GetCurrentHP()
@@ -170,7 +182,7 @@ function slot2.TargetHighestHPRatio(slot0, slot1, slot2)
 	slot3 = nil
 
 	if slot0 then
-		for slot9, slot10 in pairs(slot2 or ys.Battle.BattleDataProxy.GetInstance():GetUnitList()) do
+		for slot9, slot10 in pairs(slot2 or uv0.TargetEntityUnit()) do
 			if slot10:IsAlive() and 0 < slot10:GetHPRate() then
 				slot3 = slot10
 				slot5 = slot10:GetHPRate()
@@ -185,7 +197,7 @@ end
 
 function slot2.TargetHPCompare(slot0, slot1, slot2)
 	slot3 = {}
-	slot4 = slot2 or ys.Battle.BattleDataProxy.GetInstance():GetUnitList()
+	slot4 = slot2 or uv0.TargetEntityUnit()
 
 	if slot0 then
 		for slot9, slot10 in ipairs(slot4) do
@@ -201,7 +213,7 @@ end
 function slot2.TargetHPRatioLowerThan(slot0, slot1, slot2)
 	slot3 = {}
 
-	for slot9, slot10 in ipairs(slot2 or ys.Battle.BattleDataProxy.GetInstance():GetUnitList()) do
+	for slot9, slot10 in ipairs(slot2 or uv0.TargetEntityUnit()) do
 		if slot10:GetHP() < slot1.hpRatioList[1] then
 			slot3[#slot3 + 1] = slot10
 		end
@@ -339,8 +351,8 @@ end
 function slot2.TargetCloakState(slot0, slot1, slot2)
 	slot3 = {}
 
-	for slot9, slot10 in ipairs(slot2 or ys.Battle.BattleDataProxy.GetInstance():GetUnitList()) do
-		if uv0.GetCurrent(slot10, "isCloak") == (slot1.cloak or 1) then
+	for slot9, slot10 in ipairs(slot2 or uv0.TargetEntityUnit()) do
+		if uv1.GetCurrent(slot10, "isCloak") == (slot1.cloak or 1) then
 			slot3[#slot3 + 1] = slot10
 		end
 	end
@@ -414,7 +426,7 @@ end
 function slot2.TargetWeightiest(slot0, slot1, slot2)
 	slot4 = {}
 
-	for slot9, slot10 in ipairs(slot2 or ys.Battle.BattleDataProxy.GetInstance():GetUnitList()) do
+	for slot9, slot10 in ipairs(slot2 or uv0.TargetEntityUnit()) do
 		if (slot10:GetTemplate().battle_unit_type or 0) == 0 then
 			slot4[#slot4 + 1] = slot10
 		elseif slot5 < slot11 then
@@ -429,7 +441,7 @@ function slot2.TargetWeightiest(slot0, slot1, slot2)
 end
 
 function slot2.TargetRandom(slot0, slot1, slot2)
-	return Mathf.MultiRandom(slot2 or ys.Battle.BattleDataProxy.GetInstance():GetUnitList(), slot1.randomCount or 1)
+	return Mathf.MultiRandom(slot2 or uv0.TargetEntityUnit(), slot1.randomCount or 1)
 end
 
 function slot2.TargetInsideArea(slot0, slot1, slot2)
@@ -481,7 +493,7 @@ end
 function slot2.TargetDiveState(slot0, slot1, slot2)
 	slot5 = {}
 
-	for slot9, slot10 in pairs(slot2 or ys.Battle.BattleDataProxy.GetInstance():GetUnitList()) do
+	for slot9, slot10 in pairs(slot2 or uv0.TargetEntityUnit()) do
 		if (slot1 and slot1.diveState or ys.Battle.BattleConst.OXY_STATE.DIVE) == slot10:GetCurrentOxyState() then
 			slot5[#slot5 + 1] = slot10
 		end
@@ -493,7 +505,7 @@ end
 function slot2.TargetDetectedUnit(slot0, slot1, slot2)
 	slot4 = {}
 
-	for slot8, slot9 in pairs(slot2 or ys.Battle.BattleDataProxy.GetInstance():GetUnitList()) do
+	for slot8, slot9 in pairs(slot2 or uv0.TargetEntityUnit()) do
 		if slot9:GetDiveDetected() then
 			slot4[#slot4 + 1] = slot9
 		end
@@ -624,8 +636,4 @@ function slot2.TargetPlayerAidUnit(slot0, slot1)
 	end
 
 	return slot3
-end
-
-function slot2.TargetLinkUnit(slot0, slot1, slot2)
-	slot3 = slot2 or ys.Battle.BattleDataProxy.GetInstance():GetUnitList()
 end

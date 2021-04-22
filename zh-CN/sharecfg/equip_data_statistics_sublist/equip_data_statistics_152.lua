@@ -1,5 +1,32 @@
 pg = pg or {}
 pg.equip_data_statistics_152 = {
+	[21471] = {
+		anti_siren = 100,
+		damage = "17 x 4",
+		base = 21460,
+		id = 21471,
+		weapon_id = {
+			21471
+		}
+	},
+	[21472] = {
+		anti_siren = 200,
+		damage = "17 x 4",
+		base = 21460,
+		id = 21472,
+		weapon_id = {
+			21472
+		}
+	},
+	[21473] = {
+		anti_siren = 300,
+		damage = "17 x 4",
+		base = 21460,
+		id = 21473,
+		weapon_id = {
+			21473
+		}
+	},
 	[21500] = {
 		name = "双联装134mm高炮",
 		speciality = "锁定",
@@ -286,30 +313,6 @@ pg.equip_data_statistics_152 = {
 		base = 21540,
 		weapon_id = {
 			21542
-		}
-	},
-	[21543] = {
-		id = 21543,
-		damage = "7 x 2",
-		base = 21540,
-		weapon_id = {
-			21543
-		}
-	},
-	[21544] = {
-		id = 21544,
-		damage = "8 x 2",
-		base = 21540,
-		weapon_id = {
-			21544
-		}
-	},
-	[21545] = {
-		id = 21545,
-		damage = "8 x 2",
-		base = 21540,
-		weapon_id = {
-			21545
 		}
 	}
 }

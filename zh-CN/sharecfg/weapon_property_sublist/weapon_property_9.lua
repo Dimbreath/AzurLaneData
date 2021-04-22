@@ -2,31 +2,6 @@ pg = pg or {}
 pg.weapon_property_9 = {}
 
 function ()
-	uv0.weapon_property_9[7344] = {
-		id = 7344,
-		reload_max = 480,
-		damage = 30,
-		base = 7340
-	}
-	uv0.weapon_property_9[7345] = {
-		id = 7345,
-		reload_max = 470,
-		damage = 32,
-		base = 7340
-	}
-	uv0.weapon_property_9[7346] = {
-		id = 7346,
-		reload_max = 460,
-		damage = 34,
-		base = 7340
-	}
-	uv0.weapon_property_9[7347] = {
-		reload_max = 460,
-		damage = 34,
-		base = 7340,
-		id = 7347,
-		corrected = 109
-	}
 	uv0.weapon_property_9[11000] = {
 		action_index = "attack",
 		range = 50,
@@ -661,5 +636,73 @@ function ()
 		reload_max = 278,
 		damage = 13,
 		base = 11160
+	}
+	uv0.weapon_property_9[11169] = {
+		id = 11169,
+		reload_max = 269,
+		damage = 14,
+		base = 11160
+	}
+	uv0.weapon_property_9[11170] = {
+		id = 11170,
+		reload_max = 260,
+		damage = 15,
+		base = 11160
+	}
+	uv0.weapon_property_9[11171] = {
+		reload_max = 260,
+		damage = 15,
+		base = 11160,
+		id = 11171,
+		corrected = 130
+	}
+	uv0.weapon_property_9[11200] = {
+		action_index = "attack",
+		range = 60,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "双联装127mm高平两用炮MK12T1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 4,
+		corrected = 110,
+		min_range = 0,
+		id = 11200,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 320,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0.3,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1000
+		},
+		barrage_ID = {
+			1001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_9[11201] = {
+		id = 11201,
+		reload_max = 315,
+		base = 11200
 	}
 end()

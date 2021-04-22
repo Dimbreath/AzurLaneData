@@ -1,5 +1,20 @@
 pg = pg or {}
 pg.equip_data_statistics_40 = {
+	[2021] = {
+		id = 2021,
+		value_1 = "103",
+		base = 2020
+	},
+	[2022] = {
+		id = 2022,
+		value_1 = "117",
+		base = 2020
+	},
+	[2023] = {
+		id = 2023,
+		value_1 = "130",
+		base = 2020
+	},
 	[2024] = {
 		id = 2024,
 		value_2 = 3,
@@ -106,60 +121,5 @@ pg.equip_data_statistics_40 = {
 		value_2 = 5,
 		value_1 = "350",
 		base = 2040
-	},
-	[2051] = {
-		id = 2051,
-		anti_siren = 100,
-		base = 2040,
-		value_2 = 6,
-		value_1 = "371"
-	},
-	[2100] = {
-		name = "航空副油箱",
-		tech = 1,
-		type = 10,
-		speciality = "无",
-		id = 2100,
-		value_2 = 14,
-		icon = "2100",
-		value_1 = "10",
-		attribute_2 = "durability",
-		rarity = 2,
-		descrip = "携带副油箱可以有效提高舰载机的耐久性能",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "air",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6070
-		},
-		part_main = {
-			6,
-			7,
-			10
-		},
-		part_sub = {
-			6,
-			7,
-			10
-		},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[2101] = {
-		id = 2101,
-		value_2 = 16,
-		value_1 = "11",
-		base = 2100
 	}
 }

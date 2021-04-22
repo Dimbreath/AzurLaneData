@@ -1,26 +1,29 @@
 pg = pg or {}
 pg.aircraft_template_374 = {
-	[1100822] = {
-		name = "德系舰载轰炸机III",
-		max_hp = 140,
+	[1000812] = {
+		name = "【精英】执棋者 浮游炮机体 III",
+		max_hp = 198,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "fuyoupao2",
 		ACC_growth = 0,
-		crash_DMG = 110,
+		crash_DMG = 182,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 3,
+		type = 1,
 		AP_growth = 2000,
-		icon = "JU87C",
-		funnel_behavior = "",
+		icon = "fuyoupao2",
 		nationality = 3,
-		hp_growth = 3040,
-		speed = 30,
-		id = 1100822,
+		hp_growth = 3680,
+		speed = 70,
+		id = 1000812,
 		scale = 0.75,
+		funnel_behavior = {
+			stay = 2,
+			exist = 20
+		},
 		weapon_ID = {
-			1100762
+			1000827
 		},
 		position_offset = {
 			0,
@@ -40,13 +43,13 @@ pg.aircraft_template_374 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					2.72,
+					-0.21,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					3.2,
+					-0.14,
 					0
 				}
 			}
@@ -74,27 +77,30 @@ pg.aircraft_template_374 = {
 			}
 		}
 	},
-	[1100823] = {
-		name = "德系舰载轰炸机IV",
-		max_hp = 170,
+	[1000813] = {
+		name = "【精英】执棋者 浮游炮机体 IV",
+		max_hp = 243,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "fuyoupao2",
 		ACC_growth = 0,
-		crash_DMG = 140,
+		crash_DMG = 232,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 3,
+		type = 1,
 		AP_growth = 2000,
-		icon = "JU87C",
-		funnel_behavior = "",
+		icon = "fuyoupao2",
 		nationality = 3,
-		hp_growth = 3420,
-		speed = 30,
-		id = 1100823,
+		hp_growth = 4140,
+		speed = 70,
+		id = 1000813,
 		scale = 0.75,
+		funnel_behavior = {
+			stay = 2,
+			exist = 20
+		},
 		weapon_ID = {
-			1100763
+			1000828
 		},
 		position_offset = {
 			0,
@@ -114,13 +120,13 @@ pg.aircraft_template_374 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					2.72,
+					-0.21,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					3.2,
+					-0.14,
 					0
 				}
 			}
@@ -148,27 +154,30 @@ pg.aircraft_template_374 = {
 			}
 		}
 	},
-	[1100824] = {
-		name = "德系舰载轰炸机V",
-		max_hp = 200,
+	[1000814] = {
+		name = "【精英】执棋者 浮游炮机体 V",
+		max_hp = 290,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "fuyoupao2",
 		ACC_growth = 0,
-		crash_DMG = 175,
+		crash_DMG = 294,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 3,
+		type = 1,
 		AP_growth = 2000,
-		icon = "JU87C",
-		funnel_behavior = "",
+		icon = "fuyoupao2",
 		nationality = 3,
-		hp_growth = 3800,
-		speed = 30,
-		id = 1100824,
+		hp_growth = 4600,
+		speed = 70,
+		id = 1000814,
 		scale = 0.75,
+		funnel_behavior = {
+			stay = 2,
+			exist = 20
+		},
 		weapon_ID = {
-			1100764
+			1000829
 		},
 		position_offset = {
 			0,
@@ -188,13 +197,13 @@ pg.aircraft_template_374 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					2.72,
+					-0.21,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					3.2,
+					-0.14,
 					0
 				}
 			}
@@ -222,11 +231,11 @@ pg.aircraft_template_374 = {
 			}
 		}
 	},
-	[1100830] = {
-		name = "日系空袭轰炸机I",
+	[1000815] = {
+		name = "【精英】执棋者 轰炸机T3 I",
 		max_hp = 80,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
@@ -234,15 +243,15 @@ pg.aircraft_template_374 = {
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "99shijianbao1",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
 		hp_growth = 2280,
 		speed = 30,
-		id = 1100830,
+		id = 1000815,
 		scale = 0.75,
 		weapon_ID = {
-			1100830
+			1000830
 		},
 		position_offset = {
 			0,
@@ -296,11 +305,11 @@ pg.aircraft_template_374 = {
 			}
 		}
 	},
-	[1100831] = {
-		name = "日系空袭轰炸机II",
+	[1000816] = {
+		name = "【精英】执棋者 轰炸机T3 II",
 		max_hp = 110,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
@@ -308,15 +317,15 @@ pg.aircraft_template_374 = {
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "99shijianbao1",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
 		hp_growth = 2660,
 		speed = 30,
-		id = 1100831,
+		id = 1000816,
 		scale = 0.75,
 		weapon_ID = {
-			1100831
+			1000831
 		},
 		position_offset = {
 			0,
@@ -370,11 +379,11 @@ pg.aircraft_template_374 = {
 			}
 		}
 	},
-	[1100832] = {
-		name = "日系空袭轰炸机III",
+	[1000817] = {
+		name = "【精英】执棋者 轰炸机T3 III",
 		max_hp = 140,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 110,
 		dodge = 1,
@@ -382,15 +391,15 @@ pg.aircraft_template_374 = {
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "99shijianbao1",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
 		hp_growth = 3040,
 		speed = 30,
-		id = 1100832,
+		id = 1000817,
 		scale = 0.75,
 		weapon_ID = {
-			1100832
+			1000832
 		},
 		position_offset = {
 			0,
@@ -444,11 +453,11 @@ pg.aircraft_template_374 = {
 			}
 		}
 	},
-	[1100833] = {
-		name = "日系空袭轰炸机IV",
+	[1000818] = {
+		name = "【精英】执棋者 轰炸机T3 IV",
 		max_hp = 170,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 1,
@@ -456,15 +465,15 @@ pg.aircraft_template_374 = {
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "99shijianbao1",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
 		hp_growth = 3420,
 		speed = 30,
-		id = 1100833,
+		id = 1000818,
 		scale = 0.75,
 		weapon_ID = {
-			1100833
+			1000833
 		},
 		position_offset = {
 			0,
@@ -518,11 +527,11 @@ pg.aircraft_template_374 = {
 			}
 		}
 	},
-	[1100834] = {
-		name = "日系空袭轰炸机V",
+	[1000819] = {
+		name = "【精英】执棋者 轰炸机T3 V",
 		max_hp = 200,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 175,
 		dodge = 1,
@@ -530,15 +539,15 @@ pg.aircraft_template_374 = {
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "99shijianbao1",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
 		hp_growth = 3800,
 		speed = 30,
-		id = 1100834,
+		id = 1000819,
 		scale = 0.75,
 		weapon_ID = {
-			1100834
+			1000834
 		},
 		position_offset = {
 			0,
@@ -592,11 +601,11 @@ pg.aircraft_template_374 = {
 			}
 		}
 	},
-	[1100835] = {
-		name = "日系空袭鱼雷机I",
+	[1000820] = {
+		name = "【精英】执棋者 鱼雷机T3 I",
 		max_hp = 72,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 1,
@@ -604,15 +613,15 @@ pg.aircraft_template_374 = {
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "97jiangong",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
 		hp_growth = 2040,
-		speed = 30,
-		id = 1100835,
+		speed = 33,
+		id = 1000820,
 		scale = 0.75,
 		weapon_ID = {
-			1100835
+			1000835
 		},
 		position_offset = {
 			0,
@@ -632,13 +641,13 @@ pg.aircraft_template_374 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.13,
-					-1.29,
+					0.56,
+					-0.76,
 					0
 				},
 				{
-					-1.25,
-					1.47,
+					0.48,
+					0.99,
 					0
 				}
 			}
@@ -655,7 +664,7 @@ pg.aircraft_template_374 = {
 				0
 			},
 			{
-				0.54,
+				0,
 				0,
 				0
 			},
@@ -666,11 +675,11 @@ pg.aircraft_template_374 = {
 			}
 		}
 	},
-	[1100836] = {
-		name = "日系空袭鱼雷机II",
+	[1000821] = {
+		name = "【精英】执棋者 鱼雷机T3 II",
 		max_hp = 99,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 70,
 		dodge = 1,
@@ -678,15 +687,15 @@ pg.aircraft_template_374 = {
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "97jiangong",
+		icon = "shenhaifeiji",
 		funnel_behavior = "",
 		nationality = 3,
 		hp_growth = 2380,
-		speed = 30,
-		id = 1100836,
+		speed = 33,
+		id = 1000821,
 		scale = 0.75,
 		weapon_ID = {
-			1100836
+			1000836
 		},
 		position_offset = {
 			0,
@@ -706,13 +715,13 @@ pg.aircraft_template_374 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.13,
-					-1.29,
+					0.56,
+					-0.76,
 					0
 				},
 				{
-					-1.25,
-					1.47,
+					0.48,
+					0.99,
 					0
 				}
 			}
@@ -729,7 +738,7 @@ pg.aircraft_template_374 = {
 				0
 			},
 			{
-				0.54,
+				0,
 				0,
 				0
 			},

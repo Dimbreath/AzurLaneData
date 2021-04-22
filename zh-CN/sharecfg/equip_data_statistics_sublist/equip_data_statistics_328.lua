@@ -1,5 +1,49 @@
 pg = pg or {}
 pg.equip_data_statistics_328 = {
+	[60201] = {
+		name = "航空攻击展示-翔鹤I",
+		tech = 1,
+		speciality = "无",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航母空袭展示用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60201,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60201
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60202] = {
+		id = 60202,
+		name = "航空攻击展示-翔鹤II",
+		base = 60201,
+		weapon_id = {
+			60202
+		}
+	},
+	[60203] = {
+		id = 60203,
+		name = "航空攻击展示-翔鹤III",
+		base = 60201,
+		weapon_id = {
+			60203
+		}
+	},
 	[60211] = {
 		name = "航空攻击展示-瑞鹤I",
 		tech = 1,
@@ -304,49 +348,5 @@ pg.equip_data_statistics_328 = {
 		part_sub = {},
 		equip_parameters = {},
 		label = {}
-	},
-	[60239] = {
-		id = 60239,
-		name = "江风弹幕展示II",
-		base = 60238,
-		weapon_id = {
-			60239
-		}
-	},
-	[60241] = {
-		name = "航空攻击展示-贝露I",
-		tech = 1,
-		speciality = "无",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航母空袭展示用",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60241,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60241
-		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60242] = {
-		id = 60242,
-		name = "航空攻击展示-贝露II",
-		base = 60241,
-		weapon_id = {
-			60242
-		}
 	}
 }

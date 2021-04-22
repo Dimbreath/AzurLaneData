@@ -1,5 +1,47 @@
 pg = pg or {}
 pg.equip_data_statistics_196 = {
+	[27221] = {
+		id = 27221,
+		base = 27220,
+		ammo_info = {
+			{
+				6,
+				50121
+			}
+		},
+		weapon_id = {
+			27221,
+			82221
+		}
+	},
+	[27222] = {
+		id = 27222,
+		base = 27220,
+		ammo_info = {
+			{
+				6,
+				50122
+			}
+		},
+		weapon_id = {
+			27222,
+			82222
+		}
+	},
+	[27223] = {
+		id = 27223,
+		base = 27220,
+		ammo_info = {
+			{
+				6,
+				50123
+			}
+		},
+		weapon_id = {
+			27223,
+			82223
+		}
+	},
 	[27240] = {
 		name = "海斗士",
 		type = 7,
@@ -264,87 +306,6 @@ pg.equip_data_statistics_196 = {
 		weapon_id = {
 			27265,
 			82265
-		}
-	},
-	[27266] = {
-		id = 27266,
-		base = 27260,
-		ammo_info = {
-			{
-				6,
-				50146
-			}
-		},
-		weapon_id = {
-			27266,
-			82266
-		}
-	},
-	[27267] = {
-		id = 27267,
-		base = 27260,
-		ammo_info = {
-			{
-				6,
-				50147
-			}
-		},
-		weapon_id = {
-			27267,
-			82267
-		}
-	},
-	[27300] = {
-		name = "海怒",
-		type = 7,
-		speciality = "空战",
-		rarity = 5,
-		tech = 0,
-		descrip = "皇家海军最后服役的螺旋桨飞机，因战斗表现良好广受好评",
-		value_2 = 45,
-		icon = "27300",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 27300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50660
-			},
-			{
-				5,
-				52340
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			27300,
-			82300
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"FT"
 		}
 	}
 }

@@ -2122,6 +2122,35 @@ function slot0.DisplayAwards(slot0, slot1, slot2, slot3)
 	}, slot3)
 end
 
+function slot0.DisplayPhaseAction(slot0, slot1)
+	slot3 = {}
+
+	for slot7 = 1, #slot1 do
+		table.insert(slot3, function (slot0)
+			if table.remove(uv0, 1).anim then
+				uv1:BuildCutInAnim(slot1.anim, slot0)
+			elseif slot1.story then
+				if nowWorld.isAutoFight then
+					slot0()
+				else
+					pg.NewStoryMgr.GetInstance():Play(slot1.story, slot0, true)
+				end
+			elseif slot1.drops then
+				if nowWorld.isAutoFight then
+					nowWorld:AddAutoInfo("drops", slot1.drops)
+					slot0()
+				else
+					uv1:DisplayAwards(slot1.drops, {}, slot0)
+				end
+			end
+		end)
+	end
+
+	seriesAsync(slot3, function ()
+		uv0:Op("OpInteractive")
+	end)
+end
+
 function slot0.GetDepth(slot0)
 	return #slot0.wsCommands
 end

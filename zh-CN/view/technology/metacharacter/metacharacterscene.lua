@@ -672,8 +672,6 @@ function slot0.refreshBannerTF(slot0)
 end
 
 function slot0.enterMenuPage(slot0, slot1)
-	GetComponent(slot0.menuPanel, "Animator").enabled = false
-
 	setActive(slot0.hidePanel, not slot1)
 	setActive(slot0.toggleBtnsTF, slot1)
 end
@@ -687,8 +685,6 @@ end
 function slot0.backFromRepair(slot0)
 	setActive(slot0.menuPanel, false)
 	slot0:managedTween(LeanTween.alpha, nil, slot0.shipImg, 1, 0.3):setFrom(0):setOnComplete(System.Action(function ()
-		GetComponent(uv0.menuPanel, "Animator").enabled = true
-
 		setActive(uv0.menuPanel, true)
 		setActive(uv0.hidePanel, true)
 	end))
@@ -697,8 +693,6 @@ end
 function slot0.backFromNotRepair(slot0)
 	setActive(slot0.menuPanel, false)
 	slot0:managedTween(LeanTween.moveX, nil, rtf(slot0.shipImg), MetaCharacterConst.UIConfig[slot0:getCurMetaProgressVO().id][1], 0.3):setFrom(-250):setOnComplete(System.Action(function ()
-		GetComponent(uv0.menuPanel, "Animator").enabled = true
-
 		setActive(uv0.menuPanel, true)
 		setActive(uv0.hidePanel, true)
 	end))

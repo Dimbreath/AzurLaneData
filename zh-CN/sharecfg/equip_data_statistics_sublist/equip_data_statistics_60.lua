@@ -1,5 +1,53 @@
 pg = pg or {}
 pg.equip_data_statistics_60 = {
+	[3313] = {
+		id = 3313,
+		anti_siren = 300,
+		value_1 = "640",
+		base = 3300
+	},
+	[3400] = {
+		name = "“九四式40厘米炮”部件",
+		tech = 0,
+		type = 18,
+		speciality = "无",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "3400",
+		value_1 = "450",
+		descrip = "重樱研发的“九四式40厘米炮”之部件",
+		rarity = 5,
+		nationality = 3,
+		ammo = 10,
+		value_3 = 0,
+		id = 3400,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6590
+		},
+		part_main = {
+			19
+		},
+		part_sub = {
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"GDS"
+		}
+	},
+	[3401] = {
+		id = 3401,
+		value_1 = "480",
+		base = 3400
+	},
 	[3402] = {
 		id = 3402,
 		value_1 = "510",
@@ -103,21 +151,6 @@ pg.equip_data_statistics_60 = {
 	[3501] = {
 		id = 3501,
 		value_1 = "280",
-		base = 3500
-	},
-	[3502] = {
-		id = 3502,
-		value_1 = "310",
-		base = 3500
-	},
-	[3503] = {
-		id = 3503,
-		value_1 = "340",
-		base = 3500
-	},
-	[3504] = {
-		id = 3504,
-		value_1 = "370",
 		base = 3500
 	}
 }

@@ -9,7 +9,7 @@ pg.equip_data_statistics_3 = {
 		descrip = "默认装备",
 		value_2 = 0,
 		icon = "1",
-		nationality = 3,
+		nationality = 4,
 		ammo = 5,
 		value_3 = 0,
 		id = 121,
@@ -47,7 +47,7 @@ pg.equip_data_statistics_3 = {
 		descrip = "默认装备",
 		value_2 = 0,
 		icon = "1",
-		nationality = 3,
+		nationality = 4,
 		ammo = 5,
 		value_3 = 0,
 		id = 122,
@@ -84,7 +84,7 @@ pg.equip_data_statistics_3 = {
 		descrip = "默认装备",
 		value_2 = 0,
 		icon = "1",
-		nationality = 3,
+		nationality = 4,
 		ammo = 5,
 		value_3 = 0,
 		id = 123,
@@ -121,7 +121,7 @@ pg.equip_data_statistics_3 = {
 		descrip = "默认装备",
 		value_2 = 0,
 		icon = "1",
-		nationality = 3,
+		nationality = 8,
 		ammo = 5,
 		value_3 = 0,
 		id = 125,
@@ -159,7 +159,7 @@ pg.equip_data_statistics_3 = {
 		descrip = "默认装备",
 		value_2 = 0,
 		icon = "1",
-		nationality = 3,
+		nationality = 8,
 		ammo = 5,
 		value_3 = 0,
 		id = 126,
@@ -196,7 +196,7 @@ pg.equip_data_statistics_3 = {
 		descrip = "默认装备",
 		value_2 = 0,
 		icon = "1",
-		nationality = 3,
+		nationality = 8,
 		ammo = 5,
 		value_3 = 0,
 		id = 127,
@@ -360,6 +360,118 @@ pg.equip_data_statistics_3 = {
 			"DC"
 		}
 	},
+	[148] = {
+		name = "默认撒丁战斗机",
+		tech = 1,
+		speciality = "空战",
+		type = 7,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 148,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			148,
+			151
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CV",
+			"FT"
+		}
+	},
+	[149] = {
+		name = "默认撒丁鱼雷机",
+		tech = 1,
+		speciality = "雷击",
+		type = 8,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 149,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			149
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CV",
+			"TB"
+		}
+	},
+	[150] = {
+		name = "默认撒丁轰炸机",
+		tech = 1,
+		speciality = "轰炸",
+		type = 9,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 150,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			150
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CV",
+			"DB"
+		}
+	},
 	[201] = {
 		name = "白鹰雷击轻巡副炮T1",
 		speciality = "锁定",
@@ -436,69 +548,6 @@ pg.equip_data_statistics_3 = {
 		},
 		weapon_id = {
 			204
-		}
-	},
-	[211] = {
-		name = "皇家雷击轻巡副炮T1",
-		speciality = "锁定",
-		type = 1,
-		tech = 1,
-		rarity = 1,
-		descrip = "默认装备",
-		value_2 = 0,
-		icon = "1",
-		damage = "3 x 2",
-		nationality = 0,
-		ammo = 5,
-		value_3 = 0,
-		id = 211,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			211
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"DD",
-			"MG"
-		}
-	},
-	[212] = {
-		name = "皇家雷击轻巡副炮T2",
-		damage = "4 x 2",
-		base = 211,
-		id = 212,
-		weapon_id = {
-			212
-		}
-	},
-	[213] = {
-		name = "皇家雷击轻巡副炮T3",
-		damage = "5 x 2",
-		base = 211,
-		id = 213,
-		weapon_id = {
-			213
 		}
 	}
 }

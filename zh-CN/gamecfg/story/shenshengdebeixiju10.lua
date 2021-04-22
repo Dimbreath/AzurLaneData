@@ -271,11 +271,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "…行动完全暴露了呢",
 			typewriter = {
 				speed = 0.05,
@@ -338,6 +339,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "收手吧，利托里奥，行动已经失败了",
 			flashN = {
 				color = {

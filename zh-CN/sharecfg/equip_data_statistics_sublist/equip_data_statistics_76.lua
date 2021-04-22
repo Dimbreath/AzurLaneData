@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_76 = {
+	[6003] = {
+		id = 6003,
+		damage = "9/轮",
+		base = 6000,
+		weapon_id = {
+			6003
+		}
+	},
+	[6020] = {
+		name = "12.7mm防空机枪",
+		speciality = "防空",
+		type = 6,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 5,
+		icon = "6000",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "8/轮",
+		nationality = 0,
+		ammo = 5,
+		value_3 = 0,
+		id = 6020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			6020
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"AA"
+		}
+	},
+	[6021] = {
+		id = 6021,
+		damage = "9/轮",
+		base = 6020,
+		weapon_id = {
+			6021
+		}
+	},
 	[6022] = {
 		id = 6022,
 		damage = "10/轮",
@@ -217,84 +295,6 @@ pg.equip_data_statistics_76 = {
 		base = 6100,
 		weapon_id = {
 			6103
-		}
-	},
-	[6120] = {
-		name = "双联装100mm高炮",
-		speciality = "防空",
-		type = 6,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "6100",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "20/轮",
-		nationality = 8,
-		ammo = 5,
-		value_3 = 0,
-		id = 6120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			6120
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"ST",
-			"AA"
-		}
-	},
-	[6121] = {
-		id = 6121,
-		damage = "23/轮",
-		base = 6120,
-		weapon_id = {
-			6121
-		}
-	},
-	[6122] = {
-		id = 6122,
-		damage = "26/轮",
-		base = 6120,
-		weapon_id = {
-			6122
 		}
 	}
 }

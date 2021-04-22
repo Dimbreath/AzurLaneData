@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_309 = {
+	[46023] = {
+		id = 46023,
+		damage = "31/轮",
+		base = 46020,
+		weapon_id = {
+			46023
+		}
+	},
+	[46040] = {
+		name = "四联装20mm MG机枪",
+		speciality = "防空",
+		type = 6,
+		tech = 3,
+		descrip = "四联装20mm MG机枪，可以用于防空",
+		value_2 = 12,
+		icon = "46000",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "23/轮",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 46040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			46040
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
+	},
+	[46041] = {
+		id = 46041,
+		damage = "26/轮",
+		base = 46040,
+		weapon_id = {
+			46041
+		}
+	},
 	[46042] = {
 		id = 46042,
 		damage = "30/轮",
@@ -164,30 +242,6 @@ pg.equip_data_statistics_309 = {
 		base = 46060,
 		weapon_id = {
 			46067
-		}
-	},
-	[46068] = {
-		id = 46068,
-		damage = "76/轮",
-		base = 46060,
-		weapon_id = {
-			46068
-		}
-	},
-	[46069] = {
-		id = 46069,
-		damage = "82/轮",
-		base = 46060,
-		weapon_id = {
-			46069
-		}
-	},
-	[46070] = {
-		id = 46070,
-		damage = "89/轮",
-		base = 46060,
-		weapon_id = {
-			46070
 		}
 	}
 }

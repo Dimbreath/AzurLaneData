@@ -1,5 +1,68 @@
 pg = pg or {}
 pg.equip_data_statistics_276 = {
+	[39101] = {
+		id = 39101,
+		base = 39100,
+		ammo_info = {
+			{
+				6,
+				50001
+			},
+			{
+				5,
+				52601
+			},
+			{
+				5,
+				52101
+			}
+		},
+		weapon_id = {
+			39101
+		}
+	},
+	[39102] = {
+		id = 39102,
+		base = 39100,
+		ammo_info = {
+			{
+				6,
+				50002
+			},
+			{
+				5,
+				52602
+			},
+			{
+				5,
+				52102
+			}
+		},
+		weapon_id = {
+			39102
+		}
+	},
+	[39103] = {
+		id = 39103,
+		base = 39100,
+		ammo_info = {
+			{
+				6,
+				50003
+			},
+			{
+				5,
+				52603
+			},
+			{
+				5,
+				52103
+			}
+		},
+		weapon_id = {
+			39103
+		}
+	},
 	[39104] = {
 		id = 39104,
 		base = 39100,
@@ -327,104 +390,6 @@ pg.equip_data_statistics_276 = {
 		},
 		weapon_id = {
 			39130
-		}
-	},
-	[39140] = {
-		name = "彗星",
-		type = 9,
-		speciality = "轰炸",
-		rarity = 5,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 45,
-		icon = "39100",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 39140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50040
-			},
-			{
-				5,
-				52640
-			},
-			{
-				5,
-				52140
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			39140
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"DB"
-		}
-	},
-	[39141] = {
-		id = 39141,
-		base = 39140,
-		ammo_info = {
-			{
-				6,
-				50041
-			},
-			{
-				5,
-				52641
-			},
-			{
-				5,
-				52141
-			}
-		},
-		weapon_id = {
-			39141
-		}
-	},
-	[39142] = {
-		id = 39142,
-		base = 39140,
-		ammo_info = {
-			{
-				6,
-				50042
-			},
-			{
-				5,
-				52642
-			},
-			{
-				5,
-				52142
-			}
-		},
-		weapon_id = {
-			39142
 		}
 	}
 }

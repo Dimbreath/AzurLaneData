@@ -1,5 +1,32 @@
 pg = pg or {}
 pg.equip_data_statistics_189 = {
+	[26611] = {
+		anti_siren = 100,
+		damage = "96/轮",
+		base = 26600,
+		id = 26611,
+		weapon_id = {
+			26611
+		}
+	},
+	[26612] = {
+		anti_siren = 200,
+		damage = "96/轮",
+		base = 26600,
+		id = 26612,
+		weapon_id = {
+			26612
+		}
+	},
+	[26613] = {
+		anti_siren = 300,
+		damage = "96/轮",
+		base = 26600,
+		id = 26613,
+		weapon_id = {
+			26613
+		}
+	},
 	[26620] = {
 		name = "双联装40mm博福斯海兹梅耶",
 		speciality = "防空",
@@ -168,85 +195,6 @@ pg.equip_data_statistics_189 = {
 		id = 26633,
 		weapon_id = {
 			26633
-		}
-	},
-	[26640] = {
-		name = "双联装134mm高炮",
-		speciality = "防空",
-		type = 6,
-		attribute_3 = "cannon",
-		tech = 0,
-		value_2 = 30,
-		icon = "21500",
-		attribute_2 = "antiaircraft",
-		descrip = "说明未填写",
-		rarity = 5,
-		damage = "53/轮",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 15,
-		id = 26640,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			26640
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"ST",
-			"AA"
-		}
-	},
-	[26641] = {
-		id = 26641,
-		damage = "61/轮",
-		base = 26640,
-		weapon_id = {
-			26641
-		}
-	},
-	[26642] = {
-		id = 26642,
-		damage = "68/轮",
-		base = 26640,
-		weapon_id = {
-			26642
 		}
 	}
 }

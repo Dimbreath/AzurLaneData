@@ -267,6 +267,9 @@ pg.gametip = {
 	word_attr_level = {
 		tip = "等级上限"
 	},
+	word_shipState_npc = {
+		tip = "NPC角色无法加入当前编队！"
+	},
 	word_shipState_fight = {
 		tip = "该角色正在作战中！"
 	},
@@ -850,7 +853,7 @@ pg.gametip = {
 		tip = "关卡尚未开放，请通关<color=#92fc63>前置关卡</color>"
 	},
 	battle_levelScene_lock_1 = {
-		tip = "该阶段活动副本尚未开放"
+		tip = "该阶段活动关卡尚未开放"
 	},
 	battle_preCombatLayer_changeFormationError = {
 		tip = "试切换阵型出错，请检查阵型"
@@ -2529,7 +2532,7 @@ pg.gametip = {
 		tip = "入场券数量不足"
 	},
 	levelScene_remaster_do_not_open = {
-		tip = "该副本尚未开放，敬请期待"
+		tip = "该关卡尚未开放，敬请期待"
 	},
 	levelScene_remaster_help_tip = {
 		tip = {
@@ -4125,7 +4128,11 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 
 · NPC角色可以进行强化、突破、战斗、获得经验、升级技能。NPC角色正式加入时，保留强化、突破状态及技能等级；
 
-·NPC角色不可退役、不可被选为强化、突破材料、不可进行委托、誓约、认知觉醒、不可设为秘书舰、不可进入后宅、大讲堂、不可参与演习]]
+·NPC角色不可退役、不可被选为强化、突破材料、不可进行委托、誓约、认知觉醒、不可设为秘书舰、不可进入后宅、大讲堂、不可参与演习
+
+·NPC角色无法参与大型作战
+
+·NPC角色无法参与大舰队作战中的事件派遣、攻坚队和首领战]]
 			}
 		}
 	},
@@ -5398,7 +5405,7 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		tip = "支援角色等级不能低于$1级"
 	},
 	sham_reset_confirm = {
-		tip = "当前副本尚未完成，确定进行重置？"
+		tip = "当前关卡尚未完成，确定进行重置？"
 	},
 	sham_battle_help_tip = {
 		tip = {
@@ -7618,7 +7625,7 @@ $3]]
 		tip = "天赋点不足"
 	},
 	buildship_new_tip = {
-		tip = "阿拉巴马、巴尔的摩、艾伦·萨姆纳 等角色建造概率UP！"
+		tip = "维托里奥·维内托、天鹰 等角色建造概率UP！"
 	},
 	buildship_heavy_tip = {
 		tip = "{namecode:161}、{namecode:81}、{namecode:92} 等角色建造追加！"
@@ -13280,6 +13287,18 @@ BUFF加成也会增加
 	wwf_guide_tip = {
 		tip = "点击<color=#92fc63>美味竹子</color>图标可以查看任务列表哦"
 	},
+	query_role = {
+		tip = "查询中"
+	},
+	query_role_none = {
+		tip = "无角色"
+	},
+	query_role_button = {
+		tip = "角色查询"
+	},
+	query_role_fail = {
+		tip = "查询失败"
+	},
 	cumulative_victory_target_tip = {
 		tip = "目标胜利次数："
 	},
@@ -13826,7 +13845,7 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		tip = "是否进行快速挑战？\n快速挑战可以直接获得每日挑战关卡中应得的全部掉落奖励。\n<color=#92fc63>不消耗</color>石油，不会获得任何指挥官经验、舰船经验，也不会影响舰船的心情与好感度。"
 	},
 	daily_level_quick_battle_label3 = {
-		tip = "快速挑战1次"
+		tip = "快速挑战"
 	},
 	LevelSignal = {
 		tip = "海域救援"
@@ -13842,5 +13861,36 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	},
 	LevelSignal_intensity = {
 		tip = "信号强度："
+	},
+	common_npc_formation_tip = {
+		tip = "临时角色不能加入编队"
+	},
+	gametip_xiaotiancheng = {
+		tip = {
+			{
+				info = "「小小军师成长记」说明："
+			},
+			{
+				info = "1.活动期间，玩家可获得临时npc角色小鳐，临时角\n    色不可誓约、不可退役、不可被选为强化突破材料。"
+			},
+			{
+				info = "2.活动期间，击破普通难度主线第三章及之后章节或活动\n   地图旗舰，可增加临时npc角色小鳐的友好度。\n    （不包括大型作战）"
+			},
+			{
+				info = "3.上阵小鳐参与战斗，且未被击沉，可增加双倍友好度。"
+			},
+			{
+				info = "4.在活动结束前累计获得1000点好友度，可领取奖励并将临时角色「小鳐」转化为永久角色。"
+			},
+			{
+				info = "5.在活动结束后，未完成转化的临时角色「小鳐」将\n    离开港区，不返还已经消耗的强化、突破等培养材料。"
+			},
+			{
+				info = "6.npc角色无法参与大型作战"
+			},
+			{
+				info = "7.npc角色无法参与大舰队作战中的事件派遣、攻坚队和首领战"
+			}
+		}
 	}
 }

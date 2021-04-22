@@ -1,5 +1,91 @@
 pg = pg or {}
 pg.equip_data_statistics_199 = {
+	[28020] = {
+		name = "剑鱼",
+		type = 8,
+		speciality = "雷击",
+		rarity = 3,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "28000",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 28020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50020
+			},
+			{
+				4,
+				51020
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			28020
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		}
+	},
+	[28021] = {
+		id = 28021,
+		base = 28020,
+		ammo_info = {
+			{
+				6,
+				50021
+			},
+			{
+				4,
+				51021
+			}
+		},
+		weapon_id = {
+			28021
+		}
+	},
+	[28022] = {
+		id = 28022,
+		base = 28020,
+		ammo_info = {
+			{
+				6,
+				50022
+			},
+			{
+				4,
+				51022
+			}
+		},
+		weapon_id = {
+			28022
+		}
+	},
 	[28023] = {
 		id = 28023,
 		base = 28020,
@@ -271,95 +357,6 @@ pg.equip_data_statistics_199 = {
 		},
 		weapon_id = {
 			28049
-		}
-	},
-	[28050] = {
-		id = 28050,
-		base = 28040,
-		ammo_info = {
-			{
-				6,
-				50050
-			},
-			{
-				4,
-				51050
-			}
-		},
-		weapon_id = {
-			28050
-		}
-	},
-	[28051] = {
-		anti_siren = 100,
-		base = 28040,
-		id = 28051,
-		ammo_info = {
-			{
-				6,
-				50051
-			},
-			{
-				4,
-				51051
-			}
-		},
-		weapon_id = {
-			28051
-		}
-	},
-	[28060] = {
-		name = "剑鱼(818中队)",
-		type = 8,
-		speciality = "雷击",
-		rarity = 5,
-		tech = 0,
-		descrip = "由服役于皇家方舟号的818中队所驾驶的剑鱼式鱼雷轰炸机，曾经在围捕俾斯麦的战斗中完成了对俾斯麦的关键雷击",
-		value_2 = 45,
-		icon = "28060",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 28060,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50040
-			},
-			{
-				4,
-				51060
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			28060
-		},
-		skill_id = {
-			6810
-		},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"TB"
 		}
 	}
 }

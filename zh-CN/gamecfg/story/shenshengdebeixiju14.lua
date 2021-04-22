@@ -32,11 +32,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_story_italy",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "…",
 			typewriter = {
 				speed = 0.05,
@@ -54,6 +55,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -65,11 +67,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_story_italy",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "那个，能停下来了吗？",
 			typewriter = {
 				speed = 0.05,
@@ -129,11 +132,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_story_italy",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "确实…据说皇家的舰队增加了投放在陆间海的海军力量…",
 			typewriter = {
 				speed = 0.05,
@@ -168,6 +172,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "…",
 			typewriter = {
 				speed = 0.05,
@@ -185,6 +190,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "……欸？？？",
 			dialogShake = {
 				speed = 0.09,
@@ -223,6 +229,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "等等…我们在头疼的是同一件事情吗？",
 			typewriter = {
 				speed = 0.05,
@@ -257,6 +264,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "（扶额）",
 			typewriter = {
 				speed = 0.05,
@@ -268,11 +276,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_story_italy",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "（自从塔兰托之战后，利托里奥就变得不太正常了…）",
 			typewriter = {
 				speed = 0.05,
@@ -290,6 +299,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "（究竟是受到了多大的心理创伤…可怜的孩子）",
 			typewriter = {
 				speed = 0.05,
@@ -357,6 +367,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "这是什么意思？",
 			typewriter = {
 				speed = 0.05,
@@ -452,11 +463,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_story_italy",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "…这么一说似乎也颇有道理",
 			typewriter = {
 				speed = 0.05,
@@ -468,11 +480,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_story_italy",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "唉，元老院至今都没有就对待铁血和皇家的关系达成统一意见",
 			typewriter = {
 				speed = 0.05,
@@ -490,6 +503,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "我们也只能就这样继续按兵不动",
 			typewriter = {
 				speed = 0.05,
@@ -552,11 +566,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_story_italy",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "塔兰托之战时的光辉似乎刻意手下留情了",
 			typewriter = {
 				speed = 0.05,
@@ -574,6 +589,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "对加富尔、凯撒等战舰的攻击都避开了要害部位…",
 			typewriter = {
 				speed = 0.05,
@@ -591,6 +607,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "我觉得这一系列的表现，都是一种信号",
 			typewriter = {
 				speed = 0.05,
@@ -602,11 +619,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_story_italy",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "不如就以此为契机，好好的做个测试",
 			typewriter = {
 				speed = 0.05,
@@ -624,6 +642,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "看清究竟谁是豺狼、谁又是雄狮吧",
 			typewriter = {
 				speed = 0.05,
@@ -674,6 +693,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "嗯？",
 			typewriter = {
 				speed = 0.05,
@@ -709,6 +729,7 @@ return {
 			blackBg = true,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "啊，啊————！",
 			dialogShake = {
 				speed = 0.09,

@@ -1,5 +1,65 @@
 pg = pg or {}
 pg.equip_data_statistics_210 = {
+	[29304] = {
+		base = 29300,
+		id = 29304,
+		ammo_info = {
+			{
+				6,
+				50044
+			},
+			{
+				5,
+				53284
+			}
+		},
+		weapon_id = {
+			29304
+		},
+		skill_id = {
+			6834
+		}
+	},
+	[29305] = {
+		base = 29300,
+		id = 29305,
+		ammo_info = {
+			{
+				6,
+				50045
+			},
+			{
+				5,
+				53285
+			}
+		},
+		weapon_id = {
+			29305
+		},
+		skill_id = {
+			6835
+		}
+	},
+	[29306] = {
+		base = 29300,
+		id = 29306,
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				5,
+				53286
+			}
+		},
+		weapon_id = {
+			29306
+		},
+		skill_id = {
+			6836
+		}
+	},
 	[29307] = {
 		base = 29300,
 		id = 29307,
@@ -241,88 +301,6 @@ pg.equip_data_statistics_210 = {
 		base = 30000,
 		weapon_id = {
 			30006
-		}
-	},
-	[30007] = {
-		id = 30007,
-		damage = "74 x 2",
-		base = 30000,
-		weapon_id = {
-			30007
-		}
-	},
-	[31000] = {
-		name = "双联100mm98式高射炮",
-		speciality = "锁定",
-		type = 1,
-		attribute_3 = "antiaircraft",
-		tech = 1,
-		value_2 = 4,
-		icon = "31000",
-		attribute_2 = "cannon",
-		descrip = "说明未填写",
-		rarity = 3,
-		damage = "4 x 4",
-		nationality = 3,
-		ammo = 3,
-		value_3 = 8,
-		id = 31000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1200
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1200
-			},
-			{
-				4,
-				1001
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			31000
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"DD",
-			"MG"
-		}
-	},
-	[31001] = {
-		id = 31001,
-		base = 31000,
-		weapon_id = {
-			31001
 		}
 	}
 }
