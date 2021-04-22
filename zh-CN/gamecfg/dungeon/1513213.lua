@@ -620,6 +620,34 @@ return {
 					}
 				},
 				{
+					triggerType = 0,
+					waveIndex = 2003,
+					conditionType = 1,
+					preWaves = {
+						100
+					},
+					blockFlags = {
+						8864
+					},
+					triggerParam = {},
+					spawn = {
+						{
+							monsterTemplateID = 14703008,
+							score = 0,
+							delay = 9,
+							moveCast = true,
+							corrdinate = {
+								10,
+								0,
+								55
+							},
+							buffList = {
+								8860
+							}
+						}
+					}
+				},
+				{
 					triggerType = 8,
 					key = true,
 					waveIndex = 900,

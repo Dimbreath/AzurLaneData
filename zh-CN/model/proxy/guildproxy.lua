@@ -499,7 +499,10 @@ function slot0.GetRecommendShipsForEliteMission(slot0, slot1)
 			level = slot12.level,
 			tagList = slot12:getConfig("tag_list"),
 			configId = slot12.configId,
-			attrs = slot12:getProperties()
+			attrs = slot12:getProperties(),
+			isActivityNpc = function ()
+				return uv0:isActivityNpc()
+			end
 		}) then
 			table.insert(slot6, slot13)
 		else

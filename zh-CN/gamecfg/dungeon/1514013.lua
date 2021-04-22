@@ -402,6 +402,70 @@ return {
 					}
 				},
 				{
+					triggerType = 0,
+					waveIndex = 2001,
+					conditionType = 1,
+					preWaves = {
+						100
+					},
+					triggerParam = {},
+					spawn = {},
+					reinforcement = {
+						{
+							monsterTemplateID = 14704007,
+							delay = 5,
+							moveCast = true,
+							corrdinate = {
+								5,
+								0,
+								58
+							},
+							buffList = {
+								8001
+							},
+							phase = {
+								{
+									switchType = 1,
+									dive = "STATE_RAID",
+									switchTo = 1,
+									index = 0,
+									switchParam = 180,
+									setAI = 20009
+								}
+							}
+						},
+						reinforceDuration = 180
+					}
+				},
+				{
+					triggerType = 0,
+					waveIndex = 2003,
+					conditionType = 1,
+					preWaves = {
+						100
+					},
+					blockFlags = {
+						8864
+					},
+					triggerParam = {},
+					spawn = {
+						{
+							monsterTemplateID = 14704008,
+							score = 0,
+							delay = 9,
+							moveCast = true,
+							corrdinate = {
+								10,
+								0,
+								55
+							},
+							buffList = {
+								8860
+							}
+						}
+					}
+				},
+				{
 					triggerType = 8,
 					key = true,
 					waveIndex = 900,

@@ -348,7 +348,7 @@ return {
 				},
 				{
 					triggerType = 0,
-					waveIndex = 2002,
+					waveIndex = 2003,
 					conditionType = 1,
 					preWaves = {
 						100

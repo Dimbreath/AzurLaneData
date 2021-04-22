@@ -339,7 +339,12 @@ function slot0.updateShip(slot0, slot1)
 
 	uv0.recordShipLevelVertify(slot1)
 
-	if slot0.data[slot1.id].level < slot1.level then
+	if slot0.data[slot1.id]:isActivityNpc() and not slot1:isActivityNpc() then
+		table.removebyvalue(slot0.activityNpcShipIds, slot1.id)
+		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("isActivityNpc")
+	end
+
+	if slot2.level < slot1.level then
 		pg.TrackerMgr.GetInstance():Tracking(TRACKING_SHIP_LEVEL_UP, slot1.level - slot2.level)
 	end
 
@@ -360,10 +365,7 @@ end
 
 function slot0.removeShipById(slot0, slot1)
 	if slot0.data[slot1]:isActivityNpc() then
-		if table.indexof(slot0.activityNpcShipIds, slot2.id) then
-			table.remove(slot0.activityNpcShipIds, slot3)
-		end
-
+		table.removebyvalue(slot0.activityNpcShipIds, slot2.id)
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("isActivityNpc")
 	end
 
