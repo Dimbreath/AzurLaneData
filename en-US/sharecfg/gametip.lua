@@ -13091,7 +13091,7 @@ Daily: Can be completed every day, resetting at 0:00 every day.]]
 		tip = "Searching..."
 	},
 	query_role_none = {
-		tip = "Nothing found."
+		tip = "No Data "
 	},
 	query_role_button = {
 		tip = "Results found."
@@ -13672,13 +13672,13 @@ Your Action Points will also reset, starting you off with <color=#92fc63>200 AP.
 		tip = "Battle"
 	},
 	daily_level_quick_battle_label1 = {
-		tip = "Quick\nBattle "
+		tip = "Quick\nBattle x"
 	},
 	dailyLevel_quickfinish = {
 		tip = "Carrying out quick battles will grant rewards according to the total number of battle attempts.\nCommander EXP and Ship EXP will not be granted from quick battles, and Morale/Affection will not be affected.\nAre you sure you want to continue? "
 	},
 	daily_level_quick_battle_label3 = {
-		tip = "Quick\nBattle x"
+		tip = "Quick\nBattle "
 	},
 	LevelSignal = {
 		tip = "SOS Signal"

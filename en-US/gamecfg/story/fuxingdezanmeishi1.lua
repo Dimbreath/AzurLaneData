@@ -155,7 +155,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "Scary? Are you talking about Freidrich?",
+			say = "Scary? Are you talking about Friedrich?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,47 +528,47 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"\"During the last \"Reenactment,\" we engaged with ships from both Sardegna and the Royal Navy.\"",
+					"<size=35>\"During the last \"Reenactment,\" we engaged with ships from both Sardegna and the Royal Navy.\"</size>",
 					1
 				},
 				{
-					"\"The Royal Navy confirmed the fractures between us and the Azur Lane.\"",
+					"<size=35>\"The Royal Navy confirmed the fractures between us and the Azur Lane.\"</size>",
 					2
 				},
 				{
-					"\"Consequently, Sardegna continued to side with the Crimson Axis under the advisement of the Senate.\"",
+					"<size=35>\"Consequently, Sardegna continued to side with the Crimson Axis under the advisement of the Senate.\"</size>",
 					3
 				},
 				{
-					"\"We continued to communicate with the different factions, and kept a particularly close eye on the Iron Blood.\"",
+					"<size=35>\"We continued to communicate with the different factions, and kept a particularly close eye on the Iron Blood.\"</size> ",
 					5
 				},
 				{
-					"\"At the Iron Blood's behest, Carabiniere went to one of their facilities and was given an exhibition of Iron Blood technology related to their research into Mirror Seas.\"",
+					"<size=35>\"At the Iron Blood's behest, Carabiniere went to one of their facilities and was given an exhibition of Iron Blood technology related to their research into Mirror Seas.\"</size>",
 					6
 				},
 				{
-					"\"Also, Lady Veneto gained some insight based upon the development of Siren movements in the NA Ocean and Mediterranean.\"",
+					"<size=35>\"Also, Lady Veneto gained some insight based upon the development of Siren movements in the NA Ocean and Mediterranean.\"</size>",
 					7
 				},
 				{
-					"\"A treaty was forged for a joint operation among the major naval powers, and a summit was held for that purpose.\"",
+					"<size=35>\"A treaty was forged for a joint operation among the major naval powers, and a summit was held for that purpose.\"</size>",
 					8
 				},
 				{
-					"\"Furthermore, we know that the Commander has returned to the Eagle Union following a lengthy stay in the Northern Parliament.\"",
+					"<size=35>\"Furthermore, we know that the Commander has returned to the Eagle Union following a lengthy stay in the Northern Parliament.\"</size>",
 					9
 				},
 				{
-					"\"We are currently spearheading a counteroffensive against the Siren forces.\"",
+					"<size=35>\"We are currently spearheading a counteroffensive against the Siren forces.\"</size>",
 					10
 				},
 				{
-					"\"This is the end of the situation report regarding the current state of the Sardegna Navy.\"",
+					"<size=35>\"This is the end of the situation report regarding the current state of the Sardegna Navy.\"</size>",
 					11
 				},
 				{
-					"\"Now we await your orders, Lady Vittorio Veneto, Eternal Flagship of Sardegna—\"",
+					"<size=35>\"Now we await your orders, Lady Vittorio Veneto, Eternal Flagship of Sardegna—\"</size>",
 					13
 				}
 			}
