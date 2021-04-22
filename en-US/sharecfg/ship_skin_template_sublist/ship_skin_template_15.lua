@@ -2641,11 +2641,11 @@ pg.ship_skin_template_15 = {
 		}
 	},
 	[601040] = {
-		name = "西北风",
+		name = "Maestrale",
 		ship_group = 60104,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "西北风级驱逐舰—西北风",
+		desc = "Maestrale-class destroyer – Maestrale.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xibeifeng",
@@ -2751,11 +2751,11 @@ pg.ship_skin_template_15 = {
 		}
 	},
 	[601041] = {
-		name = "独处的沙滩一角",
+		name = "Lonesome Beachfarer",
 		ship_group = 60104,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "沙滩上的人好多，还是坐在这里好了…嗯，指挥官？你也不喜欢热闹的地方吗…？",
+		desc = "It's way too crowded on the beach... I'd much rather be– Oh, Commander? Are you not good with crowded places either...?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xibeifeng_2",
@@ -2863,11 +2863,11 @@ pg.ship_skin_template_15 = {
 		}
 	},
 	[601050] = {
-		name = "西南风",
+		name = "Libeccio",
 		ship_group = 60105,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "西北风级驱逐舰—西南风",
+		desc = "Maestrale-class destroyer – Libeccio.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xinanfeng",
@@ -2973,11 +2973,11 @@ pg.ship_skin_template_15 = {
 		}
 	},
 	[601051] = {
-		name = "水手向西南进发！",
+		name = "Beachbound Southwestern Wind!",
 		ship_group = 60105,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "西南风，向着大海出发咯！指挥官，一起往最热闹的地方前进吧！",
+		desc = "Libeccio's heading towards the sea! Commander, let's go to where all the excitement is!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xinanfeng_2",
@@ -3085,11 +3085,11 @@ pg.ship_skin_template_15 = {
 		}
 	},
 	[601060] = {
-		name = "尼科洛索·达雷科",
+		name = "Nicoloso da Recco",
 		ship_group = 60106,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "航海家级驱逐舰—尼科洛索·达雷科",
+		desc = "Navigatori-class destroyer – Nicoloso da Recco.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "daleike",
@@ -3195,11 +3195,11 @@ pg.ship_skin_template_15 = {
 		}
 	},
 	[601061] = {
-		name = "出航前的余兴",
+		name = "To a Smashing Voyage!",
 		ship_group = 60106,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "这就是重樱的打西瓜啊！资料上说西瓜应该要放到…好！指挥官，帮我把西瓜放那里——嗯？安东尼奥托，不用担心！相信我作为航海家敏锐的感觉！我来啦！",
+		desc = "I know this one! It's that Sakura Empire watermelon-smashing game! Just put the melon over there, Commander! ...Relax, it'll be fine! Have some faith in my navigator's intuition! Ready? Then let's go!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "daleike_2",
@@ -3307,11 +3307,11 @@ pg.ship_skin_template_15 = {
 		}
 	},
 	[602010] = {
-		name = "阿布鲁齐公爵",
+		name = "Duca degli Abruzzi",
 		ship_group = 60201,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "阿布鲁齐公爵级轻巡洋舰—阿布鲁齐公爵",
+		desc = "Duca degli Abruzzi-class light cruiser – Luigi di Savoia Duca degli Abruzzi.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "abuluqi",
@@ -3417,11 +3417,11 @@ pg.ship_skin_template_15 = {
 		}
 	},
 	[602011] = {
-		name = "漆黑的人鱼公主",
+		name = "Lustrous Onyx Sirenetta",
 		ship_group = 60201,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "贵安，指挥官阁下。你也是来这里放松的？作为贵族，有时也会想要享受一下的呢，哈哈。",
+		desc = "Good evening, Commander. Here to unwind after a day's work, I take it? Even dignitaries desire a bit of luxury sometimes. Hahaha.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "abuluqi_2",
@@ -4111,11 +4111,11 @@ pg.ship_skin_template_15 = {
 		}
 	},
 	[603031] = {
-		name = "水边的事故？",
+		name = "Seaside Coincidence",
 		ship_group = 60303,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "姐姐，这时候扣球扣的有点太卑鄙了——指挥官！？为什么会在这里？",
+		desc = "Zara, how dastardly of you to spike the ball at such a time– Eek?! Commander?! Why are you in a place like that?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "bola_2",
@@ -4239,11 +4239,11 @@ pg.ship_skin_template_15 = {
 		}
 	},
 	[605010] = {
-		name = "维托里奥·维内托",
+		name = "Vittorio Veneto",
 		ship_group = 60501,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "维托里奥·维内托级战列舰—维托里奥·维内托",
+		desc = "Vittorio Veneto-class battleship – Vittorio Veneto.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "weineituo",
@@ -4349,11 +4349,11 @@ pg.ship_skin_template_15 = {
 		}
 	},
 	[605011] = {
-		name = "拉斯佩齐亚之花",
+		name = "The Flower of La Spezia",
 		ship_group = 60501,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "唔，嗯，阳光真刺眼……指挥官，我们开到哪里了……唔，已经中午了吗？那么，稍微吃些东西吧，你也要来一些吗？",
+		desc = "Nngh, haah... It's awfully sunny today... How long was I asleep, Commander? Oh, it's already lunchtime? In that case, I'll get started on some food. Would you like something as well?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "weineituo_2",
@@ -4921,11 +4921,11 @@ pg.ship_skin_template_15 = {
 		}
 	},
 	[605051] = {
-		name = "激战的盛夏海滩",
+		name = "Fierce Beachside Battle",
 		ship_group = 60505,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "指挥官，拿上这个。很好，你现在暂时归于我加富尔麾下。是时候给那些肆无忌惮攻击的人一些教训看看了。",
+		desc = "Commander, take this. Good, for the time being, you are a now a disciple under my command. It is time for us to mete out punishment to the unruly.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "jiafuerbojue_2",
@@ -5253,11 +5253,11 @@ pg.ship_skin_template_15 = {
 		}
 	},
 	[605062] = {
-		name = "阳光下的Alta marea",
+		name = "High Tide Under the Sunlight",
 		ship_group = 60506,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "玩累了？真是的，露出这么一副靠不住的样子可不行啊。虽然说今天可以放开了玩，但玩得太疯也不好哦。",
+		desc = "Tired already? For goodness' sake, I thought you'd be more reliable than this. Don't go burning all your energy at once, we still have a whole day of recreation ahead of us.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "kaisa_3",
@@ -5365,11 +5365,11 @@ pg.ship_skin_template_15 = {
 		}
 	},
 	[607010] = {
-		name = "天鹰",
+		name = "Aquila",
 		ship_group = 60701,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "航空母舰—天鹰",
+		desc = "Aircraft carrier – Aquila.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "tianying",
@@ -5461,11 +5461,11 @@ pg.ship_skin_template_15 = {
 		}
 	},
 	[607011] = {
-		name = "阳光与浅潮的假日",
+		name = "Sardegnian Shallows and Sunshine",
 		ship_group = 60701,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "贵安~今天是享受海风与海水的凉爽假日哦。来，先吃口水果解解暑吧~",
+		desc = "Good day, my Commander. We have the day off to enjoy the sea breeze and the ocean waves~ Hehe, would you like to help yourself to some fruit?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "tianying_2",
@@ -5573,11 +5573,11 @@ pg.ship_skin_template_15 = {
 		}
 	},
 	[608010] = {
-		name = "托里拆利",
+		name = "Torricelli",
 		ship_group = 60801,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "布林级潜艇—托里拆利",
+		desc = "Brin-class submarine – Torricelli.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "tuolichaili",
@@ -5669,11 +5669,11 @@ pg.ship_skin_template_15 = {
 		}
 	},
 	[608011] = {
-		name = "阴暗的沙滩一角",
+		name = "Shady Seaside",
 		ship_group = 60801,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "真是个不错的角落…没人打扰，可以随心所欲地做自己想做的事……先做些什么好呢，唔呼呼…",
+		desc = "Hehe, hehehehe... We have this little c-corner of the beach all to ourselves... Now, what should we do first... Hehehehe...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "tuolichaili_2",

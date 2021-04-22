@@ -2332,11 +2332,11 @@ pg.ship_skin_template_7 = {
 		}
 	},
 	[204032] = {
-		name = "五彩的Glorius",
+		name = "Porcelain Grace",
 		ship_group = 20403,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "真是一场不错的旅行，得感谢指挥官的邀请才是呢。穿上这般美丽的服饰，就该悠然而优雅地享受重樱的茶会，不是吗？呵呵~",
+		desc = "Thank you for inviting me on this wonderful trip. Now that I have donned this beautiful outfit, shall we partake of a Sakura Empire tea party– leisurely and elegantly?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "hude_3",

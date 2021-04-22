@@ -4873,11 +4873,11 @@ pg.ship_skin_template_11 = {
 		}
 	},
 	[304070] = {
-		name = "{namecode:193}",
+		name = "Amagi-chan",
 		ship_group = 30407,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "{namecode:161}级战列巡洋舰一番舰—{namecode:161}",
+		desc = "1st Ship of the Amagi-class Battlecruisers, Amagi",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "tiancheng_younv",

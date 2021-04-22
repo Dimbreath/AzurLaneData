@@ -3929,11 +3929,11 @@ pg.ship_skin_template_12 = {
 		}
 	},
 	[307024] = {
-		name = "淡樱之息",
+		name = "Gentle Blossom's Sigh",
 		ship_group = 30702,
 		group_index = 4,
 		illustrator2 = -1,
-		desc = "没想到会为了取这件衣服而和你来了这么一趟旅行…虽然多少还是有点担心留在港区的姐姐，不过，还是按你说的稍微放松放松吧。",
+		desc = "I never thought you'd end up taking such a long trip with me just to pick up a dress... Though I'm worried about leaving my sister behind at port, I suppose I should take your advice and relax a bit.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "jiahe_4",

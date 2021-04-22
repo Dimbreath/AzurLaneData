@@ -1766,7 +1766,7 @@ pg.memory_group = {
 		}
 	},
 	[196] = {
-		title = "复兴的赞美诗",
+		title = "Daedalian Hymn ",
 		type = 2,
 		id = 196,
 		icon = "title_event",

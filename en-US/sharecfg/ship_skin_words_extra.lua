@@ -4067,55 +4067,55 @@ pg.ship_skin_words_extra = {
 		login = {
 			{
 				1100,
-				"哎呀，到工作时间了呢…呵呵，稍等会我收拾下~"
+				"Oh, I suppose it's time for work. Allow me just a moment to tidy things up."
 			}
 		},
 		win_mvp = {
 			{
 				1100,
-				"撒丁帝国的威光，以及我们的信念，已经逐渐洒遍大海——多亏了指挥官呢。"
+				"Now they know the Empire's splendor, and the firmness of our resolves. And you made it possible, Commander."
 			}
 		},
 		home = {
 			{
 				1100,
-				"晚餐我已经订好了哦，指挥官，今天也辛苦了~"
+				"I have dinner planned for later this evening. I hope you'll join me at the table, Commander."
 			}
 		},
 		battle = {
 			{
 				1100,
-				"就按照指挥官与我的既定作战方案开始吧~"
+				"Now, let us proceed according to the commander's plans."
 			}
 		},
 		main_extra = {
 			{
 				1100,
-				"确保宜居性是很重要的呢，指挥官难道不希望出击时每天都能洗上澡吗？…嗯？有点不太对？|指挥官和利托里奥还是有些相似之处的呢，比如时不时就需要人照顾这点~|值得信赖的伙伴越多，我就越能发挥自己的实力呢。指挥官，请让我多多出击吧。"
+				"Self-care is important. When you're out on a sortie, don't you wish you could come back to a warm bath every day? ...Not exactly?|You and Littorio are similar in a certain way. Namely, your tendency to rely on me for help~|I'm able to use my abilities to their fullest thanks to all my reliable friends around me. Please, send me out on more missions, Commander."
 			}
 		},
 		touch = {
 			{
 				1100,
-				"指挥官，不要总是那么紧绷，偶尔放空自己，休息一下，才是长寿的秘诀哦，呵呵~"
+				"You really should take occasional breaks and empty your mind instead of working tirelessly all the time, Commander. You'll lead a fuller life if you do. Heehee~"
 			}
 		},
 		expedition = {
 			{
 				1100,
-				"指挥官，啊~…哎呀，是不是太咸了点？给委托组的小伙伴补充体力吃正合适呢~"
+				"Could you give this a taste? ...Oh dear, I might have used too much salt. I thought the commission team might prefer stronger seasoning."
 			}
 		},
 		mail = {
 			{
 				1100,
-				"是指挥官的朋友来信吗？指挥官的话，一定都是些很棒的友人吧~"
+				"Is this letter from your friend? Ah. Heehee. I'm sure your friends are all lovely people."
 			}
 		},
 		touch2 = {
 			{
 				1100,
-				"虽然这种行为是不被允许的，不过指挥官都这么热情了…"
+				"I do not condone this, but since you're so insistent... Ohoho."
 			}
 		}
 	},
@@ -4139,49 +4139,49 @@ pg.ship_skin_words_extra = {
 		login = {
 			{
 				1100,
-				"主上，今天演习的要旨我放在桌上了。有时间的话请过目一下。"
+				"Commander, I've put today's itinerary on your desk. Please look over it when you have time."
 			}
 		},
 		win_mvp = {
 			{
 				1100,
-				"看来是{namecode:161}的策略胜利了呢。呼呼呼……"
+				"It would appear that my tactics proved successful once again... Hehehe..."
 			}
 		},
 		home = {
 			{
 				1100,
-				"主上，这个菱饼是{namecode:71}教我做的。要不要尝尝？{namecode:91}她们都说很好吃哦。"
+				"Commander, Hiei taught me how to make three-colored mochi. Would you like to try some? Akagi and her friends all said it was delicious~"
 			}
 		},
 		detail = {
 			{
 				1100,
-				"主上，请张嘴， 啊～ 好，下一个轮到{namecode:161}了。啊～…嗯，好吃！接下来又轮到主上了呢～"
+				"Commander, say \"ahhn\"~ Now, it's my turn. Mm, delicious! Now it's your turn again~"
 			}
 		},
 		main_extra = {
 			{
 				1100,
-				"主上，可以的话可以去陪{namecode:92}下一会棋吗？她总是说“下次一定赢”什么的…|{namecode:161}不擅长运动，只能做点简单的体操…嗯，不过如果主上也能一起来活动活动身体的话，{namecode:161}会努力的。|nil"
+				"Commander, can you play Go with Kaga? She keeps saying \"I'll beat you next time\"...|I'm not good at physical activities, but a little bit of light exercise... Yes, if you'll be accompanying me, I'll also put forward my best effort.|nil"
 			}
 		},
 		touch = {
 			{
 				1100,
-				"和{namecode:91}一样想来蹭蹭尾巴吗…？"
+				"Do you like rubbing Akagi's tails the same way...?"
 			}
 		},
 		touch2 = {
 			{
 				1100,
-				"要不也叫上{namecode:91}一起？呼呼~"
+				"Should I call Akagi here as well? Hehehe~"
 			}
 		},
 		feeling5 = {
 			{
 				1100,
-				"主上，{namecode:161}的膝枕感觉怎么样？因为有您在，现在我已经能坚持这～么长的时间了呢。嘿嘿，在{namecode:91}生气之前，还是正经铺好床睡吧。晚安~"
+				"Commander, would you like to rest on my lap? Thanks to you, I've been able to hold on for a lot longer~ Ehehe... Please make sure to go sleep in your regular bed before Akagi gets mad~"
 			}
 		}
 	},
@@ -4206,43 +4206,43 @@ pg.ship_skin_words_extra = {
 		login = {
 			{
 				1100,
-				"指挥官阁下，开始工作前要不先来杯茶？我来准备就好。"
+				"Care for some tea before work? I'll put the kettle on."
 			}
 		},
 		win_mvp = {
 			{
 				1100,
-				"记住吧！是我阿布鲁齐公爵路易·迪·萨伏伊战胜了你们！"
+				"You have been defeated by the one and only Luigi di Savoia Duca degli Abruzzi! Remember this fact!"
 			}
 		},
 		detail = {
 			{
 				1100,
-				"和凯旋阁下的茶会吗？也请让我参加吧。指挥官阁下，如果想不好带什么礼物去的话我可以给你些建议。"
+				"I truly do hope to see you at Le Triomphant's tea party. Feel free to ask if you want suggestions on what gifts you should bring."
 			}
 		},
 		main = {
 			{
 				1100,
-				"不是偷懒，而是休息？你应该早点告诉我…抱歉，也许是我太严苛了。让我们互相都反省下吧。"
+				"You're not procrastinating, but rather taking a break? I wish you would've said so sooner. Forgive me if I've been excessively strict. Let us both work on our undesirable quirks."
 			}
 		},
 		main_extra = {
 			{
 				1100,
-				"有指挥官阁下在，感觉肩上的负担都减轻了许多。剩余的精力就用来努力提升自己好了。"
+				"Your presence has lifted a great burden from my shoulders. The energy it has freed up I will use to better myself."
 			}
 		},
 		touch = {
 			{
 				1100,
-				"指挥官阁下，有什么事吗？无论什么都可以放心交给我，不用客气。"
+				"Yes, Commander? Whatever it is you need done, just say the word, and I'll see to it."
 			}
 		},
 		touch2 = {
 			{
 				1100,
-				"虽然我能理解你的想法，不过还是注意下作为指挥官的形象吧。"
+				"I don't blame you for losing control, but you must consider the impact on your public image."
 			}
 		}
 	},
@@ -4265,55 +4265,55 @@ pg.ship_skin_words_extra = {
 		login = {
 			{
 				1100,
-				"今天也请多多关照，天鹰的指挥官大人~"
+				"Please look after me today as well, my Commander~"
 			}
 		},
 		home = {
 			{
 				1100,
-				"指挥官大人，如果遇到了麻烦的请求…又不好拒绝的话，可以交给天鹰我吗？"
+				"My Commander, if you receive any troublesome requests, will you delegate them to me?"
 			}
 		},
 		battle = {
 			{
 				1100,
-				"听我的指示——开始攻击！"
+				"Friends, heed my call – Begin our advance!"
 			}
 		},
 		detail = {
 			{
 				1100,
-				"舰载机的起飞训练……应该是这样的感觉吧？哈…嘿！…我做到了！指挥官大人，光辉小姐，我成功了哦！"
+				"Let's give this another try... Are you sure it's supposed to work like this? ...Hyah! ...Ohmygosh! It worked! My Commander, Miss Illustrious!"
 			}
 		},
 		main = {
 			{
 				1100,
-				"Zzzzz…不可以Zz…指挥官大人？呵呵，怎么没有把天鹰直接叫醒呢？"
+				"Zzzzz... Ahhn, you mustn't~ Hwuh? My Commander? Hehe~ I wonder why you didn't directly wake me up?"
 			}
 		},
 		main_extra = {
 			{
 				1100,
-				"这是指挥官大人最喜欢的料理哦~…啊，不对吗？我听指挥官的青梅竹马{namecode:86}小姐是这么说的…"
+				"This is your favorite food, isn't it~ ...Oh, it's not? But that's what Miss Junyou told me. She's your childhood friend, isn't she...?"
 			}
 		},
 		mission = {
 			{
 				1100,
-				"这个任务就让天鹰来完成吧。……指挥官大人，难道是不放心把任务交给天鹰吗？"
+				"Let me handle this task... Oh, are you worried that I won't be able to handle it, my Commander...?"
 			}
 		},
 		mission_complete = {
 			{
 				1100,
-				"指挥官，非常感谢！呵呵，天鹰也是能任务完成得不错的吧？"
+				"Thank you very much, my Commander! I did a good job, didn't I?"
 			}
 		},
 		touch2 = {
 			{
 				1100,
-				"如果是指挥官你的话……"
+				"Oh my... Just what am I going to do with you, my Commander..."
 			}
 		}
 	},
@@ -4337,49 +4337,49 @@ pg.ship_skin_words_extra = {
 		login = {
 			{
 				1100,
-				"早安……不，不需要严格的打招呼也没关系吗？谢、谢谢……"
+				"Good day... Th-there's no need to be so formal? I, I see... th-thanks then..."
 			}
 		},
 		win_mvp = {
 			{
 				1100,
-				"做到了！指挥官，非常感谢！（点头）"
+				"We did it! Commander, thank you very much! *nods*"
 			}
 		},
 		home = {
 			{
 				1100,
-				"欢迎回来。我向皇家女仆队学习了沏茶的的方法。那个……请不要告诉西南风哦…？"
+				"Welcome back. I've been studying how to make tea from the Royal Maids. Oh, but keep it a secret from Libeccio, okay...?"
 			}
 		},
 		battle = {
 			{
 				1100,
-				"大家，加、加油吧！"
+				"Everyone, p-please do your best...!"
 			}
 		},
 		detail = {
 			{
 				1100,
-				"和指挥官聊天很、很开心…虽然老是我在回答问题，不过…其实还是想多问问一些关于指挥官的事情呢……"
+				"I really l-like talking to you, Commander... Even though I'm usually the one answering questions, but... I'd actually like to get to know more about you......"
 			}
 		},
 		main = {
 			{
 				1100,
-				"今、今天西南风好像不在……指挥官，那个…一一一起去哪里逛逛吧！？|任务的资料在这，报酬的清单在架子上，指挥官给的戒指的盒子……啊///"
+				"L-Libeccio isn't here today, so... Commander, how about we go somewhere t-together?!|The mission supplies are over here, the reward list is over here, and the ring box that Commander gave me is... Oh... *blushes*|nil"
 			}
 		},
 		touch = {
 			{
 				1100,
-				"指挥官，需要帮忙吗…？"
+				"Commander, need a hand?"
 			}
 		},
 		touch2 = {
 			{
 				1100,
-				"诶嘿嘿…指挥官…"
+				"Ehehe... Commander..."
 			}
 		}
 	},
@@ -4406,31 +4406,31 @@ pg.ship_skin_words_extra = {
 		login = {
 			{
 				1100,
-				"Ciao！指挥官，今天也要精神饱满地加油哦！嘿！"
+				"Ciao! Commander, let's dial it up to 11 today as well! Woohoo~!"
 			}
 		},
 		home = {
 			{
 				1100,
-				"指挥官欢迎回来！教我学习吧！西北风姐姐说要给指挥官帮忙的话，就得多多学习才行呢！"
+				"Welcome back, Commander! Hey, teach me something! Maestrale told me I should learn something that can help you out!"
 			}
 		},
 		detail = {
 			{
 				1100,
-				"我和西北风姐姐都很喜欢指挥官哦！嘿嘿~指挥官是不是也很喜欢我们呀？"
+				"My sister and I both like you a lot, Commander! We love you! Ehehe~ Commander, do you love us as well?"
 			}
 		},
 		main = {
 			{
 				1100,
-				"西南风努力地把资料整理好了哦！嘿嘿~指挥官，接下来要做什么呀？|见识撒丁帝国的威光！…咦？威光是什么颜色的呢……去请教一下维内托大人好了！|指挥官，把球扔到这里！好，继续进行防空演习——！"
+				"I did my best to help you organize your documents! Ehehe! Commander, what should I do next?|Behold the Eternal Light of Sardegna! ...Uhh, what color is an eternal light, and how do you hold it? ...I wonder if Veneto will tell me...|Commander, throw the ball over here! Woohoo! Let's continue our anti-air exercises!"
 			}
 		},
 		touch = {
 			{
 				1100,
-				"指挥官，西北风姐姐她不要紧的吧？"
+				"Commander, is my sister doing alright?"
 			}
 		}
 	},
@@ -4456,37 +4456,37 @@ pg.ship_skin_words_extra = {
 		login = {
 			{
 				1100,
-				"早呀指挥官！今天是个适合出航的好日子噢！我们赶紧出发吧！"
+				"Ahoy-ahoy, Commander! Did you know? It's a perfect day for a voyage! Let's go on one right now!"
 			}
 		},
 		home = {
 			{
 				1100,
-				"下次出航去哪里比较好呢…指挥官觉得呢~！"
+				"Hmm, where should I plot a course to next... Any suggestions, Commander?"
 			}
 		},
 		detail = {
 			{
 				1100,
-				"这条航线容易遇上风暴…这条航线肯定会遇难？怎么这样！我都考虑那么久了…"
+				"This course will get us caught in a storm? And this one will get us shipwrecked? Dangit, why?! I thought I had it all planned out..."
 			}
 		},
 		main = {
 			{
 				1100,
-				"指挥官，我买了新的地图哦！…可、可没有乱花钱哦？|指挥官珍藏的勋章！…哦哦，真想让萨丁的其他伙伴也看看呀！|nil"
+				"I bought a new map! ...No, I paid for it myself, out of my own pocket. Making maps is what I do for a hobby!||Nice medal collection, Commander! I've gotta show these to my Sardegnian friends!|nil"
 			}
 		},
 		expedition = {
 			{
 				1100,
-				"委托完成了！开拓新航路果然没那么容易呢…"
+				"A commission's been completed! It ain't easy, plotting new courses all the time."
 			}
 		},
 		feeling5 = {
 			{
 				1100,
-				"“约会”的路线是…好！就这样！果然还是去稍微远一点的海域比较好呢！指挥官，给大家带土特产的任务就交给你了哦！"
+				"I've worked out a course for our date! It goes to a nice, kinda remote little corner of the sea! Now it's your job to find some souvenirs for everyone!"
 			}
 		}
 	},

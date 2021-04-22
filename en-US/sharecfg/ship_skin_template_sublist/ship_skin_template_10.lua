@@ -3276,11 +3276,11 @@ pg.ship_skin_template_10 = {
 		}
 	},
 	[301851] = {
-		name = "夏日的全力一击",
+		name = "Summer Dedication",
 		ship_group = 30185,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "指挥官也来海边玩了吗？什么，注意安全？哼，区区打西瓜，对我来说就是小菜一…哦哦哦！？",
+		desc = "Commander, have you also come to play on the beach? You're telling me to be careful? Hmph, what misfortune could possibly befall me from a game of watermelon splitting... Gwaah?!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "zhuifeng_3",
