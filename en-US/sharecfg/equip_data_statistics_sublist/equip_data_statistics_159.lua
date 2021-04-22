@@ -1,5 +1,80 @@
 pg = pg or {}
 pg.equip_data_statistics_159 = {
+	[23000] = {
+		name = "Twin 203mm Mk VIII Main Gun Mount",
+		speciality = "Lock",
+		type = 3,
+		tech = 1,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "23000",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "24 x 4",
+		nationality = 2,
+		ammo = 3,
+		value_3 = 0,
+		id = 23000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1400
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1400
+			},
+			{
+				4,
+				1205
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			23000
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CA",
+			"MG",
+			"CM"
+		}
+	},
+	[23001] = {
+		id = 23001,
+		damage = "26 x 4",
+		base = 23000,
+		weapon_id = {
+			23001
+		}
+	},
+	[23002] = {
+		id = 23002,
+		damage = "28 x 4",
+		base = 23000,
+		weapon_id = {
+			23002
+		}
+	},
 	[23003] = {
 		id = 23003,
 		damage = "30 x 4",
@@ -212,30 +287,6 @@ pg.equip_data_statistics_159 = {
 		base = 23040,
 		weapon_id = {
 			23045
-		}
-	},
-	[23046] = {
-		id = 23046,
-		damage = "40 x 4",
-		base = 23040,
-		weapon_id = {
-			23046
-		}
-	},
-	[23047] = {
-		id = 23047,
-		damage = "42 x 4",
-		base = 23040,
-		weapon_id = {
-			23047
-		}
-	},
-	[23048] = {
-		id = 23048,
-		damage = "44 x 4",
-		base = 23040,
-		weapon_id = {
-			23048
 		}
 	}
 }

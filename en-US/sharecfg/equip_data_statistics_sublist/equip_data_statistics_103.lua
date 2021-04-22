@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.equip_data_statistics_103 = {
+	[14349] = {
+		id = 14349,
+		damage = "146 x 3",
+		base = 14340,
+		weapon_id = {
+			14349
+		}
+	},
+	[14350] = {
+		id = 14350,
+		damage = "156 x 3",
+		base = 14340,
+		weapon_id = {
+			14350
+		}
+	},
+	[14351] = {
+		anti_siren = 100,
+		damage = "156 x 3",
+		base = 14340,
+		id = 14351,
+		weapon_id = {
+			14351
+		}
+	},
 	[14360] = {
 		name = "Prototype 406mm Mk D Main Gun Mount",
 		speciality = "Volley",
@@ -158,74 +183,6 @@ pg.equip_data_statistics_103 = {
 		id = 14373,
 		weapon_id = {
 			14373
-		}
-	},
-	[14380] = {
-		name = "Triple 406mm Mk 2 Main Gun Mount",
-		speciality = "Volley",
-		type = 4,
-		tech = 0,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "14380",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "60 x 3",
-		nationality = 1,
-		ammo = 3,
-		value_3 = 0,
-		id = 14380,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1510
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			14380
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"BB",
-			"MG"
-		}
-	},
-	[14381] = {
-		id = 14381,
-		damage = "70 x 3",
-		base = 14380,
-		weapon_id = {
-			14381
-		}
-	},
-	[14382] = {
-		id = 14382,
-		damage = "80 x 3",
-		base = 14380,
-		weapon_id = {
-			14382
 		}
 	}
 }

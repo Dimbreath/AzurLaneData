@@ -1,5 +1,32 @@
 pg = pg or {}
 pg.equip_data_statistics_177 = {
+	[25811] = {
+		anti_siren = 100,
+		damage = "186 ~ 372",
+		base = 25800,
+		id = 25811,
+		weapon_id = {
+			25811
+		}
+	},
+	[25812] = {
+		anti_siren = 200,
+		damage = "186 ~ 372",
+		base = 25800,
+		id = 25812,
+		weapon_id = {
+			25812
+		}
+	},
+	[25813] = {
+		anti_siren = 300,
+		damage = "186 ~ 372",
+		base = 25800,
+		id = 25813,
+		weapon_id = {
+			25813
+		}
+	},
 	[26000] = {
 		name = "Twin 40mm Pom-Pom AA Gun Mount",
 		speciality = "Anti-Air",
@@ -271,84 +298,6 @@ pg.equip_data_statistics_177 = {
 		base = 26040,
 		weapon_id = {
 			26045
-		}
-	},
-	[26046] = {
-		id = 26046,
-		damage = "45/wave",
-		base = 26040,
-		weapon_id = {
-			26046
-		}
-	},
-	[26047] = {
-		id = 26047,
-		damage = "45/wave",
-		base = 26040,
-		weapon_id = {
-			26047
-		}
-	},
-	[26060] = {
-		name = "Twin 40mm Bofors RP Mark I AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 0,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "26060",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "28/wave",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 26060,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			26060
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"ST",
-			"AA"
 		}
 	}
 }

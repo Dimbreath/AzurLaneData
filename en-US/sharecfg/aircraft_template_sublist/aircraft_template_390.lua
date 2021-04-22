@@ -1,254 +1,248 @@
 pg = pg or {}
 pg.aircraft_template_390 = {
-	[2950000] = {
-		name = "【大世界】皇家方舟浮游炮",
-		max_hp = 156,
+	[1100842] = {
+		name = "日系空袭战斗机III",
+		max_hp = 112,
 		accuracy = 23,
-		model_ID = "fuyoupao2",
+		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
-		crash_DMG = 220,
+		crash_DMG = 62,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "fuyoupao2",
-		nationality = 3,
-		hp_growth = 40000,
-		speed = 30,
-		id = 2950000,
-		scale = 0.75,
-		funnel_behavior = {
-			stay = 4,
-			exist = 16
-		},
-		weapon_ID = {
-			2950001
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					2.72,
-					-0.21,
-					0
-				},
-				{
-					3.2,
-					-0.14,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[2950002] = {
-		name = "【大世界】皇家方舟浮游炮2",
-		max_hp = 156,
-		accuracy = 23,
-		model_ID = "fuyoupao2",
-		ACC_growth = 0,
-		crash_DMG = 220,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "fuyoupao2",
-		nationality = 3,
-		hp_growth = 80000,
-		speed = 70,
-		id = 2950002,
-		scale = 0.75,
-		funnel_behavior = {
-			stay = 4,
-			exist = 16
-		},
-		weapon_ID = {
-			2950003
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					2.72,
-					-0.21,
-					0
-				},
-				{
-					3.2,
-					-0.14,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[2950004] = {
-		name = "【大世界】皇家方舟浮游炮3",
-		max_hp = 156,
-		accuracy = 23,
-		model_ID = "fuyoupao2",
-		ACC_growth = 0,
-		crash_DMG = 220,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "fuyoupao2",
-		nationality = 3,
-		hp_growth = 200000,
-		speed = 70,
-		id = 2950004,
-		scale = 0.75,
-		funnel_behavior = {
-			stay = 4,
-			exist = 16
-		},
-		weapon_ID = {
-			2950005
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					2.72,
-					-0.21,
-					0
-				},
-				{
-					3.2,
-					-0.14,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[2200765] = {
-		name = "【大世界】美系舰载-战斗机I",
-		max_hp = 128,
-		accuracy = 35,
-		model_ID = "F4F",
-		ACC_growth = 0,
-		crash_DMG = 72,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "F4F",
+		icon = "lingzhan21gai",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3360,
+		hp_growth = 2240,
 		speed = 33,
-		id = 2200765,
+		id = 1100842,
+		scale = 0.75,
+		weapon_ID = {
+			1100842,
+			1100847
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100843] = {
+		name = "日系空袭战斗机IV",
+		max_hp = 136,
+		accuracy = 23,
+		model_ID = "lingzhan21gai",
+		ACC_growth = 0,
+		crash_DMG = 78,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "lingzhan21gai",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2520,
+		speed = 33,
+		id = 1100843,
+		scale = 0.75,
+		weapon_ID = {
+			1100843,
+			1100848
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100844] = {
+		name = "日系空袭战斗机V",
+		max_hp = 160,
+		accuracy = 23,
+		model_ID = "lingzhan21gai",
+		ACC_growth = 0,
+		crash_DMG = 98,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "lingzhan21gai",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2800,
+		speed = 33,
+		id = 1100844,
+		scale = 0.75,
+		weapon_ID = {
+			1100844,
+			1100849
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100850] = {
+		name = "日系舰载战斗机I",
+		max_hp = 64,
+		accuracy = 23,
+		model_ID = "lingzhan21gai",
+		ACC_growth = 0,
+		crash_DMG = 36,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "lingzhan21gai",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1680,
+		speed = 33,
+		id = 1100850,
 		scale = 0.75,
 		weapon_ID = {
 			1100745,
@@ -306,24 +300,24 @@ pg.aircraft_template_390 = {
 			}
 		}
 	},
-	[2200766] = {
-		name = "【大世界】美系舰载-战斗机II",
-		max_hp = 176,
-		accuracy = 35,
-		model_ID = "F4F",
+	[1100851] = {
+		name = "日系舰载战斗机II",
+		max_hp = 88,
+		accuracy = 23,
+		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
-		crash_DMG = 96,
+		crash_DMG = 48,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "F4F",
+		icon = "lingzhan21gai",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3920,
+		hp_growth = 1960,
 		speed = 33,
-		id = 2200766,
+		id = 1100851,
 		scale = 0.75,
 		weapon_ID = {
 			1100746,
@@ -381,24 +375,24 @@ pg.aircraft_template_390 = {
 			}
 		}
 	},
-	[2200767] = {
-		name = "【大世界】美系舰载-战斗机III",
-		max_hp = 224,
-		accuracy = 35,
-		model_ID = "F4F",
+	[1100852] = {
+		name = "日系舰载战斗机III",
+		max_hp = 112,
+		accuracy = 23,
+		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
-		crash_DMG = 124,
+		crash_DMG = 62,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "F4F",
+		icon = "lingzhan21gai",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 4480,
+		hp_growth = 2240,
 		speed = 33,
-		id = 2200767,
+		id = 1100852,
 		scale = 0.75,
 		weapon_ID = {
 			1100747,
@@ -456,24 +450,24 @@ pg.aircraft_template_390 = {
 			}
 		}
 	},
-	[2200768] = {
-		name = "【大世界】美系舰载-战斗机IV",
-		max_hp = 272,
-		accuracy = 35,
-		model_ID = "F4F",
+	[1100853] = {
+		name = "日系舰载战斗机IV",
+		max_hp = 136,
+		accuracy = 23,
+		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
-		crash_DMG = 156,
+		crash_DMG = 78,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "F4F",
+		icon = "lingzhan21gai",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 5040,
+		hp_growth = 2520,
 		speed = 33,
-		id = 2200768,
+		id = 1100853,
 		scale = 0.75,
 		weapon_ID = {
 			1100748,
@@ -531,24 +525,24 @@ pg.aircraft_template_390 = {
 			}
 		}
 	},
-	[2200769] = {
-		name = "【大世界】美系舰载-战斗机V",
-		max_hp = 320,
-		accuracy = 35,
-		model_ID = "F4F",
+	[1100854] = {
+		name = "日系舰载战斗机V",
+		max_hp = 160,
+		accuracy = 23,
+		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
-		crash_DMG = 196,
+		crash_DMG = 98,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "F4F",
+		icon = "lingzhan21gai",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 5600,
+		hp_growth = 2800,
 		speed = 33,
-		id = 2200769,
+		id = 1100854,
 		scale = 0.75,
 		weapon_ID = {
 			1100749,
@@ -606,24 +600,24 @@ pg.aircraft_template_390 = {
 			}
 		}
 	},
-	[2200770] = {
-		name = "【大世界】美系舰载-鱼雷机I",
-		max_hp = 144,
-		accuracy = 35,
-		model_ID = "tbd",
+	[1100855] = {
+		name = "日系舰载鱼雷机I",
+		max_hp = 72,
+		accuracy = 23,
+		model_ID = "97jiangong",
 		ACC_growth = 0,
-		crash_DMG = 104,
+		crash_DMG = 52,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "tbd",
+		icon = "97jiangong",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 4080,
+		hp_growth = 2040,
 		speed = 30,
-		id = 2200770,
+		id = 1100855,
 		scale = 0.75,
 		weapon_ID = {
 			1100755
@@ -680,24 +674,24 @@ pg.aircraft_template_390 = {
 			}
 		}
 	},
-	[2200771] = {
-		name = "【大世界】美系舰载-鱼雷机II",
-		max_hp = 198,
-		accuracy = 35,
-		model_ID = "tbd",
+	[1100856] = {
+		name = "日系舰载鱼雷机II",
+		max_hp = 99,
+		accuracy = 23,
+		model_ID = "97jiangong",
 		ACC_growth = 0,
-		crash_DMG = 140,
+		crash_DMG = 70,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "tbd",
+		icon = "97jiangong",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 4760,
+		hp_growth = 2380,
 		speed = 30,
-		id = 2200771,
+		id = 1100856,
 		scale = 0.75,
 		weapon_ID = {
 			1100756

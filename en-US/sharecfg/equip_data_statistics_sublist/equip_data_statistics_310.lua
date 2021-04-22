@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_310 = {
+	[46101] = {
+		id = 46101,
+		damage = "9/wave",
+		base = 46100,
+		weapon_id = {
+			46101
+		}
+	},
+	[46102] = {
+		id = 46102,
+		damage = "10/wave",
+		base = 46100,
+		weapon_id = {
+			46102
+		}
+	},
+	[46103] = {
+		id = 46103,
+		damage = "12/wave",
+		base = 46100,
+		weapon_id = {
+			46103
+		}
+	},
 	[46120] = {
 		name = "Single 37mm Flak AA Gun Mount",
 		speciality = "Anti-Air",
@@ -272,84 +296,6 @@ pg.equip_data_statistics_310 = {
 		base = 46200,
 		weapon_id = {
 			46201
-		}
-	},
-	[46202] = {
-		id = 46202,
-		damage = "19/wave",
-		base = 46200,
-		weapon_id = {
-			46202
-		}
-	},
-	[46203] = {
-		id = 46203,
-		damage = "22/wave",
-		base = 46200,
-		weapon_id = {
-			46203
-		}
-	},
-	[46220] = {
-		name = "Twin 37mm AA 70K",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 2,
-		descrip = "Twin 37mm AA 70K used for anti-air defense.",
-		value_2 = 12,
-		icon = "46200",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "17/wave",
-		nationality = 4,
-		ammo = 5,
-		value_3 = 0,
-		id = 46220,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			46220
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"ST",
-			"AA"
 		}
 	}
 }

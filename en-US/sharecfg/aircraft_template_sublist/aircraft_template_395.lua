@@ -1,23 +1,23 @@
 pg = pg or {}
 pg.aircraft_template_395 = {
-	[2200812] = {
-		name = "【大世界】德系舰载战斗机III",
-		max_hp = 224,
-		accuracy = 35,
-		model_ID = "Me155A",
+	[1100902] = {
+		name = "美系舰载-战斗机III",
+		max_hp = 112,
+		accuracy = 23,
+		model_ID = "F4F",
 		ACC_growth = 0,
-		crash_DMG = 124,
+		crash_DMG = 62,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "Me155A",
+		icon = "F4F",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 4480,
+		hp_growth = 2240,
 		speed = 33,
-		id = 2200812,
+		id = 1100902,
 		scale = 0.75,
 		weapon_ID = {
 			1100747,
@@ -75,24 +75,24 @@ pg.aircraft_template_395 = {
 			}
 		}
 	},
-	[2200813] = {
-		name = "【大世界】德系舰载战斗机IV",
-		max_hp = 272,
-		accuracy = 35,
-		model_ID = "Me155A",
+	[1100903] = {
+		name = "美系舰载-战斗机IV",
+		max_hp = 136,
+		accuracy = 23,
+		model_ID = "F4F",
 		ACC_growth = 0,
-		crash_DMG = 156,
+		crash_DMG = 78,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "Me155A",
+		icon = "F4F",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 5040,
+		hp_growth = 2520,
 		speed = 33,
-		id = 2200813,
+		id = 1100903,
 		scale = 0.75,
 		weapon_ID = {
 			1100748,
@@ -150,24 +150,24 @@ pg.aircraft_template_395 = {
 			}
 		}
 	},
-	[2200814] = {
-		name = "【大世界】德系舰载战斗机V",
-		max_hp = 320,
-		accuracy = 35,
-		model_ID = "Me155A",
+	[1100904] = {
+		name = "美系舰载-战斗机V",
+		max_hp = 160,
+		accuracy = 23,
+		model_ID = "F4F",
 		ACC_growth = 0,
-		crash_DMG = 196,
+		crash_DMG = 98,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "Me155A",
+		icon = "F4F",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 5600,
+		hp_growth = 2800,
 		speed = 33,
-		id = 2200814,
+		id = 1100904,
 		scale = 0.75,
 		weapon_ID = {
 			1100749,
@@ -225,24 +225,24 @@ pg.aircraft_template_395 = {
 			}
 		}
 	},
-	[2200815] = {
-		name = "【大世界】德系舰载鱼雷机I",
-		max_hp = 144,
-		accuracy = 35,
-		model_ID = "qibolin",
+	[1100905] = {
+		name = "美系舰载-鱼雷机I",
+		max_hp = 72,
+		accuracy = 23,
+		model_ID = "tbd",
 		ACC_growth = 0,
-		crash_DMG = 104,
+		crash_DMG = 52,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "qibolin",
+		icon = "tbd",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 4080,
+		hp_growth = 2040,
 		speed = 30,
-		id = 2200815,
+		id = 1100905,
 		scale = 0.75,
 		weapon_ID = {
 			1100755
@@ -299,24 +299,24 @@ pg.aircraft_template_395 = {
 			}
 		}
 	},
-	[2200816] = {
-		name = "【大世界】德系舰载鱼雷机II",
-		max_hp = 198,
-		accuracy = 35,
-		model_ID = "qibolin",
+	[1100906] = {
+		name = "美系舰载-鱼雷机II",
+		max_hp = 99,
+		accuracy = 23,
+		model_ID = "tbd",
 		ACC_growth = 0,
-		crash_DMG = 140,
+		crash_DMG = 70,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "qibolin",
+		icon = "tbd",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 4760,
+		hp_growth = 2380,
 		speed = 30,
-		id = 2200816,
+		id = 1100906,
 		scale = 0.75,
 		weapon_ID = {
 			1100756
@@ -373,24 +373,24 @@ pg.aircraft_template_395 = {
 			}
 		}
 	},
-	[2200817] = {
-		name = "【大世界】德系舰载鱼雷机III",
-		max_hp = 252,
-		accuracy = 35,
-		model_ID = "qibolin",
+	[1100907] = {
+		name = "美系舰载-鱼雷机III",
+		max_hp = 126,
+		accuracy = 23,
+		model_ID = "tbd",
 		ACC_growth = 0,
-		crash_DMG = 180,
+		crash_DMG = 90,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "qibolin",
+		icon = "tbd",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 5440,
+		hp_growth = 2720,
 		speed = 30,
-		id = 2200817,
+		id = 1100907,
 		scale = 0.75,
 		weapon_ID = {
 			1100757
@@ -447,24 +447,24 @@ pg.aircraft_template_395 = {
 			}
 		}
 	},
-	[2200818] = {
-		name = "【大世界】德系舰载鱼雷机IV",
-		max_hp = 306,
-		accuracy = 35,
-		model_ID = "qibolin",
+	[1100908] = {
+		name = "美系舰载-鱼雷机IV",
+		max_hp = 153,
+		accuracy = 23,
+		model_ID = "tbd",
 		ACC_growth = 0,
-		crash_DMG = 224,
+		crash_DMG = 112,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "qibolin",
+		icon = "tbd",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 6120,
+		hp_growth = 3060,
 		speed = 30,
-		id = 2200818,
+		id = 1100908,
 		scale = 0.75,
 		weapon_ID = {
 			1100758
@@ -521,24 +521,24 @@ pg.aircraft_template_395 = {
 			}
 		}
 	},
-	[2200819] = {
-		name = "【大世界】德系舰载鱼雷机V",
-		max_hp = 360,
-		accuracy = 35,
-		model_ID = "qibolin",
+	[1100909] = {
+		name = "美系舰载-鱼雷机V",
+		max_hp = 180,
+		accuracy = 23,
+		model_ID = "tbd",
 		ACC_growth = 0,
-		crash_DMG = 272,
+		crash_DMG = 136,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "qibolin",
+		icon = "tbd",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 6800,
+		hp_growth = 3400,
 		speed = 30,
-		id = 2200819,
+		id = 1100909,
 		scale = 0.75,
 		weapon_ID = {
 			1100759
@@ -595,27 +595,27 @@ pg.aircraft_template_395 = {
 			}
 		}
 	},
-	[2200820] = {
-		name = "【大世界】德系舰载轰炸机I",
-		max_hp = 160,
-		accuracy = 35,
-		model_ID = "JU87C",
+	[1100910] = {
+		name = "美系舰载-轰炸机I",
+		max_hp = 80,
+		accuracy = 23,
+		model_ID = "sbdwuwei",
 		ACC_growth = 0,
-		crash_DMG = 131,
+		crash_DMG = 65,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "JU87C",
+		icon = "sbdwuwei",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 4560,
+		hp_growth = 2280,
 		speed = 30,
-		id = 2200820,
+		id = 1100910,
 		scale = 0.75,
 		weapon_ID = {
-			1100760
+			1100970
 		},
 		position_offset = {
 			0,
@@ -669,27 +669,27 @@ pg.aircraft_template_395 = {
 			}
 		}
 	},
-	[2200821] = {
-		name = "【大世界】德系舰载轰炸机II",
-		max_hp = 220,
-		accuracy = 35,
-		model_ID = "JU87C",
+	[1100911] = {
+		name = "美系舰载-轰炸机II",
+		max_hp = 110,
+		accuracy = 23,
+		model_ID = "sbdwuwei",
 		ACC_growth = 0,
-		crash_DMG = 171,
+		crash_DMG = 85,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "JU87C",
+		icon = "sbdwuwei",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 5320,
+		hp_growth = 2660,
 		speed = 30,
-		id = 2200821,
+		id = 1100911,
 		scale = 0.75,
 		weapon_ID = {
-			1100761
+			1100971
 		},
 		position_offset = {
 			0,

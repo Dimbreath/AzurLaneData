@@ -45,6 +45,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "*yawn*... I was going to fall asleep if the meeting continued much longer... Anyway, I'll be heading back to Sardegna to make some more preparations.",
 			typewriter = {
 				speed = 0.05,

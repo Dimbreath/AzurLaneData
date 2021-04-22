@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.equip_data_statistics_74 = {
+	[5449] = {
+		id = 5449,
+		damage = "151 x 3",
+		base = 5440,
+		weapon_id = {
+			5449
+		}
+	},
+	[5450] = {
+		id = 5450,
+		damage = "162 x 3",
+		base = 5440,
+		weapon_id = {
+			5450
+		}
+	},
+	[5451] = {
+		anti_siren = 100,
+		damage = "162 x 3",
+		base = 5440,
+		id = 5451,
+		weapon_id = {
+			5451
+		}
+	},
 	[5500] = {
 		name = "550mm 24V Submarine Torpedo",
 		speciality = "Torpedo",
@@ -263,30 +288,6 @@ pg.equip_data_statistics_74 = {
 		base = 5540,
 		weapon_id = {
 			5542
-		}
-	},
-	[5543] = {
-		id = 5543,
-		damage = "78 x 2",
-		base = 5540,
-		weapon_id = {
-			5543
-		}
-	},
-	[5544] = {
-		id = 5544,
-		damage = "86 x 2",
-		base = 5540,
-		weapon_id = {
-			5544
-		}
-	},
-	[5545] = {
-		id = 5545,
-		damage = "94 x 2",
-		base = 5540,
-		weapon_id = {
-			5545
 		}
 	}
 }

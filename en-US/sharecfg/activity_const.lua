@@ -22,7 +22,7 @@ pg.activity_const = {
 		act_id = 20066
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 30498
+		act_id = 956
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 274
@@ -31,7 +31,7 @@ pg.activity_const = {
 		act_id = 270
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 30477
+		act_id = 708
 	},
 	DAY7_LOGIN_ACTIVITY_ID = {
 		act_id = 3

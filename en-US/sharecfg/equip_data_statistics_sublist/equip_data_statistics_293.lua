@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_293 = {
+	[43066] = {
+		id = 43066,
+		damage = "42 x 6",
+		base = 43060,
+		weapon_id = {
+			43066
+		}
+	},
+	[43067] = {
+		id = 43067,
+		damage = "44 x 6",
+		base = 43060,
+		weapon_id = {
+			43067
+		}
+	},
+	[43068] = {
+		id = 43068,
+		damage = "46 x 6",
+		base = 43060,
+		weapon_id = {
+			43068
+		}
+	},
 	[43069] = {
 		id = 43069,
 		damage = "48 x 6",
@@ -197,72 +221,6 @@ pg.equip_data_statistics_293 = {
 		base = 43120,
 		weapon_id = {
 			43124
-		}
-	},
-	[43125] = {
-		id = 43125,
-		damage = "42 x 6",
-		base = 43120,
-		weapon_id = {
-			43125
-		}
-	},
-	[43126] = {
-		id = 43126,
-		damage = "44 x 6",
-		base = 43120,
-		weapon_id = {
-			43126
-		}
-	},
-	[43140] = {
-		name = "Triple 283mm SK C/28 Main Gun Mount",
-		speciality = "Volley",
-		type = 11,
-		tech = 3,
-		descrip = "The Triple 283mm SK C/28 Main Gun Mount is the main gun of Deutschland class ships. May only be used by Deutschland class ships.",
-		value_2 = 25,
-		icon = "43100",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "35 x 6",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 43140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1406
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			43140
-		},
-		skill_id = {},
-		part_main = {
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CB",
-			"MG",
-			"AP"
 		}
 	}
 }

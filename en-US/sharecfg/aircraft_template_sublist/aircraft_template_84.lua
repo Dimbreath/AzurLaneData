@@ -1,5 +1,114 @@
 pg = pg or {}
 pg.aircraft_template_84 = {
+	[37126] = {
+		id = 37126,
+		base = 37120,
+		max_hp = 63,
+		hp_growth = 2426,
+		weapon_ID = {
+			50026,
+			50526,
+			52126
+		}
+	},
+	[37140] = {
+		name = "零战二一型",
+		max_hp = 37,
+		accuracy = 23,
+		model_ID = "lingzhan21",
+		ACC_growth = 0,
+		crash_DMG = 106,
+		dodge = 0.315,
+		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
+		AP_growth = 2000,
+		icon = "lingzhan21",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1404,
+		speed = 52,
+		id = 37140,
+		scale = 1,
+		weapon_ID = {
+			50040,
+			50540,
+			52140
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[37141] = {
+		id = 37141,
+		base = 37140,
+		max_hp = 42,
+		hp_growth = 1615,
+		weapon_ID = {
+			50041,
+			50541,
+			52141
+		}
+	},
+	[37142] = {
+		id = 37142,
+		base = 37140,
+		max_hp = 47,
+		hp_growth = 1826,
+		weapon_ID = {
+			50042,
+			50542,
+			52142
+		}
+	},
 	[37143] = {
 		id = 37143,
 		base = 37140,
@@ -64,115 +173,6 @@ pg.aircraft_template_84 = {
 			50048,
 			50548,
 			52148
-		}
-	},
-	[37149] = {
-		id = 37149,
-		base = 37140,
-		max_hp = 86,
-		hp_growth = 3301,
-		weapon_ID = {
-			50049,
-			50549,
-			52149
-		}
-	},
-	[37150] = {
-		id = 37150,
-		base = 37140,
-		max_hp = 91,
-		hp_growth = 3511,
-		weapon_ID = {
-			50050,
-			50550,
-			52150
-		}
-	},
-	[37151] = {
-		id = 37151,
-		base = 37140,
-		max_hp = 97,
-		hp_growth = 3722,
-		weapon_ID = {
-			50051,
-			50551,
-			52151
-		}
-	},
-	[37160] = {
-		name = "零战三二型",
-		max_hp = 37,
-		accuracy = 23,
-		model_ID = "lingzhan32",
-		ACC_growth = 0,
-		crash_DMG = 120,
-		dodge = 0.303,
-		attack_power = 2,
-		dodge_limit = 9,
-		type = 1,
-		AP_growth = 2000,
-		icon = "lingzhan32",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1404,
-		speed = 53,
-		id = 37160,
-		scale = 1,
-		weapon_ID = {
-			50040,
-			50560,
-			52140
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.76,
-					-1.22,
-					0
-				},
-				{
-					0.73,
-					1.25,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
 		}
 	}
 }

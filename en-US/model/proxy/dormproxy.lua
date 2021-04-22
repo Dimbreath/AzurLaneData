@@ -490,4 +490,10 @@ function slot0.NeedShopShowHelp(slot0)
 	return false
 end
 
+function slot0.IsShowRedDot(slot0)
+	slot1 = getProxy(DormProxy)
+
+	return slot1:isLackOfFood() or slot1:havePopEvent()
+end
+
 return slot0

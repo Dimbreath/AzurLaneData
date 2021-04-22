@@ -1,5 +1,81 @@
 pg = pg or {}
 pg.equip_data_statistics_157 = {
+	[22203] = {
+		id = 22203,
+		damage = "11 x 6",
+		base = 22200,
+		weapon_id = {
+			22203
+		}
+	},
+	[22220] = {
+		name = "Triple 152mm Main Gun",
+		speciality = "Lock",
+		type = 2,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "22200",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "9 x 6",
+		nationality = 2,
+		ammo = 1,
+		value_3 = 0,
+		id = 22220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1104
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1104
+			},
+			{
+				4,
+				1102
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			22220
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[22221] = {
+		id = 22221,
+		damage = "10 x 6",
+		base = 22220,
+		weapon_id = {
+			22221
+		}
+	},
 	[22222] = {
 		id = 22222,
 		damage = "11 x 6",
@@ -162,31 +238,6 @@ pg.equip_data_statistics_157 = {
 		base = 22240,
 		weapon_id = {
 			22248
-		}
-	},
-	[22249] = {
-		id = 22249,
-		damage = "20 x 6",
-		base = 22240,
-		weapon_id = {
-			22249
-		}
-	},
-	[22250] = {
-		id = 22250,
-		damage = "22 x 6",
-		base = 22240,
-		weapon_id = {
-			22250
-		}
-	},
-	[22251] = {
-		anti_siren = 100,
-		damage = "22 x 6",
-		base = 22240,
-		id = 22251,
-		weapon_id = {
-			22251
 		}
 	}
 }

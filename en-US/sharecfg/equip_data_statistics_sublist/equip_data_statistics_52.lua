@@ -1,5 +1,57 @@
 pg = pg or {}
 pg.equip_data_statistics_52 = {
+	[2903] = {
+		id = 2903,
+		value_2 = 3,
+		value_1 = "4",
+		base = 2900
+	},
+	[2920] = {
+		name = "Basic Sonar",
+		tech = 2,
+		type = 10,
+		speciality = "N/A",
+		id = 2920,
+		value_2 = 2,
+		icon = "2900",
+		value_1 = "3",
+		attribute_2 = "hit",
+		rarity = 3,
+		descrip = "No description",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "antisub",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {
+			1,
+			2
+		},
+		part_sub = {
+			1,
+			2
+		},
+		equip_parameters = {
+			range = 3
+		},
+		label = {
+			"DEV"
+		}
+	},
+	[2921] = {
+		id = 2921,
+		value_2 = 3,
+		value_1 = "4",
+		base = 2920
+	},
 	[2922] = {
 		id = 2922,
 		value_2 = 3,
@@ -118,24 +170,5 @@ pg.equip_data_statistics_52 = {
 		value_2 = 8,
 		value_1 = "14",
 		base = 2940
-	},
-	[2949] = {
-		id = 2949,
-		value_2 = 8,
-		value_1 = "16",
-		base = 2940
-	},
-	[2950] = {
-		id = 2950,
-		value_2 = 9,
-		value_1 = "18",
-		base = 2940
-	},
-	[2951] = {
-		id = 2951,
-		anti_siren = 100,
-		base = 2940,
-		value_2 = 10,
-		value_1 = "20"
 	}
 }

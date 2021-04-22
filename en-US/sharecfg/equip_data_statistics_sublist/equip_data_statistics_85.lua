@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.equip_data_statistics_85 = {
+	[11149] = {
+		id = 11149,
+		damage = "14 x 3",
+		base = 11140,
+		weapon_id = {
+			11149
+		}
+	},
+	[11150] = {
+		id = 11150,
+		damage = "15 x 3",
+		base = 11140,
+		weapon_id = {
+			11150
+		}
+	},
+	[11151] = {
+		anti_siren = 100,
+		damage = "15 x 3",
+		base = 11140,
+		id = 11151,
+		weapon_id = {
+			11151
+		}
+	},
 	[11160] = {
 		name = "Twin 127mm Secondary Gun Mount",
 		speciality = "Lock",
@@ -227,30 +252,6 @@ pg.equip_data_statistics_85 = {
 		base = 11200,
 		weapon_id = {
 			11201
-		}
-	},
-	[11202] = {
-		id = 11202,
-		damage = "6 x 4",
-		base = 11200,
-		weapon_id = {
-			11202
-		}
-	},
-	[11203] = {
-		id = 11203,
-		damage = "6 x 4",
-		base = 11200,
-		weapon_id = {
-			11203
-		}
-	},
-	[11204] = {
-		id = 11204,
-		damage = "7 x 4",
-		base = 11200,
-		weapon_id = {
-			11204
 		}
 	}
 }

@@ -1067,5 +1067,21 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Sugiura Shiori ",
 		code = 267
+	},
+	{
+		actor_name = "Eino Airi ",
+		code = 268
+	},
+	{
+		actor_name = "Koga Aoi ",
+		code = 269
+	},
+	{
+		actor_name = "Hirata Hiromi ",
+		code = 270
+	},
+	{
+		actor_name = "Tanaka Takako ",
+		code = 271
 	}
 }

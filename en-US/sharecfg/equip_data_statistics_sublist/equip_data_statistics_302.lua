@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_302 = {
+	[45129] = {
+		id = 45129,
+		damage = "126 x 4",
+		base = 45120,
+		weapon_id = {
+			45129
+		}
+	},
+	[45130] = {
+		id = 45130,
+		damage = "133 x 4",
+		base = 45120,
+		weapon_id = {
+			45130
+		}
+	},
+	[45140] = {
+		name = "533mm Quadruple Magnetic Torpedo Mount",
+		speciality = "Torpedo",
+		type = 5,
+		tech = 3,
+		descrip = "The 533mm Quadruple Magnetic Torpedo Mount was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
+		value_2 = 45,
+		icon = "45100",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "70 x 4",
+		nationality = 4,
+		ammo = 4,
+		value_3 = 0,
+		id = 45140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1803
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1803
+			},
+			{
+				4,
+				1403
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			45140
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP",
+			"QUAD"
+		}
+	},
 	[45141] = {
 		id = 45141,
 		damage = "77 x 4",
@@ -167,30 +245,6 @@ pg.equip_data_statistics_302 = {
 			"ST",
 			"TP",
 			"QUINT"
-		}
-	},
-	[45201] = {
-		id = 45201,
-		damage = "69 x 5",
-		base = 45200,
-		weapon_id = {
-			45201
-		}
-	},
-	[45202] = {
-		id = 45202,
-		damage = "75 x 5",
-		base = 45200,
-		weapon_id = {
-			45202
-		}
-	},
-	[45203] = {
-		id = 45203,
-		damage = "81 x 5",
-		base = 45200,
-		weapon_id = {
-			45203
 		}
 	}
 }

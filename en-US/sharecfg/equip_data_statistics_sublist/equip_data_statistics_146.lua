@@ -1,5 +1,86 @@
 pg = pg or {}
 pg.equip_data_statistics_146 = {
+	[21120] = {
+		name = "Twin 102mm Secondary Gun Mount",
+		speciality = "Lock",
+		type = 1,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "21100",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "3 x 2",
+		nationality = 2,
+		ammo = 3,
+		value_3 = 0,
+		id = 21120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1100
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1100
+			},
+			{
+				4,
+				1007
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			21120
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
+	},
+	[21121] = {
+		id = 21121,
+		base = 21120,
+		weapon_id = {
+			21121
+		}
+	},
+	[21122] = {
+		id = 21122,
+		damage = "4 x 2",
+		base = 21120,
+		weapon_id = {
+			21122
+		}
+	},
 	[21123] = {
 		id = 21123,
 		damage = "4 x 2",
@@ -222,30 +303,6 @@ pg.equip_data_statistics_146 = {
 		base = 21160,
 		weapon_id = {
 			21164
-		}
-	},
-	[21165] = {
-		id = 21165,
-		damage = "5 x 2",
-		base = 21160,
-		weapon_id = {
-			21165
-		}
-	},
-	[21166] = {
-		id = 21166,
-		damage = "8 x 2",
-		base = 21160,
-		weapon_id = {
-			21166
-		}
-	},
-	[21167] = {
-		id = 21167,
-		damage = "8 x 2",
-		base = 21160,
-		weapon_id = {
-			21167
 		}
 	}
 }

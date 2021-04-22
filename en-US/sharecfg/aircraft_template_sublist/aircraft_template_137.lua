@@ -1,5 +1,49 @@
 pg = pg or {}
 pg.aircraft_template_137 = {
+	[65202] = {
+		max_hp = 48,
+		name = "大凤μ技能轰炸机Lv2",
+		base = 65201,
+		id = 65202,
+		hp_growth = 1846,
+		weapon_ID = {
+			65212,
+			65222
+		}
+	},
+	[65203] = {
+		max_hp = 54,
+		name = "大凤μ技能轰炸机Lv3",
+		base = 65201,
+		id = 65203,
+		hp_growth = 2087,
+		weapon_ID = {
+			65213,
+			65223
+		}
+	},
+	[65204] = {
+		max_hp = 61,
+		name = "大凤μ技能轰炸机Lv4",
+		base = 65201,
+		id = 65204,
+		hp_growth = 2327,
+		weapon_ID = {
+			65214,
+			65224
+		}
+	},
+	[65205] = {
+		max_hp = 67,
+		name = "大凤μ技能轰炸机Lv5",
+		base = 65201,
+		id = 65205,
+		hp_growth = 2568,
+		weapon_ID = {
+			65215,
+			65225
+		}
+	},
 	[65206] = {
 		max_hp = 73,
 		name = "大凤μ技能轰炸机Lv6",
@@ -127,46 +171,6 @@ pg.aircraft_template_137 = {
 				0,
 				0
 			}
-		}
-	},
-	[65252] = {
-		max_hp = 41,
-		name = "坠星机LV2",
-		base = 65251,
-		id = 65252,
-		hp_growth = 1594,
-		weapon_ID = {
-			65262
-		}
-	},
-	[65253] = {
-		max_hp = 47,
-		name = "坠星机LV3",
-		base = 65251,
-		id = 65253,
-		hp_growth = 1802,
-		weapon_ID = {
-			65263
-		}
-	},
-	[65254] = {
-		max_hp = 52,
-		name = "坠星机LV4",
-		base = 65251,
-		id = 65254,
-		hp_growth = 2010,
-		weapon_ID = {
-			65264
-		}
-	},
-	[65255] = {
-		max_hp = 58,
-		name = "坠星机LV5",
-		base = 65251,
-		id = 65255,
-		hp_growth = 2218,
-		weapon_ID = {
-			65265
 		}
 	}
 }

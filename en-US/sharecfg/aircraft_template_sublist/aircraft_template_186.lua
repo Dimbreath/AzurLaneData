@@ -1,35 +1,81 @@
 pg = pg or {}
 pg.aircraft_template_186 = {
-	[69510] = {
-		max_hp = 98,
-		name = "小光辉圣光飞机Lv10",
-		base = 69501,
-		id = 69510,
-		hp_growth = 3511,
-		weapon_ID = {}
+	[69456] = {
+		max_hp = 84,
+		name = "贝亚恩V-156F-LV6",
+		base = 69451,
+		id = 69456,
+		hp_growth = 3218,
+		weapon_ID = {
+			50706,
+			69466
+		}
 	},
-	[69691] = {
-		name = "英仙座技能海黄蜂Lv1",
-		max_hp = 42,
+	[69457] = {
+		max_hp = 90,
+		name = "贝亚恩V-156F-LV7",
+		base = 69451,
+		id = 69457,
+		hp_growth = 3472,
+		weapon_ID = {
+			50707,
+			69467
+		}
+	},
+	[69458] = {
+		max_hp = 97,
+		name = "贝亚恩V-156F-LV8",
+		base = 69451,
+		id = 69458,
+		hp_growth = 3726,
+		weapon_ID = {
+			50708,
+			69468
+		}
+	},
+	[69459] = {
+		max_hp = 103,
+		name = "贝亚恩V-156F-LV9",
+		base = 69451,
+		id = 69459,
+		hp_growth = 3980,
+		weapon_ID = {
+			50709,
+			69469
+		}
+	},
+	[69460] = {
+		max_hp = 110,
+		name = "贝亚恩V-156F-LV10",
+		base = 69451,
+		id = 69460,
+		hp_growth = 4234,
+		weapon_ID = {
+			50710,
+			69470
+		}
+	},
+	[69481] = {
+		name = "小光辉技能鱼雷机Lv1",
+		max_hp = 40,
 		accuracy = 23,
-		model_ID = "haidahuangfeng",
+		model_ID = "jianyu",
 		ACC_growth = 0,
-		crash_DMG = 208,
-		dodge = 1,
+		crash_DMG = 306,
+		dodge = 1.11,
 		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
+		dodge_limit = 4,
+		type = 2,
 		AP_growth = 2000,
-		icon = "haidahuangfeng",
+		icon = "jianyu",
 		funnel_behavior = "",
 		nationality = 2,
-		hp_growth = 1692,
-		speed = 48,
-		id = 69691,
+		hp_growth = 1538,
+		speed = 45,
+		id = 69481,
 		scale = 1,
 		weapon_ID = {
-			50661,
-			69721
+			69491
 		},
 		position_offset = {
 			0,
@@ -72,7 +118,7 @@ pg.aircraft_template_186 = {
 				0
 			},
 			{
-				0.54,
+				0.52,
 				0,
 				0
 			},
@@ -83,92 +129,44 @@ pg.aircraft_template_186 = {
 			}
 		}
 	},
-	[69692] = {
-		max_hp = 48,
-		name = "英仙座技能海黄蜂Lv2",
-		base = 69691,
-		id = 69692,
-		hp_growth = 1913,
+	[69482] = {
+		max_hp = 45,
+		name = "小光辉技能鱼雷机Lv2",
+		base = 69481,
+		id = 69482,
+		hp_growth = 1739,
 		weapon_ID = {
-			50662,
-			69722
+			69492
 		}
 	},
-	[69693] = {
-		max_hp = 54,
-		name = "英仙座技能海黄蜂Lv3",
-		base = 69691,
-		id = 69693,
-		hp_growth = 2133,
+	[69483] = {
+		max_hp = 50,
+		name = "小光辉技能鱼雷机Lv3",
+		base = 69481,
+		id = 69483,
+		hp_growth = 1940,
 		weapon_ID = {
-			50663,
-			69723
+			69493
 		}
 	},
-	[69694] = {
+	[69484] = {
+		max_hp = 56,
+		name = "小光辉技能鱼雷机Lv4",
+		base = 69481,
+		id = 69484,
+		hp_growth = 2140,
+		weapon_ID = {
+			69494
+		}
+	},
+	[69485] = {
 		max_hp = 61,
-		name = "英仙座技能海黄蜂Lv4",
-		base = 69691,
-		id = 69694,
-		hp_growth = 2354,
+		name = "小光辉技能鱼雷机Lv5",
+		base = 69481,
+		id = 69485,
+		hp_growth = 2341,
 		weapon_ID = {
-			50664,
-			69724
-		}
-	},
-	[69695] = {
-		max_hp = 67,
-		name = "英仙座技能海黄蜂Lv5",
-		base = 69691,
-		id = 69695,
-		hp_growth = 2575,
-		weapon_ID = {
-			50665,
-			69725
-		}
-	},
-	[69696] = {
-		max_hp = 73,
-		name = "英仙座技能海黄蜂Lv6",
-		base = 69691,
-		id = 69696,
-		hp_growth = 2796,
-		weapon_ID = {
-			50666,
-			69726
-		}
-	},
-	[69697] = {
-		max_hp = 79,
-		name = "英仙座技能海黄蜂Lv7",
-		base = 69691,
-		id = 69697,
-		hp_growth = 3016,
-		weapon_ID = {
-			50667,
-			69727
-		}
-	},
-	[69698] = {
-		max_hp = 86,
-		name = "英仙座技能海黄蜂Lv8",
-		base = 69691,
-		id = 69698,
-		hp_growth = 3237,
-		weapon_ID = {
-			50668,
-			69728
-		}
-	},
-	[69699] = {
-		max_hp = 92,
-		name = "英仙座技能海黄蜂Lv9",
-		base = 69691,
-		id = 69699,
-		hp_growth = 3458,
-		weapon_ID = {
-			50669,
-			69729
+			69495
 		}
 	}
 }

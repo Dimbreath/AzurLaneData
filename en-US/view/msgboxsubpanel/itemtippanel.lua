@@ -258,24 +258,10 @@ function slot0.OnRefresh(slot0, slot1)
 
 							return
 						end
-					elseif uv1 == SCENE.MILITARYEXERCISE then
-						if not getProxy(MilitaryExerciseProxy):getSeasonInfo():canExercise() then
-							pg.TipsMgr.GetInstance():ShowTips(i18n("exercise_count_insufficient"))
+					elseif uv1 == SCENE.MILITARYEXERCISE and not getProxy(MilitaryExerciseProxy):getSeasonInfo():canExercise() then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("exercise_count_insufficient"))
 
-							return
-						end
-					elseif uv1 == SCENE.SHOP then
-						slot3, slot4 = NewShopsScene.getSceneOpen(getProxy(PlayerProxy).data.level, slot0.warp)
-
-						if not slot3 then
-							uv3.viewParent:hide()
-							pg.m02:sendNotification(GAME.GO_SCENE, uv1, {
-								warp = NewShopsScene.TYPE_SHOP_STREET
-							})
-							pg.TipsMgr.GetInstance():ShowTips(slot4)
-
-							return
-						end
+						return
 					end
 
 					uv3.viewParent:hide()

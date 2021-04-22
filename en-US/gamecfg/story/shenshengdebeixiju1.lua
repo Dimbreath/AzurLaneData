@@ -276,11 +276,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_story_italy",
-			nameColor = "#ffde38",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "There's no way the Sirens are supposed to be here in the Mediterranean Sea. Are you certain your information is correct?",
 			typewriter = {
 				speed = 0.05,
@@ -324,6 +325,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "What are those Iron Blood bastards doing, allowing the Sirens to advance this deep into our territory...",
 			typewriter = {
 				speed = 0.05,
@@ -341,6 +343,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "(One of our demands for joining the Crimson Axis was that the safety of the Mediterranean would be secured...)",
 			typewriter = {
 				speed = 0.05,
@@ -358,6 +361,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "(I was already apprehensive of them when the Sirens dismantled the Vichya Dominion, but now they advance upon us...)",
 			typewriter = {
 				speed = 0.05,
@@ -391,6 +395,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "Littorio...",
 			typewriter = {
 				speed = 0.05,
@@ -526,6 +531,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "R-right...",
 			typewriter = {
 				speed = 0.05,
@@ -559,6 +565,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "But... I...",
 			typewriter = {
 				speed = 0.05,

@@ -390,7 +390,7 @@ pg.skill_world_display = {
 	[12440] = {
 		desc_get = "",
 		id = 12440,
-		desc = "[Operation Siren only] \nEvery time the fleet this ship is in defeats an enemy fleet during a sortie: increases this ship's FP by $1; also, for every enemy this ship sinks during a battle: increases this ship's FP by $1 until the battle ends (this skill's FP buffs stack up to a total of $2 times). After 5 enemy fleets have been defeated: reduces DMG taken by your Main Fleet by $2. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
+		desc = "[Operation Siren only] \nEvery time the fleet this ship is in defeats an enemy fleet during a sortie: increases this ship's FP by $1; also, for every enemy this ship sinks during a battle: increases this ship's FP by $1 until the battle ends (this skill's FP buffs stack up to a total of 7 times). After 5 enemy fleets have been defeated: reduces DMG taken by your Main Fleet by $2. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
 		desc_get_add = {
 			{
 				"1.0%",
@@ -1368,6 +1368,204 @@ pg.skill_world_display = {
 			}
 		}
 	},
+	[14330] = {
+		desc_get = "",
+		id = 14330,
+		desc = "[Operation Siren only] \nInAt the start of the battle, if your fleet contains at least one other Sardegna ship, or if this ship has an AP Main Gun equipped: increases this ship's FP by $1. Additionally, for the first 3 battles of a sortie: the fleet this ship is in takes $2 less DMG from torpedoes.[This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"5.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.6%"
+				},
+				{
+					"6.6%",
+					"+1.6%"
+				},
+				{
+					"8.2%",
+					"+1.8%"
+				},
+				{
+					"10.0%",
+					"+1.6%"
+				},
+				{
+					"11.6%",
+					"+1.6%"
+				},
+				{
+					"13.2%",
+					"+1.8%"
+				},
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.8%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[14440] = {
+		desc_get = "",
+		id = 14440,
+		desc = "[Operation Siren only] \nInFor the first 3 battles of a sortie: increases this ship's AA and EVA by $1 and Speed by 5. When the fleet this ship is in defeats an enemy fleet: increases this ship's FP, TRP, and RLD by $2 (can be stacked up to 3 times).[This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"0.5%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"0.5%",
+					"+0.5%"
+				},
+				{
+					"1.0%",
+					"+0.5%"
+				},
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
 	[19260] = {
 		desc_get = "",
 		id = 19260,
@@ -1627,6 +1825,8 @@ pg.skill_world_display = {
 		13670,
 		13840,
 		14160,
+		14330,
+		14440,
 		19260,
 		105010,
 		105020

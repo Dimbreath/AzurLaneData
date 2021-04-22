@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_121 = {
+	[16320] = {
+		name = "Twin 40mm Bofors AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "16300",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "23/wave",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 16320,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			16320
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
+	},
+	[16321] = {
+		id = 16321,
+		damage = "26/wave",
+		base = 16320,
+		weapon_id = {
+			16321
+		}
+	},
+	[16322] = {
+		id = 16322,
+		damage = "29/wave",
+		base = 16320,
+		weapon_id = {
+			16322
+		}
+	},
 	[16323] = {
 		id = 16323,
 		damage = "33/wave",
@@ -164,85 +242,6 @@ pg.equip_data_statistics_121 = {
 		base = 16340,
 		weapon_id = {
 			16349
-		}
-	},
-	[16350] = {
-		id = 16350,
-		damage = "62/wave",
-		base = 16340,
-		weapon_id = {
-			16350
-		}
-	},
-	[16351] = {
-		anti_siren = 100,
-		damage = "62/wave",
-		base = 16340,
-		id = 16351,
-		weapon_id = {
-			16351
-		}
-	},
-	[16400] = {
-		name = "Quadruple 40mm Bofors AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 1,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "16400",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "38/wave",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 16400,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			16400
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"ST",
-			"AA"
 		}
 	}
 }

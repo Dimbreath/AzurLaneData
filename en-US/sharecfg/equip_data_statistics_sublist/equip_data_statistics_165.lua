@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_165 = {
+	[24065] = {
+		id = 24065,
+		damage = "87 x 2",
+		base = 24060,
+		weapon_id = {
+			24065
+		}
+	},
+	[24066] = {
+		id = 24066,
+		damage = "92 x 2",
+		base = 24060,
+		weapon_id = {
+			24066
+		}
+	},
+	[24067] = {
+		id = 24067,
+		damage = "99 x 2",
+		base = 24060,
+		weapon_id = {
+			24067
+		}
+	},
 	[24068] = {
 		id = 24068,
 		damage = "104 x 2",
@@ -200,75 +224,6 @@ pg.equip_data_statistics_165 = {
 		base = 24120,
 		weapon_id = {
 			24125
-		}
-	},
-	[24126] = {
-		id = 24126,
-		damage = "90 x 2",
-		base = 24120,
-		weapon_id = {
-			24126
-		}
-	},
-	[24140] = {
-		name = "Twin 381mm Main Gun Mount",
-		speciality = "Volley",
-		type = 4,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "24100",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "56 x 2",
-		nationality = 2,
-		ammo = 1,
-		value_3 = 0,
-		id = 24140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1501
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			24140
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"BB",
-			"MG",
-			"AP"
-		}
-	},
-	[24141] = {
-		id = 24141,
-		damage = "62 x 2",
-		base = 24140,
-		weapon_id = {
-			24141
 		}
 	}
 }

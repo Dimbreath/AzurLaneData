@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_256 = {
+	[36588] = {
+		id = 36588,
+		damage = "76/wave",
+		base = 36580,
+		weapon_id = {
+			36588
+		}
+	},
+	[36589] = {
+		id = 36589,
+		damage = "80/wave",
+		base = 36580,
+		weapon_id = {
+			36589
+		}
+	},
+	[36590] = {
+		id = 36590,
+		damage = "84/wave",
+		base = 36580,
+		weapon_id = {
+			36590
+		}
+	},
 	[36591] = {
 		anti_siren = 100,
 		damage = "84/wave",
@@ -273,30 +297,6 @@ pg.equip_data_statistics_256 = {
 		base = 36640,
 		weapon_id = {
 			36641
-		}
-	},
-	[36642] = {
-		id = 36642,
-		damage = "60/wave",
-		base = 36640,
-		weapon_id = {
-			36642
-		}
-	},
-	[36643] = {
-		id = 36643,
-		damage = "67/wave",
-		base = 36640,
-		weapon_id = {
-			36643
-		}
-	},
-	[36644] = {
-		id = 36644,
-		damage = "74/wave",
-		base = 36640,
-		weapon_id = {
-			36644
 		}
 	}
 }

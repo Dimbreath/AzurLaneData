@@ -148,6 +148,302 @@ pg.aircraft_template_3 = {
 			}
 		}
 	},
+	[148] = {
+		name = "默认撒丁战斗机",
+		max_hp = 28,
+		accuracy = 23,
+		model_ID = "g50",
+		ACC_growth = 0,
+		crash_DMG = 9,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "g50",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1075,
+		speed = 50,
+		id = 148,
+		scale = 1,
+		weapon_ID = {
+			132
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[149] = {
+		name = "默认撒丁鱼雷机",
+		max_hp = 25,
+		accuracy = 23,
+		model_ID = "re2001",
+		ACC_growth = 0,
+		crash_DMG = 9,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "re2001",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 973,
+		speed = 48,
+		id = 149,
+		scale = 1,
+		weapon_ID = {
+			136
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[150] = {
+		name = "默认撒丁轰炸机",
+		max_hp = 29,
+		accuracy = 23,
+		model_ID = "re2001",
+		ACC_growth = 0,
+		crash_DMG = 9,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "re2001",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1126,
+		speed = 46,
+		id = 150,
+		scale = 1,
+		weapon_ID = {
+			139
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[151] = {
+		name = "默认撒丁战斗机-自动防空",
+		max_hp = 28,
+		accuracy = 23,
+		model_ID = "g50",
+		ACC_growth = 0,
+		crash_DMG = 9,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "g50",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1075,
+		speed = 50,
+		id = 151,
+		scale = 1,
+		weapon_ID = {
+			146
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
 	[4200] = {
 		name = "剑鱼Mark.II-ASV",
 		max_hp = 28,
@@ -247,107 +543,6 @@ pg.aircraft_template_3 = {
 		hp_growth = 1587,
 		weapon_ID = {
 			53103
-		}
-	},
-	[4220] = {
-		name = "剑鱼Mark.II-ASV",
-		max_hp = 32,
-		accuracy = 23,
-		model_ID = "jianyuasv",
-		ACC_growth = 0,
-		crash_DMG = 102,
-		dodge = 1.15,
-		attack_power = 2,
-		dodge_limit = 3.5,
-		type = 3,
-		AP_growth = 2000,
-		icon = "jianyuasv",
-		funnel_behavior = "",
-		nationality = 0,
-		hp_growth = 1216,
-		speed = 45,
-		id = 4220,
-		scale = 1,
-		weapon_ID = {
-			53120
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					1.03,
-					-1.43,
-					0
-				},
-				{
-					1.01,
-					1.43,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.52,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[4221] = {
-		id = 4221,
-		base = 4220,
-		max_hp = 36,
-		hp_growth = 1398,
-		weapon_ID = {
-			53121
-		}
-	},
-	[4222] = {
-		id = 4222,
-		base = 4220,
-		max_hp = 41,
-		hp_growth = 1581,
-		weapon_ID = {
-			53122
-		}
-	},
-	[4223] = {
-		id = 4223,
-		base = 4220,
-		max_hp = 46,
-		hp_growth = 1763,
-		weapon_ID = {
-			53123
 		}
 	}
 }

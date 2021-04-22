@@ -1,5 +1,31 @@
 pg = pg or {}
 pg.equip_data_statistics_259 = {
+	[36710] = {
+		id = 36710,
+		damage = "87/wave",
+		base = 36700,
+		weapon_id = {
+			36710
+		}
+	},
+	[36711] = {
+		anti_siren = 100,
+		damage = "87/wave",
+		base = 36700,
+		id = 36711,
+		weapon_id = {
+			36711
+		}
+	},
+	[36712] = {
+		anti_siren = 200,
+		damage = "87/wave",
+		base = 36700,
+		id = 36712,
+		weapon_id = {
+			36712
+		}
+	},
 	[36713] = {
 		anti_siren = 300,
 		damage = "87/wave",
@@ -293,48 +319,6 @@ pg.equip_data_statistics_259 = {
 		weapon_id = {
 			37044,
 			83044
-		}
-	},
-	[37045] = {
-		id = 37045,
-		base = 37040,
-		ammo_info = {
-			{
-				6,
-				50045
-			}
-		},
-		weapon_id = {
-			37045,
-			83045
-		}
-	},
-	[37046] = {
-		id = 37046,
-		base = 37040,
-		ammo_info = {
-			{
-				6,
-				50046
-			}
-		},
-		weapon_id = {
-			37046,
-			83046
-		}
-	},
-	[37047] = {
-		id = 37047,
-		base = 37040,
-		ammo_info = {
-			{
-				6,
-				50047
-			}
-		},
-		weapon_id = {
-			37047,
-			83047
 		}
 	}
 }

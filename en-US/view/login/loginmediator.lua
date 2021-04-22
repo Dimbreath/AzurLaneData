@@ -3,6 +3,7 @@ slot0.ON_LOGIN = "LoginMediator:ON_LOGIN"
 slot0.ON_REGISTER = "LoginMediator:ON_REGISTER"
 slot0.ON_SERVER = "LoginMediator:ON_SERVER"
 slot0.ON_LOGIN_PROCESS = "LoginMediator:ON_LOGIN_PROCESS"
+slot0.ON_SEARCH_ACCOUNT = "LoginMediator:ON_SEARCH_ACCOUNT"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.ON_LOGIN, function (slot0, slot1)
@@ -16,6 +17,9 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.ON_LOGIN_PROCESS, function (slot0)
 		uv0:loginProcessHandler()
+	end)
+	slot0:bind(uv0.ON_SEARCH_ACCOUNT, function (slot0, slot1)
+		uv0:sendNotification(GAME.ACCOUNT_SEARCH, slot1)
 	end)
 	slot0:loginProcessHandler()
 end

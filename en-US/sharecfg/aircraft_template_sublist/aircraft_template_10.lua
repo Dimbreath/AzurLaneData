@@ -1,5 +1,41 @@
 pg = pg or {}
 pg.aircraft_template_10 = {
+	[17062] = {
+		id = 17062,
+		base = 17060,
+		max_hp = 52,
+		hp_growth = 2018,
+		weapon_ID = {
+			50362
+		}
+	},
+	[17063] = {
+		id = 17063,
+		base = 17060,
+		max_hp = 59,
+		hp_growth = 2251,
+		weapon_ID = {
+			50363
+		}
+	},
+	[17064] = {
+		id = 17064,
+		base = 17060,
+		max_hp = 65,
+		hp_growth = 2484,
+		weapon_ID = {
+			50364
+		}
+	},
+	[17065] = {
+		id = 17065,
+		base = 17060,
+		max_hp = 71,
+		hp_growth = 2717,
+		weapon_ID = {
+			50365
+		}
+	},
 	[17066] = {
 		id = 17066,
 		base = 17060,
@@ -52,109 +88,6 @@ pg.aircraft_template_10 = {
 		hp_growth = 4114,
 		weapon_ID = {
 			50371
-		}
-	},
-	[17072] = {
-		id = 17072,
-		base = 17060,
-		max_hp = 113,
-		hp_growth = 4346,
-		weapon_ID = {
-			50372
-		}
-	},
-	[17073] = {
-		id = 17073,
-		base = 17060,
-		max_hp = 119,
-		hp_growth = 4579,
-		weapon_ID = {
-			50373
-		}
-	},
-	[17080] = {
-		name = "试作型XF2A-4水牛",
-		max_hp = 40,
-		accuracy = 23,
-		model_ID = "XF2A4",
-		ACC_growth = 0,
-		crash_DMG = 88,
-		dodge = 0.333,
-		attack_power = 2,
-		dodge_limit = 9.5,
-		type = 1,
-		AP_growth = 2000,
-		icon = "XF2A4",
-		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1552,
-		speed = 45,
-		id = 17080,
-		scale = 1,
-		weapon_ID = {
-			50340,
-			52140
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					1,
-					-1.59,
-					0
-				},
-				{
-					1.01,
-					1.56,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[17081] = {
-		id = 17081,
-		base = 17080,
-		max_hp = 46,
-		hp_growth = 1785,
-		weapon_ID = {
-			50341,
-			52141
 		}
 	}
 }

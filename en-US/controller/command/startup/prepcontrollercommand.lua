@@ -344,6 +344,7 @@ function slot0.execute(slot0, slot1)
 	slot0.facade:registerCommand(GAME.CHECK_HOTFIX_VER, CheckHotfixCommand)
 	slot0.facade:registerCommand(GAME.EXTRA_PROTO_RESULT, ExtraProtoResultCommand)
 	slot0.facade:registerCommand(GAME.GET_REFUND_INFO, GetRefundInfoCommand)
+	slot0.facade:registerCommand(GAME.ACCOUNT_SEARCH, AccountSearchCommand)
 end
 
 return slot0

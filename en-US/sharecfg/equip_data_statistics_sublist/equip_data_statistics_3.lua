@@ -9,7 +9,7 @@ pg.equip_data_statistics_3 = {
 		descrip = "Default gear",
 		value_2 = 0,
 		icon = "1",
-		nationality = 3,
+		nationality = 8,
 		ammo = 5,
 		value_3 = 0,
 		id = 127,
@@ -173,6 +173,118 @@ pg.equip_data_statistics_3 = {
 			"DC"
 		}
 	},
+	[148] = {
+		name = "默认撒丁战斗机",
+		tech = 1,
+		speciality = "空战",
+		type = 7,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 148,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			148,
+			151
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CV",
+			"FT"
+		}
+	},
+	[149] = {
+		name = "默认撒丁鱼雷机",
+		tech = 1,
+		speciality = "雷击",
+		type = 8,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 149,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			149
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CV",
+			"TB"
+		}
+	},
+	[150] = {
+		name = "默认撒丁轰炸机",
+		tech = 1,
+		speciality = "轰炸",
+		type = 9,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 150,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			150
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CV",
+			"DB"
+		}
+	},
 	[201] = {
 		name = "T1 Eagles Light Cruiser Torpedo Secondary Gun",
 		speciality = "Lock",
@@ -330,72 +442,6 @@ pg.equip_data_statistics_3 = {
 		id = 215,
 		weapon_id = {
 			215
-		}
-	},
-	[221] = {
-		name = "T1 Sakura Light Cruiser Torpedo Secondary Gun",
-		speciality = "Lock",
-		type = 1,
-		tech = 1,
-		rarity = 1,
-		descrip = "Default gear",
-		value_2 = 0,
-		icon = "1",
-		damage = "2 x 2",
-		nationality = 0,
-		ammo = 5,
-		value_3 = 0,
-		id = 221,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			221
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"DD",
-			"MG"
-		}
-	},
-	[222] = {
-		name = "T2 Sakura Light Cruiser Torpedo Secondary Gun",
-		damage = "3 x 2",
-		base = 221,
-		id = 222,
-		weapon_id = {
-			222
-		}
-	},
-	[223] = {
-		name = "T3 Sakura Light Cruiser Torpedo Secondary Gun",
-		damage = "3 x 2",
-		base = 221,
-		id = 223,
-		ammo_icon = {
-			3
-		},
-		weapon_id = {
-			223
 		}
 	}
 }

@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_191 = {
+	[26668] = {
+		id = 26668,
+		damage = "126/wave",
+		base = 26660,
+		weapon_id = {
+			26668
+		}
+	},
+	[26669] = {
+		id = 26669,
+		damage = "138/wave",
+		base = 26660,
+		weapon_id = {
+			26669
+		}
+	},
+	[26670] = {
+		id = 26670,
+		damage = "150/wave",
+		base = 26660,
+		weapon_id = {
+			26670
+		}
+	},
 	[26671] = {
 		anti_siren = 100,
 		damage = "150/wave",
@@ -337,107 +361,6 @@ pg.equip_data_statistics_191 = {
 		weapon_id = {
 			27026,
 			82026
-		}
-	},
-	[27040] = {
-		name = "Spitfire",
-		type = 7,
-		speciality = "Air",
-		rarity = 4,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "27000",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 27040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50140
-			},
-			{
-				6,
-				50540
-			},
-			{
-				5,
-				52240
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			27040,
-			82040
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"FT"
-		}
-	},
-	[27041] = {
-		id = 27041,
-		base = 27040,
-		ammo_info = {
-			{
-				6,
-				50141
-			},
-			{
-				6,
-				50541
-			},
-			{
-				5,
-				52241
-			}
-		},
-		weapon_id = {
-			27041,
-			82041
-		}
-	},
-	[27042] = {
-		id = 27042,
-		base = 27040,
-		ammo_info = {
-			{
-				6,
-				50142
-			},
-			{
-				6,
-				50542
-			},
-			{
-				5,
-				52242
-			}
-		},
-		weapon_id = {
-			27042,
-			82042
 		}
 	}
 }

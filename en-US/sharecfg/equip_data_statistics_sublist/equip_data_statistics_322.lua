@@ -1,5 +1,100 @@
 pg = pg or {}
 pg.equip_data_statistics_322 = {
+	[48053] = {
+		anti_siren = 300,
+		base = 48040,
+		id = 48053,
+		ammo_info = {
+			{
+				6,
+				59353
+			},
+			{
+				4,
+				59713
+			}
+		},
+		weapon_id = {
+			48053
+		}
+	},
+	[49000] = {
+		name = "Ju-87C Dive Bomber",
+		type = 9,
+		speciality = "Bomber",
+		rarity = 2,
+		tech = 1,
+		descrip = "The ship-faring version of the Ju-87, the Ironblood's most widely used dive bomber. Also known as the 'Stuka'.",
+		value_2 = 5,
+		icon = "49000",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 49000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59300
+			},
+			{
+				5,
+				52600
+			},
+			{
+				5,
+				53000
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			49000
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		}
+	},
+	[49001] = {
+		id = 49001,
+		base = 49000,
+		ammo_info = {
+			{
+				6,
+				59301
+			},
+			{
+				5,
+				52601
+			},
+			{
+				5,
+				53001
+			}
+		},
+		weapon_id = {
+			49001
+		}
+	},
 	[49002] = {
 		id = 49002,
 		base = 49000,
@@ -362,69 +457,6 @@ pg.equip_data_statistics_322 = {
 		},
 		weapon_id = {
 			49044
-		}
-	},
-	[49045] = {
-		id = 49045,
-		base = 49040,
-		ammo_info = {
-			{
-				6,
-				59345
-			},
-			{
-				5,
-				52645
-			},
-			{
-				5,
-				53045
-			}
-		},
-		weapon_id = {
-			49045
-		}
-	},
-	[49046] = {
-		id = 49046,
-		base = 49040,
-		ammo_info = {
-			{
-				6,
-				59346
-			},
-			{
-				5,
-				52646
-			},
-			{
-				5,
-				53046
-			}
-		},
-		weapon_id = {
-			49046
-		}
-	},
-	[49047] = {
-		id = 49047,
-		base = 49040,
-		ammo_info = {
-			{
-				6,
-				59347
-			},
-			{
-				5,
-				52647
-			},
-			{
-				5,
-				53047
-			}
-		},
-		weapon_id = {
-			49047
 		}
 	}
 }

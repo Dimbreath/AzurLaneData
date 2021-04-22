@@ -240,4 +240,10 @@ function slot0.addCatupPrintsNum(slot0, slot1)
 	print("增加科研图纸", slot1, slot0.curCatchupPrintsNum)
 end
 
+function slot0.IsShowTip(slot0)
+	slot3, slot4 = pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "TechnologyMediator")
+
+	return OPEN_TEC_TREE_SYSTEM and getProxy(TechnologyNationProxy):getShowRedPointTag() or (SelectTechnologyMediator.onBlueprintNotify() or SelectTechnologyMediator.onTechnologyNotify()) and slot3
+end
+
 return slot0

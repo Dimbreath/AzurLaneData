@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_288 = {
+	[42144] = {
+		id = 42144,
+		damage = "13 x 3",
+		base = 42140,
+		weapon_id = {
+			42144
+		}
+	},
+	[42145] = {
+		id = 42145,
+		damage = "14 x 3",
+		base = 42140,
+		weapon_id = {
+			42145
+		}
+	},
+	[42146] = {
+		id = 42146,
+		damage = "15 x 3",
+		base = 42140,
+		weapon_id = {
+			42146
+		}
+	},
 	[42147] = {
 		id = 42147,
 		damage = "16 x 3",
@@ -215,82 +239,6 @@ pg.equip_data_statistics_288 = {
 		base = 42220,
 		weapon_id = {
 			42224
-		}
-	},
-	[42225] = {
-		id = 42225,
-		damage = "13 x 4",
-		base = 42220,
-		weapon_id = {
-			42225
-		}
-	},
-	[42226] = {
-		id = 42226,
-		damage = "14 x 4",
-		base = 42220,
-		weapon_id = {
-			42226
-		}
-	},
-	[42240] = {
-		name = "Twin 150mm TbtsK C/36 Main Gun Mount",
-		speciality = "Lock",
-		type = 2,
-		tech = 3,
-		descrip = "The Twin 150mm TbtsK C/36 Main Gun Mount is a 1936A type destroyer gun which may be used by light carriers and most destroyers.",
-		value_2 = 25,
-		icon = "42200",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "9 x 4",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 42240,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1304
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1304
-			},
-			{
-				4,
-				1001
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			42240
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CL",
-			"MG",
-			"AP"
 		}
 	}
 }

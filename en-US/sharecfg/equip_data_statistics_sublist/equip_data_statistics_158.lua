@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.equip_data_statistics_158 = {
+	[22249] = {
+		id = 22249,
+		damage = "20 x 6",
+		base = 22240,
+		weapon_id = {
+			22249
+		}
+	},
+	[22250] = {
+		id = 22250,
+		damage = "22 x 6",
+		base = 22240,
+		weapon_id = {
+			22250
+		}
+	},
+	[22251] = {
+		anti_siren = 100,
+		damage = "22 x 6",
+		base = 22240,
+		id = 22251,
+		weapon_id = {
+			22251
+		}
+	},
 	[22260] = {
 		name = "Prototype Triple 152mm Mk XXV Main Gun Mount",
 		speciality = "Lock",
@@ -165,81 +190,6 @@ pg.equip_data_statistics_158 = {
 		id = 22273,
 		weapon_id = {
 			22273
-		}
-	},
-	[23000] = {
-		name = "Twin 203mm Mk VIII Main Gun Mount",
-		speciality = "Lock",
-		type = 3,
-		tech = 1,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "23000",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "24 x 4",
-		nationality = 2,
-		ammo = 3,
-		value_3 = 0,
-		id = 23000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1400
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1400
-			},
-			{
-				4,
-				1205
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			23000
-		},
-		skill_id = {},
-		part_main = {
-			3,
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CA",
-			"MG",
-			"CM"
-		}
-	},
-	[23001] = {
-		id = 23001,
-		damage = "26 x 4",
-		base = 23000,
-		weapon_id = {
-			23001
-		}
-	},
-	[23002] = {
-		id = 23002,
-		damage = "28 x 4",
-		base = 23000,
-		weapon_id = {
-			23002
 		}
 	}
 }

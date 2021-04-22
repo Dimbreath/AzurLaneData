@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_118 = {
+	[16140] = {
+		name = "Twin 20mm AA Oerlikon Design",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "16100",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "18/wave",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 16140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			16140
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
+	},
+	[16141] = {
+		id = 16141,
+		damage = "20/wave",
+		base = 16140,
+		weapon_id = {
+			16141
+		}
+	},
+	[16142] = {
+		id = 16142,
+		damage = "22/wave",
+		base = 16140,
+		weapon_id = {
+			16142
+		}
+	},
 	[16143] = {
 		id = 16143,
 		damage = "24/wave",
@@ -165,30 +243,6 @@ pg.equip_data_statistics_118 = {
 		base = 16160,
 		weapon_id = {
 			16164
-		}
-	},
-	[16165] = {
-		id = 16165,
-		damage = "37/wave",
-		base = 16160,
-		weapon_id = {
-			16165
-		}
-	},
-	[16166] = {
-		id = 16166,
-		damage = "40/wave",
-		base = 16160,
-		weapon_id = {
-			16166
-		}
-	},
-	[16167] = {
-		id = 16167,
-		damage = "43/wave",
-		base = 16160,
-		weapon_id = {
-			16167
 		}
 	}
 }

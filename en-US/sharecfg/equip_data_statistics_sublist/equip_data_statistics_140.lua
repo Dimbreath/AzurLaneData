@@ -1,5 +1,56 @@
 pg = pg or {}
 pg.equip_data_statistics_140 = {
+	[19061] = {
+		id = 19061,
+		base = 19060,
+		ammo_info = {
+			{
+				5,
+				52961
+			},
+			{
+				5,
+				52161
+			}
+		},
+		weapon_id = {
+			19061
+		}
+	},
+	[19062] = {
+		id = 19062,
+		base = 19060,
+		ammo_info = {
+			{
+				5,
+				52962
+			},
+			{
+				5,
+				52162
+			}
+		},
+		weapon_id = {
+			19062
+		}
+	},
+	[19063] = {
+		id = 19063,
+		base = 19060,
+		ammo_info = {
+			{
+				5,
+				52963
+			},
+			{
+				5,
+				52163
+			}
+		},
+		weapon_id = {
+			19063
+		}
+	},
 	[19064] = {
 		id = 19064,
 		base = 19060,
@@ -290,104 +341,6 @@ pg.equip_data_statistics_140 = {
 		},
 		weapon_id = {
 			19103
-		}
-	},
-	[19120] = {
-		name = "SB2C Helldiver",
-		type = 9,
-		speciality = "Bomber",
-		rarity = 3,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "19100",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 19120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50720
-			},
-			{
-				5,
-				52920
-			},
-			{
-				5,
-				52320
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			19120
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"DB"
-		}
-	},
-	[19121] = {
-		id = 19121,
-		base = 19120,
-		ammo_info = {
-			{
-				6,
-				50721
-			},
-			{
-				5,
-				52921
-			},
-			{
-				5,
-				52321
-			}
-		},
-		weapon_id = {
-			19121
-		}
-	},
-	[19122] = {
-		id = 19122,
-		base = 19120,
-		ammo_info = {
-			{
-				6,
-				50722
-			},
-			{
-				5,
-				52922
-			},
-			{
-				5,
-				52322
-			}
-		},
-		weapon_id = {
-			19122
 		}
 	}
 }

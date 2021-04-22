@@ -1,5 +1,49 @@
 pg = pg or {}
 pg.aircraft_template_49 = {
+	[27063] = {
+		id = 27063,
+		base = 27060,
+		max_hp = 62,
+		hp_growth = 2374,
+		weapon_ID = {
+			50163,
+			50563,
+			52243
+		}
+	},
+	[27064] = {
+		id = 27064,
+		base = 27060,
+		max_hp = 68,
+		hp_growth = 2619,
+		weapon_ID = {
+			50164,
+			50564,
+			52244
+		}
+	},
+	[27065] = {
+		id = 27065,
+		base = 27060,
+		max_hp = 74,
+		hp_growth = 2865,
+		weapon_ID = {
+			50165,
+			50565,
+			52245
+		}
+	},
+	[27066] = {
+		id = 27066,
+		base = 27060,
+		max_hp = 81,
+		hp_growth = 3110,
+		weapon_ID = {
+			50166,
+			50566,
+			52246
+		}
+	},
 	[27067] = {
 		id = 27067,
 		base = 27060,
@@ -64,112 +108,6 @@ pg.aircraft_template_49 = {
 			50172,
 			50572,
 			52252
-		}
-	},
-	[27073] = {
-		id = 27073,
-		base = 27060,
-		max_hp = 126,
-		hp_growth = 4829,
-		weapon_ID = {
-			50173,
-			50573,
-			52253
-		}
-	},
-	[27100] = {
-		name = "海毒牙",
-		max_hp = 35,
-		accuracy = 23,
-		model_ID = "haiduya",
-		ACC_growth = 0,
-		crash_DMG = 156,
-		dodge = 0.357,
-		attack_power = 2,
-		dodge_limit = 9,
-		type = 1,
-		AP_growth = 2000,
-		icon = "haiduya",
-		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1344,
-		speed = 53,
-		id = 27100,
-		scale = 1,
-		weapon_ID = {
-			50600,
-			52300
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.69,
-					-2.62,
-					0
-				},
-				{
-					0.85,
-					0.17,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.86,
-				-0.12,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[27101] = {
-		id = 27101,
-		base = 27100,
-		max_hp = 40,
-		hp_growth = 1546,
-		weapon_ID = {
-			50601,
-			52301
-		}
-	},
-	[27102] = {
-		id = 27102,
-		base = 27100,
-		max_hp = 45,
-		hp_growth = 1747,
-		weapon_ID = {
-			50602,
-			52302
 		}
 	}
 }

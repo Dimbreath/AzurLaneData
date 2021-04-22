@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_96 = {
+	[14004] = {
+		id = 14004,
+		damage = "52 x 3",
+		base = 14000,
+		weapon_id = {
+			14004
+		}
+	},
+	[14005] = {
+		id = 14005,
+		damage = "56 x 3",
+		base = 14000,
+		weapon_id = {
+			14005
+		}
+	},
+	[14006] = {
+		id = 14006,
+		damage = "60 x 3",
+		base = 14000,
+		weapon_id = {
+			14006
+		}
+	},
 	[14020] = {
 		name = "Triple 305mm MK8 Main Gun",
 		speciality = "Volley",
@@ -198,30 +222,6 @@ pg.equip_data_statistics_96 = {
 		base = 14040,
 		weapon_id = {
 			14042
-		}
-	},
-	[14043] = {
-		id = 14043,
-		damage = "58 x 3",
-		base = 14040,
-		weapon_id = {
-			14043
-		}
-	},
-	[14044] = {
-		id = 14044,
-		damage = "62 x 3",
-		base = 14040,
-		weapon_id = {
-			14044
-		}
-	},
-	[14045] = {
-		id = 14045,
-		damage = "68 x 3",
-		base = 14040,
-		weapon_id = {
-			14045
 		}
 	}
 }

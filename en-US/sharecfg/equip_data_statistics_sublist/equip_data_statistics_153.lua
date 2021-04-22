@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_153 = {
+	[21548] = {
+		id = 21548,
+		damage = "10 x 2",
+		base = 21540,
+		weapon_id = {
+			21548
+		}
+	},
+	[21549] = {
+		id = 21549,
+		damage = "10 x 2",
+		base = 21540,
+		weapon_id = {
+			21549
+		}
+	},
+	[21550] = {
+		id = 21550,
+		damage = "11 x 2",
+		base = 21540,
+		weapon_id = {
+			21550
+		}
+	},
 	[21551] = {
 		anti_siren = 100,
 		damage = "11 x 2",
@@ -172,82 +196,6 @@ pg.equip_data_statistics_153 = {
 		id = 21612,
 		weapon_id = {
 			21612
-		}
-	},
-	[21613] = {
-		anti_siren = 300,
-		damage = "13 x 4",
-		base = 21600,
-		id = 21613,
-		weapon_id = {
-			21613
-		}
-	},
-	[22000] = {
-		name = "Single 152mm Secondary Gun Mount",
-		speciality = "Scatter",
-		type = 2,
-		tech = 1,
-		rarity = 1,
-		descrip = "No description",
-		value_2 = 0,
-		icon = "22000",
-		damage = "8 x 3",
-		nationality = 2,
-		ammo = 1,
-		value_3 = 0,
-		id = 22000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1104
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1104
-			},
-			{
-				4,
-				1100
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			22000
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CL",
-			"MG",
-			"AP"
-		}
-	},
-	[22001] = {
-		id = 22001,
-		damage = "9 x 3",
-		base = 22000,
-		weapon_id = {
-			22001
 		}
 	}
 }

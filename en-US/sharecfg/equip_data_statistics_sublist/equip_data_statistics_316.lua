@@ -1,5 +1,59 @@
 pg = pg or {}
 pg.equip_data_statistics_316 = {
+	[47022] = {
+		id = 47022,
+		base = 47020,
+		ammo_info = {
+			{
+				6,
+				59022
+			},
+			{
+				6,
+				59422
+			}
+		},
+		weapon_id = {
+			47022,
+			84022
+		}
+	},
+	[47023] = {
+		id = 47023,
+		base = 47020,
+		ammo_info = {
+			{
+				6,
+				59023
+			},
+			{
+				6,
+				59423
+			}
+		},
+		weapon_id = {
+			47023,
+			84023
+		}
+	},
+	[47024] = {
+		id = 47024,
+		base = 47020,
+		ammo_info = {
+			{
+				6,
+				59024
+			},
+			{
+				6,
+				59424
+			}
+		},
+		weapon_id = {
+			47024,
+			84024
+		}
+	},
 	[47025] = {
 		id = 47025,
 		base = 47020,
@@ -286,107 +340,6 @@ pg.equip_data_statistics_316 = {
 		weapon_id = {
 			47051,
 			84051
-		}
-	},
-	[47060] = {
-		name = "Ar 197",
-		type = 7,
-		speciality = "Air",
-		rarity = 3,
-		tech = 0,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "47060",
-		attribute_2 = "air",
-		nationality = 4,
-		ammo = 5,
-		value_3 = 0,
-		id = 47060,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				59040
-			},
-			{
-				6,
-				59440
-			},
-			{
-				5,
-				53040
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			47060,
-			84060
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CV",
-			"FT"
-		}
-	},
-	[47061] = {
-		id = 47061,
-		base = 47060,
-		ammo_info = {
-			{
-				6,
-				59041
-			},
-			{
-				6,
-				59441
-			},
-			{
-				5,
-				53041
-			}
-		},
-		weapon_id = {
-			47061,
-			84061
-		}
-	},
-	[47062] = {
-		id = 47062,
-		base = 47060,
-		ammo_info = {
-			{
-				6,
-				59042
-			},
-			{
-				6,
-				59442
-			},
-			{
-				5,
-				53042
-			}
-		},
-		weapon_id = {
-			47062,
-			84062
 		}
 	}
 }

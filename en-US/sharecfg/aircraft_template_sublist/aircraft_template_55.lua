@@ -1,5 +1,41 @@
 pg = pg or {}
 pg.aircraft_template_55 = {
+	[27261] = {
+		id = 27261,
+		base = 27260,
+		max_hp = 40,
+		hp_growth = 1546,
+		weapon_ID = {
+			50161
+		}
+	},
+	[27262] = {
+		id = 27262,
+		base = 27260,
+		max_hp = 45,
+		hp_growth = 1747,
+		weapon_ID = {
+			50162
+		}
+	},
+	[27263] = {
+		id = 27263,
+		base = 27260,
+		max_hp = 51,
+		hp_growth = 1949,
+		weapon_ID = {
+			50163
+		}
+	},
+	[27264] = {
+		id = 27264,
+		base = 27260,
+		max_hp = 56,
+		hp_growth = 2150,
+		weapon_ID = {
+			50164
+		}
+	},
 	[27265] = {
 		id = 27265,
 		base = 27260,
@@ -120,46 +156,6 @@ pg.aircraft_template_55 = {
 		weapon_ID = {
 			50662,
 			52342
-		}
-	},
-	[27303] = {
-		id = 27303,
-		base = 27300,
-		max_hp = 62,
-		hp_growth = 2385,
-		weapon_ID = {
-			50663,
-			52343
-		}
-	},
-	[27304] = {
-		id = 27304,
-		base = 27300,
-		max_hp = 68,
-		hp_growth = 2632,
-		weapon_ID = {
-			50664,
-			52344
-		}
-	},
-	[27305] = {
-		id = 27305,
-		base = 27300,
-		max_hp = 75,
-		hp_growth = 2879,
-		weapon_ID = {
-			50665,
-			52345
-		}
-	},
-	[27306] = {
-		id = 27306,
-		base = 27300,
-		max_hp = 81,
-		hp_growth = 3126,
-		weapon_ID = {
-			50666,
-			52346
 		}
 	}
 }

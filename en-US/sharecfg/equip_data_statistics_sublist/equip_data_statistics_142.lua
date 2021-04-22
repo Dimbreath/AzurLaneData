@@ -1,5 +1,104 @@
 pg = pg or {}
 pg.equip_data_statistics_142 = {
+	[19150] = {
+		id = 19150,
+		base = 19140,
+		ammo_info = {
+			{
+				6,
+				50750
+			},
+			{
+				5,
+				52950
+			},
+			{
+				5,
+				52350
+			}
+		},
+		weapon_id = {
+			19150
+		}
+	},
+	[19151] = {
+		anti_siren = 100,
+		base = 19140,
+		id = 19151,
+		ammo_info = {
+			{
+				6,
+				50751
+			},
+			{
+				5,
+				52951
+			},
+			{
+				5,
+				52351
+			}
+		},
+		weapon_id = {
+			19151
+		}
+	},
+	[19160] = {
+		name = "Experimental XSB3C-1",
+		type = 9,
+		speciality = "Bomber",
+		rarity = 5,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 45,
+		icon = "19160",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 19160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50640
+			},
+			{
+				5,
+				52940
+			},
+			{
+				5,
+				52340
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			19160
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
+	},
 	[19161] = {
 		id = 19161,
 		base = 19160,
@@ -326,57 +425,6 @@ pg.equip_data_statistics_142 = {
 			"USS",
 			"CV",
 			"DB"
-		}
-	},
-	[19201] = {
-		id = 19201,
-		base = 19200,
-		ammo_info = {
-			{
-				6,
-				50501
-			},
-			{
-				5,
-				52801
-			}
-		},
-		weapon_id = {
-			19201
-		}
-	},
-	[19202] = {
-		id = 19202,
-		base = 19200,
-		ammo_info = {
-			{
-				6,
-				50502
-			},
-			{
-				5,
-				52802
-			}
-		},
-		weapon_id = {
-			19202
-		}
-	},
-	[19203] = {
-		id = 19203,
-		base = 19200,
-		ammo_info = {
-			{
-				6,
-				50503
-			},
-			{
-				5,
-				52803
-			}
-		},
-		weapon_id = {
-			19203
 		}
 	}
 }

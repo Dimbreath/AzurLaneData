@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.aircraft_template_22 = {
+	[17364] = {
+		id = 17364,
+		base = 17360,
+		max_hp = 85,
+		hp_growth = 3251,
+		weapon_ID = {
+			50664,
+			52764
+		}
+	},
+	[17365] = {
+		id = 17365,
+		base = 17360,
+		max_hp = 92,
+		hp_growth = 3556,
+		weapon_ID = {
+			50665,
+			52765
+		}
+	},
+	[17366] = {
+		id = 17366,
+		base = 17360,
+		max_hp = 100,
+		hp_growth = 3861,
+		weapon_ID = {
+			50666,
+			52766
+		}
+	},
+	[17367] = {
+		id = 17367,
+		base = 17360,
+		max_hp = 108,
+		hp_growth = 4166,
+		weapon_ID = {
+			50667,
+			52767
+		}
+	},
 	[17368] = {
 		id = 17368,
 		base = 17360,
@@ -58,111 +98,6 @@ pg.aircraft_template_22 = {
 		weapon_ID = {
 			50673,
 			52773
-		}
-	},
-	[17380] = {
-		name = "F8F熊猫",
-		max_hp = 48,
-		accuracy = 23,
-		model_ID = "f8f",
-		ACC_growth = 0,
-		crash_DMG = 162,
-		dodge = 0.303,
-		attack_power = 2,
-		dodge_limit = 12,
-		type = 1,
-		AP_growth = 2000,
-		icon = "f8f",
-		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1829,
-		speed = 50,
-		id = 17380,
-		scale = 1,
-		weapon_ID = {
-			50660,
-			52660
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.84,
-					-1.25,
-					0
-				},
-				{
-					0.77,
-					1.48,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[17381] = {
-		id = 17381,
-		base = 17380,
-		max_hp = 55,
-		hp_growth = 2103,
-		weapon_ID = {
-			50661,
-			52661
-		}
-	},
-	[17382] = {
-		id = 17382,
-		base = 17380,
-		max_hp = 62,
-		hp_growth = 2378,
-		weapon_ID = {
-			50662,
-			52662
-		}
-	},
-	[17383] = {
-		id = 17383,
-		base = 17380,
-		max_hp = 69,
-		hp_growth = 2652,
-		weapon_ID = {
-			50663,
-			52663
 		}
 	}
 }

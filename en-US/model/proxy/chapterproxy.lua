@@ -113,7 +113,7 @@ function slot0.register(slot0)
 			end
 
 			if #slot0.add_flag_list > 0 or #slot0.del_flag_list > 0 then
-				slot2 = bit.bor(slot2, ChapterConst.DirtyStrategy, ChapterConst.DirtyCellFlag, ChapterConst.DirtyFloatItems)
+				slot2 = bit.bor(slot2, ChapterConst.DirtyFleet, ChapterConst.DirtyStrategy, ChapterConst.DirtyCellFlag, ChapterConst.DirtyFloatItems)
 
 				uv0:updateExtraFlag(slot1, slot0.add_flag_list, slot0.del_flag_list)
 			end

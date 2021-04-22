@@ -1,5 +1,91 @@
 pg = pg or {}
 pg.equip_data_statistics_144 = {
+	[19240] = {
+		name = "BTD-1 Destroyer",
+		type = 9,
+		speciality = "Bomber",
+		rarity = 5,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 45,
+		icon = "19200",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 19240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50540
+			},
+			{
+				5,
+				52840
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			19240
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
+	},
+	[19241] = {
+		id = 19241,
+		base = 19240,
+		ammo_info = {
+			{
+				6,
+				50541
+			},
+			{
+				5,
+				52841
+			}
+		},
+		weapon_id = {
+			19241
+		}
+	},
+	[19242] = {
+		id = 19242,
+		base = 19240,
+		ammo_info = {
+			{
+				6,
+				50542
+			},
+			{
+				5,
+				52842
+			}
+		},
+		weapon_id = {
+			19242
+		}
+	},
 	[19243] = {
 		id = 19243,
 		base = 19240,
@@ -268,87 +354,6 @@ pg.equip_data_statistics_144 = {
 		base = 21000,
 		weapon_id = {
 			21002
-		}
-	},
-	[21003] = {
-		id = 21003,
-		damage = "4 x 1",
-		base = 21000,
-		weapon_id = {
-			21003
-		}
-	},
-	[21020] = {
-		name = "Single 102mm Secondary Gun Mount",
-		speciality = "Lock",
-		type = 1,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "21000",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "3 x 1",
-		nationality = 2,
-		ammo = 3,
-		value_3 = 0,
-		id = 21020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				999
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				999
-			},
-			{
-				4,
-				1000
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			21020
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"DD",
-			"MG"
-		}
-	},
-	[21021] = {
-		id = 21021,
-		base = 21020,
-		weapon_id = {
-			21021
 		}
 	}
 }

@@ -1,5 +1,77 @@
 pg = pg or {}
 pg.equip_data_statistics_44 = {
+	[2325] = {
+		id = 2325,
+		value_2 = 3,
+		value_1 = "15",
+		base = 2320
+	},
+	[2326] = {
+		id = 2326,
+		value_2 = 4,
+		value_1 = "17",
+		base = 2320
+	},
+	[2340] = {
+		name = "Gyroscope",
+		tech = 3,
+		type = 10,
+		speciality = "N/A",
+		id = 2340,
+		value_2 = 3,
+		icon = "2300",
+		value_1 = "14",
+		attribute_2 = "speed",
+		rarity = 4,
+		descrip = "A gyroscope may be used to stabilize a ship's hull, thereby increasing Hit and Speed.",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "hit",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
 	[2341] = {
 		id = 2341,
 		value_1 = "16",
@@ -108,48 +180,5 @@ pg.equip_data_statistics_44 = {
 		id = 2402,
 		value_1 = "117",
 		base = 2400
-	},
-	[2403] = {
-		id = 2403,
-		value_1 = "130",
-		base = 2400
-	},
-	[2420] = {
-		name = "Repair Toolkit",
-		tech = 2,
-		type = 10,
-		speciality = "N/A",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "2400",
-		value_1 = "140",
-		descrip = "Repair Toolkit allow for ships to repair themselves when damaged.",
-		rarity = 3,
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 2420,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6110
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[2421] = {
-		id = 2421,
-		value_1 = "161",
-		base = 2420
 	}
 }

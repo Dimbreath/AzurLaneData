@@ -1,5 +1,84 @@
 pg = pg or {}
 pg.equip_data_statistics_184 = {
+	[26370] = {
+		id = 26370,
+		damage = "32/wave",
+		base = 26360,
+		weapon_id = {
+			26370
+		}
+	},
+	[26371] = {
+		anti_siren = 100,
+		damage = "32/wave",
+		base = 26360,
+		id = 26371,
+		weapon_id = {
+			26371
+		}
+	},
+	[26400] = {
+		name = "Single 102mm AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 1,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "26400",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "19/wave",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 26400,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			26400
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
 	[26401] = {
 		id = 26401,
 		damage = "22/wave",
@@ -218,30 +297,6 @@ pg.equip_data_statistics_184 = {
 		base = 26440,
 		weapon_id = {
 			26443
-		}
-	},
-	[26444] = {
-		id = 26444,
-		damage = "39/wave",
-		base = 26440,
-		weapon_id = {
-			26444
-		}
-	},
-	[26445] = {
-		id = 26445,
-		damage = "43/wave",
-		base = 26440,
-		weapon_id = {
-			26445
-		}
-	},
-	[26446] = {
-		id = 26446,
-		damage = "47/wave",
-		base = 26440,
-		weapon_id = {
-			26446
 		}
 	}
 }

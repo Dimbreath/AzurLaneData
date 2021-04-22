@@ -1,5 +1,79 @@
 pg = pg or {}
 pg.equip_data_statistics_218 = {
+	[32000] = {
+		name = "Single 140mm Naval Gun",
+		speciality = "Lock",
+		type = 2,
+		tech = 1,
+		rarity = 1,
+		descrip = "No description",
+		value_2 = 0,
+		icon = "32000",
+		damage = "5 x 3",
+		nationality = 3,
+		ammo = 3,
+		value_3 = 0,
+		id = 32000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1201
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1201
+			},
+			{
+				4,
+				1003
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			32000
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		}
+	},
+	[32001] = {
+		id = 32001,
+		damage = "6 x 3",
+		base = 32000,
+		weapon_id = {
+			32001
+		}
+	},
+	[32002] = {
+		id = 32002,
+		damage = "7 x 3",
+		base = 32000,
+		weapon_id = {
+			32002
+		}
+	},
 	[32003] = {
 		id = 32003,
 		damage = "8 x 3",
@@ -264,30 +338,6 @@ pg.equip_data_statistics_218 = {
 			"CL",
 			"MG",
 			"HE"
-		}
-	},
-	[32061] = {
-		id = 32061,
-		damage = "8 x 3",
-		base = 32060,
-		weapon_id = {
-			32061
-		}
-	},
-	[32062] = {
-		id = 32062,
-		damage = "10 x 3",
-		base = 32060,
-		weapon_id = {
-			32062
-		}
-	},
-	[32063] = {
-		id = 32063,
-		damage = "12 x 3",
-		base = 32060,
-		weapon_id = {
-			32063
 		}
 	}
 }

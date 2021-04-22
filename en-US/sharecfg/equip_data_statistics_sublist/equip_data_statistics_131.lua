@@ -1,5 +1,107 @@
 pg = pg or {}
 pg.equip_data_statistics_131 = {
+	[17330] = {
+		id = 17330,
+		base = 17320,
+		ammo_info = {
+			{
+				6,
+				50330
+			},
+			{
+				6,
+				50530
+			},
+			{
+				5,
+				52330
+			}
+		},
+		weapon_id = {
+			17330,
+			81330
+		}
+	},
+	[17340] = {
+		name = "F6F Hellcat",
+		type = 7,
+		speciality = "Air",
+		rarity = 5,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 45,
+		icon = "17300",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 17340,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50340
+			},
+			{
+				6,
+				50540
+			},
+			{
+				5,
+				52340
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			17340,
+			81340
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		}
+	},
+	[17341] = {
+		id = 17341,
+		base = 17340,
+		ammo_info = {
+			{
+				6,
+				50341
+			},
+			{
+				6,
+				50541
+			},
+			{
+				5,
+				52341
+			}
+		},
+		weapon_id = {
+			17341,
+			81341
+		}
+	},
 	[17342] = {
 		id = 17342,
 		base = 17340,
@@ -336,60 +438,6 @@ pg.equip_data_statistics_131 = {
 		weapon_id = {
 			17361,
 			81361
-		}
-	},
-	[17362] = {
-		id = 17362,
-		base = 17360,
-		ammo_info = {
-			{
-				6,
-				50662
-			},
-			{
-				5,
-				52762
-			}
-		},
-		weapon_id = {
-			17362,
-			81362
-		}
-	},
-	[17363] = {
-		id = 17363,
-		base = 17360,
-		ammo_info = {
-			{
-				6,
-				50663
-			},
-			{
-				5,
-				52763
-			}
-		},
-		weapon_id = {
-			17363,
-			81363
-		}
-	},
-	[17364] = {
-		id = 17364,
-		base = 17360,
-		ammo_info = {
-			{
-				6,
-				50664
-			},
-			{
-				5,
-				52764
-			}
-		},
-		weapon_id = {
-			17364,
-			81364
 		}
 	}
 }

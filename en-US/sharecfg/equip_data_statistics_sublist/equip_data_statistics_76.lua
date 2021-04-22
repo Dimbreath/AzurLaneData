@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_76 = {
+	[6040] = {
+		name = "Single 12.7mm AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "6000",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "8/wave",
+		nationality = 0,
+		ammo = 5,
+		value_3 = 0,
+		id = 6040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			6040
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"AA"
+		}
+	},
+	[6041] = {
+		id = 6041,
+		damage = "9/wave",
+		base = 6040,
+		weapon_id = {
+			6041
+		}
+	},
+	[6042] = {
+		id = 6042,
+		damage = "10/wave",
+		base = 6040,
+		weapon_id = {
+			6042
+		}
+	},
 	[6043] = {
 		id = 6043,
 		damage = "11/wave",
@@ -271,30 +349,6 @@ pg.equip_data_statistics_76 = {
 			"FFNF",
 			"ST",
 			"AA"
-		}
-	},
-	[6141] = {
-		id = 6141,
-		damage = "25/wave",
-		base = 6140,
-		weapon_id = {
-			6141
-		}
-	},
-	[6142] = {
-		id = 6142,
-		damage = "28/wave",
-		base = 6140,
-		weapon_id = {
-			6142
-		}
-	},
-	[6143] = {
-		id = 6143,
-		damage = "32/wave",
-		base = 6140,
-		weapon_id = {
-			6143
 		}
 	}
 }

@@ -1,5 +1,32 @@
 pg = pg or {}
 pg.equip_data_statistics_226 = {
+	[33071] = {
+		anti_siren = 100,
+		damage = "48 x 4",
+		base = 33060,
+		id = 33071,
+		weapon_id = {
+			33071
+		}
+	},
+	[33072] = {
+		anti_siren = 200,
+		damage = "48 x 4",
+		base = 33060,
+		id = 33072,
+		weapon_id = {
+			33072
+		}
+	},
+	[33073] = {
+		anti_siren = 300,
+		damage = "48 x 4",
+		base = 33060,
+		id = 33073,
+		weapon_id = {
+			33073
+		}
+	},
 	[33080] = {
 		name = "Twin 203mm No. 2 Naval Gun Mount",
 		speciality = "Lock",
@@ -204,30 +231,6 @@ pg.equip_data_statistics_226 = {
 		base = 33100,
 		weapon_id = {
 			33101
-		}
-	},
-	[33102] = {
-		id = 33102,
-		damage = "40 x 6",
-		base = 33100,
-		weapon_id = {
-			33102
-		}
-	},
-	[33103] = {
-		id = 33103,
-		damage = "42 x 6",
-		base = 33100,
-		weapon_id = {
-			33103
-		}
-	},
-	[33104] = {
-		id = 33104,
-		damage = "44 x 6",
-		base = 33100,
-		weapon_id = {
-			33104
 		}
 	}
 }

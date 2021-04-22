@@ -1,5 +1,220 @@
 pg = pg or {}
 pg.equip_data_statistics_399 = {
+	[95447] = {
+		id = 95447,
+		damage = "13 x 4",
+		base = 95440,
+		weapon_id = {
+			95447
+		}
+	},
+	[95448] = {
+		id = 95448,
+		damage = "14 x 4",
+		base = 95440,
+		weapon_id = {
+			95448
+		}
+	},
+	[95449] = {
+		id = 95449,
+		damage = "15 x 4",
+		base = 95440,
+		weapon_id = {
+			95449
+		}
+	},
+	[95450] = {
+		id = 95450,
+		damage = "17 x 4",
+		base = 95440,
+		weapon_id = {
+			95450
+		}
+	},
+	[95451] = {
+		anti_siren = 100,
+		damage = "17 x 4",
+		base = 95440,
+		id = 95451,
+		weapon_id = {
+			95451
+		}
+	},
+	[95460] = {
+		name = "Twin 120mm M1933 Main Gun Mount",
+		speciality = "Lock",
+		type = 1,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "55460",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "4 x 4",
+		nationality = 6,
+		ammo = 2,
+		value_3 = 0,
+		id = 95460,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				2306
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2306
+			},
+			{
+				4,
+				1022
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			95460
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"DD",
+			"MG"
+		}
+	},
+	[95461] = {
+		id = 95461,
+		base = 95460,
+		weapon_id = {
+			95461
+		}
+	},
+	[95462] = {
+		id = 95462,
+		damage = "5 x 4",
+		base = 95460,
+		weapon_id = {
+			95462
+		}
+	},
+	[95463] = {
+		id = 95463,
+		damage = "6 x 4",
+		base = 95460,
+		weapon_id = {
+			95463
+		}
+	},
+	[95464] = {
+		id = 95464,
+		damage = "7 x 4",
+		base = 95460,
+		weapon_id = {
+			95464
+		}
+	},
+	[95465] = {
+		id = 95465,
+		damage = "8 x 4",
+		base = 95460,
+		weapon_id = {
+			95465
+		}
+	},
+	[95466] = {
+		id = 95466,
+		damage = "9 x 4",
+		base = 95460,
+		weapon_id = {
+			95466
+		}
+	},
+	[95467] = {
+		id = 95467,
+		damage = "9 x 4",
+		base = 95460,
+		weapon_id = {
+			95467
+		}
+	},
+	[95480] = {
+		name = "Triple 320mm M1934 Main Gun Mount",
+		speciality = "Volley",
+		type = 4,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "55480",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "34 x 3",
+		nationality = 6,
+		ammo = 1,
+		value_3 = 0,
+		id = 95480,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1511
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			95480
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"BB",
+			"MG",
+			"AP"
+		}
+	},
 	[95481] = {
 		id = 95481,
 		damage = "39 x 3",
@@ -22,226 +237,6 @@ pg.equip_data_statistics_399 = {
 		base = 95480,
 		weapon_id = {
 			95483
-		}
-	},
-	[95484] = {
-		id = 95484,
-		damage = "68 x 3",
-		base = 95480,
-		weapon_id = {
-			95484
-		}
-	},
-	[95485] = {
-		id = 95485,
-		damage = "74 x 3",
-		base = 95480,
-		weapon_id = {
-			95485
-		}
-	},
-	[95486] = {
-		id = 95486,
-		damage = "80 x 3",
-		base = 95480,
-		weapon_id = {
-			95486
-		}
-	},
-	[95487] = {
-		id = 95487,
-		damage = "80 x 3",
-		base = 95480,
-		weapon_id = {
-			95487
-		}
-	},
-	[95500] = {
-		name = "Twin 37mm Model 1932 AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 1,
-		descrip = "37mm mounted anti-aircraft guns. Can be used as an AA gun.",
-		value_2 = 5,
-		icon = "55500",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "15/wave",
-		nationality = 6,
-		ammo = 5,
-		value_3 = 0,
-		id = 95500,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			95500
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"RN",
-			"ST",
-			"AA"
-		}
-	},
-	[95501] = {
-		id = 95501,
-		damage = "17/wave",
-		base = 95500,
-		weapon_id = {
-			95501
-		}
-	},
-	[95502] = {
-		id = 95502,
-		damage = "19/wave",
-		base = 95500,
-		weapon_id = {
-			95502
-		}
-	},
-	[95503] = {
-		id = 95503,
-		damage = "22/wave",
-		base = 95500,
-		weapon_id = {
-			95503
-		}
-	},
-	[95520] = {
-		name = "Twin 37mm Model 1932 AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 2,
-		descrip = "37mm mounted anti-aircraft guns. Can be used as an AA gun.",
-		value_2 = 12,
-		icon = "55500",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "17/wave",
-		nationality = 6,
-		ammo = 5,
-		value_3 = 0,
-		id = 95520,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			95520
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"RN",
-			"ST",
-			"AA"
-		}
-	},
-	[95521] = {
-		id = 95521,
-		damage = "19/wave",
-		base = 95520,
-		weapon_id = {
-			95521
-		}
-	},
-	[95522] = {
-		id = 95522,
-		damage = "22/wave",
-		base = 95520,
-		weapon_id = {
-			95522
-		}
-	},
-	[95523] = {
-		id = 95523,
-		damage = "25/wave",
-		base = 95520,
-		weapon_id = {
-			95523
-		}
-	},
-	[95524] = {
-		id = 95524,
-		damage = "28/wave",
-		base = 95520,
-		weapon_id = {
-			95524
-		}
-	},
-	[95525] = {
-		id = 95525,
-		damage = "31/wave",
-		base = 95520,
-		weapon_id = {
-			95525
 		}
 	}
 }

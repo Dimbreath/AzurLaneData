@@ -285,13 +285,24 @@ function slot0.updateData(slot0)
 		slot0.curLevel = slot0.curModeInfo:getLevel()
 		slot0.showingIndex = slot0.curLevel
 		slot0.dungeonIDList = slot0.curModeInfo:getDungeonIDList()
+
+		print("self.dungeonIDList", tostring(slot0.dungeonIDList))
 	end
 
 	slot0.nameList = {}
+	slot4 = tostring(slot0.dungeonIDList)
+	slot5 = tostring
+
+	print("创建nameList", tostring(slot0.nameList), slot4, slot5(#slot0.dungeonIDList))
+
 	slot0.infoNameList = {}
 
 	for slot4, slot5 in ipairs(slot0.dungeonIDList) do
-		slot0.nameList[slot4] = pg.expedition_challenge_template[slot5].char_icon[1]
+		slot6 = pg.expedition_challenge_template[slot5].char_icon[1]
+		slot0.nameList[slot4] = slot6
+
+		print("self.nameList", tostring(slot6))
+
 		slot0.infoNameList[slot4] = pg.expedition_challenge_template[slot5].name_p
 	end
 

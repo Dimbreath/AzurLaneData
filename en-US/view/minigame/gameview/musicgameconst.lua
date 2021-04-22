@@ -1,108 +1,20 @@
 slot0 = class("MusicGameConst")
 slot0.music_game_data = {
 	{
-		light = 2,
+		light = false,
 		music_id = 1,
-		comboEffect = 1,
-		music_piece = 2,
-		bg = 1,
-		bgm = "06",
-		pu = "06",
-		settlement_painting = {
-			"daiduo_idol_n",
-			"baerdimo_idol_n",
-			"guanghui_idol_n",
-			"tashigan_idol_n",
-			"daqinghuayu_idolns"
-		},
-		ships = {
-			"daiduo_idol",
-			"baerdimo_idol",
-			"guanghui_idol",
-			"tashigan_idol",
-			"daqinghuayu_idol"
-		}
-	},
-	{
-		light = 3,
-		music_id = 2,
-		comboEffect = 1,
-		music_piece = 2,
-		bg = 2,
-		bgm = "08",
-		pu = "08",
-		settlement_painting = {
-			"luoen_idol_n",
-			"dafeng_idol_n"
-		},
-		ships = {
-			false,
-			"dafeng_idol",
-			false,
-			"luoen_idol",
-			false
-		}
-	},
-	{
-		light = 1,
-		music_id = 3,
-		comboEffect = 1,
-		music_piece = 2,
-		bg = 3,
-		bgm = "07",
-		pu = "07",
-		settlement_painting = {
-			"edu_idol_n"
-		},
-		ships = {
-			false,
-			false,
-			"edu_idol",
-			false,
-			false
-		}
-	},
-	{
-		light = false,
-		music_id = 4,
-		comboEffect = 1,
-		music_piece = 2,
-		bg = 4,
-		bgm = "09",
-		pu = "09",
-		settlement_painting = {
-			"chicheng_idolns",
-			"xiefeierde_idolns",
-			"jiasikenie_idolns",
-			"kelifulan_idolns",
-			"xipeier_idolns"
-		},
-		ships = {
-			"chicheng_idol",
-			"xiefeierde_idol",
-			"jiasikenie_idol",
-			"kelifulan_idol",
-			"xipeier_idol"
-		}
-	},
-	{
-		pu = "010",
-		music_id = 5,
-		comboEffect = 1,
-		music_piece = 2,
-		bg = 4,
-		bgm = "10"
-	},
-	{
-		light = false,
-		music_id = 6,
 		comboEffect = 1,
 		music_piece = 2,
 		bg = 4,
 		bgm = "01",
 		pu = "01",
+		img = 6,
 		settlement_painting = {
-			"chicheng_idol"
+			"chicheng_idol",
+			"xiefeierde_idol",
+			"jiasikenie_idol",
+			"kelifulan_idol",
+			"xipeier_idol"
 		},
 		ships = {
 			"chicheng_idol",
@@ -113,36 +25,96 @@ slot0.music_game_data = {
 		}
 	},
 	{
+		music_id = 2,
+		comboEffect = 1,
+		music_piece = 2,
+		bg = 4,
+		bgm = "02",
 		pu = "02",
-		music_id = 7,
+		img = 7,
+		settlement_painting = {
+			"chicheng_idol",
+			"xiefeierde_idol",
+			"jiasikenie_idol",
+			"kelifulan_idol",
+			"xipeier_idol"
+		},
+		ships = {
+			"chicheng_idol",
+			"xiefeierde_idol",
+			"jiasikenie_idol",
+			"kelifulan_idol",
+			"xipeier_idol"
+		}
+	},
+	{
+		music_id = 3,
 		comboEffect = 1,
 		music_piece = 2,
 		bg = 4,
-		bgm = "02"
-	},
-	{
+		bgm = "03",
 		pu = "03",
-		music_id = 8,
+		img = 8,
+		settlement_painting = {
+			"chicheng_idol",
+			"xiefeierde_idol",
+			"jiasikenie_idol",
+			"kelifulan_idol",
+			"xipeier_idol"
+		},
+		ships = {
+			"chicheng_idol",
+			"xiefeierde_idol",
+			"jiasikenie_idol",
+			"kelifulan_idol",
+			"xipeier_idol"
+		}
+	},
+	{
+		music_id = 4,
 		comboEffect = 1,
 		music_piece = 2,
 		bg = 4,
-		bgm = "03"
-	},
-	{
+		bgm = "04",
 		pu = "04",
-		music_id = 9,
-		comboEffect = 1,
-		music_piece = 2,
-		bg = 4,
-		bgm = "04"
+		img = 9,
+		settlement_painting = {
+			"chicheng_idol",
+			"xiefeierde_idol",
+			"jiasikenie_idol",
+			"kelifulan_idol",
+			"xipeier_idol"
+		},
+		ships = {
+			"chicheng_idol",
+			"xiefeierde_idol",
+			"jiasikenie_idol",
+			"kelifulan_idol",
+			"xipeier_idol"
+		}
 	},
 	{
-		pu = "05",
-		music_id = 10,
+		music_id = 5,
 		comboEffect = 1,
 		music_piece = 2,
 		bg = 4,
-		bgm = "05"
+		bgm = "05",
+		pu = "05",
+		img = 10,
+		settlement_painting = {
+			"chicheng_idol",
+			"xiefeierde_idol",
+			"jiasikenie_idol",
+			"kelifulan_idol",
+			"xipeier_idol"
+		},
+		ships = {
+			"chicheng_idol",
+			"xiefeierde_idol",
+			"jiasikenie_idol",
+			"kelifulan_idol",
+			"xipeier_idol"
+		}
 	}
 }
 

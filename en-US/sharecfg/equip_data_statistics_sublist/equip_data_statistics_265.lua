@@ -1,5 +1,59 @@
 pg = pg or {}
 pg.equip_data_statistics_265 = {
+	[37328] = {
+		id = 37328,
+		base = 37320,
+		ammo_info = {
+			{
+				6,
+				59528
+			},
+			{
+				5,
+				52328
+			}
+		},
+		weapon_id = {
+			37328,
+			83328
+		}
+	},
+	[37329] = {
+		id = 37329,
+		base = 37320,
+		ammo_info = {
+			{
+				6,
+				59529
+			},
+			{
+				5,
+				52329
+			}
+		},
+		weapon_id = {
+			37329,
+			83329
+		}
+	},
+	[37330] = {
+		id = 37330,
+		base = 37320,
+		ammo_info = {
+			{
+				6,
+				59530
+			},
+			{
+				5,
+				52330
+			}
+		},
+		weapon_id = {
+			37330,
+			83330
+		}
+	},
 	[37340] = {
 		name = "A7M Reppuu",
 		type = 7,
@@ -288,107 +342,6 @@ pg.equip_data_statistics_265 = {
 		weapon_id = {
 			37353,
 			83353
-		}
-	},
-	[37400] = {
-		name = "Kawanishi N1K3-A Shiden Kai 2 ",
-		type = 7,
-		speciality = "Air",
-		rarity = 5,
-		tech = 0,
-		descrip = "A carrier-based version of the Kawanishi Shiden. ",
-		value_2 = 45,
-		icon = "37400",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 37400,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				59540
-			},
-			{
-				6,
-				50860
-			},
-			{
-				5,
-				52340
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			37400,
-			83400
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"FT"
-		}
-	},
-	[37401] = {
-		id = 37401,
-		base = 37400,
-		ammo_info = {
-			{
-				6,
-				59541
-			},
-			{
-				6,
-				50861
-			},
-			{
-				5,
-				52341
-			}
-		},
-		weapon_id = {
-			37401,
-			83401
-		}
-	},
-	[37402] = {
-		id = 37402,
-		base = 37400,
-		ammo_info = {
-			{
-				6,
-				59542
-			},
-			{
-				6,
-				50862
-			},
-			{
-				5,
-				52342
-			}
-		},
-		weapon_id = {
-			37402,
-			83402
 		}
 	}
 }

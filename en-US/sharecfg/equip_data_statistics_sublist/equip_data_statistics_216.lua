@@ -1,5 +1,88 @@
 pg = pg or {}
 pg.equip_data_statistics_216 = {
+	[31225] = {
+		id = 31225,
+		damage = "7 x 4",
+		base = 31220,
+		weapon_id = {
+			31225
+		}
+	},
+	[31226] = {
+		id = 31226,
+		damage = "8 x 4",
+		base = 31220,
+		weapon_id = {
+			31226
+		}
+	},
+	[31240] = {
+		name = "Twin 127mm Naval Gun Mount",
+		speciality = "Lock",
+		type = 1,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "31200",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "4 x 4",
+		nationality = 3,
+		ammo = 2,
+		value_3 = 0,
+		id = 31240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1206
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1206
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			31240
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG",
+			"HE"
+		}
+	},
 	[31241] = {
 		id = 31241,
 		base = 31240,
@@ -168,30 +251,6 @@ pg.equip_data_statistics_216 = {
 		base = 31260,
 		weapon_id = {
 			31262
-		}
-	},
-	[31263] = {
-		id = 31263,
-		damage = "4 x 2",
-		base = 31260,
-		weapon_id = {
-			31263
-		}
-	},
-	[31264] = {
-		id = 31264,
-		damage = "7 x 2",
-		base = 31260,
-		weapon_id = {
-			31264
-		}
-	},
-	[31265] = {
-		id = 31265,
-		damage = "7 x 2",
-		base = 31260,
-		weapon_id = {
-			31265
 		}
 	}
 }

@@ -83,5 +83,12 @@ pg.ship_spine_shift = {
 			32,
 			0
 		}
+	},
+	tuolichaili_2 = {
+		spine = "tuolichaili_2",
+		mainui_shift = {
+			-5,
+			10
+		}
 	}
 }

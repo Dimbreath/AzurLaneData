@@ -1,5 +1,59 @@
 pg = pg or {}
 pg.equip_data_statistics_41 = {
+	[2120] = {
+		name = "Aviation Oil Tank",
+		tech = 2,
+		type = 10,
+		speciality = "N/A",
+		id = 2120,
+		value_2 = 16,
+		icon = "2100",
+		value_1 = "18",
+		attribute_2 = "durability",
+		rarity = 3,
+		descrip = "Effectively increases the HP of aircraft.",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "air",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6080
+		},
+		part_main = {
+			6,
+			7,
+			10
+		},
+		part_sub = {
+			6,
+			7,
+			10
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[2121] = {
+		id = 2121,
+		value_2 = 19,
+		value_1 = "20",
+		base = 2120
+	},
+	[2122] = {
+		id = 2122,
+		value_2 = 22,
+		value_1 = "23",
+		base = 2120
+	},
 	[2123] = {
 		id = 2123,
 		value_2 = 25,
@@ -119,78 +173,5 @@ pg.equip_data_statistics_41 = {
 		value_2 = 56,
 		value_1 = "65",
 		base = 2140
-	},
-	[2150] = {
-		id = 2150,
-		value_2 = 60,
-		value_1 = "70",
-		base = 2140
-	},
-	[2151] = {
-		id = 2151,
-		anti_siren = 100,
-		base = 2140,
-		value_2 = 64,
-		value_1 = "75"
-	},
-	[2200] = {
-		name = "Autoloader",
-		tech = 1,
-		type = 10,
-		speciality = "N/A",
-		id = 2200,
-		value_2 = 1,
-		icon = "2200",
-		value_1 = "5",
-		attribute_2 = "cannon",
-		rarity = 2,
-		descrip = "Much more efficient than a manual loader.",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "reload",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
 	}
 }

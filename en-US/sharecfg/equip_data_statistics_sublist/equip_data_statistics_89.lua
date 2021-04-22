@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_89 = {
+	[12065] = {
+		id = 12065,
+		damage = "15 x 4",
+		base = 12060,
+		weapon_id = {
+			12065
+		}
+	},
+	[12066] = {
+		id = 12066,
+		damage = "16 x 4",
+		base = 12060,
+		weapon_id = {
+			12066
+		}
+	},
+	[12067] = {
+		id = 12067,
+		damage = "16 x 4",
+		base = 12060,
+		weapon_id = {
+			12067
+		}
+	},
 	[12100] = {
 		name = "Triple 152mm Main Gun",
 		speciality = "Lock",
@@ -264,30 +288,6 @@ pg.equip_data_statistics_89 = {
 		base = 12140,
 		weapon_id = {
 			12142
-		}
-	},
-	[12143] = {
-		id = 12143,
-		damage = "12 x 6",
-		base = 12140,
-		weapon_id = {
-			12143
-		}
-	},
-	[12144] = {
-		id = 12144,
-		damage = "13 x 6",
-		base = 12140,
-		weapon_id = {
-			12144
-		}
-	},
-	[12145] = {
-		id = 12145,
-		damage = "14 x 6",
-		base = 12140,
-		weapon_id = {
-			12145
 		}
 	}
 }

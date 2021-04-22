@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_249 = {
+	[36225] = {
+		id = 36225,
+		damage = "25/wave",
+		base = 36220,
+		weapon_id = {
+			36225
+		}
+	},
+	[36226] = {
+		id = 36226,
+		damage = "28/wave",
+		base = 36220,
+		weapon_id = {
+			36226
+		}
+	},
+	[36240] = {
+		name = "Twin 25mm AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "36200",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "16/wave",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			36240
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
+	},
 	[36241] = {
 		id = 36241,
 		damage = "18/wave",
@@ -165,84 +243,6 @@ pg.equip_data_statistics_249 = {
 		base = 36300,
 		weapon_id = {
 			36302
-		}
-	},
-	[36303] = {
-		id = 36303,
-		damage = "24/wave",
-		base = 36300,
-		weapon_id = {
-			36303
-		}
-	},
-	[36320] = {
-		name = "Triple 25mm AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "36300",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "18/wave",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 36320,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			36320
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"AA"
-		}
-	},
-	[36321] = {
-		id = 36321,
-		damage = "21/wave",
-		base = 36320,
-		weapon_id = {
-			36321
 		}
 	}
 }

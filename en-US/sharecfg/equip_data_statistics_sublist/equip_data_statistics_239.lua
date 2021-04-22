@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_239 = {
+	[35240] = {
+		name = "610mm Quadruple Torpedo Mount",
+		speciality = "Torpedo",
+		type = 5,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 45,
+		icon = "35200",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "66 x 4",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 35240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1801
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1801
+			},
+			{
+				4,
+				1403
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			35240
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"TP",
+			"QUAD"
+		}
+	},
+	[35241] = {
+		id = 35241,
+		damage = "80 x 4",
+		base = 35240,
+		weapon_id = {
+			35241
+		}
+	},
+	[35242] = {
+		id = 35242,
+		damage = "94 x 4",
+		base = 35240,
+		weapon_id = {
+			35242
+		}
+	},
 	[35243] = {
 		id = 35243,
 		damage = "108 x 4",
@@ -167,30 +245,6 @@ pg.equip_data_statistics_239 = {
 		base = 35260,
 		weapon_id = {
 			35262
-		}
-	},
-	[35263] = {
-		id = 35263,
-		damage = "112 x 4",
-		base = 35260,
-		weapon_id = {
-			35263
-		}
-	},
-	[35264] = {
-		id = 35264,
-		damage = "126 x 4",
-		base = 35260,
-		weapon_id = {
-			35264
-		}
-	},
-	[35265] = {
-		id = 35265,
-		damage = "140 x 4",
-		base = 35260,
-		weapon_id = {
-			35265
 		}
 	}
 }

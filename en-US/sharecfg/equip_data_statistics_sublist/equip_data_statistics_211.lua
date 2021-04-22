@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_211 = {
+	[31004] = {
+		id = 31004,
+		damage = "6 x 4",
+		base = 31000,
+		weapon_id = {
+			31004
+		}
+	},
+	[31005] = {
+		id = 31005,
+		damage = "7 x 4",
+		base = 31000,
+		weapon_id = {
+			31005
+		}
+	},
+	[31006] = {
+		id = 31006,
+		damage = "7 x 4",
+		base = 31000,
+		weapon_id = {
+			31006
+		}
+	},
 	[31020] = {
 		name = "Twin 100mm Type 98 High-Angle Gun",
 		speciality = "Lock",
@@ -226,30 +250,6 @@ pg.equip_data_statistics_211 = {
 		base = 31040,
 		weapon_id = {
 			31042
-		}
-	},
-	[31043] = {
-		id = 31043,
-		damage = "7 x 4",
-		base = 31040,
-		weapon_id = {
-			31043
-		}
-	},
-	[31044] = {
-		id = 31044,
-		damage = "8 x 4",
-		base = 31040,
-		weapon_id = {
-			31044
-		}
-	},
-	[31045] = {
-		id = 31045,
-		damage = "9 x 4",
-		base = 31040,
-		weapon_id = {
-			31045
 		}
 	}
 }

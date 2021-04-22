@@ -960,6 +960,11 @@ pg.name_code = {
 		name = "Oite",
 		code = "Oite"
 	},
+	[193] = {
+		id = 193,
+		name = "Little Amagi ",
+		code = "Little Amagi "
+	},
 	[250] = {
 		id = 250,
 		name = "I-9",

@@ -1,245 +1,248 @@
 pg = pg or {}
 pg.aircraft_template_393 = {
-	[2200792] = {
-		name = "【大世界】英系舰载-轰炸机III",
-		max_hp = 280,
-		accuracy = 35,
-		model_ID = "haiyan",
+	[1100877] = {
+		name = "英系空袭战斗机III",
+		max_hp = 112,
+		accuracy = 23,
+		model_ID = "haiduya",
 		ACC_growth = 0,
-		crash_DMG = 220,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "haiyan",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 6080,
-		speed = 30,
-		id = 2200792,
-		scale = 0.75,
-		weapon_ID = {
-			1100762
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[2200793] = {
-		name = "【大世界】英系舰载-轰炸机IV",
-		max_hp = 340,
-		accuracy = 35,
-		model_ID = "haiyan",
-		ACC_growth = 0,
-		crash_DMG = 280,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "haiyan",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 6840,
-		speed = 30,
-		id = 2200793,
-		scale = 0.75,
-		weapon_ID = {
-			1100763
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[2200794] = {
-		name = "【大世界】英系舰载-轰炸机V",
-		max_hp = 400,
-		accuracy = 35,
-		model_ID = "haiyan",
-		ACC_growth = 0,
-		crash_DMG = 351,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "haiyan",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 7600,
-		speed = 30,
-		id = 2200794,
-		scale = 0.75,
-		weapon_ID = {
-			1100764
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[2200795] = {
-		name = "【大世界】日系舰载战斗机I",
-		max_hp = 128,
-		accuracy = 35,
-		model_ID = "lingzhan21gai",
-		ACC_growth = 0,
-		crash_DMG = 72,
+		crash_DMG = 62,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "lingzhan21gai",
+		icon = "haiduya",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3360,
+		hp_growth = 2240,
 		speed = 33,
-		id = 2200795,
+		id = 1100877,
+		scale = 0.75,
+		weapon_ID = {
+			1100877,
+			1100882
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100878] = {
+		name = "英系空袭战斗机IV",
+		max_hp = 136,
+		accuracy = 23,
+		model_ID = "haiduya",
+		ACC_growth = 0,
+		crash_DMG = 78,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "haiduya",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2520,
+		speed = 33,
+		id = 1100878,
+		scale = 0.75,
+		weapon_ID = {
+			1100878,
+			1100883
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100879] = {
+		name = "英系空袭战斗机V",
+		max_hp = 160,
+		accuracy = 23,
+		model_ID = "haiduya",
+		ACC_growth = 0,
+		crash_DMG = 98,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "haiduya",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2800,
+		speed = 33,
+		id = 1100879,
+		scale = 0.75,
+		weapon_ID = {
+			1100879,
+			1100884
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100885] = {
+		name = "英系舰载-战斗机I",
+		max_hp = 64,
+		accuracy = 23,
+		model_ID = "haiduya",
+		ACC_growth = 0,
+		crash_DMG = 36,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "haiduya",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1680,
+		speed = 33,
+		id = 1100885,
 		scale = 0.75,
 		weapon_ID = {
 			1100745,
@@ -297,24 +300,24 @@ pg.aircraft_template_393 = {
 			}
 		}
 	},
-	[2200796] = {
-		name = "【大世界】日系舰载战斗机II",
-		max_hp = 176,
-		accuracy = 35,
-		model_ID = "lingzhan21gai",
+	[1100886] = {
+		name = "英系舰载-战斗机II",
+		max_hp = 88,
+		accuracy = 23,
+		model_ID = "haiduya",
 		ACC_growth = 0,
-		crash_DMG = 96,
+		crash_DMG = 48,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "lingzhan21gai",
+		icon = "haiduya",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3920,
+		hp_growth = 1960,
 		speed = 33,
-		id = 2200796,
+		id = 1100886,
 		scale = 0.75,
 		weapon_ID = {
 			1100746,
@@ -372,24 +375,24 @@ pg.aircraft_template_393 = {
 			}
 		}
 	},
-	[2200797] = {
-		name = "【大世界】日系舰载战斗机III",
-		max_hp = 224,
-		accuracy = 35,
-		model_ID = "lingzhan21gai",
+	[1100887] = {
+		name = "英系舰载-战斗机III",
+		max_hp = 112,
+		accuracy = 23,
+		model_ID = "haiduya",
 		ACC_growth = 0,
-		crash_DMG = 124,
+		crash_DMG = 62,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "lingzhan21gai",
+		icon = "haiduya",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 4480,
+		hp_growth = 2240,
 		speed = 33,
-		id = 2200797,
+		id = 1100887,
 		scale = 0.75,
 		weapon_ID = {
 			1100747,
@@ -447,24 +450,24 @@ pg.aircraft_template_393 = {
 			}
 		}
 	},
-	[2200798] = {
-		name = "【大世界】日系舰载战斗机IV",
-		max_hp = 272,
-		accuracy = 35,
-		model_ID = "lingzhan21gai",
+	[1100888] = {
+		name = "英系舰载-战斗机IV",
+		max_hp = 136,
+		accuracy = 23,
+		model_ID = "haiduya",
 		ACC_growth = 0,
-		crash_DMG = 156,
+		crash_DMG = 78,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "lingzhan21gai",
+		icon = "haiduya",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 5040,
+		hp_growth = 2520,
 		speed = 33,
-		id = 2200798,
+		id = 1100888,
 		scale = 0.75,
 		weapon_ID = {
 			1100748,
@@ -522,24 +525,24 @@ pg.aircraft_template_393 = {
 			}
 		}
 	},
-	[2200799] = {
-		name = "【大世界】日系舰载战斗机V",
-		max_hp = 320,
-		accuracy = 35,
-		model_ID = "lingzhan21gai",
+	[1100889] = {
+		name = "英系舰载-战斗机V",
+		max_hp = 160,
+		accuracy = 23,
+		model_ID = "haiduya",
 		ACC_growth = 0,
-		crash_DMG = 196,
+		crash_DMG = 98,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "lingzhan21gai",
+		icon = "haiduya",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 5600,
+		hp_growth = 2800,
 		speed = 33,
-		id = 2200799,
+		id = 1100889,
 		scale = 0.75,
 		weapon_ID = {
 			1100749,
@@ -597,24 +600,24 @@ pg.aircraft_template_393 = {
 			}
 		}
 	},
-	[2200800] = {
-		name = "【大世界】日系舰载鱼雷机I",
-		max_hp = 144,
-		accuracy = 35,
-		model_ID = "97jiangong",
+	[1100890] = {
+		name = "英系舰载-鱼雷机I",
+		max_hp = 72,
+		accuracy = 23,
+		model_ID = "suoyu",
 		ACC_growth = 0,
-		crash_DMG = 104,
+		crash_DMG = 52,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "97jiangong",
+		icon = "suoyu",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 4080,
+		hp_growth = 2040,
 		speed = 30,
-		id = 2200800,
+		id = 1100890,
 		scale = 0.75,
 		weapon_ID = {
 			1100755
@@ -671,24 +674,24 @@ pg.aircraft_template_393 = {
 			}
 		}
 	},
-	[2200801] = {
-		name = "【大世界】日系舰载鱼雷机II",
-		max_hp = 198,
-		accuracy = 35,
-		model_ID = "97jiangong",
+	[1100891] = {
+		name = "英系舰载-鱼雷机II",
+		max_hp = 99,
+		accuracy = 23,
+		model_ID = "suoyu",
 		ACC_growth = 0,
-		crash_DMG = 140,
+		crash_DMG = 70,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "97jiangong",
+		icon = "suoyu",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 4760,
+		hp_growth = 2380,
 		speed = 30,
-		id = 2200801,
+		id = 1100891,
 		scale = 0.75,
 		weapon_ID = {
 			1100756

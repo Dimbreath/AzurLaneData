@@ -1,5 +1,48 @@
 pg = pg or {}
 pg.equip_data_statistics_38 = {
+	[1920] = {
+		name = "Naval Camouflage",
+		tech = 2,
+		type = 10,
+		speciality = "N/A",
+		id = 1920,
+		value_2 = 16,
+		icon = "1900",
+		value_1 = "5",
+		attribute_2 = "durability",
+		rarity = 2,
+		descrip = "What classifies as a good paint job is arbitrary, but why hinder performance when you can improve it?",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[1921] = {
+		id = 1921,
+		value_2 = 19,
+		base = 1920
+	},
+	[1922] = {
+		id = 1922,
+		value_2 = 22,
+		value_1 = "6",
+		base = 1920
+	},
 	[1923] = {
 		id = 1923,
 		value_2 = 25,
@@ -135,24 +178,6 @@ pg.equip_data_statistics_38 = {
 		id = 1964,
 		value_2 = 55,
 		value_1 = "12",
-		base = 1960
-	},
-	[1965] = {
-		id = 1965,
-		value_2 = 60,
-		value_1 = "13",
-		base = 1960
-	},
-	[1966] = {
-		id = 1966,
-		value_2 = 65,
-		value_1 = "14",
-		base = 1960
-	},
-	[1967] = {
-		id = 1967,
-		value_2 = 70,
-		value_1 = "15",
 		base = 1960
 	}
 }

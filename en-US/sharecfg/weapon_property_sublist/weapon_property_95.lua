@@ -2,29 +2,89 @@ pg = pg or {}
 pg.weapon_property_95 = {}
 
 function ()
-	uv0.weapon_property_95[52413] = {
-		id = 52413,
-		damage = 354,
-		base = 52400
+	uv0.weapon_property_95[52801] = {
+		id = 52801,
+		damage = 164,
+		base = 52800
 	}
-	uv0.weapon_property_95[52420] = {
+	uv0.weapon_property_95[52802] = {
+		id = 52802,
+		damage = 185,
+		base = 52800
+	}
+	uv0.weapon_property_95[52803] = {
+		id = 52803,
+		damage = 206,
+		base = 52800
+	}
+	uv0.weapon_property_95[52804] = {
+		id = 52804,
+		damage = 227,
+		base = 52800
+	}
+	uv0.weapon_property_95[52805] = {
+		id = 52805,
+		damage = 248,
+		base = 52800
+	}
+	uv0.weapon_property_95[52806] = {
+		id = 52806,
+		damage = 269,
+		base = 52800
+	}
+	uv0.weapon_property_95[52807] = {
+		id = 52807,
+		damage = 291,
+		base = 52800
+	}
+	uv0.weapon_property_95[52808] = {
+		id = 52808,
+		damage = 313,
+		base = 52800
+	}
+	uv0.weapon_property_95[52809] = {
+		id = 52809,
+		damage = 335,
+		base = 52800
+	}
+	uv0.weapon_property_95[52810] = {
+		id = 52810,
+		damage = 357,
+		base = 52800
+	}
+	uv0.weapon_property_95[52811] = {
+		id = 52811,
+		damage = 371,
+		base = 52800
+	}
+	uv0.weapon_property_95[52812] = {
+		id = 52812,
+		damage = 393,
+		base = 52800
+	}
+	uv0.weapon_property_95[52813] = {
+		id = 52813,
+		damage = 421,
+		base = 52800
+	}
+	uv0.weapon_property_95[52820] = {
 		action_index = "",
 		range = 500,
 		type = 2,
 		fire_fx = "",
 		recover_time = 0,
-		axis_angle = 22,
+		axis_angle = 16,
 		shakescreen = 0,
-		name = "3 x 500lb Bomb",
+		name = "2 x 1600lb Bomb",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 22,
+		angle = 16,
 		charge_param = "",
-		damage = 132,
+		damage = 157,
 		corrected = 100,
 		min_range = 0,
-		id = 52420,
+		id = 52820,
 		attack_attribute_ratio = 80,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -38,10 +98,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			2122
+			2124
 		},
 		barrage_ID = {
-			2122
+			2121
 		},
 		oxy_type = {
 			1
@@ -51,89 +111,89 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_95[52421] = {
-		id = 52421,
-		damage = 152,
-		base = 52420
+	uv0.weapon_property_95[52821] = {
+		id = 52821,
+		damage = 180,
+		base = 52820
 	}
-	uv0.weapon_property_95[52422] = {
-		id = 52422,
-		damage = 171,
-		base = 52420
+	uv0.weapon_property_95[52822] = {
+		id = 52822,
+		damage = 203,
+		base = 52820
 	}
-	uv0.weapon_property_95[52423] = {
-		id = 52423,
-		damage = 191,
-		base = 52420
+	uv0.weapon_property_95[52823] = {
+		id = 52823,
+		damage = 226,
+		base = 52820
 	}
-	uv0.weapon_property_95[52424] = {
-		id = 52424,
-		damage = 210,
-		base = 52420
-	}
-	uv0.weapon_property_95[52425] = {
-		id = 52425,
-		damage = 230,
-		base = 52420
-	}
-	uv0.weapon_property_95[52426] = {
-		id = 52426,
+	uv0.weapon_property_95[52824] = {
+		id = 52824,
 		damage = 249,
-		base = 52420
+		base = 52820
 	}
-	uv0.weapon_property_95[52427] = {
-		id = 52427,
-		damage = 269,
-		base = 52420
+	uv0.weapon_property_95[52825] = {
+		id = 52825,
+		damage = 273,
+		base = 52820
 	}
-	uv0.weapon_property_95[52428] = {
-		id = 52428,
-		damage = 288,
-		base = 52420
+	uv0.weapon_property_95[52826] = {
+		id = 52826,
+		damage = 297,
+		base = 52820
 	}
-	uv0.weapon_property_95[52429] = {
-		id = 52429,
-		damage = 309,
-		base = 52420
+	uv0.weapon_property_95[52827] = {
+		id = 52827,
+		damage = 321,
+		base = 52820
 	}
-	uv0.weapon_property_95[52430] = {
-		id = 52430,
-		damage = 330,
-		base = 52420
+	uv0.weapon_property_95[52828] = {
+		id = 52828,
+		damage = 345,
+		base = 52820
 	}
-	uv0.weapon_property_95[52431] = {
-		id = 52431,
-		damage = 343,
-		base = 52420
+	uv0.weapon_property_95[52829] = {
+		id = 52829,
+		damage = 369,
+		base = 52820
 	}
-	uv0.weapon_property_95[52432] = {
-		id = 52432,
-		damage = 363,
-		base = 52420
+	uv0.weapon_property_95[52830] = {
+		id = 52830,
+		damage = 393,
+		base = 52820
 	}
-	uv0.weapon_property_95[52433] = {
-		id = 52433,
-		damage = 389,
-		base = 52420
+	uv0.weapon_property_95[52831] = {
+		id = 52831,
+		damage = 409,
+		base = 52820
 	}
-	uv0.weapon_property_95[52440] = {
+	uv0.weapon_property_95[52832] = {
+		id = 52832,
+		damage = 432,
+		base = 52820
+	}
+	uv0.weapon_property_95[52833] = {
+		id = 52833,
+		damage = 464,
+		base = 52820
+	}
+	uv0.weapon_property_95[52840] = {
 		action_index = "",
 		range = 500,
 		type = 2,
 		fire_fx = "",
 		recover_time = 0,
-		axis_angle = 22,
+		axis_angle = 16,
 		shakescreen = 0,
-		name = "3 x 500lb Bomb",
+		name = "2 x 1600lb Bomb",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 22,
+		angle = 16,
 		charge_param = "",
-		damage = 144,
+		damage = 171,
 		corrected = 100,
 		min_range = 0,
-		id = 52440,
+		id = 52840,
 		attack_attribute_ratio = 80,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -147,10 +207,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			2122
+			2124
 		},
 		barrage_ID = {
-			2122
+			2121
 		},
 		oxy_type = {
 			1
@@ -160,89 +220,89 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_95[52441] = {
-		id = 52441,
-		damage = 165,
-		base = 52440
+	uv0.weapon_property_95[52841] = {
+		id = 52841,
+		damage = 196,
+		base = 52840
 	}
-	uv0.weapon_property_95[52442] = {
-		id = 52442,
-		damage = 186,
-		base = 52440
+	uv0.weapon_property_95[52842] = {
+		id = 52842,
+		damage = 221,
+		base = 52840
 	}
-	uv0.weapon_property_95[52443] = {
-		id = 52443,
-		damage = 207,
-		base = 52440
+	uv0.weapon_property_95[52843] = {
+		id = 52843,
+		damage = 247,
+		base = 52840
 	}
-	uv0.weapon_property_95[52444] = {
-		id = 52444,
-		damage = 228,
-		base = 52440
+	uv0.weapon_property_95[52844] = {
+		id = 52844,
+		damage = 273,
+		base = 52840
 	}
-	uv0.weapon_property_95[52445] = {
-		id = 52445,
-		damage = 249,
-		base = 52440
+	uv0.weapon_property_95[52845] = {
+		id = 52845,
+		damage = 299,
+		base = 52840
 	}
-	uv0.weapon_property_95[52446] = {
-		id = 52446,
-		damage = 270,
-		base = 52440
+	uv0.weapon_property_95[52846] = {
+		id = 52846,
+		damage = 325,
+		base = 52840
 	}
-	uv0.weapon_property_95[52447] = {
-		id = 52447,
-		damage = 293,
-		base = 52440
+	uv0.weapon_property_95[52847] = {
+		id = 52847,
+		damage = 351,
+		base = 52840
 	}
-	uv0.weapon_property_95[52448] = {
-		id = 52448,
-		damage = 315,
-		base = 52440
+	uv0.weapon_property_95[52848] = {
+		id = 52848,
+		damage = 377,
+		base = 52840
 	}
-	uv0.weapon_property_95[52449] = {
-		id = 52449,
-		damage = 338,
-		base = 52440
+	uv0.weapon_property_95[52849] = {
+		id = 52849,
+		damage = 403,
+		base = 52840
 	}
-	uv0.weapon_property_95[52450] = {
-		id = 52450,
-		damage = 360,
-		base = 52440
+	uv0.weapon_property_95[52850] = {
+		id = 52850,
+		damage = 429,
+		base = 52840
 	}
-	uv0.weapon_property_95[52451] = {
-		id = 52451,
-		damage = 374,
-		base = 52440
+	uv0.weapon_property_95[52851] = {
+		id = 52851,
+		damage = 446,
+		base = 52840
 	}
-	uv0.weapon_property_95[52452] = {
-		id = 52452,
-		damage = 396,
-		base = 52440
+	uv0.weapon_property_95[52852] = {
+		id = 52852,
+		damage = 472,
+		base = 52840
 	}
-	uv0.weapon_property_95[52453] = {
-		id = 52453,
-		damage = 425,
-		base = 52440
+	uv0.weapon_property_95[52853] = {
+		id = 52853,
+		damage = 506,
+		base = 52840
 	}
-	uv0.weapon_property_95[52500] = {
+	uv0.weapon_property_95[52900] = {
 		action_index = "",
 		range = 500,
 		type = 2,
 		fire_fx = "",
 		recover_time = 0,
-		axis_angle = 22,
+		axis_angle = 13,
 		shakescreen = 0,
-		name = "4 x 500lb Bomb",
+		name = "1 x 2000lb Bomb",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 22,
+		angle = 13,
 		charge_param = "",
-		damage = 120,
+		damage = 153,
 		corrected = 100,
 		min_range = 0,
-		id = 52500,
+		id = 52900,
 		attack_attribute_ratio = 80,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -256,10 +316,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			2122
+			2125
 		},
 		barrage_ID = {
-			2123
+			2120
 		},
 		oxy_type = {
 			1
@@ -269,89 +329,89 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_95[52501] = {
-		id = 52501,
-		damage = 138,
-		base = 52500
+	uv0.weapon_property_95[52901] = {
+		id = 52901,
+		damage = 176,
+		base = 52900
 	}
-	uv0.weapon_property_95[52502] = {
-		id = 52502,
-		damage = 156,
-		base = 52500
+	uv0.weapon_property_95[52902] = {
+		id = 52902,
+		damage = 198,
+		base = 52900
 	}
-	uv0.weapon_property_95[52503] = {
-		id = 52503,
-		damage = 174,
-		base = 52500
+	uv0.weapon_property_95[52903] = {
+		id = 52903,
+		damage = 221,
+		base = 52900
 	}
-	uv0.weapon_property_95[52504] = {
-		id = 52504,
-		damage = 192,
-		base = 52500
+	uv0.weapon_property_95[52904] = {
+		id = 52904,
+		damage = 243,
+		base = 52900
 	}
-	uv0.weapon_property_95[52505] = {
-		id = 52505,
-		damage = 210,
-		base = 52500
+	uv0.weapon_property_95[52905] = {
+		id = 52905,
+		damage = 266,
+		base = 52900
 	}
-	uv0.weapon_property_95[52506] = {
-		id = 52506,
-		damage = 228,
-		base = 52500
+	uv0.weapon_property_95[52906] = {
+		id = 52906,
+		damage = 288,
+		base = 52900
 	}
-	uv0.weapon_property_95[52507] = {
-		id = 52507,
-		damage = 246,
-		base = 52500
+	uv0.weapon_property_95[52907] = {
+		id = 52907,
+		damage = 311,
+		base = 52900
 	}
-	uv0.weapon_property_95[52508] = {
-		id = 52508,
-		damage = 264,
-		base = 52500
+	uv0.weapon_property_95[52908] = {
+		id = 52908,
+		damage = 333,
+		base = 52900
 	}
-	uv0.weapon_property_95[52509] = {
-		id = 52509,
-		damage = 282,
-		base = 52500
+	uv0.weapon_property_95[52909] = {
+		id = 52909,
+		damage = 356,
+		base = 52900
 	}
-	uv0.weapon_property_95[52510] = {
-		id = 52510,
-		damage = 300,
-		base = 52500
+	uv0.weapon_property_95[52910] = {
+		id = 52910,
+		damage = 380,
+		base = 52900
 	}
-	uv0.weapon_property_95[52511] = {
-		id = 52511,
-		damage = 312,
-		base = 52500
+	uv0.weapon_property_95[52911] = {
+		id = 52911,
+		damage = 395,
+		base = 52900
 	}
-	uv0.weapon_property_95[52512] = {
-		id = 52512,
-		damage = 330,
-		base = 52500
+	uv0.weapon_property_95[52912] = {
+		id = 52912,
+		damage = 418,
+		base = 52900
 	}
-	uv0.weapon_property_95[52513] = {
-		id = 52513,
-		damage = 354,
-		base = 52500
+	uv0.weapon_property_95[52913] = {
+		id = 52913,
+		damage = 448,
+		base = 52900
 	}
-	uv0.weapon_property_95[52520] = {
+	uv0.weapon_property_95[52920] = {
 		action_index = "",
 		range = 500,
 		type = 2,
 		fire_fx = "",
 		recover_time = 0,
-		axis_angle = 22,
+		axis_angle = 13,
 		shakescreen = 0,
-		name = "4 x 500lb Bomb",
+		name = "1 x 2000lb Bomb",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 22,
+		angle = 13,
 		charge_param = "",
-		damage = 132,
+		damage = 167,
 		corrected = 100,
 		min_range = 0,
-		id = 52520,
+		id = 52920,
 		attack_attribute_ratio = 80,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -365,10 +425,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			2122
+			2125
 		},
 		barrage_ID = {
-			2123
+			2120
 		},
 		oxy_type = {
 			1
@@ -378,123 +438,34 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_95[52521] = {
-		id = 52521,
-		damage = 152,
-		base = 52520
-	}
-	uv0.weapon_property_95[52522] = {
-		id = 52522,
-		damage = 171,
-		base = 52520
-	}
-	uv0.weapon_property_95[52523] = {
-		id = 52523,
+	uv0.weapon_property_95[52921] = {
+		id = 52921,
 		damage = 191,
-		base = 52520
+		base = 52920
 	}
-	uv0.weapon_property_95[52524] = {
-		id = 52524,
-		damage = 210,
-		base = 52520
+	uv0.weapon_property_95[52922] = {
+		id = 52922,
+		damage = 215,
+		base = 52920
 	}
-	uv0.weapon_property_95[52525] = {
-		id = 52525,
-		damage = 230,
-		base = 52520
+	uv0.weapon_property_95[52923] = {
+		id = 52923,
+		damage = 239,
+		base = 52920
 	}
-	uv0.weapon_property_95[52526] = {
-		id = 52526,
-		damage = 249,
-		base = 52520
+	uv0.weapon_property_95[52924] = {
+		id = 52924,
+		damage = 264,
+		base = 52920
 	}
-	uv0.weapon_property_95[52527] = {
-		id = 52527,
-		damage = 269,
-		base = 52520
+	uv0.weapon_property_95[52925] = {
+		id = 52925,
+		damage = 290,
+		base = 52920
 	}
-	uv0.weapon_property_95[52528] = {
-		id = 52528,
-		damage = 288,
-		base = 52520
-	}
-	uv0.weapon_property_95[52529] = {
-		id = 52529,
-		damage = 309,
-		base = 52520
-	}
-	uv0.weapon_property_95[52530] = {
-		id = 52530,
-		damage = 330,
-		base = 52520
-	}
-	uv0.weapon_property_95[52531] = {
-		id = 52531,
-		damage = 343,
-		base = 52520
-	}
-	uv0.weapon_property_95[52532] = {
-		id = 52532,
-		damage = 363,
-		base = 52520
-	}
-	uv0.weapon_property_95[52533] = {
-		id = 52533,
-		damage = 389,
-		base = 52520
-	}
-	uv0.weapon_property_95[52540] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 22,
-		shakescreen = 0,
-		name = "4 x 500lb Bomb",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 22,
-		charge_param = "",
-		damage = 144,
-		corrected = 100,
-		min_range = 0,
-		id = 52540,
-		attack_attribute_ratio = 80,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2122
-		},
-		barrage_ID = {
-			2123
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_95[52541] = {
-		id = 52541,
-		damage = 165,
-		base = 52540
-	}
-	uv0.weapon_property_95[52542] = {
-		id = 52542,
-		damage = 186,
-		base = 52540
+	uv0.weapon_property_95[52926] = {
+		id = 52926,
+		damage = 315,
+		base = 52920
 	}
 end()

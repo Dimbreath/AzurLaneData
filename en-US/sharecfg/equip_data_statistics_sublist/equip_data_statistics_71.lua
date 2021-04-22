@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_71 = {
+	[5230] = {
+		id = 5230,
+		damage = "140 x 5",
+		base = 5220,
+		weapon_id = {
+			5230
+		}
+	},
+	[5240] = {
+		name = "533mm Quintuple Torpedo Mount",
+		speciality = "Torpedo",
+		type = 5,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 45,
+		icon = "5200",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "56 x 5",
+		nationality = 0,
+		ammo = 5,
+		value_3 = 0,
+		id = 5240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1800
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1800
+			},
+			{
+				4,
+				1404
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			5240
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"TP",
+			"QUINT"
+		}
+	},
+	[5241] = {
+		id = 5241,
+		damage = "66 x 5",
+		base = 5240,
+		weapon_id = {
+			5241
+		}
+	},
 	[5242] = {
 		id = 5242,
 		damage = "76 x 5",
@@ -166,84 +244,6 @@ pg.equip_data_statistics_71 = {
 		base = 5300,
 		weapon_id = {
 			5301
-		}
-	},
-	[5302] = {
-		id = 5302,
-		damage = "57 x 2",
-		base = 5300,
-		weapon_id = {
-			5302
-		}
-	},
-	[5303] = {
-		id = 5303,
-		damage = "65 x 2",
-		base = 5300,
-		weapon_id = {
-			5303
-		}
-	},
-	[5320] = {
-		name = "550mm Twin Torpedo Launcher",
-		speciality = "Torpedo",
-		type = 5,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "5300",
-		attribute_2 = "torpedo",
-		rarity = 2,
-		damage = "47 x 2",
-		nationality = 8,
-		ammo = 5,
-		value_3 = 0,
-		id = 5320,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1800
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1800
-			},
-			{
-				4,
-				1401
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			5320
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"ST",
-			"TP",
-			"DUO"
 		}
 	}
 }

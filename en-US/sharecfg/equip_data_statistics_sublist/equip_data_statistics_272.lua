@@ -1,5 +1,103 @@
 pg = pg or {}
 pg.equip_data_statistics_272 = {
+	[38205] = {
+		id = 38205,
+		base = 38200,
+		ammo_info = {
+			{
+				6,
+				50505
+			},
+			{
+				6,
+				50805
+			},
+			{
+				4,
+				51425
+			}
+		},
+		weapon_id = {
+			38205
+		}
+	},
+	[38206] = {
+		id = 38206,
+		base = 38200,
+		ammo_info = {
+			{
+				6,
+				50506
+			},
+			{
+				6,
+				50806
+			},
+			{
+				4,
+				51426
+			}
+		},
+		weapon_id = {
+			38206
+		}
+	},
+	[38220] = {
+		name = "Aichi B7A Ryusei",
+		type = 8,
+		speciality = "Torpedo",
+		rarity = 4,
+		tech = 2,
+		descrip = "The Aichi B7A Ryusei comes equipped with 2 20mm guns, 1 13mm gun and an 800kg torpedo.",
+		value_2 = 25,
+		icon = "38200",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 38220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50520
+			},
+			{
+				6,
+				50820
+			},
+			{
+				4,
+				51440
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			38220
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
+	},
 	[38221] = {
 		id = 38221,
 		base = 38220,
@@ -327,69 +425,6 @@ pg.equip_data_statistics_272 = {
 		},
 		weapon_id = {
 			38243
-		}
-	},
-	[38244] = {
-		id = 38244,
-		base = 38240,
-		ammo_info = {
-			{
-				6,
-				50544
-			},
-			{
-				6,
-				50844
-			},
-			{
-				4,
-				51464
-			}
-		},
-		weapon_id = {
-			38244
-		}
-	},
-	[38245] = {
-		id = 38245,
-		base = 38240,
-		ammo_info = {
-			{
-				6,
-				50545
-			},
-			{
-				6,
-				50845
-			},
-			{
-				4,
-				51465
-			}
-		},
-		weapon_id = {
-			38245
-		}
-	},
-	[38246] = {
-		id = 38246,
-		base = 38240,
-		ammo_info = {
-			{
-				6,
-				50546
-			},
-			{
-				6,
-				50846
-			},
-			{
-				4,
-				51466
-			}
-		},
-		weapon_id = {
-			38246
 		}
 	}
 }

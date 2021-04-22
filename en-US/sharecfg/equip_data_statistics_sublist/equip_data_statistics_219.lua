@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_219 = {
+	[32061] = {
+		id = 32061,
+		damage = "8 x 3",
+		base = 32060,
+		weapon_id = {
+			32061
+		}
+	},
+	[32062] = {
+		id = 32062,
+		damage = "10 x 3",
+		base = 32060,
+		weapon_id = {
+			32062
+		}
+	},
+	[32063] = {
+		id = 32063,
+		damage = "12 x 3",
+		base = 32060,
+		weapon_id = {
+			32063
+		}
+	},
 	[32064] = {
 		id = 32064,
 		damage = "14 x 3",
@@ -212,82 +236,6 @@ pg.equip_data_statistics_219 = {
 		base = 32120,
 		weapon_id = {
 			32125
-		}
-	},
-	[32126] = {
-		id = 32126,
-		damage = "12 x 4",
-		base = 32120,
-		weapon_id = {
-			32126
-		}
-	},
-	[32140] = {
-		name = "Twin 140mm Naval Gun Mount",
-		speciality = "Scatter",
-		type = 2,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "32100",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "7 x 4",
-		nationality = 3,
-		ammo = 2,
-		value_3 = 0,
-		id = 32140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1207
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1207
-			},
-			{
-				4,
-				1101
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			32140
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CL",
-			"MG",
-			"HE"
-		}
-	},
-	[32141] = {
-		id = 32141,
-		damage = "8 x 4",
-		base = 32140,
-		weapon_id = {
-			32141
 		}
 	}
 }

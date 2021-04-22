@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_97 = {
+	[14043] = {
+		id = 14043,
+		damage = "58 x 3",
+		base = 14040,
+		weapon_id = {
+			14043
+		}
+	},
+	[14044] = {
+		id = 14044,
+		damage = "62 x 3",
+		base = 14040,
+		weapon_id = {
+			14044
+		}
+	},
+	[14045] = {
+		id = 14045,
+		damage = "68 x 3",
+		base = 14040,
+		weapon_id = {
+			14045
+		}
+	},
 	[14046] = {
 		id = 14046,
 		damage = "72 x 3",
@@ -201,75 +225,6 @@ pg.equip_data_statistics_97 = {
 		base = 14120,
 		weapon_id = {
 			14121
-		}
-	},
-	[14122] = {
-		id = 14122,
-		damage = "55 x 3",
-		base = 14120,
-		weapon_id = {
-			14122
-		}
-	},
-	[14123] = {
-		id = 14123,
-		damage = "61 x 3",
-		base = 14120,
-		weapon_id = {
-			14123
-		}
-	},
-	[14140] = {
-		name = "Triple 356mm Main Gun Mount",
-		speciality = "Volley",
-		type = 4,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "14100",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "48 x 3",
-		nationality = 1,
-		ammo = 2,
-		value_3 = 0,
-		id = 14140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				2,
-				1512
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			14140
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"BB",
-			"MG",
-			"HE"
 		}
 	}
 }

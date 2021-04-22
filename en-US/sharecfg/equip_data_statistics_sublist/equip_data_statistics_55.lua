@@ -1,5 +1,54 @@
 pg = pg or {}
 pg.equip_data_statistics_55 = {
+	[3053] = {
+		id = 3053,
+		anti_siren = 300,
+		base = 3040,
+		value_2 = 15,
+		value_1 = "44"
+	},
+	[3100] = {
+		name = "Compressed Oxygen Cylinder",
+		tech = 0,
+		type = 10,
+		speciality = "N/A",
+		attribute_1 = "oxy_max",
+		value_2 = 0,
+		icon = "3100",
+		value_1 = "18",
+		descrip = "Equipment that allows submarines to take in air while underwater.",
+		rarity = 4,
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 3100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[3101] = {
+		id = 3101,
+		value_1 = "20",
+		base = 3100
+	},
 	[3102] = {
 		id = 3102,
 		value_1 = "22",
@@ -104,21 +153,6 @@ pg.equip_data_statistics_55 = {
 	[3123] = {
 		id = 3123,
 		value_1 = "49",
-		base = 3120
-	},
-	[3124] = {
-		id = 3124,
-		value_1 = "54",
-		base = 3120
-	},
-	[3125] = {
-		id = 3125,
-		value_1 = "59",
-		base = 3120
-	},
-	[3126] = {
-		id = 3126,
-		value_1 = "64",
 		base = 3120
 	}
 }

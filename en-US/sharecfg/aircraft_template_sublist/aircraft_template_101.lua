@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.aircraft_template_101 = {
+	[38148] = {
+		id = 38148,
+		base = 38140,
+		max_hp = 73,
+		hp_growth = 2796,
+		weapon_ID = {
+			50048,
+			51448
+		}
+	},
+	[38149] = {
+		id = 38149,
+		base = 38140,
+		max_hp = 78,
+		hp_growth = 2986,
+		weapon_ID = {
+			50049,
+			51449
+		}
+	},
+	[38150] = {
+		id = 38150,
+		base = 38140,
+		max_hp = 83,
+		hp_growth = 3177,
+		weapon_ID = {
+			50050,
+			51450
+		}
+	},
+	[38151] = {
+		id = 38151,
+		base = 38140,
+		max_hp = 88,
+		hp_growth = 3367,
+		weapon_ID = {
+			50051,
+			51451
+		}
+	},
 	[38160] = {
 		name = "天山改",
 		max_hp = 33,
@@ -129,50 +169,6 @@ pg.aircraft_template_101 = {
 			50845,
 			59725,
 			51465
-		}
-	},
-	[38166] = {
-		id = 38166,
-		base = 38160,
-		max_hp = 63,
-		hp_growth = 2414,
-		weapon_ID = {
-			50846,
-			59726,
-			51466
-		}
-	},
-	[38167] = {
-		id = 38167,
-		base = 38160,
-		max_hp = 68,
-		hp_growth = 2605,
-		weapon_ID = {
-			50847,
-			59727,
-			51467
-		}
-	},
-	[38168] = {
-		id = 38168,
-		base = 38160,
-		max_hp = 73,
-		hp_growth = 2796,
-		weapon_ID = {
-			50848,
-			59728,
-			51468
-		}
-	},
-	[38169] = {
-		id = 38169,
-		base = 38160,
-		max_hp = 78,
-		hp_growth = 2986,
-		weapon_ID = {
-			50849,
-			59729,
-			51469
 		}
 	}
 }

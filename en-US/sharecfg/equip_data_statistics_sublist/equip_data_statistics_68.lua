@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_68 = {
+	[5021] = {
+		id = 5021,
+		damage = "59 x 3",
+		base = 5020,
+		weapon_id = {
+			5021
+		}
+	},
+	[5022] = {
+		id = 5022,
+		damage = "68 x 3",
+		base = 5020,
+		weapon_id = {
+			5022
+		}
+	},
+	[5023] = {
+		id = 5023,
+		damage = "77 x 3",
+		base = 5020,
+		weapon_id = {
+			5023
+		}
+	},
 	[5040] = {
 		name = "533mm Triple Torpedo Mount",
 		speciality = "Torpedo",
@@ -272,30 +296,6 @@ pg.equip_data_statistics_68 = {
 		base = 5120,
 		weapon_id = {
 			5121
-		}
-	},
-	[5122] = {
-		id = 5122,
-		damage = "68 x 4",
-		base = 5120,
-		weapon_id = {
-			5122
-		}
-	},
-	[5123] = {
-		id = 5123,
-		damage = "77 x 4",
-		base = 5120,
-		weapon_id = {
-			5123
-		}
-	},
-	[5124] = {
-		id = 5124,
-		damage = "86 x 4",
-		base = 5120,
-		weapon_id = {
-			5124
 		}
 	}
 }

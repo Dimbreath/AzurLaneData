@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.equip_data_statistics_30 = {
+	[1401] = {
+		id = 1401,
+		value_2 = 21,
+		value_1 = "20",
+		base = 1400
+	},
+	[1402] = {
+		id = 1402,
+		value_2 = 24,
+		value_1 = "23",
+		base = 1400
+	},
+	[1403] = {
+		id = 1403,
+		value_2 = 27,
+		value_1 = "26",
+		base = 1400
+	},
 	[1404] = {
 		id = 1404,
 		value_2 = 30,
@@ -117,57 +135,5 @@ pg.equip_data_statistics_30 = {
 		value_2 = 60,
 		value_1 = "70",
 		base = 1420
-	},
-	[1440] = {
-		name = "Steam Catapult",
-		tech = 3,
-		type = 10,
-		speciality = "N/A",
-		id = 1440,
-		value_2 = 25,
-		icon = "1400",
-		value_1 = "40",
-		attribute_2 = "durability",
-		rarity = 5,
-		descrip = "Improves aircraft takeoff and increases aviation efficiency.",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "air",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {
-			6,
-			7,
-			10
-		},
-		part_sub = {
-			6,
-			7,
-			10
-		},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[1441] = {
-		id = 1441,
-		value_2 = 30,
-		value_1 = "46",
-		base = 1440
-	},
-	[1442] = {
-		id = 1442,
-		value_2 = 35,
-		value_1 = "52",
-		base = 1440
 	}
 }

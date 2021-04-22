@@ -1,5 +1,75 @@
 pg = pg or {}
 pg.equip_data_statistics_101 = {
+	[14250] = {
+		id = 14250,
+		damage = "154 x 2",
+		base = 14240,
+		weapon_id = {
+			14250
+		}
+	},
+	[14251] = {
+		anti_siren = 100,
+		damage = "154 x 2",
+		base = 14240,
+		id = 14251,
+		weapon_id = {
+			14251
+		}
+	},
+	[14260] = {
+		name = "Twin 406mm Mk 8 Main Gun Mount",
+		speciality = "Volley",
+		type = 4,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "14260",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "58 x 2",
+		nationality = 1,
+		ammo = 1,
+		value_3 = 0,
+		id = 14260,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1501
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			14260
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG",
+			"AP"
+		}
+	},
 	[14261] = {
 		id = 14261,
 		damage = "68 x 2",
@@ -155,75 +225,6 @@ pg.equip_data_statistics_101 = {
 		base = 14300,
 		weapon_id = {
 			14302
-		}
-	},
-	[14303] = {
-		id = 14303,
-		damage = "74 x 3",
-		base = 14300,
-		weapon_id = {
-			14303
-		}
-	},
-	[14320] = {
-		name = "Triple 406mm Mk 6 Main Gun Mount",
-		speciality = "Volley",
-		type = 4,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "14300",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "55 x 3",
-		nationality = 1,
-		ammo = 2,
-		value_3 = 0,
-		id = 14320,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				2,
-				1512
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			14320
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"BB",
-			"MG",
-			"HE"
-		}
-	},
-	[14321] = {
-		id = 14321,
-		damage = "64 x 3",
-		base = 14320,
-		weapon_id = {
-			14321
 		}
 	}
 }

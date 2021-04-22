@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_123 = {
+	[16428] = {
+		id = 16428,
+		damage = "94/wave",
+		base = 16420,
+		weapon_id = {
+			16428
+		}
+	},
+	[16429] = {
+		id = 16429,
+		damage = "101/wave",
+		base = 16420,
+		weapon_id = {
+			16429
+		}
+	},
+	[16430] = {
+		id = 16430,
+		damage = "108/wave",
+		base = 16420,
+		weapon_id = {
+			16430
+		}
+	},
 	[16440] = {
 		name = "Quadruple 40mm Bofors AA Gun Mount",
 		speciality = "Anti-Air",
@@ -167,82 +191,6 @@ pg.equip_data_statistics_123 = {
 		id = 16453,
 		weapon_id = {
 			16453
-		}
-	},
-	[17000] = {
-		name = "F2A Buffalo",
-		tech = 1,
-		speciality = "Air",
-		type = 7,
-		rarity = 1,
-		descrip = "No description",
-		value_2 = 0,
-		icon = "17000",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 17000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50300
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			17000,
-			81000
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"FT"
-		}
-	},
-	[17001] = {
-		id = 17001,
-		base = 17000,
-		ammo_info = {
-			{
-				6,
-				50301
-			}
-		},
-		weapon_id = {
-			17001,
-			81001
-		}
-	},
-	[17002] = {
-		id = 17002,
-		base = 17000,
-		ammo_info = {
-			{
-				6,
-				50302
-			}
-		},
-		weapon_id = {
-			17002,
-			81002
 		}
 	}
 }

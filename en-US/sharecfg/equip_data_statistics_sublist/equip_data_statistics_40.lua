@@ -1,5 +1,48 @@
 pg = pg or {}
 pg.equip_data_statistics_40 = {
+	[2026] = {
+		id = 2026,
+		value_2 = 3,
+		value_1 = "171",
+		base = 2020
+	},
+	[2040] = {
+		name = "Fuel Filter",
+		tech = 3,
+		type = 10,
+		speciality = "N/A",
+		id = 2040,
+		value_2 = 2,
+		icon = "2000",
+		value_1 = "140",
+		attribute_2 = "dodge",
+		rarity = 4,
+		descrip = "Improves the quality of fuel.",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "durability",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[2041] = {
+		id = 2041,
+		value_1 = "161",
+		base = 2040
+	},
 	[2042] = {
 		id = 2042,
 		value_1 = "182",
@@ -118,59 +161,5 @@ pg.equip_data_statistics_40 = {
 		value_2 = 20,
 		value_1 = "14",
 		base = 2100
-	},
-	[2120] = {
-		name = "Aviation Oil Tank",
-		tech = 2,
-		type = 10,
-		speciality = "N/A",
-		id = 2120,
-		value_2 = 16,
-		icon = "2100",
-		value_1 = "18",
-		attribute_2 = "durability",
-		rarity = 3,
-		descrip = "Effectively increases the HP of aircraft.",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "air",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6080
-		},
-		part_main = {
-			6,
-			7,
-			10
-		},
-		part_sub = {
-			6,
-			7,
-			10
-		},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[2121] = {
-		id = 2121,
-		value_2 = 19,
-		value_1 = "20",
-		base = 2120
-	},
-	[2122] = {
-		id = 2122,
-		value_2 = 22,
-		value_1 = "23",
-		base = 2120
 	}
 }

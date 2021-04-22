@@ -1,5 +1,81 @@
 pg = pg or {}
 pg.equip_data_statistics_289 = {
+	[42225] = {
+		id = 42225,
+		damage = "13 x 4",
+		base = 42220,
+		weapon_id = {
+			42225
+		}
+	},
+	[42226] = {
+		id = 42226,
+		damage = "14 x 4",
+		base = 42220,
+		weapon_id = {
+			42226
+		}
+	},
+	[42240] = {
+		name = "Twin 150mm TbtsK C/36 Main Gun Mount",
+		speciality = "Lock",
+		type = 2,
+		tech = 3,
+		descrip = "The Twin 150mm TbtsK C/36 Main Gun Mount is a 1936A type destroyer gun which may be used by light carriers and most destroyers.",
+		value_2 = 25,
+		icon = "42200",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "9 x 4",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 0,
+		id = 42240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1304
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1304
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			42240
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
 	[42241] = {
 		id = 42241,
 		damage = "10 x 4",
@@ -163,81 +239,6 @@ pg.equip_data_statistics_289 = {
 		base = 42300,
 		weapon_id = {
 			42302
-		}
-	},
-	[42303] = {
-		id = 42303,
-		damage = "10 x 3",
-		base = 42300,
-		weapon_id = {
-			42303
-		}
-	},
-	[42340] = {
-		name = "Single 150mm TbtsK C/36 Main Gun Mount",
-		speciality = "Lock",
-		type = 2,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "42300",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "6 x 3",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 42340,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1304
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1304
-			},
-			{
-				4,
-				1003
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			42340
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CL",
-			"MG",
-			"AP"
-		}
-	},
-	[42341] = {
-		id = 42341,
-		base = 42340,
-		weapon_id = {
-			42341
 		}
 	}
 }

@@ -2,257 +2,396 @@ pg = pg or {}
 pg.weapon_property_91 = {}
 
 function ()
-	uv0.weapon_property_91[51551] = {
-		id = 51551,
-		damage = 250,
-		base = 51540
+	uv0.weapon_property_91[52305] = {
+		id = 52305,
+		damage = 210,
+		base = 52300
 	}
-	uv0.weapon_property_91[51552] = {
-		id = 51552,
+	uv0.weapon_property_91[52306] = {
+		id = 52306,
+		damage = 228,
+		base = 52300
+	}
+	uv0.weapon_property_91[52307] = {
+		id = 52307,
+		damage = 246,
+		base = 52300
+	}
+	uv0.weapon_property_91[52308] = {
+		id = 52308,
 		damage = 264,
-		base = 51540
+		base = 52300
 	}
-	uv0.weapon_property_91[51553] = {
-		id = 51553,
-		damage = 283,
-		base = 51540
+	uv0.weapon_property_91[52309] = {
+		id = 52309,
+		damage = 282,
+		base = 52300
 	}
-	uv0.weapon_property_91[51560] = {
-		action_index = "",
-		range = 75,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "3 x Torpedo-Iris",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 20,
-		charge_param = "",
-		damage = 72,
-		corrected = 100,
-		min_range = 0,
-		id = 51560,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 10000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2116
-		},
-		barrage_ID = {
-			2112
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_91[52310] = {
+		id = 52310,
+		damage = 300,
+		base = 52300
 	}
-	uv0.weapon_property_91[51561] = {
-		id = 51561,
-		damage = 84,
-		base = 51560
+	uv0.weapon_property_91[52311] = {
+		id = 52311,
+		damage = 312,
+		base = 52300
 	}
-	uv0.weapon_property_91[51562] = {
-		id = 51562,
-		damage = 96,
-		base = 51560
+	uv0.weapon_property_91[52312] = {
+		id = 52312,
+		damage = 330,
+		base = 52300
 	}
-	uv0.weapon_property_91[51563] = {
-		id = 51563,
-		damage = 108,
-		base = 51560
-	}
-	uv0.weapon_property_91[51564] = {
-		id = 51564,
-		damage = 120,
-		base = 51560
-	}
-	uv0.weapon_property_91[51565] = {
-		id = 51565,
-		damage = 132,
-		base = 51560
-	}
-	uv0.weapon_property_91[51566] = {
-		id = 51566,
-		damage = 144,
-		base = 51560
-	}
-	uv0.weapon_property_91[51567] = {
-		id = 51567,
-		damage = 156,
-		base = 51560
-	}
-	uv0.weapon_property_91[51568] = {
-		id = 51568,
-		damage = 168,
-		base = 51560
-	}
-	uv0.weapon_property_91[51569] = {
-		id = 51569,
-		damage = 180,
-		base = 51560
-	}
-	uv0.weapon_property_91[51570] = {
-		id = 51570,
-		damage = 192,
-		base = 51560
-	}
-	uv0.weapon_property_91[51571] = {
-		id = 51571,
-		damage = 200,
-		base = 51560
-	}
-	uv0.weapon_property_91[51572] = {
-		id = 51572,
-		damage = 211,
-		base = 51560
-	}
-	uv0.weapon_property_91[51573] = {
-		id = 51573,
-		damage = 227,
-		base = 51560
-	}
-	uv0.weapon_property_91[51580] = {
-		action_index = "",
-		range = 75,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "4 x Torpedo-Wyvern",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 28,
-		charge_param = "",
-		damage = 115,
-		corrected = 100,
-		min_range = 0,
-		id = 51580,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2111
-		},
-		barrage_ID = {
-			2113
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_91[51581] = {
-		id = 51581,
-		damage = 137,
-		base = 51580
-	}
-	uv0.weapon_property_91[51582] = {
-		id = 51582,
-		damage = 160,
-		base = 51580
-	}
-	uv0.weapon_property_91[51583] = {
-		id = 51583,
-		damage = 182,
-		base = 51580
-	}
-	uv0.weapon_property_91[51584] = {
-		id = 51584,
-		damage = 205,
-		base = 51580
-	}
-	uv0.weapon_property_91[51585] = {
-		id = 51585,
-		damage = 227,
-		base = 51580
-	}
-	uv0.weapon_property_91[51586] = {
-		id = 51586,
-		damage = 250,
-		base = 51580
-	}
-	uv0.weapon_property_91[51587] = {
-		id = 51587,
-		damage = 272,
-		base = 51580
-	}
-	uv0.weapon_property_91[51588] = {
-		id = 51588,
-		damage = 295,
-		base = 51580
-	}
-	uv0.weapon_property_91[51589] = {
-		id = 51589,
-		damage = 317,
-		base = 51580
-	}
-	uv0.weapon_property_91[51590] = {
-		id = 51590,
-		damage = 340,
-		base = 51580
-	}
-	uv0.weapon_property_91[51591] = {
-		id = 51591,
+	uv0.weapon_property_91[52313] = {
+		id = 52313,
 		damage = 354,
-		base = 51580
+		base = 52300
 	}
-	uv0.weapon_property_91[51592] = {
-		id = 51592,
-		damage = 374,
-		base = 51580
-	}
-	uv0.weapon_property_91[51593] = {
-		id = 51593,
-		damage = 401,
-		base = 51580
-	}
-	uv0.weapon_property_91[52000] = {
+	uv0.weapon_property_91[52320] = {
 		action_index = "",
 		range = 500,
 		type = 2,
 		fire_fx = "",
 		recover_time = 0,
-		axis_angle = 25,
+		axis_angle = 22,
 		shakescreen = 0,
-		name = "1 x 100lb Bomb",
+		name = "2 x 500lb Bomb",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 25,
+		angle = 22,
 		charge_param = "",
-		damage = 57,
+		damage = 132,
 		corrected = 100,
 		min_range = 0,
-		id = 52000,
+		id = 52320,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 10000,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2122
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_91[52321] = {
+		id = 52321,
+		damage = 152,
+		base = 52320
+	}
+	uv0.weapon_property_91[52322] = {
+		id = 52322,
+		damage = 171,
+		base = 52320
+	}
+	uv0.weapon_property_91[52323] = {
+		id = 52323,
+		damage = 191,
+		base = 52320
+	}
+	uv0.weapon_property_91[52324] = {
+		id = 52324,
+		damage = 210,
+		base = 52320
+	}
+	uv0.weapon_property_91[52325] = {
+		id = 52325,
+		damage = 230,
+		base = 52320
+	}
+	uv0.weapon_property_91[52326] = {
+		id = 52326,
+		damage = 249,
+		base = 52320
+	}
+	uv0.weapon_property_91[52327] = {
+		id = 52327,
+		damage = 269,
+		base = 52320
+	}
+	uv0.weapon_property_91[52328] = {
+		id = 52328,
+		damage = 288,
+		base = 52320
+	}
+	uv0.weapon_property_91[52329] = {
+		id = 52329,
+		damage = 309,
+		base = 52320
+	}
+	uv0.weapon_property_91[52330] = {
+		id = 52330,
+		damage = 330,
+		base = 52320
+	}
+	uv0.weapon_property_91[52331] = {
+		id = 52331,
+		damage = 343,
+		base = 52320
+	}
+	uv0.weapon_property_91[52332] = {
+		id = 52332,
+		damage = 363,
+		base = 52320
+	}
+	uv0.weapon_property_91[52333] = {
+		id = 52333,
+		damage = 389,
+		base = 52320
+	}
+	uv0.weapon_property_91[52340] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 22,
+		shakescreen = 0,
+		name = "2 x 500lb Bomb",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 22,
+		charge_param = "",
+		damage = 144,
+		corrected = 100,
+		min_range = 0,
+		id = 52340,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2122
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_91[52341] = {
+		id = 52341,
+		damage = 165,
+		base = 52340
+	}
+	uv0.weapon_property_91[52342] = {
+		id = 52342,
+		damage = 186,
+		base = 52340
+	}
+	uv0.weapon_property_91[52343] = {
+		id = 52343,
+		damage = 207,
+		base = 52340
+	}
+	uv0.weapon_property_91[52344] = {
+		id = 52344,
+		damage = 228,
+		base = 52340
+	}
+	uv0.weapon_property_91[52345] = {
+		id = 52345,
+		damage = 249,
+		base = 52340
+	}
+	uv0.weapon_property_91[52346] = {
+		id = 52346,
+		damage = 270,
+		base = 52340
+	}
+	uv0.weapon_property_91[52347] = {
+		id = 52347,
+		damage = 293,
+		base = 52340
+	}
+	uv0.weapon_property_91[52348] = {
+		id = 52348,
+		damage = 315,
+		base = 52340
+	}
+	uv0.weapon_property_91[52349] = {
+		id = 52349,
+		damage = 338,
+		base = 52340
+	}
+	uv0.weapon_property_91[52350] = {
+		id = 52350,
+		damage = 360,
+		base = 52340
+	}
+	uv0.weapon_property_91[52351] = {
+		id = 52351,
+		damage = 374,
+		base = 52340
+	}
+	uv0.weapon_property_91[52352] = {
+		id = 52352,
+		damage = 396,
+		base = 52340
+	}
+	uv0.weapon_property_91[52353] = {
+		id = 52353,
+		damage = 425,
+		base = 52340
+	}
+	uv0.weapon_property_91[52360] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 22,
+		shakescreen = 0,
+		name = "2 x 500lb Bomb",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 22,
+		charge_param = "",
+		damage = 152,
+		corrected = 100,
+		min_range = 0,
+		id = 52360,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2122
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_91[52361] = {
+		id = 52361,
+		damage = 174,
+		base = 52360
+	}
+	uv0.weapon_property_91[52362] = {
+		id = 52362,
+		damage = 196,
+		base = 52360
+	}
+	uv0.weapon_property_91[52363] = {
+		id = 52363,
+		damage = 219,
+		base = 52360
+	}
+	uv0.weapon_property_91[52364] = {
+		id = 52364,
+		damage = 242,
+		base = 52360
+	}
+	uv0.weapon_property_91[52365] = {
+		id = 52365,
+		damage = 265,
+		base = 52360
+	}
+	uv0.weapon_property_91[52366] = {
+		id = 52366,
+		damage = 288,
+		base = 52360
+	}
+	uv0.weapon_property_91[52367] = {
+		id = 52367,
+		damage = 311,
+		base = 52360
+	}
+	uv0.weapon_property_91[52368] = {
+		id = 52368,
+		damage = 334,
+		base = 52360
+	}
+	uv0.weapon_property_91[52369] = {
+		id = 52369,
+		damage = 357,
+		base = 52360
+	}
+	uv0.weapon_property_91[52370] = {
+		id = 52370,
+		damage = 380,
+		base = 52360
+	}
+	uv0.weapon_property_91[52371] = {
+		id = 52371,
+		damage = 395,
+		base = 52360
+	}
+	uv0.weapon_property_91[52372] = {
+		id = 52372,
+		damage = 418,
+		base = 52360
+	}
+	uv0.weapon_property_91[52373] = {
+		id = 52373,
+		damage = 448,
+		base = 52360
+	}
+	uv0.weapon_property_91[52400] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 22,
+		shakescreen = 0,
+		name = "3 x 500lb Bomb",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 22,
+		charge_param = "",
+		damage = 120,
+		corrected = 100,
+		min_range = 0,
+		id = 52400,
 		attack_attribute_ratio = 80,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -266,10 +405,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			2121
+			2122
 		},
 		barrage_ID = {
-			2120
+			2122
 		},
 		oxy_type = {
 			1
@@ -279,222 +418,54 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_91[52001] = {
-		id = 52001,
-		damage = 65,
-		base = 52000
-	}
-	uv0.weapon_property_91[52002] = {
-		id = 52002,
-		damage = 72,
-		base = 52000
-	}
-	uv0.weapon_property_91[52003] = {
-		id = 52003,
-		damage = 81,
-		base = 52000
-	}
-	uv0.weapon_property_91[52004] = {
-		id = 52004,
-		damage = 90,
-		base = 52000
-	}
-	uv0.weapon_property_91[52005] = {
-		id = 52005,
-		damage = 99,
-		base = 52000
-	}
-	uv0.weapon_property_91[52006] = {
-		id = 52006,
-		damage = 108,
-		base = 52000
-	}
-	uv0.weapon_property_91[52007] = {
-		id = 52007,
-		damage = 117,
-		base = 52000
-	}
-	uv0.weapon_property_91[52008] = {
-		id = 52008,
-		damage = 126,
-		base = 52000
-	}
-	uv0.weapon_property_91[52009] = {
-		id = 52009,
-		damage = 135,
-		base = 52000
-	}
-	uv0.weapon_property_91[52010] = {
-		id = 52010,
-		damage = 144,
-		base = 52000
-	}
-	uv0.weapon_property_91[52011] = {
-		id = 52011,
-		damage = 150,
-		base = 52000
-	}
-	uv0.weapon_property_91[52012] = {
-		id = 52012,
-		damage = 158,
-		base = 52000
-	}
-	uv0.weapon_property_91[52013] = {
-		id = 52013,
-		damage = 170,
-		base = 52000
-	}
-	uv0.weapon_property_91[52020] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 25,
-		shakescreen = 0,
-		name = "1 x 100lb Bomb",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 63,
-		corrected = 100,
-		min_range = 0,
-		id = 52020,
-		attack_attribute_ratio = 80,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 10000,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2121
-		},
-		barrage_ID = {
-			2120
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_91[52021] = {
-		id = 52021,
-		damage = 72,
-		base = 52020
-	}
-	uv0.weapon_property_91[52022] = {
-		id = 52022,
-		damage = 81,
-		base = 52020
-	}
-	uv0.weapon_property_91[52023] = {
-		id = 52023,
-		damage = 90,
-		base = 52020
-	}
-	uv0.weapon_property_91[52024] = {
-		id = 52024,
-		damage = 99,
-		base = 52020
-	}
-	uv0.weapon_property_91[52025] = {
-		id = 52025,
-		damage = 108,
-		base = 52020
-	}
-	uv0.weapon_property_91[52026] = {
-		id = 52026,
-		damage = 117,
-		base = 52020
-	}
-	uv0.weapon_property_91[52027] = {
-		id = 52027,
-		damage = 128,
-		base = 52020
-	}
-	uv0.weapon_property_91[52028] = {
-		id = 52028,
+	uv0.weapon_property_91[52401] = {
+		id = 52401,
 		damage = 138,
-		base = 52020
+		base = 52400
 	}
-	uv0.weapon_property_91[52029] = {
-		id = 52029,
-		damage = 149,
-		base = 52020
+	uv0.weapon_property_91[52402] = {
+		id = 52402,
+		damage = 156,
+		base = 52400
 	}
-	uv0.weapon_property_91[52030] = {
-		id = 52030,
-		damage = 159,
-		base = 52020
+	uv0.weapon_property_91[52403] = {
+		id = 52403,
+		damage = 174,
+		base = 52400
 	}
-	uv0.weapon_property_91[52031] = {
-		id = 52031,
-		damage = 165,
-		base = 52020
+	uv0.weapon_property_91[52404] = {
+		id = 52404,
+		damage = 192,
+		base = 52400
 	}
-	uv0.weapon_property_91[52032] = {
-		id = 52032,
-		damage = 175,
-		base = 52020
+	uv0.weapon_property_91[52405] = {
+		id = 52405,
+		damage = 210,
+		base = 52400
 	}
-	uv0.weapon_property_91[52033] = {
-		id = 52033,
-		damage = 188,
-		base = 52020
+	uv0.weapon_property_91[52406] = {
+		id = 52406,
+		damage = 228,
+		base = 52400
 	}
-	uv0.weapon_property_91[52040] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 25,
-		shakescreen = 0,
-		name = "1 x 100lb Bomb",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 69,
-		corrected = 100,
-		min_range = 0,
-		id = 52040,
-		attack_attribute_ratio = 80,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2121
-		},
-		barrage_ID = {
-			2120
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_91[52407] = {
+		id = 52407,
+		damage = 246,
+		base = 52400
+	}
+	uv0.weapon_property_91[52408] = {
+		id = 52408,
+		damage = 264,
+		base = 52400
+	}
+	uv0.weapon_property_91[52409] = {
+		id = 52409,
+		damage = 282,
+		base = 52400
+	}
+	uv0.weapon_property_91[52410] = {
+		id = 52410,
+		damage = 300,
+		base = 52400
 	}
 end()

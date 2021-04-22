@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_228 = {
+	[34021] = {
+		id = 34021,
+		damage = "48 x 2",
+		base = 34020,
+		weapon_id = {
+			34021
+		}
+	},
+	[34022] = {
+		id = 34022,
+		damage = "55 x 2",
+		base = 34020,
+		weapon_id = {
+			34022
+		}
+	},
+	[34023] = {
+		id = 34023,
+		damage = "62 x 2",
+		base = 34020,
+		weapon_id = {
+			34023
+		}
+	},
 	[34040] = {
 		name = "Twin 356mm Naval Gun Mount",
 		speciality = "Volley",
@@ -200,74 +224,6 @@ pg.equip_data_statistics_228 = {
 		base = 34060,
 		weapon_id = {
 			34065
-		}
-	},
-	[34066] = {
-		id = 34066,
-		damage = "94 x 2",
-		base = 34060,
-		weapon_id = {
-			34066
-		}
-	},
-	[34067] = {
-		id = 34067,
-		damage = "94 x 2",
-		base = 34060,
-		weapon_id = {
-			34067
-		}
-	},
-	[34100] = {
-		name = "Twin 410mm Naval Gun Mount",
-		speciality = "Volley",
-		type = 4,
-		tech = 1,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "34100",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "48 x 2",
-		nationality = 3,
-		ammo = 3,
-		value_3 = 0,
-		id = 34100,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1500
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			34100
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"BB",
-			"MG"
 		}
 	}
 }

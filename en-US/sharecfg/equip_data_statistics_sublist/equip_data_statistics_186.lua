@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.equip_data_statistics_186 = {
+	[26469] = {
+		id = 26469,
+		damage = "101/wave",
+		base = 26460,
+		weapon_id = {
+			26469
+		}
+	},
+	[26470] = {
+		id = 26470,
+		damage = "108/wave",
+		base = 26460,
+		weapon_id = {
+			26470
+		}
+	},
+	[26471] = {
+		anti_siren = 100,
+		damage = "108/wave",
+		base = 26460,
+		id = 26471,
+		weapon_id = {
+			26471
+		}
+	},
 	[26500] = {
 		name = "Twin 113mm AA Gun Mount",
 		speciality = "Anti-Air",
@@ -218,30 +243,6 @@ pg.equip_data_statistics_186 = {
 		base = 26520,
 		weapon_id = {
 			26526
-		}
-	},
-	[26527] = {
-		id = 26527,
-		damage = "91/wave",
-		base = 26520,
-		weapon_id = {
-			26527
-		}
-	},
-	[26528] = {
-		id = 26528,
-		damage = "98/wave",
-		base = 26520,
-		weapon_id = {
-			26528
-		}
-	},
-	[26529] = {
-		id = 26529,
-		damage = "105/wave",
-		base = 26520,
-		weapon_id = {
-			26529
 		}
 	}
 }

@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_70 = {
+	[5200] = {
+		name = "533mm Quintuple Torpedo Mount",
+		speciality = "Torpedo",
+		type = 5,
+		tech = 1,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "5200",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		damage = "46 x 5",
+		nationality = 0,
+		ammo = 5,
+		value_3 = 0,
+		id = 5200,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1800
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1800
+			},
+			{
+				4,
+				1404
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			5200
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"TP",
+			"QUINT"
+		}
+	},
+	[5201] = {
+		id = 5201,
+		damage = "54 x 5",
+		base = 5200,
+		weapon_id = {
+			5201
+		}
+	},
+	[5202] = {
+		id = 5202,
+		damage = "62 x 5",
+		base = 5200,
+		weapon_id = {
+			5202
+		}
+	},
 	[5203] = {
 		id = 5203,
 		damage = "70 x 5",
@@ -164,84 +242,6 @@ pg.equip_data_statistics_70 = {
 		base = 5220,
 		weapon_id = {
 			5229
-		}
-	},
-	[5230] = {
-		id = 5230,
-		damage = "140 x 5",
-		base = 5220,
-		weapon_id = {
-			5230
-		}
-	},
-	[5240] = {
-		name = "533mm Quintuple Torpedo Mount",
-		speciality = "Torpedo",
-		type = 5,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 45,
-		icon = "5200",
-		attribute_2 = "torpedo",
-		rarity = 5,
-		damage = "56 x 5",
-		nationality = 0,
-		ammo = 5,
-		value_3 = 0,
-		id = 5240,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1800
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1800
-			},
-			{
-				4,
-				1404
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			5240
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"UN",
-			"ST",
-			"TP",
-			"QUINT"
-		}
-	},
-	[5241] = {
-		id = 5241,
-		damage = "66 x 5",
-		base = 5240,
-		weapon_id = {
-			5241
 		}
 	}
 }

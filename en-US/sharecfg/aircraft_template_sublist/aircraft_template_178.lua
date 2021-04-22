@@ -1,20 +1,65 @@
 pg = pg or {}
 pg.aircraft_template_178 = {
-	[68870] = {
-		max_hp = 98,
-		name = "大神澪技能鱼雷机Lv10",
-		base = 68861,
-		id = 68870,
-		hp_growth = 3678,
+	[68776] = {
+		max_hp = 73,
+		name = "赤城μ技能舰爆Lv6",
+		base = 68771,
+		id = 68776,
+		hp_growth = 2796,
 		weapon_ID = {
-			68880
+			68786,
+			68796
 		}
 	},
-	[68881] = {
-		name = "大神澪技能轰炸机Lv1",
+	[68777] = {
+		max_hp = 79,
+		name = "赤城μ技能舰爆Lv7",
+		base = 68771,
+		id = 68777,
+		hp_growth = 3016,
+		weapon_ID = {
+			68787,
+			68797
+		}
+	},
+	[68778] = {
+		max_hp = 86,
+		name = "赤城μ技能舰爆Lv8",
+		base = 68771,
+		id = 68778,
+		hp_growth = 3237,
+		weapon_ID = {
+			68788,
+			68798
+		}
+	},
+	[68779] = {
+		max_hp = 92,
+		name = "赤城μ技能舰爆Lv9",
+		base = 68771,
+		id = 68779,
+		hp_growth = 3458,
+		weapon_ID = {
+			68789,
+			68799
+		}
+	},
+	[68780] = {
+		max_hp = 98,
+		name = "赤城μ技能舰爆Lv10",
+		base = 68771,
+		id = 68780,
+		hp_growth = 3678,
+		weapon_ID = {
+			68790,
+			68800
+		}
+	},
+	[68801] = {
+		name = "赤城μ技能舰攻Lv1",
 		max_hp = 42,
 		accuracy = 23,
-		model_ID = "feiji_vtuber2",
+		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 208,
 		dodge = 1,
@@ -22,15 +67,15 @@ pg.aircraft_template_178 = {
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "feiji_vtuber2",
+		icon = "97jiangong",
 		funnel_behavior = "",
 		nationality = 3,
 		hp_growth = 1692,
 		speed = 48,
-		id = 68881,
+		id = 68801,
 		scale = 1,
 		weapon_ID = {
-			68891
+			68811
 		},
 		position_offset = {
 			0,
@@ -84,84 +129,44 @@ pg.aircraft_template_178 = {
 			}
 		}
 	},
-	[68882] = {
+	[68802] = {
 		max_hp = 48,
-		name = "大神澪技能轰炸机Lv2",
-		base = 68881,
-		id = 68882,
+		name = "赤城μ技能舰攻Lv2",
+		base = 68801,
+		id = 68802,
 		hp_growth = 1913,
 		weapon_ID = {
-			68892
+			68812
 		}
 	},
-	[68883] = {
+	[68803] = {
 		max_hp = 54,
-		name = "大神澪技能轰炸机Lv3",
-		base = 68881,
-		id = 68883,
+		name = "赤城μ技能舰攻Lv3",
+		base = 68801,
+		id = 68803,
 		hp_growth = 2133,
 		weapon_ID = {
-			68893
+			68813
 		}
 	},
-	[68884] = {
+	[68804] = {
 		max_hp = 61,
-		name = "大神澪技能轰炸机Lv4",
-		base = 68881,
-		id = 68884,
+		name = "赤城μ技能舰攻Lv4",
+		base = 68801,
+		id = 68804,
 		hp_growth = 2354,
 		weapon_ID = {
-			68894
+			68814
 		}
 	},
-	[68885] = {
+	[68805] = {
 		max_hp = 67,
-		name = "大神澪技能轰炸机Lv5",
-		base = 68881,
-		id = 68885,
+		name = "赤城μ技能舰攻Lv5",
+		base = 68801,
+		id = 68805,
 		hp_growth = 2575,
 		weapon_ID = {
-			68895
-		}
-	},
-	[68886] = {
-		max_hp = 73,
-		name = "大神澪技能轰炸机Lv6",
-		base = 68881,
-		id = 68886,
-		hp_growth = 2796,
-		weapon_ID = {
-			68896
-		}
-	},
-	[68887] = {
-		max_hp = 79,
-		name = "大神澪技能轰炸机Lv7",
-		base = 68881,
-		id = 68887,
-		hp_growth = 3016,
-		weapon_ID = {
-			68897
-		}
-	},
-	[68888] = {
-		max_hp = 86,
-		name = "大神澪技能轰炸机Lv8",
-		base = 68881,
-		id = 68888,
-		hp_growth = 3237,
-		weapon_ID = {
-			68898
-		}
-	},
-	[68889] = {
-		max_hp = 92,
-		name = "大神澪技能轰炸机Lv9",
-		base = 68881,
-		id = 68889,
-		hp_growth = 3458,
-		weapon_ID = {
-			68899
+			68815
 		}
 	}
 }

@@ -1,5 +1,48 @@
 pg = pg or {}
 pg.equip_data_statistics_45 = {
+	[2403] = {
+		id = 2403,
+		value_1 = "130",
+		base = 2400
+	},
+	[2420] = {
+		name = "Repair Toolkit",
+		tech = 2,
+		type = 10,
+		speciality = "N/A",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "2400",
+		value_1 = "140",
+		descrip = "Repair Toolkit allow for ships to repair themselves when damaged.",
+		rarity = 3,
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 2420,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6110
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[2421] = {
+		id = 2421,
+		value_1 = "161",
+		base = 2420
+	},
 	[2422] = {
 		id = 2422,
 		value_1 = "182",
@@ -96,22 +139,6 @@ pg.equip_data_statistics_45 = {
 	[2448] = {
 		id = 2448,
 		value_1 = "440",
-		base = 2440
-	},
-	[2449] = {
-		id = 2449,
-		value_1 = "470",
-		base = 2440
-	},
-	[2450] = {
-		id = 2450,
-		value_1 = "500",
-		base = 2440
-	},
-	[2451] = {
-		id = 2451,
-		anti_siren = 100,
-		value_1 = "530",
 		base = 2440
 	}
 }

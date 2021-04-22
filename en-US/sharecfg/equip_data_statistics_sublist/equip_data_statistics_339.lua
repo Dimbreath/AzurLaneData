@@ -1,5 +1,146 @@
 pg = pg or {}
 pg.equip_data_statistics_339 = {
+	[71082] = {
+		id = 71082,
+		name = "全弹发射-M级II",
+		base = 71081,
+		weapon_id = {
+			71082
+		}
+	},
+	[71091] = {
+		name = "全弹发射-E级I",
+		tech = 1,
+		speciality = "N/A",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "Barrage",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 71091,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			71091
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[71092] = {
+		id = 71092,
+		name = "全弹发射-E级II",
+		base = 71091,
+		weapon_id = {
+			71092
+		}
+	},
+	[71016] = {
+		name = "全弹发射-部族级I",
+		tech = 1,
+		speciality = "N/A",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 71016,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			71016
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[71017] = {
+		id = 71017,
+		name = "全弹发射-部族级II",
+		base = 71016,
+		weapon_id = {
+			71017
+		}
+	},
+	[71111] = {
+		name = "0",
+		tech = 1,
+		speciality = "N/A",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "Barrage",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 71111,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			71111
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[71112] = {
 		id = 71112,
 		name = "0",
@@ -241,147 +382,6 @@ pg.equip_data_statistics_339 = {
 		base = 71161,
 		weapon_id = {
 			71162
-		}
-	},
-	[71171] = {
-		name = "全弹发射-谷物女神级I",
-		tech = 1,
-		speciality = "N/A",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "Barrage",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 71171,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			71171
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[71172] = {
-		id = 71172,
-		name = "全弹发射-谷物女神级II",
-		base = 71171,
-		weapon_id = {
-			71172
-		}
-	},
-	[71181] = {
-		name = "全弹发射-格罗斯特级I",
-		tech = 1,
-		speciality = "N/A",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "Barrage",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 71181,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			71181
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[71182] = {
-		id = 71182,
-		name = "全弹发射-格罗斯特级II",
-		base = 71181,
-		weapon_id = {
-			71182
-		}
-	},
-	[71211] = {
-		name = "0",
-		tech = 1,
-		speciality = "N/A",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "Barrage",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 71211,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			71211
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[71212] = {
-		id = 71212,
-		name = "0",
-		base = 71211,
-		weapon_id = {
-			71212
 		}
 	}
 }

@@ -1,103 +1,169 @@
 pg = pg or {}
 pg.aircraft_template_149 = {
-	[66941] = {
-		max_hp = 36,
-		name = "萨拉托加技能鱼雷机Lv1",
-		base = 66940,
-		id = 66941,
-		hp_growth = 1385,
+	[66430] = {
+		max_hp = 96,
+		name = "胡蜂技能LV10",
+		base = 66420,
+		id = 66430,
+		hp_growth = 3696,
 		weapon_ID = {
-			66981
+			50150,
+			50550,
+			52250
 		}
 	},
-	[66942] = {
-		max_hp = 42,
-		name = "萨拉托加技能鱼雷机Lv2",
-		base = 66940,
-		id = 66942,
-		hp_growth = 1621,
+	[66580] = {
+		name = "宝石枪雨LV0",
+		max_hp = 38,
+		accuracy = 23,
+		model_ID = "Nep_green",
+		ACC_growth = 0,
+		crash_DMG = 100,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "Nep_green",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1478,
+		speed = 50,
+		id = 66580,
+		scale = 1,
 		weapon_ID = {
-			66982
+			66620
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					1.28,
+					-0.38,
+					0
+				},
+				{
+					1.43,
+					1.85,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.62,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	},
-	[66943] = {
-		max_hp = 48,
-		name = "萨拉托加技能鱼雷机Lv3",
-		base = 66940,
-		id = 66943,
-		hp_growth = 1857,
+	[66581] = {
+		max_hp = 45,
+		name = "宝石枪雨LV1",
+		base = 66580,
+		id = 66581,
+		hp_growth = 1773,
 		weapon_ID = {
-			66983
+			66621
 		}
 	},
-	[66944] = {
-		max_hp = 54,
-		name = "萨拉托加技能鱼雷机Lv4",
-		base = 66940,
-		id = 66944,
-		hp_growth = 2093,
+	[66582] = {
+		max_hp = 52,
+		name = "宝石枪雨LV2",
+		base = 66580,
+		id = 66582,
+		hp_growth = 2068,
 		weapon_ID = {
-			66984
+			66622
 		}
 	},
-	[66945] = {
-		max_hp = 60,
-		name = "萨拉托加技能鱼雷机Lv5",
-		base = 66940,
-		id = 66945,
-		hp_growth = 2329,
+	[66583] = {
+		max_hp = 59,
+		name = "宝石枪雨LV3",
+		base = 66580,
+		id = 66583,
+		hp_growth = 2363,
 		weapon_ID = {
-			66985
+			66623
 		}
 	},
-	[66946] = {
-		max_hp = 66,
-		name = "萨拉托加技能鱼雷机Lv6",
-		base = 66940,
-		id = 66946,
-		hp_growth = 2565,
+	[66584] = {
+		max_hp = 67,
+		name = "宝石枪雨LV4",
+		base = 66580,
+		id = 66584,
+		hp_growth = 2659,
 		weapon_ID = {
-			66986
+			66624
 		}
 	},
-	[66947] = {
-		max_hp = 72,
-		name = "萨拉托加技能鱼雷机Lv7",
-		base = 66940,
-		id = 66947,
-		hp_growth = 2801,
+	[66585] = {
+		max_hp = 75,
+		name = "宝石枪雨LV5",
+		base = 66580,
+		id = 66585,
+		hp_growth = 2955,
 		weapon_ID = {
-			66987
+			66625
 		}
 	},
-	[66948] = {
-		max_hp = 78,
-		name = "萨拉托加技能鱼雷机Lv8",
-		base = 66940,
-		id = 66948,
-		hp_growth = 3037,
+	[66586] = {
+		max_hp = 83,
+		name = "宝石枪雨LV6",
+		base = 66580,
+		id = 66586,
+		hp_growth = 3251,
 		weapon_ID = {
-			66988
+			66626
 		}
 	},
-	[66949] = {
-		max_hp = 84,
-		name = "萨拉托加技能鱼雷机Lv9",
-		base = 66940,
-		id = 66949,
-		hp_growth = 3274,
-		weapon_ID = {
-			66989
-		}
-	},
-	[66950] = {
+	[66587] = {
 		max_hp = 91,
-		name = "萨拉托加技能鱼雷机Lv10",
-		base = 66940,
-		id = 66950,
-		hp_growth = 3511,
+		name = "宝石枪雨LV7",
+		base = 66580,
+		id = 66587,
+		hp_growth = 3547,
 		weapon_ID = {
-			66990
+			66627
+		}
+	},
+	[66588] = {
+		max_hp = 99,
+		name = "宝石枪雨LV8",
+		base = 66580,
+		id = 66588,
+		hp_growth = 3843,
+		weapon_ID = {
+			66628
 		}
 	}
 }

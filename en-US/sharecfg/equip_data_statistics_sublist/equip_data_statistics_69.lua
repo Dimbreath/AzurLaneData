@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_69 = {
+	[5122] = {
+		id = 5122,
+		damage = "68 x 4",
+		base = 5120,
+		weapon_id = {
+			5122
+		}
+	},
+	[5123] = {
+		id = 5123,
+		damage = "77 x 4",
+		base = 5120,
+		weapon_id = {
+			5123
+		}
+	},
+	[5124] = {
+		id = 5124,
+		damage = "86 x 4",
+		base = 5120,
+		weapon_id = {
+			5124
+		}
+	},
 	[5125] = {
 		id = 5125,
 		damage = "95 x 4",
@@ -165,84 +189,6 @@ pg.equip_data_statistics_69 = {
 		id = 5151,
 		weapon_id = {
 			5151
-		}
-	},
-	[5200] = {
-		name = "533mm Quintuple Torpedo Mount",
-		speciality = "Torpedo",
-		type = 5,
-		tech = 1,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "5200",
-		attribute_2 = "torpedo",
-		rarity = 3,
-		damage = "46 x 5",
-		nationality = 0,
-		ammo = 5,
-		value_3 = 0,
-		id = 5200,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1800
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1800
-			},
-			{
-				4,
-				1404
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			5200
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"UN",
-			"ST",
-			"TP",
-			"QUINT"
-		}
-	},
-	[5201] = {
-		id = 5201,
-		damage = "54 x 5",
-		base = 5200,
-		weapon_id = {
-			5201
-		}
-	},
-	[5202] = {
-		id = 5202,
-		damage = "62 x 5",
-		base = 5200,
-		weapon_id = {
-			5202
 		}
 	}
 }

@@ -1,5 +1,75 @@
 pg = pg or {}
 pg.equip_data_statistics_67 = {
+	[4340] = {
+		name = "TBM-3 Avenger (ASW)",
+		type = 15,
+		speciality = "Anti\nsubmarine",
+		rarity = 4,
+		tech = 3,
+		descrip = "A variant of the TBF outfitted with a more powerful engine.",
+		value_2 = 25,
+		icon = "4300",
+		attribute_2 = "antisub",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 4340,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				8,
+				53240
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			4340
+		},
+		skill_id = {},
+		part_main = {
+			6
+		},
+		part_sub = {
+			6
+		},
+		equip_parameters = {},
+		label = {
+			"ASA"
+		}
+	},
+	[4341] = {
+		id = 4341,
+		base = 4340,
+		ammo_info = {
+			{
+				8,
+				53241
+			}
+		},
+		weapon_id = {
+			4341
+		}
+	},
+	[4342] = {
+		id = 4342,
+		base = 4340,
+		ammo_info = {
+			{
+				8,
+				53242
+			}
+		},
+		weapon_id = {
+			4342
+		}
+	},
 	[4343] = {
 		id = 4343,
 		base = 4340,
@@ -263,30 +333,6 @@ pg.equip_data_statistics_67 = {
 			"ST",
 			"TP",
 			"TRI"
-		}
-	},
-	[5021] = {
-		id = 5021,
-		damage = "59 x 3",
-		base = 5020,
-		weapon_id = {
-			5021
-		}
-	},
-	[5022] = {
-		id = 5022,
-		damage = "68 x 3",
-		base = 5020,
-		weapon_id = {
-			5022
-		}
-	},
-	[5023] = {
-		id = 5023,
-		damage = "77 x 3",
-		base = 5020,
-		weapon_id = {
-			5023
 		}
 	}
 }

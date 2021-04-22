@@ -1,5 +1,71 @@
 pg = pg or {}
 pg.equip_data_statistics_4 = {
+	[221] = {
+		name = "T1 Sakura Light Cruiser Torpedo Secondary Gun",
+		speciality = "Lock",
+		type = 1,
+		tech = 1,
+		rarity = 1,
+		descrip = "Default gear",
+		value_2 = 0,
+		icon = "1",
+		damage = "2 x 2",
+		nationality = 0,
+		ammo = 5,
+		value_3 = 0,
+		id = 221,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			221
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		}
+	},
+	[222] = {
+		name = "T2 Sakura Light Cruiser Torpedo Secondary Gun",
+		damage = "3 x 2",
+		base = 221,
+		id = 222,
+		weapon_id = {
+			222
+		}
+	},
+	[223] = {
+		name = "T3 Sakura Light Cruiser Torpedo Secondary Gun",
+		damage = "3 x 2",
+		base = 221,
+		id = 223,
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			223
+		}
+	},
 	[224] = {
 		name = "T4 Sakura Light Cruiser Torpedo Secondary Gun",
 		damage = "4 x 2",
@@ -277,39 +343,6 @@ pg.equip_data_statistics_4 = {
 			"FFNF",
 			"DD",
 			"MG"
-		}
-	},
-	[272] = {
-		name = "鸢尾Torpedo轻巡副炮T2",
-		damage = "3 x 3",
-		base = 271,
-		id = 272,
-		weapon_id = {
-			272
-		}
-	},
-	[273] = {
-		name = "鸢尾Torpedo轻巡副炮T3",
-		damage = "4 x 3",
-		base = 271,
-		id = 273,
-		ammo_icon = {
-			3
-		},
-		weapon_id = {
-			273
-		}
-	},
-	[274] = {
-		name = "鸢尾Torpedo轻巡副炮T4",
-		damage = "5 x 3",
-		base = 271,
-		id = 274,
-		ammo_icon = {
-			3
-		},
-		weapon_id = {
-			274
 		}
 	}
 }

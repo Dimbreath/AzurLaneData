@@ -1,5 +1,32 @@
 pg = pg or {}
 pg.equip_data_statistics_161 = {
+	[23111] = {
+		anti_siren = 100,
+		damage = "54 x 4",
+		base = 23100,
+		id = 23111,
+		weapon_id = {
+			23111
+		}
+	},
+	[23112] = {
+		anti_siren = 200,
+		damage = "54 x 4",
+		base = 23100,
+		id = 23112,
+		weapon_id = {
+			23112
+		}
+	},
+	[23113] = {
+		anti_siren = 300,
+		damage = "54 x 4",
+		base = 23100,
+		id = 23113,
+		weapon_id = {
+			23113
+		}
+	},
 	[23120] = {
 		name = "Prototype Triple 234mm Main Gun Mount",
 		speciality = "Lock",
@@ -164,81 +191,6 @@ pg.equip_data_statistics_161 = {
 		id = 23133,
 		weapon_id = {
 			23133
-		}
-	},
-	[23200] = {
-		name = "Prototype Triple 203mm Mk IX Main Gun Mount",
-		speciality = "Lock",
-		type = 3,
-		tech = 0,
-		descrip = "No description",
-		value_2 = 45,
-		icon = "23200",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "28 x 6",
-		nationality = 2,
-		ammo = 2,
-		value_3 = 0,
-		id = 23200,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1402
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1402
-			},
-			{
-				4,
-				1214
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			23200
-		},
-		skill_id = {},
-		part_main = {
-			3,
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CA",
-			"MG",
-			"HE"
-		}
-	},
-	[23201] = {
-		id = 23201,
-		damage = "30 x 6",
-		base = 23200,
-		weapon_id = {
-			23201
-		}
-	},
-	[23202] = {
-		id = 23202,
-		damage = "32 x 6",
-		base = 23200,
-		weapon_id = {
-			23202
 		}
 	}
 }

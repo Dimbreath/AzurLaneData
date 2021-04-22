@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_248 = {
+	[36140] = {
+		name = "Single 25mm AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "36100",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "11/wave",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			36140
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
+	},
+	[36141] = {
+		id = 36141,
+		damage = "12/wave",
+		base = 36140,
+		weapon_id = {
+			36141
+		}
+	},
+	[36142] = {
+		id = 36142,
+		damage = "13/wave",
+		base = 36140,
+		weapon_id = {
+			36142
+		}
+	},
 	[36143] = {
 		id = 36143,
 		damage = "15/wave",
@@ -218,84 +296,6 @@ pg.equip_data_statistics_248 = {
 		base = 36220,
 		weapon_id = {
 			36224
-		}
-	},
-	[36225] = {
-		id = 36225,
-		damage = "25/wave",
-		base = 36220,
-		weapon_id = {
-			36225
-		}
-	},
-	[36226] = {
-		id = 36226,
-		damage = "28/wave",
-		base = 36220,
-		weapon_id = {
-			36226
-		}
-	},
-	[36240] = {
-		name = "Twin 25mm AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "36200",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "16/wave",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 36240,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			36240
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"AA"
 		}
 	}
 }

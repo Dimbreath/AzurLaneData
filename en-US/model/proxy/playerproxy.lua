@@ -203,4 +203,11 @@ function slot0.getRefundInfo(slot0)
 	return slot0.refundInfo
 end
 
+function slot0.IsShowCommssionTip(slot0)
+	slot3 = getProxy(NavalAcademyProxy)
+	slot4 = slot0:getRawData()
+
+	return getProxy(EventProxy):hasFinishState() or slot3:GetOilVO():isCommissionNotify(slot4.oilField) or slot3:GetGoldVO():isCommissionNotify(slot4.goldField) or NotifyTipHelper.ShouldShowUrTip()
+end
+
 return slot0

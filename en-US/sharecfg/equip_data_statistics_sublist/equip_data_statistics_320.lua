@@ -1,5 +1,93 @@
 pg = pg or {}
 pg.equip_data_statistics_320 = {
+	[47153] = {
+		anti_siren = 300,
+		base = 47140,
+		id = 47153,
+		ammo_info = {
+			{
+				6,
+				59153
+			},
+			{
+				6,
+				59253
+			}
+		},
+		weapon_id = {
+			47153,
+			84153
+		}
+	},
+	[48000] = {
+		name = "Ar 195",
+		type = 8,
+		speciality = "Torpedo",
+		rarity = 3,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "48000",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 48000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59760
+			},
+			{
+				4,
+				59660
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			48000
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"TB"
+		}
+	},
+	[48001] = {
+		id = 48001,
+		base = 48000,
+		ammo_info = {
+			{
+				6,
+				59761
+			},
+			{
+				4,
+				59661
+			}
+		},
+		weapon_id = {
+			48001
+		}
+	},
 	[48002] = {
 		id = 48002,
 		base = 48000,
@@ -271,57 +359,6 @@ pg.equip_data_statistics_320 = {
 		},
 		weapon_id = {
 			48027
-		}
-	},
-	[48028] = {
-		id = 48028,
-		base = 48020,
-		ammo_info = {
-			{
-				6,
-				59768
-			},
-			{
-				4,
-				59688
-			}
-		},
-		weapon_id = {
-			48028
-		}
-	},
-	[48029] = {
-		id = 48029,
-		base = 48020,
-		ammo_info = {
-			{
-				6,
-				59769
-			},
-			{
-				4,
-				59689
-			}
-		},
-		weapon_id = {
-			48029
-		}
-	},
-	[48030] = {
-		id = 48030,
-		base = 48020,
-		ammo_info = {
-			{
-				6,
-				59770
-			},
-			{
-				4,
-				59690
-			}
-		},
-		weapon_id = {
-			48030
 		}
 	}
 }

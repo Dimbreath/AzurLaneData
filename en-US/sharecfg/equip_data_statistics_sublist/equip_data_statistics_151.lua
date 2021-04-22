@@ -1,5 +1,87 @@
 pg = pg or {}
 pg.equip_data_statistics_151 = {
+	[21451] = {
+		anti_siren = 100,
+		damage = "15 x 4",
+		base = 21440,
+		id = 21451,
+		weapon_id = {
+			21451
+		}
+	},
+	[21460] = {
+		name = "Twin 120mm Mk XI Dual-Purpose Gun Mount",
+		speciality = "Lock",
+		type = 1,
+		attribute_3 = "antiaircraft",
+		tech = 0,
+		value_2 = 20,
+		icon = "21460",
+		attribute_2 = "cannon",
+		descrip = "No description",
+		rarity = 5,
+		damage = "6 x 4",
+		nationality = 2,
+		ammo = 3,
+		value_3 = 25,
+		id = 21460,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1100
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1100
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			21460
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
+	},
+	[21461] = {
+		id = 21461,
+		damage = "7 x 4",
+		base = 21460,
+		weapon_id = {
+			21461
+		}
+	},
 	[21462] = {
 		id = 21462,
 		damage = "8 x 4",
@@ -171,90 +253,6 @@ pg.equip_data_statistics_151 = {
 		base = 21500,
 		weapon_id = {
 			21501
-		}
-	},
-	[21502] = {
-		id = 21502,
-		damage = "6 x 2",
-		base = 21500,
-		weapon_id = {
-			21502
-		}
-	},
-	[21503] = {
-		id = 21503,
-		damage = "6 x 2",
-		base = 21500,
-		weapon_id = {
-			21503
-		}
-	},
-	[21520] = {
-		name = "Twin 134mm High-Angle Gun Mount",
-		speciality = "Lock",
-		type = 1,
-		attribute_3 = "antiaircraft",
-		tech = 2,
-		value_2 = 5,
-		icon = "21500",
-		attribute_2 = "cannon",
-		descrip = "No description",
-		rarity = 3,
-		damage = "4 x 2",
-		nationality = 2,
-		ammo = 1,
-		value_3 = 7,
-		id = 21520,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1103
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1103
-			},
-			{
-				4,
-				1011
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			21520
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"DD",
-			"MG",
-			"AP"
 		}
 	}
 }

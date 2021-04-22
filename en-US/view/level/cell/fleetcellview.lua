@@ -38,4 +38,26 @@ function slot0.showPoisonDamage(slot0, slot1)
 	end, "PoisonDamage")
 end
 
+function slot0.SetActiveNoPassIcon(slot0, slot1)
+	if not slot1 then
+		slot0.loader:ClearRequest("NoPassIcon")
+	else
+		slot4 = "event_task_small"
+
+		if slot0:GetLoader():GetRequestPackage(slot2) and slot3.name == slot4 then
+			return
+		end
+
+		slot0:GetLoader():GetPrefabBYStopLoading("boxprefab/" .. slot4, slot4, function (slot0)
+			setParent(slot0.transform, uv0.tf, false)
+
+			slot1 = 150
+
+			setLocalPosition(slot0, Vector3(0, slot1, 0))
+
+			slot2 = LeanTween.moveY(rtf(slot0), slot1 - 10, 1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
+		end, slot2)
+	end
+end
+
 return slot0

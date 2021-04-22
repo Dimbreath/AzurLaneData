@@ -1,5 +1,78 @@
 pg = pg or {}
 pg.equip_data_statistics_42 = {
+	[2150] = {
+		id = 2150,
+		value_2 = 60,
+		value_1 = "70",
+		base = 2140
+	},
+	[2151] = {
+		id = 2151,
+		anti_siren = 100,
+		base = 2140,
+		value_2 = 64,
+		value_1 = "75"
+	},
+	[2200] = {
+		name = "Autoloader",
+		tech = 1,
+		type = 10,
+		speciality = "N/A",
+		id = 2200,
+		value_2 = 1,
+		icon = "2200",
+		value_1 = "5",
+		attribute_2 = "cannon",
+		rarity = 2,
+		descrip = "Much more efficient than a manual loader.",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "reload",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
 	[2201] = {
 		id = 2201,
 		base = 2200
@@ -183,24 +256,6 @@ pg.equip_data_statistics_42 = {
 		id = 2243,
 		value_2 = 4,
 		value_1 = "20",
-		base = 2240
-	},
-	[2244] = {
-		id = 2244,
-		value_2 = 4,
-		value_1 = "22",
-		base = 2240
-	},
-	[2245] = {
-		id = 2245,
-		value_2 = 5,
-		value_1 = "24",
-		base = 2240
-	},
-	[2246] = {
-		id = 2246,
-		value_2 = 5,
-		value_1 = "26",
 		base = 2240
 	}
 }

@@ -1,37 +1,76 @@
 pg = pg or {}
 pg.aircraft_template_184 = {
-	[69460] = {
-		max_hp = 110,
-		name = "贝亚恩V-156F-LV10",
-		base = 69451,
-		id = 69460,
-		hp_growth = 4234,
+	[69206] = {
+		max_hp = 73,
+		name = "库珀反潜PBY-Lv6",
+		base = 69201,
+		id = 69206,
+		hp_growth = 2669,
 		weapon_ID = {
-			50710,
-			69470
+			53146
 		}
 	},
-	[69481] = {
-		name = "小光辉技能鱼雷机Lv1",
-		max_hp = 40,
+	[69207] = {
+		max_hp = 79,
+		name = "库珀反潜PBY-Lv7",
+		base = 69201,
+		id = 69207,
+		hp_growth = 2879,
+		weapon_ID = {
+			53147
+		}
+	},
+	[69208] = {
+		max_hp = 86,
+		name = "库珀反潜PBY-Lv8",
+		base = 69201,
+		id = 69208,
+		hp_growth = 3090,
+		weapon_ID = {
+			53148
+		}
+	},
+	[69209] = {
+		max_hp = 92,
+		name = "库珀反潜PBY-Lv9",
+		base = 69201,
+		id = 69209,
+		hp_growth = 3301,
+		weapon_ID = {
+			53149
+		}
+	},
+	[69210] = {
+		max_hp = 98,
+		name = "库珀反潜PBY-Lv10",
+		base = 69201,
+		id = 69210,
+		hp_growth = 3511,
+		weapon_ID = {
+			53150
+		}
+	},
+	[69211] = {
+		name = "库珀轰炸PBY-Lv1",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "jianyu",
+		model_ID = "pby",
 		ACC_growth = 0,
-		crash_DMG = 306,
-		dodge = 1.11,
+		crash_DMG = 208,
+		dodge = 1,
 		attack_power = 2,
-		dodge_limit = 4,
-		type = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
-		icon = "jianyu",
+		icon = "pby",
 		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1538,
-		speed = 45,
-		id = 69481,
+		nationality = 1,
+		hp_growth = 1615,
+		speed = 66,
+		id = 69211,
 		scale = 1,
 		weapon_ID = {
-			69491
+			69221
 		},
 		position_offset = {
 			0,
@@ -51,13 +90,13 @@ pg.aircraft_template_184 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -74,7 +113,7 @@ pg.aircraft_template_184 = {
 				0
 			},
 			{
-				0.52,
+				0.64,
 				0,
 				0
 			},
@@ -85,84 +124,44 @@ pg.aircraft_template_184 = {
 			}
 		}
 	},
-	[69482] = {
-		max_hp = 45,
-		name = "小光辉技能鱼雷机Lv2",
-		base = 69481,
-		id = 69482,
-		hp_growth = 1739,
+	[69212] = {
+		max_hp = 48,
+		name = "库珀轰炸PBY-Lv2",
+		base = 69211,
+		id = 69212,
+		hp_growth = 1826,
 		weapon_ID = {
-			69492
+			69222
 		}
 	},
-	[69483] = {
-		max_hp = 50,
-		name = "小光辉技能鱼雷机Lv3",
-		base = 69481,
-		id = 69483,
-		hp_growth = 1940,
+	[69213] = {
+		max_hp = 54,
+		name = "库珀轰炸PBY-Lv3",
+		base = 69211,
+		id = 69213,
+		hp_growth = 2036,
 		weapon_ID = {
-			69493
+			69223
 		}
 	},
-	[69484] = {
-		max_hp = 56,
-		name = "小光辉技能鱼雷机Lv4",
-		base = 69481,
-		id = 69484,
-		hp_growth = 2140,
-		weapon_ID = {
-			69494
-		}
-	},
-	[69485] = {
+	[69214] = {
 		max_hp = 61,
-		name = "小光辉技能鱼雷机Lv5",
-		base = 69481,
-		id = 69485,
-		hp_growth = 2341,
+		name = "库珀轰炸PBY-Lv4",
+		base = 69211,
+		id = 69214,
+		hp_growth = 2247,
 		weapon_ID = {
-			69495
+			69224
 		}
 	},
-	[69486] = {
-		max_hp = 66,
-		name = "小光辉技能鱼雷机Lv6",
-		base = 69481,
-		id = 69486,
-		hp_growth = 2541,
+	[69215] = {
+		max_hp = 67,
+		name = "库珀轰炸PBY-Lv5",
+		base = 69211,
+		id = 69215,
+		hp_growth = 2458,
 		weapon_ID = {
-			69496
-		}
-	},
-	[69487] = {
-		max_hp = 71,
-		name = "小光辉技能鱼雷机Lv7",
-		base = 69481,
-		id = 69487,
-		hp_growth = 2742,
-		weapon_ID = {
-			69497
-		}
-	},
-	[69488] = {
-		max_hp = 77,
-		name = "小光辉技能鱼雷机Lv8",
-		base = 69481,
-		id = 69488,
-		hp_growth = 2943,
-		weapon_ID = {
-			69498
-		}
-	},
-	[69489] = {
-		max_hp = 82,
-		name = "小光辉技能鱼雷机Lv9",
-		base = 69481,
-		id = 69489,
-		hp_growth = 3143,
-		weapon_ID = {
-			69499
+			69225
 		}
 	}
 }

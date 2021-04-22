@@ -1,5 +1,20 @@
 pg = pg or {}
 pg.equip_data_statistics_61 = {
+	[3507] = {
+		id = 3507,
+		value_1 = "460",
+		base = 3500
+	},
+	[3508] = {
+		id = 3508,
+		value_1 = "490",
+		base = 3500
+	},
+	[3509] = {
+		id = 3509,
+		value_1 = "520",
+		base = 3500
+	},
 	[3510] = {
 		id = 3510,
 		value_1 = "550",
@@ -103,52 +118,5 @@ pg.equip_data_statistics_61 = {
 		anti_siren = 100,
 		value_1 = "580",
 		base = 3520
-	},
-	[3540] = {
-		name = "Torpedo Materials (Cargo)",
-		tech = 0,
-		type = 18,
-		speciality = "N/A",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "3540",
-		value_1 = "250",
-		descrip = "Supplemental torpedo parts transportable by an AE. ",
-		rarity = 4,
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 3540,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6680
-		},
-		part_main = {
-			19
-		},
-		part_sub = {
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"GDS"
-		}
-	},
-	[3541] = {
-		id = 3541,
-		value_1 = "280",
-		base = 3540
-	},
-	[3542] = {
-		id = 3542,
-		value_1 = "310",
-		base = 3540
 	}
 }

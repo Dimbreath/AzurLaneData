@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.equip_data_statistics_231 = {
+	[34169] = {
+		id = 34169,
+		damage = "21 x 10 x 2",
+		base = 34160,
+		weapon_id = {
+			34169
+		}
+	},
+	[34170] = {
+		id = 34170,
+		damage = "22 x 10 x 2",
+		base = 34160,
+		weapon_id = {
+			34170
+		}
+	},
+	[34171] = {
+		anti_siren = 100,
+		damage = "22 x 10 x 2",
+		base = 34160,
+		id = 34171,
+		weapon_id = {
+			34171
+		}
+	},
 	[34172] = {
 		anti_siren = 200,
 		damage = "22 x 10 x 2",
@@ -158,76 +183,6 @@ pg.equip_data_statistics_231 = {
 		id = 34191,
 		weapon_id = {
 			34191
-		}
-	},
-	[34192] = {
-		anti_siren = 200,
-		damage = "154 x 3",
-		base = 34180,
-		id = 34192,
-		weapon_id = {
-			34192
-		}
-	},
-	[34193] = {
-		anti_siren = 300,
-		damage = "154 x 3",
-		base = 34180,
-		id = 34193,
-		weapon_id = {
-			34193
-		}
-	},
-	[34200] = {
-		name = "Triple 460mm Mounted Gun",
-		speciality = "Volley",
-		type = 4,
-		tech = 1,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "34200",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "60 x 3",
-		nationality = 3,
-		ammo = 3,
-		value_3 = 0,
-		id = 34200,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1510
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			34200
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"BB",
-			"MG"
 		}
 	}
 }

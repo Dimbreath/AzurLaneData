@@ -1,5 +1,91 @@
 pg = pg or {}
 pg.equip_data_statistics_136 = {
+	[18100] = {
+		name = "TBF Avenger",
+		type = 8,
+		speciality = "Torpedo",
+		rarity = 2,
+		tech = 1,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "18100",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 18100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50000
+			},
+			{
+				4,
+				51100
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			18100
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
+	},
+	[18101] = {
+		id = 18101,
+		base = 18100,
+		ammo_info = {
+			{
+				6,
+				50001
+			},
+			{
+				4,
+				51101
+			}
+		},
+		weapon_id = {
+			18101
+		}
+	},
+	[18102] = {
+		id = 18102,
+		base = 18100,
+		ammo_info = {
+			{
+				6,
+				50002
+			},
+			{
+				4,
+				51102
+			}
+		},
+		weapon_id = {
+			18102
+		}
+	},
 	[18103] = {
 		id = 18103,
 		base = 18100,
@@ -306,57 +392,6 @@ pg.equip_data_statistics_136 = {
 		},
 		weapon_id = {
 			18145
-		}
-	},
-	[18146] = {
-		id = 18146,
-		base = 18140,
-		ammo_info = {
-			{
-				6,
-				50046
-			},
-			{
-				4,
-				51146
-			}
-		},
-		weapon_id = {
-			18146
-		}
-	},
-	[18147] = {
-		id = 18147,
-		base = 18140,
-		ammo_info = {
-			{
-				6,
-				50047
-			},
-			{
-				4,
-				51147
-			}
-		},
-		weapon_id = {
-			18147
-		}
-	},
-	[18148] = {
-		id = 18148,
-		base = 18140,
-		ammo_info = {
-			{
-				6,
-				50048
-			},
-			{
-				4,
-				51148
-			}
-		},
-		weapon_id = {
-			18148
 		}
 	}
 }

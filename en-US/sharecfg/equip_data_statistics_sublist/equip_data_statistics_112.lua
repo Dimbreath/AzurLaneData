@@ -1,5 +1,32 @@
 pg = pg or {}
 pg.equip_data_statistics_112 = {
+	[15171] = {
+		anti_siren = 100,
+		damage = "149 x 2",
+		base = 15160,
+		id = 15171,
+		weapon_id = {
+			15171
+		}
+	},
+	[15172] = {
+		anti_siren = 200,
+		damage = "149 x 2",
+		base = 15160,
+		id = 15172,
+		weapon_id = {
+			15172
+		}
+	},
+	[15173] = {
+		anti_siren = 300,
+		damage = "149 x 2",
+		base = 15160,
+		id = 15173,
+		weapon_id = {
+			15173
+		}
+	},
 	[15200] = {
 		name = "533mm Triple Torpedo Mount Mk 17",
 		speciality = "Torpedo",
@@ -218,30 +245,6 @@ pg.equip_data_statistics_112 = {
 		base = 15220,
 		weapon_id = {
 			15225
-		}
-	},
-	[15226] = {
-		id = 15226,
-		damage = "120 x 4",
-		base = 15220,
-		weapon_id = {
-			15226
-		}
-	},
-	[15227] = {
-		id = 15227,
-		damage = "130 x 4",
-		base = 15220,
-		weapon_id = {
-			15227
-		}
-	},
-	[15228] = {
-		id = 15228,
-		damage = "140 x 4",
-		base = 15220,
-		weapon_id = {
-			15228
 		}
 	}
 }

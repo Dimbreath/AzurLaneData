@@ -513,6 +513,9 @@ pg.gametip = {
 	word_attr_level = {
 		tip = "Max Level"
 	},
+	word_shipState_npc = {
+		tip = "Temporary Recruits cannot participate."
+	},
 	word_shipState_fight = {
 		tip = "She's currently in battle!"
 	},
@@ -1243,7 +1246,7 @@ pg.gametip = {
 		tip = "Expansion failed: "
 	},
 	backyard_extendCapacity_ok = {
-		tip = "Supplies storage expanded! Storage capacity increased to <color=#92fc63>$1</color>."
+		tip = "Supplies storage expanded! Storage capacity increased by <color=#92fc63>$1</color>."
 	},
 	backyard_addShip_error = {
 		tip = "Failed to add ship: "
@@ -3244,7 +3247,8 @@ will be granted.
 <color=#92fc63>Please make sure your network conditions are stable
 before attempting an Ashes Showdown!</color>.
 
-6. Artillery Support/n-From the 31st day of this Ashes Showdown season onwards, whenever you begin an Ashes Showdown, your fleet will gain an additional wave of artillery support. This artillery support will deal damage to the enemy and apply a special debuff that inflicts damage over time (this damage cannot be amplified by any bonus effects).
+6. Artillery Support
+-From the 31st day of this Ashes Showdown season onwards, whenever you begin an Ashes Showdown, your fleet will gain an additional wave of artillery support. This artillery support will deal damage to the enemy and apply a special debuff that inflicts damage over time (this damage cannot be amplified by any bonus effects).
 The later in the Ashes Showdown season it is, the greater the damage inflicted by this artillery support.
 *Artillery Support will only appear during Ashes Showdown battles you discover, and will trigger with each challenge attempt.]]
 			}
@@ -4446,7 +4450,9 @@ Temporary Recruit Restrictions:
  - Make an Oath with them
  - Cognitively Awaken them
  - Set them as your Secretary
- - Add them to a Lecture]]
+ - Add them to a Lecture
+
+NPC can’t participate Operation Siren or Guild activities.]]
 			}
 		}
 	},
@@ -7637,7 +7643,7 @@ Combat Encounters
 		tip = "This Meowfficer does not have any Talent Points."
 	},
 	buildship_new_tip = {
-		tip = "Rate up for Baltimore, Allen M. Sumner, and more!"
+		tip = "Rate UP for Vittorio Veneto, Aquila, and more! "
 	},
 	buildship_heavy_tip = {
 		tip = "Nagato and Suzuya are added to standard build pool! "
@@ -13081,6 +13087,18 @@ Daily: Can be completed every day, resetting at 0:00 every day.]]
 	wwf_guide_tip = {
 		tip = "Check your event-limited tasks here!"
 	},
+	query_role = {
+		tip = "Searching..."
+	},
+	query_role_none = {
+		tip = "Nothing found."
+	},
+	query_role_button = {
+		tip = "Results found."
+	},
+	query_role_fail = {
+		tip = "Search failed."
+	},
 	cumulative_victory_target_tip = {
 		tip = "Total Victories:"
 	},
@@ -13676,5 +13694,33 @@ Your Action Points will also reset, starting you off with <color=#92fc63>200 AP.
 	},
 	LevelSignal_intensity = {
 		tip = "Signal Strength"
+	},
+	common_npc_formation_tip = {
+		tip = "Temporary Recruits cannot participate."
+	},
+	gametip_xiaotiancheng = {
+		tip = {
+			{
+				info = "Summary: During the Young Tactician's Learning Log event, you can earn Trust for Amagi-chan. She will upgrade from a Temporary Recruit to a full addition to your dock once you've earned enough Trust with her."
+			},
+			{
+				info = "1. For the duration of the event, you'll receive Trust for Amagi-chan by defeating Boss Fleets on any Campaign map after World 3, or on any of the event stages. You'll also unlock additional rewards as you accumulate Trust."
+			},
+			{
+				info = "2. Until you fully recruit Amagi-chan, you won't be able to give her a Promise Ring, retire her, or use her as Enhancement or Limit Break material."
+			},
+			{
+				info = "3. Your Trust reward for defeating the Boss Fleet will be doubled if Amagi-chan participates in the battle with the Boss Fleet and remains afloat until the end of the battle."
+			},
+			{
+				info = "4. 1,000 Trust is required to fully recruit Amagi-chan. If you do not fully recruit her before the event concludes, she will automatically leave your dock."
+			},
+			{
+				info = "5. One Trust Reward stage is unlocked each day up to April 28th."
+			},
+			{
+				info = "6. Amagi-chan cannot participate in any Operation Siren or Guild activities and you do not gain Trust from Operation Siren battles."
+			}
+		}
 	}
 }

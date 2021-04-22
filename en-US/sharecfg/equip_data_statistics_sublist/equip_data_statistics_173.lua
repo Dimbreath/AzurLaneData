@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_173 = {
+	[25048] = {
+		id = 25048,
+		damage = "150 x 5",
+		base = 25040,
+		weapon_id = {
+			25048
+		}
+	},
+	[25049] = {
+		id = 25049,
+		damage = "161 x 5",
+		base = 25040,
+		weapon_id = {
+			25049
+		}
+	},
+	[25050] = {
+		id = 25050,
+		damage = "172 x 5",
+		base = 25040,
+		weapon_id = {
+			25050
+		}
+	},
 	[25051] = {
 		anti_siren = 100,
 		damage = "172 x 5",
@@ -215,81 +239,6 @@ pg.equip_data_statistics_173 = {
 		base = 25120,
 		weapon_id = {
 			25126
-		}
-	},
-	[25140] = {
-		name = "Mark VIII Submarine Torpedo",
-		speciality = "Torpedo",
-		type = 13,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "25100",
-		attribute_2 = "torpedo",
-		rarity = 4,
-		damage = "64 x 3",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 25140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1829
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1829
-			},
-			{
-				4,
-				1602
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			25140
-		},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"SS",
-			"TP"
-		}
-	},
-	[25141] = {
-		id = 25141,
-		damage = "73 x 3",
-		base = 25140,
-		weapon_id = {
-			25141
-		}
-	},
-	[25142] = {
-		id = 25142,
-		damage = "82 x 3",
-		base = 25140,
-		weapon_id = {
-			25142
 		}
 	}
 }

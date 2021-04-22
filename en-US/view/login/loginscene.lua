@@ -71,6 +71,33 @@ function slot0.init(slot0)
 
 	slot0.airiUidTxt = slot0:findTF("airi_uid")
 	slot0.shareData = {}
+	slot0.searchAccount = slot0:findTF("panel/searchAccount", slot0.serversPanel)
+
+	setText(findTF(slot0.searchAccount, "text"), i18n("query_role_button"))
+
+	slot0.serverPanelCanvas = GetComponent(slot0:findTF("servers/panel/servers"), typeof(CanvasGroup))
+
+	onButton(slot0, slot0.searchAccount, function ()
+		if not uv0.serversDic or uv0.searching then
+			return
+		end
+
+		uv0:searchAountState(true)
+
+		uv0.serverPanelCanvas.interactable = false
+
+		uv0.event:emit(LoginMediator.ON_SEARCH_ACCOUNT, {
+			callback = function ()
+				uv0.serverPanelCanvas.interactable = true
+
+				uv0:searchAountState(false)
+			end,
+			update = function (slot0)
+				uv0:setServerAccountData(slot0)
+			end
+		})
+	end, SFX_CONFIRM)
+
 	slot0.subViewList = {}
 	slot0.loginPanelView = LoginPanelView.New(slot0._tf, slot0.event, slot0.contextData)
 
@@ -120,6 +147,65 @@ function slot0.init(slot0)
 	slot0:initEvents()
 end
 
+function slot0.setServerAccountData(slot0, slot1)
+	slot3 = nil
+
+	for slot7 = 1, #slot0.serversDic do
+		if slot0.serversDic[slot7].id == slot1.id then
+			slot3 = slot0.serversDic[slot7]
+
+			break
+		end
+	end
+
+	if not slot3 then
+		return
+	end
+
+	slot4 = slot3.tf
+
+	if slot1 and slot1.level then
+		setActive(findTF(slot4, "mark/charactor"), true)
+		setActive(findTF(slot4, "mark/level"), true)
+		setActive(findTF(slot4, "mark/searching"), false)
+		setText(findTF(slot4, "mark/level"), "lv." .. slot1.level)
+		setText(findTF(slot4, "mark/level"), setColorStr("lv." .. slot1.level, "#ffffffff"))
+
+		slot3.level = slot1.level
+	else
+		setActive(findTF(slot4, "mark/level"), true)
+		setActive(findTF(slot4, "mark/searching"), false)
+		setActive(findTF(slot4, "mark/charactor"), false)
+
+		slot3.level = 0
+
+		setText(findTF(slot4, "mark/level"), setColorStr(i18n("query_role_none"), "#d0d0d0FF"))
+	end
+end
+
+function slot0.searchAountState(slot0, slot1)
+	slot0.searching = slot1
+
+	for slot5 = 1, #slot0.serversDic do
+		slot7 = slot0.serversDic[slot5].level
+
+		setActive(findTF(slot0.serversDic[slot5].tf, "mark"), true)
+
+		if slot1 then
+			setActive(findTF(slot6, "mark/charactor"), false)
+			setActive(findTF(slot6, "mark/level"), true)
+			setText(findTF(slot6, "mark/level"), setColorStr(i18n("query_role"), "#d0d0d0FF"))
+			setActive(findTF(slot6, "mark/searching"), true)
+		else
+			if not slot7 then
+				setText(findTF(slot6, "mark/level"), setColorStr(i18n("query_role_fail"), "#d0d0d0FF"))
+			end
+
+			setActive(findTF(slot6, "mark/searching"), false)
+		end
+	end
+end
+
 function slot0.initEvents(slot0)
 	slot0:bind(LoginSceneConst.SWITCH_SUB_VIEW, function (slot0, slot1)
 		uv0:switchSubView(slot1)
@@ -159,6 +245,10 @@ function slot0.switchSubView(slot0, slot1)
 end
 
 function slot0.onBackPressed(slot0)
+	if slot0.searching then
+		return
+	end
+
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
 	if isActive(slot0.serversPanel) then
@@ -550,8 +640,17 @@ function slot0.updateServerList(slot0, slot1)
 		end)
 	end
 
+	slot0.serversDic = {}
+
 	for slot6, slot7 in pairs(slot2) do
-		slot0:updateServerTF(cloneTplTo(slot0.serverTpl, slot0.servers), slot7)
+		slot8 = cloneTplTo(slot0.serverTpl, slot0.servers)
+
+		slot0:updateServerTF(slot8, slot7)
+		table.insert(slot0.serversDic, {
+			server = slot7,
+			tf = slot8,
+			id = slot7.id
+		})
 	end
 end
 

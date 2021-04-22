@@ -1,5 +1,107 @@
 pg = pg or {}
 pg.equip_data_statistics_130 = {
+	[17300] = {
+		name = "F6F Hellcat",
+		type = 7,
+		speciality = "Air",
+		rarity = 3,
+		tech = 1,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "17300",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 17300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50300
+			},
+			{
+				6,
+				50500
+			},
+			{
+				5,
+				52300
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			17300,
+			81300
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		}
+	},
+	[17301] = {
+		id = 17301,
+		base = 17300,
+		ammo_info = {
+			{
+				6,
+				50301
+			},
+			{
+				6,
+				50501
+			},
+			{
+				5,
+				52301
+			}
+		},
+		weapon_id = {
+			17301,
+			81301
+		}
+	},
+	[17302] = {
+		id = 17302,
+		base = 17300,
+		ammo_info = {
+			{
+				6,
+				50302
+			},
+			{
+				6,
+				50502
+			},
+			{
+				5,
+				52302
+			}
+		},
+		weapon_id = {
+			17302,
+			81302
+		}
+	},
 	[17303] = {
 		id = 17303,
 		base = 17300,
@@ -342,108 +444,6 @@ pg.equip_data_statistics_130 = {
 		weapon_id = {
 			17329,
 			81329
-		}
-	},
-	[17330] = {
-		id = 17330,
-		base = 17320,
-		ammo_info = {
-			{
-				6,
-				50330
-			},
-			{
-				6,
-				50530
-			},
-			{
-				5,
-				52330
-			}
-		},
-		weapon_id = {
-			17330,
-			81330
-		}
-	},
-	[17340] = {
-		name = "F6F Hellcat",
-		type = 7,
-		speciality = "Air",
-		rarity = 5,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 45,
-		icon = "17300",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 17340,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50340
-			},
-			{
-				6,
-				50540
-			},
-			{
-				5,
-				52340
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			17340,
-			81340
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"FT",
-			"F6F"
-		}
-	},
-	[17341] = {
-		id = 17341,
-		base = 17340,
-		ammo_info = {
-			{
-				6,
-				50341
-			},
-			{
-				6,
-				50541
-			},
-			{
-				5,
-				52341
-			}
-		},
-		weapon_id = {
-			17341,
-			81341
 		}
 	}
 }

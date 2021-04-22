@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_73 = {
+	[5403] = {
+		id = 5403,
+		damage = "72 x 3",
+		base = 5400,
+		weapon_id = {
+			5403
+		}
+	},
+	[5420] = {
+		name = "550mm Triple Torpedo Launcher",
+		speciality = "Torpedo",
+		type = 5,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "5400",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		damage = "52 x 3",
+		nationality = 8,
+		ammo = 5,
+		value_3 = 0,
+		id = 5420,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1800
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1800
+			},
+			{
+				4,
+				1402
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			5420
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"TP",
+			"TRI"
+		}
+	},
+	[5421] = {
+		id = 5421,
+		damage = "61 x 3",
+		base = 5420,
+		weapon_id = {
+			5421
+		}
+	},
 	[5422] = {
 		id = 5422,
 		damage = "70 x 3",
@@ -164,31 +242,6 @@ pg.equip_data_statistics_73 = {
 		base = 5440,
 		weapon_id = {
 			5448
-		}
-	},
-	[5449] = {
-		id = 5449,
-		damage = "151 x 3",
-		base = 5440,
-		weapon_id = {
-			5449
-		}
-	},
-	[5450] = {
-		id = 5450,
-		damage = "162 x 3",
-		base = 5440,
-		weapon_id = {
-			5450
-		}
-	},
-	[5451] = {
-		anti_siren = 100,
-		damage = "162 x 3",
-		base = 5440,
-		id = 5451,
-		weapon_id = {
-			5451
 		}
 	}
 }

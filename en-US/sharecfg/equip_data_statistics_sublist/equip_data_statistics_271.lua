@@ -1,5 +1,103 @@
 pg = pg or {}
 pg.equip_data_statistics_271 = {
+	[38160] = {
+		name = "Tenzan Kai",
+		type = 8,
+		speciality = "Torpedo",
+		rarity = 4,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "38160",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 38160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50840
+			},
+			{
+				6,
+				59720
+			},
+			{
+				4,
+				51460
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			38160
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
+	},
+	[38161] = {
+		id = 38161,
+		base = 38160,
+		ammo_info = {
+			{
+				6,
+				50841
+			},
+			{
+				6,
+				59721
+			},
+			{
+				4,
+				51461
+			}
+		},
+		weapon_id = {
+			38161
+		}
+	},
+	[38162] = {
+		id = 38162,
+		base = 38160,
+		ammo_info = {
+			{
+				6,
+				50842
+			},
+			{
+				6,
+				59722
+			},
+			{
+				4,
+				51462
+			}
+		},
+		weapon_id = {
+			38162
+		}
+	},
 	[38163] = {
 		id = 38163,
 		base = 38160,
@@ -328,104 +426,6 @@ pg.equip_data_statistics_271 = {
 		},
 		weapon_id = {
 			38204
-		}
-	},
-	[38205] = {
-		id = 38205,
-		base = 38200,
-		ammo_info = {
-			{
-				6,
-				50505
-			},
-			{
-				6,
-				50805
-			},
-			{
-				4,
-				51425
-			}
-		},
-		weapon_id = {
-			38205
-		}
-	},
-	[38206] = {
-		id = 38206,
-		base = 38200,
-		ammo_info = {
-			{
-				6,
-				50506
-			},
-			{
-				6,
-				50806
-			},
-			{
-				4,
-				51426
-			}
-		},
-		weapon_id = {
-			38206
-		}
-	},
-	[38220] = {
-		name = "Aichi B7A Ryusei",
-		type = 8,
-		speciality = "Torpedo",
-		rarity = 4,
-		tech = 2,
-		descrip = "The Aichi B7A Ryusei comes equipped with 2 20mm guns, 1 13mm gun and an 800kg torpedo.",
-		value_2 = 25,
-		icon = "38200",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 38220,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50520
-			},
-			{
-				6,
-				50820
-			},
-			{
-				4,
-				51440
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			38220
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"TB"
 		}
 	}
 }

@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_304 = {
+	[45227] = {
+		id = 45227,
+		damage = "112 x 5",
+		base = 45220,
+		weapon_id = {
+			45227
+		}
+	},
+	[45228] = {
+		id = 45228,
+		damage = "119 x 5",
+		base = 45220,
+		weapon_id = {
+			45228
+		}
+	},
+	[45229] = {
+		id = 45229,
+		damage = "126 x 5",
+		base = 45220,
+		weapon_id = {
+			45229
+		}
+	},
 	[45230] = {
 		id = 45230,
 		damage = "133 x 5",
@@ -166,82 +190,6 @@ pg.equip_data_statistics_304 = {
 		id = 45252,
 		weapon_id = {
 			45252
-		}
-	},
-	[45253] = {
-		anti_siren = 300,
-		damage = "145 x 5",
-		base = 45240,
-		id = 45253,
-		weapon_id = {
-			45253
-		}
-	},
-	[45300] = {
-		name = "G7a Submarine Torpedo",
-		speciality = "Torpedo",
-		type = 13,
-		tech = 1,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "45300",
-		attribute_2 = "torpedo",
-		rarity = 2,
-		damage = "46 x 2",
-		nationality = 4,
-		ammo = 5,
-		value_3 = 0,
-		id = 45300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1825
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1825
-			},
-			{
-				4,
-				1601
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			45300
-		},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"SS",
-			"TP"
-		}
-	},
-	[45301] = {
-		id = 45301,
-		damage = "52 x 2",
-		base = 45300,
-		weapon_id = {
-			45301
 		}
 	}
 }

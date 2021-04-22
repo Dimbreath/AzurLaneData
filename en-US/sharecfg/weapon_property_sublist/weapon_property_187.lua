@@ -2,97 +2,43 @@ pg = pg or {}
 pg.weapon_property_187 = {}
 
 function ()
-	uv0.weapon_property_187[81064] = {
-		reload_max = 1570,
-		damage = 45,
-		base = 81060,
-		id = 81064,
+	uv0.weapon_property_187[82103] = {
+		reload_max = 1795,
+		damage = 39,
+		base = 82100,
+		id = 82103,
 		bullet_ID = {
-			17064
+			27103
 		}
 	}
-	uv0.weapon_property_187[81065] = {
-		reload_max = 1545,
-		damage = 49,
-		base = 81060,
-		id = 81065,
+	uv0.weapon_property_187[82104] = {
+		reload_max = 1767,
+		damage = 43,
+		base = 82100,
+		id = 82104,
 		bullet_ID = {
-			17065
+			27104
 		}
 	}
-	uv0.weapon_property_187[81066] = {
-		reload_max = 1520,
-		damage = 53,
-		base = 81060,
-		id = 81066,
+	uv0.weapon_property_187[82105] = {
+		reload_max = 1739,
+		damage = 47,
+		base = 82100,
+		id = 82105,
 		bullet_ID = {
-			17066
+			27105
 		}
 	}
-	uv0.weapon_property_187[81067] = {
-		reload_max = 1495,
-		damage = 57,
-		base = 81060,
-		id = 81067,
+	uv0.weapon_property_187[82106] = {
+		reload_max = 1711,
+		damage = 51,
+		base = 82100,
+		id = 82106,
 		bullet_ID = {
-			17067
+			27106
 		}
 	}
-	uv0.weapon_property_187[81068] = {
-		reload_max = 1470,
-		damage = 61,
-		base = 81060,
-		id = 81068,
-		bullet_ID = {
-			17068
-		}
-	}
-	uv0.weapon_property_187[81069] = {
-		reload_max = 1445,
-		damage = 65,
-		base = 81060,
-		id = 81069,
-		bullet_ID = {
-			17069
-		}
-	}
-	uv0.weapon_property_187[81070] = {
-		reload_max = 1420,
-		damage = 69,
-		base = 81060,
-		id = 81070,
-		bullet_ID = {
-			17070
-		}
-	}
-	uv0.weapon_property_187[81071] = {
-		reload_max = 1420,
-		damage = 69,
-		base = 81060,
-		id = 81071,
-		bullet_ID = {
-			17070
-		}
-	}
-	uv0.weapon_property_187[81072] = {
-		reload_max = 1420,
-		damage = 69,
-		base = 81060,
-		id = 81072,
-		bullet_ID = {
-			17070
-		}
-	}
-	uv0.weapon_property_187[81073] = {
-		reload_max = 1420,
-		damage = 69,
-		base = 81060,
-		id = 81073,
-		bullet_ID = {
-			17070
-		}
-	}
-	uv0.weapon_property_187[81080] = {
+	uv0.weapon_property_187[82120] = {
 		action_index = "attack",
 		range = 90,
 		type = 11,
@@ -100,7 +46,552 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "试作型XF2A-4水牛",
+		name = "海毒牙T2",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 30,
+		corrected = 100,
+		min_range = 0,
+		id = 82120,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1841,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			27100
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_187[82121] = {
+		reload_max = 1814,
+		damage = 34,
+		base = 82120,
+		id = 82121,
+		bullet_ID = {
+			27101
+		}
+	}
+	uv0.weapon_property_187[82122] = {
+		reload_max = 1786,
+		damage = 39,
+		base = 82120,
+		id = 82122,
+		bullet_ID = {
+			27102
+		}
+	}
+	uv0.weapon_property_187[82123] = {
+		reload_max = 1758,
+		damage = 43,
+		base = 82120,
+		id = 82123,
+		bullet_ID = {
+			27103
+		}
+	}
+	uv0.weapon_property_187[82124] = {
+		reload_max = 1730,
+		damage = 47,
+		base = 82120,
+		id = 82124,
+		bullet_ID = {
+			27104
+		}
+	}
+	uv0.weapon_property_187[82125] = {
+		reload_max = 1702,
+		damage = 52,
+		base = 82120,
+		id = 82125,
+		bullet_ID = {
+			27105
+		}
+	}
+	uv0.weapon_property_187[82126] = {
+		reload_max = 1674,
+		damage = 56,
+		base = 82120,
+		id = 82126,
+		bullet_ID = {
+			27106
+		}
+	}
+	uv0.weapon_property_187[82127] = {
+		reload_max = 1646,
+		damage = 61,
+		base = 82120,
+		id = 82127,
+		bullet_ID = {
+			27107
+		}
+	}
+	uv0.weapon_property_187[82128] = {
+		reload_max = 1618,
+		damage = 65,
+		base = 82120,
+		id = 82128,
+		bullet_ID = {
+			27108
+		}
+	}
+	uv0.weapon_property_187[82129] = {
+		reload_max = 1590,
+		damage = 69,
+		base = 82120,
+		id = 82129,
+		bullet_ID = {
+			27109
+		}
+	}
+	uv0.weapon_property_187[82130] = {
+		reload_max = 1562,
+		damage = 75,
+		base = 82120,
+		id = 82130,
+		bullet_ID = {
+			27110
+		}
+	}
+	uv0.weapon_property_187[82140] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "海毒牙T3",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 33,
+		corrected = 100,
+		min_range = 0,
+		id = 82140,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1804,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			27100
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_187[82141] = {
+		reload_max = 1776,
+		damage = 37,
+		base = 82140,
+		id = 82141,
+		bullet_ID = {
+			27101
+		}
+	}
+	uv0.weapon_property_187[82142] = {
+		reload_max = 1748,
+		damage = 43,
+		base = 82140,
+		id = 82142,
+		bullet_ID = {
+			27102
+		}
+	}
+	uv0.weapon_property_187[82143] = {
+		reload_max = 1721,
+		damage = 47,
+		base = 82140,
+		id = 82143,
+		bullet_ID = {
+			27103
+		}
+	}
+	uv0.weapon_property_187[82144] = {
+		reload_max = 1693,
+		damage = 51,
+		base = 82140,
+		id = 82144,
+		bullet_ID = {
+			27104
+		}
+	}
+	uv0.weapon_property_187[82145] = {
+		reload_max = 1665,
+		damage = 57,
+		base = 82140,
+		id = 82145,
+		bullet_ID = {
+			27105
+		}
+	}
+	uv0.weapon_property_187[82146] = {
+		reload_max = 1637,
+		damage = 61,
+		base = 82140,
+		id = 82146,
+		bullet_ID = {
+			27106
+		}
+	}
+	uv0.weapon_property_187[82147] = {
+		reload_max = 1609,
+		damage = 67,
+		base = 82140,
+		id = 82147,
+		bullet_ID = {
+			27107
+		}
+	}
+	uv0.weapon_property_187[82148] = {
+		reload_max = 1581,
+		damage = 71,
+		base = 82140,
+		id = 82148,
+		bullet_ID = {
+			27108
+		}
+	}
+	uv0.weapon_property_187[82149] = {
+		reload_max = 1553,
+		damage = 75,
+		base = 82140,
+		id = 82149,
+		bullet_ID = {
+			27109
+		}
+	}
+	uv0.weapon_property_187[82150] = {
+		reload_max = 1525,
+		damage = 82,
+		base = 82140,
+		id = 82150,
+		bullet_ID = {
+			27110
+		}
+	}
+	uv0.weapon_property_187[82151] = {
+		reload_max = 1525,
+		damage = 82,
+		base = 82140,
+		id = 82151,
+		bullet_ID = {
+			27110
+		}
+	}
+	uv0.weapon_property_187[82152] = {
+		reload_max = 1525,
+		damage = 82,
+		base = 82140,
+		id = 82152,
+		bullet_ID = {
+			27110
+		}
+	}
+	uv0.weapon_property_187[82153] = {
+		reload_max = 1525,
+		damage = 82,
+		base = 82140,
+		id = 82153,
+		precast_param = " ",
+		bullet_ID = {
+			27110
+		}
+	}
+	uv0.weapon_property_187[82200] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "海斗士T1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 18,
+		corrected = 100,
+		min_range = 0,
+		id = 82200,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1812,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			27200
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_187[82201] = {
+		reload_max = 1789,
+		damage = 20,
+		base = 82200,
+		id = 82201,
+		bullet_ID = {
+			27201
+		}
+	}
+	uv0.weapon_property_187[82202] = {
+		reload_max = 1766,
+		damage = 22,
+		base = 82200,
+		id = 82202,
+		bullet_ID = {
+			27202
+		}
+	}
+	uv0.weapon_property_187[82203] = {
+		reload_max = 1743,
+		damage = 24,
+		base = 82200,
+		id = 82203,
+		bullet_ID = {
+			27203
+		}
+	}
+	uv0.weapon_property_187[82220] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "海斗士T2",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 20,
+		corrected = 100,
+		min_range = 0,
+		id = 82220,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1780,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			27200
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_187[82221] = {
+		reload_max = 1757,
+		damage = 22,
+		base = 82220,
+		id = 82221,
+		bullet_ID = {
+			27201
+		}
+	}
+	uv0.weapon_property_187[82222] = {
+		reload_max = 1734,
+		damage = 24,
+		base = 82220,
+		id = 82222,
+		bullet_ID = {
+			27202
+		}
+	}
+	uv0.weapon_property_187[82223] = {
+		reload_max = 1711,
+		damage = 26,
+		base = 82220,
+		id = 82223,
+		bullet_ID = {
+			27203
+		}
+	}
+	uv0.weapon_property_187[82240] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "海斗士T3",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 22,
+		corrected = 100,
+		min_range = 0,
+		id = 82240,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1738,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			27200
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_187[82241] = {
+		reload_max = 1715,
+		damage = 24,
+		base = 82240,
+		id = 82241,
+		bullet_ID = {
+			27201
+		}
+	}
+	uv0.weapon_property_187[82242] = {
+		reload_max = 1692,
+		damage = 26,
+		base = 82240,
+		id = 82242,
+		bullet_ID = {
+			27202
+		}
+	}
+	uv0.weapon_property_187[82243] = {
+		reload_max = 1669,
+		damage = 28,
+		base = 82240,
+		id = 82243,
+		bullet_ID = {
+			27203
+		}
+	}
+	uv0.weapon_property_187[82244] = {
+		reload_max = 1646,
+		damage = 32,
+		base = 82240,
+		id = 82244,
+		bullet_ID = {
+			27204
+		}
+	}
+	uv0.weapon_property_187[82245] = {
+		reload_max = 1623,
+		damage = 34,
+		base = 82240,
+		id = 82245,
+		bullet_ID = {
+			27205
+		}
+	}
+	uv0.weapon_property_187[82246] = {
+		reload_max = 1600,
+		damage = 36,
+		base = 82240,
+		id = 82246,
+		bullet_ID = {
+			27206
+		}
+	}
+	uv0.weapon_property_187[82247] = {
+		reload_max = 1600,
+		damage = 36,
+		base = 82240,
+		id = 82247,
+		bullet_ID = {
+			27206
+		}
+	}
+	uv0.weapon_property_187[82260] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "海飓风T0",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -109,11 +600,11 @@ function ()
 		damage = 1,
 		corrected = 100,
 		min_range = 0,
-		id = 81080,
+		id = 82260,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 0,
-		reload_max = 2005,
+		reload_max = 1738,
 		queue = 1,
 		search_type = 1,
 		effect_move = 1,
@@ -134,83 +625,63 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_187[81081] = {
-		id = 81081,
+	uv0.weapon_property_187[82261] = {
+		id = 82261,
+		reload_max = 1715,
+		base = 82260
+	}
+	uv0.weapon_property_187[82262] = {
+		id = 82262,
+		reload_max = 1692,
+		base = 82260
+	}
+	uv0.weapon_property_187[82263] = {
+		id = 82263,
+		reload_max = 1669,
+		base = 82260
+	}
+	uv0.weapon_property_187[82264] = {
+		id = 82264,
+		reload_max = 1646,
+		base = 82260
+	}
+	uv0.weapon_property_187[82265] = {
+		id = 82265,
+		reload_max = 1623,
+		base = 82260
+	}
+	uv0.weapon_property_187[82266] = {
+		id = 82266,
+		reload_max = 1600,
+		base = 82260
+	}
+	uv0.weapon_property_187[82267] = {
+		id = 82267,
+		reload_max = 1600,
+		base = 82260
+	}
+	uv0.weapon_property_187[82300] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "海怒T0",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 36,
+		corrected = 100,
+		min_range = 0,
+		id = 82300,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
 		reload_max = 1981,
-		base = 81080
-	}
-	uv0.weapon_property_187[81082] = {
-		id = 81082,
-		reload_max = 1958,
-		base = 81080
-	}
-	uv0.weapon_property_187[81083] = {
-		id = 81083,
-		reload_max = 1934,
-		base = 81080
-	}
-	uv0.weapon_property_187[81084] = {
-		id = 81084,
-		reload_max = 1910,
-		base = 81080
-	}
-	uv0.weapon_property_187[81085] = {
-		id = 81085,
-		reload_max = 1886,
-		base = 81080
-	}
-	uv0.weapon_property_187[81086] = {
-		id = 81086,
-		reload_max = 1863,
-		base = 81080
-	}
-	uv0.weapon_property_187[81087] = {
-		id = 81087,
-		reload_max = 1839,
-		base = 81080
-	}
-	uv0.weapon_property_187[81088] = {
-		id = 81088,
-		reload_max = 1815,
-		base = 81080
-	}
-	uv0.weapon_property_187[81089] = {
-		id = 81089,
-		reload_max = 1791,
-		base = 81080
-	}
-	uv0.weapon_property_187[81090] = {
-		id = 81090,
-		reload_max = 1768,
-		base = 81080
-	}
-	uv0.weapon_property_187[81091] = {
-		id = 81091,
-		reload_max = 1768,
-		base = 81080
-	}
-	uv0.weapon_property_187[81100] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "F4F野猫T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 30,
-		charge_param = "",
-		damage = 22,
-		corrected = 100,
-		min_range = 0,
-		id = 81100,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1900,
 		queue = 1,
 		search_type = 1,
 		effect_move = 1,
@@ -219,9 +690,7 @@ function ()
 		fire_sfx = "battle/air-atk",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
-		bullet_ID = {
-			17100
-		},
+		bullet_ID = {},
 		barrage_ID = {
 			1500
 		},
@@ -233,512 +702,76 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_187[81101] = {
-		reload_max = 1876,
-		damage = 26,
-		base = 81100,
-		id = 81101,
-		bullet_ID = {
-			17101
-		}
-	}
-	uv0.weapon_property_187[81102] = {
-		reload_max = 1853,
-		damage = 28,
-		base = 81100,
-		id = 81102,
-		bullet_ID = {
-			17102
-		}
-	}
-	uv0.weapon_property_187[81103] = {
-		reload_max = 1829,
-		damage = 31,
-		base = 81100,
-		id = 81103,
-		bullet_ID = {
-			17103
-		}
-	}
-	uv0.weapon_property_187[81120] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "F4F野猫T2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 30,
-		charge_param = "",
-		damage = 24,
-		corrected = 100,
-		min_range = 0,
-		id = 81120,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1862,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			17100
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_187[81121] = {
-		reload_max = 1838,
-		damage = 28,
-		base = 81120,
-		id = 81121,
-		bullet_ID = {
-			17101
-		}
-	}
-	uv0.weapon_property_187[81122] = {
-		reload_max = 1815,
-		damage = 31,
-		base = 81120,
-		id = 81122,
-		bullet_ID = {
-			17102
-		}
-	}
-	uv0.weapon_property_187[81123] = {
-		reload_max = 1791,
-		damage = 34,
-		base = 81120,
-		id = 81123,
-		bullet_ID = {
-			17103
-		}
-	}
-	uv0.weapon_property_187[81124] = {
-		reload_max = 1767,
-		damage = 37,
-		base = 81120,
-		id = 81124,
-		bullet_ID = {
-			17104
-		}
-	}
-	uv0.weapon_property_187[81125] = {
-		reload_max = 1743,
+	uv0.weapon_property_187[82301] = {
+		reload_max = 1943,
 		damage = 41,
-		base = 81120,
-		id = 81125,
+		base = 82300,
+		id = 82301,
 		bullet_ID = {
-			17105
+			27261
 		}
 	}
-	uv0.weapon_property_187[81126] = {
-		reload_max = 1720,
-		damage = 44,
-		base = 81120,
-		id = 81126,
+	uv0.weapon_property_187[82302] = {
+		reload_max = 1905,
+		damage = 46,
+		base = 82300,
+		id = 82302,
 		bullet_ID = {
-			17106
+			27262
 		}
 	}
-	uv0.weapon_property_187[81140] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "F4F野猫T3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 30,
-		charge_param = "",
-		damage = 26,
-		corrected = 100,
-		min_range = 0,
-		id = 81140,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1824,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			17100
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_187[81141] = {
-		reload_max = 1800,
-		damage = 31,
-		base = 81140,
-		id = 81141,
-		bullet_ID = {
-			17101
-		}
-	}
-	uv0.weapon_property_187[81142] = {
-		reload_max = 1777,
-		damage = 34,
-		base = 81140,
-		id = 81142,
-		bullet_ID = {
-			17102
-		}
-	}
-	uv0.weapon_property_187[81143] = {
-		reload_max = 1753,
-		damage = 37,
-		base = 81140,
-		id = 81143,
-		bullet_ID = {
-			17103
-		}
-	}
-	uv0.weapon_property_187[81144] = {
-		reload_max = 1729,
-		damage = 40,
-		base = 81140,
-		id = 81144,
-		bullet_ID = {
-			17104
-		}
-	}
-	uv0.weapon_property_187[81145] = {
-		reload_max = 1705,
-		damage = 45,
-		base = 81140,
-		id = 81145,
-		bullet_ID = {
-			17105
-		}
-	}
-	uv0.weapon_property_187[81146] = {
-		reload_max = 1682,
-		damage = 48,
-		base = 81140,
-		id = 81146,
-		bullet_ID = {
-			17106
-		}
-	}
-	uv0.weapon_property_187[81147] = {
-		reload_max = 1658,
+	uv0.weapon_property_187[82303] = {
+		reload_max = 1867,
 		damage = 51,
-		base = 81140,
-		id = 81147,
+		base = 82300,
+		id = 82303,
 		bullet_ID = {
-			17107
+			27263
 		}
 	}
-	uv0.weapon_property_187[81148] = {
-		reload_max = 1634,
+	uv0.weapon_property_187[82304] = {
+		reload_max = 1829,
 		damage = 56,
-		base = 81140,
-		id = 81148,
+		base = 82300,
+		id = 82304,
 		bullet_ID = {
-			17108
+			27264
 		}
 	}
-	uv0.weapon_property_187[81149] = {
-		reload_max = 1610,
-		damage = 59,
-		base = 81140,
-		id = 81149,
-		bullet_ID = {
-			17109
-		}
-	}
-	uv0.weapon_property_187[81150] = {
-		reload_max = 1587,
-		damage = 62,
-		base = 81140,
-		id = 81150,
-		bullet_ID = {
-			17110
-		}
-	}
-	uv0.weapon_property_187[81151] = {
-		reload_max = 1587,
-		damage = 62,
-		base = 81140,
-		id = 81151,
-		bullet_ID = {
-			17110
-		}
-	}
-	uv0.weapon_property_187[81200] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "F4U海盗T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 30,
-		charge_param = "",
-		damage = 22,
-		corrected = 100,
-		min_range = 0,
-		id = 81200,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1862,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			17200
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_187[81201] = {
-		reload_max = 1838,
-		damage = 26,
-		base = 81200,
-		id = 81201,
-		bullet_ID = {
-			17201
-		}
-	}
-	uv0.weapon_property_187[81202] = {
-		reload_max = 1815,
-		damage = 28,
-		base = 81200,
-		id = 81202,
-		bullet_ID = {
-			17202
-		}
-	}
-	uv0.weapon_property_187[81203] = {
+	uv0.weapon_property_187[82305] = {
 		reload_max = 1791,
-		damage = 31,
-		base = 81200,
-		id = 81203,
+		damage = 61,
+		base = 82300,
+		id = 82305,
 		bullet_ID = {
-			17203
+			27265
 		}
 	}
-	uv0.weapon_property_187[81220] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "F4U海盗T2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 30,
-		charge_param = "",
-		damage = 24,
-		corrected = 100,
-		min_range = 0,
-		id = 81220,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1824,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			17200
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_187[81221] = {
-		reload_max = 1800,
-		damage = 28,
-		base = 81220,
-		id = 81221,
-		bullet_ID = {
-			17201
-		}
-	}
-	uv0.weapon_property_187[81222] = {
-		reload_max = 1777,
-		damage = 31,
-		base = 81220,
-		id = 81222,
-		bullet_ID = {
-			17202
-		}
-	}
-	uv0.weapon_property_187[81223] = {
+	uv0.weapon_property_187[82306] = {
 		reload_max = 1753,
-		damage = 34,
-		base = 81220,
-		id = 81223,
+		damage = 66,
+		base = 82300,
+		id = 82306,
 		bullet_ID = {
-			17203
+			27266
 		}
 	}
-	uv0.weapon_property_187[81224] = {
-		reload_max = 1729,
-		damage = 37,
-		base = 81220,
-		id = 81224,
+	uv0.weapon_property_187[82307] = {
+		reload_max = 1715,
+		damage = 71,
+		base = 82300,
+		id = 82307,
 		bullet_ID = {
-			17204
+			27267
 		}
 	}
-	uv0.weapon_property_187[81225] = {
-		reload_max = 1705,
-		damage = 41,
-		base = 81220,
-		id = 81225,
+	uv0.weapon_property_187[82308] = {
+		reload_max = 1677,
+		damage = 76,
+		base = 82300,
+		id = 82308,
 		bullet_ID = {
-			17205
-		}
-	}
-	uv0.weapon_property_187[81226] = {
-		reload_max = 1682,
-		damage = 44,
-		base = 81220,
-		id = 81226,
-		bullet_ID = {
-			17206
-		}
-	}
-	uv0.weapon_property_187[81240] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "F4U海盗T3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 30,
-		charge_param = "",
-		damage = 26,
-		corrected = 100,
-		min_range = 0,
-		id = 81240,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1796,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			17200
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_187[81241] = {
-		reload_max = 1772,
-		damage = 31,
-		base = 81240,
-		id = 81241,
-		bullet_ID = {
-			17201
-		}
-	}
-	uv0.weapon_property_187[81242] = {
-		reload_max = 1748,
-		damage = 34,
-		base = 81240,
-		id = 81242,
-		bullet_ID = {
-			17202
-		}
-	}
-	uv0.weapon_property_187[81243] = {
-		reload_max = 1724,
-		damage = 37,
-		base = 81240,
-		id = 81243,
-		bullet_ID = {
-			17203
+			27268
 		}
 	}
 end()

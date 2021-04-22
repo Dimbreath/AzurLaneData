@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_235 = {
+	[35001] = {
+		id = 35001,
+		damage = "62 x 2",
+		base = 35000,
+		weapon_id = {
+			35001
+		}
+	},
+	[35002] = {
+		id = 35002,
+		damage = "72 x 2",
+		base = 35000,
+		weapon_id = {
+			35002
+		}
+	},
+	[35003] = {
+		id = 35003,
+		damage = "82 x 2",
+		base = 35000,
+		weapon_id = {
+			35003
+		}
+	},
 	[35020] = {
 		name = "610mm Twin Torpedo Mount",
 		speciality = "Torpedo",
@@ -272,84 +296,6 @@ pg.equip_data_statistics_235 = {
 		base = 35100,
 		weapon_id = {
 			35101
-		}
-	},
-	[35102] = {
-		id = 35102,
-		damage = "72 x 3",
-		base = 35100,
-		weapon_id = {
-			35102
-		}
-	},
-	[35103] = {
-		id = 35103,
-		damage = "82 x 3",
-		base = 35100,
-		weapon_id = {
-			35103
-		}
-	},
-	[35120] = {
-		name = "610mm Triple Torpedo Mount",
-		speciality = "Torpedo",
-		type = 5,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "35100",
-		attribute_2 = "torpedo",
-		rarity = 3,
-		damage = "58 x 3",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 35120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1801
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1801
-			},
-			{
-				4,
-				1402
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			35120
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"TP",
-			"TRI"
 		}
 	}
 }

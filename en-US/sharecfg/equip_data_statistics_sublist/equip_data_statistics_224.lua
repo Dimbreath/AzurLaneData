@@ -1,5 +1,80 @@
 pg = pg or {}
 pg.equip_data_statistics_224 = {
+	[33000] = {
+		name = "Twin 203mm Naval Gun Mount",
+		speciality = "Lock",
+		type = 3,
+		tech = 1,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "33000",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "22 x 4",
+		nationality = 3,
+		ammo = 3,
+		value_3 = 0,
+		id = 33000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1400
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1400
+			},
+			{
+				4,
+				1205
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			33000
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CA",
+			"MG",
+			"CM"
+		}
+	},
+	[33001] = {
+		id = 33001,
+		damage = "24 x 4",
+		base = 33000,
+		weapon_id = {
+			33001
+		}
+	},
+	[33002] = {
+		id = 33002,
+		damage = "26 x 4",
+		base = 33000,
+		weapon_id = {
+			33002
+		}
+	},
 	[33003] = {
 		id = 33003,
 		damage = "28 x 4",
@@ -212,30 +287,6 @@ pg.equip_data_statistics_224 = {
 		base = 33040,
 		weapon_id = {
 			33045
-		}
-	},
-	[33046] = {
-		id = 33046,
-		damage = "38 x 4",
-		base = 33040,
-		weapon_id = {
-			33046
-		}
-	},
-	[33047] = {
-		id = 33047,
-		damage = "40 x 4",
-		base = 33040,
-		weapon_id = {
-			33047
-		}
-	},
-	[33048] = {
-		id = 33048,
-		damage = "42 x 4",
-		base = 33040,
-		weapon_id = {
-			33048
 		}
 	}
 }

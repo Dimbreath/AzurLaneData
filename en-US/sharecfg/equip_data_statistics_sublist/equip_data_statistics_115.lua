@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_115 = {
+	[16002] = {
+		id = 16002,
+		damage = "10/wave",
+		base = 16000,
+		weapon_id = {
+			16002
+		}
+	},
+	[16003] = {
+		id = 16003,
+		damage = "12/wave",
+		base = 16000,
+		weapon_id = {
+			16003
+		}
+	},
+	[16020] = {
+		name = "Single 20mm Oerlikon AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "16000",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "9/wave",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 16020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			16020
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
+	},
 	[16021] = {
 		id = 16021,
 		damage = "10/wave",
@@ -218,30 +296,6 @@ pg.equip_data_statistics_115 = {
 		base = 16060,
 		weapon_id = {
 			16062
-		}
-	},
-	[16063] = {
-		id = 16063,
-		damage = "38/wave",
-		base = 16060,
-		weapon_id = {
-			16063
-		}
-	},
-	[16064] = {
-		id = 16064,
-		damage = "41/wave",
-		base = 16060,
-		weapon_id = {
-			16064
-		}
-	},
-	[16065] = {
-		id = 16065,
-		damage = "44/wave",
-		base = 16060,
-		weapon_id = {
-			16065
 		}
 	}
 }

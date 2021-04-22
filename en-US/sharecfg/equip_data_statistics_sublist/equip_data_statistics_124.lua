@@ -1,5 +1,81 @@
 pg = pg or {}
 pg.equip_data_statistics_124 = {
+	[17000] = {
+		name = "F2A Buffalo",
+		tech = 1,
+		speciality = "Air",
+		type = 7,
+		rarity = 1,
+		descrip = "No description",
+		value_2 = 0,
+		icon = "17000",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 17000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50300
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			17000,
+			81000
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
+	},
+	[17001] = {
+		id = 17001,
+		base = 17000,
+		ammo_info = {
+			{
+				6,
+				50301
+			}
+		},
+		weapon_id = {
+			17001,
+			81001
+		}
+	},
+	[17002] = {
+		id = 17002,
+		base = 17000,
+		ammo_info = {
+			{
+				6,
+				50302
+			}
+		},
+		weapon_id = {
+			17002,
+			81002
+		}
+	},
 	[17003] = {
 		id = 17003,
 		base = 17000,
@@ -301,48 +377,6 @@ pg.equip_data_statistics_124 = {
 			"USS",
 			"CV",
 			"FT"
-		}
-	},
-	[17061] = {
-		id = 17061,
-		base = 17060,
-		ammo_info = {
-			{
-				6,
-				50361
-			}
-		},
-		weapon_id = {
-			17061,
-			81061
-		}
-	},
-	[17062] = {
-		id = 17062,
-		base = 17060,
-		ammo_info = {
-			{
-				6,
-				50362
-			}
-		},
-		weapon_id = {
-			17062,
-			81062
-		}
-	},
-	[17063] = {
-		id = 17063,
-		base = 17060,
-		ammo_info = {
-			{
-				6,
-				50363
-			}
-		},
-		weapon_id = {
-			17063,
-			81063
 		}
 	}
 }

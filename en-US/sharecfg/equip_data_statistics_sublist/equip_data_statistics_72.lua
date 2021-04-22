@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_72 = {
+	[5302] = {
+		id = 5302,
+		damage = "57 x 2",
+		base = 5300,
+		weapon_id = {
+			5302
+		}
+	},
+	[5303] = {
+		id = 5303,
+		damage = "65 x 2",
+		base = 5300,
+		weapon_id = {
+			5303
+		}
+	},
+	[5320] = {
+		name = "550mm Twin Torpedo Launcher",
+		speciality = "Torpedo",
+		type = 5,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "5300",
+		attribute_2 = "torpedo",
+		rarity = 2,
+		damage = "47 x 2",
+		nationality = 8,
+		ammo = 5,
+		value_3 = 0,
+		id = 5320,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1800
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1800
+			},
+			{
+				4,
+				1401
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			5320
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"TP",
+			"DUO"
+		}
+	},
 	[5321] = {
 		id = 5321,
 		damage = "55 x 2",
@@ -218,84 +296,6 @@ pg.equip_data_statistics_72 = {
 		base = 5400,
 		weapon_id = {
 			5402
-		}
-	},
-	[5403] = {
-		id = 5403,
-		damage = "72 x 3",
-		base = 5400,
-		weapon_id = {
-			5403
-		}
-	},
-	[5420] = {
-		name = "550mm Triple Torpedo Launcher",
-		speciality = "Torpedo",
-		type = 5,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "5400",
-		attribute_2 = "torpedo",
-		rarity = 3,
-		damage = "52 x 3",
-		nationality = 8,
-		ammo = 5,
-		value_3 = 0,
-		id = 5420,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1800
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1800
-			},
-			{
-				4,
-				1402
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			5420
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"ST",
-			"TP",
-			"TRI"
-		}
-	},
-	[5421] = {
-		id = 5421,
-		damage = "61 x 3",
-		base = 5420,
-		weapon_id = {
-			5421
 		}
 	}
 }

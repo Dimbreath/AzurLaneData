@@ -3798,40 +3798,40 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
-	[193] = {
+	[194] = {
 		can_rotate = 0,
-		name = "亚瑟士衣柜",
-		gain_by = "",
+		name = "Labyrinth Sculpture",
+		gain_by = "Daedalian Hymn ",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
 		is_get_time_note = 1,
 		belong = 1,
-		rarity = 0,
+		rarity = 5,
 		is_3d_obj = 0,
 		tag = 6,
-		icon = "yaseshiicon",
+		icon = "ydl2xunzhangicon",
 		spine_extra = "",
 		level = 1,
 		effect = "",
 		themeId = 0,
 		spine_action_replace = "",
-		picture = "chuanmo/yaseshi",
+		picture = "chuanmo/ydl2xunzhang",
 		canputon = 0,
 		count = 1,
-		describe = "",
+		describe = "A miniature reproduction of the \"Labyrinth\" that mysteriously appeared in the Mediterranean. –Awarded to commanders who participated in the \"Daedalian Hymn\" event.",
 		advice = 0,
 		deblocking = 1,
-		id = 193,
+		id = 194,
 		comfortable = 0,
 		size = {
-			6,
-			4
+			2,
+			2
 		},
 		offset = {},
 		canputonGrid = {},
 		can_trigger = {
-			0
+			1
 		},
 		interAction_group = {}
 	},
@@ -4585,6 +4585,57 @@ pg.furniture_data_template = {
 					false,
 					nil,
 					"event:/ui/meow"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[100014] = {
+		can_rotate = 1,
+		name = "Weather Projector (Spring) ",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "springboxicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		describe = "Originally known as Spring-In-A-Box, but the marketing department rejected it for being too ambiguous.",
+		advice = 0,
+		id = 100014,
+		deblocking = 1,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"springbox",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					"Houzhai_yinghua",
+					"action1"
 				}
 			}
 		},
@@ -76032,6 +76083,816 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[78001] = {
+		can_rotate = 0,
+		name = "Chapel Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 4,
+		icon = "dibanydl2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 78,
+		spine_action_replace = "",
+		picture = "ydl2/dibanydl2",
+		canputon = 0,
+		count = 1,
+		describe = "A design that's stood the test of time. Slippery.",
+		advice = 0,
+		deblocking = 1,
+		id = 78001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78002] = {
+		can_rotate = 0,
+		name = "Chapel Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 3,
+		icon = "qiangbiydl2icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 78,
+		spine_action_replace = "",
+		picture = "ydl2/qiangbiydl2",
+		canputon = 0,
+		count = 1,
+		describe = "Let there be light, the architect said, \"in all colors of the rainbow.\"",
+		advice = 0,
+		deblocking = 1,
+		id = 78002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78101] = {
+		can_rotate = 0,
+		name = "Chapel Candles",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "1ydl2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 78,
+		spine_action_replace = "",
+		picture = "ydl2/1ydl2",
+		canputon = 0,
+		count = 2,
+		describe = "This chapel burns through a wax model museum's worth of candles a year.",
+		advice = 0,
+		deblocking = 1,
+		id = 78101,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78102] = {
+		can_rotate = 0,
+		name = "Chapel Column",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "2ydl2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 78,
+		spine_action_replace = "",
+		picture = "ydl2/2ydl2",
+		canputon = 0,
+		count = 3,
+		describe = "Supportive, strong, and true, like the country that built it. Wait...",
+		advice = 0,
+		deblocking = 1,
+		id = 78102,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78103] = {
+		can_rotate = 0,
+		name = "Manjuu Choir",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "3ydl2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 78,
+		spine_action_replace = "",
+		picture = "ydl2/3ydl2",
+		canputon = 0,
+		count = 1,
+		describe = "The priest has a habit of preaching to these guys.",
+		advice = 0,
+		deblocking = 1,
+		id = 78103,
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78104] = {
+		can_rotate = 0,
+		name = "Chapel Organ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "4ydl2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 78,
+		spine_action_replace = "",
+		picture = "ydl2/4ydl2",
+		canputon = 0,
+		count = 1,
+		describe = "Its sound is all-organic.",
+		advice = 0,
+		deblocking = 1,
+		id = 78104,
+		comfortable = 3,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78105] = {
+		can_rotate = 0,
+		name = "Chapel Fountain",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "5ydl2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "ydl2/5ydl2",
+		canputon = 0,
+		themeId = 78,
+		count = 1,
+		describe = "Too shallow for baptisms. But is it too shallow for a bath?",
+		advice = 0,
+		id = 78105,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					3,
+					-80
+				},
+				{
+					-1,
+					1
+				},
+				"ydl2/5ydl2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78106] = {
+		can_rotate = 0,
+		name = "Chapel Vase",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "6ydl2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 78,
+		spine_action_replace = "",
+		picture = "ydl2/6ydl2",
+		canputon = 0,
+		count = 2,
+		describe = "As white and pure as the robes of the clerical staff.",
+		advice = 0,
+		deblocking = 1,
+		id = 78106,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78107] = {
+		can_rotate = 0,
+		name = "Manjuu Monument",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "7ydl2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 78,
+		spine_action_replace = "",
+		picture = "ydl2/7ydl2",
+		canputon = 0,
+		count = 1,
+		describe = "This, dear visitors, is the famous statue of St. Manjuu. St. Man-who? Why, I'm glad you asked!",
+		advice = 0,
+		deblocking = 1,
+		id = 78107,
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78108] = {
+		can_rotate = 0,
+		name = "Chapel Candelabra",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "8ydl2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 78,
+		spine_action_replace = "",
+		picture = "ydl2/8ydl2",
+		canputon = 0,
+		count = 2,
+		describe = "A moment of silence for the poor clergymanjuu who has to relight these every morning.",
+		advice = 0,
+		deblocking = 1,
+		id = 78108,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78109] = {
+		can_rotate = 0,
+		name = "Chapel Railing 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "9ydl2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 78,
+		spine_action_replace = "",
+		picture = "ydl2/9ydl2",
+		canputon = 0,
+		count = 2,
+		describe = "Please don't try to perform skateboard tricks on it.",
+		advice = 0,
+		deblocking = 1,
+		id = 78109,
+		comfortable = 2,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78110] = {
+		can_rotate = 0,
+		name = "Chapel Pews",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "10ydl2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "ydl2/10ydl2",
+		canputon = 0,
+		themeId = 78,
+		count = 3,
+		describe = "Put two pews together, and what do you get? A pew-pew.",
+		advice = 0,
+		id = 78110,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			9,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					151,
+					90
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					63,
+					49
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-40,
+					-3
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-119,
+					-41
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78111] = {
+		can_rotate = 0,
+		name = "Chapel Altar",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "11ydl2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "ydl2/11ydl2",
+		canputon = 0,
+		themeId = 78,
+		count = 1,
+		describe = "Where many shipgirls have sworn an oath to their beloved commander.",
+		advice = 0,
+		id = 78111,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			9,
+			12
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-228,
+					80
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-257,
+					17
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78112] = {
+		can_rotate = 0,
+		name = "Chapel Candlestick",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "12ydl2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 78,
+		spine_action_replace = "",
+		picture = "ydl2/12ydl2",
+		canputon = 0,
+		count = 2,
+		describe = "This candle is of the upper class and could afford a raised platform to hold it.",
+		advice = 0,
+		deblocking = 1,
+		id = 78112,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78113] = {
+		can_rotate = 0,
+		name = "Chapel Pulpit",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "13ydl2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "ydl2/13ydl2",
+		canputon = 0,
+		themeId = 78,
+		count = 1,
+		describe = "Not to be confused with a pull-pit, which is a den for people who've turned to illegal means to secure the SRs they're missing.",
+		advice = 0,
+		id = 78113,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					79,
+					7
+				},
+				{
+					-1,
+					1
+				},
+				"ydl2/13ydl2_using",
+				0,
+				{
+					{
+						26,
+						214
+					},
+					{
+						662,
+						630
+					},
+					"ydl2/13ydl2_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78114] = {
+		can_rotate = 0,
+		name = "Chapel Flower Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "14ydl2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 78,
+		spine_action_replace = "",
+		picture = "ydl2/14ydl2",
+		canputon = 0,
+		count = 3,
+		describe = "Cleveland rates it a 6 out of 10. A solid start, but lacks ambition.",
+		advice = 0,
+		deblocking = 1,
+		id = 78114,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78115] = {
+		can_rotate = 0,
+		name = "Chapel Railing 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "15ydl2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 78,
+		spine_action_replace = "",
+		picture = "ydl2/15ydl2",
+		canputon = 0,
+		count = 2,
+		describe = "Please don't try to perform skateboard tricks on it.",
+		advice = 0,
+		deblocking = 1,
+		id = 78115,
+		comfortable = 2,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78116] = {
+		name = "Manjuulangelo",
+		gain_by = "",
+		type = 13,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		can_rotate = 0,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Aydl2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 78,
+		deblocking = 1,
+		count = 1,
+		describe = "If you want to make him really happy, address him by his full name which nobody remembers.",
+		id = 78116,
+		advice = 0,
+		comfortable = 4,
+		belong = 1,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Aydl2B",
+				"normal"
+			},
+			{
+				"Aydl2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						"Aydl2CharControl",
+						"sit"
+					},
+					{
+						"sit2",
+						"Aydl2CharControl",
+						"sit"
+					}
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"Aydl2CharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -76113,7 +76974,7 @@ pg.furniture_data_template = {
 		190,
 		191,
 		192,
-		193,
+		194,
 		100002,
 		100003,
 		100004,
@@ -76123,6 +76984,7 @@ pg.furniture_data_template = {
 		100008,
 		100009,
 		100010,
+		100014,
 		100019,
 		1001,
 		1002,
@@ -77754,6 +78616,24 @@ pg.furniture_data_template = {
 		77116,
 		77117,
 		77118,
-		77119
+		77119,
+		78001,
+		78002,
+		78101,
+		78102,
+		78103,
+		78104,
+		78105,
+		78106,
+		78107,
+		78108,
+		78109,
+		78110,
+		78111,
+		78112,
+		78113,
+		78114,
+		78115,
+		78116
 	}
 }

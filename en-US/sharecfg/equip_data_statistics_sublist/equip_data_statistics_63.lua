@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_63 = {
+	[4021] = {
+		id = 4021,
+		damage = "20 x 3",
+		base = 4020,
+		weapon_id = {
+			4021
+		}
+	},
+	[4022] = {
+		id = 4022,
+		damage = "22 x 3",
+		base = 4020,
+		weapon_id = {
+			4022
+		}
+	},
+	[4023] = {
+		id = 4023,
+		damage = "24 x 3",
+		base = 4020,
+		weapon_id = {
+			4023
+		}
+	},
 	[4040] = {
 		name = "Basic Depth Charge Projector",
 		speciality = "Anti\nsubmarine",
@@ -233,30 +257,6 @@ pg.equip_data_statistics_63 = {
 		base = 4120,
 		weapon_id = {
 			4121
-		}
-	},
-	[4122] = {
-		id = 4122,
-		damage = "28 x 3",
-		base = 4120,
-		weapon_id = {
-			4122
-		}
-	},
-	[4123] = {
-		id = 4123,
-		damage = "30 x 3",
-		base = 4120,
-		weapon_id = {
-			4123
-		}
-	},
-	[4124] = {
-		id = 4124,
-		damage = "33 x 3",
-		base = 4120,
-		weapon_id = {
-			4124
 		}
 	}
 }

@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_178 = {
+	[26046] = {
+		id = 26046,
+		damage = "45/wave",
+		base = 26040,
+		weapon_id = {
+			26046
+		}
+	},
+	[26047] = {
+		id = 26047,
+		damage = "45/wave",
+		base = 26040,
+		weapon_id = {
+			26047
+		}
+	},
+	[26060] = {
+		name = "Twin 40mm Bofors RP Mark I AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "26060",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "28/wave",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 26060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			26060
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
 	[26061] = {
 		id = 26061,
 		damage = "30/wave",
@@ -165,84 +243,6 @@ pg.equip_data_statistics_178 = {
 		base = 26100,
 		weapon_id = {
 			26102
-		}
-	},
-	[26103] = {
-		id = 26103,
-		damage = "40/wave",
-		base = 26100,
-		weapon_id = {
-			26103
-		}
-	},
-	[26120] = {
-		name = "Quadruple 40mm Pom-Pom AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "26100",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "30/wave",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 26120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			26120
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"ST",
-			"AA"
-		}
-	},
-	[26121] = {
-		id = 26121,
-		damage = "35/wave",
-		base = 26120,
-		weapon_id = {
-			26121
 		}
 	}
 }

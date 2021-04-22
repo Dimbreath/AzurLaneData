@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_297 = {
+	[44127] = {
+		id = 44127,
+		damage = "100 x 2",
+		base = 44120,
+		weapon_id = {
+			44127
+		}
+	},
+	[44128] = {
+		id = 44128,
+		damage = "107 x 2",
+		base = 44120,
+		weapon_id = {
+			44128
+		}
+	},
+	[44129] = {
+		id = 44129,
+		damage = "114 x 2",
+		base = 44120,
+		weapon_id = {
+			44129
+		}
+	},
 	[44130] = {
 		id = 44130,
 		damage = "122 x 2",
@@ -157,76 +181,6 @@ pg.equip_data_statistics_297 = {
 		id = 44152,
 		weapon_id = {
 			44152
-		}
-	},
-	[44153] = {
-		anti_siren = 300,
-		damage = "132 x 2",
-		base = 44140,
-		id = 44153,
-		weapon_id = {
-			44153
-		}
-	},
-	[44200] = {
-		name = "Prototype 406mm SK C/34 Main Gun Mount",
-		speciality = "Volley",
-		type = 4,
-		tech = 0,
-		descrip = "No description",
-		value_2 = 45,
-		icon = "44200",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "58 x 2",
-		nationality = 4,
-		ammo = 2,
-		value_3 = 0,
-		id = 44200,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				2,
-				1502
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			44200
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"BB",
-			"MG",
-			"HE"
-		}
-	},
-	[44201] = {
-		id = 44201,
-		damage = "68 x 2",
-		base = 44200,
-		weapon_id = {
-			44201
 		}
 	}
 }

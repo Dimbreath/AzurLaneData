@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_221 = {
+	[32204] = {
+		id = 32204,
+		damage = "10 x 6",
+		base = 32200,
+		weapon_id = {
+			32204
+		}
+	},
+	[32205] = {
+		id = 32205,
+		damage = "11 x 6",
+		base = 32200,
+		weapon_id = {
+			32205
+		}
+	},
+	[32206] = {
+		id = 32206,
+		damage = "12 x 6",
+		base = 32200,
+		weapon_id = {
+			32206
+		}
+	},
 	[32220] = {
 		name = "Triple 155mm Main Gun Mount",
 		speciality = "Lock",
@@ -214,30 +238,6 @@ pg.equip_data_statistics_221 = {
 		base = 32240,
 		weapon_id = {
 			32242
-		}
-	},
-	[32243] = {
-		id = 32243,
-		damage = "11 x 6",
-		base = 32240,
-		weapon_id = {
-			32243
-		}
-	},
-	[32244] = {
-		id = 32244,
-		damage = "12 x 6",
-		base = 32240,
-		weapon_id = {
-			32244
-		}
-	},
-	[32245] = {
-		id = 32245,
-		damage = "13 x 6",
-		base = 32240,
-		weapon_id = {
-			32245
 		}
 	}
 }

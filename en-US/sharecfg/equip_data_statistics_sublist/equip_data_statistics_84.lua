@@ -1,5 +1,86 @@
 pg = pg or {}
 pg.equip_data_statistics_84 = {
+	[11103] = {
+		id = 11103,
+		damage = "6 x 3",
+		base = 11100,
+		weapon_id = {
+			11103
+		}
+	},
+	[11120] = {
+		name = "Single 127mm Main Gun",
+		speciality = "Lock",
+		type = 1,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "11100",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "4 x 3",
+		nationality = 1,
+		ammo = 3,
+		value_3 = 0,
+		id = 11120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1000
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1000
+			},
+			{
+				4,
+				1003
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			11120
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		}
+	},
+	[11121] = {
+		id = 11121,
+		base = 11120,
+		weapon_id = {
+			11121
+		}
+	},
 	[11122] = {
 		id = 11122,
 		damage = "6 x 3",
@@ -168,31 +249,6 @@ pg.equip_data_statistics_84 = {
 		base = 11140,
 		weapon_id = {
 			11148
-		}
-	},
-	[11149] = {
-		id = 11149,
-		damage = "14 x 3",
-		base = 11140,
-		weapon_id = {
-			11149
-		}
-	},
-	[11150] = {
-		id = 11150,
-		damage = "15 x 3",
-		base = 11140,
-		weapon_id = {
-			11150
-		}
-	},
-	[11151] = {
-		anti_siren = 100,
-		damage = "15 x 3",
-		base = 11140,
-		id = 11151,
-		weapon_id = {
-			11151
 		}
 	}
 }

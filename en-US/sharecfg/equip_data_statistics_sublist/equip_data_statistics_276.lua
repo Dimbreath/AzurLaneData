@@ -1,5 +1,103 @@
 pg = pg or {}
 pg.equip_data_statistics_276 = {
+	[39106] = {
+		id = 39106,
+		base = 39100,
+		ammo_info = {
+			{
+				6,
+				50006
+			},
+			{
+				5,
+				52606
+			},
+			{
+				5,
+				52106
+			}
+		},
+		weapon_id = {
+			39106
+		}
+	},
+	[39120] = {
+		name = "Suisei",
+		type = 9,
+		speciality = "Bomber",
+		rarity = 4,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "39100",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 39120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50020
+			},
+			{
+				5,
+				52620
+			},
+			{
+				5,
+				52120
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			39120
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		}
+	},
+	[39121] = {
+		id = 39121,
+		base = 39120,
+		ammo_info = {
+			{
+				6,
+				50021
+			},
+			{
+				5,
+				52621
+			},
+			{
+				5,
+				52121
+			}
+		},
+		weapon_id = {
+			39121
+		}
+	},
 	[39122] = {
 		id = 39122,
 		base = 39120,
@@ -327,69 +425,6 @@ pg.equip_data_statistics_276 = {
 		},
 		weapon_id = {
 			39144
-		}
-	},
-	[39145] = {
-		id = 39145,
-		base = 39140,
-		ammo_info = {
-			{
-				6,
-				50045
-			},
-			{
-				5,
-				52645
-			},
-			{
-				5,
-				52145
-			}
-		},
-		weapon_id = {
-			39145
-		}
-	},
-	[39146] = {
-		id = 39146,
-		base = 39140,
-		ammo_info = {
-			{
-				6,
-				50046
-			},
-			{
-				5,
-				52646
-			},
-			{
-				5,
-				52146
-			}
-		},
-		weapon_id = {
-			39146
-		}
-	},
-	[39147] = {
-		id = 39147,
-		base = 39140,
-		ammo_info = {
-			{
-				6,
-				50047
-			},
-			{
-				5,
-				52647
-			},
-			{
-				5,
-				52147
-			}
-		},
-		weapon_id = {
-			39147
 		}
 	}
 }

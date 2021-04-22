@@ -1,5 +1,24 @@
 pg = pg or {}
 pg.equip_data_statistics_16 = {
+	[729] = {
+		id = 729,
+		value_2 = 140,
+		value_1 = "19",
+		base = 720
+	},
+	[730] = {
+		id = 730,
+		value_2 = 150,
+		value_1 = "20",
+		base = 720
+	},
+	[731] = {
+		id = 731,
+		anti_siren = 100,
+		base = 720,
+		value_2 = 160,
+		value_1 = "21"
+	},
 	[732] = {
 		id = 732,
 		anti_siren = 200,
@@ -104,51 +123,5 @@ pg.equip_data_statistics_16 = {
 		anti_siren = 100,
 		value_1 = "27",
 		base = 740
-	},
-	[760] = {
-		name = "NY City Coast Recon Report",
-		tech = 0,
-		type = 10,
-		speciality = "N/A",
-		id = 760,
-		value_2 = 50,
-		icon = "760",
-		value_1 = "5",
-		attribute_2 = "durability",
-		rarity = 4,
-		descrip = "A recon report from NY City's coastline. The fleet had to abandon the mission halfway through due to enemy comms jamming, but they still managed to gather a lot of valuable data.",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "dodge",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6440
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[761] = {
-		id = 761,
-		value_2 = 55,
-		value_1 = "6",
-		base = 760
-	},
-	[762] = {
-		id = 762,
-		value_2 = 60,
-		value_1 = "7",
-		base = 760
 	}
 }

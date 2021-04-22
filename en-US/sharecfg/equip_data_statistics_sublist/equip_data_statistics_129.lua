@@ -1,5 +1,60 @@
 pg = pg or {}
 pg.equip_data_statistics_129 = {
+	[17249] = {
+		id = 17249,
+		base = 17240,
+		ammo_info = {
+			{
+				6,
+				50449
+			},
+			{
+				5,
+				52349
+			}
+		},
+		weapon_id = {
+			17249,
+			81249
+		}
+	},
+	[17250] = {
+		id = 17250,
+		base = 17240,
+		ammo_info = {
+			{
+				6,
+				50450
+			},
+			{
+				5,
+				52350
+			}
+		},
+		weapon_id = {
+			17250,
+			81250
+		}
+	},
+	[17251] = {
+		anti_siren = 100,
+		base = 17240,
+		id = 17251,
+		ammo_info = {
+			{
+				6,
+				50451
+			},
+			{
+				5,
+				52351
+			}
+		},
+		weapon_id = {
+			17251,
+			81251
+		}
+	},
 	[17260] = {
 		name = "F4U (VF-17 \"Pirate\" Squad)",
 		type = 7,
@@ -290,108 +345,6 @@ pg.equip_data_statistics_129 = {
 		weapon_id = {
 			17273,
 			81273
-		}
-	},
-	[17300] = {
-		name = "F6F Hellcat",
-		type = 7,
-		speciality = "Air",
-		rarity = 3,
-		tech = 1,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "17300",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 17300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50300
-			},
-			{
-				6,
-				50500
-			},
-			{
-				5,
-				52300
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			17300,
-			81300
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"FT",
-			"F6F"
-		}
-	},
-	[17301] = {
-		id = 17301,
-		base = 17300,
-		ammo_info = {
-			{
-				6,
-				50301
-			},
-			{
-				6,
-				50501
-			},
-			{
-				5,
-				52301
-			}
-		},
-		weapon_id = {
-			17301,
-			81301
-		}
-	},
-	[17302] = {
-		id = 17302,
-		base = 17300,
-		ammo_info = {
-			{
-				6,
-				50302
-			},
-			{
-				6,
-				50502
-			},
-			{
-				5,
-				52302
-			}
-		},
-		weapon_id = {
-			17302,
-			81302
 		}
 	}
 }

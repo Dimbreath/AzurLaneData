@@ -1,5 +1,20 @@
 pg = pg or {}
 pg.equip_data_statistics_57 = {
+	[3147] = {
+		id = 3147,
+		value_1 = "9",
+		base = 3140
+	},
+	[3148] = {
+		id = 3148,
+		value_1 = "11",
+		base = 3140
+	},
+	[3149] = {
+		id = 3149,
+		value_1 = "13",
+		base = 3140
+	},
 	[3150] = {
 		base = 3140,
 		id = 3150,
@@ -136,23 +151,6 @@ pg.equip_data_statistics_57 = {
 	[3209] = {
 		id = 3209,
 		value_1 = "620",
-		base = 3200
-	},
-	[3210] = {
-		id = 3210,
-		value_1 = "650",
-		base = 3200
-	},
-	[3211] = {
-		id = 3211,
-		anti_siren = 100,
-		value_1 = "680",
-		base = 3200
-	},
-	[3212] = {
-		id = 3212,
-		anti_siren = 200,
-		value_1 = "710",
 		base = 3200
 	}
 }

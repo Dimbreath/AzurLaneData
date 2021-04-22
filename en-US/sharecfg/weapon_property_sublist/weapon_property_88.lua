@@ -2,12 +2,72 @@ pg = pg or {}
 pg.weapon_property_88 = {}
 
 function ()
-	uv0.weapon_property_88[51213] = {
-		id = 51213,
-		damage = 271,
-		base = 51200
+	uv0.weapon_property_88[51541] = {
+		id = 51541,
+		damage = 68,
+		base = 51540
 	}
-	uv0.weapon_property_88[51220] = {
+	uv0.weapon_property_88[51542] = {
+		id = 51542,
+		damage = 86,
+		base = 51540
+	}
+	uv0.weapon_property_88[51543] = {
+		id = 51543,
+		damage = 106,
+		base = 51540
+	}
+	uv0.weapon_property_88[51544] = {
+		id = 51544,
+		damage = 124,
+		base = 51540
+	}
+	uv0.weapon_property_88[51545] = {
+		id = 51545,
+		damage = 144,
+		base = 51540
+	}
+	uv0.weapon_property_88[51546] = {
+		id = 51546,
+		damage = 164,
+		base = 51540
+	}
+	uv0.weapon_property_88[51547] = {
+		id = 51547,
+		damage = 182,
+		base = 51540
+	}
+	uv0.weapon_property_88[51548] = {
+		id = 51548,
+		damage = 202,
+		base = 51540
+	}
+	uv0.weapon_property_88[51549] = {
+		id = 51549,
+		damage = 220,
+		base = 51540
+	}
+	uv0.weapon_property_88[51550] = {
+		id = 51550,
+		damage = 240,
+		base = 51540
+	}
+	uv0.weapon_property_88[51551] = {
+		id = 51551,
+		damage = 250,
+		base = 51540
+	}
+	uv0.weapon_property_88[51552] = {
+		id = 51552,
+		damage = 264,
+		base = 51540
+	}
+	uv0.weapon_property_88[51553] = {
+		id = 51553,
+		damage = 283,
+		base = 51540
+	}
+	uv0.weapon_property_88[51560] = {
 		action_index = "",
 		range = 75,
 		type = 3,
@@ -15,16 +75,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "4 x Torpedo-Common",
+		name = "3 x Torpedo-Iris",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 28,
+		angle = 20,
 		charge_param = "",
-		damage = 96,
+		damage = 72,
 		corrected = 100,
 		min_range = 0,
-		id = 51220,
+		id = 51560,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -38,10 +98,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			2111
+			2116
 		},
 		barrage_ID = {
-			2113
+			2112
 		},
 		oxy_type = {
 			1
@@ -51,72 +111,72 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_88[51221] = {
-		id = 51221,
-		damage = 112,
-		base = 51220
+	uv0.weapon_property_88[51561] = {
+		id = 51561,
+		damage = 84,
+		base = 51560
 	}
-	uv0.weapon_property_88[51222] = {
-		id = 51222,
-		damage = 128,
-		base = 51220
+	uv0.weapon_property_88[51562] = {
+		id = 51562,
+		damage = 96,
+		base = 51560
 	}
-	uv0.weapon_property_88[51223] = {
-		id = 51223,
+	uv0.weapon_property_88[51563] = {
+		id = 51563,
+		damage = 108,
+		base = 51560
+	}
+	uv0.weapon_property_88[51564] = {
+		id = 51564,
+		damage = 120,
+		base = 51560
+	}
+	uv0.weapon_property_88[51565] = {
+		id = 51565,
+		damage = 132,
+		base = 51560
+	}
+	uv0.weapon_property_88[51566] = {
+		id = 51566,
 		damage = 144,
-		base = 51220
+		base = 51560
 	}
-	uv0.weapon_property_88[51224] = {
-		id = 51224,
-		damage = 160,
-		base = 51220
+	uv0.weapon_property_88[51567] = {
+		id = 51567,
+		damage = 156,
+		base = 51560
 	}
-	uv0.weapon_property_88[51225] = {
-		id = 51225,
-		damage = 176,
-		base = 51220
+	uv0.weapon_property_88[51568] = {
+		id = 51568,
+		damage = 168,
+		base = 51560
 	}
-	uv0.weapon_property_88[51226] = {
-		id = 51226,
+	uv0.weapon_property_88[51569] = {
+		id = 51569,
+		damage = 180,
+		base = 51560
+	}
+	uv0.weapon_property_88[51570] = {
+		id = 51570,
 		damage = 192,
-		base = 51220
+		base = 51560
 	}
-	uv0.weapon_property_88[51227] = {
-		id = 51227,
-		damage = 208,
-		base = 51220
+	uv0.weapon_property_88[51571] = {
+		id = 51571,
+		damage = 200,
+		base = 51560
 	}
-	uv0.weapon_property_88[51228] = {
-		id = 51228,
-		damage = 224,
-		base = 51220
+	uv0.weapon_property_88[51572] = {
+		id = 51572,
+		damage = 211,
+		base = 51560
 	}
-	uv0.weapon_property_88[51229] = {
-		id = 51229,
-		damage = 240,
-		base = 51220
+	uv0.weapon_property_88[51573] = {
+		id = 51573,
+		damage = 227,
+		base = 51560
 	}
-	uv0.weapon_property_88[51230] = {
-		id = 51230,
-		damage = 256,
-		base = 51220
-	}
-	uv0.weapon_property_88[51231] = {
-		id = 51231,
-		damage = 266,
-		base = 51220
-	}
-	uv0.weapon_property_88[51232] = {
-		id = 51232,
-		damage = 282,
-		base = 51220
-	}
-	uv0.weapon_property_88[51233] = {
-		id = 51233,
-		damage = 302,
-		base = 51220
-	}
-	uv0.weapon_property_88[51240] = {
+	uv0.weapon_property_88[51580] = {
 		action_index = "",
 		range = 75,
 		type = 3,
@@ -124,16 +184,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "4 x Torpedo-Common",
+		name = "4 x Torpedo-Wyvern",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 28,
 		charge_param = "",
-		damage = 108,
+		damage = 115,
 		corrected = 100,
 		min_range = 0,
-		id = 51240,
+		id = 51580,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -160,90 +220,90 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_88[51241] = {
-		id = 51241,
-		damage = 126,
-		base = 51240
+	uv0.weapon_property_88[51581] = {
+		id = 51581,
+		damage = 137,
+		base = 51580
 	}
-	uv0.weapon_property_88[51242] = {
-		id = 51242,
-		damage = 144,
-		base = 51240
+	uv0.weapon_property_88[51582] = {
+		id = 51582,
+		damage = 160,
+		base = 51580
 	}
-	uv0.weapon_property_88[51243] = {
-		id = 51243,
-		damage = 162,
-		base = 51240
+	uv0.weapon_property_88[51583] = {
+		id = 51583,
+		damage = 182,
+		base = 51580
 	}
-	uv0.weapon_property_88[51244] = {
-		id = 51244,
-		damage = 180,
-		base = 51240
+	uv0.weapon_property_88[51584] = {
+		id = 51584,
+		damage = 205,
+		base = 51580
 	}
-	uv0.weapon_property_88[51245] = {
-		id = 51245,
-		damage = 198,
-		base = 51240
+	uv0.weapon_property_88[51585] = {
+		id = 51585,
+		damage = 227,
+		base = 51580
 	}
-	uv0.weapon_property_88[51246] = {
-		id = 51246,
-		damage = 216,
-		base = 51240
+	uv0.weapon_property_88[51586] = {
+		id = 51586,
+		damage = 250,
+		base = 51580
 	}
-	uv0.weapon_property_88[51247] = {
-		id = 51247,
-		damage = 234,
-		base = 51240
+	uv0.weapon_property_88[51587] = {
+		id = 51587,
+		damage = 272,
+		base = 51580
 	}
-	uv0.weapon_property_88[51248] = {
-		id = 51248,
-		damage = 252,
-		base = 51240
+	uv0.weapon_property_88[51588] = {
+		id = 51588,
+		damage = 295,
+		base = 51580
 	}
-	uv0.weapon_property_88[51249] = {
-		id = 51249,
-		damage = 270,
-		base = 51240
-	}
-	uv0.weapon_property_88[51250] = {
-		id = 51250,
-		damage = 288,
-		base = 51240
-	}
-	uv0.weapon_property_88[51251] = {
-		id = 51251,
-		damage = 300,
-		base = 51240
-	}
-	uv0.weapon_property_88[51252] = {
-		id = 51252,
+	uv0.weapon_property_88[51589] = {
+		id = 51589,
 		damage = 317,
-		base = 51240
+		base = 51580
 	}
-	uv0.weapon_property_88[51253] = {
-		id = 51253,
+	uv0.weapon_property_88[51590] = {
+		id = 51590,
 		damage = 340,
-		base = 51240
+		base = 51580
 	}
-	uv0.weapon_property_88[51300] = {
+	uv0.weapon_property_88[51591] = {
+		id = 51591,
+		damage = 354,
+		base = 51580
+	}
+	uv0.weapon_property_88[51592] = {
+		id = 51592,
+		damage = 374,
+		base = 51580
+	}
+	uv0.weapon_property_88[51593] = {
+		id = 51593,
+		damage = 401,
+		base = 51580
+	}
+	uv0.weapon_property_88[52000] = {
 		action_index = "",
-		range = 80,
-		type = 3,
+		range = 500,
+		type = 2,
 		fire_fx = "",
 		recover_time = 0,
-		axis_angle = -10,
+		axis_angle = 25,
 		shakescreen = 0,
-		name = "2 x Torpedo-Sakura",
+		name = "1 x 100lb Bomb",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 25,
 		charge_param = "",
-		damage = 40,
+		damage = 57,
 		corrected = 100,
 		min_range = 0,
-		id = 51300,
-		attack_attribute_ratio = 100,
+		id = 52000,
+		attack_attribute_ratio = 80,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
 		reload_max = 10500,
@@ -251,15 +311,15 @@ function ()
 		search_type = 2,
 		effect_move = 0,
 		suppress = 1,
-		spawn_bound = "torpedo",
+		spawn_bound = "cannon",
 		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			2112
+			2121
 		},
 		barrage_ID = {
-			2141
+			2120
 		},
 		oxy_type = {
 			1
@@ -269,90 +329,90 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_88[51301] = {
-		id = 51301,
-		damage = 56,
-		base = 51300
+	uv0.weapon_property_88[52001] = {
+		id = 52001,
+		damage = 65,
+		base = 52000
 	}
-	uv0.weapon_property_88[51302] = {
-		id = 51302,
+	uv0.weapon_property_88[52002] = {
+		id = 52002,
 		damage = 72,
-		base = 51300
+		base = 52000
 	}
-	uv0.weapon_property_88[51303] = {
-		id = 51303,
-		damage = 88,
-		base = 51300
+	uv0.weapon_property_88[52003] = {
+		id = 52003,
+		damage = 81,
+		base = 52000
 	}
-	uv0.weapon_property_88[51304] = {
-		id = 51304,
-		damage = 104,
-		base = 51300
+	uv0.weapon_property_88[52004] = {
+		id = 52004,
+		damage = 90,
+		base = 52000
 	}
-	uv0.weapon_property_88[51305] = {
-		id = 51305,
-		damage = 120,
-		base = 51300
+	uv0.weapon_property_88[52005] = {
+		id = 52005,
+		damage = 99,
+		base = 52000
 	}
-	uv0.weapon_property_88[51306] = {
-		id = 51306,
-		damage = 136,
-		base = 51300
+	uv0.weapon_property_88[52006] = {
+		id = 52006,
+		damage = 108,
+		base = 52000
 	}
-	uv0.weapon_property_88[51307] = {
-		id = 51307,
-		damage = 152,
-		base = 51300
+	uv0.weapon_property_88[52007] = {
+		id = 52007,
+		damage = 117,
+		base = 52000
 	}
-	uv0.weapon_property_88[51308] = {
-		id = 51308,
-		damage = 168,
-		base = 51300
+	uv0.weapon_property_88[52008] = {
+		id = 52008,
+		damage = 126,
+		base = 52000
 	}
-	uv0.weapon_property_88[51309] = {
-		id = 51309,
-		damage = 184,
-		base = 51300
+	uv0.weapon_property_88[52009] = {
+		id = 52009,
+		damage = 135,
+		base = 52000
 	}
-	uv0.weapon_property_88[51310] = {
-		id = 51310,
-		damage = 200,
-		base = 51300
+	uv0.weapon_property_88[52010] = {
+		id = 52010,
+		damage = 144,
+		base = 52000
 	}
-	uv0.weapon_property_88[51311] = {
-		id = 51311,
-		damage = 208,
-		base = 51300
+	uv0.weapon_property_88[52011] = {
+		id = 52011,
+		damage = 150,
+		base = 52000
 	}
-	uv0.weapon_property_88[51312] = {
-		id = 51312,
-		damage = 220,
-		base = 51300
+	uv0.weapon_property_88[52012] = {
+		id = 52012,
+		damage = 158,
+		base = 52000
 	}
-	uv0.weapon_property_88[51313] = {
-		id = 51313,
-		damage = 236,
-		base = 51300
+	uv0.weapon_property_88[52013] = {
+		id = 52013,
+		damage = 170,
+		base = 52000
 	}
-	uv0.weapon_property_88[51320] = {
+	uv0.weapon_property_88[52020] = {
 		action_index = "",
-		range = 80,
-		type = 3,
+		range = 500,
+		type = 2,
 		fire_fx = "",
 		recover_time = 0,
-		axis_angle = -10,
+		axis_angle = 25,
 		shakescreen = 0,
-		name = "2 x Torpedo-Sakura",
+		name = "1 x 100lb Bomb",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 25,
 		charge_param = "",
-		damage = 44,
+		damage = 63,
 		corrected = 100,
 		min_range = 0,
-		id = 51320,
-		attack_attribute_ratio = 100,
+		id = 52020,
+		attack_attribute_ratio = 80,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
 		reload_max = 10000,
@@ -360,15 +420,15 @@ function ()
 		search_type = 2,
 		effect_move = 0,
 		suppress = 1,
-		spawn_bound = "torpedo",
+		spawn_bound = "cannon",
 		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			2112
+			2121
 		},
 		barrage_ID = {
-			2141
+			2120
 		},
 		oxy_type = {
 			1
@@ -378,123 +438,34 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_88[51321] = {
-		id = 51321,
-		damage = 62,
-		base = 51320
+	uv0.weapon_property_88[52021] = {
+		id = 52021,
+		damage = 72,
+		base = 52020
 	}
-	uv0.weapon_property_88[51322] = {
-		id = 51322,
-		damage = 79,
-		base = 51320
+	uv0.weapon_property_88[52022] = {
+		id = 52022,
+		damage = 81,
+		base = 52020
 	}
-	uv0.weapon_property_88[51323] = {
-		id = 51323,
-		damage = 97,
-		base = 51320
+	uv0.weapon_property_88[52023] = {
+		id = 52023,
+		damage = 90,
+		base = 52020
 	}
-	uv0.weapon_property_88[51324] = {
-		id = 51324,
-		damage = 114,
-		base = 51320
+	uv0.weapon_property_88[52024] = {
+		id = 52024,
+		damage = 99,
+		base = 52020
 	}
-	uv0.weapon_property_88[51325] = {
-		id = 51325,
-		damage = 132,
-		base = 51320
+	uv0.weapon_property_88[52025] = {
+		id = 52025,
+		damage = 108,
+		base = 52020
 	}
-	uv0.weapon_property_88[51326] = {
-		id = 51326,
-		damage = 150,
-		base = 51320
-	}
-	uv0.weapon_property_88[51327] = {
-		id = 51327,
-		damage = 167,
-		base = 51320
-	}
-	uv0.weapon_property_88[51328] = {
-		id = 51328,
-		damage = 185,
-		base = 51320
-	}
-	uv0.weapon_property_88[51329] = {
-		id = 51329,
-		damage = 202,
-		base = 51320
-	}
-	uv0.weapon_property_88[51330] = {
-		id = 51330,
-		damage = 220,
-		base = 51320
-	}
-	uv0.weapon_property_88[51331] = {
-		id = 51331,
-		damage = 229,
-		base = 51320
-	}
-	uv0.weapon_property_88[51332] = {
-		id = 51332,
-		damage = 242,
-		base = 51320
-	}
-	uv0.weapon_property_88[51333] = {
-		id = 51333,
-		damage = 260,
-		base = 51320
-	}
-	uv0.weapon_property_88[51340] = {
-		action_index = "",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = -10,
-		shakescreen = 0,
-		name = "2 x Torpedo-Sakura",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 48,
-		corrected = 100,
-		min_range = 0,
-		id = 51340,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2112
-		},
-		barrage_ID = {
-			2141
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_88[51341] = {
-		id = 51341,
-		damage = 68,
-		base = 51340
-	}
-	uv0.weapon_property_88[51342] = {
-		id = 51342,
-		damage = 86,
-		base = 51340
+	uv0.weapon_property_88[52026] = {
+		id = 52026,
+		damage = 117,
+		base = 52020
 	}
 end()

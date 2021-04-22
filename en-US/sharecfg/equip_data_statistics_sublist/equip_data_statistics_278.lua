@@ -1,5 +1,68 @@
 pg = pg or {}
 pg.equip_data_statistics_278 = {
+	[39168] = {
+		id = 39168,
+		base = 39160,
+		ammo_info = {
+			{
+				6,
+				50048
+			},
+			{
+				5,
+				52668
+			},
+			{
+				5,
+				52168
+			}
+		},
+		weapon_id = {
+			39168
+		}
+	},
+	[39169] = {
+		id = 39169,
+		base = 39160,
+		ammo_info = {
+			{
+				6,
+				50049
+			},
+			{
+				5,
+				52669
+			},
+			{
+				5,
+				52169
+			}
+		},
+		weapon_id = {
+			39169
+		}
+	},
+	[39170] = {
+		id = 39170,
+		base = 39160,
+		ammo_info = {
+			{
+				6,
+				50050
+			},
+			{
+				5,
+				52670
+			},
+			{
+				5,
+				52170
+			}
+		},
+		weapon_id = {
+			39170
+		}
+	},
 	[39171] = {
 		anti_siren = 100,
 		base = 39160,
@@ -365,104 +428,6 @@ pg.equip_data_statistics_278 = {
 		},
 		weapon_id = {
 			39226
-		}
-	},
-	[39240] = {
-		name = "Aichi E16A Zuiun",
-		type = 12,
-		speciality = "Bomber",
-		rarity = 4,
-		tech = 3,
-		descrip = "The Aichi E16A Zuiun is a reconnaissance aircraft equipped with 2 20mm guns, a 13mm gun and a 500-pound bomb.",
-		value_2 = 25,
-		icon = "39200",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 39240,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50540
-			},
-			{
-				6,
-				50840
-			},
-			{
-				5,
-				52240
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			39240
-		},
-		skill_id = {},
-		part_main = {
-			10,
-			17
-		},
-		part_sub = {
-			10,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"SCOUT"
-		}
-	},
-	[39241] = {
-		id = 39241,
-		base = 39240,
-		ammo_info = {
-			{
-				6,
-				50541
-			},
-			{
-				6,
-				50841
-			},
-			{
-				5,
-				52241
-			}
-		},
-		weapon_id = {
-			39241
-		}
-	},
-	[39242] = {
-		id = 39242,
-		base = 39240,
-		ammo_info = {
-			{
-				6,
-				50542
-			},
-			{
-				6,
-				50842
-			},
-			{
-				5,
-				52242
-			}
-		},
-		weapon_id = {
-			39242
 		}
 	}
 }

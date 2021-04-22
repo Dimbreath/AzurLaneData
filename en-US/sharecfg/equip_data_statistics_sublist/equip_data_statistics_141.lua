@@ -1,5 +1,103 @@
 pg = pg or {}
 pg.equip_data_statistics_141 = {
+	[19120] = {
+		name = "SB2C Helldiver",
+		type = 9,
+		speciality = "Bomber",
+		rarity = 3,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "19100",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 19120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50720
+			},
+			{
+				5,
+				52920
+			},
+			{
+				5,
+				52320
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			19120
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
+	},
+	[19121] = {
+		id = 19121,
+		base = 19120,
+		ammo_info = {
+			{
+				6,
+				50721
+			},
+			{
+				5,
+				52921
+			},
+			{
+				5,
+				52321
+			}
+		},
+		weapon_id = {
+			19121
+		}
+	},
+	[19122] = {
+		id = 19122,
+		base = 19120,
+		ammo_info = {
+			{
+				6,
+				50722
+			},
+			{
+				5,
+				52922
+			},
+			{
+				5,
+				52322
+			}
+		},
+		weapon_id = {
+			19122
+		}
+	},
 	[19123] = {
 		id = 19123,
 		base = 19120,
@@ -327,105 +425,6 @@ pg.equip_data_statistics_141 = {
 		},
 		weapon_id = {
 			19149
-		}
-	},
-	[19150] = {
-		id = 19150,
-		base = 19140,
-		ammo_info = {
-			{
-				6,
-				50750
-			},
-			{
-				5,
-				52950
-			},
-			{
-				5,
-				52350
-			}
-		},
-		weapon_id = {
-			19150
-		}
-	},
-	[19151] = {
-		anti_siren = 100,
-		base = 19140,
-		id = 19151,
-		ammo_info = {
-			{
-				6,
-				50751
-			},
-			{
-				5,
-				52951
-			},
-			{
-				5,
-				52351
-			}
-		},
-		weapon_id = {
-			19151
-		}
-	},
-	[19160] = {
-		name = "Experimental XSB3C-1",
-		type = 9,
-		speciality = "Bomber",
-		rarity = 5,
-		tech = 0,
-		descrip = "No description",
-		value_2 = 45,
-		icon = "19160",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 19160,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50640
-			},
-			{
-				5,
-				52940
-			},
-			{
-				5,
-				52340
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			19160
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"DB"
 		}
 	}
 }

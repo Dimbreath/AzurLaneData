@@ -1,5 +1,22 @@
 pg = pg or {}
 pg.equip_data_statistics_58 = {
+	[3210] = {
+		id = 3210,
+		value_1 = "650",
+		base = 3200
+	},
+	[3211] = {
+		id = 3211,
+		anti_siren = 100,
+		value_1 = "680",
+		base = 3200
+	},
+	[3212] = {
+		id = 3212,
+		anti_siren = 200,
+		value_1 = "710",
+		base = 3200
+	},
 	[3213] = {
 		id = 3213,
 		anti_siren = 300,
@@ -145,20 +162,5 @@ pg.equip_data_statistics_58 = {
 			"PRAN",
 			"DEV"
 		}
-	},
-	[3301] = {
-		id = 3301,
-		value_1 = "280",
-		base = 3300
-	},
-	[3302] = {
-		id = 3302,
-		value_1 = "310",
-		base = 3300
-	},
-	[3303] = {
-		id = 3303,
-		value_1 = "340",
-		base = 3300
 	}
 }

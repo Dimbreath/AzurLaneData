@@ -327,6 +327,51 @@ pg.strategy_data_template = {
 		desc = "Your fleet will receive bombardment support, but a mysterious foe also appears in the enemy's fleet.",
 		arg = {}
 	},
+	[8863] = {
+		buff_id = 0,
+		name = "Labyrinth",
+		type = 10,
+		id = 8863,
+		icon = "8863",
+		desc = "A mysterious Siren labyrinth that spans the area.\nEvery time your fleets move a total of 3 times, the labyrinth will shift.",
+		arg = {}
+	},
+	[8864] = {
+		buff_id = 8864,
+		name = "Song of the Sirens",
+		type = 10,
+		id = 8864,
+		icon = "8864",
+		desc = "The Sirens have activated a strong jamming device. During battle, your fleet will be attacked with special barrages with a jamming effect.",
+		arg = {}
+	},
+	[8865] = {
+		buff_id = 8865,
+		name = "Aerial Support",
+		type = 10,
+		id = 8865,
+		icon = "8802",
+		desc = "Currently receiving support from Aquila. Support airstrikes will appear in battle.",
+		arg = {}
+	},
+	[8867] = {
+		buff_id = 8867,
+		name = "Aerial Support",
+		type = 10,
+		id = 8867,
+		icon = "8802",
+		desc = "Currently receiving support from Aquila. Support airstrikes will appear in battle.",
+		arg = {}
+	},
+	[8869] = {
+		buff_id = 8869,
+		name = "Aerial Support",
+		type = 10,
+		id = 8869,
+		icon = "8802",
+		desc = "Currently receiving support from Aquila. Support airstrikes will appear in battle.",
+		arg = {}
+	},
 	[9500] = {
 		buff_id = 9500,
 		name = "Wisdom Cube Reactivity",
@@ -481,6 +526,11 @@ pg.strategy_data_template = {
 		8852,
 		8855,
 		8858,
+		8863,
+		8864,
+		8865,
+		8867,
+		8869,
 		9500,
 		9502,
 		9505,

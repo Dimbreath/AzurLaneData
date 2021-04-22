@@ -1,5 +1,32 @@
 pg = pg or {}
 pg.equip_data_statistics_114 = {
+	[15251] = {
+		anti_siren = 100,
+		damage = "160 x 5",
+		base = 15240,
+		id = 15251,
+		weapon_id = {
+			15251
+		}
+	},
+	[15252] = {
+		anti_siren = 200,
+		damage = "160 x 5",
+		base = 15240,
+		id = 15252,
+		weapon_id = {
+			15252
+		}
+	},
+	[15253] = {
+		anti_siren = 300,
+		damage = "160 x 5",
+		base = 15240,
+		id = 15253,
+		weapon_id = {
+			15253
+		}
+	},
 	[15500] = {
 		name = "PBY-5A Catalina",
 		tech = 0,
@@ -184,84 +211,6 @@ pg.equip_data_statistics_114 = {
 		base = 16000,
 		weapon_id = {
 			16001
-		}
-	},
-	[16002] = {
-		id = 16002,
-		damage = "10/wave",
-		base = 16000,
-		weapon_id = {
-			16002
-		}
-	},
-	[16003] = {
-		id = 16003,
-		damage = "12/wave",
-		base = 16000,
-		weapon_id = {
-			16003
-		}
-	},
-	[16020] = {
-		name = "Single 20mm Oerlikon AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "16000",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "9/wave",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 16020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			16020
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"ST",
-			"AA"
 		}
 	}
 }

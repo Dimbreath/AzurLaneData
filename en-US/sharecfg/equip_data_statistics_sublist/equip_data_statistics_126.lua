@@ -1,5 +1,59 @@
 pg = pg or {}
 pg.equip_data_statistics_126 = {
+	[17084] = {
+		id = 17084,
+		base = 17080,
+		ammo_info = {
+			{
+				6,
+				50344
+			},
+			{
+				5,
+				52144
+			}
+		},
+		weapon_id = {
+			17084,
+			81084
+		}
+	},
+	[17085] = {
+		id = 17085,
+		base = 17080,
+		ammo_info = {
+			{
+				6,
+				50345
+			},
+			{
+				5,
+				52145
+			}
+		},
+		weapon_id = {
+			17085,
+			81085
+		}
+	},
+	[17086] = {
+		id = 17086,
+		base = 17080,
+		ammo_info = {
+			{
+				6,
+				50346
+			},
+			{
+				5,
+				52146
+			}
+		},
+		weapon_id = {
+			17086,
+			81086
+		}
+	},
 	[17087] = {
 		id = 17087,
 		base = 17080,
@@ -285,83 +339,6 @@ pg.equip_data_statistics_126 = {
 		weapon_id = {
 			17124,
 			81124
-		}
-	},
-	[17125] = {
-		id = 17125,
-		base = 17120,
-		ammo_info = {
-			{
-				6,
-				50425
-			}
-		},
-		weapon_id = {
-			17125,
-			81125
-		}
-	},
-	[17126] = {
-		id = 17126,
-		base = 17120,
-		ammo_info = {
-			{
-				6,
-				50426
-			}
-		},
-		weapon_id = {
-			17126,
-			81126
-		}
-	},
-	[17140] = {
-		name = "F4F Wildcat",
-		type = 7,
-		speciality = "Air",
-		rarity = 4,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "17100",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 17140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50440
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			17140,
-			81140
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"FT"
 		}
 	}
 }

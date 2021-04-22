@@ -1,5 +1,86 @@
 pg = pg or {}
 pg.equip_data_statistics_148 = {
+	[21226] = {
+		id = 21226,
+		damage = "7 x 3",
+		base = 21220,
+		weapon_id = {
+			21226
+		}
+	},
+	[21240] = {
+		name = "Triple 102mm Secondary Gun Mount",
+		speciality = "Lock",
+		type = 1,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "21200",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "3 x 3",
+		nationality = 2,
+		ammo = 3,
+		value_3 = 0,
+		id = 21240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1100
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1100
+			},
+			{
+				4,
+				1003
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			21240
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
+	},
+	[21241] = {
+		id = 21241,
+		base = 21240,
+		weapon_id = {
+			21241
+		}
+	},
 	[21242] = {
 		id = 21242,
 		damage = "4 x 3",
@@ -167,87 +248,6 @@ pg.equip_data_statistics_148 = {
 		base = 21300,
 		weapon_id = {
 			21303
-		}
-	},
-	[21320] = {
-		name = "Single 120mm QF Mark IX Naval Gun",
-		speciality = "Lock",
-		type = 1,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "21300",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "4 x 1",
-		nationality = 2,
-		ammo = 3,
-		value_3 = 0,
-		id = 21320,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1100
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1100
-			},
-			{
-				4,
-				1000
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			21320
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"DD",
-			"MG"
-		}
-	},
-	[21321] = {
-		id = 21321,
-		base = 21320,
-		weapon_id = {
-			21321
-		}
-	},
-	[21322] = {
-		id = 21322,
-		damage = "6 x 1",
-		base = 21320,
-		weapon_id = {
-			21322
 		}
 	}
 }

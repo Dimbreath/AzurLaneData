@@ -1,106 +1,27 @@
 pg = pg or {}
 pg.aircraft_template_247 = {
-	[84146] = {
-		id = 84146,
-		base = 84140,
-		max_hp = 80,
-		hp_growth = 3064,
-		weapon_ID = {
-			59146,
-			59246
-		}
-	},
-	[84147] = {
-		id = 84147,
-		base = 84140,
-		max_hp = 86,
-		hp_growth = 3306,
-		weapon_ID = {
-			59147,
-			59247
-		}
-	},
-	[84148] = {
-		id = 84148,
-		base = 84140,
-		max_hp = 92,
-		hp_growth = 3548,
-		weapon_ID = {
-			59148,
-			59248
-		}
-	},
-	[84149] = {
-		id = 84149,
-		base = 84140,
-		max_hp = 99,
-		hp_growth = 3790,
-		weapon_ID = {
-			59149,
-			59249
-		}
-	},
-	[84150] = {
-		id = 84150,
-		base = 84140,
-		max_hp = 105,
-		hp_growth = 4032,
-		weapon_ID = {
-			59150,
-			59250
-		}
-	},
-	[84151] = {
-		id = 84151,
-		base = 84140,
-		max_hp = 111,
-		hp_growth = 4274,
-		weapon_ID = {
-			59151,
-			59251
-		}
-	},
-	[84152] = {
-		id = 84152,
-		base = 84140,
-		max_hp = 117,
-		hp_growth = 4516,
-		weapon_ID = {
-			59152,
-			59252
-		}
-	},
-	[84153] = {
-		id = 84153,
-		base = 84140,
-		max_hp = 124,
-		hp_growth = 4758,
-		weapon_ID = {
-			59153,
-			59253
-		}
-	},
-	[88000] = {
-		name = "GL.2舰载战斗机T0",
-		max_hp = 31,
+	[84100] = {
+		name = "Me-155A舰载战斗机T1",
+		max_hp = 35,
 		accuracy = 23,
-		model_ID = "GL2",
+		model_ID = "Me155A",
 		ACC_growth = 0,
-		crash_DMG = 51,
-		dodge = 0.354,
+		crash_DMG = 65,
+		dodge = 0.339,
 		attack_power = 2,
-		dodge_limit = 8.5,
+		dodge_limit = 9,
 		type = 1,
 		AP_growth = 2000,
-		icon = "GL2",
+		icon = "Me155A",
 		funnel_behavior = "",
-		nationality = 8,
-		hp_growth = 1210,
-		speed = 48,
-		id = 88000,
+		nationality = 4,
+		hp_growth = 1344,
+		speed = 50,
+		id = 84100,
 		scale = 1,
 		weapon_ID = {
-			50020
+			59100,
+			59200
 		},
 		position_offset = {
 			0,
@@ -154,13 +75,159 @@ pg.aircraft_template_247 = {
 			}
 		}
 	},
-	[88001] = {
-		id = 88001,
-		base = 88000,
-		max_hp = 36,
-		hp_growth = 1391,
+	[84101] = {
+		id = 84101,
+		base = 84100,
+		max_hp = 40,
+		hp_growth = 1546,
 		weapon_ID = {
-			50021
+			59101,
+			59201
+		}
+	},
+	[84102] = {
+		id = 84102,
+		base = 84100,
+		max_hp = 45,
+		hp_growth = 1747,
+		weapon_ID = {
+			59102,
+			59202
+		}
+	},
+	[84103] = {
+		id = 84103,
+		base = 84100,
+		max_hp = 51,
+		hp_growth = 1949,
+		weapon_ID = {
+			59103,
+			59203
+		}
+	},
+	[84104] = {
+		id = 84104,
+		base = 84100,
+		max_hp = 56,
+		hp_growth = 2150,
+		weapon_ID = {
+			59104,
+			59204
+		}
+	},
+	[84105] = {
+		id = 84105,
+		base = 84100,
+		max_hp = 61,
+		hp_growth = 2352,
+		weapon_ID = {
+			59105,
+			59205
+		}
+	},
+	[84106] = {
+		id = 84106,
+		base = 84100,
+		max_hp = 66,
+		hp_growth = 2554,
+		weapon_ID = {
+			59106,
+			59206
+		}
+	},
+	[84120] = {
+		name = "Me-155A舰载战斗机T2",
+		max_hp = 38,
+		accuracy = 23,
+		model_ID = "Me155A",
+		ACC_growth = 0,
+		crash_DMG = 65,
+		dodge = 0.327,
+		attack_power = 2,
+		dodge_limit = 9.5,
+		type = 1,
+		AP_growth = 2000,
+		icon = "Me155A",
+		funnel_behavior = "",
+		nationality = 4,
+		hp_growth = 1478,
+		speed = 50,
+		id = 84120,
+		scale = 1,
+		weapon_ID = {
+			59120,
+			59220
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.51,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[84121] = {
+		id = 84121,
+		base = 84120,
+		max_hp = 44,
+		hp_growth = 1700,
+		weapon_ID = {
+			59121,
+			59221
+		}
+	},
+	[84122] = {
+		id = 84122,
+		base = 84120,
+		max_hp = 50,
+		hp_growth = 1922,
+		weapon_ID = {
+			59122,
+			59222
 		}
 	}
 }

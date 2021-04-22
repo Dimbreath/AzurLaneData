@@ -320,7 +320,7 @@ function slot0.RecommShipsForBossBattle(slot0, slot1)
 	slot0.contextData.editBossFleet[slot1]:RemoveAll()
 
 	for slot15, slot16 in pairs(getProxy(BayProxy):getData()) do
-		if not pg.ShipFlagMgr.GetInstance():GetShipFlag(slot16.id, "inEvent") then
+		if not pg.ShipFlagMgr.GetInstance():GetShipFlag(slot16.id, "inEvent") and not slot16:isActivityNpc() then
 			slot16.id = GuildAssaultFleet.GetVirtualId(slot6.id, slot16.id)
 
 			function (slot0, slot1)
@@ -494,6 +494,10 @@ function slot0.SelectBossBattleShip(slot0, slot1, slot2, slot3)
 				return false, i18n("word_shipState_collect")
 			end
 
+			if slot0:isActivityNpc() then
+				return false, i18n("common_npc_formation_tip")
+			end
+
 			return true
 		end,
 		onSelected = function (slot0, slot1)
@@ -527,6 +531,10 @@ function slot0.OnSelectShips(slot0, slot1, slot2, slot3)
 				end
 			end
 
+			if slot0:isActivityNpc() then
+				return false, i18n("common_npc_formation_tip")
+			end
+
 			return true
 		end,
 		onSelected = function (slot0, slot1)
@@ -540,12 +548,15 @@ function slot0.OnCheckMissionShip(slot0, slot1, slot2)
 	slot5 = slot3:getMemberById(getProxy(PlayerProxy):getRawData().id)
 	slot6 = slot5:GetAssaultFleet()
 	slot7 = slot5:GetExternalAssaultFleet()
-	slot8 = slot3:GetActiveEvent()
-	slot9 = slot8:GetJoinShips()
+	slot9 = slot3:GetActiveEvent():GetJoinShips()
 	slot11 = getProxy(BayProxy):getData()
 	slot12 = _.map(slot1, function (slot0)
 		return uv0[slot0]
 	end)
+
+	if slot2:isActivityNpc() then
+		return false, i18n("common_npc_formation_tip")
+	end
 
 	if _.any(slot8:GetMissionById(slot0):GetMyShips(), function (slot0)
 		return uv0[slot0] and uv0[slot0]:isSameKind(uv1)

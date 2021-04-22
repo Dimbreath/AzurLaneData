@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_252 = {
+	[36400] = {
+		name = "Twin 40mm V-Type AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 1,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "36400",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "19/wave",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36400,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			36400
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
+	},
+	[36401] = {
+		id = 36401,
+		damage = "22/wave",
+		base = 36400,
+		weapon_id = {
+			36401
+		}
+	},
+	[36402] = {
+		id = 36402,
+		damage = "25/wave",
+		base = 36400,
+		weapon_id = {
+			36402
+		}
+	},
 	[36403] = {
 		id = 36403,
 		damage = "29/wave",
@@ -218,30 +296,6 @@ pg.equip_data_statistics_252 = {
 		base = 36440,
 		weapon_id = {
 			36445
-		}
-	},
-	[36446] = {
-		id = 36446,
-		damage = "49/wave",
-		base = 36440,
-		weapon_id = {
-			36446
-		}
-	},
-	[36447] = {
-		id = 36447,
-		damage = "53/wave",
-		base = 36440,
-		weapon_id = {
-			36447
-		}
-	},
-	[36448] = {
-		id = 36448,
-		damage = "57/wave",
-		base = 36440,
-		weapon_id = {
-			36448
 		}
 	}
 }

@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.aircraft_template_65 = {
+	[28150] = {
+		id = 28150,
+		base = 28140,
+		max_hp = 95,
+		hp_growth = 3648,
+		weapon_ID = {
+			50050,
+			51150
+		}
+	},
+	[28151] = {
+		id = 28151,
+		base = 28140,
+		max_hp = 101,
+		hp_growth = 3867,
+		weapon_ID = {
+			50051,
+			51151
+		}
+	},
+	[28152] = {
+		id = 28152,
+		base = 28140,
+		max_hp = 106,
+		hp_growth = 4086,
+		weapon_ID = {
+			50052,
+			51152
+		}
+	},
+	[28153] = {
+		id = 28153,
+		base = 28140,
+		max_hp = 112,
+		hp_growth = 4305,
+		weapon_ID = {
+			50053,
+			51153
+		}
+	},
 	[28160] = {
 		name = "剑鱼(818中队)",
 		max_hp = 38,
@@ -123,46 +163,6 @@ pg.aircraft_template_65 = {
 		weapon_ID = {
 			50045,
 			51065
-		}
-	},
-	[28166] = {
-		id = 28166,
-		base = 28160,
-		max_hp = 72,
-		hp_growth = 2772,
-		weapon_ID = {
-			50046,
-			51066
-		}
-	},
-	[28167] = {
-		id = 28167,
-		base = 28160,
-		max_hp = 78,
-		hp_growth = 2991,
-		weapon_ID = {
-			50047,
-			51067
-		}
-	},
-	[28168] = {
-		id = 28168,
-		base = 28160,
-		max_hp = 83,
-		hp_growth = 3210,
-		weapon_ID = {
-			50048,
-			51068
-		}
-	},
-	[28169] = {
-		id = 28169,
-		base = 28160,
-		max_hp = 89,
-		hp_growth = 3429,
-		weapon_ID = {
-			50049,
-			51069
 		}
 	}
 }

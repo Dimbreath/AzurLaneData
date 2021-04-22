@@ -1,5 +1,56 @@
 pg = pg or {}
 pg.equip_data_statistics_321 = {
+	[48028] = {
+		id = 48028,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59768
+			},
+			{
+				4,
+				59688
+			}
+		},
+		weapon_id = {
+			48028
+		}
+	},
+	[48029] = {
+		id = 48029,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59769
+			},
+			{
+				4,
+				59689
+			}
+		},
+		weapon_id = {
+			48029
+		}
+	},
+	[48030] = {
+		id = 48030,
+		base = 48020,
+		ammo_info = {
+			{
+				6,
+				59770
+			},
+			{
+				4,
+				59690
+			}
+		},
+		weapon_id = {
+			48030
+		}
+	},
 	[48031] = {
 		anti_siren = 100,
 		base = 48020,
@@ -274,101 +325,6 @@ pg.equip_data_statistics_321 = {
 		},
 		weapon_id = {
 			48052
-		}
-	},
-	[48053] = {
-		anti_siren = 300,
-		base = 48040,
-		id = 48053,
-		ammo_info = {
-			{
-				6,
-				59353
-			},
-			{
-				4,
-				59713
-			}
-		},
-		weapon_id = {
-			48053
-		}
-	},
-	[49000] = {
-		name = "Ju-87C Dive Bomber",
-		type = 9,
-		speciality = "Bomber",
-		rarity = 2,
-		tech = 1,
-		descrip = "The ship-faring version of the Ju-87, the Ironblood's most widely used dive bomber. Also known as the 'Stuka'.",
-		value_2 = 5,
-		icon = "49000",
-		attribute_2 = "air",
-		nationality = 4,
-		ammo = 5,
-		value_3 = 0,
-		id = 49000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				59300
-			},
-			{
-				5,
-				52600
-			},
-			{
-				5,
-				53000
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			49000
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CV",
-			"DB"
-		}
-	},
-	[49001] = {
-		id = 49001,
-		base = 49000,
-		ammo_info = {
-			{
-				6,
-				59301
-			},
-			{
-				5,
-				52601
-			},
-			{
-				5,
-				53001
-			}
-		},
-		weapon_id = {
-			49001
 		}
 	}
 }

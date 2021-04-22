@@ -1,5 +1,102 @@
 pg = pg or {}
 pg.equip_data_statistics_139 = {
+	[19000] = {
+		name = "SBD Dauntless",
+		tech = 1,
+		speciality = "Bomber",
+		type = 9,
+		rarity = 1,
+		descrip = "No description",
+		value_2 = 0,
+		icon = "19000",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 19000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50700
+			},
+			{
+				5,
+				52900
+			},
+			{
+				5,
+				52100
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			19000
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
+	},
+	[19001] = {
+		id = 19001,
+		base = 19000,
+		ammo_info = {
+			{
+				6,
+				50701
+			},
+			{
+				5,
+				52901
+			},
+			{
+				5,
+				52101
+			}
+		},
+		weapon_id = {
+			19001
+		}
+	},
+	[19002] = {
+		id = 19002,
+		base = 19000,
+		ammo_info = {
+			{
+				6,
+				50702
+			},
+			{
+				5,
+				52902
+			},
+			{
+				5,
+				52102
+			}
+		},
+		weapon_id = {
+			19002
+		}
+	},
 	[19003] = {
 		id = 19003,
 		base = 19000,
@@ -395,57 +492,6 @@ pg.equip_data_statistics_139 = {
 			"USS",
 			"CV",
 			"DB"
-		}
-	},
-	[19061] = {
-		id = 19061,
-		base = 19060,
-		ammo_info = {
-			{
-				5,
-				52961
-			},
-			{
-				5,
-				52161
-			}
-		},
-		weapon_id = {
-			19061
-		}
-	},
-	[19062] = {
-		id = 19062,
-		base = 19060,
-		ammo_info = {
-			{
-				5,
-				52962
-			},
-			{
-				5,
-				52162
-			}
-		},
-		weapon_id = {
-			19062
-		}
-	},
-	[19063] = {
-		id = 19063,
-		base = 19060,
-		ammo_info = {
-			{
-				5,
-				52963
-			},
-			{
-				5,
-				52163
-			}
-		},
-		weapon_id = {
-			19063
 		}
 	}
 }

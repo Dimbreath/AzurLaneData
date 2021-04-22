@@ -80,6 +80,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Clear Challenge Mode for the first time to obtain.</color>\n（21.01.21-21.04.21）",
 		scene = {}
 	},
+	[208] = {
+		name = "Achievement Chat Bubbles",
+		time_second = 0,
+		id = 208,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Clear Challenge Mode for the first time to obtain.</color>\n（21.04.22-21.07.18）",
+		scene = {}
+	},
 	[300] = {
 		name = "Leader ",
 		time_second = 2592000,
@@ -197,7 +205,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 314,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>Obtained from a subsequent event</color>",
+		desc = "<color=#ffffff>\"Come, and become a pillar for our reborn empire! Let us seize glory together! \"</color> \nObtained from the \"Daedalian Hymn\" Prelude event.",
 		scene = {}
 	},
 	[501] = {
@@ -219,6 +227,7 @@ pg.item_data_frame = {
 		205,
 		206,
 		207,
+		208,
 		300,
 		301,
 		302,

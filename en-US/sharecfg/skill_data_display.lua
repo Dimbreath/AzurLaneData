@@ -794,7 +794,7 @@ pg.skill_data_display = {
 	},
 	[8832] = {
 		id = 8832,
-		name = "火力支援"
+		name = "Artillery Support "
 	},
 	[8844] = {
 		id = 8844,
@@ -819,6 +819,22 @@ pg.skill_data_display = {
 	[8859] = {
 		id = 8859,
 		name = "Renegade Sniper"
+	},
+	[8860] = {
+		id = 8860,
+		name = "Song of the Sirens"
+	},
+	[8865] = {
+		id = 8865,
+		name = "Aerial Support"
+	},
+	[8867] = {
+		id = 8867,
+		name = "Aerial Support"
+	},
+	[8869] = {
+		id = 8869,
+		name = "Aerial Support"
 	},
 	[9010] = {
 		id = 9010,
@@ -3636,6 +3652,142 @@ pg.skill_data_display = {
 		id = 14301,
 		name = "Dutiful Support"
 	},
+	[14310] = {
+		id = 14310,
+		name = "The Eternal Flagship"
+	},
+	[14311] = {
+		id = 14311,
+		name = "The Eternal Flagship"
+	},
+	[14320] = {
+		id = 14320,
+		name = "Eternal Light of Sardegna"
+	},
+	[14330] = {
+		id = 14330,
+		name = "Banner of Splendor"
+	},
+	[14331] = {
+		id = 14331,
+		name = "Banner of Splendor"
+	},
+	[14340] = {
+		id = 14340,
+		name = "Halo of Flames"
+	},
+	[14341] = {
+		id = 14341,
+		name = "Halo of Flames"
+	},
+	[14350] = {
+		id = 14350,
+		name = "Solemn Zealotry"
+	},
+	[14360] = {
+		id = 14360,
+		name = "Just a Scratch"
+	},
+	[14361] = {
+		id = 14361,
+		name = "Just a Scratch"
+	},
+	[14362] = {
+		id = 14362,
+		name = "Just a Scratch"
+	},
+	[14370] = {
+		id = 14370,
+		name = "Freccia dell'Aquila"
+	},
+	[14380] = {
+		id = 14380,
+		name = "Rain of Starlight"
+	},
+	[14381] = {
+		id = 14381,
+		name = "Rain of Starlight"
+	},
+	[14382] = {
+		id = 14382,
+		name = "Rain of Starlight"
+	},
+	[14390] = {
+		id = 14390,
+		name = "Disarming but Deadly"
+	},
+	[14391] = {
+		id = 14391,
+		name = "Disarming but Deadly"
+	},
+	[14400] = {
+		id = 14400,
+		name = "The Northwesterly Wind"
+	},
+	[14401] = {
+		id = 14401,
+		name = "The Northwesterly Wind"
+	},
+	[14410] = {
+		id = 14410,
+		name = "Northwesterly Ace Student"
+	},
+	[14420] = {
+		id = 14420,
+		name = "The Southwesterly Wind"
+	},
+	[14422] = {
+		id = 14422,
+		name = "The Southwesterly Wind"
+	},
+	[14430] = {
+		id = 14430,
+		name = "Southwesterly Sailor"
+	},
+	[14440] = {
+		id = 14440,
+		name = "The Exploration Sensation"
+	},
+	[14441] = {
+		id = 14441,
+		name = "The Exploration Sensation"
+	},
+	[14450] = {
+		id = 14450,
+		name = "Navigator's Intrepidity"
+	},
+	[14460] = {
+		id = 14460,
+		name = "Turn the Tide"
+	},
+	[14461] = {
+		id = 14461,
+		name = "Turn the Tide"
+	},
+	[14472] = {
+		id = 14472,
+		name = "Absolute Adaptability"
+	},
+	[14473] = {
+		id = 14473,
+		name = "Absolute Adaptability"
+	},
+	[14474] = {
+		id = 14474,
+		name = "Absolute Adaptability"
+	},
+	[14475] = {
+		id = 14475,
+		name = "Absolute Adaptability"
+	},
+	[14480] = {
+		id = 14480,
+		name = "Prescient Planning"
+	},
+	[14481] = {
+		id = 14481,
+		name = "Prescient Planning"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -5882,6 +6034,10 @@ pg.skill_data_display = {
 		8853,
 		8856,
 		8859,
+		8860,
+		8865,
+		8867,
+		8869,
 		9010,
 		9020,
 		9030,
@@ -6586,6 +6742,40 @@ pg.skill_data_display = {
 		14291,
 		14300,
 		14301,
+		14310,
+		14311,
+		14320,
+		14330,
+		14331,
+		14340,
+		14341,
+		14350,
+		14360,
+		14361,
+		14362,
+		14370,
+		14380,
+		14381,
+		14382,
+		14390,
+		14391,
+		14400,
+		14401,
+		14410,
+		14420,
+		14422,
+		14430,
+		14440,
+		14441,
+		14450,
+		14460,
+		14461,
+		14472,
+		14473,
+		14474,
+		14475,
+		14480,
+		14481,
 		18010,
 		18040,
 		18041,

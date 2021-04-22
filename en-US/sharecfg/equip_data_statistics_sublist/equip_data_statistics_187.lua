@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_187 = {
+	[26527] = {
+		id = 26527,
+		damage = "91/wave",
+		base = 26520,
+		weapon_id = {
+			26527
+		}
+	},
+	[26528] = {
+		id = 26528,
+		damage = "98/wave",
+		base = 26520,
+		weapon_id = {
+			26528
+		}
+	},
+	[26529] = {
+		id = 26529,
+		damage = "105/wave",
+		base = 26520,
+		weapon_id = {
+			26529
+		}
+	},
 	[26530] = {
 		id = 26530,
 		damage = "112/wave",
@@ -166,86 +190,6 @@ pg.equip_data_statistics_187 = {
 		id = 26552,
 		weapon_id = {
 			26552
-		}
-	},
-	[26553] = {
-		anti_siren = 300,
-		damage = "130/wave",
-		base = 26540,
-		id = 26553,
-		weapon_id = {
-			26553
-		}
-	},
-	[26600] = {
-		name = "Twin 40mm Bofors STAAG",
-		speciality = "Anti-Air",
-		type = 6,
-		attribute_3 = "hit",
-		tech = 0,
-		value_2 = 45,
-		icon = "26600",
-		attribute_2 = "antiaircraft",
-		descrip = "No description",
-		rarity = 5,
-		damage = "38/wave",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 10,
-		id = 26600,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			26600
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"ST",
-			"AA"
-		}
-	},
-	[26601] = {
-		id = 26601,
-		damage = "43/wave",
-		base = 26600,
-		weapon_id = {
-			26601
 		}
 	}
 }

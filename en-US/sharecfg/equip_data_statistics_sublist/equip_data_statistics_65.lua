@@ -1,5 +1,75 @@
 pg = pg or {}
 pg.equip_data_statistics_65 = {
+	[4200] = {
+		name = "Swordfish Mk II-ASV (ASW)",
+		type = 15,
+		speciality = "Anti\nsubmarine",
+		rarity = 2,
+		tech = 1,
+		descrip = "An ASV-carrying Swordfish featuring additional hardpoints.",
+		value_2 = 5,
+		icon = "4200",
+		attribute_2 = "antisub",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 4200,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				8,
+				53100
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			4200
+		},
+		skill_id = {},
+		part_main = {
+			6
+		},
+		part_sub = {
+			6
+		},
+		equip_parameters = {},
+		label = {
+			"ASA"
+		}
+	},
+	[4201] = {
+		id = 4201,
+		base = 4200,
+		ammo_info = {
+			{
+				8,
+				53101
+			}
+		},
+		weapon_id = {
+			4201
+		}
+	},
+	[4202] = {
+		id = 4202,
+		base = 4200,
+		ammo_info = {
+			{
+				8,
+				53102
+			}
+		},
+		weapon_id = {
+			4202
+		}
+	},
 	[4203] = {
 		id = 4203,
 		base = 4200,
@@ -242,45 +312,6 @@ pg.equip_data_statistics_65 = {
 		},
 		weapon_id = {
 			4245
-		}
-	},
-	[4246] = {
-		id = 4246,
-		base = 4240,
-		ammo_info = {
-			{
-				8,
-				53146
-			}
-		},
-		weapon_id = {
-			4246
-		}
-	},
-	[4247] = {
-		id = 4247,
-		base = 4240,
-		ammo_info = {
-			{
-				8,
-				53147
-			}
-		},
-		weapon_id = {
-			4247
-		}
-	},
-	[4248] = {
-		id = 4248,
-		base = 4240,
-		ammo_info = {
-			{
-				8,
-				53148
-			}
-		},
-		weapon_id = {
-			4248
 		}
 	}
 }

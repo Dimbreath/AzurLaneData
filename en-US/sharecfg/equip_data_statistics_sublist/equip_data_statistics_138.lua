@@ -1,5 +1,68 @@
 pg = pg or {}
 pg.equip_data_statistics_138 = {
+	[18191] = {
+		anti_siren = 100,
+		base = 18180,
+		id = 18191,
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				4,
+				59631
+			}
+		},
+		weapon_id = {
+			18191
+		},
+		skill_id = {
+			6801
+		}
+	},
+	[18192] = {
+		anti_siren = 200,
+		base = 18180,
+		id = 18192,
+		ammo_info = {
+			{
+				6,
+				50052
+			},
+			{
+				4,
+				59632
+			}
+		},
+		weapon_id = {
+			18192
+		},
+		skill_id = {
+			6802
+		}
+	},
+	[18193] = {
+		anti_siren = 300,
+		base = 18180,
+		id = 18193,
+		ammo_info = {
+			{
+				6,
+				50053
+			},
+			{
+				4,
+				59633
+			}
+		},
+		weapon_id = {
+			18193
+		},
+		skill_id = {
+			6803
+		}
+	},
 	[18220] = {
 		name = "XTB2D-1 Skypirate",
 		type = 8,
@@ -274,103 +337,6 @@ pg.equip_data_statistics_138 = {
 		},
 		weapon_id = {
 			18233
-		}
-	},
-	[19000] = {
-		name = "SBD Dauntless",
-		tech = 1,
-		speciality = "Bomber",
-		type = 9,
-		rarity = 1,
-		descrip = "No description",
-		value_2 = 0,
-		icon = "19000",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 19000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50700
-			},
-			{
-				5,
-				52900
-			},
-			{
-				5,
-				52100
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			19000
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"DB"
-		}
-	},
-	[19001] = {
-		id = 19001,
-		base = 19000,
-		ammo_info = {
-			{
-				6,
-				50701
-			},
-			{
-				5,
-				52901
-			},
-			{
-				5,
-				52101
-			}
-		},
-		weapon_id = {
-			19001
-		}
-	},
-	[19002] = {
-		id = 19002,
-		base = 19000,
-		ammo_info = {
-			{
-				6,
-				50702
-			},
-			{
-				5,
-				52902
-			},
-			{
-				5,
-				52102
-			}
-		},
-		weapon_id = {
-			19002
 		}
 	}
 }

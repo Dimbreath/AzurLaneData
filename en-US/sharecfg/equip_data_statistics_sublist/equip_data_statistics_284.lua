@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_284 = {
+	[41148] = {
+		id = 41148,
+		damage = "9 x 4",
+		base = 41140,
+		weapon_id = {
+			41148
+		}
+	},
+	[41149] = {
+		id = 41149,
+		damage = "10 x 4",
+		base = 41140,
+		weapon_id = {
+			41149
+		}
+	},
+	[41150] = {
+		id = 41150,
+		damage = "11 x 4",
+		base = 41140,
+		weapon_id = {
+			41150
+		}
+	},
 	[41151] = {
 		anti_siren = 100,
 		damage = "11 x 4",
@@ -173,83 +197,6 @@ pg.equip_data_statistics_284 = {
 		id = 41172,
 		weapon_id = {
 			41172
-		}
-	},
-	[41173] = {
-		anti_siren = 300,
-		damage = "16 x 4",
-		base = 41160,
-		id = 41173,
-		weapon_id = {
-			41173
-		}
-	},
-	[42000] = {
-		name = "Single 150mm SK C/28 Main Gun Mount",
-		speciality = "Lock",
-		type = 2,
-		tech = 1,
-		descrip = "The Single 150mm SK C/28 Main Gun Mount may be used by light cruisers and most destroyers.",
-		value_2 = 5,
-		icon = "42000",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "7 x 1",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 42000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1304
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1304
-			},
-			{
-				4,
-				1000
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			42000
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CL",
-			"MG",
-			"AP"
-		}
-	},
-	[42001] = {
-		id = 42001,
-		damage = "8 x 1",
-		base = 42000,
-		weapon_id = {
-			42001
 		}
 	}
 }

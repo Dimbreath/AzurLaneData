@@ -132,6 +132,7 @@ function slot8.InitData(slot0, slot1)
 	slot0._foeShipList = {}
 	slot0._friendlyAircraftList = {}
 	slot0._foeAircraftList = {}
+	slot0._spectreShipList = {}
 	slot0._fleetList = {}
 	slot0._freeShipList = {}
 	slot0._teamList = {}
@@ -353,6 +354,7 @@ function slot8.Clear(slot0)
 	slot0._flagShipUnit = nil
 	slot0._friendlyShipList = nil
 	slot0._foeShipList = nil
+	slot0._spectreShipList = nil
 	slot0._friendlyAircraftList = nil
 	slot0._foeAircraftList = nil
 	slot0._fleetList = nil
@@ -574,18 +576,22 @@ function slot8.updateLoop(slot0, slot1)
 	}
 
 	for slot6, slot7 in pairs(slot0._unitList) do
-		if slot0.checkCld then
-			slot0._cldSystem:UpdateShipCldTree(slot7)
-		end
-
-		if slot7:IsAlive() then
+		if slot7:IsSpectre() then
 			slot7:Update(slot1)
-		end
+		else
+			if slot0.checkCld then
+				slot0._cldSystem:UpdateShipCldTree(slot7)
+			end
 
-		if slot7:GetIFF() == uv0.FRIENDLY_CODE then
-			slot2[slot9] = math.max(slot2[slot9], slot7:GetPosition().x)
-		elseif slot9 == uv0.FOE_CODE then
-			slot2[slot9] = math.min(slot2[slot9], slot8)
+			if slot7:IsAlive() then
+				slot7:Update(slot1)
+			end
+
+			if slot7:GetIFF() == uv0.FRIENDLY_CODE then
+				slot2[slot9] = math.max(slot2[slot9], slot7:GetPosition().x)
+			elseif slot9 == uv0.FOE_CODE then
+				slot2[slot9] = math.min(slot2[slot9], slot8)
+			end
 		end
 	end
 
@@ -796,14 +802,23 @@ function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._freeShipList[slot6] = slot11
 	slot0._unitList[slot6] = slot11
 
-	slot0._cldSystem:InitShipCld(slot11)
+	if slot11:IsSpectre() then
+		slot11:SetBlindInvisible(true)
+	else
+		slot0._cldSystem:InitShipCld(slot11)
+	end
+
 	slot11:SummonSickness(uv3.SUMMONING_SICKNESS_DURATION)
 	slot11:SetMoveCast(slot1.moveCast == true)
 
 	if slot11:GetIFF() == uv4.FRIENDLY_CODE then
 		slot0._friendlyShipList[slot6] = slot11
 	else
-		slot0._foeShipList[slot6] = slot11
+		if slot11:IsSpectre() then
+			slot0._spectreShipList[slot6] = slot11
+		else
+			slot0._foeShipList[slot6] = slot11
+		end
 
 		slot11:SetWaveIndex(slot2)
 	end
@@ -1001,9 +1016,12 @@ function slot8.KillUnit(slot0, slot1)
 		slot0._freeShipList[slot1] = nil
 	end
 
+	slot4 = slot2:GetIFF()
 	slot5 = slot2:GetDeathReason()
 
-	if slot2:GetIFF() == uv0.FOE_CODE then
+	if slot2:IsSpectre() then
+		slot0._spectreShipList[slot1] = nil
+	elseif slot4 == uv0.FOE_CODE then
 		slot0._foeShipList[slot1] = nil
 
 		if slot3 == uv1.UnitType.ENEMY_UNIT or slot3 == uv1.UnitType.BOSS_UNIT or slot3 == uv1.UnitType.NPC_UNIT then
@@ -1658,8 +1676,8 @@ function slot8.SpawnEnvironment(slot0, slot1)
 		slot1 = {}
 
 		for slot5, slot6 in ipairs(slot0) do
-			if slot6.Active then
-				table.insert(slot1, uv0._unitList[slot6.UID])
+			if slot6.Active and not uv0._unitList[slot6.UID]:IsSpectre() then
+				table.insert(slot1, slot7)
 			end
 		end
 

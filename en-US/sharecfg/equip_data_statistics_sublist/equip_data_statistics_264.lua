@@ -1,5 +1,104 @@
 pg = pg or {}
 pg.equip_data_statistics_264 = {
+	[37252] = {
+		anti_siren = 200,
+		base = 37240,
+		id = 37252,
+		ammo_info = {
+			{
+				6,
+				50052
+			},
+			{
+				6,
+				50552
+			},
+			{
+				5,
+				52152
+			}
+		},
+		weapon_id = {
+			37252,
+			83252
+		}
+	},
+	[37253] = {
+		anti_siren = 300,
+		base = 37240,
+		id = 37253,
+		ammo_info = {
+			{
+				6,
+				50053
+			},
+			{
+				6,
+				50553
+			},
+			{
+				5,
+				52153
+			}
+		},
+		weapon_id = {
+			37253,
+			83253
+		}
+	},
+	[37300] = {
+		name = "A7M Reppuu",
+		type = 7,
+		speciality = "Air",
+		rarity = 3,
+		tech = 1,
+		descrip = "The Mitsubishi A7M Reppuu is equipped with 4 20mm guns and 2 500-pound bombs.",
+		value_2 = 12,
+		icon = "37300",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 37300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59500
+			},
+			{
+				5,
+				52300
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			37300,
+			83300
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
+	},
 	[37301] = {
 		id = 37301,
 		base = 37300,
@@ -285,60 +384,6 @@ pg.equip_data_statistics_264 = {
 		weapon_id = {
 			37327,
 			83327
-		}
-	},
-	[37328] = {
-		id = 37328,
-		base = 37320,
-		ammo_info = {
-			{
-				6,
-				59528
-			},
-			{
-				5,
-				52328
-			}
-		},
-		weapon_id = {
-			37328,
-			83328
-		}
-	},
-	[37329] = {
-		id = 37329,
-		base = 37320,
-		ammo_info = {
-			{
-				6,
-				59529
-			},
-			{
-				5,
-				52329
-			}
-		},
-		weapon_id = {
-			37329,
-			83329
-		}
-	},
-	[37330] = {
-		id = 37330,
-		base = 37320,
-		ammo_info = {
-			{
-				6,
-				59530
-			},
-			{
-				5,
-				52330
-			}
-		},
-		weapon_id = {
-			37330,
-			83330
 		}
 	}
 }

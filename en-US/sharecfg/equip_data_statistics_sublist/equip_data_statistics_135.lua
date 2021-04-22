@@ -1,5 +1,56 @@
 pg = pg or {}
 pg.equip_data_statistics_135 = {
+	[18045] = {
+		id = 18045,
+		base = 18040,
+		ammo_info = {
+			{
+				6,
+				50045
+			},
+			{
+				4,
+				51045
+			}
+		},
+		weapon_id = {
+			18045
+		}
+	},
+	[18046] = {
+		id = 18046,
+		base = 18040,
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				4,
+				51046
+			}
+		},
+		weapon_id = {
+			18046
+		}
+	},
+	[18047] = {
+		id = 18047,
+		base = 18040,
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				4,
+				51047
+			}
+		},
+		weapon_id = {
+			18047
+		}
+	},
 	[18060] = {
 		name = "TBD Devastator (VT-8 Squadron) ",
 		type = 8,
@@ -315,92 +366,6 @@ pg.equip_data_statistics_135 = {
 		},
 		skill_id = {
 			6333
-		}
-	},
-	[18100] = {
-		name = "TBF Avenger",
-		type = 8,
-		speciality = "Torpedo",
-		rarity = 2,
-		tech = 1,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "18100",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 18100,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50000
-			},
-			{
-				4,
-				51100
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			18100
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"TB"
-		}
-	},
-	[18101] = {
-		id = 18101,
-		base = 18100,
-		ammo_info = {
-			{
-				6,
-				50001
-			},
-			{
-				4,
-				51101
-			}
-		},
-		weapon_id = {
-			18101
-		}
-	},
-	[18102] = {
-		id = 18102,
-		base = 18100,
-		ammo_info = {
-			{
-				6,
-				50002
-			},
-			{
-				4,
-				51102
-			}
-		},
-		weapon_id = {
-			18102
 		}
 	}
 }

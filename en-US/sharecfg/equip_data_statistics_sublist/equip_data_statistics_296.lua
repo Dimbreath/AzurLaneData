@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.equip_data_statistics_296 = {
+	[44049] = {
+		id = 44049,
+		damage = "84 x 3",
+		base = 44040,
+		weapon_id = {
+			44049
+		}
+	},
+	[44050] = {
+		id = 44050,
+		damage = "88 x 3",
+		base = 44040,
+		weapon_id = {
+			44050
+		}
+	},
+	[44051] = {
+		anti_siren = 100,
+		damage = "88 x 3",
+		base = 44040,
+		id = 44051,
+		weapon_id = {
+			44051
+		}
+	},
 	[44100] = {
 		name = "Twin 380mm SK C/34 Main Gun Mount",
 		speciality = "Volley",
@@ -199,30 +224,6 @@ pg.equip_data_statistics_296 = {
 		base = 44120,
 		weapon_id = {
 			44126
-		}
-	},
-	[44127] = {
-		id = 44127,
-		damage = "100 x 2",
-		base = 44120,
-		weapon_id = {
-			44127
-		}
-	},
-	[44128] = {
-		id = 44128,
-		damage = "107 x 2",
-		base = 44120,
-		weapon_id = {
-			44128
-		}
-	},
-	[44129] = {
-		id = 44129,
-		damage = "114 x 2",
-		base = 44120,
-		weapon_id = {
-			44129
 		}
 	}
 }

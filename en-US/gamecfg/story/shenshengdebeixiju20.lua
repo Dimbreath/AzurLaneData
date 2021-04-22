@@ -96,9 +96,10 @@ return {
 		},
 		{
 			actor = 900198,
-			side = 2,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "(Uhh... that last line didn't seem necessary...)",
 			typewriter = {
 				speed = 0.05,

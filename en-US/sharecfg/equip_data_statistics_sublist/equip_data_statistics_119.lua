@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_119 = {
+	[16165] = {
+		id = 16165,
+		damage = "37/wave",
+		base = 16160,
+		weapon_id = {
+			16165
+		}
+	},
+	[16166] = {
+		id = 16166,
+		damage = "40/wave",
+		base = 16160,
+		weapon_id = {
+			16166
+		}
+	},
+	[16167] = {
+		id = 16167,
+		damage = "43/wave",
+		base = 16160,
+		weapon_id = {
+			16167
+		}
+	},
 	[16168] = {
 		id = 16168,
 		damage = "46/wave",
@@ -219,84 +243,6 @@ pg.equip_data_statistics_119 = {
 		base = 16220,
 		weapon_id = {
 			16225
-		}
-	},
-	[16226] = {
-		id = 16226,
-		damage = "50/wave",
-		base = 16220,
-		weapon_id = {
-			16226
-		}
-	},
-	[16240] = {
-		name = "Quadruple 28mm \"Chicago Piano\" AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "16200",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "29/wave",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 16240,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			16240
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"ST",
-			"AA"
-		}
-	},
-	[16241] = {
-		id = 16241,
-		damage = "33/wave",
-		base = 16240,
-		weapon_id = {
-			16241
 		}
 	}
 }

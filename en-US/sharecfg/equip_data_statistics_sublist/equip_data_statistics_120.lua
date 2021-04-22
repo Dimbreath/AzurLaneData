@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_120 = {
+	[16226] = {
+		id = 16226,
+		damage = "50/wave",
+		base = 16220,
+		weapon_id = {
+			16226
+		}
+	},
+	[16240] = {
+		name = "Quadruple 28mm \"Chicago Piano\" AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "16200",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "29/wave",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 16240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			16240
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
+	},
+	[16241] = {
+		id = 16241,
+		damage = "33/wave",
+		base = 16240,
+		weapon_id = {
+			16241
+		}
+	},
 	[16242] = {
 		id = 16242,
 		damage = "37/wave",
@@ -165,84 +243,6 @@ pg.equip_data_statistics_120 = {
 		base = 16300,
 		weapon_id = {
 			16303
-		}
-	},
-	[16320] = {
-		name = "Twin 40mm Bofors AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "16300",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "23/wave",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 16320,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			16320
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"ST",
-			"AA"
-		}
-	},
-	[16321] = {
-		id = 16321,
-		damage = "26/wave",
-		base = 16320,
-		weapon_id = {
-			16321
-		}
-	},
-	[16322] = {
-		id = 16322,
-		damage = "29/wave",
-		base = 16320,
-		weapon_id = {
-			16322
 		}
 	}
 }

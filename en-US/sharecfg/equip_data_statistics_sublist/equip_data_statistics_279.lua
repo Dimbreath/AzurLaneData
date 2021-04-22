@@ -1,5 +1,103 @@
 pg = pg or {}
 pg.equip_data_statistics_279 = {
+	[39240] = {
+		name = "Aichi E16A Zuiun",
+		type = 12,
+		speciality = "Bomber",
+		rarity = 4,
+		tech = 3,
+		descrip = "The Aichi E16A Zuiun is a reconnaissance aircraft equipped with 2 20mm guns, a 13mm gun and a 500-pound bomb.",
+		value_2 = 25,
+		icon = "39200",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 39240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50540
+			},
+			{
+				6,
+				50840
+			},
+			{
+				5,
+				52240
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			39240
+		},
+		skill_id = {},
+		part_main = {
+			10,
+			17
+		},
+		part_sub = {
+			10,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		}
+	},
+	[39241] = {
+		id = 39241,
+		base = 39240,
+		ammo_info = {
+			{
+				6,
+				50541
+			},
+			{
+				6,
+				50841
+			},
+			{
+				5,
+				52241
+			}
+		},
+		weapon_id = {
+			39241
+		}
+	},
+	[39242] = {
+		id = 39242,
+		base = 39240,
+		ammo_info = {
+			{
+				6,
+				50542
+			},
+			{
+				6,
+				50842
+			},
+			{
+				5,
+				52242
+			}
+		},
+		weapon_id = {
+			39242
+		}
+	},
 	[39243] = {
 		id = 39243,
 		base = 39240,
@@ -310,57 +408,6 @@ pg.equip_data_statistics_279 = {
 		},
 		weapon_id = {
 			39304
-		}
-	},
-	[39305] = {
-		id = 39305,
-		base = 39300,
-		ammo_info = {
-			{
-				6,
-				50845
-			},
-			{
-				5,
-				53265
-			}
-		},
-		weapon_id = {
-			39305
-		}
-	},
-	[39306] = {
-		id = 39306,
-		base = 39300,
-		ammo_info = {
-			{
-				6,
-				50846
-			},
-			{
-				5,
-				53266
-			}
-		},
-		weapon_id = {
-			39306
-		}
-	},
-	[39307] = {
-		id = 39307,
-		base = 39300,
-		ammo_info = {
-			{
-				6,
-				50847
-			},
-			{
-				5,
-				53267
-			}
-		},
-		weapon_id = {
-			39307
 		}
 	}
 }

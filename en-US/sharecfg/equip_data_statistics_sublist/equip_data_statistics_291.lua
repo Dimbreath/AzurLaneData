@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_291 = {
+	[43004] = {
+		id = 43004,
+		damage = "33 x 6",
+		base = 43000,
+		weapon_id = {
+			43004
+		}
+	},
+	[43005] = {
+		id = 43005,
+		damage = "35 x 6",
+		base = 43000,
+		weapon_id = {
+			43005
+		}
+	},
+	[43006] = {
+		id = 43006,
+		damage = "37 x 6",
+		base = 43000,
+		weapon_id = {
+			43006
+		}
+	},
 	[43020] = {
 		name = "Twin 203mm (SK C/34)",
 		speciality = "Lock",
@@ -212,30 +236,6 @@ pg.equip_data_statistics_291 = {
 		base = 43040,
 		weapon_id = {
 			43042
-		}
-	},
-	[43043] = {
-		id = 43043,
-		damage = "36 x 6",
-		base = 43040,
-		weapon_id = {
-			43043
-		}
-	},
-	[43044] = {
-		id = 43044,
-		damage = "38 x 6",
-		base = 43040,
-		weapon_id = {
-			43044
-		}
-	},
-	[43045] = {
-		id = 43045,
-		damage = "40 x 6",
-		base = 43040,
-		weapon_id = {
-			43045
 		}
 	}
 }

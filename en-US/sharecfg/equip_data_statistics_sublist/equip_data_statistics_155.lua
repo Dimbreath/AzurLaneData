@@ -1,5 +1,81 @@
 pg = pg or {}
 pg.equip_data_statistics_155 = {
+	[22060] = {
+		name = "Twin 152mm Secondary Gun Mount",
+		speciality = "Lock",
+		type = 2,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "22060",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "10 x 4",
+		nationality = 2,
+		ammo = 2,
+		value_3 = 0,
+		id = 22060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1107
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1107
+			},
+			{
+				4,
+				1101
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			22060
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CL",
+			"MG",
+			"HE"
+		}
+	},
+	[22061] = {
+		id = 22061,
+		damage = "11 x 4",
+		base = 22060,
+		weapon_id = {
+			22061
+		}
+	},
+	[22062] = {
+		id = 22062,
+		damage = "12 x 4",
+		base = 22060,
+		weapon_id = {
+			22062
+		}
+	},
 	[22063] = {
 		id = 22063,
 		damage = "13 x 4",
@@ -214,82 +290,6 @@ pg.equip_data_statistics_155 = {
 		base = 22120,
 		weapon_id = {
 			22124
-		}
-	},
-	[22125] = {
-		id = 22125,
-		damage = "14 x 4",
-		base = 22120,
-		weapon_id = {
-			22125
-		}
-	},
-	[22126] = {
-		id = 22126,
-		damage = "15 x 4",
-		base = 22120,
-		weapon_id = {
-			22126
-		}
-	},
-	[22140] = {
-		name = "Twin 152mm Main Gun",
-		speciality = "Lock",
-		type = 2,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "22100",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "10 x 4",
-		nationality = 2,
-		ammo = 1,
-		value_3 = 0,
-		id = 22140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1104
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1104
-			},
-			{
-				4,
-				1101
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			22140
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CL",
-			"MG",
-			"AP"
 		}
 	}
 }

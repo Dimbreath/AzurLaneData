@@ -1,5 +1,66 @@
 pg = pg or {}
 pg.equip_data_statistics_210 = {
+	[29309] = {
+		base = 29300,
+		id = 29309,
+		ammo_info = {
+			{
+				6,
+				50049
+			},
+			{
+				5,
+				53289
+			}
+		},
+		weapon_id = {
+			29309
+		},
+		skill_id = {
+			6839
+		}
+	},
+	[29310] = {
+		base = 29300,
+		id = 29310,
+		ammo_info = {
+			{
+				6,
+				50050
+			},
+			{
+				5,
+				53290
+			}
+		},
+		weapon_id = {
+			29310
+		},
+		skill_id = {
+			6840
+		}
+	},
+	[29311] = {
+		anti_siren = 100,
+		base = 29300,
+		id = 29311,
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				5,
+				53291
+			}
+		},
+		weapon_id = {
+			29311
+		},
+		skill_id = {
+			6841
+		}
+	},
 	[29312] = {
 		anti_siren = 200,
 		base = 29300,
@@ -238,30 +299,6 @@ pg.equip_data_statistics_210 = {
 		base = 31000,
 		weapon_id = {
 			31003
-		}
-	},
-	[31004] = {
-		id = 31004,
-		damage = "6 x 4",
-		base = 31000,
-		weapon_id = {
-			31004
-		}
-	},
-	[31005] = {
-		id = 31005,
-		damage = "7 x 4",
-		base = 31000,
-		weapon_id = {
-			31005
-		}
-	},
-	[31006] = {
-		id = 31006,
-		damage = "7 x 4",
-		base = 31000,
-		weapon_id = {
-			31006
 		}
 	}
 }

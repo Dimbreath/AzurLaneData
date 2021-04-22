@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.equip_data_statistics_18 = {
+	[785] = {
+		id = 785,
+		value_2 = 125,
+		value_1 = "15",
+		base = 780
+	},
+	[786] = {
+		id = 786,
+		value_2 = 135,
+		value_1 = "16",
+		base = 780
+	},
+	[787] = {
+		id = 787,
+		value_2 = 150,
+		value_1 = "17",
+		base = 780
+	},
 	[788] = {
 		id = 788,
 		value_2 = 160,
@@ -120,57 +138,5 @@ pg.equip_data_statistics_18 = {
 		value_2 = 90,
 		value_1 = "33",
 		base = 800
-	},
-	[810] = {
-		id = 810,
-		value_2 = 100,
-		value_1 = "35",
-		base = 800
-	},
-	[820] = {
-		name = "Frontier Medal",
-		tech = 0,
-		type = 10,
-		speciality = "N/A",
-		id = 820,
-		value_2 = 20,
-		icon = "820",
-		value_1 = "40",
-		attribute_2 = "durability",
-		rarity = 5,
-		descrip = "A medal given to aviation tactics pioneers. As the age of big ships with big guns draws to a close, the era of naval aerial control is ushered in. ",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "air",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6740
-		},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[821] = {
-		id = 821,
-		value_2 = 24,
-		value_1 = "46",
-		base = 820
 	}
 }

@@ -1,5 +1,58 @@
 pg = pg or {}
 pg.equip_data_statistics_14 = {
+	[671] = {
+		id = 671,
+		anti_siren = 100,
+		value_1 = "75",
+		base = 660
+	},
+	[680] = {
+		name = "Homing Beacon",
+		tech = 0,
+		type = 10,
+		speciality = "N/A",
+		attribute_1 = "air",
+		value_2 = 0,
+		icon = "680",
+		value_1 = "18",
+		descrip = "Model 72/DM homing beacon. It is mounted on an aircraft carrier's mast to aid in adjusting the relative position between it and its aircraft during landing.",
+		rarity = 4,
+		nationality = 2,
+		ammo = 10,
+		value_3 = 0,
+		id = 680,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6310
+		},
+		part_main = {
+			6,
+			7,
+			10
+		},
+		part_sub = {
+			6,
+			7,
+			10
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DEV"
+		}
+	},
+	[681] = {
+		id = 681,
+		value_1 = "22",
+		base = 680
+	},
 	[682] = {
 		id = 682,
 		value_1 = "26",
@@ -108,21 +161,6 @@ pg.equip_data_statistics_14 = {
 	[703] = {
 		id = 703,
 		value_1 = "18",
-		base = 700
-	},
-	[704] = {
-		id = 704,
-		value_1 = "20",
-		base = 700
-	},
-	[705] = {
-		id = 705,
-		value_1 = "22",
-		base = 700
-	},
-	[706] = {
-		id = 706,
-		value_1 = "24",
 		base = 700
 	}
 }

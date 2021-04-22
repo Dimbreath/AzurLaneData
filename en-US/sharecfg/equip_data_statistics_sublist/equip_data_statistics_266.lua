@@ -1,5 +1,106 @@
 pg = pg or {}
 pg.equip_data_statistics_266 = {
+	[37400] = {
+		name = "Kawanishi N1K3-A Shiden Kai 2 ",
+		type = 7,
+		speciality = "Air",
+		rarity = 5,
+		tech = 0,
+		descrip = "A carrier-based version of the Kawanishi Shiden. ",
+		value_2 = 45,
+		icon = "37400",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 37400,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59540
+			},
+			{
+				6,
+				50860
+			},
+			{
+				5,
+				52340
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			37400,
+			83400
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
+	},
+	[37401] = {
+		id = 37401,
+		base = 37400,
+		ammo_info = {
+			{
+				6,
+				59541
+			},
+			{
+				6,
+				50861
+			},
+			{
+				5,
+				52341
+			}
+		},
+		weapon_id = {
+			37401,
+			83401
+		}
+	},
+	[37402] = {
+		id = 37402,
+		base = 37400,
+		ammo_info = {
+			{
+				6,
+				59542
+			},
+			{
+				6,
+				50862
+			},
+			{
+				5,
+				52342
+			}
+		},
+		weapon_id = {
+			37402,
+			83402
+		}
+	},
 	[37403] = {
 		id = 37403,
 		base = 37400,
@@ -344,72 +445,6 @@ pg.equip_data_statistics_266 = {
 		weapon_id = {
 			37422,
 			83422
-		}
-	},
-	[37423] = {
-		id = 37423,
-		base = 37420,
-		ammo_info = {
-			{
-				6,
-				50043
-			},
-			{
-				6,
-				50543
-			},
-			{
-				5,
-				52143
-			}
-		},
-		weapon_id = {
-			37423,
-			83423
-		}
-	},
-	[37424] = {
-		id = 37424,
-		base = 37420,
-		ammo_info = {
-			{
-				6,
-				50044
-			},
-			{
-				6,
-				50544
-			},
-			{
-				5,
-				52144
-			}
-		},
-		weapon_id = {
-			37424,
-			83424
-		}
-	},
-	[37425] = {
-		id = 37425,
-		base = 37420,
-		ammo_info = {
-			{
-				6,
-				50045
-			},
-			{
-				6,
-				50545
-			},
-			{
-				5,
-				52145
-			}
-		},
-		weapon_id = {
-			37425,
-			83425
 		}
 	}
 }

@@ -1,5 +1,80 @@
 pg = pg or {}
 pg.equip_data_statistics_290 = {
+	[42303] = {
+		id = 42303,
+		damage = "10 x 3",
+		base = 42300,
+		weapon_id = {
+			42303
+		}
+	},
+	[42340] = {
+		name = "Single 150mm TbtsK C/36 Main Gun Mount",
+		speciality = "Lock",
+		type = 2,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "42300",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "6 x 3",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 0,
+		id = 42340,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1304
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1304
+			},
+			{
+				4,
+				1003
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			42340
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[42341] = {
+		id = 42341,
+		base = 42340,
+		weapon_id = {
+			42341
+		}
+	},
 	[42342] = {
 		id = 42342,
 		damage = "7 x 3",
@@ -162,30 +237,6 @@ pg.equip_data_statistics_290 = {
 		base = 43000,
 		weapon_id = {
 			43003
-		}
-	},
-	[43004] = {
-		id = 43004,
-		damage = "33 x 6",
-		base = 43000,
-		weapon_id = {
-			43004
-		}
-	},
-	[43005] = {
-		id = 43005,
-		damage = "35 x 6",
-		base = 43000,
-		weapon_id = {
-			43005
-		}
-	},
-	[43006] = {
-		id = 43006,
-		damage = "37 x 6",
-		base = 43000,
-		weapon_id = {
-			43006
 		}
 	}
 }

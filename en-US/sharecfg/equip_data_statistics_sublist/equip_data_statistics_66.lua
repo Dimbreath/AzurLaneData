@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.equip_data_statistics_66 = {
+	[4246] = {
+		id = 4246,
+		base = 4240,
+		ammo_info = {
+			{
+				8,
+				53146
+			}
+		},
+		weapon_id = {
+			4246
+		}
+	},
+	[4247] = {
+		id = 4247,
+		base = 4240,
+		ammo_info = {
+			{
+				8,
+				53147
+			}
+		},
+		weapon_id = {
+			4247
+		}
+	},
+	[4248] = {
+		id = 4248,
+		base = 4240,
+		ammo_info = {
+			{
+				8,
+				53148
+			}
+		},
+		weapon_id = {
+			4248
+		}
+	},
 	[4249] = {
 		id = 4249,
 		base = 4240,
@@ -243,76 +282,6 @@ pg.equip_data_statistics_66 = {
 		},
 		weapon_id = {
 			4326
-		}
-	},
-	[4340] = {
-		name = "TBM-3 Avenger (ASW)",
-		type = 15,
-		speciality = "Anti\nsubmarine",
-		rarity = 4,
-		tech = 3,
-		descrip = "A variant of the TBF outfitted with a more powerful engine.",
-		value_2 = 25,
-		icon = "4300",
-		attribute_2 = "antisub",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 4340,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				8,
-				53240
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			4340
-		},
-		skill_id = {},
-		part_main = {
-			6
-		},
-		part_sub = {
-			6
-		},
-		equip_parameters = {},
-		label = {
-			"ASA"
-		}
-	},
-	[4341] = {
-		id = 4341,
-		base = 4340,
-		ammo_info = {
-			{
-				8,
-				53241
-			}
-		},
-		weapon_id = {
-			4341
-		}
-	},
-	[4342] = {
-		id = 4342,
-		base = 4340,
-		ammo_info = {
-			{
-				8,
-				53242
-			}
-		},
-		weapon_id = {
-			4342
 		}
 	}
 }

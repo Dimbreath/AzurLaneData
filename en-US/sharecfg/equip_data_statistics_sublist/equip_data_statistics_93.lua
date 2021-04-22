@@ -1,5 +1,80 @@
 pg = pg or {}
 pg.equip_data_statistics_93 = {
+	[13046] = {
+		id = 13046,
+		damage = "39 x 3",
+		base = 13040,
+		weapon_id = {
+			13046
+		}
+	},
+	[13047] = {
+		id = 13047,
+		damage = "39 x 3",
+		base = 13040,
+		weapon_id = {
+			13047
+		}
+	},
+	[13060] = {
+		name = "Triple 203mm Mk 13 Main Gun Mount",
+		speciality = "Lock",
+		type = 3,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "13060",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "23 x 3",
+		nationality = 1,
+		ammo = 2,
+		value_3 = 0,
+		id = 13060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1402
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1402
+			},
+			{
+				4,
+				1204
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			13060
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CA",
+			"MG",
+			"HE"
+		}
+	},
 	[13061] = {
 		id = 13061,
 		damage = "26 x 3",
@@ -212,30 +287,6 @@ pg.equip_data_statistics_93 = {
 		base = 13120,
 		weapon_id = {
 			13122
-		}
-	},
-	[13123] = {
-		id = 13123,
-		damage = "33 x 3",
-		base = 13120,
-		weapon_id = {
-			13123
-		}
-	},
-	[13124] = {
-		id = 13124,
-		damage = "35 x 3",
-		base = 13120,
-		weapon_id = {
-			13124
-		}
-	},
-	[13125] = {
-		id = 13125,
-		damage = "37 x 3",
-		base = 13120,
-		weapon_id = {
-			13125
 		}
 	}
 }

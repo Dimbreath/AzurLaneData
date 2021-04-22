@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.aircraft_template_31 = {
+	[18161] = {
+		id = 18161,
+		base = 18160,
+		max_hp = 44,
+		hp_growth = 1674,
+		weapon_ID = {
+			50041,
+			59601
+		}
+	},
+	[18162] = {
+		id = 18162,
+		base = 18160,
+		max_hp = 49,
+		hp_growth = 1892,
+		weapon_ID = {
+			50042,
+			59602
+		}
+	},
+	[18163] = {
+		id = 18163,
+		base = 18160,
+		max_hp = 55,
+		hp_growth = 2111,
+		weapon_ID = {
+			50043,
+			59603
+		}
+	},
+	[18164] = {
+		id = 18164,
+		base = 18160,
+		max_hp = 61,
+		hp_growth = 2329,
+		weapon_ID = {
+			50044,
+			59604
+		}
+	},
 	[18165] = {
 		id = 18165,
 		base = 18160,
@@ -58,111 +98,6 @@ pg.aircraft_template_31 = {
 		weapon_ID = {
 			50050,
 			59610
-		}
-	},
-	[18171] = {
-		id = 18171,
-		base = 18160,
-		max_hp = 100,
-		hp_growth = 3857,
-		weapon_ID = {
-			50051,
-			59611
-		}
-	},
-	[18172] = {
-		id = 18172,
-		base = 18160,
-		max_hp = 106,
-		hp_growth = 4076,
-		weapon_ID = {
-			50052,
-			59612
-		}
-	},
-	[18173] = {
-		id = 18173,
-		base = 18160,
-		max_hp = 112,
-		hp_growth = 4294,
-		weapon_ID = {
-			50053,
-			59613
-		}
-	},
-	[18180] = {
-		name = "TBM复仇者(VT-18中队)",
-		max_hp = 41,
-		accuracy = 23,
-		model_ID = "tbmvt-18",
-		ACC_growth = 0,
-		crash_DMG = 300,
-		dodge = 1.05,
-		attack_power = 2,
-		dodge_limit = 6,
-		type = 2,
-		AP_growth = 2000,
-		icon = "tbmvt-18",
-		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1563,
-		speed = 48,
-		id = 18180,
-		scale = 1,
-		weapon_ID = {
-			50040,
-			59640
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.15,
-				-0.08,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
 		}
 	}
 }

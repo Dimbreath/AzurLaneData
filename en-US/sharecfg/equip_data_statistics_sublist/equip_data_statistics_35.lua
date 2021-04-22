@@ -1,5 +1,49 @@
 pg = pg or {}
 pg.equip_data_statistics_35 = {
+	[1722] = {
+		id = 1722,
+		value_2 = 22,
+		value_1 = "6",
+		base = 1720
+	},
+	[1723] = {
+		id = 1723,
+		value_2 = 25,
+		value_1 = "7",
+		base = 1720
+	},
+	[1740] = {
+		name = "Hydraulic Steering Gear",
+		tech = 3,
+		type = 10,
+		speciality = "N/A",
+		id = 1740,
+		value_2 = 20,
+		icon = "1700",
+		value_1 = "9",
+		attribute_2 = "durability",
+		rarity = 3,
+		descrip = "You'll be in trouble if the rudder breaks. May increase evasion capabilities.",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
 	[1741] = {
 		id = 1741,
 		value_2 = 24,
@@ -111,24 +155,6 @@ pg.equip_data_statistics_35 = {
 		id = 1766,
 		value_2 = 44,
 		value_1 = "28",
-		base = 1760
-	},
-	[1767] = {
-		id = 1767,
-		value_2 = 48,
-		value_1 = "31",
-		base = 1760
-	},
-	[1768] = {
-		id = 1768,
-		value_2 = 52,
-		value_1 = "34",
-		base = 1760
-	},
-	[1769] = {
-		id = 1769,
-		value_2 = 56,
-		value_1 = "37",
 		base = 1760
 	}
 }

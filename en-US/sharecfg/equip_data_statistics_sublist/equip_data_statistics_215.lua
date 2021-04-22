@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_215 = {
+	[31184] = {
+		id = 31184,
+		damage = "7 x 3",
+		base = 31180,
+		weapon_id = {
+			31184
+		}
+	},
+	[31185] = {
+		id = 31185,
+		damage = "7 x 3",
+		base = 31180,
+		weapon_id = {
+			31185
+		}
+	},
+	[31186] = {
+		id = 31186,
+		damage = "8 x 3",
+		base = 31180,
+		weapon_id = {
+			31186
+		}
+	},
 	[31187] = {
 		id = 31187,
 		damage = "9 x 3",
@@ -225,89 +249,6 @@ pg.equip_data_statistics_215 = {
 		base = 31220,
 		weapon_id = {
 			31224
-		}
-	},
-	[31225] = {
-		id = 31225,
-		damage = "7 x 4",
-		base = 31220,
-		weapon_id = {
-			31225
-		}
-	},
-	[31226] = {
-		id = 31226,
-		damage = "8 x 4",
-		base = 31220,
-		weapon_id = {
-			31226
-		}
-	},
-	[31240] = {
-		name = "Twin 127mm Naval Gun Mount",
-		speciality = "Lock",
-		type = 1,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "31200",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "4 x 4",
-		nationality = 3,
-		ammo = 2,
-		value_3 = 0,
-		id = 31240,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1206
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1206
-			},
-			{
-				4,
-				1001
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			31240
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"DD",
-			"MG",
-			"HE"
 		}
 	}
 }

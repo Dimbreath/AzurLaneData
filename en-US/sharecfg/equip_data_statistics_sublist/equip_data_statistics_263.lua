@@ -1,5 +1,71 @@
 pg = pg or {}
 pg.equip_data_statistics_263 = {
+	[37226] = {
+		id = 37226,
+		base = 37220,
+		ammo_info = {
+			{
+				6,
+				50026
+			},
+			{
+				6,
+				50526
+			},
+			{
+				5,
+				52126
+			}
+		},
+		weapon_id = {
+			37226,
+			83226
+		}
+	},
+	[37227] = {
+		id = 37227,
+		base = 37220,
+		ammo_info = {
+			{
+				6,
+				50027
+			},
+			{
+				6,
+				50527
+			},
+			{
+				5,
+				52127
+			}
+		},
+		weapon_id = {
+			37227,
+			83227
+		}
+	},
+	[37228] = {
+		id = 37228,
+		base = 37220,
+		ammo_info = {
+			{
+				6,
+				50028
+			},
+			{
+				6,
+				50528
+			},
+			{
+				5,
+				52128
+			}
+		},
+		weapon_id = {
+			37228,
+			83228
+		}
+	},
 	[37229] = {
 		id = 37229,
 		base = 37220,
@@ -342,105 +408,6 @@ pg.equip_data_statistics_263 = {
 		weapon_id = {
 			37251,
 			83251
-		}
-	},
-	[37252] = {
-		anti_siren = 200,
-		base = 37240,
-		id = 37252,
-		ammo_info = {
-			{
-				6,
-				50052
-			},
-			{
-				6,
-				50552
-			},
-			{
-				5,
-				52152
-			}
-		},
-		weapon_id = {
-			37252,
-			83252
-		}
-	},
-	[37253] = {
-		anti_siren = 300,
-		base = 37240,
-		id = 37253,
-		ammo_info = {
-			{
-				6,
-				50053
-			},
-			{
-				6,
-				50553
-			},
-			{
-				5,
-				52153
-			}
-		},
-		weapon_id = {
-			37253,
-			83253
-		}
-	},
-	[37300] = {
-		name = "A7M Reppuu",
-		type = 7,
-		speciality = "Air",
-		rarity = 3,
-		tech = 1,
-		descrip = "The Mitsubishi A7M Reppuu is equipped with 4 20mm guns and 2 500-pound bombs.",
-		value_2 = 12,
-		icon = "37300",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 37300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				59500
-			},
-			{
-				5,
-				52300
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			37300,
-			83300
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"FT"
 		}
 	}
 }

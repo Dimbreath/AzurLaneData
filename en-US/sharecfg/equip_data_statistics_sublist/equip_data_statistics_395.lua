@@ -1,5 +1,218 @@
 pg = pg or {}
 pg.equip_data_statistics_395 = {
+	[95205] = {
+		id = 95205,
+		damage = "24 x 8",
+		base = 95200,
+		weapon_id = {
+			95205
+		}
+	},
+	[95206] = {
+		id = 95206,
+		damage = "25 x 8",
+		base = 95200,
+		weapon_id = {
+			95206
+		}
+	},
+	[95220] = {
+		name = "Twin 203mm Model 1927 Main Gun Mount",
+		speciality = "Lock",
+		type = 3,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "55200",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "26 x 8",
+		nationality = 6,
+		ammo = 1,
+		value_3 = 0,
+		id = 95220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1401
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1401
+			},
+			{
+				4,
+				1221
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			95220
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CA",
+			"MG",
+			"AP"
+		}
+	},
+	[95221] = {
+		id = 95221,
+		base = 95220,
+		weapon_id = {
+			95221
+		}
+	},
+	[95222] = {
+		id = 95222,
+		damage = "27 x 8",
+		base = 95220,
+		weapon_id = {
+			95222
+		}
+	},
+	[95223] = {
+		id = 95223,
+		damage = "28 x 8",
+		base = 95220,
+		weapon_id = {
+			95223
+		}
+	},
+	[95224] = {
+		id = 95224,
+		damage = "29 x 8",
+		base = 95220,
+		weapon_id = {
+			95224
+		}
+	},
+	[95225] = {
+		id = 95225,
+		damage = "30 x 8",
+		base = 95220,
+		weapon_id = {
+			95225
+		}
+	},
+	[95226] = {
+		id = 95226,
+		damage = "31 x 8",
+		base = 95220,
+		weapon_id = {
+			95226
+		}
+	},
+	[95227] = {
+		id = 95227,
+		damage = "32 x 8",
+		base = 95220,
+		weapon_id = {
+			95227
+		}
+	},
+	[95228] = {
+		id = 95228,
+		damage = "33 x 8",
+		base = 95220,
+		weapon_id = {
+			95228
+		}
+	},
+	[95229] = {
+		id = 95229,
+		damage = "34 x 8",
+		base = 95220,
+		weapon_id = {
+			95229
+		}
+	},
+	[95230] = {
+		id = 95230,
+		damage = "35 x 8",
+		base = 95220,
+		weapon_id = {
+			95230
+		}
+	},
+	[95240] = {
+		name = "Twin 203mm Model 1927 Main Gun Mount",
+		speciality = "Lock",
+		type = 3,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 45,
+		icon = "55200",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "36 x 8",
+		nationality = 6,
+		ammo = 7,
+		value_3 = 0,
+		id = 95240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			4
+		},
+		ammo_info = {
+			{
+				1,
+				1415
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1415
+			},
+			{
+				4,
+				1221
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			95240
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CA",
+			"MG",
+			"SAP"
+		}
+	},
 	[95241] = {
 		id = 95241,
 		damage = "37 x 8",
@@ -22,172 +235,6 @@ pg.equip_data_statistics_395 = {
 		base = 95240,
 		weapon_id = {
 			95243
-		}
-	},
-	[95244] = {
-		id = 95244,
-		damage = "38 x 8",
-		base = 95240,
-		weapon_id = {
-			95244
-		}
-	},
-	[95245] = {
-		id = 95245,
-		damage = "39 x 8",
-		base = 95240,
-		weapon_id = {
-			95245
-		}
-	},
-	[95246] = {
-		id = 95246,
-		damage = "39 x 8",
-		base = 95240,
-		weapon_id = {
-			95246
-		}
-	},
-	[95247] = {
-		id = 95247,
-		damage = "40 x 8",
-		base = 95240,
-		weapon_id = {
-			95247
-		}
-	},
-	[95248] = {
-		id = 95248,
-		damage = "41 x 8",
-		base = 95240,
-		weapon_id = {
-			95248
-		}
-	},
-	[95249] = {
-		id = 95249,
-		damage = "42 x 8",
-		base = 95240,
-		weapon_id = {
-			95249
-		}
-	},
-	[95250] = {
-		id = 95250,
-		damage = "43 x 8",
-		base = 95240,
-		weapon_id = {
-			95250
-		}
-	},
-	[95251] = {
-		anti_siren = 100,
-		damage = "43 x 8",
-		base = 95240,
-		id = 95251,
-		weapon_id = {
-			95251
-		}
-	},
-	[95252] = {
-		anti_siren = 200,
-		damage = "43 x 8",
-		base = 95240,
-		id = 95252,
-		weapon_id = {
-			95252
-		}
-	},
-	[95253] = {
-		anti_siren = 300,
-		damage = "43 x 8",
-		base = 95240,
-		id = 95253,
-		weapon_id = {
-			95253
-		}
-	},
-	[95300] = {
-		name = "Twin 203mm Model 1924 Main Gun Mount",
-		speciality = "Lock",
-		type = 3,
-		tech = 1,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "55300",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "22 x 6",
-		nationality = 6,
-		ammo = 3,
-		value_3 = 0,
-		id = 95300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1400
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1400
-			},
-			{
-				4,
-				1205
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			95300
-		},
-		skill_id = {},
-		part_main = {
-			3,
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"RN",
-			"CA",
-			"MG",
-			"CM"
-		}
-	},
-	[95301] = {
-		id = 95301,
-		damage = "24 x 6",
-		base = 95300,
-		weapon_id = {
-			95301
-		}
-	},
-	[95302] = {
-		id = 95302,
-		damage = "26 x 6",
-		base = 95300,
-		weapon_id = {
-			95302
-		}
-	},
-	[95303] = {
-		id = 95303,
-		damage = "28 x 6",
-		base = 95300,
-		weapon_id = {
-			95303
 		}
 	}
 }

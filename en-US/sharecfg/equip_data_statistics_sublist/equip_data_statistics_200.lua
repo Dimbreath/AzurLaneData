@@ -1,5 +1,65 @@
 pg = pg or {}
 pg.equip_data_statistics_200 = {
+	[28063] = {
+		base = 28060,
+		id = 28063,
+		ammo_info = {
+			{
+				6,
+				50043
+			},
+			{
+				4,
+				51063
+			}
+		},
+		weapon_id = {
+			28063
+		},
+		skill_id = {
+			6813
+		}
+	},
+	[28064] = {
+		base = 28060,
+		id = 28064,
+		ammo_info = {
+			{
+				6,
+				50044
+			},
+			{
+				4,
+				51064
+			}
+		},
+		weapon_id = {
+			28064
+		},
+		skill_id = {
+			6814
+		}
+	},
+	[28065] = {
+		base = 28060,
+		id = 28065,
+		ammo_info = {
+			{
+				6,
+				50045
+			},
+			{
+				4,
+				51065
+			}
+		},
+		weapon_id = {
+			28065
+		},
+		skill_id = {
+			6815
+		}
+	},
 	[28066] = {
 		base = 28060,
 		id = 28066,
@@ -298,92 +358,6 @@ pg.equip_data_statistics_200 = {
 		},
 		weapon_id = {
 			28105
-		}
-	},
-	[28106] = {
-		id = 28106,
-		base = 28100,
-		ammo_info = {
-			{
-				6,
-				50006
-			},
-			{
-				4,
-				51106
-			}
-		},
-		weapon_id = {
-			28106
-		}
-	},
-	[28120] = {
-		name = "Barracuda",
-		type = 8,
-		speciality = "Torpedo",
-		rarity = 4,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "28100",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 28120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50020
-			},
-			{
-				4,
-				51120
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			28120
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"TB"
-		}
-	},
-	[28121] = {
-		id = 28121,
-		base = 28120,
-		ammo_info = {
-			{
-				6,
-				50021
-			},
-			{
-				4,
-				51121
-			}
-		},
-		weapon_id = {
-			28121
 		}
 	}
 }

@@ -1,5 +1,49 @@
 pg = pg or {}
 pg.equip_data_statistics_328 = {
+	[60213] = {
+		id = 60213,
+		name = "0",
+		base = 60211,
+		weapon_id = {
+			60213
+		}
+	},
+	[60221] = {
+		name = "0",
+		tech = 1,
+		speciality = "N/A",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "Aircraft Carrier Airstrike",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60221,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60221
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60222] = {
+		id = 60222,
+		name = "0",
+		base = 60221,
+		weapon_id = {
+			60222
+		}
+	},
 	[60223] = {
 		id = 60223,
 		name = "0",
@@ -298,50 +342,6 @@ pg.equip_data_statistics_328 = {
 		equip_info = {},
 		weapon_id = {
 			60251
-		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60252] = {
-		id = 60252,
-		name = "航空攻击展示-翡绿之心II",
-		base = 60251,
-		weapon_id = {
-			60252
-		}
-	},
-	[60253] = {
-		id = 60253,
-		name = "航空攻击展示-翡绿之心III",
-		base = 60251,
-		weapon_id = {
-			60253
-		}
-	},
-	[60261] = {
-		name = "航空攻击展示-胡蜂I",
-		tech = 1,
-		speciality = "N/A",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "Aircraft Carrier Airstrike",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60261,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60261
 		},
 		skill_id = {},
 		part_main = {},

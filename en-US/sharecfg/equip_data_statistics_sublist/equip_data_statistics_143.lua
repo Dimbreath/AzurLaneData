@@ -1,5 +1,56 @@
 pg = pg or {}
 pg.equip_data_statistics_143 = {
+	[19201] = {
+		id = 19201,
+		base = 19200,
+		ammo_info = {
+			{
+				6,
+				50501
+			},
+			{
+				5,
+				52801
+			}
+		},
+		weapon_id = {
+			19201
+		}
+	},
+	[19202] = {
+		id = 19202,
+		base = 19200,
+		ammo_info = {
+			{
+				6,
+				50502
+			},
+			{
+				5,
+				52802
+			}
+		},
+		weapon_id = {
+			19202
+		}
+	},
+	[19203] = {
+		id = 19203,
+		base = 19200,
+		ammo_info = {
+			{
+				6,
+				50503
+			},
+			{
+				5,
+				52803
+			}
+		},
+		weapon_id = {
+			19203
+		}
+	},
 	[19204] = {
 		id = 19204,
 		base = 19200,
@@ -271,92 +322,6 @@ pg.equip_data_statistics_143 = {
 		},
 		weapon_id = {
 			19230
-		}
-	},
-	[19240] = {
-		name = "BTD-1 Destroyer",
-		type = 9,
-		speciality = "Bomber",
-		rarity = 5,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 45,
-		icon = "19200",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 19240,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50540
-			},
-			{
-				5,
-				52840
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			19240
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"DB"
-		}
-	},
-	[19241] = {
-		id = 19241,
-		base = 19240,
-		ammo_info = {
-			{
-				6,
-				50541
-			},
-			{
-				5,
-				52841
-			}
-		},
-		weapon_id = {
-			19241
-		}
-	},
-	[19242] = {
-		id = 19242,
-		base = 19240,
-		ammo_info = {
-			{
-				6,
-				50542
-			},
-			{
-				5,
-				52842
-			}
-		},
-		weapon_id = {
-			19242
 		}
 	}
 }

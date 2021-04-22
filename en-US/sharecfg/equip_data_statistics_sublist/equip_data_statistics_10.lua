@@ -1,5 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_10 = {
+	[569] = {
+		id = 569,
+		value_1 = "33",
+		base = 560
+	},
+	[570] = {
+		id = 570,
+		value_1 = "35",
+		base = 560
+	},
+	[571] = {
+		id = 571,
+		anti_siren = 100,
+		value_1 = "37",
+		base = 560
+	},
 	[580] = {
 		name = "Type 91 AP Shell",
 		tech = 0,
@@ -156,24 +172,6 @@ pg.equip_data_statistics_10 = {
 	[601] = {
 		id = 601,
 		value_1 = "25",
-		base = 600
-	},
-	[602] = {
-		id = 602,
-		value_2 = 7,
-		value_1 = "28",
-		base = 600
-	},
-	[603] = {
-		id = 603,
-		value_2 = 8,
-		value_1 = "32",
-		base = 600
-	},
-	[604] = {
-		id = 604,
-		value_2 = 9,
-		value_1 = "35",
 		base = 600
 	}
 }

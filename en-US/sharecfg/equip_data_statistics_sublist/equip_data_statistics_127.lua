@@ -1,5 +1,82 @@
 pg = pg or {}
 pg.equip_data_statistics_127 = {
+	[17125] = {
+		id = 17125,
+		base = 17120,
+		ammo_info = {
+			{
+				6,
+				50425
+			}
+		},
+		weapon_id = {
+			17125,
+			81125
+		}
+	},
+	[17126] = {
+		id = 17126,
+		base = 17120,
+		ammo_info = {
+			{
+				6,
+				50426
+			}
+		},
+		weapon_id = {
+			17126,
+			81126
+		}
+	},
+	[17140] = {
+		name = "F4F Wildcat",
+		type = 7,
+		speciality = "Air",
+		rarity = 4,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "17100",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 17140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50440
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			17140,
+			81140
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
+	},
 	[17141] = {
 		id = 17141,
 		base = 17140,
@@ -242,95 +319,6 @@ pg.equip_data_statistics_127 = {
 		weapon_id = {
 			17202,
 			81202
-		}
-	},
-	[17203] = {
-		id = 17203,
-		base = 17200,
-		ammo_info = {
-			{
-				6,
-				50403
-			},
-			{
-				5,
-				52303
-			}
-		},
-		weapon_id = {
-			17203,
-			81203
-		}
-	},
-	[17220] = {
-		name = "F4U Corsair",
-		type = 7,
-		speciality = "Air",
-		rarity = 3,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "17200",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 17220,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50420
-			},
-			{
-				5,
-				52320
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			17220,
-			81220
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"FT"
-		}
-	},
-	[17221] = {
-		id = 17221,
-		base = 17220,
-		ammo_info = {
-			{
-				6,
-				50421
-			},
-			{
-				5,
-				52321
-			}
-		},
-		weapon_id = {
-			17221,
-			81221
 		}
 	}
 }

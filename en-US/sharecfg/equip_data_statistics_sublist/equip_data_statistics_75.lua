@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_75 = {
+	[5543] = {
+		id = 5543,
+		damage = "78 x 2",
+		base = 5540,
+		weapon_id = {
+			5543
+		}
+	},
+	[5544] = {
+		id = 5544,
+		damage = "86 x 2",
+		base = 5540,
+		weapon_id = {
+			5544
+		}
+	},
+	[5545] = {
+		id = 5545,
+		damage = "94 x 2",
+		base = 5540,
+		weapon_id = {
+			5545
+		}
+	},
 	[5546] = {
 		id = 5546,
 		damage = "102 x 2",
@@ -218,84 +242,6 @@ pg.equip_data_statistics_75 = {
 		base = 6020,
 		weapon_id = {
 			6023
-		}
-	},
-	[6040] = {
-		name = "Single 12.7mm AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "6000",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "8/wave",
-		nationality = 0,
-		ammo = 5,
-		value_3 = 0,
-		id = 6040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			6040
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"UN",
-			"ST",
-			"AA"
-		}
-	},
-	[6041] = {
-		id = 6041,
-		damage = "9/wave",
-		base = 6040,
-		weapon_id = {
-			6041
-		}
-	},
-	[6042] = {
-		id = 6042,
-		damage = "10/wave",
-		base = 6040,
-		weapon_id = {
-			6042
 		}
 	}
 }

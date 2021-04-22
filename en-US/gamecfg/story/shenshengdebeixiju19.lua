@@ -67,6 +67,7 @@ return {
 			bgm = "story-italy",
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "And in the end, they never came?",
 			flashout = {
 				dur = 0.5,
@@ -128,11 +129,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "Hrmm...",
 			typewriter = {
 				speed = 0.05,
@@ -144,11 +146,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "Looks like we were never more than cannon fodder to them, just like the Vichya Dominion.",
 			typewriter = {
 				speed = 0.05,
@@ -166,6 +169,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "I was full of hope when we were brought into the Crimson Axis...",
 			typewriter = {
 				speed = 0.05,
@@ -177,11 +181,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "But it looks like we are just pawns for their \"Reenactment.\"",
 			typewriter = {
 				speed = 0.05,
@@ -210,11 +215,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "Indeed. This \"Reenactment\" is about to come to an end. The only thing left for us... is to decide whether it ends as a comedy or as a tragedy...",
 			typewriter = {
 				speed = 0.05,

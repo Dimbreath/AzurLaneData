@@ -1,5 +1,24 @@
 pg = pg or {}
 pg.equip_data_statistics_53 = {
+	[2949] = {
+		id = 2949,
+		value_2 = 8,
+		value_1 = "16",
+		base = 2940
+	},
+	[2950] = {
+		id = 2950,
+		value_2 = 9,
+		value_1 = "18",
+		base = 2940
+	},
+	[2951] = {
+		id = 2951,
+		anti_siren = 100,
+		base = 2940,
+		value_2 = 10,
+		value_1 = "20"
+	},
 	[3000] = {
 		name = "Advanced Sonar",
 		tech = 1,
@@ -149,24 +168,6 @@ pg.equip_data_statistics_53 = {
 		id = 3026,
 		value_2 = 8,
 		value_1 = "16",
-		base = 3020
-	},
-	[3027] = {
-		id = 3027,
-		value_2 = 8,
-		value_1 = "18",
-		base = 3020
-	},
-	[3028] = {
-		id = 3028,
-		value_2 = 9,
-		value_1 = "20",
-		base = 3020
-	},
-	[3029] = {
-		id = 3029,
-		value_2 = 9,
-		value_1 = "22",
 		base = 3020
 	}
 }

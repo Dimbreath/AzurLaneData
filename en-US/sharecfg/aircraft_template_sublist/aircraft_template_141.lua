@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.aircraft_template_141 = {
+	[65492] = {
+		max_hp = 44,
+		name = "彼得史特拉塞技能JU87鱼雷机LV2",
+		base = 65491,
+		id = 65492,
+		hp_growth = 1678,
+		weapon_ID = {
+			65502
+		}
+	},
+	[65493] = {
+		max_hp = 49,
+		name = "彼得史特拉塞技能JU87鱼雷机LV3",
+		base = 65491,
+		id = 65493,
+		hp_growth = 1897,
+		weapon_ID = {
+			65503
+		}
+	},
+	[65494] = {
+		max_hp = 55,
+		name = "彼得史特拉塞技能JU87鱼雷机LV4",
+		base = 65491,
+		id = 65494,
+		hp_growth = 2116,
+		weapon_ID = {
+			65504
+		}
+	},
+	[65495] = {
+		max_hp = 61,
+		name = "彼得史特拉塞技能JU87鱼雷机LV5",
+		base = 65491,
+		id = 65495,
+		hp_growth = 2335,
+		weapon_ID = {
+			65505
+		}
+	},
 	[65496] = {
 		max_hp = 66,
 		name = "彼得史特拉塞技能JU87鱼雷机LV6",
@@ -122,46 +162,6 @@ pg.aircraft_template_141 = {
 				0,
 				0
 			}
-		}
-	},
-	[65562] = {
-		max_hp = 57,
-		name = "威悉技能轰炸机Lv2",
-		base = 65561,
-		id = 65562,
-		hp_growth = 1781,
-		weapon_ID = {
-			65582
-		}
-	},
-	[65563] = {
-		max_hp = 64,
-		name = "威悉技能轰炸机Lv3",
-		base = 65561,
-		id = 65563,
-		hp_growth = 2013,
-		weapon_ID = {
-			65583
-		}
-	},
-	[65564] = {
-		max_hp = 70,
-		name = "威悉技能轰炸机Lv4",
-		base = 65561,
-		id = 65564,
-		hp_growth = 2246,
-		weapon_ID = {
-			65584
-		}
-	},
-	[65565] = {
-		max_hp = 77,
-		name = "威悉技能轰炸机Lv5",
-		base = 65561,
-		id = 65565,
-		hp_growth = 2478,
-		weapon_ID = {
-			65585
 		}
 	}
 }

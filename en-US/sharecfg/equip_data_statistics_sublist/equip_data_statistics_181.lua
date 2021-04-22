@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_181 = {
+	[26227] = {
+		id = 26227,
+		damage = "95/wave",
+		base = 26220,
+		weapon_id = {
+			26227
+		}
+	},
+	[26228] = {
+		id = 26228,
+		damage = "102/wave",
+		base = 26220,
+		weapon_id = {
+			26228
+		}
+	},
+	[26229] = {
+		id = 26229,
+		damage = "109/wave",
+		base = 26220,
+		weapon_id = {
+			26229
+		}
+	},
 	[26230] = {
 		id = 26230,
 		damage = "117/wave",
@@ -166,85 +190,6 @@ pg.equip_data_statistics_181 = {
 		id = 26252,
 		weapon_id = {
 			26252
-		}
-	},
-	[26253] = {
-		anti_siren = 300,
-		damage = "128/wave",
-		base = 26240,
-		id = 26253,
-		weapon_id = {
-			26253
-		}
-	},
-	[26300] = {
-		name = "76mm AA Gun",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 1,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "26300",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "16/wave",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 26300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			26300
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"ST",
-			"AA"
-		}
-	},
-	[26301] = {
-		id = 26301,
-		damage = "18/wave",
-		base = 26300,
-		weapon_id = {
-			26301
 		}
 	}
 }

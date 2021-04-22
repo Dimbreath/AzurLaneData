@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_51 = {
+	[2752] = {
+		id = 2752,
+		anti_siren = 200,
+		base = 2740,
+		value_2 = 17,
+		value_1 = "80"
+	},
+	[2753] = {
+		id = 2753,
+		anti_siren = 300,
+		base = 2740,
+		value_2 = 18,
+		value_1 = "85"
+	},
+	[2800] = {
+		name = "Type 94 Anti-Air Fire Control System",
+		tech = 0,
+		type = 10,
+		speciality = "N/A",
+		id = 2800,
+		value_2 = 4,
+		icon = "2800",
+		value_1 = "22",
+		attribute_2 = "hit",
+		rarity = 4,
+		descrip = "A high-angle anti-air device equipped with a rangefinder. Used to support anti-air guns for more effective anti-air defense.",
+		nationality = 3,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "antiaircraft",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DEV"
+		}
+	},
 	[2801] = {
 		id = 2801,
 		value_2 = 5,
@@ -118,57 +165,5 @@ pg.equip_data_statistics_51 = {
 		value_2 = 2,
 		value_1 = "3",
 		base = 2900
-	},
-	[2903] = {
-		id = 2903,
-		value_2 = 3,
-		value_1 = "4",
-		base = 2900
-	},
-	[2920] = {
-		name = "Basic Sonar",
-		tech = 2,
-		type = 10,
-		speciality = "N/A",
-		id = 2920,
-		value_2 = 2,
-		icon = "2900",
-		value_1 = "3",
-		attribute_2 = "hit",
-		rarity = 3,
-		descrip = "No description",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "antisub",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {
-			1,
-			2
-		},
-		part_sub = {
-			1,
-			2
-		},
-		equip_parameters = {
-			range = 3
-		},
-		label = {
-			"DEV"
-		}
-	},
-	[2921] = {
-		id = 2921,
-		value_2 = 3,
-		value_1 = "4",
-		base = 2920
 	}
 }

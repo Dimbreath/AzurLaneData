@@ -32,11 +32,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_story_italy",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "...",
 			typewriter = {
 				speed = 0.05,
@@ -54,6 +55,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "......",
 			typewriter = {
 				speed = 0.05,
@@ -65,11 +67,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_story_italy",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "Ah, um... can you stop doing that...",
 			typewriter = {
 				speed = 0.05,
@@ -129,11 +132,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_story_italy",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "Indeed... I understand the Royal Navy has bolstered their strength in the Mediterranean...",
 			typewriter = {
 				speed = 0.05,
@@ -168,6 +172,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "Hmm... I heard bikinis were all the rage these days...",
 			typewriter = {
 				speed = 0.05,
@@ -185,6 +190,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "Wait, what...?",
 			dialogShake = {
 				speed = 0.09,
@@ -223,6 +229,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "Um... Littorio? I'm beginning to suspect we aren't talking about the same thing.",
 			typewriter = {
 				speed = 0.05,
@@ -257,6 +264,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "I did say that, but... (I'm concerned. I hope that wasn't a pun...)",
 			typewriter = {
 				speed = 0.05,
@@ -268,11 +276,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_story_italy",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "(Littorio has been acting strange ever since the Battle of Taranto...)",
 			typewriter = {
 				speed = 0.05,
@@ -290,6 +299,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "(It must be some sort of post-traumatic stress... Poor girl.)",
 			typewriter = {
 				speed = 0.05,
@@ -357,6 +367,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "Um, what's the point of this?",
 			typewriter = {
 				speed = 0.05,
@@ -452,11 +463,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_story_italy",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "... When you put it that way, I can see your logic...",
 			typewriter = {
 				speed = 0.05,
@@ -468,11 +480,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_story_italy",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "The Senate responsible for keeping abreast of the situation with the Iron Blood and Royal Navy remains paralyzed by political infighting.",
 			typewriter = {
 				speed = 0.05,
@@ -490,6 +503,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "The power struggles continue while the Sardegna Fleet stagnates. At this rate...",
 			typewriter = {
 				speed = 0.05,
@@ -535,11 +549,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_story_italy",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "Littorio, I just had an idea.",
 			typewriter = {
 				speed = 0.05,
@@ -557,6 +572,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "There must be a reason why the Royal Navy reached out to us, and we should not let it slip past us.",
 			typewriter = {
 				speed = 0.05,
@@ -574,6 +590,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "Who are our allies, who are our enemies, and who remains an \"actor\" until the very end...",
 			typewriter = {
 				speed = 0.05,
@@ -585,11 +602,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_story_italy",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "Let us conduct a little experiment of our own.",
 			typewriter = {
 				speed = 0.05,
@@ -607,6 +625,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "This was the \"play\" that you had wanted, is it not?",
 			typewriter = {
 				speed = 0.05,
@@ -657,6 +676,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "Err, what now...?",
 			typewriter = {
 				speed = 0.05,
@@ -692,6 +712,7 @@ return {
 			blackBg = true,
 			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "Huh...?! Littorio, whyyyyyy...?!",
 			dialogShake = {
 				speed = 0.09,

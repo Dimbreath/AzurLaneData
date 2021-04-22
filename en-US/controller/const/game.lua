@@ -428,6 +428,7 @@ GAME = {
 	MEMORYBOOK_UNLOCK = "memorybook unlock",
 	GET_REFUND_INFO = "get refund info",
 	REFUND_INFO_UPDATE = "refund info update",
+	ACCOUNT_SEARCH = "account search",
 	GET_GUILD_BOSS_RANK_DONE = "get guild boss rank done",
 	EQUIP_TO_SHIP = "equip to ship",
 	MONOPOLY_OP = "monopoly op",

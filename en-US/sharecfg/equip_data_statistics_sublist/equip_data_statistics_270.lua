@@ -1,5 +1,56 @@
 pg = pg or {}
 pg.equip_data_statistics_270 = {
+	[38122] = {
+		id = 38122,
+		base = 38120,
+		ammo_info = {
+			{
+				6,
+				50022
+			},
+			{
+				4,
+				51422
+			}
+		},
+		weapon_id = {
+			38122
+		}
+	},
+	[38123] = {
+		id = 38123,
+		base = 38120,
+		ammo_info = {
+			{
+				6,
+				50023
+			},
+			{
+				4,
+				51423
+			}
+		},
+		weapon_id = {
+			38123
+		}
+	},
+	[38124] = {
+		id = 38124,
+		base = 38120,
+		ammo_info = {
+			{
+				6,
+				50024
+			},
+			{
+				4,
+				51424
+			}
+		},
+		weapon_id = {
+			38124
+		}
+	},
 	[38125] = {
 		id = 38125,
 		base = 38120,
@@ -272,104 +323,6 @@ pg.equip_data_statistics_270 = {
 		},
 		weapon_id = {
 			38151
-		}
-	},
-	[38160] = {
-		name = "Tenzan Kai",
-		type = 8,
-		speciality = "Torpedo",
-		rarity = 4,
-		tech = 0,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "38160",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 38160,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50840
-			},
-			{
-				6,
-				59720
-			},
-			{
-				4,
-				51460
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			38160
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"TB"
-		}
-	},
-	[38161] = {
-		id = 38161,
-		base = 38160,
-		ammo_info = {
-			{
-				6,
-				50841
-			},
-			{
-				6,
-				59721
-			},
-			{
-				4,
-				51461
-			}
-		},
-		weapon_id = {
-			38161
-		}
-	},
-	[38162] = {
-		id = 38162,
-		base = 38160,
-		ammo_info = {
-			{
-				6,
-				50842
-			},
-			{
-				6,
-				59722
-			},
-			{
-				4,
-				51462
-			}
-		},
-		weapon_id = {
-			38162
 		}
 	}
 }

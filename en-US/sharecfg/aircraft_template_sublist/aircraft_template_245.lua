@@ -1,57 +1,27 @@
 pg = pg or {}
 pg.aircraft_template_245 = {
-	[84104] = {
-		id = 84104,
-		base = 84100,
-		max_hp = 56,
-		hp_growth = 2150,
-		weapon_ID = {
-			59104,
-			59204
-		}
-	},
-	[84105] = {
-		id = 84105,
-		base = 84100,
-		max_hp = 61,
-		hp_growth = 2352,
-		weapon_ID = {
-			59105,
-			59205
-		}
-	},
-	[84106] = {
-		id = 84106,
-		base = 84100,
-		max_hp = 66,
-		hp_growth = 2554,
-		weapon_ID = {
-			59106,
-			59206
-		}
-	},
-	[84120] = {
-		name = "Me-155A舰载战斗机T2",
-		max_hp = 38,
+	[84060] = {
+		name = "Ar-197舰载战斗机",
+		max_hp = 35,
 		accuracy = 23,
-		model_ID = "Me155A",
+		model_ID = "Ar197",
 		ACC_growth = 0,
-		crash_DMG = 65,
-		dodge = 0.327,
+		crash_DMG = 40,
+		dodge = 0.345,
 		attack_power = 2,
-		dodge_limit = 9.5,
+		dodge_limit = 8,
 		type = 1,
 		AP_growth = 2000,
-		icon = "Me155A",
+		icon = "Ar197",
 		funnel_behavior = "",
 		nationality = 4,
-		hp_growth = 1478,
-		speed = 50,
-		id = 84120,
+		hp_growth = 1344,
+		speed = 49,
+		id = 84060,
 		scale = 1,
 		weapon_ID = {
-			59120,
-			59220
+			59040,
+			59440
 		},
 		position_offset = {
 			0,
@@ -71,13 +41,13 @@ pg.aircraft_template_245 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.62,
+					-1.03,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.62,
+					1.32,
 					0
 				}
 			}
@@ -94,7 +64,7 @@ pg.aircraft_template_245 = {
 				0
 			},
 			{
-				0.51,
+				0,
 				0,
 				0
 			},
@@ -105,64 +75,161 @@ pg.aircraft_template_245 = {
 			}
 		}
 	},
-	[84121] = {
-		id = 84121,
-		base = 84120,
+	[84061] = {
+		id = 84061,
+		base = 84060,
+		max_hp = 40,
+		hp_growth = 1546,
+		weapon_ID = {
+			59041,
+			59441
+		}
+	},
+	[84062] = {
+		id = 84062,
+		base = 84060,
+		max_hp = 45,
+		hp_growth = 1747,
+		weapon_ID = {
+			59042,
+			59442
+		}
+	},
+	[84063] = {
+		id = 84063,
+		base = 84060,
+		max_hp = 51,
+		hp_growth = 1949,
+		weapon_ID = {
+			59043,
+			59443
+		}
+	},
+	[84064] = {
+		id = 84064,
+		base = 84060,
+		max_hp = 56,
+		hp_growth = 2150,
+		weapon_ID = {
+			59044,
+			59444
+		}
+	},
+	[84065] = {
+		id = 84065,
+		base = 84060,
+		max_hp = 61,
+		hp_growth = 2352,
+		weapon_ID = {
+			59045,
+			59445
+		}
+	},
+	[84066] = {
+		id = 84066,
+		base = 84060,
+		max_hp = 66,
+		hp_growth = 2554,
+		weapon_ID = {
+			59046,
+			59446
+		}
+	},
+	[84067] = {
+		id = 84067,
+		base = 84060,
+		max_hp = 72,
+		hp_growth = 2755,
+		weapon_ID = {
+			59047,
+			59447
+		}
+	},
+	[84080] = {
+		name = "试作型舰载FW-190 A-5",
+		max_hp = 38,
+		accuracy = 23,
+		model_ID = "Fw190A5",
+		ACC_growth = 0,
+		crash_DMG = 70,
+		dodge = 0.315,
+		attack_power = 2,
+		dodge_limit = 10,
+		type = 1,
+		AP_growth = 2000,
+		icon = "Fw190A5",
+		funnel_behavior = "",
+		nationality = 4,
+		hp_growth = 1478,
+		speed = 51,
+		id = 84080,
+		scale = 1,
+		weapon_ID = {
+			59040,
+			59440,
+			59140
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.66,
+					-0.9,
+					0
+				},
+				{
+					1.06,
+					1.54,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[84081] = {
+		id = 84081,
+		base = 84080,
 		max_hp = 44,
 		hp_growth = 1700,
 		weapon_ID = {
-			59121,
-			59221
-		}
-	},
-	[84122] = {
-		id = 84122,
-		base = 84120,
-		max_hp = 50,
-		hp_growth = 1922,
-		weapon_ID = {
-			59122,
-			59222
-		}
-	},
-	[84123] = {
-		id = 84123,
-		base = 84120,
-		max_hp = 56,
-		hp_growth = 2144,
-		weapon_ID = {
-			59123,
-			59223
-		}
-	},
-	[84124] = {
-		id = 84124,
-		base = 84120,
-		max_hp = 62,
-		hp_growth = 2365,
-		weapon_ID = {
-			59124,
-			59224
-		}
-	},
-	[84125] = {
-		id = 84125,
-		base = 84120,
-		max_hp = 67,
-		hp_growth = 2587,
-		weapon_ID = {
-			59125,
-			59225
-		}
-	},
-	[84126] = {
-		id = 84126,
-		base = 84120,
-		max_hp = 73,
-		hp_growth = 2809,
-		weapon_ID = {
-			59126,
-			59226
+			59041,
+			59441,
+			59141
 		}
 	}
 }

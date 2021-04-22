@@ -1,5 +1,59 @@
 pg = pg or {}
 pg.equip_data_statistics_198 = {
+	[27326] = {
+		id = 27326,
+		base = 27320,
+		ammo_info = {
+			{
+				6,
+				50666
+			},
+			{
+				5,
+				52766
+			}
+		},
+		weapon_id = {
+			27326,
+			82326
+		}
+	},
+	[27327] = {
+		id = 27327,
+		base = 27320,
+		ammo_info = {
+			{
+				6,
+				50667
+			},
+			{
+				5,
+				52767
+			}
+		},
+		weapon_id = {
+			27327,
+			82327
+		}
+	},
+	[27328] = {
+		id = 27328,
+		base = 27320,
+		ammo_info = {
+			{
+				6,
+				50668
+			},
+			{
+				5,
+				52768
+			}
+		},
+		weapon_id = {
+			27328,
+			82328
+		}
+	},
 	[27329] = {
 		id = 27329,
 		base = 27320,
@@ -314,92 +368,6 @@ pg.equip_data_statistics_198 = {
 		},
 		weapon_id = {
 			28024
-		}
-	},
-	[28025] = {
-		id = 28025,
-		base = 28020,
-		ammo_info = {
-			{
-				6,
-				50025
-			},
-			{
-				4,
-				51025
-			}
-		},
-		weapon_id = {
-			28025
-		}
-	},
-	[28026] = {
-		id = 28026,
-		base = 28020,
-		ammo_info = {
-			{
-				6,
-				50026
-			},
-			{
-				4,
-				51026
-			}
-		},
-		weapon_id = {
-			28026
-		}
-	},
-	[28040] = {
-		name = "Swordfish",
-		type = 8,
-		speciality = "Torpedo",
-		rarity = 4,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "28000",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 28040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50040
-			},
-			{
-				4,
-				51040
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			28040
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"TB"
 		}
 	}
 }

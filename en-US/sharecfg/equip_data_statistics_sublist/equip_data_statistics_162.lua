@@ -1,5 +1,80 @@
 pg = pg or {}
 pg.equip_data_statistics_162 = {
+	[23200] = {
+		name = "Prototype Triple 203mm Mk IX Main Gun Mount",
+		speciality = "Lock",
+		type = 3,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 45,
+		icon = "23200",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "28 x 6",
+		nationality = 2,
+		ammo = 2,
+		value_3 = 0,
+		id = 23200,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1402
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1402
+			},
+			{
+				4,
+				1214
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			23200
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CA",
+			"MG",
+			"HE"
+		}
+	},
+	[23201] = {
+		id = 23201,
+		damage = "30 x 6",
+		base = 23200,
+		weapon_id = {
+			23201
+		}
+	},
+	[23202] = {
+		id = 23202,
+		damage = "32 x 6",
+		base = 23200,
+		weapon_id = {
+			23202
+		}
+	},
 	[23203] = {
 		id = 23203,
 		damage = "34 x 6",
@@ -157,30 +232,6 @@ pg.equip_data_statistics_162 = {
 		base = 24000,
 		weapon_id = {
 			24002
-		}
-	},
-	[24003] = {
-		id = 24003,
-		damage = "56 x 4",
-		base = 24000,
-		weapon_id = {
-			24003
-		}
-	},
-	[24004] = {
-		id = 24004,
-		damage = "60 x 4",
-		base = 24000,
-		weapon_id = {
-			24004
-		}
-	},
-	[24005] = {
-		id = 24005,
-		damage = "66 x 4",
-		base = 24000,
-		weapon_id = {
-			24005
 		}
 	}
 }

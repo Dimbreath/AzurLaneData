@@ -8286,6 +8286,258 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1500001] = {
+		map = 1500001,
+		name = "Daedalian Hymn - Pt. 1|| ||CHAPTER EX||E.X.",
+		bgm = "story-italy",
+		type = 4,
+		on_activity = 929,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "FUXINGDEZANMEISHI1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1410001",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1410001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1500011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1500002] = {
+		map = 1500002,
+		name = "Daedalian Hymn - Pt. 2|| ||CHAPTER EX||E.X.",
+		bgm = "battle-italy",
+		type = 4,
+		on_activity = 929,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "FUXINGDEZANMEISHI15",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1410002",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1410002",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1500012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1500011] = {
+		map = 1500011,
+		name = "Daedalian Hymn - Pt. 1|| ||CHAPTER EX||E.X.",
+		bgm = "story-italy",
+		type = 5,
+		on_activity = 929,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "FUXINGDEZANMEISHI1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1410003",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1410003",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1500001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1500012] = {
+		map = 1500012,
+		name = "Daedalian Hymn - Pt. 2|| ||CHAPTER EX||E.X.",
+		bgm = "battle-italy",
+		type = 5,
+		on_activity = 929,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "FUXINGDEZANMEISHI15",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1410004",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1410004",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1500002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1500025] = {
+		map = 1500025,
+		name = "Daedalian Hymn - SP|| ||CHAPTER EX||E.X.",
+		bgm = "story-6",
+		type = 8,
+		on_activity = 929,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1410004",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1410004",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1500012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1500026] = {
+		map = 1500026,
+		name = "Daedalian Hymn - EX|| ||CHAPTER EX||E.X.",
+		bgm = "story-6",
+		type = 8,
+		on_activity = 929,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1410004",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1410004",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1500012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
@@ -9681,6 +9933,12 @@ pg.expedition_data_by_map = {
 		1490012,
 		1490025,
 		1490026,
+		1500001,
+		1500002,
+		1500011,
+		1500012,
+		1500025,
+		1500026,
 		2100000,
 		2100001,
 		2100010,

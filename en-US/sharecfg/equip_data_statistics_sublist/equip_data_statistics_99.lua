@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_99 = {
+	[14167] = {
+		id = 14167,
+		damage = "99 x 4",
+		base = 14160,
+		weapon_id = {
+			14167
+		}
+	},
+	[14168] = {
+		id = 14168,
+		damage = "104 x 4",
+		base = 14160,
+		weapon_id = {
+			14168
+		}
+	},
+	[14169] = {
+		id = 14169,
+		damage = "111 x 4",
+		base = 14160,
+		weapon_id = {
+			14169
+		}
+	},
 	[14170] = {
 		id = 14170,
 		damage = "116 x 4",
@@ -200,75 +224,6 @@ pg.equip_data_statistics_99 = {
 		base = 14200,
 		weapon_id = {
 			14203
-		}
-	},
-	[14220] = {
-		name = "Twin 406mm Mk 5 Main Gun Mount",
-		speciality = "Volley",
-		type = 4,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "14200",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "53 x 2",
-		nationality = 1,
-		ammo = 1,
-		value_3 = 0,
-		id = 14220,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1501
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			14220
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"BB",
-			"MG",
-			"AP"
-		}
-	},
-	[14221] = {
-		id = 14221,
-		damage = "62 x 2",
-		base = 14220,
-		weapon_id = {
-			14221
-		}
-	},
-	[14222] = {
-		id = 14222,
-		damage = "70 x 2",
-		base = 14220,
-		weapon_id = {
-			14222
 		}
 	}
 }

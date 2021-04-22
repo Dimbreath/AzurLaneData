@@ -1,5 +1,110 @@
 pg = pg or {}
 pg.aircraft_template_100 = {
+	[38125] = {
+		id = 38125,
+		base = 38120,
+		max_hp = 53,
+		hp_growth = 2022,
+		weapon_ID = {
+			50025,
+			51425
+		}
+	},
+	[38126] = {
+		id = 38126,
+		base = 38120,
+		max_hp = 57,
+		hp_growth = 2195,
+		weapon_ID = {
+			50026,
+			51426
+		}
+	},
+	[38140] = {
+		name = "天山",
+		max_hp = 33,
+		accuracy = 23,
+		model_ID = "tianshan",
+		ACC_growth = 0,
+		crash_DMG = 168,
+		dodge = 1.11,
+		attack_power = 2,
+		dodge_limit = 5,
+		type = 2,
+		AP_growth = 2000,
+		icon = "tianshan",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1271,
+		speed = 48,
+		id = 38140,
+		scale = 1,
+		weapon_ID = {
+			50040,
+			51440
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.58,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[38141] = {
+		id = 38141,
+		base = 38140,
+		max_hp = 38,
+		hp_growth = 1461,
+		weapon_ID = {
+			50041,
+			51441
+		}
+	},
 	[38142] = {
 		id = 38142,
 		base = 38140,
@@ -58,46 +163,6 @@ pg.aircraft_template_100 = {
 		weapon_ID = {
 			50047,
 			51447
-		}
-	},
-	[38148] = {
-		id = 38148,
-		base = 38140,
-		max_hp = 73,
-		hp_growth = 2796,
-		weapon_ID = {
-			50048,
-			51448
-		}
-	},
-	[38149] = {
-		id = 38149,
-		base = 38140,
-		max_hp = 78,
-		hp_growth = 2986,
-		weapon_ID = {
-			50049,
-			51449
-		}
-	},
-	[38150] = {
-		id = 38150,
-		base = 38140,
-		max_hp = 83,
-		hp_growth = 3177,
-		weapon_ID = {
-			50050,
-			51450
-		}
-	},
-	[38151] = {
-		id = 38151,
-		base = 38140,
-		max_hp = 88,
-		hp_growth = 3367,
-		weapon_ID = {
-			50051,
-			51451
 		}
 	}
 }

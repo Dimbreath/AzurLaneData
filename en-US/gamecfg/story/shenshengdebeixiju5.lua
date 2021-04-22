@@ -450,6 +450,7 @@ return {
 			bgm = "story-italy",
 			actor = 900198,
 			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "Littorio, how are matters developing? Is my assistance needed?",
 			flashout = {
 				dur = 1,
@@ -620,6 +621,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "Your plan sounds good, but this would be a formal declaration of war against the Royal Navy... Do you really think we can win...?",
 			typewriter = {
 				speed = 0.05,
@@ -681,11 +683,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 1,
 			bgName = "bg_story_italy",
-			nameColor = "#ffde38",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "Ahaha... Sometimes, it seems like you're the big sister here...",
 			typewriter = {
 				speed = 0.05,
@@ -697,11 +700,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 1,
 			bgName = "bg_story_italy",
-			nameColor = "#ffde38",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "Littorio, you always know what to say when my resolve wavers. Let's carry out your plan.",
 			typewriter = {
 				speed = 0.05,
@@ -719,6 +723,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "Well, except that part about letting you be the flagship.",
 			typewriter = {
 				speed = 0.05,
@@ -763,11 +768,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 1,
 			bgName = "bg_story_italy",
-			nameColor = "#ffde38",
 			dir = 1,
+			actor = 900198,
+			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "Hehe...",
 			typewriter = {
 				speed = 0.05,
@@ -818,6 +824,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "Why, I would love to~",
 			typewriter = {
 				speed = 0.05,

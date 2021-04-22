@@ -1,5 +1,31 @@
 pg = pg or {}
 pg.equip_data_statistics_234 = {
+	[34250] = {
+		id = 34250,
+		damage = "216 x 3",
+		base = 34240,
+		weapon_id = {
+			34250
+		}
+	},
+	[34251] = {
+		anti_siren = 100,
+		damage = "216 x 3",
+		base = 34240,
+		id = 34251,
+		weapon_id = {
+			34251
+		}
+	},
+	[34252] = {
+		anti_siren = 200,
+		damage = "216 x 3",
+		base = 34240,
+		id = 34252,
+		weapon_id = {
+			34252
+		}
+	},
 	[34253] = {
 		anti_siren = 300,
 		damage = "216 x 3",
@@ -210,30 +236,6 @@ pg.equip_data_statistics_234 = {
 			"ST",
 			"TP",
 			"DUO"
-		}
-	},
-	[35001] = {
-		id = 35001,
-		damage = "62 x 2",
-		base = 35000,
-		weapon_id = {
-			35001
-		}
-	},
-	[35002] = {
-		id = 35002,
-		damage = "72 x 2",
-		base = 35000,
-		weapon_id = {
-			35002
-		}
-	},
-	[35003] = {
-		id = 35003,
-		damage = "82 x 2",
-		base = 35000,
-		weapon_id = {
-			35003
 		}
 	}
 }

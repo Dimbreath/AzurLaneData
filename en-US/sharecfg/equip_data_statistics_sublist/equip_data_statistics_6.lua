@@ -1,5 +1,68 @@
 pg = pg or {}
 pg.equip_data_statistics_6 = {
+	[333] = {
+		name = "T3 Ironblood Heavy Cruiser Torpedo Secondary Gun",
+		damage = "4 x 3",
+		base = 331,
+		id = 333,
+		weapon_id = {
+			333
+		}
+	},
+	[334] = {
+		name = "T4 Ironblood Heavy Cruiser Torpedo Secondary Gun",
+		damage = "5 x 3",
+		base = 331,
+		id = 334,
+		weapon_id = {
+			334
+		}
+	},
+	[351] = {
+		name = "撒丁Torpedo重巡副炮T1",
+		speciality = "Lock",
+		type = 1,
+		tech = 1,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		damage = "2 x 2",
+		nationality = 0,
+		ammo = 5,
+		value_3 = 0,
+		id = 351,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			351
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"RM",
+			"DD",
+			"MG"
+		}
+	},
 	[352] = {
 		name = "撒丁Torpedo重巡副炮T2",
 		damage = "3 x 2",
@@ -415,52 +478,5 @@ pg.equip_data_statistics_6 = {
 			"ST",
 			"AA"
 		}
-	},
-	[500] = {
-		name = "Beaver Squad Tag",
-		tech = 0,
-		type = 10,
-		speciality = "N/A",
-		id = 500,
-		value_2 = 25,
-		icon = "500",
-		value_1 = "14",
-		attribute_2 = "durability",
-		rarity = 5,
-		descrip = "From the Eagles 23rd Destroyer Squadron\n<color=#fad545>All Beavers, maintain 31 knots! Forward! -- Charles Ausburne</color>",
-		nationality = 1,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "dodge",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6000
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"DEV"
-		}
-	},
-	[501] = {
-		id = 501,
-		value_2 = 30,
-		value_1 = "16",
-		base = 500
-	},
-	[502] = {
-		id = 502,
-		value_2 = 35,
-		value_1 = "18",
-		base = 500
 	}
 }

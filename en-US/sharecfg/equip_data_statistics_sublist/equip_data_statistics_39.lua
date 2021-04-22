@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.equip_data_statistics_39 = {
+	[1965] = {
+		id = 1965,
+		value_2 = 60,
+		value_1 = "13",
+		base = 1960
+	},
+	[1966] = {
+		id = 1966,
+		value_2 = 65,
+		value_1 = "14",
+		base = 1960
+	},
+	[1967] = {
+		id = 1967,
+		value_2 = 70,
+		value_1 = "15",
+		base = 1960
+	},
 	[1968] = {
 		id = 1968,
 		value_2 = 80,
@@ -130,48 +148,5 @@ pg.equip_data_statistics_39 = {
 		value_2 = 3,
 		value_1 = "157",
 		base = 2020
-	},
-	[2026] = {
-		id = 2026,
-		value_2 = 3,
-		value_1 = "171",
-		base = 2020
-	},
-	[2040] = {
-		name = "Fuel Filter",
-		tech = 3,
-		type = 10,
-		speciality = "N/A",
-		id = 2040,
-		value_2 = 2,
-		icon = "2000",
-		value_1 = "140",
-		attribute_2 = "dodge",
-		rarity = 4,
-		descrip = "Improves the quality of fuel.",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "durability",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[2041] = {
-		id = 2041,
-		value_1 = "161",
-		base = 2040
 	}
 }

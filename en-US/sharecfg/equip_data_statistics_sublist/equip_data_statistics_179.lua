@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_179 = {
+	[26103] = {
+		id = 26103,
+		damage = "40/wave",
+		base = 26100,
+		weapon_id = {
+			26103
+		}
+	},
+	[26120] = {
+		name = "Quadruple 40mm Pom-Pom AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "26100",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "30/wave",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 26120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			26120
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
+	[26121] = {
+		id = 26121,
+		damage = "35/wave",
+		base = 26120,
+		weapon_id = {
+			26121
+		}
+	},
 	[26122] = {
 		id = 26122,
 		damage = "40/wave",
@@ -164,31 +242,6 @@ pg.equip_data_statistics_179 = {
 		base = 26140,
 		weapon_id = {
 			26148
-		}
-	},
-	[26149] = {
-		id = 26149,
-		damage = "79/wave",
-		base = 26140,
-		weapon_id = {
-			26149
-		}
-	},
-	[26150] = {
-		id = 26150,
-		damage = "84/wave",
-		base = 26140,
-		weapon_id = {
-			26150
-		}
-	},
-	[26151] = {
-		anti_siren = 100,
-		damage = "84/wave",
-		base = 26140,
-		id = 26151,
-		weapon_id = {
-			26151
 		}
 	}
 }
