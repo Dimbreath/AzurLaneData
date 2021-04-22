@@ -1,5 +1,91 @@
 pg = pg or {}
 pg.equip_data_statistics_274 = {
+	[38046] = {
+		id = 38046,
+		base = 38040,
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				4,
+				51346
+			}
+		},
+		weapon_id = {
+			38046
+		}
+	},
+	[38047] = {
+		id = 38047,
+		base = 38040,
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				4,
+				51347
+			}
+		},
+		weapon_id = {
+			38047
+		}
+	},
+	[38060] = {
+		name = "九七式艦攻改",
+		type = 8,
+		speciality = "雷撃",
+		rarity = 3,
+		tech = 0,
+		descrip = "0",
+		value_2 = 12,
+		icon = "38060",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 38060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				4,
+				51340
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			38060
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
+	},
 	[38061] = {
 		id = 38061,
 		base = 38060,
@@ -289,57 +375,6 @@ pg.equip_data_statistics_274 = {
 		},
 		weapon_id = {
 			38121
-		}
-	},
-	[38122] = {
-		id = 38122,
-		base = 38120,
-		ammo_info = {
-			{
-				6,
-				50022
-			},
-			{
-				4,
-				51422
-			}
-		},
-		weapon_id = {
-			38122
-		}
-	},
-	[38123] = {
-		id = 38123,
-		base = 38120,
-		ammo_info = {
-			{
-				6,
-				50023
-			},
-			{
-				4,
-				51423
-			}
-		},
-		weapon_id = {
-			38123
-		}
-	},
-	[38124] = {
-		id = 38124,
-		base = 38120,
-		ammo_info = {
-			{
-				6,
-				50024
-			},
-			{
-				4,
-				51424
-			}
-		},
-		weapon_id = {
-			38124
 		}
 	}
 }

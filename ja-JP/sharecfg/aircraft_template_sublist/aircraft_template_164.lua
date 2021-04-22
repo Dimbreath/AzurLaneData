@@ -1,116 +1,59 @@
 pg = pg or {}
 pg.aircraft_template_164 = {
-	[67922] = {
-		max_hp = 47,
-		name = "独立技能鱼雷机Lv2",
-		base = 67921,
-		id = 67922,
-		hp_growth = 1826,
-		weapon_ID = {
-			67942
-		}
-	},
-	[67923] = {
-		max_hp = 53,
-		name = "独立技能鱼雷机Lv3",
-		base = 67921,
-		id = 67923,
-		hp_growth = 2036,
-		weapon_ID = {
-			67943
-		}
-	},
-	[67924] = {
-		max_hp = 58,
-		name = "独立技能鱼雷机Lv4",
-		base = 67921,
-		id = 67924,
-		hp_growth = 2247,
-		weapon_ID = {
-			67944
-		}
-	},
-	[67925] = {
-		max_hp = 64,
-		name = "独立技能鱼雷机Lv5",
-		base = 67921,
-		id = 67925,
-		hp_growth = 2458,
-		weapon_ID = {
-			67945
-		}
-	},
-	[67926] = {
-		max_hp = 69,
-		name = "独立技能鱼雷机Lv6",
-		base = 67921,
-		id = 67926,
-		hp_growth = 2669,
-		weapon_ID = {
-			67946
-		}
-	},
-	[67927] = {
-		max_hp = 75,
-		name = "独立技能鱼雷机Lv7",
-		base = 67921,
-		id = 67927,
-		hp_growth = 2879,
-		weapon_ID = {
-			67947
-		}
-	},
-	[67928] = {
-		max_hp = 80,
-		name = "独立技能鱼雷机Lv8",
-		base = 67921,
-		id = 67928,
-		hp_growth = 3090,
-		weapon_ID = {
-			67948
-		}
-	},
-	[67929] = {
+	[67788] = {
 		max_hp = 86,
-		name = "独立技能鱼雷机Lv9",
-		base = 67921,
-		id = 67929,
-		hp_growth = 3301,
+		name = "双龙改轰炸5 Lv8",
+		base = 67781,
+		id = 67788,
+		hp_growth = 3237,
 		weapon_ID = {
-			67949
+			67808,
+			67818
 		}
 	},
-	[67930] = {
-		max_hp = 91,
-		name = "独立技能鱼雷机Lv10",
-		base = 67921,
-		id = 67930,
-		hp_growth = 3511,
+	[67789] = {
+		max_hp = 92,
+		name = "双龙改轰炸5 Lv9",
+		base = 67781,
+		id = 67789,
+		hp_growth = 3458,
 		weapon_ID = {
-			67950
+			67809,
+			67819
 		}
 	},
-	[67931] = {
-		name = "独立技能鱼雷机Lv1",
+	[67790] = {
+		max_hp = 98,
+		name = "双龙改轰炸5 Lv10",
+		base = 67781,
+		id = 67790,
+		hp_growth = 3678,
+		weapon_ID = {
+			67810,
+			67820
+		}
+	},
+	[67791] = {
+		name = "双龙改雷1 Lv1",
 		max_hp = 42,
 		accuracy = 23,
-		model_ID = "tbf",
+		model_ID = "97jiangong",
 		ACC_growth = 0,
-		crash_DMG = 406,
+		crash_DMG = 208,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 3,
 		AP_growth = 2000,
-		icon = "tbf",
+		icon = "97jiangong",
 		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1615,
+		nationality = 3,
+		hp_growth = 1692,
 		speed = 48,
-		id = 67931,
+		id = 67791,
 		scale = 1,
 		weapon_ID = {
-			67951
+			67821
 		},
 		position_offset = {
 			0,
@@ -153,7 +96,7 @@ pg.aircraft_template_164 = {
 				0
 			},
 			{
-				0.52,
+				0.54,
 				0,
 				0
 			},
@@ -162,6 +105,66 @@ pg.aircraft_template_164 = {
 				0,
 				0
 			}
+		}
+	},
+	[67792] = {
+		max_hp = 48,
+		name = "双龙改雷1 Lv2",
+		base = 67791,
+		id = 67792,
+		hp_growth = 1913,
+		weapon_ID = {
+			67822
+		}
+	},
+	[67793] = {
+		max_hp = 54,
+		name = "双龙改雷1 Lv3",
+		base = 67791,
+		id = 67793,
+		hp_growth = 2133,
+		weapon_ID = {
+			67823
+		}
+	},
+	[67794] = {
+		max_hp = 61,
+		name = "双龙改雷1 Lv4",
+		base = 67791,
+		id = 67794,
+		hp_growth = 2354,
+		weapon_ID = {
+			67824
+		}
+	},
+	[67795] = {
+		max_hp = 67,
+		name = "双龙改雷1 Lv5",
+		base = 67791,
+		id = 67795,
+		hp_growth = 2575,
+		weapon_ID = {
+			67825
+		}
+	},
+	[67796] = {
+		max_hp = 73,
+		name = "双龙改雷1 Lv6",
+		base = 67791,
+		id = 67796,
+		hp_growth = 2796,
+		weapon_ID = {
+			67826
+		}
+	},
+	[67797] = {
+		max_hp = 79,
+		name = "双龙改雷1 Lv7",
+		base = 67791,
+		id = 67797,
+		hp_growth = 3016,
+		weapon_ID = {
+			67827
 		}
 	}
 }

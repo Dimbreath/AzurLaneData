@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_77 = {
+	[6002] = {
+		id = 6002,
+		damage = "8/回",
+		base = 6000,
+		weapon_id = {
+			6002
+		}
+	},
+	[6003] = {
+		id = 6003,
+		damage = "9/回",
+		base = 6000,
+		weapon_id = {
+			6003
+		}
+	},
+	[6020] = {
+		name = "12.7mm対空機銃",
+		speciality = "対空",
+		type = 6,
+		tech = 2,
+		descrip = "0",
+		value_2 = 5,
+		icon = "6000",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "8/回",
+		nationality = 0,
+		ammo = 5,
+		value_3 = 0,
+		id = 6020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			6020
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"AA"
+		}
+	},
 	[6021] = {
 		id = 6021,
 		damage = "9/回",
@@ -209,84 +287,6 @@ pg.equip_data_statistics_77 = {
 		base = 6100,
 		weapon_id = {
 			6101
-		}
-	},
-	[6102] = {
-		id = 6102,
-		damage = "22/回",
-		base = 6100,
-		weapon_id = {
-			6102
-		}
-	},
-	[6103] = {
-		id = 6103,
-		damage = "25/回",
-		base = 6100,
-		weapon_id = {
-			6103
-		}
-	},
-	[6120] = {
-		name = "100mm連装高角砲",
-		speciality = "対空",
-		type = 6,
-		tech = 2,
-		descrip = "0",
-		value_2 = 5,
-		icon = "6100",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "20/回",
-		nationality = 8,
-		ammo = 5,
-		value_3 = 0,
-		id = 6120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			6120
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"ST",
-			"AA"
 		}
 	}
 }

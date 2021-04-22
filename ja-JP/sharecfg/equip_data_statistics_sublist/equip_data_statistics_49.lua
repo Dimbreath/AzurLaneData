@@ -1,5 +1,20 @@
 pg = pg or {}
 pg.equip_data_statistics_49 = {
+	[2545] = {
+		id = 2545,
+		value_1 = "245",
+		base = 2540
+	},
+	[2546] = {
+		id = 2546,
+		value_1 = "266",
+		base = 2540
+	},
+	[2547] = {
+		id = 2547,
+		value_1 = "287",
+		base = 2540
+	},
 	[2640] = {
 		name = "九三式酸素魚雷",
 		tech = 3,
@@ -130,65 +145,5 @@ pg.equip_data_statistics_49 = {
 		value_2 = 12,
 		value_1 = "112",
 		torpedo_ammo = 4
-	},
-	[2653] = {
-		id = 2653,
-		anti_siren = 300,
-		base = 2640,
-		value_2 = 13,
-		value_1 = "118",
-		torpedo_ammo = 4
-	},
-	[2740] = {
-		name = "533mm磁気魚雷（水上艦用）",
-		tech = 3,
-		type = 10,
-		speciality = "なし",
-		id = 2740,
-		value_2 = 6,
-		icon = "2700",
-		value_1 = "28",
-		attribute_2 = "hit",
-		rarity = 5,
-		descrip = "水上艦用の533mm磁気魚雷。磁気信管と音響追跡技術を応用している",
-		nationality = 4,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "torpedo",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6570
-		},
-		part_main = {
-			1,
-			2,
-			3,
-			11,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			11,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"DEV"
-		}
-	},
-	[2741] = {
-		id = 2741,
-		value_1 = "32",
-		base = 2740
 	}
 }

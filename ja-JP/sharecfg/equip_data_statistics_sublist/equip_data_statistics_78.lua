@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_78 = {
+	[6102] = {
+		id = 6102,
+		damage = "22/回",
+		base = 6100,
+		weapon_id = {
+			6102
+		}
+	},
+	[6103] = {
+		id = 6103,
+		damage = "25/回",
+		base = 6100,
+		weapon_id = {
+			6103
+		}
+	},
+	[6120] = {
+		name = "100mm連装高角砲",
+		speciality = "対空",
+		type = 6,
+		tech = 2,
+		descrip = "0",
+		value_2 = 5,
+		icon = "6100",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "20/回",
+		nationality = 8,
+		ammo = 5,
+		value_3 = 0,
+		id = 6120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			6120
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		}
+	},
 	[6121] = {
 		id = 6121,
 		damage = "23/回",
@@ -206,81 +284,6 @@ pg.equip_data_statistics_78 = {
 		base = 7000,
 		weapon_id = {
 			7001
-		}
-	},
-	[7002] = {
-		id = 7002,
-		damage = "20 x 3",
-		base = 7000,
-		weapon_id = {
-			7002
-		}
-	},
-	[7003] = {
-		id = 7003,
-		damage = "22 x 3",
-		base = 7000,
-		weapon_id = {
-			7003
-		}
-	},
-	[7020] = {
-		name = "152mm単装砲",
-		speciality = "通常",
-		type = 2,
-		tech = 2,
-		descrip = "0",
-		value_2 = 5,
-		icon = "7000",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "18 x 3",
-		nationality = 7,
-		ammo = 3,
-		value_3 = 0,
-		id = 7020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1101
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1101
-			},
-			{
-				4,
-				1103
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			7020
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"CL",
-			"MG"
 		}
 	}
 }

@@ -1,5 +1,86 @@
 pg = pg or {}
 pg.equip_data_statistics_148 = {
+	[21140] = {
+		name = "102mm連装砲(副砲)",
+		speciality = "追尾",
+		type = 1,
+		tech = 3,
+		descrip = "0",
+		value_2 = 12,
+		icon = "21100",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "3 x 2",
+		nationality = 2,
+		ammo = 3,
+		value_3 = 0,
+		id = 21140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1100
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1100
+			},
+			{
+				4,
+				1007
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			21140
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
+	},
+	[21141] = {
+		id = 21141,
+		base = 21140,
+		weapon_id = {
+			21141
+		}
+	},
+	[21142] = {
+		id = 21142,
+		damage = "4 x 2",
+		base = 21140,
+		weapon_id = {
+			21142
+		}
+	},
 	[21143] = {
 		id = 21143,
 		damage = "4 x 2",
@@ -157,30 +238,6 @@ pg.equip_data_statistics_148 = {
 		base = 21160,
 		weapon_id = {
 			21167
-		}
-	},
-	[21168] = {
-		id = 21168,
-		damage = "9 x 2",
-		base = 21160,
-		weapon_id = {
-			21168
-		}
-	},
-	[21169] = {
-		id = 21169,
-		damage = "9 x 2",
-		base = 21160,
-		weapon_id = {
-			21169
-		}
-	},
-	[21170] = {
-		id = 21170,
-		damage = "10 x 2",
-		base = 21160,
-		weapon_id = {
-			21170
 		}
 	}
 }

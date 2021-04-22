@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_295 = {
+	[42222] = {
+		id = 42222,
+		damage = "10 x 4",
+		base = 42220,
+		weapon_id = {
+			42222
+		}
+	},
+	[42223] = {
+		id = 42223,
+		damage = "11 x 4",
+		base = 42220,
+		weapon_id = {
+			42223
+		}
+	},
+	[42224] = {
+		id = 42224,
+		damage = "12 x 4",
+		base = 42220,
+		weapon_id = {
+			42224
+		}
+	},
 	[42225] = {
 		id = 42225,
 		damage = "13 x 4",
@@ -154,83 +178,6 @@ pg.equip_data_statistics_295 = {
 		base = 42240,
 		weapon_id = {
 			42250
-		}
-	},
-	[42251] = {
-		anti_siren = 100,
-		damage = "21 x 4",
-		base = 42240,
-		id = 42251,
-		weapon_id = {
-			42251
-		}
-	},
-	[42300] = {
-		name = "150mmTbtsKC36単装砲",
-		speciality = "追尾",
-		type = 2,
-		tech = 1,
-		descrip = "1936A駆逐艦に装備された150mmTbtsKC36単装砲。軽巡洋艦と一部の駆逐艦に装備可能",
-		value_2 = 5,
-		icon = "42300",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "7 x 3",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 42300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1304
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1304
-			},
-			{
-				4,
-				1003
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			42300
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CL",
-			"MG",
-			"AP"
-		}
-	},
-	[42301] = {
-		id = 42301,
-		damage = "8 x 3",
-		base = 42300,
-		weapon_id = {
-			42301
 		}
 	}
 }

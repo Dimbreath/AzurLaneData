@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_256 = {
+	[36402] = {
+		id = 36402,
+		damage = "25/回",
+		base = 36400,
+		weapon_id = {
+			36402
+		}
+	},
+	[36403] = {
+		id = 36403,
+		damage = "29/回",
+		base = 36400,
+		weapon_id = {
+			36403
+		}
+	},
+	[36420] = {
+		name = "毘式40mm連装機銃",
+		speciality = "対空",
+		type = 6,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "36400",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "22/回",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36420,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			36420
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
+	},
 	[36421] = {
 		id = 36421,
 		damage = "25/回",
@@ -156,30 +234,6 @@ pg.equip_data_statistics_256 = {
 		base = 36440,
 		weapon_id = {
 			36446
-		}
-	},
-	[36447] = {
-		id = 36447,
-		damage = "53/回",
-		base = 36440,
-		weapon_id = {
-			36447
-		}
-	},
-	[36448] = {
-		id = 36448,
-		damage = "57/回",
-		base = 36440,
-		weapon_id = {
-			36448
-		}
-	},
-	[36449] = {
-		id = 36449,
-		damage = "61/回",
-		base = 36440,
-		weapon_id = {
-			36449
 		}
 	}
 }

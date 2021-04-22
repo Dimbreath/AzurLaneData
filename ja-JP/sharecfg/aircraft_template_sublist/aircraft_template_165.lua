@@ -1,119 +1,58 @@
 pg = pg or {}
 pg.aircraft_template_165 = {
-	[67932] = {
-		max_hp = 47,
-		name = "独立技能鱼雷机Lv2",
-		base = 67931,
-		id = 67932,
-		hp_growth = 1826,
-		weapon_ID = {
-			67952
-		}
-	},
-	[67933] = {
-		max_hp = 53,
-		name = "独立技能鱼雷机Lv3",
-		base = 67931,
-		id = 67933,
-		hp_growth = 2036,
-		weapon_ID = {
-			67953
-		}
-	},
-	[67934] = {
-		max_hp = 58,
-		name = "独立技能鱼雷机Lv4",
-		base = 67931,
-		id = 67934,
-		hp_growth = 2247,
-		weapon_ID = {
-			67954
-		}
-	},
-	[67935] = {
-		max_hp = 64,
-		name = "独立技能鱼雷机Lv5",
-		base = 67931,
-		id = 67935,
-		hp_growth = 2458,
-		weapon_ID = {
-			67955
-		}
-	},
-	[67936] = {
-		max_hp = 69,
-		name = "独立技能鱼雷机Lv6",
-		base = 67931,
-		id = 67936,
-		hp_growth = 2669,
-		weapon_ID = {
-			67956
-		}
-	},
-	[67937] = {
-		max_hp = 75,
-		name = "独立技能鱼雷机Lv7",
-		base = 67931,
-		id = 67937,
-		hp_growth = 2879,
-		weapon_ID = {
-			67957
-		}
-	},
-	[67938] = {
-		max_hp = 80,
-		name = "独立技能鱼雷机Lv8",
-		base = 67931,
-		id = 67938,
-		hp_growth = 3090,
-		weapon_ID = {
-			67958
-		}
-	},
-	[67939] = {
+	[67798] = {
 		max_hp = 86,
-		name = "独立技能鱼雷机Lv9",
-		base = 67931,
-		id = 67939,
-		hp_growth = 3301,
+		name = "双龙改雷1 Lv8",
+		base = 67791,
+		id = 67798,
+		hp_growth = 3237,
 		weapon_ID = {
-			67959
+			67828
 		}
 	},
-	[67940] = {
-		max_hp = 91,
-		name = "独立技能鱼雷机Lv10",
-		base = 67931,
-		id = 67940,
-		hp_growth = 3511,
+	[67799] = {
+		max_hp = 92,
+		name = "双龙改雷1 Lv9",
+		base = 67791,
+		id = 67799,
+		hp_growth = 3458,
 		weapon_ID = {
-			67960
+			67829
 		}
 	},
-	[67981] = {
-		name = "香格里拉技能飞机-PVE",
-		max_hp = 69,
+	[67800] = {
+		max_hp = 98,
+		name = "双龙改雷1 Lv10",
+		base = 67791,
+		id = 67800,
+		hp_growth = 3678,
+		weapon_ID = {
+			67830
+		}
+	},
+	[67891] = {
+		name = "追赶者剑鱼 Lv1",
+		max_hp = 40,
 		accuracy = 23,
-		model_ID = "F6F",
+		model_ID = "jianyu816",
 		ACC_growth = 0,
-		crash_DMG = 406,
+		crash_DMG = 102,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 1,
+		type = 3,
 		AP_growth = 2000,
-		icon = "F6F",
-		nationality = 1,
-		hp_growth = 2282,
-		speed = 48,
-		id = 67981,
+		icon = "jianyu816",
+		funnel_behavior = "",
+		nationality = 0,
+		hp_growth = 1538,
+		speed = 45,
+		id = 67891,
 		scale = 1,
-		funnel_behavior = {
-			offsetX = 22,
-			hover_range = 18,
-			offsetZ = -26
+		weapon_ID = {
+			67901,
+			67911
 		},
-		weapon_ID = {},
 		position_offset = {
 			0,
 			5,
@@ -132,13 +71,13 @@ pg.aircraft_template_165 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					1.03,
+					-1.43,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					1.01,
+					1.43,
 					0
 				}
 			}
@@ -164,6 +103,72 @@ pg.aircraft_template_165 = {
 				0,
 				0
 			}
+		}
+	},
+	[67892] = {
+		max_hp = 45,
+		name = "追赶者剑鱼 Lv2",
+		base = 67891,
+		id = 67892,
+		hp_growth = 1739,
+		weapon_ID = {
+			67902,
+			67912
+		}
+	},
+	[67893] = {
+		max_hp = 50,
+		name = "追赶者剑鱼 Lv3",
+		base = 67891,
+		id = 67893,
+		hp_growth = 1940,
+		weapon_ID = {
+			67903,
+			67913
+		}
+	},
+	[67894] = {
+		max_hp = 56,
+		name = "追赶者剑鱼 Lv4",
+		base = 67891,
+		id = 67894,
+		hp_growth = 2140,
+		weapon_ID = {
+			67904,
+			67914
+		}
+	},
+	[67895] = {
+		max_hp = 61,
+		name = "追赶者剑鱼 Lv5",
+		base = 67891,
+		id = 67895,
+		hp_growth = 2341,
+		weapon_ID = {
+			67905,
+			67915
+		}
+	},
+	[67896] = {
+		max_hp = 66,
+		name = "追赶者剑鱼 Lv6",
+		base = 67891,
+		id = 67896,
+		hp_growth = 2541,
+		weapon_ID = {
+			67906,
+			67916
+		}
+	},
+	[67897] = {
+		max_hp = 71,
+		name = "追赶者剑鱼 Lv7",
+		base = 67891,
+		id = 67897,
+		hp_growth = 2742,
+		weapon_ID = {
+			67907,
+			67917
 		}
 	}
 }

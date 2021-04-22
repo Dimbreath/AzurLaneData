@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_301 = {
+	[43146] = {
+		id = 43146,
+		damage = "47 x 6",
+		base = 43140,
+		weapon_id = {
+			43146
+		}
+	},
+	[43147] = {
+		id = 43147,
+		damage = "49 x 6",
+		base = 43140,
+		weapon_id = {
+			43147
+		}
+	},
+	[43148] = {
+		id = 43148,
+		damage = "51 x 6",
+		base = 43140,
+		weapon_id = {
+			43148
+		}
+	},
 	[43149] = {
 		id = 43149,
 		damage = "53 x 6",
@@ -191,74 +215,6 @@ pg.equip_data_statistics_301 = {
 		base = 44020,
 		weapon_id = {
 			44025
-		}
-	},
-	[44026] = {
-		id = 44026,
-		damage = "64 x 3",
-		base = 44020,
-		weapon_id = {
-			44026
-		}
-	},
-	[44040] = {
-		name = "283mmSKC34三連装砲",
-		speciality = "投射",
-		type = 4,
-		tech = 3,
-		descrip = "シャルンホルスト級の主砲、283mmSKC34三連装砲。戦艦と巡洋戦艦にのみ装備可能",
-		value_2 = 25,
-		icon = "44000",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "40 x 3",
-		nationality = 4,
-		ammo = 3,
-		value_3 = 0,
-		id = 44040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1510
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			44040
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"BB",
-			"MG"
-		}
-	},
-	[44041] = {
-		id = 44041,
-		damage = "46 x 3",
-		base = 44040,
-		weapon_id = {
-			44041
 		}
 	}
 }

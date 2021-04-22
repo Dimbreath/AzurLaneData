@@ -1,5 +1,48 @@
 pg = pg or {}
 pg.equip_data_statistics_47 = {
+	[2420] = {
+		name = "応急修理装置",
+		tech = 2,
+		type = 10,
+		speciality = "なし",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "2400",
+		value_1 = "140",
+		descrip = "応急修理チーム導入セット。ただし自分の耐久しか回復できない",
+		rarity = 3,
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 2420,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6110
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[2421] = {
+		id = 2421,
+		value_1 = "161",
+		base = 2420
+	},
+	[2422] = {
+		id = 2422,
+		value_1 = "182",
+		base = 2420
+	},
 	[2423] = {
 		id = 2423,
 		value_1 = "203",
@@ -91,22 +134,6 @@ pg.equip_data_statistics_47 = {
 	[2448] = {
 		id = 2448,
 		value_1 = "440",
-		base = 2440
-	},
-	[2449] = {
-		id = 2449,
-		value_1 = "470",
-		base = 2440
-	},
-	[2450] = {
-		id = 2450,
-		value_1 = "500",
-		base = 2440
-	},
-	[2451] = {
-		id = 2451,
-		anti_siren = 100,
-		value_1 = "530",
 		base = 2440
 	}
 }

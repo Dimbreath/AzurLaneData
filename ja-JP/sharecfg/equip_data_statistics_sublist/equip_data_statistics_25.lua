@@ -1,5 +1,47 @@
 pg = pg or {}
 pg.equip_data_statistics_25 = {
+	[1102] = {
+		id = 1102,
+		value_1 = "13",
+		base = 1100
+	},
+	[1103] = {
+		id = 1103,
+		value_1 = "14",
+		base = 1100
+	},
+	[1120] = {
+		name = "対空レーダー",
+		tech = 2,
+		type = 10,
+		speciality = "なし",
+		attribute_1 = "antiaircraft",
+		value_2 = 0,
+		icon = "1100",
+		value_1 = "18",
+		descrip = "対空電探（レーダー）。対空を上げることができる",
+		rarity = 3,
+		nationality = 1,
+		ammo = 10,
+		value_3 = 0,
+		id = 1120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DEV"
+		}
+	},
 	[1121] = {
 		id = 1121,
 		value_1 = "20",
@@ -90,21 +132,6 @@ pg.equip_data_statistics_25 = {
 	[1146] = {
 		id = 1146,
 		value_1 = "53",
-		base = 1140
-	},
-	[1147] = {
-		id = 1147,
-		value_1 = "57",
-		base = 1140
-	},
-	[1148] = {
-		id = 1148,
-		value_1 = "61",
-		base = 1140
-	},
-	[1149] = {
-		id = 1149,
-		value_1 = "65",
 		base = 1140
 	}
 }

@@ -1,37 +1,86 @@
 pg = pg or {}
 pg.aircraft_template_176 = {
-	[68780] = {
-		max_hp = 98,
-		name = "赤城μ技能舰爆Lv10",
-		base = 68771,
-		id = 68780,
-		hp_growth = 3678,
+	[68626] = {
+		max_hp = 84,
+		name = "巴丹技能F6FLV6",
+		base = 68621,
+		id = 68626,
+		hp_growth = 3218,
 		weapon_ID = {
-			68790,
-			68800
+			50346,
+			50546,
+			68636
 		}
 	},
-	[68801] = {
-		name = "赤城μ技能舰攻Lv1",
-		max_hp = 42,
+	[68627] = {
+		max_hp = 90,
+		name = "巴丹技能F6FLV7",
+		base = 68621,
+		id = 68627,
+		hp_growth = 3472,
+		weapon_ID = {
+			50347,
+			50547,
+			68637
+		}
+	},
+	[68628] = {
+		max_hp = 97,
+		name = "巴丹技能F6FLV8",
+		base = 68621,
+		id = 68628,
+		hp_growth = 3726,
+		weapon_ID = {
+			50348,
+			50548,
+			68638
+		}
+	},
+	[68629] = {
+		max_hp = 103,
+		name = "巴丹技能F6FLV9",
+		base = 68621,
+		id = 68629,
+		hp_growth = 3980,
+		weapon_ID = {
+			50349,
+			50549,
+			68639
+		}
+	},
+	[68630] = {
+		max_hp = 110,
+		name = "巴丹技能F6FLV10",
+		base = 68621,
+		id = 68630,
+		hp_growth = 4234,
+		weapon_ID = {
+			50350,
+			50550,
+			68640
+		}
+	},
+	[68651] = {
+		name = "可畏技能鱼雷机Lv1",
+		max_hp = 36,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "qinghuayu",
 		ACC_growth = 0,
-		crash_DMG = 208,
+		crash_DMG = 406,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 3,
+		type = 2,
 		AP_growth = 2000,
-		icon = "97jiangong",
+		icon = "qinghuayu",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1692,
-		speed = 48,
-		id = 68801,
+		nationality = 1,
+		hp_growth = 1385,
+		speed = 60,
+		id = 68651,
 		scale = 1,
 		weapon_ID = {
-			68811
+			68661
 		},
 		position_offset = {
 			0,
@@ -74,8 +123,8 @@ pg.aircraft_template_176 = {
 				0
 			},
 			{
-				0.54,
-				0,
+				0.15,
+				-0.08,
 				0
 			},
 			{
@@ -85,84 +134,44 @@ pg.aircraft_template_176 = {
 			}
 		}
 	},
-	[68802] = {
+	[68652] = {
+		max_hp = 42,
+		name = "可畏技能鱼雷机Lv2",
+		base = 68651,
+		id = 68652,
+		hp_growth = 1621,
+		weapon_ID = {
+			68662
+		}
+	},
+	[68653] = {
 		max_hp = 48,
-		name = "赤城μ技能舰攻Lv2",
-		base = 68801,
-		id = 68802,
-		hp_growth = 1913,
+		name = "可畏技能鱼雷机Lv3",
+		base = 68651,
+		id = 68653,
+		hp_growth = 1857,
 		weapon_ID = {
-			68812
+			68663
 		}
 	},
-	[68803] = {
+	[68654] = {
 		max_hp = 54,
-		name = "赤城μ技能舰攻Lv3",
-		base = 68801,
-		id = 68803,
-		hp_growth = 2133,
+		name = "可畏技能鱼雷机Lv4",
+		base = 68651,
+		id = 68654,
+		hp_growth = 2093,
 		weapon_ID = {
-			68813
+			68664
 		}
 	},
-	[68804] = {
-		max_hp = 61,
-		name = "赤城μ技能舰攻Lv4",
-		base = 68801,
-		id = 68804,
-		hp_growth = 2354,
+	[68655] = {
+		max_hp = 60,
+		name = "可畏技能鱼雷机Lv5",
+		base = 68651,
+		id = 68655,
+		hp_growth = 2329,
 		weapon_ID = {
-			68814
-		}
-	},
-	[68805] = {
-		max_hp = 67,
-		name = "赤城μ技能舰攻Lv5",
-		base = 68801,
-		id = 68805,
-		hp_growth = 2575,
-		weapon_ID = {
-			68815
-		}
-	},
-	[68806] = {
-		max_hp = 73,
-		name = "赤城μ技能舰攻Lv6",
-		base = 68801,
-		id = 68806,
-		hp_growth = 2796,
-		weapon_ID = {
-			68816
-		}
-	},
-	[68807] = {
-		max_hp = 79,
-		name = "赤城μ技能舰攻Lv7",
-		base = 68801,
-		id = 68807,
-		hp_growth = 3016,
-		weapon_ID = {
-			68817
-		}
-	},
-	[68808] = {
-		max_hp = 86,
-		name = "赤城μ技能舰攻Lv8",
-		base = 68801,
-		id = 68808,
-		hp_growth = 3237,
-		weapon_ID = {
-			68818
-		}
-	},
-	[68809] = {
-		max_hp = 92,
-		name = "赤城μ技能舰攻Lv9",
-		base = 68801,
-		id = 68809,
-		hp_growth = 3458,
-		weapon_ID = {
-			68819
+			68665
 		}
 	}
 }

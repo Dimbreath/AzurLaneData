@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_263 = {
+	[36705] = {
+		id = 36705,
+		damage = "67/回",
+		base = 36700,
+		weapon_id = {
+			36705
+		}
+	},
+	[36706] = {
+		id = 36706,
+		damage = "71/回",
+		base = 36700,
+		weapon_id = {
+			36706
+		}
+	},
+	[36707] = {
+		id = 36707,
+		damage = "75/回",
+		base = 36700,
+		weapon_id = {
+			36707
+		}
+	},
 	[36708] = {
 		id = 36708,
 		damage = "79/回",
@@ -216,83 +240,6 @@ pg.equip_data_statistics_263 = {
 		weapon_id = {
 			37022,
 			83022
-		}
-	},
-	[37023] = {
-		id = 37023,
-		base = 37020,
-		ammo_info = {
-			{
-				6,
-				50023
-			}
-		},
-		weapon_id = {
-			37023,
-			83023
-		}
-	},
-	[37040] = {
-		name = "九六式艦戦",
-		type = 7,
-		speciality = "航空",
-		rarity = 3,
-		tech = 3,
-		descrip = "0",
-		value_2 = 12,
-		icon = "37000",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 37040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50040
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			37040,
-			83040
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"FT"
-		}
-	},
-	[37041] = {
-		id = 37041,
-		base = 37040,
-		ammo_info = {
-			{
-				6,
-				50041
-			}
-		},
-		weapon_id = {
-			37041,
-			83041
 		}
 	}
 }

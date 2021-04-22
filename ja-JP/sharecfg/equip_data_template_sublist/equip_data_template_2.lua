@@ -1,33 +1,5 @@
 pg = pg or {}
 pg.equip_data_template_2 = {
-	[520] = {
-		important = 2,
-		destory_gold = 25,
-		type = 10,
-		group = 520,
-		restore_gold = 0,
-		trans_use_gold = 30,
-		next = 521,
-		prev = 0,
-		id = 520,
-		equip_limit = 0,
-		level = 1,
-		ship_type_forbidden = {},
-		trans_use_item = {
-			{
-				17001,
-				2
-			}
-		},
-		destory_item = {
-			{
-				17003,
-				1
-			}
-		},
-		restore_item = {},
-		upgrade_formula_id = {}
-	},
 	[521] = {
 		trans_use_gold = 90,
 		next = 522,
@@ -576,6 +548,66 @@ pg.equip_data_template_2 = {
 			{
 				17990,
 				5
+			}
+		}
+	},
+	[540] = {
+		important = 2,
+		destory_gold = 25,
+		type = 10,
+		group = 540,
+		restore_gold = 0,
+		trans_use_gold = 30,
+		next = 541,
+		prev = 0,
+		id = 540,
+		equip_limit = 0,
+		level = 1,
+		ship_type_forbidden = {},
+		trans_use_item = {
+			{
+				17001,
+				2
+			}
+		},
+		destory_item = {
+			{
+				17003,
+				1
+			}
+		},
+		restore_item = {},
+		upgrade_formula_id = {}
+	},
+	[541] = {
+		trans_use_gold = 90,
+		next = 542,
+		base = 540,
+		restore_gold = 30,
+		destory_gold = 33,
+		prev = 540,
+		id = 541,
+		level = 2,
+		trans_use_item = {
+			{
+				17001,
+				5
+			}
+		},
+		destory_item = {
+			{
+				17001,
+				1
+			},
+			{
+				17003,
+				1
+			}
+		},
+		restore_item = {
+			{
+				17001,
+				2
 			}
 		}
 	}

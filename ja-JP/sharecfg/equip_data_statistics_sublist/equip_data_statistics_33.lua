@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.equip_data_statistics_33 = {
+	[1501] = {
+		id = 1501,
+		value_2 = 3,
+		value_1 = "7",
+		base = 1500
+	},
+	[1502] = {
+		id = 1502,
+		value_2 = 3,
+		value_1 = "8",
+		base = 1500
+	},
+	[1503] = {
+		id = 1503,
+		value_2 = 3,
+		value_1 = "9",
+		base = 1500
+	},
 	[1504] = {
 		id = 1504,
 		value_2 = 4,
@@ -137,83 +155,5 @@ pg.equip_data_statistics_33 = {
 		value_2 = 9,
 		value_1 = "23",
 		base = 1520
-	},
-	[1530] = {
-		id = 1530,
-		value_2 = 10,
-		value_1 = "24",
-		base = 1520
-	},
-	[1540] = {
-		name = "SGレーダー",
-		tech = 3,
-		type = 10,
-		speciality = "なし",
-		id = 1540,
-		value_2 = 6,
-		icon = "1500",
-		value_1 = "14",
-		attribute_2 = "dodge",
-		rarity = 5,
-		descrip = "ユニオンの先鋭電探。予想外の接敵を防ぐことができる",
-		nationality = 1,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "hit",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6060
-		},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		equip_parameters = {
-			avoid_extra = 1200,
-			ambush_extra = 1200
-		},
-		label = {
-			"USS",
-			"DEV",
-			"SG"
-		}
-	},
-	[1541] = {
-		id = 1541,
-		value_1 = "16",
-		base = 1540
 	}
 }

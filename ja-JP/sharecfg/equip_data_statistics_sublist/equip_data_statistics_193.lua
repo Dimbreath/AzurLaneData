@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.equip_data_statistics_193 = {
+	[26609] = {
+		id = 26609,
+		damage = "90/回",
+		base = 26600,
+		weapon_id = {
+			26609
+		}
+	},
+	[26610] = {
+		id = 26610,
+		damage = "96/回",
+		base = 26600,
+		weapon_id = {
+			26610
+		}
+	},
+	[26611] = {
+		anti_siren = 100,
+		damage = "96/回",
+		base = 26600,
+		id = 26611,
+		weapon_id = {
+			26611
+		}
+	},
 	[26612] = {
 		anti_siren = 200,
 		damage = "96/回",
@@ -159,33 +184,6 @@ pg.equip_data_statistics_193 = {
 		base = 26620,
 		weapon_id = {
 			26630
-		}
-	},
-	[26631] = {
-		anti_siren = 100,
-		damage = "96/回",
-		base = 26620,
-		id = 26631,
-		weapon_id = {
-			26631
-		}
-	},
-	[26632] = {
-		anti_siren = 200,
-		damage = "96/回",
-		base = 26620,
-		id = 26632,
-		weapon_id = {
-			26632
-		}
-	},
-	[26633] = {
-		anti_siren = 300,
-		damage = "96/回",
-		base = 26620,
-		id = 26633,
-		weapon_id = {
-			26633
 		}
 	}
 }

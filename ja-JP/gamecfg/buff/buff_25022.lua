@@ -10,7 +10,7 @@ return {
 	desc = "主炮每进行10次攻击，触发全弹发射-诗人级",
 	stack = 1,
 	color = "red",
-	icon = 20200,
+	icon = 20000,
 	last_effect = "",
 	effect_list = {
 		{

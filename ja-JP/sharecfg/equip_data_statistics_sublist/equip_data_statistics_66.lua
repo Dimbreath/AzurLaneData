@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.equip_data_statistics_66 = {
+	[4221] = {
+		id = 4221,
+		base = 4220,
+		ammo_info = {
+			{
+				8,
+				53121
+			}
+		},
+		weapon_id = {
+			4221
+		}
+	},
+	[4222] = {
+		id = 4222,
+		base = 4220,
+		ammo_info = {
+			{
+				8,
+				53122
+			}
+		},
+		weapon_id = {
+			4222
+		}
+	},
+	[4223] = {
+		id = 4223,
+		base = 4220,
+		ammo_info = {
+			{
+				8,
+				53123
+			}
+		},
+		weapon_id = {
+			4223
+		}
+	},
 	[4224] = {
 		id = 4224,
 		base = 4220,
@@ -198,77 +237,6 @@ pg.equip_data_statistics_66 = {
 		},
 		weapon_id = {
 			4249
-		}
-	},
-	[4250] = {
-		id = 4250,
-		base = 4240,
-		ammo_info = {
-			{
-				8,
-				53150
-			}
-		},
-		weapon_id = {
-			4250
-		}
-	},
-	[4251] = {
-		anti_siren = 100,
-		base = 4240,
-		id = 4251,
-		ammo_info = {
-			{
-				8,
-				53150
-			}
-		},
-		weapon_id = {
-			4251
-		}
-	},
-	[4300] = {
-		name = "TBM-3アベンジャー（対潜）",
-		type = 15,
-		speciality = "対潜",
-		rarity = 2,
-		tech = 1,
-		descrip = "より出力の高いエンジンに換装したTBFのバリエーション ",
-		value_2 = 5,
-		icon = "4300",
-		attribute_2 = "antisub",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 4300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				8,
-				53200
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			4300
-		},
-		skill_id = {},
-		part_main = {
-			6
-		},
-		part_sub = {
-			6
-		},
-		equip_parameters = {},
-		label = {
-			"ASA"
 		}
 	}
 }

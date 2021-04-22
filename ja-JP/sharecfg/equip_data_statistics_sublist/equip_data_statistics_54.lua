@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.equip_data_statistics_54 = {
+	[3027] = {
+		id = 3027,
+		value_2 = 8,
+		value_1 = "18",
+		base = 3020
+	},
+	[3028] = {
+		id = 3028,
+		value_2 = 9,
+		value_1 = "20",
+		base = 3020
+	},
+	[3029] = {
+		id = 3029,
+		value_2 = 9,
+		value_1 = "22",
+		base = 3020
+	},
 	[3030] = {
 		id = 3030,
 		value_2 = 10,
@@ -113,56 +131,5 @@ pg.equip_data_statistics_54 = {
 		base = 3040,
 		value_2 = 13,
 		value_1 = "38"
-	},
-	[3052] = {
-		id = 3052,
-		anti_siren = 200,
-		base = 3040,
-		value_2 = 14,
-		value_1 = "41"
-	},
-	[3053] = {
-		id = 3053,
-		anti_siren = 300,
-		base = 3040,
-		value_2 = 15,
-		value_1 = "44"
-	},
-	[3100] = {
-		name = "圧縮酸素ボンベ",
-		tech = 0,
-		type = 10,
-		speciality = "なし",
-		attribute_1 = "oxy_max",
-		value_2 = 0,
-		icon = "3100",
-		value_1 = "18",
-		descrip = "圧縮酸素を保存するボンベ。潜航力を上昇させることが可能 ",
-		rarity = 4,
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 3100,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
 	}
 }

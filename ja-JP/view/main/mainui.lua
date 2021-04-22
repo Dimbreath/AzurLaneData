@@ -126,6 +126,7 @@ function slot0.Ctor(slot0)
 end
 
 function slot0.init(slot0)
+	slot0.redDotHelper = MainSceneRetDotHelper.New(slot0._go)
 	slot0._leftPanel = slot0:findTF("toTop/frame/leftPanel")
 	slot0._hideBtn = slot0:findTF("toTop/frame/leftPanel/hideButton")
 	slot0._cameraBtn = slot0:findTF("toTop/frame/leftPanel/cameraButton")
@@ -134,17 +135,12 @@ function slot0.init(slot0)
 	slot0._monthCardBtn = slot0:findTF("toTop/frame/leftPanel/monthCardButton")
 	slot0._commissionBtn = slot0:findTF("toTop/frame/leftPanel/commissionButton")
 	slot0._commissionBtn.localPosition = Vector3(0, slot0._commissionBtn.localPosition.y, 0)
-	slot0._commissionTip = slot0:findTF("toTop/frame/leftPanel/commissionButton/tip")
 	slot0._rightPanel = slot0:findTF("toTop/frame/rightPanel")
 	slot0._combatBtn = slot0:findTF("toTop/frame/rightPanel/eventPanel/combatBtn")
 	slot0._formationBtn = slot0:findTF("toTop/frame/rightPanel/eventPanel/formationButton")
 	slot0._rightTopPanel = slot0:findTF("toTop/frame/rightTopPanel")
 	slot0._friendBtn = slot0:findTF("toTop/frame/rightTopPanel/bg/btnsArea/friendButton")
 	slot0._mailBtn = slot0:findTF("toTop/frame/rightTopPanel/bg/btnsArea/mailButton")
-	slot0._mailMsg = slot0:findTF("unread", slot0._mailBtn)
-	slot0._mailEmpty = slot0:findTF("read", slot0._mailBtn)
-	slot0._attachmentHint = slot0:findTF("attachmentLabel", slot0._mailBtn)
-	slot0._attachmentCountText = slot0:findTF("attachmentCountText", slot0._attachmentHint):GetComponent(typeof(Text))
 	slot0._noticeBtn = slot0:findTF("toTop/frame/rightTopPanel/bg/btnsArea/noticeButton")
 	slot0._settingBtn = slot0:findTF("toTop/frame/rightTopPanel/bg/btnsArea/settingButton")
 	slot0._rankBtn = slot0:findTF("toTop/frame/rightTopPanel/bg/btnsArea/rankButton")
@@ -182,15 +178,6 @@ function slot0.init(slot0)
 	slot0._montgcardTag = slot0:findTF("MonthcardTag", slot0._mallBtn)
 	slot0._liveBtn = slot0:findTF("toTop/frame/bottomPanel/btm/buttons_container/liveButton")
 	slot0._technologyBtn = slot0:findTF("toTop/frame/bottomPanel/btm/buttons_container/technologyButton")
-
-	if not LOCK_SECONDARY then
-		slot0._academyBtn = slot0:findTF("secondary_panel/frame/bg/school_btn")
-		slot0._haremBtn = slot0:findTF("secondary_panel/frame/bg/backyard_btn")
-	else
-		slot0._academyBtn = slot0:findTF("toTop/frame/bottomPanel/btm/buttons_container/academyButton")
-		slot0._haremBtn = slot0:findTF("toTop/frame/bottomPanel/btm/buttons_container/haremButton")
-	end
-
 	slot0._bottomBlur = slot0._bottomPanel:Find("btm")
 	slot0._rightTopBlur = slot0._rightTopPanel:Find("bg")
 	slot0._playerResOb = slot0:findTF("toTop/frame/playerRes")
@@ -253,7 +240,7 @@ function slot0.init(slot0)
 	slot0.skinExpireDisplayPage = SkinExpireDisplayPage.New(slot0.toTopPanel, slot0.event)
 	slot0.attireExpireDisplayPage = AttireExpireDisplayPage.New(slot0.toTopPanel, slot0.event)
 	slot0.skinExperienceDiplayPage = SkinExperienceDiplayPage.New(slot0.toTopPanel, slot0.event)
-	slot0.secondaryPage = MainUISecondaryPage.New(slot0._tf, slot0.event)
+	slot0.secondaryPage = MainUISecondaryPage.New(slot0:findTF("MainUISecondaryPanel"), slot0)
 end
 
 function slot0.uiEnterAnim(slot0)
@@ -267,10 +254,6 @@ function slot0.uiEnterAnim(slot0)
 				uv1.blocksRaycasts = true
 			else
 				uv1.blocksRaycasts = true
-
-				if not uv0._attachmentCount then
-					uv0._attachmentCount = 0
-				end
 			end
 		end
 
@@ -338,7 +321,7 @@ function slot0.uiEnterAnim(slot0)
 end
 
 function slot0.openSecondaryPanel(slot0)
-	slot0.secondaryPage:ExecuteAction("Show", slot0._player, slot0.schoolTip, slot0.commanderTip, slot0.backyardTip)
+	slot0.secondaryPage:Show(slot0._player)
 end
 
 function slot0.closeSecondaryPanel(slot0, slot1)
@@ -346,34 +329,8 @@ function slot0.closeSecondaryPanel(slot0, slot1)
 		slot0:enablePartialBlur()
 	end
 
-	if slot0.secondaryPage and slot0.secondaryPage:GetLoaded() then
+	if slot0.secondaryPage then
 		slot0.secondaryPage:Hide()
-	end
-end
-
-function slot0.disableTraningCampAndRefluxTip(slot0)
-	setActive(slot0.traingCampBtn:Find("xinshou01"), false)
-	setActive(slot0.refluxBtn:Find("effect"), false)
-end
-
-function slot0.updateTraningCampBtn(slot0)
-	slot1, slot2 = TrainingCampScene.isNormalActOn()
-	slot3, slot4 = TrainingCampScene.isTecActOn()
-
-	setActive(slot0.traingCampBtn:Find("xinshou01"), slot2 or slot4)
-
-	slot0.openTraningCamp = slot1 or slot3
-
-	setActive(slot0.traingCampBtn, slot0.openTraningCamp)
-end
-
-function slot0.updateRefluxBtn(slot0)
-	slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_REFLUX) and not slot2:isEnd()
-
-	setActive(slot0.refluxBtn, slot3)
-
-	if slot3 then
-		setActive(slot0.refluxBtn:Find("effect"), slot1:existRefluxAwards())
 	end
 end
 
@@ -668,9 +625,6 @@ function slot0.didEnter(slot0)
 		uv0:emit(MainUIMediator.OPEN_TRANINGCAMP)
 	end, SFX_PANEL)
 	slot0:uiEnterAnim()
-
-	slot0._attachmentCount = 0
-
 	onButton(slot0, slot0.traingCampBtn, function ()
 		uv0:emit(MainUIMediator.OPEN_TRANINGCAMP)
 	end, SFX_PANEL)
@@ -800,25 +754,6 @@ function slot0.didEnter(slot0)
 		uv0:emit(MainUIMediator.OPEN_MEMORY)
 	end, SFX_UI_MENU)
 
-	if LOCK_SECONDARY then
-		onButton(slot0, slot0._haremBtn, function ()
-			uv0:emit(MainUIMediator.OPEN_BACKYARD)
-		end, SFX_MAIN)
-		onButton(slot0, slot0._academyBtn, function ()
-			uv0:emit(MainUIMediator.OPEN_SCHOOLSCENE)
-		end, SFX_MAIN)
-
-		if not pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0._player.level, "BackYardMediator") then
-			setActive(slot0:findTF("lock", slot0._haremBtn), true)
-
-			slot0._haremBtn:GetComponent(typeof(Image)).color = Color(0.3, 0.3, 0.3, 1)
-		else
-			setActive(slot0:findTF("lock", slot0._haremBtn), false)
-
-			slot0._haremBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
-		end
-	end
-
 	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0._player.level, "NewGuildMediator") then
 		setActive(slot0:findTF("lock", slot0._guildButton), true)
 
@@ -947,6 +882,8 @@ function slot0.didEnter(slot0)
 
 	setActive(slot0._settingBottom, false)
 	setActive(slot0._settingRight, false)
+	setActive(slot0.refluxBtn, getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_REFLUX) and not slot5:isEnd())
+	setActive(slot0.traingCampBtn, TrainingCampScene.isNormalActOn() or TrainingCampScene.isTecActOn())
 	TagTipHelper.MonthCardTagTip(slot0._montgcardTag)
 	TagTipHelper.SkinTagTip(slot0._skinSellTag)
 	TagTipHelper.FuDaiTagTip(slot0._mallSellTag)
@@ -1005,7 +942,7 @@ end
 function slot0.onBackPressed(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
-	if slot0.secondaryPage and slot0.secondaryPage:GetLoaded() and slot0.secondaryPage:isShowing() then
+	if slot0.secondaryPage and slot0.secondaryPage:isShowing() then
 		slot0:closeSecondaryPanel()
 
 		return
@@ -1543,19 +1480,19 @@ function slot0.startChatTimer(slot0)
 	slot0.chatTimer = Timer.New(function ()
 		uv0:paintClimax(uv1.CHAT_HEIGHT, uv1.CHAT_DURATION)
 
-		if uv0.hasFinishedEvent and uv0.lastChatEvent ~= "event_complete" then
+		if getProxy(EventProxy):hasFinishState() and uv0.lastChatEvent ~= "event_complete" then
 			table.insert({}, "event_complete")
 		else
 			if go(uv0._taskBtn:Find("tip")).activeSelf and uv0.lastChatEvent ~= "mission_complete" then
 				table.insert(slot0, "mission_complete")
 			end
 
-			if uv0._attachmentCount > 0 and uv0.lastChatEvent ~= "mail" then
+			if getProxy(MailProxy):GetAttachmentCount() > 0 and uv0.lastChatEvent ~= "mail" then
 				table.insert(slot0, "mail")
 			end
 
 			if #slot0 == 0 then
-				if uv0._taskNotFinishCount and uv0._taskNotFinishCount > 0 and uv0.lastChatEvent ~= "mission" then
+				if getProxy(TaskProxy):getNotFinishCount() and getProxy(TaskProxy):getNotFinishCount() > 0 and uv0.lastChatEvent ~= "mission" then
 					table.insert(uv2.filterAssistantEvents(Clone(uv2.IdleEvents), uv0.flagShip.skinId, uv0.flagShip:getCVIntimacy()), "mission")
 				end
 			end
@@ -1624,6 +1561,10 @@ function slot0.ShowAssistInfo(slot0, slot1, slot2)
 					else
 						uv0:AssistantEventEffect(uv2.getPaintingTouchEvents(uv3.name))
 						uv0:paintClimax(uv1.TOUCH_HEIGHT, uv1.TOUCH_DURATION, uv1.TOUCH_LOOP)
+					end
+
+					if uv0.flagShip then
+						uv0:emit(MainUIMediator.ON_TOUCHSHIP, uv0.flagShip.groupId)
 					end
 				end)
 			end)
@@ -1925,123 +1866,6 @@ function slot0.setFlagShip(slot0, slot1)
 	slot0.tempFlagShip = slot1
 end
 
-function slot0.updateTaskNotices(slot0, slot1, slot2)
-	SetActive(slot0._taskBtn:Find("tip"), slot1 > 0)
-
-	slot0._taskNotFinishCount = slot2
-end
-
-function slot0.updateLessonNotices(slot0, slot1)
-	slot0.schoolTip = defaultValue(slot1, true)
-
-	if LOCK_SECONDARY then
-		SetActive(slot0:findTF("tip", slot0._academyBtn), slot1)
-	else
-		slot0:updateLiveBtn()
-	end
-end
-
-function slot0.updateBackYardNotices(slot0, slot1)
-	slot0.backyardTip = slot1
-
-	if LOCK_SECONDARY then
-		SetActive(slot0:findTF("tip", slot0._haremBtn), slot1)
-	else
-		slot0:updateLiveBtn()
-	end
-end
-
-function slot0.updateCommanderNotices(slot0, slot1)
-	slot0.commanderTip = slot1
-
-	slot0:updateLiveBtn()
-end
-
-function slot0.updateNotification(slot0, slot1)
-	SetActive(slot0:findTF("tip", slot0._chatBtn), slot1 > 0)
-end
-
-function slot0.friendNotification(slot0, slot1)
-	SetActive(slot0:findTF("tip", slot0._friendBtn), slot1)
-end
-
-function slot0.updateBuildNotices(slot0, slot1)
-	SetActive(slot0:findTF("tip", slot0._buildBtn), slot1 > 0)
-end
-
-function slot0.updateLiveBtn(slot0)
-	SetActive(slot0:findTF("tip", slot0._liveBtn), slot0.backyardTip or slot0.schoolTip or slot0.commanderTip)
-end
-
-function slot0.updateCollectNotices(slot0, slot1)
-	slot0.hasCollectCanGetRes = slot1
-
-	SetActive(findTF(slot0._collectionBtn, "tip"), slot1 or getProxy(AppreciateProxy):isGalleryHaveNewRes() or getProxy(AppreciateProxy):isMusicHaveNewRes())
-end
-
-function slot0.updateGuildNotices(slot0, slot1)
-	setActive(findTF(slot0._guildButton, "tip"), slot1)
-end
-
-function slot0.updateMailAttachmentCount(slot0, slot1)
-	slot0._attachmentCount = slot1
-
-	if slot1 > 0 then
-		SetActive(slot0._attachmentHint, true)
-		SetActive(slot0._mailEmpty, false)
-		SetActive(slot0._mailMsg, true)
-
-		slot0._mailBtn:GetComponent(typeof(Button)).targetGraphic = slot0._mailMsg:GetComponent(typeof(Image))
-		slot0._attachmentCountText.text = slot1
-	else
-		SetActive(slot0._mailEmpty, true)
-		SetActive(slot0._mailMsg, false)
-		SetActive(slot0._attachmentHint, false)
-
-		slot0._mailBtn:GetComponent(typeof(Button)).targetGraphic = slot0._mailEmpty:GetComponent(typeof(Image))
-	end
-end
-
-function slot0.updateEvent(slot0, slot1)
-	slot0.hasFinishedEvent = slot1:hasFinishState()
-
-	setActive(slot0._combatBtn:Find("tip"), slot0.hasFinishedEvent)
-end
-
-function slot0.updateCommissionNotices(slot0, slot1)
-	setActive(slot0._commissionTip, slot1)
-end
-
-function slot0.updateSeverNotices(slot0, slot1)
-	setActive(slot0._noticeBtn:Find("tip"), slot1)
-end
-
-function slot0.UpdateBtnTips(slot0, slot1, slot2)
-	for slot7, slot8 in pairs(slot2) do
-		slot3 = false or slot8
-	end
-
-	setActive(slot1, slot3)
-end
-
-slot6 = {}
-
-function slot0.updateSettingsNotice(slot0, slot1, slot2)
-	if slot2 then
-		uv0[slot2] = slot1
-	else
-		for slot6, slot7 in pairs(uv0) do
-			uv0[slot6] = slot1
-		end
-	end
-
-	slot0:UpdateBtnTips(slot0._settingBtn:Find("tip"), uv0)
-end
-
-function slot0.notifyTechnology(slot0, slot1)
-	setActive(slot0._technologyBtn:Find("tip"), slot1)
-end
-
 function slot0.notifyActivitySummary(slot0, slot1, slot2)
 	slot0._activitySummaryBtn = slot0:findTF("activityButton", slot0._ActivityBtns)
 
@@ -2057,10 +1881,6 @@ function slot0.notifyActivitySummary(slot0, slot1, slot2)
 			id = uv1 and uv1.id
 		})
 	end, SFX_PANEL)
-end
-
-function slot0.updateAttireBtn(slot0, slot1)
-	setActive(slot0._commanderInfoBtn:Find("tip"), slot1)
 end
 
 function slot0.updateChat(slot0, slot1)
@@ -2215,6 +2035,12 @@ function slot0.resumePaitingState(slot0)
 end
 
 function slot0.willExit(slot0)
+	if slot0.redDotHelper then
+		slot0.redDotHelper:Dispose()
+
+		slot0.redDotHelper = nil
+	end
+
 	slot0:RemoveVoteBookTimer()
 	slot0:disablePartialBlur()
 

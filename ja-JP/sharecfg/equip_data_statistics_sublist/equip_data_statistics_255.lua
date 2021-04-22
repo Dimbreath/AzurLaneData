@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_255 = {
+	[36360] = {
+		name = "25mm九六式三連装機銃（爆風避盾装備）",
+		speciality = "対空",
+		type = 6,
+		tech = 0,
+		descrip = "0",
+		value_2 = 45,
+		icon = "36360",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "40/回",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36360,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			36360
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
+	},
+	[36361] = {
+		id = 36361,
+		damage = "43/回",
+		base = 36360,
+		weapon_id = {
+			36361
+		}
+	},
+	[36362] = {
+		id = 36362,
+		damage = "46/回",
+		base = 36360,
+		weapon_id = {
+			36362
+		}
+	},
 	[36363] = {
 		id = 36363,
 		damage = "49/回",
@@ -159,84 +237,6 @@ pg.equip_data_statistics_255 = {
 		base = 36400,
 		weapon_id = {
 			36401
-		}
-	},
-	[36402] = {
-		id = 36402,
-		damage = "25/回",
-		base = 36400,
-		weapon_id = {
-			36402
-		}
-	},
-	[36403] = {
-		id = 36403,
-		damage = "29/回",
-		base = 36400,
-		weapon_id = {
-			36403
-		}
-	},
-	[36420] = {
-		name = "毘式40mm連装機銃",
-		speciality = "対空",
-		type = 6,
-		tech = 2,
-		descrip = "0",
-		value_2 = 12,
-		icon = "36400",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "22/回",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 36420,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			36420
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"AA"
 		}
 	}
 }

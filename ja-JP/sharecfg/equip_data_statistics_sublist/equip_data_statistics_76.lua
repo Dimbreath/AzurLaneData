@@ -1,5 +1,80 @@
 pg = pg or {}
 pg.equip_data_statistics_76 = {
+	[5525] = {
+		id = 5525,
+		damage = "84 x 2",
+		base = 5520,
+		weapon_id = {
+			5525
+		}
+	},
+	[5526] = {
+		id = 5526,
+		damage = "91 x 2",
+		base = 5520,
+		weapon_id = {
+			5526
+		}
+	},
+	[5540] = {
+		name = "潜水艦用550mm24V魚雷",
+		speciality = "雷撃",
+		type = 13,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "5500",
+		attribute_2 = "torpedo",
+		rarity = 4,
+		damage = "54 x 2",
+		nationality = 8,
+		ammo = 5,
+		value_3 = 0,
+		id = 5540,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1827
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1827
+			},
+			{
+				4,
+				1601
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			5540
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		}
+	},
 	[5541] = {
 		id = 5541,
 		damage = "62 x 2",
@@ -156,84 +231,6 @@ pg.equip_data_statistics_76 = {
 		base = 6000,
 		weapon_id = {
 			6001
-		}
-	},
-	[6002] = {
-		id = 6002,
-		damage = "8/回",
-		base = 6000,
-		weapon_id = {
-			6002
-		}
-	},
-	[6003] = {
-		id = 6003,
-		damage = "9/回",
-		base = 6000,
-		weapon_id = {
-			6003
-		}
-	},
-	[6020] = {
-		name = "12.7mm対空機銃",
-		speciality = "対空",
-		type = 6,
-		tech = 2,
-		descrip = "0",
-		value_2 = 5,
-		icon = "6000",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "8/回",
-		nationality = 0,
-		ammo = 5,
-		value_3 = 0,
-		id = 6020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			6020
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"UN",
-			"ST",
-			"AA"
 		}
 	}
 }

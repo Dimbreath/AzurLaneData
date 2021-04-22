@@ -1,5 +1,103 @@
 pg = pg or {}
 pg.equip_data_statistics_282 = {
+	[39129] = {
+		id = 39129,
+		base = 39120,
+		ammo_info = {
+			{
+				6,
+				50029
+			},
+			{
+				5,
+				52629
+			},
+			{
+				5,
+				52129
+			}
+		},
+		weapon_id = {
+			39129
+		}
+	},
+	[39130] = {
+		id = 39130,
+		base = 39120,
+		ammo_info = {
+			{
+				6,
+				50030
+			},
+			{
+				5,
+				52630
+			},
+			{
+				5,
+				52130
+			}
+		},
+		weapon_id = {
+			39130
+		}
+	},
+	[39140] = {
+		name = "彗星",
+		type = 9,
+		speciality = "爆撃",
+		rarity = 5,
+		tech = 3,
+		descrip = "0",
+		value_2 = 45,
+		icon = "39100",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 39140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				5,
+				52640
+			},
+			{
+				5,
+				52140
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			39140
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		}
+	},
 	[39141] = {
 		id = 39141,
 		base = 39140,
@@ -274,104 +372,6 @@ pg.equip_data_statistics_282 = {
 		},
 		weapon_id = {
 			39153
-		}
-	},
-	[39160] = {
-		name = "彗星一二型甲",
-		type = 9,
-		speciality = "爆撃",
-		rarity = 5,
-		tech = 0,
-		descrip = "0",
-		value_2 = 45,
-		icon = "39160",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 39160,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50040
-			},
-			{
-				5,
-				52660
-			},
-			{
-				5,
-				52160
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			39160
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"DB"
-		}
-	},
-	[39161] = {
-		id = 39161,
-		base = 39160,
-		ammo_info = {
-			{
-				6,
-				50041
-			},
-			{
-				5,
-				52661
-			},
-			{
-				5,
-				52161
-			}
-		},
-		weapon_id = {
-			39161
-		}
-	},
-	[39162] = {
-		id = 39162,
-		base = 39160,
-		ammo_info = {
-			{
-				6,
-				50042
-			},
-			{
-				5,
-				52662
-			},
-			{
-				5,
-				52162
-			}
-		},
-		weapon_id = {
-			39162
 		}
 	}
 }

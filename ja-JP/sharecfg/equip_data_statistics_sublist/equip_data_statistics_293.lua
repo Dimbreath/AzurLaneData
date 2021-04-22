@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.equip_data_statistics_293 = {
+	[42069] = {
+		id = 42069,
+		damage = "19 x 4",
+		base = 42060,
+		weapon_id = {
+			42069
+		}
+	},
+	[42070] = {
+		id = 42070,
+		damage = "21 x 4",
+		base = 42060,
+		weapon_id = {
+			42070
+		}
+	},
+	[42071] = {
+		anti_siren = 100,
+		damage = "21 x 4",
+		base = 42060,
+		id = 42071,
+		weapon_id = {
+			42071
+		}
+	},
 	[42100] = {
 		name = "150mmSKC/25三連装砲",
 		speciality = "追尾",
@@ -258,30 +283,6 @@ pg.equip_data_statistics_293 = {
 		base = 42140,
 		weapon_id = {
 			42141
-		}
-	},
-	[42142] = {
-		id = 42142,
-		damage = "11 x 3",
-		base = 42140,
-		weapon_id = {
-			42142
-		}
-	},
-	[42143] = {
-		id = 42143,
-		damage = "12 x 3",
-		base = 42140,
-		weapon_id = {
-			42143
-		}
-	},
-	[42144] = {
-		id = 42144,
-		damage = "13 x 3",
-		base = 42140,
-		weapon_id = {
-			42144
 		}
 	}
 }

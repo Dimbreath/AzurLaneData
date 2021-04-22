@@ -1994,6 +1994,40 @@ pg.fleet_tech_ship_class = {
 			60103
 		}
 	},
+	[60103] = {
+		shiptype = 1,
+		name = "マエストラーレ級",
+		t_level = 5,
+		id = 60103,
+		t_level_1 = 129,
+		nation = 6,
+		ships = {
+			60104,
+			60105
+		}
+	},
+	[60104] = {
+		shiptype = 1,
+		name = "ナヴィガトーリ級",
+		t_level = 4,
+		id = 60104,
+		t_level_1 = 128,
+		nation = 6,
+		ships = {
+			60106
+		}
+	},
+	[60201] = {
+		shiptype = 2,
+		name = "ドゥーカ・デッリ・アブルッツィ級",
+		t_level = 7,
+		id = 60201,
+		t_level_1 = 131,
+		nation = 6,
+		ships = {
+			60201
+		}
+	},
 	[60301] = {
 		shiptype = 3,
 		name = "ザラ級",
@@ -2025,6 +2059,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 134,
 		nation = 6,
 		ships = {
+			60501,
 			60502
 		}
 	},
@@ -2038,6 +2073,28 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			60505,
 			60506
+		}
+	},
+	[60701] = {
+		shiptype = 7,
+		name = "アクィラ",
+		t_level = 6,
+		id = 60701,
+		t_level_1 = 136,
+		nation = 6,
+		ships = {
+			60701
+		}
+	},
+	[60801] = {
+		shiptype = 8,
+		name = "ブリン級",
+		t_level = 6,
+		id = 60801,
+		t_level_1 = 137,
+		nation = 6,
+		ships = {
+			60801
 		}
 	},
 	[70101] = {
@@ -2518,10 +2575,15 @@ pg.fleet_tech_ship_class = {
 		50203,
 		60101,
 		60102,
+		60103,
+		60104,
+		60201,
 		60301,
 		60302,
 		60501,
 		60502,
+		60701,
+		60801,
 		70101,
 		70102,
 		70103,

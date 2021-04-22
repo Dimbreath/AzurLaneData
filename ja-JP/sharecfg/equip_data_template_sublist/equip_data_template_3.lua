@@ -1,65 +1,5 @@
 pg = pg or {}
 pg.equip_data_template_3 = {
-	[540] = {
-		important = 2,
-		destory_gold = 25,
-		type = 10,
-		group = 540,
-		restore_gold = 0,
-		trans_use_gold = 30,
-		next = 541,
-		prev = 0,
-		id = 540,
-		equip_limit = 0,
-		level = 1,
-		ship_type_forbidden = {},
-		trans_use_item = {
-			{
-				17001,
-				2
-			}
-		},
-		destory_item = {
-			{
-				17003,
-				1
-			}
-		},
-		restore_item = {},
-		upgrade_formula_id = {}
-	},
-	[541] = {
-		trans_use_gold = 90,
-		next = 542,
-		base = 540,
-		restore_gold = 30,
-		destory_gold = 33,
-		prev = 540,
-		id = 541,
-		level = 2,
-		trans_use_item = {
-			{
-				17001,
-				5
-			}
-		},
-		destory_item = {
-			{
-				17001,
-				1
-			},
-			{
-				17003,
-				1
-			}
-		},
-		restore_item = {
-			{
-				17001,
-				2
-			}
-		}
-	},
 	[542] = {
 		trans_use_gold = 150,
 		next = 543,
@@ -576,6 +516,111 @@ pg.equip_data_template_3 = {
 			{
 				17990,
 				5
+			}
+		}
+	},
+	[580] = {
+		important = 1,
+		destory_gold = 16,
+		type = 10,
+		group = 580,
+		restore_gold = 0,
+		trans_use_gold = 20,
+		next = 581,
+		prev = 0,
+		id = 580,
+		equip_limit = 0,
+		level = 1,
+		ship_type_forbidden = {
+			1,
+			2,
+			3,
+			6,
+			7,
+			8,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		trans_use_item = {
+			{
+				17001,
+				1
+			}
+		},
+		destory_item = {
+			{
+				17002,
+				1
+			}
+		},
+		restore_item = {},
+		upgrade_formula_id = {}
+	},
+	[581] = {
+		trans_use_gold = 60,
+		next = 582,
+		base = 580,
+		restore_gold = 20,
+		destory_gold = 21,
+		prev = 580,
+		id = 581,
+		level = 2,
+		trans_use_item = {
+			{
+				17001,
+				3
+			}
+		},
+		destory_item = {
+			{
+				17001,
+				1
+			},
+			{
+				17002,
+				1
+			}
+		},
+		restore_item = {
+			{
+				17001,
+				1
+			}
+		}
+	},
+	[582] = {
+		trans_use_gold = 100,
+		next = 583,
+		base = 580,
+		restore_gold = 80,
+		destory_gold = 36,
+		prev = 581,
+		id = 582,
+		level = 3,
+		trans_use_item = {
+			{
+				17001,
+				5
+			}
+		},
+		destory_item = {
+			{
+				17001,
+				2
+			},
+			{
+				17002,
+				1
+			}
+		},
+		restore_item = {
+			{
+				17001,
+				4
 			}
 		}
 	}

@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_75 = {
+	[5445] = {
+		id = 5445,
+		damage = "108 x 3",
+		base = 5440,
+		weapon_id = {
+			5445
+		}
+	},
+	[5446] = {
+		id = 5446,
+		damage = "118 x 3",
+		base = 5440,
+		weapon_id = {
+			5446
+		}
+	},
+	[5447] = {
+		id = 5447,
+		damage = "129 x 3",
+		base = 5440,
+		weapon_id = {
+			5447
+		}
+	},
 	[5448] = {
 		id = 5448,
 		damage = "140 x 3",
@@ -205,81 +229,6 @@ pg.equip_data_statistics_75 = {
 		base = 5520,
 		weapon_id = {
 			5524
-		}
-	},
-	[5525] = {
-		id = 5525,
-		damage = "84 x 2",
-		base = 5520,
-		weapon_id = {
-			5525
-		}
-	},
-	[5526] = {
-		id = 5526,
-		damage = "91 x 2",
-		base = 5520,
-		weapon_id = {
-			5526
-		}
-	},
-	[5540] = {
-		name = "潜水艦用550mm24V魚雷",
-		speciality = "雷撃",
-		type = 13,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "5500",
-		attribute_2 = "torpedo",
-		rarity = 4,
-		damage = "54 x 2",
-		nationality = 8,
-		ammo = 5,
-		value_3 = 0,
-		id = 5540,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1827
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1827
-			},
-			{
-				4,
-				1601
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			5540
-		},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"SS",
-			"TP"
 		}
 	}
 }

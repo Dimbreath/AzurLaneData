@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_34 = {
+	[1530] = {
+		id = 1530,
+		value_2 = 10,
+		value_1 = "24",
+		base = 1520
+	},
+	[1540] = {
+		name = "SGレーダー",
+		tech = 3,
+		type = 10,
+		speciality = "なし",
+		id = 1540,
+		value_2 = 6,
+		icon = "1500",
+		value_1 = "14",
+		attribute_2 = "dodge",
+		rarity = 5,
+		descrip = "ユニオンの先鋭電探。予想外の接敵を防ぐことができる",
+		nationality = 1,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "hit",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6060
+		},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		equip_parameters = {
+			avoid_extra = 1200,
+			ambush_extra = 1200
+		},
+		label = {
+			"USS",
+			"DEV",
+			"SG"
+		}
+	},
+	[1541] = {
+		id = 1541,
+		value_1 = "16",
+		base = 1540
+	},
 	[1542] = {
 		id = 1542,
 		value_2 = 7,
@@ -133,25 +211,5 @@ pg.equip_data_statistics_34 = {
 		label = {
 			"DEV"
 		}
-	},
-	[1601] = {
-		id = 1601,
-		attribute_2 = "cannon",
-		value_2 = 1,
-		base = 1600
-	},
-	[1602] = {
-		value_2 = 1,
-		base = 1600,
-		id = 1602,
-		value_1 = "3",
-		attribute_2 = "cannon"
-	},
-	[1603] = {
-		value_2 = 2,
-		base = 1600,
-		id = 1603,
-		value_1 = "3",
-		attribute_2 = "cannon"
 	}
 }

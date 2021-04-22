@@ -1,5 +1,114 @@
 pg = pg or {}
 pg.aircraft_template_106 = {
+	[39002] = {
+		id = 39002,
+		base = 39000,
+		max_hp = 41,
+		hp_growth = 1565,
+		weapon_ID = {
+			50002,
+			52202,
+			52102
+		}
+	},
+	[39003] = {
+		id = 39003,
+		base = 39000,
+		max_hp = 45,
+		hp_growth = 1746,
+		weapon_ID = {
+			50003,
+			52203,
+			52103
+		}
+	},
+	[39020] = {
+		name = "九九式舰爆",
+		max_hp = 35,
+		accuracy = 23,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 180,
+		dodge = 3.45,
+		attack_power = 2,
+		dodge_limit = 0.9,
+		type = 3,
+		AP_growth = 2000,
+		icon = "99shijianbao1",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1338,
+		speed = 45,
+		id = 39020,
+		scale = 1,
+		weapon_ID = {
+			50020,
+			52220,
+			52120
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[39021] = {
+		id = 39021,
+		base = 39020,
+		max_hp = 40,
+		hp_growth = 1538,
+		weapon_ID = {
+			50021,
+			52221,
+			52121
+		}
+	},
 	[39022] = {
 		id = 39022,
 		base = 39020,
@@ -129,50 +238,6 @@ pg.aircraft_template_106 = {
 				0,
 				0
 			}
-		}
-	},
-	[39041] = {
-		id = 39041,
-		base = 39040,
-		max_hp = 44,
-		hp_growth = 1692,
-		weapon_ID = {
-			50041,
-			52241,
-			52141
-		}
-	},
-	[39042] = {
-		id = 39042,
-		base = 39040,
-		max_hp = 50,
-		hp_growth = 1913,
-		weapon_ID = {
-			50042,
-			52242,
-			52142
-		}
-	},
-	[39043] = {
-		id = 39043,
-		base = 39040,
-		max_hp = 55,
-		hp_growth = 2133,
-		weapon_ID = {
-			50043,
-			52243,
-			52143
-		}
-	},
-	[39044] = {
-		id = 39044,
-		base = 39040,
-		max_hp = 61,
-		hp_growth = 2354,
-		weapon_ID = {
-			50044,
-			52244,
-			52144
 		}
 	}
 }

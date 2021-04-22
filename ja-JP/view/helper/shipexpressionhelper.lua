@@ -116,4 +116,8 @@ function slot0.DefaultFaceless(slot0)
 	return uv0[slot0] and slot1.default ~= ""
 end
 
+function slot0.GetDefaultFace(slot0)
+	return uv0[slot0].default
+end
+
 return slot0

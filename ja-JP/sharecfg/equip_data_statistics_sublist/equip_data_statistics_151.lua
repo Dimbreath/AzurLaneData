@@ -1,5 +1,28 @@
 pg = pg or {}
 pg.equip_data_statistics_151 = {
+	[21321] = {
+		id = 21321,
+		base = 21320,
+		weapon_id = {
+			21321
+		}
+	},
+	[21322] = {
+		id = 21322,
+		damage = "6 x 1",
+		base = 21320,
+		weapon_id = {
+			21322
+		}
+	},
+	[21323] = {
+		id = 21323,
+		damage = "7 x 1",
+		base = 21320,
+		weapon_id = {
+			21323
+		}
+	},
 	[21340] = {
 		name = "120mm単装砲",
 		speciality = "追尾",
@@ -274,29 +297,6 @@ pg.equip_data_statistics_151 = {
 			"HMS",
 			"DD",
 			"MG"
-		}
-	},
-	[21421] = {
-		id = 21421,
-		base = 21420,
-		weapon_id = {
-			21421
-		}
-	},
-	[21422] = {
-		id = 21422,
-		damage = "6 x 4",
-		base = 21420,
-		weapon_id = {
-			21422
-		}
-	},
-	[21423] = {
-		id = 21423,
-		damage = "7 x 4",
-		base = 21420,
-		weapon_id = {
-			21423
 		}
 	}
 }

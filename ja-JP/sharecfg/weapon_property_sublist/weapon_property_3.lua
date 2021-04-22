@@ -849,4 +849,16 @@ function ()
 		damage = 49,
 		base = 4140
 	}
+	uv0.weapon_property_3[4148] = {
+		id = 4148,
+		reload_max = 480,
+		damage = 53,
+		base = 4140
+	}
+	uv0.weapon_property_3[4149] = {
+		id = 4149,
+		reload_max = 465,
+		damage = 57,
+		base = 4140
+	}
 end()

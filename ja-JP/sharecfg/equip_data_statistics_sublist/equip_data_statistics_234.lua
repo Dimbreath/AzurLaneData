@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_234 = {
+	[33105] = {
+		id = 33105,
+		damage = "46 x 6",
+		base = 33100,
+		weapon_id = {
+			33105
+		}
+	},
+	[33106] = {
+		id = 33106,
+		damage = "48 x 6",
+		base = 33100,
+		weapon_id = {
+			33106
+		}
+	},
+	[33107] = {
+		id = 33107,
+		damage = "50 x 6",
+		base = 33100,
+		weapon_id = {
+			33107
+		}
+	},
 	[33108] = {
 		id = 33108,
 		damage = "52 x 6",
@@ -193,75 +217,6 @@ pg.equip_data_statistics_234 = {
 		base = 34020,
 		weapon_id = {
 			34022
-		}
-	},
-	[34023] = {
-		id = 34023,
-		damage = "62 x 2",
-		base = 34020,
-		weapon_id = {
-			34023
-		}
-	},
-	[34040] = {
-		name = "356mm連装砲",
-		speciality = "投射",
-		type = 4,
-		tech = 3,
-		descrip = "0",
-		value_2 = 12,
-		icon = "34000",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "46 x 2",
-		nationality = 3,
-		ammo = 2,
-		value_3 = 0,
-		id = 34040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				2,
-				1502
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			34040
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"BB",
-			"MG",
-			"HE"
-		}
-	},
-	[34041] = {
-		id = 34041,
-		damage = "52 x 2",
-		base = 34040,
-		weapon_id = {
-			34041
 		}
 	}
 }

@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_74 = {
+	[5400] = {
+		name = "550mm三連装魚雷発射管",
+		speciality = "雷撃",
+		type = 5,
+		tech = 1,
+		descrip = "0",
+		value_2 = 5,
+		icon = "5400",
+		attribute_2 = "torpedo",
+		rarity = 2,
+		damage = "47 x 3",
+		nationality = 8,
+		ammo = 5,
+		value_3 = 0,
+		id = 5400,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1800
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1800
+			},
+			{
+				4,
+				1402
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			5400
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"TP",
+			"TRI"
+		}
+	},
+	[5401] = {
+		id = 5401,
+		damage = "55 x 3",
+		base = 5400,
+		weapon_id = {
+			5401
+		}
+	},
+	[5402] = {
+		id = 5402,
+		damage = "63 x 3",
+		base = 5400,
+		weapon_id = {
+			5402
+		}
+	},
 	[5403] = {
 		id = 5403,
 		damage = "72 x 3",
@@ -210,30 +288,6 @@ pg.equip_data_statistics_74 = {
 		base = 5440,
 		weapon_id = {
 			5444
-		}
-	},
-	[5445] = {
-		id = 5445,
-		damage = "108 x 3",
-		base = 5440,
-		weapon_id = {
-			5445
-		}
-	},
-	[5446] = {
-		id = 5446,
-		damage = "118 x 3",
-		base = 5440,
-		weapon_id = {
-			5446
-		}
-	},
-	[5447] = {
-		id = 5447,
-		damage = "129 x 3",
-		base = 5440,
-		weapon_id = {
-			5447
 		}
 	}
 }

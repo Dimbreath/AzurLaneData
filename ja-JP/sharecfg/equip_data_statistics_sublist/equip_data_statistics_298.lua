@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_298 = {
+	[43028] = {
+		id = 43028,
+		damage = "43 x 6",
+		base = 43020,
+		weapon_id = {
+			43028
+		}
+	},
+	[43029] = {
+		id = 43029,
+		damage = "45 x 6",
+		base = 43020,
+		weapon_id = {
+			43029
+		}
+	},
+	[43030] = {
+		id = 43030,
+		damage = "47 x 6",
+		base = 43020,
+		weapon_id = {
+			43030
+		}
+	},
 	[43040] = {
 		name = "203mmSKC連装砲",
 		speciality = "追尾",
@@ -155,82 +179,6 @@ pg.equip_data_statistics_298 = {
 		id = 43052,
 		weapon_id = {
 			43052
-		}
-	},
-	[43053] = {
-		anti_siren = 300,
-		damage = "50 x 6",
-		base = 43040,
-		id = 43053,
-		weapon_id = {
-			43053
-		}
-	},
-	[43060] = {
-		name = "試作203mmSKC三連装砲",
-		speciality = "追尾",
-		type = 3,
-		tech = 0,
-		descrip = "0",
-		value_2 = 45,
-		icon = "43060",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "30 x 6",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 43060,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1401
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1401
-			},
-			{
-				4,
-				1214
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			43060
-		},
-		skill_id = {},
-		part_main = {
-			3,
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CA",
-			"MG",
-			"AP"
-		}
-	},
-	[43061] = {
-		id = 43061,
-		damage = "32 x 6",
-		base = 43060,
-		weapon_id = {
-			43061
 		}
 	}
 }

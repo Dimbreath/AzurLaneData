@@ -1,5 +1,32 @@
 pg = pg or {}
 pg.equip_data_statistics_229 = {
+	[32251] = {
+		anti_siren = 100,
+		damage = "18 x 6",
+		base = 32240,
+		id = 32251,
+		weapon_id = {
+			32251
+		}
+	},
+	[32252] = {
+		anti_siren = 200,
+		damage = "18 x 6",
+		base = 32240,
+		id = 32252,
+		weapon_id = {
+			32252
+		}
+	},
+	[32253] = {
+		anti_siren = 300,
+		damage = "18 x 6",
+		base = 32240,
+		id = 32253,
+		weapon_id = {
+			32253
+		}
+	},
 	[32300] = {
 		name = "152mm連装砲",
 		speciality = "拡散",
@@ -257,30 +284,6 @@ pg.equip_data_statistics_229 = {
 		base = 32340,
 		weapon_id = {
 			32341
-		}
-	},
-	[32342] = {
-		id = 32342,
-		damage = "10 x 4",
-		base = 32340,
-		weapon_id = {
-			32342
-		}
-	},
-	[32343] = {
-		id = 32343,
-		damage = "11 x 4",
-		base = 32340,
-		weapon_id = {
-			32343
-		}
-	},
-	[32344] = {
-		id = 32344,
-		damage = "12 x 4",
-		base = 32340,
-		weapon_id = {
-			32344
 		}
 	}
 }

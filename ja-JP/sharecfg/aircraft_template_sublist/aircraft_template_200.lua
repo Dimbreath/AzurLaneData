@@ -1,77 +1,86 @@
 pg = pg or {}
 pg.aircraft_template_200 = {
-	[81146] = {
-		id = 81146,
-		base = 81140,
+	[81085] = {
+		id = 81085,
+		base = 81080,
+		max_hp = 71,
+		hp_growth = 2717,
+		weapon_ID = {
+			50345
+		}
+	},
+	[81086] = {
+		id = 81086,
+		base = 81080,
 		max_hp = 77,
 		hp_growth = 2949,
 		weapon_ID = {
-			50446
+			50346
 		}
 	},
-	[81147] = {
-		id = 81147,
-		base = 81140,
+	[81087] = {
+		id = 81087,
+		base = 81080,
 		max_hp = 83,
 		hp_growth = 3182,
 		weapon_ID = {
-			50447
+			50347
 		}
 	},
-	[81148] = {
-		id = 81148,
-		base = 81140,
+	[81088] = {
+		id = 81088,
+		base = 81080,
 		max_hp = 89,
 		hp_growth = 3415,
 		weapon_ID = {
-			50448
+			50348
 		}
 	},
-	[81149] = {
-		id = 81149,
-		base = 81140,
+	[81089] = {
+		id = 81089,
+		base = 81080,
 		max_hp = 95,
 		hp_growth = 3648,
 		weapon_ID = {
-			50449
+			50349
 		}
 	},
-	[81150] = {
-		id = 81150,
-		base = 81140,
+	[81090] = {
+		id = 81090,
+		base = 81080,
 		max_hp = 101,
 		hp_growth = 3881,
 		weapon_ID = {
-			50450
+			50350
 		}
 	},
-	[81151] = {
-		id = 81151,
-		base = 81140,
+	[81091] = {
+		id = 81091,
+		base = 81080,
 		max_hp = 107,
 		hp_growth = 4114,
 		weapon_ID = {
-			50451
+			50351
 		}
 	},
-	[81200] = {
-		name = "F4U海盗",
+	[81100] = {
+		name = "F4F野猫",
 		max_hp = 33,
 		accuracy = 23,
-		model_ID = "F4U",
+		model_ID = "f4f",
 		ACC_growth = 0,
-		crash_DMG = 66,
+		crash_DMG = 56,
 		dodge = 0.357,
 		attack_power = 2,
 		dodge_limit = 9,
 		type = 1,
 		AP_growth = 2000,
-		icon = "F4U",
+		icon = "f4f",
 		funnel_behavior = "",
 		nationality = 1,
 		hp_growth = 1270,
 		speed = 48,
-		id = 81200,
+		id = 81100,
 		scale = 1,
 		weapon_ID = {
 			50400
@@ -117,7 +126,7 @@ pg.aircraft_template_200 = {
 				0
 			},
 			{
-				0.41,
+				0.32,
 				0,
 				0
 			},
@@ -128,31 +137,22 @@ pg.aircraft_template_200 = {
 			}
 		}
 	},
-	[81201] = {
-		id = 81201,
-		base = 81200,
+	[81101] = {
+		id = 81101,
+		base = 81100,
 		max_hp = 38,
 		hp_growth = 1461,
 		weapon_ID = {
 			50401
 		}
 	},
-	[81202] = {
-		id = 81202,
-		base = 81200,
+	[81102] = {
+		id = 81102,
+		base = 81100,
 		max_hp = 43,
 		hp_growth = 1651,
 		weapon_ID = {
 			50402
-		}
-	},
-	[81203] = {
-		id = 81203,
-		base = 81200,
-		max_hp = 48,
-		hp_growth = 1842,
-		weapon_ID = {
-			50403
 		}
 	}
 }

@@ -7452,6 +7452,72 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70148] = {
+		id = 70148,
+		name = "向屏幕中心移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 2
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 1,
+				param = {
+					x = 0,
+					z = 55
+				}
+			}
+		}
+	},
+	[70149] = {
+		id = 70149,
+		name = "上方随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 85,
+					moveCount = 240,
+					Z1 = 55,
+					duration = -1,
+					X1 = -20,
+					X2 = -5
+				}
+			}
+		}
+	},
+	[70150] = {
+		id = 70150,
+		name = "下方随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 55,
+					moveCount = 240,
+					Z1 = 25,
+					duration = -1,
+					X1 = -20,
+					X2 = -5
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

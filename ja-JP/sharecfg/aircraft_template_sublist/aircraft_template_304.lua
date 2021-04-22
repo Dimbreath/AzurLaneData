@@ -1,26 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_304 = {
-	[534021] = {
-		name = "塞壬CV 轰炸机T3",
-		max_hp = 210,
+	[512809] = {
+		name = "苍龙轰炸机",
+		max_hp = 220,
 		accuracy = 23,
-		model_ID = "shenhaifeiji",
+		model_ID = "99shijianbao1",
 		ACC_growth = 0,
-		crash_DMG = 280,
+		crash_DMG = 180,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "99shijianbao1",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3800,
+		hp_growth = 3822,
 		speed = 30,
-		id = 534021,
+		id = 512809,
 		scale = 0.75,
 		weapon_ID = {
-			534203
+			512912
 		},
 		position_offset = {
 			0,
@@ -74,27 +74,27 @@ pg.aircraft_template_304 = {
 			}
 		}
 	},
-	[534022] = {
-		name = "塞壬CV 鱼雷机T3",
-		max_hp = 192,
+	[512810] = {
+		name = "苍龙鱼雷机",
+		max_hp = 206,
 		accuracy = 23,
-		model_ID = "shenhaifeiji",
+		model_ID = "97jiangong",
 		ACC_growth = 0,
-		crash_DMG = 230,
+		crash_DMG = 150,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "97jiangong",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3200,
-		speed = 33,
-		id = 534022,
+		hp_growth = 3613,
+		speed = 30,
+		id = 512810,
 		scale = 0.75,
 		weapon_ID = {
-			534204
+			512913
 		},
 		position_offset = {
 			0,
@@ -114,13 +114,13 @@ pg.aircraft_template_304 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.56,
-					-0.76,
+					-1.13,
+					-1.29,
 					0
 				},
 				{
-					0.48,
-					0.99,
+					-1.25,
+					1.47,
 					0
 				}
 			}
@@ -137,7 +137,7 @@ pg.aircraft_template_304 = {
 				0
 			},
 			{
-				0,
+				0.54,
 				0,
 				0
 			},
@@ -148,31 +148,28 @@ pg.aircraft_template_304 = {
 			}
 		}
 	},
-	[534023] = {
-		name = "测试者β型 浮游炮机体",
-		max_hp = 580,
+	[512811] = {
+		name = "苍龙战斗机",
+		max_hp = 182,
 		accuracy = 23,
-		model_ID = "fuyoupao",
+		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
-		crash_DMG = 500,
+		crash_DMG = 100,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "fuyoupao",
+		icon = "lingzhan21gai",
+		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 8000,
-		speed = 70,
-		id = 534023,
+		hp_growth = 2918,
+		speed = 33,
+		id = 512811,
 		scale = 0.75,
-		funnel_behavior = {
-			stay = 2,
-			exist = 20
-		},
 		weapon_ID = {
-			534205,
-			534206
+			512914,
+			512915
 		},
 		position_offset = {
 			0,
@@ -226,27 +223,27 @@ pg.aircraft_template_304 = {
 			}
 		}
 	},
-	[534031] = {
-		name = "塞壬航母蛋船轰炸机T1 (飞机",
-		max_hp = 210,
+	[512812] = {
+		name = "赤城轰炸机",
+		max_hp = 220,
 		accuracy = 23,
-		model_ID = "shenhaifeiji",
+		model_ID = "99shijianbao1",
 		ACC_growth = 0,
-		crash_DMG = 280,
+		crash_DMG = 180,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "99shijianbao1",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3800,
+		hp_growth = 3822,
 		speed = 30,
-		id = 534031,
+		id = 512812,
 		scale = 0.75,
 		weapon_ID = {
-			534207
+			512916
 		},
 		position_offset = {
 			0,
@@ -300,28 +297,102 @@ pg.aircraft_template_304 = {
 			}
 		}
 	},
-	[534032] = {
-		name = "塞壬航母蛋船战斗机T1 (飞机",
-		max_hp = 176,
+	[512813] = {
+		name = "赤城鱼雷机",
+		max_hp = 206,
 		accuracy = 23,
-		model_ID = "shenhaifeiji",
+		model_ID = "97jiangong",
 		ACC_growth = 0,
-		crash_DMG = 170,
+		crash_DMG = 150,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "97jiangong",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3613,
+		speed = 30,
+		id = 512813,
+		scale = 0.75,
+		weapon_ID = {
+			512917
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[512814] = {
+		name = "赤城战斗机",
+		max_hp = 182,
+		accuracy = 23,
+		model_ID = "lingzhan21gai",
+		ACC_growth = 0,
+		crash_DMG = 100,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "lingzhan21gai",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2800,
+		hp_growth = 2918,
 		speed = 33,
-		id = 534032,
+		id = 512814,
 		scale = 0.75,
 		weapon_ID = {
-			534208,
-			534209
+			512918,
+			512919
 		},
 		position_offset = {
 			0,
@@ -375,104 +446,27 @@ pg.aircraft_template_304 = {
 			}
 		}
 	},
-	[534512] = {
-		name = "执棋者BOSS 浮游炮机体",
-		max_hp = 580,
+	[512815] = {
+		name = "加贺轰炸机",
+		max_hp = 220,
 		accuracy = 23,
-		model_ID = "fuyoupao2",
+		model_ID = "99shijianbao1",
 		ACC_growth = 0,
-		crash_DMG = 350,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "fuyoupao2",
-		nationality = 3,
-		hp_growth = 8000,
-		speed = 70,
-		id = 534512,
-		scale = 0.75,
-		funnel_behavior = {
-			stay = 2,
-			exist = 20
-		},
-		weapon_ID = {
-			534515
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					2.72,
-					-0.21,
-					0
-				},
-				{
-					3.2,
-					-0.14,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[534513] = {
-		name = "执棋者BOSS 轰炸机T3",
-		max_hp = 210,
-		accuracy = 23,
-		model_ID = "shenhaifeiji",
-		ACC_growth = 0,
-		crash_DMG = 280,
+		crash_DMG = 180,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "99shijianbao1",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3800,
+		hp_growth = 3822,
 		speed = 30,
-		id = 534513,
+		id = 512815,
 		scale = 0.75,
 		weapon_ID = {
-			534516
+			512920
 		},
 		position_offset = {
 			0,
@@ -526,27 +520,27 @@ pg.aircraft_template_304 = {
 			}
 		}
 	},
-	[534514] = {
-		name = "执棋者BOSS 鱼雷机T3",
-		max_hp = 192,
+	[512816] = {
+		name = "加贺鱼雷机",
+		max_hp = 206,
 		accuracy = 23,
-		model_ID = "shenhaifeiji",
+		model_ID = "97jiangong",
 		ACC_growth = 0,
-		crash_DMG = 220,
+		crash_DMG = 150,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 2,
 		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "97jiangong",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3200,
-		speed = 33,
-		id = 534514,
+		hp_growth = 3613,
+		speed = 30,
+		id = 512816,
 		scale = 0.75,
 		weapon_ID = {
-			534517
+			512921
 		},
 		position_offset = {
 			0,
@@ -566,13 +560,13 @@ pg.aircraft_template_304 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.56,
-					-0.76,
+					-1.13,
+					-1.29,
 					0
 				},
 				{
-					0.48,
-					0.99,
+					-1.25,
+					1.47,
 					0
 				}
 			}
@@ -589,79 +583,7 @@ pg.aircraft_template_304 = {
 				0
 			},
 			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[534518] = {
-		name = "执棋者BOSS蓄力武器飞机群",
-		max_hp = 192,
-		accuracy = 23,
-		model_ID = "shenhaifeiji",
-		ACC_growth = 0,
-		crash_DMG = 65,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 2,
-		AP_growth = 2000,
-		icon = "shenhaifeiji",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3200,
-		speed = 50,
-		id = 534518,
-		scale = 0.75,
-		weapon_ID = {},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.56,
-					-0.76,
-					0
-				},
-				{
-					0.48,
-					0.99,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
+				0.54,
 				0,
 				0
 			},
@@ -672,30 +594,28 @@ pg.aircraft_template_304 = {
 			}
 		}
 	},
-	[534532] = {
-		name = "执棋者BOSS 浮游炮机体",
-		max_hp = 42,
+	[512817] = {
+		name = "加贺战斗机",
+		max_hp = 182,
 		accuracy = 23,
-		model_ID = "fuyoupao2",
+		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
-		crash_DMG = 350,
+		crash_DMG = 100,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "fuyoupao2",
+		icon = "lingzhan21gai",
+		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 6000,
-		speed = 70,
-		id = 534532,
+		hp_growth = 2918,
+		speed = 33,
+		id = 512817,
 		scale = 0.75,
-		funnel_behavior = {
-			stay = 2,
-			exist = 20
-		},
 		weapon_ID = {
-			534535
+			512922,
+			512923
 		},
 		position_offset = {
 			0,
@@ -715,13 +635,87 @@ pg.aircraft_template_304 = {
 		bound_bone = {
 			weapon = {
 				{
-					2.72,
-					-0.21,
+					0.56,
+					-0.76,
 					0
 				},
 				{
-					3.2,
-					-0.14,
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[512818] = {
+		name = "翔鹤轰炸机",
+		max_hp = 220,
+		accuracy = 23,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 180,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "99shijianbao1",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3822,
+		speed = 30,
+		id = 512818,
+		scale = 0.75,
+		weapon_ID = {
+			512924
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
 					0
 				}
 			}

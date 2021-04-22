@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_91 = {
+	[12062] = {
+		id = 12062,
+		damage = "12 x 4",
+		base = 12060,
+		weapon_id = {
+			12062
+		}
+	},
+	[12063] = {
+		id = 12063,
+		damage = "13 x 4",
+		base = 12060,
+		weapon_id = {
+			12063
+		}
+	},
+	[12064] = {
+		id = 12064,
+		damage = "14 x 4",
+		base = 12060,
+		weapon_id = {
+			12064
+		}
+	},
 	[12065] = {
 		id = 12065,
 		damage = "15 x 4",
@@ -204,82 +228,6 @@ pg.equip_data_statistics_91 = {
 		base = 12120,
 		weapon_id = {
 			12125
-		}
-	},
-	[12126] = {
-		id = 12126,
-		damage = "14 x 6",
-		base = 12120,
-		weapon_id = {
-			12126
-		}
-	},
-	[12140] = {
-		name = "152mm三連装砲",
-		speciality = "追尾",
-		type = 2,
-		tech = 3,
-		descrip = "0",
-		value_2 = 25,
-		icon = "12100",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "9 x 6",
-		nationality = 1,
-		ammo = 2,
-		value_3 = 0,
-		id = 12140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1007
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1007
-			},
-			{
-				4,
-				1102
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			12140
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CL",
-			"MG",
-			"HE"
-		}
-	},
-	[12141] = {
-		id = 12141,
-		damage = "10 x 6",
-		base = 12140,
-		weapon_id = {
-			12141
 		}
 	}
 }

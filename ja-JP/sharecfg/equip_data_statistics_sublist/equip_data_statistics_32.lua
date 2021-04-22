@@ -1,5 +1,57 @@
 pg = pg or {}
 pg.equip_data_statistics_32 = {
+	[1430] = {
+		id = 1430,
+		value_2 = 60,
+		value_1 = "70",
+		base = 1420
+	},
+	[1440] = {
+		name = "油圧カタパルト",
+		tech = 3,
+		type = 10,
+		speciality = "なし",
+		id = 1440,
+		value_2 = 25,
+		icon = "1400",
+		value_1 = "40",
+		attribute_2 = "durability",
+		rarity = 5,
+		descrip = "発艦用カタパルト。航空を上げることができる",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "air",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {
+			6,
+			7,
+			10
+		},
+		part_sub = {
+			6,
+			7,
+			10
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[1441] = {
+		id = 1441,
+		value_2 = 30,
+		value_1 = "46",
+		base = 1440
+	},
 	[1442] = {
 		id = 1442,
 		value_2 = 35,
@@ -141,23 +193,5 @@ pg.equip_data_statistics_32 = {
 			"DEV",
 			"SG"
 		}
-	},
-	[1501] = {
-		id = 1501,
-		value_2 = 3,
-		value_1 = "7",
-		base = 1500
-	},
-	[1502] = {
-		id = 1502,
-		value_2 = 3,
-		value_1 = "8",
-		base = 1500
-	},
-	[1503] = {
-		id = 1503,
-		value_2 = 3,
-		value_1 = "9",
-		base = 1500
 	}
 }

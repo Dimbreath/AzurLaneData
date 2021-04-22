@@ -104,6 +104,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>チャレンジ精神に富む指揮官へ送るチャレンジフレーム</color>\nチャレンジモード第八期で入手可能（21.01.21-21.04.18）",
 		scene = {}
 	},
+	[209] = {
+		name = "チャレンジャーIX",
+		time_second = 0,
+		id = 209,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>チャレンジ精神に富む指揮官へ送るチャレンジフレーム</color>\nチャレンジモード第九期で入手可能（21.04.22-21.07.18）",
+		scene = {}
+	},
 	[300] = {
 		name = "カリスマ指揮官",
 		time_second = 2592000,
@@ -213,7 +221,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 314,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>後日イベントで入手可能</color>",
+		desc = "<color=#ffffff>「いざ、我が帝国の礎に、柱とならん！威光のために前進せよ！」</color>――「讃える復興の迷路」イベントで入手可能",
 		scene = {}
 	},
 	[401] = {
@@ -262,6 +270,7 @@ pg.item_data_frame = {
 		206,
 		207,
 		208,
+		209,
 		300,
 		301,
 		302,

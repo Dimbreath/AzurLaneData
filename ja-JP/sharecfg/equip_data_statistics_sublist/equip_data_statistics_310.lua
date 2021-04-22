@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_310 = {
+	[45200] = {
+		name = "533mm五連装磁気魚雷",
+		speciality = "雷撃",
+		type = 5,
+		tech = 1,
+		descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
+		value_2 = 25,
+		icon = "45200",
+		attribute_2 = "torpedo",
+		rarity = 4,
+		damage = "63 x 5",
+		nationality = 4,
+		ammo = 4,
+		value_3 = 0,
+		id = 45200,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1803
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1803
+			},
+			{
+				4,
+				1404
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			45200
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP",
+			"QUINT"
+		}
+	},
+	[45201] = {
+		id = 45201,
+		damage = "69 x 5",
+		base = 45200,
+		weapon_id = {
+			45201
+		}
+	},
+	[45202] = {
+		id = 45202,
+		damage = "75 x 5",
+		base = 45200,
+		weapon_id = {
+			45202
+		}
+	},
 	[45203] = {
 		id = 45203,
 		damage = "81 x 5",
@@ -156,30 +234,6 @@ pg.equip_data_statistics_310 = {
 		base = 45220,
 		weapon_id = {
 			45224
-		}
-	},
-	[45225] = {
-		id = 45225,
-		damage = "99 x 5",
-		base = 45220,
-		weapon_id = {
-			45225
-		}
-	},
-	[45226] = {
-		id = 45226,
-		damage = "106 x 5",
-		base = 45220,
-		weapon_id = {
-			45226
-		}
-	},
-	[45227] = {
-		id = 45227,
-		damage = "112 x 5",
-		base = 45220,
-		weapon_id = {
-			45227
 		}
 	}
 }

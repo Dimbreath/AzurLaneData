@@ -1,5 +1,87 @@
 pg = pg or {}
 pg.equip_data_statistics_223 = {
+	[31260] = {
+		name = "127mm両用砲",
+		speciality = "追尾",
+		type = 1,
+		attribute_3 = "antiaircraft",
+		tech = 0,
+		value_2 = 5,
+		icon = "31260",
+		attribute_2 = "cannon",
+		descrip = "0",
+		rarity = 3,
+		damage = "3 x 2",
+		nationality = 3,
+		ammo = 3,
+		value_3 = 7,
+		id = 31260,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1200
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1200
+			},
+			{
+				4,
+				1007
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			31260
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		}
+	},
+	[31261] = {
+		id = 31261,
+		base = 31260,
+		weapon_id = {
+			31261
+		}
+	},
+	[31262] = {
+		id = 31262,
+		damage = "4 x 2",
+		base = 31260,
+		weapon_id = {
+			31262
+		}
+	},
 	[31263] = {
 		id = 31263,
 		damage = "4 x 2",
@@ -161,30 +243,6 @@ pg.equip_data_statistics_223 = {
 		base = 31280,
 		weapon_id = {
 			31287
-		}
-	},
-	[31288] = {
-		id = 31288,
-		damage = "12 x 4",
-		base = 31280,
-		weapon_id = {
-			31288
-		}
-	},
-	[31289] = {
-		id = 31289,
-		damage = "13 x 4",
-		base = 31280,
-		weapon_id = {
-			31289
-		}
-	},
-	[31290] = {
-		id = 31290,
-		damage = "14 x 4",
-		base = 31280,
-		weapon_id = {
-			31290
 		}
 	}
 }

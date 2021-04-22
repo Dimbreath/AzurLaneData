@@ -1,5 +1,24 @@
 pg = pg or {}
 pg.equip_data_statistics_13 = {
+	[649] = {
+		id = 649,
+		value_2 = 10,
+		value_1 = "14",
+		base = 640
+	},
+	[650] = {
+		id = 650,
+		value_2 = 10,
+		value_1 = "15",
+		base = 640
+	},
+	[651] = {
+		id = 651,
+		anti_siren = 100,
+		base = 640,
+		value_2 = 11,
+		value_1 = "16"
+	},
 	[652] = {
 		id = 652,
 		anti_siren = 200,
@@ -105,58 +124,5 @@ pg.equip_data_statistics_13 = {
 		id = 670,
 		value_1 = "70",
 		base = 660
-	},
-	[671] = {
-		id = 671,
-		anti_siren = 100,
-		value_1 = "75",
-		base = 660
-	},
-	[680] = {
-		name = "ホーミングビーコン",
-		tech = 0,
-		type = 10,
-		speciality = "なし",
-		attribute_1 = "air",
-		value_2 = 0,
-		icon = "680",
-		value_1 = "18",
-		descrip = "72/DM型ホーミングビーコン。空母のマストに設置され、艦載機が着艦する際、空母との相対位置の確認と調整に役立つ",
-		rarity = 4,
-		nationality = 2,
-		ammo = 10,
-		value_3 = 0,
-		id = 680,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6310
-		},
-		part_main = {
-			6,
-			7,
-			10
-		},
-		part_sub = {
-			6,
-			7,
-			10
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"DEV"
-		}
-	},
-	[681] = {
-		id = 681,
-		value_1 = "22",
-		base = 680
 	}
 }

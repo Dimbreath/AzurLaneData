@@ -1,5 +1,20 @@
 pg = pg or {}
 pg.equip_data_statistics_23 = {
+	[1002] = {
+		id = 1002,
+		value_1 = "117",
+		base = 1000
+	},
+	[1003] = {
+		id = 1003,
+		value_1 = "130",
+		base = 1000
+	},
+	[1004] = {
+		id = 1004,
+		value_1 = "144",
+		base = 1000
+	},
 	[1005] = {
 		id = 1005,
 		value_1 = "157",
@@ -96,52 +111,5 @@ pg.equip_data_statistics_23 = {
 		id = 1030,
 		value_1 = "350",
 		base = 1020
-	},
-	[1040] = {
-		name = "艦艇修理施設",
-		tech = 3,
-		type = 10,
-		speciality = "なし",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "1000",
-		value_1 = "200",
-		descrip = "損傷修理用の装置。工作艦のみ装備可能",
-		rarity = 5,
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 1040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			12
-		},
-		part_main = {
-			12
-		},
-		part_sub = {
-			12
-		},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[1041] = {
-		id = 1041,
-		value_1 = "230",
-		base = 1040
-	},
-	[1042] = {
-		id = 1042,
-		value_1 = "260",
-		base = 1040
 	}
 }

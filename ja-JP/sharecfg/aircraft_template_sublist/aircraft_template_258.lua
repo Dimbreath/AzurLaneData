@@ -1,485 +1,61 @@
 pg = pg or {}
 pg.aircraft_template_258 = {
-	[200104] = {
-		name = "【大舰队米德维BOSS】执棋者 浮游炮2",
-		max_hp = 750,
-		accuracy = 23,
-		model_ID = "fuyoupao2",
-		ACC_growth = 0,
-		crash_DMG = 210,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "fuyoupao2",
-		nationality = 3,
-		hp_growth = 3680,
-		speed = 70,
-		id = 200104,
-		scale = 0.75,
-		funnel_behavior = {
-			stay = 2,
-			exist = 20
-		},
+	[95744] = {
+		id = 95744,
+		base = 95740,
+		max_hp = 59,
+		hp_growth = 2258,
 		weapon_ID = {
-			200108
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					2.72,
-					-0.21,
-					0
-				},
-				{
-					3.2,
-					-0.14,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
+			50024,
+			50524,
+			52124
 		}
 	},
-	[200507] = {
-		name = "【大舰队北方商路BOSS】测试者 浮游炮",
-		max_hp = 298,
-		accuracy = 23,
-		model_ID = "fuyoupao",
-		ACC_growth = 0,
-		crash_DMG = 293,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "fuyoupao",
-		nationality = 3,
-		hp_growth = 4600,
-		speed = 70,
-		id = 200507,
-		scale = 0.75,
-		funnel_behavior = {
-			stay = 2,
-			exist = 20
-		},
+	[95745] = {
+		id = 95745,
+		base = 95740,
+		max_hp = 64,
+		hp_growth = 2470,
 		weapon_ID = {
-			200508,
-			200509
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.56,
-					-0.76,
-					0
-				},
-				{
-					0.48,
-					0.99,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
+			50025,
+			50525,
+			52125
 		}
 	},
-	[201001] = {
-		name = "【大舰队达古康纳尔BOSS】执棋者 轰炸机",
-		max_hp = 280,
+	[95746] = {
+		id = 95746,
+		base = 95740,
+		max_hp = 70,
+		hp_growth = 2681,
+		weapon_ID = {
+			50026,
+			50526,
+			52126
+		}
+	},
+	[95760] = {
+		name = "G.50箭式战斗机T3",
+		max_hp = 40,
 		accuracy = 23,
-		model_ID = "shenhaifeiji",
+		model_ID = "g50",
 		ACC_growth = 0,
 		crash_DMG = 160,
-		dodge = 1,
+		dodge = 0.333,
 		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "g50",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2980,
-		speed = 30,
-		id = 201001,
-		scale = 0.75,
-		weapon_ID = {
-			201005
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[201002] = {
-		name = "【大舰队达古康纳尔BOSS】执棋者 鱼雷机",
-		max_hp = 220,
-		accuracy = 23,
-		model_ID = "shenhaifeiji",
-		ACC_growth = 0,
-		crash_DMG = 120,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 2,
-		AP_growth = 2000,
-		icon = "shenhaifeiji",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2740,
-		speed = 33,
-		id = 201002,
-		scale = 0.75,
-		weapon_ID = {
-			201006
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.56,
-					-0.76,
-					0
-				},
-				{
-					0.48,
-					0.99,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[201003] = {
-		name = "【大舰队达古康纳尔BOSS】执棋者 浮游炮1",
-		max_hp = 1800,
-		accuracy = 23,
-		model_ID = "fuyoupao2",
-		ACC_growth = 0,
-		crash_DMG = 210,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "fuyoupao2",
-		nationality = 3,
-		hp_growth = 3680,
-		speed = 70,
-		id = 201003,
-		scale = 0.75,
-		funnel_behavior = {
-			stay = 2,
-			exist = 20
-		},
-		weapon_ID = {
-			201007
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					2.72,
-					-0.21,
-					0
-				},
-				{
-					3.2,
-					-0.14,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[201004] = {
-		name = "【大舰队达古康纳尔BOSS】执棋者 浮游炮2",
-		max_hp = 1800,
-		accuracy = 23,
-		model_ID = "fuyoupao2",
-		ACC_growth = 0,
-		crash_DMG = 210,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "fuyoupao2",
-		nationality = 3,
-		hp_growth = 3680,
-		speed = 70,
-		id = 201004,
-		scale = 0.75,
-		funnel_behavior = {
-			stay = 2,
-			exist = 20
-		},
-		weapon_ID = {
-			201008
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					2.72,
-					-0.21,
-					0
-				},
-				{
-					3.2,
-					-0.14,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[201101] = {
-		name = "【大舰队达古康纳尔BOSS】构建者 第一波环绕浮游炮",
-		max_hp = 12000,
-		accuracy = 23,
-		model_ID = "fuyoupao2",
-		ACC_growth = 0,
-		crash_DMG = 240,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "fuyoupao2",
-		nationality = 3,
-		hp_growth = 3680,
+		nationality = 6,
+		hp_growth = 1552,
 		speed = 50,
-		id = 201101,
-		scale = 0.75,
-		funnel_behavior = {
-			AI = 70087
-		},
+		id = 95760,
+		scale = 1,
 		weapon_ID = {
-			201103
+			50040,
+			50540,
+			52140
 		},
 		position_offset = {
 			0,
@@ -499,13 +75,13 @@ pg.aircraft_template_258 = {
 		bound_bone = {
 			weapon = {
 				{
-					2.72,
-					-0.21,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					3.2,
-					-0.14,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -522,7 +98,7 @@ pg.aircraft_template_258 = {
 				0
 			},
 			{
-				0,
+				0.27,
 				0,
 				0
 			},
@@ -533,234 +109,70 @@ pg.aircraft_template_258 = {
 			}
 		}
 	},
-	[201102] = {
-		name = "【大舰队达古康纳尔BOSS】构建者 第一波环绕浮游炮",
-		max_hp = 12000,
-		accuracy = 23,
-		model_ID = "fuyoupao2",
-		ACC_growth = 0,
-		crash_DMG = 240,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "fuyoupao2",
-		nationality = 3,
-		hp_growth = 3680,
-		speed = 50,
-		id = 201102,
-		scale = 0.75,
-		funnel_behavior = {
-			AI = 70088
-		},
+	[95761] = {
+		id = 95761,
+		base = 95760,
+		max_hp = 46,
+		hp_growth = 1785,
 		weapon_ID = {
-			201103
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					2.72,
-					-0.21,
-					0
-				},
-				{
-					3.2,
-					-0.14,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
+			50041,
+			50541,
+			52141
 		}
 	},
-	[201110] = {
-		name = "【大舰队达古康纳尔BOSS】构建者 第四波电饭锅终身浮游炮",
-		max_hp = 12000,
-		accuracy = 23,
-		model_ID = "fuyoupao2",
-		ACC_growth = 0,
-		crash_DMG = 240,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "fuyoupao2",
-		nationality = 3,
-		hp_growth = 3680,
-		speed = 50,
-		id = 201110,
-		scale = 0.75,
-		funnel_behavior = {
-			AI = 70089
-		},
+	[95762] = {
+		id = 95762,
+		base = 95760,
+		max_hp = 52,
+		hp_growth = 2018,
 		weapon_ID = {
-			201112,
-			201113
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					2.72,
-					-0.21,
-					0
-				},
-				{
-					3.2,
-					-0.14,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
+			50042,
+			50542,
+			52142
 		}
 	},
-	[201111] = {
-		name = "【大舰队达古康纳尔BOSS】构建者 第四波电饭锅终身浮游炮",
-		max_hp = 12000,
-		accuracy = 23,
-		model_ID = "fuyoupao2",
-		ACC_growth = 0,
-		crash_DMG = 240,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "fuyoupao2",
-		nationality = 3,
-		hp_growth = 3680,
-		speed = 50,
-		id = 201111,
-		scale = 0.75,
-		funnel_behavior = {
-			AI = 70090
-		},
+	[95763] = {
+		id = 95763,
+		base = 95760,
+		max_hp = 59,
+		hp_growth = 2251,
 		weapon_ID = {
-			201112,
-			201113
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					2.72,
-					-0.21,
-					0
-				},
-				{
-					3.2,
-					-0.14,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
+			50043,
+			50543,
+			52143
+		}
+	},
+	[95764] = {
+		id = 95764,
+		base = 95760,
+		max_hp = 65,
+		hp_growth = 2484,
+		weapon_ID = {
+			50044,
+			50544,
+			52144
+		}
+	},
+	[95765] = {
+		id = 95765,
+		base = 95760,
+		max_hp = 71,
+		hp_growth = 2717,
+		weapon_ID = {
+			50045,
+			50545,
+			52145
+		}
+	},
+	[95766] = {
+		id = 95766,
+		base = 95760,
+		max_hp = 77,
+		hp_growth = 2949,
+		weapon_ID = {
+			50046,
+			50546,
+			52146
 		}
 	}
 }

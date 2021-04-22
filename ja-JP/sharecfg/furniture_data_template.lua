@@ -4288,6 +4288,43 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[194] = {
+		can_rotate = 0,
+		describe = "地中海に突如現れた「迷路」海域を再現したミニチュア。――「讃える復興の迷路」に参加した指揮官に送る",
+		gain_by = "讃える復興の迷路",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/ydl2xunzhang",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ミノアの迷路",
+		advice = 0,
+		icon = "ydl2xunzhangicon",
+		id = 194,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		can_rotate = 0,
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
@@ -5884,6 +5921,77 @@ pg.furniture_data_template = {
 					nil,
 					"houzhai_yanhua"
 				}
+			}
+		},
+		interAction_group = {}
+	},
+	[100024] = {
+		can_rotate = 1,
+		describe = "ウシ饅頭だピョ！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 0,
+		icon = "bianniuicon",
+		count = 1,
+		name = "ヘンシン装置-ウシ",
+		id = 100024,
+		advice = 0,
+		comfortable = 0,
+		deblocking = 1,
+		size = {
+			5,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bianniuB",
+				"normal"
+			},
+			{
+				"bianniuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"bianniuCharControl"
 			}
 		},
 		interAction_group = {}
@@ -84965,6 +85073,816 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[78001] = {
+		can_rotate = 0,
+		describe = "聖殿の大理石舗装の床",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ydl2/dibanydl2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 78,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "聖殿の床",
+		advice = 0,
+		icon = "dibanydl2icon",
+		id = 78001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78002] = {
+		can_rotate = 0,
+		describe = "聖殿の壁。ステンドグラスの窓から聖なる光が差し込んでいる",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ydl2/qiangbiydl2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 78,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "聖殿の壁",
+		advice = 0,
+		icon = "qiangbiydl2icon",
+		id = 78002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78101] = {
+		can_rotate = 0,
+		describe = "聖殿に備え付けたロウソク",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ydl2/1ydl2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 78,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "聖殿のロウソク",
+		advice = 0,
+		icon = "1ydl2icon",
+		id = 78101,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78102] = {
+		can_rotate = 0,
+		describe = "聖殿の柱。その頑丈さはサディアの人々の不屈の意志を表している",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ydl2/2ydl2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 78,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "聖殿の柱",
+		advice = 0,
+		icon = "2ydl2icon",
+		id = 78102,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78103] = {
+		can_rotate = 0,
+		describe = "「第2小節、少し音程が乱れていますね…」「マエストラーレ、何を見てるの？｝",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ydl2/3ydl2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 78,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "饅頭コーラス",
+		advice = 0,
+		icon = "3ydl2icon",
+		id = 78103,
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78104] = {
+		can_rotate = 0,
+		describe = "「指揮官さんに修理申請を出したほうがいいかな…」「つまり新しいのを欲しくなった？」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ydl2/4ydl2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 78,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "聖殿のオルガン",
+		advice = 0,
+		icon = "4ydl2icon",
+		id = 78104,
+		comfortable = 3,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78105] = {
+		can_rotate = 0,
+		describe = "「池の水を全部抜く…うふふ、ふふふふ…」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ydl2/5ydl2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 78,
+		count = 1,
+		name = "聖殿の貯水池",
+		advice = 0,
+		id = 78105,
+		icon = "5ydl2icon",
+		comfortable = 3,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					3,
+					-80
+				},
+				{
+					-1,
+					1
+				},
+				"ydl2/5ydl2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78106] = {
+		can_rotate = 0,
+		describe = "「この花はヴェネト、あなたの美にふさわしい」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ydl2/6ydl2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 78,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "聖殿の花瓶",
+		advice = 0,
+		icon = "6ydl2icon",
+		id = 78106,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78107] = {
+		can_rotate = 0,
+		describe = "セイント饅頭の像。セイント饅頭ってなに？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ydl2/7ydl2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 78,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "饅頭聖像",
+		advice = 0,
+		icon = "7ydl2icon",
+		id = 78107,
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78108] = {
+		can_rotate = 0,
+		describe = "聖殿に備え付けたロウソク台、整備は大変そう",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ydl2/8ydl2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 78,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "聖殿のロウソク台",
+		advice = 0,
+		icon = "8ydl2icon",
+		id = 78108,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78109] = {
+		can_rotate = 0,
+		describe = "聖殿の手すり",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ydl2/9ydl2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 78,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "聖殿の手すり1",
+		advice = 0,
+		icon = "9ydl2icon",
+		id = 78109,
+		comfortable = 2,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78110] = {
+		can_rotate = 0,
+		describe = "聖殿の長椅子。饅頭たちは皆真面目に話を聞いている…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ydl2/10ydl2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 78,
+		count = 3,
+		name = "聖殿の長椅子",
+		advice = 0,
+		id = 78110,
+		icon = "10ydl2icon",
+		comfortable = 3,
+		size = {
+			9,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					151,
+					90
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					63,
+					49
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-40,
+					-3
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-119,
+					-41
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78111] = {
+		can_rotate = 0,
+		describe = "聖殿よりケッコン市場のほうでよく見られる",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ydl2/11ydl2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 78,
+		count = 1,
+		name = "セイント饅頭",
+		advice = 0,
+		id = 78111,
+		icon = "11ydl2icon",
+		comfortable = 3,
+		size = {
+			9,
+			12
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-228,
+					80
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-257,
+					17
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78112] = {
+		can_rotate = 0,
+		describe = "聖殿に備え付けたロウソク",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ydl2/12ydl2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 78,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "聖殿のロウソク1本",
+		advice = 0,
+		icon = "12ydl2icon",
+		id = 78112,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78113] = {
+		can_rotate = 0,
+		describe = "聖殿の大講壇。リットリオが特に愛用（？）している",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ydl2/13ydl2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 78,
+		count = 1,
+		name = "聖殿の講壇",
+		advice = 0,
+		id = 78113,
+		icon = "13ydl2icon",
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					79,
+					7
+				},
+				{
+					-1,
+					1
+				},
+				"ydl2/13ydl2_using",
+				0,
+				{
+					{
+						26,
+						214
+					},
+					{
+						662,
+						630
+					},
+					"ydl2/13ydl2_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78114] = {
+		can_rotate = 0,
+		describe = "「次の出航は伝説の花を見つけるのが目的だ！」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ydl2/14ydl2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 78,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "聖殿の花壇",
+		advice = 0,
+		icon = "14ydl2icon",
+		id = 78114,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78115] = {
+		can_rotate = 0,
+		describe = "聖殿の手すり",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ydl2/15ydl2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 78,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "聖殿の手すり2",
+		advice = 0,
+		icon = "15ydl2icon",
+		id = 78115,
+		comfortable = 2,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[78116] = {
+		can_rotate = 0,
+		describe = "天才の画家饅頭。リテイクは勘弁してほしいピョ",
+		gain_by = "",
+		type = 13,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 78,
+		icon = "Aydl2icon",
+		count = 1,
+		name = "画家饅頭",
+		id = 78116,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Aydl2B",
+				"normal"
+			},
+			{
+				"Aydl2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						"Aydl2CharControl",
+						"sit"
+					},
+					{
+						"sit2",
+						"Aydl2CharControl",
+						"sit"
+					}
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"Aydl2CharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -85055,6 +85973,7 @@ pg.furniture_data_template = {
 		190,
 		191,
 		192,
+		194,
 		100002,
 		100003,
 		100004,
@@ -85077,6 +85996,7 @@ pg.furniture_data_template = {
 		100021,
 		100022,
 		100023,
+		100024,
 		1001,
 		1002,
 		1101,
@@ -86876,6 +87796,24 @@ pg.furniture_data_template = {
 		77116,
 		77117,
 		77118,
-		77119
+		77119,
+		78001,
+		78002,
+		78101,
+		78102,
+		78103,
+		78104,
+		78105,
+		78106,
+		78107,
+		78108,
+		78109,
+		78110,
+		78111,
+		78112,
+		78113,
+		78114,
+		78115,
+		78116
 	}
 }

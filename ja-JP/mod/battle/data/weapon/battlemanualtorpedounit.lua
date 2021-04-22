@@ -54,6 +54,12 @@ function slot2.OverHeat(slot0)
 	slot0._playerTorpedoVO:Deduct(slot0)
 end
 
+function slot2.Cease(slot0)
+	if slot0._currentState == uv0.STATE_OVER_HEAT then
+		slot0:interruptAllEmitter()
+	end
+end
+
 function slot2.handleCoolDown(slot0)
 	slot0._currentState = slot0.STATE_READY
 

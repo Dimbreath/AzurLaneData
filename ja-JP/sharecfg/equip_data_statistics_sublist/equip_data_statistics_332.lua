@@ -1,5 +1,56 @@
 pg = pg or {}
 pg.equip_data_statistics_332 = {
+	[49064] = {
+		id = 49064,
+		base = 49060,
+		ammo_info = {
+			{
+				6,
+				59764
+			},
+			{
+				5,
+				52244
+			}
+		},
+		weapon_id = {
+			49064
+		}
+	},
+	[49065] = {
+		id = 49065,
+		base = 49060,
+		ammo_info = {
+			{
+				6,
+				59765
+			},
+			{
+				5,
+				52245
+			}
+		},
+		weapon_id = {
+			49065
+		}
+	},
+	[49066] = {
+		id = 49066,
+		base = 49060,
+		ammo_info = {
+			{
+				6,
+				59766
+			},
+			{
+				5,
+				52246
+			}
+		},
+		weapon_id = {
+			49066
+		}
+	},
 	[49067] = {
 		id = 49067,
 		base = 49060,
@@ -162,48 +213,6 @@ pg.equip_data_statistics_332 = {
 		base = 60011,
 		weapon_id = {
 			60013
-		}
-	},
-	[60021] = {
-		name = "0",
-		tech = 1,
-		speciality = "なし",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航空攻撃サンプル用",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60021,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60021
-		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60022] = {
-		id = 60022,
-		base = 60021,
-		weapon_id = {
-			60022
-		}
-	},
-	[60023] = {
-		id = 60023,
-		base = 60021,
-		weapon_id = {
-			60023
 		}
 	}
 }

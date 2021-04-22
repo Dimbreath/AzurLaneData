@@ -722,8 +722,8 @@ pg.enemy_data_statistics_18 = {
 		fx_container = {
 			{
 				0,
-				1.99185,
-				1.15
+				0,
+				0
 			},
 			{
 				0,
@@ -732,8 +732,8 @@ pg.enemy_data_statistics_18 = {
 			},
 			{
 				0,
-				0.75,
-				-1.299
+				0,
+				0
 			},
 			{
 				0,
@@ -870,8 +870,8 @@ pg.enemy_data_statistics_18 = {
 		fx_container = {
 			{
 				0,
-				1.99185,
-				1.15
+				0,
+				0
 			},
 			{
 				0,
@@ -880,8 +880,8 @@ pg.enemy_data_statistics_18 = {
 			},
 			{
 				0,
-				0.75,
-				-1.299
+				0,
+				0
 			},
 			{
 				0,
@@ -1018,8 +1018,8 @@ pg.enemy_data_statistics_18 = {
 		fx_container = {
 			{
 				0,
-				1.99185,
-				1.15
+				0,
+				0
 			},
 			{
 				0,
@@ -1028,8 +1028,8 @@ pg.enemy_data_statistics_18 = {
 			},
 			{
 				0,
-				0.75,
-				-1.299
+				0,
+				0
 			},
 			{
 				0,
@@ -1159,8 +1159,8 @@ pg.enemy_data_statistics_18 = {
 		fx_container = {
 			{
 				0,
-				1.99185,
-				1.15
+				0,
+				0
 			},
 			{
 				0,
@@ -1169,8 +1169,8 @@ pg.enemy_data_statistics_18 = {
 			},
 			{
 				0,
-				0.75,
-				-1.299
+				0,
+				0
 			},
 			{
 				0,
@@ -1318,8 +1318,8 @@ pg.enemy_data_statistics_18 = {
 		fx_container = {
 			{
 				0,
-				1.99185,
-				1.15
+				0,
+				0
 			},
 			{
 				0,
@@ -1328,8 +1328,8 @@ pg.enemy_data_statistics_18 = {
 			},
 			{
 				0,
-				0.75,
-				-1.299
+				0,
+				0
 			},
 			{
 				0,
@@ -1479,8 +1479,8 @@ pg.enemy_data_statistics_18 = {
 		fx_container = {
 			{
 				0,
-				1.99185,
-				1.15
+				0,
+				0
 			},
 			{
 				0,
@@ -1489,8 +1489,8 @@ pg.enemy_data_statistics_18 = {
 			},
 			{
 				0,
-				0.75,
-				-1.299
+				0,
+				0
 			},
 			{
 				0,
@@ -1640,8 +1640,8 @@ pg.enemy_data_statistics_18 = {
 		fx_container = {
 			{
 				0,
-				1.99185,
-				1.15
+				0,
+				0
 			},
 			{
 				0,
@@ -1650,8 +1650,8 @@ pg.enemy_data_statistics_18 = {
 			},
 			{
 				0,
-				0.75,
-				-1.299
+				0,
+				0
 			},
 			{
 				0,
@@ -1915,8 +1915,8 @@ pg.enemy_data_statistics_18 = {
 		fx_container = {
 			{
 				0,
-				1.99185,
-				1.15
+				0,
+				0
 			},
 			{
 				0,
@@ -1925,8 +1925,8 @@ pg.enemy_data_statistics_18 = {
 			},
 			{
 				0,
-				0.75,
-				-1.299
+				0,
+				0
 			},
 			{
 				0,
@@ -2056,8 +2056,8 @@ pg.enemy_data_statistics_18 = {
 		fx_container = {
 			{
 				0,
-				1.99185,
-				1.15
+				0,
+				0
 			},
 			{
 				0,
@@ -2066,8 +2066,8 @@ pg.enemy_data_statistics_18 = {
 			},
 			{
 				0,
-				0.75,
-				-1.299
+				0,
+				0
 			},
 			{
 				0,

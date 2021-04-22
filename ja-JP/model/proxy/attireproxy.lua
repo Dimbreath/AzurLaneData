@@ -241,4 +241,10 @@ function slot0.needTip(slot0)
 	return slot1
 end
 
+function slot0.IsShowRedDot(slot0)
+	return _.any(slot0:needTip(), function (slot0)
+		return slot0 == true
+	end)
+end
+
 return slot0

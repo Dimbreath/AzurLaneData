@@ -1,5 +1,47 @@
 pg = pg or {}
 pg.equip_data_statistics_338 = {
+	[60271] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60271,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60271
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60272] = {
+		id = 60272,
+		base = 60271,
+		weapon_id = {
+			60272
+		}
+	},
+	[60273] = {
+		id = 60273,
+		base = 60271,
+		weapon_id = {
+			60273
+		}
+	},
 	[60281] = {
 		name = "0",
 		tech = 1,
@@ -197,52 +239,6 @@ pg.equip_data_statistics_338 = {
 		id = 60322,
 		weapon_id = {
 			60322
-		}
-	},
-	[60323] = {
-		descrip = "外观空袭展示用",
-		name = "航空攻击展示-埃塞克斯II",
-		base = 60321,
-		id = 60323,
-		weapon_id = {
-			60323
-		}
-	},
-	[60331] = {
-		name = "航空攻击展示-大凤I",
-		tech = 1,
-		speciality = "なし",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "外观空袭展示用",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60331,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60331
-		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60332] = {
-		descrip = "外观空袭展示用",
-		name = "航空攻击展示-大凤II",
-		base = 60331,
-		id = 60332,
-		weapon_id = {
-			60332
 		}
 	}
 }

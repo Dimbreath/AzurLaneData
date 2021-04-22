@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_24 = {
+	[1040] = {
+		name = "艦艇修理施設",
+		tech = 3,
+		type = 10,
+		speciality = "なし",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "1000",
+		value_1 = "200",
+		descrip = "損傷修理用の装置。工作艦のみ装備可能",
+		rarity = 5,
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 1040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			12
+		},
+		part_main = {
+			12
+		},
+		part_sub = {
+			12
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[1041] = {
+		id = 1041,
+		value_1 = "230",
+		base = 1040
+	},
+	[1042] = {
+		id = 1042,
+		value_1 = "260",
+		base = 1040
+	},
 	[1043] = {
 		id = 1043,
 		value_1 = "290",
@@ -94,47 +141,5 @@ pg.equip_data_statistics_24 = {
 		id = 1101,
 		value_1 = "11",
 		base = 1100
-	},
-	[1102] = {
-		id = 1102,
-		value_1 = "13",
-		base = 1100
-	},
-	[1103] = {
-		id = 1103,
-		value_1 = "14",
-		base = 1100
-	},
-	[1120] = {
-		name = "対空レーダー",
-		tech = 2,
-		type = 10,
-		speciality = "なし",
-		attribute_1 = "antiaircraft",
-		value_2 = 0,
-		icon = "1100",
-		value_1 = "18",
-		descrip = "対空電探（レーダー）。対空を上げることができる",
-		rarity = 3,
-		nationality = 1,
-		ammo = 10,
-		value_3 = 0,
-		id = 1120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"DEV"
-		}
 	}
 }

@@ -9,7 +9,7 @@ pg.equip_data_statistics_3 = {
 		descrip = "デフォルト装備",
 		value_2 = 0,
 		icon = "1",
-		nationality = 3,
+		nationality = 8,
 		ammo = 5,
 		value_3 = 0,
 		id = 126,
@@ -46,7 +46,7 @@ pg.equip_data_statistics_3 = {
 		descrip = "デフォルト装備",
 		value_2 = 0,
 		icon = "1",
-		nationality = 3,
+		nationality = 8,
 		ammo = 5,
 		value_3 = 0,
 		id = 127,
@@ -210,6 +210,118 @@ pg.equip_data_statistics_3 = {
 			"DC"
 		}
 	},
+	[148] = {
+		name = "0",
+		tech = 1,
+		speciality = "航空",
+		type = 7,
+		rarity = 1,
+		descrip = "デフォルト装備",
+		value_2 = 0,
+		icon = "1",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 148,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			148,
+			151
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CV",
+			"FT"
+		}
+	},
+	[149] = {
+		name = "0",
+		tech = 1,
+		speciality = "雷撃",
+		type = 8,
+		rarity = 1,
+		descrip = "デフォルト装備",
+		value_2 = 0,
+		icon = "1",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 149,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			149
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CV",
+			"TB"
+		}
+	},
+	[150] = {
+		name = "0",
+		tech = 1,
+		speciality = "爆撃",
+		type = 9,
+		rarity = 1,
+		descrip = "デフォルト装備",
+		value_2 = 0,
+		icon = "1",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 150,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			150
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CV",
+			"DB"
+		}
+	},
 	[201] = {
 		name = "0",
 		speciality = "追尾",
@@ -349,69 +461,6 @@ pg.equip_data_statistics_3 = {
 		id = 213,
 		weapon_id = {
 			213
-		}
-	},
-	[214] = {
-		name = "0",
-		damage = "6 x 2",
-		base = 211,
-		id = 214,
-		weapon_id = {
-			214
-		}
-	},
-	[215] = {
-		name = "皇家雷击轻巡副炮T4（德雷克模拟关卡用）",
-		damage = "6 x 2",
-		base = 211,
-		id = 215,
-		weapon_id = {
-			215
-		}
-	},
-	[221] = {
-		name = "0",
-		speciality = "追尾",
-		type = 1,
-		tech = 1,
-		rarity = 1,
-		descrip = "デフォルト装備",
-		value_2 = 0,
-		icon = "1",
-		damage = "2 x 2",
-		nationality = 0,
-		ammo = 5,
-		value_3 = 0,
-		id = 221,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			221
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"DD",
-			"MG"
 		}
 	}
 }

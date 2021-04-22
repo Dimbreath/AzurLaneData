@@ -1,5 +1,31 @@
 pg = pg or {}
 pg.equip_data_statistics_239 = {
+	[34190] = {
+		id = 34190,
+		damage = "154 x 3",
+		base = 34180,
+		weapon_id = {
+			34190
+		}
+	},
+	[34191] = {
+		anti_siren = 100,
+		damage = "154 x 3",
+		base = 34180,
+		id = 34191,
+		weapon_id = {
+			34191
+		}
+	},
+	[34192] = {
+		anti_siren = 200,
+		damage = "154 x 3",
+		base = 34180,
+		id = 34192,
+		weapon_id = {
+			34192
+		}
+	},
 	[34193] = {
 		anti_siren = 300,
 		damage = "154 x 3",
@@ -149,83 +175,6 @@ pg.equip_data_statistics_239 = {
 		id = 34311,
 		weapon_id = {
 			34311
-		}
-	},
-	[35000] = {
-		name = "610mm連装魚雷",
-		speciality = "雷撃",
-		type = 5,
-		tech = 1,
-		rarity = 1,
-		descrip = "0",
-		value_2 = 0,
-		icon = "35000",
-		damage = "52 x 2",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 35000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1801
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1801
-			},
-			{
-				4,
-				1401
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			35000
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"TP",
-			"DUO"
-		}
-	},
-	[35001] = {
-		id = 35001,
-		damage = "62 x 2",
-		base = 35000,
-		weapon_id = {
-			35001
-		}
-	},
-	[35002] = {
-		id = 35002,
-		damage = "72 x 2",
-		base = 35000,
-		weapon_id = {
-			35002
 		}
 	}
 }

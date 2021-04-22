@@ -1,5 +1,98 @@
 pg = pg or {}
 pg.equip_data_statistics_286 = {
+	[39311] = {
+		anti_siren = 100,
+		base = 39300,
+		id = 39311,
+		ammo_info = {
+			{
+				6,
+				50851
+			},
+			{
+				5,
+				53271
+			}
+		},
+		weapon_id = {
+			39311
+		}
+	},
+	[39320] = {
+		name = "彗星二一型",
+		type = 9,
+		speciality = "爆撃",
+		rarity = 5,
+		tech = 0,
+		descrip = "0",
+		value_2 = 45,
+		icon = "39320",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 39320,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				5,
+				52640
+			},
+			{
+				5,
+				52140
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			39320
+		},
+		skill_id = {},
+		part_main = {
+			10
+		},
+		part_sub = {
+			10
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		}
+	},
+	[39321] = {
+		id = 39321,
+		base = 39320,
+		ammo_info = {
+			{
+				6,
+				50041
+			},
+			{
+				5,
+				52641
+			},
+			{
+				5,
+				52141
+			}
+		},
+		weapon_id = {
+			39321
+		}
+	},
 	[39322] = {
 		id = 39322,
 		base = 39320,
@@ -319,29 +412,6 @@ pg.equip_data_statistics_286 = {
 			"DD",
 			"MG",
 			"AP"
-		}
-	},
-	[41001] = {
-		id = 41001,
-		base = 41000,
-		weapon_id = {
-			41001
-		}
-	},
-	[41002] = {
-		id = 41002,
-		damage = "6 x 1",
-		base = 41000,
-		weapon_id = {
-			41002
-		}
-	},
-	[41003] = {
-		id = 41003,
-		damage = "6 x 1",
-		base = 41000,
-		weapon_id = {
-			41003
 		}
 	}
 }

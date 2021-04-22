@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.aircraft_template_144 = {
+	[65842] = {
+		max_hp = 44,
+		name = "黑方舟技能-特殊鱼雷机Lv2",
+		base = 65841,
+		id = 65842,
+		hp_growth = 1678,
+		weapon_ID = {
+			65852
+		}
+	},
+	[65843] = {
+		max_hp = 49,
+		name = "黑方舟技能-特殊鱼雷机Lv3",
+		base = 65841,
+		id = 65843,
+		hp_growth = 1897,
+		weapon_ID = {
+			65853
+		}
+	},
+	[65844] = {
+		max_hp = 55,
+		name = "黑方舟技能-特殊鱼雷机Lv4",
+		base = 65841,
+		id = 65844,
+		hp_growth = 2116,
+		weapon_ID = {
+			65854
+		}
+	},
+	[65845] = {
+		max_hp = 61,
+		name = "黑方舟技能-特殊鱼雷机Lv5",
+		base = 65841,
+		id = 65845,
+		hp_growth = 2335,
+		weapon_ID = {
+			65855
+		}
+	},
 	[65846] = {
 		max_hp = 66,
 		name = "黑方舟技能-特殊鱼雷机Lv6",
@@ -50,27 +90,29 @@ pg.aircraft_template_144 = {
 			65860
 		}
 	},
-	[66240] = {
-		name = "山城改技能Lv0",
-		max_hp = 27,
+	[65911] = {
+		name = "天鹰技能G.50Lv1",
+		max_hp = 46,
 		accuracy = 23,
-		model_ID = "ruiyun",
+		model_ID = "g50",
 		ACC_growth = 0,
-		crash_DMG = 120,
-		dodge = 1,
+		crash_DMG = 160,
+		dodge = 0.333,
 		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
-		icon = "ruiyun",
+		icon = "g50",
 		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1023,
-		speed = 46,
-		id = 66240,
+		nationality = 6,
+		hp_growth = 1785,
+		speed = 50,
+		id = 65911,
 		scale = 1,
 		weapon_ID = {
-			66260
+			50041,
+			50541,
+			65921
 		},
 		position_offset = {
 			0,
@@ -113,7 +155,7 @@ pg.aircraft_template_144 = {
 				0
 			},
 			{
-				0.26,
+				0.27,
 				0,
 				0
 			},
@@ -122,46 +164,6 @@ pg.aircraft_template_144 = {
 				0,
 				0
 			}
-		}
-	},
-	[66241] = {
-		max_hp = 32,
-		name = "山城改技能Lv1",
-		base = 66240,
-		id = 66241,
-		hp_growth = 1233,
-		weapon_ID = {
-			66261
-		}
-	},
-	[66242] = {
-		max_hp = 37,
-		name = "山城改技能Lv2",
-		base = 66240,
-		id = 66242,
-		hp_growth = 1443,
-		weapon_ID = {
-			66262
-		}
-	},
-	[66243] = {
-		max_hp = 42,
-		name = "山城改技能Lv3",
-		base = 66240,
-		id = 66243,
-		hp_growth = 1653,
-		weapon_ID = {
-			66263
-		}
-	},
-	[66244] = {
-		max_hp = 47,
-		name = "山城改技能Lv4",
-		base = 66240,
-		id = 66244,
-		hp_growth = 1863,
-		weapon_ID = {
-			66264
 		}
 	}
 }

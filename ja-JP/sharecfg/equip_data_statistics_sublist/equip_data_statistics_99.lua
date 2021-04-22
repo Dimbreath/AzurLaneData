@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_99 = {
+	[14142] = {
+		id = 14142,
+		damage = "60 x 3",
+		base = 14140,
+		weapon_id = {
+			14142
+		}
+	},
+	[14143] = {
+		id = 14143,
+		damage = "67 x 3",
+		base = 14140,
+		weapon_id = {
+			14143
+		}
+	},
+	[14144] = {
+		id = 14144,
+		damage = "72 x 3",
+		base = 14140,
+		weapon_id = {
+			14144
+		}
+	},
 	[14145] = {
 		id = 14145,
 		damage = "79 x 3",
@@ -147,76 +171,6 @@ pg.equip_data_statistics_99 = {
 		base = 14160,
 		weapon_id = {
 			14169
-		}
-	},
-	[14170] = {
-		id = 14170,
-		damage = "116 x 4",
-		base = 14160,
-		weapon_id = {
-			14170
-		}
-	},
-	[14171] = {
-		anti_siren = 100,
-		damage = "116 x 4",
-		base = 14160,
-		id = 14171,
-		weapon_id = {
-			14171
-		}
-	},
-	[14180] = {
-		name = "406mm連装砲Mk1",
-		speciality = "投射",
-		type = 4,
-		tech = 0,
-		descrip = "0",
-		value_2 = 12,
-		icon = "14180",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "53 x 2",
-		nationality = 1,
-		ammo = 1,
-		value_3 = 0,
-		id = 14180,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1501
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			14180
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"BB",
-			"MG",
-			"AP"
 		}
 	}
 }

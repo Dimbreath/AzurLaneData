@@ -318,6 +318,12 @@ function slot0.updateStage(slot0, slot1)
 	slot0:updateStageTF(slot2, slot1)
 	onButton(slot0, slot2, function ()
 		if getProxy(DailyLevelProxy):CanQuickBattle(uv0.id) then
+			if pg.expedition_daily_template[uv1.dailyLevelId].limit_time <= (uv1.dailyCounts[uv1.dailyLevelId] or 0) then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("dailyLevel_restCount_notEnough"))
+
+				return
+			end
+
 			uv1:OnSelectStage(uv0)
 		else
 			uv1:OnOpenPreCombat(uv0)
@@ -436,6 +442,7 @@ end
 
 function slot0.UpdateBattleBtn(slot0, slot1)
 	slot3 = slot0.selectedPanel:Find("stagetpl/info").parent:Find("quickly/bg")
+	slot6 = pg.expedition_daily_template[slot0.dailyLevelId].limit_time - (slot0.dailyCounts[slot0.dailyLevelId] or 0)
 	slot7 = slot3:Find("challenge")
 
 	onButton(slot0, slot7, function ()
@@ -449,15 +456,19 @@ function slot0.UpdateBattleBtn(slot0, slot1)
 		uv0:OnQuickBattle(uv1, uv2)
 	end, SFX_PANEL)
 	setText(slot8:Find("label"), i18n("daily_level_quick_battle_label1", "   ", COLOR_WHITE))
-	setText(slot8:Find("Text"), "<color=" .. COLOR_GREEN .. ">" .. math.max(1, pg.expedition_daily_template[slot0.dailyLevelId].limit_time - (slot0.dailyCounts[slot0.dailyLevelId] or 0)) .. "</color>")
+	setText(slot8:Find("Text"), "<color=" .. COLOR_GREEN .. ">" .. math.max(1, slot6) .. "</color>")
 
 	slot9 = slot3:Find("once")
 
 	onButton(slot0, slot9, function ()
 		uv0:OnQuickBattle(uv1, 1)
 	end, SFX_PANEL)
-	setText(slot9:Find("label"), i18n("daily_level_quick_battle_label1", "   ", COLOR_WHITE))
-	setText(slot9:Find("Text"), 1)
+	setText(slot9:Find("label"), i18n("daily_level_quick_battle_label3"))
+	setText(slot9:Find("Text"), "")
+
+	if slot6 == 0 then
+		slot0:EnableOrDisable(slot1, false)
+	end
 end
 
 function slot0.OnQuickBattle(slot0, slot1, slot2)

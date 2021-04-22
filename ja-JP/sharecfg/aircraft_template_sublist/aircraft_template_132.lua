@@ -1,5 +1,110 @@
 pg = pg or {}
 pg.aircraft_template_132 = {
+	[49060] = {
+		name = "He-50b舰载轰炸机",
+		max_hp = 37,
+		accuracy = 23,
+		model_ID = "He50b",
+		ACC_growth = 0,
+		crash_DMG = 112,
+		dodge = 3.51,
+		attack_power = 2,
+		dodge_limit = 0.8,
+		type = 3,
+		AP_growth = 2000,
+		icon = "He50b",
+		funnel_behavior = "",
+		nationality = 4,
+		hp_growth = 1408,
+		speed = 48,
+		id = 49060,
+		scale = 1,
+		weapon_ID = {
+			59760,
+			52240
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					1.04,
+					-1.11,
+					0
+				},
+				{
+					1.08,
+					1.2,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[49061] = {
+		id = 49061,
+		base = 49060,
+		max_hp = 42,
+		hp_growth = 1619,
+		weapon_ID = {
+			59761,
+			52241
+		}
+	},
+	[49062] = {
+		id = 49062,
+		base = 49060,
+		max_hp = 48,
+		hp_growth = 1830,
+		weapon_ID = {
+			59762,
+			52242
+		}
+	},
+	[49063] = {
+		id = 49063,
+		base = 49060,
+		max_hp = 53,
+		hp_growth = 2042,
+		weapon_ID = {
+			59763,
+			52243
+		}
+	},
 	[49064] = {
 		id = 49064,
 		base = 49060,
@@ -122,236 +227,6 @@ pg.aircraft_template_132 = {
 		hp_growth = 2432,
 		weapon_ID = {
 			61014
-		}
-	},
-	[61012] = {
-		max_hp = 95,
-		name = "皇家方舟技能LV3",
-		base = 61010,
-		id = 61012,
-		hp_growth = 3648,
-		weapon_ID = {
-			61015
-		}
-	},
-	[61016] = {
-		name = "大凤技能彩云",
-		max_hp = 42,
-		accuracy = 23,
-		model_ID = "caiyun",
-		ACC_growth = 0,
-		crash_DMG = 208,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "caiyun",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1605,
-		speed = 66,
-		id = 61016,
-		scale = 1,
-		weapon_ID = {},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.64,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[61017] = {
-		name = "多多丸技能鱼雷机",
-		max_hp = 96,
-		accuracy = 23,
-		model_ID = "97jiangong",
-		ACC_growth = 0,
-		crash_DMG = 180,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "97jiangong",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 3678,
-		speed = 45,
-		id = 61017,
-		scale = 1,
-		weapon_ID = {
-			61018
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[61019] = {
-		name = "黑企业剧情轰炸机",
-		max_hp = 120,
-		accuracy = 23,
-		model_ID = "shenhaifeiji",
-		ACC_growth = 0,
-		crash_DMG = 208,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 3,
-		AP_growth = 2000,
-		icon = "shenhaifeiji",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 5000,
-		speed = 66,
-		id = 61019,
-		scale = 1,
-		weapon_ID = {
-			61021
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.64,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
 		}
 	}
 }

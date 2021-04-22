@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_72 = {
+	[5229] = {
+		id = 5229,
+		damage = "131 x 5",
+		base = 5220,
+		weapon_id = {
+			5229
+		}
+	},
+	[5230] = {
+		id = 5230,
+		damage = "140 x 5",
+		base = 5220,
+		weapon_id = {
+			5230
+		}
+	},
+	[5240] = {
+		name = "533mm五連装魚雷",
+		speciality = "雷撃",
+		type = 5,
+		tech = 3,
+		descrip = "0",
+		value_2 = 45,
+		icon = "5200",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "56 x 5",
+		nationality = 0,
+		ammo = 5,
+		value_3 = 0,
+		id = 5240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1800
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1800
+			},
+			{
+				4,
+				1404
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			5240
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"TP",
+			"QUINT"
+		}
+	},
 	[5241] = {
 		id = 5241,
 		damage = "66 x 5",
@@ -105,83 +183,6 @@ pg.equip_data_statistics_72 = {
 		id = 5253,
 		weapon_id = {
 			5253
-		}
-	},
-	[5300] = {
-		name = "550mm連装魚雷発射管",
-		speciality = "雷撃",
-		type = 5,
-		tech = 1,
-		rarity = 1,
-		descrip = "0",
-		value_2 = 0,
-		icon = "5300",
-		damage = "42 x 2",
-		nationality = 8,
-		ammo = 5,
-		value_3 = 0,
-		id = 5300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1800
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1800
-			},
-			{
-				4,
-				1401
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			5300
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"ST",
-			"TP",
-			"DUO"
-		}
-	},
-	[5301] = {
-		id = 5301,
-		damage = "49 x 2",
-		base = 5300,
-		weapon_id = {
-			5301
-		}
-	},
-	[5302] = {
-		id = 5302,
-		damage = "57 x 2",
-		base = 5300,
-		weapon_id = {
-			5302
 		}
 	}
 }

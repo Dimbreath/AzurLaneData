@@ -1,5 +1,81 @@
 pg = pg or {}
 pg.equip_data_statistics_297 = {
+	[42351] = {
+		anti_siren = 100,
+		damage = "15 x 3",
+		base = 42340,
+		id = 42351,
+		weapon_id = {
+			42351
+		}
+	},
+	[43000] = {
+		name = "203mmSKC連装砲",
+		speciality = "追尾",
+		type = 3,
+		tech = 1,
+		descrip = "アドミラル・ヒッパー級主砲の203mmSKC連装砲。重巡に装備可能",
+		value_2 = 12,
+		icon = "43000",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "25 x 6",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 0,
+		id = 43000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1401
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1401
+			},
+			{
+				4,
+				1206
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			43000
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CA",
+			"MG",
+			"AP"
+		}
+	},
+	[43001] = {
+		id = 43001,
+		damage = "27 x 6",
+		base = 43000,
+		weapon_id = {
+			43001
+		}
+	},
 	[43002] = {
 		id = 43002,
 		damage = "29 x 6",
@@ -153,30 +229,6 @@ pg.equip_data_statistics_297 = {
 		base = 43020,
 		weapon_id = {
 			43027
-		}
-	},
-	[43028] = {
-		id = 43028,
-		damage = "43 x 6",
-		base = 43020,
-		weapon_id = {
-			43028
-		}
-	},
-	[43029] = {
-		id = 43029,
-		damage = "45 x 6",
-		base = 43020,
-		weapon_id = {
-			43029
-		}
-	},
-	[43030] = {
-		id = 43030,
-		damage = "47 x 6",
-		base = 43020,
-		weapon_id = {
-			43030
 		}
 	}
 }

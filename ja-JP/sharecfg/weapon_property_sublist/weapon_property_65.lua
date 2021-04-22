@@ -2,527 +2,74 @@ pg = pg or {}
 pg.weapon_property_65 = {}
 
 function ()
-	uv0.weapon_property_65[41043] = {
-		id = 41043,
-		reload_max = 175,
-		damage = 7,
-		base = 41040
-	}
-	uv0.weapon_property_65[41044] = {
-		id = 41044,
-		reload_max = 171,
-		damage = 8,
-		base = 41040
-	}
-	uv0.weapon_property_65[41045] = {
-		id = 41045,
-		reload_max = 167,
-		damage = 8,
-		base = 41040
-	}
-	uv0.weapon_property_65[41046] = {
-		id = 41046,
-		reload_max = 164,
-		damage = 9,
-		base = 41040
-	}
-	uv0.weapon_property_65[41047] = {
-		reload_max = 164,
-		damage = 9,
-		base = 41040,
-		id = 41047,
-		corrected = 130
-	}
-	uv0.weapon_property_65[41060] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "双联装127mmKM40主炮",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 4,
-		corrected = 125,
-		min_range = 0,
-		id = 41060,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 341,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0.3,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1303
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_65[41061] = {
-		id = 41061,
-		reload_max = 332,
-		damage = 5,
-		base = 41060
-	}
-	uv0.weapon_property_65[41062] = {
-		id = 41062,
-		reload_max = 323,
-		damage = 5,
-		base = 41060
-	}
-	uv0.weapon_property_65[41063] = {
-		id = 41063,
-		reload_max = 314,
-		damage = 6,
-		base = 41060
-	}
-	uv0.weapon_property_65[41064] = {
-		id = 41064,
-		reload_max = 305,
-		damage = 6,
-		base = 41060
-	}
-	uv0.weapon_property_65[41065] = {
-		id = 41065,
-		reload_max = 296,
-		damage = 7,
-		base = 41060
-	}
-	uv0.weapon_property_65[41066] = {
-		id = 41066,
-		reload_max = 287,
-		damage = 7,
-		base = 41060
-	}
-	uv0.weapon_property_65[41067] = {
-		id = 41067,
-		reload_max = 278,
-		damage = 8,
-		base = 41060
-	}
-	uv0.weapon_property_65[41068] = {
-		id = 41068,
-		reload_max = 269,
-		damage = 8,
-		base = 41060
-	}
-	uv0.weapon_property_65[41069] = {
-		id = 41069,
-		reload_max = 260,
-		damage = 9,
-		base = 41060
-	}
-	uv0.weapon_property_65[41070] = {
-		id = 41070,
-		reload_max = 251,
+	uv0.weapon_property_65[42241] = {
+		id = 42241,
+		reload_max = 496,
 		damage = 10,
-		base = 41060
+		base = 42240
 	}
-	uv0.weapon_property_65[41071] = {
-		reload_max = 251,
-		damage = 10,
-		base = 41060,
-		id = 41071,
-		corrected = 130
-	}
-	uv0.weapon_property_65[41100] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "双联装128mmSKC41主炮T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 4,
-		corrected = 115,
-		min_range = 0,
-		id = 41100,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 355,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0.3,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1303
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_65[41101] = {
-		id = 41101,
-		reload_max = 348,
-		damage = 5,
-		base = 41100
-	}
-	uv0.weapon_property_65[41102] = {
-		id = 41102,
-		reload_max = 340,
-		damage = 5,
-		base = 41100
-	}
-	uv0.weapon_property_65[41103] = {
-		id = 41103,
-		reload_max = 332,
-		damage = 6,
-		base = 41100
-	}
-	uv0.weapon_property_65[41120] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "双联装128mmSKC41主炮T2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 4,
-		corrected = 115,
-		min_range = 0,
-		id = 41120,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 328,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0.3,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1303
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_65[41121] = {
-		id = 41121,
-		reload_max = 321,
-		damage = 5,
-		base = 41120
-	}
-	uv0.weapon_property_65[41122] = {
-		id = 41122,
-		reload_max = 314,
-		damage = 5,
-		base = 41120
-	}
-	uv0.weapon_property_65[41123] = {
-		id = 41123,
-		reload_max = 306,
-		damage = 6,
-		base = 41120
-	}
-	uv0.weapon_property_65[41124] = {
-		id = 41124,
-		reload_max = 298,
-		damage = 6,
-		base = 41120
-	}
-	uv0.weapon_property_65[41125] = {
-		id = 41125,
-		reload_max = 290,
-		damage = 7,
-		base = 41120
-	}
-	uv0.weapon_property_65[41126] = {
-		id = 41126,
-		reload_max = 282,
-		damage = 8,
-		base = 41120
-	}
-	uv0.weapon_property_65[41140] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "双联装128mmSKC41主炮T3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 5,
-		corrected = 115,
-		min_range = 0,
-		id = 41140,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 303,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0.3,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1303
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_65[41141] = {
-		id = 41141,
-		reload_max = 296,
-		damage = 6,
-		base = 41140
-	}
-	uv0.weapon_property_65[41142] = {
-		id = 41142,
-		reload_max = 289,
-		damage = 6,
-		base = 41140
-	}
-	uv0.weapon_property_65[41143] = {
-		id = 41143,
-		reload_max = 282,
-		damage = 7,
-		base = 41140
-	}
-	uv0.weapon_property_65[41144] = {
-		id = 41144,
-		reload_max = 274,
-		damage = 7,
-		base = 41140
-	}
-	uv0.weapon_property_65[41145] = {
-		id = 41145,
-		reload_max = 266,
-		damage = 8,
-		base = 41140
-	}
-	uv0.weapon_property_65[41146] = {
-		id = 41146,
-		reload_max = 258,
-		damage = 8,
-		base = 41140
-	}
-	uv0.weapon_property_65[41147] = {
-		id = 41147,
-		reload_max = 250,
-		damage = 9,
-		base = 41140
-	}
-	uv0.weapon_property_65[41148] = {
-		id = 41148,
-		reload_max = 242,
-		damage = 9,
-		base = 41140
-	}
-	uv0.weapon_property_65[41149] = {
-		id = 41149,
-		reload_max = 234,
-		damage = 10,
-		base = 41140
-	}
-	uv0.weapon_property_65[41150] = {
-		id = 41150,
-		reload_max = 226,
+	uv0.weapon_property_65[42242] = {
+		id = 42242,
+		reload_max = 491,
 		damage = 11,
-		base = 41140
+		base = 42240
 	}
-	uv0.weapon_property_65[41151] = {
-		reload_max = 226,
-		damage = 11,
-		base = 41140,
-		id = 41151,
-		corrected = 120
-	}
-	uv0.weapon_property_65[41160] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "双联装128mmSKC41高平两用炮改T0",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 120,
-		min_range = 0,
-		id = 41160,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 303,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0.3,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1303
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_65[41161] = {
-		id = 41161,
-		reload_max = 296,
-		damage = 7,
-		base = 41160
-	}
-	uv0.weapon_property_65[41162] = {
-		id = 41162,
-		reload_max = 289,
-		damage = 8,
-		base = 41160
-	}
-	uv0.weapon_property_65[41163] = {
-		id = 41163,
-		reload_max = 282,
-		damage = 9,
-		base = 41160
-	}
-	uv0.weapon_property_65[41164] = {
-		id = 41164,
-		reload_max = 274,
-		damage = 10,
-		base = 41160
-	}
-	uv0.weapon_property_65[41165] = {
-		id = 41165,
-		reload_max = 266,
-		damage = 11,
-		base = 41160
-	}
-	uv0.weapon_property_65[41166] = {
-		id = 41166,
-		reload_max = 258,
+	uv0.weapon_property_65[42243] = {
+		id = 42243,
+		reload_max = 487,
 		damage = 12,
-		base = 41160
+		base = 42240
 	}
-	uv0.weapon_property_65[41167] = {
-		id = 41167,
-		reload_max = 250,
+	uv0.weapon_property_65[42244] = {
+		id = 42244,
+		reload_max = 480,
 		damage = 13,
-		base = 41160
+		base = 42240
 	}
-	uv0.weapon_property_65[41168] = {
-		id = 41168,
-		reload_max = 242,
+	uv0.weapon_property_65[42245] = {
+		id = 42245,
+		reload_max = 476,
 		damage = 14,
-		base = 41160
+		base = 42240
 	}
-	uv0.weapon_property_65[41169] = {
-		id = 41169,
-		reload_max = 234,
+	uv0.weapon_property_65[42246] = {
+		id = 42246,
+		reload_max = 471,
 		damage = 15,
-		base = 41160
+		base = 42240
 	}
-	uv0.weapon_property_65[41170] = {
-		id = 41170,
-		reload_max = 226,
+	uv0.weapon_property_65[42247] = {
+		id = 42247,
+		reload_max = 466,
 		damage = 16,
-		base = 41160
+		base = 42240
 	}
-	uv0.weapon_property_65[41171] = {
-		reload_max = 226,
-		damage = 16,
-		base = 41160,
-		id = 41171,
-		corrected = 125
+	uv0.weapon_property_65[42248] = {
+		id = 42248,
+		reload_max = 461,
+		damage = 17,
+		base = 42240
 	}
-	uv0.weapon_property_65[41172] = {
-		reload_max = 226,
-		damage = 16,
-		base = 41160,
-		id = 41172,
-		corrected = 132
+	uv0.weapon_property_65[42249] = {
+		id = 42249,
+		reload_max = 455,
+		damage = 19,
+		base = 42240
 	}
-	uv0.weapon_property_65[41173] = {
-		reload_max = 226,
-		damage = 16,
-		base = 41160,
-		id = 41173,
-		corrected = 142
+	uv0.weapon_property_65[42250] = {
+		id = 42250,
+		reload_max = 451,
+		damage = 21,
+		base = 42240
 	}
-	uv0.weapon_property_65[42000] = {
+	uv0.weapon_property_65[42251] = {
+		reload_max = 451,
+		damage = 21,
+		base = 42240,
+		id = 42251,
+		corrected = 109
+	}
+	uv0.weapon_property_65[42300] = {
 		action_index = "attack",
 		range = 65,
 		type = 2,
@@ -530,20 +77,20 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "单装SKC25式150mm主炮T1",
+		name = "单装TbtsKC36式150mm主炮T1",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 120,
 		charge_param = "",
 		damage = 7,
-		corrected = 110,
+		corrected = 105,
 		min_range = 0,
-		id = 42000,
+		id = 42300,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 330,
+		reload_max = 390,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
@@ -556,7 +103,7 @@ function ()
 			1304
 		},
 		barrage_ID = {
-			1000
+			1003
 		},
 		oxy_type = {
 			1
@@ -566,25 +113,25 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_65[42001] = {
-		id = 42001,
-		reload_max = 319,
+	uv0.weapon_property_65[42301] = {
+		id = 42301,
+		reload_max = 386,
 		damage = 8,
-		base = 42000
+		base = 42300
 	}
-	uv0.weapon_property_65[42002] = {
-		id = 42002,
-		reload_max = 311,
+	uv0.weapon_property_65[42302] = {
+		id = 42302,
+		reload_max = 381,
 		damage = 9,
-		base = 42000
+		base = 42300
 	}
-	uv0.weapon_property_65[42003] = {
-		id = 42003,
-		reload_max = 300,
+	uv0.weapon_property_65[42303] = {
+		id = 42303,
+		reload_max = 376,
 		damage = 10,
-		base = 42000
+		base = 42300
 	}
-	uv0.weapon_property_65[42020] = {
+	uv0.weapon_property_65[42340] = {
 		action_index = "attack",
 		range = 65,
 		type = 2,
@@ -592,20 +139,20 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "单装SKC25式150mm主炮T2",
+		name = "单装TbtsKC36式150mm主炮T3",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 120,
 		charge_param = "",
-		damage = 8,
-		corrected = 110,
+		damage = 6,
+		corrected = 105,
 		min_range = 0,
-		id = 42020,
+		id = 42340,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 314,
+		reload_max = 364,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
@@ -618,7 +165,7 @@ function ()
 			1304
 		},
 		barrage_ID = {
-			1000
+			1003
 		},
 		oxy_type = {
 			1
@@ -627,5 +174,430 @@ function ()
 			1
 		},
 		precast_param = {}
+	}
+	uv0.weapon_property_65[42341] = {
+		id = 42341,
+		reload_max = 361,
+		base = 42340
+	}
+	uv0.weapon_property_65[42342] = {
+		id = 42342,
+		reload_max = 358,
+		damage = 7,
+		base = 42340
+	}
+	uv0.weapon_property_65[42343] = {
+		id = 42343,
+		reload_max = 355,
+		damage = 8,
+		base = 42340
+	}
+	uv0.weapon_property_65[42344] = {
+		id = 42344,
+		reload_max = 352,
+		damage = 9,
+		base = 42340
+	}
+	uv0.weapon_property_65[42345] = {
+		id = 42345,
+		reload_max = 349,
+		damage = 10,
+		base = 42340
+	}
+	uv0.weapon_property_65[42346] = {
+		id = 42346,
+		reload_max = 345,
+		damage = 11,
+		base = 42340
+	}
+	uv0.weapon_property_65[42347] = {
+		id = 42347,
+		reload_max = 341,
+		damage = 12,
+		base = 42340
+	}
+	uv0.weapon_property_65[42348] = {
+		id = 42348,
+		reload_max = 337,
+		damage = 13,
+		base = 42340
+	}
+	uv0.weapon_property_65[42349] = {
+		id = 42349,
+		reload_max = 333,
+		damage = 14,
+		base = 42340
+	}
+	uv0.weapon_property_65[42350] = {
+		id = 42350,
+		reload_max = 329,
+		damage = 15,
+		base = 42340
+	}
+	uv0.weapon_property_65[42351] = {
+		reload_max = 329,
+		damage = 15,
+		base = 42340,
+		id = 42351,
+		corrected = 109
+	}
+	uv0.weapon_property_65[43000] = {
+		action_index = "attack",
+		range = 70,
+		type = 2,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "双联装203mmSKC主炮T1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 40,
+		charge_param = "",
+		damage = 25,
+		corrected = 110,
+		min_range = 0,
+		id = 43000,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1550,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-203mm",
+		auto_aftercast = 0.4,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1401
+		},
+		barrage_ID = {
+			1206
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_65[43001] = {
+		id = 43001,
+		reload_max = 1515,
+		damage = 27,
+		base = 43000
+	}
+	uv0.weapon_property_65[43002] = {
+		id = 43002,
+		reload_max = 1480,
+		damage = 29,
+		base = 43000
+	}
+	uv0.weapon_property_65[43003] = {
+		id = 43003,
+		reload_max = 1445,
+		damage = 31,
+		base = 43000
+	}
+	uv0.weapon_property_65[43004] = {
+		id = 43004,
+		reload_max = 1410,
+		damage = 33,
+		base = 43000
+	}
+	uv0.weapon_property_65[43005] = {
+		id = 43005,
+		reload_max = 1375,
+		damage = 35,
+		base = 43000
+	}
+	uv0.weapon_property_65[43006] = {
+		id = 43006,
+		reload_max = 1340,
+		damage = 37,
+		base = 43000
+	}
+	uv0.weapon_property_65[43020] = {
+		action_index = "attack",
+		range = 70,
+		type = 2,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "双联装203mmSKC主炮T2",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 40,
+		charge_param = "",
+		damage = 27,
+		corrected = 110,
+		min_range = 0,
+		id = 43020,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1520,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-203mm",
+		auto_aftercast = 0.4,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1401
+		},
+		barrage_ID = {
+			1206
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_65[43021] = {
+		id = 43021,
+		reload_max = 1485,
+		damage = 29,
+		base = 43020
+	}
+	uv0.weapon_property_65[43022] = {
+		id = 43022,
+		reload_max = 1450,
+		damage = 31,
+		base = 43020
+	}
+	uv0.weapon_property_65[43023] = {
+		id = 43023,
+		reload_max = 1415,
+		damage = 33,
+		base = 43020
+	}
+	uv0.weapon_property_65[43024] = {
+		id = 43024,
+		reload_max = 1380,
+		damage = 35,
+		base = 43020
+	}
+	uv0.weapon_property_65[43025] = {
+		id = 43025,
+		reload_max = 1345,
+		damage = 37,
+		base = 43020
+	}
+	uv0.weapon_property_65[43026] = {
+		id = 43026,
+		reload_max = 1310,
+		damage = 39,
+		base = 43020
+	}
+	uv0.weapon_property_65[43027] = {
+		id = 43027,
+		reload_max = 1275,
+		damage = 41,
+		base = 43020
+	}
+	uv0.weapon_property_65[43028] = {
+		id = 43028,
+		reload_max = 1240,
+		damage = 43,
+		base = 43020
+	}
+	uv0.weapon_property_65[43029] = {
+		id = 43029,
+		reload_max = 1205,
+		damage = 45,
+		base = 43020
+	}
+	uv0.weapon_property_65[43030] = {
+		id = 43030,
+		reload_max = 1170,
+		damage = 47,
+		base = 43020
+	}
+	uv0.weapon_property_65[43040] = {
+		action_index = "attack",
+		range = 70,
+		type = 2,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "双联装203mmSKC主炮T3",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 40,
+		charge_param = "",
+		damage = 30,
+		corrected = 110,
+		min_range = 0,
+		id = 43040,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-203mm",
+		auto_aftercast = 0.4,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1401
+		},
+		barrage_ID = {
+			1206
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_65[43041] = {
+		id = 43041,
+		reload_max = 1465,
+		damage = 32,
+		base = 43040
+	}
+	uv0.weapon_property_65[43042] = {
+		id = 43042,
+		reload_max = 1430,
+		damage = 34,
+		base = 43040
+	}
+	uv0.weapon_property_65[43043] = {
+		id = 43043,
+		reload_max = 1395,
+		damage = 36,
+		base = 43040
+	}
+	uv0.weapon_property_65[43044] = {
+		id = 43044,
+		reload_max = 1360,
+		damage = 38,
+		base = 43040
+	}
+	uv0.weapon_property_65[43045] = {
+		id = 43045,
+		reload_max = 1325,
+		damage = 40,
+		base = 43040
+	}
+	uv0.weapon_property_65[43046] = {
+		id = 43046,
+		reload_max = 1290,
+		damage = 42,
+		base = 43040
+	}
+	uv0.weapon_property_65[43047] = {
+		id = 43047,
+		reload_max = 1255,
+		damage = 44,
+		base = 43040
+	}
+	uv0.weapon_property_65[43048] = {
+		id = 43048,
+		reload_max = 1220,
+		damage = 46,
+		base = 43040
+	}
+	uv0.weapon_property_65[43049] = {
+		id = 43049,
+		reload_max = 1185,
+		damage = 48,
+		base = 43040
+	}
+	uv0.weapon_property_65[43050] = {
+		id = 43050,
+		reload_max = 1150,
+		damage = 50,
+		base = 43040
+	}
+	uv0.weapon_property_65[43051] = {
+		reload_max = 1150,
+		damage = 50,
+		base = 43040,
+		id = 43051,
+		corrected = 114
+	}
+	uv0.weapon_property_65[43052] = {
+		reload_max = 1150,
+		damage = 50,
+		base = 43040,
+		id = 43052,
+		corrected = 121
+	}
+	uv0.weapon_property_65[43053] = {
+		reload_max = 1150,
+		damage = 50,
+		base = 43040,
+		id = 43053,
+		corrected = 130
+	}
+	uv0.weapon_property_65[43060] = {
+		action_index = "attack",
+		range = 70,
+		type = 2,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "试作型三联装203mmSKC主炮T0",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 38,
+		charge_param = "",
+		damage = 30,
+		corrected = 105,
+		min_range = 0,
+		id = 43060,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1450,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-203mm",
+		auto_aftercast = 0.4,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1401
+		},
+		barrage_ID = {
+			1214
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_65[43061] = {
+		id = 43061,
+		reload_max = 1415,
+		damage = 32,
+		base = 43060
 	}
 end()

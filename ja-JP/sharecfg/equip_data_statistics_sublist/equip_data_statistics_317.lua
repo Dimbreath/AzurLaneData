@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_317 = {
+	[46065] = {
+		id = 46065,
+		damage = "58/回",
+		base = 46060,
+		weapon_id = {
+			46065
+		}
+	},
+	[46066] = {
+		id = 46066,
+		damage = "64/回",
+		base = 46060,
+		weapon_id = {
+			46066
+		}
+	},
+	[46067] = {
+		id = 46067,
+		damage = "70/回",
+		base = 46060,
+		weapon_id = {
+			46067
+		}
+	},
 	[46068] = {
 		id = 46068,
 		damage = "76/回",
@@ -264,30 +288,6 @@ pg.equip_data_statistics_317 = {
 			"KMS",
 			"ST",
 			"AA"
-		}
-	},
-	[46141] = {
-		id = 46141,
-		damage = "14/回",
-		base = 46140,
-		weapon_id = {
-			46141
-		}
-	},
-	[46142] = {
-		id = 46142,
-		damage = "16/回",
-		base = 46140,
-		weapon_id = {
-			46142
-		}
-	},
-	[46143] = {
-		id = 46143,
-		damage = "18/回",
-		base = 46140,
-		weapon_id = {
-			46143
 		}
 	}
 }

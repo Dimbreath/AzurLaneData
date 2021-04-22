@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_64 = {
+	[4044] = {
+		id = 4044,
+		damage = "31 x 3",
+		base = 4040,
+		weapon_id = {
+			4044
+		}
+	},
+	[4045] = {
+		id = 4045,
+		damage = "34 x 3",
+		base = 4040,
+		weapon_id = {
+			4045
+		}
+	},
+	[4046] = {
+		id = 4046,
+		damage = "37 x 3",
+		base = 4040,
+		weapon_id = {
+			4046
+		}
+	},
 	[4047] = {
 		id = 4047,
 		damage = "37 x 3",
@@ -225,30 +249,6 @@ pg.equip_data_statistics_64 = {
 		equip_parameters = {},
 		label = {
 			"DC"
-		}
-	},
-	[4141] = {
-		id = 4141,
-		damage = "30 x 3",
-		base = 4140,
-		weapon_id = {
-			4141
-		}
-	},
-	[4142] = {
-		id = 4142,
-		damage = "33 x 3",
-		base = 4140,
-		weapon_id = {
-			4142
-		}
-	},
-	[4143] = {
-		id = 4143,
-		damage = "36 x 3",
-		base = 4140,
-		weapon_id = {
-			4143
 		}
 	}
 }

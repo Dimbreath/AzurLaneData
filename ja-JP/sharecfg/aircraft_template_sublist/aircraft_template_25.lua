@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.aircraft_template_25 = {
+	[17406] = {
+		id = 17406,
+		base = 17400,
+		max_hp = 77,
+		hp_growth = 2949,
+		weapon_ID = {
+			50546,
+			50746
+		}
+	},
+	[17407] = {
+		id = 17407,
+		base = 17400,
+		max_hp = 83,
+		hp_growth = 3182,
+		weapon_ID = {
+			50547,
+			50747
+		}
+	},
+	[17408] = {
+		id = 17408,
+		base = 17400,
+		max_hp = 89,
+		hp_growth = 3415,
+		weapon_ID = {
+			50548,
+			50748
+		}
+	},
+	[17409] = {
+		id = 17409,
+		base = 17400,
+		max_hp = 95,
+		hp_growth = 3648,
+		weapon_ID = {
+			50549,
+			50749
+		}
+	},
 	[17410] = {
 		id = 17410,
 		base = 17400,
@@ -123,111 +163,6 @@ pg.aircraft_template_25 = {
 		weapon_ID = {
 			50003,
 			51003
-		}
-	},
-	[18020] = {
-		name = "TBD蹂躏者",
-		max_hp = 30,
-		accuracy = 23,
-		model_ID = "tbd",
-		ACC_growth = 0,
-		crash_DMG = 300,
-		dodge = 1.21,
-		attack_power = 2,
-		dodge_limit = 3.5,
-		type = 2,
-		AP_growth = 2000,
-		icon = "tbd",
-		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1149,
-		speed = 48,
-		id = 18020,
-		scale = 1,
-		weapon_ID = {
-			50020,
-			51020
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.31,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[18021] = {
-		id = 18021,
-		base = 18020,
-		max_hp = 34,
-		hp_growth = 1321,
-		weapon_ID = {
-			50021,
-			51021
-		}
-	},
-	[18022] = {
-		id = 18022,
-		base = 18020,
-		max_hp = 39,
-		hp_growth = 1494,
-		weapon_ID = {
-			50022,
-			51022
-		}
-	},
-	[18023] = {
-		id = 18023,
-		base = 18020,
-		max_hp = 43,
-		hp_growth = 1666,
-		weapon_ID = {
-			50023,
-			51023
 		}
 	}
 }

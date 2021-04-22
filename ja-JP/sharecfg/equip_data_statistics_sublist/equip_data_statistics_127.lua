@@ -1,5 +1,82 @@
 pg = pg or {}
 pg.equip_data_statistics_127 = {
+	[17100] = {
+		name = "F4Fワイルドキャット",
+		type = 7,
+		speciality = "航空",
+		rarity = 2,
+		tech = 1,
+		descrip = "0",
+		value_2 = 5,
+		icon = "17100",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 17100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50400
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			17100,
+			81100
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
+	},
+	[17101] = {
+		id = 17101,
+		base = 17100,
+		ammo_info = {
+			{
+				6,
+				50401
+			}
+		},
+		weapon_id = {
+			17101,
+			81101
+		}
+	},
+	[17102] = {
+		id = 17102,
+		base = 17100,
+		ammo_info = {
+			{
+				6,
+				50402
+			}
+		},
+		weapon_id = {
+			17102,
+			81102
+		}
+	},
 	[17103] = {
 		id = 17103,
 		base = 17100,
@@ -250,48 +327,6 @@ pg.equip_data_statistics_127 = {
 		weapon_id = {
 			17144,
 			81144
-		}
-	},
-	[17145] = {
-		id = 17145,
-		base = 17140,
-		ammo_info = {
-			{
-				6,
-				50445
-			}
-		},
-		weapon_id = {
-			17145,
-			81145
-		}
-	},
-	[17146] = {
-		id = 17146,
-		base = 17140,
-		ammo_info = {
-			{
-				6,
-				50446
-			}
-		},
-		weapon_id = {
-			17146,
-			81146
-		}
-	},
-	[17147] = {
-		id = 17147,
-		base = 17140,
-		ammo_info = {
-			{
-				6,
-				50447
-			}
-		},
-		weapon_id = {
-			17147,
-			81147
 		}
 	}
 }

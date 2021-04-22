@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_85 = {
+	[11045] = {
+		id = 11045,
+		damage = "5 x 1",
+		base = 11040,
+		weapon_id = {
+			11045
+		}
+	},
+	[11046] = {
+		id = 11046,
+		damage = "7 x 1",
+		base = 11040,
+		weapon_id = {
+			11046
+		}
+	},
+	[11047] = {
+		id = 11047,
+		damage = "7 x 1",
+		base = 11040,
+		weapon_id = {
+			11047
+		}
+	},
 	[11060] = {
 		name = "127mm単装砲初期型",
 		speciality = "追尾",
@@ -274,29 +298,6 @@ pg.equip_data_statistics_85 = {
 			"USS",
 			"DD",
 			"MG"
-		}
-	},
-	[11121] = {
-		id = 11121,
-		base = 11120,
-		weapon_id = {
-			11121
-		}
-	},
-	[11122] = {
-		id = 11122,
-		damage = "6 x 3",
-		base = 11120,
-		weapon_id = {
-			11122
-		}
-	},
-	[11123] = {
-		id = 11123,
-		damage = "7 x 3",
-		base = 11120,
-		weapon_id = {
-			11123
 		}
 	}
 }

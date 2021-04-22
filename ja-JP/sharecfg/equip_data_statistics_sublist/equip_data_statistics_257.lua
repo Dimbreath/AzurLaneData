@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_257 = {
+	[36447] = {
+		id = 36447,
+		damage = "53/回",
+		base = 36440,
+		weapon_id = {
+			36447
+		}
+	},
+	[36448] = {
+		id = 36448,
+		damage = "57/回",
+		base = 36440,
+		weapon_id = {
+			36448
+		}
+	},
+	[36449] = {
+		id = 36449,
+		damage = "61/回",
+		base = 36440,
+		weapon_id = {
+			36449
+		}
+	},
 	[36450] = {
 		id = 36450,
 		damage = "65/回",
@@ -211,84 +235,6 @@ pg.equip_data_statistics_257 = {
 		base = 36520,
 		weapon_id = {
 			36526
-		}
-	},
-	[36540] = {
-		name = "76mm高角砲",
-		speciality = "対空",
-		type = 6,
-		tech = 3,
-		descrip = "0",
-		value_2 = 25,
-		icon = "36500",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "22/回",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 36540,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			36540
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"AA"
-		}
-	},
-	[36541] = {
-		id = 36541,
-		damage = "25/回",
-		base = 36540,
-		weapon_id = {
-			36541
-		}
-	},
-	[36542] = {
-		id = 36542,
-		damage = "28/回",
-		base = 36540,
-		weapon_id = {
-			36542
 		}
 	}
 }

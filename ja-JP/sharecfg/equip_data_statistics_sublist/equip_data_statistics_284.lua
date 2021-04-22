@@ -1,5 +1,103 @@
 pg = pg or {}
 pg.equip_data_statistics_284 = {
+	[39202] = {
+		id = 39202,
+		base = 39200,
+		ammo_info = {
+			{
+				6,
+				50502
+			},
+			{
+				6,
+				50802
+			},
+			{
+				5,
+				52202
+			}
+		},
+		weapon_id = {
+			39202
+		}
+	},
+	[39203] = {
+		id = 39203,
+		base = 39200,
+		ammo_info = {
+			{
+				6,
+				50503
+			},
+			{
+				6,
+				50803
+			},
+			{
+				5,
+				52203
+			}
+		},
+		weapon_id = {
+			39203
+		}
+	},
+	[39220] = {
+		name = "瑞雲",
+		type = 12,
+		speciality = "爆撃",
+		rarity = 3,
+		tech = 2,
+		descrip = "20mm機銃2挺、13mm機銃1挺、300kg爆弾を装備した水上偵察機",
+		value_2 = 12,
+		icon = "39200",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 39220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50520
+			},
+			{
+				6,
+				50820
+			},
+			{
+				5,
+				52220
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			39220
+		},
+		skill_id = {},
+		part_main = {
+			10,
+			17
+		},
+		part_sub = {
+			10,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		}
+	},
 	[39221] = {
 		id = 39221,
 		base = 39220,
@@ -306,69 +404,6 @@ pg.equip_data_statistics_284 = {
 		},
 		weapon_id = {
 			39246
-		}
-	},
-	[39247] = {
-		id = 39247,
-		base = 39240,
-		ammo_info = {
-			{
-				6,
-				50547
-			},
-			{
-				6,
-				50847
-			},
-			{
-				5,
-				52247
-			}
-		},
-		weapon_id = {
-			39247
-		}
-	},
-	[39248] = {
-		id = 39248,
-		base = 39240,
-		ammo_info = {
-			{
-				6,
-				50548
-			},
-			{
-				6,
-				50848
-			},
-			{
-				5,
-				52248
-			}
-		},
-		weapon_id = {
-			39248
-		}
-	},
-	[39249] = {
-		id = 39249,
-		base = 39240,
-		ammo_info = {
-			{
-				6,
-				50549
-			},
-			{
-				6,
-				50849
-			},
-			{
-				5,
-				52249
-			}
-		},
-		weapon_id = {
-			39249
 		}
 	}
 }

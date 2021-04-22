@@ -220,19 +220,25 @@ function slot0.ExcessSpineChar(slot0)
 end
 
 function slot0.GetSpineSkel(slot0, slot1, slot2, slot3)
-	slot0:FromSingle("char/" .. slot1, slot1 .. "_SkeletonData", slot2, slot3)
+	slot4, slot5 = HXSet.autoHxShiftPath("char/" .. slot1, slot1)
+
+	slot0:FromSingle(slot4, slot5 .. "_SkeletonData", slot2, slot3)
 end
 
 function slot0.ClearSpineSkel(slot0, slot1)
-	if slot0.pools_single["char/" .. slot1 .. slot1 .. "_SkeletonData"] then
-		slot0.pools_single[slot3]:Clear()
+	slot2, slot3 = HXSet.autoHxShiftPath("char/" .. slot1, slot1)
 
-		slot0.pools_single[slot3] = nil
+	if slot0.pools_single[slot2 .. slot3 .. "_SkeletonData"] then
+		slot0.pools_single[slot4]:Clear()
+
+		slot0.pools_single[slot4] = nil
 	end
 end
 
 function slot0.IsSpineSkelCached(slot0, slot1)
-	return slot0.pools_single["char/" .. slot1 .. slot1 .. "_SkeletonData"] ~= nil
+	slot2, slot3 = HXSet.autoHxShiftPath("char/" .. slot1, slot1)
+
+	return slot0.pools_single[slot2 .. slot3 .. "_SkeletonData"] ~= nil
 end
 
 slot6 = {

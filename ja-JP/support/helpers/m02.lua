@@ -282,10 +282,6 @@ function setPaintingPrefab(slot0, slot1, slot2, slot3)
 		slot1 = slot1 .. "_n"
 	end
 
-	if not slot3 and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot1 .. "_n")) and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1, 0) ~= 0 then
-		slot1 = slot1 .. "_n"
-	end
-
 	PoolMgr.GetInstance():GetPainting(slot1, false, function (slot0)
 		setParent(slot0, uv0, false)
 
@@ -314,10 +310,6 @@ function setPaintingPrefabAsync(slot0, slot1, slot2, slot3, slot4)
 	slot7 = slot1
 
 	if PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot1 .. "_n")) and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1, 0) ~= 0 then
-		slot1 = slot1 .. "_n"
-	end
-
-	if not slot4 and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot1 .. "_n")) and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1, 0) ~= 0 then
 		slot1 = slot1 .. "_n"
 	end
 

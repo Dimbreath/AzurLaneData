@@ -1,5 +1,273 @@
 pg = pg or {}
 pg.equip_data_statistics_400 = {
+	[90842] = {
+		id = 90842,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50022
+			},
+			{
+				4,
+				51562
+			}
+		},
+		weapon_id = {
+			90842
+		}
+	},
+	[90843] = {
+		id = 90843,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50023
+			},
+			{
+				4,
+				51563
+			}
+		},
+		weapon_id = {
+			90843
+		}
+	},
+	[90844] = {
+		id = 90844,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50024
+			},
+			{
+				4,
+				51564
+			}
+		},
+		weapon_id = {
+			90844
+		}
+	},
+	[90845] = {
+		id = 90845,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50025
+			},
+			{
+				4,
+				51565
+			}
+		},
+		weapon_id = {
+			90845
+		}
+	},
+	[90846] = {
+		id = 90846,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50026
+			},
+			{
+				4,
+				51566
+			}
+		},
+		weapon_id = {
+			90846
+		}
+	},
+	[90847] = {
+		id = 90847,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50027
+			},
+			{
+				4,
+				51567
+			}
+		},
+		weapon_id = {
+			90847
+		}
+	},
+	[90860] = {
+		name = "203mm連装砲Mle1924",
+		speciality = "追尾",
+		type = 3,
+		tech = 1,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "50860",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "26 x 4",
+		nationality = 8,
+		ammo = 2,
+		value_3 = 0,
+		id = 90860,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1416
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1416
+			},
+			{
+				4,
+				1205
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90860
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CA",
+			"MG",
+			"HE"
+		}
+	},
+	[90861] = {
+		id = 90861,
+		damage = "28 x 4",
+		base = 90860,
+		weapon_id = {
+			90861
+		}
+	},
+	[90862] = {
+		id = 90862,
+		damage = "30 x 4",
+		base = 90860,
+		weapon_id = {
+			90862
+		}
+	},
+	[90863] = {
+		id = 90863,
+		damage = "32 x 4",
+		base = 90860,
+		weapon_id = {
+			90863
+		}
+	},
+	[90864] = {
+		id = 90864,
+		damage = "34 x 4",
+		base = 90860,
+		weapon_id = {
+			90864
+		}
+	},
+	[90865] = {
+		id = 90865,
+		damage = "36 x 4",
+		base = 90860,
+		weapon_id = {
+			90865
+		}
+	},
+	[90866] = {
+		id = 90866,
+		damage = "38 x 4",
+		base = 90860,
+		weapon_id = {
+			90866
+		}
+	},
+	[90880] = {
+		name = "203mm連装砲Mle1924",
+		speciality = "追尾",
+		type = 3,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "50860",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "28 x 4",
+		nationality = 8,
+		ammo = 2,
+		value_3 = 0,
+		id = 90880,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1416
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1416
+			},
+			{
+				4,
+				1205
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90880
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CA",
+			"MG",
+			"HE"
+		}
+	},
 	[90881] = {
 		id = 90881,
 		damage = "30 x 4",
@@ -2907,6 +3175,1610 @@ pg.equip_data_statistics_400 = {
 		id = 95551,
 		weapon_id = {
 			95551
+		}
+	},
+	[95560] = {
+		name = "120mm連装砲",
+		speciality = "追尾",
+		type = 1,
+		tech = 1,
+		descrip = "",
+		value_2 = 5,
+		icon = "55560",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "5 x 4",
+		nationality = 6,
+		ammo = 3,
+		value_3 = 0,
+		id = 95560,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2300
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2300
+			},
+			{
+				4,
+				1022
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			95560
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"DD",
+			"MG",
+			"AP"
+		}
+	},
+	[95561] = {
+		id = 95561,
+		base = 95560,
+		weapon_id = {
+			95561
+		}
+	},
+	[95562] = {
+		id = 95562,
+		damage = "6 x 4",
+		base = 95560,
+		weapon_id = {
+			95562
+		}
+	},
+	[95563] = {
+		id = 95563,
+		damage = "7 x 4",
+		base = 95560,
+		weapon_id = {
+			95563
+		}
+	},
+	[95600] = {
+		name = "152mm三連装砲Model1934",
+		speciality = "追尾",
+		type = 2,
+		tech = 1,
+		descrip = "サディア帝国製の改良型軽巡洋艦主砲 ",
+		value_2 = 12,
+		icon = "55600",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "5 x 6",
+		nationality = 6,
+		ammo = 1,
+		value_3 = 0,
+		id = 95600,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1713
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1713
+			},
+			{
+				4,
+				1110
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			95600
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[95601] = {
+		id = 95601,
+		damage = "5 x 6",
+		base = 95600,
+		weapon_id = {
+			95601
+		}
+	},
+	[95602] = {
+		id = 95602,
+		damage = "6 x 6",
+		base = 95600,
+		weapon_id = {
+			95602
+		}
+	},
+	[95603] = {
+		id = 95603,
+		damage = "7 x 6",
+		base = 95600,
+		weapon_id = {
+			95603
+		}
+	},
+	[95604] = {
+		id = 95604,
+		damage = "8 x 6",
+		base = 95600,
+		weapon_id = {
+			95604
+		}
+	},
+	[95605] = {
+		id = 95605,
+		damage = "9 x 6",
+		base = 95600,
+		weapon_id = {
+			95605
+		}
+	},
+	[95606] = {
+		id = 95606,
+		damage = "10 x 6",
+		base = 95600,
+		weapon_id = {
+			95606
+		}
+	},
+	[95640] = {
+		name = "152mm三連装砲Model1934",
+		speciality = "追尾",
+		type = 2,
+		tech = 3,
+		descrip = "サディア帝国製の改良型軽巡洋艦主砲 ",
+		value_2 = 45,
+		icon = "55600",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "6 x 6",
+		nationality = 6,
+		ammo = 1,
+		value_3 = 0,
+		id = 95640,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1713
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1713
+			},
+			{
+				4,
+				1110
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			95640
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[95641] = {
+		id = 95641,
+		damage = "6 x 6",
+		base = 95640,
+		weapon_id = {
+			95641
+		}
+	},
+	[95642] = {
+		id = 95642,
+		damage = "7 x 6",
+		base = 95640,
+		weapon_id = {
+			95642
+		}
+	},
+	[95643] = {
+		id = 95643,
+		damage = "8 x 6",
+		base = 95640,
+		weapon_id = {
+			95643
+		}
+	},
+	[95644] = {
+		id = 95644,
+		damage = "9 x 6",
+		base = 95640,
+		weapon_id = {
+			95644
+		}
+	},
+	[95645] = {
+		id = 95645,
+		damage = "10 x 6",
+		base = 95640,
+		weapon_id = {
+			95645
+		}
+	},
+	[95646] = {
+		id = 95646,
+		damage = "11 x 6",
+		base = 95640,
+		weapon_id = {
+			95646
+		}
+	},
+	[95647] = {
+		id = 95647,
+		damage = "12 x 6",
+		base = 95640,
+		weapon_id = {
+			95647
+		}
+	},
+	[95648] = {
+		id = 95648,
+		damage = "13 x 6",
+		base = 95640,
+		weapon_id = {
+			95648
+		}
+	},
+	[95649] = {
+		id = 95649,
+		damage = "14 x 6",
+		base = 95640,
+		weapon_id = {
+			95649
+		}
+	},
+	[95650] = {
+		id = 95650,
+		damage = "15 x 6",
+		base = 95640,
+		weapon_id = {
+			95650
+		}
+	},
+	[95651] = {
+		anti_siren = 100,
+		damage = "15 x 6",
+		base = 95640,
+		id = 95651,
+		weapon_id = {
+			95651
+		}
+	},
+	[95652] = {
+		anti_siren = 200,
+		damage = "15 x 6",
+		base = 95640,
+		id = 95652,
+		weapon_id = {
+			95652
+		}
+	},
+	[95653] = {
+		anti_siren = 300,
+		damage = "15 x 6",
+		base = 95640,
+		id = 95653,
+		weapon_id = {
+			95653
+		}
+	},
+	[95700] = {
+		name = "潜水艦用533mm魚雷Si 270",
+		speciality = "雷撃",
+		type = 13,
+		tech = 1,
+		descrip = "",
+		value_2 = 12,
+		icon = "55700",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		damage = "42 x 2",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 95700,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1836
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1836
+			},
+			{
+				4,
+				1601
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			95700
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"SS",
+			"TP"
+		}
+	},
+	[95701] = {
+		id = 95701,
+		damage = "50 x 2",
+		base = 95700,
+		weapon_id = {
+			95701
+		}
+	},
+	[95702] = {
+		id = 95702,
+		damage = "58 x 2",
+		base = 95700,
+		weapon_id = {
+			95702
+		}
+	},
+	[95703] = {
+		id = 95703,
+		damage = "66 x 2",
+		base = 95700,
+		weapon_id = {
+			95703
+		}
+	},
+	[95704] = {
+		id = 95704,
+		damage = "74 x 2",
+		base = 95700,
+		weapon_id = {
+			95704
+		}
+	},
+	[95705] = {
+		id = 95705,
+		damage = "82 x 2",
+		base = 95700,
+		weapon_id = {
+			95705
+		}
+	},
+	[95706] = {
+		id = 95706,
+		damage = "90 x 2",
+		base = 95700,
+		weapon_id = {
+			95706
+		}
+	},
+	[95720] = {
+		name = "Fiat G.50戦闘機「アロー」",
+		type = 7,
+		speciality = "航空",
+		rarity = 2,
+		tech = 1,
+		descrip = "",
+		value_2 = 5,
+		icon = "55720",
+		attribute_2 = "air",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 95720,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50700
+			},
+			{
+				5,
+				52200
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			95720,
+			86000
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CV",
+			"FT"
+		}
+	},
+	[95721] = {
+		id = 95721,
+		base = 95720,
+		ammo_info = {
+			{
+				6,
+				50701
+			},
+			{
+				5,
+				52201
+			}
+		},
+		weapon_id = {
+			95721,
+			86001
+		}
+	},
+	[95722] = {
+		id = 95722,
+		base = 95720,
+		ammo_info = {
+			{
+				6,
+				50702
+			},
+			{
+				5,
+				52202
+			}
+		},
+		weapon_id = {
+			95722,
+			86002
+		}
+	},
+	[95723] = {
+		id = 95723,
+		base = 95720,
+		ammo_info = {
+			{
+				6,
+				50703
+			},
+			{
+				5,
+				52203
+			}
+		},
+		weapon_id = {
+			95723,
+			86003
+		}
+	},
+	[95740] = {
+		name = "Fiat G.50戦闘機「アロー」",
+		type = 7,
+		speciality = "航空",
+		rarity = 3,
+		tech = 2,
+		descrip = "",
+		value_2 = 12,
+		icon = "55720",
+		attribute_2 = "air",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 95740,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50720
+			},
+			{
+				5,
+				52220
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			95740,
+			86020
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CV",
+			"FT"
+		}
+	},
+	[95741] = {
+		id = 95741,
+		base = 95740,
+		ammo_info = {
+			{
+				6,
+				50721
+			},
+			{
+				5,
+				52221
+			}
+		},
+		weapon_id = {
+			95741,
+			86021
+		}
+	},
+	[95742] = {
+		id = 95742,
+		base = 95740,
+		ammo_info = {
+			{
+				6,
+				50722
+			},
+			{
+				5,
+				52222
+			}
+		},
+		weapon_id = {
+			95742,
+			86022
+		}
+	},
+	[95743] = {
+		id = 95743,
+		base = 95740,
+		ammo_info = {
+			{
+				6,
+				50723
+			},
+			{
+				5,
+				52223
+			}
+		},
+		weapon_id = {
+			95743,
+			86023
+		}
+	},
+	[95744] = {
+		id = 95744,
+		base = 95740,
+		ammo_info = {
+			{
+				6,
+				50724
+			},
+			{
+				5,
+				52224
+			}
+		},
+		weapon_id = {
+			95744,
+			86024
+		}
+	},
+	[95745] = {
+		id = 95745,
+		base = 95740,
+		ammo_info = {
+			{
+				6,
+				50725
+			},
+			{
+				5,
+				52225
+			}
+		},
+		weapon_id = {
+			95745,
+			86025
+		}
+	},
+	[95746] = {
+		id = 95746,
+		base = 95740,
+		ammo_info = {
+			{
+				6,
+				50726
+			},
+			{
+				5,
+				52226
+			}
+		},
+		weapon_id = {
+			95746,
+			86026
+		}
+	},
+	[95760] = {
+		name = "Fiat G.50戦闘機「アロー」",
+		type = 7,
+		speciality = "航空",
+		rarity = 4,
+		tech = 3,
+		descrip = "",
+		value_2 = 25,
+		icon = "55720",
+		attribute_2 = "air",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 95760,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50740
+			},
+			{
+				5,
+				52240
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			95760,
+			86040
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CV",
+			"FT"
+		}
+	},
+	[95761] = {
+		id = 95761,
+		base = 95760,
+		ammo_info = {
+			{
+				6,
+				50741
+			},
+			{
+				5,
+				52241
+			}
+		},
+		weapon_id = {
+			95761,
+			86041
+		}
+	},
+	[95762] = {
+		id = 95762,
+		base = 95760,
+		ammo_info = {
+			{
+				6,
+				50742
+			},
+			{
+				5,
+				52242
+			}
+		},
+		weapon_id = {
+			95762,
+			86042
+		}
+	},
+	[95763] = {
+		id = 95763,
+		base = 95760,
+		ammo_info = {
+			{
+				6,
+				50743
+			},
+			{
+				5,
+				52243
+			}
+		},
+		weapon_id = {
+			95763,
+			86043
+		}
+	},
+	[95764] = {
+		id = 95764,
+		base = 95760,
+		ammo_info = {
+			{
+				6,
+				50744
+			},
+			{
+				5,
+				52244
+			}
+		},
+		weapon_id = {
+			95764,
+			86044
+		}
+	},
+	[95765] = {
+		id = 95765,
+		base = 95760,
+		ammo_info = {
+			{
+				6,
+				50745
+			},
+			{
+				5,
+				52245
+			}
+		},
+		weapon_id = {
+			95765,
+			86045
+		}
+	},
+	[95766] = {
+		id = 95766,
+		base = 95760,
+		ammo_info = {
+			{
+				6,
+				50746
+			},
+			{
+				5,
+				52246
+			}
+		},
+		weapon_id = {
+			95766,
+			86046
+		}
+	},
+	[95767] = {
+		id = 95767,
+		base = 95760,
+		ammo_info = {
+			{
+				6,
+				50747
+			},
+			{
+				5,
+				52247
+			}
+		},
+		weapon_id = {
+			95767,
+			86047
+		}
+	},
+	[95768] = {
+		id = 95768,
+		base = 95760,
+		ammo_info = {
+			{
+				6,
+				50748
+			},
+			{
+				5,
+				52248
+			}
+		},
+		weapon_id = {
+			95768,
+			86048
+		}
+	},
+	[95769] = {
+		id = 95769,
+		base = 95760,
+		ammo_info = {
+			{
+				6,
+				50749
+			},
+			{
+				5,
+				52249
+			}
+		},
+		weapon_id = {
+			95769,
+			86049
+		}
+	},
+	[95770] = {
+		id = 95770,
+		base = 95760,
+		ammo_info = {
+			{
+				6,
+				50750
+			},
+			{
+				5,
+				52250
+			}
+		},
+		weapon_id = {
+			95770,
+			86050
+		}
+	},
+	[95771] = {
+		anti_siren = 100,
+		base = 95760,
+		id = 95771,
+		ammo_info = {
+			{
+				6,
+				50751
+			},
+			{
+				5,
+				52251
+			}
+		},
+		weapon_id = {
+			95771,
+			86051
+		}
+	},
+	[95800] = {
+		name = "Re.2001戦闘機「アリエテ」",
+		type = 7,
+		speciality = "航空",
+		rarity = 2,
+		tech = 1,
+		descrip = "",
+		value_2 = 5,
+		icon = "55800",
+		attribute_2 = "air",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 95800,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50000
+			},
+			{
+				6,
+				50700
+			},
+			{
+				5,
+				52200
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			95800,
+			86060
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CV",
+			"FT"
+		}
+	},
+	[95801] = {
+		id = 95801,
+		base = 95800,
+		ammo_info = {
+			{
+				6,
+				50001
+			},
+			{
+				6,
+				50701
+			},
+			{
+				5,
+				52201
+			}
+		},
+		weapon_id = {
+			95801,
+			86061
+		}
+	},
+	[95802] = {
+		id = 95802,
+		base = 95800,
+		ammo_info = {
+			{
+				6,
+				50002
+			},
+			{
+				6,
+				50702
+			},
+			{
+				5,
+				52202
+			}
+		},
+		weapon_id = {
+			95802,
+			86062
+		}
+	},
+	[95803] = {
+		id = 95803,
+		base = 95800,
+		ammo_info = {
+			{
+				6,
+				50003
+			},
+			{
+				6,
+				50703
+			},
+			{
+				5,
+				52203
+			}
+		},
+		weapon_id = {
+			95803,
+			86063
+		}
+	},
+	[95820] = {
+		name = "Re.2001戦闘機「アリエテ」",
+		type = 7,
+		speciality = "航空",
+		rarity = 3,
+		tech = 2,
+		descrip = "",
+		value_2 = 12,
+		icon = "55800",
+		attribute_2 = "air",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 95820,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50020
+			},
+			{
+				6,
+				50720
+			},
+			{
+				5,
+				52220
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			95820,
+			86080
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CV",
+			"FT"
+		}
+	},
+	[95821] = {
+		id = 95821,
+		base = 95820,
+		ammo_info = {
+			{
+				6,
+				50021
+			},
+			{
+				6,
+				50721
+			},
+			{
+				5,
+				52221
+			}
+		},
+		weapon_id = {
+			95821,
+			86081
+		}
+	},
+	[95822] = {
+		id = 95822,
+		base = 95820,
+		ammo_info = {
+			{
+				6,
+				50022
+			},
+			{
+				6,
+				50722
+			},
+			{
+				5,
+				52222
+			}
+		},
+		weapon_id = {
+			95822,
+			86082
+		}
+	},
+	[95823] = {
+		id = 95823,
+		base = 95820,
+		ammo_info = {
+			{
+				6,
+				50023
+			},
+			{
+				6,
+				50723
+			},
+			{
+				5,
+				52223
+			}
+		},
+		weapon_id = {
+			95823,
+			86083
+		}
+	},
+	[95824] = {
+		id = 95824,
+		base = 95820,
+		ammo_info = {
+			{
+				6,
+				50024
+			},
+			{
+				6,
+				50724
+			},
+			{
+				5,
+				52224
+			}
+		},
+		weapon_id = {
+			95824,
+			86084
+		}
+	},
+	[95825] = {
+		id = 95825,
+		base = 95820,
+		ammo_info = {
+			{
+				6,
+				50025
+			},
+			{
+				6,
+				50725
+			},
+			{
+				5,
+				52225
+			}
+		},
+		weapon_id = {
+			95825,
+			86085
+		}
+	},
+	[95826] = {
+		id = 95826,
+		base = 95820,
+		ammo_info = {
+			{
+				6,
+				50026
+			},
+			{
+				6,
+				50726
+			},
+			{
+				5,
+				52226
+			}
+		},
+		weapon_id = {
+			95826,
+			86086
+		}
+	},
+	[95840] = {
+		name = "Re.2001戦闘機「アリエテ」",
+		type = 7,
+		speciality = "航空",
+		rarity = 4,
+		tech = 3,
+		descrip = "",
+		value_2 = 25,
+		icon = "55800",
+		attribute_2 = "air",
+		nationality = 6,
+		ammo = 5,
+		value_3 = 0,
+		id = 95840,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				6,
+				50740
+			},
+			{
+				5,
+				52240
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			95840,
+			86100
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CV",
+			"FT"
+		}
+	},
+	[95841] = {
+		id = 95841,
+		base = 95840,
+		ammo_info = {
+			{
+				6,
+				50041
+			},
+			{
+				6,
+				50741
+			},
+			{
+				5,
+				52241
+			}
+		},
+		weapon_id = {
+			95841,
+			86101
+		}
+	},
+	[95842] = {
+		id = 95842,
+		base = 95840,
+		ammo_info = {
+			{
+				6,
+				50042
+			},
+			{
+				6,
+				50742
+			},
+			{
+				5,
+				52242
+			}
+		},
+		weapon_id = {
+			95842,
+			86102
+		}
+	},
+	[95843] = {
+		id = 95843,
+		base = 95840,
+		ammo_info = {
+			{
+				6,
+				50043
+			},
+			{
+				6,
+				50743
+			},
+			{
+				5,
+				52243
+			}
+		},
+		weapon_id = {
+			95843,
+			86103
+		}
+	},
+	[95844] = {
+		id = 95844,
+		base = 95840,
+		ammo_info = {
+			{
+				6,
+				50044
+			},
+			{
+				6,
+				50744
+			},
+			{
+				5,
+				52244
+			}
+		},
+		weapon_id = {
+			95844,
+			86104
+		}
+	},
+	[95845] = {
+		id = 95845,
+		base = 95840,
+		ammo_info = {
+			{
+				6,
+				50045
+			},
+			{
+				6,
+				50745
+			},
+			{
+				5,
+				52245
+			}
+		},
+		weapon_id = {
+			95845,
+			86105
+		}
+	},
+	[95846] = {
+		id = 95846,
+		base = 95840,
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				6,
+				50746
+			},
+			{
+				5,
+				52246
+			}
+		},
+		weapon_id = {
+			95846,
+			86106
+		}
+	},
+	[95847] = {
+		id = 95847,
+		base = 95840,
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				6,
+				50747
+			},
+			{
+				5,
+				52247
+			}
+		},
+		weapon_id = {
+			95847,
+			86107
+		}
+	},
+	[95848] = {
+		id = 95848,
+		base = 95840,
+		ammo_info = {
+			{
+				6,
+				50048
+			},
+			{
+				6,
+				50748
+			},
+			{
+				5,
+				52248
+			}
+		},
+		weapon_id = {
+			95848,
+			86108
+		}
+	},
+	[95849] = {
+		id = 95849,
+		base = 95840,
+		ammo_info = {
+			{
+				6,
+				50049
+			},
+			{
+				6,
+				50749
+			},
+			{
+				5,
+				52249
+			}
+		},
+		weapon_id = {
+			95849,
+			86109
+		}
+	},
+	[95850] = {
+		id = 95850,
+		base = 95840,
+		ammo_info = {
+			{
+				6,
+				50050
+			},
+			{
+				6,
+				50750
+			},
+			{
+				5,
+				52250
+			}
+		},
+		weapon_id = {
+			95850,
+			86110
+		}
+	},
+	[95851] = {
+		anti_siren = 100,
+		base = 95840,
+		id = 95851,
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				6,
+				50751
+			},
+			{
+				5,
+				52251
+			}
+		},
+		weapon_id = {
+			95851,
+			86111
 		}
 	},
 	[100000] = {

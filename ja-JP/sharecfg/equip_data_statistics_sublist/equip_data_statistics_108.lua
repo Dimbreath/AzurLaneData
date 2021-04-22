@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.equip_data_statistics_108 = {
+	[15049] = {
+		id = 15049,
+		damage = "123 x 3",
+		base = 15040,
+		weapon_id = {
+			15049
+		}
+	},
+	[15050] = {
+		id = 15050,
+		damage = "131 x 3",
+		base = 15040,
+		weapon_id = {
+			15050
+		}
+	},
+	[15051] = {
+		anti_siren = 100,
+		damage = "131 x 3",
+		base = 15040,
+		id = 15051,
+		weapon_id = {
+			15051
+		}
+	},
 	[15060] = {
 		name = "潜水艦用Mark18魚雷",
 		speciality = "雷撃",
@@ -205,30 +230,6 @@ pg.equip_data_statistics_108 = {
 			"USS",
 			"SS",
 			"TP"
-		}
-	},
-	[15101] = {
-		id = 15101,
-		damage = "66 x 3",
-		base = 15100,
-		weapon_id = {
-			15101
-		}
-	},
-	[15102] = {
-		id = 15102,
-		damage = "74 x 3",
-		base = 15100,
-		weapon_id = {
-			15102
-		}
-	},
-	[15103] = {
-		id = 15103,
-		damage = "82 x 3",
-		base = 15100,
-		weapon_id = {
-			15103
 		}
 	}
 }

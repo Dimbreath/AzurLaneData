@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_254 = {
+	[36323] = {
+		id = 36323,
+		damage = "27/回",
+		base = 36320,
+		weapon_id = {
+			36323
+		}
+	},
+	[36324] = {
+		id = 36324,
+		damage = "30/回",
+		base = 36320,
+		weapon_id = {
+			36324
+		}
+	},
+	[36325] = {
+		id = 36325,
+		damage = "33/回",
+		base = 36320,
+		weapon_id = {
+			36325
+		}
+	},
 	[36326] = {
 		id = 36326,
 		damage = "36/回",
@@ -157,84 +181,6 @@ pg.equip_data_statistics_254 = {
 		id = 36351,
 		weapon_id = {
 			36351
-		}
-	},
-	[36360] = {
-		name = "25mm九六式三連装機銃（爆風避盾装備）",
-		speciality = "対空",
-		type = 6,
-		tech = 0,
-		descrip = "0",
-		value_2 = 45,
-		icon = "36360",
-		attribute_2 = "antiaircraft",
-		rarity = 5,
-		damage = "40/回",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 36360,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			36360
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"AA"
-		}
-	},
-	[36361] = {
-		id = 36361,
-		damage = "43/回",
-		base = 36360,
-		weapon_id = {
-			36361
-		}
-	},
-	[36362] = {
-		id = 36362,
-		damage = "46/回",
-		base = 36360,
-		weapon_id = {
-			36362
 		}
 	}
 }

@@ -60,6 +60,13 @@ function slot5.Stop(slot0)
 	slot0:_stopFunc()
 end
 
+function slot5.Interrupt(slot0)
+	slot0._state = slot0.STATE_STOP
+	slot0._target = nil
+
+	slot0:ClearAllTimer()
+end
+
 function slot5.Destroy(slot0)
 	slot0._spawnFunc = nil
 	slot0._stopFunc = nil

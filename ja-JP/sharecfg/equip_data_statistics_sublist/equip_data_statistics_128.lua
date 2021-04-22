@@ -1,5 +1,47 @@
 pg = pg or {}
 pg.equip_data_statistics_128 = {
+	[17145] = {
+		id = 17145,
+		base = 17140,
+		ammo_info = {
+			{
+				6,
+				50445
+			}
+		},
+		weapon_id = {
+			17145,
+			81145
+		}
+	},
+	[17146] = {
+		id = 17146,
+		base = 17140,
+		ammo_info = {
+			{
+				6,
+				50446
+			}
+		},
+		weapon_id = {
+			17146,
+			81146
+		}
+	},
+	[17147] = {
+		id = 17147,
+		base = 17140,
+		ammo_info = {
+			{
+				6,
+				50447
+			}
+		},
+		weapon_id = {
+			17147,
+			81147
+		}
+	},
 	[17148] = {
 		id = 17148,
 		base = 17140,
@@ -287,95 +329,6 @@ pg.equip_data_statistics_128 = {
 		weapon_id = {
 			17224,
 			81224
-		}
-	},
-	[17225] = {
-		id = 17225,
-		base = 17220,
-		ammo_info = {
-			{
-				6,
-				50425
-			},
-			{
-				5,
-				52325
-			}
-		},
-		weapon_id = {
-			17225,
-			81225
-		}
-	},
-	[17226] = {
-		id = 17226,
-		base = 17220,
-		ammo_info = {
-			{
-				6,
-				50426
-			},
-			{
-				5,
-				52326
-			}
-		},
-		weapon_id = {
-			17226,
-			81226
-		}
-	},
-	[17240] = {
-		name = "F4Uコルセア",
-		type = 7,
-		speciality = "航空",
-		rarity = 4,
-		tech = 3,
-		descrip = "0",
-		value_2 = 25,
-		icon = "17200",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 17240,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50440
-			},
-			{
-				5,
-				52340
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			17240,
-			81240
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"FT"
 		}
 	}
 }

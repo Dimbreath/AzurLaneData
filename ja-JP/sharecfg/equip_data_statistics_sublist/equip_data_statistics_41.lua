@@ -1,5 +1,47 @@
 pg = pg or {}
 pg.equip_data_statistics_41 = {
+	[2000] = {
+		name = "燃料フィルター",
+		tech = 1,
+		type = 10,
+		speciality = "なし",
+		id = 2000,
+		value_2 = 2,
+		icon = "2000",
+		value_1 = "50",
+		attribute_2 = "dodge",
+		rarity = 2,
+		descrip = "燃料濾過用に使う装置。艦の性能を底上げすることができる",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "durability",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[2001] = {
+		id = 2001,
+		value_1 = "57",
+		base = 2000
+	},
+	[2002] = {
+		id = 2002,
+		value_1 = "65",
+		base = 2000
+	},
 	[2003] = {
 		id = 2003,
 		value_1 = "72",
@@ -121,24 +163,6 @@ pg.equip_data_statistics_41 = {
 		id = 2044,
 		value_2 = 3,
 		value_1 = "224",
-		base = 2040
-	},
-	[2045] = {
-		id = 2045,
-		value_2 = 3,
-		value_1 = "245",
-		base = 2040
-	},
-	[2046] = {
-		id = 2046,
-		value_2 = 3,
-		value_1 = "266",
-		base = 2040
-	},
-	[2047] = {
-		id = 2047,
-		value_2 = 4,
-		value_1 = "287",
 		base = 2040
 	}
 }

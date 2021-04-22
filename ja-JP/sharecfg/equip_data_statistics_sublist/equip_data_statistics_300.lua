@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_300 = {
+	[43101] = {
+		id = 43101,
+		damage = "32 x 6",
+		base = 43100,
+		weapon_id = {
+			43101
+		}
+	},
+	[43102] = {
+		id = 43102,
+		damage = "34 x 6",
+		base = 43100,
+		weapon_id = {
+			43102
+		}
+	},
+	[43103] = {
+		id = 43103,
+		damage = "36 x 6",
+		base = 43100,
+		weapon_id = {
+			43103
+		}
+	},
 	[43120] = {
 		name = "283mmSKC28三連装砲",
 		speciality = "投射",
@@ -186,30 +210,6 @@ pg.equip_data_statistics_300 = {
 		base = 43140,
 		weapon_id = {
 			43145
-		}
-	},
-	[43146] = {
-		id = 43146,
-		damage = "47 x 6",
-		base = 43140,
-		weapon_id = {
-			43146
-		}
-	},
-	[43147] = {
-		id = 43147,
-		damage = "49 x 6",
-		base = 43140,
-		weapon_id = {
-			43147
-		}
-	},
-	[43148] = {
-		id = 43148,
-		damage = "51 x 6",
-		base = 43140,
-		weapon_id = {
-			43148
 		}
 	}
 }

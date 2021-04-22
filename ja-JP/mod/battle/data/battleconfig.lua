@@ -79,6 +79,7 @@ slot0.BulletSpeedConvertConst = 0.1
 slot0.ShipSpeedConvertConst = 0.01
 slot0.AircraftSpeedConvertConst = 0.01
 slot0.PLAYER_WEAPON_GLOBAL_COOL_DOWN_DURATION = 0.5
+slot0.SPECTRE_UNIT_TYPE = -99
 slot0.COUNT_DOWN_ESCAPE_AI_ID = 80006
 slot0.RESOURCE_STEP = 10
 slot0.RESOURCE_STAY_DURATION = 2

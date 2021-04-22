@@ -1,5 +1,110 @@
 pg = pg or {}
 pg.aircraft_template_97 = {
+	[38003] = {
+		id = 38003,
+		base = 38000,
+		max_hp = 35,
+		hp_growth = 1340,
+		weapon_ID = {
+			50003,
+			51303
+		}
+	},
+	[38020] = {
+		name = "九七式舰攻",
+		max_hp = 27,
+		accuracy = 23,
+		model_ID = "97jiangong",
+		ACC_growth = 0,
+		crash_DMG = 148,
+		dodge = 1.21,
+		attack_power = 2,
+		dodge_limit = 3.5,
+		type = 2,
+		AP_growth = 2000,
+		icon = "97jiangong",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1040,
+		speed = 48,
+		id = 38020,
+		scale = 1,
+		weapon_ID = {
+			50020,
+			51320
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[38021] = {
+		id = 38021,
+		base = 38020,
+		max_hp = 31,
+		hp_growth = 1196,
+		weapon_ID = {
+			50021,
+			51321
+		}
+	},
+	[38022] = {
+		id = 38022,
+		base = 38020,
+		max_hp = 35,
+		hp_growth = 1352,
+		weapon_ID = {
+			50022,
+			51322
+		}
+	},
 	[38023] = {
 		id = 38023,
 		base = 38020,
@@ -123,111 +228,6 @@ pg.aircraft_template_97 = {
 		weapon_ID = {
 			50044,
 			51344
-		}
-	},
-	[38045] = {
-		id = 38045,
-		base = 38040,
-		max_hp = 53,
-		hp_growth = 2022,
-		weapon_ID = {
-			50045,
-			51345
-		}
-	},
-	[38046] = {
-		id = 38046,
-		base = 38040,
-		max_hp = 57,
-		hp_growth = 2195,
-		weapon_ID = {
-			50046,
-			51346
-		}
-	},
-	[38047] = {
-		id = 38047,
-		base = 38040,
-		max_hp = 62,
-		hp_growth = 2368,
-		weapon_ID = {
-			50047,
-			51347
-		}
-	},
-	[38060] = {
-		name = "九七式舰攻改",
-		max_hp = 30,
-		accuracy = 23,
-		model_ID = "97jiangongGai",
-		ACC_growth = 0,
-		crash_DMG = 148,
-		dodge = 1.17,
-		attack_power = 2,
-		dodge_limit = 4,
-		type = 2,
-		AP_growth = 2000,
-		icon = "97jiangongGai",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1155,
-		speed = 48,
-		id = 38060,
-		scale = 1,
-		weapon_ID = {
-			50040,
-			51340
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.84,
-					-1.17,
-					0
-				},
-				{
-					1.02,
-					1.5,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
 		}
 	}
 }

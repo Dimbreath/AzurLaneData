@@ -178,7 +178,8 @@ slot0.hxPathList = {
 	"live2d",
 	"painting",
 	"shipYardIcon",
-	"paintingface"
+	"paintingface",
+	"char"
 }
 slot0.folderBundle = {
 	"paintingface"

@@ -1,5 +1,49 @@
 pg = pg or {}
 pg.equip_data_statistics_341 = {
+	[60432] = {
+		id = 60432,
+		name = "航空攻击展示-时乃空II",
+		base = 60431,
+		weapon_id = {
+			60432
+		}
+	},
+	[60433] = {
+		id = 60433,
+		name = "航空攻击展示-时乃空III",
+		base = 60431,
+		weapon_id = {
+			60433
+		}
+	},
+	[60441] = {
+		name = "航空攻击展示-紫咲诗音I",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60441,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60441
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
 	[60442] = {
 		id = 60442,
 		name = "航空攻击展示-紫咲诗音II",
@@ -197,50 +241,6 @@ pg.equip_data_statistics_341 = {
 		equip_info = {},
 		weapon_id = {
 			60511
-		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60512] = {
-		id = 60512,
-		name = "航空攻击展示-贝亚恩II",
-		base = 60511,
-		weapon_id = {
-			60512
-		}
-	},
-	[60513] = {
-		id = 60513,
-		name = "航空攻击展示-贝亚恩III",
-		base = 60511,
-		weapon_id = {
-			60513
-		}
-	},
-	[60521] = {
-		name = "航空攻击展示-英仙座I",
-		tech = 1,
-		speciality = "なし",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航空攻撃サンプル用",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60521,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60521
 		},
 		skill_id = {},
 		part_main = {},

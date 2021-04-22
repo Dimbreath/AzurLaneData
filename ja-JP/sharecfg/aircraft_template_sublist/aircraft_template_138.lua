@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.aircraft_template_138 = {
+	[65252] = {
+		max_hp = 41,
+		name = "坠星机LV2",
+		base = 65251,
+		id = 65252,
+		hp_growth = 1594,
+		weapon_ID = {
+			65262
+		}
+	},
+	[65253] = {
+		max_hp = 47,
+		name = "坠星机LV3",
+		base = 65251,
+		id = 65253,
+		hp_growth = 1802,
+		weapon_ID = {
+			65263
+		}
+	},
+	[65254] = {
+		max_hp = 52,
+		name = "坠星机LV4",
+		base = 65251,
+		id = 65254,
+		hp_growth = 2010,
+		weapon_ID = {
+			65264
+		}
+	},
+	[65255] = {
+		max_hp = 58,
+		name = "坠星机LV5",
+		base = 65251,
+		id = 65255,
+		hp_growth = 2218,
+		weapon_ID = {
+			65265
+		}
+	},
 	[65256] = {
 		max_hp = 63,
 		name = "坠星机LV6",
@@ -123,50 +163,6 @@ pg.aircraft_template_138 = {
 				0,
 				0
 			}
-		}
-	},
-	[65382] = {
-		max_hp = 48,
-		name = "女天狗沙排啾轰炸机Lv2",
-		base = 65381,
-		id = 65382,
-		hp_growth = 2087,
-		weapon_ID = {
-			65392,
-			65402
-		}
-	},
-	[65383] = {
-		max_hp = 54,
-		name = "女天狗沙排啾轰炸机Lv3",
-		base = 65381,
-		id = 65383,
-		hp_growth = 2327,
-		weapon_ID = {
-			65393,
-			65403
-		}
-	},
-	[65384] = {
-		max_hp = 61,
-		name = "女天狗沙排啾轰炸机Lv4",
-		base = 65381,
-		id = 65384,
-		hp_growth = 2568,
-		weapon_ID = {
-			65394,
-			65404
-		}
-	},
-	[65385] = {
-		max_hp = 67,
-		name = "女天狗沙排啾轰炸机Lv5",
-		base = 65381,
-		id = 65385,
-		hp_growth = 2809,
-		weapon_ID = {
-			65395,
-			65405
 		}
 	}
 }

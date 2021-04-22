@@ -1,5 +1,84 @@
 pg = pg or {}
 pg.equip_data_statistics_113 = {
+	[15231] = {
+		anti_siren = 100,
+		damage = "160 x 4",
+		base = 15220,
+		id = 15231,
+		weapon_id = {
+			15231
+		}
+	},
+	[15240] = {
+		name = "533mm五連装魚雷Mk17",
+		speciality = "雷撃",
+		type = 5,
+		tech = 0,
+		descrip = "0",
+		value_2 = 45,
+		icon = "15240",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "60 x 5",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 15240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1800
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1800
+			},
+			{
+				4,
+				1404
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			15240
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"TP",
+			"QUINT"
+		}
+	},
+	[15241] = {
+		id = 15241,
+		damage = "70 x 5",
+		base = 15240,
+		weapon_id = {
+			15241
+		}
+	},
 	[15242] = {
 		id = 15242,
 		damage = "80 x 5",
@@ -148,23 +227,5 @@ pg.equip_data_statistics_113 = {
 			"USS",
 			"DEV"
 		}
-	},
-	[15501] = {
-		id = 15501,
-		value_2 = 12,
-		value_1 = "16",
-		base = 15500
-	},
-	[15502] = {
-		id = 15502,
-		value_2 = 14,
-		value_1 = "18",
-		base = 15500
-	},
-	[15503] = {
-		id = 15503,
-		value_2 = 16,
-		value_1 = "20",
-		base = 15500
 	}
 }

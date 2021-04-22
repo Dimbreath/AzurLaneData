@@ -344,51 +344,59 @@ function slot0.MakeWeapon(slot0, slot1)
 	end
 end
 
-function slot0.createEmitterCannon(slot0, slot1, slot2, slot3)
-	return ys.Battle.BattleBulletEmitter.New(function (slot0, slot1, slot2, slot3, slot4)
-		slot5 = ys.Battle.BattlePlayerUnit.New(1, ys.Battle.BattleConfig.FRIENDLY_CODE)
+function slot0.getEmitterHost(slot0)
+	if not slot0._emitterHost then
+		slot0._emitterHost = ys.Battle.BattlePlayerUnit.New(1, ys.Battle.BattleConfig.FRIENDLY_CODE)
 
-		slot5:SetSkinId(uv0.shipVO.skinId)
-		slot5:SetTemplate(uv0.shipVO.configId, {
+		slot0._emitterHost:SetSkinId(slot0.shipVO.skinId)
+		slot0._emitterHost:SetTemplate(slot0.shipVO.configId, {
 			speed = 0
 		})
+	end
 
-		slot8 = ys.Battle.BattleDataFunction.CreateBattleBulletData(uv1, uv1, slot5, nil, uv2 + Vector3(40, 0, 0))
+	return slot0._emitterHost
+end
 
-		slot8:SetOffsetPriority(slot3)
-		slot8:SetShiftInfo(slot0, slot1)
-		slot8:SetRotateInfo(nil, 0, slot2)
+function slot0.createEmitterCannon(slot0, slot1, slot2)
+	slot3 = slot0:getEmitterHost()
 
-		if uv0.equipSkinId > 0 then
-			slot9 = pg.equip_skin_template[uv0.equipSkinId]
-			slot10, slot11, slot12, slot13 = ys.Battle.BattleDataFunction.GetEquipSkin(uv0.equipSkinId)
-			slot16 = nil
+	return ys.Battle.BattleBulletEmitter.New(function (slot0, slot1, slot2, slot3, slot4)
+		slot6 = ys.Battle.BattleDataFunction.CreateBattleBulletData(uv0, uv0, uv1, nil, uv2 + Vector3(40, 0, 0))
 
-			if slot8:GetType() == ys.Battle.BattleConst.BulletType.CANNON or slot14 == slot15.BOMB then
+		slot6:SetOffsetPriority(slot3)
+		slot6:SetShiftInfo(slot0, slot1)
+		slot6:SetRotateInfo(nil, 0, slot2)
+
+		if uv3.equipSkinId > 0 then
+			slot7 = pg.equip_skin_template[uv3.equipSkinId]
+			slot8, slot9, slot10, slot11 = ys.Battle.BattleDataFunction.GetEquipSkin(uv3.equipSkinId)
+			slot14 = nil
+
+			if slot6:GetType() == ys.Battle.BattleConst.BulletType.CANNON or slot12 == slot13.BOMB then
 				if _.any(EquipType.CannonEquipTypes, function (slot0)
 					return table.contains(uv0.equip_type, slot0)
 				end) then
-					slot8:SetModleID(slot10)
+					slot6:SetModleID(slot8)
+				elseif slot9 and #slot9 > 0 then
+					slot6:SetModleID(slot9)
 				elseif slot11 and #slot11 > 0 then
-					slot8:SetModleID(slot11)
-				elseif slot13 and #slot13 > 0 then
-					slot8:SetModleID(slot13)
+					slot6:SetModleID(slot11)
 				end
-			elseif slot14 == slot15.TORPEDO then
-				if table.contains(slot9.equip_type, EquipType.Torpedo) then
-					slot8:SetModleID(slot10)
-				elseif slot12 and #slot12 > 0 then
-					slot8:SetModleID(slot12)
+			elseif slot12 == slot13.TORPEDO then
+				if table.contains(slot7.equip_type, EquipType.Torpedo) then
+					slot6:SetModleID(slot8)
+				elseif slot10 and #slot10 > 0 then
+					slot6:SetModleID(slot10)
 				end
 			end
 		end
 
-		slot11 = nil
-		slot11 = (slot8:GetType() ~= ys.Battle.BattleConst.BulletType.CANNON or ys.Battle.BattleCannonBullet.New()) and (slot9 ~= slot10.BOMB or ys.Battle.BattleBombBullet.New()) and (slot9 ~= slot10.TORPEDO or ys.Battle.BattleTorpedoBullet.New()) and ys.Battle.BattleBullet.New()
+		slot9 = nil
+		slot9 = (slot6:GetType() ~= ys.Battle.BattleConst.BulletType.CANNON or ys.Battle.BattleCannonBullet.New()) and (slot7 ~= slot8.BOMB or ys.Battle.BattleBombBullet.New()) and (slot7 ~= slot8.TORPEDO or ys.Battle.BattleTorpedoBullet.New()) and ys.Battle.BattleBullet.New()
 
-		slot11:SetBulletData(slot8)
+		slot9:SetBulletData(slot6)
 
-		function slot12(slot0)
+		function slot10(slot0)
 			uv0:SetGO(slot0)
 			uv0:AddRotateScript()
 
@@ -396,14 +404,14 @@ function slot0.createEmitterCannon(slot0, slot1, slot2, slot3)
 				tf(slot0).parent = nil
 			end
 
-			uv0:SetSpawn(uv3 + (uv1.boneList[uv2] or Vector3.zero))
+			uv0:SetSpawn(uv1)
 
-			if uv1.bulletList then
-				table.insert(uv1.bulletList, uv0)
+			if uv2.bulletList then
+				table.insert(uv2.bulletList, uv0)
 			end
 		end
 
-		ys.Battle.BattleResourceManager.GetInstance():InstBullet(slot11:GetModleID(), function (slot0)
+		ys.Battle.BattleResourceManager.GetInstance():InstBullet(slot9:GetModleID(), function (slot0)
 			uv0(slot0)
 		end)
 	end, function ()
@@ -537,6 +545,8 @@ end
 
 function slot0.clear(slot0)
 	pg.TimeMgr.GetInstance():RemoveAllBattleTimer()
+
+	slot0._emitterHost = nil
 
 	if slot0.seaCharacter then
 		Destroy(slot0.seaCharacter)

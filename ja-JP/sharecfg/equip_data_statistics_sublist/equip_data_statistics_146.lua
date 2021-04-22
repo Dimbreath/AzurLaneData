@@ -1,5 +1,56 @@
 pg = pg or {}
 pg.equip_data_statistics_146 = {
+	[19246] = {
+		id = 19246,
+		base = 19240,
+		ammo_info = {
+			{
+				6,
+				50546
+			},
+			{
+				5,
+				52846
+			}
+		},
+		weapon_id = {
+			19246
+		}
+	},
+	[19247] = {
+		id = 19247,
+		base = 19240,
+		ammo_info = {
+			{
+				6,
+				50547
+			},
+			{
+				5,
+				52847
+			}
+		},
+		weapon_id = {
+			19247
+		}
+	},
+	[19248] = {
+		id = 19248,
+		base = 19240,
+		ammo_info = {
+			{
+				6,
+				50548
+			},
+			{
+				5,
+				52848
+			}
+		},
+		weapon_id = {
+			19248
+		}
+	},
 	[19249] = {
 		id = 19249,
 		base = 19240,
@@ -263,87 +314,6 @@ pg.equip_data_statistics_146 = {
 		base = 21020,
 		weapon_id = {
 			21023
-		}
-	},
-	[21040] = {
-		name = "102mm単装砲(副砲)",
-		speciality = "追尾",
-		type = 1,
-		tech = 3,
-		descrip = "0",
-		value_2 = 12,
-		icon = "21000",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "3 x 1",
-		nationality = 2,
-		ammo = 3,
-		value_3 = 0,
-		id = 21040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				999
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				999
-			},
-			{
-				4,
-				1000
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			21040
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"DD",
-			"MG"
-		}
-	},
-	[21041] = {
-		id = 21041,
-		base = 21040,
-		weapon_id = {
-			21041
-		}
-	},
-	[21042] = {
-		id = 21042,
-		damage = "4 x 1",
-		base = 21040,
-		weapon_id = {
-			21042
 		}
 	}
 }

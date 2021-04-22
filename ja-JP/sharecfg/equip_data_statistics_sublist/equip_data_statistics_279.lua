@@ -1,5 +1,103 @@
 pg = pg or {}
 pg.equip_data_statistics_279 = {
+	[39003] = {
+		id = 39003,
+		base = 39000,
+		ammo_info = {
+			{
+				6,
+				50003
+			},
+			{
+				5,
+				52203
+			},
+			{
+				5,
+				52103
+			}
+		},
+		weapon_id = {
+			39003
+		}
+	},
+	[39020] = {
+		name = "九九式艦爆",
+		type = 9,
+		speciality = "爆撃",
+		rarity = 3,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "39000",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 39020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50020
+			},
+			{
+				5,
+				52220
+			},
+			{
+				5,
+				52120
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			39020
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		}
+	},
+	[39021] = {
+		id = 39021,
+		base = 39020,
+		ammo_info = {
+			{
+				6,
+				50021
+			},
+			{
+				5,
+				52221
+			},
+			{
+				5,
+				52121
+			}
+		},
+		weapon_id = {
+			39021
+		}
+	},
 	[39022] = {
 		id = 39022,
 		base = 39020,
@@ -306,69 +404,6 @@ pg.equip_data_statistics_279 = {
 		},
 		weapon_id = {
 			39047
-		}
-	},
-	[39048] = {
-		id = 39048,
-		base = 39040,
-		ammo_info = {
-			{
-				6,
-				50048
-			},
-			{
-				5,
-				52248
-			},
-			{
-				5,
-				52148
-			}
-		},
-		weapon_id = {
-			39048
-		}
-	},
-	[39049] = {
-		id = 39049,
-		base = 39040,
-		ammo_info = {
-			{
-				6,
-				50049
-			},
-			{
-				5,
-				52249
-			},
-			{
-				5,
-				52149
-			}
-		},
-		weapon_id = {
-			39049
-		}
-	},
-	[39050] = {
-		id = 39050,
-		base = 39040,
-		ammo_info = {
-			{
-				6,
-				50050
-			},
-			{
-				5,
-				52250
-			},
-			{
-				5,
-				52150
-			}
-		},
-		weapon_id = {
-			39050
 		}
 	}
 }

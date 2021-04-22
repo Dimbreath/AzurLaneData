@@ -1,5 +1,99 @@
 pg = pg or {}
 pg.equip_data_statistics_137 = {
+	[18072] = {
+		anti_siren = 200,
+		base = 18060,
+		id = 18072,
+		ammo_info = {
+			{
+				6,
+				59572
+			},
+			{
+				4,
+				59592
+			}
+		},
+		weapon_id = {
+			18072
+		},
+		skill_id = {
+			6332
+		}
+	},
+	[18073] = {
+		anti_siren = 300,
+		base = 18060,
+		id = 18073,
+		ammo_info = {
+			{
+				6,
+				59573
+			},
+			{
+				4,
+				59593
+			}
+		},
+		weapon_id = {
+			18073
+		},
+		skill_id = {
+			6333
+		}
+	},
+	[18100] = {
+		name = "TBFアベンジャー",
+		type = 8,
+		speciality = "雷撃",
+		rarity = 2,
+		tech = 1,
+		descrip = "0",
+		value_2 = 5,
+		icon = "18100",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 18100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50000
+			},
+			{
+				4,
+				51100
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			18100
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
+	},
 	[18101] = {
 		id = 18101,
 		base = 18100,
@@ -289,57 +383,6 @@ pg.equip_data_statistics_137 = {
 		},
 		weapon_id = {
 			18142
-		}
-	},
-	[18143] = {
-		id = 18143,
-		base = 18140,
-		ammo_info = {
-			{
-				6,
-				50043
-			},
-			{
-				4,
-				51143
-			}
-		},
-		weapon_id = {
-			18143
-		}
-	},
-	[18144] = {
-		id = 18144,
-		base = 18140,
-		ammo_info = {
-			{
-				6,
-				50044
-			},
-			{
-				4,
-				51144
-			}
-		},
-		weapon_id = {
-			18144
-		}
-	},
-	[18145] = {
-		id = 18145,
-		base = 18140,
-		ammo_info = {
-			{
-				6,
-				50045
-			},
-			{
-				4,
-				51145
-			}
-		},
-		weapon_id = {
-			18145
 		}
 	}
 }

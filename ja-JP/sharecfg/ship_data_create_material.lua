@@ -82,17 +82,17 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Sレア</color>：12%",
 			"<color=#3dc6ff>レア</color>：51%",
 			"ノーマル：30%",
-			"<color=#ffde38>アラバマ</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>ヴィットリオ・ヴェネト</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>ボルチモア</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>アクィラ</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>アレン・M・サムナー</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>ドゥーカ・デッリ・アブルッツィ</color>：0.5%",
 			" ",
-			"<color=#d797ff>バーミンガム</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>マエストラーレ</color>：2.5%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>ステフェン・ポッター</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>リベッチオ</color>：2.5%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#3dc6ff>エールウィン</color>：5.0%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>ニコロソ・ダ・レッコ</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

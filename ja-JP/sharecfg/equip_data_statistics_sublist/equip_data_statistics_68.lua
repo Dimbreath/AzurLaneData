@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.equip_data_statistics_68 = {
+	[4343] = {
+		id = 4343,
+		base = 4340,
+		ammo_info = {
+			{
+				8,
+				53243
+			}
+		},
+		weapon_id = {
+			4343
+		}
+	},
+	[4344] = {
+		id = 4344,
+		base = 4340,
+		ammo_info = {
+			{
+				8,
+				53244
+			}
+		},
+		weapon_id = {
+			4344
+		}
+	},
+	[4345] = {
+		id = 4345,
+		base = 4340,
+		ammo_info = {
+			{
+				8,
+				53245
+			}
+		},
+		weapon_id = {
+			4345
+		}
+	},
 	[4346] = {
 		id = 4346,
 		base = 4340,
@@ -240,84 +279,6 @@ pg.equip_data_statistics_68 = {
 		base = 5020,
 		weapon_id = {
 			5022
-		}
-	},
-	[5023] = {
-		id = 5023,
-		damage = "77 x 3",
-		base = 5020,
-		weapon_id = {
-			5023
-		}
-	},
-	[5040] = {
-		name = "533mm三連装魚雷",
-		speciality = "雷撃",
-		type = 5,
-		tech = 3,
-		descrip = "0",
-		value_2 = 12,
-		icon = "5000",
-		attribute_2 = "torpedo",
-		rarity = 3,
-		damage = "56 x 3",
-		nationality = 0,
-		ammo = 5,
-		value_3 = 0,
-		id = 5040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1800
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1800
-			},
-			{
-				4,
-				1402
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			5040
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"UN",
-			"ST",
-			"TP",
-			"TRI"
-		}
-	},
-	[5041] = {
-		id = 5041,
-		damage = "66 x 3",
-		base = 5040,
-		weapon_id = {
-			5041
 		}
 	}
 }

@@ -72,8 +72,8 @@ function slot0.init(slot0)
 	slot0.musicgame_nowtime = 0
 	slot0.musicgame_lasttime = 0
 	slot0.time_interval = 0.01666
-	slot0.music_amount = 10
-	slot0.music_amount_middle = 6
+	slot0.music_amount = 5
+	slot0.music_amount_middle = 3
 	slot0.game_speed = PlayerPrefs.GetInt("musicgame_idol_speed") > 0 and PlayerPrefs.GetInt("musicgame_idol_speed") or 1
 	slot0.game_dgree = 1
 
@@ -193,7 +193,7 @@ function slot0.didEnter(slot0)
 
 		uv0:effect_play("nothing")
 
-		uv0.pauseview:Find("bottom/song"):GetComponent(typeof(Image)).sprite = uv0.selectview:Find("Main/MusicList/img/" .. uv0.game_music):GetComponent(typeof(Image)).sprite
+		uv0.pauseview:Find("bottom/song"):GetComponent(typeof(Image)).sprite = uv0.selectview:Find("Main/MusicList/img/" .. uv0.musicData.img):GetComponent(typeof(Image)).sprite
 
 		if not uv0.ahead_timeflag then
 			uv0:pauseBgm()
@@ -1124,8 +1124,8 @@ function slot0.showSelevtView(slot0)
 	slot12 = slot0.gameMusicIndex
 
 	for slot16 = 1, slot0.music_amount do
-		slot17 = MusicGameConst.music_game_data[slot16].music_id
 		slot0.song_btns[slot16] = cloneTplTo(slot0.song_btn, slot4, "music" .. slot16)
+		slot17 = MusicGameConst.music_game_data[slot16]
 
 		setActive(slot0.song_btns[slot16], true)
 
@@ -1135,8 +1135,8 @@ function slot0.showSelevtView(slot0)
 		slot18 = slot0.song_btn.localScale
 		slot0.song_btns[slot16].localScale = Vector3(slot18.x - math.abs(slot20) * 0.2, slot18.y - math.abs(slot20) * 0.2, slot18.z - math.abs(slot20) * 0.2)
 		slot21 = slot0.song_btns[slot16]:Find("song"):GetComponent(typeof(Image))
-		slot21.sprite = slot4:Find("img/" .. slot16):GetComponent(typeof(Image)).sprite
-		slot0.song_btns[slot16]:Find("zhuanji3/zhuanji2_5"):GetComponent(typeof(Image)).sprite = slot4:Find("img/" .. slot16 .. "_1"):GetComponent(typeof(Image)).sprite
+		slot21.sprite = slot4:Find("img/" .. slot17.img):GetComponent(typeof(Image)).sprite
+		slot0.song_btns[slot16]:Find("zhuanji3/zhuanji2_5"):GetComponent(typeof(Image)).sprite = slot4:Find("img/" .. slot17.img .. "_1"):GetComponent(typeof(Image)).sprite
 		slot21.color = Color.New(1, 1, 1, 1 - math.abs(slot20) * 0.6)
 
 		onButton(slot0, slot0.song_btns[slot16], function ()
@@ -1175,14 +1175,14 @@ function slot0.updateMusic(slot0, slot1)
 end
 
 function slot0.clickSongBtns(slot0, slot1, slot2)
-	setActive(slot1:Find("song" .. slot0.game_music), false)
+	setActive(slot1:Find("song" .. slot0.musicData.img), false)
 	slot0:MyGetRuntimeData()
 	slot0:clearSDModel()
 	slot0:updateMusic(slot2)
 	slot0:loadAndPlayMusic()
 	slot0:updatSelectview()
 	slot0:changeLocalpos(slot2)
-	setActive(slot1:Find("song" .. slot0.game_music), true)
+	setActive(slot1:Find("song" .. slot0.musicData.img), true)
 	slot0:updateMusicPiece()
 end
 
@@ -1508,11 +1508,11 @@ function slot0.locadScoreView(slot0)
 	end)
 
 	slot5 = slot0.scoreview:Find("img_list/square/name"):GetComponent(typeof(Image))
-	slot5.sprite = slot0.selectview:Find("Main/namelist/song" .. slot3):GetComponent(typeof(Image)).sprite
+	slot5.sprite = slot0.selectview:Find("Main/namelist/song" .. slot0.musicData.img):GetComponent(typeof(Image)).sprite
 
 	slot5:SetNativeSize()
 
-	slot0.scoreview:Find("img_list/square/song"):GetComponent(typeof(Image)).sprite = slot0.selectview:Find("Main/MusicList/img/" .. slot3):GetComponent(typeof(Image)).sprite
+	slot0.scoreview:Find("img_list/square/song"):GetComponent(typeof(Image)).sprite = slot0.selectview:Find("Main/MusicList/img/" .. slot0.musicData.img):GetComponent(typeof(Image)).sprite
 
 	onButton(slot0, slot0.scoreview:Find("btnlist/share"), function ()
 		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeSummary)

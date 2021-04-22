@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_289 = {
+	[41121] = {
+		id = 41121,
+		damage = "5 x 4",
+		base = 41120,
+		weapon_id = {
+			41121
+		}
+	},
+	[41122] = {
+		id = 41122,
+		damage = "5 x 4",
+		base = 41120,
+		weapon_id = {
+			41122
+		}
+	},
+	[41123] = {
+		id = 41123,
+		damage = "6 x 4",
+		base = 41120,
+		weapon_id = {
+			41123
+		}
+	},
 	[41124] = {
 		id = 41124,
 		damage = "6 x 4",
@@ -162,91 +186,6 @@ pg.equip_data_statistics_289 = {
 		base = 41140,
 		weapon_id = {
 			41149
-		}
-	},
-	[41150] = {
-		id = 41150,
-		damage = "11 x 4",
-		base = 41140,
-		weapon_id = {
-			41150
-		}
-	},
-	[41151] = {
-		anti_siren = 100,
-		damage = "11 x 4",
-		base = 41140,
-		id = 41151,
-		weapon_id = {
-			41151
-		}
-	},
-	[41160] = {
-		name = "128mmSKC41連装両用砲改",
-		speciality = "追尾",
-		type = 1,
-		attribute_3 = "antiaircraft",
-		tech = 0,
-		value_2 = 30,
-		icon = "41160",
-		attribute_2 = "cannon",
-		descrip = "0",
-		rarity = 5,
-		damage = "6 x 4",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 15,
-		id = 41160,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1303
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1303
-			},
-			{
-				4,
-				1001
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			41160
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"DD",
-			"MG",
-			"AP"
 		}
 	}
 }

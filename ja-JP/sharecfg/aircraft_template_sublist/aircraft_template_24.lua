@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.aircraft_template_24 = {
+	[17390] = {
+		id = 17390,
+		base = 17380,
+		max_hp = 119,
+		hp_growth = 4572,
+		weapon_ID = {
+			50670,
+			52670
+		}
+	},
+	[17391] = {
+		id = 17391,
+		base = 17380,
+		max_hp = 126,
+		hp_growth = 4847,
+		weapon_ID = {
+			50671,
+			52671
+		}
+	},
+	[17392] = {
+		id = 17392,
+		base = 17380,
+		max_hp = 133,
+		hp_growth = 5121,
+		weapon_ID = {
+			50672,
+			52672
+		}
+	},
+	[17393] = {
+		id = 17393,
+		base = 17380,
+		max_hp = 140,
+		hp_growth = 5395,
+		weapon_ID = {
+			50673,
+			52673
+		}
+	},
 	[17400] = {
 		name = "XF5F天箭",
 		max_hp = 40,
@@ -118,46 +158,6 @@ pg.aircraft_template_24 = {
 		weapon_ID = {
 			50545,
 			50745
-		}
-	},
-	[17406] = {
-		id = 17406,
-		base = 17400,
-		max_hp = 77,
-		hp_growth = 2949,
-		weapon_ID = {
-			50546,
-			50746
-		}
-	},
-	[17407] = {
-		id = 17407,
-		base = 17400,
-		max_hp = 83,
-		hp_growth = 3182,
-		weapon_ID = {
-			50547,
-			50747
-		}
-	},
-	[17408] = {
-		id = 17408,
-		base = 17400,
-		max_hp = 89,
-		hp_growth = 3415,
-		weapon_ID = {
-			50548,
-			50748
-		}
-	},
-	[17409] = {
-		id = 17409,
-		base = 17400,
-		max_hp = 95,
-		hp_growth = 3648,
-		weapon_ID = {
-			50549,
-			50749
 		}
 	}
 }

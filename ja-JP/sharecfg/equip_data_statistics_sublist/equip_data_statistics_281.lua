@@ -1,5 +1,103 @@
 pg = pg or {}
 pg.equip_data_statistics_281 = {
+	[39100] = {
+		name = "彗星",
+		type = 9,
+		speciality = "爆撃",
+		rarity = 3,
+		tech = 1,
+		descrip = "0",
+		value_2 = 12,
+		icon = "39100",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 39100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50000
+			},
+			{
+				5,
+				52600
+			},
+			{
+				5,
+				52100
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			39100
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		}
+	},
+	[39101] = {
+		id = 39101,
+		base = 39100,
+		ammo_info = {
+			{
+				6,
+				50001
+			},
+			{
+				5,
+				52601
+			},
+			{
+				5,
+				52101
+			}
+		},
+		weapon_id = {
+			39101
+		}
+	},
+	[39102] = {
+		id = 39102,
+		base = 39100,
+		ammo_info = {
+			{
+				6,
+				50002
+			},
+			{
+				5,
+				52602
+			},
+			{
+				5,
+				52102
+			}
+		},
+		weapon_id = {
+			39102
+		}
+	},
 	[39103] = {
 		id = 39103,
 		base = 39100,
@@ -306,104 +404,6 @@ pg.equip_data_statistics_281 = {
 		},
 		weapon_id = {
 			39128
-		}
-	},
-	[39129] = {
-		id = 39129,
-		base = 39120,
-		ammo_info = {
-			{
-				6,
-				50029
-			},
-			{
-				5,
-				52629
-			},
-			{
-				5,
-				52129
-			}
-		},
-		weapon_id = {
-			39129
-		}
-	},
-	[39130] = {
-		id = 39130,
-		base = 39120,
-		ammo_info = {
-			{
-				6,
-				50030
-			},
-			{
-				5,
-				52630
-			},
-			{
-				5,
-				52130
-			}
-		},
-		weapon_id = {
-			39130
-		}
-	},
-	[39140] = {
-		name = "彗星",
-		type = 9,
-		speciality = "爆撃",
-		rarity = 5,
-		tech = 3,
-		descrip = "0",
-		value_2 = 45,
-		icon = "39100",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 39140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50040
-			},
-			{
-				5,
-				52640
-			},
-			{
-				5,
-				52140
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			39140
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"DB"
 		}
 	}
 }

@@ -1,5 +1,68 @@
 pg = pg or {}
 pg.equip_data_statistics_4 = {
+	[214] = {
+		name = "0",
+		damage = "6 x 2",
+		base = 211,
+		id = 214,
+		weapon_id = {
+			214
+		}
+	},
+	[215] = {
+		name = "皇家雷击轻巡副炮T4（德雷克模拟关卡用）",
+		damage = "6 x 2",
+		base = 211,
+		id = 215,
+		weapon_id = {
+			215
+		}
+	},
+	[221] = {
+		name = "0",
+		speciality = "追尾",
+		type = 1,
+		tech = 1,
+		rarity = 1,
+		descrip = "デフォルト装備",
+		value_2 = 0,
+		icon = "1",
+		damage = "2 x 2",
+		nationality = 0,
+		ammo = 5,
+		value_3 = 0,
+		id = 221,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			221
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		}
+	},
 	[222] = {
 		name = "0",
 		damage = "3 x 2",
@@ -229,75 +292,6 @@ pg.equip_data_statistics_4 = {
 		id = 262,
 		weapon_id = {
 			262
-		}
-	},
-	[263] = {
-		name = "0",
-		damage = "4 x 2",
-		base = 261,
-		id = 263,
-		ammo_icon = {
-			3
-		},
-		weapon_id = {
-			263
-		}
-	},
-	[264] = {
-		name = "0",
-		damage = "5 x 2",
-		base = 261,
-		id = 264,
-		ammo_icon = {
-			3
-		},
-		weapon_id = {
-			264
-		}
-	},
-	[271] = {
-		name = "0",
-		speciality = "追尾",
-		type = 1,
-		tech = 1,
-		rarity = 1,
-		descrip = "デフォルト装備",
-		value_2 = 0,
-		icon = "1",
-		damage = "2 x 3",
-		nationality = 0,
-		ammo = 5,
-		value_3 = 0,
-		id = 271,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			271
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"DD",
-			"MG"
 		}
 	}
 }

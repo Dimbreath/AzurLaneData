@@ -1,5 +1,47 @@
 pg = pg or {}
 pg.equip_data_statistics_336 = {
+	[60182] = {
+		id = 60182,
+		base = 60181,
+		weapon_id = {
+			60182
+		}
+	},
+	[60183] = {
+		id = 60183,
+		base = 60181,
+		weapon_id = {
+			60183
+		}
+	},
+	[60191] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 60191,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60191
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
 	[60192] = {
 		id = 60192,
 		base = 60191,
@@ -217,79 +259,5 @@ pg.equip_data_statistics_336 = {
 		},
 		equip_parameters = {},
 		label = {}
-	},
-	[60233] = {
-		name = "0",
-		tech = 1,
-		speciality = "なし",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕サンプル用",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60233,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60233
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[60234] = {
-		name = "0",
-		tech = 1,
-		speciality = "なし",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "スキル弾幕サンプル用",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60234,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60234
-		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60235] = {
-		id = 60235,
-		base = 60234,
-		weapon_id = {
-			60235
-		}
 	}
 }

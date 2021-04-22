@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_121 = {
+	[16301] = {
+		id = 16301,
+		damage = "22/回",
+		base = 16300,
+		weapon_id = {
+			16301
+		}
+	},
+	[16302] = {
+		id = 16302,
+		damage = "25/回",
+		base = 16300,
+		weapon_id = {
+			16302
+		}
+	},
+	[16303] = {
+		id = 16303,
+		damage = "29/回",
+		base = 16300,
+		weapon_id = {
+			16303
+		}
+	},
 	[16320] = {
 		name = "二連装ボフォース40mm機関砲",
 		speciality = "対空",
@@ -210,30 +234,6 @@ pg.equip_data_statistics_121 = {
 		base = 16340,
 		weapon_id = {
 			16345
-		}
-	},
-	[16346] = {
-		id = 16346,
-		damage = "46/回",
-		base = 16340,
-		weapon_id = {
-			16346
-		}
-	},
-	[16347] = {
-		id = 16347,
-		damage = "50/回",
-		base = 16340,
-		weapon_id = {
-			16347
-		}
-	},
-	[16348] = {
-		id = 16348,
-		damage = "54/回",
-		base = 16340,
-		weapon_id = {
-			16348
 		}
 	}
 }

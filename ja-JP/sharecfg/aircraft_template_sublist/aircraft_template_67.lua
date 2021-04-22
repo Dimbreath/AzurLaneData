@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.aircraft_template_67 = {
+	[28202] = {
+		id = 28202,
+		base = 28200,
+		max_hp = 49,
+		hp_growth = 1897,
+		weapon_ID = {
+			50662,
+			51142
+		}
+	},
+	[28203] = {
+		id = 28203,
+		base = 28200,
+		max_hp = 55,
+		hp_growth = 2116,
+		weapon_ID = {
+			50663,
+			51143
+		}
+	},
+	[28204] = {
+		id = 28204,
+		base = 28200,
+		max_hp = 61,
+		hp_growth = 2335,
+		weapon_ID = {
+			50664,
+			51144
+		}
+	},
+	[28205] = {
+		id = 28205,
+		base = 28200,
+		max_hp = 66,
+		hp_growth = 2554,
+		weapon_ID = {
+			50665,
+			51145
+		}
+	},
 	[28206] = {
 		id = 28206,
 		base = 28200,
@@ -58,111 +98,6 @@ pg.aircraft_template_67 = {
 		weapon_ID = {
 			50671,
 			51151
-		}
-	},
-	[28212] = {
-		id = 28212,
-		base = 28200,
-		max_hp = 106,
-		hp_growth = 4086,
-		weapon_ID = {
-			50672,
-			51152
-		}
-	},
-	[28213] = {
-		id = 28213,
-		base = 28200,
-		max_hp = 112,
-		hp_growth = 4305,
-		weapon_ID = {
-			50673,
-			51153
-		}
-	},
-	[28220] = {
-		name = "火冠",
-		max_hp = 39,
-		accuracy = 23,
-		model_ID = "huoguan",
-		ACC_growth = 0,
-		crash_DMG = 420,
-		dodge = 1.03,
-		attack_power = 2,
-		dodge_limit = 7.5,
-		type = 2,
-		AP_growth = 2000,
-		icon = "huoguan",
-		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1503,
-		speed = 51,
-		id = 28220,
-		scale = 1,
-		weapon_ID = {
-			50660,
-			51140
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					1.26,
-					-1.13,
-					0
-				},
-				{
-					1.35,
-					1.18,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.26,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[28221] = {
-		id = 28221,
-		base = 28220,
-		max_hp = 45,
-		hp_growth = 1728,
-		weapon_ID = {
-			50661,
-			51141
 		}
 	}
 }

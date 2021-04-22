@@ -261,27 +261,36 @@ function slot0.updateDetailItem(slot0, slot1, slot2)
 	slot13 = UIItemList.New(slot0:findTF("LineContainer", slot1), slot0.detailLineTpl)
 
 	slot13:make(function (slot0, slot1, slot2)
-		slot3 = uv0:findTF("AttrLine", slot2)
+		slot5 = uv0:findTF("Text", slot2)
 
 		if slot0 == UIItemList.EventUpdate then
-			if slot1 + 1 <= uv1 then
-				setActive(slot3, true)
+			if slot1 + 1 == 1 then
+				setActive(uv0:findTF("AttrLine", slot2), false)
 				setActive(uv0:findTF("UnlockTipLine", slot2), false)
+				setActive(slot5, true)
+				setText(slot5, i18n("meta_repair_effect_unlock", uv1))
 
-				slot8 = uv2[slot1]
-				slot9 = slot8[1]
+				return
+			end
 
-				setImageSprite(uv0:findTF("AttrIcon", slot3), LoadSprite("attricon", slot9))
-				setText(uv0:findTF("AttrNameText", slot3), AttributeType.Type2Name(slot9))
-				setText(uv0:findTF("NumText", slot3), "+" .. slot8[2])
+			if slot1 <= uv2 + 1 then
+				setActive(slot3, true)
+				setActive(slot4, false)
+
+				slot9 = uv3[slot1 - 1]
+				slot10 = slot9[1]
+
+				setImageSprite(uv0:findTF("AttrIcon", slot3), LoadSprite("attricon", slot10))
+				setText(uv0:findTF("AttrNameText", slot3), AttributeType.Type2Name(slot10))
+				setText(uv0:findTF("NumText", slot3), "+" .. slot9[2])
 			else
 				setActive(slot3, false)
 				setActive(slot4, true)
-				setScrollText(uv0:findTF("Text", slot4), uv3[slot1 - uv1])
+				setScrollText(uv0:findTF("Text", slot4), uv4[slot1 - 1 - uv2])
 			end
 		end
 	end)
-	slot13:align(#slot2:getAttrAdditionList() + #slot2:getDescs())
+	slot13:align(#slot2:getAttrAdditionList() + #slot2:getDescs() + 1)
 end
 
 function slot0.updateDetailPanel(slot0)

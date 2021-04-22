@@ -1,5 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_17 = {
+	[749] = {
+		id = 749,
+		value_1 = "22",
+		base = 740
+	},
+	[750] = {
+		id = 750,
+		value_1 = "24",
+		base = 740
+	},
+	[751] = {
+		id = 751,
+		anti_siren = 100,
+		value_1 = "27",
+		base = 740
+	},
 	[760] = {
 		name = "偵察レポート・NY周辺海域",
 		tech = 0,
@@ -134,23 +150,5 @@ pg.equip_data_statistics_17 = {
 		label = {
 			"DEV"
 		}
-	},
-	[781] = {
-		id = 781,
-		value_2 = 105,
-		value_1 = "11",
-		base = 780
-	},
-	[782] = {
-		id = 782,
-		value_2 = 110,
-		value_1 = "12",
-		base = 780
-	},
-	[783] = {
-		id = 783,
-		value_2 = 115,
-		value_1 = "13",
-		base = 780
 	}
 }

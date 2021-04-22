@@ -1,5 +1,32 @@
 pg = pg or {}
 pg.equip_data_statistics_83 = {
+	[7311] = {
+		anti_siren = 100,
+		damage = "52 x 3",
+		base = 7300,
+		id = 7311,
+		weapon_id = {
+			7311
+		}
+	},
+	[7312] = {
+		anti_siren = 200,
+		damage = "52 x 3",
+		base = 7300,
+		id = 7312,
+		weapon_id = {
+			7312
+		}
+	},
+	[7313] = {
+		anti_siren = 300,
+		damage = "52 x 3",
+		base = 7300,
+		id = 7313,
+		weapon_id = {
+			7313
+		}
+	},
 	[7320] = {
 		name = "130mm副砲Mle1932",
 		speciality = "追尾",
@@ -211,30 +238,6 @@ pg.equip_data_statistics_83 = {
 		base = 7340,
 		weapon_id = {
 			7344
-		}
-	},
-	[7345] = {
-		id = 7345,
-		damage = "32 x 4",
-		base = 7340,
-		weapon_id = {
-			7345
-		}
-	},
-	[7346] = {
-		id = 7346,
-		damage = "34 x 4",
-		base = 7340,
-		weapon_id = {
-			7346
-		}
-	},
-	[7347] = {
-		id = 7347,
-		damage = "34 x 4",
-		base = 7340,
-		weapon_id = {
-			7347
 		}
 	}
 }

@@ -1,29 +1,6 @@
 slot0 = class("BackYardFurniturePage", import(".BackYardShopBasePage"))
-slot1 = {
-	{},
-	{
-		Furniture.TYPE_WALLPAPER
-	},
-	{
-		Furniture.TYPE_FLOORPAPER
-	},
-	{
-		Furniture.TYPE_FURNITURE,
-		Furniture.TYPE_MAT,
-		Furniture.TYPE_COLLECTION,
-		Furniture.TYPE_STAGE,
-		Furniture.TYPE_ARCH,
-		Furniture.TYPE_MOVEABLE,
-		Furniture.TYPE_TRANSPORT
-	},
-	{
-		Furniture.TYPE_DECORATE
-	},
-	{
-		Furniture.TYPE_WALL,
-		Furniture.TYPE_WALL_MAT
-	}
-}
+
+table.insert(Furniture.INDEX_TO_SHOP_TYPE, 1, {})
 
 function slot2(slot0)
 	return uv0[slot0]

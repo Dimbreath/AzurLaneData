@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_176 = {
+	[25041] = {
+		id = 25041,
+		damage = "73 x 5",
+		base = 25040,
+		weapon_id = {
+			25041
+		}
+	},
+	[25042] = {
+		id = 25042,
+		damage = "84 x 5",
+		base = 25040,
+		weapon_id = {
+			25042
+		}
+	},
+	[25043] = {
+		id = 25043,
+		damage = "95 x 5",
+		base = 25040,
+		weapon_id = {
+			25043
+		}
+	},
 	[25044] = {
 		id = 25044,
 		damage = "106 x 5",
@@ -156,81 +180,6 @@ pg.equip_data_statistics_176 = {
 		base = 25100,
 		weapon_id = {
 			25102
-		}
-	},
-	[25103] = {
-		id = 25103,
-		damage = "73 x 3",
-		base = 25100,
-		weapon_id = {
-			25103
-		}
-	},
-	[25120] = {
-		name = "潜水艦用MarkVIII魚雷",
-		speciality = "雷撃",
-		type = 13,
-		tech = 2,
-		descrip = "0",
-		value_2 = 12,
-		icon = "25100",
-		attribute_2 = "torpedo",
-		rarity = 3,
-		damage = "57 x 3",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 25120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1825
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1825
-			},
-			{
-				4,
-				1601
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			25120
-		},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"SS",
-			"TP"
-		}
-	},
-	[25121] = {
-		id = 25121,
-		damage = "65 x 3",
-		base = 25120,
-		weapon_id = {
-			25121
 		}
 	}
 }

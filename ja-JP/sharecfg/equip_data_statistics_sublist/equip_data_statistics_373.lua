@@ -1,5 +1,225 @@
 pg = pg or {}
 pg.equip_data_statistics_373 = {
+	[85327] = {
+		id = 85327,
+		damage = "120 x 3",
+		base = 85320,
+		weapon_id = {
+			85327
+		}
+	},
+	[85328] = {
+		id = 85328,
+		damage = "129 x 3",
+		base = 85320,
+		weapon_id = {
+			85328
+		}
+	},
+	[85329] = {
+		id = 85329,
+		damage = "139 x 3",
+		base = 85320,
+		weapon_id = {
+			85329
+		}
+	},
+	[85330] = {
+		id = 85330,
+		damage = "149 x 3",
+		base = 85320,
+		weapon_id = {
+			85330
+		}
+	},
+	[85360] = {
+		name = "100mm連装両用砲B-34 MZ-14",
+		speciality = "対空",
+		type = 6,
+		tech = 1,
+		descrip = "0",
+		value_2 = 5,
+		icon = "85360",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "14/回",
+		nationality = 7,
+		ammo = 5,
+		value_3 = 0,
+		id = 85360,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			85360
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85361] = {
+		id = 85361,
+		damage = "16/回",
+		base = 85360,
+		weapon_id = {
+			85361
+		}
+	},
+	[85362] = {
+		id = 85362,
+		damage = "19/回",
+		base = 85360,
+		weapon_id = {
+			85362
+		}
+	},
+	[85363] = {
+		id = 85363,
+		damage = "22/回",
+		base = 85360,
+		weapon_id = {
+			85363
+		}
+	},
+	[85380] = {
+		name = "100mm連装両用砲B-34 MZ-14",
+		speciality = "対空",
+		type = 6,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "85360",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "33/回",
+		nationality = 7,
+		ammo = 5,
+		value_3 = 0,
+		id = 85380,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			85380
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85381] = {
+		id = 85381,
+		damage = "36/回",
+		base = 85380,
+		weapon_id = {
+			85381
+		}
+	},
+	[85382] = {
+		id = 85382,
+		damage = "41/回",
+		base = 85380,
+		weapon_id = {
+			85382
+		}
+	},
+	[85383] = {
+		id = 85383,
+		damage = "45/回",
+		base = 85380,
+		weapon_id = {
+			85383
+		}
+	},
+	[85384] = {
+		id = 85384,
+		damage = "51/回",
+		base = 85380,
+		weapon_id = {
+			85384
+		}
+	},
+	[85385] = {
+		id = 85385,
+		damage = "57/回",
+		base = 85380,
+		weapon_id = {
+			85385
+		}
+	},
 	[85386] = {
 		id = 85386,
 		damage = "64/回",
@@ -68,164 +288,6 @@ pg.equip_data_statistics_373 = {
 			"SN",
 			"ST",
 			"AA"
-		}
-	},
-	[85401] = {
-		id = 85401,
-		damage = "42/回",
-		base = 85400,
-		weapon_id = {
-			85401
-		}
-	},
-	[85402] = {
-		id = 85402,
-		damage = "47/回",
-		base = 85400,
-		weapon_id = {
-			85402
-		}
-	},
-	[85403] = {
-		id = 85403,
-		damage = "53/回",
-		base = 85400,
-		weapon_id = {
-			85403
-		}
-	},
-	[85404] = {
-		id = 85404,
-		damage = "59/回",
-		base = 85400,
-		weapon_id = {
-			85404
-		}
-	},
-	[85405] = {
-		id = 85405,
-		damage = "65/回",
-		base = 85400,
-		weapon_id = {
-			85405
-		}
-	},
-	[85406] = {
-		id = 85406,
-		damage = "71/回",
-		base = 85400,
-		weapon_id = {
-			85406
-		}
-	},
-	[85407] = {
-		id = 85407,
-		damage = "77/回",
-		base = 85400,
-		weapon_id = {
-			85407
-		}
-	},
-	[85408] = {
-		id = 85408,
-		damage = "83/回",
-		base = 85400,
-		weapon_id = {
-			85408
-		}
-	},
-	[85409] = {
-		id = 85409,
-		damage = "89/回",
-		base = 85400,
-		weapon_id = {
-			85409
-		}
-	},
-	[85410] = {
-		id = 85410,
-		damage = "96/回",
-		base = 85400,
-		weapon_id = {
-			85410
-		}
-	},
-	[85411] = {
-		anti_siren = 100,
-		damage = "96/回",
-		base = 85400,
-		id = 85411,
-		weapon_id = {
-			85411
-		}
-	},
-	[85420] = {
-		name = "305mm三連装砲Model1907",
-		speciality = "投射",
-		type = 4,
-		tech = 3,
-		descrip = "0",
-		value_2 = 12,
-		icon = "85420",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "54 x 3",
-		nationality = 7,
-		ammo = 2,
-		value_3 = 0,
-		id = 85420,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				2,
-				1502
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			85420
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"BB",
-			"MG",
-			"GangutMG"
-		}
-	},
-	[85421] = {
-		id = 85421,
-		damage = "59 x 3",
-		base = 85420,
-		weapon_id = {
-			85421
-		}
-	},
-	[85422] = {
-		id = 85422,
-		damage = "64 x 3",
-		base = 85420,
-		weapon_id = {
-			85422
 		}
 	}
 }

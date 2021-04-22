@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.equip_data_statistics_42 = {
+	[2045] = {
+		id = 2045,
+		value_2 = 3,
+		value_1 = "245",
+		base = 2040
+	},
+	[2046] = {
+		id = 2046,
+		value_2 = 3,
+		value_1 = "266",
+		base = 2040
+	},
+	[2047] = {
+		id = 2047,
+		value_2 = 4,
+		value_1 = "287",
+		base = 2040
+	},
 	[2048] = {
 		id = 2048,
 		value_2 = 4,
@@ -150,59 +168,5 @@ pg.equip_data_statistics_42 = {
 		value_2 = 28,
 		value_1 = "28",
 		base = 2120
-	},
-	[2125] = {
-		id = 2125,
-		value_2 = 31,
-		value_1 = "31",
-		base = 2120
-	},
-	[2126] = {
-		id = 2126,
-		value_2 = 34,
-		value_1 = "34",
-		base = 2120
-	},
-	[2140] = {
-		name = "空母燃料タンク",
-		tech = 3,
-		type = 10,
-		speciality = "なし",
-		id = 2140,
-		value_2 = 20,
-		icon = "2100",
-		value_1 = "28",
-		attribute_2 = "durability",
-		rarity = 4,
-		descrip = "艦載機用の燃料タンク。燃料の余裕は耐弾対策に",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "air",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6090
-		},
-		part_main = {
-			6,
-			7,
-			10
-		},
-		part_sub = {
-			6,
-			7,
-			10
-		},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
 	}
 }

@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_115 = {
+	[16021] = {
+		id = 16021,
+		damage = "10/回",
+		base = 16020,
+		weapon_id = {
+			16021
+		}
+	},
+	[16022] = {
+		id = 16022,
+		damage = "12/回",
+		base = 16020,
+		weapon_id = {
+			16022
+		}
+	},
+	[16023] = {
+		id = 16023,
+		damage = "14/回",
+		base = 16020,
+		weapon_id = {
+			16023
+		}
+	},
 	[16040] = {
 		name = "20mmエリコン機関砲",
 		speciality = "対空",
@@ -210,30 +234,6 @@ pg.equip_data_statistics_115 = {
 		base = 16060,
 		weapon_id = {
 			16064
-		}
-	},
-	[16065] = {
-		id = 16065,
-		damage = "44/回",
-		base = 16060,
-		weapon_id = {
-			16065
-		}
-	},
-	[16066] = {
-		id = 16066,
-		damage = "47/回",
-		base = 16060,
-		weapon_id = {
-			16066
-		}
-	},
-	[16067] = {
-		id = 16067,
-		damage = "50/回",
-		base = 16060,
-		weapon_id = {
-			16067
 		}
 	}
 }

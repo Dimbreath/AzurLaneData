@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_165 = {
+	[23204] = {
+		id = 23204,
+		damage = "36 x 6",
+		base = 23200,
+		weapon_id = {
+			23204
+		}
+	},
+	[23205] = {
+		id = 23205,
+		damage = "38 x 6",
+		base = 23200,
+		weapon_id = {
+			23205
+		}
+	},
+	[23206] = {
+		id = 23206,
+		damage = "40 x 6",
+		base = 23200,
+		weapon_id = {
+			23206
+		}
+	},
 	[23207] = {
 		id = 23207,
 		damage = "42 x 6",
@@ -149,75 +173,6 @@ pg.equip_data_statistics_165 = {
 		base = 24000,
 		weapon_id = {
 			24005
-		}
-	},
-	[24006] = {
-		id = 24006,
-		damage = "70 x 4",
-		base = 24000,
-		weapon_id = {
-			24006
-		}
-	},
-	[24020] = {
-		name = "356mm四連装砲",
-		speciality = "投射",
-		type = 4,
-		tech = 2,
-		descrip = "0",
-		value_2 = 25,
-		icon = "24000",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "44 x 4",
-		nationality = 2,
-		ammo = 2,
-		value_3 = 0,
-		id = 24020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				2,
-				1522
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			24020
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"BB",
-			"MG",
-			"HE"
-		}
-	},
-	[24021] = {
-		id = 24021,
-		damage = "50 x 4",
-		base = 24020,
-		weapon_id = {
-			24021
 		}
 	}
 }

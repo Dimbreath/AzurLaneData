@@ -1,5 +1,59 @@
 pg = pg or {}
 pg.equip_data_statistics_215 = {
+	[29211] = {
+		anti_siren = 100,
+		base = 29200,
+		id = 29211,
+		ammo_info = {
+			{
+				6,
+				50671
+			},
+			{
+				5,
+				52751
+			}
+		},
+		weapon_id = {
+			29211
+		}
+	},
+	[29212] = {
+		anti_siren = 200,
+		base = 29200,
+		id = 29212,
+		ammo_info = {
+			{
+				6,
+				50672
+			},
+			{
+				5,
+				52752
+			}
+		},
+		weapon_id = {
+			29212
+		}
+	},
+	[29213] = {
+		anti_siren = 300,
+		base = 29200,
+		id = 29213,
+		ammo_info = {
+			{
+				6,
+				50673
+			},
+			{
+				5,
+				52753
+			}
+		},
+		weapon_id = {
+			29213
+		}
+	},
 	[29300] = {
 		name = "バラクーダ（831中隊）",
 		type = 9,
@@ -294,87 +348,6 @@ pg.equip_data_statistics_215 = {
 		},
 		skill_id = {
 			6842
-		}
-	},
-	[29313] = {
-		anti_siren = 300,
-		base = 29300,
-		id = 29313,
-		ammo_info = {
-			{
-				6,
-				50053
-			},
-			{
-				5,
-				53293
-			}
-		},
-		weapon_id = {
-			29313
-		},
-		skill_id = {
-			6843
-		}
-	},
-	[30000] = {
-		name = "305mm連装砲",
-		speciality = "投射",
-		type = 4,
-		tech = 0,
-		descrip = "0",
-		value_2 = 12,
-		icon = "30000",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "40 x 2",
-		nationality = 3,
-		ammo = 3,
-		value_3 = 0,
-		id = 30000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1500
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			30000
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"BB",
-			"MG"
-		}
-	},
-	[30001] = {
-		id = 30001,
-		damage = "45 x 2",
-		base = 30000,
-		weapon_id = {
-			30001
 		}
 	}
 }

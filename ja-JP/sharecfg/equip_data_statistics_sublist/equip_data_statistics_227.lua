@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.equip_data_statistics_227 = {
+	[32149] = {
+		id = 32149,
+		damage = "16 x 4",
+		base = 32140,
+		weapon_id = {
+			32149
+		}
+	},
+	[32150] = {
+		id = 32150,
+		damage = "17 x 4",
+		base = 32140,
+		weapon_id = {
+			32150
+		}
+	},
+	[32151] = {
+		anti_siren = 100,
+		damage = "17 x 4",
+		base = 32140,
+		id = 32151,
+		weapon_id = {
+			32151
+		}
+	},
 	[32200] = {
 		name = "155mm三連装砲",
 		speciality = "追尾",
@@ -205,30 +230,6 @@ pg.equip_data_statistics_227 = {
 		base = 32220,
 		weapon_id = {
 			32225
-		}
-	},
-	[32226] = {
-		id = 32226,
-		damage = "13 x 6",
-		base = 32220,
-		weapon_id = {
-			32226
-		}
-	},
-	[32227] = {
-		id = 32227,
-		damage = "14 x 6",
-		base = 32220,
-		weapon_id = {
-			32227
-		}
-	},
-	[32228] = {
-		id = 32228,
-		damage = "15 x 6",
-		base = 32220,
-		weapon_id = {
-			32228
 		}
 	}
 }

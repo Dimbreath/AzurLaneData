@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_175 = {
+	[25005] = {
+		id = 25005,
+		damage = "117 x 3",
+		base = 25000,
+		weapon_id = {
+			25005
+		}
+	},
+	[25006] = {
+		id = 25006,
+		damage = "128 x 3",
+		base = 25000,
+		weapon_id = {
+			25006
+		}
+	},
+	[25007] = {
+		id = 25007,
+		damage = "128 x 3",
+		base = 25000,
+		weapon_id = {
+			25007
+		}
+	},
 	[25020] = {
 		name = "533mm四連装魚雷MarkIX",
 		speciality = "雷撃",
@@ -211,30 +235,6 @@ pg.equip_data_statistics_175 = {
 			"ST",
 			"TP",
 			"QUINT"
-		}
-	},
-	[25041] = {
-		id = 25041,
-		damage = "73 x 5",
-		base = 25040,
-		weapon_id = {
-			25041
-		}
-	},
-	[25042] = {
-		id = 25042,
-		damage = "84 x 5",
-		base = 25040,
-		weapon_id = {
-			25042
-		}
-	},
-	[25043] = {
-		id = 25043,
-		damage = "95 x 5",
-		base = 25040,
-		weapon_id = {
-			25043
 		}
 	}
 }

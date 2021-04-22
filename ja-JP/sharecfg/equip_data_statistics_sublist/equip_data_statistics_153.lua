@@ -1,5 +1,87 @@
 pg = pg or {}
 pg.equip_data_statistics_153 = {
+	[21450] = {
+		id = 21450,
+		damage = "15 x 4",
+		base = 21440,
+		weapon_id = {
+			21450
+		}
+	},
+	[21451] = {
+		anti_siren = 100,
+		damage = "15 x 4",
+		base = 21440,
+		id = 21451,
+		weapon_id = {
+			21451
+		}
+	},
+	[21460] = {
+		name = "120mm連装両用砲MarkXI",
+		speciality = "追尾",
+		type = 1,
+		attribute_3 = "antiaircraft",
+		tech = 0,
+		value_2 = 20,
+		icon = "21460",
+		attribute_2 = "cannon",
+		descrip = "0",
+		rarity = 5,
+		damage = "6 x 4",
+		nationality = 2,
+		ammo = 3,
+		value_3 = 25,
+		id = 21460,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1100
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1100
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			21460
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
+	},
 	[21461] = {
 		id = 21461,
 		damage = "7 x 4",
@@ -105,88 +187,6 @@ pg.equip_data_statistics_153 = {
 		id = 21473,
 		weapon_id = {
 			21473
-		}
-	},
-	[21500] = {
-		name = "134mm連装高角砲",
-		speciality = "追尾",
-		type = 1,
-		attribute_3 = "antiaircraft",
-		tech = 1,
-		value_2 = 2,
-		icon = "21500",
-		attribute_2 = "cannon",
-		descrip = "0",
-		rarity = 2,
-		damage = "4 x 2",
-		nationality = 2,
-		ammo = 3,
-		value_3 = 3,
-		id = 21500,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1100
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1100
-			},
-			{
-				4,
-				1011
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			21500
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"DD",
-			"MG"
-		}
-	},
-	[21501] = {
-		id = 21501,
-		base = 21500,
-		weapon_id = {
-			21501
-		}
-	},
-	[21502] = {
-		id = 21502,
-		damage = "6 x 2",
-		base = 21500,
-		weapon_id = {
-			21502
 		}
 	}
 }

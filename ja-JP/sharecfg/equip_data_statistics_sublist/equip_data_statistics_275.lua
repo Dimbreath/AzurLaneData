@@ -1,5 +1,56 @@
 pg = pg or {}
 pg.equip_data_statistics_275 = {
+	[38122] = {
+		id = 38122,
+		base = 38120,
+		ammo_info = {
+			{
+				6,
+				50022
+			},
+			{
+				4,
+				51422
+			}
+		},
+		weapon_id = {
+			38122
+		}
+	},
+	[38123] = {
+		id = 38123,
+		base = 38120,
+		ammo_info = {
+			{
+				6,
+				50023
+			},
+			{
+				4,
+				51423
+			}
+		},
+		weapon_id = {
+			38123
+		}
+	},
+	[38124] = {
+		id = 38124,
+		base = 38120,
+		ammo_info = {
+			{
+				6,
+				50024
+			},
+			{
+				4,
+				51424
+			}
+		},
+		weapon_id = {
+			38124
+		}
+	},
 	[38125] = {
 		id = 38125,
 		base = 38120,
@@ -254,101 +305,6 @@ pg.equip_data_statistics_275 = {
 		},
 		weapon_id = {
 			38150
-		}
-	},
-	[38151] = {
-		anti_siren = 100,
-		base = 38140,
-		id = 38151,
-		ammo_info = {
-			{
-				6,
-				50051
-			},
-			{
-				4,
-				51451
-			}
-		},
-		weapon_id = {
-			38151
-		}
-	},
-	[38160] = {
-		name = "天山改",
-		type = 8,
-		speciality = "雷撃",
-		rarity = 4,
-		tech = 0,
-		descrip = "0",
-		value_2 = 25,
-		icon = "38160",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 38160,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50840
-			},
-			{
-				6,
-				59720
-			},
-			{
-				4,
-				51460
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			38160
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"TB"
-		}
-	},
-	[38161] = {
-		id = 38161,
-		base = 38160,
-		ammo_info = {
-			{
-				6,
-				50841
-			},
-			{
-				6,
-				59721
-			},
-			{
-				4,
-				51461
-			}
-		},
-		weapon_id = {
-			38161
 		}
 	}
 }

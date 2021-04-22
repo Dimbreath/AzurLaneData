@@ -1,5 +1,90 @@
 pg = pg or {}
 pg.equip_data_statistics_290 = {
+	[41150] = {
+		id = 41150,
+		damage = "11 x 4",
+		base = 41140,
+		weapon_id = {
+			41150
+		}
+	},
+	[41151] = {
+		anti_siren = 100,
+		damage = "11 x 4",
+		base = 41140,
+		id = 41151,
+		weapon_id = {
+			41151
+		}
+	},
+	[41160] = {
+		name = "128mmSKC41連装両用砲改",
+		speciality = "追尾",
+		type = 1,
+		attribute_3 = "antiaircraft",
+		tech = 0,
+		value_2 = 30,
+		icon = "41160",
+		attribute_2 = "cannon",
+		descrip = "0",
+		rarity = 5,
+		damage = "6 x 4",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 15,
+		id = 41160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1303
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1303
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			41160
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"DD",
+			"MG",
+			"AP"
+		}
+	},
 	[41161] = {
 		id = 41161,
 		damage = "7 x 4",
@@ -105,82 +190,6 @@ pg.equip_data_statistics_290 = {
 		id = 41173,
 		weapon_id = {
 			41173
-		}
-	},
-	[42000] = {
-		name = "150mmSKC/28単装砲",
-		speciality = "追尾",
-		type = 2,
-		tech = 1,
-		descrip = "150mmSKC28主砲。軽巡洋艦と一部の駆逐艦に装備可能",
-		value_2 = 5,
-		icon = "42000",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "7 x 1",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 42000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1304
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1304
-			},
-			{
-				4,
-				1000
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			42000
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CL",
-			"MG",
-			"AP"
-		}
-	},
-	[42001] = {
-		id = 42001,
-		damage = "8 x 1",
-		base = 42000,
-		weapon_id = {
-			42001
-		}
-	},
-	[42002] = {
-		id = 42002,
-		damage = "9 x 1",
-		base = 42000,
-		weapon_id = {
-			42002
 		}
 	}
 }

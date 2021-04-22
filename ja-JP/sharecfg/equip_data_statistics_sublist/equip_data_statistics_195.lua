@@ -1,5 +1,84 @@
 pg = pg or {}
 pg.equip_data_statistics_195 = {
+	[26653] = {
+		anti_siren = 300,
+		damage = "132/回",
+		base = 26640,
+		id = 26653,
+		weapon_id = {
+			26653
+		}
+	},
+	[26660] = {
+		name = "六連装ボフォース40mm対空砲",
+		speciality = "対空",
+		type = 6,
+		tech = 0,
+		descrip = "0",
+		value_2 = 45,
+		icon = "26660",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "42/回",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 26660,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			26660
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
+	[26661] = {
+		id = 26661,
+		damage = "52/回",
+		base = 26660,
+		weapon_id = {
+			26661
+		}
+	},
 	[26662] = {
 		id = 26662,
 		damage = "63/回",
@@ -154,72 +233,6 @@ pg.equip_data_statistics_195 = {
 			"HMS",
 			"CV",
 			"FT"
-		}
-	},
-	[27001] = {
-		id = 27001,
-		base = 27000,
-		ammo_info = {
-			{
-				6,
-				50101
-			},
-			{
-				6,
-				50501
-			},
-			{
-				5,
-				52201
-			}
-		},
-		weapon_id = {
-			27001,
-			82001
-		}
-	},
-	[27002] = {
-		id = 27002,
-		base = 27000,
-		ammo_info = {
-			{
-				6,
-				50102
-			},
-			{
-				6,
-				50502
-			},
-			{
-				5,
-				52202
-			}
-		},
-		weapon_id = {
-			27002,
-			82002
-		}
-	},
-	[27003] = {
-		id = 27003,
-		base = 27000,
-		ammo_info = {
-			{
-				6,
-				50103
-			},
-			{
-				6,
-				50503
-			},
-			{
-				5,
-				52203
-			}
-		},
-		weapon_id = {
-			27003,
-			82003
 		}
 	}
 }

@@ -1,5 +1,28 @@
 pg = pg or {}
 pg.equip_data_statistics_152 = {
+	[21421] = {
+		id = 21421,
+		base = 21420,
+		weapon_id = {
+			21421
+		}
+	},
+	[21422] = {
+		id = 21422,
+		damage = "6 x 4",
+		base = 21420,
+		weapon_id = {
+			21422
+		}
+	},
+	[21423] = {
+		id = 21423,
+		damage = "7 x 4",
+		base = 21420,
+		weapon_id = {
+			21423
+		}
+	},
 	[21424] = {
 		id = 21424,
 		damage = "8 x 4",
@@ -159,88 +182,6 @@ pg.equip_data_statistics_152 = {
 		base = 21440,
 		weapon_id = {
 			21449
-		}
-	},
-	[21450] = {
-		id = 21450,
-		damage = "15 x 4",
-		base = 21440,
-		weapon_id = {
-			21450
-		}
-	},
-	[21451] = {
-		anti_siren = 100,
-		damage = "15 x 4",
-		base = 21440,
-		id = 21451,
-		weapon_id = {
-			21451
-		}
-	},
-	[21460] = {
-		name = "120mm連装両用砲MarkXI",
-		speciality = "追尾",
-		type = 1,
-		attribute_3 = "antiaircraft",
-		tech = 0,
-		value_2 = 20,
-		icon = "21460",
-		attribute_2 = "cannon",
-		descrip = "0",
-		rarity = 5,
-		damage = "6 x 4",
-		nationality = 2,
-		ammo = 3,
-		value_3 = 25,
-		id = 21460,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1100
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1100
-			},
-			{
-				4,
-				1001
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			21460
-		},
-		skill_id = {},
-		part_main = {
-			1
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"DD",
-			"MG"
 		}
 	}
 }

@@ -47,3 +47,12 @@ function slot2.Clear(slot0)
 		slot0._weapon:Clear()
 	end
 end
+
+function slot2.Interrupt(slot0)
+	uv0.super.Interrupt(slot0)
+
+	if slot0._weapon then
+		slot0._weapon:Cease()
+		slot0._weapon:Clear()
+	end
+end

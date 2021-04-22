@@ -1,37 +1,85 @@
 pg = pg or {}
 pg.aircraft_template_173 = {
-	[68550] = {
-		max_hp = 98,
-		name = "伊25技能零侦LV10",
-		base = 68541,
-		id = 68550,
-		hp_growth = 3511,
-		weapon_ID = {}
+	[68336] = {
+		max_hp = 73,
+		name = "小赤城技能飞机Lv6",
+		base = 68331,
+		id = 68336,
+		hp_growth = 2796,
+		weapon_ID = {
+			68346,
+			68356
+		}
 	},
-	[68621] = {
-		name = "巴丹技能F6FLV1",
-		max_hp = 51,
+	[68337] = {
+		max_hp = 79,
+		name = "小赤城技能飞机Lv7",
+		base = 68331,
+		id = 68337,
+		hp_growth = 3016,
+		weapon_ID = {
+			68347,
+			68357
+		}
+	},
+	[68338] = {
+		max_hp = 86,
+		name = "小赤城技能飞机Lv8",
+		base = 68331,
+		id = 68338,
+		hp_growth = 3237,
+		weapon_ID = {
+			68348,
+			68358
+		}
+	},
+	[68339] = {
+		max_hp = 92,
+		name = "小赤城技能飞机Lv9",
+		base = 68331,
+		id = 68339,
+		hp_growth = 3458,
+		weapon_ID = {
+			68349,
+			68359
+		}
+	},
+	[68340] = {
+		max_hp = 98,
+		name = "小赤城技能飞机Lv10",
+		base = 68331,
+		id = 68340,
+		hp_growth = 3678,
+		weapon_ID = {
+			68350,
+			68360
+		}
+	},
+	[68391] = {
+		name = "科隆改直升机Lv1",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "f6f",
+		model_ID = "fl-282",
 		ACC_growth = 0,
-		crash_DMG = 156,
-		dodge = 0.315,
+		crash_DMG = 180,
+		dodge = 1,
 		attack_power = 2,
-		dodge_limit = 11,
+		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "f6f",
-		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1947,
-		speed = 50,
-		id = 68621,
+		icon = "fl-282",
+		nationality = 4,
+		hp_growth = 1692,
+		speed = 48,
+		id = 68391,
 		scale = 1,
-		weapon_ID = {
-			50341,
-			50541,
-			68631
+		funnel_behavior = {
+			rear = -40,
+			exist = 10,
+			front = -40,
+			stay = 2
 		},
+		weapon_ID = {},
 		position_offset = {
 			0,
 			5,
@@ -50,13 +98,13 @@ pg.aircraft_template_173 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.28,
-					1.62,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					-1.12,
-					-1,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -84,100 +132,32 @@ pg.aircraft_template_173 = {
 			}
 		}
 	},
-	[68622] = {
-		max_hp = 57,
-		name = "巴丹技能F6FLV2",
-		base = 68621,
-		id = 68622,
-		hp_growth = 2201,
-		weapon_ID = {
-			50342,
-			50542,
-			68632
-		}
+	[68392] = {
+		id = 68392,
+		name = "科隆改直升机Lv2",
+		base = 68391,
+		max_hp = 48,
+		hp_growth = 1913
 	},
-	[68623] = {
-		max_hp = 64,
-		name = "巴丹技能F6FLV3",
-		base = 68621,
-		id = 68623,
-		hp_growth = 2455,
-		weapon_ID = {
-			50343,
-			50543,
-			68633
-		}
+	[68393] = {
+		id = 68393,
+		name = "科隆改直升机Lv3",
+		base = 68391,
+		max_hp = 54,
+		hp_growth = 2133
 	},
-	[68624] = {
-		max_hp = 70,
-		name = "巴丹技能F6FLV4",
-		base = 68621,
-		id = 68624,
-		hp_growth = 2710,
-		weapon_ID = {
-			50344,
-			50544,
-			68634
-		}
+	[68394] = {
+		id = 68394,
+		name = "科隆改直升机Lv4",
+		base = 68391,
+		max_hp = 61,
+		hp_growth = 2354
 	},
-	[68625] = {
-		max_hp = 77,
-		name = "巴丹技能F6FLV5",
-		base = 68621,
-		id = 68625,
-		hp_growth = 2964,
-		weapon_ID = {
-			50345,
-			50545,
-			68635
-		}
-	},
-	[68626] = {
-		max_hp = 84,
-		name = "巴丹技能F6FLV6",
-		base = 68621,
-		id = 68626,
-		hp_growth = 3218,
-		weapon_ID = {
-			50346,
-			50546,
-			68636
-		}
-	},
-	[68627] = {
-		max_hp = 90,
-		name = "巴丹技能F6FLV7",
-		base = 68621,
-		id = 68627,
-		hp_growth = 3472,
-		weapon_ID = {
-			50347,
-			50547,
-			68637
-		}
-	},
-	[68628] = {
-		max_hp = 97,
-		name = "巴丹技能F6FLV8",
-		base = 68621,
-		id = 68628,
-		hp_growth = 3726,
-		weapon_ID = {
-			50348,
-			50548,
-			68638
-		}
-	},
-	[68629] = {
-		max_hp = 103,
-		name = "巴丹技能F6FLV9",
-		base = 68621,
-		id = 68629,
-		hp_growth = 3980,
-		weapon_ID = {
-			50349,
-			50549,
-			68639
-		}
+	[68395] = {
+		id = 68395,
+		name = "科隆改直升机Lv5",
+		base = 68391,
+		max_hp = 67,
+		hp_growth = 2575
 	}
 }

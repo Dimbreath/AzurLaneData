@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.equip_data_statistics_117 = {
+	[16089] = {
+		id = 16089,
+		damage = "87/回",
+		base = 16080,
+		weapon_id = {
+			16089
+		}
+	},
+	[16090] = {
+		id = 16090,
+		damage = "94/回",
+		base = 16080,
+		weapon_id = {
+			16090
+		}
+	},
+	[16091] = {
+		anti_siren = 100,
+		damage = "94/回",
+		base = 16080,
+		id = 16091,
+		weapon_id = {
+			16091
+		}
+	},
 	[16092] = {
 		anti_siren = 200,
 		damage = "94/回",
@@ -212,84 +237,6 @@ pg.equip_data_statistics_117 = {
 		base = 16120,
 		weapon_id = {
 			16126
-		}
-	},
-	[16140] = {
-		name = "20mm二連装エリコン機関砲",
-		speciality = "対空",
-		type = 6,
-		tech = 3,
-		descrip = "0",
-		value_2 = 25,
-		icon = "16100",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "18/回",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 16140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			16140
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"ST",
-			"AA"
-		}
-	},
-	[16141] = {
-		id = 16141,
-		damage = "20/回",
-		base = 16140,
-		weapon_id = {
-			16141
-		}
-	},
-	[16142] = {
-		id = 16142,
-		damage = "22/回",
-		base = 16140,
-		weapon_id = {
-			16142
 		}
 	}
 }

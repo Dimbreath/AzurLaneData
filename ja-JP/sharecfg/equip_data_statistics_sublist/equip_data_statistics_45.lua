@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.equip_data_statistics_45 = {
+	[2247] = {
+		id = 2247,
+		value_2 = 6,
+		value_1 = "28",
+		base = 2240
+	},
+	[2248] = {
+		id = 2248,
+		value_2 = 6,
+		value_1 = "30",
+		base = 2240
+	},
+	[2249] = {
+		id = 2249,
+		value_2 = 7,
+		value_1 = "32",
+		base = 2240
+	},
 	[2250] = {
 		id = 2250,
 		value_2 = 7,
@@ -180,76 +198,5 @@ pg.equip_data_statistics_45 = {
 		value_2 = 4,
 		value_1 = "17",
 		base = 2320
-	},
-	[2340] = {
-		name = "ジャイロスコープ",
-		tech = 3,
-		type = 10,
-		speciality = "なし",
-		id = 2340,
-		value_2 = 3,
-		icon = "2300",
-		value_1 = "14",
-		attribute_2 = "speed",
-		rarity = 4,
-		descrip = "艦の安定性を向上させ、命中と速力を高める",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "hit",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[2341] = {
-		id = 2341,
-		value_1 = "16",
-		base = 2340
-	},
-	[2342] = {
-		id = 2342,
-		value_2 = 4,
-		value_1 = "18",
-		base = 2340
 	}
 }

@@ -114,12 +114,10 @@ function slot0.doBuffUpdate(slot0)
 end
 
 function slot0.doExtraFlagUpdate(slot0)
-	slot2 = slot0.chapter
-	slot3 = getProxy(ChapterProxy)
-
 	if #slot0.data.add_flag_list > 0 or #slot1.del_flag_list > 0 then
-		slot3:updateExtraFlag(slot2, slot1.add_flag_list, slot1.del_flag_list)
-		slot3:updateChapter(slot2, bit.bor(ChapterConst.DirtyStrategy, ChapterConst.DirtyCellFlag, ChapterConst.DirtyFloatItems))
+		getProxy(ChapterProxy):updateExtraFlag(slot0.chapter, slot1.add_flag_list, slot1.del_flag_list)
+
+		slot0.flag = bit.bor(slot0.flag, ChapterConst.DirtyFleet, ChapterConst.DirtyStrategy, ChapterConst.DirtyCellFlag, ChapterConst.DirtyFloatItems)
 	end
 end
 

@@ -1,5 +1,91 @@
 pg = pg or {}
 pg.equip_data_statistics_213 = {
+	[29102] = {
+		id = 29102,
+		base = 29100,
+		ammo_info = {
+			{
+				6,
+				50202
+			},
+			{
+				5,
+				52102
+			}
+		},
+		weapon_id = {
+			29102
+		}
+	},
+	[29103] = {
+		id = 29103,
+		base = 29100,
+		ammo_info = {
+			{
+				6,
+				50203
+			},
+			{
+				5,
+				52103
+			}
+		},
+		weapon_id = {
+			29103
+		}
+	},
+	[29120] = {
+		name = "フルマー",
+		type = 9,
+		speciality = "爆撃",
+		rarity = 3,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "29100",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 29120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50220
+			},
+			{
+				5,
+				52120
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			29120
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		}
+	},
 	[29121] = {
 		id = 29121,
 		base = 29120,
@@ -254,57 +340,6 @@ pg.equip_data_statistics_213 = {
 		},
 		weapon_id = {
 			29146
-		}
-	},
-	[29147] = {
-		id = 29147,
-		base = 29140,
-		ammo_info = {
-			{
-				6,
-				50247
-			},
-			{
-				5,
-				52147
-			}
-		},
-		weapon_id = {
-			29147
-		}
-	},
-	[29148] = {
-		id = 29148,
-		base = 29140,
-		ammo_info = {
-			{
-				6,
-				50248
-			},
-			{
-				5,
-				52148
-			}
-		},
-		weapon_id = {
-			29148
-		}
-	},
-	[29149] = {
-		id = 29149,
-		base = 29140,
-		ammo_info = {
-			{
-				6,
-				50249
-			},
-			{
-				5,
-				52149
-			}
-		},
-		weapon_id = {
-			29149
 		}
 	}
 }

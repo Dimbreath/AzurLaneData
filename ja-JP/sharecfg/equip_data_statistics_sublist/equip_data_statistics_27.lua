@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.equip_data_statistics_27 = {
+	[1171] = {
+		id = 1171,
+		anti_siren = 100,
+		value_1 = "106",
+		base = 1160
+	},
+	[1172] = {
+		id = 1172,
+		anti_siren = 200,
+		value_1 = "112",
+		base = 1160
+	},
+	[1173] = {
+		id = 1173,
+		anti_siren = 300,
+		value_1 = "118",
+		base = 1160
+	},
 	[1200] = {
 		name = "火器管制レーダー",
 		tech = 1,
@@ -203,24 +221,6 @@ pg.equip_data_statistics_27 = {
 		id = 1241,
 		value_2 = 9,
 		value_1 = "11",
-		base = 1240
-	},
-	[1242] = {
-		id = 1242,
-		value_2 = 10,
-		value_1 = "12",
-		base = 1240
-	},
-	[1243] = {
-		id = 1243,
-		value_2 = 12,
-		value_1 = "14",
-		base = 1240
-	},
-	[1244] = {
-		id = 1244,
-		value_2 = 13,
-		value_1 = "15",
 		base = 1240
 	}
 }

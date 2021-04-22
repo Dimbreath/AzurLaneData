@@ -39,6 +39,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.hidePainting = slot1.withoutPainting
 	slot0.actorShadow = slot1.actorShadow
 	slot0.actorAlpha = slot1.actorAlpha
+	slot0.showNPainting = slot1.hidePaintObj
 
 	if slot0.hidePainting or slot0.actor == nil then
 		slot0.actor = nil
@@ -53,7 +54,11 @@ function slot0.GetMode(slot0)
 end
 
 function slot0.GetExPression(slot0)
-	return slot0.expression
+	if slot0.expression then
+		return slot0.expression
+	elseif slot0:GetPainting() and ShipExpressionHelper.DefaultFaceless(slot1) then
+		return ShipExpressionHelper.GetDefaultFace(slot1)
+	end
 end
 
 function slot0.GetTypewriter(slot0)
@@ -182,6 +187,10 @@ function slot0.GetPaintingAndName(slot0)
 	end
 
 	return HXSet.hxLan(slot1), slot2
+end
+
+function slot0.IsShowNPainting(slot0)
+	return slot0.showNPainting
 end
 
 function slot0.ShouldGrayPainting(slot0)

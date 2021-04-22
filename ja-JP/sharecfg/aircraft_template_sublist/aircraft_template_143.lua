@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.aircraft_template_143 = {
+	[65572] = {
+		max_hp = 57,
+		name = "威悉技能轰炸机PlusLv2",
+		base = 65561,
+		id = 65572,
+		hp_growth = 1781,
+		weapon_ID = {
+			65582
+		}
+	},
+	[65573] = {
+		max_hp = 64,
+		name = "威悉技能轰炸机PlusLv3",
+		base = 65561,
+		id = 65573,
+		hp_growth = 2013,
+		weapon_ID = {
+			65583
+		}
+	},
+	[65574] = {
+		max_hp = 70,
+		name = "威悉技能轰炸机PlusLv4",
+		base = 65561,
+		id = 65574,
+		hp_growth = 2246,
+		weapon_ID = {
+			65584
+		}
+	},
+	[65575] = {
+		max_hp = 77,
+		name = "威悉技能轰炸机PlusLv5",
+		base = 65561,
+		id = 65575,
+		hp_growth = 2478,
+		weapon_ID = {
+			65585
+		}
+	},
 	[65576] = {
 		max_hp = 84,
 		name = "威悉技能轰炸机PlusLv6",
@@ -122,46 +162,6 @@ pg.aircraft_template_143 = {
 				0,
 				0
 			}
-		}
-	},
-	[65842] = {
-		max_hp = 44,
-		name = "黑方舟技能-特殊鱼雷机Lv2",
-		base = 65841,
-		id = 65842,
-		hp_growth = 1678,
-		weapon_ID = {
-			65852
-		}
-	},
-	[65843] = {
-		max_hp = 49,
-		name = "黑方舟技能-特殊鱼雷机Lv3",
-		base = 65841,
-		id = 65843,
-		hp_growth = 1897,
-		weapon_ID = {
-			65853
-		}
-	},
-	[65844] = {
-		max_hp = 55,
-		name = "黑方舟技能-特殊鱼雷机Lv4",
-		base = 65841,
-		id = 65844,
-		hp_growth = 2116,
-		weapon_ID = {
-			65854
-		}
-	},
-	[65845] = {
-		max_hp = 61,
-		name = "黑方舟技能-特殊鱼雷机Lv5",
-		base = 65841,
-		id = 65845,
-		hp_growth = 2335,
-		weapon_ID = {
-			65855
 		}
 	}
 }

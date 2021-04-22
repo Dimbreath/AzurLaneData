@@ -618,6 +618,14 @@ end
 function slot9.ReduceWeaponMount(slot0, slot1)
 end
 
+function slot9.CeaseAllWeapon(slot0, slot1)
+	slot0._ceaseFire = slot1
+end
+
+function slot9.IsCease(slot0)
+	return slot0._ceaseFire
+end
+
 function slot9.GetAllWeapon(slot0)
 	return slot0._totalWeapon
 end
@@ -1144,6 +1152,9 @@ function slot9.GetReinforceCastTime(slot0)
 end
 
 function slot9.SetFormationIndex(slot0, slot1)
+end
+
+function slot9.IsSpectre(slot0)
 end
 
 function slot9.Clear(slot0)

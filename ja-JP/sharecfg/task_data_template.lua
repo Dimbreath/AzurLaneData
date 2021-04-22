@@ -22006,6 +22006,269 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5611] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5443,
+		type = 5,
+		name = "嵐の起こった翌日に",
+		count_inherit = 0,
+		desc = "魚雷天ぷらを3個準備する（消費）",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "shiyu",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5612",
+		visibility = 1,
+		story_id = "SHIYU1",
+		target_id_for_client = 50003,
+		id = 5611,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5612] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5444,
+		type = 5,
+		name = "山城姉さんのためなら",
+		count_inherit = 0,
+		desc = "任意の艦を10回強化する",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "shiyu",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5613",
+		visibility = 1,
+		story_id = "SHIYU2",
+		target_id_for_client = 0,
+		id = 5612,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5613] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5445,
+		type = 5,
+		name = "お掃除開始！",
+		count_inherit = 0,
+		desc = "時雨を含めた艦隊で出撃し、20回勝利する",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "shiyu",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5614",
+		visibility = 1,
+		story_id = "SHIYU3",
+		target_id_for_client = 30115,
+		id = 5613,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "30115",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5614] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5446,
+		type = 5,
+		name = "緑に気をつけなさい",
+		count_inherit = 0,
+		desc = "時雨を含めた艦隊で3回デイリーチャレンジをクリアする",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "shiyu",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5615",
+		visibility = 1,
+		story_id = "SHIYU4",
+		target_id_for_client = 30115,
+		id = 5614,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "30115",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5615] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5447,
+		type = 5,
+		name = "世話焼きの理由",
+		count_inherit = 0,
+		desc = "時雨の親密度が100に到達",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "shiyu",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5616",
+		visibility = 1,
+		story_id = "SHIYU5",
+		target_id_for_client = 30115,
+		id = 5615,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "30115",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16022,
+				1
+			}
+		}
+	},
+	[5616] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5448,
+		type = 5,
+		name = "扉向こうの不穏",
+		count_inherit = 0,
+		desc = "時雨を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "shiyu",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5617",
+		visibility = 1,
+		story_id = "SHIYU6",
+		target_id_for_client = 301154,
+		id = 5616,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "301154",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[5617] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5449,
+		type = 5,
+		name = "時雨様と末永く",
+		count_inherit = 0,
+		desc = "時雨のレベルが100に到達",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "shiyu",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "SHIYU7",
+		target_id_for_client = 30115,
+		id = 5617,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "30115",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18002,
+				2
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -71471,6 +71734,39 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14678] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91198,
+		type = 6,
+		name = "『限界挑战9』-积分任务",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 103,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14678,
+		target_num = 8800,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				14,
+				209,
+				1
+			}
+		}
+	},
 	[14730] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -120167,6 +120463,463 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[16480] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94800,
+		type = 6,
+		name = "『意大利V2』角色收集：维托里奥·维内托",
+		count_inherit = 0,
+		desc = "[ヴィットリオ・ヴェネト]を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 605014,
+		id = 16480,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "605014",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				193,
+				600
+			}
+		}
+	},
+	[16481] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94801,
+		type = 6,
+		name = "『意大利V2』角色收集：阿布鲁齐公爵",
+		count_inherit = 0,
+		desc = "[ドゥーカ・デッリ・アブルッツィ]を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 602014,
+		id = 16481,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "602014",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				193,
+				600
+			}
+		}
+	},
+	[16482] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94802,
+		type = 6,
+		name = "『意大利V2』角色收集：天鹰",
+		count_inherit = 0,
+		desc = "[アクィラ]を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 607014,
+		id = 16482,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "607014",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				193,
+				600
+			}
+		}
+	},
+	[16483] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94803,
+		type = 6,
+		name = "『意大利V2』角色收集：托里拆利",
+		count_inherit = 0,
+		desc = "[トリチェリ]を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 608014,
+		id = 16483,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "608014",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				193,
+				400
+			}
+		}
+	},
+	[16484] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94804,
+		type = 6,
+		name = "『意大利V2』角色收集：西北风",
+		count_inherit = 0,
+		desc = "[マエストラーレ]を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 601044,
+		id = 16484,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "601044",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				193,
+				400
+			}
+		}
+	},
+	[16485] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94805,
+		type = 6,
+		name = "『意大利V2』角色收集：西南风",
+		count_inherit = 0,
+		desc = "[リベッチオ]を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 601054,
+		id = 16485,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "601054",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				193,
+				400
+			}
+		}
+	},
+	[16486] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94806,
+		type = 6,
+		name = "『意大利V2』角色收集：尼科洛索·达雷科\t",
+		count_inherit = 0,
+		desc = "[ニコロソ・ダ・レッコ]を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 601064,
+		id = 16486,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "601064",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				193,
+				400
+			}
+		}
+	},
+	[16487] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94807,
+		type = 6,
+		name = "『意大利V2』角色刷关：格罗斯特",
+		count_inherit = 0,
+		desc = "☆5グロスターを含む艦隊で限定海域A2/C2中枢艦隊10回撃破（グロスターが戦闘不能にならない）",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16487,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1510113,
+			1512113
+		},
+		target_id_2 = {
+			202104
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				193,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16488] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94808,
+		type = 6,
+		name = "『意大利V2』角色刷关：纳尔逊",
+		count_inherit = 0,
+		desc = "☆5ネルソンを含む艦隊で限定海域A3/C3中枢艦隊10回撃破（ネルソンが戦闘不能にならない）",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16488,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1510213,
+			1512213
+		},
+		target_id_2 = {
+			205034
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				193,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16489] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94809,
+		type = 6,
+		name = "『意大利V2』角色刷关：欧若拉",
+		count_inherit = 0,
+		desc = "☆5オーロラを含む艦隊で限定海域B2/D2中枢艦隊10回撃破（オーロラが戦闘不能にならない）",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16489,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1511113,
+			1513113
+		},
+		target_id_2 = {
+			202154
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				193,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16490] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 94810,
+		type = 6,
+		name = "『意大利V2』角色刷关：利托里奥",
+		count_inherit = 0,
+		desc = "☆6リットリオを含む艦隊で限定海域B3/D3中枢艦隊10回撃破（リットリオが戦闘不能にならない）",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16490,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1511213,
+			1513213
+		},
+		target_id_2 = {
+			605024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				193,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16491] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92890,
+		type = 6,
+		name = "愚人节特殊关卡",
+		count_inherit = 0,
+		desc = "通关1次愚人节特殊关卡",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16491,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1360002",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				100001,
+				1
+			}
+		}
+	},
+	[16492] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95079,
+		type = 6,
+		name = "『意大利V2』登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "ゲームにログインせよ！",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16492,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				197,
+				2
+			}
+		}
+	},
 	[16500] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -121971,6 +122724,809 @@ pg.task_data_template = {
 			{
 				5,
 				128,
+				1
+			}
+		}
+	},
+	[16560] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95080,
+		type = 36,
+		name = "『意大利V2』-日常建造",
+		count_inherit = 0,
+		desc = "3回建造する",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16560,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59209,
+				300
+			}
+		}
+	},
+	[16561] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95081,
+		type = 36,
+		name = "『意大利V2』-日常出击",
+		count_inherit = 0,
+		desc = "艦隊を出撃させ、15回勝利せよ！",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16561,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59209,
+				300
+			}
+		}
+	},
+	[16562] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95082,
+		type = 36,
+		name = "『意大利V2』-日常困难本",
+		count_inherit = 0,
+		desc = "通常海域ハードを1回クリアする",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16562,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59209,
+				150
+			}
+		}
+	},
+	[16563] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95083,
+		type = 6,
+		name = "『意大利V2』通关A1/C1",
+		count_inherit = 0,
+		desc = "イベントステージA1かC1をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16564",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16563,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1500001,
+			1500021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59209,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16564] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95084,
+		type = 6,
+		name = "『意大利V2』通关A2/C2",
+		count_inherit = 0,
+		desc = "イベントステージA2かC2をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16565",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16564,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1500002,
+			1500022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59209,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16565] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95085,
+		type = 6,
+		name = "『意大利V2』通关A3/C3",
+		count_inherit = 0,
+		desc = "イベントステージA3かC3をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16566",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16565,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1500003,
+			1500023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59209,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16566] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95086,
+		type = 6,
+		name = "『意大利V2』通关B1/D1",
+		count_inherit = 0,
+		desc = "イベントステージB1かD1をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16567",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16566,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1500004,
+			1500024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59209,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16567] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95087,
+		type = 6,
+		name = "『意大利V2』通关B2/D2",
+		count_inherit = 0,
+		desc = "イベントステージB2かD2をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16568",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16567,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1500005,
+			1500025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59209,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16568] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95088,
+		type = 6,
+		name = "『意大利V2』通关B3/D3",
+		count_inherit = 0,
+		desc = "イベントステージB3かD3をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16569",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16568,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1500006,
+			1500026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59209,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16569] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95089,
+		type = 6,
+		name = "『意大利V2』通关SP",
+		count_inherit = 0,
+		desc = "イベントステージSPをクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1500041,
+		id = 16569,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1500041",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16570] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95090,
+		type = 6,
+		name = "『意大利V2』通关EX",
+		count_inherit = 0,
+		desc = "EXステージをクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1500051,
+		id = 16570,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1500051",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16571] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95091,
+		type = 6,
+		name = "『意大利V2』通关D3",
+		count_inherit = 0,
+		desc = "イベントステージD3をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1500026,
+		id = 16571,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1500026",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				194,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16572] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95092,
+		type = 6,
+		name = "『意大利V2』A1/C1的3星",
+		count_inherit = 0,
+		desc = "A1かC1の作戦目標(星3つ)を全て達成!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16573",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16572,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1500001,
+			1500021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16573] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95093,
+		type = 6,
+		name = "『意大利V2』A2/C2的3星",
+		count_inherit = 0,
+		desc = "A2かC2の作戦目標(星3つ)を全て達成!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16574",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16573,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1500002,
+			1500022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16574] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95094,
+		type = 6,
+		name = "『意大利V2』A3/C3的3星",
+		count_inherit = 0,
+		desc = "A3かC3の作戦目標(星3つ)を全て達成!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16575",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16574,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1500003,
+			1500023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16575] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95095,
+		type = 6,
+		name = "『意大利V2』B1/D1的3星",
+		count_inherit = 0,
+		desc = "B1かD1の作戦目標(星3つ)を全て達成!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16576",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16575,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1500004,
+			1500024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16576] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95096,
+		type = 6,
+		name = "『意大利V2』B2/D2的3星",
+		count_inherit = 0,
+		desc = "B2かD2の作戦目標(星3つ)を全て達成!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16577",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16576,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1500005,
+			1500025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16577] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95097,
+		type = 6,
+		name = "『意大利V2』B3/D3的3星",
+		count_inherit = 0,
+		desc = "B3かD3の作戦目標(星3つ)を全て達成!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16577,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1500006,
+			1500026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16578] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95098,
+		type = 6,
+		name = "小天城npc临时加入",
+		count_inherit = 0,
+		desc = "不该看到",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16578,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				304071,
 				1
 			}
 		}
@@ -126322,7 +127878,7 @@ pg.task_data_template = {
 		type = 7,
 		name = "科研测试任务",
 		count_inherit = 0,
-		desc = "3章(ノーマル)のステージを6回クリア",
+		desc = "3章(ノーマル)以降のステージを6回クリア",
 		target_id_2 = "",
 		sub_type = 21,
 		added_tip = 0,
@@ -126342,7 +127898,47 @@ pg.task_data_template = {
 			301,
 			302,
 			303,
-			304
+			304,
+			401,
+			402,
+			403,
+			404,
+			501,
+			502,
+			503,
+			504,
+			601,
+			602,
+			603,
+			604,
+			701,
+			702,
+			703,
+			704,
+			801,
+			802,
+			803,
+			804,
+			901,
+			902,
+			903,
+			904,
+			1001,
+			1002,
+			1003,
+			1004,
+			1101,
+			1102,
+			1103,
+			1104,
+			1201,
+			1202,
+			1203,
+			1204,
+			1301,
+			1302,
+			1303,
+			1304
 		},
 		open_need = {},
 		award_display = {}
@@ -126354,7 +127950,7 @@ pg.task_data_template = {
 		type = 7,
 		name = "科研测试任务",
 		count_inherit = 0,
-		desc = "4章(ノーマル)のステージを6回クリア",
+		desc = "4章(ノーマル)以降のステージを6回クリア",
 		target_id_2 = "",
 		sub_type = 21,
 		added_tip = 0,
@@ -126374,7 +127970,43 @@ pg.task_data_template = {
 			401,
 			402,
 			403,
-			404
+			404,
+			501,
+			502,
+			503,
+			504,
+			601,
+			602,
+			603,
+			604,
+			701,
+			702,
+			703,
+			704,
+			801,
+			802,
+			803,
+			804,
+			901,
+			902,
+			903,
+			904,
+			1001,
+			1002,
+			1003,
+			1004,
+			1101,
+			1102,
+			1103,
+			1104,
+			1201,
+			1202,
+			1203,
+			1204,
+			1301,
+			1302,
+			1303,
+			1304
 		},
 		open_need = {},
 		award_display = {}
@@ -126386,7 +128018,7 @@ pg.task_data_template = {
 		type = 7,
 		name = "科研测试任务",
 		count_inherit = 0,
-		desc = "5章(ノーマル)のステージを6回クリア",
+		desc = "5章(ノーマル)以降のステージを6回クリア",
 		target_id_2 = "",
 		sub_type = 21,
 		added_tip = 0,
@@ -126406,7 +128038,39 @@ pg.task_data_template = {
 			501,
 			502,
 			503,
-			504
+			504,
+			601,
+			602,
+			603,
+			604,
+			701,
+			702,
+			703,
+			704,
+			801,
+			802,
+			803,
+			804,
+			901,
+			902,
+			903,
+			904,
+			1001,
+			1002,
+			1003,
+			1004,
+			1101,
+			1102,
+			1103,
+			1104,
+			1201,
+			1202,
+			1203,
+			1204,
+			1301,
+			1302,
+			1303,
+			1304
 		},
 		open_need = {},
 		award_display = {}
@@ -126418,7 +128082,7 @@ pg.task_data_template = {
 		type = 7,
 		name = "科研测试任务",
 		count_inherit = 0,
-		desc = "6章(ノーマル)のステージを6回クリア",
+		desc = "6章(ノーマル)以降のステージを6回クリア",
 		target_id_2 = "",
 		sub_type = 21,
 		added_tip = 0,
@@ -126438,7 +128102,35 @@ pg.task_data_template = {
 			601,
 			602,
 			603,
-			604
+			604,
+			701,
+			702,
+			703,
+			704,
+			801,
+			802,
+			803,
+			804,
+			901,
+			902,
+			903,
+			904,
+			1001,
+			1002,
+			1003,
+			1004,
+			1101,
+			1102,
+			1103,
+			1104,
+			1201,
+			1202,
+			1203,
+			1204,
+			1301,
+			1302,
+			1303,
+			1304
 		},
 		open_need = {},
 		award_display = {}
@@ -126450,7 +128142,7 @@ pg.task_data_template = {
 		type = 7,
 		name = "科研测试任务",
 		count_inherit = 0,
-		desc = "7章(ノーマル)のステージを5回クリア",
+		desc = "7章(ノーマル)以降のステージを5回クリア",
 		target_id_2 = "",
 		sub_type = 21,
 		added_tip = 0,
@@ -126470,7 +128162,31 @@ pg.task_data_template = {
 			701,
 			702,
 			703,
-			704
+			704,
+			801,
+			802,
+			803,
+			804,
+			901,
+			902,
+			903,
+			904,
+			1001,
+			1002,
+			1003,
+			1004,
+			1101,
+			1102,
+			1103,
+			1104,
+			1201,
+			1202,
+			1203,
+			1204,
+			1301,
+			1302,
+			1303,
+			1304
 		},
 		open_need = {},
 		award_display = {}
@@ -126482,7 +128198,7 @@ pg.task_data_template = {
 		type = 7,
 		name = "科研测试任务",
 		count_inherit = 0,
-		desc = "8章(ノーマル)のステージを5回クリア",
+		desc = "8章(ノーマル)以降のステージを5回クリア",
 		target_id_2 = "",
 		sub_type = 21,
 		added_tip = 0,
@@ -126502,7 +128218,27 @@ pg.task_data_template = {
 			801,
 			802,
 			803,
-			804
+			804,
+			901,
+			902,
+			903,
+			904,
+			1001,
+			1002,
+			1003,
+			1004,
+			1101,
+			1102,
+			1103,
+			1104,
+			1201,
+			1202,
+			1203,
+			1204,
+			1301,
+			1302,
+			1303,
+			1304
 		},
 		open_need = {},
 		award_display = {}
@@ -126514,7 +128250,7 @@ pg.task_data_template = {
 		type = 7,
 		name = "科研测试任务",
 		count_inherit = 0,
-		desc = "9章(ノーマル)のステージを4回クリア",
+		desc = "9章(ノーマル)以降のステージを4回クリア",
 		target_id_2 = "",
 		sub_type = 21,
 		added_tip = 0,
@@ -126534,7 +128270,23 @@ pg.task_data_template = {
 			901,
 			902,
 			903,
-			904
+			904,
+			1001,
+			1002,
+			1003,
+			1004,
+			1101,
+			1102,
+			1103,
+			1104,
+			1201,
+			1202,
+			1203,
+			1204,
+			1301,
+			1302,
+			1303,
+			1304
 		},
 		open_need = {},
 		award_display = {}
@@ -126546,7 +128298,7 @@ pg.task_data_template = {
 		type = 7,
 		name = "科研测试任务",
 		count_inherit = 0,
-		desc = "10章(ノーマル)のステージを4回クリア",
+		desc = "10章(ノーマル)以降のステージを4回クリア",
 		target_id_2 = "",
 		sub_type = 21,
 		added_tip = 0,
@@ -126566,7 +128318,19 @@ pg.task_data_template = {
 			1001,
 			1002,
 			1003,
-			1004
+			1004,
+			1101,
+			1102,
+			1103,
+			1104,
+			1201,
+			1202,
+			1203,
+			1204,
+			1301,
+			1302,
+			1303,
+			1304
 		},
 		open_need = {},
 		award_display = {}
@@ -126578,7 +128342,7 @@ pg.task_data_template = {
 		type = 7,
 		name = "科研测试任务",
 		count_inherit = 0,
-		desc = "11章(ノーマル)のステージを3回クリア",
+		desc = "11章(ノーマル)以降のステージを3回クリア",
 		target_id_2 = "",
 		sub_type = 21,
 		added_tip = 0,
@@ -126598,7 +128362,15 @@ pg.task_data_template = {
 			1101,
 			1102,
 			1103,
-			1104
+			1104,
+			1201,
+			1202,
+			1203,
+			1204,
+			1301,
+			1302,
+			1303,
+			1304
 		},
 		open_need = {},
 		award_display = {}
@@ -126610,7 +128382,7 @@ pg.task_data_template = {
 		type = 7,
 		name = "科研测试任务",
 		count_inherit = 0,
-		desc = "12章(ノーマル)のステージを3回クリア",
+		desc = "12章(ノーマル)以降のステージを3回クリア",
 		target_id_2 = "",
 		sub_type = 21,
 		added_tip = 0,
@@ -126630,7 +128402,11 @@ pg.task_data_template = {
 			1201,
 			1202,
 			1203,
-			1204
+			1204,
+			1301,
+			1302,
+			1303,
+			1304
 		},
 		open_need = {},
 		award_display = {}
@@ -126642,7 +128418,7 @@ pg.task_data_template = {
 		type = 7,
 		name = "科研测试任务",
 		count_inherit = 0,
-		desc = "13章(ノーマル)のステージを2回クリア",
+		desc = "13章(ノーマル)以降のステージを2回クリア",
 		target_id_2 = "",
 		sub_type = 21,
 		added_tip = 0,
@@ -133390,6 +135166,13 @@ pg.task_data_template = {
 		5605,
 		5606,
 		5607,
+		5611,
+		5612,
+		5613,
+		5614,
+		5615,
+		5616,
+		5617,
 		6001,
 		6002,
 		6003,
@@ -134745,6 +136528,7 @@ pg.task_data_template = {
 		14675,
 		14676,
 		14677,
+		14678,
 		14730,
 		14731,
 		14732,
@@ -135977,6 +137761,19 @@ pg.task_data_template = {
 		16459,
 		16460,
 		16461,
+		16480,
+		16481,
+		16482,
+		16483,
+		16484,
+		16485,
+		16486,
+		16487,
+		16488,
+		16489,
+		16490,
+		16491,
+		16492,
 		16500,
 		16501,
 		16502,
@@ -136025,6 +137822,25 @@ pg.task_data_template = {
 		16557,
 		16558,
 		16559,
+		16560,
+		16561,
+		16562,
+		16563,
+		16564,
+		16565,
+		16566,
+		16567,
+		16568,
+		16569,
+		16570,
+		16571,
+		16572,
+		16573,
+		16574,
+		16575,
+		16576,
+		16577,
+		16578,
 		30201,
 		30202,
 		31001,

@@ -1,5 +1,94 @@
 pg = pg or {}
 pg.equip_data_statistics_211 = {
+	[28400] = {
+		name = "ワイヴァーン",
+		type = 8,
+		speciality = "雷撃",
+		rarity = 6,
+		tech = 0,
+		descrip = "0",
+		value_2 = 65,
+		icon = "28400",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 28400,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50660
+			},
+			{
+				4,
+				51580
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			28400,
+			82980
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		}
+	},
+	[28401] = {
+		id = 28401,
+		base = 28400,
+		ammo_info = {
+			{
+				6,
+				50661
+			},
+			{
+				4,
+				51581
+			}
+		},
+		weapon_id = {
+			28401,
+			82981
+		}
+	},
+	[28402] = {
+		id = 28402,
+		base = 28400,
+		ammo_info = {
+			{
+				6,
+				50662
+			},
+			{
+				4,
+				51582
+			}
+		},
+		weapon_id = {
+			28402,
+			82982
+		}
+	},
 	[28403] = {
 		id = 28403,
 		base = 28400,
@@ -267,92 +356,6 @@ pg.equip_data_statistics_211 = {
 		},
 		weapon_id = {
 			29001
-		}
-	},
-	[29002] = {
-		id = 29002,
-		base = 29000,
-		ammo_info = {
-			{
-				6,
-				50102
-			},
-			{
-				5,
-				52202
-			}
-		},
-		weapon_id = {
-			29002
-		}
-	},
-	[29003] = {
-		id = 29003,
-		base = 29000,
-		ammo_info = {
-			{
-				6,
-				50103
-			},
-			{
-				5,
-				52203
-			}
-		},
-		weapon_id = {
-			29003
-		}
-	},
-	[29020] = {
-		name = "スクア",
-		type = 9,
-		speciality = "爆撃",
-		rarity = 2,
-		tech = 2,
-		descrip = "0",
-		value_2 = 5,
-		icon = "29000",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 29020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50120
-			},
-			{
-				5,
-				52220
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			29020
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"DB"
 		}
 	}
 }

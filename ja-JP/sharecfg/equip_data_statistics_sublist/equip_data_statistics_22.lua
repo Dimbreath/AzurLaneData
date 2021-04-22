@@ -1,5 +1,55 @@
 pg = pg or {}
 pg.equip_data_statistics_22 = {
+	[880] = {
+		name = "サイン・オブ・ビクトリー",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		id = 880,
+		value_2 = 8,
+		icon = "880",
+		value_1 = "20",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "「ロイヤルは各員がその義務を尽くすことを期待するわ」",
+		nationality = 2,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "cannon",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6770
+		},
+		part_main = {
+			4,
+			5,
+			10
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DEV"
+		}
+	},
+	[881] = {
+		id = 881,
+		value_1 = "23",
+		base = 880
+	},
+	[882] = {
+		id = 882,
+		value_2 = 9,
+		value_1 = "26",
+		base = 880
+	},
 	[883] = {
 		id = 883,
 		value_2 = 10,
@@ -109,21 +159,6 @@ pg.equip_data_statistics_22 = {
 	[1001] = {
 		id = 1001,
 		value_1 = "103",
-		base = 1000
-	},
-	[1002] = {
-		id = 1002,
-		value_1 = "117",
-		base = 1000
-	},
-	[1003] = {
-		id = 1003,
-		value_1 = "130",
-		base = 1000
-	},
-	[1004] = {
-		id = 1004,
-		value_1 = "144",
 		base = 1000
 	}
 }

@@ -1,5 +1,110 @@
 pg = pg or {}
 pg.aircraft_template_74 = {
+	[29023] = {
+		id = 29023,
+		base = 29020,
+		max_hp = 48,
+		hp_growth = 1837,
+		weapon_ID = {
+			50123,
+			52223
+		}
+	},
+	[29040] = {
+		name = "贼鸥",
+		max_hp = 37,
+		accuracy = 23,
+		model_ID = "zeiou",
+		ACC_growth = 0,
+		crash_DMG = 156,
+		dodge = 3.51,
+		attack_power = 2,
+		dodge_limit = 1,
+		type = 3,
+		AP_growth = 2000,
+		icon = "zeiou",
+		funnel_behavior = "",
+		nationality = 2,
+		hp_growth = 1408,
+		speed = 45,
+		id = 29040,
+		scale = 1,
+		weapon_ID = {
+			50140,
+			52240
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.37,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[29041] = {
+		id = 29041,
+		base = 29040,
+		max_hp = 42,
+		hp_growth = 1619,
+		weapon_ID = {
+			50141,
+			52241
+		}
+	},
+	[29042] = {
+		id = 29042,
+		base = 29040,
+		max_hp = 48,
+		hp_growth = 1830,
+		weapon_ID = {
+			50142,
+			52242
+		}
+	},
 	[29043] = {
 		id = 29043,
 		base = 29040,
@@ -72,111 +177,6 @@ pg.aircraft_template_74 = {
 		weapon_ID = {
 			50200,
 			52100
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.44,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[29101] = {
-		id = 29101,
-		base = 29100,
-		max_hp = 38,
-		hp_growth = 1457,
-		weapon_ID = {
-			50201,
-			52101
-		}
-	},
-	[29102] = {
-		id = 29102,
-		base = 29100,
-		max_hp = 43,
-		hp_growth = 1647,
-		weapon_ID = {
-			50202,
-			52102
-		}
-	},
-	[29103] = {
-		id = 29103,
-		base = 29100,
-		max_hp = 48,
-		hp_growth = 1837,
-		weapon_ID = {
-			50203,
-			52103
-		}
-	},
-	[29120] = {
-		name = "海燕",
-		max_hp = 37,
-		accuracy = 23,
-		model_ID = "haiyan",
-		ACC_growth = 0,
-		crash_DMG = 200,
-		dodge = 3.45,
-		attack_power = 2,
-		dodge_limit = 0.9,
-		type = 3,
-		AP_growth = 2000,
-		icon = "haiyan",
-		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1408,
-		speed = 48,
-		id = 29120,
-		scale = 1,
-		weapon_ID = {
-			50220,
-			52120
 		},
 		position_offset = {
 			0,

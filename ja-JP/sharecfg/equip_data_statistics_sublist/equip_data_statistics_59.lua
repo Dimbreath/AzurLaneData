@@ -1,5 +1,20 @@
 pg = pg or {}
 pg.equip_data_statistics_59 = {
+	[3228] = {
+		id = 3228,
+		value_1 = "460",
+		base = 3220
+	},
+	[3229] = {
+		id = 3229,
+		value_1 = "490",
+		base = 3220
+	},
+	[3230] = {
+		id = 3230,
+		value_1 = "520",
+		base = 3220
+	},
 	[3231] = {
 		id = 3231,
 		anti_siren = 100,
@@ -99,54 +114,5 @@ pg.equip_data_statistics_59 = {
 		anti_siren = 100,
 		value_1 = "580",
 		base = 3300
-	},
-	[3312] = {
-		id = 3312,
-		anti_siren = 200,
-		value_1 = "610",
-		base = 3300
-	},
-	[3313] = {
-		id = 3313,
-		anti_siren = 300,
-		value_1 = "640",
-		base = 3300
-	},
-	[3400] = {
-		name = "九四式四十糎砲(積載)",
-		tech = 0,
-		type = 18,
-		speciality = "なし",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "3400",
-		value_1 = "450",
-		descrip = "「九四式四十糎砲」と呼ばれていた主砲兵装…？",
-		rarity = 5,
-		nationality = 3,
-		ammo = 10,
-		value_3 = 0,
-		id = 3400,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6590
-		},
-		part_main = {
-			19
-		},
-		part_sub = {
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"GDS"
-		}
 	}
 }

@@ -1,5 +1,82 @@
 pg = pg or {}
 pg.equip_data_statistics_179 = {
+	[25212] = {
+		anti_siren = 200,
+		damage = "139 x 3",
+		base = 25200,
+		id = 25212,
+		weapon_id = {
+			25212
+		}
+	},
+	[25213] = {
+		anti_siren = 300,
+		damage = "139 x 3",
+		base = 25200,
+		id = 25213,
+		weapon_id = {
+			25213
+		}
+	},
+	[25300] = {
+		name = "潜水艦用Mark20(S)魚雷“Bidder”",
+		speciality = "雷撃",
+		type = 13,
+		tech = 0,
+		descrip = "0",
+		value_2 = 45,
+		icon = "25300",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "70 x 3",
+		nationality = 2,
+		ammo = 4,
+		value_3 = 0,
+		id = 25300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1831
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1831
+			},
+			{
+				4,
+				1602
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			25300
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"SS",
+			"TP"
+		}
+	},
 	[25301] = {
 		id = 25301,
 		damage = "80 x 3",
@@ -105,71 +182,6 @@ pg.equip_data_statistics_179 = {
 		id = 25313,
 		weapon_id = {
 			25313
-		}
-	},
-	[25800] = {
-		name = "対潜迫撃砲「ヘッジホッグ」",
-		speciality = "対潜",
-		type = 14,
-		tech = 0,
-		descrip = "0",
-		value_2 = 45,
-		icon = "25800",
-		attribute_2 = "antisub",
-		rarity = 5,
-		damage = "85 ~ 170",
-		nationality = 2,
-		ammo = 9,
-		value_3 = 0,
-		id = 25800,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				7,
-				9008
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			25800
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2
-		},
-		part_sub = {
-			1,
-			2
-		},
-		equip_parameters = {},
-		label = {
-			"DC"
-		}
-	},
-	[25801] = {
-		id = 25801,
-		damage = "94 ~ 188",
-		base = 25800,
-		weapon_id = {
-			25801
-		}
-	},
-	[25802] = {
-		id = 25802,
-		damage = "103 ~ 206",
-		base = 25800,
-		weapon_id = {
-			25802
 		}
 	}
 }

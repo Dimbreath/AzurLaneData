@@ -2,510 +2,838 @@ pg = pg or {}
 pg.weapon_property_105 = {}
 
 function ()
-	uv0.weapon_property_105[59351] = {
-		id = 59351,
+	uv0.weapon_property_105[59725] = {
+		id = 59725,
 		reload_max = 54,
-		damage = 30,
-		base = 59340
-	}
-	uv0.weapon_property_105[59352] = {
-		id = 59352,
-		reload_max = 54,
-		damage = 32,
-		base = 59340
-	}
-	uv0.weapon_property_105[59353] = {
-		id = 59353,
-		reload_max = 54,
-		damage = 34,
-		base = 59340
-	}
-	uv0.weapon_property_105[59400] = {
-		action_index = "",
-		range = 36,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "2 x 7.92mm MG17機銃",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 80,
-		charge_param = "",
-		damage = 10,
-		corrected = 100,
-		min_range = 0,
-		id = 59400,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 68,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2100
-		},
-		barrage_ID = {
-			2100
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_105[59401] = {
-		id = 59401,
-		reload_max = 67,
 		damage = 11,
-		base = 59400
+		base = 59720
 	}
-	uv0.weapon_property_105[59402] = {
-		id = 59402,
-		reload_max = 66,
+	uv0.weapon_property_105[59726] = {
+		id = 59726,
+		reload_max = 52,
 		damage = 12,
-		base = 59400
+		base = 59720
 	}
-	uv0.weapon_property_105[59403] = {
-		id = 59403,
-		reload_max = 65,
+	uv0.weapon_property_105[59727] = {
+		id = 59727,
+		reload_max = 50,
 		damage = 13,
-		base = 59400
+		base = 59720
 	}
-	uv0.weapon_property_105[59404] = {
-		id = 59404,
-		reload_max = 64,
+	uv0.weapon_property_105[59728] = {
+		id = 59728,
+		reload_max = 48,
 		damage = 14,
-		base = 59400
+		base = 59720
 	}
-	uv0.weapon_property_105[59405] = {
-		id = 59405,
-		reload_max = 63,
+	uv0.weapon_property_105[59729] = {
+		id = 59729,
+		reload_max = 46,
 		damage = 15,
-		base = 59400
+		base = 59720
 	}
-	uv0.weapon_property_105[59406] = {
-		id = 59406,
-		reload_max = 61,
+	uv0.weapon_property_105[59730] = {
+		id = 59730,
+		reload_max = 44,
 		damage = 16,
-		base = 59400
+		base = 59720
 	}
-	uv0.weapon_property_105[59407] = {
-		id = 59407,
-		reload_max = 59,
+	uv0.weapon_property_105[59731] = {
+		id = 59731,
+		reload_max = 44,
 		damage = 17,
-		base = 59400
+		base = 59720
 	}
-	uv0.weapon_property_105[59408] = {
-		id = 59408,
-		reload_max = 57,
+	uv0.weapon_property_105[59732] = {
+		id = 59732,
+		reload_max = 44,
 		damage = 18,
-		base = 59400
+		base = 59720
 	}
-	uv0.weapon_property_105[59409] = {
-		id = 59409,
-		reload_max = 55,
+	uv0.weapon_property_105[59733] = {
+		id = 59733,
+		reload_max = 44,
 		damage = 19,
-		base = 59400
+		base = 59720
 	}
-	uv0.weapon_property_105[59410] = {
-		id = 59410,
-		reload_max = 53,
-		damage = 21,
-		base = 59400
-	}
-	uv0.weapon_property_105[59411] = {
-		id = 59411,
-		reload_max = 53,
-		damage = 22,
-		base = 59400
-	}
-	uv0.weapon_property_105[59412] = {
-		id = 59412,
-		reload_max = 53,
-		damage = 23,
-		base = 59400
-	}
-	uv0.weapon_property_105[59413] = {
-		id = 59413,
-		reload_max = 53,
-		damage = 25,
-		base = 59400
-	}
-	uv0.weapon_property_105[59420] = {
+	uv0.weapon_property_105[59740] = {
 		action_index = "",
-		range = 36,
+		range = 30,
 		type = 4,
 		fire_fx = "fangkongpaohuoshe2",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "2 x 7.92mm MG17機銃",
+		name = "7 x 12.7mm机枪",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 80,
+		angle = 180,
 		charge_param = "",
-		damage = 11,
+		damage = 27,
 		corrected = 100,
 		min_range = 0,
-		id = 59420,
+		id = 59740,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 64,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2100
-		},
-		barrage_ID = {
-			2100
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_105[59421] = {
-		id = 59421,
-		reload_max = 63,
-		damage = 12,
-		base = 59420
-	}
-	uv0.weapon_property_105[59422] = {
-		id = 59422,
-		reload_max = 62,
-		damage = 13,
-		base = 59420
-	}
-	uv0.weapon_property_105[59423] = {
-		id = 59423,
-		reload_max = 61,
-		damage = 14,
-		base = 59420
-	}
-	uv0.weapon_property_105[59424] = {
-		id = 59424,
-		reload_max = 60,
-		damage = 15,
-		base = 59420
-	}
-	uv0.weapon_property_105[59425] = {
-		id = 59425,
-		reload_max = 59,
-		damage = 16,
-		base = 59420
-	}
-	uv0.weapon_property_105[59426] = {
-		id = 59426,
-		reload_max = 57,
-		damage = 17,
-		base = 59420
-	}
-	uv0.weapon_property_105[59427] = {
-		id = 59427,
-		reload_max = 55,
-		damage = 18,
-		base = 59420
-	}
-	uv0.weapon_property_105[59428] = {
-		id = 59428,
-		reload_max = 53,
-		damage = 19,
-		base = 59420
-	}
-	uv0.weapon_property_105[59429] = {
-		id = 59429,
-		reload_max = 51,
-		damage = 20,
-		base = 59420
-	}
-	uv0.weapon_property_105[59430] = {
-		id = 59430,
-		reload_max = 49,
-		damage = 22,
-		base = 59420
-	}
-	uv0.weapon_property_105[59431] = {
-		id = 59431,
-		reload_max = 49,
-		damage = 23,
-		base = 59420
-	}
-	uv0.weapon_property_105[59432] = {
-		id = 59432,
-		reload_max = 49,
-		damage = 24,
-		base = 59420
-	}
-	uv0.weapon_property_105[59433] = {
-		id = 59433,
-		reload_max = 49,
-		damage = 26,
-		base = 59420
-	}
-	uv0.weapon_property_105[59440] = {
-		action_index = "",
-		range = 36,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "2 x 7.92mm MG17機銃",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 80,
-		charge_param = "",
-		damage = 13,
-		corrected = 100,
-		min_range = 0,
-		id = 59440,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 60,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2100
-		},
-		barrage_ID = {
-			2100
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_105[59441] = {
-		id = 59441,
-		reload_max = 59,
-		damage = 14,
-		base = 59440
-	}
-	uv0.weapon_property_105[59442] = {
-		id = 59442,
-		reload_max = 58,
-		damage = 15,
-		base = 59440
-	}
-	uv0.weapon_property_105[59443] = {
-		id = 59443,
-		reload_max = 57,
-		damage = 16,
-		base = 59440
-	}
-	uv0.weapon_property_105[59444] = {
-		id = 59444,
-		reload_max = 56,
-		damage = 17,
-		base = 59440
-	}
-	uv0.weapon_property_105[59445] = {
-		id = 59445,
-		reload_max = 55,
-		damage = 18,
-		base = 59440
-	}
-	uv0.weapon_property_105[59446] = {
-		id = 59446,
-		reload_max = 53,
-		damage = 19,
-		base = 59440
-	}
-	uv0.weapon_property_105[59447] = {
-		id = 59447,
-		reload_max = 51,
-		damage = 20,
-		base = 59440
-	}
-	uv0.weapon_property_105[59448] = {
-		id = 59448,
-		reload_max = 49,
-		damage = 21,
-		base = 59440
-	}
-	uv0.weapon_property_105[59449] = {
-		id = 59449,
-		reload_max = 47,
-		damage = 22,
-		base = 59440
-	}
-	uv0.weapon_property_105[59450] = {
-		id = 59450,
-		reload_max = 45,
-		damage = 24,
-		base = 59440
-	}
-	uv0.weapon_property_105[59451] = {
-		id = 59451,
-		reload_max = 45,
-		damage = 25,
-		base = 59440
-	}
-	uv0.weapon_property_105[59452] = {
-		id = 59452,
-		reload_max = 45,
-		damage = 26,
-		base = 59440
-	}
-	uv0.weapon_property_105[59453] = {
-		id = 59453,
-		reload_max = 45,
-		damage = 28,
-		base = 59440
-	}
-	uv0.weapon_property_105[59500] = {
-		action_index = "",
-		range = 36,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "4 x 20mm九九式機関砲",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 80,
-		charge_param = "",
-		damage = 29,
-		corrected = 100,
-		min_range = 0,
-		id = 59500,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 187,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2100
-		},
-		barrage_ID = {
-			2100
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_105[59501] = {
-		id = 59501,
-		reload_max = 182,
-		damage = 33,
-		base = 59500
-	}
-	uv0.weapon_property_105[59502] = {
-		id = 59502,
-		reload_max = 179,
-		damage = 37,
-		base = 59500
-	}
-	uv0.weapon_property_105[59503] = {
-		id = 59503,
-		reload_max = 176,
-		damage = 41,
-		base = 59500
-	}
-	uv0.weapon_property_105[59504] = {
-		id = 59504,
-		reload_max = 172,
-		damage = 45,
-		base = 59500
-	}
-	uv0.weapon_property_105[59505] = {
-		id = 59505,
-		reload_max = 168,
-		damage = 49,
-		base = 59500
-	}
-	uv0.weapon_property_105[59506] = {
-		id = 59506,
-		reload_max = 165,
-		damage = 53,
-		base = 59500
-	}
-	uv0.weapon_property_105[59507] = {
-		id = 59507,
-		reload_max = 160,
-		damage = 57,
-		base = 59500
-	}
-	uv0.weapon_property_105[59508] = {
-		id = 59508,
-		reload_max = 157,
-		damage = 61,
-		base = 59500
-	}
-	uv0.weapon_property_105[59509] = {
-		id = 59509,
 		reload_max = 154,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2100
+		},
+		barrage_ID = {
+			2100
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_105[59741] = {
+		id = 59741,
+		reload_max = 150,
+		damage = 31,
+		base = 59740
+	}
+	uv0.weapon_property_105[59742] = {
+		id = 59742,
+		reload_max = 148,
+		damage = 36,
+		base = 59740
+	}
+	uv0.weapon_property_105[59743] = {
+		id = 59743,
+		reload_max = 145,
+		damage = 39,
+		base = 59740
+	}
+	uv0.weapon_property_105[59744] = {
+		id = 59744,
+		reload_max = 141,
+		damage = 45,
+		base = 59740
+	}
+	uv0.weapon_property_105[59745] = {
+		id = 59745,
+		reload_max = 138,
+		damage = 48,
+		base = 59740
+	}
+	uv0.weapon_property_105[59746] = {
+		id = 59746,
+		reload_max = 135,
+		damage = 51,
+		base = 59740
+	}
+	uv0.weapon_property_105[59747] = {
+		id = 59747,
+		reload_max = 132,
+		damage = 57,
+		base = 59740
+	}
+	uv0.weapon_property_105[59748] = {
+		id = 59748,
+		reload_max = 129,
+		damage = 60,
+		base = 59740
+	}
+	uv0.weapon_property_105[59749] = {
+		id = 59749,
+		reload_max = 126,
 		damage = 65,
-		base = 59500
+		base = 59740
 	}
-	uv0.weapon_property_105[59510] = {
-		id = 59510,
-		reload_max = 149,
+	uv0.weapon_property_105[59750] = {
+		id = 59750,
+		reload_max = 122,
 		damage = 69,
-		base = 59500
+		base = 59740
 	}
-	uv0.weapon_property_105[59511] = {
-		id = 59511,
-		reload_max = 149,
+	uv0.weapon_property_105[59751] = {
+		id = 59751,
+		reload_max = 122,
 		damage = 72,
-		base = 59500
+		base = 59740
 	}
-	uv0.weapon_property_105[59512] = {
-		id = 59512,
-		reload_max = 149,
+	uv0.weapon_property_105[59752] = {
+		id = 59752,
+		reload_max = 122,
 		damage = 76,
-		base = 59500
+		base = 59740
 	}
-	uv0.weapon_property_105[59513] = {
-		id = 59513,
-		reload_max = 149,
+	uv0.weapon_property_105[59753] = {
+		id = 59753,
+		reload_max = 122,
 		damage = 81,
-		base = 59500
+		base = 59740
+	}
+	uv0.weapon_property_105[59760] = {
+		action_index = "",
+		range = 36,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "2 x 7.92mm MG机枪",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 80,
+		charge_param = "",
+		damage = 11,
+		corrected = 100,
+		min_range = 0,
+		id = 59760,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 60,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2100
+		},
+		barrage_ID = {
+			2100
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_105[59761] = {
+		id = 59761,
+		reload_max = 59,
+		damage = 12,
+		base = 59760
+	}
+	uv0.weapon_property_105[59762] = {
+		id = 59762,
+		reload_max = 58,
+		damage = 13,
+		base = 59760
+	}
+	uv0.weapon_property_105[59763] = {
+		id = 59763,
+		reload_max = 57,
+		damage = 14,
+		base = 59760
+	}
+	uv0.weapon_property_105[59764] = {
+		id = 59764,
+		reload_max = 56,
+		damage = 15,
+		base = 59760
+	}
+	uv0.weapon_property_105[59765] = {
+		id = 59765,
+		reload_max = 55,
+		damage = 16,
+		base = 59760
+	}
+	uv0.weapon_property_105[59766] = {
+		id = 59766,
+		reload_max = 53,
+		damage = 17,
+		base = 59760
+	}
+	uv0.weapon_property_105[59767] = {
+		id = 59767,
+		reload_max = 51,
+		damage = 18,
+		base = 59760
+	}
+	uv0.weapon_property_105[59768] = {
+		id = 59768,
+		reload_max = 49,
+		damage = 19,
+		base = 59760
+	}
+	uv0.weapon_property_105[59769] = {
+		id = 59769,
+		reload_max = 47,
+		damage = 20,
+		base = 59760
+	}
+	uv0.weapon_property_105[59770] = {
+		id = 59770,
+		reload_max = 45,
+		damage = 22,
+		base = 59760
+	}
+	uv0.weapon_property_105[59771] = {
+		id = 59771,
+		reload_max = 45,
+		damage = 23,
+		base = 59760
+	}
+	uv0.weapon_property_105[59772] = {
+		id = 59772,
+		reload_max = 45,
+		damage = 24,
+		base = 59760
+	}
+	uv0.weapon_property_105[59773] = {
+		id = 59773,
+		reload_max = 45,
+		damage = 26,
+		base = 59760
+	}
+	uv0.weapon_property_105[60001] = {
+		action_index = "attack",
+		range = 90,
+		type = 99,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "航空攻击展示-长岛I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 18,
+		corrected = 100,
+		min_range = 0,
+		id = 60001,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			17000,
+			19000
+		},
+		barrage_ID = {
+			1511,
+			1510
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_105[60002] = {
+		id = 60002,
+		name = "航空攻击展示-长岛II",
+		base = 60001,
+		barrage_ID = {
+			1511,
+			1511
+		}
+	}
+	uv0.weapon_property_105[60003] = {
+		id = 60003,
+		name = "航空攻击展示-长岛III",
+		base = 60001,
+		barrage_ID = {
+			1512,
+			1512
+		}
+	}
+	uv0.weapon_property_105[60011] = {
+		action_index = "attack",
+		range = 90,
+		type = 99,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "航空攻击展示-博格I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 18,
+		corrected = 100,
+		min_range = 0,
+		id = 60011,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			17000,
+			19000
+		},
+		barrage_ID = {
+			1511,
+			1510
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_105[60012] = {
+		id = 60012,
+		name = "航空攻击展示-博格II",
+		base = 60011,
+		barrage_ID = {
+			1511,
+			1511
+		}
+	}
+	uv0.weapon_property_105[60013] = {
+		id = 60013,
+		name = "航空攻击展示-博格III",
+		base = 60011,
+		barrage_ID = {
+			1512,
+			1512
+		}
+	}
+	uv0.weapon_property_105[60021] = {
+		action_index = "attack",
+		range = 90,
+		type = 99,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "航空攻击展示-兰利I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 18,
+		corrected = 100,
+		min_range = 0,
+		id = 60021,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			17000,
+			17000,
+			19000
+		},
+		barrage_ID = {
+			1511,
+			1511,
+			1510
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_105[60022] = {
+		id = 60022,
+		name = "航空攻击展示-兰利II",
+		base = 60021,
+		barrage_ID = {
+			1512,
+			1512,
+			1510
+		}
+	}
+	uv0.weapon_property_105[60023] = {
+		id = 60023,
+		name = "航空攻击展示-兰利III",
+		base = 60021,
+		barrage_ID = {
+			1512,
+			1512,
+			1511
+		}
+	}
+	uv0.weapon_property_105[60031] = {
+		action_index = "attack",
+		range = 90,
+		type = 99,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "航空攻击展示-列克星敦I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 18,
+		corrected = 100,
+		min_range = 0,
+		id = 60031,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			17000,
+			19000,
+			19200
+		},
+		barrage_ID = {
+			1511,
+			1510,
+			1510
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_105[60032] = {
+		id = 60032,
+		name = "航空攻击展示-列克星敦II",
+		base = 60031,
+		barrage_ID = {
+			1511,
+			1511,
+			1511
+		}
+	}
+	uv0.weapon_property_105[60033] = {
+		id = 60033,
+		name = "航空攻击展示-列克星敦III",
+		base = 60031,
+		barrage_ID = {
+			1511,
+			1512,
+			1512
+		}
+	}
+	uv0.weapon_property_105[60041] = {
+		action_index = "attack",
+		range = 90,
+		type = 99,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "航空攻击展示-萨拉托加I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 18,
+		corrected = 100,
+		min_range = 0,
+		id = 60041,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			17000,
+			19000,
+			19200
+		},
+		barrage_ID = {
+			1511,
+			1510,
+			1510
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_105[60042] = {
+		id = 60042,
+		name = "航空攻击展示-萨拉托加II",
+		base = 60041,
+		barrage_ID = {
+			1511,
+			1511,
+			1511
+		}
+	}
+	uv0.weapon_property_105[60043] = {
+		id = 60043,
+		name = "航空攻击展示-萨拉托加III",
+		base = 60041,
+		barrage_ID = {
+			1511,
+			1512,
+			1512
+		}
+	}
+	uv0.weapon_property_105[60051] = {
+		action_index = "attack",
+		range = 90,
+		type = 99,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "航空攻击展示-突击者I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 18,
+		corrected = 100,
+		min_range = 0,
+		id = 60051,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			18120,
+			19200,
+			19000
+		},
+		barrage_ID = {
+			1510,
+			1511,
+			1511
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_105[60052] = {
+		id = 60052,
+		name = "航空攻击展示-突击者II",
+		base = 60051,
+		barrage_ID = {
+			1511,
+			1511,
+			1511
+		}
+	}
+	uv0.weapon_property_105[60053] = {
+		id = 60053,
+		name = "航空攻击展示-突击者III",
+		base = 60051,
+		barrage_ID = {
+			1511,
+			1512,
+			1512
+		}
+	}
+	uv0.weapon_property_105[60061] = {
+		action_index = "attack",
+		range = 90,
+		type = 99,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "航空攻击展示-约克城I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 18,
+		corrected = 100,
+		min_range = 0,
+		id = 60061,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			17100,
+			19000,
+			18000
+		},
+		barrage_ID = {
+			1511,
+			1510,
+			1510
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_105[60062] = {
+		id = 60062,
+		name = "航空攻击展示-约克城II",
+		base = 60061,
+		barrage_ID = {
+			1511,
+			1511,
+			1510
+		}
+	}
+	uv0.weapon_property_105[60063] = {
+		id = 60063,
+		name = "航空攻击展示-约克城III",
+		base = 60061,
+		barrage_ID = {
+			1512,
+			1512,
+			1511
+		}
+	}
+	uv0.weapon_property_105[60071] = {
+		action_index = "attack",
+		range = 90,
+		type = 99,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "航空攻击展示-企业I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 18,
+		corrected = 100,
+		min_range = 0,
+		id = 60071,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1750,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			17100,
+			19000,
+			18000
+		},
+		barrage_ID = {
+			1511,
+			1510,
+			1510
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_105[60072] = {
+		id = 60072,
+		name = "航空攻击展示-企业II",
+		base = 60071,
+		barrage_ID = {
+			1511,
+			1511,
+			1510
+		}
+	}
+	uv0.weapon_property_105[60073] = {
+		id = 60073,
+		name = "航空攻击展示-企业III",
+		base = 60071,
+		barrage_ID = {
+			1512,
+			1512,
+			1511
+		}
 	}
 end()

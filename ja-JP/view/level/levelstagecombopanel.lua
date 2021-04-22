@@ -61,12 +61,6 @@ function slot0.SetTextAnim(slot0, slot1, slot2, slot3, slot4)
 	end)).id
 end
 
-function slot0.AfterLoaded(slot0, slot1)
-	if slot1 then
-		slot1()
-	end
-end
-
 function slot0.OnDestroy(slot0)
 	for slot4, slot5 in pairs(slot0.anims) do
 		LeanTween.cancel(slot5)

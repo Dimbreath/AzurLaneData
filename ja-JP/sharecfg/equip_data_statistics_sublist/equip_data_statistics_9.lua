@@ -1,5 +1,50 @@
 pg = pg or {}
 pg.equip_data_statistics_9 = {
+	[533] = {
+		id = 533,
+		anti_siren = 300,
+		value_1 = "590",
+		base = 520
+	},
+	[540] = {
+		name = "猫パンチ",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "540",
+		value_1 = "120",
+		descrip = "明石用の特殊兵装？回復効果がある模様",
+		rarity = 5,
+		nationality = 3,
+		ammo = 10,
+		value_3 = 0,
+		id = 540,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6170
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DEV"
+		}
+	},
+	[541] = {
+		id = 541,
+		value_1 = "138",
+		base = 540
+	},
 	[542] = {
 		id = 542,
 		value_1 = "156",
@@ -105,23 +150,5 @@ pg.equip_data_statistics_9 = {
 			"IJN",
 			"DEV"
 		}
-	},
-	[581] = {
-		id = 581,
-		value_2 = 5,
-		value_1 = "16",
-		base = 580
-	},
-	[582] = {
-		id = 582,
-		value_2 = 5,
-		value_1 = "18",
-		base = 580
-	},
-	[583] = {
-		id = 583,
-		value_2 = 6,
-		value_1 = "20",
-		base = 580
 	}
 }

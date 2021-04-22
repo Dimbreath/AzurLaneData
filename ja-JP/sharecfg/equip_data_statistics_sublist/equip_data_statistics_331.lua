@@ -1,5 +1,103 @@
 pg = pg or {}
 pg.equip_data_statistics_331 = {
+	[49040] = {
+		name = "Ju-87C急降下爆撃機",
+		type = 9,
+		speciality = "爆撃",
+		rarity = 4,
+		tech = 3,
+		descrip = "鉄血の汎用爆撃機Ju-87の艦載機バージョン通称「スツーカ」",
+		value_2 = 25,
+		icon = "49000",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 49040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59340
+			},
+			{
+				5,
+				52640
+			},
+			{
+				5,
+				53040
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			49040
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		}
+	},
+	[49041] = {
+		id = 49041,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59341
+			},
+			{
+				5,
+				52641
+			},
+			{
+				5,
+				53041
+			}
+		},
+		weapon_id = {
+			49041
+		}
+	},
+	[49042] = {
+		id = 49042,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59342
+			},
+			{
+				5,
+				52642
+			},
+			{
+				5,
+				53042
+			}
+		},
+		weapon_id = {
+			49042
+		}
+	},
 	[49043] = {
 		id = 49043,
 		base = 49040,
@@ -291,57 +389,6 @@ pg.equip_data_statistics_331 = {
 		},
 		weapon_id = {
 			49063
-		}
-	},
-	[49064] = {
-		id = 49064,
-		base = 49060,
-		ammo_info = {
-			{
-				6,
-				59764
-			},
-			{
-				5,
-				52244
-			}
-		},
-		weapon_id = {
-			49064
-		}
-	},
-	[49065] = {
-		id = 49065,
-		base = 49060,
-		ammo_info = {
-			{
-				6,
-				59765
-			},
-			{
-				5,
-				52245
-			}
-		},
-		weapon_id = {
-			49065
-		}
-	},
-	[49066] = {
-		id = 49066,
-		base = 49060,
-		ammo_info = {
-			{
-				6,
-				59766
-			},
-			{
-				5,
-				52246
-			}
-		},
-		weapon_id = {
-			49066
 		}
 	}
 }

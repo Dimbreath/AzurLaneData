@@ -858,6 +858,17 @@ pg.effect_offset = {
 			0
 		}
 	},
+	dianliu_unknown1 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			2,
+			0
+		}
+	},
 	bullet_elf = {
 		mirror = false,
 		y_scale = false,

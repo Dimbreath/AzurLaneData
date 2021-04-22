@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_316 = {
+	[46021] = {
+		id = 46021,
+		damage = "23/回",
+		base = 46020,
+		weapon_id = {
+			46021
+		}
+	},
+	[46022] = {
+		id = 46022,
+		damage = "27/回",
+		base = 46020,
+		weapon_id = {
+			46022
+		}
+	},
+	[46023] = {
+		id = 46023,
+		damage = "31/回",
+		base = 46020,
+		weapon_id = {
+			46023
+		}
+	},
 	[46040] = {
 		name = "20mm四連装MG機銃",
 		speciality = "対空",
@@ -210,30 +234,6 @@ pg.equip_data_statistics_316 = {
 		base = 46060,
 		weapon_id = {
 			46064
-		}
-	},
-	[46065] = {
-		id = 46065,
-		damage = "58/回",
-		base = 46060,
-		weapon_id = {
-			46065
-		}
-	},
-	[46066] = {
-		id = 46066,
-		damage = "64/回",
-		base = 46060,
-		weapon_id = {
-			46066
-		}
-	},
-	[46067] = {
-		id = 46067,
-		damage = "70/回",
-		base = 46060,
-		weapon_id = {
-			46067
 		}
 	}
 }

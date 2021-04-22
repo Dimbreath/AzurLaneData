@@ -1,5 +1,56 @@
 pg = pg or {}
 pg.equip_data_statistics_210 = {
+	[28323] = {
+		id = 28323,
+		base = 28320,
+		ammo_info = {
+			{
+				6,
+				50023
+			},
+			{
+				4,
+				51023
+			}
+		},
+		weapon_id = {
+			28323
+		}
+	},
+	[28324] = {
+		id = 28324,
+		base = 28320,
+		ammo_info = {
+			{
+				6,
+				50024
+			},
+			{
+				4,
+				51024
+			}
+		},
+		weapon_id = {
+			28324
+		}
+	},
+	[28325] = {
+		id = 28325,
+		base = 28320,
+		ammo_info = {
+			{
+				6,
+				50025
+			},
+			{
+				4,
+				51025
+			}
+		},
+		weapon_id = {
+			28325
+		}
+	},
 	[28326] = {
 		id = 28326,
 		base = 28320,
@@ -256,95 +307,6 @@ pg.equip_data_statistics_210 = {
 		},
 		weapon_id = {
 			28351
-		}
-	},
-	[28400] = {
-		name = "ワイヴァーン",
-		type = 8,
-		speciality = "雷撃",
-		rarity = 6,
-		tech = 0,
-		descrip = "0",
-		value_2 = 65,
-		icon = "28400",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 28400,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50660
-			},
-			{
-				4,
-				51580
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			28400,
-			82980
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"TB"
-		}
-	},
-	[28401] = {
-		id = 28401,
-		base = 28400,
-		ammo_info = {
-			{
-				6,
-				50661
-			},
-			{
-				4,
-				51581
-			}
-		},
-		weapon_id = {
-			28401,
-			82981
-		}
-	},
-	[28402] = {
-		id = 28402,
-		base = 28400,
-		ammo_info = {
-			{
-				6,
-				50662
-			},
-			{
-				4,
-				51582
-			}
-		},
-		weapon_id = {
-			28402,
-			82982
 		}
 	}
 }

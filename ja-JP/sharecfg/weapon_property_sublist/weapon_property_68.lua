@@ -2,457 +2,41 @@ pg = pg or {}
 pg.weapon_property_68 = {}
 
 function ()
-	uv0.weapon_property_68[43048] = {
-		id = 43048,
-		reload_max = 1220,
-		damage = 46,
-		base = 43040
-	}
-	uv0.weapon_property_68[43049] = {
-		id = 43049,
-		reload_max = 1185,
-		damage = 48,
-		base = 43040
-	}
-	uv0.weapon_property_68[43050] = {
-		id = 43050,
-		reload_max = 1150,
-		damage = 50,
-		base = 43040
-	}
-	uv0.weapon_property_68[43051] = {
-		reload_max = 1150,
-		damage = 50,
-		base = 43040,
-		id = 43051,
-		corrected = 114
-	}
-	uv0.weapon_property_68[43052] = {
-		reload_max = 1150,
-		damage = 50,
-		base = 43040,
-		id = 43052,
-		corrected = 121
-	}
-	uv0.weapon_property_68[43053] = {
-		reload_max = 1150,
-		damage = 50,
-		base = 43040,
-		id = 43053,
-		corrected = 130
-	}
-	uv0.weapon_property_68[43060] = {
+	uv0.weapon_property_68[45020] = {
 		action_index = "attack",
-		range = 70,
-		type = 2,
-		fire_fx = "CAFire",
+		range = 52,
+		type = 16,
+		fire_fx = "",
 		recover_time = 0.5,
 		axis_angle = 0,
-		shakescreen = 302,
-		name = "试作型三联装203mmSKC主炮T0",
+		shakescreen = 0,
+		name = "三联装533mm磁性鱼雷T2",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 38,
+		angle = 60,
 		charge_param = "",
-		damage = 30,
-		corrected = 105,
+		damage = 66,
+		corrected = 100,
 		min_range = 0,
-		id = 43060,
+		id = 45020,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1450,
+		attack_attribute = 2,
+		reload_max = 4360,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
 		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-203mm",
-		auto_aftercast = 0.4,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1401
-		},
-		barrage_ID = {
-			1214
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_68[43061] = {
-		id = 43061,
-		reload_max = 1415,
-		damage = 32,
-		base = 43060
-	}
-	uv0.weapon_property_68[43062] = {
-		id = 43062,
-		reload_max = 1380,
-		damage = 34,
-		base = 43060
-	}
-	uv0.weapon_property_68[43063] = {
-		id = 43063,
-		reload_max = 1345,
-		damage = 36,
-		base = 43060
-	}
-	uv0.weapon_property_68[43064] = {
-		id = 43064,
-		reload_max = 1310,
-		damage = 38,
-		base = 43060
-	}
-	uv0.weapon_property_68[43065] = {
-		id = 43065,
-		reload_max = 1275,
-		damage = 40,
-		base = 43060
-	}
-	uv0.weapon_property_68[43066] = {
-		id = 43066,
-		reload_max = 1240,
-		damage = 42,
-		base = 43060
-	}
-	uv0.weapon_property_68[43067] = {
-		id = 43067,
-		reload_max = 1205,
-		damage = 44,
-		base = 43060
-	}
-	uv0.weapon_property_68[43068] = {
-		id = 43068,
-		reload_max = 1170,
-		damage = 46,
-		base = 43060
-	}
-	uv0.weapon_property_68[43069] = {
-		id = 43069,
-		reload_max = 1135,
-		damage = 48,
-		base = 43060
-	}
-	uv0.weapon_property_68[43070] = {
-		id = 43070,
-		reload_max = 1100,
-		damage = 50,
-		base = 43060
-	}
-	uv0.weapon_property_68[43071] = {
-		reload_max = 1100,
-		damage = 50,
-		base = 43060,
-		id = 43071,
-		corrected = 109
-	}
-	uv0.weapon_property_68[43072] = {
-		reload_max = 1100,
-		damage = 50,
-		base = 43060,
-		id = 43072,
-		corrected = 116
-	}
-	uv0.weapon_property_68[43073] = {
-		reload_max = 1100,
-		damage = 50,
-		base = 43060,
-		id = 43073,
-		corrected = 124
-	}
-	uv0.weapon_property_68[43100] = {
-		action_index = "attack",
-		range = 75,
-		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "三联283mmSKC28主炮T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 40,
-		charge_param = "",
-		damage = 30,
-		corrected = 110,
-		min_range = 0,
-		id = 43100,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1750,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-203mm",
-		auto_aftercast = 0.4,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1406
-		},
-		barrage_ID = {
-			1207
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_68[43101] = {
-		id = 43101,
-		reload_max = 1715,
-		damage = 32,
-		base = 43100
-	}
-	uv0.weapon_property_68[43102] = {
-		id = 43102,
-		reload_max = 1680,
-		damage = 34,
-		base = 43100
-	}
-	uv0.weapon_property_68[43103] = {
-		id = 43103,
-		reload_max = 1645,
-		damage = 36,
-		base = 43100
-	}
-	uv0.weapon_property_68[43120] = {
-		action_index = "attack",
-		range = 75,
-		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "三联283mmSKC28主炮T2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 40,
-		charge_param = "",
-		damage = 32,
-		corrected = 110,
-		min_range = 0,
-		id = 43120,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1720,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-203mm",
-		auto_aftercast = 0.4,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1406
-		},
-		barrage_ID = {
-			1207
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_68[43121] = {
-		id = 43121,
-		reload_max = 1685,
-		damage = 34,
-		base = 43120
-	}
-	uv0.weapon_property_68[43122] = {
-		id = 43122,
-		reload_max = 1650,
-		damage = 36,
-		base = 43120
-	}
-	uv0.weapon_property_68[43123] = {
-		id = 43123,
-		reload_max = 1615,
-		damage = 38,
-		base = 43120
-	}
-	uv0.weapon_property_68[43124] = {
-		id = 43124,
-		reload_max = 1580,
-		damage = 40,
-		base = 43120
-	}
-	uv0.weapon_property_68[43125] = {
-		id = 43125,
-		reload_max = 1545,
-		damage = 42,
-		base = 43120
-	}
-	uv0.weapon_property_68[43126] = {
-		id = 43126,
-		reload_max = 1510,
-		damage = 44,
-		base = 43120
-	}
-	uv0.weapon_property_68[43140] = {
-		action_index = "attack",
-		range = 75,
-		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "三联283mmSKC28主炮T3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 40,
-		charge_param = "",
-		damage = 35,
-		corrected = 110,
-		min_range = 0,
-		id = 43140,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1700,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-203mm",
-		auto_aftercast = 0.4,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1406
-		},
-		barrage_ID = {
-			1207
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_68[43141] = {
-		id = 43141,
-		reload_max = 1665,
-		damage = 37,
-		base = 43140
-	}
-	uv0.weapon_property_68[43142] = {
-		id = 43142,
-		reload_max = 1630,
-		damage = 39,
-		base = 43140
-	}
-	uv0.weapon_property_68[43143] = {
-		id = 43143,
-		reload_max = 1595,
-		damage = 41,
-		base = 43140
-	}
-	uv0.weapon_property_68[43144] = {
-		id = 43144,
-		reload_max = 1560,
-		damage = 43,
-		base = 43140
-	}
-	uv0.weapon_property_68[43145] = {
-		id = 43145,
-		reload_max = 1525,
-		damage = 45,
-		base = 43140
-	}
-	uv0.weapon_property_68[43146] = {
-		id = 43146,
-		reload_max = 1490,
-		damage = 47,
-		base = 43140
-	}
-	uv0.weapon_property_68[43147] = {
-		id = 43147,
-		reload_max = 1455,
-		damage = 49,
-		base = 43140
-	}
-	uv0.weapon_property_68[43148] = {
-		id = 43148,
-		reload_max = 1420,
-		damage = 51,
-		base = 43140
-	}
-	uv0.weapon_property_68[43149] = {
-		id = 43149,
-		reload_max = 1385,
-		damage = 53,
-		base = 43140
-	}
-	uv0.weapon_property_68[43150] = {
-		id = 43150,
-		reload_max = 1350,
-		damage = 55,
-		base = 43140
-	}
-	uv0.weapon_property_68[43151] = {
-		reload_max = 1350,
-		damage = 55,
-		base = 43140,
-		id = 43151,
-		corrected = 114
-	}
-	uv0.weapon_property_68[44000] = {
-		action_index = "attack_main",
-		range = 200,
-		type = 23,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "三联283mmSKC34主炮T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 50,
-		damage = 34,
-		corrected = 105,
-		min_range = 50,
-		id = 44000,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3700,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
+		spawn_bound = "torpedo",
+		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 1,
 		bullet_ID = {
-			1510
+			1803
 		},
 		barrage_ID = {
-			1301
+			1402
 		},
 		oxy_type = {
 			1
@@ -460,147 +44,190 @@ function ()
 		search_condition = {
 			1
 		},
-		charge_param = {
-			lockTime = 0.3,
-			maxLock = 3
-		},
 		precast_param = {}
 	}
-	uv0.weapon_property_68[44001] = {
-		id = 44001,
-		reload_max = 3610,
-		damage = 38,
-		base = 44000
+	uv0.weapon_property_68[45021] = {
+		id = 45021,
+		reload_max = 4275,
+		damage = 72,
+		base = 45020
 	}
-	uv0.weapon_property_68[44002] = {
-		id = 44002,
-		reload_max = 3520,
-		damage = 42,
-		base = 44000
+	uv0.weapon_property_68[45022] = {
+		id = 45022,
+		reload_max = 4190,
+		damage = 79,
+		base = 45020
 	}
-	uv0.weapon_property_68[44003] = {
-		id = 44003,
-		reload_max = 3430,
-		damage = 46,
-		base = 44000
+	uv0.weapon_property_68[45023] = {
+		id = 45023,
+		reload_max = 4105,
+		damage = 86,
+		base = 45020
 	}
-	uv0.weapon_property_68[44020] = {
-		action_index = "attack_main",
-		range = 200,
-		type = 23,
-		fire_fx = "CAFire",
+	uv0.weapon_property_68[45024] = {
+		id = 45024,
+		reload_max = 4020,
+		damage = 92,
+		base = 45020
+	}
+	uv0.weapon_property_68[45025] = {
+		id = 45025,
+		reload_max = 3935,
+		damage = 99,
+		base = 45020
+	}
+	uv0.weapon_property_68[45026] = {
+		id = 45026,
+		reload_max = 3850,
+		damage = 106,
+		base = 45020
+	}
+	uv0.weapon_property_68[45040] = {
+		action_index = "attack",
+		range = 52,
+		type = 16,
+		fire_fx = "",
 		recover_time = 0.5,
 		axis_angle = 0,
-		shakescreen = 302,
-		name = "三联283mmSKC34主炮T2",
+		shakescreen = 0,
+		name = "三联装533mm磁性鱼雷T3",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 50,
-		damage = 37,
-		corrected = 105,
-		min_range = 50,
-		id = 44020,
+		angle = 60,
+		charge_param = "",
+		damage = 70,
+		corrected = 100,
+		min_range = 0,
+		id = 45040,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
+		attack_attribute = 2,
+		reload_max = 4140,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1803
+		},
+		barrage_ID = {
+			1402
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_68[45041] = {
+		id = 45041,
+		reload_max = 4060,
+		damage = 77,
+		base = 45040
+	}
+	uv0.weapon_property_68[45042] = {
+		id = 45042,
+		reload_max = 3980,
+		damage = 85,
+		base = 45040
+	}
+	uv0.weapon_property_68[45043] = {
+		id = 45043,
+		reload_max = 3900,
+		damage = 92,
+		base = 45040
+	}
+	uv0.weapon_property_68[45044] = {
+		id = 45044,
+		reload_max = 3820,
+		damage = 100,
+		base = 45040
+	}
+	uv0.weapon_property_68[45045] = {
+		id = 45045,
+		reload_max = 3740,
+		damage = 107,
+		base = 45040
+	}
+	uv0.weapon_property_68[45046] = {
+		id = 45046,
+		reload_max = 3660,
+		damage = 115,
+		base = 45040
+	}
+	uv0.weapon_property_68[45047] = {
+		id = 45047,
+		reload_max = 3580,
+		damage = 122,
+		base = 45040
+	}
+	uv0.weapon_property_68[45048] = {
+		id = 45048,
 		reload_max = 3500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1510
-		},
-		barrage_ID = {
-			1301
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		charge_param = {
-			lockTime = 0.3,
-			maxLock = 3
-		},
-		precast_param = {}
+		damage = 130,
+		base = 45040
 	}
-	uv0.weapon_property_68[44021] = {
-		id = 44021,
-		reload_max = 3415,
-		damage = 42,
-		base = 44020
+	uv0.weapon_property_68[45049] = {
+		id = 45049,
+		reload_max = 3420,
+		damage = 137,
+		base = 45040
 	}
-	uv0.weapon_property_68[44022] = {
-		id = 44022,
-		reload_max = 3330,
-		damage = 46,
-		base = 44020
+	uv0.weapon_property_68[45050] = {
+		id = 45050,
+		reload_max = 3340,
+		damage = 145,
+		base = 45040
 	}
-	uv0.weapon_property_68[44023] = {
-		id = 44023,
-		reload_max = 3245,
-		damage = 51,
-		base = 44020
+	uv0.weapon_property_68[45051] = {
+		reload_max = 3340,
+		damage = 145,
+		base = 45040,
+		id = 45051,
+		corrected = 104
 	}
-	uv0.weapon_property_68[44024] = {
-		id = 44024,
-		reload_max = 3160,
-		damage = 55,
-		base = 44020
-	}
-	uv0.weapon_property_68[44025] = {
-		id = 44025,
-		reload_max = 3075,
-		damage = 59,
-		base = 44020
-	}
-	uv0.weapon_property_68[44026] = {
-		id = 44026,
-		reload_max = 2990,
-		damage = 64,
-		base = 44020
-	}
-	uv0.weapon_property_68[44040] = {
-		action_index = "attack_main",
-		range = 200,
-		type = 23,
-		fire_fx = "CAFire",
+	uv0.weapon_property_68[45100] = {
+		action_index = "attack",
+		range = 52,
+		type = 16,
+		fire_fx = "",
 		recover_time = 0.5,
 		axis_angle = 0,
-		shakescreen = 302,
-		name = "三联283mmSKC34主炮T3",
+		shakescreen = 0,
+		name = "四联装533mm磁性鱼雷T1",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 50,
-		damage = 40,
-		corrected = 105,
-		min_range = 50,
-		id = 44040,
+		angle = 60,
+		charge_param = "",
+		damage = 63,
+		corrected = 100,
+		min_range = 0,
+		id = 45100,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3300,
+		attack_attribute = 2,
+		reload_max = 5340,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
 		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
+		spawn_bound = "torpedo",
+		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 1,
 		bullet_ID = {
-			1510
+			1803
 		},
 		barrage_ID = {
-			1301
+			1403
 		},
 		oxy_type = {
 			1
@@ -608,34 +235,369 @@ function ()
 		search_condition = {
 			1
 		},
-		charge_param = {
-			lockTime = 0.3,
-			maxLock = 3
+		precast_param = {}
+	}
+	uv0.weapon_property_68[45101] = {
+		id = 45101,
+		reload_max = 5230,
+		damage = 69,
+		base = 45100
+	}
+	uv0.weapon_property_68[45102] = {
+		id = 45102,
+		reload_max = 5120,
+		damage = 75,
+		base = 45100
+	}
+	uv0.weapon_property_68[45103] = {
+		id = 45103,
+		reload_max = 5010,
+		damage = 81,
+		base = 45100
+	}
+	uv0.weapon_property_68[45104] = {
+		id = 45104,
+		reload_max = 4900,
+		damage = 87,
+		base = 45100
+	}
+	uv0.weapon_property_68[45105] = {
+		id = 45105,
+		reload_max = 4790,
+		damage = 93,
+		base = 45100
+	}
+	uv0.weapon_property_68[45106] = {
+		id = 45106,
+		reload_max = 4680,
+		damage = 99,
+		base = 45100
+	}
+	uv0.weapon_property_68[45120] = {
+		action_index = "attack",
+		range = 52,
+		type = 16,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "四联装533mm磁性鱼雷T2",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 66,
+		corrected = 100,
+		min_range = 0,
+		id = 45120,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 5080,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1803
+		},
+		barrage_ID = {
+			1403
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_68[44041] = {
-		id = 44041,
-		reload_max = 3220,
-		damage = 46,
-		base = 44040
+	uv0.weapon_property_68[45121] = {
+		id = 45121,
+		reload_max = 4975,
+		damage = 72,
+		base = 45120
 	}
-	uv0.weapon_property_68[44042] = {
-		id = 44042,
-		reload_max = 3140,
-		damage = 50,
-		base = 44040
+	uv0.weapon_property_68[45122] = {
+		id = 45122,
+		reload_max = 4870,
+		damage = 79,
+		base = 45120
 	}
-	uv0.weapon_property_68[44043] = {
-		id = 44043,
-		reload_max = 3060,
-		damage = 56,
-		base = 44040
+	uv0.weapon_property_68[45123] = {
+		id = 45123,
+		reload_max = 4765,
+		damage = 86,
+		base = 45120
 	}
-	uv0.weapon_property_68[44044] = {
-		id = 44044,
-		reload_max = 2980,
-		damage = 60,
-		base = 44040
+	uv0.weapon_property_68[45124] = {
+		id = 45124,
+		reload_max = 4660,
+		damage = 92,
+		base = 45120
+	}
+	uv0.weapon_property_68[45125] = {
+		id = 45125,
+		reload_max = 4555,
+		damage = 99,
+		base = 45120
+	}
+	uv0.weapon_property_68[45126] = {
+		id = 45126,
+		reload_max = 4450,
+		damage = 106,
+		base = 45120
+	}
+	uv0.weapon_property_68[45127] = {
+		id = 45127,
+		reload_max = 4345,
+		damage = 112,
+		base = 45120
+	}
+	uv0.weapon_property_68[45128] = {
+		id = 45128,
+		reload_max = 4240,
+		damage = 119,
+		base = 45120
+	}
+	uv0.weapon_property_68[45129] = {
+		id = 45129,
+		reload_max = 4135,
+		damage = 126,
+		base = 45120
+	}
+	uv0.weapon_property_68[45130] = {
+		id = 45130,
+		reload_max = 4030,
+		damage = 133,
+		base = 45120
+	}
+	uv0.weapon_property_68[45140] = {
+		action_index = "attack",
+		range = 52,
+		type = 16,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "四联装533mm磁性鱼雷T3",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 70,
+		corrected = 100,
+		min_range = 0,
+		id = 45140,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 4830,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1803
+		},
+		barrage_ID = {
+			1403
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_68[45141] = {
+		id = 45141,
+		reload_max = 4730,
+		damage = 77,
+		base = 45140
+	}
+	uv0.weapon_property_68[45142] = {
+		id = 45142,
+		reload_max = 4630,
+		damage = 85,
+		base = 45140
+	}
+	uv0.weapon_property_68[45143] = {
+		id = 45143,
+		reload_max = 4530,
+		damage = 92,
+		base = 45140
+	}
+	uv0.weapon_property_68[45144] = {
+		id = 45144,
+		reload_max = 4430,
+		damage = 100,
+		base = 45140
+	}
+	uv0.weapon_property_68[45145] = {
+		id = 45145,
+		reload_max = 4330,
+		damage = 107,
+		base = 45140
+	}
+	uv0.weapon_property_68[45146] = {
+		id = 45146,
+		reload_max = 4230,
+		damage = 115,
+		base = 45140
+	}
+	uv0.weapon_property_68[45147] = {
+		id = 45147,
+		reload_max = 4130,
+		damage = 122,
+		base = 45140
+	}
+	uv0.weapon_property_68[45148] = {
+		id = 45148,
+		reload_max = 4030,
+		damage = 130,
+		base = 45140
+	}
+	uv0.weapon_property_68[45149] = {
+		id = 45149,
+		reload_max = 3930,
+		damage = 137,
+		base = 45140
+	}
+	uv0.weapon_property_68[45150] = {
+		id = 45150,
+		reload_max = 3830,
+		damage = 145,
+		base = 45140
+	}
+	uv0.weapon_property_68[45151] = {
+		reload_max = 3830,
+		damage = 145,
+		base = 45140,
+		id = 45151,
+		corrected = 104
+	}
+	uv0.weapon_property_68[45152] = {
+		reload_max = 3830,
+		damage = 145,
+		base = 45140,
+		id = 45152,
+		corrected = 110
+	}
+	uv0.weapon_property_68[45153] = {
+		reload_max = 3830,
+		damage = 145,
+		base = 45140,
+		id = 45153,
+		corrected = 118
+	}
+	uv0.weapon_property_68[45200] = {
+		action_index = "attack",
+		range = 52,
+		type = 16,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "五联装533mm磁性鱼雷T1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 63,
+		corrected = 100,
+		min_range = 0,
+		id = 45200,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 6100,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1803
+		},
+		barrage_ID = {
+			1404
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_68[45201] = {
+		id = 45201,
+		reload_max = 5978,
+		damage = 69,
+		base = 45200
+	}
+	uv0.weapon_property_68[45202] = {
+		id = 45202,
+		reload_max = 5856,
+		damage = 75,
+		base = 45200
+	}
+	uv0.weapon_property_68[45203] = {
+		id = 45203,
+		reload_max = 5734,
+		damage = 81,
+		base = 45200
+	}
+	uv0.weapon_property_68[45204] = {
+		id = 45204,
+		reload_max = 5612,
+		damage = 87,
+		base = 45200
+	}
+	uv0.weapon_property_68[45205] = {
+		id = 45205,
+		reload_max = 5490,
+		damage = 93,
+		base = 45200
+	}
+	uv0.weapon_property_68[45206] = {
+		id = 45206,
+		reload_max = 5368,
+		damage = 99,
+		base = 45200
+	}
+	uv0.weapon_property_68[45207] = {
+		id = 45207,
+		reload_max = 5246,
+		damage = 105,
+		base = 45200
+	}
+	uv0.weapon_property_68[45208] = {
+		id = 45208,
+		reload_max = 5124,
+		damage = 111,
+		base = 45200
+	}
+	uv0.weapon_property_68[45209] = {
+		id = 45209,
+		reload_max = 5002,
+		damage = 117,
+		base = 45200
 	}
 end()

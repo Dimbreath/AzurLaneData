@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.aircraft_template_134 = {
+	[65062] = {
+		max_hp = 47,
+		name = "普林斯顿技能鱼雷机Lv2",
+		base = 65061,
+		id = 65062,
+		hp_growth = 1826,
+		weapon_ID = {
+			65072
+		}
+	},
+	[65063] = {
+		max_hp = 53,
+		name = "普林斯顿技能鱼雷机Lv3",
+		base = 65061,
+		id = 65063,
+		hp_growth = 2036,
+		weapon_ID = {
+			65073
+		}
+	},
+	[65064] = {
+		max_hp = 58,
+		name = "普林斯顿技能鱼雷机Lv4",
+		base = 65061,
+		id = 65064,
+		hp_growth = 2247,
+		weapon_ID = {
+			65074
+		}
+	},
+	[65065] = {
+		max_hp = 64,
+		name = "普林斯顿技能鱼雷机Lv5",
+		base = 65061,
+		id = 65065,
+		hp_growth = 2458,
+		weapon_ID = {
+			65075
+		}
+	},
 	[65066] = {
 		max_hp = 69,
 		name = "普林斯顿技能鱼雷机Lv6",
@@ -122,46 +162,6 @@ pg.aircraft_template_134 = {
 				0,
 				0
 			}
-		}
-	},
-	[65122] = {
-		max_hp = 48,
-		name = "恶毒μ神圣天使轰炸机Lv2",
-		base = 65121,
-		id = 65122,
-		hp_growth = 1913,
-		weapon_ID = {
-			65132
-		}
-	},
-	[65123] = {
-		max_hp = 54,
-		name = "恶毒μ神圣天使轰炸机Lv3",
-		base = 65121,
-		id = 65123,
-		hp_growth = 2133,
-		weapon_ID = {
-			65133
-		}
-	},
-	[65124] = {
-		max_hp = 61,
-		name = "恶毒μ神圣天使轰炸机Lv4",
-		base = 65121,
-		id = 65124,
-		hp_growth = 2354,
-		weapon_ID = {
-			65134
-		}
-	},
-	[65125] = {
-		max_hp = 67,
-		name = "恶毒μ神圣天使轰炸机Lv5",
-		base = 65121,
-		id = 65125,
-		hp_growth = 2575,
-		weapon_ID = {
-			65135
 		}
 	}
 }

@@ -1,109 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_2 = {
-	[101361] = {
-		ship_group = 10136,
-		name = "リトルスクールスター",
-		bg_sp = "",
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "ホビーちゃん、制服に着替えてまたまたきらりんと登場～指揮官、かわいい？かわいい？ホビーちゃんだって、ちゃんと成長してるんだよ～",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "huobi_2",
-		air_bullet_skin = "",
-		shop_type_id = 4,
-		hand_id = 5,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "103",
-		skin_type = 0,
-		id = 101361,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "huobi_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70111,
-		voice_actor = 151,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.048,
-					0.888,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.01,
-					0.848,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.177,
-					0.069,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.31,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[101370] = {
 		ship_group = 10137,
 		name = "カーク",
@@ -7289,6 +7185,212 @@ pg.ship_skin_template_2 = {
 							-0.49,
 							2.183,
 							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[102232] = {
+		ship_group = 10223,
+		name = "豊年の瑞雪",
+		bg_sp = "1102",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "指揮官、あけましておめでとう。東煌風の衣装に着替えてみたんだが、まだ着慣れていないな。……その、雪が多く降ってきたから、よければ傘の中に入らないか？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "bominghan_4",
+		air_bullet_skin = "",
+		shop_type_id = 3,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "144",
+		skin_type = 0,
+		id = 102232,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bominghan_4",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70492,
+		voice_actor = 203,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.993,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.002,
+					1.007,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.375,
+							2.506,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[102240] = {
+		ship_group = 10224,
+		name = "クリーブランド(μ兵装)",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "軽巡洋艦クリーブランド参上だ！本当はこういうの詳しくないけど、まあやるからにはノリよくみんなに付き合うぜ！指揮官も応援、よろしく！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "kelifulan_idol",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "121",
+		skin_type = -1,
+		id = 102240,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "kelifulan_idol",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 40,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.13,
+					1.088,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.14,
+					1.04,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.114,
+					1.107,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.369,
+							2.43,
+							0
 						}
 					}
 				}

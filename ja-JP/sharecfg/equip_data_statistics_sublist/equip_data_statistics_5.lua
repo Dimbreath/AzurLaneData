@@ -1,5 +1,74 @@
 pg = pg or {}
 pg.equip_data_statistics_5 = {
+	[263] = {
+		name = "0",
+		damage = "4 x 2",
+		base = 261,
+		id = 263,
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			263
+		}
+	},
+	[264] = {
+		name = "0",
+		damage = "5 x 2",
+		base = 261,
+		id = 264,
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			264
+		}
+	},
+	[271] = {
+		name = "0",
+		speciality = "追尾",
+		type = 1,
+		tech = 1,
+		rarity = 1,
+		descrip = "デフォルト装備",
+		value_2 = 0,
+		icon = "1",
+		damage = "2 x 3",
+		nationality = 0,
+		ammo = 5,
+		value_3 = 0,
+		id = 271,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			271
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
+	},
 	[272] = {
 		name = "0",
 		damage = "3 x 3",
@@ -235,75 +304,6 @@ pg.equip_data_statistics_5 = {
 		id = 322,
 		weapon_id = {
 			322
-		}
-	},
-	[323] = {
-		name = "0",
-		damage = "3 x 3",
-		base = 321,
-		id = 323,
-		ammo_icon = {
-			3
-		},
-		weapon_id = {
-			323
-		}
-	},
-	[324] = {
-		name = "0",
-		damage = "4 x 3",
-		base = 321,
-		id = 324,
-		ammo_icon = {
-			3
-		},
-		weapon_id = {
-			324
-		}
-	},
-	[331] = {
-		name = "0",
-		speciality = "追尾",
-		type = 1,
-		tech = 1,
-		rarity = 1,
-		descrip = "デフォルト装備",
-		value_2 = 0,
-		icon = "1",
-		damage = "2 x 3",
-		nationality = 0,
-		ammo = 5,
-		value_3 = 0,
-		id = 331,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			331
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"DD",
-			"MG"
 		}
 	}
 }

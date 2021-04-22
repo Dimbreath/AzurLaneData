@@ -1,5 +1,91 @@
 pg = pg or {}
 pg.equip_data_statistics_212 = {
+	[29002] = {
+		id = 29002,
+		base = 29000,
+		ammo_info = {
+			{
+				6,
+				50102
+			},
+			{
+				5,
+				52202
+			}
+		},
+		weapon_id = {
+			29002
+		}
+	},
+	[29003] = {
+		id = 29003,
+		base = 29000,
+		ammo_info = {
+			{
+				6,
+				50103
+			},
+			{
+				5,
+				52203
+			}
+		},
+		weapon_id = {
+			29003
+		}
+	},
+	[29020] = {
+		name = "スクア",
+		type = 9,
+		speciality = "爆撃",
+		rarity = 2,
+		tech = 2,
+		descrip = "0",
+		value_2 = 5,
+		icon = "29000",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 29020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50120
+			},
+			{
+				5,
+				52220
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			29020
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		}
+	},
 	[29021] = {
 		id = 29021,
 		base = 29020,
@@ -289,92 +375,6 @@ pg.equip_data_statistics_212 = {
 		},
 		weapon_id = {
 			29101
-		}
-	},
-	[29102] = {
-		id = 29102,
-		base = 29100,
-		ammo_info = {
-			{
-				6,
-				50202
-			},
-			{
-				5,
-				52102
-			}
-		},
-		weapon_id = {
-			29102
-		}
-	},
-	[29103] = {
-		id = 29103,
-		base = 29100,
-		ammo_info = {
-			{
-				6,
-				50203
-			},
-			{
-				5,
-				52103
-			}
-		},
-		weapon_id = {
-			29103
-		}
-	},
-	[29120] = {
-		name = "フルマー",
-		type = 9,
-		speciality = "爆撃",
-		rarity = 3,
-		tech = 2,
-		descrip = "0",
-		value_2 = 12,
-		icon = "29100",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 29120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50220
-			},
-			{
-				5,
-				52120
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			29120
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"DB"
 		}
 	}
 }
