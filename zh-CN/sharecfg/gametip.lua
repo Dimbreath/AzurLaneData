@@ -13863,7 +13863,7 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		tip = "信号强度："
 	},
 	common_npc_formation_tip = {
-		tip = "临时角色不能加入编队"
+		tip = "NPC角色无法加入当前编队！"
 	},
 	gametip_xiaotiancheng = {
 		tip = {
