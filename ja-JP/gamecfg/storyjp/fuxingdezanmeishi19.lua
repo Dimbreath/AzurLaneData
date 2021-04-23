@@ -11,31 +11,31 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>「进入迷宫吧。」</size>",
+					"<size=51>「芸術品も取り戻す、GBも救い出す」</size>",
 					1
 				},
 				{
-					"<size=51>「手执利刃，身披重铠。」</size>",
+					"<size=51>「艦船たちを率いる総旗艦として、両方考えなくてはなりません」</size>",
 					2
 				},
 				{
-					"<size=51>「阿里阿德涅将成为您的指引。」</size>",
+					"<size=51>「こちらが緊張しすぎても皆の士気にも影響しますし」</size>",
 					3
 				},
 				{
-					"<size=51>「代达罗斯将成为您的指引。」</size> ",
+					"<size=51>「気楽になりすぎても警戒心が緩んでしまいます」</size> ",
 					4
 				},
 				{
-					"<size=51>「众神将成为您的指引。」</size>",
+					"<size=51>「その点ではリットリオはとても安心できますね」</size>",
 					5
 				},
 				{
-					"<size=51>「怪物永远在中心等待着献祭。」</size>",
+					"<size=51>「だって彼女は普段からいざというときに」</size>",
 					6
 				},
 				{
-					"<size=51>「怪物永远不会满足……」</size>",
+					"<size=51>「しっかりと真面目になれるって評判ですから」</size>",
 					7
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			actor = 601050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "奇怪……总感觉这片区域我们刚才已经走过了哎……",
+			say = "マエストラーレ、さっきから同じ場所でぐるぐる回っている気がしない？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -83,7 +83,7 @@ return {
 			actor = 601040,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "迷宫里四处的布置都差不多，会产生错觉很正常。",
+			say = "どうでしょう…この迷路の風景はどこも似ていますから、気のせいかもしれません…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 601040,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真正的克诺索斯迷宫就是一个由无数相似岔路构成的死亡陷阱……就连设计者本人也差点迷路在里面哦。",
+			say = "伝説のクノッソス迷宮も、その虚々実々の無数の分かれ道で設計者すら閉じ込められそうになったって…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_italyv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "以前的迷宫可不会发生结构改变，我们现在面对的这个可就，唔呼呼……",
+			say = "か、壁が変わるのは想定できないけどね……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "塞壬把我们关在这里看我们走迷宫究竟有什么意义呢……？",
+			say = "いざというときは直感頼りにすることも考えないと…恐るべし……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "根据资料，塞壬一直热衷于各类观察与实验，在与我们战斗的同时还会尽可能收集在此过程中产生的数据。",
+			say = "この迷路が実験場というのなら、参加者が踏破出来るかどうかも含めてセイレーンの実験の一環だ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "或许现在我们遭遇到状况也是它们设计的实验之一。",
+			say = "この貴きドゥーカ・デッリ・アブルッツィをモルモット扱いとはいい度胸だ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这种高高在上的感觉真叫人不舒服…………好像不论我们是胜是败它们都已经达成了某种目的一样。",
+			say = "戦う相手だけではなく、試してくる相手でもあるのがセイレーンの恐ろしいところです",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "某种意义上的“百战百胜”啊……",
+			say = "ああ、道理で私達がずっとセイレーンには「勝つ」事ができないわけだ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			actor = 608010,
 			nameColor = "#a9f548",
-			say = "从科学研究的角度来看，进行实验通常是为了验证理论。",
+			say = "き、気になるね…セイレーンは「実験」で何を知ろうとしているのか…ふふふふ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			actor = 608010,
 			nameColor = "#a9f548",
-			say = "研究者通常会首先提出一个理论，然后设计实验去证明它或者推翻它。",
+			say = "「目的」がないと、こうした「実験場」のような鏡面海域は作らないし…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			actor = 608010,
 			nameColor = "#a9f548",
-			say = "在无初次实验之后……也许最终研究者能够获得一个契合理论的完美实验结果，然后标志着理论得到了证实……",
+			say = "カラビニエーレが行ってたあの鉄血の鏡面海域も、艦載機の性能？を検証するところだったんだよね…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			blackBg = true,
 			actor = 608010,
 			nameColor = "#a9f548",
-			say = "真在意这些塞壬究竟想用实验验证一个怎样的理论啊，唔呼呼…………",
+			say = "ふふ、ふふふ……き、気になるなー…セイレーンの目的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

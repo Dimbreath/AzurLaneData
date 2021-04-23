@@ -15,7 +15,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "大家注意！相似的航路与“皇家”舰队又在前方出现了…………",
+			say = "セイレーンの「駒」がまた現れました…！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -42,7 +42,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唔……果然还是要进行迎击吧！",
+			say = "ど、どうするの！？やっぱり倒す？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "且慢。在刚刚情绪激动之时确实看漏了很多信息……",
+			say = "ヴェネト殿、私に一案がある",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你们仔细看，那支棋子舰队似乎并没有什么进攻意图。",
+			say = "この敵には「戦いの意思」がない。一度仕掛けず、ただ通り過ごしてみてはどうだ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真的哎……并没有明显向我们的方向行驶来，武器也没有瞄准的迹象。",
+			say = "本気ですか？ここの通路は広いと言っても、すれ違った時に攻撃されたら――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 601050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "好像就在前方等待着我们一样…！",
+			say = "マエストラーレ、ほーい！こっちよー！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			actor = 601040,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "等着我们做什么……等着被我们摧毁么？",
+			say = "リベッチオ……危ないよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "然后在棋子舰队全灭之后迷宫就会发生变化，我们也会进入一个新的循环……",
+			say = "………！リットリオ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没想到居然是这样……看来必须得想出一个突破循环的办法才行啊……",
+			say = "まさか本当に攻撃してこないとは…！",
 			blackBg = TRUE,
 			typewriter = {
 				speed = 0.05,

@@ -12,7 +12,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "从刚才的战斗情况来看，这批塞壬果然没有获得任何额外的火力提升。",
+			say = "トリチェリの言った通り、ただの「見た目だけ」の新型だな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真的只是单纯更换了一种夸张的特殊涂装而已啊……",
+			say = "全く、塗装程度変えたところで、このサディアの総旗艦もいる主力艦隊に――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "大家注意，前方又发现了一支舰队……成员构成是……皇家舰队？",
+			say = "アブルッツィさん、ヴェネトさん、すみません…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "维内托大人，在前方的舰队中发现了皇家量产型的身影！",
+			say = "ぜ、前方にロイヤルの艦船たちがいるようです！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不可能，皇家舰队现在正驻扎在马耳他呢，怎么可能先我们一步来到这种地方。",
+			say = "ロイヤル艦隊はたしか地中海の西側にいるはずです。こんなところにいないと思いますが……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "有没有可能是……",
+			say = "あのシニョリーナたち、もしやこのリットリオの助けを待っている――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没有可能的利托里奥，光辉才不会兴师动众只为了专门来给你一个惊喜。",
+			say = "ロイヤルの艦隊が私達に全く気付かれもせずサディアの主要航路を通ってここにたどり着くなんてあり得ます？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "哈哈，说的也是~那么答案就很明显了，前方正等着我们的是塞壬的皇家棋子舰队。",
+			say = "ないな。じゃあ答えがわかった。例のセイレーンの「駒」というやつか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "天鹰，你能看清棋子舰队的具体成员么？",
+			say = "アクィラ、すみません、艦載機からどの艦がいるか見えますか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这支舰队没有舰载机护航，我让侦察机接近一些看看！",
+			say = "はい、ちょっと艦載機を近づかせてみますね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唔……我看到了光辉、厌战、可畏……还有一些皇家的巡洋舰和驱逐舰！",
+			say = "イラストリアスにウォースパイト、フォーミダブル…あとは巡洋艦と駆逐艦が何隻か…",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -213,7 +213,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "都是些熟面孔啊……先是用特殊涂装的塞壬让我们想起帝国最辉煌的时刻，然后用这些皇家棋子来提醒我们最不堪回首的时刻么？",
+			say = "あの悪趣味のサディア塗装に「駒」と来たか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这倒是它们一贯以来的伎俩了……",
+			say = "「鏡面海域」と呼ばれる理由ですね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哼，如果塞壬在做这种打算那它们可要失望了！",
+			say = "まあ、もしこちらの戦意を削ぐ狙いだったら見当違いだな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "当时的失败不过是一时疏忽，撒丁帝国早就已经走出了那段黑暗的阴霾。",
+			say = "（確かにあの「再現」では手ひどくやられていたが、今は陣営間の争いを考えるときではない）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "现在是缔造未来之时，吾等岂会因为小小的往昔幻影而动摇！",
+			say = "（他の陣営はともかく、サディアは「駒」程度で心を揺さぶられるようなヤワなものではないというのをセイレーンに思い知らせるまでだ）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不过就是………唉………",
+			say = "（とはいえ、同じ顔の者が敵に回るのは心の準備がないときついな）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "就算是棋子，光辉小姐和可畏小姐还是那么迷人……要亲手摧毁这份美丽的赝品果然还是有些心痛啊~",
+			say = "（あの装甲空母姉妹たちもこのように戦っていたことを思えば……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……皇家航母就全部交给利托里奥负责，托里拆利等待突袭厌战的时机，天鹰在确保制空权后再考虑对海支援。",
+			say = "トリチェリは空母の注意を引いて、アクィラの艦載機が戦いやすいように牽制をお願いしますっ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "其余诸舰自由选择目标开火，向无耻的塞壬展现帝国禁卫军的强大吧！",
+			say = "ほかの艦船は戦闘陣形での応戦を！サディアの威光をセイレーンの偽物に知らしめるのです！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

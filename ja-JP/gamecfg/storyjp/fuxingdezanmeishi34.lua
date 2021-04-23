@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰——————————！",
+			say = "――――！！",
 			flashN = {
 				color = {
 					1,
@@ -68,7 +68,7 @@ return {
 			actor = 605060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "塞壬袭击？！在罗马的近海么？！开什么玩笑！",
+			say = "帝都の近海にセイレーンが現れた！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 605060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "外围防线呢？巡逻部队呢？岛屿警戒呢？这些塞壬究竟是从哪儿冒出来的……？！",
+			say = "哨戒する艦隊と防御施設、まさか皆今日休みで作動していないとは言わないでしょうね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 603030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "从攻击方向上来看，这些塞壬好像是从皇家控制的海域过来的哦。",
+			say = "言わないわよ。例の鏡面海域の消滅がさっき確認されたから、そこ以外のどこかから流れてきた雑魚かもしれないわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			actor = 605060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "………………为什么事情只要牵扯到皇家就会变的这么糟糕。",
+			say = "ロイヤルにも連絡したほうがよさそうかしら…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 605060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "可恶…！现在没时间调查原因了，立刻通知沿岸人员避难，所有一般船只立刻入港。",
+			say = "とにかく、今は港の安全確保が最優先ね。民間船の避難命令は？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 603030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯，广播系统已经开始发布避难指令了。",
+			say = "もう出しているわよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 605060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "岸防系统已经就位了么？",
+			say = "あとは沿岸砲台が少しは粘ってくれるかどうか…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			actor = 603030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "岸防系统发来消息说正在进行最后的调整，因为今天是休息日……貌似还需要一些时间……",
+			say = "残念だけどそう長くは望めないみたいね。私達と違って平時状態から完全作動まで時間がかかるの",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			actor = 605060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "休息日………………空军呢？",
+			say = "今はヴェネトも鏡面海域の件で不在か…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			actor = 603030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "空军也回复需要准备时间……这次袭击过于突然，各部门都有些猝不及防。",
+			say = "不在ね。ザラたちは迎撃に出ているけど、まあ機先をセイレーンに制されたってところかしら",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			actor = 605060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "明明是平时都过于散漫了吧！突袭这种事怎么可能事先跟你打好招呼啊……！",
+			say = "まったく、こういう肝心なときに戦力が足りないなんて…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			actor = 605060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唉……现在停留在奇维塔韦基亚的只有你跟我两个人，所以能立刻迎击的也只有我们么。",
+			say = "私たちもチビタベッキアから支援しに行く",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			actor = 605060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "罗马是为数不多从未被塞壬破坏过的沿海城市……本日也绝不能在我们手里出现闪失！",
+			say = "前の大戦でもセイレーンによる被害を受けなかった帝都が攻撃されると大変なことになるわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			actor = 603030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "别担心，凯撒。一艘重巡洋舰加上一艘战列舰来招呼这些塞壬绰绰有余了！",
+			say = "同感ね。重巡一隻に戦艦一隻、戦力として結構期待されるかもよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "不对，是两艘战列舰哦。",
+			say = "違うわ。支援に行く戦艦は2隻よ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			actor = 603030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………？！您，您是…………！",
+			say = "……あなた…！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			actor = 499020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "腓特烈大帝。铁血海军战列舰，腓特烈大帝。",
+			say = "鉄血艦隊所属、戦艦フリードリヒ・デア・グローセ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			actor = 499020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呵呵，这场盛大音乐会的序曲，就由我来奏响吧。",
+			say = "このシンフォニーに私のパートを付け加えてもらえないかしら？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			actor = 499020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "第九交响曲，合唱————————————",
+			say = "ふふふふふ……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

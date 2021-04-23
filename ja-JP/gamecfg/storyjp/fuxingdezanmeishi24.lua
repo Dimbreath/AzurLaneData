@@ -14,7 +14,7 @@ return {
 			bgm = "battle-boss-italy",
 			actor = 602010,
 			nameColor = "#a9f548",
-			say = "维内托大人，我们又一次粉碎了面前出现的“皇家”舰队。",
+			say = "ヴェネト殿、この先の敵は既にリットリオ殿が倒しました",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			actor = 607010,
 			nameColor = "#a9f548",
-			say = "我感觉对于舰载机的操纵正变得越来越熟练，很快就能和皇家的淑女们正面较量一下了呢！",
+			say = "敵を倒してどんどん前へと進むのはとても気持ちいいですね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯、大家的表现都很出色…………",
+			say = "ええ、そうですね。…リットリオ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你怎么闷闷不乐的，维内托？对我们取得的成就还不满意么？",
+			say = "どうしたの、ヴェネト。私たちの戦果を確認しに来たのかな？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……成就？你是指在变化的迷宫中一遍又一遍的消灭塞壬的棋子舰队么？",
+			say = "いいえ、一つだけ確認しに来ましたわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,19 +104,13 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			expression = 4,
 			side = 2,
 			bgName = "bg_italyv2_3",
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "睁开你的眼睛看看周围，利托里奥，你已经完全陷入塞壬的陷阱了！",
-			effects = {
-				{
-					active = true,
-					name = "speed"
-				}
-			},
+			say = "――私達が進んでいる方向は、どうして正しいと言えるのでしょうか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +128,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哈？你在说什么？除了周围漂浮的敌人残骸之外，我没有感受到任何陷阱！",
+			say = "それはこの奥に進めば、芸術品の輸送船を守るGBがいて、彼女を救出して作戦を完遂するから…",
 			effects = {
 				{
 					active = false,
@@ -158,7 +152,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "现在是帝国的辉煌之时，而这样的辉煌是在你我的领导下完成的！",
+			say = "いや、鏡面海域の制御装置も一番奥にある可能性が高いと言ったな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +170,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你难道没有感受到么，帝国正在我们的领导下走向复兴啊，维内托！",
+			say = "あれを破壊できれば鏡面海域を消失させることができて、地中海を脅かすセイレーンを一掃できる――",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,
@@ -198,7 +192,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "复兴帝国是一场战斗的胜利就能做到么？我们所追求的目标是如此轻而易举就能完成的么？",
+			say = "そこですよ。私たち、この作戦の目的と迷路を進むという手段を履き違えていませんか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +210,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "当然不是！我们需要的不是一次胜利，而是一次又一次接连不断的胜利！",
+			say = "ヴェネト、今更何を言い出すんだ……あっ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +228,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "在皇家限制我们在阿非利加的利益时我们忍了，铁血试图介入陆间海事务时我们也忍了，因为什么？",
+			say = "（仲間たちと一緒に進んでいるルートだが、このルートは「迷路の奥へ続く」以外何もわかっていない）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +246,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "就是因为我们坚信现在失去的一切在不久的未来将会由我们亲手夺回来！",
+			say = "（そして私達が敵と戦って勝つことで、自分たちの道は正しいと信じて疑わなくなっている）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +264,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "而现在不就是一个最好的开端么？帝国海军现在已经今非昔比，帝国的荣耀正在我们手中书写！",
+			say = "アクィラとレッコの案内を、自分の誤った方向を正当化しようとしている…",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,
@@ -292,7 +286,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "……你还是没有从过去的失败中走出来啊，利托里奥。",
+			say = "別にアクィラとレッコが悪いと言うつもりはありません",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +304,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你在说什么？我早就走出来了，而且已经开始迈向崭新的未来了不是么！",
+			say = "もちろんだ、この作戦に参加している仲間たちの働きに文句のつけようはない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +321,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "不，你没有走出来。",
+			say = "ですが、仲間たちを正しい、そして自分のしてきたことが正しいと思い込んでいるから",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +338,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "……可能我也没什么说这种话的资格。包括你，包括我，也包括我们每一个人，其实整个帝国都没有走出来。",
+			say = "私達は「迷路の奥へ進む」という手段と「GBを助けて芸術品を取り戻す」という目的を入れ替えてしまっているのですよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +355,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "我们所做的只是单纯的视而不见，然后擅自开始走向新的未来而已……",
+			say = "確かに、最初は迷路に入るしか選択はありませんでしたが…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +372,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "一直以来，我们甚至都没有哪怕正视过那些隐藏在失败之后的问题。",
+			say = "それでも迷路が一回構造を変えた時に、本当に正しいかどうかを分析しなければなりませんでしたね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +389,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "我们所谓的反思，都只是将失败简单归结于设备落后、准备不足与皇家的无耻。",
+			say = "出口への道が変わっていなかったことでの安心感",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +406,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "可是我们在心里的某处其实都知道，事情不是这样的，至少不是这样简单的。",
+			say = "そして仲間たちの努力を否定したくない想い、勝利が続いたことでの驕り、慢心……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +423,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "难道不是么，利托里奥，还有阿布鲁奇公爵？",
+			say = "ごめんなさい。私は皆を上手く導けませんでしたね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +439,7 @@ return {
 			bgName = "bg_italyv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我……………………",
+			say = "ヴェネト殿……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +456,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "利托里奥，你是有些莽撞，但是你从不盲目。至于阿布鲁奇公爵，你更是一位冷静而又经验丰富的战士。",
+			say = "（まだ事態は最悪の状況にはなっていませんけど、このままひたすら「勝利を追っていく」状況はなんとしても避けないといけませんね）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +473,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "可就算是这样的我们，还是因为塞壬的一点设计就陷入空前的混乱之中……",
+			say = "（接敵する度に弾薬が消費しますし、またいつまでも警戒して航行しているようでは体力がもちません）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +490,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "一次次向我们呈现过去的幻影，一次次引导我们进行发泄般的胜利，最后将我们引向疯狂，从而永远的迷失在迷宫之中……",
+			say = "（それと、アクィラたちはまだ大丈夫なようですが、いつまでも目的地のないまま探検するのは望ましくありません）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +507,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "这就是塞壬真正在利用这个迷宫对我们所做的事。",
+			say = "（セイレーンの実験場であることを、ついつい忘れてしまっていたからでしょうか…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +524,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "塞壬准确抓到了我们深埋在心中的弱点，然后只依靠无形的机关就让帝国最精锐的舰队轻易抵达了自我毁灭的边缘。",
+			say = "（GBの状況、そして芸術品のことも心配ですけど、仲間たちを失う危険を冒してはならないですよ、ヴェネト）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +541,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "……塞壬也许并不是对我们一无所知，而是了解的过于清楚了。",
+			say = "（いつもはリットリオのことをちょっとせっかちかなーって思っていましたけど、今日の作戦は完全にこちらの失敗ですね）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +558,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "清楚到做事会直接跳过中间过程，放弃基本的委婉，因此才让我们产生了塞壬什么都不懂的错觉。",
+			say = "（思えば入り口でリットリオとお茶会を開いて休憩していなかったら、今頃どうなっていたのでしょう…トホホ）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +575,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "这不是一件真正令人感到毛骨悚然的事么？",
+			say = "リットリオ、この作戦を完遂させるには貴方の力が必要です",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +593,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………………………………………",
+			say = "わかっているよ。貴方が掲げてくれた理想のために皆集まっているのだから",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +611,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "抱歉，维内托……………………我今天，好像确实有些太激动了。",
+			say = "そしてこうなったのは貴方だけの責任じゃないよ。せめて半分はこのリットリオに託してほしいものだ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +629,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……我也是在不知不觉中就，有些疯狂了……毫无疑问，这是我的失职行为。",
+			say = "このドゥーカ・デッリ・アブルッツィも敵を侮っていた。反省をせねば",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +647,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "非常抱歉维内托大人！是我还不够成熟……",
+			say = "アクィラも迷路を俯瞰できたはずなのに、それをせずに……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +675,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "身为航海家的我居然迷失了方向……超，超级对不起！！",
+			say = "航海士レッコ、修行し直しになりそう…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +693,7 @@ return {
 			actor = 601050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啊，我也————",
+			say = "は、反省会ムード！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -715,7 +709,7 @@ return {
 			bgName = "bg_italyv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噗……好啦，又不是在开检讨大会，周围还有无数敌人在看着哦？",
+			say = "もう、皆までしんみりモードですか？仕切り直しを決めたのですし、気持ちも新たにしませんと",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +727,7 @@ return {
 			blackBg = true,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "虽然现在身处困境的情况并没有好转，不过至少大家先冷静下来，然后再一起思考对策吧！",
+			say = "リットリオ、ここは元気よく――皆に出航の号令を！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

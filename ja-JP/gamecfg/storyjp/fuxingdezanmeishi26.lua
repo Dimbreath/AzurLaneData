@@ -11,19 +11,19 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>「永远要警惕塞壬。」</size>",
+					"<size=51>「ヴェネトさんは芸術品とか結構好きな方？」</size>",
 					1
 				},
 				{
-					"<size=51>「警惕那动人的歌声。」</size>",
+					"<size=51>「どうかしら…芸術品が好きというより、サディアのことが好きですね」</size>",
 					2
 				},
 				{
-					"<size=51>「睁大双眼，让双眼决定前进的方向。」</size>",
+					"<size=51>「それって食べ物とか、お風呂とかも？」</size>",
 					3
 				},
 				{
-					"<size=51>「封住双耳，别让其将你引向死亡。」</size> ",
+					"<size=51>「ええ…そして、GBたち仲間のことも好きですわ」</size> ",
 					4
 				}
 			}
@@ -37,7 +37,7 @@ return {
 			actor = 601040,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……也许，不消灭这支诱饵舰队的话迷宫就不会发生变化。",
+			say = "「駒」を倒さなければ、迷路が変わる可能性もほぼなし…っと",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -64,7 +64,7 @@ return {
 			actor = 601040,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "要不要试着绕开？不是有种说法是通过迷宫的道路并不只有一条么……",
+			say = "でもこの道を塞いでしまうようなセイレーンはどうすれば……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唔…………不考虑最短路径的话通过迷宫的道路确实有很多，但是某些关键路段是所有路径都要经过的哦。",
+			say = "避けて通るのは無理ね…さっき来る途中にはいなかったから、もしかしてセイレーンの嫌がらせかも…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "前面这支舰队看起来就正好堵在关键位置上…………",
+			say = "前も後ろも塞がれてるし…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			actor = 601040,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……看来绕开是行不通啊。",
+			say = "後ろに出てきたセイレーンを倒したことはありませんね…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 601050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "可是继续前进就会引起迷宫变化……就算是曾经消灭米诺陶诺斯的英雄也没有遇到这样的难题啊！",
+			say = "そうだよ！もし倒して帰り道がなくなったら大変だよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "曾经的英雄忒休斯是在消灭了牛头怪后依靠进入时携带的线团成功离开了迷宫。",
+			say = "糸玉の裏技を使わせてくれるほど、セイレーンはお人好しじゃないってことさ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我们要想离开迷宫同样简单，但是在达成目的之前掉头离开只是懦夫般的逃避而已……",
+			say = "もっとも、今の目的が入り口に戻る、という意味ではないがね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没错，掉头离开绝对不是可选项之一。且不论任务指令与帝国的荣耀，单纯因为有同伴还被困在迷宫中这一点，我们就不能退缩。",
+			say = "ああ、最短経路で迷路の「奥」でも「入り口」でもなく「中心部」に向かうんだ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "关于克诺索斯迷宫的故事其实还有一个……关于建造者代达罗斯的。",
+			say = "その「中心部」の場所もアクィラの艦載機で把握できましたわね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "代达罗斯……难道是指他在离开时用到的羽翼么？",
+			say = "名付けてイカルスの翼作戦、ということですわ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "没错！在故事之中离开迷宫的方式并不只有一条，羽翼也能帮助我们离开！",
+			say = "そうですね。アクィラの艦載機で私達を直接連れて行ってもらいましょう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "一路之上我一直在用舰载机进行引导……可是，只要迷宫还在不停的变化，这个方法就无法起效呀……",
+			say = "はい！未熟者ですがこのアクィラにお任せくださいませ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_italyv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为羽翼不是用来带路……而是应该帮助我们直接离开的。",
+			say = "ええ、迷路のセイレーンと戦わなければ中心部への距離も最小限にすることができますわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你好像有一个有趣的想法啊……你是想说让我们乘坐舰载机直接空降到迷宫中心？",
+			say = "ちょっと待てヴェネト…まさかとは思うが…艦載機に私達を乗せる気！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哎？！这种事能够做到么？！",
+			say = "そんなのありなの！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			actor = 608010,
 			nameColor = "#a9f548",
-			say = "十分危险，仅存在理论可能……",
+			say = "べ、べつにできなくはないけど……この場でやるのは無理かも…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			actor = 608010,
 			nameColor = "#a9f548",
-			say = "我们的舰载机并没有进行载人设计。要实现这一点的话，大概只有在舰装解除之后将我们用某种方式固定在舰载机外，然后以超慢速低空飞行……",
+			say = "アクィラが一人で取り残されるし、何より戦闘用の艦載機は旅客機とかとは違うから",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_italyv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这种杂技不经过专门训练可做不到。更何况现在是战场上，万一被塞壬击中就全完了，唔呼呼……",
+			say = "いくら艦船でも訓練なしでやるのは危険…ふふ、ふふふふ……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "作为舰载机操纵者的天鹰与我们的量产型舰队也没办法用这种方式跨越迷宫吧？",
+			say = "（本当はそれをやりのける方はいますけど、あの方は色々と規格外ですしね…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "这种事我当然知道。我指的羽翼不是物理意义上的机翼，而是指心灵上的双翼。",
+			say = "もちろん艦載機に乗せるようなやり方ではありませんよ。ええと、なんといいましょう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……心灵上的双翼？",
+			say = "……なるほど、セイレーンを「撃破」すると迷路が変化するのを利用するのか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "我们的心灵一直被困在名为过去失败的迷宫中，从未真正走出来。",
+			say = "まず、私達の目的は迷路を進むのではなく、迷路に隠されているかもしれない、GBや芸術品を確保すること",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "只是进行正视还不够，恐怕还需要进行彻底地接受吧。",
+			say = "そしてこの迷路はセイレーンを倒すと変化し、中心部への距離がどんどん遠くなる",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			bgName = "bg_italyv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果不解放我们的心灵，我们在物理层面上也会被困于迷宫之中……我觉得这就是塞壬迷宫的狠毒之处，也是破解之处哦。",
+			say = "ここまで、私達の中では「セイレーンを倒す」ことを目的としてしまい、結果的に私達はいつまでも目標地点までたどり着けませんでした",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "感觉有些玄学……不过倒是确实符合塞壬神神秘秘的做事风格。",
+			say = "これからは戦うことを考えず、迷路を踏破することだけに集中するのだな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "发自真心接受啊……我理解了！",
+			say = "セイレーンと交戦せず、一直線で中心部に向かい、どうしても道を塞ぐ敵は水上機や艦載機で遠く引き離す",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "对面的塞壬，虽然不知道你们听不听得懂，但是这种场合下我是不会介意听众素质的。",
+			say = "まあ、向こうが素直に釣れてくれればいいけど、だめな場合に備えて、一応戦闘態勢も取っておこう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "尽管在阴暗的角落里聆听吧，这份来自我利托里奥名为“反省”的华丽演说~！",
+			say = "というわけで総旗艦が言った通りだ、早速ここの道を塞いている敵で試してみよう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			bgm = "battle-boss-italy",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "半小时后——————",
+			say = "30分後――",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -595,7 +595,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "迷宫与敌人都毫无变化，怎么会这样！啊~是我的反省还不够深刻么！",
+			say = "うっ、流石にいきなりそううまくはいかないか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "居然不行么…………看来应该顺着这个思路想一些更科学的方法。",
+			say = "量産艦を睨みつけながら無防備で通り抜けるのはやはり抵抗がありますね…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			dir = 1,
 			actor = 608010,
 			nameColor = "#a9f548",
-			say = "既然……摧毁这支“皇家”舰队是迷宫发生变化的必要条件，在保证不摧毁它们的情况下强行穿越就可以了吧。",
+			say = "ふふふ…じゃ、じゃあちょっとだけボコボコにすればいい気がする……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "啊，确实可能是这样！我们太把目光集中在迷宫上，反而再次忽略了“塞壬”这一存在啊！",
+			say = "迷路が変わるのは、セイレーンに攻撃したときではなく、セイレーンを「倒した後」ですね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "什么意思…我们不是一直在与塞壬舰队战斗么？",
+			say = "………そういうことか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "不是面前的这些，而是故事中用歌声迷惑旅行者的那些。刚才塞壬用我们所不知道的装置对我们施加了干扰，而这份干扰现在恐怕也没有消除。",
+			say = "はい、親善試合や演習みたいに「戦っても結局お互い無傷」であれば、セイレーンが結果的に動いてくれるってことです",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……原来如此！神话中的船员们用蜡封住双耳，用缆绳捆绑手脚，通过不顾一切向前航行的方式躲过了塞壬设下的死亡陷阱。",
+			say = "なるほど、「ギリギリ倒せそうな程度にとどめて倒さなければ迷路が変わらない」という状況を作るのですね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +716,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我们接下来也要用类似的方式通过前方的危险区吧！",
+			say = "つまり…こちらも本気を出さずに追っ払うだけですね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -734,7 +734,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "需要我们睁大双眼仔细回忆起当年失败时的景象，进行一次真正意义上物理与心灵的彻底“正视”啊…",
+			say = "まあ、本音を言えば今は迷路が変わるリスクを背負ってまで「ここのセイレーン」と戦う場合ではないな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,7 +751,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "当然，就算拥有了双翼也不能过于激动步了伊卡洛斯的后尘。",
+			say = "ええ、中心部に鏡面海域の制御装置がもしあるとしたら、それを守るためのセイレーンも当然いるはず",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,7 +768,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "如果真的让过去的场景完全重现的话就糟糕了……突破了这个机关之后还有大量塞壬需要消灭呢。",
+			say = "そこまでに戦力の温存もしておきたいですから、ここはなんとか我慢してください",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,7 +785,7 @@ return {
 			dir = 1,
 			actor = 608010,
 			nameColor = "#a9f548",
-			say = "判断标准是诱饵舰队是否被消灭而不是我们被打的有多惨，我觉得做样子就行了……",
+			say = "ふふふ、せ、潜水艦なら潜るだけでも通れるね……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -804,7 +804,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "行…………那就这么办吧！大家无视前方的“皇家”棋子舰队，全速前进！",
+			say = "この艤装を背負って潜るのは艦載機に乗るよりも難しそうだ。…よし、出発するぞ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

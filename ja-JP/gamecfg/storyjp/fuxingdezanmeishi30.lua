@@ -16,7 +16,7 @@ return {
 			actor = 601050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "奇怪……从刚才开始武器系统就不太好使了。",
+			say = "わわ！？艤装の電子機器がさっきからずっと調子が悪いよ！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			actor = 601040,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "电子设备也是……！附近有一种奇怪的干扰存在、但是检查不出问题！",
+			say = "こちらも！武装の制御も難しくなっています…！ど、どこに問題が…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			actor = 608010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这个难道就是塞壬一直在隐藏的海妖之歌么……",
+			say = "これがセイレーンの秘密兵器の力…！怖いけど、わくわく…ふふ、ふふふふふ……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "歌？我什么声音都没听到哦！",
+			say = "航海士を惑わすセイレーンの歌か！全然聞こえないけど…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 608010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唔呼呼……八成又是塞壬的古怪设定。也许是用电磁波来制作的“歌声”，所以我们才听不到。",
+			say = "た、多分電磁波か何かの特定の周波数で鳴らすような兵器だから、普通のヒトなら聞こえるはずがないよ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			actor = 608010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "在发现无法继续干扰我们的情绪之后还能改变模式对我们的设备进行干扰，真是可怕的装置……",
+			say = "でも兵装の精密機器には効果がバツグンで……こ、怖い…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "遇到了塞壬在扮演塞壬的时候使用了海妖之歌，当做宴会上的冷笑话来说倒还真不错……",
+			say = "（セイレーンと呼ばれたのはこの兵器があったから、ということだったら皆納得できますね…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			actor = 601030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "维内托大人、利托里奥大人，GB正式归队！",
+			say = "ヴェネトさん！リットリオさん！ヴィンチェンツォ・ジョベルティ、只今艦隊と合流完了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哦~！现在正需要人手呢，来的刚刚好，这几天没受伤吧？",
+			say = "GB！被害は大丈夫か？無理しなくていいから！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			actor = 601030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没有受伤！所有运输船也一艘都没有少，我可是全~~~~力保证了每一艘船的安全哦！",
+			say = "大丈夫よリットリオさん！GBだけでなく輸送艦も頑張ってなんとか守り抜いた！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			actor = 601030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "就是一直在这个迷宫里打转，也不知道还能坚持多久……还好终于等到你们来了……！",
+			say = "だけど気づいたらここに放り込まれてて、もう2日間だよ！お腹がもうペコペコ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "既然你陷入了危险之中，我利托里奥怎么可能放着不管呢~",
+			say = "本当はGBと輸送船が襲われたあとすぐ駆けつけたかったが、色々あって一日遅れてしまったよ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "在听到你失联的消息后我们立刻筹备了本次救援行动，然后如你所见现在来接你回家了~",
+			say = "すまない、あとでヴェネトと一緒に謝らせてほしい",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "话说回来，旁边的那位美丽的小姐是？",
+			say = "…それと貴方は…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 701060,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "大家好~！我是来自北方联合的愤怒级驱逐舰神速，现在正在执行出访撒丁帝国的外交任务中！",
+			say = "北方連合所属、駆逐艦のストレミテルヌイだよ！今はソユーズさんから任された外交任務を遂行中！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			actor = 701060,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "没想到在遇到文琴佐之后不久就卷入了迷航事件……可恶的塞壬！这可是苏维埃同盟亲自布置的重要任务呀！",
+			say = "…と思ったらセイレーンに鏡面海域に連れて来られて…あぅ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "来自北方的使者，苏维埃同盟亲自布置的任务……这还又是一个令人意外的展开。",
+			say = "（ソユーズのお付きの子…これは意外ですね…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "往常的话我们一定会用最盛大的宴会为您接风，不过现在的情况如您所见，我们正在完成清理塞壬镜面海域的最后一步。",
+			say = "サディアのせいで巻き込んでしまってごめんなさい。ここの作戦が無事終了しましたら、ぜひ帝都にご招待させてください",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "您可以在后方观看我们的战斗，在问题解决之后我们会护送您一路前往撒丁帝国的首都罗马。",
+			say = "今は戦闘中ですから早く退避を――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			actor = 701060,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "那怎么行！你们在和塞壬打架，我怎么可能在后面等着呀！",
+			say = "セイレーンをやっつけるのはあたしたち北方連合も得意よ！",
 			effects = {
 				{
 					active = true,
@@ -426,7 +426,7 @@ return {
 			actor = 701060,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "放心，我在作为外交人员之前更是一名北方联合的战士，揍塞壬这种事很在行啦！",
+			say = "それに助けてもらったお礼もちゃんとしないとね！",
 			effects = {
 				{
 					active = false,
@@ -450,7 +450,7 @@ return {
 			actor = 701060,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "如果你们不介意的话，就让我们一起并肩作战吧！",
+			say = "だからあたしにも一緒に戦わせて！あの悪いセイレーンに雪玉ちゃんの力を思い知らせてやるわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

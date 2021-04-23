@@ -14,7 +14,7 @@ return {
 			bgm = "level02",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "数日前 北方联合某处",
+			say = "「迷路」での戦いより数日前",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			actor = 702020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哟~好久不见啊，神速。",
+			say = "雪玉ちゃん、遊びに来たよー",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			actor = 701060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哇啊，是水星纪念，你怎么突然来这里了？！",
+			say = "あ！パーミャチさん！また新しいゲームを買ったの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 702020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这么长时间没见，当然是来看看你嘛~",
+			say = "まあそんなとこかしらね。雪玉ちゃんは最近どぉ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 701060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真的么~！这里的同志不多又没什么敌人，每天训练我都快闷死了。",
+			say = "雪がないのはちょっと退屈だよ…戦闘もないし毎日訓練訓練って",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			actor = 701060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "正好你刚来还不熟，我带你参观一下这里好了，走吧走吧~！",
+			say = "あ、そうだ！パーミャチさんもここが初めてでしょ？色々見回りとかしてみない？あたしが案内するよ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 702020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "等等等等……我刚长途航行过来，现在就饶了我吧……",
+			say = "それは…またちょっと後で！旅のあとにまた長歩きすると色々と疲れちゃうから…次の出先もあるし",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			actor = 701060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哇哦，对啊！你稍等，我这就联系后勤！",
+			say = "次のって、パーミャチさんはまたどこかに出かけるの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 702020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "也不用那么麻烦，给我一张床就行，明天我就要启程前往下一站了~",
+			say = "そうよ？明日にでも出発する予定～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 701060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哎……？这么着急么，那你这次来究竟是……？",
+			say = "そ、そんなに忙しいのにあたしに会いに！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 702020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "有一个来自苏维埃同盟的绝密命令，必须要用这种绝对安全的方式要向你传达哦。",
+			say = "へへへ、ちょっと久しぶりだったからってのもあるけど、ソユーズから一つ秘密任務の連絡を受けてるの",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 702020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不用担心~只是一次简单的信使工作而已。详细内容就在这个文件袋里，如果有问题的话等我先睡一会儿再说…………",
+			say = "そう難しいものじゃないよ？このファイルケースの中の書類を届けるだけ……ふはー",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			actor = 702020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "很快……你这边也要热闹起来了哦…………zZZ",
+			say = "うっ、ちょっと眠いわね…説明は後でするから、今は新作を早くチェックするわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

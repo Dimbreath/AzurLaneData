@@ -13,7 +13,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唔……前方又发现了一支棋子皇家舰队，配置和规模…………与之前相同！",
+			say = "前方にロイヤルの「駒」がいます！規模と配置はさっきのと同じですわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "咦？与之前相同……？",
+			say = "さっきのと同じ…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			actor = 601050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "“现在这样的程度就算再来无数遍我们也不怕”，不会是你之前的建议被塞壬采纳了吧？",
+			say = "「この程度の敵、レッコと仲間の前に何度現れようと……」って言ったからじゃない？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哎哎哎！？！是这样么！都怪我，不该乱说的……",
+			say = "まさかのレッコのせいだー！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			actor = 601040,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……别介意、西南风在开玩笑呢。",
+			say = "……違いますっ！リベッチオの冗談ですから！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "嘿嘿嘿~不过万一塞壬真的听了我的建议的话……那就把接下来这个也采纳吧！",
+			say = "うーん、本当だったらいいのにね…レッコのアイデアをもしセイレーンが採用するというのなら――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "塞壬————————快把这个烦人的大迷宫解除吧——————！",
+			say = "この迷路を解除して！はい！お願い！",
 			effects = {
 				{
 					active = true,
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "完全没反应呢，哎嘿~",
+			say = "セイレーンの分からず屋ー！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，就算收集了无数数据，塞壬果然什么都不明白。面对现在的帝国舰队，这种东西来几次都一样！",
+			say = "落ち着け。こんなことをしていてもセイレーンに笑いものにされるぞ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 602010,
-			say = "我们绝不会重蹈覆辙，更不会为过去的梦魇所困。",
+			say = "私達をからかおうが試そうが、簡単にくじけないことを示すまでだ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "说的不错~！诸位不必有所保留，火力全开，粉碎敌人！",
+			say = "良いことを言うわね！とことんセイレーンの「駒」とやらに付き合ってあげようじゃないか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

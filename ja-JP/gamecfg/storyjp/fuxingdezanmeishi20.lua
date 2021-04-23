@@ -16,7 +16,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "铁血……尤其是腓特烈大帝领导下的铁血与塞壬暗中有某种紧密联系，你应该也有感觉吧，利托里奥。",
+			say = "各陣営の連絡会議でフリードリヒと何を話していた、ですか？リットリオにしては珍しくそんなことを聞いてくるのですね～",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "同感，铁血与塞壬之间确实有这种说不上来的感觉~你是想问铁血那边知不知道塞壬进行实验的目的？",
+			say = "政治や上層部の話とかは興味ないけど、総旗艦殿にいざというときに何かがあったらどうする？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "果然还是算了……别在意，只是随口一说。",
+			say = "そこはリットリオが私の代わりに皆を率いてくだされば大丈夫ですよ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "仔细想想，迄今为止从来没有过任何铁血与塞壬直接并肩作战的报告，何况最近两边还在铁血要塞里大打一场……",
+			say = "概ねカラビニエーレちゃんが行ってたあの鏡面海域のことですね。あそこでセイレーンと戦っていたらしくて",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,25 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "可能只是腓特烈大帝身上带有的神秘气质影响了我的判断吧……",
+			say = "鉄血の空母ペーター・シュトラッサーの活躍とか、そしてうちのカラビニエーレも多いに役に立っていたとか",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_italyv2_3",
+			dir = 1,
+			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
+			say = "セイレーンの技術を吸収していたのは分かっていましたけど、鏡面海域を丸々支配下に収めていたのはさすがですね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +133,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "优柔寡断可是你的缺点，维内托。不是说我也感受到相同的迹象了么，铁血和塞壬之间的关系绝对不是能用“错觉”来解释的。",
+			say = "そこが気になっている。ヴェネト、鉄血とセイレーンの関係が本当にただ「鹵獲した技術を利用している」だけだと思ってないだろうね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +150,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "有些疑惑与其靠一个人闷头思考，不如选择在合适的时机向合适的人提问更明智哦。",
+			say = "同じ鹵獲した技術を使っているという北方連合と比べてもいくらなんでも進みすぎだよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +168,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "再怎么说这种涉及到盟友信任和国家机密的东西怎么好……………",
+			say = "まあまあ、そこは私達だけで邪推しても仕方がないことではなくて？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +186,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "………利托里奥，那天我返航之后是你继续护送腓特烈大帝离开的，你不会直接问了吧？！",
+			say = "そういえばリットリオはフリードリヒがサディアで見学していることを気にしていましたね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +214,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "怎么可能，就算是我也不可能会莽撞到这个地步。我只是稍微暗示了一下这个话题而已~",
+			say = "全く呆れたものだよ。まさかヴェネトがすんなりと自由を許していたとは",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +232,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（扶额）唉……算了。腓特烈大帝是怎么回应你的？",
+			say = "もしかしてまずかったのですか…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +250,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "被她干净利落的岔开话题了哦。",
+			say = "………おいおい、今更気づいたのか…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +268,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "可以预料的结果……单凭你敢于发起这个话题的勇气，就已经让我“十分钦佩”了。",
+			say = "ううん、そこは流石にわかっていますわ。サディアの上層部の話を色々と探っているらしいですよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +286,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "多谢夸奖~反正那天她看上去心情特别好的样子，机会难得嘛。",
+			say = "道理であんなトンチンカンなことを言いだしたのか…ヴェネトがわかっていればいいが",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +303,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你们还说了些什么？",
+			say = "もしかしてリットリオもフリードリヒと話したりしていました？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +321,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "倒还确实聊了一些其他的事，比如问我有没有兴趣恢复帝国的荣光，有没有兴趣获得元老院控制权之类的……",
+			say = "ああ、上層部についてどう思うかとか、サディア帝国の威光をもっと広めたくないかってね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +339,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "对于恢复帝国荣光我当然很有兴趣，不过卷入元老院的政治旋涡还是算了~",
+			say = "帝国の威光を広められるのはありがたい話だが、上層部のいざこざに巻き込まれるのは御免だ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +357,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "腓特烈大帝这个人总是能在言语间轻描淡写的抛出一些危险话题啊……",
+			say = "あら、あの方も意外とそんな話を簡単にするのですね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +375,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是啊，总之我全部搪塞过去了！再之后她就一脸悠闲的转去了罗马，说是突然想度个假什么的……",
+			say = "そういうところはヴェネトと一緒さ。気楽なのか打算的なのかわからない――ヴェネトはわかっているけど",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +393,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "纵使前路坎坷，恢复帝国荣光这件事也只能依靠我们的力量完成，不论如何也没有铁血插手的空间。",
+			say = "ふふふ、せっかくの提案は嬉しいですけど、サディア帝国の威光は私達の手で広めるべきですよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +411,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "先保证控制区内的稳定，再拿回关键岛屿与海峡运河的控制权，保证陆间海上的海上贸易就同过去一样……",
+			say = "大陸と島をつなぐ航路は文明の風の運び手――この航路を平和にしてこそ、サディアの栄光をもっと多くの人々に知ってもらえるのです",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +429,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不，要比过去更加繁荣才行！届时罗马会成为陆间海的中心城市，而陆间海及其周边区域将会变为在帝国庇护下远离战火的花园。",
+			say = "ああ、そしてこの地中海だけではない。エウロパ大陸…いや、世界中に私達サディア帝国の素晴らしさを知ってもらわなくてはな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +447,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "现在的帝国也许就同此刻的我们一样，在曲折回环的迷宫中艰难前行着……",
+			say = "（この思いと願いが私達の戦う理由、そして私達が戦う兵器だけじゃないことの証明）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +465,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "只要我们能够成功穿越迷宫，无疑同样预示着帝国也能成功走出困境。我们成功的开端，将会成为帝国复兴的开端。",
+			say = "（この迷路を突破し、芸術品を奪い返すことがどれだけ重要なのか、言わなくても皆わかっているさ）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +484,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "大步向前吧，撒丁帝国的战士们。有雄鹰在前方为我们导航，不论迷宫如何变化，我们都不会继续迷失方向了！",
+			say = "（どんな困難と敵が待ち受けていようと私達の目指す先は決してブレることはない……！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

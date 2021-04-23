@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "哟，“米诺陶诺斯”，我们来迷宫里讨伐你了哦。",
+			say = "セイレーンの上位個体、テスター……",
 			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605010,
-			say = "根据装备判断是塞壬的测试者呢。塞壬的人型指挥者通常也是镜面海域的控制者，只要解决了你就等于解决了整片区域的塞壬问题吧！",
+			say = "サディアの輸送船を襲い、護衛の艦船をここに連れてきたのは貴方ですね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,10 +39,11 @@ return {
 		},
 		{
 			actor = 900011,
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			dir = 1,
-			say = "——————与计算中分毫不差。",
+			actorName = "テスター",
+			say = "………いいわね。予測していたデータと全く変わらなかった",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,10 +55,11 @@ return {
 		},
 		{
 			actor = 900011,
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			dir = 1,
-			say = "就算是这样的重现也没有出现任何预料之外的变化————",
+			actorName = "テスター",
+			say = "いいや、少しだけ上回っているのか。誤差程度ではあるけど",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能让我们彻底走出过去的阴影，某种意义上还要感谢你准备的机关。",
+			say = "…やっぱり。貴方は名前通り、あくまで私達を実験のモルモットとして扱っているようですね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +90,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605010,
-			say = "现在撒丁帝国将会真正驶向辉煌的未来，至于你，该到退场的时间了！",
+			say = "鏡面海域を作り出し、航路を襲ったのも私達を誘い出すためなのかしら？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,10 +102,11 @@ return {
 		},
 		{
 			actor = 900011,
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			dir = 1,
-			say = "均是封闭的环境，对于场景的不完全重现，均没有接触过“变量”————",
+			actorName = "テスター",
+			say = "閉鎖環境での不完全の「再現」によるテスト、条件設定はノーマル、そして不確定要素の「モノ」も「ヒト」もなし",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,10 +118,11 @@ return {
 		},
 		{
 			actor = 900011,
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			dir = 1,
-			say = "为什么之前发生了变化而这次没有————究竟区别在哪里————无法得出有效结论。",
+			actorName = "テスター",
+			say = "あの重桜の空母で観測できた現象はやはり「極めて特殊」と判断すべきね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +138,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605010,
-			say = "喂，测试者，你有在听么！",
+			say = "私の質問に答えないのですか？テスター",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,10 +150,11 @@ return {
 		},
 		{
 			actor = 900011,
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			dir = 1,
-			say = "更多的测试是必要的，正在对当前结果进行汇总以纳入归纳————————",
+			actorName = "テスター",
+			say = "データのアップロード開始。このボディはこの後ジャミング兵器のテストに好きに使いなさいな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +169,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对于我们的发问完全没有反应，听说塞壬人型指挥者都是能够正常交流的存在，情报有误？",
+			say = "こちらのことを完全に無視しているな。どこまでもなめてくれる",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +185,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 607010,
-			say = "会不会是故障之类的……或者说塞壬的测试者就是这样不理人的性格……？",
+			say = "他の陣営でも「テスター」と名乗っている個体と遭遇したことがあるようですけど、それらは意思疎通が可能だったそうです……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +201,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605010,
-			say = "我不知道……我也是第一次实际当面见到测试者……",
+			say = "地中海に現れる「個体」はこんな感じという可能性も……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +217,7 @@ return {
 			dir = 1,
 			actor = 601050,
 			nameColor = "#a9f548",
-			say = "要动手么…？既然确定了是罪魁祸首，我们干脆点直接上吧！",
+			say = "ヴェネトさん！GBたちと輸送艦の退避が完了したよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +243,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 601040,
-			say = "在这种情况下打过去，应该说不够堂堂正正，或者说缺乏开战感……总有种说不出来的感觉。",
+			say = "私たちを退避させているのですか…それとも単に私達に興味がないとも…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +258,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "同感。现在发起攻击的话总有一种趁人不备进行偷袭的感觉……就和皇家喜欢做的事一样。",
+			say = "剣を構えていない相手を裏から刺すのは好かんが、セイレーン相手に使える手を選んでいる余裕はない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +273,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果真的是因为故障无法行动的话，请务保留一些完整的部件拆下来，唔呼呼……",
+			say = "ぎ、艤装のパーツ…もしよければ、ふふ、ふふふふ…回収してくれたら…ふふふ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,10 +285,11 @@ return {
 		},
 		{
 			actor = 900011,
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			dir = 1,
-			say = "————————数据汇总完毕。主炮发射准备中————————",
+			actorName = "テスター",
+			say = "兵装テスト設定完了、ジャミング音波砲撃兵器、稼働開始――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +305,7 @@ return {
 			dir = 1,
 			actor = 601060,
 			nameColor = "#a9f548",
-			say = "呜哇哇！测试者巨大的主炮好像要开火了哎！",
+			say = "いきなりこちらに砲を向けてきた！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +330,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "切，没有出故障啊，真遗憾………………",
+			say = "あわわ、やはり戦わないといけないよね…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +346,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "那我们也可以无所顾虑的全力攻击了！各舰准备开火，来堂堂正正的一决胜负吧，测试者！",
+			say = "先に攻撃してきたのがそちらなら…！各艦、セイレーン上位個体テスターを撃破せよ！全砲門、発射用意！",
 			effects = {
 				{
 					active = true,
