@@ -42,7 +42,7 @@ return {
 			actor = 601050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "We've pretty close to Crete's shore! But where are the others?",
+			say = "We're pretty close to Crete's shore! But where are the others?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

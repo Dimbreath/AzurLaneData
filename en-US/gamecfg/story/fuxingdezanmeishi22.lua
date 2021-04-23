@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "敌舰全部沉没，战斗结束。",
+			say = "That's the end of them.",
 			bgm = "blueocean-image",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，这种情况说不定反而是某种幸运。我们的航空母舰才刚刚服役，塞壬就“慷慨”的拿来这么多杂兵来帮助我们磨和战术。",
+			say = "All their efforts amount to is a temporary hindrance at best in the face of Sardegna's greatest fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 607010,
-			say = "我会珍惜机会磨炼舰载机操纵技术的，接下来也请尽管分配作战任务给我吧！",
+			say = "Allow me to handle the skies. I shall support you while scouting ahead to the best of my abilities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605020,
-			say = "放心，海域中藏匿的无数塞壬都是你自由狩猎的目标。",
+			say = "Of course, just don't overextend yourself now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 602010,
-			say = "这已经是第几场胜利了呢，我已经有点记不清了。",
+			say = "Yawn. I can't be bothered to keep track of how many enemies we've defeated by now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然迷宫又发生了变化，但是我们正切切实实的向着爱琴海的中心前进，相信那里就是迷宫的中心吧。",
+			say = "(As trivial as they are to fight, they still eat away at our ammo reserves. Furthermore, more of them seem to appear every time the labyrinth changes...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论迷宫变化多少次，我都会为大家规划出正确的道路的！",
+			say = "Over here, folks! This-a way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 601050,
-			say = "我也会努力战斗，消灭更多敌人！",
+			say = "You heard her! Last one there's a rotten egg, Maestrale!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我、也一样。",
+			say = "W-wait! Don't go running off! *sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605020,
-			say = "呵，塞壬想通过不断送上皇家棋子来提醒我们曾经的失败，但看来起到了完全相反的鲜果啊。",
+			say = "We've made significant progress through the labyrinth now, all thanks to Aquila's eyes in the skies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605020,
-			say = "今日的胜利已证明，帝国已经完全走出了名为失败的阴影，一场又一场的胜利将会使帝国变得更加辉煌！",
+			say = "But, though we've traveled a great distance, we have nothing to show for it... It might be time I took a good look around to see what's here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……利托里奥，你是不是有点过于情绪高涨了？",
+			say = "Be careful, Littorio. The Sirens' deployments don't bode well for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605020,
-			say = "有么？我倒是没什么感觉……如果硬要说有的话，也许是我被现在帝国在战斗中所展现的力量所感动了吧！",
+			say = "I'm well aware. Rest assured, I'm not about to let myself get overconfident just from a few victories against measly Pawns.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我有种不好的预感，利托里奥……这些弱小的敌人明显是塞壬故意设置的，它们肯定有所用意……",
+			say = "Good. If Gioberti and the Mirror Sea control device are at the center of the labyrinth, then their defenses should start ramping up significantly pretty soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605020,
-			say = "有所用意又如何？不管出现任何敌人，皆由我们的炮火粉碎就好，不……现在还要加上我们的舰载机才对~！",
+			say = "Even if they do, have no worries. Our forces are strong, and should we need to retreat, the exit is right behind our backs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#a9f548",
-			say = "舰队继续前进，前方还有下一场胜利在等着我们呢！",
+			say = "All you need do, my dear Eternal Flagship, is continue calmly issuing orders like normal.",
 			effects = {
 				{
 					active = true,
@@ -267,10 +267,10 @@ return {
 		},
 		{
 			nameColor = "#a9f548",
-			actorName = "众人",
+			actorName = "Narration",
 			dir = 1,
 			side = 2,
-			say = "是————！！！",
+			say = "The Sardegnian fleet's venture into the labyrinth continued...",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,

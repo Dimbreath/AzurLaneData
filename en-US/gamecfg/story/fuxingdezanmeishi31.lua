@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰——————————！",
+			say = "KABOOM–––––––!",
 			flashN = {
 				color = {
 					1,
@@ -68,7 +68,7 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "「海妖之歌」功率调整至70%————该让这场实验结束了。",
+			say = "Weapon output has dropped to 70% – Initiating protocols to speed up acquisition of test results.",
 			flashN = {
 				color = {
 					1,
@@ -123,7 +123,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "维内托大人，战况不妙。测试者本身并不麻烦，但是强烈的干扰大幅降低了我们的战斗能力。",
+			say = "Tester's strength aside, it's incredibly frustrating not being able to use my full strength because of this accursed jamming...!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -157,7 +157,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "如果不解决掉干扰装置的话，继续战斗下去舰队将会遭受重大损失。",
+			say = "We're going to be at a severe disadvantage as the battle draws on if we can't destroy that EM weapon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我正在尽力寻找干扰装置，但是目前还没有发现任何疑似目标……！",
+			say = "The sky's way too hazy for me to operate my planes effectively! Even though there's not much anti-air fire, my bombers can't get a clear visual...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "区域太广阔了，而装置可能在那些立场墙内，可能在水下，也可能在测试者那巨大的舰装中……",
+			say = "(This area's large enough to conceal a large number of mass-produced ships as well as all the transports... Locking onto Tester is going to be almost impossible with all this haze...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "如果有能找到并破坏干扰装置的能力，我们也能一并连测试者一起解决了……",
+			say = "(Calm down, Veneto... There has to be a way to tip the scales in our favor...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "还需要投入强大的火力……不只一艘航空母舰，而是五艘，甚至十艘的量……",
+			say = "Veneto, head down there and see if you can find anything! I'll hold the enemies back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "要呼叫空军支援么……？只要沿着我们进来的路径飞行空军就能进入镜面海域之中吧！",
+			say = "Littorio? What are you trying to do...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "空军啊……伯罗奔尼撒半岛上确实有不少我们的空军基地，不过要求助空军啊……",
+			say = "The same thing we always do. Veneto commands, and I take the scene in a blaze of glory! Everyone, don't waste your ammo on shots that won't land, and focus on evasive maneuvers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……那铁血的呢？附近应该也有不少铁血的航空基地…",
+			say = "Lead us to victory, Miss Littorio! Lady Veneto!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "也不行……现在呼叫铁血的支援，日后还不知道又会被它们拿走多少利益作为回报……",
+			say = "Now, let's have a closer look at just what we're dealing with here...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "利托里奥，现在不是纠结面子问题的时候。只要能够取得胜利，就算将一小部分战果让与空军又如何？",
+			say = "(Where is this mist that's interfering with Aquila coming from? Yes, I see it...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我决定了，我们将会要求空军前来支援。",
+			say = "Littorio, have everyone aim over there at Tester's position! Make sure to sync your attacks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "既然你决定了的话，我也没意见。不过空军那边很有可能会视而不见啊……算啦，试试再说。",
+			say = "I'm not sure what we're shooting at, but I trust your judgment!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "天鹰，立刻派遣你状态最完好的战斗机队突出镜面海域前往伯罗奔尼撒半岛上的空军司令部，把我们的援军带回来！",
+			say = "Everyone, follow our Eternal Flagship's commands! Don't worry about hitting Tester, just aim at her location, and shoot at maximum elevation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是！不过好像没有这个必要了……！一支庞大的机群正在从西南方向快速接近！",
+			say = "I see! I can work with this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "西北方向也有！维内托大人、利托里奥大人，我们的空军支援已经在赶来的路上了！",
+			say = "Bombers, fighter-bombers, dive now...!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "怪了……这里是与外界通讯阻隔的镜面海域，空军是怎么进来的？而且还能准确找到我们位置……",
+			say = "I get it now... Instead of trying to disperse the haze, you tried to create a route for Aquila's bombers even if they couldn't see the target...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "一向与我们不和的空军居然主动安排了这种规模的支援机群，这股反常的行动力是怎么回事……",
+			say = "But how can we ensure that her bombs hit the mark? Wait... this is a concentrated bombardment through sheer force...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我也没什么头绪……不过确实是非常及时的支援，这样一来胜利就毫无疑问属于我们了。",
+			say = "Follow her lead! Continue to lay down your fire! Don't let Tester escape!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "就是希望那些飞机别又连我们一起炸………各舰立刻和测试者舰队拉开距离，大规模空袭就要来了！",
+			say = "You shall learn what happens when you attempt to defile the splendor of Sardegna, Siren scum!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

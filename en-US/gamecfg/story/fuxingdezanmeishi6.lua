@@ -252,7 +252,7 @@ return {
 			actor = 608010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "(Th-that must me... this is a Mirror Sea that I've heard so much about... I've always wanted to see what it's like, hehehe...!)",
+			say = "(Th-that must be... this is a Mirror Sea that I've heard so much about... I've always wanted to see what it's like, hehehe...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

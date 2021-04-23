@@ -12,7 +12,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "从刚才的战斗情况来看，这批塞壬果然没有获得任何额外的火力提升。",
+			say = "It's as Torricelli said. Just a fresh coat of paint.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真的只是单纯更换了一种夸张的特殊涂装而已啊……",
+			say = "What were they hoping to achieve by changing their coloration? It will do nothing to impede our fleet, accompanied by the Eternal Flagship herself–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "大家注意，前方又发现了一支舰队……成员构成是……皇家舰队？",
+			say = "Abruzzi! Lady Veneto! Your attention, please!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "维内托大人，在前方的舰队中发现了皇家量产型的身影！",
+			say = "I've spotted ships from the Royal Navy directly ahead of us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不可能，皇家舰队现在正驻扎在马耳他呢，怎么可能先我们一步来到这种地方。",
+			say = "That wouldn't be surprising if we were on the west side of the Mediterranean. Out here, however...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "有没有可能是……",
+			say = "Those poor signorinas must be lost and afraid, praying for me to come to their rescue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没有可能的利托里奥，光辉才不会兴师动众只为了专门来给你一个惊喜。",
+			say = "It's a little far-fetched to suppose that they sailed right through Sardegna's busiest routes and wound up in here, all without anyone noticing them first, wouldn't you say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "哈哈，说的也是~那么答案就很明显了，前方正等着我们的是塞壬的皇家棋子舰队。",
+			say = "A little, yes. The simplest explanation is clear enough – that they are Siren Pawns.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "天鹰，你能看清棋子舰队的具体成员么？",
+			say = "Aquila, can you identify who they are?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这支舰队没有舰载机护航，我让侦察机接近一些看看！",
+			say = "I shall try. Give me a moment to bring my planes closer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唔……我看到了光辉、厌战、可畏……还有一些皇家的巡洋舰和驱逐舰！",
+			say = "I see Illustrious, Warspite, Formidable, and... a few light cruisers and destroyers.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -213,7 +213,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "都是些熟面孔啊……先是用特殊涂装的塞壬让我们想起帝国最辉煌的时刻，然后用这些皇家棋子来提醒我们最不堪回首的时刻么？",
+			say = "First they mock our proud colors, then they send Pawns at us. Disgusting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这倒是它们一贯以来的伎俩了……",
+			say = "That's all quite typical for a Mirror Sea, I believe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哼，如果塞壬在做这种打算那它们可要失望了！",
+			say = "Well, if they thought it would wear at our morale, they thought wrong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "当时的失败不过是一时疏忽，撒丁帝国早就已经走出了那段黑暗的阴霾。",
+			say = "I will concede, they caught us off guard once in the past, but now is different. We must put any conflicts we've had with the other factions behind us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "现在是缔造未来之时，吾等岂会因为小小的往昔幻影而动摇！",
+			say = "Sardegna shall not become \"pawns\" in their petty games. It's time we make this abundantly clear to the Sirens, and to the rest of the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不过就是………唉………",
+			say = "(It takes mental fortitude to shoot an adversary with the face of someone you know. We of course have it, but still...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "就算是棋子，光辉小姐和可畏小姐还是那么迷人……要亲手摧毁这份美丽的赝品果然还是有些心痛啊~",
+			say = "(Those armored carrier sisters must've had similar apprehensions when they first fought their own doppelgangers.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……皇家航母就全部交给利托里奥负责，托里拆利等待突袭厌战的时机，天鹰在确保制空权后再考虑对海支援。",
+			say = "Torricelli, attract the attention of those carriers! Make it as easy as possible for Aquila to leverage her planes against them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "其余诸舰自由选择目标开火，向无耻的塞壬展现帝国禁卫军的强大吧！",
+			say = "Everyone else, prepare to engage! Let us show these masquerading Sirens the splendor of Sardegna!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

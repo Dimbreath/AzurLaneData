@@ -16,7 +16,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "铁血……尤其是腓特烈大帝领导下的铁血与塞壬暗中有某种紧密联系，你应该也有感觉吧，利托里奥。",
+			say = "What did Friedrich and I discuss at the last faction summit? Why do you ask, Littorio? I thought you weren't interested in politics.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "同感，铁血与塞壬之间确实有这种说不上来的感觉~你是想问铁血那边知不知道塞壬进行实验的目的？",
+			say = "Make no mistake, I am not. But me being clueless about political developments would not stand in the event you were incapacitated, my dear Eternal Flagship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "果然还是算了……别在意，只是随口一说。",
+			say = "I'm sure we would be just fine with you taking over the fleet~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "仔细想想，迄今为止从来没有过任何铁血与塞壬直接并肩作战的报告，何况最近两边还在铁血要塞里大打一场……",
+			say = "In any case, we mostly talked about the Mirror Sea that Carabiniere went to. Apparently, a battle against the Sirens broke out there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "可能只是腓特烈大帝身上带有的神秘气质影响了我的判断吧……",
+			say = "They were able to emerge victorious thanks to the efforts of their new carriers, Peter Strasser, as well as our Carabiniere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "优柔寡断可是你的缺点，维内托。不是说我也感受到相同的迹象了么，铁血和塞壬之间的关系绝对不是能用“错觉”来解释的。",
+			say = "There must be a reason behind that as well. Veneto, you also don't believe that their involvement with the Sirens ends at merely \"using captured technology,\" do you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "有些疑惑与其靠一个人闷头思考，不如选择在合适的时机向合适的人提问更明智哦。",
+			say = "I've heard that the Northern Parliament uses captured technology as well, though nothing to the extent of what the Iron Blood has at their disposal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "再怎么说这种涉及到盟友信任和国家机密的东西怎么好……………",
+			say = "While I see your point, what good does it do for us to distrust them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "………利托里奥，那天我返航之后是你继续护送腓特烈大帝离开的，你不会直接问了吧？！",
+			say = "Now that I think about it, you were opposed to letting Friedrich visit Sardegna, weren't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "怎么可能，就算是我也不可能会莽撞到这个地步。我只是稍微暗示了一下这个话题而已~",
+			say = "The better question is, why weren't you? You practically rolled out the red carpet for her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（扶额）唉……算了。腓特烈大帝是怎么回应你的？",
+			say = "Huh, was that a poor decision on my part?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "被她干净利落的岔开话题了哦。",
+			say = "Now the realization dawns on you? Your ignorance is sometimes as stunning as your beauty, \"signorina.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "可以预料的结果……单凭你敢于发起这个话题的勇气，就已经让我“十分钦佩”了。",
+			say = "Oh my, I never knew you had... such a sharp tongue. How fascinating.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "多谢夸奖~反正那天她看上去心情特别好的样子，机会难得嘛。",
+			say = "But yes, I knew that she was interested in prying into the inner workings of our Senate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你们还说了些什么？",
+			say = "Oh? Have you spoken to Friedrich as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "倒还确实聊了一些其他的事，比如问我有没有兴趣恢复帝国的荣光，有没有兴趣获得元老院控制权之类的……",
+			say = "That I have. She asked me how I felt about our leaders, and if I was interested in further spreading Sardegna's splendor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "对于恢复帝国荣光我当然很有兴趣，不过卷入元老院的政治旋涡还是算了~",
+			say = "I was more than happy to talk about the latter, but the former? I had no desire to invite that kind of trouble, so I said nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "腓特烈大帝这个人总是能在言语间轻描淡写的抛出一些危险话题啊……",
+			say = "It's good that you were able to have a conversation with her. And even better that you were able to carefully watch your words.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是啊，总之我全部搪塞过去了！再之后她就一脸悠闲的转去了罗马，说是突然想度个假什么的……",
+			say = "I think it's fair to say that I have some experience with that. My signorina, the two of you can be quite similar in certain regards~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "纵使前路坎坷，恢复帝国荣光这件事也只能依靠我们的力量完成，不论如何也没有铁血插手的空间。",
+			say = "Hehe~ I'm glad you're sufficiently perceptive. In any case, the splendor of Sardegna is something that Sardegnians should spread, using Sardegnian methods.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "先保证控制区内的稳定，再拿回关键岛屿与海峡运河的控制权，保证陆间海上的海上贸易就同过去一样……",
+			say = "The routes in the Mediterranean that connect countless peoples and cultures have been an important part of human history. Only through keeping it safe for all... can the world truly understand what it means to be Sardegnian.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不，要比过去更加繁荣才行！届时罗马会成为陆间海的中心城市，而陆间海及其周边区域将会变为在帝国庇护下远离战火的花园。",
+			say = "Yes, we shall spread peace and prosperity in a way that has never been seen in the past, first throughout the Mediterranean, then all of Europa.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "现在的帝国也许就同此刻的我们一样，在曲折回环的迷宫中艰难前行着……",
+			say = "These noble dreams and aspirations are a constant reminder that we are more than weapons of war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "只要我们能够成功穿越迷宫，无疑同样预示着帝国也能成功走出困境。我们成功的开端，将会成为帝国复兴的开端。",
+			say = "More than ever, we understand the importance of shattering this Siren Labyrinth and retrieving the stolen artwork.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "大步向前吧，撒丁帝国的战士们。有雄鹰在前方为我们导航，不论迷宫如何变化，我们都不会继续迷失方向了！",
+			say = "No matter how many obstacles lie in our path, we will never lose sight of our goal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

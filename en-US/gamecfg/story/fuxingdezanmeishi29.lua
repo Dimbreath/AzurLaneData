@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "哟，“米诺陶诺斯”，我们来迷宫里讨伐你了哦。",
+			say = "So this is your doing, Tester...",
 			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605010,
-			say = "根据装备判断是塞壬的测试者呢。塞壬的人型指挥者通常也是镜面海域的控制者，只要解决了你就等于解决了整片区域的塞壬问题吧！",
+			say = "You're the one who attacked Sardegna's transport ships and abducted our escorts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "——————与计算中分毫不差。",
+			say = "...Excellent. This matches the expected data from our simulations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "就算是这样的重现也没有出现任何预料之外的变化————",
+			say = "Hmm, maybe a bit longer than expected? It's difficult to avoid errors, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能让我们彻底走出过去的阴影，某种意义上还要感谢你准备的机关。",
+			say = "...You really are treating us as experimental guinea pigs, just as your name suggests.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605010,
-			say = "现在撒丁帝国将会真正驶向辉煌的未来，至于你，该到退场的时间了！",
+			say = "Did you create this Mirror Sea and attack our shipping routes just to lure us in?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "均是封闭的环境，对于场景的不完全重现，均没有接触过“变量”————",
+			say = "This is an experiment using incomplete \"Reenactment\" in a closed system under normal conditions, without the confounding variables of \"humans\" or \"Them.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "为什么之前发生了变化而这次没有————究竟区别在哪里————无法得出有效结论。",
+			say = "We have determined that the aircraft carrier from the Sakura Empire is \"extremely anomalous.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605010,
-			say = "喂，测试者，你有在听么！",
+			say = "Answer me, Tester!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "更多的测试是必要的，正在对当前结果进行汇总以纳入归纳————————",
+			say = "Now uploading data. This body will then be surrendered for the purpose of testing experimental EMP weapons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对于我们的发问完全没有反应，听说塞壬人型指挥者都是能够正常交流的存在，情报有误？",
+			say = "She's completely ignoring us, as if we don't even matter to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 607010,
-			say = "会不会是故障之类的……或者说塞壬的测试者就是这样不理人的性格……？",
+			say = "From what I've read, the other factions have fought against Sirens calling themselves \"Tester\" on several occasions, but they've been able to communicate before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605010,
-			say = "我不知道……我也是第一次实际当面见到测试者……",
+			say = "We might have a special case on our hands by the looks of things...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			actor = 601050,
 			nameColor = "#a9f548",
-			say = "要动手么…？既然确定了是罪魁祸首，我们干脆点直接上吧！",
+			say = "Veneto, we've finished evacuating Gioberti and the transport ships!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 601040,
-			say = "在这种情况下打过去，应该说不够堂堂正正，或者说缺乏开战感……总有种说不出来的感觉。",
+			say = "Can we leave now? Is that thing just not interested in us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "同感。现在发起攻击的话总有一种趁人不备进行偷袭的感觉……就和皇家喜欢做的事一样。",
+			say = "I am loathe to run my rapier through an opponent that will not draw her blade, but my code of conduct does not prohibit any tactic from being used against a Siren foe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果真的是因为故障无法行动的话，请务保留一些完整的部件拆下来，唔呼呼……",
+			say = "R-rigging parts... hehe, hehehe... I'd like to retrieve some, if possible... Hehehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "————————数据汇总完毕。主炮发射准备中————————",
+			say = "Weapon test settings confirmed.... Loading EMP Artillery... Commencing operation–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			actor = 601060,
 			nameColor = "#a9f548",
-			say = "呜哇哇！测试者巨大的主炮好像要开火了哎！",
+			say = "Holy! She's pointing her guns at us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "切，没有出故障啊，真遗憾………………",
+			say = "I guess we have to fight after all... Hehehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "那我们也可以无所顾虑的全力攻击了！各舰准备开火，来堂堂正正的一决胜负吧，测试者！",
+			say = "If you're going to be the first to draw, we won't hold back! Everyone, ready your guns! Defeat that high-level Siren!",
 			effects = {
 				{
 					active = true,

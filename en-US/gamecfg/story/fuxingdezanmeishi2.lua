@@ -39,7 +39,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "\"Locate the whereabouts of the fleet that has gone missing in the Aegean Sea, and try to retrieve as much of the lost\"artwork\" as possible— or at least make the Sirens pay their dueprice.\" —These are the orders we've received from the Senate.",
+			say = "\"Locate the whereabouts of the fleet that has gone missing in the Aegean Sea, and try to retrieve as much of the lost \"artwork\" as possible— or at least make the Sirens pay their due price.\" —These are the orders we've received from the Senate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

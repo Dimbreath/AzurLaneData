@@ -15,7 +15,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "大家注意！相似的航路与“皇家”舰队又在前方出现了…………",
+			say = "More Siren Pawns are starting to show up again!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -42,7 +42,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唔……果然还是要进行迎击吧！",
+			say = "Damn it! Do we have to fight our way through them no matter what?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "且慢。在刚刚情绪激动之时确实看漏了很多信息……",
+			say = "Lady Veneto, I have an idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你们仔细看，那支棋子舰队似乎并没有什么进攻意图。",
+			say = "The enemy clearly has no will to fight. Why don't we try to bypass them without trying anything fancy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真的哎……并没有明显向我们的方向行驶来，武器也没有瞄准的迹象。",
+			say = "Are you serious? What if they turn on us when we're right next to them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 601050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "好像就在前方等待着我们一样…！",
+			say = "Heeeeey! Maestrale, check this out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			actor = 601040,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "等着我们做什么……等着被我们摧毁么？",
+			say = "Wait, Libeccio! ...Stay away from them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "然后在棋子舰队全灭之后迷宫就会发生变化，我们也会进入一个新的循环……",
+			say = "No! Come back, Libeccio...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没想到居然是这样……看来必须得想出一个突破循环的办法才行啊……",
+			say = "Wait, they're seriously not attacking her...",
 			blackBg = TRUE,
 			typewriter = {
 				speed = 0.05,

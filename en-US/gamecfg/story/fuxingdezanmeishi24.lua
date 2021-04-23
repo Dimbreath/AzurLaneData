@@ -14,7 +14,7 @@ return {
 			bgm = "battle-boss-italy",
 			actor = 602010,
 			nameColor = "#a9f548",
-			say = "维内托大人，我们又一次粉碎了面前出现的“皇家”舰队。",
+			say = "Lady Veneto, Littorio has already taken out the last of the enemies.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			actor = 607010,
 			nameColor = "#a9f548",
-			say = "我感觉对于舰载机的操纵正变得越来越熟练，很快就能和皇家的淑女们正面较量一下了呢！",
+			say = "There's a certain sense of satisfaction you get from cleaving through swaths of enemies with ease.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯、大家的表现都很出色…………",
+			say = "I guess so... Hm? Littorio?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你怎么闷闷不乐的，维内托？对我们取得的成就还不满意么？",
+			say = "What's the matter? Did you want to check on our kill count?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……成就？你是指在变化的迷宫中一遍又一遍的消灭塞壬的棋子舰队么？",
+			say = "Of course not. I just had a question.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "睁开你的眼睛看看周围，利托里奥，你已经完全陷入塞壬的陷阱了！",
+			say = "How do we know that we're headed in the right direction?",
 			effects = {
 				{
 					active = true,
@@ -134,7 +134,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哈？你在说什么？除了周围漂浮的敌人残骸之外，我没有感受到任何陷阱！",
+			say = "Because Vincenzo Gioberti must still be deeper inside, protecting the fleet and our precious artwork. What choice do we have but to keep pushing forward to complete our mission...?",
 			effects = {
 				{
 					active = false,
@@ -158,7 +158,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "现在是帝国的辉煌之时，而这样的辉煌是在你我的领导下完成的！",
+			say = "Besides, didn't we establish that there's a good chance that the Mirror Sea control device is somewhere in here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你难道没有感受到么，帝国正在我们的领导下走向复兴啊，维内托！",
+			say = "If we find it and destroy it, we can eliminate this Mirror Sea and end the threat to our shipping routes.",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "复兴帝国是一场战斗的胜利就能做到么？我们所追求的目标是如此轻而易举就能完成的么？",
+			say = "That's exactly what I'm talking about. Why are we navigating through this labyrinth in the first place, and what if we've made a fundamental error about our objectives?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "当然不是！我们需要的不是一次胜利，而是一次又一次接连不断的胜利！",
+			say = "Veneto... What are you trying to say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "在皇家限制我们在阿非利加的利益时我们忍了，铁血试图介入陆间海事务时我们也忍了，因为什么？",
+			say = "What else can we do but to go deeper inside the labyrinth?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "就是因为我们坚信现在失去的一切在不久的未来将会由我们亲手夺回来！",
+			say = "All the enemies we've defeated means that we're on the right path, does it not?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "而现在不就是一个最好的开端么？帝国海军现在已经今非昔比，帝国的荣耀正在我们手中书写！",
+			say = "Besides, Aquila and da Recco would've said something if they felt like we weren't going in the right direction.",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "……你还是没有从过去的失败中走出来啊，利托里奥。",
+			say = "I'm not trying to imply that the two of them aren't performing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你在说什么？我早就走出来了，而且已经开始迈向崭新的未来了不是么！",
+			say = "Of course. All of our colleagues are giving their utmost to make this operation a success.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "不，你没有走出来。",
+			say = "But, I've been thinking about whether we've been on the right track this whole time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "……可能我也没什么说这种话的资格。包括你，包括我，也包括我们每一个人，其实整个帝国都没有走出来。",
+			say = "I am starting to believe that we've conflated \"navigating through the labyrinth\" with our original objectives of rescuing Gioberti and retrieving the artwork.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "我们所做的只是单纯的视而不见，然后擅自开始走向新的未来而已……",
+			say = "Sure, at first, we had no choice but to enter the labyrinth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "一直以来，我们甚至都没有哪怕正视过那些隐藏在失败之后的问题。",
+			say = "But each time the labyrinth shifts, I'm forced to reevaluate whether or not we're doing the right thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "我们所谓的反思，都只是将失败简单归结于设备落后、准备不足与皇家的无耻。",
+			say = "At least it's comforting to know that the path back to the entrance has not changed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "可是我们在心里的某处其实都知道，事情不是这样的，至少不是这样简单的。",
+			say = "Though I do not wish to deny the efforts that all our friends have put forth, if what pushes us forward obstinately is our sense of pride and splendor, then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "难道不是么，利托里奥，还有阿布鲁奇公爵？",
+			say = "I'm sorry... This is my failure as a leader.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_italyv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我……………………",
+			say = "Lady Veneto...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "利托里奥，你是有些莽撞，但是你从不盲目。至于阿布鲁奇公爵，你更是一位冷静而又经验丰富的战士。",
+			say = "(It's not too late yet, but there is no \"glory\" in what we are doing. We have to change our mentality that forward is the only direction we can go...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "可就算是这样的我们，还是因为塞壬的一点设计就陷入空前的混乱之中……",
+			say = "(We consume ammunition every time we engage the enemies, no matter how weak they are. Sooner or later, having to remain alert while sailing will deplete our strength.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "一次次向我们呈现过去的幻影，一次次引导我们进行发泄般的胜利，最后将我们引向疯狂，从而永远的迷失在迷宫之中……",
+			say = "(While Aquila is already dramatically exceeding my expectations with her resilience and focus, we have no backup should she become exhausted.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "这就是塞壬真正在利用这个迷宫对我们所做的事。",
+			say = "(Did I overlook all of this simply from thinking that we're in a Siren research facility...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "塞壬准确抓到了我们深埋在心中的弱点，然后只依靠无形的机关就让帝国最精锐的舰队轻易抵达了自我毁灭的边缘。",
+			say = "(You might be worried about your missions, but don't ever lose sight of your friends, Veneto!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "……塞壬也许并不是对我们一无所知，而是了解的过于清楚了。",
+			say = "(I see... It's not that the Sirens don't know enough about us... It's that they know too much about us.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "清楚到做事会直接跳过中间过程，放弃基本的委婉，因此才让我们产生了塞壬什么都不懂的错觉。",
+			say = "(They've exploited our tendency to rush to act, constantly giving us the illusion that we're moving forward and getting closer to our goals, without ever stopping to think what our goal actually is. Perhaps that little tea party that Littorio threw was...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "这不是一件真正令人感到毛骨悚然的事么？",
+			say = "Littorio, I'm going to need your help to complete this operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "抱歉，维内托……………………我今天，好像确实有些太激动了。",
+			say = "But whatever you have planned, always know that I, as your other half, shall fully support you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……我也是在不知不觉中就，有些疯狂了……毫无疑问，这是我的失职行为。",
+			say = "I, Duca degli Abruzzi, have also underestimated the enemy. For that, I am deeply ashamed of myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "非常抱歉维内托大人！是我还不够成熟……",
+			say = "I'm also sorry! Because of my inexperience, I was unable to recognize...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "身为航海家的我居然迷失了方向……超，超级对不起！！",
+			say = "Looks like I also need more training...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			actor = 601050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啊，我也————",
+			say = "Huuuh? Why's it like confession hour in here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -715,7 +715,7 @@ return {
 			bgName = "bg_italyv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噗……好啦，又不是在开检讨大会，周围还有无数敌人在看着哦？",
+			say = "Have we all managed to take a step back? We can still get through this, but we'll need to change the way we do things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			blackBg = true,
 			actor = 605010,
 			nameColor = "#a9f548",
-			say = "虽然现在身处困境的情况并没有好转，不过至少大家先冷静下来，然后再一起思考对策吧！",
+			say = "Littorio, I'm ready to lead once more – Everyone, get ready to set sail!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

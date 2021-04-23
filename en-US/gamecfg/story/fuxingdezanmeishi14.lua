@@ -372,7 +372,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "We have Aquila surveying the situation from the air, Toricelli's field intel, and da Recco's navigation. With them, we are given new hope!",
+			say = "We have Aquila surveying the situation from the air, Torricelli's field intel, and da Recco's navigation. With them, we are given new hope!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

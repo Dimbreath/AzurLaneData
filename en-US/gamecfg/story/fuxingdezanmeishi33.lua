@@ -14,7 +14,7 @@ return {
 			bgm = "level02",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "数日前 北方联合某处",
+			say = "A few days before the Battle of the Labyrinth...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			actor = 702020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哟~好久不见啊，神速。",
+			say = "Yo, Snezhok, I'm here to play~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			actor = 701060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哇啊，是水星纪念，你怎么突然来这里了？！",
+			say = "Oh, hey Pamiat! Did you buy another new video game?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 702020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这么长时间没见，当然是来看看你嘛~",
+			say = "Maybe I did, maybe I didn't! More importantly, how've you been?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 701060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真的么~！这里的同志不多又没什么敌人，每天训练我都快闷死了。",
+			say = "Meh, it sucks that there's been no snow... No battles either, just the same old training every day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			actor = 701060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "正好你刚来还不熟，我带你参观一下这里好了，走吧走吧~！",
+			say = "Oh, right! This is your first time here, yeah? I'll show you around if you'd like.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 702020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "等等等等……我刚长途航行过来，现在就饶了我吧……",
+			say = "Hmm... Thanks for the offer, but maybe later! My back's a bit sore from the long trip, and y'know, there's sometimes stuff you just aren't in the mood for... Next time though!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			actor = 701060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哇哦，对啊！你稍等，我这就联系后勤！",
+			say = "Next time? Are you going somewhere?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 702020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "也不用那么麻烦，给我一张床就行，明天我就要启程前往下一站了~",
+			say = "I guess? Planning to leave tomorrow~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 701060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哎……？这么着急么，那你这次来究竟是……？",
+			say = "Ehh? E-even though you're so busy, you still came to see me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 702020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "有一个来自苏维埃同盟的绝密命令，必须要用这种绝对安全的方式要向你传达哦。",
+			say = "Hehe, I'm gonna let you in on a little secret. It's been a while, but Soyuz contacted me personally to give me a mission...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 702020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不用担心~只是一次简单的信使工作而已。详细内容就在这个文件袋里，如果有问题的话等我先睡一会儿再说…………",
+			say = "It's nothing complicated though~ I just have to deliver the documents in this briefcase... *yawn*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			actor = 702020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "很快……你这边也要热闹起来了哦…………zZZ",
+			say = "But man am I beat! Maybe I'll take a little nap... after checking on any new releases...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

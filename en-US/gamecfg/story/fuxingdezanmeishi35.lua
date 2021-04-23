@@ -11,7 +11,7 @@ return {
 			bgName = "bg_guild_blue",
 			dir = 1,
 			bgm = "blueocean-image",
-			say = "稍早前 马耳他岛·皇家海军驻地",
+			say = "Royal Navy - Naval Base",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -43,7 +43,7 @@ return {
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在文件堆积如山的办公桌前，光辉今日也在沉思着。",
+			say = "Illustrious, one of the Royal Navy's aircraft carriers, opened an invitation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			actor = 207030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "“至美丽的光辉女士………………”唉，不论看多少遍都一样。",
+			say = "This invitation is from... Littorio?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			actor = 207030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "利托里奥真的会不经思考就提出这种夸张的联合作战邀请么……",
+			say = "...a request to attend a joint meeting for cooperation between the various factions...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 207030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "还是说这次邀请另有深意…………完全猜不透楚她们的态度啊。",
+			say = "It feels like after so long, all the differences in this world are finally being set aside...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			dir = 1,
-			say = "光辉再一次放下撒丁帝国的邀请函，然后再一次拿起旁边的另一份文件。",
+			say = "She closed the invitation and picked up another letter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			actor = 207030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "黎塞留的这份也没把关键问题说清楚……",
+			say = "This one's from Richelieu...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 207030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "铁血决定缓和局势肯定是另有所图，可究竟有哪些底牌，是什么企图…………",
+			say = "\"It is a relief that the Iron Blood is willing to cooperate, but we must always be wary of their ulterior motives...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			actor = 207030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "怂恿撒丁帝国或者维希教廷海军来进攻马耳他么………………",
+			say = "Is there something that the Naval HQ isn't telling us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 207030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "完全搞不懂…………哎，警报声？",
+			say = "Oh... Um, come in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 202030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "光辉，附近来客人了哦。",
+			say = "Sorry to interrupt. I've just received a message from the East.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			actor = 207030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……维希教廷还是撒丁帝国？",
+			say = "From the Vichya Dominion? Or perhaps Sardegna?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			actor = 202030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是塞壬哦。而且袭击目标不是我们，虽然目前还不能肯定，不过看上去是向着撒丁帝国的首都罗马去的。",
+			say = "It's from Sardegna. They say that Sirens have appeared near their capital.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 207030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "从哪儿来的塞壬舰队……？而且对罗马发动突袭…………？",
+			say = "Sirens... near their capital? How is that possible...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 202030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "详细情报正在整理中，你最好也来看一下，真是不得了的规模……",
+			say = "I don't know what the exact situation is, but it seems they don't have the numbers to handle it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 207030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………我知道了。",
+			say = "I understand. Thanks for letting me know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			actor = 207030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………………………撒丁帝国主力正在爱琴海执行任务，罗马这边恐怕没什么防御能力吧。",
+			say = "I know that Littorio left to deal with the Mirror Sea that appeared in the Aegean... Will their capital be able to withstand the attack...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			actor = 805010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "“光辉女士，腓特烈大帝手中还有很多底牌。她现在决定让局势降温只是因为这是一种更容易让其达到目的方式而已。”",
+			say = "\"Miss Friedrich, or more accurately, the Iron Blood, is still an unknown variable to us. Even if we see eye-to-eye for the time being, I am not inclined to expose my back to them.\"",
 			effects = {
 				{
 					active = true,
@@ -360,7 +360,7 @@ return {
 			actor = 805010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "“为了陆间海的真正和平与稳定，请皇家陆间海舰队在大型作战期间无论如何一定要留在马耳他坐镇，以备不测。”",
+			say = "\"As a representative of Iris Libre, I can say that we would feel much safer if the Royal Navy maintained its presence in Malta to ensure the peace and stability of the Méditerranée.\"",
 			effects = {
 				{
 					active = true,
@@ -401,7 +401,7 @@ return {
 			actor = 207030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "现在究竟应该怎么做才好呢………………",
+			say = "My, my... I wonder what we should do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

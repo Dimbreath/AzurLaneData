@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰——————————！",
+			say = "KABOOM–––––––!!",
 			flashN = {
 				color = {
 					1,
@@ -68,7 +68,7 @@ return {
 			actor = 605060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "塞壬袭击？！在罗马的近海么？！开什么玩笑！",
+			say = "What?! A Siren attack near the capital?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 605060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "外围防线呢？巡逻部队呢？岛屿警戒呢？这些塞壬究竟是从哪儿冒出来的……？！",
+			say = "Where's our patrol fleet? And our coastal defenses? Why haven't we heard anything?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 603030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "从攻击方向上来看，这些塞壬好像是从皇家控制的海域过来的哦。",
+			say = "Can't say. But since we've confirmed that the Mirror Sea in the Aegean has completely vanished, maybe it's a group of stragglers from somewhere else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			actor = 605060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "………………为什么事情只要牵扯到皇家就会变的这么糟糕。",
+			say = "We should contact the Royal Navy about this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 605060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "可恶…！现在没时间调查原因了，立刻通知沿岸人员避难，所有一般船只立刻入港。",
+			say = "In any case, our top priority is protecting the safety of this port. Have we sent evacuation orders for civilian ships?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 603030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯，广播系统已经开始发布避难指令了。",
+			say = "Already took care of that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 605060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "岸防系统已经就位了么？",
+			say = "Now, we need to figure out why our coastal installations have been sleeping on the job...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			actor = 603030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "岸防系统发来消息说正在进行最后的调整，因为今天是休息日……貌似还需要一些时间……",
+			say = "I don't think we should worry about that at this point. Unlike us, the coastal artillery takes a long time to get warmed up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			actor = 605060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "休息日………………空军呢？",
+			say = "Just great... And even Veneto isn't here following that Mirror Sea incident...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			actor = 603030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "空军也回复需要准备时间……这次袭击过于突然，各部门都有些猝不及防。",
+			say = "Zara and others are trying to lead the interception efforts, but we're already on the back foot. I wonder if the Sirens are directly controlling those aircraft...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			actor = 605060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "明明是平时都过于散漫了吧！突袭这种事怎么可能事先跟你打好招呼啊……！",
+			say = "Damnit, I can't believe that I'm still not at full strength at such a crucial moment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			actor = 605060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唉……现在停留在奇维塔韦基亚的只有你跟我两个人，所以能立刻迎击的也只有我们么。",
+			say = "But right now, the only shipgirls stationed at Civitavecchia are you and I. So it falls upon us to stop the attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			actor = 605060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "罗马是为数不多从未被塞壬破坏过的沿海城市……本日也绝不能在我们手里出现闪失！",
+			say = "Our imperial capital emerged unscathed from the previous war against the Sirens. It would be a travesty should she be attacked now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			actor = 603030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "别担心，凯撒。一艘重巡洋舰加上一艘战列舰来招呼这些塞壬绰绰有余了！",
+			say = "I agree. One battleship and one heavy cruiser should be a sufficiently formidable force.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "不对，是两艘战列舰哦。",
+			say = "Nay... Make that two battleships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			actor = 603030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………？！您，您是…………！",
+			say = "Who...?! You're...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			actor = 499020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "腓特烈大帝。铁血海军战列舰，腓特烈大帝。",
+			say = "The acting leader of the Iron Blood, Friedrich der Grosse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			actor = 499020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呵呵，这场盛大音乐会的序曲，就由我来奏响吧。",
+			say = "I do hope you will allow me to compose the next movement of your symphony...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			actor = 499020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "第九交响曲，合唱————————————",
+			say = "Ahahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

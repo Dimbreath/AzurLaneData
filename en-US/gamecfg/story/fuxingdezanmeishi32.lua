@@ -13,7 +13,7 @@ return {
 			bgmDelay = 1,
 			bgm = "blueocean-image",
 			hidePaintObj = true,
-			say = "在仿佛由伯罗奔尼撒半岛上全部飞机所汇聚的庞大机群轰炸下，塞壬的“歌声”很快就从海域中消失了。",
+			say = "It was unclear whether Aquila's devastating bombardment was able to destroy Tester's experimental EM weapon, but it was certain that the Siren had been pushed back.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			bgName = "bg_italyv2_4",
 			dir = 1,
-			say = "失去了干扰手段的测试者也没有坚持更长时间便彻底消失在水面之上。",
+			say = "With Tester's retreat, the Mirror Sea that threatened the Aegean began to fade, along with the giant labyrinth sitting atop the ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_italyv2_4",
 			dir = 1,
-			say = "伴随着逐渐远去的机群轰鸣声，大迷宫逐渐变得模糊，然后如同真正的海市蜃楼一般从海天之间消散了。",
+			say = "All that remained were the smoldering husks of mass-produced Sirens, drifting supplies, and the safely-evacuated Senate transport.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			actor = 601030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "看吧看吧~我就跟你说，我们撒丁帝国的舰队可是很厉害的！",
+			say = "Heheh~ Sardegnian shipgirls are the best of the best!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 701060,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "唔嗯~是一支很有精神的舰队，从正面消灭了测试者，很厉害哦！",
+			say = "Hmph. Not a bad display, but you guys still don't hold a candle to the might of the Northern Parliament!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 701060,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "不过我们的舰队也不差，如果有机会来北方联合的话，我一定带你好好参观一下！",
+			say = "Let's have a joint exercise next time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 601030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真的么？！那就约好了哦~！",
+			say = "I'll make you eat your words! You'd better not chicken out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呵呵，两位在连续战斗之后还能这么有精神真是太好了。",
+			say = "Everyone fought their hearts out, but it seems like we're all safe and sound~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "维内托大人，统计完毕。除了将近四成的量产型损失之外没有其他损失，所有运输船完好无损。",
+			say = "I've finished checking on the condition of the transport ship. None of the pieces of art on board were damaged.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "量产型损失了四成啊……算了，总之元老院和我们的货物平安无事就好。",
+			say = "Thank goodness... I was getting a little worried from how heated the battle was becoming...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "大家在本次行动中的表现都很出色。特别是天鹰，你释放的雄鹰对于整场行动起到了至关重要的作用，简直让人看不出是第一次来到战场一般的熟练呢~",
+			say = "We all had to work a lot harder than expected, especially Aquila. I must thank everyone for making this operation a success.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "多谢夸奖，维内托大人！在这次战斗中我深刻认识到了实战中舰载机的重要性与自身尚且存在的不足之处。",
+			say = "Thank you for your praise, but I still have much to learn. Compared to the leadership of Miss Littorio and Lady Veneto, and the tireless efforts of everyone here, I barely accomplished anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我会在回去之后继续刻苦训练……尽快成长为不输给皇家光辉级的优秀的航空母舰！",
+			say = "I will continue to study and train harder, so that I may become a carrier that Sardegna truly can be proud of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那我就拭目以待了哦。终有一天，这片陆间海将会变为能够让帝国雄鹰自由翱翔的狩猎场吧……",
+			say = "Now now, if you try too hard to be humble, you'll come off as being insincere. Hehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "在出发之前真没想到本次搜索失联舰队的行动竟会是如此的跌宕起伏……",
+			say = "(The Mirror Sea completely disappeared before we were able to thoroughly investigate it...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "如同海市蜃楼却拥有实体的大迷宫、充满罗穆路斯风格的塞壬涂装、无限重复的“皇家”舰队，最后居然与空军一起战胜了强大的测试者。",
+			say = "(We managed to rescue Gioberti and retrieve the art, eliminate the Siren threat, and even help out one of the Northern Parliament's ships. And yet...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "困扰多时的塞壬要塞被清除，艺术品舰队完好无损，甚至还增加了一位来自北方联合的信使。",
+			say = "(I can't shake the feeling that we did not truly achieve a victory here today...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "帝国舰队也通过这一战真正走出了束缚内心多时的迷宫……",
+			say = "Phew... I haven't fought like that in a long time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "如此具有史诗感的伟大胜利，简直值得写成歌剧前往各个大剧院演出了不是么~？",
+			say = "All's well that ends well. Isn't that right, my precious sister, and Eternal Flagship of the glorious Sardegna Empire?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啊话说维内托，你把行动圆满成功的消息告诉元老院了么，那边什么反应~？",
+			say = "We were able to rescue the transport ship and secure the artwork. After the Senate sees our report, we might even earn ourselves a little beach vacation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………不行，还是联络不上。",
+			say = "Hmm...... You know what, that does sound pretty nice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……联络不上？和哪里，元老院么？",
+			say = "Right? Oh, did the Senate say anything?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "对。战斗结束之后我就和元老院进行了联系，但是通讯一直连接不上。会不会是那边出了什么事…………？",
+			say = "Quite the opposite, actually. I was told that they received the report, but I haven't been able to reach any of them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "怎么可能~！元老院可是位于帝国的心脏罗马啊。别担心，大概只是一时故障而已，一会儿再试试吧~",
+			say = "Do you think this is a side-effect from the EMP attacks we suffered in the Mirror Sea? Well, I guess there's no immediate rush to contact the Senate anyways...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "说的也是~大家都整备完成了么？让我们列队凯旋吧，在罗马还有一场盛大的庆功等待着我们呢！",
+			say = "Exactly. Now's the time to enjoy the company of friends. By the way, do you still happen to have some of Her Majesty's tea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

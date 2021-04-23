@@ -205,7 +205,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 314,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>\"Come, and become a pillar for our reborn empire! Let us seize glory together! \"</color> \nObtained from the \"Daedalian Hymn\" Prelude event.",
+		desc = "<color=#ffffff>\"Come, and become a pillar for our reborn empire! Let us seize glory together! \"</color> \nObtained from the \"Daedalian Hymn\" event.",
 		scene = {}
 	},
 	[501] = {

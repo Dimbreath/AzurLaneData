@@ -16,7 +16,7 @@ return {
 			actor = 601050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "奇怪……从刚才开始武器系统就不太好使了。",
+			say = "Ehhh...?! All the electronic devices on my rigging started going haywire!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			actor = 601040,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "电子设备也是……！附近有一种奇怪的干扰存在、但是检查不出问题！",
+			say = "Me too... I can barely even aim...! I don't even know what's wrong though!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			actor = 608010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这个难道就是塞壬一直在隐藏的海妖之歌么……",
+			say = "This must be the work of the Siren's secret weapon... How terrifying... and exciting... Hehe, hehehehe...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "歌？我什么声音都没听到哦！",
+			say = "Is this the mythical Siren song that leads sailors to their demise? I can't feel it, but I can't hear it at all...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 608010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唔呼呼……八成又是塞壬的古怪设定。也许是用电磁波来制作的“歌声”，所以我们才听不到。",
+			say = "Maybe it's a weapon that's firing at a specific frequency... Some kind of electromagnetic wave that we aren't able to detect...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			actor = 608010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "在发现无法继续干扰我们的情绪之后还能改变模式对我们的设备进行干扰，真是可怕的装置……",
+			say = "But wow... What a dramatic effect it's having on our equipment... How scary...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "遇到了塞壬在扮演塞壬的时候使用了海妖之歌，当做宴会上的冷笑话来说倒还真不错……",
+			say = "(At that moment, we all understood why the Sirens were given that name...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			actor = 601030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "维内托大人、利托里奥大人，GB正式归队！",
+			say = "Veneto! Littorio! Vincenzo Gioberti is ready to fight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哦~！现在正需要人手呢，来的刚刚好，这几天没受伤吧？",
+			say = "Are you sure? Don't push yourself if you're injured!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			actor = 601030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没有受伤！所有运输船也一艘都没有少，我可是全~~~~力保证了每一艘船的安全哦！",
+			say = "No worries, Miss Littorio! We all worked hard to keep the transport ships safe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			actor = 601030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "就是一直在这个迷宫里打转，也不知道还能坚持多久……还好终于等到你们来了……！",
+			say = "But, after we got caught up in here, I haven't had anything to eat... It's been two days already, and I'm starving!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "既然你陷入了危险之中，我利托里奥怎么可能放着不管呢~",
+			say = "We wanted to come after you as soon as we heard that the transport fleet was attacked, but we got pushed back a day due to various reasons...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "在听到你失联的消息后我们立刻筹备了本次救援行动，然后如你所见现在来接你回家了~",
+			say = "In any case, Veneto and I owe you an apology.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "话说回来，旁边的那位美丽的小姐是？",
+			say = "...And who might you be, young lady?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 701060,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "大家好~！我是来自北方联合的愤怒级驱逐舰神速，现在正在执行出访撒丁帝国的外交任务中！",
+			say = "I'm Stremitelny from the Northern Parliament! I'm carrying out a diplomatic mission at the instructions of Miss Soyuz!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			actor = 701060,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "没想到在遇到文琴佐之后不久就卷入了迷航事件……可恶的塞壬！这可是苏维埃同盟亲自布置的重要任务呀！",
+			say = "...Well, that was the plan, anyway, before I got caught up in a Mirror Sea! Ugh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "来自北方的使者，苏维埃同盟亲自布置的任务……这还又是一个令人意外的展开。",
+			say = "(Soyuz brought someone with her? How unexpected...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "往常的话我们一定会用最盛大的宴会为您接风，不过现在的情况如您所见，我们正在完成清理塞壬镜面海域的最后一步。",
+			say = "I'm sorry you got caught up in our troubles, Stremitelny. After we finish this operation, I'd like to show you around our capital.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "您可以在后方观看我们的战斗，在问题解决之后我们会护送您一路前往撒丁帝国的首都罗马。",
+			say = "This place is going to turn into a warzone soon though, so I'd recommend you evacuate with the others–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			actor = 701060,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "那怎么行！你们在和塞壬打架，我怎么可能在后面等着呀！",
+			say = "Don't underestimate my ability to beat up those Sirens!",
 			effects = {
 				{
 					active = true,
@@ -426,7 +426,7 @@ return {
 			actor = 701060,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "放心，我在作为外交人员之前更是一名北方联合的战士，揍塞壬这种事很在行啦！",
+			say = "Besides, I owe you for coming to our aid!",
 			effects = {
 				{
 					active = false,
@@ -450,7 +450,7 @@ return {
 			actor = 701060,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "如果你们不介意的话，就让我们一起并肩作战吧！",
+			say = "So let me join you, and I'll show those big bad Sirens why they should fear my name!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

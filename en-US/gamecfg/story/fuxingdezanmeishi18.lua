@@ -14,7 +14,7 @@ return {
 			bgm = "battle-boss-italy",
 			actor = 602010,
 			nameColor = "#a9f548",
-			say = "敌方舰队全灭，战斗结束。我们的损失统计呢？",
+			say = "Confirming all Pawns have been eliminated. What's our damage?",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			actor = 601040,
 			nameColor = "#a9f548",
-			say = "总计只有几处擦伤，舰队损伤轻微。",
+			say = "A few scratches and bruises, but not much else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			actor = 602010,
 			nameColor = "#a9f548",
-			say = "呵……真正的皇家舰队要是这么好对付就好了啊。",
+			say = "Hmph. Their likeness to the real Royal Navy is only skin-deep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_italyv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬再怎么试图模仿我们，生产出来的终究不过是些劣质的赝品。",
+			say = "I'm well aware Pawns are only imitations of us, but this is just pathetic on the Sirens' part.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			actor = 602010,
 			nameColor = "#a9f548",
-			say = "我们的荣耀、辉煌与传承它们真是一点都不了解。",
+			say = "Normally, they would adjust their tactics to match that of the targets they're copying, but these ones did not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			actor = 602010,
 			nameColor = "#a9f548",
-			say = "在惨痛的失败之后帝国集中全力进行了航空兵器突破，我们也都进行了刻苦的夜战训练。",
+			say = "They behaved erratically. Much like they were fighting without a clear goal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			actor = 602010,
 			nameColor = "#a9f548",
-			say = "就算是真正的皇家舰队来了我们也有取胜的能力，更何况是这些棋子舰队。",
+			say = "It makes me wonder how we would fare in a fight against the real Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			actor = 601060,
 			nameColor = "#a9f548",
-			say = "是呀，现在这样的程度就算再来无数遍我们也不————咦？！！！迷、迷宫的墙壁开始发生变化了！？！",
+			say = "They can keep 'em coming for all I care! I could pop these losers with my eyes clo– Whuah?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			actor = 601050,
 			nameColor = "#a9f548",
-			say = "开玩笑吧，怎么会有这种事…………？！",
+			say = "Did the walls... just move?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_italyv2_3",
 			side = 2,
 			dir = 1,
-			say = "在略显轻松的战斗结束，众人正在悠闲地统计战果之时，四周高耸的迷宫墙毫无征兆的发生了变化。",
+			say = "The dense walls of the labyrinth suddenly shifted around in the blink of an eye.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "bg_italyv2_3",
 			dir = 1,
-			say = "看似厚重的墙壁碎裂成无数小段，然后无声且快速的开始了重新排列。",
+			say = "All at once, they turned to face another direction. It was as if the Sardegnian ships had been transported to an altogether different labyrinth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			bgName = "bg_italyv2_3",
 			dir = 1,
-			say = "只用了数秒时间，占据着海域主体的巨大迷宫就完成了一轮完全彻底的结构变化。",
+			say = "Even Aquila, with her planes circling overhead, could only stare dumbfounded at what just transpired. The other ships were similarly lost for words.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呜……之前规划的航线全都作废了……怎么会这样……",
+			say = "Nooooo! All the love and artistry I poured into drawing this map were for nothing! It's useless now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			actor = 601040,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "原本只要利用天鹰小姐的侦察机，就算再复杂的迷宫也拦不住我们。",
+			say = "Ugh... We were making such good progress too with Aquila's reconnaissance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			actor = 601040,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "但是如果迷宫本身会变化的话一切侦察都没有意义了……",
+			say = "There won't even be much of a point to scouting ahead if our surroundings will just change on us out of nowhere...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			bgName = "bg_italyv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔呼呼…真的是这么样么。",
+			say = "A-actually... I think we're still fine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			actor = 608010,
 			nameColor = "#a9f548",
-			say = "我们在迷宫中航行了这么久，一路上塞壬有的是机会通过操纵迷宫变化来干扰我们，但是它们都没有。",
+			say = "Remember... Gioberti's team is on the other side of the labyrinth... They're making progress too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "bg_italyv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这种剧烈变化绝对有着某些条件限制。或者是触发某个机关，或者是必须等待足够的充能时间……",
+			say = "If the labyrinth keeps changing, that's a sign it's... trying to hide something... So I think we're on the right path...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "也就是说直到下一次变化之前，我们能够拥有足够的时间重新规划航线并推进探索进度么？",
+			say = "Either that, or the Sirens are trying to lure us into a corner with Pawns as the bait, then turn the walls and trap us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_italyv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔呼呼…我是这么认为的。",
+			say = "M-maybe... But the path to the exit has... stayed the same...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			actor = 601050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那我们接下来要做的事就很简单了！达雷科，不要灰心，这次让我们一起来规划航路吧！",
+			say = "She's right. That sounds more like they're trying to stop us from getting too close to something, rather than throw our sense of direction off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			actor = 601040,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "海上遭遇挫折是常有的事，航海家可不能被这点挫折折服……既然迷宫变化了，我们的航线也跟着改变就是。",
+			say = "If the goal was to trap us, the smart move would be to neutralize Aquila's planes first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……西南风，西北风~嗯！你们说的对，这不过是伟大航程中的一个小小挫折而已！",
+			say = "We can stand around theorizing all day, but all I know is that our only real option is to keep moving forward!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "天鹰小姐，你只管进行快速侦察，接下来的事就交给我们吧！",
+			say = "So! Aquila, keep on doing your thing with the recon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我明白了！再复杂的迷宫也无法躲避来自空中的注视……侦察机，全数起飞！",
+			say = "Understood! I can confirm that the labyrinth's structure has changed, but our location has remained the same, as has the path back to the entrance! Rest assured, we are at no risk of getting trapped!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

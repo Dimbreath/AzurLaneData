@@ -12,7 +12,7 @@ return {
 			bgm = "battle-boss-italy",
 			actor = 601050,
 			nameColor = "#a9f548",
-			say = "疼疼疼疼！…………呜呜呜，我挂彩了……",
+			say = "Ow! Maestrale, you just smacked my head with your rigging!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事吧？让我看看————嗯，不用担心，只是小伤。",
+			say = "Oh no! Let me see it... Phew, it's just a little bump... Don't worry, it'll be gone in no time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 607010,
-			say = "大家都没有受到严重的损伤，只是些战斗力低下的棋子真是太好了……",
+			say = "Remember, we're just doing the bare minimum to defend ourselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605020,
-			say = "虽然是轻量复刻版，再经历一次果然还是不好受……",
+			say = "At least the labyrinth hasn't been shifting, which is a good sign.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605010,
-			say = "三、二、一……迷宫没有发生变化，很好！看来我们终于可以解决迷宫变动的机关了，大家继续前进吧！",
+			say = "Now that we've figured that out, let's make our way to the center, pronto!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

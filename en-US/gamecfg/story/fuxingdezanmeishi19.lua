@@ -11,31 +11,31 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>「进入迷宫吧。」</size>",
+					"<size=35>\"Our objectives are twofold – retrieve the stolen artwork, and rescue Gioberti.\"</size>",
 					1
 				},
 				{
-					"<size=51>「手执利刃，身披重铠。」</size>",
+					"<size=35>\"As the Eternal Flagship and leader of this fleet, I must bear both of these in mind at once.\"</size>",
 					2
 				},
 				{
-					"<size=51>「阿里阿德涅将成为您的指引。」</size>",
+					"<size=35>\"If I am too nervous in my conduct, our morale will suffer.\"</size>",
 					3
 				},
 				{
-					"<size=51>「代达罗斯将成为您的指引。」</size> ",
+					"<size=35>\"If I am too relaxed in my conduct, our guard will falter.\"</size> ",
 					4
 				},
 				{
-					"<size=51>「众神将成为您的指引。」</size>",
+					"<size=35>\"For these reasons, Littorio's presence provides me such relief.\"</size>",
 					5
 				},
 				{
-					"<size=51>「怪物永远在中心等待着献祭。」</size>",
+					"<size=35>\"Because, in stark contrast to her reputation as being frivolous,\"</size>",
 					6
 				},
 				{
-					"<size=51>「怪物永远不会满足……」</size>",
+					"<size=35>\"Nobody is more dependable than her when the cards are on the table.\"</size>",
 					7
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			actor = 601050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "奇怪……总感觉这片区域我们刚才已经走过了哎……",
+			say = "Hey Maestrale, is it just me, or does it feel like we're going in circles?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -83,7 +83,7 @@ return {
 			actor = 601040,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "迷宫里四处的布置都差不多，会产生错觉很正常。",
+			say = "I don't think so, but I can understand why you might think that. Every segment does look the same.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 601040,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真正的克诺索斯迷宫就是一个由无数相似岔路构成的死亡陷阱……就连设计者本人也差点迷路在里面哦。",
+			say = "The labyrinth of Knossos was said to have countless misleading twists and turns. It was so confusing that even its designer almost got lost in it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_italyv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "以前的迷宫可不会发生结构改变，我们现在面对的这个可就，唔呼呼……",
+			say = "A-at least the walls in that labyrinth probably didn't sh-shift around...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "塞壬把我们关在这里看我们走迷宫究竟有什么意义呢……？",
+			say = "Worst-case scenario, we'll have to rely purely on gut instinct... Not the best way to get around...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "根据资料，塞壬一直热衷于各类观察与实验，在与我们战斗的同时还会尽可能收集在此过程中产生的数据。",
+			say = "If this is a Siren research facility, they are perhaps interested in seeing whether we can navigate our way through it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "或许现在我们遭遇到状况也是它们设计的实验之一。",
+			say = "How daring the Sirens are, to try to make a guinea pig out of Luigi di Savoia Duca degli Abruzzi!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这种高高在上的感觉真叫人不舒服…………好像不论我们是胜是败它们都已经达成了某种目的一样。",
+			say = "Indeed, the Sirens enjoy conducting psychological warfare as much as they do normal warfare.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "某种意义上的“百战百胜”啊……",
+			say = "It's no wonder we have never achieved a decisive victory against them after all this time. Winning a battle does not win one the war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			actor = 608010,
 			nameColor = "#a9f548",
-			say = "从科学研究的角度来看，进行实验通常是为了验证理论。",
+			say = "M-makes you wonder... what they're trying to find out through their experiments... Hehehehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			actor = 608010,
 			nameColor = "#a9f548",
-			say = "研究者通常会首先提出一个理论，然后设计实验去证明它或者推翻它。",
+			say = "I mean... they wouldn't go making elaborate research facilities just for fun to see what happens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			actor = 608010,
 			nameColor = "#a9f548",
-			say = "在无初次实验之后……也许最终研究者能够获得一个契合理论的完美实验结果，然后标志着理论得到了证实……",
+			say = "Take the Iron Blood one that Carabiniere went to... That one was for testing the performance of aircraft, I think...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			blackBg = true,
 			actor = 608010,
 			nameColor = "#a9f548",
-			say = "真在意这些塞壬究竟想用实验验证一个怎样的理论啊，唔呼呼…………",
+			say = "Hehe, hehehe... M-makes me curious... what the purpose of this one is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

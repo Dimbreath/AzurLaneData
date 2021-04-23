@@ -1557,7 +1557,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30706] = {
 		shiptype = 7,
-		name = "Taihou",
+		name = "Taihou-Class",
 		t_level = 9,
 		id = 30706,
 		t_level_1 = 109,
