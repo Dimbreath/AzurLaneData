@@ -74,7 +74,7 @@ end
 
 function slot0.UpdateActivity(slot0, slot1)
 	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_RANK then
-		if not slot0:isEnd() and slot1 ~= 0 then
+		if not slot0:isEnd() and slot1 > 0 then
 			slot0.data1 = slot0.data1 + slot1
 
 			getProxy(ActivityProxy):updateActivity(slot0)

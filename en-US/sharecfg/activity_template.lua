@@ -3241,6 +3241,22 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[2058] = {
+		mark = 20210422,
+		page_info = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5621,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 2058,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	[100001] = {
 		mark = 20190530,
 		page_info = "",
@@ -18702,6 +18718,7 @@ pg.activity_template = {
 		2055,
 		2056,
 		2057,
+		2058,
 		100001,
 		30001,
 		30002,

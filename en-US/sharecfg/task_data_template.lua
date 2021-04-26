@@ -22260,6 +22260,269 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5621] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5450,
+		type = 5,
+		name = "Help Me, My Commander!",
+		count_inherit = 0,
+		desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "tianying",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5622",
+		visibility = 1,
+		story_id = "TIANYING1",
+		target_id_for_client = 50003,
+		id = 5621,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5622] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5451,
+		type = 5,
+		name = "A Study in Elegance",
+		count_inherit = 0,
+		desc = "Enhance any character 10 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "tianying",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5623",
+		visibility = 1,
+		story_id = "TIANYING2",
+		target_id_for_client = 0,
+		id = 5622,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5623] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5452,
+		type = 5,
+		name = "Making Things Work",
+		count_inherit = 0,
+		desc = "Sortie and obtain 20 victories with Aquila in the fleet.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "tianying",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5624",
+		visibility = 1,
+		story_id = "TIANYING3",
+		target_id_for_client = 60701,
+		id = 5623,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "60701",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5624] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5453,
+		type = 5,
+		name = "Exercises and Combat Training",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges with Aquila in the fleet.",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "tianying",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5625",
+		visibility = 1,
+		story_id = "TIANYING4",
+		target_id_for_client = 60701,
+		id = 5624,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "60701",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5625] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5454,
+		type = 5,
+		name = "Try, Try Again",
+		count_inherit = 0,
+		desc = "Reach 100 Affinity with Aquila.",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "tianying",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5626",
+		visibility = 1,
+		story_id = "TIANYING5",
+		target_id_for_client = 60701,
+		id = 5625,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "60701",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5626] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5455,
+		type = 5,
+		name = "The Missing \"Something\"",
+		count_inherit = 0,
+		desc = "Fully Limit Break Aquila.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "tianying",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5627",
+		visibility = 1,
+		story_id = "TIANYING6",
+		target_id_for_client = 607014,
+		id = 5626,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "607014",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				1
+			}
+		}
+	},
+	[5627] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5456,
+		type = 5,
+		name = "My Commander",
+		count_inherit = 0,
+		desc = "Get Aquila to Level 100.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "tianying",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "TIANYING7",
+		target_id_for_client = 60701,
+		id = 5627,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "60701",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18033,
+				1
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -123578,6 +123841,13 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		5615,
 		5616,
 		5617,
+		5621,
+		5622,
+		5623,
+		5624,
+		5625,
+		5626,
+		5627,
 		6001,
 		6002,
 		6003,
