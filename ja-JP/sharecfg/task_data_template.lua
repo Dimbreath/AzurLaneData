@@ -22269,6 +22269,269 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5621] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5450,
+		type = 5,
+		name = "助けて！アクィラの指揮官さま！",
+		count_inherit = 0,
+		desc = "魚雷天ぷらを3個準備する（消費）",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "tianying",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5622",
+		visibility = 1,
+		story_id = "TIANYING1",
+		target_id_for_client = 50003,
+		id = 5621,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5622] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5451,
+		type = 5,
+		name = "威光輝かしく優雅レッスン",
+		count_inherit = 0,
+		desc = "任意の艦を10回強化する",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "tianying",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5623",
+		visibility = 1,
+		story_id = "TIANYING2",
+		target_id_for_client = 0,
+		id = 5622,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5623] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5452,
+		type = 5,
+		name = "こなす？こなさせる？",
+		count_inherit = 0,
+		desc = "アクィラを含めた艦隊で出撃し、20回勝利する",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "tianying",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5624",
+		visibility = 1,
+		story_id = "TIANYING3",
+		target_id_for_client = 60701,
+		id = 5623,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "60701",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5624] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5453,
+		type = 5,
+		name = "演習と戦闘訓練",
+		count_inherit = 0,
+		desc = "アクィラを含めた艦隊で3回デイリーチャレンジをクリアする",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "tianying",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5625",
+		visibility = 1,
+		story_id = "TIANYING4",
+		target_id_for_client = 60701,
+		id = 5624,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "60701",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5625] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5454,
+		type = 5,
+		name = "再チャレンジ",
+		count_inherit = 0,
+		desc = "アクィラの親密度が100に到達",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "tianying",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5626",
+		visibility = 1,
+		story_id = "TIANYING5",
+		target_id_for_client = 60701,
+		id = 5625,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "60701",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5626] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5455,
+		type = 5,
+		name = "足りなかったもの",
+		count_inherit = 0,
+		desc = "アクィラを3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "tianying",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "5627",
+		visibility = 1,
+		story_id = "TIANYING6",
+		target_id_for_client = 607014,
+		id = 5626,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "607014",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				1
+			}
+		}
+	},
+	[5627] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5456,
+		type = 5,
+		name = "アクィラの指揮官さま",
+		count_inherit = 0,
+		desc = "アクィラのレベルが100に到達",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "tianying",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "TIANYING7",
+		target_id_for_client = 60701,
+		id = 5627,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "60701",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18033,
+				1
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -135173,6 +135436,13 @@ pg.task_data_template = {
 		5615,
 		5616,
 		5617,
+		5621,
+		5622,
+		5623,
+		5624,
+		5625,
+		5626,
+		5627,
 		6001,
 		6002,
 		6003,
