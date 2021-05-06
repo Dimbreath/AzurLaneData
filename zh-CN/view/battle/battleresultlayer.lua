@@ -208,6 +208,7 @@ function slot0.didEnter(slot0)
 	slot0.blurRt = pg.UIMgr.GetInstance():SetMainCamBlurTexture(GetComponent(slot0:findTF("blur_img", slot0._tf), "RawImage"))
 
 	setActive(slot0:findTF("blur_img", slot0._tf), true)
+	ys.Battle.BattleCameraUtil.GetInstance():ActiveMainCemera(false)
 
 	slot0._grade.transform.localScale = Vector3(1.5, 1.5, 0)
 

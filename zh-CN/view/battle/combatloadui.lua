@@ -398,19 +398,28 @@ function slot0.Preload(slot0)
 		slot1:AddPreloadCV(slot12)
 	end
 
-	slot9 = 0
-	slot9 = slot1:StartPreload(function ()
+	function slot8()
 		SetActive(uv0._loadingAnima, false)
 		SetActive(uv0._finishAnima, true)
 
 		uv0._finishAnima:GetComponent("Animator").enabled = true
-	end, function (slot0)
+	end
+
+	slot9 = 0
+
+	function slot10(slot0)
 		slot1 = nil
 		slot1 = uv0 == 0 and 0 or slot0 / uv0
 		uv1._loadingProgress.value = slot1
 		uv1._loadingText.text = string.format("%.2f", slot1 * 100) .. "%"
 		uv1._loadingAnima.anchoredPosition = Vector2(slot1 * uv2.LOADING_ANIMA_DISTANCE, uv1._loadingAnimaPosY)
-	end)
+	end
+
+	if ys.Battle.BattleCameraUtil.GetInstance() then
+		ys.Battle.BattleCameraUtil.GetInstance():ActiveMainCemera(true)
+	end
+
+	slot9 = slot1:StartPreload(slot8, slot10)
 	slot0._tipsText.text = pg.server_language[math.random(#pg.server_language)].content
 end
 

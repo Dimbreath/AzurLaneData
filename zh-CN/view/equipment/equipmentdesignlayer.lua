@@ -132,6 +132,10 @@ function slot0.initDesigns(slot0)
 		uv0:updateDesign(slot0, slot1)
 	end
 
+	function slot0.scollRect.onReturnItem(slot0, slot1)
+		uv0:returnDesign(slot0, slot1)
+	end
+
 	slot0.desgins = {}
 end
 
@@ -178,42 +182,51 @@ end
 function slot0.createDesign(slot0, slot1)
 	slot2 = findTF(slot1, "info/count")
 	slot3 = findTF(slot1, "mask")
-
-	return {
+	slot5 = {
 		go = slot1,
-		nameTxt = slot0:findTF("name_bg/mask/name", slot1),
-		getItemById = function (slot0, slot1)
-			return slot0.itemVOs[slot1] or Item.New({
-				count = 0,
-				id = slot1
-			})
-		end,
-		update = function (slot0, slot1, slot2)
-			slot0.designId = slot1
-			slot0.itemVOs = slot2
-			slot4 = pg.compose_data_template[slot1].equip_id
-
-			TweenItemAlphaAndWhite(slot0.go)
-			setText(slot0.nameTxt, shortenString(pg.equip_data_statistics[slot4].name, 6))
-
-			slot6 = Equipment.New({
-				id = slot4
-			})
-
-			updateEquipment(findTF(uv0, "equipment/bg"), slot6)
-			uv3(uv0, slot6)
-			function ()
-				slot0 = uv0.itemVOs[uv1.material_id] or Item.New({
-					count = 0,
-					id = uv1.material_id
-				})
-				slot1 = slot0.count .. "/" .. uv1.material_num
-
-				setText(uv2, uv1.material_num <= slot0.count and setColorStr(slot1, COLOR_WHITE) or setColorStr(slot1, COLOR_RED))
-				setActive(uv3, slot0.count < uv1.material_num)
-			end()
-		end
+		nameTxt = slot0:findTF("name_bg/mask/name", slot1)
 	}
+
+	ClearTweenItemAlphaAndWhite(slot5.go)
+
+	function slot5.getItemById(slot0, slot1)
+		return slot0.itemVOs[slot1] or Item.New({
+			count = 0,
+			id = slot1
+		})
+	end
+
+	function slot5.update(slot0, slot1, slot2)
+		slot0.designId = slot1
+		slot0.itemVOs = slot2
+		slot4 = pg.compose_data_template[slot1].equip_id
+
+		TweenItemAlphaAndWhite(slot0.go)
+		setText(slot0.nameTxt, shortenString(pg.equip_data_statistics[slot4].name, 6))
+
+		slot6 = Equipment.New({
+			id = slot4
+		})
+
+		updateEquipment(findTF(uv0, "equipment/bg"), slot6)
+		uv3(uv0, slot6)
+		function ()
+			slot0 = uv0.itemVOs[uv1.material_id] or Item.New({
+				count = 0,
+				id = uv1.material_id
+			})
+			slot1 = slot0.count .. "/" .. uv1.material_num
+
+			setText(uv2, uv1.material_num <= slot0.count and setColorStr(slot1, COLOR_WHITE) or setColorStr(slot1, COLOR_RED))
+			setActive(uv3, slot0.count < uv1.material_num)
+		end()
+	end
+
+	function slot5.clear(slot0)
+		ClearTweenItemAlphaAndWhite(slot0.go)
+	end
+
+	return slot5
 end
 
 function slot0.initDesign(slot0, slot1)
@@ -234,6 +247,16 @@ function slot0.updateDesign(slot0, slot1, slot2)
 	end
 
 	slot3:update(slot0.desginIds[slot1 + 1], slot0.itemVOs)
+end
+
+function slot0.returnDesign(slot0, slot1, slot2)
+	if slot0.exited then
+		return
+	end
+
+	if slot0.desgins[slot2] then
+		slot3:clear()
+	end
 end
 
 function slot0.filter(slot0, slot1)

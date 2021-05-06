@@ -63077,7 +63077,9 @@ pg.ship_data_template = {
 			13890,
 			13900
 		},
-		hide_buff_list = {}
+		hide_buff_list = {
+			340
+		}
 	},
 	[407032] = {
 		oil_at_start = 1,
@@ -63122,7 +63124,9 @@ pg.ship_data_template = {
 			13890,
 			13900
 		},
-		hide_buff_list = {}
+		hide_buff_list = {
+			340
+		}
 	},
 	[407033] = {
 		oil_at_start = 1,
@@ -63168,7 +63172,9 @@ pg.ship_data_template = {
 			13890,
 			13900
 		},
-		hide_buff_list = {}
+		hide_buff_list = {
+			340
+		}
 	},
 	[407034] = {
 		oil_at_start = 1,
@@ -63214,7 +63220,9 @@ pg.ship_data_template = {
 			13890,
 			13900
 		},
-		hide_buff_list = {}
+		hide_buff_list = {
+			340
+		}
 	},
 	[408011] = {
 		oil_at_start = 0,
@@ -69006,7 +69014,9 @@ pg.ship_data_template = {
 			14380,
 			14390
 		},
-		hide_buff_list = {}
+		hide_buff_list = {
+			340
+		}
 	},
 	[607012] = {
 		oil_at_start = 1,
@@ -69051,7 +69061,9 @@ pg.ship_data_template = {
 			14380,
 			14390
 		},
-		hide_buff_list = {}
+		hide_buff_list = {
+			340
+		}
 	},
 	[607013] = {
 		oil_at_start = 1,
@@ -69097,7 +69109,9 @@ pg.ship_data_template = {
 			14380,
 			14390
 		},
-		hide_buff_list = {}
+		hide_buff_list = {
+			340
+		}
 	},
 	[607014] = {
 		oil_at_start = 1,
@@ -69144,7 +69158,9 @@ pg.ship_data_template = {
 			14380,
 			14390
 		},
-		hide_buff_list = {}
+		hide_buff_list = {
+			340
+		}
 	},
 	[608011] = {
 		oil_at_start = 0,

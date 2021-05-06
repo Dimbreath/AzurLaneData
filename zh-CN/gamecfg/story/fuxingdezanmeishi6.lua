@@ -252,7 +252,7 @@ return {
 			actor = 608010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "从突如其来的海况变化、无法与外界通讯的通讯阻断，这里毫无疑问资料记录中的镜面海域！！！！",
+			say = "从突如其来的海况变化、无法与外界通讯的通讯阻断，这里毫无疑问是资料记录中的镜面海域！！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

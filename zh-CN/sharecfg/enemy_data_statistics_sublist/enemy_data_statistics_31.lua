@@ -609,45 +609,72 @@ pg.enemy_data_statistics_31 = {
 			315089
 		}
 	},
-	[700] = {
-		cannon = 160,
-		rarity = 2,
-		hit_growth = 210,
+	[800] = {
+		cannon = 25,
+		name = "新手护卫舰",
+		hit_growth = 0,
 		speed_growth = 0,
-		antiaircraft_growth = 3744,
+		antiaircraft_growth = 0,
 		air = 0,
+		reload = 150,
+		antisub = 60,
 		armor = 0,
-		antisub = 0,
-		antiaircraft = 140,
-		dodge_growth = 162,
-		star = 3,
+		rarity = 1,
+		antiaircraft = 10,
+		dodge_growth = 0,
+		star = 2,
 		antisub_growth = 0,
 		air_growth = 0,
-		base = 188,
-		durability = 2200,
+		base = 123,
+		durability = 220,
 		armor_growth = 0,
-		torpedo_growth = 4500,
-		speed = 25,
+		torpedo_growth = 0,
+		speed = 15,
 		luck = 0,
-		id = 700,
-		cannon_growth = 1400,
-		pilot_ai_template_id = 75001,
-		reload = 150,
-		dodge = 11,
+		id = 800,
+		scale = 150,
+		cannon_growth = 0,
+		dodge = 0,
 		reload_growth = 0,
-		hit = 14,
-		torpedo = 130,
-		durability_growth = 68000,
+		hit = 80,
+		torpedo = 60,
+		durability_growth = 0,
 		luck_growth = 0,
-		battle_unit_type = 55,
-		armor_type = 4,
-		appear_fx = {
-			"appearQ"
+		battle_unit_type = 30,
+		cld_box = {
+			9.75,
+			5.625,
+			6.75
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				2.6,
+				0,
+				1.353
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {
+			danchuanlanghuazhong3 = 0.75
 		},
 		equipment_list = {
-			700001,
-			700002,
-			700003
+			300100,
+			300101,
+			300102
 		}
 	}
 }

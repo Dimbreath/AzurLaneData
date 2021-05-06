@@ -5,6 +5,7 @@ function slot0.Ctor(slot0, slot1)
 
 	slot0.bgSpeed = slot1.bgSpeed
 	slot0.blankScreenTime = slot1.blankScreen
+	slot0.unscaleDelay = slot1.unscaleDelay or 0
 end
 
 function slot0.GetMode(slot0)
@@ -21,6 +22,10 @@ end
 
 function slot0.ShouldBlackScreen(slot0)
 	return slot0.blankScreenTime
+end
+
+function slot0.GetUnscaleDelay(slot0)
+	return slot0.unscaleDelay
 end
 
 return slot0

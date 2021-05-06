@@ -129,7 +129,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没错。除了这些铁血提供的资料之外，龙骑兵的报告里也有对于镜面海域性质描述。",
+			say = "没错。除了这些铁血提供的资料之外，龙骑兵的报告里也有对于镜面海域性质的描述。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

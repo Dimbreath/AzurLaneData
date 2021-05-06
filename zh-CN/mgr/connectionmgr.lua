@@ -8,6 +8,7 @@ slot7 = false
 slot8 = {}
 slot9, slot10, slot11, slot12 = nil
 slot1.needStartSend = false
+slot13, slot14, slot15 = nil
 
 function slot1.Connect(slot0, slot1, slot2, slot3, slot4)
 	uv0.erroCode = slot4
@@ -24,17 +25,19 @@ function slot1.Connect(slot0, slot1, slot2, slot3, slot4)
 
 		uv8.onData:AddListener(uv6.onData)
 
-		uv9 = true
-		uv10 = false
+		uv9 = uv0.IPAddress.New()
+		uv10 = -1
+		uv11 = true
+		uv12 = false
 
-		uv11()
+		uv13()
 		uv7:resetHBTimer()
 	end)
 	uv1.onData:AddListener(slot0.onData)
 	uv1.onError:AddListener(slot0.onError)
 	uv1.onDisconnected:AddListener(slot0.onDisconnected)
 
-	uv8 = true
+	uv10 = true
 
 	uv1:Connect()
 end
@@ -315,17 +318,29 @@ function slot1.resetHBTimer(slot0)
 	slot0:stopHBTimer()
 
 	uv0 = Timer.New(function ()
-		uv0:Send(10100, {
-			need_request = 0
-		})
+		uv0 = TimeUtil.GetSystemTime()
+
+		uv1:Send(10100, {
+			need_request = 1
+		}, 10101, function (slot0)
+			if uv1 == -1 then
+				uv1 = TimeUtil.GetSystemTime() - uv0
+			else
+				uv1 = slot1 + uv1 / 2
+			end
+		end, false)
 	end, HEART_BEAT_TIMEOUT, -1)
 
 	uv0:Start()
 end
 
-slot13 = 0
-slot14 = 2
-slot15, slot16 = nil
+function slot1.GetPingDelay(slot0)
+	return uv0
+end
+
+slot16 = 0
+slot17 = 2
+slot18, slot19 = nil
 
 function slot1.SetProxyHost(slot0, slot1, slot2)
 	uv0 = slot1
@@ -361,5 +376,17 @@ function slot1.CheckProxyCounter(slot0)
 		VersionMgr.Inst:SetUseProxy(false)
 
 		uv0 = 0
+	end
+end
+
+function slot1.SwitchProxy(slot0)
+	if uv0:IsSpecialIP() and PLATFORM_CODE == PLATFORM_CHT then
+		if not VersionMgr.Inst:OnProxyUsing() then
+			VersionMgr.Inst:SetUseProxy(true)
+		else
+			VersionMgr.Inst:SetUseProxy(false)
+		end
+
+		uv1.onDisconnected(false, DISCONNECT_TIME_OUT)
 	end
 end

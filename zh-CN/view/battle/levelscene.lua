@@ -958,6 +958,7 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 			slot6 = true
 
 			slot0.levelStageView:updateStageBarrier()
+			slot0.levelStageView:UpdateAutoFightPanel()
 		end
 
 		if slot2 >= 0 then
@@ -1624,12 +1625,55 @@ function slot0.hideSignalPanel(slot0)
 	end
 end
 
+function slot0.DisplaySPAnim(slot0, slot1, slot2, slot3)
+	slot0.uiAnims = slot0.uiAnims or {}
+
+	function slot5()
+		uv0.playing = true
+
+		uv0:frozen()
+		uv1:SetActive(true)
+		pg.UIMgr.GetInstance():OverlayPanel(tf(uv1), false, {
+			groupName = LayerWeightConst.GROUP_LEVELUI
+		})
+
+		if uv2 then
+			uv2(uv1)
+		end
+
+		slot0:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
+			uv0.playing = false
+
+			if uv1 then
+				uv1(uv2)
+			end
+
+			uv0:unfrozen()
+		end)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WARNING)
+	end
+
+	if not slot0.uiAnims[slot1] then
+		PoolMgr.GetInstance():GetUI(slot1, true, function (slot0)
+			slot0:SetActive(true)
+
+			uv0.uiAnims[uv1] = slot0
+			uv2 = uv0.uiAnims[uv1]
+
+			uv3()
+		end)
+	else
+		slot5()
+	end
+end
+
 function slot0.displaySpResult(slot0, slot1, slot2)
 	setActive(slot0.spResult, true)
-	slot0:doPlayAnim(slot1 == 1 and "SpUnitWin" or "SpUnitLose", function (slot0)
+	slot0:DisplaySPAnim(slot1 == 1 and "SpUnitWin" or "SpUnitLose", function (slot0)
 		onButton(uv0, slot0, function ()
 			removeOnButton(uv0)
 			setActive(uv0, false)
+			pg.UIMgr.GetInstance():UnOverlayPanel(uv0, uv1._tf)
 			uv1:hideSpResult()
 			uv2()
 		end, SFX_PANEL)
@@ -1642,10 +1686,11 @@ end
 
 function slot0.displayBombResult(slot0, slot1)
 	setActive(slot0.spResult, true)
-	slot0:doPlayAnim("SpBombRet", function (slot0)
+	slot0:DisplaySPAnim("SpBombRet", function (slot0)
 		onButton(uv0, slot0, function ()
 			removeOnButton(uv0)
 			setActive(uv0, false)
+			pg.UIMgr.GetInstance():UnOverlayPanel(uv0, uv1._tf)
 			uv1:hideSpResult()
 			uv2()
 		end, SFX_PANEL)

@@ -60,7 +60,7 @@ return {
 			actor = 207030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "“至美丽的光辉女士………………”唉，不论看多少遍都一样。",
+			say = "“致美丽的光辉女士………………”唉，不论看多少遍都一样。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 207030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "还是说这次邀请另有深意…………完全猜不透楚她们的态度啊。",
+			say = "还是说这次邀请另有深意…………完全猜不透她们的态度啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			dir = 1,
-			say = "光辉再一次放下撒丁帝国的邀请函，然后再一次拿起旁边的另一份文件。",
+			say = "光辉放下撒丁帝国的邀请函，然后再一次拿起旁边的另一份文件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

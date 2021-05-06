@@ -82,6 +82,7 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 		return
 	end
 
+	slot0.script = slot1
 	slot0.callback = slot3
 	slot0.step = slot4
 	slot0.autoNext = slot1:GetAutoPlayFlag()
@@ -606,6 +607,7 @@ function slot0.Clear(slot0, slot1)
 	slot0.goCG.alpha = 1
 	slot0.callback = nil
 	slot0.autoNext = nil
+	slot0.script = nil
 
 	slot0:OnClear()
 

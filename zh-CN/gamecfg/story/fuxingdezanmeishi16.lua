@@ -105,8 +105,9 @@ return {
 			}
 		},
 		{
-			mode = 1,
+			mode = 3,
 			bgName = "bg_italyv2_3",
+			unscaleDelay = 2,
 			flashout = {
 				dur = 0.25,
 				black = true,
@@ -128,12 +129,6 @@ return {
 				{
 					active = true,
 					name = "yidali_hangmu"
-				}
-			},
-			sequence = {
-				{
-					"",
-					1
 				}
 			}
 		},
@@ -179,7 +174,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……利用大量罗穆路斯的主题色完美能抓住所有人的眼球，塞壬居然也能有些出乎意料的设计啊。",
+			say = "……利用大量罗穆路斯的主题色能完美抓住所有人的眼球，塞壬居然也能有些出乎意料的设计啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -356,6 +356,7 @@ function slot0.addListener(slot0)
 			uv0.contextData.pageNum = uv1.PAGE.Property
 
 			uv0:activeResetExchange(uv0.contextData.pageNum == uv1.PAGE.Property)
+			uv0:sortItems()
 		end
 	end, SFX_PANEL)
 	onToggle(slot0, slot0._weaponToggle, function (slot0)
@@ -407,7 +408,9 @@ function slot0.initItems(slot0)
 		uv0:updateItem(slot0, slot1)
 	end
 
-	slot0:sortItems()
+	function slot0.itemRect.onReturnItem(slot0, slot1)
+		uv0:returnItem(slot0, slot1)
+	end
 end
 
 function slot0.initItem(slot0, slot1)
@@ -489,7 +492,16 @@ function slot0.updateItem(slot0, slot1, slot2)
 	end
 
 	slot3:update(slot0.itemList[slot1 + 1])
-	TweenItemAlphaAndWhite(slot2)
+end
+
+function slot0.returnItem(slot0, slot1, slot2)
+	if slot0.exited then
+		return
+	end
+
+	if slot0.itemCards[slot2] then
+		slot3:clear()
+	end
 end
 
 function slot0.sortItems(slot0)
@@ -612,13 +624,15 @@ function slot0.initEquipments(slot0)
 		uv0:initEquipment(slot0)
 	end
 
-	slot0.equipmentRect.decelerationRate = 0.07
-
 	function slot0.equipmentRect.onUpdateItem(slot0, slot1)
 		uv0:updateEquipment(slot0, slot1)
 	end
 
-	slot0.equipmentRect:ScrollTo(0)
+	function slot0.equipmentRect.onReturnItem(slot0, slot1)
+		uv0:returnEquipment(slot0, slot1)
+	end
+
+	slot0.equipmentRect.decelerationRate = 0.07
 end
 
 function slot0.initEquipment(slot0, slot1)
@@ -663,7 +677,16 @@ function slot0.updateEquipment(slot0, slot1, slot2)
 	end
 
 	slot3:update(slot0.loadEquipmentVOs[slot1 + 1])
-	TweenItemAlphaAndWhite(slot2)
+end
+
+function slot0.returnEquipment(slot0, slot1, slot2)
+	if slot0.exited then
+		return
+	end
+
+	if slot0.equipmetItems[slot2] then
+		slot3:clear()
+	end
 end
 
 function slot0.filterEquipment(slot0)
@@ -744,9 +767,11 @@ function slot0.InitMaterials(slot0)
 		uv0:UpdateMaterial(slot0, slot1)
 	end
 
-	slot0.materialRect.decelerationRate = 0.07
+	function slot0.materialRect.onReturnItem(slot0, slot1)
+		uv0:ReturnMaterial(slot0, slot1)
+	end
 
-	slot0.materialRect:ScrollTo(0)
+	slot0.materialRect.decelerationRate = 0.07
 end
 
 function slot0.SortMaterials(slot0)
@@ -790,7 +815,16 @@ function slot0.UpdateMaterial(slot0, slot1, slot2)
 	end
 
 	slot3:update(slot0.materials[slot1 + 1])
-	TweenItemAlphaAndWhite(slot2)
+end
+
+function slot0.ReturnMaterial(slot0, slot1, slot2)
+	if slot0.exited then
+		return
+	end
+
+	if slot0.materialCards[slot2] then
+		slot3:clear()
+	end
 end
 
 return slot0

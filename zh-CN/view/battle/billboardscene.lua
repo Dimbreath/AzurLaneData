@@ -148,6 +148,10 @@ function slot0.didEnter(slot0)
 		uv0:onUpdateItem(slot0, slot1, uv0.curPagePTActID)
 	end
 
+	function slot0.rankRect.onReturnItem(slot0, slot1)
+		uv0:onReturnItem(slot0, slot1)
+	end
+
 	slot0.playerCard = RankCard.New(slot0.playerRankTF, RankCard.TYPE_SELF)
 
 	triggerToggle(slot0.toggles[slot0.contextData.page or PowerRank.TYPE_POWER], true)
@@ -173,6 +177,16 @@ function slot0.onUpdateItem(slot0, slot1, slot2, slot3)
 	end
 
 	slot4:update(slot0.displayRankVOs[slot1 + 1], slot3)
+end
+
+function slot0.onReturnItem(slot0, slot1, slot2)
+	if slot0.exited then
+		return
+	end
+
+	if slot0.cards[slot2] then
+		slot3:clear()
+	end
 end
 
 function slot0.filter(slot0, slot1, slot2)

@@ -711,23 +711,19 @@ function slot0.initEquipments(slot0)
 		uv0:initEquipment(slot0)
 	end
 
-	slot0.equipmentRect.decelerationRate = 0.07
-
 	function slot0.equipmentRect.onUpdateItem(slot0, slot1)
 		uv0:updateEquipment(slot0, slot1)
+	end
+
+	function slot0.equipmentRect.onReturnItem(slot0, slot1)
+		uv0:returnEquipment(slot0, slot1)
 	end
 
 	function slot0.equipmentRect.onStart()
 		uv0:updateSelected()
 	end
 
-	function slot0.equipmentRect.onItemsUpdated()
-		onNextTick(function ()
-			uv0:ExecuteAnimDoneCallback()
-		end)
-	end
-
-	slot0.equipmentRect:ScrollTo(0)
+	slot0.equipmentRect.decelerationRate = 0.07
 end
 
 function slot0.initEquipment(slot0, slot1)
@@ -822,6 +818,16 @@ function slot0.updateEquipment(slot0, slot1, slot2)
 	end
 
 	slot3:updateSelected(slot5, slot6)
+end
+
+function slot0.returnEquipment(slot0, slot1, slot2)
+	if slot0.exited then
+		return
+	end
+
+	if slot0.equipmetItems[slot2] then
+		slot3:clear()
+	end
 end
 
 function slot0.updateEquipmentCount(slot0, slot1)
@@ -980,18 +986,6 @@ function slot0.checkFitBusyCondition(slot0, slot1)
 	return slot0.mode ~= StoreHouseConst.DESTROY and slot0:GetShowBusyFlag() or not slot1.shipId
 end
 
-function slot0.onUIAnimEnd(slot0, slot1)
-	slot0.onAnimDoneCallback = slot1
-end
-
-function slot0.ExecuteAnimDoneCallback(slot0)
-	if slot0.onAnimDoneCallback then
-		slot0.onAnimDoneCallback()
-
-		slot0.onAnimDoneCallback = nil
-	end
-end
-
 function slot0.setItems(slot0, slot1)
 	slot0.itemVOs = slot1
 
@@ -1012,13 +1006,11 @@ function slot0.initItems(slot0)
 		uv0:updateItem(slot0, slot1)
 	end
 
-	function slot0.itemRect.onItemsUpdated()
-		uv0:ExecuteAnimDoneCallback()
+	function slot0.itemRect.onReturnItem(slot0, slot1)
+		uv0:returnItem(slot0, slot1)
 	end
 
 	slot0.itemRect.decelerationRate = 0.07
-
-	slot0.itemRect:ScrollTo(0)
 end
 
 function slot0.sortItems(slot0)
@@ -1069,6 +1061,16 @@ function slot0.updateItem(slot0, slot1, slot2)
 	end
 
 	slot3:update(slot0.itemVOs[slot1 + 1])
+end
+
+function slot0.returnItem(slot0, slot1, slot2)
+	if slot0.exited then
+		return
+	end
+
+	if slot0.itemCards[slot2] then
+		slot3:clear()
+	end
 end
 
 function slot0.selectCount(slot0)

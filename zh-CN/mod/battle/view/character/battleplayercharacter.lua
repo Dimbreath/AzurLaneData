@@ -33,12 +33,15 @@ function slot4.SetUnitData(slot0, slot1)
 			slot0:InitAirAssit(slot7)
 		end
 	end
+
+	slot0._weaponSectorList = {}
 end
 
 function slot4.AddUnitEvent(slot0)
 	uv0.super.AddUnitEvent(slot0)
 	slot0._unitData:RegisterEventListener(slot0, uv1.WILL_DIE, slot0.onWillDie)
 	slot0._unitData:RegisterEventListener(slot0, uv1.INIT_COOL_DOWN, slot0.onInitWeaponCD)
+	slot0._unitData:RegisterEventListener(slot0, uv1.WEAPON_SECTOR, slot0.onActiveWeaponSector)
 end
 
 function slot4.RemoveUnitEvent(slot0)
@@ -145,6 +148,13 @@ function slot4.Dispose(slot0)
 	slot0._oxygenSlider = nil
 
 	Object.Destroy(slot0._arrowBar)
+
+	for slot4, slot5 in ipairs(slot0._weaponSectorList) do
+		slot5:Dispose()
+	end
+
+	slot0._weaponSectorList = nil
+
 	uv0.super.Dispose(slot0)
 end
 
@@ -302,6 +312,23 @@ function slot4.InitTorpedoWeapon(slot0, slot1)
 	slot1:RegisterEventListener(slot0, uv0.TORPEDO_WEAPON_PREPAR, slot0.onTorpedoPrepar)
 	slot1:RegisterEventListener(slot0, uv0.TORPEDO_WEAPON_CANCEL, slot0.onTorpedoCancel)
 	slot1:RegisterEventListener(slot0, uv0.TORPEDO_WEAPON_READY, slot0.onTorepedoReady)
+end
+
+function slot4.onActiveWeaponSector(slot0, slot1)
+	slot2 = slot1.Data
+	slot4 = slot2.weapon
+
+	if slot2.isActive then
+		slot6 = uv0.Battle.BattleWeaponRangeSector.New(slot0._factory:GetFXPool():GetCharacterFX("weaponrange", slot0).transform)
+
+		slot6:ConfigHost(slot0._unitData, slot4)
+
+		slot0._weaponSectorList[slot4] = slot6
+	else
+		slot0._weaponSectorList[slot4]:Dispose()
+
+		slot0._weaponSectorList[slot4] = nil
+	end
 end
 
 function slot4.OnAnimatorTrigger(slot0)

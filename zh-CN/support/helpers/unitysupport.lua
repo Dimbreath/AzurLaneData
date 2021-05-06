@@ -303,7 +303,6 @@ end
 
 function ClearLScrollrect(slot0)
 	slot0.onStart = nil
-	slot0.onItemsUpdated = nil
 	slot0.onInitItem = nil
 	slot0.onUpdateItem = nil
 	slot0.onReturnItem = nil

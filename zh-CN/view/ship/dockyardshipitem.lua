@@ -66,6 +66,8 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 
 	slot0.tagRecommand = findTF(slot0.tr, "content/recommand")
 	slot0.palyerId = getProxy(PlayerProxy):getRawData().id
+
+	ClearTweenItemAlphaAndWhite(slot0.go)
 end
 
 function slot0.update(slot0, slot1)
@@ -118,11 +120,7 @@ function slot0.flush(slot0)
 			return
 		end
 
-		flushShipCard(slot0.tr, slot1, function (slot0, slot1)
-			if isa(uv0.shipVO, Ship) and uv0.shipVO.configId == slot1 then
-				findTF(uv0.tr, "content/ship_icon"):GetComponent("Image").sprite = slot0
-			end
-		end)
+		flushShipCard(slot0.tr, slot1)
 		setActive(slot0.npc, slot1:isActivityNpc())
 
 		if slot0.lock then
@@ -210,7 +208,11 @@ function slot0.flush(slot0)
 end
 
 function slot0.UpdateUser(slot0, slot1)
-	slot0:clear()
+	if slot0.userIconFrame.childCount > 0 then
+		slot2 = slot0.userIconFrame:GetChild(0).gameObject
+
+		PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot2.name, slot2.name, slot2)
+	end
 
 	slot2 = tobool(slot1) and slot1.user
 	slot3 = slot2 and slot2.id ~= slot0.palyerId
@@ -254,14 +256,6 @@ function slot0.UpdateUser(slot0, slot1)
 	setAnchoredPosition(slot0.levelTF, {
 		x = -16
 	})
-end
-
-function slot0.clear(slot0)
-	if slot0.userIconFrame.childCount > 0 then
-		slot1 = slot0.userIconFrame:GetChild(0).gameObject
-
-		PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot1.name, slot1.name, slot1)
-	end
 end
 
 function slot0.flushDetail(slot0)
@@ -427,6 +421,8 @@ function slot0.UpdateExpBuff(slot0)
 end
 
 function slot0.clear(slot0)
+	ClearTweenItemAlphaAndWhite(slot0.go)
+
 	if slot0.selectedTwId then
 		LeanTween.cancel(slot0.selectedTwId)
 

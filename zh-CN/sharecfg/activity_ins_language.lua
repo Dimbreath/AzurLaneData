@@ -703,7 +703,7 @@ pg.activity_ins_language = {
 		value = "真羡慕啊~我就只能做点甜点什么的…"
 	},
 	ins_discuss_25_3 = {
-		value = "是不是该送点萨丁的特产什么的呢~"
+		value = "是不是该送点撒丁的特产什么的呢~"
 	},
 	ins_discuss_25_4 = {
 		value = "这、这组合是什么情况！？"

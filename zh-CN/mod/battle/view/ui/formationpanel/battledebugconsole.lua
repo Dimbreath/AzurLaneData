@@ -213,11 +213,14 @@ function slot3.initComponent(slot0)
 		uv0._state:GetMediatorByName("BattleSceneMediator"):InitDetailAntiSubArea()
 	end)
 
+	slot1 = false
 	slot0._white = slot0._base:Find("white_button")
 
 	onButton(nil, slot0._white, function ()
-		for slot3, slot4 in pairs(uv0._dataProxy._fleetList[1]._scoutList) do
-			slot4:UpdateHP(-100, {})
+		uv0 = not uv0
+
+		for slot3, slot4 in pairs(uv1._dataProxy._fleetList[1]._unitList) do
+			slot4:AddBuff(uv2.Battle.BattleBuffUnit.New(10331))
 		end
 	end, SFX_PANEL)
 	SetActive(slot0._white, true)

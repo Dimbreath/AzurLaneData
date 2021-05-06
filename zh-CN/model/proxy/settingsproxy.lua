@@ -18,6 +18,7 @@ function slot0.onRegister(slot0)
 	slot0:resetEquipSceneIndex()
 
 	slot0._isShowCollectionHelp = PlayerPrefs.GetInt("collection_Help", 0) > 0
+	slot0.showMainSceneWordTip = PlayerPrefs.GetInt("main_scene_word_toggle", 1) > 0
 	slot0.lastRequestVersionTime = nil
 	slot0.worldBossFlag = {}
 	slot0.worldFlag = {}
@@ -427,6 +428,19 @@ function slot0.SetStoryAutoPlayFlag(slot0, slot1)
 		PlayerPrefs.Save()
 
 		slot0.storyAutoPlayCode = slot1
+	end
+end
+
+function slot0.ShouldShipMainSceneWord(slot0)
+	return slot0.showMainSceneWordTip
+end
+
+function slot0.SaveMainSceneWordFlag(slot0, slot1)
+	if slot0.showMainSceneWordTip ~= slot1 then
+		slot0.showMainSceneWordTip = slot1
+
+		PlayerPrefs.SetInt("main_scene_word_toggle", slot1 and 1 or 0)
+		PlayerPrefs.Save()
 	end
 end
 

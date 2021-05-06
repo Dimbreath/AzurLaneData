@@ -54,45 +54,40 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 	end
 
 	slot5 = nil
-	slot9 = getProxy(NavalAcademyProxy):getCourse().students
-	slot10 = getProxy(BayProxy)
-	slot11 = {}
-	slot12, slot13 = nil
+	slot6 = {}
+	slot10 = {}
+	slot11 = nil
 
-	if slot1 == BackYardShipInfoLayer.SHIP_TRAIN_TYPE then
-		slot11 = slot0.dormProxy:getTrainShipIds()
-		slot12 = slot0.dormProxy:getRestShipIds()
-	elseif slot1 == BackYardShipInfoLayer.SHIP_REST_TYPE then
-		slot11 = slot7
-		slot12 = slot6
-	elseif slot1 == BackYardShipInfoLayer.SHIP_CLASS_TYPE then
+	if slot1 == BackYardShipInfoLayer.SHIP_CLASS_TYPE then
 		slot5 = 0
-		slot11 = slot9
-		slot16 = slot8:getCourse():getConfig("type")
-		slot13 = _.filter(_.values(slot10:getData()), function (slot0)
+		slot10 = getProxy(NavalAcademyProxy):getCourse().students
+		slot14 = slot7:getCourse():getConfig("type")
+		slot11 = _.filter(_.values(getProxy(BayProxy):getData()), function (slot0)
 			return slot0.level < pg.gameset.level_get_proficency.key_value and table.contains(uv0, slot0:getShipType())
 		end)
+	else
+		slot10, slot6 = slot0.dormProxy:GetShipIdsByType(slot1)
 	end
 
-	slot14 = nil
+	slot12 = nil
 
 	if slot3 and slot1 ~= BackYardShipInfoLayer.SHIP_CLASS_TYPE then
-		for slot18 = #slot11, 1, -1 do
-			if slot11[slot18] ~= slot3.id then
-				table.insert({}, slot11[slot18])
+		for slot16 = #slot10, 1, -1 do
+			if slot10[slot16] ~= slot3.id then
+				table.insert({}, slot10[slot16])
 			end
 		end
 	else
-		slot14 = Clone(slot11)
+		slot12 = Clone(slot10)
 	end
 
 	if slot1 == BackYardShipInfoLayer.SHIP_TRAIN_TYPE or slot1 == BackYardShipInfoLayer.SHIP_REST_TYPE then
-		for slot19, slot20 in pairs(slot0.viewComponent.trainShipVOs) do
-			table.insert(slot15.priorEquipUpShipIDList, slot19)
+		for slot17, slot18 in pairs(slot0.viewComponent.trainShipVOs) do
+			table.insert(slot13.priorEquipUpShipIDList, slot17)
 		end
 
-		for slot19, slot20 in pairs(slot0.viewComponent.restShipVOs) do
-			table.insert(slot15.priorEquipUpShipIDList, slot19)
+		for slot17, slot18 in pairs(slot0.viewComponent.restShipVOs) do
+			table.insert(slot13.priorEquipUpShipIDList, slot17)
 		end
 
 		slot0:addSubLayers(Context.New({
@@ -103,11 +98,11 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 				selectedMin = slot5,
 				selectedMax = slot2,
 				quitTeam = slot1 ~= BackYardShipInfoLayer.SHIP_CLASS_TYPE and slot3 ~= nil,
-				shipVOs = slot13,
+				shipVOs = slot11,
 				ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({
 					isActivityNpc = true
 				}),
-				selectedIds = slot14,
+				selectedIds = slot12,
 				preView = slot0.viewComponent.__cname,
 				hideTagFlags = ShipStatus.TAG_HIDE_BACKYARD,
 				blockTagFlags = slot1 ~= BackYardShipInfoLayer.SHIP_CLASS_TYPE and ShipStatus.TAG_BLOCK_BACKYARD or nil,
@@ -163,6 +158,8 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 						return
 					end
 
+					slot2 = uv2.dormProxy:GetShipIdsByType(uv0)
+
 					pg.UIMgr.GetInstance():LoadingOn()
 
 					if slot0 == nil or #slot0 == 0 then
@@ -175,8 +172,8 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 						return
 					end
 
-					for slot6, slot7 in ipairs(uv4) do
-						if not table.contains(slot0, slot7) then
+					for slot7, slot8 in ipairs(slot2) do
+						if not table.contains(slot0, slot8) then
 							table.insert({}, function (slot0)
 								uv0:sendNotification(GAME.EXIT_SHIP, {
 									shipId = uv1,
@@ -188,18 +185,18 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 
 					uv2.contextData.shipIdToAdd = {}
 
-					for slot6, slot7 in ipairs(slot0) do
-						if not table.contains(uv4, slot7) then
+					for slot7, slot8 in ipairs(slot0) do
+						if not table.contains(slot2, slot8) then
 							table.insert(uv2.contextData.shipIdToAdd, {
-								slot7,
+								slot8,
 								uv0
 							})
 						end
 					end
 
 					if uv2.contextData.shipIdToAdd and #uv2.contextData.shipIdToAdd > 0 then
-						for slot6, slot7 in ipairs(uv2.contextData.shipIdToAdd) do
-							table.insert(slot2, function (slot0)
+						for slot7, slot8 in ipairs(uv2.contextData.shipIdToAdd) do
+							table.insert(slot3, function (slot0)
 								uv0:sendNotification(GAME.ADD_SHIP, {
 									id = uv1[1],
 									type = uv1[2],
@@ -209,8 +206,8 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 						end
 					end
 
-					if #slot2 > 0 then
-						seriesAsync(slot2, function ()
+					if #slot3 > 0 then
+						seriesAsync(slot3, function ()
 							uv0.contextData.shipIdToAdd = nil
 
 							pg.UIMgr.GetInstance():LoadingOff()
@@ -222,12 +219,14 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 					end
 				end,
 				priorEquipUpShipIDList = {},
-				isLayer = true
+				leftTopWithFrameInfo = i18n("backyard_longpress_ship_tip"),
+				isLayer = true,
+				skipSelect = true
 			}
 		}))
 		slot0.viewComponent:EnableUI(false)
 	else
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, slot15)
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, slot13)
 	end
 end
 
@@ -238,7 +237,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.ADD_SHIP_DONE,
 		GAME.EXIT_SHIP_DONE,
 		PlayerProxy.UPDATED,
-		GAME.REMOVE_LAYERS
+		GAME.REMOVE_LAYERS,
+		GAME.LOAD_SCENE_DONE
 	}
 end
 
@@ -252,12 +252,17 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:setDormVO(slot0.dormProxy:getData())
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayerVO(slot3)
-	elseif slot2 == GAME.REMOVE_LAYERS and slot3.context.mediator == DockyardMediator then
-		slot0.viewComponent:blurPanel()
-		slot0.viewComponent:setTrainShipVOs(slot0.dormProxy:getShipsByState(Ship.STATE_TRAIN))
-		slot0.viewComponent:setResetShipVOs(slot0.dormProxy:getShipsByState(Ship.STATE_REST))
-		slot0.viewComponent:updateSlots()
-		slot0.viewComponent:EnableUI(true)
+	elseif slot2 == GAME.REMOVE_LAYERS then
+		if slot3.context.mediator == DockyardMediator then
+			slot0.viewComponent:blurPanel()
+			slot0.viewComponent:setTrainShipVOs(slot0.dormProxy:getShipsByState(Ship.STATE_TRAIN))
+			slot0.viewComponent:setResetShipVOs(slot0.dormProxy:getShipsByState(Ship.STATE_REST))
+			slot0.viewComponent:updateSlots()
+			slot0.viewComponent:EnableUI(true)
+		end
+	elseif slot2 == GAME.LOAD_SCENE_DONE and getProxy(ContextProxy):getContextByMediator(BackYardShipInfoMediator) and #slot4.children > 0 then
+		slot0.viewComponent:unblurPanel()
+		slot0.viewComponent:EnableUI(false)
 	end
 end
 

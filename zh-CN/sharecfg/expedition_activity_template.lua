@@ -3420,6 +3420,21 @@ pg.expedition_activity_template = {
 			}
 		}
 	},
+	[1380013] = {
+		id = 1380013,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1380113] = {
+		id = 1380113,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1380213] = {
+		id = 1380213,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
 	[1390013] = {
 		id = 1390013,
 		bonus_time = 1,
@@ -5276,6 +5291,9 @@ pg.expedition_activity_template = {
 		1370913,
 		1371013,
 		1371113,
+		1380013,
+		1380113,
+		1380213,
 		1390013,
 		1390113,
 		1390213,

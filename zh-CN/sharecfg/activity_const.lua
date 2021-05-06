@@ -292,10 +292,10 @@ pg.activity_const = {
 		act_id = 330
 	},
 	JAVELIN_COMIC_NINE_DAY_TASK = {
-		act_id = 333
+		act_id = 958
 	},
 	JAVELIN_COMIC_PUZZLE_TASK = {
-		act_id = 334
+		act_id = 959
 	},
 	HONGRAN_RE_PREVIEW_ID = {
 		act_id = 0

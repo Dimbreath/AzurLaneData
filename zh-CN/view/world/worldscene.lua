@@ -450,10 +450,10 @@ function slot0.RemoveWorldListener(slot0)
 end
 
 function slot0.SetInMap(slot0, slot1, slot2)
+	slot3 = {}
+
 	if slot0.inMap ~= slot1 then
 		slot0:StopAnim()
-
-		slot3 = {}
 
 		if slot0.inMap ~= nil then
 			table.insert(slot3, slot1 and function (slot0)
@@ -468,10 +468,7 @@ function slot0.SetInMap(slot0, slot1, slot2)
 		end or function (slot0)
 			uv0:Op("OpSwitchInWorld", slot0)
 		end)
-
-		slot0.inMap = slot1
-
-		seriesAsync(slot3, function ()
+		table.insert(slot3, function (slot0)
 			uv0:PlayBGM()
 
 			if uv1 then
@@ -480,11 +477,22 @@ function slot0.SetInMap(slot0, slot1, slot2)
 				end)
 			end
 
-			return existCall(uv2)
+			slot0()
 		end)
-	else
-		return existCall(slot2)
+
+		slot0.inMap = slot1
 	end
+
+	seriesAsync(slot3, function ()
+		if not uv0 and uv1.atlasDisplayInfo then
+			slot0 = uv1.atlasDisplayInfo
+			uv1.atlasDisplayInfo = nil
+
+			return existCall(uv2, slot0.entrance, slot0.mapTypes)
+		else
+			return existCall(uv2)
+		end
+	end)
 end
 
 function slot0.GetInMap(slot0)
@@ -584,7 +592,7 @@ function slot0.DisposeAtlasUI(slot0)
 end
 
 function slot0.DisplayAtlas(slot0)
-	slot0.wsAtlas:SwitchArea(nowWorld:GetActiveEntrance():GetAreaId())
+	slot0.wsAtlas:SwitchArea((slot0.atlasDisplayInfo and slot0.atlasDisplayInfo.entrance or nowWorld:GetActiveEntrance()):GetAreaId())
 	slot0.wsAtlas:UpdateActiveMark()
 	slot0.wsAtlas:ShowOrHide(true)
 end
@@ -658,6 +666,7 @@ end
 function slot0.DisposeAtlas(slot0)
 	if slot0.wsAtlas then
 		slot0:HideAtlas()
+		slot0.wsAtlas:RemoveListener(WSAtlasWorld.EventUpdateselectEntrance, slot0.onModelSelectMap)
 		slot0.wsAtlas:Dispose()
 
 		slot0.wsAtlas = nil
@@ -1372,10 +1381,11 @@ function slot0.OnUpdateScale(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.OnModelSelectMap(slot0, slot1, slot2, slot3)
+function slot0.OnModelSelectMap(slot0, slot1, slot2, slot3, slot4)
 	if slot3 then
 		slot0:ShowSubView("FloatPanel", {
 			slot3,
+			slot4,
 			slot2
 		})
 	else
@@ -1705,9 +1715,9 @@ function slot0.ReturnToModelArea(slot0)
 end
 
 function slot0.EnterTransportWorld(slot0)
-	slot0:Op("OpSetInMap", false, function ()
-		uv0.wsAtlas:SwitchArea(nowWorld:GetActiveEntrance():GetAreaId(), false, function ()
-			uv0.wsAtlas:UpdateSelect(uv1)
+	slot0:Op("OpSetInMap", false, function (slot0, slot1)
+		uv0.wsAtlas:SwitchArea((slot0 or nowWorld:GetActiveEntrance()):GetAreaId(), false, function ()
+			uv0.wsAtlas:UpdateSelect(uv1, uv2)
 			uv0.wsAtlas:DisplayTransport(uv0.contextData.displayTransDic or {}, function ()
 				uv0.contextData.displayTransDic = Clone(nowWorld:GetAtlas().transportDic)
 			end)

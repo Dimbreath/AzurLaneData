@@ -170,7 +170,7 @@ return {
 			actor = 602010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "或许现在我们遭遇到状况也是它们设计的实验之一。",
+			say = "或许现在我们遭遇到的状况也是它们设计的实验之一。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
