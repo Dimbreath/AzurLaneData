@@ -228,11 +228,11 @@ function slot0.quickExitFunc(slot0)
 		LuaHelper.triggerEndDrag(slot0._currentDragDelegate)
 	end
 
-	function ()
+	slot0:emit(FormationMediator.COMMIT_FLEET, function ()
 		GetOrAddComponent(uv0._tf, typeof(CanvasGroup)).interactable = false
 
 		uv0:emit(uv1.ON_HOME)
-	end()
+	end)
 end
 
 function slot0.didEnter(slot0)
@@ -248,11 +248,11 @@ function slot0.didEnter(slot0)
 		if uv0._attrFrame.gameObject.activeSelf then
 			triggerToggle(uv0._formationToggle, true)
 		else
-			function ()
+			uv0:emit(FormationMediator.COMMIT_FLEET, function ()
 				GetOrAddComponent(uv0._tf, typeof(CanvasGroup)).interactable = false
 
 				uv0:emit(uv1.ON_BACK)
-			end()
+			end)
 		end
 	end, SOUND_BACK)
 	setActive(slot0:findTF("stamp"), BATTLE_DEBUG or getProxy(TaskProxy):mingshiTouchFlagEnabled())
@@ -1319,8 +1319,6 @@ function slot0.willExit(slot0)
 
 		slot0.eventTriggers = nil
 	end
-
-	FormationMediator.commitEdit()
 end
 
 return slot0
