@@ -196,17 +196,6 @@ function slot0.initAll(slot0, slot1)
 
 			uv0:initFleets()
 			uv0:initChampions()
-			onNextTick(slot0)
-		end,
-		function (slot0)
-			if uv0.exited then
-				return
-			end
-
-			if uv0.contextData.chapterVO:existOni() then
-				uv0:displayEscapeGrid()
-			end
-
 			uv1()
 		end
 	})
@@ -1314,6 +1303,7 @@ function slot0.updateAttachments(slot0)
 	slot0:updateExtraAttachments()
 	slot0:updateAreaAttachment(ChapterConst.AttachAreaBoss)
 	slot0:updateCoastalGunAttachArea()
+	slot0:displayEscapeGrid()
 end
 
 function slot0.UpdateFloor(slot0)
@@ -2717,8 +2707,12 @@ function slot0.OnChangeSubAutoAttack(slot0)
 end
 
 function slot0.displayEscapeGrid(slot0)
+	if not slot0.contextData.chapterVO:existOni() then
+		return
+	end
+
 	slot0:hideQuadMark(ChapterConst.MarkEscapeGrid)
-	slot0:showQuadMark(_.map(slot0.contextData.chapterVO:getOniChapterInfo().escape_grids, function (slot0)
+	slot0:showQuadMark(_.map(slot1:getOniChapterInfo().escape_grids, function (slot0)
 		return {
 			row = slot0[1],
 			column = slot0[2]

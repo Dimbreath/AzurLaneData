@@ -37779,7 +37779,7 @@ pg.world_event_data = {
 	},
 	[82011] = {
 		enemyicon = 0,
-		name = "格納プラットフォーム装载平台",
+		name = "格納プラットフォーム装載平台",
 		visuality = 0,
 		scale = 0,
 		auto_pri = 0,
@@ -42290,7 +42290,7 @@ pg.world_event_data = {
 	},
 	[82622] = {
 		enemyicon = 0,
-		name = "格納プラットフォーム装载平台",
+		name = "格納プラットフォーム装載平台",
 		visuality = 0,
 		scale = 0,
 		auto_pri = 0,
@@ -45781,7 +45781,7 @@ pg.world_event_data = {
 	},
 	[86051] = {
 		enemyicon = 0,
-		name = "格納プラットフォーム装载平台",
+		name = "格納プラットフォーム装載平台",
 		visuality = 0,
 		scale = 0,
 		auto_pri = 0,
@@ -47363,7 +47363,7 @@ pg.world_event_data = {
 	},
 	[86641] = {
 		enemyicon = 0,
-		name = "格納プラットフォーム装载平台",
+		name = "格納プラットフォーム装載平台",
 		visuality = 0,
 		scale = 0,
 		auto_pri = 0,

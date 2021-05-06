@@ -2230,10 +2230,11 @@ function setShipCardFrame(slot0, slot1, slot2)
 	slot0.localScale = Vector3.one
 	slot0.anchorMin = Vector2.zero
 	slot0.anchorMax = Vector2.one
+	slot3 = slot2 or slot1
 
-	setImageSprite(slot0, GetSpriteFromAtlas("shipframe", slot2 or slot1))
+	GetImageSpriteFromAtlasAsync("shipframe", slot3, slot0)
 
-	if pg.frame_resource[slot2 or slot1] then
+	if pg.frame_resource[slot3] then
 		slot4 = slot4.param
 		slot0.offsetMin = Vector2(slot4[1], slot4[2])
 		slot0.offsetMax = Vector2(slot4[3], slot4[4])
@@ -2260,26 +2261,24 @@ function setRectShipCardFrame(slot0, slot1, slot2)
 	end
 end
 
-function flushShipCard(slot0, slot1, slot2)
-	setImageSprite(findTF(slot0, "content/bg"), GetSpriteFromAtlas("bg/star_level_card_" .. slot1:rarity2bgPrint(), ""))
+function flushShipCard(slot0, slot1)
+	GetImageSpriteFromAtlasAsync("bg/star_level_card_" .. slot1:rarity2bgPrint(), "", findTF(slot0, "content/bg"))
 
-	findTF(slot0, "content/ship_icon"):GetComponent("Image").sprite = GetSpriteFromAtlas("shipYardIcon/unknown", "")
+	slot5 = slot1 and {
+		"shipYardIcon/" .. slot1:getPainting(),
+		slot1:getPainting()
+	} or {
+		"shipYardIcon/unknown",
+		""
+	}
 
-	LoadSpriteAsync("shipYardIcon/" .. slot1:getPainting(), function (slot0)
-		if uv0 then
-			if uv1 then
-				uv1(slot0, uv0.configId)
-			elseif not IsNil(uv2) then
-				uv2.sprite = slot0
-			end
-		end
-	end)
-	setImageSprite(findTF(slot0, "content/info/top/type"), GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType())))
+	GetImageSpriteFromAtlasAsync(slot5[1], slot5[2], findTF(slot0, "content/ship_icon"))
+	GetImageSpriteFromAtlasAsync("shiptype", shipType2print(slot1:getShipType()), findTF(slot0, "content/info/top/type"))
 	setText(findTF(slot0, "content/dockyard/lv/Text"), defaultValue(slot1.level, 1))
 
 	slot9 = nil
 
-	setShipCardFrame(findTF(slot0, "content/front/frame"), slot3, slot1.propose and "prop" .. ((slot1:isBluePrintShip() or slot1:isMetaShip()) and slot3 or "") or nil)
+	setShipCardFrame(findTF(slot0, "content/front/frame"), slot2, slot1.propose and "prop" .. ((slot1:isBluePrintShip() or slot1:isMetaShip()) and slot2 or "") or nil)
 
 	slot10 = findTF(slot0, "content/front/stars")
 
@@ -2338,7 +2337,7 @@ function flushShipCard(slot0, slot1, slot2)
 end
 
 function TweenItemAlphaAndWhite(slot0)
-	LeanTween.cancel(go(slot0))
+	LeanTween.cancel(slot0)
 
 	slot1 = GetOrAddComponent(slot0, "CanvasGroup")
 	slot1.alpha = 0
@@ -2348,6 +2347,12 @@ function TweenItemAlphaAndWhite(slot0)
 	if findTF(slot0.transform, "white_mask") then
 		setActive(slot2, false)
 	end
+end
+
+function ClearTweenItemAlphaAndWhite(slot0)
+	LeanTween.cancel(slot0)
+
+	GetOrAddComponent(slot0, "CanvasGroup").alpha = 0
 end
 
 function getGroupOwnSkins(slot0)

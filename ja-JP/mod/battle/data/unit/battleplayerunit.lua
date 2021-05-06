@@ -151,6 +151,10 @@ function slot7.setWeapon(slot0, slot1)
 					if slot7 <= uv4 and (slot9 == uv5.POINT_HIT_AND_LOCK or slot9 == uv5.MANUAL_TORPEDO or slot9 == uv5.DISPOSABLE_TORPEDO) then
 						slot8:SetModifyInitialCD()
 					end
+
+					if uv6.equipment then
+						slot8:SetSrcEquipmentID(uv6.equipment.id)
+					end
 				end
 			end
 

@@ -10879,6 +10879,60 @@ pg.shop_template = {
 			}
 		}
 	},
+	[60240] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "120钻石购买限时攻略补给（塔尔图SP复刻）",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60240,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				2
+			}
+		},
+		effect_args = {
+			40117
+		},
+		time = {
+			{
+				{
+					2021,
+					5,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					5,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[61001] = {
 		group_type = 0,
 		resource_num = 200,
@@ -27196,7 +27250,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 11,
+		order = 1,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -27211,9 +27265,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2020,
-					9,
-					17
+					2021,
+					5,
+					6
 				},
 				{
 					0,
@@ -27223,9 +27277,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2020,
-					10,
-					11
+					2021,
+					5,
+					19
 				},
 				{
 					23,
@@ -39891,6 +39945,7 @@ pg.shop_template = {
 		60237,
 		60238,
 		60239,
+		60240,
 		61001,
 		61002,
 		61003,

@@ -1,10 +1,14 @@
 ys = ys or {}
 slot0 = ys
 slot1 = slot0.Battle.BattleAttr
-slot2 = class("BattleUnitDetailView")
-slot0.Battle.BattleUnitDetailView = slot2
-slot2.__name = "BattleUnitDetailView"
-slot2.PrimalAttr = {
+slot2 = slot0.Battle.BattleDataFunction
+slot3 = slot0.Battle.BattleConst
+slot4 = slot0.Battle.BattleConst.EquipmentType
+slot5 = class("BattleUnitDetailView")
+slot0.Battle.BattleUnitDetailView = slot5
+slot5.__name = "BattleUnitDetailView"
+slot5.DefaultActive = {}
+slot5.PrimalAttr = {
 	"cannonPower",
 	"torpedoPower",
 	"airPower",
@@ -15,7 +19,7 @@ slot2.PrimalAttr = {
 	"attackRating",
 	"velocity"
 }
-slot2.BaseEnhancement = {
+slot5.BaseEnhancement = {
 	damageRatioByBulletTorpedo = "damage/damageRatioByBulletTorpedo",
 	injureRatioByBulletTorpedo = "injure/injureRatioByBulletTorpedo",
 	damageRatioByCannon = "damage/damageRatioByCannon",
@@ -25,12 +29,13 @@ slot2.BaseEnhancement = {
 	injureRatioByAir = "injure/injureRatioByAir",
 	damageRatioByAir = "damage/damageRatioByAir"
 }
-slot2.SecondaryAttrListener = {}
+slot5.SecondaryAttrListener = {}
 
-function slot2.Ctor(slot0)
+function slot5.Ctor(slot0)
+	pg.DelegateInfo.New(slot0)
 end
 
-function slot2.SetUnit(slot0, slot1)
+function slot5.SetUnit(slot0, slot1)
 	slot0._unit = slot1
 
 	setImageSprite(slot0._icon, uv0.Battle.BattleResourceManager.GetInstance():GetCharacterQIcon(slot0._unit:GetTemplate().painting))
@@ -66,9 +71,12 @@ function slot2.SetUnit(slot0, slot1)
 
 	slot0._secondaryAttrList = {}
 	slot0._buffList = {}
+	slot0._weaponList = {}
+
+	slot0:updateWeaponList()
 end
 
-function slot2.Update(slot0)
+function slot5.Update(slot0)
 	for slot4, slot5 in ipairs(uv0.PrimalAttr) do
 		slot0:updatePrimalAttr(slot5)
 	end
@@ -85,12 +93,10 @@ function slot2.Update(slot0)
 
 	slot0:updateHP()
 	slot0:updateBuffList()
+	slot0:updateWeaponProgress()
 end
 
-function slot2.UpdatePos(slot0, slot1)
-end
-
-function slot2.ConfigSkin(slot0, slot1)
+function slot5.ConfigSkin(slot0, slot1)
 	slot0._go = slot1
 	slot2 = slot1.transform
 	slot0._tf = slot2
@@ -113,11 +119,18 @@ function slot2.ConfigSkin(slot0, slot1)
 	slot0._buffView = slot2:Find("attr_panels/buff")
 	slot0._buffContainer = slot0._buffView:Find("buff_container")
 	slot0._buffTpl = slot0._buffView:Find("buff_tpl")
+	slot0._weaponView = slot2:Find("weapon_panels")
+	slot0._weaponContainer = slot0._weaponView:Find("container/weapon_container")
+	slot0._weaponTpl = slot0._weaponView:Find("container/weapon_tpl")
 
 	SetActive(slot0._go, true)
+
+	for slot6, slot7 in ipairs(uv0.DefaultActive) do
+		SetActive(slot2:Find(slot7), true)
+	end
 end
 
-function slot2.updateHP(slot0)
+function slot5.updateHP(slot0)
 	slot1, slot2 = slot0._unit:GetHP()
 
 	setText(slot0._totalHP, slot2)
@@ -125,7 +138,7 @@ function slot2.updateHP(slot0)
 	setText(slot0._HPRate, string.format("%.3f", slot0._unit:GetHPRate()))
 end
 
-function slot2.updatePrimalAttr(slot0, slot1)
+function slot5.updatePrimalAttr(slot0, slot1)
 	slot2 = slot0._unit:GetAttrByName(slot1)
 
 	setText(slot0._attrView:Find(slot1 .. "/current"), slot2)
@@ -141,7 +154,7 @@ function slot2.updatePrimalAttr(slot0, slot1)
 	end
 end
 
-function slot2.updateBaseEnhancement(slot0, slot1, slot2)
+function slot5.updateBaseEnhancement(slot0, slot1, slot2)
 	slot4 = slot0._unit:GetAttrByName(slot1)
 
 	setText(slot0._baseEnhanceView:Find(slot2):Find("current"), slot4)
@@ -151,7 +164,7 @@ function slot2.updateBaseEnhancement(slot0, slot1, slot2)
 	end
 end
 
-function slot2.updateSecondaryAttr(slot0, slot1, slot2)
+function slot5.updateSecondaryAttr(slot0, slot1, slot2)
 	if not slot0._secondaryAttrList[slot1] then
 		slot3 = cloneTplTo(slot0._secondaryAttrTpl, slot0._secondaryAttrContainer)
 
@@ -172,7 +185,7 @@ function slot2.updateSecondaryAttr(slot0, slot1, slot2)
 	end
 end
 
-function slot2.updateBuffList(slot0)
+function slot5.updateBuffList(slot0)
 	slot1 = slot0._unit:GetBuffList()
 
 	for slot5, slot6 in pairs(slot0._buffList) do
@@ -190,7 +203,65 @@ function slot2.updateBuffList(slot0)
 	end
 end
 
-function slot2.addBuff(slot0, slot1)
+function slot5.updateWeaponList(slot0)
+	for slot5, slot6 in ipairs(slot0._unit:GetAllWeapon()) do
+		if slot6:GetType() ~= uv0.PASSIVE_SCOUT and slot7 ~= uv0.FLEET_ANTI_AIR then
+			slot8 = cloneTplTo(slot0._weaponTpl, slot0._weaponContainer)
+
+			setText(slot8:Find("common/index"), slot6:GetEquipmentIndex())
+			setText(slot8:Find("common/templateID"), slot6:GetTemplateData().id)
+
+			if slot6:GetSrcEquipmentID() then
+				GetImageSpriteFromAtlasAsync("equips/" .. uv1.GetWeaponDataFromID(slot9).icon, "", slot8:Find("common/icon"))
+			else
+				setActive(slot10, false)
+			end
+
+			slot0._weaponList[slot6] = slot8
+
+			onToggle(slot0, slot8:Find("common/sector"), function (slot0)
+				uv0._unit:ActiveWeaponSectorView(uv1, slot0)
+			end)
+			slot0:updateBulletAttrBuff(slot6)
+		end
+	end
+end
+
+function slot5.updateWeaponProgress(slot0)
+	for slot4, slot5 in pairs(slot0._weaponList) do
+		slot6 = slot4:GetReloadRate()
+		slot5:Find("common/reload_progress/blood"):GetComponent(typeof(Image)).fillAmount = 1 - slot6
+
+		if slot6 == 0 then
+			slot7.color = Color.green
+		else
+			slot7.color = Color.red
+		end
+
+		setText(slot5:Find("sum/damageSum"), slot4:GetDamageSUM())
+		setText(slot5:Find("sum/CTRate"), string.format("%.2f", slot4:GetCTRate() * 100) .. "%")
+		setText(slot5:Find("sum/ACCRate"), string.format("%.2f", slot4:GetACCRate() * 100) .. "%")
+	end
+end
+
+function slot5.updateBulletAttrBuff(slot0, slot1)
+	slot2 = slot0._weaponList[slot1]
+	slot3 = slot2:Find("weapon_attr_tpl")
+	slot4 = slot2:Find("weapon_attr_container")
+
+	for slot8, slot9 in pairs(slot0._unit:GetBuffList()) do
+		for slot13, slot14 in ipairs(slot9:GetEffectList()) do
+			if slot14.__name == uv0.Battle.BattleBuffAddBulletAttr.__name and slot14:equipIndexRequire(slot1:GetEquipmentIndex()) then
+				slot16 = cloneTplTo(slot3, slot4)
+
+				setText(slot16:Find("tag_name"), slot14._attr)
+				setText(slot16:Find("current"), slot14._number)
+			end
+		end
+	end
+end
+
+function slot5.addBuff(slot0, slot1)
 	slot2 = cloneTplTo(slot0._buffTpl, slot0._buffContainer)
 
 	setText(slot2:Find("buff_id"), "buff_" .. slot1)
@@ -199,13 +270,18 @@ function slot2.addBuff(slot0, slot1)
 	slot0._buffList[slot1] = slot2
 end
 
-function slot2.Dispose(slot0)
+function slot5.Dispose(slot0)
+	pg.DelegateInfo.Dispose(slot0)
+
 	slot0._unit = nil
+	slot0._secondaryAttrList = nil
+	slot0._buffList = nil
+	slot0._weaponList = nil
 
 	GameObject.Destroy(slot0._go)
 end
 
-function slot2.setDeltaText(slot0, slot1)
+function slot5.setDeltaText(slot0, slot1)
 	setText(slot0, slot1)
 
 	slot0:GetComponent(typeof(Text)).color = slot1 > 0 and Color.green or Color.red

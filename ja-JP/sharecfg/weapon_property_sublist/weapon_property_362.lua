@@ -2,537 +2,6 @@ pg = pg or {}
 pg.weapon_property_362 = {}
 
 function ()
-	uv0.weapon_property_362[1003168] = {
-		id = 1003168,
-		name = "【精英】梦境破局者 2颗炮弹3轮攻击后排 III",
-		base = 1001168,
-		bullet_ID = {
-			834
-		}
-	}
-	uv0.weapon_property_362[1003169] = {
-		id = 1003169,
-		name = "【精英】梦境破局者 2颗炮弹3轮攻击后排 IV",
-		base = 1001169,
-		bullet_ID = {
-			834
-		}
-	}
-	uv0.weapon_property_362[1003170] = {
-		id = 1003170,
-		name = "【精英】梦境破局者 2颗炮弹3轮攻击后排 V",
-		base = 1001170,
-		bullet_ID = {
-			834
-		}
-	}
-	uv0.weapon_property_362[1003171] = {
-		id = 1003171,
-		name = "【精英】梦境破局者 双联装炮连射 I",
-		base = 1001171,
-		bullet_ID = {
-			831
-		}
-	}
-	uv0.weapon_property_362[1003172] = {
-		id = 1003172,
-		name = "【精英】梦境破局者 双联装炮连射 II",
-		base = 1001172,
-		bullet_ID = {
-			831
-		}
-	}
-	uv0.weapon_property_362[1003173] = {
-		id = 1003173,
-		name = "【精英】梦境破局者 双联装炮连射 III",
-		base = 1001173,
-		bullet_ID = {
-			831
-		}
-	}
-	uv0.weapon_property_362[1003174] = {
-		id = 1003174,
-		name = "【精英】梦境破局者 双联装炮连射 IV",
-		base = 1001174,
-		bullet_ID = {
-			831
-		}
-	}
-	uv0.weapon_property_362[1003175] = {
-		id = 1003175,
-		name = "【精英】梦境破局者 双联装炮连射 V",
-		base = 1001175,
-		bullet_ID = {
-			831
-		}
-	}
-	uv0.weapon_property_362[1003176] = {
-		id = 1003176,
-		name = "【精英】梦境执棋者 武器1 I",
-		base = 1001176,
-		bullet_ID = {
-			831
-		}
-	}
-	uv0.weapon_property_362[1003177] = {
-		id = 1003177,
-		name = "【精英】梦境执棋者 武器1 II",
-		base = 1001177,
-		bullet_ID = {
-			831
-		}
-	}
-	uv0.weapon_property_362[1003178] = {
-		id = 1003178,
-		name = "【精英】梦境执棋者 武器1 III",
-		base = 1001178,
-		bullet_ID = {
-			831
-		}
-	}
-	uv0.weapon_property_362[1003179] = {
-		id = 1003179,
-		name = "【精英】梦境执棋者 武器1 IV",
-		base = 1001179,
-		bullet_ID = {
-			831
-		}
-	}
-	uv0.weapon_property_362[1003180] = {
-		id = 1003180,
-		name = "【精英】梦境执棋者 武器1 V",
-		base = 1001180,
-		bullet_ID = {
-			831
-		}
-	}
-	uv0.weapon_property_362[1003181] = {
-		id = 1003181,
-		name = "【精英】梦境执棋者 武器2 I",
-		base = 1001181,
-		bullet_ID = {
-			831,
-			831,
-			831
-		}
-	}
-	uv0.weapon_property_362[1003182] = {
-		id = 1003182,
-		name = "【精英】梦境执棋者 武器2 II",
-		base = 1001182,
-		bullet_ID = {
-			831,
-			831,
-			831
-		}
-	}
-	uv0.weapon_property_362[1003183] = {
-		id = 1003183,
-		name = "【精英】梦境执棋者 武器2 III",
-		base = 1001183,
-		bullet_ID = {
-			831,
-			831,
-			831
-		}
-	}
-	uv0.weapon_property_362[1003184] = {
-		id = 1003184,
-		name = "【精英】梦境执棋者 武器2 IV",
-		base = 1001184,
-		bullet_ID = {
-			831,
-			831,
-			831
-		}
-	}
-	uv0.weapon_property_362[1003185] = {
-		id = 1003185,
-		name = "【精英】梦境执棋者 武器2 V",
-		base = 1001185,
-		bullet_ID = {
-			831,
-			831,
-			831
-		}
-	}
-	uv0.weapon_property_362[1003186] = {
-		id = 1003186,
-		name = "【精英】梦境执棋者 轰炸机T3 I",
-		base = 1001186,
-		bullet_ID = {}
-	}
-	uv0.weapon_property_362[1003187] = {
-		id = 1003187,
-		name = "【精英】梦境执棋者 轰炸机T3 II",
-		base = 1001187,
-		bullet_ID = {}
-	}
-	uv0.weapon_property_362[1003188] = {
-		id = 1003188,
-		name = "【精英】梦境执棋者 轰炸机T3 III",
-		base = 1001188,
-		bullet_ID = {}
-	}
-	uv0.weapon_property_362[1003189] = {
-		id = 1003189,
-		name = "【精英】梦境执棋者 轰炸机T3 IV",
-		base = 1001189,
-		bullet_ID = {}
-	}
-	uv0.weapon_property_362[1003190] = {
-		id = 1003190,
-		name = "【精英】梦境执棋者 轰炸机T3 V",
-		base = 1001190,
-		bullet_ID = {}
-	}
-	uv0.weapon_property_362[1003191] = {
-		id = 1003191,
-		name = "【精英】梦境执棋者 鱼雷机T3 I",
-		base = 1001191,
-		bullet_ID = {}
-	}
-	uv0.weapon_property_362[1003192] = {
-		id = 1003192,
-		name = "【精英】梦境执棋者 鱼雷机T3 II",
-		base = 1001192,
-		bullet_ID = {}
-	}
-	uv0.weapon_property_362[1003193] = {
-		id = 1003193,
-		name = "【精英】梦境执棋者 鱼雷机T3 III",
-		base = 1001193,
-		bullet_ID = {}
-	}
-	uv0.weapon_property_362[1003194] = {
-		id = 1003194,
-		name = "【精英】梦境执棋者 鱼雷机T3 IV",
-		base = 1001194,
-		bullet_ID = {}
-	}
-	uv0.weapon_property_362[1003195] = {
-		id = 1003195,
-		name = "【精英】梦境执棋者 鱼雷机T3 V",
-		base = 1001195,
-		bullet_ID = {}
-	}
-	uv0.weapon_property_362[1003196] = {
-		id = 1003196,
-		name = "【精英】梦境塞壬精英人形通用武器 I",
-		base = 1002196,
-		bullet_ID = {
-			760062,
-			760062,
-			760062,
-			760062,
-			760062,
-			760062
-		}
-	}
-	uv0.weapon_property_362[1003197] = {
-		id = 1003197,
-		name = "【精英】梦境塞壬精英人形通用武器 II",
-		base = 1002197,
-		bullet_ID = {
-			760062,
-			760062,
-			760062,
-			760062,
-			760062,
-			760062
-		}
-	}
-	uv0.weapon_property_362[1003198] = {
-		id = 1003198,
-		name = "【精英】梦境塞壬精英人形通用武器 III",
-		base = 1002198,
-		bullet_ID = {
-			760062,
-			760062,
-			760062,
-			760062,
-			760062,
-			760062
-		}
-	}
-	uv0.weapon_property_362[1003199] = {
-		id = 1003199,
-		name = "【精英】梦境塞壬精英人形通用武器 IV",
-		base = 1002199,
-		bullet_ID = {
-			760062,
-			760062,
-			760062,
-			760062,
-			760062,
-			760062
-		}
-	}
-	uv0.weapon_property_362[1003200] = {
-		id = 1003200,
-		name = "【精英】梦境塞壬精英人形通用武器 V",
-		base = 1002200,
-		bullet_ID = {
-			760062,
-			760062,
-			760062,
-			760062,
-			760062,
-			760062
-		}
-	}
-	uv0.weapon_property_362[1003201] = {
-		id = 1003201,
-		name = "【精英】梦境探索者 精英人形特殊武器 I",
-		base = 1002201,
-		bullet_ID = {
-			760063,
-			760064,
-			760065,
-			760066,
-			760067,
-			760063,
-			760064,
-			760065,
-			760066,
-			760067
-		}
-	}
-	uv0.weapon_property_362[1003202] = {
-		id = 1003202,
-		name = "【精英】梦境探索者 精英人形特殊武器 II",
-		base = 1002202,
-		bullet_ID = {
-			760063,
-			760064,
-			760065,
-			760066,
-			760067,
-			760063,
-			760064,
-			760065,
-			760066,
-			760067
-		}
-	}
-	uv0.weapon_property_362[1003203] = {
-		id = 1003203,
-		name = "【精英】梦境探索者 精英人形特殊武器 III",
-		base = 1002203,
-		bullet_ID = {
-			760063,
-			760064,
-			760065,
-			760066,
-			760067,
-			760063,
-			760064,
-			760065,
-			760066,
-			760067
-		}
-	}
-	uv0.weapon_property_362[1003204] = {
-		id = 1003204,
-		name = "【精英】梦境探索者 精英人形特殊武器 IV",
-		base = 1002204,
-		bullet_ID = {
-			760063,
-			760064,
-			760065,
-			760066,
-			760067,
-			760063,
-			760064,
-			760065,
-			760066,
-			760067
-		}
-	}
-	uv0.weapon_property_362[1003205] = {
-		id = 1003205,
-		name = "【精英】梦境探索者 精英人形特殊武器 V",
-		base = 1002205,
-		bullet_ID = {
-			760063,
-			760064,
-			760065,
-			760066,
-			760067,
-			760063,
-			760064,
-			760065,
-			760066,
-			760067
-		}
-	}
-	uv0.weapon_property_362[1003206] = {
-		id = 1003206,
-		name = "【精英】梦境追迹者 精英人形特殊武器 I",
-		base = 1002206,
-		bullet_ID = {
-			832,
-			832,
-			832,
-			832,
-			832,
-			832,
-			832,
-			832,
-			832
-		}
-	}
-	uv0.weapon_property_362[1003207] = {
-		id = 1003207,
-		name = "【精英】梦境追迹者 精英人形特殊武器 II",
-		base = 1002207,
-		bullet_ID = {
-			832,
-			832,
-			832,
-			832,
-			832,
-			832,
-			832,
-			832,
-			832
-		}
-	}
-	uv0.weapon_property_362[1003208] = {
-		id = 1003208,
-		name = "【精英】梦境追迹者 精英人形特殊武器 III",
-		base = 1002208,
-		bullet_ID = {
-			832,
-			832,
-			832,
-			832,
-			832,
-			832,
-			832,
-			832,
-			832
-		}
-	}
-	uv0.weapon_property_362[1003209] = {
-		id = 1003209,
-		name = "【精英】梦境追迹者 精英人形特殊武器 IV",
-		base = 1002209,
-		bullet_ID = {
-			832,
-			832,
-			832,
-			832,
-			832,
-			832,
-			832,
-			832,
-			832
-		}
-	}
-	uv0.weapon_property_362[1003210] = {
-		id = 1003210,
-		name = "【精英】梦境追迹者 精英人形特殊武器 V",
-		base = 1002210,
-		bullet_ID = {
-			832,
-			832,
-			832,
-			832,
-			832,
-			832,
-			832,
-			832,
-			832
-		}
-	}
-	uv0.weapon_property_362[1003211] = {
-		id = 1003211,
-		name = "【精英】梦境领洋者 精英人形特殊武器 I",
-		base = 1002211,
-		bullet_ID = {
-			835,
-			835,
-			835,
-			835,
-			835
-		}
-	}
-	uv0.weapon_property_362[1003212] = {
-		id = 1003212,
-		name = "【精英】梦境领洋者 精英人形特殊武器 II",
-		base = 1002212,
-		bullet_ID = {
-			835,
-			835,
-			835,
-			835,
-			835
-		}
-	}
-	uv0.weapon_property_362[1003213] = {
-		id = 1003213,
-		name = "【精英】梦境领洋者 精英人形特殊武器 III",
-		base = 1002213,
-		bullet_ID = {
-			835,
-			835,
-			835,
-			835,
-			835
-		}
-	}
-	uv0.weapon_property_362[1003214] = {
-		id = 1003214,
-		name = "【精英】梦境领洋者 精英人形特殊武器 IV",
-		base = 1002214,
-		bullet_ID = {
-			835,
-			835,
-			835,
-			835,
-			835
-		}
-	}
-	uv0.weapon_property_362[1003215] = {
-		id = 1003215,
-		name = "【精英】梦境领洋者 精英人形特殊武器 V",
-		base = 1002215,
-		bullet_ID = {
-			835,
-			835,
-			835,
-			835,
-			835
-		}
-	}
-	uv0.weapon_property_362[1003216] = {
-		id = 1003216,
-		name = "【精英】梦境破局者 精英人形特殊武器 I",
-		base = 1002216,
-		bullet_ID = {
-			835,
-			835
-		}
-	}
-	uv0.weapon_property_362[1003217] = {
-		id = 1003217,
-		name = "【精英】梦境破局者 精英人形特殊武器 II",
-		base = 1002217,
-		bullet_ID = {
-			835,
-			835
-		}
-	}
-	uv0.weapon_property_362[1003218] = {
-		id = 1003218,
-		name = "【精英】梦境破局者 精英人形特殊武器 III",
-		base = 1002218,
-		bullet_ID = {
-			835,
-			835
-		}
-	}
 	uv0.weapon_property_362[1003219] = {
 		id = 1003219,
 		name = "【精英】梦境破局者 精英人形特殊武器 IV",
@@ -620,5 +89,460 @@ function ()
 		id = 1003228,
 		name = "【精英】梦境执棋者 鱼雷机武器T1",
 		base = 1001228
+	}
+	uv0.weapon_property_362[1003229] = {
+		id = 1003229,
+		name = "【精英】梦境执棋者 鱼雷机武器T1",
+		base = 1001229
+	}
+	uv0.weapon_property_362[1003230] = {
+		id = 1003230,
+		name = "【精英】梦境执棋者 鱼雷机武器T1",
+		base = 1001230
+	}
+	uv0.weapon_property_362[1003231] = {
+		name = "【空袭】梦境塞壬空袭轰炸机武器 I",
+		base = 1000840,
+		id = 1003231,
+		bullet_ID = {
+			130301
+		},
+		barrage_ID = {
+			130992
+		}
+	}
+	uv0.weapon_property_362[1003232] = {
+		name = "【空袭】梦境塞壬空袭轰炸机武器 II",
+		base = 1000841,
+		id = 1003232,
+		bullet_ID = {
+			130301
+		},
+		barrage_ID = {
+			130992
+		}
+	}
+	uv0.weapon_property_362[1003233] = {
+		name = "【空袭】梦境塞壬空袭轰炸机武器 III",
+		base = 1000842,
+		id = 1003233,
+		bullet_ID = {
+			130301
+		},
+		barrage_ID = {
+			130992
+		}
+	}
+	uv0.weapon_property_362[1003234] = {
+		name = "【空袭】梦境塞壬空袭轰炸机武器 IV",
+		base = 1000843,
+		id = 1003234,
+		bullet_ID = {
+			130301
+		},
+		barrage_ID = {
+			130992
+		}
+	}
+	uv0.weapon_property_362[1003235] = {
+		name = "【空袭】梦境塞壬空袭轰炸机武器 V",
+		base = 1000844,
+		id = 1003235,
+		bullet_ID = {
+			130301
+		},
+		barrage_ID = {
+			130992
+		}
+	}
+	uv0.weapon_property_362[1003236] = {
+		id = 1003236,
+		name = "【空袭】梦境塞壬空袭鱼雷机武器 I",
+		base = 1000845,
+		bullet_ID = {
+			838
+		}
+	}
+	uv0.weapon_property_362[1003237] = {
+		id = 1003237,
+		name = "【空袭】梦境塞壬空袭鱼雷机武器 II",
+		base = 1000846,
+		bullet_ID = {
+			838
+		}
+	}
+	uv0.weapon_property_362[1003238] = {
+		id = 1003238,
+		name = "【空袭】梦境塞壬空袭鱼雷机武器 III",
+		base = 1000847,
+		bullet_ID = {
+			838
+		}
+	}
+	uv0.weapon_property_362[1003239] = {
+		id = 1003239,
+		name = "【空袭】梦境塞壬空袭鱼雷机武器 IV",
+		base = 1000848,
+		bullet_ID = {
+			838
+		}
+	}
+	uv0.weapon_property_362[1003240] = {
+		id = 1003240,
+		name = "【空袭】梦境塞壬空袭鱼雷机武器 V",
+		base = 1000849,
+		bullet_ID = {
+			838
+		}
+	}
+	uv0.weapon_property_362[1003241] = {
+		id = 1003241,
+		name = "【空袭】梦境塞壬空袭战斗机弹幕武器 I",
+		base = 1000850,
+		bullet_ID = {
+			20006,
+			20006,
+			20006,
+			20006
+		}
+	}
+	uv0.weapon_property_362[1003242] = {
+		id = 1003242,
+		name = "【空袭】梦境塞壬空袭战斗机弹幕武器 II",
+		base = 1000851,
+		bullet_ID = {
+			20006,
+			20006,
+			20006,
+			20006
+		}
+	}
+	uv0.weapon_property_362[1003243] = {
+		id = 1003243,
+		name = "【空袭】梦境塞壬空袭战斗机弹幕武器 III",
+		base = 1000852,
+		bullet_ID = {
+			20006,
+			20006,
+			20006,
+			20006
+		}
+	}
+	uv0.weapon_property_362[1003244] = {
+		id = 1003244,
+		name = "【空袭】梦境塞壬空袭战斗机弹幕武器 IV",
+		base = 1000853,
+		bullet_ID = {
+			20006,
+			20006,
+			20006,
+			20006
+		}
+	}
+	uv0.weapon_property_362[1003245] = {
+		id = 1003245,
+		name = "【空袭】梦境塞壬空袭战斗机弹幕武器 V",
+		base = 1000854,
+		bullet_ID = {
+			20006,
+			20006,
+			20006,
+			20006
+		}
+	}
+	uv0.weapon_property_362[1003246] = {
+		id = 1003246,
+		name = "【空袭】梦境塞壬空袭战斗机空中武器 I",
+		base = 1000855
+	}
+	uv0.weapon_property_362[1003247] = {
+		id = 1003247,
+		name = "【空袭】梦境塞壬空袭战斗机空中武器 II",
+		base = 1000856
+	}
+	uv0.weapon_property_362[1003248] = {
+		id = 1003248,
+		name = "【空袭】梦境塞壬空袭战斗机空中武器 III",
+		base = 1000857
+	}
+	uv0.weapon_property_362[1003249] = {
+		id = 1003249,
+		name = "【空袭】梦境塞壬空袭战斗机空中武器 IV",
+		base = 1000858
+	}
+	uv0.weapon_property_362[1003250] = {
+		id = 1003250,
+		name = "【空袭】梦境塞壬空袭战斗机空中武器 V",
+		base = 1000859
+	}
+	uv0.weapon_property_362[1003251] = {
+		id = 1003251,
+		name = "【精英】梦境领洋者 精英人形特殊武器2 I",
+		base = 1000760,
+		bullet_ID = {
+			833,
+			833,
+			833,
+			833
+		}
+	}
+	uv0.weapon_property_362[1003252] = {
+		id = 1003252,
+		name = "【精英】梦境领洋者 精英人形特殊武器2 II",
+		base = 1000761,
+		bullet_ID = {
+			833,
+			833,
+			833,
+			833
+		}
+	}
+	uv0.weapon_property_362[1003253] = {
+		id = 1003253,
+		name = "【精英】梦境领洋者 精英人形特殊武器2 III",
+		base = 1000762,
+		bullet_ID = {
+			833,
+			833,
+			833,
+			833
+		}
+	}
+	uv0.weapon_property_362[1003254] = {
+		id = 1003254,
+		name = "【精英】梦境领洋者 精英人形特殊武器2 IV",
+		base = 1000763,
+		bullet_ID = {
+			833,
+			833,
+			833,
+			833
+		}
+	}
+	uv0.weapon_property_362[1003255] = {
+		id = 1003255,
+		name = "【精英】梦境领洋者 精英人形特殊武器2 V",
+		base = 1000764,
+		bullet_ID = {
+			833,
+			833,
+			833,
+			833
+		}
+	}
+	uv0.weapon_property_362[1003256] = {
+		id = 1003256,
+		name = "【精英】梦境潜伏者 自机狙乱弹 I",
+		base = 1000880,
+		bullet_ID = {
+			760070
+		}
+	}
+	uv0.weapon_property_362[1003257] = {
+		id = 1003257,
+		name = "【精英】梦境潜伏者 自机狙乱弹 II",
+		base = 1000881,
+		bullet_ID = {
+			760070
+		}
+	}
+	uv0.weapon_property_362[1003258] = {
+		id = 1003258,
+		name = "【精英】梦境潜伏者 自机狙乱弹 III",
+		base = 1000882,
+		bullet_ID = {
+			760070
+		}
+	}
+	uv0.weapon_property_362[1003259] = {
+		id = 1003259,
+		name = "【精英】梦境潜伏者 自机狙乱弹 IV",
+		base = 1000883,
+		bullet_ID = {
+			760070
+		}
+	}
+	uv0.weapon_property_362[1003260] = {
+		id = 1003260,
+		name = "【精英】梦境潜伏者 自机狙乱弹 V",
+		base = 1000884,
+		bullet_ID = {
+			760070
+		}
+	}
+	uv0.weapon_property_362[1003261] = {
+		name = "【精英】梦境潜伏者 红黑色上下排子母弹 I",
+		base = 1000885,
+		id = 1003261,
+		bullet_ID = {
+			760071,
+			760072
+		},
+		barrage_ID = {
+			770060,
+			770061
+		}
+	}
+	uv0.weapon_property_362[1003262] = {
+		name = "【精英】梦境潜伏者 红黑色上下排子母弹 II",
+		base = 1000886,
+		id = 1003262,
+		bullet_ID = {
+			760071,
+			760072
+		},
+		barrage_ID = {
+			770060,
+			770061
+		}
+	}
+	uv0.weapon_property_362[1003263] = {
+		name = "【精英】梦境潜伏者 红黑色上下排子母弹 III",
+		base = 1000887,
+		id = 1003263,
+		bullet_ID = {
+			760071,
+			760072
+		},
+		barrage_ID = {
+			770060,
+			770061
+		}
+	}
+	uv0.weapon_property_362[1003264] = {
+		name = "【精英】梦境潜伏者 红黑色上下排子母弹 IV",
+		base = 1000888,
+		id = 1003264,
+		bullet_ID = {
+			760071,
+			760072
+		},
+		barrage_ID = {
+			770060,
+			770061
+		}
+	}
+	uv0.weapon_property_362[1003265] = {
+		name = "【精英】梦境潜伏者 红黑色上下排子母弹 V",
+		base = 1000889,
+		id = 1003265,
+		bullet_ID = {
+			760071,
+			760072
+		},
+		barrage_ID = {
+			770060,
+			770061
+		}
+	}
+	uv0.weapon_property_362[1003266] = {
+		id = 1003266,
+		name = "【精英】梦境潜伏者 2x4自机狙鱼雷 I",
+		base = 1000890
+	}
+	uv0.weapon_property_362[1003267] = {
+		id = 1003267,
+		name = "【精英】梦境潜伏者 2x4自机狙鱼雷 II",
+		base = 1000891
+	}
+	uv0.weapon_property_362[1003268] = {
+		id = 1003268,
+		name = "【精英】梦境潜伏者 2x4自机狙鱼雷 III",
+		base = 1000892
+	}
+	uv0.weapon_property_362[1003269] = {
+		id = 1003269,
+		name = "【精英】梦境潜伏者 2x4自机狙鱼雷 IV",
+		base = 1000893
+	}
+	uv0.weapon_property_362[1003270] = {
+		id = 1003270,
+		name = "【精英】梦境潜伏者 2x4自机狙鱼雷 V",
+		base = 1000894
+	}
+	uv0.weapon_property_362[1003271] = {
+		id = 1003271,
+		name = "【精英】梦境潜伏者 开幕雷击 I",
+		base = 1000895
+	}
+	uv0.weapon_property_362[1003272] = {
+		id = 1003272,
+		name = "【精英】梦境潜伏者 开幕雷击 II",
+		base = 1000896
+	}
+	uv0.weapon_property_362[1003273] = {
+		id = 1003273,
+		name = "【精英】梦境潜伏者 开幕雷击 III",
+		base = 1000897
+	}
+	uv0.weapon_property_362[1003274] = {
+		id = 1003274,
+		name = "【精英】梦境潜伏者 开幕雷击 IV",
+		base = 1000898
+	}
+	uv0.weapon_property_362[1003275] = {
+		id = 1003275,
+		name = "【精英】梦境潜伏者 开幕雷击 V",
+		base = 1000899
+	}
+	uv0.weapon_property_362[1003276] = {
+		reload_max = 750,
+		base = 1100695,
+		id = 1003276,
+		name = "【量产型】精锐梦境塞壬潜艇 3way鱼雷弹幕1",
+		bullet_ID = {
+			760087
+		},
+		barrage_ID = {
+			1402
+		},
+		oxy_type = {
+			2
+		}
+	}
+	uv0.weapon_property_362[1003277] = {
+		reload_max = 750,
+		base = 1100696,
+		id = 1003277,
+		name = "【量产型】精锐梦境塞壬潜艇 3way鱼雷弹幕2",
+		bullet_ID = {
+			760087
+		},
+		barrage_ID = {
+			1402
+		},
+		oxy_type = {
+			2
+		}
+	}
+	uv0.weapon_property_362[1003278] = {
+		reload_max = 750,
+		base = 1100697,
+		id = 1003278,
+		name = "【量产型】精锐梦境塞壬潜艇 3way鱼雷弹幕3",
+		bullet_ID = {
+			760087
+		},
+		barrage_ID = {
+			1402
+		},
+		oxy_type = {
+			2
+		}
+	}
+	uv0.weapon_property_362[1003279] = {
+		reload_max = 750,
+		base = 1100698,
+		id = 1003279,
+		name = "【量产型】精锐梦境塞壬潜艇 3way鱼雷弹幕4",
+		bullet_ID = {
+			760087
+		},
+		barrage_ID = {
+			1402
+		},
+		oxy_type = {
+			2
+		}
 	}
 end()

@@ -8,7 +8,7 @@ slot1.TYPE_AIRCRAFT = 2
 slot1.TYPE_MINION = 3
 
 function slot1.Ctor(slot0, slot1)
-	uv0.Battle.BattleSkillDamage.super.Ctor(slot0, slot1, lv)
+	uv0.super.Ctor(slot0, slot1, lv)
 
 	slot0._clsTypeList = slot0._tempData.arg_list.typeList or {}
 end

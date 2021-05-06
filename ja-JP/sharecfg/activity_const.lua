@@ -271,10 +271,10 @@ pg.activity_const = {
 		act_id = 332
 	},
 	JAVELIN_COMIC_NINE_DAY_TASK = {
-		act_id = 333
+		act_id = 958
 	},
 	JAVELIN_COMIC_PUZZLE_TASK = {
-		act_id = 334
+		act_id = 959
 	},
 	ACTIVITY_ID_US_SKIRMISH = {
 		act_id = 337

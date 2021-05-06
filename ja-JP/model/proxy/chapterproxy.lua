@@ -73,12 +73,32 @@ function slot0.register(slot0)
 				return slot0.item_type == ChapterConst.AttachOni
 			end) then
 				slot1:onOniEnter()
+				function ()
+					if not getProxy(ContextProxy) then
+						return
+					end
+
+					if slot0:getCurrentContext().mediator == LevelMediator2 then
+						uv0 = bit.bor(uv0, ChapterConst.DirtyAttachment, ChapterConst.DirtyStrategy)
+
+						uv1:SetChapterAutoFlag(uv2.id, false)
+
+						return
+					end
+
+					if not slot0:getContextByMediator(LevelMediator2) then
+						return
+					end
+
+					slot2.data.StopAutoFightFlag = true
+				end()
 			end
 
 			if _.any(slot0.map_update, function (slot0)
 				return slot0.item_type == ChapterConst.AttachBomb_Enemy
 			end) then
 				slot1:onBombEnemyEnter()
+				slot3()
 			end
 
 			if #slot0.map_update > 0 then

@@ -243,6 +243,12 @@ function slot0.goPage(slot0, slot1)
 	setActive(slot0.menu, false)
 	slot0:blurView()
 
+	for slot5, slot6 in ipairs(slot0.linkPage) do
+		if slot6 ~= 1 then
+			setActive(slot6, slot5 == slot1)
+		end
+	end
+
 	if slot1 == uv0.TYPE_DIAMOND then
 		if not slot0.isInitDamonds then
 			slot0:initDamonds()
@@ -263,12 +269,6 @@ function slot0.goPage(slot0, slot1)
 		slot0:jumpToSkinShop()
 	elseif slot1 == uv0.TYPE_ITEM and not slot0.isInitItems then
 		slot0:initItems()
-	end
-
-	for slot5, slot6 in ipairs(slot0.linkPage) do
-		if slot6 ~= 1 then
-			setActive(slot6, slot5 == slot1)
-		end
 	end
 
 	slot0:ChangeTitle(slot1)

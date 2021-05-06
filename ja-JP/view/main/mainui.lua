@@ -135,6 +135,9 @@ function slot0.init(slot0)
 	slot0._monthCardBtn = slot0:findTF("toTop/frame/leftPanel/monthCardButton")
 	slot0._commissionBtn = slot0:findTF("toTop/frame/leftPanel/commissionButton")
 	slot0._commissionBtn.localPosition = Vector3(0, slot0._commissionBtn.localPosition.y, 0)
+	slot0._wordBtn = slot0:findTF("toTop/frame/leftPanel/wordBtn")
+	slot0._wordBtnOpen = slot0:findTF("toTop/frame/leftPanel/wordBtn/open")
+	slot0._wordBtnClose = slot0:findTF("toTop/frame/leftPanel/wordBtn/close")
 	slot0._rightPanel = slot0:findTF("toTop/frame/rightPanel")
 	slot0._combatBtn = slot0:findTF("toTop/frame/rightPanel/eventPanel/combatBtn")
 	slot0._formationBtn = slot0:findTF("toTop/frame/rightPanel/eventPanel/formationButton")
@@ -286,23 +289,23 @@ function slot0.uiEnterAnim(slot0)
 	setAnchoredPosition(slot0._rightPanel, Vector2(847, 0))
 	setAnchoredPosition(slot0._rightTopPanel, Vector2(847, 0))
 	setAnchoredPosition(slot0._playerResOb, Vector2(0, 77))
-	slot0:ejectGimmick(slot0._bottomPanel, uv0.REVERT_VERTICAL, uv0.EJECT_DURATION_ENTER, nil, {
+	slot0:ejectGimmick(slot0._bottomPanel, uv0.REVERT_VERTICAL, uv0.EJECT_DURATION_ENTER, nil, 0, {
 		0,
 		1
 	})
-	slot0:ejectGimmick(slot0._btmbg, uv0.REVERT_VERTICAL, uv0.EJECT_DURATION_ENTER, nil, {
+	slot0:ejectGimmick(slot0._btmbg, uv0.REVERT_VERTICAL, uv0.EJECT_DURATION_ENTER, nil, 0, {
 		0,
 		1
 	})
-	slot0:ejectGimmick(slot0._playerResOb, uv0.REVERT_VERTICAL, uv0.EJECT_DURATION_ENTER, nil, {
+	slot0:ejectGimmick(slot0._playerResOb, uv0.REVERT_VERTICAL, uv0.EJECT_DURATION_ENTER, nil, 0, {
 		0,
 		1
 	})
-	slot0:ejectGimmick(slot0._commanderPanel, uv0.REVERT_HERIZONTAL_VERTICAL, uv0.EJECT_DURATION_ENTER, nil, {
+	slot0:ejectGimmick(slot0._commanderPanel, uv0.REVERT_HERIZONTAL_VERTICAL, uv0.EJECT_DURATION_ENTER, nil, 0, {
 		0,
 		1
 	})
-	slot0:ejectGimmick(slot0._commanderPanelbg, uv0.REVERT_HERIZONTAL_VERTICAL, uv0.EJECT_DURATION_ENTER, nil, {
+	slot0:ejectGimmick(slot0._commanderPanelbg, uv0.REVERT_HERIZONTAL_VERTICAL, uv0.EJECT_DURATION_ENTER, nil, 0, {
 		0,
 		1
 	})
@@ -858,11 +861,36 @@ function slot0.didEnter(slot0)
 		uv0:emit(MainUIMediator.OPEN_TECHNOLOGY)
 	end, SFX_PANEL)
 
-	slot4 = GetOrAddComponent(slot0._paintingTF, "UILongPressTrigger").onLongPressed
+	slot0.showWord = getProxy(SettingsProxy):ShouldShipMainSceneWord()
 
-	pg.DelegateInfo.Add(slot0, slot4)
-	slot4:RemoveAllListeners()
-	slot4:AddListener(function ()
+	onButton(slot0, slot0._wordBtn, function ()
+		uv0.showWord = not uv0.showWord
+
+		getProxy(SettingsProxy):SaveMainSceneWordFlag(uv0.showWord)
+		pg.TipsMgr.GetInstance():ShowTips(uv0.showWord and i18n("game_openwords") or i18n("game_stopwords"))
+
+		if not uv0.showWord and LeanTween.isTweening(uv0._chat.gameObject) then
+			LeanTween.cancel(uv0._chat.gameObject)
+
+			uv0._chat.localScale = Vector3(0, 0, 0)
+			uv0._lastChatTween = nil
+			uv0.chatFlag = nil
+
+			uv0:startChatTimer()
+		end
+
+		uv1(uv0.showWord)
+	end, SFX_PANEL)
+	function (slot0)
+		setActive(uv0._wordBtnOpen, not slot0)
+		setActive(uv0._wordBtnClose, slot0)
+	end(slot0.showWord)
+
+	slot5 = GetOrAddComponent(slot0._paintingTF, "UILongPressTrigger").onLongPressed
+
+	pg.DelegateInfo.Add(slot0, slot5)
+	slot5:RemoveAllListeners()
+	slot5:AddListener(function ()
 		if uv0.live2dChar then
 			return
 		end
@@ -882,7 +910,7 @@ function slot0.didEnter(slot0)
 
 	setActive(slot0._settingBottom, false)
 	setActive(slot0._settingRight, false)
-	setActive(slot0.refluxBtn, getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_REFLUX) and not slot5:isEnd())
+	setActive(slot0.refluxBtn, getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_REFLUX) and not slot6:isEnd())
 	setActive(slot0.traingCampBtn, TrainingCampScene.isNormalActOn() or TrainingCampScene.isTecActOn())
 	TagTipHelper.MonthCardTagTip(slot0._montgcardTag)
 	TagTipHelper.SkinTagTip(slot0._skinSellTag)
@@ -1364,13 +1392,19 @@ function slot0.displayShipWord(slot0, slot1)
 	end
 
 	function slot13()
-		LeanTween.scale(rtf(uv0._chat.gameObject), Vector3.New(1, 1, 1), uv0.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function ()
-			uv0._lastChatTween = LeanTween.scale(rtf(uv0._chat.gameObject), Vector3.New(0, 0, 1), uv0.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeInBack):setDelay(uv0.CHAT_ANIMATION_TIME + uv1):setOnComplete(System.Action(function ()
+		if not uv0.showWord then
+			function ()
 				uv0._lastChatTween = nil
 				uv0.chatFlag = nil
 
 				uv0:startChatTimer()
-			end))
+			end()
+
+			return
+		end
+
+		LeanTween.scale(rtf(uv0._chat.gameObject), Vector3.New(1, 1, 1), uv0.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function ()
+			uv0._lastChatTween = LeanTween.scale(rtf(uv0._chat.gameObject), Vector3.New(0, 0, 1), uv0.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeInBack):setDelay(uv0.CHAT_ANIMATION_TIME + uv1):setOnComplete(System.Action(uv2))
 		end))
 	end
 

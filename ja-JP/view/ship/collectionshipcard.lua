@@ -25,6 +25,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.labelHeartIcon = findTF(slot0.heart, "icon"):GetComponent(typeof(Image))
 	slot0.labelHeartPlus = findTF(slot0.heart, "heart+"):GetComponent(typeof(Text))
 	slot0.imageUnknown = findTF(slot0.tr, "unknown"):GetComponent(typeof(Image))
+
+	ClearTweenItemAlphaAndWhite(slot0.go)
 end
 
 function slot0.getIsInited(slot0)
@@ -113,6 +115,8 @@ function slot0.clear(slot0)
 	slot0.showTrans = nil
 	slot0.propose = nil
 	slot0.code = nil
+
+	ClearTweenItemAlphaAndWhite(slot0.go)
 end
 
 return slot0

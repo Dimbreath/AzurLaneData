@@ -354,6 +354,11 @@ function slot0.update(slot0, slot1)
 
 	slot0.findex = 0
 	slot0.findex = slot0:getNextValidIndex()
+
+	if slot0.findex == 0 then
+		slot0.findex = 1
+	end
+
 	slot0.champions = {}
 
 	if slot1.ai_list then
@@ -456,7 +461,7 @@ function slot0.IncreaseRound(slot0)
 end
 
 function slot0.existMoveLimit(slot0)
-	return slot0:getConfig("is_limit_move") == 1
+	return slot0:getConfig("is_limit_move") == 1 or slot0:existOni() or slot0:isPlayingWithBombEnemy()
 end
 
 function slot0.getChapterCell(slot0, slot1, slot2)
@@ -2936,11 +2941,11 @@ function slot0.IsSkipPrecombat(slot0)
 end
 
 function slot0.CanActivateAutoFight(slot0)
-	return pg.chapter_template_loop[slot0.id] and slot1.fightauto == 1
+	return pg.chapter_template_loop[slot0.id] and slot1.fightauto == 1 and slot0:isLoop() and not slot0:existOni() and not slot0:existBombEnemy()
 end
 
 function slot0.IsAutoFight(slot0)
-	return slot0:CanActivateAutoFight() and getProxy(ChapterProxy):GetChapterAutoFlag(slot0.id) == 1 and slot0:isLoop() and not slot0:existOni() and not slot0:existBombEnemy()
+	return slot0:CanActivateAutoFight() and getProxy(ChapterProxy):GetChapterAutoFlag(slot0.id) == 1
 end
 
 function slot0.getTodayDefeatCount(slot0)

@@ -149,10 +149,32 @@ pg.activity_event_picturepuzzle = {
 			100001
 		}
 	},
+	[959] = {
+		id = 959,
+		cd = 0,
+		define = 1,
+		chapter = 0,
+		pickup_picturepuzzle = {},
+		drop_picturepuzzle = {
+			60140,
+			60141,
+			60142,
+			60143,
+			60144,
+			60145,
+			60146,
+			60147,
+			60148
+		},
+		story = {},
+		awards = {},
+		auto_finish_args = {}
+	},
 	all = {
 		549,
 		758,
 		783,
-		935
+		935,
+		959
 	}
 }

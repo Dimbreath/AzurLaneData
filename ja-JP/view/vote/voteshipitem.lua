@@ -6,9 +6,13 @@ function slot0.Ctor(slot0, slot1)
 	slot0.icon = findTF(slot0.tf, "mask/icon")
 	slot0.name = findTF(slot0.tf, "name/Text"):GetComponent("ScrollText")
 	slot0.rank = findTF(slot0.tf, "Text"):GetComponent("RichText")
+
+	ClearTweenItemAlphaAndWhite(slot0.go)
 end
 
 function slot0.update(slot0, slot1, slot2)
+	TweenItemAlphaAndWhite(slot0.go)
+
 	if slot0.voteShip ~= slot1 then
 		slot0.voteShip = slot1
 
@@ -51,6 +55,7 @@ function slot0.wrapRankTxt(slot0, slot1)
 end
 
 function slot0.clear(slot0)
+	ClearTweenItemAlphaAndWhite(slot0.go)
 end
 
 return slot0

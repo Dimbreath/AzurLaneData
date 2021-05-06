@@ -1,4 +1,5 @@
 slot0 = class("ActivityBossAisaikesiScene", import(".ActivityBossSceneTemplate"))
+slot0.ASKSRemasterStage = 1201204
 
 function slot0.getUIName(slot0)
 	return "ActivityBossAisaikesiUI"
@@ -103,7 +104,7 @@ function slot0.RemasterSuffering(slot0)
 
 	slot2:SetParent(slot0._tf)
 	pg.NewStoryMgr.GetInstance():Play("AISAIKESICAIDAN", function ()
-		uv0:emit(uv0.contextData.mediatorClass.ON_PERFORM_COMBAT, 1201204)
+		uv0:emit(uv0.contextData.mediatorClass.ON_PERFORM_COMBAT, uv0.ASKSRemasterStage)
 	end)
 end
 

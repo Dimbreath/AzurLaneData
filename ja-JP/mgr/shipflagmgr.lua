@@ -65,8 +65,8 @@ slot2 = {
 		return getProxy(NavalAcademyProxy):GetShipIDs()
 	end,
 	inTactics = function ()
-		return _.map(getProxy(NavalAcademyProxy):getStudents(), function (slot0)
-			return slot0.shipId
+		return _.map(underscore.values(getProxy(NavalAcademyProxy):getStudents()), function (slot0)
+			return slot0 and slot0.shipId
 		end)
 	end,
 	inBackyard = function ()

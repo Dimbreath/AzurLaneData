@@ -18,6 +18,10 @@ function slot4.Ctor(slot0)
 	slot0._uiCamera = GameObject.Find("UICamera"):GetComponent(typeof(Camera))
 end
 
+function slot4.ActiveMainCemera(slot0, slot1)
+	setActive(slot0._camera, slot1)
+end
+
 function slot4.Initialize(slot0)
 	slot0._cameraSpeed = nil
 	slot0._cameraTF.localPosition = uv0.CAMERA_INIT_POS

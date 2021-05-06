@@ -659,6 +659,7 @@ function slot5.GetCommonResource()
 		uv0.GetFXPath("shock"),
 		uv0.GetFXPath("qianting_chushui"),
 		uv0.GetFXPath(uv2.PLAYER_SUB_BUBBLE_FX),
+		uv0.GetFXPath("weaponrange"),
 		uv0.GetUIPath("SkillPainting"),
 		uv0.GetUIPath("MonsterAppearUI"),
 		uv0.GetUIPath("CombatHPBar"),

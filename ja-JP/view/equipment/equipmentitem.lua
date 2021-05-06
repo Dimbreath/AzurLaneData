@@ -24,6 +24,8 @@ function slot0.Ctor(slot0, slot1)
 	if slot0.selectedMask then
 		setActive(slot0.selectedMask, false)
 	end
+
+	ClearTweenItemAlphaAndWhite(slot0.go)
 end
 
 function slot0.update(slot0, slot1, slot2)
@@ -77,6 +79,10 @@ function slot0.updateSkin(slot0)
 	setActive(slot0.nameTF, true)
 
 	slot0.nameTF.text = shortenString(getText(slot0.nameTF), 5)
+end
+
+function slot0.clear(slot0)
+	ClearTweenItemAlphaAndWhite(slot0.go)
 end
 
 function slot0.dispose(slot0)

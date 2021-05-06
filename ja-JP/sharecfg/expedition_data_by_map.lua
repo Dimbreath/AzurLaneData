@@ -9021,6 +9021,48 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1510001] = {
+		map = 1510001,
+		name = "帰路は海色の陰りへと|| ||CHAPTER SP||S.P.",
+		bgm = "story-french1",
+		type = 3,
+		on_activity = 963,
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 0,
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1310001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『紅染の来訪者』-前編|| ||CHAPTER EX||E.X.",
@@ -10498,6 +10540,7 @@ pg.expedition_data_by_map = {
 		1500012,
 		1500025,
 		1500026,
+		1510001,
 		2100000,
 		2100001,
 		2100010,

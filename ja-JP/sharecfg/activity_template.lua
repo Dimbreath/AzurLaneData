@@ -2814,6 +2814,7 @@ pg.activity_template = {
 	[928] = {
 		mark = 20210422,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -2840,37 +2841,11 @@ pg.activity_template = {
 			16575,
 			16576,
 			16577
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					4,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[929] = {
 		mark = 20210422,
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -2885,33 +2860,6 @@ pg.activity_template = {
 			1500022,
 			1500023
 		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					4,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "YidaliV2MainPage",
 			ui_name = "YidaliV2MainPage"
@@ -2923,6 +2871,7 @@ pg.activity_template = {
 	[930] = {
 		mark = 20210422,
 		page_info = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -2938,33 +2887,6 @@ pg.activity_template = {
 			1500026,
 			1500041,
 			1500051
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					4,
-					23
-				},
-				{
-					12,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
@@ -3093,6 +3015,7 @@ pg.activity_template = {
 	[933] = {
 		mark = 20210422,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -3100,34 +3023,7 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 933,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					4,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[934] = {
 		mark = 20210325,
@@ -3772,6 +3668,7 @@ pg.activity_template = {
 	},
 	[955] = {
 		mark = 20210422,
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 955,
@@ -3780,33 +3677,6 @@ pg.activity_template = {
 		title_res_tag = "xiaotiancheng",
 		id = 955,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					4,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "XiaoTianChengPtPage",
 			ui_name = "xiaotianchengptpage"
@@ -3815,6 +3685,7 @@ pg.activity_template = {
 	[956] = {
 		mark = 20210422,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -3823,33 +3694,6 @@ pg.activity_template = {
 		id = 956,
 		config_data = {
 			16578
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					4,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			npc = {
@@ -3861,6 +3705,7 @@ pg.activity_template = {
 	[957] = {
 		mark = 20210422,
 		page_info = "",
+		time = "stop",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
@@ -3876,14 +3721,61 @@ pg.activity_template = {
 			212,
 			213,
 			214
+		}
+	},
+	[958] = {
+		mark = 20210506,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 11,
+		title_res_tag = "javelin_comic",
+		id = 958,
+		config_data = {
+			{
+				16579,
+				16580
+			},
+			{
+				16581,
+				16582
+			},
+			{
+				16583,
+				16584
+			},
+			{
+				16585,
+				16586
+			},
+			{
+				16587,
+				16588
+			},
+			{
+				16589,
+				16590
+			},
+			{
+				16591,
+				16592
+			},
+			{
+				16593,
+				16594
+			},
+			{
+				16595,
+				16596
+			}
 		},
 		time = {
 			timer,
 			{
 				{
 					2021,
-					4,
-					22
+					5,
+					6
 				},
 				{
 					0,
@@ -3895,7 +3787,83 @@ pg.activity_template = {
 				{
 					2021,
 					5,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "JavelinComicSkinPage",
+			ui_name = "javelincomicskinpage"
+		},
+		config_client = {
+			story = {
+				{
+					"BIAOQIANGMANHUA1"
+				},
+				{},
+				{
+					"BIAOQIANGMANHUA2"
+				},
+				{},
+				{
+					"BIAOQIANGMANHUA3"
+				},
+				{},
+				{
+					"BIAOQIANGMANHUA4"
+				},
+				{},
+				{
+					"BIAOQIANGMANHUA5"
+				}
+			}
+		}
+	},
+	[959] = {
+		mark = 20210506,
+		page_info = "",
+		type = 21,
+		login_pop = 0,
+		config_id = 95140,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 959,
+		config_data = {
+			60140,
+			60141,
+			60142,
+			60143,
+			60144,
+			60145,
+			60146,
+			60147,
+			60148
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					5,
 					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					5,
+					20
 				},
 				{
 					23,
@@ -4031,6 +3999,194 @@ pg.activity_template = {
 					59,
 					59
 				}
+			}
+		}
+	},
+	[963] = {
+		mark = 20210506,
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 963,
+		config_data = {
+			1510001,
+			1510002,
+			1510003
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					5,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					5,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[964] = {
+		mark = 20210506,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 964,
+		config_data = {
+			16597,
+			16598,
+			16599,
+			16600,
+			16601,
+			16602
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					5,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					5,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[965] = {
+		mark = 20210506,
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 12,
+		config_client = "",
+		title_res_tag = "france_sp_re",
+		id = 965,
+		config_data = {
+			16603,
+			16604,
+			16605,
+			16606
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					5,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					5,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "FranceSpRePage",
+			ui_name = "FranceSpRePage"
+		}
+	},
+	[966] = {
+		mark = 20210506,
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_966",
+		title_res_tag = "",
+		id = 966,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					5,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					5,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act",
+			buildship_tip = "「タルテュ」出現率UP！",
+			rate_tip = {
+				"<color=#ffde38>SSレア</color>：7%",
+				"<color=#d797ff>Sレア</color>：12%",
+				"<color=#3dc6ff>レア</color>：26%",
+				"ノーマル：55%",
+				"<color=#d797ff>「タルテュ」</color>：1.4%(<color=#92fc63>up!</color>)"
 			}
 		}
 	},
@@ -5409,9 +5565,15 @@ pg.activity_template = {
 		955,
 		956,
 		957,
+		958,
+		959,
 		960,
 		961,
 		962,
+		963,
+		964,
+		965,
+		966,
 		10006,
 		10056,
 		10123,

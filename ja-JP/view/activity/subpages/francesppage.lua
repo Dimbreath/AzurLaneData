@@ -35,7 +35,7 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.buildBtn, function ()
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT, {
-			projectName = BuildShipScene.PROJECTS.ACTIVITY
+			projectName = BuildShipScene.PROJECTS.LIGHT
 		})
 	end, SFX_PANEL)
 end

@@ -74,6 +74,21 @@ function slot0.getBackYardShips(slot0)
 	}
 end
 
+function slot0.GetShipIdsByType(slot0, slot1)
+	slot4 = {}
+	slot5 = {}
+
+	if slot1 == BackYardShipInfoLayer.SHIP_TRAIN_TYPE then
+		slot4 = slot0:getTrainShipIds()
+		slot5 = slot0:getRestShipIds()
+	elseif slot1 == BackYardShipInfoLayer.SHIP_REST_TYPE then
+		slot4 = slot3
+		slot5 = slot2
+	end
+
+	return slot4, slot5
+end
+
 function slot0.addShip(slot0, slot1)
 	slot0.data:addShip(slot1)
 	slot0:sendNotification(uv0.SHIP_ADDED, slot0:getShipById(slot1):clone())

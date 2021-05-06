@@ -193,3 +193,6 @@ end
 function slot1.isConnected(slot0)
 	return uv0
 end
+
+function slot1.SwitchProxy(slot0)
+end

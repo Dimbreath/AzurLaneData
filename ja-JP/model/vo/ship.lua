@@ -1166,16 +1166,18 @@ function slot0.addExp(slot0, slot1, slot2)
 	end
 
 	slot0.exp = slot0.exp + slot1
+	slot5 = false
 
 	while slot0:canLevelUp() do
 		slot0.exp = slot0.exp - slot0:getLevelExpConfig().exp_interval
 		slot0.level = math.min(slot0.level + 1, slot4)
+		slot5 = true
 	end
 
 	if slot0.level == slot4 then
-		if slot0:CanAccumulateExp() then
+		if slot2 and slot0:CanAccumulateExp() then
 			slot0.exp = math.min(slot0.exp, pg.gameset.exp_overflow_max.key_value)
-		else
+		elseif slot5 then
 			slot0.exp = 0
 		end
 	end
