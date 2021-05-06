@@ -188,6 +188,10 @@ function slot0.execute(slot0, slot1)
 				fleetType = CommandRoomScene.FLEET_TYPE_COMMON
 			})
 		end
+	elseif slot12 == 18 then
+		if slot13 == 2 then
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot11)
+		end
 	elseif slot12 == 100 then
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot11)
 	elseif slot12 == 101 then

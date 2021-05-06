@@ -701,20 +701,16 @@ function slot0.initShips(slot0)
 
 		slot2:update(uv0.displays[slot0 + 1])
 		slot2:updateSelected(uv0.contextData.key == slot2.goodsVO:getKey())
-	end
 
-	function slot0.shipRect.onItemsUpdated()
-		slot0 = uv0.displays[1]
+		if uv0.isSwitch and slot0 == 0 then
+			uv0.isSwitch = nil
 
-		for slot4, slot5 in pairs(uv0.cards) do
-			if uv0.isSwitch and slot0 and slot5.goodsVO.id == slot0.id then
-				uv0.isSwitch = nil
-
-				triggerButton(slot5._tf)
-			end
+			triggerButton(slot2._tf)
 		end
 
-		setActive(uv0.mainPanel, slot0)
+		if slot0 == 0 then
+			setActive(uv0.mainPanel, true)
+		end
 	end
 end
 
@@ -840,6 +836,7 @@ function slot0.updateShipRect(slot0, slot1)
 				return slot3 < slot2
 			end
 		end)
+		setActive(slot0.mainPanel, false)
 		slot0.shipRect:SetTotalCount(#slot0.displays, slot1)
 	end
 end

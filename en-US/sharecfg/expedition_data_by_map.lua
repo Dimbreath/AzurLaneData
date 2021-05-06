@@ -7152,6 +7152,27 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1440001] = {
+		map = 1440001,
+		name = "Stars of the Shimmering Fjord|| ||Chapter SP||S.P. ",
+		bgm = "level02",
+		type = 3,
+		on_activity = 30821,
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1200001",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "map_1200001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {}
+	},
 	[1450001] = {
 		map = 1450001,
 		name = "Vacation Lane|| ||CHAPTER EX||E.X.",
@@ -9906,6 +9927,7 @@ pg.expedition_data_by_map = {
 		1430001,
 		1430002,
 		1430003,
+		1440001,
 		1450001,
 		1450002,
 		1450003,

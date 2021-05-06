@@ -45,6 +45,8 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.scoreIconTF = findTF(slot0._tf, "frame/score_icon"):GetComponent(typeof(Image))
 	slot0.iconTF = findTF(slot0._tf, "icon")
 	slot0.levelTxt = findTF(slot0.iconTF, "level_bg/Text"):GetComponent(typeof(Text))
+
+	ClearTweenItemAlphaAndWhite(slot0._go)
 end
 
 function slot0.update(slot0, slot1, slot2)
@@ -112,7 +114,11 @@ function slot0.update(slot0, slot1, slot2)
 end
 
 function slot0.clear(slot0)
-	setActive(slot0.notonlistTF, false)
+	ClearTweenItemAlphaAndWhite(slot0._go)
+
+	if not IsNil(slot0.notonlistTF) then
+		setActive(slot0.notonlistTF, false)
+	end
 
 	slot0.scoreTF.text = 0
 	slot0.numberTF.text = 0

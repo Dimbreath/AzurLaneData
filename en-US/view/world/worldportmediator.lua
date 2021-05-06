@@ -16,13 +16,9 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.OnTaskGoto, function (slot0, slot1)
+		uv0.viewComponent:closeView()
 		uv0:sendNotification(WorldMediator.OnTriggerTaskGo, {
-			taskId = slot1,
-			callback = function (slot0)
-				if not slot0 then
-					uv0.viewComponent:closeView()
-				end
-			end
+			taskId = slot1
 		})
 	end)
 	slot0:bind(uv0.OnAccepetTask, function (slot0, slot1, slot2)

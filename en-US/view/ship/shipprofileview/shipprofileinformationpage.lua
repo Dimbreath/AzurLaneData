@@ -106,7 +106,8 @@ function slot0.Flush(slot0, slot1, slot2)
 end
 
 function slot0.UpdateProfileInfo(slot0)
-	slot1, slot2, slot0.profileTxt.text = ShipWordHelper.GetWordAndCV(slot0.skin.id, ShipWordHelper.WORD_TYPE_PROFILE)
+	slot1, slot2, slot3 = ShipWordHelper.GetWordAndCV(slot0.skin.id, ShipWordHelper.WORD_TYPE_PROFILE)
+	slot0.profileTxt.text = SwitchSpecialChar(slot3, true)
 
 	if pg.ship_skin_words[slot0.skin.id] and (slot4.voice_key >= 0 or slot4.voice_key == -2) then
 		onButton(slot0, slot0.profilePlayBtn, function ()

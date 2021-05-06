@@ -312,11 +312,15 @@ function slot0.IsShowTip(slot0)
 		end
 	end
 
+	if slot0:getCourse():inClass() and AcademyCourse.MaxStudyTime <= pg.TimeMgr.GetInstance():GetServerTime() - slot4.timestamp then
+		return true
+	end
+
 	if getProxy(CollectionProxy):unclaimTrophyCount() > 0 then
 		return true
 	end
 
-	slot6 = getProxy(TaskProxy)
+	slot7 = getProxy(TaskProxy)
 
 	if _.any(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST), function (slot0)
 		slot2 = slot0:getTaskShip() and uv0:getAcademyTask(slot1.groupId) or nil

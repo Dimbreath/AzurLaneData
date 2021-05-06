@@ -105,8 +105,9 @@ return {
 			}
 		},
 		{
-			mode = 1,
+			mode = 3,
 			bgName = "bg_italyv2_3",
+			unscaleDelay = 2,
 			flashout = {
 				dur = 0.25,
 				black = true,
@@ -128,12 +129,6 @@ return {
 				{
 					active = true,
 					name = "yidali_hangmu"
-				}
-			},
-			sequence = {
-				{
-					"",
-					1
 				}
 			}
 		},

@@ -18,6 +18,9 @@ function slot0.update(slot0, slot1)
 	setText(slot0.nameTF, shortenString(getText(findTF(slot0.bg, "name")), 7))
 end
 
+function slot0.clear(slot0)
+end
+
 function slot0.dispose(slot0)
 end
 

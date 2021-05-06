@@ -1,5 +1,213 @@
 pg = pg or {}
 pg.ship_skin_template_20 = {
+	[10100070] = {
+		name = "White Heart",
+		ship_group = 1010007,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "I'm White Heart, the guardian CPU of Lowee. Pleased to meet you. I'm gonna give you a taste of a CPU's power!",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "HDN302_1",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 10100070,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "HDN302_1",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 81,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "nepwhite",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.14,
+					1.48,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.14,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.87,
+					1.28,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.44,
+							2.28,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10100071] = {
+		name = "Goddesses' Humility",
+		ship_group = 1010007,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "B-bastard! Where are you looking? I bet you're thinking I look like a kid! Eh....? They're just right? If Commander says something like that... I don't know how to react...",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "HDN302_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "203",
+		skin_type = 0,
+		id = 10100071,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "HDN302_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70040,
+		voice_actor = 81,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "nepwhite",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.72,
+					1.42,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.12,
+					0.08,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.66,
+					1.2,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.52,
+							2.3,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[10100080] = {
 		name = "Green Heart",
 		ship_group = 1010008,

@@ -32,6 +32,10 @@ function slot7.Ctor(slot0)
 	slot0._diveEnabled = true
 	slot0._comboIDList = {}
 	slot0._jammingTime = 0
+	slot0._CLDCount = 0
+	slot0._damageSum = 0
+	slot0._CTSum = 0
+	slot0._ACCSum = 0
 end
 
 function slot7.HostOnEnemy(slot0)
@@ -180,6 +184,10 @@ function slot7.setBulletSkin(slot0, slot1, slot2)
 	end
 end
 
+function slot7.SetSrcEquipmentID(slot0, slot1)
+	slot0._srcEquipID = slot1
+end
+
 function slot7.SetEquipmentIndex(slot0, slot1)
 	slot0._equipmentIndex = slot1
 end
@@ -238,6 +246,10 @@ end
 
 function slot7.GetPotential(slot0)
 	return slot0._potential or 1
+end
+
+function slot7.GetSrcEquipmentID(slot0)
+	return slot0._srcEquipID
 end
 
 function slot7.IsAttacking(slot0)
@@ -1045,4 +1057,39 @@ end
 
 function slot7.IsReady(slot0)
 	return slot0._currentState == slot0.STATE_READY
+end
+
+function slot7.GetReloadRate(slot0)
+	if slot0._currentState == slot0.STATE_READY then
+		return 0
+	elseif slot0._CDstartTime then
+		return (slot0:GetReloadFinishTimeStamp() - pg.TimeMgr.GetInstance():GetCombatTime()) / slot0._reloadRequire
+	else
+		return 1
+	end
+end
+
+function slot7.WeaponStatistics(slot0, slot1, slot2, slot3)
+	slot0._CLDCount = slot0._CLDCount + 1
+	slot0._damageSum = slot1 + slot0._damageSum
+
+	if slot2 then
+		slot0._CTSum = slot0._CTSum + 1
+	end
+
+	if not slot3 then
+		slot0._ACCSum = slot0._ACCSum + 1
+	end
+end
+
+function slot7.GetDamageSUM(slot0)
+	return slot0._damageSum
+end
+
+function slot7.GetCTRate(slot0)
+	return slot0._CTSum / slot0._CLDCount
+end
+
+function slot7.GetACCRate(slot0)
+	return slot0._ACCSum / slot0._CLDCount
 end

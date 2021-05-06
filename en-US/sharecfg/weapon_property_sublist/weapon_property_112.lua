@@ -2,122 +2,67 @@ pg = pg or {}
 pg.weapon_property_112 = {}
 
 function ()
-	uv0.weapon_property_112[65062] = {
-		name = "普林斯顿鱼雷机弹幕LV2",
-		damage = 74,
-		base = 65061,
-		id = 65062,
-		bullet_ID = {
-			65062
-		}
+	uv0.weapon_property_112[64017] = {
+		id = 64017,
+		name = "托里拆利技能鱼雷弹幕LV7",
+		damage = 31,
+		base = 64011
 	}
-	uv0.weapon_property_112[65063] = {
-		name = "普林斯顿鱼雷机弹幕LV3",
-		damage = 92,
-		base = 65061,
-		id = 65063,
-		bullet_ID = {
-			65063
-		}
+	uv0.weapon_property_112[64018] = {
+		id = 64018,
+		name = "托里拆利技能鱼雷弹幕LV8",
+		damage = 33,
+		base = 64011
 	}
-	uv0.weapon_property_112[65064] = {
-		name = "普林斯顿鱼雷机弹幕LV4",
-		damage = 107,
-		base = 65061,
-		id = 65064,
-		bullet_ID = {
-			65064
-		}
+	uv0.weapon_property_112[64019] = {
+		id = 64019,
+		name = "托里拆利技能鱼雷弹幕LV9",
+		damage = 35,
+		base = 64011
 	}
-	uv0.weapon_property_112[65065] = {
-		name = "普林斯顿鱼雷机弹幕LV5",
-		damage = 123,
-		base = 65061,
-		id = 65065,
-		bullet_ID = {
-			65065
-		}
+	uv0.weapon_property_112[64020] = {
+		id = 64020,
+		name = "托里拆利技能鱼雷弹幕LV10",
+		damage = 40,
+		base = 64011
 	}
-	uv0.weapon_property_112[65066] = {
-		name = "普林斯顿鱼雷机弹幕LV6",
-		damage = 141,
-		base = 65061,
-		id = 65066,
-		bullet_ID = {
-			65066
-		}
-	}
-	uv0.weapon_property_112[65067] = {
-		name = "普林斯顿鱼雷机弹幕LV7",
-		damage = 157,
-		base = 65061,
-		id = 65067,
-		bullet_ID = {
-			65067
-		}
-	}
-	uv0.weapon_property_112[65068] = {
-		name = "普林斯顿鱼雷机弹幕LV8",
-		damage = 175,
-		base = 65061,
-		id = 65068,
-		bullet_ID = {
-			65068
-		}
-	}
-	uv0.weapon_property_112[65069] = {
-		name = "普林斯顿鱼雷机弹幕LV9",
-		damage = 191,
-		base = 65061,
-		id = 65069,
-		bullet_ID = {
-			65069
-		}
-	}
-	uv0.weapon_property_112[65070] = {
-		name = "普林斯顿鱼雷机弹幕LV10",
-		damage = 207,
-		base = 65061,
-		id = 65070,
-		bullet_ID = {
-			65070
-		}
-	}
-	uv0.weapon_property_112[65071] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
+	uv0.weapon_property_112[64021] = {
+		action_index = "attack",
+		range = 120,
+		type = 2,
+		fire_fx = "CLFire",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "普林斯顿鱼雷LV1",
+		name = "托里拆利技能子弹弹幕LV1",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 24,
+		angle = 360,
 		charge_param = "",
-		damage = 58,
+		damage = 11,
 		corrected = 100,
 		min_range = 0,
-		id = 65071,
+		id = 64021,
 		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 5000,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
 		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			2111
+			19284,
+			19284
 		},
 		barrage_ID = {
-			80536
+			81055,
+			81056
 		},
 		oxy_type = {
 			1
@@ -127,158 +72,80 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_112[65072] = {
-		id = 65072,
-		name = "普林斯顿鱼雷LV2",
-		damage = 74,
-		base = 65071
+	uv0.weapon_property_112[64022] = {
+		id = 64022,
+		name = "托里拆利技能子弹弹幕LV2",
+		damage = 12,
+		base = 64021
 	}
-	uv0.weapon_property_112[65073] = {
-		id = 65073,
-		name = "普林斯顿鱼雷LV3",
-		damage = 92,
-		base = 65071
+	uv0.weapon_property_112[64023] = {
+		id = 64023,
+		name = "托里拆利技能子弹弹幕LV3",
+		damage = 13,
+		base = 64021
 	}
-	uv0.weapon_property_112[65074] = {
-		name = "普林斯顿鱼雷LV4",
-		damage = 107,
-		base = 65071,
-		id = 65074,
-		bullet_ID = {
-			2111,
-			2111,
-			2111
-		},
-		barrage_ID = {
-			80536,
-			80537,
-			80538
-		}
+	uv0.weapon_property_112[64024] = {
+		id = 64024,
+		name = "托里拆利技能子弹弹幕LV4",
+		damage = 14,
+		base = 64021
 	}
-	uv0.weapon_property_112[65075] = {
-		name = "普林斯顿鱼雷LV5",
-		damage = 123,
-		base = 65071,
-		id = 65075,
-		bullet_ID = {
-			2111,
-			2111,
-			2111
-		},
-		barrage_ID = {
-			80536,
-			80537,
-			80538
-		}
+	uv0.weapon_property_112[64025] = {
+		id = 64025,
+		name = "托里拆利技能子弹弹幕LV5",
+		damage = 15,
+		base = 64021
 	}
-	uv0.weapon_property_112[65076] = {
-		name = "普林斯顿鱼雷LV6",
-		damage = 141,
-		base = 65071,
-		id = 65076,
-		bullet_ID = {
-			2111,
-			2111,
-			2111
-		},
-		barrage_ID = {
-			80536,
-			80537,
-			80538
-		}
+	uv0.weapon_property_112[64026] = {
+		id = 64026,
+		name = "托里拆利技能子弹弹幕LV6",
+		damage = 16,
+		base = 64021
 	}
-	uv0.weapon_property_112[65077] = {
-		name = "普林斯顿鱼雷LV7",
-		damage = 157,
-		base = 65071,
-		id = 65077,
-		bullet_ID = {
-			2111,
-			2111,
-			2111,
-			2111
-		},
-		barrage_ID = {
-			80536,
-			80537,
-			80538,
-			80539
-		}
+	uv0.weapon_property_112[64027] = {
+		id = 64027,
+		name = "托里拆利技能子弹弹幕LV7",
+		damage = 17,
+		base = 64021
 	}
-	uv0.weapon_property_112[65078] = {
-		name = "普林斯顿鱼雷LV8",
-		damage = 175,
-		base = 65071,
-		id = 65078,
-		bullet_ID = {
-			2111,
-			2111,
-			2111,
-			2111
-		},
-		barrage_ID = {
-			80536,
-			80537,
-			80538,
-			80539
-		}
+	uv0.weapon_property_112[64028] = {
+		id = 64028,
+		name = "托里拆利技能子弹弹幕LV8",
+		damage = 18,
+		base = 64021
 	}
-	uv0.weapon_property_112[65079] = {
-		name = "普林斯顿鱼雷LV9",
-		damage = 191,
-		base = 65071,
-		id = 65079,
-		bullet_ID = {
-			2111,
-			2111,
-			2111,
-			2111
-		},
-		barrage_ID = {
-			80536,
-			80537,
-			80538,
-			80539
-		}
+	uv0.weapon_property_112[64029] = {
+		id = 64029,
+		name = "托里拆利技能子弹弹幕LV9",
+		damage = 19,
+		base = 64021
 	}
-	uv0.weapon_property_112[65080] = {
-		name = "普林斯顿鱼雷LV10",
-		damage = 207,
-		base = 65071,
-		id = 65080,
-		bullet_ID = {
-			2111,
-			2111,
-			2111,
-			2111
-		},
-		barrage_ID = {
-			80536,
-			80537,
-			80538,
-			80539
-		}
+	uv0.weapon_property_112[64030] = {
+		id = 64030,
+		name = "托里拆利技能子弹弹幕LV10",
+		damage = 20,
+		base = 64021
 	}
-	uv0.weapon_property_112[65081] = {
+	uv0.weapon_property_112[64031] = {
 		action_index = "attack",
-		range = 30,
+		range = 200,
 		type = 23,
 		fire_fx = "zhupao",
 		recover_time = 0.5,
 		axis_angle = 0,
-		shakescreen = 0,
-		name = "罗恩μ暗影爪AOE爆炸Lv1",
+		shakescreen = 302,
+		name = "小天城跨射弹幕LV1",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 360,
-		damage = 30,
+		angle = 50,
+		damage = 127,
 		corrected = 100,
-		min_range = 0,
-		id = 65081,
+		min_range = 35,
+		id = 64031,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 5,
+		attack_attribute = 1,
 		reload_max = 3000,
 		queue = 1,
 		search_type = 1,
@@ -289,10 +156,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 1,
 		bullet_ID = {
-			19195
+			19285
 		},
 		barrage_ID = {
-			1
+			1300
 		},
 		oxy_type = {
 			1
@@ -306,333 +173,97 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_112[65082] = {
-		id = 65082,
-		name = "罗恩μ暗影爪AOE爆炸Lv2",
-		damage = 33,
-		base = 65081
+	uv0.weapon_property_112[64032] = {
+		id = 64032,
+		name = "小天城跨射弹幕LV2",
+		damage = 134,
+		base = 64031
 	}
-	uv0.weapon_property_112[65083] = {
-		id = 65083,
-		name = "罗恩μ暗影爪AOE爆炸Lv3",
-		damage = 36,
-		base = 65081
+	uv0.weapon_property_112[64033] = {
+		id = 64033,
+		name = "小天城跨射弹幕LV3",
+		damage = 142,
+		base = 64031
 	}
-	uv0.weapon_property_112[65084] = {
-		id = 65084,
-		name = "罗恩μ暗影爪AOE爆炸Lv4",
-		damage = 39,
-		base = 65081
+	uv0.weapon_property_112[64034] = {
+		id = 64034,
+		name = "小天城跨射弹幕LV4",
+		damage = 151,
+		base = 64031
 	}
-	uv0.weapon_property_112[65085] = {
-		id = 65085,
-		name = "罗恩μ暗影爪AOE爆炸Lv5",
-		damage = 42,
-		base = 65081
+	uv0.weapon_property_112[64035] = {
+		id = 64035,
+		name = "小天城跨射弹幕LV5",
+		damage = 161,
+		base = 64031
 	}
-	uv0.weapon_property_112[65086] = {
-		id = 65086,
-		name = "罗恩μ暗影爪AOE爆炸Lv6",
-		damage = 46,
-		base = 65081
+	uv0.weapon_property_112[64036] = {
+		id = 64036,
+		name = "小天城跨射弹幕LV6",
+		damage = 172,
+		base = 64031
 	}
-	uv0.weapon_property_112[65087] = {
-		id = 65087,
-		name = "罗恩μ暗影爪AOE爆炸Lv7",
-		damage = 50,
-		base = 65081
+	uv0.weapon_property_112[64037] = {
+		id = 64037,
+		name = "小天城跨射弹幕LV7",
+		damage = 184,
+		base = 64031
 	}
-	uv0.weapon_property_112[65088] = {
-		id = 65088,
-		name = "罗恩μ暗影爪AOE爆炸Lv8",
-		damage = 54,
-		base = 65081
+	uv0.weapon_property_112[64038] = {
+		id = 64038,
+		name = "小天城跨射弹幕LV8",
+		damage = 197,
+		base = 64031
 	}
-	uv0.weapon_property_112[65089] = {
-		id = 65089,
-		name = "罗恩μ暗影爪AOE爆炸Lv9",
-		damage = 58,
-		base = 65081
+	uv0.weapon_property_112[64039] = {
+		id = 64039,
+		name = "小天城跨射弹幕LV9",
+		damage = 211,
+		base = 64031
 	}
-	uv0.weapon_property_112[65090] = {
-		id = 65090,
-		name = "罗恩μ暗影爪AOE爆炸Lv10",
-		damage = 62,
-		base = 65081
+	uv0.weapon_property_112[64040] = {
+		id = 64040,
+		name = "小天城跨射弹幕LV10",
+		damage = 226,
+		base = 64031
 	}
-	uv0.weapon_property_112[65091] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "大青花鱼μ上浮破甲鱼雷LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 9,
-		corrected = 100,
-		min_range = 0,
-		id = 65091,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19196
-		},
-		barrage_ID = {
-			80501
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_112[65092] = {
-		id = 65092,
-		name = "大青花鱼μ上浮破甲鱼雷LV2",
-		damage = 11,
-		base = 65091
-	}
-	uv0.weapon_property_112[65093] = {
-		id = 65093,
-		name = "大青花鱼μ上浮破甲鱼雷LV3",
-		damage = 13,
-		base = 65091
-	}
-	uv0.weapon_property_112[65094] = {
-		name = "大青花鱼μ上浮破甲鱼雷LV4",
-		damage = 15,
-		base = 65091,
-		id = 65094,
-		barrage_ID = {
-			80502
-		}
-	}
-	uv0.weapon_property_112[65095] = {
-		name = "大青花鱼μ上浮破甲鱼雷LV5",
-		damage = 18,
-		base = 65091,
-		id = 65095,
-		barrage_ID = {
-			80502
-		}
-	}
-	uv0.weapon_property_112[65096] = {
-		name = "大青花鱼μ上浮破甲鱼雷LV6",
-		damage = 21,
-		base = 65091,
-		id = 65096,
-		barrage_ID = {
-			80502
-		}
-	}
-	uv0.weapon_property_112[65097] = {
-		name = "大青花鱼μ上浮破甲鱼雷LV7",
-		damage = 24,
-		base = 65091,
-		id = 65097,
-		barrage_ID = {
-			80502
-		}
-	}
-	uv0.weapon_property_112[65098] = {
-		name = "大青花鱼μ上浮破甲鱼雷LV8",
-		damage = 27,
-		base = 65091,
-		id = 65098,
-		barrage_ID = {
-			80503
-		}
-	}
-	uv0.weapon_property_112[65099] = {
-		name = "大青花鱼μ上浮破甲鱼雷LV9",
-		damage = 30,
-		base = 65091,
-		id = 65099,
-		barrage_ID = {
-			80503
-		}
-	}
-	uv0.weapon_property_112[65100] = {
-		name = "大青花鱼μ上浮破甲鱼雷LV10",
-		damage = 33,
-		base = 65091,
-		id = 65100,
-		barrage_ID = {
-			80503
-		}
-	}
-	uv0.weapon_property_112[65101] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "大青花鱼μ撤退点燃鱼雷LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 9,
-		corrected = 100,
-		min_range = 0,
-		id = 65101,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19197
-		},
-		barrage_ID = {
-			80501
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_112[65102] = {
-		id = 65102,
-		name = "大青花鱼μ撤退点燃鱼雷LV2",
-		damage = 11,
-		base = 65101
-	}
-	uv0.weapon_property_112[65103] = {
-		id = 65103,
-		name = "大青花鱼μ撤退点燃鱼雷LV3",
-		damage = 13,
-		base = 65101
-	}
-	uv0.weapon_property_112[65104] = {
-		name = "大青花鱼μ撤退点燃鱼雷LV4",
-		damage = 15,
-		base = 65101,
-		id = 65104,
-		barrage_ID = {
-			80502
-		}
-	}
-	uv0.weapon_property_112[65105] = {
-		name = "大青花鱼μ撤退点燃鱼雷LV5",
-		damage = 18,
-		base = 65101,
-		id = 65105,
-		barrage_ID = {
-			80502
-		}
-	}
-	uv0.weapon_property_112[65106] = {
-		name = "大青花鱼μ撤退点燃鱼雷LV6",
-		damage = 21,
-		base = 65101,
-		id = 65106,
-		barrage_ID = {
-			80502
-		}
-	}
-	uv0.weapon_property_112[65107] = {
-		name = "大青花鱼μ撤退点燃鱼雷LV7",
-		damage = 24,
-		base = 65101,
-		id = 65107,
-		barrage_ID = {
-			80502
-		}
-	}
-	uv0.weapon_property_112[65108] = {
-		name = "大青花鱼μ撤退点燃鱼雷LV8",
-		damage = 27,
-		base = 65101,
-		id = 65108,
-		barrage_ID = {
-			80503
-		}
-	}
-	uv0.weapon_property_112[65109] = {
-		name = "大青花鱼μ撤退点燃鱼雷LV9",
-		damage = 30,
-		base = 65101,
-		id = 65109,
-		barrage_ID = {
-			80503
-		}
-	}
-	uv0.weapon_property_112[65110] = {
-		name = "大青花鱼μ撤退点燃鱼雷LV10",
-		damage = 33,
-		base = 65101,
-		id = 65110,
-		barrage_ID = {
-			80503
-		}
-	}
-	uv0.weapon_property_112[65111] = {
+	uv0.weapon_property_112[64041] = {
 		action_index = "attack",
 		range = 90,
-		type = 2,
+		type = 1,
 		fire_fx = "CLFire",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "塔什干μ-紫色ICELF-LV1",
-		aim_type = 0,
+		name = "小天城战列技能-LV1",
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 360,
+		angle = 120,
 		charge_param = "",
-		damage = 6,
-		corrected = 125,
+		damage = 22,
+		corrected = 100,
 		min_range = 0,
-		id = 65111,
+		id = 64041,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 400,
+		reload_max = 500,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
-		suppress = 0,
+		suppress = 1,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19198
+			19286,
+			19286
 		},
 		barrage_ID = {
-			80843
+			81058,
+			81059
 		},
 		oxy_type = {
 			1
@@ -642,120 +273,339 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_112[65112] = {
-		id = 65112,
-		name = "塔什干μ-紫色ICELF-LV2",
-		damage = 7,
-		base = 65111
-	}
-	uv0.weapon_property_112[65113] = {
-		id = 65113,
-		name = "塔什干μ-紫色ICELF-LV3",
-		damage = 8,
-		base = 65111
-	}
-	uv0.weapon_property_112[65114] = {
-		id = 65114,
-		name = "塔什干μ-紫色ICELF-LV4",
-		damage = 9,
-		base = 65111
-	}
-	uv0.weapon_property_112[65115] = {
-		id = 65115,
-		name = "塔什干μ-紫色ICELF-LV5",
-		damage = 10,
-		base = 65111
-	}
-	uv0.weapon_property_112[65116] = {
-		id = 65116,
-		name = "塔什干μ-紫色ICELF-LV6",
-		damage = 12,
-		base = 65111
-	}
-	uv0.weapon_property_112[65117] = {
-		id = 65117,
-		name = "塔什干μ-紫色ICELF-LV7",
-		damage = 14,
-		base = 65111
-	}
-	uv0.weapon_property_112[65118] = {
-		id = 65118,
-		name = "塔什干μ-紫色ICELF-LV8",
-		damage = 17,
-		base = 65111
-	}
-	uv0.weapon_property_112[65119] = {
-		id = 65119,
-		name = "塔什干μ-紫色ICELF-LV9",
-		damage = 20,
-		base = 65111
-	}
-	uv0.weapon_property_112[65120] = {
-		id = 65120,
-		name = "塔什干μ-紫色ICELF-LV10",
+	uv0.weapon_property_112[64042] = {
+		id = 64042,
+		name = "小天城战列技能-LV2",
 		damage = 24,
-		base = 65111
+		base = 64041
 	}
-	uv0.weapon_property_112[65121] = {
+	uv0.weapon_property_112[64043] = {
+		id = 64043,
+		name = "小天城战列技能-LV3",
+		damage = 26,
+		base = 64041
+	}
+	uv0.weapon_property_112[64044] = {
+		id = 64044,
+		name = "小天城战列技能-LV4",
+		damage = 28,
+		base = 64041
+	}
+	uv0.weapon_property_112[64045] = {
+		id = 64045,
+		name = "小天城战列技能-LV5",
+		damage = 30,
+		base = 64041
+	}
+	uv0.weapon_property_112[64046] = {
+		id = 64046,
+		name = "小天城战列技能-LV6",
+		damage = 32,
+		base = 64041
+	}
+	uv0.weapon_property_112[64047] = {
+		id = 64047,
+		name = "小天城战列技能-LV7",
+		damage = 34,
+		base = 64041
+	}
+	uv0.weapon_property_112[64048] = {
+		id = 64048,
+		name = "小天城战列技能-LV8",
+		damage = 36,
+		base = 64041
+	}
+	uv0.weapon_property_112[64049] = {
+		id = 64049,
+		name = "小天城战列技能-LV9",
+		damage = 38,
+		base = 64041
+	}
+	uv0.weapon_property_112[64050] = {
+		id = 64050,
+		name = "小天城战列技能-LV10",
+		damage = 40,
+		base = 64041
+	}
+	uv0.weapon_property_112[64051] = {
 		action_index = "attack",
 		range = 90,
-		type = 11,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "小天城战列技能-LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 22,
+		corrected = 100,
+		min_range = 0,
+		id = 64051,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19286,
+			19286
+		},
+		barrage_ID = {
+			81057,
+			81058
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_112[64052] = {
+		id = 64052,
+		name = "小天城战列技能-LV2",
+		damage = 24,
+		base = 64051
+	}
+	uv0.weapon_property_112[64053] = {
+		id = 64053,
+		name = "小天城战列技能-LV3",
+		damage = 26,
+		base = 64051
+	}
+	uv0.weapon_property_112[64054] = {
+		id = 64054,
+		name = "小天城战列技能-LV4",
+		damage = 28,
+		base = 64051
+	}
+	uv0.weapon_property_112[64055] = {
+		id = 64055,
+		name = "小天城战列技能-LV5",
+		damage = 30,
+		base = 64051
+	}
+	uv0.weapon_property_112[64056] = {
+		id = 64056,
+		name = "小天城战列技能-LV6",
+		damage = 32,
+		base = 64051
+	}
+	uv0.weapon_property_112[64057] = {
+		id = 64057,
+		name = "小天城战列技能-LV7",
+		damage = 34,
+		base = 64051
+	}
+	uv0.weapon_property_112[64058] = {
+		id = 64058,
+		name = "小天城战列技能-LV8",
+		damage = 36,
+		base = 64051
+	}
+	uv0.weapon_property_112[64059] = {
+		id = 64059,
+		name = "小天城战列技能-LV9",
+		damage = 38,
+		base = 64051
+	}
+	uv0.weapon_property_112[64060] = {
+		id = 64060,
+		name = "小天城战列技能-LV10",
+		damage = 40,
+		base = 64051
+	}
+	uv0.weapon_property_112[64061] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "小天城战列技能-LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 22,
+		corrected = 100,
+		min_range = 0,
+		id = 64061,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19286,
+			19286
+		},
+		barrage_ID = {
+			81057,
+			81059
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_112[64062] = {
+		id = 64062,
+		name = "小天城战列技能-LV2",
+		damage = 24,
+		base = 64061
+	}
+	uv0.weapon_property_112[64063] = {
+		id = 64063,
+		name = "小天城战列技能-LV3",
+		damage = 26,
+		base = 64061
+	}
+	uv0.weapon_property_112[64064] = {
+		id = 64064,
+		name = "小天城战列技能-LV4",
+		damage = 28,
+		base = 64061
+	}
+	uv0.weapon_property_112[64065] = {
+		id = 64065,
+		name = "小天城战列技能-LV5",
+		damage = 30,
+		base = 64061
+	}
+	uv0.weapon_property_112[64066] = {
+		id = 64066,
+		name = "小天城战列技能-LV6",
+		damage = 32,
+		base = 64061
+	}
+	uv0.weapon_property_112[64067] = {
+		id = 64067,
+		name = "小天城战列技能-LV7",
+		damage = 34,
+		base = 64061
+	}
+	uv0.weapon_property_112[64068] = {
+		id = 64068,
+		name = "小天城战列技能-LV8",
+		damage = 36,
+		base = 64061
+	}
+	uv0.weapon_property_112[64069] = {
+		id = 64069,
+		name = "小天城战列技能-LV9",
+		damage = 38,
+		base = 64061
+	}
+	uv0.weapon_property_112[64070] = {
+		id = 64070,
+		name = "小天城战列技能-LV10",
+		damage = 40,
+		base = 64061
+	}
+	uv0.weapon_property_112[64071] = {
+		action_index = "attack",
+		range = 50,
+		type = 3,
 		fire_fx = "",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "恶毒μ神圣天使轰炸机Lv1",
+		name = "小天城一技能鱼雷LV1",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 90,
+		angle = 80,
 		charge_param = "",
-		damage = 48,
-		corrected = 100,
+		damage = 70,
+		corrected = 110,
 		min_range = 0,
-		id = 65121,
+		id = 64071,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1890,
+		attack_attribute = 2,
+		reload_max = 5100,
 		queue = 1,
 		search_type = 1,
-		effect_move = 1,
+		effect_move = 0,
 		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
+		spawn_bound = "torpedo",
+		fire_sfx = "",
 		auto_aftercast = 0,
-		initial_over_heat = 0,
+		initial_over_heat = 1,
 		bullet_ID = {
-			65121
+			1807
 		},
 		barrage_ID = {
-			12008
+			81064
 		},
 		oxy_type = {
-			1
+			1,
+			2
 		},
 		search_condition = {
 			1
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_112[65122] = {
-		name = "恶毒μ神圣天使轰炸机Lv2",
-		damage = 68,
-		base = 65121,
-		id = 65122,
-		bullet_ID = {
-			65122
-		}
+	uv0.weapon_property_112[64072] = {
+		id = 64072,
+		name = "小天城一技能鱼雷LV2",
+		damage = 72,
+		base = 64071
 	}
-	uv0.weapon_property_112[65123] = {
-		name = "恶毒μ神圣天使轰炸机Lv3",
-		damage = 86,
-		base = 65121,
-		id = 65123,
-		bullet_ID = {
-			65123
-		}
+	uv0.weapon_property_112[64073] = {
+		id = 64073,
+		name = "小天城一技能鱼雷LV3",
+		damage = 75,
+		base = 64071
+	}
+	uv0.weapon_property_112[64074] = {
+		id = 64074,
+		name = "小天城一技能鱼雷LV4",
+		damage = 79,
+		base = 64071
+	}
+	uv0.weapon_property_112[64075] = {
+		id = 64075,
+		name = "小天城一技能鱼雷LV5",
+		damage = 84,
+		base = 64071
+	}
+	uv0.weapon_property_112[64076] = {
+		id = 64076,
+		name = "小天城一技能鱼雷LV6",
+		damage = 90,
+		base = 64071
+	}
+	uv0.weapon_property_112[64077] = {
+		id = 64077,
+		name = "小天城一技能鱼雷LV7",
+		damage = 97,
+		base = 64071
 	}
 end()

@@ -2624,7 +2624,7 @@ Page 7: An Shan-class destroyer – An Shan]]
 				info = "About Maritime Escort:"
 			},
 			{
-				info = "1. This game mode will be available from March 19th to March 26th"
+				info = "1.  This game mode will be available from May 6th to May 19th"
 			},
 			{
 				info = "2. In this game mode, you'll play on a map where your goal is to neutralize the sea mines and enemy fleets in your way and escort the Transport Ship to its destination."
@@ -9391,10 +9391,10 @@ Would you like to change modes?]]
 				info = "1. Color in the manga panels by clearing the time-limited daily missions!"
 			},
 			{
-				info = "2. Once you've completed all missions, you will automatically unlock Javelin's skin, \"Very Slow Advance!\""
+				info = "2. Once you've completed all missions, you will automatically unlock Javelin's skin, \"Slow Ahead!\""
 			},
 			{
-				info = "3. Two new missions will be unlocked each day until July 5th."
+				info = "3. Two new missions will be unlocked each day until May 14th."
 			}
 		}
 	},
@@ -12648,6 +12648,31 @@ the flashlight on the right side of the screen.]]
 	award_overflow_tip = {
 		tip = "A portion of your rewards will exceed your resource limit. Please collect them manually. "
 	},
+	hunter_npc = {
+		tip = {
+			{
+				info = "Summary: During the Hunter of the Fjord event, you can earn Friendship Points for Hunter. She will upgrade from a Temporary Recruit to a full addition to your dock once you've earned enough Friendship Points with her."
+			},
+			{
+				info = "1. For the duration of the event, you'll receive Friendship Points for Hunter by defeating Boss Fleets on any Campaign map after World 3, or on any of the event stages. You'll also unlock additional rewards as you accumulate Friendship Points."
+			},
+			{
+				info = "2. Until you fully recruit Hunter, you won't be able to give her a Promise Ring, retire her, or use her as Enhancement or Limit Break material."
+			},
+			{
+				info = "3. Your Friendship Points reward for defeating the Boss Fleet will be doubled if Hunter participates in the battle with the Boss Fleet and remains afloat until the end of the battle."
+			},
+			{
+				info = "4. 1,000 Friendship Points is required to fully recruit Hunter. If you do not fully recruit her before the event concludes, she will automatically leave your dock."
+			},
+			{
+				info = "5. One Friendship Points Reward stage is unlocked each day up to May 12th."
+			},
+			{
+				info = "6. Hunter cannot participate in any Operation Siren or Guild activities and you do not gain Friendship Points from Operation Siren battles."
+			}
+		}
+	},
 	venusvolleyball_help = {
 		tip = {
 			{
@@ -13695,6 +13720,9 @@ Your Action Points will also reset, starting you off with <color=#92fc63>200 AP.
 	LevelSignal_intensity = {
 		tip = "Signal Strength"
 	},
+	backyard_longpress_ship_tip = {
+		tip = "Tap and hold to view detailed character information."
+	},
 	common_npc_formation_tip = {
 		tip = "Temporary Recruits cannot participate."
 	},
@@ -13722,5 +13750,11 @@ Your Action Points will also reset, starting you off with <color=#92fc63>200 AP.
 				info = "6. Amagi-chan cannot participate in any Operation Siren or Guild activities and you do not gain Trust from Operation Siren battles."
 			}
 		}
+	},
+	game_stopwords = {
+		tip = "Text box is now being hidden."
+	},
+	game_openwords = {
+		tip = "Tex box is now being displayed."
 	}
 }

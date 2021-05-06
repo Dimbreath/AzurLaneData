@@ -2,70 +2,24 @@ pg = pg or {}
 pg.weapon_property_236 = {}
 
 function ()
-	uv0.weapon_property_236[472404] = {
+	uv0.weapon_property_236[470408] = {
 		action_index = "attack",
-		range = 52,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格C】【BOSS】格奈森瑙-四联装533mm磁性鱼雷",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 52,
-		corrected = 100,
-		min_range = 0,
-		id = 472404,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3830,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1803,
-			1803
-		},
-		barrage_ID = {
-			399974,
-			399973
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_236[472405] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
+		range = 150,
+		type = 19,
 		fire_fx = "CAFire",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【BOSS】格奈森瑙-Q版重巡单发主炮x6-瞄准III",
+		name = "【异色格A】【BOSS】格奈森瑙-战列跨射攻击后排武器3x2轮-简单",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 360,
+		angle = 40,
 		charge_param = "",
-		damage = 24,
+		damage = 40,
 		corrected = 100,
-		min_range = 0,
-		id = 472405,
+		min_range = 75,
+		id = 470408,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -79,142 +33,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			1403
+			1530
 		},
 		barrage_ID = {
-			200092
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_236[472406] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格C】【BOSS】格奈森瑙-Q版重巡联装主炮x2-散射III",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 24,
-		corrected = 100,
-		min_range = 0,
-		id = 472406,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1100,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1403
-		},
-		barrage_ID = {
-			200100
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_236[472407] = {
-		action_index = "attack",
-		range = 65,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格C】【BOSS】格奈森瑙-Q版轻巡联装炮x6散射III",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 18,
-		corrected = 105,
-		min_range = 0,
-		id = 472407,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1300,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1201
-		},
-		barrage_ID = {
-			1102
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_236[472408] = {
-		action_index = "attack",
-		range = 150,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【异色格C】【BOSS】格奈森瑙-战列跨射攻击后排武器3x3轮-困难",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 40,
-		charge_param = "",
-		damage = 54,
-		corrected = 100,
-		min_range = 75,
-		id = 472408,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1900,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			30063
-		},
-		barrage_ID = {
-			20019
+			20018
 		},
 		oxy_type = {
 			1
@@ -229,7 +51,7 @@ function ()
 			isBound = true
 		}
 	}
-	uv0.weapon_property_236[472501] = {
+	uv0.weapon_property_236[470501] = {
 		action_index = "attack",
 		range = 38,
 		type = 2,
@@ -237,16 +59,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【BOSS】沙恩霍斯特-Q版近程自卫火炮II",
+		name = "【异色格A】【BOSS】沙恩霍斯特-Q版近程自卫火炮II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 10,
+		damage = 8,
 		corrected = 125,
 		min_range = 0,
-		id = 472501,
+		id = 470501,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -273,7 +95,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[472502] = {
+	uv0.weapon_property_236[470502] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -281,16 +103,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【BOSS】沙恩霍斯特-Q版重巡联装主炮x6-轮射II",
+		name = "【异色格A】【BOSS】沙恩霍斯特-Q版重巡联装主炮x6-轮射II",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 22,
+		damage = 16,
 		corrected = 100,
 		min_range = 0,
-		id = 472502,
+		id = 470502,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -317,7 +139,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[472503] = {
+	uv0.weapon_property_236[470503] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -325,20 +147,20 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【BOSS】沙恩霍斯特-炮击一型",
+		name = "【异色格A】【BOSS】沙恩霍斯特-炮击一型",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 24,
+		damage = 20,
 		corrected = 100,
 		min_range = 0,
-		id = 472503,
+		id = 470503,
 		attack_attribute_ratio = 90,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 750,
+		reload_max = 1250,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
@@ -349,13 +171,11 @@ function ()
 		initial_over_heat = 0,
 		bullet_ID = {
 			399965,
-			399964,
-			399963
+			399964
 		},
 		barrage_ID = {
 			399965,
-			399964,
-			399963
+			399964
 		},
 		oxy_type = {
 			1
@@ -365,7 +185,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[472504] = {
+	uv0.weapon_property_236[470504] = {
 		action_index = "attack",
 		range = 70,
 		type = 19,
@@ -373,16 +193,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【BOSS】沙恩霍斯特-平射",
+		name = "【异色格A】【BOSS】沙恩霍斯特-平射",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 80,
 		charge_param = "",
-		damage = 28,
+		damage = 30,
 		corrected = 100,
 		min_range = 0,
-		id = 472504,
+		id = 470504,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -414,7 +234,7 @@ function ()
 			isBound = true
 		}
 	}
-	uv0.weapon_property_236[472505] = {
+	uv0.weapon_property_236[470505] = {
 		action_index = "attack",
 		range = 52,
 		type = 3,
@@ -422,16 +242,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【BOSS】沙恩霍斯特-四联装533mm磁性鱼雷",
+		name = "【异色格A】【BOSS】沙恩霍斯特-四联装533mm磁性鱼雷",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 60,
 		charge_param = "",
-		damage = 52,
+		damage = 35,
 		corrected = 100,
 		min_range = 0,
-		id = 472505,
+		id = 470505,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -460,7 +280,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[472506] = {
+	uv0.weapon_property_236[470506] = {
 		action_index = "attack",
 		range = 150,
 		type = 19,
@@ -468,20 +288,20 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【BOSS】沙恩霍斯特-战列跨射攻击后排武器3x3轮-困难",
+		name = "【异色格A】【BOSS】沙恩霍斯特-战列跨射攻击后排武器3x2轮-简单",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 40,
 		charge_param = "",
-		damage = 54,
+		damage = 45,
 		corrected = 100,
 		min_range = 75,
-		id = 472506,
+		id = 470506,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 1900,
+		reload_max = 2000,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
@@ -491,10 +311,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			30063
+			1530
 		},
 		barrage_ID = {
-			20019
+			20018
 		},
 		oxy_type = {
 			1
@@ -509,7 +329,7 @@ function ()
 			isBound = true
 		}
 	}
-	uv0.weapon_property_236[472511] = {
+	uv0.weapon_property_236[470511] = {
 		action_index = "attack",
 		range = 38,
 		type = 2,
@@ -517,16 +337,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【BOSS】格奈森瑙-Q版近程自卫火炮II",
+		name = "【异色格A】【BOSS】格奈森瑙-Q版近程自卫火炮II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 10,
+		damage = 8,
 		corrected = 125,
 		min_range = 0,
-		id = 472511,
+		id = 470511,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -553,7 +373,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[472512] = {
+	uv0.weapon_property_236[470512] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -561,16 +381,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【BOSS】格奈森瑙-Q版重巡单发主炮x4-瞄准II",
+		name = "【异色格A】【BOSS】格奈森瑙-Q版重巡单发主炮x4-瞄准II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 22,
+		damage = 16,
 		corrected = 100,
 		min_range = 0,
-		id = 472512,
+		id = 470512,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -597,7 +417,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[472513] = {
+	uv0.weapon_property_236[470513] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -605,20 +425,20 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【BOSS】格奈森瑙-炮击一型",
-		aim_type = 0,
+		name = "【异色格A】【BOSS】格奈森瑙-炮击一型",
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 24,
+		damage = 20,
 		corrected = 100,
 		min_range = 0,
-		id = 472513,
+		id = 470513,
 		attack_attribute_ratio = 90,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 750,
+		reload_max = 1250,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
@@ -631,7 +451,7 @@ function ()
 			399966
 		},
 		barrage_ID = {
-			399966
+			399962
 		},
 		oxy_type = {
 			1
@@ -641,7 +461,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[472514] = {
+	uv0.weapon_property_236[470514] = {
 		action_index = "attack",
 		range = 70,
 		type = 19,
@@ -649,16 +469,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【BOSS】格奈森瑙-平射",
+		name = "【异色格A】【BOSS】格奈森瑙-平射",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 80,
 		charge_param = "",
-		damage = 28,
+		damage = 30,
 		corrected = 100,
 		min_range = 0,
-		id = 472514,
+		id = 470514,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -690,7 +510,7 @@ function ()
 			isBound = true
 		}
 	}
-	uv0.weapon_property_236[472515] = {
+	uv0.weapon_property_236[470515] = {
 		action_index = "attack",
 		range = 52,
 		type = 3,
@@ -698,16 +518,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【BOSS】格奈森瑙-四联装533mm磁性鱼雷",
+		name = "【异色格A】【BOSS】格奈森瑙-四联装533mm磁性鱼雷",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 60,
 		charge_param = "",
-		damage = 52,
+		damage = 35,
 		corrected = 100,
 		min_range = 0,
-		id = 472515,
+		id = 470515,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -736,7 +556,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[472516] = {
+	uv0.weapon_property_236[470516] = {
 		action_index = "attack",
 		range = 150,
 		type = 19,
@@ -744,20 +564,20 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【BOSS】格奈森瑙-战列跨射攻击后排武器3x3轮-困难",
+		name = "【异色格A】【BOSS】格奈森瑙-战列跨射攻击后排武器3x2轮-简单",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 40,
 		charge_param = "",
-		damage = 54,
+		damage = 45,
 		corrected = 100,
 		min_range = 75,
-		id = 472516,
+		id = 470516,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 1900,
+		reload_max = 2000,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
@@ -767,10 +587,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			30063
+			1530
 		},
 		barrage_ID = {
-			20019
+			20018
 		},
 		oxy_type = {
 			1
@@ -785,7 +605,7 @@ function ()
 			isBound = true
 		}
 	}
-	uv0.weapon_property_236[472901] = {
+	uv0.weapon_property_236[470901] = {
 		action_index = "",
 		range = 10,
 		type = 2,
@@ -793,16 +613,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【飞机】空袭轰炸机武器",
+		name = "【异色格A】【飞机】空袭轰炸机武器",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 45,
+		damage = 28,
 		corrected = 100,
 		min_range = 0,
-		id = 472901,
+		id = 470901,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -829,7 +649,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[472902] = {
+	uv0.weapon_property_236[470902] = {
 		action_index = "",
 		range = 40,
 		type = 3,
@@ -837,16 +657,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【飞机】空袭鱼雷机武器",
+		name = "【异色格A】【飞机】空袭鱼雷机武器",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 35,
 		charge_param = "",
-		damage = 36,
+		damage = 22,
 		corrected = 100,
 		min_range = 22,
-		id = 472902,
+		id = 470902,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -873,7 +693,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[472903] = {
+	uv0.weapon_property_236[470903] = {
 		action_index = "",
 		range = 85,
 		type = 1,
@@ -881,16 +701,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【飞机】空袭战斗机弹幕武器",
+		name = "【异色格A】【飞机】空袭战斗机弹幕武器",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 7,
+		damage = 4,
 		corrected = 100,
 		min_range = 0,
-		id = 472903,
+		id = 470903,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -923,7 +743,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[472904] = {
+	uv0.weapon_property_236[470904] = {
 		action_index = "",
 		range = 200,
 		type = 4,
@@ -931,16 +751,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【飞机】空袭战斗机空中武器",
+		name = "【异色格A】【飞机】空袭战斗机空中武器",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 28,
+		damage = 16,
 		corrected = 100,
 		min_range = 0,
-		id = 472904,
+		id = 470904,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -967,7 +787,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[472911] = {
+	uv0.weapon_property_236[470911] = {
 		action_index = "",
 		range = 10,
 		type = 2,
@@ -975,16 +795,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【飞机】塞壬航母蛋船轰炸机武器T1",
+		name = "【异色格A】【飞机】塞壬航母蛋船轰炸机武器T1",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 45,
+		damage = 28,
 		corrected = 100,
 		min_range = 0,
-		id = 472911,
+		id = 470911,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1011,7 +831,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[472912] = {
+	uv0.weapon_property_236[470912] = {
 		action_index = "",
 		range = 85,
 		type = 1,
@@ -1019,16 +839,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【飞机】塞壬航母蛋船战斗机弹幕",
+		name = "【异色格A】【飞机】塞壬航母蛋船战斗机弹幕",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 7,
+		damage = 4,
 		corrected = 100,
 		min_range = 0,
-		id = 472912,
+		id = 470912,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1061,7 +881,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[472913] = {
+	uv0.weapon_property_236[470913] = {
 		action_index = "",
 		range = 200,
 		type = 4,
@@ -1069,16 +889,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【飞机】塞壬航母蛋船战斗机空中",
+		name = "【异色格A】【飞机】塞壬航母蛋船战斗机空中",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 28,
+		damage = 16,
 		corrected = 100,
 		min_range = 0,
-		id = 472913,
+		id = 470913,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1105,7 +925,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[472921] = {
+	uv0.weapon_property_236[470921] = {
 		action_index = "",
 		range = 40,
 		type = 3,
@@ -1113,16 +933,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【飞机】齐柏林鱼雷机T1",
+		name = "【异色格A】【飞机】齐柏林鱼雷机T1",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 35,
 		charge_param = "",
-		damage = 40,
+		damage = 25,
 		corrected = 100,
 		min_range = 22,
-		id = 472921,
+		id = 470921,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1149,7 +969,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[472922] = {
+	uv0.weapon_property_236[470922] = {
 		action_index = "",
 		range = 85,
 		type = 1,
@@ -1157,16 +977,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【飞机】齐柏林BF109T战斗机弹幕",
+		name = "【异色格A】【飞机】齐柏林BF109T战斗机弹幕",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 10,
+		damage = 6,
 		corrected = 100,
 		min_range = 0,
-		id = 472922,
+		id = 470922,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1199,7 +1019,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[472923] = {
+	uv0.weapon_property_236[470923] = {
 		action_index = "",
 		range = 200,
 		type = 4,
@@ -1207,16 +1027,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【飞机】齐柏林BF109T战斗机空中",
+		name = "【异色格A】【飞机】齐柏林BF109T战斗机空中",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 30,
+		damage = 18,
 		corrected = 100,
 		min_range = 0,
-		id = 472923,
+		id = 470923,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1243,7 +1063,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[472924] = {
+	uv0.weapon_property_236[470924] = {
 		action_index = "",
 		range = 10,
 		type = 2,
@@ -1251,16 +1071,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【飞机】齐柏林JU87C轰炸机",
+		name = "【异色格A】【飞机】齐柏林JU87C轰炸机",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 50,
+		damage = 31,
 		corrected = 100,
 		min_range = 0,
-		id = 472924,
+		id = 470924,
 		attack_attribute_ratio = 85,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1287,7 +1107,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[472925] = {
+	uv0.weapon_property_236[470925] = {
 		action_index = "",
 		range = 85,
 		type = 1,
@@ -1295,16 +1115,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【飞机】齐柏林JU87C弹幕",
+		name = "【异色格A】【飞机】齐柏林JU87C弹幕",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 10,
+		damage = 4,
 		corrected = 100,
 		min_range = 0,
-		id = 472925,
+		id = 470925,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1331,7 +1151,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[472926] = {
+	uv0.weapon_property_236[470926] = {
 		action_index = "",
 		range = 85,
 		type = 1,
@@ -1339,16 +1159,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【飞机】齐柏林Me155A战斗机弹幕",
+		name = "【异色格A】【飞机】齐柏林Me155A战斗机弹幕",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 12,
+		damage = 7,
 		corrected = 100,
 		min_range = 0,
-		id = 472926,
+		id = 470926,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1381,7 +1201,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[472927] = {
+	uv0.weapon_property_236[470927] = {
 		action_index = "",
 		range = 200,
 		type = 4,
@@ -1389,16 +1209,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格C】【飞机】齐柏林Me155A战斗机空中",
+		name = "【异色格A】【飞机】齐柏林Me155A战斗机空中",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 36,
+		damage = 24,
 		corrected = 100,
 		min_range = 0,
-		id = 472927,
+		id = 470927,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1425,7 +1245,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473001] = {
+	uv0.weapon_property_236[471001] = {
 		action_index = "attack",
 		range = 60,
 		type = 2,
@@ -1433,16 +1253,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【杂兵】量产型塞壬驱逐单发瞄准x3随机III",
+		name = "【异色格B】【杂兵】量产型塞壬驱逐单发瞄准x3随机III",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 12,
+		damage = 7,
 		corrected = 125,
 		min_range = 0,
-		id = 473001,
+		id = 471001,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1469,7 +1289,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473002] = {
+	uv0.weapon_property_236[471002] = {
 		action_index = "",
 		range = 72,
 		type = 3,
@@ -1477,16 +1297,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【杂兵】塞壬单装鱼雷II",
+		name = "【异色格B】【杂兵】塞壬单装鱼雷II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 60,
 		charge_param = "",
-		damage = 48,
+		damage = 32,
 		corrected = 100,
 		min_range = 0,
-		id = 473002,
+		id = 471002,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1513,7 +1333,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473003] = {
+	uv0.weapon_property_236[471003] = {
 		action_index = "attack",
 		range = 80,
 		type = 1,
@@ -1521,16 +1341,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【杂兵】驱逐旋转子弹3发武器",
+		name = "【异色格B】【杂兵】驱逐旋转子弹3发武器",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 10,
+		damage = 6,
 		corrected = 100,
 		min_range = 0,
-		id = 473003,
+		id = 471003,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1557,7 +1377,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473011] = {
+	uv0.weapon_property_236[471011] = {
 		action_index = "attack",
 		range = 100,
 		type = 1,
@@ -1565,16 +1385,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【杂兵】Q版旋转子弹延迟3连弹——驱逐（抛物线）",
+		name = "【异色格B】【杂兵】Q版旋转子弹延迟3连弹——驱逐（抛物线）",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 22,
+		damage = 14,
 		corrected = 100,
 		min_range = 0,
-		id = 473011,
+		id = 471011,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1605,7 +1425,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473012] = {
+	uv0.weapon_property_236[471012] = {
 		action_index = "attack",
 		range = 65,
 		type = 2,
@@ -1613,16 +1433,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【杂兵】量产型塞壬轻巡联装炮x6散射III",
+		name = "【异色格B】【杂兵】量产型塞壬轻巡联装炮x6散射III",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 120,
 		charge_param = "",
-		damage = 18,
+		damage = 10,
 		corrected = 105,
 		min_range = 0,
-		id = 473012,
+		id = 471012,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1649,7 +1469,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473021] = {
+	uv0.weapon_property_236[471021] = {
 		action_index = "",
 		range = 60,
 		type = 2,
@@ -1657,16 +1477,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【杂兵】量产型大船通用副炮II",
+		name = "【异色格B】【杂兵】量产型大船通用副炮II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 10,
+		damage = 6,
 		corrected = 125,
 		min_range = 0,
-		id = 473021,
+		id = 471021,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1693,7 +1513,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473022] = {
+	uv0.weapon_property_236[471022] = {
 		action_index = "attack",
 		range = 80,
 		type = 1,
@@ -1701,16 +1521,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【杂兵】量产型塞壬重巡联装主炮x2-散射III",
+		name = "【异色格B】【杂兵】量产型塞壬重巡联装主炮x2-散射III",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 28,
+		damage = 18,
 		corrected = 100,
 		min_range = 0,
-		id = 473022,
+		id = 471022,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1737,7 +1557,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473023] = {
+	uv0.weapon_property_236[471023] = {
 		action_index = "attack",
 		range = 60,
 		type = 3,
@@ -1745,16 +1565,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【杂兵】塞壬双联装鱼雷II",
+		name = "【异色格B】【杂兵】塞壬双联装鱼雷II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 60,
 		charge_param = "",
-		damage = 48,
+		damage = 32,
 		corrected = 100,
 		min_range = 0,
-		id = 473023,
+		id = 471023,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -1781,7 +1601,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473031] = {
+	uv0.weapon_property_236[471031] = {
 		action_index = "attack",
 		range = 38,
 		type = 2,
@@ -1789,16 +1609,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【杂兵】塞壬战列舰蛋船副炮",
+		name = "【异色格B】【杂兵】塞壬战列舰蛋船副炮",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 10,
+		damage = 9,
 		corrected = 125,
 		min_range = 0,
-		id = 473031,
+		id = 471031,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1825,7 +1645,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473032] = {
+	uv0.weapon_property_236[471032] = {
 		action_index = "attack",
 		range = 25,
 		type = 2,
@@ -1833,16 +1653,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 302,
-		name = "【异色格D】【杂兵】塞壬战列舰蛋船主炮",
+		name = "【异色格B】【杂兵】塞壬战列舰蛋船主炮",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 80,
 		charge_param = "",
-		damage = 34,
+		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 473032,
+		id = 471032,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1874,7 +1694,7 @@ function ()
 			isBound = true
 		}
 	}
-	uv0.weapon_property_236[473033] = {
+	uv0.weapon_property_236[471033] = {
 		action_index = "attack",
 		range = 150,
 		type = 19,
@@ -1882,16 +1702,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【杂兵】塞壬战列跨射攻击后排武器3x2轮-简单",
+		name = "【异色格B】【杂兵】塞壬战列跨射攻击后排武器3x2轮-简单",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 40,
 		charge_param = "",
-		damage = 65,
+		damage = 45,
 		corrected = 100,
 		min_range = 75,
-		id = 473033,
+		id = 471033,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1923,7 +1743,7 @@ function ()
 			isBound = true
 		}
 	}
-	uv0.weapon_property_236[473041] = {
+	uv0.weapon_property_236[471041] = {
 		action_index = "attack",
 		range = 38,
 		type = 2,
@@ -1931,16 +1751,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【杂兵】塞壬航母蛋船近程自卫火炮II",
+		name = "【异色格B】【杂兵】塞壬航母蛋船近程自卫火炮II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 10,
+		damage = 6,
 		corrected = 125,
 		min_range = 0,
-		id = 473041,
+		id = 471041,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1967,7 +1787,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473042] = {
+	uv0.weapon_property_236[471042] = {
 		action_index = "attack",
 		range = 60,
 		type = 2,
@@ -1975,16 +1795,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【杂兵】塞壬航母蛋船单发x6随机II",
+		name = "【异色格B】【杂兵】塞壬航母蛋船单发x6随机II",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 12,
+		damage = 7,
 		corrected = 125,
 		min_range = 0,
-		id = 473042,
+		id = 471042,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2011,7 +1831,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473043] = {
+	uv0.weapon_property_236[471043] = {
 		action_index = "attack",
 		range = 100,
 		type = 11,
@@ -2019,16 +1839,16 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【杂兵】塞壬航母蛋船轰炸机T1 (飞机",
+		name = "【异色格B】【杂兵】塞壬航母蛋船轰炸机T1 (飞机",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 54,
+		damage = 38,
 		corrected = 100,
 		min_range = 0,
-		id = 473043,
+		id = 471043,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -2055,7 +1875,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473044] = {
+	uv0.weapon_property_236[471044] = {
 		action_index = "attack",
 		range = 120,
 		type = 11,
@@ -2063,16 +1883,16 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【杂兵】塞壬航母蛋船战斗机T1 (飞机",
+		name = "【异色格B】【杂兵】塞壬航母蛋船战斗机T1 (飞机",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 34,
+		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 473044,
+		id = 471044,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -2099,7 +1919,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473051] = {
+	uv0.weapon_property_236[471051] = {
 		action_index = "",
 		range = 90,
 		type = 3,
@@ -2107,16 +1927,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【杂兵】鱼雷艇鱼雷3连",
+		name = "【异色格B】【杂兵】鱼雷艇鱼雷3连",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 48,
+		damage = 32,
 		corrected = 100,
 		min_range = 0,
-		id = 473051,
+		id = 471051,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2143,7 +1963,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473052] = {
+	uv0.weapon_property_236[471052] = {
 		action_index = "attack",
 		range = 8,
 		type = 18,
@@ -2151,16 +1971,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【杂兵】自爆船自爆",
+		name = "【异色格B】【杂兵】自爆船自爆",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 85,
+		damage = 45,
 		corrected = 100,
 		min_range = 0,
-		id = 473052,
+		id = 471052,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2185,7 +2005,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473101] = {
+	uv0.weapon_property_236[471101] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -2193,16 +2013,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】Z1-专用武器",
+		name = "【异色格B】【人型】Z1-专用武器",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 12,
+		damage = 8,
 		corrected = 100,
 		min_range = 0,
-		id = 473101,
+		id = 471101,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2231,7 +2051,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473102] = {
+	uv0.weapon_property_236[471102] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -2239,16 +2059,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】Z1-专用武器",
+		name = "【异色格B】【人型】Z1-专用武器",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 12,
+		damage = 8,
 		corrected = 100,
 		min_range = 0,
-		id = 473102,
+		id = 471102,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2277,7 +2097,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473103] = {
+	uv0.weapon_property_236[471103] = {
 		action_index = "attack",
 		range = 50,
 		type = 3,
@@ -2285,16 +2105,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】Z1-鱼雷",
+		name = "【异色格B】【人型】Z1-鱼雷",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 60,
 		charge_param = "",
-		damage = 54,
+		damage = 35,
 		corrected = 100,
 		min_range = 0,
-		id = 473103,
+		id = 471103,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2321,7 +2141,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473104] = {
+	uv0.weapon_property_236[471104] = {
 		action_index = "attack",
 		range = 25,
 		type = 4,
@@ -2329,16 +2149,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】Z1-防空炮",
+		name = "【异色格B】【人型】Z1-防空炮",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 45,
+		damage = 30,
 		corrected = 100,
 		min_range = 0,
-		id = 473104,
+		id = 471104,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 3,
@@ -2365,7 +2185,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473105] = {
+	uv0.weapon_property_236[471105] = {
 		action_index = "attack",
 		range = 50,
 		type = 2,
@@ -2373,16 +2193,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】Z19-Q版驱逐双联装炮瞄准II",
+		name = "【异色格B】【人型】Z19-Q版驱逐双联装炮瞄准II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 12,
+		damage = 8,
 		corrected = 110,
 		min_range = 0,
-		id = 473105,
+		id = 471105,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2409,7 +2229,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473106] = {
+	uv0.weapon_property_236[471106] = {
 		action_index = "attack",
 		range = 60,
 		type = 3,
@@ -2417,16 +2237,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】Z19-Q版四联装鱼雷II",
+		name = "【异色格B】【人型】Z19-Q版四联装鱼雷II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 60,
 		charge_param = "",
-		damage = 54,
+		damage = 35,
 		corrected = 100,
 		min_range = 0,
-		id = 473106,
+		id = 471106,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2453,7 +2273,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473107] = {
+	uv0.weapon_property_236[471107] = {
 		action_index = "attack",
 		range = 60,
 		type = 2,
@@ -2461,16 +2281,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】Z20-Q版驱逐单发瞄准x4随机II",
+		name = "【异色格B】【人型】Z20-Q版驱逐单发瞄准x4随机II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 12,
+		damage = 8,
 		corrected = 125,
 		min_range = 0,
-		id = 473107,
+		id = 471107,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2497,7 +2317,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473108] = {
+	uv0.weapon_property_236[471108] = {
 		action_index = "attack",
 		range = 60,
 		type = 3,
@@ -2505,16 +2325,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】Z20-Q版四联装鱼雷II",
+		name = "【异色格B】【人型】Z20-Q版四联装鱼雷II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 60,
 		charge_param = "",
-		damage = 54,
+		damage = 35,
 		corrected = 100,
 		min_range = 0,
-		id = 473108,
+		id = 471108,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2541,7 +2361,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473109] = {
+	uv0.weapon_property_236[471109] = {
 		action_index = "attack",
 		range = 60,
 		type = 2,
@@ -2549,16 +2369,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】Z21-Q版驱逐单发瞄准x4随机II",
+		name = "【异色格B】【人型】Z21-Q版驱逐单发瞄准x4随机II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 12,
+		damage = 8,
 		corrected = 125,
 		min_range = 0,
-		id = 473109,
+		id = 471109,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2585,7 +2405,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473110] = {
+	uv0.weapon_property_236[471110] = {
 		action_index = "attack",
 		range = 60,
 		type = 3,
@@ -2593,16 +2413,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】Z21-Q版四联装鱼雷II",
+		name = "【异色格B】【人型】Z21-Q版四联装鱼雷II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 60,
 		charge_param = "",
-		damage = 54,
+		damage = 35,
 		corrected = 100,
 		min_range = 0,
-		id = 473110,
+		id = 471110,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2629,7 +2449,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473111] = {
+	uv0.weapon_property_236[471111] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -2637,16 +2457,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】Z46-专用武器",
+		name = "【异色格B】【人型】Z46-专用武器",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 12,
+		damage = 8,
 		corrected = 100,
 		min_range = 0,
-		id = 473111,
+		id = 471111,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2675,7 +2495,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473112] = {
+	uv0.weapon_property_236[471112] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -2683,16 +2503,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】Z46-专用武器",
+		name = "夏活困难塞壬航母蛋船轰炸机T1 (飞机",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 12,
+		damage = 8,
 		corrected = 100,
 		min_range = 0,
-		id = 473112,
+		id = 471112,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2721,7 +2541,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473113] = {
+	uv0.weapon_property_236[471113] = {
 		action_index = "attack",
 		range = 50,
 		type = 3,
@@ -2729,16 +2549,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】Z46-鱼雷",
+		name = "夏活困难塞壬航母蛋船战斗机T1 (飞机",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 60,
 		charge_param = "",
-		damage = 54,
+		damage = 35,
 		corrected = 100,
 		min_range = 0,
-		id = 473113,
+		id = 471113,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2765,7 +2585,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_236[473114] = {
+	uv0.weapon_property_236[471114] = {
 		action_index = "attack",
 		range = 25,
 		type = 4,
@@ -2773,16 +2593,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【异色格D】【人型】Z46-防空炮",
+		name = "夏活困难齐柏林鱼雷机T1 (飞机",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 45,
+		damage = 30,
 		corrected = 100,
 		min_range = 0,
-		id = 473114,
+		id = 471114,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 3,
@@ -2800,6 +2620,143 @@ function ()
 		},
 		barrage_ID = {
 			14001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_236[471121] = {
+		action_index = "attack",
+		range = 100,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格B】【人型】柯尼斯堡-驱逐弹幕",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 8,
+		corrected = 100,
+		min_range = 0,
+		id = 471121,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			400801
+		},
+		barrage_ID = {
+			400801
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_236[471122] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格B】【人型】柯尼斯堡-Q版穿透弹散射6连",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 12,
+		corrected = 100,
+		min_range = 0,
+		id = 471122,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 900,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			300103
+		},
+		barrage_ID = {
+			300103
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jinengenemy",
+			alertTime = 2,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_236[471123] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "zhupao",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【异色格B】【人型】柯尼斯堡-Q版分裂散弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 471123,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1200,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			300601
+		},
+		barrage_ID = {
+			300601
 		},
 		oxy_type = {
 			1

@@ -17,9 +17,10 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 
 	slot0.puzzle = slot0:findTF("Puzzle", slot0.bg)
+	slot0.comicID = pg.activity_const.JAVELIN_COMIC_PUZZLE_TASK.act_id
 	slot0.activityProxy = getProxy(ActivityProxy)
-	slot0.chargeIDList = Clone(slot0.activityProxy:getActivityById(ActivityConst.JAVELIN_COMIC_PUZZLE_TASK).data1_list)
-	slot0.puzzleIDList = Clone(pg.activity_template[ActivityConst.JAVELIN_COMIC_PUZZLE_TASK].config_data)
+	slot0.chargeIDList = Clone(slot0.activityProxy:getActivityById(slot0.comicID).data1_list)
+	slot0.puzzleIDList = Clone(pg.activity_template[slot0.comicID].config_data)
 
 	slot0:checkAward()
 end
@@ -31,7 +32,7 @@ function slot0.OnUpdateFlush(slot0)
 
 	for slot5 = 1, #slot0.puzzleIDList do
 		slot9 = nil
-		slot9 = not table.contains(slot0.activityProxy:getActivityById(ActivityConst.JAVELIN_COMIC_PUZZLE_TASK).data1_list, slot0.puzzleIDList[slot5]) and 0 or 1
+		slot9 = not table.contains(slot0.activityProxy:getActivityById(slot0.comicID).data1_list, slot0.puzzleIDList[slot5]) and 0 or 1
 
 		slot0:updatePiece(slot9, slot0.puzzle:GetChild(slot5 - 1))
 
@@ -70,10 +71,10 @@ function slot0.updatePiece(slot0, slot1, slot2)
 end
 
 function slot0.checkAward(slot0)
-	if #slot0.activityProxy:getActivityById(ActivityConst.JAVELIN_COMIC_PUZZLE_TASK).data1_list == #slot0.puzzleIDList and slot1.data1 == 0 then
+	if #slot0.activityProxy:getActivityById(slot0.comicID).data1_list == #slot0.puzzleIDList and slot1.data1 == 0 then
 		slot0:emit(ActivityMediator.EVENT_OPERATION, {
 			cmd = 1,
-			activity_id = ActivityConst.JAVELIN_COMIC_PUZZLE_TASK
+			activity_id = slot0.comicID
 		})
 	end
 end

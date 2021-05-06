@@ -22,7 +22,7 @@ pg.activity_const = {
 		act_id = 20066
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 956
+		act_id = 30817
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 274
@@ -292,10 +292,10 @@ pg.activity_const = {
 		act_id = 30405
 	},
 	JAVELIN_COMIC_NINE_DAY_TASK = {
-		act_id = 30165
+		act_id = 958
 	},
 	JAVELIN_COMIC_PUZZLE_TASK = {
-		act_id = 30166
+		act_id = 959
 	},
 	HONGRAN_RE_PREVIEW_ID = {
 		act_id = 30096
@@ -646,7 +646,7 @@ pg.activity_const = {
 		act_id = 30755
 	},
 	HMS_Hunter_PT_ID = {
-		act_id = 769
+		act_id = 30820
 	},
 	DOA_COLLECTION_FURNITURE = {
 		act_id = 30774

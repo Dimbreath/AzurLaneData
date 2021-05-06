@@ -16,6 +16,10 @@ function slot0.OnInit(slot0)
 		uv0:onUpdateItem(slot0, slot1)
 	end
 
+	function slot0.scrollRect.onReturnItem(slot0, slot1)
+		uv0:onReturnItem(slot0, slot1)
+	end
+
 	setActive(slot0._tf, true)
 	slot0._tf:SetAsFirstSibling()
 end
@@ -37,8 +41,6 @@ function slot0.SetCallBack(slot0, slot1)
 end
 
 function slot0.onUpdateItem(slot0, slot1, slot2)
-	TweenItemAlphaAndWhite(slot2)
-
 	if not slot0.voteItems[slot2] then
 		slot0:onInitItem(slot2)
 
@@ -53,6 +55,16 @@ function slot0.UpdateShip(slot0, slot1, slot2, slot3)
 		slot2:update(slot3, slot0.voteGroup:GetRank(slot3))
 	else
 		slot2:update(slot3, nil)
+	end
+end
+
+function slot0.onReturnItem(slot0, slot1, slot2)
+	if slot0.exited then
+		return
+	end
+
+	if slot0.voteItems[slot2] then
+		slot3:clear()
 	end
 end
 

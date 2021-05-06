@@ -99,7 +99,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 730,
+							monsterTemplateID = 916,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
@@ -113,7 +113,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 730,
+							monsterTemplateID = 916,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {

@@ -76,12 +76,14 @@ function slot0.HandleDamage(slot0, slot1, slot2, slot3, slot4)
 
 	slot10, slot11, slot12 = slot0._calculateDamage(slot1, slot2, slot3, slot4)
 	slot13 = slot11.isMiss
+	slot14 = slot11.isCri
 
 	slot1:AppendDamageUnit(slot2:GetUniqueID())
+	slot1:GetWeapon():WeaponStatistics(slot10, slot14, slot13)
 	slot2:UpdateHP(slot10 * -1, {
 		isHeal = false,
 		isMiss = slot13,
-		isCri = slot11.isCri,
+		isCri = slot14,
 		attr = slot11.damageAttr
 	}, slot1:GetPosition(), slot12)
 	slot0:DamageStatistics(slot7.id, slot2:GetAttrByName("id"), slot10)
@@ -95,17 +97,17 @@ function slot0.HandleDamage(slot0, slot1, slot2, slot3, slot4)
 		})
 	end
 
-	slot21 = true
+	slot22 = true
 
-	if slot2:GetUnitType() ~= uv2.UnitType.AIRCRAFT_UNIT and slot20 ~= uv2.UnitType.AIRFIGHTER_UNIT and slot20 ~= uv2.UnitType.FUNNEL_UNIT and slot20 ~= uv2.UnitType.UAV_UNIT then
-		slot21 = false
+	if slot2:GetUnitType() ~= uv2.UnitType.AIRCRAFT_UNIT and slot21 ~= uv2.UnitType.AIRFIGHTER_UNIT and slot21 ~= uv2.UnitType.FUNNEL_UNIT and slot21 ~= uv2.UnitType.UAV_UNIT then
+		slot22 = false
 	end
 
 	if slot2:IsAlive() then
-		if not slot21 then
-			for slot25, slot26 in ipairs(slot1:GetAttachBuff()) do
-				if slot26.hit_ignore or not slot13 then
-					uv4.HandleBuffPlacer(slot26, slot1, slot2)
+		if not slot22 then
+			for slot26, slot27 in ipairs(slot1:GetAttachBuff()) do
+				if slot27.hit_ignore or not slot13 then
+					uv4.HandleBuffPlacer(slot27, slot1, slot2)
 				end
 			end
 		end
@@ -115,7 +117,7 @@ function slot0.HandleDamage(slot0, slot1, slot2, slot3, slot4)
 		end
 	else
 		slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_KILL, slot18)
-		slot0:obituary(slot2, slot21, slot1)
+		slot0:obituary(slot2, slot22, slot1)
 		slot0:KillCountStatistics(slot7.id, slot2:GetAttrByName("id"))
 	end
 

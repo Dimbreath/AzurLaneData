@@ -65,6 +65,10 @@ function slot0.Init(slot0, slot1)
 		uv0.inited = true
 		uv0.finder = uv0:Finder()
 		uv0.managerState = uv1.MANAGER_STATE.IDLE
+		uv0.chars = {
+			uv0.styleTF1:Find("char"):GetComponent(typeof(Image)).sprite,
+			GetSpriteFromAtlas("ui/guide_atlas", "guide1")
+		}
 		uv0.material = uv0._tf:Find("resources/material"):GetComponent(typeof(Image)).material
 
 		uv2()
@@ -617,7 +621,7 @@ function slot0.updateContent(slot0, slot1)
 	end
 
 	slot9 = slot7:Find("char"):GetComponent(typeof(Image))
-	slot9.sprite = GetSpriteFromAtlas("ui/guide_atlas", "guide" .. (slot2.char or ""))
+	slot9.sprite = slot0.chars[slot2.char and slot2.char == "1" and 2 or 1]
 
 	slot9:SetNativeSize()
 

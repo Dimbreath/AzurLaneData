@@ -66,7 +66,7 @@ function slot0.register(slot0)
 			end
 		end
 
-		slot0.viewComponent:SetSkipFlag(slot9:IsAutoFight())
+		slot0.viewComponent:SetSkipFlag(slot5:GetChapterAutoFlag(slot9.id) == 1)
 	elseif slot7 == SYSTEM_WORLD then
 		slot11 = nowWorld:GetActiveMap():GetFleet()
 		slot13 = slot11:GetTeamShipVOs(TeamType.Vanguard, true)

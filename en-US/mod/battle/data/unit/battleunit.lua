@@ -1503,3 +1503,10 @@ end
 function slot9.GetCloak(slot0)
 	return slot0._cloak
 end
+
+function slot9.ActiveWeaponSectorView(slot0, slot1, slot2)
+	slot0:DispatchEvent(uv0.Event.New(uv1.WEAPON_SECTOR, {
+		weapon = slot1,
+		isActive = slot2
+	}))
+end

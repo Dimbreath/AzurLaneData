@@ -239,7 +239,11 @@ end
 function slot0.verifyTabs(slot0, slot1)
 	slot2 = 1
 
+	warning(slot1)
+
 	for slot6, slot7 in ipairs(slot0.activities) do
+		warning("ACT ", slot7)
+
 		if slot7.id == slot1 then
 			slot2 = slot6
 
