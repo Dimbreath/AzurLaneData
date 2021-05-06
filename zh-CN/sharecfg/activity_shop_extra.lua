@@ -2088,7 +2088,7 @@ pg.activity_shop_extra = {
 	},
 	[70] = {
 		num_limit = 1,
-		activity = 959,
+		activity = 958,
 		commodity_type = 7,
 		num = 1,
 		commodity_id = 201214,

@@ -706,6 +706,9 @@ function slot0.initShips(slot0)
 			uv0.isSwitch = nil
 
 			triggerButton(slot2._tf)
+		end
+
+		if slot0 == 0 then
 			setActive(uv0.mainPanel, true)
 		end
 	end
