@@ -8,7 +8,7 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					maxHPRatio = 150
+					maxHPRatio = 0.015
 				}
 			}
 		}
@@ -22,7 +22,7 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					maxHPRatio = 200
+					maxHPRatio = 0.02
 				}
 			}
 		}
@@ -36,7 +36,7 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					maxHPRatio = 250
+					maxHPRatio = 0.025
 				}
 			}
 		}
@@ -50,7 +50,7 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					maxHPRatio = 300
+					maxHPRatio = 0.03
 				}
 			}
 		}
@@ -64,7 +64,7 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					maxHPRatio = 350
+					maxHPRatio = 0.035
 				}
 			}
 		}
@@ -78,7 +78,7 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					maxHPRatio = 400
+					maxHPRatio = 0.04
 				}
 			}
 		}
@@ -92,7 +92,7 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					maxHPRatio = 450
+					maxHPRatio = 0.045
 				}
 			}
 		}
@@ -106,7 +106,7 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					maxHPRatio = 500
+					maxHPRatio = 0.05
 				}
 			}
 		}
@@ -120,7 +120,7 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					maxHPRatio = 550
+					maxHPRatio = 0.055
 				}
 			}
 		}
@@ -134,7 +134,7 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					maxHPRatio = 600
+					maxHPRatio = 0.06
 				}
 			}
 		}
@@ -156,7 +156,7 @@ return {
 				"onTakeDamage"
 			},
 			arg_list = {
-				maxHPRatio = 150
+				maxHPRatio = 0.015
 			}
 		}
 	}
