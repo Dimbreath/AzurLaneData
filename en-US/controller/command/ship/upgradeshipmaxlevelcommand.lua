@@ -25,7 +25,7 @@ function slot0.execute(slot0, slot1)
 			_.each(uv0:getNextMaxLevelConsume(), function (slot0)
 				uv0:sendNotification(GAME.CONSUME_ITEM, slot0)
 			end)
-			uv0:addExp(0)
+			uv0:addExp(0, true)
 			uv1:sendNotification(GAME.UPGRADE_MAX_LEVEL_DONE, {
 				oldShip = Clone(uv0),
 				newShip = uv0,
