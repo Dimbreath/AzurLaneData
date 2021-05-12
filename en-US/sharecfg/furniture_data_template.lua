@@ -2859,6 +2859,53 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[168] = {
+		can_rotate = 1,
+		name = "1000 Days Memorial",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 5,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "fanshuicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		describe = "May our next thousand days together be just as memorable!",
+		advice = 0,
+		id = 168,
+		deblocking = 1,
+		comfortable = 5,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fanshu",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[169] = {
 		can_rotate = 1,
 		name = "Dream Manifestation Device",
@@ -76955,6 +77002,7 @@ pg.furniture_data_template = {
 		164,
 		165,
 		167,
+		168,
 		169,
 		171,
 		173,

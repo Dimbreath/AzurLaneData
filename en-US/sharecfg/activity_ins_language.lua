@@ -7174,223 +7174,223 @@ pg.activity_ins_language = {
 		value = "None can match our unwavering resolve!"
 	},
 	ins_208 = {
-		value = ""
+		value = "POV: you are Captain da Recco's second mate, helping her plot a new course"
 	},
 	ins_discuss_208_1 = {
-		value = ""
+		value = "SPIIIIIIIN! Captain, second mate-slash-sailor Libeccio wants to spin it too!"
 	},
 	ins_reply_208_1_1 = {
-		value = ""
+		value = "It's all yours! Now get a pen and paper and start jotting down those lats and longs!"
 	},
 	ins_reply_208_1_2 = {
-		value = ""
+		value = "How on earth can you see anything when it's spinning so fast?"
 	},
 	ins_reply_208_1_3 = {
-		value = ""
+		value = "Two words: high-def eyesight! You kinda develop it over time as a navigator."
 	},
 	ins_discuss_208_2 = {
-		value = ""
+		value = "What do you say to becoming my own navigator, matey? There's lots of booty in it for you."
 	},
 	ins_reply_208_2_1 = {
-		value = ""
+		value = "This here girl loves to sail the sea, but I'm no pirate! I'm gonna have to kindly decline!"
 	},
 	ins_op_208_1_1 = {
-		value = ""
+		value = "Don't tell me this is how you actually navigate..."
 	},
 	op_reply_208_1_1 = {
-		value = ""
+		value = "What if it is, and I'm just that good? :^)"
 	},
 	ins_op_208_1_2 = {
-		value = ""
+		value = "Set sail for uncharted waters!"
 	},
 	op_reply_208_1_2 = {
-		value = ""
+		value = "Aye-aye, Admiral!"
 	},
 	ins_209 = {
-		value = ""
+		value = "All my photographs came out blurry, despite my best efforts... Could it be that my camera is broken?"
 	},
 	ins_discuss_209_1 = {
-		value = ""
+		value = "No camera can accurately capture your beauty, signorina."
 	},
 	ins_reply_209_1_1 = {
-		value = ""
+		value = "A servicable pickup line, but a poor explanation, I'm afraid."
 	},
 	ins_reply_209_1_2 = {
-		value = ""
+		value = "Whichever your interpretation, I meant it only as a joke."
 	},
 	ins_discuss_209_2 = {
-		value = ""
+		value = "What were you trying to photograph, Veneto?"
 	},
 	ins_reply_209_2_1 = {
-		value = ""
+		value = "The beach, of course! Every moment at the beach deserves to be immortalized."
 	},
 	ins_discuss_209_3 = {
-		value = ""
+		value = "I might be able to help. When did you buy it? What model is it?"
 	},
 	ins_reply_209_3_1 = {
-		value = ""
+		value = "In order: the other day, and I don't know. A green-haired cat in a hat and sunglasses sold it to me at a discount."
 	},
 	ins_discuss_209_4 = {
-		value = ""
+		value = "Tried using a tripod? Usually that helps. I can DM you some good ones if you want"
 	},
 	ins_reply_209_4_1 = {
-		value = ""
+		value = "It does? By all means, I'd love your recommendations!"
 	},
 	ins_op_209_1_1 = {
-		value = ""
+		value = "Try adjusting the focus. On the camera, and on the subject."
 	},
 	op_reply_209_1_1 = {
-		value = ""
+		value = "Oh! That made a significant difference! Thank you, Commander!"
 	},
 	ins_210 = {
-		value = ""
+		value = "A Sardegnian dignitary must always act with splendor, no matter the task at hand."
 	},
 	ins_discuss_210_1 = {
-		value = ""
+		value = "Uncorking a bottle with a rapier isn't \"splendor,\" that's just showing off! Ngl though I wanna learn how to do it!"
 	},
 	ins_reply_210_1_1 = {
-		value = ""
+		value = "When you've grown, I will teach you. A rapier is too much for a \"fun-sized\" girl to handle."
 	},
 	ins_reply_210_1_2 = {
-		value = ""
+		value = "Aww come on! How can I be old enough to serve in the navy but a rapier's outta my league?!"
 	},
 	ins_discuss_210_2 = {
-		value = ""
+		value = "Sardegnian crimson nectar doth live up to its reputation, I must say."
 	},
 	ins_reply_210_2_1 = {
-		value = ""
+		value = "I am glad to hear it. Know that you're always welcome to our private banquets."
 	},
 	ins_discuss_210_3 = {
-		value = ""
+		value = "Such remarkable swordsmanship! We must spar together sometime, I implore you!"
 	},
 	ins_reply_210_3_1 = {
-		value = ""
+		value = "Many a legend have I heard of Iris' swordfighters. I shall add a duel to my bucket list."
 	},
 	ins_op_210_1_1 = {
-		value = ""
+		value = "Where's the line between splendor and showiness?"
 	},
 	op_reply_210_1_1 = {
-		value = ""
+		value = "Sincerity. Vanity has a distinct smell, one which I steer very clear of."
 	},
 	ins_211 = {
-		value = ""
+		value = "Ah, what a lovely tea party this was! Thank you for joining me, my Iron Blood friend!"
 	},
 	ins_discuss_211_1 = {
-		value = ""
+		value = "This frivolous little gathering proved more entertaining than I thought."
 	},
 	ins_reply_211_1_1 = {
-		value = ""
+		value = "You really loved my tea and sweets, didn't you? I'm glad! I went all-out with them."
 	},
 	ins_reply_211_1_2 = {
-		value = ""
+		value = "They played no small part in my enjoyment. That much, I will admit."
 	},
 	ins_discuss_211_2 = {
-		value = ""
+		value = "For but this brief moment, Graf Zeppelin's visage was free of detest and displeasure."
 	},
 	ins_reply_211_2_1 = {
-		value = ""
+		value = "Gaiety is not in my nature, nor does it suit me. Don't aggrandize this photograph."
 	},
 	ins_reply_211_2_2 = {
-		value = ""
+		value = "You sound like such good friends~ Z46, I'd love to have you at our next tea party!"
 	},
 	ins_reply_211_2_3 = {
-		value = ""
+		value = "A gracious offer. I thank you."
 	},
 	ins_op_211_1_1 = {
-		value = ""
+		value = "I suppose Graf doesn't hate tea parties, at least."
 	},
 	op_reply_211_1_1 = {
-		value = ""
+		value = "You'd be surprised by how fun it is talking to her when she's in a good mood~"
 	},
 	ins_212 = {
-		value = ""
+		value = "look... shrooms..."
 	},
 	ins_discuss_212_1 = {
-		value = ""
+		value = "Growing out of a tin can?"
 	},
 	ins_reply_212_1_1 = {
-		value = ""
+		value = "mhm... aren't they pretty? I need more containers so I can grow a whole colony of them... hehehe..."
 	},
 	ins_discuss_212_2 = {
-		value = ""
+		value = "Are they edible? I could make a yummy sauté out of them if so!"
 	},
 	ins_reply_212_2_1 = {
-		value = ""
+		value = "they're not poisonous at least... I could spare a few, I guess..."
 	},
 	ins_reply_212_2_2 = {
-		value = ""
+		value = "Not poisonous does not necessarily mean edible..."
 	},
 	ins_discuss_212_3 = {
-		value = ""
+		value = "that corner looks cool and cozy. mind if I come join you?"
 	},
 	ins_reply_212_3_1 = {
-		value = ""
+		value = "make yourself at home... the more, the merrier... hehehe..."
 	},
 	ins_op_212_1_1 = {
-		value = ""
+		value = "Mushrooms can grow indoors? In a can, at that?"
 	},
 	op_reply_212_1_1 = {
-		value = ""
+		value = "shrooms are hardy little friends... they can survive and thrive almost anywhere... even your private quarters if given the chance... hehehe..."
 	},
 	ins_213 = {
-		value = ""
+		value = "Always study for your tests, everyone. Make your teachers proud."
 	},
 	ins_discuss_213_1 = {
-		value = ""
+		value = "That's exactly what I want to hear! Gold star for you, Maestrale!"
 	},
 	ins_reply_213_1_1 = {
-		value = ""
+		value = "A gold star? I thought that was just common sense? Well, thank you in any case!"
 	},
 	ins_reply_213_1_2 = {
-		value = ""
+		value = "I WISH it was! My job would be so much easier if all my pupils were half as diligent as you."
 	},
 	ins_discuss_213_2 = {
-		value = ""
+		value = "But studying is haaard! My brain is too smooth to comprehend trigonomewhatchamacallit!"
 	},
 	ins_reply_213_2_1 = {
-		value = ""
+		value = "It really isn't... Should I help you with it? You picked up algebra quickly after I explained it to you."
 	},
 	ins_reply_213_2_2 = {
-		value = ""
+		value = "Yes please! I'll take anything that helps me get a passing grade at least!"
 	},
 	ins_op_213_1_1 = {
-		value = ""
+		value = "We have an up-and-coming ace student."
 	},
 	op_reply_213_1_1 = {
-		value = ""
+		value = "I wouldn't say I'm an ace student, I just happen to be good at this subject... But thank you."
 	},
 	ins_op_213_1_2 = {
-		value = ""
+		value = "I hope Libeccio won't flunk."
 	},
 	op_reply_213_1_2 = {
-		value = ""
+		value = "You and me both! If Maestrale can't help me understand this alien math, I'm toast!"
 	},
 	ins_214 = {
-		value = ""
+		value = "Hohoho! Nothing beats a cup of tea in the evening, isn't that right, my fellow ladies?"
 	},
 	ins_discuss_214_1 = {
-		value = ""
+		value = "the teabag is still in the cup... isn't that frowned upon by hoity-toity types...?"
 	},
 	ins_reply_214_1_1 = {
-		value = ""
+		value = "Not when it's black tea, which this fortunately is! Oh yes, everyone knows that!"
 	},
 	ins_discuss_214_2 = {
-		value = ""
+		value = "Mmmm I'd love a cup of black tea right about now"
 	},
 	ins_reply_214_2_1 = {
-		value = ""
+		value = "Who wouldn't? It tastes so delectable, so full, so... um, you know, wonderful!"
 	},
 	ins_discuss_214_3 = {
-		value = ""
+		value = "Take care not to drink too much before bedtime. Black tea is high in caffeine."
 	},
 	ins_reply_214_3_1 = {
-		value = ""
+		value = "That would explain the buzz... I might be reaching caffeine saturation already."
 	},
 	ins_op_214_1_1 = {
-		value = ""
+		value = "It's not everyone's cup of tea, but it's good."
 	},
 	op_reply_214_1_1 = {
-		value = ""
+		value = "Speaking of which, do you want some tea too, Commander? There's lots to go around!"
 	},
 	all = {
 		ins_op_1_1_1,

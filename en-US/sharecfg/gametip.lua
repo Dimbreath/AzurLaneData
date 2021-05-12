@@ -13755,6 +13755,6 @@ Your Action Points will also reset, starting you off with <color=#92fc63>200 AP.
 		tip = "Text box is now being hidden."
 	},
 	game_openwords = {
-		tip = "Tex box is now being displayed."
+		tip = "Text box is now being displayed."
 	}
 }

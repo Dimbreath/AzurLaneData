@@ -24,6 +24,14 @@ pg.item_data_frame = {
 		desc = "Granted to all Commanders who have defended the port for two years.\n (earned by participating in the Second Anniversary limited event)",
 		scene = {}
 	},
+	[103] = {
+		name = "1000 Days Commemoration",
+		time_second = 0,
+		id = 103,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>May our next thousand days together be just as memorable!</color>\nA special chat frame awarded for Azur Lane's 1,000-day launch celebration.",
+		scene = {}
+	},
 	[201] = {
 		name = "Achievement Chat Bubbles",
 		time_second = 0,
@@ -220,6 +228,7 @@ pg.item_data_frame = {
 		0,
 		101,
 		102,
+		103,
 		201,
 		202,
 		203,
