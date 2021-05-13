@@ -466,8 +466,13 @@ end
 function slot0.UpdateContent(slot0, slot1, slot2)
 	slot3 = slot1:GetContent()
 	slot0.conentTxt.text = slot3
+	slot4 = 999
 
-	if slot3 and slot3 ~= "" and slot3 ~= "…" and #slot3 > 1 then
+	if slot3 and slot3 ~= "" then
+		slot4 = System.String.New(slot3).Length
+	end
+
+	if slot3 and slot3 ~= "" and slot3 ~= "…" and #slot3 > 1 and slot4 > 1 then
 		slot0:UpdateTypeWriter(slot1, slot2)
 		slot0:TweenMovey(slot0.contentArr, 0, 10, 0.5, 0, -1, nil)
 	else

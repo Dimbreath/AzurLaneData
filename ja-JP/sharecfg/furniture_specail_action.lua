@@ -152,5 +152,22 @@ pg.furniture_specail_action = {
 				1.5
 			}
 		}
+	},
+	[100025] = {
+		id = 100025,
+		actions = {
+			{
+				"walk",
+				5
+			},
+			{
+				"stand2",
+				1.16
+			},
+			{
+				"tuozhuai2",
+				3.6
+			}
+		}
 	}
 }

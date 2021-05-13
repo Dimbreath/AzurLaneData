@@ -7174,223 +7174,223 @@ pg.activity_ins_language = {
 		value = "気魄も決心も誰にも負けないぞ！"
 	},
 	ins_208 = {
-		value = ""
+		value = "航海士レッコ、新しい航路を開拓中！"
 	},
 	ins_discuss_208_1 = {
-		value = ""
+		value = "地球儀ぐるぐる～！あたしもやりたい！"
 	},
 	ins_reply_208_1_1 = {
-		value = ""
+		value = "新しい航路を開拓しているのだぞ！"
 	},
 	ins_reply_208_1_2 = {
-		value = ""
+		value = "よ、よく見えないのでは…"
 	},
 	ins_reply_208_1_3 = {
-		value = ""
+		value = "この航海士の動体視力を侮るでないよー"
 	},
 	ins_discuss_208_2 = {
-		value = ""
+		value = "未知の航路は冒険、お宝、そして目新しい体験！心躍らないはずがないわ！"
 	},
 	ins_reply_208_2_1 = {
-		value = ""
+		value = "ドレイクさん、さっすがー！"
 	},
 	ins_op_208_1_1 = {
-		value = ""
+		value = "地球儀を回しているだけでは……？"
 	},
 	op_reply_208_1_1 = {
-		value = ""
+		value = "むぅ！レッコを子供扱いしてはダメよ！"
 	},
 	ins_op_208_1_2 = {
-		value = ""
+		value = "未知なる海へAndiamo！"
 	},
 	op_reply_208_1_2 = {
-		value = ""
+		value = "おおお！"
 	},
 	ins_209 = {
-		value = ""
+		value = "何枚撮ってもぼやけていますね…もしかしてカメラが壊れたのでしょうか…？"
 	},
 	ins_discuss_209_1 = {
-		value = ""
+		value = "シニョリーナの美貌は写真で写しきれないというのさ"
 	},
 	ins_reply_209_1_1 = {
-		value = ""
+		value = "んー、それは口説き文句としてはどうかと……"
 	},
 	ins_reply_209_1_2 = {
-		value = ""
+		value = "ははは、ただの冗談よ"
 	},
 	ins_discuss_209_2 = {
-		value = ""
+		value = "ヴェネトさんは何を撮っていらっしゃいますか？"
 	},
 	ins_reply_209_2_1 = {
-		value = ""
+		value = "ふふふ、せっかく海辺に来ていますから海を写真に収めようと思って♪"
 	},
 	ins_discuss_209_3 = {
-		value = ""
+		value = "カメラの調子以外にも原因がありますね…私で良ければお手伝いいたしましょうか"
 	},
 	ins_reply_209_3_1 = {
-		value = ""
+		value = "あらら…ではお言葉に甘えさせていただきます♪"
 	},
 	ins_discuss_209_4 = {
-		value = ""
+		value = "三脚とか使ってみてはどう？アタシでよかったら相談に乗るわよ！"
 	},
 	ins_reply_209_4_1 = {
-		value = ""
+		value = "三脚ですね…やってみます！"
 	},
 	ins_op_209_1_1 = {
-		value = ""
+		value = "手伝いましょうか？"
 	},
 	op_reply_209_1_1 = {
-		value = ""
+		value = "ふふ、感謝しますわ♪"
 	},
 	ins_210 = {
-		value = ""
+		value = "サディア貴き者のいかなる行いも、グラッツィア――"
 	},
 	ins_discuss_210_1 = {
-		value = ""
+		value = "レイピアで瓶を開けた！？レッコにも教えて！"
 	},
 	ins_reply_210_1_1 = {
-		value = ""
+		value = "レッコにはまだ早いさ。ワインも、この剣でのやり方もな"
 	},
 	ins_reply_210_1_2 = {
-		value = ""
+		value = "楽しそうなのにー！"
 	},
 	ins_discuss_210_2 = {
-		value = ""
+		value = "サディアの紅き芳醇、噂通りの美味だわね"
 	},
 	ins_reply_210_2_1 = {
-		value = ""
+		value = "ふふ、飲みたい時はいつでも歓迎するぞ"
 	},
 	ins_discuss_210_3 = {
-		value = ""
+		value = "なんという剣さばき…！いつか手合わせしてみたいものです…！"
 	},
 	ins_reply_210_3_1 = {
-		value = ""
+		value = "アイリスの聖騎士なら相手に不足なし……楽しみにしているぞ"
 	},
 	ins_op_210_1_1 = {
-		value = ""
+		value = "これぞ貴き者の流儀、か――"
 	},
 	op_reply_210_1_1 = {
-		value = ""
+		value = "おっと、そこまで褒められるものではあるまいよ"
 	},
 	ins_211 = {
-		value = ""
+		value = "鉄血の仲間とl'ora del teですわ～"
 	},
 	ins_discuss_211_1 = {
-		value = ""
+		value = "我もこのような行事に付き合わされるとはな"
 	},
 	ins_reply_211_1_1 = {
-		value = ""
+		value = "ふふふ、アクィラの用意した紅茶とお菓子に負けましたね～"
 	},
 	ins_reply_211_1_2 = {
-		value = ""
+		value = "ああ、卿の努力は認めてやろう"
 	},
 	ins_discuss_211_2 = {
-		value = ""
+		value = "刻み込む友情の瞬間だけ、憂いを帯びぬ表情でも良さそうだ"
 	},
 	ins_reply_211_2_1 = {
-		value = ""
+		value = "我が友よ、我にそのような貌は相応しくなかろう"
 	},
 	ins_reply_211_2_2 = {
-		value = ""
+		value = "フィーゼちゃんはツェッペリンさんと仲がいいですね～今度3人でお茶会でもしましょ～"
 	},
 	ins_reply_211_2_3 = {
-		value = ""
+		value = "礼を言おう"
 	},
 	ins_op_211_1_1 = {
-		value = ""
+		value = "微笑ましい一枚だ"
 	},
 	op_reply_211_1_1 = {
-		value = ""
+		value = "ツェッペリンさんとおしゃべりするのは楽しいですよ～"
 	},
 	ins_212 = {
-		value = ""
+		value = "ふふ、ふふふ…キノコ…はえ、た………"
 	},
 	ins_discuss_212_1 = {
-		value = ""
+		value = "缶詰でキノコを……？"
 	},
 	ins_reply_212_1_1 = {
-		value = ""
+		value = "空き缶に生やしたキノコ…ふふ、ふふふふふ……部屋に飾って…いいでしょう…？"
 	},
 	ins_discuss_212_2 = {
-		value = ""
+		value = "美味しそうなキノコだ！食べられるの？"
 	},
 	ins_reply_212_2_1 = {
-		value = ""
+		value = "毒がないから…ふふふ……わ、分けてあげてもいい、よ……"
 	},
 	ins_reply_212_2_2 = {
-		value = ""
+		value = "ほ、本当に食べられるのですか…？"
 	},
 	ins_discuss_212_3 = {
-		value = ""
+		value = "静かで暗くて涼しそう…遊びに行ってもいい…？"
 	},
 	ins_reply_212_3_1 = {
-		value = ""
+		value = "じ、自分ちと思って、寛いで…ふふ、ふふふふ……"
 	},
 	ins_op_212_1_1 = {
-		value = ""
+		value = "普通の部屋でもキノコを…？！"
 	},
 	op_reply_212_1_1 = {
-		value = ""
+		value = "ふふふ…養分と、環境を揃えば…キノコはどこにだって…指揮官の部屋も、もしかして…ふふふふ……"
 	},
 	ins_213 = {
-		value = ""
+		value = "今日の課題も無事終了しました"
 	},
 	ins_discuss_213_1 = {
-		value = ""
+		value = "マエストラーレはちゃんと勉強しているわね！はなまるだわ！"
 	},
 	ins_reply_213_1_1 = {
-		value = ""
+		value = "そ、それほどでも…ありがとうございますっ"
 	},
 	ins_reply_213_1_2 = {
-		value = ""
+		value = "はあ…授業を受けに来る子がみんなマエストラーレみたいだったらどれだけ楽なことか…"
 	},
 	ins_discuss_213_2 = {
-		value = ""
+		value = "どうしてあたしは全然わからないのぉ…姉妹艦なのにぃ……"
 	},
 	ins_reply_213_2_1 = {
-		value = ""
+		value = "別にそんなに難しくない気が…リベッチオも説明をちゃんと聞いたら解けるんじゃありませんか？"
 	},
 	ins_reply_213_2_2 = {
-		value = ""
+		value = "次も助けてマエストラーレ！＞＜"
 	},
 	ins_op_213_1_1 = {
-		value = ""
+		value = "マエストラーレは真面目だな"
 	},
 	op_reply_213_1_1 = {
-		value = ""
+		value = "あ、ありがとうございます…課題は課題ですから…っ"
 	},
 	ins_op_213_1_2 = {
-		value = ""
+		value = "リベッチオ…大丈夫か？"
 	},
 	op_reply_213_1_2 = {
-		value = ""
+		value = "マエストラーレが助けてくれないと課題とか無理だよぉ…"
 	},
 	ins_214 = {
-		value = ""
+		value = "ふふん！これでリベッチオも立派なサディアレディだよね！"
 	},
 	ins_discuss_214_1 = {
-		value = ""
+		value = "茶パックの糸が、見えているよ……"
 	},
 	ins_reply_214_1_1 = {
-		value = ""
+		value = "茶パックでも紅茶パックだからセーフだよ！"
 	},
 	ins_discuss_214_2 = {
-		value = ""
+		value = "ぱぱっと美味しい紅茶が飲める…最高…！"
 	},
 	ins_reply_214_2_1 = {
-		value = ""
+		value = "紅茶パック最高ぉ！ちょっと変な気もするけど♪"
 	},
 	ins_discuss_214_3 = {
-		value = ""
+		value = "この間買った茶パックですか？…飲みすぎると眠れなくなりますよ…？"
 	},
 	ins_reply_214_3_1 = {
-		value = ""
+		value = "本当だ！そう言えば眠くならないね！"
 	},
 	ins_op_214_1_1 = {
-		value = ""
+		value = "たまに楽するのもいいからね"
 	},
 	op_reply_214_1_1 = {
-		value = ""
+		value = "えへへ！リベッチオも美味しい紅茶作ってあげるね！指揮官さん！"
 	},
 	all = {
 		ins_op_1_1_1,

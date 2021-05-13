@@ -321,7 +321,7 @@ function slot1.resetHBTimer(slot0)
 		uv0:Send(10100, {
 			need_request = 0
 		})
-	end, HEART_BEAT_TIMEOUT, -1)
+	end, HEART_BEAT_TIMEOUT, -1, true)
 
 	uv0:Start()
 end

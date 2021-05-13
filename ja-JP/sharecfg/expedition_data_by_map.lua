@@ -10155,6 +10155,174 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2100140] = {
+		map = 2100140,
+		name = "黒鉄の楽章、誓いの海-前編|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "TIEXUEYUYINFU1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1220001",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "map_1220001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100150,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100141] = {
+		map = 2100141,
+		name = "黒鉄の楽章、誓いの海-後編|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "TIEXUEYUYINFU10",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1220002",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "map_1220002",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100151,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100150] = {
+		map = 2100150,
+		name = "黒鉄の楽章、誓いの海-前編|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "TIEXUEYUYINFU1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1220003",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "map_1220003",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100140,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100151] = {
+		map = 2100151,
+		name = "黒鉄の楽章、誓いの海-後編|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "TIEXUEYUYINFU10",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1220004",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "map_1220004",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100141,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2200000] = {
 		map = 2200000,
 		name = "努力、希望と計画|| ||CHAPTER SP||S.P.",
@@ -10569,6 +10737,10 @@ pg.expedition_data_by_map = {
 		2100121,
 		2100130,
 		2100131,
+		2100140,
+		2100141,
+		2100150,
+		2100151,
 		2200000,
 		2200010,
 		2200020,

@@ -37,11 +37,24 @@ function slot0.Flush(slot0, slot1, slot2)
 		end
 	end)
 
+	slot6 = false
+
 	if slot2:rarity2bgPrint() == "04" then
 		slot5 = 4
 	elseif slot5 == "05" then
 		slot5 = 5
+	elseif slot5 == "meta_3" then
+		slot5 = 7
+		slot6 = true
+	elseif slot5 == "meta_4" then
+		slot5 = 6
+		slot6 = true
+	elseif slot5 == "meta_5" then
+		slot5 = 8
+		slot6 = true
 	end
+
+	slot0:LoadMetaEffect(slot6)
 
 	slot0.mask.sprite = GetSpriteFromAtlas("ui/GuildBossAssultUI_atlas", slot5)
 
@@ -50,7 +63,51 @@ function slot0.Flush(slot0, slot1, slot2)
 	setActive(slot0.recommendBtn, GuildMember.IsAdministrator(getProxy(GuildProxy):getRawData():getSelfDuty()))
 end
 
+slot1 = "meta_huoxing"
+
+function slot0.LoadMetaEffect(slot0, slot1)
+	if slot0.loading then
+		slot0.destoryMetaEffect = not slot1
+
+		return
+	end
+
+	if slot1 and not slot0.metaEffect then
+		slot0.loading = true
+
+		PoolMgr.GetInstance():GetUI(uv0, true, function (slot0)
+			uv0.loading = nil
+
+			if uv0.destoryMetaEffect then
+				uv0:RemoveMetaEffect()
+
+				uv0.destoryMetaEffect = nil
+			else
+				uv0.metaEffect = slot0
+
+				SetParent(uv0.metaEffect, uv0._tr)
+				setActive(slot0, true)
+			end
+		end)
+	elseif not slot1 and slot0.metaEffect then
+		slot0:RemoveMetaEffect()
+	elseif slot0.metaEffect then
+		setActive(slot0.metaEffect, true)
+	end
+end
+
+function slot0.RemoveMetaEffect(slot0)
+	if slot0.metaEffect then
+		PoolMgr.GetInstance():ReturnUI(uv0, slot0.metaEffect)
+
+		slot0.metaEffect = nil
+	end
+end
+
 function slot0.Dispose(slot0)
+	slot0:RemoveMetaEffect()
+
+	slot0.destoryMetaEffect = true
 end
 
 return slot0

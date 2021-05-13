@@ -76,7 +76,7 @@ pg.gametip = {
 		tip = "連携を解除しました"
 	},
 	new_airi_error_code_100221 = {
-		tip = "Facebook連携に失敗しました"
+		tip = "連携に失敗しました"
 	},
 	new_airi_error_code_100222 = {
 		tip = "Twitter連携に失敗しました"
@@ -7569,13 +7569,13 @@ No.7 駆逐艦「鞍山」
 		tip = "「ヴィットリオ・ヴェネト」「アクィラ」などが出現率UP！"
 	},
 	buildship_heavy_tip = {
-		tip = "「天城」「土佐」「加賀(戦艦)」など常設追加！"
+		tip = "「ビスマルク」「キング・ジョージ5世」などが常設実装！"
 	},
 	buildship_light_tip = {
 		tip = "「ダイドー」「グロスター」「ビロクシ」「マラニー」などが常設実装！"
 	},
 	buildship_special_tip = {
-		tip = "「伊13」常設実装！"
+		tip = "「U-96」「U-556」「U-73」などが常設実装！"
 	},
 	open_skill_pos = {
 		tip = "<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffde38>$1</color>を消費し\n教室枠を拡張しますか？"

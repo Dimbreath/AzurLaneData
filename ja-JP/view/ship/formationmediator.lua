@@ -117,6 +117,7 @@ function slot0.register(slot0)
 			onShip = slot7,
 			confirmSelect = slot8,
 			onSelected = slot9,
+			onQuickHome = uv0.commitEdit,
 			hideTagFlags = ShipStatus.TAG_HIDE_FORMATION,
 			otherSelectedIds = slot6,
 			preView = uv0.viewComponent.__cname

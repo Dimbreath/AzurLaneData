@@ -680,7 +680,7 @@ SPECIAL_PROPOSE = {
 		}
 	}
 }
-CRI_BG_FLAG = false
+CRI_BG_FLAG = true
 OPEN_ESCORT = true
 OPEN_REMASTER = true
 OPEN_AIR_DOMINANCE = true
