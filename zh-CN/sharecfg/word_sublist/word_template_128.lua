@@ -4,16 +4,6 @@ slot0.word_template_128 = {}
 slot1 = slot0.word_template_128
 
 function temp()
-	uv0["鎮"] = {
-		["壓"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["爭"] = {
 		["鳴"] = {
 			["論"] = {
@@ -1280,6 +1270,16 @@ temp()
 
 function temp()
 	uv0["觶"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["躓"] = {
 		this = {
 			this = true
 		}

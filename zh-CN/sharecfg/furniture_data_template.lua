@@ -6522,28 +6522,28 @@ pg.furniture_data_template = {
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
-		effect = "",
-		is_get_time_note = 0,
 		picture = "",
-		belong = 1,
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
 		is_3d_obj = 0,
-		tag = 6,
+		themeId = 0,
 		spine_extra = "",
 		level = 1,
 		rarity = 4,
 		spine_action_replace = "",
+		belong = 1,
 		canputon = 0,
-		themeId = 0,
 		icon = "bengjiicon",
 		count = 1,
 		name = "啾啾蹦极 ",
-		id = 100025,
 		advice = 0,
+		id = 100025,
+		tag = 6,
 		comfortable = 0,
-		deblocking = 1,
 		size = {
 			5,
-			8
+			5
 		},
 		offset = {},
 		canputonGrid = {},
@@ -6552,11 +6552,11 @@ pg.furniture_data_template = {
 		},
 		spine = {
 			{
-				"bianniuB",
+				"bengjiB",
 				"normal"
 			},
 			{
-				"bianniuT"
+				"bengjiT"
 			},
 			{
 				{
@@ -6566,23 +6566,35 @@ pg.furniture_data_template = {
 				{
 					{
 						"walk"
+					},
+					{
+						"stand2"
+					},
+					{
+						"tuozhuai2"
 					}
 				},
-				{},
 				{
+					nil,
 					1
+				},
+				{
+					0
 				}
 			},
 			{},
 			{
 				0,
 				0
+			},
+			{
+				1,
+				1
 			}
 		},
-		animator = {
-			{
-				"bianniuCharControl"
-			}
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},

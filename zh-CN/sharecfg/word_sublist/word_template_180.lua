@@ -4,24 +4,6 @@ slot0.word_template_180 = {}
 slot1 = slot0.word_template_180
 
 function temp()
-	uv0["耕"] = {
-		["不"] = {
-			["完"] = {
-				["的"] = {
-					["女"] = {
-						["人"] = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["呦"] = {
 		["呦"] = {
 			["论"] = {
@@ -756,6 +738,36 @@ function temp()
 							this = true
 						}
 					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["侠"] = {
+		["女"] = {
+			["的"] = {
+				["悲"] = {
+					["哀"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["客"] = {
+			["裸"] = {
+				["聊"] = {
+					["网"] = {
+						this = true
+					}
+				}
+			},
+			["媚"] = {
+				["媚"] = {
+					this = true
 				}
 			}
 		}

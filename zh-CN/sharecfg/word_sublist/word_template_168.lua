@@ -4,31 +4,6 @@ slot0.word_template_168 = {}
 slot1 = slot0.word_template_168
 
 function temp()
-	uv0["胰"] = {
-		["腺"] = {
-			this = true
-		},
-		["岛"] = {
-			["素"] = {
-				["样"] = {
-					["生"] = {
-						["长"] = {
-							["因"] = {
-								["子"] = {
-									this = true
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["肝"] = {
 		["脏"] = {
 			this = true,
@@ -1724,6 +1699,20 @@ function temp()
 			},
 			["网"] = {
 				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["菀"] = {
+		["式"] = {
+			["服"] = {
+				["务"] = {
+					this = true
+				}
 			}
 		}
 	}

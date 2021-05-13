@@ -4,45 +4,6 @@ slot0.word_template_131 = {}
 slot1 = slot0.word_template_131
 
 function temp()
-	uv0["吗"] = {
-		["的"] = {
-			this = true,
-			["靠"] = {
-				this = true
-			}
-		},
-		["啡"] = {
-			this = true,
-			["碱"] = {
-				this = true,
-				c = {
-					v = {
-						this = true
-					}
-				}
-			},
-			["片"] = {
-				this = true
-			}
-		},
-		b = {
-			this = true
-		},
-		["逼"] = {
-			this = true
-		},
-		["比"] = {
-			this = true
-		},
-		["个"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["*"] = {
 		["法"] = {
 			["*"] = {
@@ -8066,6 +8027,120 @@ function temp()
 		},
 		["比"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["波"] = {
+		["霸"] = {
+			this = true,
+			["乳"] = {
+				["交"] = {
+					["器"] = {
+						["具"] = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		["女"] = {
+			["微"] = {
+				["信"] = {
+					this = true
+				}
+			}
+		},
+		["音"] = {
+			["娱"] = {
+				["乐"] = {
+					["城"] = {
+						this = true
+					},
+					["场"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["波"] = {
+			["撸"] = {
+				this = true,
+				["影"] = {
+					["院"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["佳"] = {
+			["达"] = {
+				this = true
+			}
+		},
+		["动"] = {
+			["少"] = {
+				["女"] = {
+					this = true
+				}
+			}
+		},
+		["動"] = {
+			["少"] = {
+				["女"] = {
+					this = true
+				}
+			}
+		},
+		["多"] = {
+			["野"] = {
+				["结"] = {
+					["衣"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["斯"] = {
+			["刀"] = {
+				this = true
+			},
+			["枪"] = {
+				this = true
+			},
+			["弯"] = {
+				["刀"] = {
+					this = true
+				}
+			}
+		},
+		["推"] = {
+			this = true
+		},
+		["风"] = {
+			["九"] = {
+				["八"] = {
+					this = true
+				}
+			},
+			["四"] = {
+				["六"] = {
+					this = true
+				}
+			},
+			["9"] = {
+				["8"] = {
+					this = true
+				}
+			},
+			["治"] = {
+				["政"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

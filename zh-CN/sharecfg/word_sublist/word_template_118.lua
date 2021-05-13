@@ -4,26 +4,6 @@ slot0.word_template_118 = {}
 slot1 = slot0.word_template_118
 
 function temp()
-	uv0["圖"] = {
-		["書"] = {
-			["管"] = {
-				["理"] = {
-					["員"] = {
-						["卡"] = {
-							["特"] = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["團"] = {
 		["長"] = {
 			["戈"] = {
@@ -908,6 +888,16 @@ function temp()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["鮪"] = {
+		this = {
+			this = true
 		}
 	}
 end

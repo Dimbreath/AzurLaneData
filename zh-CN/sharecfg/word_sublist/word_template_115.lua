@@ -4,16 +4,6 @@ slot0.word_template_115 = {}
 slot1 = slot0.word_template_115
 
 function temp()
-	uv0["貰"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["攄"] = {
 		this = {
 			this = true
@@ -593,6 +583,84 @@ function temp()
 	uv0["藪"] = {
 		this = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["蘇"] = {
+		["菲"] = {
+			["爾"] = {
+				this = true
+			}
+		},
+		["拉"] = {
+			this = true
+		},
+		["南"] = {
+			["成"] = {
+				this = true
+			}
+		},
+		["紹"] = {
+			["智"] = {
+				this = true
+			}
+		},
+		["特"] = {
+			["勒"] = {
+				["守"] = {
+					["護"] = {
+						["兵"] = {
+							this = true
+						}
+					}
+				}
+			},
+			["勤"] = {
+				this = true,
+				["護"] = {
+					["衛"] = {
+						["兵"] = {
+							this = true
+						}
+					}
+				},
+				["魔"] = {
+					["法"] = {
+						["師"] = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		["曉"] = {
+			["康"] = {
+				this = true
+			}
+		},
+		["盈"] = {
+			["貴"] = {
+				this = true
+			}
+		},
+		["貞"] = {
+			["昌"] = {
+				this = true
+			}
+		},
+		["家"] = {
+			["屯"] = {
+				this = true
+			}
+		},
+		["秀"] = {
+			["文"] = {
+				this = true
+			}
 		}
 	}
 end

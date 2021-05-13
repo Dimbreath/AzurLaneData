@@ -4,22 +4,6 @@ slot0.word_template_202 = {}
 slot1 = slot0.word_template_202
 
 function temp()
-	uv0["宵"] = {
-		["夜"] = {
-			["字"] = {
-				["幕"] = {
-					["组"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["脸"] = {
 		["肿"] = {
 			["字"] = {
@@ -525,6 +509,54 @@ function temp()
 					this = true
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["汉"] = {
+		["刀"] = {
+			this = true
+		},
+		["芯"] = {
+			["造"] = {
+				["假"] = {
+					this = true
+				}
+			}
+		},
+		["风"] = {
+			this = true
+		},
+		["人"] = {
+			this = true,
+			["移"] = {
+				["民"] = {
+					this = true,
+					["西"] = {
+						["藏"] = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		["维"] = {
+			this = true
+		},
+		["方"] = {
+			["百"] = {
+				["草"] = {
+					["堂"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["奸"] = {
+			this = true
 		}
 	}
 end

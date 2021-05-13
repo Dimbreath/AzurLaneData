@@ -683,9 +683,6 @@ function temp()
 				}
 			}
 		},
-		this = {
-			this = true
-		},
 		["瞟"] = {
 			this = true
 		},

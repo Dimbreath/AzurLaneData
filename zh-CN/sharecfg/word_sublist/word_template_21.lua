@@ -2125,9 +2125,6 @@ function temp()
 				}
 			}
 		},
-		this = {
-			this = true
-		},
 		["&"] = {
 			["粉"] = {
 				this = true

@@ -4,96 +4,6 @@ slot0.word_template_199 = {}
 slot1 = slot0.word_template_199
 
 function temp()
-	uv0["囍"] = {
-		["近"] = {
-			["平"] = {
-				this = true
-			}
-		},
-		["静"] = {
-			["平"] = {
-				this = true
-			}
-		},
-		["劲"] = {
-			["平"] = {
-				this = true
-			}
-		},
-		["金"] = {
-			["瓶"] = {
-				this = true
-			},
-			["缾"] = {
-				this = true
-			}
-		},
-		["紧"] = {
-			["品"] = {
-				this = true
-			}
-		},
-		["緊"] = {
-			["品"] = {
-				this = true
-			}
-		},
-		["儘"] = {
-			["萍"] = {
-				this = true
-			}
-		},
-		["尽"] = {
-			["萍"] = {
-				this = true
-			}
-		},
-		["进"] = {
-			["瓶"] = {
-				this = true
-			},
-			["缾"] = {
-				this = true
-			}
-		},
-		["勁"] = {
-			["平"] = {
-				this = true
-			}
-		},
-		["進"] = {
-			["缾"] = {
-				this = true
-			}
-		},
-		["净"] = {
-			["评"] = {
-				this = true
-			}
-		},
-		["淨"] = {
-			["評"] = {
-				this = true
-			}
-		},
-		["靜"] = {
-			["平"] = {
-				this = true
-			}
-		},
-		["色"] = {
-			["影"] = {
-				["院"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["戏"] = {
 		["近"] = {
 			["平"] = {
@@ -297,6 +207,26 @@ function temp()
 	uv0["熹"] = {
 		["近"] = {
 			["平"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["硒"] = {
+		["近"] = {
+			["平"] = {
+				this = true
+			}
+		},
+		["藏"] = {
+			this = true
+		},
+		["酸"] = {
+			["钠"] = {
 				this = true
 			}
 		}

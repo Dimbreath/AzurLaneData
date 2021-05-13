@@ -4,48 +4,6 @@ slot0.word_template_167 = {}
 slot1 = slot0.word_template_167
 
 function temp()
-	uv0["别"] = {
-		["墅"] = {
-			["业"] = {
-				["主"] = {
-					["信"] = {
-						["息"] = {
-							this = true
-						}
-					}
-				}
-			}
-		},
-		["他"] = {
-			["吗"] = {
-				this = true
-			},
-			["妈"] = {
-				["的"] = {
-					["装"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["梦"] = {
-			["成"] = {
-				["灰"] = {
-					this = true
-				}
-			}
-		},
-		["摸"] = {
-			["我"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["房"] = {
 		["主"] = {
 			["数"] = {
@@ -1295,6 +1253,31 @@ function temp()
 			["4"] = {
 				["9"] = {
 					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["胰"] = {
+		["腺"] = {
+			this = true
+		},
+		["岛"] = {
+			["素"] = {
+				["样"] = {
+					["生"] = {
+						["长"] = {
+							["因"] = {
+								["子"] = {
+									this = true
+								}
+							}
+						}
+					}
 				}
 			}
 		}

@@ -3767,6 +3767,102 @@ pg.shop_template = {
 			103101
 		}
 	},
+	[43011] = {
+		group_type = 0,
+		resource_num = 20000,
+		desc = "20000功勋兑换英王乔治五世",
+		type = 4,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 3,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 3,
+		id = 43011,
+		genre = "arena_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			205051
+		}
+	},
+	[43012] = {
+		group_type = 0,
+		resource_num = 5000,
+		desc = "5000功勋兑换回声",
+		type = 4,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 5,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 3,
+		id = 43012,
+		genre = "arena_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			201291
+		}
+	},
+	[43013] = {
+		group_type = 0,
+		resource_num = 8000,
+		desc = "8000功勋兑换Z26",
+		type = 4,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 4,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 3,
+		id = 43013,
+		genre = "arena_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			401261
+		}
+	},
+	[43014] = {
+		group_type = 0,
+		resource_num = 8000,
+		desc = "8000功勋兑换Z36",
+		type = 4,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 4,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 3,
+		id = 43014,
+		genre = "arena_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			401361
+		}
+	},
 	[50002] = {
 		group_type = 0,
 		resource_num = 50,
@@ -19831,7 +19927,8 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 4,
+		order = 1,
+		time = "always",
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -19842,32 +19939,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			405011
-		},
-		time = {
-			{
-				{
-					2020,
-					8,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70184] = {
@@ -20028,7 +20099,8 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 4,
+		order = 2,
+		time = "always",
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -20039,32 +20111,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			205051
-		},
-		time = {
-			{
-				{
-					2020,
-					8,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70187] = {
@@ -30543,9 +30589,10 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 1,
 		time_second = 0,
 		order = 2,
+		time = "always",
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -30556,32 +30603,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			408091
-		},
-		time = {
-			{
-				{
-					2020,
-					8,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70405] = {
@@ -30592,9 +30613,10 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 1,
 		time_second = 0,
 		order = 3,
+		time = "always",
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -30605,32 +30627,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			401261
-		},
-		time = {
-			{
-				{
-					2020,
-					8,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70406] = {
@@ -40270,6 +40266,10 @@ pg.shop_template = {
 		43008,
 		43009,
 		43010,
+		43011,
+		43012,
+		43013,
+		43014,
 		50002,
 		50003,
 		50004,

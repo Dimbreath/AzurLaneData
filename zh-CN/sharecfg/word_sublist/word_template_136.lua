@@ -4,16 +4,6 @@ slot0.word_template_136 = {}
 slot1 = slot0.word_template_136
 
 function temp()
-	uv0["伱"] = {
-		["妈"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["鸟"] = {
 		G = {
 			M = {
@@ -2728,6 +2718,64 @@ temp()
 function temp()
 	uv0["侨"] = {
 		["办"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["切"] = {
+		["七"] = {
+			this = true
+		},
+		["波"] = {
+			["特"] = {
+				this = true
+			}
+		},
+		["割"] = {
+			["薄"] = {
+				["谷"] = {
+					["软"] = {
+						["着"] = {
+							["陆"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		},
+		["换"] = {
+			["低"] = {
+				["空"] = {
+					N = {
+						this = true
+					}
+				}
+			},
+			["高"] = {
+				["空"] = {
+					H = {
+						this = true
+					}
+				}
+			}
+		},
+		["尼"] = {
+			["燧"] = {
+				["发"] = {
+					["手"] = {
+						["枪"] = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		["听"] = {
 			this = true
 		}
 	}

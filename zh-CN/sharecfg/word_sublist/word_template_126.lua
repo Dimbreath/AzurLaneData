@@ -4,18 +4,6 @@ slot0.word_template_126 = {}
 slot1 = slot0.word_template_126
 
 function temp()
-	uv0["緣"] = {
-		["圈"] = {
-			["圈"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["遠"] = {
 		["志"] = {
 			["明"] = {
@@ -500,6 +488,16 @@ temp()
 function temp()
 	uv0["賾"] = {
 		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["賊"] = {
+		["民"] = {
 			this = true
 		}
 	}

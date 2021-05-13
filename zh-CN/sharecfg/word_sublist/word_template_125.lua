@@ -4,98 +4,6 @@ slot0.word_template_125 = {}
 slot1 = slot0.word_template_125
 
 function temp()
-	uv0["余"] = {
-		["英"] = {
-			["時"] = {
-				this = true
-			},
-			["时"] = {
-				this = true
-			}
-		},
-		["秋"] = {
-			["里"] = {
-				this = true,
-				["*"] = {
-					this = true
-				}
-			}
-		},
-		["楚"] = {
-			["媛"] = {
-				this = true
-			}
-		},
-		["传"] = {
-			["琮"] = {
-				this = true
-			}
-		},
-		["党"] = {
-			["在"] = {
-				["逃"] = {
-					this = true,
-					["窜"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["道"] = {
-			["安"] = {
-				this = true
-			}
-		},
-		["额"] = {
-			["不"] = {
-				["足"] = {
-					this = true
-				}
-			}
-		},
-		["光"] = {
-			["彦"] = {
-				this = true
-			}
-		},
-		["化"] = {
-			["龙"] = {
-				this = true
-			}
-		},
-		["杰"] = {
-			this = true
-		},
-		["丽"] = {
-			this = true
-		},
-		["婆"] = {
-			this = true
-		},
-		["强"] = {
-			["生"] = {
-				this = true
-			}
-		},
-		["欣"] = {
-			["荣"] = {
-				this = true
-			}
-		},
-		["姚"] = {
-			this = true
-		},
-		["助"] = {
-			["之"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["漁"] = {
 		["夫"] = {
 			["菲"] = {
@@ -272,6 +180,18 @@ function temp()
 						}
 					}
 				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["緣"] = {
+		["圈"] = {
+			["圈"] = {
+				this = true
 			}
 		}
 	}

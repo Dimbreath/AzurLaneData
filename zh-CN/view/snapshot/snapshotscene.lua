@@ -701,9 +701,9 @@ function slot0.SetDummyForIOS(slot0, slot1)
 	end
 
 	if slot1 then
-		GameObject.Find("MainCamera"):GetComponent(typeof(Camera)).nearClipPlane = 0
+		pg.UIMgr.GetInstance():GetMainCamera():GetComponent(typeof(Camera)).nearClipPlane = 0
 
-		slot0.dummy:SetParent(GameObject.Find("MainCamera").transform)
+		slot0.dummy:SetParent(pg.UIMgr.GetInstance():GetMainCamera().transform)
 
 		slot0.dummy.localPosition = Vector3(0, 0, 3)
 		slot0.dummy.localRotation = Vector3(0, 0, 0)

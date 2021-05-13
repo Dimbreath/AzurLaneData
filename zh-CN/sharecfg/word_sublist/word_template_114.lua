@@ -4,16 +4,6 @@ slot0.word_template_114 = {}
 slot1 = slot0.word_template_114
 
 function temp()
-	uv0["鯴"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["㈩"] = {
 		this = {
 			this = true
@@ -1254,6 +1244,16 @@ function temp()
 			}
 		},
 		["将"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["貰"] = {
+		this = {
 			this = true
 		}
 	}

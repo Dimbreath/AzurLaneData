@@ -182134,7 +182134,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10110012,
-			10110011,
 			10110061,
 			10110061
 		},
@@ -182154,7 +182153,8 @@ pg.world_effect_data = {
 			10110002,
 			10110003,
 			10110003,
-			10110003
+			10110003,
+			10110011
 		},
 		autoflag = {}
 	},
@@ -183234,7 +183234,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10120012,
-			10120011,
 			10120061,
 			10120061
 		},
@@ -183254,7 +183253,8 @@ pg.world_effect_data = {
 			10120002,
 			10120003,
 			10120003,
-			10120003
+			10120003,
+			10120011
 		},
 		autoflag = {}
 	},
@@ -184300,7 +184300,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10130012,
-			10130011,
 			10130061,
 			10130061
 		},
@@ -184320,7 +184319,8 @@ pg.world_effect_data = {
 			10130002,
 			10130003,
 			10130003,
-			10130003
+			10130003,
+			10130011
 		},
 		autoflag = {}
 	},
@@ -185334,7 +185334,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10140012,
-			10140011,
 			10140061
 		},
 		autoflag = {}
@@ -185352,7 +185351,8 @@ pg.world_effect_data = {
 			10140002,
 			10140002,
 			10140003,
-			10140003
+			10140003,
+			10140011
 		},
 		autoflag = {}
 	},
@@ -186137,8 +186137,7 @@ pg.world_effect_data = {
 		id = 102100350,
 		autoactivate = 2,
 		effect_paramater = {
-			10210012,
-			10210011
+			10210012
 		},
 		autoflag = {}
 	},
@@ -186152,7 +186151,8 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10210002,
-			10210003
+			10210003,
+			10210011
 		},
 		autoflag = {}
 	},
@@ -186941,8 +186941,7 @@ pg.world_effect_data = {
 		id = 102200350,
 		autoactivate = 2,
 		effect_paramater = {
-			10220012,
-			10220011
+			10220012
 		},
 		autoflag = {}
 	},
@@ -186956,7 +186955,8 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10220002,
-			10220003
+			10220003,
+			10220011
 		},
 		autoflag = {}
 	},
@@ -187741,8 +187741,7 @@ pg.world_effect_data = {
 		id = 102300350,
 		autoactivate = 2,
 		effect_paramater = {
-			10230012,
-			10230011
+			10230012
 		},
 		autoflag = {}
 	},
@@ -187756,7 +187755,8 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10230002,
-			10230003
+			10230003,
+			10230011
 		},
 		autoflag = {}
 	},
@@ -188583,8 +188583,7 @@ pg.world_effect_data = {
 		id = 102400350,
 		autoactivate = 2,
 		effect_paramater = {
-			10240012,
-			10240011
+			10240012
 		},
 		autoflag = {}
 	},
@@ -188598,7 +188597,8 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10240002,
-			10240003
+			10240003,
+			10240011
 		},
 		autoflag = {}
 	},
@@ -189461,7 +189461,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10250012,
-			10250011,
 			10250061
 		},
 		autoflag = {}
@@ -189477,7 +189476,8 @@ pg.world_effect_data = {
 		effect_paramater = {
 			10250002,
 			10250002,
-			10250003
+			10250003,
+			10250011
 		},
 		autoflag = {}
 	},
@@ -190262,8 +190262,7 @@ pg.world_effect_data = {
 		id = 103100350,
 		autoactivate = 2,
 		effect_paramater = {
-			10310012,
-			10310011
+			10310012
 		},
 		autoflag = {}
 	},
@@ -190277,7 +190276,8 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10310002,
-			10310003
+			10310003,
+			10310011
 		},
 		autoflag = {}
 	},
@@ -191134,7 +191134,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10320012,
-			10320011,
 			10320061
 		},
 		autoflag = {}
@@ -191150,7 +191149,8 @@ pg.world_effect_data = {
 		effect_paramater = {
 			10320002,
 			10320002,
-			10320003
+			10320003,
+			10320011
 		},
 		autoflag = {}
 	},
@@ -192045,7 +192045,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10330012,
-			10330011,
 			10330061
 		},
 		autoflag = {}
@@ -192061,7 +192060,8 @@ pg.world_effect_data = {
 		effect_paramater = {
 			10330002,
 			10330002,
-			10330003
+			10330003,
+			10330011
 		},
 		autoflag = {}
 	},
@@ -192956,7 +192956,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10340012,
-			10340011,
 			10340061
 		},
 		autoflag = {}
@@ -192972,7 +192971,8 @@ pg.world_effect_data = {
 		effect_paramater = {
 			10340002,
 			10340002,
-			10340003
+			10340003,
+			10340011
 		},
 		autoflag = {}
 	},
@@ -193812,7 +193812,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10410012,
-			10410011,
 			10410061
 		},
 		autoflag = {}
@@ -193828,7 +193827,8 @@ pg.world_effect_data = {
 		effect_paramater = {
 			10410002,
 			10410002,
-			10410003
+			10410003,
+			10410011
 		},
 		autoflag = {}
 	},
@@ -194781,7 +194781,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10420012,
-			10420011,
 			10420061
 		},
 		autoflag = {}
@@ -194799,7 +194798,8 @@ pg.world_effect_data = {
 			10420002,
 			10420002,
 			10420003,
-			10420003
+			10420003,
+			10420011
 		},
 		autoflag = {}
 	},
@@ -195567,8 +195567,7 @@ pg.world_effect_data = {
 		id = 104300350,
 		autoactivate = 2,
 		effect_paramater = {
-			10430012,
-			10430011
+			10430012
 		},
 		autoflag = {}
 	},
@@ -195582,7 +195581,8 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10430002,
-			10430003
+			10430003,
+			10430011
 		},
 		autoflag = {}
 	},
@@ -196371,8 +196371,7 @@ pg.world_effect_data = {
 		id = 104400350,
 		autoactivate = 2,
 		effect_paramater = {
-			10440012,
-			10440011
+			10440012
 		},
 		autoflag = {}
 	},
@@ -196386,7 +196385,8 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10440002,
-			10440003
+			10440003,
+			10440011
 		},
 		autoflag = {}
 	},
@@ -197354,7 +197354,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10510012,
-			10510011,
 			10510061
 		},
 		autoflag = {}
@@ -197372,7 +197371,8 @@ pg.world_effect_data = {
 			10510002,
 			10510002,
 			10510003,
-			10510003
+			10510003,
+			10510011
 		},
 		autoflag = {}
 	},
@@ -198340,7 +198340,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10520012,
-			10520011,
 			10520061
 		},
 		autoflag = {}
@@ -198358,7 +198357,8 @@ pg.world_effect_data = {
 			10520002,
 			10520002,
 			10520003,
-			10520003
+			10520003,
+			10520011
 		},
 		autoflag = {}
 	},
@@ -199364,7 +199364,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10530012,
-			10530011,
 			10530061
 		},
 		autoflag = {}
@@ -199382,7 +199381,8 @@ pg.world_effect_data = {
 			10530002,
 			10530002,
 			10530003,
-			10530003
+			10530003,
+			10530011
 		},
 		autoflag = {}
 	},
@@ -200354,7 +200354,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10540012,
-			10540011,
 			10540061
 		},
 		autoflag = {}
@@ -200372,7 +200371,8 @@ pg.world_effect_data = {
 			10540002,
 			10540002,
 			10540003,
-			10540003
+			10540003,
+			10540011
 		},
 		autoflag = {}
 	},
@@ -201348,7 +201348,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10610012,
-			10610011,
 			10610061
 		},
 		autoflag = {}
@@ -201366,7 +201365,8 @@ pg.world_effect_data = {
 			10610002,
 			10610002,
 			10610003,
-			10610003
+			10610003,
+			10610011
 		},
 		autoflag = {}
 	},
@@ -202206,7 +202206,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10620012,
-			10620011,
 			10620061
 		},
 		autoflag = {}
@@ -202222,7 +202221,8 @@ pg.world_effect_data = {
 		effect_paramater = {
 			10620002,
 			10620002,
-			10620003
+			10620003,
+			10620011
 		},
 		autoflag = {}
 	},
@@ -203181,7 +203181,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10630012,
-			10630011,
 			10630061
 		},
 		autoflag = {}
@@ -203199,7 +203198,8 @@ pg.world_effect_data = {
 			10630002,
 			10630002,
 			10630003,
-			10630003
+			10630003,
+			10630011
 		},
 		autoflag = {}
 	},
@@ -204171,7 +204171,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10640012,
-			10640011,
 			10640061
 		},
 		autoflag = {}
@@ -204189,7 +204188,8 @@ pg.world_effect_data = {
 			10640002,
 			10640002,
 			10640003,
-			10640003
+			10640003,
+			10640011
 		},
 		autoflag = {}
 	},
@@ -205052,7 +205052,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10650012,
-			10650011,
 			10650061
 		},
 		autoflag = {}
@@ -205068,7 +205067,8 @@ pg.world_effect_data = {
 		effect_paramater = {
 			10650002,
 			10650002,
-			10650003
+			10650003,
+			10650011
 		},
 		autoflag = {}
 	},
@@ -205914,7 +205914,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10660012,
-			10660011,
 			10660061
 		},
 		autoflag = {}
@@ -205930,7 +205929,8 @@ pg.world_effect_data = {
 		effect_paramater = {
 			10660002,
 			10660002,
-			10660003
+			10660003,
+			10660011
 		},
 		autoflag = {}
 	},
@@ -207006,7 +207006,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10710012,
-			10710011,
 			10710061,
 			10710061
 		},
@@ -207026,7 +207025,8 @@ pg.world_effect_data = {
 			10710002,
 			10710003,
 			10710003,
-			10710003
+			10710003,
+			10710011
 		},
 		autoflag = {}
 	},
@@ -208068,7 +208068,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10720012,
-			10720011,
 			10720061,
 			10720061
 		},
@@ -208088,7 +208087,8 @@ pg.world_effect_data = {
 			10720002,
 			10720003,
 			10720003,
-			10720003
+			10720003,
+			10720011
 		},
 		autoflag = {}
 	},
@@ -209154,7 +209154,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10730012,
-			10730011,
 			10730061,
 			10730061
 		},
@@ -209174,7 +209173,8 @@ pg.world_effect_data = {
 			10730002,
 			10730003,
 			10730003,
-			10730003
+			10730003,
+			10730011
 		},
 		autoflag = {}
 	},
@@ -209963,8 +209963,7 @@ pg.world_effect_data = {
 		id = 108100350,
 		autoactivate = 2,
 		effect_paramater = {
-			10810012,
-			10810011
+			10810012
 		},
 		autoflag = {}
 	},
@@ -209978,7 +209977,8 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10810002,
-			10810003
+			10810003,
+			10810011
 		},
 		autoflag = {}
 	},
@@ -210946,7 +210946,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10820012,
-			10820011,
 			10820061
 		},
 		autoflag = {}
@@ -210964,7 +210963,8 @@ pg.world_effect_data = {
 			10820002,
 			10820002,
 			10820003,
-			10820003
+			10820003,
+			10820011
 		},
 		autoflag = {}
 	},
@@ -211749,8 +211749,7 @@ pg.world_effect_data = {
 		id = 108300350,
 		autoactivate = 2,
 		effect_paramater = {
-			10830012,
-			10830011
+			10830012
 		},
 		autoflag = {}
 	},
@@ -211764,7 +211763,8 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10830002,
-			10830003
+			10830003,
+			10830011
 		},
 		autoflag = {}
 	},
@@ -212549,8 +212549,7 @@ pg.world_effect_data = {
 		id = 108400350,
 		autoactivate = 2,
 		effect_paramater = {
-			10840012,
-			10840011
+			10840012
 		},
 		autoflag = {}
 	},
@@ -212564,7 +212563,8 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10840002,
-			10840003
+			10840003,
+			10840011
 		},
 		autoflag = {}
 	},
@@ -213540,7 +213540,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10850012,
-			10850011,
 			10850061
 		},
 		autoflag = {}
@@ -213558,7 +213557,8 @@ pg.world_effect_data = {
 			10850002,
 			10850002,
 			10850003,
-			10850003
+			10850003,
+			10850011
 		},
 		autoflag = {}
 	},
@@ -214538,7 +214538,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10910012,
-			10910011,
 			10910061
 		},
 		autoflag = {}
@@ -214556,7 +214555,8 @@ pg.world_effect_data = {
 			10910002,
 			10910002,
 			10910003,
-			10910003
+			10910003,
+			10910011
 		},
 		autoflag = {}
 	},
@@ -215337,8 +215337,7 @@ pg.world_effect_data = {
 		id = 109200350,
 		autoactivate = 2,
 		effect_paramater = {
-			10920012,
-			10920011
+			10920012
 		},
 		autoflag = {}
 	},
@@ -215352,7 +215351,8 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10920002,
-			10920003
+			10920003,
+			10920011
 		},
 		autoflag = {}
 	},
@@ -216133,8 +216133,7 @@ pg.world_effect_data = {
 		id = 109300350,
 		autoactivate = 2,
 		effect_paramater = {
-			10930012,
-			10930011
+			10930012
 		},
 		autoflag = {}
 	},
@@ -216148,7 +216147,8 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10930002,
-			10930003
+			10930003,
+			10930011
 		},
 		autoflag = {}
 	},
@@ -217043,7 +217043,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10940012,
-			10940011,
 			10940061
 		},
 		autoflag = {}
@@ -217059,7 +217058,8 @@ pg.world_effect_data = {
 		effect_paramater = {
 			10940002,
 			10940002,
-			10940003
+			10940003,
+			10940011
 		},
 		autoflag = {}
 	},
@@ -217920,7 +217920,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			10950012,
-			10950011,
 			10950061
 		},
 		autoflag = {}
@@ -217936,7 +217935,8 @@ pg.world_effect_data = {
 		effect_paramater = {
 			10950002,
 			10950002,
-			10950003
+			10950003,
+			10950011
 		},
 		autoflag = {}
 	},
@@ -219014,7 +219014,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11010012,
-			11010011,
 			11010061,
 			11010061
 		},
@@ -219034,7 +219033,8 @@ pg.world_effect_data = {
 			11010002,
 			11010003,
 			11010003,
-			11010003
+			11010003,
+			11010011
 		},
 		autoflag = {}
 	},
@@ -220088,7 +220088,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11020012,
-			11020011,
 			11020061,
 			11020061
 		},
@@ -220108,7 +220107,8 @@ pg.world_effect_data = {
 			11020002,
 			11020003,
 			11020003,
-			11020003
+			11020003,
+			11020011
 		},
 		autoflag = {}
 	},
@@ -221124,7 +221124,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11030012,
-			11030011,
 			11030061
 		},
 		autoflag = {}
@@ -221142,7 +221141,8 @@ pg.world_effect_data = {
 			11030002,
 			11030002,
 			11030003,
-			11030003
+			11030003,
+			11030011
 		},
 		autoflag = {}
 	},
@@ -222164,7 +222164,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11040012,
-			11040011,
 			11040061
 		},
 		autoflag = {}
@@ -222182,7 +222181,8 @@ pg.world_effect_data = {
 			11040002,
 			11040002,
 			11040003,
-			11040003
+			11040003,
+			11040011
 		},
 		autoflag = {}
 	},
@@ -223043,7 +223043,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11050012,
-			11050011,
 			11050061
 		},
 		autoflag = {}
@@ -223059,7 +223058,8 @@ pg.world_effect_data = {
 		effect_paramater = {
 			11050002,
 			11050002,
-			11050003
+			11050003,
+			11050011
 		},
 		autoflag = {}
 	},
@@ -224113,7 +224113,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11060012,
-			11060011,
 			11060061,
 			11060061
 		},
@@ -224133,7 +224132,8 @@ pg.world_effect_data = {
 			11060002,
 			11060003,
 			11060003,
-			11060003
+			11060003,
+			11060011
 		},
 		autoflag = {}
 	},
@@ -224978,7 +224978,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11110012,
-			11110011,
 			11110061
 		},
 		autoflag = {}
@@ -224994,7 +224993,8 @@ pg.world_effect_data = {
 		effect_paramater = {
 			11110002,
 			11110002,
-			11110003
+			11110003,
+			11110011
 		},
 		autoflag = {}
 	},
@@ -225754,8 +225754,7 @@ pg.world_effect_data = {
 		id = 111200350,
 		autoactivate = 2,
 		effect_paramater = {
-			11120012,
-			11120011
+			11120012
 		},
 		autoflag = {}
 	},
@@ -225769,7 +225768,8 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11120002,
-			11120003
+			11120003,
+			11120011
 		},
 		autoflag = {}
 	},
@@ -226620,7 +226620,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11130012,
-			11130011,
 			11130061
 		},
 		autoflag = {}
@@ -226636,7 +226635,8 @@ pg.world_effect_data = {
 		effect_paramater = {
 			11130002,
 			11130002,
-			11130003
+			11130003,
+			11130011
 		},
 		autoflag = {}
 	},
@@ -227470,7 +227470,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11140012,
-			11140011,
 			11140061
 		},
 		autoflag = {}
@@ -227486,7 +227485,8 @@ pg.world_effect_data = {
 		effect_paramater = {
 			11140002,
 			11140002,
-			11140003
+			11140003,
+			11140011
 		},
 		autoflag = {}
 	},
@@ -228519,7 +228519,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11210012,
-			11210011,
 			11210061,
 			11210061
 		},
@@ -228539,7 +228538,8 @@ pg.world_effect_data = {
 			11210002,
 			11210003,
 			11210003,
-			11210003
+			11210003,
+			11210011
 		},
 		autoflag = {}
 	},
@@ -229295,8 +229295,7 @@ pg.world_effect_data = {
 		id = 112200350,
 		autoactivate = 2,
 		effect_paramater = {
-			11220012,
-			11220011
+			11220012
 		},
 		autoflag = {}
 	},
@@ -229310,7 +229309,8 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11220002,
-			11220003
+			11220003,
+			11220011
 		},
 		autoflag = {}
 	},
@@ -230144,7 +230144,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11230012,
-			11230011,
 			11230061
 		},
 		autoflag = {}
@@ -230160,7 +230159,8 @@ pg.world_effect_data = {
 		effect_paramater = {
 			11230002,
 			11230002,
-			11230003
+			11230003,
+			11230011
 		},
 		autoflag = {}
 	},
@@ -231171,7 +231171,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11240012,
-			11240011,
 			11240061,
 			11240061
 		},
@@ -231191,7 +231190,8 @@ pg.world_effect_data = {
 			11240002,
 			11240003,
 			11240003,
-			11240003
+			11240003,
+			11240011
 		},
 		autoflag = {}
 	},
@@ -232025,7 +232025,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11250012,
-			11250011,
 			11250061
 		},
 		autoflag = {}
@@ -232041,7 +232040,8 @@ pg.world_effect_data = {
 		effect_paramater = {
 			11250002,
 			11250002,
-			11250003
+			11250003,
+			11250011
 		},
 		autoflag = {}
 	},
@@ -232805,8 +232805,7 @@ pg.world_effect_data = {
 		id = 113100350,
 		autoactivate = 2,
 		effect_paramater = {
-			11310012,
-			11310011
+			11310012
 		},
 		autoflag = {}
 	},
@@ -232820,7 +232819,8 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11310002,
-			11310003
+			11310003,
+			11310011
 		},
 		autoflag = {}
 	},
@@ -233588,8 +233588,7 @@ pg.world_effect_data = {
 		id = 113200350,
 		autoactivate = 2,
 		effect_paramater = {
-			11320012,
-			11320011
+			11320012
 		},
 		autoflag = {}
 	},
@@ -233603,7 +233602,8 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11320002,
-			11320003
+			11320003,
+			11320011
 		},
 		autoflag = {}
 	},
@@ -234464,7 +234464,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11330012,
-			11330011,
 			11330061
 		},
 		autoflag = {}
@@ -234480,7 +234479,8 @@ pg.world_effect_data = {
 		effect_paramater = {
 			11330002,
 			11330002,
-			11330003
+			11330003,
+			11330011
 		},
 		autoflag = {}
 	},
@@ -235244,8 +235244,7 @@ pg.world_effect_data = {
 		id = 113400350,
 		autoactivate = 2,
 		effect_paramater = {
-			11340012,
-			11340011
+			11340012
 		},
 		autoflag = {}
 	},
@@ -235259,7 +235258,8 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11340002,
-			11340003
+			11340003,
+			11340011
 		},
 		autoflag = {}
 	},
@@ -236104,7 +236104,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11350012,
-			11350011,
 			11350061
 		},
 		autoflag = {}
@@ -236120,7 +236119,8 @@ pg.world_effect_data = {
 		effect_paramater = {
 			11350002,
 			11350002,
-			11350003
+			11350003,
+			11350011
 		},
 		autoflag = {}
 	},
@@ -237015,7 +237015,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11410012,
-			11410011,
 			11410061
 		},
 		autoflag = {}
@@ -237031,7 +237030,8 @@ pg.world_effect_data = {
 		effect_paramater = {
 			11410002,
 			11410002,
-			11410003
+			11410003,
+			11410011
 		},
 		autoflag = {}
 	},
@@ -238015,7 +238015,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11420012,
-			11420011,
 			11420061
 		},
 		autoflag = {}
@@ -238033,7 +238032,8 @@ pg.world_effect_data = {
 			11420002,
 			11420002,
 			11420003,
-			11420003
+			11420003,
+			11420011
 		},
 		autoflag = {}
 	},
@@ -238894,7 +238894,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11430012,
-			11430011,
 			11430061
 		},
 		autoflag = {}
@@ -238910,7 +238909,8 @@ pg.world_effect_data = {
 		effect_paramater = {
 			11430002,
 			11430002,
-			11430003
+			11430003,
+			11430011
 		},
 		autoflag = {}
 	},
@@ -239933,7 +239933,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11440012,
-			11440011,
 			11440061,
 			11440061
 		},
@@ -239953,7 +239952,8 @@ pg.world_effect_data = {
 			11440002,
 			11440003,
 			11440003,
-			11440003
+			11440003,
+			11440011
 		},
 		autoflag = {}
 	},
@@ -240981,7 +240981,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11510012,
-			11510011,
 			11510061,
 			11510061
 		},
@@ -241001,7 +241000,8 @@ pg.world_effect_data = {
 			11510002,
 			11510003,
 			11510003,
-			11510003
+			11510003,
+			11510011
 		},
 		autoflag = {}
 	},
@@ -242029,7 +242029,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11520012,
-			11520011,
 			11520061,
 			11520061
 		},
@@ -242049,7 +242048,8 @@ pg.world_effect_data = {
 			11520002,
 			11520003,
 			11520003,
-			11520003
+			11520003,
+			11520011
 		},
 		autoflag = {}
 	},
@@ -243077,7 +243077,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11530012,
-			11530011,
 			11530061,
 			11530061
 		},
@@ -243097,7 +243096,8 @@ pg.world_effect_data = {
 			11530002,
 			11530003,
 			11530003,
-			11530003
+			11530003,
+			11530011
 		},
 		autoflag = {}
 	},
@@ -244182,7 +244182,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11540012,
-			11540011,
 			11540061,
 			11540061
 		},
@@ -244204,7 +244203,8 @@ pg.world_effect_data = {
 			11540003,
 			11540003,
 			11540003,
-			11540003
+			11540003,
+			11540011
 		},
 		autoflag = {}
 	},
@@ -245232,7 +245232,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11550012,
-			11550011,
 			11550061,
 			11550061
 		},
@@ -245252,7 +245251,8 @@ pg.world_effect_data = {
 			11550002,
 			11550003,
 			11550003,
-			11550003
+			11550003,
+			11550011
 		},
 		autoflag = {}
 	},
@@ -246280,7 +246280,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11560012,
-			11560011,
 			11560061,
 			11560061
 		},
@@ -246300,7 +246299,8 @@ pg.world_effect_data = {
 			11560002,
 			11560003,
 			11560003,
-			11560003
+			11560003,
+			11560011
 		},
 		autoflag = {}
 	},
@@ -247328,7 +247328,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11570012,
-			11570011,
 			11570061,
 			11570061
 		},
@@ -247348,7 +247347,8 @@ pg.world_effect_data = {
 			11570002,
 			11570003,
 			11570003,
-			11570003
+			11570003,
+			11570011
 		},
 		autoflag = {}
 	},
@@ -248376,7 +248376,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11580012,
-			11580011,
 			11580061,
 			11580061
 		},
@@ -248396,7 +248395,8 @@ pg.world_effect_data = {
 			11580002,
 			11580003,
 			11580003,
-			11580003
+			11580003,
+			11580011
 		},
 		autoflag = {}
 	},
@@ -249424,7 +249424,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		effect_paramater = {
 			11590012,
-			11590011,
 			11590061,
 			11590061
 		},
@@ -249444,7 +249443,8 @@ pg.world_effect_data = {
 			11590002,
 			11590003,
 			11590003,
-			11590003
+			11590003,
+			11590011
 		},
 		autoflag = {}
 	},

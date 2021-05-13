@@ -4,16 +4,6 @@ slot0.word_template_129 = {}
 slot1 = slot0.word_template_129
 
 function temp()
-	uv0["躓"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["鐘"] = {
 		["山"] = {
 			["風"] = {
@@ -499,6 +489,16 @@ function temp()
 					this = true
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["諏"] = {
+		this = {
+			this = true
 		}
 	}
 end

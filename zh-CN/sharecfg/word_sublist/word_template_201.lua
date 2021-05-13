@@ -4,23 +4,6 @@ slot0.word_template_201 = {}
 slot1 = slot0.word_template_201
 
 function temp()
-	uv0["辶"] = {
-		["斤"] = {
-			["平"] = {
-				this = true
-			}
-		},
-		["觔"] = {
-			["平"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["钳"] = {
 		["子"] = {
 			["母"] = {
@@ -612,6 +595,22 @@ function temp()
 	uv0["粿"] = {
 		["聊"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["宵"] = {
+		["夜"] = {
+			["字"] = {
+				["幕"] = {
+					["组"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end

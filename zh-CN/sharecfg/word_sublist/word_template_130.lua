@@ -4,16 +4,6 @@ slot0.word_template_130 = {}
 slot1 = slot0.word_template_130
 
 function temp()
-	uv0["諏"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["鯫"] = {
 		this = {
 			this = true
@@ -11022,6 +11012,45 @@ function temp()
 			["药"] = {
 				this = true
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["吗"] = {
+		["的"] = {
+			this = true,
+			["靠"] = {
+				this = true
+			}
+		},
+		["啡"] = {
+			this = true,
+			["碱"] = {
+				this = true,
+				c = {
+					v = {
+						this = true
+					}
+				}
+			},
+			["片"] = {
+				this = true
+			}
+		},
+		b = {
+			this = true
+		},
+		["逼"] = {
+			this = true
+		},
+		["比"] = {
+			this = true
+		},
+		["个"] = {
+			this = true
 		}
 	}
 end

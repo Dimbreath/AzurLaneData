@@ -4,26 +4,6 @@ slot0.word_template_200 = {}
 slot1 = slot0.word_template_200
 
 function temp()
-	uv0["硒"] = {
-		["近"] = {
-			["平"] = {
-				this = true
-			}
-		},
-		["藏"] = {
-			this = true
-		},
-		["酸"] = {
-			["钠"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["喺"] = {
 		["近"] = {
 			["平"] = {
@@ -142,6 +122,23 @@ temp()
 function temp()
 	uv0["皙"] = {
 		["近"] = {
+			["平"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["辶"] = {
+		["斤"] = {
+			["平"] = {
+				this = true
+			}
+		},
+		["觔"] = {
 			["平"] = {
 				this = true
 			}

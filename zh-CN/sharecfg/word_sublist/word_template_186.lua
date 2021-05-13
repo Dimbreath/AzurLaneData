@@ -4,38 +4,6 @@ slot0.word_template_186 = {}
 slot1 = slot0.word_template_186
 
 function temp()
-	uv0["咨"] = {
-		["询"] = {
-			this = true,
-			["财"] = {
-				["税"] = {
-					["陈"] = {
-						["先"] = {
-							["生"] = {
-								this = true
-							}
-						}
-					}
-				}
-			},
-			["西"] = {
-				["班"] = {
-					["牙"] = {
-						["气"] = {
-							["枪"] = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["铝"] = {
 		["管"] = {
 			["吹"] = {
@@ -567,6 +535,18 @@ function temp()
 	uv0["砗"] = {
 		["磲"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["鹦"] = {
+		["鹉"] = {
+			["螺"] = {
+				this = true
+			}
 		}
 	}
 end

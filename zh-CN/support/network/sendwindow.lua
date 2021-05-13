@@ -246,13 +246,13 @@ function slot1.onData(slot0)
 	print("Network Receive idx: " .. slot0.idx .. " cmd: " .. slot0.cmd)
 
 	if uv1[slot0.cmd .. "_" .. slot0.idx] then
-		uv1[slot2](uv0.Packer.GetInstance():Unpack(slot0.cmd, slot0:getLuaStringBuffer()))
-
 		uv1[slot2] = nil
-	elseif uv1[slot0.cmd] then
-		uv1[slot0.cmd](slot1)
 
+		uv1[slot2](uv0.Packer.GetInstance():Unpack(slot0.cmd, slot0:getLuaStringBuffer()))
+	elseif uv1[slot0.cmd] then
 		uv1[slot0.cmd] = nil
+
+		uv1[slot0.cmd](slot1)
 	end
 end
 

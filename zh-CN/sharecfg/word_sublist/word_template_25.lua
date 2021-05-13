@@ -479,9 +479,6 @@ function temp()
 				}
 			}
 		},
-		["愣"] = {
-			this = true
-		},
 		["仑"] = {
 			this = true,
 			d = {

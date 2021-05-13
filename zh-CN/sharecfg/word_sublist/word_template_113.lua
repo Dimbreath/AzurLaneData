@@ -4,16 +4,6 @@ slot0.word_template_113 = {}
 slot1 = slot0.word_template_113
 
 function temp()
-	uv0["厙"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["社"] = {
 		["會"] = {
 			["主"] = {
@@ -373,6 +363,16 @@ temp()
 
 function temp()
 	uv0["釃"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["鯴"] = {
 		this = {
 			this = true
 		}

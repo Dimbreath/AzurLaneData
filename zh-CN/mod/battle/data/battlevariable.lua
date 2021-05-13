@@ -35,12 +35,16 @@ function slot1.Init()
 		uv0._rightTopVector = Vector3(slot0, slot1 - slot4, 0)
 	end
 
-	uv0._camera = GameObject.Find("MainCamera"):GetComponent(typeof(Camera))
+	slot4 = pg.UIMgr.GetInstance():GetMainCamera()
+
+	setActive(slot4, true)
+
+	uv0._camera = slot4:GetComponent(typeof(Camera))
 	uv0._cameraTF = uv0._camera.transform
 	uv0._uiCamera = GameObject.Find("UICamera"):GetComponent(typeof(Camera))
-	slot4 = math.deg2Rad * uv0._cameraTF.localEulerAngles.x
-	uv0._camera_radian_x_sin = math.sin(slot4)
-	uv0._camera_radian_x_cos = math.cos(slot4)
+	slot5 = math.deg2Rad * uv0._cameraTF.localEulerAngles.x
+	uv0._camera_radian_x_sin = math.sin(slot5)
+	uv0._camera_radian_x_cos = math.cos(slot5)
 	uv0._camera_radian_x_tan = uv0._camera_radian_x_sin / uv0._camera_radian_x_cos
 	uv0.CameraNormalHeight = uv0._camera_radian_x_cos * uv1.CAMERA_SIZE + uv1.CAMERA_BASE_HEIGH
 	uv0.CameraFocusHeight = uv0._camera_radian_x_cos * uv1.CAST_CAM_ZOOM_SIZE + uv1.CAMERA_BASE_HEIGH

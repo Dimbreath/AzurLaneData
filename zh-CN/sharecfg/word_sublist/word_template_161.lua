@@ -4,24 +4,6 @@ slot0.word_template_161 = {}
 slot1 = slot0.word_template_161
 
 function temp()
-	uv0["压"] = {
-		["制"] = {
-			this = true
-		},
-		["弹"] = {
-			["机"] = {
-				this = true
-			}
-		},
-		["死"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["负"] = {
 		["面"] = {
 			["贴"] = {
@@ -1378,6 +1360,50 @@ function temp()
 							}
 						}
 					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["落"] = {
+		["日"] = {
+			["弓"] = {
+				["弩"] = {
+					["官"] = {
+						["网"] = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		["榜"] = {
+			["考"] = {
+				["生"] = {
+					["名"] = {
+						["单"] = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		["聊"] = {
+			this = true
+		},
+		["花"] = {
+			["若"] = {
+				["雨"] = {
+					this = true
+				}
+			},
+			["星"] = {
+				["雨"] = {
+					this = true
 				}
 			}
 		}

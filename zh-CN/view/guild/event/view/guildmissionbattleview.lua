@@ -55,7 +55,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.seaCamera = slot0.seaCameraGO:GetComponent(typeof(Camera))
 	slot0.seaCamera.targetTexture = slot0.rawImage.texture
 	slot0.seaCamera.enabled = true
-	slot0.mainCameraGO = GameObject.Find("MainCamera")
+	slot0.mainCameraGO = pg.UIMgr.GetInstance():GetMainCamera()
 end
 
 function slot0.configUI(slot0, slot1, slot2)

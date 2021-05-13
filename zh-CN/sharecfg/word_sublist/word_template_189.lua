@@ -4,43 +4,6 @@ slot0.word_template_189 = {}
 slot1 = slot0.word_template_189
 
 function temp()
-	uv0["绳"] = {
-		["艺"] = {
-			["馆"] = {
-				this = true
-			},
-			["情"] = {
-				["影"] = {
-					["院"] = {
-						this = true
-					}
-				}
-			},
-			["在"] = {
-				["线"] = {
-					this = true
-				}
-			}
-		},
-		["操"] = {
-			this = true
-		},
-		["捆"] = {
-			["美"] = {
-				["女"] = {
-					this = true
-				}
-			}
-		},
-		["虐"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["补"] = {
 		["鸟"] = {
 			["枪"] = {
@@ -389,6 +352,19 @@ function temp()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["媛"] = {
+		["交"] = {
+			this = true
+		},
+		["宵"] = {
+			this = true
 		}
 	}
 end

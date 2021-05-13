@@ -4,16 +4,6 @@ slot0.word_template_160 = {}
 slot1 = slot0.word_template_160
 
 function temp()
-	uv0["孩"] = {
-		["子"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["宝"] = {
 		["宝"] = {
 			this = true,
@@ -1663,6 +1653,24 @@ function temp()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["压"] = {
+		["制"] = {
+			this = true
+		},
+		["弹"] = {
+			["机"] = {
+				this = true
+			}
+		},
+		["死"] = {
+			this = true
 		}
 	}
 end

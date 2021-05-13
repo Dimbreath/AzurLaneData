@@ -4,16 +4,6 @@ slot0.word_template_119 = {}
 slot1 = slot0.word_template_119
 
 function temp()
-	uv0["鮪"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["溫"] = {
 		B = {
 			this = true
@@ -366,6 +356,16 @@ temp()
 function temp()
 	uv0["鮮"] = {
 		["族"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["獫"] = {
+		this = {
 			this = true
 		}
 	}

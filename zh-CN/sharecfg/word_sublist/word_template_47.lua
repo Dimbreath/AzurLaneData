@@ -2932,7 +2932,6 @@ function temp()
 			}
 		},
 		["4"] = {
-			this = true,
 			h = {
 				e = {
 					r = {

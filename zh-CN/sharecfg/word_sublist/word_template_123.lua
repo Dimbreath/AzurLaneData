@@ -4,29 +4,6 @@ slot0.word_template_123 = {}
 slot1 = slot0.word_template_123
 
 function temp()
-	uv0["藥"] = {
-		["材"] = {
-			["商"] = {
-				["人"] = {
-					["蘇"] = {
-						["耐"] = {
-							["得"] = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		},
-		["水"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["葉"] = {
 		["菊"] = {
 			["蘭"] = {
@@ -1288,6 +1265,53 @@ function temp()
 	uv0["瘞"] = {
 		this = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["尹"] = {
+		["慶"] = {
+			["民"] = {
+				this = true
+			}
+		},
+		["方"] = {
+			["明"] = {
+				this = true
+			}
+		},
+		["庆"] = {
+			["民"] = {
+				this = true
+			}
+		},
+		["德"] = {
+			["明"] = {
+				this = true
+			}
+		},
+		["晋"] = {
+			["华"] = {
+				this = true
+			}
+		},
+		["蔚"] = {
+			["民"] = {
+				this = true
+			}
+		},
+		["夏"] = {
+			["沫"] = {
+				this = true
+			}
+		},
+		["兴"] = {
+			["轩"] = {
+				this = true
+			}
 		}
 	}
 end

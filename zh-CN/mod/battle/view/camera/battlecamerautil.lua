@@ -13,13 +13,13 @@ slot4.FOLLOW_GESTURE = "FOLLOW_GESTURE"
 function slot4.Ctor(slot0)
 	uv0.EventDispatcher.AttachEventDispatcher(slot0)
 
-	slot0._camera = GameObject.Find("MainCamera"):GetComponent(typeof(Camera))
+	slot0._camera = pg.UIMgr.GetInstance():GetMainCamera():GetComponent(typeof(Camera))
 	slot0._cameraTF = slot0._camera.transform
 	slot0._uiCamera = GameObject.Find("UICamera"):GetComponent(typeof(Camera))
 end
 
-function slot4.ActiveMainCemera(slot0, slot1)
-	setActive(slot0._camera, slot1)
+function slot4.ActiveMainCemera(slot0)
+	setActive(pg.UIMgr.GetInstance():GetMainCamera(), slot0)
 end
 
 function slot4.Initialize(slot0)
@@ -42,6 +42,7 @@ function slot4.Initialize(slot0)
 end
 
 function slot4.Clear(slot0)
+	slot0.ActiveMainCemera(false)
 	LeanTween.cancel(go(slot0._camera))
 	slot0:Deactive()
 	slot0:StopShake()

@@ -3396,8 +3396,17 @@ function temp()
 					this = true
 				}
 			},
+			["天"] = {
+				["使"] = {
+					this = true
+				}
+			},
+			["上"] = {
+				["门"] = {
+					this = true
+				}
+			},
 			["器"] = {
-				this = true,
 				["托"] = {
 					["管"] = {
 						this = true
@@ -3419,16 +3428,6 @@ function temp()
 					["护"] = {
 						this = true
 					}
-				}
-			},
-			["天"] = {
-				["使"] = {
-					this = true
-				}
-			},
-			["上"] = {
-				["门"] = {
-					this = true
 				}
 			},
 			["人"] = {

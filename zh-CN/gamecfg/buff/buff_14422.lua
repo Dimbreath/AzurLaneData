@@ -7,7 +7,7 @@ return {
 	stack = 1,
 	id = 14422,
 	icon = 14422,
-	last_effect = "Darkness",
+	last_effect = "",
 	effect_list = {
 		{
 			type = "BattleBuffCleanse",

@@ -6232,9 +6232,6 @@ function temp()
 				}
 			}
 		},
-		this = {
-			this = true
-		},
 		["空"] = {
 			["度"] = {
 				["测"] = {

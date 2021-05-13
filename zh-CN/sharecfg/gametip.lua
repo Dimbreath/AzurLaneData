@@ -7628,13 +7628,13 @@ $3]]
 		tip = "维托里奥·维内托、天鹰 等角色建造概率UP！"
 	},
 	buildship_heavy_tip = {
-		tip = "{namecode:161}、{namecode:81}、{namecode:92} 等角色建造追加！"
+		tip = "俾斯麦、英王乔治五世 建造追加！"
 	},
 	buildship_light_tip = {
 		tip = "黛朵、格罗斯特、比洛克西、马拉尼等角色建造追加！"
 	},
 	buildship_special_tip = {
-		tip = "{namecode:163} 建造追加！"
+		tip = "U-96、U-556、U-73 建造追加！"
 	},
 	open_skill_pos = {
 		tip = "开启栏位需要消耗<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffde38>$1</color>\n是否确认开启？"

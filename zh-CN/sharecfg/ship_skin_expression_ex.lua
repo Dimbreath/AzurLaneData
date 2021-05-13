@@ -3783,5 +3783,62 @@ pg.ship_skin_expression_ex = {
 				"3"
 			}
 		}
+	},
+	tuolichaili = {
+		touch = "",
+		feeling3 = "",
+		expedition = "",
+		home = "",
+		mail = "",
+		painting = "tuolichaili",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		upgrade = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = "",
+		detail = "",
+		win_mvp = {
+			{
+				1100,
+				"7"
+			}
+		},
+		main_1 = {
+			{
+				1100,
+				"7"
+			}
+		},
+		main_3 = {
+			{
+				1100,
+				"7"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"nil|1"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"1"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"7"
+			}
+		}
 	}
 }

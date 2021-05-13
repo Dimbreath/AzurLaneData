@@ -2085,6 +2085,21 @@ function slot0.cancelAnimating(slot0)
 	end
 end
 
+function slot0.quickExitFunc(slot0)
+	seriesAsync({
+		function (slot0)
+			if uv0.contextData.onQuickHome then
+				uv0.contextData.onQuickHome(slot0)
+			else
+				slot0()
+			end
+		end,
+		function (slot0)
+			uv0:emit(uv1.ON_HOME)
+		end
+	})
+end
+
 function slot0.displayDestroyPanel(slot0)
 	if not slot0.destroyPage then
 		slot0.destroyPage = ShipDestoryPage.New(slot0._tf, slot0.event)

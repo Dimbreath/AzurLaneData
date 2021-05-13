@@ -1620,9 +1620,6 @@ function temp()
 				}
 			}
 		},
-		this = {
-			this = true
-		},
 		["嗳"] = {
 			this = true
 		},

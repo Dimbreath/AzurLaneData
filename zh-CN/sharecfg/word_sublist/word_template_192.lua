@@ -4,21 +4,6 @@ slot0.word_template_192 = {}
 slot1 = slot0.word_template_192
 
 function temp()
-	uv0["摞"] = {
-		["聊"] = {
-			this = true,
-			["网"] = {
-				["站"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["掻"] = {
 		["本"] = {
 			this = true
@@ -652,6 +637,16 @@ function temp()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["嫊"] = {
+		["人"] = {
+			this = true
 		}
 	}
 end

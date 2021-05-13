@@ -4,50 +4,6 @@ slot0.word_template_162 = {}
 slot1 = slot0.word_template_162
 
 function temp()
-	uv0["落"] = {
-		["日"] = {
-			["弓"] = {
-				["弩"] = {
-					["官"] = {
-						["网"] = {
-							this = true
-						}
-					}
-				}
-			}
-		},
-		["榜"] = {
-			["考"] = {
-				["生"] = {
-					["名"] = {
-						["单"] = {
-							this = true
-						}
-					}
-				}
-			}
-		},
-		["聊"] = {
-			this = true
-		},
-		["花"] = {
-			["若"] = {
-				["雨"] = {
-					this = true
-				}
-			},
-			["星"] = {
-				["雨"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["逐"] = {
 		["鹿"] = {
 			["弓"] = {
@@ -476,6 +432,21 @@ function temp()
 			["威"] = {
 				this = true
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["氮"] = {
+		["芥"] = {
+			["气"] = {
+				this = true
+			}
+		},
+		["卓"] = {
+			this = true
 		}
 	}
 end

@@ -4,44 +4,6 @@ slot0.word_template_142 = {}
 slot1 = slot0.word_template_142
 
 function temp()
-	uv0["滥"] = {
-		["交"] = {
-			this = true
-		},
-		B = {
-			this = true
-		},
-		["逼"] = {
-			this = true
-		},
-		["比"] = {
-			this = true
-		},
-		["货"] = {
-			this = true
-		},
-		["情"] = {
-			this = true,
-			["门"] = {
-				this = true
-			}
-		},
-		["杀"] = {
-			["无"] = {
-				["辜"] = {
-					this = true
-				}
-			}
-		},
-		["觞"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["约"] = {
 		["炮"] = {
 			this = true,
@@ -1144,6 +1106,126 @@ function temp()
 				["欲"] = {
 					this = true
 				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["到"] = {
+		["付"] = {
+			this = true
+		},
+		["#"] = {
+			["槍"] = {
+				g = {
+					o = {
+						u = {
+							["电"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		},
+		k = {
+			["粉"] = {
+				this = true
+			}
+		},
+		["冰"] = {
+			["毒"] = {
+				this = true
+			}
+		},
+		["好"] = {
+			["枪"] = {
+				this = true
+			}
+		},
+		["假"] = {
+			B = {
+				this = true
+			},
+			["币"] = {
+				this = true
+			}
+		},
+		["蒾"] = {
+			["情"] = {
+				this = true
+			}
+		},
+		["期"] = {
+			["邓"] = {
+				["小"] = {
+					["平"] = {
+						this = true
+					}
+				}
+			},
+			["杀"] = {
+				["二"] = {
+					["十"] = {
+						["万"] = {
+							["人"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		},
+		["汽"] = {
+			["枪"] = {
+				this = true
+			}
+		},
+		["枪"] = {
+			this = true
+		},
+		["槍"] = {
+			this = true,
+			["$"] = {
+				["电"] = {
+					this = true
+				}
+			},
+			g = {
+				o = {
+					u = {
+						["电"] = {
+							this = true
+						}
+					}
+				}
+			},
+			["电"] = {
+				this = true
+			},
+			["電"] = {
+				this = true
+			},
+			["儿"] = {
+				["电"] = {
+					this = true
+				}
+			}
+		},
+		["手"] = {
+			["枪"] = {
+				this = true
+			}
+		},
+		["葯"] = {
+			this = true
+		},
+		["真"] = {
+			["枪"] = {
+				this = true
 			}
 		}
 	}

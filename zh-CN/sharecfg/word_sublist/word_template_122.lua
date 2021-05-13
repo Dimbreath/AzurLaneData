@@ -4,16 +4,6 @@ slot0.word_template_122 = {}
 slot1 = slot0.word_template_122
 
 function temp()
-	uv0["訁"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["嚴"] = {
 		["家"] = {
 			["其"] = {
@@ -249,6 +239,29 @@ function temp()
 			["丸"] = {
 				this = true
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["藥"] = {
+		["材"] = {
+			["商"] = {
+				["人"] = {
+					["蘇"] = {
+						["耐"] = {
+							["得"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		},
+		["水"] = {
+			this = true
 		}
 	}
 end

@@ -13,6 +13,7 @@ slot1.PartialBlur = 3
 function slot1.Init(slot0, slot1)
 	print("initializing ui manager...")
 
+	slot0.mainCamera = GameObject.Find("MainCamera")
 	slot0.uiCamera = tf(GameObject.Find("UICamera"))
 	slot0.levelCamera = tf(GameObject.Find("LevelCamera"))
 	slot0.levelCameraComp = slot0.levelCamera:GetComponent("Camera")
@@ -346,7 +347,7 @@ function slot1.UnblurCamera(slot0, slot1)
 end
 
 function slot1.SetMainCamBlurTexture(slot0, slot1)
-	slot2 = GameObject.Find("MainCamera"):GetComponent(typeof(Camera))
+	slot2 = slot0.mainCamera:GetComponent(typeof(Camera))
 	slot3 = ReflectionHelp.RefCallStaticMethod(typeof("UnityEngine.RenderTexture"), "GetTemporary", {
 		typeof("System.Int32"),
 		typeof("System.Int32"),
@@ -373,4 +374,8 @@ function slot1.SetMainCamBlurTexture(slot0, slot1)
 	slot1.texture = slot4
 
 	return slot4
+end
+
+function slot1.GetMainCamera(slot0)
+	return slot0.mainCamera
 end

@@ -4,52 +4,6 @@ slot0.word_template_194 = {}
 slot1 = slot0.word_template_194
 
 function temp()
-	uv0["废"] = {
-		["物"] = {
-			this = true
-		},
-		["除"] = {
-			["劳"] = {
-				["教"] = {
-					["签"] = {
-						["名"] = {
-							this = true
-						}
-					}
-				}
-			},
-			["特"] = {
-				["供"] = {
-					this = true
-				}
-			},
-			["中"] = {
-				["共"] = {
-					this = true
-				}
-			}
-		},
-		["统"] = {
-			this = true
-		},
-		["习"] = {
-			this = true
-		},
-		["掉"] = {
-			["习"] = {
-				["近"] = {
-					["平"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["屎"] = {
 		this = {
 			this = true
@@ -316,6 +270,35 @@ function temp()
 				["怪"] = {
 					["癖"] = {
 						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["尾"] = {
+		["申"] = {
+			["鲸"] = {
+				this = true
+			}
+		},
+		["行"] = {
+			this = true,
+			["*"] = {
+				this = true
+			}
+		},
+		["原"] = {
+			["麻"] = {
+				["由"] = {
+					["种"] = {
+						["子"] = {
+							this = true
+						}
 					}
 				}
 			}

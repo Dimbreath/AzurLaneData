@@ -4,35 +4,6 @@ slot0.word_template_195 = {}
 slot1 = slot0.word_template_195
 
 function temp()
-	uv0["尾"] = {
-		["申"] = {
-			["鲸"] = {
-				this = true
-			}
-		},
-		["行"] = {
-			this = true,
-			["*"] = {
-				this = true
-			}
-		},
-		["原"] = {
-			["麻"] = {
-				["由"] = {
-					["种"] = {
-						["子"] = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["吟"] = {
 		["稻"] = {
 			["雁"] = {
@@ -3906,6 +3877,69 @@ function temp()
 		},
 		["靜"] = {
 			["平"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["媳"] = {
+		["禁"] = {
+			["頻"] = {
+				this = true
+			},
+			["频"] = {
+				this = true
+			},
+			["平"] = {
+				this = true
+			}
+		},
+		["大"] = {
+			["大"] = {
+				this = true
+			}
+		},
+		["主"] = {
+			["席"] = {
+				this = true
+			}
+		},
+		["近"] = {
+			["平"] = {
+				this = true
+			}
+		},
+		["包"] = {
+			["子"] = {
+				this = true
+			}
+		},
+		["谏"] = {
+			["频"] = {
+				this = true
+			}
+		},
+		["諫"] = {
+			["頻"] = {
+				this = true
+			}
+		},
+		["劲"] = {
+			["贫"] = {
+				this = true
+			}
+		},
+		["勁"] = {
+			["貧"] = {
+				this = true
+			}
+		},
+		["净"] = {
+			["瓶"] = {
 				this = true
 			}
 		}

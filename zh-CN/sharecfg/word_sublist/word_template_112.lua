@@ -4,74 +4,6 @@ slot0.word_template_112 = {}
 slot1 = slot0.word_template_112
 
 function temp()
-	uv0["熱"] = {
-		["比"] = {
-			["婭"] = {
-				this = true
-			}
-		},
-		["站"] = {
-			["政"] = {
-				["論"] = {
-					["網"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["兵"] = {
-			["器"] = {
-				this = true
-			}
-		},
-		["經"] = {
-			["典"] = {
-				["美"] = {
-					["優"] = {
-						["檸"] = {
-							["衣"] = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		},
-		["情"] = {
-			["少"] = {
-				["婦"] = {
-					this = true
-				}
-			}
-		},
-		["武"] = {
-			["器"] = {
-				this = true
-			}
-		},
-		["血"] = {
-			["傳"] = {
-				["奇"] = {
-					this = true
-				}
-			},
-			["江"] = {
-				["湖"] = {
-					this = true
-				}
-			},
-			["英"] = {
-				["豪"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["顬"] = {
 		this = {
 			this = true
@@ -450,9 +382,6 @@ function temp()
 					this = true
 				}
 			}
-		},
-		this = {
-			this = true
 		}
 	}
 end
@@ -2315,6 +2244,16 @@ function temp()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["厙"] = {
+		this = {
+			this = true
 		}
 	}
 end

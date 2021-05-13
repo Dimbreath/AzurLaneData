@@ -4,53 +4,6 @@ slot0.word_template_179 = {}
 slot1 = slot0.word_template_179
 
 function temp()
-	uv0["村"] = {
-		["官"] = {
-			["艳"] = {
-				["满"] = {
-					["杏"] = {
-						["花"] = {
-							["村"] = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		},
-		["妓"] = {
-			this = true
-		},
-		["奴"] = {
-			this = true
-		},
-		["桥"] = {
-			["琴"] = {
-				["行"] = {
-					this = true
-				}
-			}
-		},
-		["色"] = {
-			["撩"] = {
-				["人"] = {
-					this = true
-				}
-			}
-		},
-		["长"] = {
-			["后"] = {
-				["宫"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["萝"] = {
 		["莉"] = {
 			this = true,
@@ -1107,6 +1060,24 @@ function temp()
 				["能"] = {
 					["组"] = {
 						["合"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["耕"] = {
+		["不"] = {
+			["完"] = {
+				["的"] = {
+					["女"] = {
+						["人"] = {
 							this = true
 						}
 					}

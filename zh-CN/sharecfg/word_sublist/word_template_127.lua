@@ -4,16 +4,6 @@ slot0.word_template_127 = {}
 slot1 = slot0.word_template_127
 
 function temp()
-	uv0["賊"] = {
-		["民"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["譖"] = {
 		this = {
 			this = true
@@ -391,6 +381,16 @@ temp()
 function temp()
 	uv0["貞"] = {
 		["操"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["鎮"] = {
+		["壓"] = {
 			this = true
 		}
 	}

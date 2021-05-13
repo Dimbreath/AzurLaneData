@@ -188,7 +188,7 @@ function slot0.initBoxes(slot0)
 
 				function uv0.reservePanel.confirm(slot0, slot1)
 					if uv0.playerVO.gold < slot0 then
-						GoShoppingMsgBox(i18n("switch_to_shop_tip_2", i18n("word_gold")), ChargeScene.TYPE_ITEM, {
+						uv0:GoShoppingMsgBox(i18n("switch_to_shop_tip_2", i18n("word_gold")), ChargeScene.TYPE_ITEM, {
 							{
 								59001,
 								slot0 - slot2.gold,
@@ -222,6 +222,29 @@ function slot0.initBoxes(slot0)
 			uv0.boxesPanel:CallbackInvoke(slot0)
 		end
 	end, SFX_PANEL)
+end
+
+function slot0.GoShoppingMsgBox(slot0, slot1, slot2, slot3)
+	if slot3 then
+		for slot8, slot9 in ipairs(slot3) do
+			if slot8 < #slot3 then
+				slot4 = "" .. i18n(slot9[1] == 59001 and "text_noRes_info_tip" or "text_noRes_info_tip2", pg.item_data_statistics[slot9[1]].name, slot9[2]) .. i18n("text_noRes_info_tip_link")
+			end
+		end
+
+		if slot4 ~= "" then
+			slot1 = slot1 .. "\n" .. i18n("text_noRes_tip", slot4)
+		end
+	end
+
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
+		parent = rtf(pg.UIMgr.GetInstance().OverlayToast),
+		content = slot1,
+		weight = LayerWeightConst.TOP_LAYER,
+		onYes = function ()
+			gotoChargeScene(uv0, uv1)
+		end
+	})
 end
 
 function slot0.OnReserveDone(slot0, slot1)
