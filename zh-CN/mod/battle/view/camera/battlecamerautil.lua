@@ -42,7 +42,6 @@ function slot4.Initialize(slot0)
 end
 
 function slot4.Clear(slot0)
-	slot0.ActiveMainCemera(false)
 	LeanTween.cancel(go(slot0._camera))
 	slot0:Deactive()
 	slot0:StopShake()
