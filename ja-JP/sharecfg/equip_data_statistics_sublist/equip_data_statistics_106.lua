@@ -1,5 +1,147 @@
 pg = pg or {}
 pg.equip_data_statistics_106 = {
+	[14382] = {
+		id = 14382,
+		damage = "80 x 3",
+		base = 14380,
+		weapon_id = {
+			14382
+		}
+	},
+	[14383] = {
+		id = 14383,
+		damage = "88 x 3",
+		base = 14380,
+		weapon_id = {
+			14383
+		}
+	},
+	[14384] = {
+		id = 14384,
+		damage = "98 x 3",
+		base = 14380,
+		weapon_id = {
+			14384
+		}
+	},
+	[14385] = {
+		id = 14385,
+		damage = "108 x 3",
+		base = 14380,
+		weapon_id = {
+			14385
+		}
+	},
+	[14386] = {
+		id = 14386,
+		damage = "118 x 3",
+		base = 14380,
+		weapon_id = {
+			14386
+		}
+	},
+	[14387] = {
+		id = 14387,
+		damage = "128 x 3",
+		base = 14380,
+		weapon_id = {
+			14387
+		}
+	},
+	[14388] = {
+		id = 14388,
+		damage = "136 x 3",
+		base = 14380,
+		weapon_id = {
+			14388
+		}
+	},
+	[14389] = {
+		id = 14389,
+		damage = "146 x 3",
+		base = 14380,
+		weapon_id = {
+			14389
+		}
+	},
+	[14390] = {
+		id = 14390,
+		damage = "156 x 3",
+		base = 14380,
+		weapon_id = {
+			14390
+		}
+	},
+	[14391] = {
+		anti_siren = 100,
+		damage = "156 x 3",
+		base = 14380,
+		id = 14391,
+		weapon_id = {
+			14391
+		}
+	},
+	[14500] = {
+		name = "試作型457mm連装砲MKA",
+		speciality = "投射",
+		type = 4,
+		tech = 0,
+		descrip = "0",
+		value_2 = 65,
+		icon = "14500",
+		attribute_2 = "cannon",
+		rarity = 6,
+		damage = "78 x 2",
+		nationality = 1,
+		ammo = 1,
+		value_3 = 0,
+		id = 14500,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1503
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			14500
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG",
+			"AP"
+		}
+	},
+	[14501] = {
+		id = 14501,
+		damage = "91 x 2",
+		base = 14500,
+		weapon_id = {
+			14501
+		}
+	},
 	[14502] = {
 		id = 14502,
 		damage = "102 x 2",
@@ -30,156 +172,6 @@ pg.equip_data_statistics_106 = {
 		base = 14500,
 		weapon_id = {
 			14505
-		}
-	},
-	[14506] = {
-		id = 14506,
-		damage = "156 x 2",
-		base = 14500,
-		weapon_id = {
-			14506
-		}
-	},
-	[14507] = {
-		id = 14507,
-		damage = "167 x 2",
-		base = 14500,
-		weapon_id = {
-			14507
-		}
-	},
-	[14508] = {
-		id = 14508,
-		damage = "180 x 2",
-		base = 14500,
-		weapon_id = {
-			14508
-		}
-	},
-	[14509] = {
-		id = 14509,
-		damage = "194 x 2",
-		base = 14500,
-		weapon_id = {
-			14509
-		}
-	},
-	[14510] = {
-		id = 14510,
-		damage = "207 x 2",
-		base = 14500,
-		weapon_id = {
-			14510
-		}
-	},
-	[14511] = {
-		anti_siren = 100,
-		damage = "207 x 2",
-		base = 14500,
-		id = 14511,
-		weapon_id = {
-			14511
-		}
-	},
-	[14512] = {
-		anti_siren = 200,
-		damage = "207 x 2",
-		base = 14500,
-		id = 14512,
-		weapon_id = {
-			14512
-		}
-	},
-	[14513] = {
-		anti_siren = 300,
-		damage = "207 x 2",
-		base = 14500,
-		id = 14513,
-		weapon_id = {
-			14513
-		}
-	},
-	[15000] = {
-		name = "潜水艦用Mark14魚雷",
-		speciality = "雷撃",
-		type = 13,
-		tech = 1,
-		descrip = "0",
-		value_2 = 5,
-		icon = "15000",
-		attribute_2 = "torpedo",
-		rarity = 2,
-		damage = "42 x 3",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 15000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1821
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1821
-			},
-			{
-				4,
-				1602
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			15000
-		},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"SS",
-			"TP"
-		}
-	},
-	[15001] = {
-		id = 15001,
-		damage = "48 x 3",
-		base = 15000,
-		weapon_id = {
-			15001
-		}
-	},
-	[15002] = {
-		id = 15002,
-		damage = "54 x 3",
-		base = 15000,
-		weapon_id = {
-			15002
-		}
-	},
-	[15003] = {
-		id = 15003,
-		damage = "60 x 3",
-		base = 15000,
-		weapon_id = {
-			15003
 		}
 	}
 }

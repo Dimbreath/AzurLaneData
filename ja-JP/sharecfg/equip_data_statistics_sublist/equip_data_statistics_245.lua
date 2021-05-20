@@ -1,5 +1,155 @@
 pg = pg or {}
 pg.equip_data_statistics_245 = {
+	[35230] = {
+		id = 35230,
+		damage = "178 x 4",
+		base = 35220,
+		weapon_id = {
+			35230
+		}
+	},
+	[35240] = {
+		name = "610mm四連装魚雷",
+		speciality = "雷撃",
+		type = 5,
+		tech = 3,
+		descrip = "0",
+		value_2 = 45,
+		icon = "35200",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "66 x 4",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 35240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1801
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1801
+			},
+			{
+				4,
+				1403
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			35240
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"TP",
+			"QUAD"
+		}
+	},
+	[35241] = {
+		id = 35241,
+		damage = "80 x 4",
+		base = 35240,
+		weapon_id = {
+			35241
+		}
+	},
+	[35242] = {
+		id = 35242,
+		damage = "94 x 4",
+		base = 35240,
+		weapon_id = {
+			35242
+		}
+	},
+	[35243] = {
+		id = 35243,
+		damage = "108 x 4",
+		base = 35240,
+		weapon_id = {
+			35243
+		}
+	},
+	[35244] = {
+		id = 35244,
+		damage = "122 x 4",
+		base = 35240,
+		weapon_id = {
+			35244
+		}
+	},
+	[35245] = {
+		id = 35245,
+		damage = "136 x 4",
+		base = 35240,
+		weapon_id = {
+			35245
+		}
+	},
+	[35246] = {
+		id = 35246,
+		damage = "150 x 4",
+		base = 35240,
+		weapon_id = {
+			35246
+		}
+	},
+	[35247] = {
+		id = 35247,
+		damage = "164 x 4",
+		base = 35240,
+		weapon_id = {
+			35247
+		}
+	},
+	[35248] = {
+		id = 35248,
+		damage = "178 x 4",
+		base = 35240,
+		weapon_id = {
+			35248
+		}
+	},
+	[35249] = {
+		id = 35249,
+		damage = "192 x 4",
+		base = 35240,
+		weapon_id = {
+			35249
+		}
+	},
+	[35250] = {
+		id = 35250,
+		damage = "206 x 4",
+		base = 35240,
+		weapon_id = {
+			35250
+		}
+	},
 	[35251] = {
 		anti_siren = 100,
 		damage = "206 x 4",
@@ -87,104 +237,6 @@ pg.equip_data_statistics_245 = {
 			"ST",
 			"TP",
 			"QUAD"
-		}
-	},
-	[35261] = {
-		id = 35261,
-		damage = "84 x 4",
-		base = 35260,
-		weapon_id = {
-			35261
-		}
-	},
-	[35262] = {
-		id = 35262,
-		damage = "98 x 4",
-		base = 35260,
-		weapon_id = {
-			35262
-		}
-	},
-	[35263] = {
-		id = 35263,
-		damage = "112 x 4",
-		base = 35260,
-		weapon_id = {
-			35263
-		}
-	},
-	[35264] = {
-		id = 35264,
-		damage = "126 x 4",
-		base = 35260,
-		weapon_id = {
-			35264
-		}
-	},
-	[35265] = {
-		id = 35265,
-		damage = "140 x 4",
-		base = 35260,
-		weapon_id = {
-			35265
-		}
-	},
-	[35266] = {
-		id = 35266,
-		damage = "154 x 4",
-		base = 35260,
-		weapon_id = {
-			35266
-		}
-	},
-	[35267] = {
-		id = 35267,
-		damage = "168 x 4",
-		base = 35260,
-		weapon_id = {
-			35267
-		}
-	},
-	[35268] = {
-		id = 35268,
-		damage = "182 x 4",
-		base = 35260,
-		weapon_id = {
-			35268
-		}
-	},
-	[35269] = {
-		id = 35269,
-		damage = "196 x 4",
-		base = 35260,
-		weapon_id = {
-			35269
-		}
-	},
-	[35270] = {
-		id = 35270,
-		damage = "210 x 4",
-		base = 35260,
-		weapon_id = {
-			35270
-		}
-	},
-	[35271] = {
-		anti_siren = 100,
-		damage = "210 x 4",
-		base = 35260,
-		id = 35271,
-		weapon_id = {
-			35271
-		}
-	},
-	[35272] = {
-		anti_siren = 200,
-		damage = "210 x 4",
-		base = 35260,
-		id = 35272,
-		weapon_id = {
-			35272
 		}
 	}
 }

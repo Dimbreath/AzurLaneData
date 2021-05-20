@@ -58,7 +58,7 @@ function slot0.didEnter(slot0)
 
 				uv1.contextData[slot3] = uv1.contextData[slot3] or {}
 
-				slot3.New(uv1, uv1.viewContainer, uv1.event, uv1.contextData[slot3]):Load()
+				slot3.New(uv1, uv1.viewContainer, uv1.event, uv1.contextData):Load()
 			end
 
 			if uv1.contextData.page and uv1.subViews[uv1.contextData.page] and not slot1 then

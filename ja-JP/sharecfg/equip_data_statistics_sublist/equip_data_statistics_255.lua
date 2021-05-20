@@ -1,5 +1,156 @@
 pg = pg or {}
 pg.equip_data_statistics_255 = {
+	[36340] = {
+		name = "25mm三連装対空機銃",
+		speciality = "対空",
+		type = 6,
+		tech = 3,
+		descrip = "0",
+		value_2 = 25,
+		icon = "36300",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "22/回",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36340,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			36340
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
+	},
+	[36341] = {
+		id = 36341,
+		damage = "25/回",
+		base = 36340,
+		weapon_id = {
+			36341
+		}
+	},
+	[36342] = {
+		id = 36342,
+		damage = "28/回",
+		base = 36340,
+		weapon_id = {
+			36342
+		}
+	},
+	[36343] = {
+		id = 36343,
+		damage = "31/回",
+		base = 36340,
+		weapon_id = {
+			36343
+		}
+	},
+	[36344] = {
+		id = 36344,
+		damage = "34/回",
+		base = 36340,
+		weapon_id = {
+			36344
+		}
+	},
+	[36345] = {
+		id = 36345,
+		damage = "37/回",
+		base = 36340,
+		weapon_id = {
+			36345
+		}
+	},
+	[36346] = {
+		id = 36346,
+		damage = "40/回",
+		base = 36340,
+		weapon_id = {
+			36346
+		}
+	},
+	[36347] = {
+		id = 36347,
+		damage = "43/回",
+		base = 36340,
+		weapon_id = {
+			36347
+		}
+	},
+	[36348] = {
+		id = 36348,
+		damage = "46/回",
+		base = 36340,
+		weapon_id = {
+			36348
+		}
+	},
+	[36349] = {
+		id = 36349,
+		damage = "50/回",
+		base = 36340,
+		weapon_id = {
+			36349
+		}
+	},
+	[36350] = {
+		id = 36350,
+		damage = "54/回",
+		base = 36340,
+		weapon_id = {
+			36350
+		}
+	},
+	[36351] = {
+		anti_siren = 100,
+		damage = "54/回",
+		base = 36340,
+		id = 36351,
+		weapon_id = {
+			36351
+		}
+	},
 	[36360] = {
 		name = "25mm九六式三連装機銃（爆風避盾装備）",
 		speciality = "対空",
@@ -84,159 +235,6 @@ pg.equip_data_statistics_255 = {
 		base = 36360,
 		weapon_id = {
 			36363
-		}
-	},
-	[36364] = {
-		id = 36364,
-		damage = "52/回",
-		base = 36360,
-		weapon_id = {
-			36364
-		}
-	},
-	[36365] = {
-		id = 36365,
-		damage = "55/回",
-		base = 36360,
-		weapon_id = {
-			36365
-		}
-	},
-	[36366] = {
-		id = 36366,
-		damage = "58/回",
-		base = 36360,
-		weapon_id = {
-			36366
-		}
-	},
-	[36367] = {
-		id = 36367,
-		damage = "61/回",
-		base = 36360,
-		weapon_id = {
-			36367
-		}
-	},
-	[36368] = {
-		id = 36368,
-		damage = "64/回",
-		base = 36360,
-		weapon_id = {
-			36368
-		}
-	},
-	[36369] = {
-		id = 36369,
-		damage = "68/回",
-		base = 36360,
-		weapon_id = {
-			36369
-		}
-	},
-	[36370] = {
-		id = 36370,
-		damage = "72/回",
-		base = 36360,
-		weapon_id = {
-			36370
-		}
-	},
-	[36371] = {
-		anti_siren = 100,
-		damage = "72/回",
-		base = 36360,
-		id = 36371,
-		weapon_id = {
-			36371
-		}
-	},
-	[36372] = {
-		anti_siren = 200,
-		damage = "72/回",
-		base = 36360,
-		id = 36372,
-		weapon_id = {
-			36372
-		}
-	},
-	[36373] = {
-		anti_siren = 300,
-		damage = "72/回",
-		base = 36360,
-		id = 36373,
-		weapon_id = {
-			36373
-		}
-	},
-	[36400] = {
-		name = "毘式40mm連装機銃",
-		speciality = "対空",
-		type = 6,
-		tech = 1,
-		descrip = "0",
-		value_2 = 5,
-		icon = "36400",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "19/回",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 36400,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			36400
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"AA"
-		}
-	},
-	[36401] = {
-		id = 36401,
-		damage = "22/回",
-		base = 36400,
-		weapon_id = {
-			36401
 		}
 	}
 }

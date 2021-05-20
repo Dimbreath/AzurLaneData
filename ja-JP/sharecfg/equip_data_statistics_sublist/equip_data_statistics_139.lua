@@ -1,5 +1,265 @@
 pg = pg or {}
 pg.equip_data_statistics_139 = {
+	[18147] = {
+		id = 18147,
+		base = 18140,
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				4,
+				51147
+			}
+		},
+		weapon_id = {
+			18147
+		}
+	},
+	[18148] = {
+		id = 18148,
+		base = 18140,
+		ammo_info = {
+			{
+				6,
+				50048
+			},
+			{
+				4,
+				51148
+			}
+		},
+		weapon_id = {
+			18148
+		}
+	},
+	[18149] = {
+		id = 18149,
+		base = 18140,
+		ammo_info = {
+			{
+				6,
+				50049
+			},
+			{
+				4,
+				51149
+			}
+		},
+		weapon_id = {
+			18149
+		}
+	},
+	[18150] = {
+		id = 18150,
+		base = 18140,
+		ammo_info = {
+			{
+				6,
+				50050
+			},
+			{
+				4,
+				51150
+			}
+		},
+		weapon_id = {
+			18150
+		}
+	},
+	[18151] = {
+		anti_siren = 100,
+		base = 18140,
+		id = 18151,
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				4,
+				51151
+			}
+		},
+		weapon_id = {
+			18151
+		}
+	},
+	[18180] = {
+		name = "TBMアベンジャー(VT-18中隊)",
+		type = 8,
+		speciality = "雷撃",
+		rarity = 5,
+		tech = 0,
+		descrip = "空母イントレピッドとともに活躍していた攻撃機中隊",
+		value_2 = 45,
+		icon = "18180",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 18180,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				4,
+				59620
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			18180
+		},
+		skill_id = {
+			6790
+		},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
+	},
+	[18181] = {
+		base = 18180,
+		id = 18181,
+		ammo_info = {
+			{
+				6,
+				50041
+			},
+			{
+				4,
+				59621
+			}
+		},
+		weapon_id = {
+			18181
+		},
+		skill_id = {
+			6791
+		}
+	},
+	[18182] = {
+		base = 18180,
+		id = 18182,
+		ammo_info = {
+			{
+				6,
+				50042
+			},
+			{
+				4,
+				59622
+			}
+		},
+		weapon_id = {
+			18182
+		},
+		skill_id = {
+			6792
+		}
+	},
+	[18183] = {
+		base = 18180,
+		id = 18183,
+		ammo_info = {
+			{
+				6,
+				50043
+			},
+			{
+				4,
+				59623
+			}
+		},
+		weapon_id = {
+			18183
+		},
+		skill_id = {
+			6793
+		}
+	},
+	[18184] = {
+		base = 18180,
+		id = 18184,
+		ammo_info = {
+			{
+				6,
+				50044
+			},
+			{
+				4,
+				59624
+			}
+		},
+		weapon_id = {
+			18184
+		},
+		skill_id = {
+			6794
+		}
+	},
+	[18185] = {
+		base = 18180,
+		id = 18185,
+		ammo_info = {
+			{
+				6,
+				50045
+			},
+			{
+				4,
+				59625
+			}
+		},
+		weapon_id = {
+			18185
+		},
+		skill_id = {
+			6795
+		}
+	},
+	[18186] = {
+		base = 18180,
+		id = 18186,
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				4,
+				59626
+			}
+		},
+		weapon_id = {
+			18186
+		},
+		skill_id = {
+			6796
+		}
+	},
 	[18187] = {
 		base = 18180,
 		id = 18187,
@@ -78,257 +338,6 @@ pg.equip_data_statistics_139 = {
 		},
 		skill_id = {
 			6800
-		}
-	},
-	[18191] = {
-		anti_siren = 100,
-		base = 18180,
-		id = 18191,
-		ammo_info = {
-			{
-				6,
-				50051
-			},
-			{
-				4,
-				59631
-			}
-		},
-		weapon_id = {
-			18191
-		},
-		skill_id = {
-			6801
-		}
-	},
-	[18192] = {
-		anti_siren = 200,
-		base = 18180,
-		id = 18192,
-		ammo_info = {
-			{
-				6,
-				50052
-			},
-			{
-				4,
-				59632
-			}
-		},
-		weapon_id = {
-			18192
-		},
-		skill_id = {
-			6802
-		}
-	},
-	[18193] = {
-		anti_siren = 300,
-		base = 18180,
-		id = 18193,
-		ammo_info = {
-			{
-				6,
-				50053
-			},
-			{
-				4,
-				59633
-			}
-		},
-		weapon_id = {
-			18193
-		},
-		skill_id = {
-			6803
-		}
-	},
-	[18220] = {
-		name = "XTB2D-1スカイパイレート",
-		type = 8,
-		speciality = "雷撃",
-		rarity = 5,
-		tech = 0,
-		descrip = "0",
-		value_2 = 45,
-		icon = "18220",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 18220,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				59740
-			},
-			{
-				4,
-				51240
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			18220
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"TB"
-		}
-	},
-	[18221] = {
-		id = 18221,
-		base = 18220,
-		ammo_info = {
-			{
-				6,
-				59741
-			},
-			{
-				4,
-				51241
-			}
-		},
-		weapon_id = {
-			18221
-		}
-	},
-	[18222] = {
-		id = 18222,
-		base = 18220,
-		ammo_info = {
-			{
-				6,
-				59742
-			},
-			{
-				4,
-				51242
-			}
-		},
-		weapon_id = {
-			18222
-		}
-	},
-	[18223] = {
-		id = 18223,
-		base = 18220,
-		ammo_info = {
-			{
-				6,
-				59743
-			},
-			{
-				4,
-				51243
-			}
-		},
-		weapon_id = {
-			18223
-		}
-	},
-	[18224] = {
-		id = 18224,
-		base = 18220,
-		ammo_info = {
-			{
-				6,
-				59744
-			},
-			{
-				4,
-				51244
-			}
-		},
-		weapon_id = {
-			18224
-		}
-	},
-	[18225] = {
-		id = 18225,
-		base = 18220,
-		ammo_info = {
-			{
-				6,
-				59745
-			},
-			{
-				4,
-				51245
-			}
-		},
-		weapon_id = {
-			18225
-		}
-	},
-	[18226] = {
-		id = 18226,
-		base = 18220,
-		ammo_info = {
-			{
-				6,
-				59746
-			},
-			{
-				4,
-				51246
-			}
-		},
-		weapon_id = {
-			18226
-		}
-	},
-	[18227] = {
-		id = 18227,
-		base = 18220,
-		ammo_info = {
-			{
-				6,
-				59747
-			},
-			{
-				4,
-				51247
-			}
-		},
-		weapon_id = {
-			18227
-		}
-	},
-	[18228] = {
-		id = 18228,
-		base = 18220,
-		ammo_info = {
-			{
-				6,
-				59748
-			},
-			{
-				4,
-				51248
-			}
-		},
-		weapon_id = {
-			18228
 		}
 	}
 }

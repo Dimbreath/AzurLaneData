@@ -212,7 +212,20 @@ return {
 	BindCPU = function ()
 	end,
 	OnAndoridBackPress = function ()
-		uv0:onBackPressed()
+		if LuaHelper.GetCHPackageType() == uv0 or slot0 == uv1 then
+			if not IsNil(pg.MsgboxMgr.GetInstance()._go) then
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("confirm_app_exit"),
+					onYes = function ()
+						uv0:onBackPressed()
+					end
+				})
+			else
+				uv2:onBackPressed()
+			end
+		else
+			uv2:onBackPressed()
+		end
 	end,
 	ShowPrivate = function ()
 		slot0 = LuaHelper.GetCHPackageType()

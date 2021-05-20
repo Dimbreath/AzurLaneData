@@ -1,5 +1,99 @@
 pg = pg or {}
 pg.equip_data_statistics_60 = {
+	[3300] = {
+		name = "四神の印",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "3300",
+		value_1 = "250",
+		descrip = "東煌の四神獣が刻印された玉器(ぎょくき)。東煌の神秘なる力が秘められている",
+		rarity = 5,
+		nationality = 5,
+		ammo = 10,
+		value_3 = 0,
+		id = 3300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6480
+		},
+		part_main = {
+			1
+		},
+		part_sub = {
+			1
+		},
+		equip_parameters = {},
+		label = {
+			"PRAN",
+			"DEV"
+		}
+	},
+	[3301] = {
+		id = 3301,
+		value_1 = "280",
+		base = 3300
+	},
+	[3302] = {
+		id = 3302,
+		value_1 = "310",
+		base = 3300
+	},
+	[3303] = {
+		id = 3303,
+		value_1 = "340",
+		base = 3300
+	},
+	[3304] = {
+		id = 3304,
+		value_1 = "370",
+		base = 3300
+	},
+	[3305] = {
+		id = 3305,
+		value_1 = "400",
+		base = 3300
+	},
+	[3306] = {
+		id = 3306,
+		value_1 = "430",
+		base = 3300
+	},
+	[3307] = {
+		id = 3307,
+		value_1 = "460",
+		base = 3300
+	},
+	[3308] = {
+		id = 3308,
+		value_1 = "490",
+		base = 3300
+	},
+	[3309] = {
+		id = 3309,
+		value_1 = "520",
+		base = 3300
+	},
+	[3310] = {
+		id = 3310,
+		value_1 = "550",
+		base = 3300
+	},
+	[3311] = {
+		id = 3311,
+		anti_siren = 100,
+		value_1 = "580",
+		base = 3300
+	},
 	[3312] = {
 		id = 3312,
 		anti_siren = 200,
@@ -52,69 +146,6 @@ pg.equip_data_statistics_60 = {
 	[3401] = {
 		id = 3401,
 		value_1 = "480",
-		base = 3400
-	},
-	[3402] = {
-		id = 3402,
-		value_1 = "510",
-		base = 3400
-	},
-	[3403] = {
-		id = 3403,
-		value_1 = "540",
-		base = 3400
-	},
-	[3404] = {
-		id = 3404,
-		value_1 = "570",
-		base = 3400
-	},
-	[3405] = {
-		id = 3405,
-		value_1 = "600",
-		base = 3400
-	},
-	[3406] = {
-		id = 3406,
-		value_1 = "630",
-		base = 3400
-	},
-	[3407] = {
-		id = 3407,
-		value_1 = "660",
-		base = 3400
-	},
-	[3408] = {
-		id = 3408,
-		value_1 = "690",
-		base = 3400
-	},
-	[3409] = {
-		id = 3409,
-		value_1 = "720",
-		base = 3400
-	},
-	[3410] = {
-		id = 3410,
-		value_1 = "750",
-		base = 3400
-	},
-	[3411] = {
-		id = 3411,
-		anti_siren = 100,
-		value_1 = "780",
-		base = 3400
-	},
-	[3412] = {
-		id = 3412,
-		anti_siren = 200,
-		value_1 = "810",
-		base = 3400
-	},
-	[3413] = {
-		id = 3413,
-		anti_siren = 300,
-		value_1 = "840",
 		base = 3400
 	}
 }

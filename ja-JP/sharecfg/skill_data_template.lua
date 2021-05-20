@@ -8555,6 +8555,20 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6850] = {
+		desc_get = "",
+		name = "特殊対策戦闘技術-重桜Ⅰ",
+		type = 0,
+		max_level = 0,
+		desc = "装備している艦船の重桜所属艦船へのダメージが6%アップ（同名スキルは一番高い効果しか適用されない）",
+		id = 6850,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "ライン演習",
@@ -64412,6 +64426,7 @@ pg.skill_data_template = {
 		6841,
 		6842,
 		6843,
+		6850,
 		7000,
 		9030,
 		9031,

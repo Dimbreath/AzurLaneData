@@ -1,63 +1,77 @@
 pg = pg or {}
 pg.equip_data_statistics_58 = {
-	[3206] = {
-		id = 3206,
-		value_1 = "530",
-		base = 3200
+	[3148] = {
+		id = 3148,
+		value_1 = "11",
+		base = 3140
 	},
-	[3207] = {
-		id = 3207,
-		value_1 = "560",
-		base = 3200
+	[3149] = {
+		id = 3149,
+		value_1 = "13",
+		base = 3140
 	},
-	[3208] = {
-		id = 3208,
-		value_1 = "590",
-		base = 3200
+	[3150] = {
+		base = 3140,
+		id = 3150,
+		value_1 = "15",
+		skill_id = {
+			6291
+		},
+		equip_parameters = {
+			hunting_lv = 2
+		}
 	},
-	[3209] = {
-		id = 3209,
-		value_1 = "620",
-		base = 3200
-	},
-	[3210] = {
-		id = 3210,
-		value_1 = "650",
-		base = 3200
-	},
-	[3211] = {
-		id = 3211,
+	[3151] = {
 		anti_siren = 100,
-		value_1 = "680",
-		base = 3200
+		base = 3140,
+		id = 3151,
+		value_1 = "17",
+		skill_id = {
+			6291
+		},
+		equip_parameters = {
+			hunting_lv = 2
+		}
 	},
-	[3212] = {
-		id = 3212,
+	[3152] = {
 		anti_siren = 200,
-		value_1 = "710",
-		base = 3200
+		base = 3140,
+		id = 3152,
+		value_1 = "19",
+		skill_id = {
+			6291
+		},
+		equip_parameters = {
+			hunting_lv = 2
+		}
 	},
-	[3213] = {
-		id = 3213,
+	[3153] = {
 		anti_siren = 300,
-		value_1 = "740",
-		base = 3200
+		base = 3140,
+		id = 3153,
+		value_1 = "21",
+		skill_id = {
+			6291
+		},
+		equip_parameters = {
+			hunting_lv = 2
+		}
 	},
-	[3220] = {
-		name = "VC装甲鋼板",
+	[3200] = {
+		name = "VH装甲鋼板",
 		tech = 0,
 		type = 10,
 		speciality = "なし",
 		attribute_1 = "durability",
 		value_2 = 0,
-		icon = "3220",
-		value_1 = "220",
-		descrip = "ロイヤルの技術を導入した装甲鋼板。戦艦の主要防御帯によく使われていた",
-		rarity = 4,
+		icon = "3200",
+		value_1 = "350",
+		descrip = "生産性・弾丸破砕効果の強化が図られた新型鋼板。浸炭処理を省略し、焼き入れにおける新技術で装甲の表面硬化で耐弾抗力を向上させた",
+		rarity = 5,
 		nationality = 3,
 		ammo = 10,
 		value_3 = 0,
-		id = 3220,
+		id = 3200,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -67,7 +81,7 @@ pg.equip_data_statistics_58 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6470
+			6460
 		},
 		part_main = {
 			4,
@@ -89,39 +103,49 @@ pg.equip_data_statistics_58 = {
 			"DEV"
 		}
 	},
-	[3221] = {
-		id = 3221,
-		value_1 = "250",
-		base = 3220
+	[3201] = {
+		id = 3201,
+		value_1 = "380",
+		base = 3200
 	},
-	[3222] = {
-		id = 3222,
-		value_1 = "280",
-		base = 3220
+	[3202] = {
+		id = 3202,
+		value_1 = "410",
+		base = 3200
 	},
-	[3223] = {
-		id = 3223,
-		value_1 = "310",
-		base = 3220
+	[3203] = {
+		id = 3203,
+		value_1 = "440",
+		base = 3200
 	},
-	[3224] = {
-		id = 3224,
-		value_1 = "340",
-		base = 3220
+	[3204] = {
+		id = 3204,
+		value_1 = "470",
+		base = 3200
 	},
-	[3225] = {
-		id = 3225,
-		value_1 = "370",
-		base = 3220
+	[3205] = {
+		id = 3205,
+		value_1 = "500",
+		base = 3200
 	},
-	[3226] = {
-		id = 3226,
-		value_1 = "400",
-		base = 3220
+	[3206] = {
+		id = 3206,
+		value_1 = "530",
+		base = 3200
 	},
-	[3227] = {
-		id = 3227,
-		value_1 = "430",
-		base = 3220
+	[3207] = {
+		id = 3207,
+		value_1 = "560",
+		base = 3200
+	},
+	[3208] = {
+		id = 3208,
+		value_1 = "590",
+		base = 3200
+	},
+	[3209] = {
+		id = 3209,
+		value_1 = "620",
+		base = 3200
 	}
 }

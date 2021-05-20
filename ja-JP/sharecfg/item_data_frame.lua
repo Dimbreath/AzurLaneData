@@ -224,6 +224,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「いざ、我が帝国の礎に、柱とならん！威光のために前進せよ！」</color>――「讃える復興の迷路」イベントで入手可能",
 		scene = {}
 	},
+	[315] = {
+		name = "チャージングウィング",
+		time_second = 0,
+		id = 315,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>後日イベントで入手可能</color>",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂入り：エンタープライズ",
 		time_second = 0,
@@ -285,6 +293,7 @@ pg.item_data_frame = {
 		312,
 		313,
 		314,
+		315,
 		401,
 		402,
 		403,

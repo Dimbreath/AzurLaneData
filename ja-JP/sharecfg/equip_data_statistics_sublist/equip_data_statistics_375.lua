@@ -1,5 +1,147 @@
 pg = pg or {}
 pg.equip_data_statistics_375 = {
+	[85405] = {
+		id = 85405,
+		damage = "65/回",
+		base = 85400,
+		weapon_id = {
+			85405
+		}
+	},
+	[85406] = {
+		id = 85406,
+		damage = "71/回",
+		base = 85400,
+		weapon_id = {
+			85406
+		}
+	},
+	[85407] = {
+		id = 85407,
+		damage = "77/回",
+		base = 85400,
+		weapon_id = {
+			85407
+		}
+	},
+	[85408] = {
+		id = 85408,
+		damage = "83/回",
+		base = 85400,
+		weapon_id = {
+			85408
+		}
+	},
+	[85409] = {
+		id = 85409,
+		damage = "89/回",
+		base = 85400,
+		weapon_id = {
+			85409
+		}
+	},
+	[85410] = {
+		id = 85410,
+		damage = "96/回",
+		base = 85400,
+		weapon_id = {
+			85410
+		}
+	},
+	[85411] = {
+		anti_siren = 100,
+		damage = "96/回",
+		base = 85400,
+		id = 85411,
+		weapon_id = {
+			85411
+		}
+	},
+	[85420] = {
+		name = "305mm三連装砲Model1907",
+		speciality = "投射",
+		type = 4,
+		tech = 3,
+		descrip = "0",
+		value_2 = 12,
+		icon = "85420",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "54 x 3",
+		nationality = 7,
+		ammo = 2,
+		value_3 = 0,
+		id = 85420,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1502
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85420
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"BB",
+			"MG",
+			"GangutMG"
+		}
+	},
+	[85421] = {
+		id = 85421,
+		damage = "59 x 3",
+		base = 85420,
+		weapon_id = {
+			85421
+		}
+	},
+	[85422] = {
+		id = 85422,
+		damage = "64 x 3",
+		base = 85420,
+		weapon_id = {
+			85422
+		}
+	},
+	[85423] = {
+		id = 85423,
+		damage = "70 x 3",
+		base = 85420,
+		weapon_id = {
+			85423
+		}
+	},
+	[85424] = {
+		id = 85424,
+		damage = "76 x 3",
+		base = 85420,
+		weapon_id = {
+			85424
+		}
+	},
 	[85425] = {
 		id = 85425,
 		damage = "84 x 3",
@@ -81,153 +223,6 @@ pg.equip_data_statistics_375 = {
 			"SN",
 			"CL",
 			"MG"
-		}
-	},
-	[85441] = {
-		id = 85441,
-		damage = "9 x 4",
-		base = 85440,
-		weapon_id = {
-			85441
-		}
-	},
-	[85442] = {
-		id = 85442,
-		damage = "10 x 4",
-		base = 85440,
-		weapon_id = {
-			85442
-		}
-	},
-	[85443] = {
-		id = 85443,
-		damage = "11 x 4",
-		base = 85440,
-		weapon_id = {
-			85443
-		}
-	},
-	[85444] = {
-		id = 85444,
-		damage = "12 x 4",
-		base = 85440,
-		weapon_id = {
-			85444
-		}
-	},
-	[85445] = {
-		id = 85445,
-		damage = "13 x 4",
-		base = 85440,
-		weapon_id = {
-			85445
-		}
-	},
-	[85446] = {
-		id = 85446,
-		damage = "14 x 4",
-		base = 85440,
-		weapon_id = {
-			85446
-		}
-	},
-	[85447] = {
-		id = 85447,
-		damage = "14 x 4",
-		base = 85440,
-		weapon_id = {
-			85447
-		}
-	},
-	[85460] = {
-		name = "180mm三連装砲B-1-P Model1932",
-		speciality = "追尾",
-		type = 2,
-		tech = 1,
-		descrip = "優秀な射程を持つ北方連合開発の三連装主砲。",
-		value_2 = 12,
-		icon = "85460",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "16 x 3",
-		nationality = 7,
-		ammo = 1,
-		value_3 = 0,
-		id = 85460,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1712
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1712
-			},
-			{
-				4,
-				1108
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			85460
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"CL",
-			"MG",
-			"AP"
-		}
-	},
-	[85461] = {
-		id = 85461,
-		base = 85460,
-		weapon_id = {
-			85461
-		}
-	},
-	[85462] = {
-		id = 85462,
-		damage = "17 x 3",
-		base = 85460,
-		weapon_id = {
-			85462
-		}
-	},
-	[85463] = {
-		id = 85463,
-		damage = "18 x 3",
-		base = 85460,
-		weapon_id = {
-			85463
-		}
-	},
-	[85464] = {
-		id = 85464,
-		damage = "19 x 3",
-		base = 85460,
-		weapon_id = {
-			85464
 		}
 	}
 }

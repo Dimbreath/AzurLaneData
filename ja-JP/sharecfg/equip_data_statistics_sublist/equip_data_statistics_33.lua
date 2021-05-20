@@ -1,52 +1,85 @@
 pg = pg or {}
 pg.equip_data_statistics_33 = {
-	[1501] = {
-		id = 1501,
-		value_2 = 3,
-		value_1 = "7",
-		base = 1500
+	[1443] = {
+		id = 1443,
+		value_2 = 40,
+		value_1 = "58",
+		base = 1440
 	},
-	[1502] = {
-		id = 1502,
-		value_2 = 3,
-		value_1 = "8",
-		base = 1500
+	[1444] = {
+		id = 1444,
+		value_2 = 45,
+		value_1 = "64",
+		base = 1440
 	},
-	[1503] = {
-		id = 1503,
-		value_2 = 3,
-		value_1 = "9",
-		base = 1500
+	[1445] = {
+		id = 1445,
+		value_2 = 50,
+		value_1 = "70",
+		base = 1440
 	},
-	[1504] = {
-		id = 1504,
-		value_2 = 4,
-		value_1 = "10",
-		base = 1500
+	[1446] = {
+		id = 1446,
+		value_2 = 55,
+		value_1 = "76",
+		base = 1440
 	},
-	[1505] = {
-		id = 1505,
-		value_2 = 4,
-		value_1 = "11",
-		base = 1500
+	[1447] = {
+		id = 1447,
+		value_2 = 60,
+		value_1 = "82",
+		base = 1440
 	},
-	[1506] = {
-		id = 1506,
-		value_2 = 5,
-		value_1 = "11",
-		base = 1500
+	[1448] = {
+		id = 1448,
+		value_2 = 65,
+		value_1 = "88",
+		base = 1440
 	},
-	[1520] = {
+	[1449] = {
+		id = 1449,
+		value_2 = 70,
+		value_1 = "94",
+		base = 1440
+	},
+	[1450] = {
+		id = 1450,
+		value_2 = 75,
+		value_1 = "100",
+		base = 1440
+	},
+	[1451] = {
+		id = 1451,
+		anti_siren = 100,
+		base = 1440,
+		value_2 = 80,
+		value_1 = "106"
+	},
+	[1452] = {
+		id = 1452,
+		anti_siren = 200,
+		base = 1440,
+		value_2 = 85,
+		value_1 = "112"
+	},
+	[1453] = {
+		id = 1453,
+		anti_siren = 300,
+		base = 1440,
+		value_2 = 90,
+		value_1 = "118"
+	},
+	[1500] = {
 		name = "SGレーダー",
-		tech = 2,
+		tech = 1,
 		type = 10,
 		speciality = "なし",
-		id = 1520,
-		value_2 = 4,
+		id = 1500,
+		value_2 = 2,
 		icon = "1500",
-		value_1 = "9",
+		value_1 = "6",
 		attribute_2 = "dodge",
-		rarity = 4,
+		rarity = 3,
 		descrip = "ユニオンの先鋭電探。予想外の接敵を防ぐことができる",
 		nationality = 1,
 		ammo = 10,
@@ -61,7 +94,7 @@ pg.equip_data_statistics_33 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6050
+			6040
 		},
 		part_main = {
 			1,
@@ -94,8 +127,8 @@ pg.equip_data_statistics_33 = {
 			19
 		},
 		equip_parameters = {
-			avoid_extra = 800,
-			ambush_extra = 800
+			avoid_extra = 500,
+			ambush_extra = 500
 		},
 		label = {
 			"USS",
@@ -103,57 +136,28 @@ pg.equip_data_statistics_33 = {
 			"SG"
 		}
 	},
-	[1521] = {
-		id = 1521,
-		value_1 = "11",
-		base = 1520
+	[1501] = {
+		id = 1501,
+		value_2 = 3,
+		value_1 = "7",
+		base = 1500
 	},
-	[1522] = {
-		id = 1522,
-		value_2 = 5,
-		value_1 = "12",
-		base = 1520
+	[1502] = {
+		id = 1502,
+		value_2 = 3,
+		value_1 = "8",
+		base = 1500
 	},
-	[1523] = {
-		id = 1523,
-		value_2 = 6,
-		value_1 = "14",
-		base = 1520
+	[1503] = {
+		id = 1503,
+		value_2 = 3,
+		value_1 = "9",
+		base = 1500
 	},
-	[1524] = {
-		id = 1524,
-		value_2 = 6,
-		value_1 = "15",
-		base = 1520
-	},
-	[1525] = {
-		id = 1525,
-		value_2 = 7,
-		value_1 = "17",
-		base = 1520
-	},
-	[1526] = {
-		id = 1526,
-		value_2 = 7,
-		value_1 = "18",
-		base = 1520
-	},
-	[1527] = {
-		id = 1527,
-		value_2 = 8,
-		value_1 = "20",
-		base = 1520
-	},
-	[1528] = {
-		id = 1528,
-		value_2 = 9,
-		value_1 = "21",
-		base = 1520
-	},
-	[1529] = {
-		id = 1529,
-		value_2 = 9,
-		value_1 = "23",
-		base = 1520
+	[1504] = {
+		id = 1504,
+		value_2 = 4,
+		value_1 = "10",
+		base = 1500
 	}
 }

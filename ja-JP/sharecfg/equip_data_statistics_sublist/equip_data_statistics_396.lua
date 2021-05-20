@@ -1,5 +1,161 @@
 pg = pg or {}
 pg.equip_data_statistics_396 = {
+	[90445] = {
+		id = 90445,
+		damage = "83 x 4",
+		base = 90440,
+		weapon_id = {
+			90445
+		}
+	},
+	[90446] = {
+		id = 90446,
+		damage = "90 x 4",
+		base = 90440,
+		weapon_id = {
+			90446
+		}
+	},
+	[90447] = {
+		id = 90447,
+		damage = "97 x 4",
+		base = 90440,
+		weapon_id = {
+			90447
+		}
+	},
+	[90448] = {
+		id = 90448,
+		damage = "104 x 4",
+		base = 90440,
+		weapon_id = {
+			90448
+		}
+	},
+	[90449] = {
+		id = 90449,
+		damage = "112 x 4",
+		base = 90440,
+		weapon_id = {
+			90449
+		}
+	},
+	[90450] = {
+		id = 90450,
+		damage = "120 x 4",
+		base = 90440,
+		weapon_id = {
+			90450
+		}
+	},
+	[90451] = {
+		anti_siren = 100,
+		damage = "120 x 4",
+		base = 90440,
+		id = 90451,
+		weapon_id = {
+			90451
+		}
+	},
+	[90452] = {
+		anti_siren = 200,
+		damage = "120 x 4",
+		base = 90440,
+		id = 90452,
+		weapon_id = {
+			90452
+		}
+	},
+	[90453] = {
+		anti_siren = 300,
+		damage = "120 x 4",
+		base = 90440,
+		id = 90453,
+		weapon_id = {
+			90453
+		}
+	},
+	[90500] = {
+		name = "130mm連装砲Mle1935",
+		speciality = "追尾",
+		type = 1,
+		tech = 1,
+		descrip = "0",
+		value_2 = 5,
+		icon = "50500",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "9 x 2",
+		nationality = 8,
+		ammo = 3,
+		value_3 = 0,
+		id = 90500,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2200
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2200
+			},
+			{
+				4,
+				1011
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90500
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
+	},
+	[90501] = {
+		id = 90501,
+		base = 90500,
+		weapon_id = {
+			90501
+		}
+	},
+	[90502] = {
+		id = 90502,
+		damage = "10 x 2",
+		base = 90500,
+		weapon_id = {
+			90502
+		}
+	},
 	[90503] = {
 		id = 90503,
 		damage = "10 x 2",
@@ -84,163 +240,6 @@ pg.equip_data_statistics_396 = {
 		base = 90600,
 		weapon_id = {
 			90602
-		}
-	},
-	[90603] = {
-		id = 90603,
-		damage = "50/回",
-		base = 90600,
-		weapon_id = {
-			90603
-		}
-	},
-	[90604] = {
-		id = 90604,
-		damage = "54/回",
-		base = 90600,
-		weapon_id = {
-			90604
-		}
-	},
-	[90605] = {
-		id = 90605,
-		damage = "58/回",
-		base = 90600,
-		weapon_id = {
-			90605
-		}
-	},
-	[90606] = {
-		id = 90606,
-		damage = "62/回",
-		base = 90600,
-		weapon_id = {
-			90606
-		}
-	},
-	[90607] = {
-		id = 90607,
-		damage = "66/回",
-		base = 90600,
-		weapon_id = {
-			90607
-		}
-	},
-	[90608] = {
-		id = 90608,
-		damage = "70/回",
-		base = 90600,
-		weapon_id = {
-			90608
-		}
-	},
-	[90609] = {
-		id = 90609,
-		damage = "74/回",
-		base = 90600,
-		weapon_id = {
-			90609
-		}
-	},
-	[90610] = {
-		id = 90610,
-		damage = "78/回",
-		base = 90600,
-		weapon_id = {
-			90610
-		}
-	},
-	[90611] = {
-		anti_siren = 100,
-		damage = "78/回",
-		base = 90600,
-		id = 90611,
-		weapon_id = {
-			90611
-		}
-	},
-	[90612] = {
-		anti_siren = 200,
-		damage = "78/回",
-		base = 90600,
-		id = 90612,
-		weapon_id = {
-			90612
-		}
-	},
-	[90613] = {
-		anti_siren = 300,
-		damage = "78/回",
-		base = 90600,
-		id = 90613,
-		weapon_id = {
-			90613
-		}
-	},
-	[90700] = {
-		name = "138.6mm単装砲Mle1927",
-		speciality = "追尾",
-		type = 1,
-		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "50700",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "4 x 4",
-		nationality = 8,
-		ammo = 3,
-		value_3 = 0,
-		id = 90700,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2200
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2200
-			},
-			{
-				4,
-				1025
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90700
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"DD",
-			"MG"
 		}
 	}
 }

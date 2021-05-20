@@ -119,21 +119,21 @@ pg.equip_data_statistics_22 = {
 		value_2 = 26,
 		value_1 = "59"
 	},
-	[1000] = {
-		name = "艦艇修理施設",
-		tech = 1,
+	[940] = {
+		name = "作戦記録：AF",
+		tech = 0,
 		type = 10,
 		speciality = "なし",
 		attribute_1 = "durability",
 		value_2 = 0,
-		icon = "1000",
-		value_1 = "90",
-		descrip = "損傷修理用の装置。工作艦のみ装備可能",
-		rarity = 3,
-		nationality = 0,
+		icon = "940",
+		value_1 = "250",
+		descrip = "とある戦闘を記録した報告資料。…一部の内容が欠落しているようだ",
+		rarity = 4,
+		nationality = 1,
 		ammo = 10,
 		value_3 = 0,
-		id = 1000,
+		id = 940,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -143,22 +143,19 @@ pg.equip_data_statistics_22 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			10
+			6850
 		},
-		part_main = {
-			12
-		},
-		part_sub = {
-			12
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
+			"USS",
 			"DEV"
 		}
 	},
-	[1001] = {
-		id = 1001,
-		value_1 = "103",
-		base = 1000
+	[941] = {
+		id = 941,
+		value_1 = "280",
+		base = 940
 	}
 }

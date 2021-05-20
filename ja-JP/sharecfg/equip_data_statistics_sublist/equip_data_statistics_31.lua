@@ -1,52 +1,72 @@
 pg = pg or {}
 pg.equip_data_statistics_31 = {
-	[1401] = {
-		id = 1401,
-		value_2 = 21,
-		value_1 = "20",
-		base = 1400
+	[1341] = {
+		id = 1341,
+		value_1 = "161",
+		base = 1340
 	},
-	[1402] = {
-		id = 1402,
-		value_2 = 24,
-		value_1 = "23",
-		base = 1400
+	[1342] = {
+		id = 1342,
+		value_1 = "182",
+		base = 1340
 	},
-	[1403] = {
-		id = 1403,
-		value_2 = 27,
-		value_1 = "26",
-		base = 1400
+	[1343] = {
+		id = 1343,
+		value_1 = "203",
+		base = 1340
 	},
-	[1404] = {
-		id = 1404,
-		value_2 = 30,
-		value_1 = "28",
-		base = 1400
+	[1344] = {
+		id = 1344,
+		value_1 = "224",
+		base = 1340
 	},
-	[1405] = {
-		id = 1405,
-		value_2 = 33,
-		value_1 = "31",
-		base = 1400
+	[1345] = {
+		id = 1345,
+		value_1 = "245",
+		base = 1340
 	},
-	[1406] = {
-		id = 1406,
-		value_2 = 36,
-		value_1 = "34",
-		base = 1400
+	[1346] = {
+		id = 1346,
+		value_1 = "266",
+		base = 1340
 	},
-	[1420] = {
+	[1347] = {
+		id = 1347,
+		value_1 = "287",
+		base = 1340
+	},
+	[1348] = {
+		id = 1348,
+		value_1 = "308",
+		base = 1340
+	},
+	[1349] = {
+		id = 1349,
+		value_1 = "329",
+		base = 1340
+	},
+	[1350] = {
+		id = 1350,
+		value_1 = "350",
+		base = 1340
+	},
+	[1351] = {
+		id = 1351,
+		anti_siren = 100,
+		value_1 = "371",
+		base = 1340
+	},
+	[1400] = {
 		name = "油圧カタパルト",
-		tech = 2,
+		tech = 1,
 		type = 10,
 		speciality = "なし",
-		id = 1420,
-		value_2 = 20,
+		id = 1400,
+		value_2 = 18,
 		icon = "1400",
-		value_1 = "28",
+		value_1 = "18",
 		attribute_2 = "durability",
-		rarity = 4,
+		rarity = 3,
 		descrip = "発艦用カタパルト。航空を上げることができる",
 		nationality = 0,
 		ammo = 10,
@@ -76,58 +96,28 @@ pg.equip_data_statistics_31 = {
 			"DEV"
 		}
 	},
-	[1421] = {
-		id = 1421,
+	[1401] = {
+		id = 1401,
+		value_2 = 21,
+		value_1 = "20",
+		base = 1400
+	},
+	[1402] = {
+		id = 1402,
 		value_2 = 24,
-		value_1 = "32",
-		base = 1420
+		value_1 = "23",
+		base = 1400
 	},
-	[1422] = {
-		id = 1422,
-		value_2 = 28,
-		value_1 = "36",
-		base = 1420
+	[1403] = {
+		id = 1403,
+		value_2 = 27,
+		value_1 = "26",
+		base = 1400
 	},
-	[1423] = {
-		id = 1423,
-		value_2 = 32,
-		value_1 = "40",
-		base = 1420
-	},
-	[1424] = {
-		id = 1424,
-		value_2 = 36,
-		value_1 = "44",
-		base = 1420
-	},
-	[1425] = {
-		id = 1425,
-		value_2 = 40,
-		value_1 = "49",
-		base = 1420
-	},
-	[1426] = {
-		id = 1426,
-		value_2 = 44,
-		value_1 = "53",
-		base = 1420
-	},
-	[1427] = {
-		id = 1427,
-		value_2 = 48,
-		value_1 = "57",
-		base = 1420
-	},
-	[1428] = {
-		id = 1428,
-		value_2 = 52,
-		value_1 = "61",
-		base = 1420
-	},
-	[1429] = {
-		id = 1429,
-		value_2 = 56,
-		value_1 = "65",
-		base = 1420
+	[1404] = {
+		id = 1404,
+		value_2 = 30,
+		value_1 = "28",
+		base = 1400
 	}
 }

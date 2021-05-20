@@ -520,6 +520,11 @@ pg.player_resource = {
 		name = "xiaotiancheng_pt",
 		itemid = 59211
 	},
+	[199] = {
+		id = 199,
+		name = "meixivxframept",
+		itemid = 59212
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -938,6 +943,9 @@ pg.player_resource = {
 		xiaotiancheng_pt = {
 			198
 		},
+		meixivxframept = {
+			199
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1107,6 +1115,7 @@ pg.player_resource = {
 		196,
 		197,
 		198,
+		199,
 		950,
 		951,
 		952,
