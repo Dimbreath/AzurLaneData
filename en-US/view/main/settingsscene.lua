@@ -163,6 +163,21 @@ function slot0.initResDownloadPanel(slot0, slot1)
 	onButton(slot0, slot0.repairBtn, function ()
 		showRepairMsgbox()
 	end, SFX_PANEL)
+
+	if PLATFORM_CODE == PLATFORM_US then
+		slot0.clearBtn = slot0:findTF("main/resources/mask/main_panel/settings/buttons/clear")
+
+		setActive(slot0.clearBtn, true)
+		onButton(slot0, slot0.clearBtn, function ()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = "All the Assets Data will now be removed and reinstalled. Please only use this option when repair assets failed multiple times.",
+				onYes = function ()
+					VersionMgr.Inst:DeleteCacheFiles()
+					Application.Quit()
+				end
+			})
+		end)
+	end
 end
 
 function slot0.initSoundPanel(slot0, slot1)
