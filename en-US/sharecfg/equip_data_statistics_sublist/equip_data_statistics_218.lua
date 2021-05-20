@@ -1,5 +1,161 @@
 pg = pg or {}
 pg.equip_data_statistics_218 = {
+	[31280] = {
+		name = "Twin 127mm Type 3 Kai Naval Gun Mount",
+		speciality = "Lock",
+		type = 1,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "31280",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "4 x 4",
+		nationality = 3,
+		ammo = 2,
+		value_3 = 0,
+		id = 31280,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1206
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1206
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			31280
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG",
+			"HE"
+		}
+	},
+	[31281] = {
+		id = 31281,
+		damage = "5 x 4",
+		base = 31280,
+		weapon_id = {
+			31281
+		}
+	},
+	[31282] = {
+		id = 31282,
+		damage = "6 x 4",
+		base = 31280,
+		weapon_id = {
+			31282
+		}
+	},
+	[31283] = {
+		id = 31283,
+		damage = "7 x 4",
+		base = 31280,
+		weapon_id = {
+			31283
+		}
+	},
+	[31284] = {
+		id = 31284,
+		damage = "8 x 4",
+		base = 31280,
+		weapon_id = {
+			31284
+		}
+	},
+	[31285] = {
+		id = 31285,
+		damage = "9 x 4",
+		base = 31280,
+		weapon_id = {
+			31285
+		}
+	},
+	[31286] = {
+		id = 31286,
+		damage = "10 x 4",
+		base = 31280,
+		weapon_id = {
+			31286
+		}
+	},
+	[31287] = {
+		id = 31287,
+		damage = "11 x 4",
+		base = 31280,
+		weapon_id = {
+			31287
+		}
+	},
+	[31288] = {
+		id = 31288,
+		damage = "12 x 4",
+		base = 31280,
+		weapon_id = {
+			31288
+		}
+	},
+	[31289] = {
+		id = 31289,
+		damage = "13 x 4",
+		base = 31280,
+		weapon_id = {
+			31289
+		}
+	},
+	[31290] = {
+		id = 31290,
+		damage = "14 x 4",
+		base = 31280,
+		weapon_id = {
+			31290
+		}
+	},
+	[31291] = {
+		anti_siren = 100,
+		damage = "14 x 4",
+		base = 31280,
+		id = 31291,
+		weapon_id = {
+			31291
+		}
+	},
 	[32000] = {
 		name = "Single 140mm Naval Gun",
 		speciality = "Lock",
@@ -139,205 +295,6 @@ pg.equip_data_statistics_218 = {
 			"IJN",
 			"CL",
 			"MG"
-		}
-	},
-	[32021] = {
-		id = 32021,
-		damage = "7 x 3",
-		base = 32020,
-		weapon_id = {
-			32021
-		}
-	},
-	[32022] = {
-		id = 32022,
-		damage = "8 x 3",
-		base = 32020,
-		weapon_id = {
-			32022
-		}
-	},
-	[32023] = {
-		id = 32023,
-		damage = "9 x 3",
-		base = 32020,
-		weapon_id = {
-			32023
-		}
-	},
-	[32040] = {
-		name = "Single 140mm Naval Gun",
-		speciality = "Lock",
-		type = 2,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "32000",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "7 x 3",
-		nationality = 3,
-		ammo = 2,
-		value_3 = 0,
-		id = 32040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1207
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1207
-			},
-			{
-				4,
-				1003
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			32040
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CL",
-			"MG"
-		}
-	},
-	[32041] = {
-		id = 32041,
-		damage = "8 x 3",
-		base = 32040,
-		weapon_id = {
-			32041
-		}
-	},
-	[32042] = {
-		id = 32042,
-		damage = "9 x 3",
-		base = 32040,
-		weapon_id = {
-			32042
-		}
-	},
-	[32043] = {
-		id = 32043,
-		damage = "10 x 3",
-		base = 32040,
-		weapon_id = {
-			32043
-		}
-	},
-	[32044] = {
-		id = 32044,
-		damage = "11 x 3",
-		base = 32040,
-		weapon_id = {
-			32044
-		}
-	},
-	[32045] = {
-		id = 32045,
-		damage = "12 x 3",
-		base = 32040,
-		weapon_id = {
-			32045
-		}
-	},
-	[32046] = {
-		id = 32046,
-		damage = "13 x 3",
-		base = 32040,
-		weapon_id = {
-			32046
-		}
-	},
-	[32047] = {
-		id = 32047,
-		damage = "13 x 3",
-		base = 32040,
-		weapon_id = {
-			32047
-		}
-	},
-	[32060] = {
-		name = "Single 152mm Pattern 1892 Naval Gun Mount",
-		speciality = "Lock",
-		type = 2,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "32060",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "6 x 3",
-		nationality = 3,
-		ammo = 2,
-		value_3 = 0,
-		id = 32060,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1207
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1207
-			},
-			{
-				4,
-				1003
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			32060
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CL",
-			"MG",
-			"HE"
 		}
 	}
 }

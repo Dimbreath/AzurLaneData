@@ -1,5 +1,155 @@
 pg = pg or {}
 pg.equip_data_statistics_364 = {
+	[85386] = {
+		id = 85386,
+		damage = "64/wave",
+		base = 85380,
+		weapon_id = {
+			85386
+		}
+	},
+	[85400] = {
+		name = "Twin 100mm B-34 MZ-14 Dual-Purpose AA Gun",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "85360",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "38/wave",
+		nationality = 7,
+		ammo = 5,
+		value_3 = 0,
+		id = 85400,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			85400
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85401] = {
+		id = 85401,
+		damage = "42/wave",
+		base = 85400,
+		weapon_id = {
+			85401
+		}
+	},
+	[85402] = {
+		id = 85402,
+		damage = "47/wave",
+		base = 85400,
+		weapon_id = {
+			85402
+		}
+	},
+	[85403] = {
+		id = 85403,
+		damage = "53/wave",
+		base = 85400,
+		weapon_id = {
+			85403
+		}
+	},
+	[85404] = {
+		id = 85404,
+		damage = "59/wave",
+		base = 85400,
+		weapon_id = {
+			85404
+		}
+	},
+	[85405] = {
+		id = 85405,
+		damage = "65/wave",
+		base = 85400,
+		weapon_id = {
+			85405
+		}
+	},
+	[85406] = {
+		id = 85406,
+		damage = "71/wave",
+		base = 85400,
+		weapon_id = {
+			85406
+		}
+	},
+	[85407] = {
+		id = 85407,
+		damage = "77/wave",
+		base = 85400,
+		weapon_id = {
+			85407
+		}
+	},
+	[85408] = {
+		id = 85408,
+		damage = "83/wave",
+		base = 85400,
+		weapon_id = {
+			85408
+		}
+	},
+	[85409] = {
+		id = 85409,
+		damage = "89/wave",
+		base = 85400,
+		weapon_id = {
+			85409
+		}
+	},
+	[85410] = {
+		id = 85410,
+		damage = "96/wave",
+		base = 85400,
+		weapon_id = {
+			85410
+		}
+	},
 	[85411] = {
 		anti_siren = 100,
 		damage = "96/wave",
@@ -84,153 +234,6 @@ pg.equip_data_statistics_364 = {
 		base = 85420,
 		weapon_id = {
 			85423
-		}
-	},
-	[85424] = {
-		id = 85424,
-		damage = "76 x 3",
-		base = 85420,
-		weapon_id = {
-			85424
-		}
-	},
-	[85425] = {
-		id = 85425,
-		damage = "84 x 3",
-		base = 85420,
-		weapon_id = {
-			85425
-		}
-	},
-	[85426] = {
-		id = 85426,
-		damage = "92 x 3",
-		base = 85420,
-		weapon_id = {
-			85426
-		}
-	},
-	[85427] = {
-		id = 85427,
-		damage = "92 x 3",
-		base = 85420,
-		weapon_id = {
-			85427
-		}
-	},
-	[85440] = {
-		name = "Twin 152mm Pattern 1892 Main Gun Mount",
-		speciality = "Lock",
-		type = 2,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "85440",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "8 x 4",
-		nationality = 7,
-		ammo = 3,
-		value_3 = 0,
-		id = 85440,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1001
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1001
-			},
-			{
-				4,
-				1101
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			85440
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"CL",
-			"MG"
-		}
-	},
-	[85441] = {
-		id = 85441,
-		damage = "9 x 4",
-		base = 85440,
-		weapon_id = {
-			85441
-		}
-	},
-	[85442] = {
-		id = 85442,
-		damage = "10 x 4",
-		base = 85440,
-		weapon_id = {
-			85442
-		}
-	},
-	[85443] = {
-		id = 85443,
-		damage = "11 x 4",
-		base = 85440,
-		weapon_id = {
-			85443
-		}
-	},
-	[85444] = {
-		id = 85444,
-		damage = "12 x 4",
-		base = 85440,
-		weapon_id = {
-			85444
-		}
-	},
-	[85445] = {
-		id = 85445,
-		damage = "13 x 4",
-		base = 85440,
-		weapon_id = {
-			85445
-		}
-	},
-	[85446] = {
-		id = 85446,
-		damage = "14 x 4",
-		base = 85440,
-		weapon_id = {
-			85446
-		}
-	},
-	[85447] = {
-		id = 85447,
-		damage = "14 x 4",
-		base = 85440,
-		weapon_id = {
-			85447
 		}
 	}
 }

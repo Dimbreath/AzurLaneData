@@ -190,6 +190,8 @@ function slot10.ResetVelocity(slot0, slot1)
 
 		if slot3.velocity_offset then
 			slot1 = math.random(slot1 - slot3.velocity_offset, slot1 + slot3.velocity_offset)
+		elseif slot3.velocity_offsetF then
+			slot1 = slot1 + math.random() * 2 * slot3.velocity_offsetF - slot3.velocity_offsetF
 		end
 	end
 
@@ -237,8 +239,19 @@ function slot10.SetModleID(slot0, slot1)
 end
 
 function slot10.SetShiftInfo(slot0, slot1, slot2)
-	slot0._offsetX = slot1
-	slot0._offsetZ = slot2
+	slot3 = 0
+	slot4 = 0
+
+	if slot0:GetTemplate().extra_param.randomLaunchOffsetX then
+		slot3 = math.random() * slot5.randomLaunchOffsetX * 2 - slot5.randomLaunchOffsetX
+	end
+
+	if slot5.randomLaunchOffsetZ then
+		slot4 = math.random() * slot5.randomLaunchOffsetZ * 2 - slot5.randomLaunchOffsetZ
+	end
+
+	slot0._offsetX = slot1 + slot3
+	slot0._offsetZ = slot2 + slot4
 end
 
 function slot10.SetRotateInfo(slot0, slot1, slot2, slot3)

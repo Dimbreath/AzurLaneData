@@ -1,5 +1,245 @@
 pg = pg or {}
 pg.equip_data_statistics_209 = {
+	[29146] = {
+		id = 29146,
+		base = 29140,
+		ammo_info = {
+			{
+				6,
+				50246
+			},
+			{
+				5,
+				52146
+			}
+		},
+		weapon_id = {
+			29146
+		}
+	},
+	[29147] = {
+		id = 29147,
+		base = 29140,
+		ammo_info = {
+			{
+				6,
+				50247
+			},
+			{
+				5,
+				52147
+			}
+		},
+		weapon_id = {
+			29147
+		}
+	},
+	[29148] = {
+		id = 29148,
+		base = 29140,
+		ammo_info = {
+			{
+				6,
+				50248
+			},
+			{
+				5,
+				52148
+			}
+		},
+		weapon_id = {
+			29148
+		}
+	},
+	[29149] = {
+		id = 29149,
+		base = 29140,
+		ammo_info = {
+			{
+				6,
+				50249
+			},
+			{
+				5,
+				52149
+			}
+		},
+		weapon_id = {
+			29149
+		}
+	},
+	[29150] = {
+		id = 29150,
+		base = 29140,
+		ammo_info = {
+			{
+				6,
+				50250
+			},
+			{
+				5,
+				52150
+			}
+		},
+		weapon_id = {
+			29150
+		}
+	},
+	[29151] = {
+		anti_siren = 100,
+		base = 29140,
+		id = 29151,
+		ammo_info = {
+			{
+				6,
+				50251
+			},
+			{
+				5,
+				52151
+			}
+		},
+		weapon_id = {
+			29151
+		}
+	},
+	[29200] = {
+		name = "Firefly",
+		type = 9,
+		speciality = "Bomber",
+		rarity = 5,
+		tech = 0,
+		descrip = "This aircraft was developed as a successor to the Fairey Fulmar. There are many variants on the Firefly design; this is the basic model that features four 20mm cannons and two 1,000-pound bombs.",
+		value_2 = 45,
+		icon = "29200",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 29200,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50660
+			},
+			{
+				5,
+				52740
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			29200
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		}
+	},
+	[29201] = {
+		id = 29201,
+		base = 29200,
+		ammo_info = {
+			{
+				6,
+				50661
+			},
+			{
+				5,
+				52741
+			}
+		},
+		weapon_id = {
+			29201
+		}
+	},
+	[29202] = {
+		id = 29202,
+		base = 29200,
+		ammo_info = {
+			{
+				6,
+				50662
+			},
+			{
+				5,
+				52742
+			}
+		},
+		weapon_id = {
+			29202
+		}
+	},
+	[29203] = {
+		id = 29203,
+		base = 29200,
+		ammo_info = {
+			{
+				6,
+				50663
+			},
+			{
+				5,
+				52743
+			}
+		},
+		weapon_id = {
+			29203
+		}
+	},
+	[29204] = {
+		id = 29204,
+		base = 29200,
+		ammo_info = {
+			{
+				6,
+				50664
+			},
+			{
+				5,
+				52744
+			}
+		},
+		weapon_id = {
+			29204
+		}
+	},
+	[29205] = {
+		id = 29205,
+		base = 29200,
+		ammo_info = {
+			{
+				6,
+				50665
+			},
+			{
+				5,
+				52745
+			}
+		},
+		weapon_id = {
+			29205
+		}
+	},
 	[29206] = {
 		id = 29206,
 		base = 29200,
@@ -83,274 +323,6 @@ pg.equip_data_statistics_209 = {
 		},
 		weapon_id = {
 			29210
-		}
-	},
-	[29211] = {
-		anti_siren = 100,
-		base = 29200,
-		id = 29211,
-		ammo_info = {
-			{
-				6,
-				50671
-			},
-			{
-				5,
-				52751
-			}
-		},
-		weapon_id = {
-			29211
-		}
-	},
-	[29212] = {
-		anti_siren = 200,
-		base = 29200,
-		id = 29212,
-		ammo_info = {
-			{
-				6,
-				50672
-			},
-			{
-				5,
-				52752
-			}
-		},
-		weapon_id = {
-			29212
-		}
-	},
-	[29213] = {
-		anti_siren = 300,
-		base = 29200,
-		id = 29213,
-		ammo_info = {
-			{
-				6,
-				50673
-			},
-			{
-				5,
-				52753
-			}
-		},
-		weapon_id = {
-			29213
-		}
-	},
-	[29300] = {
-		name = "Barracuda (831 Squadron)",
-		type = 9,
-		speciality = "Bomber",
-		rarity = 5,
-		tech = 0,
-		descrip = "Aircraft from the 831 Naval Air Squadron, equipped with 1,600-pound armor-piercing bombs which were dropped on Tirpitz during Operation Tungsten.",
-		value_2 = 45,
-		icon = "29300",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 29300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50040
-			},
-			{
-				5,
-				53280
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			29300
-		},
-		skill_id = {
-			6830
-		},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"DB"
-		}
-	},
-	[29301] = {
-		base = 29300,
-		id = 29301,
-		ammo_info = {
-			{
-				6,
-				50041
-			},
-			{
-				5,
-				53281
-			}
-		},
-		weapon_id = {
-			29301
-		},
-		skill_id = {
-			6831
-		}
-	},
-	[29302] = {
-		base = 29300,
-		id = 29302,
-		ammo_info = {
-			{
-				6,
-				50042
-			},
-			{
-				5,
-				53282
-			}
-		},
-		weapon_id = {
-			29302
-		},
-		skill_id = {
-			6832
-		}
-	},
-	[29303] = {
-		base = 29300,
-		id = 29303,
-		ammo_info = {
-			{
-				6,
-				50043
-			},
-			{
-				5,
-				53283
-			}
-		},
-		weapon_id = {
-			29303
-		},
-		skill_id = {
-			6833
-		}
-	},
-	[29304] = {
-		base = 29300,
-		id = 29304,
-		ammo_info = {
-			{
-				6,
-				50044
-			},
-			{
-				5,
-				53284
-			}
-		},
-		weapon_id = {
-			29304
-		},
-		skill_id = {
-			6834
-		}
-	},
-	[29305] = {
-		base = 29300,
-		id = 29305,
-		ammo_info = {
-			{
-				6,
-				50045
-			},
-			{
-				5,
-				53285
-			}
-		},
-		weapon_id = {
-			29305
-		},
-		skill_id = {
-			6835
-		}
-	},
-	[29306] = {
-		base = 29300,
-		id = 29306,
-		ammo_info = {
-			{
-				6,
-				50046
-			},
-			{
-				5,
-				53286
-			}
-		},
-		weapon_id = {
-			29306
-		},
-		skill_id = {
-			6836
-		}
-	},
-	[29307] = {
-		base = 29300,
-		id = 29307,
-		ammo_info = {
-			{
-				6,
-				50047
-			},
-			{
-				5,
-				53287
-			}
-		},
-		weapon_id = {
-			29307
-		},
-		skill_id = {
-			6837
-		}
-	},
-	[29308] = {
-		base = 29300,
-		id = 29308,
-		ammo_info = {
-			{
-				6,
-				50048
-			},
-			{
-				5,
-				53288
-			}
-		},
-		weapon_id = {
-			29308
-		},
-		skill_id = {
-			6838
 		}
 	}
 }

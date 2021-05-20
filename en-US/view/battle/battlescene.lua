@@ -43,7 +43,7 @@ end
 
 function slot0.init(slot0)
 	uv0 = ys.Battle.BattleVariable
-	slot1 = GameObject.Find("MainCamera")
+	slot1 = pg.UIMgr.GetInstance():GetMainCamera()
 	slot0.uiCanvas = findTF(GameObject.Find("UICamera"), "Canvas/UIMain")
 	slot0.skillTips = slot0:findTF("Skill_Activation")
 	slot0.skillRoot = slot0:findTF("Skill_Activation/Root")

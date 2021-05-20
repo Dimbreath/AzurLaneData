@@ -1,5 +1,154 @@
 pg = pg or {}
 pg.equip_data_statistics_224 = {
+	[32340] = {
+		name = "Twin 152mm Naval Gun Mount",
+		speciality = "Scatter",
+		type = 2,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "32300",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "8 x 4",
+		nationality = 3,
+		ammo = 2,
+		value_3 = 0,
+		id = 32340,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1207
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1207
+			},
+			{
+				4,
+				1101
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			32340
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CL",
+			"MG",
+			"HE"
+		}
+	},
+	[32341] = {
+		id = 32341,
+		damage = "9 x 4",
+		base = 32340,
+		weapon_id = {
+			32341
+		}
+	},
+	[32342] = {
+		id = 32342,
+		damage = "10 x 4",
+		base = 32340,
+		weapon_id = {
+			32342
+		}
+	},
+	[32343] = {
+		id = 32343,
+		damage = "11 x 4",
+		base = 32340,
+		weapon_id = {
+			32343
+		}
+	},
+	[32344] = {
+		id = 32344,
+		damage = "12 x 4",
+		base = 32340,
+		weapon_id = {
+			32344
+		}
+	},
+	[32345] = {
+		id = 32345,
+		damage = "13 x 4",
+		base = 32340,
+		weapon_id = {
+			32345
+		}
+	},
+	[32346] = {
+		id = 32346,
+		damage = "14 x 4",
+		base = 32340,
+		weapon_id = {
+			32346
+		}
+	},
+	[32347] = {
+		id = 32347,
+		damage = "15 x 4",
+		base = 32340,
+		weapon_id = {
+			32347
+		}
+	},
+	[32348] = {
+		id = 32348,
+		damage = "16 x 4",
+		base = 32340,
+		weapon_id = {
+			32348
+		}
+	},
+	[32349] = {
+		id = 32349,
+		damage = "17 x 4",
+		base = 32340,
+		weapon_id = {
+			32349
+		}
+	},
+	[32350] = {
+		id = 32350,
+		damage = "18 x 4",
+		base = 32340,
+		weapon_id = {
+			32350
+		}
+	},
+	[32351] = {
+		anti_siren = 100,
+		damage = "18 x 4",
+		base = 32340,
+		id = 32351,
+		weapon_id = {
+			32351
+		}
+	},
 	[33000] = {
 		name = "Twin 203mm Naval Gun Mount",
 		speciality = "Lock",
@@ -140,153 +289,6 @@ pg.equip_data_statistics_224 = {
 			"CA",
 			"MG",
 			"HE"
-		}
-	},
-	[33021] = {
-		id = 33021,
-		damage = "26 x 4",
-		base = 33020,
-		weapon_id = {
-			33021
-		}
-	},
-	[33022] = {
-		id = 33022,
-		damage = "28 x 4",
-		base = 33020,
-		weapon_id = {
-			33022
-		}
-	},
-	[33023] = {
-		id = 33023,
-		damage = "30 x 4",
-		base = 33020,
-		weapon_id = {
-			33023
-		}
-	},
-	[33024] = {
-		id = 33024,
-		damage = "32 x 4",
-		base = 33020,
-		weapon_id = {
-			33024
-		}
-	},
-	[33025] = {
-		id = 33025,
-		damage = "34 x 4",
-		base = 33020,
-		weapon_id = {
-			33025
-		}
-	},
-	[33026] = {
-		id = 33026,
-		damage = "36 x 4",
-		base = 33020,
-		weapon_id = {
-			33026
-		}
-	},
-	[33040] = {
-		name = "Twin 203mm Naval Gun Mount",
-		speciality = "Lock",
-		type = 3,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "33000",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "26 x 4",
-		nationality = 3,
-		ammo = 2,
-		value_3 = 0,
-		id = 33040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1402
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1402
-			},
-			{
-				4,
-				1205
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			33040
-		},
-		skill_id = {},
-		part_main = {
-			3,
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CA",
-			"MG",
-			"HE"
-		}
-	},
-	[33041] = {
-		id = 33041,
-		damage = "28 x 4",
-		base = 33040,
-		weapon_id = {
-			33041
-		}
-	},
-	[33042] = {
-		id = 33042,
-		damage = "30 x 4",
-		base = 33040,
-		weapon_id = {
-			33042
-		}
-	},
-	[33043] = {
-		id = 33043,
-		damage = "32 x 4",
-		base = 33040,
-		weapon_id = {
-			33043
-		}
-	},
-	[33044] = {
-		id = 33044,
-		damage = "34 x 4",
-		base = 33040,
-		weapon_id = {
-			33044
-		}
-	},
-	[33045] = {
-		id = 33045,
-		damage = "36 x 4",
-		base = 33040,
-		weapon_id = {
-			33045
 		}
 	}
 }

@@ -1,5 +1,107 @@
 pg = pg or {}
 pg.equip_data_statistics_366 = {
+	[85465] = {
+		id = 85465,
+		damage = "20 x 3",
+		base = 85460,
+		weapon_id = {
+			85465
+		}
+	},
+	[85466] = {
+		id = 85466,
+		damage = "21 x 3",
+		base = 85460,
+		weapon_id = {
+			85466
+		}
+	},
+	[89000] = {
+		name = "Random Word Generator",
+		tech = 0,
+		type = 10,
+		speciality = "N/A",
+		id = 89000,
+		value_2 = 6,
+		icon = "89000",
+		value_1 = "16",
+		attribute_2 = "dodge",
+		rarity = 5,
+		descrip = "A helpful tool for planning. Rumor has it, when the the moon is full, the seas are clear, and the time is right, it will speak to you...?",
+		nationality = 104,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "hit",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6380
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89001] = {
+		id = 89001,
+		base = 89000
+	},
+	[89002] = {
+		id = 89002,
+		value_2 = 7,
+		value_1 = "17",
+		base = 89000
+	},
+	[89003] = {
+		id = 89003,
+		value_2 = 8,
+		value_1 = "18",
+		base = 89000
+	},
+	[89004] = {
+		id = 89004,
+		value_2 = 9,
+		value_1 = "19",
+		base = 89000
+	},
+	[89005] = {
+		id = 89005,
+		value_2 = 10,
+		value_1 = "20",
+		base = 89000
+	},
+	[89006] = {
+		id = 89006,
+		value_2 = 11,
+		value_1 = "21",
+		base = 89000
+	},
+	[89007] = {
+		id = 89007,
+		value_2 = 12,
+		value_1 = "22",
+		base = 89000
+	},
+	[89008] = {
+		id = 89008,
+		value_2 = 13,
+		value_1 = "23",
+		base = 89000
+	},
+	[89009] = {
+		id = 89009,
+		value_2 = 14,
+		value_1 = "24",
+		base = 89000
+	},
 	[89010] = {
 		id = 89010,
 		value_2 = 15,
@@ -60,70 +162,5 @@ pg.equip_data_statistics_366 = {
 		label = {
 			"DEV"
 		}
-	},
-	[89021] = {
-		id = 89021,
-		value_1 = "230",
-		base = 89020
-	},
-	[89022] = {
-		id = 89022,
-		value_1 = "260",
-		base = 89020
-	},
-	[89023] = {
-		id = 89023,
-		value_1 = "290",
-		base = 89020
-	},
-	[89024] = {
-		id = 89024,
-		value_1 = "320",
-		base = 89020
-	},
-	[89025] = {
-		id = 89025,
-		value_1 = "350",
-		base = 89020
-	},
-	[89026] = {
-		id = 89026,
-		value_1 = "380",
-		base = 89020
-	},
-	[89027] = {
-		id = 89027,
-		value_1 = "410",
-		base = 89020
-	},
-	[89028] = {
-		id = 89028,
-		value_1 = "440",
-		base = 89020
-	},
-	[89029] = {
-		id = 89029,
-		value_1 = "470",
-		base = 89020
-	},
-	[89030] = {
-		id = 89030,
-		value_2 = 2,
-		value_1 = "500",
-		base = 89020
-	},
-	[89031] = {
-		id = 89031,
-		anti_siren = 100,
-		base = 89020,
-		value_2 = 2,
-		value_1 = "530"
-	},
-	[89032] = {
-		id = 89032,
-		anti_siren = 200,
-		base = 89020,
-		value_2 = 2,
-		value_1 = "560"
 	}
 }

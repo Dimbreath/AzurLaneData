@@ -216,6 +216,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"Come, and become a pillar for our reborn empire! Let us seize glory together! \"</color> \nObtained from the \"Daedalian Hymn\" event.",
 		scene = {}
 	},
+	[315] = {
+		name = "Voltaic Lightwings",
+		time_second = 0,
+		id = 315,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Obtained from a subsequent event</color>",
+		scene = {}
+	},
 	[501] = {
 		name = "Manjuu Pizzeria Frame ",
 		time_second = 0,
@@ -252,6 +260,7 @@ pg.item_data_frame = {
 		312,
 		313,
 		314,
+		315,
 		501
 	}
 }

@@ -8574,6 +8574,20 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6850] = {
+		desc_get = "",
+		name = "Specialized Tactics - Sakura Empire I",
+		type = 0,
+		max_level = 0,
+		desc = "The ship equipping this item deals 6% more DMG to Sakura Empire enemies (This effect does not stack, only the highest value applies).",
+		id = 6850,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "Rhine Drill",
@@ -63331,7 +63345,7 @@ pg.skill_data_template = {
 	},
 	[800071] = {
 		desc_get = "",
-		name = "Scorched Blade·Hiryuu I",
+		name = "Ashen Might·Hiryuu I",
 		type = 3,
 		max_level = 1,
 		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: this ship deals 3% more DMG. ",
@@ -63347,7 +63361,7 @@ pg.skill_data_template = {
 	},
 	[800072] = {
 		desc_get = "",
-		name = "Scorched Blade·Hiryuu II",
+		name = "Ashen Might·Hiryuu II",
 		type = 3,
 		max_level = 1,
 		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: this ship deals 8% more DMG. ",
@@ -63363,7 +63377,7 @@ pg.skill_data_template = {
 	},
 	[800075] = {
 		desc_get = "",
-		name = "Scorched Blade·Hiryuu I",
+		name = "Ashen Might·Hiryuu I",
 		type = 3,
 		max_level = 1,
 		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: this ship deals 3% more DMG. ",
@@ -63379,7 +63393,7 @@ pg.skill_data_template = {
 	},
 	[800077] = {
 		desc_get = "",
-		name = "Scorched Blade·Hiryuu II",
+		name = "Ashen Might·Hiryuu II",
 		type = 3,
 		max_level = 1,
 		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: this ship deals 8% more DMG. ",
@@ -63395,7 +63409,7 @@ pg.skill_data_template = {
 	},
 	[800081] = {
 		desc_get = "",
-		name = "Scorched Blade·Ark Royal I",
+		name = "Ashen Might·Ark Royal I",
 		type = 3,
 		max_level = 1,
 		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: reduces the DMG your Vanguard takes by 3.0%.",
@@ -63411,7 +63425,7 @@ pg.skill_data_template = {
 	},
 	[800082] = {
 		desc_get = "",
-		name = "Scorched Blade·Ark Royal II",
+		name = "Ashen Might·Ark Royal II",
 		type = 3,
 		max_level = 1,
 		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: reduces the DMG your Vanguard takes by 8.0%.",
@@ -63427,7 +63441,7 @@ pg.skill_data_template = {
 	},
 	[800085] = {
 		desc_get = "",
-		name = "Scorched Blade·Ark Royal I",
+		name = "Ashen Might·Ark Royal I",
 		type = 3,
 		max_level = 1,
 		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: reduces the DMG your Vanguard takes by 3.0%.",
@@ -63443,7 +63457,7 @@ pg.skill_data_template = {
 	},
 	[800087] = {
 		desc_get = "",
-		name = "Scorched Blade·Ark Royal II",
+		name = "Ashen Might·Ark Royal II",
 		type = 3,
 		max_level = 1,
 		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: reduces the DMG your Vanguard takes by 8.0%.",
@@ -63697,6 +63711,7 @@ pg.skill_data_template = {
 		6841,
 		6842,
 		6843,
+		6850,
 		7000,
 		9010,
 		9020,

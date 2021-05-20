@@ -1,5 +1,112 @@
 pg = pg or {}
 pg.equip_data_statistics_52 = {
+	[2803] = {
+		id = 2803,
+		value_2 = 6,
+		value_1 = "32",
+		base = 2800
+	},
+	[2804] = {
+		id = 2804,
+		value_2 = 6,
+		value_1 = "35",
+		base = 2800
+	},
+	[2805] = {
+		id = 2805,
+		value_2 = 7,
+		value_1 = "38",
+		base = 2800
+	},
+	[2806] = {
+		id = 2806,
+		value_2 = 7,
+		value_1 = "42",
+		base = 2800
+	},
+	[2807] = {
+		id = 2807,
+		value_2 = 8,
+		value_1 = "45",
+		base = 2800
+	},
+	[2808] = {
+		id = 2808,
+		value_2 = 8,
+		value_1 = "48",
+		base = 2800
+	},
+	[2809] = {
+		id = 2809,
+		value_2 = 9,
+		value_1 = "51",
+		base = 2800
+	},
+	[2810] = {
+		id = 2810,
+		value_2 = 10,
+		value_1 = "55",
+		base = 2800
+	},
+	[2811] = {
+		id = 2811,
+		anti_siren = 100,
+		base = 2800,
+		value_2 = 11,
+		value_1 = "59"
+	},
+	[2900] = {
+		name = "Basic Sonar",
+		tech = 1,
+		type = 10,
+		speciality = "N/A",
+		id = 2900,
+		value_2 = 1,
+		icon = "2900",
+		value_1 = "1",
+		attribute_2 = "hit",
+		rarity = 2,
+		descrip = "No description",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "antisub",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {
+			1,
+			2
+		},
+		part_sub = {
+			1,
+			2
+		},
+		equip_parameters = {
+			range = 3
+		},
+		label = {
+			"DEV"
+		}
+	},
+	[2901] = {
+		id = 2901,
+		value_2 = 2,
+		value_1 = "2",
+		base = 2900
+	},
+	[2902] = {
+		id = 2902,
+		value_2 = 2,
+		value_1 = "3",
+		base = 2900
+	},
 	[2903] = {
 		id = 2903,
 		value_2 = 3,
@@ -63,112 +170,5 @@ pg.equip_data_statistics_52 = {
 		value_2 = 4,
 		value_1 = "6",
 		base = 2920
-	},
-	[2924] = {
-		id = 2924,
-		value_2 = 4,
-		value_1 = "7",
-		base = 2920
-	},
-	[2925] = {
-		id = 2925,
-		value_2 = 5,
-		value_1 = "8",
-		base = 2920
-	},
-	[2926] = {
-		id = 2926,
-		value_2 = 5,
-		value_1 = "9",
-		base = 2920
-	},
-	[2940] = {
-		name = "Basic Sonar",
-		tech = 3,
-		type = 10,
-		speciality = "N/A",
-		id = 2940,
-		value_2 = 4,
-		icon = "2900",
-		value_1 = "5",
-		attribute_2 = "hit",
-		rarity = 4,
-		descrip = "No description",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "antisub",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6620
-		},
-		part_main = {
-			1,
-			2
-		},
-		part_sub = {
-			1,
-			2
-		},
-		equip_parameters = {
-			range = 5
-		},
-		label = {
-			"DEV"
-		}
-	},
-	[2941] = {
-		id = 2941,
-		value_1 = "6",
-		base = 2940
-	},
-	[2942] = {
-		id = 2942,
-		value_2 = 5,
-		value_1 = "7",
-		base = 2940
-	},
-	[2943] = {
-		id = 2943,
-		value_2 = 5,
-		value_1 = "8",
-		base = 2940
-	},
-	[2944] = {
-		id = 2944,
-		value_2 = 6,
-		value_1 = "9",
-		base = 2940
-	},
-	[2945] = {
-		id = 2945,
-		value_2 = 6,
-		value_1 = "10",
-		base = 2940
-	},
-	[2946] = {
-		id = 2946,
-		value_2 = 7,
-		value_1 = "11",
-		base = 2940
-	},
-	[2947] = {
-		id = 2947,
-		value_2 = 7,
-		value_1 = "12",
-		base = 2940
-	},
-	[2948] = {
-		id = 2948,
-		value_2 = 8,
-		value_1 = "14",
-		base = 2940
 	}
 }

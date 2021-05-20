@@ -153,7 +153,7 @@ function slot0.DebugPrint(slot0)
 
 		for slot7, slot8 in ipairs(slot0.config.event_op) do
 			if slot7 <= #slot0.config.event_op - slot0.dataop then
-				table.insert(slot1, "<color=#00FF00FF>" .. slot8 .. "</color>")
+				table.insert(slot1, setColorStr(slot8, COLOR_GREEN))
 			else
 				table.insert(slot1, slot8)
 			end

@@ -1,5 +1,156 @@
 pg = pg or {}
 pg.equip_data_statistics_179 = {
+	[26063] = {
+		id = 26063,
+		damage = "36/wave",
+		base = 26060,
+		weapon_id = {
+			26063
+		}
+	},
+	[26064] = {
+		id = 26064,
+		damage = "38/wave",
+		base = 26060,
+		weapon_id = {
+			26064
+		}
+	},
+	[26065] = {
+		id = 26065,
+		damage = "40/wave",
+		base = 26060,
+		weapon_id = {
+			26065
+		}
+	},
+	[26066] = {
+		id = 26066,
+		damage = "44/wave",
+		base = 26060,
+		weapon_id = {
+			26066
+		}
+	},
+	[26067] = {
+		id = 26067,
+		damage = "48/wave",
+		base = 26060,
+		weapon_id = {
+			26067
+		}
+	},
+	[26068] = {
+		id = 26068,
+		damage = "54/wave",
+		base = 26060,
+		weapon_id = {
+			26068
+		}
+	},
+	[26069] = {
+		id = 26069,
+		damage = "54/wave",
+		base = 26060,
+		weapon_id = {
+			26069
+		}
+	},
+	[26070] = {
+		id = 26070,
+		damage = "62/wave",
+		base = 26060,
+		weapon_id = {
+			26070
+		}
+	},
+	[26071] = {
+		anti_siren = 100,
+		damage = "62/wave",
+		base = 26060,
+		id = 26071,
+		weapon_id = {
+			26071
+		}
+	},
+	[26100] = {
+		name = "Quadruple 40mm Pom-Pom AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 1,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "26100",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "27/wave",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 26100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			26100
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
+	[26101] = {
+		id = 26101,
+		damage = "31/wave",
+		base = 26100,
+		weapon_id = {
+			26101
+		}
+	},
+	[26102] = {
+		id = 26102,
+		damage = "35/wave",
+		base = 26100,
+		weapon_id = {
+			26102
+		}
+	},
 	[26103] = {
 		id = 26103,
 		damage = "40/wave",
@@ -92,156 +243,6 @@ pg.equip_data_statistics_179 = {
 		base = 26120,
 		weapon_id = {
 			26123
-		}
-	},
-	[26124] = {
-		id = 26124,
-		damage = "50/wave",
-		base = 26120,
-		weapon_id = {
-			26124
-		}
-	},
-	[26125] = {
-		id = 26125,
-		damage = "55/wave",
-		base = 26120,
-		weapon_id = {
-			26125
-		}
-	},
-	[26126] = {
-		id = 26126,
-		damage = "60/wave",
-		base = 26120,
-		weapon_id = {
-			26126
-		}
-	},
-	[26140] = {
-		name = "Quadruple 40mm Pom-Pom AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "26100",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "34/wave",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 26140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			26140
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"ST",
-			"AA"
-		}
-	},
-	[26141] = {
-		id = 26141,
-		damage = "39/wave",
-		base = 26140,
-		weapon_id = {
-			26141
-		}
-	},
-	[26142] = {
-		id = 26142,
-		damage = "44/wave",
-		base = 26140,
-		weapon_id = {
-			26142
-		}
-	},
-	[26143] = {
-		id = 26143,
-		damage = "49/wave",
-		base = 26140,
-		weapon_id = {
-			26143
-		}
-	},
-	[26144] = {
-		id = 26144,
-		damage = "54/wave",
-		base = 26140,
-		weapon_id = {
-			26144
-		}
-	},
-	[26145] = {
-		id = 26145,
-		damage = "59/wave",
-		base = 26140,
-		weapon_id = {
-			26145
-		}
-	},
-	[26146] = {
-		id = 26146,
-		damage = "64/wave",
-		base = 26140,
-		weapon_id = {
-			26146
-		}
-	},
-	[26147] = {
-		id = 26147,
-		damage = "69/wave",
-		base = 26140,
-		weapon_id = {
-			26147
-		}
-	},
-	[26148] = {
-		id = 26148,
-		damage = "74/wave",
-		base = 26140,
-		weapon_id = {
-			26148
 		}
 	}
 }

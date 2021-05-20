@@ -1,5 +1,145 @@
 pg = pg or {}
 pg.equip_data_statistics_97 = {
+	[14022] = {
+		id = 14022,
+		damage = "48 x 3",
+		base = 14020,
+		weapon_id = {
+			14022
+		}
+	},
+	[14023] = {
+		id = 14023,
+		damage = "53 x 3",
+		base = 14020,
+		weapon_id = {
+			14023
+		}
+	},
+	[14024] = {
+		id = 14024,
+		damage = "57 x 3",
+		base = 14020,
+		weapon_id = {
+			14024
+		}
+	},
+	[14025] = {
+		id = 14025,
+		damage = "62 x 3",
+		base = 14020,
+		weapon_id = {
+			14025
+		}
+	},
+	[14026] = {
+		id = 14026,
+		damage = "66 x 3",
+		base = 14020,
+		weapon_id = {
+			14026
+		}
+	},
+	[14027] = {
+		id = 14027,
+		damage = "70 x 3",
+		base = 14020,
+		weapon_id = {
+			14027
+		}
+	},
+	[14028] = {
+		id = 14028,
+		damage = "75 x 3",
+		base = 14020,
+		weapon_id = {
+			14028
+		}
+	},
+	[14029] = {
+		id = 14029,
+		damage = "79 x 3",
+		base = 14020,
+		weapon_id = {
+			14029
+		}
+	},
+	[14030] = {
+		id = 14030,
+		damage = "84 x 3",
+		base = 14020,
+		weapon_id = {
+			14030
+		}
+	},
+	[14040] = {
+		name = "Triple 305mm MK8 Main Gun",
+		speciality = "Volley",
+		type = 4,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 45,
+		icon = "14000",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "44 x 3",
+		nationality = 1,
+		ammo = 3,
+		value_3 = 0,
+		id = 14040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1510
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			14040
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		}
+	},
+	[14041] = {
+		id = 14041,
+		damage = "48 x 3",
+		base = 14040,
+		weapon_id = {
+			14041
+		}
+	},
+	[14042] = {
+		id = 14042,
+		damage = "52 x 3",
+		base = 14040,
+		weapon_id = {
+			14042
+		}
+	},
 	[14043] = {
 		id = 14043,
 		damage = "58 x 3",
@@ -38,193 +178,6 @@ pg.equip_data_statistics_97 = {
 		base = 14040,
 		weapon_id = {
 			14047
-		}
-	},
-	[14048] = {
-		id = 14048,
-		damage = "82 x 3",
-		base = 14040,
-		weapon_id = {
-			14048
-		}
-	},
-	[14049] = {
-		id = 14049,
-		damage = "86 x 3",
-		base = 14040,
-		weapon_id = {
-			14049
-		}
-	},
-	[14050] = {
-		id = 14050,
-		damage = "92 x 3",
-		base = 14040,
-		weapon_id = {
-			14050
-		}
-	},
-	[14051] = {
-		anti_siren = 100,
-		damage = "92 x 3",
-		base = 14040,
-		id = 14051,
-		weapon_id = {
-			14051
-		}
-	},
-	[14052] = {
-		anti_siren = 200,
-		damage = "92 x 3",
-		base = 14040,
-		id = 14052,
-		weapon_id = {
-			14052
-		}
-	},
-	[14053] = {
-		anti_siren = 300,
-		damage = "92 x 3",
-		base = 14040,
-		id = 14053,
-		weapon_id = {
-			14053
-		}
-	},
-	[14100] = {
-		name = "Triple 356mm Main Gun Mount",
-		speciality = "Volley",
-		type = 4,
-		tech = 1,
-		rarity = 1,
-		descrip = "No description",
-		value_2 = 0,
-		icon = "14100",
-		damage = "40 x 3",
-		nationality = 1,
-		ammo = 3,
-		value_3 = 0,
-		id = 14100,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1510
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			14100
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"BB",
-			"MG"
-		}
-	},
-	[14101] = {
-		id = 14101,
-		damage = "46 x 3",
-		base = 14100,
-		weapon_id = {
-			14101
-		}
-	},
-	[14102] = {
-		id = 14102,
-		damage = "50 x 3",
-		base = 14100,
-		weapon_id = {
-			14102
-		}
-	},
-	[14103] = {
-		id = 14103,
-		damage = "56 x 3",
-		base = 14100,
-		weapon_id = {
-			14103
-		}
-	},
-	[14120] = {
-		name = "Triple 356mm Main Gun Mount",
-		speciality = "Volley",
-		type = 4,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "14100",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "44 x 3",
-		nationality = 1,
-		ammo = 2,
-		value_3 = 0,
-		id = 14120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				2,
-				1512
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			14120
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"BB",
-			"MG",
-			"HE"
-		}
-	},
-	[14121] = {
-		id = 14121,
-		damage = "50 x 3",
-		base = 14120,
-		weapon_id = {
-			14121
 		}
 	}
 }

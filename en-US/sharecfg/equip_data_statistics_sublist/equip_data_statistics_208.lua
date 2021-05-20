@@ -1,5 +1,314 @@
 pg = pg or {}
 pg.equip_data_statistics_208 = {
+	[29100] = {
+		name = "Fulmar",
+		type = 9,
+		speciality = "Bomber",
+		rarity = 2,
+		tech = 1,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "29100",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 29100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50200
+			},
+			{
+				5,
+				52100
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			29100
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		}
+	},
+	[29101] = {
+		id = 29101,
+		base = 29100,
+		ammo_info = {
+			{
+				6,
+				50201
+			},
+			{
+				5,
+				52101
+			}
+		},
+		weapon_id = {
+			29101
+		}
+	},
+	[29102] = {
+		id = 29102,
+		base = 29100,
+		ammo_info = {
+			{
+				6,
+				50202
+			},
+			{
+				5,
+				52102
+			}
+		},
+		weapon_id = {
+			29102
+		}
+	},
+	[29103] = {
+		id = 29103,
+		base = 29100,
+		ammo_info = {
+			{
+				6,
+				50203
+			},
+			{
+				5,
+				52103
+			}
+		},
+		weapon_id = {
+			29103
+		}
+	},
+	[29120] = {
+		name = "Fulmar",
+		type = 9,
+		speciality = "Bomber",
+		rarity = 3,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "29100",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 29120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50220
+			},
+			{
+				5,
+				52120
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			29120
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		}
+	},
+	[29121] = {
+		id = 29121,
+		base = 29120,
+		ammo_info = {
+			{
+				6,
+				50221
+			},
+			{
+				5,
+				52121
+			}
+		},
+		weapon_id = {
+			29121
+		}
+	},
+	[29122] = {
+		id = 29122,
+		base = 29120,
+		ammo_info = {
+			{
+				6,
+				50222
+			},
+			{
+				5,
+				52122
+			}
+		},
+		weapon_id = {
+			29122
+		}
+	},
+	[29123] = {
+		id = 29123,
+		base = 29120,
+		ammo_info = {
+			{
+				6,
+				50223
+			},
+			{
+				5,
+				52123
+			}
+		},
+		weapon_id = {
+			29123
+		}
+	},
+	[29124] = {
+		id = 29124,
+		base = 29120,
+		ammo_info = {
+			{
+				6,
+				50224
+			},
+			{
+				5,
+				52124
+			}
+		},
+		weapon_id = {
+			29124
+		}
+	},
+	[29125] = {
+		id = 29125,
+		base = 29120,
+		ammo_info = {
+			{
+				6,
+				50225
+			},
+			{
+				5,
+				52125
+			}
+		},
+		weapon_id = {
+			29125
+		}
+	},
+	[29126] = {
+		id = 29126,
+		base = 29120,
+		ammo_info = {
+			{
+				6,
+				50226
+			},
+			{
+				5,
+				52126
+			}
+		},
+		weapon_id = {
+			29126
+		}
+	},
+	[29140] = {
+		name = "Fulmar",
+		type = 9,
+		speciality = "Bomber",
+		rarity = 4,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "29100",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 29140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50240
+			},
+			{
+				5,
+				52140
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			29140
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		}
+	},
 	[29141] = {
 		id = 29141,
 		base = 29140,
@@ -83,246 +392,6 @@ pg.equip_data_statistics_208 = {
 		},
 		weapon_id = {
 			29145
-		}
-	},
-	[29146] = {
-		id = 29146,
-		base = 29140,
-		ammo_info = {
-			{
-				6,
-				50246
-			},
-			{
-				5,
-				52146
-			}
-		},
-		weapon_id = {
-			29146
-		}
-	},
-	[29147] = {
-		id = 29147,
-		base = 29140,
-		ammo_info = {
-			{
-				6,
-				50247
-			},
-			{
-				5,
-				52147
-			}
-		},
-		weapon_id = {
-			29147
-		}
-	},
-	[29148] = {
-		id = 29148,
-		base = 29140,
-		ammo_info = {
-			{
-				6,
-				50248
-			},
-			{
-				5,
-				52148
-			}
-		},
-		weapon_id = {
-			29148
-		}
-	},
-	[29149] = {
-		id = 29149,
-		base = 29140,
-		ammo_info = {
-			{
-				6,
-				50249
-			},
-			{
-				5,
-				52149
-			}
-		},
-		weapon_id = {
-			29149
-		}
-	},
-	[29150] = {
-		id = 29150,
-		base = 29140,
-		ammo_info = {
-			{
-				6,
-				50250
-			},
-			{
-				5,
-				52150
-			}
-		},
-		weapon_id = {
-			29150
-		}
-	},
-	[29151] = {
-		anti_siren = 100,
-		base = 29140,
-		id = 29151,
-		ammo_info = {
-			{
-				6,
-				50251
-			},
-			{
-				5,
-				52151
-			}
-		},
-		weapon_id = {
-			29151
-		}
-	},
-	[29200] = {
-		name = "Firefly",
-		type = 9,
-		speciality = "Bomber",
-		rarity = 5,
-		tech = 0,
-		descrip = "This aircraft was developed as a successor to the Fairey Fulmar. There are many variants on the Firefly design; this is the basic model that features four 20mm cannons and two 1,000-pound bombs.",
-		value_2 = 45,
-		icon = "29200",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 29200,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50660
-			},
-			{
-				5,
-				52740
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			29200
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"DB"
-		}
-	},
-	[29201] = {
-		id = 29201,
-		base = 29200,
-		ammo_info = {
-			{
-				6,
-				50661
-			},
-			{
-				5,
-				52741
-			}
-		},
-		weapon_id = {
-			29201
-		}
-	},
-	[29202] = {
-		id = 29202,
-		base = 29200,
-		ammo_info = {
-			{
-				6,
-				50662
-			},
-			{
-				5,
-				52742
-			}
-		},
-		weapon_id = {
-			29202
-		}
-	},
-	[29203] = {
-		id = 29203,
-		base = 29200,
-		ammo_info = {
-			{
-				6,
-				50663
-			},
-			{
-				5,
-				52743
-			}
-		},
-		weapon_id = {
-			29203
-		}
-	},
-	[29204] = {
-		id = 29204,
-		base = 29200,
-		ammo_info = {
-			{
-				6,
-				50664
-			},
-			{
-				5,
-				52744
-			}
-		},
-		weapon_id = {
-			29204
-		}
-	},
-	[29205] = {
-		id = 29205,
-		base = 29200,
-		ammo_info = {
-			{
-				6,
-				50665
-			},
-			{
-				5,
-				52745
-			}
-		},
-		weapon_id = {
-			29205
 		}
 	}
 }

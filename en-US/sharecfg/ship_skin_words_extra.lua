@@ -4490,6 +4490,62 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[608010] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		id = 608010,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = "",
+		detail = "",
+		win_mvp = {
+			{
+				1100,
+				"Hehe, hehehehe... S-say something good about me..."
+			}
+		},
+		main = {
+			{
+				1100,
+				"I sorted all your paperwork, Commander... Hehehe... C-could I get a \"thank you,\" please...?|nil|I love the dark... Hehehe... It hides you from people who'd judge you..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Could I c-come with you on mission briefings? I am your secretary, after all... Hehehe...♡|Helping out with prototype equipment is such a chore... Ugh..."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Another mission? O-okay..."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Oh, Commander... Hehe, hehehe...♡"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Thanks for everything you do, Commander... Hehehehe... Tell you what, I-I'll make you dinner today... Mushroom marinade, mushroom risotto, and my own mushroom special... Hehehehe...."
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -4565,6 +4621,7 @@ pg.ship_skin_words_extra = {
 		607010,
 		601040,
 		601050,
-		601060
+		601060,
+		608010
 	}
 }

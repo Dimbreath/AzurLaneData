@@ -123190,6 +123190,25 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[59212] = {
+		drop_gold_max = 0,
+		name = "Training Pt",
+		display = "Used to unlock a special portrait frame. Expires after the event ends. ",
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/xunliandianshu_vx",
+		rarity = 2,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59212,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		drop_gold_max = 0,
 		name = "Kawakaze Ship Model",
@@ -135360,6 +135379,7 @@ The available outfits and their rarities are as follows:
 		59209,
 		59210,
 		59211,
+		59212,
 		59601,
 		59602,
 		59603,

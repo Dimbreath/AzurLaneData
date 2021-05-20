@@ -1,5 +1,209 @@
 pg = pg or {}
 pg.equip_data_statistics_116 = {
+	[16023] = {
+		id = 16023,
+		damage = "14/wave",
+		base = 16020,
+		weapon_id = {
+			16023
+		}
+	},
+	[16040] = {
+		name = "Single 20mm Oerlikon AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "16000",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "11/wave",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 16040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			16040
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
+	},
+	[16041] = {
+		id = 16041,
+		damage = "12/wave",
+		base = 16040,
+		weapon_id = {
+			16041
+		}
+	},
+	[16042] = {
+		id = 16042,
+		damage = "13/wave",
+		base = 16040,
+		weapon_id = {
+			16042
+		}
+	},
+	[16043] = {
+		id = 16043,
+		damage = "14/wave",
+		base = 16040,
+		weapon_id = {
+			16043
+		}
+	},
+	[16044] = {
+		id = 16044,
+		damage = "16/wave",
+		base = 16040,
+		weapon_id = {
+			16044
+		}
+	},
+	[16045] = {
+		id = 16045,
+		damage = "18/wave",
+		base = 16040,
+		weapon_id = {
+			16045
+		}
+	},
+	[16046] = {
+		id = 16046,
+		damage = "20/wave",
+		base = 16040,
+		weapon_id = {
+			16046
+		}
+	},
+	[16047] = {
+		id = 16047,
+		damage = "20/wave",
+		base = 16040,
+		weapon_id = {
+			16047
+		}
+	},
+	[16060] = {
+		name = "Single 76mm Mk 26 AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "16060",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "29/wave",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 16060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			16060
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
+	},
+	[16061] = {
+		id = 16061,
+		damage = "32/wave",
+		base = 16060,
+		weapon_id = {
+			16061
+		}
+	},
+	[16062] = {
+		id = 16062,
+		damage = "35/wave",
+		base = 16060,
+		weapon_id = {
+			16062
+		}
+	},
 	[16063] = {
 		id = 16063,
 		damage = "38/wave",
@@ -38,157 +242,6 @@ pg.equip_data_statistics_116 = {
 		base = 16060,
 		weapon_id = {
 			16067
-		}
-	},
-	[16068] = {
-		id = 16068,
-		damage = "53/wave",
-		base = 16060,
-		weapon_id = {
-			16068
-		}
-	},
-	[16069] = {
-		id = 16069,
-		damage = "57/wave",
-		base = 16060,
-		weapon_id = {
-			16069
-		}
-	},
-	[16070] = {
-		id = 16070,
-		damage = "61/wave",
-		base = 16060,
-		weapon_id = {
-			16070
-		}
-	},
-	[16071] = {
-		anti_siren = 100,
-		damage = "61/wave",
-		base = 16060,
-		id = 16071,
-		weapon_id = {
-			16071
-		}
-	},
-	[16080] = {
-		name = "Twin 76mm Mk 27 RF AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 0,
-		descrip = "No description",
-		value_2 = 45,
-		icon = "16080",
-		attribute_2 = "antiaircraft",
-		rarity = 5,
-		damage = "33/wave",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 16080,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			16080
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"ST",
-			"AA"
-		}
-	},
-	[16081] = {
-		id = 16081,
-		damage = "39/wave",
-		base = 16080,
-		weapon_id = {
-			16081
-		}
-	},
-	[16082] = {
-		id = 16082,
-		damage = "45/wave",
-		base = 16080,
-		weapon_id = {
-			16082
-		}
-	},
-	[16083] = {
-		id = 16083,
-		damage = "51/wave",
-		base = 16080,
-		weapon_id = {
-			16083
-		}
-	},
-	[16084] = {
-		id = 16084,
-		damage = "57/wave",
-		base = 16080,
-		weapon_id = {
-			16084
-		}
-	},
-	[16085] = {
-		id = 16085,
-		damage = "63/wave",
-		base = 16080,
-		weapon_id = {
-			16085
-		}
-	},
-	[16086] = {
-		id = 16086,
-		damage = "69/wave",
-		base = 16080,
-		weapon_id = {
-			16086
-		}
-	},
-	[16087] = {
-		id = 16087,
-		damage = "75/wave",
-		base = 16080,
-		weapon_id = {
-			16087
 		}
 	}
 }

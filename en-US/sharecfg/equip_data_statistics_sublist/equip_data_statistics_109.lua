@@ -1,5 +1,153 @@
 pg = pg or {}
 pg.equip_data_statistics_109 = {
+	[15044] = {
+		id = 15044,
+		damage = "83 x 3",
+		base = 15040,
+		weapon_id = {
+			15044
+		}
+	},
+	[15045] = {
+		id = 15045,
+		damage = "91 x 3",
+		base = 15040,
+		weapon_id = {
+			15045
+		}
+	},
+	[15046] = {
+		id = 15046,
+		damage = "99 x 3",
+		base = 15040,
+		weapon_id = {
+			15046
+		}
+	},
+	[15047] = {
+		id = 15047,
+		damage = "107 x 3",
+		base = 15040,
+		weapon_id = {
+			15047
+		}
+	},
+	[15048] = {
+		id = 15048,
+		damage = "115 x 3",
+		base = 15040,
+		weapon_id = {
+			15048
+		}
+	},
+	[15049] = {
+		id = 15049,
+		damage = "123 x 3",
+		base = 15040,
+		weapon_id = {
+			15049
+		}
+	},
+	[15050] = {
+		id = 15050,
+		damage = "131 x 3",
+		base = 15040,
+		weapon_id = {
+			15050
+		}
+	},
+	[15051] = {
+		anti_siren = 100,
+		damage = "131 x 3",
+		base = 15040,
+		id = 15051,
+		weapon_id = {
+			15051
+		}
+	},
+	[15060] = {
+		name = "Mark 18 Submarine Torpedo",
+		speciality = "Torpedo",
+		type = 13,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "15060",
+		attribute_2 = "torpedo",
+		rarity = 4,
+		damage = "41 x 2",
+		nationality = 1,
+		ammo = 4,
+		value_3 = 0,
+		id = 15060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1823
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1823
+			},
+			{
+				4,
+				1601
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			15060
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		}
+	},
+	[15061] = {
+		id = 15061,
+		damage = "48 x 2",
+		base = 15060,
+		weapon_id = {
+			15061
+		}
+	},
+	[15062] = {
+		id = 15062,
+		damage = "56 x 2",
+		base = 15060,
+		weapon_id = {
+			15062
+		}
+	},
+	[15063] = {
+		id = 15063,
+		damage = "64 x 2",
+		base = 15060,
+		weapon_id = {
+			15063
+		}
+	},
 	[15064] = {
 		id = 15064,
 		damage = "72 x 2",
@@ -38,205 +186,6 @@ pg.equip_data_statistics_109 = {
 		base = 15060,
 		weapon_id = {
 			15068
-		}
-	},
-	[15069] = {
-		id = 15069,
-		damage = "112 x 2",
-		base = 15060,
-		weapon_id = {
-			15069
-		}
-	},
-	[15070] = {
-		id = 15070,
-		damage = "120 x 2",
-		base = 15060,
-		weapon_id = {
-			15070
-		}
-	},
-	[15071] = {
-		anti_siren = 100,
-		damage = "120 x 2",
-		base = 15060,
-		id = 15071,
-		weapon_id = {
-			15071
-		}
-	},
-	[15100] = {
-		name = "Mark 16 Submarine Torpedo",
-		speciality = "Torpedo",
-		type = 13,
-		tech = 1,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "15100",
-		attribute_2 = "torpedo",
-		rarity = 3,
-		damage = "58 x 3",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 15100,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1822
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1822
-			},
-			{
-				4,
-				1602
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			15100
-		},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"SS",
-			"TP"
-		}
-	},
-	[15101] = {
-		id = 15101,
-		damage = "66 x 3",
-		base = 15100,
-		weapon_id = {
-			15101
-		}
-	},
-	[15102] = {
-		id = 15102,
-		damage = "74 x 3",
-		base = 15100,
-		weapon_id = {
-			15102
-		}
-	},
-	[15103] = {
-		id = 15103,
-		damage = "82 x 3",
-		base = 15100,
-		weapon_id = {
-			15103
-		}
-	},
-	[15104] = {
-		id = 15104,
-		damage = "91 x 3",
-		base = 15100,
-		weapon_id = {
-			15104
-		}
-	},
-	[15105] = {
-		id = 15105,
-		damage = "100 x 3",
-		base = 15100,
-		weapon_id = {
-			15105
-		}
-	},
-	[15106] = {
-		id = 15106,
-		damage = "109 x 3",
-		base = 15100,
-		weapon_id = {
-			15106
-		}
-	},
-	[15120] = {
-		name = "Mark 16 Submarine Torpedo",
-		speciality = "Torpedo",
-		type = 13,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "15100",
-		attribute_2 = "torpedo",
-		rarity = 4,
-		damage = "65 x 3",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 15120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1822
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1822
-			},
-			{
-				4,
-				1602
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			15120
-		},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"SS",
-			"TP"
-		}
-	},
-	[15121] = {
-		id = 15121,
-		damage = "74 x 3",
-		base = 15120,
-		weapon_id = {
-			15121
 		}
 	}
 }

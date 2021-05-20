@@ -202,17 +202,17 @@ function slot0.GetOffsetMapPos(slot0)
 	return Vector2(slot1.x * math.cos(slot3) - slot1.y * math.sin(slot3), slot1.y * math.cos(slot3) + slot1.x * math.sin(slot3))
 end
 
-function slot0.UpdateSelect(slot0, slot1, slot2)
+function slot0.UpdateSelect(slot0, slot1, slot2, slot3)
 	if slot1 then
 		slot0.nowArea = slot1:GetAreaId()
 
 		slot0:FocusPos(Vector2(slot1.config.area_pos[1], slot1.config.area_pos[2]) + slot0:GetOffsetMapPos(), nil, 1, true, function ()
 			uv0.super.UpdateSelect(uv1, uv2)
-			uv1:DispatchEvent(uv0.EventUpdateselectEntrance, uv2, uv3)
+			uv1:DispatchEvent(uv0.EventUpdateselectEntrance, uv2, uv3, uv4)
 		end)
 	else
 		uv0.super.UpdateSelect(slot0, slot1)
-		slot0:DispatchEvent(uv0.EventUpdateselectEntrance, slot1, slot2)
+		slot0:DispatchEvent(uv0.EventUpdateselectEntrance, slot1, slot2, slot3)
 	end
 end
 

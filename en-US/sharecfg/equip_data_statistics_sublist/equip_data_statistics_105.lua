@@ -1,5 +1,146 @@
 pg = pg or {}
 pg.equip_data_statistics_105 = {
+	[14385] = {
+		id = 14385,
+		damage = "108 x 3",
+		base = 14380,
+		weapon_id = {
+			14385
+		}
+	},
+	[14386] = {
+		id = 14386,
+		damage = "118 x 3",
+		base = 14380,
+		weapon_id = {
+			14386
+		}
+	},
+	[14387] = {
+		id = 14387,
+		damage = "128 x 3",
+		base = 14380,
+		weapon_id = {
+			14387
+		}
+	},
+	[14388] = {
+		id = 14388,
+		damage = "136 x 3",
+		base = 14380,
+		weapon_id = {
+			14388
+		}
+	},
+	[14389] = {
+		id = 14389,
+		damage = "146 x 3",
+		base = 14380,
+		weapon_id = {
+			14389
+		}
+	},
+	[14390] = {
+		id = 14390,
+		damage = "156 x 3",
+		base = 14380,
+		weapon_id = {
+			14390
+		}
+	},
+	[14391] = {
+		anti_siren = 100,
+		damage = "156 x 3",
+		base = 14380,
+		id = 14391,
+		weapon_id = {
+			14391
+		}
+	},
+	[14400] = {
+		name = "Triple 406mm MK7 Main Gun",
+		speciality = "Volley",
+		type = 4,
+		tech = 1,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "14400",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "52 x 3",
+		nationality = 1,
+		ammo = 3,
+		value_3 = 0,
+		id = 14400,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1510
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			14400
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		}
+	},
+	[14401] = {
+		id = 14401,
+		damage = "62 x 3",
+		base = 14400,
+		weapon_id = {
+			14401
+		}
+	},
+	[14402] = {
+		id = 14402,
+		damage = "72 x 3",
+		base = 14400,
+		weapon_id = {
+			14402
+		}
+	},
+	[14403] = {
+		id = 14403,
+		damage = "82 x 3",
+		base = 14400,
+		weapon_id = {
+			14403
+		}
+	},
+	[14404] = {
+		id = 14404,
+		damage = "92 x 3",
+		base = 14400,
+		weapon_id = {
+			14404
+		}
+	},
 	[14405] = {
 		id = 14405,
 		damage = "102 x 3",
@@ -83,147 +224,6 @@ pg.equip_data_statistics_105 = {
 		base = 14420,
 		weapon_id = {
 			14422
-		}
-	},
-	[14423] = {
-		id = 14423,
-		damage = "90 x 3",
-		base = 14420,
-		weapon_id = {
-			14423
-		}
-	},
-	[14424] = {
-		id = 14424,
-		damage = "101 x 3",
-		base = 14420,
-		weapon_id = {
-			14424
-		}
-	},
-	[14425] = {
-		id = 14425,
-		damage = "112 x 3",
-		base = 14420,
-		weapon_id = {
-			14425
-		}
-	},
-	[14426] = {
-		id = 14426,
-		damage = "123 x 3",
-		base = 14420,
-		weapon_id = {
-			14426
-		}
-	},
-	[14427] = {
-		id = 14427,
-		damage = "134 x 3",
-		base = 14420,
-		weapon_id = {
-			14427
-		}
-	},
-	[14428] = {
-		id = 14428,
-		damage = "145 x 3",
-		base = 14420,
-		weapon_id = {
-			14428
-		}
-	},
-	[14429] = {
-		id = 14429,
-		damage = "156 x 3",
-		base = 14420,
-		weapon_id = {
-			14429
-		}
-	},
-	[14430] = {
-		id = 14430,
-		damage = "167 x 3",
-		base = 14420,
-		weapon_id = {
-			14430
-		}
-	},
-	[14440] = {
-		name = "Triple 406mm MK7 Main Gun",
-		speciality = "Volley",
-		type = 4,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 45,
-		icon = "14400",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "62 x 3",
-		nationality = 1,
-		ammo = 1,
-		value_3 = 0,
-		id = 14440,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1511
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			14440
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"BB",
-			"MG",
-			"AP"
-		}
-	},
-	[14441] = {
-		id = 14441,
-		damage = "74 x 3",
-		base = 14440,
-		weapon_id = {
-			14441
-		}
-	},
-	[14442] = {
-		id = 14442,
-		damage = "86 x 3",
-		base = 14440,
-		weapon_id = {
-			14442
-		}
-	},
-	[14443] = {
-		id = 14443,
-		damage = "98 x 3",
-		base = 14440,
-		weapon_id = {
-			14443
 		}
 	}
 }

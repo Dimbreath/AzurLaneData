@@ -1,5 +1,143 @@
 pg = pg or {}
 pg.equip_data_statistics_177 = {
+	[25313] = {
+		anti_siren = 300,
+		damage = "176 x 3",
+		base = 25300,
+		id = 25313,
+		weapon_id = {
+			25313
+		}
+	},
+	[25800] = {
+		name = "\"Hedgehog\" Anti-Submarine Mortar",
+		speciality = "Anti\nsubmarine",
+		type = 14,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 45,
+		icon = "25800",
+		attribute_2 = "antisub",
+		rarity = 5,
+		damage = "85 ~ 170",
+		nationality = 2,
+		ammo = 9,
+		value_3 = 0,
+		id = 25800,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				7,
+				9008
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			25800
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2
+		},
+		part_sub = {
+			1,
+			2
+		},
+		equip_parameters = {},
+		label = {
+			"DC"
+		}
+	},
+	[25801] = {
+		id = 25801,
+		damage = "94 ~ 188",
+		base = 25800,
+		weapon_id = {
+			25801
+		}
+	},
+	[25802] = {
+		id = 25802,
+		damage = "103 ~ 206",
+		base = 25800,
+		weapon_id = {
+			25802
+		}
+	},
+	[25803] = {
+		id = 25803,
+		damage = "112 ~ 224",
+		base = 25800,
+		weapon_id = {
+			25803
+		}
+	},
+	[25804] = {
+		id = 25804,
+		damage = "122 ~ 244",
+		base = 25800,
+		weapon_id = {
+			25804
+		}
+	},
+	[25805] = {
+		id = 25805,
+		damage = "132 ~ 264",
+		base = 25800,
+		weapon_id = {
+			25805
+		}
+	},
+	[25806] = {
+		id = 25806,
+		damage = "142 ~ 284",
+		base = 25800,
+		weapon_id = {
+			25806
+		}
+	},
+	[25807] = {
+		id = 25807,
+		damage = "153 ~ 306",
+		base = 25800,
+		weapon_id = {
+			25807
+		}
+	},
+	[25808] = {
+		id = 25808,
+		damage = "164 ~ 328",
+		base = 25800,
+		weapon_id = {
+			25808
+		}
+	},
+	[25809] = {
+		id = 25809,
+		damage = "175 ~ 350",
+		base = 25800,
+		weapon_id = {
+			25809
+		}
+	},
+	[25810] = {
+		id = 25810,
+		damage = "186 ~ 372",
+		base = 25800,
+		weapon_id = {
+			25810
+		}
+	},
 	[25811] = {
 		anti_siren = 100,
 		damage = "186 ~ 372",
@@ -94,210 +232,6 @@ pg.equip_data_statistics_177 = {
 		base = 26000,
 		weapon_id = {
 			26001
-		}
-	},
-	[26002] = {
-		id = 26002,
-		damage = "18/wave",
-		base = 26000,
-		weapon_id = {
-			26002
-		}
-	},
-	[26003] = {
-		id = 26003,
-		damage = "21/wave",
-		base = 26000,
-		weapon_id = {
-			26003
-		}
-	},
-	[26020] = {
-		name = "Twin 40mm Pom-Pom AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "26000",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "19/wave",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 26020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			26020
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"ST",
-			"AA"
-		}
-	},
-	[26021] = {
-		id = 26021,
-		damage = "22/wave",
-		base = 26020,
-		weapon_id = {
-			26021
-		}
-	},
-	[26022] = {
-		id = 26022,
-		damage = "25/wave",
-		base = 26020,
-		weapon_id = {
-			26022
-		}
-	},
-	[26023] = {
-		id = 26023,
-		damage = "29/wave",
-		base = 26020,
-		weapon_id = {
-			26023
-		}
-	},
-	[26040] = {
-		name = "Twin 40mm Pom-Pom AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "26000",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "23/wave",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 26040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			26040
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"ST",
-			"AA"
-		}
-	},
-	[26041] = {
-		id = 26041,
-		damage = "26/wave",
-		base = 26040,
-		weapon_id = {
-			26041
-		}
-	},
-	[26042] = {
-		id = 26042,
-		damage = "29/wave",
-		base = 26040,
-		weapon_id = {
-			26042
-		}
-	},
-	[26043] = {
-		id = 26043,
-		damage = "33/wave",
-		base = 26040,
-		weapon_id = {
-			26043
-		}
-	},
-	[26044] = {
-		id = 26044,
-		damage = "37/wave",
-		base = 26040,
-		weapon_id = {
-			26044
-		}
-	},
-	[26045] = {
-		id = 26045,
-		damage = "41/wave",
-		base = 26040,
-		weapon_id = {
-			26045
 		}
 	}
 }

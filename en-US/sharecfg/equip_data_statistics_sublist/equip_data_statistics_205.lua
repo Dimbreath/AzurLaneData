@@ -1,5 +1,281 @@
 pg = pg or {}
 pg.equip_data_statistics_205 = {
+	[28302] = {
+		id = 28302,
+		base = 28300,
+		ammo_info = {
+			{
+				6,
+				50002
+			},
+			{
+				4,
+				51002
+			}
+		},
+		weapon_id = {
+			28302
+		}
+	},
+	[28303] = {
+		id = 28303,
+		base = 28300,
+		ammo_info = {
+			{
+				6,
+				50003
+			},
+			{
+				4,
+				51003
+			}
+		},
+		weapon_id = {
+			28303
+		}
+	},
+	[28320] = {
+		name = "Albacore",
+		type = 8,
+		speciality = "Torpedo",
+		rarity = 3,
+		tech = 2,
+		descrip = "Biplane torpedo bomber developed as a replacement for the Swordfish. Both were eventually replaced by the Barracuda.",
+		value_2 = 12,
+		icon = "28300",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 28320,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50020
+			},
+			{
+				4,
+				51020
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			28320
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"TB",
+			"Albacore"
+		}
+	},
+	[28321] = {
+		id = 28321,
+		base = 28320,
+		ammo_info = {
+			{
+				6,
+				50021
+			},
+			{
+				4,
+				51021
+			}
+		},
+		weapon_id = {
+			28321
+		}
+	},
+	[28322] = {
+		id = 28322,
+		base = 28320,
+		ammo_info = {
+			{
+				6,
+				50022
+			},
+			{
+				4,
+				51022
+			}
+		},
+		weapon_id = {
+			28322
+		}
+	},
+	[28323] = {
+		id = 28323,
+		base = 28320,
+		ammo_info = {
+			{
+				6,
+				50023
+			},
+			{
+				4,
+				51023
+			}
+		},
+		weapon_id = {
+			28323
+		}
+	},
+	[28324] = {
+		id = 28324,
+		base = 28320,
+		ammo_info = {
+			{
+				6,
+				50024
+			},
+			{
+				4,
+				51024
+			}
+		},
+		weapon_id = {
+			28324
+		}
+	},
+	[28325] = {
+		id = 28325,
+		base = 28320,
+		ammo_info = {
+			{
+				6,
+				50025
+			},
+			{
+				4,
+				51025
+			}
+		},
+		weapon_id = {
+			28325
+		}
+	},
+	[28326] = {
+		id = 28326,
+		base = 28320,
+		ammo_info = {
+			{
+				6,
+				50026
+			},
+			{
+				4,
+				51026
+			}
+		},
+		weapon_id = {
+			28326
+		}
+	},
+	[28340] = {
+		name = "Albacore",
+		type = 8,
+		speciality = "Torpedo",
+		rarity = 4,
+		tech = 3,
+		descrip = "Biplane torpedo bomber developed as a replacement for the Swordfish. Both were eventually replaced by the Barracuda.",
+		value_2 = 25,
+		icon = "28300",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 28340,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				4,
+				51040
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			28340
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"TB",
+			"Albacore"
+		}
+	},
+	[28341] = {
+		id = 28341,
+		base = 28340,
+		ammo_info = {
+			{
+				6,
+				50041
+			},
+			{
+				4,
+				51041
+			}
+		},
+		weapon_id = {
+			28341
+		}
+	},
+	[28342] = {
+		id = 28342,
+		base = 28340,
+		ammo_info = {
+			{
+				6,
+				50042
+			},
+			{
+				4,
+				51042
+			}
+		},
+		weapon_id = {
+			28342
+		}
+	},
 	[28343] = {
 		id = 28343,
 		base = 28340,
@@ -83,254 +359,6 @@ pg.equip_data_statistics_205 = {
 		},
 		weapon_id = {
 			28347
-		}
-	},
-	[28348] = {
-		id = 28348,
-		base = 28340,
-		ammo_info = {
-			{
-				6,
-				50048
-			},
-			{
-				4,
-				51048
-			}
-		},
-		weapon_id = {
-			28348
-		}
-	},
-	[28349] = {
-		id = 28349,
-		base = 28340,
-		ammo_info = {
-			{
-				6,
-				50049
-			},
-			{
-				4,
-				51049
-			}
-		},
-		weapon_id = {
-			28349
-		}
-	},
-	[28350] = {
-		id = 28350,
-		base = 28340,
-		ammo_info = {
-			{
-				6,
-				50050
-			},
-			{
-				4,
-				51050
-			}
-		},
-		weapon_id = {
-			28350
-		}
-	},
-	[28351] = {
-		anti_siren = 100,
-		base = 28340,
-		id = 28351,
-		ammo_info = {
-			{
-				6,
-				50051
-			},
-			{
-				4,
-				51051
-			}
-		},
-		weapon_id = {
-			28351
-		}
-	},
-	[28400] = {
-		name = "Wyvern",
-		type = 8,
-		speciality = "Torpedo",
-		rarity = 6,
-		tech = 0,
-		descrip = "No description",
-		value_2 = 65,
-		icon = "28400",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 28400,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50660
-			},
-			{
-				4,
-				51580
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			28400,
-			82980
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"TB"
-		}
-	},
-	[28401] = {
-		id = 28401,
-		base = 28400,
-		ammo_info = {
-			{
-				6,
-				50661
-			},
-			{
-				4,
-				51581
-			}
-		},
-		weapon_id = {
-			28401,
-			82981
-		}
-	},
-	[28402] = {
-		id = 28402,
-		base = 28400,
-		ammo_info = {
-			{
-				6,
-				50662
-			},
-			{
-				4,
-				51582
-			}
-		},
-		weapon_id = {
-			28402,
-			82982
-		}
-	},
-	[28403] = {
-		id = 28403,
-		base = 28400,
-		ammo_info = {
-			{
-				6,
-				50663
-			},
-			{
-				4,
-				51583
-			}
-		},
-		weapon_id = {
-			28403,
-			82983
-		}
-	},
-	[28404] = {
-		id = 28404,
-		base = 28400,
-		ammo_info = {
-			{
-				6,
-				50664
-			},
-			{
-				4,
-				51584
-			}
-		},
-		weapon_id = {
-			28404,
-			82984
-		}
-	},
-	[28405] = {
-		id = 28405,
-		base = 28400,
-		ammo_info = {
-			{
-				6,
-				50665
-			},
-			{
-				4,
-				51585
-			}
-		},
-		weapon_id = {
-			28405,
-			82985
-		}
-	},
-	[28406] = {
-		id = 28406,
-		base = 28400,
-		ammo_info = {
-			{
-				6,
-				50666
-			},
-			{
-				4,
-				51586
-			}
-		},
-		weapon_id = {
-			28406,
-			82986
-		}
-	},
-	[28407] = {
-		id = 28407,
-		base = 28400,
-		ammo_info = {
-			{
-				6,
-				50667
-			},
-			{
-				4,
-				51587
-			}
-		},
-		weapon_id = {
-			28407,
-			82987
 		}
 	}
 }

@@ -1,5 +1,145 @@
 pg = pg or {}
 pg.equip_data_statistics_296 = {
+	[44024] = {
+		id = 44024,
+		damage = "55 x 3",
+		base = 44020,
+		weapon_id = {
+			44024
+		}
+	},
+	[44025] = {
+		id = 44025,
+		damage = "59 x 3",
+		base = 44020,
+		weapon_id = {
+			44025
+		}
+	},
+	[44026] = {
+		id = 44026,
+		damage = "64 x 3",
+		base = 44020,
+		weapon_id = {
+			44026
+		}
+	},
+	[44040] = {
+		name = "Triple 283mm SK C/34 Main Gun Mount",
+		speciality = "Volley",
+		type = 4,
+		tech = 3,
+		descrip = "The Triple 283mm SK C/34 Main Gun Mount is the main gun of Scharnhorst class ships, and may be used by battlecruisers and battleships.",
+		value_2 = 25,
+		icon = "44000",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "40 x 3",
+		nationality = 4,
+		ammo = 3,
+		value_3 = 0,
+		id = 44040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1510
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			44040
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		}
+	},
+	[44041] = {
+		id = 44041,
+		damage = "46 x 3",
+		base = 44040,
+		weapon_id = {
+			44041
+		}
+	},
+	[44042] = {
+		id = 44042,
+		damage = "50 x 3",
+		base = 44040,
+		weapon_id = {
+			44042
+		}
+	},
+	[44043] = {
+		id = 44043,
+		damage = "56 x 3",
+		base = 44040,
+		weapon_id = {
+			44043
+		}
+	},
+	[44044] = {
+		id = 44044,
+		damage = "60 x 3",
+		base = 44040,
+		weapon_id = {
+			44044
+		}
+	},
+	[44045] = {
+		id = 44045,
+		damage = "64 x 3",
+		base = 44040,
+		weapon_id = {
+			44045
+		}
+	},
+	[44046] = {
+		id = 44046,
+		damage = "70 x 3",
+		base = 44040,
+		weapon_id = {
+			44046
+		}
+	},
+	[44047] = {
+		id = 44047,
+		damage = "74 x 3",
+		base = 44040,
+		weapon_id = {
+			44047
+		}
+	},
+	[44048] = {
+		id = 44048,
+		damage = "80 x 3",
+		base = 44040,
+		weapon_id = {
+			44048
+		}
+	},
 	[44049] = {
 		id = 44049,
 		damage = "84 x 3",
@@ -83,147 +223,6 @@ pg.equip_data_statistics_296 = {
 		base = 44100,
 		weapon_id = {
 			44101
-		}
-	},
-	[44102] = {
-		id = 44102,
-		damage = "61 x 2",
-		base = 44100,
-		weapon_id = {
-			44102
-		}
-	},
-	[44103] = {
-		id = 44103,
-		damage = "67 x 2",
-		base = 44100,
-		weapon_id = {
-			44103
-		}
-	},
-	[44104] = {
-		id = 44104,
-		damage = "73 x 2",
-		base = 44100,
-		weapon_id = {
-			44104
-		}
-	},
-	[44105] = {
-		id = 44105,
-		damage = "79 x 2",
-		base = 44100,
-		weapon_id = {
-			44105
-		}
-	},
-	[44106] = {
-		id = 44106,
-		damage = "86 x 2",
-		base = 44100,
-		weapon_id = {
-			44106
-		}
-	},
-	[44120] = {
-		name = "Twin 380mm SK C/34 Main Gun Mount",
-		speciality = "Volley",
-		type = 4,
-		tech = 2,
-		descrip = "The Twin 380mm SK C/34 Main Gun Mount is the main gun of Bismarck class ships, and may be used by battlecruisers and battleships.",
-		value_2 = 25,
-		icon = "44100",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "55 x 2",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 44120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1501
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			44120
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"BB",
-			"MG",
-			"AP"
-		}
-	},
-	[44121] = {
-		id = 44121,
-		damage = "61 x 2",
-		base = 44120,
-		weapon_id = {
-			44121
-		}
-	},
-	[44122] = {
-		id = 44122,
-		damage = "67 x 2",
-		base = 44120,
-		weapon_id = {
-			44122
-		}
-	},
-	[44123] = {
-		id = 44123,
-		damage = "74 x 2",
-		base = 44120,
-		weapon_id = {
-			44123
-		}
-	},
-	[44124] = {
-		id = 44124,
-		damage = "80 x 2",
-		base = 44120,
-		weapon_id = {
-			44124
-		}
-	},
-	[44125] = {
-		id = 44125,
-		damage = "87 x 2",
-		base = 44120,
-		weapon_id = {
-			44125
-		}
-	},
-	[44126] = {
-		id = 44126,
-		damage = "93 x 2",
-		base = 44120,
-		weapon_id = {
-			44126
 		}
 	}
 }

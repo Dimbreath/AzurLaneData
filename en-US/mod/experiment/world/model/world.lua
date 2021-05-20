@@ -517,6 +517,12 @@ function slot0.EntranceToReplacementMapList(slot0, slot1)
 
 	table.insert(slot2, slot3)
 
+	if slot1.active and not underscore.any(slot2, function (slot0)
+		return slot0.active
+	end) then
+		table.insert(slot2, slot0:GetActiveMap())
+	end
+
 	return slot2
 end
 
@@ -555,7 +561,7 @@ function slot0.ReplacementMapType(slot0, slot1)
 end
 
 function slot0.FindTreasureEntrance(slot0, slot1)
-	return _.values(slot0.atlas:GetTreasureDic(slot1))[1]
+	return underscore.values(slot0.atlas:GetTreasureDic(slot1))[1]
 end
 
 function slot0.TreasureMap2ItemId(slot0, slot1, slot2)

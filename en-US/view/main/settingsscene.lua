@@ -1243,11 +1243,11 @@ function slot0.initOtherPanel(slot0)
 end
 
 function slot0.UpdateAgreementPanel(slot0)
-	slot2 = PLATFORM_CODE == PLATFORM_CH
+	slot3 = PLATFORM_CODE == PLATFORM_CH and not (LuaHelper.GetCHPackageType() == 3)
 
-	setActive(slot0:findTF("agreement", slot0.otherContent), slot2)
+	setActive(slot0:findTF("agreement", slot0.otherContent), slot3)
 
-	if slot2 then
+	if slot3 then
 		onButton(slot0, slot1:Find("private"), function ()
 			pg.SdkMgr.GetInstance():ShowPrivate()
 		end, SFX_PANEL)

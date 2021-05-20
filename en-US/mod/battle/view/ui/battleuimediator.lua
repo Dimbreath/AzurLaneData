@@ -213,7 +213,7 @@ function slot6.InitGuide(slot0)
 end
 
 function slot6.InitCamera(slot0)
-	slot0._camera = GameObject.Find("MainCamera"):GetComponent(typeof(Camera))
+	slot0._camera = pg.UIMgr.GetInstance():GetMainCamera():GetComponent(typeof(Camera))
 	slot0._uiCamera = GameObject.Find("UICamera"):GetComponent(typeof(Camera))
 	slot0._cameraUtil = uv0.Battle.BattleCameraUtil.GetInstance()
 

@@ -1,5 +1,256 @@
 pg = pg or {}
 pg.equip_data_statistics_127 = {
+	[17089] = {
+		id = 17089,
+		base = 17080,
+		ammo_info = {
+			{
+				6,
+				50349
+			},
+			{
+				5,
+				52149
+			}
+		},
+		weapon_id = {
+			17089,
+			81089
+		}
+	},
+	[17090] = {
+		id = 17090,
+		base = 17080,
+		ammo_info = {
+			{
+				6,
+				50350
+			},
+			{
+				5,
+				52150
+			}
+		},
+		weapon_id = {
+			17090,
+			81090
+		}
+	},
+	[17091] = {
+		anti_siren = 100,
+		base = 17080,
+		id = 17091,
+		ammo_info = {
+			{
+				6,
+				50351
+			},
+			{
+				5,
+				52151
+			}
+		},
+		weapon_id = {
+			17091,
+			81091
+		}
+	},
+	[17100] = {
+		name = "F4F Wildcat",
+		type = 7,
+		speciality = "Air",
+		rarity = 2,
+		tech = 1,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "17100",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 17100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50400
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			17100,
+			81100
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
+	},
+	[17101] = {
+		id = 17101,
+		base = 17100,
+		ammo_info = {
+			{
+				6,
+				50401
+			}
+		},
+		weapon_id = {
+			17101,
+			81101
+		}
+	},
+	[17102] = {
+		id = 17102,
+		base = 17100,
+		ammo_info = {
+			{
+				6,
+				50402
+			}
+		},
+		weapon_id = {
+			17102,
+			81102
+		}
+	},
+	[17103] = {
+		id = 17103,
+		base = 17100,
+		ammo_info = {
+			{
+				6,
+				50403
+			}
+		},
+		weapon_id = {
+			17103,
+			81103
+		}
+	},
+	[17120] = {
+		name = "F4F Wildcat",
+		type = 7,
+		speciality = "Air",
+		rarity = 3,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "17100",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 17120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50420
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			17120,
+			81120
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
+	},
+	[17121] = {
+		id = 17121,
+		base = 17120,
+		ammo_info = {
+			{
+				6,
+				50421
+			}
+		},
+		weapon_id = {
+			17121,
+			81121
+		}
+	},
+	[17122] = {
+		id = 17122,
+		base = 17120,
+		ammo_info = {
+			{
+				6,
+				50422
+			}
+		},
+		weapon_id = {
+			17122,
+			81122
+		}
+	},
+	[17123] = {
+		id = 17123,
+		base = 17120,
+		ammo_info = {
+			{
+				6,
+				50423
+			}
+		},
+		weapon_id = {
+			17123,
+			81123
+		}
+	},
+	[17124] = {
+		id = 17124,
+		base = 17120,
+		ammo_info = {
+			{
+				6,
+				50424
+			}
+		},
+		weapon_id = {
+			17124,
+			81124
+		}
+	},
 	[17125] = {
 		id = 17125,
 		base = 17120,
@@ -103,222 +354,6 @@ pg.equip_data_statistics_127 = {
 		weapon_id = {
 			17142,
 			81142
-		}
-	},
-	[17143] = {
-		id = 17143,
-		base = 17140,
-		ammo_info = {
-			{
-				6,
-				50443
-			}
-		},
-		weapon_id = {
-			17143,
-			81143
-		}
-	},
-	[17144] = {
-		id = 17144,
-		base = 17140,
-		ammo_info = {
-			{
-				6,
-				50444
-			}
-		},
-		weapon_id = {
-			17144,
-			81144
-		}
-	},
-	[17145] = {
-		id = 17145,
-		base = 17140,
-		ammo_info = {
-			{
-				6,
-				50445
-			}
-		},
-		weapon_id = {
-			17145,
-			81145
-		}
-	},
-	[17146] = {
-		id = 17146,
-		base = 17140,
-		ammo_info = {
-			{
-				6,
-				50446
-			}
-		},
-		weapon_id = {
-			17146,
-			81146
-		}
-	},
-	[17147] = {
-		id = 17147,
-		base = 17140,
-		ammo_info = {
-			{
-				6,
-				50447
-			}
-		},
-		weapon_id = {
-			17147,
-			81147
-		}
-	},
-	[17148] = {
-		id = 17148,
-		base = 17140,
-		ammo_info = {
-			{
-				6,
-				50448
-			}
-		},
-		weapon_id = {
-			17148,
-			81148
-		}
-	},
-	[17149] = {
-		id = 17149,
-		base = 17140,
-		ammo_info = {
-			{
-				6,
-				50449
-			}
-		},
-		weapon_id = {
-			17149,
-			81149
-		}
-	},
-	[17150] = {
-		id = 17150,
-		base = 17140,
-		ammo_info = {
-			{
-				6,
-				50450
-			}
-		},
-		weapon_id = {
-			17150,
-			81150
-		}
-	},
-	[17151] = {
-		anti_siren = 100,
-		base = 17140,
-		id = 17151,
-		ammo_info = {
-			{
-				6,
-				50451
-			}
-		},
-		weapon_id = {
-			17151,
-			81151
-		}
-	},
-	[17200] = {
-		name = "F4U Corsair",
-		type = 7,
-		speciality = "Air",
-		rarity = 2,
-		tech = 1,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "17200",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 17200,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50400
-			},
-			{
-				5,
-				52300
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			17200,
-			81200
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"FT"
-		}
-	},
-	[17201] = {
-		id = 17201,
-		base = 17200,
-		ammo_info = {
-			{
-				6,
-				50401
-			},
-			{
-				5,
-				52301
-			}
-		},
-		weapon_id = {
-			17201,
-			81201
-		}
-	},
-	[17202] = {
-		id = 17202,
-		base = 17200,
-		ammo_info = {
-			{
-				6,
-				50402
-			},
-			{
-				5,
-				52302
-			}
-		},
-		weapon_id = {
-			17202,
-			81202
 		}
 	}
 }

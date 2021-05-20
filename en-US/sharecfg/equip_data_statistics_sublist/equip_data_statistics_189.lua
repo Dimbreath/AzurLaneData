@@ -1,5 +1,159 @@
 pg = pg or {}
 pg.equip_data_statistics_189 = {
+	[26604] = {
+		id = 26604,
+		damage = "60/wave",
+		base = 26600,
+		weapon_id = {
+			26604
+		}
+	},
+	[26605] = {
+		id = 26605,
+		damage = "66/wave",
+		base = 26600,
+		weapon_id = {
+			26605
+		}
+	},
+	[26606] = {
+		id = 26606,
+		damage = "72/wave",
+		base = 26600,
+		weapon_id = {
+			26606
+		}
+	},
+	[26607] = {
+		id = 26607,
+		damage = "78/wave",
+		base = 26600,
+		weapon_id = {
+			26607
+		}
+	},
+	[26608] = {
+		id = 26608,
+		damage = "84/wave",
+		base = 26600,
+		weapon_id = {
+			26608
+		}
+	},
+	[26609] = {
+		id = 26609,
+		damage = "90/wave",
+		base = 26600,
+		weapon_id = {
+			26609
+		}
+	},
+	[26610] = {
+		id = 26610,
+		damage = "96/wave",
+		base = 26600,
+		weapon_id = {
+			26610
+		}
+	},
+	[26611] = {
+		anti_siren = 100,
+		damage = "96/wave",
+		base = 26600,
+		id = 26611,
+		weapon_id = {
+			26611
+		}
+	},
+	[26612] = {
+		anti_siren = 200,
+		damage = "96/wave",
+		base = 26600,
+		id = 26612,
+		weapon_id = {
+			26612
+		}
+	},
+	[26613] = {
+		anti_siren = 300,
+		damage = "96/wave",
+		base = 26600,
+		id = 26613,
+		weapon_id = {
+			26613
+		}
+	},
+	[26620] = {
+		name = "Twin 40mm Bofors \"Hazemeyer\" AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		attribute_3 = "hit",
+		tech = 0,
+		value_2 = 45,
+		icon = "26620",
+		attribute_2 = "antiaircraft",
+		descrip = "No description",
+		rarity = 5,
+		damage = "38/wave",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 5,
+		id = 26620,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			26620
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
+	[26621] = {
+		id = 26621,
+		damage = "43/wave",
+		base = 26620,
+		weapon_id = {
+			26621
+		}
+	},
 	[26622] = {
 		id = 26622,
 		damage = "48/wave",
@@ -38,160 +192,6 @@ pg.equip_data_statistics_189 = {
 		base = 26620,
 		weapon_id = {
 			26626
-		}
-	},
-	[26627] = {
-		id = 26627,
-		damage = "78/wave",
-		base = 26620,
-		weapon_id = {
-			26627
-		}
-	},
-	[26628] = {
-		id = 26628,
-		damage = "84/wave",
-		base = 26620,
-		weapon_id = {
-			26628
-		}
-	},
-	[26629] = {
-		id = 26629,
-		damage = "90/wave",
-		base = 26620,
-		weapon_id = {
-			26629
-		}
-	},
-	[26630] = {
-		id = 26630,
-		damage = "96/wave",
-		base = 26620,
-		weapon_id = {
-			26630
-		}
-	},
-	[26631] = {
-		anti_siren = 100,
-		damage = "96/wave",
-		base = 26620,
-		id = 26631,
-		weapon_id = {
-			26631
-		}
-	},
-	[26632] = {
-		anti_siren = 200,
-		damage = "96/wave",
-		base = 26620,
-		id = 26632,
-		weapon_id = {
-			26632
-		}
-	},
-	[26633] = {
-		anti_siren = 300,
-		damage = "96/wave",
-		base = 26620,
-		id = 26633,
-		weapon_id = {
-			26633
-		}
-	},
-	[26640] = {
-		name = "Twin 134mm AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		attribute_3 = "cannon",
-		tech = 0,
-		value_2 = 30,
-		icon = "21500",
-		attribute_2 = "antiaircraft",
-		descrip = "No description",
-		rarity = 5,
-		damage = "53/wave",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 15,
-		id = 26640,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			26640
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"ST",
-			"AA"
-		}
-	},
-	[26641] = {
-		id = 26641,
-		damage = "61/wave",
-		base = 26640,
-		weapon_id = {
-			26641
-		}
-	},
-	[26642] = {
-		id = 26642,
-		damage = "68/wave",
-		base = 26640,
-		weapon_id = {
-			26642
-		}
-	},
-	[26643] = {
-		id = 26643,
-		damage = "76/wave",
-		base = 26640,
-		weapon_id = {
-			26643
-		}
-	},
-	[26644] = {
-		id = 26644,
-		damage = "84/wave",
-		base = 26640,
-		weapon_id = {
-			26644
 		}
 	}
 }

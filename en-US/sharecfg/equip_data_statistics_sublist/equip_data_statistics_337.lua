@@ -1,5 +1,287 @@
 pg = pg or {}
 pg.equip_data_statistics_337 = {
+	[70062] = {
+		id = 70062,
+		name = "0",
+		base = 70061,
+		weapon_id = {
+			70062
+		}
+	},
+	[70071] = {
+		name = "0",
+		tech = 1,
+		speciality = "N/A",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "Barrage",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 70071,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			70071
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[70072] = {
+		id = 70072,
+		name = "0",
+		base = 70071,
+		weapon_id = {
+			70072
+		}
+	},
+	[70081] = {
+		name = "全弹发射-艾伦·萨姆那级I",
+		tech = 1,
+		speciality = "N/A",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "Barrage",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 70081,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			70081
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[70082] = {
+		id = 70082,
+		name = "全弹发射-艾伦·萨姆那级II",
+		base = 70081,
+		weapon_id = {
+			70082
+		}
+	},
+	[70111] = {
+		name = "0",
+		tech = 1,
+		speciality = "N/A",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "Barrage",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 70111,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			70111
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[70112] = {
+		id = 70112,
+		name = "0",
+		base = 70111,
+		weapon_id = {
+			70112
+		}
+	},
+	[70121] = {
+		name = "0",
+		tech = 1,
+		speciality = "N/A",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "Barrage",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 70121,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			70121
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[70122] = {
+		id = 70122,
+		name = "0",
+		base = 70121,
+		weapon_id = {
+			70122
+		}
+	},
+	[70131] = {
+		name = "0",
+		tech = 1,
+		speciality = "N/A",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "Barrage",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 70131,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			70131
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[70132] = {
+		id = 70132,
+		name = "0",
+		base = 70131,
+		weapon_id = {
+			70132
+		}
+	},
+	[70141] = {
+		name = "0",
+		tech = 1,
+		speciality = "N/A",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "Barrage",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 70141,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			70141
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[70142] = {
 		id = 70142,
 		name = "0",
@@ -100,288 +382,6 @@ pg.equip_data_statistics_337 = {
 		base = 70221,
 		weapon_id = {
 			70222
-		}
-	},
-	[70231] = {
-		name = "0",
-		tech = 1,
-		speciality = "N/A",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "Barrage",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 70231,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			70231
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[70232] = {
-		id = 70232,
-		name = "0",
-		base = 70231,
-		weapon_id = {
-			70232
-		}
-	},
-	[70241] = {
-		name = "0",
-		tech = 1,
-		speciality = "N/A",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "Barrage",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 70241,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			70241
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[70242] = {
-		id = 70242,
-		name = "0",
-		base = 70241,
-		weapon_id = {
-			70242
-		}
-	},
-	[70251] = {
-		name = "0",
-		tech = 1,
-		speciality = "N/A",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "Barrage",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 70251,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			70251
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[70252] = {
-		id = 70252,
-		name = "0",
-		base = 70251,
-		weapon_id = {
-			70252
-		}
-	},
-	[70261] = {
-		name = "0",
-		tech = 1,
-		speciality = "N/A",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "Barrage",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 70261,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			70261
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[70262] = {
-		id = 70262,
-		name = "0",
-		base = 70261,
-		weapon_id = {
-			70262
-		}
-	},
-	[70271] = {
-		name = "0",
-		tech = 1,
-		speciality = "N/A",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "Barrage",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 70271,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			70271
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[70272] = {
-		id = 70272,
-		name = "0",
-		base = 70271,
-		weapon_id = {
-			70272
-		}
-	},
-	[70311] = {
-		name = "全弹发射-猫鲨级I",
-		tech = 1,
-		speciality = "N/A",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "Barrage",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 70311,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			70311
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[70312] = {
-		id = 70312,
-		name = "全弹发射-猫鲨级II",
-		base = 70311,
-		weapon_id = {
-			70312
 		}
 	}
 }

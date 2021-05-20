@@ -1,5 +1,160 @@
 pg = pg or {}
 pg.equip_data_statistics_399 = {
+	[95422] = {
+		id = 95422,
+		damage = "7 x 4",
+		base = 95420,
+		weapon_id = {
+			95422
+		}
+	},
+	[95423] = {
+		id = 95423,
+		damage = "8 x 4",
+		base = 95420,
+		weapon_id = {
+			95423
+		}
+	},
+	[95424] = {
+		id = 95424,
+		damage = "9 x 4",
+		base = 95420,
+		weapon_id = {
+			95424
+		}
+	},
+	[95425] = {
+		id = 95425,
+		damage = "10 x 4",
+		base = 95420,
+		weapon_id = {
+			95425
+		}
+	},
+	[95426] = {
+		id = 95426,
+		damage = "11 x 4",
+		base = 95420,
+		weapon_id = {
+			95426
+		}
+	},
+	[95440] = {
+		name = "Twin 120mm M1936 Main Gun Mount",
+		speciality = "Lock",
+		type = 1,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "55400",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "6 x 4",
+		nationality = 6,
+		ammo = 3,
+		value_3 = 0,
+		id = 95440,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2300
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2300
+			},
+			{
+				4,
+				1022
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			95440
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"DD",
+			"MG",
+			"AP"
+		}
+	},
+	[95441] = {
+		id = 95441,
+		damage = "7 x 4",
+		base = 95440,
+		weapon_id = {
+			95441
+		}
+	},
+	[95442] = {
+		id = 95442,
+		damage = "8 x 4",
+		base = 95440,
+		weapon_id = {
+			95442
+		}
+	},
+	[95443] = {
+		id = 95443,
+		damage = "9 x 4",
+		base = 95440,
+		weapon_id = {
+			95443
+		}
+	},
+	[95444] = {
+		id = 95444,
+		damage = "10 x 4",
+		base = 95440,
+		weapon_id = {
+			95444
+		}
+	},
+	[95445] = {
+		id = 95445,
+		damage = "11 x 4",
+		base = 95440,
+		weapon_id = {
+			95445
+		}
+	},
+	[95446] = {
+		id = 95446,
+		damage = "12 x 4",
+		base = 95440,
+		weapon_id = {
+			95446
+		}
+	},
 	[95447] = {
 		id = 95447,
 		damage = "13 x 4",
@@ -39,204 +194,6 @@ pg.equip_data_statistics_399 = {
 		id = 95451,
 		weapon_id = {
 			95451
-		}
-	},
-	[95460] = {
-		name = "Twin 120mm M1933 Main Gun Mount",
-		speciality = "Lock",
-		type = 1,
-		tech = 0,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "55460",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "4 x 4",
-		nationality = 6,
-		ammo = 2,
-		value_3 = 0,
-		id = 95460,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				2306
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2306
-			},
-			{
-				4,
-				1022
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			95460
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"RN",
-			"DD",
-			"MG"
-		}
-	},
-	[95461] = {
-		id = 95461,
-		base = 95460,
-		weapon_id = {
-			95461
-		}
-	},
-	[95462] = {
-		id = 95462,
-		damage = "5 x 4",
-		base = 95460,
-		weapon_id = {
-			95462
-		}
-	},
-	[95463] = {
-		id = 95463,
-		damage = "6 x 4",
-		base = 95460,
-		weapon_id = {
-			95463
-		}
-	},
-	[95464] = {
-		id = 95464,
-		damage = "7 x 4",
-		base = 95460,
-		weapon_id = {
-			95464
-		}
-	},
-	[95465] = {
-		id = 95465,
-		damage = "8 x 4",
-		base = 95460,
-		weapon_id = {
-			95465
-		}
-	},
-	[95466] = {
-		id = 95466,
-		damage = "9 x 4",
-		base = 95460,
-		weapon_id = {
-			95466
-		}
-	},
-	[95467] = {
-		id = 95467,
-		damage = "9 x 4",
-		base = 95460,
-		weapon_id = {
-			95467
-		}
-	},
-	[95480] = {
-		name = "Triple 320mm M1934 Main Gun Mount",
-		speciality = "Volley",
-		type = 4,
-		tech = 0,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "55480",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "34 x 3",
-		nationality = 6,
-		ammo = 1,
-		value_3 = 0,
-		id = 95480,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1511
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			95480
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"RN",
-			"BB",
-			"MG",
-			"AP"
-		}
-	},
-	[95481] = {
-		id = 95481,
-		damage = "39 x 3",
-		base = 95480,
-		weapon_id = {
-			95481
-		}
-	},
-	[95482] = {
-		id = 95482,
-		damage = "56 x 3",
-		base = 95480,
-		weapon_id = {
-			95482
-		}
-	},
-	[95483] = {
-		id = 95483,
-		damage = "62 x 3",
-		base = 95480,
-		weapon_id = {
-			95483
 		}
 	}
 }

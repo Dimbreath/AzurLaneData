@@ -1,5 +1,204 @@
 pg = pg or {}
 pg.equip_data_statistics_110 = {
+	[15069] = {
+		id = 15069,
+		damage = "112 x 2",
+		base = 15060,
+		weapon_id = {
+			15069
+		}
+	},
+	[15070] = {
+		id = 15070,
+		damage = "120 x 2",
+		base = 15060,
+		weapon_id = {
+			15070
+		}
+	},
+	[15071] = {
+		anti_siren = 100,
+		damage = "120 x 2",
+		base = 15060,
+		id = 15071,
+		weapon_id = {
+			15071
+		}
+	},
+	[15100] = {
+		name = "Mark 16 Submarine Torpedo",
+		speciality = "Torpedo",
+		type = 13,
+		tech = 1,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "15100",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		damage = "58 x 3",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 15100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1822
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1822
+			},
+			{
+				4,
+				1602
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			15100
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		}
+	},
+	[15101] = {
+		id = 15101,
+		damage = "66 x 3",
+		base = 15100,
+		weapon_id = {
+			15101
+		}
+	},
+	[15102] = {
+		id = 15102,
+		damage = "74 x 3",
+		base = 15100,
+		weapon_id = {
+			15102
+		}
+	},
+	[15103] = {
+		id = 15103,
+		damage = "82 x 3",
+		base = 15100,
+		weapon_id = {
+			15103
+		}
+	},
+	[15104] = {
+		id = 15104,
+		damage = "91 x 3",
+		base = 15100,
+		weapon_id = {
+			15104
+		}
+	},
+	[15105] = {
+		id = 15105,
+		damage = "100 x 3",
+		base = 15100,
+		weapon_id = {
+			15105
+		}
+	},
+	[15106] = {
+		id = 15106,
+		damage = "109 x 3",
+		base = 15100,
+		weapon_id = {
+			15106
+		}
+	},
+	[15120] = {
+		name = "Mark 16 Submarine Torpedo",
+		speciality = "Torpedo",
+		type = 13,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "15100",
+		attribute_2 = "torpedo",
+		rarity = 4,
+		damage = "65 x 3",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 15120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1822
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1822
+			},
+			{
+				4,
+				1602
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			15120
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		}
+	},
+	[15121] = {
+		id = 15121,
+		damage = "74 x 3",
+		base = 15120,
+		weapon_id = {
+			15121
+		}
+	},
 	[15122] = {
 		id = 15122,
 		damage = "83 x 3",
@@ -38,153 +237,6 @@ pg.equip_data_statistics_110 = {
 		base = 15120,
 		weapon_id = {
 			15126
-		}
-	},
-	[15127] = {
-		id = 15127,
-		damage = "133 x 3",
-		base = 15120,
-		weapon_id = {
-			15127
-		}
-	},
-	[15128] = {
-		id = 15128,
-		damage = "143 x 3",
-		base = 15120,
-		weapon_id = {
-			15128
-		}
-	},
-	[15129] = {
-		id = 15129,
-		damage = "153 x 3",
-		base = 15120,
-		weapon_id = {
-			15129
-		}
-	},
-	[15130] = {
-		id = 15130,
-		damage = "163 x 3",
-		base = 15120,
-		weapon_id = {
-			15130
-		}
-	},
-	[15140] = {
-		name = "Mark 16 Submarine Torpedo",
-		speciality = "Torpedo",
-		type = 13,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 45,
-		icon = "15100",
-		attribute_2 = "torpedo",
-		rarity = 5,
-		damage = "72 x 3",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 15140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1822
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1822
-			},
-			{
-				4,
-				1602
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			15140
-		},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"SS",
-			"TP"
-		}
-	},
-	[15141] = {
-		id = 15141,
-		damage = "82 x 3",
-		base = 15140,
-		weapon_id = {
-			15141
-		}
-	},
-	[15142] = {
-		id = 15142,
-		damage = "93 x 3",
-		base = 15140,
-		weapon_id = {
-			15142
-		}
-	},
-	[15143] = {
-		id = 15143,
-		damage = "104 x 3",
-		base = 15140,
-		weapon_id = {
-			15143
-		}
-	},
-	[15144] = {
-		id = 15144,
-		damage = "115 x 3",
-		base = 15140,
-		weapon_id = {
-			15144
-		}
-	},
-	[15145] = {
-		id = 15145,
-		damage = "126 x 3",
-		base = 15140,
-		weapon_id = {
-			15145
-		}
-	},
-	[15146] = {
-		id = 15146,
-		damage = "137 x 3",
-		base = 15140,
-		weapon_id = {
-			15146
-		}
-	},
-	[15147] = {
-		id = 15147,
-		damage = "148 x 3",
-		base = 15140,
-		weapon_id = {
-			15147
 		}
 	}
 }

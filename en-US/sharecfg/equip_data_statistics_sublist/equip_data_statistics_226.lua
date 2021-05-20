@@ -1,5 +1,153 @@
 pg = pg or {}
 pg.equip_data_statistics_226 = {
+	[33051] = {
+		anti_siren = 100,
+		damage = "46 x 4",
+		base = 33040,
+		id = 33051,
+		weapon_id = {
+			33051
+		}
+	},
+	[33060] = {
+		name = "Prototype 203mm No. 3 Naval Gun Mount",
+		speciality = "Lock",
+		type = 3,
+		tech = 0,
+		descrip = "An enhanced prototype 203mm mounted gun issued in small quantities by the Department of Munitions.",
+		value_2 = 45,
+		icon = "33060",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "28 x 4",
+		nationality = 3,
+		ammo = 2,
+		value_3 = 0,
+		id = 33060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1402
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1402
+			},
+			{
+				4,
+				1205
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			33060
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CA",
+			"MG",
+			"HE"
+		}
+	},
+	[33061] = {
+		id = 33061,
+		damage = "30 x 4",
+		base = 33060,
+		weapon_id = {
+			33061
+		}
+	},
+	[33062] = {
+		id = 33062,
+		damage = "32 x 4",
+		base = 33060,
+		weapon_id = {
+			33062
+		}
+	},
+	[33063] = {
+		id = 33063,
+		damage = "34 x 4",
+		base = 33060,
+		weapon_id = {
+			33063
+		}
+	},
+	[33064] = {
+		id = 33064,
+		damage = "36 x 4",
+		base = 33060,
+		weapon_id = {
+			33064
+		}
+	},
+	[33065] = {
+		id = 33065,
+		damage = "38 x 4",
+		base = 33060,
+		weapon_id = {
+			33065
+		}
+	},
+	[33066] = {
+		id = 33066,
+		damage = "40 x 4",
+		base = 33060,
+		weapon_id = {
+			33066
+		}
+	},
+	[33067] = {
+		id = 33067,
+		damage = "42 x 4",
+		base = 33060,
+		weapon_id = {
+			33067
+		}
+	},
+	[33068] = {
+		id = 33068,
+		damage = "44 x 4",
+		base = 33060,
+		weapon_id = {
+			33068
+		}
+	},
+	[33069] = {
+		id = 33069,
+		damage = "46 x 4",
+		base = 33060,
+		weapon_id = {
+			33069
+		}
+	},
+	[33070] = {
+		id = 33070,
+		damage = "48 x 4",
+		base = 33060,
+		weapon_id = {
+			33070
+		}
+	},
 	[33071] = {
 		anti_siren = 100,
 		damage = "48 x 4",
@@ -92,145 +240,6 @@ pg.equip_data_statistics_226 = {
 		base = 33080,
 		weapon_id = {
 			33081
-		}
-	},
-	[33082] = {
-		id = 33082,
-		damage = "32 x 4",
-		base = 33080,
-		weapon_id = {
-			33082
-		}
-	},
-	[33083] = {
-		id = 33083,
-		damage = "34 x 4",
-		base = 33080,
-		weapon_id = {
-			33083
-		}
-	},
-	[33084] = {
-		id = 33084,
-		damage = "36 x 4",
-		base = 33080,
-		weapon_id = {
-			33084
-		}
-	},
-	[33085] = {
-		id = 33085,
-		damage = "38 x 4",
-		base = 33080,
-		weapon_id = {
-			33085
-		}
-	},
-	[33086] = {
-		id = 33086,
-		damage = "40 x 4",
-		base = 33080,
-		weapon_id = {
-			33086
-		}
-	},
-	[33087] = {
-		id = 33087,
-		damage = "42 x 4",
-		base = 33080,
-		weapon_id = {
-			33087
-		}
-	},
-	[33088] = {
-		id = 33088,
-		damage = "44 x 4",
-		base = 33080,
-		weapon_id = {
-			33088
-		}
-	},
-	[33089] = {
-		id = 33089,
-		damage = "46 x 4",
-		base = 33080,
-		weapon_id = {
-			33089
-		}
-	},
-	[33090] = {
-		id = 33090,
-		damage = "48 x 4",
-		base = 33080,
-		weapon_id = {
-			33090
-		}
-	},
-	[33091] = {
-		anti_siren = 100,
-		damage = "48 x 4",
-		base = 33080,
-		id = 33091,
-		weapon_id = {
-			33091
-		}
-	},
-	[33100] = {
-		name = "Prototype Triple 310mm Type 0 Main Gun Mount",
-		speciality = "Volley",
-		type = 11,
-		tech = 0,
-		descrip = "No description",
-		value_2 = 45,
-		icon = "33100",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "36 x 6",
-		nationality = 3,
-		ammo = 2,
-		value_3 = 0,
-		id = 33100,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				2,
-				1414
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			33100
-		},
-		skill_id = {},
-		part_main = {
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CB",
-			"MG",
-			"HE"
-		}
-	},
-	[33101] = {
-		id = 33101,
-		damage = "38 x 6",
-		base = 33100,
-		weapon_id = {
-			33101
 		}
 	}
 }

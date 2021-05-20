@@ -1,5 +1,156 @@
 pg = pg or {}
 pg.equip_data_statistics_258 = {
+	[36647] = {
+		id = 36647,
+		damage = "95/wave",
+		base = 36640,
+		weapon_id = {
+			36647
+		}
+	},
+	[36648] = {
+		id = 36648,
+		damage = "102/wave",
+		base = 36640,
+		weapon_id = {
+			36648
+		}
+	},
+	[36649] = {
+		id = 36649,
+		damage = "109/wave",
+		base = 36640,
+		weapon_id = {
+			36649
+		}
+	},
+	[36650] = {
+		id = 36650,
+		damage = "116/wave",
+		base = 36640,
+		weapon_id = {
+			36650
+		}
+	},
+	[36651] = {
+		anti_siren = 100,
+		damage = "116/wave",
+		base = 36640,
+		id = 36651,
+		weapon_id = {
+			36651
+		}
+	},
+	[36660] = {
+		name = "Twin 127mm Type 89 AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 45,
+		icon = "36660",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "54/wave",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36660,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			36660
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
+	},
+	[36661] = {
+		id = 36661,
+		damage = "61/wave",
+		base = 36660,
+		weapon_id = {
+			36661
+		}
+	},
+	[36662] = {
+		id = 36662,
+		damage = "68/wave",
+		base = 36660,
+		weapon_id = {
+			36662
+		}
+	},
+	[36663] = {
+		id = 36663,
+		damage = "75/wave",
+		base = 36660,
+		weapon_id = {
+			36663
+		}
+	},
+	[36664] = {
+		id = 36664,
+		damage = "82/wave",
+		base = 36660,
+		weapon_id = {
+			36664
+		}
+	},
+	[36665] = {
+		id = 36665,
+		damage = "89/wave",
+		base = 36660,
+		weapon_id = {
+			36665
+		}
+	},
+	[36666] = {
+		id = 36666,
+		damage = "96/wave",
+		base = 36660,
+		weapon_id = {
+			36666
+		}
+	},
 	[36667] = {
 		id = 36667,
 		damage = "103/wave",
@@ -39,158 +190,6 @@ pg.equip_data_statistics_258 = {
 		id = 36671,
 		weapon_id = {
 			36671
-		}
-	},
-	[36672] = {
-		anti_siren = 200,
-		damage = "124/wave",
-		base = 36660,
-		id = 36672,
-		weapon_id = {
-			36672
-		}
-	},
-	[36673] = {
-		anti_siren = 300,
-		damage = "124/wave",
-		base = 36660,
-		id = 36673,
-		weapon_id = {
-			36673
-		}
-	},
-	[36700] = {
-		name = "Twin 40mm Bofors Type 5 AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 0,
-		descrip = "No description",
-		value_2 = 45,
-		icon = "36700",
-		attribute_2 = "antiaircraft",
-		rarity = 5,
-		damage = "47/wave",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 36700,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			36700
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"AA"
-		}
-	},
-	[36701] = {
-		id = 36701,
-		damage = "51/wave",
-		base = 36700,
-		weapon_id = {
-			36701
-		}
-	},
-	[36702] = {
-		id = 36702,
-		damage = "55/wave",
-		base = 36700,
-		weapon_id = {
-			36702
-		}
-	},
-	[36703] = {
-		id = 36703,
-		damage = "59/wave",
-		base = 36700,
-		weapon_id = {
-			36703
-		}
-	},
-	[36704] = {
-		id = 36704,
-		damage = "63/wave",
-		base = 36700,
-		weapon_id = {
-			36704
-		}
-	},
-	[36705] = {
-		id = 36705,
-		damage = "67/wave",
-		base = 36700,
-		weapon_id = {
-			36705
-		}
-	},
-	[36706] = {
-		id = 36706,
-		damage = "71/wave",
-		base = 36700,
-		weapon_id = {
-			36706
-		}
-	},
-	[36707] = {
-		id = 36707,
-		damage = "75/wave",
-		base = 36700,
-		weapon_id = {
-			36707
-		}
-	},
-	[36708] = {
-		id = 36708,
-		damage = "79/wave",
-		base = 36700,
-		weapon_id = {
-			36708
-		}
-	},
-	[36709] = {
-		id = 36709,
-		damage = "83/wave",
-		base = 36700,
-		weapon_id = {
-			36709
 		}
 	}
 }

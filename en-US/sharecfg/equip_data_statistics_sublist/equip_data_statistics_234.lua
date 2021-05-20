@@ -1,5 +1,146 @@
 pg = pg or {}
 pg.equip_data_statistics_234 = {
+	[34229] = {
+		id = 34229,
+		damage = "185 x 3",
+		base = 34220,
+		weapon_id = {
+			34229
+		}
+	},
+	[34230] = {
+		id = 34230,
+		damage = "198 x 3",
+		base = 34220,
+		weapon_id = {
+			34230
+		}
+	},
+	[34240] = {
+		name = "Triple 460mm Mounted Gun",
+		speciality = "Volley",
+		type = 4,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 70,
+		icon = "34200",
+		attribute_2 = "cannon",
+		rarity = 6,
+		damage = "72 x 3",
+		nationality = 3,
+		ammo = 1,
+		value_3 = 0,
+		id = 34240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1511
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			34240
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"BB",
+			"MG",
+			"AP"
+		}
+	},
+	[34241] = {
+		id = 34241,
+		damage = "86 x 3",
+		base = 34240,
+		weapon_id = {
+			34241
+		}
+	},
+	[34242] = {
+		id = 34242,
+		damage = "100 x 3",
+		base = 34240,
+		weapon_id = {
+			34242
+		}
+	},
+	[34243] = {
+		id = 34243,
+		damage = "116 x 3",
+		base = 34240,
+		weapon_id = {
+			34243
+		}
+	},
+	[34244] = {
+		id = 34244,
+		damage = "130 x 3",
+		base = 34240,
+		weapon_id = {
+			34244
+		}
+	},
+	[34245] = {
+		id = 34245,
+		damage = "144 x 3",
+		base = 34240,
+		weapon_id = {
+			34245
+		}
+	},
+	[34246] = {
+		id = 34246,
+		damage = "158 x 3",
+		base = 34240,
+		weapon_id = {
+			34246
+		}
+	},
+	[34247] = {
+		id = 34247,
+		damage = "172 x 3",
+		base = 34240,
+		weapon_id = {
+			34247
+		}
+	},
+	[34248] = {
+		id = 34248,
+		damage = "188 x 3",
+		base = 34240,
+		weapon_id = {
+			34248
+		}
+	},
+	[34249] = {
+		id = 34249,
+		damage = "202 x 3",
+		base = 34240,
+		weapon_id = {
+			34249
+		}
+	},
 	[34250] = {
 		id = 34250,
 		damage = "216 x 3",
@@ -86,156 +227,6 @@ pg.equip_data_statistics_234 = {
 			"BB",
 			"MG",
 			"HE"
-		}
-	},
-	[34301] = {
-		id = 34301,
-		damage = "70 x 2",
-		base = 34300,
-		weapon_id = {
-			34301
-		}
-	},
-	[34302] = {
-		id = 34302,
-		damage = "80 x 2",
-		base = 34300,
-		weapon_id = {
-			34302
-		}
-	},
-	[34303] = {
-		id = 34303,
-		damage = "88 x 2",
-		base = 34300,
-		weapon_id = {
-			34303
-		}
-	},
-	[34304] = {
-		id = 34304,
-		damage = "98 x 2",
-		base = 34300,
-		weapon_id = {
-			34304
-		}
-	},
-	[34305] = {
-		id = 34305,
-		damage = "108 x 2",
-		base = 34300,
-		weapon_id = {
-			34305
-		}
-	},
-	[34306] = {
-		id = 34306,
-		damage = "118 x 2",
-		base = 34300,
-		weapon_id = {
-			34306
-		}
-	},
-	[34307] = {
-		id = 34307,
-		damage = "128 x 2",
-		base = 34300,
-		weapon_id = {
-			34307
-		}
-	},
-	[34308] = {
-		id = 34308,
-		damage = "136 x 2",
-		base = 34300,
-		weapon_id = {
-			34308
-		}
-	},
-	[34309] = {
-		id = 34309,
-		damage = "146 x 2",
-		base = 34300,
-		weapon_id = {
-			34309
-		}
-	},
-	[34310] = {
-		id = 34310,
-		damage = "156 x 2",
-		base = 34300,
-		weapon_id = {
-			34310
-		}
-	},
-	[34311] = {
-		anti_siren = 100,
-		damage = "156 x 2",
-		base = 34300,
-		id = 34311,
-		weapon_id = {
-			34311
-		}
-	},
-	[35000] = {
-		name = "610mm Twin Torpedo Mount",
-		speciality = "Torpedo",
-		type = 5,
-		tech = 1,
-		rarity = 1,
-		descrip = "No description",
-		value_2 = 0,
-		icon = "35000",
-		damage = "52 x 2",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 35000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1801
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1801
-			},
-			{
-				4,
-				1401
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			35000
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"TP",
-			"DUO"
 		}
 	}
 }

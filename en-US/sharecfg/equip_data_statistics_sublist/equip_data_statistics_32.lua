@@ -1,5 +1,141 @@
 pg = pg or {}
 pg.equip_data_statistics_32 = {
+	[1445] = {
+		id = 1445,
+		value_2 = 50,
+		value_1 = "70",
+		base = 1440
+	},
+	[1446] = {
+		id = 1446,
+		value_2 = 55,
+		value_1 = "76",
+		base = 1440
+	},
+	[1447] = {
+		id = 1447,
+		value_2 = 60,
+		value_1 = "82",
+		base = 1440
+	},
+	[1448] = {
+		id = 1448,
+		value_2 = 65,
+		value_1 = "88",
+		base = 1440
+	},
+	[1449] = {
+		id = 1449,
+		value_2 = 70,
+		value_1 = "94",
+		base = 1440
+	},
+	[1450] = {
+		id = 1450,
+		value_2 = 75,
+		value_1 = "100",
+		base = 1440
+	},
+	[1451] = {
+		id = 1451,
+		anti_siren = 100,
+		base = 1440,
+		value_2 = 80,
+		value_1 = "106"
+	},
+	[1452] = {
+		id = 1452,
+		anti_siren = 200,
+		base = 1440,
+		value_2 = 85,
+		value_1 = "112"
+	},
+	[1453] = {
+		id = 1453,
+		anti_siren = 300,
+		base = 1440,
+		value_2 = 90,
+		value_1 = "118"
+	},
+	[1500] = {
+		name = "SG Radar",
+		tech = 1,
+		type = 10,
+		speciality = "N/A",
+		id = 1500,
+		value_2 = 2,
+		icon = "1500",
+		value_1 = "6",
+		attribute_2 = "dodge",
+		rarity = 3,
+		descrip = "Advanced radar developed by the Eagles. More efficient at detecting enemies and knowing whether to fight or flee.",
+		nationality = 1,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "hit",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6040
+		},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		equip_parameters = {
+			avoid_extra = 500,
+			ambush_extra = 500
+		},
+		label = {
+			"USS",
+			"DEV",
+			"SG"
+		}
+	},
+	[1501] = {
+		id = 1501,
+		value_2 = 3,
+		value_1 = "7",
+		base = 1500
+	},
+	[1502] = {
+		id = 1502,
+		value_2 = 3,
+		value_1 = "8",
+		base = 1500
+	},
 	[1503] = {
 		id = 1503,
 		value_2 = 3,
@@ -90,136 +226,5 @@ pg.equip_data_statistics_32 = {
 			"DEV",
 			"SG"
 		}
-	},
-	[1521] = {
-		id = 1521,
-		value_1 = "11",
-		base = 1520
-	},
-	[1522] = {
-		id = 1522,
-		value_2 = 5,
-		value_1 = "12",
-		base = 1520
-	},
-	[1523] = {
-		id = 1523,
-		value_2 = 6,
-		value_1 = "14",
-		base = 1520
-	},
-	[1524] = {
-		id = 1524,
-		value_2 = 6,
-		value_1 = "15",
-		base = 1520
-	},
-	[1525] = {
-		id = 1525,
-		value_2 = 7,
-		value_1 = "17",
-		base = 1520
-	},
-	[1526] = {
-		id = 1526,
-		value_2 = 7,
-		value_1 = "18",
-		base = 1520
-	},
-	[1527] = {
-		id = 1527,
-		value_2 = 8,
-		value_1 = "20",
-		base = 1520
-	},
-	[1528] = {
-		id = 1528,
-		value_2 = 9,
-		value_1 = "21",
-		base = 1520
-	},
-	[1529] = {
-		id = 1529,
-		value_2 = 9,
-		value_1 = "23",
-		base = 1520
-	},
-	[1530] = {
-		id = 1530,
-		value_2 = 10,
-		value_1 = "24",
-		base = 1520
-	},
-	[1540] = {
-		name = "SG Radar",
-		tech = 3,
-		type = 10,
-		speciality = "N/A",
-		id = 1540,
-		value_2 = 6,
-		icon = "1500",
-		value_1 = "14",
-		attribute_2 = "dodge",
-		rarity = 5,
-		descrip = "Advanced radar developed by the Eagles. More efficient at detecting enemies and knowing whether to fight or flee.",
-		nationality = 1,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "hit",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6060
-		},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		equip_parameters = {
-			avoid_extra = 1200,
-			ambush_extra = 1200
-		},
-		label = {
-			"USS",
-			"DEV",
-			"SG"
-		}
-	},
-	[1541] = {
-		id = 1541,
-		value_1 = "16",
-		base = 1540
 	}
 }

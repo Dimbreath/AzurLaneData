@@ -130,40 +130,43 @@ function slot0.Hide(slot0)
 	setActive(slot0._tf, false)
 end
 
-function slot0.Setup(slot0, slot1, slot2, slot3)
+function slot0.Setup(slot0, slot1, slot2, slot3, slot4)
 	slot0.entrance = slot1
 
-	setAnchoredPosition(slot0.rtBasePoint, slot0._tf:InverseTransformPoint(GameObject.Find("OverlayCamera"):GetComponent(typeof(Camera)):ScreenToWorldPoint(slot3:GetMapScreenPos(Vector2(slot1.config.area_pos[1], slot1.config.area_pos[2])))))
+	setAnchoredPosition(slot0.rtBasePoint, slot0._tf:InverseTransformPoint(GameObject.Find("OverlayCamera"):GetComponent(typeof(Camera)):ScreenToWorldPoint(slot4:GetMapScreenPos(Vector2(slot1.config.area_pos[1], slot1.config.area_pos[2])))))
 
 	slot0.mapList = nowWorld:EntranceToReplacementMapList(slot1)
-	slot5 = 1
 
-	if slot1.active then
-		if not underscore.any(slot0.mapList, function (slot0)
-			return slot0 == uv0
-		end) then
-			table.insert(slot0.mapList, nowWorld:GetActiveMap())
-
-			slot5 = #slot0.mapList
+	slot0.toggleItemList:align(#slot0.mapList)
+	triggerToggle(slot0.rtToggles:GetChild(function ()
+		if uv0 then
+			for slot3, slot4 in ipairs(uv1.mapList) do
+				if slot4.id == uv0 then
+					return slot3
+				end
+			end
 		end
-	end
 
-	if slot2 then
-		slot5 = defaultValue(function ()
-			for slot3, slot4 in ipairs(uv0) do
+		if uv2 then
+			for slot3, slot4 in ipairs(uv2) do
 				for slot8, slot9 in ipairs(uv1.mapList) do
-					if slot4 == World.ReplacementMapType(uv2, slot9) then
+					if slot4 == World.ReplacementMapType(uv3, slot9) then
 						return slot8
 					end
 				end
 			end
+		end
 
-			return nil
-		end(), slot5)
-	end
+		if uv3.active then
+			for slot3, slot4 in ipairs(uv1.mapList) do
+				if slot4.active then
+					return slot3
+				end
+			end
+		end
 
-	slot0.toggleItemList:align(#slot0.mapList)
-	triggerToggle(slot0.rtToggles:GetChild(slot5 - 1), true)
+		return 1
+	end() - 1), true)
 end
 
 function slot0.setColorfulImage(slot0, slot1, slot2, slot3)

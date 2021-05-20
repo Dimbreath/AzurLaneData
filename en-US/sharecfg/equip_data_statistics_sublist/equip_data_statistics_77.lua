@@ -1,5 +1,262 @@
 pg = pg or {}
 pg.equip_data_statistics_77 = {
+	[6045] = {
+		id = 6045,
+		damage = "13/wave",
+		base = 6040,
+		weapon_id = {
+			6045
+		}
+	},
+	[6046] = {
+		id = 6046,
+		damage = "15/wave",
+		base = 6040,
+		weapon_id = {
+			6046
+		}
+	},
+	[6047] = {
+		id = 6047,
+		damage = "15/wave",
+		base = 6040,
+		weapon_id = {
+			6047
+		}
+	},
+	[6100] = {
+		name = "Twin 100mm Mle 1931 AA Gun",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 1,
+		rarity = 1,
+		descrip = "No description",
+		value_2 = 0,
+		icon = "6100",
+		damage = "18/wave",
+		nationality = 8,
+		ammo = 5,
+		value_3 = 0,
+		id = 6100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			6100
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		}
+	},
+	[6101] = {
+		id = 6101,
+		damage = "20/wave",
+		base = 6100,
+		weapon_id = {
+			6101
+		}
+	},
+	[6102] = {
+		id = 6102,
+		damage = "22/wave",
+		base = 6100,
+		weapon_id = {
+			6102
+		}
+	},
+	[6103] = {
+		id = 6103,
+		damage = "25/wave",
+		base = 6100,
+		weapon_id = {
+			6103
+		}
+	},
+	[6120] = {
+		name = "Twin 100mm Mle 1931 AA Gun",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "6100",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "20/wave",
+		nationality = 8,
+		ammo = 5,
+		value_3 = 0,
+		id = 6120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			6120
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		}
+	},
+	[6121] = {
+		id = 6121,
+		damage = "23/wave",
+		base = 6120,
+		weapon_id = {
+			6121
+		}
+	},
+	[6122] = {
+		id = 6122,
+		damage = "26/wave",
+		base = 6120,
+		weapon_id = {
+			6122
+		}
+	},
+	[6123] = {
+		id = 6123,
+		damage = "29/wave",
+		base = 6120,
+		weapon_id = {
+			6123
+		}
+	},
+	[6140] = {
+		name = "Twin 100mm Mle 1931 AA Gun",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "6100",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "22/wave",
+		nationality = 8,
+		ammo = 5,
+		value_3 = 0,
+		id = 6140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			6140
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		}
+	},
 	[6141] = {
 		id = 6141,
 		damage = "25/wave",
@@ -38,254 +295,6 @@ pg.equip_data_statistics_77 = {
 		base = 6140,
 		weapon_id = {
 			6145
-		}
-	},
-	[6146] = {
-		id = 6146,
-		damage = "44/wave",
-		base = 6140,
-		weapon_id = {
-			6146
-		}
-	},
-	[6147] = {
-		id = 6147,
-		damage = "44/wave",
-		base = 6140,
-		weapon_id = {
-			6147
-		}
-	},
-	[7000] = {
-		name = "Single 152mm Mk XII Main Gun Mount",
-		speciality = "Normal",
-		type = 2,
-		tech = 1,
-		rarity = 1,
-		descrip = "No description",
-		value_2 = 0,
-		icon = "7000",
-		damage = "16 x 3",
-		nationality = 7,
-		ammo = 3,
-		value_3 = 0,
-		id = 7000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1101
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1101
-			},
-			{
-				4,
-				1103
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			7000
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"CL",
-			"MG"
-		}
-	},
-	[7001] = {
-		id = 7001,
-		damage = "18 x 3",
-		base = 7000,
-		weapon_id = {
-			7001
-		}
-	},
-	[7002] = {
-		id = 7002,
-		damage = "20 x 3",
-		base = 7000,
-		weapon_id = {
-			7002
-		}
-	},
-	[7003] = {
-		id = 7003,
-		damage = "22 x 3",
-		base = 7000,
-		weapon_id = {
-			7003
-		}
-	},
-	[7020] = {
-		name = "Single 152mm Mk XII Main Gun Mount",
-		speciality = "Normal",
-		type = 2,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "7000",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "18 x 3",
-		nationality = 7,
-		ammo = 3,
-		value_3 = 0,
-		id = 7020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1101
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1101
-			},
-			{
-				4,
-				1103
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			7020
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"CL",
-			"MG"
-		}
-	},
-	[7021] = {
-		id = 7021,
-		damage = "20 x 3",
-		base = 7020,
-		weapon_id = {
-			7021
-		}
-	},
-	[7022] = {
-		id = 7022,
-		damage = "22 x 3",
-		base = 7020,
-		weapon_id = {
-			7022
-		}
-	},
-	[7023] = {
-		id = 7023,
-		damage = "24 x 3",
-		base = 7020,
-		weapon_id = {
-			7023
-		}
-	},
-	[7040] = {
-		name = "Single 152mm Mk XII Main Gun Mount",
-		speciality = "Normal",
-		type = 2,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "7000",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "20 x 3",
-		nationality = 7,
-		ammo = 3,
-		value_3 = 0,
-		id = 7040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1101
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1101
-			},
-			{
-				4,
-				1103
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			7040
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"CL",
-			"MG"
-		}
-	},
-	[7041] = {
-		id = 7041,
-		damage = "22 x 3",
-		base = 7040,
-		weapon_id = {
-			7041
 		}
 	}
 }

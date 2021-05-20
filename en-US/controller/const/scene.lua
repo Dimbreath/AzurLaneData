@@ -67,6 +67,7 @@ SCENE = {
 	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
 	BIANDUI = "scene biandui",
 	ATTIRE = "scene attire",
+	NEWMEIXIV4_SKIRMISH = "newmeixiv4 skirmish",
 	NEWYEAR_BACKHILL = "scene NEWYEAR BACKHILL",
 	WORLD_FLEET_SELECT = "world fleet select",
 	COLORING = "scene coloring",
@@ -354,6 +355,9 @@ function SCENE.SetSceneInfo(slot0, slot1)
 	elseif slot1 == SCENE.BACK_CHARGE then
 		slot0.mediator = BackChargeMediator
 		slot0.viewComponent = BackChargeScene
+	elseif slot1 == SCENE.NEWMEIXIV4_SKIRMISH then
+		slot0.mediator = NewMeixiV4Mediator
+		slot0.viewComponent = NewMeixiV4Scene
 	end
 
 	slot0.scene = slot1

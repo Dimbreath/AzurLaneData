@@ -1808,6 +1808,18 @@ pg.memory_group = {
 			1635
 		}
 	},
+	[197] = {
+		title = "Silver Archives ",
+		type = 2,
+		id = 197,
+		icon = "title_event",
+		memories = {
+			1661,
+			1662,
+			1663,
+			1664
+		}
+	},
 	[501] = {
 		title = "{namecode:98}'s Commission",
 		type = 3,
@@ -2691,6 +2703,21 @@ pg.memory_group = {
 			1657
 		}
 	},
+	[561] = {
+		title = "Days of Tranquility",
+		type = 3,
+		id = 561,
+		icon = "title_chara_u47",
+		memories = {
+			1671,
+			1672,
+			1673,
+			1674,
+			1675,
+			1676,
+			1677
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2784,6 +2811,7 @@ pg.memory_group = {
 		194,
 		195,
 		196,
+		197,
 		501,
 		502,
 		503,
@@ -2841,6 +2869,7 @@ pg.memory_group = {
 		557,
 		558,
 		559,
-		560
+		560,
+		561
 	}
 }

@@ -113,7 +113,7 @@ function slot0.UpdateActivity(slot0, slot1)
 	elseif slot3 == ActivityConst.ACTIVITY_TYPE_PT_BUFF and slot0:getDataConfig("pt") > 0 then
 		slot1 = (slot0:getDataConfig("type") ~= 1 or math.max(slot1, 0)) and (slot0:getDataConfig("type") ~= 2 or math.min(math.max(slot1, 0), 0)) and 0
 
-		if not slot0:isEnd() and slot1 ~= 0 then
+		if not slot0:isEnd() and slot1 > 0 then
 			slot0.data1 = slot0.data1 + math.abs(slot1)
 
 			slot2:updateActivity(slot0)

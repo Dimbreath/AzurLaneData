@@ -396,8 +396,13 @@ function slot0.initActCatchupPage(slot0)
 			uv0.actCatchupSliderTF = uv0:findTF("Slider", uv0.actCatchupTF)
 			uv0.actCatchupProgressText = uv0:findTF("Progress", uv0.actCatchupTF)
 
-			setActive(uv0:findTF("GoBtn", uv0.actCatchupTF), false)
-			setActive(uv0:findTF("FinishBtn", uv0.actCatchupTF), false)
+			if uv0:findTF("GoBtn", uv0.actCatchupTF) then
+				setActive(slot1, false)
+			end
+
+			if uv0:findTF("FinishBtn", uv0.actCatchupTF) then
+				setActive(slot2, false)
+			end
 
 			slot3 = uv0.actCatchup.data1
 			slot5 = pg.activity_event_blueprint_catchup[uv0.actCatchup:getConfig("config_id")].obtain_max

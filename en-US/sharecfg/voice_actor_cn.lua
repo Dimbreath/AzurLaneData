@@ -1083,5 +1083,9 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Tanaka Takako ",
 		code = 271
+	},
+	{
+		actor_name = "Kaede Hondo",
+		code = 272
 	}
 }

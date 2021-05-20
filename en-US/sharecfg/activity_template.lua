@@ -1741,7 +1741,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 931,
-		is_show = 7,
+		is_show = 10,
 		title_res_tag = "YidaliV2_Pt",
 		id = 931,
 		config_data = {},
@@ -2672,6 +2672,302 @@ pg.activity_template = {
 			}
 		}
 	},
+	[970] = {
+		mark = 20210520,
+		type = 69,
+		login_pop = 0,
+		config_id = 7,
+		is_show = 8,
+		title_res_tag = "Neptune_catchup",
+		id = 970,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					5,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					6,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NeptuneTecCatchupPage",
+			ui_name = "NeptuneTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42001
+		}
+	},
+	[971] = {
+		mark = 20210520,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 12,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 971,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					5,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					5,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[972] = {
+		mark = 20210520,
+		type = 74,
+		login_pop = 0,
+		config_id = 972,
+		is_show = 9,
+		title_res_tag = "NewMeixiV4_frame",
+		id = 972,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					5,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					6,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NewMeixiV4framePage",
+			ui_name = "NewMeixiV4framePage"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2021,
+					5,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					6,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[973] = {
+		mark = 20210520,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 973,
+		config_data = {
+			16607,
+			16608,
+			16609,
+			16610,
+			16611,
+			16612,
+			16614,
+			16615,
+			16616,
+			16617
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					5,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					6,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[974] = {
+		mark = 20210520,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		title_res_tag = "NewMeixiV4_skirmish",
+		id = 974,
+		config_data = {
+			{
+				16618,
+				16619
+			},
+			{
+				16620,
+				16621
+			},
+			{
+				16622,
+				16623
+			},
+			{
+				16624,
+				16625
+			},
+			{
+				16626,
+				16627
+			},
+			{
+				16628,
+				16629
+			},
+			{
+				16630,
+				16631
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					5,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					6,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NewMeixiV4SkirmishPage",
+			ui_name = "NewMeixiV4SkirmishPage"
+		},
+		config_client = {
+			memoryGroup = 197,
+			storys = {
+				{
+					16619,
+					1661,
+					3051
+				},
+				{
+					16623,
+					1662,
+					3052
+				},
+				{
+					16627,
+					1663,
+					3053
+				},
+				{
+					16631,
+					1664,
+					3054
+				}
+			}
+		}
+	},
 	[1011] = {
 		mark = 20190829,
 		page_info = "",
@@ -3220,6 +3516,22 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 2058,
+		config_data = {
+			0,
+			{}
+		}
+	},
+	[2059] = {
+		mark = 20210520,
+		page_info = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5631,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 2059,
 		config_data = {
 			0,
 			{}
@@ -18972,6 +19284,11 @@ pg.activity_template = {
 		957,
 		958,
 		959,
+		970,
+		971,
+		972,
+		973,
+		974,
 		1011,
 		1012,
 		1013,
@@ -19007,6 +19324,7 @@ pg.activity_template = {
 		2056,
 		2057,
 		2058,
+		2059,
 		100001,
 		30001,
 		30002,

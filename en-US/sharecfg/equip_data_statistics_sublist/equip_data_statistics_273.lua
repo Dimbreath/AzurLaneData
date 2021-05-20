@@ -1,5 +1,292 @@
 pg = pg or {}
 pg.equip_data_statistics_273 = {
+	[38223] = {
+		id = 38223,
+		base = 38220,
+		ammo_info = {
+			{
+				6,
+				50523
+			},
+			{
+				6,
+				50823
+			},
+			{
+				4,
+				51443
+			}
+		},
+		weapon_id = {
+			38223
+		}
+	},
+	[38224] = {
+		id = 38224,
+		base = 38220,
+		ammo_info = {
+			{
+				6,
+				50524
+			},
+			{
+				6,
+				50824
+			},
+			{
+				4,
+				51444
+			}
+		},
+		weapon_id = {
+			38224
+		}
+	},
+	[38225] = {
+		id = 38225,
+		base = 38220,
+		ammo_info = {
+			{
+				6,
+				50525
+			},
+			{
+				6,
+				50825
+			},
+			{
+				4,
+				51445
+			}
+		},
+		weapon_id = {
+			38225
+		}
+	},
+	[38226] = {
+		id = 38226,
+		base = 38220,
+		ammo_info = {
+			{
+				6,
+				50526
+			},
+			{
+				6,
+				50826
+			},
+			{
+				4,
+				51446
+			}
+		},
+		weapon_id = {
+			38226
+		}
+	},
+	[38227] = {
+		id = 38227,
+		base = 38220,
+		ammo_info = {
+			{
+				6,
+				50527
+			},
+			{
+				6,
+				50827
+			},
+			{
+				4,
+				51447
+			}
+		},
+		weapon_id = {
+			38227
+		}
+	},
+	[38228] = {
+		id = 38228,
+		base = 38220,
+		ammo_info = {
+			{
+				6,
+				50528
+			},
+			{
+				6,
+				50828
+			},
+			{
+				4,
+				51448
+			}
+		},
+		weapon_id = {
+			38228
+		}
+	},
+	[38229] = {
+		id = 38229,
+		base = 38220,
+		ammo_info = {
+			{
+				6,
+				50529
+			},
+			{
+				6,
+				50829
+			},
+			{
+				4,
+				51449
+			}
+		},
+		weapon_id = {
+			38229
+		}
+	},
+	[38230] = {
+		id = 38230,
+		base = 38220,
+		ammo_info = {
+			{
+				6,
+				50530
+			},
+			{
+				6,
+				50830
+			},
+			{
+				4,
+				51450
+			}
+		},
+		weapon_id = {
+			38230
+		}
+	},
+	[38240] = {
+		name = "Aichi B7A Ryusei",
+		type = 8,
+		speciality = "Torpedo",
+		rarity = 5,
+		tech = 3,
+		descrip = "The Aichi B7A Ryusei comes equipped with 2 20mm guns, 1 13mm gun and an 800kg torpedo.",
+		value_2 = 45,
+		icon = "38200",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 38240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50540
+			},
+			{
+				6,
+				50840
+			},
+			{
+				4,
+				51460
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			38240
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
+	},
+	[38241] = {
+		id = 38241,
+		base = 38240,
+		ammo_info = {
+			{
+				6,
+				50541
+			},
+			{
+				6,
+				50841
+			},
+			{
+				4,
+				51461
+			}
+		},
+		weapon_id = {
+			38241
+		}
+	},
+	[38242] = {
+		id = 38242,
+		base = 38240,
+		ammo_info = {
+			{
+				6,
+				50542
+			},
+			{
+				6,
+				50842
+			},
+			{
+				4,
+				51462
+			}
+		},
+		weapon_id = {
+			38242
+		}
+	},
+	[38243] = {
+		id = 38243,
+		base = 38240,
+		ammo_info = {
+			{
+				6,
+				50543
+			},
+			{
+				6,
+				50843
+			},
+			{
+				4,
+				51463
+			}
+		},
+		weapon_id = {
+			38243
+		}
+	},
 	[38244] = {
 		id = 38244,
 		base = 38240,
@@ -103,331 +390,6 @@ pg.equip_data_statistics_273 = {
 		},
 		weapon_id = {
 			38248
-		}
-	},
-	[38249] = {
-		id = 38249,
-		base = 38240,
-		ammo_info = {
-			{
-				6,
-				50549
-			},
-			{
-				6,
-				50849
-			},
-			{
-				4,
-				51469
-			}
-		},
-		weapon_id = {
-			38249
-		}
-	},
-	[38250] = {
-		id = 38250,
-		base = 38240,
-		ammo_info = {
-			{
-				6,
-				50550
-			},
-			{
-				6,
-				50850
-			},
-			{
-				4,
-				51470
-			}
-		},
-		weapon_id = {
-			38250
-		}
-	},
-	[38251] = {
-		anti_siren = 100,
-		base = 38240,
-		id = 38251,
-		ammo_info = {
-			{
-				6,
-				50551
-			},
-			{
-				6,
-				50851
-			},
-			{
-				4,
-				51471
-			}
-		},
-		weapon_id = {
-			38251
-		}
-	},
-	[38252] = {
-		anti_siren = 200,
-		base = 38240,
-		id = 38252,
-		ammo_info = {
-			{
-				6,
-				50552
-			},
-			{
-				6,
-				50852
-			},
-			{
-				4,
-				51472
-			}
-		},
-		weapon_id = {
-			38252
-		}
-	},
-	[38253] = {
-		anti_siren = 300,
-		base = 38240,
-		id = 38253,
-		ammo_info = {
-			{
-				6,
-				50553
-			},
-			{
-				6,
-				50853
-			},
-			{
-				4,
-				51473
-			}
-		},
-		weapon_id = {
-			38253
-		}
-	},
-	[39000] = {
-		name = "Type 99 Dive Bomber",
-		type = 9,
-		speciality = "Bomber",
-		rarity = 2,
-		tech = 1,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "39000",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 39000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50000
-			},
-			{
-				5,
-				52200
-			},
-			{
-				5,
-				52100
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			39000
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"DB"
-		}
-	},
-	[39001] = {
-		id = 39001,
-		base = 39000,
-		ammo_info = {
-			{
-				6,
-				50001
-			},
-			{
-				5,
-				52201
-			},
-			{
-				5,
-				52101
-			}
-		},
-		weapon_id = {
-			39001
-		}
-	},
-	[39002] = {
-		id = 39002,
-		base = 39000,
-		ammo_info = {
-			{
-				6,
-				50002
-			},
-			{
-				5,
-				52202
-			},
-			{
-				5,
-				52102
-			}
-		},
-		weapon_id = {
-			39002
-		}
-	},
-	[39003] = {
-		id = 39003,
-		base = 39000,
-		ammo_info = {
-			{
-				6,
-				50003
-			},
-			{
-				5,
-				52203
-			},
-			{
-				5,
-				52103
-			}
-		},
-		weapon_id = {
-			39003
-		}
-	},
-	[39020] = {
-		name = "Type 99 Dive Bomber",
-		type = 9,
-		speciality = "Bomber",
-		rarity = 3,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "39000",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 39020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50020
-			},
-			{
-				5,
-				52220
-			},
-			{
-				5,
-				52120
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			39020
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"DB"
-		}
-	},
-	[39021] = {
-		id = 39021,
-		base = 39020,
-		ammo_info = {
-			{
-				6,
-				50021
-			},
-			{
-				5,
-				52221
-			},
-			{
-				5,
-				52121
-			}
-		},
-		weapon_id = {
-			39021
-		}
-	},
-	[39022] = {
-		id = 39022,
-		base = 39020,
-		ammo_info = {
-			{
-				6,
-				50022
-			},
-			{
-				5,
-				52222
-			},
-			{
-				5,
-				52122
-			}
-		},
-		weapon_id = {
-			39022
 		}
 	}
 }

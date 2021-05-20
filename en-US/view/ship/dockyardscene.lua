@@ -10,6 +10,7 @@ slot0.MODE_WORLD = "world"
 slot0.MODE_REMOULD = "remould"
 slot0.MODE_UPGRADE = "upgrade"
 slot0.MODE_GUILD_BOSS = "guildboss"
+slot0.MODE_BACKYARD = "backyard"
 slot0.TITLE_CN_OVERVIEW = i18n("word_dockyard")
 slot0.TITLE_CN_UPGRADE = i18n("word_dockyardUpgrade")
 slot0.TITLE_CN_DESTROY = i18n("word_dockyardDestroy")
@@ -344,7 +345,7 @@ end
 
 function slot0.onInitItem(slot0, slot1)
 	slot2 = nil
-	slot2 = (slot0.contextData.selectFriend or DockyardShipItem.New(slot1, slot0.contextData.hideTagFlags, slot0.contextData.blockTagFlags)) and DockyardFriend.New(slot1)
+	slot2 = (not slot0.contextData.mode or slot0.contextData.mode ~= uv0.MODE_BACKYARD or DockyardShipItemForBackYard.New(slot1, slot0.contextData.hideTagFlags, slot0.contextData.blockTagFlags)) and (slot0.contextData.selectFriend or DockyardShipItem.New(slot1, slot0.contextData.hideTagFlags, slot0.contextData.blockTagFlags)) and DockyardFriend.New(slot1)
 
 	slot2:updateDetail(slot0.itemDetailType)
 
@@ -2083,6 +2084,21 @@ function slot0.cancelAnimating(slot0)
 	if slot0.tweens then
 		cancelTweens(slot0.tweens)
 	end
+end
+
+function slot0.quickExitFunc(slot0)
+	seriesAsync({
+		function (slot0)
+			if uv0.contextData.onQuickHome then
+				uv0.contextData.onQuickHome(slot0)
+			else
+				slot0()
+			end
+		end,
+		function (slot0)
+			uv0:emit(uv1.ON_HOME)
+		end
+	})
 end
 
 function slot0.displayDestroyPanel(slot0)

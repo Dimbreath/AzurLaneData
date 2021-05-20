@@ -1,5 +1,211 @@
 pg = pg or {}
 pg.equip_data_statistics_248 = {
+	[35570] = {
+		id = 35570,
+		damage = "180 x 2",
+		base = 35560,
+		weapon_id = {
+			35570
+		}
+	},
+	[35571] = {
+		anti_siren = 100,
+		damage = "180 x 2",
+		base = 35560,
+		id = 35571,
+		weapon_id = {
+			35571
+		}
+	},
+	[35572] = {
+		anti_siren = 200,
+		damage = "180 x 2",
+		base = 35560,
+		id = 35572,
+		weapon_id = {
+			35572
+		}
+	},
+	[35573] = {
+		anti_siren = 300,
+		damage = "180 x 2",
+		base = 35560,
+		id = 35573,
+		weapon_id = {
+			35573
+		}
+	},
+	[36100] = {
+		name = "Single 25mm AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 1,
+		rarity = 1,
+		descrip = "No description",
+		value_2 = 0,
+		icon = "36100",
+		damage = "8/wave",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			36100
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
+	},
+	[36101] = {
+		id = 36101,
+		damage = "9/wave",
+		base = 36100,
+		weapon_id = {
+			36101
+		}
+	},
+	[36102] = {
+		id = 36102,
+		damage = "10/wave",
+		base = 36100,
+		weapon_id = {
+			36102
+		}
+	},
+	[36103] = {
+		id = 36103,
+		damage = "12/wave",
+		base = 36100,
+		weapon_id = {
+			36103
+		}
+	},
+	[36120] = {
+		name = "Single 25mm AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "36100",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "9/wave",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			36120
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
+	},
+	[36121] = {
+		id = 36121,
+		damage = "10/wave",
+		base = 36120,
+		weapon_id = {
+			36121
+		}
+	},
+	[36122] = {
+		id = 36122,
+		damage = "12/wave",
+		base = 36120,
+		weapon_id = {
+			36122
+		}
+	},
+	[36123] = {
+		id = 36123,
+		damage = "14/wave",
+		base = 36120,
+		weapon_id = {
+			36123
+		}
+	},
 	[36140] = {
 		name = "Single 25mm AA Gun Mount",
 		speciality = "Anti-Air",
@@ -92,210 +298,6 @@ pg.equip_data_statistics_248 = {
 		base = 36140,
 		weapon_id = {
 			36144
-		}
-	},
-	[36145] = {
-		id = 36145,
-		damage = "19/wave",
-		base = 36140,
-		weapon_id = {
-			36145
-		}
-	},
-	[36146] = {
-		id = 36146,
-		damage = "21/wave",
-		base = 36140,
-		weapon_id = {
-			36146
-		}
-	},
-	[36147] = {
-		id = 36147,
-		damage = "21/wave",
-		base = 36140,
-		weapon_id = {
-			36147
-		}
-	},
-	[36200] = {
-		name = "Twin 25mm AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 1,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "36200",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "13/wave",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 36200,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			36200
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"AA"
-		}
-	},
-	[36201] = {
-		id = 36201,
-		damage = "15/wave",
-		base = 36200,
-		weapon_id = {
-			36201
-		}
-	},
-	[36202] = {
-		id = 36202,
-		damage = "17/wave",
-		base = 36200,
-		weapon_id = {
-			36202
-		}
-	},
-	[36203] = {
-		id = 36203,
-		damage = "19/wave",
-		base = 36200,
-		weapon_id = {
-			36203
-		}
-	},
-	[36220] = {
-		name = "Twin 25mm AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "36200",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "14/wave",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 36220,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			36220
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"AA"
-		}
-	},
-	[36221] = {
-		id = 36221,
-		damage = "16/wave",
-		base = 36220,
-		weapon_id = {
-			36221
-		}
-	},
-	[36222] = {
-		id = 36222,
-		damage = "18/wave",
-		base = 36220,
-		weapon_id = {
-			36222
-		}
-	},
-	[36223] = {
-		id = 36223,
-		damage = "20/wave",
-		base = 36220,
-		weapon_id = {
-			36223
-		}
-	},
-	[36224] = {
-		id = 36224,
-		damage = "22/wave",
-		base = 36220,
-		weapon_id = {
-			36224
 		}
 	}
 }

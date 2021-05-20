@@ -436,6 +436,7 @@ function slot0.initItem(slot0, slot1)
 				onUse = function ()
 					uv0:PlayOpenBox(uv1.itemVO:getWorldItemOpenDisplay(), function ()
 						uv0:emit(WorldInventoryMediator.OnMap, uv1.itemVO.id)
+						uv0:closeView()
 					end)
 				end,
 				onResetInfo = function (slot0)

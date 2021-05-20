@@ -1,5 +1,126 @@
 pg = pg or {}
 pg.equip_data_statistics_35 = {
+	[1642] = {
+		id = 1642,
+		value_1 = "11",
+		base = 1640
+	},
+	[1643] = {
+		id = 1643,
+		value_2 = 4,
+		value_1 = "12",
+		base = 1640
+	},
+	[1644] = {
+		id = 1644,
+		value_2 = 4,
+		value_1 = "13",
+		base = 1640
+	},
+	[1645] = {
+		id = 1645,
+		value_2 = 5,
+		value_1 = "15",
+		base = 1640
+	},
+	[1646] = {
+		id = 1646,
+		value_2 = 5,
+		value_1 = "17",
+		base = 1640
+	},
+	[1647] = {
+		id = 1647,
+		value_2 = 6,
+		value_1 = "19",
+		base = 1640
+	},
+	[1700] = {
+		name = "Hydraulic Steering Gear",
+		tech = 1,
+		type = 10,
+		speciality = "N/A",
+		id = 1700,
+		value_2 = 14,
+		icon = "1700",
+		value_1 = "2",
+		attribute_2 = "durability",
+		rarity = 1,
+		descrip = "You'll be in trouble if the rudder breaks. May increase evasion capabilities.",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[1701] = {
+		id = 1701,
+		value_2 = 16,
+		base = 1700
+	},
+	[1702] = {
+		id = 1702,
+		value_2 = 18,
+		value_1 = "3",
+		base = 1700
+	},
+	[1703] = {
+		id = 1703,
+		value_2 = 20,
+		value_1 = "3",
+		base = 1700
+	},
+	[1720] = {
+		name = "Hydraulic Steering Gear",
+		tech = 2,
+		type = 10,
+		speciality = "N/A",
+		id = 1720,
+		value_2 = 16,
+		icon = "1700",
+		value_1 = "5",
+		attribute_2 = "durability",
+		rarity = 2,
+		descrip = "You'll be in trouble if the rudder breaks. May increase evasion capabilities.",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[1721] = {
+		id = 1721,
+		value_2 = 19,
+		base = 1720
+	},
 	[1722] = {
 		id = 1722,
 		value_2 = 22,
@@ -55,106 +176,5 @@ pg.equip_data_statistics_35 = {
 		value_2 = 28,
 		value_1 = "11",
 		base = 1740
-	},
-	[1743] = {
-		id = 1743,
-		value_2 = 32,
-		value_1 = "12",
-		base = 1740
-	},
-	[1744] = {
-		id = 1744,
-		value_2 = 36,
-		value_1 = "13",
-		base = 1740
-	},
-	[1745] = {
-		id = 1745,
-		value_2 = 40,
-		value_1 = "15",
-		base = 1740
-	},
-	[1746] = {
-		id = 1746,
-		value_2 = 44,
-		value_1 = "17",
-		base = 1740
-	},
-	[1747] = {
-		id = 1747,
-		value_2 = 48,
-		value_1 = "19",
-		base = 1740
-	},
-	[1760] = {
-		name = "High Performance Hydraulic Steering Gear",
-		tech = 0,
-		type = 10,
-		speciality = "N/A",
-		id = 1760,
-		value_2 = 24,
-		icon = "1760",
-		value_1 = "16",
-		attribute_2 = "durability",
-		rarity = 5,
-		descrip = "This high performance Hydraulic Steering Gear greatly increases evasion capabilities.",
-		nationality = 1,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "dodge",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6270
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"DEV"
-		}
-	},
-	[1761] = {
-		id = 1761,
-		value_2 = 27,
-		value_1 = "18",
-		base = 1760
-	},
-	[1762] = {
-		id = 1762,
-		value_2 = 30,
-		value_1 = "20",
-		base = 1760
-	},
-	[1763] = {
-		id = 1763,
-		value_2 = 33,
-		value_1 = "22",
-		base = 1760
-	},
-	[1764] = {
-		id = 1764,
-		value_2 = 36,
-		value_1 = "24",
-		base = 1760
-	},
-	[1765] = {
-		id = 1765,
-		value_2 = 40,
-		value_1 = "26",
-		base = 1760
-	},
-	[1766] = {
-		id = 1766,
-		value_2 = 44,
-		value_1 = "28",
-		base = 1760
 	}
 }

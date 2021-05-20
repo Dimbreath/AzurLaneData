@@ -5814,19 +5814,19 @@ pg.skill_data_display = {
 	},
 	[800075] = {
 		id = 800075,
-		name = "Scorched Blade·Hiryuu"
+		name = "Ashen Might·Hiryuu"
 	},
 	[800077] = {
 		id = 800077,
-		name = "Scorched Blade·Hiryuu"
+		name = "Ashen Might·Hiryuu"
 	},
 	[800085] = {
 		id = 800085,
-		name = "Scorched Blade·Ark Royal"
+		name = "Ashen Might·Ark Royal"
 	},
 	[800087] = {
 		id = 800087,
-		name = "Scorched Blade·Ark Royal"
+		name = "Ashen Might·Ark Royal"
 	},
 	all = {
 		4,

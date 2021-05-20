@@ -1,5 +1,97 @@
 pg = pg or {}
 pg.equip_data_statistics_24 = {
+	[1029] = {
+		id = 1029,
+		value_1 = "329",
+		base = 1020
+	},
+	[1030] = {
+		id = 1030,
+		value_1 = "350",
+		base = 1020
+	},
+	[1040] = {
+		name = "Ship Maintenance Facility",
+		tech = 3,
+		type = 10,
+		speciality = "N/A",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "1000",
+		value_1 = "200",
+		descrip = "Use to repair ships. May only be used by Repair Ships.",
+		rarity = 5,
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 1040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			12
+		},
+		part_main = {
+			12
+		},
+		part_sub = {
+			12
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[1041] = {
+		id = 1041,
+		value_1 = "230",
+		base = 1040
+	},
+	[1042] = {
+		id = 1042,
+		value_1 = "260",
+		base = 1040
+	},
+	[1043] = {
+		id = 1043,
+		value_1 = "290",
+		base = 1040
+	},
+	[1044] = {
+		id = 1044,
+		value_1 = "320",
+		base = 1040
+	},
+	[1045] = {
+		id = 1045,
+		value_1 = "350",
+		base = 1040
+	},
+	[1046] = {
+		id = 1046,
+		value_1 = "380",
+		base = 1040
+	},
+	[1047] = {
+		id = 1047,
+		value_1 = "410",
+		base = 1040
+	},
+	[1048] = {
+		id = 1048,
+		value_1 = "440",
+		base = 1040
+	},
+	[1049] = {
+		id = 1049,
+		value_1 = "470",
+		base = 1040
+	},
 	[1050] = {
 		id = 1050,
 		value_1 = "500",
@@ -54,119 +146,5 @@ pg.equip_data_statistics_24 = {
 			"USS",
 			"DEV"
 		}
-	},
-	[1101] = {
-		id = 1101,
-		value_1 = "11",
-		base = 1100
-	},
-	[1102] = {
-		id = 1102,
-		value_1 = "13",
-		base = 1100
-	},
-	[1103] = {
-		id = 1103,
-		value_1 = "14",
-		base = 1100
-	},
-	[1120] = {
-		name = "Air Radar",
-		tech = 2,
-		type = 10,
-		speciality = "N/A",
-		attribute_1 = "antiaircraft",
-		value_2 = 0,
-		icon = "1100",
-		value_1 = "18",
-		descrip = "Air radar which increase anti-air efficiency.",
-		rarity = 3,
-		nationality = 1,
-		ammo = 10,
-		value_3 = 0,
-		id = 1120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"DEV"
-		}
-	},
-	[1121] = {
-		id = 1121,
-		value_1 = "20",
-		base = 1120
-	},
-	[1122] = {
-		id = 1122,
-		value_1 = "23",
-		base = 1120
-	},
-	[1123] = {
-		id = 1123,
-		value_1 = "26",
-		base = 1120
-	},
-	[1124] = {
-		id = 1124,
-		value_1 = "28",
-		base = 1120
-	},
-	[1125] = {
-		id = 1125,
-		value_1 = "31",
-		base = 1120
-	},
-	[1126] = {
-		id = 1126,
-		value_1 = "34",
-		base = 1120
-	},
-	[1140] = {
-		name = "Air Radar",
-		tech = 3,
-		type = 10,
-		speciality = "N/A",
-		attribute_1 = "antiaircraft",
-		value_2 = 0,
-		icon = "1100",
-		value_1 = "28",
-		descrip = "Air radar which increase anti-air efficiency.",
-		rarity = 4,
-		nationality = 1,
-		ammo = 10,
-		value_3 = 0,
-		id = 1140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"DEV"
-		}
-	},
-	[1141] = {
-		id = 1141,
-		value_1 = "32",
-		base = 1140
 	}
 }
