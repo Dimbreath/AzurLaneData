@@ -1243,9 +1243,16 @@ function slot0.initOtherPanel(slot0)
 end
 
 function slot0.UpdateAgreementPanel(slot0)
-	slot3 = PLATFORM_CODE == PLATFORM_CH and not (LuaHelper.GetCHPackageType() == 3)
+	slot1 = slot0:findTF("agreement", slot0.otherContent)
+	slot2 = false
 
-	setActive(slot0:findTF("agreement", slot0.otherContent), slot3)
+	if PLATFORM_CODE == PLATFORM_CH then
+		slot2 = LuaHelper.GetCHPackageType() == 3
+	end
+
+	slot3 = PLATFORM_CODE == PLATFORM_CH and not slot2
+
+	setActive(slot1, slot3)
 
 	if slot3 then
 		onButton(slot0, slot1:Find("private"), function ()
