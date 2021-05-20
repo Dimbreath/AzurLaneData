@@ -1,5 +1,143 @@
 pg = pg or {}
 pg.equip_data_statistics_295 = {
+	[43125] = {
+		id = 43125,
+		damage = "42 x 6",
+		base = 43120,
+		weapon_id = {
+			43125
+		}
+	},
+	[43126] = {
+		id = 43126,
+		damage = "44 x 6",
+		base = 43120,
+		weapon_id = {
+			43126
+		}
+	},
+	[43140] = {
+		name = "三联283mmSKC28主炮",
+		speciality = "跨射",
+		type = 11,
+		tech = 3,
+		descrip = "三联283mmSKC28主炮，德意志级装甲舰主炮，仅德意志级可以使用",
+		value_2 = 25,
+		icon = "43100",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "35 x 6",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 0,
+		id = 43140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1406
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			43140
+		},
+		skill_id = {},
+		part_main = {
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CB",
+			"MG",
+			"AP"
+		}
+	},
+	[43141] = {
+		id = 43141,
+		damage = "37 x 6",
+		base = 43140,
+		weapon_id = {
+			43141
+		}
+	},
+	[43142] = {
+		id = 43142,
+		damage = "39 x 6",
+		base = 43140,
+		weapon_id = {
+			43142
+		}
+	},
+	[43143] = {
+		id = 43143,
+		damage = "41 x 6",
+		base = 43140,
+		weapon_id = {
+			43143
+		}
+	},
+	[43144] = {
+		id = 43144,
+		damage = "43 x 6",
+		base = 43140,
+		weapon_id = {
+			43144
+		}
+	},
+	[43145] = {
+		id = 43145,
+		damage = "45 x 6",
+		base = 43140,
+		weapon_id = {
+			43145
+		}
+	},
+	[43146] = {
+		id = 43146,
+		damage = "47 x 6",
+		base = 43140,
+		weapon_id = {
+			43146
+		}
+	},
+	[43147] = {
+		id = 43147,
+		damage = "49 x 6",
+		base = 43140,
+		weapon_id = {
+			43147
+		}
+	},
+	[43148] = {
+		id = 43148,
+		damage = "51 x 6",
+		base = 43140,
+		weapon_id = {
+			43148
+		}
+	},
+	[43149] = {
+		id = 43149,
+		damage = "53 x 6",
+		base = 43140,
+		weapon_id = {
+			43149
+		}
+	},
 	[43150] = {
 		id = 43150,
 		damage = "55 x 6",
@@ -83,190 +221,6 @@ pg.equip_data_statistics_295 = {
 		base = 44000,
 		weapon_id = {
 			44002
-		}
-	},
-	[44003] = {
-		id = 44003,
-		damage = "46 x 3",
-		base = 44000,
-		weapon_id = {
-			44003
-		}
-	},
-	[44020] = {
-		name = "三联283mmSKC34主炮",
-		speciality = "跨射",
-		type = 4,
-		tech = 2,
-		descrip = "三联283mmSKC34主炮，沙恩霍斯特级战列巡洋舰主炮，战巡和战列可以使用",
-		value_2 = 12,
-		icon = "44000",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "37 x 3",
-		nationality = 4,
-		ammo = 3,
-		value_3 = 0,
-		id = 44020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1510
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			44020
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"BB",
-			"MG"
-		}
-	},
-	[44021] = {
-		id = 44021,
-		damage = "42 x 3",
-		base = 44020,
-		weapon_id = {
-			44021
-		}
-	},
-	[44022] = {
-		id = 44022,
-		damage = "46 x 3",
-		base = 44020,
-		weapon_id = {
-			44022
-		}
-	},
-	[44023] = {
-		id = 44023,
-		damage = "51 x 3",
-		base = 44020,
-		weapon_id = {
-			44023
-		}
-	},
-	[44024] = {
-		id = 44024,
-		damage = "55 x 3",
-		base = 44020,
-		weapon_id = {
-			44024
-		}
-	},
-	[44025] = {
-		id = 44025,
-		damage = "59 x 3",
-		base = 44020,
-		weapon_id = {
-			44025
-		}
-	},
-	[44026] = {
-		id = 44026,
-		damage = "64 x 3",
-		base = 44020,
-		weapon_id = {
-			44026
-		}
-	},
-	[44040] = {
-		name = "三联283mmSKC34主炮",
-		speciality = "跨射",
-		type = 4,
-		tech = 3,
-		descrip = "三联283mmSKC34主炮，沙恩霍斯特级战列巡洋舰主炮，战巡和战列可以使用",
-		value_2 = 25,
-		icon = "44000",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "40 x 3",
-		nationality = 4,
-		ammo = 3,
-		value_3 = 0,
-		id = 44040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1510
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			44040
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"BB",
-			"MG"
-		}
-	},
-	[44041] = {
-		id = 44041,
-		damage = "46 x 3",
-		base = 44040,
-		weapon_id = {
-			44041
-		}
-	},
-	[44042] = {
-		id = 44042,
-		damage = "50 x 3",
-		base = 44040,
-		weapon_id = {
-			44042
-		}
-	},
-	[44043] = {
-		id = 44043,
-		damage = "56 x 3",
-		base = 44040,
-		weapon_id = {
-			44043
 		}
 	}
 }

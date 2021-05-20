@@ -1,5 +1,112 @@
 pg = pg or {}
 pg.equip_data_statistics_55 = {
+	[3027] = {
+		id = 3027,
+		value_2 = 8,
+		value_1 = "18",
+		base = 3020
+	},
+	[3028] = {
+		id = 3028,
+		value_2 = 9,
+		value_1 = "20",
+		base = 3020
+	},
+	[3029] = {
+		id = 3029,
+		value_2 = 9,
+		value_1 = "22",
+		base = 3020
+	},
+	[3030] = {
+		id = 3030,
+		value_2 = 10,
+		value_1 = "24",
+		base = 3020
+	},
+	[3040] = {
+		name = "改良声呐",
+		tech = 3,
+		type = 10,
+		speciality = "无",
+		id = 3040,
+		value_2 = 7,
+		icon = "3000",
+		value_1 = "14",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "说明未填写",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "antisub",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6650
+		},
+		part_main = {
+			1,
+			2
+		},
+		part_sub = {
+			1,
+			2
+		},
+		equip_parameters = {
+			range = 8
+		},
+		label = {
+			"DEV"
+		}
+	},
+	[3041] = {
+		id = 3041,
+		value_1 = "16",
+		base = 3040
+	},
+	[3042] = {
+		id = 3042,
+		value_2 = 8,
+		value_1 = "18",
+		base = 3040
+	},
+	[3043] = {
+		id = 3043,
+		value_2 = 8,
+		value_1 = "20",
+		base = 3040
+	},
+	[3044] = {
+		id = 3044,
+		value_2 = 9,
+		value_1 = "22",
+		base = 3040
+	},
+	[3045] = {
+		id = 3045,
+		value_2 = 9,
+		value_1 = "24",
+		base = 3040
+	},
+	[3046] = {
+		id = 3046,
+		value_2 = 10,
+		value_1 = "26",
+		base = 3040
+	},
+	[3047] = {
+		id = 3047,
+		value_2 = 10,
+		value_1 = "28",
+		base = 3040
+	},
 	[3048] = {
 		id = 3048,
 		value_2 = 11,
@@ -31,99 +138,5 @@ pg.equip_data_statistics_55 = {
 		base = 3040,
 		value_2 = 14,
 		value_1 = "41"
-	},
-	[3053] = {
-		id = 3053,
-		anti_siren = 300,
-		base = 3040,
-		value_2 = 15,
-		value_1 = "44"
-	},
-	[3100] = {
-		name = "高压氧气瓶",
-		tech = 0,
-		type = 10,
-		speciality = "无",
-		attribute_1 = "oxy_max",
-		value_2 = 0,
-		icon = "3100",
-		value_1 = "18",
-		descrip = "充装气压约15兆帕的压缩空气,可提供长时间呼吸",
-		rarity = 4,
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 3100,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[3101] = {
-		id = 3101,
-		value_1 = "20",
-		base = 3100
-	},
-	[3102] = {
-		id = 3102,
-		value_1 = "22",
-		base = 3100
-	},
-	[3103] = {
-		id = 3103,
-		value_1 = "24",
-		base = 3100
-	},
-	[3104] = {
-		id = 3104,
-		value_1 = "27",
-		base = 3100
-	},
-	[3105] = {
-		id = 3105,
-		value_1 = "30",
-		base = 3100
-	},
-	[3106] = {
-		id = 3106,
-		value_1 = "33",
-		base = 3100
-	},
-	[3107] = {
-		id = 3107,
-		value_1 = "36",
-		base = 3100
-	},
-	[3108] = {
-		id = 3108,
-		value_1 = "39",
-		base = 3100
-	},
-	[3109] = {
-		id = 3109,
-		value_1 = "42",
-		base = 3100
-	},
-	[3110] = {
-		id = 3110,
-		value_1 = "45",
-		base = 3100
 	}
 }

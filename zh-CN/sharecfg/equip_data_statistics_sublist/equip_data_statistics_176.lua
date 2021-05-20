@@ -1,5 +1,155 @@
 pg = pg or {}
 pg.equip_data_statistics_176 = {
+	[25205] = {
+		id = 25205,
+		damage = "96 x 3",
+		base = 25200,
+		weapon_id = {
+			25205
+		}
+	},
+	[25206] = {
+		id = 25206,
+		damage = "104 x 3",
+		base = 25200,
+		weapon_id = {
+			25206
+		}
+	},
+	[25207] = {
+		id = 25207,
+		damage = "113 x 3",
+		base = 25200,
+		weapon_id = {
+			25207
+		}
+	},
+	[25208] = {
+		id = 25208,
+		damage = "122 x 3",
+		base = 25200,
+		weapon_id = {
+			25208
+		}
+	},
+	[25209] = {
+		id = 25209,
+		damage = "130 x 3",
+		base = 25200,
+		weapon_id = {
+			25209
+		}
+	},
+	[25210] = {
+		id = 25210,
+		damage = "139 x 3",
+		base = 25200,
+		weapon_id = {
+			25210
+		}
+	},
+	[25211] = {
+		anti_siren = 100,
+		damage = "139 x 3",
+		base = 25200,
+		id = 25211,
+		weapon_id = {
+			25211
+		}
+	},
+	[25212] = {
+		anti_siren = 200,
+		damage = "139 x 3",
+		base = 25200,
+		id = 25212,
+		weapon_id = {
+			25212
+		}
+	},
+	[25213] = {
+		anti_siren = 300,
+		damage = "139 x 3",
+		base = 25200,
+		id = 25213,
+		weapon_id = {
+			25213
+		}
+	},
+	[25300] = {
+		name = "潜艇用Mark 20 S鱼雷-彼得",
+		speciality = "雷击",
+		type = 13,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "25300",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "70 x 3",
+		nationality = 2,
+		ammo = 4,
+		value_3 = 0,
+		id = 25300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1831
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1831
+			},
+			{
+				4,
+				1602
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			25300
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"SS",
+			"TP"
+		}
+	},
+	[25301] = {
+		id = 25301,
+		damage = "80 x 3",
+		base = 25300,
+		weapon_id = {
+			25301
+		}
+	},
+	[25302] = {
+		id = 25302,
+		damage = "90 x 3",
+		base = 25300,
+		weapon_id = {
+			25302
+		}
+	},
 	[25303] = {
 		id = 25303,
 		damage = "100 x 3",
@@ -38,146 +188,6 @@ pg.equip_data_statistics_176 = {
 		base = 25300,
 		weapon_id = {
 			25307
-		}
-	},
-	[25308] = {
-		id = 25308,
-		damage = "154 x 3",
-		base = 25300,
-		weapon_id = {
-			25308
-		}
-	},
-	[25309] = {
-		id = 25309,
-		damage = "165 x 3",
-		base = 25300,
-		weapon_id = {
-			25309
-		}
-	},
-	[25310] = {
-		id = 25310,
-		damage = "176 x 3",
-		base = 25300,
-		weapon_id = {
-			25310
-		}
-	},
-	[25311] = {
-		anti_siren = 100,
-		damage = "176 x 3",
-		base = 25300,
-		id = 25311,
-		weapon_id = {
-			25311
-		}
-	},
-	[25312] = {
-		anti_siren = 200,
-		damage = "176 x 3",
-		base = 25300,
-		id = 25312,
-		weapon_id = {
-			25312
-		}
-	},
-	[25313] = {
-		anti_siren = 300,
-		damage = "176 x 3",
-		base = 25300,
-		id = 25313,
-		weapon_id = {
-			25313
-		}
-	},
-	[25800] = {
-		name = "刺猬弹",
-		speciality = "反潜",
-		type = 14,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 45,
-		icon = "25800",
-		attribute_2 = "antisub",
-		rarity = 5,
-		damage = "85 ~ 170",
-		nationality = 2,
-		ammo = 9,
-		value_3 = 0,
-		id = 25800,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				7,
-				9008
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			25800
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2
-		},
-		part_sub = {
-			1,
-			2
-		},
-		equip_parameters = {},
-		label = {
-			"DC"
-		}
-	},
-	[25801] = {
-		id = 25801,
-		damage = "94 ~ 188",
-		base = 25800,
-		weapon_id = {
-			25801
-		}
-	},
-	[25802] = {
-		id = 25802,
-		damage = "103 ~ 206",
-		base = 25800,
-		weapon_id = {
-			25802
-		}
-	},
-	[25803] = {
-		id = 25803,
-		damage = "112 ~ 224",
-		base = 25800,
-		weapon_id = {
-			25803
-		}
-	},
-	[25804] = {
-		id = 25804,
-		damage = "122 ~ 244",
-		base = 25800,
-		weapon_id = {
-			25804
-		}
-	},
-	[25805] = {
-		id = 25805,
-		damage = "132 ~ 264",
-		base = 25800,
-		weapon_id = {
-			25805
 		}
 	}
 }

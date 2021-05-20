@@ -8,16 +8,18 @@ slot7 = false
 slot8 = {}
 slot9, slot10, slot11, slot12 = nil
 slot1.needStartSend = false
-slot13, slot14, slot15 = nil
+slot13, slot14, slot15, slot16 = nil
 
 function slot1.Connect(slot0, slot1, slot2, slot3, slot4)
 	uv0.erroCode = slot4
-	uv1 = Connection.New(slot1, slot2)
+	uv1 = slot3
+	uv2 = Connection.New(slot1, slot2)
 
-	uv2.UIMgr.GetInstance():LoadingOn()
-	uv1.onConnected:AddListener(function ()
+	uv3.UIMgr.GetInstance():LoadingOn()
+	uv2.onConnected:AddListener(function ()
 		uv0.UIMgr.GetInstance():LoadingOff()
 		uv1("Network Connected.")
+		print("connect success.")
 
 		uv2 = uv3
 		uv4 = uv5
@@ -33,13 +35,28 @@ function slot1.Connect(slot0, slot1, slot2, slot3, slot4)
 		uv13()
 		uv7:resetHBTimer()
 	end)
-	uv1.onData:AddListener(slot0.onData)
-	uv1.onError:AddListener(slot0.onError)
-	uv1.onDisconnected:AddListener(slot0.onDisconnected)
+	uv2.onData:AddListener(slot0.onData)
+	uv2.onError:AddListener(slot0.onError)
+	uv2.onDisconnected:AddListener(slot0.onDisconnected)
 
-	uv10 = true
+	uv11 = true
 
-	uv1:Connect()
+	uv2:Connect()
+	print("connect to - " .. slot1 .. ":" .. slot2)
+end
+
+function slot1.ConnectByProxy(slot0)
+	VersionMgr.Inst:SetUseProxy(true)
+
+	if slot0:GetLastHost() ~= nil and slot0:GetLastPort() ~= "" then
+		print("switch proxy! reason: first connect error")
+		slot0:Connect(slot0:GetLastHost(), slot0:GetLastPort(), uv0)
+	else
+		print("not proxy -> logout")
+		uv1.m02:sendNotification(GAME.LOGOUT, {
+			code = uv2.erroCode or 3
+		})
+	end
 end
 
 function slot1.ConnectByDomain(slot0, slot1, slot2)
@@ -174,7 +191,11 @@ end
 
 function slot1.onError(slot0)
 	uv0.UIMgr.GetInstance():LoadingOff()
-	uv1("Network Error: " .. tostring(slot0))
+
+	slot0 = tostring(slot0)
+
+	uv1("Network Error: " .. slot0)
+	print("connect error: " .. slot0)
 
 	if uv2 then
 		uv2:Dispose()
@@ -218,7 +239,7 @@ function slot1.onError(slot0)
 			uv0.GuideMgr.GetInstance():onDisconnected()
 		end
 	else
-		slot1()
+		uv0.ConnectionMgr.GetInstance():ConnectByProxy()
 	end
 end
 
@@ -338,9 +359,9 @@ function slot1.GetPingDelay(slot0)
 	return uv0
 end
 
-slot16 = 0
-slot17 = 2
-slot18, slot19 = nil
+slot17 = 0
+slot18 = 2
+slot19, slot20 = nil
 
 function slot1.SetProxyHost(slot0, slot1, slot2)
 	uv0 = slot1
@@ -368,8 +389,11 @@ end
 function slot1.CheckProxyCounter(slot0)
 	uv0 = uv0 + 1
 
+	print("proxyCounter: " .. uv0)
+
 	if not VersionMgr.Inst:OnProxyUsing() then
 		if uv0 == uv1 then
+			print("switch proxy! reason: " .. uv1 .. " error limit")
 			VersionMgr.Inst:SetUseProxy(true)
 		end
 	else
@@ -382,6 +406,7 @@ end
 function slot1.SwitchProxy(slot0)
 	if uv0:IsSpecialIP() and PLATFORM_CODE == PLATFORM_CHT then
 		if not VersionMgr.Inst:OnProxyUsing() then
+			print("switch proxy! reason: tw specialIP send timeout")
 			VersionMgr.Inst:SetUseProxy(true)
 		else
 			VersionMgr.Inst:SetUseProxy(false)

@@ -1,5 +1,145 @@
 pg = pg or {}
 pg.equip_data_statistics_97 = {
+	[14004] = {
+		id = 14004,
+		damage = "52 x 3",
+		base = 14000,
+		weapon_id = {
+			14004
+		}
+	},
+	[14005] = {
+		id = 14005,
+		damage = "56 x 3",
+		base = 14000,
+		weapon_id = {
+			14005
+		}
+	},
+	[14006] = {
+		id = 14006,
+		damage = "60 x 3",
+		base = 14000,
+		weapon_id = {
+			14006
+		}
+	},
+	[14020] = {
+		name = "三联装305mm主炮Mk8",
+		speciality = "跨射",
+		type = 4,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "14000",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "40 x 3",
+		nationality = 1,
+		ammo = 3,
+		value_3 = 0,
+		id = 14020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1510
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			14020
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		}
+	},
+	[14021] = {
+		id = 14021,
+		damage = "44 x 3",
+		base = 14020,
+		weapon_id = {
+			14021
+		}
+	},
+	[14022] = {
+		id = 14022,
+		damage = "48 x 3",
+		base = 14020,
+		weapon_id = {
+			14022
+		}
+	},
+	[14023] = {
+		id = 14023,
+		damage = "53 x 3",
+		base = 14020,
+		weapon_id = {
+			14023
+		}
+	},
+	[14024] = {
+		id = 14024,
+		damage = "57 x 3",
+		base = 14020,
+		weapon_id = {
+			14024
+		}
+	},
+	[14025] = {
+		id = 14025,
+		damage = "62 x 3",
+		base = 14020,
+		weapon_id = {
+			14025
+		}
+	},
+	[14026] = {
+		id = 14026,
+		damage = "66 x 3",
+		base = 14020,
+		weapon_id = {
+			14026
+		}
+	},
+	[14027] = {
+		id = 14027,
+		damage = "70 x 3",
+		base = 14020,
+		weapon_id = {
+			14027
+		}
+	},
+	[14028] = {
+		id = 14028,
+		damage = "75 x 3",
+		base = 14020,
+		weapon_id = {
+			14028
+		}
+	},
 	[14029] = {
 		id = 14029,
 		damage = "79 x 3",
@@ -82,148 +222,6 @@ pg.equip_data_statistics_97 = {
 		base = 14040,
 		weapon_id = {
 			14042
-		}
-	},
-	[14043] = {
-		id = 14043,
-		damage = "58 x 3",
-		base = 14040,
-		weapon_id = {
-			14043
-		}
-	},
-	[14044] = {
-		id = 14044,
-		damage = "62 x 3",
-		base = 14040,
-		weapon_id = {
-			14044
-		}
-	},
-	[14045] = {
-		id = 14045,
-		damage = "68 x 3",
-		base = 14040,
-		weapon_id = {
-			14045
-		}
-	},
-	[14046] = {
-		id = 14046,
-		damage = "72 x 3",
-		base = 14040,
-		weapon_id = {
-			14046
-		}
-	},
-	[14047] = {
-		id = 14047,
-		damage = "76 x 3",
-		base = 14040,
-		weapon_id = {
-			14047
-		}
-	},
-	[14048] = {
-		id = 14048,
-		damage = "82 x 3",
-		base = 14040,
-		weapon_id = {
-			14048
-		}
-	},
-	[14049] = {
-		id = 14049,
-		damage = "86 x 3",
-		base = 14040,
-		weapon_id = {
-			14049
-		}
-	},
-	[14050] = {
-		id = 14050,
-		damage = "92 x 3",
-		base = 14040,
-		weapon_id = {
-			14050
-		}
-	},
-	[14051] = {
-		anti_siren = 100,
-		damage = "92 x 3",
-		base = 14040,
-		id = 14051,
-		weapon_id = {
-			14051
-		}
-	},
-	[14052] = {
-		anti_siren = 200,
-		damage = "92 x 3",
-		base = 14040,
-		id = 14052,
-		weapon_id = {
-			14052
-		}
-	},
-	[14053] = {
-		anti_siren = 300,
-		damage = "92 x 3",
-		base = 14040,
-		id = 14053,
-		weapon_id = {
-			14053
-		}
-	},
-	[14100] = {
-		name = "三联装356mm主炮",
-		speciality = "跨射",
-		type = 4,
-		tech = 1,
-		rarity = 1,
-		descrip = "说明未填写",
-		value_2 = 0,
-		icon = "14100",
-		damage = "40 x 3",
-		nationality = 1,
-		ammo = 3,
-		value_3 = 0,
-		id = 14100,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1510
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			14100
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"BB",
-			"MG"
 		}
 	}
 }

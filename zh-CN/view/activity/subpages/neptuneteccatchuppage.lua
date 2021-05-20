@@ -6,6 +6,7 @@ function slot0.OnInit(slot0)
 	slot0.sliderTF = slot0:findTF("Slider", slot0.bg)
 	slot0.progressText = slot0:findTF("Progress", slot0.bg)
 	slot0.goBtn = slot0:findTF("GoBtn", slot0.bg)
+	slot0.finishBtn = slot0:findTF("FinishBtn", slot0.bg)
 end
 
 function slot0.OnDataSetting(slot0)
@@ -31,6 +32,10 @@ function slot0.OnFirstFlush(slot0)
 end
 
 function slot0.OnUpdateFlush(slot0)
+	slot1 = slot0.maxCount <= slot0.curCount
+
+	setActive(slot0.goBtn, not slot1)
+	setActive(slot0.finishBtn, slot1)
 end
 
 function slot0.OnDestroy(slot0)

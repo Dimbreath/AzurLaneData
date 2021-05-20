@@ -1,5 +1,160 @@
 pg = pg or {}
 pg.equip_data_statistics_87 = {
+	[11202] = {
+		id = 11202,
+		damage = "6 x 4",
+		base = 11200,
+		weapon_id = {
+			11202
+		}
+	},
+	[11203] = {
+		id = 11203,
+		damage = "6 x 4",
+		base = 11200,
+		weapon_id = {
+			11203
+		}
+	},
+	[11204] = {
+		id = 11204,
+		damage = "7 x 4",
+		base = 11200,
+		weapon_id = {
+			11204
+		}
+	},
+	[11205] = {
+		id = 11205,
+		damage = "8 x 4",
+		base = 11200,
+		weapon_id = {
+			11205
+		}
+	},
+	[11206] = {
+		id = 11206,
+		damage = "9 x 4",
+		base = 11200,
+		weapon_id = {
+			11206
+		}
+	},
+	[11220] = {
+		name = "双联装127mm高平两用炮Mk12",
+		speciality = "锁定",
+		type = 1,
+		attribute_3 = "antiaircraft",
+		tech = 2,
+		value_2 = 11,
+		icon = "11200",
+		attribute_2 = "cannon",
+		descrip = "说明未填写",
+		rarity = 4,
+		damage = "4 x 4",
+		nationality = 1,
+		ammo = 2,
+		value_3 = 14,
+		id = 11220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1006
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1006
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			11220
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DD",
+			"MG",
+			"HE"
+		}
+	},
+	[11221] = {
+		id = 11221,
+		base = 11220,
+		weapon_id = {
+			11221
+		}
+	},
+	[11222] = {
+		id = 11222,
+		damage = "6 x 4",
+		base = 11220,
+		weapon_id = {
+			11222
+		}
+	},
+	[11223] = {
+		id = 11223,
+		damage = "7 x 4",
+		base = 11220,
+		weapon_id = {
+			11223
+		}
+	},
+	[11224] = {
+		id = 11224,
+		damage = "8 x 4",
+		base = 11220,
+		weapon_id = {
+			11224
+		}
+	},
+	[11225] = {
+		id = 11225,
+		damage = "9 x 4",
+		base = 11220,
+		weapon_id = {
+			11225
+		}
+	},
+	[11226] = {
+		id = 11226,
+		damage = "10 x 4",
+		base = 11220,
+		weapon_id = {
+			11226
+		}
+	},
 	[11227] = {
 		id = 11227,
 		damage = "11 x 4",
@@ -98,103 +253,6 @@ pg.equip_data_statistics_87 = {
 			"DD",
 			"MG",
 			"HE"
-		}
-	},
-	[11241] = {
-		id = 11241,
-		base = 11240,
-		weapon_id = {
-			11241
-		}
-	},
-	[11242] = {
-		id = 11242,
-		damage = "7 x 4",
-		base = 11240,
-		weapon_id = {
-			11242
-		}
-	},
-	[11243] = {
-		id = 11243,
-		damage = "8 x 4",
-		base = 11240,
-		weapon_id = {
-			11243
-		}
-	},
-	[11244] = {
-		id = 11244,
-		damage = "9 x 4",
-		base = 11240,
-		weapon_id = {
-			11244
-		}
-	},
-	[11245] = {
-		id = 11245,
-		damage = "10 x 4",
-		base = 11240,
-		weapon_id = {
-			11245
-		}
-	},
-	[11246] = {
-		id = 11246,
-		damage = "11 x 4",
-		base = 11240,
-		weapon_id = {
-			11246
-		}
-	},
-	[11247] = {
-		id = 11247,
-		damage = "12 x 4",
-		base = 11240,
-		weapon_id = {
-			11247
-		}
-	},
-	[11248] = {
-		id = 11248,
-		damage = "13 x 4",
-		base = 11240,
-		weapon_id = {
-			11248
-		}
-	},
-	[11249] = {
-		id = 11249,
-		damage = "14 x 4",
-		base = 11240,
-		weapon_id = {
-			11249
-		}
-	},
-	[11250] = {
-		id = 11250,
-		damage = "15 x 4",
-		base = 11240,
-		weapon_id = {
-			11250
-		}
-	},
-	[11251] = {
-		anti_siren = 100,
-		damage = "15 x 4",
-		base = 11240,
-		id = 11251,
-		weapon_id = {
-			11251
-		}
-	},
-	[11252] = {
-		anti_siren = 200,
-		damage = "15 x 4",
-		base = 11240,
-		id = 11252,
-		weapon_id = {
-			11252
 		}
 	}
 }

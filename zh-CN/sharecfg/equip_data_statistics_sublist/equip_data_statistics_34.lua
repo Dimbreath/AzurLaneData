@@ -1,5 +1,80 @@
 pg = pg or {}
 pg.equip_data_statistics_34 = {
+	[1542] = {
+		id = 1542,
+		value_2 = 7,
+		value_1 = "18",
+		base = 1540
+	},
+	[1543] = {
+		id = 1543,
+		value_2 = 8,
+		value_1 = "20",
+		base = 1540
+	},
+	[1544] = {
+		id = 1544,
+		value_2 = 9,
+		value_1 = "22",
+		base = 1540
+	},
+	[1545] = {
+		id = 1545,
+		value_2 = 10,
+		value_1 = "24",
+		base = 1540
+	},
+	[1546] = {
+		id = 1546,
+		value_2 = 11,
+		value_1 = "26",
+		base = 1540
+	},
+	[1547] = {
+		id = 1547,
+		value_2 = 12,
+		value_1 = "28",
+		base = 1540
+	},
+	[1548] = {
+		id = 1548,
+		value_2 = 13,
+		value_1 = "30",
+		base = 1540
+	},
+	[1549] = {
+		id = 1549,
+		value_2 = 14,
+		value_1 = "32",
+		base = 1540
+	},
+	[1550] = {
+		id = 1550,
+		value_2 = 15,
+		value_1 = "35",
+		base = 1540
+	},
+	[1551] = {
+		id = 1551,
+		anti_siren = 100,
+		base = 1540,
+		value_2 = 16,
+		value_1 = "38"
+	},
+	[1552] = {
+		id = 1552,
+		anti_siren = 200,
+		base = 1540,
+		value_2 = 17,
+		value_1 = "41"
+	},
+	[1553] = {
+		id = 1553,
+		anti_siren = 300,
+		base = 1540,
+		value_2 = 18,
+		value_1 = "44"
+	},
 	[1600] = {
 		name = "电动扬弹机",
 		tech = 1,
@@ -134,155 +209,6 @@ pg.equip_data_statistics_34 = {
 			18,
 			19
 		},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[1621] = {
-		id = 1621,
-		value_2 = 2,
-		base = 1620
-	},
-	[1622] = {
-		id = 1622,
-		value_2 = 2,
-		value_1 = "6",
-		base = 1620
-	},
-	[1623] = {
-		id = 1623,
-		value_2 = 3,
-		value_1 = "7",
-		base = 1620
-	},
-	[1640] = {
-		name = "电动扬弹机",
-		tech = 3,
-		type = 10,
-		speciality = "无",
-		id = 1640,
-		value_2 = 3,
-		icon = "1600",
-		value_1 = "9",
-		attribute_2 = "cannon",
-		rarity = 3,
-		descrip = "电动扬弹机，能够提高装填和炮击",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "reload",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			8,
-			10,
-			11,
-			12,
-			13,
-			17,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[1641] = {
-		id = 1641,
-		value_1 = "10",
-		base = 1640
-	},
-	[1642] = {
-		id = 1642,
-		value_1 = "11",
-		base = 1640
-	},
-	[1643] = {
-		id = 1643,
-		value_2 = 4,
-		value_1 = "12",
-		base = 1640
-	},
-	[1644] = {
-		id = 1644,
-		value_2 = 4,
-		value_1 = "13",
-		base = 1640
-	},
-	[1645] = {
-		id = 1645,
-		value_2 = 5,
-		value_1 = "15",
-		base = 1640
-	},
-	[1646] = {
-		id = 1646,
-		value_2 = 5,
-		value_1 = "17",
-		base = 1640
-	},
-	[1647] = {
-		id = 1647,
-		value_2 = 6,
-		value_1 = "19",
-		base = 1640
-	},
-	[1700] = {
-		name = "液压舵机",
-		tech = 1,
-		type = 10,
-		speciality = "无",
-		id = 1700,
-		value_2 = 14,
-		icon = "1700",
-		value_1 = "2",
-		attribute_2 = "durability",
-		rarity = 1,
-		descrip = "舵坏了可就麻烦啦，能够提高机动值",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "dodge",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"DEV"

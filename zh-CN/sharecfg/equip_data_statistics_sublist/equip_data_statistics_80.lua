@@ -1,5 +1,217 @@
 pg = pg or {}
 pg.equip_data_statistics_80 = {
+	[7143] = {
+		id = 7143,
+		damage = "24 x 3",
+		base = 7140,
+		weapon_id = {
+			7143
+		}
+	},
+	[7144] = {
+		id = 7144,
+		damage = "26 x 3",
+		base = 7140,
+		weapon_id = {
+			7144
+		}
+	},
+	[7145] = {
+		id = 7145,
+		damage = "28 x 3",
+		base = 7140,
+		weapon_id = {
+			7145
+		}
+	},
+	[7146] = {
+		id = 7146,
+		damage = "32 x 3",
+		base = 7140,
+		weapon_id = {
+			7146
+		}
+	},
+	[7147] = {
+		id = 7147,
+		damage = "32 x 3",
+		base = 7140,
+		weapon_id = {
+			7147
+		}
+	},
+	[7200] = {
+		name = "130mm单装炮",
+		speciality = "锁定",
+		type = 1,
+		tech = 1,
+		descrip = "说明未填写",
+		value_2 = 5,
+		icon = "7200",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "4 x 3",
+		nationality = 7,
+		ammo = 3,
+		value_3 = 0,
+		id = 7200,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1000
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1000
+			},
+			{
+				4,
+				1018
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			7200
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		}
+	},
+	[7201] = {
+		id = 7201,
+		damage = "5 x 3",
+		base = 7200,
+		weapon_id = {
+			7201
+		}
+	},
+	[7202] = {
+		id = 7202,
+		damage = "6 x 3",
+		base = 7200,
+		weapon_id = {
+			7202
+		}
+	},
+	[7203] = {
+		id = 7203,
+		damage = "7 x 3",
+		base = 7200,
+		weapon_id = {
+			7203
+		}
+	},
+	[7220] = {
+		name = "130mm单装炮",
+		speciality = "锁定",
+		type = 1,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "7200",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "5 x 3",
+		nationality = 7,
+		ammo = 3,
+		value_3 = 0,
+		id = 7220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1000
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1000
+			},
+			{
+				4,
+				1018
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			7220
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		}
+	},
+	[7221] = {
+		id = 7221,
+		damage = "6 x 3",
+		base = 7220,
+		weapon_id = {
+			7221
+		}
+	},
+	[7222] = {
+		id = 7222,
+		damage = "7 x 3",
+		base = 7220,
+		weapon_id = {
+			7222
+		}
+	},
 	[7223] = {
 		id = 7223,
 		damage = "8 x 3",
@@ -95,154 +307,6 @@ pg.equip_data_statistics_80 = {
 		label = {
 			"SN",
 			"DD",
-			"MG",
-			"HE"
-		}
-	},
-	[7241] = {
-		id = 7241,
-		damage = "7 x 3",
-		base = 7240,
-		weapon_id = {
-			7241
-		}
-	},
-	[7242] = {
-		id = 7242,
-		damage = "8 x 3",
-		base = 7240,
-		weapon_id = {
-			7242
-		}
-	},
-	[7243] = {
-		id = 7243,
-		damage = "9 x 3",
-		base = 7240,
-		weapon_id = {
-			7243
-		}
-	},
-	[7244] = {
-		id = 7244,
-		damage = "10 x 3",
-		base = 7240,
-		weapon_id = {
-			7244
-		}
-	},
-	[7245] = {
-		id = 7245,
-		damage = "11 x 3",
-		base = 7240,
-		weapon_id = {
-			7245
-		}
-	},
-	[7246] = {
-		id = 7246,
-		damage = "12 x 3",
-		base = 7240,
-		weapon_id = {
-			7246
-		}
-	},
-	[7247] = {
-		id = 7247,
-		damage = "13 x 3",
-		base = 7240,
-		weapon_id = {
-			7247
-		}
-	},
-	[7248] = {
-		id = 7248,
-		damage = "14 x 3",
-		base = 7240,
-		weapon_id = {
-			7248
-		}
-	},
-	[7249] = {
-		id = 7249,
-		damage = "15 x 3",
-		base = 7240,
-		weapon_id = {
-			7249
-		}
-	},
-	[7250] = {
-		id = 7250,
-		damage = "17 x 3",
-		base = 7240,
-		weapon_id = {
-			7250
-		}
-	},
-	[7251] = {
-		anti_siren = 100,
-		damage = "17 x 3",
-		base = 7240,
-		id = 7251,
-		weapon_id = {
-			7251
-		}
-	},
-	[7300] = {
-		name = "试作型三联装203mm舰炮",
-		speciality = "锁定",
-		type = 3,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 45,
-		icon = "7300",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "30 x 3",
-		nationality = 8,
-		ammo = 2,
-		value_3 = 0,
-		id = 7300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1402
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1402
-			},
-			{
-				4,
-				1213
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			7300
-		},
-		skill_id = {},
-		part_main = {
-			3,
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"CA",
 			"MG",
 			"HE"
 		}

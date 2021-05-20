@@ -1,5 +1,109 @@
 pg = pg or {}
 pg.equip_data_statistics_59 = {
+	[3210] = {
+		id = 3210,
+		value_1 = "650",
+		base = 3200
+	},
+	[3211] = {
+		id = 3211,
+		anti_siren = 100,
+		value_1 = "680",
+		base = 3200
+	},
+	[3212] = {
+		id = 3212,
+		anti_siren = 200,
+		value_1 = "710",
+		base = 3200
+	},
+	[3213] = {
+		id = 3213,
+		anti_siren = 300,
+		value_1 = "740",
+		base = 3200
+	},
+	[3220] = {
+		name = "VC装甲钢板",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "3220",
+		value_1 = "220",
+		descrip = "重樱帝国引进皇家表面渗碳硬化技术制作的装甲钢板，对穿甲弹的防护性能较好",
+		rarity = 4,
+		nationality = 3,
+		ammo = 10,
+		value_3 = 0,
+		id = 3220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6470
+		},
+		part_main = {
+			4,
+			5,
+			7,
+			10,
+			18
+		},
+		part_sub = {
+			4,
+			5,
+			7,
+			10,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DEV"
+		}
+	},
+	[3221] = {
+		id = 3221,
+		value_1 = "250",
+		base = 3220
+	},
+	[3222] = {
+		id = 3222,
+		value_1 = "280",
+		base = 3220
+	},
+	[3223] = {
+		id = 3223,
+		value_1 = "310",
+		base = 3220
+	},
+	[3224] = {
+		id = 3224,
+		value_1 = "340",
+		base = 3220
+	},
+	[3225] = {
+		id = 3225,
+		value_1 = "370",
+		base = 3220
+	},
+	[3226] = {
+		id = 3226,
+		value_1 = "400",
+		base = 3220
+	},
+	[3227] = {
+		id = 3227,
+		value_1 = "430",
+		base = 3220
+	},
 	[3228] = {
 		id = 3228,
 		value_1 = "460",
@@ -58,67 +162,5 @@ pg.equip_data_statistics_59 = {
 			"PRAN",
 			"DEV"
 		}
-	},
-	[3301] = {
-		id = 3301,
-		value_1 = "280",
-		base = 3300
-	},
-	[3302] = {
-		id = 3302,
-		value_1 = "310",
-		base = 3300
-	},
-	[3303] = {
-		id = 3303,
-		value_1 = "340",
-		base = 3300
-	},
-	[3304] = {
-		id = 3304,
-		value_1 = "370",
-		base = 3300
-	},
-	[3305] = {
-		id = 3305,
-		value_1 = "400",
-		base = 3300
-	},
-	[3306] = {
-		id = 3306,
-		value_1 = "430",
-		base = 3300
-	},
-	[3307] = {
-		id = 3307,
-		value_1 = "460",
-		base = 3300
-	},
-	[3308] = {
-		id = 3308,
-		value_1 = "490",
-		base = 3300
-	},
-	[3309] = {
-		id = 3309,
-		value_1 = "520",
-		base = 3300
-	},
-	[3310] = {
-		id = 3310,
-		value_1 = "550",
-		base = 3300
-	},
-	[3311] = {
-		id = 3311,
-		anti_siren = 100,
-		value_1 = "580",
-		base = 3300
-	},
-	[3312] = {
-		id = 3312,
-		anti_siren = 200,
-		value_1 = "610",
-		base = 3300
 	}
 }

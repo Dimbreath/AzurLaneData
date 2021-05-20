@@ -11,6 +11,7 @@ function slot0.Ctor(slot0, slot1)
 
 	setActive(findTF(slot0.content, "dockyard"), false)
 	setActive(findTF(slot0.content, "collection"), true)
+	setActive(findTF(slot0.content, "expbuff"), false)
 
 	slot0.shipFrameImg = findTF(slot0.content, "front/frame")
 	slot0.iconShip = findTF(slot0.content, "ship_icon"):GetComponent(typeof(Image))

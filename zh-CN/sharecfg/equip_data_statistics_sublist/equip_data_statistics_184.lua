@@ -1,5 +1,156 @@
 pg = pg or {}
 pg.equip_data_statistics_184 = {
+	[26345] = {
+		id = 26345,
+		damage = "37/轮",
+		base = 26340,
+		weapon_id = {
+			26345
+		}
+	},
+	[26346] = {
+		id = 26346,
+		damage = "40/轮",
+		base = 26340,
+		weapon_id = {
+			26346
+		}
+	},
+	[26347] = {
+		id = 26347,
+		damage = "43/轮",
+		base = 26340,
+		weapon_id = {
+			26347
+		}
+	},
+	[26348] = {
+		id = 26348,
+		damage = "46/轮",
+		base = 26340,
+		weapon_id = {
+			26348
+		}
+	},
+	[26349] = {
+		id = 26349,
+		damage = "50/轮",
+		base = 26340,
+		weapon_id = {
+			26349
+		}
+	},
+	[26350] = {
+		id = 26350,
+		damage = "54/轮",
+		base = 26340,
+		weapon_id = {
+			26350
+		}
+	},
+	[26351] = {
+		anti_siren = 100,
+		damage = "54/轮",
+		base = 26340,
+		id = 26351,
+		weapon_id = {
+			26351
+		}
+	},
+	[26360] = {
+		name = "20mm厄利孔高射炮MkII",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "26360",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "16/轮",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 26360,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			26360
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
+	[26361] = {
+		id = 26361,
+		damage = "18/轮",
+		base = 26360,
+		weapon_id = {
+			26361
+		}
+	},
+	[26362] = {
+		id = 26362,
+		damage = "20/轮",
+		base = 26360,
+		weapon_id = {
+			26362
+		}
+	},
+	[26363] = {
+		id = 26363,
+		damage = "22/轮",
+		base = 26360,
+		weapon_id = {
+			26363
+		}
+	},
+	[26364] = {
+		id = 26364,
+		damage = "24/轮",
+		base = 26360,
+		weapon_id = {
+			26364
+		}
+	},
 	[26365] = {
 		id = 26365,
 		damage = "26/轮",
@@ -38,211 +189,6 @@ pg.equip_data_statistics_184 = {
 		base = 26360,
 		weapon_id = {
 			26369
-		}
-	},
-	[26370] = {
-		id = 26370,
-		damage = "32/轮",
-		base = 26360,
-		weapon_id = {
-			26370
-		}
-	},
-	[26371] = {
-		anti_siren = 100,
-		damage = "32/轮",
-		base = 26360,
-		id = 26371,
-		weapon_id = {
-			26371
-		}
-	},
-	[26400] = {
-		name = "102mm高射炮",
-		speciality = "防空",
-		type = 6,
-		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "26400",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "19/轮",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 26400,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			26400
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"ST",
-			"AA"
-		}
-	},
-	[26401] = {
-		id = 26401,
-		damage = "22/轮",
-		base = 26400,
-		weapon_id = {
-			26401
-		}
-	},
-	[26402] = {
-		id = 26402,
-		damage = "25/轮",
-		base = 26400,
-		weapon_id = {
-			26402
-		}
-	},
-	[26403] = {
-		id = 26403,
-		damage = "28/轮",
-		base = 26400,
-		weapon_id = {
-			26403
-		}
-	},
-	[26420] = {
-		name = "102mm高射炮",
-		speciality = "防空",
-		type = 6,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "26400",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "21/轮",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 26420,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			26420
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"ST",
-			"AA"
-		}
-	},
-	[26421] = {
-		id = 26421,
-		damage = "24/轮",
-		base = 26420,
-		weapon_id = {
-			26421
-		}
-	},
-	[26422] = {
-		id = 26422,
-		damage = "27/轮",
-		base = 26420,
-		weapon_id = {
-			26422
-		}
-	},
-	[26423] = {
-		id = 26423,
-		damage = "30/轮",
-		base = 26420,
-		weapon_id = {
-			26423
-		}
-	},
-	[26424] = {
-		id = 26424,
-		damage = "34/轮",
-		base = 26420,
-		weapon_id = {
-			26424
-		}
-	},
-	[26425] = {
-		id = 26425,
-		damage = "38/轮",
-		base = 26420,
-		weapon_id = {
-			26425
 		}
 	}
 }

@@ -1,5 +1,156 @@
 pg = pg or {}
 pg.equip_data_statistics_258 = {
+	[36642] = {
+		id = 36642,
+		damage = "60/轮",
+		base = 36640,
+		weapon_id = {
+			36642
+		}
+	},
+	[36643] = {
+		id = 36643,
+		damage = "67/轮",
+		base = 36640,
+		weapon_id = {
+			36643
+		}
+	},
+	[36644] = {
+		id = 36644,
+		damage = "74/轮",
+		base = 36640,
+		weapon_id = {
+			36644
+		}
+	},
+	[36645] = {
+		id = 36645,
+		damage = "81/轮",
+		base = 36640,
+		weapon_id = {
+			36645
+		}
+	},
+	[36646] = {
+		id = 36646,
+		damage = "88/轮",
+		base = 36640,
+		weapon_id = {
+			36646
+		}
+	},
+	[36647] = {
+		id = 36647,
+		damage = "95/轮",
+		base = 36640,
+		weapon_id = {
+			36647
+		}
+	},
+	[36648] = {
+		id = 36648,
+		damage = "102/轮",
+		base = 36640,
+		weapon_id = {
+			36648
+		}
+	},
+	[36649] = {
+		id = 36649,
+		damage = "109/轮",
+		base = 36640,
+		weapon_id = {
+			36649
+		}
+	},
+	[36650] = {
+		id = 36650,
+		damage = "116/轮",
+		base = 36640,
+		weapon_id = {
+			36650
+		}
+	},
+	[36651] = {
+		anti_siren = 100,
+		damage = "116/轮",
+		base = 36640,
+		id = 36651,
+		weapon_id = {
+			36651
+		}
+	},
+	[36660] = {
+		name = "127mm连装高角炮改",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "36660",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "54/轮",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36660,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			36660
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
+	},
+	[36661] = {
+		id = 36661,
+		damage = "61/轮",
+		base = 36660,
+		weapon_id = {
+			36661
+		}
+	},
 	[36662] = {
 		id = 36662,
 		damage = "68/轮",
@@ -38,159 +189,6 @@ pg.equip_data_statistics_258 = {
 		base = 36660,
 		weapon_id = {
 			36666
-		}
-	},
-	[36667] = {
-		id = 36667,
-		damage = "103/轮",
-		base = 36660,
-		weapon_id = {
-			36667
-		}
-	},
-	[36668] = {
-		id = 36668,
-		damage = "110/轮",
-		base = 36660,
-		weapon_id = {
-			36668
-		}
-	},
-	[36669] = {
-		id = 36669,
-		damage = "117/轮",
-		base = 36660,
-		weapon_id = {
-			36669
-		}
-	},
-	[36670] = {
-		id = 36670,
-		damage = "124/轮",
-		base = 36660,
-		weapon_id = {
-			36670
-		}
-	},
-	[36671] = {
-		anti_siren = 100,
-		damage = "124/轮",
-		base = 36660,
-		id = 36671,
-		weapon_id = {
-			36671
-		}
-	},
-	[36672] = {
-		anti_siren = 200,
-		damage = "124/轮",
-		base = 36660,
-		id = 36672,
-		weapon_id = {
-			36672
-		}
-	},
-	[36673] = {
-		anti_siren = 300,
-		damage = "124/轮",
-		base = 36660,
-		id = 36673,
-		weapon_id = {
-			36673
-		}
-	},
-	[36700] = {
-		name = "试作型五式40mm高射机关炮",
-		speciality = "防空",
-		type = 6,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 45,
-		icon = "36700",
-		attribute_2 = "antiaircraft",
-		rarity = 5,
-		damage = "47/轮",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 36700,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			36700
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"AA"
-		}
-	},
-	[36701] = {
-		id = 36701,
-		damage = "51/轮",
-		base = 36700,
-		weapon_id = {
-			36701
-		}
-	},
-	[36702] = {
-		id = 36702,
-		damage = "55/轮",
-		base = 36700,
-		weapon_id = {
-			36702
-		}
-	},
-	[36703] = {
-		id = 36703,
-		damage = "59/轮",
-		base = 36700,
-		weapon_id = {
-			36703
-		}
-	},
-	[36704] = {
-		id = 36704,
-		damage = "63/轮",
-		base = 36700,
-		weapon_id = {
-			36704
 		}
 	}
 }

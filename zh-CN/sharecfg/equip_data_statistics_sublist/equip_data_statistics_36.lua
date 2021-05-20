@@ -1,5 +1,132 @@
 pg = pg or {}
 pg.equip_data_statistics_36 = {
+	[1722] = {
+		id = 1722,
+		value_2 = 22,
+		value_1 = "6",
+		base = 1720
+	},
+	[1723] = {
+		id = 1723,
+		value_2 = 25,
+		value_1 = "7",
+		base = 1720
+	},
+	[1740] = {
+		name = "液压舵机",
+		tech = 3,
+		type = 10,
+		speciality = "无",
+		id = 1740,
+		value_2 = 20,
+		icon = "1700",
+		value_1 = "9",
+		attribute_2 = "durability",
+		rarity = 3,
+		descrip = "舵坏了可就麻烦啦，能够提高机动值",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[1741] = {
+		id = 1741,
+		value_2 = 24,
+		value_1 = "10",
+		base = 1740
+	},
+	[1742] = {
+		id = 1742,
+		value_2 = 28,
+		value_1 = "11",
+		base = 1740
+	},
+	[1743] = {
+		id = 1743,
+		value_2 = 32,
+		value_1 = "12",
+		base = 1740
+	},
+	[1744] = {
+		id = 1744,
+		value_2 = 36,
+		value_1 = "13",
+		base = 1740
+	},
+	[1745] = {
+		id = 1745,
+		value_2 = 40,
+		value_1 = "15",
+		base = 1740
+	},
+	[1746] = {
+		id = 1746,
+		value_2 = 44,
+		value_1 = "17",
+		base = 1740
+	},
+	[1747] = {
+		id = 1747,
+		value_2 = 48,
+		value_1 = "19",
+		base = 1740
+	},
+	[1760] = {
+		name = "高性能舵机",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		id = 1760,
+		value_2 = 24,
+		icon = "1760",
+		value_1 = "16",
+		attribute_2 = "durability",
+		rarity = 5,
+		descrip = "高性能的舵机，能够提高机动值",
+		nationality = 1,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6270
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DEV"
+		}
+	},
+	[1761] = {
+		id = 1761,
+		value_2 = 27,
+		value_1 = "18",
+		base = 1760
+	},
 	[1762] = {
 		id = 1762,
 		value_2 = 30,
@@ -29,129 +156,5 @@ pg.equip_data_statistics_36 = {
 		value_2 = 44,
 		value_1 = "28",
 		base = 1760
-	},
-	[1767] = {
-		id = 1767,
-		value_2 = 48,
-		value_1 = "31",
-		base = 1760
-	},
-	[1768] = {
-		id = 1768,
-		value_2 = 52,
-		value_1 = "34",
-		base = 1760
-	},
-	[1769] = {
-		id = 1769,
-		value_2 = 56,
-		value_1 = "37",
-		base = 1760
-	},
-	[1770] = {
-		id = 1770,
-		value_2 = 60,
-		value_1 = "40",
-		base = 1760
-	},
-	[1771] = {
-		id = 1771,
-		anti_siren = 100,
-		base = 1760,
-		value_2 = 64,
-		value_1 = "43"
-	},
-	[1772] = {
-		id = 1772,
-		anti_siren = 200,
-		base = 1760,
-		value_2 = 68,
-		value_1 = "46"
-	},
-	[1773] = {
-		id = 1773,
-		anti_siren = 300,
-		base = 1760,
-		value_2 = 72,
-		value_1 = "49"
-	},
-	[1800] = {
-		name = "改良锅炉",
-		tech = 1,
-		type = 10,
-		speciality = "无",
-		id = 1800,
-		value_2 = 1,
-		icon = "1800",
-		value_1 = "35",
-		attribute_2 = "speed",
-		rarity = 2,
-		descrip = "比较先进的锅炉，有效的提高了航速和耐久性能",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "durability",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[1801] = {
-		id = 1801,
-		value_1 = "40",
-		base = 1800
-	},
-	[1802] = {
-		id = 1802,
-		value_1 = "45",
-		base = 1800
-	},
-	[1803] = {
-		id = 1803,
-		value_1 = "50",
-		base = 1800
-	},
-	[1820] = {
-		name = "改良锅炉",
-		tech = 2,
-		type = 10,
-		speciality = "无",
-		id = 1820,
-		value_2 = 2,
-		icon = "1800",
-		value_1 = "63",
-		attribute_2 = "speed",
-		rarity = 3,
-		descrip = "比较先进的锅炉，有效的提高了航速和耐久性能",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "durability",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
 	}
 }

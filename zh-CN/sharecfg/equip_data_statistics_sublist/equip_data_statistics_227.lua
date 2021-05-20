@@ -1,5 +1,155 @@
 pg = pg or {}
 pg.equip_data_statistics_227 = {
+	[33071] = {
+		anti_siren = 100,
+		damage = "48 x 4",
+		base = 33060,
+		id = 33071,
+		weapon_id = {
+			33071
+		}
+	},
+	[33072] = {
+		anti_siren = 200,
+		damage = "48 x 4",
+		base = 33060,
+		id = 33072,
+		weapon_id = {
+			33072
+		}
+	},
+	[33073] = {
+		anti_siren = 300,
+		damage = "48 x 4",
+		base = 33060,
+		id = 33073,
+		weapon_id = {
+			33073
+		}
+	},
+	[33080] = {
+		name = "203mm连装炮改",
+		speciality = "锁定",
+		type = 3,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "33080",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "28 x 4",
+		nationality = 3,
+		ammo = 2,
+		value_3 = 0,
+		id = 33080,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1402
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1402
+			},
+			{
+				4,
+				1205
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			33080
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CA",
+			"MG",
+			"HE"
+		}
+	},
+	[33081] = {
+		id = 33081,
+		damage = "30 x 4",
+		base = 33080,
+		weapon_id = {
+			33081
+		}
+	},
+	[33082] = {
+		id = 33082,
+		damage = "32 x 4",
+		base = 33080,
+		weapon_id = {
+			33082
+		}
+	},
+	[33083] = {
+		id = 33083,
+		damage = "34 x 4",
+		base = 33080,
+		weapon_id = {
+			33083
+		}
+	},
+	[33084] = {
+		id = 33084,
+		damage = "36 x 4",
+		base = 33080,
+		weapon_id = {
+			33084
+		}
+	},
+	[33085] = {
+		id = 33085,
+		damage = "38 x 4",
+		base = 33080,
+		weapon_id = {
+			33085
+		}
+	},
+	[33086] = {
+		id = 33086,
+		damage = "40 x 4",
+		base = 33080,
+		weapon_id = {
+			33086
+		}
+	},
+	[33087] = {
+		id = 33087,
+		damage = "42 x 4",
+		base = 33080,
+		weapon_id = {
+			33087
+		}
+	},
+	[33088] = {
+		id = 33088,
+		damage = "44 x 4",
+		base = 33080,
+		weapon_id = {
+			33088
+		}
+	},
 	[33089] = {
 		id = 33089,
 		damage = "46 x 4",
@@ -81,105 +231,6 @@ pg.equip_data_statistics_227 = {
 		base = 33100,
 		weapon_id = {
 			33101
-		}
-	},
-	[33102] = {
-		id = 33102,
-		damage = "40 x 6",
-		base = 33100,
-		weapon_id = {
-			33102
-		}
-	},
-	[33103] = {
-		id = 33103,
-		damage = "42 x 6",
-		base = 33100,
-		weapon_id = {
-			33103
-		}
-	},
-	[33104] = {
-		id = 33104,
-		damage = "44 x 6",
-		base = 33100,
-		weapon_id = {
-			33104
-		}
-	},
-	[33105] = {
-		id = 33105,
-		damage = "46 x 6",
-		base = 33100,
-		weapon_id = {
-			33105
-		}
-	},
-	[33106] = {
-		id = 33106,
-		damage = "48 x 6",
-		base = 33100,
-		weapon_id = {
-			33106
-		}
-	},
-	[33107] = {
-		id = 33107,
-		damage = "50 x 6",
-		base = 33100,
-		weapon_id = {
-			33107
-		}
-	},
-	[33108] = {
-		id = 33108,
-		damage = "52 x 6",
-		base = 33100,
-		weapon_id = {
-			33108
-		}
-	},
-	[33109] = {
-		id = 33109,
-		damage = "54 x 6",
-		base = 33100,
-		weapon_id = {
-			33109
-		}
-	},
-	[33110] = {
-		id = 33110,
-		damage = "56 x 6",
-		base = 33100,
-		weapon_id = {
-			33110
-		}
-	},
-	[33111] = {
-		anti_siren = 100,
-		damage = "56 x 6",
-		base = 33100,
-		id = 33111,
-		weapon_id = {
-			33111
-		}
-	},
-	[33112] = {
-		anti_siren = 200,
-		damage = "56 x 6",
-		base = 33100,
-		id = 33112,
-		weapon_id = {
-			33112
-		}
-	},
-	[33113] = {
-		anti_siren = 300,
-		damage = "56 x 6",
-		base = 33100,
-		id = 33113,
-		weapon_id = {
-			33113
 		}
 	}
 }

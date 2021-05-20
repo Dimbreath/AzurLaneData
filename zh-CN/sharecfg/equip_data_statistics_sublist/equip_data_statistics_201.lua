@@ -1,5 +1,280 @@
 pg = pg or {}
 pg.equip_data_statistics_201 = {
+	[28063] = {
+		base = 28060,
+		id = 28063,
+		ammo_info = {
+			{
+				6,
+				50043
+			},
+			{
+				4,
+				51063
+			}
+		},
+		weapon_id = {
+			28063
+		},
+		skill_id = {
+			6813
+		}
+	},
+	[28064] = {
+		base = 28060,
+		id = 28064,
+		ammo_info = {
+			{
+				6,
+				50044
+			},
+			{
+				4,
+				51064
+			}
+		},
+		weapon_id = {
+			28064
+		},
+		skill_id = {
+			6814
+		}
+	},
+	[28065] = {
+		base = 28060,
+		id = 28065,
+		ammo_info = {
+			{
+				6,
+				50045
+			},
+			{
+				4,
+				51065
+			}
+		},
+		weapon_id = {
+			28065
+		},
+		skill_id = {
+			6815
+		}
+	},
+	[28066] = {
+		base = 28060,
+		id = 28066,
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				4,
+				51066
+			}
+		},
+		weapon_id = {
+			28066
+		},
+		skill_id = {
+			6816
+		}
+	},
+	[28067] = {
+		base = 28060,
+		id = 28067,
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				4,
+				51067
+			}
+		},
+		weapon_id = {
+			28067
+		},
+		skill_id = {
+			6817
+		}
+	},
+	[28068] = {
+		base = 28060,
+		id = 28068,
+		ammo_info = {
+			{
+				6,
+				50048
+			},
+			{
+				4,
+				51068
+			}
+		},
+		weapon_id = {
+			28068
+		},
+		skill_id = {
+			6818
+		}
+	},
+	[28069] = {
+		base = 28060,
+		id = 28069,
+		ammo_info = {
+			{
+				6,
+				50049
+			},
+			{
+				4,
+				51069
+			}
+		},
+		weapon_id = {
+			28069
+		},
+		skill_id = {
+			6819
+		}
+	},
+	[28070] = {
+		base = 28060,
+		id = 28070,
+		ammo_info = {
+			{
+				6,
+				50050
+			},
+			{
+				4,
+				51070
+			}
+		},
+		weapon_id = {
+			28070
+		},
+		skill_id = {
+			6820
+		}
+	},
+	[28071] = {
+		anti_siren = 100,
+		base = 28060,
+		id = 28071,
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				4,
+				51071
+			}
+		},
+		weapon_id = {
+			28071
+		},
+		skill_id = {
+			6821
+		}
+	},
+	[28072] = {
+		anti_siren = 200,
+		base = 28060,
+		id = 28072,
+		ammo_info = {
+			{
+				6,
+				50052
+			},
+			{
+				4,
+				51072
+			}
+		},
+		weapon_id = {
+			28072
+		},
+		skill_id = {
+			6822
+		}
+	},
+	[28073] = {
+		anti_siren = 300,
+		base = 28060,
+		id = 28073,
+		ammo_info = {
+			{
+				6,
+				50053
+			},
+			{
+				4,
+				51073
+			}
+		},
+		weapon_id = {
+			28073
+		},
+		skill_id = {
+			6823
+		}
+	},
+	[28100] = {
+		name = "梭鱼",
+		type = 8,
+		speciality = "雷击",
+		rarity = 3,
+		tech = 1,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "28100",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 28100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50000
+			},
+			{
+				4,
+				51100
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			28100
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		}
+	},
 	[28101] = {
 		id = 28101,
 		base = 28100,
@@ -83,245 +358,6 @@ pg.equip_data_statistics_201 = {
 		},
 		weapon_id = {
 			28105
-		}
-	},
-	[28106] = {
-		id = 28106,
-		base = 28100,
-		ammo_info = {
-			{
-				6,
-				50006
-			},
-			{
-				4,
-				51106
-			}
-		},
-		weapon_id = {
-			28106
-		}
-	},
-	[28120] = {
-		name = "梭鱼",
-		type = 8,
-		speciality = "雷击",
-		rarity = 4,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "28100",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 28120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50020
-			},
-			{
-				4,
-				51120
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			28120
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"TB"
-		}
-	},
-	[28121] = {
-		id = 28121,
-		base = 28120,
-		ammo_info = {
-			{
-				6,
-				50021
-			},
-			{
-				4,
-				51121
-			}
-		},
-		weapon_id = {
-			28121
-		}
-	},
-	[28122] = {
-		id = 28122,
-		base = 28120,
-		ammo_info = {
-			{
-				6,
-				50022
-			},
-			{
-				4,
-				51122
-			}
-		},
-		weapon_id = {
-			28122
-		}
-	},
-	[28123] = {
-		id = 28123,
-		base = 28120,
-		ammo_info = {
-			{
-				6,
-				50023
-			},
-			{
-				4,
-				51123
-			}
-		},
-		weapon_id = {
-			28123
-		}
-	},
-	[28124] = {
-		id = 28124,
-		base = 28120,
-		ammo_info = {
-			{
-				6,
-				50024
-			},
-			{
-				4,
-				51124
-			}
-		},
-		weapon_id = {
-			28124
-		}
-	},
-	[28125] = {
-		id = 28125,
-		base = 28120,
-		ammo_info = {
-			{
-				6,
-				50025
-			},
-			{
-				4,
-				51125
-			}
-		},
-		weapon_id = {
-			28125
-		}
-	},
-	[28126] = {
-		id = 28126,
-		base = 28120,
-		ammo_info = {
-			{
-				6,
-				50026
-			},
-			{
-				4,
-				51126
-			}
-		},
-		weapon_id = {
-			28126
-		}
-	},
-	[28127] = {
-		id = 28127,
-		base = 28120,
-		ammo_info = {
-			{
-				6,
-				50027
-			},
-			{
-				4,
-				51127
-			}
-		},
-		weapon_id = {
-			28127
-		}
-	},
-	[28128] = {
-		id = 28128,
-		base = 28120,
-		ammo_info = {
-			{
-				6,
-				50028
-			},
-			{
-				4,
-				51128
-			}
-		},
-		weapon_id = {
-			28128
-		}
-	},
-	[28129] = {
-		id = 28129,
-		base = 28120,
-		ammo_info = {
-			{
-				6,
-				50029
-			},
-			{
-				4,
-				51129
-			}
-		},
-		weapon_id = {
-			28129
-		}
-	},
-	[28130] = {
-		id = 28130,
-		base = 28120,
-		ammo_info = {
-			{
-				6,
-				50030
-			},
-			{
-				4,
-				51130
-			}
-		},
-		weapon_id = {
-			28130
 		}
 	}
 }

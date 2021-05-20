@@ -1,5 +1,155 @@
 pg = pg or {}
 pg.equip_data_statistics_303 = {
+	[45129] = {
+		id = 45129,
+		damage = "126 x 4",
+		base = 45120,
+		weapon_id = {
+			45129
+		}
+	},
+	[45130] = {
+		id = 45130,
+		damage = "133 x 4",
+		base = 45120,
+		weapon_id = {
+			45130
+		}
+	},
+	[45140] = {
+		name = "四联装533mm磁性鱼雷",
+		speciality = "雷击",
+		type = 5,
+		tech = 3,
+		descrip = "四联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
+		value_2 = 45,
+		icon = "45100",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "70 x 4",
+		nationality = 4,
+		ammo = 4,
+		value_3 = 0,
+		id = 45140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1803
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1803
+			},
+			{
+				4,
+				1403
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			45140
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP",
+			"QUAD"
+		}
+	},
+	[45141] = {
+		id = 45141,
+		damage = "77 x 4",
+		base = 45140,
+		weapon_id = {
+			45141
+		}
+	},
+	[45142] = {
+		id = 45142,
+		damage = "85 x 4",
+		base = 45140,
+		weapon_id = {
+			45142
+		}
+	},
+	[45143] = {
+		id = 45143,
+		damage = "92 x 4",
+		base = 45140,
+		weapon_id = {
+			45143
+		}
+	},
+	[45144] = {
+		id = 45144,
+		damage = "100 x 4",
+		base = 45140,
+		weapon_id = {
+			45144
+		}
+	},
+	[45145] = {
+		id = 45145,
+		damage = "107 x 4",
+		base = 45140,
+		weapon_id = {
+			45145
+		}
+	},
+	[45146] = {
+		id = 45146,
+		damage = "115 x 4",
+		base = 45140,
+		weapon_id = {
+			45146
+		}
+	},
+	[45147] = {
+		id = 45147,
+		damage = "122 x 4",
+		base = 45140,
+		weapon_id = {
+			45147
+		}
+	},
+	[45148] = {
+		id = 45148,
+		damage = "130 x 4",
+		base = 45140,
+		weapon_id = {
+			45148
+		}
+	},
+	[45149] = {
+		id = 45149,
+		damage = "137 x 4",
+		base = 45140,
+		weapon_id = {
+			45149
+		}
+	},
 	[45150] = {
 		id = 45150,
 		damage = "145 x 4",
@@ -95,156 +245,6 @@ pg.equip_data_statistics_303 = {
 			"ST",
 			"TP",
 			"QUINT"
-		}
-	},
-	[45201] = {
-		id = 45201,
-		damage = "69 x 5",
-		base = 45200,
-		weapon_id = {
-			45201
-		}
-	},
-	[45202] = {
-		id = 45202,
-		damage = "75 x 5",
-		base = 45200,
-		weapon_id = {
-			45202
-		}
-	},
-	[45203] = {
-		id = 45203,
-		damage = "81 x 5",
-		base = 45200,
-		weapon_id = {
-			45203
-		}
-	},
-	[45204] = {
-		id = 45204,
-		damage = "87 x 5",
-		base = 45200,
-		weapon_id = {
-			45204
-		}
-	},
-	[45205] = {
-		id = 45205,
-		damage = "93 x 5",
-		base = 45200,
-		weapon_id = {
-			45205
-		}
-	},
-	[45206] = {
-		id = 45206,
-		damage = "99 x 5",
-		base = 45200,
-		weapon_id = {
-			45206
-		}
-	},
-	[45207] = {
-		id = 45207,
-		damage = "105 x 5",
-		base = 45200,
-		weapon_id = {
-			45207
-		}
-	},
-	[45208] = {
-		id = 45208,
-		damage = "111 x 5",
-		base = 45200,
-		weapon_id = {
-			45208
-		}
-	},
-	[45209] = {
-		id = 45209,
-		damage = "117 x 5",
-		base = 45200,
-		weapon_id = {
-			45209
-		}
-	},
-	[45210] = {
-		id = 45210,
-		damage = "123 x 5",
-		base = 45200,
-		weapon_id = {
-			45210
-		}
-	},
-	[45220] = {
-		name = "五联装533mm磁性鱼雷",
-		speciality = "雷击",
-		type = 5,
-		tech = 2,
-		descrip = "五联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
-		value_2 = 45,
-		icon = "45200",
-		attribute_2 = "torpedo",
-		rarity = 5,
-		damage = "66 x 5",
-		nationality = 4,
-		ammo = 4,
-		value_3 = 0,
-		id = 45220,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1803
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1803
-			},
-			{
-				4,
-				1404
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			45220
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"ST",
-			"TP",
-			"QUINT"
-		}
-	},
-	[45221] = {
-		id = 45221,
-		damage = "72 x 5",
-		base = 45220,
-		weapon_id = {
-			45221
 		}
 	}
 }

@@ -1,5 +1,159 @@
 pg = pg or {}
 pg.equip_data_statistics_212 = {
+	[31004] = {
+		id = 31004,
+		damage = "6 x 4",
+		base = 31000,
+		weapon_id = {
+			31004
+		}
+	},
+	[31005] = {
+		id = 31005,
+		damage = "7 x 4",
+		base = 31000,
+		weapon_id = {
+			31005
+		}
+	},
+	[31006] = {
+		id = 31006,
+		damage = "7 x 4",
+		base = 31000,
+		weapon_id = {
+			31006
+		}
+	},
+	[31020] = {
+		name = "双联100mm98式高射炮",
+		speciality = "锁定",
+		type = 1,
+		attribute_3 = "antiaircraft",
+		tech = 2,
+		value_2 = 9,
+		icon = "31000",
+		attribute_2 = "cannon",
+		descrip = "说明未填写",
+		rarity = 4,
+		damage = "4 x 4",
+		nationality = 3,
+		ammo = 3,
+		value_3 = 16,
+		id = 31020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1200
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1200
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			31020
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		}
+	},
+	[31021] = {
+		id = 31021,
+		base = 31020,
+		weapon_id = {
+			31021
+		}
+	},
+	[31022] = {
+		id = 31022,
+		damage = "6 x 4",
+		base = 31020,
+		weapon_id = {
+			31022
+		}
+	},
+	[31023] = {
+		id = 31023,
+		damage = "6 x 4",
+		base = 31020,
+		weapon_id = {
+			31023
+		}
+	},
+	[31024] = {
+		id = 31024,
+		damage = "7 x 4",
+		base = 31020,
+		weapon_id = {
+			31024
+		}
+	},
+	[31025] = {
+		id = 31025,
+		damage = "8 x 4",
+		base = 31020,
+		weapon_id = {
+			31025
+		}
+	},
+	[31026] = {
+		id = 31026,
+		damage = "8 x 4",
+		base = 31020,
+		weapon_id = {
+			31026
+		}
+	},
+	[31027] = {
+		id = 31027,
+		damage = "9 x 4",
+		base = 31020,
+		weapon_id = {
+			31027
+		}
+	},
+	[31028] = {
+		id = 31028,
+		damage = "9 x 4",
+		base = 31020,
+		weapon_id = {
+			31028
+		}
+	},
 	[31029] = {
 		id = 31029,
 		damage = "10 x 4",
@@ -96,163 +250,6 @@ pg.equip_data_statistics_212 = {
 		base = 31040,
 		weapon_id = {
 			31042
-		}
-	},
-	[31043] = {
-		id = 31043,
-		damage = "7 x 4",
-		base = 31040,
-		weapon_id = {
-			31043
-		}
-	},
-	[31044] = {
-		id = 31044,
-		damage = "8 x 4",
-		base = 31040,
-		weapon_id = {
-			31044
-		}
-	},
-	[31045] = {
-		id = 31045,
-		damage = "9 x 4",
-		base = 31040,
-		weapon_id = {
-			31045
-		}
-	},
-	[31046] = {
-		id = 31046,
-		damage = "9 x 4",
-		base = 31040,
-		weapon_id = {
-			31046
-		}
-	},
-	[31047] = {
-		id = 31047,
-		damage = "10 x 4",
-		base = 31040,
-		weapon_id = {
-			31047
-		}
-	},
-	[31048] = {
-		id = 31048,
-		damage = "10 x 4",
-		base = 31040,
-		weapon_id = {
-			31048
-		}
-	},
-	[31049] = {
-		id = 31049,
-		damage = "11 x 4",
-		base = 31040,
-		weapon_id = {
-			31049
-		}
-	},
-	[31050] = {
-		id = 31050,
-		damage = "12 x 4",
-		base = 31040,
-		weapon_id = {
-			31050
-		}
-	},
-	[31051] = {
-		anti_siren = 100,
-		damage = "12 x 4",
-		base = 31040,
-		id = 31051,
-		weapon_id = {
-			31051
-		}
-	},
-	[31052] = {
-		anti_siren = 200,
-		damage = "12 x 4",
-		base = 31040,
-		id = 31052,
-		weapon_id = {
-			31052
-		}
-	},
-	[31053] = {
-		anti_siren = 300,
-		damage = "12 x 4",
-		base = 31040,
-		id = 31053,
-		weapon_id = {
-			31053
-		}
-	},
-	[31060] = {
-		name = "100mm88式火炮",
-		speciality = "锁定",
-		type = 1,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 10,
-		icon = "31060",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "4 x 4",
-		nationality = 3,
-		ammo = 3,
-		value_3 = 15,
-		id = 31060,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1200
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1200
-			},
-			{
-				4,
-				1001
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			31060
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"DD",
-			"MG"
 		}
 	}
 }

@@ -116,5 +116,8 @@ pg.voice_bgm = {
 	},
 	SpringFestivalTownScene2 = {
 		bgm = "main-chunjie2"
+	},
+	NewMeixiV4Scene = {
+		bgm = "level02"
 	}
 }

@@ -1,46 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_31 = {
-	[1426] = {
-		id = 1426,
-		value_2 = 44,
-		value_1 = "53",
-		base = 1420
+	[1401] = {
+		id = 1401,
+		value_2 = 21,
+		value_1 = "20",
+		base = 1400
 	},
-	[1427] = {
-		id = 1427,
-		value_2 = 48,
-		value_1 = "57",
-		base = 1420
+	[1402] = {
+		id = 1402,
+		value_2 = 24,
+		value_1 = "23",
+		base = 1400
 	},
-	[1428] = {
-		id = 1428,
-		value_2 = 52,
-		value_1 = "61",
-		base = 1420
+	[1403] = {
+		id = 1403,
+		value_2 = 27,
+		value_1 = "26",
+		base = 1400
 	},
-	[1429] = {
-		id = 1429,
-		value_2 = 56,
-		value_1 = "65",
-		base = 1420
+	[1404] = {
+		id = 1404,
+		value_2 = 30,
+		value_1 = "28",
+		base = 1400
 	},
-	[1430] = {
-		id = 1430,
-		value_2 = 60,
-		value_1 = "70",
-		base = 1420
+	[1405] = {
+		id = 1405,
+		value_2 = 33,
+		value_1 = "31",
+		base = 1400
 	},
-	[1440] = {
+	[1406] = {
+		id = 1406,
+		value_2 = 36,
+		value_1 = "34",
+		base = 1400
+	},
+	[1420] = {
 		name = "液压弹射装置",
-		tech = 3,
+		tech = 2,
 		type = 10,
 		speciality = "无",
-		id = 1440,
-		value_2 = 25,
+		id = 1420,
+		value_2 = 20,
 		icon = "1400",
-		value_1 = "40",
+		value_1 = "28",
 		attribute_2 = "durability",
-		rarity = 5,
+		rarity = 4,
 		descrip = "用于飞机弹射起飞，可以提高航空能力",
 		nationality = 0,
 		ammo = 10,
@@ -70,71 +76,64 @@ pg.equip_data_statistics_31 = {
 			"DEV"
 		}
 	},
-	[1441] = {
-		id = 1441,
-		value_2 = 30,
-		value_1 = "46",
-		base = 1440
+	[1421] = {
+		id = 1421,
+		value_2 = 24,
+		value_1 = "32",
+		base = 1420
 	},
-	[1442] = {
-		id = 1442,
-		value_2 = 35,
-		value_1 = "52",
-		base = 1440
+	[1422] = {
+		id = 1422,
+		value_2 = 28,
+		value_1 = "36",
+		base = 1420
 	},
-	[1443] = {
-		id = 1443,
+	[1423] = {
+		id = 1423,
+		value_2 = 32,
+		value_1 = "40",
+		base = 1420
+	},
+	[1424] = {
+		id = 1424,
+		value_2 = 36,
+		value_1 = "44",
+		base = 1420
+	},
+	[1425] = {
+		id = 1425,
 		value_2 = 40,
-		value_1 = "58",
-		base = 1440
+		value_1 = "49",
+		base = 1420
 	},
-	[1444] = {
-		id = 1444,
-		value_2 = 45,
-		value_1 = "64",
-		base = 1440
+	[1426] = {
+		id = 1426,
+		value_2 = 44,
+		value_1 = "53",
+		base = 1420
 	},
-	[1445] = {
-		id = 1445,
-		value_2 = 50,
-		value_1 = "70",
-		base = 1440
+	[1427] = {
+		id = 1427,
+		value_2 = 48,
+		value_1 = "57",
+		base = 1420
 	},
-	[1446] = {
-		id = 1446,
-		value_2 = 55,
-		value_1 = "76",
-		base = 1440
+	[1428] = {
+		id = 1428,
+		value_2 = 52,
+		value_1 = "61",
+		base = 1420
 	},
-	[1447] = {
-		id = 1447,
+	[1429] = {
+		id = 1429,
+		value_2 = 56,
+		value_1 = "65",
+		base = 1420
+	},
+	[1430] = {
+		id = 1430,
 		value_2 = 60,
-		value_1 = "82",
-		base = 1440
-	},
-	[1448] = {
-		id = 1448,
-		value_2 = 65,
-		value_1 = "88",
-		base = 1440
-	},
-	[1449] = {
-		id = 1449,
-		value_2 = 70,
-		value_1 = "94",
-		base = 1440
-	},
-	[1450] = {
-		id = 1450,
-		value_2 = 75,
-		value_1 = "100",
-		base = 1440
-	},
-	[1451] = {
-		id = 1451,
-		anti_siren = 100,
-		base = 1440,
-		value_2 = 80,
-		value_1 = "106"
+		value_1 = "70",
+		base = 1420
 	}
 }

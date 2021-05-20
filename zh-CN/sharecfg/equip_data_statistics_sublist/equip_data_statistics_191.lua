@@ -1,5 +1,158 @@
 pg = pg or {}
 pg.equip_data_statistics_191 = {
+	[26645] = {
+		id = 26645,
+		damage = "92/轮",
+		base = 26640,
+		weapon_id = {
+			26645
+		}
+	},
+	[26646] = {
+		id = 26646,
+		damage = "100/轮",
+		base = 26640,
+		weapon_id = {
+			26646
+		}
+	},
+	[26647] = {
+		id = 26647,
+		damage = "108/轮",
+		base = 26640,
+		weapon_id = {
+			26647
+		}
+	},
+	[26648] = {
+		id = 26648,
+		damage = "116/轮",
+		base = 26640,
+		weapon_id = {
+			26648
+		}
+	},
+	[26649] = {
+		id = 26649,
+		damage = "124/轮",
+		base = 26640,
+		weapon_id = {
+			26649
+		}
+	},
+	[26650] = {
+		id = 26650,
+		damage = "132/轮",
+		base = 26640,
+		weapon_id = {
+			26650
+		}
+	},
+	[26651] = {
+		anti_siren = 100,
+		damage = "132/轮",
+		base = 26640,
+		id = 26651,
+		weapon_id = {
+			26651
+		}
+	},
+	[26652] = {
+		anti_siren = 200,
+		damage = "132/轮",
+		base = 26640,
+		id = 26652,
+		weapon_id = {
+			26652
+		}
+	},
+	[26653] = {
+		anti_siren = 300,
+		damage = "132/轮",
+		base = 26640,
+		id = 26653,
+		weapon_id = {
+			26653
+		}
+	},
+	[26660] = {
+		name = "六联装40mm博福斯对空机炮",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "26660",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "42/轮",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 26660,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			26660
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
+	[26661] = {
+		id = 26661,
+		damage = "52/轮",
+		base = 26660,
+		weapon_id = {
+			26661
+		}
+	},
+	[26662] = {
+		id = 26662,
+		damage = "63/轮",
+		base = 26660,
+		weapon_id = {
+			26662
+		}
+	},
 	[26663] = {
 		id = 26663,
 		damage = "73/轮",
@@ -38,259 +191,6 @@ pg.equip_data_statistics_191 = {
 		base = 26660,
 		weapon_id = {
 			26667
-		}
-	},
-	[26668] = {
-		id = 26668,
-		damage = "126/轮",
-		base = 26660,
-		weapon_id = {
-			26668
-		}
-	},
-	[26669] = {
-		id = 26669,
-		damage = "138/轮",
-		base = 26660,
-		weapon_id = {
-			26669
-		}
-	},
-	[26670] = {
-		id = 26670,
-		damage = "150/轮",
-		base = 26660,
-		weapon_id = {
-			26670
-		}
-	},
-	[26671] = {
-		anti_siren = 100,
-		damage = "150/轮",
-		base = 26660,
-		id = 26671,
-		weapon_id = {
-			26671
-		}
-	},
-	[26672] = {
-		anti_siren = 200,
-		damage = "150/轮",
-		base = 26660,
-		id = 26672,
-		weapon_id = {
-			26672
-		}
-	},
-	[26673] = {
-		anti_siren = 300,
-		damage = "150/轮",
-		base = 26660,
-		id = 26673,
-		weapon_id = {
-			26673
-		}
-	},
-	[27000] = {
-		name = "海喷火",
-		type = 7,
-		speciality = "空战",
-		rarity = 2,
-		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "27000",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 27000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50100
-			},
-			{
-				6,
-				50500
-			},
-			{
-				5,
-				52200
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			27000,
-			82000
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"FT"
-		}
-	},
-	[27001] = {
-		id = 27001,
-		base = 27000,
-		ammo_info = {
-			{
-				6,
-				50101
-			},
-			{
-				6,
-				50501
-			},
-			{
-				5,
-				52201
-			}
-		},
-		weapon_id = {
-			27001,
-			82001
-		}
-	},
-	[27002] = {
-		id = 27002,
-		base = 27000,
-		ammo_info = {
-			{
-				6,
-				50102
-			},
-			{
-				6,
-				50502
-			},
-			{
-				5,
-				52202
-			}
-		},
-		weapon_id = {
-			27002,
-			82002
-		}
-	},
-	[27003] = {
-		id = 27003,
-		base = 27000,
-		ammo_info = {
-			{
-				6,
-				50103
-			},
-			{
-				6,
-				50503
-			},
-			{
-				5,
-				52203
-			}
-		},
-		weapon_id = {
-			27003,
-			82003
-		}
-	},
-	[27020] = {
-		name = "海喷火",
-		type = 7,
-		speciality = "空战",
-		rarity = 3,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "27000",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 27020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50120
-			},
-			{
-				6,
-				50520
-			},
-			{
-				5,
-				52220
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			27020,
-			82020
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"FT"
-		}
-	},
-	[27021] = {
-		id = 27021,
-		base = 27020,
-		ammo_info = {
-			{
-				6,
-				50121
-			},
-			{
-				6,
-				50521
-			},
-			{
-				5,
-				52221
-			}
-		},
-		weapon_id = {
-			27021,
-			82021
 		}
 	}
 }

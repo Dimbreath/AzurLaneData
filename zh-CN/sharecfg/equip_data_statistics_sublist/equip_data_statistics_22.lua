@@ -69,21 +69,21 @@ pg.equip_data_statistics_22 = {
 		value_2 = 26,
 		value_1 = "59"
 	},
-	[1000] = {
-		name = "舰艇维修设备",
-		tech = 1,
+	[940] = {
+		name = "作战报告：AF",
+		tech = 0,
 		type = 10,
 		speciality = "无",
 		attribute_1 = "durability",
 		value_2 = 0,
-		icon = "1000",
-		value_1 = "90",
-		descrip = "用于维修角色的设备，只有修理舰可以使用",
-		rarity = 3,
-		nationality = 0,
+		icon = "940",
+		value_1 = "250",
+		descrip = "记录有AF作战全过程的正式报告书。注：有数份档案未被列入其中。",
+		rarity = 4,
+		nationality = 1,
 		ammo = 10,
 		value_3 = 0,
-		id = 1000,
+		id = 940,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -93,42 +93,39 @@ pg.equip_data_statistics_22 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			10
+			6850
 		},
-		part_main = {
-			12
-		},
-		part_sub = {
-			12
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
+			"USS",
 			"DEV"
 		}
 	},
-	[1001] = {
-		id = 1001,
-		value_1 = "103",
-		base = 1000
+	[941] = {
+		id = 941,
+		value_1 = "280",
+		base = 940
 	},
-	[1002] = {
-		id = 1002,
-		value_1 = "117",
-		base = 1000
+	[942] = {
+		id = 942,
+		value_1 = "310",
+		base = 940
 	},
-	[1003] = {
-		id = 1003,
-		value_1 = "130",
-		base = 1000
+	[943] = {
+		id = 943,
+		value_1 = "340",
+		base = 940
 	},
-	[1004] = {
-		id = 1004,
-		value_1 = "144",
-		base = 1000
+	[944] = {
+		id = 944,
+		value_1 = "360",
+		base = 940
 	},
-	[1005] = {
-		id = 1005,
-		value_1 = "157",
-		base = 1000
+	[945] = {
+		id = 945,
+		value_1 = "410",
+		base = 940
 	}
 }

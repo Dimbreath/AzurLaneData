@@ -221,7 +221,8 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 				priorEquipUpShipIDList = {},
 				leftTopWithFrameInfo = i18n("backyard_longpress_ship_tip"),
 				isLayer = true,
-				skipSelect = true
+				skipSelect = true,
+				mode = DockyardScene.MODE_BACKYARD
 			}
 		}))
 		slot0.viewComponent:EnableUI(false)

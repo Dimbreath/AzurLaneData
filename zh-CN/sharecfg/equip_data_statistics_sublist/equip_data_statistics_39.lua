@@ -1,5 +1,128 @@
 pg = pg or {}
 pg.equip_data_statistics_39 = {
+	[1920] = {
+		name = "海军迷彩",
+		tech = 2,
+		type = 10,
+		speciality = "无",
+		id = 1920,
+		value_2 = 16,
+		icon = "1900",
+		value_1 = "5",
+		attribute_2 = "durability",
+		rarity = 2,
+		descrip = "虽说涂装可以随意，但是这么贵的东西就不要弄个一点隐蔽性能都没有的东西了吧",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[1921] = {
+		id = 1921,
+		value_2 = 19,
+		base = 1920
+	},
+	[1922] = {
+		id = 1922,
+		value_2 = 22,
+		value_1 = "6",
+		base = 1920
+	},
+	[1923] = {
+		id = 1923,
+		value_2 = 25,
+		value_1 = "7",
+		base = 1920
+	},
+	[1940] = {
+		name = "海军迷彩",
+		tech = 3,
+		type = 10,
+		speciality = "无",
+		id = 1940,
+		value_2 = 20,
+		icon = "1900",
+		value_1 = "9",
+		attribute_2 = "durability",
+		rarity = 3,
+		descrip = "虽说涂装可以随意，但是这么贵的东西就不要弄个一点隐蔽性能都没有的东西了吧",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[1941] = {
+		id = 1941,
+		value_2 = 24,
+		value_1 = "10",
+		base = 1940
+	},
+	[1942] = {
+		id = 1942,
+		value_2 = 28,
+		value_1 = "11",
+		base = 1940
+	},
+	[1943] = {
+		id = 1943,
+		value_2 = 32,
+		value_1 = "13",
+		base = 1940
+	},
+	[1944] = {
+		id = 1944,
+		value_2 = 36,
+		value_1 = "14",
+		base = 1940
+	},
+	[1945] = {
+		id = 1945,
+		value_2 = 40,
+		value_1 = "15",
+		base = 1940
+	},
+	[1946] = {
+		id = 1946,
+		value_2 = 44,
+		value_1 = "17",
+		base = 1940
+	},
+	[1947] = {
+		id = 1947,
+		value_2 = 48,
+		value_1 = "19",
+		base = 1940
+	},
 	[1960] = {
 		name = "海魂迷彩",
 		tech = 0,
@@ -56,127 +179,5 @@ pg.equip_data_statistics_39 = {
 		value_2 = 55,
 		value_1 = "12",
 		base = 1960
-	},
-	[1965] = {
-		id = 1965,
-		value_2 = 60,
-		value_1 = "13",
-		base = 1960
-	},
-	[1966] = {
-		id = 1966,
-		value_2 = 65,
-		value_1 = "14",
-		base = 1960
-	},
-	[1967] = {
-		id = 1967,
-		value_2 = 70,
-		value_1 = "15",
-		base = 1960
-	},
-	[1968] = {
-		id = 1968,
-		value_2 = 80,
-		value_1 = "16",
-		base = 1960
-	},
-	[1969] = {
-		id = 1969,
-		value_2 = 90,
-		value_1 = "17",
-		base = 1960
-	},
-	[1970] = {
-		id = 1970,
-		value_2 = 100,
-		value_1 = "18",
-		base = 1960
-	},
-	[1971] = {
-		id = 1971,
-		anti_siren = 100,
-		base = 1960,
-		value_2 = 110,
-		value_1 = "19"
-	},
-	[2000] = {
-		name = "燃油滤清器",
-		tech = 1,
-		type = 10,
-		speciality = "无",
-		id = 2000,
-		value_2 = 2,
-		icon = "2000",
-		value_1 = "50",
-		attribute_2 = "dodge",
-		rarity = 2,
-		descrip = "可以提高燃油质量哦",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "durability",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[2001] = {
-		id = 2001,
-		value_1 = "57",
-		base = 2000
-	},
-	[2002] = {
-		id = 2002,
-		value_1 = "65",
-		base = 2000
-	},
-	[2003] = {
-		id = 2003,
-		value_1 = "72",
-		base = 2000
-	},
-	[2020] = {
-		name = "燃油滤清器",
-		tech = 2,
-		type = 10,
-		speciality = "无",
-		id = 2020,
-		value_2 = 2,
-		icon = "2000",
-		value_1 = "90",
-		attribute_2 = "dodge",
-		rarity = 3,
-		descrip = "可以提高燃油质量哦",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "durability",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
 	}
 }

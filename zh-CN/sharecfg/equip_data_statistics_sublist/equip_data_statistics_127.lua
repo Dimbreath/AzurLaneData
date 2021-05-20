@@ -1,5 +1,241 @@
 pg = pg or {}
 pg.equip_data_statistics_127 = {
+	[17084] = {
+		id = 17084,
+		base = 17080,
+		ammo_info = {
+			{
+				6,
+				50344
+			},
+			{
+				5,
+				52144
+			}
+		},
+		weapon_id = {
+			17084,
+			81084
+		}
+	},
+	[17085] = {
+		id = 17085,
+		base = 17080,
+		ammo_info = {
+			{
+				6,
+				50345
+			},
+			{
+				5,
+				52145
+			}
+		},
+		weapon_id = {
+			17085,
+			81085
+		}
+	},
+	[17086] = {
+		id = 17086,
+		base = 17080,
+		ammo_info = {
+			{
+				6,
+				50346
+			},
+			{
+				5,
+				52146
+			}
+		},
+		weapon_id = {
+			17086,
+			81086
+		}
+	},
+	[17087] = {
+		id = 17087,
+		base = 17080,
+		ammo_info = {
+			{
+				6,
+				50347
+			},
+			{
+				5,
+				52147
+			}
+		},
+		weapon_id = {
+			17087,
+			81087
+		}
+	},
+	[17088] = {
+		id = 17088,
+		base = 17080,
+		ammo_info = {
+			{
+				6,
+				50348
+			},
+			{
+				5,
+				52148
+			}
+		},
+		weapon_id = {
+			17088,
+			81088
+		}
+	},
+	[17089] = {
+		id = 17089,
+		base = 17080,
+		ammo_info = {
+			{
+				6,
+				50349
+			},
+			{
+				5,
+				52149
+			}
+		},
+		weapon_id = {
+			17089,
+			81089
+		}
+	},
+	[17090] = {
+		id = 17090,
+		base = 17080,
+		ammo_info = {
+			{
+				6,
+				50350
+			},
+			{
+				5,
+				52150
+			}
+		},
+		weapon_id = {
+			17090,
+			81090
+		}
+	},
+	[17091] = {
+		anti_siren = 100,
+		base = 17080,
+		id = 17091,
+		ammo_info = {
+			{
+				6,
+				50351
+			},
+			{
+				5,
+				52151
+			}
+		},
+		weapon_id = {
+			17091,
+			81091
+		}
+	},
+	[17100] = {
+		name = "F4F野猫",
+		type = 7,
+		speciality = "空战",
+		rarity = 2,
+		tech = 1,
+		descrip = "说明未填写",
+		value_2 = 5,
+		icon = "17100",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 17100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50400
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			17100,
+			81100
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
+	},
+	[17101] = {
+		id = 17101,
+		base = 17100,
+		ammo_info = {
+			{
+				6,
+				50401
+			}
+		},
+		weapon_id = {
+			17101,
+			81101
+		}
+	},
+	[17102] = {
+		id = 17102,
+		base = 17100,
+		ammo_info = {
+			{
+				6,
+				50402
+			}
+		},
+		weapon_id = {
+			17102,
+			81102
+		}
+	},
+	[17103] = {
+		id = 17103,
+		base = 17100,
+		ammo_info = {
+			{
+				6,
+				50403
+			}
+		},
+		weapon_id = {
+			17103,
+			81103
+		}
+	},
 	[17120] = {
 		name = "F4F野猫",
 		type = 7,
@@ -103,209 +339,6 @@ pg.equip_data_statistics_127 = {
 		weapon_id = {
 			17124,
 			81124
-		}
-	},
-	[17125] = {
-		id = 17125,
-		base = 17120,
-		ammo_info = {
-			{
-				6,
-				50425
-			}
-		},
-		weapon_id = {
-			17125,
-			81125
-		}
-	},
-	[17126] = {
-		id = 17126,
-		base = 17120,
-		ammo_info = {
-			{
-				6,
-				50426
-			}
-		},
-		weapon_id = {
-			17126,
-			81126
-		}
-	},
-	[17140] = {
-		name = "F4F野猫",
-		type = 7,
-		speciality = "空战",
-		rarity = 4,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "17100",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 17140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50440
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			17140,
-			81140
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"FT"
-		}
-	},
-	[17141] = {
-		id = 17141,
-		base = 17140,
-		ammo_info = {
-			{
-				6,
-				50441
-			}
-		},
-		weapon_id = {
-			17141,
-			81141
-		}
-	},
-	[17142] = {
-		id = 17142,
-		base = 17140,
-		ammo_info = {
-			{
-				6,
-				50442
-			}
-		},
-		weapon_id = {
-			17142,
-			81142
-		}
-	},
-	[17143] = {
-		id = 17143,
-		base = 17140,
-		ammo_info = {
-			{
-				6,
-				50443
-			}
-		},
-		weapon_id = {
-			17143,
-			81143
-		}
-	},
-	[17144] = {
-		id = 17144,
-		base = 17140,
-		ammo_info = {
-			{
-				6,
-				50444
-			}
-		},
-		weapon_id = {
-			17144,
-			81144
-		}
-	},
-	[17145] = {
-		id = 17145,
-		base = 17140,
-		ammo_info = {
-			{
-				6,
-				50445
-			}
-		},
-		weapon_id = {
-			17145,
-			81145
-		}
-	},
-	[17146] = {
-		id = 17146,
-		base = 17140,
-		ammo_info = {
-			{
-				6,
-				50446
-			}
-		},
-		weapon_id = {
-			17146,
-			81146
-		}
-	},
-	[17147] = {
-		id = 17147,
-		base = 17140,
-		ammo_info = {
-			{
-				6,
-				50447
-			}
-		},
-		weapon_id = {
-			17147,
-			81147
-		}
-	},
-	[17148] = {
-		id = 17148,
-		base = 17140,
-		ammo_info = {
-			{
-				6,
-				50448
-			}
-		},
-		weapon_id = {
-			17148,
-			81148
-		}
-	},
-	[17149] = {
-		id = 17149,
-		base = 17140,
-		ammo_info = {
-			{
-				6,
-				50449
-			}
-		},
-		weapon_id = {
-			17149,
-			81149
 		}
 	}
 }

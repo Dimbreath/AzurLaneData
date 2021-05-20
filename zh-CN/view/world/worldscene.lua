@@ -488,7 +488,7 @@ function slot0.SetInMap(slot0, slot1, slot2)
 			slot0 = uv1.atlasDisplayInfo
 			uv1.atlasDisplayInfo = nil
 
-			return existCall(uv2, slot0.entrance, slot0.mapTypes)
+			return existCall(uv2, slot0.entrance, slot0.mapId, slot0.mapTypes)
 		else
 			return existCall(uv2)
 		end
@@ -1381,11 +1381,12 @@ function slot0.OnUpdateScale(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.OnModelSelectMap(slot0, slot1, slot2, slot3, slot4)
+function slot0.OnModelSelectMap(slot0, slot1, slot2, slot3, slot4, slot5)
 	if slot3 then
 		slot0:ShowSubView("FloatPanel", {
 			slot3,
 			slot4,
+			slot5,
 			slot2
 		})
 	else
@@ -1715,9 +1716,9 @@ function slot0.ReturnToModelArea(slot0)
 end
 
 function slot0.EnterTransportWorld(slot0)
-	slot0:Op("OpSetInMap", false, function (slot0, slot1)
+	slot0:Op("OpSetInMap", false, function (slot0, slot1, slot2)
 		uv0.wsAtlas:SwitchArea((slot0 or nowWorld:GetActiveEntrance()):GetAreaId(), false, function ()
-			uv0.wsAtlas:UpdateSelect(uv1, uv2)
+			uv0.wsAtlas:UpdateSelect(uv1, uv2, uv3)
 			uv0.wsAtlas:DisplayTransport(uv0.contextData.displayTransDic or {}, function ()
 				uv0.contextData.displayTransDic = Clone(nowWorld:GetAtlas().transportDic)
 			end)

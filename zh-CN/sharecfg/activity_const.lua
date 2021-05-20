@@ -767,5 +767,8 @@ pg.activity_const = {
 	},
 	WWF_TASK_ID = {
 		act_id = 916
+	},
+	NEWMEIXIV4_SKIRMISH_ID = {
+		act_id = 974
 	}
 }

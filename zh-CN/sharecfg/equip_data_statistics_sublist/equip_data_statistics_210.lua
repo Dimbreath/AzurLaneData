@@ -1,5 +1,258 @@
 pg = pg or {}
 pg.equip_data_statistics_210 = {
+	[29206] = {
+		id = 29206,
+		base = 29200,
+		ammo_info = {
+			{
+				6,
+				50666
+			},
+			{
+				5,
+				52746
+			}
+		},
+		weapon_id = {
+			29206
+		}
+	},
+	[29207] = {
+		id = 29207,
+		base = 29200,
+		ammo_info = {
+			{
+				6,
+				50667
+			},
+			{
+				5,
+				52747
+			}
+		},
+		weapon_id = {
+			29207
+		}
+	},
+	[29208] = {
+		id = 29208,
+		base = 29200,
+		ammo_info = {
+			{
+				6,
+				50668
+			},
+			{
+				5,
+				52748
+			}
+		},
+		weapon_id = {
+			29208
+		}
+	},
+	[29209] = {
+		id = 29209,
+		base = 29200,
+		ammo_info = {
+			{
+				6,
+				50669
+			},
+			{
+				5,
+				52749
+			}
+		},
+		weapon_id = {
+			29209
+		}
+	},
+	[29210] = {
+		id = 29210,
+		base = 29200,
+		ammo_info = {
+			{
+				6,
+				50670
+			},
+			{
+				5,
+				52750
+			}
+		},
+		weapon_id = {
+			29210
+		}
+	},
+	[29211] = {
+		anti_siren = 100,
+		base = 29200,
+		id = 29211,
+		ammo_info = {
+			{
+				6,
+				50671
+			},
+			{
+				5,
+				52751
+			}
+		},
+		weapon_id = {
+			29211
+		}
+	},
+	[29212] = {
+		anti_siren = 200,
+		base = 29200,
+		id = 29212,
+		ammo_info = {
+			{
+				6,
+				50672
+			},
+			{
+				5,
+				52752
+			}
+		},
+		weapon_id = {
+			29212
+		}
+	},
+	[29213] = {
+		anti_siren = 300,
+		base = 29200,
+		id = 29213,
+		ammo_info = {
+			{
+				6,
+				50673
+			},
+			{
+				5,
+				52753
+			}
+		},
+		weapon_id = {
+			29213
+		}
+	},
+	[29300] = {
+		name = "梭鱼(831中队)",
+		type = 9,
+		speciality = "轰炸",
+		rarity = 5,
+		tech = 0,
+		descrip = "钨作战中轰炸提尔比茨的梭鱼831中队，搭载730kg穿甲航弹",
+		value_2 = 45,
+		icon = "29300",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 29300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				5,
+				53280
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			29300
+		},
+		skill_id = {
+			6830
+		},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		}
+	},
+	[29301] = {
+		base = 29300,
+		id = 29301,
+		ammo_info = {
+			{
+				6,
+				50041
+			},
+			{
+				5,
+				53281
+			}
+		},
+		weapon_id = {
+			29301
+		},
+		skill_id = {
+			6831
+		}
+	},
+	[29302] = {
+		base = 29300,
+		id = 29302,
+		ammo_info = {
+			{
+				6,
+				50042
+			},
+			{
+				5,
+				53282
+			}
+		},
+		weapon_id = {
+			29302
+		},
+		skill_id = {
+			6832
+		}
+	},
+	[29303] = {
+		base = 29300,
+		id = 29303,
+		ammo_info = {
+			{
+				6,
+				50043
+			},
+			{
+				5,
+				53283
+			}
+		},
+		weapon_id = {
+			29303
+		},
+		skill_id = {
+			6833
+		}
+	},
 	[29304] = {
 		base = 29300,
 		id = 29304,
@@ -98,209 +351,6 @@ pg.equip_data_statistics_210 = {
 		},
 		skill_id = {
 			6838
-		}
-	},
-	[29309] = {
-		base = 29300,
-		id = 29309,
-		ammo_info = {
-			{
-				6,
-				50049
-			},
-			{
-				5,
-				53289
-			}
-		},
-		weapon_id = {
-			29309
-		},
-		skill_id = {
-			6839
-		}
-	},
-	[29310] = {
-		base = 29300,
-		id = 29310,
-		ammo_info = {
-			{
-				6,
-				50050
-			},
-			{
-				5,
-				53290
-			}
-		},
-		weapon_id = {
-			29310
-		},
-		skill_id = {
-			6840
-		}
-	},
-	[29311] = {
-		anti_siren = 100,
-		base = 29300,
-		id = 29311,
-		ammo_info = {
-			{
-				6,
-				50051
-			},
-			{
-				5,
-				53291
-			}
-		},
-		weapon_id = {
-			29311
-		},
-		skill_id = {
-			6841
-		}
-	},
-	[29312] = {
-		anti_siren = 200,
-		base = 29300,
-		id = 29312,
-		ammo_info = {
-			{
-				6,
-				50052
-			},
-			{
-				5,
-				53292
-			}
-		},
-		weapon_id = {
-			29312
-		},
-		skill_id = {
-			6842
-		}
-	},
-	[29313] = {
-		anti_siren = 300,
-		base = 29300,
-		id = 29313,
-		ammo_info = {
-			{
-				6,
-				50053
-			},
-			{
-				5,
-				53293
-			}
-		},
-		weapon_id = {
-			29313
-		},
-		skill_id = {
-			6843
-		}
-	},
-	[30000] = {
-		name = "305mm连装炮",
-		speciality = "跨射",
-		type = 4,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "30000",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "40 x 2",
-		nationality = 3,
-		ammo = 3,
-		value_3 = 0,
-		id = 30000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1500
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			30000
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"BB",
-			"MG"
-		}
-	},
-	[30001] = {
-		id = 30001,
-		damage = "45 x 2",
-		base = 30000,
-		weapon_id = {
-			30001
-		}
-	},
-	[30002] = {
-		id = 30002,
-		damage = "50 x 2",
-		base = 30000,
-		weapon_id = {
-			30002
-		}
-	},
-	[30003] = {
-		id = 30003,
-		damage = "56 x 2",
-		base = 30000,
-		weapon_id = {
-			30003
-		}
-	},
-	[30004] = {
-		id = 30004,
-		damage = "62 x 2",
-		base = 30000,
-		weapon_id = {
-			30004
-		}
-	},
-	[30005] = {
-		id = 30005,
-		damage = "68 x 2",
-		base = 30000,
-		weapon_id = {
-			30005
-		}
-	},
-	[30006] = {
-		id = 30006,
-		damage = "74 x 2",
-		base = 30000,
-		weapon_id = {
-			30006
 		}
 	}
 }

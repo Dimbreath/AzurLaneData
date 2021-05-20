@@ -8574,6 +8574,20 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6850] = {
+		desc_get = "",
+		name = "对重樱作战战术I",
+		type = 0,
+		max_level = 0,
+		desc = "装备时，自身对重樱群岛单位造成伤害提高6%，同类效果取最大值，不可叠加",
+		id = 6850,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "莱茵演习",
@@ -64613,6 +64627,7 @@ pg.skill_data_template = {
 		6841,
 		6842,
 		6843,
+		6850,
 		7000,
 		9010,
 		9020,

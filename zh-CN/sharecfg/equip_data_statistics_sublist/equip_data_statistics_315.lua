@@ -1,5 +1,156 @@
 pg = pg or {}
 pg.equip_data_statistics_315 = {
+	[46340] = {
+		name = "双联105mmSKC高炮",
+		speciality = "防空",
+		type = 6,
+		tech = 3,
+		descrip = "双联105mmSKC高炮，可以用于防空",
+		value_2 = 45,
+		icon = "46300",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "49/轮",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 46340,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			46340
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
+	},
+	[46341] = {
+		id = 46341,
+		damage = "56/轮",
+		base = 46340,
+		weapon_id = {
+			46341
+		}
+	},
+	[46342] = {
+		id = 46342,
+		damage = "63/轮",
+		base = 46340,
+		weapon_id = {
+			46342
+		}
+	},
+	[46343] = {
+		id = 46343,
+		damage = "70/轮",
+		base = 46340,
+		weapon_id = {
+			46343
+		}
+	},
+	[46344] = {
+		id = 46344,
+		damage = "77/轮",
+		base = 46340,
+		weapon_id = {
+			46344
+		}
+	},
+	[46345] = {
+		id = 46345,
+		damage = "84/轮",
+		base = 46340,
+		weapon_id = {
+			46345
+		}
+	},
+	[46346] = {
+		id = 46346,
+		damage = "91/轮",
+		base = 46340,
+		weapon_id = {
+			46346
+		}
+	},
+	[46347] = {
+		id = 46347,
+		damage = "98/轮",
+		base = 46340,
+		weapon_id = {
+			46347
+		}
+	},
+	[46348] = {
+		id = 46348,
+		damage = "106/轮",
+		base = 46340,
+		weapon_id = {
+			46348
+		}
+	},
+	[46349] = {
+		id = 46349,
+		damage = "114/轮",
+		base = 46340,
+		weapon_id = {
+			46349
+		}
+	},
+	[46350] = {
+		id = 46350,
+		damage = "122/轮",
+		base = 46340,
+		weapon_id = {
+			46350
+		}
+	},
+	[46351] = {
+		anti_siren = 100,
+		damage = "122/轮",
+		base = 46340,
+		id = 46351,
+		weapon_id = {
+			46351
+		}
+	},
 	[46352] = {
 		anti_siren = 200,
 		damage = "122/轮",
@@ -94,150 +245,6 @@ pg.equip_data_statistics_315 = {
 		base = 46360,
 		weapon_id = {
 			46362
-		}
-	},
-	[46363] = {
-		id = 46363,
-		damage = "76/轮",
-		base = 46360,
-		weapon_id = {
-			46363
-		}
-	},
-	[46364] = {
-		id = 46364,
-		damage = "83/轮",
-		base = 46360,
-		weapon_id = {
-			46364
-		}
-	},
-	[46365] = {
-		id = 46365,
-		damage = "90/轮",
-		base = 46360,
-		weapon_id = {
-			46365
-		}
-	},
-	[46366] = {
-		id = 46366,
-		damage = "97/轮",
-		base = 46360,
-		weapon_id = {
-			46366
-		}
-	},
-	[46367] = {
-		id = 46367,
-		damage = "104/轮",
-		base = 46360,
-		weapon_id = {
-			46367
-		}
-	},
-	[46368] = {
-		id = 46368,
-		damage = "112/轮",
-		base = 46360,
-		weapon_id = {
-			46368
-		}
-	},
-	[46369] = {
-		id = 46369,
-		damage = "120/轮",
-		base = 46360,
-		weapon_id = {
-			46369
-		}
-	},
-	[46370] = {
-		id = 46370,
-		damage = "128/轮",
-		base = 46360,
-		weapon_id = {
-			46370
-		}
-	},
-	[46371] = {
-		anti_siren = 100,
-		damage = "128/轮",
-		base = 46360,
-		id = 46371,
-		weapon_id = {
-			46371
-		}
-	},
-	[46372] = {
-		anti_siren = 200,
-		damage = "128/轮",
-		base = 46360,
-		id = 46372,
-		weapon_id = {
-			46372
-		}
-	},
-	[46373] = {
-		anti_siren = 300,
-		damage = "128/轮",
-		base = 46360,
-		id = 46373,
-		weapon_id = {
-			46373
-		}
-	},
-	[47000] = {
-		name = "BF-109T舰载战斗机",
-		type = 7,
-		speciality = "空战",
-		rarity = 2,
-		tech = 1,
-		descrip = "BF-109的舰载用版本，铁血公国的老牌战斗机",
-		value_2 = 5,
-		icon = "47000",
-		attribute_2 = "air",
-		nationality = 4,
-		ammo = 5,
-		value_3 = 0,
-		id = 47000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				59000
-			},
-			{
-				6,
-				59400
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			47000,
-			84000
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CV",
-			"FT"
 		}
 	}
 }

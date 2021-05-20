@@ -131608,6 +131608,25 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59212] = {
+		drop_gold_max = 0,
+		name = "训练点数",
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/xunliandianshu_vx",
+		rarity = 2,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59212,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		drop_gold_max = 0,
 		name = "船模-茳",
@@ -144137,6 +144156,7 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		59209,
 		59210,
 		59211,
+		59212,
 		59601,
 		59602,
 		59603,

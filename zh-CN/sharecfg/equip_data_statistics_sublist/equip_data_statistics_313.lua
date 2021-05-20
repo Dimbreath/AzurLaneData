@@ -1,5 +1,156 @@
 pg = pg or {}
 pg.equip_data_statistics_313 = {
+	[46248] = {
+		id = 46248,
+		damage = "44/轮",
+		base = 46240,
+		weapon_id = {
+			46248
+		}
+	},
+	[46249] = {
+		id = 46249,
+		damage = "47/轮",
+		base = 46240,
+		weapon_id = {
+			46249
+		}
+	},
+	[46250] = {
+		id = 46250,
+		damage = "50/轮",
+		base = 46240,
+		weapon_id = {
+			46250
+		}
+	},
+	[46251] = {
+		anti_siren = 100,
+		damage = "50/轮",
+		base = 46240,
+		id = 46251,
+		weapon_id = {
+			46251
+		}
+	},
+	[46260] = {
+		name = "双联37mm Flak M43机枪",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "46260",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "26/轮",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 46260,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			46260
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
+	},
+	[46261] = {
+		id = 46261,
+		damage = "29/轮",
+		base = 46260,
+		weapon_id = {
+			46261
+		}
+	},
+	[46262] = {
+		id = 46262,
+		damage = "32/轮",
+		base = 46260,
+		weapon_id = {
+			46262
+		}
+	},
+	[46263] = {
+		id = 46263,
+		damage = "35/轮",
+		base = 46260,
+		weapon_id = {
+			46263
+		}
+	},
+	[46264] = {
+		id = 46264,
+		damage = "38/轮",
+		base = 46260,
+		weapon_id = {
+			46264
+		}
+	},
+	[46265] = {
+		id = 46265,
+		damage = "41/轮",
+		base = 46260,
+		weapon_id = {
+			46265
+		}
+	},
+	[46266] = {
+		id = 46266,
+		damage = "44/轮",
+		base = 46260,
+		weapon_id = {
+			46266
+		}
+	},
+	[46267] = {
+		id = 46267,
+		damage = "47/轮",
+		base = 46260,
+		weapon_id = {
+			46267
+		}
+	},
 	[46268] = {
 		id = 46268,
 		damage = "50/轮",
@@ -93,156 +244,6 @@ pg.equip_data_statistics_313 = {
 			"KMS",
 			"ST",
 			"AA"
-		}
-	},
-	[46301] = {
-		id = 46301,
-		damage = "39/轮",
-		base = 46300,
-		weapon_id = {
-			46301
-		}
-	},
-	[46302] = {
-		id = 46302,
-		damage = "44/轮",
-		base = 46300,
-		weapon_id = {
-			46302
-		}
-	},
-	[46303] = {
-		id = 46303,
-		damage = "50/轮",
-		base = 46300,
-		weapon_id = {
-			46303
-		}
-	},
-	[46304] = {
-		id = 46304,
-		damage = "56/轮",
-		base = 46300,
-		weapon_id = {
-			46304
-		}
-	},
-	[46305] = {
-		id = 46305,
-		damage = "62/轮",
-		base = 46300,
-		weapon_id = {
-			46305
-		}
-	},
-	[46306] = {
-		id = 46306,
-		damage = "68/轮",
-		base = 46300,
-		weapon_id = {
-			46306
-		}
-	},
-	[46320] = {
-		name = "双联105mmSKC高炮",
-		speciality = "防空",
-		type = 6,
-		tech = 2,
-		descrip = "双联105mmSKC高炮，可以用于防空",
-		value_2 = 25,
-		icon = "46300",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "41/轮",
-		nationality = 4,
-		ammo = 5,
-		value_3 = 0,
-		id = 46320,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			46320
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"ST",
-			"AA"
-		}
-	},
-	[46321] = {
-		id = 46321,
-		damage = "47/轮",
-		base = 46320,
-		weapon_id = {
-			46321
-		}
-	},
-	[46322] = {
-		id = 46322,
-		damage = "53/轮",
-		base = 46320,
-		weapon_id = {
-			46322
-		}
-	},
-	[46323] = {
-		id = 46323,
-		damage = "59/轮",
-		base = 46320,
-		weapon_id = {
-			46323
-		}
-	},
-	[46324] = {
-		id = 46324,
-		damage = "65/轮",
-		base = 46320,
-		weapon_id = {
-			46324
-		}
-	},
-	[46325] = {
-		id = 46325,
-		damage = "71/轮",
-		base = 46320,
-		weapon_id = {
-			46325
 		}
 	}
 }

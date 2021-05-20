@@ -1,5 +1,122 @@
 pg = pg or {}
 pg.equip_data_statistics_25 = {
+	[1050] = {
+		id = 1050,
+		value_1 = "500",
+		base = 1040
+	},
+	[1051] = {
+		id = 1051,
+		anti_siren = 100,
+		value_1 = "530",
+		base = 1040
+	},
+	[1052] = {
+		id = 1052,
+		anti_siren = 200,
+		value_1 = "560",
+		base = 1040
+	},
+	[1053] = {
+		id = 1053,
+		anti_siren = 300,
+		value_1 = "590",
+		base = 1040
+	},
+	[1100] = {
+		name = "对空雷达",
+		tech = 1,
+		type = 10,
+		speciality = "无",
+		attribute_1 = "antiaircraft",
+		value_2 = 0,
+		icon = "1100",
+		value_1 = "10",
+		descrip = "对空搜索雷达，可以提高防空能力",
+		rarity = 2,
+		nationality = 1,
+		ammo = 10,
+		value_3 = 0,
+		id = 1100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DEV"
+		}
+	},
+	[1101] = {
+		id = 1101,
+		value_1 = "11",
+		base = 1100
+	},
+	[1102] = {
+		id = 1102,
+		value_1 = "13",
+		base = 1100
+	},
+	[1103] = {
+		id = 1103,
+		value_1 = "14",
+		base = 1100
+	},
+	[1120] = {
+		name = "对空雷达",
+		tech = 2,
+		type = 10,
+		speciality = "无",
+		attribute_1 = "antiaircraft",
+		value_2 = 0,
+		icon = "1100",
+		value_1 = "18",
+		descrip = "对空搜索雷达，可以提高防空能力",
+		rarity = 3,
+		nationality = 1,
+		ammo = 10,
+		value_3 = 0,
+		id = 1120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DEV"
+		}
+	},
+	[1121] = {
+		id = 1121,
+		value_1 = "20",
+		base = 1120
+	},
+	[1122] = {
+		id = 1122,
+		value_1 = "23",
+		base = 1120
+	},
+	[1123] = {
+		id = 1123,
+		value_1 = "26",
+		base = 1120
+	},
 	[1124] = {
 		id = 1124,
 		value_1 = "28",
@@ -51,97 +168,5 @@ pg.equip_data_statistics_25 = {
 		id = 1141,
 		value_1 = "32",
 		base = 1140
-	},
-	[1142] = {
-		id = 1142,
-		value_1 = "36",
-		base = 1140
-	},
-	[1143] = {
-		id = 1143,
-		value_1 = "40",
-		base = 1140
-	},
-	[1144] = {
-		id = 1144,
-		value_1 = "44",
-		base = 1140
-	},
-	[1145] = {
-		id = 1145,
-		value_1 = "49",
-		base = 1140
-	},
-	[1146] = {
-		id = 1146,
-		value_1 = "53",
-		base = 1140
-	},
-	[1147] = {
-		id = 1147,
-		value_1 = "57",
-		base = 1140
-	},
-	[1148] = {
-		id = 1148,
-		value_1 = "61",
-		base = 1140
-	},
-	[1149] = {
-		id = 1149,
-		value_1 = "65",
-		base = 1140
-	},
-	[1150] = {
-		id = 1150,
-		value_1 = "70",
-		base = 1140
-	},
-	[1151] = {
-		id = 1151,
-		anti_siren = 100,
-		value_1 = "75",
-		base = 1140
-	},
-	[1160] = {
-		name = "高性能对空雷达",
-		tech = 0,
-		type = 10,
-		speciality = "无",
-		attribute_1 = "antiaircraft",
-		value_2 = 0,
-		icon = "1160",
-		value_1 = "40",
-		descrip = "293对空搜索雷达，可以提高防空能力",
-		rarity = 5,
-		nationality = 2,
-		ammo = 10,
-		value_3 = 0,
-		id = 1160,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6280
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {
-			ambush_extra = 1200
-		},
-		label = {
-			"HMS",
-			"DEV"
-		}
-	},
-	[1161] = {
-		id = 1161,
-		value_1 = "46",
-		base = 1160
 	}
 }

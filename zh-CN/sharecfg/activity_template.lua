@@ -3649,6 +3649,7 @@ pg.activity_template = {
 	},
 	[958] = {
 		mark = 20210506,
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
@@ -3693,33 +3694,6 @@ pg.activity_template = {
 				16596
 			}
 		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					5,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "JavelinComicSkinPage",
 			ui_name = "javelincomicskinpage"
@@ -3751,6 +3725,7 @@ pg.activity_template = {
 	[959] = {
 		mark = 20210506,
 		page_info = "",
+		time = "stop",
 		type = 21,
 		login_pop = 0,
 		config_id = 95140,
@@ -3768,33 +3743,6 @@ pg.activity_template = {
 			60146,
 			60147,
 			60148
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					5,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[960] = {
@@ -3929,6 +3877,7 @@ pg.activity_template = {
 	[963] = {
 		mark = 20210506,
 		page_info = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -3940,33 +3889,6 @@ pg.activity_template = {
 			1510002,
 			1510003
 		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					5,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
 		}
@@ -3974,6 +3896,7 @@ pg.activity_template = {
 	[964] = {
 		mark = 20210506,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -3988,37 +3911,11 @@ pg.activity_template = {
 			16600,
 			16601,
 			16602
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					5,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[965] = {
 		mark = 20210506,
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -4032,33 +3929,6 @@ pg.activity_template = {
 			16605,
 			16606
 		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					5,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "FranceSpRePage",
 			ui_name = "FranceSpRePage"
@@ -4067,6 +3937,7 @@ pg.activity_template = {
 	[966] = {
 		mark = 20210506,
 		page_info = "",
+		time = "stop",
 		type = 26,
 		login_pop = 0,
 		config_id = 0,
@@ -4074,33 +3945,6 @@ pg.activity_template = {
 		config_data = "activity_drop_966",
 		title_res_tag = "",
 		id = 966,
-		time = {
-			timer,
-			{
-				{
-					2021,
-					5,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					5,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 2,
 			bg = "loadingbg/bg_build_2_act",
@@ -4111,6 +3955,302 @@ pg.activity_template = {
 				"<color=#3dc6ff>稀有舰船</color>：26%",
 				"普通舰船：55%",
 				"<color=#d797ff>塔尔图</color>：1.4%(<color=#92fc63>up!</color>)"
+			}
+		}
+	},
+	[970] = {
+		mark = 20210520,
+		type = 69,
+		login_pop = 0,
+		config_id = 7,
+		is_show = 8,
+		title_res_tag = "Neptune_catchup",
+		id = 970,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					5,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					6,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NeptuneTecCatchupPage",
+			ui_name = "NeptuneTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42001
+		}
+	},
+	[971] = {
+		mark = 20210520,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 12,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 971,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					5,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					5,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[972] = {
+		mark = 20210520,
+		type = 74,
+		login_pop = 0,
+		config_id = 972,
+		is_show = 9,
+		title_res_tag = "NewMeixiV4_frame",
+		id = 972,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					5,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					6,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NewMeixiV4framePage",
+			ui_name = "NewMeixiV4framePage"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2021,
+					5,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					6,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[973] = {
+		mark = 20210520,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 973,
+		config_data = {
+			16607,
+			16608,
+			16609,
+			16610,
+			16611,
+			16612,
+			16614,
+			16615,
+			16616,
+			16617
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					5,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					6,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[974] = {
+		mark = 20210520,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		title_res_tag = "NewMeixiV4_skirmish",
+		id = 974,
+		config_data = {
+			{
+				16618,
+				16619
+			},
+			{
+				16620,
+				16621
+			},
+			{
+				16622,
+				16623
+			},
+			{
+				16624,
+				16625
+			},
+			{
+				16626,
+				16627
+			},
+			{
+				16628,
+				16629
+			},
+			{
+				16630,
+				16631
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					5,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					6,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NewMeixiV4SkirmishPage",
+			ui_name = "NewMeixiV4SkirmishPage"
+		},
+		config_client = {
+			memoryGroup = 197,
+			storys = {
+				{
+					16619,
+					1661,
+					3051
+				},
+				{
+					16623,
+					1662,
+					3052
+				},
+				{
+					16627,
+					1663,
+					3053
+				},
+				{
+					16631,
+					1664,
+					3054
+				}
 			}
 		}
 	},
@@ -5010,6 +5150,22 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[2059] = {
+		mark = 20210520,
+		page_info = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5631,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 2059,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	[100001] = {
 		mark = 20190530,
 		page_info = "",
@@ -5228,6 +5384,11 @@ pg.activity_template = {
 		964,
 		965,
 		966,
+		970,
+		971,
+		972,
+		973,
+		974,
 		2001,
 		2002,
 		2003,
@@ -5284,6 +5445,7 @@ pg.activity_template = {
 		2056,
 		2057,
 		2058,
+		2059,
 		100001,
 		100002,
 		40001,

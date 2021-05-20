@@ -224,6 +224,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「坚固的立柱撑起了崭新的帝国，一起为光荣而战吧！」</color>\n「复兴的赞美诗」活动获取",
 		scene = {}
 	},
+	[315] = {
+		name = "掣电光翼",
+		time_second = 0,
+		id = 315,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>「等待后续活动获取。」</color>",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂纪念：企业",
 		time_second = 0,
@@ -285,6 +293,7 @@ pg.item_data_frame = {
 		312,
 		313,
 		314,
+		315,
 		401,
 		402,
 		404,

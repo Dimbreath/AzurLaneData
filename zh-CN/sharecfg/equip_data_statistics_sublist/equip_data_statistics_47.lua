@@ -1,5 +1,150 @@
 pg = pg or {}
 pg.equip_data_statistics_47 = {
+	[2449] = {
+		id = 2449,
+		value_1 = "470",
+		base = 2440
+	},
+	[2450] = {
+		id = 2450,
+		value_1 = "500",
+		base = 2440
+	},
+	[2451] = {
+		id = 2451,
+		anti_siren = 100,
+		value_1 = "530",
+		base = 2440
+	},
+	[2500] = {
+		name = "灭火器",
+		tech = 1,
+		type = 10,
+		speciality = "无",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "2500",
+		value_1 = "50",
+		descrip = "防止火灾啦",
+		rarity = 1,
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 2500,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6140
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[2501] = {
+		id = 2501,
+		value_1 = "57",
+		base = 2500
+	},
+	[2502] = {
+		id = 2502,
+		value_1 = "65",
+		base = 2500
+	},
+	[2503] = {
+		id = 2503,
+		value_1 = "72",
+		base = 2500
+	},
+	[2520] = {
+		name = "灭火器",
+		tech = 2,
+		type = 10,
+		speciality = "无",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "2500",
+		value_1 = "90",
+		descrip = "防止火灾啦",
+		rarity = 2,
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 2520,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6150
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[2521] = {
+		id = 2521,
+		value_1 = "103",
+		base = 2520
+	},
+	[2522] = {
+		id = 2522,
+		value_1 = "117",
+		base = 2520
+	},
+	[2523] = {
+		id = 2523,
+		value_1 = "130",
+		base = 2520
+	},
+	[2540] = {
+		name = "灭火器",
+		tech = 3,
+		type = 10,
+		speciality = "无",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "2500",
+		value_1 = "140",
+		descrip = "防止火灾啦",
+		rarity = 3,
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 2540,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6160
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
 	[2541] = {
 		id = 2541,
 		value_1 = "161",
@@ -24,117 +169,5 @@ pg.equip_data_statistics_47 = {
 		id = 2545,
 		value_1 = "245",
 		base = 2540
-	},
-	[2546] = {
-		id = 2546,
-		value_1 = "266",
-		base = 2540
-	},
-	[2547] = {
-		id = 2547,
-		value_1 = "287",
-		base = 2540
-	},
-	[2600] = {
-		name = "九三式纯氧鱼雷",
-		tech = 1,
-		type = 10,
-		speciality = "无",
-		id = 2600,
-		value_2 = 3,
-		icon = "2600",
-		value_1 = "18",
-		attribute_2 = "reload",
-		rarity = 4,
-		descrip = "九三式纯氧鱼雷，性能优于大部分鱼雷，可装备在设备栏，提高角色的雷击属性",
-		nationality = 3,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "torpedo",
-		torpedo_ammo = 1,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			8,
-			11,
-			17,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			8,
-			11,
-			17,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"DEV"
-		}
-	},
-	[2601] = {
-		id = 2601,
-		value_1 = "20",
-		base = 2600
-	},
-	[2602] = {
-		id = 2602,
-		value_2 = 4,
-		value_1 = "23",
-		base = 2600
-	},
-	[2603] = {
-		id = 2603,
-		value_2 = 5,
-		value_1 = "26",
-		base = 2600
-	},
-	[2604] = {
-		id = 2604,
-		value_2 = 6,
-		value_1 = "28",
-		base = 2600
-	},
-	[2605] = {
-		id = 2605,
-		value_2 = 6,
-		value_1 = "31",
-		base = 2600
-	},
-	[2606] = {
-		id = 2606,
-		value_2 = 7,
-		value_1 = "34",
-		base = 2600
-	},
-	[2607] = {
-		id = 2607,
-		value_2 = 8,
-		value_1 = "36",
-		base = 2600
-	},
-	[2608] = {
-		id = 2608,
-		value_2 = 9,
-		value_1 = "39",
-		base = 2600
-	},
-	[2609] = {
-		id = 2609,
-		value_2 = 9,
-		value_1 = "42",
-		base = 2600
 	}
 }

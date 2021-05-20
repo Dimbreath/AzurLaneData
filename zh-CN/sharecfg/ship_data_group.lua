@@ -5741,6 +5741,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"军需商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -8312,6 +8322,27 @@ pg.ship_data_group = {
 				"限时活动：铁血、音符&誓言",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行重型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			},
+			{
+				"军需商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -14167,6 +14198,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"军需商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -14269,6 +14310,16 @@ pg.ship_data_group = {
 				"限时活动：铁血、音符&誓言",
 				{
 					""
+				},
+				0
+			},
+			{
+				"军需商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -14939,6 +14990,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行重型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -15212,6 +15274,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -15276,6 +15349,17 @@ pg.ship_data_group = {
 				"限时活动：铁血、音符&誓言",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -15439,6 +15523,17 @@ pg.ship_data_group = {
 				"限时活动：铁血、音符&誓言",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
