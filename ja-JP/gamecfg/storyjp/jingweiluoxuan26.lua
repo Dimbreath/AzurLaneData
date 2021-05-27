@@ -16,7 +16,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "发生什么事了……海底地震？！",
+			say = "な、なんだ！？地震？！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -53,7 +53,7 @@ return {
 			actor = 103140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不对，是空间本身发出的震动！",
+			say = "違う、あっちからの――ええと、地震じゃなくてとにかくすごい衝撃波だ！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -75,7 +75,7 @@ return {
 			actor = 102050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "雷达上，出现了一支新的舰队哦……",
+			say = "レーダーに反応あり！識別信号は…ユニオンの艦隊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			dir = 1,
 			hidePaintObj = true,
-			say = "在神秘同伴的倒计时结束后，海域中传来了一声仿佛撕裂空间的巨响，紧接着是剧烈的震动。",
+			say = "「ヘレナ」のカウントダウンが0になった瞬間、「再現」の戦場のすぐそばから巨大な衝撃波が発生した。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在震动和巨响都结束后，一个无比熟悉的声音出现在通讯器中。",
+			say = "しばらくして、海の様子が元に戻り――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哟~大家久等了！",
+			say = "ユニオンの最大最強のブラック・ドラゴン――ニュージャージー、参上よ！",
 			effects = {
 				{
 					active = true,
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "没想到来的人会是{namecode:199}啊……你不是已经调走了么？",
+			say = "仲間の登場に自分も仲間たちも心が大いに奮い立った。",
 			effects = {
 				{
 					active = false,
@@ -184,7 +184,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "人家走出去没多远就听到“指挥官失踪啦！”这种震撼人心的消息，只能折回来组织救援了吧~",
+			say = "指揮官はやっぱりこういう派手な登場が好きなんでしょ？ははは♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "并肩作战的机会说到就到，老实说还让我大吃了一惊呢。",
+			say = "まさかこちらが出港して1日も経たないうちに行方不明になるなんて…みんな心配してたわよ、全く",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真是的，没想到身经百战的指挥官也没能逃过塞壬的暗算啊~",
+			say = "まあ、こういうのは指揮官のせいではなく、指揮官を誘拐したセイレーンのせいね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "原本是前去救援的舰队，结果反过来成为了要被救援的对象，真是惭愧……",
+			say = "自分の責任ではないのだが、AF基地の救援に向かった自分が逆に救援される立場になったのは少し恥ずかしかった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哼哼~顺便增援舰队我也带过来了哦。",
+			say = "あたしだけじゃなく、増援艦隊のみんなもいるわよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:194}、{namecode:197}、{namecode:198}……还有一位是……？",
+			say = "タイコンデロガ、ボイシ、モリソン、そしてさっきまで通信でしか話せなかったもうひとりの「ヘレナ」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "啊，你就是一直在帮助我们的“神秘友军”吧，非常感谢你提供的帮助。",
+			say = "彼女たち…そして信濃がいなければ、自分と仲間たちはもしかしたらあの量産艦に一生閉じ込められたままだったかもしれない。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "不用客气。我说过，我是指挥官的友军哦。",
+			say = "……再会したばかりでごめんなさい。最後にまだもう1回戦う必要があるわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "镜面已经破碎，计划遭到破坏的塞壬应该会认定实验无法继续进行下去而露出獠牙吧。",
+			say = "この鏡面海域の制御装置を破壊しないと、鏡面海域と海霧を解除することができないわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "空间被爆破后处于高度不稳定状态，我这边的拖延也已经差不多到极限了。",
+			say = "ハッキングで防御システムを止められるのもそろそろ限界……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "拖延……？难道空间中这些停滞的景象都是你做的么？",
+			say = "ハッキング…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "没错。你知道这里呈现的是什么场景么？",
+			say = "ええ、この実験場の「駒」は基本素体の情報通り、かの大戦の「再現」を行うけど",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "曾经的AF战役现场。",
+			say = "ここまでは今までみんなが見聞きした通りだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "构成这一场景的要素呢？",
+			say = "実験場の存続が脅かされる事態が発生したら、彼女たちはセイレーンの兵器と同じく防御システムに制御が移管されるわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "白鹰棋子、重樱棋子、塞壬舰队，以及发生在它们之间的战斗……",
+			say = "今彼女が言ったように、その防御システムをそろそろ止められなくなる。つまり――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "如果因为计划变动，之后的场景不需要被继续演绎下去的话，你觉得会发生什么事呢？",
+			say = "「駒」たちの役割は「再現の配役」からただの防御兵器に戻り――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "…………会停止相互对抗的演戏，然后从四面八方一起包围过来？！",
+			say = "部外者である自分たちを排除しに向かってくる……！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "正确。",
+			say = "はい、私も一緒に戦うわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官，我作为代理指挥官的时间直到与您汇合为止，现在将舰队指挥权交还。",
+			say = "これよりニュージャージー以下4隻が指揮官の指揮下に入る！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "既然危机还没有结束，就请您带领我们赢得最后的胜利吧！",
+			say = "さあ、指揮官が指揮するあたしたちの力をセイレーンに思い知らせてやるわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			bgm = "battle-AF",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "―――！！",
 			flashN = {
 				color = {
 					1,
@@ -67,9 +67,9 @@ return {
 			side = 2,
 			bgName = "bg_luoxuan_8",
 			dir = 1,
-			actorName = "{namecode:93}·META",
+			actorName = "蒼龍·META",
 			hidePaintObj = true,
-			say = "——————！！！",
+			say = "！！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -85,13 +85,13 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:199}",
+			actorName = "ニュージャージー",
 			side = 0,
 			bgName = "bg_luoxuan_8",
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啧……被我的炮击准确命中后不可能像这样安然无事才对啊？！",
+			say = "直撃なのに無傷！？こういうのあまり好きじゃないけど！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "就算是这种方式作战，META终究还是META。",
+			say = "ここまでの火力でも装甲を貫けないなんて…！一体どうしたら……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,13 +119,13 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:199}",
+			actorName = "ニュージャージー",
 			side = 0,
 			bgName = "bg_luoxuan_8",
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "喂——！既然你有办法升级我们的雷达，有没有办法连主炮和火控也一起升级了啊！",
+			say = "そうだ！この鏡面海域ってセイレーンの強さを設定できるわよね！試しに蒼龍にも試してみて！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "不要急，正在进行调整。",
+			say = "ハッキング…？ううん、ここはやってみるしかないわ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "虽然时间有些紧张，不过我也算有一些秘密的技术储备。",
+			say = "（ヘレナも…お願い、手伝って……！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "侵入开始————————完成。",
+			say = "ミラーハッキング――よし！できた！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "指挥官，现在命令舰队向怪物再次发动攻击。",
+			say = "少しの間だけ、この鏡面海域の力を使わせてもらうわっ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "所有参数都交给我来修正，你们只需要尽情倾泻火力就好。",
+			say = "指揮官、全力攻撃の指示を！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "让我见证一下你们的实力吧。",
+			say = "私達を――勝利に導いて！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_luoxuan_8",
 			hidePaintObj = true,
 			dir = 1,
-			say = "水面、空中、水下，各舰火力全开！",
+			say = "――全艦、全機、火力全開！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "在{namecode:199}进行炮火压制的时候，对敌人发动全方位攻击！",
+			say = "持てるすべての力を…こちらの想いをぶつけよう！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

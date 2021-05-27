@@ -18,7 +18,7 @@ return {
 			nameColor = "#ffa500",
 			hidePaintObj = true,
 			bgName = "star_level_bg_1100",
-			say = "{namecode:195}、{namecode:196}、海伦娜、指挥官还有{namecode:182}，真是奇怪的组合。",
+			say = "サンフランシスコにアーチャーフィッシュ、信濃、指揮官、そして「私」まで…",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -52,7 +52,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "汝也能感受到妾身的存在么？",
+			say = "汝も妾の存在を……？",
 			effects = {
 				{
 					active = true,
@@ -77,7 +77,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "感受的很清晰哦。毕竟这次，真正的你就在不远处呢。",
+			say = "あなたが遠くまで「観測」できている分、私もあなたのことがわかるわ",
 			effects = {
 				{
 					active = true,
@@ -102,7 +102,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "汝居然对妾身的梦也有所了解么？",
+			say = "この「夢」に妾の体が存在せず…縁のある存在でしか妾を認識できないはず……",
 			effects = {
 				{
 					active = true,
@@ -128,7 +128,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "梦境的话，没有哦。不过做梦的原因，以及这里的情况我倒是知道一些。",
+			say = "「夢」のことは認識できていないわ。ただここの制御を抑えている以上、あなたの「存在」が分かるの",
 			effects = {
 				{
 					active = true,
@@ -153,7 +153,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "原来如此。",
+			say = "…………",
 			effects = {
 				{
 					active = true,
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "什么原来如此啊……！喂，{namecode:182}！你这个人接受突发状况也太快了吧？！",
+			say = "な、何がどうなっている？わけがわからないけど…",
 			effects = {
 				{
 					active = true,
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "突然插入通讯的这位，你谁啊？！",
+			say = "っていうかあんた誰？？",
 			effects = {
 				{
 					active = true,
@@ -237,7 +237,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "你觉得我是谁呢？",
+			say = "私は影、もう一つの――",
 			effects = {
 				{
 					active = true,
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哈……？没人告诉过你不要用疑问句来回答疑问句么？！",
+			say = "ストップ！はい！セイレーンと信濃だけで十分だから、これ以上リドラーみのあるやつを増やすのはNGな！",
 			effects = {
 				{
 					active = true,
@@ -296,7 +296,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "猜猜看呢。",
+			say = "……ど、どういうこと？「りどらー」…？",
 			effects = {
 				{
 					active = true,
@@ -320,7 +320,7 @@ return {
 			actor = 103140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那就——————谜语人！",
+			say = "ちゃんと喋らずにいちいち相手に意味を当てさせる面倒くさいキャラのことだよ！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -351,7 +351,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "很遗憾，猜错了。",
+			say = "……違うと思うわ…",
 			effects = {
 				{
 					active = true,
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "能凭空猜对才很奇怪吧？！",
+			say = "いいから素直に喋れってこと！",
 			effects = {
 				{
 					active = true,
@@ -410,7 +410,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "真的是这样么，那边的指挥官也许能猜出答案哦？",
+			say = "……え、ええと…指揮官…あなたが指揮官なら私が誰だか……",
 			effects = {
 				{
 					active = true,
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哎？！真的么指挥官！在这么莫名其妙的状况下你居然能猜出她的名字么？！",
+			say = "指揮官は答えなくていいから！こいつはバットで一回バコンとやっておくに限るって！",
 			effects = {
 				{
 					active = true,
@@ -455,7 +455,7 @@ return {
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			hidePaintObj = true,
-			say = "虽然不能十分肯定，不过从装束和感觉上判断，也许是——————",
+			say = "謎の少女の正体は――",
 			effects = {
 				{
 					active = true,
@@ -464,15 +464,15 @@ return {
 			},
 			options = {
 				{
-					content = "海伦娜·META",
+					content = "ヘレナ…？",
 					flag = 1
 				},
 				{
-					content = "海伦娜·BLACK",
+					content = "余燼……！？",
 					flag = 2
 				},
 				{
-					content = "海伦娜·ALTER",
+					content = "セイレーンの偽装……！！",
 					flag = 3
 				}
 			},
@@ -495,7 +495,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "嘘——这件事请暂时当成我们之间的秘密，等到合适的时机再公布。",
+			say = "ハズレよ。…どうやらまだ指揮官には明かさない方がよさそうね…",
 			effects = {
 				{
 					active = true,
@@ -521,7 +521,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "这里不是能够悠闲回答问题的场合，你也不想让事态进一步复杂化吧。",
+			say = "話を戻すわ。あなたたちはここから脱出したいんでしょ？",
 			effects = {
 				{
 					active = true,
@@ -542,7 +542,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "说的也有道理……",
+			say = "もちろん。このままここに閉じ込められた末路は考えるまでもない。",
 			effects = {
 				{
 					active = true,
@@ -566,7 +566,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "切……神神秘秘的。既然指挥官认可了的话我也没什么好说的，不过我还有最后一个问题！",
+			say = "おっ、脱出させてくれるなんて優しいやつゥ！なんて言うとでも思ったか！",
 			effects = {
 				{
 					active = true,
@@ -589,7 +589,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你是同伴还是敌人？",
+			say = "まずは敵か味方か言うのが先でしょ？",
 			effects = {
 				{
 					active = true,
@@ -615,7 +615,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "我是指挥官的友军哦。",
+			say = "私はあなたたちの仲間よ",
 			effects = {
 				{
 					active = true,
@@ -639,7 +639,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那就OK~既然是友军的话，那接下来的行动就让我看看你的能耐吧！",
+			say = "（躊躇いもなく即答した？…とりあえず様子だけ見ておくか）",
 			effects = {
 				{
 					active = true,
@@ -664,7 +664,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "海伦娜，你也没有问题吧？",
+			say = "ヘレナなら分かるでしょ？",
 			effects = {
 				{
 					active = true,
@@ -687,7 +687,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "诶、我么……？没有问题……",
+			say = "私？ええと……急にそう言われても…",
 			effects = {
 				{
 					active = true,
@@ -711,7 +711,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啊啊……说话累死人的人数又要增加了……",
+			say = "とりあえず脱出させてくれるならやってみてよ、もう",
 			effects = {
 				{
 					active = true,
@@ -734,7 +734,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "事不宜迟，你打算怎么帮我们？",
+			say = "変なことしたらパコンと1発お見舞いしてやるからね（ニコッ",
 			effects = {
 				{
 					active = true,
@@ -760,7 +760,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "侵入开始，空间锁定破解中————————完成。",
+			say = "――ミラーハッキング、空間ロック解除。",
 			effects = {
 				{
 					active = true,
@@ -786,7 +786,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "好了，你们现在可以出去看看了哦。",
+			say = "もうここから出てもいいわ",
 			effects = {
 				{
 					active = true,

@@ -13,7 +13,7 @@ return {
 			bgmDelay = 1,
 			bgm = "hunhe-level",
 			hidePaintObj = true,
-			say = "AF西南方海域 海雾中",
+			say = "「海霧」鏡面海域の中",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -40,7 +40,7 @@ return {
 			actor = 101470,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是这个方向……吧？……但是雷达上，没有信号呢…………",
+			say = "ええと、確かこの方向のはずですよ？クマちゃんも同じ方向を指しているから…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "雷达也没有被干扰的迹象，棋子不可能躲过我们的搜索才对……",
+			say = "クマちゃんのレーダーなら「駒」の居場所が分かるはず…だよね…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 101470,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "方向不对么，还是需要再接近一些……",
+			say = "うん。でも離れすぎると精度が落ちてしまいますから…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 101470,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "小熊，继续搜索频道信息……",
+			say = "ええと、クマちゃん、通信チャンネルの信号からもう一回方向を修正して…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你说，如果真的找到了一支没有敌意的棋子舰队，我们应该怎么办……？",
+			say = "あ、「駒」の艦隊を見つけても、クマちゃんに勝手に攻撃を開始させないでね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			actor = 101470,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不知道呢……这种事情从来都没有发生过。应该……先向{namecode:199}汇报，然后等她的命令吧……",
+			say = "分かりました。まずはニュージャージーさんに報告して――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			actor = 101470,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "等等……！雷达上刚刚是不是闪过一个红点？",
+			say = "い、今レーダーに反応がありました！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "居……居然真的有其他人……！",
+			say = "もう見つけたの…！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,9 +190,9 @@ return {
 			bgName = "bg_luoxuan_2",
 			dir = 1,
 			actor = 101250,
-			actorName = "哈曼？",
+			actorName = "ハムマン？",
 			hidePaintObj = true,
-			say = "…………………………",
+			say = "「………………」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哈、哈曼，你怎么会在这里？！",
+			say = "ハムマンちゃん……？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "喂，别跑啊，哈曼？！",
+			say = "違う…セイレーンの「駒」！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			actor = 101470,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……我们追！",
+			say = "ニュージャージーさんに連絡して…すぐ追います！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,27 +271,27 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>「亦或因循守旧，亦或随波逐流」</size>",
+					"<size=51>「海霧」に囚われた指揮官と仲間たちを探すため</size>",
 					1
 				},
 				{
-					"<size=51>「两条联系千丝万缕，却绝不交汇的螺旋线」</size>",
+					"<size=51>ニュージャージーたちはセイレーンの鏡面海域に突入する</size>",
 					3
 				},
 				{
-					"<size=51>「纵使如此」</size> ",
+					"<size=51>そこで彼女たちが目にしたのは「再現」の戦い</size> ",
 					5
 				},
 				{
-					"<size=51>「倘若撕裂镜面，扭曲轨迹，结果将会如何？」</size>",
+					"<size=51>ユニオンと重桜の「駒」</size>",
 					7
 				},
 				{
-					"<size=51>「现行系统无力之事，索性将其更换如何？」</size>",
+					"<size=51>そして……</size>",
 					9
 				},
 				{
-					"<size=51>「游戏规则，该升级了哦」</size>",
+					"<size=51>――照らす螺旋の鏡海――</size>",
 					12
 				}
 			}

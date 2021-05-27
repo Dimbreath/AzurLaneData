@@ -13,7 +13,7 @@ return {
 			bgmDelay = 1,
 			bgm = "hunhe-battle",
 			hidePaintObj = true,
-			say = "AF西南方海域 海雾中",
+			say = "海霧の鏡面海域　ユニオン「駒」集結地",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -40,7 +40,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哼哼哼~我的作战如何？！爽快又潇洒的解决了战斗吧！",
+			say = "ユニオンの「駒」の調査はこんなところか…特に目ぼしい発見はなかったわね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			actor = 101470,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真是……非常精彩的……战斗，就是稍微有些累……（瘫）",
+			say = "量産艦のほうにも指揮官がいるような様子はありませんね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我也有点……请允许我休息一会儿……（瘫）",
+			say = "ごめんなさい…ちょっと休ませて……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "一瞬间还以为你想出了什么计划呢…果然就是按照两点之间直线最短的方针冲过去了啊！",
+			say = "こっちもちょっと休憩…まさか、あの数の量産艦を一気に調べるなんて",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不然呢~？既然知道目标的确切位置和海域中所有敌人的位置分布，也就不需要再做多余的警戒与侦察吧。",
+			say = "ついでに上手く「駒」も全部倒せたって褒めてくれてもいいわよ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "作为白鹰最大最强的Black Dragon，面对这种程度的对手还要畏畏缩缩未免太没有气势了~",
+			say = "ユニオン最大最強のブラック・ドラゴンであるニュージャージーはさすがのスタミナだね！とか♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "说的也是啦……结果上来说，不论是棋子舰队还是塞壬舰队都被轻而易举地解决了呢。",
+			say = "ははは…次はあまり先に突っ走らないでお願いね？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "结果好一切就好嘛~",
+			say = "分かっているわ。さて、あたしも少し休憩しよっと",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "接下来还会有塞壬的大规模进攻，大家不要掉以轻心哦！",
+			say = "（次は重桜側の「駒」も調べなきゃならないから、体力を温存しないとっ）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

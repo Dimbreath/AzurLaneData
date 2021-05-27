@@ -7,14 +7,15 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
+			actorName = "？？",
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？",
 			dir = 1,
 			bgm = "battle-AF",
 			actor = 900314,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
+			say = "……………",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -40,7 +41,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "终于现身了啊，隐藏在幕后的敌人，制造了这一系列袭击的元凶！",
+			say = "重桜の…蒼龍？いや、雰囲気が違う…あれが「META」だというの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +59,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那个样子看起来好像——",
+			say = "禍々しい雰囲気…遠くから見ただけでも威圧感を感じるわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +78,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "{namecode:93}，或者说{namecode:93}·META。",
+			say = "蒼龍さんはここの鏡面海域の制御装置を手に入れたわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +96,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啧……全身充斥着愤怒与疯狂的感觉，感觉她的眼神里我没有看到任何一丝知性的光辉。",
+			say = "（「ヘレナ」の言う通り、この様子だと「余燼」と違って会話できそうにないね…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +113,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "余烬里也有这样的成员么？",
+			say = "（「余燼」は聞いてる限り似たような雰囲気みたいだけど、艦船と普通に会話していたようね）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +132,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "所以说……是META！并非余烬。",
+			say = "……蒼龍さん………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +150,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "好……！M E T A！",
+			say = "大丈夫よ。あたしがいるし、指揮官もいるから、彼女をあんたと同じ言葉を喋れる状態に――",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -173,7 +174,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "这是在META之中，因过度META化而诞生的怪物。",
+			say = "………多分…もう……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +192,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "额……我不是很明白。",
+			say = "……どうしたの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +207,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "是指经过META化之后，诞生的一种可能结果么……?",
+			say = "「ヘレナ」の表情が翳る。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +225,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "也可以这么理解。",
+			say = "あの「フネ」は指揮官が知っている蒼龍さんではないわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +244,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "虽然看起来是{namecode:93}的样子，但是这个怪物与你所知悉的余烬{namecode:94}是完全不同的存在，彼此之间也没有任何关系。",
+			say = "「META化」の過程は一方通行、あのようになったら「余燼」も彼女のことにはもう……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +263,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "余烬，尤其不会和这样的怪物共存……还是不要把她们联想到一起比较好哦。",
+			say = "だから安心して…戦って",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +278,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "…………为什么会诞生这样的存在呢？",
+			say = "まるで道を誤った自分の仲間――のような感情を持っている「ヘレナ」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +297,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "「微光计划」是一切的起因，而将其发扬光大的……应该是「审判者计划」吧。",
+			say = "（小声）アンジュさん、オースター博士…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +312,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "微光计划和……审判者计划？",
+			say = "この名前、北方連合でもどこかで……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +331,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "看来你真的什么都不知道啊……这种熟悉的陌生感，真是奇妙的感觉。",
+			say = "「ソウゾウシュ」と「シンパンシャ」のことよ。指揮官は知っているの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +350,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "我好像知道企业犹豫不决的理由了。",
+			say = "……エンタープライズが指揮官のことを気にかけている気持ちが分かったわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +365,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不好意思，我们其实在哪里见过么？",
+			say = "………？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +384,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "谁知道呢，也许在梦里吧~",
+			say = "ごめんなさい。これ以上この話をするつもりはないわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,11 +395,11 @@ return {
 			},
 			options = {
 				{
-					content = "…………",
+					content = "戦いに集中しよう",
 					flag = 1
 				},
 				{
-					content = "不要学习{namecode:182}的话术啊—！",
+					content = "…………",
 					flag = 2
 				}
 			}
@@ -411,7 +412,7 @@ return {
 			actor = 900314,
 			actorName = "{namecode:93}·META",
 			hidePaintObj = true,
-			say = "——————！！！",
+			say = "――――！！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -435,7 +436,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "不好……现在不是闲聊的时候。",
+			say = "……来る！みんな、気をつけて！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +454,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呜哇！吓，吓死我了……这个人突然间是怎么回事啊！",
+			say = "セイレーンの上位個体並…いや、もっと強い！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +482,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "喂！有事说话，你突然叫那么大声干嘛啦！",
+			say = "アルバコアだったら一回離れて頭脳戦にするんだけど――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +501,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "放弃吧，怪物是无法交流的。",
+			say = "アーチャーフィッシュ、今そちらに来ているわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +519,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真、真的直接打过来了——？！",
+			say = "あたしは動き回る方が好きよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +548,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "{namecode:199}。",
+			say = "魚雷攻撃で動きを止めた…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +566,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "简直像猛兽一样嘛~不过，她要面对的可是比猛兽还要凶猛的Engle Union Black Dragon！",
+			say = "ファインプレーよアーチャーフィッシュ！次はこのあたしの出番！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +584,7 @@ return {
 			blackBg = true,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "火控系统瞄准目标，让这个敢于袭击指挥官的怪物见识一下白鹰最大最强战列舰的厉害吧！",
+			say = "最大最強のブラック・ドラゴン、その力を思い知らせてやるわ！全砲門、ファイア！！",
 			effects = {
 				{
 					active = true,

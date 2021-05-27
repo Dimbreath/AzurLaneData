@@ -16,7 +16,7 @@ return {
 			actor = 103140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "海域清理完毕，重樱棋子、白鹰棋子与塞壬舰队全部消灭完毕~",
+			say = "セイレーンの「駒」たちを全部倒した！ははは、楽勝楽勝！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			actor = 103140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "突然一下子全围上来的时候确实声势浩大，结果还真是不堪一击！",
+			say = "一斉に攻撃してきた時にはどうしようかと思ったけど、大したことなかったわね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "塞壬棋子的战斗力……恢复到正常水平了。",
+			say = "セイレーンの「駒」の強さが元に戻っている…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "恢复到正常水平是什么意思……？",
+			say = "「元に戻っている」って…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是这样的，指挥官。在赶来这里的途中，我们遇到了一批作战性能和战术应变力远超常规棋子的重樱棋子。",
+			say = "ここまで来る途中にもセイレーンの「駒」と交戦したけど、あの「駒」たちは「再現」の進捗に応じて性能や練度がどんどん強くなっていた",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我和{namecode:200}怀疑塞壬可能在做什么特殊实验，不过在刚刚的战斗中那些奇怪的现象消失了。",
+			say = "今戦ったセイレーンは…そうね、肌感覚だけど海霧に入った最初の頃の強さかな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "暂时爆发出奇怪战斗力的棋子舰队么……等回去之后仔细调查一下吧。",
+			say = "……これは懸念事項として覚えておいたほうが良さそうだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "指挥官，你已经将这里全部观察过了。发现什么异常之处了么？",
+			say = "まだ気を抜いてはダメよ、こちらの狙いは鏡面海域の制御装置の破壊だから、どんどん抵抗も強くなっていくわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "所见的场景基本和了解到的情报相同。受损的重樱航空舰队因为塞壬的突然袭击而获得了喘息和撤退的机会。",
+			say = "「ヘレナ」と一緒に海霧の中で進んでいく。彼女の言う通り「駒」や量産艦からの攻勢が厳しさを増している。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过……处于撤退阶段的重樱舰队的舰载机数量似乎比预想中多了不少。",
+			say = "制御装置を守るセイレーンは果たして……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "不是错觉哦，天空中的舰载机确实多了。",
+			say = "敵の艦載機が増えているわね。そろそろかしら",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "有一些彼时并非重樱航空队的舰载机混入了重樱最后的攻击波中。",
+			say = "……この鏡面海域の制御装置を守っている「フネ」の居場所",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "谁的……？！",
+			say = "…「フネ」？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "怪物的。",
+			say = "そう。私と違って、自分を見失った存在",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "虽然只是些棋子而已，但那个怪物应该已经没有辨别能力了。",
+			say = "一度助けられたけど、リュウコツを作り出した黒き力に圧倒された艦船",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "指挥官，既然您刚刚亲自指挥舰队摧毁了“{namecode:94}”，就请再次准备迎接怪物的愤怒吧。",
+			say = "…………指揮官はこの世界でも似たような…ううん、まだ救えられる子を救ったわね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "就像曾经的AF战场中那样。",
+			say = "あの子と同じように、彼女のことも救ってあげてほしい",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "…………像曾经的AF战场中那样？！",
+			say = "「彼女」とは一体……？",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,
@@ -352,7 +352,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "敌人正在接近中，诸舰做好应急准备。",
+			say = "………敵の艦載機が攻撃してくるわ。気をつけて",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "迎击……？周围已经没有任何敌人了，究竟要————",
+			say = "レーダーに機影は特にないわ。……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			blackBg = true,
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "―――！！！",
 			flashN = {
 				color = {
 					1,

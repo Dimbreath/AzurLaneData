@@ -13,7 +13,7 @@ return {
 			bgmDelay = 1,
 			bgm = "battle-xinnong-image",
 			hidePaintObj = true,
-			say = "？？？·？？？",
+			say = "？？·？？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -46,7 +46,7 @@ return {
 			actor = 302130,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "现在汇报前线消息，{namecode:94}的反击成功，白鹰的约克城已在陷入大破状态后退出了战斗。",
+			say = "「敵艦隊ガ損傷ヲ受ケ戦闘カラ離脱シマシタ」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "这样啊。{namecode:94}的情况呢？",
+			say = "……これは…神通の声…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			actor = 302130,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "不容乐观，但依然能维持航行动力。突然出现的塞壬舰队阻止了白鹰的进一步追击，我们正在趁机展开营救。",
+			say = "「飛龍モ損傷ヲ受ケ航行能力ヲ喪失。急ギ救援行動ヲ」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "塞壬舰队仅是阻止了白鹰舰队的行动而已么？",
+			say = "嗚呼、これで「再現」が終わると思ふ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 302130,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "不……毕竟是塞壬，它们并没有特别区分打击目标。只是塞壬的前锋舰队恰好距离白鹰近一些，为我们赢得了一些时间。",
+			say = "「作戦目標デアル、AF基地ノ攻略、敵空母機動艦隊ノ撃破ニ失敗シマシタ」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 302130,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "现在更多的塞壬舰队已经向我们包围过来了，申请执行撤退计划。",
+			say = "「――テスト『AF作戦』、通信ログ再生終了」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "撤退行动批准。请不要落下任何一个人，回来吧。",
+			say = "…素体より作られし仮初のリュウコツたち…どうか安らかにお眠りを…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			actor = 302130,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "是，{namecode:39}通讯结束。",
+			say = "「データノアップロードヲ行ッタ後、次ノ『再現』ノ準備ニトリカカル――」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			actor = 900317,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………不是说都是些固定好的内容么，你还这么一本正经的回复干嘛啊……",
+			say = "ようやく終わった…これで「駒」たちが処分？でもされちゃうのか…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "纵使是固定记录中的内容，却未必是妾身已然知晓的情报。",
+			say = "妾も知り得ぬこと…妾が掴み取れるは情報のカケラにすぎず…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "结局虽以注定，但只需细处留心，仔细倾听，依然可以有所收获。",
+			say = "カケラを集めて、異なる未来を――破滅から逃れられる未来を見出すのが妾の意思…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			actor = 900317,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………额，那你有发现什么值得注意的情报么？",
+			say = "で、なにか気になる情報でもあったの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "汝等不是一向怀疑重樱与塞壬有所勾连么。",
+			say = "それは……汝らにも…指揮官にも今は教えられぬ…お詫び申す…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "仅凭此等破碎片段，虽不能作为令人信服的证据，但不妨作为值得思考的可能性吧？",
+			say = "カケラから導き出した光景は申せても、道を誤らせ、異なる「枝」を生み出すに過ぎぬ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "重樱和塞壬的关系比想象中要更为复杂的意思么……",
+			say = "信濃なりの考えがあるようだが、今深く詮索しても仕方がない。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "言归正传。前线舰队即将撤退，这艘指挥舰也会不例外——汝等不赶快逃离么？",
+			say = "……して、残りは、汝らを如何にここから脱せしむか…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "什么叫逃离啊，说法真不好听…………！脱身呀，脱身！",
+			say = "そこが一番重要じゃないの～こちらで何もできないんじゃどうしようもないけど",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真是的，就是因为做不到这件事所以我们刚才才那么困扰啊！",
+			say = "そういう話題を信濃から持ち出したってことは、さては脱出方法でも分かったのかな？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "却有古怪……妾身可断言，此处梦境绝非仅有此般大小。",
+			say = "汝らをここに「飛ばし」、そして「閉じ込める」秘術…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "既困汝等与此……或许，有何不可示人之物正隐藏在船外的空间中…………",
+			say = "その道理…その仕掛けまでは分からぬが…知っている者なら、この近くにいると…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "没错，这里可真的隐藏了些相当不得了的东西哦。",
+			say = "……流石端末の力の一端を備えているだけあって、察しがいいわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

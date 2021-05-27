@@ -15,7 +15,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………{namecode:200}，我们在那之后行驶多久了？",
+			say = "タイコ、そろそろ重桜の「駒」の集結地に着くわね",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -51,7 +51,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "三个小时。",
+			say = "はい、さっき通信機から割り出した位置を計算するともうそろそろ到着するわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "整整三个小时过去了啊！记录中塞壬的大规模进攻早就应该开始了吧？",
+			say = "妙ね…今までは哨戒するセイレーン艦隊と遭遇してたから、そろそろ遭遇してもおかしくないのに",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "确实很奇怪呢……生产源源不断的杂鱼是塞壬的拿手好戏，理论上我们应该早就处敌人的包围之中了。",
+			say = "はい、「駒」ならともかく、量産艦もほとんど見当たらないなんて",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "可是却什么都没发生……没有敌人，没有找到指挥官，海雾也没有消散的迹象。",
+			say = "「再現」が終わっていたら、鏡面海域が解除されなくてもセイレーンの再編成が行われるはずなのに、その様子も全然ないの",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "简直就像……",
+			say = "まるで私たちを……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "简直就像在对局中被唐突摁下了暂停键一样对吧！",
+			say = "あたしたちを誘い込もうとしている、ということかしら？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,24 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我也有同感。怎么说呢……既没有作战已经结束的感觉，也没有作战仍在进行的感觉……",
+			say = "（指揮官がもしほかの場所にでも移動させられていたら溜まったもんじゃないわ！）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_luoxuan_2",
+			dir = 1,
+			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
+			say = "この鏡面海域の様子はおかしい――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +204,7 @@ return {
 			actor = 900315,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "因为，“棋盘”确实被暂停了哦。",
+			say = "それはそうよ。ほとんどの機能が停止されているから",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +224,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哎……？你是——",
+			say = "あなたは……！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +240,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "―――！！",
 			flashN = {
 				color = {
 					1,
@@ -281,7 +298,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啧……躲开了么。{namecode:197}和{namecode:198}！从两侧夹击拖住它！",
+			say = "今のは警告代わりよ。変な真似をしたら今度は直撃させる",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +316,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:200}，你立刻拉开距离！这家伙很危险！",
+			say = "「駒」でもなければ艦船でもない、セイレーンの人型個体と見たわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +335,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "反射神经很出色。不过盲目的发动攻击可是会击中友军的哦？",
+			say = "くっ…！いきなり砲撃してくるなんて…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +352,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "利用塞壬设下的迷雾悄无声息贴近到身边的人怎么可能是友军？",
+			say = "質問に答えてもらおうじゃない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +371,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "你不喜欢出现在生活中的意外之喜么？",
+			say = "ニュージャージー…どうしてあなたがここに？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +388,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:199}……雷达上……什么都看不见……",
+			say = "この「ヘレナ」ちゃんと似ている子…レーダーに何も映らないわっ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +405,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呵……并非塞壬，雷达上又无法捕捉其信号的存在——你是余烬吧。",
+			say = "…！こいつはまさか、噂の余燼…！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +423,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我可不记得什么时候我们和余烬成为友军了！",
+			say = "じゃあ味方じゃないわね！ボイシ、目視で照準サポートを頼むわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +442,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "我也不记得有这件事呢。不过，我是指挥官的友军哦。",
+			say = "待ってください！私は…指揮官の味方よ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +460,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "什么……你知道指挥官的事么？！指挥官现在怎么样？！如果你敢对指挥官下手的话——————",
+			say = "指揮官って…指揮官をどこにやったの！早く教えなさい！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +489,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "停。",
+			say = "落ち着いて。ここに来たのはあなたたちを指揮官のところに案内するためよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +508,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "指挥官现在很好，指挥官失踪的事与我无关，我会帮助你们与指挥官汇合。",
+			say = "あなたたちを攻撃するつもりだったらこうして姿を見せないわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +527,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "这种程度的说明你觉得可以么？",
+			say = "……私を、信じて",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +545,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……{namecode:200}，你怎么看？",
+			say = "……まぁいいわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +563,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "无法全信，不过也没必要完全不信……如果她抱有敌意的话，早就选择用炮火代替沟通了吧。",
+			say = "確かにね、あえて姿を見せる必要はないもの",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +581,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "而且指挥官似乎……似乎一直是倾向于使用对话而不是武力与余烬沟通的一派。",
+			say = "彼女が「余燼」だったとしても…「余燼」とはまだ話し合いの道があるって指揮官は信じているわ。ここは指揮官に免じて―――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +599,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唔……有道理啊。虽然我还是没办法相信你，不过我相信指挥官的处理方针。",
+			say = "あんたを信じるのではなく、指揮官を信じるわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +616,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你真的帮我们营救指挥官么？",
+			say = "で、これからどうやって指揮官のところに案内してくれるの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +635,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "会。",
+			say = "…ありがとう。でも案内する前に追手を倒しておかなくちゃ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +653,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那我们就在这件事上达成立场统一了。",
+			say = "追手？あたしたちの後ろにセイレーンが追っているってこと？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +670,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "时间拖得越久指挥官的处境就会越危险，但我们完全找不到指挥官的位置……你有什么办法么？",
+			say = "指揮官の安全の保証がされていない以上、あんたのパシリは勘弁よ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +689,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "你们察觉到了此处塞壬布置在“棋盘”上的意图。",
+			say = "いいえ、あなたたちに後ろを相手してもらうつもりはないわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +708,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "不过，这些只是表象而已哦。",
+			say = "正確には「追手」というか、私達が会話している間にもう「包囲」してきたわね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +727,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "双眼获取的信息有限，因而诞生出了拓展双眼的雷达。",
+			say = "……レーダーでは全く見えないけど、完全に包囲されているわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -729,7 +746,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "但正如双眼能被浓雾所蔽一样，也不要太相信雷达比较好哦。",
+			say = "派手にハッキングをしかけたから、ここの自動防御システムに見つかるのも時間の問題ね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +765,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "比如，你们在雷达上就看不到我吧？",
+			say = "私の反応をレーダーで観測できなかったでしょ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +783,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……看不到的原因不是因为你故意躲开了我们的雷达追踪么？！",
+			say = "どういう意味？まさか……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -795,7 +812,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "我能做到的事，塞壬没理由做不到。",
+			say = "私ができることは、セイレーンもできる――という意味よ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -814,7 +831,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "它们之所以能被你们追踪到，只是因为它们想这么做罢了。",
+			say = "その気になれば…警戒レベルを上げれば、あなたたちの電探装置なんてセイレーンの前では前世紀のものにすぎないわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -833,7 +850,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "侵入开始，修改参数设定修改中————————",
+			say = "――ミラーハッキング、ステルスシステム作動停止…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -853,7 +870,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "现在请看雷达。",
+			say = "レーダーの方をよく見てごらん",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -886,7 +903,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "空无一物的海域内出现了大量敌方信号？！",
+			say = "…セイレーン反応が…さっきまで何もなかった場所にこんなに？",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -909,7 +926,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "究竟是怎么回事……你在一瞬间制造出大量伪装信号欺骗了我们的雷达么？！",
+			say = "あんたの言う通り待ち伏せされているってことね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -928,7 +945,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "是让它们暂时变得更灵敏而已哦。",
+			say = "いいえ、これにはジャミングシステムで作り出したニセの反応もあるわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -946,7 +963,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "等等……类似的幽灵信号埃塞克斯也在之前的作战中遇到过……难道当时——",
+			say = "つまりレーダーで表示されている数通りじゃないってことかしら",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -964,7 +981,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "嘘——接下来的过程必须非常精密才行。",
+			say = "そうよ、私のほうでセイレーンのシステム解除に専念するから、あなたたちは襲ってくる敵の対処をお願い",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -983,7 +1000,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "三、二、一——————",
+			say = "このままセイレーンに道を塞がれたら指揮官のところには辿り着けそうにないわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1004,7 +1021,7 @@ return {
 			nameColor = "#ffa500",
 			hidePaintObj = true,
 			actorName = "？？？",
-			say = "Boom",
+			say = "3、2、1……来るわ…！",
 			flashN = {
 				color = {
 					1,

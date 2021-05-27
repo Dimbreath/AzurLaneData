@@ -16,7 +16,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "大家小心！铺天盖地的舰载机攻过来了！这次的规模和威力可不是开玩笑的！",
+			say = "この艦載機の数…鏡面海域の「駒」空母が全部ここに集まっているの！？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -47,7 +47,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "究竟是从什么地方冒出来的……我这就开始索敌！",
+			say = "相変わらず敵艦の反応がないわ！これはさっきと同じくセイレーンのステルス能力…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "不需要，我有更简单的方法。",
+			say = "違うわ。私に任せて！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "侵入开始，模块性能调整中————————完成。",
+			say = "ハッキング、クローキングモジュール！これで…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "怎么样，看到了么？",
+			say = "これで「彼女」のことが見えるはずよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "噢噢，看到了！现在屏幕上出现了一个超清晰的强敌信号！你又帮我们升级了次雷达么！",
+			say = "サンキュー！はっきりと見えてるわ！…って、一隻だけ！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "只是暂时性的而已哦。",
+			say = "はい、それだけキューブの…「META」のポテンシャルが強いわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在刚才的攻击中有一丝熟悉的感觉……",
+			say = "戦場の様子を中止しながら、頭の中で「META」という単語の意味を反芻する。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "类重樱的舰载机、夸张的袭击规模、无法被捕捉的行踪……",
+			say = "聞き慣れない言葉だが、どうやら「キューブ」と関係している。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,26 +195,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……本次在幕后行动的果真是余烬的{namecode:94}么？可是为什么……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_luoxuan_5",
-			nameColor = "#ffa500",
-			dir = 1,
-			actor = 900315,
-			actorName = "？？？",
-			hidePaintObj = true,
-			say = "META。",
+			say = "そしてこの「META」が「ヘレナ」が言った力の源であり……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,22 +214,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "并非余烬，更并非{namecode:94}，发动袭击的只是单纯的META。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
-			dir = 1,
-			say = "META和余烬……并不是一个概念么？",
+			say = "私達の作り出したキューブの性質が成すもの、それが「META」よ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +233,41 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "余烬是组织，META是本质。",
+			say = "つまり私達のキューブに封印されている禁断の力にして、呪い――",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_luoxuan_5",
+			hidePaintObj = true,
+			dir = 1,
+			say = "……謎の艦船たち「余燼」が持っている強大な力も「META」の成せる技だというのか。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_luoxuan_5",
+			nameColor = "#ffa500",
+			dir = 1,
+			actor = 900315,
+			actorName = "？？？",
+			hidePaintObj = true,
+			say = "私達は「META」であり、そして一部の……フネが「余燼」に参加している",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……这么说来，你也可以被归类为META？",
+			say = "つまりあなたが「余燼」ではないのは、そういう意味…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "是。",
+			say = "………ええ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………这就有趣了。",
+			say = "（ボルチモアとエンタープライズたちが遭遇した「余燼」もレーダーに補足されない力を持っていた）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "META能够轻松的躲避我们的追踪，却能轻易被你的雷达发现。",
+			say = "（指揮官の話だと重桜の祭儀の島を襲った「余燼」も姿を見せるまで誰も気づかなかった。それこそが彼女たちの共通の力なの？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不仅如此，你甚至能通过某种方式使得与你同队的我们也暂时获得了对META的追踪能力。",
+			say = "（だから「ヘレナ」はその「META」の偽装を破れる技術を持っているわけね）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "简直就像对META作战的熟练专家一样啊~明明你也是META？",
+			say = "…もしかして、同じ「META」の仲間を探している…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "……………………",
+			say = "…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "……这个问题现在不重要吧？",
+			say = "それは今あなたが知るべきではないことよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那要取决于你对重要的定义了~",
+			say = "いいわよ。別に無理してまで聞きたいわけじゃないし、あなたが本気で逃げようとしたらあたしたちじゃ捕まえられないし",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不过至少META并不是铁板一块，而你是站在我们这边的，我这么理解可以么？",
+			say = "一つだけ、あんたの言ってた「指揮官の味方」ってのはこの場限りなのかしら？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "META是本质，并非组织。我是指挥官的友军……这一点我可以向你们保证。",
+			say = "…違うわ。私は指揮官の味方……ええ、ずっと",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那进入最后一个问题————为什么我们已经能够追踪META的雷达上还是看不到你啊？！",
+			say = "なら一緒に来ればいいじゃない。何かが起きたら指揮官がなんとかしてくれるよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "不要问蠢话。",
+			say = "……そんなの…できない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嘿嘿嘿，知道你想保持神秘感啦！",
+			say = "無理強いはしないわ。あんたがそう決めているのなら",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "强敌正在高速逼近。既然你是站在我们这边的，你也会同我们一起迎击的吧？",
+			say = "で、例の「彼女」を倒せば、この鏡面海域を解除できるってのは本当なのよね？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "当然，这正是我此行的目的。",
+			say = "はい、保証するわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你们的强大我早有耳闻……此次能与你并肩战斗是我的荣幸！",
+			say = "じゃあ支援を頼むよ！どれだけ強いのか見せてもらおうじゃない！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "不……能再次与你并肩战斗是我的荣幸，{namecode:199}。",
+			say = "……はい！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

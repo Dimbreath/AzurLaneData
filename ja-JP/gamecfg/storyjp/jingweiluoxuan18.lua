@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "――！",
 			flashN = {
 				color = {
 					1,
@@ -70,7 +70,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这批棋子果然和以往遇到的那些都不一样。不但作战性能大幅增强，战术决策上也有着天壤之别……",
+			say = "どんどん強くなっていく…！このままセイレーンを放っておくわけにはいかないわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是因为采用了完全不同的指挥模块么……要是真的大规模普及的话后果可就……！",
+			say = "指揮官を救出したら、この鏡面海域の発生源も叩くべきよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不用担心不用担心~既然还是些实验阶段的东西，那只要我们彻底摧毁这片塞壬实验场就可以了吧？",
+			say = "当然よ！AF基地の脅威もこれで解除できれば一石二鳥だわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "果然如果要从获胜方式里选一个的话，肯定歼灭战来得痛快嘛~！",
+			say = "さて、まずはここの「駒」たちを全部倒して……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,13 +144,13 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "通信機",
 			side = 2,
 			bgName = "bg_luoxuan_2",
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "滋———滋滋——————",
+			say = "―――――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 107060,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "重樱航空舰队已经失去战斗能力，战斗预计很快就会彻底结束！",
+			say = "「敵空母艦隊ノ破壊状況ヲ確認。勝利ハコチラニ傾イテイル」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			actor = 107060,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "只是…………约克城姐被{namecode:94}的舰载机队命中，受伤。",
+			say = "「ヨークタウンニ敵機ノ攻撃ガ命中。損傷ハカナリ大キイ」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			actor = 107050,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "只是小伤而已，你们都反应过度了…………",
+			say = "「大シタ損傷デハナイワ。状況ノ分析ハ冷静ニ」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			actor = 107050,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "咳……",
+			say = "「…………」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			actor = 107070,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "这可不是什么小伤啊！约克城姐，你振作点，姐姐——！",
+			say = "「損傷度合イハ無視デキナイ…修理ガ要ル…」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 107060,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "哈曼……！",
+			say = "「ハムマン……！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			actor = 101250,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "呜呜呜……哈曼明白！我绝对会平安送约克城回家的！",
+			say = "「了解！ヨークタウンノ護衛ヲ開始…！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,13 +303,13 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "通信機",
 			side = 2,
 			bgName = "bg_luoxuan_2",
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "滋———滋滋——————",
+			say = "―――――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………刚刚……频道里的声音，你们听到了吗……？",
+			say = "ニュージャージーさん、今の声聞こえた…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			actor = 101470,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "约克城她……遭到了袭击，情况危急……需要赶快救援才行……！",
+			say = "ヨークタウンさんのこと言っていますね…ど、どうしよう…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "等等！你们刚才在迷雾中看到的“哈曼”怎么样了？",
+			say = "焦らないで。さっき見た「ハムマン」はこの先の霧の中に消えていったわね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哈曼么……？只是一瞬间出现了一下，然后就消失在迷雾中了……没能追上她。",
+			say = "はい…追跡しようとしたけど、この霧の先に入った途端レーダー信号が消えちゃって…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那个擦肩而过的哈曼，跟你们说什么了么？",
+			say = "「ハムマン」の行動になにか異常はない？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			actor = 101470,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没有……",
+			say = "いいえ、わたしたちの前を通っただけです…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "无言从海雾中来，然后无言消失在海雾之中，简直就像塞壬特意放出来的诱饵棋子一样。",
+			say = "じゃあ今の行動は「再現」と見たほうが良さそうね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "刚才也说过了吧，约克城在那次受伤之后一直在后方静养，绝对不可能出现在这里。",
+			say = "（当たり前ね。ハムマンはもちろん、あたしだって一人でこんな鏡面海域の中で散歩したいわけじゃないの）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那些通讯不过是塞壬干扰我们的把戏，大家不要动摇！",
+			say = "（でも同じ顔の敵…こういう時はあたしじゃなくて指揮官がみんなを激励してほしいわね）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			actor = 101470,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "对不起……明明已经知道是棋子舰队了，可是真的听到约克城受伤的通讯时还是忍不住…………",
+			say = "あ、あの…追いますか？まだそう遠く離れていないはずですけど…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我能理解，这次塞壬的棋子战术确实与以往不同。",
+			say = "追おう。相手はおそらくコチラに眼中にないか、今まで戦ってきた「駒」とは別系統なのかのどちらかと思う",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "为同伴担心是优秀的品德，错的不是你们，而是利用这种善良的情感布下陷阱的塞壬！",
+			say = "この好機を逃すわけにはいかないわ！タイコもそれでいい？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "白鹰棋子舰队看起来也是完全按照曾经的记录开展行动的啊……",
+			say = "はい、向こうの「再現」に私達が含まれていなければ、ある程度自由に行動できるはず",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "如果是这样的话……{namecode:198}，我觉得没有必要让{namecode:197}她们继续搜寻了，反正敌人的位置和规模我们都有数，对吧？",
+			say = "このままはぐれセイレーンや「駒」を倒し、「ハムマン」を追いましょう！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯，如果是那样的话……{namecode:197}，{namecode:198}立刻返航，我有新的作战计划了！",
+			say = "じゃあ決定ね！ボイシ、モリソン、引き続き偵察を頼むわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
