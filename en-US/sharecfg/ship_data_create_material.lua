@@ -220,7 +220,7 @@ pg.ship_data_create_material = {
 			"<color=#ffde38>San Francisco</color>：2.0%(<color=#92fc63>up!</color>)",
 			"<color=#ffde38>Archerfish</color>：2.0%(<color=#92fc63>up!</color>)",
 			"<color=#ffde38>Ticonderoga</color>：0.5%",
-			"<color=#d797ff>Biloxi</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>Boise</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	all = {
