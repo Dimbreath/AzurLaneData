@@ -10472,7 +10472,7 @@ pg.ship_skin_words = {
 			},
 			{
 				{
-					10201
+					11201
 				},
 				1,
 				"一点点小伤而已，真的没关系的啦！",
@@ -31400,7 +31400,7 @@ pg.ship_skin_words = {
 		couple_encourage = {}
 	},
 	[308013] = {
-		touch = "人家最近学习了按摩?的技巧哦，指挥官要试试吗~？",
+		touch = "人家最近学习了按摩的技巧哦，指挥官要试试吗~？",
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
