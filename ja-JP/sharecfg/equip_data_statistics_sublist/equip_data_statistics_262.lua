@@ -1,93 +1,77 @@
 pg = pg or {}
 pg.equip_data_statistics_262 = {
-	[36643] = {
-		id = 36643,
-		damage = "67/回",
-		base = 36640,
+	[36585] = {
+		id = 36585,
+		damage = "64/回",
+		base = 36580,
 		weapon_id = {
-			36643
+			36585
 		}
 	},
-	[36644] = {
-		id = 36644,
-		damage = "74/回",
-		base = 36640,
+	[36586] = {
+		id = 36586,
+		damage = "68/回",
+		base = 36580,
 		weapon_id = {
-			36644
+			36586
 		}
 	},
-	[36645] = {
-		id = 36645,
-		damage = "81/回",
-		base = 36640,
+	[36587] = {
+		id = 36587,
+		damage = "72/回",
+		base = 36580,
 		weapon_id = {
-			36645
+			36587
 		}
 	},
-	[36646] = {
-		id = 36646,
-		damage = "88/回",
-		base = 36640,
+	[36588] = {
+		id = 36588,
+		damage = "76/回",
+		base = 36580,
 		weapon_id = {
-			36646
+			36588
 		}
 	},
-	[36647] = {
-		id = 36647,
-		damage = "95/回",
-		base = 36640,
+	[36589] = {
+		id = 36589,
+		damage = "80/回",
+		base = 36580,
 		weapon_id = {
-			36647
+			36589
 		}
 	},
-	[36648] = {
-		id = 36648,
-		damage = "102/回",
-		base = 36640,
+	[36590] = {
+		id = 36590,
+		damage = "84/回",
+		base = 36580,
 		weapon_id = {
-			36648
+			36590
 		}
 	},
-	[36649] = {
-		id = 36649,
-		damage = "109/回",
-		base = 36640,
-		weapon_id = {
-			36649
-		}
-	},
-	[36650] = {
-		id = 36650,
-		damage = "116/回",
-		base = 36640,
-		weapon_id = {
-			36650
-		}
-	},
-	[36651] = {
+	[36591] = {
 		anti_siren = 100,
-		damage = "116/回",
-		base = 36640,
-		id = 36651,
+		damage = "84/回",
+		base = 36580,
+		id = 36591,
 		weapon_id = {
-			36651
+			36591
 		}
 	},
-	[36660] = {
-		name = "127mm連装高角砲改",
+	[36600] = {
+		name = "127mm連装高角砲",
 		speciality = "対空",
 		type = 6,
-		tech = 0,
+		tech = 1,
 		descrip = "0",
-		value_2 = 45,
-		icon = "36660",
+		value_2 = 5,
+		icon = "36600",
 		attribute_2 = "antiaircraft",
-		rarity = 5,
-		damage = "54/回",
+		rarity = 2,
+		damage = "32/回",
 		nationality = 3,
 		ammo = 5,
 		value_3 = 0,
-		id = 36660,
+		id = 36600,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -99,7 +83,7 @@ pg.equip_data_statistics_262 = {
 			10
 		},
 		weapon_id = {
-			36660
+			36600
 		},
 		skill_id = {},
 		part_main = {
@@ -135,52 +119,122 @@ pg.equip_data_statistics_262 = {
 			"AA"
 		}
 	},
-	[36661] = {
-		id = 36661,
-		damage = "61/回",
-		base = 36660,
+	[36601] = {
+		id = 36601,
+		damage = "37/回",
+		base = 36600,
 		weapon_id = {
-			36661
+			36601
 		}
 	},
-	[36662] = {
-		id = 36662,
-		damage = "68/回",
-		base = 36660,
+	[36602] = {
+		id = 36602,
+		damage = "42/回",
+		base = 36600,
 		weapon_id = {
-			36662
+			36602
 		}
 	},
-	[36663] = {
-		id = 36663,
-		damage = "75/回",
-		base = 36660,
+	[36603] = {
+		id = 36603,
+		damage = "47/回",
+		base = 36600,
 		weapon_id = {
-			36663
+			36603
 		}
 	},
-	[36664] = {
-		id = 36664,
-		damage = "82/回",
-		base = 36660,
+	[36620] = {
+		name = "127mm連装高角砲",
+		speciality = "対空",
+		type = 6,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "36600",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "39/回",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36620,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
 		weapon_id = {
-			36664
+			36620
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
 		}
 	},
-	[36665] = {
-		id = 36665,
-		damage = "89/回",
-		base = 36660,
+	[36621] = {
+		id = 36621,
+		damage = "45/回",
+		base = 36620,
 		weapon_id = {
-			36665
+			36621
 		}
 	},
-	[36666] = {
-		id = 36666,
-		damage = "96/回",
-		base = 36660,
+	[36622] = {
+		id = 36622,
+		damage = "51/回",
+		base = 36620,
 		weapon_id = {
-			36666
+			36622
+		}
+	},
+	[36623] = {
+		id = 36623,
+		damage = "57/回",
+		base = 36620,
+		weapon_id = {
+			36623
+		}
+	},
+	[36624] = {
+		id = 36624,
+		damage = "63/回",
+		base = 36620,
+		weapon_id = {
+			36624
 		}
 	}
 }

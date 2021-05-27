@@ -366,6 +366,26 @@ return {
 			end
 		end
 	},
+	{
+		Image = "event_minigame",
+		ButtonName = "activity_fourthAnniversary",
+		Tag = "MiniGameHub",
+		Tip = "tip",
+		UpdateButton = function (slot0, slot1)
+			slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF) and not slot2:isEnd()
+
+			setActive(slot1, slot3)
+
+			if slot3 then
+				setActive(slot1:Find("Tip"), slot2:readyToAchieve() or function ()
+					return getProxy(MiniGameProxy):GetHubByHubId(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME):getConfig("config_id")).count > 0
+				end() or AmusementParkShopPage.GetActivityShopTip())
+				onButton(slot0, slot1, function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.AMUSEMENT_PARK)
+				end, SFX_PANEL)
+			end
+		end
+	},
 	LayoutProperty = {
 		CellSize = Vector2(208, 215),
 		Spacing = Vector2(0, -20),
@@ -382,6 +402,7 @@ return {
 		2,
 		4,
 		5,
-		6
+		6,
+		16
 	}
 }

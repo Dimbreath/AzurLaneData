@@ -1,152 +1,68 @@
 pg = pg or {}
 pg.equip_data_statistics_230 = {
-	[32301] = {
-		id = 32301,
-		damage = "7 x 4",
-		base = 32300,
+	[32225] = {
+		id = 32225,
+		damage = "12 x 6",
+		base = 32220,
 		weapon_id = {
-			32301
+			32225
 		}
 	},
-	[32302] = {
-		id = 32302,
-		damage = "8 x 4",
-		base = 32300,
+	[32226] = {
+		id = 32226,
+		damage = "13 x 6",
+		base = 32220,
 		weapon_id = {
-			32302
+			32226
 		}
 	},
-	[32303] = {
-		id = 32303,
-		damage = "9 x 4",
-		base = 32300,
+	[32227] = {
+		id = 32227,
+		damage = "14 x 6",
+		base = 32220,
 		weapon_id = {
-			32303
+			32227
 		}
 	},
-	[32320] = {
-		name = "152mm連装砲",
-		speciality = "拡散",
-		type = 2,
-		tech = 2,
-		descrip = "0",
-		value_2 = 12,
-		icon = "32300",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "7 x 4",
-		nationality = 3,
-		ammo = 2,
-		value_3 = 0,
-		id = 32320,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1207
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1207
-			},
-			{
-				4,
-				1101
-			},
-			6,
-			10,
-			11,
-			12
-		},
+	[32228] = {
+		id = 32228,
+		damage = "15 x 6",
+		base = 32220,
 		weapon_id = {
-			32320
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CL",
-			"MG",
-			"HE"
+			32228
 		}
 	},
-	[32321] = {
-		id = 32321,
-		damage = "8 x 4",
-		base = 32320,
+	[32229] = {
+		id = 32229,
+		damage = "16 x 6",
+		base = 32220,
 		weapon_id = {
-			32321
+			32229
 		}
 	},
-	[32322] = {
-		id = 32322,
-		damage = "9 x 4",
-		base = 32320,
+	[32230] = {
+		id = 32230,
+		damage = "17 x 6",
+		base = 32220,
 		weapon_id = {
-			32322
+			32230
 		}
 	},
-	[32323] = {
-		id = 32323,
-		damage = "10 x 4",
-		base = 32320,
-		weapon_id = {
-			32323
-		}
-	},
-	[32324] = {
-		id = 32324,
-		damage = "11 x 4",
-		base = 32320,
-		weapon_id = {
-			32324
-		}
-	},
-	[32325] = {
-		id = 32325,
-		damage = "12 x 4",
-		base = 32320,
-		weapon_id = {
-			32325
-		}
-	},
-	[32326] = {
-		id = 32326,
-		damage = "13 x 4",
-		base = 32320,
-		weapon_id = {
-			32326
-		}
-	},
-	[32340] = {
-		name = "152mm連装砲",
-		speciality = "拡散",
+	[32240] = {
+		name = "155mm三連装砲",
+		speciality = "追尾",
 		type = 2,
 		tech = 3,
 		descrip = "0",
-		value_2 = 25,
-		icon = "32300",
+		value_2 = 45,
+		icon = "32200",
 		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "8 x 4",
+		rarity = 5,
+		damage = "8 x 6",
 		nationality = 3,
 		ammo = 2,
 		value_3 = 0,
-		id = 32340,
+		id = 32240,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -167,7 +83,7 @@ pg.equip_data_statistics_230 = {
 			},
 			{
 				4,
-				1101
+				1105
 			},
 			6,
 			10,
@@ -175,7 +91,7 @@ pg.equip_data_statistics_230 = {
 			12
 		},
 		weapon_id = {
-			32340
+			32240
 		},
 		skill_id = {},
 		part_main = {
@@ -192,44 +108,76 @@ pg.equip_data_statistics_230 = {
 			"HE"
 		}
 	},
-	[32341] = {
-		id = 32341,
-		damage = "9 x 4",
-		base = 32340,
+	[32241] = {
+		id = 32241,
+		damage = "9 x 6",
+		base = 32240,
 		weapon_id = {
-			32341
+			32241
 		}
 	},
-	[32342] = {
-		id = 32342,
-		damage = "10 x 4",
-		base = 32340,
+	[32242] = {
+		id = 32242,
+		damage = "10 x 6",
+		base = 32240,
 		weapon_id = {
-			32342
+			32242
 		}
 	},
-	[32343] = {
-		id = 32343,
-		damage = "11 x 4",
-		base = 32340,
+	[32243] = {
+		id = 32243,
+		damage = "11 x 6",
+		base = 32240,
 		weapon_id = {
-			32343
+			32243
 		}
 	},
-	[32344] = {
-		id = 32344,
-		damage = "12 x 4",
-		base = 32340,
+	[32244] = {
+		id = 32244,
+		damage = "12 x 6",
+		base = 32240,
 		weapon_id = {
-			32344
+			32244
 		}
 	},
-	[32345] = {
-		id = 32345,
-		damage = "13 x 4",
-		base = 32340,
+	[32245] = {
+		id = 32245,
+		damage = "13 x 6",
+		base = 32240,
 		weapon_id = {
-			32345
+			32245
+		}
+	},
+	[32246] = {
+		id = 32246,
+		damage = "14 x 6",
+		base = 32240,
+		weapon_id = {
+			32246
+		}
+	},
+	[32247] = {
+		id = 32247,
+		damage = "15 x 6",
+		base = 32240,
+		weapon_id = {
+			32247
+		}
+	},
+	[32248] = {
+		id = 32248,
+		damage = "16 x 6",
+		base = 32240,
+		weapon_id = {
+			32248
+		}
+	},
+	[32249] = {
+		id = 32249,
+		damage = "17 x 6",
+		base = 32240,
+		weapon_id = {
+			32249
 		}
 	}
 }

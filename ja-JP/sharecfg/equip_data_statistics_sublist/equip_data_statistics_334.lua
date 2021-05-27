@@ -1,20 +1,91 @@
 pg = pg or {}
 pg.equip_data_statistics_334 = {
-	[60032] = {
-		id = 60032,
-		base = 60031,
+	[49063] = {
+		id = 49063,
+		base = 49060,
+		ammo_info = {
+			{
+				6,
+				59763
+			},
+			{
+				5,
+				52243
+			}
+		},
 		weapon_id = {
-			60032
+			49063
 		}
 	},
-	[60033] = {
-		id = 60033,
-		base = 60031,
+	[49064] = {
+		id = 49064,
+		base = 49060,
+		ammo_info = {
+			{
+				6,
+				59764
+			},
+			{
+				5,
+				52244
+			}
+		},
 		weapon_id = {
-			60033
+			49064
 		}
 	},
-	[60041] = {
+	[49065] = {
+		id = 49065,
+		base = 49060,
+		ammo_info = {
+			{
+				6,
+				59765
+			},
+			{
+				5,
+				52245
+			}
+		},
+		weapon_id = {
+			49065
+		}
+	},
+	[49066] = {
+		id = 49066,
+		base = 49060,
+		ammo_info = {
+			{
+				6,
+				59766
+			},
+			{
+				5,
+				52246
+			}
+		},
+		weapon_id = {
+			49066
+		}
+	},
+	[49067] = {
+		id = 49067,
+		base = 49060,
+		ammo_info = {
+			{
+				6,
+				59767
+			},
+			{
+				5,
+				52247
+			}
+		},
+		weapon_id = {
+			49067
+		}
+	},
+	[54010] = {
 		name = "0",
 		tech = 1,
 		speciality = "なし",
@@ -27,14 +98,14 @@ pg.equip_data_statistics_334 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60041,
+		id = 54010,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60041
+			54010
 		},
 		skill_id = {},
 		part_main = {},
@@ -42,21 +113,42 @@ pg.equip_data_statistics_334 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[60042] = {
-		id = 60042,
-		base = 60041,
+	[54011] = {
+		id = 54011,
+		base = 54010,
 		weapon_id = {
-			60042
+			54011
 		}
 	},
-	[60043] = {
-		id = 60043,
-		base = 60041,
+	[54012] = {
+		id = 54012,
+		base = 54010,
 		weapon_id = {
-			60043
+			54012
 		}
 	},
-	[60051] = {
+	[54013] = {
+		id = 54013,
+		base = 54010,
+		weapon_id = {
+			54013
+		}
+	},
+	[54014] = {
+		id = 54014,
+		base = 54010,
+		weapon_id = {
+			54014
+		}
+	},
+	[54015] = {
+		id = 54015,
+		base = 54010,
+		weapon_id = {
+			54015
+		}
+	},
+	[60001] = {
 		name = "0",
 		tech = 1,
 		speciality = "なし",
@@ -69,14 +161,14 @@ pg.equip_data_statistics_334 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60051,
+		id = 60001,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60051
+			60001
 		},
 		skill_id = {},
 		part_main = {},
@@ -84,21 +176,21 @@ pg.equip_data_statistics_334 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[60052] = {
-		id = 60052,
-		base = 60051,
+	[60002] = {
+		id = 60002,
+		base = 60001,
 		weapon_id = {
-			60052
+			60002
 		}
 	},
-	[60053] = {
-		id = 60053,
-		base = 60051,
+	[60003] = {
+		id = 60003,
+		base = 60001,
 		weapon_id = {
-			60053
+			60003
 		}
 	},
-	[60061] = {
+	[60011] = {
 		name = "0",
 		tech = 1,
 		speciality = "なし",
@@ -111,14 +203,14 @@ pg.equip_data_statistics_334 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60061,
+		id = 60011,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60061
+			60011
 		},
 		skill_id = {},
 		part_main = {},
@@ -126,95 +218,11 @@ pg.equip_data_statistics_334 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[60062] = {
-		id = 60062,
-		base = 60061,
+	[60012] = {
+		id = 60012,
+		base = 60011,
 		weapon_id = {
-			60062
-		}
-	},
-	[60063] = {
-		id = 60063,
-		base = 60061,
-		weapon_id = {
-			60063
-		}
-	},
-	[60071] = {
-		name = "0",
-		tech = 1,
-		speciality = "なし",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航空攻撃サンプル用",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60071,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60071
-		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60072] = {
-		id = 60072,
-		base = 60071,
-		weapon_id = {
-			60072
-		}
-	},
-	[60073] = {
-		id = 60073,
-		base = 60071,
-		weapon_id = {
-			60073
-		}
-	},
-	[60081] = {
-		name = "0",
-		tech = 1,
-		speciality = "なし",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航空攻撃サンプル用",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60081,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60081
-		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60082] = {
-		id = 60082,
-		base = 60081,
-		weapon_id = {
-			60082
+			60012
 		}
 	}
 }

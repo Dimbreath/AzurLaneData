@@ -1,146 +1,85 @@
 pg = pg or {}
 pg.equip_data_statistics_246 = {
-	[35261] = {
-		id = 35261,
-		damage = "84 x 4",
-		base = 35260,
+	[35225] = {
+		id = 35225,
+		damage = "118 x 4",
+		base = 35220,
 		weapon_id = {
-			35261
+			35225
 		}
 	},
-	[35262] = {
-		id = 35262,
-		damage = "98 x 4",
-		base = 35260,
+	[35226] = {
+		id = 35226,
+		damage = "130 x 4",
+		base = 35220,
 		weapon_id = {
-			35262
+			35226
 		}
 	},
-	[35263] = {
-		id = 35263,
-		damage = "112 x 4",
-		base = 35260,
+	[35227] = {
+		id = 35227,
+		damage = "142 x 4",
+		base = 35220,
 		weapon_id = {
-			35263
+			35227
 		}
 	},
-	[35264] = {
-		id = 35264,
-		damage = "126 x 4",
-		base = 35260,
-		weapon_id = {
-			35264
-		}
-	},
-	[35265] = {
-		id = 35265,
-		damage = "140 x 4",
-		base = 35260,
-		weapon_id = {
-			35265
-		}
-	},
-	[35266] = {
-		id = 35266,
+	[35228] = {
+		id = 35228,
 		damage = "154 x 4",
-		base = 35260,
+		base = 35220,
 		weapon_id = {
-			35266
+			35228
 		}
 	},
-	[35267] = {
-		id = 35267,
-		damage = "168 x 4",
-		base = 35260,
+	[35229] = {
+		id = 35229,
+		damage = "166 x 4",
+		base = 35220,
 		weapon_id = {
-			35267
+			35229
 		}
 	},
-	[35268] = {
-		id = 35268,
-		damage = "182 x 4",
-		base = 35260,
+	[35230] = {
+		id = 35230,
+		damage = "178 x 4",
+		base = 35220,
 		weapon_id = {
-			35268
+			35230
 		}
 	},
-	[35269] = {
-		id = 35269,
-		damage = "196 x 4",
-		base = 35260,
-		weapon_id = {
-			35269
-		}
-	},
-	[35270] = {
-		id = 35270,
-		damage = "210 x 4",
-		base = 35260,
-		weapon_id = {
-			35270
-		}
-	},
-	[35271] = {
-		anti_siren = 100,
-		damage = "210 x 4",
-		base = 35260,
-		id = 35271,
-		weapon_id = {
-			35271
-		}
-	},
-	[35272] = {
-		anti_siren = 200,
-		damage = "210 x 4",
-		base = 35260,
-		id = 35272,
-		weapon_id = {
-			35272
-		}
-	},
-	[35273] = {
-		anti_siren = 300,
-		damage = "210 x 4",
-		base = 35260,
-		id = 35273,
-		weapon_id = {
-			35273
-		}
-	},
-	[35400] = {
-		name = "潜水艦用九二式電動魚雷",
+	[35240] = {
+		name = "610mm四連装魚雷",
 		speciality = "雷撃",
-		type = 13,
-		tech = 1,
+		type = 5,
+		tech = 3,
 		descrip = "0",
-		value_2 = 5,
-		icon = "35400",
+		value_2 = 45,
+		icon = "35200",
 		attribute_2 = "torpedo",
-		rarity = 2,
-		damage = "48 x 2",
+		rarity = 5,
+		damage = "66 x 4",
 		nationality = 3,
 		ammo = 5,
 		value_3 = 0,
-		id = 35400,
+		id = 35240,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				3,
-				1823
+				1801
 			}
 		},
 		equip_info = {
-			1,
-			2,
 			{
 				3,
-				1823
+				1801
 			},
 			{
 				4,
-				1601
+				1403
 			},
 			6,
 			10,
@@ -148,38 +87,99 @@ pg.equip_data_statistics_246 = {
 			12
 		},
 		weapon_id = {
-			35400
+			35240
 		},
 		skill_id = {},
 		part_main = {
-			8,
-			17
+			1,
+			2,
+			3,
+			18
 		},
 		part_sub = {
-			8,
-			17
+			1,
+			2,
+			3,
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"IJN",
-			"SS",
-			"TP"
+			"ST",
+			"TP",
+			"QUAD"
 		}
 	},
-	[35401] = {
-		id = 35401,
-		damage = "55 x 2",
-		base = 35400,
+	[35241] = {
+		id = 35241,
+		damage = "80 x 4",
+		base = 35240,
 		weapon_id = {
-			35401
+			35241
 		}
 	},
-	[35402] = {
-		id = 35402,
-		damage = "62 x 2",
-		base = 35400,
+	[35242] = {
+		id = 35242,
+		damage = "94 x 4",
+		base = 35240,
 		weapon_id = {
-			35402
+			35242
+		}
+	},
+	[35243] = {
+		id = 35243,
+		damage = "108 x 4",
+		base = 35240,
+		weapon_id = {
+			35243
+		}
+	},
+	[35244] = {
+		id = 35244,
+		damage = "122 x 4",
+		base = 35240,
+		weapon_id = {
+			35244
+		}
+	},
+	[35245] = {
+		id = 35245,
+		damage = "136 x 4",
+		base = 35240,
+		weapon_id = {
+			35245
+		}
+	},
+	[35246] = {
+		id = 35246,
+		damage = "150 x 4",
+		base = 35240,
+		weapon_id = {
+			35246
+		}
+	},
+	[35247] = {
+		id = 35247,
+		damage = "164 x 4",
+		base = 35240,
+		weapon_id = {
+			35247
+		}
+	},
+	[35248] = {
+		id = 35248,
+		damage = "178 x 4",
+		base = 35240,
+		weapon_id = {
+			35248
+		}
+	},
+	[35249] = {
+		id = 35249,
+		damage = "192 x 4",
+		base = 35240,
+		weapon_id = {
+			35249
 		}
 	}
 }

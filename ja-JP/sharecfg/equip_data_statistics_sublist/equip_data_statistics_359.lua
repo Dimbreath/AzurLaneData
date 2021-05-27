@@ -1,7 +1,14 @@
 pg = pg or {}
 pg.equip_data_statistics_359 = {
-	[79071] = {
-		name = "0",
+	[78022] = {
+		id = 78022,
+		base = 78021,
+		weapon_id = {
+			78022
+		}
+	},
+	[78031] = {
+		name = "全弹发射-沃克兰级I",
 		tech = 1,
 		speciality = "なし",
 		type = 1,
@@ -13,14 +20,14 @@ pg.equip_data_statistics_359 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79071,
+		id = 78031,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79071
+			78031
 		},
 		skill_id = {},
 		part_main = {
@@ -39,14 +46,15 @@ pg.equip_data_statistics_359 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79072] = {
-		id = 79072,
-		base = 79071,
+	[78032] = {
+		id = 78032,
+		name = "全弹发射-沃克兰级II",
+		base = 78031,
 		weapon_id = {
-			79072
+			78032
 		}
 	},
-	[79081] = {
+	[78111] = {
 		name = "0",
 		tech = 1,
 		speciality = "なし",
@@ -59,14 +67,14 @@ pg.equip_data_statistics_359 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79081,
+		id = 78111,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79081
+			78111
 		},
 		skill_id = {},
 		part_main = {
@@ -85,14 +93,14 @@ pg.equip_data_statistics_359 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79082] = {
-		id = 79082,
-		base = 79081,
+	[78112] = {
+		id = 78112,
+		base = 78111,
 		weapon_id = {
-			79082
+			78112
 		}
 	},
-	[79091] = {
+	[78121] = {
 		name = "0",
 		tech = 1,
 		speciality = "なし",
@@ -105,14 +113,14 @@ pg.equip_data_statistics_359 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79091,
+		id = 78121,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79091
+			78121
 		},
 		skill_id = {},
 		part_main = {
@@ -131,14 +139,15 @@ pg.equip_data_statistics_359 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79092] = {
-		id = 79092,
-		base = 79091,
+	[78122] = {
+		id = 78122,
+		name = "0",
+		base = 78121,
 		weapon_id = {
-			79092
+			78122
 		}
 	},
-	[79101] = {
+	[78211] = {
 		name = "0",
 		tech = 1,
 		speciality = "なし",
@@ -151,14 +160,14 @@ pg.equip_data_statistics_359 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79101,
+		id = 78211,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79101
+			78211
 		},
 		skill_id = {},
 		part_main = {
@@ -177,14 +186,15 @@ pg.equip_data_statistics_359 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79102] = {
-		id = 79102,
-		base = 79101,
+	[78212] = {
+		id = 78212,
+		name = "0",
+		base = 78211,
 		weapon_id = {
-			79102
+			78212
 		}
 	},
-	[79111] = {
+	[79011] = {
 		name = "0",
 		tech = 1,
 		speciality = "なし",
@@ -197,14 +207,14 @@ pg.equip_data_statistics_359 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79111,
+		id = 79011,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79111
+			79011
 		},
 		skill_id = {},
 		part_main = {
@@ -223,14 +233,14 @@ pg.equip_data_statistics_359 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79112] = {
-		id = 79112,
-		base = 79111,
+	[79012] = {
+		id = 79012,
+		base = 79011,
 		weapon_id = {
-			79112
+			79012
 		}
 	},
-	[79121] = {
+	[79021] = {
 		name = "0",
 		tech = 1,
 		speciality = "なし",
@@ -243,14 +253,14 @@ pg.equip_data_statistics_359 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79121,
+		id = 79021,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79121
+			79021
 		},
 		skill_id = {},
 		part_main = {
@@ -269,14 +279,14 @@ pg.equip_data_statistics_359 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79122] = {
-		id = 79122,
-		base = 79121,
+	[79022] = {
+		id = 79022,
+		base = 79021,
 		weapon_id = {
-			79122
+			79022
 		}
 	},
-	[79131] = {
+	[79031] = {
 		name = "0",
 		tech = 1,
 		speciality = "なし",
@@ -289,14 +299,14 @@ pg.equip_data_statistics_359 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79131,
+		id = 79031,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79131
+			79031
 		},
 		skill_id = {},
 		part_main = {
@@ -315,14 +325,14 @@ pg.equip_data_statistics_359 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[79132] = {
-		id = 79132,
-		base = 79131,
+	[79032] = {
+		id = 79032,
+		base = 79031,
 		weapon_id = {
-			79132
+			79032
 		}
 	},
-	[79141] = {
+	[79041] = {
 		name = "0",
 		tech = 1,
 		speciality = "なし",
@@ -335,14 +345,14 @@ pg.equip_data_statistics_359 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 79141,
+		id = 79041,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			79141
+			79041
 		},
 		skill_id = {},
 		part_main = {
@@ -360,12 +370,5 @@ pg.equip_data_statistics_359 = {
 		},
 		equip_parameters = {},
 		label = {}
-	},
-	[79142] = {
-		id = 79142,
-		base = 79141,
-		weapon_id = {
-			79142
-		}
 	}
 }

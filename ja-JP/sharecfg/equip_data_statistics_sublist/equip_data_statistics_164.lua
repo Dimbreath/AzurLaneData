@@ -1,112 +1,69 @@
 pg = pg or {}
 pg.equip_data_statistics_164 = {
-	[23104] = {
-		id = 23104,
-		damage = "42 x 4",
-		base = 23100,
+	[23022] = {
+		id = 23022,
+		damage = "30 x 4",
+		base = 23020,
 		weapon_id = {
-			23104
+			23022
 		}
 	},
-	[23105] = {
-		id = 23105,
-		damage = "44 x 4",
-		base = 23100,
+	[23023] = {
+		id = 23023,
+		damage = "32 x 4",
+		base = 23020,
 		weapon_id = {
-			23105
+			23023
 		}
 	},
-	[23106] = {
-		id = 23106,
-		damage = "46 x 4",
-		base = 23100,
+	[23024] = {
+		id = 23024,
+		damage = "34 x 4",
+		base = 23020,
 		weapon_id = {
-			23106
+			23024
 		}
 	},
-	[23107] = {
-		id = 23107,
-		damage = "48 x 4",
-		base = 23100,
+	[23025] = {
+		id = 23025,
+		damage = "36 x 4",
+		base = 23020,
 		weapon_id = {
-			23107
+			23025
 		}
 	},
-	[23108] = {
-		id = 23108,
-		damage = "50 x 4",
-		base = 23100,
+	[23026] = {
+		id = 23026,
+		damage = "38 x 4",
+		base = 23020,
 		weapon_id = {
-			23108
+			23026
 		}
 	},
-	[23109] = {
-		id = 23109,
-		damage = "52 x 4",
-		base = 23100,
-		weapon_id = {
-			23109
-		}
-	},
-	[23110] = {
-		id = 23110,
-		damage = "54 x 4",
-		base = 23100,
-		weapon_id = {
-			23110
-		}
-	},
-	[23111] = {
-		anti_siren = 100,
-		damage = "54 x 4",
-		base = 23100,
-		id = 23111,
-		weapon_id = {
-			23111
-		}
-	},
-	[23112] = {
-		anti_siren = 200,
-		damage = "54 x 4",
-		base = 23100,
-		id = 23112,
-		weapon_id = {
-			23112
-		}
-	},
-	[23113] = {
-		anti_siren = 300,
-		damage = "54 x 4",
-		base = 23100,
-		id = 23113,
-		weapon_id = {
-			23113
-		}
-	},
-	[23120] = {
-		name = "試作型234mm三連装砲",
+	[23040] = {
+		name = "203mm連装砲",
 		speciality = "追尾",
 		type = 3,
-		tech = 0,
+		tech = 3,
 		descrip = "0",
-		value_2 = 65,
-		icon = "23120",
+		value_2 = 25,
+		icon = "23000",
 		attribute_2 = "cannon",
-		rarity = 6,
-		damage = "35 x 6",
+		rarity = 4,
+		damage = "28 x 4",
 		nationality = 2,
-		ammo = 3,
+		ammo = 1,
 		value_3 = 0,
-		id = 23120,
+		id = 23040,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			1
+			2
 		},
 		ammo_info = {
 			{
 				1,
-				1418
+				1401
 			}
 		},
 		equip_info = {
@@ -114,11 +71,11 @@ pg.equip_data_statistics_164 = {
 			2,
 			{
 				3,
-				1418
+				1401
 			},
 			{
 				4,
-				1222
+				1205
 			},
 			6,
 			10,
@@ -126,7 +83,7 @@ pg.equip_data_statistics_164 = {
 			12
 		},
 		weapon_id = {
-			23120
+			23040
 		},
 		skill_id = {},
 		part_main = {
@@ -139,47 +96,87 @@ pg.equip_data_statistics_164 = {
 			"HMS",
 			"CA",
 			"MG",
-			"CM"
+			"AP"
 		}
 	},
-	[23121] = {
-		id = 23121,
-		damage = "36 x 6",
-		base = 23120,
+	[23041] = {
+		id = 23041,
+		damage = "30 x 4",
+		base = 23040,
 		weapon_id = {
-			23121
+			23041
 		}
 	},
-	[23122] = {
-		id = 23122,
-		damage = "38 x 6",
-		base = 23120,
+	[23042] = {
+		id = 23042,
+		damage = "32 x 4",
+		base = 23040,
 		weapon_id = {
-			23122
+			23042
 		}
 	},
-	[23123] = {
-		id = 23123,
-		damage = "40 x 6",
-		base = 23120,
+	[23043] = {
+		id = 23043,
+		damage = "34 x 4",
+		base = 23040,
 		weapon_id = {
-			23123
+			23043
 		}
 	},
-	[23124] = {
-		id = 23124,
-		damage = "42 x 6",
-		base = 23120,
+	[23044] = {
+		id = 23044,
+		damage = "36 x 4",
+		base = 23040,
 		weapon_id = {
-			23124
+			23044
 		}
 	},
-	[23125] = {
-		id = 23125,
-		damage = "44 x 6",
-		base = 23120,
+	[23045] = {
+		id = 23045,
+		damage = "38 x 4",
+		base = 23040,
 		weapon_id = {
-			23125
+			23045
+		}
+	},
+	[23046] = {
+		id = 23046,
+		damage = "40 x 4",
+		base = 23040,
+		weapon_id = {
+			23046
+		}
+	},
+	[23047] = {
+		id = 23047,
+		damage = "42 x 4",
+		base = 23040,
+		weapon_id = {
+			23047
+		}
+	},
+	[23048] = {
+		id = 23048,
+		damage = "44 x 4",
+		base = 23040,
+		weapon_id = {
+			23048
+		}
+	},
+	[23049] = {
+		id = 23049,
+		damage = "46 x 4",
+		base = 23040,
+		weapon_id = {
+			23049
+		}
+	},
+	[23050] = {
+		id = 23050,
+		damage = "48 x 4",
+		base = 23040,
+		weapon_id = {
+			23050
 		}
 	}
 }

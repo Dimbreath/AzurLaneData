@@ -1,68 +1,38 @@
 pg = pg or {}
 pg.equip_data_statistics_398 = {
-	[90721] = {
-		id = 90721,
-		damage = "7 x 4",
-		base = 90720,
+	[90452] = {
+		anti_siren = 200,
+		damage = "120 x 4",
+		base = 90440,
+		id = 90452,
 		weapon_id = {
-			90721
+			90452
 		}
 	},
-	[90722] = {
-		id = 90722,
-		damage = "8 x 4",
-		base = 90720,
+	[90453] = {
+		anti_siren = 300,
+		damage = "120 x 4",
+		base = 90440,
+		id = 90453,
 		weapon_id = {
-			90722
+			90453
 		}
 	},
-	[90723] = {
-		id = 90723,
-		damage = "9 x 4",
-		base = 90720,
-		weapon_id = {
-			90723
-		}
-	},
-	[90724] = {
-		id = 90724,
-		damage = "10 x 4",
-		base = 90720,
-		weapon_id = {
-			90724
-		}
-	},
-	[90725] = {
-		id = 90725,
-		damage = "12 x 4",
-		base = 90720,
-		weapon_id = {
-			90725
-		}
-	},
-	[90726] = {
-		id = 90726,
-		damage = "14 x 4",
-		base = 90720,
-		weapon_id = {
-			90726
-		}
-	},
-	[90740] = {
-		name = "138.6mm単装砲Mle1927",
+	[90500] = {
+		name = "130mm連装砲Mle1935",
 		speciality = "追尾",
 		type = 1,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "50700",
+		tech = 1,
+		descrip = "0",
+		value_2 = 5,
+		icon = "50500",
 		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "6 x 4",
+		rarity = 2,
+		damage = "9 x 2",
 		nationality = 8,
 		ammo = 3,
 		value_3 = 0,
-		id = 90740,
+		id = 90500,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -83,7 +53,7 @@ pg.equip_data_statistics_398 = {
 			},
 			{
 				4,
-				1025
+				1011
 			},
 			6,
 			10,
@@ -91,7 +61,7 @@ pg.equip_data_statistics_398 = {
 			12
 		},
 		weapon_id = {
-			90740
+			90500
 		},
 		skill_id = {},
 		part_main = {
@@ -114,76 +84,161 @@ pg.equip_data_statistics_398 = {
 			"MG"
 		}
 	},
-	[90741] = {
-		id = 90741,
-		damage = "7 x 4",
-		base = 90740,
+	[90501] = {
+		id = 90501,
+		base = 90500,
 		weapon_id = {
-			90741
+			90501
 		}
 	},
-	[90742] = {
-		id = 90742,
-		damage = "8 x 4",
-		base = 90740,
+	[90502] = {
+		id = 90502,
+		damage = "10 x 2",
+		base = 90500,
 		weapon_id = {
-			90742
+			90502
 		}
 	},
-	[90743] = {
-		id = 90743,
-		damage = "9 x 4",
-		base = 90740,
+	[90503] = {
+		id = 90503,
+		damage = "10 x 2",
+		base = 90500,
 		weapon_id = {
-			90743
+			90503
 		}
 	},
-	[90744] = {
-		id = 90744,
-		damage = "10 x 4",
-		base = 90740,
+	[90600] = {
+		name = "二連装37mm高射砲Mle1936",
+		speciality = "対空",
+		type = 6,
+		tech = 0,
+		descrip = "0",
+		value_2 = 45,
+		icon = "50600",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "38/回",
+		nationality = 8,
+		ammo = 5,
+		value_3 = 0,
+		id = 90600,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
 		weapon_id = {
-			90744
+			90600
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"AA"
 		}
 	},
-	[90745] = {
-		id = 90745,
-		damage = "11 x 4",
-		base = 90740,
+	[90601] = {
+		id = 90601,
+		damage = "42/回",
+		base = 90600,
 		weapon_id = {
-			90745
+			90601
 		}
 	},
-	[90746] = {
-		id = 90746,
-		damage = "12 x 4",
-		base = 90740,
+	[90602] = {
+		id = 90602,
+		damage = "46/回",
+		base = 90600,
 		weapon_id = {
-			90746
+			90602
 		}
 	},
-	[90747] = {
-		id = 90747,
-		damage = "13 x 4",
-		base = 90740,
+	[90603] = {
+		id = 90603,
+		damage = "50/回",
+		base = 90600,
 		weapon_id = {
-			90747
+			90603
 		}
 	},
-	[90748] = {
-		id = 90748,
-		damage = "15 x 4",
-		base = 90740,
+	[90604] = {
+		id = 90604,
+		damage = "54/回",
+		base = 90600,
 		weapon_id = {
-			90748
+			90604
 		}
 	},
-	[90749] = {
-		id = 90749,
-		damage = "17 x 4",
-		base = 90740,
+	[90605] = {
+		id = 90605,
+		damage = "58/回",
+		base = 90600,
 		weapon_id = {
-			90749
+			90605
+		}
+	},
+	[90606] = {
+		id = 90606,
+		damage = "62/回",
+		base = 90600,
+		weapon_id = {
+			90606
+		}
+	},
+	[90607] = {
+		id = 90607,
+		damage = "66/回",
+		base = 90600,
+		weapon_id = {
+			90607
+		}
+	},
+	[90608] = {
+		id = 90608,
+		damage = "70/回",
+		base = 90600,
+		weapon_id = {
+			90608
+		}
+	},
+	[90609] = {
+		id = 90609,
+		damage = "74/回",
+		base = 90600,
+		weapon_id = {
+			90609
 		}
 	}
 }

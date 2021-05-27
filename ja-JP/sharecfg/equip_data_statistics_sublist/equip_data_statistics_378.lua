@@ -1,78 +1,128 @@
 pg = pg or {}
 pg.equip_data_statistics_378 = {
-	[89024] = {
-		id = 89024,
-		value_1 = "320",
-		base = 89020
+	[85460] = {
+		name = "180mm三連装砲B-1-P Model1932",
+		speciality = "追尾",
+		type = 2,
+		tech = 1,
+		descrip = "優秀な射程を持つ北方連合開発の三連装主砲。",
+		value_2 = 12,
+		icon = "85460",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "16 x 3",
+		nationality = 7,
+		ammo = 1,
+		value_3 = 0,
+		id = 85460,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1712
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1712
+			},
+			{
+				4,
+				1108
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85460
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG",
+			"AP"
+		}
 	},
-	[89025] = {
-		id = 89025,
-		value_1 = "350",
-		base = 89020
+	[85461] = {
+		id = 85461,
+		base = 85460,
+		weapon_id = {
+			85461
+		}
 	},
-	[89026] = {
-		id = 89026,
-		value_1 = "380",
-		base = 89020
+	[85462] = {
+		id = 85462,
+		damage = "17 x 3",
+		base = 85460,
+		weapon_id = {
+			85462
+		}
 	},
-	[89027] = {
-		id = 89027,
-		value_1 = "410",
-		base = 89020
+	[85463] = {
+		id = 85463,
+		damage = "18 x 3",
+		base = 85460,
+		weapon_id = {
+			85463
+		}
 	},
-	[89028] = {
-		id = 89028,
-		value_1 = "440",
-		base = 89020
+	[85464] = {
+		id = 85464,
+		damage = "19 x 3",
+		base = 85460,
+		weapon_id = {
+			85464
+		}
 	},
-	[89029] = {
-		id = 89029,
-		value_1 = "470",
-		base = 89020
+	[85465] = {
+		id = 85465,
+		damage = "20 x 3",
+		base = 85460,
+		weapon_id = {
+			85465
+		}
 	},
-	[89030] = {
-		id = 89030,
-		value_2 = 2,
-		value_1 = "500",
-		base = 89020
+	[85466] = {
+		id = 85466,
+		damage = "21 x 3",
+		base = 85460,
+		weapon_id = {
+			85466
+		}
 	},
-	[89031] = {
-		id = 89031,
-		anti_siren = 100,
-		base = 89020,
-		value_2 = 2,
-		value_1 = "530"
-	},
-	[89032] = {
-		id = 89032,
-		anti_siren = 200,
-		base = 89020,
-		value_2 = 2,
-		value_1 = "560"
-	},
-	[89033] = {
-		id = 89033,
-		anti_siren = 300,
-		base = 89020,
-		value_2 = 2,
-		value_1 = "590"
-	},
-	[89040] = {
-		name = "インテリジェントチップ",
+	[89000] = {
+		name = "ランダムワード生成器",
 		tech = 0,
 		type = 10,
 		speciality = "なし",
-		id = 89040,
-		value_2 = 3,
-		icon = "89040",
-		value_1 = "98",
-		attribute_2 = "speed",
+		id = 89000,
+		value_2 = 6,
+		icon = "89000",
+		value_1 = "16",
+		attribute_2 = "dodge",
 		rarity = 5,
-		descrip = "キズナアイがプラグインを導入するときに使用するチップ…？――もうポンコツだなんて言わせません！",
+		descrip = "企画をするときの頼りになるアイテム。まれにしゃべりだすことがあるという噂も…？",
 		nationality = 104,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "durability",
+		attribute_1 = "hit",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -82,7 +132,7 @@ pg.equip_data_statistics_378 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6400
+			6380
 		},
 		part_main = {},
 		part_sub = {},
@@ -91,33 +141,50 @@ pg.equip_data_statistics_378 = {
 			"DEV"
 		}
 	},
-	[89041] = {
-		id = 89041,
-		value_1 = "112",
-		base = 89040
+	[89001] = {
+		id = 89001,
+		base = 89000
 	},
-	[89042] = {
-		id = 89042,
-		value_2 = 4,
-		value_1 = "127",
-		base = 89040
+	[89002] = {
+		id = 89002,
+		value_2 = 7,
+		value_1 = "17",
+		base = 89000
 	},
-	[89043] = {
-		id = 89043,
-		value_2 = 4,
-		value_1 = "142",
-		base = 89040
+	[89003] = {
+		id = 89003,
+		value_2 = 8,
+		value_1 = "18",
+		base = 89000
 	},
-	[89044] = {
-		id = 89044,
-		value_2 = 5,
-		value_1 = "156",
-		base = 89040
+	[89004] = {
+		id = 89004,
+		value_2 = 9,
+		value_1 = "19",
+		base = 89000
 	},
-	[89045] = {
-		id = 89045,
-		value_2 = 5,
-		value_1 = "171",
-		base = 89040
+	[89005] = {
+		id = 89005,
+		value_2 = 10,
+		value_1 = "20",
+		base = 89000
+	},
+	[89006] = {
+		id = 89006,
+		value_2 = 11,
+		value_1 = "21",
+		base = 89000
+	},
+	[89007] = {
+		id = 89007,
+		value_2 = 12,
+		value_1 = "22",
+		base = 89000
+	},
+	[89008] = {
+		id = 89008,
+		value_2 = 13,
+		value_1 = "23",
+		base = 89000
 	}
 }

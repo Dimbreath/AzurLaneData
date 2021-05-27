@@ -1,103 +1,60 @@
 pg = pg or {}
 pg.equip_data_statistics_256 = {
-	[36364] = {
-		id = 36364,
-		damage = "52/回",
-		base = 36360,
+	[36322] = {
+		id = 36322,
+		damage = "24/回",
+		base = 36320,
 		weapon_id = {
-			36364
+			36322
 		}
 	},
-	[36365] = {
-		id = 36365,
-		damage = "55/回",
-		base = 36360,
+	[36323] = {
+		id = 36323,
+		damage = "27/回",
+		base = 36320,
 		weapon_id = {
-			36365
+			36323
 		}
 	},
-	[36366] = {
-		id = 36366,
-		damage = "58/回",
-		base = 36360,
+	[36324] = {
+		id = 36324,
+		damage = "30/回",
+		base = 36320,
 		weapon_id = {
-			36366
+			36324
 		}
 	},
-	[36367] = {
-		id = 36367,
-		damage = "61/回",
-		base = 36360,
+	[36325] = {
+		id = 36325,
+		damage = "33/回",
+		base = 36320,
 		weapon_id = {
-			36367
+			36325
 		}
 	},
-	[36368] = {
-		id = 36368,
-		damage = "64/回",
-		base = 36360,
+	[36326] = {
+		id = 36326,
+		damage = "36/回",
+		base = 36320,
 		weapon_id = {
-			36368
+			36326
 		}
 	},
-	[36369] = {
-		id = 36369,
-		damage = "68/回",
-		base = 36360,
-		weapon_id = {
-			36369
-		}
-	},
-	[36370] = {
-		id = 36370,
-		damage = "72/回",
-		base = 36360,
-		weapon_id = {
-			36370
-		}
-	},
-	[36371] = {
-		anti_siren = 100,
-		damage = "72/回",
-		base = 36360,
-		id = 36371,
-		weapon_id = {
-			36371
-		}
-	},
-	[36372] = {
-		anti_siren = 200,
-		damage = "72/回",
-		base = 36360,
-		id = 36372,
-		weapon_id = {
-			36372
-		}
-	},
-	[36373] = {
-		anti_siren = 300,
-		damage = "72/回",
-		base = 36360,
-		id = 36373,
-		weapon_id = {
-			36373
-		}
-	},
-	[36400] = {
-		name = "毘式40mm連装機銃",
+	[36340] = {
+		name = "25mm三連装対空機銃",
 		speciality = "対空",
 		type = 6,
-		tech = 1,
+		tech = 3,
 		descrip = "0",
-		value_2 = 5,
-		icon = "36400",
+		value_2 = 25,
+		icon = "36300",
 		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "19/回",
+		rarity = 4,
+		damage = "22/回",
 		nationality = 3,
 		ammo = 5,
 		value_3 = 0,
-		id = 36400,
+		id = 36340,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -109,7 +66,7 @@ pg.equip_data_statistics_256 = {
 			10
 		},
 		weapon_id = {
-			36400
+			36340
 		},
 		skill_id = {},
 		part_main = {
@@ -145,98 +102,84 @@ pg.equip_data_statistics_256 = {
 			"AA"
 		}
 	},
-	[36401] = {
-		id = 36401,
-		damage = "22/回",
-		base = 36400,
-		weapon_id = {
-			36401
-		}
-	},
-	[36402] = {
-		id = 36402,
+	[36341] = {
+		id = 36341,
 		damage = "25/回",
-		base = 36400,
+		base = 36340,
 		weapon_id = {
-			36402
+			36341
 		}
 	},
-	[36403] = {
-		id = 36403,
-		damage = "29/回",
-		base = 36400,
+	[36342] = {
+		id = 36342,
+		damage = "28/回",
+		base = 36340,
 		weapon_id = {
-			36403
+			36342
 		}
 	},
-	[36420] = {
-		name = "毘式40mm連装機銃",
-		speciality = "対空",
-		type = 6,
-		tech = 2,
-		descrip = "0",
-		value_2 = 12,
-		icon = "36400",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "22/回",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 36420,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
+	[36343] = {
+		id = 36343,
+		damage = "31/回",
+		base = 36340,
 		weapon_id = {
-			36420
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"AA"
+			36343
 		}
 	},
-	[36421] = {
-		id = 36421,
-		damage = "25/回",
-		base = 36420,
+	[36344] = {
+		id = 36344,
+		damage = "34/回",
+		base = 36340,
 		weapon_id = {
-			36421
+			36344
+		}
+	},
+	[36345] = {
+		id = 36345,
+		damage = "37/回",
+		base = 36340,
+		weapon_id = {
+			36345
+		}
+	},
+	[36346] = {
+		id = 36346,
+		damage = "40/回",
+		base = 36340,
+		weapon_id = {
+			36346
+		}
+	},
+	[36347] = {
+		id = 36347,
+		damage = "43/回",
+		base = 36340,
+		weapon_id = {
+			36347
+		}
+	},
+	[36348] = {
+		id = 36348,
+		damage = "46/回",
+		base = 36340,
+		weapon_id = {
+			36348
+		}
+	},
+	[36349] = {
+		id = 36349,
+		damage = "50/回",
+		base = 36340,
+		weapon_id = {
+			36349
+		}
+	},
+	[36350] = {
+		id = 36350,
+		damage = "54/回",
+		base = 36340,
+		weapon_id = {
+			36350
 		}
 	}
 }

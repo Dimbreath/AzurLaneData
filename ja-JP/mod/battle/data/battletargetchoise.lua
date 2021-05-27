@@ -19,7 +19,7 @@ end
 function slot2.TargetEntityUnit()
 	slot0 = {}
 
-	for slot5, slot6 in ipairs(ys.Battle.BattleDataProxy.GetInstance():GetUnitList()) do
+	for slot5, slot6 in pairs(ys.Battle.BattleDataProxy.GetInstance():GetUnitList()) do
 		if not slot6:IsSpectre() then
 			slot0[#slot0 + 1] = slot6
 		end

@@ -523,6 +523,16 @@ function slot10.GetYAngle(slot0)
 	return slot0._yAngle
 end
 
+function slot10.GetCurrentYAngle(slot0)
+	slot1 = Vector3.Normalize(slot0._speed)
+
+	if slot1.z < 0 then
+		slot2 = 360 - math.acos(slot1.x) / math.deg2Rad
+	end
+
+	return slot2
+end
+
 function slot10.GetIFF(slot0)
 	return slot0._IFF
 end

@@ -214,7 +214,7 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 10,
 		icon = "build_4",
-		exchange_ship_id = 307081,
+		exchange_ship_id = 105171,
 		rate_tip = {
 			"<color=#ff5e39>Uレア</color>：1.2%",
 			"<color=#ffde38>SSレア</color>：7%",
@@ -222,17 +222,15 @@ pg.ship_data_create_material = {
 			"<color=#3dc6ff>レア</color>：51%",
 			"ノーマル：28.8%",
 			" ",
-			"<color=#ff5e39>信濃</color>：1.2%(<color=#92fc63>up!</color>)",
+			"<color=#ff5e39>ニュージャージー</color>：1.2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>涼月</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>サンフランシスコ</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>紀伊</color>：0.5%",
+			"<color=#ffde38>アーチャーフィッシュ</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>樫野</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>タイコンデロガ</color>：0.5%",
 			" ",
-			"<color=#d797ff>千歳</color>：2.5%(<color=#92fc63>up!</color>)",
-			" ",
-			"<color=#d797ff>千代田</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>ボイシ</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	all = {

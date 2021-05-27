@@ -1,204 +1,186 @@
 pg = pg or {}
 pg.equip_data_statistics_376 = {
-	[85441] = {
-		id = 85441,
-		damage = "9 x 4",
-		base = 85440,
+	[85383] = {
+		id = 85383,
+		damage = "45/回",
+		base = 85380,
 		weapon_id = {
-			85441
+			85383
 		}
 	},
-	[85442] = {
-		id = 85442,
-		damage = "10 x 4",
-		base = 85440,
+	[85384] = {
+		id = 85384,
+		damage = "51/回",
+		base = 85380,
 		weapon_id = {
-			85442
+			85384
 		}
 	},
-	[85443] = {
-		id = 85443,
-		damage = "11 x 4",
-		base = 85440,
+	[85385] = {
+		id = 85385,
+		damage = "57/回",
+		base = 85380,
 		weapon_id = {
-			85443
+			85385
 		}
 	},
-	[85444] = {
-		id = 85444,
-		damage = "12 x 4",
-		base = 85440,
+	[85386] = {
+		id = 85386,
+		damage = "64/回",
+		base = 85380,
 		weapon_id = {
-			85444
+			85386
 		}
 	},
-	[85445] = {
-		id = 85445,
-		damage = "13 x 4",
-		base = 85440,
-		weapon_id = {
-			85445
-		}
-	},
-	[85446] = {
-		id = 85446,
-		damage = "14 x 4",
-		base = 85440,
-		weapon_id = {
-			85446
-		}
-	},
-	[85447] = {
-		id = 85447,
-		damage = "14 x 4",
-		base = 85440,
-		weapon_id = {
-			85447
-		}
-	},
-	[85460] = {
-		name = "180mm三連装砲B-1-P Model1932",
-		speciality = "追尾",
-		type = 2,
-		tech = 1,
-		descrip = "優秀な射程を持つ北方連合開発の三連装主砲。",
-		value_2 = 12,
-		icon = "85460",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "16 x 3",
+	[85400] = {
+		name = "100mm連装両用砲B-34 MZ-14",
+		speciality = "対空",
+		type = 6,
+		tech = 3,
+		descrip = "0",
+		value_2 = 25,
+		icon = "85360",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "38/回",
 		nationality = 7,
-		ammo = 1,
+		ammo = 5,
 		value_3 = 0,
-		id = 85460,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1712
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1712
-			},
-			{
-				4,
-				1108
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			85460
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"CL",
-			"MG",
-			"AP"
-		}
-	},
-	[85461] = {
-		id = 85461,
-		base = 85460,
-		weapon_id = {
-			85461
-		}
-	},
-	[85462] = {
-		id = 85462,
-		damage = "17 x 3",
-		base = 85460,
-		weapon_id = {
-			85462
-		}
-	},
-	[85463] = {
-		id = 85463,
-		damage = "18 x 3",
-		base = 85460,
-		weapon_id = {
-			85463
-		}
-	},
-	[85464] = {
-		id = 85464,
-		damage = "19 x 3",
-		base = 85460,
-		weapon_id = {
-			85464
-		}
-	},
-	[85465] = {
-		id = 85465,
-		damage = "20 x 3",
-		base = 85460,
-		weapon_id = {
-			85465
-		}
-	},
-	[85466] = {
-		id = 85466,
-		damage = "21 x 3",
-		base = 85460,
-		weapon_id = {
-			85466
-		}
-	},
-	[89000] = {
-		name = "ランダムワード生成器",
-		tech = 0,
-		type = 10,
-		speciality = "なし",
-		id = 89000,
-		value_2 = 6,
-		icon = "89000",
-		value_1 = "16",
-		attribute_2 = "dodge",
-		rarity = 5,
-		descrip = "企画をするときの頼りになるアイテム。まれにしゃべりだすことがあるという噂も…？",
-		nationality = 104,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "hit",
+		id = 85400,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {
-			6
+			1,
+			2,
+			6,
+			10
 		},
-		weapon_id = {},
-		skill_id = {
-			6380
+		weapon_id = {
+			85400
 		},
-		part_main = {},
-		part_sub = {},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
-			"DEV"
+			"SN",
+			"ST",
+			"AA"
 		}
 	},
-	[89001] = {
-		id = 89001,
-		base = 89000
+	[85401] = {
+		id = 85401,
+		damage = "42/回",
+		base = 85400,
+		weapon_id = {
+			85401
+		}
+	},
+	[85402] = {
+		id = 85402,
+		damage = "47/回",
+		base = 85400,
+		weapon_id = {
+			85402
+		}
+	},
+	[85403] = {
+		id = 85403,
+		damage = "53/回",
+		base = 85400,
+		weapon_id = {
+			85403
+		}
+	},
+	[85404] = {
+		id = 85404,
+		damage = "59/回",
+		base = 85400,
+		weapon_id = {
+			85404
+		}
+	},
+	[85405] = {
+		id = 85405,
+		damage = "65/回",
+		base = 85400,
+		weapon_id = {
+			85405
+		}
+	},
+	[85406] = {
+		id = 85406,
+		damage = "71/回",
+		base = 85400,
+		weapon_id = {
+			85406
+		}
+	},
+	[85407] = {
+		id = 85407,
+		damage = "77/回",
+		base = 85400,
+		weapon_id = {
+			85407
+		}
+	},
+	[85408] = {
+		id = 85408,
+		damage = "83/回",
+		base = 85400,
+		weapon_id = {
+			85408
+		}
+	},
+	[85409] = {
+		id = 85409,
+		damage = "89/回",
+		base = 85400,
+		weapon_id = {
+			85409
+		}
+	},
+	[85410] = {
+		id = 85410,
+		damage = "96/回",
+		base = 85400,
+		weapon_id = {
+			85410
+		}
+	},
+	[85411] = {
+		anti_siren = 100,
+		damage = "96/回",
+		base = 85400,
+		id = 85411,
+		weapon_id = {
+			85411
+		}
 	}
 }

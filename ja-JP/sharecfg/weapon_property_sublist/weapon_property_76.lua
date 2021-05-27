@@ -2,6 +2,128 @@ pg = pg or {}
 pg.weapon_property_76 = {}
 
 function ()
+	uv0.weapon_property_76[50131] = {
+		id = 50131,
+		reload_max = 60,
+		damage = 36,
+		base = 50120
+	}
+	uv0.weapon_property_76[50132] = {
+		id = 50132,
+		reload_max = 60,
+		damage = 39,
+		base = 50120
+	}
+	uv0.weapon_property_76[50133] = {
+		id = 50133,
+		reload_max = 60,
+		damage = 41,
+		base = 50120
+	}
+	uv0.weapon_property_76[50140] = {
+		action_index = "",
+		range = 24,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "4 x 7.7mm機銃",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 80,
+		charge_param = "",
+		damage = 16,
+		corrected = 100,
+		min_range = 0,
+		id = 50140,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 72,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2100
+		},
+		barrage_ID = {
+			2100
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_76[50141] = {
+		id = 50141,
+		reload_max = 70,
+		damage = 18,
+		base = 50140
+	}
+	uv0.weapon_property_76[50142] = {
+		id = 50142,
+		reload_max = 69,
+		damage = 20,
+		base = 50140
+	}
+	uv0.weapon_property_76[50143] = {
+		id = 50143,
+		reload_max = 67,
+		damage = 22,
+		base = 50140
+	}
+	uv0.weapon_property_76[50144] = {
+		id = 50144,
+		reload_max = 65,
+		damage = 24,
+		base = 50140
+	}
+	uv0.weapon_property_76[50145] = {
+		id = 50145,
+		reload_max = 63,
+		damage = 27,
+		base = 50140
+	}
+	uv0.weapon_property_76[50146] = {
+		id = 50146,
+		reload_max = 62,
+		damage = 30,
+		base = 50140
+	}
+	uv0.weapon_property_76[50147] = {
+		id = 50147,
+		reload_max = 61,
+		damage = 32,
+		base = 50140
+	}
+	uv0.weapon_property_76[50148] = {
+		id = 50148,
+		reload_max = 60,
+		damage = 34,
+		base = 50140
+	}
+	uv0.weapon_property_76[50149] = {
+		id = 50149,
+		reload_max = 58,
+		damage = 36,
+		base = 50140
+	}
+	uv0.weapon_property_76[50150] = {
+		id = 50150,
+		reload_max = 57,
+		damage = 38,
+		base = 50140
+	}
 	uv0.weapon_property_76[50151] = {
 		id = 50151,
 		reload_max = 57,
@@ -435,127 +557,5 @@ function ()
 		reload_max = 70,
 		damage = 29,
 		base = 50240
-	}
-	uv0.weapon_property_76[50242] = {
-		id = 50242,
-		reload_max = 69,
-		damage = 32,
-		base = 50240
-	}
-	uv0.weapon_property_76[50243] = {
-		id = 50243,
-		reload_max = 67,
-		damage = 35,
-		base = 50240
-	}
-	uv0.weapon_property_76[50244] = {
-		id = 50244,
-		reload_max = 65,
-		damage = 38,
-		base = 50240
-	}
-	uv0.weapon_property_76[50245] = {
-		id = 50245,
-		reload_max = 63,
-		damage = 43,
-		base = 50240
-	}
-	uv0.weapon_property_76[50246] = {
-		id = 50246,
-		reload_max = 62,
-		damage = 48,
-		base = 50240
-	}
-	uv0.weapon_property_76[50247] = {
-		id = 50247,
-		reload_max = 61,
-		damage = 51,
-		base = 50240
-	}
-	uv0.weapon_property_76[50248] = {
-		id = 50248,
-		reload_max = 60,
-		damage = 54,
-		base = 50240
-	}
-	uv0.weapon_property_76[50249] = {
-		id = 50249,
-		reload_max = 58,
-		damage = 58,
-		base = 50240
-	}
-	uv0.weapon_property_76[50250] = {
-		id = 50250,
-		reload_max = 57,
-		damage = 61,
-		base = 50240
-	}
-	uv0.weapon_property_76[50251] = {
-		id = 50251,
-		reload_max = 57,
-		damage = 63,
-		base = 50240
-	}
-	uv0.weapon_property_76[50252] = {
-		id = 50252,
-		reload_max = 57,
-		damage = 67,
-		base = 50240
-	}
-	uv0.weapon_property_76[50253] = {
-		id = 50253,
-		reload_max = 57,
-		damage = 72,
-		base = 50240
-	}
-	uv0.weapon_property_76[50300] = {
-		action_index = "",
-		range = 30,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "4 x 12.7mm機銃",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 18,
-		corrected = 100,
-		min_range = 0,
-		id = 50300,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 133,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2100
-		},
-		barrage_ID = {
-			2100
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_76[50301] = {
-		id = 50301,
-		reload_max = 129,
-		damage = 20,
-		base = 50300
 	}
 end()

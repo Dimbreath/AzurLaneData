@@ -1,176 +1,240 @@
 pg = pg or {}
 pg.equip_data_statistics_373 = {
-	[85302] = {
-		id = 85302,
-		damage = "67 x 3",
-		base = 85300,
+	[85228] = {
+		id = 85228,
+		damage = "38/回",
+		base = 85220,
 		weapon_id = {
-			85302
+			85228
 		}
 	},
-	[85303] = {
-		id = 85303,
-		damage = "76 x 3",
-		base = 85300,
+	[85229] = {
+		id = 85229,
+		damage = "41/回",
+		base = 85220,
 		weapon_id = {
-			85303
+			85229
 		}
 	},
-	[85304] = {
-		id = 85304,
-		damage = "84 x 3",
-		base = 85300,
+	[85230] = {
+		id = 85230,
+		damage = "44/回",
+		base = 85220,
 		weapon_id = {
-			85304
+			85230
 		}
 	},
-	[85305] = {
-		id = 85305,
-		damage = "92 x 3",
-		base = 85300,
+	[85231] = {
+		anti_siren = 100,
+		damage = "44/回",
+		base = 85220,
+		id = 85231,
 		weapon_id = {
-			85305
+			85231
 		}
 	},
-	[85306] = {
-		id = 85306,
-		damage = "101 x 3",
-		base = 85300,
-		weapon_id = {
-			85306
-		}
-	},
-	[85320] = {
-		name = "406mm三連装砲B-37 MK-1",
-		speciality = "投射",
-		type = 4,
+	[85260] = {
+		name = "100mm連装高角砲B-54",
+		speciality = "対空",
+		type = 6,
 		tech = 2,
 		descrip = "0",
-		value_2 = 25,
-		icon = "85300",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "56 x 3",
+		value_2 = 12,
+		icon = "85240",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "36/回",
 		nationality = 7,
-		ammo = 3,
+		ammo = 5,
 		value_3 = 0,
-		id = 85320,
+		id = 85260,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1571
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			85320
+			85260
 		},
 		skill_id = {},
 		part_main = {
+			1,
+			2,
+			3,
 			4,
 			5,
+			6,
 			10,
-			13
+			12,
+			13,
+			18,
+			19
 		},
-		part_sub = {},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
 			"SN",
-			"BB",
-			"MG",
-			"AP"
+			"ST",
+			"AA"
 		}
 	},
-	[85321] = {
-		id = 85321,
-		damage = "65 x 3",
-		base = 85320,
+	[85261] = {
+		id = 85261,
+		damage = "41/回",
+		base = 85260,
 		weapon_id = {
-			85321
+			85261
 		}
 	},
-	[85322] = {
-		id = 85322,
-		damage = "73 x 3",
-		base = 85320,
+	[85262] = {
+		id = 85262,
+		damage = "47/回",
+		base = 85260,
 		weapon_id = {
-			85322
+			85262
 		}
 	},
-	[85323] = {
-		id = 85323,
-		damage = "83 x 3",
-		base = 85320,
+	[85263] = {
+		id = 85263,
+		damage = "52/回",
+		base = 85260,
 		weapon_id = {
-			85323
+			85263
 		}
 	},
-	[85324] = {
-		id = 85324,
-		damage = "92 x 3",
-		base = 85320,
+	[85264] = {
+		id = 85264,
+		damage = "59/回",
+		base = 85260,
 		weapon_id = {
-			85324
+			85264
 		}
 	},
-	[85325] = {
-		id = 85325,
-		damage = "102 x 3",
-		base = 85320,
+	[85265] = {
+		id = 85265,
+		damage = "66/回",
+		base = 85260,
 		weapon_id = {
-			85325
+			85265
 		}
 	},
-	[85326] = {
-		id = 85326,
-		damage = "112 x 3",
-		base = 85320,
+	[85266] = {
+		id = 85266,
+		damage = "73/回",
+		base = 85260,
 		weapon_id = {
-			85326
+			85266
 		}
 	},
-	[85327] = {
-		id = 85327,
-		damage = "120 x 3",
-		base = 85320,
+	[85280] = {
+		name = "100mm連装高角砲B-54",
+		speciality = "対空",
+		type = 6,
+		tech = 3,
+		descrip = "0",
+		value_2 = 25,
+		icon = "85240",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "43/回",
+		nationality = 7,
+		ammo = 5,
+		value_3 = 0,
+		id = 85280,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
 		weapon_id = {
-			85327
+			85280
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
 		}
 	},
-	[85328] = {
-		id = 85328,
-		damage = "129 x 3",
-		base = 85320,
+	[85281] = {
+		id = 85281,
+		damage = "48/回",
+		base = 85280,
 		weapon_id = {
-			85328
+			85281
 		}
 	},
-	[85329] = {
-		id = 85329,
-		damage = "139 x 3",
-		base = 85320,
+	[85282] = {
+		id = 85282,
+		damage = "54/回",
+		base = 85280,
 		weapon_id = {
-			85329
+			85282
 		}
 	},
-	[85330] = {
-		id = 85330,
-		damage = "149 x 3",
-		base = 85320,
+	[85283] = {
+		id = 85283,
+		damage = "61/回",
+		base = 85280,
 		weapon_id = {
-			85330
+			85283
+		}
+	},
+	[85284] = {
+		id = 85284,
+		damage = "68/回",
+		base = 85280,
+		weapon_id = {
+			85284
 		}
 	}
 }

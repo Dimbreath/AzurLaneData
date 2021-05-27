@@ -9,45 +9,51 @@ return {
 	{},
 	{},
 	{},
-	desc_get = "队伍中存在克利夫兰级的角色时，机队变化",
-	name = "天之骑士",
+	desc_get = "",
+	name = "天之骑士·检测PUTAG",
 	init_effect = "",
 	id = 11920,
 	time = 0,
 	picture = "",
-	desc = "空袭时额外机队攻击，队伍中存在克利夫兰级的角色时，机队变化",
+	desc = "检查TAG",
 	stack = 1,
-	color = "yellow",
+	color = "red",
 	icon = 11920,
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffCastSkill",
+			type = "BattleBuffAddBuff",
 			trigger = {
-				"onAllInStrikeSteady"
+				"onStartGame"
 			},
 			arg_list = {
-				minTargetNumber = 1,
-				check_target = "TargetShipTag",
-				skill_id = 11920,
+				buff_id = 11923,
+				maxTargetNumber = 0,
 				target = "TargetSelf",
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
-					"Cleveland-Class"
+					"KnightPowerUp"
 				}
 			}
 		},
 		{
-			type = "BattleBuffCastSkill",
+			type = "BattleBuffAddBuff",
 			trigger = {
-				"onAllInStrikeSteady"
+				"onStartGame"
 			},
 			arg_list = {
-				check_target = "TargetShipTag",
-				skill_id = 11921,
-				maxTargetNumber = 0,
+				buff_id = 11924,
+				minTargetNumber = 1,
 				target = "TargetSelf",
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
-					"Cleveland-Class"
+					"KnightPowerUp"
 				}
 			}
 		},

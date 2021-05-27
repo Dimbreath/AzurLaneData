@@ -1,109 +1,119 @@
 pg = pg or {}
 pg.equip_data_statistics_176 = {
-	[25021] = {
-		id = 25021,
-		damage = "73 x 4",
-		base = 25020,
+	[24342] = {
+		id = 24342,
+		damage = "70 x 2",
+		base = 24340,
 		weapon_id = {
-			25021
+			24342
 		}
 	},
-	[25022] = {
-		id = 25022,
-		damage = "84 x 4",
-		base = 25020,
+	[24343] = {
+		id = 24343,
+		damage = "77 x 2",
+		base = 24340,
 		weapon_id = {
-			25022
+			24343
 		}
 	},
-	[25023] = {
-		id = 25023,
-		damage = "95 x 4",
-		base = 25020,
+	[24344] = {
+		id = 24344,
+		damage = "85 x 2",
+		base = 24340,
 		weapon_id = {
-			25023
+			24344
 		}
 	},
-	[25024] = {
-		id = 25024,
-		damage = "106 x 4",
-		base = 25020,
+	[24345] = {
+		id = 24345,
+		damage = "93 x 2",
+		base = 24340,
 		weapon_id = {
-			25024
+			24345
 		}
 	},
-	[25025] = {
-		id = 25025,
-		damage = "117 x 4",
-		base = 25020,
+	[24346] = {
+		id = 24346,
+		damage = "101 x 2",
+		base = 24340,
 		weapon_id = {
-			25025
+			24346
 		}
 	},
-	[25026] = {
-		id = 25026,
-		damage = "128 x 4",
-		base = 25020,
+	[24347] = {
+		id = 24347,
+		damage = "109 x 2",
+		base = 24340,
 		weapon_id = {
-			25026
+			24347
 		}
 	},
-	[25027] = {
-		id = 25027,
-		damage = "139 x 4",
-		base = 25020,
+	[24348] = {
+		id = 24348,
+		damage = "117 x 2",
+		base = 24340,
 		weapon_id = {
-			25027
+			24348
 		}
 	},
-	[25028] = {
-		id = 25028,
-		damage = "150 x 4",
-		base = 25020,
+	[24349] = {
+		id = 24349,
+		damage = "125 x 2",
+		base = 24340,
 		weapon_id = {
-			25028
+			24349
 		}
 	},
-	[25029] = {
-		id = 25029,
-		damage = "161 x 4",
-		base = 25020,
+	[24350] = {
+		id = 24350,
+		damage = "133 x 2",
+		base = 24340,
 		weapon_id = {
-			25029
+			24350
 		}
 	},
-	[25030] = {
-		id = 25030,
-		damage = "172 x 4",
-		base = 25020,
-		weapon_id = {
-			25030
-		}
-	},
-	[25031] = {
+	[24351] = {
 		anti_siren = 100,
-		damage = "172 x 4",
-		base = 25020,
-		id = 25031,
+		damage = "133 x 2",
+		base = 24340,
+		id = 24351,
 		weapon_id = {
-			25031
+			24351
 		}
 	},
-	[25040] = {
-		name = "533mm五連装魚雷MarkIX",
+	[24352] = {
+		anti_siren = 200,
+		damage = "133 x 2",
+		base = 24340,
+		id = 24352,
+		weapon_id = {
+			24352
+		}
+	},
+	[24353] = {
+		anti_siren = 300,
+		damage = "133 x 2",
+		base = 24340,
+		id = 24353,
+		weapon_id = {
+			24353
+		}
+	},
+	[25000] = {
+		name = "533mm三連装魚雷MarkIX",
 		speciality = "雷撃",
 		type = 5,
 		tech = 0,
 		descrip = "0",
-		value_2 = 45,
-		icon = "25040",
+		value_2 = 12,
+		icon = "25000",
 		attribute_2 = "torpedo",
-		rarity = 5,
-		damage = "62 x 5",
+		rarity = 3,
+		damage = "62 x 3",
 		nationality = 2,
 		ammo = 5,
 		value_3 = 0,
-		id = 25040,
+		id = 25000,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -120,7 +130,7 @@ pg.equip_data_statistics_176 = {
 			},
 			{
 				4,
-				1404
+				1402
 			},
 			6,
 			10,
@@ -128,7 +138,7 @@ pg.equip_data_statistics_176 = {
 			12
 		},
 		weapon_id = {
-			25040
+			25000
 		},
 		skill_id = {},
 		part_main = {
@@ -148,39 +158,31 @@ pg.equip_data_statistics_176 = {
 			"HMS",
 			"ST",
 			"TP",
-			"QUINT"
+			"TRI"
 		}
 	},
-	[25041] = {
-		id = 25041,
-		damage = "73 x 5",
-		base = 25040,
+	[25001] = {
+		id = 25001,
+		damage = "73 x 3",
+		base = 25000,
 		weapon_id = {
-			25041
+			25001
 		}
 	},
-	[25042] = {
-		id = 25042,
-		damage = "84 x 5",
-		base = 25040,
+	[25002] = {
+		id = 25002,
+		damage = "84 x 3",
+		base = 25000,
 		weapon_id = {
-			25042
+			25002
 		}
 	},
-	[25043] = {
-		id = 25043,
-		damage = "95 x 5",
-		base = 25040,
+	[25003] = {
+		id = 25003,
+		damage = "95 x 3",
+		base = 25000,
 		weapon_id = {
-			25043
-		}
-	},
-	[25044] = {
-		id = 25044,
-		damage = "106 x 5",
-		base = 25040,
-		weapon_id = {
-			25044
+			25003
 		}
 	}
 }

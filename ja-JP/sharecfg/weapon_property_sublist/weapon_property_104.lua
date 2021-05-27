@@ -2,6 +2,115 @@ pg = pg or {}
 pg.weapon_property_104 = {}
 
 function ()
+	uv0.weapon_property_104[59620] = {
+		action_index = "",
+		range = 75,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "3 x 航空魚雷-通用",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 24,
+		charge_param = "",
+		damage = 127,
+		corrected = 100,
+		min_range = 0,
+		id = 59620,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2115
+		},
+		barrage_ID = {
+			2112
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_104[59621] = {
+		id = 59621,
+		damage = 148,
+		base = 59620
+	}
+	uv0.weapon_property_104[59622] = {
+		id = 59622,
+		damage = 169,
+		base = 59620
+	}
+	uv0.weapon_property_104[59623] = {
+		id = 59623,
+		damage = 190,
+		base = 59620
+	}
+	uv0.weapon_property_104[59624] = {
+		id = 59624,
+		damage = 211,
+		base = 59620
+	}
+	uv0.weapon_property_104[59625] = {
+		id = 59625,
+		damage = 232,
+		base = 59620
+	}
+	uv0.weapon_property_104[59626] = {
+		id = 59626,
+		damage = 253,
+		base = 59620
+	}
+	uv0.weapon_property_104[59627] = {
+		id = 59627,
+		damage = 274,
+		base = 59620
+	}
+	uv0.weapon_property_104[59628] = {
+		id = 59628,
+		damage = 295,
+		base = 59620
+	}
+	uv0.weapon_property_104[59629] = {
+		id = 59629,
+		damage = 316,
+		base = 59620
+	}
+	uv0.weapon_property_104[59630] = {
+		id = 59630,
+		damage = 337,
+		base = 59620
+	}
+	uv0.weapon_property_104[59631] = {
+		id = 59631,
+		damage = 350,
+		base = 59620
+	}
+	uv0.weapon_property_104[59632] = {
+		id = 59632,
+		damage = 371,
+		base = 59620
+	}
+	uv0.weapon_property_104[59633] = {
+		id = 59633,
+		damage = 398,
+		base = 59620
+	}
 	uv0.weapon_property_104[59640] = {
 		action_index = "",
 		range = 75,
@@ -394,118 +503,5 @@ function ()
 		id = 59704,
 		damage = 128,
 		base = 59700
-	}
-	uv0.weapon_property_104[59705] = {
-		id = 59705,
-		damage = 149,
-		base = 59700
-	}
-	uv0.weapon_property_104[59706] = {
-		id = 59706,
-		damage = 170,
-		base = 59700
-	}
-	uv0.weapon_property_104[59707] = {
-		id = 59707,
-		damage = 191,
-		base = 59700
-	}
-	uv0.weapon_property_104[59708] = {
-		id = 59708,
-		damage = 212,
-		base = 59700
-	}
-	uv0.weapon_property_104[59709] = {
-		id = 59709,
-		damage = 233,
-		base = 59700
-	}
-	uv0.weapon_property_104[59710] = {
-		id = 59710,
-		damage = 254,
-		base = 59700
-	}
-	uv0.weapon_property_104[59711] = {
-		id = 59711,
-		damage = 264,
-		base = 59700
-	}
-	uv0.weapon_property_104[59712] = {
-		id = 59712,
-		damage = 279,
-		base = 59700
-	}
-	uv0.weapon_property_104[59713] = {
-		id = 59713,
-		damage = 300,
-		base = 59700
-	}
-	uv0.weapon_property_104[59720] = {
-		action_index = "",
-		range = 24,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "1 x 7.92mm MG机枪",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 80,
-		charge_param = "",
-		damage = 6,
-		corrected = 100,
-		min_range = 0,
-		id = 59720,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 59,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2100
-		},
-		barrage_ID = {
-			2100
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_104[59721] = {
-		id = 59721,
-		reload_max = 58,
-		damage = 7,
-		base = 59720
-	}
-	uv0.weapon_property_104[59722] = {
-		id = 59722,
-		reload_max = 57,
-		damage = 8,
-		base = 59720
-	}
-	uv0.weapon_property_104[59723] = {
-		id = 59723,
-		reload_max = 56,
-		damage = 9,
-		base = 59720
-	}
-	uv0.weapon_property_104[59724] = {
-		id = 59724,
-		reload_max = 55,
-		damage = 10,
-		base = 59720
 	}
 end()

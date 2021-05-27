@@ -1,109 +1,93 @@
 pg = pg or {}
 pg.equip_data_statistics_121 = {
-	[16241] = {
-		id = 16241,
-		damage = "33/回",
-		base = 16240,
+	[16163] = {
+		id = 16163,
+		damage = "31/回",
+		base = 16160,
 		weapon_id = {
-			16241
+			16163
 		}
 	},
-	[16242] = {
-		id = 16242,
+	[16164] = {
+		id = 16164,
+		damage = "34/回",
+		base = 16160,
+		weapon_id = {
+			16164
+		}
+	},
+	[16165] = {
+		id = 16165,
 		damage = "37/回",
-		base = 16240,
+		base = 16160,
 		weapon_id = {
-			16242
+			16165
 		}
 	},
-	[16243] = {
-		id = 16243,
-		damage = "41/回",
-		base = 16240,
+	[16166] = {
+		id = 16166,
+		damage = "40/回",
+		base = 16160,
 		weapon_id = {
-			16243
+			16166
 		}
 	},
-	[16244] = {
-		id = 16244,
-		damage = "45/回",
-		base = 16240,
+	[16167] = {
+		id = 16167,
+		damage = "43/回",
+		base = 16160,
 		weapon_id = {
-			16244
+			16167
 		}
 	},
-	[16245] = {
-		id = 16245,
+	[16168] = {
+		id = 16168,
+		damage = "46/回",
+		base = 16160,
+		weapon_id = {
+			16168
+		}
+	},
+	[16169] = {
+		id = 16169,
 		damage = "49/回",
-		base = 16240,
+		base = 16160,
 		weapon_id = {
-			16245
+			16169
 		}
 	},
-	[16246] = {
-		id = 16246,
-		damage = "53/回",
-		base = 16240,
+	[16170] = {
+		id = 16170,
+		damage = "52/回",
+		base = 16160,
 		weapon_id = {
-			16246
+			16170
 		}
 	},
-	[16247] = {
-		id = 16247,
-		damage = "57/回",
-		base = 16240,
-		weapon_id = {
-			16247
-		}
-	},
-	[16248] = {
-		id = 16248,
-		damage = "62/回",
-		base = 16240,
-		weapon_id = {
-			16248
-		}
-	},
-	[16249] = {
-		id = 16249,
-		damage = "67/回",
-		base = 16240,
-		weapon_id = {
-			16249
-		}
-	},
-	[16250] = {
-		id = 16250,
-		damage = "72/回",
-		base = 16240,
-		weapon_id = {
-			16250
-		}
-	},
-	[16251] = {
+	[16171] = {
 		anti_siren = 100,
-		damage = "72/回",
-		base = 16240,
-		id = 16251,
+		damage = "52/回",
+		base = 16160,
+		id = 16171,
 		weapon_id = {
-			16251
+			16171
 		}
 	},
-	[16300] = {
-		name = "二連装ボフォース40mm機関砲",
+	[16200] = {
+		name = "四連装28mm対空機銃「シカゴピアノ」",
 		speciality = "対空",
 		type = 6,
 		tech = 1,
 		descrip = "0",
 		value_2 = 5,
-		icon = "16300",
+		icon = "16200",
 		attribute_2 = "antiaircraft",
 		rarity = 2,
-		damage = "19/回",
+		damage = "22/回",
 		nationality = 1,
 		ammo = 5,
 		value_3 = 0,
-		id = 16300,
+		id = 16200,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -115,7 +99,7 @@ pg.equip_data_statistics_121 = {
 			10
 		},
 		weapon_id = {
-			16300
+			16200
 		},
 		skill_id = {},
 		part_main = {
@@ -151,45 +135,45 @@ pg.equip_data_statistics_121 = {
 			"AA"
 		}
 	},
-	[16301] = {
-		id = 16301,
-		damage = "22/回",
-		base = 16300,
+	[16201] = {
+		id = 16201,
+		damage = "26/回",
+		base = 16200,
 		weapon_id = {
-			16301
+			16201
 		}
 	},
-	[16302] = {
-		id = 16302,
-		damage = "25/回",
-		base = 16300,
+	[16202] = {
+		id = 16202,
+		damage = "30/回",
+		base = 16200,
 		weapon_id = {
-			16302
+			16202
 		}
 	},
-	[16303] = {
-		id = 16303,
-		damage = "29/回",
-		base = 16300,
+	[16203] = {
+		id = 16203,
+		damage = "34/回",
+		base = 16200,
 		weapon_id = {
-			16303
+			16203
 		}
 	},
-	[16320] = {
-		name = "二連装ボフォース40mm機関砲",
+	[16220] = {
+		name = "四連装28mm対空機銃「シカゴピアノ」",
 		speciality = "対空",
 		type = 6,
 		tech = 2,
 		descrip = "0",
 		value_2 = 12,
-		icon = "16300",
+		icon = "16200",
 		attribute_2 = "antiaircraft",
 		rarity = 3,
-		damage = "23/回",
+		damage = "25/回",
 		nationality = 1,
 		ammo = 5,
 		value_3 = 0,
-		id = 16320,
+		id = 16220,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -201,7 +185,7 @@ pg.equip_data_statistics_121 = {
 			10
 		},
 		weapon_id = {
-			16320
+			16220
 		},
 		skill_id = {},
 		part_main = {
@@ -235,6 +219,22 @@ pg.equip_data_statistics_121 = {
 			"USS",
 			"ST",
 			"AA"
+		}
+	},
+	[16221] = {
+		id = 16221,
+		damage = "29/回",
+		base = 16220,
+		weapon_id = {
+			16221
+		}
+	},
+	[16222] = {
+		id = 16222,
+		damage = "33/回",
+		base = 16220,
+		weapon_id = {
+			16222
 		}
 	}
 }

@@ -1,51 +1,39 @@
 pg = pg or {}
 pg.equip_data_statistics_387 = {
-	[89228] = {
-		id = 89228,
-		value_1 = "490",
-		base = 89220
-	},
-	[89229] = {
-		id = 89229,
-		value_1 = "520",
-		base = 89220
-	},
-	[89230] = {
-		id = 89230,
-		value_1 = "550",
-		base = 89220
-	},
-	[89231] = {
-		id = 89231,
+	[89191] = {
+		id = 89191,
 		anti_siren = 100,
-		value_1 = "580",
-		base = 89220
+		base = 89180,
+		value_2 = 32,
+		value_1 = "38"
 	},
-	[89232] = {
-		id = 89232,
+	[89192] = {
+		id = 89192,
 		anti_siren = 200,
-		value_1 = "610",
-		base = 89220
+		base = 89180,
+		value_2 = 34,
+		value_1 = "41"
 	},
-	[89233] = {
-		id = 89233,
+	[89193] = {
+		id = 89193,
 		anti_siren = 300,
-		value_1 = "640",
-		base = 89220
+		base = 89180,
+		value_2 = 36,
+		value_1 = "44"
 	},
-	[89240] = {
-		name = "ヴィーナス覚醒ジェム",
+	[89200] = {
+		name = "グラヴィティシューズ",
 		tech = 0,
 		type = 10,
 		speciality = "なし",
-		id = 89240,
-		value_2 = 16,
-		icon = "89240",
-		value_1 = "6",
-		attribute_2 = "hit",
+		id = 89200,
+		value_2 = 1,
+		icon = "89200",
+		value_1 = "13",
+		attribute_2 = "speed",
 		rarity = 5,
-		descrip = "",
-		nationality = 106,
+		descrip = "「名付けて、なりきりアイドルにゃ！」装備艦船は「μ兵装」としても扱われます",
+		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "dodge",
@@ -58,7 +46,7 @@ pg.equip_data_statistics_387 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6720
+			6690
 		},
 		part_main = {},
 		part_sub = {},
@@ -67,57 +55,76 @@ pg.equip_data_statistics_387 = {
 			"DEV"
 		}
 	},
-	[89241] = {
-		id = 89241,
-		value_1 = "7",
-		base = 89240
-	},
-	[89242] = {
-		id = 89242,
-		value_2 = 17,
-		value_1 = "7",
-		base = 89240
-	},
-	[89243] = {
-		id = 89243,
-		value_2 = 18,
-		value_1 = "8",
-		base = 89240
-	},
-	[89244] = {
-		id = 89244,
-		value_2 = 19,
-		value_1 = "9",
-		base = 89240
-	},
-	[89245] = {
-		id = 89245,
-		value_2 = 20,
-		value_1 = "10",
-		base = 89240
-	},
-	[89246] = {
-		id = 89246,
-		value_2 = 21,
-		value_1 = "11",
-		base = 89240
-	},
-	[89247] = {
-		id = 89247,
-		value_2 = 22,
-		value_1 = "12",
-		base = 89240
-	},
-	[89248] = {
-		id = 89248,
-		value_2 = 23,
-		value_1 = "13",
-		base = 89240
-	},
-	[89249] = {
-		id = 89249,
-		value_2 = 24,
+	[89201] = {
+		id = 89201,
 		value_1 = "14",
-		base = 89240
+		base = 89200
+	},
+	[89202] = {
+		id = 89202,
+		value_1 = "15",
+		base = 89200
+	},
+	[89203] = {
+		id = 89203,
+		value_2 = 2,
+		value_1 = "16",
+		base = 89200
+	},
+	[89204] = {
+		id = 89204,
+		value_2 = 2,
+		value_1 = "17",
+		base = 89200
+	},
+	[89205] = {
+		id = 89205,
+		value_2 = 2,
+		value_1 = "18",
+		base = 89200
+	},
+	[89206] = {
+		id = 89206,
+		value_2 = 3,
+		value_1 = "20",
+		base = 89200
+	},
+	[89207] = {
+		id = 89207,
+		value_2 = 3,
+		value_1 = "22",
+		base = 89200
+	},
+	[89208] = {
+		id = 89208,
+		value_2 = 4,
+		value_1 = "24",
+		base = 89200
+	},
+	[89209] = {
+		id = 89209,
+		value_2 = 4,
+		value_1 = "26",
+		base = 89200
+	},
+	[89210] = {
+		id = 89210,
+		value_2 = 5,
+		value_1 = "28",
+		base = 89200
+	},
+	[89211] = {
+		id = 89211,
+		anti_siren = 100,
+		base = 89200,
+		value_2 = 5,
+		value_1 = "30"
+	},
+	[89212] = {
+		id = 89212,
+		anti_siren = 200,
+		base = 89200,
+		value_2 = 5,
+		value_1 = "32"
 	}
 }

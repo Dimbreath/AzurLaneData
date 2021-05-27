@@ -22,12 +22,13 @@ function slot0.FurnituresUpdated(slot0, slot1)
 end
 
 function slot0.SetUp(slot0, slot1, slot2, slot3)
+	slot0:Show()
+
 	slot0.pageType = slot1
 	slot0.dorm = slot2
 	slot0.player = slot3
 
 	slot0:OnSetUp()
-	slot0:Show()
 end
 
 function slot0.ShowFurnitureMsgBox(slot0, slot1)

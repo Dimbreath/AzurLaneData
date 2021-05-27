@@ -17,6 +17,7 @@ slot1.TypeInstagram = 12
 slot1.TypePizzahut = 13
 slot1.TypeSecondSummary = 14
 slot1.TypePoraisMedals = 15
+slot1.TypeIcecream = 16
 slot1.PANEL_TYPE_BLACK = 1
 slot1.PANEL_TYPE_PINK = 2
 slot1.ANCHORS_TYPE = {

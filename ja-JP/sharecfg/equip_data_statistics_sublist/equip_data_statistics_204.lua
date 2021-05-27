@@ -1,8 +1,134 @@
 pg = pg or {}
 pg.equip_data_statistics_204 = {
-	[27330] = {
-		id = 27330,
-		base = 27320,
+	[27303] = {
+		id = 27303,
+		base = 27300,
+		ammo_info = {
+			{
+				6,
+				50663
+			},
+			{
+				5,
+				52343
+			}
+		},
+		weapon_id = {
+			27303,
+			82303
+		}
+	},
+	[27304] = {
+		id = 27304,
+		base = 27300,
+		ammo_info = {
+			{
+				6,
+				50664
+			},
+			{
+				5,
+				52344
+			}
+		},
+		weapon_id = {
+			27304,
+			82304
+		}
+	},
+	[27305] = {
+		id = 27305,
+		base = 27300,
+		ammo_info = {
+			{
+				6,
+				50665
+			},
+			{
+				5,
+				52345
+			}
+		},
+		weapon_id = {
+			27305,
+			82305
+		}
+	},
+	[27306] = {
+		id = 27306,
+		base = 27300,
+		ammo_info = {
+			{
+				6,
+				50666
+			},
+			{
+				5,
+				52346
+			}
+		},
+		weapon_id = {
+			27306,
+			82306
+		}
+	},
+	[27307] = {
+		id = 27307,
+		base = 27300,
+		ammo_info = {
+			{
+				6,
+				50667
+			},
+			{
+				5,
+				52347
+			}
+		},
+		weapon_id = {
+			27307,
+			82307
+		}
+	},
+	[27308] = {
+		id = 27308,
+		base = 27300,
+		ammo_info = {
+			{
+				6,
+				50668
+			},
+			{
+				5,
+				52348
+			}
+		},
+		weapon_id = {
+			27308,
+			82308
+		}
+	},
+	[27309] = {
+		id = 27309,
+		base = 27300,
+		ammo_info = {
+			{
+				6,
+				50669
+			},
+			{
+				5,
+				52349
+			}
+		},
+		weapon_id = {
+			27309,
+			82309
+		}
+	},
+	[27310] = {
+		id = 27310,
+		base = 27300,
 		ammo_info = {
 			{
 				6,
@@ -10,18 +136,18 @@ pg.equip_data_statistics_204 = {
 			},
 			{
 				5,
-				52770
+				52350
 			}
 		},
 		weapon_id = {
-			27330,
-			82330
+			27310,
+			82310
 		}
 	},
-	[27331] = {
+	[27311] = {
 		anti_siren = 100,
-		base = 27320,
-		id = 27331,
+		base = 27300,
+		id = 27311,
 		ammo_info = {
 			{
 				6,
@@ -29,18 +155,18 @@ pg.equip_data_statistics_204 = {
 			},
 			{
 				5,
-				52771
+				52351
 			}
 		},
 		weapon_id = {
-			27331,
-			82331
+			27311,
+			82311
 		}
 	},
-	[27332] = {
+	[27312] = {
 		anti_siren = 200,
-		base = 27320,
-		id = 27332,
+		base = 27300,
+		id = 27312,
 		ammo_info = {
 			{
 				6,
@@ -48,18 +174,18 @@ pg.equip_data_statistics_204 = {
 			},
 			{
 				5,
-				52772
+				52352
 			}
 		},
 		weapon_id = {
-			27332,
-			82332
+			27312,
+			82312
 		}
 	},
-	[27333] = {
+	[27313] = {
 		anti_siren = 300,
-		base = 27320,
-		id = 27333,
+		base = 27300,
+		id = 27313,
 		ammo_info = {
 			{
 				6,
@@ -67,39 +193,39 @@ pg.equip_data_statistics_204 = {
 			},
 			{
 				5,
-				52773
+				52353
 			}
 		},
 		weapon_id = {
-			27333,
-			82333
+			27313,
+			82313
 		}
 	},
-	[28000] = {
-		name = "ソードフィッシュ",
-		type = 8,
-		speciality = "雷撃",
-		rarity = 2,
-		tech = 1,
-		descrip = "0",
-		value_2 = 5,
-		icon = "28000",
+	[27320] = {
+		name = "シーホーネット",
+		type = 7,
+		speciality = "航空",
+		rarity = 5,
+		tech = 0,
+		descrip = "ロイヤル双発戦闘機「デ・ハビランド ホーネット」の艦載機。高い速度を始めとした優秀な性能を誇る",
+		value_2 = 45,
+		icon = "27320",
 		attribute_2 = "air",
 		nationality = 2,
 		ammo = 5,
 		value_3 = 0,
-		id = 28000,
+		id = 27320,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				6,
-				50000
+				50660
 			},
 			{
-				4,
-				51000
+				5,
+				52760
 			}
 		},
 		equip_info = {
@@ -109,7 +235,8 @@ pg.equip_data_statistics_204 = {
 			9
 		},
 		weapon_id = {
-			28000
+			27320,
+			82320
 		},
 		skill_id = {},
 		part_main = {
@@ -124,264 +251,79 @@ pg.equip_data_statistics_204 = {
 		label = {
 			"HMS",
 			"CV",
-			"TB"
+			"FT"
 		}
 	},
-	[28001] = {
-		id = 28001,
-		base = 28000,
+	[27321] = {
+		id = 27321,
+		base = 27320,
 		ammo_info = {
 			{
 				6,
-				50001
+				50661
 			},
 			{
-				4,
-				51001
+				5,
+				52761
 			}
 		},
 		weapon_id = {
-			28001
+			27321,
+			82321
 		}
 	},
-	[28002] = {
-		id = 28002,
-		base = 28000,
+	[27322] = {
+		id = 27322,
+		base = 27320,
 		ammo_info = {
 			{
 				6,
-				50002
+				50662
 			},
 			{
-				4,
-				51002
+				5,
+				52762
 			}
 		},
 		weapon_id = {
-			28002
+			27322,
+			82322
 		}
 	},
-	[28003] = {
-		id = 28003,
-		base = 28000,
+	[27323] = {
+		id = 27323,
+		base = 27320,
 		ammo_info = {
 			{
 				6,
-				50003
+				50663
 			},
 			{
-				4,
-				51003
+				5,
+				52763
 			}
 		},
 		weapon_id = {
-			28003
+			27323,
+			82323
 		}
 	},
-	[28020] = {
-		name = "ソードフィッシュ",
-		type = 8,
-		speciality = "雷撃",
-		rarity = 3,
-		tech = 2,
-		descrip = "0",
-		value_2 = 12,
-		icon = "28000",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 28020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
+	[27324] = {
+		id = 27324,
+		base = 27320,
 		ammo_info = {
 			{
 				6,
-				50020
+				50664
 			},
 			{
-				4,
-				51020
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			28020
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"TB"
-		}
-	},
-	[28021] = {
-		id = 28021,
-		base = 28020,
-		ammo_info = {
-			{
-				6,
-				50021
-			},
-			{
-				4,
-				51021
+				5,
+				52764
 			}
 		},
 		weapon_id = {
-			28021
-		}
-	},
-	[28022] = {
-		id = 28022,
-		base = 28020,
-		ammo_info = {
-			{
-				6,
-				50022
-			},
-			{
-				4,
-				51022
-			}
-		},
-		weapon_id = {
-			28022
-		}
-	},
-	[28023] = {
-		id = 28023,
-		base = 28020,
-		ammo_info = {
-			{
-				6,
-				50023
-			},
-			{
-				4,
-				51023
-			}
-		},
-		weapon_id = {
-			28023
-		}
-	},
-	[28024] = {
-		id = 28024,
-		base = 28020,
-		ammo_info = {
-			{
-				6,
-				50024
-			},
-			{
-				4,
-				51024
-			}
-		},
-		weapon_id = {
-			28024
-		}
-	},
-	[28025] = {
-		id = 28025,
-		base = 28020,
-		ammo_info = {
-			{
-				6,
-				50025
-			},
-			{
-				4,
-				51025
-			}
-		},
-		weapon_id = {
-			28025
-		}
-	},
-	[28026] = {
-		id = 28026,
-		base = 28020,
-		ammo_info = {
-			{
-				6,
-				50026
-			},
-			{
-				4,
-				51026
-			}
-		},
-		weapon_id = {
-			28026
-		}
-	},
-	[28040] = {
-		name = "ソードフィッシュ",
-		type = 8,
-		speciality = "雷撃",
-		rarity = 4,
-		tech = 3,
-		descrip = "0",
-		value_2 = 25,
-		icon = "28000",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 28040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50040
-			},
-			{
-				4,
-				51040
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			28040
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"TB"
+			27324,
+			82324
 		}
 	}
 }

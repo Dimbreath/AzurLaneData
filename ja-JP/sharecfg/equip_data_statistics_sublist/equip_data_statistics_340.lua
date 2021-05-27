@@ -1,6 +1,13 @@
 pg = pg or {}
 pg.equip_data_statistics_340 = {
-	[60341] = {
+	[60263] = {
+		id = 60263,
+		base = 60261,
+		weapon_id = {
+			60263
+		}
+	},
+	[60271] = {
 		name = "0",
 		tech = 1,
 		speciality = "なし",
@@ -9,18 +16,18 @@ pg.equip_data_statistics_340 = {
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "外观空袭展示用",
+		descrip = "航空攻撃サンプル用",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60341,
+		id = 60271,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60341
+			60271
 		},
 		skill_id = {},
 		part_main = {},
@@ -28,21 +35,21 @@ pg.equip_data_statistics_340 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[60342] = {
-		id = 60342,
-		base = 60341,
+	[60272] = {
+		id = 60272,
+		base = 60271,
 		weapon_id = {
-			60342
+			60272
 		}
 	},
-	[60343] = {
-		id = 60343,
-		base = 60341,
+	[60273] = {
+		id = 60273,
+		base = 60271,
 		weapon_id = {
-			60343
+			60273
 		}
 	},
-	[60351] = {
+	[60281] = {
 		name = "0",
 		tech = 1,
 		speciality = "なし",
@@ -51,18 +58,18 @@ pg.equip_data_statistics_340 = {
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "外观空袭展示用",
+		descrip = "航空攻撃サンプル用",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60351,
+		id = 60281,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60351
+			60281
 		},
 		skill_id = {},
 		part_main = {},
@@ -70,21 +77,21 @@ pg.equip_data_statistics_340 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[60352] = {
-		id = 60352,
-		base = 60351,
+	[60282] = {
+		id = 60282,
+		base = 60281,
 		weapon_id = {
-			60352
+			60282
 		}
 	},
-	[60353] = {
-		id = 60353,
-		base = 60351,
+	[60283] = {
+		id = 60283,
+		base = 60281,
 		weapon_id = {
-			60353
+			60283
 		}
 	},
-	[60361] = {
+	[60291] = {
 		name = "0",
 		tech = 1,
 		speciality = "なし",
@@ -93,18 +100,18 @@ pg.equip_data_statistics_340 = {
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "外观空袭展示用",
+		descrip = "航空攻撃サンプル用",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60361,
+		id = 60291,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60361
+			60291
 		},
 		skill_id = {},
 		part_main = {},
@@ -112,21 +119,21 @@ pg.equip_data_statistics_340 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[60362] = {
-		id = 60362,
-		base = 60361,
+	[60292] = {
+		id = 60292,
+		base = 60291,
 		weapon_id = {
-			60362
+			60292
 		}
 	},
-	[60363] = {
-		id = 60363,
-		base = 60361,
+	[60293] = {
+		id = 60293,
+		base = 60291,
 		weapon_id = {
-			60363
+			60293
 		}
 	},
-	[60371] = {
+	[60301] = {
 		name = "0",
 		tech = 1,
 		speciality = "なし",
@@ -135,18 +142,18 @@ pg.equip_data_statistics_340 = {
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "外观空袭展示用",
+		descrip = "スキル弾幕",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60371,
+		id = 60301,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60371
+			60301
 		},
 		skill_id = {},
 		part_main = {},
@@ -154,21 +161,15 @@ pg.equip_data_statistics_340 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[60372] = {
-		id = 60372,
-		base = 60371,
+	[60302] = {
+		id = 60302,
+		name = "0",
+		base = 60301,
 		weapon_id = {
-			60372
+			60302
 		}
 	},
-	[60373] = {
-		id = 60373,
-		base = 60371,
-		weapon_id = {
-			60373
-		}
-	},
-	[60381] = {
+	[60311] = {
 		name = "0",
 		tech = 1,
 		speciality = "なし",
@@ -177,18 +178,18 @@ pg.equip_data_statistics_340 = {
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "外观空袭展示用",
+		descrip = "航空攻撃サンプル用",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60381,
+		id = 60311,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60381
+			60311
 		},
 		skill_id = {},
 		part_main = {},
@@ -196,22 +197,22 @@ pg.equip_data_statistics_340 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[60382] = {
-		id = 60382,
-		base = 60381,
+	[60312] = {
+		id = 60312,
+		base = 60311,
 		weapon_id = {
-			60382
+			60312
 		}
 	},
-	[60383] = {
-		id = 60383,
-		base = 60381,
+	[60313] = {
+		id = 60313,
+		base = 60311,
 		weapon_id = {
-			60383
+			60313
 		}
 	},
-	[60391] = {
-		name = "0",
+	[60321] = {
+		name = "航空攻击展示-埃塞克斯I",
 		tech = 1,
 		speciality = "なし",
 		type = 99,
@@ -223,14 +224,14 @@ pg.equip_data_statistics_340 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 60391,
+		id = 60321,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			60391
+			60321
 		},
 		skill_id = {},
 		part_main = {},

@@ -2,6 +2,128 @@ pg = pg or {}
 pg.weapon_property_102 = {}
 
 function ()
+	uv0.weapon_property_102[59404] = {
+		id = 59404,
+		reload_max = 64,
+		damage = 14,
+		base = 59400
+	}
+	uv0.weapon_property_102[59405] = {
+		id = 59405,
+		reload_max = 63,
+		damage = 15,
+		base = 59400
+	}
+	uv0.weapon_property_102[59406] = {
+		id = 59406,
+		reload_max = 61,
+		damage = 16,
+		base = 59400
+	}
+	uv0.weapon_property_102[59407] = {
+		id = 59407,
+		reload_max = 59,
+		damage = 17,
+		base = 59400
+	}
+	uv0.weapon_property_102[59408] = {
+		id = 59408,
+		reload_max = 57,
+		damage = 18,
+		base = 59400
+	}
+	uv0.weapon_property_102[59409] = {
+		id = 59409,
+		reload_max = 55,
+		damage = 19,
+		base = 59400
+	}
+	uv0.weapon_property_102[59410] = {
+		id = 59410,
+		reload_max = 53,
+		damage = 21,
+		base = 59400
+	}
+	uv0.weapon_property_102[59411] = {
+		id = 59411,
+		reload_max = 53,
+		damage = 22,
+		base = 59400
+	}
+	uv0.weapon_property_102[59412] = {
+		id = 59412,
+		reload_max = 53,
+		damage = 23,
+		base = 59400
+	}
+	uv0.weapon_property_102[59413] = {
+		id = 59413,
+		reload_max = 53,
+		damage = 25,
+		base = 59400
+	}
+	uv0.weapon_property_102[59420] = {
+		action_index = "",
+		range = 36,
+		type = 4,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "2 x 7.92mm MG17機銃",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 80,
+		charge_param = "",
+		damage = 11,
+		corrected = 100,
+		min_range = 0,
+		id = 59420,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 64,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2100
+		},
+		barrage_ID = {
+			2100
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_102[59421] = {
+		id = 59421,
+		reload_max = 63,
+		damage = 12,
+		base = 59420
+	}
+	uv0.weapon_property_102[59422] = {
+		id = 59422,
+		reload_max = 62,
+		damage = 13,
+		base = 59420
+	}
+	uv0.weapon_property_102[59423] = {
+		id = 59423,
+		reload_max = 61,
+		damage = 14,
+		base = 59420
+	}
 	uv0.weapon_property_102[59424] = {
 		id = 59424,
 		reload_max = 60,
@@ -397,127 +519,5 @@ function ()
 		reload_max = 149,
 		damage = 67,
 		base = 59520
-	}
-	uv0.weapon_property_102[59529] = {
-		id = 59529,
-		reload_max = 146,
-		damage = 72,
-		base = 59520
-	}
-	uv0.weapon_property_102[59530] = {
-		id = 59530,
-		reload_max = 142,
-		damage = 77,
-		base = 59520
-	}
-	uv0.weapon_property_102[59531] = {
-		id = 59531,
-		reload_max = 142,
-		damage = 80,
-		base = 59520
-	}
-	uv0.weapon_property_102[59532] = {
-		id = 59532,
-		reload_max = 142,
-		damage = 85,
-		base = 59520
-	}
-	uv0.weapon_property_102[59533] = {
-		id = 59533,
-		reload_max = 142,
-		damage = 91,
-		base = 59520
-	}
-	uv0.weapon_property_102[59540] = {
-		action_index = "",
-		range = 36,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "4 x 20mm九九式機関砲",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 80,
-		charge_param = "",
-		damage = 35,
-		corrected = 100,
-		min_range = 0,
-		id = 59540,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 169,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2100
-		},
-		barrage_ID = {
-			2100
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_102[59541] = {
-		id = 59541,
-		reload_max = 166,
-		damage = 40,
-		base = 59540
-	}
-	uv0.weapon_property_102[59542] = {
-		id = 59542,
-		reload_max = 163,
-		damage = 45,
-		base = 59540
-	}
-	uv0.weapon_property_102[59543] = {
-		id = 59543,
-		reload_max = 158,
-		damage = 50,
-		base = 59540
-	}
-	uv0.weapon_property_102[59544] = {
-		id = 59544,
-		reload_max = 156,
-		damage = 55,
-		base = 59540
-	}
-	uv0.weapon_property_102[59545] = {
-		id = 59545,
-		reload_max = 152,
-		damage = 60,
-		base = 59540
-	}
-	uv0.weapon_property_102[59546] = {
-		id = 59546,
-		reload_max = 149,
-		damage = 65,
-		base = 59540
-	}
-	uv0.weapon_property_102[59547] = {
-		id = 59547,
-		reload_max = 146,
-		damage = 70,
-		base = 59540
-	}
-	uv0.weapon_property_102[59548] = {
-		id = 59548,
-		reload_max = 141,
-		damage = 75,
-		base = 59540
 	}
 end()

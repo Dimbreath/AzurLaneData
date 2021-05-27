@@ -46,7 +46,8 @@ function slot0.Init(slot0)
 			arg1 = {
 				tasklist = uv0.config.task_list,
 				ptId = pg.activity_template_headhunting[uv0.activity.id].pt,
-				totalPt = uv0.pt
+				totalPt = uv0.pt,
+				index = uv0.taskIndex
 			}
 		})
 	end, SFX_PANEL)

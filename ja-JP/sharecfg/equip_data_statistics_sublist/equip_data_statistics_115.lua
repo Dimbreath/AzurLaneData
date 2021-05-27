@@ -1,279 +1,189 @@
 pg = pg or {}
 pg.equip_data_statistics_115 = {
-	[15505] = {
-		id = 15505,
-		value_2 = 20,
-		value_1 = "24",
-		base = 15500
+	[15230] = {
+		id = 15230,
+		damage = "160 x 4",
+		base = 15220,
+		weapon_id = {
+			15230
+		}
 	},
-	[15506] = {
-		id = 15506,
-		value_2 = 22,
-		value_1 = "26",
-		base = 15500
-	},
-	[15507] = {
-		id = 15507,
-		value_2 = 24,
-		value_1 = "28",
-		base = 15500
-	},
-	[15508] = {
-		id = 15508,
-		value_2 = 26,
-		value_1 = "30",
-		base = 15500
-	},
-	[15509] = {
-		id = 15509,
-		value_2 = 28,
-		value_1 = "32",
-		base = 15500
-	},
-	[15510] = {
-		id = 15510,
-		value_2 = 30,
-		value_1 = "35",
-		base = 15500
-	},
-	[15511] = {
-		id = 15511,
+	[15231] = {
 		anti_siren = 100,
-		base = 15500,
-		value_2 = 32,
-		value_1 = "38"
+		damage = "160 x 4",
+		base = 15220,
+		id = 15231,
+		weapon_id = {
+			15231
+		}
 	},
-	[16000] = {
-		name = "20mmエリコン機関砲",
-		speciality = "対空",
-		type = 6,
-		tech = 1,
-		rarity = 1,
+	[15240] = {
+		name = "533mm五連装魚雷Mk17",
+		speciality = "雷撃",
+		type = 5,
+		tech = 0,
 		descrip = "0",
-		value_2 = 0,
-		icon = "16000",
-		damage = "8/回",
+		value_2 = 45,
+		icon = "15240",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "60 x 5",
 		nationality = 1,
 		ammo = 5,
 		value_3 = 0,
-		id = 16000,
+		id = 15240,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
+		ammo_info = {
+			{
+				3,
+				1800
+			}
+		},
 		equip_info = {
-			1,
-			2,
+			{
+				3,
+				1800
+			},
+			{
+				4,
+				1404
+			},
 			6,
-			10
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			16000
+			15240
 		},
 		skill_id = {},
 		part_main = {
 			1,
 			2,
 			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			18
 		},
 		part_sub = {
 			1,
 			2,
 			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"USS",
 			"ST",
-			"AA"
+			"TP",
+			"QUINT"
 		}
 	},
-	[16001] = {
-		id = 16001,
-		damage = "9/回",
-		base = 16000,
+	[15241] = {
+		id = 15241,
+		damage = "70 x 5",
+		base = 15240,
 		weapon_id = {
-			16001
+			15241
 		}
 	},
-	[16002] = {
-		id = 16002,
-		damage = "10/回",
-		base = 16000,
+	[15242] = {
+		id = 15242,
+		damage = "80 x 5",
+		base = 15240,
 		weapon_id = {
-			16002
+			15242
 		}
 	},
-	[16003] = {
-		id = 16003,
-		damage = "12/回",
-		base = 16000,
+	[15243] = {
+		id = 15243,
+		damage = "90 x 5",
+		base = 15240,
 		weapon_id = {
-			16003
+			15243
 		}
 	},
-	[16020] = {
-		name = "20mmエリコン機関砲",
-		speciality = "対空",
-		type = 6,
-		tech = 2,
-		descrip = "0",
-		value_2 = 5,
-		icon = "16000",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "9/回",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 16020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
+	[15244] = {
+		id = 15244,
+		damage = "100 x 5",
+		base = 15240,
 		weapon_id = {
-			16020
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"ST",
-			"AA"
+			15244
 		}
 	},
-	[16021] = {
-		id = 16021,
-		damage = "10/回",
-		base = 16020,
+	[15245] = {
+		id = 15245,
+		damage = "110 x 5",
+		base = 15240,
 		weapon_id = {
-			16021
+			15245
 		}
 	},
-	[16022] = {
-		id = 16022,
-		damage = "12/回",
-		base = 16020,
+	[15246] = {
+		id = 15246,
+		damage = "120 x 5",
+		base = 15240,
 		weapon_id = {
-			16022
+			15246
 		}
 	},
-	[16023] = {
-		id = 16023,
-		damage = "14/回",
-		base = 16020,
+	[15247] = {
+		id = 15247,
+		damage = "130 x 5",
+		base = 15240,
 		weapon_id = {
-			16023
+			15247
 		}
 	},
-	[16040] = {
-		name = "20mmエリコン機関砲",
-		speciality = "対空",
-		type = 6,
-		tech = 3,
-		descrip = "0",
-		value_2 = 12,
-		icon = "16000",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "11/回",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 16040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
+	[15248] = {
+		id = 15248,
+		damage = "140 x 5",
+		base = 15240,
 		weapon_id = {
-			16040
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"ST",
-			"AA"
+			15248
+		}
+	},
+	[15249] = {
+		id = 15249,
+		damage = "150 x 5",
+		base = 15240,
+		weapon_id = {
+			15249
+		}
+	},
+	[15250] = {
+		id = 15250,
+		damage = "160 x 5",
+		base = 15240,
+		weapon_id = {
+			15250
+		}
+	},
+	[15251] = {
+		anti_siren = 100,
+		damage = "160 x 5",
+		base = 15240,
+		id = 15251,
+		weapon_id = {
+			15251
+		}
+	},
+	[15252] = {
+		anti_siren = 200,
+		damage = "160 x 5",
+		base = 15240,
+		id = 15252,
+		weapon_id = {
+			15252
+		}
+	},
+	[15253] = {
+		anti_siren = 300,
+		damage = "160 x 5",
+		base = 15240,
+		id = 15253,
+		weapon_id = {
+			15253
 		}
 	}
 }

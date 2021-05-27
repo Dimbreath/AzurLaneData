@@ -1,36 +1,28 @@
 pg = pg or {}
 pg.equip_data_statistics_372 = {
-	[85265] = {
-		id = 85265,
-		damage = "66/回",
-		base = 85260,
+	[85183] = {
+		id = 85183,
+		damage = "16/回",
+		base = 85180,
 		weapon_id = {
-			85265
+			85183
 		}
 	},
-	[85266] = {
-		id = 85266,
-		damage = "73/回",
-		base = 85260,
-		weapon_id = {
-			85266
-		}
-	},
-	[85280] = {
-		name = "100mm連装高角砲B-54",
+	[85200] = {
+		name = "37mm対空機関砲70-K",
 		speciality = "対空",
 		type = 6,
-		tech = 3,
+		tech = 2,
 		descrip = "0",
-		value_2 = 25,
-		icon = "85240",
+		value_2 = 12,
+		icon = "85180",
 		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "43/回",
+		rarity = 3,
+		damage = "11/回",
 		nationality = 7,
 		ammo = 5,
 		value_3 = 0,
-		id = 85280,
+		id = 85200,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -42,7 +34,7 @@ pg.equip_data_statistics_372 = {
 			10
 		},
 		weapon_id = {
-			85280
+			85200
 		},
 		skill_id = {},
 		part_main = {
@@ -78,153 +70,170 @@ pg.equip_data_statistics_372 = {
 			"AA"
 		}
 	},
-	[85281] = {
-		id = 85281,
-		damage = "48/回",
-		base = 85280,
+	[85201] = {
+		id = 85201,
+		damage = "13/回",
+		base = 85200,
 		weapon_id = {
-			85281
+			85201
 		}
 	},
-	[85282] = {
-		id = 85282,
-		damage = "54/回",
-		base = 85280,
+	[85202] = {
+		id = 85202,
+		damage = "16/回",
+		base = 85200,
 		weapon_id = {
-			85282
+			85202
 		}
 	},
-	[85283] = {
-		id = 85283,
-		damage = "61/回",
-		base = 85280,
+	[85203] = {
+		id = 85203,
+		damage = "19/回",
+		base = 85200,
 		weapon_id = {
-			85283
+			85203
 		}
 	},
-	[85284] = {
-		id = 85284,
-		damage = "68/回",
-		base = 85280,
+	[85204] = {
+		id = 85204,
+		damage = "22/回",
+		base = 85200,
 		weapon_id = {
-			85284
+			85204
 		}
 	},
-	[85285] = {
-		id = 85285,
-		damage = "75/回",
-		base = 85280,
+	[85205] = {
+		id = 85205,
+		damage = "25/回",
+		base = 85200,
 		weapon_id = {
-			85285
+			85205
 		}
 	},
-	[85286] = {
-		id = 85286,
-		damage = "82/回",
-		base = 85280,
+	[85206] = {
+		id = 85206,
+		damage = "28/回",
+		base = 85200,
 		weapon_id = {
-			85286
+			85206
 		}
 	},
-	[85287] = {
-		id = 85287,
-		damage = "89/回",
-		base = 85280,
-		weapon_id = {
-			85287
-		}
-	},
-	[85288] = {
-		id = 85288,
-		damage = "96/回",
-		base = 85280,
-		weapon_id = {
-			85288
-		}
-	},
-	[85289] = {
-		id = 85289,
-		damage = "103/回",
-		base = 85280,
-		weapon_id = {
-			85289
-		}
-	},
-	[85290] = {
-		id = 85290,
-		damage = "110/回",
-		base = 85280,
-		weapon_id = {
-			85290
-		}
-	},
-	[85291] = {
-		anti_siren = 100,
-		damage = "110/回",
-		base = 85280,
-		id = 85291,
-		weapon_id = {
-			85291
-		}
-	},
-	[85300] = {
-		name = "406mm三連装砲B-37 MK-1",
-		speciality = "投射",
-		type = 4,
-		tech = 1,
+	[85220] = {
+		name = "37mm対空機関砲70-K",
+		speciality = "対空",
+		type = 6,
+		tech = 3,
 		descrip = "0",
-		value_2 = 12,
-		icon = "85300",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "50 x 3",
+		value_2 = 25,
+		icon = "85180",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "14/回",
 		nationality = 7,
-		ammo = 3,
+		ammo = 5,
 		value_3 = 0,
-		id = 85300,
+		id = 85220,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1570
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			85300
+			85220
 		},
 		skill_id = {},
 		part_main = {
+			1,
+			2,
+			3,
 			4,
 			5,
+			6,
 			10,
-			13
+			12,
+			13,
+			18,
+			19
 		},
-		part_sub = {},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
 			"SN",
-			"BB",
-			"MG"
+			"ST",
+			"AA"
 		}
 	},
-	[85301] = {
-		id = 85301,
-		damage = "59 x 3",
-		base = 85300,
+	[85221] = {
+		id = 85221,
+		damage = "17/回",
+		base = 85220,
 		weapon_id = {
-			85301
+			85221
+		}
+	},
+	[85222] = {
+		id = 85222,
+		damage = "20/回",
+		base = 85220,
+		weapon_id = {
+			85222
+		}
+	},
+	[85223] = {
+		id = 85223,
+		damage = "23/回",
+		base = 85220,
+		weapon_id = {
+			85223
+		}
+	},
+	[85224] = {
+		id = 85224,
+		damage = "26/回",
+		base = 85220,
+		weapon_id = {
+			85224
+		}
+	},
+	[85225] = {
+		id = 85225,
+		damage = "29/回",
+		base = 85220,
+		weapon_id = {
+			85225
+		}
+	},
+	[85226] = {
+		id = 85226,
+		damage = "32/回",
+		base = 85220,
+		weapon_id = {
+			85226
+		}
+	},
+	[85227] = {
+		id = 85227,
+		damage = "35/回",
+		base = 85220,
+		weapon_id = {
+			85227
 		}
 	}
 }

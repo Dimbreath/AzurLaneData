@@ -2,6 +2,131 @@ pg = pg or {}
 pg.weapon_property_33 = {}
 
 function ()
+	uv0.weapon_property_33[24347] = {
+		id = 24347,
+		reload_max = 2895,
+		damage = 109,
+		base = 24340
+	}
+	uv0.weapon_property_33[24348] = {
+		id = 24348,
+		reload_max = 2830,
+		damage = 117,
+		base = 24340
+	}
+	uv0.weapon_property_33[24349] = {
+		id = 24349,
+		reload_max = 2765,
+		damage = 125,
+		base = 24340
+	}
+	uv0.weapon_property_33[24350] = {
+		id = 24350,
+		reload_max = 2700,
+		damage = 133,
+		base = 24340
+	}
+	uv0.weapon_property_33[24351] = {
+		reload_max = 2700,
+		damage = 133,
+		base = 24340,
+		id = 24351,
+		corrected = 114
+	}
+	uv0.weapon_property_33[24352] = {
+		reload_max = 2700,
+		damage = 133,
+		base = 24340,
+		id = 24352,
+		corrected = 121
+	}
+	uv0.weapon_property_33[24353] = {
+		reload_max = 2700,
+		damage = 133,
+		base = 24340,
+		id = 24353,
+		corrected = 130
+	}
+	uv0.weapon_property_33[25000] = {
+		action_index = "attack",
+		range = 50,
+		type = 16,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "三联装533mm鱼雷Mark IX",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 62,
+		corrected = 100,
+		min_range = 0,
+		id = 25000,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3963,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1828
+		},
+		barrage_ID = {
+			1419
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_33[25001] = {
+		id = 25001,
+		reload_max = 3888,
+		damage = 73,
+		base = 25000
+	}
+	uv0.weapon_property_33[25002] = {
+		id = 25002,
+		reload_max = 3813,
+		damage = 84,
+		base = 25000
+	}
+	uv0.weapon_property_33[25003] = {
+		id = 25003,
+		reload_max = 3738,
+		damage = 95,
+		base = 25000
+	}
+	uv0.weapon_property_33[25004] = {
+		id = 25004,
+		reload_max = 3664,
+		damage = 106,
+		base = 25000
+	}
+	uv0.weapon_property_33[25005] = {
+		id = 25005,
+		reload_max = 3589,
+		damage = 117,
+		base = 25000
+	}
+	uv0.weapon_property_33[25006] = {
+		id = 25006,
+		reload_max = 3515,
+		damage = 128,
+		base = 25000
+	}
 	uv0.weapon_property_33[25007] = {
 		reload_max = 3515,
 		damage = 128,
@@ -481,129 +606,5 @@ function ()
 		reload_max = 4291,
 		damage = 139,
 		base = 25140
-	}
-	uv0.weapon_property_33[25149] = {
-		id = 25149,
-		reload_max = 4145,
-		damage = 149,
-		base = 25140
-	}
-	uv0.weapon_property_33[25150] = {
-		id = 25150,
-		reload_max = 4000,
-		damage = 159,
-		base = 25140
-	}
-	uv0.weapon_property_33[25151] = {
-		reload_max = 4000,
-		damage = 159,
-		base = 25140,
-		id = 25151,
-		corrected = 104
-	}
-	uv0.weapon_property_33[25200] = {
-		action_index = "attack",
-		range = 60,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "潜艇用Mark 12鱼雷-菲里",
-		aim_type = 1,
-		torpedo_ammo = 4,
-		expose = 0,
-		angle = 90,
-		charge_param = "",
-		damage = 56,
-		corrected = 100,
-		min_range = 0,
-		id = 25200,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3800,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0.5,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1830
-		},
-		barrage_ID = {
-			1602
-		},
-		oxy_type = {
-			1,
-			2
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_33[25201] = {
-		id = 25201,
-		reload_max = 3699,
-		damage = 64,
-		base = 25200
-	}
-	uv0.weapon_property_33[25202] = {
-		id = 25202,
-		reload_max = 3597,
-		damage = 72,
-		base = 25200
-	}
-	uv0.weapon_property_33[25203] = {
-		id = 25203,
-		reload_max = 3496,
-		damage = 80,
-		base = 25200
-	}
-	uv0.weapon_property_33[25204] = {
-		id = 25204,
-		reload_max = 3395,
-		damage = 88,
-		base = 25200
-	}
-	uv0.weapon_property_33[25205] = {
-		id = 25205,
-		reload_max = 3293,
-		damage = 96,
-		base = 25200
-	}
-	uv0.weapon_property_33[25206] = {
-		id = 25206,
-		reload_max = 3192,
-		damage = 104,
-		base = 25200
-	}
-	uv0.weapon_property_33[25207] = {
-		id = 25207,
-		reload_max = 3091,
-		damage = 113,
-		base = 25200
-	}
-	uv0.weapon_property_33[25208] = {
-		id = 25208,
-		reload_max = 2989,
-		damage = 122,
-		base = 25200
-	}
-	uv0.weapon_property_33[25209] = {
-		id = 25209,
-		reload_max = 2888,
-		damage = 130,
-		base = 25200
-	}
-	uv0.weapon_property_33[25210] = {
-		id = 25210,
-		reload_max = 2787,
-		damage = 139,
-		base = 25200
 	}
 end()

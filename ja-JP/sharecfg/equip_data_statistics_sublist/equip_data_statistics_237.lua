@@ -1,129 +1,36 @@
 pg = pg or {}
 pg.equip_data_statistics_237 = {
-	[34103] = {
-		id = 34103,
-		damage = "72 x 2",
-		base = 34100,
+	[34022] = {
+		id = 34022,
+		damage = "55 x 2",
+		base = 34020,
 		weapon_id = {
-			34103
+			34022
 		}
 	},
-	[34120] = {
-		name = "410mm連装砲",
-		speciality = "投射",
-		type = 4,
-		tech = 2,
-		descrip = "0",
-		value_2 = 12,
-		icon = "34100",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "53 x 2",
-		nationality = 3,
-		ammo = 2,
-		value_3 = 0,
-		id = 34120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				2,
-				1502
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			34120
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"BB",
-			"MG",
-			"HE"
-		}
-	},
-	[34121] = {
-		id = 34121,
+	[34023] = {
+		id = 34023,
 		damage = "62 x 2",
-		base = 34120,
+		base = 34020,
 		weapon_id = {
-			34121
+			34023
 		}
 	},
-	[34122] = {
-		id = 34122,
-		damage = "70 x 2",
-		base = 34120,
-		weapon_id = {
-			34122
-		}
-	},
-	[34123] = {
-		id = 34123,
-		damage = "79 x 2",
-		base = 34120,
-		weapon_id = {
-			34123
-		}
-	},
-	[34124] = {
-		id = 34124,
-		damage = "88 x 2",
-		base = 34120,
-		weapon_id = {
-			34124
-		}
-	},
-	[34125] = {
-		id = 34125,
-		damage = "97 x 2",
-		base = 34120,
-		weapon_id = {
-			34125
-		}
-	},
-	[34126] = {
-		id = 34126,
-		damage = "106 x 2",
-		base = 34120,
-		weapon_id = {
-			34126
-		}
-	},
-	[34140] = {
-		name = "410mm連装砲",
+	[34040] = {
+		name = "356mm連装砲",
 		speciality = "投射",
 		type = 4,
 		tech = 3,
 		descrip = "0",
-		value_2 = 25,
-		icon = "34100",
+		value_2 = 12,
+		icon = "34000",
 		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "58 x 2",
+		rarity = 3,
+		damage = "46 x 2",
 		nationality = 3,
 		ammo = 2,
 		value_3 = 0,
-		id = 34140,
+		id = 34040,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -144,7 +51,7 @@ pg.equip_data_statistics_237 = {
 			12
 		},
 		weapon_id = {
-			34140
+			34040
 		},
 		skill_id = {},
 		part_main = {
@@ -162,60 +69,153 @@ pg.equip_data_statistics_237 = {
 			"HE"
 		}
 	},
-	[34141] = {
-		id = 34141,
+	[34041] = {
+		id = 34041,
+		damage = "52 x 2",
+		base = 34040,
+		weapon_id = {
+			34041
+		}
+	},
+	[34042] = {
+		id = 34042,
+		damage = "60 x 2",
+		base = 34040,
+		weapon_id = {
+			34042
+		}
+	},
+	[34043] = {
+		id = 34043,
 		damage = "68 x 2",
-		base = 34140,
+		base = 34040,
 		weapon_id = {
-			34141
+			34043
 		}
 	},
-	[34142] = {
-		id = 34142,
-		damage = "76 x 2",
-		base = 34140,
+	[34044] = {
+		id = 34044,
+		damage = "74 x 2",
+		base = 34040,
 		weapon_id = {
-			34142
+			34044
 		}
 	},
-	[34143] = {
-		id = 34143,
-		damage = "86 x 2",
-		base = 34140,
+	[34045] = {
+		id = 34045,
+		damage = "82 x 2",
+		base = 34040,
 		weapon_id = {
-			34143
+			34045
 		}
 	},
-	[34144] = {
-		id = 34144,
-		damage = "96 x 2",
-		base = 34140,
+	[34046] = {
+		id = 34046,
+		damage = "88 x 2",
+		base = 34040,
 		weapon_id = {
-			34144
+			34046
 		}
 	},
-	[34145] = {
-		id = 34145,
-		damage = "106 x 2",
-		base = 34140,
+	[34047] = {
+		id = 34047,
+		damage = "88 x 2",
+		base = 34040,
 		weapon_id = {
-			34145
+			34047
 		}
 	},
-	[34146] = {
-		id = 34146,
-		damage = "116 x 2",
-		base = 34140,
+	[34060] = {
+		name = "毘式356mm連装砲",
+		speciality = "投射",
+		type = 4,
+		tech = 0,
+		descrip = "0",
+		value_2 = 12,
+		icon = "34060",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "52 x 2",
+		nationality = 3,
+		ammo = 2,
+		value_3 = 0,
+		id = 34060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1502
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			34146
+			34060
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"BB",
+			"MG",
+			"HE"
 		}
 	},
-	[34147] = {
-		id = 34147,
-		damage = "124 x 2",
-		base = 34140,
+	[34061] = {
+		id = 34061,
+		damage = "58 x 2",
+		base = 34060,
 		weapon_id = {
-			34147
+			34061
+		}
+	},
+	[34062] = {
+		id = 34062,
+		damage = "66 x 2",
+		base = 34060,
+		weapon_id = {
+			34062
+		}
+	},
+	[34063] = {
+		id = 34063,
+		damage = "74 x 2",
+		base = 34060,
+		weapon_id = {
+			34063
+		}
+	},
+	[34064] = {
+		id = 34064,
+		damage = "80 x 2",
+		base = 34060,
+		weapon_id = {
+			34064
+		}
+	},
+	[34065] = {
+		id = 34065,
+		damage = "88 x 2",
+		base = 34060,
+		weapon_id = {
+			34065
 		}
 	}
 }

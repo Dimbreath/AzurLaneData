@@ -1,304 +1,188 @@
 pg = pg or {}
 pg.equip_data_statistics_264 = {
-	[36709] = {
-		id = 36709,
-		damage = "83/回",
-		base = 36700,
+	[36662] = {
+		id = 36662,
+		damage = "68/回",
+		base = 36660,
 		weapon_id = {
-			36709
+			36662
 		}
 	},
-	[36710] = {
-		id = 36710,
-		damage = "87/回",
-		base = 36700,
+	[36663] = {
+		id = 36663,
+		damage = "75/回",
+		base = 36660,
 		weapon_id = {
-			36710
+			36663
 		}
 	},
-	[36711] = {
+	[36664] = {
+		id = 36664,
+		damage = "82/回",
+		base = 36660,
+		weapon_id = {
+			36664
+		}
+	},
+	[36665] = {
+		id = 36665,
+		damage = "89/回",
+		base = 36660,
+		weapon_id = {
+			36665
+		}
+	},
+	[36666] = {
+		id = 36666,
+		damage = "96/回",
+		base = 36660,
+		weapon_id = {
+			36666
+		}
+	},
+	[36667] = {
+		id = 36667,
+		damage = "103/回",
+		base = 36660,
+		weapon_id = {
+			36667
+		}
+	},
+	[36668] = {
+		id = 36668,
+		damage = "110/回",
+		base = 36660,
+		weapon_id = {
+			36668
+		}
+	},
+	[36669] = {
+		id = 36669,
+		damage = "117/回",
+		base = 36660,
+		weapon_id = {
+			36669
+		}
+	},
+	[36670] = {
+		id = 36670,
+		damage = "124/回",
+		base = 36660,
+		weapon_id = {
+			36670
+		}
+	},
+	[36671] = {
 		anti_siren = 100,
-		damage = "87/回",
-		base = 36700,
-		id = 36711,
+		damage = "124/回",
+		base = 36660,
+		id = 36671,
 		weapon_id = {
-			36711
+			36671
 		}
 	},
-	[36712] = {
+	[36672] = {
 		anti_siren = 200,
-		damage = "87/回",
-		base = 36700,
-		id = 36712,
+		damage = "124/回",
+		base = 36660,
+		id = 36672,
 		weapon_id = {
-			36712
+			36672
 		}
 	},
-	[36713] = {
+	[36673] = {
 		anti_siren = 300,
-		damage = "87/回",
+		damage = "124/回",
+		base = 36660,
+		id = 36673,
+		weapon_id = {
+			36673
+		}
+	},
+	[36700] = {
+		name = "試作型五式40mm高射機関砲",
+		speciality = "対空",
+		type = 6,
+		tech = 0,
+		descrip = "0",
+		value_2 = 45,
+		icon = "36700",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "47/回",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36700,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			36700
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
+	},
+	[36701] = {
+		id = 36701,
+		damage = "51/回",
 		base = 36700,
-		id = 36713,
 		weapon_id = {
-			36713
+			36701
 		}
 	},
-	[37000] = {
-		name = "九六式艦戦",
-		tech = 1,
-		speciality = "航空",
-		type = 7,
-		rarity = 1,
-		descrip = "0",
-		value_2 = 0,
-		icon = "37000",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 37000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50000
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
+	[36702] = {
+		id = 36702,
+		damage = "55/回",
+		base = 36700,
 		weapon_id = {
-			37000,
-			83000
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"FT"
+			36702
 		}
 	},
-	[37001] = {
-		id = 37001,
-		base = 37000,
-		ammo_info = {
-			{
-				6,
-				50001
-			}
-		},
+	[36703] = {
+		id = 36703,
+		damage = "59/回",
+		base = 36700,
 		weapon_id = {
-			37001,
-			83001
-		}
-	},
-	[37002] = {
-		id = 37002,
-		base = 37000,
-		ammo_info = {
-			{
-				6,
-				50002
-			}
-		},
-		weapon_id = {
-			37002,
-			83002
-		}
-	},
-	[37003] = {
-		id = 37003,
-		base = 37000,
-		ammo_info = {
-			{
-				6,
-				50003
-			}
-		},
-		weapon_id = {
-			37003,
-			83003
-		}
-	},
-	[37020] = {
-		name = "九六式艦戦",
-		type = 7,
-		speciality = "航空",
-		rarity = 2,
-		tech = 2,
-		descrip = "0",
-		value_2 = 5,
-		icon = "37000",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 37020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50020
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			37020,
-			83020
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"FT"
-		}
-	},
-	[37021] = {
-		id = 37021,
-		base = 37020,
-		ammo_info = {
-			{
-				6,
-				50021
-			}
-		},
-		weapon_id = {
-			37021,
-			83021
-		}
-	},
-	[37022] = {
-		id = 37022,
-		base = 37020,
-		ammo_info = {
-			{
-				6,
-				50022
-			}
-		},
-		weapon_id = {
-			37022,
-			83022
-		}
-	},
-	[37023] = {
-		id = 37023,
-		base = 37020,
-		ammo_info = {
-			{
-				6,
-				50023
-			}
-		},
-		weapon_id = {
-			37023,
-			83023
-		}
-	},
-	[37040] = {
-		name = "九六式艦戦",
-		type = 7,
-		speciality = "航空",
-		rarity = 3,
-		tech = 3,
-		descrip = "0",
-		value_2 = 12,
-		icon = "37000",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 37040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50040
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			37040,
-			83040
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"FT"
-		}
-	},
-	[37041] = {
-		id = 37041,
-		base = 37040,
-		ammo_info = {
-			{
-				6,
-				50041
-			}
-		},
-		weapon_id = {
-			37041,
-			83041
-		}
-	},
-	[37042] = {
-		id = 37042,
-		base = 37040,
-		ammo_info = {
-			{
-				6,
-				50042
-			}
-		},
-		weapon_id = {
-			37042,
-			83042
+			36703
 		}
 	}
 }

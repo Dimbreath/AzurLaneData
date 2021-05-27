@@ -2,6 +2,131 @@ pg = pg or {}
 pg.weapon_property_110 = {}
 
 function ()
+	uv0.weapon_property_110[64024] = {
+		id = 64024,
+		name = "托里拆利技能子弹弹幕LV4",
+		damage = 14,
+		base = 64021
+	}
+	uv0.weapon_property_110[64025] = {
+		id = 64025,
+		name = "托里拆利技能子弹弹幕LV5",
+		damage = 15,
+		base = 64021
+	}
+	uv0.weapon_property_110[64026] = {
+		id = 64026,
+		name = "托里拆利技能子弹弹幕LV6",
+		damage = 16,
+		base = 64021
+	}
+	uv0.weapon_property_110[64027] = {
+		id = 64027,
+		name = "托里拆利技能子弹弹幕LV7",
+		damage = 17,
+		base = 64021
+	}
+	uv0.weapon_property_110[64028] = {
+		id = 64028,
+		name = "托里拆利技能子弹弹幕LV8",
+		damage = 18,
+		base = 64021
+	}
+	uv0.weapon_property_110[64029] = {
+		id = 64029,
+		name = "托里拆利技能子弹弹幕LV9",
+		damage = 19,
+		base = 64021
+	}
+	uv0.weapon_property_110[64030] = {
+		id = 64030,
+		name = "托里拆利技能子弹弹幕LV10",
+		damage = 20,
+		base = 64021
+	}
+	uv0.weapon_property_110[64031] = {
+		action_index = "attack",
+		range = 200,
+		type = 23,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "小天城跨射弹幕LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		damage = 127,
+		corrected = 100,
+		min_range = 35,
+		id = 64031,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			19285
+		},
+		barrage_ID = {
+			1300
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 2
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_110[64032] = {
+		id = 64032,
+		name = "小天城跨射弹幕LV2",
+		damage = 134,
+		base = 64031
+	}
+	uv0.weapon_property_110[64033] = {
+		id = 64033,
+		name = "小天城跨射弹幕LV3",
+		damage = 142,
+		base = 64031
+	}
+	uv0.weapon_property_110[64034] = {
+		id = 64034,
+		name = "小天城跨射弹幕LV4",
+		damage = 151,
+		base = 64031
+	}
+	uv0.weapon_property_110[64035] = {
+		id = 64035,
+		name = "小天城跨射弹幕LV5",
+		damage = 161,
+		base = 64031
+	}
+	uv0.weapon_property_110[64036] = {
+		id = 64036,
+		name = "小天城跨射弹幕LV6",
+		damage = 172,
+		base = 64031
+	}
+	uv0.weapon_property_110[64037] = {
+		id = 64037,
+		name = "小天城跨射弹幕LV7",
+		damage = 184,
+		base = 64031
+	}
 	uv0.weapon_property_110[64038] = {
 		id = 64038,
 		name = "小天城跨射弹幕LV8",
@@ -481,195 +606,5 @@ function ()
 		name = "小天城二技能鱼雷LV4",
 		damage = 79,
 		base = 64081
-	}
-	uv0.weapon_property_110[64085] = {
-		id = 64085,
-		name = "小天城二技能鱼雷LV5",
-		damage = 84,
-		base = 64081
-	}
-	uv0.weapon_property_110[64086] = {
-		id = 64086,
-		name = "小天城二技能鱼雷LV6",
-		damage = 90,
-		base = 64081
-	}
-	uv0.weapon_property_110[64087] = {
-		name = "小天城二技能鱼雷LV7",
-		damage = 97,
-		base = 64081,
-		id = 64087,
-		barrage_ID = {
-			81066
-		}
-	}
-	uv0.weapon_property_110[64088] = {
-		name = "小天城二技能鱼雷LV8",
-		damage = 105,
-		base = 64081,
-		id = 64088,
-		barrage_ID = {
-			81066
-		}
-	}
-	uv0.weapon_property_110[64089] = {
-		name = "小天城二技能鱼雷LV9",
-		damage = 114,
-		base = 64081,
-		id = 64089,
-		barrage_ID = {
-			81066
-		}
-	}
-	uv0.weapon_property_110[64090] = {
-		name = "小天城二技能鱼雷LV10",
-		damage = 124,
-		base = 64081,
-		id = 64090,
-		barrage_ID = {
-			81066
-		}
-	}
-	uv0.weapon_property_110[64091] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "西南风技能鱼雷弹幕LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 19,
-		corrected = 100,
-		min_range = 0,
-		id = 64091,
-		attack_attribute_ratio = 120,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19287
-		},
-		barrage_ID = {
-			81070
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_110[64092] = {
-		name = "西南风技能鱼雷弹幕LV2",
-		damage = 21,
-		base = 64091,
-		id = 64092,
-		bullet_ID = {
-			19287
-		},
-		barrage_ID = {
-			81070
-		}
-	}
-	uv0.weapon_property_110[64093] = {
-		name = "西南风技能鱼雷弹幕LV3",
-		damage = 23,
-		base = 64091,
-		id = 64093,
-		bullet_ID = {
-			19287
-		},
-		barrage_ID = {
-			81070
-		}
-	}
-	uv0.weapon_property_110[64094] = {
-		name = "西南风技能鱼雷弹幕LV4",
-		damage = 25,
-		base = 64091,
-		id = 64094,
-		bullet_ID = {
-			19287,
-			19287
-		},
-		barrage_ID = {
-			81070,
-			81071
-		}
-	}
-	uv0.weapon_property_110[64095] = {
-		name = "西南风技能鱼雷弹幕LV5",
-		damage = 27,
-		base = 64091,
-		id = 64095,
-		bullet_ID = {
-			19287,
-			19287
-		},
-		barrage_ID = {
-			81070,
-			81071
-		}
-	}
-	uv0.weapon_property_110[64096] = {
-		name = "西南风技能鱼雷弹幕LV6",
-		damage = 29,
-		base = 64091,
-		id = 64096,
-		bullet_ID = {
-			19287,
-			19287
-		},
-		barrage_ID = {
-			81070,
-			81071
-		}
-	}
-	uv0.weapon_property_110[64097] = {
-		name = "西南风技能鱼雷弹幕LV7",
-		damage = 31,
-		base = 64091,
-		id = 64097,
-		bullet_ID = {
-			19287,
-			19287,
-			19287
-		},
-		barrage_ID = {
-			81070,
-			81071,
-			81072
-		}
-	}
-	uv0.weapon_property_110[64098] = {
-		name = "西南风技能鱼雷弹幕LV8",
-		damage = 33,
-		base = 64091,
-		id = 64098,
-		bullet_ID = {
-			19287,
-			19287,
-			19287
-		},
-		barrage_ID = {
-			81070,
-			81071,
-			81072
-		}
 	}
 end()

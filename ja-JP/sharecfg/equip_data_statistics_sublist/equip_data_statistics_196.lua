@@ -1,274 +1,190 @@
 pg = pg or {}
 pg.equip_data_statistics_196 = {
-	[26663] = {
-		id = 26663,
-		damage = "73/回",
-		base = 26660,
+	[26630] = {
+		id = 26630,
+		damage = "96/回",
+		base = 26620,
 		weapon_id = {
-			26663
+			26630
 		}
 	},
-	[26664] = {
-		id = 26664,
-		damage = "84/回",
-		base = 26660,
-		weapon_id = {
-			26664
-		}
-	},
-	[26665] = {
-		id = 26665,
-		damage = "94/回",
-		base = 26660,
-		weapon_id = {
-			26665
-		}
-	},
-	[26666] = {
-		id = 26666,
-		damage = "105/回",
-		base = 26660,
-		weapon_id = {
-			26666
-		}
-	},
-	[26667] = {
-		id = 26667,
-		damage = "115/回",
-		base = 26660,
-		weapon_id = {
-			26667
-		}
-	},
-	[26668] = {
-		id = 26668,
-		damage = "126/回",
-		base = 26660,
-		weapon_id = {
-			26668
-		}
-	},
-	[26669] = {
-		id = 26669,
-		damage = "138/回",
-		base = 26660,
-		weapon_id = {
-			26669
-		}
-	},
-	[26670] = {
-		id = 26670,
-		damage = "150/回",
-		base = 26660,
-		weapon_id = {
-			26670
-		}
-	},
-	[26671] = {
+	[26631] = {
 		anti_siren = 100,
-		damage = "150/回",
-		base = 26660,
-		id = 26671,
+		damage = "96/回",
+		base = 26620,
+		id = 26631,
 		weapon_id = {
-			26671
+			26631
 		}
 	},
-	[26672] = {
+	[26632] = {
 		anti_siren = 200,
-		damage = "150/回",
-		base = 26660,
-		id = 26672,
+		damage = "96/回",
+		base = 26620,
+		id = 26632,
 		weapon_id = {
-			26672
+			26632
 		}
 	},
-	[26673] = {
+	[26633] = {
 		anti_siren = 300,
-		damage = "150/回",
-		base = 26660,
-		id = 26673,
+		damage = "96/回",
+		base = 26620,
+		id = 26633,
 		weapon_id = {
-			26673
+			26633
 		}
 	},
-	[27000] = {
-		name = "シーファイア",
-		type = 7,
-		speciality = "航空",
-		rarity = 2,
-		tech = 1,
+	[26640] = {
+		name = "134mm連装高角砲",
+		speciality = "対空",
+		type = 6,
+		attribute_3 = "cannon",
+		tech = 0,
+		value_2 = 30,
+		icon = "21500",
+		attribute_2 = "antiaircraft",
 		descrip = "0",
-		value_2 = 5,
-		icon = "27000",
-		attribute_2 = "air",
+		rarity = 5,
+		damage = "53/回",
 		nationality = 2,
 		ammo = 5,
-		value_3 = 0,
-		id = 27000,
+		value_3 = 15,
+		id = 26640,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50100
-			},
-			{
-				6,
-				50500
-			},
-			{
-				5,
-				52200
-			}
-		},
+		ammo_info = {},
 		equip_info = {
+			1,
+			2,
 			6,
-			7,
-			8,
-			9
+			10
 		},
 		weapon_id = {
-			27000,
-			82000
+			26640
 		},
 		skill_id = {},
 		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
 			6,
-			7
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
 			6,
-			7
+			10,
+			12,
+			13,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
 			"HMS",
-			"CV",
-			"FT"
+			"ST",
+			"AA"
 		}
 	},
-	[27001] = {
-		id = 27001,
-		base = 27000,
-		ammo_info = {
-			{
-				6,
-				50101
-			},
-			{
-				6,
-				50501
-			},
-			{
-				5,
-				52201
-			}
-		},
+	[26641] = {
+		id = 26641,
+		damage = "61/回",
+		base = 26640,
 		weapon_id = {
-			27001,
-			82001
+			26641
 		}
 	},
-	[27002] = {
-		id = 27002,
-		base = 27000,
-		ammo_info = {
-			{
-				6,
-				50102
-			},
-			{
-				6,
-				50502
-			},
-			{
-				5,
-				52202
-			}
-		},
+	[26642] = {
+		id = 26642,
+		damage = "68/回",
+		base = 26640,
 		weapon_id = {
-			27002,
-			82002
+			26642
 		}
 	},
-	[27003] = {
-		id = 27003,
-		base = 27000,
-		ammo_info = {
-			{
-				6,
-				50103
-			},
-			{
-				6,
-				50503
-			},
-			{
-				5,
-				52203
-			}
-		},
+	[26643] = {
+		id = 26643,
+		damage = "76/回",
+		base = 26640,
 		weapon_id = {
-			27003,
-			82003
+			26643
 		}
 	},
-	[27020] = {
-		name = "シーファイア",
-		type = 7,
-		speciality = "航空",
-		rarity = 3,
-		tech = 2,
-		descrip = "0",
-		value_2 = 12,
-		icon = "27000",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 27020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50120
-			},
-			{
-				6,
-				50520
-			},
-			{
-				5,
-				52220
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
+	[26644] = {
+		id = 26644,
+		damage = "84/回",
+		base = 26640,
 		weapon_id = {
-			27020,
-			82020
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"FT"
+			26644
+		}
+	},
+	[26645] = {
+		id = 26645,
+		damage = "92/回",
+		base = 26640,
+		weapon_id = {
+			26645
+		}
+	},
+	[26646] = {
+		id = 26646,
+		damage = "100/回",
+		base = 26640,
+		weapon_id = {
+			26646
+		}
+	},
+	[26647] = {
+		id = 26647,
+		damage = "108/回",
+		base = 26640,
+		weapon_id = {
+			26647
+		}
+	},
+	[26648] = {
+		id = 26648,
+		damage = "116/回",
+		base = 26640,
+		weapon_id = {
+			26648
+		}
+	},
+	[26649] = {
+		id = 26649,
+		damage = "124/回",
+		base = 26640,
+		weapon_id = {
+			26649
+		}
+	},
+	[26650] = {
+		id = 26650,
+		damage = "132/回",
+		base = 26640,
+		weapon_id = {
+			26650
+		}
+	},
+	[26651] = {
+		anti_siren = 100,
+		damage = "132/回",
+		base = 26640,
+		id = 26651,
+		weapon_id = {
+			26651
 		}
 	}
 }

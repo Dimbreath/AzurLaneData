@@ -1,104 +1,36 @@
 pg = pg or {}
 pg.equip_data_statistics_160 = {
-	[22200] = {
-		name = "152mm三連装砲",
-		speciality = "追尾",
-		type = 2,
-		tech = 1,
-		descrip = "0",
-		value_2 = 5,
-		icon = "22200",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "8 x 6",
-		nationality = 2,
-		ammo = 1,
-		value_3 = 0,
-		id = 22200,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1104
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1104
-			},
-			{
-				4,
-				1102
-			},
-			6,
-			10,
-			11,
-			12
-		},
+	[22102] = {
+		id = 22102,
+		damage = "10 x 4",
+		base = 22100,
 		weapon_id = {
-			22200
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CL",
-			"MG",
-			"AP"
+			22102
 		}
 	},
-	[22201] = {
-		id = 22201,
-		damage = "9 x 6",
-		base = 22200,
+	[22103] = {
+		id = 22103,
+		damage = "11 x 4",
+		base = 22100,
 		weapon_id = {
-			22201
+			22103
 		}
 	},
-	[22202] = {
-		id = 22202,
-		damage = "10 x 6",
-		base = 22200,
-		weapon_id = {
-			22202
-		}
-	},
-	[22203] = {
-		id = 22203,
-		damage = "11 x 6",
-		base = 22200,
-		weapon_id = {
-			22203
-		}
-	},
-	[22220] = {
-		name = "152mm三連装砲",
+	[22120] = {
+		name = "152mm連装砲",
 		speciality = "追尾",
 		type = 2,
 		tech = 2,
 		descrip = "0",
 		value_2 = 12,
-		icon = "22200",
+		icon = "22100",
 		attribute_2 = "cannon",
 		rarity = 3,
-		damage = "9 x 6",
+		damage = "9 x 4",
 		nationality = 2,
 		ammo = 1,
 		value_3 = 0,
-		id = 22220,
+		id = 22120,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -119,7 +51,7 @@ pg.equip_data_statistics_160 = {
 			},
 			{
 				4,
-				1102
+				1101
 			},
 			6,
 			10,
@@ -127,7 +59,7 @@ pg.equip_data_statistics_160 = {
 			12
 		},
 		weapon_id = {
-			22220
+			22120
 		},
 		skill_id = {},
 		part_main = {
@@ -144,69 +76,69 @@ pg.equip_data_statistics_160 = {
 			"AP"
 		}
 	},
-	[22221] = {
-		id = 22221,
-		damage = "10 x 6",
-		base = 22220,
+	[22121] = {
+		id = 22121,
+		damage = "10 x 4",
+		base = 22120,
 		weapon_id = {
-			22221
+			22121
 		}
 	},
-	[22222] = {
-		id = 22222,
-		damage = "11 x 6",
-		base = 22220,
+	[22122] = {
+		id = 22122,
+		damage = "11 x 4",
+		base = 22120,
 		weapon_id = {
-			22222
+			22122
 		}
 	},
-	[22223] = {
-		id = 22223,
-		damage = "12 x 6",
-		base = 22220,
+	[22123] = {
+		id = 22123,
+		damage = "12 x 4",
+		base = 22120,
 		weapon_id = {
-			22223
+			22123
 		}
 	},
-	[22224] = {
-		id = 22224,
-		damage = "13 x 6",
-		base = 22220,
+	[22124] = {
+		id = 22124,
+		damage = "13 x 4",
+		base = 22120,
 		weapon_id = {
-			22224
+			22124
 		}
 	},
-	[22225] = {
-		id = 22225,
-		damage = "14 x 6",
-		base = 22220,
+	[22125] = {
+		id = 22125,
+		damage = "14 x 4",
+		base = 22120,
 		weapon_id = {
-			22225
+			22125
 		}
 	},
-	[22226] = {
-		id = 22226,
-		damage = "15 x 6",
-		base = 22220,
+	[22126] = {
+		id = 22126,
+		damage = "15 x 4",
+		base = 22120,
 		weapon_id = {
-			22226
+			22126
 		}
 	},
-	[22240] = {
-		name = "152mm三連装砲",
+	[22140] = {
+		name = "152mm連装砲",
 		speciality = "追尾",
 		type = 2,
 		tech = 3,
 		descrip = "0",
 		value_2 = 25,
-		icon = "22200",
+		icon = "22100",
 		attribute_2 = "cannon",
 		rarity = 4,
-		damage = "10 x 6",
+		damage = "10 x 4",
 		nationality = 2,
 		ammo = 1,
 		value_3 = 0,
-		id = 22240,
+		id = 22140,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -227,7 +159,7 @@ pg.equip_data_statistics_160 = {
 			},
 			{
 				4,
-				1102
+				1101
 			},
 			6,
 			10,
@@ -235,7 +167,7 @@ pg.equip_data_statistics_160 = {
 			12
 		},
 		weapon_id = {
-			22240
+			22140
 		},
 		skill_id = {},
 		part_main = {
@@ -252,36 +184,52 @@ pg.equip_data_statistics_160 = {
 			"AP"
 		}
 	},
-	[22241] = {
-		id = 22241,
-		damage = "11 x 6",
-		base = 22240,
+	[22141] = {
+		id = 22141,
+		damage = "11 x 4",
+		base = 22140,
 		weapon_id = {
-			22241
+			22141
 		}
 	},
-	[22242] = {
-		id = 22242,
-		damage = "12 x 6",
-		base = 22240,
+	[22142] = {
+		id = 22142,
+		damage = "12 x 4",
+		base = 22140,
 		weapon_id = {
-			22242
+			22142
 		}
 	},
-	[22243] = {
-		id = 22243,
-		damage = "13 x 6",
-		base = 22240,
+	[22143] = {
+		id = 22143,
+		damage = "13 x 4",
+		base = 22140,
 		weapon_id = {
-			22243
+			22143
 		}
 	},
-	[22244] = {
-		id = 22244,
-		damage = "14 x 6",
-		base = 22240,
+	[22144] = {
+		id = 22144,
+		damage = "14 x 4",
+		base = 22140,
 		weapon_id = {
-			22244
+			22144
+		}
+	},
+	[22145] = {
+		id = 22145,
+		damage = "15 x 4",
+		base = 22140,
+		weapon_id = {
+			22145
+		}
+	},
+	[22146] = {
+		id = 22146,
+		damage = "16 x 4",
+		base = 22140,
+		weapon_id = {
+			22146
 		}
 	}
 }

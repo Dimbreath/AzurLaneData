@@ -572,28 +572,28 @@ pg.equip_data_template_106 = {
 			}
 		}
 	},
-	[14500] = {
-		important = 2,
-		destory_gold = 36,
+	[14400] = {
+		important = 1,
+		destory_gold = 9,
 		type = 4,
-		group = 14500,
+		group = 14400,
 		restore_gold = 0,
-		trans_use_gold = 60,
-		next = 14501,
+		trans_use_gold = 20,
+		next = 14401,
 		prev = 0,
-		id = 14500,
+		id = 14400,
 		equip_limit = 0,
 		level = 1,
 		ship_type_forbidden = {},
 		trans_use_item = {
 			{
 				17011,
-				3
+				1
 			}
 		},
 		destory_item = {
 			{
-				17013,
+				17011,
 				1
 			}
 		},

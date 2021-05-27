@@ -34,6 +34,7 @@ function slot0.setCurrentFlagship(slot0, slot1)
 	slot0.flagShip = slot1
 
 	slot0:updatePainting(slot1)
+	slot0:updateSpinePaintingState()
 	slot0:updateLive2DState()
 	slot0:updateBGState()
 	slot0:updateBGMState()
@@ -79,6 +80,8 @@ function slot0.init(slot0)
 	slot0.replaceBtn = slot0:findTF("replace_btn", slot0.leftPanel)
 	slot0.swichSkinBtn = slot0:findTF("swichSkin_btn", slot0.leftPanel)
 	slot0.hzszBtn = slot0:findTF("hzsz", slot0.leftPanel)
+	slot0.spinePaintingBtn = slot0:findTF("content/SP_btn", slot0.bottomPanel)
+	slot0.spinePaintingToggle = slot0.spinePaintingBtn:Find("toggle")
 	slot0.live2dBtn = slot0:findTF("content/L2D_btn", slot0.bottomPanel)
 	slot0.live2dToggle = slot0.live2dBtn:Find("toggle")
 	slot0.live2dState = slot0.live2dBtn:Find("state")
@@ -251,6 +254,7 @@ function slot0.hideCharacters(slot0)
 		setActive(slot0.swichSkinBtn, slot0.isExistSkin)
 	end
 
+	slot0:updateSpinePaintingState()
 	slot0:updateLive2DState()
 	slot0:updateBGState()
 	setActive(slot0.paintContain, true)
@@ -399,6 +403,7 @@ end
 
 function slot0.updateFashion(slot0)
 	setPaintingPrefabAsync(slot0.paintContain, slot0.skin.painting, "kanban")
+	slot0:updateSpinePaintingState()
 	slot0:updateLive2DState()
 	slot0:updateBGState()
 end
@@ -427,7 +432,7 @@ end
 
 function slot0.updateLive2DState(slot0)
 	slot1 = HXSet.autoHxShiftPath("live2d/" .. string.lower(slot0.flagShip:getPainting()), nil, true)
-	slot3 = getProxy(SettingsProxy):getCharacterSetting(slot0.flagShip.id, "l2d")
+	slot3 = getProxy(SettingsProxy):getCharacterSetting(slot0.flagShip.id, SHIP_FLAG_L2D)
 
 	if Live2DUpdateMgr.Inst.state == DownloadState.None or slot5 == DownloadState.CheckFailure then
 		slot4:CheckD()
@@ -461,7 +466,7 @@ function slot0.updateLive2DState(slot0)
 			setActive(slot0.live2dToggle:Find("on"), slot8)
 			setActive(slot0.live2dToggle:Find("off"), not slot8)
 			onButton(slot0, slot0.live2dBtn, function ()
-				uv0:setCharacterSetting(uv1.flagShip.id, "l2d", not uv2)
+				uv0:setCharacterSetting(uv1.flagShip.id, SHIP_FLAG_L2D, not uv2)
 				uv1:updateLive2DState()
 			end, SFX_PANEL)
 		end
@@ -504,8 +509,28 @@ function slot0.getGroupSkinList(slot0, slot1)
 	return getProxy(ShipSkinProxy):GetAllSkinForShip(slot1)
 end
 
+function slot0.updateSpinePaintingState(slot0)
+	slot2 = getProxy(SettingsProxy):getCharacterSetting(slot0.flagShip.id, SHIP_FLAG_SP)
+
+	if PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("spinepainting/" .. slot0.flagShip:getPainting()))) then
+		setActive(slot0.spinePaintingBtn, true)
+		setActive(slot0.spinePaintingToggle:Find("on"), slot2)
+		setActive(slot0.spinePaintingToggle:Find("off"), not slot2)
+		removeOnButton(slot0.spinePaintingBtn)
+		onButton(slot0, slot0.spinePaintingBtn, function ()
+			uv0 = not uv0
+
+			uv1:setCharacterSetting(uv2.flagShip.id, SHIP_FLAG_SP, uv0)
+			setActive(uv2.spinePaintingToggle:Find("on"), uv0)
+			setActive(uv2.spinePaintingToggle:Find("off"), not uv0)
+		end, SFX_PANEL)
+	else
+		setActive(slot0.spinePaintingBtn, false)
+	end
+end
+
 function slot0.updateBGState(slot0)
-	slot2 = getProxy(SettingsProxy):getCharacterSetting(slot0.flagShip.id, "bg")
+	slot2 = getProxy(SettingsProxy):getCharacterSetting(slot0.flagShip.id, SHIP_FLAG_BG)
 
 	if slot0.flagShip:getShipBgPrint() ~= slot0.flagShip:rarity2bgPrintForGet() then
 		setActive(slot0.showBgBtn, true)
@@ -515,7 +540,7 @@ function slot0.updateBGState(slot0)
 		onButton(slot0, slot0.showBgBtn, function ()
 			uv0 = not uv0
 
-			uv1:setCharacterSetting(uv2.flagShip.id, "bg", uv0)
+			uv1:setCharacterSetting(uv2.flagShip.id, SHIP_FLAG_BG, uv0)
 			setActive(uv2.showBgToggle:Find("on"), uv0)
 			setActive(uv2.showBgToggle:Find("off"), not uv0)
 		end, SFX_PANEL)
@@ -647,9 +672,9 @@ function slot0.updateLive2DBtn(slot0, slot1, slot2)
 			onToggle(slot0, slot2, function (slot0)
 				setActive(uv0:Find("on"), slot0)
 				setActive(uv0:Find("off"), not slot0)
-				getProxy(SettingsProxy):setCharacterSetting(uv1.id, "l2d", slot0)
+				getProxy(SettingsProxy):setCharacterSetting(uv1.id, SHIP_FLAG_L2D, slot0)
 			end, SFX_PANEL)
-			triggerToggle(slot2, getProxy(SettingsProxy):getCharacterSetting(slot1.id, "l2d"))
+			triggerToggle(slot2, getProxy(SettingsProxy):getCharacterSetting(slot1.id, SHIP_FLAG_L2D))
 		end
 	end
 
@@ -699,32 +724,42 @@ function slot0.updateCard(slot0, slot1)
 
 		slot0:updateLive2DBtn(slot3, slot4.tr:Find("mask/settings/l2d"))
 
-		slot6 = slot4.tr:Find("mask/settings/bg")
+		slot8 = slot4.tr:Find("mask/settings/sp")
 
-		onToggle(slot0, slot6, function (slot0)
+		onToggle(slot0, slot8, function (slot0)
 			setActive(uv0:Find("on"), slot0)
 			setActive(uv0:Find("off"), not slot0)
-			getProxy(SettingsProxy):setCharacterSetting(uv1, "bg", slot0)
+			getProxy(SettingsProxy):setCharacterSetting(uv1, SHIP_FLAG_SP, slot0)
 		end)
-		triggerToggle(slot6, getProxy(SettingsProxy):getCharacterSetting(slot2, "bg"))
-		setActive(slot6, slot3:getShipBgPrint() ~= slot3:rarity2bgPrintForGet())
+		triggerToggle(slot8, getProxy(SettingsProxy):getCharacterSetting(slot2, SHIP_FLAG_SP))
+		setActive(slot8, PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("spinepainting/" .. slot3:getPainting()))))
 
-		slot7 = slot4.tr:Find("mask/settings/bgm")
+		slot9 = slot4.tr:Find("mask/settings/bg")
 
-		onToggle(slot0, slot7, function (slot0)
+		onToggle(slot0, slot9, function (slot0)
 			setActive(uv0:Find("on"), slot0)
 			setActive(uv0:Find("off"), not slot0)
-			getProxy(SettingsProxy):setCharacterSetting(uv1, "bgm", slot0)
+			getProxy(SettingsProxy):setCharacterSetting(uv1, SHIP_FLAG_BG, slot0)
 		end)
-		triggerToggle(slot7, getProxy(SettingsProxy):getCharacterSetting(slot2, "bgm"))
-		setActive(slot7, false)
+		triggerToggle(slot9, getProxy(SettingsProxy):getCharacterSetting(slot2, SHIP_FLAG_BG))
+		setActive(slot9, slot3:getShipBgPrint() ~= slot3:rarity2bgPrintForGet())
 
-		slot8 = slot4.tr:Find("mask/skin")
+		slot10 = slot4.tr:Find("mask/settings/bgm")
 
-		onButton(slot0, slot8, function ()
+		onToggle(slot0, slot10, function (slot0)
+			setActive(uv0:Find("on"), slot0)
+			setActive(uv0:Find("off"), not slot0)
+			getProxy(SettingsProxy):setCharacterSetting(uv1, SHIP_FLAG_BGM, slot0)
+		end)
+		triggerToggle(slot10, getProxy(SettingsProxy):getCharacterSetting(slot2, SHIP_FLAG_BGM))
+		setActive(slot10, false)
+
+		slot11 = slot4.tr:Find("mask/skin")
+
+		onButton(slot0, slot11, function ()
 			uv0:emit(PlayerInfoMediator.CHANGE_SKIN, uv1)
 		end)
-		setActive(slot8, slot0:isCurrentShipExistSkin(slot3))
+		setActive(slot11, slot0:isCurrentShipExistSkin(slot3))
 	else
 		slot0.cards[slot1]:update(nil, false)
 	end

@@ -48,6 +48,8 @@ function slot0.GetPrefab(slot0, slot1, slot2, slot3, slot4)
 	slot0._loadingRequest[slot4] = slot5
 
 	slot5:Start()
+
+	return slot4
 end
 
 function slot0.GetPrefabBYStopLoading(slot0, slot1, slot2, slot3, slot4)
@@ -76,6 +78,8 @@ function slot0.GetPrefabBYStopLoading(slot0, slot1, slot2, slot3, slot4)
 	slot0._loadingRequest[slot4] = slot5
 
 	slot5:Start()
+
+	return slot4
 end
 
 function slot0.ReturnPrefab(slot0, slot1)
@@ -109,6 +113,8 @@ function slot0.GetSpine(slot0, slot1, slot2, slot3)
 	slot0._loadingRequest[slot3] = slot4
 
 	slot4:Start()
+
+	return slot3
 end
 
 function slot0.ReturnSpine(slot0, slot1)
@@ -117,6 +123,7 @@ end
 
 function slot0.GetSprite(slot0, slot1, slot2, slot3, slot4)
 	slot3:GetComponent(typeof(Image)).enabled = false
+	slot6 = tf(slot3)
 
 	slot0:GetSpriteDirect(slot1, slot2 or "", function (slot0)
 		uv0.enabled = true
@@ -125,7 +132,9 @@ function slot0.GetSprite(slot0, slot1, slot2, slot3, slot4)
 		if uv1 then
 			uv0:SetNativeSize()
 		end
-	end, tf(slot3))
+	end, slot6)
+
+	return slot6
 end
 
 function slot0.GetSpriteDirect(slot0, slot1, slot2, slot3, slot4)
@@ -150,6 +159,8 @@ function slot0.GetSpriteDirect(slot0, slot1, slot2, slot3, slot4)
 	slot5:Start()
 
 	slot0._returnRequest[slot1] = uv2.New(slot1)
+
+	return slot4
 end
 
 function slot0.GetOffSpriteRequest(slot0, slot1)
@@ -176,6 +187,8 @@ function slot0.LoadPrefab(slot0, slot1, slot2, slot3, slot4)
 	slot0._loadingRequest[slot4] = slot5
 
 	slot5:Start()
+
+	return slot4
 end
 
 function slot0.LoadSprite(slot0, slot1, slot2, slot3, slot4)
@@ -201,6 +214,8 @@ function slot0.LoadSprite(slot0, slot1, slot2, slot3, slot4)
 	slot0._loadingRequest[slot6] = slot7
 
 	slot7:Start()
+
+	return slot6
 end
 
 function slot0.LoadReference(slot0, slot1, slot2, slot3, slot4, slot5)
@@ -223,6 +238,8 @@ function slot0.LoadReference(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._loadingRequest[slot5] = slot6
 
 	slot6:Start()
+
+	return slot5
 end
 
 function slot0.DestroyAtlas(slot0, slot1)

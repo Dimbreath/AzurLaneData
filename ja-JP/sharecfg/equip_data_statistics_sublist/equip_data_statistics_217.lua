@@ -1,247 +1,349 @@
 pg = pg or {}
 pg.equip_data_statistics_217 = {
-	[30003] = {
-		id = 30003,
-		damage = "56 x 2",
-		base = 30000,
-		weapon_id = {
-			30003
-		}
-	},
-	[30004] = {
-		id = 30004,
-		damage = "62 x 2",
-		base = 30000,
-		weapon_id = {
-			30004
-		}
-	},
-	[30005] = {
-		id = 30005,
-		damage = "68 x 2",
-		base = 30000,
-		weapon_id = {
-			30005
-		}
-	},
-	[30006] = {
-		id = 30006,
-		damage = "74 x 2",
-		base = 30000,
-		weapon_id = {
-			30006
-		}
-	},
-	[30007] = {
-		id = 30007,
-		damage = "74 x 2",
-		base = 30000,
-		weapon_id = {
-			30007
-		}
-	},
-	[31000] = {
-		name = "100mm二連装九八式高角砲",
-		speciality = "追尾",
-		type = 1,
-		attribute_3 = "antiaircraft",
-		tech = 1,
-		value_2 = 4,
-		icon = "31000",
-		attribute_2 = "cannon",
-		descrip = "0",
-		rarity = 3,
-		damage = "4 x 4",
-		nationality = 3,
-		ammo = 3,
-		value_3 = 8,
-		id = 31000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
+	[29210] = {
+		id = 29210,
+		base = 29200,
 		ammo_info = {
 			{
-				1,
-				1200
+				6,
+				50670
+			},
+			{
+				5,
+				52750
+			}
+		},
+		weapon_id = {
+			29210
+		}
+	},
+	[29211] = {
+		anti_siren = 100,
+		base = 29200,
+		id = 29211,
+		ammo_info = {
+			{
+				6,
+				50671
+			},
+			{
+				5,
+				52751
+			}
+		},
+		weapon_id = {
+			29211
+		}
+	},
+	[29212] = {
+		anti_siren = 200,
+		base = 29200,
+		id = 29212,
+		ammo_info = {
+			{
+				6,
+				50672
+			},
+			{
+				5,
+				52752
+			}
+		},
+		weapon_id = {
+			29212
+		}
+	},
+	[29213] = {
+		anti_siren = 300,
+		base = 29200,
+		id = 29213,
+		ammo_info = {
+			{
+				6,
+				50673
+			},
+			{
+				5,
+				52753
+			}
+		},
+		weapon_id = {
+			29213
+		}
+	},
+	[29300] = {
+		name = "バラクーダ（831中隊）",
+		type = 9,
+		speciality = "爆撃",
+		rarity = 5,
+		tech = 0,
+		descrip = "タングステン作戦でティルピッツを爆撃した、730kg徹甲爆弾を装備した831中隊爆撃機隊",
+		value_2 = 45,
+		icon = "29300",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 29300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				5,
+				53280
 			}
 		},
 		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1200
-			},
-			{
-				4,
-				1001
-			},
 			6,
-			10,
-			11,
-			12
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			31000
+			29300
 		},
-		skill_id = {},
+		skill_id = {
+			6830
+		},
 		part_main = {
-			1,
-			19
+			6,
+			7
 		},
 		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
+			6,
+			7
 		},
 		equip_parameters = {},
 		label = {
-			"IJN",
-			"DD",
-			"MG"
+			"HMS",
+			"CV",
+			"DB"
 		}
 	},
-	[31001] = {
-		id = 31001,
-		base = 31000,
-		weapon_id = {
-			31001
-		}
-	},
-	[31002] = {
-		id = 31002,
-		damage = "6 x 4",
-		base = 31000,
-		weapon_id = {
-			31002
-		}
-	},
-	[31003] = {
-		id = 31003,
-		damage = "6 x 4",
-		base = 31000,
-		weapon_id = {
-			31003
-		}
-	},
-	[31004] = {
-		id = 31004,
-		damage = "6 x 4",
-		base = 31000,
-		weapon_id = {
-			31004
-		}
-	},
-	[31005] = {
-		id = 31005,
-		damage = "7 x 4",
-		base = 31000,
-		weapon_id = {
-			31005
-		}
-	},
-	[31006] = {
-		id = 31006,
-		damage = "7 x 4",
-		base = 31000,
-		weapon_id = {
-			31006
-		}
-	},
-	[31020] = {
-		name = "100mm二連装九八式高角砲",
-		speciality = "追尾",
-		type = 1,
-		attribute_3 = "antiaircraft",
-		tech = 2,
-		value_2 = 9,
-		icon = "31000",
-		attribute_2 = "cannon",
-		descrip = "0",
-		rarity = 4,
-		damage = "4 x 4",
-		nationality = 3,
-		ammo = 3,
-		value_3 = 16,
-		id = 31020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
+	[29301] = {
+		base = 29300,
+		id = 29301,
 		ammo_info = {
 			{
-				1,
-				1200
+				6,
+				50041
+			},
+			{
+				5,
+				53281
 			}
 		},
-		equip_info = {
-			1,
-			2,
+		weapon_id = {
+			29301
+		},
+		skill_id = {
+			6831
+		}
+	},
+	[29302] = {
+		base = 29300,
+		id = 29302,
+		ammo_info = {
 			{
-				3,
-				1200
+				6,
+				50042
 			},
 			{
-				4,
-				1001
+				5,
+				53282
+			}
+		},
+		weapon_id = {
+			29302
+		},
+		skill_id = {
+			6832
+		}
+	},
+	[29303] = {
+		base = 29300,
+		id = 29303,
+		ammo_info = {
+			{
+				6,
+				50043
 			},
-			6,
-			10,
-			11,
-			12
+			{
+				5,
+				53283
+			}
 		},
 		weapon_id = {
-			31020
+			29303
 		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"DD",
-			"MG"
+		skill_id = {
+			6833
 		}
 	},
-	[31021] = {
-		id = 31021,
-		base = 31020,
+	[29304] = {
+		base = 29300,
+		id = 29304,
+		ammo_info = {
+			{
+				6,
+				50044
+			},
+			{
+				5,
+				53284
+			}
+		},
 		weapon_id = {
-			31021
+			29304
+		},
+		skill_id = {
+			6834
 		}
 	},
-	[31022] = {
-		id = 31022,
-		damage = "6 x 4",
-		base = 31020,
+	[29305] = {
+		base = 29300,
+		id = 29305,
+		ammo_info = {
+			{
+				6,
+				50045
+			},
+			{
+				5,
+				53285
+			}
+		},
 		weapon_id = {
-			31022
+			29305
+		},
+		skill_id = {
+			6835
 		}
 	},
-	[31023] = {
-		id = 31023,
-		damage = "6 x 4",
-		base = 31020,
+	[29306] = {
+		base = 29300,
+		id = 29306,
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				5,
+				53286
+			}
+		},
 		weapon_id = {
-			31023
+			29306
+		},
+		skill_id = {
+			6836
+		}
+	},
+	[29307] = {
+		base = 29300,
+		id = 29307,
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				5,
+				53287
+			}
+		},
+		weapon_id = {
+			29307
+		},
+		skill_id = {
+			6837
+		}
+	},
+	[29308] = {
+		base = 29300,
+		id = 29308,
+		ammo_info = {
+			{
+				6,
+				50048
+			},
+			{
+				5,
+				53288
+			}
+		},
+		weapon_id = {
+			29308
+		},
+		skill_id = {
+			6838
+		}
+	},
+	[29309] = {
+		base = 29300,
+		id = 29309,
+		ammo_info = {
+			{
+				6,
+				50049
+			},
+			{
+				5,
+				53289
+			}
+		},
+		weapon_id = {
+			29309
+		},
+		skill_id = {
+			6839
+		}
+	},
+	[29310] = {
+		base = 29300,
+		id = 29310,
+		ammo_info = {
+			{
+				6,
+				50050
+			},
+			{
+				5,
+				53290
+			}
+		},
+		weapon_id = {
+			29310
+		},
+		skill_id = {
+			6840
+		}
+	},
+	[29311] = {
+		anti_siren = 100,
+		base = 29300,
+		id = 29311,
+		ammo_info = {
+			{
+				6,
+				50051
+			},
+			{
+				5,
+				53291
+			}
+		},
+		weapon_id = {
+			29311
+		},
+		skill_id = {
+			6841
 		}
 	}
 }

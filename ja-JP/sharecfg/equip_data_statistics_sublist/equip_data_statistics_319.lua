@@ -1,44 +1,84 @@
 pg = pg or {}
 pg.equip_data_statistics_319 = {
-	[46145] = {
-		id = 46145,
-		damage = "22/回",
-		base = 46140,
+	[46064] = {
+		id = 46064,
+		damage = "52/回",
+		base = 46060,
 		weapon_id = {
-			46145
+			46064
 		}
 	},
-	[46146] = {
-		id = 46146,
-		damage = "24/回",
-		base = 46140,
+	[46065] = {
+		id = 46065,
+		damage = "58/回",
+		base = 46060,
 		weapon_id = {
-			46146
+			46065
 		}
 	},
-	[46147] = {
-		id = 46147,
-		damage = "24/回",
-		base = 46140,
+	[46066] = {
+		id = 46066,
+		damage = "64/回",
+		base = 46060,
 		weapon_id = {
-			46147
+			46066
 		}
 	},
-	[46200] = {
-		name = "37mm連装機銃",
+	[46067] = {
+		id = 46067,
+		damage = "70/回",
+		base = 46060,
+		weapon_id = {
+			46067
+		}
+	},
+	[46068] = {
+		id = 46068,
+		damage = "76/回",
+		base = 46060,
+		weapon_id = {
+			46068
+		}
+	},
+	[46069] = {
+		id = 46069,
+		damage = "82/回",
+		base = 46060,
+		weapon_id = {
+			46069
+		}
+	},
+	[46070] = {
+		id = 46070,
+		damage = "89/回",
+		base = 46060,
+		weapon_id = {
+			46070
+		}
+	},
+	[46071] = {
+		anti_siren = 100,
+		damage = "89/回",
+		base = 46060,
+		id = 46071,
+		weapon_id = {
+			46071
+		}
+	},
+	[46100] = {
+		name = "37mm機銃",
 		speciality = "対空",
 		type = 6,
 		tech = 1,
-		descrip = "対空火器・37mm連装機銃",
-		value_2 = 5,
-		icon = "46200",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "15/回",
+		rarity = 1,
+		descrip = "対空火器・37mm機銃",
+		value_2 = 0,
+		icon = "46100",
+		damage = "8/回",
 		nationality = 4,
 		ammo = 5,
 		value_3 = 0,
-		id = 46200,
+		id = 46100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -50,7 +90,7 @@ pg.equip_data_statistics_319 = {
 			10
 		},
 		weapon_id = {
-			46200
+			46100
 		},
 		skill_id = {},
 		part_main = {
@@ -86,45 +126,45 @@ pg.equip_data_statistics_319 = {
 			"AA"
 		}
 	},
-	[46201] = {
-		id = 46201,
-		damage = "17/回",
-		base = 46200,
+	[46101] = {
+		id = 46101,
+		damage = "9/回",
+		base = 46100,
 		weapon_id = {
-			46201
+			46101
 		}
 	},
-	[46202] = {
-		id = 46202,
-		damage = "19/回",
-		base = 46200,
+	[46102] = {
+		id = 46102,
+		damage = "10/回",
+		base = 46100,
 		weapon_id = {
-			46202
+			46102
 		}
 	},
-	[46203] = {
-		id = 46203,
-		damage = "22/回",
-		base = 46200,
+	[46103] = {
+		id = 46103,
+		damage = "12/回",
+		base = 46100,
 		weapon_id = {
-			46203
+			46103
 		}
 	},
-	[46220] = {
-		name = "37mm連装機銃",
+	[46120] = {
+		name = "37mm機銃",
 		speciality = "対空",
 		type = 6,
 		tech = 2,
-		descrip = "対空火器・37mm連装機銃",
-		value_2 = 12,
-		icon = "46200",
+		descrip = "対空火器・37mm機銃",
+		value_2 = 5,
+		icon = "46100",
 		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "17/回",
+		rarity = 2,
+		damage = "11/回",
 		nationality = 4,
 		ammo = 5,
 		value_3 = 0,
-		id = 46220,
+		id = 46120,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -136,7 +176,7 @@ pg.equip_data_statistics_319 = {
 			10
 		},
 		weapon_id = {
-			46220
+			46120
 		},
 		skill_id = {},
 		part_main = {
@@ -172,122 +212,28 @@ pg.equip_data_statistics_319 = {
 			"AA"
 		}
 	},
-	[46221] = {
-		id = 46221,
-		damage = "19/回",
-		base = 46220,
+	[46121] = {
+		id = 46121,
+		damage = "12/回",
+		base = 46120,
 		weapon_id = {
-			46221
+			46121
 		}
 	},
-	[46222] = {
-		id = 46222,
-		damage = "22/回",
-		base = 46220,
+	[46122] = {
+		id = 46122,
+		damage = "14/回",
+		base = 46120,
 		weapon_id = {
-			46222
+			46122
 		}
 	},
-	[46223] = {
-		id = 46223,
-		damage = "25/回",
-		base = 46220,
+	[46123] = {
+		id = 46123,
+		damage = "16/回",
+		base = 46120,
 		weapon_id = {
-			46223
-		}
-	},
-	[46224] = {
-		id = 46224,
-		damage = "28/回",
-		base = 46220,
-		weapon_id = {
-			46224
-		}
-	},
-	[46225] = {
-		id = 46225,
-		damage = "31/回",
-		base = 46220,
-		weapon_id = {
-			46225
-		}
-	},
-	[46226] = {
-		id = 46226,
-		damage = "34/回",
-		base = 46220,
-		weapon_id = {
-			46226
-		}
-	},
-	[46240] = {
-		name = "37mm連装機銃",
-		speciality = "対空",
-		type = 6,
-		tech = 3,
-		descrip = "対空火器・37mm連装機銃",
-		value_2 = 25,
-		icon = "46200",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "20/回",
-		nationality = 4,
-		ammo = 5,
-		value_3 = 0,
-		id = 46240,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			46240
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"ST",
-			"AA"
-		}
-	},
-	[46241] = {
-		id = 46241,
-		damage = "23/回",
-		base = 46240,
-		weapon_id = {
-			46241
+			46123
 		}
 	}
 }

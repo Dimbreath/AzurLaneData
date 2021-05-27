@@ -2,6 +2,115 @@ pg = pg or {}
 pg.weapon_property_87 = {}
 
 function ()
+	uv0.weapon_property_87[51510] = {
+		id = 51510,
+		damage = 200,
+		base = 51500
+	}
+	uv0.weapon_property_87[51511] = {
+		id = 51511,
+		damage = 208,
+		base = 51500
+	}
+	uv0.weapon_property_87[51512] = {
+		id = 51512,
+		damage = 220,
+		base = 51500
+	}
+	uv0.weapon_property_87[51513] = {
+		id = 51513,
+		damage = 236,
+		base = 51500
+	}
+	uv0.weapon_property_87[51520] = {
+		action_index = "",
+		range = 80,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = -10,
+		shakescreen = 0,
+		name = "4 x 航空魚雷-重桜",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 44,
+		corrected = 100,
+		min_range = 0,
+		id = 51520,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 10000,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2112
+		},
+		barrage_ID = {
+			2143
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_87[51521] = {
+		id = 51521,
+		damage = 62,
+		base = 51520
+	}
+	uv0.weapon_property_87[51522] = {
+		id = 51522,
+		damage = 79,
+		base = 51520
+	}
+	uv0.weapon_property_87[51523] = {
+		id = 51523,
+		damage = 97,
+		base = 51520
+	}
+	uv0.weapon_property_87[51524] = {
+		id = 51524,
+		damage = 114,
+		base = 51520
+	}
+	uv0.weapon_property_87[51525] = {
+		id = 51525,
+		damage = 132,
+		base = 51520
+	}
+	uv0.weapon_property_87[51526] = {
+		id = 51526,
+		damage = 150,
+		base = 51520
+	}
+	uv0.weapon_property_87[51527] = {
+		id = 51527,
+		damage = 167,
+		base = 51520
+	}
+	uv0.weapon_property_87[51528] = {
+		id = 51528,
+		damage = 185,
+		base = 51520
+	}
+	uv0.weapon_property_87[51529] = {
+		id = 51529,
+		damage = 202,
+		base = 51520
+	}
 	uv0.weapon_property_87[51530] = {
 		id = 51530,
 		damage = 220,
@@ -371,115 +480,6 @@ function ()
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
 		reload_max = 10500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2121
-		},
-		barrage_ID = {
-			2120
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_87[52001] = {
-		id = 52001,
-		damage = 65,
-		base = 52000
-	}
-	uv0.weapon_property_87[52002] = {
-		id = 52002,
-		damage = 72,
-		base = 52000
-	}
-	uv0.weapon_property_87[52003] = {
-		id = 52003,
-		damage = 81,
-		base = 52000
-	}
-	uv0.weapon_property_87[52004] = {
-		id = 52004,
-		damage = 90,
-		base = 52000
-	}
-	uv0.weapon_property_87[52005] = {
-		id = 52005,
-		damage = 99,
-		base = 52000
-	}
-	uv0.weapon_property_87[52006] = {
-		id = 52006,
-		damage = 108,
-		base = 52000
-	}
-	uv0.weapon_property_87[52007] = {
-		id = 52007,
-		damage = 117,
-		base = 52000
-	}
-	uv0.weapon_property_87[52008] = {
-		id = 52008,
-		damage = 126,
-		base = 52000
-	}
-	uv0.weapon_property_87[52009] = {
-		id = 52009,
-		damage = 135,
-		base = 52000
-	}
-	uv0.weapon_property_87[52010] = {
-		id = 52010,
-		damage = 144,
-		base = 52000
-	}
-	uv0.weapon_property_87[52011] = {
-		id = 52011,
-		damage = 150,
-		base = 52000
-	}
-	uv0.weapon_property_87[52012] = {
-		id = 52012,
-		damage = 158,
-		base = 52000
-	}
-	uv0.weapon_property_87[52013] = {
-		id = 52013,
-		damage = 170,
-		base = 52000
-	}
-	uv0.weapon_property_87[52020] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 25,
-		shakescreen = 0,
-		name = "1 x 100lb 爆弾",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 63,
-		corrected = 100,
-		min_range = 0,
-		id = 52020,
-		attack_attribute_ratio = 80,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 10000,
 		queue = 1,
 		search_type = 2,
 		effect_move = 0,

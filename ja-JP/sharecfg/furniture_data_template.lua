@@ -4325,6 +4325,174 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[197] = {
+		can_rotate = 0,
+		describe = "ふわふわしながらも涼しい肌さわり！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/guangming1",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "シロクマちゃんぬいぐるみ",
+		advice = 0,
+		icon = "guangming1icon",
+		id = 197,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[198] = {
+		can_rotate = 1,
+		describe = "夏の涼しさが詰め込まれているよ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/guangming2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "シロクマちゃん冷蔵庫",
+		advice = 0,
+		icon = "guangming2icon",
+		id = 198,
+		comfortable = 3,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[199] = {
+		can_rotate = 1,
+		describe = "アイスを食べて夏を乗り切ろう！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/guangming3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "シロクマちゃんのアイステーブル",
+		advice = 0,
+		id = 199,
+		icon = "guangming3icon",
+		comfortable = 4,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-81,
+					31
+				},
+				{
+					1,
+					1
+				},
+				"chuanmo/guangming3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[200] = {
+		can_rotate = 0,
+		describe = "チャージ！マグネットコーディネート！輝けるスティールアーチに光あれ！…こういうの、好きなんでしょ♪――「照らす螺旋の鏡海」に参加した指揮官に贈る",
+		gain_by = "照らす螺旋の鏡海",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "ドラゴンアーチの記念章",
+		advice = 0,
+		id = 200,
+		icon = "usv4xunzhangicon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"usv4xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		can_rotate = 0,
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
@@ -5993,6 +6161,89 @@ pg.furniture_data_template = {
 			{
 				"bianniuCharControl"
 			}
+		},
+		interAction_group = {}
+	},
+	[100025] = {
+		can_rotate = 1,
+		describe = "スリルありすぎるピョ！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "bengjiicon",
+		count = 1,
+		name = "ハイパージャンプ饅頭",
+		advice = 0,
+		id = 100025,
+		tag = 6,
+		comfortable = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bengjiB",
+				"normal"
+			},
+			{
+				"bengjiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					},
+					{
+						"stand2"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -85883,6 +86134,887 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[80001] = {
+		can_rotate = 0,
+		describe = "掃除が行き届いていてピカピカの床",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/dibanbng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 80,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "バーの床",
+		advice = 0,
+		icon = "dibanbngicon",
+		id = 80001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80002] = {
+		can_rotate = 0,
+		describe = "落ち着いた色でまとまった壁紙",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/qiangbibng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 80,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "バーの壁",
+		advice = 0,
+		icon = "qiangbibngicon",
+		id = 80002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80101] = {
+		can_rotate = 1,
+		describe = "すみません、レバーが緩んでるので調整してもらってもいいですか？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/1bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 80,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ゲーム筐体",
+		advice = 0,
+		icon = "1bngicon",
+		id = 80101,
+		comfortable = 2,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80102] = {
+		can_rotate = 0,
+		describe = "接客が上手で、頼めば一緒にビリヤードやダーツにも付き合ってくれる",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/2bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 80,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "バニー饅頭",
+		advice = 0,
+		icon = "2bngicon",
+		id = 80102,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80103] = {
+		can_rotate = 0,
+		describe = "つい高いのを頼んでしまいそうになる座席",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/7bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 80,
+		count = 2,
+		name = "バーのボックス席",
+		advice = 0,
+		id = 80103,
+		icon = "7bngicon",
+		comfortable = 2,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-77,
+					83
+				},
+				{
+					1,
+					1
+				},
+				"bng/7bng_using"
+			},
+			{
+				"sit",
+				{
+					70,
+					83
+				},
+				{
+					-1,
+					1
+				},
+				"bng/7bng_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80105] = {
+		can_rotate = 0,
+		describe = "ハードブレイクが大事ピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/4bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 80,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ビリヤード饅頭",
+		advice = 0,
+		icon = "4bngicon",
+		id = 80105,
+		comfortable = 3,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80106] = {
+		can_rotate = 0,
+		describe = "この一杯はあちらのお客様からピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/5bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 80,
+		count = 1,
+		name = "バーテンダー饅頭",
+		advice = 0,
+		id = 80106,
+		icon = "5bngicon",
+		comfortable = 3,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					139,
+					-109
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80108] = {
+		can_rotate = 0,
+		describe = "仲間内でワイワイ飲めるテーブル",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/3bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 80,
+		count = 1,
+		name = "バーの円テーブル",
+		advice = 0,
+		id = 80108,
+		icon = "3bngicon",
+		comfortable = 3,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-113,
+					62
+				},
+				{
+					1,
+					1
+				},
+				"bng/3bng_using"
+			},
+			{
+				"sit",
+				{
+					49,
+					64
+				},
+				{
+					-1,
+					1
+				},
+				"bng/3bng_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80109] = {
+		can_rotate = 0,
+		describe = "テーブルとしての利用のほかに、下には荷物も収納できて便利",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/8bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 80,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "バーのカウンター",
+		advice = 0,
+		icon = "8bngicon",
+		id = 80109,
+		comfortable = 2,
+		size = {
+			2,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80110] = {
+		can_rotate = 0,
+		describe = "こちらより上はVIPルームとなっております",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/9bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 80,
+		count = 1,
+		name = "バーの階段",
+		advice = 0,
+		id = 80110,
+		icon = "9bngicon",
+		comfortable = 3,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-49,
+					-27
+				},
+				{
+					-1,
+					1
+				},
+				"bng/9bng_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80111] = {
+		can_rotate = 0,
+		describe = "お酒で満たされたバスタブ（展示用）",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/10bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 80,
+		count = 1,
+		name = "モヒートバスタブ",
+		advice = 0,
+		id = 80111,
+		icon = "10bngicon",
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-31,
+					-13
+				},
+				{
+					-1,
+					1
+				},
+				"bng/10bng_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80112] = {
+		can_rotate = 0,
+		describe = "開店前にメイクや笑顔の確認！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/11bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 80,
+		count = 1,
+		name = "キャスト用ドレッサー",
+		advice = 0,
+		id = 80112,
+		icon = "11bngicon",
+		comfortable = 2,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-26,
+					-53
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80113] = {
+		can_rotate = 0,
+		describe = "ダンスや歌の公演が行われるステージ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 80,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "Abngicon",
+		count = 1,
+		name = "バニーステージ",
+		advice = 0,
+		id = 80113,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			6,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"AbngB",
+				"normal"
+			},
+			{
+				"AbngT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[80114] = {
+		can_rotate = 1,
+		describe = "ライブをしながら周遊できる特別なバン",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 80,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "Bbngicon",
+		count = 1,
+		name = "ライブバン",
+		advice = 0,
+		id = 80114,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Bbng",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[80115] = {
+		can_rotate = 1,
+		describe = "ど真ん中を狙うピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 80,
+		count = 1,
+		name = "饅頭ダーツ",
+		advice = 0,
+		id = 80115,
+		icon = "Cbngicon",
+		comfortable = 4,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Cbng",
+				"normal",
+				{
+					"2",
+					false,
+					{
+						"3",
+						"50"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[80301] = {
+		can_rotate = 0,
+		describe = "グラスやお酒などを置くための棚",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/12bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 80,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 3,
+		name = "バーの壁掛けラック",
+		advice = 0,
+		icon = "12bngicon",
+		id = 80301,
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80304] = {
+		can_rotate = 0,
+		describe = "間もなく夜の部の営業時間です",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/13bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 80,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "バーの壁掛け時計",
+		advice = 0,
+		icon = "13bngicon",
+		id = 80304,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80305] = {
+		can_rotate = 1,
+		describe = "オシャレなバーらしさが出るネオン管",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/14bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 80,
+		spine_action_replace = "",
+		belong = 4,
+		canputon = 0,
+		count = 1,
+		name = "バーのネオン看板",
+		advice = 0,
+		icon = "14bngicon",
+		id = 80305,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80306] = {
+		can_rotate = 1,
+		describe = "有名ブランドのビールやコーラなどを利用したインテリア",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/15bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 80,
+		spine_action_replace = "",
+		belong = 3,
+		canputon = 0,
+		count = 1,
+		name = "ボトルキャップ壁掛け",
+		advice = 0,
+		icon = "15bngicon",
+		id = 80306,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -85974,6 +87106,10 @@ pg.furniture_data_template = {
 		191,
 		192,
 		194,
+		197,
+		198,
+		199,
+		200,
 		100002,
 		100003,
 		100004,
@@ -85997,6 +87133,7 @@ pg.furniture_data_template = {
 		100022,
 		100023,
 		100024,
+		100025,
 		1001,
 		1002,
 		1101,
@@ -87814,6 +88951,25 @@ pg.furniture_data_template = {
 		78113,
 		78114,
 		78115,
-		78116
+		78116,
+		80001,
+		80002,
+		80101,
+		80102,
+		80103,
+		80105,
+		80106,
+		80108,
+		80109,
+		80110,
+		80111,
+		80112,
+		80113,
+		80114,
+		80115,
+		80301,
+		80304,
+		80305,
+		80306
 	}
 }

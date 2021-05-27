@@ -1,28 +1,68 @@
 pg = pg or {}
 pg.equip_data_statistics_297 = {
-	[42303] = {
-		id = 42303,
-		damage = "10 x 3",
-		base = 42300,
+	[42221] = {
+		id = 42221,
+		damage = "9 x 4",
+		base = 42220,
 		weapon_id = {
-			42303
+			42221
 		}
 	},
-	[42340] = {
-		name = "150mmTbtsKC36単装砲",
+	[42222] = {
+		id = 42222,
+		damage = "10 x 4",
+		base = 42220,
+		weapon_id = {
+			42222
+		}
+	},
+	[42223] = {
+		id = 42223,
+		damage = "11 x 4",
+		base = 42220,
+		weapon_id = {
+			42223
+		}
+	},
+	[42224] = {
+		id = 42224,
+		damage = "12 x 4",
+		base = 42220,
+		weapon_id = {
+			42224
+		}
+	},
+	[42225] = {
+		id = 42225,
+		damage = "13 x 4",
+		base = 42220,
+		weapon_id = {
+			42225
+		}
+	},
+	[42226] = {
+		id = 42226,
+		damage = "14 x 4",
+		base = 42220,
+		weapon_id = {
+			42226
+		}
+	},
+	[42240] = {
+		name = "150mmTbtsKC/36連装砲",
 		speciality = "追尾",
 		type = 2,
 		tech = 3,
-		descrip = "0",
+		descrip = "1936A駆逐艦に装備された150mmTbtsKC36連装砲。軽巡洋艦と一部の駆逐艦に装備可能",
 		value_2 = 25,
-		icon = "42300",
+		icon = "42200",
 		attribute_2 = "cannon",
 		rarity = 4,
-		damage = "6 x 3",
+		damage = "9 x 4",
 		nationality = 4,
 		ammo = 1,
 		value_3 = 0,
-		id = 42340,
+		id = 42240,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -43,7 +83,7 @@ pg.equip_data_statistics_297 = {
 			},
 			{
 				4,
-				1003
+				1001
 			},
 			6,
 			10,
@@ -51,7 +91,7 @@ pg.equip_data_statistics_297 = {
 			12
 		},
 		weapon_id = {
-			42340
+			42240
 		},
 		skill_id = {},
 		part_main = {
@@ -68,167 +108,76 @@ pg.equip_data_statistics_297 = {
 			"AP"
 		}
 	},
-	[42341] = {
-		id = 42341,
-		base = 42340,
+	[42241] = {
+		id = 42241,
+		damage = "10 x 4",
+		base = 42240,
 		weapon_id = {
-			42341
+			42241
 		}
 	},
-	[42342] = {
-		id = 42342,
-		damage = "7 x 3",
-		base = 42340,
+	[42242] = {
+		id = 42242,
+		damage = "11 x 4",
+		base = 42240,
 		weapon_id = {
-			42342
+			42242
 		}
 	},
-	[42343] = {
-		id = 42343,
-		damage = "8 x 3",
-		base = 42340,
+	[42243] = {
+		id = 42243,
+		damage = "12 x 4",
+		base = 42240,
 		weapon_id = {
-			42343
+			42243
 		}
 	},
-	[42344] = {
-		id = 42344,
-		damage = "9 x 3",
-		base = 42340,
+	[42244] = {
+		id = 42244,
+		damage = "13 x 4",
+		base = 42240,
 		weapon_id = {
-			42344
+			42244
 		}
 	},
-	[42345] = {
-		id = 42345,
-		damage = "10 x 3",
-		base = 42340,
+	[42245] = {
+		id = 42245,
+		damage = "14 x 4",
+		base = 42240,
 		weapon_id = {
-			42345
+			42245
 		}
 	},
-	[42346] = {
-		id = 42346,
-		damage = "11 x 3",
-		base = 42340,
+	[42246] = {
+		id = 42246,
+		damage = "15 x 4",
+		base = 42240,
 		weapon_id = {
-			42346
+			42246
 		}
 	},
-	[42347] = {
-		id = 42347,
-		damage = "12 x 3",
-		base = 42340,
+	[42247] = {
+		id = 42247,
+		damage = "16 x 4",
+		base = 42240,
 		weapon_id = {
-			42347
+			42247
 		}
 	},
-	[42348] = {
-		id = 42348,
-		damage = "13 x 3",
-		base = 42340,
+	[42248] = {
+		id = 42248,
+		damage = "17 x 4",
+		base = 42240,
 		weapon_id = {
-			42348
+			42248
 		}
 	},
-	[42349] = {
-		id = 42349,
-		damage = "14 x 3",
-		base = 42340,
+	[42249] = {
+		id = 42249,
+		damage = "19 x 4",
+		base = 42240,
 		weapon_id = {
-			42349
-		}
-	},
-	[42350] = {
-		id = 42350,
-		damage = "15 x 3",
-		base = 42340,
-		weapon_id = {
-			42350
-		}
-	},
-	[42351] = {
-		anti_siren = 100,
-		damage = "15 x 3",
-		base = 42340,
-		id = 42351,
-		weapon_id = {
-			42351
-		}
-	},
-	[43000] = {
-		name = "203mmSKC連装砲",
-		speciality = "追尾",
-		type = 3,
-		tech = 1,
-		descrip = "アドミラル・ヒッパー級主砲の203mmSKC連装砲。重巡に装備可能",
-		value_2 = 12,
-		icon = "43000",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "25 x 6",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 43000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1401
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1401
-			},
-			{
-				4,
-				1206
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			43000
-		},
-		skill_id = {},
-		part_main = {
-			3,
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CA",
-			"MG",
-			"AP"
-		}
-	},
-	[43001] = {
-		id = 43001,
-		damage = "27 x 6",
-		base = 43000,
-		weapon_id = {
-			43001
-		}
-	},
-	[43002] = {
-		id = 43002,
-		damage = "29 x 6",
-		base = 43000,
-		weapon_id = {
-			43002
+			42249
 		}
 	}
 }

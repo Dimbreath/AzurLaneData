@@ -258,6 +258,22 @@ pg.share_template = {
 			"/OverlayCamera/Overlay/UIEffect/ClickEffect(Clone)"
 		}
 	},
+	{
+		description = "#アズールレーン#",
+		name = "熊小白分享",
+		deck = 2,
+		hidden_comps = "",
+		move_comps = "",
+		camera = "UICamera",
+		id = 16,
+		qrcode_location = {
+			314.5,
+			-539
+		},
+		show_comps = {
+			"UICamera/Canvas/UIMain/IcecreamSharePage(Clone)"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -273,6 +289,7 @@ pg.share_template = {
 		12,
 		13,
 		14,
-		15
+		15,
+		16
 	}
 }

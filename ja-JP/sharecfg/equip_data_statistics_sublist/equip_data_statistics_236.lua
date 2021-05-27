@@ -1,169 +1,102 @@
 pg = pg or {}
 pg.equip_data_statistics_236 = {
-	[34043] = {
-		id = 34043,
-		damage = "68 x 2",
-		base = 34040,
+	[33104] = {
+		id = 33104,
+		damage = "44 x 6",
+		base = 33100,
 		weapon_id = {
-			34043
+			33104
 		}
 	},
-	[34044] = {
-		id = 34044,
-		damage = "74 x 2",
-		base = 34040,
+	[33105] = {
+		id = 33105,
+		damage = "46 x 6",
+		base = 33100,
 		weapon_id = {
-			34044
+			33105
 		}
 	},
-	[34045] = {
-		id = 34045,
-		damage = "82 x 2",
-		base = 34040,
+	[33106] = {
+		id = 33106,
+		damage = "48 x 6",
+		base = 33100,
 		weapon_id = {
-			34045
+			33106
 		}
 	},
-	[34046] = {
-		id = 34046,
-		damage = "88 x 2",
-		base = 34040,
+	[33107] = {
+		id = 33107,
+		damage = "50 x 6",
+		base = 33100,
 		weapon_id = {
-			34046
+			33107
 		}
 	},
-	[34047] = {
-		id = 34047,
-		damage = "88 x 2",
-		base = 34040,
+	[33108] = {
+		id = 33108,
+		damage = "52 x 6",
+		base = 33100,
 		weapon_id = {
-			34047
+			33108
 		}
 	},
-	[34060] = {
-		name = "毘式356mm連装砲",
-		speciality = "投射",
-		type = 4,
-		tech = 0,
-		descrip = "0",
-		value_2 = 12,
-		icon = "34060",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "52 x 2",
-		nationality = 3,
-		ammo = 2,
-		value_3 = 0,
-		id = 34060,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				2,
-				1502
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
+	[33109] = {
+		id = 33109,
+		damage = "54 x 6",
+		base = 33100,
 		weapon_id = {
-			34060
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"BB",
-			"MG",
-			"HE"
+			33109
 		}
 	},
-	[34061] = {
-		id = 34061,
-		damage = "58 x 2",
-		base = 34060,
+	[33110] = {
+		id = 33110,
+		damage = "56 x 6",
+		base = 33100,
 		weapon_id = {
-			34061
+			33110
 		}
 	},
-	[34062] = {
-		id = 34062,
-		damage = "66 x 2",
-		base = 34060,
+	[33111] = {
+		anti_siren = 100,
+		damage = "56 x 6",
+		base = 33100,
+		id = 33111,
 		weapon_id = {
-			34062
+			33111
 		}
 	},
-	[34063] = {
-		id = 34063,
-		damage = "74 x 2",
-		base = 34060,
+	[33112] = {
+		anti_siren = 200,
+		damage = "56 x 6",
+		base = 33100,
+		id = 33112,
 		weapon_id = {
-			34063
+			33112
 		}
 	},
-	[34064] = {
-		id = 34064,
-		damage = "80 x 2",
-		base = 34060,
+	[33113] = {
+		anti_siren = 300,
+		damage = "56 x 6",
+		base = 33100,
+		id = 33113,
 		weapon_id = {
-			34064
+			33113
 		}
 	},
-	[34065] = {
-		id = 34065,
-		damage = "88 x 2",
-		base = 34060,
-		weapon_id = {
-			34065
-		}
-	},
-	[34066] = {
-		id = 34066,
-		damage = "94 x 2",
-		base = 34060,
-		weapon_id = {
-			34066
-		}
-	},
-	[34067] = {
-		id = 34067,
-		damage = "94 x 2",
-		base = 34060,
-		weapon_id = {
-			34067
-		}
-	},
-	[34100] = {
-		name = "410mm連装砲",
+	[34000] = {
+		name = "356mm連装砲",
 		speciality = "投射",
 		type = 4,
 		tech = 1,
+		rarity = 1,
 		descrip = "0",
-		value_2 = 5,
-		icon = "34100",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "48 x 2",
+		value_2 = 0,
+		icon = "34000",
+		damage = "38 x 2",
 		nationality = 3,
 		ammo = 3,
 		value_3 = 0,
-		id = 34100,
+		id = 34000,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -184,7 +117,7 @@ pg.equip_data_statistics_236 = {
 			12
 		},
 		weapon_id = {
-			34100
+			34000
 		},
 		skill_id = {},
 		part_main = {
@@ -201,20 +134,89 @@ pg.equip_data_statistics_236 = {
 			"MG"
 		}
 	},
-	[34101] = {
-		id = 34101,
-		damage = "56 x 2",
-		base = 34100,
+	[34001] = {
+		id = 34001,
+		damage = "44 x 2",
+		base = 34000,
 		weapon_id = {
-			34101
+			34001
 		}
 	},
-	[34102] = {
-		id = 34102,
-		damage = "64 x 2",
-		base = 34100,
+	[34002] = {
+		id = 34002,
+		damage = "50 x 2",
+		base = 34000,
 		weapon_id = {
-			34102
+			34002
+		}
+	},
+	[34003] = {
+		id = 34003,
+		damage = "56 x 2",
+		base = 34000,
+		weapon_id = {
+			34003
+		}
+	},
+	[34020] = {
+		name = "356mm連装砲",
+		speciality = "投射",
+		type = 4,
+		tech = 2,
+		descrip = "0",
+		value_2 = 5,
+		icon = "34000",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "42 x 2",
+		nationality = 3,
+		ammo = 2,
+		value_3 = 0,
+		id = 34020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1502
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			34020
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"BB",
+			"MG",
+			"HE"
+		}
+	},
+	[34021] = {
+		id = 34021,
+		damage = "48 x 2",
+		base = 34020,
+		weapon_id = {
+			34021
 		}
 	}
 }

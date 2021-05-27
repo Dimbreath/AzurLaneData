@@ -1,48 +1,100 @@
 pg = pg or {}
 pg.equip_data_statistics_193 = {
-	[26551] = {
-		anti_siren = 100,
-		damage = "130/回",
-		base = 26540,
-		id = 26551,
+	[26521] = {
+		id = 26521,
+		damage = "51/回",
+		base = 26520,
 		weapon_id = {
-			26551
+			26521
 		}
 	},
-	[26552] = {
-		anti_siren = 200,
-		damage = "130/回",
-		base = 26540,
-		id = 26552,
+	[26522] = {
+		id = 26522,
+		damage = "57/回",
+		base = 26520,
 		weapon_id = {
-			26552
+			26522
 		}
 	},
-	[26553] = {
-		anti_siren = 300,
-		damage = "130/回",
-		base = 26540,
-		id = 26553,
+	[26523] = {
+		id = 26523,
+		damage = "63/回",
+		base = 26520,
 		weapon_id = {
-			26553
+			26523
 		}
 	},
-	[26600] = {
-		name = "連装ボフォース40mm機関砲STAAG",
+	[26524] = {
+		id = 26524,
+		damage = "70/回",
+		base = 26520,
+		weapon_id = {
+			26524
+		}
+	},
+	[26525] = {
+		id = 26525,
+		damage = "77/回",
+		base = 26520,
+		weapon_id = {
+			26525
+		}
+	},
+	[26526] = {
+		id = 26526,
+		damage = "84/回",
+		base = 26520,
+		weapon_id = {
+			26526
+		}
+	},
+	[26527] = {
+		id = 26527,
+		damage = "91/回",
+		base = 26520,
+		weapon_id = {
+			26527
+		}
+	},
+	[26528] = {
+		id = 26528,
+		damage = "98/回",
+		base = 26520,
+		weapon_id = {
+			26528
+		}
+	},
+	[26529] = {
+		id = 26529,
+		damage = "105/回",
+		base = 26520,
+		weapon_id = {
+			26529
+		}
+	},
+	[26530] = {
+		id = 26530,
+		damage = "112/回",
+		base = 26520,
+		weapon_id = {
+			26530
+		}
+	},
+	[26540] = {
+		name = "113mm連装高角砲",
 		speciality = "対空",
 		type = 6,
-		attribute_3 = "hit",
-		tech = 0,
-		value_2 = 45,
-		icon = "26600",
-		attribute_2 = "antiaircraft",
+		tech = 3,
 		descrip = "0",
+		value_2 = 45,
+		icon = "26500",
+		attribute_2 = "antiaircraft",
 		rarity = 5,
-		damage = "38/回",
+		damage = "52/回",
 		nationality = 2,
 		ammo = 5,
-		value_3 = 10,
-		id = 26600,
+		value_3 = 0,
+		id = 26540,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -54,7 +106,7 @@ pg.equip_data_statistics_193 = {
 			10
 		},
 		weapon_id = {
-			26600
+			26540
 		},
 		skill_id = {},
 		part_main = {
@@ -90,102 +142,44 @@ pg.equip_data_statistics_193 = {
 			"AA"
 		}
 	},
-	[26601] = {
-		id = 26601,
-		damage = "43/回",
-		base = 26600,
+	[26541] = {
+		id = 26541,
+		damage = "59/回",
+		base = 26540,
 		weapon_id = {
-			26601
+			26541
 		}
 	},
-	[26602] = {
-		id = 26602,
-		damage = "48/回",
-		base = 26600,
-		weapon_id = {
-			26602
-		}
-	},
-	[26603] = {
-		id = 26603,
-		damage = "54/回",
-		base = 26600,
-		weapon_id = {
-			26603
-		}
-	},
-	[26604] = {
-		id = 26604,
-		damage = "60/回",
-		base = 26600,
-		weapon_id = {
-			26604
-		}
-	},
-	[26605] = {
-		id = 26605,
+	[26542] = {
+		id = 26542,
 		damage = "66/回",
-		base = 26600,
+		base = 26540,
 		weapon_id = {
-			26605
+			26542
 		}
 	},
-	[26606] = {
-		id = 26606,
-		damage = "72/回",
-		base = 26600,
+	[26543] = {
+		id = 26543,
+		damage = "74/回",
+		base = 26540,
 		weapon_id = {
-			26606
+			26543
 		}
 	},
-	[26607] = {
-		id = 26607,
-		damage = "78/回",
-		base = 26600,
+	[26544] = {
+		id = 26544,
+		damage = "82/回",
+		base = 26540,
 		weapon_id = {
-			26607
+			26544
 		}
 	},
-	[26608] = {
-		id = 26608,
-		damage = "84/回",
-		base = 26600,
-		weapon_id = {
-			26608
-		}
-	},
-	[26609] = {
-		id = 26609,
+	[26545] = {
+		id = 26545,
 		damage = "90/回",
-		base = 26600,
+		base = 26540,
 		weapon_id = {
-			26609
-		}
-	},
-	[26610] = {
-		id = 26610,
-		damage = "96/回",
-		base = 26600,
-		weapon_id = {
-			26610
-		}
-	},
-	[26611] = {
-		anti_siren = 100,
-		damage = "96/回",
-		base = 26600,
-		id = 26611,
-		weapon_id = {
-			26611
-		}
-	},
-	[26612] = {
-		anti_siren = 200,
-		damage = "96/回",
-		base = 26600,
-		id = 26612,
-		weapon_id = {
-			26612
+			26545
 		}
 	}
 }

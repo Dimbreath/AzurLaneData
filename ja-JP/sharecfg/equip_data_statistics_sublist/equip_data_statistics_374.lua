@@ -1,293 +1,221 @@
 pg = pg or {}
 pg.equip_data_statistics_374 = {
-	[85360] = {
-		name = "100mm連装両用砲B-34 MZ-14",
-		speciality = "対空",
-		type = 6,
+	[85285] = {
+		id = 85285,
+		damage = "75/回",
+		base = 85280,
+		weapon_id = {
+			85285
+		}
+	},
+	[85286] = {
+		id = 85286,
+		damage = "82/回",
+		base = 85280,
+		weapon_id = {
+			85286
+		}
+	},
+	[85287] = {
+		id = 85287,
+		damage = "89/回",
+		base = 85280,
+		weapon_id = {
+			85287
+		}
+	},
+	[85288] = {
+		id = 85288,
+		damage = "96/回",
+		base = 85280,
+		weapon_id = {
+			85288
+		}
+	},
+	[85289] = {
+		id = 85289,
+		damage = "103/回",
+		base = 85280,
+		weapon_id = {
+			85289
+		}
+	},
+	[85290] = {
+		id = 85290,
+		damage = "110/回",
+		base = 85280,
+		weapon_id = {
+			85290
+		}
+	},
+	[85291] = {
+		anti_siren = 100,
+		damage = "110/回",
+		base = 85280,
+		id = 85291,
+		weapon_id = {
+			85291
+		}
+	},
+	[85300] = {
+		name = "406mm三連装砲B-37 MK-1",
+		speciality = "投射",
+		type = 4,
 		tech = 1,
 		descrip = "0",
-		value_2 = 5,
-		icon = "85360",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "14/回",
+		value_2 = 12,
+		icon = "85300",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "50 x 3",
 		nationality = 7,
-		ammo = 5,
+		ammo = 3,
 		value_3 = 0,
-		id = 85360,
+		id = 85300,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1570
+			}
+		},
 		equip_info = {
 			1,
 			2,
 			6,
-			10
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			85360
+			85300
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
 			4,
 			5,
-			6,
 			10,
-			12,
-			13,
-			18,
-			19
+			13
 		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"SN",
-			"ST",
-			"AA"
+			"BB",
+			"MG"
 		}
 	},
-	[85361] = {
-		id = 85361,
-		damage = "16/回",
-		base = 85360,
+	[85301] = {
+		id = 85301,
+		damage = "59 x 3",
+		base = 85300,
 		weapon_id = {
-			85361
+			85301
 		}
 	},
-	[85362] = {
-		id = 85362,
-		damage = "19/回",
-		base = 85360,
+	[85302] = {
+		id = 85302,
+		damage = "67 x 3",
+		base = 85300,
 		weapon_id = {
-			85362
+			85302
 		}
 	},
-	[85363] = {
-		id = 85363,
-		damage = "22/回",
-		base = 85360,
+	[85303] = {
+		id = 85303,
+		damage = "76 x 3",
+		base = 85300,
 		weapon_id = {
-			85363
+			85303
 		}
 	},
-	[85380] = {
-		name = "100mm連装両用砲B-34 MZ-14",
-		speciality = "対空",
-		type = 6,
+	[85304] = {
+		id = 85304,
+		damage = "84 x 3",
+		base = 85300,
+		weapon_id = {
+			85304
+		}
+	},
+	[85305] = {
+		id = 85305,
+		damage = "92 x 3",
+		base = 85300,
+		weapon_id = {
+			85305
+		}
+	},
+	[85306] = {
+		id = 85306,
+		damage = "101 x 3",
+		base = 85300,
+		weapon_id = {
+			85306
+		}
+	},
+	[85320] = {
+		name = "406mm三連装砲B-37 MK-1",
+		speciality = "投射",
+		type = 4,
 		tech = 2,
 		descrip = "0",
-		value_2 = 12,
-		icon = "85360",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "33/回",
-		nationality = 7,
-		ammo = 5,
-		value_3 = 0,
-		id = 85380,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			85380
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"ST",
-			"AA"
-		}
-	},
-	[85381] = {
-		id = 85381,
-		damage = "36/回",
-		base = 85380,
-		weapon_id = {
-			85381
-		}
-	},
-	[85382] = {
-		id = 85382,
-		damage = "41/回",
-		base = 85380,
-		weapon_id = {
-			85382
-		}
-	},
-	[85383] = {
-		id = 85383,
-		damage = "45/回",
-		base = 85380,
-		weapon_id = {
-			85383
-		}
-	},
-	[85384] = {
-		id = 85384,
-		damage = "51/回",
-		base = 85380,
-		weapon_id = {
-			85384
-		}
-	},
-	[85385] = {
-		id = 85385,
-		damage = "57/回",
-		base = 85380,
-		weapon_id = {
-			85385
-		}
-	},
-	[85386] = {
-		id = 85386,
-		damage = "64/回",
-		base = 85380,
-		weapon_id = {
-			85386
-		}
-	},
-	[85400] = {
-		name = "100mm連装両用砲B-34 MZ-14",
-		speciality = "対空",
-		type = 6,
-		tech = 3,
-		descrip = "0",
 		value_2 = 25,
-		icon = "85360",
-		attribute_2 = "antiaircraft",
+		icon = "85300",
+		attribute_2 = "cannon",
 		rarity = 4,
-		damage = "38/回",
+		damage = "56 x 3",
 		nationality = 7,
-		ammo = 5,
+		ammo = 3,
 		value_3 = 0,
-		id = 85400,
+		id = 85320,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1571
+			}
+		},
 		equip_info = {
 			1,
 			2,
 			6,
-			10
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			85400
+			85320
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
 			4,
 			5,
-			6,
 			10,
-			12,
-			13,
-			18,
-			19
+			13
 		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"SN",
-			"ST",
-			"AA"
+			"BB",
+			"MG",
+			"AP"
 		}
 	},
-	[85401] = {
-		id = 85401,
-		damage = "42/回",
-		base = 85400,
+	[85321] = {
+		id = 85321,
+		damage = "65 x 3",
+		base = 85320,
 		weapon_id = {
-			85401
-		}
-	},
-	[85402] = {
-		id = 85402,
-		damage = "47/回",
-		base = 85400,
-		weapon_id = {
-			85402
-		}
-	},
-	[85403] = {
-		id = 85403,
-		damage = "53/回",
-		base = 85400,
-		weapon_id = {
-			85403
-		}
-	},
-	[85404] = {
-		id = 85404,
-		damage = "59/回",
-		base = 85400,
-		weapon_id = {
-			85404
+			85321
 		}
 	}
 }

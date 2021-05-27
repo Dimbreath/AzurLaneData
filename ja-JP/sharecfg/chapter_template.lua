@@ -1,6 +1,9 @@
 pg = pg or {}
-pg.chapter_template = {
-	[101] = {
+slot0 = pg
+slot0.chapter_template = {}
+
+function ()
+	uv0.chapter_template[101] = {
 		pos_x = "0.10703125",
 		num_3 = 1,
 		progress_boss = 100,
@@ -259,8 +262,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[102] = {
+	}
+	uv0.chapter_template[102] = {
 		pos_x = "0.34609375",
 		num_3 = 1,
 		progress_boss = 100,
@@ -628,8 +631,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[103] = {
+	}
+	uv0.chapter_template[103] = {
 		pos_x = "0.50546875",
 		num_3 = 1,
 		progress_boss = 100,
@@ -1031,8 +1034,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[104] = {
+	}
+	uv0.chapter_template[104] = {
 		pos_x = "0.60546875",
 		num_3 = 1,
 		progress_boss = 80,
@@ -1521,8 +1524,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[201] = {
+	}
+	uv0.chapter_template[201] = {
 		pos_x = "0.6265625",
 		num_3 = 1,
 		progress_boss = 70,
@@ -2106,8 +2109,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[202] = {
+	}
+	uv0.chapter_template[202] = {
 		pos_x = "0.575",
 		num_3 = 1,
 		progress_boss = 60,
@@ -2744,8 +2747,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[203] = {
+	}
+	uv0.chapter_template[203] = {
 		pos_x = "0.21484375",
 		num_3 = 1,
 		progress_boss = 50,
@@ -3359,8 +3362,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[204] = {
+	}
+	uv0.chapter_template[204] = {
 		pos_x = "0.28984375",
 		num_3 = 1,
 		progress_boss = 50,
@@ -3944,8 +3947,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[301] = {
+	}
+	uv0.chapter_template[301] = {
 		pos_x = "0.3046875",
 		num_3 = 1,
 		progress_boss = 50,
@@ -4550,8 +4553,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[302] = {
+	}
+	uv0.chapter_template[302] = {
 		pos_x = "0.16953125",
 		num_3 = 1,
 		progress_boss = 50,
@@ -5180,8 +5183,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[303] = {
+	}
+	uv0.chapter_template[303] = {
 		pos_x = "0.60625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -5805,8 +5808,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[304] = {
+	}
+	uv0.chapter_template[304] = {
 		pos_x = "0.46953125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -6416,8 +6419,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[305] = {
+	}
+	uv0.chapter_template[305] = {
 		pos_x = "0.5734375",
 		num_3 = 0,
 		progress_boss = 34,
@@ -7092,8 +7095,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[401] = {
+	}
+	uv0.chapter_template[401] = {
 		pos_x = "0.17578125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -7619,8 +7622,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[402] = {
+	}
+	uv0.chapter_template[402] = {
 		pos_x = "0.31953125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -8139,8 +8142,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[403] = {
+	}
+	uv0.chapter_template[403] = {
 		pos_x = "0.6328125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -8604,8 +8607,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[404] = {
+	}
+	uv0.chapter_template[404] = {
 		pos_x = "0.59921875",
 		num_3 = 1,
 		progress_boss = 34,
@@ -9208,8 +9211,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[405] = {
+	}
+	uv0.chapter_template[405] = {
 		pos_x = "0.365625",
 		num_3 = 0,
 		progress_boss = 34,
@@ -9857,8 +9860,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[501] = {
+	}
+	uv0.chapter_template[501] = {
 		pos_x = "0.17890625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -10460,8 +10463,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[502] = {
+	}
+	uv0.chapter_template[502] = {
 		pos_x = "0.65859375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -11001,8 +11004,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[503] = {
+	}
+	uv0.chapter_template[503] = {
 		pos_x = "0.56640625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -11512,8 +11515,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[504] = {
+	}
+	uv0.chapter_template[504] = {
 		pos_x = "0.45234375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -12048,8 +12051,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[505] = {
+	}
+	uv0.chapter_template[505] = {
 		pos_x = "0.309375",
 		num_3 = 0,
 		progress_boss = 25,
@@ -12635,8 +12638,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[601] = {
+	}
+	uv0.chapter_template[601] = {
 		pos_x = "0.70390625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -13209,8 +13212,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[602] = {
+	}
+	uv0.chapter_template[602] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -13839,8 +13842,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[603] = {
+	}
+	uv0.chapter_template[603] = {
 		pos_x = "0.32265625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -14393,8 +14396,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[604] = {
+	}
+	uv0.chapter_template[604] = {
 		pos_x = "0.221875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -14991,8 +14994,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[605] = {
+	}
+	uv0.chapter_template[605] = {
 		pos_x = "0.68828125",
 		num_3 = 0,
 		progress_boss = 25,
@@ -15588,8 +15591,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[701] = {
+	}
+	uv0.chapter_template[701] = {
 		pos_x = "0.153125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -16009,8 +16012,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[702] = {
+	}
+	uv0.chapter_template[702] = {
 		pos_x = "0.35078125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -16533,8 +16536,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[703] = {
+	}
+	uv0.chapter_template[703] = {
 		pos_x = "0.6328125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -17128,8 +17131,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[704] = {
+	}
+	uv0.chapter_template[704] = {
 		pos_x = "0.728125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -17707,8 +17710,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[705] = {
+	}
+	uv0.chapter_template[705] = {
 		pos_x = "0.225",
 		num_3 = 0,
 		progress_boss = 25,
@@ -18289,8 +18292,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[801] = {
+	}
+	uv0.chapter_template[801] = {
 		pos_x = "0.41953125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -18732,8 +18735,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[802] = {
+	}
+	uv0.chapter_template[802] = {
 		pos_x = "0.2046875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -19261,8 +19264,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[803] = {
+	}
+	uv0.chapter_template[803] = {
 		pos_x = "0.2546875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -19853,8 +19856,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[804] = {
+	}
+	uv0.chapter_template[804] = {
 		pos_x = "0.6015625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -20508,8 +20511,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[805] = {
+	}
+	uv0.chapter_template[805] = {
 		pos_x = "0.66796875",
 		num_3 = 0,
 		progress_boss = 25,
@@ -21152,8 +21155,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[901] = {
+	}
+	uv0.chapter_template[901] = {
 		pos_x = "0.17890625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -21689,8 +21692,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[902] = {
+	}
+	uv0.chapter_template[902] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -22264,8 +22267,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[903] = {
+	}
+	uv0.chapter_template[903] = {
 		pos_x = "0.6046875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -22863,8 +22866,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[904] = {
+	}
+	uv0.chapter_template[904] = {
 		pos_x = "0.70703125",
 		num_3 = 1,
 		progress_boss = 20,
@@ -23484,8 +23487,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[905] = {
+	}
+	uv0.chapter_template[905] = {
 		pos_x = "0.44921875",
 		num_3 = 0,
 		progress_boss = 20,
@@ -24115,8 +24118,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1001] = {
+	}
+	uv0.chapter_template[1001] = {
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -24671,8 +24674,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1002] = {
+	}
+	uv0.chapter_template[1002] = {
 		pos_x = "0.35234375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -25283,8 +25286,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1003] = {
+	}
+	uv0.chapter_template[1003] = {
 		pos_x = "0.49453125",
 		num_3 = 1,
 		progress_boss = 20,
@@ -25912,8 +25915,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1004] = {
+	}
+	uv0.chapter_template[1004] = {
 		pos_x = "0.571875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -26555,8 +26558,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1005] = {
+	}
+	uv0.chapter_template[1005] = {
 		pos_x = "0.6859375",
 		num_3 = 0,
 		progress_boss = 20,
@@ -27187,8 +27190,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1101] = {
+	}
+	uv0.chapter_template[1101] = {
 		pos_x = "0.22734375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -27792,8 +27795,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1102] = {
+	}
+	uv0.chapter_template[1102] = {
 		pos_x = "0.32578125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -28512,8 +28515,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1103] = {
+	}
+	uv0.chapter_template[1103] = {
 		pos_x = "0.55234375",
 		num_3 = 1,
 		progress_boss = 20,
@@ -29202,8 +29205,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1104] = {
+	}
+	uv0.chapter_template[1104] = {
 		pos_x = "0.6828125",
 		num_3 = 1,
 		progress_boss = 20,
@@ -30001,8 +30004,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1201] = {
+	}
+	uv0.chapter_template[1201] = {
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -30584,8 +30587,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1202] = {
+	}
+	uv0.chapter_template[1202] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -31280,8 +31283,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1203] = {
+	}
+	uv0.chapter_template[1203] = {
 		pos_x = "0.6046875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -32012,8 +32015,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1204] = {
+	}
+	uv0.chapter_template[1204] = {
 		pos_x = "0.70703125",
 		num_3 = 1,
 		progress_boss = 20,
@@ -32860,8 +32863,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1301] = {
+	}
+	uv0.chapter_template[1301] = {
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -33451,8 +33454,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1302] = {
+	}
+	uv0.chapter_template[1302] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -34147,8 +34150,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1303] = {
+	}
+	uv0.chapter_template[1303] = {
 		pos_x = "0.6046875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -34887,8 +34890,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1304] = {
+	}
+	uv0.chapter_template[1304] = {
 		pos_x = "0.70703125",
 		num_3 = 1,
 		progress_boss = 18,
@@ -35736,8 +35739,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10000] = {
+	}
+	uv0.chapter_template[10000] = {
 		pos_x = "0.35625",
 		num_3 = 1,
 		progress_boss = 100,
@@ -36141,8 +36144,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10001] = {
+	}
+	uv0.chapter_template[10001] = {
 		pos_x = "0.58203125",
 		num_3 = 1,
 		progress_boss = 42,
@@ -36610,8 +36613,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10002] = {
+	}
+	uv0.chapter_template[10002] = {
 		pos_x = "0.44921875",
 		num_3 = 1,
 		progress_boss = 28,
@@ -37109,8 +37112,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10101] = {
+	}
+	uv0.chapter_template[10101] = {
 		pos_x = "0.10703125",
 		num_3 = 1,
 		progress_boss = 100,
@@ -37405,8 +37408,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10102] = {
+	}
+	uv0.chapter_template[10102] = {
 		pos_x = "0.34609375",
 		num_3 = 1,
 		progress_boss = 100,
@@ -37808,8 +37811,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10103] = {
+	}
+	uv0.chapter_template[10103] = {
 		pos_x = "0.50546875",
 		num_3 = 1,
 		progress_boss = 100,
@@ -38247,8 +38250,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10104] = {
+	}
+	uv0.chapter_template[10104] = {
 		pos_x = "0.60546875",
 		num_3 = 1,
 		progress_boss = 80,
@@ -38769,8 +38772,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10201] = {
+	}
+	uv0.chapter_template[10201] = {
 		pos_x = "0.6265625",
 		num_3 = 1,
 		progress_boss = 70,
@@ -39391,8 +39394,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10202] = {
+	}
+	uv0.chapter_template[10202] = {
 		pos_x = "0.575",
 		num_3 = 1,
 		progress_boss = 60,
@@ -40066,8 +40069,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10203] = {
+	}
+	uv0.chapter_template[10203] = {
 		pos_x = "0.21484375",
 		num_3 = 1,
 		progress_boss = 50,
@@ -40718,8 +40721,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10204] = {
+	}
+	uv0.chapter_template[10204] = {
 		pos_x = "0.28984375",
 		num_3 = 1,
 		progress_boss = 50,
@@ -41340,8 +41343,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10301] = {
+	}
+	uv0.chapter_template[10301] = {
 		pos_x = "0.3046875",
 		num_3 = 1,
 		progress_boss = 50,
@@ -41983,8 +41986,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10302] = {
+	}
+	uv0.chapter_template[10302] = {
 		pos_x = "0.16953125",
 		num_3 = 1,
 		progress_boss = 50,
@@ -42650,8 +42653,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10303] = {
+	}
+	uv0.chapter_template[10303] = {
 		pos_x = "0.60625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -43312,8 +43315,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10304] = {
+	}
+	uv0.chapter_template[10304] = {
 		pos_x = "0.46953125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -43960,8 +43963,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10401] = {
+	}
+	uv0.chapter_template[10401] = {
 		pos_x = "0.17578125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -44525,8 +44528,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10402] = {
+	}
+	uv0.chapter_template[10402] = {
 		pos_x = "0.31953125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -45083,8 +45086,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10403] = {
+	}
+	uv0.chapter_template[10403] = {
 		pos_x = "0.6328125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -45586,8 +45589,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10404] = {
+	}
+	uv0.chapter_template[10404] = {
 		pos_x = "0.59921875",
 		num_3 = 1,
 		progress_boss = 34,
@@ -46226,8 +46229,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10501] = {
+	}
+	uv0.chapter_template[10501] = {
 		pos_x = "0.17890625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -46871,8 +46874,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10502] = {
+	}
+	uv0.chapter_template[10502] = {
 		pos_x = "0.65859375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -47454,8 +47457,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10503] = {
+	}
+	uv0.chapter_template[10503] = {
 		pos_x = "0.56640625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -48007,8 +48010,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10504] = {
+	}
+	uv0.chapter_template[10504] = {
 		pos_x = "0.45234375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -48585,8 +48588,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10601] = {
+	}
+	uv0.chapter_template[10601] = {
 		pos_x = "0.70390625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -49202,8 +49205,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10602] = {
+	}
+	uv0.chapter_template[10602] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -49875,8 +49878,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10603] = {
+	}
+	uv0.chapter_template[10603] = {
 		pos_x = "0.32265625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -50472,8 +50475,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10604] = {
+	}
+	uv0.chapter_template[10604] = {
 		pos_x = "0.221875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -51113,8 +51116,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10701] = {
+	}
+	uv0.chapter_template[10701] = {
 		pos_x = "0.153125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -51579,8 +51582,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10702] = {
+	}
+	uv0.chapter_template[10702] = {
 		pos_x = "0.35078125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -52148,8 +52151,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10703] = {
+	}
+	uv0.chapter_template[10703] = {
 		pos_x = "0.6328125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -52788,8 +52791,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10704] = {
+	}
+	uv0.chapter_template[10704] = {
 		pos_x = "0.728125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -53412,8 +53415,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10801] = {
+	}
+	uv0.chapter_template[10801] = {
 		pos_x = "0.41953125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -53900,8 +53903,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10802] = {
+	}
+	uv0.chapter_template[10802] = {
 		pos_x = "0.2046875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -54474,8 +54477,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10803] = {
+	}
+	uv0.chapter_template[10803] = {
 		pos_x = "0.2546875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -55111,8 +55114,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10804] = {
+	}
+	uv0.chapter_template[10804] = {
 		pos_x = "0.6015625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -55811,8 +55814,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10901] = {
+	}
+	uv0.chapter_template[10901] = {
 		pos_x = "0.17890625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -56393,8 +56396,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10902] = {
+	}
+	uv0.chapter_template[10902] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -57013,8 +57016,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10903] = {
+	}
+	uv0.chapter_template[10903] = {
 		pos_x = "0.6046875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -57657,8 +57660,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[10904] = {
+	}
+	uv0.chapter_template[10904] = {
 		pos_x = "0.70703125",
 		num_3 = 1,
 		progress_boss = 20,
@@ -58323,8 +58326,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[11001] = {
+	}
+	uv0.chapter_template[11001] = {
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -58924,8 +58927,10 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[11002] = {
+	}
+end()
+function ()
+	uv0.chapter_template[11002] = {
 		pos_x = "0.35234375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -59581,8 +59586,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[11003] = {
+	}
+	uv0.chapter_template[11003] = {
 		pos_x = "0.49453125",
 		num_3 = 1,
 		progress_boss = 20,
@@ -60255,8 +60260,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[11004] = {
+	}
+	uv0.chapter_template[11004] = {
 		pos_x = "0.571875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -60943,8 +60948,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[11101] = {
+	}
+	uv0.chapter_template[11101] = {
 		pos_x = "0.22734375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -61593,8 +61598,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[11102] = {
+	}
+	uv0.chapter_template[11102] = {
 		pos_x = "0.32578125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -62358,8 +62363,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[11103] = {
+	}
+	uv0.chapter_template[11103] = {
 		pos_x = "0.55234375",
 		num_3 = 1,
 		progress_boss = 20,
@@ -63093,8 +63098,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[11104] = {
+	}
+	uv0.chapter_template[11104] = {
 		pos_x = "0.6828125",
 		num_3 = 1,
 		progress_boss = 20,
@@ -63937,8 +63942,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[20001] = {
+	}
+	uv0.chapter_template[20001] = {
 		pos_x = "0.2046875",
 		num_3 = 0,
 		progress_boss = 100,
@@ -64419,8 +64424,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[20002] = {
+	}
+	uv0.chapter_template[20002] = {
 		pos_x = "0.2546875",
 		num_3 = 0,
 		progress_boss = 100,
@@ -64953,8 +64958,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[20003] = {
+	}
+	uv0.chapter_template[20003] = {
 		pos_x = "0.6015625",
 		num_3 = 0,
 		progress_boss = 100,
@@ -65579,8 +65584,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[20004] = {
+	}
+	uv0.chapter_template[20004] = {
 		pos_x = "0.2046875",
 		num_3 = 0,
 		progress_boss = 100,
@@ -66055,8 +66060,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[20005] = {
+	}
+	uv0.chapter_template[20005] = {
 		pos_x = "0.2546875",
 		num_3 = 0,
 		progress_boss = 100,
@@ -66576,8 +66581,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[20006] = {
+	}
+	uv0.chapter_template[20006] = {
 		pos_x = "0.6015625",
 		num_3 = 0,
 		progress_boss = 100,
@@ -67189,8 +67194,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[20007] = {
+	}
+	uv0.chapter_template[20007] = {
 		pos_x = "0.2046875",
 		num_3 = 0,
 		progress_boss = 100,
@@ -67664,8 +67669,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[20008] = {
+	}
+	uv0.chapter_template[20008] = {
 		pos_x = "0.2546875",
 		num_3 = 0,
 		progress_boss = 100,
@@ -68190,8 +68195,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[20009] = {
+	}
+	uv0.chapter_template[20009] = {
 		pos_x = "0.6015625",
 		num_3 = 0,
 		progress_boss = 100,
@@ -68753,8 +68758,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[20010] = {
+	}
+	uv0.chapter_template[20010] = {
 		pos_x = "0.2046875",
 		num_3 = 0,
 		progress_boss = 100,
@@ -69256,8 +69261,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[20011] = {
+	}
+	uv0.chapter_template[20011] = {
 		pos_x = "0.2546875",
 		num_3 = 0,
 		progress_boss = 100,
@@ -69803,8 +69808,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[20012] = {
+	}
+	uv0.chapter_template[20012] = {
 		pos_x = "0.6015625",
 		num_3 = 0,
 		progress_boss = 100,
@@ -70394,8 +70399,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1000001] = {
+	}
+	uv0.chapter_template[1000001] = {
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 50,
@@ -70854,8 +70859,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1000002] = {
+	}
+	uv0.chapter_template[1000002] = {
 		pos_x = "0.2375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -71376,8 +71381,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1000003] = {
+	}
+	uv0.chapter_template[1000003] = {
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -71968,8 +71973,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1000004] = {
+	}
+	uv0.chapter_template[1000004] = {
 		pos_x = "0.68515625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -72611,8 +72616,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1000005] = {
+	}
+	uv0.chapter_template[1000005] = {
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -73089,8 +73094,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1000006] = {
+	}
+	uv0.chapter_template[1000006] = {
 		pos_x = "0.67578125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -73564,8 +73569,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1000007] = {
+	}
+	uv0.chapter_template[1000007] = {
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -74225,8 +74230,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1000008] = {
+	}
+	uv0.chapter_template[1000008] = {
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -75084,8 +75089,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1000011] = {
+	}
+	uv0.chapter_template[1000011] = {
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -75585,8 +75590,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1000012] = {
+	}
+	uv0.chapter_template[1000012] = {
 		pos_x = "0.2375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -76148,8 +76153,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1000013] = {
+	}
+	uv0.chapter_template[1000013] = {
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -76781,8 +76786,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1000014] = {
+	}
+	uv0.chapter_template[1000014] = {
 		pos_x = "0.68515625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -77465,8 +77470,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1000015] = {
+	}
+	uv0.chapter_template[1000015] = {
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 20,
@@ -77984,8 +77989,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1000016] = {
+	}
+	uv0.chapter_template[1000016] = {
 		pos_x = "0.67578125",
 		num_3 = 1,
 		progress_boss = 20,
@@ -78500,8 +78505,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1000017] = {
+	}
+	uv0.chapter_template[1000017] = {
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -79202,8 +79207,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1000018] = {
+	}
+	uv0.chapter_template[1000018] = {
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 17,
@@ -80102,8 +80107,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1050011] = {
+	}
+	uv0.chapter_template[1050011] = {
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 35,
@@ -80687,8 +80692,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1050012] = {
+	}
+	uv0.chapter_template[1050012] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 28,
@@ -81274,8 +81279,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1050013] = {
+	}
+	uv0.chapter_template[1050013] = {
 		pos_x = "0.6375",
 		num_3 = 1,
 		progress_boss = 22,
@@ -81984,8 +81989,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1070101] = {
+	}
+	uv0.chapter_template[1070101] = {
 		pos_x = "0.7046875",
 		num_3 = 1,
 		progress_boss = 35,
@@ -82553,8 +82558,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1070102] = {
+	}
+	uv0.chapter_template[1070102] = {
 		pos_x = "0.44375",
 		num_3 = 1,
 		progress_boss = 28,
@@ -83221,8 +83226,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1070103] = {
+	}
+	uv0.chapter_template[1070103] = {
 		pos_x = "0.2953125",
 		num_3 = 1,
 		progress_boss = 22,
@@ -83947,8 +83952,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1070201] = {
+	}
+	uv0.chapter_template[1070201] = {
 		pos_x = "0.7046875",
 		num_3 = 1,
 		progress_boss = 35,
@@ -84532,8 +84537,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1070202] = {
+	}
+	uv0.chapter_template[1070202] = {
 		pos_x = "0.44375",
 		num_3 = 1,
 		progress_boss = 28,
@@ -85216,8 +85221,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1070203] = {
+	}
+	uv0.chapter_template[1070203] = {
 		pos_x = "0.2953125",
 		num_3 = 1,
 		progress_boss = 22,
@@ -85958,8 +85963,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1080001] = {
+	}
+	uv0.chapter_template[1080001] = {
 		pos_x = "0.18359375",
 		num_3 = 1,
 		progress_boss = 35,
@@ -86476,8 +86481,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1080002] = {
+	}
+	uv0.chapter_template[1080002] = {
 		pos_x = "0.6203125",
 		num_3 = 1,
 		progress_boss = 28,
@@ -87099,8 +87104,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1080003] = {
+	}
+	uv0.chapter_template[1080003] = {
 		pos_x = "0.1390625",
 		num_3 = 1,
 		progress_boss = 22,
@@ -87715,8 +87720,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1080004] = {
+	}
+	uv0.chapter_template[1080004] = {
 		pos_x = "0.54765625",
 		num_3 = 1,
 		progress_boss = 22,
@@ -88444,8 +88449,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1080005] = {
+	}
+	uv0.chapter_template[1080005] = {
 		pos_x = "0.3953125",
 		num_3 = 1,
 		progress_boss = 100,
@@ -89220,8 +89225,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1090001] = {
+	}
+	uv0.chapter_template[1090001] = {
 		pos_x = "0.15703125",
 		num_3 = 1,
 		progress_boss = 100,
@@ -89715,8 +89720,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1090002] = {
+	}
+	uv0.chapter_template[1090002] = {
 		pos_x = "0.50546875",
 		num_3 = 1,
 		progress_boss = 50,
@@ -90242,8 +90247,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1090003] = {
+	}
+	uv0.chapter_template[1090003] = {
 		pos_x = "0.635546875",
 		num_3 = 1,
 		progress_boss = 34,
@@ -90827,8 +90832,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1090004] = {
+	}
+	uv0.chapter_template[1090004] = {
 		pos_x = "0.121875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -91423,8 +91428,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1090005] = {
+	}
+	uv0.chapter_template[1090005] = {
 		pos_x = "0.57734375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -92097,8 +92102,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1090006] = {
+	}
+	uv0.chapter_template[1090006] = {
 		pos_x = "0.621875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -92946,8 +92951,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1090011] = {
+	}
+	uv0.chapter_template[1090011] = {
 		pos_x = "0.15703125",
 		num_3 = 1,
 		progress_boss = 100,
@@ -93496,8 +93501,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1090012] = {
+	}
+	uv0.chapter_template[1090012] = {
 		pos_x = "0.50546875",
 		num_3 = 1,
 		progress_boss = 50,
@@ -94078,8 +94083,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1090013] = {
+	}
+	uv0.chapter_template[1090013] = {
 		pos_x = "0.635546875",
 		num_3 = 1,
 		progress_boss = 34,
@@ -94718,8 +94723,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1090014] = {
+	}
+	uv0.chapter_template[1090014] = {
 		pos_x = "0.121875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -95369,8 +95374,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1090015] = {
+	}
+	uv0.chapter_template[1090015] = {
 		pos_x = "0.57734375",
 		num_3 = 1,
 		progress_boss = 20,
@@ -96098,8 +96103,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1090016] = {
+	}
+	uv0.chapter_template[1090016] = {
 		pos_x = "0.621875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -97002,8 +97007,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1090017] = {
+	}
+	uv0.chapter_template[1090017] = {
 		pos_x = "0.36703125",
 		num_3 = 1,
 		progress_boss = 100,
@@ -97866,8 +97871,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1100001] = {
+	}
+	uv0.chapter_template[1100001] = {
 		pos_x = "0.33125",
 		num_3 = 1,
 		progress_boss = 50,
@@ -98411,8 +98416,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1100002] = {
+	}
+	uv0.chapter_template[1100002] = {
 		pos_x = "0.56328125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -99012,8 +99017,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1100003] = {
+	}
+	uv0.chapter_template[1100003] = {
 		pos_x = "0.690625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -99682,8 +99687,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1100004] = {
+	}
+	uv0.chapter_template[1100004] = {
 		pos_x = "0.26875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -100303,8 +100308,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1100005] = {
+	}
+	uv0.chapter_template[1100005] = {
 		pos_x = "0.6703125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -101023,8 +101028,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1100006] = {
+	}
+	uv0.chapter_template[1100006] = {
 		pos_x = "0.5421875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -101740,8 +101745,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1100011] = {
+	}
+	uv0.chapter_template[1100011] = {
 		pos_x = "0.33125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -102328,8 +102333,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1100012] = {
+	}
+	uv0.chapter_template[1100012] = {
 		pos_x = "0.56328125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -102971,8 +102976,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1100013] = {
+	}
+	uv0.chapter_template[1100013] = {
 		pos_x = "0.690625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -103684,8 +103689,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1100014] = {
+	}
+	uv0.chapter_template[1100014] = {
 		pos_x = "0.26875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -104347,8 +104352,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1100015] = {
+	}
+	uv0.chapter_template[1100015] = {
 		pos_x = "0.6703125",
 		num_3 = 1,
 		progress_boss = 20,
@@ -105109,8 +105114,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1100016] = {
+	}
+	uv0.chapter_template[1100016] = {
 		pos_x = "0.5421875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -105867,8 +105872,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1100020] = {
+	}
+	uv0.chapter_template[1100020] = {
 		pos_x = "0.48984375",
 		num_3 = 1,
 		progress_boss = 20,
@@ -106618,8 +106623,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1110001] = {
+	}
+	uv0.chapter_template[1110001] = {
 		pos_x = "0.19375",
 		num_3 = 1,
 		progress_boss = 50,
@@ -107216,8 +107221,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1110002] = {
+	}
+	uv0.chapter_template[1110002] = {
 		pos_x = "0.2703125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -107737,8 +107742,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1110003] = {
+	}
+	uv0.chapter_template[1110003] = {
 		pos_x = "0.68984375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -108308,8 +108313,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1110004] = {
+	}
+	uv0.chapter_template[1110004] = {
 		pos_x = "0.6109375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -108967,8 +108972,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1110005] = {
+	}
+	uv0.chapter_template[1110005] = {
 		pos_x = "0.26015625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -109677,8 +109682,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1110006] = {
+	}
+	uv0.chapter_template[1110006] = {
 		pos_x = "0.6453125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -110338,8 +110343,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1110011] = {
+	}
+	uv0.chapter_template[1110011] = {
 		pos_x = "0.19375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -110978,8 +110983,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1110012] = {
+	}
+	uv0.chapter_template[1110012] = {
 		pos_x = "0.2703125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -111541,8 +111546,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1110013] = {
+	}
+	uv0.chapter_template[1110013] = {
 		pos_x = "0.68984375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -112196,8 +112201,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1110014] = {
+	}
+	uv0.chapter_template[1110014] = {
 		pos_x = "0.6109375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -112897,8 +112902,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1110015] = {
+	}
+	uv0.chapter_template[1110015] = {
 		pos_x = "0.26015625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -113651,8 +113656,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1110016] = {
+	}
+	uv0.chapter_template[1110016] = {
 		pos_x = "0.6453125",
 		num_3 = 1,
 		progress_boss = 20,
@@ -114356,8 +114361,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1110021] = {
+	}
+	uv0.chapter_template[1110021] = {
 		pos_x = "0.48984375",
 		num_3 = 1,
 		progress_boss = 20,
@@ -114766,8 +114771,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1120001] = {
+	}
+	uv0.chapter_template[1120001] = {
 		pos_x = "0.1625",
 		num_3 = 1,
 		activity_random_box = "",
@@ -115321,8 +115326,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1120002] = {
+	}
+	uv0.chapter_template[1120002] = {
 		pos_x = "0.2375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -116016,8 +116021,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1120003] = {
+	}
+	uv0.chapter_template[1120003] = {
 		pos_x = "0.62109375",
 		num_3 = 1,
 		activity_random_box = "",
@@ -116678,8 +116683,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1120004] = {
+	}
+	uv0.chapter_template[1120004] = {
 		pos_x = "0.68515625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -117458,8 +117463,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1120005] = {
+	}
+	uv0.chapter_template[1120005] = {
 		pos_x = "0.228125",
 		num_3 = 1,
 		activity_random_box = "",
@@ -118033,8 +118038,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1120006] = {
+	}
+	uv0.chapter_template[1120006] = {
 		pos_x = "0.67578125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -118616,8 +118621,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1120007] = {
+	}
+	uv0.chapter_template[1120007] = {
 		pos_x = "0.31640625",
 		num_3 = 1,
 		activity_random_box = "",
@@ -119254,8 +119259,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1120008] = {
+	}
+	uv0.chapter_template[1120008] = {
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -120048,8 +120053,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1120011] = {
+	}
+	uv0.chapter_template[1120011] = {
 		pos_x = "0.1625",
 		num_3 = 1,
 		activity_random_box = "",
@@ -120644,8 +120649,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1120012] = {
+	}
+	uv0.chapter_template[1120012] = {
 		pos_x = "0.2375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -121382,8 +121387,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1120013] = {
+	}
+	uv0.chapter_template[1120013] = {
 		pos_x = "0.62109375",
 		num_3 = 1,
 		activity_random_box = "",
@@ -122085,8 +122090,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1120014] = {
+	}
+	uv0.chapter_template[1120014] = {
 		pos_x = "0.68515625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -122906,8 +122911,10 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1120015] = {
+	}
+end()
+function ()
+	uv0.chapter_template[1120015] = {
 		pos_x = "0.228125",
 		num_3 = 1,
 		activity_random_box = "",
@@ -123522,8 +123529,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1120016] = {
+	}
+	uv0.chapter_template[1120016] = {
 		pos_x = "0.67578125",
 		num_3 = 1,
 		progress_boss = 20,
@@ -124146,8 +124153,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1120017] = {
+	}
+	uv0.chapter_template[1120017] = {
 		pos_x = "0.31640625",
 		num_3 = 1,
 		activity_random_box = "",
@@ -124825,8 +124832,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1120018] = {
+	}
+	uv0.chapter_template[1120018] = {
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 17,
@@ -125660,8 +125667,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1120021] = {
+	}
+	uv0.chapter_template[1120021] = {
 		pos_x = "0.479",
 		num_3 = 1,
 		activity_random_box = "",
@@ -126089,8 +126096,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1130001] = {
+	}
+	uv0.chapter_template[1130001] = {
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 35,
@@ -126584,8 +126591,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1130002] = {
+	}
+	uv0.chapter_template[1130002] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 28,
@@ -127140,8 +127147,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1130003] = {
+	}
+	uv0.chapter_template[1130003] = {
 		pos_x = "0.6375",
 		num_3 = 1,
 		progress_boss = 22,
@@ -127734,8 +127741,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1130101] = {
+	}
+	uv0.chapter_template[1130101] = {
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 35,
@@ -128229,8 +128236,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1130102] = {
+	}
+	uv0.chapter_template[1130102] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 28,
@@ -128785,8 +128792,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1130103] = {
+	}
+	uv0.chapter_template[1130103] = {
 		pos_x = "0.6375",
 		num_3 = 1,
 		progress_boss = 22,
@@ -129379,8 +129386,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1140001] = {
+	}
+	uv0.chapter_template[1140001] = {
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 50,
@@ -129926,8 +129933,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1140003] = {
+	}
+	uv0.chapter_template[1140003] = {
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -130579,8 +130586,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1140004] = {
+	}
+	uv0.chapter_template[1140004] = {
 		pos_x = "0.3813",
 		num_3 = 1,
 		progress_boss = 25,
@@ -131344,8 +131351,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1140005] = {
+	}
+	uv0.chapter_template[1140005] = {
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -131904,8 +131911,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1140007] = {
+	}
+	uv0.chapter_template[1140007] = {
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -132569,8 +132576,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1140008] = {
+	}
+	uv0.chapter_template[1140008] = {
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -133367,8 +133374,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1140011] = {
+	}
+	uv0.chapter_template[1140011] = {
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -133955,8 +133962,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1140013] = {
+	}
+	uv0.chapter_template[1140013] = {
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -134649,8 +134656,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1140014] = {
+	}
+	uv0.chapter_template[1140014] = {
 		pos_x = "0.3813",
 		num_3 = 1,
 		progress_boss = 25,
@@ -135455,8 +135462,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1140015] = {
+	}
+	uv0.chapter_template[1140015] = {
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 20,
@@ -136058,8 +136065,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1140017] = {
+	}
+	uv0.chapter_template[1140017] = {
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -136766,8 +136773,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1140018] = {
+	}
+	uv0.chapter_template[1140018] = {
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 17,
@@ -137600,8 +137607,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1140021] = {
+	}
+	uv0.chapter_template[1140021] = {
 		pos_x = "0.479",
 		num_3 = 1,
 		progress_boss = 100,
@@ -137987,8 +137994,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1150001] = {
+	}
+	uv0.chapter_template[1150001] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 100,
@@ -138570,8 +138577,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1150002] = {
+	}
+	uv0.chapter_template[1150002] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 50,
@@ -139214,8 +139221,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1150003] = {
+	}
+	uv0.chapter_template[1150003] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -139949,8 +139956,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1150004] = {
+	}
+	uv0.chapter_template[1150004] = {
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -140622,8 +140629,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1150005] = {
+	}
+	uv0.chapter_template[1150005] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -141436,8 +141443,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1150006] = {
+	}
+	uv0.chapter_template[1150006] = {
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -142429,8 +142436,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1150011] = {
+	}
+	uv0.chapter_template[1150011] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 100,
@@ -143053,8 +143060,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1150012] = {
+	}
+	uv0.chapter_template[1150012] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 50,
@@ -143738,8 +143745,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1150013] = {
+	}
+	uv0.chapter_template[1150013] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -144514,8 +144521,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1150014] = {
+	}
+	uv0.chapter_template[1150014] = {
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -145228,8 +145235,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1150015] = {
+	}
+	uv0.chapter_template[1150015] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -146083,8 +146090,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1150016] = {
+	}
+	uv0.chapter_template[1150016] = {
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -147117,8 +147124,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1150021] = {
+	}
+	uv0.chapter_template[1150021] = {
 		pos_x = "0.479",
 		num_3 = 1,
 		progress_boss = 100,
@@ -147633,8 +147640,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1160001] = {
+	}
+	uv0.chapter_template[1160001] = {
 		pos_x = "0.2584375",
 		num_3 = 1,
 		progress_boss = 50,
@@ -148156,8 +148163,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1160002] = {
+	}
+	uv0.chapter_template[1160002] = {
 		pos_x = "0.73046875",
 		num_3 = 1,
 		progress_boss = 34,
@@ -148796,8 +148803,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1160003] = {
+	}
+	uv0.chapter_template[1160003] = {
 		pos_x = "0.40078125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -149348,8 +149355,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1160004] = {
+	}
+	uv0.chapter_template[1160004] = {
 		pos_x = "0.5",
 		num_3 = 1,
 		progress_boss = 22,
@@ -150156,8 +150163,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1160005] = {
+	}
+	uv0.chapter_template[1160005] = {
 		pos_x = "0.3953125",
 		num_3 = 1,
 		progress_boss = 100,
@@ -150719,8 +150726,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1170001] = {
+	}
+	uv0.chapter_template[1170001] = {
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 35,
@@ -151252,8 +151259,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1170002] = {
+	}
+	uv0.chapter_template[1170002] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 28,
@@ -151843,8 +151850,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1170003] = {
+	}
+	uv0.chapter_template[1170003] = {
 		pos_x = "0.6375",
 		num_3 = 1,
 		progress_boss = 22,
@@ -152473,8 +152480,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1180001] = {
+	}
+	uv0.chapter_template[1180001] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
@@ -153071,8 +153078,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1180002] = {
+	}
+	uv0.chapter_template[1180002] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -153640,8 +153647,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1180003] = {
+	}
+	uv0.chapter_template[1180003] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -154305,8 +154312,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1180004] = {
+	}
+	uv0.chapter_template[1180004] = {
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -154971,8 +154978,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1180005] = {
+	}
+	uv0.chapter_template[1180005] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -155680,8 +155687,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1180006] = {
+	}
+	uv0.chapter_template[1180006] = {
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -156363,8 +156370,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1180011] = {
+	}
+	uv0.chapter_template[1180011] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -157003,8 +157010,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1180012] = {
+	}
+	uv0.chapter_template[1180012] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -157614,8 +157621,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1180013] = {
+	}
+	uv0.chapter_template[1180013] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -158321,8 +158328,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1180014] = {
+	}
+	uv0.chapter_template[1180014] = {
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -159029,8 +159036,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1180015] = {
+	}
+	uv0.chapter_template[1180015] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -159782,8 +159789,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1180016] = {
+	}
+	uv0.chapter_template[1180016] = {
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -160509,8 +160516,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1180021] = {
+	}
+	uv0.chapter_template[1180021] = {
 		pos_x = "0.479",
 		num_3 = 1,
 		progress_boss = 20,
@@ -160919,8 +160926,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1250031] = {
+	}
+	uv0.chapter_template[1250031] = {
 		pos_x = "0",
 		num_3 = 0,
 		progress_boss = 100,
@@ -161490,8 +161497,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1250032] = {
+	}
+	uv0.chapter_template[1250032] = {
 		pos_x = "0",
 		num_3 = 0,
 		progress_boss = 100,
@@ -162030,8 +162037,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1250033] = {
+	}
+	uv0.chapter_template[1250033] = {
 		pos_x = "0",
 		num_3 = 0,
 		progress_boss = 100,
@@ -162577,8 +162584,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1250034] = {
+	}
+	uv0.chapter_template[1250034] = {
 		pos_x = "0",
 		num_3 = 0,
 		progress_boss = 100,
@@ -163212,8 +163219,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1310001] = {
+	}
+	uv0.chapter_template[1310001] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
@@ -163799,8 +163806,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1310002] = {
+	}
+	uv0.chapter_template[1310002] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -164371,8 +164378,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1310003] = {
+	}
+	uv0.chapter_template[1310003] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -164988,8 +164995,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1310004] = {
+	}
+	uv0.chapter_template[1310004] = {
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -165618,8 +165625,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1310005] = {
+	}
+	uv0.chapter_template[1310005] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -166196,8 +166203,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1310006] = {
+	}
+	uv0.chapter_template[1310006] = {
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -166837,8 +166844,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1310021] = {
+	}
+	uv0.chapter_template[1310021] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -167467,8 +167474,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1310022] = {
+	}
+	uv0.chapter_template[1310022] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -168082,8 +168089,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1310023] = {
+	}
+	uv0.chapter_template[1310023] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -168741,8 +168748,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1310024] = {
+	}
+	uv0.chapter_template[1310024] = {
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -169413,8 +169420,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1310025] = {
+	}
+	uv0.chapter_template[1310025] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -170035,8 +170042,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1310026] = {
+	}
+	uv0.chapter_template[1310026] = {
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 20,
@@ -170720,8 +170727,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1310041] = {
+	}
+	uv0.chapter_template[1310041] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -171398,8 +171405,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1310051] = {
+	}
+	uv0.chapter_template[1310051] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -171827,8 +171834,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1320001] = {
+	}
+	uv0.chapter_template[1320001] = {
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 35,
@@ -172360,8 +172367,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1320002] = {
+	}
+	uv0.chapter_template[1320002] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 28,
@@ -172951,8 +172958,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1320003] = {
+	}
+	uv0.chapter_template[1320003] = {
 		pos_x = "0.6375",
 		num_3 = 1,
 		progress_boss = 22,
@@ -173581,8 +173588,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1330001] = {
+	}
+	uv0.chapter_template[1330001] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
@@ -174131,8 +174138,8 @@ pg.chapter_template = {
 			9502
 		},
 		alarm_cell = {}
-	},
-	[1330002] = {
+	}
+	uv0.chapter_template[1330002] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -174709,8 +174716,8 @@ pg.chapter_template = {
 			9502
 		},
 		alarm_cell = {}
-	},
-	[1330003] = {
+	}
+	uv0.chapter_template[1330003] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -175307,8 +175314,8 @@ pg.chapter_template = {
 			9502
 		},
 		alarm_cell = {}
-	},
-	[1330004] = {
+	}
+	uv0.chapter_template[1330004] = {
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -175942,8 +175949,8 @@ pg.chapter_template = {
 			9502
 		},
 		alarm_cell = {}
-	},
-	[1330005] = {
+	}
+	uv0.chapter_template[1330005] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -176567,8 +176574,8 @@ pg.chapter_template = {
 			9502
 		},
 		alarm_cell = {}
-	},
-	[1330006] = {
+	}
+	uv0.chapter_template[1330006] = {
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -177264,8 +177271,8 @@ pg.chapter_template = {
 			9502
 		},
 		alarm_cell = {}
-	},
-	[1330021] = {
+	}
+	uv0.chapter_template[1330021] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -177856,8 +177863,8 @@ pg.chapter_template = {
 			9502
 		},
 		alarm_cell = {}
-	},
-	[1330022] = {
+	}
+	uv0.chapter_template[1330022] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -178476,8 +178483,8 @@ pg.chapter_template = {
 			9502
 		},
 		alarm_cell = {}
-	},
-	[1330023] = {
+	}
+	uv0.chapter_template[1330023] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -179117,8 +179124,8 @@ pg.chapter_template = {
 			9502
 		},
 		alarm_cell = {}
-	},
-	[1330024] = {
+	}
+	uv0.chapter_template[1330024] = {
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -179794,8 +179801,8 @@ pg.chapter_template = {
 			9502
 		},
 		alarm_cell = {}
-	},
-	[1330025] = {
+	}
+	uv0.chapter_template[1330025] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -180463,8 +180470,8 @@ pg.chapter_template = {
 			9502
 		},
 		alarm_cell = {}
-	},
-	[1330026] = {
+	}
+	uv0.chapter_template[1330026] = {
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 20,
@@ -181204,8 +181211,8 @@ pg.chapter_template = {
 			9502
 		},
 		alarm_cell = {}
-	},
-	[1330041] = {
+	}
+	uv0.chapter_template[1330041] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -181806,8 +181813,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1330051] = {
+	}
+	uv0.chapter_template[1330051] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -182243,8 +182250,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1340001] = {
+	}
+	uv0.chapter_template[1340001] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
@@ -182840,8 +182847,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1340002] = {
+	}
+	uv0.chapter_template[1340002] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -183408,8 +183415,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1340003] = {
+	}
+	uv0.chapter_template[1340003] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -184072,8 +184079,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1340004] = {
+	}
+	uv0.chapter_template[1340004] = {
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -184738,8 +184745,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1340005] = {
+	}
+	uv0.chapter_template[1340005] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -185447,8 +185454,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1340006] = {
+	}
+	uv0.chapter_template[1340006] = {
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -186130,8 +186137,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1340011] = {
+	}
+	uv0.chapter_template[1340011] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -186769,8 +186776,10 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1340012] = {
+	}
+end()
+function ()
+	uv0.chapter_template[1340012] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -187379,8 +187388,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1340013] = {
+	}
+	uv0.chapter_template[1340013] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -188085,8 +188094,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1340014] = {
+	}
+	uv0.chapter_template[1340014] = {
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -188793,8 +188802,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1340015] = {
+	}
+	uv0.chapter_template[1340015] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -189546,8 +189555,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1340016] = {
+	}
+	uv0.chapter_template[1340016] = {
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -190273,8 +190282,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1340021] = {
+	}
+	uv0.chapter_template[1340021] = {
 		pos_x = "0.479",
 		num_3 = 1,
 		progress_boss = 100,
@@ -190683,8 +190692,8 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1350001] = {
+	}
+	uv0.chapter_template[1350001] = {
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -191295,8 +191304,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1350002] = {
+	}
+	uv0.chapter_template[1350002] = {
 		pos_x = "0.42203125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -191967,8 +191976,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1350003] = {
+	}
+	uv0.chapter_template[1350003] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -192636,8 +192645,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1360001] = {
+	}
+	uv0.chapter_template[1360001] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
@@ -193217,8 +193226,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1360002] = {
+	}
+	uv0.chapter_template[1360002] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -193829,8 +193838,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1360003] = {
+	}
+	uv0.chapter_template[1360003] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -194534,8 +194543,8 @@ pg.chapter_template = {
 			44,
 			0
 		}
-	},
-	[1360004] = {
+	}
+	uv0.chapter_template[1360004] = {
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -195229,8 +195238,8 @@ pg.chapter_template = {
 			44,
 			0
 		}
-	},
-	[1360005] = {
+	}
+	uv0.chapter_template[1360005] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -196242,8 +196251,8 @@ pg.chapter_template = {
 			44,
 			0
 		}
-	},
-	[1360006] = {
+	}
+	uv0.chapter_template[1360006] = {
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -198007,8 +198016,8 @@ pg.chapter_template = {
 			44,
 			0
 		}
-	},
-	[1360021] = {
+	}
+	uv0.chapter_template[1360021] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -198630,8 +198639,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1360022] = {
+	}
+	uv0.chapter_template[1360022] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -199284,8 +199293,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1360023] = {
+	}
+	uv0.chapter_template[1360023] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -200032,8 +200041,8 @@ pg.chapter_template = {
 			44,
 			0
 		}
-	},
-	[1360024] = {
+	}
+	uv0.chapter_template[1360024] = {
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -200768,8 +200777,8 @@ pg.chapter_template = {
 			44,
 			0
 		}
-	},
-	[1360025] = {
+	}
+	uv0.chapter_template[1360025] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -201824,8 +201833,8 @@ pg.chapter_template = {
 			44,
 			0
 		}
-	},
-	[1360026] = {
+	}
+	uv0.chapter_template[1360026] = {
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 20,
@@ -203632,8 +203641,8 @@ pg.chapter_template = {
 			44,
 			0
 		}
-	},
-	[1360041] = {
+	}
+	uv0.chapter_template[1360041] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -204940,8 +204949,8 @@ pg.chapter_template = {
 			44,
 			0
 		}
-	},
-	[1360051] = {
+	}
+	uv0.chapter_template[1360051] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -205364,8 +205373,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1370001] = {
+	}
+	uv0.chapter_template[1370001] = {
 		pos_x = "0.2375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -206109,8 +206118,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1370002] = {
+	}
+	uv0.chapter_template[1370002] = {
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -206861,8 +206870,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1370003] = {
+	}
+	uv0.chapter_template[1370003] = {
 		pos_x = "0.68515625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -207610,8 +207619,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1380001] = {
+	}
+	uv0.chapter_template[1380001] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
@@ -208292,8 +208301,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1380002] = {
+	}
+	uv0.chapter_template[1380002] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -208959,8 +208968,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1380003] = {
+	}
+	uv0.chapter_template[1380003] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -209644,8 +209653,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1380004] = {
+	}
+	uv0.chapter_template[1380004] = {
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -210388,8 +210397,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1380005] = {
+	}
+	uv0.chapter_template[1380005] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -211157,8 +211166,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1380006] = {
+	}
+	uv0.chapter_template[1380006] = {
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -212023,8 +212032,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1380021] = {
+	}
+	uv0.chapter_template[1380021] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -212744,8 +212753,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1380022] = {
+	}
+	uv0.chapter_template[1380022] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -213450,8 +213459,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1380023] = {
+	}
+	uv0.chapter_template[1380023] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -214174,8 +214183,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1380024] = {
+	}
+	uv0.chapter_template[1380024] = {
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -214958,8 +214967,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1380025] = {
+	}
+	uv0.chapter_template[1380025] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -215769,8 +215778,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1380026] = {
+	}
+	uv0.chapter_template[1380026] = {
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 20,
@@ -216678,8 +216687,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1380041] = {
+	}
+	uv0.chapter_template[1380041] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -217823,8 +217832,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1380051] = {
+	}
+	uv0.chapter_template[1380051] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -218261,8 +218270,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1390001] = {
+	}
+	uv0.chapter_template[1390001] = {
 		pos_x = "0.2953125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -218833,8 +218842,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1390002] = {
+	}
+	uv0.chapter_template[1390002] = {
 		pos_x = "0.44375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -219506,8 +219515,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1390003] = {
+	}
+	uv0.chapter_template[1390003] = {
 		pos_x = "0.7046875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -220145,8 +220154,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1400001] = {
+	}
+	uv0.chapter_template[1400001] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
@@ -220712,8 +220721,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1400002] = {
+	}
+	uv0.chapter_template[1400002] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -221281,8 +221290,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1400003] = {
+	}
+	uv0.chapter_template[1400003] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -221935,8 +221944,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1400004] = {
+	}
+	uv0.chapter_template[1400004] = {
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -222599,8 +222608,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1400005] = {
+	}
+	uv0.chapter_template[1400005] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -223306,8 +223315,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1400006] = {
+	}
+	uv0.chapter_template[1400006] = {
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -223985,8 +223994,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1400011] = {
+	}
+	uv0.chapter_template[1400011] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -224594,8 +224603,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1400012] = {
+	}
+	uv0.chapter_template[1400012] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -225205,8 +225214,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1400013] = {
+	}
+	uv0.chapter_template[1400013] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -225901,8 +225910,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1400014] = {
+	}
+	uv0.chapter_template[1400014] = {
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -226607,8 +226616,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1400015] = {
+	}
+	uv0.chapter_template[1400015] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -227358,8 +227367,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1400016] = {
+	}
+	uv0.chapter_template[1400016] = {
 		pos_x = "0.6046875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -228081,8 +228090,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1400017] = {
+	}
+	uv0.chapter_template[1400017] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -228752,8 +228761,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1400021] = {
+	}
+	uv0.chapter_template[1400021] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -229155,8 +229164,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1410001] = {
+	}
+	uv0.chapter_template[1410001] = {
 		pos_x = "0.18",
 		num_3 = 1,
 		progress_boss = 50,
@@ -229941,8 +229950,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1410002] = {
+	}
+	uv0.chapter_template[1410002] = {
 		pos_x = "0.18",
 		num_3 = 1,
 		progress_boss = 34,
@@ -230609,8 +230618,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1410003] = {
+	}
+	uv0.chapter_template[1410003] = {
 		pos_x = "0.18",
 		num_3 = 1,
 		progress_boss = 34,
@@ -231457,8 +231466,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1410004] = {
+	}
+	uv0.chapter_template[1410004] = {
 		pos_x = "0.69",
 		num_3 = 1,
 		progress_boss = 25,
@@ -232462,8 +232471,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1410005] = {
+	}
+	uv0.chapter_template[1410005] = {
 		pos_x = "0.69",
 		num_3 = 1,
 		progress_boss = 25,
@@ -233371,8 +233380,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1410006] = {
+	}
+	uv0.chapter_template[1410006] = {
 		pos_x = "0.69",
 		num_3 = 1,
 		progress_boss = 25,
@@ -234392,8 +234401,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1410007] = {
+	}
+	uv0.chapter_template[1410007] = {
 		pos_x = "0.18",
 		num_3 = 0,
 		progress_boss = 100,
@@ -234916,8 +234925,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1410008] = {
+	}
+	uv0.chapter_template[1410008] = {
 		pos_x = "0.69",
 		num_3 = 0,
 		progress_boss = 100,
@@ -235562,8 +235571,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1410021] = {
+	}
+	uv0.chapter_template[1410021] = {
 		pos_x = "0.18",
 		num_3 = 1,
 		progress_boss = 34,
@@ -236389,8 +236398,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1410022] = {
+	}
+	uv0.chapter_template[1410022] = {
 		pos_x = "0.18",
 		num_3 = 1,
 		progress_boss = 34,
@@ -237099,8 +237108,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1410023] = {
+	}
+	uv0.chapter_template[1410023] = {
 		pos_x = "0.18",
 		num_3 = 1,
 		progress_boss = 25,
@@ -237989,8 +237998,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1410024] = {
+	}
+	uv0.chapter_template[1410024] = {
 		pos_x = "0.69",
 		num_3 = 1,
 		progress_boss = 25,
@@ -239035,8 +239044,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1410025] = {
+	}
+	uv0.chapter_template[1410025] = {
 		pos_x = "0.69",
 		num_3 = 1,
 		progress_boss = 20,
@@ -239987,8 +239996,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1410026] = {
+	}
+	uv0.chapter_template[1410026] = {
 		pos_x = "0.69",
 		num_3 = 1,
 		progress_boss = 20,
@@ -241052,8 +241061,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1410027] = {
+	}
+	uv0.chapter_template[1410027] = {
 		pos_x = "0.18",
 		num_3 = 0,
 		progress_boss = 100,
@@ -241576,8 +241585,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1410028] = {
+	}
+	uv0.chapter_template[1410028] = {
 		pos_x = "0.69",
 		num_3 = 0,
 		progress_boss = 100,
@@ -242222,8 +242231,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1410041] = {
+	}
+	uv0.chapter_template[1410041] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -243245,8 +243254,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1410051] = {
+	}
+	uv0.chapter_template[1410051] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -243685,8 +243694,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1420001] = {
+	}
+	uv0.chapter_template[1420001] = {
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -244288,8 +244297,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1420002] = {
+	}
+	uv0.chapter_template[1420002] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -244903,8 +244912,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1420003] = {
+	}
+	uv0.chapter_template[1420003] = {
 		pos_x = "0.6375",
 		num_3 = 1,
 		progress_boss = 20,
@@ -245515,8 +245524,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1430001] = {
+	}
+	uv0.chapter_template[1430001] = {
 		pos_x = "0.14609375",
 		num_3 = 8,
 		progress_boss = 34,
@@ -246105,8 +246114,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1430002] = {
+	}
+	uv0.chapter_template[1430002] = {
 		pos_x = "0.7046875",
 		num_3 = 9,
 		progress_boss = 34,
@@ -246780,8 +246789,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1430003] = {
+	}
+	uv0.chapter_template[1430003] = {
 		pos_x = "0.14609375",
 		num_3 = 10,
 		progress_boss = 25,
@@ -247462,8 +247471,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1430004] = {
+	}
+	uv0.chapter_template[1430004] = {
 		pos_x = "0.7046875",
 		num_3 = 11,
 		progress_boss = 25,
@@ -248159,8 +248168,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1430005] = {
+	}
+	uv0.chapter_template[1430005] = {
 		pos_x = "0.485",
 		num_3 = 12,
 		progress_boss = 20,
@@ -249070,8 +249079,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1430041] = {
+	}
+	uv0.chapter_template[1430041] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -249726,8 +249735,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1430051] = {
+	}
+	uv0.chapter_template[1430051] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -250126,8 +250135,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1440001] = {
+	}
+	uv0.chapter_template[1440001] = {
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 100,
@@ -250716,8 +250725,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1440002] = {
+	}
+	uv0.chapter_template[1440002] = {
 		pos_x = "0.2375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -251455,8 +251464,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1440003] = {
+	}
+	uv0.chapter_template[1440003] = {
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -252210,8 +252219,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1440004] = {
+	}
+	uv0.chapter_template[1440004] = {
 		pos_x = "0.68515625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -252957,8 +252966,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1450001] = {
+	}
+	uv0.chapter_template[1450001] = {
 		pos_x = "0.168125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -253576,8 +253585,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1450002] = {
+	}
+	uv0.chapter_template[1450002] = {
 		pos_x = "0.26640625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -254249,8 +254258,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1450003] = {
+	}
+	uv0.chapter_template[1450003] = {
 		pos_x = "0.57625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -254923,8 +254932,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1450004] = {
+	}
+	uv0.chapter_template[1450004] = {
 		pos_x = "0.68578125",
 		num_3 = 1,
 		progress_boss = 20,
@@ -255680,8 +255689,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1450041] = {
+	}
+	uv0.chapter_template[1450041] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -256329,8 +256338,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1450051] = {
+	}
+	uv0.chapter_template[1450051] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -256783,8 +256792,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1460001] = {
+	}
+	uv0.chapter_template[1460001] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
@@ -257456,8 +257465,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1460002] = {
+	}
+	uv0.chapter_template[1460002] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -258117,8 +258126,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1460003] = {
+	}
+	uv0.chapter_template[1460003] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -258772,8 +258781,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1460004] = {
+	}
+	uv0.chapter_template[1460004] = {
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -259520,8 +259529,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1460005] = {
+	}
+	uv0.chapter_template[1460005] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -260315,8 +260324,10 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1460006] = {
+	}
+end()
+function ()
+	uv0.chapter_template[1460006] = {
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -261285,8 +261296,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1460021] = {
+	}
+	uv0.chapter_template[1460021] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -261999,8 +262010,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1460022] = {
+	}
+	uv0.chapter_template[1460022] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -262701,8 +262712,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1460023] = {
+	}
+	uv0.chapter_template[1460023] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -263399,8 +263410,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1460024] = {
+	}
+	uv0.chapter_template[1460024] = {
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -264188,8 +264199,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1460025] = {
+	}
+	uv0.chapter_template[1460025] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -265026,8 +265037,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1460026] = {
+	}
+	uv0.chapter_template[1460026] = {
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 20,
@@ -266039,8 +266050,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1460041] = {
+	}
+	uv0.chapter_template[1460041] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -267182,8 +267193,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1460051] = {
+	}
+	uv0.chapter_template[1460051] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -267625,8 +267636,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1470001] = {
+	}
+	uv0.chapter_template[1470001] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
@@ -268199,8 +268210,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1470002] = {
+	}
+	uv0.chapter_template[1470002] = {
 		pos_x = "0.38203125",
 		num_3 = 12,
 		progress_boss = 34,
@@ -268793,8 +268804,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1470003] = {
+	}
+	uv0.chapter_template[1470003] = {
 		pos_x = "0.665625",
 		num_3 = 12,
 		progress_boss = 34,
@@ -269481,8 +269492,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1470004] = {
+	}
+	uv0.chapter_template[1470004] = {
 		pos_x = "0.38203125",
 		num_3 = 0,
 		progress_boss = 100,
@@ -270019,8 +270030,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1470005] = {
+	}
+	uv0.chapter_template[1470005] = {
 		pos_x = "0.665625",
 		num_3 = 0,
 		progress_boss = 100,
@@ -270612,8 +270623,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1470006] = {
+	}
+	uv0.chapter_template[1470006] = {
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -271216,8 +271227,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1470007] = {
+	}
+	uv0.chapter_template[1470007] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -271862,8 +271873,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1470008] = {
+	}
+	uv0.chapter_template[1470008] = {
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -272474,8 +272485,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1470021] = {
+	}
+	uv0.chapter_template[1470021] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -273090,8 +273101,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1470022] = {
+	}
+	uv0.chapter_template[1470022] = {
 		pos_x = "0.38203125",
 		num_3 = 10,
 		progress_boss = 34,
@@ -273724,8 +273735,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1470023] = {
+	}
+	uv0.chapter_template[1470023] = {
 		pos_x = "0.665625",
 		num_3 = 10,
 		progress_boss = 25,
@@ -274453,8 +274464,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1470024] = {
+	}
+	uv0.chapter_template[1470024] = {
 		pos_x = "0.38203125",
 		num_3 = 0,
 		progress_boss = 100,
@@ -275033,8 +275044,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1470025] = {
+	}
+	uv0.chapter_template[1470025] = {
 		pos_x = "0.665625",
 		num_3 = 0,
 		progress_boss = 100,
@@ -275669,8 +275680,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1470026] = {
+	}
+	uv0.chapter_template[1470026] = {
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -276314,8 +276325,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1470027] = {
+	}
+	uv0.chapter_template[1470027] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -277004,8 +277015,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1470028] = {
+	}
+	uv0.chapter_template[1470028] = {
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 20,
@@ -277659,8 +277670,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1470031] = {
+	}
+	uv0.chapter_template[1470031] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -278330,8 +278341,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1470041] = {
+	}
+	uv0.chapter_template[1470041] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -278734,8 +278745,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1480001] = {
+	}
+	uv0.chapter_template[1480001] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
@@ -279407,8 +279418,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1480002] = {
+	}
+	uv0.chapter_template[1480002] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -280096,8 +280107,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1480003] = {
+	}
+	uv0.chapter_template[1480003] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -280998,8 +281009,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1480004] = {
+	}
+	uv0.chapter_template[1480004] = {
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -281783,8 +281794,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1480005] = {
+	}
+	uv0.chapter_template[1480005] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -282593,8 +282604,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1480006] = {
+	}
+	uv0.chapter_template[1480006] = {
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -283513,8 +283524,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1480021] = {
+	}
+	uv0.chapter_template[1480021] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -284228,8 +284239,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1480022] = {
+	}
+	uv0.chapter_template[1480022] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -284959,8 +284970,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1480023] = {
+	}
+	uv0.chapter_template[1480023] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -285904,8 +285915,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1480024] = {
+	}
+	uv0.chapter_template[1480024] = {
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -286730,8 +286741,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1480025] = {
+	}
+	uv0.chapter_template[1480025] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -287583,8 +287594,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1480026] = {
+	}
+	uv0.chapter_template[1480026] = {
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 20,
@@ -288546,8 +288557,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1480041] = {
+	}
+	uv0.chapter_template[1480041] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -289347,8 +289358,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1480051] = {
+	}
+	uv0.chapter_template[1480051] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -289780,8 +289791,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1490001] = {
+	}
+	uv0.chapter_template[1490001] = {
 		pos_x = "0.2515625",
 		num_3 = 10,
 		progress_boss = 50,
@@ -290365,8 +290376,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1490002] = {
+	}
+	uv0.chapter_template[1490002] = {
 		pos_x = "0.38203125",
 		num_3 = 10,
 		progress_boss = 34,
@@ -290998,8 +291009,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1490003] = {
+	}
+	uv0.chapter_template[1490003] = {
 		pos_x = "0.665625",
 		num_3 = 10,
 		progress_boss = 34,
@@ -291728,8 +291739,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1490004] = {
+	}
+	uv0.chapter_template[1490004] = {
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -292351,8 +292362,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1490005] = {
+	}
+	uv0.chapter_template[1490005] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -293017,8 +293028,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1490006] = {
+	}
+	uv0.chapter_template[1490006] = {
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -293655,8 +293666,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1490007] = {
+	}
+	uv0.chapter_template[1490007] = {
 		pos_x = "0.38203125",
 		num_3 = 0,
 		progress_boss = 100,
@@ -294193,8 +294204,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1490008] = {
+	}
+	uv0.chapter_template[1490008] = {
 		pos_x = "0.665625",
 		num_3 = 0,
 		progress_boss = 100,
@@ -294787,8 +294798,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1490009] = {
+	}
+	uv0.chapter_template[1490009] = {
 		pos_x = "0.5390625",
 		num_3 = 0,
 		progress_boss = 100,
@@ -295374,8 +295385,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1490010] = {
+	}
+	uv0.chapter_template[1490010] = {
 		pos_x = "0.67109375",
 		num_3 = 0,
 		progress_boss = 100,
@@ -296018,8 +296029,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1490011] = {
+	}
+	uv0.chapter_template[1490011] = {
 		pos_x = "0.2515625",
 		num_3 = 9,
 		progress_boss = 34,
@@ -296645,8 +296656,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1490012] = {
+	}
+	uv0.chapter_template[1490012] = {
 		pos_x = "0.38203125",
 		num_3 = 9,
 		progress_boss = 34,
@@ -297320,8 +297331,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1490013] = {
+	}
+	uv0.chapter_template[1490013] = {
 		pos_x = "0.665625",
 		num_3 = 9,
 		progress_boss = 25,
@@ -298087,8 +298098,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1490014] = {
+	}
+	uv0.chapter_template[1490014] = {
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -298752,8 +298763,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1490015] = {
+	}
+	uv0.chapter_template[1490015] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -299462,8 +299473,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1490016] = {
+	}
+	uv0.chapter_template[1490016] = {
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 20,
@@ -300144,8 +300155,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1490017] = {
+	}
+	uv0.chapter_template[1490017] = {
 		pos_x = "0.200625",
 		num_3 = 1,
 		progress_boss = 100,
@@ -301008,8 +301019,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1490021] = {
+	}
+	uv0.chapter_template[1490021] = {
 		pos_x = "0.200625",
 		num_3 = 1,
 		progress_boss = 100,
@@ -301414,8 +301425,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1490022] = {
+	}
+	uv0.chapter_template[1490022] = {
 		pos_x = "0.38203125",
 		num_3 = 0,
 		progress_boss = 100,
@@ -301994,8 +302005,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1490023] = {
+	}
+	uv0.chapter_template[1490023] = {
 		pos_x = "0.665625",
 		num_3 = 0,
 		progress_boss = 100,
@@ -302630,8 +302641,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1490024] = {
+	}
+	uv0.chapter_template[1490024] = {
 		pos_x = "0.28671875",
 		num_3 = 0,
 		progress_boss = 100,
@@ -303259,8 +303270,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1490025] = {
+	}
+	uv0.chapter_template[1490025] = {
 		pos_x = "0.67109375",
 		num_3 = 0,
 		progress_boss = 100,
@@ -303947,8 +303958,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1500001] = {
+	}
+	uv0.chapter_template[1500001] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
@@ -304615,8 +304626,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1500002] = {
+	}
+	uv0.chapter_template[1500002] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -305302,8 +305313,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1500003] = {
+	}
+	uv0.chapter_template[1500003] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -306102,8 +306113,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1500004] = {
+	}
+	uv0.chapter_template[1500004] = {
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -307006,8 +307017,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1500005] = {
+	}
+	uv0.chapter_template[1500005] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -307929,8 +307940,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1500006] = {
+	}
+	uv0.chapter_template[1500006] = {
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -308868,8 +308879,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1500021] = {
+	}
+	uv0.chapter_template[1500021] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -308967,9 +308978,9 @@ pg.chapter_template = {
 				70
 			},
 			{
-				"cannon",
+				"air",
 				1,
-				700
+				600
 			},
 			{
 				"dodge",
@@ -309578,8 +309589,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1500022] = {
+	}
+	uv0.chapter_template[1500022] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -309677,9 +309688,9 @@ pg.chapter_template = {
 				75
 			},
 			{
-				"cannon",
+				"air",
 				1,
-				800
+				750
 			},
 			{
 				"reload",
@@ -310307,8 +310318,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1500023] = {
+	}
+	uv0.chapter_template[1500023] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -310406,12 +310417,12 @@ pg.chapter_template = {
 				80
 			},
 			{
-				"cannon",
+				"air",
 				1,
-				1100
+				1000
 			},
 			{
-				"antiaircraft",
+				"dodge",
 				1,
 				1750
 			}
@@ -311150,8 +311161,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1500024] = {
+	}
+	uv0.chapter_template[1500024] = {
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -312096,8 +312107,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1500025] = {
+	}
+	uv0.chapter_template[1500025] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -313063,8 +313074,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1500026] = {
+	}
+	uv0.chapter_template[1500026] = {
 		pos_x = "0.67109375",
 		num_3 = 1,
 		progress_boss = 20,
@@ -313166,9 +313177,9 @@ pg.chapter_template = {
 				1700
 			},
 			{
-				"dodge",
+				"antiaircraft",
 				1,
-				800
+				2400
 			}
 		},
 		expedition_id_weight_list = {
@@ -314045,8 +314056,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1500041] = {
+	}
+	uv0.chapter_template[1500041] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -314914,8 +314925,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1500051] = {
+	}
+	uv0.chapter_template[1500051] = {
 		pos_x = "0.479",
 		num_3 = 0,
 		progress_boss = 100,
@@ -315361,8 +315372,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[1510001] = {
+	}
+	uv0.chapter_template[1510001] = {
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -315973,8 +315984,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1510002] = {
+	}
+	uv0.chapter_template[1510002] = {
 		pos_x = "0.42203125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -316645,8 +316656,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[1510003] = {
+	}
+	uv0.chapter_template[1510003] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -317314,8 +317325,10889 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100001] = {
+	}
+	uv0.chapter_template[1520001] = {
+		pos_x = "0.2515625",
+		num_3 = 1,
+		progress_boss = 50,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "JINGWEILUOXUAN4",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 100,
+		best_air_dominance = 150,
+		id = 1520001,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 0,
+		formation = 1520001,
+		bgm = "hunhe-level",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.392708333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 23,
+		ammo_submarine = 0,
+		num_2 = 10,
+		is_ai = 1,
+		map = 1520001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "AF基地救援",
+		chapter_name = "A1",
+		type = 1,
+		act_id = 997,
+		enter_story = "JINGWEILUOXUAN2",
+		boss_refresh = 3,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "敵艦載機がAF基地に来襲！味方を救援するため、艦隊を急行させよう！",
+		difficulty = 3,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1520001,
+				15,
+				0
+			},
+			{
+				1520002,
+				20,
+				0
+			},
+			{
+				1520003,
+				30,
+				1
+			},
+			{
+				1520004,
+				15,
+				0
+			},
+			{
+				1520005,
+				20,
+				0
+			},
+			{
+				1520006,
+				30,
+				1
+			},
+			{
+				1520007,
+				15,
+				0
+			},
+			{
+				1520008,
+				20,
+				0
+			},
+			{
+				1520009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1520005,
+			1520008
+		},
+		ai_expedition_list = {
+			1520301
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1520013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhanlie"
+		},
+		awards = {
+			{
+				2,
+				58212
+			},
+			{
+				2,
+				58200
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				8
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				1
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				12
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				1
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				4
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				4
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				1,
+				"xinzexi_I_normal_1x1_3",
+				0,
+				0
+			},
+			{
+				5,
+				7,
+				"xinzexi_I_normal_1x2_1",
+				0,
+				-16
+			},
+			{
+				4,
+				2,
+				"xinzexi_I_normal_1x1_1",
+				0,
+				0
+			},
+			{
+				3,
+				8,
+				"xinzexi_I_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				2,
+				4,
+				"xinzexi_I_normal_1x2_2",
+				0,
+				-49
+			},
+			{
+				0,
+				6,
+				"xinzexi_I_normal_1x1_3",
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				"xinzexi_I_normal_2x2_2",
+				66,
+				-35
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinzexi_I_normal",
+			45,
+			20,
+			-355,
+			-270,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"JINGWEILUOXUAN3"
+		},
+		defeat_story = {
+			"JINGWEILUOXUAN6",
+			"JINGWEILUOXUAN7"
+		},
+		defeat_story_count = {
+			1,
+			2
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {
+			8874,
+			8877
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	}
+	uv0.chapter_template[1520002] = {
+		pos_x = "0.38203125",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "JINGWEILUOXUAN10",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 170,
+		best_air_dominance = 220,
+		id = 1520002,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1520001,
+		formation = 1520001,
+		bgm = "hunhe-level",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.052083333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 24,
+		ammo_submarine = 0,
+		num_2 = 15,
+		is_ai = 1,
+		map = 1520001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "不完全の再現",
+		chapter_name = "A2",
+		type = 1,
+		act_id = 997,
+		enter_story = "JINGWEILUOXUAN8",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "重桜とユニオンの「駒」が入り乱れる戦場。敵陣をかき分け、行方不明の仲間を探そう！",
+		difficulty = 4,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1520101,
+				15,
+				0
+			},
+			{
+				1520102,
+				20,
+				0
+			},
+			{
+				1520103,
+				30,
+				1
+			},
+			{
+				1520104,
+				15,
+				0
+			},
+			{
+				1520105,
+				20,
+				0
+			},
+			{
+				1520106,
+				30,
+				1
+			},
+			{
+				1520107,
+				15,
+				0
+			},
+			{
+				1520108,
+				20,
+				0
+			},
+			{
+				1520109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1520105,
+			1520108
+		},
+		ai_expedition_list = {
+			1520302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1520113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"feilong"
+		},
+		awards = {
+			{
+				2,
+				58213
+			},
+			{
+				2,
+				58201
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				1
+			},
+			{
+				7,
+				3,
+				true,
+				1
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				12
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				12
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				16
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				4
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				4
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				12
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				6
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				8
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"xinzexi_I_normal_1x2_1",
+				0,
+				61
+			},
+			{
+				7,
+				6,
+				"xinzexi_I_normal_1x1_3",
+				0,
+				3
+			},
+			{
+				6,
+				0,
+				"xinzexi_I_normal_1x2_2",
+				16,
+				-38
+			},
+			{
+				5,
+				5,
+				"xinzexi_I_normal_1x1_1",
+				0,
+				9
+			},
+			{
+				3,
+				2,
+				"xinzexi_I_normal_1x2_1",
+				0,
+				-34
+			},
+			{
+				2,
+				5,
+				"xinzexi_I_normal_1x1_3",
+				0,
+				0
+			},
+			{
+				2,
+				0,
+				"xinzexi_I_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				7,
+				"xinzexi_I_normal_1x1_1",
+				0,
+				11
+			},
+			{
+				0,
+				2,
+				"xinzexi_I_normal_3x1_1",
+				-9,
+				-6
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinzexi_I_normal",
+			45,
+			20,
+			-196,
+			115,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"JINGWEILUOXUAN9"
+		},
+		defeat_story = {
+			"JINGWEILUOXUAN11",
+			"JINGWEILUOXUAN12"
+		},
+		defeat_story_count = {
+			1,
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {
+			8874,
+			8877
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	}
+	uv0.chapter_template[1520003] = {
+		pos_x = "0.665625",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "JINGWEILUOXUAN14",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 320,
+		best_air_dominance = 415,
+		id = 1520003,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1520002,
+		formation = 1520001,
+		bgm = "hunhe-level",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.344791667",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 24,
+		ammo_submarine = 0,
+		num_2 = 15,
+		is_ai = 1,
+		map = 1520001,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "夢の介入",
+		chapter_name = "A3",
+		type = 1,
+		act_id = 997,
+		enter_story = "JINGWEILUOXUAN13",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "閉鎖された艦橋での思わぬ出会い――「再現」を止めるには、果たして……",
+		difficulty = 5,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1520201,
+				15,
+				0
+			},
+			{
+				1520202,
+				20,
+				0
+			},
+			{
+				1520203,
+				30,
+				1
+			},
+			{
+				1520204,
+				15,
+				0
+			},
+			{
+				1520205,
+				20,
+				0
+			},
+			{
+				1520206,
+				30,
+				1
+			},
+			{
+				1520207,
+				15,
+				0
+			},
+			{
+				1520208,
+				20,
+				0
+			},
+			{
+				1520209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1520205,
+			1520208
+		},
+		ai_expedition_list = {
+			1520303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1520213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"chicheng"
+		},
+		awards = {
+			{
+				2,
+				58214
+			},
+			{
+				2,
+				58202
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				1
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				1
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				1
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				9,
+				true,
+				12
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				4
+			},
+			{
+				2,
+				4,
+				true,
+				12
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				12
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				8
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				6
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				2,
+				"xinzexi_I_normal_3x1_1",
+				-4,
+				0
+			},
+			{
+				6,
+				9,
+				"xinzexi_I_normal_1x2_1",
+				-4,
+				-13
+			},
+			{
+				6,
+				7,
+				"xinzexi_I_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				6,
+				5,
+				"xinzexi_I_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				4,
+				6,
+				"xinzexi_I_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				3,
+				3,
+				"xinzexi_I_normal_1x2_2",
+				0,
+				-47
+			},
+			{
+				3,
+				1,
+				"xinzexi_I_normal_1x2_2",
+				0,
+				-47
+			},
+			{
+				0,
+				9,
+				"xinzexi_I_normal_2x2_1",
+				-54,
+				-28
+			},
+			{
+				0,
+				4,
+				"xinzexi_I_normal_1x1_3",
+				0,
+				0
+			},
+			{
+				0,
+				3,
+				"xinzexi_I_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				1,
+				"xinzexi_I_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				"xinzexi_I_normal_1x1_3",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinzexi_I_normal",
+			45,
+			20,
+			-385,
+			93,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"JINGWEILUOXUAN15",
+			"JINGWEILUOXUAN16"
+		},
+		defeat_story_count = {
+			1,
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {
+			8874,
+			8877
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	}
+	uv0.chapter_template[1520004] = {
+		pos_x = "0.23125",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 310,
+		best_air_dominance = 405,
+		id = 1520004,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1520003,
+		formation = 1520002,
+		bgm = "deepblue-image",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.227083333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 25,
+		is_ai = 1,
+		map = 1520002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "条件設定",
+		chapter_name = "B1",
+		type = 1,
+		act_id = 998,
+		enter_story = "JINGWEILUOXUAN18",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "「駒」の集結海域に向かうニュージャージーたち。止まっている時間の中で、彼女たちが見たのは――",
+		difficulty = 5,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1521001,
+				15,
+				0
+			},
+			{
+				1521002,
+				20,
+				0
+			},
+			{
+				1521003,
+				30,
+				1
+			},
+			{
+				1521004,
+				15,
+				0
+			},
+			{
+				1521005,
+				20,
+				0
+			},
+			{
+				1521006,
+				30,
+				1
+			},
+			{
+				1521007,
+				15,
+				0
+			},
+			{
+				1521008,
+				20,
+				0
+			},
+			{
+				1521009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1521005,
+			1521008
+		},
+		ai_expedition_list = {
+			1521301,
+			1521302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1521013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"shentong"
+		},
+		awards = {
+			{
+				2,
+				58215
+			},
+			{
+				2,
+				58203
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				12
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				4
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				12
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				4
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				16
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				4
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				4
+			},
+			{
+				2,
+				3,
+				true,
+				12
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				8
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				4
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				12
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				6
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"xinzexi_II_normal_1x1_2",
+				0,
+				17
+			},
+			{
+				7,
+				1,
+				"xinzexi_II_normal_1x1_3",
+				0,
+				0
+			},
+			{
+				6,
+				8,
+				"xinzexi_II_normal_2x2_1",
+				44,
+				-24
+			},
+			{
+				4,
+				7,
+				"xinzexi_II_normal_1x1_1",
+				0,
+				0
+			},
+			{
+				4,
+				3,
+				"xinzexi_II_normal_2x2_2",
+				-48,
+				-27
+			},
+			{
+				3,
+				9,
+				"xinzexi_II_normal_1x1_3",
+				0,
+				0
+			},
+			{
+				2,
+				5,
+				"xinzexi_II_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				2,
+				0,
+				"xinzexi_II_normal_1x2_2",
+				11,
+				27
+			},
+			{
+				0,
+				9,
+				"xinzexi_II_normal_1x2_1",
+				0,
+				-38
+			},
+			{
+				0,
+				8,
+				"xinzexi_II_normal_1x1_2",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinzexi_II_normal",
+			45,
+			20,
+			-156,
+			-93,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"JINGWEILUOXUAN20",
+			"JINGWEILUOXUAN21"
+		},
+		defeat_story_count = {
+			1,
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {
+			8874,
+			8877
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	}
+	uv0.chapter_template[1520005] = {
+		pos_x = "0.5390625",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "JINGWEILUOXUAN23",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 470,
+		best_air_dominance = 610,
+		id = 1520005,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1520004,
+		formation = 1520002,
+		bgm = "deepblue-image",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.052083333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 30,
+		is_ai = 1,
+		map = 1520002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "道を開こう",
+		chapter_name = "B2",
+		type = 1,
+		act_id = 998,
+		enter_story = "JINGWEILUOXUAN22",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "指揮官の場所へと急行する艦船たち。彼女たちを待ち受けているのは不可視の包囲網だった",
+		difficulty = 6,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1521101,
+				15,
+				0
+			},
+			{
+				1521102,
+				20,
+				0
+			},
+			{
+				1521103,
+				30,
+				1
+			},
+			{
+				1521104,
+				15,
+				0
+			},
+			{
+				1521105,
+				20,
+				0
+			},
+			{
+				1521106,
+				30,
+				1
+			},
+			{
+				1521107,
+				15,
+				0
+			},
+			{
+				1521108,
+				20,
+				0
+			},
+			{
+				1521109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1521105,
+			1521108
+		},
+		ai_expedition_list = {
+			1521303,
+			1521304
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1521113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenhangmu"
+		},
+		awards = {
+			{
+				2,
+				58216
+			},
+			{
+				2,
+				58204
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				1
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				12
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				1
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				12
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				16
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				8
+			},
+			{
+				3,
+				2,
+				true,
+				12
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				4
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				4
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				12
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				9,
+				"xinzexi_II_normal_1x1_1",
+				-1,
+				16
+			},
+			{
+				7,
+				1,
+				"xinzexi_II_normal_3x1_1",
+				4,
+				3
+			},
+			{
+				6,
+				6,
+				"xinzexi_II_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				6,
+				5,
+				"xinzexi_II_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				5,
+				1,
+				"xinzexi_II_normal_1x1_3",
+				0,
+				-14
+			},
+			{
+				3,
+				8,
+				"xinzexi_II_normal_1x2_1",
+				0,
+				-35
+			},
+			{
+				3,
+				1,
+				"xinzexi_II_normal_1x2_1",
+				0,
+				-29
+			},
+			{
+				2,
+				8,
+				"xinzexi_II_normal_1x1_3",
+				0,
+				0
+			},
+			{
+				1,
+				4,
+				"xinzexi_II_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				1,
+				3,
+				"xinzexi_II_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				8,
+				"xinzexi_II_normal_3x1_1",
+				-14,
+				0
+			},
+			{
+				0,
+				0,
+				"xinzexi_II_normal_2x2_1",
+				67,
+				-34
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinzexi_II_normal",
+			45,
+			20,
+			-446,
+			77,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"JINGWEILUOXUAN24",
+			"JINGWEILUOXUAN25"
+		},
+		defeat_story_count = {
+			1,
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {
+			8874,
+			8877
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	}
+	uv0.chapter_template[1520006] = {
+		pos_x = "0.67109375",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "JINGWEILUOXUAN27",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 530,
+		best_air_dominance = 690,
+		id = 1520006,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1520005,
+		formation = 1520002,
+		bgm = "deepblue-image",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.383333333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 30,
+		is_ai = 1,
+		map = 1520002,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "さまよえるもの",
+		chapter_name = "B3",
+		type = 1,
+		act_id = 998,
+		enter_story = "JINGWEILUOXUAN26",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "指揮官と再会し、鏡面海域の脱出を図るニュージャージー。制御装置を守る最後の敵は、今まで遭遇したことのない「フネ」だった",
+		difficulty = 7,
+		avoid_ratio = 12,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1521201,
+				15,
+				0
+			},
+			{
+				1521202,
+				20,
+				0
+			},
+			{
+				1521203,
+				30,
+				1
+			},
+			{
+				1521204,
+				15,
+				0
+			},
+			{
+				1521205,
+				20,
+				0
+			},
+			{
+				1521206,
+				30,
+				1
+			},
+			{
+				1521207,
+				15,
+				0
+			},
+			{
+				1521208,
+				20,
+				0
+			},
+			{
+				1521209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1521205,
+			1521208
+		},
+		ai_expedition_list = {
+			1521305,
+			1521306,
+			1521307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1521213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"canglong_alter"
+		},
+		awards = {
+			{
+				2,
+				58217
+			},
+			{
+				2,
+				58205
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				1
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				1
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				4
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				4
+			},
+			{
+				7,
+				0,
+				true,
+				6
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				12
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				12
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				12
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				4
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				12
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				4
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				4
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				8
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				8,
+				"xinzexi_II_normal_1x1_3",
+				-5,
+				6
+			},
+			{
+				8,
+				0,
+				"xinzexi_II_normal_1x1_3",
+				5,
+				6
+			},
+			{
+				7,
+				5,
+				"xinzexi_II_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				7,
+				3,
+				"xinzexi_II_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				4,
+				6,
+				"xinzexi_II_normal_2x2_2",
+				51,
+				-24
+			},
+			{
+				4,
+				1,
+				"xinzexi_II_normal_2x2_2",
+				51,
+				-24
+			},
+			{
+				2,
+				4,
+				"xinzexi_II_normal_1x1_1",
+				0,
+				0
+			},
+			{
+				1,
+				7,
+				"xinzexi_II_normal_3x1_1",
+				0,
+				0
+			},
+			{
+				1,
+				1,
+				"xinzexi_II_normal_3x1_1",
+				0,
+				0
+			},
+			{
+				0,
+				8,
+				"xinzexi_II_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				"xinzexi_II_normal_1x1_2",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinzexi_II_normal",
+			45,
+			20,
+			-221,
+			191,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"JINGWEILUOXUAN29",
+			"JINGWEILUOXUAN30",
+			"JINGWEILUOXUAN31",
+			"JINGWEILUOXUAN32",
+			"JINGWEILUOXUAN33"
+		},
+		defeat_story_count = {
+			1,
+			2,
+			4,
+			5,
+			6
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {
+			8874,
+			8877,
+			8880
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	}
+	uv0.chapter_template[1520021] = {
+		pos_x = "0.2515625",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "JINGWEILUOXUAN4",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 450,
+		best_air_dominance = 585,
+		id = 1520021,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 0,
+		formation = 1520011,
+		bgm = "hunhe-level",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.392708333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 17,
+		is_ai = 1,
+		map = 1520011,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "AF基地救援",
+		chapter_name = "C1",
+		type = 2,
+		act_id = 997,
+		enter_story = "JINGWEILUOXUAN2",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "敵艦載機がAF基地に来襲！味方を救援するため、艦隊を急行させよう！",
+		difficulty = 6,
+		avoid_ratio = 12,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					2,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				70
+			},
+			{
+				"cannon",
+				1,
+				700
+			},
+			{
+				"dodge",
+				1,
+				350
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1522001,
+				15,
+				0
+			},
+			{
+				1522002,
+				20,
+				0
+			},
+			{
+				1522003,
+				30,
+				1
+			},
+			{
+				1522004,
+				15,
+				0
+			},
+			{
+				1522005,
+				20,
+				0
+			},
+			{
+				1522006,
+				30,
+				1
+			},
+			{
+				1522007,
+				15,
+				0
+			},
+			{
+				1522008,
+				20,
+				0
+			},
+			{
+				1522009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1522005,
+			1522008
+		},
+		ai_expedition_list = {
+			1522301,
+			1522302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1522013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhanlie"
+		},
+		awards = {
+			{
+				2,
+				58230
+			},
+			{
+				2,
+				58218
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				8
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				1
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				12
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				1
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				4
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				4
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				1,
+				"xinzexi_I_hard_1x1_3",
+				0,
+				0
+			},
+			{
+				5,
+				7,
+				"xinzexi_I_hard_1x2_1",
+				0,
+				-16
+			},
+			{
+				4,
+				2,
+				"xinzexi_I_hard_1x1_1",
+				0,
+				0
+			},
+			{
+				3,
+				8,
+				"xinzexi_I_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				2,
+				4,
+				"xinzexi_I_hard_1x2_2",
+				0,
+				-49
+			},
+			{
+				0,
+				6,
+				"xinzexi_I_hard_1x1_3",
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				"xinzexi_I_hard_2x2_2",
+				66,
+				-35
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinzexi_I_hard",
+			45,
+			20,
+			-355,
+			-270,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"JINGWEILUOXUAN3"
+		},
+		defeat_story = {
+			"JINGWEILUOXUAN6",
+			"JINGWEILUOXUAN7"
+		},
+		defeat_story_count = {
+			1,
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {
+			8874,
+			8877
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	}
+	uv0.chapter_template[1520022] = {
+		pos_x = "0.38203125",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "JINGWEILUOXUAN10",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 610,
+		best_air_dominance = 795,
+		id = 1520022,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1520021,
+		formation = 1520011,
+		bgm = "hunhe-level",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.052083333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 17,
+		is_ai = 1,
+		map = 1520011,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "不完全の再現",
+		chapter_name = "C2",
+		type = 2,
+		act_id = 997,
+		enter_story = "JINGWEILUOXUAN8",
+		boss_refresh = 4,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "重桜とユニオンの「駒」が入り乱れる戦場。敵陣をかき分け、行方不明の仲間を探そう！",
+		difficulty = 7,
+		avoid_ratio = 13,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					2,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				75
+			},
+			{
+				"cannon",
+				1,
+				800
+			},
+			{
+				"reload",
+				1,
+				800
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1522101,
+				15,
+				0
+			},
+			{
+				1522102,
+				20,
+				0
+			},
+			{
+				1522103,
+				30,
+				1
+			},
+			{
+				1522104,
+				15,
+				0
+			},
+			{
+				1522105,
+				20,
+				0
+			},
+			{
+				1522106,
+				30,
+				1
+			},
+			{
+				1522107,
+				15,
+				0
+			},
+			{
+				1522108,
+				20,
+				0
+			},
+			{
+				1522109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1522105,
+			1522108
+		},
+		ai_expedition_list = {
+			1522303,
+			1522304
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1522113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"feilong"
+		},
+		awards = {
+			{
+				2,
+				58231
+			},
+			{
+				2,
+				58219
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				1
+			},
+			{
+				7,
+				3,
+				true,
+				1
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				12
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				12
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				16
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				4
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				4
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				12
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				6
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				8
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"xinzexi_I_hard_1x2_1",
+				0,
+				61
+			},
+			{
+				7,
+				6,
+				"xinzexi_I_hard_1x1_3",
+				0,
+				3
+			},
+			{
+				6,
+				0,
+				"xinzexi_I_hard_1x2_2",
+				16,
+				-38
+			},
+			{
+				5,
+				5,
+				"xinzexi_I_hard_1x1_1",
+				0,
+				9
+			},
+			{
+				3,
+				2,
+				"xinzexi_I_hard_1x2_1",
+				0,
+				-34
+			},
+			{
+				2,
+				5,
+				"xinzexi_I_hard_1x1_3",
+				0,
+				0
+			},
+			{
+				2,
+				0,
+				"xinzexi_I_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				7,
+				"xinzexi_I_hard_1x1_1",
+				0,
+				11
+			},
+			{
+				0,
+				2,
+				"xinzexi_I_hard_3x1_1",
+				-9,
+				-6
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinzexi_I_hard",
+			45,
+			20,
+			-196,
+			115,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"JINGWEILUOXUAN9"
+		},
+		defeat_story = {
+			"JINGWEILUOXUAN11",
+			"JINGWEILUOXUAN12"
+		},
+		defeat_story_count = {
+			1,
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {
+			8874,
+			8877
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	}
+	uv0.chapter_template[1520023] = {
+		pos_x = "0.665625",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "JINGWEILUOXUAN14",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 1035,
+		best_air_dominance = 1345,
+		id = 1520023,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1520022,
+		formation = 1520011,
+		bgm = "hunhe-level",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.344791667",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 21,
+		is_ai = 1,
+		map = 1520011,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "夢の介入",
+		chapter_name = "C3",
+		type = 2,
+		act_id = 997,
+		enter_story = "JINGWEILUOXUAN13",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "閉鎖された艦橋での思わぬ出会い――「再現」を止めるには、果たして……",
+		difficulty = 8,
+		avoid_ratio = 14,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					2,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				80
+			},
+			{
+				"cannon",
+				1,
+				1100
+			},
+			{
+				"antiaircraft",
+				1,
+				1750
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1522201,
+				15,
+				0
+			},
+			{
+				1522202,
+				20,
+				0
+			},
+			{
+				1522203,
+				30,
+				1
+			},
+			{
+				1522204,
+				15,
+				0
+			},
+			{
+				1522205,
+				20,
+				0
+			},
+			{
+				1522206,
+				30,
+				1
+			},
+			{
+				1522207,
+				15,
+				0
+			},
+			{
+				1522208,
+				20,
+				0
+			},
+			{
+				1522209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1522205,
+			1522208
+		},
+		ai_expedition_list = {
+			1522305,
+			1522306,
+			1522307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1522213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"chicheng"
+		},
+		awards = {
+			{
+				2,
+				58232
+			},
+			{
+				2,
+				58220
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				1
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				1
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				1
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				9,
+				true,
+				12
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				4
+			},
+			{
+				2,
+				4,
+				true,
+				12
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				12
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				8
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				6
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				2,
+				"xinzexi_I_hard_3x1_1",
+				-4,
+				0
+			},
+			{
+				6,
+				9,
+				"xinzexi_I_hard_1x2_1",
+				-4,
+				-13
+			},
+			{
+				6,
+				7,
+				"xinzexi_I_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				6,
+				5,
+				"xinzexi_I_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				4,
+				6,
+				"xinzexi_I_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				3,
+				3,
+				"xinzexi_I_hard_1x2_2",
+				0,
+				-47
+			},
+			{
+				3,
+				1,
+				"xinzexi_I_hard_1x2_2",
+				0,
+				-47
+			},
+			{
+				0,
+				9,
+				"xinzexi_I_hard_2x2_1",
+				-54,
+				-28
+			},
+			{
+				0,
+				4,
+				"xinzexi_I_hard_1x1_3",
+				0,
+				0
+			},
+			{
+				0,
+				3,
+				"xinzexi_I_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				1,
+				"xinzexi_I_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				"xinzexi_I_hard_1x1_3",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinzexi_I_hard",
+			45,
+			20,
+			-385,
+			93,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"JINGWEILUOXUAN15",
+			"JINGWEILUOXUAN16"
+		},
+		defeat_story_count = {
+			1,
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {
+			8874,
+			8877
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	}
+	uv0.chapter_template[1520024] = {
+		pos_x = "0.14609375",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 980,
+		best_air_dominance = 1275,
+		id = 1520024,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1520023,
+		formation = 1520012,
+		bgm = "deepblue-image",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.380208333",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 35,
+		is_ai = 1,
+		map = 1520012,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "条件設定",
+		chapter_name = "D1",
+		type = 2,
+		act_id = 998,
+		enter_story = "JINGWEILUOXUAN18",
+		boss_refresh = 5,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "「駒」の集結海域に向かうニュージャージーたち。止まっている時間の中で、彼女たちが見たのは――",
+		difficulty = 8,
+		avoid_ratio = 14,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					"hang",
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					"fanqian",
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				90
+			},
+			{
+				"air",
+				1,
+				1200
+			},
+			{
+				"antiaircraft",
+				1,
+				1900
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1523001,
+				15,
+				0
+			},
+			{
+				1523002,
+				20,
+				0
+			},
+			{
+				1523003,
+				30,
+				1
+			},
+			{
+				1523004,
+				15,
+				0
+			},
+			{
+				1523005,
+				20,
+				0
+			},
+			{
+				1523006,
+				30,
+				1
+			},
+			{
+				1523007,
+				15,
+				0
+			},
+			{
+				1523008,
+				20,
+				0
+			},
+			{
+				1523009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1523005,
+			1523008
+		},
+		ai_expedition_list = {
+			1523301,
+			1523302,
+			1523303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1523013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"shentong"
+		},
+		awards = {
+			{
+				2,
+				58233
+			},
+			{
+				2,
+				58221
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				12
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				4
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				12
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				4
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				16
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				4
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				4
+			},
+			{
+				2,
+				3,
+				true,
+				12
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				8
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				4
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				12
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				6
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"xinzexi_II_hard_1x1_2",
+				0,
+				17
+			},
+			{
+				7,
+				1,
+				"xinzexi_II_hard_1x1_3",
+				0,
+				0
+			},
+			{
+				6,
+				8,
+				"xinzexi_II_hard_2x2_1",
+				44,
+				-24
+			},
+			{
+				4,
+				7,
+				"xinzexi_II_hard_1x1_1",
+				0,
+				0
+			},
+			{
+				4,
+				3,
+				"xinzexi_II_hard_2x2_2",
+				-48,
+				-27
+			},
+			{
+				3,
+				9,
+				"xinzexi_II_hard_1x1_3",
+				0,
+				0
+			},
+			{
+				2,
+				5,
+				"xinzexi_II_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				2,
+				0,
+				"xinzexi_II_hard_1x2_2",
+				11,
+				27
+			},
+			{
+				0,
+				9,
+				"xinzexi_II_hard_1x2_1",
+				0,
+				-38
+			},
+			{
+				0,
+				8,
+				"xinzexi_II_hard_1x1_2",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinzexi_II_hard",
+			45,
+			20,
+			-156,
+			-93,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"JINGWEILUOXUAN20",
+			"JINGWEILUOXUAN21"
+		},
+		defeat_story_count = {
+			1,
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {
+			8874,
+			8877
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	}
+	uv0.chapter_template[1520025] = {
+		pos_x = "0.28671875",
+		num_3 = 1,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "JINGWEILUOXUAN23",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 1430,
+		best_air_dominance = 1860,
+		id = 1520025,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1520024,
+		formation = 1520012,
+		bgm = "deepblue-image",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.122916667",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 40,
+		is_ai = 1,
+		map = 1520012,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "道を開こう",
+		chapter_name = "D2",
+		type = 2,
+		act_id = 998,
+		enter_story = "JINGWEILUOXUAN22",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "指揮官の場所へと急行する艦船たち。彼女たちを待ち受けているのは不可視の包囲網だった",
+		difficulty = 9,
+		avoid_ratio = 15,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					"hang",
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					"fanqian",
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				95
+			},
+			{
+				"air",
+				1,
+				1350
+			},
+			{
+				"antiaircraft",
+				1,
+				2200
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1523101,
+				15,
+				0
+			},
+			{
+				1523102,
+				20,
+				0
+			},
+			{
+				1523103,
+				30,
+				1
+			},
+			{
+				1523104,
+				15,
+				0
+			},
+			{
+				1523105,
+				20,
+				0
+			},
+			{
+				1523106,
+				30,
+				1
+			},
+			{
+				1523107,
+				15,
+				0
+			},
+			{
+				1523108,
+				20,
+				0
+			},
+			{
+				1523109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1523105,
+			1523108
+		},
+		ai_expedition_list = {
+			1523304,
+			1523305,
+			1523306
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1523113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenhangmu"
+		},
+		awards = {
+			{
+				2,
+				58234
+			},
+			{
+				2,
+				58222
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				1
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				12
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				1
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				12
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				16
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				8
+			},
+			{
+				3,
+				2,
+				true,
+				12
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				4
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				4
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				12
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				9,
+				"xinzexi_II_hard_1x1_1",
+				-1,
+				16
+			},
+			{
+				7,
+				1,
+				"xinzexi_II_hard_3x1_1",
+				4,
+				3
+			},
+			{
+				6,
+				6,
+				"xinzexi_II_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				6,
+				5,
+				"xinzexi_II_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				5,
+				1,
+				"xinzexi_II_hard_1x1_3",
+				0,
+				-14
+			},
+			{
+				3,
+				8,
+				"xinzexi_II_hard_1x2_1",
+				0,
+				-35
+			},
+			{
+				3,
+				1,
+				"xinzexi_II_hard_1x2_1",
+				0,
+				-29
+			},
+			{
+				2,
+				8,
+				"xinzexi_II_hard_1x1_3",
+				0,
+				0
+			},
+			{
+				1,
+				4,
+				"xinzexi_II_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				1,
+				3,
+				"xinzexi_II_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				8,
+				"xinzexi_II_hard_3x1_1",
+				-14,
+				0
+			},
+			{
+				0,
+				0,
+				"xinzexi_II_hard_2x2_1",
+				67,
+				-34
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinzexi_II_hard",
+			45,
+			20,
+			-446,
+			77,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"JINGWEILUOXUAN24",
+			"JINGWEILUOXUAN25"
+		},
+		defeat_story_count = {
+			1,
+			5
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {
+			8874,
+			8877
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	}
+	uv0.chapter_template[1520026] = {
+		pos_x = "0.67109375",
+		num_3 = 1,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 1,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "JINGWEILUOXUAN27",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 1620,
+		best_air_dominance = 2105,
+		id = 1520026,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1520025,
+		formation = 1520012,
+		bgm = "deepblue-image",
+		chapter_tag = 0,
+		star_require_1 = 1,
+		pos_y = "0.35625",
+		pop_pic = "",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 40,
+		is_ai = 1,
+		map = 1520012,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "さまよえるもの",
+		chapter_name = "D3",
+		type = 2,
+		act_id = 998,
+		enter_story = "JINGWEILUOXUAN26",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "指揮官と再会し、鏡面海域の脱出を図るニュージャージー。制御装置を守る最後の敵は、今まで遭遇したことのない「フネ」だった",
+		difficulty = 10,
+		avoid_ratio = 16,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					"hang",
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					"fanqian",
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				100
+			},
+			{
+				"air",
+				1,
+				1700
+			},
+			{
+				"dodge",
+				1,
+				800
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1523201,
+				15,
+				0
+			},
+			{
+				1523202,
+				20,
+				0
+			},
+			{
+				1523203,
+				30,
+				1
+			},
+			{
+				1523204,
+				15,
+				0
+			},
+			{
+				1523205,
+				20,
+				0
+			},
+			{
+				1523206,
+				30,
+				1
+			},
+			{
+				1523207,
+				15,
+				0
+			},
+			{
+				1523208,
+				20,
+				0
+			},
+			{
+				1523209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1523205,
+			1523208
+		},
+		ai_expedition_list = {
+			1523307,
+			1523308,
+			1523309
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1523213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"canglong_alter"
+		},
+		awards = {
+			{
+				2,
+				58235
+			},
+			{
+				2,
+				58223
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				1
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				1
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				4
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				4
+			},
+			{
+				7,
+				0,
+				true,
+				6
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				12
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				12
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				12
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				4
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				12
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				4
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				4
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				8
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				8,
+				"xinzexi_II_hard_1x1_3",
+				-5,
+				6
+			},
+			{
+				8,
+				0,
+				"xinzexi_II_hard_1x1_3",
+				5,
+				6
+			},
+			{
+				7,
+				5,
+				"xinzexi_II_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				7,
+				3,
+				"xinzexi_II_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				4,
+				6,
+				"xinzexi_II_hard_2x2_2",
+				51,
+				-24
+			},
+			{
+				4,
+				1,
+				"xinzexi_II_hard_2x2_2",
+				51,
+				-24
+			},
+			{
+				2,
+				4,
+				"xinzexi_II_hard_1x1_1",
+				0,
+				0
+			},
+			{
+				1,
+				7,
+				"xinzexi_II_hard_3x1_1",
+				0,
+				0
+			},
+			{
+				1,
+				1,
+				"xinzexi_II_hard_3x1_1",
+				0,
+				0
+			},
+			{
+				0,
+				8,
+				"xinzexi_II_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				"xinzexi_II_hard_1x1_2",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinzexi_II_hard",
+			45,
+			20,
+			-221,
+			191,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"JINGWEILUOXUAN29",
+			"JINGWEILUOXUAN30",
+			"JINGWEILUOXUAN31",
+			"JINGWEILUOXUAN32",
+			"JINGWEILUOXUAN33"
+		},
+		defeat_story_count = {
+			1,
+			2,
+			5,
+			6,
+			7
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {
+			8874,
+			8877,
+			8882
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	}
+	uv0.chapter_template[1520041] = {
+		pos_x = "0.479",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 10,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 2235,
+		best_air_dominance = 2905,
+		id = 1520041,
+		count = 1,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1520026,
+		formation = 1520025,
+		bgm = "Beverly_short_eng",
+		chapter_tag = 0,
+		star_require_1 = 0,
+		pos_y = "0.2979",
+		pop_pic = "",
+		num_1 = 0,
+		model = 2,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 0,
+		is_ai = 0,
+		map = 1520025,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "チャージングウィング",
+		chapter_name = "SP",
+		type = 2,
+		act_id = 998,
+		enter_story = "",
+		boss_refresh = 7,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "唸れチャージングウィング！吠えろドラゴンバスター！立ちはだかる敵はあたしが倒す！…こういうの好きなんでしょ♪",
+		difficulty = 10,
+		avoid_ratio = 16,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				110
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1524001,
+				15,
+				0
+			},
+			{
+				1524002,
+				20,
+				0
+			},
+			{
+				1524003,
+				30,
+				1
+			},
+			{
+				1524004,
+				15,
+				0
+			},
+			{
+				1524005,
+				20,
+				0
+			},
+			{
+				1524006,
+				30,
+				1
+			},
+			{
+				1524007,
+				15,
+				0
+			},
+			{
+				1524008,
+				20,
+				0
+			},
+			{
+				1524009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1524301,
+			1524302,
+			1524303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1524013
+		},
+		enemy_refresh = {
+			4
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			3
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"canglong_alter"
+		},
+		awards = {
+			{
+				2,
+				58238
+			},
+			{
+				2,
+				58236
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				1
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				1
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				16
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				12
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				12
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				12
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				8
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				6,
+				"xinzexi_II_hard_1x1_2",
+				0,
+				26
+			},
+			{
+				7,
+				4,
+				"xinzexi_II_hard_1x1_3",
+				0,
+				0
+			},
+			{
+				7,
+				2,
+				"xinzexi_II_hard_1x1_2",
+				0,
+				26
+			},
+			{
+				6,
+				8,
+				"xinzexi_II_hard_2x2_1",
+				-64,
+				-19
+			},
+			{
+				6,
+				0,
+				"xinzexi_II_hard_2x2_1",
+				64,
+				-19
+			},
+			{
+				5,
+				5,
+				"xinzexi_II_hard_1x1_3",
+				0,
+				0
+			},
+			{
+				5,
+				3,
+				"xinzexi_II_hard_1x1_3",
+				0,
+				0
+			},
+			{
+				4,
+				8,
+				"xinzexi_II_hard_1x1_1",
+				0,
+				9
+			},
+			{
+				4,
+				0,
+				"xinzexi_II_hard_1x1_1",
+				0,
+				9
+			},
+			{
+				3,
+				5,
+				"xinzexi_II_hard_2x2_2",
+				52,
+				-25
+			},
+			{
+				3,
+				2,
+				"xinzexi_II_hard_2x2_2",
+				52,
+				-25
+			},
+			{
+				2,
+				5,
+				"xinzexi_II_hard_1x1_3",
+				0,
+				8
+			},
+			{
+				2,
+				3,
+				"xinzexi_II_hard_1x1_3",
+				0,
+				8
+			},
+			{
+				1,
+				7,
+				"xinzexi_II_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				1,
+				1,
+				"xinzexi_II_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				7,
+				"xinzexi_II_hard_3x1_1",
+				0,
+				0
+			},
+			{
+				0,
+				1,
+				"xinzexi_II_hard_3x1_1",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinzexi_II_hard",
+			45,
+			20,
+			-241,
+			101,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {
+			8874,
+			8877,
+			8884
+		},
+		wall_prefab = {},
+		alarm_cell = {}
+	}
+	uv0.chapter_template[1520051] = {
+		pos_x = "0.479",
+		num_3 = 0,
+		progress_boss = 100,
+		oil = 0,
+		is_limit_move = 0,
+		mine_id = 2001,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		special_operation_list = "",
+		air_dominance = 620,
+		best_air_dominance = 810,
+		id = 1520051,
+		count = 0,
+		icon_outline = 0,
+		bg = "",
+		pre_chapter = 1520041,
+		formation = 1520026,
+		bgm = "Beverly_short_eng",
+		chapter_tag = 0,
+		star_require_1 = 0,
+		pos_y = "0.2979",
+		pop_pic = "",
+		num_1 = 0,
+		model = 5,
+		investigation_ratio = 0,
+		ammo_submarine = 0,
+		num_2 = 0,
+		is_ai = 0,
+		map = 1520026,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		ItemTransformPattern = "",
+		name = "螺旋の鏡",
+		chapter_name = "EXTRA",
+		type = 2,
+		act_id = 998,
+		enter_story = "",
+		boss_refresh = 0,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		group_num = 1,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "私たちを縛りしものは運命の螺旋、私たちを定めしものは水面の鏡。絶望と希望、映し合うか、絡み合うか――",
+		difficulty = 10,
+		avoid_ratio = 17,
+		star_require_2 = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					2,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1525001
+		},
+		enemy_refresh = {
+			0
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"canglong_alter"
+		},
+		awards = {},
+		grids = {
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				1
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				8
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				3,
+				"xinzexi_II_hard_1x1_1",
+				0,
+				16
+			},
+			{
+				6,
+				1,
+				"xinzexi_II_hard_1x1_1",
+				0,
+				16
+			},
+			{
+				5,
+				4,
+				"xinzexi_II_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				5,
+				0,
+				"xinzexi_II_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				3,
+				3,
+				"xinzexi_II_hard_1x2_2",
+				0,
+				-54
+			},
+			{
+				3,
+				1,
+				"xinzexi_II_hard_1x2_2",
+				0,
+				-54
+			},
+			{
+				2,
+				4,
+				"xinzexi_II_hard_1x2_1",
+				0,
+				-38
+			},
+			{
+				2,
+				0,
+				"xinzexi_II_hard_1x2_1",
+				0,
+				-38
+			},
+			{
+				0,
+				4,
+				"xinzexi_II_hard_2x2_1",
+				-67,
+				-36
+			},
+			{
+				0,
+				2,
+				"xinzexi_II_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				"xinzexi_II_hard_2x2_1",
+				67,
+				-36
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_xinzexi_II_hard",
+			45,
+			20,
+			-40,
+			-39,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	}
+	uv0.chapter_template[2100001] = {
 		pos_x = "0.33125",
 		num_3 = 1,
 		progress_boss = 50,
@@ -317857,8 +328749,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100002] = {
+	}
+	uv0.chapter_template[2100002] = {
 		pos_x = "0.56328125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -318457,8 +329349,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100003] = {
+	}
+	uv0.chapter_template[2100003] = {
 		pos_x = "0.690625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -319124,8 +330016,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100004] = {
+	}
+	uv0.chapter_template[2100004] = {
 		pos_x = "0.26875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -319741,8 +330633,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100005] = {
+	}
+	uv0.chapter_template[2100005] = {
 		pos_x = "0.6703125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -320460,8 +331352,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100006] = {
+	}
+	uv0.chapter_template[2100006] = {
 		pos_x = "0.5421875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -321174,8 +332066,10 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100011] = {
+	}
+end()
+function ()
+	uv0.chapter_template[2100011] = {
 		pos_x = "0.33125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -321758,8 +332652,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100012] = {
+	}
+	uv0.chapter_template[2100012] = {
 		pos_x = "0.56328125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -322399,8 +333293,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100013] = {
+	}
+	uv0.chapter_template[2100013] = {
 		pos_x = "0.690625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -323108,8 +334002,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100014] = {
+	}
+	uv0.chapter_template[2100014] = {
 		pos_x = "0.26875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -323767,8 +334661,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100015] = {
+	}
+	uv0.chapter_template[2100015] = {
 		pos_x = "0.6703125",
 		num_3 = 1,
 		progress_boss = 20,
@@ -324528,8 +335422,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100016] = {
+	}
+	uv0.chapter_template[2100016] = {
 		pos_x = "0.5421875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -325283,8 +336177,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100021] = {
+	}
+	uv0.chapter_template[2100021] = {
 		pos_x = "0.15703125",
 		num_3 = 1,
 		progress_boss = 100,
@@ -325777,8 +336671,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100022] = {
+	}
+	uv0.chapter_template[2100022] = {
 		pos_x = "0.50546875",
 		num_3 = 1,
 		progress_boss = 50,
@@ -326333,8 +337227,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100023] = {
+	}
+	uv0.chapter_template[2100023] = {
 		pos_x = "0.635546875",
 		num_3 = 1,
 		progress_boss = 34,
@@ -326979,8 +337873,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100024] = {
+	}
+	uv0.chapter_template[2100024] = {
 		pos_x = "0.121875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -327648,8 +338542,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100025] = {
+	}
+	uv0.chapter_template[2100025] = {
 		pos_x = "0.57734375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -328335,8 +339229,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100026] = {
+	}
+	uv0.chapter_template[2100026] = {
 		pos_x = "0.621875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -329197,8 +340091,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100031] = {
+	}
+	uv0.chapter_template[2100031] = {
 		pos_x = "0.15703125",
 		num_3 = 1,
 		progress_boss = 100,
@@ -329732,8 +340626,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100032] = {
+	}
+	uv0.chapter_template[2100032] = {
 		pos_x = "0.50546875",
 		num_3 = 1,
 		progress_boss = 50,
@@ -330329,8 +341223,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100033] = {
+	}
+	uv0.chapter_template[2100033] = {
 		pos_x = "0.635546875",
 		num_3 = 1,
 		progress_boss = 34,
@@ -331016,8 +341910,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100034] = {
+	}
+	uv0.chapter_template[2100034] = {
 		pos_x = "0.121875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -331726,8 +342620,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100035] = {
+	}
+	uv0.chapter_template[2100035] = {
 		pos_x = "0.57734375",
 		num_3 = 1,
 		progress_boss = 20,
@@ -332454,8 +343348,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100036] = {
+	}
+	uv0.chapter_template[2100036] = {
 		pos_x = "0.621875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -333357,8 +344251,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100041] = {
+	}
+	uv0.chapter_template[2100041] = {
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 50,
@@ -333912,8 +344806,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100042] = {
+	}
+	uv0.chapter_template[2100042] = {
 		pos_x = "0.2375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -334607,8 +345501,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100043] = {
+	}
+	uv0.chapter_template[2100043] = {
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -335269,8 +346163,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100044] = {
+	}
+	uv0.chapter_template[2100044] = {
 		pos_x = "0.68515625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -336049,8 +346943,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100045] = {
+	}
+	uv0.chapter_template[2100045] = {
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -336624,8 +347518,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100046] = {
+	}
+	uv0.chapter_template[2100046] = {
 		pos_x = "0.67578125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -337207,8 +348101,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100047] = {
+	}
+	uv0.chapter_template[2100047] = {
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -337845,8 +348739,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100048] = {
+	}
+	uv0.chapter_template[2100048] = {
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -338639,8 +349533,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100051] = {
+	}
+	uv0.chapter_template[2100051] = {
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -339235,8 +350129,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100052] = {
+	}
+	uv0.chapter_template[2100052] = {
 		pos_x = "0.2375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -339973,8 +350867,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100053] = {
+	}
+	uv0.chapter_template[2100053] = {
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -340676,8 +351570,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100054] = {
+	}
+	uv0.chapter_template[2100054] = {
 		pos_x = "0.68515625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -341497,8 +352391,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100055] = {
+	}
+	uv0.chapter_template[2100055] = {
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 20,
@@ -342113,8 +353007,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100056] = {
+	}
+	uv0.chapter_template[2100056] = {
 		pos_x = "0.67578125",
 		num_3 = 1,
 		progress_boss = 20,
@@ -342737,8 +353631,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100057] = {
+	}
+	uv0.chapter_template[2100057] = {
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -343416,8 +354310,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100058] = {
+	}
+	uv0.chapter_template[2100058] = {
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 17,
@@ -344251,8 +355145,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100061] = {
+	}
+	uv0.chapter_template[2100061] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 100,
@@ -344837,8 +355731,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100062] = {
+	}
+	uv0.chapter_template[2100062] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 50,
@@ -345481,8 +356375,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100063] = {
+	}
+	uv0.chapter_template[2100063] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -346216,8 +357110,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100064] = {
+	}
+	uv0.chapter_template[2100064] = {
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -346889,8 +357783,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100065] = {
+	}
+	uv0.chapter_template[2100065] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -347703,8 +358597,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100066] = {
+	}
+	uv0.chapter_template[2100066] = {
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -348696,8 +359590,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100071] = {
+	}
+	uv0.chapter_template[2100071] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 100,
@@ -349323,8 +360217,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100072] = {
+	}
+	uv0.chapter_template[2100072] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 50,
@@ -350008,8 +360902,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100073] = {
+	}
+	uv0.chapter_template[2100073] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -350784,8 +361678,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100074] = {
+	}
+	uv0.chapter_template[2100074] = {
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -351498,8 +362392,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100075] = {
+	}
+	uv0.chapter_template[2100075] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -352353,8 +363247,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100076] = {
+	}
+	uv0.chapter_template[2100076] = {
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -353387,8 +364281,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100081] = {
+	}
+	uv0.chapter_template[2100081] = {
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 50,
@@ -353934,8 +364828,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100082] = {
+	}
+	uv0.chapter_template[2100082] = {
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -354587,8 +365481,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100083] = {
+	}
+	uv0.chapter_template[2100083] = {
 		pos_x = "0.3813",
 		num_3 = 1,
 		progress_boss = 34,
@@ -355352,8 +366246,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100084] = {
+	}
+	uv0.chapter_template[2100084] = {
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -355912,8 +366806,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100085] = {
+	}
+	uv0.chapter_template[2100085] = {
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -356577,8 +367471,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100086] = {
+	}
+	uv0.chapter_template[2100086] = {
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -357368,8 +368262,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100091] = {
+	}
+	uv0.chapter_template[2100091] = {
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -357956,8 +368850,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100092] = {
+	}
+	uv0.chapter_template[2100092] = {
 		pos_x = "0.62109375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -358650,8 +369544,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100093] = {
+	}
+	uv0.chapter_template[2100093] = {
 		pos_x = "0.3813",
 		num_3 = 1,
 		progress_boss = 25,
@@ -359456,8 +370350,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100094] = {
+	}
+	uv0.chapter_template[2100094] = {
 		pos_x = "0.228125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -360057,8 +370951,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100095] = {
+	}
+	uv0.chapter_template[2100095] = {
 		pos_x = "0.31640625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -360765,8 +371659,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100096] = {
+	}
+	uv0.chapter_template[2100096] = {
 		pos_x = "0.55625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -361599,8 +372493,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100101] = {
+	}
+	uv0.chapter_template[2100101] = {
 		pos_x = "0.19375",
 		num_3 = 1,
 		progress_boss = 50,
@@ -362201,8 +373095,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[2100102] = {
+	}
+	uv0.chapter_template[2100102] = {
 		pos_x = "0.2703125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -362768,8 +373662,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[2100103] = {
+	}
+	uv0.chapter_template[2100103] = {
 		pos_x = "0.68984375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -363433,8 +374327,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[2100104] = {
+	}
+	uv0.chapter_template[2100104] = {
 		pos_x = "0.6109375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -364097,8 +374991,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[2100105] = {
+	}
+	uv0.chapter_template[2100105] = {
 		pos_x = "0.26015625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -364812,8 +375706,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[2100106] = {
+	}
+	uv0.chapter_template[2100106] = {
 		pos_x = "0.6453125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -365587,8 +376481,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[2100111] = {
+	}
+	uv0.chapter_template[2100111] = {
 		pos_x = "0.19375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -366231,8 +377125,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100112] = {
+	}
+	uv0.chapter_template[2100112] = {
 		pos_x = "0.2703125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -366840,8 +377734,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100113] = {
+	}
+	uv0.chapter_template[2100113] = {
 		pos_x = "0.68984375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -367547,8 +378441,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100114] = {
+	}
+	uv0.chapter_template[2100114] = {
 		pos_x = "0.6109375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -368253,8 +379147,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100115] = {
+	}
+	uv0.chapter_template[2100115] = {
 		pos_x = "0.26015625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -369012,8 +379906,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100116] = {
+	}
+	uv0.chapter_template[2100116] = {
 		pos_x = "0.6453125",
 		num_3 = 1,
 		progress_boss = 20,
@@ -369831,8 +380725,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100121] = {
+	}
+	uv0.chapter_template[2100121] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
@@ -370428,8 +381322,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100122] = {
+	}
+	uv0.chapter_template[2100122] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -370996,8 +381890,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100123] = {
+	}
+	uv0.chapter_template[2100123] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -371660,8 +382554,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100124] = {
+	}
+	uv0.chapter_template[2100124] = {
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -372326,8 +383220,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100125] = {
+	}
+	uv0.chapter_template[2100125] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -373035,8 +383929,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100126] = {
+	}
+	uv0.chapter_template[2100126] = {
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -373718,8 +384612,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100131] = {
+	}
+	uv0.chapter_template[2100131] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -374357,8 +385251,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100132] = {
+	}
+	uv0.chapter_template[2100132] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -374967,8 +385861,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100133] = {
+	}
+	uv0.chapter_template[2100133] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -375673,8 +386567,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100134] = {
+	}
+	uv0.chapter_template[2100134] = {
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -376381,8 +387275,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100135] = {
+	}
+	uv0.chapter_template[2100135] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -377134,8 +388028,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100136] = {
+	}
+	uv0.chapter_template[2100136] = {
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 20,
@@ -377861,8 +388755,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2100141] = {
+	}
+	uv0.chapter_template[2100141] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 50,
@@ -378428,8 +389322,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[2100142] = {
+	}
+	uv0.chapter_template[2100142] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -378997,8 +389891,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[2100143] = {
+	}
+	uv0.chapter_template[2100143] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -379651,8 +390545,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[2100144] = {
+	}
+	uv0.chapter_template[2100144] = {
 		pos_x = "0.23125",
 		num_3 = 1,
 		progress_boss = 25,
@@ -380315,8 +391209,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[2100145] = {
+	}
+	uv0.chapter_template[2100145] = {
 		pos_x = "0.5390625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -381022,8 +391916,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[2100146] = {
+	}
+	uv0.chapter_template[2100146] = {
 		pos_x = "0.6140625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -381701,8 +392595,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[2100151] = {
+	}
+	uv0.chapter_template[2100151] = {
 		pos_x = "0.2515625",
 		num_3 = 1,
 		progress_boss = 34,
@@ -382310,8 +393204,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[2100152] = {
+	}
+	uv0.chapter_template[2100152] = {
 		pos_x = "0.38203125",
 		num_3 = 1,
 		progress_boss = 34,
@@ -382921,8 +393815,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[2100153] = {
+	}
+	uv0.chapter_template[2100153] = {
 		pos_x = "0.665625",
 		num_3 = 1,
 		progress_boss = 25,
@@ -383617,8 +394511,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[2100154] = {
+	}
+	uv0.chapter_template[2100154] = {
 		pos_x = "0.14609375",
 		num_3 = 1,
 		progress_boss = 25,
@@ -384323,8 +395217,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[2100155] = {
+	}
+	uv0.chapter_template[2100155] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -385074,8 +395968,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[2100156] = {
+	}
+	uv0.chapter_template[2100156] = {
 		pos_x = "0.6046875",
 		num_3 = 1,
 		progress_boss = 20,
@@ -385797,8 +396691,8 @@ pg.chapter_template = {
 		},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[2200001] = {
+	}
+	uv0.chapter_template[2200001] = {
 		pos_x = "0.35625",
 		num_3 = 1,
 		progress_boss = 100,
@@ -386208,8 +397102,8 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2200002] = {
+	}
+	uv0.chapter_template[2200002] = {
 		pos_x = "0.58203125",
 		num_3 = 1,
 		progress_boss = 42,
@@ -386694,8 +397588,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2200003] = {
+	}
+	uv0.chapter_template[2200003] = {
 		pos_x = "0.44921875",
 		num_3 = 1,
 		progress_boss = 28,
@@ -387210,8 +398104,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2200011] = {
+	}
+	uv0.chapter_template[2200011] = {
 		pos_x = "0.7046875",
 		num_3 = 1,
 		progress_boss = 35,
@@ -387795,8 +398689,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2200012] = {
+	}
+	uv0.chapter_template[2200012] = {
 		pos_x = "0.44375",
 		num_3 = 1,
 		progress_boss = 28,
@@ -388479,8 +399373,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2200013] = {
+	}
+	uv0.chapter_template[2200013] = {
 		pos_x = "0.2953125",
 		num_3 = 1,
 		progress_boss = 22,
@@ -389221,8 +400115,10 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2200021] = {
+	}
+end()
+function ()
+	uv0.chapter_template[2200021] = {
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -389916,8 +400812,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[2200022] = {
+	}
+	uv0.chapter_template[2200022] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -390624,8 +401520,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[2200023] = {
+	}
+	uv0.chapter_template[2200023] = {
 		pos_x = "0.6375",
 		num_3 = 1,
 		progress_boss = 20,
@@ -391340,8 +402236,8 @@ pg.chapter_template = {
 		chapter_buff = {},
 		wall_prefab = {},
 		alarm_cell = {}
-	},
-	[2200031] = {
+	}
+	uv0.chapter_template[2200031] = {
 		pos_x = "0.20234375",
 		num_3 = 1,
 		progress_boss = 34,
@@ -391852,8 +402748,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2200032] = {
+	}
+	uv0.chapter_template[2200032] = {
 		pos_x = "0.28671875",
 		num_3 = 1,
 		progress_boss = 25,
@@ -392425,8 +403321,8 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	[2200033] = {
+	}
+	uv0.chapter_template[2200033] = {
 		pos_x = "0.6375",
 		num_3 = 1,
 		progress_boss = 20,
@@ -393036,599 +403932,614 @@ pg.chapter_template = {
 		},
 		chapter_buff = {},
 		alarm_cell = {}
-	},
-	all = {
-		101,
-		102,
-		103,
-		104,
-		201,
-		202,
-		203,
-		204,
-		301,
-		302,
-		303,
-		304,
-		305,
-		401,
-		402,
-		403,
-		404,
-		405,
-		501,
-		502,
-		503,
-		504,
-		505,
-		601,
-		602,
-		603,
-		604,
-		605,
-		701,
-		702,
-		703,
-		704,
-		705,
-		801,
-		802,
-		803,
-		804,
-		805,
-		901,
-		902,
-		903,
-		904,
-		905,
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1101,
-		1102,
-		1103,
-		1104,
-		1201,
-		1202,
-		1203,
-		1204,
-		1301,
-		1302,
-		1303,
-		1304,
-		10000,
-		10001,
-		10002,
-		10101,
-		10102,
-		10103,
-		10104,
-		10201,
-		10202,
-		10203,
-		10204,
-		10301,
-		10302,
-		10303,
-		10304,
-		10401,
-		10402,
-		10403,
-		10404,
-		10501,
-		10502,
-		10503,
-		10504,
-		10601,
-		10602,
-		10603,
-		10604,
-		10701,
-		10702,
-		10703,
-		10704,
-		10801,
-		10802,
-		10803,
-		10804,
-		10901,
-		10902,
-		10903,
-		10904,
-		11001,
-		11002,
-		11003,
-		11004,
-		11101,
-		11102,
-		11103,
-		11104,
-		20001,
-		20002,
-		20003,
-		20004,
-		20005,
-		20006,
-		20007,
-		20008,
-		20009,
-		20010,
-		20011,
-		20012,
-		1000001,
-		1000002,
-		1000003,
-		1000004,
-		1000005,
-		1000006,
-		1000007,
-		1000008,
-		1000011,
-		1000012,
-		1000013,
-		1000014,
-		1000015,
-		1000016,
-		1000017,
-		1000018,
-		1050011,
-		1050012,
-		1050013,
-		1070101,
-		1070102,
-		1070103,
-		1070201,
-		1070202,
-		1070203,
-		1080001,
-		1080002,
-		1080003,
-		1080004,
-		1080005,
-		1090001,
-		1090002,
-		1090003,
-		1090004,
-		1090005,
-		1090006,
-		1090011,
-		1090012,
-		1090013,
-		1090014,
-		1090015,
-		1090016,
-		1090017,
-		1100001,
-		1100002,
-		1100003,
-		1100004,
-		1100005,
-		1100006,
-		1100011,
-		1100012,
-		1100013,
-		1100014,
-		1100015,
-		1100016,
-		1100020,
-		1110001,
-		1110002,
-		1110003,
-		1110004,
-		1110005,
-		1110006,
-		1110011,
-		1110012,
-		1110013,
-		1110014,
-		1110015,
-		1110016,
-		1110021,
-		1120001,
-		1120002,
-		1120003,
-		1120004,
-		1120005,
-		1120006,
-		1120007,
-		1120008,
-		1120011,
-		1120012,
-		1120013,
-		1120014,
-		1120015,
-		1120016,
-		1120017,
-		1120018,
-		1120021,
-		1130001,
-		1130002,
-		1130003,
-		1130101,
-		1130102,
-		1130103,
-		1140001,
-		1140003,
-		1140004,
-		1140005,
-		1140007,
-		1140008,
-		1140011,
-		1140013,
-		1140014,
-		1140015,
-		1140017,
-		1140018,
-		1140021,
-		1150001,
-		1150002,
-		1150003,
-		1150004,
-		1150005,
-		1150006,
-		1150011,
-		1150012,
-		1150013,
-		1150014,
-		1150015,
-		1150016,
-		1150021,
-		1160001,
-		1160002,
-		1160003,
-		1160004,
-		1160005,
-		1170001,
-		1170002,
-		1170003,
-		1180001,
-		1180002,
-		1180003,
-		1180004,
-		1180005,
-		1180006,
-		1180011,
-		1180012,
-		1180013,
-		1180014,
-		1180015,
-		1180016,
-		1180021,
-		1250031,
-		1250032,
-		1250033,
-		1250034,
-		1310001,
-		1310002,
-		1310003,
-		1310004,
-		1310005,
-		1310006,
-		1310021,
-		1310022,
-		1310023,
-		1310024,
-		1310025,
-		1310026,
-		1310041,
-		1310051,
-		1320001,
-		1320002,
-		1320003,
-		1330001,
-		1330002,
-		1330003,
-		1330004,
-		1330005,
-		1330006,
-		1330021,
-		1330022,
-		1330023,
-		1330024,
-		1330025,
-		1330026,
-		1330041,
-		1330051,
-		1340001,
-		1340002,
-		1340003,
-		1340004,
-		1340005,
-		1340006,
-		1340011,
-		1340012,
-		1340013,
-		1340014,
-		1340015,
-		1340016,
-		1340021,
-		1350001,
-		1350002,
-		1350003,
-		1360001,
-		1360002,
-		1360003,
-		1360004,
-		1360005,
-		1360006,
-		1360021,
-		1360022,
-		1360023,
-		1360024,
-		1360025,
-		1360026,
-		1360041,
-		1360051,
-		1370001,
-		1370002,
-		1370003,
-		1380001,
-		1380002,
-		1380003,
-		1380004,
-		1380005,
-		1380006,
-		1380021,
-		1380022,
-		1380023,
-		1380024,
-		1380025,
-		1380026,
-		1380041,
-		1380051,
-		1390001,
-		1390002,
-		1390003,
-		1400001,
-		1400002,
-		1400003,
-		1400004,
-		1400005,
-		1400006,
-		1400011,
-		1400012,
-		1400013,
-		1400014,
-		1400015,
-		1400016,
-		1400017,
-		1400021,
-		1410001,
-		1410002,
-		1410003,
-		1410004,
-		1410005,
-		1410006,
-		1410007,
-		1410008,
-		1410021,
-		1410022,
-		1410023,
-		1410024,
-		1410025,
-		1410026,
-		1410027,
-		1410028,
-		1410041,
-		1410051,
-		1420001,
-		1420002,
-		1420003,
-		1430001,
-		1430002,
-		1430003,
-		1430004,
-		1430005,
-		1430041,
-		1430051,
-		1440001,
-		1440002,
-		1440003,
-		1440004,
-		1450001,
-		1450002,
-		1450003,
-		1450004,
-		1450041,
-		1450051,
-		1460001,
-		1460002,
-		1460003,
-		1460004,
-		1460005,
-		1460006,
-		1460021,
-		1460022,
-		1460023,
-		1460024,
-		1460025,
-		1460026,
-		1460041,
-		1460051,
-		1470001,
-		1470002,
-		1470003,
-		1470004,
-		1470005,
-		1470006,
-		1470007,
-		1470008,
-		1470021,
-		1470022,
-		1470023,
-		1470024,
-		1470025,
-		1470026,
-		1470027,
-		1470028,
-		1470031,
-		1470041,
-		1480001,
-		1480002,
-		1480003,
-		1480004,
-		1480005,
-		1480006,
-		1480021,
-		1480022,
-		1480023,
-		1480024,
-		1480025,
-		1480026,
-		1480041,
-		1480051,
-		1490001,
-		1490002,
-		1490003,
-		1490004,
-		1490005,
-		1490006,
-		1490007,
-		1490008,
-		1490009,
-		1490010,
-		1490011,
-		1490012,
-		1490013,
-		1490014,
-		1490015,
-		1490016,
-		1490017,
-		1490021,
-		1490022,
-		1490023,
-		1490024,
-		1490025,
-		1500001,
-		1500002,
-		1500003,
-		1500004,
-		1500005,
-		1500006,
-		1500021,
-		1500022,
-		1500023,
-		1500024,
-		1500025,
-		1500026,
-		1500041,
-		1500051,
-		1510001,
-		1510002,
-		1510003,
-		2100001,
-		2100002,
-		2100003,
-		2100004,
-		2100005,
-		2100006,
-		2100011,
-		2100012,
-		2100013,
-		2100014,
-		2100015,
-		2100016,
-		2100021,
-		2100022,
-		2100023,
-		2100024,
-		2100025,
-		2100026,
-		2100031,
-		2100032,
-		2100033,
-		2100034,
-		2100035,
-		2100036,
-		2100041,
-		2100042,
-		2100043,
-		2100044,
-		2100045,
-		2100046,
-		2100047,
-		2100048,
-		2100051,
-		2100052,
-		2100053,
-		2100054,
-		2100055,
-		2100056,
-		2100057,
-		2100058,
-		2100061,
-		2100062,
-		2100063,
-		2100064,
-		2100065,
-		2100066,
-		2100071,
-		2100072,
-		2100073,
-		2100074,
-		2100075,
-		2100076,
-		2100081,
-		2100082,
-		2100083,
-		2100084,
-		2100085,
-		2100086,
-		2100091,
-		2100092,
-		2100093,
-		2100094,
-		2100095,
-		2100096,
-		2100101,
-		2100102,
-		2100103,
-		2100104,
-		2100105,
-		2100106,
-		2100111,
-		2100112,
-		2100113,
-		2100114,
-		2100115,
-		2100116,
-		2100121,
-		2100122,
-		2100123,
-		2100124,
-		2100125,
-		2100126,
-		2100131,
-		2100132,
-		2100133,
-		2100134,
-		2100135,
-		2100136,
-		2100141,
-		2100142,
-		2100143,
-		2100144,
-		2100145,
-		2100146,
-		2100151,
-		2100152,
-		2100153,
-		2100154,
-		2100155,
-		2100156,
-		2200001,
-		2200002,
-		2200003,
-		2200011,
-		2200012,
-		2200013,
-		2200021,
-		2200022,
-		2200023,
-		2200031,
-		2200032,
-		2200033
 	}
+end()
+
+slot0.chapter_template.all = {
+	101,
+	102,
+	103,
+	104,
+	201,
+	202,
+	203,
+	204,
+	301,
+	302,
+	303,
+	304,
+	305,
+	401,
+	402,
+	403,
+	404,
+	405,
+	501,
+	502,
+	503,
+	504,
+	505,
+	601,
+	602,
+	603,
+	604,
+	605,
+	701,
+	702,
+	703,
+	704,
+	705,
+	801,
+	802,
+	803,
+	804,
+	805,
+	901,
+	902,
+	903,
+	904,
+	905,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1101,
+	1102,
+	1103,
+	1104,
+	1201,
+	1202,
+	1203,
+	1204,
+	1301,
+	1302,
+	1303,
+	1304,
+	10000,
+	10001,
+	10002,
+	10101,
+	10102,
+	10103,
+	10104,
+	10201,
+	10202,
+	10203,
+	10204,
+	10301,
+	10302,
+	10303,
+	10304,
+	10401,
+	10402,
+	10403,
+	10404,
+	10501,
+	10502,
+	10503,
+	10504,
+	10601,
+	10602,
+	10603,
+	10604,
+	10701,
+	10702,
+	10703,
+	10704,
+	10801,
+	10802,
+	10803,
+	10804,
+	10901,
+	10902,
+	10903,
+	10904,
+	11001,
+	11002,
+	11003,
+	11004,
+	11101,
+	11102,
+	11103,
+	11104,
+	20001,
+	20002,
+	20003,
+	20004,
+	20005,
+	20006,
+	20007,
+	20008,
+	20009,
+	20010,
+	20011,
+	20012,
+	1000001,
+	1000002,
+	1000003,
+	1000004,
+	1000005,
+	1000006,
+	1000007,
+	1000008,
+	1000011,
+	1000012,
+	1000013,
+	1000014,
+	1000015,
+	1000016,
+	1000017,
+	1000018,
+	1050011,
+	1050012,
+	1050013,
+	1070101,
+	1070102,
+	1070103,
+	1070201,
+	1070202,
+	1070203,
+	1080001,
+	1080002,
+	1080003,
+	1080004,
+	1080005,
+	1090001,
+	1090002,
+	1090003,
+	1090004,
+	1090005,
+	1090006,
+	1090011,
+	1090012,
+	1090013,
+	1090014,
+	1090015,
+	1090016,
+	1090017,
+	1100001,
+	1100002,
+	1100003,
+	1100004,
+	1100005,
+	1100006,
+	1100011,
+	1100012,
+	1100013,
+	1100014,
+	1100015,
+	1100016,
+	1100020,
+	1110001,
+	1110002,
+	1110003,
+	1110004,
+	1110005,
+	1110006,
+	1110011,
+	1110012,
+	1110013,
+	1110014,
+	1110015,
+	1110016,
+	1110021,
+	1120001,
+	1120002,
+	1120003,
+	1120004,
+	1120005,
+	1120006,
+	1120007,
+	1120008,
+	1120011,
+	1120012,
+	1120013,
+	1120014,
+	1120015,
+	1120016,
+	1120017,
+	1120018,
+	1120021,
+	1130001,
+	1130002,
+	1130003,
+	1130101,
+	1130102,
+	1130103,
+	1140001,
+	1140003,
+	1140004,
+	1140005,
+	1140007,
+	1140008,
+	1140011,
+	1140013,
+	1140014,
+	1140015,
+	1140017,
+	1140018,
+	1140021,
+	1150001,
+	1150002,
+	1150003,
+	1150004,
+	1150005,
+	1150006,
+	1150011,
+	1150012,
+	1150013,
+	1150014,
+	1150015,
+	1150016,
+	1150021,
+	1160001,
+	1160002,
+	1160003,
+	1160004,
+	1160005,
+	1170001,
+	1170002,
+	1170003,
+	1180001,
+	1180002,
+	1180003,
+	1180004,
+	1180005,
+	1180006,
+	1180011,
+	1180012,
+	1180013,
+	1180014,
+	1180015,
+	1180016,
+	1180021,
+	1250031,
+	1250032,
+	1250033,
+	1250034,
+	1310001,
+	1310002,
+	1310003,
+	1310004,
+	1310005,
+	1310006,
+	1310021,
+	1310022,
+	1310023,
+	1310024,
+	1310025,
+	1310026,
+	1310041,
+	1310051,
+	1320001,
+	1320002,
+	1320003,
+	1330001,
+	1330002,
+	1330003,
+	1330004,
+	1330005,
+	1330006,
+	1330021,
+	1330022,
+	1330023,
+	1330024,
+	1330025,
+	1330026,
+	1330041,
+	1330051,
+	1340001,
+	1340002,
+	1340003,
+	1340004,
+	1340005,
+	1340006,
+	1340011,
+	1340012,
+	1340013,
+	1340014,
+	1340015,
+	1340016,
+	1340021,
+	1350001,
+	1350002,
+	1350003,
+	1360001,
+	1360002,
+	1360003,
+	1360004,
+	1360005,
+	1360006,
+	1360021,
+	1360022,
+	1360023,
+	1360024,
+	1360025,
+	1360026,
+	1360041,
+	1360051,
+	1370001,
+	1370002,
+	1370003,
+	1380001,
+	1380002,
+	1380003,
+	1380004,
+	1380005,
+	1380006,
+	1380021,
+	1380022,
+	1380023,
+	1380024,
+	1380025,
+	1380026,
+	1380041,
+	1380051,
+	1390001,
+	1390002,
+	1390003,
+	1400001,
+	1400002,
+	1400003,
+	1400004,
+	1400005,
+	1400006,
+	1400011,
+	1400012,
+	1400013,
+	1400014,
+	1400015,
+	1400016,
+	1400017,
+	1400021,
+	1410001,
+	1410002,
+	1410003,
+	1410004,
+	1410005,
+	1410006,
+	1410007,
+	1410008,
+	1410021,
+	1410022,
+	1410023,
+	1410024,
+	1410025,
+	1410026,
+	1410027,
+	1410028,
+	1410041,
+	1410051,
+	1420001,
+	1420002,
+	1420003,
+	1430001,
+	1430002,
+	1430003,
+	1430004,
+	1430005,
+	1430041,
+	1430051,
+	1440001,
+	1440002,
+	1440003,
+	1440004,
+	1450001,
+	1450002,
+	1450003,
+	1450004,
+	1450041,
+	1450051,
+	1460001,
+	1460002,
+	1460003,
+	1460004,
+	1460005,
+	1460006,
+	1460021,
+	1460022,
+	1460023,
+	1460024,
+	1460025,
+	1460026,
+	1460041,
+	1460051,
+	1470001,
+	1470002,
+	1470003,
+	1470004,
+	1470005,
+	1470006,
+	1470007,
+	1470008,
+	1470021,
+	1470022,
+	1470023,
+	1470024,
+	1470025,
+	1470026,
+	1470027,
+	1470028,
+	1470031,
+	1470041,
+	1480001,
+	1480002,
+	1480003,
+	1480004,
+	1480005,
+	1480006,
+	1480021,
+	1480022,
+	1480023,
+	1480024,
+	1480025,
+	1480026,
+	1480041,
+	1480051,
+	1490001,
+	1490002,
+	1490003,
+	1490004,
+	1490005,
+	1490006,
+	1490007,
+	1490008,
+	1490009,
+	1490010,
+	1490011,
+	1490012,
+	1490013,
+	1490014,
+	1490015,
+	1490016,
+	1490017,
+	1490021,
+	1490022,
+	1490023,
+	1490024,
+	1490025,
+	1500001,
+	1500002,
+	1500003,
+	1500004,
+	1500005,
+	1500006,
+	1500021,
+	1500022,
+	1500023,
+	1500024,
+	1500025,
+	1500026,
+	1500041,
+	1500051,
+	1510001,
+	1510002,
+	1510003,
+	1520001,
+	1520002,
+	1520003,
+	1520004,
+	1520005,
+	1520006,
+	1520021,
+	1520022,
+	1520023,
+	1520024,
+	1520025,
+	1520026,
+	1520041,
+	1520051,
+	2100001,
+	2100002,
+	2100003,
+	2100004,
+	2100005,
+	2100006,
+	2100011,
+	2100012,
+	2100013,
+	2100014,
+	2100015,
+	2100016,
+	2100021,
+	2100022,
+	2100023,
+	2100024,
+	2100025,
+	2100026,
+	2100031,
+	2100032,
+	2100033,
+	2100034,
+	2100035,
+	2100036,
+	2100041,
+	2100042,
+	2100043,
+	2100044,
+	2100045,
+	2100046,
+	2100047,
+	2100048,
+	2100051,
+	2100052,
+	2100053,
+	2100054,
+	2100055,
+	2100056,
+	2100057,
+	2100058,
+	2100061,
+	2100062,
+	2100063,
+	2100064,
+	2100065,
+	2100066,
+	2100071,
+	2100072,
+	2100073,
+	2100074,
+	2100075,
+	2100076,
+	2100081,
+	2100082,
+	2100083,
+	2100084,
+	2100085,
+	2100086,
+	2100091,
+	2100092,
+	2100093,
+	2100094,
+	2100095,
+	2100096,
+	2100101,
+	2100102,
+	2100103,
+	2100104,
+	2100105,
+	2100106,
+	2100111,
+	2100112,
+	2100113,
+	2100114,
+	2100115,
+	2100116,
+	2100121,
+	2100122,
+	2100123,
+	2100124,
+	2100125,
+	2100126,
+	2100131,
+	2100132,
+	2100133,
+	2100134,
+	2100135,
+	2100136,
+	2100141,
+	2100142,
+	2100143,
+	2100144,
+	2100145,
+	2100146,
+	2100151,
+	2100152,
+	2100153,
+	2100154,
+	2100155,
+	2100156,
+	2200001,
+	2200002,
+	2200003,
+	2200011,
+	2200012,
+	2200013,
+	2200021,
+	2200022,
+	2200023,
+	2200031,
+	2200032,
+	2200033
 }

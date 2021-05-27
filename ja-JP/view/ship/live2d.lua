@@ -3,7 +3,7 @@ slot0.STATE_LOADING = 0
 slot0.STATE_INITED = 1
 slot0.STATE_DISPOSE = 2
 
-function slot0.live2dData(slot0)
+function slot0.GenerateData(slot0)
 	slot1 = {
 		SetData = function (slot0, slot1)
 			slot0.ship = slot1.ship

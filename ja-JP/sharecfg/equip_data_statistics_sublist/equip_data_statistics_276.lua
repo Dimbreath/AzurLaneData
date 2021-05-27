@@ -1,36 +1,70 @@
 pg = pg or {}
 pg.equip_data_statistics_276 = {
-	[38126] = {
-		id = 38126,
-		base = 38120,
+	[38045] = {
+		id = 38045,
+		base = 38040,
 		ammo_info = {
 			{
 				6,
-				50026
+				50045
 			},
 			{
 				4,
-				51426
+				51345
 			}
 		},
 		weapon_id = {
-			38126
+			38045
 		}
 	},
-	[38140] = {
-		name = "天山",
+	[38046] = {
+		id = 38046,
+		base = 38040,
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				4,
+				51346
+			}
+		},
+		weapon_id = {
+			38046
+		}
+	},
+	[38047] = {
+		id = 38047,
+		base = 38040,
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				4,
+				51347
+			}
+		},
+		weapon_id = {
+			38047
+		}
+	},
+	[38060] = {
+		name = "九七式艦攻改",
 		type = 8,
 		speciality = "雷撃",
-		rarity = 4,
-		tech = 3,
+		rarity = 3,
+		tech = 0,
 		descrip = "0",
-		value_2 = 25,
-		icon = "38100",
+		value_2 = 12,
+		icon = "38060",
 		attribute_2 = "air",
 		nationality = 3,
 		ammo = 5,
 		value_3 = 0,
-		id = 38140,
+		id = 38060,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -41,7 +75,7 @@ pg.equip_data_statistics_276 = {
 			},
 			{
 				4,
-				51440
+				51340
 			}
 		},
 		equip_info = {
@@ -51,7 +85,7 @@ pg.equip_data_statistics_276 = {
 			9
 		},
 		weapon_id = {
-			38140
+			38060
 		},
 		skill_id = {},
 		part_main = {
@@ -69,9 +103,9 @@ pg.equip_data_statistics_276 = {
 			"TB"
 		}
 	},
-	[38141] = {
-		id = 38141,
-		base = 38140,
+	[38061] = {
+		id = 38061,
+		base = 38060,
 		ammo_info = {
 			{
 				6,
@@ -79,16 +113,16 @@ pg.equip_data_statistics_276 = {
 			},
 			{
 				4,
-				51441
+				51341
 			}
 		},
 		weapon_id = {
-			38141
+			38061
 		}
 	},
-	[38142] = {
-		id = 38142,
-		base = 38140,
+	[38062] = {
+		id = 38062,
+		base = 38060,
 		ammo_info = {
 			{
 				6,
@@ -96,16 +130,16 @@ pg.equip_data_statistics_276 = {
 			},
 			{
 				4,
-				51442
+				51342
 			}
 		},
 		weapon_id = {
-			38142
+			38062
 		}
 	},
-	[38143] = {
-		id = 38143,
-		base = 38140,
+	[38063] = {
+		id = 38063,
+		base = 38060,
 		ammo_info = {
 			{
 				6,
@@ -113,16 +147,16 @@ pg.equip_data_statistics_276 = {
 			},
 			{
 				4,
-				51443
+				51343
 			}
 		},
 		weapon_id = {
-			38143
+			38063
 		}
 	},
-	[38144] = {
-		id = 38144,
-		base = 38140,
+	[38064] = {
+		id = 38064,
+		base = 38060,
 		ammo_info = {
 			{
 				6,
@@ -130,16 +164,16 @@ pg.equip_data_statistics_276 = {
 			},
 			{
 				4,
-				51444
+				51344
 			}
 		},
 		weapon_id = {
-			38144
+			38064
 		}
 	},
-	[38145] = {
-		id = 38145,
-		base = 38140,
+	[38065] = {
+		id = 38065,
+		base = 38060,
 		ammo_info = {
 			{
 				6,
@@ -147,16 +181,16 @@ pg.equip_data_statistics_276 = {
 			},
 			{
 				4,
-				51445
+				51345
 			}
 		},
 		weapon_id = {
-			38145
+			38065
 		}
 	},
-	[38146] = {
-		id = 38146,
-		base = 38140,
+	[38066] = {
+		id = 38066,
+		base = 38060,
 		ammo_info = {
 			{
 				6,
@@ -164,16 +198,16 @@ pg.equip_data_statistics_276 = {
 			},
 			{
 				4,
-				51446
+				51346
 			}
 		},
 		weapon_id = {
-			38146
+			38066
 		}
 	},
-	[38147] = {
-		id = 38147,
-		base = 38140,
+	[38067] = {
+		id = 38067,
+		base = 38060,
 		ammo_info = {
 			{
 				6,
@@ -181,111 +215,38 @@ pg.equip_data_statistics_276 = {
 			},
 			{
 				4,
-				51447
+				51347
 			}
 		},
 		weapon_id = {
-			38147
+			38067
 		}
 	},
-	[38148] = {
-		id = 38148,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50048
-			},
-			{
-				4,
-				51448
-			}
-		},
-		weapon_id = {
-			38148
-		}
-	},
-	[38149] = {
-		id = 38149,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50049
-			},
-			{
-				4,
-				51449
-			}
-		},
-		weapon_id = {
-			38149
-		}
-	},
-	[38150] = {
-		id = 38150,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50050
-			},
-			{
-				4,
-				51450
-			}
-		},
-		weapon_id = {
-			38150
-		}
-	},
-	[38151] = {
-		anti_siren = 100,
-		base = 38140,
-		id = 38151,
-		ammo_info = {
-			{
-				6,
-				50051
-			},
-			{
-				4,
-				51451
-			}
-		},
-		weapon_id = {
-			38151
-		}
-	},
-	[38160] = {
-		name = "天山改",
+	[38100] = {
+		name = "天山",
 		type = 8,
 		speciality = "雷撃",
-		rarity = 4,
-		tech = 0,
+		rarity = 2,
+		tech = 1,
 		descrip = "0",
-		value_2 = 25,
-		icon = "38160",
+		value_2 = 5,
+		icon = "38100",
 		attribute_2 = "air",
 		nationality = 3,
 		ammo = 5,
 		value_3 = 0,
-		id = 38160,
+		id = 38100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				6,
-				50840
-			},
-			{
-				6,
-				59720
+				50000
 			},
 			{
 				4,
-				51460
+				51400
 			}
 		},
 		equip_info = {
@@ -295,7 +256,7 @@ pg.equip_data_statistics_276 = {
 			9
 		},
 		weapon_id = {
-			38160
+			38100
 		},
 		skill_id = {},
 		part_main = {
@@ -313,46 +274,107 @@ pg.equip_data_statistics_276 = {
 			"TB"
 		}
 	},
-	[38161] = {
-		id = 38161,
-		base = 38160,
+	[38101] = {
+		id = 38101,
+		base = 38100,
 		ammo_info = {
 			{
 				6,
-				50841
-			},
-			{
-				6,
-				59721
+				50001
 			},
 			{
 				4,
-				51461
+				51401
 			}
 		},
 		weapon_id = {
-			38161
+			38101
 		}
 	},
-	[38162] = {
-		id = 38162,
-		base = 38160,
+	[38102] = {
+		id = 38102,
+		base = 38100,
 		ammo_info = {
 			{
 				6,
-				50842
-			},
-			{
-				6,
-				59722
+				50002
 			},
 			{
 				4,
-				51462
+				51402
 			}
 		},
 		weapon_id = {
-			38162
+			38102
+		}
+	},
+	[38103] = {
+		id = 38103,
+		base = 38100,
+		ammo_info = {
+			{
+				6,
+				50003
+			},
+			{
+				4,
+				51403
+			}
+		},
+		weapon_id = {
+			38103
+		}
+	},
+	[38120] = {
+		name = "天山",
+		type = 8,
+		speciality = "雷撃",
+		rarity = 3,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "38100",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 38120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50020
+			},
+			{
+				4,
+				51420
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			38120
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
 		}
 	}
 }

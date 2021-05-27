@@ -320,9 +320,7 @@ function slot0.initCardPanel(slot0)
 	table.sort(slot0.codeShips, function (slot0, slot1)
 		return slot0.index_id < slot1.index_id
 	end)
-	slot0.cardList:SetTotalCount(#slot0.codeShips, -1)
-	Canvas.ForceUpdateCanvases()
-	slot0.cardList:ScrollTo(slot0.contextData.cardScrollValue or 0)
+	slot0.cardList:SetTotalCount(#slot0.codeShips, slot0.contextData.cardScrollValue or 0)
 end
 
 function slot0.initIndexPanel(slot0)
@@ -488,7 +486,6 @@ function slot0.sortDisplay(slot0)
 			return slot2 < slot3
 		end
 	end)
-	slot0.displayRect:SetTotalCount(#slot0.favoriteVOs)
 
 	slot1 = 0
 
@@ -500,7 +497,7 @@ function slot0.sortDisplay(slot0)
 		end
 	end
 
-	slot0.displayRect:ScrollTo(slot0.displayRect:HeadIndexToValue(slot1 - 1))
+	slot0.displayRect:SetTotalCount(#slot0.favoriteVOs, slot0.displayRect:HeadIndexToValue(slot1 - 1))
 end
 
 function slot0.initDisplayPanel(slot0)

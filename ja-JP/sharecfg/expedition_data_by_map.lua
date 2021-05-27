@@ -9063,6 +9063,258 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1520001] = {
+		map = 1520001,
+		name = "照らす螺旋の鏡海·前編|| ||CHAPTER EX||E.X.",
+		bgm = "blueocean-image",
+		type = 4,
+		on_activity = 997,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "JINGWEILUOXUAN1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1420001",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1420001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1520011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1520002] = {
+		map = 1520002,
+		name = "照らす螺旋の鏡海·後編|| ||CHAPTER EX||E.X.",
+		bgm = "deepblue-image",
+		type = 4,
+		on_activity = 997,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "JINGWEILUOXUAN17",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1420008",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1420008",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1520012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1520011] = {
+		map = 1520011,
+		name = "照らす螺旋の鏡海·前編|| ||CHAPTER EX||E.X.",
+		bgm = "blueocean-image",
+		type = 5,
+		on_activity = 997,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "JINGWEILUOXUAN1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1420011",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1420011",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1520001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1520012] = {
+		map = 1520012,
+		name = "照らす螺旋の鏡海·後編|| ||CHAPTER EX||E.X.",
+		bgm = "deepblue-image",
+		type = 5,
+		on_activity = 997,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "JINGWEILUOXUAN17",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1420018",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1420018",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1520002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1520025] = {
+		map = 1520025,
+		name = "照らす螺旋の鏡海·SP|| ||CHAPTER EX||E.X.",
+		bgm = "Beverly_short_eng",
+		type = 8,
+		on_activity = 997,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1420018",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1420018",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1520012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1520026] = {
+		map = 1520026,
+		name = "照らす螺旋の鏡海·EX|| ||CHAPTER EX||E.X.",
+		bgm = "Beverly_short_eng",
+		type = 8,
+		on_activity = 997,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1420018",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1420018",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1520012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『紅染の来訪者』-前編|| ||CHAPTER EX||E.X.",
@@ -10709,6 +10961,12 @@ pg.expedition_data_by_map = {
 		1500025,
 		1500026,
 		1510001,
+		1520001,
+		1520002,
+		1520011,
+		1520012,
+		1520025,
+		1520026,
 		2100000,
 		2100001,
 		2100010,

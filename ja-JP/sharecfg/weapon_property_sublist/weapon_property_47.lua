@@ -2,6 +2,166 @@ pg = pg or {}
 pg.weapon_property_47 = {}
 
 function ()
+	uv0.weapon_property_47[32102] = {
+		id = 32102,
+		reload_max = 641,
+		damage = 7,
+		base = 32100
+	}
+	uv0.weapon_property_47[32103] = {
+		id = 32103,
+		reload_max = 626,
+		damage = 8,
+		base = 32100
+	}
+	uv0.weapon_property_47[32120] = {
+		action_index = "attack",
+		range = 63,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "140mm连装炮T2",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 6,
+		corrected = 110,
+		min_range = 0,
+		id = 32120,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 635,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0.4,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1207
+		},
+		barrage_ID = {
+			1101
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_47[32121] = {
+		id = 32121,
+		reload_max = 621,
+		damage = 7,
+		base = 32120
+	}
+	uv0.weapon_property_47[32122] = {
+		id = 32122,
+		reload_max = 607,
+		damage = 8,
+		base = 32120
+	}
+	uv0.weapon_property_47[32123] = {
+		id = 32123,
+		reload_max = 592,
+		damage = 9,
+		base = 32120
+	}
+	uv0.weapon_property_47[32124] = {
+		id = 32124,
+		reload_max = 577,
+		damage = 10,
+		base = 32120
+	}
+	uv0.weapon_property_47[32125] = {
+		id = 32125,
+		reload_max = 563,
+		damage = 11,
+		base = 32120
+	}
+	uv0.weapon_property_47[32126] = {
+		id = 32126,
+		reload_max = 548,
+		damage = 12,
+		base = 32120
+	}
+	uv0.weapon_property_47[32140] = {
+		action_index = "attack",
+		range = 63,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "140mm连装炮T3",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 7,
+		corrected = 110,
+		min_range = 0,
+		id = 32140,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 599,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0.4,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1207
+		},
+		barrage_ID = {
+			1101
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_47[32141] = {
+		id = 32141,
+		reload_max = 586,
+		damage = 8,
+		base = 32140
+	}
+	uv0.weapon_property_47[32142] = {
+		id = 32142,
+		reload_max = 572,
+		damage = 9,
+		base = 32140
+	}
+	uv0.weapon_property_47[32143] = {
+		id = 32143,
+		reload_max = 558,
+		damage = 10,
+		base = 32140
+	}
+	uv0.weapon_property_47[32144] = {
+		id = 32144,
+		reload_max = 544,
+		damage = 11,
+		base = 32140
+	}
 	uv0.weapon_property_47[32145] = {
 		id = 32145,
 		reload_max = 530,
@@ -477,127 +637,5 @@ function ()
 		reload_max = 600,
 		damage = 10,
 		base = 32320
-	}
-	uv0.weapon_property_47[32324] = {
-		id = 32324,
-		reload_max = 585,
-		damage = 11,
-		base = 32320
-	}
-	uv0.weapon_property_47[32325] = {
-		id = 32325,
-		reload_max = 570,
-		damage = 12,
-		base = 32320
-	}
-	uv0.weapon_property_47[32326] = {
-		id = 32326,
-		reload_max = 555,
-		damage = 13,
-		base = 32320
-	}
-	uv0.weapon_property_47[32340] = {
-		action_index = "attack",
-		range = 64,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "152mm连装炮T3",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 8,
-		corrected = 110,
-		min_range = 0,
-		id = 32340,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 610,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0.4,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1207
-		},
-		barrage_ID = {
-			1101
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_47[32341] = {
-		id = 32341,
-		reload_max = 596,
-		damage = 9,
-		base = 32340
-	}
-	uv0.weapon_property_47[32342] = {
-		id = 32342,
-		reload_max = 582,
-		damage = 10,
-		base = 32340
-	}
-	uv0.weapon_property_47[32343] = {
-		id = 32343,
-		reload_max = 568,
-		damage = 11,
-		base = 32340
-	}
-	uv0.weapon_property_47[32344] = {
-		id = 32344,
-		reload_max = 554,
-		damage = 12,
-		base = 32340
-	}
-	uv0.weapon_property_47[32345] = {
-		id = 32345,
-		reload_max = 540,
-		damage = 13,
-		base = 32340
-	}
-	uv0.weapon_property_47[32346] = {
-		id = 32346,
-		reload_max = 526,
-		damage = 14,
-		base = 32340
-	}
-	uv0.weapon_property_47[32347] = {
-		id = 32347,
-		reload_max = 512,
-		damage = 15,
-		base = 32340
-	}
-	uv0.weapon_property_47[32348] = {
-		id = 32348,
-		reload_max = 498,
-		damage = 16,
-		base = 32340
-	}
-	uv0.weapon_property_47[32349] = {
-		id = 32349,
-		reload_max = 484,
-		damage = 17,
-		base = 32340
-	}
-	uv0.weapon_property_47[32350] = {
-		id = 32350,
-		reload_max = 470,
-		damage = 18,
-		base = 32340
 	}
 end()

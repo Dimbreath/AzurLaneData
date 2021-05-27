@@ -1,52 +1,28 @@
 pg = pg or {}
 pg.equip_data_statistics_368 = {
-	[85063] = {
-		id = 85063,
-		damage = "51/回",
-		base = 85060,
+	[79722] = {
+		id = 79722,
+		name = "专属弹幕-射水鱼II",
+		base = 79721,
 		weapon_id = {
-			85063
+			79722
 		}
 	},
-	[85064] = {
-		id = 85064,
-		damage = "57/回",
-		base = 85060,
-		weapon_id = {
-			85064
-		}
-	},
-	[85065] = {
-		id = 85065,
-		damage = "63/回",
-		base = 85060,
-		weapon_id = {
-			85065
-		}
-	},
-	[85066] = {
-		id = 85066,
-		damage = "70/回",
-		base = 85060,
-		weapon_id = {
-			85066
-		}
-	},
-	[85120] = {
-		name = "152mm三連装砲B-38 MK5",
+	[85000] = {
+		name = "130mm連装砲B-2LM",
 		speciality = "追尾",
-		type = 2,
+		type = 1,
 		tech = 1,
-		descrip = "0",
+		descrip = "北方連合製130mm連装砲。優秀な対艦性能を誇る ",
 		value_2 = 12,
-		icon = "85120",
+		icon = "85000",
 		attribute_2 = "cannon",
 		rarity = 3,
-		damage = "5 x 6",
+		damage = "3 x 6",
 		nationality = 7,
 		ammo = 3,
 		value_3 = 0,
-		id = 85120,
+		id = 85000,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -55,7 +31,7 @@ pg.equip_data_statistics_368 = {
 		ammo_info = {
 			{
 				1,
-				1201
+				1700
 			}
 		},
 		equip_info = {
@@ -63,11 +39,11 @@ pg.equip_data_statistics_368 = {
 			2,
 			{
 				3,
-				1201
+				1700
 			},
 			{
 				4,
-				1110
+				1024
 			},
 			6,
 			10,
@@ -75,94 +51,101 @@ pg.equip_data_statistics_368 = {
 			12
 		},
 		weapon_id = {
-			85120
+			85000
 		},
 		skill_id = {},
 		part_main = {
-			2
+			1,
+			19
 		},
 		part_sub = {
-			5
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"SN",
-			"CL",
+			"DD",
 			"MG"
 		}
 	},
-	[85121] = {
-		id = 85121,
+	[85001] = {
+		id = 85001,
+		damage = "3 x 6",
+		base = 85000,
+		weapon_id = {
+			85001
+		}
+	},
+	[85002] = {
+		id = 85002,
+		damage = "4 x 6",
+		base = 85000,
+		weapon_id = {
+			85002
+		}
+	},
+	[85003] = {
+		id = 85003,
+		damage = "4 x 6",
+		base = 85000,
+		weapon_id = {
+			85003
+		}
+	},
+	[85004] = {
+		id = 85004,
 		damage = "5 x 6",
-		base = 85120,
+		base = 85000,
 		weapon_id = {
-			85121
+			85004
 		}
 	},
-	[85122] = {
-		id = 85122,
+	[85005] = {
+		id = 85005,
 		damage = "6 x 6",
-		base = 85120,
+		base = 85000,
 		weapon_id = {
-			85122
+			85005
 		}
 	},
-	[85123] = {
-		id = 85123,
+	[85006] = {
+		id = 85006,
 		damage = "7 x 6",
-		base = 85120,
+		base = 85000,
 		weapon_id = {
-			85123
+			85006
 		}
 	},
-	[85124] = {
-		id = 85124,
-		damage = "8 x 6",
-		base = 85120,
-		weapon_id = {
-			85124
-		}
-	},
-	[85125] = {
-		id = 85125,
-		damage = "9 x 6",
-		base = 85120,
-		weapon_id = {
-			85125
-		}
-	},
-	[85126] = {
-		id = 85126,
-		damage = "10 x 6",
-		base = 85120,
-		weapon_id = {
-			85126
-		}
-	},
-	[85140] = {
-		name = "152mm三連装砲B-38 MK5",
+	[85040] = {
+		name = "130mm連装砲B-2LM",
 		speciality = "追尾",
-		type = 2,
-		tech = 2,
-		descrip = "0",
-		value_2 = 25,
-		icon = "85120",
+		type = 1,
+		tech = 3,
+		descrip = "北方連合製130mm連装砲。優秀な対艦性能を誇る ",
+		value_2 = 35,
+		icon = "85000",
 		attribute_2 = "cannon",
-		rarity = 4,
+		rarity = 5,
 		damage = "6 x 6",
 		nationality = 7,
-		ammo = 2,
+		ammo = 3,
 		value_3 = 0,
-		id = 85140,
+		id = 85040,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			3
+			1
 		},
 		ammo_info = {
 			{
 				1,
-				1207
+				1710
 			}
 		},
 		equip_info = {
@@ -170,11 +153,11 @@ pg.equip_data_statistics_368 = {
 			2,
 			{
 				3,
-				1207
+				1710
 			},
 			{
 				4,
-				1110
+				1024
 			},
 			6,
 			10,
@@ -182,53 +165,83 @@ pg.equip_data_statistics_368 = {
 			12
 		},
 		weapon_id = {
-			85140
+			85040
 		},
 		skill_id = {},
 		part_main = {
-			2
+			1,
+			19
 		},
 		part_sub = {
-			5
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"SN",
-			"CL",
-			"MG",
-			"HE"
+			"DD",
+			"MG"
 		}
 	},
-	[85141] = {
-		id = 85141,
+	[85041] = {
+		id = 85041,
 		damage = "6 x 6",
-		base = 85140,
+		base = 85040,
 		weapon_id = {
-			85141
+			85041
 		}
 	},
-	[85142] = {
-		id = 85142,
+	[85042] = {
+		id = 85042,
 		damage = "7 x 6",
-		base = 85140,
+		base = 85040,
 		weapon_id = {
-			85142
+			85042
 		}
 	},
-	[85143] = {
-		id = 85143,
+	[85043] = {
+		id = 85043,
 		damage = "8 x 6",
-		base = 85140,
+		base = 85040,
 		weapon_id = {
-			85143
+			85043
 		}
 	},
-	[85144] = {
-		id = 85144,
+	[85044] = {
+		id = 85044,
 		damage = "9 x 6",
-		base = 85140,
+		base = 85040,
 		weapon_id = {
-			85144
+			85044
+		}
+	},
+	[85045] = {
+		id = 85045,
+		damage = "10 x 6",
+		base = 85040,
+		weapon_id = {
+			85045
+		}
+	},
+	[85046] = {
+		id = 85046,
+		damage = "11 x 6",
+		base = 85040,
+		weapon_id = {
+			85046
+		}
+	},
+	[85047] = {
+		id = 85047,
+		damage = "12 x 6",
+		base = 85040,
+		weapon_id = {
+			85047
 		}
 	}
 }

@@ -1,76 +1,118 @@
 pg = pg or {}
 pg.equip_data_statistics_317 = {
-	[46041] = {
-		id = 46041,
-		damage = "26/回",
-		base = 46040,
+	[45442] = {
+		id = 45442,
+		damage = "82 x 2",
+		base = 45440,
 		weapon_id = {
-			46041
+			45442
 		}
 	},
-	[46042] = {
-		id = 46042,
-		damage = "30/回",
-		base = 46040,
+	[45443] = {
+		id = 45443,
+		damage = "91 x 2",
+		base = 45440,
 		weapon_id = {
-			46042
+			45443
 		}
 	},
-	[46043] = {
-		id = 46043,
-		damage = "34/回",
-		base = 46040,
+	[45444] = {
+		id = 45444,
+		damage = "100 x 2",
+		base = 45440,
 		weapon_id = {
-			46043
+			45444
 		}
 	},
-	[46044] = {
-		id = 46044,
-		damage = "38/回",
-		base = 46040,
+	[45445] = {
+		id = 45445,
+		damage = "110 x 2",
+		base = 45440,
 		weapon_id = {
-			46044
+			45445
 		}
 	},
-	[46045] = {
-		id = 46045,
-		damage = "42/回",
-		base = 46040,
+	[45446] = {
+		id = 45446,
+		damage = "120 x 2",
+		base = 45440,
 		weapon_id = {
-			46045
+			45446
 		}
 	},
-	[46046] = {
-		id = 46046,
-		damage = "46/回",
-		base = 46040,
+	[45447] = {
+		id = 45447,
+		damage = "130 x 2",
+		base = 45440,
 		weapon_id = {
-			46046
+			45447
 		}
 	},
-	[46047] = {
-		id = 46047,
-		damage = "46/回",
-		base = 46040,
+	[45448] = {
+		id = 45448,
+		damage = "140 x 2",
+		base = 45440,
 		weapon_id = {
-			46047
+			45448
 		}
 	},
-	[46060] = {
-		name = "88mmSKC32高角砲",
+	[45449] = {
+		id = 45449,
+		damage = "150 x 2",
+		base = 45440,
+		weapon_id = {
+			45449
+		}
+	},
+	[45450] = {
+		id = 45450,
+		damage = "160 x 2",
+		base = 45440,
+		weapon_id = {
+			45450
+		}
+	},
+	[45451] = {
+		anti_siren = 100,
+		damage = "160 x 2",
+		base = 45440,
+		id = 45451,
+		weapon_id = {
+			45451
+		}
+	},
+	[45452] = {
+		anti_siren = 200,
+		damage = "160 x 2",
+		base = 45440,
+		id = 45452,
+		weapon_id = {
+			45452
+		}
+	},
+	[45453] = {
+		anti_siren = 300,
+		damage = "160 x 2",
+		base = 45440,
+		id = 45453,
+		weapon_id = {
+			45453
+		}
+	},
+	[46000] = {
+		name = "20mm四連装MG機銃",
 		speciality = "対空",
 		type = 6,
-		tech = 0,
-		descrip = "0",
-		value_2 = 25,
-		icon = "46060",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "28/回",
+		tech = 1,
+		rarity = 1,
+		descrip = "対空火器・四連装20mmMG機銃",
+		value_2 = 0,
+		icon = "46000",
+		damage = "17/回",
 		nationality = 4,
 		ammo = 5,
 		value_3 = 0,
-		id = 46060,
+		id = 46000,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -82,7 +124,7 @@ pg.equip_data_statistics_317 = {
 			10
 		},
 		weapon_id = {
-			46060
+			46000
 		},
 		skill_id = {},
 		part_main = {
@@ -118,68 +160,28 @@ pg.equip_data_statistics_317 = {
 			"AA"
 		}
 	},
-	[46061] = {
-		id = 46061,
-		damage = "34/回",
-		base = 46060,
+	[46001] = {
+		id = 46001,
+		damage = "20/回",
+		base = 46000,
 		weapon_id = {
-			46061
+			46001
 		}
 	},
-	[46062] = {
-		id = 46062,
-		damage = "40/回",
-		base = 46060,
+	[46002] = {
+		id = 46002,
+		damage = "23/回",
+		base = 46000,
 		weapon_id = {
-			46062
+			46002
 		}
 	},
-	[46063] = {
-		id = 46063,
-		damage = "46/回",
-		base = 46060,
+	[46003] = {
+		id = 46003,
+		damage = "26/回",
+		base = 46000,
 		weapon_id = {
-			46063
-		}
-	},
-	[46064] = {
-		id = 46064,
-		damage = "52/回",
-		base = 46060,
-		weapon_id = {
-			46064
-		}
-	},
-	[46065] = {
-		id = 46065,
-		damage = "58/回",
-		base = 46060,
-		weapon_id = {
-			46065
-		}
-	},
-	[46066] = {
-		id = 46066,
-		damage = "64/回",
-		base = 46060,
-		weapon_id = {
-			46066
-		}
-	},
-	[46067] = {
-		id = 46067,
-		damage = "70/回",
-		base = 46060,
-		weapon_id = {
-			46067
-		}
-	},
-	[46068] = {
-		id = 46068,
-		damage = "76/回",
-		base = 46060,
-		weapon_id = {
-			46068
+			46003
 		}
 	}
 }

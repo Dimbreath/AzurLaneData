@@ -1,76 +1,44 @@
 pg = pg or {}
 pg.equip_data_statistics_311 = {
-	[45204] = {
-		id = 45204,
-		damage = "87 x 5",
-		base = 45200,
+	[45128] = {
+		id = 45128,
+		damage = "119 x 4",
+		base = 45120,
 		weapon_id = {
-			45204
+			45128
 		}
 	},
-	[45205] = {
-		id = 45205,
-		damage = "93 x 5",
-		base = 45200,
+	[45129] = {
+		id = 45129,
+		damage = "126 x 4",
+		base = 45120,
 		weapon_id = {
-			45205
+			45129
 		}
 	},
-	[45206] = {
-		id = 45206,
-		damage = "99 x 5",
-		base = 45200,
+	[45130] = {
+		id = 45130,
+		damage = "133 x 4",
+		base = 45120,
 		weapon_id = {
-			45206
+			45130
 		}
 	},
-	[45207] = {
-		id = 45207,
-		damage = "105 x 5",
-		base = 45200,
-		weapon_id = {
-			45207
-		}
-	},
-	[45208] = {
-		id = 45208,
-		damage = "111 x 5",
-		base = 45200,
-		weapon_id = {
-			45208
-		}
-	},
-	[45209] = {
-		id = 45209,
-		damage = "117 x 5",
-		base = 45200,
-		weapon_id = {
-			45209
-		}
-	},
-	[45210] = {
-		id = 45210,
-		damage = "123 x 5",
-		base = 45200,
-		weapon_id = {
-			45210
-		}
-	},
-	[45220] = {
-		name = "533mm五連装磁気魚雷",
+	[45140] = {
+		name = "533mm四連装磁気魚雷",
 		speciality = "雷撃",
 		type = 5,
-		tech = 2,
+		tech = 3,
 		descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
 		value_2 = 45,
-		icon = "45200",
+		icon = "45100",
 		attribute_2 = "torpedo",
 		rarity = 5,
-		damage = "66 x 5",
+		damage = "70 x 4",
 		nationality = 4,
 		ammo = 4,
 		value_3 = 0,
-		id = 45220,
+		id = 45140,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -87,7 +55,7 @@ pg.equip_data_statistics_311 = {
 			},
 			{
 				4,
-				1404
+				1403
 			},
 			6,
 			10,
@@ -95,7 +63,7 @@ pg.equip_data_statistics_311 = {
 			12
 		},
 		weapon_id = {
-			45220
+			45140
 		},
 		skill_id = {},
 		part_main = {
@@ -115,71 +83,105 @@ pg.equip_data_statistics_311 = {
 			"KMS",
 			"ST",
 			"TP",
-			"QUINT"
+			"QUAD"
 		}
 	},
-	[45221] = {
-		id = 45221,
-		damage = "72 x 5",
-		base = 45220,
+	[45141] = {
+		id = 45141,
+		damage = "77 x 4",
+		base = 45140,
 		weapon_id = {
-			45221
+			45141
 		}
 	},
-	[45222] = {
-		id = 45222,
-		damage = "79 x 5",
-		base = 45220,
+	[45142] = {
+		id = 45142,
+		damage = "85 x 4",
+		base = 45140,
 		weapon_id = {
-			45222
+			45142
 		}
 	},
-	[45223] = {
-		id = 45223,
-		damage = "86 x 5",
-		base = 45220,
+	[45143] = {
+		id = 45143,
+		damage = "92 x 4",
+		base = 45140,
 		weapon_id = {
-			45223
+			45143
 		}
 	},
-	[45224] = {
-		id = 45224,
-		damage = "92 x 5",
-		base = 45220,
+	[45144] = {
+		id = 45144,
+		damage = "100 x 4",
+		base = 45140,
 		weapon_id = {
-			45224
+			45144
 		}
 	},
-	[45225] = {
-		id = 45225,
-		damage = "99 x 5",
-		base = 45220,
+	[45145] = {
+		id = 45145,
+		damage = "107 x 4",
+		base = 45140,
 		weapon_id = {
-			45225
+			45145
 		}
 	},
-	[45226] = {
-		id = 45226,
-		damage = "106 x 5",
-		base = 45220,
+	[45146] = {
+		id = 45146,
+		damage = "115 x 4",
+		base = 45140,
 		weapon_id = {
-			45226
+			45146
 		}
 	},
-	[45227] = {
-		id = 45227,
-		damage = "112 x 5",
-		base = 45220,
+	[45147] = {
+		id = 45147,
+		damage = "122 x 4",
+		base = 45140,
 		weapon_id = {
-			45227
+			45147
 		}
 	},
-	[45228] = {
-		id = 45228,
-		damage = "119 x 5",
-		base = 45220,
+	[45148] = {
+		id = 45148,
+		damage = "130 x 4",
+		base = 45140,
 		weapon_id = {
-			45228
+			45148
+		}
+	},
+	[45149] = {
+		id = 45149,
+		damage = "137 x 4",
+		base = 45140,
+		weapon_id = {
+			45149
+		}
+	},
+	[45150] = {
+		id = 45150,
+		damage = "145 x 4",
+		base = 45140,
+		weapon_id = {
+			45150
+		}
+	},
+	[45151] = {
+		anti_siren = 100,
+		damage = "145 x 4",
+		base = 45140,
+		id = 45151,
+		weapon_id = {
+			45151
+		}
+	},
+	[45152] = {
+		anti_siren = 200,
+		damage = "145 x 4",
+		base = 45140,
+		id = 45152,
+		weapon_id = {
+			45152
 		}
 	}
 }

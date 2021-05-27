@@ -2,6 +2,166 @@ pg = pg or {}
 pg.weapon_property_51 = {}
 
 function ()
+	uv0.weapon_property_51[35102] = {
+		id = 35102,
+		reload_max = 4878,
+		damage = 72,
+		base = 35100
+	}
+	uv0.weapon_property_51[35103] = {
+		id = 35103,
+		reload_max = 4776,
+		damage = 82,
+		base = 35100
+	}
+	uv0.weapon_property_51[35120] = {
+		action_index = "attack",
+		range = 60,
+		type = 16,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "三联装610mm鱼雷T2",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 58,
+		corrected = 100,
+		min_range = 0,
+		id = 35120,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 4839,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1801
+		},
+		barrage_ID = {
+			1402
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_51[35121] = {
+		id = 35121,
+		reload_max = 4742,
+		damage = 70,
+		base = 35120
+	}
+	uv0.weapon_property_51[35122] = {
+		id = 35122,
+		reload_max = 4645,
+		damage = 82,
+		base = 35120
+	}
+	uv0.weapon_property_51[35123] = {
+		id = 35123,
+		reload_max = 4549,
+		damage = 94,
+		base = 35120
+	}
+	uv0.weapon_property_51[35124] = {
+		id = 35124,
+		reload_max = 4452,
+		damage = 106,
+		base = 35120
+	}
+	uv0.weapon_property_51[35125] = {
+		id = 35125,
+		reload_max = 4355,
+		damage = 118,
+		base = 35120
+	}
+	uv0.weapon_property_51[35126] = {
+		id = 35126,
+		reload_max = 4258,
+		damage = 130,
+		base = 35120
+	}
+	uv0.weapon_property_51[35140] = {
+		action_index = "attack",
+		range = 60,
+		type = 16,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "三联装610mm鱼雷T3",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 66,
+		corrected = 100,
+		min_range = 0,
+		id = 35140,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 4597,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1801
+		},
+		barrage_ID = {
+			1402
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_51[35141] = {
+		id = 35141,
+		reload_max = 4506,
+		damage = 80,
+		base = 35140
+	}
+	uv0.weapon_property_51[35142] = {
+		id = 35142,
+		reload_max = 4413,
+		damage = 94,
+		base = 35140
+	}
+	uv0.weapon_property_51[35143] = {
+		id = 35143,
+		reload_max = 4322,
+		damage = 108,
+		base = 35140
+	}
+	uv0.weapon_property_51[35144] = {
+		id = 35144,
+		reload_max = 4229,
+		damage = 122,
+		base = 35140
+	}
 	uv0.weapon_property_51[35145] = {
 		id = 35145,
 		reload_max = 4138,
@@ -437,130 +597,5 @@ function ()
 		reload_max = 4398,
 		damage = 192,
 		base = 35240
-	}
-	uv0.weapon_property_51[35250] = {
-		id = 35250,
-		reload_max = 4291,
-		damage = 206,
-		base = 35240
-	}
-	uv0.weapon_property_51[35251] = {
-		reload_max = 4291,
-		damage = 206,
-		base = 35240,
-		id = 35251,
-		corrected = 104
-	}
-	uv0.weapon_property_51[35252] = {
-		reload_max = 4291,
-		damage = 206,
-		base = 35240,
-		id = 35252,
-		corrected = 110
-	}
-	uv0.weapon_property_51[35253] = {
-		reload_max = 4291,
-		damage = 206,
-		base = 35240,
-		id = 35253,
-		corrected = 118
-	}
-	uv0.weapon_property_51[35260] = {
-		action_index = "attack",
-		range = 60,
-		type = 16,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "四联装610mm鱼雷改T0",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 70,
-		corrected = 100,
-		min_range = 0,
-		id = 35260,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 5332,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1801
-		},
-		barrage_ID = {
-			1403
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_51[35261] = {
-		id = 35261,
-		reload_max = 5224,
-		damage = 84,
-		base = 35260
-	}
-	uv0.weapon_property_51[35262] = {
-		id = 35262,
-		reload_max = 5118,
-		damage = 98,
-		base = 35260
-	}
-	uv0.weapon_property_51[35263] = {
-		id = 35263,
-		reload_max = 5010,
-		damage = 112,
-		base = 35260
-	}
-	uv0.weapon_property_51[35264] = {
-		id = 35264,
-		reload_max = 4904,
-		damage = 126,
-		base = 35260
-	}
-	uv0.weapon_property_51[35265] = {
-		id = 35265,
-		reload_max = 4797,
-		damage = 140,
-		base = 35260
-	}
-	uv0.weapon_property_51[35266] = {
-		id = 35266,
-		reload_max = 4689,
-		damage = 154,
-		base = 35260
-	}
-	uv0.weapon_property_51[35267] = {
-		id = 35267,
-		reload_max = 4581,
-		damage = 168,
-		base = 35260
-	}
-	uv0.weapon_property_51[35268] = {
-		id = 35268,
-		reload_max = 4475,
-		damage = 182,
-		base = 35260
-	}
-	uv0.weapon_property_51[35269] = {
-		id = 35269,
-		reload_max = 4367,
-		damage = 196,
-		base = 35260
 	}
 end()

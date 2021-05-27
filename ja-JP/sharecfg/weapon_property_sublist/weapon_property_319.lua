@@ -2,269 +2,7 @@ pg = pg or {}
 pg.weapon_property_319 = {}
 
 function ()
-	uv0.weapon_property_319[680237] = {
-		action_index = "attack",
-		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动C1】BOSS U73 第三波 变向弹幕",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 18,
-		corrected = 100,
-		min_range = 0,
-		id = 680237,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 9999,
-		queue = 4,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750010,
-			750011
-		},
-		barrage_ID = {
-			990241,
-			990242
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_319[680238] = {
-		action_index = "attack",
-		range = 38,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动C2】BOSS 希佩尔 常驻 近程自卫火炮",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 100,
-		min_range = 0,
-		id = 680238,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 600,
-		queue = 5,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			999
-		},
-		barrage_ID = {
-			11
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_319[680239] = {
-		action_index = "attack",
-		range = 120,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动C2】BOSS 希佩尔 第三波 圆形扩散子母弹",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 15,
-		corrected = 100,
-		min_range = 0,
-		id = 680239,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 3,
-		attack_attribute = 1,
-		reload_max = 9999,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750025,
-			750026
-		},
-		barrage_ID = {
-			760047,
-			760048
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_319[680240] = {
-		action_index = "",
-		range = 120,
-		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动C2】BOSS 希佩尔 第三波 十字旋转弹幕",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 18,
-		corrected = 100,
-		min_range = 0,
-		id = 680240,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 9999,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750028,
-			750028,
-			750028,
-			750028,
-			750028,
-			750029,
-			750029,
-			750029,
-			750029,
-			750029,
-			750028,
-			750028,
-			750028,
-			750028,
-			750028,
-			750029,
-			750029,
-			750029,
-			750029,
-			750029
-		},
-		barrage_ID = {
-			760050,
-			760051,
-			760052,
-			760053,
-			760054,
-			760055,
-			760056,
-			760057,
-			760058,
-			760059,
-			760060,
-			760061,
-			760062,
-			760063,
-			760064,
-			760065,
-			760066,
-			760067,
-			760068,
-			760069
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_319[680241] = {
-		action_index = "attack",
-		range = 120,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2020英系活动C2】BOSS 希佩尔 第一波 开幕主炮射击",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 22,
-		corrected = 100,
-		min_range = 0,
-		id = 680241,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 300,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			750030
-		},
-		barrage_ID = {
-			740027
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_319[680242] = {
+	uv0.weapon_property_319[680042] = {
 		action_index = "",
 		range = 120,
 		type = 3,
@@ -272,16 +10,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动C2】BOSS 希佩尔 第二波 大范围鱼雷",
+		name = "【2020英系活动A2】BOSS 希佩尔 第二波 大范围鱼雷",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 40,
+		damage = 36,
 		corrected = 100,
 		min_range = 0,
-		id = 680242,
+		id = 680042,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -295,14 +33,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			140005,
-			140006,
 			140007,
 			140008
 		},
 		barrage_ID = {
-			140005,
-			140006,
 			140007,
 			140008
 		},
@@ -314,7 +48,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680243] = {
+	uv0.weapon_property_319[680043] = {
 		action_index = "attack",
 		range = 120,
 		type = 1,
@@ -322,16 +56,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动C2】BOSS 希佩尔 第二波 主炮射击",
+		name = "【2020英系活动A2】BOSS 希佩尔 第二波 主炮射击",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 22,
+		damage = 15,
 		corrected = 100,
 		min_range = 0,
-		id = 680243,
+		id = 680043,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -353,12 +87,12 @@ function ()
 			750033
 		},
 		barrage_ID = {
-			760075,
-			760076,
-			760077,
-			760078,
-			760079,
-			760080
+			760234,
+			760235,
+			760236,
+			760237,
+			760238,
+			760239
 		},
 		oxy_type = {
 			1
@@ -368,7 +102,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680244] = {
+	uv0.weapon_property_319[680044] = {
 		action_index = "attack",
 		range = 80,
 		type = 1,
@@ -376,16 +110,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动C2】BOSS 希佩尔 第三波 主炮自机狙",
+		name = "【2020英系活动A2】BOSS 希佩尔 第三波 主炮自机狙",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 22,
+		damage = 15,
 		corrected = 100,
 		min_range = 0,
-		id = 680244,
+		id = 680044,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 3,
@@ -402,7 +136,7 @@ function ()
 			20003
 		},
 		barrage_ID = {
-			760081
+			760233
 		},
 		oxy_type = {
 			1
@@ -412,7 +146,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680245] = {
+	uv0.weapon_property_319[680045] = {
 		action_index = "",
 		range = 28,
 		type = 17,
@@ -420,16 +154,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动C3】BOSS 侵扰者III型 电击疗法",
+		name = "【2020英系活动A3】BOSS 侵扰者III型 电击疗法",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 9,
+		damage = 7,
 		corrected = 100,
 		min_range = 0,
-		id = 680245,
+		id = 680045,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -456,7 +190,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680246] = {
+	uv0.weapon_property_319[680046] = {
 		action_index = "attack",
 		range = 120,
 		type = 3,
@@ -464,16 +198,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动C3】BOSS 侵扰者III型 第三波 四重鱼雷 ",
+		name = "【2020英系活动A3】BOSS 侵扰者III型 第三波 四重鱼雷 ",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 50,
+		damage = 20,
 		corrected = 100,
 		min_range = 0,
-		id = 680246,
+		id = 680046,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -506,7 +240,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680247] = {
+	uv0.weapon_property_319[680047] = {
 		action_index = "attack",
 		range = 120,
 		type = 2,
@@ -514,16 +248,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动C3】BOSS 侵扰者III型 第三波 副炮封锁线",
+		name = "【2020英系活动A3】BOSS 侵扰者III型 第三波 副炮封锁线",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 15,
+		damage = 8,
 		corrected = 100,
 		min_range = 0,
-		id = 680247,
+		id = 680047,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -558,7 +292,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680248] = {
+	uv0.weapon_property_319[680048] = {
 		action_index = "attack",
 		range = 120,
 		type = 2,
@@ -566,16 +300,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动C3】BOSS 侵扰者III型 第三波 锥形轨道弹幕",
+		name = "【2020英系活动A3】BOSS 侵扰者III型 第三波 锥形轨道弹幕",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 16,
+		damage = 10,
 		corrected = 100,
 		min_range = 0,
-		id = 680248,
+		id = 680048,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -610,7 +344,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680249] = {
+	uv0.weapon_property_319[680049] = {
 		action_index = "attack",
 		range = 120,
 		type = 3,
@@ -618,16 +352,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动C3】BOSS 侵扰者III型 第一波 自机狙鱼雷*2 ",
+		name = "【2020英系活动A3】BOSS 侵扰者III型 第一波 自机狙鱼雷*2 ",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 44,
+		damage = 26,
 		corrected = 100,
 		min_range = 0,
-		id = 680249,
+		id = 680049,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -654,7 +388,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680250] = {
+	uv0.weapon_property_319[680050] = {
 		action_index = "attack",
 		range = 120,
 		type = 1,
@@ -662,16 +396,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动C3】BOSS 侵扰者III型 第一波 侧翼旋转弹幕",
+		name = "【2020英系活动A3】BOSS 侵扰者III型 第一波 侧翼旋转弹幕",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 16,
+		damage = 10,
 		corrected = 100,
 		min_range = 0,
-		id = 680250,
+		id = 680050,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -705,7 +439,7 @@ function ()
 			isBound = true
 		}
 	}
-	uv0.weapon_property_319[680251] = {
+	uv0.weapon_property_319[680051] = {
 		action_index = "",
 		range = 120,
 		type = 1,
@@ -713,7 +447,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动C3】BOSS 侵扰者III型 第二波 十字子母弹",
+		name = "【2020英系活动A3】BOSS 侵扰者III型 第二波 十字子母弹",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -722,7 +456,7 @@ function ()
 		damage = 1,
 		corrected = 100,
 		min_range = 0,
-		id = 680251,
+		id = 680051,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -749,7 +483,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680252] = {
+	uv0.weapon_property_319[680052] = {
 		action_index = "",
 		range = 120,
 		type = 1,
@@ -757,7 +491,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动C3】BOSS 侵扰者III型 第四波 花式子母弹",
+		name = "【2020英系活动A3】BOSS 侵扰者III型 第四波 花式子母弹",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -766,7 +500,7 @@ function ()
 		damage = 1,
 		corrected = 100,
 		min_range = 0,
-		id = 680252,
+		id = 680052,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -793,7 +527,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680253] = {
+	uv0.weapon_property_319[680053] = {
 		action_index = "attack",
 		range = 120,
 		type = 1,
@@ -801,16 +535,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动C3】BOSS 侵扰者III型 第三波 感应式电磁炸弹",
+		name = "【2020英系活动A3】BOSS 侵扰者III型 第三波 感应式电磁炸弹",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 12,
+		damage = 10,
 		corrected = 100,
 		min_range = 0,
-		id = 680253,
+		id = 680053,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -843,7 +577,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680301] = {
+	uv0.weapon_property_319[680101] = {
 		action_index = "attack",
 		range = 120,
 		type = 3,
@@ -851,16 +585,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D1】潜艇精英人形通用 开幕鱼雷1",
+		name = "【2020英系活动B1】潜艇精英人形通用 开幕鱼雷1",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 46,
+		damage = 30,
 		corrected = 100,
 		min_range = 0,
-		id = 680301,
+		id = 680101,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -897,7 +631,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680302] = {
+	uv0.weapon_property_319[680102] = {
 		action_index = "attack",
 		range = 120,
 		type = 3,
@@ -905,16 +639,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D1】潜艇精英人形通用 开幕鱼雷2",
+		name = "【2020英系活动B1】潜艇精英人形通用 开幕鱼雷2",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 46,
+		damage = 30,
 		corrected = 100,
 		min_range = 0,
-		id = 680302,
+		id = 680102,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -945,7 +679,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680303] = {
+	uv0.weapon_property_319[680103] = {
 		action_index = "attack",
 		range = 60,
 		type = 2,
@@ -953,16 +687,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D1】潜艇精英人形通用 3way驱逐炮",
+		name = "【2020英系活动B1】潜艇精英人形通用 3way驱逐炮",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 10,
+		damage = 7,
 		corrected = 100,
 		min_range = 0,
-		id = 680303,
+		id = 680103,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -993,7 +727,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680304] = {
+	uv0.weapon_property_319[680104] = {
 		action_index = "attack",
 		range = 120,
 		type = 3,
@@ -1001,16 +735,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D1】潜艇精英人形通用 6+5双排鱼雷",
+		name = "【2020英系活动B1】潜艇精英人形通用 6+5双排鱼雷",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 38,
+		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 680304,
+		id = 680104,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -1041,7 +775,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680305] = {
+	uv0.weapon_property_319[680105] = {
 		action_index = "attack",
 		range = 120,
 		type = 3,
@@ -1049,16 +783,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D1】精英人形U73 快速自机狙鱼雷",
+		name = "【2020英系活动B1】精英人形U73 快速自机狙鱼雷",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 999,
 		charge_param = "",
-		damage = 38,
+		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 680305,
+		id = 680105,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -1087,7 +821,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680306] = {
+	uv0.weapon_property_319[680106] = {
 		action_index = "attack",
 		range = 120,
 		type = 3,
@@ -1095,16 +829,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D1】精英人形U73 3way自机狙鱼雷",
+		name = "【2020英系活动B1】精英人形U73 3way自机狙鱼雷",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 999,
 		charge_param = "",
-		damage = 38,
+		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 680306,
+		id = 680106,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -1143,7 +877,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680307] = {
+	uv0.weapon_property_319[680107] = {
 		action_index = "attack",
 		range = 120,
 		type = 3,
@@ -1151,16 +885,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D1】精英人形U101 快速自机狙鱼雷",
+		name = "【2020英系活动B1】精英人形U101 快速自机狙鱼雷",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 999,
 		charge_param = "",
-		damage = 38,
+		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 680307,
+		id = 680107,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -1189,7 +923,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680308] = {
+	uv0.weapon_property_319[680108] = {
 		action_index = "attack",
 		range = 120,
 		type = 3,
@@ -1197,16 +931,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D1】精英人形U101 高频率箭头自机狙鱼雷",
+		name = "【2020英系活动B1】精英人形U101 高频率箭头自机狙鱼雷",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 999,
 		charge_param = "",
-		damage = 38,
+		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 680308,
+		id = 680108,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -1253,7 +987,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680309] = {
+	uv0.weapon_property_319[680109] = {
 		action_index = "attack",
 		range = 120,
 		type = 3,
@@ -1261,16 +995,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D1】精英人形U522 快速自机狙鱼雷",
+		name = "【2020英系活动B1】精英人形U522 快速自机狙鱼雷",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 999,
 		charge_param = "",
-		damage = 38,
+		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 680309,
+		id = 680109,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -1299,7 +1033,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680310] = {
+	uv0.weapon_property_319[680110] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -1307,16 +1041,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D1】精英人形U522 变向弹幕",
+		name = "【2020英系活动B1】精英人形U522 变向弹幕",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 21,
+		damage = 14,
 		corrected = 100,
 		min_range = 0,
-		id = 680310,
+		id = 680110,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1345,7 +1079,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680311] = {
+	uv0.weapon_property_319[680111] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -1353,16 +1087,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D1】精英人形U522 变向弹幕",
+		name = "【2020英系活动B1】精英人形U522 变向弹幕",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 21,
+		damage = 14,
 		corrected = 100,
 		min_range = 0,
-		id = 680311,
+		id = 680111,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1391,7 +1125,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680312] = {
+	uv0.weapon_property_319[680112] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -1399,16 +1133,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】道中人形Z1 3way自机狙穿透弹",
+		name = "【2020英系活动B2】道中人形Z1 3way自机狙穿透弹",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 16,
+		damage = 14,
 		corrected = 100,
 		min_range = 0,
-		id = 680312,
+		id = 680112,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1444,7 +1178,7 @@ function ()
 			isBound = true
 		}
 	}
-	uv0.weapon_property_319[680313] = {
+	uv0.weapon_property_319[680113] = {
 		action_index = "attack",
 		range = 60,
 		type = 1,
@@ -1452,16 +1186,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】道中人形Z2 广域射击",
+		name = "【2020英系活动B2】道中人形Z2 广域射击",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 15,
+		damage = 10,
 		corrected = 100,
 		min_range = 0,
-		id = 680313,
+		id = 680113,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1502,7 +1236,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680314] = {
+	uv0.weapon_property_319[680114] = {
 		action_index = "attack",
 		range = 60,
 		type = 1,
@@ -1510,16 +1244,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】道中人形Z36 魔力猛击",
+		name = "【2020英系活动B2】道中人形Z36 魔力猛击",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 120,
 		charge_param = "",
-		damage = 16,
+		damage = 12,
 		corrected = 100,
 		min_range = 0,
-		id = 680314,
+		id = 680114,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1548,7 +1282,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680315] = {
+	uv0.weapon_property_319[680115] = {
 		action_index = "",
 		range = 72,
 		type = 3,
@@ -1556,16 +1290,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】道中人形欧根亲王/希佩尔 四联装磁性鱼雷",
+		name = "【2020英系活动B2】道中人形欧根亲王/希佩尔 四联装磁性鱼雷",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 56,
+		damage = 40,
 		corrected = 100,
 		min_range = 0,
-		id = 680315,
+		id = 680115,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -1592,7 +1326,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680316] = {
+	uv0.weapon_property_319[680116] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -1600,16 +1334,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】道中人形欧根亲王 主炮射击1",
+		name = "【2020英系活动B2】道中人形欧根亲王 主炮射击1",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 21,
+		damage = 18,
 		corrected = 100,
 		min_range = 0,
-		id = 680316,
+		id = 680116,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1638,7 +1372,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680317] = {
+	uv0.weapon_property_319[680117] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -1646,16 +1380,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】道中人形欧根亲王 主炮射击2",
+		name = "【2020英系活动B2】道中人形欧根亲王 主炮射击2",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 21,
+		damage = 18,
 		corrected = 100,
 		min_range = 0,
-		id = 680317,
+		id = 680117,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1682,7 +1416,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680318] = {
+	uv0.weapon_property_319[680118] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -1690,16 +1424,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】道中人形欧根亲王 主炮射击3",
+		name = "【2020英系活动B2】道中人形欧根亲王 主炮射击3",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 21,
+		damage = 18,
 		corrected = 100,
 		min_range = 0,
-		id = 680318,
+		id = 680118,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1728,7 +1462,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680319] = {
+	uv0.weapon_property_319[680119] = {
 		action_index = "attack",
 		range = 38,
 		type = 2,
@@ -1736,16 +1470,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】道中人形希佩尔海军上将 主炮射击1",
+		name = "【2020英系活动B2】道中人形希佩尔海军上将 主炮射击1",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 21,
+		damage = 18,
 		corrected = 100,
 		min_range = 0,
-		id = 680319,
+		id = 680119,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1778,7 +1512,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680320] = {
+	uv0.weapon_property_319[680120] = {
 		action_index = "attack",
 		range = 80,
 		type = 1,
@@ -1786,16 +1520,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】道中人形希佩尔海军上将 主炮射击2",
+		name = "【2020英系活动B2】道中人形希佩尔海军上将 主炮射击2",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 21,
+		damage = 18,
 		corrected = 100,
 		min_range = 0,
-		id = 680320,
+		id = 680120,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1822,7 +1556,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680321] = {
+	uv0.weapon_property_319[680121] = {
 		action_index = "attack",
 		range = 38,
 		type = 2,
@@ -1830,16 +1564,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】道中人形希佩尔海军上将 近程自卫火炮",
+		name = "【2020英系活动B2】道中人形希佩尔海军上将 近程自卫火炮",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 12,
+		damage = 9,
 		corrected = 100,
 		min_range = 0,
-		id = 680321,
+		id = 680121,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1866,7 +1600,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680322] = {
+	uv0.weapon_property_319[680122] = {
 		action_index = "attack",
 		range = 150,
 		type = 1,
@@ -1874,16 +1608,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】精英人形Z1 散乱串状子母弹",
+		name = "【2020英系活动B2】精英人形Z1 散乱串状子母弹",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 15,
+		damage = 12,
 		corrected = 100,
 		min_range = 0,
-		id = 680322,
+		id = 680122,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 3,
 		attack_attribute = 1,
@@ -1910,7 +1644,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680323] = {
+	uv0.weapon_property_319[680123] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -1918,7 +1652,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】精英人形Z2 中心穿透弹",
+		name = "【2020英系活动B2】精英人形Z2 中心穿透弹",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1927,7 +1661,7 @@ function ()
 		damage = 15,
 		corrected = 100,
 		min_range = 0,
-		id = 680323,
+		id = 680123,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 3,
 		attack_attribute = 1,
@@ -1954,7 +1688,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680324] = {
+	uv0.weapon_property_319[680124] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -1962,7 +1696,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】精英人形Z36 大规模穿透自机狙",
+		name = "【2020英系活动B2】精英人形Z36 大规模穿透自机狙",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1971,7 +1705,7 @@ function ()
 		damage = 15,
 		corrected = 100,
 		min_range = 0,
-		id = 680324,
+		id = 680124,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2019,7 +1753,7 @@ function ()
 			isBound = true
 		}
 	}
-	uv0.weapon_property_319[680325] = {
+	uv0.weapon_property_319[680125] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -2027,16 +1761,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】精英人形欧根亲王 慢速直射后分叉-上",
+		name = "【2020英系活动B2】精英人形欧根亲王 慢速直射后分叉-上",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 18,
+		damage = 15,
 		corrected = 100,
 		min_range = 0,
-		id = 680325,
+		id = 680125,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 3,
 		attack_attribute = 1,
@@ -2071,7 +1805,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680326] = {
+	uv0.weapon_property_319[680126] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -2079,16 +1813,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】精英人形欧根亲王 慢速直射后分叉-下",
+		name = "【2020英系活动B2】精英人形欧根亲王 慢速直射后分叉-下",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 18,
+		damage = 15,
 		corrected = 100,
 		min_range = 0,
-		id = 680326,
+		id = 680126,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 3,
 		attack_attribute = 1,
@@ -2123,7 +1857,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680327] = {
+	uv0.weapon_property_319[680127] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -2131,16 +1865,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】精英人形欧根亲王 慢速直射后分叉-中",
+		name = "【2020英系活动B2】精英人形欧根亲王 慢速直射后分叉-中",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 18,
+		damage = 15,
 		corrected = 100,
 		min_range = 0,
-		id = 680327,
+		id = 680127,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 3,
 		attack_attribute = 1,
@@ -2175,7 +1909,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680328] = {
+	uv0.weapon_property_319[680128] = {
 		action_index = "",
 		range = 90,
 		type = 3,
@@ -2183,16 +1917,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】精英人形希佩尔海军上将 大范围鱼雷",
+		name = "【2020英系活动B2】精英人形希佩尔海军上将 大范围鱼雷",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 56,
+		damage = 40,
 		corrected = 100,
 		min_range = 0,
-		id = 680328,
+		id = 680128,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2225,7 +1959,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680329] = {
+	uv0.weapon_property_319[680129] = {
 		action_index = "attack",
 		range = 80,
 		type = 1,
@@ -2233,16 +1967,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】道中人形希佩尔海军上将 主炮射击3",
+		name = "【2020英系活动B2】道中人形希佩尔海军上将 主炮射击3",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 21,
+		damage = 18,
 		corrected = 100,
 		min_range = 0,
-		id = 680329,
+		id = 680129,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 3,
@@ -2269,7 +2003,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680330] = {
+	uv0.weapon_property_319[680130] = {
 		action_index = "attack",
 		range = 120,
 		type = 3,
@@ -2277,16 +2011,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D1】BOSS U81 开幕鱼雷1",
+		name = "【2020英系活动B1】BOSS U81 开幕鱼雷1",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 50,
+		damage = 32,
 		corrected = 100,
 		min_range = 0,
-		id = 680330,
+		id = 680130,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2317,7 +2051,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680331] = {
+	uv0.weapon_property_319[680131] = {
 		action_index = "attack",
 		range = 120,
 		type = 3,
@@ -2325,16 +2059,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D1】BOSS U81 开幕鱼雷2",
+		name = "【2020英系活动B1】BOSS U81 开幕鱼雷2",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 50,
+		damage = 32,
 		corrected = 100,
 		min_range = 0,
-		id = 680331,
+		id = 680131,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2365,7 +2099,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680332] = {
+	uv0.weapon_property_319[680132] = {
 		action_index = "attack",
 		range = 60,
 		type = 2,
@@ -2373,16 +2107,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D1】BOSS U81 常驻 3way驱逐炮",
+		name = "【2020英系活动B1】BOSS U81 常驻 3way驱逐炮",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 10,
+		damage = 8,
 		corrected = 100,
 		min_range = 0,
-		id = 680332,
+		id = 680132,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2413,7 +2147,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680333] = {
+	uv0.weapon_property_319[680133] = {
 		action_index = "attack",
 		range = 120,
 		type = 3,
@@ -2421,16 +2155,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D1】BOSS U81 第一波 潜行猎杀鱼雷",
+		name = "【2020英系活动B1】BOSS U81 第一波 潜行猎杀鱼雷",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 40,
+		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 680333,
+		id = 680133,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2459,7 +2193,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680334] = {
+	uv0.weapon_property_319[680134] = {
 		action_index = "",
 		range = 120,
 		type = 1,
@@ -2467,16 +2201,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D1】BOSS U81 第一波 上下封锁子母弹",
+		name = "【2020英系活动B1】BOSS U81 第一波 上下封锁子母弹",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 12,
+		damage = 14,
 		corrected = 100,
 		min_range = 0,
-		id = 680334,
+		id = 680134,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2505,7 +2239,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680335] = {
+	uv0.weapon_property_319[680135] = {
 		action_index = "attack",
 		range = 120,
 		type = 1,
@@ -2513,16 +2247,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D1】BOSS U81 第二波 3way 螺旋穿透弹",
+		name = "【2020英系活动B1】BOSS U81 第二波 3way 螺旋穿透弹",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 10,
+		damage = 9,
 		corrected = 100,
 		min_range = 0,
-		id = 680335,
+		id = 680135,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 3,
 		attack_attribute = 1,
@@ -2551,7 +2285,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680336] = {
+	uv0.weapon_property_319[680136] = {
 		action_index = "attack",
 		range = 120,
 		type = 1,
@@ -2559,16 +2293,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D1】BOSS U81 第二波  扇形弹幕",
+		name = "【2020英系活动B1】BOSS U81 第二波  扇形弹幕",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 10,
+		damage = 6,
 		corrected = 100,
 		min_range = 0,
-		id = 680336,
+		id = 680136,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2601,7 +2335,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680337] = {
+	uv0.weapon_property_319[680137] = {
 		action_index = "attack",
 		range = 120,
 		type = 3,
@@ -2609,16 +2343,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D1】BOSS U81 第三波 双排鱼雷",
+		name = "【2020英系活动B1】BOSS U81 第三波 双排鱼雷",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 40,
+		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 680337,
+		id = 680137,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2649,7 +2383,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680338] = {
+	uv0.weapon_property_319[680138] = {
 		action_index = "attack",
 		range = 120,
 		type = 1,
@@ -2657,7 +2391,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D1】BOSS U81 第三波 变向弹幕",
+		name = "【2020英系活动B1】BOSS U81 第三波 变向弹幕",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -2666,7 +2400,7 @@ function ()
 		damage = 14,
 		corrected = 100,
 		min_range = 0,
-		id = 680338,
+		id = 680138,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2695,7 +2429,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680339] = {
+	uv0.weapon_property_319[680139] = {
 		action_index = "attack",
 		range = 120,
 		type = 1,
@@ -2703,7 +2437,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D1】BOSS U81 第三波 变向弹幕",
+		name = "【2020英系活动B1】BOSS U81 第三波 变向弹幕",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -2712,7 +2446,7 @@ function ()
 		damage = 14,
 		corrected = 100,
 		min_range = 0,
-		id = 680339,
+		id = 680139,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2741,7 +2475,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680340] = {
+	uv0.weapon_property_319[680140] = {
 		action_index = "attack",
 		range = 120,
 		type = 3,
@@ -2749,16 +2483,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】BOSS 领洋者III型 三重鱼雷 ",
+		name = "【2020英系活动B2】BOSS 领洋者III型 三重鱼雷 ",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 50,
+		damage = 24,
 		corrected = 100,
 		min_range = 0,
-		id = 680340,
+		id = 680140,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -2789,7 +2523,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680341] = {
+	uv0.weapon_property_319[680141] = {
 		action_index = "attack",
 		range = 90,
 		type = 1,
@@ -2797,16 +2531,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】BOSS 领洋者III型 主炮扫射",
+		name = "【2020英系活动B2】BOSS 领洋者III型 主炮扫射",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 22,
+		damage = 15,
 		corrected = 100,
 		min_range = 0,
-		id = 680341,
+		id = 680141,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2841,7 +2575,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680342] = {
+	uv0.weapon_property_319[680142] = {
 		action_index = "attack",
 		range = 30,
 		type = 2,
@@ -2849,16 +2583,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】BOSS 领洋者III型 近程自卫扫射",
+		name = "【2020英系活动B2】BOSS 领洋者III型 近程自卫扫射",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 10,
+		damage = 8,
 		corrected = 100,
 		min_range = 0,
-		id = 680342,
+		id = 680142,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2885,7 +2619,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680343] = {
+	uv0.weapon_property_319[680143] = {
 		action_index = "attack",
 		range = 120,
 		type = 1,
@@ -2893,16 +2627,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】BOSS 领洋者III型 主炮集中",
+		name = "【2020英系活动B2】BOSS 领洋者III型 主炮集中",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 22,
+		damage = 15,
 		corrected = 100,
 		min_range = 0,
-		id = 680343,
+		id = 680143,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2929,7 +2663,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_319[680344] = {
+	uv0.weapon_property_319[680144] = {
 		action_index = "attack",
 		range = 80,
 		type = 2,
@@ -2937,16 +2671,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【2020英系活动D2】BOSS 领洋者III型 副炮变向扫射",
+		name = "【2020英系活动B2】BOSS 领洋者III型 副炮变向扫射",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 10,
+		damage = 8,
 		corrected = 100,
 		min_range = 0,
-		id = 680344,
+		id = 680144,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -2978,6 +2712,238 @@ function ()
 			690057,
 			690058,
 			690059
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_319[680146] = {
+		action_index = "attack",
+		range = 120,
+		type = 11,
+		fire_fx = "",
+		recover_time = 3,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【2020英系活动B3】BOSS 清除者 第一波 环绕浮游炮",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 8,
+		corrected = 100,
+		min_range = 0,
+		id = 680146,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 100,
+		queue = 2,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {},
+		barrage_ID = {
+			760169
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_319[680147] = {
+		action_index = "attack",
+		range = 120,
+		type = 11,
+		fire_fx = "",
+		recover_time = 3,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【2020英系活动B3】BOSS 清除者 第一波 环绕浮游炮",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 8,
+		corrected = 100,
+		min_range = 0,
+		id = 680147,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 100,
+		queue = 3,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {},
+		barrage_ID = {
+			760170
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_319[680148] = {
+		action_index = "",
+		range = 120,
+		type = 2,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【2020英系活动B3】BOSS 清除者 第一波 环绕浮游炮武器 开幕弹幕",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 680148,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9999,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			700601,
+			700602,
+			700603,
+			700604,
+			700605,
+			700606,
+			700607,
+			700608
+		},
+		barrage_ID = {
+			760098,
+			760099,
+			760100,
+			760101,
+			760102,
+			760103,
+			760104,
+			760105
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_319[680149] = {
+		action_index = "",
+		range = 120,
+		type = 2,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【2020英系活动B3】BOSS 清除者 第一波 环绕浮游炮武器 封位弹幕",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 680149,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9999,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			750095
+		},
+		barrage_ID = {
+			760164
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_319[680150] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【2020英系活动B3】BOSS 清除者 第一波 开幕主炮射击",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 12,
+		corrected = 100,
+		min_range = 0,
+		id = 680150,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 9999,
+		queue = 4,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			750096,
+			750096
+		},
+		barrage_ID = {
+			760165,
+			760166
 		},
 		oxy_type = {
 			1

@@ -1,72 +1,54 @@
 pg = pg or {}
 pg.equip_data_statistics_379 = {
-	[89046] = {
-		id = 89046,
-		value_2 = 6,
-		value_1 = "186",
-		base = 89040
+	[89009] = {
+		id = 89009,
+		value_2 = 14,
+		value_1 = "24",
+		base = 89000
 	},
-	[89047] = {
-		id = 89047,
-		value_2 = 6,
-		value_1 = "200",
-		base = 89040
+	[89010] = {
+		id = 89010,
+		value_2 = 15,
+		value_1 = "25",
+		base = 89000
 	},
-	[89048] = {
-		id = 89048,
-		value_2 = 7,
-		value_1 = "215",
-		base = 89040
-	},
-	[89049] = {
-		id = 89049,
-		value_2 = 7,
-		value_1 = "230",
-		base = 89040
-	},
-	[89050] = {
-		id = 89050,
-		value_2 = 8,
-		value_1 = "245",
-		base = 89040
-	},
-	[89051] = {
-		id = 89051,
+	[89011] = {
+		id = 89011,
 		anti_siren = 100,
-		base = 89040,
-		value_2 = 8,
-		value_1 = "260"
+		base = 89000,
+		value_2 = 16,
+		value_1 = "26"
 	},
-	[89052] = {
-		id = 89052,
+	[89012] = {
+		id = 89012,
 		anti_siren = 200,
-		base = 89040,
-		value_2 = 8,
-		value_1 = "275"
+		base = 89000,
+		value_2 = 17,
+		value_1 = "27"
 	},
-	[89053] = {
-		id = 89053,
+	[89013] = {
+		id = 89013,
 		anti_siren = 300,
-		base = 89040,
-		value_2 = 8,
-		value_1 = "290"
+		base = 89000,
+		value_2 = 18,
+		value_1 = "28"
 	},
-	[89060] = {
-		name = "チームエンブレム",
+	[89020] = {
+		name = "ぴょこぴょこ",
 		tech = 0,
 		type = 10,
 		speciality = "なし",
-		id = 89060,
-		value_2 = 16,
-		icon = "89060",
-		value_1 = "6",
-		attribute_2 = "hit",
+		id = 89020,
+		value_2 = 1,
+		icon = "89020",
+		value_1 = "200",
+		attribute_2 = "luck",
 		rarity = 5,
-		descrip = "元々はチームエンブレムとしてデザインされたはずのもの。ヘン...变身？",
-		nationality = 105,
+		descrip = "キズナアイのトレードマーク。ぴょこぴょこが本体という説も未だ根強く、ぴょこぴょこを取ると何が起こるのか……そもそもこれ、取れるんですか？",
+		nationality = 104,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "dodge",
+		attribute_1 = "durability",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -76,7 +58,7 @@ pg.equip_data_statistics_379 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6490
+			6390
 		},
 		part_main = {},
 		part_sub = {},
@@ -85,45 +67,55 @@ pg.equip_data_statistics_379 = {
 			"DEV"
 		}
 	},
-	[89061] = {
-		id = 89061,
-		value_1 = "7",
-		base = 89060
+	[89021] = {
+		id = 89021,
+		value_1 = "230",
+		base = 89020
 	},
-	[89062] = {
-		id = 89062,
-		value_2 = 17,
-		value_1 = "7",
-		base = 89060
+	[89022] = {
+		id = 89022,
+		value_1 = "260",
+		base = 89020
 	},
-	[89063] = {
-		id = 89063,
-		value_2 = 18,
-		value_1 = "8",
-		base = 89060
+	[89023] = {
+		id = 89023,
+		value_1 = "290",
+		base = 89020
 	},
-	[89064] = {
-		id = 89064,
-		value_2 = 19,
-		value_1 = "9",
-		base = 89060
+	[89024] = {
+		id = 89024,
+		value_1 = "320",
+		base = 89020
 	},
-	[89065] = {
-		id = 89065,
-		value_2 = 20,
-		value_1 = "10",
-		base = 89060
+	[89025] = {
+		id = 89025,
+		value_1 = "350",
+		base = 89020
 	},
-	[89066] = {
-		id = 89066,
-		value_2 = 21,
-		value_1 = "11",
-		base = 89060
+	[89026] = {
+		id = 89026,
+		value_1 = "380",
+		base = 89020
 	},
-	[89067] = {
-		id = 89067,
-		value_2 = 22,
-		value_1 = "12",
-		base = 89060
+	[89027] = {
+		id = 89027,
+		value_1 = "410",
+		base = 89020
+	},
+	[89028] = {
+		id = 89028,
+		value_1 = "440",
+		base = 89020
+	},
+	[89029] = {
+		id = 89029,
+		value_1 = "470",
+		base = 89020
+	},
+	[89030] = {
+		id = 89030,
+		value_2 = 2,
+		value_1 = "500",
+		base = 89020
 	}
 }

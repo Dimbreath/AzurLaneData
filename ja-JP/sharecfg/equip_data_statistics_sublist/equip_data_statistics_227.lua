@@ -1,48 +1,64 @@
 pg = pg or {}
 pg.equip_data_statistics_227 = {
-	[32124] = {
-		id = 32124,
-		damage = "10 x 4",
-		base = 32120,
+	[32043] = {
+		id = 32043,
+		damage = "10 x 3",
+		base = 32040,
 		weapon_id = {
-			32124
+			32043
 		}
 	},
-	[32125] = {
-		id = 32125,
-		damage = "11 x 4",
-		base = 32120,
+	[32044] = {
+		id = 32044,
+		damage = "11 x 3",
+		base = 32040,
 		weapon_id = {
-			32125
+			32044
 		}
 	},
-	[32126] = {
-		id = 32126,
-		damage = "12 x 4",
-		base = 32120,
+	[32045] = {
+		id = 32045,
+		damage = "12 x 3",
+		base = 32040,
 		weapon_id = {
-			32126
+			32045
 		}
 	},
-	[32140] = {
-		name = "140mm連装砲",
-		speciality = "拡散",
+	[32046] = {
+		id = 32046,
+		damage = "13 x 3",
+		base = 32040,
+		weapon_id = {
+			32046
+		}
+	},
+	[32047] = {
+		id = 32047,
+		damage = "13 x 3",
+		base = 32040,
+		weapon_id = {
+			32047
+		}
+	},
+	[32060] = {
+		name = "152mm単装砲",
+		speciality = "追尾",
 		type = 2,
 		tech = 3,
 		descrip = "0",
-		value_2 = 25,
-		icon = "32100",
+		value_2 = 12,
+		icon = "32060",
 		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "7 x 4",
+		rarity = 3,
+		damage = "6 x 3",
 		nationality = 3,
 		ammo = 2,
 		value_3 = 0,
-		id = 32140,
+		id = 32060,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			3
+			1
 		},
 		ammo_info = {
 			{
@@ -59,7 +75,7 @@ pg.equip_data_statistics_227 = {
 			},
 			{
 				4,
-				1101
+				1003
 			},
 			6,
 			10,
@@ -67,7 +83,7 @@ pg.equip_data_statistics_227 = {
 			12
 		},
 		weapon_id = {
-			32140
+			32060
 		},
 		skill_id = {},
 		part_main = {
@@ -84,110 +100,77 @@ pg.equip_data_statistics_227 = {
 			"HE"
 		}
 	},
-	[32141] = {
-		id = 32141,
-		damage = "8 x 4",
-		base = 32140,
+	[32061] = {
+		id = 32061,
+		damage = "8 x 3",
+		base = 32060,
 		weapon_id = {
-			32141
+			32061
 		}
 	},
-	[32142] = {
-		id = 32142,
-		damage = "9 x 4",
-		base = 32140,
+	[32062] = {
+		id = 32062,
+		damage = "10 x 3",
+		base = 32060,
 		weapon_id = {
-			32142
+			32062
 		}
 	},
-	[32143] = {
-		id = 32143,
-		damage = "10 x 4",
-		base = 32140,
+	[32063] = {
+		id = 32063,
+		damage = "12 x 3",
+		base = 32060,
 		weapon_id = {
-			32143
+			32063
 		}
 	},
-	[32144] = {
-		id = 32144,
-		damage = "11 x 4",
-		base = 32140,
+	[32064] = {
+		id = 32064,
+		damage = "14 x 3",
+		base = 32060,
 		weapon_id = {
-			32144
+			32064
 		}
 	},
-	[32145] = {
-		id = 32145,
-		damage = "12 x 4",
-		base = 32140,
+	[32065] = {
+		id = 32065,
+		damage = "15 x 3",
+		base = 32060,
 		weapon_id = {
-			32145
+			32065
 		}
 	},
-	[32146] = {
-		id = 32146,
-		damage = "13 x 4",
-		base = 32140,
+	[32066] = {
+		id = 32066,
+		damage = "16 x 3",
+		base = 32060,
 		weapon_id = {
-			32146
+			32066
 		}
 	},
-	[32147] = {
-		id = 32147,
-		damage = "14 x 4",
-		base = 32140,
+	[32067] = {
+		id = 32067,
+		damage = "16 x 3",
+		base = 32060,
 		weapon_id = {
-			32147
+			32067
 		}
 	},
-	[32148] = {
-		id = 32148,
-		damage = "15 x 4",
-		base = 32140,
-		weapon_id = {
-			32148
-		}
-	},
-	[32149] = {
-		id = 32149,
-		damage = "16 x 4",
-		base = 32140,
-		weapon_id = {
-			32149
-		}
-	},
-	[32150] = {
-		id = 32150,
-		damage = "17 x 4",
-		base = 32140,
-		weapon_id = {
-			32150
-		}
-	},
-	[32151] = {
-		anti_siren = 100,
-		damage = "17 x 4",
-		base = 32140,
-		id = 32151,
-		weapon_id = {
-			32151
-		}
-	},
-	[32200] = {
-		name = "155mm三連装砲",
-		speciality = "追尾",
+	[32100] = {
+		name = "140mm連装砲",
+		speciality = "拡散",
 		type = 2,
 		tech = 1,
 		descrip = "0",
-		value_2 = 12,
-		icon = "32200",
+		value_2 = 5,
+		icon = "32100",
 		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "6 x 6",
+		rarity = 2,
+		damage = "5 x 4",
 		nationality = 3,
 		ammo = 3,
 		value_3 = 0,
-		id = 32200,
+		id = 32100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -208,7 +191,7 @@ pg.equip_data_statistics_227 = {
 			},
 			{
 				4,
-				1105
+				1101
 			},
 			6,
 			10,
@@ -216,7 +199,7 @@ pg.equip_data_statistics_227 = {
 			12
 		},
 		weapon_id = {
-			32200
+			32100
 		},
 		skill_id = {},
 		part_main = {
@@ -230,6 +213,22 @@ pg.equip_data_statistics_227 = {
 			"IJN",
 			"CL",
 			"MG"
+		}
+	},
+	[32101] = {
+		id = 32101,
+		damage = "6 x 4",
+		base = 32100,
+		weapon_id = {
+			32101
+		}
+	},
+	[32102] = {
+		id = 32102,
+		damage = "7 x 4",
+		base = 32100,
+		weapon_id = {
+			32102
 		}
 	}
 }

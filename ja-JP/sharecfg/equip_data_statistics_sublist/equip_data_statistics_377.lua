@@ -1,127 +1,227 @@
 pg = pg or {}
 pg.equip_data_statistics_377 = {
-	[89002] = {
-		id = 89002,
-		value_2 = 7,
-		value_1 = "17",
-		base = 89000
-	},
-	[89003] = {
-		id = 89003,
-		value_2 = 8,
-		value_1 = "18",
-		base = 89000
-	},
-	[89004] = {
-		id = 89004,
-		value_2 = 9,
-		value_1 = "19",
-		base = 89000
-	},
-	[89005] = {
-		id = 89005,
-		value_2 = 10,
-		value_1 = "20",
-		base = 89000
-	},
-	[89006] = {
-		id = 89006,
-		value_2 = 11,
-		value_1 = "21",
-		base = 89000
-	},
-	[89007] = {
-		id = 89007,
+	[85420] = {
+		name = "305mm三連装砲Model1907",
+		speciality = "投射",
+		type = 4,
+		tech = 3,
+		descrip = "0",
 		value_2 = 12,
-		value_1 = "22",
-		base = 89000
-	},
-	[89008] = {
-		id = 89008,
-		value_2 = 13,
-		value_1 = "23",
-		base = 89000
-	},
-	[89009] = {
-		id = 89009,
-		value_2 = 14,
-		value_1 = "24",
-		base = 89000
-	},
-	[89010] = {
-		id = 89010,
-		value_2 = 15,
-		value_1 = "25",
-		base = 89000
-	},
-	[89011] = {
-		id = 89011,
-		anti_siren = 100,
-		base = 89000,
-		value_2 = 16,
-		value_1 = "26"
-	},
-	[89012] = {
-		id = 89012,
-		anti_siren = 200,
-		base = 89000,
-		value_2 = 17,
-		value_1 = "27"
-	},
-	[89013] = {
-		id = 89013,
-		anti_siren = 300,
-		base = 89000,
-		value_2 = 18,
-		value_1 = "28"
-	},
-	[89020] = {
-		name = "ぴょこぴょこ",
-		tech = 0,
-		type = 10,
-		speciality = "なし",
-		id = 89020,
-		value_2 = 1,
-		icon = "89020",
-		value_1 = "200",
-		attribute_2 = "luck",
-		rarity = 5,
-		descrip = "キズナアイのトレードマーク。ぴょこぴょこが本体という説も未だ根強く、ぴょこぴょこを取ると何が起こるのか……そもそもこれ、取れるんですか？",
-		nationality = 104,
-		ammo = 10,
+		icon = "85420",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "54 x 3",
+		nationality = 7,
+		ammo = 2,
 		value_3 = 0,
-		attribute_1 = "durability",
+		id = 85420,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1502
+			}
+		},
 		equip_info = {
-			6
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
 		},
-		weapon_id = {},
-		skill_id = {
-			6390
+		weapon_id = {
+			85420
 		},
-		part_main = {},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
 		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"DEV"
+			"SN",
+			"BB",
+			"MG",
+			"GangutMG"
 		}
 	},
-	[89021] = {
-		id = 89021,
-		value_1 = "230",
-		base = 89020
+	[85421] = {
+		id = 85421,
+		damage = "59 x 3",
+		base = 85420,
+		weapon_id = {
+			85421
+		}
 	},
-	[89022] = {
-		id = 89022,
-		value_1 = "260",
-		base = 89020
+	[85422] = {
+		id = 85422,
+		damage = "64 x 3",
+		base = 85420,
+		weapon_id = {
+			85422
+		}
 	},
-	[89023] = {
-		id = 89023,
-		value_1 = "290",
-		base = 89020
+	[85423] = {
+		id = 85423,
+		damage = "70 x 3",
+		base = 85420,
+		weapon_id = {
+			85423
+		}
+	},
+	[85424] = {
+		id = 85424,
+		damage = "76 x 3",
+		base = 85420,
+		weapon_id = {
+			85424
+		}
+	},
+	[85425] = {
+		id = 85425,
+		damage = "84 x 3",
+		base = 85420,
+		weapon_id = {
+			85425
+		}
+	},
+	[85426] = {
+		id = 85426,
+		damage = "92 x 3",
+		base = 85420,
+		weapon_id = {
+			85426
+		}
+	},
+	[85427] = {
+		id = 85427,
+		damage = "92 x 3",
+		base = 85420,
+		weapon_id = {
+			85427
+		}
+	},
+	[85440] = {
+		name = "152mm連装砲Model1892",
+		speciality = "追尾",
+		type = 2,
+		tech = 3,
+		descrip = "0",
+		value_2 = 12,
+		icon = "85440",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "8 x 4",
+		nationality = 7,
+		ammo = 3,
+		value_3 = 0,
+		id = 85440,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1001
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1001
+			},
+			{
+				4,
+				1101
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85440
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		}
+	},
+	[85441] = {
+		id = 85441,
+		damage = "9 x 4",
+		base = 85440,
+		weapon_id = {
+			85441
+		}
+	},
+	[85442] = {
+		id = 85442,
+		damage = "10 x 4",
+		base = 85440,
+		weapon_id = {
+			85442
+		}
+	},
+	[85443] = {
+		id = 85443,
+		damage = "11 x 4",
+		base = 85440,
+		weapon_id = {
+			85443
+		}
+	},
+	[85444] = {
+		id = 85444,
+		damage = "12 x 4",
+		base = 85440,
+		weapon_id = {
+			85444
+		}
+	},
+	[85445] = {
+		id = 85445,
+		damage = "13 x 4",
+		base = 85440,
+		weapon_id = {
+			85445
+		}
+	},
+	[85446] = {
+		id = 85446,
+		damage = "14 x 4",
+		base = 85440,
+		weapon_id = {
+			85446
+		}
+	},
+	[85447] = {
+		id = 85447,
+		damage = "14 x 4",
+		base = 85440,
+		weapon_id = {
+			85447
+		}
 	}
 }

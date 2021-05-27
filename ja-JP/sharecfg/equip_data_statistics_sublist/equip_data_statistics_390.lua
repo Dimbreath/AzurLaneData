@@ -1,36 +1,88 @@
 pg = pg or {}
 pg.equip_data_statistics_390 = {
-	[90046] = {
-		id = 90046,
-		damage = "8 x 5",
-		base = 90040,
-		weapon_id = {
-			90046
-		}
+	[89263] = {
+		id = 89263,
+		value_2 = 18,
+		value_1 = "20",
+		base = 89260
 	},
-	[90047] = {
-		id = 90047,
-		damage = "8 x 5",
-		base = 90040,
-		weapon_id = {
-			90047
-		}
+	[89264] = {
+		id = 89264,
+		value_2 = 19,
+		value_1 = "22",
+		base = 89260
 	},
-	[90100] = {
-		name = "138.6mm単装砲Mle1929",
+	[89265] = {
+		id = 89265,
+		value_2 = 20,
+		value_1 = "24",
+		base = 89260
+	},
+	[89266] = {
+		id = 89266,
+		value_2 = 22,
+		value_1 = "26",
+		base = 89260
+	},
+	[89267] = {
+		id = 89267,
+		value_2 = 24,
+		value_1 = "28",
+		base = 89260
+	},
+	[89268] = {
+		id = 89268,
+		value_2 = 26,
+		value_1 = "30",
+		base = 89260
+	},
+	[89269] = {
+		id = 89269,
+		value_2 = 28,
+		value_1 = "32",
+		base = 89260
+	},
+	[89270] = {
+		id = 89270,
+		value_2 = 30,
+		value_1 = "35",
+		base = 89260
+	},
+	[89271] = {
+		id = 89271,
+		anti_siren = 100,
+		base = 89260,
+		value_2 = 32,
+		value_1 = "38"
+	},
+	[89272] = {
+		id = 89272,
+		anti_siren = 200,
+		base = 89260,
+		value_2 = 34,
+		value_1 = "41"
+	},
+	[89273] = {
+		id = 89273,
+		anti_siren = 300,
+		base = 89260,
+		value_2 = 36,
+		value_1 = "44"
+	},
+	[90000] = {
+		name = "130mm単装砲Mle1924",
 		speciality = "追尾",
 		type = 1,
 		tech = 1,
+		rarity = 1,
 		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "50100",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "4 x 5",
+		value_2 = 0,
+		icon = "50000",
+		damage = "3 x 5",
 		nationality = 8,
 		ammo = 3,
 		value_3 = 0,
-		id = 90100,
+		id = 90000,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -59,7 +111,7 @@ pg.equip_data_statistics_390 = {
 			12
 		},
 		weapon_id = {
-			90100
+			90000
 		},
 		skill_id = {},
 		part_main = {
@@ -82,78 +134,54 @@ pg.equip_data_statistics_390 = {
 			"MG"
 		}
 	},
-	[90101] = {
-		id = 90101,
+	[90001] = {
+		id = 90001,
+		damage = "3 x 5",
+		base = 90000,
+		weapon_id = {
+			90001
+		}
+	},
+	[90002] = {
+		id = 90002,
 		damage = "4 x 5",
-		base = 90100,
+		base = 90000,
 		weapon_id = {
-			90101
+			90002
 		}
 	},
-	[90102] = {
-		id = 90102,
-		damage = "5 x 5",
-		base = 90100,
+	[90003] = {
+		id = 90003,
+		damage = "4 x 5",
+		base = 90000,
 		weapon_id = {
-			90102
+			90003
 		}
 	},
-	[90103] = {
-		id = 90103,
-		damage = "6 x 5",
-		base = 90100,
-		weapon_id = {
-			90103
-		}
-	},
-	[90104] = {
-		id = 90104,
-		damage = "7 x 5",
-		base = 90100,
-		weapon_id = {
-			90104
-		}
-	},
-	[90105] = {
-		id = 90105,
-		damage = "8 x 5",
-		base = 90100,
-		weapon_id = {
-			90105
-		}
-	},
-	[90106] = {
-		id = 90106,
-		damage = "9 x 5",
-		base = 90100,
-		weapon_id = {
-			90106
-		}
-	},
-	[90120] = {
-		name = "138.6mm単装砲Mle1929",
+	[90020] = {
+		name = "130mm単装砲Mle1924",
 		speciality = "追尾",
 		type = 1,
 		tech = 2,
 		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "50100",
+		value_2 = 5,
+		icon = "50000",
 		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "4 x 5",
+		rarity = 2,
+		damage = "3 x 5",
 		nationality = 8,
-		ammo = 2,
+		ammo = 3,
 		value_3 = 0,
-		id = 90120,
+		id = 90020,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			3
+			1
 		},
 		ammo_info = {
 			{
 				1,
-				2206
+				2200
 			}
 		},
 		equip_info = {
@@ -161,7 +189,7 @@ pg.equip_data_statistics_390 = {
 			2,
 			{
 				3,
-				2206
+				2200
 			},
 			{
 				4,
@@ -173,7 +201,7 @@ pg.equip_data_statistics_390 = {
 			12
 		},
 		weapon_id = {
-			90120
+			90020
 		},
 		skill_id = {},
 		part_main = {
@@ -193,56 +221,7 @@ pg.equip_data_statistics_390 = {
 		label = {
 			"FFNF",
 			"DD",
-			"MG",
-			"HE"
-		}
-	},
-	[90121] = {
-		id = 90121,
-		damage = "5 x 5",
-		base = 90120,
-		weapon_id = {
-			90121
-		}
-	},
-	[90122] = {
-		id = 90122,
-		damage = "6 x 5",
-		base = 90120,
-		weapon_id = {
-			90122
-		}
-	},
-	[90123] = {
-		id = 90123,
-		damage = "7 x 5",
-		base = 90120,
-		weapon_id = {
-			90123
-		}
-	},
-	[90124] = {
-		id = 90124,
-		damage = "8 x 5",
-		base = 90120,
-		weapon_id = {
-			90124
-		}
-	},
-	[90125] = {
-		id = 90125,
-		damage = "9 x 5",
-		base = 90120,
-		weapon_id = {
-			90125
-		}
-	},
-	[90126] = {
-		id = 90126,
-		damage = "10 x 5",
-		base = 90120,
-		weapon_id = {
-			90126
+			"MG"
 		}
 	}
 }

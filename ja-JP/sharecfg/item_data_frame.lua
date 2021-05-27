@@ -2,6 +2,7 @@ pg = pg or {}
 pg.item_data_frame = {
 	[0] = {
 		name = "デフォルト",
+		gain_by = "",
 		time_second = 0,
 		id = 0,
 		time_limit_type = 0,
@@ -10,6 +11,7 @@ pg.item_data_frame = {
 	},
 	[101] = {
 		name = "一周年記念",
+		gain_by = "",
 		time_second = 0,
 		id = 101,
 		time_limit_type = 0,
@@ -18,6 +20,7 @@ pg.item_data_frame = {
 	},
 	[102] = {
 		name = "二周年記念",
+		gain_by = "",
 		time_second = 0,
 		id = 102,
 		time_limit_type = 0,
@@ -26,6 +29,7 @@ pg.item_data_frame = {
 	},
 	[103] = {
 		name = "1000日の記念",
+		gain_by = "",
 		time_second = 0,
 		id = 103,
 		time_limit_type = 0,
@@ -34,6 +38,7 @@ pg.item_data_frame = {
 	},
 	[104] = {
 		name = "三周年記念",
+		gain_by = "",
 		time_second = 0,
 		id = 104,
 		time_limit_type = 0,
@@ -42,6 +47,7 @@ pg.item_data_frame = {
 	},
 	[201] = {
 		name = "チャレンジャー",
+		gain_by = "",
 		time_second = 0,
 		id = 201,
 		time_limit_type = 0,
@@ -50,6 +56,7 @@ pg.item_data_frame = {
 	},
 	[202] = {
 		name = "チャレンジャーII",
+		gain_by = "",
 		time_second = 0,
 		id = 202,
 		time_limit_type = 0,
@@ -58,6 +65,7 @@ pg.item_data_frame = {
 	},
 	[203] = {
 		name = "チャレンジャーIII",
+		gain_by = "",
 		time_second = 0,
 		id = 203,
 		time_limit_type = 0,
@@ -66,6 +74,7 @@ pg.item_data_frame = {
 	},
 	[204] = {
 		name = "チャレンジャーIV",
+		gain_by = "",
 		time_second = 0,
 		id = 204,
 		time_limit_type = 0,
@@ -74,6 +83,7 @@ pg.item_data_frame = {
 	},
 	[205] = {
 		name = "チャレンジャーV",
+		gain_by = "",
 		time_second = 0,
 		id = 205,
 		time_limit_type = 0,
@@ -82,6 +92,7 @@ pg.item_data_frame = {
 	},
 	[206] = {
 		name = "チャレンジャーVI",
+		gain_by = "",
 		time_second = 0,
 		id = 206,
 		time_limit_type = 0,
@@ -90,6 +101,7 @@ pg.item_data_frame = {
 	},
 	[207] = {
 		name = "チャレンジャーVII",
+		gain_by = "",
 		time_second = 0,
 		id = 207,
 		time_limit_type = 0,
@@ -98,6 +110,7 @@ pg.item_data_frame = {
 	},
 	[208] = {
 		name = "チャレンジャーVIII",
+		gain_by = "",
 		time_second = 0,
 		id = 208,
 		time_limit_type = 0,
@@ -106,6 +119,7 @@ pg.item_data_frame = {
 	},
 	[209] = {
 		name = "チャレンジャーIX",
+		gain_by = "",
 		time_second = 0,
 		id = 209,
 		time_limit_type = 0,
@@ -114,6 +128,7 @@ pg.item_data_frame = {
 	},
 	[300] = {
 		name = "カリスマ指揮官",
+		gain_by = "",
 		time_second = 2592000,
 		id = 300,
 		time_limit_type = 1,
@@ -122,6 +137,7 @@ pg.item_data_frame = {
 	},
 	[301] = {
 		name = "フレンドシップ",
+		gain_by = "",
 		time_second = 2592000,
 		id = 301,
 		time_limit_type = 1,
@@ -130,6 +146,7 @@ pg.item_data_frame = {
 	},
 	[302] = {
 		name = "鉄血の誓い",
+		gain_by = "黒鉄の楽章、誓いの海",
 		time_second = 0,
 		id = 302,
 		time_limit_type = 0,
@@ -138,6 +155,7 @@ pg.item_data_frame = {
 	},
 	[303] = {
 		name = "自由の翼",
+		gain_by = "開かれし紺碧の砂箱",
 		time_second = 0,
 		id = 303,
 		time_limit_type = 0,
@@ -146,6 +164,7 @@ pg.item_data_frame = {
 	},
 	[304] = {
 		name = "威光のサディア",
+		gain_by = "悲歎せし焔海の詩",
 		time_second = 0,
 		id = 304,
 		time_limit_type = 0,
@@ -154,6 +173,7 @@ pg.item_data_frame = {
 	},
 	[305] = {
 		name = "桜儀典刃",
+		gain_by = "翳りし満ちる影の華",
 		time_second = 0,
 		id = 305,
 		time_limit_type = 0,
@@ -162,6 +182,7 @@ pg.item_data_frame = {
 	},
 	[306] = {
 		name = "連合の証",
+		gain_by = "凍絶の北海",
 		time_second = 0,
 		id = 306,
 		time_limit_type = 0,
@@ -170,6 +191,7 @@ pg.item_data_frame = {
 	},
 	[307] = {
 		name = "電翔の翼",
+		gain_by = "闇靄払う銀翼",
 		time_second = 0,
 		id = 307,
 		time_limit_type = 0,
@@ -178,6 +200,7 @@ pg.item_data_frame = {
 	},
 	[308] = {
 		name = "アイリス讃頌",
+		gain_by = "神穹を衝く聖歌",
 		time_second = 0,
 		id = 308,
 		time_limit_type = 0,
@@ -186,6 +209,7 @@ pg.item_data_frame = {
 	},
 	[309] = {
 		name = "ロイヤルクラウン",
+		gain_by = "極夜照らす幻光",
 		time_second = 0,
 		id = 309,
 		time_limit_type = 0,
@@ -194,6 +218,7 @@ pg.item_data_frame = {
 	},
 	[311] = {
 		name = "蝶影蜃楼",
+		gain_by = "刹那觀る胡蝶の夢",
 		time_second = 0,
 		id = 311,
 		time_limit_type = 0,
@@ -202,6 +227,7 @@ pg.item_data_frame = {
 	},
 	[312] = {
 		name = "鉄血の鋳型",
+		gain_by = "虚畳なりし限象",
 		time_second = 0,
 		id = 312,
 		time_limit_type = 0,
@@ -210,6 +236,7 @@ pg.item_data_frame = {
 	},
 	[313] = {
 		name = "氷華の徽",
+		gain_by = "暁射す氷華の嵐",
 		time_second = 0,
 		id = 313,
 		time_limit_type = 0,
@@ -218,6 +245,7 @@ pg.item_data_frame = {
 	},
 	[314] = {
 		name = "帝国の支柱",
+		gain_by = "讃える復興の迷路",
 		time_second = 0,
 		id = 314,
 		time_limit_type = 0,
@@ -226,14 +254,16 @@ pg.item_data_frame = {
 	},
 	[315] = {
 		name = "チャージングウィング",
+		gain_by = "",
 		time_second = 0,
 		id = 315,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>後日イベントで入手可能</color>",
+		desc = "<color=#ffffff>ユニオン所属、最大最強のブラックドラゴン！一緒に世界を動かそう！</color>――「照らす螺旋の鏡海」イベントで入手可能",
 		scene = {}
 	},
 	[401] = {
 		name = "殿堂入り：エンタープライズ",
+		gain_by = "",
 		time_second = 0,
 		id = 401,
 		time_limit_type = 0,
@@ -242,6 +272,7 @@ pg.item_data_frame = {
 	},
 	[402] = {
 		name = "殿堂入り：ベルファスト",
+		gain_by = "",
 		time_second = 0,
 		id = 402,
 		time_limit_type = 0,
@@ -250,6 +281,7 @@ pg.item_data_frame = {
 	},
 	[403] = {
 		name = "殿堂入り：綾波",
+		gain_by = "",
 		time_second = 0,
 		id = 403,
 		time_limit_type = 0,
@@ -258,6 +290,7 @@ pg.item_data_frame = {
 	},
 	[501] = {
 		name = "饅頭ピザ屋記念枠",
+		gain_by = "",
 		time_second = 0,
 		id = 501,
 		time_limit_type = 0,

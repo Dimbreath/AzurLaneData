@@ -1,318 +1,123 @@
 pg = pg or {}
 pg.equip_data_statistics_142 = {
-	[19047] = {
-		id = 19047,
-		base = 19040,
+	[18228] = {
+		id = 18228,
+		base = 18220,
 		ammo_info = {
 			{
 				6,
-				50747
+				59748
 			},
 			{
-				5,
-				52947
-			},
-			{
-				5,
-				52147
+				4,
+				51248
 			}
 		},
 		weapon_id = {
-			19047
+			18228
 		}
 	},
-	[19060] = {
-		name = "SBD（マクラスキー隊）",
-		type = 9,
-		speciality = "爆撃",
-		rarity = 5,
-		tech = 0,
-		descrip = "かのミッドウェイ大戦のユニオンの英雄が率いるSBD爆撃機隊",
-		value_2 = 45,
-		icon = "19060",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 19060,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
+	[18229] = {
+		id = 18229,
+		base = 18220,
 		ammo_info = {
 			{
-				5,
-				52960
+				6,
+				59749
 			},
 			{
-				5,
-				52160
+				4,
+				51249
 			}
 		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
 		weapon_id = {
-			19060
-		},
-		skill_id = {
-			6240
-		},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"DB"
+			18229
 		}
 	},
-	[19061] = {
-		id = 19061,
-		base = 19060,
+	[18230] = {
+		id = 18230,
+		base = 18220,
 		ammo_info = {
 			{
-				5,
-				52961
+				6,
+				59750
 			},
 			{
-				5,
-				52161
+				4,
+				51250
 			}
 		},
 		weapon_id = {
-			19061
+			18230
 		}
 	},
-	[19062] = {
-		id = 19062,
-		base = 19060,
-		ammo_info = {
-			{
-				5,
-				52962
-			},
-			{
-				5,
-				52162
-			}
-		},
-		weapon_id = {
-			19062
-		}
-	},
-	[19063] = {
-		id = 19063,
-		base = 19060,
-		ammo_info = {
-			{
-				5,
-				52963
-			},
-			{
-				5,
-				52163
-			}
-		},
-		weapon_id = {
-			19063
-		}
-	},
-	[19064] = {
-		id = 19064,
-		base = 19060,
-		ammo_info = {
-			{
-				5,
-				52964
-			},
-			{
-				5,
-				52164
-			}
-		},
-		weapon_id = {
-			19064
-		}
-	},
-	[19065] = {
-		id = 19065,
-		base = 19060,
-		ammo_info = {
-			{
-				5,
-				52965
-			},
-			{
-				5,
-				52165
-			}
-		},
-		weapon_id = {
-			19065
-		}
-	},
-	[19066] = {
-		id = 19066,
-		base = 19060,
-		ammo_info = {
-			{
-				5,
-				52966
-			},
-			{
-				5,
-				52166
-			}
-		},
-		weapon_id = {
-			19066
-		}
-	},
-	[19067] = {
-		id = 19067,
-		base = 19060,
-		ammo_info = {
-			{
-				5,
-				52967
-			},
-			{
-				5,
-				52167
-			}
-		},
-		weapon_id = {
-			19067
-		}
-	},
-	[19068] = {
-		id = 19068,
-		base = 19060,
-		ammo_info = {
-			{
-				5,
-				52968
-			},
-			{
-				5,
-				52168
-			}
-		},
-		weapon_id = {
-			19068
-		}
-	},
-	[19069] = {
-		id = 19069,
-		base = 19060,
-		ammo_info = {
-			{
-				5,
-				52969
-			},
-			{
-				5,
-				52169
-			}
-		},
-		weapon_id = {
-			19069
-		}
-	},
-	[19070] = {
-		id = 19070,
-		base = 19060,
-		ammo_info = {
-			{
-				5,
-				52970
-			},
-			{
-				5,
-				52170
-			}
-		},
-		weapon_id = {
-			19070
-		}
-	},
-	[19071] = {
+	[18231] = {
 		anti_siren = 100,
-		base = 19060,
-		id = 19071,
+		base = 18220,
+		id = 18231,
 		ammo_info = {
 			{
-				5,
-				52971
+				6,
+				59751
 			},
 			{
-				5,
-				52171
+				4,
+				51251
 			}
 		},
 		weapon_id = {
-			19071
+			18231
 		}
 	},
-	[19072] = {
+	[18232] = {
 		anti_siren = 200,
-		base = 19060,
-		id = 19072,
+		base = 18220,
+		id = 18232,
 		ammo_info = {
 			{
-				5,
-				52972
+				6,
+				59752
 			},
 			{
-				5,
-				52172
+				4,
+				51252
 			}
 		},
 		weapon_id = {
-			19072
+			18232
 		}
 	},
-	[19073] = {
+	[18233] = {
 		anti_siren = 300,
-		base = 19060,
-		id = 19073,
+		base = 18220,
+		id = 18233,
 		ammo_info = {
 			{
-				5,
-				52973
+				6,
+				59753
 			},
 			{
-				5,
-				52173
+				4,
+				51253
 			}
 		},
 		weapon_id = {
-			19073
+			18233
 		}
 	},
-	[19100] = {
-		name = "SB2Cヘルダイバー",
-		type = 9,
-		speciality = "爆撃",
-		rarity = 2,
+	[19000] = {
+		name = "SBDドーントレス",
 		tech = 1,
+		speciality = "爆撃",
+		type = 9,
+		rarity = 1,
 		descrip = "0",
-		value_2 = 5,
-		icon = "19100",
-		attribute_2 = "air",
+		value_2 = 0,
+		icon = "19000",
 		nationality = 1,
 		ammo = 5,
 		value_3 = 0,
-		id = 19100,
+		id = 19000,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -327,7 +132,7 @@ pg.equip_data_statistics_142 = {
 			},
 			{
 				5,
-				52300
+				52100
 			}
 		},
 		equip_info = {
@@ -337,7 +142,7 @@ pg.equip_data_statistics_142 = {
 			9
 		},
 		weapon_id = {
-			19100
+			19000
 		},
 		skill_id = {},
 		part_main = {
@@ -353,6 +158,265 @@ pg.equip_data_statistics_142 = {
 			"USS",
 			"CV",
 			"DB"
+		}
+	},
+	[19001] = {
+		id = 19001,
+		base = 19000,
+		ammo_info = {
+			{
+				6,
+				50701
+			},
+			{
+				5,
+				52901
+			},
+			{
+				5,
+				52101
+			}
+		},
+		weapon_id = {
+			19001
+		}
+	},
+	[19002] = {
+		id = 19002,
+		base = 19000,
+		ammo_info = {
+			{
+				6,
+				50702
+			},
+			{
+				5,
+				52902
+			},
+			{
+				5,
+				52102
+			}
+		},
+		weapon_id = {
+			19002
+		}
+	},
+	[19003] = {
+		id = 19003,
+		base = 19000,
+		ammo_info = {
+			{
+				6,
+				50703
+			},
+			{
+				5,
+				52903
+			},
+			{
+				5,
+				52103
+			}
+		},
+		weapon_id = {
+			19003
+		}
+	},
+	[19020] = {
+		name = "SBDドーントレス",
+		type = 9,
+		speciality = "爆撃",
+		rarity = 2,
+		tech = 2,
+		descrip = "0",
+		value_2 = 5,
+		icon = "19000",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 19020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50720
+			},
+			{
+				5,
+				52920
+			},
+			{
+				5,
+				52120
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			19020
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
+	},
+	[19021] = {
+		id = 19021,
+		base = 19020,
+		ammo_info = {
+			{
+				6,
+				50721
+			},
+			{
+				5,
+				52921
+			},
+			{
+				5,
+				52121
+			}
+		},
+		weapon_id = {
+			19021
+		}
+	},
+	[19022] = {
+		id = 19022,
+		base = 19020,
+		ammo_info = {
+			{
+				6,
+				50722
+			},
+			{
+				5,
+				52922
+			},
+			{
+				5,
+				52122
+			}
+		},
+		weapon_id = {
+			19022
+		}
+	},
+	[19023] = {
+		id = 19023,
+		base = 19020,
+		ammo_info = {
+			{
+				6,
+				50723
+			},
+			{
+				5,
+				52923
+			},
+			{
+				5,
+				52123
+			}
+		},
+		weapon_id = {
+			19023
+		}
+	},
+	[19040] = {
+		name = "SBDドーントレス",
+		type = 9,
+		speciality = "爆撃",
+		rarity = 3,
+		tech = 3,
+		descrip = "0",
+		value_2 = 12,
+		icon = "19000",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 19040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50740
+			},
+			{
+				5,
+				52940
+			},
+			{
+				5,
+				52140
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			19040
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
+	},
+	[19041] = {
+		id = 19041,
+		base = 19040,
+		ammo_info = {
+			{
+				6,
+				50741
+			},
+			{
+				5,
+				52941
+			},
+			{
+				5,
+				52141
+			}
+		},
+		weapon_id = {
+			19041
 		}
 	}
 }

@@ -13,10 +13,10 @@ pg.activity_const = {
 		act_id = 122
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 708
+		act_id = 4000
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 956
+		act_id = 989
 	},
 	ANNIVERSARY_TASK_LIST_ID = {
 		act_id = 10122
@@ -758,5 +758,8 @@ pg.activity_const = {
 	},
 	NEWMEIXIV4_SKIRMISH_ID = {
 		act_id = 974
+	},
+	MINIGAME_DANGAOBAOWEIZHAN = {
+		act_id = 987
 	}
 }

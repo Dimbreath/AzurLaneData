@@ -2,6 +2,169 @@ pg = pg or {}
 pg.weapon_property_70 = {}
 
 function ()
+	uv0.weapon_property_70[45350] = {
+		id = 45350,
+		reload_max = 2200,
+		damage = 144,
+		base = 45340
+	}
+	uv0.weapon_property_70[45351] = {
+		reload_max = 2200,
+		damage = 144,
+		base = 45340,
+		id = 45351,
+		corrected = 104
+	}
+	uv0.weapon_property_70[45400] = {
+		action_index = "attack",
+		range = 50,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "潜艇用G7e鱼雷",
+		aim_type = 1,
+		torpedo_ammo = 4,
+		expose = 0,
+		angle = 80,
+		charge_param = "",
+		damage = 52,
+		corrected = 100,
+		min_range = 0,
+		id = 45400,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3050,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0.5,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1826
+		},
+		barrage_ID = {
+			1601
+		},
+		oxy_type = {
+			1,
+			2
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_70[45401] = {
+		id = 45401,
+		reload_max = 2985,
+		damage = 59,
+		base = 45400
+	}
+	uv0.weapon_property_70[45402] = {
+		id = 45402,
+		reload_max = 2920,
+		damage = 66,
+		base = 45400
+	}
+	uv0.weapon_property_70[45403] = {
+		id = 45403,
+		reload_max = 2855,
+		damage = 74,
+		base = 45400
+	}
+	uv0.weapon_property_70[45404] = {
+		id = 45404,
+		reload_max = 2790,
+		damage = 82,
+		base = 45400
+	}
+	uv0.weapon_property_70[45405] = {
+		id = 45405,
+		reload_max = 2725,
+		damage = 90,
+		base = 45400
+	}
+	uv0.weapon_property_70[45406] = {
+		id = 45406,
+		reload_max = 2660,
+		damage = 98,
+		base = 45400
+	}
+	uv0.weapon_property_70[45420] = {
+		action_index = "attack",
+		range = 50,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "潜艇用G7e鱼雷",
+		aim_type = 1,
+		torpedo_ammo = 4,
+		expose = 0,
+		angle = 80,
+		charge_param = "",
+		damage = 58,
+		corrected = 100,
+		min_range = 0,
+		id = 45420,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 2900,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0.5,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1826
+		},
+		barrage_ID = {
+			1601
+		},
+		oxy_type = {
+			1,
+			2
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_70[45421] = {
+		id = 45421,
+		reload_max = 2830,
+		damage = 66,
+		base = 45420
+	}
+	uv0.weapon_property_70[45422] = {
+		id = 45422,
+		reload_max = 2760,
+		damage = 74,
+		base = 45420
+	}
+	uv0.weapon_property_70[45423] = {
+		id = 45423,
+		reload_max = 2690,
+		damage = 82,
+		base = 45420
+	}
+	uv0.weapon_property_70[45424] = {
+		id = 45424,
+		reload_max = 2620,
+		damage = 90,
+		base = 45420
+	}
 	uv0.weapon_property_70[45425] = {
 		id = 45425,
 		reload_max = 2550,
@@ -478,204 +641,5 @@ function ()
 		reload_max = 163,
 		damage = 89,
 		base = 46060
-	}
-	uv0.weapon_property_70[46071] = {
-		reload_max = 163,
-		damage = 89,
-		base = 46060,
-		id = 46071,
-		corrected = 104
-	}
-	uv0.weapon_property_70[46100] = {
-		action_index = "attack",
-		range = 23,
-		type = 22,
-		fire_fx = "fangkongpaohuoshe",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "37mm機銃T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 46100,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 3,
-		reload_max = 118,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/cannon-air",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2000
-		},
-		barrage_ID = {
-			2000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_70[46101] = {
-		id = 46101,
-		reload_max = 116,
-		damage = 9,
-		base = 46100
-	}
-	uv0.weapon_property_70[46102] = {
-		id = 46102,
-		reload_max = 114,
-		damage = 10,
-		base = 46100
-	}
-	uv0.weapon_property_70[46103] = {
-		id = 46103,
-		reload_max = 112,
-		damage = 12,
-		base = 46100
-	}
-	uv0.weapon_property_70[46120] = {
-		action_index = "attack",
-		range = 23,
-		type = 22,
-		fire_fx = "fangkongpaohuoshe",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "37mm機銃T2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 11,
-		corrected = 100,
-		min_range = 0,
-		id = 46120,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 3,
-		reload_max = 113,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/cannon-air",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2000
-		},
-		barrage_ID = {
-			2000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_70[46121] = {
-		id = 46121,
-		reload_max = 110,
-		damage = 12,
-		base = 46120
-	}
-	uv0.weapon_property_70[46122] = {
-		id = 46122,
-		reload_max = 108,
-		damage = 14,
-		base = 46120
-	}
-	uv0.weapon_property_70[46123] = {
-		id = 46123,
-		reload_max = 106,
-		damage = 16,
-		base = 46120
-	}
-	uv0.weapon_property_70[46140] = {
-		action_index = "attack",
-		range = 23,
-		type = 22,
-		fire_fx = "fangkongpaohuoshe",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "37mm機銃T3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 100,
-		min_range = 0,
-		id = 46140,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 3,
-		reload_max = 108,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/cannon-air",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2000
-		},
-		barrage_ID = {
-			2000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_70[46141] = {
-		id = 46141,
-		reload_max = 105,
-		damage = 14,
-		base = 46140
-	}
-	uv0.weapon_property_70[46142] = {
-		id = 46142,
-		reload_max = 102,
-		damage = 16,
-		base = 46140
-	}
-	uv0.weapon_property_70[46143] = {
-		id = 46143,
-		reload_max = 100,
-		damage = 18,
-		base = 46140
-	}
-	uv0.weapon_property_70[46144] = {
-		id = 46144,
-		reload_max = 99,
-		damage = 20,
-		base = 46140
 	}
 end()

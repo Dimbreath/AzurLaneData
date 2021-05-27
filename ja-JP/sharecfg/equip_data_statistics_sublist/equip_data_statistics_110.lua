@@ -1,43 +1,60 @@
 pg = pg or {}
 pg.equip_data_statistics_110 = {
-	[15105] = {
-		id = 15105,
-		damage = "100 x 3",
-		base = 15100,
+	[15048] = {
+		id = 15048,
+		damage = "115 x 3",
+		base = 15040,
 		weapon_id = {
-			15105
+			15048
 		}
 	},
-	[15106] = {
-		id = 15106,
-		damage = "109 x 3",
-		base = 15100,
+	[15049] = {
+		id = 15049,
+		damage = "123 x 3",
+		base = 15040,
 		weapon_id = {
-			15106
+			15049
 		}
 	},
-	[15120] = {
-		name = "潜水艦用Mark16魚雷",
+	[15050] = {
+		id = 15050,
+		damage = "131 x 3",
+		base = 15040,
+		weapon_id = {
+			15050
+		}
+	},
+	[15051] = {
+		anti_siren = 100,
+		damage = "131 x 3",
+		base = 15040,
+		id = 15051,
+		weapon_id = {
+			15051
+		}
+	},
+	[15060] = {
+		name = "潜水艦用Mark18魚雷",
 		speciality = "雷撃",
 		type = 13,
-		tech = 2,
+		tech = 0,
 		descrip = "0",
 		value_2 = 25,
-		icon = "15100",
+		icon = "15060",
 		attribute_2 = "torpedo",
 		rarity = 4,
-		damage = "65 x 3",
+		damage = "41 x 2",
 		nationality = 1,
-		ammo = 5,
+		ammo = 4,
 		value_3 = 0,
-		id = 15120,
+		id = 15060,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				3,
-				1822
+				1823
 			}
 		},
 		equip_info = {
@@ -45,11 +62,11 @@ pg.equip_data_statistics_110 = {
 			2,
 			{
 				3,
-				1822
+				1823
 			},
 			{
 				4,
-				1602
+				1601
 			},
 			6,
 			10,
@@ -57,7 +74,7 @@ pg.equip_data_statistics_110 = {
 			12
 		},
 		weapon_id = {
-			15120
+			15060
 		},
 		skill_id = {},
 		part_main = {
@@ -75,159 +92,93 @@ pg.equip_data_statistics_110 = {
 			"TP"
 		}
 	},
-	[15121] = {
-		id = 15121,
-		damage = "74 x 3",
-		base = 15120,
+	[15061] = {
+		id = 15061,
+		damage = "48 x 2",
+		base = 15060,
 		weapon_id = {
-			15121
+			15061
 		}
 	},
-	[15122] = {
-		id = 15122,
-		damage = "83 x 3",
-		base = 15120,
+	[15062] = {
+		id = 15062,
+		damage = "56 x 2",
+		base = 15060,
 		weapon_id = {
-			15122
+			15062
 		}
 	},
-	[15123] = {
-		id = 15123,
-		damage = "93 x 3",
-		base = 15120,
+	[15063] = {
+		id = 15063,
+		damage = "64 x 2",
+		base = 15060,
 		weapon_id = {
-			15123
+			15063
 		}
 	},
-	[15124] = {
-		id = 15124,
-		damage = "103 x 3",
-		base = 15120,
+	[15064] = {
+		id = 15064,
+		damage = "72 x 2",
+		base = 15060,
 		weapon_id = {
-			15124
+			15064
 		}
 	},
-	[15125] = {
-		id = 15125,
-		damage = "113 x 3",
-		base = 15120,
+	[15065] = {
+		id = 15065,
+		damage = "80 x 2",
+		base = 15060,
 		weapon_id = {
-			15125
+			15065
 		}
 	},
-	[15126] = {
-		id = 15126,
-		damage = "123 x 3",
-		base = 15120,
+	[15066] = {
+		id = 15066,
+		damage = "88 x 2",
+		base = 15060,
 		weapon_id = {
-			15126
+			15066
 		}
 	},
-	[15127] = {
-		id = 15127,
-		damage = "133 x 3",
-		base = 15120,
+	[15067] = {
+		id = 15067,
+		damage = "96 x 2",
+		base = 15060,
 		weapon_id = {
-			15127
+			15067
 		}
 	},
-	[15128] = {
-		id = 15128,
-		damage = "143 x 3",
-		base = 15120,
+	[15068] = {
+		id = 15068,
+		damage = "104 x 2",
+		base = 15060,
 		weapon_id = {
-			15128
+			15068
 		}
 	},
-	[15129] = {
-		id = 15129,
-		damage = "153 x 3",
-		base = 15120,
+	[15069] = {
+		id = 15069,
+		damage = "112 x 2",
+		base = 15060,
 		weapon_id = {
-			15129
+			15069
 		}
 	},
-	[15130] = {
-		id = 15130,
-		damage = "163 x 3",
-		base = 15120,
+	[15070] = {
+		id = 15070,
+		damage = "120 x 2",
+		base = 15060,
 		weapon_id = {
-			15130
+			15070
 		}
 	},
-	[15140] = {
-		name = "潜水艦用Mark16魚雷",
-		speciality = "雷撃",
-		type = 13,
-		tech = 3,
-		descrip = "0",
-		value_2 = 45,
-		icon = "15100",
-		attribute_2 = "torpedo",
-		rarity = 5,
-		damage = "72 x 3",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 15140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1822
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1822
-			},
-			{
-				4,
-				1602
-			},
-			6,
-			10,
-			11,
-			12
-		},
+	[15071] = {
+		anti_siren = 100,
+		damage = "120 x 2",
+		base = 15060,
+		id = 15071,
 		weapon_id = {
-			15140
-		},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"SS",
-			"TP"
-		}
-	},
-	[15141] = {
-		id = 15141,
-		damage = "82 x 3",
-		base = 15140,
-		weapon_id = {
-			15141
-		}
-	},
-	[15142] = {
-		id = 15142,
-		damage = "93 x 3",
-		base = 15140,
-		weapon_id = {
-			15142
+			15071
 		}
 	}
 }

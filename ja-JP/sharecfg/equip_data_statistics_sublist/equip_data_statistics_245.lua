@@ -1,28 +1,53 @@
 pg = pg or {}
 pg.equip_data_statistics_245 = {
-	[35230] = {
-		id = 35230,
-		damage = "178 x 4",
-		base = 35220,
+	[35168] = {
+		id = 35168,
+		damage = "182 x 3",
+		base = 35160,
 		weapon_id = {
-			35230
+			35168
 		}
 	},
-	[35240] = {
+	[35169] = {
+		id = 35169,
+		damage = "196 x 3",
+		base = 35160,
+		weapon_id = {
+			35169
+		}
+	},
+	[35170] = {
+		id = 35170,
+		damage = "210 x 3",
+		base = 35160,
+		weapon_id = {
+			35170
+		}
+	},
+	[35171] = {
+		anti_siren = 100,
+		damage = "210 x 3",
+		base = 35160,
+		id = 35171,
+		weapon_id = {
+			35171
+		}
+	},
+	[35200] = {
 		name = "610mm四連装魚雷",
 		speciality = "雷撃",
 		type = 5,
-		tech = 3,
+		tech = 1,
 		descrip = "0",
-		value_2 = 45,
+		value_2 = 12,
 		icon = "35200",
 		attribute_2 = "torpedo",
-		rarity = 5,
-		damage = "66 x 4",
+		rarity = 3,
+		damage = "52 x 4",
 		nationality = 3,
 		ammo = 5,
 		value_3 = 0,
-		id = 35240,
+		id = 35200,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -47,7 +72,7 @@ pg.equip_data_statistics_245 = {
 			12
 		},
 		weapon_id = {
-			35240
+			35200
 		},
 		skill_id = {},
 		part_main = {
@@ -70,128 +95,69 @@ pg.equip_data_statistics_245 = {
 			"QUAD"
 		}
 	},
-	[35241] = {
-		id = 35241,
-		damage = "80 x 4",
-		base = 35240,
+	[35201] = {
+		id = 35201,
+		damage = "62 x 4",
+		base = 35200,
 		weapon_id = {
-			35241
+			35201
 		}
 	},
-	[35242] = {
-		id = 35242,
-		damage = "94 x 4",
-		base = 35240,
+	[35202] = {
+		id = 35202,
+		damage = "72 x 4",
+		base = 35200,
 		weapon_id = {
-			35242
+			35202
 		}
 	},
-	[35243] = {
-		id = 35243,
-		damage = "108 x 4",
-		base = 35240,
+	[35203] = {
+		id = 35203,
+		damage = "82 x 4",
+		base = 35200,
 		weapon_id = {
-			35243
+			35203
 		}
 	},
-	[35244] = {
-		id = 35244,
-		damage = "122 x 4",
-		base = 35240,
+	[35204] = {
+		id = 35204,
+		damage = "92 x 4",
+		base = 35200,
 		weapon_id = {
-			35244
+			35204
 		}
 	},
-	[35245] = {
-		id = 35245,
-		damage = "136 x 4",
-		base = 35240,
+	[35205] = {
+		id = 35205,
+		damage = "102 x 4",
+		base = 35200,
 		weapon_id = {
-			35245
+			35205
 		}
 	},
-	[35246] = {
-		id = 35246,
-		damage = "150 x 4",
-		base = 35240,
+	[35206] = {
+		id = 35206,
+		damage = "112 x 4",
+		base = 35200,
 		weapon_id = {
-			35246
+			35206
 		}
 	},
-	[35247] = {
-		id = 35247,
-		damage = "164 x 4",
-		base = 35240,
-		weapon_id = {
-			35247
-		}
-	},
-	[35248] = {
-		id = 35248,
-		damage = "178 x 4",
-		base = 35240,
-		weapon_id = {
-			35248
-		}
-	},
-	[35249] = {
-		id = 35249,
-		damage = "192 x 4",
-		base = 35240,
-		weapon_id = {
-			35249
-		}
-	},
-	[35250] = {
-		id = 35250,
-		damage = "206 x 4",
-		base = 35240,
-		weapon_id = {
-			35250
-		}
-	},
-	[35251] = {
-		anti_siren = 100,
-		damage = "206 x 4",
-		base = 35240,
-		id = 35251,
-		weapon_id = {
-			35251
-		}
-	},
-	[35252] = {
-		anti_siren = 200,
-		damage = "206 x 4",
-		base = 35240,
-		id = 35252,
-		weapon_id = {
-			35252
-		}
-	},
-	[35253] = {
-		anti_siren = 300,
-		damage = "206 x 4",
-		base = 35240,
-		id = 35253,
-		weapon_id = {
-			35253
-		}
-	},
-	[35260] = {
-		name = "610mm四連装魚雷改",
+	[35220] = {
+		name = "610mm四連装魚雷",
 		speciality = "雷撃",
 		type = 5,
-		tech = 0,
+		tech = 2,
 		descrip = "0",
-		value_2 = 45,
-		icon = "35260",
+		value_2 = 25,
+		icon = "35200",
 		attribute_2 = "torpedo",
-		rarity = 5,
-		damage = "70 x 4",
+		rarity = 4,
+		damage = "58 x 4",
 		nationality = 3,
 		ammo = 5,
 		value_3 = 0,
-		id = 35260,
+		id = 35220,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -216,7 +182,7 @@ pg.equip_data_statistics_245 = {
 			12
 		},
 		weapon_id = {
-			35260
+			35220
 		},
 		skill_id = {},
 		part_main = {
@@ -237,6 +203,38 @@ pg.equip_data_statistics_245 = {
 			"ST",
 			"TP",
 			"QUAD"
+		}
+	},
+	[35221] = {
+		id = 35221,
+		damage = "70 x 4",
+		base = 35220,
+		weapon_id = {
+			35221
+		}
+	},
+	[35222] = {
+		id = 35222,
+		damage = "82 x 4",
+		base = 35220,
+		weapon_id = {
+			35222
+		}
+	},
+	[35223] = {
+		id = 35223,
+		damage = "94 x 4",
+		base = 35220,
+		weapon_id = {
+			35223
+		}
+	},
+	[35224] = {
+		id = 35224,
+		damage = "106 x 4",
+		base = 35220,
+		weapon_id = {
+			35224
 		}
 	}
 }

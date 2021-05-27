@@ -1,92 +1,168 @@
 pg = pg or {}
 pg.equip_data_statistics_315 = {
-	[45422] = {
-		id = 45422,
-		damage = "74 x 2",
-		base = 45420,
-		weapon_id = {
-			45422
-		}
-	},
-	[45423] = {
-		id = 45423,
-		damage = "82 x 2",
-		base = 45420,
-		weapon_id = {
-			45423
-		}
-	},
-	[45424] = {
-		id = 45424,
-		damage = "90 x 2",
-		base = 45420,
-		weapon_id = {
-			45424
-		}
-	},
-	[45425] = {
-		id = 45425,
-		damage = "99 x 2",
-		base = 45420,
-		weapon_id = {
-			45425
-		}
-	},
-	[45426] = {
-		id = 45426,
-		damage = "108 x 2",
-		base = 45420,
-		weapon_id = {
-			45426
-		}
-	},
-	[45427] = {
-		id = 45427,
-		damage = "117 x 2",
-		base = 45420,
-		weapon_id = {
-			45427
-		}
-	},
-	[45428] = {
-		id = 45428,
-		damage = "126 x 2",
-		base = 45420,
-		weapon_id = {
-			45428
-		}
-	},
-	[45429] = {
-		id = 45429,
-		damage = "135 x 2",
-		base = 45420,
-		weapon_id = {
-			45429
-		}
-	},
-	[45430] = {
-		id = 45430,
-		damage = "144 x 2",
-		base = 45420,
-		weapon_id = {
-			45430
-		}
-	},
-	[45440] = {
-		name = "潜水艦用G7e音響追跡魚雷",
+	[45340] = {
+		name = "潜水艦用G7a魚雷",
 		speciality = "雷撃",
 		type = 13,
 		tech = 3,
 		descrip = "0",
-		value_2 = 45,
+		value_2 = 25,
+		icon = "45300",
+		attribute_2 = "torpedo",
+		rarity = 4,
+		damage = "58 x 2",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 45340,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1825
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1825
+			},
+			{
+				4,
+				1601
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			45340
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		}
+	},
+	[45341] = {
+		id = 45341,
+		damage = "66 x 2",
+		base = 45340,
+		weapon_id = {
+			45341
+		}
+	},
+	[45342] = {
+		id = 45342,
+		damage = "74 x 2",
+		base = 45340,
+		weapon_id = {
+			45342
+		}
+	},
+	[45343] = {
+		id = 45343,
+		damage = "82 x 2",
+		base = 45340,
+		weapon_id = {
+			45343
+		}
+	},
+	[45344] = {
+		id = 45344,
+		damage = "90 x 2",
+		base = 45340,
+		weapon_id = {
+			45344
+		}
+	},
+	[45345] = {
+		id = 45345,
+		damage = "99 x 2",
+		base = 45340,
+		weapon_id = {
+			45345
+		}
+	},
+	[45346] = {
+		id = 45346,
+		damage = "108 x 2",
+		base = 45340,
+		weapon_id = {
+			45346
+		}
+	},
+	[45347] = {
+		id = 45347,
+		damage = "117 x 2",
+		base = 45340,
+		weapon_id = {
+			45347
+		}
+	},
+	[45348] = {
+		id = 45348,
+		damage = "126 x 2",
+		base = 45340,
+		weapon_id = {
+			45348
+		}
+	},
+	[45349] = {
+		id = 45349,
+		damage = "135 x 2",
+		base = 45340,
+		weapon_id = {
+			45349
+		}
+	},
+	[45350] = {
+		id = 45350,
+		damage = "144 x 2",
+		base = 45340,
+		weapon_id = {
+			45350
+		}
+	},
+	[45351] = {
+		anti_siren = 100,
+		damage = "144 x 2",
+		base = 45340,
+		id = 45351,
+		weapon_id = {
+			45351
+		}
+	},
+	[45400] = {
+		name = "潜水艦用G7e音響追跡魚雷",
+		speciality = "雷撃",
+		type = 13,
+		tech = 1,
+		descrip = "0",
+		value_2 = 12,
 		icon = "45400",
 		attribute_2 = "torpedo",
-		rarity = 5,
-		damage = "64 x 2",
+		rarity = 3,
+		damage = "52 x 2",
 		nationality = 4,
 		ammo = 4,
 		value_3 = 0,
-		id = 45440,
+		id = 45400,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -113,7 +189,7 @@ pg.equip_data_statistics_315 = {
 			12
 		},
 		weapon_id = {
-			45440
+			45400
 		},
 		skill_id = {},
 		part_main = {
@@ -131,52 +207,28 @@ pg.equip_data_statistics_315 = {
 			"TP"
 		}
 	},
-	[45441] = {
-		id = 45441,
-		damage = "73 x 2",
-		base = 45440,
+	[45401] = {
+		id = 45401,
+		damage = "59 x 2",
+		base = 45400,
 		weapon_id = {
-			45441
+			45401
 		}
 	},
-	[45442] = {
-		id = 45442,
-		damage = "82 x 2",
-		base = 45440,
+	[45402] = {
+		id = 45402,
+		damage = "66 x 2",
+		base = 45400,
 		weapon_id = {
-			45442
+			45402
 		}
 	},
-	[45443] = {
-		id = 45443,
-		damage = "91 x 2",
-		base = 45440,
+	[45403] = {
+		id = 45403,
+		damage = "74 x 2",
+		base = 45400,
 		weapon_id = {
-			45443
-		}
-	},
-	[45444] = {
-		id = 45444,
-		damage = "100 x 2",
-		base = 45440,
-		weapon_id = {
-			45444
-		}
-	},
-	[45445] = {
-		id = 45445,
-		damage = "110 x 2",
-		base = 45440,
-		weapon_id = {
-			45445
-		}
-	},
-	[45446] = {
-		id = 45446,
-		damage = "120 x 2",
-		base = 45440,
-		weapon_id = {
-			45446
+			45403
 		}
 	}
 }

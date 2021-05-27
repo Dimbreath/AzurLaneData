@@ -2,56 +2,120 @@ pg = pg or {}
 pg.weapon_property_177 = {}
 
 function ()
-	uv0.weapon_property_177[69958] = {
-		id = 69958,
-		damage = 164,
-		base = 67821
+	uv0.weapon_property_177[69854] = {
+		name = "U-96技能鱼雷弹幕LV4",
+		damage = 25,
+		base = 69851,
+		id = 69854,
+		barrage_ID = {
+			80930,
+			80931,
+			80929
+		}
 	}
-	uv0.weapon_property_177[69959] = {
-		id = 69959,
-		damage = 182,
-		base = 67821
+	uv0.weapon_property_177[69855] = {
+		name = "U-96技能鱼雷弹幕LV5",
+		damage = 27,
+		base = 69851,
+		id = 69855,
+		barrage_ID = {
+			80930,
+			80931,
+			80929
+		}
 	}
-	uv0.weapon_property_177[69960] = {
-		id = 69960,
-		damage = 202,
-		base = 67821
+	uv0.weapon_property_177[69856] = {
+		name = "U-96技能鱼雷弹幕LV6",
+		damage = 29,
+		base = 69851,
+		id = 69856,
+		barrage_ID = {
+			80930,
+			80931,
+			80929
+		}
 	}
-	uv0.weapon_property_177[69961] = {
+	uv0.weapon_property_177[69857] = {
+		name = "U-96技能鱼雷弹幕LV7",
+		damage = 31,
+		base = 69851,
+		id = 69857,
+		barrage_ID = {
+			80930,
+			80931,
+			80932
+		}
+	}
+	uv0.weapon_property_177[69858] = {
+		name = "U-96技能鱼雷弹幕LV8",
+		damage = 33,
+		base = 69851,
+		id = 69858,
+		barrage_ID = {
+			80930,
+			80931,
+			80932
+		}
+	}
+	uv0.weapon_property_177[69859] = {
+		name = "U-96技能鱼雷弹幕LV9",
+		damage = 35,
+		base = 69851,
+		id = 69859,
+		barrage_ID = {
+			80930,
+			80931,
+			80932
+		}
+	}
+	uv0.weapon_property_177[69860] = {
+		name = "U-96技能鱼雷弹幕LV10",
+		damage = 40,
+		base = 69851,
+		id = 69860,
+		barrage_ID = {
+			80930,
+			80931,
+			80932
+		}
+	}
+	uv0.weapon_property_177[69861] = {
 		action_index = "",
-		range = 500,
-		type = 2,
+		range = 90,
+		type = 3,
 		fire_fx = "",
 		recover_time = 0,
-		axis_angle = 22,
+		axis_angle = 0,
 		shakescreen = 0,
-		name = "2 x 500lb 炸弹",
-		aim_type = 1,
+		name = "Z26ATF破盾反击鱼雷LV1",
+		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 22,
+		angle = 60,
 		charge_param = "",
-		damage = 138,
+		damage = 20,
 		corrected = 100,
 		min_range = 0,
-		id = 69961,
-		attack_attribute_ratio = 80,
+		id = 69861,
+		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
+		attack_attribute = 2,
+		reload_max = 3000,
 		queue = 1,
-		search_type = 2,
+		search_type = 1,
 		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
+		suppress = 0,
+		spawn_bound = "torpedo",
 		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			2122
+			19179,
+			19179
 		},
 		barrage_ID = {
-			2121
+			80933,
+			80934
 		},
 		oxy_type = {
 			1
@@ -61,85 +125,99 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_177[69962] = {
-		id = 69962,
-		damage = 156,
-		base = 68631
+	uv0.weapon_property_177[69862] = {
+		id = 69862,
+		name = "Z26ATF破盾反击鱼雷LV2",
+		damage = 25,
+		base = 69861
 	}
-	uv0.weapon_property_177[69963] = {
-		id = 69963,
-		base = 68631
+	uv0.weapon_property_177[69863] = {
+		id = 69863,
+		name = "Z26ATF破盾反击鱼雷LV3",
+		damage = 30,
+		base = 69861
 	}
-	uv0.weapon_property_177[69964] = {
-		id = 69964,
-		damage = 192,
-		base = 68631
+	uv0.weapon_property_177[69864] = {
+		id = 69864,
+		name = "Z26ATF破盾反击鱼雷LV4",
+		damage = 38,
+		base = 69861
 	}
-	uv0.weapon_property_177[69965] = {
-		id = 69965,
-		damage = 210,
-		base = 68631
+	uv0.weapon_property_177[69865] = {
+		id = 69865,
+		name = "Z26ATF破盾反击鱼雷LV5",
+		damage = 46,
+		base = 69861
 	}
-	uv0.weapon_property_177[69966] = {
-		id = 69966,
-		damage = 228,
-		base = 68631
+	uv0.weapon_property_177[69866] = {
+		id = 69866,
+		name = "Z26ATF破盾反击鱼雷LV6",
+		damage = 54,
+		base = 69861
 	}
-	uv0.weapon_property_177[69967] = {
-		id = 69967,
-		damage = 246,
-		base = 68631
+	uv0.weapon_property_177[69867] = {
+		id = 69867,
+		name = "Z26ATF破盾反击鱼雷LV7",
+		damage = 62,
+		base = 69861
 	}
-	uv0.weapon_property_177[69968] = {
-		id = 69968,
-		damage = 264,
-		base = 68631
+	uv0.weapon_property_177[69868] = {
+		id = 69868,
+		name = "Z26ATF破盾反击鱼雷LV8",
+		damage = 70,
+		base = 69861
 	}
-	uv0.weapon_property_177[69969] = {
-		id = 69969,
-		damage = 282,
-		base = 68631
+	uv0.weapon_property_177[69869] = {
+		id = 69869,
+		name = "Z26ATF破盾反击鱼雷LV9",
+		damage = 78,
+		base = 69861
 	}
-	uv0.weapon_property_177[69970] = {
-		id = 69970,
-		damage = 300,
-		base = 68631
+	uv0.weapon_property_177[69870] = {
+		id = 69870,
+		name = "Z26ATF破盾反击鱼雷LV10",
+		damage = 86,
+		base = 69861
 	}
-	uv0.weapon_property_177[69971] = {
+	uv0.weapon_property_177[69871] = {
 		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
+		range = 95,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "双千技能水上机-弱化起飞1次-强化起飞2次-Lv1",
+		name = "纪伊主炮弹幕PVE-LV1",
 		aim_type = 1,
 		torpedo_ammo = 0,
-		expose = 10,
-		angle = 90,
+		expose = 0,
+		angle = 60,
 		charge_param = "",
-		damage = 66,
+		damage = 48,
 		corrected = 100,
-		min_range = 0,
-		id = 69971,
+		min_range = 25,
+		id = 69871,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1890,
+		attack_attribute = 1,
+		reload_max = 3000,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
 		suppress = 1,
-		spawn_bound = "plane",
+		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			69971
+			19180,
+			19180,
+			19180
 		},
 		barrage_ID = {
-			12008
+			80940,
+			80942,
+			80943
 		},
 		oxy_type = {
 			1
@@ -147,136 +225,126 @@ function ()
 		search_condition = {
 			1
 		},
-		precast_param = {}
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
 	}
-	uv0.weapon_property_177[69972] = {
-		name = "双千技能水上机-弱化起飞1次-强化起飞2次-Lv2",
+	uv0.weapon_property_177[69872] = {
+		id = 69872,
+		name = "纪伊主炮弹幕PVE-LV2",
+		damage = 56,
+		base = 69871
+	}
+	uv0.weapon_property_177[69873] = {
+		id = 69873,
+		name = "纪伊主炮弹幕PVE-LV3",
+		damage = 64,
+		base = 69871
+	}
+	uv0.weapon_property_177[69874] = {
+		id = 69874,
+		name = "纪伊主炮弹幕PVE-LV4",
+		damage = 72,
+		base = 69871
+	}
+	uv0.weapon_property_177[69875] = {
+		id = 69875,
+		name = "纪伊主炮弹幕PVE-LV5",
+		damage = 80,
+		base = 69871
+	}
+	uv0.weapon_property_177[69876] = {
+		id = 69876,
+		name = "纪伊主炮弹幕PVE-LV6",
 		damage = 88,
-		base = 69971,
-		id = 69972,
-		bullet_ID = {
-			69972
-		}
+		base = 69871
 	}
-	uv0.weapon_property_177[69973] = {
-		name = "双千技能水上机-弱化起飞1次-强化起飞2次-Lv3",
-		damage = 108,
-		base = 69971,
-		id = 69973,
-		bullet_ID = {
-			69973
-		}
-	}
-	uv0.weapon_property_177[69974] = {
-		name = "双千技能水上机-弱化起飞1次-强化起飞2次-Lv4",
-		damage = 130,
-		base = 69971,
-		id = 69974,
-		bullet_ID = {
-			69974
-		}
-	}
-	uv0.weapon_property_177[69975] = {
-		name = "双千技能水上机-弱化起飞1次-强化起飞2次-Lv5",
-		damage = 152,
-		base = 69971,
-		id = 69975,
-		bullet_ID = {
-			69975
-		}
-	}
-	uv0.weapon_property_177[69976] = {
-		name = "双千技能水上机-弱化起飞1次-强化起飞2次-Lv6",
-		damage = 174,
-		base = 69971,
-		id = 69976,
-		bullet_ID = {
-			69976
-		}
-	}
-	uv0.weapon_property_177[69977] = {
-		name = "双千技能水上机-弱化起飞1次-强化起飞2次-Lv7",
-		damage = 196,
-		base = 69971,
-		id = 69977,
-		bullet_ID = {
-			69977
-		},
+	uv0.weapon_property_177[69877] = {
+		name = "纪伊主炮弹幕PVE-LV7",
+		damage = 96,
+		base = 69871,
+		id = 69877,
 		barrage_ID = {
-			12009
+			80941,
+			80942,
+			80943
 		}
 	}
-	uv0.weapon_property_177[69978] = {
-		name = "双千技能水上机-弱化起飞1次-强化起飞2次-Lv8",
-		damage = 216,
-		base = 69971,
-		id = 69978,
-		bullet_ID = {
-			69978
-		},
+	uv0.weapon_property_177[69878] = {
+		name = "纪伊主炮弹幕PVE-LV8",
+		damage = 104,
+		base = 69871,
+		id = 69878,
 		barrage_ID = {
-			12009
+			80941,
+			80942,
+			80943
 		}
 	}
-	uv0.weapon_property_177[69979] = {
-		name = "双千技能水上机-弱化起飞1次-强化起飞2次-Lv9",
-		damage = 238,
-		base = 69971,
-		id = 69979,
-		bullet_ID = {
-			69979
-		},
+	uv0.weapon_property_177[69879] = {
+		name = "纪伊主炮弹幕PVE-LV9",
+		damage = 112,
+		base = 69871,
+		id = 69879,
 		barrage_ID = {
-			12009
+			80941,
+			80942,
+			80943
 		}
 	}
-	uv0.weapon_property_177[69980] = {
-		name = "双千技能水上机-弱化起飞1次-强化起飞2次-Lv10",
-		damage = 260,
-		base = 69971,
-		id = 69980,
-		bullet_ID = {
-			69980
-		},
+	uv0.weapon_property_177[69880] = {
+		name = "纪伊主炮弹幕PVE-LV10",
+		damage = 121,
+		base = 69871,
+		id = 69880,
 		barrage_ID = {
-			12009
+			80941,
+			80942,
+			80943
 		}
 	}
-	uv0.weapon_property_177[69981] = {
+	uv0.weapon_property_177[69881] = {
 		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
+		range = 120,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "双千技能舰载机-弱化起飞1次-强化起飞2次-Lv1",
+		name = "纪伊主炮弹幕PVP-LV1",
 		aim_type = 1,
 		torpedo_ammo = 0,
-		expose = 10,
-		angle = 90,
+		expose = 0,
+		angle = 60,
 		charge_param = "",
-		damage = 66,
+		damage = 48,
 		corrected = 100,
-		min_range = 0,
-		id = 69981,
+		min_range = 25,
+		id = 69881,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1890,
+		attack_attribute = 1,
+		reload_max = 3000,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
 		suppress = 1,
-		spawn_bound = "plane",
+		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			69971
+			19180,
+			19180,
+			19180
 		},
 		barrage_ID = {
-			12008
+			80940,
+			80944,
+			80945
 		},
 		oxy_type = {
 			1
@@ -284,229 +352,109 @@ function ()
 		search_condition = {
 			1
 		},
-		precast_param = {}
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
 	}
-	uv0.weapon_property_177[69982] = {
-		name = "双千技能舰载机-弱化起飞1次-强化起飞2次-Lv2",
+	uv0.weapon_property_177[69882] = {
+		id = 69882,
+		name = "纪伊主炮弹幕PVP-LV2",
+		damage = 56,
+		base = 69881
+	}
+	uv0.weapon_property_177[69883] = {
+		id = 69883,
+		name = "纪伊主炮弹幕PVP-LV3",
+		damage = 64,
+		base = 69881
+	}
+	uv0.weapon_property_177[69884] = {
+		id = 69884,
+		name = "纪伊主炮弹幕PVP-LV4",
+		damage = 72,
+		base = 69881
+	}
+	uv0.weapon_property_177[69885] = {
+		id = 69885,
+		name = "纪伊主炮弹幕PVP-LV5",
+		damage = 80,
+		base = 69881
+	}
+	uv0.weapon_property_177[69886] = {
+		id = 69886,
+		name = "纪伊主炮弹幕PVP-LV6",
 		damage = 88,
-		base = 69981,
-		id = 69982,
-		bullet_ID = {
-			69972
-		}
+		base = 69881
 	}
-	uv0.weapon_property_177[69983] = {
-		name = "双千技能舰载机-弱化起飞1次-强化起飞2次-Lv3",
-		damage = 108,
-		base = 69981,
-		id = 69983,
-		bullet_ID = {
-			69973
-		}
-	}
-	uv0.weapon_property_177[69984] = {
-		name = "双千技能舰载机-弱化起飞1次-强化起飞2次-Lv4",
-		damage = 130,
-		base = 69981,
-		id = 69984,
-		bullet_ID = {
-			69974
-		}
-	}
-	uv0.weapon_property_177[69985] = {
-		name = "双千技能舰载机-弱化起飞1次-强化起飞2次-Lv5",
-		damage = 152,
-		base = 69981,
-		id = 69985,
-		bullet_ID = {
-			69975
-		}
-	}
-	uv0.weapon_property_177[69986] = {
-		name = "双千技能舰载机-弱化起飞1次-强化起飞2次-Lv6",
-		damage = 174,
-		base = 69981,
-		id = 69986,
-		bullet_ID = {
-			69976
-		}
-	}
-	uv0.weapon_property_177[69987] = {
-		name = "双千技能舰载机-弱化起飞1次-强化起飞2次-Lv7",
-		damage = 196,
-		base = 69981,
-		id = 69987,
-		bullet_ID = {
-			69977
-		},
+	uv0.weapon_property_177[69887] = {
+		name = "纪伊主炮弹幕PVP-LV7",
+		damage = 96,
+		base = 69881,
+		id = 69887,
 		barrage_ID = {
-			12009
+			80941,
+			80944,
+			80945
 		}
 	}
-	uv0.weapon_property_177[69988] = {
-		name = "双千技能舰载机-弱化起飞1次-强化起飞2次-Lv8",
-		damage = 216,
-		base = 69981,
-		id = 69988,
-		bullet_ID = {
-			69978
-		},
+	uv0.weapon_property_177[69888] = {
+		name = "纪伊主炮弹幕PVP-LV8",
+		damage = 104,
+		base = 69881,
+		id = 69888,
 		barrage_ID = {
-			12009
+			80941,
+			80944,
+			80945
 		}
 	}
-	uv0.weapon_property_177[69989] = {
-		name = "双千技能舰载机-弱化起飞1次-强化起飞2次-Lv9",
-		damage = 238,
-		base = 69981,
-		id = 69989,
-		bullet_ID = {
-			69979
-		},
+	uv0.weapon_property_177[69889] = {
+		name = "纪伊主炮弹幕PVP-LV9",
+		damage = 112,
+		base = 69881,
+		id = 69889,
 		barrage_ID = {
-			12009
+			80941,
+			80944,
+			80945
 		}
 	}
-	uv0.weapon_property_177[69990] = {
-		name = "双千技能舰载机-弱化起飞1次-强化起飞2次-Lv10",
-		damage = 260,
-		base = 69981,
-		id = 69990,
-		bullet_ID = {
-			69980
-		},
+	uv0.weapon_property_177[69890] = {
+		name = "纪伊主炮弹幕PVP-LV10",
+		damage = 121,
+		base = 69881,
+		id = 69890,
 		barrage_ID = {
-			12009
+			80941,
+			80944,
+			80945
 		}
 	}
-	uv0.weapon_property_177[70011] = {
+	uv0.weapon_property_177[69891] = {
 		action_index = "attack",
-		range = 50,
-		type = 2,
+		range = 90,
+		type = 1,
 		fire_fx = "CLFire",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "全弹发射-法拉格特级I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 6,
-		corrected = 125,
-		min_range = 0,
-		id = 70011,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1102
-		},
-		barrage_ID = {
-			70011
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_177[70012] = {
-		name = "全弹发射-法拉格特级II",
-		damage = 10,
-		base = 70011,
-		id = 70012,
-		barrage_ID = {
-			70012
-		}
-	}
-	uv0.weapon_property_177[70021] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "全弹发射-马汉级I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 125,
-		min_range = 0,
-		id = 70021,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1102
-		},
-		barrage_ID = {
-			19001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_177[70022] = {
-		name = "全弹发射-马汉级II",
-		damage = 10,
-		base = 70021,
-		id = 70022,
-		barrage_ID = {
-			19002
-		}
-	}
-	uv0.weapon_property_177[70031] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "全弹发射-格里德利级I",
+		name = "纪伊副炮弹幕-LV1",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 360,
+		angle = 120,
 		charge_param = "",
-		damage = 6,
-		corrected = 125,
+		damage = 10,
+		corrected = 100,
 		min_range = 0,
-		id = 70031,
+		id = 69891,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 400,
+		reload_max = 500,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
@@ -516,10 +464,16 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			1102
+			19181,
+			19182,
+			19181,
+			19182
 		},
 		barrage_ID = {
-			70013
+			80935,
+			80936,
+			80938,
+			80939
 		},
 		oxy_type = {
 			1
@@ -529,543 +483,95 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_177[70032] = {
-		name = "全弹发射-格里德利级II",
-		damage = 10,
-		base = 70031,
-		id = 70032,
-		barrage_ID = {
-			70014
-		}
+	uv0.weapon_property_177[69892] = {
+		id = 69892,
+		name = "纪伊副炮弹幕-LV2",
+		damage = 11,
+		base = 69891
 	}
-	uv0.weapon_property_177[70041] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "全弹发射-弗莱彻级I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 125,
-		min_range = 0,
-		id = 70041,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1102,
-			1102
-		},
-		barrage_ID = {
-			70015,
-			70016
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_177[70042] = {
-		name = "全弹发射-弗莱彻级II",
-		damage = 10,
-		base = 70041,
-		id = 70042,
-		barrage_ID = {
-			70017,
-			70018
-		}
-	}
-	uv0.weapon_property_177[70051] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "全弹发射-西姆斯级I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 125,
-		min_range = 0,
-		id = 70051,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1102
-		},
-		barrage_ID = {
-			70027
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_177[70052] = {
-		name = "全弹发射-西姆斯级II",
-		damage = 10,
-		base = 70051,
-		id = 70052,
-		barrage_ID = {
-			70028
-		}
-	}
-	uv0.weapon_property_177[70061] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "全弹发射-本森级I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 125,
-		min_range = 0,
-		id = 70061,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			70061
-		},
-		barrage_ID = {
-			70061
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_177[70062] = {
-		name = "全弹发射-本森级II",
-		damage = 10,
-		base = 70061,
-		id = 70062,
-		bullet_ID = {
-			70062
-		},
-		barrage_ID = {
-			70062
-		}
-	}
-	uv0.weapon_property_177[70071] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "全弹发射-基林级I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 125,
-		min_range = 0,
-		id = 70071,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1102
-		},
-		barrage_ID = {
-			19001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_177[70072] = {
-		name = "全弹发射-基林级II",
-		damage = 10,
-		base = 70071,
-		id = 70072,
-		barrage_ID = {
-			19002
-		}
-	}
-	uv0.weapon_property_177[70081] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "全弹发射-艾伦·萨姆那级I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 125,
-		min_range = 0,
-		id = 70081,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			70081,
-			70081
-		},
-		barrage_ID = {
-			70081,
-			70082
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_177[70082] = {
-		name = "全弹发射-艾伦·萨姆那级II",
-		damage = 10,
-		base = 70081,
-		id = 70082,
-		bullet_ID = {
-			70082,
-			70082
-		},
-		barrage_ID = {
-			70083,
-			70084
-		}
-	}
-	uv0.weapon_property_177[70111] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "全弹发射-奥马哈级I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
+	uv0.weapon_property_177[69893] = {
+		id = 69893,
+		name = "纪伊副炮弹幕-LV3",
 		damage = 12,
-		corrected = 125,
-		min_range = 0,
-		id = 70111,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1002
-		},
-		barrage_ID = {
-			70033
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+		base = 69891
 	}
-	uv0.weapon_property_177[70112] = {
-		name = "全弹发射-奥马哈级II",
+	uv0.weapon_property_177[69894] = {
+		id = 69894,
+		name = "纪伊副炮弹幕-LV4",
+		damage = 13,
+		base = 69891
+	}
+	uv0.weapon_property_177[69895] = {
+		id = 69895,
+		name = "纪伊副炮弹幕-LV5",
+		damage = 14,
+		base = 69891
+	}
+	uv0.weapon_property_177[69896] = {
+		id = 69896,
+		name = "纪伊副炮弹幕-LV6",
+		damage = 15,
+		base = 69891
+	}
+	uv0.weapon_property_177[69897] = {
+		id = 69897,
+		name = "纪伊副炮弹幕-LV7",
+		damage = 16,
+		base = 69891
+	}
+	uv0.weapon_property_177[69898] = {
+		id = 69898,
+		name = "纪伊副炮弹幕-LV8",
+		damage = 17,
+		base = 69891
+	}
+	uv0.weapon_property_177[69899] = {
+		id = 69899,
+		name = "纪伊副炮弹幕-LV9",
+		damage = 18,
+		base = 69891
+	}
+	uv0.weapon_property_177[69900] = {
+		id = 69900,
+		name = "纪伊副炮弹幕-LV10",
 		damage = 20,
-		base = 70111,
-		id = 70112,
-		barrage_ID = {
-			70034
-		}
+		base = 69891
 	}
-	uv0.weapon_property_177[70121] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
+	uv0.weapon_property_177[69901] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "全弹发射-布鲁克林级I",
+		name = "纪伊弹幕鱼雷-LV1",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 360,
+		angle = 60,
 		charge_param = "",
-		damage = 12,
-		corrected = 125,
-		min_range = 0,
-		id = 70121,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1002
-		},
-		barrage_ID = {
-			70031
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_177[70122] = {
-		name = "全弹发射-布鲁克林级II",
-		damage = 20,
-		base = 70121,
-		id = 70122,
-		barrage_ID = {
-			70032
-		}
-	}
-	uv0.weapon_property_177[70131] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "全弹发射-亚特兰大级I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 125,
-		min_range = 0,
-		id = 70131,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1002
-		},
-		barrage_ID = {
-			70029
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_177[70132] = {
-		name = "全弹发射-亚特兰大级II",
-		damage = 20,
-		base = 70131,
-		id = 70132,
-		barrage_ID = {
-			70030
-		}
-	}
-	uv0.weapon_property_177[70141] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "全弹发射-克利夫兰级I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 125,
-		min_range = 0,
-		id = 70141,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1002,
-			1002
-		},
-		barrage_ID = {
-			70035,
-			70036
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_177[70142] = {
-		name = "全弹发射-克利夫兰级II",
-		damage = 20,
-		base = 70141,
-		id = 70142,
-		barrage_ID = {
-			70037,
-			70038
-		}
-	}
-	uv0.weapon_property_177[70211] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "全弹发射-彭萨科拉级I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 25,
+		damage = 51,
 		corrected = 100,
 		min_range = 0,
-		id = 70211,
+		id = 69901,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 412,
+		attack_attribute = 2,
+		reload_max = 3000,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
 		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
+		spawn_bound = "torpedo",
+		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			70211
+			1807
 		},
 		barrage_ID = {
-			70211
+			80937
 		},
 		oxy_type = {
 			1
@@ -1075,55 +581,97 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_177[70212] = {
-		name = "全弹发射-彭萨科拉级II",
-		damage = 40,
-		base = 70211,
-		id = 70212,
-		bullet_ID = {
-			70212
-		},
-		barrage_ID = {
-			70212
-		}
+	uv0.weapon_property_177[69902] = {
+		id = 69902,
+		name = "纪伊弹幕鱼雷-LV2",
+		damage = 52,
+		base = 69901
 	}
-	uv0.weapon_property_177[70221] = {
+	uv0.weapon_property_177[69903] = {
+		id = 69903,
+		name = "纪伊弹幕鱼雷-LV3",
+		damage = 54,
+		base = 69901
+	}
+	uv0.weapon_property_177[69904] = {
+		id = 69904,
+		name = "纪伊弹幕鱼雷-LV4",
+		damage = 57,
+		base = 69901
+	}
+	uv0.weapon_property_177[69905] = {
+		id = 69905,
+		name = "纪伊弹幕鱼雷-LV5",
+		damage = 61,
+		base = 69901
+	}
+	uv0.weapon_property_177[69906] = {
+		id = 69906,
+		name = "纪伊弹幕鱼雷-LV6",
+		damage = 66,
+		base = 69901
+	}
+	uv0.weapon_property_177[69907] = {
+		id = 69907,
+		name = "纪伊弹幕鱼雷-LV7",
+		damage = 72,
+		base = 69901
+	}
+	uv0.weapon_property_177[69908] = {
+		id = 69908,
+		name = "纪伊弹幕鱼雷-LV8",
+		damage = 79,
+		base = 69901
+	}
+	uv0.weapon_property_177[69909] = {
+		id = 69909,
+		name = "纪伊弹幕鱼雷-LV9",
+		damage = 87,
+		base = 69901
+	}
+	uv0.weapon_property_177[69910] = {
+		id = 69910,
+		name = "纪伊弹幕鱼雷-LV10",
+		damage = 96,
+		base = 69901
+	}
+	uv0.weapon_property_177[69911] = {
 		action_index = "attack",
-		range = 80,
+		range = 120,
 		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
+		fire_fx = "CLFire",
+		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "全弹发射-北安普顿级I",
+		name = "凉月烟雾弹附属弹幕LV1",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 120,
+		angle = 360,
 		charge_param = "",
-		damage = 25,
+		damage = 6,
 		corrected = 100,
 		min_range = 0,
-		id = 70221,
+		id = 69911,
 		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
+		fire_fx_loop_type = 3,
 		attack_attribute = 1,
-		reload_max = 412,
+		reload_max = 800,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
-		suppress = 0,
+		suppress = 1,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			70221,
-			70221
+			19183,
+			19183
 		},
 		barrage_ID = {
-			199991,
-			199981
+			80946,
+			80947
 		},
 		oxy_type = {
 			1
@@ -1133,14 +681,22 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_177[70222] = {
-		name = "全弹发射-北安普顿级II",
-		damage = 40,
-		base = 70221,
-		id = 70222,
-		barrage_ID = {
-			199992,
-			199982
-		}
+	uv0.weapon_property_177[69912] = {
+		id = 69912,
+		name = "凉月烟雾弹附属弹幕LV2",
+		damage = 7,
+		base = 69911
+	}
+	uv0.weapon_property_177[69913] = {
+		id = 69913,
+		name = "凉月烟雾弹附属弹幕LV3",
+		damage = 8,
+		base = 69911
+	}
+	uv0.weapon_property_177[69914] = {
+		id = 69914,
+		name = "凉月烟雾弹附属弹幕LV4",
+		damage = 9,
+		base = 69911
 	}
 end()

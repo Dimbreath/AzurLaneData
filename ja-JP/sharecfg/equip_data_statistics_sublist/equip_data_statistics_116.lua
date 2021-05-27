@@ -1,76 +1,136 @@
 pg = pg or {}
 pg.equip_data_statistics_116 = {
-	[16041] = {
-		id = 16041,
-		damage = "12/回",
-		base = 16040,
-		weapon_id = {
-			16041
+	[15500] = {
+		name = "PBY-5Aカタリナ",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		id = 15500,
+		value_2 = 10,
+		icon = "15500",
+		value_1 = "14",
+		attribute_2 = "antisub",
+		rarity = 4,
+		descrip = "対潜哨戒、海難救助などでよく用いられる飛行艇。",
+		nationality = 1,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "hit",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6530
+		},
+		part_main = {
+			1,
+			2,
+			3,
+			11,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			11,
+			18
+		},
+		equip_parameters = {
+			avoid_extra = 1000,
+			ambush_extra = 1000
+		},
+		label = {
+			"USS",
+			"DEV"
 		}
 	},
-	[16042] = {
-		id = 16042,
-		damage = "13/回",
-		base = 16040,
-		weapon_id = {
-			16042
-		}
+	[15501] = {
+		id = 15501,
+		value_2 = 12,
+		value_1 = "16",
+		base = 15500
 	},
-	[16043] = {
-		id = 16043,
-		damage = "14/回",
-		base = 16040,
-		weapon_id = {
-			16043
-		}
+	[15502] = {
+		id = 15502,
+		value_2 = 14,
+		value_1 = "18",
+		base = 15500
 	},
-	[16044] = {
-		id = 16044,
-		damage = "16/回",
-		base = 16040,
-		weapon_id = {
-			16044
-		}
+	[15503] = {
+		id = 15503,
+		value_2 = 16,
+		value_1 = "20",
+		base = 15500
 	},
-	[16045] = {
-		id = 16045,
-		damage = "18/回",
-		base = 16040,
-		weapon_id = {
-			16045
-		}
+	[15504] = {
+		id = 15504,
+		value_2 = 18,
+		value_1 = "22",
+		base = 15500
 	},
-	[16046] = {
-		id = 16046,
-		damage = "20/回",
-		base = 16040,
-		weapon_id = {
-			16046
-		}
+	[15505] = {
+		id = 15505,
+		value_2 = 20,
+		value_1 = "24",
+		base = 15500
 	},
-	[16047] = {
-		id = 16047,
-		damage = "20/回",
-		base = 16040,
-		weapon_id = {
-			16047
-		}
+	[15506] = {
+		id = 15506,
+		value_2 = 22,
+		value_1 = "26",
+		base = 15500
 	},
-	[16060] = {
-		name = "76mm高角砲改修型",
+	[15507] = {
+		id = 15507,
+		value_2 = 24,
+		value_1 = "28",
+		base = 15500
+	},
+	[15508] = {
+		id = 15508,
+		value_2 = 26,
+		value_1 = "30",
+		base = 15500
+	},
+	[15509] = {
+		id = 15509,
+		value_2 = 28,
+		value_1 = "32",
+		base = 15500
+	},
+	[15510] = {
+		id = 15510,
+		value_2 = 30,
+		value_1 = "35",
+		base = 15500
+	},
+	[15511] = {
+		id = 15511,
+		anti_siren = 100,
+		base = 15500,
+		value_2 = 32,
+		value_1 = "38"
+	},
+	[16000] = {
+		name = "20mmエリコン機関砲",
 		speciality = "対空",
 		type = 6,
-		tech = 0,
+		tech = 1,
+		rarity = 1,
 		descrip = "0",
-		value_2 = 25,
-		icon = "16060",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "29/回",
+		value_2 = 0,
+		icon = "16000",
+		damage = "8/回",
 		nationality = 1,
 		ammo = 5,
 		value_3 = 0,
-		id = 16060,
+		id = 16000,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -82,7 +142,7 @@ pg.equip_data_statistics_116 = {
 			10
 		},
 		weapon_id = {
-			16060
+			16000
 		},
 		skill_id = {},
 		part_main = {
@@ -118,68 +178,28 @@ pg.equip_data_statistics_116 = {
 			"AA"
 		}
 	},
-	[16061] = {
-		id = 16061,
-		damage = "32/回",
-		base = 16060,
+	[16001] = {
+		id = 16001,
+		damage = "9/回",
+		base = 16000,
 		weapon_id = {
-			16061
+			16001
 		}
 	},
-	[16062] = {
-		id = 16062,
-		damage = "35/回",
-		base = 16060,
+	[16002] = {
+		id = 16002,
+		damage = "10/回",
+		base = 16000,
 		weapon_id = {
-			16062
+			16002
 		}
 	},
-	[16063] = {
-		id = 16063,
-		damage = "38/回",
-		base = 16060,
+	[16003] = {
+		id = 16003,
+		damage = "12/回",
+		base = 16000,
 		weapon_id = {
-			16063
-		}
-	},
-	[16064] = {
-		id = 16064,
-		damage = "41/回",
-		base = 16060,
-		weapon_id = {
-			16064
-		}
-	},
-	[16065] = {
-		id = 16065,
-		damage = "44/回",
-		base = 16060,
-		weapon_id = {
-			16065
-		}
-	},
-	[16066] = {
-		id = 16066,
-		damage = "47/回",
-		base = 16060,
-		weapon_id = {
-			16066
-		}
-	},
-	[16067] = {
-		id = 16067,
-		damage = "50/回",
-		base = 16060,
-		weapon_id = {
-			16067
-		}
-	},
-	[16068] = {
-		id = 16068,
-		damage = "53/回",
-		base = 16060,
-		weapon_id = {
-			16068
+			16003
 		}
 	}
 }

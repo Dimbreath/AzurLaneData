@@ -1,115 +1,81 @@
 pg = pg or {}
 pg.equip_data_statistics_214 = {
-	[29122] = {
-		id = 29122,
-		base = 29120,
+	[29001] = {
+		id = 29001,
+		base = 29000,
 		ammo_info = {
 			{
 				6,
-				50222
+				50101
 			},
 			{
 				5,
-				52122
+				52201
 			}
 		},
 		weapon_id = {
-			29122
+			29001
 		}
 	},
-	[29123] = {
-		id = 29123,
-		base = 29120,
+	[29002] = {
+		id = 29002,
+		base = 29000,
 		ammo_info = {
 			{
 				6,
-				50223
+				50102
 			},
 			{
 				5,
-				52123
+				52202
 			}
 		},
 		weapon_id = {
-			29123
+			29002
 		}
 	},
-	[29124] = {
-		id = 29124,
-		base = 29120,
+	[29003] = {
+		id = 29003,
+		base = 29000,
 		ammo_info = {
 			{
 				6,
-				50224
+				50103
 			},
 			{
 				5,
-				52124
+				52203
 			}
 		},
 		weapon_id = {
-			29124
+			29003
 		}
 	},
-	[29125] = {
-		id = 29125,
-		base = 29120,
-		ammo_info = {
-			{
-				6,
-				50225
-			},
-			{
-				5,
-				52125
-			}
-		},
-		weapon_id = {
-			29125
-		}
-	},
-	[29126] = {
-		id = 29126,
-		base = 29120,
-		ammo_info = {
-			{
-				6,
-				50226
-			},
-			{
-				5,
-				52126
-			}
-		},
-		weapon_id = {
-			29126
-		}
-	},
-	[29140] = {
-		name = "フルマー",
+	[29020] = {
+		name = "スクア",
 		type = 9,
 		speciality = "爆撃",
-		rarity = 4,
-		tech = 3,
+		rarity = 2,
+		tech = 2,
 		descrip = "0",
-		value_2 = 25,
-		icon = "29100",
+		value_2 = 5,
+		icon = "29000",
 		attribute_2 = "air",
 		nationality = 2,
 		ammo = 5,
 		value_3 = 0,
-		id = 29140,
+		id = 29020,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				6,
-				50240
+				50120
 			},
 			{
 				5,
-				52140
+				52220
 			}
 		},
 		equip_info = {
@@ -119,7 +85,7 @@ pg.equip_data_statistics_214 = {
 			9
 		},
 		weapon_id = {
-			29140
+			29020
 		},
 		skill_id = {},
 		part_main = {
@@ -137,174 +103,278 @@ pg.equip_data_statistics_214 = {
 			"DB"
 		}
 	},
-	[29141] = {
-		id = 29141,
-		base = 29140,
+	[29021] = {
+		id = 29021,
+		base = 29020,
 		ammo_info = {
 			{
 				6,
-				50241
+				50121
 			},
 			{
 				5,
-				52141
+				52221
 			}
 		},
 		weapon_id = {
-			29141
+			29021
 		}
 	},
-	[29142] = {
-		id = 29142,
-		base = 29140,
+	[29022] = {
+		id = 29022,
+		base = 29020,
 		ammo_info = {
 			{
 				6,
-				50242
+				50122
 			},
 			{
 				5,
-				52142
+				52222
 			}
 		},
 		weapon_id = {
-			29142
+			29022
 		}
 	},
-	[29143] = {
-		id = 29143,
-		base = 29140,
+	[29023] = {
+		id = 29023,
+		base = 29020,
 		ammo_info = {
 			{
 				6,
-				50243
+				50123
 			},
 			{
 				5,
-				52143
+				52223
 			}
 		},
 		weapon_id = {
-			29143
+			29023
 		}
 	},
-	[29144] = {
-		id = 29144,
-		base = 29140,
+	[29040] = {
+		name = "スクア",
+		type = 9,
+		speciality = "爆撃",
+		rarity = 3,
+		tech = 3,
+		descrip = "0",
+		value_2 = 12,
+		icon = "29000",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 29040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
 		ammo_info = {
 			{
 				6,
-				50244
+				50140
 			},
 			{
 				5,
-				52144
+				52240
 			}
 		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
 		weapon_id = {
-			29144
+			29040
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
 		}
 	},
-	[29145] = {
-		id = 29145,
-		base = 29140,
+	[29041] = {
+		id = 29041,
+		base = 29040,
 		ammo_info = {
 			{
 				6,
-				50245
+				50141
 			},
 			{
 				5,
-				52145
+				52241
 			}
 		},
 		weapon_id = {
-			29145
+			29041
 		}
 	},
-	[29146] = {
-		id = 29146,
-		base = 29140,
+	[29042] = {
+		id = 29042,
+		base = 29040,
 		ammo_info = {
 			{
 				6,
-				50246
+				50142
 			},
 			{
 				5,
-				52146
+				52242
 			}
 		},
 		weapon_id = {
-			29146
+			29042
 		}
 	},
-	[29147] = {
-		id = 29147,
-		base = 29140,
+	[29043] = {
+		id = 29043,
+		base = 29040,
 		ammo_info = {
 			{
 				6,
-				50247
+				50143
 			},
 			{
 				5,
-				52147
+				52243
 			}
 		},
 		weapon_id = {
-			29147
+			29043
 		}
 	},
-	[29148] = {
-		id = 29148,
-		base = 29140,
+	[29044] = {
+		id = 29044,
+		base = 29040,
 		ammo_info = {
 			{
 				6,
-				50248
+				50144
 			},
 			{
 				5,
-				52148
+				52244
 			}
 		},
 		weapon_id = {
-			29148
+			29044
 		}
 	},
-	[29149] = {
-		id = 29149,
-		base = 29140,
+	[29045] = {
+		id = 29045,
+		base = 29040,
 		ammo_info = {
 			{
 				6,
-				50249
+				50145
 			},
 			{
 				5,
-				52149
+				52245
 			}
 		},
 		weapon_id = {
-			29149
+			29045
 		}
 	},
-	[29150] = {
-		id = 29150,
-		base = 29140,
+	[29046] = {
+		id = 29046,
+		base = 29040,
 		ammo_info = {
 			{
 				6,
-				50250
+				50146
 			},
 			{
 				5,
-				52150
+				52246
 			}
 		},
 		weapon_id = {
-			29150
+			29046
+		}
+	},
+	[29047] = {
+		id = 29047,
+		base = 29040,
+		ammo_info = {
+			{
+				6,
+				50147
+			},
+			{
+				5,
+				52247
+			}
+		},
+		weapon_id = {
+			29047
+		}
+	},
+	[29100] = {
+		name = "フルマー",
+		type = 9,
+		speciality = "爆撃",
+		rarity = 2,
+		tech = 1,
+		descrip = "0",
+		value_2 = 5,
+		icon = "29100",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 29100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50200
+			},
+			{
+				5,
+				52100
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			29100
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
 		}
 	}
 }

@@ -1,30 +1,88 @@
 pg = pg or {}
 pg.equip_data_statistics_194 = {
-	[26613] = {
-		anti_siren = 300,
-		damage = "96/回",
-		base = 26600,
-		id = 26613,
+	[26546] = {
+		id = 26546,
+		damage = "98/回",
+		base = 26540,
 		weapon_id = {
-			26613
+			26546
 		}
 	},
-	[26620] = {
-		name = "連装ボフォース40mm機関砲「Hazemeyer」",
+	[26547] = {
+		id = 26547,
+		damage = "106/回",
+		base = 26540,
+		weapon_id = {
+			26547
+		}
+	},
+	[26548] = {
+		id = 26548,
+		damage = "114/回",
+		base = 26540,
+		weapon_id = {
+			26548
+		}
+	},
+	[26549] = {
+		id = 26549,
+		damage = "122/回",
+		base = 26540,
+		weapon_id = {
+			26549
+		}
+	},
+	[26550] = {
+		id = 26550,
+		damage = "130/回",
+		base = 26540,
+		weapon_id = {
+			26550
+		}
+	},
+	[26551] = {
+		anti_siren = 100,
+		damage = "130/回",
+		base = 26540,
+		id = 26551,
+		weapon_id = {
+			26551
+		}
+	},
+	[26552] = {
+		anti_siren = 200,
+		damage = "130/回",
+		base = 26540,
+		id = 26552,
+		weapon_id = {
+			26552
+		}
+	},
+	[26553] = {
+		anti_siren = 300,
+		damage = "130/回",
+		base = 26540,
+		id = 26553,
+		weapon_id = {
+			26553
+		}
+	},
+	[26600] = {
+		name = "連装ボフォース40mm機関砲STAAG",
 		speciality = "対空",
 		type = 6,
 		attribute_3 = "hit",
 		tech = 0,
 		value_2 = 45,
-		icon = "26620",
+		icon = "26600",
 		attribute_2 = "antiaircraft",
 		descrip = "0",
 		rarity = 5,
 		damage = "38/回",
 		nationality = 2,
 		ammo = 5,
-		value_3 = 5,
-		id = 26620,
+		value_3 = 10,
+		id = 26600,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -36,7 +94,7 @@ pg.equip_data_statistics_194 = {
 			10
 		},
 		weapon_id = {
-			26620
+			26600
 		},
 		skill_id = {},
 		part_main = {
@@ -72,174 +130,60 @@ pg.equip_data_statistics_194 = {
 			"AA"
 		}
 	},
-	[26621] = {
-		id = 26621,
+	[26601] = {
+		id = 26601,
 		damage = "43/回",
-		base = 26620,
+		base = 26600,
 		weapon_id = {
-			26621
+			26601
 		}
 	},
-	[26622] = {
-		id = 26622,
+	[26602] = {
+		id = 26602,
 		damage = "48/回",
-		base = 26620,
+		base = 26600,
 		weapon_id = {
-			26622
+			26602
 		}
 	},
-	[26623] = {
-		id = 26623,
+	[26603] = {
+		id = 26603,
 		damage = "54/回",
-		base = 26620,
+		base = 26600,
 		weapon_id = {
-			26623
+			26603
 		}
 	},
-	[26624] = {
-		id = 26624,
+	[26604] = {
+		id = 26604,
 		damage = "60/回",
-		base = 26620,
+		base = 26600,
 		weapon_id = {
-			26624
+			26604
 		}
 	},
-	[26625] = {
-		id = 26625,
+	[26605] = {
+		id = 26605,
 		damage = "66/回",
-		base = 26620,
+		base = 26600,
 		weapon_id = {
-			26625
+			26605
 		}
 	},
-	[26626] = {
-		id = 26626,
+	[26606] = {
+		id = 26606,
 		damage = "72/回",
-		base = 26620,
+		base = 26600,
 		weapon_id = {
-			26626
+			26606
 		}
 	},
-	[26627] = {
-		id = 26627,
+	[26607] = {
+		id = 26607,
 		damage = "78/回",
-		base = 26620,
+		base = 26600,
 		weapon_id = {
-			26627
-		}
-	},
-	[26628] = {
-		id = 26628,
-		damage = "84/回",
-		base = 26620,
-		weapon_id = {
-			26628
-		}
-	},
-	[26629] = {
-		id = 26629,
-		damage = "90/回",
-		base = 26620,
-		weapon_id = {
-			26629
-		}
-	},
-	[26630] = {
-		id = 26630,
-		damage = "96/回",
-		base = 26620,
-		weapon_id = {
-			26630
-		}
-	},
-	[26631] = {
-		anti_siren = 100,
-		damage = "96/回",
-		base = 26620,
-		id = 26631,
-		weapon_id = {
-			26631
-		}
-	},
-	[26632] = {
-		anti_siren = 200,
-		damage = "96/回",
-		base = 26620,
-		id = 26632,
-		weapon_id = {
-			26632
-		}
-	},
-	[26633] = {
-		anti_siren = 300,
-		damage = "96/回",
-		base = 26620,
-		id = 26633,
-		weapon_id = {
-			26633
-		}
-	},
-	[26640] = {
-		name = "134mm連装高角砲",
-		speciality = "対空",
-		type = 6,
-		attribute_3 = "cannon",
-		tech = 0,
-		value_2 = 30,
-		icon = "21500",
-		attribute_2 = "antiaircraft",
-		descrip = "0",
-		rarity = 5,
-		damage = "53/回",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 15,
-		id = 26640,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			26640
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"ST",
-			"AA"
+			26607
 		}
 	}
 }

@@ -1,60 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_257 = {
-	[36422] = {
-		id = 36422,
-		damage = "28/回",
-		base = 36420,
+	[36351] = {
+		anti_siren = 100,
+		damage = "54/回",
+		base = 36340,
+		id = 36351,
 		weapon_id = {
-			36422
+			36351
 		}
 	},
-	[36423] = {
-		id = 36423,
-		damage = "31/回",
-		base = 36420,
-		weapon_id = {
-			36423
-		}
-	},
-	[36424] = {
-		id = 36424,
-		damage = "35/回",
-		base = 36420,
-		weapon_id = {
-			36424
-		}
-	},
-	[36425] = {
-		id = 36425,
-		damage = "39/回",
-		base = 36420,
-		weapon_id = {
-			36425
-		}
-	},
-	[36426] = {
-		id = 36426,
-		damage = "43/回",
-		base = 36420,
-		weapon_id = {
-			36426
-		}
-	},
-	[36440] = {
-		name = "毘式40mm連装機銃",
+	[36360] = {
+		name = "25mm九六式三連装機銃（爆風避盾装備）",
 		speciality = "対空",
 		type = 6,
-		tech = 3,
+		tech = 0,
 		descrip = "0",
-		value_2 = 25,
-		icon = "36400",
+		value_2 = 45,
+		icon = "36360",
 		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "26/回",
+		rarity = 5,
+		damage = "40/回",
 		nationality = 3,
 		ammo = 5,
 		value_3 = 0,
-		id = 36440,
+		id = 36360,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -66,7 +35,7 @@ pg.equip_data_statistics_257 = {
 			10
 		},
 		weapon_id = {
-			36440
+			36360
 		},
 		skill_id = {},
 		part_main = {
@@ -102,84 +71,173 @@ pg.equip_data_statistics_257 = {
 			"AA"
 		}
 	},
-	[36441] = {
-		id = 36441,
-		damage = "29/回",
-		base = 36440,
+	[36361] = {
+		id = 36361,
+		damage = "43/回",
+		base = 36360,
 		weapon_id = {
-			36441
+			36361
 		}
 	},
-	[36442] = {
-		id = 36442,
-		damage = "33/回",
-		base = 36440,
+	[36362] = {
+		id = 36362,
+		damage = "46/回",
+		base = 36360,
 		weapon_id = {
-			36442
+			36362
 		}
 	},
-	[36443] = {
-		id = 36443,
-		damage = "37/回",
-		base = 36440,
-		weapon_id = {
-			36443
-		}
-	},
-	[36444] = {
-		id = 36444,
-		damage = "41/回",
-		base = 36440,
-		weapon_id = {
-			36444
-		}
-	},
-	[36445] = {
-		id = 36445,
-		damage = "45/回",
-		base = 36440,
-		weapon_id = {
-			36445
-		}
-	},
-	[36446] = {
-		id = 36446,
+	[36363] = {
+		id = 36363,
 		damage = "49/回",
-		base = 36440,
+		base = 36360,
 		weapon_id = {
-			36446
+			36363
 		}
 	},
-	[36447] = {
-		id = 36447,
-		damage = "53/回",
-		base = 36440,
+	[36364] = {
+		id = 36364,
+		damage = "52/回",
+		base = 36360,
 		weapon_id = {
-			36447
+			36364
 		}
 	},
-	[36448] = {
-		id = 36448,
-		damage = "57/回",
-		base = 36440,
+	[36365] = {
+		id = 36365,
+		damage = "55/回",
+		base = 36360,
 		weapon_id = {
-			36448
+			36365
 		}
 	},
-	[36449] = {
-		id = 36449,
+	[36366] = {
+		id = 36366,
+		damage = "58/回",
+		base = 36360,
+		weapon_id = {
+			36366
+		}
+	},
+	[36367] = {
+		id = 36367,
 		damage = "61/回",
-		base = 36440,
+		base = 36360,
 		weapon_id = {
-			36449
+			36367
 		}
 	},
-	[36450] = {
-		id = 36450,
-		damage = "65/回",
-		base = 36440,
+	[36368] = {
+		id = 36368,
+		damage = "64/回",
+		base = 36360,
 		weapon_id = {
-			36450
+			36368
+		}
+	},
+	[36369] = {
+		id = 36369,
+		damage = "68/回",
+		base = 36360,
+		weapon_id = {
+			36369
+		}
+	},
+	[36370] = {
+		id = 36370,
+		damage = "72/回",
+		base = 36360,
+		weapon_id = {
+			36370
+		}
+	},
+	[36371] = {
+		anti_siren = 100,
+		damage = "72/回",
+		base = 36360,
+		id = 36371,
+		weapon_id = {
+			36371
+		}
+	},
+	[36372] = {
+		anti_siren = 200,
+		damage = "72/回",
+		base = 36360,
+		id = 36372,
+		weapon_id = {
+			36372
+		}
+	},
+	[36373] = {
+		anti_siren = 300,
+		damage = "72/回",
+		base = 36360,
+		id = 36373,
+		weapon_id = {
+			36373
+		}
+	},
+	[36400] = {
+		name = "毘式40mm連装機銃",
+		speciality = "対空",
+		type = 6,
+		tech = 1,
+		descrip = "0",
+		value_2 = 5,
+		icon = "36400",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "19/回",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36400,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			36400
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
 		}
 	}
 }

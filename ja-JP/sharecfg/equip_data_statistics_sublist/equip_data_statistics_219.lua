@@ -1,63 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_219 = {
-	[31049] = {
-		id = 31049,
-		damage = "11 x 4",
-		base = 31040,
+	[31006] = {
+		id = 31006,
+		damage = "7 x 4",
+		base = 31000,
 		weapon_id = {
-			31049
+			31006
 		}
 	},
-	[31050] = {
-		id = 31050,
-		damage = "12 x 4",
-		base = 31040,
-		weapon_id = {
-			31050
-		}
-	},
-	[31051] = {
-		anti_siren = 100,
-		damage = "12 x 4",
-		base = 31040,
-		id = 31051,
-		weapon_id = {
-			31051
-		}
-	},
-	[31052] = {
-		anti_siren = 200,
-		damage = "12 x 4",
-		base = 31040,
-		id = 31052,
-		weapon_id = {
-			31052
-		}
-	},
-	[31053] = {
-		anti_siren = 300,
-		damage = "12 x 4",
-		base = 31040,
-		id = 31053,
-		weapon_id = {
-			31053
-		}
-	},
-	[31060] = {
-		name = "100mm八八式砲",
+	[31020] = {
+		name = "100mm二連装九八式高角砲",
 		speciality = "追尾",
 		type = 1,
-		tech = 0,
-		descrip = "0",
-		value_2 = 10,
-		icon = "31060",
+		attribute_3 = "antiaircraft",
+		tech = 2,
+		value_2 = 9,
+		icon = "31000",
 		attribute_2 = "cannon",
+		descrip = "0",
 		rarity = 4,
 		damage = "4 x 4",
 		nationality = 3,
 		ammo = 3,
-		value_3 = 15,
-		id = 31060,
+		value_3 = 16,
+		id = 31020,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -86,7 +52,7 @@ pg.equip_data_statistics_219 = {
 			12
 		},
 		weapon_id = {
-			31060
+			31020
 		},
 		skill_id = {},
 		part_main = {
@@ -109,83 +75,173 @@ pg.equip_data_statistics_219 = {
 			"MG"
 		}
 	},
-	[31061] = {
-		id = 31061,
-		base = 31060,
+	[31021] = {
+		id = 31021,
+		base = 31020,
 		weapon_id = {
-			31061
+			31021
 		}
 	},
-	[31062] = {
-		id = 31062,
-		damage = "5 x 4",
-		base = 31060,
-		weapon_id = {
-			31062
-		}
-	},
-	[31063] = {
-		id = 31063,
-		damage = "5 x 4",
-		base = 31060,
-		weapon_id = {
-			31063
-		}
-	},
-	[31064] = {
-		id = 31064,
+	[31022] = {
+		id = 31022,
 		damage = "6 x 4",
-		base = 31060,
+		base = 31020,
 		weapon_id = {
-			31064
+			31022
 		}
 	},
-	[31065] = {
-		id = 31065,
+	[31023] = {
+		id = 31023,
 		damage = "6 x 4",
-		base = 31060,
+		base = 31020,
 		weapon_id = {
-			31065
+			31023
 		}
 	},
-	[31066] = {
-		id = 31066,
+	[31024] = {
+		id = 31024,
 		damage = "7 x 4",
-		base = 31060,
+		base = 31020,
 		weapon_id = {
-			31066
+			31024
 		}
 	},
-	[31067] = {
-		id = 31067,
-		damage = "7 x 4",
-		base = 31060,
-		weapon_id = {
-			31067
-		}
-	},
-	[31068] = {
-		id = 31068,
+	[31025] = {
+		id = 31025,
 		damage = "8 x 4",
-		base = 31060,
+		base = 31020,
 		weapon_id = {
-			31068
+			31025
 		}
 	},
-	[31069] = {
-		id = 31069,
+	[31026] = {
+		id = 31026,
 		damage = "8 x 4",
-		base = 31060,
+		base = 31020,
 		weapon_id = {
-			31069
+			31026
 		}
 	},
-	[31070] = {
-		id = 31070,
+	[31027] = {
+		id = 31027,
 		damage = "9 x 4",
-		base = 31060,
+		base = 31020,
 		weapon_id = {
-			31070
+			31027
+		}
+	},
+	[31028] = {
+		id = 31028,
+		damage = "9 x 4",
+		base = 31020,
+		weapon_id = {
+			31028
+		}
+	},
+	[31029] = {
+		id = 31029,
+		damage = "10 x 4",
+		base = 31020,
+		weapon_id = {
+			31029
+		}
+	},
+	[31030] = {
+		id = 31030,
+		damage = "11 x 4",
+		base = 31020,
+		weapon_id = {
+			31030
+		}
+	},
+	[31040] = {
+		name = "100mm二連装九八式高角砲",
+		speciality = "追尾",
+		type = 1,
+		attribute_3 = "antiaircraft",
+		tech = 3,
+		value_2 = 15,
+		icon = "31000",
+		attribute_2 = "cannon",
+		descrip = "0",
+		rarity = 5,
+		damage = "4 x 4",
+		nationality = 3,
+		ammo = 3,
+		value_3 = 30,
+		id = 31040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1200
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1200
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			31040
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		}
+	},
+	[31041] = {
+		id = 31041,
+		base = 31040,
+		weapon_id = {
+			31041
+		}
+	},
+	[31042] = {
+		id = 31042,
+		damage = "7 x 4",
+		base = 31040,
+		weapon_id = {
+			31042
+		}
+	},
+	[31043] = {
+		id = 31043,
+		damage = "7 x 4",
+		base = 31040,
+		weapon_id = {
+			31043
 		}
 	}
 }

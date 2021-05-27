@@ -1,52 +1,60 @@
 pg = pg or {}
 pg.equip_data_statistics_224 = {
-	[31264] = {
-		id = 31264,
-		damage = "7 x 2",
-		base = 31260,
+	[31222] = {
+		id = 31222,
+		damage = "5 x 4",
+		base = 31220,
 		weapon_id = {
-			31264
+			31222
 		}
 	},
-	[31265] = {
-		id = 31265,
-		damage = "7 x 2",
-		base = 31260,
+	[31223] = {
+		id = 31223,
+		damage = "5 x 4",
+		base = 31220,
 		weapon_id = {
-			31265
+			31223
 		}
 	},
-	[31266] = {
-		id = 31266,
-		damage = "8 x 2",
-		base = 31260,
+	[31224] = {
+		id = 31224,
+		damage = "7 x 4",
+		base = 31220,
 		weapon_id = {
-			31266
+			31224
 		}
 	},
-	[31267] = {
-		id = 31267,
-		damage = "8 x 2",
-		base = 31260,
+	[31225] = {
+		id = 31225,
+		damage = "7 x 4",
+		base = 31220,
 		weapon_id = {
-			31267
+			31225
 		}
 	},
-	[31280] = {
-		name = "127mm連装砲改",
+	[31226] = {
+		id = 31226,
+		damage = "8 x 4",
+		base = 31220,
+		weapon_id = {
+			31226
+		}
+	},
+	[31240] = {
+		name = "127mm連装砲",
 		speciality = "追尾",
 		type = 1,
-		tech = 0,
+		tech = 3,
 		descrip = "0",
 		value_2 = 25,
-		icon = "31280",
+		icon = "31200",
 		attribute_2 = "cannon",
 		rarity = 4,
 		damage = "4 x 4",
 		nationality = 3,
 		ammo = 2,
 		value_3 = 0,
-		id = 31280,
+		id = 31240,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -75,7 +83,7 @@ pg.equip_data_statistics_224 = {
 			12
 		},
 		weapon_id = {
-			31280
+			31240
 		},
 		skill_id = {},
 		part_main = {
@@ -99,93 +107,83 @@ pg.equip_data_statistics_224 = {
 			"HE"
 		}
 	},
-	[31281] = {
-		id = 31281,
+	[31241] = {
+		id = 31241,
+		base = 31240,
+		weapon_id = {
+			31241
+		}
+	},
+	[31242] = {
+		id = 31242,
 		damage = "5 x 4",
-		base = 31280,
+		base = 31240,
 		weapon_id = {
-			31281
+			31242
 		}
 	},
-	[31282] = {
-		id = 31282,
-		damage = "6 x 4",
-		base = 31280,
+	[31243] = {
+		id = 31243,
+		damage = "5 x 4",
+		base = 31240,
 		weapon_id = {
-			31282
+			31243
 		}
 	},
-	[31283] = {
-		id = 31283,
-		damage = "7 x 4",
-		base = 31280,
-		weapon_id = {
-			31283
-		}
-	},
-	[31284] = {
-		id = 31284,
+	[31244] = {
+		id = 31244,
 		damage = "8 x 4",
-		base = 31280,
+		base = 31240,
 		weapon_id = {
-			31284
+			31244
 		}
 	},
-	[31285] = {
-		id = 31285,
+	[31245] = {
+		id = 31245,
+		damage = "8 x 4",
+		base = 31240,
+		weapon_id = {
+			31245
+		}
+	},
+	[31246] = {
+		id = 31246,
 		damage = "9 x 4",
-		base = 31280,
+		base = 31240,
 		weapon_id = {
-			31285
+			31246
 		}
 	},
-	[31286] = {
-		id = 31286,
+	[31247] = {
+		id = 31247,
 		damage = "10 x 4",
-		base = 31280,
+		base = 31240,
 		weapon_id = {
-			31286
+			31247
 		}
 	},
-	[31287] = {
-		id = 31287,
+	[31248] = {
+		id = 31248,
+		damage = "10 x 4",
+		base = 31240,
+		weapon_id = {
+			31248
+		}
+	},
+	[31249] = {
+		id = 31249,
 		damage = "11 x 4",
-		base = 31280,
+		base = 31240,
 		weapon_id = {
-			31287
+			31249
 		}
 	},
-	[31288] = {
-		id = 31288,
+	[31250] = {
+		id = 31250,
 		damage = "12 x 4",
-		base = 31280,
+		base = 31240,
 		weapon_id = {
-			31288
-		}
-	},
-	[31289] = {
-		id = 31289,
-		damage = "13 x 4",
-		base = 31280,
-		weapon_id = {
-			31289
-		}
-	},
-	[31290] = {
-		id = 31290,
-		damage = "14 x 4",
-		base = 31280,
-		weapon_id = {
-			31290
-		}
-	},
-	[31291] = {
-		anti_siren = 100,
-		damage = "14 x 4",
-		base = 31280,
-		id = 31291,
-		weapon_id = {
-			31291
+			31250
 		}
 	}
 }

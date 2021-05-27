@@ -1,54 +1,84 @@
 pg = pg or {}
 pg.equip_data_statistics_126 = {
-	[17046] = {
-		id = 17046,
-		base = 17040,
-		ammo_info = {
-			{
-				6,
-				50346
-			}
-		},
+	[16447] = {
+		id = 16447,
+		damage = "97/回",
+		base = 16440,
 		weapon_id = {
-			17046,
-			81046
+			16447
 		}
 	},
-	[17047] = {
-		id = 17047,
-		base = 17040,
-		ammo_info = {
-			{
-				6,
-				50347
-			}
-		},
+	[16448] = {
+		id = 16448,
+		damage = "104/回",
+		base = 16440,
 		weapon_id = {
-			17047,
-			81047
+			16448
 		}
 	},
-	[17060] = {
-		name = "F2Aバッファロー（サッチ隊）",
-		type = 7,
+	[16449] = {
+		id = 16449,
+		damage = "112/回",
+		base = 16440,
+		weapon_id = {
+			16449
+		}
+	},
+	[16450] = {
+		id = 16450,
+		damage = "120/回",
+		base = 16440,
+		weapon_id = {
+			16450
+		}
+	},
+	[16451] = {
+		anti_siren = 100,
+		damage = "120/回",
+		base = 16440,
+		id = 16451,
+		weapon_id = {
+			16451
+		}
+	},
+	[16452] = {
+		anti_siren = 200,
+		damage = "120/回",
+		base = 16440,
+		id = 16452,
+		weapon_id = {
+			16452
+		}
+	},
+	[16453] = {
+		anti_siren = 300,
+		damage = "120/回",
+		base = 16440,
+		id = 16453,
+		weapon_id = {
+			16453
+		}
+	},
+	[17000] = {
+		name = "F2Aバッファロー",
+		tech = 1,
 		speciality = "航空",
-		rarity = 5,
-		tech = 0,
-		descrip = "「サッチウィーブ」戦術の考案者ジョン・スミス・サッチの率いる戦闘機隊",
-		value_2 = 45,
-		icon = "17060",
-		attribute_2 = "air",
+		type = 7,
+		rarity = 1,
+		descrip = "0",
+		value_2 = 0,
+		icon = "17000",
 		nationality = 1,
 		ammo = 5,
 		value_3 = 0,
-		id = 17060,
+		id = 17000,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				6,
-				50360
+				50300
 			}
 		},
 		equip_info = {
@@ -58,12 +88,10 @@ pg.equip_data_statistics_126 = {
 			9
 		},
 		weapon_id = {
-			17060,
-			81060
+			17000,
+			81000
 		},
-		skill_id = {
-			6430
-		},
+		skill_id = {},
 		part_main = {
 			6,
 			7
@@ -79,189 +107,186 @@ pg.equip_data_statistics_126 = {
 			"FT"
 		}
 	},
-	[17061] = {
-		id = 17061,
-		base = 17060,
+	[17001] = {
+		id = 17001,
+		base = 17000,
 		ammo_info = {
 			{
 				6,
-				50361
+				50301
 			}
 		},
 		weapon_id = {
-			17061,
-			81061
+			17001,
+			81001
 		}
 	},
-	[17062] = {
-		id = 17062,
-		base = 17060,
+	[17002] = {
+		id = 17002,
+		base = 17000,
 		ammo_info = {
 			{
 				6,
-				50362
+				50302
 			}
 		},
 		weapon_id = {
-			17062,
-			81062
+			17002,
+			81002
 		}
 	},
-	[17063] = {
-		id = 17063,
-		base = 17060,
+	[17003] = {
+		id = 17003,
+		base = 17000,
 		ammo_info = {
 			{
 				6,
-				50363
+				50303
 			}
 		},
 		weapon_id = {
-			17063,
-			81063
+			17003,
+			81003
 		}
 	},
-	[17064] = {
-		id = 17064,
-		base = 17060,
+	[17020] = {
+		name = "F2Aバッファロー",
+		type = 7,
+		speciality = "航空",
+		rarity = 2,
+		tech = 2,
+		descrip = "0",
+		value_2 = 5,
+		icon = "17000",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 17020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
 		ammo_info = {
 			{
 				6,
-				50364
+				50320
 			}
 		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
 		weapon_id = {
-			17064,
-			81064
+			17020,
+			81020
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
 		}
 	},
-	[17065] = {
-		id = 17065,
-		base = 17060,
+	[17021] = {
+		id = 17021,
+		base = 17020,
 		ammo_info = {
 			{
 				6,
-				50365
+				50321
 			}
 		},
 		weapon_id = {
-			17065,
-			81065
+			17021,
+			81021
 		}
 	},
-	[17066] = {
-		id = 17066,
-		base = 17060,
+	[17022] = {
+		id = 17022,
+		base = 17020,
 		ammo_info = {
 			{
 				6,
-				50366
+				50322
 			}
 		},
 		weapon_id = {
-			17066,
-			81066
+			17022,
+			81022
 		}
 	},
-	[17067] = {
-		id = 17067,
-		base = 17060,
+	[17023] = {
+		id = 17023,
+		base = 17020,
 		ammo_info = {
 			{
 				6,
-				50367
+				50323
 			}
 		},
 		weapon_id = {
-			17067,
-			81067
+			17023,
+			81023
 		}
 	},
-	[17068] = {
-		id = 17068,
-		base = 17060,
+	[17040] = {
+		name = "F2Aバッファロー",
+		type = 7,
+		speciality = "航空",
+		rarity = 3,
+		tech = 3,
+		descrip = "0",
+		value_2 = 12,
+		icon = "17000",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 17040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
 		ammo_info = {
 			{
 				6,
-				50368
+				50340
 			}
 		},
-		weapon_id = {
-			17068,
-			81068
-		}
-	},
-	[17069] = {
-		id = 17069,
-		base = 17060,
-		ammo_info = {
-			{
-				6,
-				50369
-			}
+		equip_info = {
+			6,
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			17069,
-			81069
-		}
-	},
-	[17070] = {
-		id = 17070,
-		base = 17060,
-		ammo_info = {
-			{
-				6,
-				50370
-			}
+			17040,
+			81040
 		},
-		weapon_id = {
-			17070,
-			81070
-		}
-	},
-	[17071] = {
-		anti_siren = 100,
-		base = 17060,
-		id = 17071,
-		ammo_info = {
-			{
-				6,
-				50371
-			}
+		skill_id = {},
+		part_main = {
+			6,
+			7
 		},
-		weapon_id = {
-			17071,
-			81071
-		}
-	},
-	[17072] = {
-		anti_siren = 200,
-		base = 17060,
-		id = 17072,
-		ammo_info = {
-			{
-				6,
-				50372
-			}
+		part_sub = {
+			6,
+			7
 		},
-		weapon_id = {
-			17072,
-			81072
-		}
-	},
-	[17073] = {
-		anti_siren = 300,
-		base = 17060,
-		id = 17073,
-		ammo_info = {
-			{
-				6,
-				50373
-			}
-		},
-		weapon_id = {
-			17073,
-			81073
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
 		}
 	}
 }

@@ -2,6 +2,113 @@ pg = pg or {}
 pg.weapon_property_73 = {}
 
 function ()
+	uv0.weapon_property_73[47061] = {
+		id = 47061,
+		reload_max = 2142,
+		base = 47060
+	}
+	uv0.weapon_property_73[47062] = {
+		id = 47062,
+		reload_max = 2076,
+		base = 47060
+	}
+	uv0.weapon_property_73[47063] = {
+		id = 47063,
+		reload_max = 2010,
+		base = 47060
+	}
+	uv0.weapon_property_73[47064] = {
+		id = 47064,
+		reload_max = 1944,
+		base = 47060
+	}
+	uv0.weapon_property_73[47065] = {
+		id = 47065,
+		reload_max = 1878,
+		base = 47060
+	}
+	uv0.weapon_property_73[47066] = {
+		id = 47066,
+		reload_max = 1812,
+		base = 47060
+	}
+	uv0.weapon_property_73[47067] = {
+		id = 47067,
+		reload_max = 1812,
+		base = 47060
+	}
+	uv0.weapon_property_73[47080] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "试作型舰载FW-190 A-5",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 47080,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 2020,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_73[47081] = {
+		id = 47081,
+		reload_max = 1989,
+		base = 47080
+	}
+	uv0.weapon_property_73[47082] = {
+		id = 47082,
+		reload_max = 1958,
+		base = 47080
+	}
+	uv0.weapon_property_73[47083] = {
+		id = 47083,
+		reload_max = 1927,
+		base = 47080
+	}
+	uv0.weapon_property_73[47084] = {
+		id = 47084,
+		reload_max = 1896,
+		base = 47080
+	}
+	uv0.weapon_property_73[47085] = {
+		id = 47085,
+		reload_max = 1865,
+		base = 47080
+	}
+	uv0.weapon_property_73[47086] = {
+		id = 47086,
+		reload_max = 1834,
+		base = 47080
+	}
 	uv0.weapon_property_73[47087] = {
 		id = 47087,
 		reload_max = 1803,
@@ -543,112 +650,5 @@ function ()
 		id = 48021,
 		reload_max = 1990,
 		base = 48020
-	}
-	uv0.weapon_property_73[48022] = {
-		id = 48022,
-		reload_max = 1960,
-		base = 48020
-	}
-	uv0.weapon_property_73[48023] = {
-		id = 48023,
-		reload_max = 1930,
-		base = 48020
-	}
-	uv0.weapon_property_73[48024] = {
-		id = 48024,
-		reload_max = 1900,
-		base = 48020
-	}
-	uv0.weapon_property_73[48025] = {
-		id = 48025,
-		reload_max = 1870,
-		base = 48020
-	}
-	uv0.weapon_property_73[48026] = {
-		id = 48026,
-		reload_max = 1840,
-		base = 48020
-	}
-	uv0.weapon_property_73[48027] = {
-		id = 48027,
-		reload_max = 1810,
-		base = 48020
-	}
-	uv0.weapon_property_73[48028] = {
-		id = 48028,
-		reload_max = 1780,
-		base = 48020
-	}
-	uv0.weapon_property_73[48029] = {
-		id = 48029,
-		reload_max = 1750,
-		base = 48020
-	}
-	uv0.weapon_property_73[48030] = {
-		id = 48030,
-		reload_max = 1720,
-		base = 48020
-	}
-	uv0.weapon_property_73[48031] = {
-		id = 48031,
-		reload_max = 1720,
-		base = 48020
-	}
-	uv0.weapon_property_73[48040] = {
-		action_index = "attack",
-		range = 90,
-		type = 10,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Ju-87 D-4",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 90,
-		charge_param = "",
-		damage = 1,
-		corrected = 100,
-		min_range = 0,
-		id = 48040,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 2040,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_73[48041] = {
-		id = 48041,
-		reload_max = 2005,
-		base = 48040
-	}
-	uv0.weapon_property_73[48042] = {
-		id = 48042,
-		reload_max = 1970,
-		base = 48040
-	}
-	uv0.weapon_property_73[48043] = {
-		id = 48043,
-		reload_max = 1935,
-		base = 48040
 	}
 end()

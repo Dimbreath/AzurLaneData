@@ -535,7 +535,7 @@ end
 function slot0.UpdateBuildPoolExchange(slot0, slot1)
 	slot3 = slot1.exchange_available_times
 
-	if slot1.exchange_request and slot2 > 0 and slot3 and slot3 > 0 and slot0.isExActBuild() then
+	if slot1.exchange_request and slot2 > 0 and slot3 and slot3 > 0 and slot0:isExActBuild() then
 		slot7 = slot0.activity.data2
 		slot0.buildPoolExchangeTxt.text = "<color=#FFDF48>" .. slot0.activity.data1 .. "</color>/" .. math.min(slot3, slot7 + 1) * slot2
 		slot9 = slot7 < slot3 and slot8 <= slot6

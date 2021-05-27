@@ -1,93 +1,77 @@
 pg = pg or {}
 pg.equip_data_statistics_303 = {
-	[44043] = {
-		id = 44043,
-		damage = "56 x 3",
-		base = 44040,
+	[43145] = {
+		id = 43145,
+		damage = "45 x 6",
+		base = 43140,
 		weapon_id = {
-			44043
+			43145
 		}
 	},
-	[44044] = {
-		id = 44044,
-		damage = "60 x 3",
-		base = 44040,
+	[43146] = {
+		id = 43146,
+		damage = "47 x 6",
+		base = 43140,
 		weapon_id = {
-			44044
+			43146
 		}
 	},
-	[44045] = {
-		id = 44045,
-		damage = "64 x 3",
-		base = 44040,
+	[43147] = {
+		id = 43147,
+		damage = "49 x 6",
+		base = 43140,
 		weapon_id = {
-			44045
+			43147
 		}
 	},
-	[44046] = {
-		id = 44046,
-		damage = "70 x 3",
-		base = 44040,
+	[43148] = {
+		id = 43148,
+		damage = "51 x 6",
+		base = 43140,
 		weapon_id = {
-			44046
+			43148
 		}
 	},
-	[44047] = {
-		id = 44047,
-		damage = "74 x 3",
-		base = 44040,
+	[43149] = {
+		id = 43149,
+		damage = "53 x 6",
+		base = 43140,
 		weapon_id = {
-			44047
+			43149
 		}
 	},
-	[44048] = {
-		id = 44048,
-		damage = "80 x 3",
-		base = 44040,
+	[43150] = {
+		id = 43150,
+		damage = "55 x 6",
+		base = 43140,
 		weapon_id = {
-			44048
+			43150
 		}
 	},
-	[44049] = {
-		id = 44049,
-		damage = "84 x 3",
-		base = 44040,
-		weapon_id = {
-			44049
-		}
-	},
-	[44050] = {
-		id = 44050,
-		damage = "88 x 3",
-		base = 44040,
-		weapon_id = {
-			44050
-		}
-	},
-	[44051] = {
+	[43151] = {
 		anti_siren = 100,
-		damage = "88 x 3",
-		base = 44040,
-		id = 44051,
+		damage = "55 x 6",
+		base = 43140,
+		id = 43151,
 		weapon_id = {
-			44051
+			43151
 		}
 	},
-	[44100] = {
-		name = "380mmSKC連装砲",
+	[44000] = {
+		name = "283mmSKC34三連装砲",
 		speciality = "投射",
 		type = 4,
 		tech = 1,
-		descrip = "ビスマルク級の主砲、380mmSKC連装砲。戦艦と巡洋戦艦にのみ装備可能",
-		value_2 = 12,
-		icon = "44100",
+		descrip = "シャルンホルスト級の主砲、283mmSKC34三連装砲。戦艦と巡洋戦艦にのみ装備可能",
+		value_2 = 5,
+		icon = "44000",
 		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "48 x 2",
+		rarity = 2,
+		damage = "34 x 3",
 		nationality = 4,
 		ammo = 3,
 		value_3 = 0,
-		id = 44100,
+		id = 44000,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -96,7 +80,7 @@ pg.equip_data_statistics_303 = {
 		ammo_info = {
 			{
 				2,
-				1500
+				1510
 			}
 		},
 		equip_info = {
@@ -108,7 +92,7 @@ pg.equip_data_statistics_303 = {
 			12
 		},
 		weapon_id = {
-			44100
+			44000
 		},
 		skill_id = {},
 		part_main = {
@@ -125,52 +109,112 @@ pg.equip_data_statistics_303 = {
 			"MG"
 		}
 	},
-	[44101] = {
-		id = 44101,
-		damage = "55 x 2",
-		base = 44100,
+	[44001] = {
+		id = 44001,
+		damage = "38 x 3",
+		base = 44000,
 		weapon_id = {
-			44101
+			44001
 		}
 	},
-	[44102] = {
-		id = 44102,
-		damage = "61 x 2",
-		base = 44100,
+	[44002] = {
+		id = 44002,
+		damage = "42 x 3",
+		base = 44000,
 		weapon_id = {
-			44102
+			44002
 		}
 	},
-	[44103] = {
-		id = 44103,
-		damage = "67 x 2",
-		base = 44100,
+	[44003] = {
+		id = 44003,
+		damage = "46 x 3",
+		base = 44000,
 		weapon_id = {
-			44103
+			44003
 		}
 	},
-	[44104] = {
-		id = 44104,
-		damage = "73 x 2",
-		base = 44100,
+	[44020] = {
+		name = "283mmSKC34三連装砲",
+		speciality = "投射",
+		type = 4,
+		tech = 2,
+		descrip = "シャルンホルスト級の主砲、283mmSKC34三連装砲。戦艦と巡洋戦艦にのみ装備可能",
+		value_2 = 12,
+		icon = "44000",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "37 x 3",
+		nationality = 4,
+		ammo = 3,
+		value_3 = 0,
+		id = 44020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1510
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			44104
+			44020
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"BB",
+			"MG"
 		}
 	},
-	[44105] = {
-		id = 44105,
-		damage = "79 x 2",
-		base = 44100,
+	[44021] = {
+		id = 44021,
+		damage = "42 x 3",
+		base = 44020,
 		weapon_id = {
-			44105
+			44021
 		}
 	},
-	[44106] = {
-		id = 44106,
-		damage = "86 x 2",
-		base = 44100,
+	[44022] = {
+		id = 44022,
+		damage = "46 x 3",
+		base = 44020,
 		weapon_id = {
-			44106
+			44022
+		}
+	},
+	[44023] = {
+		id = 44023,
+		damage = "51 x 3",
+		base = 44020,
+		weapon_id = {
+			44023
+		}
+	},
+	[44024] = {
+		id = 44024,
+		damage = "55 x 3",
+		base = 44020,
+		weapon_id = {
+			44024
 		}
 	}
 }

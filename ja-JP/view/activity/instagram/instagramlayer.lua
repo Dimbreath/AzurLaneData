@@ -161,7 +161,11 @@ function slot0.EnterDetail(slot0, slot1)
 	slot0.contextData.instagram = slot1
 
 	setActive(slot0.mainTF, true)
-	setActive(slot0.listTF, false)
+
+	slot2 = GetOrAddComponent(slot0.listTF, typeof(CanvasGroup))
+	slot2.alpha = 0
+	slot2.blocksRaycasts = false
+
 	slot0:InitDetailPage()
 
 	slot0.inDetail = true
@@ -179,8 +183,10 @@ function slot0.ExitDetail(slot0)
 	slot0.contextData.instagram = nil
 
 	setActive(slot0.mainTF, false)
-	setActive(slot0.listTF, true)
 
+	slot2 = GetOrAddComponent(slot0.listTF, typeof(CanvasGroup))
+	slot2.alpha = 1
+	slot2.blocksRaycasts = true
 	slot0.inDetail = false
 
 	slot0:CloseCommentPanel()

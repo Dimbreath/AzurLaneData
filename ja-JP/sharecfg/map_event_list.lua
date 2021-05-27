@@ -1598,6 +1598,123 @@ pg.map_event_list = {
 			"helpbg/battle_yidaliv2"
 		}
 	},
+	[1520001] = {
+		help_open = 1,
+		chapter_id = 1520001,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[1520002] = {
+		help_open = 0,
+		chapter_id = 1520002,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[1520003] = {
+		help_open = 0,
+		chapter_id = 1520003,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[1520004] = {
+		help_open = 0,
+		chapter_id = 1520004,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[1520005] = {
+		help_open = 0,
+		chapter_id = 1520005,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[1520006] = {
+		help_open = 0,
+		chapter_id = 1520006,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[1520021] = {
+		help_open = 1,
+		chapter_id = 1520021,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[1520022] = {
+		help_open = 0,
+		chapter_id = 1520022,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[1520023] = {
+		help_open = 0,
+		chapter_id = 1520023,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[1520024] = {
+		help_open = 0,
+		chapter_id = 1520024,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[1520025] = {
+		help_open = 0,
+		chapter_id = 1520025,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[1520026] = {
+		help_open = 0,
+		chapter_id = 1520026,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[1520041] = {
+		help_open = 0,
+		chapter_id = 1520041,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
 	all = {
 		1160001,
 		1160002,
@@ -1695,6 +1812,19 @@ pg.map_event_list = {
 		1500024,
 		1500025,
 		1500026,
-		1500041
+		1500041,
+		1520001,
+		1520002,
+		1520003,
+		1520004,
+		1520005,
+		1520006,
+		1520021,
+		1520022,
+		1520023,
+		1520024,
+		1520025,
+		1520026,
+		1520041
 	}
 }

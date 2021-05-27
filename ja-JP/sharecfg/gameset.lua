@@ -338,8 +338,8 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "意大利V2",
-		key_value = 196
+		description = "新泽西PT",
+		key_value = 201
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1622,7 +1622,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 197
+		key_value = 202
 	},
 	order_pt_max = {
 		key_value = 0,

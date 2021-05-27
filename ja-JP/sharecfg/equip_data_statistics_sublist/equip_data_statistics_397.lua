@@ -1,250 +1,177 @@
 pg = pg or {}
 pg.equip_data_statistics_397 = {
-	[90603] = {
-		id = 90603,
-		damage = "50/回",
-		base = 90600,
+	[90427] = {
+		id = 90427,
+		damage = "89 x 4",
+		base = 90420,
 		weapon_id = {
-			90603
+			90427
 		}
 	},
-	[90604] = {
-		id = 90604,
-		damage = "54/回",
-		base = 90600,
+	[90428] = {
+		id = 90428,
+		damage = "96 x 4",
+		base = 90420,
 		weapon_id = {
-			90604
+			90428
 		}
 	},
-	[90605] = {
-		id = 90605,
-		damage = "58/回",
-		base = 90600,
+	[90429] = {
+		id = 90429,
+		damage = "103 x 4",
+		base = 90420,
 		weapon_id = {
-			90605
+			90429
 		}
 	},
-	[90606] = {
-		id = 90606,
-		damage = "62/回",
-		base = 90600,
+	[90430] = {
+		id = 90430,
+		damage = "110 x 4",
+		base = 90420,
 		weapon_id = {
-			90606
+			90430
 		}
 	},
-	[90607] = {
-		id = 90607,
-		damage = "66/回",
-		base = 90600,
+	[90440] = {
+		name = "380mm四連装砲Mle1935",
+		speciality = "投射",
+		type = 4,
+		tech = 3,
+		descrip = "リシュリュー級戦艦に搭載された四連装380mm主砲。戦艦・巡洋戦艦が装備可能",
+		value_2 = 45,
+		icon = "50400",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "48 x 4",
+		nationality = 8,
+		ammo = 2,
+		value_3 = 0,
+		id = 90440,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1552
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			90607
+			90440
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"HE"
 		}
 	},
-	[90608] = {
-		id = 90608,
-		damage = "70/回",
-		base = 90600,
+	[90441] = {
+		id = 90441,
+		damage = "55 x 4",
+		base = 90440,
 		weapon_id = {
-			90608
+			90441
 		}
 	},
-	[90609] = {
-		id = 90609,
-		damage = "74/回",
-		base = 90600,
+	[90442] = {
+		id = 90442,
+		damage = "62 x 4",
+		base = 90440,
 		weapon_id = {
-			90609
+			90442
 		}
 	},
-	[90610] = {
-		id = 90610,
-		damage = "78/回",
-		base = 90600,
+	[90443] = {
+		id = 90443,
+		damage = "69 x 4",
+		base = 90440,
 		weapon_id = {
-			90610
+			90443
 		}
 	},
-	[90611] = {
+	[90444] = {
+		id = 90444,
+		damage = "76 x 4",
+		base = 90440,
+		weapon_id = {
+			90444
+		}
+	},
+	[90445] = {
+		id = 90445,
+		damage = "83 x 4",
+		base = 90440,
+		weapon_id = {
+			90445
+		}
+	},
+	[90446] = {
+		id = 90446,
+		damage = "90 x 4",
+		base = 90440,
+		weapon_id = {
+			90446
+		}
+	},
+	[90447] = {
+		id = 90447,
+		damage = "97 x 4",
+		base = 90440,
+		weapon_id = {
+			90447
+		}
+	},
+	[90448] = {
+		id = 90448,
+		damage = "104 x 4",
+		base = 90440,
+		weapon_id = {
+			90448
+		}
+	},
+	[90449] = {
+		id = 90449,
+		damage = "112 x 4",
+		base = 90440,
+		weapon_id = {
+			90449
+		}
+	},
+	[90450] = {
+		id = 90450,
+		damage = "120 x 4",
+		base = 90440,
+		weapon_id = {
+			90450
+		}
+	},
+	[90451] = {
 		anti_siren = 100,
-		damage = "78/回",
-		base = 90600,
-		id = 90611,
+		damage = "120 x 4",
+		base = 90440,
+		id = 90451,
 		weapon_id = {
-			90611
-		}
-	},
-	[90612] = {
-		anti_siren = 200,
-		damage = "78/回",
-		base = 90600,
-		id = 90612,
-		weapon_id = {
-			90612
-		}
-	},
-	[90613] = {
-		anti_siren = 300,
-		damage = "78/回",
-		base = 90600,
-		id = 90613,
-		weapon_id = {
-			90613
-		}
-	},
-	[90700] = {
-		name = "138.6mm単装砲Mle1927",
-		speciality = "追尾",
-		type = 1,
-		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "50700",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "4 x 4",
-		nationality = 8,
-		ammo = 3,
-		value_3 = 0,
-		id = 90700,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2200
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2200
-			},
-			{
-				4,
-				1025
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90700
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"DD",
-			"MG"
-		}
-	},
-	[90701] = {
-		id = 90701,
-		damage = "4 x 4",
-		base = 90700,
-		weapon_id = {
-			90701
-		}
-	},
-	[90702] = {
-		id = 90702,
-		damage = "5 x 4",
-		base = 90700,
-		weapon_id = {
-			90702
-		}
-	},
-	[90703] = {
-		id = 90703,
-		damage = "6 x 4",
-		base = 90700,
-		weapon_id = {
-			90703
-		}
-	},
-	[90720] = {
-		name = "138.6mm単装砲Mle1927",
-		speciality = "追尾",
-		type = 1,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "50700",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "6 x 4",
-		nationality = 8,
-		ammo = 3,
-		value_3 = 0,
-		id = 90720,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2200
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2200
-			},
-			{
-				4,
-				1025
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90720
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"DD",
-			"MG"
+			90451
 		}
 	}
 }

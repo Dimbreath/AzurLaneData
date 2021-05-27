@@ -2,6 +2,128 @@ pg = pg or {}
 pg.weapon_property_55 = {}
 
 function ()
+	uv0.weapon_property_55[36424] = {
+		id = 36424,
+		reload_max = 145,
+		damage = 35,
+		base = 36420
+	}
+	uv0.weapon_property_55[36425] = {
+		id = 36425,
+		reload_max = 141,
+		damage = 39,
+		base = 36420
+	}
+	uv0.weapon_property_55[36426] = {
+		id = 36426,
+		reload_max = 139,
+		damage = 43,
+		base = 36420
+	}
+	uv0.weapon_property_55[36440] = {
+		action_index = "attack",
+		range = 24,
+		type = 22,
+		fire_fx = "fangkongpaohuoshe",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "毘式40mm连装機銃T3",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 26,
+		corrected = 100,
+		min_range = 0,
+		id = 36440,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 3,
+		reload_max = 150,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/cannon-air",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2000
+		},
+		barrage_ID = {
+			2000
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_55[36441] = {
+		id = 36441,
+		reload_max = 147,
+		damage = 29,
+		base = 36440
+	}
+	uv0.weapon_property_55[36442] = {
+		id = 36442,
+		reload_max = 144,
+		damage = 33,
+		base = 36440
+	}
+	uv0.weapon_property_55[36443] = {
+		id = 36443,
+		reload_max = 140,
+		damage = 37,
+		base = 36440
+	}
+	uv0.weapon_property_55[36444] = {
+		id = 36444,
+		reload_max = 138,
+		damage = 41,
+		base = 36440
+	}
+	uv0.weapon_property_55[36445] = {
+		id = 36445,
+		reload_max = 134,
+		damage = 45,
+		base = 36440
+	}
+	uv0.weapon_property_55[36446] = {
+		id = 36446,
+		reload_max = 132,
+		damage = 49,
+		base = 36440
+	}
+	uv0.weapon_property_55[36447] = {
+		id = 36447,
+		reload_max = 129,
+		damage = 53,
+		base = 36440
+	}
+	uv0.weapon_property_55[36448] = {
+		id = 36448,
+		reload_max = 126,
+		damage = 57,
+		base = 36440
+	}
+	uv0.weapon_property_55[36449] = {
+		id = 36449,
+		reload_max = 122,
+		damage = 61,
+		base = 36440
+	}
+	uv0.weapon_property_55[36450] = {
+		id = 36450,
+		reload_max = 119,
+		damage = 65,
+		base = 36440
+	}
 	uv0.weapon_property_55[36451] = {
 		reload_max = 119,
 		damage = 65,
@@ -478,166 +600,5 @@ function ()
 		reload_max = 157,
 		damage = 76,
 		base = 36580
-	}
-	uv0.weapon_property_55[36589] = {
-		id = 36589,
-		reload_max = 155,
-		damage = 80,
-		base = 36580
-	}
-	uv0.weapon_property_55[36590] = {
-		id = 36590,
-		reload_max = 151,
-		damage = 84,
-		base = 36580
-	}
-	uv0.weapon_property_55[36591] = {
-		reload_max = 151,
-		damage = 84,
-		base = 36580,
-		id = 36591,
-		corrected = 104
-	}
-	uv0.weapon_property_55[36600] = {
-		action_index = "attack",
-		range = 35,
-		type = 22,
-		fire_fx = "fangkongpaohuoshe",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "127mm连装高射炮T1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 32,
-		corrected = 100,
-		min_range = 0,
-		id = 36600,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 3,
-		reload_max = 315,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/cannon-air",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2000
-		},
-		barrage_ID = {
-			2000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_55[36601] = {
-		id = 36601,
-		reload_max = 308,
-		damage = 37,
-		base = 36600
-	}
-	uv0.weapon_property_55[36602] = {
-		id = 36602,
-		reload_max = 303,
-		damage = 42,
-		base = 36600
-	}
-	uv0.weapon_property_55[36603] = {
-		id = 36603,
-		reload_max = 296,
-		damage = 47,
-		base = 36600
-	}
-	uv0.weapon_property_55[36620] = {
-		action_index = "attack",
-		range = 35,
-		type = 22,
-		fire_fx = "fangkongpaohuoshe",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "127mm连装高射炮T2",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 39,
-		corrected = 100,
-		min_range = 0,
-		id = 36620,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 3,
-		reload_max = 300,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/cannon-air",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2000
-		},
-		barrage_ID = {
-			2000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_55[36621] = {
-		id = 36621,
-		reload_max = 294,
-		damage = 45,
-		base = 36620
-	}
-	uv0.weapon_property_55[36622] = {
-		id = 36622,
-		reload_max = 288,
-		damage = 51,
-		base = 36620
-	}
-	uv0.weapon_property_55[36623] = {
-		id = 36623,
-		reload_max = 282,
-		damage = 57,
-		base = 36620
-	}
-	uv0.weapon_property_55[36624] = {
-		id = 36624,
-		reload_max = 276,
-		damage = 63,
-		base = 36620
-	}
-	uv0.weapon_property_55[36625] = {
-		id = 36625,
-		reload_max = 270,
-		damage = 70,
-		base = 36620
-	}
-	uv0.weapon_property_55[36626] = {
-		id = 36626,
-		reload_max = 264,
-		damage = 77,
-		base = 36620
 	}
 end()

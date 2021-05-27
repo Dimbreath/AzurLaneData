@@ -1,85 +1,69 @@
 pg = pg or {}
 pg.equip_data_statistics_259 = {
-	[36544] = {
-		id = 36544,
-		damage = "34/回",
-		base = 36540,
+	[36446] = {
+		id = 36446,
+		damage = "49/回",
+		base = 36440,
 		weapon_id = {
-			36544
+			36446
 		}
 	},
-	[36545] = {
-		id = 36545,
-		damage = "37/回",
-		base = 36540,
+	[36447] = {
+		id = 36447,
+		damage = "53/回",
+		base = 36440,
 		weapon_id = {
-			36545
+			36447
 		}
 	},
-	[36546] = {
-		id = 36546,
-		damage = "40/回",
-		base = 36540,
+	[36448] = {
+		id = 36448,
+		damage = "57/回",
+		base = 36440,
 		weapon_id = {
-			36546
+			36448
 		}
 	},
-	[36547] = {
-		id = 36547,
-		damage = "43/回",
-		base = 36540,
+	[36449] = {
+		id = 36449,
+		damage = "61/回",
+		base = 36440,
 		weapon_id = {
-			36547
+			36449
 		}
 	},
-	[36548] = {
-		id = 36548,
-		damage = "46/回",
-		base = 36540,
+	[36450] = {
+		id = 36450,
+		damage = "65/回",
+		base = 36440,
 		weapon_id = {
-			36548
+			36450
 		}
 	},
-	[36549] = {
-		id = 36549,
-		damage = "50/回",
-		base = 36540,
-		weapon_id = {
-			36549
-		}
-	},
-	[36550] = {
-		id = 36550,
-		damage = "54/回",
-		base = 36540,
-		weapon_id = {
-			36550
-		}
-	},
-	[36551] = {
+	[36451] = {
 		anti_siren = 100,
-		damage = "54/回",
-		base = 36540,
-		id = 36551,
+		damage = "65/回",
+		base = 36440,
+		id = 36451,
 		weapon_id = {
-			36551
+			36451
 		}
 	},
-	[36560] = {
-		name = "100mm連装高角砲",
+	[36500] = {
+		name = "76mm高角砲",
 		speciality = "対空",
 		type = 6,
-		tech = 0,
+		tech = 1,
 		descrip = "0",
-		value_2 = 45,
-		icon = "36560",
+		value_2 = 5,
+		icon = "36500",
 		attribute_2 = "antiaircraft",
-		rarity = 5,
-		damage = "50/回",
+		rarity = 2,
+		damage = "16/回",
 		nationality = 3,
 		ammo = 5,
 		value_3 = 0,
-		id = 36560,
+		id = 36500,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -91,7 +75,7 @@ pg.equip_data_statistics_259 = {
 			10
 		},
 		weapon_id = {
-			36560
+			36500
 		},
 		skill_id = {},
 		part_main = {
@@ -127,60 +111,130 @@ pg.equip_data_statistics_259 = {
 			"AA"
 		}
 	},
-	[36561] = {
-		id = 36561,
-		damage = "57/回",
-		base = 36560,
+	[36501] = {
+		id = 36501,
+		damage = "18/回",
+		base = 36500,
 		weapon_id = {
-			36561
+			36501
 		}
 	},
-	[36562] = {
-		id = 36562,
-		damage = "64/回",
-		base = 36560,
+	[36502] = {
+		id = 36502,
+		damage = "21/回",
+		base = 36500,
 		weapon_id = {
-			36562
+			36502
 		}
 	},
-	[36563] = {
-		id = 36563,
-		damage = "71/回",
-		base = 36560,
+	[36503] = {
+		id = 36503,
+		damage = "24/回",
+		base = 36500,
 		weapon_id = {
-			36563
+			36503
 		}
 	},
-	[36564] = {
-		id = 36564,
-		damage = "78/回",
-		base = 36560,
+	[36520] = {
+		name = "76mm高角砲",
+		speciality = "対空",
+		type = 6,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "36500",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "18/回",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36520,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
 		weapon_id = {
-			36564
+			36520
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
 		}
 	},
-	[36565] = {
-		id = 36565,
-		damage = "86/回",
-		base = 36560,
+	[36521] = {
+		id = 36521,
+		damage = "21/回",
+		base = 36520,
 		weapon_id = {
-			36565
+			36521
 		}
 	},
-	[36566] = {
-		id = 36566,
-		damage = "94/回",
-		base = 36560,
+	[36522] = {
+		id = 36522,
+		damage = "24/回",
+		base = 36520,
 		weapon_id = {
-			36566
+			36522
 		}
 	},
-	[36567] = {
-		id = 36567,
-		damage = "102/回",
-		base = 36560,
+	[36523] = {
+		id = 36523,
+		damage = "27/回",
+		base = 36520,
 		weapon_id = {
-			36567
+			36523
+		}
+	},
+	[36524] = {
+		id = 36524,
+		damage = "30/回",
+		base = 36520,
+		weapon_id = {
+			36524
+		}
+	},
+	[36525] = {
+		id = 36525,
+		damage = "33/回",
+		base = 36520,
+		weapon_id = {
+			36525
 		}
 	}
 }

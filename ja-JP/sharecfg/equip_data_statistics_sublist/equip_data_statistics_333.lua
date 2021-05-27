@@ -1,220 +1,398 @@
 pg = pg or {}
 pg.equip_data_statistics_333 = {
-	[54010] = {
-		name = "0",
-		tech = 1,
-		speciality = "なし",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航空攻撃サンプル用",
-		nationality = 0,
-		ammo = 10,
+	[49026] = {
+		id = 49026,
+		base = 49020,
+		ammo_info = {
+			{
+				6,
+				59326
+			},
+			{
+				5,
+				52626
+			},
+			{
+				5,
+				53026
+			}
+		},
+		weapon_id = {
+			49026
+		}
+	},
+	[49040] = {
+		name = "Ju-87C急降下爆撃機",
+		type = 9,
+		speciality = "爆撃",
+		rarity = 4,
+		tech = 3,
+		descrip = "鉄血の汎用爆撃機Ju-87の艦載機バージョン通称「スツーカ」",
+		value_2 = 25,
+		icon = "49000",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
 		value_3 = 0,
-		id = 54010,
+		id = 49040,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
+		ammo_info = {
+			{
+				6,
+				59340
+			},
+			{
+				5,
+				52640
+			},
+			{
+				5,
+				53040
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
 		weapon_id = {
-			54010
+			49040
 		},
 		skill_id = {},
-		part_main = {},
-		part_sub = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
 		equip_parameters = {},
-		label = {}
-	},
-	[54011] = {
-		id = 54011,
-		base = 54010,
-		weapon_id = {
-			54011
+		label = {
+			"KMS",
+			"CV",
+			"DB"
 		}
 	},
-	[54012] = {
-		id = 54012,
-		base = 54010,
+	[49041] = {
+		id = 49041,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59341
+			},
+			{
+				5,
+				52641
+			},
+			{
+				5,
+				53041
+			}
+		},
 		weapon_id = {
-			54012
+			49041
 		}
 	},
-	[54013] = {
-		id = 54013,
-		base = 54010,
+	[49042] = {
+		id = 49042,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59342
+			},
+			{
+				5,
+				52642
+			},
+			{
+				5,
+				53042
+			}
+		},
 		weapon_id = {
-			54013
+			49042
 		}
 	},
-	[54014] = {
-		id = 54014,
-		base = 54010,
+	[49043] = {
+		id = 49043,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59343
+			},
+			{
+				5,
+				52643
+			},
+			{
+				5,
+				53043
+			}
+		},
 		weapon_id = {
-			54014
+			49043
 		}
 	},
-	[54015] = {
-		id = 54015,
-		base = 54010,
+	[49044] = {
+		id = 49044,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59344
+			},
+			{
+				5,
+				52644
+			},
+			{
+				5,
+				53044
+			}
+		},
 		weapon_id = {
-			54015
+			49044
 		}
 	},
-	[60001] = {
-		name = "0",
-		tech = 1,
-		speciality = "なし",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航空攻撃サンプル用",
-		nationality = 0,
-		ammo = 10,
+	[49045] = {
+		id = 49045,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59345
+			},
+			{
+				5,
+				52645
+			},
+			{
+				5,
+				53045
+			}
+		},
+		weapon_id = {
+			49045
+		}
+	},
+	[49046] = {
+		id = 49046,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59346
+			},
+			{
+				5,
+				52646
+			},
+			{
+				5,
+				53046
+			}
+		},
+		weapon_id = {
+			49046
+		}
+	},
+	[49047] = {
+		id = 49047,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59347
+			},
+			{
+				5,
+				52647
+			},
+			{
+				5,
+				53047
+			}
+		},
+		weapon_id = {
+			49047
+		}
+	},
+	[49048] = {
+		id = 49048,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59348
+			},
+			{
+				5,
+				52648
+			},
+			{
+				5,
+				53048
+			}
+		},
+		weapon_id = {
+			49048
+		}
+	},
+	[49049] = {
+		id = 49049,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59349
+			},
+			{
+				5,
+				52649
+			},
+			{
+				5,
+				53049
+			}
+		},
+		weapon_id = {
+			49049
+		}
+	},
+	[49050] = {
+		id = 49050,
+		base = 49040,
+		ammo_info = {
+			{
+				6,
+				59350
+			},
+			{
+				5,
+				52650
+			},
+			{
+				5,
+				53050
+			}
+		},
+		weapon_id = {
+			49050
+		}
+	},
+	[49051] = {
+		anti_siren = 100,
+		base = 49040,
+		id = 49051,
+		ammo_info = {
+			{
+				6,
+				59351
+			},
+			{
+				5,
+				52651
+			},
+			{
+				5,
+				53051
+			}
+		},
+		weapon_id = {
+			49051
+		}
+	},
+	[49060] = {
+		name = "He-50b",
+		type = 9,
+		speciality = "爆撃",
+		rarity = 3,
+		tech = 0,
+		descrip = "0",
+		value_2 = 12,
+		icon = "49060",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
 		value_3 = 0,
-		id = 60001,
+		id = 49060,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
+		ammo_info = {
+			{
+				6,
+				59760
+			},
+			{
+				5,
+				52240
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
 		weapon_id = {
-			60001
+			49060
 		},
 		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60002] = {
-		id = 60002,
-		base = 60001,
-		weapon_id = {
-			60002
-		}
-	},
-	[60003] = {
-		id = 60003,
-		base = 60001,
-		weapon_id = {
-			60003
-		}
-	},
-	[60011] = {
-		name = "0",
-		tech = 1,
-		speciality = "なし",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航空攻撃サンプル用",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60011,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60011
+		part_main = {
+			6,
+			7
 		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60012] = {
-		id = 60012,
-		base = 60011,
-		weapon_id = {
-			60012
-		}
-	},
-	[60013] = {
-		id = 60013,
-		base = 60011,
-		weapon_id = {
-			60013
-		}
-	},
-	[60021] = {
-		name = "0",
-		tech = 1,
-		speciality = "なし",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航空攻撃サンプル用",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60021,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60021
+		part_sub = {
+			6,
+			7
 		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
 		equip_parameters = {},
-		label = {}
-	},
-	[60022] = {
-		id = 60022,
-		base = 60021,
-		weapon_id = {
-			60022
+		label = {
+			"KMS",
+			"CV",
+			"DB"
 		}
 	},
-	[60023] = {
-		id = 60023,
-		base = 60021,
-		weapon_id = {
-			60023
-		}
-	},
-	[60031] = {
-		name = "0",
-		tech = 1,
-		speciality = "なし",
-		type = 99,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "航空攻撃サンプル用",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 60031,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60031
+	[49061] = {
+		id = 49061,
+		base = 49060,
+		ammo_info = {
+			{
+				6,
+				59761
+			},
+			{
+				5,
+				52241
+			}
 		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
+		weapon_id = {
+			49061
+		}
+	},
+	[49062] = {
+		id = 49062,
+		base = 49060,
+		ammo_info = {
+			{
+				6,
+				59762
+			},
+			{
+				5,
+				52242
+			}
+		},
+		weapon_id = {
+			49062
+		}
 	}
 }

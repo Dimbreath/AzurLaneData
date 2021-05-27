@@ -1,6 +1,13 @@
 pg = pg or {}
 pg.equip_data_statistics_356 = {
-	[74121] = {
+	[73112] = {
+		id = 73112,
+		base = 73111,
+		weapon_id = {
+			73112
+		}
+	},
+	[73121] = {
 		name = "0",
 		tech = 1,
 		speciality = "なし",
@@ -13,14 +20,14 @@ pg.equip_data_statistics_356 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 74121,
+		id = 73121,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			74121
+			73111
 		},
 		skill_id = {},
 		part_main = {
@@ -39,62 +46,15 @@ pg.equip_data_statistics_356 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[74122] = {
-		id = 74122,
-		base = 74121,
+	[73122] = {
+		id = 73122,
+		base = 73121,
 		weapon_id = {
-			74122
+			73112
 		}
 	},
-	[74131] = {
-		name = "全弹发射-肇和级I",
-		tech = 1,
-		speciality = "无",
-		type = 1,
-		rarity = 1,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		descrip = "技能弹幕",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 74131,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			74131
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[74132] = {
-		id = 74132,
-		name = "全弹发射-肇和级II",
-		base = 74131,
-		weapon_id = {
-			74132
-		}
-	},
-	[75011] = {
-		name = "全弹发射-索尔达蒂级I",
+	[73211] = {
+		name = "0",
 		tech = 1,
 		speciality = "なし",
 		type = 1,
@@ -106,14 +66,14 @@ pg.equip_data_statistics_356 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 75011,
+		id = 73211,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			75011
+			73211
 		},
 		skill_id = {},
 		part_main = {
@@ -132,16 +92,15 @@ pg.equip_data_statistics_356 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[75012] = {
-		id = 75012,
-		name = "全弹发射-索尔达蒂级II",
-		base = 75011,
+	[73212] = {
+		id = 73212,
+		base = 73211,
 		weapon_id = {
-			75012
+			73212
 		}
 	},
-	[75021] = {
-		name = "全弹发射-诗人级I",
+	[73221] = {
+		name = "0",
 		tech = 1,
 		speciality = "なし",
 		type = 1,
@@ -153,14 +112,14 @@ pg.equip_data_statistics_356 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 75021,
+		id = 73221,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			75021
+			73221
 		},
 		skill_id = {},
 		part_main = {
@@ -179,16 +138,15 @@ pg.equip_data_statistics_356 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[75022] = {
-		id = 75022,
-		name = "全弹发射-诗人级II",
-		base = 75021,
+	[73222] = {
+		id = 73222,
+		base = 73221,
 		weapon_id = {
-			75022
+			73222
 		}
 	},
-	[75031] = {
-		name = "全弹发射-西北风级I",
+	[73231] = {
+		name = "全弹发射-P级I",
 		tech = 1,
 		speciality = "なし",
 		type = 1,
@@ -200,14 +158,14 @@ pg.equip_data_statistics_356 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 75031,
+		id = 73231,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			75031
+			73231
 		},
 		skill_id = {},
 		part_main = {
@@ -226,16 +184,16 @@ pg.equip_data_statistics_356 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[75032] = {
-		id = 75032,
-		name = "全弹发射-西北风级II",
-		base = 75031,
+	[73232] = {
+		id = 73232,
+		name = "全弹发射-P级II",
+		base = 73231,
 		weapon_id = {
-			75032
+			73232
 		}
 	},
-	[75041] = {
-		name = "全弹发射-航海家级I",
+	[73311] = {
+		name = "0",
 		tech = 1,
 		speciality = "なし",
 		type = 1,
@@ -247,14 +205,14 @@ pg.equip_data_statistics_356 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 75041,
+		id = 73311,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			75041
+			73311
 		},
 		skill_id = {},
 		part_main = {
@@ -273,16 +231,15 @@ pg.equip_data_statistics_356 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[75042] = {
-		id = 75042,
-		name = "全弹发射-航海家级II",
-		base = 75041,
+	[73312] = {
+		id = 73312,
+		base = 73311,
 		weapon_id = {
-			75042
+			73312
 		}
 	},
-	[75211] = {
-		name = "全弹发射-特伦托级I",
+	[73321] = {
+		name = "全弹发射-Type IXB型I",
 		tech = 1,
 		speciality = "なし",
 		type = 1,
@@ -294,14 +251,14 @@ pg.equip_data_statistics_356 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 75211,
+		id = 73321,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			75211
+			73321
 		},
 		skill_id = {},
 		part_main = {
@@ -320,16 +277,16 @@ pg.equip_data_statistics_356 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[75212] = {
-		id = 75212,
-		name = "全弹发射-特伦托级II",
-		base = 75211,
+	[73322] = {
+		id = 73322,
+		name = "全弹发射-Type IXB型II",
+		base = 73321,
 		weapon_id = {
-			75212
+			73322
 		}
 	},
-	[75221] = {
-		name = "全弹发射-扎拉级I",
+	[73411] = {
+		name = "0",
 		tech = 1,
 		speciality = "なし",
 		type = 1,
@@ -341,14 +298,14 @@ pg.equip_data_statistics_356 = {
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 75221,
+		id = 73411,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {},
 		equip_info = {},
 		weapon_id = {
-			75221
+			73411
 		},
 		skill_id = {},
 		part_main = {
@@ -367,12 +324,50 @@ pg.equip_data_statistics_356 = {
 		equip_parameters = {},
 		label = {}
 	},
-	[75222] = {
-		id = 75222,
-		name = "全弹发射-扎拉级II",
-		base = 75221,
+	[73412] = {
+		id = 73412,
+		base = 73411,
 		weapon_id = {
-			75222
+			73412
 		}
+	},
+	[73511] = {
+		name = "全弹发射-Type IXC型I",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 73511,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			73511
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
 	}
 }
