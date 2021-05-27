@@ -5820,6 +5820,9 @@ Attack/Support Range Level:
 	ship_remould_warning_102284 = {
 		tip = "After retrofit, <color=#92fc63>\"Radar Scan\"</color>will be\nupgraded to <color=#92fc63>\"Radar Scan Plus\".</color> "
 	},
+	ship_remould_warning_107984 = {
+		tip = "Fully retrofitting this ship will give her <color=#92fc63>Fighters +1 and Torpedo Bombers +1</color>.\nDo you want to proceed with this retrofit? "
+	},
 	ship_remould_warning_201514 = {
 		tip = "Retrofitting this ship will <color=#92fc63>add 1 Anti-Air Gun mount</color> but <color=#92fc63>remove 1 Torpedo mount.</color> \nWould you like to continue? "
 	},
@@ -6643,7 +6646,7 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		tip = "The rewards from this phase have not been fully acquired yet, cannot enter next phase"
 	},
 	shop_street_activity_tip = {
-		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>2.4-2.18</COLOR>)!"
+		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>5.27-6.9</COLOR>)!"
 	},
 	twitter_link_title = {
 		tip = "Twitter Account:$1"
@@ -7643,7 +7646,7 @@ Combat Encounters
 		tip = "This Meowfficer does not have any Talent Points."
 	},
 	buildship_new_tip = {
-		tip = "Rate UP for Vittorio Veneto, Aquila, and more! "
+		tip = "Receive an extra copy of New Jersey after doing a total of 200 builds! (Limit of 4 times) "
 	},
 	buildship_heavy_tip = {
 		tip = "Nagato and Suzuya are added to standard build pool! "
@@ -9045,7 +9048,7 @@ Event Information:
  b. Returning
 ew Commander
 2. Players who meet the following criterion are categorized as Active Commanders and are eligible for Active Commander objectives and rewards: 
-- Logged in at least once at any point between July 30th, 2020  and before the maintenance on August 13, 2020.
+- Logged in at least once at any point between May 27th, 2020 and before the maintenance on June 17th, 2020.
 3. Players who do not meet this criterion are categorized as Returning
 ew Commanders and are eligible for their own set of objectives and rewards.
 4. If you are unsure whether you are an Active Commander or a Returning
@@ -9105,7 +9108,7 @@ ew Commanders who participate in Returnee Missions gain access to daily tasks wh
 				info = "4. You may choose two ships on which to focus your wishes."
 			},
 			{
-				info = "5. Only ships added to the normal building pool prior to June 3rd can hear your wishes."
+				info = "5. Only ships added to the normal building pool prior to March 25th can hear your wishes."
 			},
 			{
 				info = "6. Ships that have an unlock condition cannot hear your wishes, and will not appear in the Wishing Well."
@@ -12431,18 +12434,13 @@ receive any rewards.]]
 		tip = {
 			{
 				info = [[
-Event Instructions:
-During the event, you will receive 1 Reward Attempt
-per day, up to a maximum of 7.
-1. Playing the minigame while you have Reward Attempts
-will consume 1 attempt and give you rewards.
-2. You may check your Reward Attempts remaining on
-the right-hand side of the Celebration Plaza screen.
-3. If you have no Reward Attempts, you will not receive
-rewards for playing the minigame.
-4. If you exit the minigame for any reason, a Reward
-attempt will not be consumed, but you will also not
-receive any rewards.]]
+How to Play:
+-During the event, you will gain 1 minigame play attempt per day, up to a maximum of 7.
+-Upon completing the minigame, 1 attempt will be spent to grant rewards, and you will gain 1 day's worth of progress towards the "Early Summer Invitation 2021."
+-Upon reaching 7 days of progress, you will be able to claim the "Early Summer Invitation 2021" from its event banner.
+-You may check the number of minigame attempts you have from the Manjuuland screen, and your current progress towards the "Early Summer Invitation 2021" from its event banner.
+-You may also view your progress by tapping on the "Early Summer Invitation" button in the Manjuuland screen.
+-You will not gain progress towards the "Early Summer Invitation 2021" if you do not have any remaining minigame attempts.]]
 			}
 		}
 	},
@@ -13112,6 +13110,45 @@ Daily: Can be completed every day, resetting at 0:00 every day.]]
 	wwf_guide_tip = {
 		tip = "Check your event-limited tasks here!"
 	},
+	securitycake_help = {
+		tip = {
+			{
+				info = [[
+Overview
+-In the "Cake Defender" minigame, you must protect the cake from being eaten by Manjuus and Meowfficers for a period of time.
+-The game will end when the time runs out, or when the cake has been eaten three times.
+-If you complete this minigame while having minigame attempts available, one attempt will be consumed to give progress towards your Early Summer Invitation 2021.
+
+How to Play
+・-When the game starts, Manjuus and Meowfficers will make their way towards the cake in the middle of the game screen.
+-If a Manjuu or Meowfficer is allowed to reach the cake, they will eat the cake.
+・-By tapping on a Manjuu or Meowfficer, a Specialized Bulin Custom MKIII will appear to whack it with her Kitty Kabam Hammer, protecting the cake.
+　-The number of taps required to defeat each enemy depends on its type. The more difficult the enemy, the more points you will obtain.
+　1) Phantom Thief Manjuu: 1 tap, 100 points.
+　2) Ninjuu: 2 taps, 150 points.
+　3) Kyoujuu: 3 taps, 200 points.
+　4) Solid Sna-kitty: 1 tap, 150 points.
+-You will fill your EX gauge upon defeating a Manjuu or Meowfficer. When your EX gauge is full, tap it to increase the attack power and range of your Bulin MKIII.]]
+			}
+		}
+	},
+	icecream_help = {
+		tip = {
+			{
+				info = [[
+Overview
+During the "Manjuu Creamery" mini-event, collect Manjuu Creamery Ingredients and fill ice cream orders to earn limited collab furniture as well as Saratoga's limited outfit, "The Sweetest Picnic!"
+
+How to Play
+①-Clear Normal mode stages starting from Chapter 3 or event stages in Mirror Involution (excluding the EX stage) to get Manjuu Creamery Ingredients.
+②-By collecting a certain number of Manjuu Creamery Ingredients, you will be able to fill ice cream orders and earn various rewards including Saratoga's limited outfit.
+-After filling all the orders, you will be able to make and share your own ice cream designs.]]
+			}
+		}
+	},
+	icecream_make_tip = {
+		tip = "Stage $1 explored"
+	},
 	query_role = {
 		tip = "Searching..."
 	},
@@ -13756,6 +13793,83 @@ Your Action Points will also reset, starting you off with <color=#92fc63>200 AP.
 	},
 	game_openwords = {
 		tip = "Text box is now being displayed."
+	},
+	amusementpark_shop_enter = {
+		tip = "Welcome to the Souvenir Shop! Anything catch your eye?"
+	},
+	amusementpark_shop_exchange = {
+		tip = "Sorry, but you'll need more tickets. Why don't you try your hand at finishing some more missions?"
+	},
+	amusementpark_shop_success = {
+		tip = "Enjoy your prize!"
+	},
+	amusementpark_shop_special = {
+		tip = "Check out these exclusive prizes! Act fast to snag 'em up!"
+	},
+	amusementpark_shop_end = {
+		tip = "Sorry, but we're all sold out!"
+	},
+	amusementpark_shop_0 = {
+		tip = "Commander, looks like you have a bunch of tickets over there. Need some help spending them?"
+	},
+	amusementpark_shop_carousel1 = {
+		tip = "♫~Fly me to the moon, and let me play among the stars~♫"
+	},
+	amusementpark_shop_carousel2 = {
+		tip = "♫~Life blooms like a flower, far away or by the road~♫"
+	},
+	amusementpark_shop_carousel3 = {
+		tip = "Take your time! I'll just be singing over here while I wait~"
+	},
+	amusementpark_shop_exchange2 = {
+		tip = "Are you sure you want to spend $1 pticon to get $2 $3?"
+	},
+	amusementpark_help = {
+		tip = {
+			{
+				info = [[
+Overview
+During the Manjuuland event, you will be able to access the following:
+・Limited-time missions
+・Upgradable facilities (fleet buff effects)
+・-Exchange tickets
+・New minigame
+・Early Summer Invitation
+
+Regarding Limited-Time Missions
+・-A new mission will be unlocked every day at midnight from 6/2.
+・-You can view these limited missions from the missions button on the home screen.
+・-Clear these missions to obtain Manjuuland Building Materials and Manjuuland Exchange Tickets.
+
+Regarding Upgradable Facilities
+・-On the Manjuuland hub screen, you can view the various facilities and upgrade them.
+・-By upgrading these facilities, you will be able to access various fleet buffs during the event period.
+・-Upgrading facilities will consume Manjuuland Building Materials.
+
+Regarding Exchange Tickets
+・-Tap on the Souvenir Shop on the Manjuuland hub screen to access the ticket exchange store.
+-Collect Manjuuland Exchange Tickets to purchase various rewards.
+
+Regarding Minigames and the Early Summer Invitation
+・-During the event, you will gain 1 minigame play attempt per day, up to a maximum of 7.
+-Upon completing the minigame, 1 attempt will be spent to grant rewards, and you will gain 1 day's worth of progress towards the "Early Summer Invitation 2021."
+-Upon reaching 7 days of progress, you will be able to claim the "Early Summer Invitation 2021" from its event banner.
+・-You may check the number of minigame attempts you have from the Manjuuland screen, and your current progress towards the "Early Summer Invitation 2021" from its event banner.
+-You may also view your progress by tapping on the "Early Summer Invitation" button in the Manjuuland screen.
+-You will not gain progress towards the "Early Summer Invitation 2021" if you do not have any remaining minigame attempts.]]
+			}
+		}
+	},
+	amusementpark_shop_help = {
+		tip = {
+			{
+				info = [[
+How to Play
+-Use Manjuuland Exchange Tickets to purchase rewards at the Souvenir Shop.
+-You can obtain Manjuuland Exchange Tickets and Manjuuland Building Materials by completing limited-time missions.
+-Limited-time missions can be found on the Missions tab on the home screen. New limited missions will become available every day from 6/2 at midnight.]]
+			}
+		}
 	},
 	MeixiV4_help = {
 		tip = {

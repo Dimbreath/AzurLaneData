@@ -836,6 +836,18 @@ pg.skill_data_display = {
 		id = 8869,
 		name = "Aerial Support"
 	},
+	[8880] = {
+		id = 8880,
+		name = "Mirror Hacking "
+	},
+	[8882] = {
+		id = 8882,
+		name = "Mirror Hacking "
+	},
+	[8884] = {
+		id = 8884,
+		name = "Mirror Hacking "
+	},
 	[9010] = {
 		id = 9010,
 		name = "Eastern Bonds"
@@ -1830,6 +1842,14 @@ pg.skill_data_display = {
 	},
 	[11922] = {
 		id = 11922,
+		name = "Knights of the Sky"
+	},
+	[11923] = {
+		id = 11923,
+		name = "Knights of the Sky"
+	},
+	[11924] = {
+		id = 11924,
 		name = "Knights of the Sky"
 	},
 	[11930] = {
@@ -3787,6 +3807,130 @@ pg.skill_data_display = {
 	[14481] = {
 		id = 14481,
 		name = "Prescient Planning"
+	},
+	[14490] = {
+		id = 14490,
+		name = "Emergency Beardrop"
+	},
+	[14491] = {
+		id = 14491,
+		name = "Emergency Beardrop"
+	},
+	[14501] = {
+		id = 14501,
+		name = "Lucky E - Defend!"
+	},
+	[14502] = {
+		id = 14502,
+		name = "Lucky E - Impede!"
+	},
+	[14504] = {
+		id = 14504,
+		name = "Lucky E - Attack!"
+	},
+	[14510] = {
+		id = 14510,
+		name = "Dragon's Breath"
+	},
+	[14511] = {
+		id = 14511,
+		name = "Dragon's Breath"
+	},
+	[14520] = {
+		id = 14520,
+		name = "Freedom Through Firepower"
+	},
+	[14530] = {
+		id = 14530,
+		name = "Don'tcha Just Love It?"
+	},
+	[14531] = {
+		id = 14531,
+		name = "Don'tcha Just Love It?"
+	},
+	[14540] = {
+		id = 14540,
+		name = "Wings of Soaring Flames"
+	},
+	[14550] = {
+		id = 14550,
+		name = "Shielded Advance"
+	},
+	[14551] = {
+		id = 14551,
+		name = "Shielded Advance"
+	},
+	[14560] = {
+		id = 14560,
+		name = "Advanced Support Formation"
+	},
+	[14561] = {
+		id = 14561,
+		name = "Advanced Support Formation"
+	},
+	[14570] = {
+		id = 14570,
+		name = "Get Starstruck!"
+	},
+	[14571] = {
+		id = 14571,
+		name = "Get Starstruck!"
+	},
+	[14580] = {
+		id = 14580,
+		name = "Right Place at the Right Time"
+	},
+	[14581] = {
+		id = 14581,
+		name = "Right Place at the Right Time"
+	},
+	[14582] = {
+		id = 14582,
+		name = "Right Place at the Right Time"
+	},
+	[14583] = {
+		id = 14583,
+		name = "Right Place at the Right Time"
+	},
+	[14590] = {
+		id = 14590,
+		name = "Hottie Hunters"
+	},
+	[14591] = {
+		id = 14591,
+		name = "Hottie Hunters"
+	},
+	[14600] = {
+		id = 14600,
+		name = "Parting Gift"
+	},
+	[14601] = {
+		id = 14601,
+		name = "Parting Gift"
+	},
+	[14610] = {
+		id = 14610,
+		name = "The Bigger They Are..."
+	},
+	[14611] = {
+		id = 14611,
+		name = "The Bigger They Are..."
+	},
+	[14622] = {
+		id = 14622,
+		name = "Breathe In, Breathe Out"
+	},
+	[14623] = {
+		id = 14623,
+		name = "Breathe In, Breathe Out"
+	},
+	[14630] = {
+		id = 14630,
+		name = "Supporting Wings - Independence"
+	},
+	[14641] = {
+		id = 14641,
+		name = "Freedom Through Firepower"
 	},
 	[18010] = {
 		id = 18010,
@@ -6038,6 +6182,9 @@ pg.skill_data_display = {
 		8865,
 		8867,
 		8869,
+		8880,
+		8882,
+		8884,
 		9010,
 		9020,
 		9030,
@@ -6287,6 +6434,8 @@ pg.skill_data_display = {
 		11920,
 		11921,
 		11922,
+		11923,
+		11924,
 		11930,
 		11940,
 		11941,
@@ -6776,6 +6925,37 @@ pg.skill_data_display = {
 		14475,
 		14480,
 		14481,
+		14490,
+		14491,
+		14501,
+		14502,
+		14504,
+		14510,
+		14511,
+		14520,
+		14530,
+		14531,
+		14540,
+		14550,
+		14551,
+		14560,
+		14561,
+		14570,
+		14571,
+		14580,
+		14581,
+		14582,
+		14583,
+		14590,
+		14591,
+		14600,
+		14601,
+		14610,
+		14611,
+		14622,
+		14623,
+		14630,
+		14641,
 		18010,
 		18040,
 		18041,

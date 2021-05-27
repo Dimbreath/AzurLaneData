@@ -989,7 +989,7 @@ pg.voice_actor_CN = {
 		code = 247
 	},
 	{
-		actor_name = "Haruka Chisuga ",
+		actor_name = "Haruka Takahashi ",
 		code = 248
 	},
 	{
@@ -1087,5 +1087,25 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Kaede Hondo",
 		code = 272
+	},
+	{
+		actor_name = "Miyu Tomita",
+		code = 273
+	},
+	{
+		actor_name = "Hikaru Akao",
+		code = 274
+	},
+	{
+		actor_name = "Mineuchi Tomomi ",
+		code = 275
+	},
+	{
+		actor_name = "Yū Sasahara",
+		code = 276
+	},
+	{
+		actor_name = "Namiki Sakura",
+		code = 277
 	}
 }

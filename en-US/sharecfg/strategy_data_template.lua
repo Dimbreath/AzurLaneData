@@ -372,6 +372,51 @@ pg.strategy_data_template = {
 		desc = "Currently receiving support from Aquila. Support airstrikes will appear in battle.",
 		arg = {}
 	},
+	[8874] = {
+		buff_id = 8874,
+		name = "Reenactment Modulation System",
+		type = 10,
+		id = 8874,
+		icon = "8874",
+		desc = "Your Sakura Empire ships deal 5.0% more DMG, but also take 5.0% more DMG. Your Eagle Union ships deal 5.0% less DMG, but also take 5.0% less DMG. ",
+		arg = {}
+	},
+	[8877] = {
+		buff_id = 8877,
+		name = "Siren Sea Fog ",
+		type = 10,
+		id = 8877,
+		icon = "8877",
+		desc = "The battlefield is obscured by a Siren-created haze. The Accuracy of allied fleets is decreased by 5%, and enemy fleet compositions cannot be seen. ",
+		arg = {}
+	},
+	[8880] = {
+		buff_id = 8880,
+		name = "Mirror Hacking ",
+		type = 10,
+		id = 8880,
+		icon = "8880",
+		desc = "You're being supported by an unknown ally. During combat, the enemy will be bombarded by a supporting barrage. ",
+		arg = {}
+	},
+	[8882] = {
+		buff_id = 8882,
+		name = "Mirror Hacking ",
+		type = 10,
+		id = 8882,
+		icon = "8880",
+		desc = "You're being supported by an unknown ally. During combat, the enemy will be bombarded by a supporting barrage. ",
+		arg = {}
+	},
+	[8884] = {
+		buff_id = 8884,
+		name = "Mirror Hacking ",
+		type = 10,
+		id = 8884,
+		icon = "8880",
+		desc = "You're being supported by an unknown ally. During combat, the enemy will be bombarded by a supporting barrage. ",
+		arg = {}
+	},
 	[9500] = {
 		buff_id = 9500,
 		name = "Wisdom Cube Reactivity",
@@ -531,6 +576,11 @@ pg.strategy_data_template = {
 		8865,
 		8867,
 		8869,
+		8874,
+		8877,
+		8880,
+		8882,
+		8884,
 		9500,
 		9502,
 		9505,

@@ -2713,6 +2713,40 @@ pg.backyard_theme_template = {
 			78115
 		}
 	},
+	[80] = {
+		Cfg_1 = 5,
+		name = "Bunny Girl Bar ",
+		desc = "Bunnies, beverages, and billiards – triple B! ",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 80,
+		id = 80,
+		icon = "bngthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			80001,
+			80002,
+			80101,
+			80102,
+			80103,
+			80105,
+			80106,
+			80108,
+			80109,
+			80110,
+			80111,
+			80112,
+			80301,
+			80304,
+			80305,
+			80306
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2772,6 +2806,7 @@ pg.backyard_theme_template = {
 		75,
 		76,
 		77,
-		78
+		78,
+		80
 	}
 }

@@ -1,5 +1,273 @@
 pg = pg or {}
 pg.equip_data_statistics_126 = {
+	[17040] = {
+		name = "F2A Buffalo",
+		type = 7,
+		speciality = "Air",
+		rarity = 3,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "17000",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 17040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50340
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			17040,
+			81040
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
+	},
+	[17041] = {
+		id = 17041,
+		base = 17040,
+		ammo_info = {
+			{
+				6,
+				50341
+			}
+		},
+		weapon_id = {
+			17041,
+			81041
+		}
+	},
+	[17042] = {
+		id = 17042,
+		base = 17040,
+		ammo_info = {
+			{
+				6,
+				50342
+			}
+		},
+		weapon_id = {
+			17042,
+			81042
+		}
+	},
+	[17043] = {
+		id = 17043,
+		base = 17040,
+		ammo_info = {
+			{
+				6,
+				50343
+			}
+		},
+		weapon_id = {
+			17043,
+			81043
+		}
+	},
+	[17044] = {
+		id = 17044,
+		base = 17040,
+		ammo_info = {
+			{
+				6,
+				50344
+			}
+		},
+		weapon_id = {
+			17044,
+			81044
+		}
+	},
+	[17045] = {
+		id = 17045,
+		base = 17040,
+		ammo_info = {
+			{
+				6,
+				50345
+			}
+		},
+		weapon_id = {
+			17045,
+			81045
+		}
+	},
+	[17046] = {
+		id = 17046,
+		base = 17040,
+		ammo_info = {
+			{
+				6,
+				50346
+			}
+		},
+		weapon_id = {
+			17046,
+			81046
+		}
+	},
+	[17047] = {
+		id = 17047,
+		base = 17040,
+		ammo_info = {
+			{
+				6,
+				50347
+			}
+		},
+		weapon_id = {
+			17047,
+			81047
+		}
+	},
+	[17060] = {
+		name = "F2A Buffalo (Thach Squadron)",
+		type = 7,
+		speciality = "Air",
+		rarity = 5,
+		tech = 0,
+		descrip = "A fighter squadron that utilizes the Thach Weave tactic, developed by John Smith Thach.",
+		value_2 = 45,
+		icon = "17060",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 17060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50360
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			17060,
+			81060
+		},
+		skill_id = {
+			6430
+		},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
+	},
+	[17061] = {
+		id = 17061,
+		base = 17060,
+		ammo_info = {
+			{
+				6,
+				50361
+			}
+		},
+		weapon_id = {
+			17061,
+			81061
+		}
+	},
+	[17062] = {
+		id = 17062,
+		base = 17060,
+		ammo_info = {
+			{
+				6,
+				50362
+			}
+		},
+		weapon_id = {
+			17062,
+			81062
+		}
+	},
+	[17063] = {
+		id = 17063,
+		base = 17060,
+		ammo_info = {
+			{
+				6,
+				50363
+			}
+		},
+		weapon_id = {
+			17063,
+			81063
+		}
+	},
+	[17064] = {
+		id = 17064,
+		base = 17060,
+		ammo_info = {
+			{
+				6,
+				50364
+			}
+		},
+		weapon_id = {
+			17064,
+			81064
+		}
+	},
+	[17065] = {
+		id = 17065,
+		base = 17060,
+		ammo_info = {
+			{
+				6,
+				50365
+			}
+		},
+		weapon_id = {
+			17065,
+			81065
+		}
+	},
 	[17066] = {
 		id = 17066,
 		base = 17060,
@@ -40,276 +308,6 @@ pg.equip_data_statistics_126 = {
 		weapon_id = {
 			17068,
 			81068
-		}
-	},
-	[17069] = {
-		id = 17069,
-		base = 17060,
-		ammo_info = {
-			{
-				6,
-				50369
-			}
-		},
-		weapon_id = {
-			17069,
-			81069
-		}
-	},
-	[17070] = {
-		id = 17070,
-		base = 17060,
-		ammo_info = {
-			{
-				6,
-				50370
-			}
-		},
-		weapon_id = {
-			17070,
-			81070
-		}
-	},
-	[17071] = {
-		anti_siren = 100,
-		base = 17060,
-		id = 17071,
-		ammo_info = {
-			{
-				6,
-				50371
-			}
-		},
-		weapon_id = {
-			17071,
-			81071
-		}
-	},
-	[17072] = {
-		anti_siren = 200,
-		base = 17060,
-		id = 17072,
-		ammo_info = {
-			{
-				6,
-				50372
-			}
-		},
-		weapon_id = {
-			17072,
-			81072
-		}
-	},
-	[17073] = {
-		anti_siren = 300,
-		base = 17060,
-		id = 17073,
-		ammo_info = {
-			{
-				6,
-				50373
-			}
-		},
-		weapon_id = {
-			17073,
-			81073
-		}
-	},
-	[17080] = {
-		name = "Prototype XF2A-4 Buffalo",
-		type = 7,
-		speciality = "Air",
-		rarity = 4,
-		tech = 0,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "17080",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 17080,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50340
-			},
-			{
-				5,
-				52140
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			17080,
-			81080
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"FT"
-		}
-	},
-	[17081] = {
-		id = 17081,
-		base = 17080,
-		ammo_info = {
-			{
-				6,
-				50341
-			},
-			{
-				5,
-				52141
-			}
-		},
-		weapon_id = {
-			17081,
-			81081
-		}
-	},
-	[17082] = {
-		id = 17082,
-		base = 17080,
-		ammo_info = {
-			{
-				6,
-				50342
-			},
-			{
-				5,
-				52142
-			}
-		},
-		weapon_id = {
-			17082,
-			81082
-		}
-	},
-	[17083] = {
-		id = 17083,
-		base = 17080,
-		ammo_info = {
-			{
-				6,
-				50343
-			},
-			{
-				5,
-				52143
-			}
-		},
-		weapon_id = {
-			17083,
-			81083
-		}
-	},
-	[17084] = {
-		id = 17084,
-		base = 17080,
-		ammo_info = {
-			{
-				6,
-				50344
-			},
-			{
-				5,
-				52144
-			}
-		},
-		weapon_id = {
-			17084,
-			81084
-		}
-	},
-	[17085] = {
-		id = 17085,
-		base = 17080,
-		ammo_info = {
-			{
-				6,
-				50345
-			},
-			{
-				5,
-				52145
-			}
-		},
-		weapon_id = {
-			17085,
-			81085
-		}
-	},
-	[17086] = {
-		id = 17086,
-		base = 17080,
-		ammo_info = {
-			{
-				6,
-				50346
-			},
-			{
-				5,
-				52146
-			}
-		},
-		weapon_id = {
-			17086,
-			81086
-		}
-	},
-	[17087] = {
-		id = 17087,
-		base = 17080,
-		ammo_info = {
-			{
-				6,
-				50347
-			},
-			{
-				5,
-				52147
-			}
-		},
-		weapon_id = {
-			17087,
-			81087
-		}
-	},
-	[17088] = {
-		id = 17088,
-		base = 17080,
-		ammo_info = {
-			{
-				6,
-				50348
-			},
-			{
-				5,
-				52148
-			}
-		},
-		weapon_id = {
-			17088,
-			81088
 		}
 	}
 }

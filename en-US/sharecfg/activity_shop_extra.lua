@@ -1489,6 +1489,42 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[71] = {
+		num_limit = 1,
+		activity = 984,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 107037,
+		scene = "",
+		id = 71,
+		order = 8662,
+		time = {
+			{
+				{
+					2021,
+					5,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		5,
 		7,
@@ -1530,6 +1566,7 @@ pg.activity_shop_extra = {
 		67,
 		68,
 		69,
-		70
+		70,
+		71
 	}
 }

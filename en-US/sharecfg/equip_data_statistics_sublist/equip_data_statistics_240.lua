@@ -1,95 +1,92 @@
 pg = pg or {}
 pg.equip_data_statistics_240 = {
-	[35245] = {
-		id = 35245,
-		damage = "136 x 4",
-		base = 35240,
+	[35222] = {
+		id = 35222,
+		damage = "82 x 4",
+		base = 35220,
 		weapon_id = {
-			35245
+			35222
 		}
 	},
-	[35246] = {
-		id = 35246,
-		damage = "150 x 4",
-		base = 35240,
+	[35223] = {
+		id = 35223,
+		damage = "94 x 4",
+		base = 35220,
 		weapon_id = {
-			35246
+			35223
 		}
 	},
-	[35247] = {
-		id = 35247,
-		damage = "164 x 4",
-		base = 35240,
+	[35224] = {
+		id = 35224,
+		damage = "106 x 4",
+		base = 35220,
 		weapon_id = {
-			35247
+			35224
 		}
 	},
-	[35248] = {
-		id = 35248,
+	[35225] = {
+		id = 35225,
+		damage = "118 x 4",
+		base = 35220,
+		weapon_id = {
+			35225
+		}
+	},
+	[35226] = {
+		id = 35226,
+		damage = "130 x 4",
+		base = 35220,
+		weapon_id = {
+			35226
+		}
+	},
+	[35227] = {
+		id = 35227,
+		damage = "142 x 4",
+		base = 35220,
+		weapon_id = {
+			35227
+		}
+	},
+	[35228] = {
+		id = 35228,
+		damage = "154 x 4",
+		base = 35220,
+		weapon_id = {
+			35228
+		}
+	},
+	[35229] = {
+		id = 35229,
+		damage = "166 x 4",
+		base = 35220,
+		weapon_id = {
+			35229
+		}
+	},
+	[35230] = {
+		id = 35230,
 		damage = "178 x 4",
-		base = 35240,
+		base = 35220,
 		weapon_id = {
-			35248
+			35230
 		}
 	},
-	[35249] = {
-		id = 35249,
-		damage = "192 x 4",
-		base = 35240,
-		weapon_id = {
-			35249
-		}
-	},
-	[35250] = {
-		id = 35250,
-		damage = "206 x 4",
-		base = 35240,
-		weapon_id = {
-			35250
-		}
-	},
-	[35251] = {
-		anti_siren = 100,
-		damage = "206 x 4",
-		base = 35240,
-		id = 35251,
-		weapon_id = {
-			35251
-		}
-	},
-	[35252] = {
-		anti_siren = 200,
-		damage = "206 x 4",
-		base = 35240,
-		id = 35252,
-		weapon_id = {
-			35252
-		}
-	},
-	[35253] = {
-		anti_siren = 300,
-		damage = "206 x 4",
-		base = 35240,
-		id = 35253,
-		weapon_id = {
-			35253
-		}
-	},
-	[35260] = {
-		name = "610mm Quadruple Torpedo Mount Kai",
+	[35240] = {
+		name = "610mm Quadruple Torpedo Mount",
 		speciality = "Torpedo",
 		type = 5,
-		tech = 0,
+		tech = 3,
 		descrip = "No description",
 		value_2 = 45,
-		icon = "35260",
+		icon = "35200",
 		attribute_2 = "torpedo",
 		rarity = 5,
-		damage = "70 x 4",
+		damage = "66 x 4",
 		nationality = 3,
 		ammo = 5,
 		value_3 = 0,
-		id = 35260,
+		id = 35240,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -114,7 +111,7 @@ pg.equip_data_statistics_240 = {
 			12
 		},
 		weapon_id = {
-			35260
+			35240
 		},
 		skill_id = {},
 		part_main = {
@@ -137,60 +134,60 @@ pg.equip_data_statistics_240 = {
 			"QUAD"
 		}
 	},
-	[35261] = {
-		id = 35261,
-		damage = "84 x 4",
-		base = 35260,
+	[35241] = {
+		id = 35241,
+		damage = "80 x 4",
+		base = 35240,
 		weapon_id = {
-			35261
+			35241
 		}
 	},
-	[35262] = {
-		id = 35262,
-		damage = "98 x 4",
-		base = 35260,
+	[35242] = {
+		id = 35242,
+		damage = "94 x 4",
+		base = 35240,
 		weapon_id = {
-			35262
+			35242
 		}
 	},
-	[35263] = {
-		id = 35263,
-		damage = "112 x 4",
-		base = 35260,
+	[35243] = {
+		id = 35243,
+		damage = "108 x 4",
+		base = 35240,
 		weapon_id = {
-			35263
+			35243
 		}
 	},
-	[35264] = {
-		id = 35264,
-		damage = "126 x 4",
-		base = 35260,
+	[35244] = {
+		id = 35244,
+		damage = "122 x 4",
+		base = 35240,
 		weapon_id = {
-			35264
+			35244
 		}
 	},
-	[35265] = {
-		id = 35265,
-		damage = "140 x 4",
-		base = 35260,
+	[35245] = {
+		id = 35245,
+		damage = "136 x 4",
+		base = 35240,
 		weapon_id = {
-			35265
+			35245
 		}
 	},
-	[35266] = {
-		id = 35266,
-		damage = "154 x 4",
-		base = 35260,
+	[35246] = {
+		id = 35246,
+		damage = "150 x 4",
+		base = 35240,
 		weapon_id = {
-			35266
+			35246
 		}
 	},
-	[35267] = {
-		id = 35267,
-		damage = "168 x 4",
-		base = 35260,
+	[35247] = {
+		id = 35247,
+		damage = "164 x 4",
+		base = 35240,
 		weapon_id = {
-			35267
+			35247
 		}
 	}
 }

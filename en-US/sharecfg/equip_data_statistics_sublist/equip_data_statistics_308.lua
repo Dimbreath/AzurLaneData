@@ -1,44 +1,68 @@
 pg = pg or {}
 pg.equip_data_statistics_308 = {
-	[45428] = {
-		id = 45428,
-		damage = "126 x 2",
-		base = 45420,
+	[45401] = {
+		id = 45401,
+		damage = "59 x 2",
+		base = 45400,
 		weapon_id = {
-			45428
+			45401
 		}
 	},
-	[45429] = {
-		id = 45429,
-		damage = "135 x 2",
-		base = 45420,
+	[45402] = {
+		id = 45402,
+		damage = "66 x 2",
+		base = 45400,
 		weapon_id = {
-			45429
+			45402
 		}
 	},
-	[45430] = {
-		id = 45430,
-		damage = "144 x 2",
-		base = 45420,
+	[45403] = {
+		id = 45403,
+		damage = "74 x 2",
+		base = 45400,
 		weapon_id = {
-			45430
+			45403
 		}
 	},
-	[45440] = {
+	[45404] = {
+		id = 45404,
+		damage = "82 x 2",
+		base = 45400,
+		weapon_id = {
+			45404
+		}
+	},
+	[45405] = {
+		id = 45405,
+		damage = "90 x 2",
+		base = 45400,
+		weapon_id = {
+			45405
+		}
+	},
+	[45406] = {
+		id = 45406,
+		damage = "98 x 2",
+		base = 45400,
+		weapon_id = {
+			45406
+		}
+	},
+	[45420] = {
 		name = "G7e Acoustic Homing Submarine Torpedo",
 		speciality = "Torpedo",
 		type = 13,
-		tech = 3,
+		tech = 2,
 		descrip = "No description",
-		value_2 = 45,
+		value_2 = 25,
 		icon = "45400",
 		attribute_2 = "torpedo",
-		rarity = 5,
-		damage = "64 x 2",
+		rarity = 4,
+		damage = "58 x 2",
 		nationality = 4,
 		ammo = 4,
 		value_3 = 0,
-		id = 45440,
+		id = 45420,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -65,7 +89,7 @@ pg.equip_data_statistics_308 = {
 			12
 		},
 		weapon_id = {
-			45440
+			45420
 		},
 		skill_id = {},
 		part_main = {
@@ -83,111 +107,84 @@ pg.equip_data_statistics_308 = {
 			"TP"
 		}
 	},
-	[45441] = {
-		id = 45441,
-		damage = "73 x 2",
-		base = 45440,
+	[45421] = {
+		id = 45421,
+		damage = "66 x 2",
+		base = 45420,
 		weapon_id = {
-			45441
+			45421
 		}
 	},
-	[45442] = {
-		id = 45442,
+	[45422] = {
+		id = 45422,
+		damage = "74 x 2",
+		base = 45420,
+		weapon_id = {
+			45422
+		}
+	},
+	[45423] = {
+		id = 45423,
 		damage = "82 x 2",
-		base = 45440,
+		base = 45420,
 		weapon_id = {
-			45442
+			45423
 		}
 	},
-	[45443] = {
-		id = 45443,
-		damage = "91 x 2",
-		base = 45440,
+	[45424] = {
+		id = 45424,
+		damage = "90 x 2",
+		base = 45420,
 		weapon_id = {
-			45443
+			45424
 		}
 	},
-	[45444] = {
-		id = 45444,
-		damage = "100 x 2",
-		base = 45440,
+	[45425] = {
+		id = 45425,
+		damage = "99 x 2",
+		base = 45420,
 		weapon_id = {
-			45444
+			45425
 		}
 	},
-	[45445] = {
-		id = 45445,
-		damage = "110 x 2",
-		base = 45440,
+	[45426] = {
+		id = 45426,
+		damage = "108 x 2",
+		base = 45420,
 		weapon_id = {
-			45445
+			45426
 		}
 	},
-	[45446] = {
-		id = 45446,
-		damage = "120 x 2",
-		base = 45440,
+	[45427] = {
+		id = 45427,
+		damage = "117 x 2",
+		base = 45420,
 		weapon_id = {
-			45446
+			45427
 		}
 	},
-	[45447] = {
-		id = 45447,
-		damage = "130 x 2",
-		base = 45440,
+	[45428] = {
+		id = 45428,
+		damage = "126 x 2",
+		base = 45420,
 		weapon_id = {
-			45447
+			45428
 		}
 	},
-	[45448] = {
-		id = 45448,
-		damage = "140 x 2",
-		base = 45440,
+	[45429] = {
+		id = 45429,
+		damage = "135 x 2",
+		base = 45420,
 		weapon_id = {
-			45448
+			45429
 		}
 	},
-	[45449] = {
-		id = 45449,
-		damage = "150 x 2",
-		base = 45440,
+	[45430] = {
+		id = 45430,
+		damage = "144 x 2",
+		base = 45420,
 		weapon_id = {
-			45449
-		}
-	},
-	[45450] = {
-		id = 45450,
-		damage = "160 x 2",
-		base = 45440,
-		weapon_id = {
-			45450
-		}
-	},
-	[45451] = {
-		anti_siren = 100,
-		damage = "160 x 2",
-		base = 45440,
-		id = 45451,
-		weapon_id = {
-			45451
-		}
-	},
-	[45452] = {
-		anti_siren = 200,
-		damage = "160 x 2",
-		base = 45440,
-		id = 45452,
-		weapon_id = {
-			45452
-		}
-	},
-	[45453] = {
-		anti_siren = 300,
-		damage = "160 x 2",
-		base = 45440,
-		id = 45453,
-		weapon_id = {
-			45453
+			45430
 		}
 	}
 }

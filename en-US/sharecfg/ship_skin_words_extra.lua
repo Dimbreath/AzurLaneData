@@ -4546,6 +4546,377 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[102290] = {
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 102290,
+		feeling1 = "",
+		unlock = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Huff... Puff... Huff... Puff... Welcome back, Commander."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Huff... another smooth victory... Commander, thank you for your guidance. "
+			}
+		},
+		home = {
+			{
+				1100,
+				"Oh, there's some paper stuck on your clothes. Let me wipe it off... It should be okay now... I think?"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"They're antennas, not rabbit ears... Would rabbit ears have been better...?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I don't really mind showing you my face, but, umm, that means...|San Francisco, it's best if you don't tease the Commander too much... I-I'll get mad at you, you know...?|Huff... Puff... Huff... Puff... Breathe in, breathe out... That feels nice... Phew..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Umm, is there anything you need from me...?"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"\"I bet you haven't read the mail from last time yet.\" That's what I wrote in my log last time..."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"(Deep breaths... Deep breaths...!!!)"
+			}
+		}
+	},
+	[103140] = {
+		touch = "",
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		mission = "",
+		touch2 = "",
+		id = 103140,
+		feeling1 = "",
+		unlock = "",
+		lose = "",
+		feeling4 = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"'ello, Puddin'! Gimme a smile! Now a high five! And just to get your engines revving early... a kiss! Ahaha~"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Good going, Puddin'! C'mere and chew the fat with me! Kick back now, worry about the consequences later!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Someone been bullyin' you too, Puddin'? Gimme their name, now! Nobody gets to bully you but me! JK, JK~|I'll do some work after I'm done painting. If you see me not workin', that means I'm still busy.|Whoever touched my puddin' will have hell to pay! Nah, not you, I mean my literal puddin'!"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Welcome back, commission team! Puddin' is just over there, waitin' for you all!"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"Mail for you, with a little extra something from me to go with it, Puddin'~"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Hey, Puddin', what do you say we retake our vows? ...Hahaha! Look at you, gettin' all flustered! Why so serious? Ahaha~"
+			}
+		}
+	},
+	[101470] = {
+		feeling3 = "",
+		upgrade = "",
+		mission = "",
+		id = 101470,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"Commander, um, would it be okay for me to stay by your side today?"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"I should use this chance to perform some maintenance on Mr. Bear... Alright, done!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Great work, Commander! Please let me handle the reports...!"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Mr. Bear, charge!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"With this gel applied, Mr. Bear should be able to move just fine at sea as well... No way, he's nowhere near fast enough... Commander, what do you think I should do...?"
+			}
+		},
+		main = {
+			{
+				1100,
+				"nil|D-Did you call for me...? Yes! Leave whatever it is to me...!|It's sunny today. Sunny days are nice, aren't they? ...Yes!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"In this operation, I can't let myself be a burden to either Mr. Bear or the Commander... Isn't that right, Birmingham? "
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Um, if there's anything I can help with... J-just let me know... okay?"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"The commissions have been completed. Umm, Commander, let's go and greet everyone together...!"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"All done with the missions? Let's take a little break then..."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Ah, um, I'm so sorry... Mr. Bear is very sensitive to sudden movements, and he'll spring up to defend me..."
+			}
+		}
+	},
+	[107140] = {
+		touch = "",
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		touch2 = "",
+		id = 107140,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Commander, you seem to be in perfect condition today~ Want me to do \"something nice\" for you? O-okay, okay."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Good job out there, Commander. Huhh, you want to see my arm? Sure–ahhn?! Th-that felt amazing...!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Commander? I'll get the door for you... Oh, it's already unlocked? Uhh, I see..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I love going stargazing with Intrepid. Really, it's surprising how much our interests align.|There there, Commander~ You've done such a good job, haven''t you~ Of course, I have too~♪|Commander, are those documents good to go? Oh, I mean the ones I gave you earlier. I was worried I might have made a mistake or two."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Good work, Commander. Did you need anything? A date...? Why yes, of course! As long as you're fine with me... Err, no, I'll be taking the lead today, so come with me... H-huh? You don't mean right now?"
+			}
+		}
+	},
+	[105170] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 105170,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"Hey there, honey~♪ What are we going to do today?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back from your sortie! Wanna celebrate the occasion with a kiss? ...Yeah, yeah, I know, I'll get started on the report~♪"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Honey's looking my way~! Let's do this!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"♪~What am I staring at so intently? You of course, honey. You're always ogling me up and down, so what's wrong with me also being mesmerized by you? Hehe~♡"
+			}
+		},
+		main = {
+			{
+				1100,
+				"Might be fun scrapping with Yamato and Musashi. Honey, who do you think would win?|Honey, I love you and all, but you can't cut in line, okay? Especially when it's my ice cream that's coming out. If you're that thirsty, I have some juice for you.|nil|nil|nil|nil|"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"A job well done, hooney~ You're totally amazing. All right, let's get started on the next job~"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I was just looking for you, honey~ See, there's something I'd like you to buy for me... pretty please?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I know, you absolutely love this kind of stuff, dontcha~ Ahaha~♪"
+			}
+		}
+	},
+	[107990] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		id = 107990,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"All right, today's another day to be the best that I can be! Commander, I'll be counting on you as well!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Calm down, Enterprise... Keep steady and don't let the pot explode... Commander? Umm, I'm trying to learn how to cook like Vestal... Woooahh?!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I have to grow up faster just like Grimmy... so I can become \"Big E\" sooner... Wait, what do you mean that's not how it works?|Managing the fleet is super hard! Commander, can you show me how it's done?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Commander, your advice has been super helpful! Um, do you also teach stuff to the other girls as well...?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"The stars shining in the night sky... Is that the place we're aiming to go to one day? I just know that the two of us can make that dream come true! Even if we have to defeat as many enemies as stars in the sky, we'll overcome anything!"
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -4622,6 +4993,12 @@ pg.ship_skin_words_extra = {
 		601040,
 		601050,
 		601060,
-		608010
+		608010,
+		102290,
+		103140,
+		101470,
+		107140,
+		105170,
+		107990
 	}
 }

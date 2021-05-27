@@ -1,116 +1,116 @@
 pg = pg or {}
 pg.aircraft_template_143 = {
-	[65572] = {
+	[65562] = {
 		max_hp = 57,
-		name = "威悉技能轰炸机PlusLv2",
+		name = "威悉技能轰炸机Lv2",
 		base = 65561,
-		id = 65572,
+		id = 65562,
 		hp_growth = 1781,
 		weapon_ID = {
 			65582
 		}
 	},
-	[65573] = {
+	[65563] = {
 		max_hp = 64,
-		name = "威悉技能轰炸机PlusLv3",
+		name = "威悉技能轰炸机Lv3",
 		base = 65561,
-		id = 65573,
+		id = 65563,
 		hp_growth = 2013,
 		weapon_ID = {
 			65583
 		}
 	},
-	[65574] = {
+	[65564] = {
 		max_hp = 70,
-		name = "威悉技能轰炸机PlusLv4",
+		name = "威悉技能轰炸机Lv4",
 		base = 65561,
-		id = 65574,
+		id = 65564,
 		hp_growth = 2246,
 		weapon_ID = {
 			65584
 		}
 	},
-	[65575] = {
+	[65565] = {
 		max_hp = 77,
-		name = "威悉技能轰炸机PlusLv5",
+		name = "威悉技能轰炸机Lv5",
 		base = 65561,
-		id = 65575,
+		id = 65565,
 		hp_growth = 2478,
 		weapon_ID = {
 			65585
 		}
 	},
-	[65576] = {
+	[65566] = {
 		max_hp = 84,
-		name = "威悉技能轰炸机PlusLv6",
+		name = "威悉技能轰炸机Lv6",
 		base = 65561,
-		id = 65576,
+		id = 65566,
 		hp_growth = 2710,
 		weapon_ID = {
 			65586
 		}
 	},
-	[65577] = {
+	[65567] = {
 		max_hp = 90,
-		name = "威悉技能轰炸机PlusLv7",
+		name = "威悉技能轰炸机Lv7",
 		base = 65561,
-		id = 65577,
+		id = 65567,
 		hp_growth = 2943,
 		weapon_ID = {
 			65587
 		}
 	},
-	[65578] = {
+	[65568] = {
 		max_hp = 97,
-		name = "威悉技能轰炸机PlusLv8",
+		name = "威悉技能轰炸机Lv8",
 		base = 65561,
-		id = 65578,
+		id = 65568,
 		hp_growth = 3175,
 		weapon_ID = {
 			65588
 		}
 	},
-	[65579] = {
+	[65569] = {
 		max_hp = 103,
-		name = "威悉技能轰炸机PlusLv9",
+		name = "威悉技能轰炸机Lv9",
 		base = 65561,
-		id = 65579,
+		id = 65569,
 		hp_growth = 3407,
 		weapon_ID = {
 			65589
 		}
 	},
-	[65580] = {
+	[65570] = {
 		max_hp = 110,
-		name = "威悉技能轰炸机PlusLv10",
+		name = "威悉技能轰炸机Lv10",
 		base = 65561,
-		id = 65580,
+		id = 65570,
 		hp_growth = 3640,
 		weapon_ID = {
 			65590
 		}
 	},
-	[65841] = {
-		name = "黑方舟技能-特殊鱼雷机Lv1",
-		max_hp = 38,
+	[65571] = {
+		name = "威悉技能轰炸机PlusLv1",
+		max_hp = 51,
 		accuracy = 23,
-		model_ID = "jianyu",
+		model_ID = "JU87C",
 		ACC_growth = 0,
-		crash_DMG = 420,
-		dodge = 1,
+		crash_DMG = 156,
+		dodge = 0.315,
 		attack_power = 2,
-		dodge_limit = 0,
-		type = 2,
+		dodge_limit = 11,
+		type = 3,
 		AP_growth = 2000,
-		icon = "jianyu",
+		icon = "JU87C",
 		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1459,
-		speed = 40,
-		id = 65841,
+		nationality = 4,
+		hp_growth = 1549,
+		speed = 50,
+		id = 65571,
 		scale = 1,
 		weapon_ID = {
-			65851
+			65581
 		},
 		position_offset = {
 			0,
@@ -130,13 +130,13 @@ pg.aircraft_template_143 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					-1.28,
+					1.62,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					-1.12,
+					-1,
 					0
 				}
 			}
@@ -153,7 +153,7 @@ pg.aircraft_template_143 = {
 				0
 			},
 			{
-				0.52,
+				0,
 				0,
 				0
 			},

@@ -960,10 +960,55 @@ pg.name_code = {
 		name = "Oite",
 		code = "Oite"
 	},
-	[193] = {
+	{
 		id = 193,
 		name = "Little Amagi ",
 		code = "Little Amagi "
+	},
+	{
+		id = 194,
+		name = "Ticonderoga ",
+		code = "Ticonderoga "
+	},
+	{
+		id = 195,
+		name = "San Francisco ",
+		code = "San Francisco "
+	},
+	{
+		id = 196,
+		name = "Archerfish ",
+		code = "Archerfish "
+	},
+	{
+		id = 197,
+		name = "Boise ",
+		code = "Boise "
+	},
+	{
+		id = 198,
+		name = "Morrison ",
+		code = "Morrison "
+	},
+	{
+		id = 199,
+		name = "New Jersey ",
+		code = "New Jersey "
+	},
+	{
+		id = 200,
+		name = "Ticonderoga ",
+		code = "Ticonderoga "
+	},
+	{
+		id = 201,
+		name = "iowa ",
+		code = "iowa "
+	},
+	{
+		id = 202,
+		name = "balao ",
+		code = "balao "
 	},
 	[250] = {
 		id = 250,

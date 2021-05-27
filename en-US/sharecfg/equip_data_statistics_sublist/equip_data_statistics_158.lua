@@ -1,44 +1,69 @@
 pg = pg or {}
 pg.equip_data_statistics_158 = {
-	[22224] = {
-		id = 22224,
-		damage = "13 x 6",
-		base = 22220,
+	[22146] = {
+		id = 22146,
+		damage = "16 x 4",
+		base = 22140,
 		weapon_id = {
-			22224
+			22146
 		}
 	},
-	[22225] = {
-		id = 22225,
-		damage = "14 x 6",
-		base = 22220,
+	[22147] = {
+		id = 22147,
+		damage = "17 x 4",
+		base = 22140,
 		weapon_id = {
-			22225
+			22147
 		}
 	},
-	[22226] = {
-		id = 22226,
-		damage = "15 x 6",
-		base = 22220,
+	[22148] = {
+		id = 22148,
+		damage = "18 x 4",
+		base = 22140,
 		weapon_id = {
-			22226
+			22148
 		}
 	},
-	[22240] = {
+	[22149] = {
+		id = 22149,
+		damage = "20 x 4",
+		base = 22140,
+		weapon_id = {
+			22149
+		}
+	},
+	[22150] = {
+		id = 22150,
+		damage = "22 x 4",
+		base = 22140,
+		weapon_id = {
+			22150
+		}
+	},
+	[22151] = {
+		anti_siren = 100,
+		damage = "22 x 4",
+		base = 22140,
+		id = 22151,
+		weapon_id = {
+			22151
+		}
+	},
+	[22200] = {
 		name = "Triple 152mm Main Gun",
 		speciality = "Lock",
 		type = 2,
-		tech = 3,
+		tech = 1,
 		descrip = "No description",
-		value_2 = 25,
+		value_2 = 5,
 		icon = "22200",
 		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "10 x 6",
+		rarity = 2,
+		damage = "8 x 6",
 		nationality = 2,
 		ammo = 1,
 		value_3 = 0,
-		id = 22240,
+		id = 22200,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -67,7 +92,7 @@ pg.equip_data_statistics_158 = {
 			12
 		},
 		weapon_id = {
-			22240
+			22200
 		},
 		skill_id = {},
 		part_main = {
@@ -84,110 +109,45 @@ pg.equip_data_statistics_158 = {
 			"AP"
 		}
 	},
-	[22241] = {
-		id = 22241,
+	[22201] = {
+		id = 22201,
+		damage = "9 x 6",
+		base = 22200,
+		weapon_id = {
+			22201
+		}
+	},
+	[22202] = {
+		id = 22202,
+		damage = "10 x 6",
+		base = 22200,
+		weapon_id = {
+			22202
+		}
+	},
+	[22203] = {
+		id = 22203,
 		damage = "11 x 6",
-		base = 22240,
+		base = 22200,
 		weapon_id = {
-			22241
+			22203
 		}
 	},
-	[22242] = {
-		id = 22242,
-		damage = "12 x 6",
-		base = 22240,
-		weapon_id = {
-			22242
-		}
-	},
-	[22243] = {
-		id = 22243,
-		damage = "13 x 6",
-		base = 22240,
-		weapon_id = {
-			22243
-		}
-	},
-	[22244] = {
-		id = 22244,
-		damage = "14 x 6",
-		base = 22240,
-		weapon_id = {
-			22244
-		}
-	},
-	[22245] = {
-		id = 22245,
-		damage = "15 x 6",
-		base = 22240,
-		weapon_id = {
-			22245
-		}
-	},
-	[22246] = {
-		id = 22246,
-		damage = "16 x 6",
-		base = 22240,
-		weapon_id = {
-			22246
-		}
-	},
-	[22247] = {
-		id = 22247,
-		damage = "17 x 6",
-		base = 22240,
-		weapon_id = {
-			22247
-		}
-	},
-	[22248] = {
-		id = 22248,
-		damage = "18 x 6",
-		base = 22240,
-		weapon_id = {
-			22248
-		}
-	},
-	[22249] = {
-		id = 22249,
-		damage = "20 x 6",
-		base = 22240,
-		weapon_id = {
-			22249
-		}
-	},
-	[22250] = {
-		id = 22250,
-		damage = "22 x 6",
-		base = 22240,
-		weapon_id = {
-			22250
-		}
-	},
-	[22251] = {
-		anti_siren = 100,
-		damage = "22 x 6",
-		base = 22240,
-		id = 22251,
-		weapon_id = {
-			22251
-		}
-	},
-	[22260] = {
-		name = "Prototype Triple 152mm Mk XXV Main Gun Mount",
+	[22220] = {
+		name = "Triple 152mm Main Gun",
 		speciality = "Lock",
 		type = 2,
-		tech = 0,
+		tech = 2,
 		descrip = "No description",
-		value_2 = 45,
-		icon = "22260",
+		value_2 = 12,
+		icon = "22200",
 		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "11 x 3",
+		rarity = 3,
+		damage = "9 x 6",
 		nationality = 2,
 		ammo = 1,
 		value_3 = 0,
-		id = 22260,
+		id = 22220,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -196,7 +156,7 @@ pg.equip_data_statistics_158 = {
 		ammo_info = {
 			{
 				1,
-				1105
+				1104
 			}
 		},
 		equip_info = {
@@ -204,11 +164,11 @@ pg.equip_data_statistics_158 = {
 			2,
 			{
 				3,
-				1105
+				1104
 			},
 			{
 				4,
-				1108
+				1102
 			},
 			6,
 			10,
@@ -216,7 +176,7 @@ pg.equip_data_statistics_158 = {
 			12
 		},
 		weapon_id = {
-			22260
+			22220
 		},
 		skill_id = {},
 		part_main = {
@@ -233,12 +193,52 @@ pg.equip_data_statistics_158 = {
 			"AP"
 		}
 	},
-	[22261] = {
-		id = 22261,
-		damage = "12 x 3",
-		base = 22260,
+	[22221] = {
+		id = 22221,
+		damage = "10 x 6",
+		base = 22220,
 		weapon_id = {
-			22261
+			22221
+		}
+	},
+	[22222] = {
+		id = 22222,
+		damage = "11 x 6",
+		base = 22220,
+		weapon_id = {
+			22222
+		}
+	},
+	[22223] = {
+		id = 22223,
+		damage = "12 x 6",
+		base = 22220,
+		weapon_id = {
+			22223
+		}
+	},
+	[22224] = {
+		id = 22224,
+		damage = "13 x 6",
+		base = 22220,
+		weapon_id = {
+			22224
+		}
+	},
+	[22225] = {
+		id = 22225,
+		damage = "14 x 6",
+		base = 22220,
+		weapon_id = {
+			22225
+		}
+	},
+	[22226] = {
+		id = 22226,
+		damage = "15 x 6",
+		base = 22220,
+		weapon_id = {
+			22226
 		}
 	}
 }

@@ -3882,6 +3882,174 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[197] = {
+		can_rotate = 0,
+		name = "Shirokuma Plushie ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "guangming1icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/guangming1",
+		canputon = 0,
+		count = 1,
+		describe = "Soft, fluffy, yet cool to the touch! ",
+		advice = 0,
+		deblocking = 1,
+		id = 197,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[198] = {
+		can_rotate = 1,
+		name = "Shirokuma Fridge",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "guangming2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/guangming2",
+		canputon = 0,
+		count = 1,
+		describe = "Keep your frozen treats safe from the heat of summer! ",
+		advice = 0,
+		deblocking = 1,
+		id = 198,
+		comfortable = 3,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[199] = {
+		can_rotate = 1,
+		name = "Frosty Shirokuma Table ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "guangming3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "chuanmo/guangming3",
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		describe = "A perfect seat to enjoy your sweet treats and beat the heat! ",
+		advice = 0,
+		id = 199,
+		deblocking = 1,
+		comfortable = 4,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-81,
+					31
+				},
+				{
+					1,
+					1
+				},
+				"chuanmo/guangming3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[200] = {
+		can_rotate = 0,
+		name = "Black Dragon's Commemoration ",
+		gain_by = "Mirror Involution ",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 1,
+		belong = 1,
+		rarity = 5,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "usv4xunzhangicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		describe = "A futuristic-looking gadget brimming with a familiar electromagnetic power... Don'tcha just love this kind of stuff? –Awarded to commanders who participated in the \"Mirror Involution\" event. ",
+		advice = 0,
+		id = 200,
+		deblocking = 1,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"usv4xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		name = "Air Pump of Friendship",
 		gain_by = "",
@@ -4684,6 +4852,77 @@ pg.furniture_data_template = {
 					"Houzhai_yinghua",
 					"action1"
 				}
+			}
+		},
+		interAction_group = {}
+	},
+	[100016] = {
+		name = "Manjuu Wind Blaster",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		can_rotate = 0,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "fengshanicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "Your best line of defense against the scorching summer. Whoooosh!",
+		id = 100016,
+		advice = 0,
+		comfortable = 0,
+		belong = 1,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fengshanB",
+				"normal"
+			},
+			{
+				"fengshanT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				-57.7
+			}
+		},
+		animator = {
+			{
+				"fengshanCharControl"
 			}
 		},
 		interAction_group = {}
@@ -76940,6 +77179,887 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[80001] = {
+		can_rotate = 0,
+		name = "Bar Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 4,
+		icon = "dibanbngicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 80,
+		spine_action_replace = "",
+		picture = "bng/dibanbng",
+		canputon = 0,
+		count = 1,
+		describe = "The sheer amount of effort devoted to its maintenance is laudable.",
+		advice = 0,
+		deblocking = 1,
+		id = 80001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80002] = {
+		can_rotate = 0,
+		name = "Bar Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 3,
+		icon = "qiangbibngicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 80,
+		spine_action_replace = "",
+		picture = "bng/qiangbibng",
+		canputon = 0,
+		count = 1,
+		describe = "Genuine brickwork. As expensive as it is nice to look at.",
+		advice = 0,
+		deblocking = 1,
+		id = 80002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80101] = {
+		can_rotate = 1,
+		name = "Arcade Machines",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "1bngicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 80,
+		spine_action_replace = "",
+		picture = "bng/1bng",
+		canputon = 0,
+		count = 1,
+		describe = "Hide your quarters before these things eat 'em all.",
+		advice = 0,
+		deblocking = 1,
+		id = 80101,
+		comfortable = 2,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80102] = {
+		can_rotate = 0,
+		name = "Bunny Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "2bngicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 80,
+		spine_action_replace = "",
+		picture = "bng/2bng",
+		canputon = 0,
+		count = 1,
+		describe = "A service-oriented Manjuu. Happy to play darts or pool with you if you ask.",
+		advice = 0,
+		deblocking = 1,
+		id = 80102,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80103] = {
+		can_rotate = 0,
+		name = "Darts Board",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "7bngicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "bng/7bng",
+		canputon = 0,
+		themeId = 80,
+		count = 2,
+		describe = "Please don't play if you're inebriated. We'd like to avoid accidents.",
+		advice = 0,
+		id = 80103,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-77,
+					83
+				},
+				{
+					1,
+					1
+				},
+				"bng/7bng_using"
+			},
+			{
+				"sit",
+				{
+					70,
+					83
+				},
+				{
+					-1,
+					1
+				},
+				"bng/7bng_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80105] = {
+		can_rotate = 0,
+		name = "Billiards Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "4bngicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 80,
+		spine_action_replace = "",
+		picture = "bng/4bng",
+		canputon = 0,
+		count = 1,
+		describe = "Everyone hears it when you hit those balls.",
+		advice = 0,
+		deblocking = 1,
+		id = 80105,
+		comfortable = 3,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80106] = {
+		can_rotate = 0,
+		name = "Bartender Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "5bngicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "bng/5bng",
+		canputon = 0,
+		themeId = 80,
+		count = 1,
+		describe = "Time to mix lives and change drinks.",
+		advice = 0,
+		id = 80106,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					139,
+					-109
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80108] = {
+		can_rotate = 0,
+		name = "U-Shaped Sofa",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "3bngicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "bng/3bng",
+		canputon = 0,
+		themeId = 80,
+		count = 1,
+		describe = "Aesthetic at the cost of leg space.",
+		advice = 0,
+		id = 80108,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-113,
+					62
+				},
+				{
+					1,
+					1
+				},
+				"bng/3bng_using"
+			},
+			{
+				"sit",
+				{
+					49,
+					64
+				},
+				{
+					-1,
+					1
+				},
+				"bng/3bng_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80109] = {
+		can_rotate = 0,
+		name = "Bar Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "8bngicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 80,
+		spine_action_replace = "",
+		picture = "bng/8bng",
+		canputon = 0,
+		count = 1,
+		describe = "Grab a drink, grab a friend, grab a chair, and sit.",
+		advice = 0,
+		deblocking = 1,
+		id = 80109,
+		comfortable = 2,
+		size = {
+			2,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80110] = {
+		can_rotate = 0,
+		name = "Bar Countertop",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "9bngicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "bng/9bng",
+		canputon = 0,
+		themeId = 80,
+		count = 1,
+		describe = "Great thing to lean over without bothering the bartender.",
+		advice = 0,
+		id = 80110,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-49,
+					-27
+				},
+				{
+					-1,
+					1
+				},
+				"bng/9bng_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80111] = {
+		can_rotate = 0,
+		name = "Bar Staircase",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "10bngicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "bng/10bng",
+		canputon = 0,
+		themeId = 80,
+		count = 1,
+		describe = "Leads to the VIP lounge. And no, your name is not on the list.",
+		advice = 0,
+		id = 80111,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-31,
+					-13
+				},
+				{
+					-1,
+					1
+				},
+				"bng/10bng_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80112] = {
+		can_rotate = 0,
+		name = "Mojito Bathtub",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "11bngicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "bng/11bng",
+		canputon = 0,
+		themeId = 80,
+		count = 1,
+		describe = "Where did they get those colossal lime slices from?",
+		advice = 0,
+		id = 80112,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-26,
+					-53
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80113] = {
+		can_rotate = 0,
+		name = "Staff Dresser",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 80,
+		icon = "Abngicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "Has everything a Manjuu needs to change into a Bunjuu.",
+		advice = 0,
+		id = 80113,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			6,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"AbngB",
+				"normal"
+			},
+			{
+				"AbngT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[80114] = {
+		can_rotate = 1,
+		name = "Bar Stage",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 80,
+		icon = "Bbngicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "No dance pole. This here is a classy establishment.",
+		advice = 0,
+		id = 80114,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Bbng",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[80115] = {
+		can_rotate = 1,
+		name = "Party Van",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Cbngicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 80,
+		count = 1,
+		describe = "♪ The wheels of steel are turnin' and traffic lights are burnin' ♪",
+		advice = 0,
+		id = 80115,
+		deblocking = 1,
+		comfortable = 4,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Cbng",
+				"normal",
+				{
+					"2",
+					false,
+					{
+						"3",
+						"50"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[80301] = {
+		can_rotate = 0,
+		name = "Bar Rack",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "12bngicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 80,
+		spine_action_replace = "",
+		picture = "bng/12bng",
+		canputon = 0,
+		count = 3,
+		describe = "Just don't leave your used glasses here, or the bartender will be furious.",
+		advice = 0,
+		deblocking = 1,
+		id = 80301,
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80304] = {
+		can_rotate = 0,
+		name = "Wall-Mounted Clock",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "13bngicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 80,
+		spine_action_replace = "",
+		picture = "bng/13bng",
+		canputon = 0,
+		count = 1,
+		describe = "Psst. The night is perpetually young when your clock is broken.",
+		advice = 0,
+		deblocking = 1,
+		id = 80304,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80305] = {
+		can_rotate = 1,
+		name = "Neon Bar Sign",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 4,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "14bngicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 80,
+		spine_action_replace = "",
+		picture = "bng/14bng",
+		canputon = 0,
+		count = 1,
+		describe = "\"We'll build our own bar, with arcade machines and bunny girls!\"",
+		advice = 0,
+		deblocking = 1,
+		id = 80305,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80306] = {
+		can_rotate = 1,
+		name = "Bottle Cap Decorations",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 3,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "15bngicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 80,
+		spine_action_replace = "",
+		picture = "bng/15bng",
+		canputon = 0,
+		count = 1,
+		describe = "Memorabilia, not post-apocalyptic currency. Subtle difference, I know.",
+		advice = 0,
+		deblocking = 1,
+		id = 80306,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -77023,6 +78143,10 @@ pg.furniture_data_template = {
 		191,
 		192,
 		194,
+		197,
+		198,
+		199,
+		200,
 		100002,
 		100003,
 		100004,
@@ -77033,6 +78157,7 @@ pg.furniture_data_template = {
 		100009,
 		100010,
 		100014,
+		100016,
 		100019,
 		1001,
 		1002,
@@ -78682,6 +79807,25 @@ pg.furniture_data_template = {
 		78113,
 		78114,
 		78115,
-		78116
+		78116,
+		80001,
+		80002,
+		80101,
+		80102,
+		80103,
+		80105,
+		80106,
+		80108,
+		80109,
+		80110,
+		80111,
+		80112,
+		80113,
+		80114,
+		80115,
+		80301,
+		80304,
+		80305,
+		80306
 	}
 }

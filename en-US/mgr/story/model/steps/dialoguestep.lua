@@ -18,6 +18,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.actorName = slot1.actorName
 	slot0.withoutActorName = slot1.withoutActorName
 	slot0.say = slot1.say
+	slot0.fontSize = slot1.fontsize
 	slot0.side = slot1.side
 	slot0.dir = slot1.dir
 
@@ -214,6 +215,10 @@ function slot0.GetSubPaintings(slot0)
 			dir = slot0.dir or 1
 		}
 	end)
+end
+
+function slot0.GetFontSize(slot0)
+	return slot0.fontSize
 end
 
 function slot0.OnClear(slot0)

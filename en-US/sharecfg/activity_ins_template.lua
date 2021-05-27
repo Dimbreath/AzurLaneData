@@ -5860,6 +5860,110 @@ pg.activity_ins_template = {
 			1881
 		}
 	},
+	{
+		ship_group = 10714,
+		name = "Ticonderoga",
+		sculpture = "tikangdeluojia",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 215,
+		group_id = 215,
+		order = 15,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10517,
+		name = "BlackDragon",
+		sculpture = "xinzexi",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 216,
+		group_id = 216,
+		order = 15,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10806,
+		name = "CharmArcher",
+		sculpture = "sheshuiyu",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 217,
+		group_id = 217,
+		order = 15,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 30801,
+		name = "I19_sensuisenntai",
+		sculpture = "i19",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 218,
+		group_id = 218,
+		order = 15,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10314,
+		name = "HappyEveryDay!",
+		sculpture = "jiujinshan",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 219,
+		group_id = 219,
+		order = 15,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10229,
+		name = "USSBOISE",
+		sculpture = "boyixi",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 220,
+		group_id = 220,
+		order = 15,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10147,
+		name = "Bear-MKII",
+		sculpture = "molisen",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 221,
+		group_id = 221,
+		order = 15,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 50204,
+		name = "Yingrui",
+		sculpture = "yingrui_2",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 222,
+		group_id = 222,
+		order = 15,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -6074,6 +6178,14 @@ pg.activity_ins_template = {
 		211,
 		212,
 		213,
-		214
+		214,
+		215,
+		216,
+		217,
+		218,
+		219,
+		220,
+		221,
+		222
 	}
 }

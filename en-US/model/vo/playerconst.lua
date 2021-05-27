@@ -84,11 +84,7 @@ function slot0.addTranDrop(slot0)
 					})
 				end
 			elseif slot0.type == DROP_TYPE_ICON_FRAME then
-				slot1 = slot0.number or slot0.count
-
-				warning(slot1)
-
-				if slot1 == 0 then
+				if (slot0.number or slot0.count) == 0 then
 					return Item.New({
 						count = 1,
 						type = slot0.type,

@@ -1294,6 +1294,226 @@ pg.skill_benefit_template = {
 		},
 		world_extra_effect = {}
 	},
+	[1452001] = {
+		lv = 1,
+		type = 5,
+		id = 1452001,
+		skill_id = 14520,
+		limit = {},
+		effect = {
+			14640
+		},
+		world_extra_effect = {}
+	},
+	[1452002] = {
+		lv = 2,
+		type = 5,
+		id = 1452002,
+		skill_id = 14520,
+		limit = {},
+		effect = {
+			14640
+		},
+		world_extra_effect = {}
+	},
+	[1452003] = {
+		lv = 3,
+		type = 5,
+		id = 1452003,
+		skill_id = 14520,
+		limit = {},
+		effect = {
+			14640
+		},
+		world_extra_effect = {}
+	},
+	[1452004] = {
+		lv = 4,
+		type = 5,
+		id = 1452004,
+		skill_id = 14520,
+		limit = {},
+		effect = {
+			14640
+		},
+		world_extra_effect = {}
+	},
+	[1452005] = {
+		lv = 5,
+		type = 5,
+		id = 1452005,
+		skill_id = 14520,
+		limit = {},
+		effect = {
+			14640
+		},
+		world_extra_effect = {}
+	},
+	[1452006] = {
+		lv = 6,
+		type = 5,
+		id = 1452006,
+		skill_id = 14520,
+		limit = {},
+		effect = {
+			14640
+		},
+		world_extra_effect = {}
+	},
+	[1452007] = {
+		lv = 7,
+		type = 5,
+		id = 1452007,
+		skill_id = 14520,
+		limit = {},
+		effect = {
+			14640
+		},
+		world_extra_effect = {}
+	},
+	[1452008] = {
+		lv = 8,
+		type = 5,
+		id = 1452008,
+		skill_id = 14520,
+		limit = {},
+		effect = {
+			14640
+		},
+		world_extra_effect = {}
+	},
+	[1452009] = {
+		lv = 9,
+		type = 5,
+		id = 1452009,
+		skill_id = 14520,
+		limit = {},
+		effect = {
+			14640
+		},
+		world_extra_effect = {}
+	},
+	[1452010] = {
+		lv = 10,
+		type = 5,
+		id = 1452010,
+		skill_id = 14520,
+		limit = {},
+		effect = {
+			14640
+		},
+		world_extra_effect = {}
+	},
+	[1463001] = {
+		lv = 1,
+		type = 4,
+		id = 1463001,
+		skill_id = 14630,
+		limit = {},
+		effect = {
+			4171
+		},
+		world_extra_effect = {}
+	},
+	[1463002] = {
+		lv = 2,
+		type = 4,
+		id = 1463002,
+		skill_id = 14630,
+		limit = {},
+		effect = {
+			4171
+		},
+		world_extra_effect = {}
+	},
+	[1463003] = {
+		lv = 3,
+		type = 4,
+		id = 1463003,
+		skill_id = 14630,
+		limit = {},
+		effect = {
+			4171
+		},
+		world_extra_effect = {}
+	},
+	[1463004] = {
+		lv = 4,
+		type = 4,
+		id = 1463004,
+		skill_id = 14630,
+		limit = {},
+		effect = {
+			4171
+		},
+		world_extra_effect = {}
+	},
+	[1463005] = {
+		lv = 5,
+		type = 4,
+		id = 1463005,
+		skill_id = 14630,
+		limit = {},
+		effect = {
+			4171
+		},
+		world_extra_effect = {}
+	},
+	[1463006] = {
+		lv = 6,
+		type = 4,
+		id = 1463006,
+		skill_id = 14630,
+		limit = {},
+		effect = {
+			4171
+		},
+		world_extra_effect = {}
+	},
+	[1463007] = {
+		lv = 7,
+		type = 4,
+		id = 1463007,
+		skill_id = 14630,
+		limit = {},
+		effect = {
+			4171
+		},
+		world_extra_effect = {}
+	},
+	[1463008] = {
+		lv = 8,
+		type = 4,
+		id = 1463008,
+		skill_id = 14630,
+		limit = {},
+		effect = {
+			4171
+		},
+		world_extra_effect = {}
+	},
+	[1463009] = {
+		lv = 9,
+		type = 4,
+		id = 1463009,
+		skill_id = 14630,
+		limit = {},
+		effect = {
+			4171
+		},
+		world_extra_effect = {}
+	},
+	[1463010] = {
+		lv = 10,
+		type = 4,
+		id = 1463010,
+		skill_id = 14630,
+		limit = {},
+		effect = {
+			4171
+		},
+		world_extra_effect = {}
+	},
 	all = {
 		363101,
 		363102,
@@ -1395,6 +1615,26 @@ pg.skill_benefit_template = {
 		1397007,
 		1397008,
 		1397009,
-		1397010
+		1397010,
+		1452001,
+		1452002,
+		1452003,
+		1452004,
+		1452005,
+		1452006,
+		1452007,
+		1452008,
+		1452009,
+		1452010,
+		1463001,
+		1463002,
+		1463003,
+		1463004,
+		1463005,
+		1463006,
+		1463007,
+		1463008,
+		1463009,
+		1463010
 	}
 }

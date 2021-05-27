@@ -21,9 +21,26 @@ function slot1(slot0, slot1, slot2, slot3)
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
+			slot4 = uv1[slot1 + 1]
+
+			if PLATFORM_CODE == PLATFORM_JP then
+				if GetPerceptualSize(uv2.resTitle) > 15 then
+					GetComponent(slot2:Find("target/Text"), typeof(Text)).fontSize = 26
+					GetComponent(slot2:Find("target/title"), typeof(Text)).fontSize = 26
+				elseif slot5 > 12 then
+					GetComponent(slot2:Find("target/Text"), typeof(Text)).fontSize = 28
+					GetComponent(slot2:Find("target/title"), typeof(Text)).fontSize = 28
+				elseif slot5 > 10 then
+					GetComponent(slot2:Find("target/Text"), typeof(Text)).fontSize = 30
+					GetComponent(slot2:Find("target/title"), typeof(Text)).fontSize = 30
+				else
+					GetComponent(slot2:Find("target/Text"), typeof(Text)).fontSize = 32
+					GetComponent(slot2:Find("target/title"), typeof(Text)).fontSize = 32
+				end
+			end
 
 			setText(slot2:Find("title/Text"), "PHASE " .. slot1 + 1)
-			setText(slot2:Find("target/Text"), uv1[slot1 + 1])
+			setText(slot2:Find("target/Text"), slot4)
 			setText(slot2:Find("target/title"), HXSet.hxLan(uv2.resTitle))
 			updateDrop(slot2:Find("award"), {
 				type = slot3[1],

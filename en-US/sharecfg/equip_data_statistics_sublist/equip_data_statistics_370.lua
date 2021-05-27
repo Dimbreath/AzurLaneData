@@ -1,44 +1,71 @@
 pg = pg or {}
 pg.equip_data_statistics_370 = {
-	[89090] = {
-		id = 89090,
-		value_1 = "550",
-		base = 89080
+	[89066] = {
+		id = 89066,
+		value_2 = 21,
+		value_1 = "11",
+		base = 89060
 	},
-	[89091] = {
-		id = 89091,
+	[89067] = {
+		id = 89067,
+		value_2 = 22,
+		value_1 = "12",
+		base = 89060
+	},
+	[89068] = {
+		id = 89068,
+		value_2 = 23,
+		value_1 = "13",
+		base = 89060
+	},
+	[89069] = {
+		id = 89069,
+		value_2 = 24,
+		value_1 = "14",
+		base = 89060
+	},
+	[89070] = {
+		id = 89070,
+		value_2 = 25,
+		value_1 = "15",
+		base = 89060
+	},
+	[89071] = {
+		id = 89071,
 		anti_siren = 100,
-		value_1 = "580",
-		base = 89080
+		base = 89060,
+		value_2 = 26,
+		value_1 = "16"
 	},
-	[89092] = {
-		id = 89092,
+	[89072] = {
+		id = 89072,
 		anti_siren = 200,
-		value_1 = "610",
-		base = 89080
+		base = 89060,
+		value_2 = 27,
+		value_1 = "17"
 	},
-	[89093] = {
-		id = 89093,
+	[89073] = {
+		id = 89073,
 		anti_siren = 300,
-		value_1 = "640",
-		base = 89080
+		base = 89060,
+		value_2 = 28,
+		value_1 = "18"
 	},
-	[89100] = {
-		name = "Corn Lantern",
+	[89080] = {
+		name = "Gamers Mark",
 		tech = 0,
 		type = 10,
 		speciality = "N/A",
-		id = 89100,
-		value_2 = 50,
-		icon = "89100",
-		value_1 = "9",
-		attribute_2 = "durability",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "89080",
+		value_1 = "245",
+		descrip = "A badge that proves its wearer is one of the Hololive Gamers.",
 		rarity = 5,
-		descrip = "A lantern that looks like a corn cob. Proves that you're friends with a certain foxy VTuber.",
 		nationality = 105,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "antisub",
+		id = 89080,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -48,7 +75,7 @@ pg.equip_data_statistics_370 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6510
+			6500
 		},
 		part_main = {},
 		part_sub = {},
@@ -57,78 +84,44 @@ pg.equip_data_statistics_370 = {
 			"DEV"
 		}
 	},
-	[89101] = {
-		id = 89101,
-		value_2 = 55,
-		value_1 = "10",
-		base = 89100
+	[89081] = {
+		id = 89081,
+		value_1 = "280",
+		base = 89080
 	},
-	[89102] = {
-		id = 89102,
-		value_2 = 60,
-		value_1 = "11",
-		base = 89100
+	[89082] = {
+		id = 89082,
+		value_1 = "310",
+		base = 89080
 	},
-	[89103] = {
-		id = 89103,
-		value_2 = 65,
-		value_1 = "12",
-		base = 89100
+	[89083] = {
+		id = 89083,
+		value_1 = "340",
+		base = 89080
 	},
-	[89104] = {
-		id = 89104,
-		value_2 = 70,
-		value_1 = "13",
-		base = 89100
+	[89084] = {
+		id = 89084,
+		value_1 = "370",
+		base = 89080
 	},
-	[89105] = {
-		id = 89105,
-		value_2 = 75,
-		value_1 = "14",
-		base = 89100
+	[89085] = {
+		id = 89085,
+		value_1 = "400",
+		base = 89080
 	},
-	[89106] = {
-		id = 89106,
-		value_2 = 80,
-		value_1 = "16",
-		base = 89100
+	[89086] = {
+		id = 89086,
+		value_1 = "430",
+		base = 89080
 	},
-	[89107] = {
-		id = 89107,
-		value_2 = 90,
-		value_1 = "18",
-		base = 89100
+	[89087] = {
+		id = 89087,
+		value_1 = "460",
+		base = 89080
 	},
-	[89108] = {
-		id = 89108,
-		value_2 = 100,
-		value_1 = "20",
-		base = 89100
-	},
-	[89109] = {
-		id = 89109,
-		value_2 = 110,
-		value_1 = "22",
-		base = 89100
-	},
-	[89110] = {
-		id = 89110,
-		value_2 = 120,
-		value_1 = "24",
-		base = 89100
-	},
-	[89111] = {
-		id = 89111,
-		anti_siren = 100,
-		base = 89100,
-		value_2 = 130,
-		value_1 = "26"
-	},
-	[89112] = {
-		id = 89112,
-		anti_siren = 200,
-		base = 89100,
-		value_2 = 140,
-		value_1 = "28"
+	[89088] = {
+		id = 89088,
+		value_1 = "490",
+		base = 89080
 	}
 }

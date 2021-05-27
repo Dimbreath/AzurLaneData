@@ -1,5 +1,160 @@
 pg = pg or {}
 pg.equip_data_statistics_260 = {
+	[36701] = {
+		id = 36701,
+		damage = "51/wave",
+		base = 36700,
+		weapon_id = {
+			36701
+		}
+	},
+	[36702] = {
+		id = 36702,
+		damage = "55/wave",
+		base = 36700,
+		weapon_id = {
+			36702
+		}
+	},
+	[36703] = {
+		id = 36703,
+		damage = "59/wave",
+		base = 36700,
+		weapon_id = {
+			36703
+		}
+	},
+	[36704] = {
+		id = 36704,
+		damage = "63/wave",
+		base = 36700,
+		weapon_id = {
+			36704
+		}
+	},
+	[36705] = {
+		id = 36705,
+		damage = "67/wave",
+		base = 36700,
+		weapon_id = {
+			36705
+		}
+	},
+	[36706] = {
+		id = 36706,
+		damage = "71/wave",
+		base = 36700,
+		weapon_id = {
+			36706
+		}
+	},
+	[36707] = {
+		id = 36707,
+		damage = "75/wave",
+		base = 36700,
+		weapon_id = {
+			36707
+		}
+	},
+	[36708] = {
+		id = 36708,
+		damage = "79/wave",
+		base = 36700,
+		weapon_id = {
+			36708
+		}
+	},
+	[36709] = {
+		id = 36709,
+		damage = "83/wave",
+		base = 36700,
+		weapon_id = {
+			36709
+		}
+	},
+	[36710] = {
+		id = 36710,
+		damage = "87/wave",
+		base = 36700,
+		weapon_id = {
+			36710
+		}
+	},
+	[36711] = {
+		anti_siren = 100,
+		damage = "87/wave",
+		base = 36700,
+		id = 36711,
+		weapon_id = {
+			36711
+		}
+	},
+	[36712] = {
+		anti_siren = 200,
+		damage = "87/wave",
+		base = 36700,
+		id = 36712,
+		weapon_id = {
+			36712
+		}
+	},
+	[36713] = {
+		anti_siren = 300,
+		damage = "87/wave",
+		base = 36700,
+		id = 36713,
+		weapon_id = {
+			36713
+		}
+	},
+	[37000] = {
+		name = "A5M Claude",
+		tech = 1,
+		speciality = "Air",
+		type = 7,
+		rarity = 1,
+		descrip = "No description",
+		value_2 = 0,
+		icon = "37000",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 37000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50000
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			37000,
+			83000
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
+	},
 	[37001] = {
 		id = 37001,
 		base = 37000,
@@ -40,323 +195,6 @@ pg.equip_data_statistics_260 = {
 		weapon_id = {
 			37003,
 			83003
-		}
-	},
-	[37020] = {
-		name = "A5M Claude",
-		type = 7,
-		speciality = "Air",
-		rarity = 2,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "37000",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 37020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50020
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			37020,
-			83020
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"FT"
-		}
-	},
-	[37021] = {
-		id = 37021,
-		base = 37020,
-		ammo_info = {
-			{
-				6,
-				50021
-			}
-		},
-		weapon_id = {
-			37021,
-			83021
-		}
-	},
-	[37022] = {
-		id = 37022,
-		base = 37020,
-		ammo_info = {
-			{
-				6,
-				50022
-			}
-		},
-		weapon_id = {
-			37022,
-			83022
-		}
-	},
-	[37023] = {
-		id = 37023,
-		base = 37020,
-		ammo_info = {
-			{
-				6,
-				50023
-			}
-		},
-		weapon_id = {
-			37023,
-			83023
-		}
-	},
-	[37040] = {
-		name = "A5M Claude",
-		type = 7,
-		speciality = "Air",
-		rarity = 3,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "37000",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 37040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50040
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			37040,
-			83040
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"FT"
-		}
-	},
-	[37041] = {
-		id = 37041,
-		base = 37040,
-		ammo_info = {
-			{
-				6,
-				50041
-			}
-		},
-		weapon_id = {
-			37041,
-			83041
-		}
-	},
-	[37042] = {
-		id = 37042,
-		base = 37040,
-		ammo_info = {
-			{
-				6,
-				50042
-			}
-		},
-		weapon_id = {
-			37042,
-			83042
-		}
-	},
-	[37043] = {
-		id = 37043,
-		base = 37040,
-		ammo_info = {
-			{
-				6,
-				50043
-			}
-		},
-		weapon_id = {
-			37043,
-			83043
-		}
-	},
-	[37044] = {
-		id = 37044,
-		base = 37040,
-		ammo_info = {
-			{
-				6,
-				50044
-			}
-		},
-		weapon_id = {
-			37044,
-			83044
-		}
-	},
-	[37045] = {
-		id = 37045,
-		base = 37040,
-		ammo_info = {
-			{
-				6,
-				50045
-			}
-		},
-		weapon_id = {
-			37045,
-			83045
-		}
-	},
-	[37046] = {
-		id = 37046,
-		base = 37040,
-		ammo_info = {
-			{
-				6,
-				50046
-			}
-		},
-		weapon_id = {
-			37046,
-			83046
-		}
-	},
-	[37047] = {
-		id = 37047,
-		base = 37040,
-		ammo_info = {
-			{
-				6,
-				50047
-			}
-		},
-		weapon_id = {
-			37047,
-			83047
-		}
-	},
-	[37100] = {
-		name = "Type 0 Fighter Model 21",
-		type = 7,
-		speciality = "Air",
-		rarity = 2,
-		tech = 1,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "37100",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 37100,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50000
-			},
-			{
-				6,
-				50500
-			},
-			{
-				5,
-				52100
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			37100,
-			83100
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"FT"
-		}
-	},
-	[37101] = {
-		id = 37101,
-		base = 37100,
-		ammo_info = {
-			{
-				6,
-				50001
-			},
-			{
-				6,
-				50501
-			},
-			{
-				5,
-				52101
-			}
-		},
-		weapon_id = {
-			37101,
-			83101
 		}
 	}
 }

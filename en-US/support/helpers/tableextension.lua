@@ -156,13 +156,13 @@ function table.eachParallel(slot0, slot1, slot2)
 		return
 	end
 
-	slot3, slot4 = nil
-	slot3, slot0, slot4 = ipairs(slot0)
-	slot5 = 0
+	slot3, slot4, slot5 = nil
+	slot3, slot5, slot4 = ipairs(slot0)
 	slot6 = 0
-	slot7 = false
+	slot7 = 0
+	slot8 = false
 
-	function slot8()
+	function slot9()
 		if uv0 then
 			return
 		end
@@ -180,16 +180,22 @@ function table.eachParallel(slot0, slot1, slot2)
 		end
 	end
 
-	slot9 = nil
-
 	while true do
-		if slot0[slot3(slot0, slot4)] == nil then
+		if slot5[slot3(slot5, slot4)] == nil then
 			break
 		end
 
-		slot6 = slot6 + 1
+		slot7 = slot7 + 1
+	end
 
-		slot1(slot4, slot9, slot8)
+	slot3, slot5, slot4 = ipairs(slot0)
+
+	while true do
+		if slot5[slot3(slot5, slot4)] == nil then
+			break
+		end
+
+		slot1(slot4, slot10, slot9)
 	end
 end
 

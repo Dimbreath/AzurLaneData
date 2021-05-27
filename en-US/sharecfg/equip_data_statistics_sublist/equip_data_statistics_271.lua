@@ -1,5 +1,313 @@
 pg = pg or {}
 pg.equip_data_statistics_271 = {
+	[38065] = {
+		id = 38065,
+		base = 38060,
+		ammo_info = {
+			{
+				6,
+				50045
+			},
+			{
+				4,
+				51345
+			}
+		},
+		weapon_id = {
+			38065
+		}
+	},
+	[38066] = {
+		id = 38066,
+		base = 38060,
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				4,
+				51346
+			}
+		},
+		weapon_id = {
+			38066
+		}
+	},
+	[38067] = {
+		id = 38067,
+		base = 38060,
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				4,
+				51347
+			}
+		},
+		weapon_id = {
+			38067
+		}
+	},
+	[38100] = {
+		name = "Tenzan",
+		type = 8,
+		speciality = "Torpedo",
+		rarity = 2,
+		tech = 1,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "38100",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 38100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50000
+			},
+			{
+				4,
+				51400
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			38100
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
+	},
+	[38101] = {
+		id = 38101,
+		base = 38100,
+		ammo_info = {
+			{
+				6,
+				50001
+			},
+			{
+				4,
+				51401
+			}
+		},
+		weapon_id = {
+			38101
+		}
+	},
+	[38102] = {
+		id = 38102,
+		base = 38100,
+		ammo_info = {
+			{
+				6,
+				50002
+			},
+			{
+				4,
+				51402
+			}
+		},
+		weapon_id = {
+			38102
+		}
+	},
+	[38103] = {
+		id = 38103,
+		base = 38100,
+		ammo_info = {
+			{
+				6,
+				50003
+			},
+			{
+				4,
+				51403
+			}
+		},
+		weapon_id = {
+			38103
+		}
+	},
+	[38120] = {
+		name = "Tenzan",
+		type = 8,
+		speciality = "Torpedo",
+		rarity = 3,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "38100",
+		attribute_2 = "air",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 38120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50020
+			},
+			{
+				4,
+				51420
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			38120
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
+	},
+	[38121] = {
+		id = 38121,
+		base = 38120,
+		ammo_info = {
+			{
+				6,
+				50021
+			},
+			{
+				4,
+				51421
+			}
+		},
+		weapon_id = {
+			38121
+		}
+	},
+	[38122] = {
+		id = 38122,
+		base = 38120,
+		ammo_info = {
+			{
+				6,
+				50022
+			},
+			{
+				4,
+				51422
+			}
+		},
+		weapon_id = {
+			38122
+		}
+	},
+	[38123] = {
+		id = 38123,
+		base = 38120,
+		ammo_info = {
+			{
+				6,
+				50023
+			},
+			{
+				4,
+				51423
+			}
+		},
+		weapon_id = {
+			38123
+		}
+	},
+	[38124] = {
+		id = 38124,
+		base = 38120,
+		ammo_info = {
+			{
+				6,
+				50024
+			},
+			{
+				4,
+				51424
+			}
+		},
+		weapon_id = {
+			38124
+		}
+	},
+	[38125] = {
+		id = 38125,
+		base = 38120,
+		ammo_info = {
+			{
+				6,
+				50025
+			},
+			{
+				4,
+				51425
+			}
+		},
+		weapon_id = {
+			38125
+		}
+	},
+	[38126] = {
+		id = 38126,
+		base = 38120,
+		ammo_info = {
+			{
+				6,
+				50026
+			},
+			{
+				4,
+				51426
+			}
+		},
+		weapon_id = {
+			38126
+		}
+	},
 	[38140] = {
 		name = "Tenzan",
 		type = 8,
@@ -84,300 +392,6 @@ pg.equip_data_statistics_271 = {
 		},
 		weapon_id = {
 			38142
-		}
-	},
-	[38143] = {
-		id = 38143,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50043
-			},
-			{
-				4,
-				51443
-			}
-		},
-		weapon_id = {
-			38143
-		}
-	},
-	[38144] = {
-		id = 38144,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50044
-			},
-			{
-				4,
-				51444
-			}
-		},
-		weapon_id = {
-			38144
-		}
-	},
-	[38145] = {
-		id = 38145,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50045
-			},
-			{
-				4,
-				51445
-			}
-		},
-		weapon_id = {
-			38145
-		}
-	},
-	[38146] = {
-		id = 38146,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50046
-			},
-			{
-				4,
-				51446
-			}
-		},
-		weapon_id = {
-			38146
-		}
-	},
-	[38147] = {
-		id = 38147,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50047
-			},
-			{
-				4,
-				51447
-			}
-		},
-		weapon_id = {
-			38147
-		}
-	},
-	[38148] = {
-		id = 38148,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50048
-			},
-			{
-				4,
-				51448
-			}
-		},
-		weapon_id = {
-			38148
-		}
-	},
-	[38149] = {
-		id = 38149,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50049
-			},
-			{
-				4,
-				51449
-			}
-		},
-		weapon_id = {
-			38149
-		}
-	},
-	[38150] = {
-		id = 38150,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50050
-			},
-			{
-				4,
-				51450
-			}
-		},
-		weapon_id = {
-			38150
-		}
-	},
-	[38151] = {
-		anti_siren = 100,
-		base = 38140,
-		id = 38151,
-		ammo_info = {
-			{
-				6,
-				50051
-			},
-			{
-				4,
-				51451
-			}
-		},
-		weapon_id = {
-			38151
-		}
-	},
-	[38160] = {
-		name = "Tenzan Kai",
-		type = 8,
-		speciality = "Torpedo",
-		rarity = 4,
-		tech = 0,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "38160",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 38160,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50840
-			},
-			{
-				6,
-				59720
-			},
-			{
-				4,
-				51460
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			38160
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"TB"
-		}
-	},
-	[38161] = {
-		id = 38161,
-		base = 38160,
-		ammo_info = {
-			{
-				6,
-				50841
-			},
-			{
-				6,
-				59721
-			},
-			{
-				4,
-				51461
-			}
-		},
-		weapon_id = {
-			38161
-		}
-	},
-	[38162] = {
-		id = 38162,
-		base = 38160,
-		ammo_info = {
-			{
-				6,
-				50842
-			},
-			{
-				6,
-				59722
-			},
-			{
-				4,
-				51462
-			}
-		},
-		weapon_id = {
-			38162
-		}
-	},
-	[38163] = {
-		id = 38163,
-		base = 38160,
-		ammo_info = {
-			{
-				6,
-				50843
-			},
-			{
-				6,
-				59723
-			},
-			{
-				4,
-				51463
-			}
-		},
-		weapon_id = {
-			38163
-		}
-	},
-	[38164] = {
-		id = 38164,
-		base = 38160,
-		ammo_info = {
-			{
-				6,
-				50844
-			},
-			{
-				6,
-				59724
-			},
-			{
-				4,
-				51464
-			}
-		},
-		weapon_id = {
-			38164
 		}
 	}
 }

@@ -8744,6 +8744,489 @@ pg.equip_skin_template = {
 			24000
 		}
 	},
+	[400] = {
+		icon = "92911",
+		bullet_name = "zidan_tiantianquan",
+		name = "Donut Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "A high-impact explosive hidden under a high-calorie exterior.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 26,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 400,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[401] = {
+		icon = "92912",
+		bullet_name = "zidan_mianhuatang",
+		name = "Cotton Candy Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "It's pretty tough, despite the fluff.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 26,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 401,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[402] = {
+		icon = "92913",
+		bullet_name = "zidan_naicha",
+		name = "Bubble Tea Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Keep your distance. The boba acts as shrapnel.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 26,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 402,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[403] = {
+		icon = "92914",
+		bullet_name = "paodan_xuanzhuanchabei",
+		name = "Teacup Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "What sort of mad tea party are these for?",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 26,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 403,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[404] = {
+		icon = "92915",
+		bullet_name = "paodan_xiaoxiongweibing",
+		name = "Koala Soldier Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Don't worry. This one's days of cracking nuts are over.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 26,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 404,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[405] = {
+		icon = "92916",
+		bullet_name = "paodan_qiqiu",
+		name = "Balloon Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "As tempting as it may be, do NOT try to pop this one.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 26,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 405,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[406] = {
+		icon = "92921",
+		bullet_name = "yulei_zhangyu",
+		name = "Octopus Torpedo",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "You're not getting off the hook with just an inking this time.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 26,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 406,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[407] = {
+		icon = "92922",
+		bullet_name = "yulei_jiliuyongjin",
+		name = "Water Coaster Torpedo",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Water Coaster 2 has crashed!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 26,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 407,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[408] = {
+		icon = "92923",
+		bullet_name = "yulei_yanhua",
+		name = "Firework Torpedo",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Goes off before it's even hit the target!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 26,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 408,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[409] = {
+		icon = "92931",
+		bullet_name = "feiji_feitiandujiaoshou",
+		name = "Yuni-Go-Round (Torpedo)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Strap in, it's going to be a wild ride.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 26,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 409,
+		derivate_torpedo = "yulei_zhangyu",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[410] = {
+		icon = "92931",
+		bullet_name = "feiji_feitiandujiaoshou",
+		name = "Yuni-Go-Round (Fighter)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Strap in, it's going to be a wild ride.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_tiantianquan",
+		themeid = 26,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 410,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[411] = {
+		icon = "92931",
+		bullet_name = "feiji_feitiandujiaoshou",
+		name = "Yuni-Go-Round (Bomber)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Strap in, it's going to be a wild ride.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_tiantianquan",
+		themeid = 26,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 411,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[412] = {
+		icon = "92932",
+		bullet_name = "feiji_feitianmache",
+		name = "Luxurious Carriage (Torpedo)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "You expected a princess? Too bad, it was a Manjuu.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 26,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 412,
+		derivate_torpedo = "yulei_jiliuyongjin",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[413] = {
+		icon = "92932",
+		bullet_name = "feiji_feitianmache",
+		name = "Luxurious Carriage (Fighter)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "You expected a princess? Too bad, it was a Manjuu.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_mianhuatang",
+		themeid = 26,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 413,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[414] = {
+		icon = "92932",
+		bullet_name = "feiji_feitianmache",
+		name = "Luxurious Carriage (Bomber)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "You expected a princess? Too bad, it was a Manjuu.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_mianhuatang",
+		themeid = 26,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 414,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[415] = {
+		icon = "92933",
+		bullet_name = "feiji_feitianhaidaochuan",
+		name = "Pirate Ship (Torpedo)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "It's no Flying Dutchman, but it's close.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 26,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 415,
+		derivate_torpedo = "yulei_yanhua",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[416] = {
+		icon = "92933",
+		bullet_name = "feiji_feitianhaidaochuan",
+		name = "Pirate Ship (Fighter)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "It's no Flying Dutchman, but it's close.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_naicha",
+		themeid = 26,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 416,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[417] = {
+		icon = "92933",
+		bullet_name = "feiji_feitianhaidaochuan",
+		name = "Pirate Ship (Bomber)",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "It's no Flying Dutchman, but it's close.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_naicha",
+		themeid = 26,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 417,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		icon = "90640",
 		bullet_name = "Nep_bullet_shizi",
@@ -9988,6 +10471,24 @@ pg.equip_skin_template = {
 		396,
 		397,
 		398,
+		400,
+		401,
+		402,
+		403,
+		404,
+		405,
+		406,
+		407,
+		408,
+		409,
+		410,
+		411,
+		412,
+		413,
+		414,
+		415,
+		416,
+		417,
 		1001,
 		1002,
 		1003,

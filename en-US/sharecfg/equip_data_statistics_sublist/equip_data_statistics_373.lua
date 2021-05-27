@@ -1,74 +1,98 @@
 pg = pg or {}
 pg.equip_data_statistics_373 = {
-	[89165] = {
-		id = 89165,
+	[89141] = {
+		id = 89141,
+		value_2 = 16,
+		value_1 = "16",
+		base = 89140
+	},
+	[89142] = {
+		id = 89142,
+		value_2 = 17,
+		value_1 = "18",
+		base = 89140
+	},
+	[89143] = {
+		id = 89143,
+		value_2 = 18,
+		value_1 = "20",
+		base = 89140
+	},
+	[89144] = {
+		id = 89144,
+		value_2 = 19,
+		value_1 = "22",
+		base = 89140
+	},
+	[89145] = {
+		id = 89145,
 		value_2 = 20,
 		value_1 = "24",
-		base = 89160
+		base = 89140
 	},
-	[89166] = {
-		id = 89166,
+	[89146] = {
+		id = 89146,
 		value_2 = 22,
 		value_1 = "26",
-		base = 89160
+		base = 89140
 	},
-	[89167] = {
-		id = 89167,
+	[89147] = {
+		id = 89147,
 		value_2 = 24,
 		value_1 = "28",
-		base = 89160
+		base = 89140
 	},
-	[89168] = {
-		id = 89168,
+	[89148] = {
+		id = 89148,
 		value_2 = 26,
 		value_1 = "30",
-		base = 89160
+		base = 89140
 	},
-	[89169] = {
-		id = 89169,
+	[89149] = {
+		id = 89149,
 		value_2 = 28,
 		value_1 = "32",
-		base = 89160
+		base = 89140
 	},
-	[89170] = {
-		id = 89170,
+	[89150] = {
+		id = 89150,
 		value_2 = 30,
 		value_1 = "35",
-		base = 89160
+		base = 89140
 	},
-	[89171] = {
-		id = 89171,
+	[89151] = {
+		id = 89151,
 		anti_siren = 100,
-		base = 89160,
+		base = 89140,
 		value_2 = 32,
 		value_1 = "38"
 	},
-	[89172] = {
-		id = 89172,
+	[89152] = {
+		id = 89152,
 		anti_siren = 200,
-		base = 89160,
+		base = 89140,
 		value_2 = 34,
 		value_1 = "41"
 	},
-	[89173] = {
-		id = 89173,
+	[89153] = {
+		id = 89153,
 		anti_siren = 300,
-		base = 89160,
+		base = 89140,
 		value_2 = 36,
 		value_1 = "44"
 	},
-	[89180] = {
-		name = "Resplendent Astrum",
+	[89160] = {
+		name = "Sacred Lumière",
 		tech = 0,
 		type = 10,
 		speciality = "N/A",
-		id = 89180,
+		id = 89160,
 		value_2 = 15,
-		icon = "89180",
+		icon = "89160",
 		value_1 = "14",
 		attribute_2 = "hit",
 		rarity = 5,
-		descrip = "\"May our songs spread the light of love and peace.\" ",
+		descrip = "\"Purify your sinful hearts in the Iris's holy sounds.\" ",
 		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
@@ -82,7 +106,7 @@ pg.equip_data_statistics_373 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6712
+			6711
 		},
 		part_main = {},
 		part_sub = {},
@@ -91,46 +115,22 @@ pg.equip_data_statistics_373 = {
 			"DEV"
 		}
 	},
-	[89181] = {
-		id = 89181,
+	[89161] = {
+		id = 89161,
 		value_2 = 16,
 		value_1 = "16",
-		base = 89180
+		base = 89160
 	},
-	[89182] = {
-		id = 89182,
+	[89162] = {
+		id = 89162,
 		value_2 = 17,
 		value_1 = "18",
-		base = 89180
+		base = 89160
 	},
-	[89183] = {
-		id = 89183,
+	[89163] = {
+		id = 89163,
 		value_2 = 18,
 		value_1 = "20",
-		base = 89180
-	},
-	[89184] = {
-		id = 89184,
-		value_2 = 19,
-		value_1 = "22",
-		base = 89180
-	},
-	[89185] = {
-		id = 89185,
-		value_2 = 20,
-		value_1 = "24",
-		base = 89180
-	},
-	[89186] = {
-		id = 89186,
-		value_2 = 22,
-		value_1 = "26",
-		base = 89180
-	},
-	[89187] = {
-		id = 89187,
-		value_2 = 24,
-		value_1 = "28",
-		base = 89180
+		base = 89160
 	}
 }

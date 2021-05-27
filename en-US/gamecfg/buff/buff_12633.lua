@@ -149,7 +149,7 @@ return {
 			}
 		}
 	},
-	time = 8,
+	time = 10,
 	name = "扎拉弹药特性技能",
 	init_effect = "",
 	picture = "",

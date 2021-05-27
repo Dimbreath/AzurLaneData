@@ -208,6 +208,7 @@ function slot0.init(slot0)
 
 	slot0._btmbg = slot0:findTF("toTop/btm")
 	slot0._paintingTF = slot0:findTF("paint")
+	slot0._paintingBgTf = slot0:findTF("paintBg")
 	slot0._paintingContainer = slot0:findTF("paint/fitter")
 	slot0._chatTextBg = slot0:findTF("chat/chatbgtop")
 	slot0._chatText = slot0:findTF("chat/Text")
@@ -244,6 +245,13 @@ function slot0.init(slot0)
 	slot0.attireExpireDisplayPage = AttireExpireDisplayPage.New(slot0.toTopPanel, slot0.event)
 	slot0.skinExperienceDiplayPage = SkinExperienceDiplayPage.New(slot0.toTopPanel, slot0.event)
 	slot0.secondaryPage = MainUISecondaryPage.New(slot0:findTF("MainUISecondaryPanel"), slot0)
+	slot0._paintingTimer = Timer.New(function ()
+		uv0._paintingBgTf.localScale = uv0._paintingTF.localScale
+		uv0._paintingBgTf.localPosition = uv0._paintingBgTf.localPosition + (uv0._paintingTF.localPosition - uv0._paintingBgTf.localPosition) * 0.6
+	end, 0.033, -1)
+
+	slot0._paintingTimer:Start()
+	slot0._paintingTimer:Pause()
 end
 
 function slot0.uiEnterAnim(slot0)
@@ -387,7 +395,7 @@ function slot0.didEnter(slot0)
 			uv0._paintingTF:GetComponent("CanvasGroup").blocksRaycasts = false
 			slot1 = uv0.flagShip
 			slot2 = slot1:getPainting()
-			slot3 = getProxy(SettingsProxy):getCharacterSetting(slot1.id, "l2d") and (slot2 == "biaoqiang" or slot2 == "z23" or slot2 == "lafei" or slot2 == "lingbo" or slot2 == "mingshi" or slot2 == "xuefeng")
+			slot3 = getProxy(SettingsProxy):getCharacterSetting(slot1.id, SHIP_FLAG_L2D) and (slot2 == "biaoqiang" or slot2 == "z23" or slot2 == "lafei" or slot2 == "lingbo" or slot2 == "mingshi" or slot2 == "xuefeng")
 			slot4 = uv0._paintingTF
 			slot5 = slot4.anchoredPosition.x
 			slot6 = slot4.anchoredPosition.y
@@ -506,7 +514,7 @@ function slot0.didEnter(slot0)
 			uv0._paintingTF:GetComponent("CanvasGroup").blocksRaycasts = false
 			slot5 = uv0.flagShip
 			slot6 = slot5:getPainting()
-			slot7 = getProxy(SettingsProxy):getCharacterSetting(slot5.id, "l2d") and (slot6 == "biaoqiang" or slot6 == "z23" or slot6 == "lafei" or slot6 == "lingbo" or slot6 == "mingshi" or slot6 == "xuefeng")
+			slot7 = getProxy(SettingsProxy):getCharacterSetting(slot5.id, SHIP_FLAG_L2D) and (slot6 == "biaoqiang" or slot6 == "z23" or slot6 == "lafei" or slot6 == "lingbo" or slot6 == "mingshi" or slot6 == "xuefeng")
 			slot8 = uv0._paintingTF
 			slot9 = slot8.anchoredPosition.x
 			slot10 = slot8.anchoredPosition.y
@@ -1175,7 +1183,11 @@ function slot0.switchForm(slot0, slot1)
 
 			triggerToggle(slot0._moveBtn, false)
 			slot0:paintMove(uv0.PAINT_DEFAULT_POS_X, "mainNormal", true, 0)
+			slot0:managedTween(LeanTween.delayedCall, function ()
+				uv0._paintingTimer:Pause()
+			end, uv0.EJECT_DURATION + 0.3, nil)
 		elseif slot1 == uv0.STATE_ALL_HIDE then
+			slot0._paintingTimer:Resume()
 			slot0:concealGimmick(slot0._bottomPanel, uv0.DIRECTION_DOWN)
 			slot0:concealGimmick(slot0._btmbg, uv0.DIRECTION_DOWN)
 			slot0:concealGimmick(slot0._rightPanel, uv0.DIRECTION_RIGHT)
@@ -1216,6 +1228,10 @@ function slot0.paintBreath(slot0)
 end
 
 function slot0.paintClimax(slot0, slot1, slot2, slot3)
+	if slot0.spinePainting then
+		return
+	end
+
 	if slot0.live2dChar or slot0.paintMoving then
 		return
 	end
@@ -1531,7 +1547,9 @@ end
 
 function slot0.ShowAssistInfo(slot0, slot1, slot2)
 	slot3 = findTF(slot0._paintingTF, "live2d")
-	slot4 = getProxy(SettingsProxy)
+	slot4 = findTF(slot0._paintingTF, "spinePainting")
+	slot5 = findTF(slot0._paintingBgTf, "spinePainting")
+	slot6 = getProxy(SettingsProxy)
 
 	if slot0.live2dChar then
 		slot0.live2dChar:Dispose()
@@ -1539,17 +1557,59 @@ function slot0.ShowAssistInfo(slot0, slot1, slot2)
 		slot0.live2dChar = nil
 	end
 
-	slot5, slot6, slot7 = getProxy(SettingsProxy):getSkinPosSetting(slot0.flagShip.skinId)
+	if slot0.spinePainting then
+		slot0.spinePainting:Dispose()
 
-	if slot5 then
-		slot0._paintingTF.anchoredPosition = Vector2(slot5, slot6)
-		slot0._paintingTF.localScale = Vector3(slot7, slot7, 1)
+		slot0.spinePainting = nil
+	end
+
+	slot7, slot8, slot9 = getProxy(SettingsProxy):getSkinPosSetting(slot0.flagShip.skinId)
+
+	if slot7 then
+		slot0._paintingTF.anchoredPosition = Vector2(slot7, slot8)
+		slot0._paintingTF.localScale = Vector3(slot9, slot9, 1)
+		slot0._paintingBgTf.anchoredPosition = Vector2(slot7, slot8)
+		slot0._paintingBgTf.localScale = Vector3(slot9, slot9, 1)
 	else
 		slot0._paintingTF.anchoredPosition = Vector2(uv0.PAINT_DEFAULT_POS_X, uv0.DEFAULT_HEIGHT)
 		slot0._paintingTF.localScale = Vector3.one
+		slot0._paintingBgTf.anchoredPosition = Vector2(uv0.PAINT_DEFAULT_POS_X, uv0.DEFAULT_HEIGHT)
+		slot0._paintingBgTf.localScale = Vector3.one
 	end
 
-	if not PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("live2d/" .. slot1))) or not slot4:getCharacterSetting(slot2.id, "l2d") then
+	slot13 = PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("live2d/" .. slot1)))
+
+	if slot6:getCharacterSetting(slot2.id, SHIP_FLAG_SP) and PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("spinepainting/" .. slot1))) then
+		LeanTween.cancel(go(slot0._paintingTF))
+
+		slot0.spinePainting = SpinePainting.New(SpinePainting.GenerateData({
+			ship = slot2,
+			position = Vector3(0, 0, 0),
+			parent = slot4,
+			effectParent = slot5
+		}), function ()
+			uv0:initShipChat()
+
+			uv0.paintingLoading = false
+
+			uv0:setChangeBtnInteractable()
+		end)
+	elseif slot6:getCharacterSetting(slot2.id, SHIP_FLAG_L2D) and slot13 then
+		LeanTween.cancel(go(slot0._paintingTF))
+
+		slot0.live2dChar = Live2D.New(Live2D.GenerateData({
+			ship = slot2,
+			scale = Vector3(52, 52, 52),
+			position = Vector3(0, 0, 100),
+			parent = slot3
+		}), function ()
+			uv0:initShipChat()
+
+			uv0.paintingLoading = false
+
+			uv0:setChangeBtnInteractable()
+		end)
+	else
 		SetActive(slot3, false)
 		setPaintingPrefabAsync(slot0._paintingTF, slot1, "mainNormal", function ()
 			if uv0.exited then
@@ -1582,21 +1642,6 @@ function slot0.ShowAssistInfo(slot0, slot1, slot2)
 			uv0:setChangeBtnInteractable()
 		end)
 		slot0:paintBreath()
-	else
-		LeanTween.cancel(go(slot0._paintingTF))
-
-		slot0.live2dChar = Live2D.New(Live2D.live2dData({
-			ship = slot2,
-			scale = Vector3(52, 52, 52),
-			position = Vector3(0, 0, 100),
-			parent = slot3
-		}), function ()
-			uv0:initShipChat()
-
-			uv0.paintingLoading = false
-
-			uv0:setChangeBtnInteractable()
-		end)
 	end
 end
 
@@ -1799,7 +1844,7 @@ function slot0.updateFlagShip(slot0, slot1)
 
 	slot0:ShowAssistInfo(slot1:getPainting(), slot1)
 
-	if not (getProxy(SettingsProxy):getCharacterSetting(slot1.id, "l2d") and isHalfBodyLive2D(slot2)) then
+	if not (getProxy(SettingsProxy):getCharacterSetting(slot1.id, SHIP_FLAG_L2D) and isHalfBodyLive2D(slot2)) then
 		rtf(slot0._paintingTF).anchorMin = Vector2(0.5, 0.5)
 		rtf(slot0._paintingTF).anchorMax = Vector2(0.5, 0.5)
 		rtf(slot0._paintingTF).pivot = Vector2(0.5, 0.5)
@@ -1847,7 +1892,7 @@ function slot0.updateFlagShip(slot0, slot1)
 	end
 
 	if slot0.flagShip then
-		if slot0.flagShip:getShipBgPrint() ~= slot0.flagShip:rarity2bgPrintForGet() and getProxy(SettingsProxy):getCharacterSetting(slot0.flagShip.id, "bg") then
+		if slot0.flagShip:getShipBgPrint() ~= slot0.flagShip:rarity2bgPrintForGet() and getProxy(SettingsProxy):getCharacterSetting(slot0.flagShip.id, SHIP_FLAG_BG) then
 			pg.DynamicBgMgr.GetInstance():LoadBg(slot0, slot7, slot0._bg, slot0._bg:Find("bg"), function (slot0)
 				uv0.bgLoading = false
 
@@ -2042,6 +2087,12 @@ function slot0.resumePaitingState(slot0)
 end
 
 function slot0.willExit(slot0)
+	if slot0._paintingTimer then
+		slot0._paintingTimer:Stop()
+
+		slot0._paintingTimer = nil
+	end
+
 	if slot0.redDotHelper then
 		slot0.redDotHelper:Dispose()
 
@@ -2107,6 +2158,12 @@ function slot0.willExit(slot0)
 		slot0.live2dChar:Dispose()
 
 		slot0.live2dChar = nil
+	end
+
+	if slot0.spinePainting then
+		slot0.spinePainting:Dispose()
+
+		slot0.spinePainting = nil
 	end
 
 	for slot4 = slot0.bannerContent.childCount - 1, 0, -1 do

@@ -1,28 +1,49 @@
 pg = pg or {}
 pg.equip_data_statistics_371 = {
-	[89113] = {
-		id = 89113,
-		anti_siren = 300,
-		base = 89100,
-		value_2 = 150,
-		value_1 = "30"
+	[89089] = {
+		id = 89089,
+		value_1 = "520",
+		base = 89080
 	},
-	[89120] = {
-		name = "Ankimo",
+	[89090] = {
+		id = 89090,
+		value_1 = "550",
+		base = 89080
+	},
+	[89091] = {
+		id = 89091,
+		anti_siren = 100,
+		value_1 = "580",
+		base = 89080
+	},
+	[89092] = {
+		id = 89092,
+		anti_siren = 200,
+		value_1 = "610",
+		base = 89080
+	},
+	[89093] = {
+		id = 89093,
+		anti_siren = 300,
+		value_1 = "640",
+		base = 89080
+	},
+	[89100] = {
+		name = "Corn Lantern",
 		tech = 0,
 		type = 10,
 		speciality = "N/A",
-		id = 89120,
-		value_2 = 3,
-		icon = "89120",
-		value_1 = "98",
-		attribute_2 = "speed",
+		id = 89100,
+		value_2 = 50,
+		icon = "89100",
+		value_1 = "9",
+		attribute_2 = "durability",
 		rarity = 5,
-		descrip = "Hololive's company mascot that's free to do whatever. Has a tendency to sink into the ground when not moving.",
+		descrip = "A lantern that looks like a corn cob. Proves that you're friends with a certain foxy VTuber.",
 		nationality = 105,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "durability",
+		attribute_1 = "antisub",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -32,7 +53,7 @@ pg.equip_data_statistics_371 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6520
+			6510
 		},
 		part_main = {},
 		part_sub = {},
@@ -41,124 +62,71 @@ pg.equip_data_statistics_371 = {
 			"DEV"
 		}
 	},
-	[89121] = {
-		id = 89121,
-		value_1 = "112",
-		base = 89120
+	[89101] = {
+		id = 89101,
+		value_2 = 55,
+		value_1 = "10",
+		base = 89100
 	},
-	[89122] = {
-		id = 89122,
-		value_2 = 4,
-		value_1 = "127",
-		base = 89120
+	[89102] = {
+		id = 89102,
+		value_2 = 60,
+		value_1 = "11",
+		base = 89100
 	},
-	[89123] = {
-		id = 89123,
-		value_2 = 4,
-		value_1 = "142",
-		base = 89120
+	[89103] = {
+		id = 89103,
+		value_2 = 65,
+		value_1 = "12",
+		base = 89100
 	},
-	[89124] = {
-		id = 89124,
-		value_2 = 5,
-		value_1 = "156",
-		base = 89120
+	[89104] = {
+		id = 89104,
+		value_2 = 70,
+		value_1 = "13",
+		base = 89100
 	},
-	[89125] = {
-		id = 89125,
-		value_2 = 5,
-		value_1 = "171",
-		base = 89120
-	},
-	[89126] = {
-		id = 89126,
-		value_2 = 6,
-		value_1 = "186",
-		base = 89120
-	},
-	[89127] = {
-		id = 89127,
-		value_2 = 6,
-		value_1 = "200",
-		base = 89120
-	},
-	[89128] = {
-		id = 89128,
-		value_2 = 7,
-		value_1 = "215",
-		base = 89120
-	},
-	[89129] = {
-		id = 89129,
-		value_2 = 7,
-		value_1 = "230",
-		base = 89120
-	},
-	[89130] = {
-		id = 89130,
-		value_2 = 8,
-		value_1 = "245",
-		base = 89120
-	},
-	[89131] = {
-		id = 89131,
-		anti_siren = 100,
-		base = 89120,
-		value_2 = 8,
-		value_1 = "260"
-	},
-	[89132] = {
-		id = 89132,
-		anti_siren = 200,
-		base = 89120,
-		value_2 = 8,
-		value_1 = "275"
-	},
-	[89133] = {
-		id = 89133,
-		anti_siren = 300,
-		base = 89120,
-		value_2 = 8,
-		value_1 = "290"
-	},
-	[89140] = {
-		name = "White-Hot Verheerender",
-		tech = 0,
-		type = 10,
-		speciality = "N/A",
-		id = 89140,
-		value_2 = 15,
-		icon = "89140",
+	[89105] = {
+		id = 89105,
+		value_2 = 75,
 		value_1 = "14",
-		attribute_2 = "hit",
-		rarity = 5,
-		descrip = "\"For your ears, Commander, and yours alone.\" ",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "antiaircraft",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6710
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
+		base = 89100
 	},
-	[89141] = {
-		id = 89141,
-		value_2 = 16,
+	[89106] = {
+		id = 89106,
+		value_2 = 80,
 		value_1 = "16",
-		base = 89140
+		base = 89100
+	},
+	[89107] = {
+		id = 89107,
+		value_2 = 90,
+		value_1 = "18",
+		base = 89100
+	},
+	[89108] = {
+		id = 89108,
+		value_2 = 100,
+		value_1 = "20",
+		base = 89100
+	},
+	[89109] = {
+		id = 89109,
+		value_2 = 110,
+		value_1 = "22",
+		base = 89100
+	},
+	[89110] = {
+		id = 89110,
+		value_2 = 120,
+		value_1 = "24",
+		base = 89100
+	},
+	[89111] = {
+		id = 89111,
+		anti_siren = 100,
+		base = 89100,
+		value_2 = 130,
+		value_1 = "26"
 	}
 }

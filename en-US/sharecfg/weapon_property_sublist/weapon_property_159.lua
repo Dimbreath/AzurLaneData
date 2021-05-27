@@ -2,598 +2,6 @@ pg = pg or {}
 pg.weapon_property_159 = {}
 
 function ()
-	uv0.weapon_property_159[68655] = {
-		name = "可畏技能鱼雷机Lv5",
-		damage = 144,
-		base = 68651,
-		id = 68655,
-		bullet_ID = {
-			68655
-		}
-	}
-	uv0.weapon_property_159[68656] = {
-		name = "可畏技能鱼雷机Lv6",
-		damage = 164,
-		base = 68651,
-		id = 68656,
-		bullet_ID = {
-			68656
-		}
-	}
-	uv0.weapon_property_159[68657] = {
-		name = "可畏技能鱼雷机Lv7",
-		damage = 182,
-		base = 68651,
-		id = 68657,
-		bullet_ID = {
-			68657
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_159[68658] = {
-		name = "可畏技能鱼雷机Lv8",
-		damage = 202,
-		base = 68651,
-		id = 68658,
-		bullet_ID = {
-			68658
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_159[68659] = {
-		name = "可畏技能鱼雷机Lv9",
-		damage = 220,
-		base = 68651,
-		id = 68659,
-		bullet_ID = {
-			68659
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_159[68660] = {
-		name = "可畏技能鱼雷机Lv10",
-		damage = 240,
-		base = 68651,
-		id = 68660,
-		bullet_ID = {
-			68660
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_159[68661] = {
-		action_index = "",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "概率减速进水鱼雷",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 24,
-		charge_param = "",
-		damage = 68,
-		corrected = 100,
-		min_range = 0,
-		id = 68661,
-		attack_attribute_ratio = 120,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19021
-		},
-		barrage_ID = {
-			80780
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_159[68662] = {
-		id = 68662,
-		damage = 86,
-		base = 68661
-	}
-	uv0.weapon_property_159[68663] = {
-		id = 68663,
-		damage = 106,
-		base = 68661
-	}
-	uv0.weapon_property_159[68664] = {
-		id = 68664,
-		damage = 124,
-		base = 68661,
-		barrage_ID = {
-			80781
-		}
-	}
-	uv0.weapon_property_159[68665] = {
-		id = 68665,
-		damage = 144,
-		base = 68661,
-		barrage_ID = {
-			80781
-		}
-	}
-	uv0.weapon_property_159[68666] = {
-		id = 68666,
-		damage = 164,
-		base = 68661,
-		barrage_ID = {
-			80781
-		}
-	}
-	uv0.weapon_property_159[68667] = {
-		id = 68667,
-		damage = 182,
-		base = 68661,
-		barrage_ID = {
-			80782
-		}
-	}
-	uv0.weapon_property_159[68668] = {
-		id = 68668,
-		damage = 202,
-		base = 68661,
-		barrage_ID = {
-			80782
-		}
-	}
-	uv0.weapon_property_159[68669] = {
-		id = 68669,
-		damage = 220,
-		base = 68661,
-		barrage_ID = {
-			80782
-		}
-	}
-	uv0.weapon_property_159[68670] = {
-		id = 68670,
-		damage = 240,
-		base = 68661,
-		barrage_ID = {
-			80782
-		}
-	}
-	uv0.weapon_property_159[68671] = {
-		action_index = "attack",
-		range = 95,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "利托里奥弹幕强化PVE-Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 62,
-		corrected = 100,
-		min_range = 25,
-		id = 68671,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19022,
-			19023
-		},
-		barrage_ID = {
-			80783,
-			80784
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jineng",
-			alertTime = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_159[68672] = {
-		id = 68672,
-		name = "利托里奥弹幕强化PVE-Lv2",
-		damage = 74,
-		base = 68671
-	}
-	uv0.weapon_property_159[68673] = {
-		id = 68673,
-		name = "利托里奥弹幕强化PVE-Lv3",
-		damage = 86,
-		base = 68671
-	}
-	uv0.weapon_property_159[68674] = {
-		id = 68674,
-		name = "利托里奥弹幕强化PVE-Lv4",
-		damage = 98,
-		base = 68671
-	}
-	uv0.weapon_property_159[68675] = {
-		id = 68675,
-		name = "利托里奥弹幕强化PVE-Lv5",
-		damage = 110,
-		base = 68671
-	}
-	uv0.weapon_property_159[68676] = {
-		id = 68676,
-		name = "利托里奥弹幕强化PVE-Lv6",
-		damage = 122,
-		base = 68671
-	}
-	uv0.weapon_property_159[68677] = {
-		id = 68677,
-		name = "利托里奥弹幕强化PVE-Lv7",
-		damage = 134,
-		base = 68671
-	}
-	uv0.weapon_property_159[68678] = {
-		id = 68678,
-		name = "利托里奥弹幕强化PVE-Lv8",
-		damage = 146,
-		base = 68671
-	}
-	uv0.weapon_property_159[68679] = {
-		id = 68679,
-		name = "利托里奥弹幕强化PVE-Lv9",
-		damage = 158,
-		base = 68671
-	}
-	uv0.weapon_property_159[68680] = {
-		id = 68680,
-		name = "利托里奥弹幕强化PVE-Lv10",
-		damage = 174,
-		base = 68671
-	}
-	uv0.weapon_property_159[68681] = {
-		action_index = "attack",
-		range = 120,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "利托里奥弹幕强化PVP-Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 62,
-		corrected = 100,
-		min_range = 35,
-		id = 68681,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19022,
-			19023
-		},
-		barrage_ID = {
-			80783,
-			80784
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jineng",
-			alertTime = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_159[68682] = {
-		id = 68682,
-		name = "利托里奥弹幕强化PVP-Lv2",
-		damage = 74,
-		base = 68681
-	}
-	uv0.weapon_property_159[68683] = {
-		id = 68683,
-		name = "利托里奥弹幕强化PVP-Lv3",
-		damage = 86,
-		base = 68681
-	}
-	uv0.weapon_property_159[68684] = {
-		id = 68684,
-		name = "利托里奥弹幕强化PVP-Lv4",
-		damage = 98,
-		base = 68681
-	}
-	uv0.weapon_property_159[68685] = {
-		id = 68685,
-		name = "利托里奥弹幕强化PVP-Lv5",
-		damage = 110,
-		base = 68681
-	}
-	uv0.weapon_property_159[68686] = {
-		id = 68686,
-		name = "利托里奥弹幕强化PVP-Lv6",
-		damage = 122,
-		base = 68681
-	}
-	uv0.weapon_property_159[68687] = {
-		id = 68687,
-		name = "利托里奥弹幕强化PVP-Lv7",
-		damage = 134,
-		base = 68681
-	}
-	uv0.weapon_property_159[68688] = {
-		id = 68688,
-		name = "利托里奥弹幕强化PVP-Lv8",
-		damage = 146,
-		base = 68681
-	}
-	uv0.weapon_property_159[68689] = {
-		id = 68689,
-		name = "利托里奥弹幕强化PVP-Lv9",
-		damage = 158,
-		base = 68681
-	}
-	uv0.weapon_property_159[68690] = {
-		id = 68690,
-		name = "利托里奥弹幕强化PVP-Lv10",
-		damage = 174,
-		base = 68681
-	}
-	uv0.weapon_property_159[68691] = {
-		action_index = "attack",
-		range = 50,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "利托里奥技能小子弹-LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 11,
-		corrected = 100,
-		min_range = 0,
-		id = 68691,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19024
-		},
-		barrage_ID = {
-			80785
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_159[68692] = {
-		id = 68692,
-		name = "利托里奥技能小子弹-LV2",
-		damage = 12,
-		base = 68691
-	}
-	uv0.weapon_property_159[68693] = {
-		id = 68693,
-		name = "利托里奥技能小子弹-LV3",
-		damage = 13,
-		base = 68691
-	}
-	uv0.weapon_property_159[68694] = {
-		id = 68694,
-		name = "利托里奥技能小子弹-LV4",
-		damage = 14,
-		base = 68691
-	}
-	uv0.weapon_property_159[68695] = {
-		id = 68695,
-		name = "利托里奥技能小子弹-LV5",
-		damage = 15,
-		base = 68691
-	}
-	uv0.weapon_property_159[68696] = {
-		id = 68696,
-		name = "利托里奥技能小子弹-LV6",
-		damage = 16,
-		base = 68691
-	}
-	uv0.weapon_property_159[68697] = {
-		id = 68697,
-		name = "利托里奥技能小子弹-LV7",
-		damage = 17,
-		base = 68691
-	}
-	uv0.weapon_property_159[68698] = {
-		id = 68698,
-		name = "利托里奥技能小子弹-LV8",
-		damage = 18,
-		base = 68691
-	}
-	uv0.weapon_property_159[68699] = {
-		id = 68699,
-		name = "利托里奥技能小子弹-LV9",
-		damage = 19,
-		base = 68691
-	}
-	uv0.weapon_property_159[68700] = {
-		id = 68700,
-		name = "利托里奥技能小子弹-LV10",
-		damage = 20,
-		base = 68691
-	}
-	uv0.weapon_property_159[68701] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "zhupao",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "凯撒技能LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 50,
-		corrected = 100,
-		min_range = 0,
-		id = 68701,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19025,
-			19025
-		},
-		barrage_ID = {
-			80786,
-			80787
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_159[68702] = {
-		id = 68702,
-		name = "凯撒技能LV2",
-		damage = 60,
-		base = 68701
-	}
-	uv0.weapon_property_159[68703] = {
-		id = 68703,
-		name = "凯撒技能LV3",
-		damage = 70,
-		base = 68701
-	}
-	uv0.weapon_property_159[68704] = {
-		name = "凯撒技能LV4",
-		damage = 80,
-		base = 68701,
-		id = 68704,
-		barrage_ID = {
-			80788,
-			80787
-		}
-	}
-	uv0.weapon_property_159[68705] = {
-		name = "凯撒技能LV5",
-		damage = 90,
-		base = 68701,
-		id = 68705,
-		barrage_ID = {
-			80788,
-			80787
-		}
-	}
-	uv0.weapon_property_159[68706] = {
-		name = "凯撒技能LV6",
-		damage = 100,
-		base = 68701,
-		id = 68706,
-		barrage_ID = {
-			80788,
-			80787
-		}
-	}
-	uv0.weapon_property_159[68707] = {
-		name = "凯撒技能LV7",
-		damage = 110,
-		base = 68701,
-		id = 68707,
-		barrage_ID = {
-			80788,
-			80789
-		}
-	}
-	uv0.weapon_property_159[68708] = {
-		name = "凯撒技能LV8",
-		damage = 120,
-		base = 68701,
-		id = 68708,
-		barrage_ID = {
-			80788,
-			80789
-		}
-	}
 	uv0.weapon_property_159[68709] = {
 		name = "凯撒技能LV9",
 		damage = 130,
@@ -683,5 +91,643 @@ function ()
 		name = "凯撒技能小子弹LV5",
 		damage = 20,
 		base = 68711
+	}
+	uv0.weapon_property_159[68716] = {
+		id = 68716,
+		name = "凯撒技能小子弹LV6",
+		damage = 22,
+		base = 68711
+	}
+	uv0.weapon_property_159[68717] = {
+		id = 68717,
+		name = "凯撒技能小子弹LV7",
+		damage = 24,
+		base = 68711
+	}
+	uv0.weapon_property_159[68718] = {
+		name = "凯撒技能小子弹LV8",
+		damage = 26,
+		base = 68711,
+		id = 68718,
+		barrage_ID = {
+			80791,
+			80793
+		}
+	}
+	uv0.weapon_property_159[68719] = {
+		name = "凯撒技能小子弹LV9",
+		damage = 28,
+		base = 68711,
+		id = 68719,
+		barrage_ID = {
+			80791,
+			80793
+		}
+	}
+	uv0.weapon_property_159[68720] = {
+		name = "凯撒技能小子弹LV10",
+		damage = 30,
+		base = 68711,
+		id = 68720,
+		barrage_ID = {
+			80791,
+			80793
+		}
+	}
+	uv0.weapon_property_159[68721] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "凯撒鱼雷-LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 51,
+		corrected = 100,
+		min_range = 0,
+		id = 68721,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1809,
+			1809
+		},
+		barrage_ID = {
+			80715,
+			80716
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_159[68722] = {
+		id = 68722,
+		name = "凯撒鱼雷-LV2",
+		damage = 52,
+		base = 68721
+	}
+	uv0.weapon_property_159[68723] = {
+		id = 68723,
+		name = "凯撒鱼雷-LV3",
+		damage = 54,
+		base = 68721
+	}
+	uv0.weapon_property_159[68724] = {
+		id = 68724,
+		name = "凯撒鱼雷-LV4",
+		damage = 57,
+		base = 68721
+	}
+	uv0.weapon_property_159[68725] = {
+		id = 68725,
+		name = "凯撒鱼雷-LV5",
+		damage = 61,
+		base = 68721
+	}
+	uv0.weapon_property_159[68726] = {
+		id = 68726,
+		name = "凯撒鱼雷-LV6",
+		damage = 66,
+		base = 68721
+	}
+	uv0.weapon_property_159[68727] = {
+		id = 68727,
+		name = "凯撒鱼雷-LV7",
+		damage = 72,
+		base = 68721
+	}
+	uv0.weapon_property_159[68728] = {
+		id = 68728,
+		name = "凯撒鱼雷-LV8",
+		damage = 79,
+		base = 68721
+	}
+	uv0.weapon_property_159[68729] = {
+		id = 68729,
+		name = "凯撒鱼雷-LV9",
+		damage = 87,
+		base = 68721
+	}
+	uv0.weapon_property_159[68730] = {
+		id = 68730,
+		name = "凯撒鱼雷-LV10",
+		damage = 96,
+		base = 68721
+	}
+	uv0.weapon_property_159[68731] = {
+		action_index = "attack",
+		range = 95,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "利托里奥弹幕PVE-Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 62,
+		corrected = 100,
+		min_range = 25,
+		id = 68731,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19022
+		},
+		barrage_ID = {
+			80794
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_159[68732] = {
+		id = 68732,
+		name = "利托里奥弹幕PVE-Lv2",
+		damage = 74,
+		base = 68731
+	}
+	uv0.weapon_property_159[68733] = {
+		id = 68733,
+		name = "利托里奥弹幕PVE-Lv3",
+		damage = 86,
+		base = 68731
+	}
+	uv0.weapon_property_159[68734] = {
+		id = 68734,
+		name = "利托里奥弹幕PVE-Lv4",
+		damage = 98,
+		base = 68731
+	}
+	uv0.weapon_property_159[68735] = {
+		id = 68735,
+		name = "利托里奥弹幕PVE-Lv5",
+		damage = 110,
+		base = 68731
+	}
+	uv0.weapon_property_159[68736] = {
+		id = 68736,
+		name = "利托里奥弹幕PVE-Lv6",
+		damage = 122,
+		base = 68731
+	}
+	uv0.weapon_property_159[68737] = {
+		id = 68737,
+		name = "利托里奥弹幕PVE-Lv7",
+		damage = 134,
+		base = 68731
+	}
+	uv0.weapon_property_159[68738] = {
+		id = 68738,
+		name = "利托里奥弹幕PVE-Lv8",
+		damage = 146,
+		base = 68731
+	}
+	uv0.weapon_property_159[68739] = {
+		id = 68739,
+		name = "利托里奥弹幕PVE-Lv9",
+		damage = 158,
+		base = 68731
+	}
+	uv0.weapon_property_159[68740] = {
+		id = 68740,
+		name = "利托里奥弹幕PVE-Lv10",
+		damage = 174,
+		base = 68731
+	}
+	uv0.weapon_property_159[68741] = {
+		action_index = "attack",
+		range = 120,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "利托里奥弹幕PVP-Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 62,
+		corrected = 100,
+		min_range = 35,
+		id = 68741,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19022
+		},
+		barrage_ID = {
+			80794
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_159[68742] = {
+		id = 68742,
+		name = "利托里奥弹幕PVP-Lv2",
+		damage = 74,
+		base = 68741
+	}
+	uv0.weapon_property_159[68743] = {
+		id = 68743,
+		name = "利托里奥弹幕PVP-Lv3",
+		damage = 86,
+		base = 68741
+	}
+	uv0.weapon_property_159[68744] = {
+		id = 68744,
+		name = "利托里奥弹幕PVP-Lv4",
+		damage = 98,
+		base = 68741
+	}
+	uv0.weapon_property_159[68745] = {
+		id = 68745,
+		name = "利托里奥弹幕PVP-Lv5",
+		damage = 110,
+		base = 68741
+	}
+	uv0.weapon_property_159[68746] = {
+		id = 68746,
+		name = "利托里奥弹幕PVP-Lv6",
+		damage = 122,
+		base = 68741
+	}
+	uv0.weapon_property_159[68747] = {
+		id = 68747,
+		name = "利托里奥弹幕PVP-Lv7",
+		damage = 134,
+		base = 68741
+	}
+	uv0.weapon_property_159[68748] = {
+		id = 68748,
+		name = "利托里奥弹幕PVP-Lv8",
+		damage = 146,
+		base = 68741
+	}
+	uv0.weapon_property_159[68749] = {
+		id = 68749,
+		name = "利托里奥弹幕PVP-Lv9",
+		damage = 158,
+		base = 68741
+	}
+	uv0.weapon_property_159[68750] = {
+		id = 68750,
+		name = "利托里奥弹幕PVP-Lv10",
+		damage = 174,
+		base = 68741
+	}
+	uv0.weapon_property_159[68751] = {
+		action_index = "attack",
+		range = 50,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "时雨改造弹幕LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 16,
+		corrected = 100,
+		min_range = 0,
+		id = 68751,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19027
+		},
+		barrage_ID = {
+			80801
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_159[68752] = {
+		id = 68752,
+		name = "时雨改造弹幕LV2",
+		damage = 17,
+		base = 68751
+	}
+	uv0.weapon_property_159[68753] = {
+		name = "时雨改造弹幕LV3",
+		damage = 18,
+		base = 68751,
+		id = 68753,
+		bullet_ID = {
+			19027,
+			19027,
+			19027
+		},
+		barrage_ID = {
+			80801,
+			80802,
+			80805
+		}
+	}
+	uv0.weapon_property_159[68754] = {
+		name = "时雨改造弹幕LV4",
+		damage = 19,
+		base = 68751,
+		id = 68754,
+		bullet_ID = {
+			19027,
+			19027,
+			19027
+		},
+		barrage_ID = {
+			80801,
+			80803,
+			80806
+		}
+	}
+	uv0.weapon_property_159[68755] = {
+		name = "时雨改造弹幕LV5",
+		damage = 20,
+		base = 68751,
+		id = 68755,
+		bullet_ID = {
+			19027,
+			19027,
+			19027
+		},
+		barrage_ID = {
+			80801,
+			80803,
+			80806
+		}
+	}
+	uv0.weapon_property_159[68756] = {
+		name = "时雨改造弹幕LV6",
+		damage = 21,
+		base = 68751,
+		id = 68756,
+		bullet_ID = {
+			19027,
+			19027,
+			19027
+		},
+		barrage_ID = {
+			80801,
+			80804,
+			80807
+		}
+	}
+	uv0.weapon_property_159[68757] = {
+		name = "时雨改造弹幕LV7",
+		damage = 22,
+		base = 68751,
+		id = 68757,
+		bullet_ID = {
+			19027,
+			19027,
+			19027
+		},
+		barrage_ID = {
+			80801,
+			80804,
+			80807
+		}
+	}
+	uv0.weapon_property_159[68758] = {
+		name = "时雨改造弹幕LV8",
+		damage = 23,
+		base = 68751,
+		id = 68758,
+		bullet_ID = {
+			19027,
+			19027,
+			19027,
+			19027,
+			19027
+		},
+		barrage_ID = {
+			80801,
+			80804,
+			80807,
+			80808,
+			80809
+		}
+	}
+	uv0.weapon_property_159[68759] = {
+		name = "时雨改造弹幕LV9",
+		damage = 24,
+		base = 68751,
+		id = 68759,
+		bullet_ID = {
+			19027,
+			19027,
+			19027,
+			19027,
+			19027
+		},
+		barrage_ID = {
+			80801,
+			80804,
+			80807,
+			80808,
+			80809
+		}
+	}
+	uv0.weapon_property_159[68760] = {
+		name = "时雨改造弹幕LV10",
+		damage = 25,
+		base = 68751,
+		id = 68760,
+		bullet_ID = {
+			19027,
+			19027,
+			19027,
+			19027,
+			19027
+		},
+		barrage_ID = {
+			80801,
+			80804,
+			80807,
+			80808,
+			80809
+		}
+	}
+	uv0.weapon_property_159[68761] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "时雨改造鱼雷LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 35,
+		corrected = 100,
+		min_range = 0,
+		id = 68761,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19028,
+			19028
+		},
+		barrage_ID = {
+			80810,
+			80811
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_159[68762] = {
+		id = 68762,
+		name = "时雨改造鱼雷LV2",
+		damage = 46,
+		base = 68761
+	}
+	uv0.weapon_property_159[68763] = {
+		id = 68763,
+		name = "时雨改造鱼雷LV3",
+		damage = 57,
+		base = 68761
+	}
+	uv0.weapon_property_159[68764] = {
+		id = 68764,
+		name = "时雨改造鱼雷LV4",
+		damage = 68,
+		base = 68761
+	}
+	uv0.weapon_property_159[68765] = {
+		id = 68765,
+		name = "时雨改造鱼雷LV5",
+		damage = 79,
+		base = 68761
+	}
+	uv0.weapon_property_159[68766] = {
+		id = 68766,
+		name = "时雨改造鱼雷LV6",
+		damage = 90,
+		base = 68761
+	}
+	uv0.weapon_property_159[68767] = {
+		id = 68767,
+		name = "时雨改造鱼雷LV7",
+		damage = 101,
+		base = 68761
+	}
+	uv0.weapon_property_159[68768] = {
+		id = 68768,
+		name = "时雨改造鱼雷LV8",
+		damage = 112,
+		base = 68761
+	}
+	uv0.weapon_property_159[68769] = {
+		id = 68769,
+		name = "时雨改造鱼雷LV9",
+		damage = 123,
+		base = 68761
+	}
+	uv0.weapon_property_159[68770] = {
+		id = 68770,
+		name = "时雨改造鱼雷LV10",
+		damage = 134,
+		base = 68761
 	}
 end()

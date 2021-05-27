@@ -1,190 +1,329 @@
 pg = pg or {}
 pg.equip_data_statistics_389 = {
-	[90861] = {
-		id = 90861,
-		damage = "28 x 4",
-		base = 90860,
+	[90807] = {
+		id = 90807,
+		damage = "19 x 4",
+		base = 90800,
 		weapon_id = {
-			90861
+			90807
 		}
 	},
-	[90862] = {
-		id = 90862,
-		damage = "30 x 4",
-		base = 90860,
-		weapon_id = {
-			90862
-		}
-	},
-	[90863] = {
-		id = 90863,
-		damage = "32 x 4",
-		base = 90860,
-		weapon_id = {
-			90863
-		}
-	},
-	[90864] = {
-		id = 90864,
-		damage = "34 x 4",
-		base = 90860,
-		weapon_id = {
-			90864
-		}
-	},
-	[90865] = {
-		id = 90865,
-		damage = "36 x 4",
-		base = 90860,
-		weapon_id = {
-			90865
-		}
-	},
-	[90866] = {
-		id = 90866,
-		damage = "38 x 4",
-		base = 90860,
-		weapon_id = {
-			90866
-		}
-	},
-	[90880] = {
-		name = "Twin 203mm Mle 1924 Main Gun Mount",
-		speciality = "Lock",
-		type = 3,
-		tech = 2,
+	[90820] = {
+		name = "Gourdou-Leseurre GL.2 Fighter",
+		type = 7,
+		speciality = "Air",
+		rarity = 3,
+		tech = 0,
 		descrip = "No description",
-		value_2 = 25,
-		icon = "50860",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "28 x 4",
+		value_2 = 12,
+		icon = "50820",
+		attribute_2 = "air",
 		nationality = 8,
-		ammo = 2,
+		ammo = 5,
 		value_3 = 0,
-		id = 90880,
+		id = 90820,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			3
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				1,
-				1416
+				6,
+				50020
 			}
 		},
 		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1416
-			},
-			{
-				4,
-				1205
-			},
 			6,
-			10,
-			11,
-			12
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			90880
+			90820,
+			88000
 		},
 		skill_id = {},
 		part_main = {
-			3,
-			18
+			6,
+			7
 		},
-		part_sub = {},
+		part_sub = {
+			6,
+			7
+		},
 		equip_parameters = {},
 		label = {
 			"FFNF",
-			"CA",
-			"MG",
-			"HE"
+			"CV",
+			"FT"
 		}
 	},
-	[90881] = {
-		id = 90881,
-		damage = "30 x 4",
-		base = 90880,
+	[90821] = {
+		id = 90821,
+		base = 90820,
+		ammo_info = {
+			{
+				6,
+				50021
+			}
+		},
 		weapon_id = {
-			90881
+			90821,
+			88001
 		}
 	},
-	[90882] = {
-		id = 90882,
-		damage = "32 x 4",
-		base = 90880,
+	[90822] = {
+		id = 90822,
+		base = 90820,
+		ammo_info = {
+			{
+				6,
+				50022
+			}
+		},
 		weapon_id = {
-			90882
+			90822,
+			88002
 		}
 	},
-	[90883] = {
-		id = 90883,
-		damage = "34 x 4",
-		base = 90880,
+	[90823] = {
+		id = 90823,
+		base = 90820,
+		ammo_info = {
+			{
+				6,
+				50023
+			}
+		},
 		weapon_id = {
-			90883
+			90823,
+			88003
 		}
 	},
-	[90884] = {
-		id = 90884,
-		damage = "36 x 4",
-		base = 90880,
+	[90824] = {
+		id = 90824,
+		base = 90820,
+		ammo_info = {
+			{
+				6,
+				50024
+			}
+		},
 		weapon_id = {
-			90884
+			90824,
+			88004
 		}
 	},
-	[90885] = {
-		id = 90885,
-		damage = "38 x 4",
-		base = 90880,
+	[90825] = {
+		id = 90825,
+		base = 90820,
+		ammo_info = {
+			{
+				6,
+				50025
+			}
+		},
 		weapon_id = {
-			90885
+			90825,
+			88005
 		}
 	},
-	[90886] = {
-		id = 90886,
-		damage = "40 x 4",
-		base = 90880,
+	[90826] = {
+		id = 90826,
+		base = 90820,
+		ammo_info = {
+			{
+				6,
+				50026
+			}
+		},
 		weapon_id = {
-			90886
+			90826,
+			88006
 		}
 	},
-	[90887] = {
-		id = 90887,
-		damage = "42 x 4",
-		base = 90880,
+	[90827] = {
+		id = 90827,
+		base = 90820,
+		ammo_info = {
+			{
+				6,
+				50027
+			}
+		},
 		weapon_id = {
-			90887
+			90827,
+			88007
 		}
 	},
-	[90888] = {
-		id = 90888,
-		damage = "44 x 4",
-		base = 90880,
+	[90840] = {
+		name = "Pierre Levasseur PL.7 Torpedo Bomber",
+		type = 8,
+		speciality = "Torpedo",
+		rarity = 3,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "50840",
+		attribute_2 = "air",
+		nationality = 8,
+		ammo = 5,
+		value_3 = 0,
+		id = 90840,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50020
+			},
+			{
+				4,
+				51560
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
 		weapon_id = {
-			90888
+			90840
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CV",
+			"TB"
 		}
 	},
-	[90889] = {
-		id = 90889,
-		damage = "46 x 4",
-		base = 90880,
+	[90841] = {
+		id = 90841,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50021
+			},
+			{
+				4,
+				51561
+			}
+		},
 		weapon_id = {
-			90889
+			90841
 		}
 	},
-	[90890] = {
-		id = 90890,
-		damage = "48 x 4",
-		base = 90880,
+	[90842] = {
+		id = 90842,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50022
+			},
+			{
+				4,
+				51562
+			}
+		},
 		weapon_id = {
-			90890
+			90842
+		}
+	},
+	[90843] = {
+		id = 90843,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50023
+			},
+			{
+				4,
+				51563
+			}
+		},
+		weapon_id = {
+			90843
+		}
+	},
+	[90844] = {
+		id = 90844,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50024
+			},
+			{
+				4,
+				51564
+			}
+		},
+		weapon_id = {
+			90844
+		}
+	},
+	[90845] = {
+		id = 90845,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50025
+			},
+			{
+				4,
+				51565
+			}
+		},
+		weapon_id = {
+			90845
+		}
+	},
+	[90846] = {
+		id = 90846,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50026
+			},
+			{
+				4,
+				51566
+			}
+		},
+		weapon_id = {
+			90846
+		}
+	},
+	[90847] = {
+		id = 90847,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50027
+			},
+			{
+				4,
+				51567
+			}
+		},
+		weapon_id = {
+			90847
 		}
 	}
 }

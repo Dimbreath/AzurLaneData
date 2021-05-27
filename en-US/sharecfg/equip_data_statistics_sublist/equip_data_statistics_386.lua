@@ -1,68 +1,127 @@
 pg = pg or {}
 pg.equip_data_statistics_386 = {
-	[90721] = {
-		id = 90721,
-		damage = "7 x 4",
-		base = 90720,
+	[90601] = {
+		id = 90601,
+		damage = "42/wave",
+		base = 90600,
 		weapon_id = {
-			90721
+			90601
 		}
 	},
-	[90722] = {
-		id = 90722,
-		damage = "8 x 4",
-		base = 90720,
+	[90602] = {
+		id = 90602,
+		damage = "46/wave",
+		base = 90600,
 		weapon_id = {
-			90722
+			90602
 		}
 	},
-	[90723] = {
-		id = 90723,
-		damage = "9 x 4",
-		base = 90720,
+	[90603] = {
+		id = 90603,
+		damage = "50/wave",
+		base = 90600,
 		weapon_id = {
-			90723
+			90603
 		}
 	},
-	[90724] = {
-		id = 90724,
-		damage = "10 x 4",
-		base = 90720,
+	[90604] = {
+		id = 90604,
+		damage = "54/wave",
+		base = 90600,
 		weapon_id = {
-			90724
+			90604
 		}
 	},
-	[90725] = {
-		id = 90725,
-		damage = "12 x 4",
-		base = 90720,
+	[90605] = {
+		id = 90605,
+		damage = "58/wave",
+		base = 90600,
 		weapon_id = {
-			90725
+			90605
 		}
 	},
-	[90726] = {
-		id = 90726,
-		damage = "14 x 4",
-		base = 90720,
+	[90606] = {
+		id = 90606,
+		damage = "62/wave",
+		base = 90600,
 		weapon_id = {
-			90726
+			90606
 		}
 	},
-	[90740] = {
+	[90607] = {
+		id = 90607,
+		damage = "66/wave",
+		base = 90600,
+		weapon_id = {
+			90607
+		}
+	},
+	[90608] = {
+		id = 90608,
+		damage = "70/wave",
+		base = 90600,
+		weapon_id = {
+			90608
+		}
+	},
+	[90609] = {
+		id = 90609,
+		damage = "74/wave",
+		base = 90600,
+		weapon_id = {
+			90609
+		}
+	},
+	[90610] = {
+		id = 90610,
+		damage = "78/wave",
+		base = 90600,
+		weapon_id = {
+			90610
+		}
+	},
+	[90611] = {
+		anti_siren = 100,
+		damage = "78/wave",
+		base = 90600,
+		id = 90611,
+		weapon_id = {
+			90611
+		}
+	},
+	[90612] = {
+		anti_siren = 200,
+		damage = "78/wave",
+		base = 90600,
+		id = 90612,
+		weapon_id = {
+			90612
+		}
+	},
+	[90613] = {
+		anti_siren = 300,
+		damage = "78/wave",
+		base = 90600,
+		id = 90613,
+		weapon_id = {
+			90613
+		}
+	},
+	[90700] = {
 		name = "Single 138.6mm Mle 1927 Naval Gun",
 		speciality = "Lock",
 		type = 1,
-		tech = 3,
+		tech = 1,
 		descrip = "No description",
-		value_2 = 25,
+		value_2 = 5,
 		icon = "50700",
 		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "6 x 4",
+		rarity = 2,
+		damage = "4 x 4",
 		nationality = 8,
 		ammo = 3,
 		value_3 = 0,
-		id = 90740,
+		id = 90700,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -91,7 +150,7 @@ pg.equip_data_statistics_386 = {
 			12
 		},
 		weapon_id = {
-			90740
+			90700
 		},
 		skill_id = {},
 		part_main = {
@@ -114,84 +173,27 @@ pg.equip_data_statistics_386 = {
 			"MG"
 		}
 	},
-	[90741] = {
-		id = 90741,
-		damage = "7 x 4",
-		base = 90740,
+	[90701] = {
+		id = 90701,
+		base = 90700,
 		weapon_id = {
-			90741
+			90701
 		}
 	},
-	[90742] = {
-		id = 90742,
-		damage = "8 x 4",
-		base = 90740,
+	[90702] = {
+		id = 90702,
+		damage = "5 x 4",
+		base = 90700,
 		weapon_id = {
-			90742
+			90702
 		}
 	},
-	[90743] = {
-		id = 90743,
-		damage = "9 x 4",
-		base = 90740,
+	[90703] = {
+		id = 90703,
+		damage = "6 x 4",
+		base = 90700,
 		weapon_id = {
-			90743
-		}
-	},
-	[90744] = {
-		id = 90744,
-		damage = "10 x 4",
-		base = 90740,
-		weapon_id = {
-			90744
-		}
-	},
-	[90745] = {
-		id = 90745,
-		damage = "11 x 4",
-		base = 90740,
-		weapon_id = {
-			90745
-		}
-	},
-	[90746] = {
-		id = 90746,
-		damage = "12 x 4",
-		base = 90740,
-		weapon_id = {
-			90746
-		}
-	},
-	[90747] = {
-		id = 90747,
-		damage = "13 x 4",
-		base = 90740,
-		weapon_id = {
-			90747
-		}
-	},
-	[90748] = {
-		id = 90748,
-		damage = "15 x 4",
-		base = 90740,
-		weapon_id = {
-			90748
-		}
-	},
-	[90749] = {
-		id = 90749,
-		damage = "17 x 4",
-		base = 90740,
-		weapon_id = {
-			90749
-		}
-	},
-	[90750] = {
-		id = 90750,
-		damage = "19 x 4",
-		base = 90740,
-		weapon_id = {
-			90750
+			90703
 		}
 	}
 }

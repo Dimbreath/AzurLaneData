@@ -2,94 +2,6 @@ pg = pg or {}
 pg.weapon_property_3 = {}
 
 function ()
-	uv0.weapon_property_3[435] = {
-		action_index = "attack",
-		range = 52,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "皇家雷击轻巡副炮T4（德雷克模拟关卡用）",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 10,
-		corrected = 125,
-		min_range = 0,
-		id = 435,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 150,
-		queue = 0,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0.4,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19172
-		},
-		barrage_ID = {
-			1007
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_3[436] = {
-		action_index = "attack",
-		range = 90,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "P1自带双联装150mm主炮",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 21,
-		corrected = 115,
-		min_range = 0,
-		id = 436,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 412,
-		queue = 0,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0.3,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19247
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
 	uv0.weapon_property_3[437] = {
 		action_index = "attack",
 		range = 25,
@@ -1107,6 +1019,24 @@ function ()
 		id = 4142,
 		reload_max = 570,
 		damage = 33,
+		base = 4140
+	}
+	uv0.weapon_property_3[4143] = {
+		id = 4143,
+		reload_max = 555,
+		damage = 36,
+		base = 4140
+	}
+	uv0.weapon_property_3[4144] = {
+		id = 4144,
+		reload_max = 540,
+		damage = 39,
+		base = 4140
+	}
+	uv0.weapon_property_3[4145] = {
+		id = 4145,
+		reload_max = 525,
+		damage = 42,
 		base = 4140
 	}
 end()

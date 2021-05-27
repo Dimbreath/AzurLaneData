@@ -107,6 +107,7 @@ function slot0.initData(slot0)
 	slot0.frozenCount = 0
 	slot0.currentBG = nil
 	slot0.mbDict = {}
+	slot0.mapGroup = {}
 
 	if not slot0.contextData.huntingRangeVisibility then
 		slot0.contextData.huntingRangeVisibility = 2
@@ -218,12 +219,21 @@ function slot0.initUI(slot0)
 
 	setActive(slot0.curtain, false)
 
-	slot0.map = slot0:findTF("map")
-	slot0.map:GetComponent(typeof(Image)).enabled = true
+	slot0.map = slot0:findTF("maps")
+	slot4 = "maps/map2"
+	slot0.mapTFs = {
+		slot0:findTF("maps/map1"),
+		slot0:findTF(slot4)
+	}
+
+	for slot4, slot5 in ipairs(slot0.mapTFs) do
+		slot5:GetComponent(typeof(Image)).enabled = false
+	end
+
 	slot1 = slot0.map:GetComponent(typeof(AspectRatioFitter))
 	slot1.aspectRatio = 1
 	slot1.aspectRatio = slot1.aspectRatio
-	slot0.UIFXList = slot0:findTF("map/UI_FX_list")
+	slot0.UIFXList = slot0:findTF("maps/UI_FX_list")
 
 	for slot7 = 0, slot0.UIFXList:GetComponentsInChildren(typeof(Renderer)).Length - 1 do
 		slot3[slot7].sortingOrder = -1
@@ -816,7 +826,9 @@ function slot0.PreloadLevelMainUI(slot0, slot1, slot2)
 
 	slot4 = slot4 + 1
 
-	GetSpriteFromAtlasAsync("levelmap/" .. getProxy(ChapterProxy):getMapById(slot1):getConfig("bg"), "", slot5)
+	table.eachParallel(slot0:GetMapBG(getProxy(ChapterProxy):getMapById(slot1)), function (slot0, slot1, slot2)
+		GetSpriteFromAtlasAsync("levelmap/" .. slot1.BG, "", slot2)
+	end, slot5)
 end
 
 function slot0.selectMap(slot0)
@@ -1017,83 +1029,35 @@ function slot0.updateClouds(slot0)
 	end
 end
 
-function slot0.updateCouldAnimator(slot0)
-	slot1 = slot0.contextData.map:getConfig("ani_name")
+function slot0.updateCouldAnimator(slot0, slot1, slot2)
+	if slot1 then
+		slot3 = nil
+		slot4 = slot0.mapTFs[slot2]
 
-	if slot0.contextData.map:getConfig("animtor") == 1 and slot1 and #slot1 > 0 then
-		if slot0.tornadoTF and slot0.aniName ~= slot0.contextData.map:getConfig("ani_name") then
-			slot0:destroyCloudAnimator()
-		end
-
-		function slot3()
+		function slot5()
 			slot0 = Vector3.one
 
-			if uv0.tornadoTF.transform.rect.width > 0 and uv0.tornadoTF.transform.rect.height > 0 then
-				slot0.x = uv0.tornadoTF.transform.parent.rect.width / uv0.tornadoTF.transform.rect.width
-				slot0.y = uv0.tornadoTF.transform.parent.rect.height / uv0.tornadoTF.transform.rect.height
+			if uv0.transform.rect.width > 0 and uv0.transform.rect.height > 0 then
+				slot0.x = uv0.transform.parent.rect.width / uv0.transform.rect.width
+				slot0.y = uv0.transform.parent.rect.height / uv0.transform.rect.height
 			end
 
-			uv0.tornadoTF.transform.localScale = slot0
+			uv0.transform.localScale = slot0
 		end
 
-		if IsNil(slot0.tornadoTF) then
-			if slot0.animtorLoading then
-				return
-			end
+		table.insert(slot0.mapGroup, slot0.loader:GetPrefab("ui/" .. slot1, slot1, function (slot0)
+			slot0:SetActive(true)
 
-			slot0.animtorLoading = slot2
+			uv0 = slot0
 
-			PoolMgr.GetInstance():GetUI(slot2, true, function (slot0)
-				if not uv1.contextData then
-					function (slot0)
-						PoolMgr.GetInstance():ReturnUI(uv0, slot0)
-					end(slot0)
-
-					return
-				end
-
-				if uv1.animtorLoading ~= uv1.contextData.map:getConfig("ani_name") then
-					uv1.animtorLoading = nil
-
-					slot1(slot0)
-
-					return
-				end
-
-				uv1.animtorLoading = nil
-
-				slot0:SetActive(uv1.contextData.map:getConfig("animtor") == 1 and not uv1.isSubLayerOpen)
-
-				uv1.tornadoTF = slot0
-
-				setParent(slot0, uv1:findTF("map"))
-				tf(uv1.tornadoTF):SetSiblingIndex(1)
-
-				uv1.aniName = uv0
-
-				pg.ViewUtils.SetSortingOrder(slot0, ChapterConst.LayerWeightMapAnimation)
-				uv2()
-			end)
-		else
-			setParent(slot0.tornadoTF, slot0:findTF("map"))
-			tf(slot0.tornadoTF):SetSiblingIndex(1)
-			setActive(slot0.tornadoTF, true)
-			slot3()
-		end
-
-		return
-	end
-
-	if not IsNil(slot0.tornadoTF) then
-		setActive(slot0.tornadoTF, false)
+			setParent(slot0, uv1)
+			pg.ViewUtils.SetSortingOrder(slot0, ChapterConst.LayerWeightMap + uv2 * 2 - 1)
+			uv3()
+		end))
 	end
 end
 
 function slot0.updateMapItems(slot0)
-	for slot4 = 1, slot0.UIFXList.childCount do
-		setActive(slot0.UIFXList:GetChild(slot4 - 1), false)
-	end
-
 	if slot0.contextData.map:getConfig("cloud_suffix") == "" then
 		setActive(slot0.clouds, false)
 	else
@@ -1121,17 +1085,10 @@ function slot0.updateMapItems(slot0)
 end
 
 function slot0.updateDifficultyBtns(slot0)
-	slot1 = slot0.contextData.map
-	slot2 = slot1:getConfig("type")
-
-	if slot1:getConfig("uifx") ~= "" then
-		setActive(slot0:findTF(slot3, slot0.UIFXList), true)
-	end
-
-	setActive(slot0.normalBtn, slot2 == Map.ELITE)
+	setActive(slot0.normalBtn, slot0.contextData.map:getConfig("type") == Map.ELITE)
 	setActive(slot0.eliteQuota, slot2 == Map.ELITE)
 	setActive(slot0.eliteBtn, slot2 == Map.SCENARIO)
-	setActive(slot0.eliteBtn:Find("pic_activity"), getProxy(ActivityProxy):getActivityById(ActivityConst.ELITE_AWARD_ACTIVITY_ID) and not slot5:isEnd())
+	setActive(slot0.eliteBtn:Find("pic_activity"), getProxy(ActivityProxy):getActivityById(ActivityConst.ELITE_AWARD_ACTIVITY_ID) and not slot4:isEnd())
 end
 
 function slot0.updateActivityBtns(slot0)
@@ -1339,16 +1296,6 @@ function slot0.registerActBtn(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.destroyCloudAnimator(slot0)
-	if not IsNil(slot0.tornadoTF) then
-		slot0.tornadoTF.transform.localScale = Vector3.one
-
-		PoolMgr.GetInstance():ReturnUI(slot0.aniName, slot0.tornadoTF)
-
-		slot0.tornadoTF = nil
-	end
-end
-
 function slot0.initCloudsPos(slot0, slot1)
 	slot0.initPositions = {}
 
@@ -1422,6 +1369,7 @@ function slot0.ShowSelectedMap(slot0, slot1, slot2)
 end
 
 function slot0.setMap(slot0, slot1)
+	slot0.lastMapIdx = slot0.contextData.mapIdx
 	slot0.contextData.mapIdx = slot1
 	slot0.contextData.map = getProxy(ChapterProxy):getMapById(slot1)
 
@@ -1488,7 +1436,16 @@ function slot0.updateMap(slot0)
 
 	seriesAsync({
 		function (slot0)
-			uv0:SwitchBG(uv1:getConfig("bg"))
+			uv0:SwitchMapBG(uv1, uv0.lastMapIdx)
+
+			uv0.lastMapIdx = nil
+
+			for slot5 = 1, uv0.UIFXList.childCount do
+				slot6 = uv0.UIFXList:GetChild(slot5 - 1)
+
+				setActive(slot6, slot6.name == uv1:getConfig("uifx"))
+			end
+
 			uv0:PlayBGM()
 			uv0:SwitchMapBuilder(uv0:JudgeMapBuilderType(), slot0)
 		end,
@@ -1497,7 +1454,6 @@ function slot0.updateMap(slot0)
 
 			uv0.mapBuilder:Update(uv1)
 			uv0:UpdateSwitchMapButton()
-			uv0:updateCouldAnimator()
 			uv0:updateMapItems()
 			uv0.mapBuilder:UpdateButtons()
 			uv0.mapBuilder:PostUpdateMap(uv1)
@@ -1991,7 +1947,9 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 						uv1.levelStageView:ShiftStagePanelIn()
 					end,
 					function (slot0)
-						uv1:SwitchBG(uv0:getConfig("bg"), slot0)
+						uv1:SwitchBG({
+							BG = uv0:getConfig("bg")
+						}, slot0)
 						uv1:PlayBGM()
 					end
 				}, function ()
@@ -2112,7 +2070,7 @@ function slot0.switchToMap(slot0, slot1)
 		slot0.levelStageView:ActionInvoke("SwitchToMap")
 	end
 
-	slot0:SwitchBG(slot0.contextData.map:getConfig("bg"))
+	slot0:SwitchMapBG(slot0.contextData.map)
 	slot0:setChapter(nil)
 	slot0:PlayBGM()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.topPanel, slot0._tf)
@@ -2132,19 +2090,215 @@ function slot0.SwitchBG(slot0, slot1, slot2)
 		if slot2 then
 			slot2()
 		end
-	elseif slot0.currentBG ~= slot1 then
-		slot0.currentBG = slot1
+	elseif table.equal(slot0.currentBG, slot1) then
+		return
+	end
 
-		GetSpriteFromAtlasAsync("levelmap/" .. slot1, "", function (slot0)
-			if not IsNil(uv0.map) and uv1 == uv0.currentBG then
-				setImageSprite(uv0.map, slot0)
+	slot0.currentBG = slot1
+	slot3 = {}
 
-				if uv2 then
-					uv2()
+	table.eachParallel(slot1, function (slot0, slot1, slot2)
+		table.insert(uv0.mapGroup, uv0.loader:GetSpriteDirect("levelmap/" .. slot1.BG, "", function (slot0)
+			uv0[uv1] = slot0
+
+			uv2()
+		end, uv0.mapTFs[slot0]))
+		uv0:updateCouldAnimator(slot1.Animator, slot0)
+	end, function ()
+		for slot3, slot4 in ipairs(uv0.mapTFs) do
+			setImageSprite(slot4, uv1[slot3])
+			setActive(slot4, uv2[slot3])
+			SetCompomentEnabled(slot4, typeof(Image), true)
+		end
+
+		existCall(uv3)
+	end)
+end
+
+slot4 = {
+	1520001,
+	1520002,
+	1520011,
+	1520012
+}
+slot5 = {
+	{
+		1420008,
+		"map_1420008",
+		1420021,
+		"map_1420001"
+	},
+	{
+		1420018,
+		"map_1420018",
+		1420031,
+		"map_1420011"
+	}
+}
+slot6 = {
+	1420001,
+	1420011
+}
+
+function slot0.ClearMapTransitions(slot0)
+	if not slot0.mapTransitions then
+		return
+	end
+
+	for slot4, slot5 in pairs(slot0.mapTransitions) do
+		if slot5 then
+			PoolMgr.GetInstance():ReturnPrefab("ui/" .. slot4, slot4, slot5, true)
+		else
+			PoolMgr.GetInstance():DestroyPrefab("ui/" .. slot4, slot4)
+		end
+	end
+
+	slot0.mapTransitions = nil
+end
+
+function slot0.SwitchMapBG(slot0, slot1, slot2)
+	slot3, slot4, slot5 = slot0:GetMapBG(slot1, slot2)
+
+	if not slot3 or #slot3 <= 0 or table.equal(slot0.currentBG, slot3) then
+		return
+	end
+
+	for slot9, slot10 in ipairs(slot0.mapGroup) do
+		slot0.loader:ClearRequest(slot10)
+	end
+
+	table.clear(slot0.mapGroup)
+
+	if not slot4 then
+		slot0:SwitchBG(slot3)
+
+		return
+	end
+
+	slot0:PlayMapTransition("LevelMapTransition_" .. slot4, slot5, function ()
+		uv0:SwitchBG(uv1)
+	end)
+end
+
+function slot0.GetMapBG(slot0, slot1, slot2)
+	if not table.contains(uv0, slot1.id) then
+		return {
+			slot0:GetMapElement(slot1)
+		}
+	end
+
+	slot5 = bit.lshift(bit.rshift(table.indexof(uv0, slot1.id) - 1, 1), 1) + 1
+
+	if _.all(_.map({
+		uv0[slot5],
+		uv0[slot5 + 1]
+	}, function (slot0)
+		return getProxy(ChapterProxy):getMapById(slot0)
+	end), function (slot0)
+		return slot0:isAllChaptersClear()
+	end) then
+		slot7 = {
+			slot0:GetMapElement(slot1)
+		}
+
+		if not slot2 or math.abs(slot3 - slot2) ~= 1 then
+			return slot7
+		end
+
+		return slot7, uv1[bit.rshift(slot5 - 1, 1) + 1], bit.band(slot4, 1) == 1
+	else
+		function ()
+			for slot4, slot5 in ipairs(uv0[1]:getChapters(true)) do
+				if not slot5:isClear() then
+					return
 				end
+
+				uv1 = uv1 + 1
 			end
+
+			if not uv0[2]:isAnyChapterUnlocked(true) then
+				return
+			end
+
+			uv1 = uv1 + 1
+
+			for slot5, slot6 in ipairs(uv0[2]:getChapters(true)) do
+				if not slot6:isClear() then
+					return
+				end
+
+				uv1 = uv1 + 1
+			end
+		end()
+
+		slot9 = nil
+
+		if 0 > 0 then
+			slot10 = uv2[bit.rshift(slot5 - 1, 1) + 1]
+			slot9 = {
+				{
+					BG = "map_" .. slot10[1],
+					Animator = slot10[2]
+				},
+				{
+					BG = "map_" .. slot10[3] + slot7,
+					Animator = slot10[4]
+				}
+			}
+		else
+			slot9 = {
+				slot0:GetMapElement(slot1)
+			}
+		end
+
+		return slot9
+	end
+end
+
+function slot0.GetMapElement(slot0, slot1)
+	return {
+		BG = slot1:getConfig("bg"),
+		Animator = slot0:GetMapAnimator(slot1)
+	}
+end
+
+function slot0.GetMapAnimator(slot0, slot1)
+	slot2 = slot1:getConfig("ani_name")
+
+	if slot1:getConfig("animtor") == 1 and slot2 and #slot2 > 0 then
+		return slot2
+	end
+end
+
+function slot0.PlayMapTransition(slot0, slot1, slot2, slot3, slot4)
+	slot0.mapTransitions = slot0.mapTransitions or {}
+	slot5 = nil
+
+	function slot6()
+		uv0:frozen()
+		existCall(uv1, uv2)
+		uv2:SetActive(true)
+		pg.UIMgr.GetInstance():OverlayPanel(tf(uv2), false, {
+			groupName = LayerWeightConst.GROUP_LEVELUI
+		})
+		uv2:GetComponent(typeof(Animator)):Play(uv3 and "Sequence" or "Inverted", -1, 0)
+		slot0:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
+			pg.UIMgr.GetInstance():UnOverlayPanel(uv0, uv1._tf)
+			existCall(uv2, uv3)
+			PoolMgr.GetInstance():ReturnPrefab("ui/" .. uv4, uv4, uv3)
+
+			uv1.mapTransitions[uv4] = false
+
+			uv1:unfrozen()
 		end)
 	end
+
+	PoolMgr.GetInstance():GetPrefab("ui/" .. slot1, slot1, true, function (slot0)
+		uv0 = slot0
+		uv1.mapTransitions[uv2] = slot0
+
+		uv3()
+	end)
 end
 
 function slot0.DestroyLevelStageView(slot0)
@@ -2989,12 +3143,6 @@ function slot0.onSubLayerOpen(slot0)
 		setActive(slot0[slot4], false)
 	end
 
-	slot2 = slot0.contextData.map:getConfig("bg")
-
-	if slot0.tornadoTF and slot2 and #slot2 > 0 then
-		setActive(slot0.tornadoTF, false)
-	end
-
 	slot0.isSubLayerOpen = true
 end
 
@@ -3013,10 +3161,6 @@ function slot0.onSubLayerClose(slot0)
 				slot0.visibilityForPreCombat = nil
 			end
 		end
-	end
-
-	if slot0.tornadoTF and slot0.contextData.map:getConfig("animtor") == 1 then
-		setActive(slot0.tornadoTF, true)
 	end
 
 	slot0.isSubLayerOpen = nil
@@ -3246,6 +3390,7 @@ function slot0.RecordLastMapOnExit(slot0)
 end
 
 function slot0.willExit(slot0)
+	slot0:ClearMapTransitions()
 	slot0.loader:Clear()
 	slot0:RemoveVoteBookTimer()
 
@@ -3280,7 +3425,6 @@ function slot0.willExit(slot0)
 	slot0:destroyTorpedo()
 	slot0:destroyStrikeAnim()
 	slot0:destroyTracking()
-	slot0:destroyCloudAnimator()
 	slot0:destroyUIAnims()
 	PoolMgr.GetInstance():DestroyPrefab("chapter/cell_quad_mark", "")
 	PoolMgr.GetInstance():DestroyPrefab("chapter/cell_quad", "")
@@ -3328,9 +3472,13 @@ function slot0.willExit(slot0)
 	slot0.map.localScale = Vector3.one
 	slot0.map.pivot = Vector2(0.5, 0.5)
 	slot0.float.localScale = Vector3.one
-	slot0.float.pivot = Vector2(0.5, 0.5)
+	slot4 = 0.5
+	slot0.float.pivot = Vector2(0.5, slot4)
 
-	clearImageSprite(slot0.map)
+	for slot4, slot5 in ipairs(slot0.mapTFs) do
+		clearImageSprite(slot5)
+	end
+
 	_.each(slot0.cloudRTFs, function (slot0)
 		clearImageSprite(slot0)
 	end)

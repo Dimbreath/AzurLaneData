@@ -25,7 +25,7 @@ function slot0.GetStoryStepCls(slot0)
 	})[slot0]
 end
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
+function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.name = slot1.id
 	slot0.mode = slot1.mode
 	slot0.once = slot1.once
@@ -35,19 +35,18 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0.noWaitFade = defaultValue(slot1.noWaitFade, false)
 	slot0.speedData = slot1.speed or getProxy(SettingsProxy):GetStorySpeed() or 0
 	slot0.steps = {}
-	slot7 = slot4 or {}
+	slot6 = slot3 or {}
 
-	for slot11, slot12 in ipairs(slot1.scripts) do
-		if uv0.GetStoryStepCls(slot12.mode or slot0.mode).New(slot12):ExistOption() and slot7[0 + 1] then
-			slot15:SetOptionSelCodes(slot7[slot6])
+	for slot10, slot11 in ipairs(slot1.scripts) do
+		if uv0.GetStoryStepCls(slot11.mode or slot0.mode).New(slot11):ExistOption() and slot6[0 + 1] then
+			slot14:SetOptionSelCodes(slot6[slot5])
 		end
 
-		table.insert(slot0.steps, slot15)
+		table.insert(slot0.steps, slot14)
 	end
 
 	slot0.branchCode = nil
 	slot0.force = slot2
-	slot0.isReview = slot3
 	slot0.isPlayed = pg.NewStoryMgr:GetInstance():IsPlayed(slot0.name)
 	slot0.nextScriptName = nil
 	slot0.skipAll = false
@@ -104,11 +103,7 @@ function slot0.ShouldHideSkip(slot0)
 end
 
 function slot0.CanPlay(slot0)
-	return slot0.force or not slot0.isPlayed or slot0.isReview
-end
-
-function slot0.IsReView(slot0)
-	return slot0.isReview
+	return slot0.force or not slot0.isPlayed
 end
 
 function slot0.GetId(slot0)

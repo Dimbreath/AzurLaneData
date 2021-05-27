@@ -2,68 +2,6 @@ pg = pg or {}
 pg.weapon_property_5 = {}
 
 function ()
-	uv0.weapon_property_5[5022] = {
-		id = 5022,
-		reload_max = 3766,
-		damage = 68,
-		base = 5020
-	}
-	uv0.weapon_property_5[5023] = {
-		id = 5023,
-		reload_max = 3688,
-		damage = 77,
-		base = 5020
-	}
-	uv0.weapon_property_5[5040] = {
-		action_index = "attack",
-		range = 50,
-		type = 16,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "三联533mm鱼雷T3",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 56,
-		corrected = 100,
-		min_range = 0,
-		id = 5040,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3728,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			1800
-		},
-		barrage_ID = {
-			1402
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_5[5041] = {
-		id = 5041,
-		reload_max = 3653,
-		damage = 66,
-		base = 5040
-	}
 	uv0.weapon_property_5[5042] = {
 		id = 5042,
 		reload_max = 3578,
@@ -635,5 +573,76 @@ function ()
 		reload_max = 4075,
 		damage = 146,
 		base = 5240
+	}
+	uv0.weapon_property_5[5250] = {
+		id = 5250,
+		reload_max = 3975,
+		damage = 156,
+		base = 5240
+	}
+	uv0.weapon_property_5[5251] = {
+		reload_max = 3975,
+		damage = 156,
+		base = 5240,
+		id = 5251,
+		corrected = 104
+	}
+	uv0.weapon_property_5[5252] = {
+		reload_max = 3975,
+		damage = 156,
+		base = 5240,
+		id = 5252,
+		corrected = 110
+	}
+	uv0.weapon_property_5[5253] = {
+		reload_max = 3975,
+		damage = 156,
+		base = 5240,
+		id = 5253,
+		corrected = 118
+	}
+	uv0.weapon_property_5[5300] = {
+		action_index = "attack",
+		range = 50,
+		type = 16,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "双联550mm鱼雷T1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 42,
+		corrected = 100,
+		min_range = 0,
+		id = 5300,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3600,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1800
+		},
+		barrage_ID = {
+			1401
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
 end()

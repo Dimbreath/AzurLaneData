@@ -2,299 +2,52 @@ pg = pg or {}
 pg.weapon_property_84 = {}
 
 function ()
-	uv0.weapon_property_84[50826] = {
-		id = 50826,
-		reload_max = 77,
-		damage = 12,
-		base = 50820
+	uv0.weapon_property_84[51045] = {
+		id = 51045,
+		damage = 198,
+		base = 51040
 	}
-	uv0.weapon_property_84[50827] = {
-		id = 50827,
-		reload_max = 76,
-		damage = 13,
-		base = 50820
+	uv0.weapon_property_84[51046] = {
+		id = 51046,
+		damage = 216,
+		base = 51040
 	}
-	uv0.weapon_property_84[50828] = {
-		id = 50828,
-		reload_max = 74,
-		damage = 14,
-		base = 50820
+	uv0.weapon_property_84[51047] = {
+		id = 51047,
+		damage = 234,
+		base = 51040
 	}
-	uv0.weapon_property_84[50829] = {
-		id = 50829,
-		reload_max = 72,
-		damage = 15,
-		base = 50820
+	uv0.weapon_property_84[51048] = {
+		id = 51048,
+		damage = 252,
+		base = 51040
 	}
-	uv0.weapon_property_84[50830] = {
-		id = 50830,
-		reload_max = 70,
-		damage = 16,
-		base = 50820
+	uv0.weapon_property_84[51049] = {
+		id = 51049,
+		damage = 270,
+		base = 51040
 	}
-	uv0.weapon_property_84[50831] = {
-		id = 50831,
-		reload_max = 70,
-		damage = 17,
-		base = 50820
+	uv0.weapon_property_84[51050] = {
+		id = 51050,
+		damage = 288,
+		base = 51040
 	}
-	uv0.weapon_property_84[50832] = {
-		id = 50832,
-		reload_max = 70,
-		damage = 18,
-		base = 50820
+	uv0.weapon_property_84[51051] = {
+		id = 51051,
+		damage = 300,
+		base = 51040
 	}
-	uv0.weapon_property_84[50833] = {
-		id = 50833,
-		reload_max = 70,
-		damage = 19,
-		base = 50820
+	uv0.weapon_property_84[51052] = {
+		id = 51052,
+		damage = 317,
+		base = 51040
 	}
-	uv0.weapon_property_84[50840] = {
-		action_index = "",
-		range = 30,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "1 x 13mm Cannon",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 50840,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 83,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2100
-		},
-		barrage_ID = {
-			2100
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_84[51053] = {
+		id = 51053,
+		damage = 340,
+		base = 51040
 	}
-	uv0.weapon_property_84[50841] = {
-		id = 50841,
-		reload_max = 82,
-		damage = 9,
-		base = 50840
-	}
-	uv0.weapon_property_84[50842] = {
-		id = 50842,
-		reload_max = 80,
-		damage = 10,
-		base = 50840
-	}
-	uv0.weapon_property_84[50843] = {
-		id = 50843,
-		reload_max = 78,
-		damage = 11,
-		base = 50840
-	}
-	uv0.weapon_property_84[50844] = {
-		id = 50844,
-		reload_max = 77,
-		damage = 12,
-		base = 50840
-	}
-	uv0.weapon_property_84[50845] = {
-		id = 50845,
-		reload_max = 76,
-		damage = 13,
-		base = 50840
-	}
-	uv0.weapon_property_84[50846] = {
-		id = 50846,
-		reload_max = 74,
-		damage = 14,
-		base = 50840
-	}
-	uv0.weapon_property_84[50847] = {
-		id = 50847,
-		reload_max = 71,
-		damage = 15,
-		base = 50840
-	}
-	uv0.weapon_property_84[50848] = {
-		id = 50848,
-		reload_max = 70,
-		damage = 16,
-		base = 50840
-	}
-	uv0.weapon_property_84[50849] = {
-		id = 50849,
-		reload_max = 69,
-		damage = 17,
-		base = 50840
-	}
-	uv0.weapon_property_84[50850] = {
-		id = 50850,
-		reload_max = 67,
-		damage = 18,
-		base = 50840
-	}
-	uv0.weapon_property_84[50851] = {
-		id = 50851,
-		reload_max = 67,
-		damage = 19,
-		base = 50840
-	}
-	uv0.weapon_property_84[50852] = {
-		id = 50852,
-		reload_max = 67,
-		damage = 20,
-		base = 50840
-	}
-	uv0.weapon_property_84[50853] = {
-		id = 50853,
-		reload_max = 67,
-		damage = 21,
-		base = 50840
-	}
-	uv0.weapon_property_84[50860] = {
-		action_index = "",
-		range = 30,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "2 x 13mm Cannon",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 80,
-		charge_param = "",
-		damage = 15,
-		corrected = 100,
-		min_range = 0,
-		id = 50860,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 88,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2100
-		},
-		barrage_ID = {
-			2100
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_84[50861] = {
-		id = 50861,
-		reload_max = 86,
-		damage = 16,
-		base = 50860
-	}
-	uv0.weapon_property_84[50862] = {
-		id = 50862,
-		reload_max = 84,
-		damage = 17,
-		base = 50860
-	}
-	uv0.weapon_property_84[50863] = {
-		id = 50863,
-		reload_max = 83,
-		damage = 18,
-		base = 50860
-	}
-	uv0.weapon_property_84[50864] = {
-		id = 50864,
-		reload_max = 81,
-		damage = 20,
-		base = 50860
-	}
-	uv0.weapon_property_84[50865] = {
-		id = 50865,
-		reload_max = 79,
-		damage = 21,
-		base = 50860
-	}
-	uv0.weapon_property_84[50866] = {
-		id = 50866,
-		reload_max = 77,
-		damage = 22,
-		base = 50860
-	}
-	uv0.weapon_property_84[50867] = {
-		id = 50867,
-		reload_max = 76,
-		damage = 23,
-		base = 50860
-	}
-	uv0.weapon_property_84[50868] = {
-		id = 50868,
-		reload_max = 74,
-		damage = 25,
-		base = 50860
-	}
-	uv0.weapon_property_84[50869] = {
-		id = 50869,
-		reload_max = 72,
-		damage = 26,
-		base = 50860
-	}
-	uv0.weapon_property_84[50870] = {
-		id = 50870,
-		reload_max = 70,
-		damage = 27,
-		base = 50860
-	}
-	uv0.weapon_property_84[50871] = {
-		id = 50871,
-		reload_max = 70,
-		damage = 28,
-		base = 50860
-	}
-	uv0.weapon_property_84[50872] = {
-		id = 50872,
-		reload_max = 70,
-		damage = 30,
-		base = 50860
-	}
-	uv0.weapon_property_84[50873] = {
-		id = 50873,
-		reload_max = 70,
-		damage = 32,
-		base = 50860
-	}
-	uv0.weapon_property_84[51000] = {
+	uv0.weapon_property_84[51060] = {
 		action_index = "",
 		range = 75,
 		type = 3,
@@ -302,16 +55,234 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "2 x Torpedo-Common",
+		name = "3 x Torpedo-818Squadron ",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 20,
 		charge_param = "",
+		damage = 99,
+		corrected = 100,
+		min_range = 0,
+		id = 51060,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2113
+		},
+		barrage_ID = {
+			2112
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_84[51061] = {
+		id = 51061,
+		damage = 115,
+		base = 51060
+	}
+	uv0.weapon_property_84[51062] = {
+		id = 51062,
+		damage = 131,
+		base = 51060
+	}
+	uv0.weapon_property_84[51063] = {
+		id = 51063,
+		damage = 148,
+		base = 51060
+	}
+	uv0.weapon_property_84[51064] = {
+		id = 51064,
+		damage = 164,
+		base = 51060
+	}
+	uv0.weapon_property_84[51065] = {
+		id = 51065,
+		damage = 180,
+		base = 51060
+	}
+	uv0.weapon_property_84[51066] = {
+		id = 51066,
+		damage = 197,
+		base = 51060
+	}
+	uv0.weapon_property_84[51067] = {
+		id = 51067,
+		damage = 213,
+		base = 51060
+	}
+	uv0.weapon_property_84[51068] = {
+		id = 51068,
+		damage = 229,
+		base = 51060
+	}
+	uv0.weapon_property_84[51069] = {
+		id = 51069,
+		damage = 246,
+		base = 51060
+	}
+	uv0.weapon_property_84[51070] = {
+		id = 51070,
+		damage = 264,
+		base = 51060
+	}
+	uv0.weapon_property_84[51071] = {
+		id = 51071,
+		damage = 275,
+		base = 51060
+	}
+	uv0.weapon_property_84[51072] = {
+		id = 51072,
+		damage = 290,
+		base = 51060
+	}
+	uv0.weapon_property_84[51073] = {
+		id = 51073,
+		damage = 312,
+		base = 51060
+	}
+	uv0.weapon_property_84[51080] = {
+		action_index = "",
+		range = 75,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "3 x Torpedo-818Squadron ",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 20,
+		charge_param = "",
+		damage = 99,
+		corrected = 100,
+		min_range = 0,
+		id = 51080,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2111
+		},
+		barrage_ID = {
+			2112
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_84[51081] = {
+		id = 51081,
+		damage = 115,
+		base = 51080
+	}
+	uv0.weapon_property_84[51082] = {
+		id = 51082,
+		damage = 131,
+		base = 51080
+	}
+	uv0.weapon_property_84[51083] = {
+		id = 51083,
+		damage = 148,
+		base = 51080
+	}
+	uv0.weapon_property_84[51084] = {
+		id = 51084,
+		damage = 164,
+		base = 51080
+	}
+	uv0.weapon_property_84[51085] = {
+		id = 51085,
+		damage = 180,
+		base = 51080
+	}
+	uv0.weapon_property_84[51086] = {
+		id = 51086,
+		damage = 197,
+		base = 51080
+	}
+	uv0.weapon_property_84[51087] = {
+		id = 51087,
+		damage = 213,
+		base = 51080
+	}
+	uv0.weapon_property_84[51088] = {
+		id = 51088,
+		damage = 229,
+		base = 51080
+	}
+	uv0.weapon_property_84[51089] = {
+		id = 51089,
+		damage = 246,
+		base = 51080
+	}
+	uv0.weapon_property_84[51090] = {
+		id = 51090,
+		damage = 264,
+		base = 51080
+	}
+	uv0.weapon_property_84[51091] = {
+		id = 51091,
+		damage = 275,
+		base = 51080
+	}
+	uv0.weapon_property_84[51092] = {
+		id = 51092,
+		damage = 290,
+		base = 51080
+	}
+	uv0.weapon_property_84[51093] = {
+		id = 51093,
+		damage = 312,
+		base = 51080
+	}
+	uv0.weapon_property_84[51100] = {
+		action_index = "",
+		range = 75,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "3 x Torpedo-Common",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 24,
+		charge_param = "",
 		damage = 90,
 		corrected = 100,
 		min_range = 0,
-		id = 51000,
+		id = 51100,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -328,7 +299,7 @@ function ()
 			2111
 		},
 		barrage_ID = {
-			2111
+			2112
 		},
 		oxy_type = {
 			1
@@ -338,72 +309,72 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_84[51001] = {
-		id = 51001,
+	uv0.weapon_property_84[51101] = {
+		id = 51101,
 		damage = 104,
-		base = 51000
+		base = 51100
 	}
-	uv0.weapon_property_84[51002] = {
-		id = 51002,
+	uv0.weapon_property_84[51102] = {
+		id = 51102,
 		damage = 118,
-		base = 51000
+		base = 51100
 	}
-	uv0.weapon_property_84[51003] = {
-		id = 51003,
+	uv0.weapon_property_84[51103] = {
+		id = 51103,
 		damage = 132,
-		base = 51000
+		base = 51100
 	}
-	uv0.weapon_property_84[51004] = {
-		id = 51004,
+	uv0.weapon_property_84[51104] = {
+		id = 51104,
 		damage = 146,
-		base = 51000
+		base = 51100
 	}
-	uv0.weapon_property_84[51005] = {
-		id = 51005,
+	uv0.weapon_property_84[51105] = {
+		id = 51105,
 		damage = 160,
-		base = 51000
+		base = 51100
 	}
-	uv0.weapon_property_84[51006] = {
-		id = 51006,
+	uv0.weapon_property_84[51106] = {
+		id = 51106,
 		damage = 174,
-		base = 51000
+		base = 51100
 	}
-	uv0.weapon_property_84[51007] = {
-		id = 51007,
+	uv0.weapon_property_84[51107] = {
+		id = 51107,
 		damage = 188,
-		base = 51000
+		base = 51100
 	}
-	uv0.weapon_property_84[51008] = {
-		id = 51008,
+	uv0.weapon_property_84[51108] = {
+		id = 51108,
 		damage = 202,
-		base = 51000
+		base = 51100
 	}
-	uv0.weapon_property_84[51009] = {
-		id = 51009,
+	uv0.weapon_property_84[51109] = {
+		id = 51109,
 		damage = 216,
-		base = 51000
+		base = 51100
 	}
-	uv0.weapon_property_84[51010] = {
-		id = 51010,
+	uv0.weapon_property_84[51110] = {
+		id = 51110,
 		damage = 230,
-		base = 51000
+		base = 51100
 	}
-	uv0.weapon_property_84[51011] = {
-		id = 51011,
+	uv0.weapon_property_84[51111] = {
+		id = 51111,
 		damage = 239,
-		base = 51000
+		base = 51100
 	}
-	uv0.weapon_property_84[51012] = {
-		id = 51012,
+	uv0.weapon_property_84[51112] = {
+		id = 51112,
 		damage = 253,
-		base = 51000
+		base = 51100
 	}
-	uv0.weapon_property_84[51013] = {
-		id = 51013,
+	uv0.weapon_property_84[51113] = {
+		id = 51113,
 		damage = 271,
-		base = 51000
+		base = 51100
 	}
-	uv0.weapon_property_84[51020] = {
+	uv0.weapon_property_84[51120] = {
 		action_index = "",
 		range = 75,
 		type = 3,
@@ -411,16 +382,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "2 x Torpedo-Common",
+		name = "3 x Torpedo-Common",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 20,
+		angle = 24,
 		charge_param = "",
 		damage = 96,
 		corrected = 100,
 		min_range = 0,
-		id = 51020,
+		id = 51120,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -437,7 +408,7 @@ function ()
 			2111
 		},
 		barrage_ID = {
-			2111
+			2112
 		},
 		oxy_type = {
 			1
@@ -447,54 +418,54 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_84[51021] = {
-		id = 51021,
+	uv0.weapon_property_84[51121] = {
+		id = 51121,
 		damage = 112,
-		base = 51020
+		base = 51120
 	}
-	uv0.weapon_property_84[51022] = {
-		id = 51022,
+	uv0.weapon_property_84[51122] = {
+		id = 51122,
 		damage = 128,
-		base = 51020
+		base = 51120
 	}
-	uv0.weapon_property_84[51023] = {
-		id = 51023,
+	uv0.weapon_property_84[51123] = {
+		id = 51123,
 		damage = 144,
-		base = 51020
+		base = 51120
 	}
-	uv0.weapon_property_84[51024] = {
-		id = 51024,
+	uv0.weapon_property_84[51124] = {
+		id = 51124,
 		damage = 160,
-		base = 51020
+		base = 51120
 	}
-	uv0.weapon_property_84[51025] = {
-		id = 51025,
+	uv0.weapon_property_84[51125] = {
+		id = 51125,
 		damage = 176,
-		base = 51020
+		base = 51120
 	}
-	uv0.weapon_property_84[51026] = {
-		id = 51026,
+	uv0.weapon_property_84[51126] = {
+		id = 51126,
 		damage = 192,
-		base = 51020
+		base = 51120
 	}
-	uv0.weapon_property_84[51027] = {
-		id = 51027,
+	uv0.weapon_property_84[51127] = {
+		id = 51127,
 		damage = 208,
-		base = 51020
+		base = 51120
 	}
-	uv0.weapon_property_84[51028] = {
-		id = 51028,
+	uv0.weapon_property_84[51128] = {
+		id = 51128,
 		damage = 224,
-		base = 51020
+		base = 51120
 	}
-	uv0.weapon_property_84[51029] = {
-		id = 51029,
+	uv0.weapon_property_84[51129] = {
+		id = 51129,
 		damage = 240,
-		base = 51020
+		base = 51120
 	}
-	uv0.weapon_property_84[51030] = {
-		id = 51030,
+	uv0.weapon_property_84[51130] = {
+		id = 51130,
 		damage = 256,
-		base = 51020
+		base = 51120
 	}
 end()

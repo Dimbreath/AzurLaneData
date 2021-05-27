@@ -25,6 +25,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.maskMaterial = slot0:findTF("resource/material2"):GetComponent(typeof(Image)).material
 	slot0.glitchArtMaterialForPainting = slot0:findTF("resource/material3"):GetComponent(typeof(Image)).material
 	slot0.typewriterSpeed = 0
+	slot0.defualtFontSize = slot0.conentTxt.fontSize
 end
 
 function slot0.OnReset(slot0, slot1, slot2)
@@ -450,10 +451,10 @@ function slot0.AddGlitchArtEffectForPating(slot0, slot1, slot2, slot3)
 		for slot11 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
 			if slot7[slot11].gameObject.name == "temp_mask" then
 				slot12.material = slot0.maskMaterial
-			elseif slot12.gameObject.name == slot2.name then
-				slot12.material = slot0.glitchArtMaterialForPainting
-			else
+			elseif slot12.gameObject.name == "face" then
 				slot12.material = slot0.glitchArtMaterial
+			else
+				slot12.material = slot0.glitchArtMaterialForPainting
 			end
 		end
 	elseif slot4 then
@@ -464,6 +465,7 @@ function slot0.AddGlitchArtEffectForPating(slot0, slot1, slot2, slot3)
 end
 
 function slot0.UpdateContent(slot0, slot1, slot2)
+	slot0.conentTxt.fontSize = slot1:GetFontSize() or slot0.defualtFontSize
 	slot3 = slot1:GetContent()
 	slot0.conentTxt.text = slot3
 	slot4 = 999

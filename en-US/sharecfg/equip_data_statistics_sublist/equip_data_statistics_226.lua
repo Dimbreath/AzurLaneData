@@ -1,5 +1,168 @@
 pg = pg or {}
 pg.equip_data_statistics_226 = {
+	[33024] = {
+		id = 33024,
+		damage = "32 x 4",
+		base = 33020,
+		weapon_id = {
+			33024
+		}
+	},
+	[33025] = {
+		id = 33025,
+		damage = "34 x 4",
+		base = 33020,
+		weapon_id = {
+			33025
+		}
+	},
+	[33026] = {
+		id = 33026,
+		damage = "36 x 4",
+		base = 33020,
+		weapon_id = {
+			33026
+		}
+	},
+	[33040] = {
+		name = "Twin 203mm Naval Gun Mount",
+		speciality = "Lock",
+		type = 3,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "33000",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "26 x 4",
+		nationality = 3,
+		ammo = 2,
+		value_3 = 0,
+		id = 33040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1402
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1402
+			},
+			{
+				4,
+				1205
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			33040
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CA",
+			"MG",
+			"HE"
+		}
+	},
+	[33041] = {
+		id = 33041,
+		damage = "28 x 4",
+		base = 33040,
+		weapon_id = {
+			33041
+		}
+	},
+	[33042] = {
+		id = 33042,
+		damage = "30 x 4",
+		base = 33040,
+		weapon_id = {
+			33042
+		}
+	},
+	[33043] = {
+		id = 33043,
+		damage = "32 x 4",
+		base = 33040,
+		weapon_id = {
+			33043
+		}
+	},
+	[33044] = {
+		id = 33044,
+		damage = "34 x 4",
+		base = 33040,
+		weapon_id = {
+			33044
+		}
+	},
+	[33045] = {
+		id = 33045,
+		damage = "36 x 4",
+		base = 33040,
+		weapon_id = {
+			33045
+		}
+	},
+	[33046] = {
+		id = 33046,
+		damage = "38 x 4",
+		base = 33040,
+		weapon_id = {
+			33046
+		}
+	},
+	[33047] = {
+		id = 33047,
+		damage = "40 x 4",
+		base = 33040,
+		weapon_id = {
+			33047
+		}
+	},
+	[33048] = {
+		id = 33048,
+		damage = "42 x 4",
+		base = 33040,
+		weapon_id = {
+			33048
+		}
+	},
+	[33049] = {
+		id = 33049,
+		damage = "44 x 4",
+		base = 33040,
+		weapon_id = {
+			33049
+		}
+	},
+	[33050] = {
+		id = 33050,
+		damage = "46 x 4",
+		base = 33040,
+		weapon_id = {
+			33050
+		}
+	},
 	[33051] = {
 		anti_siren = 100,
 		damage = "46 x 4",
@@ -74,172 +237,6 @@ pg.equip_data_statistics_226 = {
 		base = 33060,
 		weapon_id = {
 			33061
-		}
-	},
-	[33062] = {
-		id = 33062,
-		damage = "32 x 4",
-		base = 33060,
-		weapon_id = {
-			33062
-		}
-	},
-	[33063] = {
-		id = 33063,
-		damage = "34 x 4",
-		base = 33060,
-		weapon_id = {
-			33063
-		}
-	},
-	[33064] = {
-		id = 33064,
-		damage = "36 x 4",
-		base = 33060,
-		weapon_id = {
-			33064
-		}
-	},
-	[33065] = {
-		id = 33065,
-		damage = "38 x 4",
-		base = 33060,
-		weapon_id = {
-			33065
-		}
-	},
-	[33066] = {
-		id = 33066,
-		damage = "40 x 4",
-		base = 33060,
-		weapon_id = {
-			33066
-		}
-	},
-	[33067] = {
-		id = 33067,
-		damage = "42 x 4",
-		base = 33060,
-		weapon_id = {
-			33067
-		}
-	},
-	[33068] = {
-		id = 33068,
-		damage = "44 x 4",
-		base = 33060,
-		weapon_id = {
-			33068
-		}
-	},
-	[33069] = {
-		id = 33069,
-		damage = "46 x 4",
-		base = 33060,
-		weapon_id = {
-			33069
-		}
-	},
-	[33070] = {
-		id = 33070,
-		damage = "48 x 4",
-		base = 33060,
-		weapon_id = {
-			33070
-		}
-	},
-	[33071] = {
-		anti_siren = 100,
-		damage = "48 x 4",
-		base = 33060,
-		id = 33071,
-		weapon_id = {
-			33071
-		}
-	},
-	[33072] = {
-		anti_siren = 200,
-		damage = "48 x 4",
-		base = 33060,
-		id = 33072,
-		weapon_id = {
-			33072
-		}
-	},
-	[33073] = {
-		anti_siren = 300,
-		damage = "48 x 4",
-		base = 33060,
-		id = 33073,
-		weapon_id = {
-			33073
-		}
-	},
-	[33080] = {
-		name = "Twin 203mm No. 2 Naval Gun Mount",
-		speciality = "Lock",
-		type = 3,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "33080",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "28 x 4",
-		nationality = 3,
-		ammo = 2,
-		value_3 = 0,
-		id = 33080,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1402
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1402
-			},
-			{
-				4,
-				1205
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			33080
-		},
-		skill_id = {},
-		part_main = {
-			3,
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CA",
-			"MG",
-			"HE"
-		}
-	},
-	[33081] = {
-		id = 33081,
-		damage = "30 x 4",
-		base = 33080,
-		weapon_id = {
-			33081
 		}
 	}
 }

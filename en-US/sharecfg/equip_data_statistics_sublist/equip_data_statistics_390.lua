@@ -1,20 +1,20 @@
 pg = pg or {}
 pg.equip_data_statistics_390 = {
-	[90900] = {
+	[90860] = {
 		name = "Twin 203mm Mle 1924 Main Gun Mount",
 		speciality = "Lock",
 		type = 3,
-		tech = 3,
+		tech = 1,
 		descrip = "No description",
-		value_2 = 45,
+		value_2 = 12,
 		icon = "50860",
 		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "30 x 4",
+		rarity = 3,
+		damage = "26 x 4",
 		nationality = 8,
 		ammo = 2,
 		value_3 = 0,
-		id = 90900,
+		id = 90860,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -43,7 +43,7 @@ pg.equip_data_statistics_390 = {
 			12
 		},
 		weapon_id = {
-			90900
+			90860
 		},
 		skill_id = {},
 		part_main = {
@@ -59,180 +59,183 @@ pg.equip_data_statistics_390 = {
 			"HE"
 		}
 	},
-	[90901] = {
-		id = 90901,
-		damage = "33 x 4",
-		base = 90900,
+	[90861] = {
+		id = 90861,
+		damage = "28 x 4",
+		base = 90860,
 		weapon_id = {
-			90901
+			90861
 		}
 	},
-	[90902] = {
-		id = 90902,
-		damage = "35 x 4",
-		base = 90900,
+	[90862] = {
+		id = 90862,
+		damage = "30 x 4",
+		base = 90860,
 		weapon_id = {
-			90902
+			90862
 		}
 	},
-	[90903] = {
-		id = 90903,
-		damage = "37 x 4",
-		base = 90900,
+	[90863] = {
+		id = 90863,
+		damage = "32 x 4",
+		base = 90860,
 		weapon_id = {
-			90903
+			90863
 		}
 	},
-	[90904] = {
-		id = 90904,
-		damage = "39 x 4",
-		base = 90900,
+	[90864] = {
+		id = 90864,
+		damage = "34 x 4",
+		base = 90860,
 		weapon_id = {
-			90904
+			90864
 		}
 	},
-	[90905] = {
-		id = 90905,
-		damage = "41 x 4",
-		base = 90900,
+	[90865] = {
+		id = 90865,
+		damage = "36 x 4",
+		base = 90860,
 		weapon_id = {
-			90905
+			90865
 		}
 	},
-	[90906] = {
-		id = 90906,
-		damage = "43 x 4",
-		base = 90900,
+	[90866] = {
+		id = 90866,
+		damage = "38 x 4",
+		base = 90860,
 		weapon_id = {
-			90906
+			90866
 		}
 	},
-	[90907] = {
-		id = 90907,
-		damage = "45 x 4",
-		base = 90900,
-		weapon_id = {
-			90907
-		}
-	},
-	[90908] = {
-		id = 90908,
-		damage = "47 x 4",
-		base = 90900,
-		weapon_id = {
-			90908
-		}
-	},
-	[90909] = {
-		id = 90909,
-		damage = "49 x 4",
-		base = 90900,
-		weapon_id = {
-			90909
-		}
-	},
-	[90910] = {
-		id = 90910,
-		damage = "52 x 4",
-		base = 90900,
-		weapon_id = {
-			90910
-		}
-	},
-	[90911] = {
-		anti_siren = 100,
-		damage = "52 x 4",
-		base = 90900,
-		id = 90911,
-		weapon_id = {
-			90911
-		}
-	},
-	[90912] = {
-		anti_siren = 200,
-		damage = "52 x 4",
-		base = 90900,
-		id = 90912,
-		weapon_id = {
-			90912
-		}
-	},
-	[90913] = {
-		anti_siren = 300,
-		damage = "52 x 4",
-		base = 90900,
-		id = 90913,
-		weapon_id = {
-			90913
-		}
-	},
-	[91000] = {
-		name = "Prototype Triple 406mm /50 Main Gun Mount ",
-		speciality = "Volley",
-		type = 4,
-		tech = 0,
+	[90880] = {
+		name = "Twin 203mm Mle 1924 Main Gun Mount",
+		speciality = "Lock",
+		type = 3,
+		tech = 2,
 		descrip = "No description",
-		value_2 = 45,
-		icon = "51000",
+		value_2 = 25,
+		icon = "50860",
 		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "54 x 3",
+		rarity = 4,
+		damage = "28 x 4",
 		nationality = 8,
-		ammo = 1,
+		ammo = 2,
 		value_3 = 0,
-		id = 91000,
+		id = 90880,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			2
+			3
 		},
 		ammo_info = {
 			{
-				2,
-				1580
+				1,
+				1416
 			}
 		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				1416
+			},
+			{
+				4,
+				1205
+			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			91000
+			90880
 		},
 		skill_id = {},
 		part_main = {
-			4,
-			5,
-			10,
-			13
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"KMS",
-			"BB",
+			"FFNF",
+			"CA",
 			"MG",
-			"AP"
+			"HE"
 		}
 	},
-	[91001] = {
-		id = 91001,
-		damage = "64 x 3",
-		base = 91000,
+	[90881] = {
+		id = 90881,
+		damage = "30 x 4",
+		base = 90880,
 		weapon_id = {
-			91001
+			90881
 		}
 	},
-	[91002] = {
-		id = 91002,
-		damage = "72 x 3",
-		base = 91000,
+	[90882] = {
+		id = 90882,
+		damage = "32 x 4",
+		base = 90880,
 		weapon_id = {
-			91002
+			90882
+		}
+	},
+	[90883] = {
+		id = 90883,
+		damage = "34 x 4",
+		base = 90880,
+		weapon_id = {
+			90883
+		}
+	},
+	[90884] = {
+		id = 90884,
+		damage = "36 x 4",
+		base = 90880,
+		weapon_id = {
+			90884
+		}
+	},
+	[90885] = {
+		id = 90885,
+		damage = "38 x 4",
+		base = 90880,
+		weapon_id = {
+			90885
+		}
+	},
+	[90886] = {
+		id = 90886,
+		damage = "40 x 4",
+		base = 90880,
+		weapon_id = {
+			90886
+		}
+	},
+	[90887] = {
+		id = 90887,
+		damage = "42 x 4",
+		base = 90880,
+		weapon_id = {
+			90887
+		}
+	},
+	[90888] = {
+		id = 90888,
+		damage = "44 x 4",
+		base = 90880,
+		weapon_id = {
+			90888
+		}
+	},
+	[90889] = {
+		id = 90889,
+		damage = "46 x 4",
+		base = 90880,
+		weapon_id = {
+			90889
 		}
 	}
 }

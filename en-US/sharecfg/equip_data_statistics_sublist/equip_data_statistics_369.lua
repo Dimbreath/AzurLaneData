@@ -1,65 +1,90 @@
 pg = pg or {}
 pg.equip_data_statistics_369 = {
-	[89067] = {
-		id = 89067,
-		value_2 = 22,
-		value_1 = "12",
-		base = 89060
+	[89043] = {
+		id = 89043,
+		value_2 = 4,
+		value_1 = "142",
+		base = 89040
 	},
-	[89068] = {
-		id = 89068,
-		value_2 = 23,
-		value_1 = "13",
-		base = 89060
+	[89044] = {
+		id = 89044,
+		value_2 = 5,
+		value_1 = "156",
+		base = 89040
 	},
-	[89069] = {
-		id = 89069,
-		value_2 = 24,
-		value_1 = "14",
-		base = 89060
+	[89045] = {
+		id = 89045,
+		value_2 = 5,
+		value_1 = "171",
+		base = 89040
 	},
-	[89070] = {
-		id = 89070,
-		value_2 = 25,
-		value_1 = "15",
-		base = 89060
+	[89046] = {
+		id = 89046,
+		value_2 = 6,
+		value_1 = "186",
+		base = 89040
 	},
-	[89071] = {
-		id = 89071,
+	[89047] = {
+		id = 89047,
+		value_2 = 6,
+		value_1 = "200",
+		base = 89040
+	},
+	[89048] = {
+		id = 89048,
+		value_2 = 7,
+		value_1 = "215",
+		base = 89040
+	},
+	[89049] = {
+		id = 89049,
+		value_2 = 7,
+		value_1 = "230",
+		base = 89040
+	},
+	[89050] = {
+		id = 89050,
+		value_2 = 8,
+		value_1 = "245",
+		base = 89040
+	},
+	[89051] = {
+		id = 89051,
 		anti_siren = 100,
-		base = 89060,
-		value_2 = 26,
-		value_1 = "16"
+		base = 89040,
+		value_2 = 8,
+		value_1 = "260"
 	},
-	[89072] = {
-		id = 89072,
+	[89052] = {
+		id = 89052,
 		anti_siren = 200,
-		base = 89060,
-		value_2 = 27,
-		value_1 = "17"
+		base = 89040,
+		value_2 = 8,
+		value_1 = "275"
 	},
-	[89073] = {
-		id = 89073,
+	[89053] = {
+		id = 89053,
 		anti_siren = 300,
-		base = 89060,
-		value_2 = 28,
-		value_1 = "18"
+		base = 89040,
+		value_2 = 8,
+		value_1 = "290"
 	},
-	[89080] = {
-		name = "Gamers Mark",
+	[89060] = {
+		name = "Team Emblem",
 		tech = 0,
 		type = 10,
 		speciality = "N/A",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "89080",
-		value_1 = "245",
-		descrip = "A badge that proves its wearer is one of the Hololive Gamers.",
+		id = 89060,
+		value_2 = 16,
+		icon = "89060",
+		value_1 = "6",
+		attribute_2 = "hit",
 		rarity = 5,
+		descrip = "It started out as the design for a team emblem, but it's kind of... changed.",
 		nationality = 105,
 		ammo = 10,
 		value_3 = 0,
-		id = 89080,
+		attribute_1 = "dodge",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -69,7 +94,7 @@ pg.equip_data_statistics_369 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6500
+			6490
 		},
 		part_main = {},
 		part_sub = {},
@@ -78,49 +103,33 @@ pg.equip_data_statistics_369 = {
 			"DEV"
 		}
 	},
-	[89081] = {
-		id = 89081,
-		value_1 = "280",
-		base = 89080
+	[89061] = {
+		id = 89061,
+		value_1 = "7",
+		base = 89060
 	},
-	[89082] = {
-		id = 89082,
-		value_1 = "310",
-		base = 89080
+	[89062] = {
+		id = 89062,
+		value_2 = 17,
+		value_1 = "7",
+		base = 89060
 	},
-	[89083] = {
-		id = 89083,
-		value_1 = "340",
-		base = 89080
+	[89063] = {
+		id = 89063,
+		value_2 = 18,
+		value_1 = "8",
+		base = 89060
 	},
-	[89084] = {
-		id = 89084,
-		value_1 = "370",
-		base = 89080
+	[89064] = {
+		id = 89064,
+		value_2 = 19,
+		value_1 = "9",
+		base = 89060
 	},
-	[89085] = {
-		id = 89085,
-		value_1 = "400",
-		base = 89080
-	},
-	[89086] = {
-		id = 89086,
-		value_1 = "430",
-		base = 89080
-	},
-	[89087] = {
-		id = 89087,
-		value_1 = "460",
-		base = 89080
-	},
-	[89088] = {
-		id = 89088,
-		value_1 = "490",
-		base = 89080
-	},
-	[89089] = {
-		id = 89089,
-		value_1 = "520",
-		base = 89080
+	[89065] = {
+		id = 89065,
+		value_2 = 20,
+		value_1 = "10",
+		base = 89060
 	}
 }

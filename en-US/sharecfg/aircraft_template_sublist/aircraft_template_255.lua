@@ -1,60 +1,86 @@
 pg = pg or {}
 pg.aircraft_template_255 = {
-	[88002] = {
-		id = 88002,
-		base = 88000,
-		max_hp = 41,
-		hp_growth = 1572,
+	[86104] = {
+		id = 86104,
+		base = 86100,
+		max_hp = 58,
+		hp_growth = 2247,
 		weapon_ID = {
-			50022
+			50044,
+			50744
 		}
 	},
-	[88003] = {
-		id = 88003,
-		base = 88000,
-		max_hp = 46,
-		hp_growth = 1754,
-		weapon_ID = {
-			50023
-		}
-	},
-	[88004] = {
-		id = 88004,
-		base = 88000,
-		max_hp = 50,
-		hp_growth = 1935,
-		weapon_ID = {
-			50024
-		}
-	},
-	[88005] = {
-		id = 88005,
-		base = 88000,
-		max_hp = 55,
-		hp_growth = 2117,
-		weapon_ID = {
-			50025
-		}
-	},
-	[88006] = {
-		id = 88006,
-		base = 88000,
-		max_hp = 60,
-		hp_growth = 2298,
-		weapon_ID = {
-			50026
-		}
-	},
-	[88007] = {
-		id = 88007,
-		base = 88000,
+	[86105] = {
+		id = 86105,
+		base = 86100,
 		max_hp = 64,
-		hp_growth = 2480,
+		hp_growth = 2458,
 		weapon_ID = {
-			50027
+			50045,
+			50745
 		}
 	},
-	[90820] = {
+	[86106] = {
+		id = 86106,
+		base = 86100,
+		max_hp = 69,
+		hp_growth = 2669,
+		weapon_ID = {
+			50046,
+			50746
+		}
+	},
+	[86107] = {
+		id = 86107,
+		base = 86100,
+		max_hp = 75,
+		hp_growth = 2879,
+		weapon_ID = {
+			50047,
+			50747
+		}
+	},
+	[86108] = {
+		id = 86108,
+		base = 86100,
+		max_hp = 80,
+		hp_growth = 3090,
+		weapon_ID = {
+			50048,
+			50748
+		}
+	},
+	[86109] = {
+		id = 86109,
+		base = 86100,
+		max_hp = 86,
+		hp_growth = 3301,
+		weapon_ID = {
+			50049,
+			50749
+		}
+	},
+	[86110] = {
+		id = 86110,
+		base = 86100,
+		max_hp = 91,
+		hp_growth = 3511,
+		weapon_ID = {
+			50050,
+			50750
+		}
+	},
+	[86111] = {
+		id = 86111,
+		base = 86100,
+		max_hp = 97,
+		hp_growth = 3722,
+		weapon_ID = {
+			50051,
+			50751
+		}
+	},
+	[88000] = {
 		name = "GL.2舰载战斗机T0",
 		max_hp = 31,
 		accuracy = 23,
@@ -71,7 +97,7 @@ pg.aircraft_template_255 = {
 		nationality = 8,
 		hp_growth = 1210,
 		speed = 48,
-		id = 90820,
+		id = 88000,
 		scale = 1,
 		weapon_ID = {
 			50020
@@ -128,31 +154,13 @@ pg.aircraft_template_255 = {
 			}
 		}
 	},
-	[90821] = {
-		id = 90821,
-		base = 90820,
+	[88001] = {
+		id = 88001,
+		base = 88000,
 		max_hp = 36,
 		hp_growth = 1391,
 		weapon_ID = {
 			50021
-		}
-	},
-	[90822] = {
-		id = 90822,
-		base = 90820,
-		max_hp = 41,
-		hp_growth = 1572,
-		weapon_ID = {
-			50022
-		}
-	},
-	[90823] = {
-		id = 90823,
-		base = 90820,
-		max_hp = 46,
-		hp_growth = 1754,
-		weapon_ID = {
-			50023
 		}
 	}
 }

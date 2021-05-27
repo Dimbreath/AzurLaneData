@@ -69,6 +69,7 @@ SCENE = {
 	ATTIRE = "scene attire",
 	NEWMEIXIV4_SKIRMISH = "newmeixiv4 skirmish",
 	NEWYEAR_BACKHILL = "scene NEWYEAR BACKHILL",
+	AMUSEMENT_PARK = "amusement park",
 	WORLD_FLEET_SELECT = "world fleet select",
 	COLORING = "scene coloring",
 	NAVALTACTICS = "naval tactics",
@@ -349,6 +350,9 @@ function SCENE.SetSceneInfo(slot0, slot1)
 	elseif slot1 == SCENE.NEWYEAR_BACKHILL then
 		slot0.mediator = NewYearFestivalMediator
 		slot0.viewComponent = NewYearFestivalScene2
+	elseif slot1 == SCENE.AMUSEMENT_PARK then
+		slot0.mediator = AmusementParkMediator
+		slot0.viewComponent = AmusementParkScene
 	elseif slot1 == SCENE.REDPACKEY then
 		slot0.mediator = RedPacketMediator
 		slot0.viewComponent = RedPacketLayer

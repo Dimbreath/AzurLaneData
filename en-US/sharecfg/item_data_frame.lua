@@ -2,6 +2,7 @@ pg = pg or {}
 pg.item_data_frame = {
 	[0] = {
 		name = "Default Appearance",
+		gain_by = "",
 		time_second = 0,
 		id = 0,
 		time_limit_type = 0,
@@ -10,6 +11,7 @@ pg.item_data_frame = {
 	},
 	[101] = {
 		name = "1st Anniversary",
+		gain_by = "",
 		time_second = 0,
 		id = 101,
 		time_limit_type = 0,
@@ -18,6 +20,7 @@ pg.item_data_frame = {
 	},
 	[102] = {
 		name = "Second Anniversary",
+		gain_by = "",
 		time_second = 0,
 		id = 102,
 		time_limit_type = 0,
@@ -26,6 +29,7 @@ pg.item_data_frame = {
 	},
 	[103] = {
 		name = "1000 Days Commemoration",
+		gain_by = "",
 		time_second = 0,
 		id = 103,
 		time_limit_type = 0,
@@ -34,6 +38,7 @@ pg.item_data_frame = {
 	},
 	[201] = {
 		name = "Achievement Chat Bubbles",
+		gain_by = "",
 		time_second = 0,
 		id = 201,
 		time_limit_type = 0,
@@ -42,6 +47,7 @@ pg.item_data_frame = {
 	},
 	[202] = {
 		name = "Achievement Chat Bubbles",
+		gain_by = "",
 		time_second = 0,
 		id = 202,
 		time_limit_type = 0,
@@ -50,6 +56,7 @@ pg.item_data_frame = {
 	},
 	[203] = {
 		name = "Achievement Chat Bubbles",
+		gain_by = "",
 		time_second = 0,
 		id = 203,
 		time_limit_type = 0,
@@ -58,6 +65,7 @@ pg.item_data_frame = {
 	},
 	[204] = {
 		name = "Achievement Chat Bubbles",
+		gain_by = "",
 		time_second = 0,
 		id = 204,
 		time_limit_type = 0,
@@ -66,6 +74,7 @@ pg.item_data_frame = {
 	},
 	[205] = {
 		name = "Achievement Chat Bubbles",
+		gain_by = "",
 		time_second = 0,
 		id = 205,
 		time_limit_type = 0,
@@ -74,6 +83,7 @@ pg.item_data_frame = {
 	},
 	[206] = {
 		name = "Achievement Chat Bubbles",
+		gain_by = "",
 		time_second = 0,
 		id = 206,
 		time_limit_type = 0,
@@ -82,6 +92,7 @@ pg.item_data_frame = {
 	},
 	[207] = {
 		name = "Achievement Chat Bubbles",
+		gain_by = "",
 		time_second = 0,
 		id = 207,
 		time_limit_type = 0,
@@ -90,6 +101,7 @@ pg.item_data_frame = {
 	},
 	[208] = {
 		name = "Achievement Chat Bubbles",
+		gain_by = "",
 		time_second = 0,
 		id = 208,
 		time_limit_type = 0,
@@ -98,6 +110,7 @@ pg.item_data_frame = {
 	},
 	[300] = {
 		name = "Leader ",
+		gain_by = "",
 		time_second = 2592000,
 		id = 300,
 		time_limit_type = 1,
@@ -106,6 +119,7 @@ pg.item_data_frame = {
 	},
 	[301] = {
 		name = "Returnee",
+		gain_by = "",
 		time_second = 2592000,
 		id = 301,
 		time_limit_type = 1,
@@ -114,6 +128,7 @@ pg.item_data_frame = {
 	},
 	[302] = {
 		name = "The Iron Blood Oath",
+		gain_by = "铁血、音符与誓言",
 		time_second = 0,
 		id = 302,
 		time_limit_type = 0,
@@ -122,6 +137,7 @@ pg.item_data_frame = {
 	},
 	[303] = {
 		name = "Wings of Freedom",
+		gain_by = "箱庭疗法",
 		time_second = 0,
 		id = 303,
 		time_limit_type = 0,
@@ -130,6 +146,7 @@ pg.item_data_frame = {
 	},
 	[304] = {
 		name = "Insignia of Glory",
+		gain_by = "神圣的悲喜剧",
 		time_second = 0,
 		id = 304,
 		time_limit_type = 0,
@@ -138,6 +155,7 @@ pg.item_data_frame = {
 	},
 	[305] = {
 		name = "Sakura Ceremony ",
+		gain_by = "浮樱影华",
 		time_second = 0,
 		id = 305,
 		time_limit_type = 0,
@@ -146,6 +164,7 @@ pg.item_data_frame = {
 	},
 	[306] = {
 		name = "Proof of Solidarity",
+		gain_by = "北境序曲",
 		time_second = 0,
 		id = 306,
 		time_limit_type = 0,
@@ -154,6 +173,7 @@ pg.item_data_frame = {
 	},
 	[307] = {
 		name = "Wings of Lightning ",
+		gain_by = "微层混合",
 		time_second = 0,
 		id = 307,
 		time_limit_type = 0,
@@ -162,6 +182,7 @@ pg.item_data_frame = {
 	},
 	[308] = {
 		name = "Iris Canto",
+		gain_by = "穹顶下的圣咏曲",
 		time_second = 0,
 		id = 308,
 		time_limit_type = 0,
@@ -170,6 +191,7 @@ pg.item_data_frame = {
 	},
 	[309] = {
 		name = "Royal Crown",
+		gain_by = "永夜幻光",
 		time_second = 0,
 		id = 309,
 		time_limit_type = 0,
@@ -178,6 +200,7 @@ pg.item_data_frame = {
 	},
 	[310] = {
 		name = "Laffey's Gift",
+		gain_by = "",
 		time_second = 0,
 		id = 310,
 		time_limit_type = 0,
@@ -186,6 +209,7 @@ pg.item_data_frame = {
 	},
 	[311] = {
 		name = "Illusory Butterfly",
+		gain_by = "蝶海梦花",
 		time_second = 0,
 		id = 311,
 		time_limit_type = 0,
@@ -194,6 +218,7 @@ pg.item_data_frame = {
 	},
 	[312] = {
 		name = "Weapon of the Iron Blood ",
+		gain_by = "负象限作战",
 		time_second = 0,
 		id = 312,
 		time_limit_type = 0,
@@ -202,6 +227,7 @@ pg.item_data_frame = {
 	},
 	[313] = {
 		name = "Seal of Dawn's Rime",
+		gain_by = "破晓冰华",
 		time_second = 0,
 		id = 313,
 		time_limit_type = 0,
@@ -210,6 +236,7 @@ pg.item_data_frame = {
 	},
 	[314] = {
 		name = "Pride of Sardegna",
+		gain_by = "复兴的赞美诗",
 		time_second = 0,
 		id = 314,
 		time_limit_type = 0,
@@ -218,14 +245,16 @@ pg.item_data_frame = {
 	},
 	[315] = {
 		name = "Voltaic Lightwings",
+		gain_by = "镜位螺旋",
 		time_second = 0,
 		id = 315,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>Obtained from a subsequent event</color>",
+		desc = "<color=#ffffff>The indomitable Black Dragon of the Eagle Union has arrived! Together, let us shake the foundations of this world!</color>\nObtained from the \"Mirror involution\" event.",
 		scene = {}
 	},
 	[501] = {
 		name = "Manjuu Pizzeria Frame ",
+		gain_by = "",
 		time_second = 0,
 		id = 501,
 		time_limit_type = 0,

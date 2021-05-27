@@ -120,6 +120,66 @@ pg.activity_event_building = {
 			15
 		}
 	},
+	{
+		name = "Dizzy Manjuu",
+		material_id = 59218,
+		id = 9,
+		desc = "It's a need for speed, not a need for angular velocity! Arrrrgh...!",
+		buff = {
+			13,
+			14,
+			15
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		name = "Cloud-Chasing Manjuu",
+		material_id = 59218,
+		id = 10,
+		desc = "Manjuus may be flightless, but roller coasters have given them a taste of their true potential.",
+		buff = {
+			16,
+			17,
+			18
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		name = "Xtreme Bunjuu",
+		material_id = 59218,
+		id = 11,
+		desc = "I fear no heights. But gachas? Those scare me...",
+		buff = {
+			19,
+			20,
+			21
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		name = "Manjuu Pirate Ship",
+		material_id = 59218,
+		id = 12,
+		desc = "C'mon, you should know by now that this game is all about the booty.",
+		buff = {
+			22,
+			23,
+			24
+		},
+		material = {
+			10,
+			15
+		}
+	},
 	all = {
 		1,
 		2,
@@ -128,6 +188,10 @@ pg.activity_event_building = {
 		5,
 		6,
 		7,
-		8
+		8,
+		9,
+		10,
+		11,
+		12
 	}
 }

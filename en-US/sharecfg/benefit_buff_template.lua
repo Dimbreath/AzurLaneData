@@ -147,9 +147,9 @@ pg.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
-			30707,
+			992,
 			{
-				5,
+				9,
 				1
 			}
 		}
@@ -165,9 +165,9 @@ pg.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
-			30707,
+			992,
 			{
-				5,
+				9,
 				2
 			}
 		}
@@ -183,9 +183,9 @@ pg.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
-			30707,
+			992,
 			{
-				5,
+				9,
 				3
 			}
 		}
@@ -201,9 +201,9 @@ pg.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			30707,
+			992,
 			{
-				6,
+				10,
 				1
 			}
 		}
@@ -219,9 +219,9 @@ pg.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			30707,
+			992,
 			{
-				6,
+				10,
 				2
 			}
 		}
@@ -237,9 +237,9 @@ pg.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			30707,
+			992,
 			{
-				6,
+				10,
 				3
 			}
 		}
@@ -255,9 +255,9 @@ pg.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"activity",
-			30707,
+			992,
 			{
-				7,
+				11,
 				1
 			}
 		}
@@ -273,9 +273,9 @@ pg.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"activity",
-			30707,
+			992,
 			{
-				7,
+				11,
 				2
 			}
 		}
@@ -291,9 +291,9 @@ pg.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"activity",
-			30707,
+			992,
 			{
-				7,
+				11,
 				3
 			}
 		}
@@ -309,9 +309,9 @@ pg.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"activity",
-			30707,
+			992,
 			{
-				8,
+				12,
 				1
 			}
 		}
@@ -327,9 +327,9 @@ pg.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"activity",
-			30707,
+			992,
 			{
-				8,
+				12,
 				2
 			}
 		}
@@ -345,9 +345,9 @@ pg.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"activity",
-			30707,
+			992,
 			{
-				8,
+				12,
 				3
 			}
 		}

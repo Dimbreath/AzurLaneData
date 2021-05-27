@@ -184,7 +184,7 @@ function slot0.initSkinPage(slot0)
 
 	table.insert(slot2, 1, uv2.PAGE_ALL)
 
-	slot0.mid = math.floor(#slot2 / 2)
+	slot0.mid = 4
 	slot0.pageTFs = {}
 	slot0.skinPageToggles = {}
 
