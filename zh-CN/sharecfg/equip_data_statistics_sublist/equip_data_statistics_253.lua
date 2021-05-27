@@ -1,5 +1,174 @@
 pg = pg or {}
 pg.equip_data_statistics_253 = {
+	[36360] = {
+		name = "九六式25mm三连装暴风避盾机炮",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "36360",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "40/轮",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36360,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			36360
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
+	},
+	[36361] = {
+		id = 36361,
+		damage = "43/轮",
+		base = 36360,
+		weapon_id = {
+			36361
+		}
+	},
+	[36362] = {
+		id = 36362,
+		damage = "46/轮",
+		base = 36360,
+		weapon_id = {
+			36362
+		}
+	},
+	[36363] = {
+		id = 36363,
+		damage = "49/轮",
+		base = 36360,
+		weapon_id = {
+			36363
+		}
+	},
+	[36364] = {
+		id = 36364,
+		damage = "52/轮",
+		base = 36360,
+		weapon_id = {
+			36364
+		}
+	},
+	[36365] = {
+		id = 36365,
+		damage = "55/轮",
+		base = 36360,
+		weapon_id = {
+			36365
+		}
+	},
+	[36366] = {
+		id = 36366,
+		damage = "58/轮",
+		base = 36360,
+		weapon_id = {
+			36366
+		}
+	},
+	[36367] = {
+		id = 36367,
+		damage = "61/轮",
+		base = 36360,
+		weapon_id = {
+			36367
+		}
+	},
+	[36368] = {
+		id = 36368,
+		damage = "64/轮",
+		base = 36360,
+		weapon_id = {
+			36368
+		}
+	},
+	[36369] = {
+		id = 36369,
+		damage = "68/轮",
+		base = 36360,
+		weapon_id = {
+			36369
+		}
+	},
+	[36370] = {
+		id = 36370,
+		damage = "72/轮",
+		base = 36360,
+		weapon_id = {
+			36370
+		}
+	},
+	[36371] = {
+		anti_siren = 100,
+		damage = "72/轮",
+		base = 36360,
+		id = 36371,
+		weapon_id = {
+			36371
+		}
+	},
+	[36372] = {
+		anti_siren = 200,
+		damage = "72/轮",
+		base = 36360,
+		id = 36372,
+		weapon_id = {
+			36372
+		}
+	},
+	[36373] = {
+		anti_siren = 300,
+		damage = "72/轮",
+		base = 36360,
+		id = 36373,
+		weapon_id = {
+			36373
+		}
+	},
 	[36400] = {
 		name = "毘式40mm连装机枪",
 		speciality = "防空",
@@ -76,226 +245,6 @@ pg.equip_data_statistics_253 = {
 		base = 36400,
 		weapon_id = {
 			36402
-		}
-	},
-	[36403] = {
-		id = 36403,
-		damage = "29/轮",
-		base = 36400,
-		weapon_id = {
-			36403
-		}
-	},
-	[36420] = {
-		name = "毘式40mm连装机枪",
-		speciality = "防空",
-		type = 6,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "36400",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "22/轮",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 36420,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			36420
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"AA"
-		}
-	},
-	[36421] = {
-		id = 36421,
-		damage = "25/轮",
-		base = 36420,
-		weapon_id = {
-			36421
-		}
-	},
-	[36422] = {
-		id = 36422,
-		damage = "28/轮",
-		base = 36420,
-		weapon_id = {
-			36422
-		}
-	},
-	[36423] = {
-		id = 36423,
-		damage = "31/轮",
-		base = 36420,
-		weapon_id = {
-			36423
-		}
-	},
-	[36424] = {
-		id = 36424,
-		damage = "35/轮",
-		base = 36420,
-		weapon_id = {
-			36424
-		}
-	},
-	[36425] = {
-		id = 36425,
-		damage = "39/轮",
-		base = 36420,
-		weapon_id = {
-			36425
-		}
-	},
-	[36426] = {
-		id = 36426,
-		damage = "43/轮",
-		base = 36420,
-		weapon_id = {
-			36426
-		}
-	},
-	[36440] = {
-		name = "毘式40mm连装机枪",
-		speciality = "防空",
-		type = 6,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "36400",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "26/轮",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 36440,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			36440
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"AA"
-		}
-	},
-	[36441] = {
-		id = 36441,
-		damage = "29/轮",
-		base = 36440,
-		weapon_id = {
-			36441
-		}
-	},
-	[36442] = {
-		id = 36442,
-		damage = "33/轮",
-		base = 36440,
-		weapon_id = {
-			36442
-		}
-	},
-	[36443] = {
-		id = 36443,
-		damage = "37/轮",
-		base = 36440,
-		weapon_id = {
-			36443
-		}
-	},
-	[36444] = {
-		id = 36444,
-		damage = "41/轮",
-		base = 36440,
-		weapon_id = {
-			36444
-		}
-	},
-	[36445] = {
-		id = 36445,
-		damage = "45/轮",
-		base = 36440,
-		weapon_id = {
-			36445
 		}
 	}
 }

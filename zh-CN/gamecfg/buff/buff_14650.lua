@@ -1,0 +1,23 @@
+return {
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	time = 0,
+	name = "",
+	init_effect = "",
+	id = 14650,
+	picture = "",
+	desc = "",
+	stack = 1,
+	color = "red",
+	icon = 14650,
+	last_effect = "",
+	effect_list = {}
+}

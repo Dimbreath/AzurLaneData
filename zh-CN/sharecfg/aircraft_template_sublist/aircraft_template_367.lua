@@ -1,26 +1,27 @@
 pg = pg or {}
 pg.aircraft_template_367 = {
-	[960011] = {
-		name = "【翻格子活动】重樱战斗机",
-		max_hp = 27,
+	[791206] = {
+		name = "【2021美系活动B3】BOSS 苍龙·META 二阶段 余烬飞机",
+		max_hp = 110,
 		accuracy = 23,
-		model_ID = "96jiangong",
+		model_ID = "alter_plane3",
 		ACC_growth = 0,
-		crash_DMG = 9,
+		crash_DMG = 90,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "96jiangong",
+		icon = "alter_plane2",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1021,
-		speed = 50,
-		id = 960011,
+		hp_growth = 2680,
+		speed = 32,
+		id = 791206,
 		scale = 1,
 		weapon_ID = {
-			960025
+			791207,
+			791208
 		},
 		position_offset = {
 			0,
@@ -40,13 +41,13 @@ pg.aircraft_template_367 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.56,
+					-0.76,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.48,
+					0.99,
 					0
 				}
 			}
@@ -63,81 +64,7 @@ pg.aircraft_template_367 = {
 				0
 			},
 			{
-				0.72,
-				-0.15,
-				0
-			},
-			{
 				0,
-				0,
-				0
-			}
-		}
-	},
-	[960012] = {
-		name = "【翻格子活动】重樱鱼雷机",
-		max_hp = 24,
-		accuracy = 23,
-		model_ID = "97jiangong",
-		ACC_growth = 0,
-		crash_DMG = 9,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 2,
-		AP_growth = 2000,
-		icon = "97jiangong",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 924,
-		speed = 48,
-		id = 960012,
-		scale = 1,
-		weapon_ID = {
-			960027
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.54,
 				0,
 				0
 			},
@@ -148,27 +75,27 @@ pg.aircraft_template_367 = {
 			}
 		}
 	},
-	[960013] = {
-		name = "【翻格子活动】重樱轰炸机",
-		max_hp = 28,
+	[791218] = {
+		name = "【2021美系活动B3】BOSS 苍龙·META 一阶段 第四波 轰炸机",
+		max_hp = 106,
 		accuracy = 23,
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
-		crash_DMG = 9,
+		crash_DMG = 89,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "99shijianbao1",
+		icon = "haiyan",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1070,
-		speed = 46,
-		id = 960013,
-		scale = 1,
+		hp_growth = 2560,
+		speed = 30,
+		id = 791218,
+		scale = 0.75,
 		weapon_ID = {
-			960031
+			791220
 		},
 		position_offset = {
 			0,
@@ -222,175 +149,28 @@ pg.aircraft_template_367 = {
 			}
 		}
 	},
-	[960014] = {
-		name = "【翻格子活动】白鹰战斗机",
-		max_hp = 29,
+	[791219] = {
+		name = "【2021美系活动B3】BOSS 苍龙·META 一阶段 第四波 战斗机",
+		max_hp = 86,
 		accuracy = 23,
-		model_ID = "F2A",
+		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
-		crash_DMG = 9,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "F2A",
-		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1129,
-		speed = 50,
-		id = 960014,
-		scale = 1,
-		weapon_ID = {
-			960023
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					1.24,
-					-1.34,
-					0
-				},
-				{
-					1.43,
-					1.6,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.24,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[960015] = {
-		name = "【翻格子活动】白鹰鱼雷机",
-		max_hp = 27,
-		accuracy = 23,
-		model_ID = "tbd",
-		ACC_growth = 0,
-		crash_DMG = 9,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 2,
-		AP_growth = 2000,
-		icon = "tbd",
-		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1021,
-		speed = 48,
-		id = 960015,
-		scale = 1,
-		weapon_ID = {
-			960027
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.31,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[960016] = {
-		name = "【翻格子活动】白鹰轰炸机",
-		max_hp = 31,
-		accuracy = 23,
-		model_ID = "sbdwuwei",
-		ACC_growth = 0,
-		crash_DMG = 9,
+		crash_DMG = 48,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "sbdwuwei",
+		icon = "haiduya",
 		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1183,
-		speed = 46,
-		id = 960016,
-		scale = 1,
+		nationality = 3,
+		hp_growth = 1960,
+		speed = 33,
+		id = 791219,
+		scale = 0.75,
 		weapon_ID = {
-			960031
+			791221,
+			1100751
 		},
 		position_offset = {
 			0,
@@ -410,13 +190,13 @@ pg.aircraft_template_367 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.56,
+					-0.76,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.48,
+					0.99,
 					0
 				}
 			}
@@ -433,8 +213,8 @@ pg.aircraft_template_367 = {
 				0
 			},
 			{
-				0.72,
-				-0.15,
+				0,
+				0,
 				0
 			},
 			{
@@ -444,27 +224,27 @@ pg.aircraft_template_367 = {
 			}
 		}
 	},
-	[960017] = {
-		name = "【翻格子活动】皇家战斗机",
-		max_hp = 28,
+	[792102] = {
+		name = "【2021美系活动C2】BOSS 苍龙&飞龙 通用战斗机（自机狙）",
+		max_hp = 136,
 		accuracy = 23,
-		model_ID = "haipenhuo",
+		model_ID = "haiduya",
 		ACC_growth = 0,
-		crash_DMG = 9,
+		crash_DMG = 76,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "haipenhuo",
+		icon = "haiduya",
 		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1075,
-		speed = 50,
-		id = 960017,
-		scale = 1,
+		nationality = 3,
+		hp_growth = 2460,
+		speed = 33,
+		id = 792102,
+		scale = 0.75,
 		weapon_ID = {
-			960024
+			792104
 		},
 		position_offset = {
 			0,
@@ -484,13 +264,13 @@ pg.aircraft_template_367 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.69,
-					-2.62,
+					0.56,
+					-0.76,
 					0
 				},
 				{
-					0.85,
-					0.17,
+					0.48,
+					0.99,
 					0
 				}
 			}
@@ -507,7 +287,7 @@ pg.aircraft_template_367 = {
 				0
 			},
 			{
-				0.62,
+				0,
 				0,
 				0
 			},
@@ -518,101 +298,27 @@ pg.aircraft_template_367 = {
 			}
 		}
 	},
-	[960018] = {
-		name = "【翻格子活动】皇家鱼雷机",
-		max_hp = 25,
+	[792103] = {
+		name = "【2021美系活动C2】BOSS 苍龙&飞龙 通用轰炸机（高爆）",
+		max_hp = 154,
 		accuracy = 23,
-		model_ID = "jianyu",
+		model_ID = "haiyan",
 		ACC_growth = 0,
-		crash_DMG = 9,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 2,
-		AP_growth = 2000,
-		icon = "jianyu",
-		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 973,
-		speed = 48,
-		id = 960018,
-		scale = 1,
-		weapon_ID = {
-			960027
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.52,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[960019] = {
-		name = "【翻格子活动】皇家轰炸机",
-		max_hp = 29,
-		accuracy = 23,
-		model_ID = "zeiou",
-		ACC_growth = 0,
-		crash_DMG = 9,
+		crash_DMG = 114,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "zeiou",
+		icon = "haiyan",
 		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1126,
-		speed = 46,
-		id = 960019,
-		scale = 1,
+		nationality = 3,
+		hp_growth = 2880,
+		speed = 30,
+		id = 792103,
+		scale = 0.75,
 		weapon_ID = {
-			960031
+			792105
 		},
 		position_offset = {
 			0,
@@ -655,7 +361,7 @@ pg.aircraft_template_367 = {
 				0
 			},
 			{
-				0.37,
+				0,
 				0,
 				0
 			},
@@ -666,27 +372,27 @@ pg.aircraft_template_367 = {
 			}
 		}
 	},
-	[960020] = {
-		name = "【翻格子活动】鸢尾战斗机",
-		max_hp = 28,
+	[792202] = {
+		name = "【2021美系活动C3】BOSS 赤城&加贺 轰炸机",
+		max_hp = 162,
 		accuracy = 23,
-		model_ID = "GL2",
+		model_ID = "haiduya",
 		ACC_growth = 0,
-		crash_DMG = 9,
+		crash_DMG = 126,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "GL2",
+		icon = "haiduya",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1075,
-		speed = 50,
-		id = 960020,
-		scale = 1,
+		hp_growth = 3060,
+		speed = 33,
+		id = 792202,
+		scale = 0.75,
 		weapon_ID = {
-			960026
+			792204
 		},
 		position_offset = {
 			0,
@@ -706,13 +412,13 @@ pg.aircraft_template_367 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.56,
+					-0.76,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.48,
+					0.99,
 					0
 				}
 			}
@@ -729,8 +435,307 @@ pg.aircraft_template_367 = {
 				0
 			},
 			{
-				0.72,
-				-0.15,
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[792203] = {
+		name = "【2021美系活动C3】BOSS 赤城&加贺 鱼雷机",
+		max_hp = 154,
+		accuracy = 23,
+		model_ID = "haiyan",
+		ACC_growth = 0,
+		crash_DMG = 114,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "haiyan",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2880,
+		speed = 30,
+		id = 792203,
+		scale = 0.75,
+		weapon_ID = {
+			792205
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[793101] = {
+		name = "【2021美系活动D2】塞壬执棋者I型 轰炸机",
+		max_hp = 202,
+		accuracy = 23,
+		model_ID = "shenhaifeiji",
+		ACC_growth = 0,
+		crash_DMG = 160,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "shenhaifeiji",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3260,
+		speed = 30,
+		id = 793101,
+		scale = 0.75,
+		weapon_ID = {
+			793105
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[793102] = {
+		name = "【2021美系活动D2】塞壬执棋者I型 鱼雷机",
+		max_hp = 194,
+		accuracy = 23,
+		model_ID = "shenhaifeiji",
+		ACC_growth = 0,
+		crash_DMG = 124,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "shenhaifeiji",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3080,
+		speed = 33,
+		id = 793102,
+		scale = 0.75,
+		weapon_ID = {
+			793106
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[793103] = {
+		name = "【2021美系活动D2】塞壬执棋者I型 浮游炮1",
+		max_hp = 180,
+		accuracy = 23,
+		model_ID = "fuyoupao2",
+		ACC_growth = 0,
+		crash_DMG = 210,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "fuyoupao2",
+		nationality = 3,
+		hp_growth = 2960,
+		speed = 70,
+		id = 793103,
+		scale = 0.75,
+		funnel_behavior = {
+			stay = 2,
+			exist = 20
+		},
+		weapon_ID = {
+			793107
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					2.72,
+					-0.21,
+					0
+				},
+				{
+					3.2,
+					-0.14,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
 				0
 			},
 			{

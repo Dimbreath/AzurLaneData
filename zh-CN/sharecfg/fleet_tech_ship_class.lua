@@ -56,6 +56,7 @@ pg.fleet_tech_ship_class = {
 			10115,
 			10112,
 			10138,
+			10147,
 			10139,
 			10133,
 			10134,
@@ -173,6 +174,7 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			10203,
 			10204,
+			10229,
 			10212,
 			10213,
 			10205
@@ -247,6 +249,7 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			10308,
 			10313,
+			10314,
 			10309,
 			10310
 		}
@@ -342,10 +345,21 @@ pg.fleet_tech_ship_class = {
 		name = "佐治亚",
 		t_level = 9,
 		id = 10507,
-		t_level_1 = 0,
+		t_level_1 = 1,
 		nation = 1,
 		ships = {
 			19902
+		}
+	},
+	[10508] = {
+		shiptype = 5,
+		name = "衣阿华级",
+		t_level = 9,
+		id = 10508,
+		t_level_1 = 2,
+		nation = 1,
+		ships = {
+			10517
 		}
 	},
 	[10601] = {
@@ -462,6 +476,7 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			10709,
 			10711,
+			10714,
 			10717,
 			10738
 		}
@@ -478,6 +493,17 @@ pg.fleet_tech_ship_class = {
 			10803,
 			10804,
 			10801
+		}
+	},
+	[10802] = {
+		shiptype = 8,
+		name = "巴劳鱵级",
+		t_level = 7,
+		id = 10802,
+		t_level_1 = 31,
+		nation = 1,
+		ships = {
+			10806
 		}
 	},
 	[11201] = {
@@ -2439,6 +2465,7 @@ pg.fleet_tech_ship_class = {
 		10505,
 		10506,
 		10507,
+		10508,
 		10601,
 		10602,
 		10604,
@@ -2450,6 +2477,7 @@ pg.fleet_tech_ship_class = {
 		10703,
 		10705,
 		10801,
+		10802,
 		11201,
 		20101,
 		20102,

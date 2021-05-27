@@ -2,6 +2,7 @@ pg = pg or {}
 pg.item_data_frame = {
 	[0] = {
 		name = "默认装扮",
+		gain_by = "",
 		time_second = 0,
 		id = 0,
 		time_limit_type = 0,
@@ -10,6 +11,7 @@ pg.item_data_frame = {
 	},
 	[101] = {
 		name = "一周年纪念",
+		gain_by = "",
 		time_second = 0,
 		id = 101,
 		time_limit_type = 0,
@@ -18,6 +20,7 @@ pg.item_data_frame = {
 	},
 	[102] = {
 		name = "二周年纪念",
+		gain_by = "",
 		time_second = 0,
 		id = 102,
 		time_limit_type = 0,
@@ -26,6 +29,7 @@ pg.item_data_frame = {
 	},
 	[103] = {
 		name = "千日的纪念",
+		gain_by = "",
 		time_second = 0,
 		id = 103,
 		time_limit_type = 0,
@@ -34,14 +38,25 @@ pg.item_data_frame = {
 	},
 	[104] = {
 		name = "三周年纪念",
+		gain_by = "",
 		time_second = 0,
 		id = 104,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>献给所有三年间持续奋斗在港区的指挥官们</color>\n通过参与三周年限定活动获取",
 		scene = {}
 	},
+	[105] = {
+		name = "四周年纪念",
+		gain_by = "",
+		time_second = 0,
+		id = 105,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>献给所有四年间持续奋斗在港区的指挥官们</color>\n通过参与四周年限定活动获取",
+		scene = {}
+	},
 	[201] = {
 		name = "限界的挑战者",
+		gain_by = "",
 		time_second = 0,
 		id = 201,
 		time_limit_type = 0,
@@ -50,6 +65,7 @@ pg.item_data_frame = {
 	},
 	[202] = {
 		name = "限界的挑战者II",
+		gain_by = "",
 		time_second = 0,
 		id = 202,
 		time_limit_type = 0,
@@ -58,6 +74,7 @@ pg.item_data_frame = {
 	},
 	[203] = {
 		name = "限界的挑战者III",
+		gain_by = "",
 		time_second = 0,
 		id = 203,
 		time_limit_type = 0,
@@ -66,6 +83,7 @@ pg.item_data_frame = {
 	},
 	[204] = {
 		name = "限界的挑战者IV",
+		gain_by = "",
 		time_second = 0,
 		id = 204,
 		time_limit_type = 0,
@@ -74,6 +92,7 @@ pg.item_data_frame = {
 	},
 	[205] = {
 		name = "限界的挑战者V",
+		gain_by = "",
 		time_second = 0,
 		id = 205,
 		time_limit_type = 0,
@@ -82,6 +101,7 @@ pg.item_data_frame = {
 	},
 	[206] = {
 		name = "限界的挑战者VI",
+		gain_by = "",
 		time_second = 0,
 		id = 206,
 		time_limit_type = 0,
@@ -90,6 +110,7 @@ pg.item_data_frame = {
 	},
 	[207] = {
 		name = "限界的挑战者VII",
+		gain_by = "",
 		time_second = 0,
 		id = 207,
 		time_limit_type = 0,
@@ -98,6 +119,7 @@ pg.item_data_frame = {
 	},
 	[208] = {
 		name = "限界的挑战者VIII",
+		gain_by = "",
 		time_second = 0,
 		id = 208,
 		time_limit_type = 0,
@@ -106,6 +128,7 @@ pg.item_data_frame = {
 	},
 	[209] = {
 		name = "限界的挑战者IX",
+		gain_by = "",
 		time_second = 0,
 		id = 209,
 		time_limit_type = 0,
@@ -114,6 +137,7 @@ pg.item_data_frame = {
 	},
 	[300] = {
 		name = "召集者",
+		gain_by = "",
 		time_second = 2592000,
 		id = 300,
 		time_limit_type = 1,
@@ -122,6 +146,7 @@ pg.item_data_frame = {
 	},
 	[301] = {
 		name = "回归者",
+		gain_by = "",
 		time_second = 2592000,
 		id = 301,
 		time_limit_type = 1,
@@ -130,6 +155,7 @@ pg.item_data_frame = {
 	},
 	[302] = {
 		name = "铁血之誓",
+		gain_by = "铁血、音符与誓言",
 		time_second = 0,
 		id = 302,
 		time_limit_type = 0,
@@ -138,6 +164,7 @@ pg.item_data_frame = {
 	},
 	[303] = {
 		name = "自由之翼",
+		gain_by = "箱庭疗法",
 		time_second = 0,
 		id = 303,
 		time_limit_type = 0,
@@ -146,6 +173,7 @@ pg.item_data_frame = {
 	},
 	[304] = {
 		name = "荣光之徽",
+		gain_by = "神圣的悲喜剧",
 		time_second = 0,
 		id = 304,
 		time_limit_type = 0,
@@ -154,6 +182,7 @@ pg.item_data_frame = {
 	},
 	[305] = {
 		name = "重樱之仪",
+		gain_by = "浮樱影华",
 		time_second = 0,
 		id = 305,
 		time_limit_type = 0,
@@ -162,6 +191,7 @@ pg.item_data_frame = {
 	},
 	[306] = {
 		name = "团结之证",
+		gain_by = "北境序曲",
 		time_second = 0,
 		id = 306,
 		time_limit_type = 0,
@@ -170,6 +200,7 @@ pg.item_data_frame = {
 	},
 	[307] = {
 		name = "闪耀之翼",
+		gain_by = "微层混合",
 		time_second = 0,
 		id = 307,
 		time_limit_type = 0,
@@ -178,6 +209,7 @@ pg.item_data_frame = {
 	},
 	[308] = {
 		name = "鸢尾之颂",
+		gain_by = "穹顶下的圣咏曲",
 		time_second = 0,
 		id = 308,
 		time_limit_type = 0,
@@ -186,6 +218,7 @@ pg.item_data_frame = {
 	},
 	[309] = {
 		name = "皇家之冠",
+		gain_by = "永夜幻光",
 		time_second = 0,
 		id = 309,
 		time_limit_type = 0,
@@ -194,6 +227,7 @@ pg.item_data_frame = {
 	},
 	[311] = {
 		name = "浮光蝶影",
+		gain_by = "蝶海梦花",
 		time_second = 0,
 		id = 311,
 		time_limit_type = 0,
@@ -202,6 +236,7 @@ pg.item_data_frame = {
 	},
 	[312] = {
 		name = "铁血之器",
+		gain_by = "负象限作战",
 		time_second = 0,
 		id = 312,
 		time_limit_type = 0,
@@ -210,6 +245,7 @@ pg.item_data_frame = {
 	},
 	[313] = {
 		name = "冰华之证",
+		gain_by = "破晓冰华",
 		time_second = 0,
 		id = 313,
 		time_limit_type = 0,
@@ -218,6 +254,7 @@ pg.item_data_frame = {
 	},
 	[314] = {
 		name = "帝国之柱",
+		gain_by = "复兴的赞美诗",
 		time_second = 0,
 		id = 314,
 		time_limit_type = 0,
@@ -226,14 +263,16 @@ pg.item_data_frame = {
 	},
 	[315] = {
 		name = "掣电光翼",
+		gain_by = "镜位螺旋",
 		time_second = 0,
 		id = 315,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「等待后续活动获取。」</color>",
+		desc = "<color=#ffffff>「白鹰最大最强的Black Dragon登场！一起去撼动世界吧！」</color>\n「镜位螺旋」活动获取",
 		scene = {}
 	},
 	[401] = {
 		name = "殿堂纪念：企业",
+		gain_by = "",
 		time_second = 0,
 		id = 401,
 		time_limit_type = 0,
@@ -242,6 +281,7 @@ pg.item_data_frame = {
 	},
 	[402] = {
 		name = "殿堂纪念：贝尔法斯特",
+		gain_by = "",
 		time_second = 0,
 		id = 402,
 		time_limit_type = 0,
@@ -250,6 +290,7 @@ pg.item_data_frame = {
 	},
 	[404] = {
 		name = "殿堂纪念：椿",
+		gain_by = "",
 		time_second = 0,
 		id = 404,
 		time_limit_type = 0,
@@ -258,6 +299,7 @@ pg.item_data_frame = {
 	},
 	[501] = {
 		name = "美味的纪念 ",
+		gain_by = "",
 		time_second = 0,
 		id = 501,
 		time_limit_type = 0,
@@ -270,6 +312,7 @@ pg.item_data_frame = {
 		102,
 		103,
 		104,
+		105,
 		201,
 		202,
 		203,

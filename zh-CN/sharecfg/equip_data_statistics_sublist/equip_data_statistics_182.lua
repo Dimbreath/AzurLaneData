@@ -1,52 +1,20 @@
 pg = pg or {}
 pg.equip_data_statistics_182 = {
-	[26227] = {
-		id = 26227,
-		damage = "95/轮",
-		base = 26220,
-		weapon_id = {
-			26227
-		}
-	},
-	[26228] = {
-		id = 26228,
-		damage = "102/轮",
-		base = 26220,
-		weapon_id = {
-			26228
-		}
-	},
-	[26229] = {
-		id = 26229,
-		damage = "109/轮",
-		base = 26220,
-		weapon_id = {
-			26229
-		}
-	},
-	[26230] = {
-		id = 26230,
-		damage = "117/轮",
-		base = 26220,
-		weapon_id = {
-			26230
-		}
-	},
-	[26240] = {
+	[26200] = {
 		name = "八联装40mm“砰砰”炮",
 		speciality = "防空",
 		type = 6,
-		tech = 3,
+		tech = 1,
 		descrip = "说明未填写",
-		value_2 = 45,
+		value_2 = 12,
 		icon = "26200",
 		attribute_2 = "antiaircraft",
-		rarity = 5,
-		damage = "50/轮",
+		rarity = 3,
+		damage = "42/轮",
 		nationality = 2,
 		ammo = 5,
 		value_3 = 0,
-		id = 26240,
+		id = 26200,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -58,7 +26,7 @@ pg.equip_data_statistics_182 = {
 			10
 		},
 		weapon_id = {
-			26240
+			26200
 		},
 		skill_id = {},
 		part_main = {
@@ -94,102 +62,186 @@ pg.equip_data_statistics_182 = {
 			"AA"
 		}
 	},
-	[26241] = {
-		id = 26241,
-		damage = "57/轮",
-		base = 26240,
+	[26201] = {
+		id = 26201,
+		damage = "48/轮",
+		base = 26200,
 		weapon_id = {
-			26241
+			26201
 		}
 	},
-	[26242] = {
-		id = 26242,
-		damage = "64/轮",
-		base = 26240,
+	[26202] = {
+		id = 26202,
+		damage = "54/轮",
+		base = 26200,
 		weapon_id = {
-			26242
+			26202
 		}
 	},
-	[26243] = {
-		id = 26243,
-		damage = "72/轮",
-		base = 26240,
+	[26203] = {
+		id = 26203,
+		damage = "60/轮",
+		base = 26200,
 		weapon_id = {
-			26243
+			26203
 		}
 	},
-	[26244] = {
-		id = 26244,
+	[26204] = {
+		id = 26204,
+		damage = "66/轮",
+		base = 26200,
+		weapon_id = {
+			26204
+		}
+	},
+	[26205] = {
+		id = 26205,
+		damage = "73/轮",
+		base = 26200,
+		weapon_id = {
+			26205
+		}
+	},
+	[26206] = {
+		id = 26206,
 		damage = "80/轮",
-		base = 26240,
+		base = 26200,
 		weapon_id = {
-			26244
+			26206
 		}
 	},
-	[26245] = {
-		id = 26245,
+	[26220] = {
+		name = "八联装40mm“砰砰”炮",
+		speciality = "防空",
+		type = 6,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "26200",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "46/轮",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 0,
+		id = 26220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			26220
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
+	[26221] = {
+		id = 26221,
+		damage = "53/轮",
+		base = 26220,
+		weapon_id = {
+			26221
+		}
+	},
+	[26222] = {
+		id = 26222,
+		damage = "60/轮",
+		base = 26220,
+		weapon_id = {
+			26222
+		}
+	},
+	[26223] = {
+		id = 26223,
+		damage = "67/轮",
+		base = 26220,
+		weapon_id = {
+			26223
+		}
+	},
+	[26224] = {
+		id = 26224,
+		damage = "74/轮",
+		base = 26220,
+		weapon_id = {
+			26224
+		}
+	},
+	[26225] = {
+		id = 26225,
+		damage = "81/轮",
+		base = 26220,
+		weapon_id = {
+			26225
+		}
+	},
+	[26226] = {
+		id = 26226,
 		damage = "88/轮",
-		base = 26240,
+		base = 26220,
 		weapon_id = {
-			26245
+			26226
 		}
 	},
-	[26246] = {
-		id = 26246,
-		damage = "96/轮",
-		base = 26240,
+	[26227] = {
+		id = 26227,
+		damage = "95/轮",
+		base = 26220,
 		weapon_id = {
-			26246
+			26227
 		}
 	},
-	[26247] = {
-		id = 26247,
-		damage = "104/轮",
-		base = 26240,
+	[26228] = {
+		id = 26228,
+		damage = "102/轮",
+		base = 26220,
 		weapon_id = {
-			26247
+			26228
 		}
 	},
-	[26248] = {
-		id = 26248,
-		damage = "112/轮",
-		base = 26240,
+	[26229] = {
+		id = 26229,
+		damage = "109/轮",
+		base = 26220,
 		weapon_id = {
-			26248
-		}
-	},
-	[26249] = {
-		id = 26249,
-		damage = "120/轮",
-		base = 26240,
-		weapon_id = {
-			26249
-		}
-	},
-	[26250] = {
-		id = 26250,
-		damage = "128/轮",
-		base = 26240,
-		weapon_id = {
-			26250
-		}
-	},
-	[26251] = {
-		anti_siren = 100,
-		damage = "128/轮",
-		base = 26240,
-		id = 26251,
-		weapon_id = {
-			26251
-		}
-	},
-	[26252] = {
-		anti_siren = 200,
-		damage = "128/轮",
-		base = 26240,
-		id = 26252,
-		weapon_id = {
-			26252
+			26229
 		}
 	}
 }

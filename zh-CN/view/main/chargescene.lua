@@ -1108,7 +1108,7 @@ function slot0.removeUpdateTimer(slot0)
 end
 
 function slot0.createLive2D(slot0)
-	slot0.live2dChar = Live2D.New(Live2D.live2dData({
+	slot0.live2dChar = Live2D.New(Live2D.GenerateData({
 		ship = Ship.New({
 			configId = 312011
 		}),

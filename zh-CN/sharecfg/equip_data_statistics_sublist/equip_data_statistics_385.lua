@@ -1,195 +1,187 @@
 pg = pg or {}
 pg.equip_data_statistics_385 = {
-	[90501] = {
-		id = 90501,
-		base = 90500,
+	[90428] = {
+		id = 90428,
+		damage = "96 x 4",
+		base = 90420,
 		weapon_id = {
-			90501
+			90428
 		}
 	},
-	[90502] = {
-		id = 90502,
-		damage = "10 x 2",
-		base = 90500,
+	[90429] = {
+		id = 90429,
+		damage = "103 x 4",
+		base = 90420,
 		weapon_id = {
-			90502
+			90429
 		}
 	},
-	[90503] = {
-		id = 90503,
-		damage = "10 x 2",
-		base = 90500,
+	[90430] = {
+		id = 90430,
+		damage = "110 x 4",
+		base = 90420,
 		weapon_id = {
-			90503
+			90430
 		}
 	},
-	[90600] = {
-		name = "双联37mm高射炮Mle1936",
-		speciality = "防空",
-		type = 6,
-		tech = 0,
-		descrip = "说明未填写",
+	[90440] = {
+		name = "四联装380mm主炮Mle1935",
+		speciality = "跨射",
+		type = 4,
+		tech = 3,
+		descrip = "黎塞留级战列舰上搭载的四联装380mm主炮，战巡和战列可以使用",
 		value_2 = 45,
-		icon = "50600",
-		attribute_2 = "antiaircraft",
+		icon = "50400",
+		attribute_2 = "cannon",
 		rarity = 5,
-		damage = "38/轮",
+		damage = "48 x 4",
 		nationality = 8,
-		ammo = 5,
+		ammo = 2,
 		value_3 = 0,
-		id = 90600,
+		id = 90440,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1552
+			}
+		},
 		equip_info = {
 			1,
 			2,
 			6,
-			10
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			90600
+			90440
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
 			4,
 			5,
-			6,
 			10,
-			12,
-			13,
-			18,
-			19
+			13
 		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"FFNF",
-			"DD",
-			"AA"
+			"BB",
+			"MG",
+			"HE"
 		}
 	},
-	[90601] = {
-		id = 90601,
-		damage = "42/轮",
-		base = 90600,
+	[90441] = {
+		id = 90441,
+		damage = "55 x 4",
+		base = 90440,
 		weapon_id = {
-			90601
+			90441
 		}
 	},
-	[90602] = {
-		id = 90602,
-		damage = "46/轮",
-		base = 90600,
+	[90442] = {
+		id = 90442,
+		damage = "62 x 4",
+		base = 90440,
 		weapon_id = {
-			90602
+			90442
 		}
 	},
-	[90603] = {
-		id = 90603,
-		damage = "50/轮",
-		base = 90600,
+	[90443] = {
+		id = 90443,
+		damage = "69 x 4",
+		base = 90440,
 		weapon_id = {
-			90603
+			90443
 		}
 	},
-	[90604] = {
-		id = 90604,
-		damage = "54/轮",
-		base = 90600,
+	[90444] = {
+		id = 90444,
+		damage = "76 x 4",
+		base = 90440,
 		weapon_id = {
-			90604
+			90444
 		}
 	},
-	[90605] = {
-		id = 90605,
-		damage = "58/轮",
-		base = 90600,
+	[90445] = {
+		id = 90445,
+		damage = "83 x 4",
+		base = 90440,
 		weapon_id = {
-			90605
+			90445
 		}
 	},
-	[90606] = {
-		id = 90606,
-		damage = "62/轮",
-		base = 90600,
+	[90446] = {
+		id = 90446,
+		damage = "90 x 4",
+		base = 90440,
 		weapon_id = {
-			90606
+			90446
 		}
 	},
-	[90607] = {
-		id = 90607,
-		damage = "66/轮",
-		base = 90600,
+	[90447] = {
+		id = 90447,
+		damage = "97 x 4",
+		base = 90440,
 		weapon_id = {
-			90607
+			90447
 		}
 	},
-	[90608] = {
-		id = 90608,
-		damage = "70/轮",
-		base = 90600,
+	[90448] = {
+		id = 90448,
+		damage = "104 x 4",
+		base = 90440,
 		weapon_id = {
-			90608
+			90448
 		}
 	},
-	[90609] = {
-		id = 90609,
-		damage = "74/轮",
-		base = 90600,
+	[90449] = {
+		id = 90449,
+		damage = "112 x 4",
+		base = 90440,
 		weapon_id = {
-			90609
+			90449
 		}
 	},
-	[90610] = {
-		id = 90610,
-		damage = "78/轮",
-		base = 90600,
+	[90450] = {
+		id = 90450,
+		damage = "120 x 4",
+		base = 90440,
 		weapon_id = {
-			90610
+			90450
 		}
 	},
-	[90611] = {
+	[90451] = {
 		anti_siren = 100,
-		damage = "78/轮",
-		base = 90600,
-		id = 90611,
+		damage = "120 x 4",
+		base = 90440,
+		id = 90451,
 		weapon_id = {
-			90611
+			90451
 		}
 	},
-	[90612] = {
+	[90452] = {
 		anti_siren = 200,
-		damage = "78/轮",
-		base = 90600,
-		id = 90612,
+		damage = "120 x 4",
+		base = 90440,
+		id = 90452,
 		weapon_id = {
-			90612
+			90452
 		}
 	},
-	[90613] = {
+	[90453] = {
 		anti_siren = 300,
-		damage = "78/轮",
-		base = 90600,
-		id = 90613,
+		damage = "120 x 4",
+		base = 90440,
+		id = 90453,
 		weapon_id = {
-			90613
+			90453
 		}
 	}
 }

@@ -22,7 +22,7 @@ pg.activity_const = {
 		act_id = 171
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 956
+		act_id = 989
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 274
@@ -31,7 +31,7 @@ pg.activity_const = {
 		act_id = 270
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 708
+		act_id = 4000
 	},
 	DAY7_LOGIN_ACTIVITY_ID = {
 		act_id = 3
@@ -770,5 +770,8 @@ pg.activity_const = {
 	},
 	NEWMEIXIV4_SKIRMISH_ID = {
 		act_id = 974
+	},
+	MINIGAME_DANGAOBAOWEIZHAN = {
+		act_id = 987
 	}
 }

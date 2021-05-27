@@ -2,304 +2,39 @@ pg = pg or {}
 pg.weapon_property_184 = {}
 
 function ()
-	uv0.weapon_property_184[79171] = {
+	uv0.weapon_property_184[79512] = {
+		name = "专属弹幕-恰巴耶夫II",
+		damage = 20,
+		base = 79511,
+		id = 79512,
+		barrage_ID = {
+			79515,
+			79516,
+			79517,
+			79518
+		}
+	}
+	uv0.weapon_property_184[79521] = {
 		action_index = "attack",
 		range = 50,
-		type = 2,
+		type = 1,
 		fire_fx = "CLFire",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "专属弹幕-Z1I",
+		name = "专属弹幕-里诺I",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 360,
+		angle = 120,
 		charge_param = "",
-		damage = 8,
-		corrected = 125,
-		min_range = 0,
-		id = 79171,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1300,
-			1300
-		},
-		barrage_ID = {
-			70019,
-			70020
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79172] = {
-		name = "专属弹幕-Z1II",
 		damage = 12,
-		base = 79171,
-		id = 79172,
-		barrage_ID = {
-			70021,
-			70022
-		}
-	}
-	uv0.weapon_property_184[79181] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-鞍山I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 125,
-		min_range = 0,
-		id = 79181,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1000
-		},
-		barrage_ID = {
-			19001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79182] = {
-		name = "专属弹幕-鞍山II",
-		damage = 12,
-		base = 79181,
-		id = 79182,
-		barrage_ID = {
-			19002
-		}
-	}
-	uv0.weapon_property_184[79191] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-阿芙乐尔I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 16,
-		corrected = 125,
-		min_range = 0,
-		id = 79191,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79191
-		},
-		barrage_ID = {
-			19001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79192] = {
-		name = "专属弹幕-阿芙乐尔II",
-		damage = 30,
-		base = 79191,
-		id = 79192,
-		barrage_ID = {
-			19002
-		}
-	}
-	uv0.weapon_property_184[79201] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-Z23I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 125,
-		min_range = 0,
-		id = 79201,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1304
-		},
-		barrage_ID = {
-			70043
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79202] = {
-		name = "专属弹幕-Z23II",
-		damage = 12,
-		base = 79201,
-		id = 79202,
-		barrage_ID = {
-			70044
-		}
-	}
-	uv0.weapon_property_184[79211] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-Z46I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 125,
-		min_range = 0,
-		id = 79211,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79211,
-			79211,
-			79211,
-			79211
-		},
-		barrage_ID = {
-			79211,
-			79212,
-			79213,
-			79214
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79212] = {
-		name = "专属弹幕-Z46II",
-		damage = 12,
-		base = 79211,
-		id = 79212,
-		barrage_ID = {
-			79215,
-			79216,
-			79217,
-			79218
-		}
-	}
-	uv0.weapon_property_184[79213] = {
-		action_index = "attack",
-		range = 50,
-		type = 3,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-Z46I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 26,
 		corrected = 100,
 		min_range = 0,
-		id = 79213,
-		attack_attribute_ratio = 80,
+		id = 79521,
+		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 2,
+		attack_attribute = 1,
 		reload_max = 3000,
 		queue = 1,
 		search_type = 1,
@@ -310,12 +45,12 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			79212,
-			79212
+			79521,
+			79521
 		},
 		barrage_ID = {
-			79219,
-			79220
+			79521,
+			79522
 		},
 		oxy_type = {
 			1
@@ -325,13 +60,17 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_184[79214] = {
-		id = 79214,
-		name = "专属弹幕-Z46II",
-		damage = 40,
-		base = 79213
+	uv0.weapon_property_184[79522] = {
+		name = "专属弹幕-里诺II",
+		damage = 24,
+		base = 79521,
+		id = 79522,
+		barrage_ID = {
+			79523,
+			79524
+		}
 	}
-	uv0.weapon_property_184[79221] = {
+	uv0.weapon_property_184[79541] = {
 		action_index = "attack",
 		range = 50,
 		type = 2,
@@ -339,1086 +78,7 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "专属弹幕-伊吹I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 80,
-		charge_param = "",
-		damage = 25,
-		corrected = 110,
-		min_range = 0,
-		id = 79221,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79221,
-			79221
-		},
-		barrage_ID = {
-			79221,
-			79222
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79222] = {
-		name = "专属弹幕-伊吹II",
-		damage = 38,
-		base = 79221,
-		id = 79222,
-		barrage_ID = {
-			79223,
-			79224
-		}
-	}
-	uv0.weapon_property_184[79231] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-海王星I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 110,
-		min_range = 0,
-		id = 79231,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79231,
-			79232
-		},
-		barrage_ID = {
-			79231,
-			79232
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79232] = {
-		name = "专属弹幕-海王星II",
-		damage = 20,
-		base = 79231,
-		id = 79232,
-		bullet_ID = {
-			79233,
-			79234,
-			79235,
-			79236
-		},
-		barrage_ID = {
-			79233,
-			79234,
-			79235,
-			79236
-		}
-	}
-	uv0.weapon_property_184[79241] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-罗恩I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 20,
-		corrected = 110,
-		min_range = 0,
-		id = 79241,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79241,
-			79242,
-			79243,
-			79244
-		},
-		barrage_ID = {
-			79241,
-			79242,
-			79243,
-			79244
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79242] = {
-		name = "专属弹幕-罗恩II",
-		damage = 30,
-		base = 79241,
-		id = 79242,
-		bullet_ID = {
-			79245,
-			79246,
-			79247,
-			79248
-		},
-		barrage_ID = {
-			79245,
-			79246,
-			79247,
-			79248
-		}
-	}
-	uv0.weapon_property_184[79251] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-路易九世I",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 20,
-		corrected = 110,
-		min_range = 0,
-		id = 79251,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79251
-		},
-		barrage_ID = {
-			79251
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79252] = {
-		name = "专属弹幕-路易九世II",
-		damage = 30,
-		base = 79251,
-		id = 79252,
-		bullet_ID = {
-			79252,
-			79253,
-			79254
-		},
-		barrage_ID = {
-			79252,
-			79253,
-			79254
-		}
-	}
-	uv0.weapon_property_184[79261] = {
-		action_index = "attack",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-I19I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 79261,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79261,
-			79261
-		},
-		barrage_ID = {
-			79261,
-			79262
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79262] = {
-		name = "专属弹幕-I19II",
-		damage = 60,
-		base = 79261,
-		id = 79262,
-		barrage_ID = {
-			79263,
-			79264
-		}
-	}
-	uv0.weapon_property_184[79271] = {
-		action_index = "attack",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-U81I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 79271,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79271
-		},
-		barrage_ID = {
-			79271
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79272] = {
-		name = "专属弹幕-U81II",
-		damage = 60,
-		base = 79271,
-		id = 79272,
-		barrage_ID = {
-			79272
-		}
-	}
-	uv0.weapon_property_184[79281] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-江风I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 125,
-		min_range = 0,
-		id = 79281,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79281,
-			79281,
-			79281
-		},
-		barrage_ID = {
-			79281,
-			79282,
-			79283
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79282] = {
-		name = "专属弹幕-江风II",
-		damage = 12,
-		base = 79281,
-		id = 79282,
-		barrage_ID = {
-			79284,
-			79285,
-			79286
-		}
-	}
-	uv0.weapon_property_184[79283] = {
-		action_index = "attack",
-		range = 50,
-		type = 3,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-江风I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 30,
-		corrected = 100,
-		min_range = 0,
-		id = 79283,
-		attack_attribute_ratio = 80,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79282
-		},
-		barrage_ID = {
-			79287
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79284] = {
-		id = 79284,
-		name = "专属弹幕-江风II",
-		damage = 45,
-		base = 79283
-	}
-	uv0.weapon_property_184[79291] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-22I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 10,
-		corrected = 100,
-		min_range = 0,
-		id = 79291,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 20,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19811,
-			19812,
-			19813,
-			19814,
-			19815,
-			19816,
-			19817,
-			19818,
-			19819,
-			19820,
-			19821,
-			19822,
-			19823,
-			19824,
-			19825,
-			19826,
-			19827,
-			19828,
-			19838,
-			19839,
-			19840
-		},
-		barrage_ID = {
-			80381,
-			80382,
-			80383,
-			80384,
-			80385,
-			80386,
-			80387,
-			80388,
-			80389,
-			80390,
-			80391,
-			80392,
-			80393,
-			80394,
-			80395,
-			80396,
-			80397,
-			80398,
-			80408,
-			80409,
-			80410
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79292] = {
-		name = "专属弹幕-22II",
-		base = 79291,
-		id = 79292,
-		bullet_ID = {
-			19811,
-			19812,
-			19813,
-			19814,
-			19815,
-			19816,
-			19817,
-			19818,
-			19819,
-			19820,
-			19821,
-			19822,
-			19823,
-			19824,
-			19825,
-			19826,
-			19827,
-			19828,
-			19829,
-			19830,
-			19831,
-			19832,
-			19833,
-			19834,
-			19835,
-			19836,
-			19837,
-			19838,
-			19839,
-			19840,
-			19841,
-			19842,
-			19843
-		},
-		barrage_ID = {
-			80381,
-			80382,
-			80383,
-			80384,
-			80385,
-			80386,
-			80387,
-			80388,
-			80389,
-			80390,
-			80391,
-			80392,
-			80393,
-			80394,
-			80395,
-			80396,
-			80397,
-			80398,
-			80399,
-			80400,
-			80401,
-			80402,
-			80403,
-			80404,
-			80405,
-			80406,
-			80407,
-			80408,
-			80409,
-			80410,
-			80411,
-			80412,
-			80413
-		}
-	}
-	uv0.weapon_property_184[79301] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-33I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 10,
-		corrected = 100,
-		min_range = 0,
-		id = 79301,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 20,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19811,
-			19812,
-			19813,
-			19814,
-			19815,
-			19816,
-			19817,
-			19818,
-			19819,
-			19820,
-			19821,
-			19822,
-			19823,
-			19824,
-			19825,
-			19826,
-			19827,
-			19828,
-			19838,
-			19839,
-			19840
-		},
-		barrage_ID = {
-			80414,
-			80415,
-			80416,
-			80417,
-			80418,
-			80419,
-			80420,
-			80421,
-			80422,
-			80423,
-			80424,
-			80425,
-			80426,
-			80427,
-			80428,
-			80429,
-			80430,
-			80431,
-			80441,
-			80442,
-			80443
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79302] = {
-		name = "专属弹幕-33II",
-		base = 79301,
-		id = 79302,
-		bullet_ID = {
-			19811,
-			19812,
-			19813,
-			19814,
-			19815,
-			19816,
-			19817,
-			19818,
-			19819,
-			19820,
-			19821,
-			19822,
-			19823,
-			19824,
-			19825,
-			19826,
-			19827,
-			19828,
-			19829,
-			19830,
-			19831,
-			19832,
-			19833,
-			19834,
-			19835,
-			19836,
-			19837,
-			19838,
-			19839,
-			19840,
-			19841,
-			19842,
-			19843
-		},
-		barrage_ID = {
-			80414,
-			80415,
-			80416,
-			80417,
-			80418,
-			80419,
-			80420,
-			80421,
-			80422,
-			80423,
-			80424,
-			80425,
-			80426,
-			80427,
-			80428,
-			80429,
-			80430,
-			80431,
-			80432,
-			80433,
-			80434,
-			80435,
-			80436,
-			80437,
-			80438,
-			80439,
-			80440,
-			80441,
-			80442,
-			80443,
-			80444,
-			80445,
-			80446
-		}
-	}
-	uv0.weapon_property_184[79311] = {
-		action_index = "attack",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-U47I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 79311,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79311
-		},
-		barrage_ID = {
-			79311
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79312] = {
-		name = "专属弹幕-U47II",
-		damage = 60,
-		base = 79311,
-		id = 79312,
-		bullet_ID = {
-			79311,
-			79311
-		},
-		barrage_ID = {
-			79311,
-			79312
-		}
-	}
-	uv0.weapon_property_184[79321] = {
-		action_index = "attack",
-		range = 90,
-		type = 3,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-絮库夫I",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 120,
-		corrected = 100,
-		min_range = 0,
-		id = 79321,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79321
-		},
-		barrage_ID = {
-			79321
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79322] = {
-		name = "专属弹幕-絮库夫II",
-		damage = 150,
-		base = 79321,
-		id = 79322,
-		bullet_ID = {
-			79321,
-			79321
-		},
-		barrage_ID = {
-			79321,
-			79322
-		}
-	}
-	uv0.weapon_property_184[79331] = {
-		action_index = "attack",
-		range = 90,
-		type = 3,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-凯旋I",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 8,
-		corrected = 125,
-		min_range = 0,
-		id = 79331,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79331,
-			79331,
-			79332,
-			79332,
-			79333,
-			79333
-		},
-		barrage_ID = {
-			80461,
-			80462,
-			80463,
-			80464,
-			80465,
-			80466
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79332] = {
-		name = "专属弹幕-凯旋II",
-		damage = 12,
-		base = 79331,
-		id = 79332,
-		barrage_ID = {
-			80467,
-			80468,
-			80469,
-			80470,
-			80471,
-			80472
-		}
-	}
-	uv0.weapon_property_184[79333] = {
-		action_index = "attack",
-		range = 90,
-		type = 3,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-凯旋鱼雷I",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 30,
-		corrected = 100,
-		min_range = 0,
-		id = 79333,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79334
-		},
-		barrage_ID = {
-			80473
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79334] = {
-		name = "专属弹幕-凯旋鱼雷II",
-		damage = 45,
-		base = 79333,
-		id = 79334,
-		barrage_ID = {
-			80474
-		}
-	}
-	uv0.weapon_property_184[79341] = {
-		action_index = "attack",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-大青花鱼I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 32,
-		corrected = 100,
-		min_range = 0,
-		id = 79341,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79341
-		},
-		barrage_ID = {
-			79341
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79342] = {
-		name = "专属弹幕-大青花鱼II",
-		damage = 48,
-		base = 79341,
-		id = 79342,
-		bullet_ID = {
-			79341,
-			79341
-		},
-		barrage_ID = {
-			79341,
-			79342
-		}
-	}
-	uv0.weapon_property_184[79351] = {
-		action_index = "attack",
-		range = 80,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-圣地亚哥",
+		name = "专属弹幕-圣女贞德I",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1427,7 +87,7 @@ function ()
 		damage = 22,
 		corrected = 125,
 		min_range = 0,
-		id = 79351,
+		id = 79541,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1441,10 +101,12 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			79351
+			79541,
+			79541
 		},
 		barrage_ID = {
-			79351
+			79541,
+			79542
 		},
 		oxy_type = {
 			1
@@ -1454,363 +116,17 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_184[79361] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-天狼星I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 24,
-		corrected = 125,
-		min_range = 0,
-		id = 79361,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79361,
-			79361
-		},
+	uv0.weapon_property_184[79542] = {
+		name = "专属弹幕-圣女贞德II",
+		damage = 32,
+		base = 79541,
+		id = 79542,
 		barrage_ID = {
-			79361,
-			79362
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79362] = {
-		name = "专属弹幕-天狼星II",
-		damage = 34,
-		base = 79361,
-		id = 79362,
-		bullet_ID = {
-			79361,
-			79361,
-			79361,
-			79361
-		},
-		barrage_ID = {
-			79361,
-			79362,
-			79363,
-			79364
+			79543,
+			79544
 		}
 	}
-	uv0.weapon_property_184[79371] = {
-		action_index = "attack",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-I13I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 35,
-		corrected = 100,
-		min_range = 0,
-		id = 79371,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79371,
-			79371
-		},
-		barrage_ID = {
-			79371,
-			79372
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79372] = {
-		name = "专属弹幕-I13II",
-		damage = 55,
-		base = 79371,
-		id = 79372,
-		barrage_ID = {
-			79373,
-			79374
-		}
-	}
-	uv0.weapon_property_184[79381] = {
-		action_index = "attack",
-		range = 50,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-北风I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 79381,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79381,
-			79381,
-			79381
-		},
-		barrage_ID = {
-			79381,
-			79382,
-			79383
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79382] = {
-		name = "专属弹幕-北风II",
-		damage = 12,
-		base = 79381,
-		id = 79382,
-		bullet_ID = {
-			79381,
-			79381,
-			79381,
-			79381,
-			79381
-		},
-		barrage_ID = {
-			79381,
-			79382,
-			79383,
-			79384,
-			79385
-		}
-	}
-	uv0.weapon_property_184[79383] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕鱼雷-北风I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 58,
-		corrected = 100,
-		min_range = 0,
-		id = 79383,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79382
-		},
-		barrage_ID = {
-			79386
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79384] = {
-		id = 79384,
-		name = "专属弹幕鱼雷-北风II",
-		damage = 78,
-		base = 79383
-	}
-	uv0.weapon_property_184[79391] = {
-		action_index = "attack",
-		range = 50,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-西雅图I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 12,
-		corrected = 100,
-		min_range = 0,
-		id = 79391,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79391,
-			79391,
-			79391
-		},
-		barrage_ID = {
-			79391,
-			79392,
-			79393
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79392] = {
-		name = "专属弹幕-西雅图II",
-		damage = 20,
-		base = 79391,
-		id = 79392,
-		barrage_ID = {
-			79394,
-			79395,
-			79396
-		}
-	}
-	uv0.weapon_property_184[79401] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "专属弹幕-确捷I",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 24,
-		corrected = 125,
-		min_range = 0,
-		id = 79401,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			79401,
-			79401,
-			79401
-		},
-		barrage_ID = {
-			79401,
-			79402,
-			79403
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_184[79402] = {
-		name = "专属弹幕-确捷II",
-		damage = 34,
-		base = 79401,
-		id = 79402,
-		barrage_ID = {
-			79404,
-			79405,
-			79406
-		}
-	}
-	uv0.weapon_property_184[79411] = {
+	uv0.weapon_property_184[79543] = {
 		action_index = "attack",
 		range = 90,
 		type = 3,
@@ -1818,7 +134,534 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "专属弹幕-恶毒I",
+		name = "专属弹幕-圣女贞德鱼雷",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 42,
+		corrected = 100,
+		min_range = 0,
+		id = 79543,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79542
+		},
+		barrage_ID = {
+			79545
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[79551] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "专属弹幕-柴郡I",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 20,
+		corrected = 100,
+		min_range = 0,
+		id = 79551,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 412,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79551,
+			79551
+		},
+		barrage_ID = {
+			79551,
+			79552
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[79552] = {
+		name = "专属弹幕-柴郡II",
+		damage = 35,
+		base = 79551,
+		id = 79552,
+		bullet_ID = {
+			79552,
+			79552
+		}
+	}
+	uv0.weapon_property_184[79561] = {
+		action_index = "attack",
+		range = 80,
+		type = 2,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "专属弹幕-德雷克I",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 25,
+		corrected = 100,
+		min_range = 0,
+		id = 79561,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 412,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79561,
+			79561,
+			79562
+		},
+		barrage_ID = {
+			79563,
+			79561,
+			79565
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[79562] = {
+		name = "专属弹幕-德雷克II",
+		damage = 38,
+		base = 79561,
+		id = 79562,
+		barrage_ID = {
+			79564,
+			79562,
+			79566
+		}
+	}
+	uv0.weapon_property_184[79571] = {
+		action_index = "attack",
+		range = 100,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "专属弹幕-美因茨I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 12,
+		corrected = 105,
+		min_range = 0,
+		id = 79571,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 1200,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79571,
+			79571,
+			79571,
+			79571
+		},
+		barrage_ID = {
+			79571,
+			79572,
+			79575,
+			79576
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[79572] = {
+		name = "专属弹幕-美因茨II",
+		damage = 20,
+		base = 79571,
+		id = 79572,
+		bullet_ID = {
+			79571,
+			79571,
+			79571,
+			79571,
+			79571,
+			79571
+		},
+		barrage_ID = {
+			79571,
+			79572,
+			79573,
+			79574,
+			79575,
+			79576
+		}
+	}
+	uv0.weapon_property_184[79581] = {
+		action_index = "attack",
+		range = 50,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "专属弹幕-赫敏I",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 12,
+		corrected = 105,
+		min_range = 0,
+		id = 79581,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79581,
+			79581
+		},
+		barrage_ID = {
+			79581,
+			79582
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[79582] = {
+		name = "专属弹幕-赫敏II",
+		damage = 20,
+		base = 79581,
+		id = 79582,
+		bullet_ID = {
+			79581,
+			79581,
+			79581,
+			79581,
+			79581,
+			79581
+		},
+		barrage_ID = {
+			79581,
+			79582,
+			79583,
+			79584,
+			79585,
+			79586
+		}
+	}
+	uv0.weapon_property_184[79591] = {
+		action_index = "attack",
+		range = 80,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "专属弹幕-U96I",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 40,
+		corrected = 100,
+		min_range = 0,
+		id = 79591,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79591,
+			79591
+		},
+		barrage_ID = {
+			79591,
+			79592
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[79592] = {
+		name = "专属弹幕-U96II",
+		damage = 60,
+		base = 79591,
+		id = 79592,
+		bullet_ID = {
+			79591,
+			79591,
+			79591
+		},
+		barrage_ID = {
+			79591,
+			79592,
+			79593
+		}
+	}
+	uv0.weapon_property_184[79601] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "专属弹幕-凉月I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 12,
+		corrected = 105,
+		min_range = 0,
+		id = 79601,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 600,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79601,
+			79601,
+			79601
+		},
+		barrage_ID = {
+			79601,
+			79602,
+			79603
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[79602] = {
+		id = 79602,
+		name = "专属弹幕-凉月II",
+		damage = 20,
+		base = 79601
+	}
+	uv0.weapon_property_184[79603] = {
+		action_index = "attack",
+		range = 90,
+		type = 3,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "专属弹幕-凉月鱼雷",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 42,
+		corrected = 100,
+		min_range = 0,
+		id = 79603,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79602
+		},
+		barrage_ID = {
+			79604
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[79611] = {
+		action_index = "attack",
+		range = 50,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "专属弹幕-罗恩μI",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 20,
+		corrected = 110,
+		min_range = 0,
+		id = 79611,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79611,
+			79612,
+			79613,
+			79614
+		},
+		barrage_ID = {
+			79241,
+			79242,
+			79243,
+			79244
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[79612] = {
+		name = "专属弹幕-罗恩μII",
+		damage = 30,
+		base = 79611,
+		id = 79612,
+		bullet_ID = {
+			79615,
+			79616,
+			79617,
+			79618
+		},
+		barrage_ID = {
+			79245,
+			79246,
+			79247,
+			79248
+		}
+	}
+	uv0.weapon_property_184[79621] = {
+		action_index = "attack",
+		range = 90,
+		type = 3,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "专属弹幕-恶毒μI",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1827,7 +670,7 @@ function ()
 		damage = 12,
 		corrected = 125,
 		min_range = 0,
-		id = 79411,
+		id = 79621,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -1841,12 +684,12 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			79411,
-			79411
+			79621,
+			79621
 		},
 		barrage_ID = {
-			79411,
-			79412
+			79621,
+			79622
 		},
 		oxy_type = {
 			1
@@ -1856,17 +699,17 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_184[79412] = {
-		name = "专属弹幕-恶毒II",
+	uv0.weapon_property_184[79622] = {
+		name = "专属弹幕-恶毒μII",
 		damage = 18,
-		base = 79411,
-		id = 79412,
+		base = 79621,
+		id = 79622,
 		barrage_ID = {
-			79413,
-			79414
+			79623,
+			79624
 		}
 	}
-	uv0.weapon_property_184[79413] = {
+	uv0.weapon_property_184[79623] = {
 		action_index = "attack",
 		range = 90,
 		type = 3,
@@ -1883,7 +726,7 @@ function ()
 		damage = 30,
 		corrected = 100,
 		min_range = 0,
-		id = 79413,
+		id = 79623,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -1897,10 +740,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			79412
+			79622
 		},
 		barrage_ID = {
-			79415
+			79625
 		},
 		oxy_type = {
 			1
@@ -1910,13 +753,145 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_184[79414] = {
-		id = 79414,
+	uv0.weapon_property_184[79624] = {
+		id = 79624,
 		name = "专属弹幕-恶毒鱼雷II",
 		damage = 45,
-		base = 79413
+		base = 79623
 	}
-	uv0.weapon_property_184[79421] = {
+	uv0.weapon_property_184[79631] = {
+		action_index = "attack",
+		range = 50,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "专属弹幕-黛朵μI",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 24,
+		corrected = 125,
+		min_range = 0,
+		id = 79631,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79631,
+			79631,
+			79631
+		},
+		barrage_ID = {
+			79491,
+			79492,
+			79493
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[79632] = {
+		name = "专属弹幕-黛朵μII",
+		damage = 34,
+		base = 79631,
+		id = 79632,
+		bullet_ID = {
+			79631,
+			79631,
+			79631,
+			79632,
+			79632,
+			79632
+		},
+		barrage_ID = {
+			79491,
+			79492,
+			79493,
+			79494,
+			79495,
+			79496
+		}
+	}
+	uv0.weapon_property_184[79641] = {
+		action_index = "attack",
+		range = 50,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "专属弹幕-塔什干μI",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 8,
+		corrected = 100,
+		min_range = 0,
+		id = 79641,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79641,
+			79641,
+			79641,
+			79641
+		},
+		barrage_ID = {
+			79641,
+			79642,
+			79643,
+			79644
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[79642] = {
+		name = "专属弹幕-塔什干μII",
+		damage = 12,
+		base = 79641,
+		id = 79642,
+		barrage_ID = {
+			79645,
+			79646,
+			79647,
+			79648
+		}
+	}
+	uv0.weapon_property_184[79651] = {
 		action_index = "attack",
 		range = 80,
 		type = 3,
@@ -1924,16 +899,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "专属弹幕-I168I",
+		name = "专属弹幕-大青花鱼μI",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 120,
 		charge_param = "",
-		damage = 40,
+		damage = 25,
 		corrected = 100,
 		min_range = 0,
-		id = 79421,
+		id = 79651,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -1947,12 +922,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			79421,
-			79421
+			79651
 		},
 		barrage_ID = {
-			79421,
-			79422
+			79651
 		},
 		oxy_type = {
 			1
@@ -1962,14 +935,803 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_184[79422] = {
-		name = "专属弹幕-I168II",
-		damage = 60,
-		base = 79421,
-		id = 79422,
+	uv0.weapon_property_184[79652] = {
+		name = "专属弹幕-大青花鱼μII",
+		damage = 35,
+		base = 79651,
+		id = 79652,
+		bullet_ID = {
+			79651,
+			79651
+		},
 		barrage_ID = {
-			79423,
-			79424
+			79651,
+			79652
+		}
+	}
+	uv0.weapon_property_184[79661] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "专属弹幕-巴尔的摩μI",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 25,
+		corrected = 100,
+		min_range = 0,
+		id = 79661,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 412,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79661,
+			79661
+		},
+		barrage_ID = {
+			79661,
+			79662
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[79662] = {
+		name = "专属弹幕-巴尔的摩μII",
+		damage = 35,
+		base = 79661,
+		id = 79662,
+		barrage_ID = {
+			79663,
+			79664
+		}
+	}
+	uv0.weapon_property_184[79671] = {
+		action_index = "attack",
+		range = 80,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "专属弹幕-U37I",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 40,
+		corrected = 100,
+		min_range = 0,
+		id = 79671,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79671,
+			79671
+		},
+		barrage_ID = {
+			79671,
+			79672
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[79672] = {
+		name = "专属弹幕-U37II",
+		damage = 60,
+		base = 79671,
+		id = 79672,
+		bullet_ID = {
+			79671,
+			79671,
+			79671
+		},
+		barrage_ID = {
+			79671,
+			79672,
+			79673
+		}
+	}
+	uv0.weapon_property_184[79681] = {
+		action_index = "attack",
+		range = 50,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "专属弹幕-基洛夫I",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 12,
+		corrected = 125,
+		min_range = 0,
+		id = 79681,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79681,
+			79681,
+			79681,
+			79681,
+			79681
+		},
+		barrage_ID = {
+			79681,
+			79682,
+			79683,
+			79684,
+			79685
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[79682] = {
+		name = "专属弹幕-基洛夫II",
+		damage = 25,
+		base = 79681,
+		id = 79682,
+		bullet_ID = {
+			79681,
+			79681,
+			79681,
+			79681,
+			79681
+		},
+		barrage_ID = {
+			79681,
+			79687,
+			79688,
+			79689,
+			79690
+		}
+	}
+	uv0.weapon_property_184[79683] = {
+		action_index = "attack",
+		range = 90,
+		type = 3,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "专属弹幕-基洛夫鱼雷I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 40,
+		corrected = 100,
+		min_range = 0,
+		id = 79683,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79682
+		},
+		barrage_ID = {
+			79686
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[79691] = {
+		action_index = "attack",
+		range = 50,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "专属弹幕-艾伦·萨姆那I",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 8,
+		corrected = 125,
+		min_range = 0,
+		id = 79691,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79691,
+			79691
+		},
+		barrage_ID = {
+			79691,
+			79692
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[79692] = {
+		name = "专属弹幕-艾伦·萨姆那II",
+		damage = 12,
+		base = 79691,
+		id = 79692,
+		bullet_ID = {
+			79692,
+			79692
+		},
+		barrage_ID = {
+			79693,
+			79694
+		}
+	}
+	uv0.weapon_property_184[79693] = {
+		action_index = "attack",
+		range = 90,
+		type = 3,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "专属弹幕-艾伦萨姆纳鱼雷",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 42,
+		corrected = 100,
+		min_range = 0,
+		id = 79693,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79693
+		},
+		barrage_ID = {
+			79695
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[79701] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "专属弹幕-阿布鲁齐公爵I",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 12,
+		corrected = 100,
+		min_range = 0,
+		id = 79701,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			79701
+		},
+		barrage_ID = {
+			79701
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[79702] = {
+		id = 79702,
+		name = "专属弹幕-阿布鲁齐公爵II",
+		damage = 18,
+		base = 79701
+	}
+	uv0.weapon_property_184[79703] = {
+		action_index = "attack",
+		range = 90,
+		type = 3,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "专属弹幕-阿布鲁齐公爵鱼雷",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 35,
+		corrected = 100,
+		min_range = 0,
+		id = 79703,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79703
+		},
+		barrage_ID = {
+			79703
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[79711] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "专属弹幕-旧金山I",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 25,
+		corrected = 100,
+		min_range = 0,
+		id = 79711,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 412,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79711,
+			79711
+		},
+		barrage_ID = {
+			79711,
+			79712
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[79712] = {
+		name = "专属弹幕-旧金山II",
+		damage = 35,
+		base = 79711,
+		id = 79712,
+		bullet_ID = {
+			79711,
+			79711,
+			79711,
+			79711
+		},
+		barrage_ID = {
+			79711,
+			79712,
+			79713,
+			79714
+		}
+	}
+	uv0.weapon_property_184[79721] = {
+		action_index = "attack",
+		range = 80,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "专属弹幕-射水鱼I",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 35,
+		corrected = 100,
+		min_range = 0,
+		id = 79721,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79721
+		},
+		barrage_ID = {
+			79721
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[79722] = {
+		name = "专属弹幕-射水鱼II",
+		damage = 45,
+		base = 79721,
+		id = 79722,
+		bullet_ID = {
+			79721,
+			79722
+		},
+		barrage_ID = {
+			79721,
+			79722
+		}
+	}
+	uv0.weapon_property_184[81000] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "F2A水牛T1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 18,
+		corrected = 100,
+		min_range = 0,
+		id = 81000,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1995,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			17000
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[81001] = {
+		reload_max = 1971,
+		damage = 20,
+		base = 81000,
+		id = 81001,
+		bullet_ID = {
+			17001
+		}
+	}
+	uv0.weapon_property_184[81002] = {
+		reload_max = 1948,
+		damage = 22,
+		base = 81000,
+		id = 81002,
+		bullet_ID = {
+			17002
+		}
+	}
+	uv0.weapon_property_184[81003] = {
+		reload_max = 1924,
+		damage = 24,
+		base = 81000,
+		id = 81003,
+		bullet_ID = {
+			17003
+		}
+	}
+	uv0.weapon_property_184[81020] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "F2A水牛T2",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 20,
+		corrected = 100,
+		min_range = 0,
+		id = 81020,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1948,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			17000
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[81021] = {
+		reload_max = 1924,
+		damage = 22,
+		base = 81020,
+		id = 81021,
+		bullet_ID = {
+			17001
+		}
+	}
+	uv0.weapon_property_184[81022] = {
+		reload_max = 1900,
+		damage = 24,
+		base = 81020,
+		id = 81022,
+		bullet_ID = {
+			17002
+		}
+	}
+	uv0.weapon_property_184[81023] = {
+		reload_max = 1876,
+		damage = 26,
+		base = 81020,
+		id = 81023,
+		bullet_ID = {
+			17003
+		}
+	}
+	uv0.weapon_property_184[81040] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "F2A水牛T3",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 22,
+		corrected = 100,
+		min_range = 0,
+		id = 81040,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1900,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			17000
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_184[81041] = {
+		reload_max = 1876,
+		damage = 24,
+		base = 81040,
+		id = 81041,
+		bullet_ID = {
+			17001
+		}
+	}
+	uv0.weapon_property_184[81042] = {
+		reload_max = 1853,
+		damage = 26,
+		base = 81040,
+		id = 81042,
+		bullet_ID = {
+			17002
+		}
+	}
+	uv0.weapon_property_184[81043] = {
+		reload_max = 1829,
+		damage = 28,
+		base = 81040,
+		id = 81043,
+		bullet_ID = {
+			17003
+		}
+	}
+	uv0.weapon_property_184[81044] = {
+		reload_max = 1805,
+		damage = 32,
+		base = 81040,
+		id = 81044,
+		bullet_ID = {
+			17004
+		}
+	}
+	uv0.weapon_property_184[81045] = {
+		reload_max = 1781,
+		damage = 34,
+		base = 81040,
+		id = 81045,
+		bullet_ID = {
+			17005
 		}
 	}
 end()

@@ -25,6 +25,8 @@ function slot0.preload(slot0, slot1)
 end
 
 function slot0.init(slot0)
+	slot0._animator = GetComponent(slot0._tf, "Animator")
+	slot0._canvasGroup = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
 	slot0._shake = slot0:findTF("shake_panel")
 	slot0._shade = slot0:findTF("shade")
 	slot0._bg = slot0._shake:Find("bg")
@@ -75,6 +77,8 @@ function slot0.init(slot0)
 
 		slot0.contextData.autoExitTime = nil
 	end
+
+	slot0:PauseAnimation()
 end
 
 function slot0.voice(slot0, slot1)
@@ -339,13 +343,35 @@ function slot0.setShip(slot0, slot1)
 			end
 
 			setActive(uv3, false)
-			setActive(slot0, true)
+			setActive(slot0, false)
 
 			uv0.effectObj = slot0
 		end)
 	else
 		slot0.effectObj = slot0.rarityEffect[slot8]
 
+		setActive(slot0.effectObj, false)
+	end
+
+	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/star_level_unlock_anim_" .. ShipGroup.getDefaultSkin(slot0._shipVO:getGroupId()).id)) then
+		slot0:playOpening(true, function ()
+			uv0:ResumeAnimation()
+		end, "star_level_unlock_anim_" .. slot27)
+	else
+		slot0:ResumeAnimation()
+	end
+end
+
+function slot0.PauseAnimation(slot0)
+	slot0._canvasGroup.alpha = 0
+	slot0._animator.enabled = false
+end
+
+function slot0.ResumeAnimation(slot0)
+	slot0._canvasGroup.alpha = 1
+	slot0._animator.enabled = true
+
+	if slot0.effectObj then
 		setActive(slot0.effectObj, true)
 	end
 end
@@ -723,11 +749,76 @@ function slot0.starsAnimation(slot0)
 	end)
 end
 
+function slot0.playOpening(slot0, slot1, slot2, slot3)
+	slot0.onPlayingOP = true
+
+	function slot4()
+		uv0.openingAni.enabled = true
+
+		onButton(uv0, uv0.openingTF, function ()
+			if uv0 and uv1.playOpTime ~= nil and pg.TimeMgr.GetInstance():RealtimeSinceStartup() - uv1.playOpTime > 1 then
+				uv1:stopOpening(uv2)
+			end
+		end)
+		uv0.openingTF:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
+			uv0:stopOpening(uv1)
+		end)
+		setActive(uv0.openingTF, true)
+	end
+
+	if IsNil(slot0.openingTF) then
+		pg.UIMgr.GetInstance():LoadingOn()
+		LoadAndInstantiateAsync("ui", slot3, function (slot0)
+			slot0:SetActive(false)
+
+			uv0.openingTF = slot0
+
+			pg.UIMgr.GetInstance():OverlayPanel(uv0.openingTF.transform, {
+				weight = uv0:getWeightFromData()
+			})
+			setActive(uv0.openingTF, false)
+
+			uv0.openingAni = GetComponent(uv0.openingTF, "Animator")
+
+			uv1()
+			pg.UIMgr.GetInstance():LoadingOff()
+
+			uv0.playOpTime = pg.TimeMgr.GetInstance():RealtimeSinceStartup()
+		end)
+	else
+		slot4()
+	end
+end
+
+function slot0.stopOpening(slot0, slot1)
+	if not slot0.openingTF then
+		return
+	end
+
+	setActive(slot0.openingTF, false)
+
+	slot0.openingAni.enabled = false
+
+	if not IsNil(slot0.openingTF) then
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.openingTF.transform, slot0._tf)
+		Destroy(slot0.openingTF)
+
+		slot0.openingTF = nil
+	end
+
+	slot0.onPlayingOP = false
+
+	if slot1 then
+		slot1()
+	end
+end
+
 function slot0.ClearTweens(slot0, slot1)
 	slot0:cleanManagedTween(true)
 end
 
 function slot0.willExit(slot0)
+	slot0:stopOpening()
 	slot0:StopAutoExitTimer()
 	slot0:DestroyNewShipDocumentView()
 

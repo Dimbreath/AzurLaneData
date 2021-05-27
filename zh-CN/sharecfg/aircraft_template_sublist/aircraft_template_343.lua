@@ -1,26 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_343 = {
-	[617005] = {
-		name = "【年底日系活动A1】BOSS-龙凤 轰炸机",
-		max_hp = 96,
+	[616102] = {
+		name = "【hololive联动TS4】BOSS-时乃空 鱼雷机",
+		max_hp = 140,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "jianyu",
 		ACC_growth = 0,
-		crash_DMG = 69,
+		crash_DMG = 111,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "99shijianbao1",
+		icon = "jianyu",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2380,
-		speed = 30,
-		id = 617005,
+		hp_growth = 2400,
+		speed = 28,
+		id = 616102,
 		scale = 0.75,
 		weapon_ID = {
-			617008
+			616103
 		},
 		position_offset = {
 			0,
@@ -74,162 +74,13 @@ pg.aircraft_template_343 = {
 			}
 		}
 	},
-	[617085] = {
-		name = "【年底日系活动C1】BOSS-龙凤 战斗机",
-		max_hp = 141,
-		accuracy = 23,
-		model_ID = "lingzhan21",
-		ACC_growth = 0,
-		crash_DMG = 220,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "lingzhan21",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2520,
-		speed = 33,
-		id = 617085,
-		scale = 0.75,
-		weapon_ID = {
-			617087,
-			617088
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.27,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[617086] = {
-		name = "【年底日系活动C1】BOSS-龙凤 轰炸机",
-		max_hp = 154,
-		accuracy = 23,
-		model_ID = "99shijianbao1",
-		ACC_growth = 0,
-		crash_DMG = 114,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "99shijianbao1",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2880,
-		speed = 30,
-		id = 617086,
-		scale = 0.75,
-		weapon_ID = {
-			617089
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-0.91,
-					0
-				},
-				{
-					0.77,
-					1,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.51,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[617161] = {
-		name = "【年底日系活动SP】BOSS-龙凤 地毯轰炸飞机",
-		max_hp = 1800,
+	[616109] = {
+		name = "【hololive联动TS4】BOSS-时乃空 地毯轰炸飞机",
+		max_hp = 500,
 		accuracy = 50,
 		model_ID = "huixing",
 		ACC_growth = 0,
-		crash_DMG = 400,
+		crash_DMG = 160,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
@@ -240,10 +91,10 @@ pg.aircraft_template_343 = {
 		nationality = 3,
 		hp_growth = 0,
 		speed = 30,
-		id = 617161,
+		id = 616109,
 		scale = 0.75,
 		weapon_ID = {
-			340142
+			616110
 		},
 		position_offset = {
 			0,
@@ -297,13 +148,13 @@ pg.aircraft_template_343 = {
 			}
 		}
 	},
-	[617168] = {
-		name = "【年底日系活动SP】BOSS-龙凤 战斗机",
-		max_hp = 324,
+	[616128] = {
+		name = "【hololive联动T5】BOSS-紫咲诗音 战斗机",
+		max_hp = 262,
 		accuracy = 50,
 		model_ID = "lingzhan21",
 		ACC_growth = 0,
-		crash_DMG = 216,
+		crash_DMG = 88,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
@@ -312,13 +163,13 @@ pg.aircraft_template_343 = {
 		icon = "lingzhan21",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3400,
+		hp_growth = 2640,
 		speed = 33,
-		id = 617168,
+		id = 616128,
 		scale = 0.75,
 		weapon_ID = {
-			617170,
-			617171
+			616130,
+			616131
 		},
 		position_offset = {
 			0,
@@ -372,13 +223,13 @@ pg.aircraft_template_343 = {
 			}
 		}
 	},
-	[617169] = {
-		name = "【年底日系活动SP】BOSS-龙凤 轰炸机",
-		max_hp = 365,
+	[616129] = {
+		name = "【hololive联动T5】BOSS-紫咲诗音 轰炸机",
+		max_hp = 284,
 		accuracy = 50,
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
-		crash_DMG = 286,
+		crash_DMG = 148,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
@@ -387,12 +238,12 @@ pg.aircraft_template_343 = {
 		icon = "99shijianbao1",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3800,
+		hp_growth = 2940,
 		speed = 30,
-		id = 617169,
+		id = 616129,
 		scale = 0.75,
 		weapon_ID = {
-			617172
+			616132
 		},
 		position_offset = {
 			0,
@@ -446,27 +297,27 @@ pg.aircraft_template_343 = {
 			}
 		}
 	},
-	[619107] = {
-		name = "【2020毛系活动B2】塞壬执棋者III型 轰炸机",
-		max_hp = 110,
-		accuracy = 23,
-		model_ID = "shenhaifeiji",
+	[616146] = {
+		name = "【hololive联动TS5】BOSS-白上吹雪 轰炸机",
+		max_hp = 124,
+		accuracy = 50,
+		model_ID = "feiji_hulifeiji",
 		ACC_growth = 0,
-		crash_DMG = 85,
+		crash_DMG = 186,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 3,
 		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "feiji_hulifeiji",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2660,
-		speed = 30,
-		id = 619107,
+		hp_growth = 2620,
+		speed = 46,
+		id = 616146,
 		scale = 0.75,
 		weapon_ID = {
-			619111
+			616147
 		},
 		position_offset = {
 			0,
@@ -487,12 +338,12 @@ pg.aircraft_template_343 = {
 			weapon = {
 				{
 					0.71,
-					-1.73,
+					-0.91,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.77,
+					1,
 					0
 				}
 			}
@@ -509,7 +360,7 @@ pg.aircraft_template_343 = {
 				0
 			},
 			{
-				0,
+				0.51,
 				0,
 				0
 			},
@@ -520,27 +371,102 @@ pg.aircraft_template_343 = {
 			}
 		}
 	},
-	[619108] = {
-		name = "【2020毛系活动B2】塞壬执棋者III型 鱼雷机",
-		max_hp = 99,
-		accuracy = 23,
-		model_ID = "shenhaifeiji",
+	[616157] = {
+		name = "【hololive联动T6】BOSS-白上吹雪 轰炸机",
+		max_hp = 242,
+		accuracy = 50,
+		model_ID = "feiji_hulifeiji",
 		ACC_growth = 0,
-		crash_DMG = 70,
+		crash_DMG = 212,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 2,
+		type = 3,
 		AP_growth = 2000,
-		icon = "shenhaifeiji",
+		icon = "feiji_hulifeiji",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2380,
+		hp_growth = 3040,
+		speed = 46,
+		id = 616157,
+		scale = 0.75,
+		weapon_ID = {
+			616158
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-0.91,
+					0
+				},
+				{
+					0.77,
+					1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.51,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[616172] = {
+		name = "【hololive联动SP】BOSS-紫咲诗音 战斗机",
+		max_hp = 224,
+		accuracy = 50,
+		model_ID = "lingzhan21",
+		ACC_growth = 0,
+		crash_DMG = 186,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "lingzhan21",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3400,
 		speed = 33,
-		id = 619108,
+		id = 616172,
 		scale = 0.75,
 		weapon_ID = {
-			619112
+			616174,
+			616175
 		},
 		position_offset = {
 			0,
@@ -560,13 +486,13 @@ pg.aircraft_template_343 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.56,
-					-0.76,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.48,
-					0.99,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -583,7 +509,7 @@ pg.aircraft_template_343 = {
 				0
 			},
 			{
-				0,
+				0.27,
 				0,
 				0
 			},
@@ -594,30 +520,27 @@ pg.aircraft_template_343 = {
 			}
 		}
 	},
-	[619109] = {
-		name = "【2020毛系活动B2】塞壬执棋者III型 浮游炮1",
-		max_hp = 260,
-		accuracy = 23,
-		model_ID = "fuyoupao2",
+	[616173] = {
+		name = "【hololive联动SP】BOSS-紫咲诗音 轰炸机",
+		max_hp = 265,
+		accuracy = 50,
+		model_ID = "99shijianbao1",
 		ACC_growth = 0,
-		crash_DMG = 183,
+		crash_DMG = 232,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
 		type = 1,
 		AP_growth = 2000,
-		icon = "fuyoupao2",
+		icon = "99shijianbao1",
+		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3680,
-		speed = 70,
-		id = 619109,
+		hp_growth = 3800,
+		speed = 30,
+		id = 616173,
 		scale = 0.75,
-		funnel_behavior = {
-			stay = 2,
-			exist = 20
-		},
 		weapon_ID = {
-			619113
+			616176
 		},
 		position_offset = {
 			0,
@@ -637,13 +560,13 @@ pg.aircraft_template_343 = {
 		bound_bone = {
 			weapon = {
 				{
-					2.72,
-					-0.21,
+					0.71,
+					-0.91,
 					0
 				},
 				{
-					3.2,
-					-0.14,
+					0.77,
+					1,
 					0
 				}
 			}
@@ -660,7 +583,7 @@ pg.aircraft_template_343 = {
 				0
 			},
 			{
-				0,
+				0.51,
 				0,
 				0
 			},
@@ -671,30 +594,27 @@ pg.aircraft_template_343 = {
 			}
 		}
 	},
-	[619110] = {
-		name = "【2020毛系活动B2】塞壬执棋者III型 浮游炮2",
-		max_hp = 260,
-		accuracy = 23,
-		model_ID = "fuyoupao2",
+	[616201] = {
+		name = "【hololive联动EX】BOSS-白上吹雪 轰炸机",
+		max_hp = 1600,
+		accuracy = 50,
+		model_ID = "feiji_hulifeiji",
 		ACC_growth = 0,
-		crash_DMG = 183,
+		crash_DMG = 400,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 1,
+		type = 3,
 		AP_growth = 2000,
-		icon = "fuyoupao2",
+		icon = "feiji_hulifeiji",
+		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 3680,
-		speed = 70,
-		id = 619110,
+		hp_growth = 0,
+		speed = 30,
+		id = 616201,
 		scale = 0.75,
-		funnel_behavior = {
-			stay = 2,
-			exist = 20
-		},
 		weapon_ID = {
-			619114
+			616202
 		},
 		position_offset = {
 			0,
@@ -714,13 +634,13 @@ pg.aircraft_template_343 = {
 		bound_bone = {
 			weapon = {
 				{
-					2.72,
-					-0.21,
+					0.71,
+					-0.91,
 					0
 				},
 				{
-					3.2,
-					-0.14,
+					0.77,
+					1,
 					0
 				}
 			}
@@ -737,7 +657,82 @@ pg.aircraft_template_343 = {
 				0
 			},
 			{
+				0.51,
 				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[617004] = {
+		name = "【年底日系活动A1】BOSS-龙凤 战斗机",
+		max_hp = 86,
+		accuracy = 23,
+		model_ID = "lingzhan21",
+		ACC_growth = 0,
+		crash_DMG = 48,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "lingzhan21",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1960,
+		speed = 33,
+		id = 617004,
+		scale = 0.75,
+		weapon_ID = {
+			617006,
+			617007
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
 				0,
 				0
 			},

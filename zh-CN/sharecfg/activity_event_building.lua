@@ -120,6 +120,66 @@ pg.activity_event_building = {
 			15
 		}
 	},
+	{
+		name = "旋转木啾",
+		material_id = 59218,
+		id = 9,
+		desc = "当达到最高速时，或许真的能飞起来哦？",
+		buff = {
+			13,
+			14,
+			15
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		name = "云霄飞啾",
+		material_id = 59218,
+		id = 10,
+		desc = "速度、激情与一飞冲天的感觉！",
+		buff = {
+			16,
+			17,
+			18
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		name = "跳楼啾",
+		material_id = 59218,
+		id = 11,
+		desc = "尽情享受下坠的快乐吧！",
+		buff = {
+			19,
+			20,
+			21
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		name = "啾啾海盗船",
+		material_id = 59218,
+		id = 12,
+		desc = "喜欢乘风破浪的感觉么？",
+		buff = {
+			22,
+			23,
+			24
+		},
+		material = {
+			10,
+			15
+		}
+	},
 	all = {
 		1,
 		2,
@@ -128,6 +188,10 @@ pg.activity_event_building = {
 		5,
 		6,
 		7,
-		8
+		8,
+		9,
+		10,
+		11,
+		12
 	}
 }

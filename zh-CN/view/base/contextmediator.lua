@@ -105,11 +105,13 @@ function slot0.onRegister(slot0)
 		}))
 	end)
 	slot0:bind(BaseUI.ON_AWARD, function (slot0, slot1)
-		slot2 = {}
-
-		if not _.all(slot1.items, function (slot0)
+		if _.all(slot1.items, function (slot0)
 			return slot0.type == DROP_TYPE_ICON_FRAME or slot0.type == DROP_TYPE_CHAT_FRAME
 		end) then
+			table.insert({}, function (slot0)
+				onNextTick(slot0)
+			end)
+		else
 			table.insert(slot2, function (slot0)
 				uv0:addSubLayers(Context.New({
 					mediator = AwardInfoMediator,

@@ -1,125 +1,117 @@
 pg = pg or {}
 pg.aircraft_template_137 = {
-	[65202] = {
+	[65182] = {
 		max_hp = 48,
-		name = "大凤μ技能轰炸机Lv2",
-		base = 65201,
-		id = 65202,
+		name = "大凤μ技能鱼雷机Lv2",
+		base = 65181,
+		id = 65182,
 		hp_growth = 1846,
 		weapon_ID = {
-			65212,
-			65222
+			65192
 		}
 	},
-	[65203] = {
+	[65183] = {
 		max_hp = 54,
-		name = "大凤μ技能轰炸机Lv3",
-		base = 65201,
-		id = 65203,
+		name = "大凤μ技能鱼雷机Lv3",
+		base = 65181,
+		id = 65183,
 		hp_growth = 2087,
 		weapon_ID = {
-			65213,
-			65223
+			65193
 		}
 	},
-	[65204] = {
+	[65184] = {
 		max_hp = 61,
-		name = "大凤μ技能轰炸机Lv4",
-		base = 65201,
-		id = 65204,
+		name = "大凤μ技能鱼雷机Lv4",
+		base = 65181,
+		id = 65184,
 		hp_growth = 2327,
 		weapon_ID = {
-			65214,
-			65224
+			65194
 		}
 	},
-	[65205] = {
+	[65185] = {
 		max_hp = 67,
-		name = "大凤μ技能轰炸机Lv5",
-		base = 65201,
-		id = 65205,
+		name = "大凤μ技能鱼雷机Lv5",
+		base = 65181,
+		id = 65185,
 		hp_growth = 2568,
 		weapon_ID = {
-			65215,
-			65225
+			65195
 		}
 	},
-	[65206] = {
+	[65186] = {
 		max_hp = 73,
-		name = "大凤μ技能轰炸机Lv6",
-		base = 65201,
-		id = 65206,
+		name = "大凤μ技能鱼雷机Lv6",
+		base = 65181,
+		id = 65186,
 		hp_growth = 2809,
 		weapon_ID = {
-			65216,
-			65226
+			65196
 		}
 	},
-	[65207] = {
+	[65187] = {
 		max_hp = 79,
-		name = "大凤μ技能轰炸机Lv7",
-		base = 65201,
-		id = 65207,
+		name = "大凤μ技能鱼雷机Lv7",
+		base = 65181,
+		id = 65187,
 		hp_growth = 3050,
 		weapon_ID = {
-			65217,
-			65227
+			65197
 		}
 	},
-	[65208] = {
+	[65188] = {
 		max_hp = 86,
-		name = "大凤μ技能轰炸机Lv8",
-		base = 65201,
-		id = 65208,
+		name = "大凤μ技能鱼雷机Lv8",
+		base = 65181,
+		id = 65188,
 		hp_growth = 3290,
 		weapon_ID = {
-			65218,
-			65228
+			65198
 		}
 	},
-	[65209] = {
+	[65189] = {
 		max_hp = 92,
-		name = "大凤μ技能轰炸机Lv9",
-		base = 65201,
-		id = 65209,
+		name = "大凤μ技能鱼雷机Lv9",
+		base = 65181,
+		id = 65189,
 		hp_growth = 3531,
 		weapon_ID = {
-			65219,
-			65229
+			65199
 		}
 	},
-	[65210] = {
+	[65190] = {
 		max_hp = 98,
-		name = "大凤μ技能轰炸机Lv10",
-		base = 65201,
-		id = 65210,
+		name = "大凤μ技能鱼雷机Lv10",
+		base = 65181,
+		id = 65190,
 		hp_growth = 3772,
 		weapon_ID = {
-			65220,
-			65230
+			65200
 		}
 	},
-	[65251] = {
-		name = "坠星机LV1",
-		max_hp = 36,
+	[65201] = {
+		name = "大凤μ技能轰炸机Lv1",
+		max_hp = 42,
 		accuracy = 23,
-		model_ID = "feiji_weixingbanwu",
+		model_ID = "huixing",
 		ACC_growth = 0,
-		crash_DMG = 188,
-		dodge = 1.05,
+		crash_DMG = 208,
+		dodge = 1,
 		attack_power = 2,
-		dodge_limit = 5,
-		type = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
-		icon = "feiji_weixingbanwu",
+		icon = "huixing",
 		funnel_behavior = "",
-		nationality = 2,
-		hp_growth = 1386,
-		speed = 52,
-		id = 65251,
+		nationality = 3,
+		hp_growth = 1605,
+		speed = 60,
+		id = 65201,
 		scale = 1,
 		weapon_ID = {
-			65261
+			65211,
+			65221
 		},
 		position_offset = {
 			0,
@@ -139,13 +131,13 @@ pg.aircraft_template_137 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -162,7 +154,7 @@ pg.aircraft_template_137 = {
 				0
 			},
 			{
-				0.26,
+				0.64,
 				0,
 				0
 			},

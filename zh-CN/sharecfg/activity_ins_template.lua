@@ -5646,6 +5646,102 @@ pg.activity_ins_template = {
 			1881
 		}
 	},
+	{
+		ship_group = 10714,
+		name = "Ticonderoga",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "tikangdeluojia",
+		id = 215,
+		group_id = 215,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10517,
+		name = "BlackDragon",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "xinzexi",
+		id = 216,
+		group_id = 216,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10806,
+		name = "CharmArcher",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "sheshuiyu",
+		id = 217,
+		group_id = 217,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 30801,
+		name = "I19_sensuisenntai",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "i19",
+		id = 218,
+		group_id = 218,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10314,
+		name = "HappyEveryDay!",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "jiujinshan",
+		id = 219,
+		group_id = 219,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10229,
+		name = "USSBOISE",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "boyixi",
+		id = 220,
+		group_id = 220,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10147,
+		name = "Bear-MKII",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "molisen",
+		id = 221,
+		group_id = 221,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 50204,
+		name = "Yingrui",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "yingrui_2",
+		id = 222,
+		group_id = 222,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -5860,6 +5956,14 @@ pg.activity_ins_template = {
 		211,
 		212,
 		213,
-		214
+		214,
+		215,
+		216,
+		217,
+		218,
+		219,
+		220,
+		221,
+		222
 	}
 }

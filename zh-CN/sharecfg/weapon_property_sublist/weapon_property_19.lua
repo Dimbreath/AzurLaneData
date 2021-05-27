@@ -2,30 +2,6 @@ pg = pg or {}
 pg.weapon_property_19 = {}
 
 function ()
-	uv0.weapon_property_19[16165] = {
-		id = 16165,
-		reload_max = 85,
-		damage = 37,
-		base = 16160
-	}
-	uv0.weapon_property_19[16166] = {
-		id = 16166,
-		reload_max = 84,
-		damage = 40,
-		base = 16160
-	}
-	uv0.weapon_property_19[16167] = {
-		id = 16167,
-		reload_max = 80,
-		damage = 43,
-		base = 16160
-	}
-	uv0.weapon_property_19[16168] = {
-		id = 16168,
-		reload_max = 79,
-		damage = 46,
-		base = 16160
-	}
 	uv0.weapon_property_19[16169] = {
 		id = 16169,
 		reload_max = 77,
@@ -674,5 +650,35 @@ function ()
 			1
 		},
 		precast_param = {}
+	}
+	uv0.weapon_property_19[16421] = {
+		id = 16421,
+		reload_max = 200,
+		damage = 49,
+		base = 16420
+	}
+	uv0.weapon_property_19[16422] = {
+		id = 16422,
+		reload_max = 196,
+		damage = 55,
+		base = 16420
+	}
+	uv0.weapon_property_19[16423] = {
+		id = 16423,
+		reload_max = 193,
+		damage = 61,
+		base = 16420
+	}
+	uv0.weapon_property_19[16424] = {
+		id = 16424,
+		reload_max = 188,
+		damage = 67,
+		base = 16420
+	}
+	uv0.weapon_property_19[16425] = {
+		id = 16425,
+		reload_max = 184,
+		damage = 73,
+		base = 16420
 	}
 end()

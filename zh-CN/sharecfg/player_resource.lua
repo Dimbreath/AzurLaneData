@@ -520,9 +520,39 @@ pg.player_resource = {
 		name = "xiaotiancheng_pt",
 		itemid = 59211
 	},
+	[200] = {
+		id = 200,
+		name = "xiongxiaobai_pt",
+		itemid = 59213
+	},
+	[201] = {
+		id = 201,
+		name = "xinzexi_pt",
+		itemid = 59214
+	},
+	[202] = {
+		id = 202,
+		name = "skinTicket18",
+		itemid = 59215
+	},
+	[203] = {
+		id = 203,
+		name = "xiaoqiye_pt",
+		itemid = 59216
+	},
+	[204] = {
+		id = 204,
+		name = "union5_pt",
+		itemid = 59217
+	},
+	[205] = {
+		id = 205,
+		name = "duihuanquan_pt",
+		itemid = 59219
+	},
 	[199] = {
 		id = 199,
-		name = "meixivxframept",
+		name = "newmeixiv4framept",
 		itemid = 59212
 	},
 	[950] = {
@@ -943,7 +973,25 @@ pg.player_resource = {
 		xiaotiancheng_pt = {
 			198
 		},
-		meixivxframept = {
+		xiongxiaobai_pt = {
+			200
+		},
+		xinzexi_pt = {
+			201
+		},
+		skinTicket18 = {
+			202
+		},
+		xiaoqiye_pt = {
+			203
+		},
+		union5_pt = {
+			204
+		},
+		duihuanquan_pt = {
+			205
+		},
+		newmeixiv4framept = {
 			199
 		},
 		yisegefuke_pt1 = {
@@ -1115,6 +1163,12 @@ pg.player_resource = {
 		196,
 		197,
 		198,
+		200,
+		201,
+		202,
+		203,
+		204,
+		205,
 		199,
 		950,
 		951,

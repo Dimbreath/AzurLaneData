@@ -74,7 +74,7 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	if slot1:ShouldSkipAll() and slot4:ExistOption() and not slot1:IsReView() then
+	if slot1:ShouldSkipAll() and slot4:ExistOption() and not pg.NewStoryMgr.GetInstance():IsReView() then
 		slot1:StopSkip()
 	elseif slot1:ShouldSkipAll() then
 		slot3()

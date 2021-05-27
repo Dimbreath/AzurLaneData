@@ -45,6 +45,8 @@ function slot0.init(slot0)
 
 	slot0.commonPainting = slot0.painting:Find("fitter")
 	slot0.l2dRoot = slot0:findTF("live2d", slot0.painting)
+	slot0.spinePaintingRoot = slot0:findTF("spinePainting", slot0.painting)
+	slot0.spinePaintingBgRoot = slot0:findTF("paintBg/spinePainting")
 	slot0.chatBg = slot0:findTF("chatbgtop", slot0.chatTF)
 	slot0.initChatBgH = slot0.chatBg.sizeDelta.y
 	slot0.chatText = slot0:findTF("Text", slot0.chatBg)
@@ -71,6 +73,8 @@ function slot0.init(slot0)
 	slot0.leftProfile = slot0:findTF("adapt/profile_left_panel", slot0.blurPanel)
 	slot0.modelContainer = slot0:findTF("model", slot0.leftProfile)
 	slot0.live2DBtn = ShipProfileLive2dBtn.New(slot0:findTF("L2D_btn", slot0.blurPanel))
+	slot0.spinePaintingBtn = slot0:findTF("SP_btn", slot0.blurPanel)
+	slot0.spinePaintingToggle = slot0.spinePaintingBtn:Find("toggle")
 	slot0.cvLoader = ShipProfileCVLoader.New()
 	slot0.pageTFs = slot0:findTF("pages")
 	slot0.paintingView = ShipProfilePaintingView.New(slot0._tf, slot0.painting)
@@ -145,6 +149,11 @@ function slot0.didEnter(slot0)
 		onToggle(slot0, slot5, function (slot0)
 			if uv0 == uv1.INDEX_DETAIL then
 				uv2.live2DBtn:Update(uv2.paintingName, false)
+
+				uv2.spinePaintingisOn = false
+
+				uv2:updateSpinePaintingState()
+				uv2:DisplaySpinePainting(false)
 			end
 
 			if slot0 then
@@ -155,6 +164,7 @@ function slot0.didEnter(slot0)
 
 	slot0:InitCommon()
 	slot0.live2DBtn:Update(slot0.paintingName, false)
+	slot0:updateSpinePaintingState()
 	setActive(slot0.bottomTF, false)
 	triggerToggle(slot0.toggles[uv0.INDEX_DETAIL], true)
 end
@@ -388,11 +398,13 @@ function slot0.TweenPage(slot0, slot1)
 	if slot1 == uv0.INDEX_DETAIL then
 		LeanTween.moveX(rtf(slot0.leftProfile), -500, uv1):setEase(LeanTweenType.easeInOutSine)
 		LeanTween.moveY(rtf(slot0.live2DBtn._tf), -70, uv1):setEase(LeanTweenType.easeInOutSine)
+		LeanTween.moveY(rtf(slot0.spinePaintingBtn), -70, uv1):setEase(LeanTweenType.easeInOutSine)
 		LeanTween.moveX(rtf(slot0.painting), slot0.paintingInitPos.x, uv1):setEase(LeanTweenType.easeInOutSine)
 		LeanTween.moveX(rtf(slot0.name), slot0.nameInitPos.x, uv1):setEase(LeanTweenType.easeInOutSine)
 	elseif slot1 == uv0.INDEX_PROFILE then
 		LeanTween.moveX(rtf(slot0.leftProfile), 0, uv1):setEase(LeanTweenType.easeInOutSine)
 		LeanTween.moveY(rtf(slot0.live2DBtn._tf), 60, uv1):setEase(LeanTweenType.easeInOutSine)
+		LeanTween.moveY(rtf(slot0.spinePaintingBtn), 60, uv1):setEase(LeanTweenType.easeInOutSine)
 		LeanTween.moveX(rtf(slot0.painting), slot0.paintingInitPos.x + 50, uv1):setEase(LeanTweenType.easeInOutSine)
 		LeanTween.moveX(rtf(slot0.name), slot0.nameInitPos.x + 50, uv1):setEase(LeanTweenType.easeInOutSine)
 	end
@@ -409,6 +421,11 @@ function slot0.ShiftSkin(slot0, slot1)
 	slot0:SetPainting(slot1.id, false)
 	slot0.live2DBtn:Disable()
 	slot0.live2DBtn:Update(slot0.paintingName, false)
+
+	slot0.spinePaintingisOn = false
+
+	slot0:updateSpinePaintingState()
+	slot0:DestroySpinePainting()
 	slot0.pages[uv0.INDEX_PROFILE]:ExecuteAction("Flush", slot1, false)
 
 	slot3 = nil
@@ -454,7 +471,7 @@ function slot0.CreateLive2D(slot0)
 		slot0.l2dChar:Dispose()
 	end
 
-	slot0.l2dChar = Live2D.New(Live2D.live2dData({
+	slot0.l2dChar = Live2D.New(Live2D.GenerateData({
 		ship = Ship.New({
 			configId = slot0.shipGroup:getShipConfigId(),
 			skin_id = slot0.skin.id
@@ -729,6 +746,73 @@ function slot0.stopOpening(slot0, slot1)
 	end
 end
 
+function slot0.updateSpinePaintingState(slot0)
+	if PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("spinepainting/" .. slot0.paintingName))) then
+		setActive(slot0.spinePaintingBtn, true)
+		setActive(slot0.spinePaintingToggle:Find("on"), slot0.spinePaintingisOn)
+		setActive(slot0.spinePaintingToggle:Find("off"), not slot0.spinePaintingisOn)
+		removeOnButton(slot0.spinePaintingBtn)
+		onButton(slot0, slot0.spinePaintingBtn, function ()
+			uv0.spinePaintingisOn = not uv0.spinePaintingisOn
+
+			setActive(uv0.spinePaintingToggle:Find("on"), uv0.spinePaintingisOn)
+			setActive(uv0.spinePaintingToggle:Find("off"), not uv0.spinePaintingisOn)
+
+			if uv0.spinePaintingisOn then
+				uv0:CreateSpinePainting()
+			end
+
+			setActive(uv0.viewBtn, not uv0.spinePaintingisOn)
+			setActive(uv0.rotateBtn, not uv0.spinePaintingisOn)
+			setActive(uv0.commonPainting, not uv0.spinePaintingisOn)
+			setActive(uv0.spinePaintingRoot, uv0.spinePaintingisOn)
+			setActive(uv0.spinePaintingBgRoot, uv0.spinePaintingisOn)
+			uv0:StopDailogue()
+
+			if uv0.skin then
+				uv0.pages[uv1.INDEX_PROFILE]:ExecuteAction("Flush", uv0.skin, uv0.spinePaintingisOn)
+			end
+		end, SFX_PANEL)
+	else
+		setActive(slot0.spinePaintingBtn, false)
+	end
+end
+
+function slot0.CreateSpinePainting(slot0)
+	if slot0.skin.id ~= slot0.preSkinId then
+		slot0:DestroySpinePainting()
+
+		slot0.spinePainting = SpinePainting.New(SpinePainting.GenerateData({
+			ship = Ship.New({
+				configId = slot0.shipGroup:getShipConfigId(),
+				skin_id = slot0.skin.id
+			}),
+			position = Vector3(0, 0, 0),
+			parent = slot0.spinePaintingRoot,
+			effectParent = slot0.spinePaintingBgRoot
+		}), function ()
+		end)
+		slot0.preSkinId = slot0.skin.id
+	end
+
+	slot0:DisplaySpinePainting(true)
+end
+
+function slot0.DestroySpinePainting(slot0)
+	if slot0.spinePainting then
+		slot0.spinePainting:Dispose()
+
+		slot0.spinePainting = nil
+	end
+
+	slot0.preSkinId = nil
+end
+
+function slot0.DisplaySpinePainting(slot0, slot1)
+	setActive(slot0.spinePaintingRoot, slot1)
+	setActive(slot0.spinePaintingBgRoot, slot1)
+end
+
 function slot0.willExit(slot0)
 	slot0:stopOpening()
 	SetParent(slot0.bottomTF, slot0._tf)
@@ -745,6 +829,7 @@ function slot0.willExit(slot0)
 		slot0.l2dChar:Dispose()
 	end
 
+	slot0:DestroySpinePainting()
 	slot0.paintingView:Dispose()
 	slot0.live2DBtn:Dispose()
 	slot0.cvLoader:Dispose()

@@ -1,95 +1,96 @@
 pg = pg or {}
 pg.equip_data_statistics_191 = {
-	[26645] = {
-		id = 26645,
-		damage = "92/轮",
-		base = 26640,
+	[26625] = {
+		id = 26625,
+		damage = "66/轮",
+		base = 26620,
 		weapon_id = {
-			26645
+			26625
 		}
 	},
-	[26646] = {
-		id = 26646,
-		damage = "100/轮",
-		base = 26640,
+	[26626] = {
+		id = 26626,
+		damage = "72/轮",
+		base = 26620,
 		weapon_id = {
-			26646
+			26626
 		}
 	},
-	[26647] = {
-		id = 26647,
-		damage = "108/轮",
-		base = 26640,
+	[26627] = {
+		id = 26627,
+		damage = "78/轮",
+		base = 26620,
 		weapon_id = {
-			26647
+			26627
 		}
 	},
-	[26648] = {
-		id = 26648,
-		damage = "116/轮",
-		base = 26640,
+	[26628] = {
+		id = 26628,
+		damage = "84/轮",
+		base = 26620,
 		weapon_id = {
-			26648
+			26628
 		}
 	},
-	[26649] = {
-		id = 26649,
-		damage = "124/轮",
-		base = 26640,
+	[26629] = {
+		id = 26629,
+		damage = "90/轮",
+		base = 26620,
 		weapon_id = {
-			26649
+			26629
 		}
 	},
-	[26650] = {
-		id = 26650,
-		damage = "132/轮",
-		base = 26640,
+	[26630] = {
+		id = 26630,
+		damage = "96/轮",
+		base = 26620,
 		weapon_id = {
-			26650
+			26630
 		}
 	},
-	[26651] = {
+	[26631] = {
 		anti_siren = 100,
-		damage = "132/轮",
-		base = 26640,
-		id = 26651,
+		damage = "96/轮",
+		base = 26620,
+		id = 26631,
 		weapon_id = {
-			26651
+			26631
 		}
 	},
-	[26652] = {
+	[26632] = {
 		anti_siren = 200,
-		damage = "132/轮",
-		base = 26640,
-		id = 26652,
+		damage = "96/轮",
+		base = 26620,
+		id = 26632,
 		weapon_id = {
-			26652
+			26632
 		}
 	},
-	[26653] = {
+	[26633] = {
 		anti_siren = 300,
-		damage = "132/轮",
-		base = 26640,
-		id = 26653,
+		damage = "96/轮",
+		base = 26620,
+		id = 26633,
 		weapon_id = {
-			26653
+			26633
 		}
 	},
-	[26660] = {
-		name = "六联装40mm博福斯对空机炮",
+	[26640] = {
+		name = "双联装134mm高炮",
 		speciality = "防空",
 		type = 6,
+		attribute_3 = "cannon",
 		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 45,
-		icon = "26660",
+		value_2 = 30,
+		icon = "21500",
 		attribute_2 = "antiaircraft",
+		descrip = "说明未填写",
 		rarity = 5,
-		damage = "42/轮",
+		damage = "53/轮",
 		nationality = 2,
 		ammo = 5,
-		value_3 = 0,
-		id = 26660,
+		value_3 = 15,
+		id = 26640,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -101,7 +102,7 @@ pg.equip_data_statistics_191 = {
 			10
 		},
 		weapon_id = {
-			26660
+			26640
 		},
 		skill_id = {},
 		part_main = {
@@ -137,60 +138,60 @@ pg.equip_data_statistics_191 = {
 			"AA"
 		}
 	},
-	[26661] = {
-		id = 26661,
-		damage = "52/轮",
-		base = 26660,
+	[26641] = {
+		id = 26641,
+		damage = "61/轮",
+		base = 26640,
 		weapon_id = {
-			26661
+			26641
 		}
 	},
-	[26662] = {
-		id = 26662,
-		damage = "63/轮",
-		base = 26660,
+	[26642] = {
+		id = 26642,
+		damage = "68/轮",
+		base = 26640,
 		weapon_id = {
-			26662
+			26642
 		}
 	},
-	[26663] = {
-		id = 26663,
-		damage = "73/轮",
-		base = 26660,
+	[26643] = {
+		id = 26643,
+		damage = "76/轮",
+		base = 26640,
 		weapon_id = {
-			26663
+			26643
 		}
 	},
-	[26664] = {
-		id = 26664,
+	[26644] = {
+		id = 26644,
 		damage = "84/轮",
-		base = 26660,
+		base = 26640,
 		weapon_id = {
-			26664
+			26644
 		}
 	},
-	[26665] = {
-		id = 26665,
-		damage = "94/轮",
-		base = 26660,
+	[26645] = {
+		id = 26645,
+		damage = "92/轮",
+		base = 26640,
 		weapon_id = {
-			26665
+			26645
 		}
 	},
-	[26666] = {
-		id = 26666,
-		damage = "105/轮",
-		base = 26660,
+	[26646] = {
+		id = 26646,
+		damage = "100/轮",
+		base = 26640,
 		weapon_id = {
-			26666
+			26646
 		}
 	},
-	[26667] = {
-		id = 26667,
-		damage = "115/轮",
-		base = 26660,
+	[26647] = {
+		id = 26647,
+		damage = "108/轮",
+		base = 26640,
 		weapon_id = {
-			26667
+			26647
 		}
 	}
 }

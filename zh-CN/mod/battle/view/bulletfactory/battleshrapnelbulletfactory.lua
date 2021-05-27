@@ -4,6 +4,9 @@ slot1 = slot0.Battle.BattleConst
 slot0.Battle.BattleShrapnelBulletFactory = singletonClass("BattleShrapnelBulletFactory", slot0.Battle.BattleBulletFactory)
 slot0.Battle.BattleShrapnelBulletFactory.__name = "BattleShrapnelBulletFactory"
 slot2 = slot0.Battle.BattleShrapnelBulletFactory
+slot2.INHERIT_NONE = 0
+slot2.INHERIT_ANGLE = 1
+slot2.INHERIT_SPEED_NORMALIZE = 2
 
 function slot2.Ctor(slot0)
 	uv0.super.Ctor(slot0)
@@ -102,9 +105,17 @@ function slot2.bulletSplit(slot0, slot1)
 				slot4:SetOffsetPriority(slot3)
 				slot4:SetShiftInfo(slot0, slot1)
 
-				if uv8 then
-					if uv9.Battle.BattleTargetChoise.TargetHarmNearest(uv6)[1] == nil then
-						slot4:SetRotateInfo(nil, uv5 and uv6:GetYAngle() or uv7, slot2)
+				slot5 = uv5
+
+				if uv6 == uv7.INHERIT_ANGLE then
+					slot5 = uv8:GetYAngle()
+				elseif uv6 == uv7.INHERIT_SPEED_NORMALIZE then
+					slot5 = uv8:GetCurrentYAngle()
+				end
+
+				if uv9 then
+					if uv10.Battle.BattleTargetChoise.TargetHarmNearest(uv8)[1] == nil then
+						slot4:SetRotateInfo(nil, slot5, slot2)
 					else
 						slot4:SetRotateInfo(slot6:GetBeenAimedPosition(), slot5, slot2)
 					end
@@ -112,7 +123,7 @@ function slot2.bulletSplit(slot0, slot1)
 					slot4:SetRotateInfo(nil, slot5, slot2)
 				end
 
-				uv10.GetFactoryList()[slot4:GetTemplate().type]:CreateBullet(uv11:GetTf(), slot4, uv11:GetPosition())
+				uv7.GetFactoryList()[slot4:GetTemplate().type]:CreateBullet(uv11:GetTf(), slot4, uv11:GetPosition())
 			end, function ()
 				uv0:Destroy()
 				uv1:SplitFinishCount()

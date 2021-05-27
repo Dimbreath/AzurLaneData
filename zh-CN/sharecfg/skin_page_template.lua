@@ -84,6 +84,12 @@ pg.skin_page_template = {
 		res = "yiyuanxilie",
 		english_name = "hospital"
 	},
+	[16] = {
+		id = 16,
+		name = "嘉年华",
+		res = "jianianhua",
+		english_name = "Carnival"
+	},
 	[9999] = {
 		id = 9999,
 		name = "其他",
@@ -105,6 +111,7 @@ pg.skin_page_template = {
 		13,
 		14,
 		15,
+		16,
 		9999
 	}
 }

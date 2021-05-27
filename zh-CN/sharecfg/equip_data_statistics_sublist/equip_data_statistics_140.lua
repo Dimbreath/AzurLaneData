@@ -1,5 +1,281 @@
 pg = pg or {}
 pg.equip_data_statistics_140 = {
+	[18220] = {
+		name = "XTB2D-1天空海盗",
+		type = 8,
+		speciality = "雷击",
+		rarity = 5,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "18220",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 18220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59740
+			},
+			{
+				4,
+				51240
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			18220
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
+	},
+	[18221] = {
+		id = 18221,
+		base = 18220,
+		ammo_info = {
+			{
+				6,
+				59741
+			},
+			{
+				4,
+				51241
+			}
+		},
+		weapon_id = {
+			18221
+		}
+	},
+	[18222] = {
+		id = 18222,
+		base = 18220,
+		ammo_info = {
+			{
+				6,
+				59742
+			},
+			{
+				4,
+				51242
+			}
+		},
+		weapon_id = {
+			18222
+		}
+	},
+	[18223] = {
+		id = 18223,
+		base = 18220,
+		ammo_info = {
+			{
+				6,
+				59743
+			},
+			{
+				4,
+				51243
+			}
+		},
+		weapon_id = {
+			18223
+		}
+	},
+	[18224] = {
+		id = 18224,
+		base = 18220,
+		ammo_info = {
+			{
+				6,
+				59744
+			},
+			{
+				4,
+				51244
+			}
+		},
+		weapon_id = {
+			18224
+		}
+	},
+	[18225] = {
+		id = 18225,
+		base = 18220,
+		ammo_info = {
+			{
+				6,
+				59745
+			},
+			{
+				4,
+				51245
+			}
+		},
+		weapon_id = {
+			18225
+		}
+	},
+	[18226] = {
+		id = 18226,
+		base = 18220,
+		ammo_info = {
+			{
+				6,
+				59746
+			},
+			{
+				4,
+				51246
+			}
+		},
+		weapon_id = {
+			18226
+		}
+	},
+	[18227] = {
+		id = 18227,
+		base = 18220,
+		ammo_info = {
+			{
+				6,
+				59747
+			},
+			{
+				4,
+				51247
+			}
+		},
+		weapon_id = {
+			18227
+		}
+	},
+	[18228] = {
+		id = 18228,
+		base = 18220,
+		ammo_info = {
+			{
+				6,
+				59748
+			},
+			{
+				4,
+				51248
+			}
+		},
+		weapon_id = {
+			18228
+		}
+	},
+	[18229] = {
+		id = 18229,
+		base = 18220,
+		ammo_info = {
+			{
+				6,
+				59749
+			},
+			{
+				4,
+				51249
+			}
+		},
+		weapon_id = {
+			18229
+		}
+	},
+	[18230] = {
+		id = 18230,
+		base = 18220,
+		ammo_info = {
+			{
+				6,
+				59750
+			},
+			{
+				4,
+				51250
+			}
+		},
+		weapon_id = {
+			18230
+		}
+	},
+	[18231] = {
+		anti_siren = 100,
+		base = 18220,
+		id = 18231,
+		ammo_info = {
+			{
+				6,
+				59751
+			},
+			{
+				4,
+				51251
+			}
+		},
+		weapon_id = {
+			18231
+		}
+	},
+	[18232] = {
+		anti_siren = 200,
+		base = 18220,
+		id = 18232,
+		ammo_info = {
+			{
+				6,
+				59752
+			},
+			{
+				4,
+				51252
+			}
+		},
+		weapon_id = {
+			18232
+		}
+	},
+	[18233] = {
+		anti_siren = 300,
+		base = 18220,
+		id = 18233,
+		ammo_info = {
+			{
+				6,
+				59753
+			},
+			{
+				4,
+				51253
+			}
+		},
+		weapon_id = {
+			18233
+		}
+	},
 	[19000] = {
 		name = "SBD无畏",
 		tech = 1,
@@ -95,403 +371,6 @@ pg.equip_data_statistics_140 = {
 		},
 		weapon_id = {
 			19002
-		}
-	},
-	[19003] = {
-		id = 19003,
-		base = 19000,
-		ammo_info = {
-			{
-				6,
-				50703
-			},
-			{
-				5,
-				52903
-			},
-			{
-				5,
-				52103
-			}
-		},
-		weapon_id = {
-			19003
-		}
-	},
-	[19020] = {
-		name = "SBD无畏",
-		type = 9,
-		speciality = "轰炸",
-		rarity = 2,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "19000",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 19020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50720
-			},
-			{
-				5,
-				52920
-			},
-			{
-				5,
-				52120
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			19020
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"DB"
-		}
-	},
-	[19021] = {
-		id = 19021,
-		base = 19020,
-		ammo_info = {
-			{
-				6,
-				50721
-			},
-			{
-				5,
-				52921
-			},
-			{
-				5,
-				52121
-			}
-		},
-		weapon_id = {
-			19021
-		}
-	},
-	[19022] = {
-		id = 19022,
-		base = 19020,
-		ammo_info = {
-			{
-				6,
-				50722
-			},
-			{
-				5,
-				52922
-			},
-			{
-				5,
-				52122
-			}
-		},
-		weapon_id = {
-			19022
-		}
-	},
-	[19023] = {
-		id = 19023,
-		base = 19020,
-		ammo_info = {
-			{
-				6,
-				50723
-			},
-			{
-				5,
-				52923
-			},
-			{
-				5,
-				52123
-			}
-		},
-		weapon_id = {
-			19023
-		}
-	},
-	[19040] = {
-		name = "SBD无畏",
-		type = 9,
-		speciality = "轰炸",
-		rarity = 3,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "19000",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 19040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50740
-			},
-			{
-				5,
-				52940
-			},
-			{
-				5,
-				52140
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			19040
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"DB"
-		}
-	},
-	[19041] = {
-		id = 19041,
-		base = 19040,
-		ammo_info = {
-			{
-				6,
-				50741
-			},
-			{
-				5,
-				52941
-			},
-			{
-				5,
-				52141
-			}
-		},
-		weapon_id = {
-			19041
-		}
-	},
-	[19042] = {
-		id = 19042,
-		base = 19040,
-		ammo_info = {
-			{
-				6,
-				50742
-			},
-			{
-				5,
-				52942
-			},
-			{
-				5,
-				52142
-			}
-		},
-		weapon_id = {
-			19042
-		}
-	},
-	[19043] = {
-		id = 19043,
-		base = 19040,
-		ammo_info = {
-			{
-				6,
-				50743
-			},
-			{
-				5,
-				52943
-			},
-			{
-				5,
-				52143
-			}
-		},
-		weapon_id = {
-			19043
-		}
-	},
-	[19044] = {
-		id = 19044,
-		base = 19040,
-		ammo_info = {
-			{
-				6,
-				50744
-			},
-			{
-				5,
-				52944
-			},
-			{
-				5,
-				52144
-			}
-		},
-		weapon_id = {
-			19044
-		}
-	},
-	[19045] = {
-		id = 19045,
-		base = 19040,
-		ammo_info = {
-			{
-				6,
-				50745
-			},
-			{
-				5,
-				52945
-			},
-			{
-				5,
-				52145
-			}
-		},
-		weapon_id = {
-			19045
-		}
-	},
-	[19046] = {
-		id = 19046,
-		base = 19040,
-		ammo_info = {
-			{
-				6,
-				50746
-			},
-			{
-				5,
-				52946
-			},
-			{
-				5,
-				52146
-			}
-		},
-		weapon_id = {
-			19046
-		}
-	},
-	[19047] = {
-		id = 19047,
-		base = 19040,
-		ammo_info = {
-			{
-				6,
-				50747
-			},
-			{
-				5,
-				52947
-			},
-			{
-				5,
-				52147
-			}
-		},
-		weapon_id = {
-			19047
-		}
-	},
-	[19060] = {
-		name = "SBD无畏(麦克拉斯基队)",
-		type = 9,
-		speciality = "轰炸",
-		rarity = 5,
-		tech = 0,
-		descrip = "中途岛英雄，企业号的麦克拉斯基少校所率领的SBD无畏式俯冲轰炸机机队",
-		value_2 = 45,
-		icon = "19060",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 19060,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				5,
-				52960
-			},
-			{
-				5,
-				52160
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			19060
-		},
-		skill_id = {
-			6240
-		},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"DB"
 		}
 	}
 }

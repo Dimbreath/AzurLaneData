@@ -4759,6 +4759,211 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[196] = {
+		can_rotate = 1,
+		describe = "每个人都有无限的可能啾！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/peak",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "运动衣柜",
+		advice = 0,
+		icon = "peakicon",
+		id = 196,
+		comfortable = 5,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[197] = {
+		can_rotate = 0,
+		describe = "给人一股满满的安心感~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/guangming1",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "白熊玩偶(站立)",
+		advice = 0,
+		icon = "guangming1icon",
+		id = 197,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[198] = {
+		can_rotate = 1,
+		describe = "装满了冰冰凉凉的夏日梦想~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/guangming2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "白熊冰柜",
+		advice = 0,
+		icon = "guangming2icon",
+		id = 198,
+		comfortable = 3,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[199] = {
+		can_rotate = 1,
+		describe = "一起来享受夏日难得的冰凉吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/guangming3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "白熊方桌",
+		advice = 0,
+		id = 199,
+		icon = "guangming3icon",
+		comfortable = 4,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-81,
+					31
+				},
+				{
+					1,
+					1
+				},
+				"chuanmo/guangming3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[200] = {
+		can_rotate = 0,
+		describe = "运用电磁原理制作的微型装置模型，圆环上跃动的电光仿若某位友人留下的印象。——授予在「镜位螺旋」行动中获得杰出成就者的纪念章",
+		gain_by = "镜位螺旋",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "螺旋纪念章",
+		advice = 0,
+		id = 200,
+		icon = "usv4xunzhangicon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"usv4xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		can_rotate = 0,
 		describe = "本ID禁用",
@@ -6595,6 +6800,81 @@ pg.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100026] = {
+		can_rotate = 1,
+		describe = "享受丝般顺滑~",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 0,
+		icon = "tiaojiicon",
+		count = 1,
+		name = "啾啾长蹦床",
+		id = 100026,
+		advice = 0,
+		comfortable = 0,
+		deblocking = 1,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tiaojiB",
+				"normal"
+			},
+			{
+				"tiaojiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"yun"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"tiaojiCharControl"
+			}
 		},
 		interAction_group = {}
 	},
@@ -93195,6 +93475,887 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[80001] = {
+		can_rotate = 0,
+		describe = "享受愉快的游戏之夜吧~",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/dibanbng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 80,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "吧台地板",
+		advice = 0,
+		icon = "dibanbngicon",
+		id = 80001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80002] = {
+		can_rotate = 0,
+		describe = "享受愉快的游戏之夜吧~",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/qiangbibng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 80,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "吧台墙纸",
+		advice = 0,
+		icon = "qiangbibngicon",
+		id = 80002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80101] = {
+		can_rotate = 1,
+		describe = "唔，这个摇杆是不是不太灵了？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/1bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 80,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "啾啾街机台",
+		advice = 0,
+		icon = "1bngicon",
+		id = 80101,
+		comfortable = 2,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80102] = {
+		can_rotate = 0,
+		describe = "无论是上菜还是收盘子身手都是一流的啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/2bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 80,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "吧台服务啾",
+		advice = 0,
+		icon = "2bngicon",
+		id = 80102,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80103] = {
+		can_rotate = 0,
+		describe = "和朋友一起聚聚啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/7bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 80,
+		count = 2,
+		name = "吧台餐桌",
+		advice = 0,
+		id = 80103,
+		icon = "7bngicon",
+		comfortable = 2,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-77,
+					83
+				},
+				{
+					1,
+					1
+				},
+				"bng/7bng_using"
+			},
+			{
+				"sit",
+				{
+					70,
+					83
+				},
+				{
+					-1,
+					1
+				},
+				"bng/7bng_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80105] = {
+		can_rotate = 0,
+		describe = "下一杆一定进洞啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/4bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 80,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "桌球啾",
+		advice = 0,
+		icon = "4bngicon",
+		id = 80105,
+		comfortable = 3,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80106] = {
+		can_rotate = 0,
+		describe = "您点的特调饮料啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/5bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 80,
+		count = 1,
+		name = "啾啾吧台",
+		advice = 0,
+		id = 80106,
+		icon = "5bngicon",
+		comfortable = 3,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					139,
+					-109
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80108] = {
+		can_rotate = 0,
+		describe = "感觉坐下就会不知不觉点些很贵的饮料呢…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/3bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 80,
+		count = 1,
+		name = "啾啾卡座",
+		advice = 0,
+		id = 80108,
+		icon = "3bngicon",
+		comfortable = 3,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-113,
+					62
+				},
+				{
+					1,
+					1
+				},
+				"bng/3bng_using"
+			},
+			{
+				"sit",
+				{
+					49,
+					64
+				},
+				{
+					-1,
+					1
+				},
+				"bng/3bng_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80109] = {
+		can_rotate = 0,
+		describe = "简约的长桌，底下还能放点杂物。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/8bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 80,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "吧台长桌",
+		advice = 0,
+		icon = "8bngicon",
+		id = 80109,
+		comfortable = 2,
+		size = {
+			2,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80110] = {
+		can_rotate = 0,
+		describe = "楼上是…VIP室啾？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/9bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 80,
+		count = 1,
+		name = "吧台楼梯",
+		advice = 0,
+		id = 80110,
+		icon = "9bngicon",
+		comfortable = 3,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-49,
+					-27
+				},
+				{
+					-1,
+					1
+				},
+				"bng/9bng_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80111] = {
+		can_rotate = 0,
+		describe = "好像…有点酸？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/10bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 80,
+		count = 1,
+		name = "特调饮料(澡盆)",
+		advice = 0,
+		id = 80111,
+		icon = "10bngicon",
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-31,
+					-13
+				},
+				{
+					-1,
+					1
+				},
+				"bng/10bng_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80112] = {
+		can_rotate = 0,
+		describe = "化妆满分，笑容满分！可以开店了啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/11bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 80,
+		count = 1,
+		name = "吧台准备间",
+		advice = 0,
+		id = 80112,
+		icon = "11bngicon",
+		comfortable = 2,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-26,
+					-53
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80113] = {
+		can_rotate = 0,
+		describe = "欣赏啾啾们的华丽演出啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 80,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "Abngicon",
+		count = 1,
+		name = "兔啾舞台",
+		advice = 0,
+		id = 80113,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			6,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"AbngB",
+				"normal"
+			},
+			{
+				"AbngT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[80114] = {
+		can_rotate = 1,
+		describe = "开到哪都是万众瞩目的焦点啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 80,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "Bbngicon",
+		count = 1,
+		name = "巡回表演车",
+		advice = 0,
+		id = 80114,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Bbng",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[80115] = {
+		can_rotate = 1,
+		describe = "取得新高分啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 80,
+		count = 1,
+		name = "啾啾飞镖",
+		advice = 0,
+		id = 80115,
+		icon = "Cbngicon",
+		comfortable = 4,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Cbng",
+				"normal",
+				{
+					"2",
+					false,
+					{
+						"3",
+						"50"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[80301] = {
+		can_rotate = 0,
+		describe = "调一杯什么样的饮料好呢~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/12bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 80,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 3,
+		name = "啾啾饮料架",
+		advice = 0,
+		icon = "12bngicon",
+		id = 80301,
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80304] = {
+		can_rotate = 0,
+		describe = "夜晚还很长，继续嗨起来啾！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/13bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 80,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "吧台壁钟",
+		advice = 0,
+		icon = "13bngicon",
+		id = 80304,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80305] = {
+		can_rotate = 1,
+		describe = "闪着迷人的光~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/14bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 80,
+		spine_action_replace = "",
+		belong = 4,
+		canputon = 0,
+		count = 1,
+		name = "吧台灯箱",
+		advice = 0,
+		icon = "14bngicon",
+		id = 80305,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[80306] = {
+		can_rotate = 1,
+		describe = "风格独特的吧台墙壁装饰。",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bng/15bng",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 80,
+		spine_action_replace = "",
+		belong = 3,
+		canputon = 0,
+		count = 1,
+		name = "瓶盖壁饰",
+		advice = 0,
+		icon = "15bngicon",
+		id = 80306,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -93296,6 +94457,11 @@ pg.furniture_data_template = {
 		191,
 		192,
 		194,
+		196,
+		197,
+		198,
+		199,
+		200,
 		100001,
 		100002,
 		100003,
@@ -93321,6 +94487,7 @@ pg.furniture_data_template = {
 		100023,
 		100024,
 		100025,
+		100026,
 		1001,
 		1002,
 		1101,
@@ -95293,6 +96460,25 @@ pg.furniture_data_template = {
 		78113,
 		78114,
 		78115,
-		78116
+		78116,
+		80001,
+		80002,
+		80101,
+		80102,
+		80103,
+		80105,
+		80106,
+		80108,
+		80109,
+		80110,
+		80111,
+		80112,
+		80113,
+		80114,
+		80115,
+		80301,
+		80304,
+		80305,
+		80306
 	}
 }

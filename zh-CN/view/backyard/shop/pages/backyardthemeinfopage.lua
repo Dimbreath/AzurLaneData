@@ -94,6 +94,8 @@ function slot0.OnCardUpdated(slot0, slot1)
 end
 
 function slot0.SetUp(slot0, slot1, slot2, slot3, slot4)
+	slot0:Show()
+
 	slot0.index = slot1
 	slot0.dorm = slot3
 	slot0.themeVO = slot2
@@ -102,7 +104,6 @@ function slot0.SetUp(slot0, slot1, slot2, slot3, slot4)
 	slot0:InitFurnitureList()
 	slot0:UpdateThemeInfo()
 	slot0:UpdateRes()
-	slot0:Show()
 end
 
 function slot0.UpdateRes(slot0)

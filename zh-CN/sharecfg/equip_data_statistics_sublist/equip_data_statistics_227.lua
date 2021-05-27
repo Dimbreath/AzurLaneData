@@ -1,47 +1,45 @@
 pg = pg or {}
 pg.equip_data_statistics_227 = {
-	[33071] = {
+	[33049] = {
+		id = 33049,
+		damage = "44 x 4",
+		base = 33040,
+		weapon_id = {
+			33049
+		}
+	},
+	[33050] = {
+		id = 33050,
+		damage = "46 x 4",
+		base = 33040,
+		weapon_id = {
+			33050
+		}
+	},
+	[33051] = {
 		anti_siren = 100,
-		damage = "48 x 4",
-		base = 33060,
-		id = 33071,
+		damage = "46 x 4",
+		base = 33040,
+		id = 33051,
 		weapon_id = {
-			33071
+			33051
 		}
 	},
-	[33072] = {
-		anti_siren = 200,
-		damage = "48 x 4",
-		base = 33060,
-		id = 33072,
-		weapon_id = {
-			33072
-		}
-	},
-	[33073] = {
-		anti_siren = 300,
-		damage = "48 x 4",
-		base = 33060,
-		id = 33073,
-		weapon_id = {
-			33073
-		}
-	},
-	[33080] = {
-		name = "203mm连装炮改",
+	[33060] = {
+		name = "试作型203mm(3号)连装炮",
 		speciality = "锁定",
 		type = 3,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "33080",
+		tech = 0,
+		descrip = "带有试验性质的203mm连装炮强化版，由军需处少量发放",
+		value_2 = 45,
+		icon = "33060",
 		attribute_2 = "cannon",
-		rarity = 4,
+		rarity = 5,
 		damage = "28 x 4",
 		nationality = 3,
 		ammo = 2,
 		value_3 = 0,
-		id = 33080,
+		id = 33060,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -70,7 +68,7 @@ pg.equip_data_statistics_227 = {
 			12
 		},
 		weapon_id = {
-			33080
+			33060
 		},
 		skill_id = {},
 		part_main = {
@@ -86,151 +84,111 @@ pg.equip_data_statistics_227 = {
 			"HE"
 		}
 	},
-	[33081] = {
-		id = 33081,
+	[33061] = {
+		id = 33061,
 		damage = "30 x 4",
-		base = 33080,
+		base = 33060,
 		weapon_id = {
-			33081
+			33061
 		}
 	},
-	[33082] = {
-		id = 33082,
+	[33062] = {
+		id = 33062,
 		damage = "32 x 4",
-		base = 33080,
+		base = 33060,
 		weapon_id = {
-			33082
+			33062
 		}
 	},
-	[33083] = {
-		id = 33083,
+	[33063] = {
+		id = 33063,
 		damage = "34 x 4",
-		base = 33080,
+		base = 33060,
 		weapon_id = {
-			33083
+			33063
 		}
 	},
-	[33084] = {
-		id = 33084,
+	[33064] = {
+		id = 33064,
 		damage = "36 x 4",
-		base = 33080,
+		base = 33060,
 		weapon_id = {
-			33084
+			33064
 		}
 	},
-	[33085] = {
-		id = 33085,
+	[33065] = {
+		id = 33065,
 		damage = "38 x 4",
-		base = 33080,
+		base = 33060,
 		weapon_id = {
-			33085
+			33065
 		}
 	},
-	[33086] = {
-		id = 33086,
+	[33066] = {
+		id = 33066,
 		damage = "40 x 4",
-		base = 33080,
+		base = 33060,
 		weapon_id = {
-			33086
+			33066
 		}
 	},
-	[33087] = {
-		id = 33087,
+	[33067] = {
+		id = 33067,
 		damage = "42 x 4",
-		base = 33080,
+		base = 33060,
 		weapon_id = {
-			33087
+			33067
 		}
 	},
-	[33088] = {
-		id = 33088,
+	[33068] = {
+		id = 33068,
 		damage = "44 x 4",
-		base = 33080,
+		base = 33060,
 		weapon_id = {
-			33088
+			33068
 		}
 	},
-	[33089] = {
-		id = 33089,
+	[33069] = {
+		id = 33069,
 		damage = "46 x 4",
-		base = 33080,
+		base = 33060,
 		weapon_id = {
-			33089
+			33069
 		}
 	},
-	[33090] = {
-		id = 33090,
+	[33070] = {
+		id = 33070,
 		damage = "48 x 4",
-		base = 33080,
+		base = 33060,
 		weapon_id = {
-			33090
+			33070
 		}
 	},
-	[33091] = {
+	[33071] = {
 		anti_siren = 100,
 		damage = "48 x 4",
-		base = 33080,
-		id = 33091,
+		base = 33060,
+		id = 33071,
 		weapon_id = {
-			33091
+			33071
 		}
 	},
-	[33100] = {
-		name = "试作型三联装310mm主炮",
-		speciality = "跨射",
-		type = 11,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 45,
-		icon = "33100",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "36 x 6",
-		nationality = 3,
-		ammo = 2,
-		value_3 = 0,
-		id = 33100,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				2,
-				1414
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
+	[33072] = {
+		anti_siren = 200,
+		damage = "48 x 4",
+		base = 33060,
+		id = 33072,
 		weapon_id = {
-			33100
-		},
-		skill_id = {},
-		part_main = {
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CB",
-			"MG",
-			"HE"
+			33072
 		}
 	},
-	[33101] = {
-		id = 33101,
-		damage = "38 x 6",
-		base = 33100,
+	[33073] = {
+		anti_siren = 300,
+		damage = "48 x 4",
+		base = 33060,
+		id = 33073,
 		weapon_id = {
-			33101
+			33073
 		}
 	}
 }

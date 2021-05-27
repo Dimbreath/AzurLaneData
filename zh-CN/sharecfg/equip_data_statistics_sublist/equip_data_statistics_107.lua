@@ -83,30 +83,30 @@ pg.equip_data_statistics_107 = {
 			14453
 		}
 	},
-	[14500] = {
-		name = "试作型双联装457mm主炮Mk A",
+	[14460] = {
+		name = "三联装406mm主炮Mk7",
 		speciality = "跨射",
 		type = 4,
 		tech = 0,
-		descrip = "说明未填写",
+		descrip = "为{namecode:201}级战列舰开发的Mk7型舰炮",
 		value_2 = 65,
-		icon = "14500",
+		icon = "14400",
 		attribute_2 = "cannon",
 		rarity = 6,
-		damage = "78 x 2",
+		damage = "71 x 3",
 		nationality = 1,
-		ammo = 1,
+		ammo = 2,
 		value_3 = 0,
-		id = 14500,
+		id = 14460,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			2
+			3
 		},
 		ammo_info = {
 			{
 				2,
-				1503
+				1512
 			}
 		},
 		equip_info = {
@@ -118,7 +118,7 @@ pg.equip_data_statistics_107 = {
 			12
 		},
 		weapon_id = {
-			14500
+			14460
 		},
 		skill_id = {},
 		part_main = {
@@ -133,55 +133,55 @@ pg.equip_data_statistics_107 = {
 			"USS",
 			"BB",
 			"MG",
-			"AP"
+			"HE"
 		}
 	},
-	[14501] = {
-		id = 14501,
-		damage = "91 x 2",
-		base = 14500,
+	[14461] = {
+		id = 14461,
+		damage = "81 x 3",
+		base = 14460,
 		weapon_id = {
-			14501
+			14461
 		}
 	},
-	[14502] = {
-		id = 14502,
-		damage = "102 x 2",
-		base = 14500,
+	[14462] = {
+		id = 14462,
+		damage = "91 x 3",
+		base = 14460,
 		weapon_id = {
-			14502
+			14462
 		}
 	},
-	[14503] = {
-		id = 14503,
-		damage = "116 x 2",
-		base = 14500,
+	[14463] = {
+		id = 14463,
+		damage = "99 x 3",
+		base = 14460,
 		weapon_id = {
-			14503
+			14463
 		}
 	},
-	[14504] = {
-		id = 14504,
-		damage = "129 x 2",
-		base = 14500,
+	[14464] = {
+		id = 14464,
+		damage = "109 x 3",
+		base = 14460,
 		weapon_id = {
-			14504
+			14464
 		}
 	},
-	[14505] = {
-		id = 14505,
-		damage = "143 x 2",
-		base = 14500,
+	[14465] = {
+		id = 14465,
+		damage = "119 x 3",
+		base = 14460,
 		weapon_id = {
-			14505
+			14465
 		}
 	},
-	[14506] = {
-		id = 14506,
-		damage = "156 x 2",
-		base = 14500,
+	[14466] = {
+		id = 14466,
+		damage = "129 x 3",
+		base = 14460,
 		weapon_id = {
-			14506
+			14466
 		}
 	}
 }

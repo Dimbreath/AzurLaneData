@@ -2,36 +2,6 @@ pg = pg or {}
 pg.weapon_property_20 = {}
 
 function ()
-	uv0.weapon_property_20[16421] = {
-		id = 16421,
-		reload_max = 200,
-		damage = 49,
-		base = 16420
-	}
-	uv0.weapon_property_20[16422] = {
-		id = 16422,
-		reload_max = 196,
-		damage = 55,
-		base = 16420
-	}
-	uv0.weapon_property_20[16423] = {
-		id = 16423,
-		reload_max = 193,
-		damage = 61,
-		base = 16420
-	}
-	uv0.weapon_property_20[16424] = {
-		id = 16424,
-		reload_max = 188,
-		damage = 67,
-		base = 16420
-	}
-	uv0.weapon_property_20[16425] = {
-		id = 16425,
-		reload_max = 184,
-		damage = 73,
-		base = 16420
-	}
 	uv0.weapon_property_20[16426] = {
 		id = 16426,
 		reload_max = 180,
@@ -668,5 +638,74 @@ function ()
 		id = 17086,
 		reload_max = 1863,
 		base = 17080
+	}
+	uv0.weapon_property_20[17087] = {
+		id = 17087,
+		reload_max = 1839,
+		base = 17080
+	}
+	uv0.weapon_property_20[17088] = {
+		id = 17088,
+		reload_max = 1815,
+		base = 17080
+	}
+	uv0.weapon_property_20[17089] = {
+		id = 17089,
+		reload_max = 1791,
+		base = 17080
+	}
+	uv0.weapon_property_20[17090] = {
+		id = 17090,
+		reload_max = 1768,
+		base = 17080
+	}
+	uv0.weapon_property_20[17091] = {
+		id = 17091,
+		reload_max = 1768,
+		base = 17080
+	}
+	uv0.weapon_property_20[17100] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "F4F野猫T1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 30,
+		charge_param = "",
+		damage = 22,
+		corrected = 100,
+		min_range = 0,
+		id = 17100,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1900,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			17100
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
 end()

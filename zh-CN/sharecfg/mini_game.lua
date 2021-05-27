@@ -816,6 +816,19 @@ pg.mini_game = {
 		hub_id = 17,
 		request_data = 1
 	},
+	{
+		name = "打地鼠",
+		view_name = "PokeMoleView",
+		mediator_name = "MiniHubMediator",
+		type = 2,
+		simple_config_data = "",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 23,
+		hub_id = 18,
+		request_data = 1
+	},
 	all = {
 		1,
 		2,
@@ -838,6 +851,7 @@ pg.mini_game = {
 		19,
 		20,
 		21,
-		22
+		22,
+		23
 	}
 }

@@ -592,27 +592,27 @@ pg.aircraft_template_133 = {
 			}
 		}
 	},
-	[65061] = {
-		name = "普林斯顿技能鱼雷机Lv1",
-		max_hp = 42,
+	[64121] = {
+		name = "提康德罗加战斗机LV1",
+		max_hp = 51,
 		accuracy = 23,
-		model_ID = "tbf",
+		model_ID = "f6f",
 		ACC_growth = 0,
-		crash_DMG = 406,
-		dodge = 1,
+		crash_DMG = 156,
+		dodge = 0.315,
 		attack_power = 2,
-		dodge_limit = 0,
-		type = 2,
+		dodge_limit = 11,
+		type = 1,
 		AP_growth = 2000,
-		icon = "tbf",
+		icon = "f6f",
 		funnel_behavior = "",
 		nationality = 1,
-		hp_growth = 1615,
-		speed = 48,
-		id = 65061,
+		hp_growth = 1947,
+		speed = 50,
+		id = 64121,
 		scale = 1,
 		weapon_ID = {
-			65071
+			64131
 		},
 		position_offset = {
 			0,
@@ -632,13 +632,13 @@ pg.aircraft_template_133 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					-1.28,
+					1.62,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					-1.12,
+					-1,
 					0
 				}
 			}
@@ -655,7 +655,7 @@ pg.aircraft_template_133 = {
 				0
 			},
 			{
-				0.52,
+				0,
 				0,
 				0
 			},

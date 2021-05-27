@@ -1,5 +1,250 @@
 pg = pg or {}
 pg.equip_data_statistics_317 = {
+	[46366] = {
+		id = 46366,
+		damage = "97/轮",
+		base = 46360,
+		weapon_id = {
+			46366
+		}
+	},
+	[46367] = {
+		id = 46367,
+		damage = "104/轮",
+		base = 46360,
+		weapon_id = {
+			46367
+		}
+	},
+	[46368] = {
+		id = 46368,
+		damage = "112/轮",
+		base = 46360,
+		weapon_id = {
+			46368
+		}
+	},
+	[46369] = {
+		id = 46369,
+		damage = "120/轮",
+		base = 46360,
+		weapon_id = {
+			46369
+		}
+	},
+	[46370] = {
+		id = 46370,
+		damage = "128/轮",
+		base = 46360,
+		weapon_id = {
+			46370
+		}
+	},
+	[46371] = {
+		anti_siren = 100,
+		damage = "128/轮",
+		base = 46360,
+		id = 46371,
+		weapon_id = {
+			46371
+		}
+	},
+	[46372] = {
+		anti_siren = 200,
+		damage = "128/轮",
+		base = 46360,
+		id = 46372,
+		weapon_id = {
+			46372
+		}
+	},
+	[46373] = {
+		anti_siren = 300,
+		damage = "128/轮",
+		base = 46360,
+		id = 46373,
+		weapon_id = {
+			46373
+		}
+	},
+	[47000] = {
+		name = "BF-109T舰载战斗机",
+		type = 7,
+		speciality = "空战",
+		rarity = 2,
+		tech = 1,
+		descrip = "BF-109的舰载用版本，铁血公国的老牌战斗机",
+		value_2 = 5,
+		icon = "47000",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 47000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59000
+			},
+			{
+				6,
+				59400
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			47000,
+			84000
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		}
+	},
+	[47001] = {
+		id = 47001,
+		base = 47000,
+		ammo_info = {
+			{
+				6,
+				59001
+			},
+			{
+				6,
+				59401
+			}
+		},
+		weapon_id = {
+			47001,
+			84001
+		}
+	},
+	[47002] = {
+		id = 47002,
+		base = 47000,
+		ammo_info = {
+			{
+				6,
+				59002
+			},
+			{
+				6,
+				59402
+			}
+		},
+		weapon_id = {
+			47002,
+			84002
+		}
+	},
+	[47003] = {
+		id = 47003,
+		base = 47000,
+		ammo_info = {
+			{
+				6,
+				59003
+			},
+			{
+				6,
+				59403
+			}
+		},
+		weapon_id = {
+			47003,
+			84003
+		}
+	},
+	[47020] = {
+		name = "BF-109T舰载战斗机",
+		type = 7,
+		speciality = "空战",
+		rarity = 3,
+		tech = 2,
+		descrip = "BF-109的舰载用版本，铁血公国的老牌战斗机",
+		value_2 = 12,
+		icon = "47000",
+		attribute_2 = "air",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 47020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59020
+			},
+			{
+				6,
+				59420
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			47020,
+			84020
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		}
+	},
+	[47021] = {
+		id = 47021,
+		base = 47020,
+		ammo_info = {
+			{
+				6,
+				59021
+			},
+			{
+				6,
+				59421
+			}
+		},
+		weapon_id = {
+			47021,
+			84021
+		}
+	},
 	[47022] = {
 		id = 47022,
 		base = 47020,
@@ -52,294 +297,6 @@ pg.equip_data_statistics_317 = {
 		weapon_id = {
 			47024,
 			84024
-		}
-	},
-	[47025] = {
-		id = 47025,
-		base = 47020,
-		ammo_info = {
-			{
-				6,
-				59025
-			},
-			{
-				6,
-				59425
-			}
-		},
-		weapon_id = {
-			47025,
-			84025
-		}
-	},
-	[47026] = {
-		id = 47026,
-		base = 47020,
-		ammo_info = {
-			{
-				6,
-				59026
-			},
-			{
-				6,
-				59426
-			}
-		},
-		weapon_id = {
-			47026,
-			84026
-		}
-	},
-	[47040] = {
-		name = "BF-109T舰载战斗机",
-		type = 7,
-		speciality = "空战",
-		rarity = 4,
-		tech = 3,
-		descrip = "BF-109的舰载用版本，铁血公国的老牌战斗机",
-		value_2 = 25,
-		icon = "47000",
-		attribute_2 = "air",
-		nationality = 4,
-		ammo = 5,
-		value_3 = 0,
-		id = 47040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				59040
-			},
-			{
-				6,
-				59440
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			47040,
-			84040
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CV",
-			"FT"
-		}
-	},
-	[47041] = {
-		id = 47041,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59041
-			},
-			{
-				6,
-				59441
-			}
-		},
-		weapon_id = {
-			47041,
-			84041
-		}
-	},
-	[47042] = {
-		id = 47042,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59042
-			},
-			{
-				6,
-				59442
-			}
-		},
-		weapon_id = {
-			47042,
-			84042
-		}
-	},
-	[47043] = {
-		id = 47043,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59043
-			},
-			{
-				6,
-				59443
-			}
-		},
-		weapon_id = {
-			47043,
-			84043
-		}
-	},
-	[47044] = {
-		id = 47044,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59044
-			},
-			{
-				6,
-				59444
-			}
-		},
-		weapon_id = {
-			47044,
-			84044
-		}
-	},
-	[47045] = {
-		id = 47045,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59045
-			},
-			{
-				6,
-				59445
-			}
-		},
-		weapon_id = {
-			47045,
-			84045
-		}
-	},
-	[47046] = {
-		id = 47046,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59046
-			},
-			{
-				6,
-				59446
-			}
-		},
-		weapon_id = {
-			47046,
-			84046
-		}
-	},
-	[47047] = {
-		id = 47047,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59047
-			},
-			{
-				6,
-				59447
-			}
-		},
-		weapon_id = {
-			47047,
-			84047
-		}
-	},
-	[47048] = {
-		id = 47048,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59048
-			},
-			{
-				6,
-				59448
-			}
-		},
-		weapon_id = {
-			47048,
-			84048
-		}
-	},
-	[47049] = {
-		id = 47049,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59049
-			},
-			{
-				6,
-				59449
-			}
-		},
-		weapon_id = {
-			47049,
-			84049
-		}
-	},
-	[47050] = {
-		id = 47050,
-		base = 47040,
-		ammo_info = {
-			{
-				6,
-				59050
-			},
-			{
-				6,
-				59450
-			}
-		},
-		weapon_id = {
-			47050,
-			84050
-		}
-	},
-	[47051] = {
-		anti_siren = 100,
-		base = 47040,
-		id = 47051,
-		ammo_info = {
-			{
-				6,
-				59051
-			},
-			{
-				6,
-				59451
-			}
-		},
-		weapon_id = {
-			47051,
-			84051
 		}
 	}
 }

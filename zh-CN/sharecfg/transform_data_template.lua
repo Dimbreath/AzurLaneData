@@ -32192,6 +32192,460 @@ pg.transform_data_template = {
 			50
 		}
 	},
+	[37701] = {
+		use_gold = 400,
+		name = "舰体改良I",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 1,
+		star_limit = 2,
+		id = 37701,
+		icon = "hp_1",
+		skill_id = 0,
+		descrip = "耐久+60",
+		condition_id = {},
+		effect = {
+			{
+				durability = 60
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18031,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[37702] = {
+		use_gold = 600,
+		name = "装填强化I",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 5,
+		star_limit = 2,
+		id = 37702,
+		icon = "rl_1",
+		skill_id = 0,
+		descrip = "装填+5",
+		condition_id = {
+			37701
+		},
+		effect = {
+			{
+				reload = 5
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18031,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[37703] = {
+		use_gold = 800,
+		name = "空战精通I",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 20,
+		star_limit = 3,
+		id = 37703,
+		icon = "ffup_1",
+		skill_id = 0,
+		descrip = "战斗机武器效率+4%",
+		condition_id = {
+			37701
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.04
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18031,
+					3
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[37704] = {
+		use_gold = 1000,
+		name = "防空强化I",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 25,
+		star_limit = 3,
+		id = 37704,
+		icon = "aa_1",
+		skill_id = 0,
+		descrip = "防空+15",
+		condition_id = {
+			37703
+		},
+		effect = {
+			{
+				antiaircraft = 15
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18031,
+					5
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[37705] = {
+		use_gold = 1200,
+		name = "鱼雷俯冲I",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 35,
+		star_limit = 4,
+		id = 37705,
+		icon = "tfup_1",
+		skill_id = 0,
+		descrip = "鱼雷机武器效率+5%",
+		condition_id = {
+			37703
+		},
+		effect = {
+			{
+				equipment_proficiency_2 = 0.05
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18032,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[37706] = {
+		use_gold = 1500,
+		name = "航空强化I",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 40,
+		star_limit = 4,
+		id = 37706,
+		icon = "air_1",
+		skill_id = 0,
+		descrip = "航空+10",
+		condition_id = {
+			37705
+		},
+		effect = {
+			{
+				air = 10
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18032,
+					2
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[37707] = {
+		use_gold = 1800,
+		name = "舰体改良II",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 50,
+		star_limit = 4,
+		id = 37707,
+		icon = "hp_2",
+		skill_id = 0,
+		descrip = "耐久+60/耐久+90",
+		condition_id = {
+			37705
+		},
+		effect = {
+			{
+				durability = 60
+			},
+			{
+				durability = 90
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18032,
+					2
+				}
+			},
+			{
+				{
+					18032,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[37708] = {
+		use_gold = 2000,
+		name = "装填强化II",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 55,
+		star_limit = 4,
+		id = 37708,
+		icon = "rl_2",
+		skill_id = 0,
+		descrip = "装填+5/装填+10",
+		condition_id = {
+			37707,
+			37702
+		},
+		effect = {
+			{
+				reload = 5
+			},
+			{
+				reload = 10
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18032,
+					1
+				}
+			},
+			{
+				{
+					18032,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[37709] = {
+		use_gold = 2500,
+		name = "空战精通II",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 70,
+		star_limit = 5,
+		id = 37709,
+		icon = "ffup_2",
+		skill_id = 0,
+		descrip = "战斗机武器效率+4%/战斗机武器效率+7%",
+		condition_id = {
+			37707
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.04
+			},
+			{
+				equipment_proficiency_1 = 0.07
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18033,
+					1
+				}
+			},
+			{
+				{
+					18033,
+					1
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[37710] = {
+		use_gold = 3000,
+		name = "防空强化II",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 75,
+		star_limit = 5,
+		id = 37710,
+		icon = "aa_2",
+		skill_id = 0,
+		descrip = "防空+5/防空+15",
+		condition_id = {
+			37709
+		},
+		effect = {
+			{
+				antiaircraft = 5
+			},
+			{
+				antiaircraft = 15
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18033,
+					1
+				},
+				{
+					17033,
+					15
+				}
+			},
+			{
+				{
+					18033,
+					2
+				},
+				{
+					17033,
+					35
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[37711] = {
+		use_gold = 4000,
+		name = "近代化改造",
+		max_level = 1,
+		skin_id = 107229,
+		use_ship = 1,
+		level_limit = 85,
+		star_limit = 5,
+		id = 37711,
+		icon = "mt_red",
+		skill_id = 0,
+		descrip = "近代化改造完成，防空+35，航空+10\n改造后<color=#92fc63>【所有战斗机+1】</color>、<color=#92fc63>【所有鱼雷机+1】</color>",
+		condition_id = {
+			37709,
+			37710
+		},
+		effect = {
+			{
+				air = 10,
+				antiaircraft = 35
+			}
+		},
+		ship_id = {
+			{
+				107224,
+				107984
+			}
+		},
+		use_item = {
+			{
+				{
+					18033,
+					3
+				}
+			}
+		},
+		gear_score = {
+			50
+		}
+	},
+	[37712] = {
+		use_gold = 3000,
+		name = "战术启发",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 90,
+		star_limit = 5,
+		id = 37712,
+		icon = "skill_yellow",
+		skill_id = 14630,
+		descrip = "习得技能【】",
+		condition_id = {
+			37711
+		},
+		effect = {
+			{
+				skill_id = 14630
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18033,
+					2
+				},
+				{
+					17003,
+					50
+				}
+			}
+		},
+		gear_score = {
+			25
+		}
+	},
 	[43401] = {
 		use_gold = 400,
 		name = "舰体改良I",
@@ -33530,6 +33984,18 @@ pg.transform_data_template = {
 		37309,
 		37310,
 		37311,
+		37701,
+		37702,
+		37703,
+		37704,
+		37705,
+		37706,
+		37707,
+		37708,
+		37709,
+		37710,
+		37711,
+		37712,
 		43401,
 		43402,
 		43403,

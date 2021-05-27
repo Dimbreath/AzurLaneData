@@ -6,5 +6,6 @@ pg.l2dhx = {
 	shengluyisi_2 = {},
 	longfeng_2 = {},
 	xukufu_3 = {},
-	jianye_2 = {}
+	jianye_2 = {},
+	ailunsamuna_2 = {}
 }

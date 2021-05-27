@@ -2,7 +2,7 @@ pg = pg or {}
 pg.weapon_property_381 = {}
 
 function ()
-	uv0.weapon_property_381[1100803] = {
+	uv0.weapon_property_381[1100933] = {
 		action_index = "attack",
 		range = 110,
 		type = 11,
@@ -10,7 +10,7 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系舰载鱼雷机IV",
+		name = "法系鱼雷机IV",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -19,12 +19,12 @@ function ()
 		damage = 36,
 		corrected = 100,
 		min_range = 0,
-		id = 1100803,
+		id = 1100933,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 4000,
-		queue = 1,
+		reload_max = 2100,
+		queue = 7,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
@@ -36,7 +36,7 @@ function ()
 			30014
 		},
 		barrage_ID = {
-			12015
+			12010
 		},
 		oxy_type = {
 			1
@@ -46,7 +46,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100804] = {
+	uv0.weapon_property_381[1100934] = {
 		action_index = "attack",
 		range = 110,
 		type = 11,
@@ -54,7 +54,7 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系舰载鱼雷机V",
+		name = "法系鱼雷机V",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -63,12 +63,12 @@ function ()
 		damage = 46,
 		corrected = 100,
 		min_range = 0,
-		id = 1100804,
+		id = 1100934,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 4000,
-		queue = 1,
+		reload_max = 2100,
+		queue = 7,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
@@ -80,7 +80,7 @@ function ()
 			30014
 		},
 		barrage_ID = {
-			12015
+			12010
 		},
 		oxy_type = {
 			1
@@ -90,7 +90,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100805] = {
+	uv0.weapon_property_381[1100935] = {
 		action_index = "attack",
 		range = 100,
 		type = 11,
@@ -98,7 +98,7 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系舰载轰炸机I",
+		name = "法系轰炸机I",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -107,12 +107,12 @@ function ()
 		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 1100805,
+		id = 1100935,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 5000,
-		queue = 1,
+		reload_max = 1800,
+		queue = 8,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
@@ -124,7 +124,7 @@ function ()
 			30019
 		},
 		barrage_ID = {
-			12015
+			12010
 		},
 		oxy_type = {
 			1
@@ -134,7 +134,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100806] = {
+	uv0.weapon_property_381[1100936] = {
 		action_index = "attack",
 		range = 100,
 		type = 11,
@@ -142,7 +142,7 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系舰载轰炸机II",
+		name = "法系轰炸机II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -151,12 +151,12 @@ function ()
 		damage = 28,
 		corrected = 100,
 		min_range = 0,
-		id = 1100806,
+		id = 1100936,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 5000,
-		queue = 1,
+		reload_max = 1800,
+		queue = 8,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
@@ -168,7 +168,7 @@ function ()
 			30019
 		},
 		barrage_ID = {
-			12015
+			12010
 		},
 		oxy_type = {
 			1
@@ -178,7 +178,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100807] = {
+	uv0.weapon_property_381[1100937] = {
 		action_index = "attack",
 		range = 100,
 		type = 11,
@@ -186,7 +186,7 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系舰载轰炸机III",
+		name = "法系轰炸机III",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -195,12 +195,12 @@ function ()
 		damage = 36,
 		corrected = 100,
 		min_range = 0,
-		id = 1100807,
+		id = 1100937,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 5000,
-		queue = 1,
+		reload_max = 1800,
+		queue = 8,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
@@ -212,7 +212,7 @@ function ()
 			30019
 		},
 		barrage_ID = {
-			12015
+			12010
 		},
 		oxy_type = {
 			1
@@ -222,7 +222,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100808] = {
+	uv0.weapon_property_381[1100938] = {
 		action_index = "attack",
 		range = 100,
 		type = 11,
@@ -230,7 +230,7 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系舰载轰炸机IV",
+		name = "法系轰炸机IV",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -239,12 +239,12 @@ function ()
 		damage = 46,
 		corrected = 100,
 		min_range = 0,
-		id = 1100808,
+		id = 1100938,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 5000,
-		queue = 1,
+		reload_max = 1800,
+		queue = 8,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
@@ -256,7 +256,7 @@ function ()
 			30019
 		},
 		barrage_ID = {
-			12015
+			12010
 		},
 		oxy_type = {
 			1
@@ -266,7 +266,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100809] = {
+	uv0.weapon_property_381[1100939] = {
 		action_index = "attack",
 		range = 100,
 		type = 11,
@@ -274,7 +274,7 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系舰载轰炸机V",
+		name = "法系轰炸机V",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -283,12 +283,12 @@ function ()
 		damage = 58,
 		corrected = 100,
 		min_range = 0,
-		id = 1100809,
+		id = 1100939,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 5000,
-		queue = 1,
+		reload_max = 1800,
+		queue = 8,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
@@ -300,7 +300,7 @@ function ()
 			30019
 		},
 		barrage_ID = {
-			12015
+			12010
 		},
 		oxy_type = {
 			1
@@ -310,7 +310,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100830] = {
+	uv0.weapon_property_381[1100940] = {
 		action_index = "",
 		range = 10,
 		type = 2,
@@ -318,7 +318,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系空袭轰炸机I",
+		name = "法系轰炸机武器I",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -327,24 +327,24 @@ function ()
 		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 1100830,
+		id = 1100940,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
 		reload_max = 400,
 		queue = 1,
 		search_type = 1,
-		effect_move = 1,
+		effect_move = 0,
 		suppress = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			10012
+			130301
 		},
 		barrage_ID = {
-			10001
+			130992
 		},
 		oxy_type = {
 			1
@@ -354,7 +354,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100831] = {
+	uv0.weapon_property_381[1100941] = {
 		action_index = "",
 		range = 10,
 		type = 2,
@@ -362,7 +362,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系空袭轰炸机II",
+		name = "法系轰炸机武器II",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -371,24 +371,24 @@ function ()
 		damage = 28,
 		corrected = 100,
 		min_range = 0,
-		id = 1100831,
+		id = 1100941,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
 		reload_max = 400,
 		queue = 1,
 		search_type = 1,
-		effect_move = 1,
+		effect_move = 0,
 		suppress = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			10012
+			130301
 		},
 		barrage_ID = {
-			10001
+			130992
 		},
 		oxy_type = {
 			1
@@ -398,7 +398,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100832] = {
+	uv0.weapon_property_381[1100942] = {
 		action_index = "",
 		range = 10,
 		type = 2,
@@ -406,7 +406,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系空袭轰炸机III",
+		name = "法系轰炸机武器III",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -415,24 +415,24 @@ function ()
 		damage = 36,
 		corrected = 100,
 		min_range = 0,
-		id = 1100832,
+		id = 1100942,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
 		reload_max = 400,
 		queue = 1,
 		search_type = 1,
-		effect_move = 1,
+		effect_move = 0,
 		suppress = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			10012
+			130301
 		},
 		barrage_ID = {
-			10001
+			130992
 		},
 		oxy_type = {
 			1
@@ -442,7 +442,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100833] = {
+	uv0.weapon_property_381[1100943] = {
 		action_index = "",
 		range = 10,
 		type = 2,
@@ -450,7 +450,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系空袭轰炸机IV",
+		name = "法系轰炸机武器IV",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -459,24 +459,24 @@ function ()
 		damage = 46,
 		corrected = 100,
 		min_range = 0,
-		id = 1100833,
+		id = 1100943,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
 		reload_max = 400,
 		queue = 1,
 		search_type = 1,
-		effect_move = 1,
+		effect_move = 0,
 		suppress = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			10012
+			130301
 		},
 		barrage_ID = {
-			10001
+			130992
 		},
 		oxy_type = {
 			1
@@ -486,7 +486,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100834] = {
+	uv0.weapon_property_381[1100944] = {
 		action_index = "",
 		range = 10,
 		type = 2,
@@ -494,7 +494,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系空袭轰炸机V",
+		name = "法系轰炸机武器V",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -503,24 +503,24 @@ function ()
 		damage = 58,
 		corrected = 100,
 		min_range = 0,
-		id = 1100834,
+		id = 1100944,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
 		reload_max = 400,
 		queue = 1,
 		search_type = 1,
-		effect_move = 1,
+		effect_move = 0,
 		suppress = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			10012
+			130301
 		},
 		barrage_ID = {
-			10001
+			130992
 		},
 		oxy_type = {
 			1
@@ -530,7 +530,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100835] = {
+	uv0.weapon_property_381[1100945] = {
 		action_index = "",
 		range = 40,
 		type = 3,
@@ -538,7 +538,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系空袭鱼雷机I",
+		name = "法系鱼雷机武器I",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -547,7 +547,7 @@ function ()
 		damage = 18,
 		corrected = 100,
 		min_range = 22,
-		id = 1100835,
+		id = 1100945,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -574,7 +574,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100836] = {
+	uv0.weapon_property_381[1100946] = {
 		action_index = "",
 		range = 40,
 		type = 3,
@@ -582,7 +582,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系空袭鱼雷机II",
+		name = "法系鱼雷机武器II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -591,7 +591,7 @@ function ()
 		damage = 22,
 		corrected = 100,
 		min_range = 22,
-		id = 1100836,
+		id = 1100946,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -618,7 +618,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100837] = {
+	uv0.weapon_property_381[1100947] = {
 		action_index = "",
 		range = 40,
 		type = 3,
@@ -626,7 +626,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系空袭鱼雷机III",
+		name = "法系鱼雷机武器III",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -635,7 +635,7 @@ function ()
 		damage = 28,
 		corrected = 100,
 		min_range = 22,
-		id = 1100837,
+		id = 1100947,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -662,7 +662,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100838] = {
+	uv0.weapon_property_381[1100948] = {
 		action_index = "",
 		range = 40,
 		type = 3,
@@ -670,7 +670,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系空袭鱼雷机IV",
+		name = "法系鱼雷机武器IV",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -679,7 +679,7 @@ function ()
 		damage = 36,
 		corrected = 100,
 		min_range = 22,
-		id = 1100838,
+		id = 1100948,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -706,7 +706,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100839] = {
+	uv0.weapon_property_381[1100949] = {
 		action_index = "",
 		range = 40,
 		type = 3,
@@ -714,7 +714,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系空袭鱼雷机V",
+		name = "法系鱼雷机武器V",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -723,7 +723,7 @@ function ()
 		damage = 46,
 		corrected = 100,
 		min_range = 22,
-		id = 1100839,
+		id = 1100949,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -750,7 +750,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100840] = {
+	uv0.weapon_property_381[1100950] = {
 		action_index = "",
 		range = 85,
 		type = 1,
@@ -758,107 +758,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系空袭战斗机I",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 3,
-		corrected = 100,
-		min_range = 0,
-		id = 1100840,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 1650,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20001,
-			20001,
-			20001,
-			20001
-		},
-		barrage_ID = {
-			101,
-			102,
-			103,
-			104
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_381[1100841] = {
-		action_index = "",
-		range = 85,
-		type = 1,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "日系空袭战斗机II",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 4,
-		corrected = 100,
-		min_range = 0,
-		id = 1100841,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 1650,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20001,
-			20001,
-			20001,
-			20001
-		},
-		barrage_ID = {
-			101,
-			102,
-			103,
-			104
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_381[1100842] = {
-		action_index = "",
-		range = 85,
-		type = 1,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "日系空袭战斗机III",
+		name = "法系战斗机弹幕武器I",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -867,7 +767,7 @@ function ()
 		damage = 6,
 		corrected = 100,
 		min_range = 0,
-		id = 1100842,
+		id = 1100950,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -900,7 +800,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100843] = {
+	uv0.weapon_property_381[1100951] = {
 		action_index = "",
 		range = 85,
 		type = 1,
@@ -908,16 +808,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系空袭战斗机IV",
+		name = "法系战斗机弹幕武器II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 8,
+		damage = 6,
 		corrected = 100,
 		min_range = 0,
-		id = 1100843,
+		id = 1100951,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -950,7 +850,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100844] = {
+	uv0.weapon_property_381[1100952] = {
 		action_index = "",
 		range = 85,
 		type = 1,
@@ -958,16 +858,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系空袭战斗机V",
+		name = "法系战斗机弹幕武器III",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 10,
+		damage = 6,
 		corrected = 100,
 		min_range = 0,
-		id = 1100844,
+		id = 1100952,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -1000,41 +900,47 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100845] = {
+	uv0.weapon_property_381[1100953] = {
 		action_index = "",
-		range = 200,
-		type = 4,
+		range = 85,
+		type = 1,
 		fire_fx = "fangkongpaohuoshe2",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系空袭战斗机空中I",
+		name = "法系战斗机弹幕武器IV",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 12,
+		damage = 6,
 		corrected = 100,
 		min_range = 0,
-		id = 1100845,
+		id = 1100953,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 48,
+		reload_max = 1650,
 		queue = 1,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
-		spawn_bound = "antiaircraft",
+		spawn_bound = "cannon",
 		fire_sfx = "battle/air-atk",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			10004
+			20001,
+			20001,
+			20001,
+			20001
 		},
 		barrage_ID = {
-			5
+			101,
+			102,
+			103,
+			104
 		},
 		oxy_type = {
 			1
@@ -1044,41 +950,47 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100846] = {
+	uv0.weapon_property_381[1100954] = {
 		action_index = "",
-		range = 200,
-		type = 4,
+		range = 85,
+		type = 1,
 		fire_fx = "fangkongpaohuoshe2",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系空袭战斗机空中II",
+		name = "法系战斗机弹幕武器V",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 16,
+		damage = 6,
 		corrected = 100,
 		min_range = 0,
-		id = 1100846,
+		id = 1100954,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 48,
+		reload_max = 1650,
 		queue = 1,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
-		spawn_bound = "antiaircraft",
+		spawn_bound = "cannon",
 		fire_sfx = "battle/air-atk",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			10004
+			20001,
+			20001,
+			20001,
+			20001
 		},
 		barrage_ID = {
-			5
+			101,
+			102,
+			103,
+			104
 		},
 		oxy_type = {
 			1
@@ -1088,147 +1000,15 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100847] = {
-		action_index = "",
-		range = 200,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "日系空袭战斗机空中III",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 20,
-		corrected = 100,
-		min_range = 0,
-		id = 1100847,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 48,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			10004
-		},
-		barrage_ID = {
-			5
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_381[1100848] = {
-		action_index = "",
-		range = 200,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "日系空袭战斗机空中IV",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 25,
-		corrected = 100,
-		min_range = 0,
-		id = 1100848,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 48,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			10004
-		},
-		barrage_ID = {
-			5
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_381[1100849] = {
-		action_index = "",
-		range = 200,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "日系空袭战斗机空中V",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 32,
-		corrected = 100,
-		min_range = 0,
-		id = 1100849,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 48,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			10004
-		},
-		barrage_ID = {
-			5
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_381[1100850] = {
+	uv0.weapon_property_381[1100955] = {
 		action_index = "attack",
 		range = 80,
 		type = 11,
-		fire_fx = "zhupao",
+		fire_fx = "",
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系舰载战斗机I",
+		name = "德系战斗机I",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1237,24 +1017,24 @@ function ()
 		damage = 12,
 		corrected = 100,
 		min_range = 0,
-		id = 1100850,
+		id = 1100955,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 2000,
-		queue = 1,
+		reload_max = 1500,
+		queue = 6,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
 		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
+		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
 			30013
 		},
 		barrage_ID = {
-			12017
+			12010
 		},
 		oxy_type = {
 			1
@@ -1264,15 +1044,15 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100851] = {
+	uv0.weapon_property_381[1100956] = {
 		action_index = "attack",
 		range = 80,
 		type = 11,
-		fire_fx = "zhupao",
+		fire_fx = "",
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系舰载战斗机II",
+		name = "德系战斗机II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1281,24 +1061,24 @@ function ()
 		damage = 16,
 		corrected = 100,
 		min_range = 0,
-		id = 1100851,
+		id = 1100956,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 2000,
-		queue = 1,
+		reload_max = 1500,
+		queue = 6,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
 		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
+		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
 			30013
 		},
 		barrage_ID = {
-			12017
+			12010
 		},
 		oxy_type = {
 			1
@@ -1308,15 +1088,15 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100852] = {
+	uv0.weapon_property_381[1100957] = {
 		action_index = "attack",
 		range = 80,
 		type = 11,
-		fire_fx = "zhupao",
+		fire_fx = "",
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系舰载战斗机III",
+		name = "德系战斗机III",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1325,24 +1105,24 @@ function ()
 		damage = 20,
 		corrected = 100,
 		min_range = 0,
-		id = 1100852,
+		id = 1100957,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 2000,
-		queue = 1,
+		reload_max = 1500,
+		queue = 6,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
 		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
+		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
 			30013
 		},
 		barrage_ID = {
-			12017
+			12010
 		},
 		oxy_type = {
 			1
@@ -1352,15 +1132,15 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100853] = {
+	uv0.weapon_property_381[1100958] = {
 		action_index = "attack",
 		range = 80,
 		type = 11,
-		fire_fx = "zhupao",
+		fire_fx = "",
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系舰载战斗机IV",
+		name = "德系战斗机IV",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1369,24 +1149,24 @@ function ()
 		damage = 25,
 		corrected = 100,
 		min_range = 0,
-		id = 1100853,
+		id = 1100958,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 2000,
-		queue = 1,
+		reload_max = 1500,
+		queue = 6,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
 		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
+		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
 			30013
 		},
 		barrage_ID = {
-			12017
+			12010
 		},
 		oxy_type = {
 			1
@@ -1396,15 +1176,15 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100854] = {
+	uv0.weapon_property_381[1100959] = {
 		action_index = "attack",
 		range = 80,
 		type = 11,
-		fire_fx = "zhupao",
+		fire_fx = "",
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系舰载战斗机V",
+		name = "德系战斗机V",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1413,24 +1193,24 @@ function ()
 		damage = 32,
 		corrected = 100,
 		min_range = 0,
-		id = 1100854,
+		id = 1100959,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 2000,
-		queue = 1,
+		reload_max = 1500,
+		queue = 6,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
 		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
+		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
 			30013
 		},
 		barrage_ID = {
-			12017
+			12010
 		},
 		oxy_type = {
 			1
@@ -1440,7 +1220,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100855] = {
+	uv0.weapon_property_381[1100960] = {
 		action_index = "attack",
 		range = 110,
 		type = 11,
@@ -1448,7 +1228,7 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系舰载鱼雷机I",
+		name = "德系鱼雷机I",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1457,12 +1237,12 @@ function ()
 		damage = 18,
 		corrected = 100,
 		min_range = 0,
-		id = 1100855,
+		id = 1100960,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 4000,
-		queue = 1,
+		reload_max = 2100,
+		queue = 7,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
@@ -1474,7 +1254,7 @@ function ()
 			30014
 		},
 		barrage_ID = {
-			12017
+			12010
 		},
 		oxy_type = {
 			1
@@ -1484,7 +1264,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100856] = {
+	uv0.weapon_property_381[1100961] = {
 		action_index = "attack",
 		range = 110,
 		type = 11,
@@ -1492,7 +1272,7 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系舰载鱼雷机II",
+		name = "德系鱼雷机II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1501,12 +1281,12 @@ function ()
 		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 1100856,
+		id = 1100961,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 4000,
-		queue = 1,
+		reload_max = 2100,
+		queue = 7,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
@@ -1518,7 +1298,7 @@ function ()
 			30014
 		},
 		barrage_ID = {
-			12017
+			12010
 		},
 		oxy_type = {
 			1
@@ -1528,7 +1308,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100857] = {
+	uv0.weapon_property_381[1100962] = {
 		action_index = "attack",
 		range = 110,
 		type = 11,
@@ -1536,7 +1316,7 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系舰载鱼雷机III",
+		name = "德系鱼雷机III",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1545,12 +1325,12 @@ function ()
 		damage = 28,
 		corrected = 100,
 		min_range = 0,
-		id = 1100857,
+		id = 1100962,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 4000,
-		queue = 1,
+		reload_max = 2100,
+		queue = 7,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
@@ -1562,7 +1342,7 @@ function ()
 			30014
 		},
 		barrage_ID = {
-			12017
+			12010
 		},
 		oxy_type = {
 			1
@@ -1572,7 +1352,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100858] = {
+	uv0.weapon_property_381[1100963] = {
 		action_index = "attack",
 		range = 110,
 		type = 11,
@@ -1580,7 +1360,7 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系舰载鱼雷机IV",
+		name = "德系鱼雷机IV",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1589,12 +1369,12 @@ function ()
 		damage = 36,
 		corrected = 100,
 		min_range = 0,
-		id = 1100858,
+		id = 1100963,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 4000,
-		queue = 1,
+		reload_max = 2100,
+		queue = 7,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
@@ -1606,7 +1386,7 @@ function ()
 			30014
 		},
 		barrage_ID = {
-			12017
+			12010
 		},
 		oxy_type = {
 			1
@@ -1616,7 +1396,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100859] = {
+	uv0.weapon_property_381[1100964] = {
 		action_index = "attack",
 		range = 110,
 		type = 11,
@@ -1624,7 +1404,7 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系舰载鱼雷机V",
+		name = "德系鱼雷机V",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1633,12 +1413,12 @@ function ()
 		damage = 46,
 		corrected = 100,
 		min_range = 0,
-		id = 1100859,
+		id = 1100964,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 4000,
-		queue = 1,
+		reload_max = 2100,
+		queue = 7,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
@@ -1650,7 +1430,7 @@ function ()
 			30014
 		},
 		barrage_ID = {
-			12017
+			12010
 		},
 		oxy_type = {
 			1
@@ -1660,7 +1440,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100860] = {
+	uv0.weapon_property_381[1100965] = {
 		action_index = "attack",
 		range = 100,
 		type = 11,
@@ -1668,7 +1448,7 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系舰载轰炸机I",
+		name = "德系轰炸机I",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1677,12 +1457,12 @@ function ()
 		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 1100860,
+		id = 1100965,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 5000,
-		queue = 1,
+		reload_max = 1800,
+		queue = 8,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
@@ -1694,7 +1474,7 @@ function ()
 			30019
 		},
 		barrage_ID = {
-			12017
+			12010
 		},
 		oxy_type = {
 			1
@@ -1704,7 +1484,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100861] = {
+	uv0.weapon_property_381[1100966] = {
 		action_index = "attack",
 		range = 100,
 		type = 11,
@@ -1712,7 +1492,7 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系舰载轰炸机II",
+		name = "德系轰炸机II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1721,12 +1501,12 @@ function ()
 		damage = 28,
 		corrected = 100,
 		min_range = 0,
-		id = 1100861,
+		id = 1100966,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 5000,
-		queue = 1,
+		reload_max = 1800,
+		queue = 8,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
@@ -1738,7 +1518,7 @@ function ()
 			30019
 		},
 		barrage_ID = {
-			12017
+			12010
 		},
 		oxy_type = {
 			1
@@ -1748,7 +1528,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100862] = {
+	uv0.weapon_property_381[1100967] = {
 		action_index = "attack",
 		range = 100,
 		type = 11,
@@ -1756,7 +1536,7 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系舰载轰炸机III",
+		name = "德系轰炸机III",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1765,12 +1545,12 @@ function ()
 		damage = 36,
 		corrected = 100,
 		min_range = 0,
-		id = 1100862,
+		id = 1100967,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 5000,
-		queue = 1,
+		reload_max = 1800,
+		queue = 8,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
@@ -1782,7 +1562,7 @@ function ()
 			30019
 		},
 		barrage_ID = {
-			12017
+			12010
 		},
 		oxy_type = {
 			1
@@ -1792,7 +1572,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100863] = {
+	uv0.weapon_property_381[1100968] = {
 		action_index = "attack",
 		range = 100,
 		type = 11,
@@ -1800,7 +1580,7 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系舰载轰炸机IV",
+		name = "德系轰炸机IV",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1809,12 +1589,12 @@ function ()
 		damage = 46,
 		corrected = 100,
 		min_range = 0,
-		id = 1100863,
+		id = 1100968,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 5000,
-		queue = 1,
+		reload_max = 1800,
+		queue = 8,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
@@ -1826,7 +1606,7 @@ function ()
 			30019
 		},
 		barrage_ID = {
-			12017
+			12010
 		},
 		oxy_type = {
 			1
@@ -1836,7 +1616,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100864] = {
+	uv0.weapon_property_381[1100969] = {
 		action_index = "attack",
 		range = 100,
 		type = 11,
@@ -1844,7 +1624,7 @@ function ()
 		recover_time = 5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "日系舰载轰炸机V",
+		name = "德系轰炸机V",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1853,12 +1633,12 @@ function ()
 		damage = 58,
 		corrected = 100,
 		min_range = 0,
-		id = 1100864,
+		id = 1100969,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
-		reload_max = 5000,
-		queue = 1,
+		reload_max = 1800,
+		queue = 8,
 		search_type = 1,
 		effect_move = 1,
 		suppress = 1,
@@ -1870,7 +1650,7 @@ function ()
 			30019
 		},
 		barrage_ID = {
-			12017
+			12010
 		},
 		oxy_type = {
 			1
@@ -1880,7 +1660,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100865] = {
+	uv0.weapon_property_381[1100970] = {
 		action_index = "",
 		range = 10,
 		type = 2,
@@ -1888,33 +1668,33 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "英系空袭轰炸机武器I",
+		name = "德系轰炸机武器I",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 60,
+		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 1100865,
+		id = 1100970,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
 		reload_max = 400,
 		queue = 1,
 		search_type = 1,
-		effect_move = 1,
+		effect_move = 0,
 		suppress = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			10012
+			130301
 		},
 		barrage_ID = {
-			10001
+			130992
 		},
 		oxy_type = {
 			1
@@ -1924,7 +1704,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100866] = {
+	uv0.weapon_property_381[1100971] = {
 		action_index = "",
 		range = 10,
 		type = 2,
@@ -1932,33 +1712,33 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "英系空袭轰炸机武器II",
+		name = "德系轰炸机武器II",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 60,
+		damage = 28,
 		corrected = 100,
 		min_range = 0,
-		id = 1100866,
+		id = 1100971,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
 		reload_max = 400,
 		queue = 1,
 		search_type = 1,
-		effect_move = 1,
+		effect_move = 0,
 		suppress = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			10012
+			130301
 		},
 		barrage_ID = {
-			10001
+			130992
 		},
 		oxy_type = {
 			1
@@ -1968,7 +1748,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100867] = {
+	uv0.weapon_property_381[1100972] = {
 		action_index = "",
 		range = 10,
 		type = 2,
@@ -1976,33 +1756,33 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "英系空袭轰炸机武器III",
+		name = "德系轰炸机武器III",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 60,
+		damage = 36,
 		corrected = 100,
 		min_range = 0,
-		id = 1100867,
+		id = 1100972,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
 		reload_max = 400,
 		queue = 1,
 		search_type = 1,
-		effect_move = 1,
+		effect_move = 0,
 		suppress = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			10012
+			130301
 		},
 		barrage_ID = {
-			10001
+			130992
 		},
 		oxy_type = {
 			1
@@ -2012,7 +1792,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100868] = {
+	uv0.weapon_property_381[1100973] = {
 		action_index = "",
 		range = 10,
 		type = 2,
@@ -2020,33 +1800,33 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "英系空袭轰炸机武器IV",
+		name = "德系轰炸机武器IV",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 60,
+		damage = 46,
 		corrected = 100,
 		min_range = 0,
-		id = 1100868,
+		id = 1100973,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
 		reload_max = 400,
 		queue = 1,
 		search_type = 1,
-		effect_move = 1,
+		effect_move = 0,
 		suppress = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			10012
+			130301
 		},
 		barrage_ID = {
-			10001
+			130992
 		},
 		oxy_type = {
 			1
@@ -2056,7 +1836,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100869] = {
+	uv0.weapon_property_381[1100974] = {
 		action_index = "",
 		range = 10,
 		type = 2,
@@ -2064,33 +1844,33 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "英系空袭轰炸机武器V",
+		name = "德系轰炸机武器V",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 60,
+		damage = 58,
 		corrected = 100,
 		min_range = 0,
-		id = 1100869,
+		id = 1100974,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
 		reload_max = 400,
 		queue = 1,
 		search_type = 1,
-		effect_move = 1,
+		effect_move = 0,
 		suppress = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			10012
+			130301
 		},
 		barrage_ID = {
-			10001
+			130992
 		},
 		oxy_type = {
 			1
@@ -2100,7 +1880,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100870] = {
+	uv0.weapon_property_381[1100975] = {
 		action_index = "",
 		range = 40,
 		type = 3,
@@ -2108,16 +1888,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "英系空袭鱼雷机武器I",
+		name = "德系鱼雷机武器I",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 35,
 		charge_param = "",
-		damage = 48,
+		damage = 18,
 		corrected = 100,
 		min_range = 22,
-		id = 1100870,
+		id = 1100975,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -2144,7 +1924,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100871] = {
+	uv0.weapon_property_381[1100976] = {
 		action_index = "",
 		range = 40,
 		type = 3,
@@ -2152,16 +1932,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "英系空袭鱼雷机武器II",
+		name = "德系鱼雷机武器II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 35,
 		charge_param = "",
-		damage = 48,
+		damage = 22,
 		corrected = 100,
 		min_range = 22,
-		id = 1100871,
+		id = 1100976,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -2188,7 +1968,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100872] = {
+	uv0.weapon_property_381[1100977] = {
 		action_index = "",
 		range = 40,
 		type = 3,
@@ -2196,16 +1976,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "英系空袭鱼雷机武器III",
+		name = "德系鱼雷机武器III",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 35,
 		charge_param = "",
-		damage = 48,
+		damage = 28,
 		corrected = 100,
 		min_range = 22,
-		id = 1100872,
+		id = 1100977,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -2232,7 +2012,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100873] = {
+	uv0.weapon_property_381[1100978] = {
 		action_index = "",
 		range = 40,
 		type = 3,
@@ -2240,16 +2020,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "英系空袭鱼雷机武器IV",
+		name = "德系鱼雷机武器IV",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 35,
 		charge_param = "",
-		damage = 48,
+		damage = 36,
 		corrected = 100,
 		min_range = 22,
-		id = 1100873,
+		id = 1100978,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -2276,7 +2056,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100874] = {
+	uv0.weapon_property_381[1100979] = {
 		action_index = "",
 		range = 40,
 		type = 3,
@@ -2284,16 +2064,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "英系空袭鱼雷机武器V",
+		name = "德系鱼雷机武器V",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 35,
 		charge_param = "",
-		damage = 48,
+		damage = 46,
 		corrected = 100,
 		min_range = 22,
-		id = 1100874,
+		id = 1100979,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -2320,7 +2100,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100875] = {
+	uv0.weapon_property_381[1100980] = {
 		action_index = "",
 		range = 85,
 		type = 1,
@@ -2328,7 +2108,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "英系空袭战斗机弹幕武器I",
+		name = "德系战斗机弹幕武器I",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -2337,7 +2117,7 @@ function ()
 		damage = 6,
 		corrected = 100,
 		min_range = 0,
-		id = 1100875,
+		id = 1100980,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -2370,7 +2150,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100876] = {
+	uv0.weapon_property_381[1100981] = {
 		action_index = "",
 		range = 85,
 		type = 1,
@@ -2378,7 +2158,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "英系空袭战斗机弹幕武器II",
+		name = "德系战斗机弹幕武器II",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -2387,7 +2167,7 @@ function ()
 		damage = 6,
 		corrected = 100,
 		min_range = 0,
-		id = 1100876,
+		id = 1100981,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -2420,7 +2200,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100877] = {
+	uv0.weapon_property_381[1100982] = {
 		action_index = "",
 		range = 85,
 		type = 1,
@@ -2428,7 +2208,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "英系空袭战斗机弹幕武器III",
+		name = "德系战斗机弹幕武器III",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -2437,7 +2217,7 @@ function ()
 		damage = 6,
 		corrected = 100,
 		min_range = 0,
-		id = 1100877,
+		id = 1100982,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -2470,7 +2250,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100878] = {
+	uv0.weapon_property_381[1100983] = {
 		action_index = "",
 		range = 85,
 		type = 1,
@@ -2478,7 +2258,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "英系空袭战斗机弹幕武器IV",
+		name = "德系战斗机弹幕武器IV",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -2487,7 +2267,7 @@ function ()
 		damage = 6,
 		corrected = 100,
 		min_range = 0,
-		id = 1100878,
+		id = 1100983,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -2520,7 +2300,7 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100879] = {
+	uv0.weapon_property_381[1100984] = {
 		action_index = "",
 		range = 85,
 		type = 1,
@@ -2528,7 +2308,7 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "英系空袭战斗机弹幕武器V",
+		name = "德系战斗机弹幕武器V",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -2537,7 +2317,7 @@ function ()
 		damage = 6,
 		corrected = 100,
 		min_range = 0,
-		id = 1100879,
+		id = 1100984,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 4,
@@ -2570,15 +2350,293 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100880] = {
-		action_index = "",
-		range = 200,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
+	uv0.weapon_property_381[1100985] = {
+		action_index = "attack",
+		range = 72,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "英系空袭战斗机空中武器I",
+		name = "潜艇三联装鱼雷X2弹幕1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 12,
+		corrected = 100,
+		min_range = 0,
+		id = 1100985,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 1200,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1821
+		},
+		barrage_ID = {
+			1416
+		},
+		oxy_type = {
+			1,
+			2
+		},
+		search_condition = {
+			1,
+			2
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_381[1100986] = {
+		action_index = "attack",
+		range = 72,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "潜艇三联装鱼雷X2弹幕2",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 15,
+		corrected = 100,
+		min_range = 0,
+		id = 1100986,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 1200,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1821
+		},
+		barrage_ID = {
+			1416
+		},
+		oxy_type = {
+			1,
+			2
+		},
+		search_condition = {
+			1,
+			2
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_381[1100987] = {
+		action_index = "attack",
+		range = 72,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "潜艇三联装鱼雷X2弹幕3",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 18,
+		corrected = 100,
+		min_range = 0,
+		id = 1100987,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 1200,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1821
+		},
+		barrage_ID = {
+			1416
+		},
+		oxy_type = {
+			1,
+			2
+		},
+		search_condition = {
+			1,
+			2
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_381[1100988] = {
+		action_index = "attack",
+		range = 72,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "潜艇三联装鱼雷X2弹幕4",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 22,
+		corrected = 100,
+		min_range = 0,
+		id = 1100988,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 1200,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1821
+		},
+		barrage_ID = {
+			1416
+		},
+		oxy_type = {
+			1,
+			2
+		},
+		search_condition = {
+			1,
+			2
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_381[1100989] = {
+		action_index = "attack",
+		range = 72,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "潜艇三联装鱼雷X2弹幕5",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 26,
+		corrected = 100,
+		min_range = 0,
+		id = 1100989,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 1200,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1821
+		},
+		barrage_ID = {
+			1416
+		},
+		oxy_type = {
+			1,
+			2
+		},
+		search_condition = {
+			1,
+			2
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_381[1100990] = {
+		action_index = "attack",
+		range = 72,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "潜艇1+2+1鱼雷弹幕1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 12,
+		corrected = 100,
+		min_range = 0,
+		id = 1100990,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 700,
+		queue = 3,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1821,
+			1821
+		},
+		barrage_ID = {
+			1414,
+			1415
+		},
+		oxy_type = {
+			1,
+			2
+		},
+		search_condition = {
+			1,
+			2
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_381[1100991] = {
+		action_index = "attack",
+		range = 72,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "潜艇1+2+1鱼雷弹幕2",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -2587,162 +2645,178 @@ function ()
 		damage = 15,
 		corrected = 100,
 		min_range = 0,
-		id = 1100880,
+		id = 1100991,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 48,
-		queue = 1,
+		attack_attribute = 2,
+		reload_max = 700,
+		queue = 3,
 		search_type = 1,
-		effect_move = 1,
+		effect_move = 0,
 		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
+		spawn_bound = "torpedo",
+		fire_sfx = "",
 		auto_aftercast = 0,
-		initial_over_heat = 0,
+		initial_over_heat = 1,
 		bullet_ID = {
-			10004
+			1821,
+			1821
 		},
 		barrage_ID = {
-			5
+			1414,
+			1415
 		},
 		oxy_type = {
-			1
+			1,
+			2
 		},
 		search_condition = {
-			1
+			1,
+			2
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100881] = {
-		action_index = "",
-		range = 200,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
+	uv0.weapon_property_381[1100992] = {
+		action_index = "attack",
+		range = 72,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "英系空袭战斗机空中武器II",
+		name = "潜艇1+2+1鱼雷弹幕3",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 15,
+		damage = 18,
 		corrected = 100,
 		min_range = 0,
-		id = 1100881,
+		id = 1100992,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 48,
-		queue = 1,
+		attack_attribute = 2,
+		reload_max = 700,
+		queue = 3,
 		search_type = 1,
-		effect_move = 1,
+		effect_move = 0,
 		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
+		spawn_bound = "torpedo",
+		fire_sfx = "",
 		auto_aftercast = 0,
-		initial_over_heat = 0,
+		initial_over_heat = 1,
 		bullet_ID = {
-			10004
+			1821,
+			1821
 		},
 		barrage_ID = {
-			5
+			1414,
+			1415
 		},
 		oxy_type = {
-			1
+			1,
+			2
 		},
 		search_condition = {
-			1
+			1,
+			2
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100882] = {
-		action_index = "",
-		range = 200,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
+	uv0.weapon_property_381[1100993] = {
+		action_index = "attack",
+		range = 72,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "英系空袭战斗机空中武器III",
+		name = "潜艇1+2+1鱼雷弹幕4",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 15,
+		damage = 22,
 		corrected = 100,
 		min_range = 0,
-		id = 1100882,
+		id = 1100993,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 48,
-		queue = 1,
+		attack_attribute = 2,
+		reload_max = 700,
+		queue = 3,
 		search_type = 1,
-		effect_move = 1,
+		effect_move = 0,
 		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
+		spawn_bound = "torpedo",
+		fire_sfx = "",
 		auto_aftercast = 0,
-		initial_over_heat = 0,
+		initial_over_heat = 1,
 		bullet_ID = {
-			10004
+			1821,
+			1821
 		},
 		barrage_ID = {
-			5
+			1414,
+			1415
 		},
 		oxy_type = {
-			1
+			1,
+			2
 		},
 		search_condition = {
-			1
+			1,
+			2
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_381[1100883] = {
-		action_index = "",
-		range = 200,
-		type = 4,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
+	uv0.weapon_property_381[1100994] = {
+		action_index = "attack",
+		range = 72,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "英系空袭战斗机空中武器IV",
+		name = "潜艇1+2+1鱼雷弹幕5",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 180,
 		charge_param = "",
-		damage = 15,
+		damage = 26,
 		corrected = 100,
 		min_range = 0,
-		id = 1100883,
+		id = 1100994,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 48,
-		queue = 1,
+		attack_attribute = 2,
+		reload_max = 700,
+		queue = 3,
 		search_type = 1,
-		effect_move = 1,
+		effect_move = 0,
 		suppress = 1,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
+		spawn_bound = "torpedo",
+		fire_sfx = "",
 		auto_aftercast = 0,
-		initial_over_heat = 0,
+		initial_over_heat = 1,
 		bullet_ID = {
-			10004
+			1821,
+			1821
 		},
 		barrage_ID = {
-			5
+			1414,
+			1415
 		},
 		oxy_type = {
-			1
+			1,
+			2
 		},
 		search_condition = {
-			1
+			1,
+			2
 		},
 		precast_param = {}
 	}

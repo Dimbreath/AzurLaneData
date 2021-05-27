@@ -2,24 +2,6 @@ pg = pg or {}
 pg.weapon_property_18 = {}
 
 function ()
-	uv0.weapon_property_18[16041] = {
-		id = 16041,
-		reload_max = 79,
-		damage = 12,
-		base = 16040
-	}
-	uv0.weapon_property_18[16042] = {
-		id = 16042,
-		reload_max = 77,
-		damage = 13,
-		base = 16040
-	}
-	uv0.weapon_property_18[16043] = {
-		id = 16043,
-		reload_max = 75,
-		damage = 14,
-		base = 16040
-	}
 	uv0.weapon_property_18[16044] = {
 		id = 16044,
 		reload_max = 74,
@@ -600,6 +582,30 @@ function ()
 		id = 16164,
 		reload_max = 88,
 		damage = 34,
+		base = 16160
+	}
+	uv0.weapon_property_18[16165] = {
+		id = 16165,
+		reload_max = 85,
+		damage = 37,
+		base = 16160
+	}
+	uv0.weapon_property_18[16166] = {
+		id = 16166,
+		reload_max = 84,
+		damage = 40,
+		base = 16160
+	}
+	uv0.weapon_property_18[16167] = {
+		id = 16167,
+		reload_max = 80,
+		damage = 43,
+		base = 16160
+	}
+	uv0.weapon_property_18[16168] = {
+		id = 16168,
+		reload_max = 79,
+		damage = 46,
 		base = 16160
 	}
 end()

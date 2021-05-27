@@ -1087,5 +1087,25 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "本渡枫",
 		code = 272
+	},
+	{
+		actor_name = "富田美忧 ",
+		code = 273
+	},
+	{
+		actor_name = "赤尾光",
+		code = 274
+	},
+	{
+		actor_name = "岭内知美",
+		code = 275
+	},
+	{
+		actor_name = "筱原侑",
+		code = 276
+	},
+	{
+		actor_name = "並木樱",
+		code = 277
 	}
 }

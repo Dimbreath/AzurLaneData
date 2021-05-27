@@ -19,7 +19,7 @@ end
 function slot0.init(slot0)
 	slot0.backBtn = slot0:findTF("bg/back_btn")
 	slot0.pageContainer = slot0:findTF("bg/main/pages")
-	slot0.pageFootContainer = slot0:findTF("bg/main/page_foot")
+	slot0.pageFootContainer = slot0:findTF("bg/main/foots")
 
 	setActive(slot0.pageFootContainer, false)
 end
@@ -46,47 +46,55 @@ end
 
 function slot0.initSummaryInfo(slot0)
 	slot0.loadingPage = SecondSummaryPage1.New(slot0:findTF("page1", slot0.pageContainer))
-	slot4 = slot0
-	slot5 = "page5"
-	slot0.pages = {
-		SecondSummaryPage2.New(slot0:findTF("page2", slot0.pageContainer)),
-		SecondSummaryPage3.New(slot0:findTF("page3", slot0.pageContainer)),
-		SecondSummaryPage4.New(slot0:findTF("page4", slot0.pageContainer)),
-		SecondSummaryPage4.New(cloneTplTo(slot0:findTF("page4", slot0.pageContainer), slot0.pageContainer, "page4_2")),
-		SecondSummaryPage4.New(cloneTplTo(slot0:findTF("page4", slot0.pageContainer), slot0.pageContainer, "page4_3")),
-		SecondSummaryPage4.New(cloneTplTo(slot0:findTF("page4", slot0.pageContainer), slot0.pageContainer, "page4_4")),
-		SecondSummaryPage5.New(slot0.findTF(slot4, slot5, slot0.pageContainer))
-	}
 
-	for slot4, slot5 in ipairs(slot0.pages) do
-		setActive(slot5._tf, false)
+	slot0.loadingPage:Init(slot0.summaryInfoVO)
+
+	slot0.pages = {}
+
+	function slot1(slot0, slot1, slot2)
+		setActive(slot0, false)
+
+		slot3 = slot1.New(slot0)
+
+		table.insert(uv0.pages, slot3)
+		slot3:Init(slot2)
 	end
 
-	function slot1()
-		for slot4, slot5 in ipairs(uv0.pages) do
-			if slot5.__cname == "SecondSummaryPage4" then
-				slot5:Init(setmetatable({
-					furniturePage = 0 + 1
-				}, {
-					__index = uv0.summaryInfoVO
-				}))
-			else
-				slot5:Init(uv0.summaryInfoVO)
-			end
-		end
+	slot1(slot0.pageContainer:Find("page2"), SecondSummaryPage2, slot0.summaryInfoVO)
+	slot1(slot0.pageContainer:Find("page3"), SecondSummaryPage3, slot0.summaryInfoVO)
+	setActive(slot0.pageContainer:Find("page4"), false)
 
-		onButton(uv0, uv0:findTF("page5/share", uv0.pageContainer), function ()
-			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeSecondSummary)
-		end, SFX_CONFIRM)
+	for slot7 = 1, math.floor((#slot0.activityVO:getConfig("config_data") - 1) / SecondSummaryPage4.PerPageCount) + 1 do
+		slot1(cloneTplTo(slot2, slot0.pageContainer, "page4_1_" .. slot7), SecondSummaryPage4, setmetatable({
+			pageType = SecondSummaryPage4.PageTypeFurniture,
+			samePage = slot7,
+			activityVO = slot0.activityVO
+		}, {
+			__index = slot0.summaryInfoVO
+		}))
 	end
 
+	slot7 = "config_client"
+
+	for slot7 = 1, math.floor((#slot0.activityVO:getConfig(slot7) - 1) / SecondSummaryPage4.PerPageCount) + 1 do
+		slot1(cloneTplTo(slot2, slot0.pageContainer, "page4_2_" .. slot7), SecondSummaryPage4, setmetatable({
+			pageType = SecondSummaryPage4.PageTypeIconFrame,
+			samePage = slot7,
+			activityVO = slot0.activityVO
+		}, {
+			__index = slot0.summaryInfoVO
+		}))
+	end
+
+	slot1(slot0.pageContainer:Find("page5"), SecondSummaryPage5, slot0.summaryInfoVO)
+	onButton(slot0, slot0:findTF("page5/share", slot0.pageContainer), function ()
+		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeSecondSummary)
+	end, SFX_CONFIRM)
 	seriesAsync({
 		function (slot0)
 			uv0.inAniming = true
 
-			uv0.loadingPage:Init(uv0.summaryInfoVO)
 			uv0.loadingPage:Show(slot0)
-			uv1()
 		end,
 		function (slot0)
 			uv0.inAniming = false
@@ -103,7 +111,7 @@ function slot0.initSummaryInfo(slot0)
 end
 
 function slot0.registerFootEvent(slot0)
-	slot1 = UIItemList.New(slot0.pageFootContainer:Find("toggles"), slot0.pageFootContainer:Find("toggles/dot"))
+	slot1 = UIItemList.New(slot0.pageFootContainer, slot0.pageFootContainer:Find("dot"))
 
 	slot1:make(function (slot0, slot1, slot2)
 		slot3 = slot1 + 1
@@ -136,7 +144,7 @@ function slot0.updatePageFoot(slot0, slot1)
 		return
 	end
 
-	triggerToggle(slot0.pageFootContainer:Find("toggles"):GetChild(slot1 - 1), true)
+	triggerToggle(slot0.pageFootContainer:GetChild(slot1 - 1), true)
 end
 
 function slot0.addVerticalDrag(slot0, slot1, slot2, slot3)

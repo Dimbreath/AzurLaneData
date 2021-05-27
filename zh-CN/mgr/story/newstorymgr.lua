@@ -276,7 +276,11 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4)
 		return nil
 	end
 
-	slot0.storyScript = Story.New(slot6, slot3, slot0:IsReView(), slot0.optionSelCodes)
+	if slot0:IsReView() then
+		slot3 = true
+	end
+
+	slot0.storyScript = Story.New(slot6, slot3, slot0.optionSelCodes)
 
 	if not slot0:CheckState() then
 		uv0("story state error")

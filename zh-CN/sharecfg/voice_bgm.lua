@@ -117,6 +117,15 @@ pg.voice_bgm = {
 	SpringFestivalTownScene2 = {
 		bgm = "main-chunjie2"
 	},
+	PlayerSecondSummaryInfoScene = {
+		bgm = "bsm-5"
+	},
+	AmusementParkScene = {
+		bgm = "story-richang"
+	},
+	AmusementParkShopPage = {
+		bgm = "story-richang"
+	},
 	NewMeixiV4Scene = {
 		bgm = "level02"
 	}

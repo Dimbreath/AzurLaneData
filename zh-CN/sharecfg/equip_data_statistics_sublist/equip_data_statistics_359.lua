@@ -1,68 +1,174 @@
 pg = pg or {}
 pg.equip_data_statistics_359 = {
-	[85145] = {
-		id = 85145,
-		damage = "10 x 6",
-		base = 85140,
+	[85061] = {
+		id = 85061,
+		damage = "40/轮",
+		base = 85060,
 		weapon_id = {
-			85145
+			85061
 		}
 	},
-	[85146] = {
-		id = 85146,
-		damage = "11 x 6",
-		base = 85140,
+	[85062] = {
+		id = 85062,
+		damage = "45/轮",
+		base = 85060,
 		weapon_id = {
-			85146
+			85062
 		}
 	},
-	[85147] = {
-		id = 85147,
-		damage = "12 x 6",
-		base = 85140,
+	[85063] = {
+		id = 85063,
+		damage = "51/轮",
+		base = 85060,
 		weapon_id = {
-			85147
+			85063
 		}
 	},
-	[85148] = {
-		id = 85148,
-		damage = "13 x 6",
-		base = 85140,
+	[85064] = {
+		id = 85064,
+		damage = "57/轮",
+		base = 85060,
 		weapon_id = {
-			85148
+			85064
 		}
 	},
-	[85149] = {
-		id = 85149,
-		damage = "14 x 6",
-		base = 85140,
+	[85065] = {
+		id = 85065,
+		damage = "63/轮",
+		base = 85060,
 		weapon_id = {
-			85149
+			85065
 		}
 	},
-	[85150] = {
-		id = 85150,
-		damage = "15 x 6",
-		base = 85140,
+	[85066] = {
+		id = 85066,
+		damage = "70/轮",
+		base = 85060,
 		weapon_id = {
-			85150
+			85066
 		}
 	},
-	[85160] = {
+	[85120] = {
 		name = "B-38 三联装152mm主炮Mk5",
 		speciality = "锁定",
 		type = 2,
-		tech = 3,
+		tech = 1,
 		descrip = "说明未填写",
-		value_2 = 45,
+		value_2 = 12,
 		icon = "85120",
 		attribute_2 = "cannon",
-		rarity = 5,
+		rarity = 3,
+		damage = "5 x 6",
+		nationality = 7,
+		ammo = 3,
+		value_3 = 0,
+		id = 85120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1201
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1201
+			},
+			{
+				4,
+				1110
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85120
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		}
+	},
+	[85121] = {
+		id = 85121,
+		base = 85120,
+		weapon_id = {
+			85121
+		}
+	},
+	[85122] = {
+		id = 85122,
+		damage = "6 x 6",
+		base = 85120,
+		weapon_id = {
+			85122
+		}
+	},
+	[85123] = {
+		id = 85123,
 		damage = "7 x 6",
+		base = 85120,
+		weapon_id = {
+			85123
+		}
+	},
+	[85124] = {
+		id = 85124,
+		damage = "8 x 6",
+		base = 85120,
+		weapon_id = {
+			85124
+		}
+	},
+	[85125] = {
+		id = 85125,
+		damage = "9 x 6",
+		base = 85120,
+		weapon_id = {
+			85125
+		}
+	},
+	[85126] = {
+		id = 85126,
+		damage = "10 x 6",
+		base = 85120,
+		weapon_id = {
+			85126
+		}
+	},
+	[85140] = {
+		name = "B-38 三联装152mm主炮Mk5",
+		speciality = "锁定",
+		type = 2,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "85120",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "6 x 6",
 		nationality = 7,
 		ammo = 2,
 		value_3 = 0,
-		id = 85160,
+		id = 85140,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -91,7 +197,7 @@ pg.equip_data_statistics_359 = {
 			12
 		},
 		weapon_id = {
-			85160
+			85140
 		},
 		skill_id = {},
 		part_main = {
@@ -108,83 +214,27 @@ pg.equip_data_statistics_359 = {
 			"HE"
 		}
 	},
-	[85161] = {
-		id = 85161,
-		base = 85160,
+	[85141] = {
+		id = 85141,
+		base = 85140,
 		weapon_id = {
-			85161
+			85141
 		}
 	},
-	[85162] = {
-		id = 85162,
+	[85142] = {
+		id = 85142,
+		damage = "7 x 6",
+		base = 85140,
+		weapon_id = {
+			85142
+		}
+	},
+	[85143] = {
+		id = 85143,
 		damage = "8 x 6",
-		base = 85160,
+		base = 85140,
 		weapon_id = {
-			85162
-		}
-	},
-	[85163] = {
-		id = 85163,
-		damage = "9 x 6",
-		base = 85160,
-		weapon_id = {
-			85163
-		}
-	},
-	[85164] = {
-		id = 85164,
-		damage = "10 x 6",
-		base = 85160,
-		weapon_id = {
-			85164
-		}
-	},
-	[85165] = {
-		id = 85165,
-		damage = "11 x 6",
-		base = 85160,
-		weapon_id = {
-			85165
-		}
-	},
-	[85166] = {
-		id = 85166,
-		damage = "12 x 6",
-		base = 85160,
-		weapon_id = {
-			85166
-		}
-	},
-	[85167] = {
-		id = 85167,
-		damage = "13 x 6",
-		base = 85160,
-		weapon_id = {
-			85167
-		}
-	},
-	[85168] = {
-		id = 85168,
-		damage = "14 x 6",
-		base = 85160,
-		weapon_id = {
-			85168
-		}
-	},
-	[85169] = {
-		id = 85169,
-		damage = "15 x 6",
-		base = 85160,
-		weapon_id = {
-			85169
-		}
-	},
-	[85170] = {
-		id = 85170,
-		damage = "16 x 6",
-		base = 85160,
-		weapon_id = {
-			85170
+			85143
 		}
 	}
 }
