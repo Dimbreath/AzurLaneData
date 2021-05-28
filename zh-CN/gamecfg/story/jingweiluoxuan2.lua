@@ -761,7 +761,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:199}突然把{namecode:194}拽到角落手舞足蹈地说了写什么……真是的，性格还是这样。",
+			say = "{namecode:199}突然把{namecode:194}拽到角落手舞足蹈地说了些什么……真是的，性格还是这样。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

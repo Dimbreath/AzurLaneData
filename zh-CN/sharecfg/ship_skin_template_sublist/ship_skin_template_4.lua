@@ -472,7 +472,7 @@ pg.ship_skin_template_4 = {
 				0
 			},
 			{
-				1.8
+				1
 			}
 		}
 	},

@@ -836,7 +836,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "通讯器",
 			hidePaintObj = true,
-			say = "识别编号认证完毕，前方海域已经您开启。",
+			say = "识别编号认证完毕，前方海域已为您开启。",
 			flashout = {
 				dur = 1,
 				black = true,

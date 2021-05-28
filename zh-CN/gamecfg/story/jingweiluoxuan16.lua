@@ -167,7 +167,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "身份……你们重樱竟在奇怪的地方纠结……运动可是能够超越国界和身份的哦！",
+			say = "身份……你们重樱净在奇怪的地方纠结……运动可是能够超越国界和身份的哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,14 +7,15 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
+			actorName = "？？",
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？",
 			dir = 1,
 			bgm = "battle-AF",
 			actor = 900314,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
+			say = "……………",
 			flashin = {
 				delay = 1,
 				dur = 1,

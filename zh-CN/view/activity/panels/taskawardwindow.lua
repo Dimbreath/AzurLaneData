@@ -23,6 +23,10 @@ function slot1(slot0)
 		end
 	end
 
+	if not slot4 and slot0.tasklist[math.min(slot0.index, #slot0.tasklist)] then
+		slot4 = slot6[1]
+	end
+
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot4 = uv1:getTaskById(uv0[slot1 + 1]) or uv1:getFinishTaskById(slot3) or Task.New({
@@ -53,6 +57,7 @@ function slot0.Show(slot0, slot1)
 	slot0.tasklist = slot1.tasklist
 	slot0.ptId = slot1.ptId
 	slot0.totalPt = slot1.totalPt
+	slot0.index = slot1.index or 1
 
 	uv0(slot0)
 
