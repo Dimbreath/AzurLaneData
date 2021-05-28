@@ -1569,7 +1569,7 @@ pg.skill_world_display = {
 	[14630] = {
 		desc_get = "",
 		id = 14630,
-		desc = "[Operation Siren only] Improves the \"Knight of the Sky\" TBF Avenger airstrike. Additionally, the following buffs are active as long as this ship is afloat (does not stack with the \"Supporting Wings\" skill):/n1) At the start of the battle, increases AVI by $1 and RLD by $2 for all CVs and CVLs in the same fleet this ship is in, and decreases the load time of this ship's first Airstrike by $3./n2) At the start of the battle, increases RLD and AVI by $4 for all CVs and CVLs in the fleet this ship is NOT in.",
+		desc = "[Operation Siren only] Improves the \"Knight of the Sky\" TBF Avenger airstrike. Additionally, the following buffs are active as long as this ship is afloat (does not stack with the \"Supporting Wings\" skill):\n1) At the start of the battle, increases AVI by $1 and RLD by $2 for all CVs and CVLs in the same fleet this ship is in, and decreases the load time of this ship's first Airstrike by $3.\n2) At the start of the battle, increases RLD and AVI by $4 for all CVs and CVLs in the fleet this ship is NOT in.",
 		desc_get_add = {
 			{
 				"4.5%",

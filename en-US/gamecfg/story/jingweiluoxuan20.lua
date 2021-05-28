@@ -13,7 +13,7 @@ return {
 			bgmDelay = 1,
 			bgm = "battle-xinnong-image",
 			hidePaintObj = true,
-			say = "？？？·？？？",
+			say = "？？·？？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -46,7 +46,7 @@ return {
 			actor = 302130,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "现在汇报前线消息，{namecode:94}的反击成功，白鹰的约克城已在陷入大破状态后退出了战斗。",
+			say = "\"Reporting combat situation from the front lines. The Eagle Union's carriers have sustained significant damage and are now retreating.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "这样啊。{namecode:94}的情况呢？",
+			say = "This voice... belongs to Jintsuu...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			actor = 302130,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "不容乐观，但依然能维持航行动力。突然出现的塞壬舰队阻止了白鹰的进一步追击，我们正在趁机展开营救。",
+			say = "\"Hiryuu has been incapacitated and is no longer able to sail. Requesting emergency rescue operation...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "塞壬舰队仅是阻止了白鹰舰队的行动而已么？",
+			say = "Is the Reenactment about to come to an end...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 302130,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "不……毕竟是塞壬，它们并没有特别区分打击目标。只是塞壬的前锋舰队恰好距离白鹰近一些，为我们赢得了一些时间。",
+			say = "\"Recapping operation objectives: Capture AF Base and sink the enemy carrier task force. Status: Failed.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 302130,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "现在更多的塞壬舰队已经向我们包围过来了，申请执行撤退计划。",
+			say = "\"Test Name: Operation AF. Communication playback log finished.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "撤退行动批准。请不要落下任何一个人，回来吧。",
+			say = "O... vengeful fate through which we were given form... Please sleep peacefully beneath the waves...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			actor = 302130,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "是，{namecode:39}通讯结束。",
+			say = "\"Uploading data... Preparing initialization of next Reenactment.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			actor = 900317,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………不是说都是些固定好的内容么，你还这么一本正经的回复干嘛啊……",
+			say = "Is it finally over? Are the Pawns going to be disposed of?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "纵使是固定记录中的内容，却未必是妾身已然知晓的情报。",
+			say = "This one cannot say... The realities I have seen may differ from what you know to be true... Yet there is some information I can offer you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "结局虽以注定，但只需细处留心，仔细倾听，依然可以有所收获。",
+			say = "I seek to gather the fragments of hope and find a different future... One that avoids that ruination that befalls every dream I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			actor = 900317,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………额，那你有发现什么值得注意的情报么？",
+			say = "That's, uh, very commendable of you... But is there anything that can help us make sense of this mess?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "汝等不是一向怀疑重樱与塞壬有所勾连么。",
+			say = "My apologies, but... that is not something that I can tell you right now... or even the Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "仅凭此等破碎片段，虽不能作为令人信服的证据，但不妨作为值得思考的可能性吧？",
+			say = "The light cast by the fragments is false, ever-branching and misleading...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "重樱和塞壬的关系比想象中要更为复杂的意思么……",
+			say = "I'm sure you have your own reasons, so I won't press you for details right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "言归正传。前线舰队即将撤退，这艘指挥舰也会不例外——汝等不赶快逃离么？",
+			say = "...All that's left, is how to leave this place...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "什么叫逃离啊，说法真不好听…………！脱身呀，脱身！",
+			say = "That's what we wanted to know in the first place! It sucks being stuck here, unable to do anything!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真是的，就是因为做不到这件事所以我们刚才才那么困扰啊！",
+			say = "Shinano, you brought this topic up because you have an idea on how to escape, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "却有古怪……妾身可断言，此处梦境绝非仅有此般大小。",
+			say = "The reason you were brought here, and why you have been trapped...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "既困汝等与此……或许，有何不可示人之物正隐藏在船外的空间中…………",
+			say = "...is not something I currently understand. Yet I sense... that the answers you seek are near...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "没错，这里可真的隐藏了些相当不得了的东西哦。",
+			say = "...Yes, our meeting has been made possible by the power hidden here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

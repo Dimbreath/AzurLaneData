@@ -16,7 +16,7 @@ return {
 			actor = 103140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "海域清理完毕，重樱棋子、白鹰棋子与塞壬舰队全部消灭完毕~",
+			say = "Ahaha! It feels real good to take out the trash like this! Come at me, scumbags!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			actor = 103140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "突然一下子全围上来的时候确实声势浩大，结果还真是不堪一击！",
+			say = "I was worried for a sec if we could fight all of the Sirens at once, but turns out they're no match for us~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "塞壬棋子的战斗力……恢复到正常水平了。",
+			say = "The combat power of the Pawns seems to have reverted to their original state...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "恢复到正常水平是什么意思……？",
+			say = "Original state...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是这样的，指挥官。在赶来这里的途中，我们遇到了一批作战性能和战术应变力远超常规棋子的重樱棋子。",
+			say = "Yeah, we fought several waves of Sirens along the way. As the Reenactment progressed, the Pawns kept getting stronger and stronger until we could barely handle 'em.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我和{namecode:200}怀疑塞壬可能在做什么特殊实验，不过在刚刚的战斗中那些奇怪的现象消失了。",
+			say = "If I had to give a gut estimate, I'd say these Sirens feel about the same as they were before we entered the sea fog.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "暂时爆发出奇怪战斗力的棋子舰队么……等回去之后仔细调查一下吧。",
+			say = "...We'll have to carefully investigate why the Sirens suddenly had an explosive increase in combat power.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "指挥官，你已经将这里全部观察过了。发现什么异常之处了么？",
+			say = "Don't let your guard down yet... Until we've destroyed the Mirror Sea, expect Siren resistance to grow more intense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "所见的场景基本和了解到的情报相同。受损的重樱航空舰队因为塞壬的突然袭击而获得了喘息和撤退的机会。",
+			say = "We continued fighting our way through the sea fog along with \"Helena.\" As she said, the incoming Siren forces attacked with ever-growing ferocity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过……处于撤退阶段的重樱舰队的舰载机数量似乎比预想中多了不少。",
+			say = "Do you think the control device is being guarded?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "不是错觉哦，天空中的舰载机确实多了。",
+			say = "Perhaps... The enemy aerial presence is becoming oppressive...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "有一些彼时并非重樱航空队的舰载机混入了重樱最后的攻击波中。",
+			say = "We may be drawing close to the ship that is defending this Mirror Sea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "谁的……？！",
+			say = "Did you just say... ship?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "怪物的。",
+			say = "Yes. One that has lost sight of her very existence, unlike me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "虽然只是些棋子而已，但那个怪物应该已经没有辨别能力了。",
+			say = "One who used to fight for hope, but was overwhelmed by the grief etched into her hull by history...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "指挥官，既然您刚刚亲自指挥舰队摧毁了“{namecode:94}”，就请再次准备迎接怪物的愤怒吧。",
+			say = "But in your world... You may yet be able to save her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "就像曾经的AF战场中那样。",
+			say = "I would like you to save her... Because she deserves it, just like the others...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "…………像曾经的AF战场中那样？！",
+			say = "Who are you talking about...?",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,
@@ -352,7 +352,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "敌人正在接近中，诸舰做好应急准备。",
+			say = "...Watch out. More enemy aircraft are coming at us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "迎击……？周围已经没有任何敌人了，究竟要————",
+			say = "What?! I'm not seeing anything on my radar!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			blackBg = true,
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "―――！！！",
 			flashN = {
 				color = {
 					1,

@@ -13,9 +13,9 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "hunhe-battle",
-			actorName = "通讯器",
+			actorName = "Communicator",
 			hidePaintObj = true,
-			say = "滋———滋滋——————",
+			say = "―――！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -42,9 +42,9 @@ return {
 			dir = 1,
 			paintingNoise = true,
 			actor = 107070,
-			actorName = "大黄蜂？",
+			actorName = "ホーネット？",
 			hidePaintObj = true,
-			say = "塞壬正在全线出击，我们的舰载机消耗殆尽，已经无法继续战斗了！",
+			say = "\"We've sustained too much damage! We won't be able to continue fighting at this rate!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,9 +72,9 @@ return {
 			dir = 1,
 			paintingNoise = true,
 			actor = 107070,
-			actorName = "大黄蜂？",
+			actorName = "ホーネット？",
 			hidePaintObj = true,
-			say = "增援舰队，你们现在的位置在哪里？！",
+			say = "\"Where's the backup fleet?! We need reinforcements now!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "通讯器中…………又出现声音了。",
+			say = "Another message...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "根据内容来看，刚刚的通讯应该再现我们因为塞壬进攻而被迫撤退时的情景吧。",
+			say = "Does this mean that the Eagle Union Pawns are being defeated by the Sakura Empire Pawns?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "也就是说…………在前方等着我们的果然有大量塞壬舰队啊。",
+			say = "They're completely ignoring us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呵呵，也好。相比打棋子，直接打制造棋子的塞壬更出气一些~",
+			say = "Haah... I suppose this is better than having to do the dirty work ourselves. Even if they're fakes, having to attack your friends is terribly depressing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "无视通讯继续前进吧。",
+			say = "In any case, we're making pretty good progress towards the coordinates I mapped out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "等等~机会难得，我们来做个测试吧。",
+			say = "Hold on a sec~ Do you want to try something real quick?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……测试？",
+			say = "...Try what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "测试一下塞壬的这个记录通讯究竟能拟真到什么程度，你对这点也很在意吧？",
+			say = "I'm sure you've been thinking this as well - what if we're supposed to do something with these messages? Maybe if I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "喂喂喂，这里是{namecode:199}舰队，大黄蜂，能听到么？",
+			say = "Ahem... Hey, Hornet, do you copy? This is New Jersey.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（喂——！）",
+			say = "(...What are you doing?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（嘘————没事没事~反正都是些录音而已吧。）",
+			say = "(Shh...! I'm trying to determine if we're supposed to play a role in their Reenactment, or if they'll act like we don't even exist.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,9 +283,9 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 107070,
-			actorName = "大黄蜂？",
+			actorName = "ホーネット？",
 			hidePaintObj = true,
-			say = "哦~！是{namecode:199}啊，来得正好，你的舰队在什么位置？",
+			say = "\"New Jersey? Thank goodness, we need the help badly!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（回答接上了……？！）",
+			say = "(Holy crap, she actually answered?! Calm down and think, New Jersey!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我们——不，先汇报一下你们的情况吧。",
+			say = "Ah, um, yeah! But I'm going to need your coordinates, pronto!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,9 +338,9 @@ return {
 			dir = 1,
 			paintingNoise = true,
 			actor = 107070,
-			actorName = "大黄蜂？",
+			actorName = "ホーネット？",
 			hidePaintObj = true,
-			say = "我的舰载机损失严重，企业姐的情况也差不多，你带来了多少增援？",
+			say = "\"I've lost most of my aircraft already, and Enterprise is in a similar situation. How many ships did you bring with you?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（唔……那，如果这样呢！）",
+			say = "I can help, but I'm going to need your coordinates! Even a flare gun works, gimme something to work with!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我们——不，还是先汇报一下你们的情况吧~",
+			say = "(Is this seriously going to work...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,9 +393,9 @@ return {
 			dir = 1,
 			paintingNoise = true,
 			actor = 107070,
-			actorName = "大黄蜂？",
+			actorName = "ホーネット？",
 			hidePaintObj = true,
-			say = "我们的舰载机损失严重，已经无力维持制空权了，你带来了多少增援？",
+			say = "\"I've lost most of my aircraft already, and Enterprise is in a similar situation. How many ships did you bring with you?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "对方没有察觉出来对话重复了……？",
+			say = "...I guess not. Deviate from the script, and it seems like she's talking right past me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "大黄蜂，今天的晚饭你觉得吃什么比较好？我推荐牛排哦。",
+			say = "Hey, Hornet, what are your plans for dinner tonight? I'm craving some steak right about now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,9 +448,9 @@ return {
 			dir = 1,
 			paintingNoise = true,
 			actor = 107070,
-			actorName = "大黄蜂？",
+			actorName = "ホーネット？",
 			hidePaintObj = true,
-			say = "{namecode:199}，现在情况紧急，塞壬舰队距离我们的位置很近了，请火速前来支援！",
+			say = "\"We've sustained too much damage! We won't be able to continue fighting at this rate!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你喜欢几成熟的牛排？瓷盘还是铁盘？搭配什么酱汁？",
+			say = "Hornet, if you don't speak up, I'm gonna order your steak well done~ Unless that's actually what you prefer~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,9 +485,9 @@ return {
 			dir = 1,
 			paintingNoise = true,
 			actor = 107070,
-			actorName = "大黄蜂？",
+			actorName = "ホーネット？",
 			hidePaintObj = true,
-			say = "现在情况紧急，塞壬舰队距离我们的位置很近了，我们缺乏掩护，请火速前来支援！",
+			say = "\"I've confirmed the next wave of attacks from enemy aircraft. Requesting modulation of anti-air parameters.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这都什么跟什么啊……完全构不成对话。",
+			say = "I guess it's true. She doesn't seem to be hearing a thing you're saying.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哼哼，果然是这样，我好像已经明白了。",
+			say = "I'm starting to understand what's going on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这些伪装通讯并不是机械的录音播放，而是会根据收到的回复在一定范围内更改表达方法来使对话成立。",
+			say = "These messages are a part of the Reenactment to some extent, but there's some wiggle room so they're not strictly recordings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "事先准备好了大量回复，然后根据我们回答中出现的信息进行选择性的播放么？",
+			say = "Like exchanging preset messages, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没错~比如当我询问现状的时候，通讯器那边就能进行一定程度的解答。",
+			say = "Yup. That's why the messages might sound half-convincing if you didn't know better, but are utter nonsense if you try talking about something else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,7 +592,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "而当我发起完全无关的话题时，对面就只能自说自话咯~",
+			say = "As we don't fit into their Reenactment, this \"Hornet\" was completely unable to respond to my question about steaks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "原来如此……确实是一种高明的欺骗。一般人也不会想到在这种场合询问晚餐吃什么这种奇怪的话题啊…",
+			say = "I would've been more surprised if she suddenly started talking to you about steaks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呵……一瞬间还真以为塞壬做出了什么不得了的东西，到头来还是在玩弄这些把戏。",
+			say = "In short, while these Pawns might be a bit stronger from what we're used to, they're still low-tier programs incapable of thoughts or rationality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………",
+			say = "Up to this point, I haven't seen any Siren command units either... Who knows, this Mirror Sea might be rather special...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真是太好了……",
+			say = "Whatever the case might be, Commander, please hold out a bit longer...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -37,7 +37,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在神秘同伴的帮助下，指挥舰的封锁解除，舰队也恢复了战斗力。",
+			say = "With the help of the mysterious girl, I was able to escape from the mass-produced ship along with my allies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "就这样在海雾中行驶了一段时间后，一片燃烧的战场映入眼帘。",
+			say = "We followed the sporadic lights of battle that cut through the fog, soon arriving at an area in the sea where Sakura Empire Pawns were gathering.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "水面虽然能承载汝等之行，但除此之外皆为静止之态。",
+			say = "The Reenactment has ended, and what now remains is a moment frozen in time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "残骸、弹片、甚至连烈焰与浓烟都…………宛如时间停滞一般。",
+			say = "The flames, the smoke, and the scars of war... Will all be swallowed up by the sea until they return to nothingness...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "如此奇妙的景象妾身也是第一次见。",
+			say = "This is my first time witnessing something like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "简直就像来到了被摁下暂停键的录像带里一样……",
+			say = "All the Sirens we've been fighting are disappearing one by one, but the Mirror Sea isn't going away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			actor = 103140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这也太厉害了吧……！我还以为塞壬只是在通讯器上做了点手脚，居然重现出了这么逼真的场景啊！",
+			say = "This place gives me the creeps, but it's also pretty inspiring. Puddin', do ya think I can make a movie script out of this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 102050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这片战场，是棋子与棋子相互厮杀形成的……塞壬在背地里一直用棋子做这种事么……",
+			say = "A Mirror Sea where Pawns are fated to fight and sink, again and again... It's rather saddening...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "战场，静止的……记录空间…………",
+			say = "Wait, a battlefield... frozen in time...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			dir = 1,
 			hidePaintObj = true,
-			say = "果然在密室中的事不单纯是梦那么简单……",
+			say = "Frozen... in time... What I had seen at the Northern Parliament wasn't a dream after all...",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -293,7 +293,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:195}，这种情况可不常见！走吧走吧，我们贴过去看看！",
+			say = "San Francisco, look at that carrier over there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			actor = 103140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嘿嘿嘿，这个是重樱{namecode:94}的棋子吧~真的完全静止了哎，见到我也一点反应都没有。",
+			say = "That Hiryuu Pawn has seen better days, huh? ...This one's totally frozen as well. They aren't responding to us at all.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -346,7 +346,7 @@ return {
 			actor = 103140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "旁边的那些船是——",
+			say = "The ones over here aren't either...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:93}，以及隶属于重樱救援舰队的其他人。",
+			say = "The Reenactment had ended, suspending the participants inside, but the images that flashed through my head did not stop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这些对她们来说也许有些陌生的舰队构成，对我来说却再熟悉不过了。",
+			say = "I saw the war continue, except with shipgirls instead of Pawns.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "此处是AF战场，而且是我从未亲眼所见的，属于重樱的AF战场。",
+			say = "Each time we fought against the Sirens, we were throwing our shipgirls into their engine of war...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "彼时，正是因为突然出现的塞壬舰队，重樱才得以获得了像这样开展营救的机会。",
+			say = "The conflict between the Azur Lane and the Crimson Axis... what is our conflict to the Sirens than another chessboard, fought with flesh and blood instead of pieces?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "而周围的场景，就恰好定格在了那营救之时……",
+			say = "My determination flared stronger than ever at that moment... I had to put an end to the war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过，只有{namecode:93}和{namecode:94}？{namecode:91}和{namecode:92}去哪儿了……？",
+			say = "...But nothing would change as long as I continued to be trapped within this Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官指挥官，我还从来没有这么近距离观察过重樱的航空母舰呢！",
+			say = "Commander, I've never seen a Sakura Empire carrier up close like this before!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "她们的舰载机收放用到的技术跟我们不太一样哎！简直和电影里的符咒变化一样！",
+			say = "And look how lifelike it looks! It'd be hard to tell the difference in an actual battle~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			actor = 103140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哇哦！真的哎！……而且有些舰载机在符咒状态下就被静止了……",
+			say = "Woah, look at this spinny thing above the flight deck of this carrier...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			actor = 103140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嘿嘿，要不要拿一架回去当纪念品呢—",
+			say = "Huh, it almost looks like it's reacting to you, Puddin'!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			actor = 103140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………啊，纹丝不动！",
+			say = "You're so lucky you basically get to be a movie protagonist~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "重樱的舰载机啊。在甲板上的……加上在空中盘旋的——————",
+			say = "Despite the danger we were in, it was refreshing to see the girls still in such high spirits.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯……？重樱在当时还剩下了那么多舰载机编队么…………？",
+			say = "Now, I just had to wait for \"Helena\" to make contact with us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "刚才去处理了点事，久等了。",
+			say = "I apologize for the delay... Disabling the Sirens' defense systems proved more difficult than expected...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "时间紧迫。{namecode:182}，请回答我的问题——你觉得指挥官怎么样？",
+			say = "Um, Shinano, I have to ask you something first. What do you think of the commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "指挥官么……一位能够对话的，有趣的人。",
+			say = "Commander... is the only one who understands what I've experienced...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "醒来之后也不要忘记今天发生的事哦。",
+			say = "Then, hold tightly onto the fragments of this dream when you awaken. And never forget what happened here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "此处梦境，即将迎来结束之时了么……",
+			say = "I see... This dream, too, is about to come to an end...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "嗯，接下来我要对这里做一些“改造”。",
+			say = "Yes... I am about to rewrite the very core of this Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,7 +700,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "虽然不清楚你梦境的具体原理，但是“改造”引发的冲击会将摧毁你所引发的脆弱干涉。",
+			say = "I do not understand the principle behind your power, but... the aftershocks from what I am about to do will likely erase the fleeting changes you've been able to effect in this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -720,7 +720,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "你的梦境也就无法继续了。",
+			say = "That... is when your dream will come to an end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -739,7 +739,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "看来妾身就要到此为止了，遗憾……真想将这趟奇妙旅程继续下去啊……",
+			say = "Very well... Our meeting has been brief, but I will remember it forever... I wish you the best of luck...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -759,7 +759,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "抱歉啦。",
+			say = "(whispers) ...I'm sorry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -779,7 +779,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "其余诸位，你们现在的位置…………嗯，已经确认了，就这样各自站在原位千万别动哦。",
+			say = "Do not stray from your path. Become the light in the darkness to guide your friends.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -799,7 +799,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "三、二、一——————",
+			say = "Three, two, one...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -816,7 +816,7 @@ return {
 			blackBg = true,
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "――――！！！",
 			flashN = {
 				color = {
 					1,

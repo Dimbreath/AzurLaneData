@@ -49002,7 +49002,7 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		desc = [[
-Activates one of the following effects (chosen at random) when this ship launches an Airstrike:
+$1 chance to activate one of the following effects (chosen at random) when this ship launches an Airstrike:
 1) Doubles this ship's DMG dealt to all enemies for 6s.
 2)Grants this ship 100% Evasion Rate for 5s.
 3)Decreases the Speed of all enemies by $2 for 4s.]],
@@ -49970,7 +49970,11 @@ Activates one of the following effects (chosen at random) when this ship launche
 		name = "Right Place at the Right Time",
 		type = 3,
 		max_level = 10,
-		desc = "Increases this ship's EVA and AA by $1. Activates one of the following effects based on this ship's position in your Vanguard during battle:/n1) Front (and also when this ship is your last afloat Vanguard ship): increases this ship's EVA and AA by $2, and decreases her DMG taken by $3./n2) Middle: heals all ships in your Vanguard for $4 of their max HP 20s after the battle starts./n3) Rear: increases this ship's FP by $3 and AA by $1, and also increases your whole Vanguard's DMG dealt to enemies by 5.0%.",
+		desc = [[
+Increases this ship's EVA and AA by $1. Activates one of the following effects based on this ship's position in your Vanguard during battle:
+1) Front (and also when this ship is your last afloat Vanguard ship): increases this ship's EVA and AA by $2, and decreases her DMG taken by $3.
+2) Middle: heals all ships in your Vanguard for $4 of their max HP 20s after the battle starts.
+3) Rear: increases this ship's FP by $3 and AA by $1, and also increases your whole Vanguard's DMG dealt to enemies by 5.0%.]],
 		id = 14580,
 		system_transform = {},
 		world_death_mark = {
@@ -50720,7 +50724,7 @@ Activates one of the following effects (chosen at random) when this ship launche
 		name = "Supporting Wings - Independence",
 		type = 3,
 		max_level = 10,
-		desc = "Improves the \"Knight of the Sky\" TBF Avenger airstrike. Additionally, the following buffs are active as long as this ship is afloat (does not stack with the \"Supporting Wings\" skill):/n1) At the start of the battle, increases AVI by $1 and RLD by $2 for all CVs and CVLs in the same fleet this ship is in, and decreases the load time of this ship's first Airstrike by $3./n2) At the start of the battle, increases RLD and AVI by $4 for all CVs and CVLs in the fleet this ship is NOT in.",
+		desc = "Improves the \"Knight of the Sky\" TBF Avenger airstrike. Additionally, the following buffs are active as long as this ship is afloat (does not stack with the \"Supporting Wings\" skill):\n1) At the start of the battle, increases AVI by $1 and RLD by $2 for all CVs and CVLs in the same fleet this ship is in, and decreases the load time of this ship's first Airstrike by $3.\n2) At the start of the battle, increases RLD and AVI by $4 for all CVs and CVLs in the fleet this ship is NOT in.",
 		id = 14630,
 		system_transform = {},
 		world_death_mark = {

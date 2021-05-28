@@ -13,7 +13,7 @@ return {
 			bgmDelay = 1,
 			bgm = "deepblue-image",
 			hidePaintObj = true,
-			say = "？？？·？？？",
+			say = "？？·？？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -40,7 +40,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa550",
 			hidePaintObj = true,
-			say = "果然出现了，而且与塞壬之间有着不清不楚的关系哦。",
+			say = "I can't shake the feeling that they are being used by the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa550",
 			hidePaintObj = true,
-			say = "你是怎么发现塞壬在那之下还有一层镜面的？",
+			say = "...And, I'm sorry I didn't notice the other layer within the Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			actor = 900316,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "因为曾经，见过类似的情况而已……",
+			say = "Lift your head. Everyone makes mistakes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa550",
 			hidePaintObj = true,
-			say = "原来如此，你们那里进行过这样的实验啊。",
+			say = "Commander, I see you've already begun investigating the Ashes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			actor = 900316,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "海伦娜，你为什么要从余烬那边过来？",
+			say = "...Helena, do you hate them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa550",
 			hidePaintObj = true,
-			say = "嗯？我有说过我加入过余烬么。",
+			say = "I... don't want to hear about them anymore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 900316,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "只是猜想而已……你们身上有种相似的气质，知道的情报太多，说话又都那么不直率…………",
+			say = "...You don't have to force yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa550",
 			hidePaintObj = true,
-			say = "……抱歉，有些事我还不想说。",
+			say = "...I know...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			actor = 900316,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "不用在意，彼此不讨论过去的事也是我们之间的默契。",
+			say = "After all, we've both agreed to not dig around in each others' pasts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa550",
 			hidePaintObj = true,
-			say = "毕竟对于我们来说，过去，基本等于悲伤的同义词。",
+			say = "The past holds nothing of value.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa550",
 			hidePaintObj = true,
-			say = "在撤离后与塞壬一同行动，然后分道扬镳，在无数实验场中壮大力量的余烬。",
+			say = "The past contains only fodder for the endless, seething penitence of the Ashes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa550",
 			hidePaintObj = true,
-			say = "从撤离之日时就开始，日复一日，矜矜业业执行审判者计划的塞壬。",
+			say = "The Sirens cling blindly to the past, hoping to find their future there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 900316,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "还有知晓了这一切，却选择从远处凝望着的我们……",
+			say = "...Yes, we have spent far too long shackled by our past.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			actor = 900316,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "我们还真是站在复杂的螺旋之中啊……",
+			say = "All of us are the same in that regard. Each time we gaze down at our reflections in the mirror that is the sea, we see an endless spiral towards involution.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa550",
 			hidePaintObj = true,
-			say = "不过，至少我们是指挥官的友军不是么？",
+			say = ".........But you are not like that, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			actor = 900316,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "是哦。我们是，而且只是指挥官的友军。",
+			say = ".........Indeed. I am different.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa550",
 			hidePaintObj = true,
-			say = "在我离开的这段时间，奇怪的闪回还在继续么？",
+			say = "How is your health? Are you still having flashbacks?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 900316,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "嗯……而且在来到这里之后更加频繁了。",
+			say = "I've seen better days. But more importantly, about Souryuu...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			actor = 900316,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "她的情况已经很严重了，如果得不到帮助的话，可能很快……",
+			say = "At this rate, she will be lost to us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa550",
 			hidePaintObj = true,
-			say = "……这样啊。",
+			say = "I'll handle it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			actor = 900316,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "海伦娜，你真的没有出现那些闪回么？这次你甚至……",
+			say = "Please be careful, my dear. If that was to happen to you as well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa550",
 			hidePaintObj = true,
-			say = "我……",
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa550",
 			hidePaintObj = true,
-			say = "没有，我什么都没感觉到。",
+			say = "That past is no longer a part of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa550",
 			hidePaintObj = true,
-			say = "说起来，企业的行踪如何？",
+			say = "Have you found Code... Rather, have you found Enterprise yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			actor = 900316,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "企业的行动很奇怪……这么拖沓完全不像她的做事风格……",
+			say = "No, I haven't the slightest clue...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			actor = 900316,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "不过也多亏她们闹出来的动静，仲裁机关应该一时半会发现不了我们的存在……",
+			say = "But, because of what she's done, we'll be safe from the eyes of the Arbiters for a while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa550",
 			hidePaintObj = true,
-			say = "那就走吧，接下来要做的事可是如繁星一样多呢……",
+			say = "...Then, let us continue to \"wander,\" together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

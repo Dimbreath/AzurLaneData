@@ -13,7 +13,7 @@ return {
 			bgmDelay = 1,
 			bgm = "hunhe-level",
 			hidePaintObj = true,
-			say = "AF西南方海域 海雾中",
+			say = "Within the Mirror Sea...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -40,7 +40,7 @@ return {
 			actor = 101470,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是这个方向……吧？……但是雷达上，没有信号呢…………",
+			say = "Um, I hope we're heading in the right direction... The radar's not beeping at all, but Mr. Bear says...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "雷达也没有被干扰的迹象，棋子不可能躲过我们的搜索才对……",
+			say = "I can't believe... we're trusting your stuffed animal over our navigational equipment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 101470,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "方向不对么，还是需要再接近一些……",
+			say = "Don't worry... Mr. Bear is almost always right, except if we get too far away...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 101470,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "小熊，继续搜索频道信息……",
+			say = "Um, Mr. Bear... Can you try to calibrate your sensors again towards the direction the communication signals came from?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你说，如果真的找到了一支没有敌意的棋子舰队，我们应该怎么办……？",
+			say = "Oh... If you find a Pawn fleet, don't let Mr. Bear engage them on his own...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			actor = 101470,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不知道呢……这种事情从来都没有发生过。应该……先向{namecode:199}汇报，然后等她的命令吧……",
+			say = "Of course! I'll be sure to consult with New Jersey first—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			actor = 101470,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "等等……！雷达上刚刚是不是闪过一个红点？",
+			say = "Wait, we're picking something up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "居……居然真的有其他人……！",
+			say = "Did you find them...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,9 +190,9 @@ return {
 			bgName = "bg_luoxuan_2",
 			dir = 1,
 			actor = 101250,
-			actorName = "哈曼？",
+			actorName = "Hammann?",
 			hidePaintObj = true,
-			say = "…………………………",
+			say = "「………………」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哈、哈曼，你怎么会在这里？！",
+			say = "ハムマンちゃん……？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "喂，别跑啊，哈曼？！",
+			say = "No, it can't be... That's a Siren Pawn!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			actor = 101470,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……我们追！",
+			say = "Get a hold of New Jersey! We're going to chase after it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,27 +271,27 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>「亦或因循守旧，亦或随波逐流」</size>",
+					"\"To mirror the status quo, or to accept the chaos and possibilities of mutation.\"",
 					1
 				},
 				{
-					"<size=51>「两条联系千丝万缕，却绝不交汇的螺旋线」</size>",
+					"\"Two spirals that are intricately connected, linked yet never converging.\"",
 					3
 				},
 				{
-					"<size=51>「纵使如此」</size> ",
+					"\"But when the mirror shatters and their trajectory becomes unbound,\"",
 					5
 				},
 				{
-					"<size=51>「倘若撕裂镜面，扭曲轨迹，结果将会如何？」</size>",
+					"\"What remains of the broken equilibrium?\"",
 					7
 				},
 				{
-					"<size=51>「现行系统无力之事，索性将其更换如何？」</size>",
+					"\"To mirror the status quo...\"",
 					9
 				},
 				{
-					"<size=51>「游戏规则，该升级了哦」</size>",
+					"\"Or to rewrite the rules of the system?\"",
 					12
 				}
 			}

@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			bgm = "deepblue-image",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "―――！！",
 			flashN = {
 				color = {
 					1,
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_luoxuan_7",
 			hidePaintObj = true,
 			dir = 1,
-			say = "伴随着巨大的轰鸣声，前方被海雾笼罩的空间中凭空出现了一个直径近百米的裂口。",
+			say = "With a wave of the mysterious girl's hands, an explosion suddenly engulfed the fog-smothered emptiness in front of them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			bgName = "bg_luoxuan_7",
 			hidePaintObj = true,
 			dir = 1,
-			say = "与宁静的外部不同，裂口内部是一片由火焰与硝烟构成的赤色炼狱。",
+			say = "As the Mirror Sea trembled, a gaping rift seemed to appear out of thin air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "能感受到热浪和硝烟的气息，那个裂口不是幻觉……",
+			say = "Where's this strong wind coming from?! It's burning hot...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你……你把空间像镜子一样打碎了？！",
+			say = "Did you crack open the Mirror Sea?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:199}",
 			hidePaintObj = true,
-			say = "而且刚刚的是轰炸机吧！为什么你会有舰载机啊！",
+			say = "Wait, what's on the other side of that rift? I see the outline of some ship...",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "相比空间破碎，最在意的事居然是那个么…………",
+			say = "Is that where Commander was taken?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "碎掉的空间虽然也很令人在意，但更重要的是，为什么轻巡洋舰能放出轰碎空间的舰载机啊！",
+			say = "So this is what the Siren transference devices do...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "作为轻巡洋舰，有轰炸机也很正常吧。",
+			say = "Thank goodness it worked... The way... is now open...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "完 全 不 正 常！",
+			say = "は、ははは……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "归根结底，舰装结构根本不允许吧！你的舰装上明显没有机库和航空甲板，那些舰载机哪里放出来的啊！",
+			say = "We'll be able to find the commander now, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "秘密。",
+			say = "Yes... But look around us... We don't have much time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那，我也能直接安装上舰载机模块么！如果我也能使用舰载机的话，就再也没人能抵挡住我的攻势了吧！",
+			say = "Let's hurry up then. Didn't you say you'd take us to the commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "不行呢。",
+			say = "Yes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（被打击……）",
+			say = "We're heading into that thing then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "裂口内的空间，你们觉得是什么？",
+			say = "What do you see within that rift?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "如果说是地狱，应该不够严谨……但这个赤红色裂口的存在也是无可辩驳的事实…………",
+			say = "It looks a bit like hell on the other side, to be honest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你该不会真的在现实世界中炸出了一个连接到异次元的入口吧？！",
+			say = "Am I supposed to believe that they pulled the commander to some other world?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "很遗憾，我还做不到这么夸张的事。",
+			say = "Even the Sirens are incapable of something like that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "塞壬可是最擅长隐藏的存在了。",
+			say = "What you're seeing is a large-scale transference device, but the true nature of this place has been well-concealed by the sea fog.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "纵使近在眼前，它们也有无数种方法隐匿自己的踪迹。",
+			say = "Visual impairment, electronic jamming. Stealth devices, and sensory interference.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "裂口之中，是由微层混合物和镜面海域一同构建的特殊空间。",
+			say = "This is the true nature of the sea fog... A way of concealing Compiler's large-scale weapon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "其中的场景有时美好有时残酷，沉沦进去的话，再也无法脱身的可能性也是有的哦。",
+			say = "And over there... is the site of the Reenactment you saw.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "看里面这副鬼样子……这次遇到的肯定不是什么美好的空间！",
+			say = "The graveyard of the Sakura Empire Pawns.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "走吧，指挥官就在前方等着我们……不。",
+			say = "The place where the commander is waiting for us—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "指挥官就在前方等着你们呢。",
+			say = "No... Waiting... for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

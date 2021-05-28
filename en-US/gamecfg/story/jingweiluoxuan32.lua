@@ -13,7 +13,7 @@ return {
 			bgmDelay = 1,
 			bgm = "Beverly_short_inst",
 			hidePaintObj = true,
-			say = "数日后 白鹰某设施内",
+			say = "Days Later - Unknown Eagle Union Facility",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -40,7 +40,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "果然，没有猜错……除了余烬之外真的还有隶属于其他阵营的META的存在！",
+			say = "The relationship between Ashes and the META phenomenon, huh? ...Yeah, I can start looking into that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "多谢你带来详细报告了~",
+			say = "I already combed through the navigational records and came up empty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "余烬，至少META不是同伴……关于这一点的最初判断是正确的。",
+			say = "As for the relationship between Operation AF and the Reenactment, I already knew there was a Mirror Sea there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:93}·META，或者更多的其他什么人可能早就在战斗中与我们交过手了……",
+			say = "Oh, here's a report about the battle with a ship that looked just like Souryuu. That's exactly what I'm looking for...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你认为列克星敦身上的伤也与这些事情有关么……？",
+			say = "Why don't you just ask me for more information?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………",
+			say = "We'll have plenty of time to talk about it later. For the time being, I want to put together everyone's reports.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "继续接触META是有风险的。",
+			say = "As for the Ashes, it seems like their internal affairs are not as monolithic as we originally assumed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "META与我们相似，却又不完全相同。",
+			say = "Some of them are keenly interested in the commander, while others seem pretty indifferent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "META彼此之间也差异巨大……作为一个阵营，余烬内部居然对于指挥官的态度都没能达成统一……",
+			say = "For now, it is too risky to continue interacting with them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "北方联合也是，为了探寻自己无法破解的秘密，居然不惜让指挥官暴露在极度危险之中。",
+			say = "(Commander, you seem to be at the heart of so many different plans and conspiracies... The Northern Parliament seemed fine putting you in grave danger to further their goals...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "如果不是我们及时将指挥官接了回来，天知道北方联合还会继续做什么疯狂的事……",
+			say = "(But are we really much better? We sent you to the front lines during this operation... and look what happened as a result...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真是的，所有人都在试图从指挥官身上的得到什么，但不是所有人都真正在乎指挥官这个人……",
+			say = "(Regardless of what they say about your \"compatibility\" with Wisdom Cubes, what I know is... nobody is better at protecting this world than you are.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不论异常心智魔方适应性的来源如何，效果如何。",
+			say = "(We, no, this entire world, would be lost without you... That's why...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "仅凭指挥官亲身战斗在最前线保护着世界的安全这一点，就值得所有人发自内心的尊重了吧？",
+			say = "(We have to do a better job at keeping you safe.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……不但是为了我自己，还是为了你，为了姐姐，为了指挥官，为了无数在这场战争中受到伤害的人……",
+			say = "……………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我们都必须要尽早查明塞壬所引发的一系列事件背后的真正原因才行。",
+			say = "Whatever they're planning, Sister Sara has to get stronger to rise to the occasion!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我明白。而且……我已经得到大姐的支持了，接下来的调查会更加顺利的哦~",
+			say = "Yeah. I'll protect you too, Commander. No matter what!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真的么？！太好了！",
+			say = "Hey, this isn't some kind of competition! Your rigging's too big for you to be at Commander's side anyway!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哼哼~既然如此……微光计划和审判者计划是么。听起来像是两个不错的调查切入点啊~",
+			say = "Anyway, let's take a look at the next investigation... \"Operation Dawn?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

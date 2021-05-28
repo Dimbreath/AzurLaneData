@@ -297,7 +297,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "I don't think so... I remember using this channel being in use during the AF Reenactment, but...",
+			say = "I don't think so... I remember this channel being in use during the AF Reenactment, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

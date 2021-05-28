@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "KABOOM——!!",
 			flashN = {
 				color = {
 					1,
@@ -70,7 +70,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这批棋子果然和以往遇到的那些都不一样。不但作战性能大幅增强，战术决策上也有着天壤之别……",
+			say = "The Sirens are getting stronger and stronger with each cycle of the Reenactment! We can't let this continue any longer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是因为采用了完全不同的指挥模块么……要是真的大规模普及的话后果可就……！",
+			say = "If mass-produced models of this caliber spill out of this Mirror Sea, everything we've worked for will have been for naught!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不用担心不用担心~既然还是些实验阶段的东西，那只要我们彻底摧毁这片塞壬实验场就可以了吧？",
+			say = "Don'tcha start panicking on me! We still haven't found the commander yet, and my hunch is telling me that we'll also find the Mirror Sea generator there as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "果然如果要从获胜方式里选一个的话，肯定歼灭战来得痛快嘛~！",
+			say = "Two birds with one stone - that's how I like doing things! But first, we've gotta clear out the small fry here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,13 +144,13 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Communicator",
 			side = 2,
 			bgName = "bg_luoxuan_2",
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "滋———滋滋——————",
+			say = "―――――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 107060,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "重樱航空舰队已经失去战斗能力，战斗预计很快就会彻底结束！",
+			say = "\"We've neutralized the aerial presence of the Sakura Empire fleet. Victory will soon be ours.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			actor = 107060,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "只是…………约克城姐被{namecode:94}的舰载机队命中，受伤。",
+			say = "\"However, Yorktown was gravely wounded by Hiryuu's final counterattack...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			actor = 107050,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "只是小伤而已，你们都反应过度了…………",
+			say = "\"Please, it's just a scratch. Stop blowing things out of proportion~\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			actor = 107050,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "咳……",
+			say = "「…………」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			actor = 107070,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "这可不是什么小伤啊！约克城姐，你振作点，姐姐——！",
+			say = "\"Blowing things out of proportion? No, we've got to get you back to port immediately!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 107060,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "哈曼……！",
+			say = "\"Hammann!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			actor = 101250,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "呜呜呜……哈曼明白！我绝对会平安送约克城回家的！",
+			say = "\"I know! I'll protect her with my life...!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,13 +303,13 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Communicator",
 			side = 2,
 			bgName = "bg_luoxuan_2",
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "滋———滋滋——————",
+			say = "―――――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………刚刚……频道里的声音，你们听到了吗……？",
+			say = "New Jersey, did you hear that just now...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			actor = 101470,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "约克城她……遭到了袭击，情况危急……需要赶快救援才行……！",
+			say = "Something about Yorktown... and Hammann being the next part of the Reenactment?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "等等！你们刚才在迷雾中看到的“哈曼”怎么样了？",
+			say = "Hold up, didn't we already see \"Hammann\" on our way over here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哈曼么……？只是一瞬间出现了一下，然后就消失在迷雾中了……没能追上她。",
+			say = "Mmhmm... I tried to track her, but as soon as she entered the sea fog, she dropped off the radar...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那个擦肩而过的哈曼，跟你们说什么了么？",
+			say = "Did you notice anything unusual about this Hammann's behavior?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			actor = 101470,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没有……",
+			say = "No, she just passed right by us... But she definitely wasn't escorting anyone...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "无言从海雾中来，然后无言消失在海雾之中，简直就像塞壬特意放出来的诱饵棋子一样。",
+			say = "That about confirms that this is an ongoing part of the Reenactment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "刚才也说过了吧，约克城在那次受伤之后一直在后方静养，绝对不可能出现在这里。",
+			say = "(Not that we needed any more confirmation. Nobody's going to be wandering around alone in a Mirror Sea like that...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那些通讯不过是塞壬干扰我们的把戏，大家不要动摇！",
+			say = "(No matter how much you read about the Mirror Seas in reports, aiming your guns at someone who looks like your allies is truly a terrible experience...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			actor = 101470,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "对不起……明明已经知道是棋子舰队了，可是真的听到约克城受伤的通讯时还是忍不住…………",
+			say = "Ah, um... Should we chase after her? She couldn't have gotten far...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我能理解，这次塞壬的棋子战术确实与以往不同。",
+			say = "Yes, we give chase. Judging from her movements, she's not behaving any differently from the Pawns we've fought up to this point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "为同伴担心是优秀的品德，错的不是你们，而是利用这种善良的情感布下陷阱的塞壬！",
+			say = "We don't know exactly how these Reenactments function, but following her is our best bet of finding out. Don'tcha agree, Ty?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "白鹰棋子舰队看起来也是完全按照曾经的记录开展行动的啊……",
+			say = "Yup. Since we don't appear to be a part of this Reenactment, we should have some degree of autonomy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "如果是这样的话……{namecode:198}，我觉得没有必要让{namecode:197}她们继续搜寻了，反正敌人的位置和规模我们都有数，对吧？",
+			say = "Let's clean up the leftover Pawns and then chase after Hammann!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯，如果是那样的话……{namecode:197}，{namecode:198}立刻返航，我有新的作战计划了！",
+			say = "A solid plan. Boise, Morrison, please continue to scout ahead for us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
