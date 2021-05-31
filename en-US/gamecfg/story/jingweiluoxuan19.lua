@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			paintingNoise = true,
 			actor = 107070,
-			actorName = "ホーネット？",
+			actorName = "Hornet?",
 			hidePaintObj = true,
 			say = "\"We've sustained too much damage! We won't be able to continue fighting at this rate!\"",
 			typewriter = {
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			paintingNoise = true,
 			actor = 107070,
-			actorName = "ホーネット？",
+			actorName = "Hornet?",
 			hidePaintObj = true,
 			say = "\"Where's the backup fleet?! We need reinforcements now!\"",
 			typewriter = {
@@ -283,7 +283,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 107070,
-			actorName = "ホーネット？",
+			actorName = "Hornet?",
 			hidePaintObj = true,
 			say = "\"New Jersey? Thank goodness, we need the help badly!\"",
 			typewriter = {
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			paintingNoise = true,
 			actor = 107070,
-			actorName = "ホーネット？",
+			actorName = "Hornet?",
 			hidePaintObj = true,
 			say = "\"I've lost most of my aircraft already, and Enterprise is in a similar situation. How many ships did you bring with you?\"",
 			typewriter = {
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			paintingNoise = true,
 			actor = 107070,
-			actorName = "ホーネット？",
+			actorName = "Hornet?",
 			hidePaintObj = true,
 			say = "\"I've lost most of my aircraft already, and Enterprise is in a similar situation. How many ships did you bring with you?\"",
 			typewriter = {
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			paintingNoise = true,
 			actor = 107070,
-			actorName = "ホーネット？",
+			actorName = "Hornet?",
 			hidePaintObj = true,
 			say = "\"We've sustained too much damage! We won't be able to continue fighting at this rate!\"",
 			typewriter = {
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			paintingNoise = true,
 			actor = 107070,
-			actorName = "ホーネット？",
+			actorName = "Hornet?",
 			hidePaintObj = true,
 			say = "\"I've confirmed the next wave of attacks from enemy aircraft. Requesting modulation of anti-air parameters.\"",
 			typewriter = {

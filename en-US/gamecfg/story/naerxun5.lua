@@ -438,7 +438,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "\"The Nelson Touch,\" huh? Then that's we'll do if we encounter enemies.",
+			say = "\"The Nelson Touch,\" huh? Then that's what we'll do if we encounter enemies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -126189,7 +126189,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	[59215] = {
 		drop_gold_max = 0,
 		name = "Rental Outfit Voucher ",
-		display = "Used to unlock a special portrait frame. Expires after the event ends. ",
+		display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time.",
 		type = 98,
 		is_world = 0,
 		shop_id = 1,

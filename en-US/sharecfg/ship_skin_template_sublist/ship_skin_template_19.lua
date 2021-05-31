@@ -6594,7 +6594,7 @@ pg.ship_skin_template_19 = {
 		}
 	},
 	[900314] = {
-		name = "{namecode:93}·META",
+		name = "Souryuu META'",
 		ship_group = 900314,
 		group_index = 0,
 		illustrator2 = -1,
@@ -6706,7 +6706,7 @@ pg.ship_skin_template_19 = {
 		}
 	},
 	[900315] = {
-		name = "海伦娜·META",
+		name = "Helena META",
 		ship_group = 900315,
 		group_index = 0,
 		illustrator2 = -1,
@@ -6818,7 +6818,7 @@ pg.ship_skin_template_19 = {
 		}
 	},
 	[900316] = {
-		name = "约克城·META",
+		name = "Yorktown META",
 		ship_group = 900316,
 		group_index = 0,
 		illustrator2 = -1,
@@ -6930,7 +6930,7 @@ pg.ship_skin_template_19 = {
 		}
 	},
 	[900317] = {
-		name = "{namecode:195}",
+		name = "San Francisco ",
 		ship_group = 900317,
 		group_index = 0,
 		illustrator2 = -1,

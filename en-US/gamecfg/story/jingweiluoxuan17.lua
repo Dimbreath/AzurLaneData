@@ -210,7 +210,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "ハムマンちゃん……？！",
+			say = "Hammann?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

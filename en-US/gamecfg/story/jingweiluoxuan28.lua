@@ -303,7 +303,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "………ええ",
+			say = "...Yes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

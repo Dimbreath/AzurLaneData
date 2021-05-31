@@ -271,7 +271,7 @@ return {
 			}
 		},
 		{
-			actorName = "ヘレナ",
+			actorName = "Helena",
 			side = 2,
 			bgName = "bg_luoxuan_9",
 			dir = 1,

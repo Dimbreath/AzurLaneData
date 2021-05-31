@@ -204,7 +204,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_138",
 			dir = 1,
-			say = "When I came back to my senses, I was lying down on my bed, and I could see Nelson's figure sitting by my side.",
+			say = "When I came back to my senses, I was lying down on bed, and I could see Nelson's figure sitting by my side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

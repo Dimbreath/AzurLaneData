@@ -85,7 +85,7 @@ return {
 			}
 		},
 		{
-			actorName = "ニュージャージー",
+			actorName = "New Jersey",
 			side = 0,
 			bgName = "bg_luoxuan_8",
 			dir = 1,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actorName = "ニュージャージー",
+			actorName = "New Jersey",
 			side = 0,
 			bgName = "bg_luoxuan_8",
 			dir = 1,

@@ -16082,7 +16082,7 @@ pg.ship_data_template = {
 	},
 	[105171] = {
 		oil_at_start = 1,
-		max_level = 70,
+		max_level = 100,
 		equip_id_3 = 16400,
 		oil_at_end = 17,
 		type = 5,
@@ -16125,7 +16125,7 @@ pg.ship_data_template = {
 	},
 	[105172] = {
 		oil_at_start = 1,
-		max_level = 80,
+		max_level = 100,
 		equip_id_3 = 0,
 		oil_at_end = 17,
 		type = 5,
@@ -16170,7 +16170,7 @@ pg.ship_data_template = {
 	},
 	[105173] = {
 		oil_at_start = 1,
-		max_level = 90,
+		max_level = 100,
 		equip_id_3 = 0,
 		oil_at_end = 17,
 		type = 5,

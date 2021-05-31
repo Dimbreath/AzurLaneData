@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Wh-what's the matter? Stop looking at me like I'm not acting myself...",
+			say = "Wh-what's the matter? Stop looking at me like I'm not acting like myself...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
