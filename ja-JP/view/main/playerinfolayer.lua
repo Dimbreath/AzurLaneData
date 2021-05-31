@@ -130,7 +130,6 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.swichSkinBtn, function ()
 		uv0:emit(PlayerInfoMediator.CHANGE_SKIN, uv0.flagShip)
 	end)
-	setActive(slot0.swichSkinBtn, not HXSet.isHxSkin())
 	onButton(slot0, slot0.writeBtn, function ()
 		activateInputField(uv0.inputField)
 	end, SFX_PANEL)
@@ -205,7 +204,7 @@ function slot0.showCharacters(slot0)
 	setActive(slot0.helpBtn, true)
 	setActive(slot0.rightPanel, false)
 	setActive(slot0.bottomPanel, false)
-	setActive(slot0.swichSkinBtn, false)
+	slot0:updateSwichSkinBtn(slot0.flagShip)
 	setActive(slot0.paintContain, false)
 
 	if not HXSet.isHxSkin() then
@@ -247,13 +246,7 @@ function slot0.hideCharacters(slot0)
 	setActive(slot0.helpBtn, false)
 	setActive(slot0.rightPanel, true)
 	setActive(slot0.bottomPanel, true)
-
-	if HXSet.isHxSkin() then
-		setActive(slot0.swichSkinBtn, false)
-	else
-		setActive(slot0.swichSkinBtn, slot0.isExistSkin)
-	end
-
+	slot0:updateSwichSkinBtn(slot0.flagShip)
 	slot0:updateSpinePaintingState()
 	slot0:updateLive2DState()
 	slot0:updateBGState()
@@ -493,7 +486,13 @@ function slot0.updateSwichSkinBtn(slot0, slot1)
 	if HXSet.isHxSkin() then
 		setActive(slot0.swichSkinBtn, false)
 	else
-		setActive(slot0.swichSkinBtn, slot0.isExistSkin and not isActive(slot0.characters))
+		slot2 = not isActive(slot0.characters)
+
+		if slot0.contextData.showSelectCharacters then
+			slot2 = false
+		end
+
+		setActive(slot0.swichSkinBtn, slot0.isExistSkin and slot2)
 	end
 end
 
