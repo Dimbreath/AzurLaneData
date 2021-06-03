@@ -761,11 +761,11 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe6_l",
-		id_str = "com.yostaren.azurlane.diamond147",
+		id_str = "com.yostaren.azurlane.diamond146",
 		first_pay_double = 0,
 		extra_gem = 0,
 		id = 29,
-		airijp_id = "com.yostaren.azurlane.diamond147",
+		airijp_id = "com.yostaren.azurlane.diamond146",
 		extra_service_item = {
 			{
 				2,
@@ -861,11 +861,11 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe1_l",
-		id_str = "com.yostaren.azurlane.diamond146",
+		id_str = "com.yostaren.azurlane.diamond147",
 		first_pay_double = 0,
 		extra_gem = 0,
 		id = 30,
-		airijp_id = "com.yostaren.azurlane.diamond146",
+		airijp_id = "com.yostaren.azurlane.diamond147",
 		extra_service_item = {
 			{
 				2,
