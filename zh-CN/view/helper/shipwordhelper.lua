@@ -312,6 +312,10 @@ function slot0.GetL2dCvCalibrate(slot0, slot1, slot2)
 		return 0
 	end
 
+	if type(slot3.l2d_voice_calibrate) == "table" and slot3.l2d_voice_calibrate.use_event then
+		return -1
+	end
+
 	if slot1 == uv1.WORD_TYPE_MAIN then
 		slot1 = slot1 .. "_" .. slot2
 	end

@@ -510,7 +510,7 @@ function slot0.OnCVBtnClick(slot0, slot1)
 	end
 
 	if slot1.voice.key == "unlock" and slot0.haveOp then
-		slot0:playOpening(true, function ()
+		slot0:playOpening(function ()
 			uv0:UpdatePaintingFace(uv1)
 
 			if uv0.characterModel then
@@ -554,7 +554,7 @@ function slot0.OnCVBtnClick(slot0, slot1)
 				uv0:PlayVoice(uv1, slot0)
 				uv0:ShowDailogue(uv1, slot0)
 			end
-		end, "star_level_unlock_anim_" .. slot0.skin.id)
+		end)
 	else
 		slot3()
 	end
@@ -662,86 +662,18 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
-	if slot0.onPlayingOP then
-		slot0:stopOpening()
-
-		return
-	end
-
 	triggerButton(slot0.btnBack)
 end
 
-function slot0.playOpening(slot0, slot1, slot2, slot3)
-	slot0.onPlayingOP = true
-
-	function slot4()
-		uv0.openingAni.enabled = true
-
-		onButton(uv0, uv0.openingTF, function ()
+function slot0.playOpening(slot0, slot1)
+	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/" .. ("star_level_unlock_anim_" .. slot0.skin.id))) then
+		pg.CpkPlayMgr.GetInstance():PlayCpkMovie(function ()
+		end, function ()
 			if uv0 then
-				uv1:stopOpening(uv2)
+				uv0()
 			end
-		end)
-
-		slot0 = uv0.openingTF:GetComponent("DftAniEvent")
-
-		slot0:SetStartEvent(function (slot0)
-			if uv0.criAni then
-				uv0.criAni:Play()
-			end
-		end)
-		slot0:SetEndEvent(function (slot0)
-			uv0:stopOpening(uv1)
-		end)
-		setActive(uv0.openingTF, true)
-	end
-
-	if IsNil(slot0.openingTF) then
-		pg.UIMgr.GetInstance():LoadingOn()
-		LoadAndInstantiateAsync("ui", slot3, function (slot0)
-			slot0:SetActive(false)
-
-			uv0.openingTF = slot0
-
-			pg.UIMgr.GetInstance():OverlayPanel(uv0.openingTF.transform)
-
-			uv0.criAni = tf(uv0.openingTF):Find("usm"):GetComponent("CriManaEffectUI")
-
-			setActive(uv0.openingTF, false)
-
-			uv0.openingAni = uv0.openingTF:GetComponent("Animator")
-
-			uv1()
-			pg.UIMgr.GetInstance():LoadingOff()
-		end)
-	else
-		slot4()
-	end
-end
-
-function slot0.stopOpening(slot0, slot1)
-	if not slot0.openingTF then
-		return
-	end
-
-	setActive(slot0.openingTF, false)
-
-	slot0.openingAni.enabled = false
-
-	if slot0.criAni then
-		slot0.criAni:Stop()
-	end
-
-	if not IsNil(slot0.openingTF) then
-		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.openingTF.transform, slot0._tf)
-		Destroy(slot0.openingTF)
-
-		slot0.openingTF = nil
-	end
-
-	slot0.onPlayingOP = false
-
-	if slot1 then
+		end, "ui", slot2, true, true, nil)
+	elseif slot1 then
 		slot1()
 	end
 end
@@ -814,7 +746,7 @@ function slot0.DisplaySpinePainting(slot0, slot1)
 end
 
 function slot0.willExit(slot0)
-	slot0:stopOpening()
+	pg.CpkPlayMgr.GetInstance():DisposeCpkMovie()
 	SetParent(slot0.bottomTF, slot0._tf)
 
 	slot4 = slot0._tf

@@ -1340,6 +1340,36 @@ pg.activity_ins_ship_group_template = {
 		name = "BlackDragon",
 		sculpture = "xinzexi"
 	},
+	[10112] = {
+		ship_group = 10112,
+		name = "L.B.Thatcher",
+		sculpture = "saqieer"
+	},
+	[10109] = {
+		ship_group = 10109,
+		name = "Fletcher",
+		sculpture = "fulaiche"
+	},
+	[10113] = {
+		ship_group = 10113,
+		name = "L.B.Aulick",
+		sculpture = "aolike"
+	},
+	[10115] = {
+		ship_group = 10115,
+		name = "L.B.Spence",
+		sculpture = "sipengsi"
+	},
+	[10141] = {
+		ship_group = 10141,
+		name = "L.B.Stanly",
+		sculpture = "sitanli"
+	},
+	[10145] = {
+		ship_group = 10145,
+		name = "A.M.Sumner",
+		sculpture = "ailunsamuna"
+	},
 	all = {
 		30701,
 		30702,
@@ -1608,6 +1638,12 @@ pg.activity_ins_ship_group_template = {
 		30801,
 		10314,
 		10714,
-		10517
+		10517,
+		10112,
+		10109,
+		10113,
+		10115,
+		10141,
+		10145
 	}
 }

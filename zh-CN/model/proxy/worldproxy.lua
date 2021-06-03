@@ -51,15 +51,14 @@ function slot0.register(slot0)
 	end)
 	slot0:on(34507, function (slot0)
 		if nowWorld then
-			slot1 = nowWorld:GetBossProxy()
 			slot2 = WorldBoss.New()
 
 			slot2:Setup(slot0.boss_info, Player.New(slot0.user_info))
-			slot1:ClearRank(slot2.id)
 			slot2:UpdateBossType(slot0.type)
 			slot2:SetJoinTime(pg.TimeMgr.GetInstance():GetServerTime())
 
-			if slot1.isSetup then
+			if nowWorld:GetBossProxy().isSetup then
+				slot1:ClearRank(slot2.id)
 				slot1:UpdateCacheBoss(slot2)
 			end
 

@@ -35926,6 +35926,454 @@ pg.activity_ins_npc_template = {
 		time_persist = {},
 		npc_reply_persist = {}
 	},
+	{
+		ship_group = 20703,
+		message_persist = "",
+		id = 1961,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 20704,
+		message_persist = "",
+		id = 1962,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 20705,
+		message_persist = "",
+		id = 1963,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 90111,
+		message_persist = "",
+		id = 1964,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 10601,
+		message_persist = "",
+		id = 1965,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 20705,
+		message_persist = "",
+		id = 1966,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 20110,
+		message_persist = "",
+		id = 1967,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 20705,
+		message_persist = "",
+		id = 1968,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 20705,
+		message_persist = "",
+		id = 1969,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 20705,
+		message_persist = "",
+		id = 1970,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 30204,
+		message_persist = "",
+		id = 1971,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 30208,
+		message_persist = "",
+		id = 1972,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 30205,
+		message_persist = "",
+		id = 1973,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 30204,
+		message_persist = "",
+		id = 1974,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 30209,
+		message_persist = "",
+		id = 1975,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 30205,
+		message_persist = "",
+		id = 1976,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 89902,
+		message_persist = "",
+		id = 1977,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 30205,
+		message_persist = "",
+		id = 1978,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 30204,
+		message_persist = "",
+		id = 1979,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 30205,
+		message_persist = "",
+		id = 1980,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 89902,
+		message_persist = "",
+		id = 1981,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 30205,
+		message_persist = "",
+		id = 1982,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 80801,
+		message_persist = "",
+		id = 1983,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 30118,
+		message_persist = "",
+		id = 1984,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 31201,
+		message_persist = "",
+		id = 1985,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 89902,
+		message_persist = "",
+		id = 1986,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 89902,
+		message_persist = "",
+		id = 1987,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 30209,
+		message_persist = "",
+		id = 1988,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 40601,
+		message_persist = "",
+		id = 1989,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 30209,
+		message_persist = "",
+		id = 1990,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 40801,
+		message_persist = "",
+		id = 1991,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 40601,
+		message_persist = "",
+		id = 1992,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 40804,
+		message_persist = "",
+		id = 1993,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 40601,
+		message_persist = "",
+		id = 1994,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 40303,
+		message_persist = "",
+		id = 1995,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 40601,
+		message_persist = "",
+		id = 1996,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 40601,
+		message_persist = "",
+		id = 1997,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 10109,
+		message_persist = "",
+		id = 1998,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 10111,
+		message_persist = "",
+		id = 1999,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 10113,
+		message_persist = "",
+		id = 2000,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 10115,
+		message_persist = "",
+		id = 2001,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 10141,
+		message_persist = "",
+		id = 2002,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 10144,
+		message_persist = "",
+		id = 2003,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 10145,
+		message_persist = "",
+		id = 2004,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 10144,
+		message_persist = "",
+		id = 2005,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 10111,
+		message_persist = "",
+		id = 2006,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 10111,
+		message_persist = "",
+		id = 2007,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 70108,
+		message_persist = "",
+		id = 2008,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 70104,
+		message_persist = "",
+		id = 2009,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 70103,
+		message_persist = "",
+		id = 2010,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 70104,
+		message_persist = "",
+		id = 2011,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 70501,
+		message_persist = "",
+		id = 2012,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 70104,
+		message_persist = "",
+		id = 2013,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 70301,
+		message_persist = "",
+		id = 2014,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 70104,
+		message_persist = "",
+		id = 2015,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 10722,
+		message_persist = "",
+		id = 2016,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 10209,
+		message_persist = "",
+		id = 2017,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 10210,
+		message_persist = "",
+		id = 2018,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 10209,
+		message_persist = "",
+		id = 2019,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 10214,
+		message_persist = "",
+		id = 2020,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 10223,
+		message_persist = "",
+		id = 2021,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 10722,
+		message_persist = "",
+		id = 2022,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 10209,
+		message_persist = "",
+		id = 2023,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	{
+		ship_group = 10722,
+		message_persist = "",
+		id = 2024,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -37886,6 +38334,70 @@ pg.activity_ins_npc_template = {
 		1957,
 		1958,
 		1959,
-		1960
+		1960,
+		1961,
+		1962,
+		1963,
+		1964,
+		1965,
+		1966,
+		1967,
+		1968,
+		1969,
+		1970,
+		1971,
+		1972,
+		1973,
+		1974,
+		1975,
+		1976,
+		1977,
+		1978,
+		1979,
+		1980,
+		1981,
+		1982,
+		1983,
+		1984,
+		1985,
+		1986,
+		1987,
+		1988,
+		1989,
+		1990,
+		1991,
+		1992,
+		1993,
+		1994,
+		1995,
+		1996,
+		1997,
+		1998,
+		1999,
+		2000,
+		2001,
+		2002,
+		2003,
+		2004,
+		2005,
+		2006,
+		2007,
+		2008,
+		2009,
+		2010,
+		2011,
+		2012,
+		2013,
+		2014,
+		2015,
+		2016,
+		2017,
+		2018,
+		2019,
+		2020,
+		2021,
+		2022,
+		2023,
+		2024
 	}
 }

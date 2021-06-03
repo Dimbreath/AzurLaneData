@@ -12867,7 +12867,7 @@ pg.item_data_statistics = {
 	[40910] = {
 		drop_gold_max = 0,
 		name = "三周年礼盒",
-		display = "购买礼包可获得随机换装*1，钻石*2020，心智单元*50，心智魔方*20，高级定向蓝图二期*2，快速建造*10，家具币*100",
+		display = "购买礼包可获得随机换装*1，钻石*2020，心智单元*50，心智魔方*20，高级定向蓝图二期*2，快速完成工具*10，家具币*100",
 		type = 17,
 		is_world = 0,
 		shop_id = -1,
@@ -13048,6 +13048,61 @@ pg.item_data_statistics = {
 			{
 				2,
 				69913,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40914] = {
+		drop_gold_max = 0,
+		name = "四周年礼盒",
+		display = "购买礼包可获得随机换装*1，钻石*2021，心智单元*50，心智魔方*20，高级定向蓝图三期*2，快速完成工具*10，家具币*100",
+		type = 17,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/lihe5",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 40914,
+		display_icon = {
+			{
+				2,
+				69914,
 				1
 			},
 			{
@@ -142921,6 +142976,36 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[69914] = {
+		drop_gold_max = 0,
+		name = "随机四周年换装",
+		display = [[
+从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
+包含的换装和概率如下：
+（<color=#92fc63>12.5%</color>）威悉换装 黯调铅华（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>13.1%</color>）可畏换装   梳妆的“大小姐”；
+（<color=#92fc63>13.1%</color>）赫敏换装 女仆的优雅午后；
+（<color=#92fc63>13.1%</color>）蒙彼利埃换装  魔境的公主？；
+（<color=#92fc63>13.1%</color>）胡德换装  晨曦的淑女；
+（<color=#92fc63>11.7%</color>）黑太子换装  Pop The Cork；
+（<color=#92fc63>11.7%</color>）英勇换装   英勇女王陛下？；
+（<color=#92fc63>11.7%</color>）长波换装  春之女神的引导；
+]],
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/clothIcon",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 69914,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[70000] = {
 		drop_gold_max = 0,
 		name = "「港区回忆」No.1",
@@ -145094,6 +145179,7 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		40911,
 		40912,
 		40913,
+		40914,
 		41001,
 		41002,
 		41003,
@@ -148150,6 +148236,7 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		69911,
 		69912,
 		69913,
+		69914,
 		70000,
 		70001,
 		70002,

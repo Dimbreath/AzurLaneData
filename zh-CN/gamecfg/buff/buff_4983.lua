@@ -24,6 +24,7 @@ return {
 				"onRemove"
 			},
 			arg_list = {
+				group = 4981,
 				number = 0.194,
 				attr = "dodgeRateExtra"
 			}
@@ -35,6 +36,7 @@ return {
 				"onRemove"
 			},
 			arg_list = {
+				group = 4981,
 				number = -0.194,
 				attr = "injureRatioByAir"
 			}

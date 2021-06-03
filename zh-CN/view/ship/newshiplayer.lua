@@ -219,48 +219,19 @@ function slot0.setShip(slot0, slot1)
 
 	slot0._shipType.text = pg.ship_data_by_type[slot0._shipVO:getShipType()].type_name
 	slot0._shipName.text = slot1:getName()
-	slot5 = nil
-	slot6 = ""
-	slot7 = nil
+	slot5 = slot1:getRarity()
+	slot7 = slot0._shipVO:getStar()
+	slot9 = pg.ship_data_template[slot4.id].star_max % 2 == 0 and slot6 / 2 or math.floor(slot6 / 2) + 1
+	slot10 = 15
 
-	if slot0.isRemoulded then
-		if ShipWordHelper.RawGetWord(slot1:getRemouldSkinId(), ShipWordHelper.WORD_TYPE_UNLOCK) == "" then
-			slot5, slot7, slot6 = ShipWordHelper.GetWordAndCV(slot8, ShipWordHelper.WORD_TYPE_DROP)
-		else
-			slot5, slot7, slot6 = ShipWordHelper.GetWordAndCV(slot8, ShipWordHelper.WORD_TYPE_UNLOCK)
-		end
-	else
-		slot5, slot7, slot6 = ShipWordHelper.GetWordAndCV(slot0._shipVO.skinId, ShipWordHelper.WORD_TYPE_UNLOCK)
-	end
+	for slot14 = 1, 6 do
+		slot15 = slot0.starsTF:Find("content/star_" .. slot14)
 
-	setWidgetText(slot0._dialogue, SwitchSpecialChar(slot6, true), "desc/Text")
+		setActive(slot15:Find("star"), slot14 <= slot7)
+		setActive(slot15:Find("star_empty"), slot7 < slot14)
 
-	slot0._dialogue.transform.localScale = Vector3(0, 1, 1)
-
-	SetActive(slot0._dialogue, false)
-	slot0:AddLeanTween(function ()
-		return LeanTween.delayedCall(0.5, System.Action(function ()
-			SetActive(uv0._dialogue, true)
-			uv0:AddLeanTween(function ()
-				return LeanTween.scale(uv0._dialogue, Vector3(1, 1, 1), 0.1)
-			end)
-			uv0:voice(uv1)
-		end))
-	end)
-
-	slot8 = slot1:getRarity()
-	slot10 = slot0._shipVO:getStar()
-	slot12 = pg.ship_data_template[slot4.id].star_max % 2 == 0 and slot9 / 2 or math.floor(slot9 / 2) + 1
-	slot13 = 15
-
-	for slot17 = 1, 6 do
-		slot18 = slot0.starsTF:Find("content/star_" .. slot17)
-
-		setActive(slot18:Find("star"), slot17 <= slot10)
-		setActive(slot18:Find("star_empty"), slot10 < slot17)
-
-		if slot9 < slot17 then
-			setActive(slot18, false)
+		if slot6 < slot14 then
+			setActive(slot15, false)
 		end
 	end
 
@@ -268,18 +239,18 @@ function slot0.setShip(slot0, slot1)
 		warning("找不到印花, shipConfigId: " .. slot1.configId)
 		setActive(slot0._shake:Find("rarity/nation"), false)
 	else
-		setImageSprite(slot14, slot15, false)
+		setImageSprite(slot11, slot12, false)
 	end
 
 	if slot1:isMetaShip() then
-		LoadImageSpriteAsync("shiprarity/meta_" .. slot8 .. "m", slot0._shake:Find("rarity/type"), true)
-		LoadImageSpriteAsync("shiprarity/meta_" .. slot8 .. "s", slot0._shake:Find("rarity/type/rarLogo"), true)
+		LoadImageSpriteAsync("shiprarity/meta_" .. slot5 .. "m", slot0._shake:Find("rarity/type"), true)
+		LoadImageSpriteAsync("shiprarity/meta_" .. slot5 .. "s", slot0._shake:Find("rarity/type/rarLogo"), true)
 	else
-		LoadImageSpriteAsync("shiprarity/" .. (slot2 and "0" or "") .. slot8 .. "m", slot16, true)
-		LoadImageSpriteAsync("shiprarity/" .. (slot2 and "0" or "") .. slot8 .. "s", slot17, true)
+		LoadImageSpriteAsync("shiprarity/" .. (slot2 and "0" or "") .. slot5 .. "m", slot13, true)
+		LoadImageSpriteAsync("shiprarity/" .. (slot2 and "0" or "") .. slot5 .. "s", slot14, true)
 	end
 
-	setActive(slot14, false)
+	setActive(slot11, false)
 	setActive(slot0.rarityTF, false)
 	setActive(slot0._shade, true)
 
@@ -293,35 +264,35 @@ function slot0.setShip(slot0, slot1)
 		end))
 	end)
 
-	slot18 = slot0._shake:Find("ship_type")
+	slot15 = slot0._shake:Find("ship_type")
 
-	setText(slot18:Find("english_name"), slot0._shipVO:getConfig("english_name"))
+	setText(slot15:Find("english_name"), slot0._shipVO:getConfig("english_name"))
 
-	slot23 = slot0._shipVO:getStar()
+	slot20 = slot0._shipVO:getStar()
 
-	for slot28 = slot18:Find("stars").childCount, slot0._shipVO:getMaxStar() - 1 do
-		cloneTplTo(slot18:Find("stars/startpl"), slot19)
+	for slot25 = slot15:Find("stars").childCount, slot0._shipVO:getMaxStar() - 1 do
+		cloneTplTo(slot15:Find("stars/startpl"), slot16)
 	end
 
-	for slot28 = 0, slot19.childCount - 1 do
-		slot19:GetChild(slot28).gameObject:SetActive(slot28 < slot24)
-		setActive(slot29:Find("star"), slot28 < slot23)
-		setActive(slot29:Find("empty"), slot23 <= slot28)
+	for slot25 = 0, slot16.childCount - 1 do
+		slot16:GetChild(slot25).gameObject:SetActive(slot25 < slot21)
+		setActive(slot26:Find("star"), slot25 < slot20)
+		setActive(slot26:Find("empty"), slot20 <= slot25)
 	end
 
-	slot25 = slot0._shipVO:getConfigTable()
-	findTF(slot18, "type_bg/type"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("shiptype", tostring(slot0._shipVO:getShipType()))
+	slot22 = slot0._shipVO:getConfigTable()
+	findTF(slot15, "type_bg/type"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("shiptype", tostring(slot0._shipVO:getShipType()))
 
-	setScrollText(slot18:Find("name_bg/mask/Text"), slot0._shipVO:getName())
+	setScrollText(slot15:Find("name_bg/mask/Text"), slot0._shipVO:getName())
 
 	if slot2 then
-		slot8 = slot8 .. "_1"
+		slot5 = slot5 .. "_1"
 	elseif slot1:isMetaShip() then
-		slot8 = slot8 .. "_2"
+		slot5 = slot5 .. "_2"
 	end
 
-	if not slot0.rarityEffect[slot8] then
-		PoolMgr.GetInstance():GetUI("getrole_" .. slot8, true, function (slot0)
+	if not slot0.rarityEffect[slot5] then
+		PoolMgr.GetInstance():GetUI("getrole_" .. slot5, true, function (slot0)
 			if IsNil(uv0._tf) then
 				return
 			end
@@ -348,18 +319,15 @@ function slot0.setShip(slot0, slot1)
 			uv0.effectObj = slot0
 		end)
 	else
-		slot0.effectObj = slot0.rarityEffect[slot8]
+		slot0.effectObj = slot0.rarityEffect[slot5]
 
 		setActive(slot0.effectObj, false)
 	end
 
-	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/star_level_unlock_anim_" .. ShipGroup.getDefaultSkin(slot0._shipVO:getGroupId()).id)) then
-		slot0:playOpening(true, function ()
-			uv0:ResumeAnimation()
-		end, "star_level_unlock_anim_" .. slot27)
-	else
-		slot0:ResumeAnimation()
-	end
+	slot0:playOpening(function ()
+		uv0:ResumeAnimation()
+		uv0:DisplayWord()
+	end)
 end
 
 function slot0.PauseAnimation(slot0)
@@ -374,6 +342,37 @@ function slot0.ResumeAnimation(slot0)
 	if slot0.effectObj then
 		setActive(slot0.effectObj, true)
 	end
+end
+
+function slot0.DisplayWord(slot0)
+	slot1 = nil
+	slot2 = ""
+	slot3 = nil
+
+	if slot0.isRemoulded then
+		if ShipWordHelper.RawGetWord(slot0._shipVO:getRemouldSkinId(), ShipWordHelper.WORD_TYPE_UNLOCK) == "" then
+			slot1, slot3, slot2 = ShipWordHelper.GetWordAndCV(slot4, ShipWordHelper.WORD_TYPE_DROP)
+		else
+			slot1, slot3, slot2 = ShipWordHelper.GetWordAndCV(slot4, ShipWordHelper.WORD_TYPE_UNLOCK)
+		end
+	else
+		slot1, slot3, slot2 = ShipWordHelper.GetWordAndCV(slot0._shipVO.skinId, ShipWordHelper.WORD_TYPE_UNLOCK)
+	end
+
+	setWidgetText(slot0._dialogue, SwitchSpecialChar(slot2, true), "desc/Text")
+
+	slot0._dialogue.transform.localScale = Vector3(0, 1, 1)
+
+	SetActive(slot0._dialogue, false)
+	slot0:AddLeanTween(function ()
+		return LeanTween.delayedCall(0.5, System.Action(function ()
+			SetActive(uv0._dialogue, true)
+			uv0:AddLeanTween(function ()
+				return LeanTween.scale(uv0._dialogue, Vector3(1, 1, 1), 0.1)
+			end)
+			uv0:voice(uv1)
+		end))
+	end)
 end
 
 function slot0.updateShip(slot0, slot1)
@@ -749,66 +748,17 @@ function slot0.starsAnimation(slot0)
 	end)
 end
 
-function slot0.playOpening(slot0, slot1, slot2, slot3)
-	slot0.onPlayingOP = true
-
-	function slot4()
-		uv0.openingAni.enabled = true
-
-		onButton(uv0, uv0.openingTF, function ()
-			if uv0 and uv1.playOpTime ~= nil and pg.TimeMgr.GetInstance():RealtimeSinceStartup() - uv1.playOpTime > 1 then
-				uv1:stopOpening(uv2)
+function slot0.playOpening(slot0, slot1)
+	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/" .. ("star_level_unlock_anim_" .. ShipGroup.getDefaultSkin(slot0._shipVO:getGroupId()).id))) then
+		pg.CpkPlayMgr.GetInstance():PlayCpkMovie(function ()
+		end, function ()
+			if uv0 then
+				uv0()
 			end
-		end)
-		uv0.openingTF:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
-			uv0:stopOpening(uv1)
-		end)
-		setActive(uv0.openingTF, true)
-	end
-
-	if IsNil(slot0.openingTF) then
-		pg.UIMgr.GetInstance():LoadingOn()
-		LoadAndInstantiateAsync("ui", slot3, function (slot0)
-			slot0:SetActive(false)
-
-			uv0.openingTF = slot0
-
-			pg.UIMgr.GetInstance():OverlayPanel(uv0.openingTF.transform, {
-				weight = uv0:getWeightFromData()
-			})
-			setActive(uv0.openingTF, false)
-
-			uv0.openingAni = GetComponent(uv0.openingTF, "Animator")
-
-			uv1()
-			pg.UIMgr.GetInstance():LoadingOff()
-
-			uv0.playOpTime = pg.TimeMgr.GetInstance():RealtimeSinceStartup()
-		end)
-	else
-		slot4()
-	end
-end
-
-function slot0.stopOpening(slot0, slot1)
-	if not slot0.openingTF then
-		return
-	end
-
-	setActive(slot0.openingTF, false)
-
-	slot0.openingAni.enabled = false
-
-	if not IsNil(slot0.openingTF) then
-		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.openingTF.transform, slot0._tf)
-		Destroy(slot0.openingTF)
-
-		slot0.openingTF = nil
-	end
-
-	slot0.onPlayingOP = false
-
-	if slot1 then
+		end, "ui", slot3, true, true, {
+			weight = slot0:getWeightFromData()
+		})
+	elseif slot1 then
 		slot1()
 	end
 end
@@ -818,7 +768,7 @@ function slot0.ClearTweens(slot0, slot1)
 end
 
 function slot0.willExit(slot0)
-	slot0:stopOpening()
+	pg.CpkPlayMgr.GetInstance():DisposeCpkMovie()
 	slot0:StopAutoExitTimer()
 	slot0:DestroyNewShipDocumentView()
 

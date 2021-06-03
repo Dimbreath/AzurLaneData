@@ -109,6 +109,7 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			useBlackBlock = true,
 			selectedMax = 1,
+			energyDisplay = true,
 			selectedMin = slot5,
 			leastLimitMsg = i18n("ship_formationMediator_leastLimit"),
 			quitTeam = slot1 ~= nil,

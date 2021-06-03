@@ -5404,7 +5404,14 @@ pg.activity_template = {
 			219,
 			220,
 			221,
-			222
+			222,
+			223,
+			224,
+			225,
+			226,
+			227,
+			228,
+			229
 		},
 		time = {
 			timer,
@@ -5432,6 +5439,160 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[4005] = {
+		mark = 20210603,
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 17,
+		config_client = "",
+		title_res_tag = "sizhounianhuizong",
+		id = 4005,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					6,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "FourthAnniversaryPage",
+			ui_name = "FourthAnniversaryPage"
+		}
+	},
+	[4006] = {
+		mark = 20210603,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 4006,
+		config_data = {
+			16701
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					6,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					6,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4007] = {
+		mark = 20210603,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 16,
+		config_client = "",
+		title_res_tag = "chuchunskin",
+		id = 4007,
+		config_data = {
+			{
+				16702,
+				16703
+			},
+			{
+				16704,
+				16705
+			},
+			{
+				16706,
+				16707
+			},
+			{
+				16708,
+				16709
+			},
+			{
+				16710,
+				16711
+			},
+			{
+				16712,
+				16713
+			},
+			{
+				16714,
+				16715
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					6,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ChuChunSkinPage",
+			ui_name = "ChuChunSkinPage"
 		}
 	},
 	[2001] = {
@@ -6362,6 +6523,22 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[2061] = {
+		mark = 20210603,
+		page_info = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5651,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 2061,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	[100001] = {
 		mark = 20190530,
 		page_info = "",
@@ -6609,6 +6786,9 @@ pg.activity_template = {
 		4000,
 		4001,
 		4002,
+		4005,
+		4006,
+		4007,
 		2001,
 		2002,
 		2003,
@@ -6667,6 +6847,7 @@ pg.activity_template = {
 		2058,
 		2059,
 		2060,
+		2061,
 		100001,
 		100002,
 		40001,

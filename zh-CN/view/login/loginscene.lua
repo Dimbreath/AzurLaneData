@@ -434,7 +434,7 @@ function slot0.didEnter(slot0)
 		setActive(uv0.serversPanel, false)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("background"), function ()
-		if uv0.onPlayingOP then
+		if pg.CpkPlayMgr.GetInstance():OnPlaying() then
 			return
 		end
 
@@ -485,13 +485,13 @@ function slot0.didEnter(slot0)
 
 	if PLAY_OPENING then
 		onButton(slot0, slot0.opBtn, function ()
-			if uv0.initFinished and not uv0.onPlayingOP then
-				uv0:playOpening(true)
+			if uv0.initFinished and not pg.CpkPlayMgr.GetInstance():OnPlaying() then
+				uv0:playOpening()
 			end
 		end)
 
 		if PLATFORM_CODE ~= PLATFORM_JP and PlayerPrefs.GetString("op_ver", "") ~= OP_VERSION then
-			slot0:playOpening(true, function ()
+			slot0:playOpening(function ()
 				PlayerPrefs.SetString("op_ver", OP_VERSION)
 				uv0:playExtraVoice()
 
@@ -764,10 +764,7 @@ function slot0.willExit(slot0)
 		slot0.waitTimer = nil
 	end
 
-	if slot0.openingTF then
-		SetParent(slot0.openingTF, slot0._tf)
-	end
-
+	pg.CpkPlayMgr.GetInstance():DisposeCpkMovie()
 	slot0.loginPanelView:Destroy()
 	slot0.registerPanelView:Destroy()
 	slot0.tencentLoginPanelView:Destroy()
@@ -776,92 +773,22 @@ function slot0.willExit(slot0)
 	slot0.yostarAlertView:Destroy()
 end
 
-function slot0.playOpening(slot0, slot1, slot2, slot3)
-	slot0.onPlayingOP = true
-
-	pg.UIMgr.GetInstance():LoadingOn()
-
-	function slot4()
-		if not uv0.openingTF then
-			return
-		end
-
-		if Time.realtimeSinceStartup < uv0.manaCloseLimit then
-			return
-		end
-
-		setActive(uv0.openingTF, false)
-
-		uv0.openingAni.enabled = false
-
-		if uv0.criAni then
-			uv0.criAni:Stop()
-		end
-
-		if uv0.openingTF then
-			pg.UIMgr.GetInstance():UnOverlayPanel(uv0.openingTF.transform, uv0._tf)
-			Destroy(uv0.openingTF)
-
-			uv0.openingTF = nil
-		end
-
-		if uv1 then
-			uv1()
-		end
-
-		uv0.cg.alpha = 1
-
-		pg.CriMgr.GetInstance():ResumeLastNormalBGM()
-
-		uv0.onPlayingOP = false
-	end
-
-	function slot5()
+function slot0.playOpening(slot0, slot1)
+	pg.CpkPlayMgr.GetInstance():PlayCpkMovie(function ()
 		if not uv0.cg then
 			uv0.cg = GetOrAddComponent(uv0._tf, "CanvasGroup")
 		end
 
 		uv0.cg.alpha = 0
-		uv0.openingAni.enabled = true
+	end, function ()
+		uv0.cg.alpha = 1
 
-		onButton(uv0, uv0.openingTF, function ()
-			if uv0 then
-				uv1()
-			end
-		end)
-
-		slot0 = uv0.openingTF:GetComponent("DftAniEvent")
-
-		slot0:SetStartEvent(function (slot0)
-			if uv0.criAni then
-				uv0.criAni.player:SetVolume(PlayerPrefs.GetFloat("bgm_vol", DEFAULT_BGMVOLUME))
-				uv0.criAni:Play()
-			end
-		end)
-		slot0:SetEndEvent(function (slot0)
-			uv0()
-		end)
-		setActive(uv0.openingTF, true)
-		pg.CriMgr.GetInstance():StopBGM()
-	end
-
-	if IsNil(slot0.openingTF) then
-		LoadAndInstantiateAsync("ui", "opening", function (slot0)
-			pg.UIMgr.GetInstance():LoadingOff()
-
-			uv0.manaCloseLimit = Time.realtimeSinceStartup + 1
-			uv0.openingTF = slot0
-
-			pg.UIMgr.GetInstance():OverlayPanel(uv0.openingTF.transform)
-
-			uv0.criAni = tf(uv0.openingTF):Find("usm"):GetComponent("CriManaEffectUI")
-			uv0.openingAni = uv0.openingTF:GetComponent("Animator")
-
+		if uv1 then
 			uv1()
-		end)
-	else
-		slot5()
-	end
+		end
+	end, "ui", "opening", true, true, nil)
+
+	slot0.onPlayingOP = true
 end
 
 return slot0
