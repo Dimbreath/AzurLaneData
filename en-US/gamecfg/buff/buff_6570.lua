@@ -26,6 +26,23 @@ return {
 					5
 				}
 			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onStartGame"
+			},
+			arg_list = {
+				minWeaponNumber = 1,
+				check_weapon = true,
+				skill_id = 6571,
+				index = {
+					3
+				},
+				type = {
+					5
+				}
+			}
 		}
 	}
 }

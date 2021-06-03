@@ -315,7 +315,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "I have no idea no idea what you're trying to say, Boise. Let's hear the message first.",
+			say = "I have no idea what you're trying to say, Boise. Let's hear the message first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

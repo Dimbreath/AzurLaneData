@@ -1,110 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_2 = {
-	[101370] = {
-		name = "Kalk",
-		ship_group = 10137,
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "Benson class Destroyer— Kalk, hull number DD-611.",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "keerke",
-		no_showing = "0",
-		air_bullet_skin = "",
-		bg_sp = "",
-		shop_type_id = 0,
-		hand_id = 5,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		spine_offset = "",
-		bg = "",
-		special_effects = "",
-		skin_type = -1,
-		id = 101370,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "keerke",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 151,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.23,
-					0.95,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.21,
-					0.89,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.18,
-					0.02,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.31,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[101371] = {
 		name = "Snow Fairy Schoolgirl",
 		ship_group = 10137,
@@ -6468,6 +6363,120 @@ pg.ship_skin_template_2 = {
 			}
 		}
 	},
+	[102142] = {
+		name = "Persephone's Throne",
+		ship_group = 10214,
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "As unreliable as you are, I didn't think you'd be too scared to approach a movie prop... You're just \"admiring it from a distance?\" ...Fair enough.",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "mengbiliai_3",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 7,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		spine_offset = "",
+		bg = "146",
+		special_effects = "",
+		skin_type = 0,
+		id = 102142,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "mengbiliai_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70556,
+		voice_actor = 131,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.15,
+					3.09,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.14,
+					3.1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.14,
+					3.06,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.75,
+							2.19,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[102150] = {
 		name = "Denver",
 		ship_group = 10215,
@@ -7622,6 +7631,111 @@ pg.ship_skin_template_2 = {
 						{
 							-0.49,
 							2.23,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[102230] = {
+		name = "Birmingham",
+		ship_group = 10223,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "Cleveland-class light cruiser – Birmingham, Hull Number CL-62.",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "bominghan",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		spine_offset = "",
+		bg = "",
+		special_effects = "",
+		skin_type = -1,
+		id = 102230,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bominghan",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 203,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.088,
+					1.068,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.039,
+					0.032,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.071,
+					1.046,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.183,
 							-0.16
 						}
 					}

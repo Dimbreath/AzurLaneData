@@ -231,6 +231,9 @@ pg.activity_const = {
 	ACTIVITY_TYPE_RETURN_AWARD_ID3 = {
 		act_id = 30472
 	},
+	ACTIVITY_TYPE_RETURN_AWARD_ID4 = {
+		act_id = 990
+	},
 	BISMARCK_CHAPTER_ID = {
 		act_id = 30146
 	},

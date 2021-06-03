@@ -5964,6 +5964,97 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	{
+		ship_group = 20705,
+		name = "Formidable",
+		sculpture = "kewei",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 223,
+		group_id = 223,
+		order = 16,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 89902,
+		name = "Isuzuzu",
+		sculpture = "wushiling",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 224,
+		group_id = 224,
+		order = 16,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 30205,
+		name = "Champagne",
+		sculpture = "xiangbin",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 225,
+		group_id = 225,
+		order = 16,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 40601,
+		name = "Weser",
+		sculpture = "weixi_3",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 226,
+		group_id = 226,
+		order = 16,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10112,
+		name = "L.B.Thatcher",
+		sculpture = "saqieer",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 227,
+		group_id = 227,
+		order = 16,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 70104,
+		name = "Ташкент",
+		sculpture = "tashigan_idol",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 228,
+		group_id = 228,
+		order = 16,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10209,
+		name = "Cleveland☆Knight",
+		sculpture = "kelifulan_idol",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 229,
+		group_id = 229,
+		order = 16,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -6186,6 +6277,13 @@ pg.activity_ins_template = {
 		219,
 		220,
 		221,
-		222
+		222,
+		223,
+		224,
+		225,
+		226,
+		227,
+		228,
+		229
 	}
 }

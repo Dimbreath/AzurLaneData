@@ -84,7 +84,7 @@ function slot0.setSkin(slot0, slot1)
 	slot0._shade:GetComponent(typeof(Image)).color = Color.New(0, 0, 0, 1)
 
 	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/" .. ("star_level_unlock_anim_" .. slot1))) then
-		slot0:playOpening(false, function ()
+		slot0:playOpening(function ()
 			uv0:setSkinPri(uv1)
 		end, slot2)
 	else
@@ -425,87 +425,17 @@ function slot0.closeSelectPanel(slot0)
 	end
 end
 
-function slot0.playOpening(slot0, slot1, slot2, slot3)
-	slot0.onPlayingOP = true
-
-	function slot4()
-		if not uv0.openingTF then
-			return
-		end
-
-		setActive(uv0.openingTF, false)
-
-		uv0.openingAni.enabled = false
-
-		if uv0.criAni then
-			uv0.criAni:Stop()
-		end
-
-		if uv0.openingTF then
-			pg.UIMgr.GetInstance():UnOverlayPanel(uv0.openingTF.transform, uv0._tf)
-			Destroy(uv0.openingTF)
-
-			uv0.openingTF = nil
-		end
-
-		if uv1 then
-			uv1()
-		end
-	end
-
-	function slot5()
-		if not uv0.cg then
-			uv0.cg = GetOrAddComponent(uv0._tf, "CanvasGroup")
-		end
-
-		uv0.cg.alpha = 0
-		uv0.openingAni.enabled = true
-
-		onButton(uv0, uv0.openingTF, function ()
-			if uv0 then
-				uv1()
-			end
-		end)
-
-		slot0 = uv0.openingTF:GetComponent("DftAniEvent")
-
-		slot0:SetStartEvent(function (slot0)
-			if uv0.criAni then
-				uv0.criAni:Play()
-			end
-		end)
-		slot0:SetEndEvent(function (slot0)
+function slot0.playOpening(slot0, slot1, slot2)
+	pg.CpkPlayMgr.GetInstance():PlayCpkMovie(function ()
+	end, function ()
+		if uv0 then
 			uv0()
-		end)
-		setActive(uv0.openingTF, true)
-	end
-
-	if IsNil(slot0.openingTF) then
-		LoadAndInstantiateAsync("ui", slot3, function (slot0)
-			slot0:SetActive(false)
-
-			uv0.openingTF = slot0
-
-			pg.UIMgr.GetInstance():OverlayPanel(uv0.openingTF.transform)
-
-			uv0.criAni = tf(uv0.openingTF):Find("usm"):GetComponent("CriManaEffectUI")
-
-			setActive(uv0.openingTF, false)
-
-			uv0.openingAni = uv0.openingTF:GetComponent("Animator")
-
-			uv1()
-		end)
-	else
-		slot5()
-	end
+		end
+	end, "ui", slot2, false, false, nil)
 end
 
 function slot0.willExit(slot0)
-	if slot0.openingTF then
-		SetParent(slot0.openingTF, slot0._tf)
-	end
-
+	pg.CpkPlayMgr.GetInstance():DisposeCpkMovie()
 	pg.TipsMgr.GetInstance():ShowTips(i18n("ship_newSkinLayer_get", pg.ship_data_statistics[slot0._skinConfig.ship_group * 10 + 1].name, HXSet.hxLan(slot0._skinConfig.name)), COLOR_GREEN)
 	slot0:recyclePainting()
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)

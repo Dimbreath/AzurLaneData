@@ -2774,6 +2774,21 @@ pg.memory_group = {
 			1722
 		}
 	},
+	[563] = {
+		title = "Me and the Boise",
+		type = 3,
+		id = 563,
+		icon = "title_chara_boyixi",
+		memories = {
+			1725,
+			1726,
+			1727,
+			1728,
+			1729,
+			1730,
+			1731
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2928,6 +2943,7 @@ pg.memory_group = {
 		559,
 		560,
 		561,
-		562
+		562,
+		563
 	}
 }

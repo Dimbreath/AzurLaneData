@@ -148,7 +148,7 @@ function OnApplicationExit()
 		return
 	end
 
-	if nowWorld.staminaMgr:IsShowing() then
+	if nowWorld and nowWorld.staminaMgr:IsShowing() then
 		nowWorld.staminaMgr:Hide()
 
 		return

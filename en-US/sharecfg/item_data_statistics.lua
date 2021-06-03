@@ -11996,7 +11996,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 	},
 	[40910] = {
 		drop_gold_max = 0,
-		name = "Night Out Lucky Bag ",
+		name = "Exquisite Lucky Bag 2020 ",
 		display = "Contains 1 Random Outfit, 2020 Gems, 50 Cognitive Chips, 20 Wisdom Cubes, 2 Advanced Universal Blueprints (2nd Batch), 10 Quick Finishers, and 100 Furniture Coins ",
 		type = 17,
 		is_world = 0,
@@ -12178,6 +12178,61 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			{
 				2,
 				69913,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40914] = {
+		drop_gold_max = 0,
+		name = "Exquisite Lucky Box 2021 ",
+		display = "Contains 1 Random Outfit, 2021 Gems, 50 Cognitive Chips, 20 Wisdom Cubes, 2 Special General Blueprints - Series 3, 10 Quick Finishers, and 100 Furniture Coins ",
+		type = 17,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/lihe6",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 40914,
+		display_icon = {
+			{
+				2,
+				69914,
 				1
 			},
 			{
@@ -133834,6 +133889,35 @@ The available outfits and their rarities are as follows:
 		price = {},
 		index = {}
 	},
+	[69914] = {
+		drop_gold_max = 0,
+		name = "Random Skin",
+		display = [[
+Use this to randomly obtain one of the following outfits (duplicate outfits will be converted into a corresponding sum of Gems) 
+The available outfits and their rarities are as follows:
+(<color=#92fc63>12.5%</color>）Weser: Urbane Onyx (<color=#92fc63>Live 2D</color>);
+(<color=#92fc63>13.1%</color>) Formidable: Timeless Classics
+(<color=#92fc63>13.1%</color>) Hermione: Graceful Afternoon Tea;
+(<color=#92fc63>13.1%</color>) Montpelier: Persephone's Throne;
+(<color=#92fc63>13.1%</color>) Hood: Dawnlight's Dame;
+(<color=#92fc63>11.7%</color>) Black Prince: Pop the Cork;
+(<color=#92fc63>11.7%</color>) Valiant: Queen Valiant I;
+(<color=#92fc63>11.7%</color>) Naganami: Long-Awaited Warmth]],
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/clothIcon",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 69914,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[69951] = {
 		drop_gold_max = 0,
 		name = "Random Nep Ship skin.",
@@ -136518,6 +136602,7 @@ The available outfits and their rarities are as follows:
 		40911,
 		40912,
 		40913,
+		40914,
 		40951,
 		40952,
 		40953,
@@ -139329,6 +139414,7 @@ The available outfits and their rarities are as follows:
 		69911,
 		69912,
 		69913,
+		69914,
 		69951,
 		69952,
 		69953,

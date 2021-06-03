@@ -167,7 +167,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "You'll get nowhere if you allow yourself to get stuck on every little thing though, right? Even if your powers also a bit of a curse, you've already made it this far!",
+			say = "You'll get nowhere if you allow yourself to get stuck on every little thing though, right? Even if your power's also a bit of a curse, you've already made it this far!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

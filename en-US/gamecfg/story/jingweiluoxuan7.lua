@@ -396,7 +396,7 @@ return {
 			actor = 102050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "I think so to. Back then, we encountered one of the Ashes and were able to fight our way out.",
+			say = "I think so too. Back then, we encountered one of the Ashes and were able to fight our way out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

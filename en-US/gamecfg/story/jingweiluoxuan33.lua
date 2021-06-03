@@ -95,7 +95,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa550",
 			hidePaintObj = true,
-			say = "Commander, I see you've already begun investigating the Ashes.",
+			say = "Commander has already started investigating the Ashes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa550",
 			hidePaintObj = true,
-			say = ".........But you are not like that, Commander.",
+			say = "But...... Commander is not like that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			actor = 900316,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = ".........Indeed. I am different.",
+			say = ".........Indeed. The Commander is different...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa550",
 			hidePaintObj = true,
-			say = "How is your health? Are you still having flashbacks?",
+			say = "By the way, how is your health? Are you still having flashbacks?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa550",
 			hidePaintObj = true,
-			say = "...Then, let us continue to \"wander,\" together.",
+			say = "...Then, the two of us will continue to wander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

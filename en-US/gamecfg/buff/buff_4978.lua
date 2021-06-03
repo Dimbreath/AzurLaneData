@@ -24,6 +24,7 @@ return {
 				"onRemove"
 			},
 			arg_list = {
+				group = 4971,
 				number = 0.354,
 				attr = "dodgeRateExtra"
 			}
