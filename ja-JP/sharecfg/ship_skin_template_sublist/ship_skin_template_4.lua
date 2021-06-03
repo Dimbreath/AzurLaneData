@@ -1,5 +1,135 @@
 pg = pg or {}
 pg.ship_skin_template_4 = {
+	[105170] = {
+		ship_group = 10517,
+		name = "ニュージャージー",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "アイオワ級戦艦・ニュージャージー（BB-62)",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "xinzexi",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 105170,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "xinzexi",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 273,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.25,
+					1.22,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.23,
+					1.21,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					-0.001,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.245,
+					1.238,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.641,
+							2.55,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-20,
+				-715,
+				0
+			},
+			{
+				1.1
+			}
+		},
+		special_effects = {
+			"xinzexi",
+			{
+				100,
+				-10,
+				0
+			},
+			{
+				1
+			}
+		}
+	},
 	[105171] = {
 		ship_group = 10517,
 		name = "リッピング・ステッピング！",
@@ -6989,103 +7119,6 @@ pg.ship_skin_template_4 = {
 						{
 							-0.433,
 							2.831,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[108030] = {
-		ship_group = 10803,
-		name = "カヴァラ",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "ガトー級潜水艦カヴァラ・SS-244",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "jiqi",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 5,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
-		bg = "",
-		skin_type = -1,
-		id = 108030,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "jiqi",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 199,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.79,
-					0.533,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.753,
-					0.132,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.433,
-							2.271,
 							0
 						}
 					}

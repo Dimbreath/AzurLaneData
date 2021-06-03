@@ -2182,6 +2182,206 @@ pg.pay_data_display = {
 		},
 		ignorePlatform = {}
 	},
+	{
+		limit_arg = 1,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		name = "福袋(夏2021)",
+		descrip = "アイテム・資源とランダムなドレス（夏2021）シリーズの着せ替え衣装を入手可能",
+		subject = "四周年礼盒",
+		extra_service = 3,
+		money = 3680,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe6_l",
+		id_str = "com.bilibili.blhx.zuanshi128",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 29,
+		airijp_id = "com.yostarjp.azurlane.diamond120",
+		extra_service_item = {
+			{
+				2,
+				69914,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					5,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					6,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69914,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		ignorePlatform = {}
+	},
+	{
+		limit_arg = 1,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		name = "福袋(夏2020) (復刻)",
+		descrip = "アイテム・資源とランダムなドレス（夏2020）シリーズの着せ替え衣装を入手可能",
+		subject = "三周年礼盒复刻",
+		extra_service = 3,
+		money = 3680,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe3_l",
+		id_str = "com.bilibili.blhx.zuanshi129",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 30,
+		airijp_id = "com.yostarjp.azurlane.diamond121",
+		extra_service_item = {
+			{
+				2,
+				69910,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					5,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					6,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69910,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			}
+		},
+		ignorePlatform = {}
+	},
 	all = {
 		1,
 		2,
@@ -2210,6 +2410,8 @@ pg.pay_data_display = {
 		25,
 		26,
 		27,
-		28
+		28,
+		29,
+		30
 	}
 }

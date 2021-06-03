@@ -10,7 +10,6 @@ slot0.MODE_WORLD = "world"
 slot0.MODE_REMOULD = "remould"
 slot0.MODE_UPGRADE = "upgrade"
 slot0.MODE_GUILD_BOSS = "guildboss"
-slot0.MODE_BACKYARD = "backyard"
 slot0.TITLE_CN_OVERVIEW = i18n("word_dockyard")
 slot0.TITLE_CN_UPGRADE = i18n("word_dockyardUpgrade")
 slot0.TITLE_CN_DESTROY = i18n("word_dockyardDestroy")
@@ -345,7 +344,7 @@ end
 
 function slot0.onInitItem(slot0, slot1)
 	slot2 = nil
-	slot2 = (not slot0.contextData.mode or slot0.contextData.mode ~= uv0.MODE_BACKYARD or DockyardShipItemForBackYard.New(slot1, slot0.contextData.hideTagFlags, slot0.contextData.blockTagFlags)) and (slot0.contextData.selectFriend or DockyardShipItem.New(slot1, slot0.contextData.hideTagFlags, slot0.contextData.blockTagFlags)) and DockyardFriend.New(slot1)
+	slot2 = (not slot0.contextData.selectFriend or DockyardFriend.New(slot1)) and (not slot0.contextData.energyDisplay or DockyardShipItemForEnergy.New(slot1, slot0.contextData.hideTagFlags, slot0.contextData.blockTagFlags)) and DockyardShipItem.New(slot1, slot0.contextData.hideTagFlags, slot0.contextData.blockTagFlags)
 
 	slot2:updateDetail(slot0.itemDetailType)
 

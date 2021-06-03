@@ -57,6 +57,7 @@ function slot0.register(slot0)
 	end)
 
 	slot0.taskTriggers = {}
+	slot0.submittingTask = {}
 end
 
 function slot0.getTasksForBluePrint(slot0)
@@ -106,10 +107,7 @@ function slot0.addTask(slot0, slot1)
 	slot0.data[slot1.id]:display("added")
 	slot0.data[slot1.id]:onAdded()
 	slot0.facade:sendNotification(uv0.TASK_ADDED, slot1:clone())
-
-	if slot1:GetRealType() == 10 and slot1:isFinish() then
-		slot0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
-	end
+	slot0:checkAutoSubmitTask(slot1)
 end
 
 function slot0.updateTask(slot0, slot1)
@@ -118,10 +116,7 @@ function slot0.updateTask(slot0, slot1)
 
 	slot0.data[slot1.id]:display("updated")
 	slot0.facade:sendNotification(uv0.TASK_UPDATED, slot1:clone())
-
-	if slot1:GetRealType() == 10 and slot1:isFinish() then
-		slot0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
-	end
+	slot0:checkAutoSubmitTask(slot1)
 end
 
 function slot0.getTasks(slot0)
@@ -285,12 +280,32 @@ function slot0.isReceiveTasks(slot0, slot1)
 	end)
 end
 
+function slot0.IsAutoSubmitTask(slot0)
+	return slot0:GetRealType() == 10 and slot0:isFinish()
+end
+
 function slot0.pushAutoSubmitTask(slot0)
 	for slot4, slot5 in pairs(slot0.data) do
-		if slot5:GetRealType() == 10 and slot5:isFinish() then
-			slot0:sendNotification(GAME.SUBMIT_TASK, slot5.id)
-		end
+		slot0:checkAutoSubmitTask(slot5)
 	end
+end
+
+function slot0.checkAutoSubmitTask(slot0, slot1)
+	if uv0.IsAutoSubmitTask(slot1) then
+		slot0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
+	end
+end
+
+function slot0.addSubmittingTask(slot0, slot1)
+	slot0.submittingTask[slot1] = true
+end
+
+function slot0.removeSubmittingTask(slot0, slot1)
+	slot0.submittingTask[slot1] = nil
+end
+
+function slot0.isSubmitting(slot0, slot1)
+	return slot0.submittingTask[slot1]
 end
 
 function slot0.triggerClientTasks(slot0)

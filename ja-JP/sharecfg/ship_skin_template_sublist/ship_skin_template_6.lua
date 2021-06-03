@@ -1,5 +1,116 @@
 pg = pg or {}
 pg.ship_skin_template_6 = {
+	[201330] = {
+		ship_group = 20133,
+		name = "イカルス",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "I級駆逐艦・イカルス",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "yikaluosi",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "",
+		skin_type = -1,
+		id = 201330,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yikaluosi",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 18,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.151,
+					1.169,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.194,
+					1.173,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.019,
+					0.003,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.219,
+					1.185,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.32,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[201331] = {
 		ship_group = 20133,
 		name = "医療施設体験週？",
@@ -7385,6 +7496,119 @@ pg.ship_skin_template_6 = {
 			}
 		}
 	},
+	[202243] = {
+		ship_group = 20224,
+		name = "ポップ・ザ・コルク",
+		bg_sp = "",
+		group_index = 3,
+		illustrator2 = -1,
+		desc = "パーティーと言えばシャンパンだよね？うん、こうして力を入れてガンガン振ってから開けると……っ！？指揮官、危ない！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "heitaizi_4",
+		air_bullet_skin = "",
+		shop_type_id = 7,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "146",
+		skin_type = 0,
+		id = 202243,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "heitaizi_4",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70558,
+		voice_actor = 77,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.06,
+					1.08,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.09,
+					1.11,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.139,
+					1.105,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.672,
+							2.419,
+							-0.568
+						}
+					}
+				}
+			}
+		}
+	},
 	[202250] = {
 		ship_group = 20225,
 		name = "シェフィールド(μ兵装)",
@@ -7587,230 +7811,6 @@ pg.ship_skin_template_6 = {
 				{
 					1.149,
 					1.335,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.39,
-							2.376,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[202261] = {
-		ship_group = 20226,
-		name = "メイド・クラスメイト",
-		bg_sp = "",
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "ほ、他の服を着てる姿も見てもらいたいから、着替えたけど……別に「こすぷれ」じゃありません！これでも学園に通ってるんだからね！…こ、これでいい？",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "gelasige_2",
-		air_bullet_skin = "",
-		shop_type_id = 4,
-		hand_id = 13,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
-		bg = "103",
-		skin_type = 0,
-		id = 202261,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "gelasige_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70274,
-		voice_actor = 129,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.35,
-					1.266,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.355,
-					1.32,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.001,
-					0.001,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.343,
-					1.335,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.39,
-							2.376,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[202270] = {
-		ship_group = 20227,
-		name = "ハーマイオニー",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "ダイドー級軽巡洋艦・ハーマイオニー（HMS Hermione）",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "hemin",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 1,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
-		bg = "",
-		skin_type = -1,
-		id = 202270,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "hemin",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 242,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.506,
-					1.264,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.579,
-					1.263,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.001,
-					0.001,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.575,
-					1.289,
 					0
 				}
 			}

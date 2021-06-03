@@ -1,5 +1,111 @@
 pg = pg or {}
 pg.ship_skin_template_3 = {
+	[102231] = {
+		ship_group = 10223,
+		name = "ナイト・イン・レッド",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "おはよう指揮官。相乗りは残念ながら無理だが、私が降りてこの子を押しながら一緒に歩こうか？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "bominghan_2",
+		air_bullet_skin = "",
+		shop_type_id = 4,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "103",
+		skin_type = 0,
+		id = 102231,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bominghan_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70209,
+		voice_actor = 203,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.074,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.032,
+					0.025,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.042,
+					0.98,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.183,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
 	[102232] = {
 		ship_group = 10223,
 		name = "豊年の瑞雪",
@@ -1453,8 +1559,8 @@ pg.ship_skin_template_3 = {
 			2
 		},
 		live2d_offset = {
-			220,
-			-30,
+			170,
+			-35,
 			0
 		},
 		fx_container = {
@@ -7443,136 +7549,6 @@ pg.ship_skin_template_3 = {
 						}
 					}
 				}
-			}
-		}
-	},
-	[105170] = {
-		ship_group = 10517,
-		name = "ニュージャージー",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "アイオワ級戦艦・ニュージャージー（BB-62)",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "xinzexi",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 1,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		skin_type = -1,
-		id = 105170,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "xinzexi",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 273,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.25,
-					1.22,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.23,
-					1.21,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.001,
-					-0.001,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.245,
-					1.238,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.641,
-							2.55,
-							0
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			{
-				-20,
-				-715,
-				0
-			},
-			{
-				1.1
-			}
-		},
-		special_effects = {
-			"xinzexi",
-			{
-				100,
-				-10,
-				0
-			},
-			{
-				1
 			}
 		}
 	}

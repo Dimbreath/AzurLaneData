@@ -23,7 +23,7 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onFriendlyHpRatioUpdate"
+				"onTeammateHpRatioUpdate"
 			},
 			arg_list = {
 				hpUpperBound = 0.2,

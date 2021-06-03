@@ -1843,7 +1843,7 @@ pg.ship_skin_template_2 = {
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "フレッチャー級駆逐艦・キンバリー（DD-538)",
+		desc = "フレッチャー級駆逐艦・ステフェン・ポッター（DD-538)",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "shidifenbote",
@@ -6295,6 +6295,119 @@ pg.ship_skin_template_2 = {
 			}
 		}
 	},
+	[102142] = {
+		ship_group = 10214,
+		name = "プリンセス・メタモルフォーゼ",
+		bg_sp = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "いくら頼りにならない指揮官でも、映画の撮影セットに驚かなければそんな顔はしないはずだ。…感心しているだけ？……別にいい",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "mengbiliai_3",
+		air_bullet_skin = "",
+		shop_type_id = 7,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "146",
+		skin_type = 0,
+		id = 102142,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "mengbiliai_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70556,
+		voice_actor = 131,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.15,
+					3.09,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.14,
+					3.1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.14,
+					3.06,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.75,
+							2.19,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[102150] = {
 		ship_group = 10215,
 		name = "デンバー",
@@ -7529,112 +7642,6 @@ pg.ship_skin_template_2 = {
 				{
 					1.071,
 					1.046,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.183,
-							-0.16
-						}
-					}
-				}
-			}
-		}
-	},
-	[102231] = {
-		ship_group = 10223,
-		name = "ナイト・イン・レッド",
-		bg_sp = "",
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "おはよう指揮官。相乗りは残念ながら無理だが、私が降りてこの子を押しながら一緒に歩こうか？",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "bominghan_2",
-		air_bullet_skin = "",
-		shop_type_id = 4,
-		hand_id = 13,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
-		bg = "103",
-		skin_type = 0,
-		id = 102231,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "bominghan_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70209,
-		voice_actor = 203,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.074,
-					1.01,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.032,
-					0.025,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.042,
-					0.98,
 					0
 				}
 			}

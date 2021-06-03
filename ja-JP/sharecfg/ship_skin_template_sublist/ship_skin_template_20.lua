@@ -1,5 +1,951 @@
 pg = pg or {}
 pg.ship_skin_template_20 = {
+	[10300011] = {
+		ship_group = 1030001,
+		name = "クオン(うたわれるもの)",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "クオン。それが私の名前。",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "jiuyuan_2",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 14,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "206",
+		skin_type = 0,
+		id = 10300011,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "jiuyuan_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70118,
+		voice_actor = 46,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.01,
+					1.21,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.21,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.01,
+					1.17,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10300020] = {
+		ship_group = 1030002,
+		name = "ネコネ",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "風来人ウコンの妹にして参謀、ネコネが着任したのです。指揮官さんの実力、見極めさせてもらうのですよ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "maoyin",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 6,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "",
+		skin_type = -1,
+		id = 10300020,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "maoyin",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 157,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.96,
+					0.81,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.16,
+					0.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.73,
+					0.81,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10300021] = {
+		ship_group = 1030002,
+		name = "ネコネ(うたわれるもの)",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "えっ？は、はい……はじめ……まして……です。",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "maoyin_2",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 6,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "208",
+		skin_type = 0,
+		id = 10300021,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "maoyin_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70119,
+		voice_actor = 157,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.96,
+					0.81,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.16,
+					0.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.73,
+					0.81,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10300030] = {
+		ship_group = 1030003,
+		name = "ルルティエ",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "はじめまして……ルルティエ、と申します。ゆえあって、こちらに身を寄せることになりました。ふ、不束者ですが……どうぞよろしくお願いします",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "lulutiye",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 14,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "",
+		skin_type = -1,
+		id = 10300030,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "lulutiye",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 8,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.09,
+					1.15,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.07,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.05,
+					1.13,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.65,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10300031] = {
+		ship_group = 1030003,
+		name = "ルルティエ(うたわれるもの)",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "ルルティエです、よろしくお願いします。",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "lulutiye_2",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 14,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "207",
+		skin_type = 0,
+		id = 10300031,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "lulutiye_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70122,
+		voice_actor = 8,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.09,
+					1.15,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.07,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.05,
+					1.13,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.65,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10300040] = {
+		ship_group = 1030004,
+		name = "ウルゥル",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "ウルゥル",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "wululu",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 6,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "",
+		skin_type = -1,
+		id = 10300040,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "wululu",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 21,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.92,
+					1.08,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.13,
+					0.08,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.98,
+					0.93,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10300041] = {
+		ship_group = 1030004,
+		name = "ウルゥル(うたわれるもの)",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "ウルゥル。ここに誓いの印を。主様に、永久なる忠誠を。",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "wululu_2",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 6,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "209",
+		skin_type = 0,
+		id = 10300041,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "wululu_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70120,
+		voice_actor = 21,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.92,
+					1.08,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.13,
+					0.08,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.98,
+					0.93,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10300050] = {
+		ship_group = 1030005,
+		name = "サラァナ",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "鎖の巫サラァナ──主様の命により参りました。本日より指揮官様にお仕えさせていただきます",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "salana",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 8,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "",
+		skin_type = -1,
+		id = 10300050,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "salana",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 21,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.11,
+					0.82,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.13,
+					0.08,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.04,
+					0.81,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10300051] = {
+		ship_group = 1030005,
+		name = "サラァナ(うたわれるもの)",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "隣が姉のウルゥル。わたしはサラァナと申します。わたし達の全てを捧げる証をここに。主様に、永久なる忠誠を。",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "salana_2",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 8,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "209",
+		skin_type = 0,
+		id = 10300051,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "salana_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70121,
+		voice_actor = 21,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.11,
+					0.82,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.13,
+					0.08,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.04,
+					0.81,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[10300060] = {
 		ship_group = 1030006,
 		name = "フミルィル",

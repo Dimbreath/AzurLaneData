@@ -135,6 +135,7 @@ function slot0.register(slot0)
 			selectedMin = 0,
 			useBlackBlock = true,
 			selectedMax = 1,
+			energyDisplay = true,
 			ignoredIds = slot4,
 			leastLimitMsg = i18n("battle_preCombatMediator_leastLimit"),
 			quitTeam = slot1 ~= nil,

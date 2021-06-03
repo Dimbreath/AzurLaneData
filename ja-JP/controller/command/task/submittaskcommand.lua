@@ -29,30 +29,38 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
+	if slot5:isSubmitting(slot3) then
+		return
+	else
+		slot5:addSubmittingTask(slot3)
+	end
+
 	pg.ConnectionMgr.GetInstance():Send(20005, {
 		id = slot6.id,
 		choice_award = slot4
 	}, 20006, function (slot0)
+		uv0:removeSubmittingTask(uv1)
+
 		if slot0.result == 0 then
-			if uv0:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_ITEM then
-				getProxy(BagProxy):removeItemById(tonumber(uv0:getConfig("target_id_for_client")), tonumber(uv0:getConfig("target_num")))
-			elseif uv0:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_VIRTUAL_ITEM then
-				getProxy(ActivityProxy):removeVitemById(uv0:getConfig("target_id_for_client"), uv0:getConfig("target_num"))
-			elseif uv0:getConfig("sub_type") == TASK_SUB_TYPE_PLAYER_RES then
+			if uv2:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_ITEM then
+				getProxy(BagProxy):removeItemById(tonumber(uv2:getConfig("target_id_for_client")), tonumber(uv2:getConfig("target_num")))
+			elseif uv2:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_VIRTUAL_ITEM then
+				getProxy(ActivityProxy):removeVitemById(uv2:getConfig("target_id_for_client"), uv2:getConfig("target_num"))
+			elseif uv2:getConfig("sub_type") == TASK_SUB_TYPE_PLAYER_RES then
 				slot3 = getProxy(PlayerProxy)
 				slot4 = slot3:getData()
 
 				slot4:consume({
-					[id2res(uv0:getConfig("target_id_for_client"))] = uv0:getConfig("target_num")
+					[id2res(uv2:getConfig("target_id_for_client"))] = uv2:getConfig("target_num")
 				})
 				slot3:updatePlayer(slot4)
 			end
 
-			if uv0:IsGuildAddLivnessType() then
+			if uv2:IsGuildAddLivnessType() then
 				slot3 = 0
 				slot4 = false
 
-				if getProxy(GuildProxy):getData() and uv0:isGuildTask() then
+				if getProxy(GuildProxy):getData() and uv2:isGuildTask() then
 					slot2:setWeeklyTaskFlag(1)
 
 					if slot2:getWeeklyTask() then
@@ -60,9 +68,9 @@ function slot0.execute(slot0, slot1)
 					end
 
 					slot4 = true
-				elseif uv0:IsRoutineType() then
+				elseif uv2:IsRoutineType() then
 					slot3 = pg.guildset.daily_task_guild_active.key_value
-				elseif uv0:IsWeeklyType() then
+				elseif uv2:IsWeeklyType() then
 					slot3 = pg.guildset.weekly_task_guild_active.key_value
 				end
 
@@ -80,7 +88,7 @@ function slot0.execute(slot0, slot1)
 			for slot5 = #PlayerConst.addTranDrop(slot0.award_list), 1, -1 do
 				if slot1[slot5].type == DROP_TYPE_VITEM and pg.item_data_statistics[slot6.id].virtual_type == 6 then
 					if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_REFLUX) then
-						slot9[uv0.id] = (slot8.data1KeyValueList[1][uv0.id] or 0) + slot6.count
+						slot9[uv2.id] = (slot8.data1KeyValueList[1][uv2.id] or 0) + slot6.count
 
 						slot7:updateActivity(slot8)
 					end
@@ -89,19 +97,19 @@ function slot0.execute(slot0, slot1)
 				end
 			end
 
-			if uv0:getConfig("type") ~= 8 then
-				uv1:removeTask(uv0)
+			if uv2:getConfig("type") ~= 8 then
+				uv0:removeTask(uv2)
 			else
-				uv0.submitTime = 1
+				uv2.submitTime = 1
 
-				uv1:updateTask(uv0)
+				uv0:updateTask(uv2)
 			end
 
-			uv2:sendNotification(GAME.SUBMIT_TASK_DONE, slot1, {
-				uv0.id
+			uv3:sendNotification(GAME.SUBMIT_TASK_DONE, slot1, {
+				uv2.id
 			})
 
-			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST_MONITOR) and not slot3:isEnd() and table.contains(slot3:getConfig("config_data")[1] or {}, uv0.id) then
+			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST_MONITOR) and not slot3:isEnd() and table.contains(slot3:getConfig("config_data")[1] or {}, uv2.id) then
 				slot2:monitorTaskList(slot3)
 			end
 		else

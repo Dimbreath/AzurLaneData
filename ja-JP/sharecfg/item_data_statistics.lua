@@ -12731,6 +12731,61 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[40914] = {
+		drop_gold_max = 0,
+		name = "福袋(夏2021)",
+		display = "ランダムなドレス（夏2021）シリーズの着せ替え衣装、上級指向型強化ユニット・三期目×2、ダイヤ×2021、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+		type = 17,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/lihe6",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 40914,
+		display_icon = {
+			{
+				2,
+				69914,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[41001] = {
 		drop_gold_max = 520,
 		name = "バレンタインプレゼント",
@@ -141796,6 +141851,36 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[69914] = {
+		drop_gold_max = 0,
+		name = "ランダム衣装（夏2021）",
+		display = [[
+下記の着せ替えをランダム入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます）
+各衣装の出現割合：
+（<color=#92fc63>12.5%</color>）ヴェーザー：黒曜に輝くブラックダイヤ（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>13.1%</color>）フォーミダブル：クラシック・ドレスアップ！；
+（<color=#92fc63>13.1%</color>）ハーマイオニー：午後喫茶「メイドの優雅」；
+（<color=#92fc63>13.1%</color>）モントピリア：プリンセス・メタモルフォーゼ；
+（<color=#92fc63>13.1%</color>）フッド：サンシャイン・グレース；
+（<color=#92fc63>11.7%</color>）ブラック・プリンス：ポップ・ザ・コルク；
+（<color=#92fc63>11.7%</color>）ヴァリアント：ヴァリアント陛下！；
+（<color=#92fc63>11.7%</color>）長波：待ち望む暖かさ；
+]],
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/clothIcon",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 69914,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[70000] = {
 		drop_gold_max = 0,
 		name = "「AIメモリアル」No.1",
@@ -143949,6 +144034,7 @@ pg.item_data_statistics = {
 		40911,
 		40912,
 		40913,
+		40914,
 		41001,
 		41002,
 		41003,
@@ -146978,6 +147064,7 @@ pg.item_data_statistics = {
 		69911,
 		69912,
 		69913,
+		69914,
 		70000,
 		70001,
 		70002,
