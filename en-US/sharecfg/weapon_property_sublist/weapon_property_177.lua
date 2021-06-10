@@ -2,6 +2,119 @@ pg = pg or {}
 pg.weapon_property_177 = {}
 
 function ()
+	uv0.weapon_property_177[69844] = {
+		id = 69844,
+		name = "豪技能LV4",
+		damage = 93,
+		base = 69841
+	}
+	uv0.weapon_property_177[69845] = {
+		id = 69845,
+		name = "豪技能LV5",
+		damage = 101,
+		base = 69841
+	}
+	uv0.weapon_property_177[69846] = {
+		id = 69846,
+		name = "豪技能LV6",
+		damage = 110,
+		base = 69841
+	}
+	uv0.weapon_property_177[69847] = {
+		id = 69847,
+		name = "豪技能LV7",
+		damage = 120,
+		base = 69841
+	}
+	uv0.weapon_property_177[69848] = {
+		id = 69848,
+		name = "豪技能LV8",
+		damage = 131,
+		base = 69841
+	}
+	uv0.weapon_property_177[69849] = {
+		id = 69849,
+		name = "豪技能LV9",
+		damage = 143,
+		base = 69841
+	}
+	uv0.weapon_property_177[69850] = {
+		id = 69850,
+		name = "豪技能LV10",
+		damage = 156,
+		base = 69841
+	}
+	uv0.weapon_property_177[69851] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "U-96技能鱼雷弹幕LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 19,
+		corrected = 100,
+		min_range = 0,
+		id = 69851,
+		attack_attribute_ratio = 120,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19178,
+			19178,
+			19178
+		},
+		barrage_ID = {
+			80927,
+			80928,
+			80929
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_177[69852] = {
+		id = 69852,
+		name = "U-96技能鱼雷弹幕LV2",
+		damage = 21,
+		base = 69851
+	}
+	uv0.weapon_property_177[69853] = {
+		id = 69853,
+		name = "U-96技能鱼雷弹幕LV3",
+		damage = 23,
+		base = 69851
+	}
+	uv0.weapon_property_177[69854] = {
+		name = "U-96技能鱼雷弹幕LV4",
+		damage = 25,
+		base = 69851,
+		id = 69854,
+		barrage_ID = {
+			80930,
+			80931,
+			80929
+		}
+	}
 	uv0.weapon_property_177[69855] = {
 		name = "U-96技能鱼雷弹幕LV5",
 		damage = 27,
@@ -593,111 +706,5 @@ function ()
 		name = "纪伊弹幕鱼雷-LV5",
 		damage = 61,
 		base = 69901
-	}
-	uv0.weapon_property_177[69906] = {
-		id = 69906,
-		name = "纪伊弹幕鱼雷-LV6",
-		damage = 66,
-		base = 69901
-	}
-	uv0.weapon_property_177[69907] = {
-		id = 69907,
-		name = "纪伊弹幕鱼雷-LV7",
-		damage = 72,
-		base = 69901
-	}
-	uv0.weapon_property_177[69908] = {
-		id = 69908,
-		name = "纪伊弹幕鱼雷-LV8",
-		damage = 79,
-		base = 69901
-	}
-	uv0.weapon_property_177[69909] = {
-		id = 69909,
-		name = "纪伊弹幕鱼雷-LV9",
-		damage = 87,
-		base = 69901
-	}
-	uv0.weapon_property_177[69910] = {
-		id = 69910,
-		name = "纪伊弹幕鱼雷-LV10",
-		damage = 96,
-		base = 69901
-	}
-	uv0.weapon_property_177[69911] = {
-		action_index = "attack",
-		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "凉月烟雾弹附属弹幕LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 100,
-		min_range = 0,
-		id = 69911,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 3,
-		attack_attribute = 1,
-		reload_max = 800,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19183,
-			19183
-		},
-		barrage_ID = {
-			80946,
-			80947
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_177[69912] = {
-		id = 69912,
-		name = "凉月烟雾弹附属弹幕LV2",
-		damage = 7,
-		base = 69911
-	}
-	uv0.weapon_property_177[69913] = {
-		id = 69913,
-		name = "凉月烟雾弹附属弹幕LV3",
-		damage = 8,
-		base = 69911
-	}
-	uv0.weapon_property_177[69914] = {
-		id = 69914,
-		name = "凉月烟雾弹附属弹幕LV4",
-		damage = 9,
-		base = 69911
-	}
-	uv0.weapon_property_177[69915] = {
-		id = 69915,
-		name = "凉月烟雾弹附属弹幕LV5",
-		damage = 10,
-		base = 69911
-	}
-	uv0.weapon_property_177[69916] = {
-		id = 69916,
-		name = "凉月烟雾弹附属弹幕LV6",
-		damage = 11,
-		base = 69911
 	}
 end()

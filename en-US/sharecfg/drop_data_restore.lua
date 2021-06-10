@@ -3602,102 +3602,21 @@ pg.drop_data_restore = {
 	},
 	[1142] = {
 		target_type = 7,
-		resource_type = 14,
+		resource_type = 1,
 		type = 1,
 		id = 1142,
-		resource_num = 1180,
-		drop_id = 4974,
-		target_id = 603031
+		resource_num = 2000,
+		drop_id = 65001,
+		target_id = 305021
 	},
 	[1143] = {
 		target_type = 7,
-		resource_type = 14,
+		resource_type = 1,
 		type = 1,
 		id = 1143,
-		resource_num = 1180,
-		drop_id = 4974,
-		target_id = 605011
-	},
-	[1144] = {
-		target_type = 7,
-		resource_type = 14,
-		type = 1,
-		id = 1144,
-		resource_num = 880,
-		drop_id = 4974,
-		target_id = 602011
-	},
-	[1145] = {
-		target_type = 7,
-		resource_type = 14,
-		type = 1,
-		id = 1145,
-		resource_num = 880,
-		drop_id = 4974,
-		target_id = 607011
-	},
-	[1146] = {
-		target_type = 7,
-		resource_type = 14,
-		type = 1,
-		id = 1146,
-		resource_num = 780,
-		drop_id = 4974,
-		target_id = 608011
-	},
-	[1147] = {
-		target_type = 7,
-		resource_type = 14,
-		type = 1,
-		id = 1147,
-		resource_num = 780,
-		drop_id = 4974,
-		target_id = 601051
-	},
-	[1148] = {
-		target_type = 7,
-		resource_type = 14,
-		type = 1,
-		id = 1148,
-		resource_num = 780,
-		drop_id = 4974,
-		target_id = 601041
-	},
-	[1149] = {
-		target_type = 7,
-		resource_type = 14,
-		type = 1,
-		id = 1149,
-		resource_num = 780,
-		drop_id = 4974,
-		target_id = 605062
-	},
-	[1150] = {
-		target_type = 7,
-		resource_type = 14,
-		type = 1,
-		id = 1150,
-		resource_num = 780,
-		drop_id = 4974,
-		target_id = 605051
-	},
-	[1151] = {
-		target_type = 7,
-		resource_type = 14,
-		type = 1,
-		id = 1151,
-		resource_num = 780,
-		drop_id = 4974,
-		target_id = 601061
-	},
-	[1152] = {
-		target_type = 7,
-		resource_type = 14,
-		type = 1,
-		id = 1152,
-		resource_num = 780,
-		drop_id = 4974,
-		target_id = 301851
+		resource_num = 2000,
+		drop_id = 65002,
+		target_id = 101061
 	},
 	all = {
 		1,
@@ -4101,15 +4020,6 @@ pg.drop_data_restore = {
 		1140,
 		1141,
 		1142,
-		1143,
-		1144,
-		1145,
-		1146,
-		1147,
-		1148,
-		1149,
-		1150,
-		1151,
-		1152
+		1143
 	}
 }

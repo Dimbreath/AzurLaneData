@@ -2,6 +2,124 @@ pg = pg or {}
 pg.weapon_property_145 = {}
 
 function ()
+	uv0.weapon_property_145[67793] = {
+		id = 67793,
+		name = "双龙改雷1 Lv3",
+		base = 67791,
+		bullet_ID = {
+			67793
+		}
+	}
+	uv0.weapon_property_145[67794] = {
+		id = 67794,
+		name = "双龙改雷1 Lv4",
+		base = 67791,
+		bullet_ID = {
+			67794
+		}
+	}
+	uv0.weapon_property_145[67795] = {
+		id = 67795,
+		name = "双龙改雷1 Lv5",
+		base = 67791,
+		bullet_ID = {
+			67795
+		}
+	}
+	uv0.weapon_property_145[67796] = {
+		id = 67796,
+		name = "双龙改雷1 Lv6",
+		base = 67791,
+		bullet_ID = {
+			67796
+		}
+	}
+	uv0.weapon_property_145[67797] = {
+		id = 67797,
+		name = "双龙改雷1 Lv7",
+		base = 67791,
+		bullet_ID = {
+			67797
+		}
+	}
+	uv0.weapon_property_145[67798] = {
+		id = 67798,
+		name = "双龙改雷1 Lv8",
+		base = 67791,
+		bullet_ID = {
+			67798
+		}
+	}
+	uv0.weapon_property_145[67799] = {
+		id = 67799,
+		name = "双龙改雷1 Lv9",
+		base = 67791,
+		bullet_ID = {
+			67799
+		}
+	}
+	uv0.weapon_property_145[67800] = {
+		id = 67800,
+		name = "双龙改雷1 Lv10",
+		base = 67791,
+		bullet_ID = {
+			67800
+		}
+	}
+	uv0.weapon_property_145[67801] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 25,
+		shakescreen = 0,
+		name = "2 x 100lb Bomb",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 51,
+		corrected = 100,
+		min_range = 0,
+		id = 67801,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19972
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_145[67802] = {
+		id = 67802,
+		damage = 52,
+		base = 67801
+	}
+	uv0.weapon_property_145[67803] = {
+		id = 67803,
+		damage = 54,
+		base = 67801
+	}
 	uv0.weapon_property_145[67804] = {
 		id = 67804,
 		damage = 57,
@@ -481,142 +599,5 @@ function ()
 		damage = 110,
 		base = 67881,
 		id = 67884
-	}
-	uv0.weapon_property_145[67885] = {
-		reload_max = 3029,
-		name = "厌战改技能LV5",
-		damage = 118,
-		base = 67881,
-		id = 67885
-	}
-	uv0.weapon_property_145[67886] = {
-		reload_max = 2962,
-		damage = 127,
-		base = 67881,
-		id = 67886,
-		name = "厌战改技能LV6",
-		bullet_ID = {
-			19982
-		}
-	}
-	uv0.weapon_property_145[67887] = {
-		reload_max = 2894,
-		damage = 139,
-		base = 67881,
-		id = 67887,
-		name = "厌战改技能LV7",
-		bullet_ID = {
-			19982
-		}
-	}
-	uv0.weapon_property_145[67888] = {
-		reload_max = 2827,
-		damage = 152,
-		base = 67881,
-		id = 67888,
-		name = "厌战改技能LV8",
-		bullet_ID = {
-			19982
-		}
-	}
-	uv0.weapon_property_145[67889] = {
-		reload_max = 2760,
-		damage = 166,
-		base = 67881,
-		id = 67889,
-		name = "厌战改技能LV9",
-		bullet_ID = {
-			19982
-		}
-	}
-	uv0.weapon_property_145[67890] = {
-		reload_max = 2692,
-		damage = 184,
-		base = 67881,
-		id = 67890,
-		name = "厌战改技能LV10",
-		bullet_ID = {
-			19982
-		}
-	}
-	uv0.weapon_property_145[67891] = {
-		action_index = "attack",
-		range = 120,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "剑鱼816",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 120,
-		charge_param = "",
-		damage = 46,
-		corrected = 100,
-		min_range = 0,
-		id = 67891,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 604,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			67891
-		},
-		barrage_ID = {
-			12010
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			2
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_145[67892] = {
-		reload_max = 588,
-		damage = 50,
-		base = 67891,
-		id = 67892,
-		bullet_ID = {
-			67892
-		}
-	}
-	uv0.weapon_property_145[67893] = {
-		reload_max = 572,
-		damage = 54,
-		base = 67891,
-		id = 67893,
-		bullet_ID = {
-			67893
-		}
-	}
-	uv0.weapon_property_145[67894] = {
-		reload_max = 556,
-		damage = 58,
-		base = 67891,
-		id = 67894,
-		bullet_ID = {
-			67894
-		}
-	}
-	uv0.weapon_property_145[67895] = {
-		reload_max = 540,
-		damage = 62,
-		base = 67891,
-		id = 67895,
-		bullet_ID = {
-			67895
-		}
 	}
 end()

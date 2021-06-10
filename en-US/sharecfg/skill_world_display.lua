@@ -1998,6 +1998,20 @@ pg.skill_world_display = {
 			}
 		}
 	},
+	[800121] = {
+		desc_get = "",
+		id = 800121,
+		desc = "[Operation Siren only] \nActivates Ashen Might - Helena I once every 15 times the Main Guns are fired. ",
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800122] = {
+		desc_get = "",
+		id = 800122,
+		desc = "[Operation Siren only] \nActivates Ashen Might - Helena II once every 10 times the Main Guns are fired.",
+		desc_get_add = {},
+		desc_add = {}
+	},
 	all = {
 		3631,
 		4161,
@@ -2019,6 +2033,8 @@ pg.skill_world_display = {
 		14630,
 		19260,
 		105010,
-		105020
+		105020,
+		800121,
+		800122
 	}
 }

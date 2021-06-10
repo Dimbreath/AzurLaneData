@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "You can now play Ashes Showdown, a mode where you fight Ashes ships together with other commanders!",
+				text = "You can now play META Showdown, a mode where you fight META ships together with other commanders!",
 				mode = 2,
 				dir = 1,
 				char = "1",
@@ -38,7 +38,7 @@ return {
 			alpha = 0.4,
 			waitScene = "WorldBossScene",
 			style = {
-				text = "Ashes Showdown is not always open! This run of it will be available for a limited time, shown here!",
+				text = "META Showdown is not always open! This run of it will be available for a limited time, shown here!",
 				mode = 2,
 				dir = 1,
 				char = "1",
@@ -51,7 +51,7 @@ return {
 		},
 		{
 			style = {
-				text = "Be aware that once this run of Ashes Showdown ends, any Ashes Coordinates you used will not be refunded, and you won’t be able to gain new Coordinates in Operation Siren either.",
+				text = "Be aware that once this run of META Showdown ends, any META Coordinates you used will not be refunded, and you won’t be able to gain new Coordinates in Operation Siren either.",
 				mode = 2,
 				dir = 1,
 				char = "1",
@@ -64,7 +64,7 @@ return {
 		},
 		{
 			style = {
-				text = "That aside, let’s get to it! Tap the button to locate the Ashes ship!",
+				text = "That aside, let’s get to it! Tap the button to locate the META ship!",
 				mode = 2,
 				dir = 1,
 				char = "1",

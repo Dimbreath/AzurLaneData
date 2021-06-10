@@ -48850,7 +48850,7 @@ pg.skill_data_template = {
 		name = "Emergency Beardrop",
 		type = 2,
 		max_level = 10,
-		desc = "Decreases the duration of Burns inflicted on this ship by $3. When this ship sinks an enemy: until the end of the battle, increases this ship's AA by $1 and FP by $2, and also increases the ASW of your fleet by $3. This buff can be stacked up to 5 times.",
+		desc = "Decreases the duration of Burns inflicted on this ship by 3s. When this ship sinks an enemy: until the end of the battle, increases this ship's AA by $1 and FP by $2, and also increases the ASW of your fleet by $3. This buff can be stacked up to 5 times.",
 		id = 14490,
 		system_transform = {},
 		world_death_mark = {
@@ -49217,7 +49217,7 @@ $1 chance to activate one of the following effects (chosen at random) when this 
 		name = "Freedom Through Firepower",
 		type = 3,
 		max_level = 10,
-		desc = "Decreases the Spread Range of this ship's equipped Main Gun by $1. When a fleet this ship is NOT in starts a battle, and while this ship is still afloat: fires a $2 supporting barrage 20s after the battle starts (DMG is based on the skill's level); if the Flagship of said fleet is an Eagle Union ship: also increases AVI by $2 for your Eagle Union CVs and CVLs.",
+		desc = "Decreases the Spread Range of this ship's equipped Main Gun by $1. When a fleet this ship is NOT in starts a battle, and while this ship is still afloat: fires a $2 supporting barrage 20s after the battle starts (DMG is based on the skill's level); if the Flagship of said fleet is an Eagle Union ship: also increases AVI by $3 for your Eagle Union CVs and CVLs.",
 		id = 14520,
 		system_transform = {},
 		world_death_mark = {
@@ -65613,6 +65613,379 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[800090] = {
+		desc_get = "",
+		name = "Shadow-Wing Torch ",
+		type = 1,
+		max_level = 10,
+		desc = "Every 20s: fires a $1 special barrage with a 30.0% chance to increase the DMG taken by enemies hit by 10% for 5s (DMG is based on the skill's level). When this ship has any piece of Eagle Union gear equipped: fires this barrage every 15s instead. ",
+		id = 800090,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[800100] = {
+		desc_get = "",
+		name = "Scanner Hacking ",
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's FP and Accuracy by $1. Every 15s: $2 chance to spawn a zone on the battlefield that sets the Speed of enemies within it to 0 for 3s. ",
+		id = 800100,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"50.0%",
+				"100.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"50.0%",
+					"+5.5%"
+				},
+				{
+					"55.5%",
+					"+5.5%"
+				},
+				{
+					"61%",
+					"+5.5%"
+				},
+				{
+					"66.5%",
+					"+5.5%"
+				},
+				{
+					"72.0%",
+					"+5.5%"
+				},
+				{
+					"77.5%",
+					"+5.5%"
+				},
+				{
+					"83.0%",
+					"+5.5%"
+				},
+				{
+					"88.5%",
+					"+5.5%"
+				},
+				{
+					"94.0%",
+					"+6.0%"
+				},
+				{
+					"100.0%"
+				}
+			}
+		}
+	},
+	[800110] = {
+		desc_get = "",
+		name = "Information Addiction ",
+		type = 2,
+		max_level = 10,
+		desc = "Increases the DMG this ship deals to Light Armor enemies by $1. When this ship is sortied with Helena: decreases this ship's DMG taken by $2; When sortied without Helena: increases this ship's EVA by $3 and decreases DMG taken by the frontmost ship in your Vanguard by 5.0%. ",
+		id = 800110,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"8.0%",
+				"18.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"8.0%",
+					"+1.1%"
+				},
+				{
+					"9.1%",
+					"+1.1%"
+				},
+				{
+					"10.2%",
+					"+1.1%"
+				},
+				{
+					"11.3%",
+					"+1.1%"
+				},
+				{
+					"12.4%",
+					"+1.1%"
+				},
+				{
+					"13.5%",
+					"+1.1%"
+				},
+				{
+					"14.6%",
+					"+1.1%"
+				},
+				{
+					"15.7%",
+					"+1.1%"
+				},
+				{
+					"16.8%",
+					"+1.2%"
+				},
+				{
+					"18.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[800121] = {
+		desc_get = "",
+		name = "Ashen Might - Helena I ",
+		type = 3,
+		max_level = 1,
+		desc = "Activates Ashen Might - Helena I once every 15 times the Main Guns are fired. ",
+		id = 800121,
+		system_transform = {
+			[51.0] = 800125
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800122] = {
+		desc_get = "",
+		name = "Ashen Might - Helena II ",
+		type = 3,
+		max_level = 1,
+		desc = "Activates Ashen Might - Helena II once every 10 times the Main Guns are fired.",
+		id = 800122,
+		system_transform = {
+			[51.0] = 800127
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800125] = {
+		desc_get = "",
+		name = "Ashen Might - Helena I ",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nActivates Ashen Might - Helena I once every 15 times the Main Guns are fired. When fighting humanoid Siren fleets or Boss fleets: increases your Vanguard's DMG dealt by 3.0%.",
+		id = 800125,
+		system_transform = {
+			[51.0] = 800125
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800127] = {
+		desc_get = "",
+		name = "Ashen Might - Helena II ",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nActivates Ashen Might - Helena II once every 10 times the Main Guns are fired. When fighting humanoid Siren fleets or Boss fleets: increases your Vanguard's DMG dealt by 5.0%.",
+		id = 800127,
+		system_transform = {
+			[51.0] = 800127
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	all = {
 		1,
 		2,
@@ -66789,6 +67162,13 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		800081,
 		800082,
 		800085,
-		800087
+		800087,
+		800090,
+		800100,
+		800110,
+		800121,
+		800122,
+		800125,
+		800127
 	}
 }

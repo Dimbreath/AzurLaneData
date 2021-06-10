@@ -2,6 +2,122 @@ pg = pg or {}
 pg.weapon_property_204 = {}
 
 function ()
+	uv0.weapon_property_204[95424] = {
+		id = 95424,
+		reload_max = 311,
+		damage = 9,
+		base = 95420
+	}
+	uv0.weapon_property_204[95425] = {
+		id = 95425,
+		reload_max = 303,
+		damage = 10,
+		base = 95420
+	}
+	uv0.weapon_property_204[95426] = {
+		id = 95426,
+		reload_max = 295,
+		damage = 11,
+		base = 95420
+	}
+	uv0.weapon_property_204[95440] = {
+		action_index = "attack",
+		range = 55,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "双联装120mm炮Model 1936",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 6,
+		corrected = 125,
+		min_range = 0,
+		id = 95440,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 316,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0.2,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2300
+		},
+		barrage_ID = {
+			1022
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_204[95441] = {
+		id = 95441,
+		reload_max = 309,
+		damage = 7,
+		base = 95440
+	}
+	uv0.weapon_property_204[95442] = {
+		id = 95442,
+		reload_max = 302,
+		damage = 8,
+		base = 95440
+	}
+	uv0.weapon_property_204[95443] = {
+		id = 95443,
+		reload_max = 295,
+		damage = 9,
+		base = 95440
+	}
+	uv0.weapon_property_204[95444] = {
+		id = 95444,
+		reload_max = 287,
+		damage = 10,
+		base = 95440
+	}
+	uv0.weapon_property_204[95445] = {
+		id = 95445,
+		reload_max = 279,
+		damage = 11,
+		base = 95440
+	}
+	uv0.weapon_property_204[95446] = {
+		id = 95446,
+		reload_max = 271,
+		damage = 12,
+		base = 95440
+	}
+	uv0.weapon_property_204[95447] = {
+		id = 95447,
+		reload_max = 263,
+		damage = 13,
+		base = 95440
+	}
+	uv0.weapon_property_204[95448] = {
+		id = 95448,
+		reload_max = 255,
+		damage = 14,
+		base = 95440
+	}
+	uv0.weapon_property_204[95449] = {
+		id = 95449,
+		reload_max = 247,
+		damage = 15,
+		base = 95440
+	}
 	uv0.weapon_property_204[95450] = {
 		id = 95450,
 		reload_max = 239,
@@ -565,120 +681,5 @@ function ()
 		reload_max = 603,
 		damage = 7,
 		base = 95600
-	}
-	uv0.weapon_property_204[95604] = {
-		id = 95604,
-		reload_max = 597,
-		damage = 8,
-		base = 95600
-	}
-	uv0.weapon_property_204[95605] = {
-		id = 95605,
-		reload_max = 581,
-		damage = 9,
-		base = 95600
-	}
-	uv0.weapon_property_204[95606] = {
-		id = 95606,
-		reload_max = 575,
-		damage = 10,
-		base = 95600
-	}
-	uv0.weapon_property_204[95620] = {
-		action_index = "attack",
-		range = 65,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "三联装152mm主炮Model1934",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 110,
-		charge_param = "",
-		damage = 5,
-		corrected = 105,
-		min_range = 0,
-		id = 95620,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 629,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0.4,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1713
-		},
-		barrage_ID = {
-			1110
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_204[95621] = {
-		id = 95621,
-		reload_max = 613,
-		base = 95620
-	}
-	uv0.weapon_property_204[95622] = {
-		id = 95622,
-		reload_max = 607,
-		damage = 6,
-		base = 95620
-	}
-	uv0.weapon_property_204[95623] = {
-		id = 95623,
-		reload_max = 591,
-		damage = 7,
-		base = 95620
-	}
-	uv0.weapon_property_204[95624] = {
-		id = 95624,
-		reload_max = 585,
-		damage = 8,
-		base = 95620
-	}
-	uv0.weapon_property_204[95625] = {
-		id = 95625,
-		reload_max = 569,
-		damage = 9,
-		base = 95620
-	}
-	uv0.weapon_property_204[95626] = {
-		id = 95626,
-		reload_max = 563,
-		damage = 10,
-		base = 95620
-	}
-	uv0.weapon_property_204[95627] = {
-		id = 95627,
-		reload_max = 557,
-		damage = 11,
-		base = 95620
-	}
-	uv0.weapon_property_204[95628] = {
-		id = 95628,
-		reload_max = 551,
-		damage = 12,
-		base = 95620
-	}
-	uv0.weapon_property_204[95629] = {
-		id = 95629,
-		reload_max = 545,
-		damage = 13,
-		base = 95620
 	}
 end()

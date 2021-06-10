@@ -2,6 +2,139 @@ pg = pg or {}
 pg.weapon_property_153 = {}
 
 function ()
+	uv0.weapon_property_153[68326] = {
+		id = 68326,
+		damage = 108,
+		base = 68321
+	}
+	uv0.weapon_property_153[68327] = {
+		id = 68327,
+		damage = 115,
+		base = 68321
+	}
+	uv0.weapon_property_153[68328] = {
+		id = 68328,
+		damage = 123,
+		base = 68321
+	}
+	uv0.weapon_property_153[68329] = {
+		id = 68329,
+		damage = 130,
+		base = 68321
+	}
+	uv0.weapon_property_153[68330] = {
+		id = 68330,
+		damage = 138,
+		base = 68321
+	}
+	uv0.weapon_property_153[68331] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "小赤城技能舰爆机队LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 90,
+		charge_param = "",
+		damage = 56,
+		corrected = 100,
+		min_range = 0,
+		id = 68331,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1890,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			68331,
+			68331
+		},
+		barrage_ID = {
+			12008,
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_153[68332] = {
+		name = "小赤城技能舰爆机队LV2",
+		damage = 78,
+		base = 68331,
+		id = 68332,
+		bullet_ID = {
+			68332,
+			68332
+		}
+	}
+	uv0.weapon_property_153[68333] = {
+		name = "小赤城技能舰爆机队LV3",
+		damage = 98,
+		base = 68331,
+		id = 68333,
+		bullet_ID = {
+			68333,
+			68333
+		}
+	}
+	uv0.weapon_property_153[68334] = {
+		name = "小赤城技能舰爆机队LV4",
+		damage = 102,
+		base = 68331,
+		id = 68334,
+		bullet_ID = {
+			68334,
+			68334
+		},
+		barrage_ID = {
+			12009,
+			12009
+		}
+	}
+	uv0.weapon_property_153[68335] = {
+		name = "小赤城技能舰爆机队LV5",
+		damage = 112,
+		base = 68331,
+		id = 68335,
+		bullet_ID = {
+			68335,
+			68335
+		},
+		barrage_ID = {
+			12009,
+			12009
+		}
+	}
+	uv0.weapon_property_153[68336] = {
+		name = "小赤城技能舰爆机队LV6",
+		damage = 134,
+		base = 68331,
+		id = 68336,
+		bullet_ID = {
+			68336,
+			68336
+		},
+		barrage_ID = {
+			12009,
+			12009
+		}
+	}
 	uv0.weapon_property_153[68337] = {
 		name = "小赤城技能舰爆机队LV7",
 		damage = 156,
@@ -513,137 +646,5 @@ function ()
 		name = "竞技神飞刀Lv7",
 		damage = 57,
 		base = 68381
-	}
-	uv0.weapon_property_153[68388] = {
-		id = 68388,
-		name = "竞技神飞刀Lv8",
-		damage = 62,
-		base = 68381
-	}
-	uv0.weapon_property_153[68389] = {
-		id = 68389,
-		name = "竞技神飞刀Lv9",
-		damage = 67,
-		base = 68381
-	}
-	uv0.weapon_property_153[68390] = {
-		id = 68390,
-		name = "竞技神飞刀Lv10",
-		damage = 72,
-		base = 68381
-	}
-	uv0.weapon_property_153[68391] = {
-		action_index = "attack",
-		range = 120,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "科隆改直升机Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 36,
-		corrected = 100,
-		min_range = 0,
-		id = 68391,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 565,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			68391
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_153[68392] = {
-		reload_max = 550,
-		damage = 39,
-		base = 68391,
-		id = 68392,
-		name = "科隆改直升机Lv2",
-		bullet_ID = {
-			68392
-		}
-	}
-	uv0.weapon_property_153[68393] = {
-		reload_max = 535,
-		damage = 42,
-		base = 68391,
-		id = 68393,
-		name = "科隆改直升机Lv3",
-		bullet_ID = {
-			68393
-		}
-	}
-	uv0.weapon_property_153[68394] = {
-		reload_max = 520,
-		damage = 45,
-		base = 68391,
-		id = 68394,
-		name = "科隆改直升机Lv4",
-		bullet_ID = {
-			68394
-		}
-	}
-	uv0.weapon_property_153[68395] = {
-		reload_max = 505,
-		damage = 48,
-		base = 68391,
-		id = 68395,
-		name = "科隆改直升机Lv5",
-		bullet_ID = {
-			68395
-		}
-	}
-	uv0.weapon_property_153[68396] = {
-		reload_max = 490,
-		damage = 52,
-		base = 68391,
-		id = 68396,
-		name = "科隆改直升机Lv6",
-		bullet_ID = {
-			68396
-		}
-	}
-	uv0.weapon_property_153[68397] = {
-		reload_max = 475,
-		damage = 56,
-		base = 68391,
-		id = 68397,
-		name = "科隆改直升机Lv7",
-		bullet_ID = {
-			68397
-		}
-	}
-	uv0.weapon_property_153[68398] = {
-		reload_max = 460,
-		damage = 60,
-		base = 68391,
-		id = 68398,
-		name = "科隆改直升机Lv8",
-		bullet_ID = {
-			68398
-		}
 	}
 end()

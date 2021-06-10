@@ -2,6 +2,105 @@ pg = pg or {}
 pg.weapon_property_162 = {}
 
 function ()
+	uv0.weapon_property_162[68894] = {
+		id = 68894,
+		damage = 192,
+		base = 68891
+	}
+	uv0.weapon_property_162[68895] = {
+		id = 68895,
+		damage = 210,
+		base = 68891
+	}
+	uv0.weapon_property_162[68896] = {
+		id = 68896,
+		damage = 228,
+		base = 68891
+	}
+	uv0.weapon_property_162[68897] = {
+		id = 68897,
+		damage = 246,
+		base = 68891
+	}
+	uv0.weapon_property_162[68898] = {
+		id = 68898,
+		damage = 264,
+		base = 68891
+	}
+	uv0.weapon_property_162[68899] = {
+		id = 68899,
+		damage = 282,
+		base = 68891
+	}
+	uv0.weapon_property_162[68900] = {
+		id = 68900,
+		damage = 300,
+		base = 68891
+	}
+	uv0.weapon_property_162[68901] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "幼比叡鱼雷-LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 31,
+		corrected = 100,
+		min_range = 0,
+		id = 68901,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1808,
+			1808
+		},
+		barrage_ID = {
+			80700,
+			80701
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_162[68902] = {
+		id = 68902,
+		name = "幼比叡鱼雷-LV2",
+		damage = 36,
+		base = 68901
+	}
+	uv0.weapon_property_162[68903] = {
+		id = 68903,
+		name = "幼比叡鱼雷-LV3",
+		damage = 40,
+		base = 68901
+	}
+	uv0.weapon_property_162[68904] = {
+		id = 68904,
+		name = "幼比叡鱼雷-LV4",
+		damage = 45,
+		base = 68901
+	}
 	uv0.weapon_property_162[68905] = {
 		id = 68905,
 		name = "幼比叡鱼雷-LV5",
@@ -521,134 +620,5 @@ function ()
 		barrage_ID = {
 			12009
 		}
-	}
-	uv0.weapon_property_162[68956] = {
-		name = "白上吹雪狐笋轰炸机Lv6",
-		damage = 151,
-		base = 68951,
-		id = 68956,
-		bullet_ID = {
-			68956
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_162[68957] = {
-		name = "白上吹雪狐笋轰炸机Lv7",
-		damage = 164,
-		base = 68951,
-		id = 68957,
-		bullet_ID = {
-			68957
-		},
-		barrage_ID = {
-			12010
-		}
-	}
-	uv0.weapon_property_162[68958] = {
-		name = "白上吹雪狐笋轰炸机Lv8",
-		damage = 178,
-		base = 68951,
-		id = 68958,
-		bullet_ID = {
-			68958
-		},
-		barrage_ID = {
-			12010
-		}
-	}
-	uv0.weapon_property_162[68959] = {
-		name = "白上吹雪狐笋轰炸机Lv9",
-		damage = 191,
-		base = 68951,
-		id = 68959,
-		bullet_ID = {
-			68959
-		},
-		barrage_ID = {
-			12010
-		}
-	}
-	uv0.weapon_property_162[68960] = {
-		name = "白上吹雪狐笋轰炸机Lv10",
-		damage = 220,
-		base = 68951,
-		id = 68960,
-		bullet_ID = {
-			68960
-		},
-		barrage_ID = {
-			12010
-		}
-	}
-	uv0.weapon_property_162[68961] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 22,
-		shakescreen = 0,
-		name = "2 x 500lb Bomb",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 22,
-		charge_param = "",
-		damage = 86,
-		corrected = 100,
-		min_range = 0,
-		id = 68961,
-		attack_attribute_ratio = 60,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19085
-		},
-		barrage_ID = {
-			2121
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_162[68962] = {
-		id = 68962,
-		damage = 99,
-		base = 68961
-	}
-	uv0.weapon_property_162[68963] = {
-		id = 68963,
-		damage = 112,
-		base = 68961
-	}
-	uv0.weapon_property_162[68964] = {
-		id = 68964,
-		damage = 125,
-		base = 68961
-	}
-	uv0.weapon_property_162[68965] = {
-		id = 68965,
-		damage = 138,
-		base = 68961
-	}
-	uv0.weapon_property_162[68966] = {
-		id = 68966,
-		damage = 151,
-		base = 68961
 	}
 end()

@@ -1,5 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_387 = {
+	[90702] = {
+		id = 90702,
+		damage = "5 x 4",
+		base = 90700,
+		weapon_id = {
+			90702
+		}
+	},
+	[90703] = {
+		id = 90703,
+		damage = "6 x 4",
+		base = 90700,
+		weapon_id = {
+			90703
+		}
+	},
 	[90720] = {
 		name = "Single 138.6mm Mle 1927 Naval Gun",
 		speciality = "Lock",
@@ -234,22 +250,6 @@ pg.equip_data_statistics_387 = {
 		base = 90740,
 		weapon_id = {
 			90747
-		}
-	},
-	[90748] = {
-		id = 90748,
-		damage = "15 x 4",
-		base = 90740,
-		weapon_id = {
-			90748
-		}
-	},
-	[90749] = {
-		id = 90749,
-		damage = "17 x 4",
-		base = 90740,
-		weapon_id = {
-			90749
 		}
 	}
 }

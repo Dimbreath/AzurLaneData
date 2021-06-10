@@ -1370,6 +1370,11 @@ pg.activity_ins_ship_group_template = {
 		name = "A.M.Sumner",
 		sculpture = "ailunsamuna"
 	},
+	[40703] = {
+		ship_group = 40703,
+		name = "FlugzeugträgerB ",
+		sculpture = "shitelasai"
+	},
 	all = {
 		30701,
 		30702,
@@ -1644,6 +1649,7 @@ pg.activity_ins_ship_group_template = {
 		10113,
 		10115,
 		10141,
-		10145
+		10145,
+		40703
 	}
 }

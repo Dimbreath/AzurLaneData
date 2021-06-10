@@ -848,6 +848,10 @@ pg.skill_data_display = {
 		id = 8884,
 		name = "Mirror Hacking "
 	},
+	[8897] = {
+		id = 8897,
+		name = "「零」象限展开-5%"
+	},
 	[9010] = {
 		id = 9010,
 		name = "Eastern Bonds"
@@ -5972,6 +5976,50 @@ pg.skill_data_display = {
 		id = 800087,
 		name = "Ashen Might·Ark Royal"
 	},
+	[800090] = {
+		id = 800090,
+		name = "Shadow-Wing Torch"
+	},
+	[800091] = {
+		id = 800091,
+		name = "Shadow-Wing Torch"
+	},
+	[800092] = {
+		id = 800092,
+		name = "Shadow-Wing Torch"
+	},
+	[800100] = {
+		id = 800100,
+		name = "Scanner Hacking"
+	},
+	[800101] = {
+		id = 800101,
+		name = "Scanner Hacking"
+	},
+	[800110] = {
+		id = 800110,
+		name = "Information Addiction"
+	},
+	[800111] = {
+		id = 800111,
+		name = "Information Addiction"
+	},
+	[800121] = {
+		id = 800121,
+		name = "Ashen Might - Helena I"
+	},
+	[800122] = {
+		id = 800122,
+		name = "Ashen Might - Helena II"
+	},
+	[800125] = {
+		id = 800125,
+		name = "Ashen Might - Helena I"
+	},
+	[800127] = {
+		id = 800127,
+		name = "Ashen Might - Helena II"
+	},
 	all = {
 		4,
 		10,
@@ -6185,6 +6233,7 @@ pg.skill_data_display = {
 		8880,
 		8882,
 		8884,
+		8897,
 		9010,
 		9020,
 		9030,
@@ -7465,6 +7514,17 @@ pg.skill_data_display = {
 		800075,
 		800077,
 		800085,
-		800087
+		800087,
+		800090,
+		800091,
+		800092,
+		800100,
+		800101,
+		800110,
+		800111,
+		800121,
+		800122,
+		800125,
+		800127
 	}
 }

@@ -863,7 +863,7 @@ function slot0.initData(slot0)
 	slot0.gameStartFlag = false
 	slot0.timer = Timer.New(function ()
 		uv0:onTimer()
-	end, 0.016666666666666666, -1, true)
+	end, 1 / (Application.targetFrameRate or 60), -1, true)
 end
 
 function slot0.initUI(slot0)
@@ -1115,6 +1115,10 @@ function slot0.gameStep(slot0)
 		SetActive(slot0.specialEffect, true)
 	else
 		SetActive(slot0.touchSlider, true)
+		SetActive(slot0.specialEffect, false)
+	end
+
+	if slot0.settlementFlag then
 		SetActive(slot0.specialEffect, false)
 	end
 

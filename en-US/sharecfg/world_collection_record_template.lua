@@ -209,11 +209,11 @@ pg.world_collection_record_template = {
 	},
 	[100024] = {
 		group_ID = 24,
-		name = "Ashes Beacon",
+		name = "META Beacon",
 		mask = "bg/bg_memory",
 		id = 100024,
 		icon = "memory_dashijie",
-		condition = "Unlock Ashes Showdown.",
+		condition = "Unlock META Showdown.",
 		story = "GWORLD109A"
 	},
 	[100025] = {

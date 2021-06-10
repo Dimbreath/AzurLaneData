@@ -2,6 +2,203 @@ pg = pg or {}
 pg.weapon_property_137 = {}
 
 function ()
+	uv0.weapon_property_137[67044] = {
+		name = "BigSeven改技能LV4",
+		damage = 65,
+		base = 67040,
+		id = 67044,
+		bullet_ID = {
+			19937,
+			19937,
+			19938,
+			19938
+		},
+		barrage_ID = {
+			80142,
+			80145,
+			80151,
+			80153
+		}
+	}
+	uv0.weapon_property_137[67045] = {
+		name = "BigSeven改技能LV5",
+		damage = 75,
+		base = 67040,
+		id = 67045,
+		bullet_ID = {
+			19937,
+			19937,
+			19938,
+			19938
+		},
+		barrage_ID = {
+			80142,
+			80145,
+			80151,
+			80153
+		}
+	}
+	uv0.weapon_property_137[67046] = {
+		name = "BigSeven改技能LV6",
+		damage = 85,
+		base = 67040,
+		id = 67046,
+		bullet_ID = {
+			19937,
+			19937,
+			19938,
+			19938
+		},
+		barrage_ID = {
+			80142,
+			80145,
+			80151,
+			80153
+		}
+	}
+	uv0.weapon_property_137[67047] = {
+		name = "BigSeven改技能LV7",
+		damage = 95,
+		base = 67040,
+		id = 67047,
+		bullet_ID = {
+			19937,
+			19937,
+			19938,
+			19938
+		},
+		barrage_ID = {
+			80143,
+			80146,
+			80151,
+			80153
+		}
+	}
+	uv0.weapon_property_137[67048] = {
+		name = "BigSeven改技能LV8",
+		damage = 105,
+		base = 67040,
+		id = 67048,
+		bullet_ID = {
+			19937,
+			19937,
+			19938,
+			19938
+		},
+		barrage_ID = {
+			80143,
+			80146,
+			80151,
+			80153
+		}
+	}
+	uv0.weapon_property_137[67049] = {
+		name = "BigSeven改技能LV9",
+		damage = 115,
+		base = 67040,
+		id = 67049,
+		bullet_ID = {
+			19937,
+			19937,
+			19938,
+			19938
+		},
+		barrage_ID = {
+			80143,
+			80146,
+			80151,
+			80153
+		}
+	}
+	uv0.weapon_property_137[67050] = {
+		name = "BigSeven改技能LV10",
+		damage = 125,
+		base = 67040,
+		id = 67050,
+		bullet_ID = {
+			19937,
+			19937,
+			19938,
+			19938
+		},
+		barrage_ID = {
+			80143,
+			80146,
+			80152,
+			80154
+		}
+	}
+	uv0.weapon_property_137[67060] = {
+		action_index = "attack",
+		range = 50,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "Z23技能弹幕LV0",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 16,
+		corrected = 100,
+		min_range = 0,
+		id = 67060,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19939,
+			19939,
+			19939
+		},
+		barrage_ID = {
+			80161,
+			80165,
+			80168
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_137[67061] = {
+		id = 67061,
+		name = "Z23技能弹幕LV1",
+		damage = 17,
+		base = 67060
+	}
+	uv0.weapon_property_137[67062] = {
+		id = 67062,
+		name = "Z23技能弹幕LV2",
+		damage = 18,
+		base = 67060
+	}
+	uv0.weapon_property_137[67063] = {
+		name = "Z23技能弹幕LV3",
+		damage = 20,
+		base = 67060,
+		id = 67063,
+		barrage_ID = {
+			80162,
+			80165,
+			80168
+		}
+	}
 	uv0.weapon_property_137[67064] = {
 		name = "Z23技能弹幕LV4",
 		damage = 22,
@@ -563,140 +760,6 @@ function ()
 		id = 67150,
 		bullet_ID = {
 			67150
-		}
-	}
-	uv0.weapon_property_137[67160] = {
-		action_index = "",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 1,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "半人马技能鱼雷机2Lv0",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 90,
-		charge_param = "",
-		damage = 63,
-		corrected = 100,
-		min_range = 0,
-		id = 67160,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			67160
-		},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_137[67161] = {
-		name = "半人马技能鱼雷机2Lv1",
-		damage = 76,
-		base = 67160,
-		id = 67161,
-		bullet_ID = {
-			67161
-		}
-	}
-	uv0.weapon_property_137[67162] = {
-		name = "半人马技能鱼雷机2Lv2",
-		damage = 90,
-		base = 67160,
-		id = 67162,
-		bullet_ID = {
-			67162
-		}
-	}
-	uv0.weapon_property_137[67163] = {
-		name = "半人马技能鱼雷机2Lv3",
-		damage = 104,
-		base = 67160,
-		id = 67163,
-		bullet_ID = {
-			67163
-		}
-	}
-	uv0.weapon_property_137[67164] = {
-		name = "半人马技能鱼雷机2Lv4",
-		damage = 118,
-		base = 67160,
-		id = 67164,
-		bullet_ID = {
-			67164
-		}
-	}
-	uv0.weapon_property_137[67165] = {
-		name = "半人马技能鱼雷机2Lv5",
-		damage = 132,
-		base = 67160,
-		id = 67165,
-		bullet_ID = {
-			67165
-		}
-	}
-	uv0.weapon_property_137[67166] = {
-		name = "半人马技能鱼雷机2Lv6",
-		damage = 146,
-		base = 67160,
-		id = 67166,
-		bullet_ID = {
-			67166
-		}
-	}
-	uv0.weapon_property_137[67167] = {
-		name = "半人马技能鱼雷机2Lv7",
-		damage = 160,
-		base = 67160,
-		id = 67167,
-		bullet_ID = {
-			67167
-		}
-	}
-	uv0.weapon_property_137[67168] = {
-		name = "半人马技能鱼雷机2Lv8",
-		damage = 174,
-		base = 67160,
-		id = 67168,
-		bullet_ID = {
-			67168
-		}
-	}
-	uv0.weapon_property_137[67169] = {
-		name = "半人马技能鱼雷机2Lv9",
-		damage = 188,
-		base = 67160,
-		id = 67169,
-		bullet_ID = {
-			67169
-		}
-	}
-	uv0.weapon_property_137[67170] = {
-		name = "半人马技能鱼雷机2Lv10",
-		damage = 202,
-		base = 67160,
-		id = 67170,
-		bullet_ID = {
-			67170
 		}
 	}
 end()

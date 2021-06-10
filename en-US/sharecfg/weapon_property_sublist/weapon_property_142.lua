@@ -2,6 +2,110 @@ pg = pg or {}
 pg.weapon_property_142 = {}
 
 function ()
+	uv0.weapon_property_142[67607] = {
+		id = 67607,
+		name = "久远技能Lv7",
+		damage = 4,
+		base = 67601
+	}
+	uv0.weapon_property_142[67608] = {
+		id = 67608,
+		name = "久远技能Lv8",
+		damage = 5,
+		base = 67601
+	}
+	uv0.weapon_property_142[67609] = {
+		id = 67609,
+		name = "久远技能Lv9",
+		damage = 6,
+		base = 67601
+	}
+	uv0.weapon_property_142[67610] = {
+		id = 67610,
+		name = "久远技能Lv10",
+		damage = 7,
+		base = 67601
+	}
+	uv0.weapon_property_142[67611] = {
+		action_index = "attack",
+		range = 60,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "猫音技能Lv1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 11,
+		corrected = 118,
+		min_range = 0,
+		id = 67611,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19960
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_142[67612] = {
+		id = 67612,
+		name = "猫音技能Lv2",
+		damage = 13,
+		base = 67611
+	}
+	uv0.weapon_property_142[67613] = {
+		id = 67613,
+		name = "猫音技能Lv3",
+		damage = 16,
+		base = 67611
+	}
+	uv0.weapon_property_142[67614] = {
+		id = 67614,
+		name = "猫音技能Lv4",
+		damage = 20,
+		base = 67611
+	}
+	uv0.weapon_property_142[67615] = {
+		id = 67615,
+		name = "猫音技能Lv5",
+		damage = 25,
+		base = 67611
+	}
+	uv0.weapon_property_142[67616] = {
+		id = 67616,
+		name = "猫音技能Lv6",
+		damage = 30,
+		base = 67611
+	}
+	uv0.weapon_property_142[67617] = {
+		id = 67617,
+		name = "猫音技能Lv7",
+		damage = 36,
+		base = 67611
+	}
 	uv0.weapon_property_142[67618] = {
 		id = 67618,
 		name = "猫音技能Lv8",
@@ -501,109 +605,5 @@ function ()
 		name = "双影无双爆炸BLv8",
 		damage = 193,
 		base = 67661
-	}
-	uv0.weapon_property_142[67669] = {
-		id = 67669,
-		name = "双影无双爆炸BLv9",
-		damage = 208,
-		base = 67661
-	}
-	uv0.weapon_property_142[67670] = {
-		id = 67670,
-		name = "双影无双爆炸BLv10",
-		damage = 225,
-		base = 67661
-	}
-	uv0.weapon_property_142[67671] = {
-		action_index = "attack",
-		range = 200,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "双影无双爆炸ALv1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 360,
-		charge_param = "",
-		damage = 86,
-		corrected = 200,
-		min_range = 0,
-		id = 67671,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 400,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19965
-		},
-		barrage_ID = {
-			1
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_142[67672] = {
-		id = 67672,
-		name = "双影无双爆炸ALv2",
-		damage = 101,
-		base = 67671
-	}
-	uv0.weapon_property_142[67673] = {
-		id = 67673,
-		name = "双影无双爆炸ALv3",
-		damage = 116,
-		base = 67671
-	}
-	uv0.weapon_property_142[67674] = {
-		id = 67674,
-		name = "双影无双爆炸ALv4",
-		damage = 132,
-		base = 67671
-	}
-	uv0.weapon_property_142[67675] = {
-		id = 67675,
-		name = "双影无双爆炸ALv5",
-		damage = 147,
-		base = 67671
-	}
-	uv0.weapon_property_142[67676] = {
-		id = 67676,
-		name = "双影无双爆炸ALv6",
-		damage = 162,
-		base = 67671
-	}
-	uv0.weapon_property_142[67677] = {
-		id = 67677,
-		name = "双影无双爆炸ALv7",
-		damage = 178,
-		base = 67671
-	}
-	uv0.weapon_property_142[67678] = {
-		id = 67678,
-		name = "双影无双爆炸ALv8",
-		damage = 193,
-		base = 67671
-	}
-	uv0.weapon_property_142[67679] = {
-		id = 67679,
-		name = "双影无双爆炸ALv9",
-		damage = 208,
-		base = 67671
 	}
 end()

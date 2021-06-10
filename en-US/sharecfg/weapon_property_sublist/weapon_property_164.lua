@@ -2,6 +2,116 @@ pg = pg or {}
 pg.weapon_property_164 = {}
 
 function ()
+	uv0.weapon_property_164[69018] = {
+		id = 69018,
+		name = "骏河弹幕鱼雷LV8",
+		damage = 79,
+		base = 69011
+	}
+	uv0.weapon_property_164[69019] = {
+		id = 69019,
+		name = "骏河弹幕鱼雷LV9",
+		damage = 87,
+		base = 69011
+	}
+	uv0.weapon_property_164[69020] = {
+		id = 69020,
+		name = "骏河弹幕鱼雷LV10",
+		damage = 96,
+		base = 69011
+	}
+	uv0.weapon_property_164[69021] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "骏河副炮弹幕PVELV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 11,
+		corrected = 100,
+		min_range = 0,
+		id = 69021,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19092,
+			19090,
+			19092,
+			19090
+		},
+		barrage_ID = {
+			80830,
+			80831,
+			80832,
+			80833
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_164[69022] = {
+		id = 69022,
+		name = "骏河副炮弹幕PVELV2",
+		damage = 12,
+		base = 69021
+	}
+	uv0.weapon_property_164[69023] = {
+		id = 69023,
+		name = "骏河副炮弹幕PVELV3",
+		damage = 13,
+		base = 69021
+	}
+	uv0.weapon_property_164[69024] = {
+		id = 69024,
+		name = "骏河副炮弹幕PVELV4",
+		damage = 14,
+		base = 69021
+	}
+	uv0.weapon_property_164[69025] = {
+		id = 69025,
+		name = "骏河副炮弹幕PVELV5",
+		damage = 15,
+		base = 69021
+	}
+	uv0.weapon_property_164[69026] = {
+		id = 69026,
+		name = "骏河副炮弹幕PVELV6",
+		damage = 16,
+		base = 69021
+	}
+	uv0.weapon_property_164[69027] = {
+		id = 69027,
+		name = "骏河副炮弹幕PVELV7",
+		damage = 17,
+		base = 69021
+	}
+	uv0.weapon_property_164[69028] = {
+		id = 69028,
+		name = "骏河副炮弹幕PVELV8",
+		damage = 18,
+		base = 69021
+	}
 	uv0.weapon_property_164[69029] = {
 		id = 69029,
 		name = "骏河副炮弹幕PVELV9",
@@ -547,111 +657,5 @@ function ()
 		name = "定点冰锥1-80-LV9",
 		damage = 49,
 		base = 69081
-	}
-	uv0.weapon_property_164[69090] = {
-		id = 69090,
-		name = "定点冰锥1-80-LV10",
-		damage = 56,
-		base = 69081
-	}
-	uv0.weapon_property_164[69091] = {
-		action_index = "",
-		range = 90,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "定点冰锥2-90-LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 11,
-		corrected = 100,
-		min_range = 0,
-		id = 69091,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 9500,
-		queue = 4,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19099,
-			19101
-		},
-		barrage_ID = {
-			80842,
-			80842
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_164[69092] = {
-		id = 69092,
-		name = "定点冰锥2-90-LV2",
-		damage = 13,
-		base = 69091
-	}
-	uv0.weapon_property_164[69093] = {
-		id = 69093,
-		name = "定点冰锥2-90-LV3",
-		damage = 16,
-		base = 69091
-	}
-	uv0.weapon_property_164[69094] = {
-		id = 69094,
-		name = "定点冰锥2-90-LV4",
-		damage = 20,
-		base = 69091
-	}
-	uv0.weapon_property_164[69095] = {
-		id = 69095,
-		name = "定点冰锥2-90-LV5",
-		damage = 25,
-		base = 69091
-	}
-	uv0.weapon_property_164[69096] = {
-		id = 69096,
-		name = "定点冰锥2-90-LV6",
-		damage = 30,
-		base = 69091
-	}
-	uv0.weapon_property_164[69097] = {
-		id = 69097,
-		name = "定点冰锥2-90-LV7",
-		damage = 36,
-		base = 69091
-	}
-	uv0.weapon_property_164[69098] = {
-		id = 69098,
-		name = "定点冰锥2-90-LV8",
-		damage = 42,
-		base = 69091
-	}
-	uv0.weapon_property_164[69099] = {
-		id = 69099,
-		name = "定点冰锥2-90-LV9",
-		damage = 49,
-		base = 69091
-	}
-	uv0.weapon_property_164[69100] = {
-		id = 69100,
-		name = "定点冰锥2-90-LV10",
-		damage = 56,
-		base = 69091
 	}
 end()

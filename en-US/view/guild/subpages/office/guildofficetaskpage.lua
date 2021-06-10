@@ -178,13 +178,7 @@ function slot0.UpdateContributionPanel(slot0)
 
 			slot4:update(uv0[slot1 + 1])
 			onButton(uv1, slot4.commitBtn, function ()
-				if getProxy(GuildProxy).refreshDonateListFailed then
-					uv0:emit(GuildOfficeMediator.REFRES_DONATE_LIST)
-
-					return
-				end
-
-				slot0 = uv1:getCommitItem()
+				slot0 = uv0:getCommitItem()
 
 				updateDropCfg({
 					type = slot0[1],
@@ -192,7 +186,7 @@ function slot0.UpdateContributionPanel(slot0)
 					count = slot0[3]
 				})
 				pg.MsgboxMgr:GetInstance():ShowMsgBox({
-					content = i18n("guild_donate_tip", slot1.cfg.name, slot0[3], slot2, uv2:GetResCntByAward(slot0) < slot0[3] and "#FF5C5CFF" or "#92FC63FF"),
+					content = i18n("guild_donate_tip", slot1.cfg.name, slot0[3], slot2, uv1:GetResCntByAward(slot0) < slot0[3] and "#FF5C5CFF" or "#92FC63FF"),
 					onYes = function ()
 						uv0:emit(GuildOfficeMediator.ON_COMMIT, uv1.id)
 					end

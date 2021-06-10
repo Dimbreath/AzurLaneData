@@ -2,6 +2,113 @@ pg = pg or {}
 pg.weapon_property_166 = {}
 
 function ()
+	uv0.weapon_property_166[69152] = {
+		id = 69152,
+		name = "定点冰锥PVP3-120-LV2",
+		damage = 13,
+		base = 69151
+	}
+	uv0.weapon_property_166[69153] = {
+		id = 69153,
+		name = "定点冰锥PVP3-120-LV3",
+		damage = 16,
+		base = 69151
+	}
+	uv0.weapon_property_166[69154] = {
+		id = 69154,
+		name = "定点冰锥PVP3-120-LV4",
+		damage = 20,
+		base = 69151
+	}
+	uv0.weapon_property_166[69155] = {
+		id = 69155,
+		name = "定点冰锥PVP3-120-LV5",
+		damage = 25,
+		base = 69151
+	}
+	uv0.weapon_property_166[69156] = {
+		id = 69156,
+		name = "定点冰锥PVP3-120-LV6",
+		damage = 30,
+		base = 69151
+	}
+	uv0.weapon_property_166[69157] = {
+		id = 69157,
+		name = "定点冰锥PVP3-120-LV7",
+		damage = 36,
+		base = 69151
+	}
+	uv0.weapon_property_166[69158] = {
+		id = 69158,
+		name = "定点冰锥PVP3-120-LV8",
+		damage = 42,
+		base = 69151
+	}
+	uv0.weapon_property_166[69159] = {
+		id = 69159,
+		name = "定点冰锥PVP3-120-LV9",
+		damage = 49,
+		base = 69151
+	}
+	uv0.weapon_property_166[69160] = {
+		id = 69160,
+		name = "定点冰锥PVP3-120-LV10",
+		damage = 56,
+		base = 69151
+	}
+	uv0.weapon_property_166[69161] = {
+		action_index = "",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 1,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "无畏技能轰炸机Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 90,
+		charge_param = "",
+		damage = 66,
+		corrected = 100,
+		min_range = 0,
+		id = 69161,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			69161
+		},
+		barrage_ID = {
+			12009
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_166[69162] = {
+		name = "无畏技能轰炸机Lv2",
+		damage = 78,
+		base = 69161,
+		id = 69162,
+		bullet_ID = {
+			69162
+		}
+	}
 	uv0.weapon_property_166[69163] = {
 		name = "无畏技能轰炸机Lv3",
 		damage = 91,
@@ -575,127 +682,5 @@ function ()
 		bullet_ID = {
 			69213
 		}
-	}
-	uv0.weapon_property_166[69214] = {
-		name = "库珀轰炸PBYLv4",
-		damage = 103,
-		base = 69211,
-		id = 69214,
-		bullet_ID = {
-			69214
-		}
-	}
-	uv0.weapon_property_166[69215] = {
-		name = "库珀轰炸PBYLv5",
-		damage = 116,
-		base = 69211,
-		id = 69215,
-		bullet_ID = {
-			69215
-		}
-	}
-	uv0.weapon_property_166[69216] = {
-		name = "库珀轰炸PBYLv6",
-		damage = 129,
-		base = 69211,
-		id = 69216,
-		bullet_ID = {
-			69216
-		}
-	}
-	uv0.weapon_property_166[69217] = {
-		name = "库珀轰炸PBYLv7",
-		damage = 141,
-		base = 69211,
-		id = 69217,
-		bullet_ID = {
-			69217
-		}
-	}
-	uv0.weapon_property_166[69218] = {
-		name = "库珀轰炸PBYLv8",
-		damage = 154,
-		base = 69211,
-		id = 69218,
-		bullet_ID = {
-			69218
-		}
-	}
-	uv0.weapon_property_166[69219] = {
-		name = "库珀轰炸PBYLv9",
-		damage = 167,
-		base = 69211,
-		id = 69219,
-		bullet_ID = {
-			69219
-		}
-	}
-	uv0.weapon_property_166[69220] = {
-		name = "库珀轰炸PBYLv10",
-		damage = 179,
-		base = 69211,
-		id = 69220,
-		bullet_ID = {
-			69220
-		}
-	}
-	uv0.weapon_property_166[69221] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 25,
-		shakescreen = 0,
-		name = "2 x 2000lb Bomb",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 209,
-		corrected = 100,
-		min_range = 0,
-		id = 69221,
-		attack_attribute_ratio = 120,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2125
-		},
-		barrage_ID = {
-			2121
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_166[69222] = {
-		id = 69222,
-		damage = 236,
-		base = 69221
-	}
-	uv0.weapon_property_166[69223] = {
-		id = 69223,
-		damage = 263,
-		base = 69221
-	}
-	uv0.weapon_property_166[69224] = {
-		id = 69224,
-		damage = 290,
-		base = 69221
 	}
 end()

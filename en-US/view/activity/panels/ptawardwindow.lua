@@ -17,7 +17,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot1(slot0, slot1, slot2, slot3)
+function slot0.UpdateList(slot0, slot1, slot2, slot3)
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
@@ -63,7 +63,7 @@ function slot0.Show(slot0, slot1)
 	slot3 = slot1.targets
 	slot4 = slot1.level
 	slot5 = slot1.count
-	slot8 = (slot1.type == 3 or slot7 == 4) and "" or pg.item_data_statistics[id2ItemId(slot1.resId)].name
+	slot8 = (slot1.type == 3 or slot7 == 4) and "" or slot1.resName or pg.item_data_statistics[id2ItemId(slot1.resId)].name
 
 	if slot7 == 2 then
 		slot0.cntTitle = i18n("pt_total_count", i18n("pt_cosume", slot8))
@@ -79,7 +79,7 @@ function slot0.Show(slot0, slot1)
 		slot0.resTitle = i18n("pt_count", slot8)
 	end
 
-	uv0(slot0, slot2, slot3, slot4)
+	slot0:UpdateList(slot2, slot3, slot4)
 
 	slot0.totalTxt.text = slot5
 	slot0.totalTitleTxt.text = HXSet.hxLan(slot0.cntTitle)

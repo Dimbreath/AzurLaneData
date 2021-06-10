@@ -583,7 +583,6 @@ function slot0.shift(slot0, slot1, slot2, slot3)
 	tf(slot8).localPosition = Vector3(slot10.x + 2, slot10.y - 80, slot10.z)
 
 	LeanTween.cancel(go(slot8))
-	slot0:emit(ChapterPreCombatMediator.ON_SWITCH_SHIP, slot7[slot1].id, slot7[slot2].id)
 
 	slot4[slot2] = slot4[slot1]
 	slot4[slot1] = slot4[slot2]
@@ -664,6 +663,7 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 			slot7:AddDragEndFunc(function (slot0, slot1)
 				uv0:GetComponent("SpineAnimUI"):SetAction("tuozhuai", 0)
 				tf(uv0):SetParent(uv1._heroContainer, false)
+				uv1:emit(ChapterPreCombatMediator.ON_SWITCH_SHIP, uv1.chapter.fleet)
 				uv1:switchToEditMode()
 				uv1:sortSiblingIndex()
 				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_HOME_PUT)

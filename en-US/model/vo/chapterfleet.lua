@@ -324,6 +324,22 @@ function slot0.switchShip(slot0, slot1, slot2)
 	end
 end
 
+function slot0.synchronousShipIndex(slot0, slot1)
+	for slot6, slot7 in ipairs({
+		TeamType.Vanguard,
+		TeamType.Main,
+		TeamType.Submarine
+	}) do
+		for slot11 = 1, 3 do
+			if slot1[slot7][slot11] then
+				slot0[slot7][slot11] = slot0.ships[slot1[slot7][slot11].id]
+			else
+				slot0[slot7][slot11] = nil
+			end
+		end
+	end
+end
+
 function slot0.isValid(slot0)
 	if slot0:getFleetType() == FleetType.Normal then
 		return _.any(slot0[TeamType.Vanguard], function (slot0)
@@ -357,8 +373,8 @@ function slot0.getCost(slot0, slot1)
 	}
 end
 
-function slot0.getInvestSums(slot0)
-	return math.pow(_.reduce(slot0:getShips(false), 0, function (slot0, slot1)
+function slot0.getInvestSums(slot0, slot1)
+	return math.pow(_.reduce(slot0:getShips(slot1), 0, function (slot0, slot1)
 		slot2 = slot1:getProperties(uv0:getCommanders())
 
 		return slot0 + slot2[AttributeType.Air] + slot2[AttributeType.Dodge]

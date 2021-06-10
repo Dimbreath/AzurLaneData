@@ -1,5 +1,5 @@
 slot0 = class("WorldBossItemList")
-slot1 = 19
+slot1 = 18
 slot2 = -15
 slot3 = 100
 

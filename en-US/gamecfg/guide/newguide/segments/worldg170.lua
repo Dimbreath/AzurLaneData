@@ -25,7 +25,7 @@ return {
 		},
 		{
 			style = {
-				text = "You've unlocked Ashes Showdown. Team up with other commanders to take down these powerful foes!",
+				text = "You've unlocked META Showdown. Team up with other commanders to take down these powerful foes!",
 				mode = 2,
 				dir = -1,
 				posY = -269.2,
@@ -105,7 +105,7 @@ return {
 		},
 		{
 			style = {
-				text = "Foes in Ashes Showdown are mighty, and you can use the \"Request Support\" function to call for assistance.",
+				text = "Foes in META Showdown are mighty, and you can use the \"Request Support\" function to call for assistance.",
 				mode = 2,
 				dir = 1,
 				posY = -404.9,
@@ -123,7 +123,7 @@ return {
 		},
 		{
 			style = {
-				text = "Now, continue the battle against the Ashes!",
+				text = "Now, continue the battle against the META!",
 				mode = 2,
 				dir = 1,
 				posY = -423,

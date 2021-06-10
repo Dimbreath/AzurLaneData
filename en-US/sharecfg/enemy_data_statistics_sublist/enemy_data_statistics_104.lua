@@ -1,5 +1,95 @@
 pg = pg or {}
 pg.enemy_data_statistics_104 = {
+	[10011504] = {
+		antiaircraft = 360,
+		hit_growth = 144,
+		speed_growth = 0,
+		rarity = 6,
+		air = 180,
+		luck = 10,
+		id = 10011504,
+		type = 5,
+		durability = 26500,
+		antiaircraft_growth = 0,
+		cannon = 180,
+		dodge_growth = 156,
+		star = 6,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 247,
+		icon_type = 5,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 18,
+		armor = 0,
+		antisub = 0,
+		scale = 120,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 13,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		bound_bone = {
+			cannon = {
+				{
+					-0.27,
+					0.64,
+					0
+				}
+			},
+			vicegun = {
+				{
+					3.87,
+					4.63,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.13,
+					0.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					3.87,
+					4.63,
+					0
+				}
+			},
+			plane = {
+				{
+					0.94,
+					4.3,
+					0
+				}
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			471501,
+			471502,
+			471503,
+			471504,
+			471505,
+			471506
+		},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 2
+			}
+		}
+	},
 	[10012001] = {
 		cannon = 7,
 		antisub = 0,
@@ -537,43 +627,6 @@ pg.enemy_data_statistics_104 = {
 			472122,
 			472123,
 			472124
-		}
-	},
-	[10012015] = {
-		cannon = 38,
-		antisub = 0,
-		air = 0,
-		cannon_growth = 936,
-		armor = 0,
-		reload = 150,
-		base = 194,
-		dodge = 11,
-		torpedo_growth = 3366,
-		air_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 162,
-		speed_growth = 0,
-		star = 3,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 3,
-		luck_growth = 0,
-		torpedo = 76,
-		durability = 3570,
-		armor_growth = 0,
-		durability_growth = 30400,
-		antiaircraft = 156,
-		speed = 25,
-		luck = 0,
-		hit_growth = 210,
-		battle_unit_type = 55,
-		id = 10012015,
-		antiaircraft_growth = 3744,
-		equipment_list = {
-			472125,
-			472126,
-			472127,
-			472128
 		}
 	}
 }

@@ -2,6 +2,126 @@ pg = pg or {}
 pg.weapon_property_160 = {}
 
 function ()
+	uv0.weapon_property_160[68760] = {
+		name = "时雨改造弹幕LV10",
+		damage = 25,
+		base = 68751,
+		id = 68760,
+		bullet_ID = {
+			19027,
+			19027,
+			19027,
+			19027,
+			19027
+		},
+		barrage_ID = {
+			80801,
+			80804,
+			80807,
+			80808,
+			80809
+		}
+	}
+	uv0.weapon_property_160[68761] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "时雨改造鱼雷LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 35,
+		corrected = 100,
+		min_range = 0,
+		id = 68761,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19028,
+			19028
+		},
+		barrage_ID = {
+			80810,
+			80811
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_160[68762] = {
+		id = 68762,
+		name = "时雨改造鱼雷LV2",
+		damage = 46,
+		base = 68761
+	}
+	uv0.weapon_property_160[68763] = {
+		id = 68763,
+		name = "时雨改造鱼雷LV3",
+		damage = 57,
+		base = 68761
+	}
+	uv0.weapon_property_160[68764] = {
+		id = 68764,
+		name = "时雨改造鱼雷LV4",
+		damage = 68,
+		base = 68761
+	}
+	uv0.weapon_property_160[68765] = {
+		id = 68765,
+		name = "时雨改造鱼雷LV5",
+		damage = 79,
+		base = 68761
+	}
+	uv0.weapon_property_160[68766] = {
+		id = 68766,
+		name = "时雨改造鱼雷LV6",
+		damage = 90,
+		base = 68761
+	}
+	uv0.weapon_property_160[68767] = {
+		id = 68767,
+		name = "时雨改造鱼雷LV7",
+		damage = 101,
+		base = 68761
+	}
+	uv0.weapon_property_160[68768] = {
+		id = 68768,
+		name = "时雨改造鱼雷LV8",
+		damage = 112,
+		base = 68761
+	}
+	uv0.weapon_property_160[68769] = {
+		id = 68769,
+		name = "时雨改造鱼雷LV9",
+		damage = 123,
+		base = 68761
+	}
+	uv0.weapon_property_160[68770] = {
+		id = 68770,
+		name = "时雨改造鱼雷LV10",
+		damage = 134,
+		base = 68761
+	}
 	uv0.weapon_property_160[68771] = {
 		action_index = "attack",
 		range = 90,
@@ -630,111 +750,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_160[68822] = {
-		id = 68822,
-		name = "时乃空DreamStoryLv2",
-		damage = 51,
-		base = 68821
-	}
-	uv0.weapon_property_160[68823] = {
-		id = 68823,
-		name = "时乃空DreamStoryLv3",
-		damage = 60,
-		base = 68821
-	}
-	uv0.weapon_property_160[68824] = {
-		id = 68824,
-		name = "时乃空DreamStoryLv4",
-		damage = 68,
-		base = 68821
-	}
-	uv0.weapon_property_160[68825] = {
-		id = 68825,
-		name = "时乃空DreamStoryLv5",
-		damage = 77,
-		base = 68821
-	}
-	uv0.weapon_property_160[68826] = {
-		id = 68826,
-		name = "时乃空DreamStoryLv6",
-		damage = 85,
-		base = 68821
-	}
-	uv0.weapon_property_160[68827] = {
-		id = 68827,
-		name = "时乃空DreamStoryLv7",
-		damage = 94,
-		base = 68821
-	}
-	uv0.weapon_property_160[68828] = {
-		id = 68828,
-		name = "时乃空DreamStoryLv8",
-		damage = 102,
-		base = 68821
-	}
-	uv0.weapon_property_160[68829] = {
-		id = 68829,
-		name = "时乃空DreamStoryLv9",
-		damage = 111,
-		base = 68821
-	}
-	uv0.weapon_property_160[68830] = {
-		id = 68830,
-		name = "时乃空DreamStoryLv10",
-		damage = 122,
-		base = 68821
-	}
-	uv0.weapon_property_160[68831] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "凑阿库娅技能鱼雷LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 27,
-		corrected = 100,
-		min_range = 0,
-		id = 68831,
-		attack_attribute_ratio = 120,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19081,
-			19081
-		},
-		barrage_ID = {
-			80812,
-			80813
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_160[68832] = {
-		id = 68832,
-		name = "凑阿库娅技能鱼雷LV2",
-		damage = 30,
-		base = 68831
 	}
 end()

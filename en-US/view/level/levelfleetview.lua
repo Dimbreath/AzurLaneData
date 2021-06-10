@@ -58,6 +58,7 @@ function slot0.Show(slot0)
 end
 
 function slot0.Hide(slot0)
+	setActive(slot0.dropDown, false)
 	setActive(slot0.btnSp, false)
 	setActive(slot0._tf, false)
 	warning("CLEAR")
@@ -206,7 +207,6 @@ function slot0.InitUI(slot0)
 	slot0.tfLimitTpl = slot0:findTF("panel/limit_elite/condition")
 	slot0.btnBack = slot0:findTF("panel/btnBack")
 	slot0.btnGo = slot0:findTF("panel/start_button")
-	slot0.btnASHelp = slot0:findTF("panel/title/ASvalue")
 	slot0.formationToggle = slot0:findTF("panel/RightTabs/formation_btn")
 	slot0.commanderToggle = slot0:findTF("panel/RightTabs/commander_btn")
 	slot0.dutyToggle = slot0:findTF("panel/RightTabs/duty_btn")
@@ -235,33 +235,68 @@ function slot0.InitUI(slot0)
 		end
 	end
 
+	slot0.dutyItems[3] = {}
+
+	for slot5 = 1, 2 do
+		slot6 = slot0._tf:Find("panel/sub/1/DutySelect"):Find("Item" .. slot5)
+		slot0.dutyItems[3][slot5] = slot6
+
+		setText(slot6:Find("Text"), i18n("autofight_function" .. slot5))
+	end
+
 	setActive(slot0.tfShipTpl, false)
 	setActive(slot0.tfEmptyTpl, false)
 	setActive(slot0.tfLimitTpl, false)
 	setActive(slot0.toggleMask, false)
 	setActive(slot0.btnSp, false)
 	setActive(slot0.spMask, false)
-	onButton(slot0, slot0:findTF("panel/title/SonarRange"), function ()
+	setText(slot0:findTF("panel/RightTabs/formation_btn/text"), i18n("autofight_formation"))
+	setText(slot0:findTF("panel/RightTabs/commander_btn/text"), i18n("autofight_cat"))
+	setText(slot0:findTF("panel/RightTabs/duty_btn/text"), i18n("autofight_function"))
+	setText(slot0.adjustmentToggle:Find("text"), i18n("word_adjustFleet"))
+
+	slot0.dropDown = slot0._tf:Find("panel/Dropdown")
+
+	setActive(slot0.dropDown, false)
+
+	slot0.dropDownSide = slot0._tf:Find("panel/title/DropSide")
+
+	onButton(slot0, slot0.dropDownSide:Find("Click"), function ()
+		setActive(uv0.dropDown, not isActive(uv0.dropDown))
+	end, SFX_UI_CLICK)
+	onButton(slot0, slot0.dropDown, function ()
+		setActive(uv0.dropDown, not isActive(uv0.dropDown))
+	end, SFX_UI_CLICK)
+	onButton(slot0, slot0.dropDownSide:Find("Layout/Item3"), function ()
 		uv0:emit(LevelUIConst.HANDLE_SHOW_MSG_BOX, {
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.fleet_antisub_range_tip.tip
 		})
 	end, SFX_PANEL)
-	setText(slot0:findTF("panel/title/SonarRange/desc"), i18n("fleet_antisub_range"))
-	setText(slot0:findTF("panel/RightTabs/formation_btn/text"), i18n("autofight_formation"))
-	setText(slot0:findTF("panel/RightTabs/commander_btn/text"), i18n("autofight_cat"))
-	setText(slot0:findTF("panel/RightTabs/duty_btn/text"), i18n("autofight_function"))
 
-	slot4 = "word_adjustFleet"
+	slot0.btnASHelp = slot0.dropDownSide:Find("help")
 
-	setText(slot0.adjustmentToggle:Find("text"), i18n(slot4))
+	setText(slot0.dropDownSide:Find("Layout/Item1/Text"), i18n("word_investigate"))
+	setText(slot0.dropDownSide:Find("Layout/Item2/Text"), i18n("word_attr_ac"))
+	setText(slot0.dropDownSide:Find("Layout/Item3/Text"), i18n("fleet_antisub_range"))
+	setText(slot0.dropDown:Find("Investigation/Text"), i18n("level_scene_title_word_1"))
 
-	for slot4 = 1, 2 do
-		for slot8 = 1, 4 do
-			onButton(slot0, slot0.dutyItems[slot4][slot8], function ()
+	slot5 = "level_scene_title_word_3"
+
+	setText(slot0.dropDown:Find("Airsupport/Text"), i18n(slot5))
+
+	for slot5 = 1, 2 do
+		for slot9 = 1, 4 do
+			onButton(slot0, slot0.dutyItems[slot5][slot9], function ()
 				uv0:SetDuty(uv1, uv2)
 			end)
 		end
+	end
+
+	for slot5 = 1, 2 do
+		onButton(slot0, slot0.dutyItems[3][slot5], function ()
+			uv0:SetAutoSub(uv1 == 1)
+		end)
 	end
 end
 
@@ -378,13 +413,9 @@ function slot0.set(slot0, slot1, slot2, slot3)
 	slot0:clearFleets()
 	slot0:updateFleets()
 	slot0:updateLimit()
-	setActive(slot0:findTF("panel/title/ASvalue"), OPEN_AIR_DOMINANCE and slot0.chapterASValue > 0)
-
-	if OPEN_AIR_DOMINANCE and slot0.chapterASValue > 0 then
-		slot0:updateASValue()
-	end
-
+	slot0:updateASValue()
 	slot0:UpdateSonarRange()
+	slot0:UpdateInvestigation()
 end
 
 function slot0.getFleetById(slot0, slot1)
@@ -468,29 +499,26 @@ function slot0.selectFleet(slot0, slot1, slot2, slot3)
 		end
 	end
 
-	slot6 = {
-		not slot0:IsListOfFleetEmpty(1) or nil,
-		not slot0:IsListOfFleetEmpty(2) or nil
-	}
 	slot7 = slot4[slot2]
 	slot4[slot2] = slot3
 
 	slot0:updateFleet(slot1, slot2)
 	slot0:updateLimit()
-
-	if OPEN_AIR_DOMINANCE and slot0.chapterASValue > 0 then
-		slot0:updateASValue()
-	end
-
+	slot0:updateASValue()
 	slot0:UpdateSonarRange()
 	slot0:UpdateDutyBar()
 
-	if slot0.dutyTabEnabled and table.getCount(slot6) == 2 and table.getCount({
+	if slot0.dutyTabEnabled and table.getCount({
+		not slot0:IsListOfFleetEmpty(1) or nil,
+		not slot0:IsListOfFleetEmpty(2) or nil
+	}) == 2 and table.getCount({
 		not slot0:IsListOfFleetEmpty(1) or nil,
 		not slot0:IsListOfFleetEmpty(2) or nil
 	}) == 1 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("autofight_change_tip"))
 	end
+
+	slot0:UpdateInvestigation()
 end
 
 function slot0.UpdateFleetBar(slot0, slot1, slot2)
@@ -671,33 +699,28 @@ function slot0.clearFleets(slot0)
 	end
 end
 
-function slot0.updateASValue(slot0)
-	slot1 = slot0.chapter:getConfig("best_air_dominance")
-	slot2 = getProxy(BayProxy)
-	slot3 = 0
+function slot0.UpdateInvestigation(slot0)
+	if not slot0.chapter:existAmbush() then
+		slot0:UpdateLoopInvestigation()
 
-	for slot7, slot8 in pairs(slot0.selectIds) do
-		for slot12, slot13 in ipairs(slot8) do
-			slot3 = slot13 == 0 and slot3 or slot3 + slot0:getFleetById(slot13):getFleetAirDominanceValue()
-		end
+		return
 	end
 
-	slot4 = slot0:findTF("panel/title/ASvalue")
-
-	setText(slot4:Find("value/word"), i18n("level_scene_title_word_3"))
-	setText(slot4:Find("value/number"), math.floor(slot3) < slot0.suggestionValue and slot3 or setColorStr(slot3, "#f1dc36"))
-	setText(slot4:Find("suggest/word"), i18n("level_scene_title_word_5"))
-	setText(slot4:Find("suggest/number"), slot0.suggestionValue)
-end
-
-function slot0.UpdateSonarRange(slot0)
 	for slot5 = 1, 2 do
-		setText(slot0:findTF("panel/title/SonarRange/values"):GetChild(slot5 - 1), slot0:getFleetById(slot0.selectIds[FleetType.Normal][slot5] or 0) and math.floor(slot7:GetFleetSonarRange()) or 0)
+		slot1 = math.max(0, slot0:getFleetById(slot0.selectIds[FleetType.Normal][slot5] or 0) and math.floor(slot7:getInvestSums(true)) or 0)
 	end
+
+	slot0:UpdateInvestigationComparision(slot1, slot0.chapter:getConfig("avoid_require"))
 end
 
-function slot0.UpdateEliteSonarRange(slot0)
-	slot1 = slot0:findTF("panel/title/SonarRange/values")
+function slot0.UpdateEliteInvestigation(slot0)
+	if not slot0.chapter:existAmbush() then
+		slot0:UpdateLoopInvestigation()
+
+		return
+	end
+
+	slot1 = 0
 
 	for slot5 = 1, 2 do
 		slot6 = slot0.eliteFleetList[slot5]
@@ -710,11 +733,123 @@ function slot0.UpdateEliteSonarRange(slot0)
 			})
 		end
 
-		setText(slot1:GetChild(slot5 - 1), Fleet.New({
+		slot1 = math.max(slot1, Fleet.New({
 			ship_list = slot6,
 			commanders = slot7
-		}) and math.floor(slot8:GetFleetSonarRange()) or 0)
+		}) and math.floor(slot8:getInvestSums(true)) or 0)
 	end
+
+	slot0:UpdateInvestigationComparision(slot1, slot0.chapter:getConfig("avoid_require"))
+end
+
+function slot0.UpdateLoopInvestigation(slot0)
+	slot1 = slot0.dropDown:Find("Investigation")
+
+	setText(slot1:Find("Value1"), "-")
+	setText(slot1:Find("Value2"), "-")
+	triggerToggle(slot0.dropDownSide:Find("Layout/Item1/Dot"), true)
+end
+
+function slot0.UpdateInvestigationComparision(slot0, slot1, slot2)
+	slot3 = slot0.dropDown:Find("Investigation")
+	slot4 = slot2 < math.floor(slot1)
+
+	setText(slot3:Find("Value1"), setColorStr(slot1, slot4 and "#51FF55" or COLOR_WHITE))
+	setText(slot3:Find("Value2"), slot2)
+	triggerToggle(slot0.dropDownSide:Find("Layout/Item1/Dot"), slot4)
+end
+
+function slot0.updateASValue(slot0)
+	if slot0.chapterASValue <= 0 then
+		slot0:UpdateBannedAS()
+
+		return
+	end
+
+	slot1 = getProxy(BayProxy)
+	slot2 = 0
+
+	for slot6, slot7 in pairs(slot0.selectIds) do
+		for slot11, slot12 in ipairs(slot7) do
+			slot2 = slot12 == 0 and slot2 or slot2 + slot0:getFleetById(slot12):getFleetAirDominanceValue()
+		end
+	end
+
+	slot0:UpdateASComparision(slot2, slot0.suggestionValue)
+end
+
+function slot0.updateEliteASValue(slot0)
+	if slot0.chapterASValue <= 0 then
+		slot0:UpdateBannedAS()
+
+		return
+	end
+
+	slot1 = getProxy(BayProxy)
+	slot2 = 0
+
+	for slot6, slot7 in ipairs(slot0.eliteFleetList) do
+		slot8 = {
+			[slot12] = getProxy(CommanderProxy):getCommanderById(slot13)
+		}
+
+		for slot12, slot13 in pairs(slot0.eliteCommanderList[slot6]) do
+			-- Nothing
+		end
+
+		for slot12, slot13 in ipairs(slot7) do
+			slot2 = slot2 + calcAirDominanceValue(slot1:getShipById(slot13), slot8)
+		end
+	end
+
+	slot0:UpdateASComparision(slot2, slot0.suggestionValue)
+end
+
+function slot0.UpdateBannedAS(slot0)
+	slot1 = slot0.dropDown:Find("Airsupport")
+
+	setText(slot1:Find("Value1"), "-")
+	setText(slot1:Find("Value2"), "-")
+	triggerToggle(slot0.dropDownSide:Find("Layout/Item2/Dot"), true)
+end
+
+function slot0.UpdateASComparision(slot0, slot1, slot2)
+	setText(slot0.dropDown:Find("Airsupport"):Find("Text"), i18n("level_scene_title_word_3"))
+
+	slot4 = slot2 < math.floor(slot1)
+
+	setText(slot3:Find("Value1"), setColorStr(slot1, slot4 and "#51FF55" or COLOR_WHITE))
+	setText(slot3:Find("Value2"), slot2)
+	triggerToggle(slot0.dropDownSide:Find("Layout/Item2/Dot"), slot4)
+end
+
+function slot0.UpdateSonarRange(slot0)
+	for slot4 = 1, 2 do
+		slot0:UpdateSonarRangeValues(slot4, slot0:getFleetById(slot0.selectIds[FleetType.Normal][slot4] or 0) and math.floor(slot6:GetFleetSonarRange()) or 0)
+	end
+end
+
+function slot0.UpdateEliteSonarRange(slot0)
+	for slot4 = 1, 2 do
+		slot5 = slot0.eliteFleetList[slot4]
+		slot6 = {}
+
+		for slot10, slot11 in pairs(slot0.eliteCommanderList[slot4]) do
+			table.insert(slot6, {
+				pos = slot10,
+				id = slot11
+			})
+		end
+
+		slot0:UpdateSonarRangeValues(slot4, Fleet.New({
+			ship_list = slot5,
+			commanders = slot6
+		}) and math.floor(slot7:GetFleetSonarRange()) or 0)
+	end
+end
+
+function slot0.UpdateSonarRangeValues(slot0, slot1, slot2)
+	setText(slot0.dropDownSide:Find("Layout/Item3/Values"):GetChild(slot1 - 1), slot2)
 end
 
 function slot0.clearFleet(slot0, slot1)
@@ -887,11 +1022,7 @@ end
 
 function slot0.flush(slot0)
 	slot0:updateEliteLimit()
-	setActive(slot0:findTF("panel/title/ASvalue"), OPEN_AIR_DOMINANCE and slot0.chapterASValue > 0)
-
-	if OPEN_AIR_DOMINANCE and slot0.chapterASValue > 0 then
-		slot0:updateEliteASValue()
-	end
+	slot0:updateEliteASValue()
 
 	slot0.lastFleetVaildStatus = slot0.lastFleetVaildStatus or {}
 	slot1 = {
@@ -908,6 +1039,7 @@ function slot0.flush(slot0)
 	slot0:updateEliteFleets()
 	slot0:UpdateEliteSonarRange()
 	slot0:UpdateDutyBar()
+	slot0:UpdateEliteInvestigation()
 end
 
 function slot0.updateEliteLimit(slot0)
@@ -935,32 +1067,6 @@ function slot0.updateEliteLimit(slot0)
 
 		setActive(slot0.tfLimitElite:Find("sub"), slot0.chapter:getConfig("submarine_num") > 0)
 	end
-end
-
-function slot0.updateEliteASValue(slot0)
-	slot1 = getProxy(BayProxy)
-	slot2 = 0
-
-	for slot6, slot7 in ipairs(slot0.eliteFleetList) do
-		slot8 = {
-			[slot12] = getProxy(CommanderProxy):getCommanderById(slot13)
-		}
-
-		for slot12, slot13 in pairs(slot0.eliteCommanderList[slot6]) do
-			-- Nothing
-		end
-
-		for slot12, slot13 in ipairs(slot7) do
-			slot2 = slot2 + calcAirDominanceValue(slot1:getShipById(slot13), slot8)
-		end
-	end
-
-	slot3 = slot0:findTF("panel/title/ASvalue")
-
-	setText(slot3:Find("value/word"), i18n("level_scene_title_word_3"))
-	setText(slot3:Find("value/number"), math.floor(slot2) < slot0.suggestionValue and slot2 or setColorStr(slot2, "#f1dc36"))
-	setText(slot3:Find("suggest/word"), i18n("level_scene_title_word_5"))
-	setText(slot3:Find("suggest/number"), slot0.suggestionValue)
 end
 
 function slot0.initAddButton(slot0, slot1, slot2, slot3, slot4)
@@ -1668,6 +1774,22 @@ function slot0.GetOrderedDuties(slot0)
 	return {
 		[slot2] = slot0.duties[slot6]
 	}
+end
+
+function slot0.SetAutoSub(slot0, slot1)
+	if tobool(slot1) == ys.Battle.BattleState.IsAutoSubActive() then
+		return
+	end
+
+	slot5 = {
+		isActiveSub = slot1
+	}
+
+	pg.m02:sendNotification(GAME.AUTO_SUB, slot5)
+
+	for slot5 = 1, 2 do
+		setActive(slot0.dutyItems[3][slot5]:Find("Checkmark"), slot5 == 1 == slot1)
+	end
 end
 
 function slot0.GetValidFleets(slot0, slot1)

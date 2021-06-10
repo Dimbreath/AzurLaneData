@@ -2,6 +2,122 @@ pg = pg or {}
 pg.weapon_property_133 = {}
 
 function ()
+	uv0.weapon_property_133[66589] = {
+		name = "宝石枪雨LV9",
+		damage = 219,
+		base = 66580,
+		id = 66589,
+		bullet_ID = {
+			66589
+		},
+		barrage_ID = {
+			80303
+		}
+	}
+	uv0.weapon_property_133[66590] = {
+		name = "宝石枪雨LV10",
+		damage = 235,
+		base = 66580,
+		id = 66590,
+		bullet_ID = {
+			66590
+		},
+		barrage_ID = {
+			80304
+		}
+	}
+	uv0.weapon_property_133[66600] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 25,
+		shakescreen = 0,
+		name = "联结·阿萨姆航弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 57,
+		corrected = 100,
+		min_range = 0,
+		id = 66600,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19906
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_133[66601] = {
+		id = 66601,
+		name = "联结·阿萨姆航弹",
+		damage = 68,
+		base = 66600
+	}
+	uv0.weapon_property_133[66602] = {
+		id = 66602,
+		name = "联结·阿萨姆航弹",
+		damage = 79,
+		base = 66600
+	}
+	uv0.weapon_property_133[66603] = {
+		id = 66603,
+		name = "联结·阿萨姆航弹",
+		damage = 90,
+		base = 66600
+	}
+	uv0.weapon_property_133[66604] = {
+		id = 66604,
+		name = "联结·阿萨姆航弹",
+		damage = 101,
+		base = 66600
+	}
+	uv0.weapon_property_133[66605] = {
+		id = 66605,
+		name = "联结·阿萨姆航弹",
+		damage = 113,
+		base = 66600
+	}
+	uv0.weapon_property_133[66606] = {
+		id = 66606,
+		name = "联结·阿萨姆航弹",
+		damage = 125,
+		base = 66600
+	}
+	uv0.weapon_property_133[66607] = {
+		id = 66607,
+		name = "联结·阿萨姆航弹",
+		damage = 137,
+		base = 66600
+	}
+	uv0.weapon_property_133[66608] = {
+		id = 66608,
+		name = "联结·阿萨姆航弹",
+		damage = 149,
+		base = 66600
+	}
 	uv0.weapon_property_133[66609] = {
 		id = 66609,
 		name = "联结·阿萨姆航弹",
@@ -532,171 +648,6 @@ function ()
 		damage = 14,
 		base = 66700,
 		id = 66704,
-		bullet_ID = {
-			19919,
-			19919,
-			19919,
-			19919
-		},
-		barrage_ID = {
-			80041,
-			80042,
-			80043,
-			80044
-		}
-	}
-	uv0.weapon_property_133[66705] = {
-		name = "雾岛三式烧夷弹弹幕Lv5-PVE",
-		damage = 15,
-		base = 66700,
-		id = 66705,
-		bullet_ID = {
-			19919,
-			19919,
-			19919,
-			19919
-		},
-		barrage_ID = {
-			80041,
-			80042,
-			80043,
-			80044
-		}
-	}
-	uv0.weapon_property_133[66706] = {
-		name = "雾岛三式烧夷弹弹幕Lv6-PVE",
-		damage = 16,
-		base = 66700,
-		id = 66706,
-		bullet_ID = {
-			19919,
-			19919,
-			19919,
-			19919
-		},
-		barrage_ID = {
-			80041,
-			80042,
-			80043,
-			80044
-		}
-	}
-	uv0.weapon_property_133[66707] = {
-		name = "雾岛三式烧夷弹弹幕Lv7-PVE",
-		damage = 17,
-		base = 66700,
-		id = 66707,
-		barrage_ID = {
-			80045,
-			80046
-		}
-	}
-	uv0.weapon_property_133[66708] = {
-		name = "雾岛三式烧夷弹弹幕Lv8-PVE",
-		damage = 18,
-		base = 66700,
-		id = 66708,
-		barrage_ID = {
-			80045,
-			80046
-		}
-	}
-	uv0.weapon_property_133[66709] = {
-		name = "雾岛三式烧夷弹弹幕Lv9-PVE",
-		damage = 19,
-		base = 66700,
-		id = 66709,
-		barrage_ID = {
-			80045,
-			80046
-		}
-	}
-	uv0.weapon_property_133[66710] = {
-		name = "雾岛三式烧夷弹弹幕Lv10-PVE",
-		damage = 20,
-		base = 66700,
-		id = 66710,
-		bullet_ID = {
-			19920,
-			19920
-		},
-		barrage_ID = {
-			80045,
-			80046
-		}
-	}
-	uv0.weapon_property_133[66720] = {
-		action_index = "attack_main",
-		range = 115,
-		type = 23,
-		fire_fx = "zhupao",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "雾岛三式烧夷弹弹幕Lv0-PVP",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 50,
-		damage = 10,
-		corrected = 110,
-		min_range = 50,
-		id = 66720,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			19919,
-			19919
-		},
-		barrage_ID = {
-			80041,
-			80042
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		charge_param = {
-			lockTime = 0.3,
-			maxLock = 2
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_133[66721] = {
-		id = 66721,
-		name = "雾岛三式烧夷弹弹幕Lv1-PVP",
-		damage = 11,
-		base = 66720
-	}
-	uv0.weapon_property_133[66722] = {
-		id = 66722,
-		name = "雾岛三式烧夷弹弹幕Lv2-PVP",
-		damage = 12,
-		base = 66720
-	}
-	uv0.weapon_property_133[66723] = {
-		id = 66723,
-		name = "雾岛三式烧夷弹弹幕Lv3-PVP",
-		damage = 13,
-		base = 66720
-	}
-	uv0.weapon_property_133[66724] = {
-		name = "雾岛三式烧夷弹弹幕Lv4-PVP",
-		damage = 14,
-		base = 66720,
-		id = 66724,
 		bullet_ID = {
 			19919,
 			19919,

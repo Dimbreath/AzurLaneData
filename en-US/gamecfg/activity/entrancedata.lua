@@ -266,20 +266,20 @@ return {
 		end
 	},
 	{
-		banner = "meta_entrance_970702",
+		banner = "meta_entrance_970201",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {
 			SCENE.METACHARACTER,
 			{
-				autoOpenShipConfigID = 9707021
+				autoOpenShipConfigID = 9702011
 			}
 		},
 		isShow = function ()
-			return getProxy(ActivityProxy):getActivityById(920) and not slot1:isEnd()
+			return getProxy(ActivityProxy):getActivityById(30822) and not slot1:isEnd()
 		end,
 		isTip = function ()
-			slot0 = 970702
-			slot1 = getProxy(MetaCharacterProxy):getMetaProgressVOByID(970702)
+			slot0 = 970201
+			slot1 = getProxy(MetaCharacterProxy):getMetaProgressVOByID(970201)
 
 			slot1:setDataBeforeGet()
 
@@ -298,10 +298,21 @@ return {
 			end
 
 			if slot2 == false then
-				slot2 = getProxy(MetaCharacterProxy):getRedTag(970702)
+				slot2 = getProxy(MetaCharacterProxy):getRedTag(970201)
 			end
 
 			return slot2
+		end
+	},
+	{
+		banner = "activity_permanent",
+		event = ActivityMediator.ACTIVITY_PERMANENT,
+		data = {},
+		isShow = function ()
+			return not LOCK_PERMANENT_ENTER
+		end,
+		isTip = function ()
+			return PlayerPrefs.GetString("permanent_time", "") ~= pg.gameset.permanent_mark.description
 		end
 	}
 }

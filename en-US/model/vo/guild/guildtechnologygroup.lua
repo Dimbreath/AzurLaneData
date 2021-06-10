@@ -4,11 +4,13 @@ slot0.STATE_START = 1
 
 function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
+	slot2 = slot0:bindConfigTable().get_id_list_by_group[slot0.id][1]
 
 	slot0:update({
 		progress = 0,
 		state = 0,
-		id = slot0:bindConfigTable().get_id_list_by_group[slot0.id][1]
+		id = slot2,
+		fake_id = slot2
 	})
 end
 
@@ -17,6 +19,7 @@ function slot0.update(slot0, slot1)
 	slot0.configId = slot0.pid
 	slot0.state = slot1.state or 0
 	slot0.progress = slot1.progress or 0
+	slot0.fakeId = slot1.fake_id or slot0.fakeId or slot1.id
 end
 
 function slot0.AddProgress(slot0, slot1)
@@ -31,7 +34,8 @@ function slot0.LevelUp(slot0)
 	slot0:update({
 		progress = 0,
 		id = slot0:GetNextId(),
-		state = slot0.state
+		state = slot0.state,
+		fake_id = slot0.fakeId
 	})
 end
 
@@ -53,6 +57,10 @@ end
 
 function slot0.GetProgress(slot0)
 	return slot0.progress
+end
+
+function slot0.GetFakeLevel(slot0)
+	return slot0:bindConfigTable()[slot0.fakeId].level
 end
 
 function slot0.GetLevel(slot0)

@@ -136,6 +136,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet with Ark Royal META in your fleet."
 	},
+	[111] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970201",
+		id = 111,
+		target_num = 1,
+		desc = "Win 1 battle with Helena META in your fleet."
+	},
+	[112] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970201",
+		id = 112,
+		target_num = 1,
+		desc = "Defeat a Lv. 30+ fleet with Helena META in your fleet."
+	},
+	[113] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970201",
+		id = 113,
+		target_num = 1,
+		desc = "Defeat a Lv. 55+ fleet with Helena META in your fleet."
+	},
+	[114] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970201",
+		id = 114,
+		target_num = 1,
+		desc = "Defeat a Lv. 80+ fleet with Helena META in your fleet."
+	},
+	[115] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970201",
+		id = 115,
+		target_num = 1,
+		desc = "Defeat a Lv. 100+ fleet with Helena META in your fleet."
+	},
 	[200] = {
 		target_id = "0",
 		sub_type = 302,
@@ -200,6 +240,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Ark Royal META in your fleet."
 	},
+	[208] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970201",
+		id = 208,
+		target_num = 1,
+		desc = "Win 1 Operation Siren battle with Helena META in your fleet."
+	},
+	[209] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970201",
+		id = 209,
+		target_num = 1,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Helena META in your fleet."
+	},
+	[210] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970201",
+		id = 210,
+		target_num = 1,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Helena META in your fleet."
+	},
+	[211] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970201",
+		id = 211,
+		target_num = 1,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Helena META in your fleet."
+	},
 	[301] = {
 		target_id = "0",
 		sub_type = 305,
@@ -234,6 +306,11 @@ pg.task_meta_data_template = {
 		108,
 		109,
 		110,
+		111,
+		112,
+		113,
+		114,
+		115,
 		200,
 		201,
 		202,
@@ -242,6 +319,10 @@ pg.task_meta_data_template = {
 		205,
 		206,
 		207,
+		208,
+		209,
+		210,
+		211,
 		301,
 		302
 	}

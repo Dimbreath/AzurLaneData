@@ -203,6 +203,44 @@ pg.guildset = {
 		key = "efficiency_param_times",
 		key_value = 2
 	},
+	public_level_initial = {
+		key = "public_level_initial",
+		key_value = 0,
+		key_args = {
+			1,
+			1,
+			1,
+			1,
+			1
+		}
+	},
+	public_level_priority = {
+		key = "public_level_priority",
+		key_value = 0,
+		key_args = {
+			2,
+			3,
+			4,
+			5,
+			6
+		}
+	},
+	public_level_limit = {
+		key = "public_level_limit",
+		key_value = 0,
+		key_args = {
+			18,
+			18,
+			6,
+			6,
+			12
+		}
+	},
+	public_tech_exp = {
+		key_args = "",
+		key = "public_tech_exp",
+		key_value = 60
+	},
 	all = {
 		guild_award_consume,
 		guild_award_duration,
@@ -242,6 +280,10 @@ pg.guildset = {
 		efficiency_param_max,
 		efficiency_param_normal,
 		efficiency_param_elite,
-		efficiency_param_times
+		efficiency_param_times,
+		public_level_initial,
+		public_level_priority,
+		public_level_limit,
+		public_tech_exp
 	}
 }

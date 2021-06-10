@@ -2,6 +2,171 @@ pg = pg or {}
 pg.weapon_property_134 = {}
 
 function ()
+	uv0.weapon_property_134[66705] = {
+		name = "雾岛三式烧夷弹弹幕Lv5-PVE",
+		damage = 15,
+		base = 66700,
+		id = 66705,
+		bullet_ID = {
+			19919,
+			19919,
+			19919,
+			19919
+		},
+		barrage_ID = {
+			80041,
+			80042,
+			80043,
+			80044
+		}
+	}
+	uv0.weapon_property_134[66706] = {
+		name = "雾岛三式烧夷弹弹幕Lv6-PVE",
+		damage = 16,
+		base = 66700,
+		id = 66706,
+		bullet_ID = {
+			19919,
+			19919,
+			19919,
+			19919
+		},
+		barrage_ID = {
+			80041,
+			80042,
+			80043,
+			80044
+		}
+	}
+	uv0.weapon_property_134[66707] = {
+		name = "雾岛三式烧夷弹弹幕Lv7-PVE",
+		damage = 17,
+		base = 66700,
+		id = 66707,
+		barrage_ID = {
+			80045,
+			80046
+		}
+	}
+	uv0.weapon_property_134[66708] = {
+		name = "雾岛三式烧夷弹弹幕Lv8-PVE",
+		damage = 18,
+		base = 66700,
+		id = 66708,
+		barrage_ID = {
+			80045,
+			80046
+		}
+	}
+	uv0.weapon_property_134[66709] = {
+		name = "雾岛三式烧夷弹弹幕Lv9-PVE",
+		damage = 19,
+		base = 66700,
+		id = 66709,
+		barrage_ID = {
+			80045,
+			80046
+		}
+	}
+	uv0.weapon_property_134[66710] = {
+		name = "雾岛三式烧夷弹弹幕Lv10-PVE",
+		damage = 20,
+		base = 66700,
+		id = 66710,
+		bullet_ID = {
+			19920,
+			19920
+		},
+		barrage_ID = {
+			80045,
+			80046
+		}
+	}
+	uv0.weapon_property_134[66720] = {
+		action_index = "attack_main",
+		range = 115,
+		type = 23,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "雾岛三式烧夷弹弹幕Lv0-PVP",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		damage = 10,
+		corrected = 110,
+		min_range = 50,
+		id = 66720,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			19919,
+			19919
+		},
+		barrage_ID = {
+			80041,
+			80042
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 2
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_134[66721] = {
+		id = 66721,
+		name = "雾岛三式烧夷弹弹幕Lv1-PVP",
+		damage = 11,
+		base = 66720
+	}
+	uv0.weapon_property_134[66722] = {
+		id = 66722,
+		name = "雾岛三式烧夷弹弹幕Lv2-PVP",
+		damage = 12,
+		base = 66720
+	}
+	uv0.weapon_property_134[66723] = {
+		id = 66723,
+		name = "雾岛三式烧夷弹弹幕Lv3-PVP",
+		damage = 13,
+		base = 66720
+	}
+	uv0.weapon_property_134[66724] = {
+		name = "雾岛三式烧夷弹弹幕Lv4-PVP",
+		damage = 14,
+		base = 66720,
+		id = 66724,
+		bullet_ID = {
+			19919,
+			19919,
+			19919,
+			19919
+		},
+		barrage_ID = {
+			80041,
+			80042,
+			80043,
+			80044
+		}
+	}
 	uv0.weapon_property_134[66725] = {
 		name = "雾岛三式烧夷弹弹幕Lv5-PVP",
 		damage = 15,
@@ -799,139 +964,5 @@ function ()
 			isBound = true,
 			fx = "jineng"
 		}
-	}
-	uv0.weapon_property_134[66821] = {
-		name = "飞鹰隼鹰技能Lv1",
-		damage = 60,
-		base = 66820,
-		id = 66821,
-		bullet_ID = {
-			66821
-		}
-	}
-	uv0.weapon_property_134[66822] = {
-		name = "飞鹰隼鹰技能Lv2",
-		damage = 80,
-		base = 66820,
-		id = 66822,
-		bullet_ID = {
-			66822
-		}
-	}
-	uv0.weapon_property_134[66823] = {
-		name = "飞鹰隼鹰技能Lv3",
-		damage = 100,
-		base = 66820,
-		id = 66823,
-		bullet_ID = {
-			66823
-		}
-	}
-	uv0.weapon_property_134[66824] = {
-		name = "飞鹰隼鹰技能Lv4",
-		damage = 120,
-		base = 66820,
-		id = 66824,
-		bullet_ID = {
-			66824
-		}
-	}
-	uv0.weapon_property_134[66825] = {
-		name = "飞鹰隼鹰技能Lv5",
-		damage = 140,
-		base = 66820,
-		id = 66825,
-		bullet_ID = {
-			66825
-		}
-	}
-	uv0.weapon_property_134[66826] = {
-		name = "飞鹰隼鹰技能Lv6",
-		damage = 160,
-		base = 66820,
-		id = 66826,
-		bullet_ID = {
-			66826
-		}
-	}
-	uv0.weapon_property_134[66827] = {
-		name = "飞鹰隼鹰技能Lv7",
-		damage = 180,
-		base = 66820,
-		id = 66827,
-		bullet_ID = {
-			66827
-		}
-	}
-	uv0.weapon_property_134[66828] = {
-		name = "飞鹰隼鹰技能Lv8",
-		damage = 200,
-		base = 66820,
-		id = 66828,
-		bullet_ID = {
-			66828
-		}
-	}
-	uv0.weapon_property_134[66829] = {
-		name = "飞鹰隼鹰技能Lv9",
-		damage = 220,
-		base = 66820,
-		id = 66829,
-		bullet_ID = {
-			66829
-		}
-	}
-	uv0.weapon_property_134[66830] = {
-		name = "飞鹰隼鹰技能Lv10",
-		damage = 240,
-		base = 66820,
-		id = 66830,
-		bullet_ID = {
-			66830
-		}
-	}
-	uv0.weapon_property_134[66840] = {
-		action_index = "",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = -10,
-		shakescreen = 0,
-		name = "3 x 机载鱼雷-重樱",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 66840,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2112
-		},
-		barrage_ID = {
-			2142
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

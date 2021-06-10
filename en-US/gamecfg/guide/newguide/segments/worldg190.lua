@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "All the Ashes Coordinates you discovered during Operation Siren are recorded here!",
+				text = "All the META Coordinates you discovered during Operation Siren are recorded here!",
 				mode = 2,
 				dir = 1,
 				char = "1",

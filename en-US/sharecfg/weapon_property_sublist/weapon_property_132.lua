@@ -2,6 +2,160 @@ pg = pg or {}
 pg.weapon_property_132 = {}
 
 function ()
+	uv0.weapon_property_132[66482] = {
+		id = 66482,
+		name = "胜利刺穿-小子弹LV2",
+		damage = 8,
+		base = 66480
+	}
+	uv0.weapon_property_132[66483] = {
+		id = 66483,
+		name = "胜利刺穿-小子弹LV3",
+		damage = 9,
+		base = 66480
+	}
+	uv0.weapon_property_132[66484] = {
+		id = 66484,
+		name = "胜利刺穿-小子弹LV4",
+		damage = 10,
+		base = 66480
+	}
+	uv0.weapon_property_132[66485] = {
+		name = "胜利刺穿-小子弹LV5",
+		damage = 11,
+		base = 66480,
+		id = 66485,
+		bullet_ID = {
+			19916,
+			19916
+		},
+		barrage_ID = {
+			80332,
+			80333
+		}
+	}
+	uv0.weapon_property_132[66486] = {
+		name = "胜利刺穿-小子弹LV6",
+		damage = 12,
+		base = 66480,
+		id = 66486,
+		bullet_ID = {
+			19916,
+			19916
+		},
+		barrage_ID = {
+			80332,
+			80333
+		}
+	}
+	uv0.weapon_property_132[66487] = {
+		name = "胜利刺穿-小子弹LV7",
+		damage = 13,
+		base = 66480,
+		id = 66487,
+		bullet_ID = {
+			19916,
+			19916
+		},
+		barrage_ID = {
+			80332,
+			80333
+		}
+	}
+	uv0.weapon_property_132[66488] = {
+		name = "胜利刺穿-小子弹LV8",
+		damage = 14,
+		base = 66480,
+		id = 66488,
+		bullet_ID = {
+			19916,
+			19916
+		},
+		barrage_ID = {
+			80332,
+			80333
+		}
+	}
+	uv0.weapon_property_132[66489] = {
+		name = "胜利刺穿-小子弹LV9",
+		damage = 15,
+		base = 66480,
+		id = 66489,
+		bullet_ID = {
+			19916,
+			19916
+		},
+		barrage_ID = {
+			80332,
+			80333
+		}
+	}
+	uv0.weapon_property_132[66490] = {
+		name = "胜利刺穿-小子弹LV10",
+		damage = 16,
+		base = 66480,
+		id = 66490,
+		bullet_ID = {
+			19916,
+			19916,
+			19916
+		},
+		barrage_ID = {
+			80331,
+			80334,
+			80335
+		}
+	}
+	uv0.weapon_property_132[66500] = {
+		action_index = "attack",
+		range = 50,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "烈焰崩袭LV0",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 11,
+		corrected = 100,
+		min_range = 0,
+		id = 66500,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19909
+		},
+		barrage_ID = {
+			80311
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_132[66501] = {
+		id = 66501,
+		name = "烈焰崩袭LV1",
+		damage = 12,
+		base = 66500
+	}
 	uv0.weapon_property_132[66502] = {
 		id = 66502,
 		name = "烈焰崩袭LV2",
@@ -600,121 +754,5 @@ function ()
 		barrage_ID = {
 			80303
 		}
-	}
-	uv0.weapon_property_132[66589] = {
-		name = "宝石枪雨LV9",
-		damage = 219,
-		base = 66580,
-		id = 66589,
-		bullet_ID = {
-			66589
-		},
-		barrage_ID = {
-			80303
-		}
-	}
-	uv0.weapon_property_132[66590] = {
-		name = "宝石枪雨LV10",
-		damage = 235,
-		base = 66580,
-		id = 66590,
-		bullet_ID = {
-			66590
-		},
-		barrage_ID = {
-			80304
-		}
-	}
-	uv0.weapon_property_132[66600] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 25,
-		shakescreen = 0,
-		name = "联结·阿萨姆航弹",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 57,
-		corrected = 100,
-		min_range = 0,
-		id = 66600,
-		attack_attribute_ratio = 80,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19906
-		},
-		barrage_ID = {
-			2121
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_132[66601] = {
-		id = 66601,
-		name = "联结·阿萨姆航弹",
-		damage = 68,
-		base = 66600
-	}
-	uv0.weapon_property_132[66602] = {
-		id = 66602,
-		name = "联结·阿萨姆航弹",
-		damage = 79,
-		base = 66600
-	}
-	uv0.weapon_property_132[66603] = {
-		id = 66603,
-		name = "联结·阿萨姆航弹",
-		damage = 90,
-		base = 66600
-	}
-	uv0.weapon_property_132[66604] = {
-		id = 66604,
-		name = "联结·阿萨姆航弹",
-		damage = 101,
-		base = 66600
-	}
-	uv0.weapon_property_132[66605] = {
-		id = 66605,
-		name = "联结·阿萨姆航弹",
-		damage = 113,
-		base = 66600
-	}
-	uv0.weapon_property_132[66606] = {
-		id = 66606,
-		name = "联结·阿萨姆航弹",
-		damage = 125,
-		base = 66600
-	}
-	uv0.weapon_property_132[66607] = {
-		id = 66607,
-		name = "联结·阿萨姆航弹",
-		damage = 137,
-		base = 66600
-	}
-	uv0.weapon_property_132[66608] = {
-		id = 66608,
-		name = "联结·阿萨姆航弹",
-		damage = 149,
-		base = 66600
 	}
 end()

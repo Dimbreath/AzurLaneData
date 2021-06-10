@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "Participating in Ashes Showdowns earns you Sync Points, and accumulating these gives you nice bonus rewards!",
+				text = "Participating in META Showdowns earns you Sync Points, and accumulating these gives you nice bonus rewards!",
 				mode = 2,
 				dir = 1,
 				posY = 0,

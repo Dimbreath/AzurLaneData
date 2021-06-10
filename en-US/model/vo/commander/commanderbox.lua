@@ -23,6 +23,10 @@ function slot0.getFinishTime(slot0)
 	return slot0.finishTime
 end
 
+function slot0.ReduceFinishTime(slot0, slot1)
+	slot0.finishTime = math.max(slot0.beginTime, slot0.finishTime - slot1)
+end
+
 function slot0.costTime(slot0)
 	if slot0:getState() == uv0.STATE_STARTING or slot1 == uv0.STATE_FINISHED then
 		return slot0.finishTime - slot0.beginTime

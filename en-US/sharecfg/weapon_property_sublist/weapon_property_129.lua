@@ -2,6 +2,136 @@ pg = pg or {}
 pg.weapon_property_129 = {}
 
 function ()
+	uv0.weapon_property_129[66143] = {
+		id = 66143,
+		name = "BigSeven技能LV3",
+		damage = 68,
+		base = 66140
+	}
+	uv0.weapon_property_129[66144] = {
+		name = "BigSeven技能LV4",
+		damage = 80,
+		base = 66140,
+		id = 66144,
+		barrage_ID = {
+			199792,
+			199782
+		}
+	}
+	uv0.weapon_property_129[66145] = {
+		name = "BigSeven技能LV5",
+		damage = 92,
+		base = 66140,
+		id = 66145,
+		barrage_ID = {
+			199792,
+			199782
+		}
+	}
+	uv0.weapon_property_129[66146] = {
+		name = "BigSeven技能LV6",
+		damage = 104,
+		base = 66140,
+		id = 66146,
+		barrage_ID = {
+			199792,
+			199782
+		}
+	}
+	uv0.weapon_property_129[66147] = {
+		name = "BigSeven技能LV7",
+		damage = 116,
+		base = 66140,
+		id = 66147,
+		barrage_ID = {
+			199793,
+			199783
+		}
+	}
+	uv0.weapon_property_129[66148] = {
+		name = "BigSeven技能LV8",
+		damage = 128,
+		base = 66140,
+		id = 66148,
+		barrage_ID = {
+			199793,
+			199783
+		}
+	}
+	uv0.weapon_property_129[66149] = {
+		name = "BigSeven技能LV9",
+		damage = 140,
+		base = 66140,
+		id = 66149,
+		barrage_ID = {
+			199793,
+			199783
+		}
+	}
+	uv0.weapon_property_129[66150] = {
+		name = "BigSeven技能LV10",
+		damage = 156,
+		base = 66140,
+		id = 66150,
+		barrage_ID = {
+			199793,
+			199783
+		}
+	}
+	uv0.weapon_property_129[66160] = {
+		action_index = "",
+		range = 50,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "吸血鬼技能三发鱼雷",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 55,
+		corrected = 100,
+		min_range = 0,
+		id = 66160,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1802
+		},
+		barrage_ID = {
+			19969
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_129[66161] = {
+		id = 66161,
+		damage = 62,
+		base = 66160
+	}
+	uv0.weapon_property_129[66162] = {
+		id = 66162,
+		damage = 70,
+		base = 66160
+	}
 	uv0.weapon_property_129[66163] = {
 		id = 66163,
 		damage = 77,
@@ -500,103 +630,5 @@ function ()
 		bullet_ID = {
 			66249
 		}
-	}
-	uv0.weapon_property_129[66250] = {
-		name = "山城改技能Lv10",
-		damage = 360,
-		base = 66240,
-		id = 66250,
-		bullet_ID = {
-			66250
-		}
-	}
-	uv0.weapon_property_129[66260] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 25,
-		shakescreen = 0,
-		name = "5 x 100lb Bomb",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 57,
-		corrected = 100,
-		min_range = 0,
-		id = 66260,
-		attack_attribute_ratio = 80,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2121
-		},
-		barrage_ID = {
-			2124
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_129[66261] = {
-		id = 66261,
-		damage = 68,
-		base = 66260
-	}
-	uv0.weapon_property_129[66262] = {
-		id = 66262,
-		damage = 79,
-		base = 66260
-	}
-	uv0.weapon_property_129[66263] = {
-		id = 66263,
-		damage = 90,
-		base = 66260
-	}
-	uv0.weapon_property_129[66264] = {
-		id = 66264,
-		damage = 101,
-		base = 66260
-	}
-	uv0.weapon_property_129[66265] = {
-		id = 66265,
-		damage = 113,
-		base = 66260
-	}
-	uv0.weapon_property_129[66266] = {
-		id = 66266,
-		damage = 125,
-		base = 66260
-	}
-	uv0.weapon_property_129[66267] = {
-		id = 66267,
-		damage = 137,
-		base = 66260
-	}
-	uv0.weapon_property_129[66268] = {
-		id = 66268,
-		damage = 149,
-		base = 66260
-	}
-	uv0.weapon_property_129[66269] = {
-		id = 66269,
-		damage = 161,
-		base = 66260
 	}
 end()

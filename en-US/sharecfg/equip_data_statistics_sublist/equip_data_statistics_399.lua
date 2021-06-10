@@ -1,5 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_399 = {
+	[95325] = {
+		id = 95325,
+		damage = "34 x 6",
+		base = 95320,
+		weapon_id = {
+			95325
+		}
+	},
+	[95326] = {
+		id = 95326,
+		damage = "36 x 6",
+		base = 95320,
+		weapon_id = {
+			95326
+		}
+	},
 	[95340] = {
 		name = "Twin 203mm Model 1924 Main Gun Mount",
 		speciality = "Lock",
@@ -228,81 +244,6 @@ pg.equip_data_statistics_399 = {
 		base = 95400,
 		weapon_id = {
 			95402
-		}
-	},
-	[95403] = {
-		id = 95403,
-		damage = "8 x 4",
-		base = 95400,
-		weapon_id = {
-			95403
-		}
-	},
-	[95420] = {
-		name = "Twin 120mm M1936 Main Gun Mount",
-		speciality = "Lock",
-		type = 1,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "55400",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "6 x 4",
-		nationality = 6,
-		ammo = 3,
-		value_3 = 0,
-		id = 95420,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2300
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2300
-			},
-			{
-				4,
-				1022
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			95420
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"RN",
-			"DD",
-			"MG",
-			"AP"
 		}
 	}
 }

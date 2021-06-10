@@ -224,4 +224,19 @@ function slot0.getSpecialData(slot0, slot1)
 	return slot0.speciaData and slot0.speciaData[slot1] and slot0.speciaData[slot1] or nil
 end
 
+function slot0.canPermanentFinish(slot0)
+	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_TASK_LIST then
+		slot1 = slot0:getConfig("config_data")
+		slot2 = getProxy(TaskProxy)
+
+		return underscore.all(underscore.flatten({
+			slot1[#slot1]
+		}), function (slot0)
+			return uv0:getFinishTaskById(slot0) ~= nil
+		end)
+	end
+
+	return false
+end
+
 return slot0

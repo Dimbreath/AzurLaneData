@@ -249,7 +249,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 315,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>The indomitable Black Dragon of the Eagle Union has arrived! Together, let us shake the foundations of this world!</color>\nObtained from the \"Mirror involution\" event.",
+		desc = "<color=#ffffff>The indomitable Black Dragon of the Eagle Union has arrived! Together, let us shake the foundations of this world!</color>  Obtained from the \"Mirror involution\" event.",
 		scene = {}
 	},
 	[501] = {

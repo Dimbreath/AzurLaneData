@@ -338,6 +338,7 @@ function slot0.OnOpenPreCombat(slot0, slot1)
 		return
 	end
 
+	setActive(slot0.blurPanel, false)
 	slot0:emit(DailyLevelMediator.ON_STAGE, slot1)
 end
 

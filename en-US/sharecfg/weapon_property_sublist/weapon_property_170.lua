@@ -2,6 +2,117 @@ pg = pg or {}
 pg.weapon_property_170 = {}
 
 function ()
+	uv0.weapon_property_170[69400] = {
+		id = 69400,
+		name = "黎塞留PVE主炮弹幕LV10",
+		damage = 170,
+		base = 69391
+	}
+	uv0.weapon_property_170[69401] = {
+		action_index = "attack",
+		range = 120,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "黎塞留PVP主炮弹幕-Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 58,
+		corrected = 100,
+		min_range = 35,
+		id = 69401,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19135,
+			19136
+		},
+		barrage_ID = {
+			80876,
+			80877
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_170[69402] = {
+		id = 69402,
+		name = "黎塞留PVP主炮弹幕-Lv2",
+		damage = 70,
+		base = 69401
+	}
+	uv0.weapon_property_170[69403] = {
+		id = 69403,
+		name = "黎塞留PVP主炮弹幕-Lv3",
+		damage = 82,
+		base = 69401
+	}
+	uv0.weapon_property_170[69404] = {
+		id = 69404,
+		name = "黎塞留PVP主炮弹幕-Lv4",
+		damage = 94,
+		base = 69401
+	}
+	uv0.weapon_property_170[69405] = {
+		id = 69405,
+		name = "黎塞留PVP主炮弹幕-Lv5",
+		damage = 106,
+		base = 69401
+	}
+	uv0.weapon_property_170[69406] = {
+		id = 69406,
+		name = "黎塞留PVP主炮弹幕-Lv6",
+		damage = 118,
+		base = 69401
+	}
+	uv0.weapon_property_170[69407] = {
+		id = 69407,
+		name = "黎塞留PVP主炮弹幕-Lv7",
+		damage = 130,
+		base = 69401
+	}
+	uv0.weapon_property_170[69408] = {
+		id = 69408,
+		name = "黎塞留PVP主炮弹幕-Lv8",
+		damage = 142,
+		base = 69401
+	}
+	uv0.weapon_property_170[69409] = {
+		id = 69409,
+		name = "黎塞留PVP主炮弹幕-Lv9",
+		damage = 154,
+		base = 69401
+	}
+	uv0.weapon_property_170[69410] = {
+		id = 69410,
+		name = "黎塞留PVP主炮弹幕-Lv10",
+		damage = 170,
+		base = 69401
+	}
 	uv0.weapon_property_170[69411] = {
 		action_index = "attack",
 		range = 95,
@@ -572,100 +683,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_170[69462] = {
-		id = 69462,
-		damage = 196,
-		base = 69461
-	}
-	uv0.weapon_property_170[69463] = {
-		id = 69463,
-		damage = 219,
-		base = 69461
-	}
-	uv0.weapon_property_170[69464] = {
-		id = 69464,
-		damage = 242,
-		base = 69461
-	}
-	uv0.weapon_property_170[69465] = {
-		id = 69465,
-		damage = 265,
-		base = 69461
-	}
-	uv0.weapon_property_170[69466] = {
-		id = 69466,
-		damage = 288,
-		base = 69461
-	}
-	uv0.weapon_property_170[69467] = {
-		id = 69467,
-		damage = 311,
-		base = 69461
-	}
-	uv0.weapon_property_170[69468] = {
-		id = 69468,
-		damage = 334,
-		base = 69461
-	}
-	uv0.weapon_property_170[69469] = {
-		id = 69469,
-		damage = 357,
-		base = 69461
-	}
-	uv0.weapon_property_170[69470] = {
-		id = 69470,
-		damage = 380,
-		base = 69461
-	}
-	uv0.weapon_property_170[69471] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "贝亚恩鱼雷LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 51,
-		corrected = 100,
-		min_range = 0,
-		id = 69471,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19143
-		},
-		barrage_ID = {
-			80720
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_170[69472] = {
-		id = 69472,
-		name = "贝亚恩鱼雷LV2",
-		damage = 52,
-		base = 69471
 	}
 end()

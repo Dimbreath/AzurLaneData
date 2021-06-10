@@ -72,7 +72,11 @@ function slot0.BindConditions(slot0)
 		return getProxy(PlayerProxy):IsShowCommssionTip()
 	end)
 	slot0:BindCondition(uv0.TYPES.COMMANDER, function ()
-		return getProxy(CommanderProxy):haveFinishedBox()
+		if not LOCK_CATTERY then
+			return getProxy(CommanderProxy):haveFinishedBox() or getProxy(CommanderProxy):AnyCatteryExistOP() or getProxy(CommanderProxy):AnyCatteryCanUse()
+		else
+			return slot0
+		end
 	end)
 	slot0:BindCondition(uv0.TYPES.SETTTING, function ()
 		return MainUIMediator.CanUpdateCV or PlayerPrefs.GetFloat("firstIntoOtherPanel") == 0

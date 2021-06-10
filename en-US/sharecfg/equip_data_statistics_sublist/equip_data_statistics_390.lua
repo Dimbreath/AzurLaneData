@@ -1,5 +1,39 @@
 pg = pg or {}
 pg.equip_data_statistics_390 = {
+	[90846] = {
+		id = 90846,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50026
+			},
+			{
+				4,
+				51566
+			}
+		},
+		weapon_id = {
+			90846
+		}
+	},
+	[90847] = {
+		id = 90847,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50027
+			},
+			{
+				4,
+				51567
+			}
+		},
+		weapon_id = {
+			90847
+		}
+	},
 	[90860] = {
 		name = "Twin 203mm Mle 1924 Main Gun Mount",
 		speciality = "Lock",
@@ -220,22 +254,6 @@ pg.equip_data_statistics_390 = {
 		base = 90880,
 		weapon_id = {
 			90887
-		}
-	},
-	[90888] = {
-		id = 90888,
-		damage = "44 x 4",
-		base = 90880,
-		weapon_id = {
-			90888
-		}
-	},
-	[90889] = {
-		id = 90889,
-		damage = "46 x 4",
-		base = 90880,
-		weapon_id = {
-			90889
 		}
 	}
 }

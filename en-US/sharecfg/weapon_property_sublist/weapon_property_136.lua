@@ -2,6 +2,159 @@ pg = pg or {}
 pg.weapon_property_136 = {}
 
 function ()
+	uv0.weapon_property_136[66928] = {
+		name = "I19穿透鱼雷LV8",
+		damage = 42,
+		base = 66920,
+		id = 66928,
+		bullet_ID = {
+			19933,
+			19933
+		},
+		barrage_ID = {
+			80134,
+			80135
+		}
+	}
+	uv0.weapon_property_136[66929] = {
+		name = "I19穿透鱼雷LV9",
+		damage = 45,
+		base = 66920,
+		id = 66929,
+		bullet_ID = {
+			19933,
+			19933
+		},
+		barrage_ID = {
+			80134,
+			80135
+		}
+	}
+	uv0.weapon_property_136[66930] = {
+		name = "I19穿透鱼雷LV10",
+		damage = 48,
+		base = 66920,
+		id = 66930,
+		bullet_ID = {
+			19933,
+			19933
+		},
+		barrage_ID = {
+			80136,
+			80137
+		}
+	}
+	uv0.weapon_property_136[66940] = {
+		action_index = "",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 1,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "萨拉托加技能鱼雷机Lv0",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 90,
+		charge_param = "",
+		damage = 63,
+		corrected = 100,
+		min_range = 0,
+		id = 66940,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			66940
+		},
+		barrage_ID = {
+			12009
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.8,
+			isBound = true,
+			fx = "jineng"
+		}
+	}
+	uv0.weapon_property_136[66941] = {
+		name = "萨拉托加技能鱼雷机Lv1",
+		damage = 76,
+		base = 66940,
+		id = 66941,
+		bullet_ID = {
+			66941
+		}
+	}
+	uv0.weapon_property_136[66942] = {
+		name = "萨拉托加技能鱼雷机Lv2",
+		damage = 90,
+		base = 66940,
+		id = 66942,
+		bullet_ID = {
+			66942
+		}
+	}
+	uv0.weapon_property_136[66943] = {
+		name = "萨拉托加技能鱼雷机Lv3",
+		damage = 104,
+		base = 66940,
+		id = 66943,
+		bullet_ID = {
+			66943
+		}
+	}
+	uv0.weapon_property_136[66944] = {
+		name = "萨拉托加技能鱼雷机Lv4",
+		damage = 118,
+		base = 66940,
+		id = 66944,
+		bullet_ID = {
+			66944
+		}
+	}
+	uv0.weapon_property_136[66945] = {
+		name = "萨拉托加技能鱼雷机Lv5",
+		damage = 132,
+		base = 66940,
+		id = 66945,
+		bullet_ID = {
+			66945
+		}
+	}
+	uv0.weapon_property_136[66946] = {
+		name = "萨拉托加技能鱼雷机Lv6",
+		damage = 146,
+		base = 66940,
+		id = 66946,
+		bullet_ID = {
+			66946
+		}
+	}
+	uv0.weapon_property_136[66947] = {
+		name = "萨拉托加技能鱼雷机Lv7",
+		damage = 160,
+		base = 66940,
+		id = 66947,
+		bullet_ID = {
+			66947
+		}
+	}
 	uv0.weapon_property_136[66948] = {
 		name = "萨拉托加技能鱼雷机Lv8",
 		damage = 174,
@@ -512,202 +665,5 @@ function ()
 		name = "BigSeven改技能LV3",
 		damage = 55,
 		base = 67040
-	}
-	uv0.weapon_property_136[67044] = {
-		name = "BigSeven改技能LV4",
-		damage = 65,
-		base = 67040,
-		id = 67044,
-		bullet_ID = {
-			19937,
-			19937,
-			19938,
-			19938
-		},
-		barrage_ID = {
-			80142,
-			80145,
-			80151,
-			80153
-		}
-	}
-	uv0.weapon_property_136[67045] = {
-		name = "BigSeven改技能LV5",
-		damage = 75,
-		base = 67040,
-		id = 67045,
-		bullet_ID = {
-			19937,
-			19937,
-			19938,
-			19938
-		},
-		barrage_ID = {
-			80142,
-			80145,
-			80151,
-			80153
-		}
-	}
-	uv0.weapon_property_136[67046] = {
-		name = "BigSeven改技能LV6",
-		damage = 85,
-		base = 67040,
-		id = 67046,
-		bullet_ID = {
-			19937,
-			19937,
-			19938,
-			19938
-		},
-		barrage_ID = {
-			80142,
-			80145,
-			80151,
-			80153
-		}
-	}
-	uv0.weapon_property_136[67047] = {
-		name = "BigSeven改技能LV7",
-		damage = 95,
-		base = 67040,
-		id = 67047,
-		bullet_ID = {
-			19937,
-			19937,
-			19938,
-			19938
-		},
-		barrage_ID = {
-			80143,
-			80146,
-			80151,
-			80153
-		}
-	}
-	uv0.weapon_property_136[67048] = {
-		name = "BigSeven改技能LV8",
-		damage = 105,
-		base = 67040,
-		id = 67048,
-		bullet_ID = {
-			19937,
-			19937,
-			19938,
-			19938
-		},
-		barrage_ID = {
-			80143,
-			80146,
-			80151,
-			80153
-		}
-	}
-	uv0.weapon_property_136[67049] = {
-		name = "BigSeven改技能LV9",
-		damage = 115,
-		base = 67040,
-		id = 67049,
-		bullet_ID = {
-			19937,
-			19937,
-			19938,
-			19938
-		},
-		barrage_ID = {
-			80143,
-			80146,
-			80151,
-			80153
-		}
-	}
-	uv0.weapon_property_136[67050] = {
-		name = "BigSeven改技能LV10",
-		damage = 125,
-		base = 67040,
-		id = 67050,
-		bullet_ID = {
-			19937,
-			19937,
-			19938,
-			19938
-		},
-		barrage_ID = {
-			80143,
-			80146,
-			80152,
-			80154
-		}
-	}
-	uv0.weapon_property_136[67060] = {
-		action_index = "attack",
-		range = 50,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Z23技能弹幕LV0",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 16,
-		corrected = 100,
-		min_range = 0,
-		id = 67060,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19939,
-			19939,
-			19939
-		},
-		barrage_ID = {
-			80161,
-			80165,
-			80168
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_136[67061] = {
-		id = 67061,
-		name = "Z23技能弹幕LV1",
-		damage = 17,
-		base = 67060
-	}
-	uv0.weapon_property_136[67062] = {
-		id = 67062,
-		name = "Z23技能弹幕LV2",
-		damage = 18,
-		base = 67060
-	}
-	uv0.weapon_property_136[67063] = {
-		name = "Z23技能弹幕LV3",
-		damage = 20,
-		base = 67060,
-		id = 67063,
-		barrage_ID = {
-			80162,
-			80165,
-			80168
-		}
 	}
 end()

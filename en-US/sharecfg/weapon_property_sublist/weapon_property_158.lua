@@ -2,6 +2,111 @@ pg = pg or {}
 pg.weapon_property_158 = {}
 
 function ()
+	uv0.weapon_property_158[68636] = {
+		id = 68636,
+		damage = 288,
+		base = 68631
+	}
+	uv0.weapon_property_158[68637] = {
+		id = 68637,
+		damage = 311,
+		base = 68631
+	}
+	uv0.weapon_property_158[68638] = {
+		id = 68638,
+		damage = 334,
+		base = 68631
+	}
+	uv0.weapon_property_158[68639] = {
+		id = 68639,
+		damage = 357,
+		base = 68631
+	}
+	uv0.weapon_property_158[68640] = {
+		id = 68640,
+		damage = 380,
+		base = 68631
+	}
+	uv0.weapon_property_158[68641] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "棘鳍技能鱼雷LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 9,
+		corrected = 100,
+		min_range = 0,
+		id = 68641,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19002
+		},
+		barrage_ID = {
+			80573
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_158[68642] = {
+		id = 68642,
+		name = "棘鳍技能鱼雷LV2",
+		damage = 12,
+		base = 68641
+	}
+	uv0.weapon_property_158[68643] = {
+		id = 68643,
+		name = "棘鳍技能鱼雷LV3",
+		damage = 15,
+		base = 68641
+	}
+	uv0.weapon_property_158[68644] = {
+		id = 68644,
+		name = "棘鳍技能鱼雷LV4",
+		damage = 18,
+		base = 68641
+	}
+	uv0.weapon_property_158[68645] = {
+		name = "棘鳍技能鱼雷LV5",
+		damage = 21,
+		base = 68641,
+		id = 68645,
+		barrage_ID = {
+			80574
+		}
+	}
+	uv0.weapon_property_158[68646] = {
+		name = "棘鳍技能鱼雷LV6",
+		damage = 24,
+		base = 68641,
+		id = 68646,
+		barrage_ID = {
+			80574
+		}
+	}
 	uv0.weapon_property_158[68647] = {
 		name = "棘鳍技能鱼雷LV7",
 		damage = 27,
@@ -578,131 +683,5 @@ function ()
 		name = "利托里奥技能小子弹-LV7",
 		damage = 17,
 		base = 68691
-	}
-	uv0.weapon_property_158[68698] = {
-		id = 68698,
-		name = "利托里奥技能小子弹-LV8",
-		damage = 18,
-		base = 68691
-	}
-	uv0.weapon_property_158[68699] = {
-		id = 68699,
-		name = "利托里奥技能小子弹-LV9",
-		damage = 19,
-		base = 68691
-	}
-	uv0.weapon_property_158[68700] = {
-		id = 68700,
-		name = "利托里奥技能小子弹-LV10",
-		damage = 20,
-		base = 68691
-	}
-	uv0.weapon_property_158[68701] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "zhupao",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "凯撒技能LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 50,
-		corrected = 100,
-		min_range = 0,
-		id = 68701,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19025,
-			19025
-		},
-		barrage_ID = {
-			80786,
-			80787
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_158[68702] = {
-		id = 68702,
-		name = "凯撒技能LV2",
-		damage = 60,
-		base = 68701
-	}
-	uv0.weapon_property_158[68703] = {
-		id = 68703,
-		name = "凯撒技能LV3",
-		damage = 70,
-		base = 68701
-	}
-	uv0.weapon_property_158[68704] = {
-		name = "凯撒技能LV4",
-		damage = 80,
-		base = 68701,
-		id = 68704,
-		barrage_ID = {
-			80788,
-			80787
-		}
-	}
-	uv0.weapon_property_158[68705] = {
-		name = "凯撒技能LV5",
-		damage = 90,
-		base = 68701,
-		id = 68705,
-		barrage_ID = {
-			80788,
-			80787
-		}
-	}
-	uv0.weapon_property_158[68706] = {
-		name = "凯撒技能LV6",
-		damage = 100,
-		base = 68701,
-		id = 68706,
-		barrage_ID = {
-			80788,
-			80787
-		}
-	}
-	uv0.weapon_property_158[68707] = {
-		name = "凯撒技能LV7",
-		damage = 110,
-		base = 68701,
-		id = 68707,
-		barrage_ID = {
-			80788,
-			80789
-		}
-	}
-	uv0.weapon_property_158[68708] = {
-		name = "凯撒技能LV8",
-		damage = 120,
-		base = 68701,
-		id = 68708,
-		barrage_ID = {
-			80788,
-			80789
-		}
 	}
 end()

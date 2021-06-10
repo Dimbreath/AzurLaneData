@@ -2,6 +2,109 @@ pg = pg or {}
 pg.weapon_property_117 = {}
 
 function ()
+	uv0.weapon_property_117[65318] = {
+		id = 65318,
+		name = "穗香弹幕LV8-类黎塞留高爆4+2枚-PVP",
+		damage = 146,
+		base = 65311
+	}
+	uv0.weapon_property_117[65319] = {
+		id = 65319,
+		name = "穗香弹幕LV9-类黎塞留高爆4+2枚-PVP",
+		damage = 158,
+		base = 65311
+	}
+	uv0.weapon_property_117[65320] = {
+		id = 65320,
+		name = "穗香弹幕LV10-类黎塞留高爆4+2枚-PVP",
+		damage = 170,
+		base = 65311
+	}
+	uv0.weapon_property_117[65321] = {
+		action_index = "attack",
+		range = 115,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "穗香弹幕LV1-类佐治亚超重弹2枚-PVP",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 62,
+		corrected = 100,
+		min_range = 25,
+		id = 65321,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19226
+		},
+		barrage_ID = {
+			1300
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_117[65322] = {
+		id = 65322,
+		name = "穗香弹幕LV2-类佐治亚超重弹2枚-PVP",
+		damage = 74,
+		base = 65321
+	}
+	uv0.weapon_property_117[65323] = {
+		id = 65323,
+		name = "穗香弹幕LV3-类佐治亚超重弹2枚-PVP",
+		damage = 86,
+		base = 65321
+	}
+	uv0.weapon_property_117[65324] = {
+		id = 65324,
+		name = "穗香弹幕LV4-类佐治亚超重弹2枚-PVP",
+		damage = 98,
+		base = 65321
+	}
+	uv0.weapon_property_117[65325] = {
+		id = 65325,
+		name = "穗香弹幕LV5-类佐治亚超重弹2枚-PVP",
+		damage = 110,
+		base = 65321
+	}
+	uv0.weapon_property_117[65326] = {
+		id = 65326,
+		name = "穗香弹幕LV6-类佐治亚超重弹2枚-PVP",
+		damage = 122,
+		base = 65321
+	}
+	uv0.weapon_property_117[65327] = {
+		id = 65327,
+		name = "穗香弹幕LV7-类佐治亚超重弹2枚-PVP",
+		damage = 134,
+		base = 65321
+	}
 	uv0.weapon_property_117[65328] = {
 		id = 65328,
 		name = "穗香弹幕LV8-类佐治亚超重弹2枚-PVP",
@@ -511,145 +614,5 @@ function ()
 		name = "莫妮卡特殊弹Lv9",
 		damage = 26,
 		base = 65371
-	}
-	uv0.weapon_property_117[65380] = {
-		id = 65380,
-		name = "莫妮卡特殊弹Lv10",
-		damage = 30,
-		base = 65371
-	}
-	uv0.weapon_property_117[65381] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "女天狗沙排啾轰炸机Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 90,
-		charge_param = "",
-		damage = 66,
-		corrected = 100,
-		min_range = 0,
-		id = 65381,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1890,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			65381
-		},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_117[65382] = {
-		name = "女天狗沙排啾轰炸机Lv2",
-		damage = 88,
-		base = 65381,
-		id = 65382,
-		bullet_ID = {
-			65382
-		}
-	}
-	uv0.weapon_property_117[65383] = {
-		name = "女天狗沙排啾轰炸机Lv3",
-		damage = 108,
-		base = 65381,
-		id = 65383,
-		bullet_ID = {
-			65383
-		}
-	}
-	uv0.weapon_property_117[65384] = {
-		name = "女天狗沙排啾轰炸机Lv4",
-		damage = 130,
-		base = 65381,
-		id = 65384,
-		bullet_ID = {
-			65384
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_117[65385] = {
-		name = "女天狗沙排啾轰炸机Lv5",
-		damage = 152,
-		base = 65381,
-		id = 65385,
-		bullet_ID = {
-			65385
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_117[65386] = {
-		name = "女天狗沙排啾轰炸机Lv6",
-		damage = 174,
-		base = 65381,
-		id = 65386,
-		bullet_ID = {
-			65386
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_117[65387] = {
-		name = "女天狗沙排啾轰炸机Lv7",
-		damage = 196,
-		base = 65381,
-		id = 65387,
-		bullet_ID = {
-			65387
-		},
-		barrage_ID = {
-			12010
-		}
-	}
-	uv0.weapon_property_117[65388] = {
-		name = "女天狗沙排啾轰炸机Lv8",
-		damage = 216,
-		base = 65381,
-		id = 65388,
-		bullet_ID = {
-			65388
-		},
-		barrage_ID = {
-			12010
-		}
-	}
-	uv0.weapon_property_117[65389] = {
-		name = "女天狗沙排啾轰炸机Lv9",
-		damage = 238,
-		base = 65381,
-		id = 65389,
-		bullet_ID = {
-			65389
-		},
-		barrage_ID = {
-			12010
-		}
 	}
 end()

@@ -2,6 +2,112 @@ pg = pg or {}
 pg.weapon_property_150 = {}
 
 function ()
+	uv0.weapon_property_150[68140] = {
+		id = 68140,
+		name = "佐治亚技能·小子弹-PVP-LV10",
+		damage = 35,
+		base = 68131
+	}
+	uv0.weapon_property_150[68141] = {
+		action_index = "attack",
+		range = 95,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "佐治亚技能·小子弹-PVE-LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 13,
+		corrected = 100,
+		min_range = 0,
+		id = 68141,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19998,
+			19998
+		},
+		barrage_ID = {
+			80559,
+			80560
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_150[68142] = {
+		id = 68142,
+		name = "佐治亚技能·小子弹-PVE-LV2",
+		damage = 14,
+		base = 68141
+	}
+	uv0.weapon_property_150[68143] = {
+		id = 68143,
+		name = "佐治亚技能·小子弹-PVE-LV3",
+		damage = 15,
+		base = 68141
+	}
+	uv0.weapon_property_150[68144] = {
+		id = 68144,
+		name = "佐治亚技能·小子弹-PVE-LV4",
+		damage = 16,
+		base = 68141
+	}
+	uv0.weapon_property_150[68145] = {
+		id = 68145,
+		name = "佐治亚技能·小子弹-PVE-LV5",
+		damage = 18,
+		base = 68141
+	}
+	uv0.weapon_property_150[68146] = {
+		id = 68146,
+		name = "佐治亚技能·小子弹-PVE-LV6",
+		damage = 20,
+		base = 68141
+	}
+	uv0.weapon_property_150[68147] = {
+		id = 68147,
+		name = "佐治亚技能·小子弹-PVE-LV7",
+		damage = 23,
+		base = 68141
+	}
+	uv0.weapon_property_150[68148] = {
+		id = 68148,
+		name = "佐治亚技能·小子弹-PVE-LV8",
+		damage = 26,
+		base = 68141
+	}
+	uv0.weapon_property_150[68149] = {
+		id = 68149,
+		name = "佐治亚技能·小子弹-PVE-LV9",
+		damage = 30,
+		base = 68141
+	}
+	uv0.weapon_property_150[68150] = {
+		id = 68150,
+		name = "佐治亚技能·小子弹-PVE-LV10",
+		damage = 35,
+		base = 68141
+	}
 	uv0.weapon_property_150[68151] = {
 		action_index = "attack",
 		range = 95,
@@ -654,111 +760,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_150[68222] = {
-		id = 68222,
-		name = "腓特烈弹幕小子弹LV2",
-		damage = 16,
-		base = 68221
-	}
-	uv0.weapon_property_150[68223] = {
-		id = 68223,
-		name = "腓特烈弹幕小子弹LV3",
-		damage = 19,
-		base = 68221
-	}
-	uv0.weapon_property_150[68224] = {
-		id = 68224,
-		name = "腓特烈弹幕小子弹LV4",
-		damage = 22,
-		base = 68221
-	}
-	uv0.weapon_property_150[68225] = {
-		id = 68225,
-		name = "腓特烈弹幕小子弹LV5",
-		damage = 25,
-		base = 68221
-	}
-	uv0.weapon_property_150[68226] = {
-		id = 68226,
-		name = "腓特烈弹幕小子弹LV6",
-		damage = 29,
-		base = 68221
-	}
-	uv0.weapon_property_150[68227] = {
-		id = 68227,
-		name = "腓特烈弹幕小子弹LV7",
-		damage = 34,
-		base = 68221
-	}
-	uv0.weapon_property_150[68228] = {
-		id = 68228,
-		name = "腓特烈弹幕小子弹LV8",
-		damage = 38,
-		base = 68221
-	}
-	uv0.weapon_property_150[68229] = {
-		id = 68229,
-		name = "腓特烈弹幕小子弹LV9",
-		damage = 42,
-		base = 68221
-	}
-	uv0.weapon_property_150[68230] = {
-		id = 68230,
-		name = "腓特烈弹幕小子弹LV10",
-		damage = 46,
-		base = 68221
-	}
-	uv0.weapon_property_150[68201] = {
-		action_index = "attack",
-		range = 95,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "出云技能-PVE-LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 30,
-		corrected = 100,
-		min_range = 0,
-		id = 68201,
-		attack_attribute_ratio = 120,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80051,
-			80055
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_150[68202] = {
-		id = 68202,
-		name = "出云技能-PVE-LV2",
-		damage = 38,
-		base = 68201
 	}
 end()

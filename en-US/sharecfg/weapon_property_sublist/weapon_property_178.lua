@@ -2,6 +2,112 @@ pg = pg or {}
 pg.weapon_property_178 = {}
 
 function ()
+	uv0.weapon_property_178[69906] = {
+		id = 69906,
+		name = "纪伊弹幕鱼雷-LV6",
+		damage = 66,
+		base = 69901
+	}
+	uv0.weapon_property_178[69907] = {
+		id = 69907,
+		name = "纪伊弹幕鱼雷-LV7",
+		damage = 72,
+		base = 69901
+	}
+	uv0.weapon_property_178[69908] = {
+		id = 69908,
+		name = "纪伊弹幕鱼雷-LV8",
+		damage = 79,
+		base = 69901
+	}
+	uv0.weapon_property_178[69909] = {
+		id = 69909,
+		name = "纪伊弹幕鱼雷-LV9",
+		damage = 87,
+		base = 69901
+	}
+	uv0.weapon_property_178[69910] = {
+		id = 69910,
+		name = "纪伊弹幕鱼雷-LV10",
+		damage = 96,
+		base = 69901
+	}
+	uv0.weapon_property_178[69911] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "凉月烟雾弹附属弹幕LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 6,
+		corrected = 100,
+		min_range = 0,
+		id = 69911,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19183,
+			19183
+		},
+		barrage_ID = {
+			80946,
+			80947
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_178[69912] = {
+		id = 69912,
+		name = "凉月烟雾弹附属弹幕LV2",
+		damage = 7,
+		base = 69911
+	}
+	uv0.weapon_property_178[69913] = {
+		id = 69913,
+		name = "凉月烟雾弹附属弹幕LV3",
+		damage = 8,
+		base = 69911
+	}
+	uv0.weapon_property_178[69914] = {
+		id = 69914,
+		name = "凉月烟雾弹附属弹幕LV4",
+		damage = 9,
+		base = 69911
+	}
+	uv0.weapon_property_178[69915] = {
+		id = 69915,
+		name = "凉月烟雾弹附属弹幕LV5",
+		damage = 10,
+		base = 69911
+	}
+	uv0.weapon_property_178[69916] = {
+		id = 69916,
+		name = "凉月烟雾弹附属弹幕LV6",
+		damage = 11,
+		base = 69911
+	}
 	uv0.weapon_property_178[69917] = {
 		id = 69917,
 		name = "凉月烟雾弹附属弹幕LV7",
@@ -571,133 +677,5 @@ function ()
 		id = 69967,
 		damage = 246,
 		base = 68631
-	}
-	uv0.weapon_property_178[69968] = {
-		id = 69968,
-		damage = 264,
-		base = 68631
-	}
-	uv0.weapon_property_178[69969] = {
-		id = 69969,
-		damage = 282,
-		base = 68631
-	}
-	uv0.weapon_property_178[69970] = {
-		id = 69970,
-		damage = 300,
-		base = 68631
-	}
-	uv0.weapon_property_178[69971] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "双千技能水上机-弱化起飞1次-强化起飞2次-Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 90,
-		charge_param = "",
-		damage = 66,
-		corrected = 100,
-		min_range = 0,
-		id = 69971,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1890,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			69971
-		},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_178[69972] = {
-		name = "双千技能水上机-弱化起飞1次-强化起飞2次-Lv2",
-		damage = 88,
-		base = 69971,
-		id = 69972,
-		bullet_ID = {
-			69972
-		}
-	}
-	uv0.weapon_property_178[69973] = {
-		name = "双千技能水上机-弱化起飞1次-强化起飞2次-Lv3",
-		damage = 108,
-		base = 69971,
-		id = 69973,
-		bullet_ID = {
-			69973
-		}
-	}
-	uv0.weapon_property_178[69974] = {
-		name = "双千技能水上机-弱化起飞1次-强化起飞2次-Lv4",
-		damage = 130,
-		base = 69971,
-		id = 69974,
-		bullet_ID = {
-			69974
-		}
-	}
-	uv0.weapon_property_178[69975] = {
-		name = "双千技能水上机-弱化起飞1次-强化起飞2次-Lv5",
-		damage = 152,
-		base = 69971,
-		id = 69975,
-		bullet_ID = {
-			69975
-		}
-	}
-	uv0.weapon_property_178[69976] = {
-		name = "双千技能水上机-弱化起飞1次-强化起飞2次-Lv6",
-		damage = 174,
-		base = 69971,
-		id = 69976,
-		bullet_ID = {
-			69976
-		}
-	}
-	uv0.weapon_property_178[69977] = {
-		name = "双千技能水上机-弱化起飞1次-强化起飞2次-Lv7",
-		damage = 196,
-		base = 69971,
-		id = 69977,
-		bullet_ID = {
-			69977
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_178[69978] = {
-		name = "双千技能水上机-弱化起飞1次-强化起飞2次-Lv8",
-		damage = 216,
-		base = 69971,
-		id = 69978,
-		bullet_ID = {
-			69978
-		},
-		barrage_ID = {
-			12009
-		}
 	}
 end()

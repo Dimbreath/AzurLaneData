@@ -11,6 +11,12 @@ slot1 = {
 	[970702] = {
 		411,
 		574
+	},
+	[970201] = {
+		296,
+		610,
+		0.95,
+		0.95
 	}
 }
 
@@ -42,7 +48,11 @@ function slot0.OnInit(slot0)
 	slot1 = slot0:getTpl("list_panel/mask/tpl")
 	slot1:Find("complete"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_02")
 	slot1:Find("raiding"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_03")
-	slot1:Find("empty"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_04")
+	slot2 = slot1:Find("empty"):GetComponent(typeof(Image))
+	slot2.sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_04")
+
+	slot2:SetNativeSize()
+
 	slot1:Find("selected/challenging"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_01")
 	slot1:Find("selected/finished"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_05")
 	slot0.scrollRect = WorldBossItemList.New(slot0:findTF("list_panel/mask/bg/container"), slot1)
@@ -92,7 +102,7 @@ function slot0.OnInit(slot0)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_not_refresh_frequently"))
 	end, SFX_PANEL)
 
-	function slot2()
+	function slot3()
 		if _.all(uv0.filterFlags, function (slot0)
 			return slot0 == -1
 		end) then
@@ -134,6 +144,8 @@ function slot0.OnInit(slot0)
 			x = uv0[slot0.groupId][1],
 			y = uv0[slot0.groupId][2]
 		})
+
+		slot0.painting.localScale = Vector3(uv0[slot0.groupId][3] or 1, uv0[slot0.groupId][4] or 1, 1)
 	end
 end
 

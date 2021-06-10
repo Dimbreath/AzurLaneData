@@ -2,6 +2,166 @@ pg = pg or {}
 pg.weapon_property_172 = {}
 
 function ()
+	uv0.weapon_property_172[69524] = {
+		name = "爱斯基摩人弹幕LV4",
+		damage = 15,
+		base = 69521,
+		id = 69524,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_172[69525] = {
+		name = "爱斯基摩人弹幕LV5",
+		damage = 16,
+		base = 69521,
+		id = 69525,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_172[69526] = {
+		name = "爱斯基摩人弹幕LV6",
+		damage = 17,
+		base = 69521,
+		id = 69526,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_172[69527] = {
+		name = "爱斯基摩人弹幕LV7",
+		damage = 18,
+		base = 69521,
+		id = 69527,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_172[69528] = {
+		name = "爱斯基摩人弹幕LV8",
+		damage = 20,
+		base = 69521,
+		id = 69528,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_172[69529] = {
+		name = "爱斯基摩人弹幕LV9",
+		damage = 22,
+		base = 69521,
+		id = 69529,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_172[69530] = {
+		name = "爱斯基摩人弹幕LV10",
+		damage = 24,
+		base = 69521,
+		id = 69530,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_172[69531] = {
+		action_index = "attack",
+		range = 60,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "柴郡猫爪技能Lv1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 11,
+		corrected = 118,
+		min_range = 0,
+		id = 69531,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19147
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_172[69532] = {
+		id = 69532,
+		name = "柴郡猫爪技能Lv2",
+		damage = 13,
+		base = 69531
+	}
+	uv0.weapon_property_172[69533] = {
+		id = 69533,
+		name = "柴郡猫爪技能Lv3",
+		damage = 16,
+		base = 69531
+	}
+	uv0.weapon_property_172[69534] = {
+		id = 69534,
+		name = "柴郡猫爪技能Lv4",
+		damage = 20,
+		base = 69531
+	}
 	uv0.weapon_property_172[69535] = {
 		id = 69535,
 		name = "柴郡猫爪技能Lv5",
@@ -516,109 +676,5 @@ function ()
 		name = "德雷克吸血特殊射击LV5",
 		damage = 62,
 		base = 69581
-	}
-	uv0.weapon_property_172[69586] = {
-		id = 69586,
-		name = "德雷克吸血特殊射击LV6",
-		damage = 68,
-		base = 69581
-	}
-	uv0.weapon_property_172[69587] = {
-		id = 69587,
-		name = "德雷克吸血特殊射击LV7",
-		damage = 74,
-		base = 69581
-	}
-	uv0.weapon_property_172[69588] = {
-		id = 69588,
-		name = "德雷克吸血特殊射击LV8",
-		damage = 80,
-		base = 69581
-	}
-	uv0.weapon_property_172[69589] = {
-		id = 69589,
-		name = "德雷克吸血特殊射击LV9",
-		damage = 86,
-		base = 69581
-	}
-	uv0.weapon_property_172[69590] = {
-		id = 69590,
-		name = "德雷克吸血特殊射击LV10",
-		damage = 92,
-		base = 69581
-	}
-	uv0.weapon_property_172[69591] = {
-		action_index = "attack",
-		range = 100,
-		type = 3,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "美因茨破盾反击弹幕LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 20,
-		corrected = 100,
-		min_range = 0,
-		id = 69591,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19154
-		},
-		barrage_ID = {
-			80900
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_172[69592] = {
-		id = 69592,
-		name = "美因茨破盾反击弹幕LV2",
-		damage = 22,
-		base = 69591
-	}
-	uv0.weapon_property_172[69593] = {
-		id = 69593,
-		name = "美因茨破盾反击弹幕LV3",
-		damage = 24,
-		base = 69591
-	}
-	uv0.weapon_property_172[69594] = {
-		id = 69594,
-		name = "美因茨破盾反击弹幕LV4",
-		damage = 28,
-		base = 69591
-	}
-	uv0.weapon_property_172[69595] = {
-		id = 69595,
-		name = "美因茨破盾反击弹幕LV5",
-		damage = 26,
-		base = 69591
-	}
-	uv0.weapon_property_172[69596] = {
-		id = 69596,
-		name = "美因茨破盾反击弹幕LV6",
-		damage = 28,
-		base = 69591
 	}
 end()

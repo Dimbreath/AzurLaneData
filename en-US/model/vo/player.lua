@@ -233,13 +233,13 @@ end
 function slot0.getLevelMaxGold(slot0)
 	slot1 = slot0:getConfig("max_gold")
 
-	return getProxy(GuildProxy):getRawData() and slot1 + slot2:getMaxGoldAddition() or slot1
+	return getProxy(GuildProxy):GetAdditionGuild() and slot1 + slot2:getMaxGoldAddition() or slot1
 end
 
 function slot0.getLevelMaxOil(slot0)
 	slot1 = slot0:getConfig("max_oil")
 
-	return getProxy(GuildProxy):getRawData() and slot1 + slot2:getMaxOilAddition() or slot1
+	return getProxy(GuildProxy):GetAdditionGuild() and slot1 + slot2:getMaxOilAddition() or slot1
 end
 
 function slot0.getResource(slot0, slot1)
@@ -372,7 +372,7 @@ function slot0.getMaxEquipmentBag(slot0)
 	slot1 = slot0.equipBagMax
 	slot2 = 0
 
-	if getProxy(GuildProxy):getRawData() then
+	if getProxy(GuildProxy):GetAdditionGuild() then
 		slot2 = slot3:getEquipmentBagAddition()
 	end
 
@@ -383,7 +383,7 @@ function slot0.getMaxShipBag(slot0)
 	slot1 = slot0.shipBagMax
 	slot2 = 0
 
-	if getProxy(GuildProxy):getRawData() then
+	if getProxy(GuildProxy):GetAdditionGuild() then
 		slot2 = slot3:getShipBagAddition()
 	end
 

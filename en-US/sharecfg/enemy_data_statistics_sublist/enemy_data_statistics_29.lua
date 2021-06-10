@@ -2087,6 +2087,13 @@ pg.enemy_data_statistics_29 = {
 					0,
 					0
 				}
+			},
+			plane = {
+				{
+					0,
+					0,
+					0
+				}
 			}
 		},
 		smoke = {

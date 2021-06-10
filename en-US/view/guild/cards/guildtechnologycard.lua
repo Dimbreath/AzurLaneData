@@ -32,24 +32,25 @@ end
 function slot0.Update(slot0, slot1, slot2)
 	slot0.titleImg.text = slot1:getConfig("name")
 	slot0.iconImag.sprite = GetSpriteFromAtlas("GuildTechnology", slot1.group.id)
-	slot5 = slot1:GetMaxLevel()
+	slot8 = math.max(slot1:GetMaxLevel(), slot1.group:GetFakeLevel())
 
 	if slot1:IsGuildMember() then
 		slot0.levelTxt.text = "Lv." .. slot1:GetLevel()
 	else
-		slot0.levelTxt.text = "Lv." .. slot6 .. "/" .. slot5
+		slot0.levelTxt.text = "Lv." .. slot6 .. "/" .. slot8 .. string.format(" [%s+%s]", slot5, math.max(0, slot7 - slot5))
 	end
 
 	slot0.descTxt.text = slot1:GetDesc()
 
-	setActive(slot0.maxTF, slot5 <= slot6)
-	setActive(slot0.upgradeTF, slot6 < slot5)
+	setActive(slot0.maxTF, slot8 <= slot6)
+	setActive(slot0.upgradeTF, slot6 < slot8)
 
-	slot10 = slot1:ReachTargetLiveness(getProxy(GuildProxy):getRawData():getMemberById(getProxy(PlayerProxy):getRawData().id))
+	slot9 = slot1:_ReachTargetLiveness_()
 
 	removeOnButton(slot0._tf)
 
-	if slot6 < slot5 and slot10 then
+	if slot1:CanUpgrade() then
+		slot9 = true
 		slot0.guildResTxt.text, slot0.goldResTxt.text = slot1:GetConsume()
 
 		onButton(slot0, slot0._tf, function ()
@@ -57,23 +58,16 @@ function slot0.Update(slot0, slot1, slot2)
 				return
 			end
 
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
-				content = i18n("guild_tech_consume_tip", uv2, uv3, uv4),
-				onYes = function ()
-					uv0.view:emit(GuildTechnologyMediator.ON_UPGRADE, uv1.group.id)
-				end
-			})
+			uv2:DoUprade(uv3)
 		end, SFX_PANEL)
-	end
-
-	if not slot10 then
+	elseif not slot9 then
 		setText(slot0.livnessTF, i18n("guild_tech_livness_no_enough", slot1:GetTargetLivness()))
 	end
 
-	setActive(slot0.guildRes, slot10)
-	setActive(slot0.goldRes, slot10)
-	setActive(slot0.upgradeBtn, slot10)
-	setActive(slot0.livnessTF, not slot10)
+	setActive(slot0.guildRes, slot9)
+	setActive(slot0.goldRes, slot9)
+	setActive(slot0.upgradeBtn, slot9)
+	setActive(slot0.livnessTF, not slot9)
 
 	slot11 = slot2 and slot2.id == slot3
 
@@ -85,6 +79,46 @@ function slot0.Update(slot0, slot1, slot2)
 		slot0.breakoutSlider.value = slot13 / slot12
 		slot0.breakoutTxt.text = slot13 .. "/" .. slot12
 	end
+end
+
+function slot0.DoUprade(slot0, slot1)
+	function slot2()
+		slot1, slot2 = uv0:GetConsume()
+
+		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			content = i18n("guild_tech_consume_tip", slot1, slot2, uv0:getConfig("name")),
+			onYes = function ()
+				uv0.view:emit(GuildTechnologyMediator.ON_UPGRADE, uv1.group.id)
+			end
+		})
+	end
+
+	function slot3(slot0)
+		if uv0:IsRiseInPrice() then
+			slot1, slot2, slot3 = uv0:CanUpgradeBySelf()
+			slot4 = i18n("guild_tech_price_inc_tip")
+
+			if slot3 and not slot2 then
+				slot4 = i18n("guild_tech_livness_no_enough", uv0:GetLivenessOffset())
+			end
+
+			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+				content = slot4,
+				onYes = slot0
+			})
+		else
+			slot0()
+		end
+	end
+
+	seriesAsync({
+		function (slot0)
+			uv0(slot0)
+		end,
+		function (slot0)
+			uv0()
+		end
+	})
 end
 
 function slot0.Destroy(slot0)

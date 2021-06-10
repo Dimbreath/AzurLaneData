@@ -1,5 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_395 = {
+	[95105] = {
+		id = 95105,
+		damage = "56/wave",
+		base = 95100,
+		weapon_id = {
+			95105
+		}
+	},
+	[95106] = {
+		id = 95106,
+		damage = "61/wave",
+		base = 95100,
+		weapon_id = {
+			95106
+		}
+	},
 	[95120] = {
 		name = "Single 90mm Model 1939 AA Gun",
 		speciality = "Anti-Air",
@@ -226,22 +242,6 @@ pg.equip_data_statistics_395 = {
 		base = 95140,
 		weapon_id = {
 			95143
-		}
-	},
-	[95144] = {
-		id = 95144,
-		damage = "62/wave",
-		base = 95140,
-		weapon_id = {
-			95144
-		}
-	},
-	[95145] = {
-		id = 95145,
-		damage = "68/wave",
-		base = 95140,
-		weapon_id = {
-			95145
 		}
 	}
 }

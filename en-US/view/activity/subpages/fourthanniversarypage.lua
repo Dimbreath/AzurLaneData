@@ -1,6 +1,28 @@
 slot0 = class("FourthAnniversaryPage", import("...base.BaseActivityPage"))
 
 function slot0.OnInit(slot0)
+	slot0.hideIndex = {}
+	slot0.scrollAble = true
+
+	if PLATFORM_CODE == PLATFORM_CH then
+		slot0.hideIndex = {}
+		slot0.scrollAble = true
+	elseif PLATFORM_CODE == PLATFORM_KR then
+		slot0.hideIndex = {
+			1,
+			2,
+			3,
+			4
+		}
+		slot0.scrollAble = false
+	elseif PLATFORM_CODE ~= PLATFORM_CH then
+		slot0.hideIndex = {
+			2,
+			4
+		}
+		slot0.scrollAble = true
+	end
+
 	slot0:findUI()
 	slot0:initData()
 end
@@ -28,11 +50,9 @@ function slot0.findUI(slot0)
 		slot0.btnList3[#slot0.btnList3 + 1] = slot0.btnContainer:GetChild(slot5)
 	end
 
-	if PLATFORM_CODE ~= PLATFORM_CH then
-		for slot5 = 1, slot1 * 3 do
-			if slot5 % 6 == 2 or slot5 % 6 == 4 then
-				setActive(slot0.btnContainer:GetChild(slot5 - 1), false)
-			end
+	for slot5 = 1, slot1 * 3 do
+		if table.contains(slot0.hideIndex, slot5 % 6) or not slot0.scrollAble and slot5 > 6 then
+			setActive(slot0.btnContainer:GetChild(slot5 - 1), false)
 		end
 	end
 
@@ -51,7 +71,7 @@ function slot0.initData(slot0)
 	slot0.btnSpeed = 50
 	slot0.btnSizeX = slot0.gridLayoutGroupCom.cellSize.x
 	slot0.btnMarginX = slot0.gridLayoutGroupCom.spacing.x
-	slot0.moveLength = (PLATFORM_CODE == PLATFORM_CH and slot0.btnCount or slot0.btnCount - 2) * (slot0.btnSizeX + slot0.btnMarginX)
+	slot0.moveLength = (slot0.btnCount - #slot0.hideIndex) * (slot0.btnSizeX + slot0.btnMarginX)
 	slot0.startAnchoredPosX = slot0.btnContainer.anchoredPosition.x
 end
 
@@ -136,11 +156,13 @@ function slot0.initTimer(slot0)
 	slot0.frameTimer:Start()
 
 	slot0.frameTimer2 = Timer.New(function ()
-		if uv0.moveLength <= uv0.startAnchoredPosX - (uv0.btnContainer.anchoredPosition.x - uv0.btnSpeed * uv1) then
-			slot0 = uv0.btnContainer.anchoredPosition.x + uv0.moveLength
-		end
+		if uv0.scrollAble then
+			if uv0.moveLength <= uv0.startAnchoredPosX - (uv0.btnContainer.anchoredPosition.x - uv0.btnSpeed * uv1) then
+				slot0 = uv0.btnContainer.anchoredPosition.x + uv0.moveLength
+			end
 
-		uv0.btnContainer.anchoredPosition = Vector3(slot0, 0, 0)
+			uv0.btnContainer.anchoredPosition = Vector3(slot0, 0, 0)
+		end
 	end, slot1, -1, false)
 
 	slot0.frameTimer2:Start()

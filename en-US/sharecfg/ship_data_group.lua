@@ -19491,6 +19491,40 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[30003] = {
+		type = 2,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		nationality = 97,
+		hide = 0,
+		index_id = 30003,
+		group_type = 970201,
+		code = 30003,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"A",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"META Lab - Coordinate Analysis",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9702011
+					}
+				},
+				0
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -19974,6 +20008,7 @@ pg.ship_data_group = {
 		20016,
 		20017,
 		30001,
-		30002
+		30002,
+		30003
 	}
 }

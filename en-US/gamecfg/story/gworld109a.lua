@@ -16,7 +16,7 @@ return {
 			bgm = "level02",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "Ashes coordinate tracking system initiated. Commencing tutorial.",
+			say = "META coordinate tracking system initiated. Commencing tutorial.",
 			flashin = {
 				stopbgm = true,
 				black = true,
@@ -43,7 +43,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "It is hypothesized that Ashes riggings are encased in a special material that renders them completely undetectable using conventional radars.",
+			say = "It is hypothesized that META riggings are encased in a special material that renders them completely undetectable using conventional radars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "Fortunately, the R&D department has managed to engineer a device that is capable of detecting the faint tracks left by Ashes members.",
+			say = "Fortunately, the R&D department has managed to engineer a device that is capable of detecting the faint tracks left by META members.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "Locking on to these tracks and following them allows us to pinpoint the location of any Ashes members active in the region.",
+			say = "Locking on to these tracks and following them allows us to pinpoint the location of any META members active in the region.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "Unlike Sirens, it is believed that Ashes members can be reasoned with and that they are not inherently hostile. In certain cases, cooperation between us may even be feasible.",
+			say = "Unlike Sirens, it is believed that META members can be reasoned with and that they are not inherently hostile. In certain cases, cooperation between us may even be feasible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			voice = "event:/tb/11/tb-11",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "Bear in mind that fighting Ashes members comes with extreme danger. Proceed with caution.",
+			say = "Bear in mind that fighting META members comes with extreme danger. Proceed with caution.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "Extreme danger... I don't doubt it. Looking over the mission documents again, they say we only have to “deal with” the Ashes, not “eliminate” them.",
+			say = "Extreme danger... I don't doubt it. Looking over the mission documents again, they say we only have to “deal with” the META, not “eliminate” them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "It is true that the Ashes may pose a threat to the integrity of Operation Siren, but depending on who you ask, some members of the fleet view them as one of us.",
+			say = "It is true that the META may pose a threat to the integrity of Operation Siren, but depending on who you ask, some members of the fleet view them as one of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "Memphis has a point. We still don't know what the Ashes are after. Moreover, they might be willing to at least hear what their fellow shipgirl has to say.",
+			say = "Memphis has a point. We still don't know what the META are after. Moreover, they might be willing to at least hear what their fellow shipgirl has to say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

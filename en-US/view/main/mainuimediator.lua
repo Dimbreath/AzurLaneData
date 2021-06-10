@@ -372,19 +372,23 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.ON_TOUCHSHIP, function (slot0, slot1)
-		slot2 = getProxy(TaskProxy)
+		if getProxy(TaskProxy):GetFlagShipInterActionTask() then
+			uv0:sendNotification(GAME.UPDATE_TASK_PROGRESS, {
+				taskId = slot3.id
+			})
+		end
 
-		for slot7, slot8 in ipairs(pg.task_data_trigger.all) do
-			if pg.task_data_trigger[slot8].group_id == slot1 then
-				slot11 = slot9.args[1][2]
+		for slot8, slot9 in ipairs(pg.task_data_trigger.all) do
+			if pg.task_data_trigger[slot9].group_id == slot1 then
+				slot12 = slot10.args[1][2]
 
-				if getProxy(ActivityProxy):getActivityById(slot9.activity_id) and not slot12:isEnd() and not slot2:getTaskById(slot11) and not slot2:getFinishTaskById(slot11) then
+				if getProxy(ActivityProxy):getActivityById(slot10.activity_id) and not slot13:isEnd() and not slot2:getTaskById(slot12) and not slot2:getFinishTaskById(slot12) then
 					uv0.viewComponent.chatFlag = nil
 					uv0.viewComponent._lastChatTween = nil
 
 					uv0:sendNotification(GAME.ACTIVITY_OPERATION, {
 						cmd = 1,
-						activity_id = slot10
+						activity_id = slot11
 					})
 
 					return
@@ -541,7 +545,8 @@ function slot0.listNotificationInterests(slot0)
 		PileGameConst.OPEN_PILEGAME,
 		GAME.ZERO_HOUR_OP_DONE,
 		GAME.GET_GUILD_INFO_DONE,
-		GAME.GUILD_GET_USER_INFO_DONE
+		GAME.GUILD_GET_USER_INFO_DONE,
+		GAME.GET_PUBLIC_GUILD_USER_DATA_DONE
 	}
 
 	for slot5, slot6 in pairs(slot0.viewComponent.redDotHelper:GetNotifyType()) do
@@ -683,7 +688,7 @@ function slot0.handleNotification(slot0, slot1)
 		if getProxy(GuildProxy):getData() and (slot5:getDutyByMemberId(getProxy(PlayerProxy):getRawData().id) == GuildMember.DUTY_COMMANDER or slot7 == GuildMember.DUTY_DEPUTY_COMMANDER) and not slot4:getRequests() then
 			slot0:sendNotification(GAME.GUILD_GET_REQUEST_LIST, slot5.id)
 		end
-	elseif slot2 == GAME.GUILD_GET_USER_INFO_DONE then
+	elseif slot2 == GAME.GUILD_GET_USER_INFO_DONE or slot2 == GAME.GET_PUBLIC_GUILD_USER_DATA_DONE then
 		slot0.viewComponent:updatePlayerInfo(getProxy(PlayerProxy):getData())
 	end
 end

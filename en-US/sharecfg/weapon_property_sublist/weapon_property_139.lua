@@ -2,6 +2,100 @@ pg = pg or {}
 pg.weapon_property_139 = {}
 
 function ()
+	uv0.weapon_property_139[67267] = {
+		id = 67267,
+		damage = 264,
+		base = 67260
+	}
+	uv0.weapon_property_139[67268] = {
+		id = 67268,
+		damage = 283,
+		base = 67260
+	}
+	uv0.weapon_property_139[67269] = {
+		id = 67269,
+		damage = 302,
+		base = 67260
+	}
+	uv0.weapon_property_139[67270] = {
+		id = 67270,
+		damage = 322,
+		base = 67260
+	}
+	uv0.weapon_property_139[67280] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 25,
+		shakescreen = 0,
+		name = "2 x 100lb Bomb",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 64,
+		corrected = 100,
+		min_range = 0,
+		id = 67280,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19946
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_139[67281] = {
+		id = 67281,
+		damage = 70,
+		base = 67280
+	}
+	uv0.weapon_property_139[67282] = {
+		id = 67282,
+		damage = 78,
+		base = 67280
+	}
+	uv0.weapon_property_139[67283] = {
+		id = 67283,
+		damage = 85,
+		base = 67280
+	}
+	uv0.weapon_property_139[67284] = {
+		id = 67284,
+		damage = 93,
+		base = 67280
+	}
+	uv0.weapon_property_139[67285] = {
+		id = 67285,
+		damage = 100,
+		base = 67280
+	}
+	uv0.weapon_property_139[67286] = {
+		id = 67286,
+		damage = 108,
+		base = 67280
+	}
 	uv0.weapon_property_139[67287] = {
 		id = 67287,
 		damage = 115,
@@ -617,99 +711,5 @@ function ()
 		id = 67382,
 		damage = 88,
 		base = 67380
-	}
-	uv0.weapon_property_139[67383] = {
-		id = 67383,
-		damage = 108,
-		base = 67380
-	}
-	uv0.weapon_property_139[67384] = {
-		id = 67384,
-		damage = 130,
-		base = 67380
-	}
-	uv0.weapon_property_139[67385] = {
-		id = 67385,
-		damage = 152,
-		base = 67380
-	}
-	uv0.weapon_property_139[67386] = {
-		id = 67386,
-		damage = 174,
-		base = 67380
-	}
-	uv0.weapon_property_139[67387] = {
-		id = 67387,
-		damage = 196,
-		base = 67380
-	}
-	uv0.weapon_property_139[67388] = {
-		id = 67388,
-		damage = 216,
-		base = 67380
-	}
-	uv0.weapon_property_139[67389] = {
-		id = 67389,
-		damage = 238,
-		base = 67380
-	}
-	uv0.weapon_property_139[67390] = {
-		id = 67390,
-		damage = 260,
-		base = 67380
-	}
-	uv0.weapon_property_139[67400] = {
-		action_index = "",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = -10,
-		shakescreen = 0,
-		name = "3 x 机载鱼雷-重樱 大凤技能投雷",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 48,
-		corrected = 100,
-		min_range = 0,
-		id = 67400,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2112
-		},
-		barrage_ID = {
-			2142
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_139[67401] = {
-		id = 67401,
-		damage = 68,
-		base = 67400
-	}
-	uv0.weapon_property_139[67402] = {
-		id = 67402,
-		damage = 86,
-		base = 67400
 	}
 end()

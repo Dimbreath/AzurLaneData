@@ -2,6 +2,100 @@ pg = pg or {}
 pg.weapon_property_149 = {}
 
 function ()
+	uv0.weapon_property_149[68078] = {
+		id = 68078,
+		damage = 28,
+		base = 68071
+	}
+	uv0.weapon_property_149[68079] = {
+		id = 68079,
+		damage = 30,
+		base = 68071
+	}
+	uv0.weapon_property_149[68080] = {
+		id = 68080,
+		damage = 32,
+		base = 68071
+	}
+	uv0.weapon_property_149[68081] = {
+		action_index = "attack",
+		range = 100,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "夕张烟花弹",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 68081,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19845
+		},
+		barrage_ID = {
+			1
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_149[68082] = {
+		id = 68082,
+		damage = 2,
+		base = 68081
+	}
+	uv0.weapon_property_149[68083] = {
+		id = 68083,
+		damage = 3,
+		base = 68081
+	}
+	uv0.weapon_property_149[68084] = {
+		id = 68084,
+		damage = 4,
+		base = 68081
+	}
+	uv0.weapon_property_149[68085] = {
+		id = 68085,
+		damage = 5,
+		base = 68081
+	}
+	uv0.weapon_property_149[68086] = {
+		id = 68086,
+		damage = 6,
+		base = 68081
+	}
+	uv0.weapon_property_149[68087] = {
+		id = 68087,
+		damage = 7,
+		base = 68081
+	}
+	uv0.weapon_property_149[68088] = {
+		id = 68088,
+		damage = 8,
+		base = 68081
+	}
 	uv0.weapon_property_149[68089] = {
 		id = 68089,
 		damage = 9,
@@ -550,111 +644,5 @@ function ()
 		name = "佐治亚技能·小子弹-PVP-LV9",
 		damage = 30,
 		base = 68131
-	}
-	uv0.weapon_property_149[68140] = {
-		id = 68140,
-		name = "佐治亚技能·小子弹-PVP-LV10",
-		damage = 35,
-		base = 68131
-	}
-	uv0.weapon_property_149[68141] = {
-		action_index = "attack",
-		range = 95,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "佐治亚技能·小子弹-PVE-LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 13,
-		corrected = 100,
-		min_range = 0,
-		id = 68141,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19998,
-			19998
-		},
-		barrage_ID = {
-			80559,
-			80560
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_149[68142] = {
-		id = 68142,
-		name = "佐治亚技能·小子弹-PVE-LV2",
-		damage = 14,
-		base = 68141
-	}
-	uv0.weapon_property_149[68143] = {
-		id = 68143,
-		name = "佐治亚技能·小子弹-PVE-LV3",
-		damage = 15,
-		base = 68141
-	}
-	uv0.weapon_property_149[68144] = {
-		id = 68144,
-		name = "佐治亚技能·小子弹-PVE-LV4",
-		damage = 16,
-		base = 68141
-	}
-	uv0.weapon_property_149[68145] = {
-		id = 68145,
-		name = "佐治亚技能·小子弹-PVE-LV5",
-		damage = 18,
-		base = 68141
-	}
-	uv0.weapon_property_149[68146] = {
-		id = 68146,
-		name = "佐治亚技能·小子弹-PVE-LV6",
-		damage = 20,
-		base = 68141
-	}
-	uv0.weapon_property_149[68147] = {
-		id = 68147,
-		name = "佐治亚技能·小子弹-PVE-LV7",
-		damage = 23,
-		base = 68141
-	}
-	uv0.weapon_property_149[68148] = {
-		id = 68148,
-		name = "佐治亚技能·小子弹-PVE-LV8",
-		damage = 26,
-		base = 68141
-	}
-	uv0.weapon_property_149[68149] = {
-		id = 68149,
-		name = "佐治亚技能·小子弹-PVE-LV9",
-		damage = 30,
-		base = 68141
-	}
-	uv0.weapon_property_149[68150] = {
-		id = 68150,
-		name = "佐治亚技能·小子弹-PVE-LV10",
-		damage = 35,
-		base = 68141
 	}
 end()

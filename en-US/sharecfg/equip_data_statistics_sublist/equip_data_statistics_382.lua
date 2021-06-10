@@ -1,5 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_382 = {
+	[90222] = {
+		id = 90222,
+		damage = "10 x 6",
+		base = 90220,
+		weapon_id = {
+			90222
+		}
+	},
+	[90223] = {
+		id = 90223,
+		damage = "11 x 6",
+		base = 90220,
+		weapon_id = {
+			90223
+		}
+	},
 	[90240] = {
 		name = "Triple 152mm Mle 1930 Main Gun Mount",
 		speciality = "Scatter",
@@ -258,22 +274,6 @@ pg.equip_data_statistics_382 = {
 		base = 90320,
 		weapon_id = {
 			90322
-		}
-	},
-	[90323] = {
-		id = 90323,
-		damage = "52 x 4",
-		base = 90320,
-		weapon_id = {
-			90323
-		}
-	},
-	[90324] = {
-		id = 90324,
-		damage = "57 x 4",
-		base = 90320,
-		weapon_id = {
-			90324
 		}
 	}
 }

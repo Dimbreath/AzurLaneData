@@ -128,6 +128,10 @@ function slot0.register(slot0)
 					return false, i18n("commander_select_matiral_erro")
 				end
 
+				if getProxy(CommanderProxy):IsHome(slot0.id) then
+					return false, i18n("cat_sleep_notplay")
+				end
+
 				slot5 = getProxy(GuildProxy):getRawData()
 				slot6, slot7 = nil
 

@@ -2,6 +2,110 @@ pg = pg or {}
 pg.weapon_property_169 = {}
 
 function ()
+	uv0.weapon_property_169[69338] = {
+		id = 69338,
+		name = "土佐Lower二段跨射子母弹PVP-LV8",
+		damage = 131,
+		base = 69331
+	}
+	uv0.weapon_property_169[69339] = {
+		id = 69339,
+		name = "土佐Lower二段跨射子母弹PVP-LV9",
+		damage = 143,
+		base = 69331
+	}
+	uv0.weapon_property_169[69340] = {
+		id = 69340,
+		name = "土佐Lower二段跨射子母弹PVP-LV10",
+		damage = 156,
+		base = 69331
+	}
+	uv0.weapon_property_169[69341] = {
+		action_index = "attack",
+		range = 200,
+		type = 2,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "土佐接近式自卫火炮LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 32,
+		corrected = 100,
+		min_range = 0,
+		id = 69341,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1300,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19128
+		},
+		barrage_ID = {
+			80870
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_169[69342] = {
+		id = 69342,
+		name = "土佐接近式自卫火炮LV2",
+		damage = 38,
+		base = 69341
+	}
+	uv0.weapon_property_169[69343] = {
+		id = 69343,
+		name = "土佐接近式自卫火炮LV3",
+		damage = 44,
+		base = 69341
+	}
+	uv0.weapon_property_169[69344] = {
+		id = 69344,
+		name = "土佐接近式自卫火炮LV4",
+		damage = 51,
+		base = 69341
+	}
+	uv0.weapon_property_169[69345] = {
+		id = 69345,
+		name = "土佐接近式自卫火炮LV5",
+		damage = 58,
+		base = 69341
+	}
+	uv0.weapon_property_169[69346] = {
+		id = 69346,
+		name = "土佐接近式自卫火炮LV6",
+		damage = 65,
+		base = 69341
+	}
+	uv0.weapon_property_169[69347] = {
+		id = 69347,
+		name = "土佐接近式自卫火炮LV7",
+		damage = 72,
+		base = 69341
+	}
+	uv0.weapon_property_169[69348] = {
+		id = 69348,
+		name = "土佐接近式自卫火炮LV8",
+		damage = 79,
+		base = 69341
+	}
 	uv0.weapon_property_169[69349] = {
 		id = 69349,
 		name = "土佐接近式自卫火炮LV9",
@@ -526,116 +630,5 @@ function ()
 		name = "黎塞留PVE主炮弹幕LV9",
 		damage = 154,
 		base = 69391
-	}
-	uv0.weapon_property_169[69400] = {
-		id = 69400,
-		name = "黎塞留PVE主炮弹幕LV10",
-		damage = 170,
-		base = 69391
-	}
-	uv0.weapon_property_169[69401] = {
-		action_index = "attack",
-		range = 120,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "黎塞留PVP主炮弹幕-Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 58,
-		corrected = 100,
-		min_range = 35,
-		id = 69401,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19135,
-			19136
-		},
-		barrage_ID = {
-			80876,
-			80877
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jineng",
-			alertTime = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_169[69402] = {
-		id = 69402,
-		name = "黎塞留PVP主炮弹幕-Lv2",
-		damage = 70,
-		base = 69401
-	}
-	uv0.weapon_property_169[69403] = {
-		id = 69403,
-		name = "黎塞留PVP主炮弹幕-Lv3",
-		damage = 82,
-		base = 69401
-	}
-	uv0.weapon_property_169[69404] = {
-		id = 69404,
-		name = "黎塞留PVP主炮弹幕-Lv4",
-		damage = 94,
-		base = 69401
-	}
-	uv0.weapon_property_169[69405] = {
-		id = 69405,
-		name = "黎塞留PVP主炮弹幕-Lv5",
-		damage = 106,
-		base = 69401
-	}
-	uv0.weapon_property_169[69406] = {
-		id = 69406,
-		name = "黎塞留PVP主炮弹幕-Lv6",
-		damage = 118,
-		base = 69401
-	}
-	uv0.weapon_property_169[69407] = {
-		id = 69407,
-		name = "黎塞留PVP主炮弹幕-Lv7",
-		damage = 130,
-		base = 69401
-	}
-	uv0.weapon_property_169[69408] = {
-		id = 69408,
-		name = "黎塞留PVP主炮弹幕-Lv8",
-		damage = 142,
-		base = 69401
-	}
-	uv0.weapon_property_169[69409] = {
-		id = 69409,
-		name = "黎塞留PVP主炮弹幕-Lv9",
-		damage = 154,
-		base = 69401
-	}
-	uv0.weapon_property_169[69410] = {
-		id = 69410,
-		name = "黎塞留PVP主炮弹幕-Lv10",
-		damage = 170,
-		base = 69401
 	}
 end()

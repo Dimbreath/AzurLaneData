@@ -630,6 +630,11 @@ pg.player_resource = {
 		name = "synchronize_huangjiafangzhou",
 		itemid = 21902
 	},
+	[3004] = {
+		id = 3004,
+		name = "synchronize_hailunna",
+		itemid = 21903
+	},
 	[3106] = {
 		id = 3106,
 		name = "twhongran_pt",
@@ -1039,6 +1044,9 @@ pg.player_resource = {
 		synchronize_huangjiafangzhou = {
 			3003
 		},
+		synchronize_hailunna = {
+			3004
+		},
 		twhongran_pt = {
 			3106
 		},
@@ -1185,6 +1193,7 @@ pg.player_resource = {
 		3001,
 		3002,
 		3003,
+		3004,
 		3106,
 		3137,
 		2006,

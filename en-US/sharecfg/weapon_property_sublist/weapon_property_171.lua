@@ -2,6 +2,101 @@ pg = pg or {}
 pg.weapon_property_171 = {}
 
 function ()
+	uv0.weapon_property_171[69462] = {
+		id = 69462,
+		damage = 196,
+		base = 69461
+	}
+	uv0.weapon_property_171[69463] = {
+		id = 69463,
+		damage = 219,
+		base = 69461
+	}
+	uv0.weapon_property_171[69464] = {
+		id = 69464,
+		damage = 242,
+		base = 69461
+	}
+	uv0.weapon_property_171[69465] = {
+		id = 69465,
+		damage = 265,
+		base = 69461
+	}
+	uv0.weapon_property_171[69466] = {
+		id = 69466,
+		damage = 288,
+		base = 69461
+	}
+	uv0.weapon_property_171[69467] = {
+		id = 69467,
+		damage = 311,
+		base = 69461
+	}
+	uv0.weapon_property_171[69468] = {
+		id = 69468,
+		damage = 334,
+		base = 69461
+	}
+	uv0.weapon_property_171[69469] = {
+		id = 69469,
+		damage = 357,
+		base = 69461
+	}
+	uv0.weapon_property_171[69470] = {
+		id = 69470,
+		damage = 380,
+		base = 69461
+	}
+	uv0.weapon_property_171[69471] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "贝亚恩鱼雷LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 51,
+		corrected = 100,
+		min_range = 0,
+		id = 69471,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19143
+		},
+		barrage_ID = {
+			80720
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_171[69472] = {
+		id = 69472,
+		name = "贝亚恩鱼雷LV2",
+		damage = 52,
+		base = 69471
+	}
 	uv0.weapon_property_171[69473] = {
 		id = 69473,
 		name = "贝亚恩鱼雷LV3",
@@ -554,165 +649,5 @@ function ()
 		name = "爱斯基摩人弹幕LV3",
 		damage = 14,
 		base = 69521
-	}
-	uv0.weapon_property_171[69524] = {
-		name = "爱斯基摩人弹幕LV4",
-		damage = 15,
-		base = 69521,
-		id = 69524,
-		bullet_ID = {
-			19146,
-			19146
-		},
-		barrage_ID = {
-			80887,
-			80886
-		}
-	}
-	uv0.weapon_property_171[69525] = {
-		name = "爱斯基摩人弹幕LV5",
-		damage = 16,
-		base = 69521,
-		id = 69525,
-		bullet_ID = {
-			19146,
-			19146
-		},
-		barrage_ID = {
-			80887,
-			80886
-		}
-	}
-	uv0.weapon_property_171[69526] = {
-		name = "爱斯基摩人弹幕LV6",
-		damage = 17,
-		base = 69521,
-		id = 69526,
-		bullet_ID = {
-			19146,
-			19146
-		},
-		barrage_ID = {
-			80887,
-			80886
-		}
-	}
-	uv0.weapon_property_171[69527] = {
-		name = "爱斯基摩人弹幕LV7",
-		damage = 18,
-		base = 69521,
-		id = 69527,
-		bullet_ID = {
-			19146,
-			19146
-		},
-		barrage_ID = {
-			80887,
-			80886
-		}
-	}
-	uv0.weapon_property_171[69528] = {
-		name = "爱斯基摩人弹幕LV8",
-		damage = 20,
-		base = 69521,
-		id = 69528,
-		bullet_ID = {
-			19146,
-			19146
-		},
-		barrage_ID = {
-			80887,
-			80886
-		}
-	}
-	uv0.weapon_property_171[69529] = {
-		name = "爱斯基摩人弹幕LV9",
-		damage = 22,
-		base = 69521,
-		id = 69529,
-		bullet_ID = {
-			19146,
-			19146
-		},
-		barrage_ID = {
-			80887,
-			80886
-		}
-	}
-	uv0.weapon_property_171[69530] = {
-		name = "爱斯基摩人弹幕LV10",
-		damage = 24,
-		base = 69521,
-		id = 69530,
-		bullet_ID = {
-			19146,
-			19146
-		},
-		barrage_ID = {
-			80887,
-			80886
-		}
-	}
-	uv0.weapon_property_171[69531] = {
-		action_index = "attack",
-		range = 60,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "柴郡猫爪技能Lv1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 11,
-		corrected = 118,
-		min_range = 0,
-		id = 69531,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19147
-		},
-		barrage_ID = {
-			2120
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_171[69532] = {
-		id = 69532,
-		name = "柴郡猫爪技能Lv2",
-		damage = 13,
-		base = 69531
-	}
-	uv0.weapon_property_171[69533] = {
-		id = 69533,
-		name = "柴郡猫爪技能Lv3",
-		damage = 16,
-		base = 69531
-	}
-	uv0.weapon_property_171[69534] = {
-		id = 69534,
-		name = "柴郡猫爪技能Lv4",
-		damage = 20,
-		base = 69531
 	}
 end()

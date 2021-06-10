@@ -2,6 +2,151 @@ pg = pg or {}
 pg.weapon_property_131 = {}
 
 function ()
+	uv0.weapon_property_131[66366] = {
+		name = "华盛顿技能LV6-PVP",
+		damage = 122,
+		base = 66360,
+		id = 66366,
+		barrage_ID = {
+			80202,
+			80206,
+			80209
+		}
+	}
+	uv0.weapon_property_131[66367] = {
+		name = "华盛顿技能LV7-PVP",
+		damage = 134,
+		base = 66360,
+		id = 66367,
+		barrage_ID = {
+			80202,
+			80206,
+			80209
+		}
+	}
+	uv0.weapon_property_131[66368] = {
+		name = "华盛顿技能LV8-PVP",
+		damage = 146,
+		base = 66360,
+		id = 66368,
+		barrage_ID = {
+			80202,
+			80206,
+			80209
+		}
+	}
+	uv0.weapon_property_131[66369] = {
+		name = "华盛顿技能LV9-PVP",
+		damage = 158,
+		base = 66360,
+		id = 66369,
+		barrage_ID = {
+			80202,
+			80206,
+			80209
+		}
+	}
+	uv0.weapon_property_131[66370] = {
+		name = "华盛顿技能LV10-PVP",
+		damage = 174,
+		base = 66360,
+		id = 66370,
+		bullet_ID = {
+			19904,
+			19904,
+			19904,
+			19904
+		},
+		barrage_ID = {
+			80203,
+			80204,
+			80207,
+			80210
+		}
+	}
+	uv0.weapon_property_131[66380] = {
+		action_index = "attack",
+		range = 95,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "华盛顿技能LV0-PVE",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 50,
+		corrected = 100,
+		min_range = 25,
+		id = 66380,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19904,
+			19904,
+			19904
+		},
+		barrage_ID = {
+			80211,
+			80215,
+			80218
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_131[66381] = {
+		id = 66381,
+		name = "华盛顿技能LV1-PVE",
+		damage = 62,
+		base = 66380
+	}
+	uv0.weapon_property_131[66382] = {
+		id = 66382,
+		name = "华盛顿技能LV2-PVE",
+		damage = 74,
+		base = 66380
+	}
+	uv0.weapon_property_131[66383] = {
+		id = 66383,
+		name = "华盛顿技能LV3-PVE",
+		damage = 86,
+		base = 66380
+	}
+	uv0.weapon_property_131[66384] = {
+		id = 66384,
+		name = "华盛顿技能LV4-PVE",
+		damage = 98,
+		base = 66380
+	}
+	uv0.weapon_property_131[66385] = {
+		id = 66385,
+		name = "华盛顿技能LV5-PVE",
+		damage = 110,
+		base = 66380
+	}
 	uv0.weapon_property_131[66386] = {
 		name = "华盛顿技能LV6-PVE",
 		damage = 122,
@@ -832,159 +977,5 @@ function ()
 		name = "胜利刺穿-小子弹LV1",
 		damage = 7,
 		base = 66480
-	}
-	uv0.weapon_property_131[66482] = {
-		id = 66482,
-		name = "胜利刺穿-小子弹LV2",
-		damage = 8,
-		base = 66480
-	}
-	uv0.weapon_property_131[66483] = {
-		id = 66483,
-		name = "胜利刺穿-小子弹LV3",
-		damage = 9,
-		base = 66480
-	}
-	uv0.weapon_property_131[66484] = {
-		id = 66484,
-		name = "胜利刺穿-小子弹LV4",
-		damage = 10,
-		base = 66480
-	}
-	uv0.weapon_property_131[66485] = {
-		name = "胜利刺穿-小子弹LV5",
-		damage = 11,
-		base = 66480,
-		id = 66485,
-		bullet_ID = {
-			19916,
-			19916
-		},
-		barrage_ID = {
-			80332,
-			80333
-		}
-	}
-	uv0.weapon_property_131[66486] = {
-		name = "胜利刺穿-小子弹LV6",
-		damage = 12,
-		base = 66480,
-		id = 66486,
-		bullet_ID = {
-			19916,
-			19916
-		},
-		barrage_ID = {
-			80332,
-			80333
-		}
-	}
-	uv0.weapon_property_131[66487] = {
-		name = "胜利刺穿-小子弹LV7",
-		damage = 13,
-		base = 66480,
-		id = 66487,
-		bullet_ID = {
-			19916,
-			19916
-		},
-		barrage_ID = {
-			80332,
-			80333
-		}
-	}
-	uv0.weapon_property_131[66488] = {
-		name = "胜利刺穿-小子弹LV8",
-		damage = 14,
-		base = 66480,
-		id = 66488,
-		bullet_ID = {
-			19916,
-			19916
-		},
-		barrage_ID = {
-			80332,
-			80333
-		}
-	}
-	uv0.weapon_property_131[66489] = {
-		name = "胜利刺穿-小子弹LV9",
-		damage = 15,
-		base = 66480,
-		id = 66489,
-		bullet_ID = {
-			19916,
-			19916
-		},
-		barrage_ID = {
-			80332,
-			80333
-		}
-	}
-	uv0.weapon_property_131[66490] = {
-		name = "胜利刺穿-小子弹LV10",
-		damage = 16,
-		base = 66480,
-		id = 66490,
-		bullet_ID = {
-			19916,
-			19916,
-			19916
-		},
-		barrage_ID = {
-			80331,
-			80334,
-			80335
-		}
-	}
-	uv0.weapon_property_131[66500] = {
-		action_index = "attack",
-		range = 50,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "烈焰崩袭LV0",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 11,
-		corrected = 100,
-		min_range = 0,
-		id = 66500,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19909
-		},
-		barrage_ID = {
-			80311
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_131[66501] = {
-		id = 66501,
-		name = "烈焰崩袭LV1",
-		damage = 12,
-		base = 66500
 	}
 end()

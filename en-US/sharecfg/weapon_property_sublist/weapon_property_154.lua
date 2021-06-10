@@ -2,6 +2,138 @@ pg = pg or {}
 pg.weapon_property_154 = {}
 
 function ()
+	uv0.weapon_property_154[68388] = {
+		id = 68388,
+		name = "竞技神飞刀Lv8",
+		damage = 62,
+		base = 68381
+	}
+	uv0.weapon_property_154[68389] = {
+		id = 68389,
+		name = "竞技神飞刀Lv9",
+		damage = 67,
+		base = 68381
+	}
+	uv0.weapon_property_154[68390] = {
+		id = 68390,
+		name = "竞技神飞刀Lv10",
+		damage = 72,
+		base = 68381
+	}
+	uv0.weapon_property_154[68391] = {
+		action_index = "attack",
+		range = 120,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "科隆改直升机Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 36,
+		corrected = 100,
+		min_range = 0,
+		id = 68391,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 565,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			68391
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_154[68392] = {
+		reload_max = 550,
+		damage = 39,
+		base = 68391,
+		id = 68392,
+		name = "科隆改直升机Lv2",
+		bullet_ID = {
+			68392
+		}
+	}
+	uv0.weapon_property_154[68393] = {
+		reload_max = 535,
+		damage = 42,
+		base = 68391,
+		id = 68393,
+		name = "科隆改直升机Lv3",
+		bullet_ID = {
+			68393
+		}
+	}
+	uv0.weapon_property_154[68394] = {
+		reload_max = 520,
+		damage = 45,
+		base = 68391,
+		id = 68394,
+		name = "科隆改直升机Lv4",
+		bullet_ID = {
+			68394
+		}
+	}
+	uv0.weapon_property_154[68395] = {
+		reload_max = 505,
+		damage = 48,
+		base = 68391,
+		id = 68395,
+		name = "科隆改直升机Lv5",
+		bullet_ID = {
+			68395
+		}
+	}
+	uv0.weapon_property_154[68396] = {
+		reload_max = 490,
+		damage = 52,
+		base = 68391,
+		id = 68396,
+		name = "科隆改直升机Lv6",
+		bullet_ID = {
+			68396
+		}
+	}
+	uv0.weapon_property_154[68397] = {
+		reload_max = 475,
+		damage = 56,
+		base = 68391,
+		id = 68397,
+		name = "科隆改直升机Lv7",
+		bullet_ID = {
+			68397
+		}
+	}
+	uv0.weapon_property_154[68398] = {
+		reload_max = 460,
+		damage = 60,
+		base = 68391,
+		id = 68398,
+		name = "科隆改直升机Lv8",
+		bullet_ID = {
+			68398
+		}
+	}
 	uv0.weapon_property_154[68399] = {
 		reload_max = 445,
 		damage = 64,
@@ -527,165 +659,5 @@ function ()
 		name = "U-556技能鱼雷LV9",
 		damage = 45,
 		base = 68441
-	}
-	uv0.weapon_property_154[68450] = {
-		id = 68450,
-		name = "U-556技能鱼雷LV10",
-		damage = 48,
-		base = 68441
-	}
-	uv0.weapon_property_154[68451] = {
-		action_index = "attack",
-		range = 50,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Z36弹幕LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 12,
-		corrected = 100,
-		min_range = 0,
-		id = 68451,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19885
-		},
-		barrage_ID = {
-			80713
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_154[68452] = {
-		id = 68452,
-		name = "Z36弹幕LV2",
-		damage = 13,
-		base = 68451
-	}
-	uv0.weapon_property_154[68453] = {
-		id = 68453,
-		name = "Z36弹幕LV3",
-		damage = 14,
-		base = 68451
-	}
-	uv0.weapon_property_154[68454] = {
-		name = "Z36弹幕LV4",
-		damage = 15,
-		base = 68451,
-		id = 68454,
-		bullet_ID = {
-			19885,
-			19885
-		},
-		barrage_ID = {
-			80714,
-			80713
-		}
-	}
-	uv0.weapon_property_154[68455] = {
-		name = "Z36弹幕LV5",
-		damage = 16,
-		base = 68451,
-		id = 68455,
-		bullet_ID = {
-			19885,
-			19885
-		},
-		barrage_ID = {
-			80714,
-			80713
-		}
-	}
-	uv0.weapon_property_154[68456] = {
-		name = "Z36弹幕LV6",
-		damage = 17,
-		base = 68451,
-		id = 68456,
-		bullet_ID = {
-			19885,
-			19885
-		},
-		barrage_ID = {
-			80714,
-			80713
-		}
-	}
-	uv0.weapon_property_154[68457] = {
-		name = "Z36弹幕LV7",
-		damage = 18,
-		base = 68451,
-		id = 68457,
-		bullet_ID = {
-			19885,
-			19885
-		},
-		barrage_ID = {
-			80714,
-			80713
-		}
-	}
-	uv0.weapon_property_154[68458] = {
-		name = "Z36弹幕LV8",
-		damage = 20,
-		base = 68451,
-		id = 68458,
-		bullet_ID = {
-			19885,
-			19885
-		},
-		barrage_ID = {
-			80714,
-			80713
-		}
-	}
-	uv0.weapon_property_154[68459] = {
-		name = "Z36弹幕LV9",
-		damage = 22,
-		base = 68451,
-		id = 68459,
-		bullet_ID = {
-			19885,
-			19885
-		},
-		barrage_ID = {
-			80714,
-			80713
-		}
-	}
-	uv0.weapon_property_154[68460] = {
-		name = "Z36弹幕LV10",
-		damage = 24,
-		base = 68451,
-		id = 68460,
-		bullet_ID = {
-			19885,
-			19885
-		},
-		barrage_ID = {
-			80714,
-			80713
-		}
 	}
 end()

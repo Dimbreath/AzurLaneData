@@ -1,5 +1,5 @@
 return {
-	time = 0,
+	time = 1,
 	name = "自爆船冲撞自杀buff",
 	init_effect = "",
 	picture = "",
@@ -14,32 +14,25 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleBuffAddBuff",
+			type = "BattleBuffCastSkill",
 			trigger = {
-				"onUpdate"
+				"onAttach"
 			},
 			arg_list = {
-				buff_id = 8006,
-				target = "TargetSelf"
+				check_target = "TargetHarmNearest",
+				range = 100,
+				skill_id = 8002,
+				minTargetNumber = 1
 			}
 		},
 		{
 			type = "BattleBuffAddBuff",
 			trigger = {
-				"onUpdate"
+				"onAttach"
 			},
 			arg_list = {
 				buff_id = 8003,
 				target = "TargetSelf"
-			}
-		},
-		{
-			type = "BattleBuffCancelBuff",
-			trigger = {
-				"onUpdate"
-			},
-			arg_list = {
-				count = 1
 			}
 		}
 	}

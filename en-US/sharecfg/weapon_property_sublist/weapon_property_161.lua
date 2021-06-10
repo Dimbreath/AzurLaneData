@@ -2,6 +2,112 @@ pg = pg or {}
 pg.weapon_property_161 = {}
 
 function ()
+	uv0.weapon_property_161[68822] = {
+		id = 68822,
+		name = "时乃空DreamStoryLv2",
+		damage = 51,
+		base = 68821
+	}
+	uv0.weapon_property_161[68823] = {
+		id = 68823,
+		name = "时乃空DreamStoryLv3",
+		damage = 60,
+		base = 68821
+	}
+	uv0.weapon_property_161[68824] = {
+		id = 68824,
+		name = "时乃空DreamStoryLv4",
+		damage = 68,
+		base = 68821
+	}
+	uv0.weapon_property_161[68825] = {
+		id = 68825,
+		name = "时乃空DreamStoryLv5",
+		damage = 77,
+		base = 68821
+	}
+	uv0.weapon_property_161[68826] = {
+		id = 68826,
+		name = "时乃空DreamStoryLv6",
+		damage = 85,
+		base = 68821
+	}
+	uv0.weapon_property_161[68827] = {
+		id = 68827,
+		name = "时乃空DreamStoryLv7",
+		damage = 94,
+		base = 68821
+	}
+	uv0.weapon_property_161[68828] = {
+		id = 68828,
+		name = "时乃空DreamStoryLv8",
+		damage = 102,
+		base = 68821
+	}
+	uv0.weapon_property_161[68829] = {
+		id = 68829,
+		name = "时乃空DreamStoryLv9",
+		damage = 111,
+		base = 68821
+	}
+	uv0.weapon_property_161[68830] = {
+		id = 68830,
+		name = "时乃空DreamStoryLv10",
+		damage = 122,
+		base = 68821
+	}
+	uv0.weapon_property_161[68831] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "凑阿库娅技能鱼雷LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 27,
+		corrected = 100,
+		min_range = 0,
+		id = 68831,
+		attack_attribute_ratio = 120,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19081,
+			19081
+		},
+		barrage_ID = {
+			80812,
+			80813
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_161[68832] = {
+		id = 68832,
+		name = "凑阿库娅技能鱼雷LV2",
+		damage = 30,
+		base = 68831
+	}
 	uv0.weapon_property_161[68833] = {
 		id = 68833,
 		name = "凑阿库娅技能鱼雷LV3",
@@ -636,104 +742,5 @@ function ()
 		id = 68893,
 		damage = 174,
 		base = 68891
-	}
-	uv0.weapon_property_161[68894] = {
-		id = 68894,
-		damage = 192,
-		base = 68891
-	}
-	uv0.weapon_property_161[68895] = {
-		id = 68895,
-		damage = 210,
-		base = 68891
-	}
-	uv0.weapon_property_161[68896] = {
-		id = 68896,
-		damage = 228,
-		base = 68891
-	}
-	uv0.weapon_property_161[68897] = {
-		id = 68897,
-		damage = 246,
-		base = 68891
-	}
-	uv0.weapon_property_161[68898] = {
-		id = 68898,
-		damage = 264,
-		base = 68891
-	}
-	uv0.weapon_property_161[68899] = {
-		id = 68899,
-		damage = 282,
-		base = 68891
-	}
-	uv0.weapon_property_161[68900] = {
-		id = 68900,
-		damage = 300,
-		base = 68891
-	}
-	uv0.weapon_property_161[68901] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "幼比叡鱼雷-LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 31,
-		corrected = 100,
-		min_range = 0,
-		id = 68901,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1808,
-			1808
-		},
-		barrage_ID = {
-			80700,
-			80701
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_161[68902] = {
-		id = 68902,
-		name = "幼比叡鱼雷-LV2",
-		damage = 36,
-		base = 68901
-	}
-	uv0.weapon_property_161[68903] = {
-		id = 68903,
-		name = "幼比叡鱼雷-LV3",
-		damage = 40,
-		base = 68901
-	}
-	uv0.weapon_property_161[68904] = {
-		id = 68904,
-		name = "幼比叡鱼雷-LV4",
-		damage = 45,
-		base = 68901
 	}
 end()

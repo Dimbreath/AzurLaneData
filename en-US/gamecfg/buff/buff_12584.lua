@@ -15,10 +15,7 @@ return {
 				"onAttach",
 				"onRemove"
 			},
-			arg_list = {
-				check_target = "TargetAllHarm",
-				checkTargetMaxDistance = 300
-			}
+			arg_list = {}
 		},
 		{
 			type = "BattleBuffAddBuff",

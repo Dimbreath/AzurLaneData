@@ -2,6 +2,135 @@ pg = pg or {}
 pg.weapon_property_163 = {}
 
 function ()
+	uv0.weapon_property_163[68956] = {
+		name = "白上吹雪狐笋轰炸机Lv6",
+		damage = 151,
+		base = 68951,
+		id = 68956,
+		bullet_ID = {
+			68956
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_163[68957] = {
+		name = "白上吹雪狐笋轰炸机Lv7",
+		damage = 164,
+		base = 68951,
+		id = 68957,
+		bullet_ID = {
+			68957
+		},
+		barrage_ID = {
+			12010
+		}
+	}
+	uv0.weapon_property_163[68958] = {
+		name = "白上吹雪狐笋轰炸机Lv8",
+		damage = 178,
+		base = 68951,
+		id = 68958,
+		bullet_ID = {
+			68958
+		},
+		barrage_ID = {
+			12010
+		}
+	}
+	uv0.weapon_property_163[68959] = {
+		name = "白上吹雪狐笋轰炸机Lv9",
+		damage = 191,
+		base = 68951,
+		id = 68959,
+		bullet_ID = {
+			68959
+		},
+		barrage_ID = {
+			12010
+		}
+	}
+	uv0.weapon_property_163[68960] = {
+		name = "白上吹雪狐笋轰炸机Lv10",
+		damage = 220,
+		base = 68951,
+		id = 68960,
+		bullet_ID = {
+			68960
+		},
+		barrage_ID = {
+			12010
+		}
+	}
+	uv0.weapon_property_163[68961] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 22,
+		shakescreen = 0,
+		name = "2 x 500lb Bomb",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 22,
+		charge_param = "",
+		damage = 86,
+		corrected = 100,
+		min_range = 0,
+		id = 68961,
+		attack_attribute_ratio = 60,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19085
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_163[68962] = {
+		id = 68962,
+		damage = 99,
+		base = 68961
+	}
+	uv0.weapon_property_163[68963] = {
+		id = 68963,
+		damage = 112,
+		base = 68961
+	}
+	uv0.weapon_property_163[68964] = {
+		id = 68964,
+		damage = 125,
+		base = 68961
+	}
+	uv0.weapon_property_163[68965] = {
+		id = 68965,
+		damage = 138,
+		base = 68961
+	}
+	uv0.weapon_property_163[68966] = {
+		id = 68966,
+		damage = 151,
+		base = 68961
+	}
 	uv0.weapon_property_163[68967] = {
 		id = 68967,
 		damage = 164,
@@ -557,115 +686,5 @@ function ()
 		name = "骏河弹幕鱼雷LV7",
 		damage = 72,
 		base = 69011
-	}
-	uv0.weapon_property_163[69018] = {
-		id = 69018,
-		name = "骏河弹幕鱼雷LV8",
-		damage = 79,
-		base = 69011
-	}
-	uv0.weapon_property_163[69019] = {
-		id = 69019,
-		name = "骏河弹幕鱼雷LV9",
-		damage = 87,
-		base = 69011
-	}
-	uv0.weapon_property_163[69020] = {
-		id = 69020,
-		name = "骏河弹幕鱼雷LV10",
-		damage = 96,
-		base = 69011
-	}
-	uv0.weapon_property_163[69021] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "骏河副炮弹幕PVELV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 11,
-		corrected = 100,
-		min_range = 0,
-		id = 69021,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19092,
-			19090,
-			19092,
-			19090
-		},
-		barrage_ID = {
-			80830,
-			80831,
-			80832,
-			80833
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_163[69022] = {
-		id = 69022,
-		name = "骏河副炮弹幕PVELV2",
-		damage = 12,
-		base = 69021
-	}
-	uv0.weapon_property_163[69023] = {
-		id = 69023,
-		name = "骏河副炮弹幕PVELV3",
-		damage = 13,
-		base = 69021
-	}
-	uv0.weapon_property_163[69024] = {
-		id = 69024,
-		name = "骏河副炮弹幕PVELV4",
-		damage = 14,
-		base = 69021
-	}
-	uv0.weapon_property_163[69025] = {
-		id = 69025,
-		name = "骏河副炮弹幕PVELV5",
-		damage = 15,
-		base = 69021
-	}
-	uv0.weapon_property_163[69026] = {
-		id = 69026,
-		name = "骏河副炮弹幕PVELV6",
-		damage = 16,
-		base = 69021
-	}
-	uv0.weapon_property_163[69027] = {
-		id = 69027,
-		name = "骏河副炮弹幕PVELV7",
-		damage = 17,
-		base = 69021
-	}
-	uv0.weapon_property_163[69028] = {
-		id = 69028,
-		name = "骏河副炮弹幕PVELV8",
-		damage = 18,
-		base = 69021
 	}
 end()

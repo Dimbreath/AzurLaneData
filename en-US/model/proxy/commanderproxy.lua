@@ -67,6 +67,8 @@ function slot0.register(slot0)
 		uv0._mainUITimer = pg.TimeMgr.GetInstance():AddTimer("CommanderProxy", 0, 10, function ()
 			uv0:notification()
 		end)
+
+		uv0:sendNotification(GAME.GET_COMMANDER_HOME)
 	end)
 end
 
@@ -196,7 +198,64 @@ function slot0.onRemove(slot0)
 		pg.TimeMgr.GetInstance():RemoveTimer(slot0._mainUITimer)
 	end
 
+	slot0:RemoveCalcExpTimer()
 	uv0.super.onRemove(slot0)
+end
+
+function slot0.AddCommanderHome(slot0, slot1)
+	slot0.commanderHome = slot1
+
+	slot0:StartCalcExpTimer(GetNextHour(1) - pg.TimeMgr.GetInstance():GetServerTime())
+end
+
+function slot0.GetCommanderHome(slot0)
+	return slot0.commanderHome
+end
+
+function slot0.StartCalcExpTimer(slot0, slot1)
+	slot0:RemoveCalcExpTimer()
+
+	slot0.calcExpTimer = Timer.New(function ()
+		uv0:RemoveCalcExpTimer()
+		uv0:sendNotification(GAME.CALC_CATTERY_EXP, {
+			isPeriod = uv1 == 3600
+		})
+		uv0:StartCalcExpTimer(3600)
+	end, slot1, 1)
+
+	slot0.calcExpTimer:Start()
+end
+
+function slot0.RemoveCalcExpTimer(slot0)
+	if slot0.calcExpTimer then
+		slot0.calcExpTimer:Stop()
+
+		slot0.calcExpTimer = nil
+	end
+end
+
+function slot0.AnyCatteryExistOP(slot0)
+	if slot0:GetCommanderHome() then
+		return slot1:AnyCatteryExistOP()
+	end
+
+	return false
+end
+
+function slot0.AnyCatteryCanUse(slot0)
+	if slot0:GetCommanderHome() then
+		return slot1:AnyCatteryCanUse()
+	end
+
+	return false
+end
+
+function slot0.IsHome(slot0, slot1)
+	if slot0:GetCommanderHome() then
+		return slot2:CommanderInHome(slot1)
+	end
+
+	return false
 end
 
 return slot0

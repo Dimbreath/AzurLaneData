@@ -2,6 +2,128 @@ pg = pg or {}
 pg.weapon_property_167 = {}
 
 function ()
+	uv0.weapon_property_167[69214] = {
+		name = "库珀轰炸PBYLv4",
+		damage = 103,
+		base = 69211,
+		id = 69214,
+		bullet_ID = {
+			69214
+		}
+	}
+	uv0.weapon_property_167[69215] = {
+		name = "库珀轰炸PBYLv5",
+		damage = 116,
+		base = 69211,
+		id = 69215,
+		bullet_ID = {
+			69215
+		}
+	}
+	uv0.weapon_property_167[69216] = {
+		name = "库珀轰炸PBYLv6",
+		damage = 129,
+		base = 69211,
+		id = 69216,
+		bullet_ID = {
+			69216
+		}
+	}
+	uv0.weapon_property_167[69217] = {
+		name = "库珀轰炸PBYLv7",
+		damage = 141,
+		base = 69211,
+		id = 69217,
+		bullet_ID = {
+			69217
+		}
+	}
+	uv0.weapon_property_167[69218] = {
+		name = "库珀轰炸PBYLv8",
+		damage = 154,
+		base = 69211,
+		id = 69218,
+		bullet_ID = {
+			69218
+		}
+	}
+	uv0.weapon_property_167[69219] = {
+		name = "库珀轰炸PBYLv9",
+		damage = 167,
+		base = 69211,
+		id = 69219,
+		bullet_ID = {
+			69219
+		}
+	}
+	uv0.weapon_property_167[69220] = {
+		name = "库珀轰炸PBYLv10",
+		damage = 179,
+		base = 69211,
+		id = 69220,
+		bullet_ID = {
+			69220
+		}
+	}
+	uv0.weapon_property_167[69221] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 25,
+		shakescreen = 0,
+		name = "2 x 2000lb Bomb",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 209,
+		corrected = 100,
+		min_range = 0,
+		id = 69221,
+		attack_attribute_ratio = 120,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2125
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_167[69222] = {
+		id = 69222,
+		damage = 236,
+		base = 69221
+	}
+	uv0.weapon_property_167[69223] = {
+		id = 69223,
+		damage = 263,
+		base = 69221
+	}
+	uv0.weapon_property_167[69224] = {
+		id = 69224,
+		damage = 290,
+		base = 69221
+	}
 	uv0.weapon_property_167[69225] = {
 		id = 69225,
 		damage = 317,
@@ -513,111 +635,5 @@ function ()
 		name = "土佐弹幕鱼雷LV5",
 		damage = 61,
 		base = 69271
-	}
-	uv0.weapon_property_167[69276] = {
-		id = 69276,
-		name = "土佐弹幕鱼雷LV6",
-		damage = 66,
-		base = 69271
-	}
-	uv0.weapon_property_167[69277] = {
-		id = 69277,
-		name = "土佐弹幕鱼雷LV7",
-		damage = 72,
-		base = 69271
-	}
-	uv0.weapon_property_167[69278] = {
-		id = 69278,
-		name = "土佐弹幕鱼雷LV8",
-		damage = 79,
-		base = 69271
-	}
-	uv0.weapon_property_167[69279] = {
-		id = 69279,
-		name = "土佐弹幕鱼雷LV9",
-		damage = 87,
-		base = 69271
-	}
-	uv0.weapon_property_167[69280] = {
-		id = 69280,
-		name = "土佐弹幕鱼雷LV10",
-		damage = 96,
-		base = 69271
-	}
-	uv0.weapon_property_167[69281] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "土佐Upper二段跨射子母弹PVE-LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 75,
-		corrected = 100,
-		min_range = 0,
-		id = 69281,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19115,
-			19116
-		},
-		barrage_ID = {
-			80863,
-			80863
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_167[69282] = {
-		id = 69282,
-		name = "土佐Upper二段跨射子母弹PVE-LV2",
-		damage = 80,
-		base = 69281
-	}
-	uv0.weapon_property_167[69283] = {
-		id = 69283,
-		name = "土佐Upper二段跨射子母弹PVE-LV3",
-		damage = 86,
-		base = 69281
-	}
-	uv0.weapon_property_167[69284] = {
-		id = 69284,
-		name = "土佐Upper二段跨射子母弹PVE-LV4",
-		damage = 93,
-		base = 69281
-	}
-	uv0.weapon_property_167[69285] = {
-		id = 69285,
-		name = "土佐Upper二段跨射子母弹PVE-LV5",
-		damage = 101,
-		base = 69281
-	}
-	uv0.weapon_property_167[69286] = {
-		id = 69286,
-		name = "土佐Upper二段跨射子母弹PVE-LV6",
-		damage = 110,
-		base = 69281
 	}
 end()

@@ -2,6 +2,119 @@ pg = pg or {}
 pg.weapon_property_176 = {}
 
 function ()
+	uv0.weapon_property_176[69782] = {
+		reload_max = 3231,
+		name = "英勇穿甲技能LV2",
+		damage = 52,
+		base = 69781,
+		id = 69782
+	}
+	uv0.weapon_property_176[69783] = {
+		reload_max = 3164,
+		name = "英勇穿甲技能LV3",
+		damage = 59,
+		base = 69781,
+		id = 69783
+	}
+	uv0.weapon_property_176[69784] = {
+		reload_max = 3096,
+		name = "英勇穿甲技能LV4",
+		damage = 66,
+		base = 69781,
+		id = 69784
+	}
+	uv0.weapon_property_176[69785] = {
+		reload_max = 3029,
+		name = "英勇穿甲技能LV5",
+		damage = 73,
+		base = 69781,
+		id = 69785
+	}
+	uv0.weapon_property_176[69786] = {
+		reload_max = 2962,
+		name = "英勇穿甲技能LV6",
+		damage = 80,
+		base = 69781,
+		id = 69786
+	}
+	uv0.weapon_property_176[69787] = {
+		reload_max = 2894,
+		name = "英勇穿甲技能LV7",
+		damage = 87,
+		base = 69781,
+		id = 69787
+	}
+	uv0.weapon_property_176[69788] = {
+		reload_max = 2827,
+		name = "英勇穿甲技能LV8",
+		damage = 94,
+		base = 69781,
+		id = 69788
+	}
+	uv0.weapon_property_176[69789] = {
+		reload_max = 2760,
+		name = "英勇穿甲技能LV9",
+		damage = 101,
+		base = 69781,
+		id = 69789
+	}
+	uv0.weapon_property_176[69790] = {
+		reload_max = 2692,
+		name = "英勇穿甲技能LV10",
+		damage = 108,
+		base = 69781,
+		id = 69790
+	}
+	uv0.weapon_property_176[69791] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "英勇弹幕技能LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 46,
+		corrected = 100,
+		min_range = 0,
+		id = 69791,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19160
+		},
+		barrage_ID = {
+			80918
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_176[69792] = {
+		id = 69792,
+		name = "英勇弹幕技能LV2",
+		damage = 52,
+		base = 69791
+	}
 	uv0.weapon_property_176[69793] = {
 		id = 69793,
 		name = "英勇弹幕技能LV3",
@@ -608,118 +721,5 @@ function ()
 		name = "豪技能LV3",
 		damage = 86,
 		base = 69841
-	}
-	uv0.weapon_property_176[69844] = {
-		id = 69844,
-		name = "豪技能LV4",
-		damage = 93,
-		base = 69841
-	}
-	uv0.weapon_property_176[69845] = {
-		id = 69845,
-		name = "豪技能LV5",
-		damage = 101,
-		base = 69841
-	}
-	uv0.weapon_property_176[69846] = {
-		id = 69846,
-		name = "豪技能LV6",
-		damage = 110,
-		base = 69841
-	}
-	uv0.weapon_property_176[69847] = {
-		id = 69847,
-		name = "豪技能LV7",
-		damage = 120,
-		base = 69841
-	}
-	uv0.weapon_property_176[69848] = {
-		id = 69848,
-		name = "豪技能LV8",
-		damage = 131,
-		base = 69841
-	}
-	uv0.weapon_property_176[69849] = {
-		id = 69849,
-		name = "豪技能LV9",
-		damage = 143,
-		base = 69841
-	}
-	uv0.weapon_property_176[69850] = {
-		id = 69850,
-		name = "豪技能LV10",
-		damage = 156,
-		base = 69841
-	}
-	uv0.weapon_property_176[69851] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "U-96技能鱼雷弹幕LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 19,
-		corrected = 100,
-		min_range = 0,
-		id = 69851,
-		attack_attribute_ratio = 120,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19178,
-			19178,
-			19178
-		},
-		barrage_ID = {
-			80927,
-			80928,
-			80929
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_176[69852] = {
-		id = 69852,
-		name = "U-96技能鱼雷弹幕LV2",
-		damage = 21,
-		base = 69851
-	}
-	uv0.weapon_property_176[69853] = {
-		id = 69853,
-		name = "U-96技能鱼雷弹幕LV3",
-		damage = 23,
-		base = 69851
-	}
-	uv0.weapon_property_176[69854] = {
-		name = "U-96技能鱼雷弹幕LV4",
-		damage = 25,
-		base = 69851,
-		id = 69854,
-		barrage_ID = {
-			80930,
-			80931,
-			80929
-		}
 	}
 end()

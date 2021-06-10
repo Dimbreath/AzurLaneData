@@ -1,5 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_396 = {
+	[95144] = {
+		id = 95144,
+		damage = "62/wave",
+		base = 95140,
+		weapon_id = {
+			95144
+		}
+	},
+	[95145] = {
+		id = 95145,
+		damage = "68/wave",
+		base = 95140,
+		weapon_id = {
+			95145
+		}
+	},
 	[95146] = {
 		id = 95146,
 		damage = "74/wave",
@@ -172,72 +188,6 @@ pg.equip_data_statistics_396 = {
 		base = 95200,
 		weapon_id = {
 			95206
-		}
-	},
-	[95220] = {
-		name = "Twin 203mm Model 1927 Main Gun Mount",
-		speciality = "Lock",
-		type = 3,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "55200",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "26 x 8",
-		nationality = 6,
-		ammo = 1,
-		value_3 = 0,
-		id = 95220,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1401
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1401
-			},
-			{
-				4,
-				1221
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			95220
-		},
-		skill_id = {},
-		part_main = {
-			3,
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"RN",
-			"CA",
-			"MG",
-			"AP"
-		}
-	},
-	[95221] = {
-		id = 95221,
-		base = 95220,
-		weapon_id = {
-			95221
 		}
 	}
 }

@@ -32,7 +32,8 @@ function slot0.listNotificationInterests(slot0)
 		GuildProxy.DONATE_UPDTAE,
 		GAME.GUILD_START_TECH_DONE,
 		GuildProxy.TECHNOLOGY_START,
-		GuildProxy.TECHNOLOGY_STOP
+		GuildProxy.TECHNOLOGY_STOP,
+		GAME.HANDLE_GUILD_AND_PUBLIC_GUILD_TECH_DONE
 	}
 end
 
@@ -43,6 +44,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:UpdateUpgradeList()
 	elseif slot2 == GuildProxy.DONATE_UPDTAE or slot2 == GuildProxy.TECHNOLOGY_START or slot2 == GuildProxy.TECHNOLOGY_STOP then
 		slot0.viewComponent:UpdateBreakOutList()
+	elseif slot2 == GAME.HANDLE_GUILD_AND_PUBLIC_GUILD_TECH_DONE then
+		slot0.viewComponent:UpdateAll()
 	end
 end
 

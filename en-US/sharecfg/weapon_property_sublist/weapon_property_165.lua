@@ -2,6 +2,112 @@ pg = pg or {}
 pg.weapon_property_165 = {}
 
 function ()
+	uv0.weapon_property_165[69090] = {
+		id = 69090,
+		name = "定点冰锥1-80-LV10",
+		damage = 56,
+		base = 69081
+	}
+	uv0.weapon_property_165[69091] = {
+		action_index = "",
+		range = 90,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "定点冰锥2-90-LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 11,
+		corrected = 100,
+		min_range = 0,
+		id = 69091,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 9500,
+		queue = 4,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19099,
+			19101
+		},
+		barrage_ID = {
+			80842,
+			80842
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_165[69092] = {
+		id = 69092,
+		name = "定点冰锥2-90-LV2",
+		damage = 13,
+		base = 69091
+	}
+	uv0.weapon_property_165[69093] = {
+		id = 69093,
+		name = "定点冰锥2-90-LV3",
+		damage = 16,
+		base = 69091
+	}
+	uv0.weapon_property_165[69094] = {
+		id = 69094,
+		name = "定点冰锥2-90-LV4",
+		damage = 20,
+		base = 69091
+	}
+	uv0.weapon_property_165[69095] = {
+		id = 69095,
+		name = "定点冰锥2-90-LV5",
+		damage = 25,
+		base = 69091
+	}
+	uv0.weapon_property_165[69096] = {
+		id = 69096,
+		name = "定点冰锥2-90-LV6",
+		damage = 30,
+		base = 69091
+	}
+	uv0.weapon_property_165[69097] = {
+		id = 69097,
+		name = "定点冰锥2-90-LV7",
+		damage = 36,
+		base = 69091
+	}
+	uv0.weapon_property_165[69098] = {
+		id = 69098,
+		name = "定点冰锥2-90-LV8",
+		damage = 42,
+		base = 69091
+	}
+	uv0.weapon_property_165[69099] = {
+		id = 69099,
+		name = "定点冰锥2-90-LV9",
+		damage = 49,
+		base = 69091
+	}
+	uv0.weapon_property_165[69100] = {
+		id = 69100,
+		name = "定点冰锥2-90-LV10",
+		damage = 56,
+		base = 69091
+	}
 	uv0.weapon_property_165[69101] = {
 		action_index = "",
 		range = 100,
@@ -564,112 +670,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_165[69152] = {
-		id = 69152,
-		name = "定点冰锥PVP3-120-LV2",
-		damage = 13,
-		base = 69151
-	}
-	uv0.weapon_property_165[69153] = {
-		id = 69153,
-		name = "定点冰锥PVP3-120-LV3",
-		damage = 16,
-		base = 69151
-	}
-	uv0.weapon_property_165[69154] = {
-		id = 69154,
-		name = "定点冰锥PVP3-120-LV4",
-		damage = 20,
-		base = 69151
-	}
-	uv0.weapon_property_165[69155] = {
-		id = 69155,
-		name = "定点冰锥PVP3-120-LV5",
-		damage = 25,
-		base = 69151
-	}
-	uv0.weapon_property_165[69156] = {
-		id = 69156,
-		name = "定点冰锥PVP3-120-LV6",
-		damage = 30,
-		base = 69151
-	}
-	uv0.weapon_property_165[69157] = {
-		id = 69157,
-		name = "定点冰锥PVP3-120-LV7",
-		damage = 36,
-		base = 69151
-	}
-	uv0.weapon_property_165[69158] = {
-		id = 69158,
-		name = "定点冰锥PVP3-120-LV8",
-		damage = 42,
-		base = 69151
-	}
-	uv0.weapon_property_165[69159] = {
-		id = 69159,
-		name = "定点冰锥PVP3-120-LV9",
-		damage = 49,
-		base = 69151
-	}
-	uv0.weapon_property_165[69160] = {
-		id = 69160,
-		name = "定点冰锥PVP3-120-LV10",
-		damage = 56,
-		base = 69151
-	}
-	uv0.weapon_property_165[69161] = {
-		action_index = "",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 1,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "无畏技能轰炸机Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 90,
-		charge_param = "",
-		damage = 66,
-		corrected = 100,
-		min_range = 0,
-		id = 69161,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			69161
-		},
-		barrage_ID = {
-			12009
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_165[69162] = {
-		name = "无畏技能轰炸机Lv2",
-		damage = 78,
-		base = 69161,
-		id = 69162,
-		bullet_ID = {
-			69162
-		}
 	}
 end()

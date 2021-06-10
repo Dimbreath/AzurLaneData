@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "Up to 30 people can participate simultaneously in an Ashes Showdown!",
+				text = "Up to 30 people can participate simultaneously in an META Showdown!",
 				mode = 2,
 				dir = 1,
 				char = "1",
@@ -19,7 +19,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "The battle ends when the Ashes ship’s HP reaches 0, at which point all participants will be awarded Sync Points!",
+				text = "The battle ends when the META ship’s HP reaches 0, at which point all participants will be awarded Sync Points!",
 				mode = 2,
 				dir = 1,
 				char = "1",
@@ -33,7 +33,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "If the Ashes ship isn’t defeated before the timer runs out, the mission will vanish!",
+				text = "If the META ship isn’t defeated before the timer runs out, the mission will vanish!",
 				mode = 2,
 				dir = 1,
 				char = "1",

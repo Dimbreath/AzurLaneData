@@ -2,6 +2,122 @@ pg = pg or {}
 pg.weapon_property_197 = {}
 
 function ()
+	uv0.weapon_property_197[85490] = {
+		id = 85490,
+		reload_max = 527,
+		damage = 27,
+		base = 85480
+	}
+	uv0.weapon_property_197[85500] = {
+		action_index = "attack",
+		range = 70,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "B-1-P 三联装180mm主炮Model1932",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 110,
+		charge_param = "",
+		damage = 18,
+		corrected = 105,
+		min_range = 0,
+		id = 85500,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 607,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0.4,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1712
+		},
+		barrage_ID = {
+			1108
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_197[85501] = {
+		id = 85501,
+		reload_max = 591,
+		base = 85500
+	}
+	uv0.weapon_property_197[85502] = {
+		id = 85502,
+		reload_max = 585,
+		damage = 20,
+		base = 85500
+	}
+	uv0.weapon_property_197[85503] = {
+		id = 85503,
+		reload_max = 579,
+		damage = 21,
+		base = 85500
+	}
+	uv0.weapon_property_197[85504] = {
+		id = 85504,
+		reload_max = 573,
+		damage = 22,
+		base = 85500
+	}
+	uv0.weapon_property_197[85505] = {
+		id = 85505,
+		reload_max = 567,
+		damage = 23,
+		base = 85500
+	}
+	uv0.weapon_property_197[85506] = {
+		id = 85506,
+		reload_max = 561,
+		damage = 24,
+		base = 85500
+	}
+	uv0.weapon_property_197[85507] = {
+		id = 85507,
+		reload_max = 555,
+		damage = 25,
+		base = 85500
+	}
+	uv0.weapon_property_197[85508] = {
+		id = 85508,
+		reload_max = 542,
+		damage = 26,
+		base = 85500
+	}
+	uv0.weapon_property_197[85509] = {
+		id = 85509,
+		reload_max = 529,
+		damage = 27,
+		base = 85500
+	}
+	uv0.weapon_property_197[85510] = {
+		id = 85510,
+		reload_max = 512,
+		damage = 28,
+		base = 85500
+	}
+	uv0.weapon_property_197[85511] = {
+		reload_max = 512,
+		damage = 28,
+		base = 85500,
+		id = 85511,
+		corrected = 109
+	}
 	uv0.weapon_property_197[85512] = {
 		reload_max = 512,
 		damage = 28,
@@ -683,182 +799,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_197[88001] = {
-		reload_max = 1830,
-		damage = 20,
-		base = 88000,
-		id = 88001,
-		bullet_ID = {
-			88001
-		}
-	}
-	uv0.weapon_property_197[88002] = {
-		reload_max = 1808,
-		damage = 22,
-		base = 88000,
-		id = 88002,
-		bullet_ID = {
-			88002
-		}
-	}
-	uv0.weapon_property_197[88003] = {
-		reload_max = 1786,
-		damage = 24,
-		base = 88000,
-		id = 88003,
-		bullet_ID = {
-			88003
-		}
-	}
-	uv0.weapon_property_197[88004] = {
-		reload_max = 1764,
-		damage = 26,
-		base = 88000,
-		id = 88004,
-		bullet_ID = {
-			88004
-		}
-	}
-	uv0.weapon_property_197[88005] = {
-		reload_max = 1742,
-		damage = 30,
-		base = 88000,
-		id = 88005,
-		bullet_ID = {
-			88005
-		}
-	}
-	uv0.weapon_property_197[88006] = {
-		reload_max = 1720,
-		damage = 34,
-		base = 88000,
-		id = 88006,
-		bullet_ID = {
-			88006
-		}
-	}
-	uv0.weapon_property_197[88007] = {
-		reload_max = 1720,
-		damage = 34,
-		base = 88000,
-		id = 88007,
-		bullet_ID = {
-			88006
-		}
-	}
-	uv0.weapon_property_197[90000] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "Q版舰载机使用武器（空袭使用武器不用于equip表直接关联）",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 3,
-		corrected = 110,
-		min_range = 0,
-		id = 90000,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 310,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0.2,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2200
-		},
-		barrage_ID = {
-			1021
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_197[90001] = {
-		id = 90001,
-		name = "空袭飞机使用机载Bomb",
-		reload_max = 304,
-		base = 90000
-	}
-	uv0.weapon_property_197[90002] = {
-		reload_max = 298,
-		name = "自爆飞机武器",
-		damage = 4,
-		base = 90000,
-		id = 90002
-	}
-	uv0.weapon_property_197[90003] = {
-		reload_max = 292,
-		name = "飞机攻击海面武器",
-		damage = 4,
-		base = 90000,
-		id = 90003
-	}
-	uv0.weapon_property_197[90020] = {
-		action_index = "attack",
-		range = 50,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "130mm单装炮Mle1924",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 3,
-		corrected = 110,
-		min_range = 0,
-		id = 90020,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 300,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0.2,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2200
-		},
-		barrage_ID = {
-			1021
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_197[90021] = {
-		id = 90021,
-		reload_max = 294,
-		damage = 4,
-		base = 90020
 	}
 end()

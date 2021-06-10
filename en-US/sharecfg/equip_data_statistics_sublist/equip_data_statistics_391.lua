@@ -1,5 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_391 = {
+	[90888] = {
+		id = 90888,
+		damage = "44 x 4",
+		base = 90880,
+		weapon_id = {
+			90888
+		}
+	},
+	[90889] = {
+		id = 90889,
+		damage = "46 x 4",
+		base = 90880,
+		weapon_id = {
+			90889
+		}
+	},
 	[90890] = {
 		id = 90890,
 		damage = "48 x 4",
@@ -172,67 +188,6 @@ pg.equip_data_statistics_391 = {
 		id = 90913,
 		weapon_id = {
 			90913
-		}
-	},
-	[91000] = {
-		name = "Prototype Triple 406mm /50 Main Gun Mount ",
-		speciality = "Volley",
-		type = 4,
-		tech = 0,
-		descrip = "No description",
-		value_2 = 45,
-		icon = "51000",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "54 x 3",
-		nationality = 8,
-		ammo = 1,
-		value_3 = 0,
-		id = 91000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1580
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			91000
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"BB",
-			"MG",
-			"AP"
-		}
-	},
-	[91001] = {
-		id = 91001,
-		damage = "64 x 3",
-		base = 91000,
-		weapon_id = {
-			91001
 		}
 	}
 }

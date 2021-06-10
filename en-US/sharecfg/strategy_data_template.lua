@@ -252,7 +252,7 @@ pg.strategy_data_template = {
 		type = 10,
 		id = 8832,
 		icon = "8832",
-		desc = "Allies provide 1 wave of artillery support, dealing continuous DMG to the enemy for a period of time (DMG increases the longer the Ashes Showdown boss has been active). ",
+		desc = "Allies provide 1 wave of artillery support, dealing continuous DMG to the enemy for a period of time (DMG increases the longer the META Showdown boss has been active). ",
 		arg = {}
 	},
 	[8841] = {

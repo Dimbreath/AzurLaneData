@@ -149,6 +149,53 @@ pg.equip_data_statistics_357 = {
 			79722
 		}
 	},
+	[79731] = {
+		name = "专属弹幕-海伦娜.META I",
+		tech = 1,
+		speciality = "N/A",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "Barrage",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79731,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79731
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79732] = {
+		id = 79732,
+		name = "专属弹幕-海伦娜.META II",
+		base = 79731,
+		weapon_id = {
+			79732
+		}
+	},
 	[85000] = {
 		name = "Twin 130mm B-2LM Main Gun Mount",
 		speciality = "Lock",
@@ -326,21 +373,6 @@ pg.equip_data_statistics_357 = {
 			"SN",
 			"DD",
 			"MG"
-		}
-	},
-	[85041] = {
-		id = 85041,
-		base = 85040,
-		weapon_id = {
-			85041
-		}
-	},
-	[85042] = {
-		id = 85042,
-		damage = "7 x 6",
-		base = 85040,
-		weapon_id = {
-			85042
 		}
 	}
 }

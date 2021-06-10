@@ -2,6 +2,97 @@ pg = pg or {}
 pg.weapon_property_120 = {}
 
 function ()
+	uv0.weapon_property_120[65504] = {
+		id = 65504,
+		damage = 124,
+		base = 65501
+	}
+	uv0.weapon_property_120[65505] = {
+		id = 65505,
+		damage = 144,
+		base = 65501
+	}
+	uv0.weapon_property_120[65506] = {
+		id = 65506,
+		damage = 164,
+		base = 65501
+	}
+	uv0.weapon_property_120[65507] = {
+		id = 65507,
+		damage = 182,
+		base = 65501
+	}
+	uv0.weapon_property_120[65508] = {
+		id = 65508,
+		damage = 202,
+		base = 65501
+	}
+	uv0.weapon_property_120[65509] = {
+		id = 65509,
+		damage = 220,
+		base = 65501
+	}
+	uv0.weapon_property_120[65510] = {
+		id = 65510,
+		damage = 240,
+		base = 65501
+	}
+	uv0.weapon_property_120[65511] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "海因里希亲王 直感之拳LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 8,
+		corrected = 100,
+		min_range = 0,
+		id = 65511,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 5000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19248
+		},
+		barrage_ID = {
+			80987
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_120[65512] = {
+		id = 65512,
+		name = "海因里希亲王 直感之拳LV2",
+		damage = 9,
+		base = 65511
+	}
+	uv0.weapon_property_120[65513] = {
+		id = 65513,
+		name = "海因里希亲王 直感之拳LV3",
+		damage = 10,
+		base = 65511
+	}
 	uv0.weapon_property_120[65514] = {
 		id = 65514,
 		name = "海因里希亲王 直感之拳LV4",
@@ -556,114 +647,5 @@ function ()
 		bullet_ID = {
 			65575
 		}
-	}
-	uv0.weapon_property_120[65576] = {
-		name = "威悉技能轰炸机PlusLv6",
-		damage = 64,
-		base = 65571,
-		id = 65576,
-		bullet_ID = {
-			65576
-		}
-	}
-	uv0.weapon_property_120[65577] = {
-		name = "威悉技能轰炸机PlusLv7",
-		damage = 71,
-		base = 65571,
-		id = 65577,
-		bullet_ID = {
-			65577
-		}
-	}
-	uv0.weapon_property_120[65578] = {
-		name = "威悉技能轰炸机PlusLv8",
-		damage = 75,
-		base = 65571,
-		id = 65578,
-		bullet_ID = {
-			65578
-		}
-	}
-	uv0.weapon_property_120[65579] = {
-		name = "威悉技能轰炸机PlusLv9",
-		damage = 81,
-		base = 65571,
-		id = 65579,
-		bullet_ID = {
-			65579
-		}
-	}
-	uv0.weapon_property_120[65580] = {
-		name = "威悉技能轰炸机PlusLv10",
-		damage = 86,
-		base = 65571,
-		id = 65580,
-		bullet_ID = {
-			65580
-		}
-	}
-	uv0.weapon_property_120[65581] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 22,
-		shakescreen = 0,
-		name = "2 x 500lb 炸弹",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 22,
-		charge_param = "",
-		damage = 58,
-		corrected = 100,
-		min_range = 0,
-		id = 65581,
-		attack_attribute_ratio = 80,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2122
-		},
-		barrage_ID = {
-			2121
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_120[65582] = {
-		id = 65582,
-		damage = 74,
-		base = 68631
-	}
-	uv0.weapon_property_120[65583] = {
-		id = 65583,
-		damage = 92,
-		base = 68631
-	}
-	uv0.weapon_property_120[65584] = {
-		id = 65584,
-		damage = 107,
-		base = 68631
-	}
-	uv0.weapon_property_120[65585] = {
-		id = 65585,
-		damage = 123,
-		base = 68631
 	}
 end()

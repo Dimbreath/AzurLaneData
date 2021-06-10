@@ -2,6 +2,140 @@ pg = pg or {}
 pg.weapon_property_138 = {}
 
 function ()
+	uv0.weapon_property_138[67160] = {
+		action_index = "",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 1,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "半人马技能鱼雷机2Lv0",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 90,
+		charge_param = "",
+		damage = 63,
+		corrected = 100,
+		min_range = 0,
+		id = 67160,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			67160
+		},
+		barrage_ID = {
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_138[67161] = {
+		name = "半人马技能鱼雷机2Lv1",
+		damage = 76,
+		base = 67160,
+		id = 67161,
+		bullet_ID = {
+			67161
+		}
+	}
+	uv0.weapon_property_138[67162] = {
+		name = "半人马技能鱼雷机2Lv2",
+		damage = 90,
+		base = 67160,
+		id = 67162,
+		bullet_ID = {
+			67162
+		}
+	}
+	uv0.weapon_property_138[67163] = {
+		name = "半人马技能鱼雷机2Lv3",
+		damage = 104,
+		base = 67160,
+		id = 67163,
+		bullet_ID = {
+			67163
+		}
+	}
+	uv0.weapon_property_138[67164] = {
+		name = "半人马技能鱼雷机2Lv4",
+		damage = 118,
+		base = 67160,
+		id = 67164,
+		bullet_ID = {
+			67164
+		}
+	}
+	uv0.weapon_property_138[67165] = {
+		name = "半人马技能鱼雷机2Lv5",
+		damage = 132,
+		base = 67160,
+		id = 67165,
+		bullet_ID = {
+			67165
+		}
+	}
+	uv0.weapon_property_138[67166] = {
+		name = "半人马技能鱼雷机2Lv6",
+		damage = 146,
+		base = 67160,
+		id = 67166,
+		bullet_ID = {
+			67166
+		}
+	}
+	uv0.weapon_property_138[67167] = {
+		name = "半人马技能鱼雷机2Lv7",
+		damage = 160,
+		base = 67160,
+		id = 67167,
+		bullet_ID = {
+			67167
+		}
+	}
+	uv0.weapon_property_138[67168] = {
+		name = "半人马技能鱼雷机2Lv8",
+		damage = 174,
+		base = 67160,
+		id = 67168,
+		bullet_ID = {
+			67168
+		}
+	}
+	uv0.weapon_property_138[67169] = {
+		name = "半人马技能鱼雷机2Lv9",
+		damage = 188,
+		base = 67160,
+		id = 67169,
+		bullet_ID = {
+			67169
+		}
+	}
+	uv0.weapon_property_138[67170] = {
+		name = "半人马技能鱼雷机2Lv10",
+		damage = 202,
+		base = 67160,
+		id = 67170,
+		bullet_ID = {
+			67170
+		}
+	}
 	uv0.weapon_property_138[67180] = {
 		action_index = "",
 		range = 90,
@@ -578,99 +712,5 @@ function ()
 		id = 67266,
 		damage = 245,
 		base = 67260
-	}
-	uv0.weapon_property_138[67267] = {
-		id = 67267,
-		damage = 264,
-		base = 67260
-	}
-	uv0.weapon_property_138[67268] = {
-		id = 67268,
-		damage = 283,
-		base = 67260
-	}
-	uv0.weapon_property_138[67269] = {
-		id = 67269,
-		damage = 302,
-		base = 67260
-	}
-	uv0.weapon_property_138[67270] = {
-		id = 67270,
-		damage = 322,
-		base = 67260
-	}
-	uv0.weapon_property_138[67280] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 25,
-		shakescreen = 0,
-		name = "2 x 100lb Bomb",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 64,
-		corrected = 100,
-		min_range = 0,
-		id = 67280,
-		attack_attribute_ratio = 80,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19946
-		},
-		barrage_ID = {
-			2121
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_138[67281] = {
-		id = 67281,
-		damage = 70,
-		base = 67280
-	}
-	uv0.weapon_property_138[67282] = {
-		id = 67282,
-		damage = 78,
-		base = 67280
-	}
-	uv0.weapon_property_138[67283] = {
-		id = 67283,
-		damage = 85,
-		base = 67280
-	}
-	uv0.weapon_property_138[67284] = {
-		id = 67284,
-		damage = 93,
-		base = 67280
-	}
-	uv0.weapon_property_138[67285] = {
-		id = 67285,
-		damage = 100,
-		base = 67280
-	}
-	uv0.weapon_property_138[67286] = {
-		id = 67286,
-		damage = 108,
-		base = 67280
 	}
 end()

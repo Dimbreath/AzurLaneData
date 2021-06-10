@@ -2,6 +2,320 @@ pg = pg or {}
 pg.weapon_property_340 = {}
 
 function ()
+	uv0.weapon_property_340[783009] = {
+		name = "【2021意大利活动D1】BOSS 光辉 扩散弹幕",
+		damage = 16,
+		base = 1000,
+		initial_over_heat = 1,
+		suppress = 1,
+		reload_max = 6000,
+		queue = 3,
+		id = 783009,
+		bullet_ID = {
+			830009,
+			830009,
+			830009,
+			830009,
+			830009,
+			830009,
+			830009,
+			830009
+		},
+		barrage_ID = {
+			568421,
+			568422,
+			568423,
+			568424,
+			568425,
+			568426,
+			568427,
+			568428
+		}
+	}
+	uv0.weapon_property_340[783010] = {
+		aim_type = 1,
+		name = "【2021意大利活动D1】BOSS 光辉 穿透弹幕",
+		type = 1,
+		initial_over_heat = 0,
+		fire_fx = "",
+		recover_time = 0,
+		reload_max = 9999,
+		queue = 4,
+		effect_move = 0,
+		range = 90,
+		damage = 16,
+		base = 1000,
+		corrected = 100,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 783010,
+		bullet_ID = {
+			300115,
+			300116,
+			300117,
+			300115,
+			300116,
+			300117,
+			300115,
+			300116,
+			300117
+		},
+		barrage_ID = {
+			740007,
+			740008,
+			740009,
+			740010,
+			740011,
+			740012,
+			740013,
+			740014,
+			740015
+		}
+	}
+	uv0.weapon_property_340[783101] = {
+		aim_type = 1,
+		range = 38,
+		damage = 12,
+		base = 1000,
+		name = "【2021意大利活动D2】BOSS 光辉 近程自卫火炮",
+		type = 2,
+		suppress = 1,
+		reload_max = 600,
+		queue = 5,
+		id = 783101,
+		bullet_ID = {
+			830001
+		},
+		barrage_ID = {
+			13
+		}
+	}
+	uv0.weapon_property_340[783102] = {
+		reload_max = 150,
+		name = "【2021意大利活动D2】BOSS 光辉 鱼雷机",
+		damage = 38,
+		base = 1002,
+		id = 783102,
+		range = 110,
+		queue = 2,
+		barrage_ID = {
+			12017
+		}
+	}
+	uv0.weapon_property_340[783103] = {
+		reload_max = 150,
+		name = "【2021意大利活动D2】BOSS 光辉 轰炸机",
+		damage = 52,
+		base = 1002,
+		id = 783103,
+		queue = 1,
+		barrage_ID = {
+			12012
+		}
+	}
+	uv0.weapon_property_340[783104] = {
+		reload_max = 150,
+		name = "【2021意大利活动D2】BOSS 光辉 战斗机",
+		damage = 21,
+		base = 1002,
+		id = 783104,
+		queue = 1,
+		barrage_ID = {
+			12012
+		}
+	}
+	uv0.weapon_property_340[783105] = {
+		range = 60,
+		damage = 38,
+		base = 1001,
+		suppress = 1,
+		name = "【2021意大利活动D2】BOSS 光辉 鱼雷机武器",
+		min_range = 20,
+		action_index = "",
+		reload_max = 6000,
+		attack_attribute = 4,
+		queue = 1,
+		id = 783105,
+		angle = 90,
+		bullet_ID = {
+			830008
+		},
+		barrage_ID = {
+			790025
+		}
+	}
+	uv0.weapon_property_340[783106] = {
+		range = 10,
+		damage = 52,
+		base = 1000,
+		name = "【2021意大利活动D2】BOSS 光辉 轰炸机武器",
+		fire_fx = "",
+		action_index = "",
+		type = 2,
+		reload_max = 6000,
+		attack_attribute = 4,
+		fire_sfx = "",
+		queue = 1,
+		id = 783106,
+		bullet_ID = {
+			830012
+		},
+		barrage_ID = {
+			790026
+		}
+	}
+	uv0.weapon_property_340[783107] = {
+		aim_type = 1,
+		range = 85,
+		damage = 21,
+		base = 1000,
+		name = "【2021意大利活动D2】BOSS 光辉 战斗机武器",
+		fire_fx = "",
+		suppress = 1,
+		reload_max = 6000,
+		action_index = "",
+		fire_sfx = "battle/air-atk",
+		queue = 1,
+		id = 783107,
+		attack_attribute = 4,
+		bullet_ID = {
+			830011,
+			830011,
+			830011,
+			830011
+		},
+		barrage_ID = {
+			101,
+			102,
+			103,
+			104
+		}
+	}
+	uv0.weapon_property_340[783108] = {
+		name = "【2021意大利活动D2】BOSS 光辉 常规扫射弹幕",
+		damage = 16,
+		base = 1000,
+		fire_fx = "CAFire",
+		reload_max = 6000,
+		fire_sfx = "battle/cannon-main",
+		queue = 3,
+		id = 783108,
+		bullet_ID = {
+			830010,
+			830010,
+			830010,
+			830010,
+			830010
+		},
+		barrage_ID = {
+			690134,
+			690135,
+			690136,
+			690137,
+			690138
+		}
+	}
+	uv0.weapon_property_340[783109] = {
+		name = "【2021意大利活动D2】BOSS 光辉 扩散弹幕",
+		damage = 16,
+		base = 1000,
+		initial_over_heat = 1,
+		suppress = 1,
+		reload_max = 6000,
+		queue = 3,
+		id = 783109,
+		bullet_ID = {
+			830009,
+			830009,
+			830009,
+			830009,
+			830009,
+			830009,
+			830009,
+			830009
+		},
+		barrage_ID = {
+			568421,
+			568422,
+			568423,
+			568424,
+			568425,
+			568426,
+			568427,
+			568428
+		}
+	}
+	uv0.weapon_property_340[783110] = {
+		aim_type = 1,
+		name = "【2021意大利活动D2】BOSS 光辉 穿透弹幕",
+		type = 1,
+		initial_over_heat = 0,
+		fire_fx = "",
+		recover_time = 0,
+		reload_max = 9999,
+		queue = 4,
+		effect_move = 0,
+		range = 90,
+		damage = 16,
+		base = 1000,
+		corrected = 100,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 783110,
+		bullet_ID = {
+			300115,
+			300116,
+			300117,
+			300115,
+			300116,
+			300117,
+			300115,
+			300116,
+			300117
+		},
+		barrage_ID = {
+			740007,
+			740008,
+			740009,
+			740010,
+			740011,
+			740012,
+			740013,
+			740014,
+			740015
+		}
+	}
+	uv0.weapon_property_340[783201] = {
+		aim_type = 0,
+		range = 120,
+		damage = 6,
+		base = 1000,
+		name = "【2021意大利活动D3】测试者·风 旋风弹幕",
+		fire_fx = "",
+		suppress = 0,
+		reload_max = 6000,
+		fire_sfx = "battle/cannon-main",
+		queue = 2,
+		id = 783201,
+		bullet_ID = {
+			830013,
+			830014,
+			830013,
+			830014,
+			830013,
+			830014
+		},
+		barrage_ID = {
+			840007,
+			840008,
+			840009,
+			840010,
+			840011,
+			840012
+		}
+	}
 	uv0.weapon_property_340[783202] = {
 		aim_type = 0,
 		range = 120,
@@ -1216,211 +1530,6 @@ function ()
 			fx = "jinengenemy",
 			alertTime = 2,
 			isBound = true
-		}
-	}
-	uv0.weapon_property_340[784012] = {
-		aim_type = 1,
-		min_range = 75,
-		type = 19,
-		name = "【2021意大利活动SP】BOSS 测试者 后排跨射2",
-		fire_fx = "CAFire",
-		recover_time = 4,
-		reload_max = 6000,
-		action_index = "",
-		queue = 6,
-		angle = 40,
-		range = 150,
-		damage = 60,
-		base = 1000,
-		suppress = 1,
-		fire_sfx = "battle/cannon-main",
-		id = 784012,
-		bullet_ID = {
-			800006
-		},
-		barrage_ID = {
-			20018
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_340[784013] = {
-		aim_type = 1,
-		name = "【2021意大利活动SP】BOSS 测试者 后排跨射3",
-		axis_angle = -30,
-		type = 19,
-		min_range = 75,
-		fire_fx = "CAFire",
-		recover_time = 4,
-		reload_max = 6000,
-		action_index = "",
-		queue = 7,
-		angle = 40,
-		range = 150,
-		damage = 60,
-		base = 1000,
-		suppress = 1,
-		fire_sfx = "battle/cannon-main",
-		id = 784013,
-		bullet_ID = {
-			800006
-		},
-		barrage_ID = {
-			20018
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_340[784301] = {
-		name = "【2021意大利活动SP】塞壬驱逐R型单发瞄准x4随机",
-		damage = 12,
-		base = 1001002,
-		id = 784301,
-		bullet_ID = {
-			830005,
-			830001
-		},
-		barrage_ID = {
-			840003,
-			840004
-		}
-	}
-	uv0.weapon_property_340[784302] = {
-		name = "【2021意大利活动SP】塞壬驱逐R型单装鱼雷",
-		damage = 60,
-		base = 1001007,
-		id = 784302,
-		bullet_ID = {
-			30067
-		},
-		barrage_ID = {
-			1400
-		}
-	}
-	uv0.weapon_property_340[784303] = {
-		name = "【2021意大利活动SP】塞壬驱逐R型旋转子弹3+2发武器",
-		damage = 12,
-		base = 1001012,
-		id = 784303,
-		bullet_ID = {
-			41003,
-			830003
-		},
-		barrage_ID = {
-			690001,
-			690002
-		}
-	}
-	uv0.weapon_property_340[784304] = {
-		name = "【2021意大利活动SP】塞壬轻巡R型旋转子弹延迟1+2+1连弹",
-		damage = 20,
-		base = 1001017,
-		id = 784304,
-		bullet_ID = {
-			830004,
-			300110,
-			830004
-		},
-		barrage_ID = {
-			690003,
-			690004,
-			690005
-		}
-	}
-	uv0.weapon_property_340[784305] = {
-		name = "【2021意大利活动SP】塞壬轻巡R型联装炮x6散射",
-		damage = 18,
-		base = 1001022,
-		id = 784305,
-		bullet_ID = {
-			830001,
-			830005
-		},
-		barrage_ID = {
-			840005,
-			840006
-		}
-	}
-	uv0.weapon_property_340[784306] = {
-		name = "【2021意大利活动SP】塞壬重巡R型大船通用副炮",
-		damage = 16,
-		base = 1001027,
-		id = 784306,
-		bullet_ID = {
-			830001,
-			830005
-		},
-		barrage_ID = {
-			840001,
-			840002
-		}
-	}
-	uv0.weapon_property_340[784307] = {
-		name = "【2021意大利活动SP】塞壬重巡R型双联装主炮x2-散射",
-		damage = 46,
-		base = 1001032,
-		id = 784307,
-		bullet_ID = {
-			830002
-		},
-		barrage_ID = {
-			690007
-		}
-	}
-	uv0.weapon_property_340[784308] = {
-		name = "【2021意大利活动SP】塞壬重巡R型双联装鱼雷",
-		damage = 60,
-		base = 1001037,
-		id = 784308,
-		bullet_ID = {
-			30067
-		},
-		barrage_ID = {
-			1401
-		}
-	}
-	uv0.weapon_property_340[784309] = {
-		name = "【2021意大利活动SP】塞壬战列R型副炮",
-		damage = 16,
-		base = 1001042,
-		id = 784309,
-		bullet_ID = {
-			830005
-		},
-		barrage_ID = {
-			12
-		}
-	}
-	uv0.weapon_property_340[784310] = {
-		name = "【2021意大利活动SP】塞壬战列R型主炮",
-		damage = 50,
-		base = 1001047,
-		id = 784310,
-		bullet_ID = {
-			830007
-		},
-		barrage_ID = {
-			10015
-		}
-	}
-	uv0.weapon_property_340[784311] = {
-		name = "【2021意大利活动SP】塞壬战列R型跨射武器3x2轮",
-		damage = 75,
-		base = 1001052,
-		id = 784311,
-		bullet_ID = {
-			830007
-		},
-		barrage_ID = {
-			20018
 		}
 	}
 end()

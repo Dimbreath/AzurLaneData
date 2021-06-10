@@ -32528,7 +32528,7 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 	},
 	[37710] = {
 		use_gold = 3000,
-		name = "Aviation Enhancement Ⅱ",
+		name = "Anti-Air Enhancement Ⅱ",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,

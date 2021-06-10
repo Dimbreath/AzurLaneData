@@ -1974,6 +1974,16 @@ function slot0.hasAvailiableSkin(slot0)
 	return slot4 > 0
 end
 
+function slot0.hasProposeSkin(slot0)
+	for slot6, slot7 in ipairs(getProxy(ShipSkinProxy):GetAllSkinForShip(slot0)) do
+		if slot7.skin_type == ShipSkin.SKIN_TYPE_PROPOSE then
+			return true
+		end
+	end
+
+	return false
+end
+
 function slot0.getAircraftReloadCD(slot0)
 	slot1 = slot0:getConfigTable().base_list
 

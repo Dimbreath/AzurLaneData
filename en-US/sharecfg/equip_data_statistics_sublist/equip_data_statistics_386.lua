@@ -1,5 +1,75 @@
 pg = pg or {}
 pg.equip_data_statistics_386 = {
+	[90503] = {
+		id = 90503,
+		damage = "10 x 2",
+		base = 90500,
+		weapon_id = {
+			90503
+		}
+	},
+	[90600] = {
+		name = "Twin 37mm Mle 1936 AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 45,
+		icon = "50600",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "38/wave",
+		nationality = 8,
+		ammo = 5,
+		value_3 = 0,
+		id = 90600,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			90600
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"AA"
+		}
+	},
 	[90601] = {
 		id = 90601,
 		damage = "42/wave",
@@ -178,22 +248,6 @@ pg.equip_data_statistics_386 = {
 		base = 90700,
 		weapon_id = {
 			90701
-		}
-	},
-	[90702] = {
-		id = 90702,
-		damage = "5 x 4",
-		base = 90700,
-		weapon_id = {
-			90702
-		}
-	},
-	[90703] = {
-		id = 90703,
-		damage = "6 x 4",
-		base = 90700,
-		weapon_id = {
-			90703
 		}
 	}
 }

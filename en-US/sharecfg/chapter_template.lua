@@ -4,8 +4,7 @@ slot0.chapter_template = {}
 
 function ()
 	uv0.chapter_template[101] = {
-		pos_x = "0.10703125",
-		num_3 = 1,
+		collection_team = 2,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
@@ -14,7 +13,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 2,
+		pos_x = "0.10703125",
 		special_operation_list = "",
 		air_dominance = 6,
 		best_air_dominance = 150,
@@ -33,10 +32,11 @@ function ()
 		model = 1,
 		investigation_ratio = 6,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 3,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -65,6 +65,7 @@ function ()
 		time = 99999999,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 40,
 		scale = {
 			0.34,
 			0.36,
@@ -264,8 +265,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[102] = {
-		pos_x = "0.34609375",
-		num_3 = 1,
+		collection_team = 2,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
@@ -274,7 +274,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 2,
+		pos_x = "0.34609375",
 		special_operation_list = "",
 		air_dominance = 12,
 		best_air_dominance = 150,
@@ -293,10 +293,11 @@ function ()
 		model = 1,
 		investigation_ratio = 6,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 5,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -325,6 +326,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 34,
 		scale = {
 			0.34,
 			0.53,
@@ -633,8 +635,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[103] = {
-		pos_x = "0.50546875",
-		num_3 = 1,
+		collection_team = 2,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
@@ -643,7 +644,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 2,
+		pos_x = "0.50546875",
 		special_operation_list = "",
 		air_dominance = 18,
 		best_air_dominance = 150,
@@ -662,10 +663,11 @@ function ()
 		model = 1,
 		investigation_ratio = 7,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 5,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -694,6 +696,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 38,
 		scale = {
 			0.52,
 			0.36,
@@ -1036,8 +1039,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[104] = {
-		pos_x = "0.60546875",
-		num_3 = 1,
+		collection_team = 2,
 		progress_boss = 80,
 		oil = 10,
 		is_limit_move = 0,
@@ -1046,7 +1048,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 2,
+		pos_x = "0.60546875",
 		special_operation_list = "",
 		air_dominance = 24,
 		best_air_dominance = 150,
@@ -1065,10 +1067,11 @@ function ()
 		model = 1,
 		investigation_ratio = 8,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 7,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -1097,6 +1100,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 42,
 		scale = {
 			0.66,
 			0.45,
@@ -1526,8 +1530,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[201] = {
-		pos_x = "0.6265625",
-		num_3 = 1,
+		collection_team = 2,
 		progress_boss = 70,
 		oil = 10,
 		is_limit_move = 0,
@@ -1536,7 +1539,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 2,
+		pos_x = "0.6265625",
 		special_operation_list = "",
 		air_dominance = 45,
 		best_air_dominance = 150,
@@ -1555,10 +1558,11 @@ function ()
 		model = 1,
 		investigation_ratio = 10,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 10,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -1587,6 +1591,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 50,
 		scale = {
 			0.665,
 			0.335,
@@ -2111,8 +2116,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[202] = {
-		pos_x = "0.575",
-		num_3 = 1,
+		collection_team = 2,
 		progress_boss = 60,
 		oil = 10,
 		is_limit_move = 0,
@@ -2121,7 +2125,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 2,
+		pos_x = "0.575",
 		special_operation_list = "",
 		air_dominance = 55,
 		best_air_dominance = 150,
@@ -2140,10 +2144,11 @@ function ()
 		model = 1,
 		investigation_ratio = 10,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 12,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2,
 		unlocklevel = 10,
 		chapter_fx = "",
@@ -2172,6 +2177,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 50,
 		scale = {
 			0.665,
 			0.62,
@@ -2749,8 +2755,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[203] = {
-		pos_x = "0.21484375",
-		num_3 = 1,
+		collection_team = 2,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
@@ -2759,7 +2764,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 2,
+		pos_x = "0.21484375",
 		special_operation_list = "",
 		air_dominance = 65,
 		best_air_dominance = 150,
@@ -2777,8 +2782,9 @@ function ()
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 11,
-		ammo_submarine = 0,
 		num_2 = 12,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 0,
 		map = 2,
 		unlocklevel = 10,
@@ -2808,6 +2814,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 54,
 		scale = {
 			0.34,
 			0.62,
@@ -3364,8 +3371,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[204] = {
-		pos_x = "0.28984375",
-		num_3 = 1,
+		collection_team = 3,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
@@ -3374,7 +3380,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 3,
+		pos_x = "0.28984375",
 		special_operation_list = "",
 		air_dominance = 80,
 		best_air_dominance = 150,
@@ -3393,10 +3399,11 @@ function ()
 		model = 1,
 		investigation_ratio = 12,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 12,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2,
 		unlocklevel = 10,
 		chapter_fx = "",
@@ -3425,6 +3432,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 58,
 		scale = {
 			0.38,
 			0.35,
@@ -3949,8 +3957,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[301] = {
-		pos_x = "0.3046875",
-		num_3 = 1,
+		collection_team = 3,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
@@ -3959,7 +3966,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 3,
+		pos_x = "0.3046875",
 		special_operation_list = "",
 		air_dominance = 110,
 		best_air_dominance = 150,
@@ -3978,10 +3985,11 @@ function ()
 		model = 1,
 		investigation_ratio = 14,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 12,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 3,
 		unlocklevel = 20,
 		chapter_fx = "",
@@ -4010,6 +4018,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 66,
 		scale = {
 			0.34,
 			0.6,
@@ -4555,8 +4564,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[302] = {
-		pos_x = "0.16953125",
-		num_3 = 1,
+		collection_team = 3,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
@@ -4565,7 +4573,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 3,
+		pos_x = "0.16953125",
 		special_operation_list = "",
 		air_dominance = 125,
 		best_air_dominance = 165,
@@ -4584,10 +4592,11 @@ function ()
 		model = 1,
 		investigation_ratio = 14,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 12,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 3,
 		unlocklevel = 20,
 		chapter_fx = "",
@@ -4616,6 +4625,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 66,
 		scale = {
 			0.34,
 			0.37,
@@ -5185,8 +5195,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[303] = {
-		pos_x = "0.60625",
-		num_3 = 1,
+		collection_team = 3,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -5195,7 +5204,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 3,
+		pos_x = "0.60625",
 		special_operation_list = "",
 		air_dominance = 145,
 		best_air_dominance = 190,
@@ -5214,10 +5223,11 @@ function ()
 		model = 1,
 		investigation_ratio = 15,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 12,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 3,
 		unlocklevel = 20,
 		chapter_fx = "",
@@ -5246,6 +5256,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 70,
 		scale = {
 			0.64,
 			0.57,
@@ -5810,8 +5821,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[304] = {
-		pos_x = "0.46953125",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -5820,7 +5830,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.46953125",
 		special_operation_list = "",
 		air_dominance = 175,
 		best_air_dominance = 230,
@@ -5839,10 +5849,11 @@ function ()
 		model = 1,
 		investigation_ratio = 16,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 12,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 3,
 		unlocklevel = 20,
 		chapter_fx = "",
@@ -5871,6 +5882,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 74,
 		scale = {
 			0.53,
 			0.45,
@@ -6421,8 +6433,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[305] = {
-		pos_x = "0.5734375",
-		num_3 = 0,
+		collection_team = 4,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -6431,7 +6442,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.5734375",
 		special_operation_list = "",
 		air_dominance = 175,
 		best_air_dominance = 230,
@@ -6450,10 +6461,11 @@ function ()
 		model = 4,
 		investigation_ratio = 16,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 0,
+		is_ai = 0,
 		map = 3,
 		unlocklevel = 20,
 		chapter_fx = "",
@@ -6482,6 +6494,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 74,
 		scale = {
 			0.53,
 			0.45,
@@ -7104,8 +7117,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[401] = {
-		pos_x = "0.17578125",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -7114,7 +7126,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.17578125",
 		special_operation_list = "",
 		air_dominance = 120,
 		best_air_dominance = 160,
@@ -7133,10 +7145,11 @@ function ()
 		model = 1,
 		investigation_ratio = 18,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 4,
 		unlocklevel = 25,
 		chapter_fx = "",
@@ -7165,6 +7178,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 82,
 		scale = {
 			0.34,
 			0.61,
@@ -7627,8 +7641,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[402] = {
-		pos_x = "0.31953125",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -7637,7 +7650,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.31953125",
 		special_operation_list = "",
 		air_dominance = 135,
 		best_air_dominance = 180,
@@ -7656,10 +7669,11 @@ function ()
 		model = 1,
 		investigation_ratio = 18,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 4,
 		unlocklevel = 25,
 		chapter_fx = "",
@@ -7688,6 +7702,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 82,
 		scale = {
 			0.4,
 			0.34,
@@ -8143,8 +8158,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[403] = {
-		pos_x = "0.6328125",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -8153,7 +8167,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.6328125",
 		special_operation_list = "",
 		air_dominance = 155,
 		best_air_dominance = 205,
@@ -8172,10 +8186,11 @@ function ()
 		model = 1,
 		investigation_ratio = 19,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 4,
 		unlocklevel = 25,
 		chapter_fx = "",
@@ -8204,6 +8219,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 86,
 		scale = {
 			0.66,
 			0.35,
@@ -8604,8 +8620,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[404] = {
-		pos_x = "0.59921875",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -8614,7 +8629,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.59921875",
 		special_operation_list = "",
 		air_dominance = 180,
 		best_air_dominance = 235,
@@ -8633,10 +8648,11 @@ function ()
 		model = 1,
 		investigation_ratio = 20,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 18,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 4,
 		unlocklevel = 25,
 		chapter_fx = "",
@@ -8665,6 +8681,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 90,
 		scale = {
 			0.63,
 			0.6,
@@ -9202,8 +9219,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[405] = {
-		pos_x = "0.365625",
-		num_3 = 0,
+		collection_team = 4,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -9212,7 +9228,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.365625",
 		special_operation_list = "",
 		air_dominance = 180,
 		best_air_dominance = 235,
@@ -9231,10 +9247,11 @@ function ()
 		model = 4,
 		investigation_ratio = 20,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 0,
+		is_ai = 0,
 		map = 4,
 		unlocklevel = 25,
 		chapter_fx = "",
@@ -9263,6 +9280,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 90,
 		scale = {
 			0.63,
 			0.6,
@@ -9851,8 +9869,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[501] = {
-		pos_x = "0.17890625",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -9861,7 +9878,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.17890625",
 		special_operation_list = "",
 		air_dominance = 215,
 		best_air_dominance = 280,
@@ -9880,10 +9897,11 @@ function ()
 		model = 1,
 		investigation_ratio = 22,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 18,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 5,
 		unlocklevel = 30,
 		chapter_fx = "",
@@ -9912,6 +9930,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 98,
 		scale = {
 			0.34,
 			0.42,
@@ -10454,8 +10473,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[502] = {
-		pos_x = "0.65859375",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -10464,7 +10482,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.65859375",
 		special_operation_list = "",
 		air_dominance = 250,
 		best_air_dominance = 325,
@@ -10483,10 +10501,11 @@ function ()
 		model = 1,
 		investigation_ratio = 22,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 18,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 5,
 		unlocklevel = 30,
 		chapter_fx = "",
@@ -10515,6 +10534,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 98,
 		scale = {
 			0.66,
 			0.36,
@@ -10995,8 +11015,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[503] = {
-		pos_x = "0.56640625",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -11005,7 +11024,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.56640625",
 		special_operation_list = "",
 		air_dominance = 295,
 		best_air_dominance = 385,
@@ -11024,10 +11043,11 @@ function ()
 		model = 1,
 		investigation_ratio = 23,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 18,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 5,
 		unlocklevel = 30,
 		chapter_fx = "",
@@ -11056,6 +11076,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 102,
 		scale = {
 			0.54,
 			0.47,
@@ -11506,8 +11527,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[504] = {
-		pos_x = "0.45234375",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -11516,7 +11536,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.45234375",
 		special_operation_list = "",
 		air_dominance = 345,
 		best_air_dominance = 450,
@@ -11535,10 +11555,11 @@ function ()
 		model = 1,
 		investigation_ratio = 24,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 5,
 		unlocklevel = 30,
 		chapter_fx = "",
@@ -11567,6 +11588,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 106,
 		scale = {
 			0.51,
 			0.65,
@@ -12042,8 +12064,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[505] = {
-		pos_x = "0.309375",
-		num_3 = 0,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -12052,7 +12073,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.309375",
 		special_operation_list = "",
 		air_dominance = 345,
 		best_air_dominance = 450,
@@ -12071,10 +12092,11 @@ function ()
 		model = 4,
 		investigation_ratio = 24,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 0,
+		is_ai = 0,
 		map = 5,
 		unlocklevel = 30,
 		chapter_fx = "",
@@ -12103,6 +12125,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 106,
 		scale = {
 			0.51,
 			0.65,
@@ -12629,8 +12652,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[601] = {
-		pos_x = "0.70390625",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -12639,7 +12661,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.70390625",
 		special_operation_list = "",
 		air_dominance = 225,
 		best_air_dominance = 295,
@@ -12658,10 +12680,11 @@ function ()
 		model = 1,
 		investigation_ratio = 26,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 6,
 		unlocklevel = 40,
 		chapter_fx = "",
@@ -12690,6 +12713,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 114,
 		scale = {
 			0.66,
 			0.34,
@@ -13203,8 +13227,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[602] = {
-		pos_x = "0.5390625",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -13213,7 +13236,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.5390625",
 		special_operation_list = "",
 		air_dominance = 255,
 		best_air_dominance = 335,
@@ -13232,10 +13255,11 @@ function ()
 		model = 1,
 		investigation_ratio = 26,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 6,
 		unlocklevel = 40,
 		chapter_fx = "",
@@ -13264,6 +13288,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 114,
 		scale = {
 			0.55,
 			0.5,
@@ -13833,8 +13858,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[603] = {
-		pos_x = "0.32265625",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -13843,7 +13867,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.32265625",
 		special_operation_list = "",
 		air_dominance = 290,
 		best_air_dominance = 380,
@@ -13862,10 +13886,11 @@ function ()
 		model = 1,
 		investigation_ratio = 27,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 6,
 		unlocklevel = 40,
 		chapter_fx = "",
@@ -13894,6 +13919,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 118,
 		scale = {
 			0.36,
 			0.64,
@@ -14387,8 +14413,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[604] = {
-		pos_x = "0.221875",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -14397,7 +14422,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.221875",
 		special_operation_list = "",
 		air_dominance = 325,
 		best_air_dominance = 425,
@@ -14416,10 +14441,11 @@ function ()
 		model = 1,
 		investigation_ratio = 28,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 6,
 		unlocklevel = 40,
 		chapter_fx = "",
@@ -14448,6 +14474,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 122,
 		scale = {
 			0.338,
 			0.43,
@@ -14985,8 +15012,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[605] = {
-		pos_x = "0.68828125",
-		num_3 = 0,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -14995,7 +15021,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.68828125",
 		special_operation_list = "",
 		air_dominance = 325,
 		best_air_dominance = 425,
@@ -15014,10 +15040,11 @@ function ()
 		model = 4,
 		investigation_ratio = 28,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 0,
+		is_ai = 0,
 		map = 6,
 		unlocklevel = 40,
 		chapter_fx = "",
@@ -15046,6 +15073,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 122,
 		scale = {
 			0.338,
 			0.43,
@@ -15582,8 +15610,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[701] = {
-		pos_x = "0.153125",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -15592,7 +15619,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.153125",
 		special_operation_list = "",
 		air_dominance = 370,
 		best_air_dominance = 485,
@@ -15611,10 +15638,11 @@ function ()
 		model = 1,
 		investigation_ratio = 30,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 7,
 		unlocklevel = 50,
 		chapter_fx = "",
@@ -15643,6 +15671,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 130,
 		scale = {
 			0.66,
 			0.34,
@@ -16003,8 +16032,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[702] = {
-		pos_x = "0.35078125",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -16013,7 +16041,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.35078125",
 		special_operation_list = "",
 		air_dominance = 425,
 		best_air_dominance = 555,
@@ -16032,10 +16060,11 @@ function ()
 		model = 1,
 		investigation_ratio = 30,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 7,
 		unlocklevel = 50,
 		chapter_fx = "",
@@ -16064,6 +16093,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 130,
 		scale = {
 			0.55,
 			0.5,
@@ -16527,8 +16557,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[703] = {
-		pos_x = "0.6328125",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -16537,7 +16566,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.6328125",
 		special_operation_list = "",
 		air_dominance = 480,
 		best_air_dominance = 625,
@@ -16556,10 +16585,11 @@ function ()
 		model = 1,
 		investigation_ratio = 31,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 7,
 		unlocklevel = 50,
 		chapter_fx = "",
@@ -16588,6 +16618,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 134,
 		scale = {
 			0.36,
 			0.64,
@@ -17122,8 +17153,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[704] = {
-		pos_x = "0.728125",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -17132,7 +17162,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.728125",
 		special_operation_list = "",
 		air_dominance = 535,
 		best_air_dominance = 700,
@@ -17151,10 +17181,11 @@ function ()
 		model = 1,
 		investigation_ratio = 32,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 7,
 		unlocklevel = 50,
 		chapter_fx = "",
@@ -17183,6 +17214,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 138,
 		scale = {
 			0.338,
 			0.43,
@@ -17701,8 +17733,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[705] = {
-		pos_x = "0.225",
-		num_3 = 0,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -17711,7 +17742,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.225",
 		special_operation_list = "",
 		air_dominance = 535,
 		best_air_dominance = 700,
@@ -17730,10 +17761,11 @@ function ()
 		model = 4,
 		investigation_ratio = 32,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 0,
+		is_ai = 0,
 		map = 7,
 		unlocklevel = 50,
 		chapter_fx = "",
@@ -17762,6 +17794,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 138,
 		scale = {
 			0.338,
 			0.43,
@@ -18283,8 +18316,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[801] = {
-		pos_x = "0.41953125",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -18293,7 +18325,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.41953125",
 		special_operation_list = "",
 		air_dominance = 590,
 		best_air_dominance = 770,
@@ -18312,10 +18344,11 @@ function ()
 		model = 1,
 		investigation_ratio = 31,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 8,
 		unlocklevel = 60,
 		chapter_fx = "",
@@ -18344,6 +18377,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 134,
 		scale = {
 			0.66,
 			0.34,
@@ -18726,8 +18760,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[802] = {
-		pos_x = "0.2046875",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -18736,7 +18769,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.2046875",
 		special_operation_list = "",
 		air_dominance = 650,
 		best_air_dominance = 845,
@@ -18755,10 +18788,11 @@ function ()
 		model = 1,
 		investigation_ratio = 31,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 8,
 		unlocklevel = 60,
 		chapter_fx = "",
@@ -18787,6 +18821,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 134,
 		scale = {
 			0.55,
 			0.5,
@@ -19255,8 +19290,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[803] = {
-		pos_x = "0.2546875",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -19265,7 +19299,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.2546875",
 		special_operation_list = "",
 		air_dominance = 710,
 		best_air_dominance = 925,
@@ -19284,10 +19318,11 @@ function ()
 		model = 1,
 		investigation_ratio = 32,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 8,
 		unlocklevel = 60,
 		chapter_fx = "",
@@ -19316,6 +19351,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 138,
 		scale = {
 			0.36,
 			0.64,
@@ -19847,8 +19883,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[804] = {
-		pos_x = "0.6015625",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -19857,7 +19892,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.6015625",
 		special_operation_list = "",
 		air_dominance = 770,
 		best_air_dominance = 1005,
@@ -19876,10 +19911,11 @@ function ()
 		model = 1,
 		investigation_ratio = 33,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 8,
 		unlocklevel = 60,
 		chapter_fx = "",
@@ -19908,6 +19944,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 142,
 		scale = {
 			0.338,
 			0.43,
@@ -20502,8 +20539,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[805] = {
-		pos_x = "0.66796875",
-		num_3 = 0,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -20512,7 +20548,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.66796875",
 		special_operation_list = "",
 		air_dominance = 770,
 		best_air_dominance = 1005,
@@ -20531,10 +20567,11 @@ function ()
 		model = 4,
 		investigation_ratio = 33,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 0,
+		is_ai = 0,
 		map = 8,
 		unlocklevel = 60,
 		chapter_fx = "",
@@ -20563,6 +20600,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 142,
 		scale = {
 			0.338,
 			0.43,
@@ -21146,8 +21184,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[901] = {
-		pos_x = "0.17890625",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -21156,7 +21193,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.17890625",
 		special_operation_list = "",
 		air_dominance = 840,
 		best_air_dominance = 1095,
@@ -21175,10 +21212,11 @@ function ()
 		model = 1,
 		investigation_ratio = 32,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 9,
 		unlocklevel = 65,
 		chapter_fx = "",
@@ -21207,6 +21245,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 138,
 		scale = {
 			0.36,
 			0.59,
@@ -21683,8 +21722,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[902] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -21693,7 +21731,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 915,
 		best_air_dominance = 1190,
@@ -21712,10 +21750,11 @@ function ()
 		model = 1,
 		investigation_ratio = 32,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 9,
 		unlocklevel = 65,
 		chapter_fx = "",
@@ -21744,6 +21783,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 138,
 		scale = {
 			0.35,
 			0.35,
@@ -22258,8 +22298,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[903] = {
-		pos_x = "0.6046875",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -22268,7 +22307,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.6046875",
 		special_operation_list = "",
 		air_dominance = 990,
 		best_air_dominance = 1290,
@@ -22287,10 +22326,11 @@ function ()
 		model = 1,
 		investigation_ratio = 33,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 9,
 		unlocklevel = 65,
 		chapter_fx = "",
@@ -22319,6 +22359,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 142,
 		scale = {
 			0.66,
 			0.62,
@@ -22857,8 +22898,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[904] = {
-		pos_x = "0.70703125",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -22867,7 +22907,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.70703125",
 		special_operation_list = "",
 		air_dominance = 1065,
 		best_air_dominance = 1385,
@@ -22886,10 +22926,11 @@ function ()
 		model = 1,
 		investigation_ratio = 34,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 9,
 		unlocklevel = 65,
 		chapter_fx = "",
@@ -22918,6 +22959,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 146,
 		scale = {
 			0.66,
 			0.38,
@@ -23478,8 +23520,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[905] = {
-		pos_x = "0.44921875",
-		num_3 = 0,
+		collection_team = 4,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -23488,7 +23529,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.44921875",
 		special_operation_list = "",
 		air_dominance = 1065,
 		best_air_dominance = 1385,
@@ -23507,10 +23548,11 @@ function ()
 		model = 4,
 		investigation_ratio = 34,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 0,
+		is_ai = 0,
 		map = 9,
 		unlocklevel = 65,
 		chapter_fx = "",
@@ -23539,6 +23581,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 146,
 		scale = {
 			0.66,
 			0.38,
@@ -24109,8 +24152,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1001] = {
-		pos_x = "0.14609375",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -24119,7 +24161,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.14609375",
 		special_operation_list = "",
 		air_dominance = 1155,
 		best_air_dominance = 1505,
@@ -24138,10 +24180,11 @@ function ()
 		model = 1,
 		investigation_ratio = 33,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 10,
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -24170,6 +24213,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 142,
 		scale = {
 			0.66,
 			0.34,
@@ -24665,8 +24709,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1002] = {
-		pos_x = "0.35234375",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -24675,7 +24718,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.35234375",
 		special_operation_list = "",
 		air_dominance = 1250,
 		best_air_dominance = 1625,
@@ -24694,10 +24737,11 @@ function ()
 		model = 1,
 		investigation_ratio = 33,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 10,
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -24726,6 +24770,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 142,
 		scale = {
 			0.55,
 			0.5,
@@ -25277,8 +25322,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1003] = {
-		pos_x = "0.49453125",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -25287,7 +25331,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.49453125",
 		special_operation_list = "",
 		air_dominance = 1345,
 		best_air_dominance = 1750,
@@ -25306,10 +25350,11 @@ function ()
 		model = 1,
 		investigation_ratio = 34,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 10,
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -25338,6 +25383,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 146,
 		scale = {
 			0.36,
 			0.64,
@@ -25906,8 +25952,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1004] = {
-		pos_x = "0.571875",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -25916,7 +25961,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.571875",
 		special_operation_list = "",
 		air_dominance = 1440,
 		best_air_dominance = 1875,
@@ -25935,10 +25980,11 @@ function ()
 		model = 1,
 		investigation_ratio = 35,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 10,
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -25967,6 +26013,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 150,
 		scale = {
 			0.338,
 			0.43,
@@ -26549,8 +26596,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1005] = {
-		pos_x = "0.6859375",
-		num_3 = 0,
+		collection_team = 4,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -26559,7 +26605,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.6859375",
 		special_operation_list = "",
 		air_dominance = 1440,
 		best_air_dominance = 1875,
@@ -26578,10 +26624,11 @@ function ()
 		model = 4,
 		investigation_ratio = 35,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 0,
+		is_ai = 0,
 		map = 10,
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -26610,6 +26657,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 150,
 		scale = {
 			0.338,
 			0.43,
@@ -27181,8 +27229,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1101] = {
-		pos_x = "0.22734375",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -27191,7 +27238,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.22734375",
 		special_operation_list = "",
 		air_dominance = 1520,
 		best_air_dominance = 1980,
@@ -27210,10 +27257,11 @@ function ()
 		model = 1,
 		investigation_ratio = 34,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 11,
 		unlocklevel = 75,
 		chapter_fx = "",
@@ -27242,6 +27290,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 146,
 		scale = {
 			0.38,
 			0.61,
@@ -27786,8 +27835,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1102] = {
-		pos_x = "0.32578125",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -27796,7 +27844,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.32578125",
 		special_operation_list = "",
 		air_dominance = 1610,
 		best_air_dominance = 2095,
@@ -27815,10 +27863,11 @@ function ()
 		model = 1,
 		investigation_ratio = 34,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 11,
 		unlocklevel = 75,
 		chapter_fx = "",
@@ -27847,6 +27896,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 146,
 		scale = {
 			0.38,
 			0.34,
@@ -28506,8 +28556,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1103] = {
-		pos_x = "0.55234375",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -28516,7 +28565,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.55234375",
 		special_operation_list = "",
 		air_dominance = 1700,
 		best_air_dominance = 2210,
@@ -28535,10 +28584,11 @@ function ()
 		model = 1,
 		investigation_ratio = 35,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 11,
 		unlocklevel = 75,
 		chapter_fx = "",
@@ -28567,6 +28617,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 150,
 		scale = {
 			0.65,
 			0.58,
@@ -29196,8 +29247,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1104] = {
-		pos_x = "0.6828125",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -29206,7 +29256,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.6828125",
 		special_operation_list = "",
 		air_dominance = 1790,
 		best_air_dominance = 2330,
@@ -29225,10 +29275,11 @@ function ()
 		model = 1,
 		investigation_ratio = 36,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 45,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 11,
 		unlocklevel = 75,
 		chapter_fx = "",
@@ -29257,6 +29308,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 154,
 		scale = {
 			0.65,
 			0.37,
@@ -29995,8 +30047,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1201] = {
-		pos_x = "0.14609375",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -30005,7 +30056,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.14609375",
 		special_operation_list = "",
 		air_dominance = 1890,
 		best_air_dominance = 2460,
@@ -30024,10 +30075,11 @@ function ()
 		model = 1,
 		investigation_ratio = 35,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 12,
 		unlocklevel = 80,
 		chapter_fx = "",
@@ -30056,6 +30108,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 150,
 		scale = {
 			0.35,
 			0.35,
@@ -30578,8 +30631,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1202] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -30588,7 +30640,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 1995,
 		best_air_dominance = 2595,
@@ -30607,10 +30659,11 @@ function ()
 		model = 1,
 		investigation_ratio = 35,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 12,
 		unlocklevel = 80,
 		chapter_fx = "",
@@ -30639,6 +30692,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 150,
 		scale = {
 			0.66,
 			0.62,
@@ -31274,8 +31328,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1203] = {
-		pos_x = "0.6046875",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -31284,7 +31337,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.6046875",
 		special_operation_list = "",
 		air_dominance = 2100,
 		best_air_dominance = 2730,
@@ -31303,10 +31356,11 @@ function ()
 		model = 1,
 		investigation_ratio = 36,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 12,
 		unlocklevel = 80,
 		chapter_fx = "",
@@ -31335,6 +31389,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 154,
 		scale = {
 			0.66,
 			0.38,
@@ -32006,8 +32061,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1204] = {
-		pos_x = "0.70703125",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -32016,7 +32070,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.70703125",
 		special_operation_list = "",
 		air_dominance = 2205,
 		best_air_dominance = 2870,
@@ -32035,10 +32089,11 @@ function ()
 		model = 1,
 		investigation_ratio = 37,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 45,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 12,
 		unlocklevel = 80,
 		chapter_fx = "",
@@ -32067,6 +32122,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 158,
 		scale = {
 			0.66,
 			0.34,
@@ -32854,8 +32910,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1301] = {
-		pos_x = "0.14609375",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -32864,7 +32919,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.14609375",
 		special_operation_list = "",
 		air_dominance = 2315,
 		best_air_dominance = 3010,
@@ -32883,8 +32938,9 @@ function ()
 		model = 1,
 		investigation_ratio = 36,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 0,
 		map = 13,
 		unlocklevel = 85,
@@ -32914,6 +32970,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 154,
 		scale = {
 			0.35,
 			0.35,
@@ -33445,8 +33502,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1302] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -33455,7 +33511,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 2450,
 		best_air_dominance = 3185,
@@ -33474,8 +33530,9 @@ function ()
 		model = 1,
 		investigation_ratio = 36,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 0,
 		map = 13,
 		unlocklevel = 85,
@@ -33505,6 +33562,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 154,
 		scale = {
 			0.66,
 			0.62,
@@ -34141,8 +34199,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1303] = {
-		pos_x = "0.6046875",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -34151,7 +34208,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.6046875",
 		special_operation_list = "",
 		air_dominance = 2585,
 		best_air_dominance = 3365,
@@ -34170,8 +34227,9 @@ function ()
 		model = 1,
 		investigation_ratio = 37,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 0,
 		map = 13,
 		unlocklevel = 85,
@@ -34201,6 +34259,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 158,
 		scale = {
 			0.66,
 			0.38,
@@ -34881,8 +34940,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1304] = {
-		pos_x = "0.70703125",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 18,
 		oil = 10,
 		is_limit_move = 0,
@@ -34891,7 +34949,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.70703125",
 		special_operation_list = "",
 		air_dominance = 2720,
 		best_air_dominance = 3540,
@@ -34910,8 +34968,9 @@ function ()
 		model = 1,
 		investigation_ratio = 38,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 50,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 0,
 		map = 13,
 		unlocklevel = 85,
@@ -34941,6 +35000,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 162,
 		scale = {
 			0.66,
 			0.34,
@@ -35730,8 +35790,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10000] = {
-		pos_x = "0.35625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
@@ -35740,7 +35799,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.35625",
 		special_operation_list = "",
 		air_dominance = 81,
 		best_air_dominance = 150,
@@ -35759,10 +35818,11 @@ function ()
 		model = 1,
 		investigation_ratio = 16,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 5,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 10000,
 		unlocklevel = 15,
 		chapter_fx = "",
@@ -35791,6 +35851,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 74,
 		scale = {
 			0.34,
 			0.7,
@@ -36135,8 +36196,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10001] = {
-		pos_x = "0.58203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 42,
 		oil = 10,
 		is_limit_move = 0,
@@ -36145,7 +36205,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.58203125",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
@@ -36164,10 +36224,11 @@ function ()
 		model = 1,
 		investigation_ratio = 17,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 10000,
 		unlocklevel = 15,
 		chapter_fx = "",
@@ -36196,6 +36257,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 78,
 		scale = {
 			0.53,
 			0.45,
@@ -36604,8 +36666,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10002] = {
-		pos_x = "0.44921875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
@@ -36614,7 +36675,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.44921875",
 		special_operation_list = "",
 		air_dominance = 120,
 		best_air_dominance = 150,
@@ -36633,10 +36694,11 @@ function ()
 		model = 1,
 		investigation_ratio = 18,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 10000,
 		unlocklevel = 15,
 		chapter_fx = "",
@@ -36665,6 +36727,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 82,
 		scale = {
 			0.52,
 			0.36,
@@ -37103,8 +37166,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10101] = {
-		pos_x = "0.10703125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
@@ -37113,7 +37175,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.10703125",
 		special_operation_list = "",
 		air_dominance = 45,
 		best_air_dominance = 150,
@@ -37132,10 +37194,11 @@ function ()
 		model = 1,
 		investigation_ratio = 6,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 3,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 201,
 		unlocklevel = 10,
 		chapter_fx = "",
@@ -37164,6 +37227,7 @@ function ()
 		time = 99999999,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 34,
 		scale = {
 			0.34,
 			0.36,
@@ -37399,8 +37463,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10102] = {
-		pos_x = "0.34609375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
@@ -37409,7 +37472,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.34609375",
 		special_operation_list = "",
 		air_dominance = 50,
 		best_air_dominance = 150,
@@ -37428,10 +37491,11 @@ function ()
 		model = 1,
 		investigation_ratio = 6,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 5,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 201,
 		unlocklevel = 10,
 		chapter_fx = "",
@@ -37460,6 +37524,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 34,
 		scale = {
 			0.34,
 			0.53,
@@ -37802,8 +37867,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10103] = {
-		pos_x = "0.50546875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
@@ -37812,7 +37876,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.50546875",
 		special_operation_list = "",
 		air_dominance = 60,
 		best_air_dominance = 150,
@@ -37831,10 +37895,11 @@ function ()
 		model = 1,
 		investigation_ratio = 7,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 5,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 201,
 		unlocklevel = 10,
 		chapter_fx = "",
@@ -37863,6 +37928,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 38,
 		scale = {
 			0.52,
 			0.36,
@@ -38241,8 +38307,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10104] = {
-		pos_x = "0.60546875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 80,
 		oil = 10,
 		is_limit_move = 0,
@@ -38251,7 +38316,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.60546875",
 		special_operation_list = "",
 		air_dominance = 80,
 		best_air_dominance = 150,
@@ -38270,10 +38335,11 @@ function ()
 		model = 1,
 		investigation_ratio = 8,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 7,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 201,
 		unlocklevel = 10,
 		chapter_fx = "",
@@ -38302,6 +38368,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 42,
 		scale = {
 			0.66,
 			0.45,
@@ -38763,8 +38830,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10201] = {
-		pos_x = "0.6265625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 70,
 		oil = 10,
 		is_limit_move = 0,
@@ -38773,7 +38839,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6265625",
 		special_operation_list = "",
 		air_dominance = 110,
 		best_air_dominance = 150,
@@ -38792,10 +38858,11 @@ function ()
 		model = 1,
 		investigation_ratio = 10,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 10,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 202,
 		unlocklevel = 20,
 		chapter_fx = "",
@@ -38824,6 +38891,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 50,
 		scale = {
 			0.665,
 			0.335,
@@ -39385,8 +39453,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10202] = {
-		pos_x = "0.575",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 60,
 		oil = 10,
 		is_limit_move = 0,
@@ -39395,7 +39462,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.575",
 		special_operation_list = "",
 		air_dominance = 135,
 		best_air_dominance = 180,
@@ -39414,10 +39481,11 @@ function ()
 		model = 1,
 		investigation_ratio = 10,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 12,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 202,
 		unlocklevel = 20,
 		chapter_fx = "",
@@ -39446,6 +39514,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 50,
 		scale = {
 			0.665,
 			0.62,
@@ -40060,8 +40129,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10203] = {
-		pos_x = "0.21484375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
@@ -40070,7 +40138,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.21484375",
 		special_operation_list = "",
 		air_dominance = 160,
 		best_air_dominance = 210,
@@ -40089,10 +40157,11 @@ function ()
 		model = 1,
 		investigation_ratio = 11,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 12,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 202,
 		unlocklevel = 20,
 		chapter_fx = "",
@@ -40121,6 +40190,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 54,
 		scale = {
 			0.34,
 			0.62,
@@ -40712,8 +40782,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10204] = {
-		pos_x = "0.28984375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
@@ -40722,7 +40791,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.28984375",
 		special_operation_list = "",
 		air_dominance = 190,
 		best_air_dominance = 250,
@@ -40741,10 +40810,11 @@ function ()
 		model = 1,
 		investigation_ratio = 12,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 12,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 202,
 		unlocklevel = 20,
 		chapter_fx = "",
@@ -40773,6 +40843,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 58,
 		scale = {
 			0.38,
 			0.35,
@@ -41334,8 +41405,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10301] = {
-		pos_x = "0.3046875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
@@ -41344,7 +41414,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.3046875",
 		special_operation_list = "",
 		air_dominance = 245,
 		best_air_dominance = 320,
@@ -41363,10 +41433,11 @@ function ()
 		model = 1,
 		investigation_ratio = 14,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 12,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 203,
 		unlocklevel = 25,
 		chapter_fx = "",
@@ -41395,6 +41466,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 66,
 		scale = {
 			0.34,
 			0.6,
@@ -41977,8 +42049,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10302] = {
-		pos_x = "0.16953125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
@@ -41987,7 +42058,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.16953125",
 		special_operation_list = "",
 		air_dominance = 285,
 		best_air_dominance = 375,
@@ -42006,10 +42077,11 @@ function ()
 		model = 1,
 		investigation_ratio = 14,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 12,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 203,
 		unlocklevel = 25,
 		chapter_fx = "",
@@ -42038,6 +42110,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 66,
 		scale = {
 			0.34,
 			0.37,
@@ -42644,8 +42717,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10303] = {
-		pos_x = "0.60625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -42654,7 +42726,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.60625",
 		special_operation_list = "",
 		air_dominance = 330,
 		best_air_dominance = 430,
@@ -42673,10 +42745,11 @@ function ()
 		model = 1,
 		investigation_ratio = 15,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 12,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 203,
 		unlocklevel = 25,
 		chapter_fx = "",
@@ -42705,6 +42778,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 70,
 		scale = {
 			0.64,
 			0.57,
@@ -43306,8 +43380,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10304] = {
-		pos_x = "0.46953125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -43316,7 +43389,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.46953125",
 		special_operation_list = "",
 		air_dominance = 380,
 		best_air_dominance = 495,
@@ -43335,10 +43408,11 @@ function ()
 		model = 1,
 		investigation_ratio = 16,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 12,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 203,
 		unlocklevel = 25,
 		chapter_fx = "",
@@ -43367,6 +43441,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 74,
 		scale = {
 			0.53,
 			0.45,
@@ -43954,8 +44029,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10401] = {
-		pos_x = "0.17578125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -43964,7 +44038,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.17578125",
 		special_operation_list = "",
 		air_dominance = 190,
 		best_air_dominance = 250,
@@ -43983,10 +44057,11 @@ function ()
 		model = 1,
 		investigation_ratio = 18,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 204,
 		unlocklevel = 30,
 		chapter_fx = "",
@@ -44015,6 +44090,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 82,
 		scale = {
 			0.34,
 			0.61,
@@ -44519,8 +44595,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10402] = {
-		pos_x = "0.31953125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -44529,7 +44604,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.31953125",
 		special_operation_list = "",
 		air_dominance = 220,
 		best_air_dominance = 290,
@@ -44548,10 +44623,11 @@ function ()
 		model = 1,
 		investigation_ratio = 18,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 204,
 		unlocklevel = 30,
 		chapter_fx = "",
@@ -44580,6 +44656,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 82,
 		scale = {
 			0.4,
 			0.34,
@@ -45077,8 +45154,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10403] = {
-		pos_x = "0.6328125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -45087,7 +45163,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6328125",
 		special_operation_list = "",
 		air_dominance = 250,
 		best_air_dominance = 325,
@@ -45106,10 +45182,11 @@ function ()
 		model = 1,
 		investigation_ratio = 19,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 204,
 		unlocklevel = 30,
 		chapter_fx = "",
@@ -45138,6 +45215,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 86,
 		scale = {
 			0.66,
 			0.35,
@@ -45580,8 +45658,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10404] = {
-		pos_x = "0.59921875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -45590,7 +45667,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.59921875",
 		special_operation_list = "",
 		air_dominance = 285,
 		best_air_dominance = 375,
@@ -45609,10 +45686,11 @@ function ()
 		model = 1,
 		investigation_ratio = 20,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 18,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 204,
 		unlocklevel = 30,
 		chapter_fx = "",
@@ -45641,6 +45719,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 90,
 		scale = {
 			0.63,
 			0.6,
@@ -46220,8 +46299,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10501] = {
-		pos_x = "0.17890625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -46230,7 +46308,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.17890625",
 		special_operation_list = "",
 		air_dominance = 340,
 		best_air_dominance = 445,
@@ -46249,10 +46327,11 @@ function ()
 		model = 1,
 		investigation_ratio = 22,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 18,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 205,
 		unlocklevel = 40,
 		chapter_fx = "",
@@ -46281,6 +46360,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 98,
 		scale = {
 			0.34,
 			0.42,
@@ -46865,8 +46945,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10502] = {
-		pos_x = "0.65859375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -46875,7 +46954,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.65859375",
 		special_operation_list = "",
 		air_dominance = 380,
 		best_air_dominance = 495,
@@ -46894,10 +46973,11 @@ function ()
 		model = 1,
 		investigation_ratio = 22,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 18,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 205,
 		unlocklevel = 40,
 		chapter_fx = "",
@@ -46926,6 +47006,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 98,
 		scale = {
 			0.66,
 			0.36,
@@ -47448,8 +47529,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10503] = {
-		pos_x = "0.56640625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -47458,7 +47538,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.56640625",
 		special_operation_list = "",
 		air_dominance = 425,
 		best_air_dominance = 555,
@@ -47477,10 +47557,11 @@ function ()
 		model = 1,
 		investigation_ratio = 23,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 18,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 205,
 		unlocklevel = 40,
 		chapter_fx = "",
@@ -47509,6 +47590,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 102,
 		scale = {
 			0.54,
 			0.47,
@@ -48001,8 +48083,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10504] = {
-		pos_x = "0.45234375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -48011,7 +48092,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.45234375",
 		special_operation_list = "",
 		air_dominance = 475,
 		best_air_dominance = 620,
@@ -48030,10 +48111,11 @@ function ()
 		model = 1,
 		investigation_ratio = 24,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 205,
 		unlocklevel = 40,
 		chapter_fx = "",
@@ -48062,6 +48144,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 106,
 		scale = {
 			0.51,
 			0.65,
@@ -48579,8 +48662,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10601] = {
-		pos_x = "0.70390625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -48589,7 +48671,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.70390625",
 		special_operation_list = "",
 		air_dominance = 445,
 		best_air_dominance = 580,
@@ -48608,10 +48690,11 @@ function ()
 		model = 1,
 		investigation_ratio = 26,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 206,
 		unlocklevel = 50,
 		chapter_fx = "",
@@ -48640,6 +48723,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 114,
 		scale = {
 			0.66,
 			0.34,
@@ -49196,8 +49280,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10602] = {
-		pos_x = "0.5390625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -49206,7 +49289,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5390625",
 		special_operation_list = "",
 		air_dominance = 510,
 		best_air_dominance = 665,
@@ -49225,10 +49308,11 @@ function ()
 		model = 1,
 		investigation_ratio = 26,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 206,
 		unlocklevel = 50,
 		chapter_fx = "",
@@ -49257,6 +49341,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 114,
 		scale = {
 			0.55,
 			0.5,
@@ -49869,8 +49954,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10603] = {
-		pos_x = "0.32265625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -49879,7 +49963,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.32265625",
 		special_operation_list = "",
 		air_dominance = 575,
 		best_air_dominance = 750,
@@ -49898,10 +49982,11 @@ function ()
 		model = 1,
 		investigation_ratio = 27,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 206,
 		unlocklevel = 50,
 		chapter_fx = "",
@@ -49930,6 +50015,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 118,
 		scale = {
 			0.36,
 			0.64,
@@ -50466,8 +50552,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10604] = {
-		pos_x = "0.221875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -50476,7 +50561,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.221875",
 		special_operation_list = "",
 		air_dominance = 645,
 		best_air_dominance = 840,
@@ -50495,10 +50580,11 @@ function ()
 		model = 1,
 		investigation_ratio = 28,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 206,
 		unlocklevel = 50,
 		chapter_fx = "",
@@ -50527,6 +50613,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 122,
 		scale = {
 			0.338,
 			0.43,
@@ -51107,8 +51194,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10701] = {
-		pos_x = "0.153125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -51117,7 +51203,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.153125",
 		special_operation_list = "",
 		air_dominance = 720,
 		best_air_dominance = 940,
@@ -51136,10 +51222,11 @@ function ()
 		model = 1,
 		investigation_ratio = 30,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 207,
 		unlocklevel = 60,
 		chapter_fx = "",
@@ -51168,6 +51255,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 130,
 		scale = {
 			0.66,
 			0.34,
@@ -51573,8 +51661,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10702] = {
-		pos_x = "0.35078125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -51583,7 +51670,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.35078125",
 		special_operation_list = "",
 		air_dominance = 800,
 		best_air_dominance = 1040,
@@ -51602,10 +51689,11 @@ function ()
 		model = 1,
 		investigation_ratio = 30,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 207,
 		unlocklevel = 60,
 		chapter_fx = "",
@@ -51634,6 +51722,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 130,
 		scale = {
 			0.55,
 			0.5,
@@ -52142,8 +52231,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10703] = {
-		pos_x = "0.6328125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -52152,7 +52240,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6328125",
 		special_operation_list = "",
 		air_dominance = 880,
 		best_air_dominance = 1145,
@@ -52171,10 +52259,11 @@ function ()
 		model = 1,
 		investigation_ratio = 31,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 207,
 		unlocklevel = 60,
 		chapter_fx = "",
@@ -52203,6 +52292,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 134,
 		scale = {
 			0.36,
 			0.64,
@@ -52782,8 +52872,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10704] = {
-		pos_x = "0.728125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -52792,7 +52881,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.728125",
 		special_operation_list = "",
 		air_dominance = 965,
 		best_air_dominance = 1255,
@@ -52811,10 +52900,11 @@ function ()
 		model = 1,
 		investigation_ratio = 32,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 207,
 		unlocklevel = 60,
 		chapter_fx = "",
@@ -52843,6 +52933,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 138,
 		scale = {
 			0.338,
 			0.43,
@@ -53406,8 +53497,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10801] = {
-		pos_x = "0.41953125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -53416,7 +53506,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.41953125",
 		special_operation_list = "",
 		air_dominance = 1055,
 		best_air_dominance = 1375,
@@ -53435,10 +53525,11 @@ function ()
 		model = 1,
 		investigation_ratio = 31,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 208,
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -53467,6 +53558,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 134,
 		scale = {
 			0.66,
 			0.34,
@@ -53894,8 +53986,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10802] = {
-		pos_x = "0.2046875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -53904,7 +53995,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2046875",
 		special_operation_list = "",
 		air_dominance = 1150,
 		best_air_dominance = 1495,
@@ -53923,10 +54014,11 @@ function ()
 		model = 1,
 		investigation_ratio = 31,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 208,
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -53955,6 +54047,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 134,
 		scale = {
 			0.55,
 			0.5,
@@ -54468,8 +54561,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10803] = {
-		pos_x = "0.2546875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -54478,7 +54570,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2546875",
 		special_operation_list = "",
 		air_dominance = 1245,
 		best_air_dominance = 1620,
@@ -54497,10 +54589,11 @@ function ()
 		model = 1,
 		investigation_ratio = 32,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 208,
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -54529,6 +54622,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 138,
 		scale = {
 			0.36,
 			0.64,
@@ -55105,8 +55199,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10804] = {
-		pos_x = "0.6015625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -55115,7 +55208,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6015625",
 		special_operation_list = "",
 		air_dominance = 1350,
 		best_air_dominance = 1755,
@@ -55134,10 +55227,11 @@ function ()
 		model = 1,
 		investigation_ratio = 33,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 208,
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -55166,6 +55260,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 142,
 		scale = {
 			0.338,
 			0.43,
@@ -55805,8 +55900,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10901] = {
-		pos_x = "0.17890625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -55815,7 +55909,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.17890625",
 		special_operation_list = "",
 		air_dominance = 1440,
 		best_air_dominance = 1875,
@@ -55834,10 +55928,11 @@ function ()
 		model = 1,
 		investigation_ratio = 32,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 209,
 		unlocklevel = 80,
 		chapter_fx = "",
@@ -55866,6 +55961,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 138,
 		scale = {
 			0.36,
 			0.59,
@@ -56387,8 +56483,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10902] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -56397,7 +56492,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 1535,
 		best_air_dominance = 2000,
@@ -56416,10 +56511,11 @@ function ()
 		model = 1,
 		investigation_ratio = 32,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 209,
 		unlocklevel = 80,
 		chapter_fx = "",
@@ -56448,6 +56544,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 138,
 		scale = {
 			0.35,
 			0.35,
@@ -57007,8 +57104,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10903] = {
-		pos_x = "0.6046875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -57017,7 +57113,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6046875",
 		special_operation_list = "",
 		air_dominance = 1635,
 		best_air_dominance = 2130,
@@ -57036,10 +57132,11 @@ function ()
 		model = 1,
 		investigation_ratio = 33,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 209,
 		unlocklevel = 80,
 		chapter_fx = "",
@@ -57068,6 +57165,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 142,
 		scale = {
 			0.66,
 			0.62,
@@ -57651,8 +57749,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[10904] = {
-		pos_x = "0.70703125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -57661,7 +57758,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.70703125",
 		special_operation_list = "",
 		air_dominance = 1735,
 		best_air_dominance = 2260,
@@ -57680,10 +57777,11 @@ function ()
 		model = 1,
 		investigation_ratio = 34,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 209,
 		unlocklevel = 80,
 		chapter_fx = "",
@@ -57712,6 +57810,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 146,
 		scale = {
 			0.66,
 			0.38,
@@ -58317,8 +58416,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[11001] = {
-		pos_x = "0.14609375",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -58327,7 +58425,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.14609375",
 		special_operation_list = "",
 		air_dominance = 1855,
 		best_air_dominance = 2415,
@@ -58346,10 +58444,11 @@ function ()
 		model = 1,
 		investigation_ratio = 33,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 210,
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -58378,6 +58477,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 142,
 		scale = {
 			0.66,
 			0.34,
@@ -58920,8 +59020,7 @@ function ()
 end()
 function ()
 	uv0.chapter_template[11002] = {
-		pos_x = "0.35234375",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -58930,7 +59029,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.35234375",
 		special_operation_list = "",
 		air_dominance = 1970,
 		best_air_dominance = 2565,
@@ -58949,10 +59048,11 @@ function ()
 		model = 1,
 		investigation_ratio = 33,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 210,
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -58981,6 +59081,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 142,
 		scale = {
 			0.55,
 			0.5,
@@ -59577,8 +59678,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[11003] = {
-		pos_x = "0.49453125",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -59587,7 +59687,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.49453125",
 		special_operation_list = "",
 		air_dominance = 2090,
 		best_air_dominance = 2720,
@@ -59606,10 +59706,11 @@ function ()
 		model = 1,
 		investigation_ratio = 34,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 210,
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -59638,6 +59739,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 146,
 		scale = {
 			0.36,
 			0.64,
@@ -60251,8 +60353,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[11004] = {
-		pos_x = "0.571875",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -60261,7 +60362,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.571875",
 		special_operation_list = "",
 		air_dominance = 2210,
 		best_air_dominance = 2875,
@@ -60280,10 +60381,11 @@ function ()
 		model = 1,
 		investigation_ratio = 35,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 210,
 		unlocklevel = 70,
 		chapter_fx = "",
@@ -60312,6 +60414,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 150,
 		scale = {
 			0.338,
 			0.43,
@@ -60939,8 +61042,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[11101] = {
-		pos_x = "0.22734375",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -60949,7 +61051,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.22734375",
 		special_operation_list = "",
 		air_dominance = 2220,
 		best_air_dominance = 2885,
@@ -60968,10 +61070,11 @@ function ()
 		model = 1,
 		investigation_ratio = 34,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 211,
 		unlocklevel = 75,
 		chapter_fx = "",
@@ -61000,6 +61103,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 146,
 		scale = {
 			0.38,
 			0.61,
@@ -61589,8 +61693,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[11102] = {
-		pos_x = "0.32578125",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -61599,7 +61702,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.32578125",
 		special_operation_list = "",
 		air_dominance = 2360,
 		best_air_dominance = 3070,
@@ -61618,10 +61721,11 @@ function ()
 		model = 1,
 		investigation_ratio = 34,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 211,
 		unlocklevel = 75,
 		chapter_fx = "",
@@ -61650,6 +61754,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 146,
 		scale = {
 			0.38,
 			0.34,
@@ -62354,8 +62459,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[11103] = {
-		pos_x = "0.55234375",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -62364,7 +62468,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.55234375",
 		special_operation_list = "",
 		air_dominance = 2480,
 		best_air_dominance = 3225,
@@ -62383,10 +62487,11 @@ function ()
 		model = 1,
 		investigation_ratio = 35,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 211,
 		unlocklevel = 75,
 		chapter_fx = "",
@@ -62415,6 +62520,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 150,
 		scale = {
 			0.65,
 			0.58,
@@ -63089,8 +63195,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[11104] = {
-		pos_x = "0.6828125",
-		num_3 = 1,
+		collection_team = 4,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -63099,7 +63204,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 4,
+		pos_x = "0.6828125",
 		special_operation_list = "",
 		air_dominance = 2640,
 		best_air_dominance = 3430,
@@ -63118,10 +63223,11 @@ function ()
 		model = 1,
 		investigation_ratio = 36,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 45,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 211,
 		unlocklevel = 75,
 		chapter_fx = "",
@@ -63150,6 +63256,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 154,
 		scale = {
 			0.65,
 			0.37,
@@ -63933,8 +64040,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[20001] = {
-		pos_x = "0.2046875",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -63943,7 +64049,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2046875",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -63962,10 +64068,11 @@ function ()
 		model = 3,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 0,
+		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -63994,6 +64101,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.55,
 			0.5,
@@ -64415,8 +64523,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[20002] = {
-		pos_x = "0.2546875",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -64425,7 +64532,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2546875",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -64444,10 +64551,11 @@ function ()
 		model = 3,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 0,
+		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -64476,6 +64584,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.36,
 			0.64,
@@ -64949,8 +65058,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[20003] = {
-		pos_x = "0.6015625",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -64959,7 +65067,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6015625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -64978,10 +65086,11 @@ function ()
 		model = 3,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 0,
+		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -65010,6 +65119,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.338,
 			0.43,
@@ -65575,8 +65685,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[20004] = {
-		pos_x = "0.2046875",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -65585,7 +65694,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2046875",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -65604,8 +65713,9 @@ function ()
 		model = 3,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
@@ -65635,6 +65745,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.55,
 			0.5,
@@ -66051,8 +66162,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[20005] = {
-		pos_x = "0.2546875",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -66061,7 +66171,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2546875",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -66080,8 +66190,9 @@ function ()
 		model = 3,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
@@ -66111,6 +66222,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.36,
 			0.64,
@@ -66572,8 +66684,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[20006] = {
-		pos_x = "0.6015625",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -66582,7 +66693,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6015625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -66601,8 +66712,9 @@ function ()
 		model = 3,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
@@ -66632,6 +66744,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.338,
 			0.43,
@@ -67185,8 +67298,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[20007] = {
-		pos_x = "0.2046875",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -67195,7 +67307,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2046875",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -67214,8 +67326,9 @@ function ()
 		model = 3,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
@@ -67245,6 +67358,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.55,
 			0.5,
@@ -67660,8 +67774,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[20008] = {
-		pos_x = "0.2546875",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -67670,7 +67783,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2546875",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -67689,8 +67802,9 @@ function ()
 		model = 3,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
@@ -67720,6 +67834,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.36,
 			0.64,
@@ -68186,8 +68301,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[20009] = {
-		pos_x = "0.6015625",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -68196,7 +68310,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6015625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -68215,8 +68329,9 @@ function ()
 		model = 3,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
@@ -68246,6 +68361,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.338,
 			0.43,
@@ -68749,8 +68865,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[20010] = {
-		pos_x = "0.2046875",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -68759,7 +68874,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2046875",
 		special_operation_list = "",
 		air_dominance = 230,
 		best_air_dominance = 300,
@@ -68777,8 +68892,9 @@ function ()
 		num_1 = 0,
 		model = 3,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
@@ -68808,6 +68924,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.55,
 			0.5,
@@ -69252,8 +69369,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[20011] = {
-		pos_x = "0.2546875",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -69262,7 +69378,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2546875",
 		special_operation_list = "",
 		air_dominance = 360,
 		best_air_dominance = 470,
@@ -69280,8 +69396,9 @@ function ()
 		num_1 = 0,
 		model = 3,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
@@ -69311,6 +69428,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.36,
 			0.64,
@@ -69799,8 +69917,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[20012] = {
-		pos_x = "0.6015625",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -69809,7 +69926,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6015625",
 		special_operation_list = "",
 		air_dominance = 450,
 		best_air_dominance = 585,
@@ -69827,8 +69944,9 @@ function ()
 		num_1 = 0,
 		model = 3,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 70000,
 		unlocklevel = 0,
@@ -69858,6 +69976,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.338,
 			0.43,
@@ -70390,8 +70509,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1040001] = {
-		pos_x = "0.33125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
@@ -70400,7 +70518,7 @@ function ()
 		story_refresh_boss = "GUOQING4",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.33125",
 		special_operation_list = "",
 		air_dominance = 150,
 		best_air_dominance = 195,
@@ -70419,10 +70537,11 @@ function ()
 		model = 1,
 		investigation_ratio = 14,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1040000,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -70451,6 +70570,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 66,
 		scale = {
 			0.34,
 			0.53,
@@ -70924,8 +71044,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1040002] = {
-		pos_x = "0.56328125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -70934,7 +71053,7 @@ function ()
 		story_refresh_boss = "GUOQING7",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.56328125",
 		special_operation_list = "",
 		air_dominance = 205,
 		best_air_dominance = 270,
@@ -70953,10 +71072,11 @@ function ()
 		model = 1,
 		investigation_ratio = 15,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1040000,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -70985,6 +71105,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 70,
 		scale = {
 			0.65,
 			0.36,
@@ -71513,8 +71634,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1040003] = {
-		pos_x = "0.690625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -71523,7 +71643,7 @@ function ()
 		story_refresh_boss = "GUOQING9",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.690625",
 		special_operation_list = "",
 		air_dominance = 270,
 		best_air_dominance = 355,
@@ -71542,10 +71662,11 @@ function ()
 		model = 1,
 		investigation_ratio = 16,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1040000,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -71574,6 +71695,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 74,
 		scale = {
 			0.64,
 			0.59,
@@ -72171,8 +72293,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1040004] = {
-		pos_x = "0.26875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -72181,7 +72302,7 @@ function ()
 		story_refresh_boss = "GUOQING12",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.26875",
 		special_operation_list = "",
 		air_dominance = 330,
 		best_air_dominance = 430,
@@ -72200,10 +72321,11 @@ function ()
 		model = 1,
 		investigation_ratio = 15,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1040001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -72232,6 +72354,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 70,
 		scale = {
 			0.34,
 			0.36,
@@ -72779,8 +72902,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1040005] = {
-		pos_x = "0.6703125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -72789,7 +72911,7 @@ function ()
 		story_refresh_boss = "GUOQING15",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6703125",
 		special_operation_list = "",
 		air_dominance = 430,
 		best_air_dominance = 560,
@@ -72808,10 +72930,11 @@ function ()
 		model = 1,
 		investigation_ratio = 16,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1040001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -72840,6 +72963,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 74,
 		scale = {
 			0.66,
 			0.36,
@@ -73486,8 +73610,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1040006] = {
-		pos_x = "0.5421875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -73496,7 +73619,7 @@ function ()
 		story_refresh_boss = "GUOQING18",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5421875",
 		special_operation_list = "",
 		air_dominance = 535,
 		best_air_dominance = 700,
@@ -73515,10 +73638,11 @@ function ()
 		model = 1,
 		investigation_ratio = 17,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1040001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -73547,6 +73671,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 78,
 		scale = {
 			0.52,
 			0.62,
@@ -74190,8 +74315,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1040011] = {
-		pos_x = "0.33125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -74200,7 +74324,7 @@ function ()
 		story_refresh_boss = "GUOQING4",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.33125",
 		special_operation_list = "",
 		air_dominance = 530,
 		best_air_dominance = 690,
@@ -74219,10 +74343,11 @@ function ()
 		model = 1,
 		investigation_ratio = 17,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1040010,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -74251,6 +74376,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 78,
 		scale = {
 			0.34,
 			0.53,
@@ -74765,8 +74891,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1040012] = {
-		pos_x = "0.56328125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -74775,7 +74900,7 @@ function ()
 		story_refresh_boss = "GUOQING7",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.56328125",
 		special_operation_list = "",
 		air_dominance = 605,
 		best_air_dominance = 790,
@@ -74794,10 +74919,11 @@ function ()
 		model = 1,
 		investigation_ratio = 18,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1040010,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -74826,6 +74952,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 82,
 		scale = {
 			0.65,
 			0.36,
@@ -75395,8 +75522,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1040013] = {
-		pos_x = "0.690625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -75405,7 +75531,7 @@ function ()
 		story_refresh_boss = "GUOQING9",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.690625",
 		special_operation_list = "",
 		air_dominance = 680,
 		best_air_dominance = 885,
@@ -75424,10 +75550,11 @@ function ()
 		model = 1,
 		investigation_ratio = 19,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1040010,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -75456,6 +75583,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 86,
 		scale = {
 			0.64,
 			0.59,
@@ -76095,8 +76223,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1040014] = {
-		pos_x = "0.26875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -76105,7 +76232,7 @@ function ()
 		story_refresh_boss = "GUOQING12",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.26875",
 		special_operation_list = "",
 		air_dominance = 810,
 		best_air_dominance = 1055,
@@ -76124,10 +76251,11 @@ function ()
 		model = 1,
 		investigation_ratio = 19,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1040011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -76156,6 +76284,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 86,
 		scale = {
 			0.34,
 			0.36,
@@ -76745,8 +76874,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1040015] = {
-		pos_x = "0.6703125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -76755,7 +76883,7 @@ function ()
 		story_refresh_boss = "GUOQING15",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6703125",
 		special_operation_list = "",
 		air_dominance = 965,
 		best_air_dominance = 1255,
@@ -76774,10 +76902,11 @@ function ()
 		model = 1,
 		investigation_ratio = 20,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1040011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -76806,6 +76935,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 90,
 		scale = {
 			0.66,
 			0.36,
@@ -77494,8 +77624,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1040016] = {
-		pos_x = "0.5421875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -77504,7 +77633,7 @@ function ()
 		story_refresh_boss = "GUOQING18",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5421875",
 		special_operation_list = "",
 		air_dominance = 1130,
 		best_air_dominance = 1470,
@@ -77523,10 +77652,11 @@ function ()
 		model = 1,
 		investigation_ratio = 21,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1040011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -77555,6 +77685,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 94,
 		scale = {
 			0.52,
 			0.62,
@@ -78239,8 +78370,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1050001] = {
-		pos_x = "0.20234375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
@@ -78249,7 +78379,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.20234375",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -78268,10 +78398,11 @@ function ()
 		model = 1,
 		investigation_ratio = 18,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1050000,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -78300,6 +78431,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 82,
 		scale = {
 			0.34,
 			0.53,
@@ -78824,8 +78956,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1050002] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
@@ -78834,7 +78965,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -78853,10 +78984,11 @@ function ()
 		model = 1,
 		investigation_ratio = 20,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1050000,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -78885,6 +79017,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 90,
 		scale = {
 			0.49,
 			0.35,
@@ -79411,8 +79544,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1050003] = {
-		pos_x = "0.6375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
@@ -79421,7 +79553,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6375",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -79440,10 +79572,11 @@ function ()
 		model = 1,
 		investigation_ratio = 22,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1050000,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -79472,6 +79605,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 98,
 		scale = {
 			0.61,
 			0.41,
@@ -80121,8 +80255,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1050011] = {
-		pos_x = "0.20234375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
@@ -80131,7 +80264,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.20234375",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -80150,10 +80283,11 @@ function ()
 		model = 1,
 		investigation_ratio = 18,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1050010,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -80182,6 +80316,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 82,
 		scale = {
 			0.34,
 			0.53,
@@ -80706,8 +80841,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1050012] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
@@ -80716,7 +80850,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -80735,10 +80869,11 @@ function ()
 		model = 1,
 		investigation_ratio = 20,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1050010,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -80767,6 +80902,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 90,
 		scale = {
 			0.49,
 			0.35,
@@ -81293,8 +81429,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1050013] = {
-		pos_x = "0.6375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
@@ -81303,7 +81438,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6375",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -81322,10 +81457,11 @@ function ()
 		model = 1,
 		investigation_ratio = 22,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1050010,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -81354,6 +81490,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 98,
 		scale = {
 			0.61,
 			0.41,
@@ -82003,8 +82140,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1070101] = {
-		pos_x = "0.7046875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
@@ -82013,7 +82149,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.7046875",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -82032,10 +82168,11 @@ function ()
 		model = 1,
 		investigation_ratio = 15,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1070100,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -82064,6 +82201,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 70,
 		scale = {
 			0.34,
 			0.53,
@@ -82589,8 +82727,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1070102] = {
-		pos_x = "0.44375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
@@ -82599,7 +82736,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.44375",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -82618,10 +82755,11 @@ function ()
 		model = 1,
 		investigation_ratio = 18,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1070100,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -82650,6 +82788,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 82,
 		scale = {
 			0.49,
 			0.35,
@@ -83274,8 +83413,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1070103] = {
-		pos_x = "0.2953125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
@@ -83284,7 +83422,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2953125",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -83303,10 +83441,11 @@ function ()
 		model = 1,
 		investigation_ratio = 21,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1070100,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -83335,6 +83474,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 94,
 		scale = {
 			0.61,
 			0.41,
@@ -84017,8 +84157,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1070201] = {
-		pos_x = "0.7046875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
@@ -84027,7 +84166,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.7046875",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -84046,10 +84185,11 @@ function ()
 		model = 1,
 		investigation_ratio = 15,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1070200,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -84078,6 +84218,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 70,
 		scale = {
 			0.34,
 			0.53,
@@ -84602,8 +84743,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1070202] = {
-		pos_x = "0.44375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
@@ -84612,7 +84752,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.44375",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -84631,10 +84771,11 @@ function ()
 		model = 1,
 		investigation_ratio = 18,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1070200,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -84663,6 +84804,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 82,
 		scale = {
 			0.49,
 			0.35,
@@ -85286,8 +85428,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1070203] = {
-		pos_x = "0.2953125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
@@ -85296,7 +85437,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2953125",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -85315,10 +85456,11 @@ function ()
 		model = 1,
 		investigation_ratio = 21,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1070200,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -85347,6 +85489,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 94,
 		scale = {
 			0.61,
 			0.41,
@@ -86028,8 +86171,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1080001] = {
-		pos_x = "0.18359375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
@@ -86038,7 +86180,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.18359375",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -86057,10 +86199,11 @@ function ()
 		model = 1,
 		investigation_ratio = 15,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1080000,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -86089,6 +86232,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 70,
 		scale = {
 			0.34,
 			0.53,
@@ -86546,8 +86690,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1080002] = {
-		pos_x = "0.6203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
@@ -86556,7 +86699,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6203125",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -86575,10 +86718,11 @@ function ()
 		model = 1,
 		investigation_ratio = 17,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1080000,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -86607,6 +86751,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 78,
 		scale = {
 			0.65,
 			0.6,
@@ -87169,8 +87314,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1080003] = {
-		pos_x = "0.1390625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
@@ -87179,7 +87323,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.1390625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -87198,10 +87342,11 @@ function ()
 		model = 1,
 		investigation_ratio = 19,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1080000,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -87230,6 +87375,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 86,
 		scale = {
 			0.34,
 			0.43,
@@ -87785,8 +87931,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1080004] = {
-		pos_x = "0.54765625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
@@ -87795,7 +87940,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.54765625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -87814,10 +87959,11 @@ function ()
 		model = 1,
 		investigation_ratio = 21,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1080000,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -87846,6 +87992,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 94,
 		scale = {
 			0.62,
 			0.36,
@@ -88514,8 +88661,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1080005] = {
-		pos_x = "0.3953125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
@@ -88524,7 +88670,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.3953125",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -88543,10 +88689,11 @@ function ()
 		model = 1,
 		investigation_ratio = 25,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 8,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1080010,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -88575,6 +88722,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 110,
 		scale = {
 			0.47,
 			0.43,
@@ -89290,8 +89438,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1100001] = {
-		pos_x = "0.33125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
@@ -89300,7 +89447,7 @@ function ()
 		story_refresh_boss = "GUOQING4",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.33125",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -89319,10 +89466,11 @@ function ()
 		model = 1,
 		investigation_ratio = 14,
 		wall_prefab = "",
-		ammo_submarine = 2,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 2,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1100000,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -89351,6 +89499,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 66,
 		scale = {
 			0.34,
 			0.53,
@@ -89839,8 +89988,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1100002] = {
-		pos_x = "0.56328125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -89849,7 +89997,7 @@ function ()
 		story_refresh_boss = "GUOQING7",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.56328125",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -89868,10 +90016,11 @@ function ()
 		model = 1,
 		investigation_ratio = 15,
 		wall_prefab = "",
-		ammo_submarine = 2,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 2,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1100000,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -89900,6 +90049,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 70,
 		scale = {
 			0.65,
 			0.36,
@@ -90444,8 +90594,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1100003] = {
-		pos_x = "0.690625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -90454,7 +90603,7 @@ function ()
 		story_refresh_boss = "GUOQING9",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.690625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -90473,10 +90622,11 @@ function ()
 		model = 1,
 		investigation_ratio = 16,
 		wall_prefab = "",
-		ammo_submarine = 2,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 2,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1100000,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -90505,6 +90655,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 74,
 		scale = {
 			0.64,
 			0.59,
@@ -91118,8 +91269,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1100004] = {
-		pos_x = "0.26875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -91128,7 +91278,7 @@ function ()
 		story_refresh_boss = "GUOQING12",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.26875",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -91147,10 +91297,11 @@ function ()
 		model = 1,
 		investigation_ratio = 15,
 		wall_prefab = "",
-		ammo_submarine = 2,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 2,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1100001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -91179,6 +91330,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 70,
 		scale = {
 			0.34,
 			0.36,
@@ -91743,8 +91895,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1100005] = {
-		pos_x = "0.6703125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -91753,7 +91904,7 @@ function ()
 		story_refresh_boss = "GUOQING15",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6703125",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -91772,10 +91923,11 @@ function ()
 		model = 1,
 		investigation_ratio = 16,
 		wall_prefab = "",
-		ammo_submarine = 2,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 2,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1100001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -91804,6 +91956,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 74,
 		scale = {
 			0.66,
 			0.36,
@@ -92467,8 +92620,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1100006] = {
-		pos_x = "0.5421875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -92477,7 +92629,7 @@ function ()
 		story_refresh_boss = "GUOQING18",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5421875",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -92496,10 +92648,11 @@ function ()
 		model = 1,
 		investigation_ratio = 17,
 		wall_prefab = "",
-		ammo_submarine = 2,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 2,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1100001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -92528,6 +92681,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 78,
 		scale = {
 			0.52,
 			0.62,
@@ -93188,8 +93342,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1100011] = {
-		pos_x = "0.33125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -93198,7 +93351,7 @@ function ()
 		story_refresh_boss = "GUOQING4",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.33125",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -93217,10 +93370,11 @@ function ()
 		model = 1,
 		investigation_ratio = 17,
 		wall_prefab = "",
-		ammo_submarine = 2,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 2,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1100010,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -93249,6 +93403,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 78,
 		scale = {
 			0.34,
 			0.53,
@@ -93780,8 +93935,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1100012] = {
-		pos_x = "0.56328125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -93790,7 +93944,7 @@ function ()
 		story_refresh_boss = "GUOQING7",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.56328125",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -93809,10 +93963,11 @@ function ()
 		model = 1,
 		investigation_ratio = 18,
 		wall_prefab = "",
-		ammo_submarine = 2,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 2,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1100010,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -93841,6 +93996,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 82,
 		scale = {
 			0.65,
 			0.36,
@@ -94427,8 +94583,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1100013] = {
-		pos_x = "0.690625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -94437,7 +94592,7 @@ function ()
 		story_refresh_boss = "GUOQING9",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.690625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -94456,10 +94611,11 @@ function ()
 		model = 1,
 		investigation_ratio = 19,
 		wall_prefab = "",
-		ammo_submarine = 2,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 2,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1100010,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -94488,6 +94644,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 86,
 		scale = {
 			0.64,
 			0.59,
@@ -95144,8 +95301,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1100014] = {
-		pos_x = "0.26875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -95154,7 +95310,7 @@ function ()
 		story_refresh_boss = "GUOQING12",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.26875",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -95173,10 +95329,11 @@ function ()
 		model = 1,
 		investigation_ratio = 19,
 		wall_prefab = "",
-		ammo_submarine = 2,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 2,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1100011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -95205,6 +95362,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 86,
 		scale = {
 			0.34,
 			0.36,
@@ -95811,8 +95969,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1100015] = {
-		pos_x = "0.6703125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -95821,7 +95978,7 @@ function ()
 		story_refresh_boss = "GUOQING15",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6703125",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -95840,10 +95997,11 @@ function ()
 		model = 1,
 		investigation_ratio = 20,
 		wall_prefab = "",
-		ammo_submarine = 2,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 2,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1100011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -95872,6 +96030,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 90,
 		scale = {
 			0.66,
 			0.36,
@@ -96577,8 +96736,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1100016] = {
-		pos_x = "0.5421875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -96587,7 +96745,7 @@ function ()
 		story_refresh_boss = "GUOQING18",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5421875",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -96606,10 +96764,11 @@ function ()
 		model = 1,
 		investigation_ratio = 21,
 		wall_prefab = "",
-		ammo_submarine = 2,
 		num_2 = 40,
-		is_ai = 0,
+		ammo_submarine = 2,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1100011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -96638,6 +96797,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 94,
 		scale = {
 			0.52,
 			0.62,
@@ -97339,8 +97499,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1100020] = {
-		pos_x = "0.48984375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -97349,7 +97508,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.48984375",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -97368,10 +97527,11 @@ function ()
 		model = 1,
 		investigation_ratio = 22,
 		wall_prefab = "",
-		ammo_submarine = 2,
 		num_2 = 10,
-		is_ai = 0,
+		ammo_submarine = 2,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1100013,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -97400,6 +97560,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 98,
 		scale = {
 			0.34,
 			0.36,
@@ -98090,8 +98251,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1110001] = {
-		pos_x = "0.19375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -98100,7 +98260,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.19375",
 		special_operation_list = "",
 		air_dominance = 95,
 		best_air_dominance = 150,
@@ -98119,10 +98279,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1110001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -98151,6 +98312,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -98692,8 +98854,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1110002] = {
-		pos_x = "0.2703125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -98702,7 +98863,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2703125",
 		special_operation_list = "",
 		air_dominance = 130,
 		best_air_dominance = 170,
@@ -98721,10 +98882,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1110001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -98753,6 +98915,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -99217,8 +99380,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1110003] = {
-		pos_x = "0.68984375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -99227,7 +99389,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.68984375",
 		special_operation_list = "",
 		air_dominance = 170,
 		best_air_dominance = 225,
@@ -99246,10 +99408,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1110001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -99278,6 +99441,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -99792,8 +99956,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1110004] = {
-		pos_x = "0.6109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -99802,7 +99965,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6109375",
 		special_operation_list = "",
 		air_dominance = 220,
 		best_air_dominance = 290,
@@ -99821,10 +99984,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1110001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -99853,6 +100017,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -100455,8 +100620,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1110005] = {
-		pos_x = "0.26015625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -100465,7 +100629,7 @@ function ()
 		story_refresh_boss = "YINGHUA11",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.26015625",
 		special_operation_list = "",
 		air_dominance = 285,
 		best_air_dominance = 375,
@@ -100484,10 +100648,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1110002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -100516,6 +100681,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -101169,8 +101335,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1110006] = {
-		pos_x = "0.6453125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -101179,7 +101344,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6453125",
 		special_operation_list = "",
 		air_dominance = 380,
 		best_air_dominance = 495,
@@ -101198,10 +101363,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1110002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -101230,6 +101396,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -101834,8 +102001,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1110011] = {
-		pos_x = "0.19375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -101844,7 +102010,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.19375",
 		special_operation_list = "",
 		air_dominance = 375,
 		best_air_dominance = 490,
@@ -101863,10 +102029,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1110011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -101895,6 +102062,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -102478,8 +102646,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1110012] = {
-		pos_x = "0.2703125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -102488,7 +102655,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2703125",
 		special_operation_list = "",
 		air_dominance = 470,
 		best_air_dominance = 615,
@@ -102507,10 +102674,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1110011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -102539,6 +102707,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -103045,8 +103214,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1110013] = {
-		pos_x = "0.68984375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -103055,7 +103223,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.68984375",
 		special_operation_list = "",
 		air_dominance = 570,
 		best_air_dominance = 745,
@@ -103074,10 +103242,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1110011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -103106,6 +103275,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -103704,8 +103874,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1110014] = {
-		pos_x = "0.6109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -103714,7 +103883,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6109375",
 		special_operation_list = "",
 		air_dominance = 730,
 		best_air_dominance = 950,
@@ -103733,10 +103902,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1110011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -103765,6 +103935,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -104409,8 +104580,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1110015] = {
-		pos_x = "0.26015625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -104419,7 +104589,7 @@ function ()
 		story_refresh_boss = "YINGHUA11",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.26015625",
 		special_operation_list = "",
 		air_dominance = 915,
 		best_air_dominance = 1190,
@@ -104438,10 +104608,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1110012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -104470,6 +104641,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -105167,8 +105339,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1110016] = {
-		pos_x = "0.6453125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -105177,7 +105348,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6453125",
 		special_operation_list = "",
 		air_dominance = 1125,
 		best_air_dominance = 1465,
@@ -105196,10 +105367,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1110012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -105228,6 +105400,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -105876,8 +106049,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1110021] = {
-		pos_x = "0.48984375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 0,
 		is_limit_move = 0,
@@ -105886,7 +106058,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.48984375",
 		special_operation_list = "",
 		air_dominance = 1485,
 		best_air_dominance = 1935,
@@ -105905,10 +106077,11 @@ function ()
 		model = 5,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 4,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1110021,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -105937,6 +106110,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -106286,8 +106460,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1120001] = {
-		pos_x = "0.1625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
@@ -106296,7 +106469,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.1625",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 130,
@@ -106315,10 +106488,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1120001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -106347,6 +106521,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -106845,8 +107020,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1120002] = {
-		pos_x = "0.2375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -106855,7 +107029,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2375",
 		special_operation_list = "",
 		air_dominance = 135,
 		best_air_dominance = 175,
@@ -106874,10 +107048,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1120001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -106906,6 +107081,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.36,
@@ -107544,8 +107720,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1120003] = {
-		pos_x = "0.62109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -107554,7 +107729,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.62109375",
 		special_operation_list = "",
 		air_dominance = 170,
 		best_air_dominance = 220,
@@ -107573,10 +107748,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1120001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -107605,6 +107781,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -108210,8 +108387,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1120004] = {
-		pos_x = "0.68515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -108220,7 +108396,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.68515625",
 		special_operation_list = "",
 		air_dominance = 205,
 		best_air_dominance = 265,
@@ -108239,10 +108415,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1120001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -108271,6 +108448,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -108994,8 +109172,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1120005] = {
-		pos_x = "0.228125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -109004,7 +109181,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.228125",
 		special_operation_list = "",
 		air_dominance = 220,
 		best_air_dominance = 285,
@@ -109023,10 +109200,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1120002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -109055,6 +109233,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -109573,8 +109752,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1120006] = {
-		pos_x = "0.67578125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -109583,7 +109761,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67578125",
 		special_operation_list = "",
 		air_dominance = 320,
 		best_air_dominance = 415,
@@ -109602,10 +109780,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1120002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -109634,6 +109813,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.36,
@@ -110160,8 +110340,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1120007] = {
-		pos_x = "0.31640625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -110170,7 +110349,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.31640625",
 		special_operation_list = "",
 		air_dominance = 425,
 		best_air_dominance = 555,
@@ -110189,10 +110368,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1120002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -110221,6 +110401,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -110802,8 +110983,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1120008] = {
-		pos_x = "0.55625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -110812,7 +110992,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.55625",
 		special_operation_list = "",
 		air_dominance = 535,
 		best_air_dominance = 695,
@@ -110831,10 +111011,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1120002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -110863,6 +111044,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -111600,8 +111782,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1120011] = {
-		pos_x = "0.1625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -111610,7 +111791,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.1625",
 		special_operation_list = "",
 		air_dominance = 355,
 		best_air_dominance = 460,
@@ -111629,10 +111810,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1120011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -111661,6 +111843,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -112200,8 +112383,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1120012] = {
-		pos_x = "0.2375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -112210,7 +112392,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2375",
 		special_operation_list = "",
 		air_dominance = 430,
 		best_air_dominance = 560,
@@ -112229,10 +112411,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1120011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -112261,6 +112444,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.36,
@@ -112942,8 +113126,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1120013] = {
-		pos_x = "0.62109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -112952,7 +113135,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.62109375",
 		special_operation_list = "",
 		air_dominance = 505,
 		best_air_dominance = 655,
@@ -112971,10 +113154,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1120011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -113003,6 +113187,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -113649,8 +113834,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1120014] = {
-		pos_x = "0.68515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -113659,7 +113843,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.68515625",
 		special_operation_list = "",
 		air_dominance = 580,
 		best_air_dominance = 755,
@@ -113678,10 +113862,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1120011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -113710,6 +113895,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -114474,8 +114660,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1120015] = {
-		pos_x = "0.228125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -114484,7 +114669,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.228125",
 		special_operation_list = "",
 		air_dominance = 635,
 		best_air_dominance = 825,
@@ -114503,10 +114688,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1120012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -114535,6 +114721,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -115094,8 +115281,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1120016] = {
-		pos_x = "0.67578125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -115104,7 +115290,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67578125",
 		special_operation_list = "",
 		air_dominance = 790,
 		best_air_dominance = 1025,
@@ -115123,10 +115309,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1120012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -115155,6 +115342,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.36,
@@ -115722,8 +115910,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1120017] = {
-		pos_x = "0.31640625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -115732,7 +115919,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.31640625",
 		special_operation_list = "",
 		air_dominance = 955,
 		best_air_dominance = 1240,
@@ -115751,10 +115938,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1120012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -115783,6 +115971,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -116405,8 +116594,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1120018] = {
-		pos_x = "0.55625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 17,
 		oil = 10,
 		is_limit_move = 0,
@@ -116415,7 +116603,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.55625",
 		special_operation_list = "",
 		air_dominance = 1130,
 		best_air_dominance = 1470,
@@ -116434,10 +116622,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1120012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -116466,6 +116655,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -117244,8 +117434,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1120021] = {
-		pos_x = "0.479",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
@@ -117254,7 +117443,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 1485,
 		best_air_dominance = 1935,
@@ -117273,10 +117462,11 @@ function ()
 		model = 5,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 4,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1120021,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -117305,6 +117495,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -117673,8 +117864,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1130001] = {
-		pos_x = "0.20234375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
@@ -117683,7 +117873,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.20234375",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
@@ -117702,10 +117892,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1130000,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -117734,6 +117925,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -118168,8 +118360,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1130002] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
@@ -118178,7 +118369,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 200,
 		best_air_dominance = 260,
@@ -118197,10 +118388,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1130000,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -118229,6 +118421,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.49,
 			0.35,
@@ -118724,8 +118917,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1130003] = {
-		pos_x = "0.6375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
@@ -118734,7 +118926,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6375",
 		special_operation_list = "",
 		air_dominance = 400,
 		best_air_dominance = 520,
@@ -118753,10 +118945,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1130000,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -118785,6 +118978,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.61,
 			0.41,
@@ -119318,8 +119512,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1130101] = {
-		pos_x = "0.20234375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
@@ -119328,7 +119521,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.20234375",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
@@ -119347,10 +119540,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1130100,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -119379,6 +119573,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -119813,8 +120008,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1130102] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
@@ -119823,7 +120017,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 200,
 		best_air_dominance = 260,
@@ -119842,10 +120036,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1130100,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -119874,6 +120069,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.49,
 			0.35,
@@ -120369,8 +120565,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1130103] = {
-		pos_x = "0.6375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
@@ -120379,7 +120574,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6375",
 		special_operation_list = "",
 		air_dominance = 400,
 		best_air_dominance = 520,
@@ -120398,10 +120593,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1130100,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -120430,6 +120626,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.61,
 			0.41,
@@ -120963,8 +121160,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1140001] = {
-		pos_x = "0.1625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -120973,7 +121169,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.1625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -120992,10 +121188,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1140001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -121024,6 +121221,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -121510,8 +121708,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1140003] = {
-		pos_x = "0.62109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -121520,7 +121717,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.62109375",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -121539,10 +121736,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1140001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -121571,6 +121769,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -122163,8 +122362,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1140004] = {
-		pos_x = "0.3813",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -122173,7 +122371,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.3813",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -122192,10 +122390,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1140001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -122224,6 +122423,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -122930,8 +123130,7 @@ function ()
 end()
 function ()
 	uv0.chapter_template[1140005] = {
-		pos_x = "0.228125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -122940,7 +123139,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.228125",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -122959,10 +123158,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1140002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -122991,6 +123191,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -123490,8 +123691,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1140007] = {
-		pos_x = "0.31640625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -123500,7 +123700,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.31640625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -123519,10 +123719,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1140002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -123551,6 +123752,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -124155,8 +124357,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1140008] = {
-		pos_x = "0.55625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -124165,7 +124366,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.55625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -124184,10 +124385,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1140002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -124216,6 +124418,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -124953,8 +125156,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1140011] = {
-		pos_x = "0.1625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -124963,7 +125165,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.1625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -124982,10 +125184,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1140011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -125014,6 +125217,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -125541,8 +125745,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1140013] = {
-		pos_x = "0.62109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -125551,7 +125754,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.62109375",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -125570,10 +125773,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1140011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -125602,6 +125806,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -126235,8 +126440,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1140014] = {
-		pos_x = "0.3813",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -126245,7 +126449,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.3813",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -126264,10 +126468,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1140011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -126296,6 +126501,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -127041,8 +127247,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1140015] = {
-		pos_x = "0.228125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -127051,7 +127256,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.228125",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -127070,10 +127275,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1140012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -127102,6 +127308,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -127644,8 +127851,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1140017] = {
-		pos_x = "0.31640625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -127654,7 +127860,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.31640625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -127673,10 +127879,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1140012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -127705,6 +127912,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -128352,8 +128560,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1140018] = {
-		pos_x = "0.55625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 17,
 		oil = 10,
 		is_limit_move = 1,
@@ -128362,7 +128569,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.55625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -128381,10 +128588,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1140012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -128413,6 +128621,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -129186,8 +129395,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1140021] = {
-		pos_x = "0.479",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
@@ -129196,7 +129404,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -129215,10 +129423,11 @@ function ()
 		model = 5,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 4,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1140021,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -129247,6 +129456,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -129573,8 +129783,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1150001] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -129583,7 +129792,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -129602,10 +129811,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1150001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -129634,6 +129844,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -130160,8 +130371,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1150002] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -130170,7 +130380,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -130189,10 +130399,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1150001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -130221,6 +130432,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.65,
 			0.36,
@@ -130808,8 +131020,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1150003] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -130818,7 +131029,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -130837,10 +131048,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1150001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -130869,6 +131081,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.64,
 			0.59,
@@ -131547,8 +131760,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1150004] = {
-		pos_x = "0.23125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -131557,7 +131769,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.23125",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -131576,10 +131788,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1150002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -131608,6 +131821,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.36,
@@ -132224,8 +132438,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1150005] = {
-		pos_x = "0.5390625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -132234,7 +132447,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5390625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -132253,10 +132466,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1150002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -132285,6 +132499,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.36,
@@ -133042,8 +133257,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1150006] = {
-		pos_x = "0.6140625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -133052,7 +133266,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6140625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -133071,10 +133285,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1150002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -133103,6 +133318,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.62,
@@ -134039,8 +134255,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1150011] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -134049,7 +134264,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -134068,10 +134283,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1150011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -134100,6 +134316,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -134667,8 +134884,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1150012] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -134677,7 +134893,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -134696,10 +134912,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1150011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -134728,6 +134945,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.65,
 			0.36,
@@ -135356,8 +135574,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1150013] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -135366,7 +135583,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -135385,10 +135602,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1150011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -135417,6 +135635,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.64,
 			0.59,
@@ -136136,8 +136355,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1150014] = {
-		pos_x = "0.23125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -136146,7 +136364,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.23125",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -136165,10 +136383,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1150012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -136197,6 +136416,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.36,
@@ -136854,8 +137074,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1150015] = {
-		pos_x = "0.5390625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -136864,7 +137083,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5390625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -136883,10 +137102,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1150012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -136915,6 +137135,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.36,
@@ -137713,8 +137934,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1150016] = {
-		pos_x = "0.6140625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -137723,7 +137943,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6140625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -137742,10 +137962,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1150012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -137774,6 +137995,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.62,
@@ -138751,8 +138973,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1150021] = {
-		pos_x = "0.479",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
@@ -138761,7 +138982,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -138780,10 +139001,11 @@ function ()
 		model = 5,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 4,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1150021,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -138812,6 +139034,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.62,
@@ -139267,8 +139490,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1170001] = {
-		pos_x = "0.20234375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
@@ -139277,7 +139499,7 @@ function ()
 		story_refresh_boss = "LONGXIANGHUODONG3",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.20234375",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -139296,10 +139518,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1170001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -139328,6 +139551,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -139804,8 +140028,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1170002] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
@@ -139814,7 +140037,7 @@ function ()
 		story_refresh_boss = "LONGXIANGHUODONG6",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -139833,10 +140056,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1170001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -139865,6 +140089,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.49,
 			0.35,
@@ -140399,8 +140624,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1170003] = {
-		pos_x = "0.6375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
@@ -140409,7 +140633,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6375",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -140428,10 +140652,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1170001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -140460,6 +140685,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.61,
 			0.41,
@@ -141033,8 +141259,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1180001] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -141043,7 +141268,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -141062,10 +141287,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1180001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -141094,6 +141320,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -141635,8 +141862,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1180002] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -141645,7 +141871,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -141664,10 +141890,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1180001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -141696,6 +141923,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -142208,8 +142436,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1180003] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -142218,7 +142445,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -142237,10 +142464,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1180001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -142269,6 +142497,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -142877,8 +143106,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1180004] = {
-		pos_x = "0.23125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -142887,7 +143115,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.23125",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -142906,10 +143134,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1180002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -142938,6 +143167,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -143547,8 +143777,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1180005] = {
-		pos_x = "0.5390625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -143557,7 +143786,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5390625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -143576,10 +143805,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1180002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -143608,6 +143838,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -144260,8 +144491,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1180006] = {
-		pos_x = "0.6140625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -144270,7 +144500,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6140625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -144289,10 +144519,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1180002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -144321,6 +144552,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -144947,8 +145179,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1180011] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -144957,7 +145188,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -144976,10 +145207,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1180011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -145008,6 +145240,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -145591,8 +145824,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1180012] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -145601,7 +145833,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -145620,10 +145852,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1180011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -145652,6 +145885,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -146206,8 +146440,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1180013] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -146216,7 +146449,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -146235,10 +146468,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1180011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -146267,6 +146501,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -146917,8 +147152,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1180014] = {
-		pos_x = "0.23125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -146927,7 +147161,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.23125",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -146946,10 +147180,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1180012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -146978,6 +147213,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -147629,8 +147865,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1180015] = {
-		pos_x = "0.5390625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -147639,7 +147874,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5390625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -147658,10 +147893,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1180012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -147690,6 +147926,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -148386,8 +148623,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1180016] = {
-		pos_x = "0.6140625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -148396,7 +148632,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6140625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -148415,10 +148651,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1180012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -148447,6 +148684,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -149117,8 +149355,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1180021] = {
-		pos_x = "0.479",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 0,
 		is_limit_move = 0,
@@ -149127,7 +149364,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -149146,10 +149383,11 @@ function ()
 		model = 5,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 4,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1180021,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -149178,6 +149416,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -149527,8 +149766,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1200001] = {
-		pos_x = "0.1625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -149537,7 +149775,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.1625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -149556,8 +149794,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 6,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1200100,
 		unlocklevel = 0,
@@ -149587,6 +149826,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.61,
 			0.41,
@@ -150117,8 +150357,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1200002] = {
-		pos_x = "0.2375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 1,
@@ -150127,7 +150366,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2375",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -150146,8 +150385,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1200100,
 		unlocklevel = 0,
@@ -150177,6 +150417,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -150856,8 +151097,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1200003] = {
-		pos_x = "0.62109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 1,
@@ -150866,7 +151106,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.62109375",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -150885,8 +151125,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1200100,
 		unlocklevel = 0,
@@ -150916,6 +151157,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.49,
 			0.35,
@@ -151611,8 +151853,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1200004] = {
-		pos_x = "0.68515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 1,
@@ -151621,7 +151862,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.68515625",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -151640,8 +151881,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1200100,
 		unlocklevel = 0,
@@ -151671,6 +151913,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.61,
 			0.41,
@@ -152358,8 +152601,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1210001] = {
-		pos_x = "0.19375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -152368,7 +152610,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.19375",
 		special_operation_list = "",
 		air_dominance = 95,
 		best_air_dominance = 150,
@@ -152387,10 +152629,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1210001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -152419,6 +152662,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -152960,8 +153204,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1210002] = {
-		pos_x = "0.2703125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -152970,7 +153213,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2703125",
 		special_operation_list = "",
 		air_dominance = 130,
 		best_air_dominance = 170,
@@ -152989,10 +153232,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1210001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -153021,6 +153265,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -153527,8 +153772,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1210003] = {
-		pos_x = "0.68984375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -153537,7 +153781,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.68984375",
 		special_operation_list = "",
 		air_dominance = 170,
 		best_air_dominance = 225,
@@ -153556,10 +153800,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1210001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -153588,6 +153833,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -154192,8 +154438,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1210004] = {
-		pos_x = "0.6109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -154202,7 +154447,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6109375",
 		special_operation_list = "",
 		air_dominance = 220,
 		best_air_dominance = 290,
@@ -154221,10 +154466,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1210001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -154253,6 +154499,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -154855,8 +155102,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1210005] = {
-		pos_x = "0.26015625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -154865,7 +155111,7 @@ function ()
 		story_refresh_boss = "YINGHUA11",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.26015625",
 		special_operation_list = "",
 		air_dominance = 285,
 		best_air_dominance = 375,
@@ -154884,10 +155130,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1210002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -154916,6 +155163,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -155569,8 +155817,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1210006] = {
-		pos_x = "0.6453125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -155579,7 +155826,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6453125",
 		special_operation_list = "",
 		air_dominance = 380,
 		best_air_dominance = 495,
@@ -155598,10 +155845,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1210002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -155630,6 +155878,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -156343,8 +156592,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1210011] = {
-		pos_x = "0.19375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -156353,7 +156601,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.19375",
 		special_operation_list = "",
 		air_dominance = 375,
 		best_air_dominance = 490,
@@ -156372,8 +156620,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1210011,
 		unlocklevel = 0,
@@ -156403,6 +156652,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -156987,8 +157237,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1210012] = {
-		pos_x = "0.2703125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -156997,7 +157246,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2703125",
 		special_operation_list = "",
 		air_dominance = 470,
 		best_air_dominance = 615,
@@ -157016,10 +157265,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1210011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -157048,6 +157298,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -157596,8 +157847,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1210013] = {
-		pos_x = "0.68984375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -157606,7 +157856,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.68984375",
 		special_operation_list = "",
 		air_dominance = 570,
 		best_air_dominance = 745,
@@ -157625,10 +157875,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1210011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -157657,6 +157908,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -158303,8 +158555,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1210014] = {
-		pos_x = "0.6109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -158313,7 +158564,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6109375",
 		special_operation_list = "",
 		air_dominance = 730,
 		best_air_dominance = 950,
@@ -158332,10 +158583,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1210011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -158364,6 +158616,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -159008,8 +159261,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1210015] = {
-		pos_x = "0.26015625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -159018,7 +159270,7 @@ function ()
 		story_refresh_boss = "YINGHUA11",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.26015625",
 		special_operation_list = "",
 		air_dominance = 915,
 		best_air_dominance = 1190,
@@ -159037,10 +159289,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1210012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -159069,6 +159322,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -159766,8 +160020,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1210016] = {
-		pos_x = "0.6453125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -159776,7 +160029,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6453125",
 		special_operation_list = "",
 		air_dominance = 1125,
 		best_air_dominance = 1465,
@@ -159795,10 +160048,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1210012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -159827,6 +160081,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -160584,8 +160839,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1210021] = {
-		pos_x = "0.48984375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 0,
 		is_limit_move = 0,
@@ -160594,7 +160848,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.48984375",
 		special_operation_list = "",
 		air_dominance = 1485,
 		best_air_dominance = 1935,
@@ -160613,10 +160867,11 @@ function ()
 		model = 5,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 4,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1210021,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -160645,6 +160900,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -160998,8 +161254,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1240001] = {
-		pos_x = "0.1625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -161008,7 +161263,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.1625",
 		special_operation_list = "",
 		air_dominance = 120,
 		best_air_dominance = 155,
@@ -161027,10 +161282,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1240001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -161059,6 +161315,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -161545,8 +161802,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1240003] = {
-		pos_x = "0.62109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -161555,7 +161811,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.62109375",
 		special_operation_list = "",
 		air_dominance = 165,
 		best_air_dominance = 215,
@@ -161574,10 +161830,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1240001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -161606,6 +161863,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -162198,8 +162456,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1240004] = {
-		pos_x = "0.3813",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -162208,7 +162465,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.3813",
 		special_operation_list = "",
 		air_dominance = 215,
 		best_air_dominance = 280,
@@ -162227,10 +162484,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1240001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -162259,6 +162517,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -162963,8 +163222,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1240005] = {
-		pos_x = "0.228125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -162973,7 +163231,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.228125",
 		special_operation_list = "",
 		air_dominance = 265,
 		best_air_dominance = 345,
@@ -162992,10 +163250,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1240002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -163024,6 +163283,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -163523,8 +163783,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1240007] = {
-		pos_x = "0.31640625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -163533,7 +163792,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.31640625",
 		special_operation_list = "",
 		air_dominance = 345,
 		best_air_dominance = 450,
@@ -163552,10 +163811,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1240002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -163584,6 +163844,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -164188,8 +164449,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1240008] = {
-		pos_x = "0.55625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -164198,7 +164458,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.55625",
 		special_operation_list = "",
 		air_dominance = 425,
 		best_air_dominance = 555,
@@ -164217,8 +164477,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1240002,
 		unlocklevel = 0,
@@ -164248,6 +164509,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -164980,8 +165242,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1240011] = {
-		pos_x = "0.1625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -164990,7 +165251,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.1625",
 		special_operation_list = "",
 		air_dominance = 425,
 		best_air_dominance = 550,
@@ -165009,10 +165270,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1240011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -165041,6 +165303,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -165568,8 +165831,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1240013] = {
-		pos_x = "0.62109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -165578,7 +165840,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.62109375",
 		special_operation_list = "",
 		air_dominance = 485,
 		best_air_dominance = 630,
@@ -165597,10 +165859,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1240011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -165629,6 +165892,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -166262,8 +166526,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1240014] = {
-		pos_x = "0.3813",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -166272,7 +166535,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.3813",
 		special_operation_list = "",
 		air_dominance = 545,
 		best_air_dominance = 710,
@@ -166291,10 +166554,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1240011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -166323,6 +166587,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -167068,8 +167333,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1240015] = {
-		pos_x = "0.228125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -167078,7 +167342,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.228125",
 		special_operation_list = "",
 		air_dominance = 650,
 		best_air_dominance = 845,
@@ -167097,10 +167361,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1240012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -167129,6 +167394,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -167671,8 +167937,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1240017] = {
-		pos_x = "0.31640625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -167681,7 +167946,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.31640625",
 		special_operation_list = "",
 		air_dominance = 770,
 		best_air_dominance = 1000,
@@ -167700,10 +167965,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1240012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -167732,6 +167998,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -168379,8 +168646,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1240018] = {
-		pos_x = "0.55625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 17,
 		oil = 10,
 		is_limit_move = 1,
@@ -168389,7 +168655,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.55625",
 		special_operation_list = "",
 		air_dominance = 905,
 		best_air_dominance = 1175,
@@ -168408,10 +168674,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1240012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -168440,6 +168707,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -169213,8 +169481,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1240019] = {
-		pos_x = "0.479",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -169223,7 +169490,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 1055,
 		best_air_dominance = 1370,
@@ -169242,8 +169509,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 8,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1240020,
 		unlocklevel = 0,
@@ -169273,6 +169541,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -169896,8 +170165,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1240021] = {
-		pos_x = "0.479",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
@@ -169906,7 +170174,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 620,
 		best_air_dominance = 810,
@@ -169925,10 +170193,11 @@ function ()
 		model = 5,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 4,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1240021,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -169957,6 +170226,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -170283,8 +170553,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1250031] = {
-		pos_x = "0",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 1,
@@ -170293,7 +170562,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -170312,8 +170581,9 @@ function ()
 		model = 3,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1250022,
 		unlocklevel = 0,
@@ -170343,6 +170613,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.338,
 			0.43,
@@ -170854,8 +171125,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1250032] = {
-		pos_x = "0",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 1,
@@ -170864,7 +171134,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -170883,8 +171153,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1250022,
 		unlocklevel = 0,
@@ -170914,6 +171185,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.338,
 			0.43,
@@ -171394,8 +171666,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1250033] = {
-		pos_x = "0",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 1,
@@ -171404,7 +171675,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -171423,8 +171694,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1250022,
 		unlocklevel = 0,
@@ -171454,6 +171726,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.338,
 			0.43,
@@ -171941,8 +172214,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1250034] = {
-		pos_x = "0",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 1,
@@ -171951,7 +172223,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -171970,8 +172242,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1250022,
 		unlocklevel = 0,
@@ -172001,6 +172274,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.338,
 			0.43,
@@ -172576,8 +172850,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1310001] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -172586,7 +172859,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
@@ -172605,8 +172878,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 10,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1310001,
 		unlocklevel = 0,
@@ -172636,6 +172910,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -173163,8 +173438,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1310002] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -173173,7 +173447,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 170,
 		best_air_dominance = 221,
@@ -173192,8 +173466,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1310001,
 		unlocklevel = 0,
@@ -173223,6 +173498,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -173735,8 +174011,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1310003] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -173745,7 +174020,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 280,
 		best_air_dominance = 364,
@@ -173764,8 +174039,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1310001,
 		unlocklevel = 0,
@@ -173795,6 +174071,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -174352,8 +174629,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1310004] = {
-		pos_x = "0.23125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -174362,7 +174638,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.23125",
 		special_operation_list = "",
 		air_dominance = 240,
 		best_air_dominance = 312,
@@ -174381,8 +174657,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1310002,
 		unlocklevel = 0,
@@ -174412,6 +174689,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -174982,8 +175260,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1310005] = {
-		pos_x = "0.5390625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -174992,7 +175269,7 @@ function ()
 		story_refresh_boss = "MAOZIHUODONG20",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5390625",
 		special_operation_list = "",
 		air_dominance = 380,
 		best_air_dominance = 494,
@@ -175011,8 +175288,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1310002,
 		unlocklevel = 0,
@@ -175042,6 +175320,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -175560,8 +175839,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1310006] = {
-		pos_x = "0.67109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -175570,7 +175848,7 @@ function ()
 		story_refresh_boss = "MAOZIHUODONG25",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67109375",
 		special_operation_list = "",
 		air_dominance = 370,
 		best_air_dominance = 481,
@@ -175589,8 +175867,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1310002,
 		unlocklevel = 0,
@@ -175620,6 +175899,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -176201,8 +176481,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1310021] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -176211,7 +176490,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 780,
 		best_air_dominance = 1014,
@@ -176230,8 +176509,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1310011,
 		unlocklevel = 0,
@@ -176261,6 +176541,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -176831,8 +177112,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1310022] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -176841,7 +177121,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 920,
 		best_air_dominance = 1196,
@@ -176860,8 +177140,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1310011,
 		unlocklevel = 0,
@@ -176891,6 +177172,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -177446,8 +177728,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1310023] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -177456,7 +177737,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 1140,
 		best_air_dominance = 1482,
@@ -177475,8 +177756,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 21,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1310011,
 		unlocklevel = 0,
@@ -177506,6 +177788,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -178105,8 +178388,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1310024] = {
-		pos_x = "0.14609375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -178115,7 +178397,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.14609375",
 		special_operation_list = "",
 		air_dominance = 1090,
 		best_air_dominance = 1417,
@@ -178134,8 +178416,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1310012,
 		unlocklevel = 0,
@@ -178165,6 +178448,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -178777,8 +179061,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1310025] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -178787,7 +179070,7 @@ function ()
 		story_refresh_boss = "MAOZIHUODONG20",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 1510,
 		best_air_dominance = 1963,
@@ -178806,8 +179089,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1310012,
 		unlocklevel = 0,
@@ -178837,6 +179121,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -179399,8 +179684,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1310026] = {
-		pos_x = "0.67109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -179409,7 +179693,7 @@ function ()
 		story_refresh_boss = "MAOZIHUODONG25",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67109375",
 		special_operation_list = "",
 		air_dominance = 1480,
 		best_air_dominance = 1924,
@@ -179428,8 +179712,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1310012,
 		unlocklevel = 0,
@@ -179459,6 +179744,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -180084,8 +180370,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1310041] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -180094,7 +180379,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 1980,
 		best_air_dominance = 2574,
@@ -180113,8 +180398,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1310025,
 		unlocklevel = 0,
@@ -180144,6 +180430,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -180762,8 +181049,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1310051] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
@@ -180772,7 +181058,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 620,
 		best_air_dominance = 810,
@@ -180791,8 +181077,9 @@ function ()
 		model = 5,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 0,
 		map = 1310026,
 		unlocklevel = 0,
@@ -180822,6 +181109,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -181191,8 +181479,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1320001] = {
-		pos_x = "0.20234375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
@@ -181201,7 +181488,7 @@ function ()
 		story_refresh_boss = "LONGXIANGHUODONG3",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.20234375",
 		special_operation_list = "",
 		air_dominance = 150,
 		best_air_dominance = 195,
@@ -181220,10 +181507,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1320001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -181252,6 +181540,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -181724,8 +182013,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1320002] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
@@ -181734,7 +182022,7 @@ function ()
 		story_refresh_boss = "LONGXIANGHUODONG6",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 260,
 		best_air_dominance = 338,
@@ -181753,10 +182041,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1320001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -181785,6 +182074,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.49,
 			0.35,
@@ -182315,8 +182605,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1320003] = {
-		pos_x = "0.6375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
@@ -182325,7 +182614,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6375",
 		special_operation_list = "",
 		air_dominance = 600,
 		best_air_dominance = 780,
@@ -182344,10 +182633,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 1320001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -182376,6 +182666,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.61,
 			0.41,
@@ -182945,8 +183236,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1330001] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -182955,7 +183245,7 @@ function ()
 		story_refresh_boss = "WEICENGHUNHE5",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
@@ -182974,8 +183264,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 10,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1330001,
 		unlocklevel = 0,
@@ -183004,6 +183295,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -183495,8 +183787,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1330002] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -183505,7 +183796,7 @@ function ()
 		story_refresh_boss = "WEICENGHUNHE9",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 170,
 		best_air_dominance = 221,
@@ -183524,8 +183815,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1330001,
 		unlocklevel = 0,
@@ -183554,6 +183846,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -184073,8 +184366,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1330003] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -184083,7 +184375,7 @@ function ()
 		story_refresh_boss = "WEICENGHUNHE14",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 280,
 		best_air_dominance = 364,
@@ -184102,8 +184394,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1330001,
 		unlocklevel = 0,
@@ -184132,6 +184425,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -184671,8 +184965,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1330004] = {
-		pos_x = "0.23125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -184681,7 +184974,7 @@ function ()
 		story_refresh_boss = "WEICENGHUNHE20",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.23125",
 		special_operation_list = "",
 		air_dominance = 240,
 		best_air_dominance = 312,
@@ -184700,8 +184993,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1330002,
 		unlocklevel = 0,
@@ -184730,6 +185024,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -185306,8 +185601,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1330005] = {
-		pos_x = "0.5390625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -185316,7 +185610,7 @@ function ()
 		story_refresh_boss = "WEICENGHUNHE25",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5390625",
 		special_operation_list = "",
 		air_dominance = 380,
 		best_air_dominance = 494,
@@ -185335,8 +185629,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1330002,
 		unlocklevel = 0,
@@ -185365,6 +185660,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -185931,8 +186227,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1330006] = {
-		pos_x = "0.67109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -185941,7 +186236,7 @@ function ()
 		story_refresh_boss = "WEICENGHUNHE29",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67109375",
 		special_operation_list = "",
 		air_dominance = 370,
 		best_air_dominance = 481,
@@ -185960,8 +186255,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1330002,
 		unlocklevel = 0,
@@ -185990,6 +186286,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -186628,8 +186925,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1330021] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -186638,7 +186934,7 @@ function ()
 		story_refresh_boss = "WEICENGHUNHE5",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 780,
 		best_air_dominance = 1014,
@@ -186657,8 +186953,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1330011,
 		unlocklevel = 0,
@@ -186687,6 +186984,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -187220,8 +187518,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1330022] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -187230,7 +187527,7 @@ function ()
 		story_refresh_boss = "WEICENGHUNHE9",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 920,
 		best_air_dominance = 1196,
@@ -187249,8 +187546,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1330011,
 		unlocklevel = 0,
@@ -187279,6 +187577,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -187840,8 +188139,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1330023] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -187850,7 +188148,7 @@ function ()
 		story_refresh_boss = "WEICENGHUNHE14",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 1140,
 		best_air_dominance = 1482,
@@ -187869,8 +188167,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 21,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1330011,
 		unlocklevel = 0,
@@ -187899,6 +188198,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -188483,8 +188783,7 @@ function ()
 end()
 function ()
 	uv0.chapter_template[1330024] = {
-		pos_x = "0.14609375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -188493,7 +188792,7 @@ function ()
 		story_refresh_boss = "WEICENGHUNHE20",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.14609375",
 		special_operation_list = "",
 		air_dominance = 1090,
 		best_air_dominance = 1417,
@@ -188512,8 +188811,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1330012,
 		unlocklevel = 0,
@@ -188542,6 +188842,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -189160,8 +189461,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1330025] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -189170,7 +189470,7 @@ function ()
 		story_refresh_boss = "WEICENGHUNHE25",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 1510,
 		best_air_dominance = 1963,
@@ -189189,8 +189489,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1330012,
 		unlocklevel = 0,
@@ -189219,6 +189520,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -189829,8 +190131,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1330026] = {
-		pos_x = "0.67109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -189839,7 +190140,7 @@ function ()
 		story_refresh_boss = "WEICENGHUNHE29",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67109375",
 		special_operation_list = "",
 		air_dominance = 1480,
 		best_air_dominance = 1924,
@@ -189858,8 +190159,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1330012,
 		unlocklevel = 0,
@@ -189888,6 +190190,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -190570,8 +190873,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1330041] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -190580,7 +190882,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 1980,
 		best_air_dominance = 2574,
@@ -190599,8 +190901,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1330025,
 		unlocklevel = 0,
@@ -190629,6 +190932,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -191172,8 +191476,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1330051] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
@@ -191182,7 +191485,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 620,
 		best_air_dominance = 810,
@@ -191201,8 +191504,9 @@ function ()
 		model = 5,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 0,
 		map = 1330026,
 		unlocklevel = 0,
@@ -191231,6 +191535,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -191609,8 +191914,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1340001] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -191619,7 +191923,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 95,
 		best_air_dominance = 150,
@@ -191638,10 +191942,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 10,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1340001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -191670,6 +191975,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -192206,8 +192512,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1340002] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -192216,7 +192521,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 130,
 		best_air_dominance = 170,
@@ -192235,10 +192540,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1340001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -192267,6 +192573,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -192774,8 +193081,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1340003] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -192784,7 +193090,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 170,
 		best_air_dominance = 225,
@@ -192803,10 +193109,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1340001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -192835,6 +193142,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -193438,8 +193746,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1340004] = {
-		pos_x = "0.23125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -193448,7 +193755,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.23125",
 		special_operation_list = "",
 		air_dominance = 220,
 		best_air_dominance = 290,
@@ -193467,10 +193774,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1340002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -193499,6 +193807,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -194104,8 +194413,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1340005] = {
-		pos_x = "0.5390625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -194114,7 +194422,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5390625",
 		special_operation_list = "",
 		air_dominance = 300,
 		best_air_dominance = 390,
@@ -194133,10 +194441,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1340002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -194165,6 +194474,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -194813,8 +195123,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1340006] = {
-		pos_x = "0.6140625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -194823,7 +195132,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6140625",
 		special_operation_list = "",
 		air_dominance = 380,
 		best_air_dominance = 495,
@@ -194842,10 +195151,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1340002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -194874,6 +195184,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -195496,8 +195807,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1340011] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -195506,7 +195816,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 375,
 		best_air_dominance = 490,
@@ -195525,10 +195835,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 17,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1340011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -195557,6 +195868,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -196135,8 +196447,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1340012] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -196145,7 +196456,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 470,
 		best_air_dominance = 615,
@@ -196164,10 +196475,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 17,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1340011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -196196,6 +196508,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -196745,8 +197058,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1340013] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -196755,7 +197067,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 570,
 		best_air_dominance = 745,
@@ -196774,10 +197086,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 21,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1340011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -196806,6 +197119,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -197451,8 +197765,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1340014] = {
-		pos_x = "0.23125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -197461,7 +197774,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.23125",
 		special_operation_list = "",
 		air_dominance = 730,
 		best_air_dominance = 950,
@@ -197480,10 +197793,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1340012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -197512,6 +197826,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -198159,8 +198474,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1340015] = {
-		pos_x = "0.5390625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -198169,7 +198483,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5390625",
 		special_operation_list = "",
 		air_dominance = 930,
 		best_air_dominance = 1210,
@@ -198188,10 +198502,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1340012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -198220,6 +198535,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -198912,8 +199228,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1340016] = {
-		pos_x = "0.6140625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -198922,7 +199237,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6140625",
 		special_operation_list = "",
 		air_dominance = 1125,
 		best_air_dominance = 1465,
@@ -198941,10 +199256,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1340012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -198973,6 +199289,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -199639,8 +199956,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1340021] = {
-		pos_x = "0.479",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 1,
@@ -199649,7 +199965,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 620,
 		best_air_dominance = 810,
@@ -199668,10 +199984,11 @@ function ()
 		model = 5,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 4,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 1340021,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -199700,6 +200017,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -200049,8 +200367,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1350001] = {
-		pos_x = "0.20234375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -200059,7 +200376,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.20234375",
 		special_operation_list = "",
 		air_dominance = 150,
 		best_air_dominance = 195,
@@ -200078,8 +200395,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 0,
 		map = 1350001,
 		unlocklevel = 0,
@@ -200109,6 +200427,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -200661,8 +200980,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1350002] = {
-		pos_x = "0.42203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -200671,7 +200989,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.42203125",
 		special_operation_list = "",
 		air_dominance = 300,
 		best_air_dominance = 390,
@@ -200690,8 +201008,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 0,
 		map = 1350001,
 		unlocklevel = 0,
@@ -200721,6 +201040,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.49,
 			0.35,
@@ -201333,8 +201653,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1350003] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -201343,7 +201662,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 700,
 		best_air_dominance = 910,
@@ -201362,8 +201681,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 0,
 		map = 1350001,
 		unlocklevel = 0,
@@ -201393,6 +201713,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.61,
 			0.41,
@@ -202002,8 +202323,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1360001] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -202012,7 +202332,7 @@ function ()
 		story_refresh_boss = "SHENGYONGQU4",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
@@ -202030,8 +202350,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 10,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1360001,
 		unlocklevel = 0,
@@ -202061,6 +202382,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -202583,8 +202905,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1360002] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -202593,7 +202914,7 @@ function ()
 		story_refresh_boss = "SHENGYONGQU9",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 220,
 		best_air_dominance = 285,
@@ -202611,8 +202932,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1360001,
 		unlocklevel = 0,
@@ -202642,6 +202964,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -203195,8 +203518,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1360003] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -203205,7 +203527,7 @@ function ()
 		story_refresh_boss = "SHENGYONGQU12",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 210,
 		best_air_dominance = 275,
@@ -203223,8 +203545,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1360001,
 		unlocklevel = 0,
@@ -203254,6 +203577,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -203900,8 +204224,7 @@ function ()
 		}
 	}
 	uv0.chapter_template[1360004] = {
-		pos_x = "0.23125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -203910,7 +204233,7 @@ function ()
 		story_refresh_boss = "SHENGYONGQU17",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.23125",
 		special_operation_list = "",
 		air_dominance = 240,
 		best_air_dominance = 310,
@@ -203928,8 +204251,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1360002,
 		unlocklevel = 0,
@@ -203959,6 +204283,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -204595,8 +204920,7 @@ function ()
 		}
 	}
 	uv0.chapter_template[1360005] = {
-		pos_x = "0.5390625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -204605,7 +204929,7 @@ function ()
 		story_refresh_boss = "SHENGYONGQU22",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5390625",
 		special_operation_list = "",
 		air_dominance = 310,
 		best_air_dominance = 405,
@@ -204623,8 +204947,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1360002,
 		unlocklevel = 0,
@@ -204654,6 +204979,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -205608,8 +205934,7 @@ function ()
 		}
 	}
 	uv0.chapter_template[1360006] = {
-		pos_x = "0.67109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -205618,7 +205943,7 @@ function ()
 		story_refresh_boss = "SHENGYONGQU27",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67109375",
 		special_operation_list = "",
 		air_dominance = 370,
 		best_air_dominance = 480,
@@ -205636,8 +205961,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1360002,
 		unlocklevel = 0,
@@ -205667,6 +205993,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -207373,8 +207700,7 @@ function ()
 		}
 	}
 	uv0.chapter_template[1360021] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -207383,7 +207709,7 @@ function ()
 		story_refresh_boss = "SHENGYONGQU4",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 780,
 		best_air_dominance = 1015,
@@ -207401,8 +207727,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1360011,
 		unlocklevel = 0,
@@ -207432,6 +207759,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -207996,8 +208324,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1360022] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -208006,7 +208333,7 @@ function ()
 		story_refresh_boss = "SHENGYONGQU9",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 1210,
 		best_air_dominance = 1575,
@@ -208024,8 +208351,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1360011,
 		unlocklevel = 0,
@@ -208055,6 +208383,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -208650,8 +208979,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1360023] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -208660,7 +208988,7 @@ function ()
 		story_refresh_boss = "SHENGYONGQU12",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 1140,
 		best_air_dominance = 1480,
@@ -208678,8 +209006,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 21,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1360011,
 		unlocklevel = 0,
@@ -208709,6 +209038,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -209398,8 +209728,7 @@ function ()
 		}
 	}
 	uv0.chapter_template[1360024] = {
-		pos_x = "0.14609375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -209408,7 +209737,7 @@ function ()
 		story_refresh_boss = "SHENGYONGQU17",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.14609375",
 		special_operation_list = "",
 		air_dominance = 1090,
 		best_air_dominance = 1420,
@@ -209426,8 +209755,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1360012,
 		unlocklevel = 0,
@@ -209457,6 +209787,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -210134,8 +210465,7 @@ function ()
 		}
 	}
 	uv0.chapter_template[1360025] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -210144,7 +210474,7 @@ function ()
 		story_refresh_boss = "SHENGYONGQU22",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 1310,
 		best_air_dominance = 1700,
@@ -210162,8 +210492,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1360012,
 		unlocklevel = 0,
@@ -210193,6 +210524,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -211190,8 +211522,7 @@ function ()
 		}
 	}
 	uv0.chapter_template[1360026] = {
-		pos_x = "0.67109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -211200,7 +211531,7 @@ function ()
 		story_refresh_boss = "SHENGYONGQU27",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67109375",
 		special_operation_list = "",
 		air_dominance = 1550,
 		best_air_dominance = 2015,
@@ -211218,8 +211549,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1360012,
 		unlocklevel = 0,
@@ -211249,6 +211581,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -212998,8 +213331,7 @@ function ()
 		}
 	}
 	uv0.chapter_template[1360041] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -213008,7 +213340,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 1980,
 		best_air_dominance = 2575,
@@ -213026,8 +213358,9 @@ function ()
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1360025,
 		unlocklevel = 0,
@@ -213057,6 +213390,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -214306,8 +214640,7 @@ function ()
 		}
 	}
 	uv0.chapter_template[1360051] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
@@ -214316,7 +214649,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 620,
 		best_air_dominance = 810,
@@ -214334,8 +214667,9 @@ function ()
 		num_1 = 0,
 		model = 5,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 0,
 		map = 1360026,
 		unlocklevel = 0,
@@ -214365,6 +214699,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -214730,8 +215065,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1370001] = {
-		pos_x = "0.2375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -214740,7 +215074,7 @@ function ()
 		story_refresh_boss = "XIAWANJIANDEFANJI2",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2375",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
@@ -214758,8 +215092,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1370001,
 		unlocklevel = 0,
@@ -214789,6 +215124,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -215475,8 +215811,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1370002] = {
-		pos_x = "0.62109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -215485,7 +215820,7 @@ function ()
 		story_refresh_boss = "XIAWANJIANDEFANJI6",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.62109375",
 		special_operation_list = "",
 		air_dominance = 200,
 		best_air_dominance = 260,
@@ -215503,8 +215838,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1370001,
 		unlocklevel = 0,
@@ -215534,6 +215870,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.49,
 			0.35,
@@ -216227,8 +216564,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1370003] = {
-		pos_x = "0.68515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -216237,7 +216573,7 @@ function ()
 		story_refresh_boss = "XIAWANJIANDEFANJI10",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.68515625",
 		special_operation_list = "",
 		air_dominance = 400,
 		best_air_dominance = 520,
@@ -216255,8 +216591,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1370001,
 		unlocklevel = 0,
@@ -216286,6 +216623,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.61,
 			0.41,
@@ -216976,8 +217314,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1380001] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -216986,7 +217323,7 @@ function ()
 		story_refresh_boss = "YONGYEHUANGUANG4",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 120,
 		best_air_dominance = 160,
@@ -217004,8 +217341,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 23,
-		ammo_submarine = 0,
 		num_2 = 10,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1380001,
 		unlocklevel = 0,
@@ -217035,6 +217373,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 102,
 		scale = {
 			0.34,
 			0.53,
@@ -217658,8 +217997,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1380002] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -217668,7 +218006,7 @@ function ()
 		story_refresh_boss = "YONGYEHUANGUANG11",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 190,
 		best_air_dominance = 250,
@@ -217686,8 +218024,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 24,
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1380001,
 		unlocklevel = 0,
@@ -217717,6 +218056,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 106,
 		scale = {
 			0.34,
 			0.53,
@@ -218325,8 +218665,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1380003] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -218335,7 +218674,7 @@ function ()
 		story_refresh_boss = "YONGYEHUANGUANG16",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 235,
 		best_air_dominance = 310,
@@ -218353,8 +218692,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 24,
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1380001,
 		unlocklevel = 0,
@@ -218384,6 +218724,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 106,
 		scale = {
 			0.34,
 			0.53,
@@ -219010,8 +219351,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1380004] = {
-		pos_x = "0.23125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -219020,7 +219360,7 @@ function ()
 		story_refresh_boss = "YONGYEHUANGUANG23",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.23125",
 		special_operation_list = "",
 		air_dominance = 260,
 		best_air_dominance = 340,
@@ -219038,8 +219378,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1380002,
 		unlocklevel = 0,
@@ -219069,6 +219410,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -219754,8 +220096,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1380005] = {
-		pos_x = "0.5390625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -219764,7 +220105,7 @@ function ()
 		story_refresh_boss = "YONGYEHUANGUANG28",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5390625",
 		special_operation_list = "",
 		air_dominance = 330,
 		best_air_dominance = 430,
@@ -219782,8 +220123,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1380002,
 		unlocklevel = 0,
@@ -219813,6 +220155,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -220523,8 +220866,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1380006] = {
-		pos_x = "0.67109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -220533,7 +220875,7 @@ function ()
 		story_refresh_boss = "YONGYEHUANGUANG32",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67109375",
 		special_operation_list = "",
 		air_dominance = 395,
 		best_air_dominance = 515,
@@ -220551,8 +220893,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1380002,
 		unlocklevel = 0,
@@ -220582,6 +220925,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -221389,8 +221733,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1380021] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -221399,7 +221742,7 @@ function ()
 		story_refresh_boss = "YONGYEHUANGUANG4",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 605,
 		best_air_dominance = 790,
@@ -221417,8 +221760,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1380011,
 		unlocklevel = 0,
@@ -221448,6 +221792,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -222110,8 +222455,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1380022] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -222120,7 +222464,7 @@ function ()
 		story_refresh_boss = "YONGYEHUANGUANG11",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 970,
 		best_air_dominance = 1265,
@@ -222138,8 +222482,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1380011,
 		unlocklevel = 0,
@@ -222169,6 +222514,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -222816,8 +223162,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1380023] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -222826,7 +223171,7 @@ function ()
 		story_refresh_boss = "YONGYEHUANGUANG16",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 1190,
 		best_air_dominance = 1550,
@@ -222844,8 +223189,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 21,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1380011,
 		unlocklevel = 0,
@@ -222875,6 +223221,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -223540,8 +223887,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1380024] = {
-		pos_x = "0.14609375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -223550,7 +223896,7 @@ function ()
 		story_refresh_boss = "YONGYEHUANGUANG23",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.14609375",
 		special_operation_list = "",
 		air_dominance = 1140,
 		best_air_dominance = 1485,
@@ -223568,8 +223914,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1380012,
 		unlocklevel = 0,
@@ -223599,6 +223946,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -224324,8 +224672,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1380025] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -224334,7 +224681,7 @@ function ()
 		story_refresh_boss = "YONGYEHUANGUANG28",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 1360,
 		best_air_dominance = 1770,
@@ -224352,8 +224699,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1380012,
 		unlocklevel = 0,
@@ -224383,6 +224731,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -225135,8 +225484,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1380026] = {
-		pos_x = "0.67109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -225145,7 +225493,7 @@ function ()
 		story_refresh_boss = "YONGYEHUANGUANG32",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67109375",
 		special_operation_list = "",
 		air_dominance = 1595,
 		best_air_dominance = 2075,
@@ -225163,8 +225511,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1380012,
 		unlocklevel = 0,
@@ -225194,6 +225543,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -226044,8 +226394,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1380041] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -226054,7 +226403,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 2030,
 		best_air_dominance = 2640,
@@ -226072,8 +226421,9 @@ function ()
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1380025,
 		unlocklevel = 0,
@@ -226103,6 +226453,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -227189,8 +227540,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1380051] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
@@ -227199,7 +227549,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 620,
 		best_air_dominance = 810,
@@ -227217,8 +227567,9 @@ function ()
 		num_1 = 0,
 		model = 5,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 0,
 		map = 1380026,
 		unlocklevel = 0,
@@ -227248,6 +227599,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -227627,8 +227979,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1390001] = {
-		pos_x = "0.2953125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -227637,7 +227988,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2953125",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 130,
@@ -227656,8 +228007,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1390001,
 		unlocklevel = 0,
@@ -227687,6 +228039,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -228199,8 +228552,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1390002] = {
-		pos_x = "0.44375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -228209,7 +228561,7 @@ function ()
 		story_refresh_boss = "ZUIZHENGUIDEBAOWU4",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.44375",
 		special_operation_list = "",
 		air_dominance = 200,
 		best_air_dominance = 260,
@@ -228228,8 +228580,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1390001,
 		unlocklevel = 0,
@@ -228259,6 +228612,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.49,
 			0.35,
@@ -228872,8 +229226,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1390003] = {
-		pos_x = "0.7046875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -228882,7 +229235,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.7046875",
 		special_operation_list = "",
 		air_dominance = 400,
 		best_air_dominance = 520,
@@ -228901,8 +229254,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1390001,
 		unlocklevel = 0,
@@ -228932,6 +229286,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.61,
 			0.41,
@@ -229511,8 +229866,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1400001] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -229521,7 +229875,7 @@ function ()
 		story_refresh_boss = "TIEXUEYUYINFU3",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
@@ -229539,8 +229893,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 10,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1400001,
 		unlocklevel = 0,
@@ -229570,6 +229925,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -230078,8 +230434,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1400002] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -230088,7 +230443,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 130,
 		best_air_dominance = 170,
@@ -230106,8 +230461,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1400001,
 		unlocklevel = 0,
@@ -230137,6 +230493,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -230647,8 +231004,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1400003] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -230657,7 +231013,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 165,
 		best_air_dominance = 215,
@@ -230675,8 +231031,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1400001,
 		unlocklevel = 0,
@@ -230706,6 +231063,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -231301,8 +231659,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1400004] = {
-		pos_x = "0.23125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -231311,7 +231668,7 @@ function ()
 		story_refresh_boss = "TIEXUEYUYINFU12",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.23125",
 		special_operation_list = "",
 		air_dominance = 210,
 		best_air_dominance = 275,
@@ -231329,8 +231686,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1400002,
 		unlocklevel = 0,
@@ -231360,6 +231718,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -231965,8 +232324,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1400005] = {
-		pos_x = "0.5390625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -231975,7 +232333,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5390625",
 		special_operation_list = "",
 		air_dominance = 270,
 		best_air_dominance = 355,
@@ -231993,8 +232351,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1400002,
 		unlocklevel = 0,
@@ -232024,6 +232383,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -232672,8 +233032,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1400006] = {
-		pos_x = "0.6140625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -232682,7 +233041,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6140625",
 		special_operation_list = "",
 		air_dominance = 330,
 		best_air_dominance = 430,
@@ -232700,8 +233059,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1400002,
 		unlocklevel = 0,
@@ -232731,6 +233091,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -233351,8 +233712,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1400011] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -233361,7 +233721,7 @@ function ()
 		story_refresh_boss = "TIEXUEYUYINFU3",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 555,
 		best_air_dominance = 725,
@@ -233379,8 +233739,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1400011,
 		unlocklevel = 0,
@@ -233410,6 +233771,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -233960,8 +234322,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1400012] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -233970,7 +234331,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 705,
 		best_air_dominance = 920,
@@ -233988,8 +234349,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1400011,
 		unlocklevel = 0,
@@ -234019,6 +234381,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -234571,8 +234934,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1400013] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -234581,7 +234943,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 875,
 		best_air_dominance = 1140,
@@ -234599,8 +234961,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 21,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1400011,
 		unlocklevel = 0,
@@ -234630,6 +234993,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -235267,8 +235631,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1400014] = {
-		pos_x = "0.14609375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -235277,7 +235640,7 @@ function ()
 		story_refresh_boss = "TIEXUEYUYINFU12",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.14609375",
 		special_operation_list = "",
 		air_dominance = 950,
 		best_air_dominance = 1235,
@@ -235295,8 +235658,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1400012,
 		unlocklevel = 0,
@@ -235326,6 +235690,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -235973,8 +236338,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1400015] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -235983,7 +236347,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 1155,
 		best_air_dominance = 1505,
@@ -236001,8 +236365,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1400012,
 		unlocklevel = 0,
@@ -236032,6 +236397,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -236724,8 +237090,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1400016] = {
-		pos_x = "0.6046875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -236734,7 +237099,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6046875",
 		special_operation_list = "",
 		air_dominance = 1345,
 		best_air_dominance = 1750,
@@ -236752,8 +237117,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1400012,
 		unlocklevel = 0,
@@ -236783,6 +237149,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -237447,8 +237814,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1400017] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -237457,7 +237823,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 1770,
 		best_air_dominance = 2305,
@@ -237475,8 +237841,9 @@ function ()
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1400020,
 		unlocklevel = 0,
@@ -237506,6 +237873,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -238118,8 +238486,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1400021] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 1,
@@ -238128,7 +238495,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 620,
 		best_air_dominance = 810,
@@ -238146,8 +238513,9 @@ function ()
 		num_1 = 0,
 		model = 5,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1400021,
 		unlocklevel = 0,
@@ -238177,6 +238545,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -238521,8 +238890,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1410001] = {
-		pos_x = "0.18",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -238531,7 +238899,7 @@ function ()
 		story_refresh_boss = "DIEHAIMENGHUA7",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.18",
 		special_operation_list = "",
 		air_dominance = 95,
 		best_air_dominance = 150,
@@ -238549,8 +238917,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 10,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1410001,
 		unlocklevel = 0,
@@ -238580,6 +238949,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -239307,8 +239677,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1410002] = {
-		pos_x = "0.18",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -239317,7 +239686,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.18",
 		special_operation_list = "",
 		air_dominance = 130,
 		best_air_dominance = 170,
@@ -239335,8 +239704,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1410002,
 		unlocklevel = 0,
@@ -239366,6 +239736,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -239975,8 +240346,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1410003] = {
-		pos_x = "0.18",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -239985,7 +240355,7 @@ function ()
 		story_refresh_boss = "DIEHAIMENGHUA17",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.18",
 		special_operation_list = "",
 		air_dominance = 170,
 		best_air_dominance = 225,
@@ -240003,8 +240373,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1410002,
 		unlocklevel = 0,
@@ -240034,6 +240405,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -240823,8 +241195,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1410004] = {
-		pos_x = "0.69",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -240833,7 +241204,7 @@ function ()
 		story_refresh_boss = "DIEHAIMENGHUA23",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.69",
 		special_operation_list = "",
 		air_dominance = 220,
 		best_air_dominance = 290,
@@ -240851,8 +241222,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1410002,
 		unlocklevel = 0,
@@ -240882,6 +241254,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -241828,8 +242201,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1410005] = {
-		pos_x = "0.69",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -241838,7 +242210,7 @@ function ()
 		story_refresh_boss = "DIEHAIMENGHUA32",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.69",
 		special_operation_list = "",
 		air_dominance = 300,
 		best_air_dominance = 390,
@@ -241856,8 +242228,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1410002,
 		unlocklevel = 0,
@@ -241887,6 +242260,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -242737,8 +243111,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1410006] = {
-		pos_x = "0.69",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -242747,7 +243120,7 @@ function ()
 		story_refresh_boss = "DIEHAIMENGHUA37",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.69",
 		special_operation_list = "",
 		air_dominance = 380,
 		best_air_dominance = 495,
@@ -242765,8 +243138,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1410001,
 		unlocklevel = 0,
@@ -242796,6 +243170,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -243758,8 +244133,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1410007] = {
-		pos_x = "0.18",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
@@ -243768,7 +244142,7 @@ function ()
 		story_refresh_boss = "DIEHAIMENGHUA4",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.18",
 		special_operation_list = "",
 		air_dominance = 95,
 		best_air_dominance = 150,
@@ -243786,8 +244160,9 @@ function ()
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1410001,
 		unlocklevel = 0,
@@ -243817,6 +244192,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -244282,8 +244658,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1410008] = {
-		pos_x = "0.69",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
@@ -244292,7 +244667,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.69",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -244310,8 +244685,9 @@ function ()
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1410002,
 		unlocklevel = 0,
@@ -244341,6 +244717,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_tuoli",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -244928,8 +245305,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1410021] = {
-		pos_x = "0.18",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -244938,7 +245314,7 @@ function ()
 		story_refresh_boss = "DIEHAIMENGHUA7",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.18",
 		special_operation_list = "",
 		air_dominance = 375,
 		best_air_dominance = 490,
@@ -244956,8 +245332,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1410011,
 		unlocklevel = 0,
@@ -244987,6 +245364,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -245755,8 +246133,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1410022] = {
-		pos_x = "0.18",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -245765,7 +246142,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.18",
 		special_operation_list = "",
 		air_dominance = 470,
 		best_air_dominance = 615,
@@ -245783,8 +246160,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1410012,
 		unlocklevel = 0,
@@ -245814,6 +246192,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -246465,8 +246844,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1410023] = {
-		pos_x = "0.18",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -246475,7 +246853,7 @@ function ()
 		story_refresh_boss = "DIEHAIMENGHUA17",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.18",
 		special_operation_list = "",
 		air_dominance = 570,
 		best_air_dominance = 745,
@@ -246493,8 +246871,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 24,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1410012,
 		unlocklevel = 0,
@@ -246524,6 +246903,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -247355,8 +247735,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1410024] = {
-		pos_x = "0.69",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -247365,7 +247744,7 @@ function ()
 		story_refresh_boss = "DIEHAIMENGHUA23",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.69",
 		special_operation_list = "",
 		air_dominance = 730,
 		best_air_dominance = 950,
@@ -247383,8 +247762,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1410012,
 		unlocklevel = 0,
@@ -247414,6 +247794,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -248401,8 +248782,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1410025] = {
-		pos_x = "0.69",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -248411,7 +248791,7 @@ function ()
 		story_refresh_boss = "DIEHAIMENGHUA32",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.69",
 		special_operation_list = "",
 		air_dominance = 930,
 		best_air_dominance = 1210,
@@ -248429,8 +248809,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1410012,
 		unlocklevel = 0,
@@ -248460,6 +248841,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -249353,8 +249735,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1410026] = {
-		pos_x = "0.69",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -249363,7 +249744,7 @@ function ()
 		story_refresh_boss = "DIEHAIMENGHUA37",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.69",
 		special_operation_list = "",
 		air_dominance = 1125,
 		best_air_dominance = 1465,
@@ -249381,8 +249762,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1410011,
 		unlocklevel = 0,
@@ -249412,6 +249794,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -250418,8 +250801,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1410027] = {
-		pos_x = "0.18",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
@@ -250428,7 +250810,7 @@ function ()
 		story_refresh_boss = "DIEHAIMENGHUA4",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.18",
 		special_operation_list = "",
 		air_dominance = 375,
 		best_air_dominance = 490,
@@ -250446,8 +250828,9 @@ function ()
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1410011,
 		unlocklevel = 0,
@@ -250477,6 +250860,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -250942,8 +251326,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1410028] = {
-		pos_x = "0.69",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
@@ -250952,7 +251335,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.69",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -250970,8 +251353,9 @@ function ()
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1410012,
 		unlocklevel = 0,
@@ -251001,6 +251385,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_tuoli",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -251588,8 +251973,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1410041] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
@@ -251598,7 +251982,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 1770,
 		best_air_dominance = 2305,
@@ -251616,8 +252000,9 @@ function ()
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1410020,
 		unlocklevel = 0,
@@ -251647,6 +252032,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -252611,8 +252997,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1410051] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
@@ -252621,7 +253006,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 930,
 		best_air_dominance = 1210,
@@ -252639,8 +253024,9 @@ function ()
 		num_1 = 0,
 		model = 5,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 0,
 		map = 1410021,
 		unlocklevel = 0,
@@ -252670,6 +253056,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -253051,8 +253438,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1420001] = {
-		pos_x = "0.20234375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -253061,7 +253447,7 @@ function ()
 		story_refresh_boss = "HUAPOHAIKONGZHIYI2",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.20234375",
 		special_operation_list = "",
 		air_dominance = 150,
 		best_air_dominance = 195,
@@ -253079,8 +253465,9 @@ function ()
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 20,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 0,
 		map = 1420001,
 		unlocklevel = 0,
@@ -253110,6 +253497,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -253654,8 +254042,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1420002] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -253664,7 +254051,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 300,
 		best_air_dominance = 390,
@@ -253682,8 +254069,9 @@ function ()
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 0,
 		map = 1420001,
 		unlocklevel = 0,
@@ -253713,6 +254101,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.49,
 			0.35,
@@ -254269,8 +254658,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1420003] = {
-		pos_x = "0.6375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -254279,7 +254667,7 @@ function ()
 		story_refresh_boss = "HUAPOHAIKONGZHIYI8",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6375",
 		special_operation_list = "",
 		air_dominance = 700,
 		best_air_dominance = 910,
@@ -254297,8 +254685,9 @@ function ()
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 0,
 		map = 1420001,
 		unlocklevel = 0,
@@ -254328,6 +254717,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.61,
 			0.41,
@@ -254881,8 +255271,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1430001] = {
-		pos_x = "0.14609375",
-		num_3 = 8,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -254891,7 +255280,7 @@ function ()
 		story_refresh_boss = "JICHANG3",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.14609375",
 		special_operation_list = "",
 		air_dominance = 50,
 		best_air_dominance = 150,
@@ -254909,8 +255298,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 8,
 		is_ai = 1,
 		map = 1430001,
 		unlocklevel = 0,
@@ -254939,6 +255329,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -255471,8 +255862,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1430002] = {
-		pos_x = "0.7046875",
-		num_3 = 9,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -255481,7 +255871,7 @@ function ()
 		story_refresh_boss = "JICHANG7",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.7046875",
 		special_operation_list = "",
 		air_dominance = 110,
 		best_air_dominance = 150,
@@ -255499,8 +255889,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 16,
+		ammo_submarine = 0,
+		num_3 = 9,
 		is_ai = 1,
 		map = 1430001,
 		unlocklevel = 0,
@@ -255529,6 +255920,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.49,
 			0.35,
@@ -256146,8 +256538,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1430003] = {
-		pos_x = "0.14609375",
-		num_3 = 10,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -256156,7 +256547,7 @@ function ()
 		story_refresh_boss = "JICHANG11",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.14609375",
 		special_operation_list = "",
 		air_dominance = 220,
 		best_air_dominance = 290,
@@ -256174,8 +256565,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 10,
 		is_ai = 1,
 		map = 1430001,
 		unlocklevel = 0,
@@ -256204,6 +256596,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.61,
 			0.41,
@@ -256828,8 +257221,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1430004] = {
-		pos_x = "0.7046875",
-		num_3 = 11,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -256838,7 +257230,7 @@ function ()
 		story_refresh_boss = "JICHANG15",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.7046875",
 		special_operation_list = "",
 		air_dominance = 440,
 		best_air_dominance = 575,
@@ -256856,8 +257248,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 11,
 		is_ai = 1,
 		map = 1430001,
 		unlocklevel = 0,
@@ -256886,6 +257279,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.49,
 			0.35,
@@ -257525,8 +257919,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1430005] = {
-		pos_x = "0.485",
-		num_3 = 12,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -257535,7 +257928,7 @@ function ()
 		story_refresh_boss = "JICHANG19",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.485",
 		special_operation_list = "",
 		air_dominance = 880,
 		best_air_dominance = 1145,
@@ -257553,8 +257946,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 12,
 		is_ai = 1,
 		map = 1430001,
 		unlocklevel = 0,
@@ -257583,6 +257977,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.61,
 			0.41,
@@ -258436,8 +258831,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1430041] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
@@ -258446,7 +258840,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 1320,
 		best_air_dominance = 1720,
@@ -258464,8 +258858,9 @@ function ()
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 0,
 		map = 1430002,
 		unlocklevel = 0,
@@ -258495,6 +258890,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -259092,8 +259488,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1430051] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
@@ -259102,7 +259497,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 620,
 		best_air_dominance = 810,
@@ -259120,8 +259515,9 @@ function ()
 		num_1 = 0,
 		model = 5,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 0,
 		map = 1430003,
 		unlocklevel = 0,
@@ -259151,6 +259547,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -259492,8 +259889,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1440001] = {
-		pos_x = "0.1625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -259502,7 +259898,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.1625",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
@@ -259521,8 +259917,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 6,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1440001,
 		unlocklevel = 0,
@@ -259552,6 +259949,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.61,
 			0.41,
@@ -260082,8 +260480,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1440002] = {
-		pos_x = "0.2375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -260092,7 +260489,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2375",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
@@ -260111,8 +260508,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1440001,
 		unlocklevel = 0,
@@ -260142,6 +260540,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -260821,8 +261220,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1440003] = {
-		pos_x = "0.62109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -260831,7 +261229,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.62109375",
 		special_operation_list = "",
 		air_dominance = 200,
 		best_air_dominance = 260,
@@ -260850,8 +261248,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1440001,
 		unlocklevel = 0,
@@ -260881,6 +261280,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.49,
 			0.35,
@@ -261578,8 +261978,7 @@ function ()
 end()
 function ()
 	uv0.chapter_template[1440004] = {
-		pos_x = "0.68515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -261588,7 +261987,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.68515625",
 		special_operation_list = "",
 		air_dominance = 400,
 		best_air_dominance = 520,
@@ -261607,8 +262006,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1440001,
 		unlocklevel = 0,
@@ -261638,6 +262038,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.61,
 			0.41,
@@ -262325,8 +262726,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1450001] = {
-		pos_x = "0.168125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -262335,7 +262735,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.168125",
 		special_operation_list = "",
 		air_dominance = 50,
 		best_air_dominance = 150,
@@ -262353,8 +262753,9 @@ function ()
 		num_1 = 1,
 		model = 11,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1450001,
 		unlocklevel = 0,
@@ -262384,6 +262785,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -262944,8 +263346,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1450002] = {
-		pos_x = "0.26640625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -262954,7 +263355,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.26640625",
 		special_operation_list = "",
 		air_dominance = 220,
 		best_air_dominance = 290,
@@ -262972,8 +263373,9 @@ function ()
 		num_1 = 1,
 		model = 11,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 16,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1450001,
 		unlocklevel = 0,
@@ -263003,6 +263405,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.49,
 			0.35,
@@ -263617,8 +264020,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1450003] = {
-		pos_x = "0.57625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -263627,7 +264029,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.57625",
 		special_operation_list = "",
 		air_dominance = 440,
 		best_air_dominance = 575,
@@ -263645,8 +264047,9 @@ function ()
 		num_1 = 1,
 		model = 11,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1450001,
 		unlocklevel = 0,
@@ -263676,6 +264079,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.61,
 			0.41,
@@ -264291,8 +264695,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1450004] = {
-		pos_x = "0.68578125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -264301,7 +264704,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.68578125",
 		special_operation_list = "",
 		air_dominance = 600,
 		best_air_dominance = 780,
@@ -264319,8 +264722,9 @@ function ()
 		num_1 = 1,
 		model = 11,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1450001,
 		unlocklevel = 0,
@@ -264350,6 +264754,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.49,
 			0.35,
@@ -265048,8 +265453,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1450041] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
@@ -265058,7 +265462,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 1320,
 		best_air_dominance = 1720,
@@ -265076,8 +265480,9 @@ function ()
 		num_1 = 0,
 		model = 11,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 0,
 		map = 1450002,
 		unlocklevel = 0,
@@ -265107,6 +265512,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -265697,8 +266103,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1450051] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
@@ -265707,7 +266112,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 620,
 		best_air_dominance = 810,
@@ -265725,8 +266130,9 @@ function ()
 		num_1 = 0,
 		model = 5,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 0,
 		map = 1450003,
 		unlocklevel = 0,
@@ -265756,6 +266162,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -266151,8 +266558,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1460001] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -266161,7 +266567,7 @@ function ()
 		story_refresh_boss = "FUXIANGXIANZUOZHAN4",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 115,
 		best_air_dominance = 150,
@@ -266179,8 +266585,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 23,
-		ammo_submarine = 0,
 		num_2 = 10,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1460001,
 		unlocklevel = 0,
@@ -266210,6 +266617,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 102,
 		scale = {
 			0.34,
 			0.53,
@@ -266826,8 +267234,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1460002] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -266836,7 +267243,7 @@ function ()
 		story_refresh_boss = "FUXIANGXIANZUOZHAN8",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 130,
 		best_air_dominance = 170,
@@ -266854,8 +267261,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 24,
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1460001,
 		unlocklevel = 0,
@@ -266885,6 +267293,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 106,
 		scale = {
 			0.34,
 			0.53,
@@ -267487,8 +267896,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1460003] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -267497,7 +267905,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 205,
 		best_air_dominance = 270,
@@ -267515,8 +267923,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 24,
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1460001,
 		unlocklevel = 0,
@@ -267546,6 +267955,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 106,
 		scale = {
 			0.34,
 			0.53,
@@ -268144,8 +268554,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1460004] = {
-		pos_x = "0.23125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -268154,7 +268563,7 @@ function ()
 		story_refresh_boss = "FUXIANGXIANZUOZHAN17",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.23125",
 		special_operation_list = "",
 		air_dominance = 220,
 		best_air_dominance = 290,
@@ -268172,8 +268581,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1460002,
 		unlocklevel = 0,
@@ -268203,6 +268613,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -268892,8 +269303,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1460005] = {
-		pos_x = "0.5390625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -268902,7 +269312,7 @@ function ()
 		story_refresh_boss = "FUXIANGXIANZUOZHAN22",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5390625",
 		special_operation_list = "",
 		air_dominance = 300,
 		best_air_dominance = 390,
@@ -268920,8 +269330,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1460002,
 		unlocklevel = 0,
@@ -268951,6 +269362,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -269687,8 +270099,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1460006] = {
-		pos_x = "0.67109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -269697,7 +270108,7 @@ function ()
 		story_refresh_boss = "FUXIANGXIANZUOZHAN27",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67109375",
 		special_operation_list = "",
 		air_dominance = 455,
 		best_air_dominance = 595,
@@ -269715,8 +270126,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1460002,
 		unlocklevel = 0,
@@ -269746,6 +270158,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -270657,8 +271070,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1460021] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -270667,7 +271079,7 @@ function ()
 		story_refresh_boss = "FUXIANGXIANZUOZHAN4",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 450,
 		best_air_dominance = 585,
@@ -270685,8 +271097,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1460011,
 		unlocklevel = 0,
@@ -270716,6 +271129,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -271373,8 +271787,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1460022] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -271383,7 +271796,7 @@ function ()
 		story_refresh_boss = "FUXIANGXIANZUOZHAN8",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 470,
 		best_air_dominance = 615,
@@ -271401,8 +271814,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1460011,
 		unlocklevel = 0,
@@ -271432,6 +271846,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -272075,8 +272490,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1460023] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -272085,7 +272499,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 685,
 		best_air_dominance = 895,
@@ -272103,8 +272517,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 21,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1460011,
 		unlocklevel = 0,
@@ -272134,6 +272549,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -272775,8 +273191,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1460024] = {
-		pos_x = "0.14609375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -272785,7 +273200,7 @@ function ()
 		story_refresh_boss = "FUXIANGXIANZUOZHAN17",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.14609375",
 		special_operation_list = "",
 		air_dominance = 730,
 		best_air_dominance = 950,
@@ -272803,8 +273218,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1460012,
 		unlocklevel = 0,
@@ -272834,6 +273250,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -273564,8 +273981,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1460025] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -273574,7 +273990,7 @@ function ()
 		story_refresh_boss = "FUXIANGXIANZUOZHAN22",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 930,
 		best_air_dominance = 1210,
@@ -273592,8 +274008,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1460012,
 		unlocklevel = 0,
@@ -273623,6 +274040,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -274402,8 +274820,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1460026] = {
-		pos_x = "0.67109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -274412,7 +274829,7 @@ function ()
 		story_refresh_boss = "FUXIANGXIANZUOZHAN27",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67109375",
 		special_operation_list = "",
 		air_dominance = 1350,
 		best_air_dominance = 1755,
@@ -274430,8 +274847,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1460012,
 		unlocklevel = 0,
@@ -274461,6 +274879,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -275415,8 +275834,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1460041] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -275425,7 +275843,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 2030,
 		best_air_dominance = 2640,
@@ -275443,8 +275861,9 @@ function ()
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1460025,
 		unlocklevel = 0,
@@ -275474,6 +275893,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -276558,8 +276978,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1460051] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
@@ -276568,7 +276987,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 620,
 		best_air_dominance = 810,
@@ -276586,8 +277005,9 @@ function ()
 		num_1 = 0,
 		model = 5,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 0,
 		map = 1460026,
 		unlocklevel = 0,
@@ -276617,6 +277037,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -277001,8 +277422,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1470001] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -277011,7 +277431,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
@@ -277029,8 +277449,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1470001,
 		unlocklevel = 0,
@@ -277060,6 +277481,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -277575,8 +277997,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1470002] = {
-		pos_x = "0.38203125",
-		num_3 = 12,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -277585,7 +278006,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 170,
 		best_air_dominance = 225,
@@ -277603,8 +278024,9 @@ function ()
 		num_1 = 1,
 		model = 10,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 20,
+		ammo_submarine = 0,
+		num_3 = 12,
 		is_ai = 1,
 		map = 1470001,
 		unlocklevel = 0,
@@ -277634,6 +278056,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -278169,8 +278592,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1470003] = {
-		pos_x = "0.665625",
-		num_3 = 12,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -278179,7 +278601,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 215,
 		best_air_dominance = 280,
@@ -278197,8 +278619,9 @@ function ()
 		num_1 = 1,
 		model = 10,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 20,
+		ammo_submarine = 0,
+		num_3 = 12,
 		is_ai = 1,
 		map = 1470001,
 		unlocklevel = 0,
@@ -278228,6 +278651,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -278857,8 +279281,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1470004] = {
-		pos_x = "0.38203125",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -278867,7 +279290,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 110,
 		best_air_dominance = 150,
@@ -278885,8 +279308,9 @@ function ()
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1470001,
 		unlocklevel = 0,
@@ -278916,6 +279340,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -279395,8 +279820,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1470005] = {
-		pos_x = "0.665625",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -279405,7 +279829,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 140,
 		best_air_dominance = 185,
@@ -279423,8 +279847,9 @@ function ()
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1470001,
 		unlocklevel = 0,
@@ -279454,6 +279879,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -279988,8 +280414,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1470006] = {
-		pos_x = "0.23125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -279998,7 +280423,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.23125",
 		special_operation_list = "",
 		air_dominance = 240,
 		best_air_dominance = 315,
@@ -280016,8 +280441,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1470002,
 		unlocklevel = 0,
@@ -280047,6 +280473,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -280592,8 +281019,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1470007] = {
-		pos_x = "0.5390625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -280602,7 +281028,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5390625",
 		special_operation_list = "",
 		air_dominance = 310,
 		best_air_dominance = 405,
@@ -280620,8 +281046,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1470002,
 		unlocklevel = 0,
@@ -280651,6 +281078,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -281238,8 +281666,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1470008] = {
-		pos_x = "0.67109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -281248,7 +281675,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67109375",
 		special_operation_list = "",
 		air_dominance = 375,
 		best_air_dominance = 490,
@@ -281266,8 +281693,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1470002,
 		unlocklevel = 0,
@@ -281297,6 +281725,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -281850,8 +282279,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1470021] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -281860,7 +282288,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 555,
 		best_air_dominance = 725,
@@ -281879,8 +282307,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1470011,
 		unlocklevel = 0,
@@ -281910,6 +282339,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -282466,8 +282896,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1470022] = {
-		pos_x = "0.38203125",
-		num_3 = 10,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -282476,7 +282905,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 920,
 		best_air_dominance = 1200,
@@ -282495,8 +282924,9 @@ function ()
 		model = 10,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 10,
 		is_ai = 1,
 		map = 1470011,
 		unlocklevel = 0,
@@ -282526,6 +282956,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -283100,8 +283531,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1470023] = {
-		pos_x = "0.665625",
-		num_3 = 10,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -283110,7 +283540,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 1140,
 		best_air_dominance = 1485,
@@ -283129,8 +283559,9 @@ function ()
 		model = 10,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 10,
 		is_ai = 1,
 		map = 1470011,
 		unlocklevel = 0,
@@ -283160,6 +283591,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -283829,8 +284261,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1470024] = {
-		pos_x = "0.38203125",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -283839,7 +284270,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 625,
 		best_air_dominance = 815,
@@ -283858,8 +284289,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1470011,
 		unlocklevel = 0,
@@ -283889,6 +284321,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -284409,8 +284842,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1470025] = {
-		pos_x = "0.665625",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -284419,7 +284851,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 785,
 		best_air_dominance = 1025,
@@ -284438,8 +284870,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1470011,
 		unlocklevel = 0,
@@ -284469,6 +284902,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -285045,8 +285479,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1470026] = {
-		pos_x = "0.14609375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -285055,7 +285488,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.14609375",
 		special_operation_list = "",
 		air_dominance = 1090,
 		best_air_dominance = 1420,
@@ -285074,8 +285507,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1470012,
 		unlocklevel = 0,
@@ -285105,6 +285539,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -285690,8 +286125,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1470027] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -285700,7 +286134,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 1310,
 		best_air_dominance = 1705,
@@ -285719,8 +286153,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1470012,
 		unlocklevel = 0,
@@ -285750,6 +286185,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -286380,8 +286816,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1470028] = {
-		pos_x = "0.67109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -286390,7 +286825,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67109375",
 		special_operation_list = "",
 		air_dominance = 1545,
 		best_air_dominance = 2010,
@@ -286408,8 +286843,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1470012,
 		unlocklevel = 0,
@@ -286439,6 +286875,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -287035,8 +287472,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1470031] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -287045,7 +287481,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 2035,
 		best_air_dominance = 2650,
@@ -287063,8 +287499,9 @@ function ()
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1470025,
 		unlocklevel = 0,
@@ -287094,6 +287531,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -287706,8 +288144,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1470041] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
@@ -287716,7 +288153,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 620,
 		best_air_dominance = 810,
@@ -287734,8 +288171,9 @@ function ()
 		num_1 = 0,
 		model = 5,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 0,
 		map = 1470026,
 		unlocklevel = 0,
@@ -287765,6 +288203,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -288110,8 +288549,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1480001] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -288120,7 +288558,7 @@ function ()
 		story_refresh_boss = "POXIAOBINGHUA3",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
@@ -288138,8 +288576,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 23,
-		ammo_submarine = 0,
 		num_2 = 10,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1480001,
 		unlocklevel = 0,
@@ -288169,6 +288608,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 102,
 		scale = {
 			0.34,
 			0.53,
@@ -288783,8 +289223,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1480002] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -288793,7 +289232,7 @@ function ()
 		story_refresh_boss = "POXIAOBINGHUA6",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 130,
 		best_air_dominance = 170,
@@ -288811,8 +289250,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 24,
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1480001,
 		unlocklevel = 0,
@@ -288842,6 +289282,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 106,
 		scale = {
 			0.34,
 			0.53,
@@ -289472,8 +289913,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1480003] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -289482,7 +289922,7 @@ function ()
 		story_refresh_boss = "POXIAOBINGHUA10",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 205,
 		best_air_dominance = 270,
@@ -289500,8 +289940,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 24,
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1480001,
 		unlocklevel = 0,
@@ -289531,6 +289972,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 106,
 		scale = {
 			0.34,
 			0.53,
@@ -290374,8 +290816,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1480004] = {
-		pos_x = "0.23125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -290384,7 +290825,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.23125",
 		special_operation_list = "",
 		air_dominance = 220,
 		best_air_dominance = 290,
@@ -290402,8 +290843,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1480002,
 		unlocklevel = 0,
@@ -290432,6 +290874,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -291159,8 +291602,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1480005] = {
-		pos_x = "0.5390625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -291169,7 +291611,7 @@ function ()
 		story_refresh_boss = "POXIAOBINGHUA20",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5390625",
 		special_operation_list = "",
 		air_dominance = 300,
 		best_air_dominance = 390,
@@ -291187,8 +291629,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1480002,
 		unlocklevel = 0,
@@ -291217,6 +291660,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -291969,8 +292413,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1480006] = {
-		pos_x = "0.67109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -291979,7 +292422,7 @@ function ()
 		story_refresh_boss = "POXIAOBINGHUA24",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67109375",
 		special_operation_list = "",
 		air_dominance = 380,
 		best_air_dominance = 495,
@@ -291997,8 +292440,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1480002,
 		unlocklevel = 0,
@@ -292027,6 +292471,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -292889,8 +293334,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1480021] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -292899,7 +293343,7 @@ function ()
 		story_refresh_boss = "POXIAOBINGHUA3",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 450,
 		best_air_dominance = 585,
@@ -292917,8 +293361,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1480011,
 		unlocklevel = 0,
@@ -292948,6 +293393,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -293604,8 +294050,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1480022] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -293614,7 +294059,7 @@ function ()
 		story_refresh_boss = "POXIAOBINGHUA6",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 470,
 		best_air_dominance = 615,
@@ -293632,8 +294077,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1480011,
 		unlocklevel = 0,
@@ -293663,6 +294109,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -294335,8 +294782,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1480023] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -294345,7 +294791,7 @@ function ()
 		story_refresh_boss = "POXIAOBINGHUA10",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 685,
 		best_air_dominance = 895,
@@ -294363,8 +294809,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 21,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1480011,
 		unlocklevel = 0,
@@ -294394,6 +294841,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -295280,8 +295728,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1480024] = {
-		pos_x = "0.14609375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -295290,7 +295737,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.14609375",
 		special_operation_list = "",
 		air_dominance = 730,
 		best_air_dominance = 950,
@@ -295308,8 +295755,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1480012,
 		unlocklevel = 0,
@@ -295338,6 +295786,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -296106,8 +296555,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1480025] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -296116,7 +296564,7 @@ function ()
 		story_refresh_boss = "POXIAOBINGHUA20",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 930,
 		best_air_dominance = 1210,
@@ -296134,8 +296582,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1480012,
 		unlocklevel = 0,
@@ -296164,6 +296613,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -296959,8 +297409,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1480026] = {
-		pos_x = "0.67109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -296969,7 +297418,7 @@ function ()
 		story_refresh_boss = "POXIAOBINGHUA24",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67109375",
 		special_operation_list = "",
 		air_dominance = 1350,
 		best_air_dominance = 1755,
@@ -296987,8 +297436,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1480012,
 		unlocklevel = 0,
@@ -297017,6 +297467,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -297922,8 +298373,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1480041] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -297932,7 +298382,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 2030,
 		best_air_dominance = 2640,
@@ -297950,8 +298400,9 @@ function ()
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1480025,
 		unlocklevel = 0,
@@ -297981,6 +298432,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -298723,8 +299175,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1480051] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
@@ -298733,7 +299184,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 620,
 		best_air_dominance = 810,
@@ -298751,8 +299202,9 @@ function ()
 		num_1 = 0,
 		model = 5,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 0,
 		map = 1480026,
 		unlocklevel = 0,
@@ -298782,6 +299234,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -299156,8 +299609,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1490001] = {
-		pos_x = "0.2515625",
-		num_3 = 10,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -299166,7 +299618,7 @@ function ()
 		story_refresh_boss = "XIANGTINGLIAOFA3",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
@@ -299185,8 +299637,9 @@ function ()
 		model = 10,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 10,
+		ammo_submarine = 0,
+		num_3 = 10,
 		is_ai = 1,
 		map = 1490001,
 		unlocklevel = 0,
@@ -299216,6 +299669,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -299741,8 +300195,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1490002] = {
-		pos_x = "0.38203125",
-		num_3 = 10,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -299751,7 +300204,7 @@ function ()
 		story_refresh_boss = "XIANGTINGLIAOFA9",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 130,
 		best_air_dominance = 170,
@@ -299770,8 +300223,9 @@ function ()
 		model = 10,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 10,
 		is_ai = 1,
 		map = 1490001,
 		unlocklevel = 0,
@@ -299801,6 +300255,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -300374,8 +300829,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1490003] = {
-		pos_x = "0.665625",
-		num_3 = 10,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -300384,7 +300838,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 165,
 		best_air_dominance = 215,
@@ -300403,8 +300857,9 @@ function ()
 		model = 10,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 10,
 		is_ai = 1,
 		map = 1490001,
 		unlocklevel = 0,
@@ -300434,6 +300889,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -301104,8 +301560,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1490004] = {
-		pos_x = "0.23125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -301114,7 +301569,7 @@ function ()
 		story_refresh_boss = "XIANGTINGLIAOFA18",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.23125",
 		special_operation_list = "",
 		air_dominance = 210,
 		best_air_dominance = 275,
@@ -301133,8 +301588,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1490002,
 		unlocklevel = 0,
@@ -301164,6 +301620,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -301727,8 +302184,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1490005] = {
-		pos_x = "0.5390625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -301737,7 +302193,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5390625",
 		special_operation_list = "",
 		air_dominance = 475,
 		best_air_dominance = 620,
@@ -301756,8 +302212,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1490002,
 		unlocklevel = 0,
@@ -301787,6 +302244,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -302393,8 +302851,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1490006] = {
-		pos_x = "0.67109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -302403,7 +302860,7 @@ function ()
 		story_refresh_boss = "XIANGTINGLIAOFA28",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67109375",
 		special_operation_list = "",
 		air_dominance = 330,
 		best_air_dominance = 430,
@@ -302422,8 +302879,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1490002,
 		unlocklevel = 0,
@@ -302453,6 +302911,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -303031,8 +303490,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1490007] = {
-		pos_x = "0.38203125",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -303041,7 +303499,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
@@ -303060,8 +303518,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1490001,
 		unlocklevel = 0,
@@ -303091,6 +303550,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -303569,8 +304029,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1490008] = {
-		pos_x = "0.665625",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -303579,7 +304038,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 130,
 		best_air_dominance = 170,
@@ -303598,8 +304057,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1490001,
 		unlocklevel = 0,
@@ -303629,6 +304089,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -304163,8 +304624,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1490009] = {
-		pos_x = "0.5390625",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -304173,7 +304633,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5390625",
 		special_operation_list = "",
 		air_dominance = 210,
 		best_air_dominance = 275,
@@ -304192,8 +304652,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1490002,
 		unlocklevel = 0,
@@ -304223,6 +304684,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -304750,8 +305212,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1490010] = {
-		pos_x = "0.67109375",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -304760,7 +305221,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67109375",
 		special_operation_list = "",
 		air_dominance = 475,
 		best_air_dominance = 620,
@@ -304779,8 +305240,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1490002,
 		unlocklevel = 0,
@@ -304810,6 +305272,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -305394,8 +305857,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1490011] = {
-		pos_x = "0.2515625",
-		num_3 = 9,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -305404,7 +305866,7 @@ function ()
 		story_refresh_boss = "XIANGTINGLIAOFA3",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 555,
 		best_air_dominance = 725,
@@ -305423,8 +305885,9 @@ function ()
 		model = 10,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 9,
 		is_ai = 1,
 		map = 1490011,
 		unlocklevel = 0,
@@ -305454,6 +305917,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -306021,8 +306485,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1490012] = {
-		pos_x = "0.38203125",
-		num_3 = 9,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -306031,7 +306494,7 @@ function ()
 		story_refresh_boss = "XIANGTINGLIAOFA9",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 705,
 		best_air_dominance = 920,
@@ -306050,8 +306513,9 @@ function ()
 		model = 10,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 9,
 		is_ai = 1,
 		map = 1490011,
 		unlocklevel = 0,
@@ -306081,6 +306545,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -306696,8 +307161,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1490013] = {
-		pos_x = "0.665625",
-		num_3 = 9,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -306706,7 +307170,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 875,
 		best_air_dominance = 1140,
@@ -306725,8 +307189,9 @@ function ()
 		model = 10,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 21,
+		ammo_submarine = 0,
+		num_3 = 9,
 		is_ai = 1,
 		map = 1490011,
 		unlocklevel = 0,
@@ -306756,6 +307221,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -307463,8 +307929,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1490014] = {
-		pos_x = "0.14609375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -307473,7 +307938,7 @@ function ()
 		story_refresh_boss = "XIANGTINGLIAOFA18",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.14609375",
 		special_operation_list = "",
 		air_dominance = 950,
 		best_air_dominance = 1235,
@@ -307492,8 +307957,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1490012,
 		unlocklevel = 0,
@@ -307523,6 +307989,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -308128,8 +308595,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1490015] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -308138,7 +308604,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 1610,
 		best_air_dominance = 2095,
@@ -308157,8 +308623,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1490012,
 		unlocklevel = 0,
@@ -308188,6 +308655,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -308838,8 +309306,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1490016] = {
-		pos_x = "0.67109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -308848,7 +309315,7 @@ function ()
 		story_refresh_boss = "XIANGTINGLIAOFA28",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67109375",
 		special_operation_list = "",
 		air_dominance = 1345,
 		best_air_dominance = 1750,
@@ -308867,8 +309334,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1490012,
 		unlocklevel = 0,
@@ -308898,6 +309366,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -309520,8 +309989,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1490017] = {
-		pos_x = "0.200625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -309530,7 +309998,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.200625",
 		special_operation_list = "",
 		air_dominance = 1770,
 		best_air_dominance = 2305,
@@ -309549,8 +310017,9 @@ function ()
 		model = 10,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 8,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1490025,
 		unlocklevel = 0,
@@ -309580,6 +310049,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_judian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -310384,8 +310854,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1490021] = {
-		pos_x = "0.200625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
@@ -310394,7 +310863,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.200625",
 		special_operation_list = "",
 		air_dominance = 620,
 		best_air_dominance = 810,
@@ -310413,8 +310882,9 @@ function ()
 		model = 5,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 4,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 0,
 		map = 1490026,
 		unlocklevel = 0,
@@ -310444,6 +310914,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -310790,8 +311261,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1490022] = {
-		pos_x = "0.38203125",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -310800,7 +311270,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 555,
 		best_air_dominance = 725,
@@ -310819,8 +311289,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1490011,
 		unlocklevel = 0,
@@ -310850,6 +311321,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -311370,8 +311842,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1490023] = {
-		pos_x = "0.665625",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -311380,7 +311851,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 705,
 		best_air_dominance = 920,
@@ -311399,8 +311870,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1490011,
 		unlocklevel = 0,
@@ -311430,6 +311902,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -312006,8 +312479,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1490024] = {
-		pos_x = "0.28671875",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -312016,7 +312488,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 950,
 		best_air_dominance = 1235,
@@ -312035,8 +312507,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1490012,
 		unlocklevel = 0,
@@ -312066,6 +312539,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -312635,8 +313109,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1490025] = {
-		pos_x = "0.67109375",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -312645,7 +313118,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67109375",
 		special_operation_list = "",
 		air_dominance = 1610,
 		best_air_dominance = 2095,
@@ -312664,8 +313137,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 1,
 		map = 1490012,
 		unlocklevel = 0,
@@ -312695,6 +313169,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -313323,8 +313798,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1500001] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -313333,7 +313807,7 @@ function ()
 		story_refresh_boss = "FUXINGDEZANMEISHI4",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
@@ -313351,8 +313825,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 23,
-		ammo_submarine = 0,
 		num_2 = 10,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1500001,
 		unlocklevel = 0,
@@ -313382,6 +313857,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 102,
 		scale = {
 			0.34,
 			0.53,
@@ -313991,8 +314467,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1500002] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -314001,7 +314476,7 @@ function ()
 		story_refresh_boss = "FUXINGDEZANMEISHI8",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 130,
 		best_air_dominance = 170,
@@ -314019,8 +314494,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 24,
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1500001,
 		unlocklevel = 0,
@@ -314050,6 +314526,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 106,
 		scale = {
 			0.34,
 			0.53,
@@ -314678,8 +315155,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1500003] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -314688,7 +315164,7 @@ function ()
 		story_refresh_boss = "FUXINGDEZANMEISHI12",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 230,
 		best_air_dominance = 300,
@@ -314706,8 +315182,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 24,
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1500001,
 		unlocklevel = 0,
@@ -314737,6 +315214,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 106,
 		scale = {
 			0.34,
 			0.53,
@@ -315478,8 +315956,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1500004] = {
-		pos_x = "0.23125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -315488,7 +315965,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.23125",
 		special_operation_list = "",
 		air_dominance = 310,
 		best_air_dominance = 400,
@@ -315506,8 +315983,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1500002,
 		unlocklevel = 0,
@@ -315536,6 +316014,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -316382,8 +316861,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1500005] = {
-		pos_x = "0.5390625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -316392,7 +316870,7 @@ function ()
 		story_refresh_boss = "FUXINGDEZANMEISHI21",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5390625",
 		special_operation_list = "",
 		air_dominance = 360,
 		best_air_dominance = 470,
@@ -316410,8 +316888,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1500002,
 		unlocklevel = 0,
@@ -316440,6 +316919,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -317305,8 +317785,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1500006] = {
-		pos_x = "0.67109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -317315,7 +317794,7 @@ function ()
 		story_refresh_boss = "FUXINGDEZANMEISHI28",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67109375",
 		special_operation_list = "",
 		air_dominance = 380,
 		best_air_dominance = 495,
@@ -317333,8 +317812,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1500002,
 		unlocklevel = 0,
@@ -317363,6 +317843,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -318244,8 +318725,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1500021] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -318254,7 +318734,7 @@ function ()
 		story_refresh_boss = "FUXINGDEZANMEISHI4",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 450,
 		best_air_dominance = 585,
@@ -318272,8 +318752,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1500011,
 		unlocklevel = 0,
@@ -318303,6 +318784,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -318954,8 +319436,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1500022] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -318964,7 +319445,7 @@ function ()
 		story_refresh_boss = "FUXINGDEZANMEISHI8",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 470,
 		best_air_dominance = 615,
@@ -318982,8 +319463,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1500011,
 		unlocklevel = 0,
@@ -319013,6 +319495,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -319683,8 +320166,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1500023] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -319693,7 +320175,7 @@ function ()
 		story_refresh_boss = "FUXINGDEZANMEISHI12",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 740,
 		best_air_dominance = 960,
@@ -319711,8 +320193,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 21,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1500011,
 		unlocklevel = 0,
@@ -319742,6 +320225,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -320526,8 +321010,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1500024] = {
-		pos_x = "0.14609375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -320536,7 +321019,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.14609375",
 		special_operation_list = "",
 		air_dominance = 980,
 		best_air_dominance = 1275,
@@ -320554,8 +321037,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1500012,
 		unlocklevel = 0,
@@ -320584,6 +321068,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -321472,8 +321957,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1500025] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -321482,7 +321966,7 @@ function ()
 		story_refresh_boss = "FUXINGDEZANMEISHI21",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 1300,
 		best_air_dominance = 1690,
@@ -321500,8 +321984,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1500012,
 		unlocklevel = 0,
@@ -321530,6 +322015,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -322439,8 +322925,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1500026] = {
-		pos_x = "0.67109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -322449,7 +322934,7 @@ function ()
 		story_refresh_boss = "FUXINGDEZANMEISHI28",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67109375",
 		special_operation_list = "",
 		air_dominance = 1350,
 		best_air_dominance = 1755,
@@ -322467,8 +322952,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1500012,
 		unlocklevel = 0,
@@ -322497,6 +322983,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -323421,8 +323908,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1500041] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
@@ -323431,7 +323917,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 2030,
 		best_air_dominance = 2640,
@@ -323449,8 +323935,9 @@ function ()
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 0,
 		map = 1500025,
 		unlocklevel = 0,
@@ -323479,6 +323966,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -324290,8 +324778,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1500051] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
@@ -324300,7 +324787,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 620,
 		best_air_dominance = 810,
@@ -324318,8 +324805,9 @@ function ()
 		num_1 = 0,
 		model = 5,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 0,
 		map = 1500026,
 		unlocklevel = 0,
@@ -324349,6 +324837,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -324737,8 +325226,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1520001] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -324747,7 +325235,7 @@ function ()
 		story_refresh_boss = "JINGWEILUOXUAN4",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
@@ -324765,8 +325253,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 23,
-		ammo_submarine = 0,
 		num_2 = 10,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1520001,
 		unlocklevel = 0,
@@ -324796,6 +325285,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 102,
 		scale = {
 			0.34,
 			0.53,
@@ -325424,8 +325914,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1520002] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -325434,7 +325923,7 @@ function ()
 		story_refresh_boss = "JINGWEILUOXUAN10",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 170,
 		best_air_dominance = 220,
@@ -325452,8 +325941,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 24,
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1520001,
 		unlocklevel = 0,
@@ -325483,6 +325973,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 106,
 		scale = {
 			0.34,
 			0.53,
@@ -326131,8 +326622,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1520003] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -326141,7 +326631,7 @@ function ()
 		story_refresh_boss = "JINGWEILUOXUAN14",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 320,
 		best_air_dominance = 415,
@@ -326159,8 +326649,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 24,
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1520001,
 		unlocklevel = 0,
@@ -326190,6 +326681,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 106,
 		scale = {
 			0.34,
 			0.53,
@@ -326953,8 +327445,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1520004] = {
-		pos_x = "0.23125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -326963,7 +327454,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.23125",
 		special_operation_list = "",
 		air_dominance = 310,
 		best_air_dominance = 405,
@@ -326981,8 +327472,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1520002,
 		unlocklevel = 0,
@@ -327012,6 +327504,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -327763,8 +328256,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1520005] = {
-		pos_x = "0.5390625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -327773,7 +328265,7 @@ function ()
 		story_refresh_boss = "JINGWEILUOXUAN23",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5390625",
 		special_operation_list = "",
 		air_dominance = 470,
 		best_air_dominance = 610,
@@ -327791,8 +328283,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1520002,
 		unlocklevel = 0,
@@ -327822,6 +328315,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -328587,8 +329081,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1520006] = {
-		pos_x = "0.67109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -328597,7 +329090,7 @@ function ()
 		story_refresh_boss = "JINGWEILUOXUAN27",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67109375",
 		special_operation_list = "",
 		air_dominance = 530,
 		best_air_dominance = 690,
@@ -328615,8 +329108,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1520002,
 		unlocklevel = 0,
@@ -328646,6 +329140,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -329418,8 +329913,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1520021] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -329428,7 +329922,7 @@ function ()
 		story_refresh_boss = "JINGWEILUOXUAN4",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 450,
 		best_air_dominance = 585,
@@ -329446,8 +329940,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1520011,
 		unlocklevel = 0,
@@ -329477,6 +329972,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -330147,8 +330643,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1520022] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -330157,7 +330652,7 @@ function ()
 		story_refresh_boss = "JINGWEILUOXUAN10",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 610,
 		best_air_dominance = 795,
@@ -330175,8 +330670,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1520011,
 		unlocklevel = 0,
@@ -330206,6 +330702,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -330896,8 +331393,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1520023] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -330906,7 +331402,7 @@ function ()
 		story_refresh_boss = "JINGWEILUOXUAN14",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 1035,
 		best_air_dominance = 1345,
@@ -330924,8 +331420,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 21,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1520011,
 		unlocklevel = 0,
@@ -330955,6 +331452,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -331761,8 +332259,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1520024] = {
-		pos_x = "0.14609375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -331771,7 +332268,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.14609375",
 		special_operation_list = "",
 		air_dominance = 980,
 		best_air_dominance = 1275,
@@ -331789,8 +332286,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1520012,
 		unlocklevel = 0,
@@ -331820,6 +332318,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -332613,8 +333112,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1520025] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -332623,7 +333121,7 @@ function ()
 		story_refresh_boss = "JINGWEILUOXUAN23",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 1430,
 		best_air_dominance = 1860,
@@ -332641,8 +333139,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1520012,
 		unlocklevel = 0,
@@ -332672,6 +333171,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -333483,8 +333983,7 @@ function ()
 end()
 function ()
 	uv0.chapter_template[1520026] = {
-		pos_x = "0.67109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -333493,7 +333992,7 @@ function ()
 		story_refresh_boss = "JINGWEILUOXUAN27",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67109375",
 		special_operation_list = "",
 		air_dominance = 1620,
 		best_air_dominance = 2105,
@@ -333511,8 +334010,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 1520012,
 		unlocklevel = 0,
@@ -333542,6 +334042,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -334357,8 +334858,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1520041] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
@@ -334367,7 +334867,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 2235,
 		best_air_dominance = 2905,
@@ -334385,8 +334885,9 @@ function ()
 		num_1 = 0,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 0,
 		map = 1520025,
 		unlocklevel = 0,
@@ -334416,6 +334917,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -335166,8 +335668,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[1520051] = {
-		pos_x = "0.479",
-		num_3 = 0,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
@@ -335176,7 +335677,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 620,
 		best_air_dominance = 810,
@@ -335194,8 +335695,9 @@ function ()
 		num_1 = 0,
 		model = 5,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 0,
+		ammo_submarine = 0,
+		num_3 = 0,
 		is_ai = 0,
 		map = 1520026,
 		unlocklevel = 0,
@@ -335225,6 +335727,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -335620,8 +336123,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100001] = {
-		pos_x = "0.33125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
@@ -335630,7 +336132,7 @@ function ()
 		story_refresh_boss = "GUOQING4",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.33125",
 		special_operation_list = "",
 		air_dominance = 150,
 		best_air_dominance = 195,
@@ -335649,10 +336151,11 @@ function ()
 		model = 1,
 		investigation_ratio = 14,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100000,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -335681,6 +336184,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 66,
 		scale = {
 			0.34,
 			0.53,
@@ -336163,8 +336667,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100002] = {
-		pos_x = "0.56328125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -336173,7 +336676,7 @@ function ()
 		story_refresh_boss = "GUOQING7",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.56328125",
 		special_operation_list = "",
 		air_dominance = 205,
 		best_air_dominance = 270,
@@ -336192,10 +336695,11 @@ function ()
 		model = 1,
 		investigation_ratio = 15,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100000,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -336224,6 +336728,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 70,
 		scale = {
 			0.65,
 			0.36,
@@ -336763,8 +337268,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100003] = {
-		pos_x = "0.690625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -336773,7 +337277,7 @@ function ()
 		story_refresh_boss = "GUOQING9",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.690625",
 		special_operation_list = "",
 		air_dominance = 270,
 		best_air_dominance = 355,
@@ -336792,10 +337296,11 @@ function ()
 		model = 1,
 		investigation_ratio = 16,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100000,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -336824,6 +337329,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 74,
 		scale = {
 			0.64,
 			0.59,
@@ -337430,8 +337936,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100004] = {
-		pos_x = "0.26875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -337440,7 +337945,7 @@ function ()
 		story_refresh_boss = "GUOQING12",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.26875",
 		special_operation_list = "",
 		air_dominance = 330,
 		best_air_dominance = 430,
@@ -337459,10 +337964,11 @@ function ()
 		model = 1,
 		investigation_ratio = 15,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -337491,6 +337997,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 70,
 		scale = {
 			0.34,
 			0.36,
@@ -338047,8 +338554,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100005] = {
-		pos_x = "0.6703125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -338057,7 +338563,7 @@ function ()
 		story_refresh_boss = "GUOQING15",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6703125",
 		special_operation_list = "",
 		air_dominance = 430,
 		best_air_dominance = 560,
@@ -338076,10 +338582,11 @@ function ()
 		model = 1,
 		investigation_ratio = 16,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -338108,6 +338615,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 74,
 		scale = {
 			0.66,
 			0.36,
@@ -338766,8 +339274,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100006] = {
-		pos_x = "0.5421875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -338776,7 +339283,7 @@ function ()
 		story_refresh_boss = "GUOQING18",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5421875",
 		special_operation_list = "",
 		air_dominance = 535,
 		best_air_dominance = 700,
@@ -338795,10 +339302,11 @@ function ()
 		model = 1,
 		investigation_ratio = 17,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -338827,6 +339335,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 78,
 		scale = {
 			0.52,
 			0.62,
@@ -339480,8 +339989,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100011] = {
-		pos_x = "0.33125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -339490,7 +339998,7 @@ function ()
 		story_refresh_boss = "GUOQING4",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.33125",
 		special_operation_list = "",
 		air_dominance = 530,
 		best_air_dominance = 690,
@@ -339509,10 +340017,11 @@ function ()
 		model = 1,
 		investigation_ratio = 17,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100010,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -339541,6 +340050,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 78,
 		scale = {
 			0.34,
 			0.53,
@@ -340064,8 +340574,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100012] = {
-		pos_x = "0.56328125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -340074,7 +340583,7 @@ function ()
 		story_refresh_boss = "GUOQING7",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.56328125",
 		special_operation_list = "",
 		air_dominance = 605,
 		best_air_dominance = 790,
@@ -340093,10 +340602,11 @@ function ()
 		model = 1,
 		investigation_ratio = 18,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100010,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -340125,6 +340635,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 82,
 		scale = {
 			0.65,
 			0.36,
@@ -340705,8 +341216,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100013] = {
-		pos_x = "0.690625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -340715,7 +341225,7 @@ function ()
 		story_refresh_boss = "GUOQING9",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.690625",
 		special_operation_list = "",
 		air_dominance = 680,
 		best_air_dominance = 885,
@@ -340734,10 +341244,11 @@ function ()
 		model = 1,
 		investigation_ratio = 19,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100010,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -340766,6 +341277,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 86,
 		scale = {
 			0.64,
 			0.59,
@@ -341414,8 +341926,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100014] = {
-		pos_x = "0.26875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -341424,7 +341935,7 @@ function ()
 		story_refresh_boss = "GUOQING12",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.26875",
 		special_operation_list = "",
 		air_dominance = 810,
 		best_air_dominance = 1055,
@@ -341443,10 +341954,11 @@ function ()
 		model = 1,
 		investigation_ratio = 19,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -341475,6 +341987,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 86,
 		scale = {
 			0.34,
 			0.36,
@@ -342073,8 +342586,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100015] = {
-		pos_x = "0.6703125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -342083,7 +342595,7 @@ function ()
 		story_refresh_boss = "GUOQING15",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6703125",
 		special_operation_list = "",
 		air_dominance = 965,
 		best_air_dominance = 1255,
@@ -342102,10 +342614,11 @@ function ()
 		model = 1,
 		investigation_ratio = 20,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -342134,6 +342647,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 90,
 		scale = {
 			0.66,
 			0.36,
@@ -342834,8 +343348,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100016] = {
-		pos_x = "0.5421875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -342844,7 +343357,7 @@ function ()
 		story_refresh_boss = "GUOQING18",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5421875",
 		special_operation_list = "",
 		air_dominance = 1130,
 		best_air_dominance = 1470,
@@ -342863,10 +343376,11 @@ function ()
 		model = 1,
 		investigation_ratio = 21,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -342895,6 +343409,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 94,
 		scale = {
 			0.52,
 			0.62,
@@ -343589,8 +344104,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100021] = {
-		pos_x = "0.15703125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -343599,7 +344113,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.15703125",
 		special_operation_list = "",
 		air_dominance = 90,
 		best_air_dominance = 120,
@@ -343618,8 +344132,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 2100020,
 		unlocklevel = 0,
@@ -343649,6 +344164,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -344083,8 +344599,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100022] = {
-		pos_x = "0.50546875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -344093,7 +344608,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.50546875",
 		special_operation_list = "",
 		air_dominance = 120,
 		best_air_dominance = 160,
@@ -344112,8 +344627,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 2100020,
 		unlocklevel = 0,
@@ -344143,6 +344659,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.65,
 			0.36,
@@ -344639,8 +345156,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100023] = {
-		pos_x = "0.635546875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -344649,7 +345165,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.635546875",
 		special_operation_list = "",
 		air_dominance = 160,
 		best_air_dominance = 210,
@@ -344668,8 +345184,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 2100020,
 		unlocklevel = 0,
@@ -344699,6 +345216,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.64,
 			0.59,
@@ -345285,8 +345803,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100024] = {
-		pos_x = "0.121875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -345295,7 +345812,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.121875",
 		special_operation_list = "",
 		air_dominance = 200,
 		best_air_dominance = 260,
@@ -345314,8 +345831,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 2100021,
 		unlocklevel = 0,
@@ -345345,6 +345863,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.36,
@@ -345954,8 +346473,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100025] = {
-		pos_x = "0.57734375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -345964,7 +346482,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.57734375",
 		special_operation_list = "",
 		air_dominance = 260,
 		best_air_dominance = 340,
@@ -345983,8 +346501,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 2100021,
 		unlocklevel = 0,
@@ -346014,6 +346533,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.36,
@@ -346641,8 +347161,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100026] = {
-		pos_x = "0.621875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -346651,7 +347170,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.621875",
 		special_operation_list = "",
 		air_dominance = 320,
 		best_air_dominance = 420,
@@ -346670,8 +347189,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 2100021,
 		unlocklevel = 0,
@@ -346701,6 +347221,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.62,
@@ -347503,8 +348024,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100031] = {
-		pos_x = "0.15703125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 1,
@@ -347513,7 +348033,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.15703125",
 		special_operation_list = "",
 		air_dominance = 320,
 		best_air_dominance = 420,
@@ -347532,8 +348052,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 2100030,
 		unlocklevel = 0,
@@ -347563,6 +348084,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -348038,8 +348560,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100032] = {
-		pos_x = "0.50546875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -348048,7 +348569,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.50546875",
 		special_operation_list = "",
 		air_dominance = 360,
 		best_air_dominance = 470,
@@ -348067,8 +348588,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 2100030,
 		unlocklevel = 0,
@@ -348098,6 +348620,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.65,
 			0.36,
@@ -348635,8 +349158,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100033] = {
-		pos_x = "0.635546875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -348645,7 +349167,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.635546875",
 		special_operation_list = "",
 		air_dominance = 400,
 		best_air_dominance = 520,
@@ -348664,8 +349186,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 2100030,
 		unlocklevel = 0,
@@ -348695,6 +349218,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.64,
 			0.59,
@@ -349322,8 +349846,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100034] = {
-		pos_x = "0.121875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -349332,7 +349855,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.121875",
 		special_operation_list = "",
 		air_dominance = 490,
 		best_air_dominance = 635,
@@ -349351,8 +349874,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 2100031,
 		unlocklevel = 0,
@@ -349382,6 +349906,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.36,
@@ -350032,8 +350557,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100035] = {
-		pos_x = "0.57734375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -350042,7 +350566,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.57734375",
 		special_operation_list = "",
 		air_dominance = 580,
 		best_air_dominance = 755,
@@ -350061,8 +350585,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 2100031,
 		unlocklevel = 0,
@@ -350092,6 +350617,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.36,
@@ -350760,8 +351286,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100036] = {
-		pos_x = "0.621875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -350770,7 +351295,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.621875",
 		special_operation_list = "",
 		air_dominance = 680,
 		best_air_dominance = 885,
@@ -350789,8 +351314,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 2100031,
 		unlocklevel = 0,
@@ -350820,6 +351346,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.62,
@@ -351663,8 +352190,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100041] = {
-		pos_x = "0.1625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
@@ -351673,7 +352199,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.1625",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 130,
@@ -351692,10 +352218,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100040,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -351724,6 +352251,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -352218,8 +352746,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100042] = {
-		pos_x = "0.2375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -352228,7 +352755,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2375",
 		special_operation_list = "",
 		air_dominance = 135,
 		best_air_dominance = 175,
@@ -352247,10 +352774,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100040,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -352279,6 +352807,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.36,
@@ -352913,8 +353442,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100043] = {
-		pos_x = "0.62109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -352923,7 +353451,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.62109375",
 		special_operation_list = "",
 		air_dominance = 170,
 		best_air_dominance = 220,
@@ -352942,10 +353470,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100040,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -352974,6 +353503,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -353575,8 +354105,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100044] = {
-		pos_x = "0.68515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -353585,7 +354114,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.68515625",
 		special_operation_list = "",
 		air_dominance = 205,
 		best_air_dominance = 265,
@@ -353604,10 +354133,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100040,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -353636,6 +354166,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -354355,8 +354886,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100045] = {
-		pos_x = "0.228125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -354365,7 +354895,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.228125",
 		special_operation_list = "",
 		air_dominance = 220,
 		best_air_dominance = 285,
@@ -354384,10 +354914,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100041,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -354416,6 +354947,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -354930,8 +355462,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100046] = {
-		pos_x = "0.67578125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -354940,7 +355471,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67578125",
 		special_operation_list = "",
 		air_dominance = 320,
 		best_air_dominance = 415,
@@ -354959,10 +355490,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100041,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -354991,6 +355523,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.36,
@@ -355513,8 +356046,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100047] = {
-		pos_x = "0.31640625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -355523,7 +356055,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.31640625",
 		special_operation_list = "",
 		air_dominance = 425,
 		best_air_dominance = 555,
@@ -355542,10 +356074,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100041,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -355574,6 +356107,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -356151,8 +356685,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100048] = {
-		pos_x = "0.55625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -356161,7 +356694,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.55625",
 		special_operation_list = "",
 		air_dominance = 535,
 		best_air_dominance = 695,
@@ -356180,10 +356713,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100041,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -356212,6 +356746,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -356945,8 +357480,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100051] = {
-		pos_x = "0.1625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -356955,7 +357489,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.1625",
 		special_operation_list = "",
 		air_dominance = 355,
 		best_air_dominance = 460,
@@ -356974,10 +357508,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100050,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -357006,6 +357541,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -357541,8 +358077,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100052] = {
-		pos_x = "0.2375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -357551,7 +358086,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2375",
 		special_operation_list = "",
 		air_dominance = 430,
 		best_air_dominance = 560,
@@ -357570,10 +358105,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100050,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -357602,6 +358138,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.36,
@@ -358279,8 +358816,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100053] = {
-		pos_x = "0.62109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -358289,7 +358825,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.62109375",
 		special_operation_list = "",
 		air_dominance = 505,
 		best_air_dominance = 655,
@@ -358308,10 +358844,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100050,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -358340,6 +358877,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -358982,8 +359520,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100054] = {
-		pos_x = "0.68515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -358992,7 +359529,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.68515625",
 		special_operation_list = "",
 		air_dominance = 580,
 		best_air_dominance = 755,
@@ -359011,10 +359548,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100050,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -359043,6 +359581,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -359803,8 +360342,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100055] = {
-		pos_x = "0.228125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -359813,7 +360351,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.228125",
 		special_operation_list = "",
 		air_dominance = 635,
 		best_air_dominance = 825,
@@ -359832,10 +360370,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100051,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -359864,6 +360403,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -360419,8 +360959,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100056] = {
-		pos_x = "0.67578125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -360429,7 +360968,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67578125",
 		special_operation_list = "",
 		air_dominance = 790,
 		best_air_dominance = 1025,
@@ -360448,10 +360987,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100051,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -360480,6 +361020,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.36,
@@ -361043,8 +361584,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100057] = {
-		pos_x = "0.31640625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -361053,7 +361593,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.31640625",
 		special_operation_list = "",
 		air_dominance = 955,
 		best_air_dominance = 1240,
@@ -361072,10 +361612,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100051,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -361104,6 +361645,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -361722,8 +362264,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100058] = {
-		pos_x = "0.55625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 17,
 		oil = 10,
 		is_limit_move = 0,
@@ -361732,7 +362273,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.55625",
 		special_operation_list = "",
 		air_dominance = 1130,
 		best_air_dominance = 1470,
@@ -361751,10 +362292,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100051,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -361783,6 +362325,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -362557,8 +363100,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100061] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
@@ -362567,7 +363109,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 120,
 		best_air_dominance = 160,
@@ -362586,10 +363128,11 @@ function ()
 		model = 1,
 		investigation_ratio = 12,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100060,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -362618,6 +363161,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 58,
 		scale = {
 			0.34,
 			0.53,
@@ -363143,8 +363687,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100062] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -363153,7 +363696,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 160,
 		best_air_dominance = 210,
@@ -363172,10 +363715,11 @@ function ()
 		model = 2,
 		investigation_ratio = 12,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100060,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -363204,6 +363748,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 58,
 		scale = {
 			0.65,
 			0.36,
@@ -363787,8 +364332,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100063] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -363797,7 +364341,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 200,
 		best_air_dominance = 260,
@@ -363816,10 +364360,11 @@ function ()
 		model = 2,
 		investigation_ratio = 13,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100060,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -363848,6 +364393,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 62,
 		scale = {
 			0.64,
 			0.59,
@@ -364522,8 +365068,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100064] = {
-		pos_x = "0.23125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -364532,7 +365077,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.23125",
 		special_operation_list = "",
 		air_dominance = 260,
 		best_air_dominance = 340,
@@ -364551,10 +365096,11 @@ function ()
 		model = 2,
 		investigation_ratio = 14,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100061,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -364583,6 +365129,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 66,
 		scale = {
 			0.34,
 			0.36,
@@ -365195,8 +365742,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100065] = {
-		pos_x = "0.5390625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -365205,7 +365751,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5390625",
 		special_operation_list = "",
 		air_dominance = 320,
 		best_air_dominance = 420,
@@ -365224,10 +365770,11 @@ function ()
 		model = 2,
 		investigation_ratio = 14,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100061,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -365256,6 +365803,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 66,
 		scale = {
 			0.66,
 			0.36,
@@ -366009,8 +366557,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100066] = {
-		pos_x = "0.6140625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -366019,7 +366566,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6140625",
 		special_operation_list = "",
 		air_dominance = 320,
 		best_air_dominance = 420,
@@ -366038,10 +366585,11 @@ function ()
 		model = 2,
 		investigation_ratio = 15,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100061,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -366070,6 +366618,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 70,
 		scale = {
 			0.52,
 			0.62,
@@ -367002,8 +367551,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100071] = {
-		pos_x = "0.2515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
@@ -367012,7 +367560,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2515625",
 		special_operation_list = "",
 		air_dominance = 360,
 		best_air_dominance = 470,
@@ -367031,10 +367579,11 @@ function ()
 		model = 1,
 		investigation_ratio = 14,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2100070,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -367063,6 +367612,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 66,
 		scale = {
 			0.34,
 			0.53,
@@ -367629,8 +368179,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100072] = {
-		pos_x = "0.38203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -367639,7 +368188,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.38203125",
 		special_operation_list = "",
 		air_dominance = 400,
 		best_air_dominance = 520,
@@ -367658,10 +368207,11 @@ function ()
 		model = 2,
 		investigation_ratio = 15,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100070,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -367690,6 +368240,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 70,
 		scale = {
 			0.65,
 			0.36,
@@ -368314,8 +368865,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100073] = {
-		pos_x = "0.665625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -368324,7 +368874,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.665625",
 		special_operation_list = "",
 		air_dominance = 490,
 		best_air_dominance = 635,
@@ -368343,10 +368893,11 @@ function ()
 		model = 2,
 		investigation_ratio = 16,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100070,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -368375,6 +368926,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 74,
 		scale = {
 			0.64,
 			0.59,
@@ -369090,8 +369642,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100074] = {
-		pos_x = "0.23125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -369100,7 +369651,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.23125",
 		special_operation_list = "",
 		air_dominance = 580,
 		best_air_dominance = 755,
@@ -369119,10 +369670,11 @@ function ()
 		model = 2,
 		investigation_ratio = 17,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100071,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -369151,6 +369703,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 78,
 		scale = {
 			0.34,
 			0.36,
@@ -369804,8 +370357,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100075] = {
-		pos_x = "0.5390625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -369814,7 +370366,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.5390625",
 		special_operation_list = "",
 		air_dominance = 680,
 		best_air_dominance = 885,
@@ -369833,10 +370385,11 @@ function ()
 		model = 2,
 		investigation_ratio = 18,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100071,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -369865,6 +370418,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 82,
 		scale = {
 			0.66,
 			0.36,
@@ -370659,8 +371213,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100076] = {
-		pos_x = "0.6140625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -370669,7 +371222,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6140625",
 		special_operation_list = "",
 		air_dominance = 1130,
 		best_air_dominance = 1470,
@@ -370688,10 +371241,11 @@ function ()
 		model = 2,
 		investigation_ratio = 19,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100071,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -370720,6 +371274,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 86,
 		scale = {
 			0.52,
 			0.62,
@@ -371693,8 +372248,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100081] = {
-		pos_x = "0.1625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -371703,7 +372257,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.1625",
 		special_operation_list = "",
 		air_dominance = 120,
 		best_air_dominance = 155,
@@ -371722,10 +372276,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 10,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100080,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -371754,6 +372309,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -372240,8 +372796,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100082] = {
-		pos_x = "0.62109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -372250,7 +372805,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.62109375",
 		special_operation_list = "",
 		air_dominance = 165,
 		best_air_dominance = 215,
@@ -372269,10 +372824,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100080,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -372301,6 +372857,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -372893,8 +373450,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100083] = {
-		pos_x = "0.3813",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -372903,7 +373459,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.3813",
 		special_operation_list = "",
 		air_dominance = 215,
 		best_air_dominance = 280,
@@ -372922,10 +373478,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 15,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100080,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -372954,6 +373511,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -373658,8 +374216,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100084] = {
-		pos_x = "0.228125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -373668,7 +374225,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.228125",
 		special_operation_list = "",
 		air_dominance = 265,
 		best_air_dominance = 345,
@@ -373687,10 +374244,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100081,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -373719,6 +374277,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -374218,8 +374777,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100085] = {
-		pos_x = "0.31640625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -374228,7 +374786,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.31640625",
 		special_operation_list = "",
 		air_dominance = 345,
 		best_air_dominance = 450,
@@ -374247,10 +374805,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100081,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -374279,6 +374838,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -374883,8 +375443,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100086] = {
-		pos_x = "0.55625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -374893,7 +375452,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.55625",
 		special_operation_list = "",
 		air_dominance = 425,
 		best_air_dominance = 555,
@@ -374912,8 +375471,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 2100081,
 		unlocklevel = 0,
@@ -374943,6 +375503,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -375674,8 +376235,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100091] = {
-		pos_x = "0.1625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -375684,7 +376244,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.1625",
 		special_operation_list = "",
 		air_dominance = 425,
 		best_air_dominance = 550,
@@ -375703,10 +376263,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 17,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100090,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -375735,6 +376296,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -376262,8 +376824,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100092] = {
-		pos_x = "0.62109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -376272,7 +376833,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.62109375",
 		special_operation_list = "",
 		air_dominance = 485,
 		best_air_dominance = 630,
@@ -376291,10 +376852,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 17,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100090,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -376323,6 +376885,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -376956,8 +377519,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100093] = {
-		pos_x = "0.3813",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -376966,7 +377528,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.3813",
 		special_operation_list = "",
 		air_dominance = 545,
 		best_air_dominance = 710,
@@ -376985,10 +377547,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 21,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100090,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -377017,6 +377580,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -377762,8 +378326,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100094] = {
-		pos_x = "0.228125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -377772,7 +378335,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.228125",
 		special_operation_list = "",
 		air_dominance = 650,
 		best_air_dominance = 845,
@@ -377791,10 +378354,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100091,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -377823,6 +378387,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -378363,8 +378928,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100095] = {
-		pos_x = "0.31640625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -378373,7 +378937,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.31640625",
 		special_operation_list = "",
 		air_dominance = 770,
 		best_air_dominance = 1000,
@@ -378392,10 +378956,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100091,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -378424,6 +378989,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -379071,8 +379637,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100096] = {
-		pos_x = "0.55625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -379081,7 +379646,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.55625",
 		special_operation_list = "",
 		air_dominance = 905,
 		best_air_dominance = 1175,
@@ -379100,10 +379665,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100091,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -379132,6 +379698,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -379905,8 +380472,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100101] = {
-		pos_x = "0.19375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 1,
@@ -379915,7 +380481,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.19375",
 		special_operation_list = "",
 		air_dominance = 95,
 		best_air_dominance = 150,
@@ -379933,8 +380499,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 10,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 2100100,
 		unlocklevel = 0,
@@ -379964,6 +380531,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -380507,8 +381075,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100102] = {
-		pos_x = "0.2703125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -380517,7 +381084,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2703125",
 		special_operation_list = "",
 		air_dominance = 130,
 		best_air_dominance = 170,
@@ -380535,8 +381102,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 2100100,
 		unlocklevel = 0,
@@ -380566,6 +381134,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -381074,8 +381643,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100103] = {
-		pos_x = "0.68984375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -381084,7 +381652,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.68984375",
 		special_operation_list = "",
 		air_dominance = 170,
 		best_air_dominance = 225,
@@ -381102,8 +381670,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 15,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 2100100,
 		unlocklevel = 0,
@@ -381133,6 +381702,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -381739,8 +382309,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100104] = {
-		pos_x = "0.6109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -381749,7 +382318,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6109375",
 		special_operation_list = "",
 		air_dominance = 220,
 		best_air_dominance = 290,
@@ -381767,8 +382336,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 25,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 2100100,
 		unlocklevel = 0,
@@ -381798,6 +382368,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -382403,8 +382974,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100105] = {
-		pos_x = "0.26015625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -382413,7 +382983,7 @@ function ()
 		story_refresh_boss = "YINGHUA11",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.26015625",
 		special_operation_list = "",
 		air_dominance = 285,
 		best_air_dominance = 375,
@@ -382431,8 +383001,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 2100101,
 		unlocklevel = 0,
@@ -382462,6 +383033,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -383118,8 +383690,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100106] = {
-		pos_x = "0.6453125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -383128,7 +383699,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6453125",
 		special_operation_list = "",
 		air_dominance = 380,
 		best_air_dominance = 495,
@@ -383146,8 +383717,9 @@ function ()
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 2100101,
 		unlocklevel = 0,
@@ -383177,6 +383749,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -383893,8 +384466,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100111] = {
-		pos_x = "0.19375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -383903,7 +384475,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.19375",
 		special_operation_list = "",
 		air_dominance = 375,
 		best_air_dominance = 490,
@@ -383922,8 +384494,9 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 17,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 1,
 		map = 2100110,
 		unlocklevel = 0,
@@ -383953,6 +384526,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -384537,8 +385111,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100112] = {
-		pos_x = "0.2703125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 1,
@@ -384547,7 +385120,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2703125",
 		special_operation_list = "",
 		air_dominance = 470,
 		best_air_dominance = 615,
@@ -384566,10 +385139,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 17,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100110,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -384598,6 +385172,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -385146,8 +385721,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100113] = {
-		pos_x = "0.68984375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -385156,7 +385730,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.68984375",
 		special_operation_list = "",
 		air_dominance = 570,
 		best_air_dominance = 745,
@@ -385175,10 +385749,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 21,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100110,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -385207,6 +385782,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -385853,8 +386429,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100114] = {
-		pos_x = "0.6109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 1,
@@ -385863,7 +386438,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6109375",
 		special_operation_list = "",
 		air_dominance = 730,
 		best_air_dominance = 950,
@@ -385882,10 +386457,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100110,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -385914,6 +386490,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -386559,8 +387136,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100115] = {
-		pos_x = "0.26015625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -386569,7 +387145,7 @@ function ()
 		story_refresh_boss = "YINGHUA11",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.26015625",
 		special_operation_list = "",
 		air_dominance = 915,
 		best_air_dominance = 1190,
@@ -386588,10 +387164,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100111,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -386620,6 +387197,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -387318,8 +387896,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2100116] = {
-		pos_x = "0.6453125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 1,
@@ -387328,7 +387905,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6453125",
 		special_operation_list = "",
 		air_dominance = 1125,
 		best_air_dominance = 1465,
@@ -387347,10 +387924,11 @@ function ()
 		model = 2,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 40,
-		is_ai = 1,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 1,
 		map = 2100111,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -387379,6 +387957,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -388137,8 +388716,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2200001] = {
-		pos_x = "0.35625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 10,
 		is_limit_move = 0,
@@ -388147,7 +388725,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.35625",
 		special_operation_list = "",
 		air_dominance = 81,
 		best_air_dominance = 150,
@@ -388166,8 +388744,9 @@ function ()
 		model = 1,
 		investigation_ratio = 16,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 5,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 0,
 		map = 2200000,
 		unlocklevel = 15,
@@ -388197,6 +388776,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 74,
 		scale = {
 			0.34,
 			0.7,
@@ -388548,8 +389128,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2200002] = {
-		pos_x = "0.58203125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 42,
 		oil = 10,
 		is_limit_move = 0,
@@ -388558,7 +389137,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.58203125",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
@@ -388577,10 +389156,11 @@ function ()
 		model = 1,
 		investigation_ratio = 17,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2200000,
 		unlocklevel = 15,
 		chapter_fx = "",
@@ -388609,6 +389189,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 78,
 		scale = {
 			0.53,
 			0.45,
@@ -389034,8 +389615,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2200003] = {
-		pos_x = "0.44921875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
@@ -389044,7 +389624,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 1,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.44921875",
 		special_operation_list = "",
 		air_dominance = 120,
 		best_air_dominance = 150,
@@ -389063,10 +389643,11 @@ function ()
 		model = 1,
 		investigation_ratio = 18,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2200000,
 		unlocklevel = 15,
 		chapter_fx = "",
@@ -389095,6 +389676,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 82,
 		scale = {
 			0.52,
 			0.36,
@@ -389550,8 +390132,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2200011] = {
-		pos_x = "0.7046875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 35,
 		oil = 10,
 		is_limit_move = 0,
@@ -389560,7 +390141,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.7046875",
 		special_operation_list = "",
 		air_dominance = 81,
 		best_air_dominance = 150,
@@ -389579,10 +390160,11 @@ function ()
 		model = 1,
 		investigation_ratio = 15,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2200010,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -389611,6 +390193,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 70,
 		scale = {
 			0.34,
 			0.53,
@@ -390135,8 +390718,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2200012] = {
-		pos_x = "0.44375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 28,
 		oil = 10,
 		is_limit_move = 0,
@@ -390145,7 +390727,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.44375",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
@@ -390164,10 +390746,11 @@ function ()
 		model = 1,
 		investigation_ratio = 18,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2200010,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -390196,6 +390779,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 82,
 		scale = {
 			0.49,
 			0.35,
@@ -390819,8 +391403,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2200013] = {
-		pos_x = "0.2953125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 22,
 		oil = 10,
 		is_limit_move = 0,
@@ -390829,7 +391412,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2953125",
 		special_operation_list = "",
 		air_dominance = 120,
 		best_air_dominance = 150,
@@ -390848,10 +391431,11 @@ function ()
 		model = 1,
 		investigation_ratio = 21,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 2200010,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -390880,6 +391464,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 94,
 		scale = {
 			0.61,
 			0.41,
@@ -391561,8 +392146,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2200021] = {
-		pos_x = "0.20234375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -391571,7 +392155,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.20234375",
 		special_operation_list = "",
 		air_dominance = 81,
 		best_air_dominance = 150,
@@ -391589,8 +392173,9 @@ function ()
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
-		ammo_submarine = 0,
 		num_2 = 20,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 0,
 		map = 2200020,
 		unlocklevel = 0,
@@ -391620,6 +392205,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 82,
 		scale = {
 			0.34,
 			0.53,
@@ -392256,8 +392842,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2200022] = {
-		pos_x = "0.28671875",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -392266,7 +392851,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.28671875",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 150,
@@ -392284,8 +392869,9 @@ function ()
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
-		ammo_submarine = 0,
 		num_2 = 30,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 0,
 		map = 2200020,
 		unlocklevel = 0,
@@ -392315,6 +392901,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 90,
 		scale = {
 			0.49,
 			0.35,
@@ -392964,8 +393551,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[2200023] = {
-		pos_x = "0.6375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -392974,7 +393560,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.6375",
 		special_operation_list = "",
 		air_dominance = 120,
 		best_air_dominance = 150,
@@ -392992,8 +393578,9 @@ function ()
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
-		ammo_submarine = 0,
 		num_2 = 35,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 0,
 		map = 2200020,
 		unlocklevel = 0,
@@ -393023,6 +393610,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 98,
 		scale = {
 			0.61,
 			0.41,
@@ -393680,8 +394268,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[9920001] = {
-		pos_x = "0.1625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 50,
 		oil = 10,
 		is_limit_move = 0,
@@ -393690,7 +394277,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.1625",
 		special_operation_list = "",
 		air_dominance = 100,
 		best_air_dominance = 130,
@@ -393709,10 +394296,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 9920001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -393741,6 +394329,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -394235,8 +394824,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[9920002] = {
-		pos_x = "0.2375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -394245,7 +394833,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2375",
 		special_operation_list = "",
 		air_dominance = 135,
 		best_air_dominance = 175,
@@ -394264,10 +394852,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 9920001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -394296,6 +394885,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.36,
@@ -394930,8 +395520,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[9920003] = {
-		pos_x = "0.62109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -394940,7 +395529,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.62109375",
 		special_operation_list = "",
 		air_dominance = 170,
 		best_air_dominance = 220,
@@ -394959,10 +395548,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 9920001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -394991,6 +395581,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -395592,8 +396183,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[9920004] = {
-		pos_x = "0.68515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -395602,7 +396192,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.68515625",
 		special_operation_list = "",
 		air_dominance = 205,
 		best_air_dominance = 265,
@@ -395621,10 +396211,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 9920001,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -395653,6 +396244,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -396372,8 +396964,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[9920005] = {
-		pos_x = "0.228125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -396382,7 +396973,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.228125",
 		special_operation_list = "",
 		air_dominance = 220,
 		best_air_dominance = 285,
@@ -396401,10 +396992,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 9920002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -396433,6 +397025,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -396947,8 +397540,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[9920006] = {
-		pos_x = "0.67578125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -396957,7 +397549,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67578125",
 		special_operation_list = "",
 		air_dominance = 320,
 		best_air_dominance = 415,
@@ -396976,10 +397568,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 9920002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -397008,6 +397601,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.36,
@@ -397530,8 +398124,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[9920007] = {
-		pos_x = "0.31640625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -397540,7 +398133,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.31640625",
 		special_operation_list = "",
 		air_dominance = 425,
 		best_air_dominance = 555,
@@ -397559,10 +398152,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 20,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 9920002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -397591,6 +398185,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -398168,8 +398763,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[9920008] = {
-		pos_x = "0.55625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -398178,7 +398772,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.55625",
 		special_operation_list = "",
 		air_dominance = 535,
 		best_air_dominance = 695,
@@ -398197,10 +398791,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 25,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 9920002,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -398229,6 +398824,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -398962,8 +399558,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[9920011] = {
-		pos_x = "0.1625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -398972,7 +399567,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.1625",
 		special_operation_list = "",
 		air_dominance = 355,
 		best_air_dominance = 460,
@@ -398991,10 +399586,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 9920011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -399023,6 +399619,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -399558,8 +400155,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[9920012] = {
-		pos_x = "0.2375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 34,
 		oil = 10,
 		is_limit_move = 0,
@@ -399568,7 +400164,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.2375",
 		special_operation_list = "",
 		air_dominance = 430,
 		best_air_dominance = 560,
@@ -399587,10 +400183,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 9920011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -399619,6 +400216,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.36,
@@ -400296,8 +400894,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[9920013] = {
-		pos_x = "0.62109375",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -400306,7 +400903,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.62109375",
 		special_operation_list = "",
 		air_dominance = 505,
 		best_air_dominance = 655,
@@ -400325,10 +400922,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 9920011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -400357,6 +400955,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -400999,8 +401598,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[9920014] = {
-		pos_x = "0.68515625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 25,
 		oil = 10,
 		is_limit_move = 0,
@@ -401009,7 +401607,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.68515625",
 		special_operation_list = "",
 		air_dominance = 580,
 		best_air_dominance = 755,
@@ -401028,10 +401626,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 9920011,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -401060,6 +401659,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -401822,8 +402422,7 @@ function ()
 end()
 function ()
 	uv0.chapter_template[9920015] = {
-		pos_x = "0.228125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -401832,7 +402431,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.228125",
 		special_operation_list = "",
 		air_dominance = 635,
 		best_air_dominance = 825,
@@ -401851,10 +402450,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 9920012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -401883,6 +402483,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.53,
@@ -402438,8 +403039,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[9920016] = {
-		pos_x = "0.67578125",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -402448,7 +403048,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.67578125",
 		special_operation_list = "",
 		air_dominance = 790,
 		best_air_dominance = 1025,
@@ -402467,10 +403067,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 9920012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -402499,6 +403100,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.34,
 			0.36,
@@ -403062,8 +403664,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[9920017] = {
-		pos_x = "0.31640625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 20,
 		oil = 10,
 		is_limit_move = 0,
@@ -403072,7 +403673,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.31640625",
 		special_operation_list = "",
 		air_dominance = 955,
 		best_air_dominance = 1240,
@@ -403091,10 +403692,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 30,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 9920012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -403123,6 +403725,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.66,
 			0.45,
@@ -403741,8 +404344,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[9920018] = {
-		pos_x = "0.55625",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 17,
 		oil = 10,
 		is_limit_move = 0,
@@ -403751,7 +404353,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.55625",
 		special_operation_list = "",
 		air_dominance = 1130,
 		best_air_dominance = 1470,
@@ -403770,10 +404372,11 @@ function ()
 		model = 1,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 35,
-		is_ai = 0,
+		ammo_submarine = 0,
 		land_based = "",
+		num_3 = 1,
+		is_ai = 0,
 		map = 9920012,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -403802,6 +404405,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,
@@ -404576,8 +405180,7 @@ function ()
 		alarm_cell = {}
 	}
 	uv0.chapter_template[9920021] = {
-		pos_x = "0.479",
-		num_3 = 1,
+		collection_team = 0,
 		progress_boss = 100,
 		oil = 0,
 		is_limit_move = 0,
@@ -404586,7 +405189,7 @@ function ()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		ammo_cost = 1,
-		collection_team = 0,
+		pos_x = "0.479",
 		special_operation_list = "",
 		air_dominance = 0,
 		best_air_dominance = 0,
@@ -404605,8 +405208,9 @@ function ()
 		model = 5,
 		investigation_ratio = 0,
 		wall_prefab = "",
-		ammo_submarine = 0,
 		num_2 = 4,
+		ammo_submarine = 0,
+		num_3 = 1,
 		is_ai = 0,
 		map = 9920021,
 		unlocklevel = 0,
@@ -404636,6 +405240,7 @@ function ()
 		time = 43200,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
+		avoid_require = 0,
 		scale = {
 			0.52,
 			0.36,

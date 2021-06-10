@@ -1543,6 +1543,9 @@ Current expansions: <color=#92fc63>$3</color>
 	equipment_upgrade_costcheck_error = {
 		tip = "Please confirm the amount of material will be spend for upgrading "
 	},
+	equipment_upgrade_feedback_lack_of_fragment = {
+		tip = "Insufficient <color=#92fc63>$1</color>. "
+	},
 	exercise_count_insufficient = {
 		tip = "<color=#92fc63>You don't have enough exercises.</color>"
 	},
@@ -3184,37 +3187,37 @@ Morale drain and Affection gain are also increased by 100%. ]]
 		tip = {
 			{
 				info = [[
-About Ashes Showdown:
+About META Showdown:
 
-1. From <color=#92fc63>3/18/21 to 6/9/21</color>, challenge Ark Royal META
+1. From <color=#92fc63>6/10/21 to 9/8/21</color>, challenge Helena META
 to earn Sync Points. Sync Points can be used
-to obtain the limited character, <color=#92fc63>Ark Royal META</color> as well
+to obtain the limited character, <color=#92fc63>Helena META</color> as well
 as other great rewards.
  <color=#ff5c5c>Notice: Sync Points will expire after the event period ends.</color>
 
-2. Acquiring and Analyzing Ashes Coordinates
--Ashes Coordinates can be earned by playing Operation Siren.
-Sufficient amounts of Ashes Coordinates
-can be analyzed to begin an Ashes Showdown.
+2. Acquiring and Analyzing META Coordinates
+-META Coordinates can be earned by playing Operation Siren.
+Sufficient amounts of META Coordinates
+can be analyzed to begin an META Showdown.
 -You may perform Analysis <color=#92fc63>2 times</color> per day,
 resetting every day at midnight. Unused
-Ashes Coordinates will be retained.
--You need <color=#92fc63>100</color> Ashes Coordinates to begin 
-an Ashes Showdown.
+META Coordinates will be retained.
+-You need <color=#92fc63>100</color> META Coordinates to begin 
+an META Showdown.
 
 3. Fighting Your Bosses
--Your first time challenging an Ashes boss that you
+-Your first time challenging an META boss that you
 spawned will not require Oil. From the second
 attempt onwards, cost of each attempt will gradually drop from <color=#92fc63>40</color> Oil to <color=#92fc63>1</color> Oil.
 (Will not consume a challenge attempt)
--When an Ashes Showdown boss reaches 0 HP,
+-When an META Showdown boss reaches 0 HP,
 it will be defeated. Participants will be able to collect
 rewards, including a large amount of Sync Points.
--Each Ashes Showdown will only last for <color=#92fc63>24 hours</color>,
+-Each META Showdown will only last for <color=#92fc63>24 hours</color>,
 after which it will disappear.
 Use Request Support if you need help.
--After defeating an Ashes boss, the difficulty
-of subsequent Ashes Showdowns will increase by
+-After defeating an META boss, the difficulty
+of subsequent META Showdowns will increase by
 1 level, up to a maximum of 15.
 
 4. Fight Others’ Bosses
@@ -3227,15 +3230,15 @@ upon the <color=#92fc63>amount of DMG</color> you dealt.
 uses no Oil.
 -You can have up to <color=#92fc63>3</color> Challenge attempts,
 resetting each day at midnight.
-Each Ashes Showdown can have up to 30 participants.
+Each META Showdown can have up to 30 participants.
 
 5. Combat Instructions
 Only ships participating in Operation Siren can
-participate in Ashes Showdowns. You also cannot
+participate in META Showdowns. You also cannot
 bring Meowfficers or submarines.
 -At the end of battle, no EXP is gained, and Morale
 will not be affected.
--You cannot quit during an Ashes Showdown.
+-You cannot quit during an META Showdown.
 If connection is lost due to unstable network
 conditions, the following will occur:
 a. If challenging a boss you discovered, you will
@@ -3245,12 +3248,12 @@ b. If challenging someone else's boss,
 a challenge attempt will be used, but no rewards
 will be granted.
 <color=#92fc63>Please make sure your network conditions are stable
-before attempting an Ashes Showdown!</color>.
+before attempting an META Showdown!</color>.
 
 6. Artillery Support
--From the 31st day of this Ashes Showdown season onwards, whenever you begin an Ashes Showdown, your fleet will gain an additional wave of artillery support. This artillery support will deal damage to the enemy and apply a special debuff that inflicts damage over time (this damage cannot be amplified by any bonus effects).
-The later in the Ashes Showdown season it is, the greater the damage inflicted by this artillery support.
-*Artillery Support will only appear during Ashes Showdown battles you discover, and will trigger with each challenge attempt.]]
+-From the 31st day of this META Showdown season onwards, whenever you begin an META Showdown, your fleet will gain an additional wave of artillery support. This artillery support will deal damage to the enemy and apply a special debuff that inflicts damage over time (this damage cannot be amplified by any bonus effects).
+The later in the META Showdown season it is, the greater the damage inflicted by this artillery support.
+*Artillery Support will only appear during META Showdown battles you discover, and will trigger with each challenge attempt.]]
 			}
 		}
 	},
@@ -6646,7 +6649,7 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		tip = "The rewards from this phase have not been fully acquired yet, cannot enter next phase"
 	},
 	shop_street_activity_tip = {
-		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>5.27-6.9</COLOR>)!"
+		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>5.27-6.16</COLOR>)!"
 	},
 	twitter_link_title = {
 		tip = "Twitter Account:$1"
@@ -8700,7 +8703,7 @@ purification has failed.]]
 		tip = "Can't escape!"
 	},
 	word_attr_ac = {
-		tip = "Airspace Control "
+		tip = "Airspace Control"
 	},
 	help_battle_ac = {
 		tip = {
@@ -10641,6 +10644,9 @@ Event Rules:
 	index_special = {
 		tip = "Special"
 	},
+	index_propose_skin = {
+		tip = "Pledge Outfit "
+	},
 	index_not_obtained = {
 		tip = "Not Obtained"
 	},
@@ -11090,6 +11096,9 @@ By tapping the “Quick Retire” button to the bottom left of the Retire interf
 	},
 	equipment_upgrade_initial_node = {
 		tip = "This gear can't be created in Gear Lab "
+	},
+	equipment_upgrade_feedback_compose_tip = {
+		tip = "Performing Gear R&D will expend the items required for the gear's construction. Continue?"
 	},
 	discount_coupon_tip = {
 		tip = "是否使用<color=#92fc63FF>$1钻石</color>及<color=#92fc63FF>$2 </color>购买<color=#92fc63FF>$3</color>"
@@ -11818,7 +11827,7 @@ you can earn.]]
 		tip = "Guild Roster Size +$1"
 	},
 	guild_tech_livness_no_enough = {
-		tip = "Buildable at $1 Guild Tokens "
+		tip = "This facility's upgrade cost is increased because you currently need <color=#ff5c5c>$1</color> more Guild Contribution points. Do you want to continue with the facility upgrade?"
 	},
 	guild_ship_attr_desc = {
 		tip = "The Guild's $1 has $2 when $3 during operations."
@@ -12148,32 +12157,44 @@ you can earn.]]
 	guild_tech_tip = {
 		tip = {
 			{
-				info = "Guild Tech Info:"
-			},
-			{
-				info = "1. Guild Tech Facilities:"
-			},
-			{
-				info = "Guild Tech facilities are jointly managed by the entire Guild and grant a number of bonuses to its members.\nMembers of the Guild can gain access to these bonuses by contributing Guild Tokens and Guild Funds.\nThe facilities themselves are administered by the Guild Leader and Officers, who can choose to upgrade the buildings and make their boosts stronger."
-			},
-			{
-				info = "Facility information and construction options can be found via the button in the top right corner on the Guild Tech screen."
-			},
-			{
-				info = "2. Facility Management:\n- The requirements to use or upgrade a facility can be found on the Guild Tech screen."
-			},
-			{
-				info = "- Facilities can be upgraded by spending Guild Tokens and Guild Funds.\n- A player must be in a Guild in order to benefit from Guild Tech facilities.\n- If a player leaves a Guild and joins another, their new facility level will be based on which is highest between their own facility level or the facility level of the new Guild. Either way, a player will not need to level up their facilities from scratch."
-			},
-			{
-				info = "3. Upgrading Facilities:\nTo upgrade a facility, a Guild Leader or an Officer must go to the Guild Tech screen, enable Research Mode, and choose a facility to upgrade.\nOnce a facility has been chosen, members of the Guild must contribute materials until the bar has fully filled up, at which point the facility will level up."
+				info = "- Guild Tech Info:\n"
 			},
 			{
 				info = [[
-4. Contributing Materials:
+1. Guild Tech Facilities:
+Guild Tech facilities are jointly managed by the entire Guild and grant a number of benefits to its members.
+Members of the Guild can gain access to these benefits by contributing Guild Tokens and Guild Funds.
+The facilities themselves are administered by the Guild Leader and Officers, who can choose to upgrade the buildings and make their boosts stronger.
+Members of the Guild can gain access to these benefits by contributing Guild Tokens and Guild Funds.
+The facilities themselves are administered by the Guild Leader and Officers, who can choose to upgrade the buildings and make their boosts stronger.
+]]
+			},
+			{
+				info = "Facility information and construction options can be found via the button in the top right corner on the Guild Tech screen.\n"
+			},
+			{
+				info = [[
+2. Facility Management:
+- The requirements to use or upgrade a facility can be found on the Guild Tech screen.
+- Facilities must be upgraded by expending Guild Tokens and Guild Funds. If your Contribution Level does not meet a facility's level threshold, the Guild Token and Guild Fund cost will increase.
+- If a player leaves their Guild and does not join another, their facility levels will stay at the highest they upgraded to.
+- If a player leaves their Guild and joins another, their facility levels will carry over to the new Guild, meaning they do not need to start over from scratch.
+]]
+			},
+			{
+				info = "3. Factility Level Caps:\nYour facility level cap is determined by whichever is highest between the Guild Tech level of the Guild you are in, or the Public Guild Tech level."
+			},
+			{
+				info = "4. Upgrading Facilities:\nTo upgrade a facility, a Guild Leader or an Officer must go to the Guild Tech screen, enable Research Mode, and choose a facility to upgrade.\nOnce a facility has been chosen, members of the Guild must contribute materials until the bar has fully filled up, at which point the facility will level up."
+			},
+			{
+				info = [[
+5. Contributing Materials:
 To donate items to your Guild, go to the Contributions screen and select the items you wish to give.
-Contributing will give your fellow members Guild Tokens, and also increase your Guild Funds and fill the Guild Tech progress bar.
-Note: the Guild can only change which facility it upgrades once every 24 hours. The default facility upgrade is the Guild Roster Expansion.]]
+Once a facility has been chosen, members of the Guild must contribute materials until the bar has fully filled up, at which point the facility will level up.
+
+The Guild can only change which facility it upgrades once every 24 hours. The default facility upgrade is the Guild Roster Expansion.
+The number of progress increments that can be made in one day is determined by the amount of Guild members multiplied by 3. If you exceed this threshold, contributing items will yield no further progress, but you will still gain Guild Tokens.]]
 			}
 		}
 	},
@@ -12314,6 +12335,41 @@ Note: the Guild can only change which facility it upgrades once every 24 hours. 
 				info = "Rewards can be claimed via the Action Report screen after a Guild Event has concluded."
 			}
 		}
+	},
+	guild_public_tech_tip = {
+		tip = {
+			{
+				info = "Public Guild Tech Info:："
+			},
+			{
+				info = "1. Public Guild Tech (PGT) is shared and managed by all players, even those not in a Guild."
+			},
+			{
+				info = "2. PGT provides a broad array of bonuses which players can benefit from by contributing their own Guild Tokens and Coins."
+			},
+			{
+				info = "3. The PGT level cap is determined by the combined Guild Tech levels of all Guilds. A small amount of progress towards the next PGT level cap increase is passively granted every day."
+			},
+			{
+				info = "4. The PGT level cap can affect your Guild Tech's level cap. "
+			}
+		}
+	},
+	guild_public_office_tip = {
+		tip = {
+			{
+				info = "Contributing Materials Info:"
+			},
+			{
+				info = "1.Even players who aren't in a Guild can contribute items to receive Guild Tokens."
+			},
+			{
+				info = "2.Up to <color=#92fc63>3</color> contributions can be made every day."
+			}
+		}
+	},
+	guild_tech_price_inc_tip = {
+		tip = "This facility's upgrade cost is increased as you do not meet the <color=#92fc63>Guild Tech</color> leveling criteria. Do you want to continue with the facility upgrade?"
 	},
 	guild_boss_fleet_desc = {
 		tip = [[
@@ -12547,7 +12603,7 @@ There is a cap to how many cores you can earn in one month. This cap resets at m
 		}
 	},
 	fleet_antisub_range = {
-		tip = "Submarine Scan Range: "
+		tip = "SS Detection"
 	},
 	fleet_antisub_range_tip = {
 		tip = {
@@ -13222,10 +13278,10 @@ How to Play
 		tip = "Please try again later. "
 	},
 	world_joint_exit_battle_tip = {
-		tip = "Would you like to end the battle and head to Ashes Showdown? "
+		tip = "Would you like to end the battle and head to META Showdown?"
 	},
 	world_boss_get_item = {
-		tip = "You’ve obtained the maximum amount of Ashes Coordinates. Do you want to analyze the Ashes Coordinates and begin an Ashes Showdown? \n(<color=#ff5c5c>If you do not analyze your Ashes Coordinates, you will not be able to collect any more today</color>) "
+		tip = "You’ve obtained the maximum amount of META Coordinates. Do you want to analyze the META Coordinates and begin an META Showdown? \n(<color=#ff5c5c>If you do not analyze your META Coordinates, you will not be able to collect any more today</color>) "
 	},
 	world_boss_ask_help = {
 		tip = "A support request cannot be sent to this channel. "
@@ -13237,7 +13293,7 @@ How to Play
 		tip = "Coordinates have expired. Please try another target. "
 	},
 	world_boss_fleet = {
-		tip = "Ashes Showdown Fleet "
+		tip = "META Showdown Fleet "
 	},
 	world_max_challenge_cnt = {
 		tip = "This battle is already full. Please try another target. "
@@ -13381,7 +13437,7 @@ How to Play
 		tip = "$1 Challenge Attempts will be restored each day at midnight. "
 	},
 	world_boss_progress_item_desc = {
-		tip = "Analyze the<color=#92fc63> Ashes Coordinates </color>you’ve collected during Operation Siren to unlock an Ashes Showdown. Once analyzed, any leftover Ashes Coordinates will be consumed. If the amount of stored Ashes Coordinates has reached its max, you will not be able to obtain any more Ashes Coordinates.\nDaily Analysis Attempts: $1/$2\nAshes Coordinates collected: $3 "
+		tip = "Analyze the<color=#92fc63> META Coordinates </color>you’ve collected during Operation Siren to unlock an META Showdown. Once analyzed, any leftover META Coordinates will be consumed. If the amount of stored META Coordinates has reached its max, you will not be able to obtain any more META Coordinates.\nDaily Analysis Attempts: $1/$2\nMETA Coordinates collected: $3 "
 	},
 	world_joint_max_challenge_people_cnt = {
 		tip = "This battle is already full. "
@@ -13440,7 +13496,7 @@ How to Play
 				info = "1. About Sync Points:"
 			},
 			{
-				info = "Sync Points obtained through Ashes Showdown in Operation Siren can be used to recruit certain META ships."
+				info = "Sync Points obtained through META Showdown in Operation Siren can be used to recruit certain META ships."
 			},
 			{
 				info = "Obtainable rewards from accumulating Sync Points can be viewed and claimed on each corresponding META ship’s tab in the META Lab. Furthermore, upon obtaining enough Sync Points, you’ll be able to recruit a META ship."
@@ -13487,7 +13543,7 @@ How to Play
 		tip = "Analyze "
 	},
 	world_boss_not_reach_target = {
-		tip = "Insufficient Ashes Coordinates. "
+		tip = "Insufficient META Coordinates. "
 	},
 	special_transform_limit_reach = {
 		tip = "Unable to obtain more copies of this retrofit item "
@@ -13496,7 +13552,7 @@ How to Play
 		tip = "Insufficient Sync Points. Participate in <color=#92fc63>Operation Siren</color> to earn more!"
 	},
 	meta_boss_unlock = {
-		tip = "Clear the first chapter of <color=#92fc63>Operation Siren</color> to unlock Ashes Showdown for the ability to obtain META ships. "
+		tip = "Clear the first chapter of <color=#92fc63>Operation Siren</color> to unlock META Showdown for the ability to obtain META ships. "
 	},
 	word_take_effect = {
 		tip = "In Effect "
@@ -13556,10 +13612,10 @@ How to Play
 		tip = "When enabled: During Auto Search mode, items will automatically be used when encountering events that normally require the use of items.\nWhen disabled: During Auto Search mode, events that normally require the use of items will be ignored."
 	},
 	world_boss_maintenance = {
-		tip = "You are unable to begin an Ashes Showdown immediately before server maintenance. "
+		tip = "You are unable to begin an META Showdown immediately before server maintenance. "
 	},
 	world_boss_inbattle = {
-		tip = "You are currently in an Ashes Showdown, and are unable to begin another one. "
+		tip = "You are currently in an META Showdown, and are unable to begin another one. "
 	},
 	area_putong = {
 		tip = "Explorable"
@@ -13788,6 +13844,87 @@ Your Action Points will also reset, starting you off with <color=#92fc63>200 AP.
 			}
 		}
 	},
+	guild_task_autoaccept_1 = {
+		tip = "A new Guild mission has been received: $1"
+	},
+	guild_task_autoaccept_2 = {
+		tip = "A new Guild mission was automatically added: $1"
+	},
+	task_lock = {
+		tip = "Unlocked at level $1"
+	},
+	week_task_pt_name = {
+		tip = "Activity Points"
+	},
+	week_task_award_preview_label = {
+		tip = "Rewards"
+	},
+	week_task_title_label = {
+		tip = "Weekly Activity Rewards"
+	},
+	cattery_op_clean_success = {
+		tip = "Your Comf-Forts have been cleaned!"
+	},
+	cattery_op_feed_success = {
+		tip = "You fed your Meowfficer(s)!"
+	},
+	cattery_op_play_success = {
+		tip = "You played with your Meowfficer(s)!"
+	},
+	cattery_style_change_success = {
+		tip = "The Comf-Fort theme has been changed."
+	},
+	cattery_add_commander_success = {
+		tip = "Meowfficer added."
+	},
+	cattery_remove_commander_success = {
+		tip = "Meowfficer removed."
+	},
+	commander_box_quickly_tool_tip_1 = {
+		tip = "Using"
+	},
+	commander_box_quickly_tool_tip_2 = {
+		tip = "Cat Box Quick Finishers while shorten Meowfficer training time by"
+	},
+	commander_box_quickly_tool_tip_3 = {
+		tip = "$1 mins. Continue?"
+	},
+	commander_box_was_finished = {
+		tip = "Meowfficer training complete."
+	},
+	comander_tool_cnt_is_reclac = {
+		tip = "The required amount of Cat Box Quick Finishers has changed."
+	},
+	comander_tool_max_cnt = {
+		tip = "Held: $1"
+	},
+	commander_op_play_level = {
+		tip = "Food Level: $1"
+	},
+	commander_op_feed_level = {
+		tip = "Play Level: $1"
+	},
+	cat_accelfrate_notenough = {
+		tip = "You do not have enough Cat Box Quick Finishers."
+	},
+	cat_home_unlock = {
+		tip = "Comf-Forts are unlocked by leveling your Cat Lodge."
+	},
+	cat_sleep_notplay = {
+		tip = "You cannot select this Meowfficer as it is in a Comf-Fort."
+	},
+	cathome_style_unlock = {
+		tip = "Comf-Fort themes are unlocked by leveling your Cat Lodge."
+	},
+	commander_is_in_cattery = {
+		tip = "This Meowfficer is in a Comf-Fort. "
+	},
+	cat_home_interaction = {
+		tip = "该指挥喵已经$1过了"
+	},
+	cat_accelerate_left = {
+		tip = "使用后剩余："
+	},
 	game_stopwords = {
 		tip = "Text box is now being hidden."
 	},
@@ -13901,5 +14038,42 @@ How to Play
 5/26 Mission 2: Unlocks Part 4 of the event story.]]
 			}
 		}
+	},
+	activity_permanent_total = {
+		tip = "Mini-Event Gallery "
+	},
+	word_investigate = {
+		tip = "Recon "
+	},
+	ambush_display_none = {
+		tip = "None "
+	},
+	activity_permanent_help = {
+		tip = {
+			{
+				info = [[
+- Mini-Event Gallery Info:
+The Mini-Event Gallery lets you choose and replay old mini-events.
+
+1. You can only have <color=#92fc63>1</color> mini-event active at a time.
+2. Once you choose a mini-event to replay, you must commit to it. You cannot change to another mini-event partway through.
+3. If a mini-event rewards you with a skin that you already own, you will instead receive Coins.]]
+			}
+		}
+	},
+	activity_permanent_tips1 = {
+		tip = "<size=40>Would you like to replay the <color=#92fc63>$1</color> mini-event?</size>"
+	},
+	activity_permanent_tips2 = {
+		tip = "You've completed the mini-event. Tap to confirm and \nreturn to the Mini-Event Gallery."
+	},
+	activity_permanent_tips3 = {
+		tip = "Finish the current active mini-event before replaying another one."
+	},
+	activity_permanent_tips4 = {
+		tip = "You can only replay 1 mini-event at a time. Finish your currently active mini-event to replay a different one."
+	},
+	activity_permanent_finished = {
+		tip = "Completed"
 	}
 }

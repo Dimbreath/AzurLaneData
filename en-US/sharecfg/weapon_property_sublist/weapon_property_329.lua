@@ -2,6 +2,343 @@ pg = pg or {}
 pg.weapon_property_329 = {}
 
 function ()
+	uv0.weapon_property_329[741001] = {
+		aim_type = 1,
+		range = 120,
+		damage = 6,
+		base = 1000,
+		name = "【DOA联动SP2】精英人形玛莉萝丝 前方扫射弹幕",
+		suppress = 1,
+		reload_max = 1850,
+		queue = 2,
+		id = 741001,
+		bullet_ID = {
+			800001,
+			800001,
+			800001,
+			800001,
+			800001,
+			800001,
+			800001,
+			800001
+		},
+		barrage_ID = {
+			720001,
+			720002,
+			720003,
+			720004,
+			720005,
+			720006,
+			720007,
+			720008
+		}
+	}
+	uv0.weapon_property_329[741002] = {
+		aim_type = 1,
+		range = 120,
+		damage = 8,
+		base = 1000,
+		name = "【DOA联动SP2】精英人形玛莉萝丝 螺旋穿透弹",
+		suppress = 1,
+		reload_max = 950,
+		fire_sfx = "",
+		queue = 3,
+		id = 741002,
+		bullet_ID = {
+			720001,
+			720002
+		},
+		barrage_ID = {
+			810001,
+			810002
+		}
+	}
+	uv0.weapon_property_329[741101] = {
+		aim_type = 1,
+		range = 38,
+		damage = 7,
+		base = 1000,
+		name = "【DOA联动SP2】BOSS 通用近程自卫火炮",
+		type = 2,
+		suppress = 1,
+		reload_max = 500,
+		queue = 5,
+		id = 741101,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			13
+		}
+	}
+	uv0.weapon_property_329[741102] = {
+		name = "【DOA联动SP2】BOSS 海咲 大范围鱼雷",
+		damage = 32,
+		base = 1001,
+		action_index = "",
+		suppress = 1,
+		reload_max = 2800,
+		id = 741102,
+		bullet_ID = {
+			110605,
+			110606
+		},
+		barrage_ID = {
+			810066,
+			810067
+		}
+	}
+	uv0.weapon_property_329[741103] = {
+		aim_type = 1,
+		range = 120,
+		damage = 12,
+		base = 1000,
+		name = "【DOA联动SP2】BOSS 海咲 大范围旋转弹幕",
+		suppress = 1,
+		initial_over_heat = 1,
+		reload_max = 1200,
+		action_index = "",
+		queue = 3,
+		id = 741103,
+		bullet_ID = {
+			740016
+		},
+		barrage_ID = {
+			810003
+		}
+	}
+	uv0.weapon_property_329[741104] = {
+		aim_type = 1,
+		range = 75,
+		damage = 20,
+		base = 1000,
+		name = "【DOA联动SP2】BOSS 凪咲 前排跨射",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 1500,
+		type = 19,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 741104,
+		action_index = "",
+		bullet_ID = {
+			800007
+		},
+		barrage_ID = {
+			399912
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2
+		}
+	}
+	uv0.weapon_property_329[741105] = {
+		aim_type = 1,
+		min_range = 75,
+		type = 19,
+		name = "【DOA联动SP2】BOSS 凪咲 后排跨射",
+		fire_fx = "CAFire",
+		action_index = "",
+		reload_max = 2400,
+		queue = 1,
+		angle = 40,
+		range = 150,
+		damage = 28,
+		base = 1000,
+		suppress = 1,
+		fire_sfx = "battle/cannon-main",
+		id = 741105,
+		bullet_ID = {
+			800006
+		},
+		barrage_ID = {
+			20018
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_329[741106] = {
+		range = 120,
+		name = "【DOA联动SP2】BOSS 凪咲 主炮弹幕",
+		damage = 28,
+		base = 1000,
+		fire_fx = "CAFire",
+		reload_max = 500,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 741106,
+		bullet_ID = {
+			20003,
+			20003
+		},
+		barrage_ID = {
+			810068,
+			810069
+		}
+	}
+	uv0.weapon_property_329[741107] = {
+		aim_type = 1,
+		range = 120,
+		damage = 8,
+		base = 1000,
+		name = "【DOA联动SP2】BOSS 通用 fever 第一波 3way自机狙弹幕",
+		type = 2,
+		suppress = 1,
+		reload_max = 450,
+		action_index = "",
+		queue = 1,
+		id = 741107,
+		bullet_ID = {
+			800011,
+			800012,
+			800013,
+			800014,
+			800015,
+			800016,
+			800017,
+			800018,
+			800019,
+			800020,
+			800021,
+			800022,
+			800011,
+			800012,
+			800013,
+			800014,
+			800015,
+			800016,
+			800017,
+			800018,
+			800019,
+			800020,
+			800021,
+			800022,
+			800011,
+			800012,
+			800013,
+			800014,
+			800015,
+			800016,
+			800017,
+			800018,
+			800019,
+			800020,
+			800021,
+			800022
+		},
+		barrage_ID = {
+			810017,
+			810018,
+			810019,
+			810020,
+			810021,
+			810022,
+			810023,
+			810024,
+			810025,
+			810026,
+			810027,
+			810028,
+			810029,
+			810030,
+			810031,
+			810032,
+			810033,
+			810034,
+			810035,
+			810036,
+			810037,
+			810038,
+			810039,
+			810040,
+			810041,
+			810042,
+			810043,
+			810044,
+			810045,
+			810046,
+			810047,
+			810048,
+			810049,
+			810050,
+			810051,
+			810052
+		}
+	}
+	uv0.weapon_property_329[741108] = {
+		aim_type = 1,
+		range = 120,
+		base = 1000,
+		name = "【DOA联动SP2】BOSS 通用 fever 第一波 扇形范围圆形弹幕",
+		type = 2,
+		suppress = 1,
+		action_index = "",
+		reload_max = 450,
+		queue = 2,
+		id = 741108,
+		bullet_ID = {
+			800023
+		},
+		barrage_ID = {
+			810053
+		}
+	}
+	uv0.weapon_property_329[741109] = {
+		base = 1000,
+		range = 120,
+		type = 2,
+		name = "【DOA联动SP2】BOSS 通用 fever 第二波 环形扩散自机狙 左",
+		action_index = "",
+		reload_max = 6000,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 741109,
+		bullet_ID = {
+			800024
+		},
+		barrage_ID = {
+			810054
+		}
+	}
+	uv0.weapon_property_329[741110] = {
+		base = 1000,
+		range = 120,
+		type = 2,
+		name = "【DOA联动SP2】BOSS 通用 fever 第二波 环形扩散自机狙 右",
+		action_index = "",
+		reload_max = 6000,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 741110,
+		bullet_ID = {
+			800025
+		},
+		barrage_ID = {
+			810054
+		}
+	}
+	uv0.weapon_property_329[741111] = {
+		base = 1000,
+		range = 120,
+		type = 2,
+		name = "【DOA联动SP2】BOSS 通用 fever 第二波 环形扩散圆形弹幕 左",
+		action_index = "",
+		reload_max = 6000,
+		fire_sfx = "battle/cannon-main",
+		queue = 2,
+		id = 741111,
+		bullet_ID = {
+			800027
+		},
+		barrage_ID = {
+			810059
+		}
+	}
 	uv0.weapon_property_329[741112] = {
 		base = 1000,
 		range = 120,
@@ -1243,328 +1580,6 @@ function ()
 			810111,
 			810111,
 			810111
-		}
-	}
-	uv0.weapon_property_329[744105] = {
-		name = "【DOA联动VSP】BOSS 莫妮卡 fever 扫射纸牌弹幕 第一波",
-		damage = 20,
-		base = 1000,
-		fire_fx = "CAFire",
-		reload_max = 6000,
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 744105,
-		bullet_ID = {
-			800070,
-			800070,
-			800070,
-			800070,
-			800070,
-			800071,
-			800071,
-			800071,
-			800071,
-			800071
-		},
-		barrage_ID = {
-			690134,
-			690135,
-			690136,
-			690137,
-			690138,
-			690134,
-			690135,
-			690136,
-			690137,
-			690138
-		}
-	}
-	uv0.weapon_property_329[744106] = {
-		aim_type = 1,
-		range = 120,
-		damage = 20,
-		base = 1000,
-		name = "【DOA联动VSP】BOSS 莫妮卡 纸牌弹幕",
-		suppress = 1,
-		initial_over_heat = 1,
-		reload_max = 600,
-		queue = 1,
-		id = 744106,
-		bullet_ID = {
-			800041
-		},
-		barrage_ID = {
-			810085
-		}
-	}
-	uv0.weapon_property_329[744107] = {
-		aim_type = 0,
-		damage = 58,
-		base = 1001,
-		name = "【DOA联动VSP】BOSS 莫妮卡 鱼雷弹幕",
-		action_index = "",
-		suppress = 1,
-		reload_max = 600,
-		fire_sfx = "battle/cannon-main",
-		queue = 3,
-		id = 744107,
-		bullet_ID = {
-			140005,
-			140006,
-			140007,
-			140008
-		},
-		barrage_ID = {
-			140005,
-			140006,
-			140007,
-			140008
-		}
-	}
-	uv0.weapon_property_329[744108] = {
-		aim_type = 1,
-		range = 120,
-		damage = 16,
-		base = 1000,
-		name = "【DOA联动VSP】BOSS 莫妮卡 广域射击",
-		type = 2,
-		suppress = 1,
-		reload_max = 600,
-		queue = 1,
-		id = 744108,
-		bullet_ID = {
-			1206,
-			1206,
-			1206,
-			1206,
-			1206,
-			1206,
-			1206,
-			1206
-		},
-		barrage_ID = {
-			740039,
-			740040,
-			740041,
-			740042,
-			740043,
-			740044,
-			740045,
-			740046
-		}
-	}
-	uv0.weapon_property_329[745001] = {
-		aim_type = 1,
-		range = 120,
-		damage = 25,
-		base = 1000,
-		name = "【DOA联动EX】BOSS 女天狗 第一波 横向自机狙",
-		type = 2,
-		suppress = 1,
-		reload_max = 6000,
-		action_index = "",
-		queue = 1,
-		id = 745001,
-		bullet_ID = {
-			800072,
-			800072,
-			800072,
-			800072,
-			800072,
-			800072,
-			800072,
-			800072,
-			800072,
-			800072,
-			800072,
-			800072
-		},
-		barrage_ID = {
-			810112,
-			810113,
-			810114,
-			810115,
-			810116,
-			810117,
-			810118,
-			810119,
-			810120,
-			810121,
-			810124,
-			810125
-		}
-	}
-	uv0.weapon_property_329[745002] = {
-		aim_type = 1,
-		range = 120,
-		damage = 25,
-		base = 1000,
-		name = "【DOA联动EX】BOSS 女天狗 第一波 扇形自机狙",
-		type = 2,
-		suppress = 1,
-		reload_max = 300,
-		action_index = "",
-		queue = 2,
-		id = 745002,
-		bullet_ID = {
-			800073,
-			800074,
-			800073,
-			800074
-		},
-		barrage_ID = {
-			810122,
-			810122,
-			810123,
-			810123
-		}
-	}
-	uv0.weapon_property_329[745003] = {
-		base = 1001,
-		name = "【DOA联动EX】BOSS 女天狗 第二波 飞机",
-		type = 11,
-		spawn_bound = "plane",
-		fire_fx = "zhupao",
-		suppress = 1,
-		attack_attribute = 4,
-		reload_max = 600,
-		fire_sfx = "battle/air-atk",
-		queue = 3,
-		id = 745003,
-		bullet_ID = {},
-		barrage_ID = {
-			700143
-		}
-	}
-	uv0.weapon_property_329[745004] = {
-		base = 1001,
-		name = "【DOA联动EX】BOSS 女天狗 第二波 飞机",
-		type = 11,
-		spawn_bound = "plane",
-		fire_fx = "zhupao",
-		suppress = 1,
-		attack_attribute = 4,
-		reload_max = 600,
-		fire_sfx = "battle/air-atk",
-		queue = 4,
-		id = 745004,
-		bullet_ID = {},
-		barrage_ID = {
-			700143
-		}
-	}
-	uv0.weapon_property_329[745005] = {
-		base = 1001,
-		name = "【DOA联动EX】BOSS 女天狗 第二波 飞机",
-		type = 11,
-		spawn_bound = "plane",
-		fire_fx = "zhupao",
-		suppress = 1,
-		attack_attribute = 4,
-		reload_max = 600,
-		fire_sfx = "battle/air-atk",
-		queue = 5,
-		id = 745005,
-		bullet_ID = {},
-		barrage_ID = {
-			700143
-		}
-	}
-	uv0.weapon_property_329[745006] = {
-		range = 85,
-		damage = 400,
-		base = 1000,
-		name = "【DOA联动EX】BOSS 女天狗 第二波 飞机武器",
-		fire_fx = "fangkongpaohuoshe2",
-		action_index = "",
-		attack_attribute = 4,
-		reload_max = 6000,
-		fire_sfx = "battle/air-atk",
-		queue = 1,
-		id = 745006,
-		angle = 180,
-		bullet_ID = {
-			800075
-		},
-		barrage_ID = {
-			810126
-		}
-	}
-	uv0.weapon_property_329[745007] = {
-		range = 120,
-		name = "【DOA联动EX】BOSS 女天狗 第二波 飞机武器",
-		damage = 250,
-		base = 1000,
-		fire_fx = "fangkongpaohuoshe2",
-		action_index = "",
-		attack_attribute = 4,
-		reload_max = 6000,
-		fire_sfx = "battle/air-atk",
-		queue = 2,
-		id = 745007,
-		bullet_ID = {
-			800076,
-			800076
-		},
-		barrage_ID = {
-			810127,
-			810128
-		}
-	}
-	uv0.weapon_property_329[745008] = {
-		aim_type = 1,
-		range = 120,
-		damage = 20,
-		base = 1000,
-		name = "【DOA联动EX】BOSS 女天狗 第三波 子母弹",
-		suppress = 1,
-		action_index = "",
-		reload_max = 6000,
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 745008,
-		bullet_ID = {
-			800079,
-			800078,
-			800079,
-			800078,
-			800079,
-			800078,
-			800079,
-			800078
-		},
-		barrage_ID = {
-			810130,
-			810131,
-			810132,
-			810133,
-			810134,
-			810135,
-			810136,
-			810137
-		}
-	}
-	uv0.weapon_property_329[745009] = {
-		aim_type = 1,
-		range = 120,
-		damage = 50,
-		base = 1000,
-		name = "【DOA联动EX】BOSS 女天狗 第三波 自机狙",
-		suppress = 1,
-		action_index = "",
-		reload_max = 6000,
-		fire_sfx = "battle/cannon-main",
-		queue = 2,
-		id = 745009,
-		bullet_ID = {
-			800080,
-			800081,
-			800082
-		},
-		barrage_ID = {
-			810138,
-			810139,
-			810140
 		}
 	}
 end()

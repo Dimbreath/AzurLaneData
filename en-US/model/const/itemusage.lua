@@ -11,5 +11,6 @@ slot0.DROP_APPOINTED = "usage_drop_appointed"
 slot0.SOS = "usage_sos"
 slot0.GUILD_DONATE = "usage_guild_donate"
 slot0.GUILD_OPERATION = "usage_guild_operation"
+slot0.REDUCE_COMMANDER_TIME = "usage_reduce_commander_time"
 
 return slot0

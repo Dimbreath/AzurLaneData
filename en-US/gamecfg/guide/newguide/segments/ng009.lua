@@ -39,22 +39,6 @@ return {
 				posY = -110,
 				posX = -500
 			}
-		},
-		{
-			style = {
-				text = "If you want some more info, just tap the Help button!",
-				mode = 1,
-				dir = -1,
-				posY = -200,
-				posX = -500
-			},
-			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/blur_panel/main/left_panel/help_btn",
-				fingerPos = {
-					posY = -45,
-					posX = 45
-				}
-			}
 		}
 	}
 }

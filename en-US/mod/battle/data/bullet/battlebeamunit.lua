@@ -40,6 +40,10 @@ function slot3.SetAimAngle(slot0, slot1)
 	slot0._aimAngle = slot1 or 0
 end
 
+function slot3.SetAimPosition(slot0, slot1, slot2)
+	slot0._aimAngle = math.rad2Deg * math.atan2(slot2.z - slot1.z, slot2.x - slot1.x)
+end
+
 function slot3.getAngleRatio(slot0)
 	return uv0.GetSpeedRatio(slot0._aoe:GetTimeRationExemptKey(), slot0._aoe:GetIFF())
 end

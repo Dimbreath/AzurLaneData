@@ -2,6 +2,100 @@ pg = pg or {}
 pg.weapon_property_140 = {}
 
 function ()
+	uv0.weapon_property_140[67383] = {
+		id = 67383,
+		damage = 108,
+		base = 67380
+	}
+	uv0.weapon_property_140[67384] = {
+		id = 67384,
+		damage = 130,
+		base = 67380
+	}
+	uv0.weapon_property_140[67385] = {
+		id = 67385,
+		damage = 152,
+		base = 67380
+	}
+	uv0.weapon_property_140[67386] = {
+		id = 67386,
+		damage = 174,
+		base = 67380
+	}
+	uv0.weapon_property_140[67387] = {
+		id = 67387,
+		damage = 196,
+		base = 67380
+	}
+	uv0.weapon_property_140[67388] = {
+		id = 67388,
+		damage = 216,
+		base = 67380
+	}
+	uv0.weapon_property_140[67389] = {
+		id = 67389,
+		damage = 238,
+		base = 67380
+	}
+	uv0.weapon_property_140[67390] = {
+		id = 67390,
+		damage = 260,
+		base = 67380
+	}
+	uv0.weapon_property_140[67400] = {
+		action_index = "",
+		range = 80,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = -10,
+		shakescreen = 0,
+		name = "3 x 机载鱼雷-重樱 大凤技能投雷",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 48,
+		corrected = 100,
+		min_range = 0,
+		id = 67400,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2112
+		},
+		barrage_ID = {
+			2142
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_140[67401] = {
+		id = 67401,
+		damage = 68,
+		base = 67400
+	}
+	uv0.weapon_property_140[67402] = {
+		id = 67402,
+		damage = 86,
+		base = 67400
+	}
 	uv0.weapon_property_140[67403] = {
 		id = 67403,
 		damage = 106,
@@ -443,126 +537,5 @@ function ()
 		id = 67489,
 		damage = 206,
 		base = 67480
-	}
-	uv0.weapon_property_140[67490] = {
-		id = 67490,
-		damage = 222,
-		base = 67480
-	}
-	uv0.weapon_property_140[67500] = {
-		action_index = "attack",
-		range = 90,
-		type = 10,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "约克城SBD",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 90,
-		charge_param = "",
-		damage = 68,
-		corrected = 100,
-		min_range = 0,
-		id = 67500,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 2060,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			67500
-		},
-		barrage_ID = {
-			12010
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_140[67501] = {
-		id = 67501,
-		damage = 77,
-		base = 67500,
-		bullet_ID = {
-			67501
-		}
-	}
-	uv0.weapon_property_140[67502] = {
-		id = 67502,
-		damage = 87,
-		base = 67500,
-		bullet_ID = {
-			67502
-		}
-	}
-	uv0.weapon_property_140[67503] = {
-		id = 67503,
-		damage = 97,
-		base = 67500,
-		bullet_ID = {
-			67503
-		}
-	}
-	uv0.weapon_property_140[67504] = {
-		id = 67504,
-		damage = 107,
-		base = 67500,
-		bullet_ID = {
-			67504
-		}
-	}
-	uv0.weapon_property_140[67505] = {
-		id = 67505,
-		damage = 117,
-		base = 67500,
-		bullet_ID = {
-			67505
-		}
-	}
-	uv0.weapon_property_140[67506] = {
-		id = 67506,
-		damage = 127,
-		base = 67500,
-		bullet_ID = {
-			67506
-		}
-	}
-	uv0.weapon_property_140[67507] = {
-		id = 67507,
-		damage = 138,
-		base = 67500,
-		bullet_ID = {
-			67507
-		}
-	}
-	uv0.weapon_property_140[67508] = {
-		id = 67508,
-		damage = 149,
-		base = 67500,
-		bullet_ID = {
-			67508
-		}
-	}
-	uv0.weapon_property_140[67509] = {
-		id = 67509,
-		damage = 160,
-		base = 67500,
-		bullet_ID = {
-			67509
-		}
 	}
 end()
