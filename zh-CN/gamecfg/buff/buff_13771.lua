@@ -15,10 +15,7 @@ return {
 				"onAttach",
 				"onRemove"
 			},
-			arg_list = {
-				check_target = "TargetSelf",
-				checkTargetMaxDistance = 300
-			}
+			arg_list = {}
 		},
 		{
 			type = "BattleBuffCastSkill",

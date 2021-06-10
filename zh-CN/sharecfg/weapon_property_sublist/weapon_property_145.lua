@@ -2,6 +2,100 @@ pg = pg or {}
 pg.weapon_property_145 = {}
 
 function ()
+	uv0.weapon_property_145[67815] = {
+		id = 67815,
+		damage = 161,
+		base = 67811
+	}
+	uv0.weapon_property_145[67816] = {
+		id = 67816,
+		damage = 172,
+		base = 67811
+	}
+	uv0.weapon_property_145[67817] = {
+		id = 67817,
+		damage = 184,
+		base = 67811
+	}
+	uv0.weapon_property_145[67818] = {
+		id = 67818,
+		damage = 197,
+		base = 67811
+	}
+	uv0.weapon_property_145[67819] = {
+		id = 67819,
+		damage = 211,
+		base = 67811
+	}
+	uv0.weapon_property_145[67820] = {
+		id = 67820,
+		damage = 226,
+		base = 67811
+	}
+	uv0.weapon_property_145[67821] = {
+		action_index = "",
+		range = 80,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "2 x 机载鱼雷-重樱",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 20,
+		charge_param = "",
+		damage = 91,
+		corrected = 100,
+		min_range = 0,
+		id = 67821,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2112
+		},
+		barrage_ID = {
+			2111
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_145[67822] = {
+		id = 67822,
+		damage = 96,
+		base = 67821
+	}
+	uv0.weapon_property_145[67823] = {
+		id = 67823,
+		damage = 102,
+		base = 67821
+	}
+	uv0.weapon_property_145[67824] = {
+		id = 67824,
+		damage = 109,
+		base = 67821
+	}
+	uv0.weapon_property_145[67825] = {
+		id = 67825,
+		damage = 117,
+		base = 67821
+	}
 	uv0.weapon_property_145[67826] = {
 		id = 67826,
 		damage = 126,
@@ -553,99 +647,5 @@ function ()
 		id = 67906,
 		damage = 68,
 		base = 67901
-	}
-	uv0.weapon_property_145[67907] = {
-		id = 67907,
-		damage = 73,
-		base = 67901
-	}
-	uv0.weapon_property_145[67908] = {
-		id = 67908,
-		damage = 77,
-		base = 67901
-	}
-	uv0.weapon_property_145[67909] = {
-		id = 67909,
-		damage = 83,
-		base = 67901
-	}
-	uv0.weapon_property_145[67910] = {
-		id = 67910,
-		damage = 88,
-		base = 67901
-	}
-	uv0.weapon_property_145[67911] = {
-		action_index = "",
-		range = 75,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "2 x 机载鱼雷-通用",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 20,
-		charge_param = "",
-		damage = 126,
-		corrected = 100,
-		min_range = 0,
-		id = 67911,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19987
-		},
-		barrage_ID = {
-			2111
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_145[67912] = {
-		id = 67912,
-		damage = 144,
-		base = 67911
-	}
-	uv0.weapon_property_145[67913] = {
-		id = 67913,
-		damage = 162,
-		base = 67911
-	}
-	uv0.weapon_property_145[67914] = {
-		id = 67914,
-		damage = 180,
-		base = 67911
-	}
-	uv0.weapon_property_145[67915] = {
-		id = 67915,
-		damage = 198,
-		base = 67911
-	}
-	uv0.weapon_property_145[67916] = {
-		id = 67916,
-		damage = 216,
-		base = 67911
-	}
-	uv0.weapon_property_145[67917] = {
-		id = 67917,
-		damage = 234,
-		base = 67911
 	}
 end()

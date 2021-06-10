@@ -2,6 +2,135 @@ pg = pg or {}
 pg.weapon_property_132 = {}
 
 function ()
+	uv0.weapon_property_132[66502] = {
+		id = 66502,
+		name = "烈焰崩袭LV2",
+		damage = 13,
+		base = 66500
+	}
+	uv0.weapon_property_132[66503] = {
+		id = 66503,
+		name = "烈焰崩袭LV3",
+		damage = 14,
+		base = 66500
+	}
+	uv0.weapon_property_132[66504] = {
+		name = "烈焰崩袭LV4",
+		damage = 15,
+		base = 66500,
+		id = 66504,
+		barrage_ID = {
+			80312
+		}
+	}
+	uv0.weapon_property_132[66505] = {
+		name = "烈焰崩袭LV5",
+		damage = 16,
+		base = 66500,
+		id = 66505,
+		barrage_ID = {
+			80312
+		}
+	}
+	uv0.weapon_property_132[66506] = {
+		name = "烈焰崩袭LV6",
+		damage = 17,
+		base = 66500,
+		id = 66506,
+		barrage_ID = {
+			80312
+		}
+	}
+	uv0.weapon_property_132[66507] = {
+		name = "烈焰崩袭LV7",
+		damage = 18,
+		base = 66500,
+		id = 66507,
+		barrage_ID = {
+			80313
+		}
+	}
+	uv0.weapon_property_132[66508] = {
+		name = "烈焰崩袭LV8",
+		damage = 19,
+		base = 66500,
+		id = 66508,
+		barrage_ID = {
+			80313
+		}
+	}
+	uv0.weapon_property_132[66509] = {
+		name = "烈焰崩袭LV9",
+		damage = 20,
+		base = 66500,
+		id = 66509,
+		barrage_ID = {
+			80313
+		}
+	}
+	uv0.weapon_property_132[66510] = {
+		name = "烈焰崩袭LV10",
+		damage = 21,
+		base = 66500,
+		id = 66510,
+		barrage_ID = {
+			80314
+		}
+	}
+	uv0.weapon_property_132[66520] = {
+		action_index = "attack",
+		range = 50,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "蕾丝狂舞LV0",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 12,
+		corrected = 100,
+		min_range = 0,
+		id = 66520,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19910,
+			19911,
+			19912
+		},
+		barrage_ID = {
+			80341,
+			80345,
+			80349
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_132[66521] = {
+		id = 66521,
+		name = "蕾丝狂舞LV1",
+		damage = 13,
+		base = 66520
+	}
 	uv0.weapon_property_132[66522] = {
 		id = 66522,
 		name = "蕾丝狂舞LV2",
@@ -579,110 +708,5 @@ function ()
 		id = 66628,
 		damage = 203,
 		base = 66620
-	}
-	uv0.weapon_property_132[66629] = {
-		id = 66629,
-		damage = 219,
-		base = 66620
-	}
-	uv0.weapon_property_132[66630] = {
-		id = 66630,
-		damage = 235,
-		base = 66620
-	}
-	uv0.weapon_property_132[66640] = {
-		action_index = "attack_main",
-		range = 200,
-		type = 23,
-		fire_fx = "zhupao",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "约克公爵技能LV0",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 50,
-		damage = 40,
-		corrected = 110,
-		min_range = 35,
-		id = 66640,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			19985
-		},
-		barrage_ID = {
-			1302
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		charge_param = {
-			lockTime = 0.3,
-			maxLock = 4
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_132[66641] = {
-		id = 66641,
-		name = "约克公爵技能LV1",
-		damage = 46,
-		base = 66640
-	}
-	uv0.weapon_property_132[66642] = {
-		id = 66642,
-		name = "约克公爵技能LV2",
-		damage = 52,
-		base = 66640
-	}
-	uv0.weapon_property_132[66643] = {
-		id = 66643,
-		name = "约克公爵技能LV3",
-		damage = 59,
-		base = 66640
-	}
-	uv0.weapon_property_132[66644] = {
-		id = 66644,
-		name = "约克公爵技能LV4",
-		damage = 66,
-		base = 66640
-	}
-	uv0.weapon_property_132[66645] = {
-		id = 66645,
-		name = "约克公爵技能LV5",
-		damage = 73,
-		base = 66640
-	}
-	uv0.weapon_property_132[66646] = {
-		id = 66646,
-		name = "约克公爵技能LV6",
-		damage = 80,
-		base = 66640
-	}
-	uv0.weapon_property_132[66647] = {
-		id = 66647,
-		name = "约克公爵技能LV7",
-		damage = 87,
-		base = 66640
-	}
-	uv0.weapon_property_132[66648] = {
-		id = 66648,
-		name = "约克公爵技能LV8",
-		damage = 94,
-		base = 66640
 	}
 end()

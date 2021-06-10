@@ -1,5 +1,76 @@
 pg = pg or {}
 pg.enemy_data_statistics_33 = {
+	[821] = {
+		cannon = 65,
+		name = "熟练巡逻舰",
+		hit_growth = 0,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 0,
+		reload = 150,
+		antisub = 60,
+		armor = 0,
+		rarity = 2,
+		antiaircraft = 30,
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 124,
+		durability = 860,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		luck = 0,
+		id = 821,
+		scale = 150,
+		cannon_growth = 0,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 80,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 30,
+		cld_box = {
+			9.75,
+			5.625,
+			6.75
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.66,
+				-0.19,
+				-0.02
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {
+			danchuanlanghuazhong2 = 0.75
+		},
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			300140,
+			300143,
+			300144
+		}
+	},
 	[822] = {
 		cannon = 0,
 		name = "运输舰",
@@ -740,50 +811,6 @@ pg.enemy_data_statistics_33 = {
 		},
 		appear_fx = {
 			"appearsmall"
-		}
-	},
-	[843] = {
-		cannon = 170,
-		antisub = 220,
-		air = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20012,
-		reload = 150,
-		base = 273,
-		dodge = 0,
-		torpedo_growth = 0,
-		air_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		star = 4,
-		hit = 80,
-		antisub_growth = 0,
-		rarity = 4,
-		luck_growth = 0,
-		torpedo = 300,
-		durability = 20000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 50,
-		speed = 18,
-		luck = 0,
-		hit_growth = 0,
-		battle_unit_type = 95,
-		id = 843,
-		antiaircraft_growth = 0,
-		armor = 0,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			300180,
-			300187,
-			300188,
-			300189,
-			300190,
-			300191
 		}
 	}
 }

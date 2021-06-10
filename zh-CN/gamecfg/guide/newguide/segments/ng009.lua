@@ -39,22 +39,6 @@ return {
 				posY = -110,
 				posX = -500
 			}
-		},
-		{
-			style = {
-				text = "点击这里可以查看具体的帮助信息！要加油哦！拜拜~",
-				mode = 1,
-				dir = -1,
-				posY = -200,
-				posX = -500
-			},
-			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/blur_panel/main/left_panel/help_btn",
-				fingerPos = {
-					posY = -45,
-					posX = 45
-				}
-			}
 		}
 	}
 }

@@ -281,6 +281,53 @@ pg.equip_data_statistics_357 = {
 			79722
 		}
 	},
+	[79731] = {
+		name = "专属弹幕-海伦娜.META I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 79731,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79731
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79732] = {
+		id = 79732,
+		name = "专属弹幕-海伦娜.META II",
+		base = 79731,
+		weapon_id = {
+			79732
+		}
+	},
 	[85000] = {
 		name = "B-13 双联装130mm主炮B-2LM",
 		speciality = "锁定",
@@ -360,22 +407,6 @@ pg.equip_data_statistics_357 = {
 		base = 85000,
 		weapon_id = {
 			85002
-		}
-	},
-	[85003] = {
-		id = 85003,
-		damage = "4 x 6",
-		base = 85000,
-		weapon_id = {
-			85003
-		}
-	},
-	[85004] = {
-		id = 85004,
-		damage = "5 x 6",
-		base = 85000,
-		weapon_id = {
-			85004
 		}
 	}
 }

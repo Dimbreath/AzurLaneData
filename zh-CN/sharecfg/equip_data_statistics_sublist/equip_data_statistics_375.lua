@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.equip_data_statistics_375 = {
+	[89180] = {
+		name = "闪耀之歌",
+		tech = 0,
+		type = 10,
+		speciality = "无",
+		id = 89180,
+		value_2 = 15,
+		icon = "89180",
+		value_1 = "14",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "偶像组合「Astrum」所使用的麦克风",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "antiaircraft",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6712
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89181] = {
+		id = 89181,
+		value_2 = 16,
+		value_1 = "16",
+		base = 89180
+	},
 	[89182] = {
 		id = 89182,
 		value_2 = 17,
@@ -117,18 +157,6 @@ pg.equip_data_statistics_375 = {
 	[89202] = {
 		id = 89202,
 		value_1 = "15",
-		base = 89200
-	},
-	[89203] = {
-		id = 89203,
-		value_2 = 2,
-		value_1 = "16",
-		base = 89200
-	},
-	[89204] = {
-		id = 89204,
-		value_2 = 2,
-		value_1 = "17",
 		base = 89200
 	}
 }

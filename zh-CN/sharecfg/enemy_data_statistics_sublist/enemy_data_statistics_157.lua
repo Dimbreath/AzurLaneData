@@ -1,5 +1,92 @@
 pg = pg or {}
 pg.enemy_data_statistics_157 = {
+	[10095008] = {
+		cannon = 175,
+		antisub = 0,
+		air = 0,
+		cannon_growth = 2000,
+		armor = 0,
+		reload = 150,
+		base = 255,
+		dodge = 15,
+		torpedo_growth = 2400,
+		air_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 214,
+		speed_growth = 0,
+		star = 4,
+		hit = 19,
+		antisub_growth = 0,
+		rarity = 4,
+		luck_growth = 0,
+		torpedo = 60,
+		durability = 22200,
+		armor_growth = 0,
+		durability_growth = 84000,
+		antiaircraft = 220,
+		speed = 18,
+		luck = 30,
+		hit_growth = 210,
+		battle_unit_type = 60,
+		id = 10095008,
+		antiaircraft_growth = 2800,
+		bound_bone = {
+			cannon = {
+				{
+					0.6,
+					0.6,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.38,
+					0.6,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.472,
+							0.233,
+							0.467
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.42,
+							1.7,
+							2.07
+						}
+					}
+				}
+			}
+		},
+		equipment_list = {
+			551031,
+			551032,
+			551033
+		}
+	},
 	[10095009] = {
 		cannon = 165,
 		antisub = 0,
@@ -815,45 +902,6 @@ pg.enemy_data_statistics_157 = {
 			561005,
 			561006,
 			561007
-		}
-	},
-	[10101007] = {
-		cannon = 18,
-		antisub = 0,
-		air = 0,
-		cannon_growth = 1400,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		base = 181,
-		dodge = 11,
-		torpedo_growth = 5400,
-		air_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 156,
-		speed_growth = 0,
-		star = 3,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 3,
-		luck_growth = 0,
-		torpedo = 95,
-		durability = 1100,
-		armor_growth = 0,
-		durability_growth = 29500,
-		antiaircraft = 50,
-		speed = 20,
-		luck = 0,
-		hit_growth = 210,
-		battle_unit_type = 60,
-		id = 10101007,
-		antiaircraft_growth = 2120,
-		armor = 0,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			561008,
-			561009
 		}
 	}
 }

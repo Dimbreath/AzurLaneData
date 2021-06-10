@@ -13058,7 +13058,7 @@ pg.aircraft_template_400 = {
 		name = "【大世界】黑方舟 第一波 飞机 LV1",
 		max_hp = 292,
 		accuracy = 23,
-		model_ID = "alter_plane3",
+		model_ID = "alter_plane2",
 		ACC_growth = 0,
 		crash_DMG = 72,
 		dodge = 1,
@@ -13133,7 +13133,7 @@ pg.aircraft_template_400 = {
 		name = "【大世界】黑方舟 第一波 飞机 LV2",
 		max_hp = 356,
 		accuracy = 23,
-		model_ID = "alter_plane3",
+		model_ID = "alter_plane2",
 		ACC_growth = 0,
 		crash_DMG = 144,
 		dodge = 1,
@@ -13208,7 +13208,7 @@ pg.aircraft_template_400 = {
 		name = "【大世界】黑方舟 第一波 飞机 LV3",
 		max_hp = 420,
 		accuracy = 23,
-		model_ID = "alter_plane3",
+		model_ID = "alter_plane2",
 		ACC_growth = 0,
 		crash_DMG = 216,
 		dodge = 1,
@@ -13283,7 +13283,7 @@ pg.aircraft_template_400 = {
 		name = "【大世界】黑方舟 第一波 飞机 LV4",
 		max_hp = 516,
 		accuracy = 23,
-		model_ID = "alter_plane3",
+		model_ID = "alter_plane2",
 		ACC_growth = 0,
 		crash_DMG = 324,
 		dodge = 1,
@@ -13358,7 +13358,7 @@ pg.aircraft_template_400 = {
 		name = "【大世界】黑方舟 第一波 飞机 LV5",
 		max_hp = 612,
 		accuracy = 23,
-		model_ID = "alter_plane3",
+		model_ID = "alter_plane2",
 		ACC_growth = 0,
 		crash_DMG = 432,
 		dodge = 1,
@@ -14139,6 +14139,376 @@ pg.aircraft_template_400 = {
 			},
 			{
 				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[2966070] = {
+		name = "【大世界】黑海伦娜 约克城支援 飞机 LV1",
+		max_hp = 292,
+		accuracy = 23,
+		model_ID = "alter_plane2_blue",
+		ACC_growth = 0,
+		crash_DMG = 72,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "alter_plane2_blue",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 5000,
+		speed = 32,
+		id = 2966070,
+		scale = 0.75,
+		weapon_ID = {
+			2966075
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[2966071] = {
+		name = "【大世界】黑海伦娜 约克城支援 飞机 LV2",
+		max_hp = 356,
+		accuracy = 23,
+		model_ID = "alter_plane2_blue",
+		ACC_growth = 0,
+		crash_DMG = 144,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "alter_plane2_blue",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 5500,
+		speed = 32,
+		id = 2966071,
+		scale = 0.75,
+		weapon_ID = {
+			2966076
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[2966072] = {
+		name = "【大世界】黑海伦娜 约克城支援 飞机 LV3",
+		max_hp = 420,
+		accuracy = 23,
+		model_ID = "alter_plane2_blue",
+		ACC_growth = 0,
+		crash_DMG = 216,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "alter_plane2_blue",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 6100,
+		speed = 32,
+		id = 2966072,
+		scale = 0.75,
+		weapon_ID = {
+			2966077
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[2966073] = {
+		name = "【大世界】黑海伦娜 约克城支援 飞机 LV4",
+		max_hp = 516,
+		accuracy = 23,
+		model_ID = "alter_plane2_blue",
+		ACC_growth = 0,
+		crash_DMG = 324,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "alter_plane2_blue",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 6800,
+		speed = 32,
+		id = 2966073,
+		scale = 0.75,
+		weapon_ID = {
+			2966078
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[2966074] = {
+		name = "【大世界】黑海伦娜 约克城支援 飞机 LV5",
+		max_hp = 612,
+		accuracy = 23,
+		model_ID = "alter_plane2_blue",
+		ACC_growth = 0,
+		crash_DMG = 432,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "alter_plane2_blue",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 7600,
+		speed = 32,
+		id = 2966074,
+		scale = 0.75,
+		weapon_ID = {
+			2966079
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			},

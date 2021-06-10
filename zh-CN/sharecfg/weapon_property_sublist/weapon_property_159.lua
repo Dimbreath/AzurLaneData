@@ -2,6 +2,115 @@ pg = pg or {}
 pg.weapon_property_159 = {}
 
 function ()
+	uv0.weapon_property_159[68730] = {
+		id = 68730,
+		name = "凯撒鱼雷-LV10",
+		damage = 96,
+		base = 68721
+	}
+	uv0.weapon_property_159[68731] = {
+		action_index = "attack",
+		range = 95,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "利托里奥弹幕PVE-Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 62,
+		corrected = 100,
+		min_range = 25,
+		id = 68731,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19022
+		},
+		barrage_ID = {
+			80794
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_159[68732] = {
+		id = 68732,
+		name = "利托里奥弹幕PVE-Lv2",
+		damage = 74,
+		base = 68731
+	}
+	uv0.weapon_property_159[68733] = {
+		id = 68733,
+		name = "利托里奥弹幕PVE-Lv3",
+		damage = 86,
+		base = 68731
+	}
+	uv0.weapon_property_159[68734] = {
+		id = 68734,
+		name = "利托里奥弹幕PVE-Lv4",
+		damage = 98,
+		base = 68731
+	}
+	uv0.weapon_property_159[68735] = {
+		id = 68735,
+		name = "利托里奥弹幕PVE-Lv5",
+		damage = 110,
+		base = 68731
+	}
+	uv0.weapon_property_159[68736] = {
+		id = 68736,
+		name = "利托里奥弹幕PVE-Lv6",
+		damage = 122,
+		base = 68731
+	}
+	uv0.weapon_property_159[68737] = {
+		id = 68737,
+		name = "利托里奥弹幕PVE-Lv7",
+		damage = 134,
+		base = 68731
+	}
+	uv0.weapon_property_159[68738] = {
+		id = 68738,
+		name = "利托里奥弹幕PVE-Lv8",
+		damage = 146,
+		base = 68731
+	}
+	uv0.weapon_property_159[68739] = {
+		id = 68739,
+		name = "利托里奥弹幕PVE-Lv9",
+		damage = 158,
+		base = 68731
+	}
+	uv0.weapon_property_159[68740] = {
+		id = 68740,
+		name = "利托里奥弹幕PVE-Lv10",
+		damage = 174,
+		base = 68731
+	}
 	uv0.weapon_property_159[68741] = {
 		action_index = "attack",
 		range = 120,
@@ -691,104 +800,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_159[68792] = {
-		id = 68792,
-		damage = 134,
-		base = 68791
-	}
-	uv0.weapon_property_159[68793] = {
-		id = 68793,
-		damage = 142,
-		base = 68791
-	}
-	uv0.weapon_property_159[68794] = {
-		id = 68794,
-		damage = 151,
-		base = 68791
-	}
-	uv0.weapon_property_159[68795] = {
-		id = 68795,
-		damage = 161,
-		base = 68791
-	}
-	uv0.weapon_property_159[68796] = {
-		id = 68796,
-		damage = 172,
-		base = 68791
-	}
-	uv0.weapon_property_159[68797] = {
-		id = 68797,
-		damage = 184,
-		base = 68791
-	}
-	uv0.weapon_property_159[68798] = {
-		id = 68798,
-		damage = 197,
-		base = 68791
-	}
-	uv0.weapon_property_159[68799] = {
-		id = 68799,
-		damage = 211,
-		base = 68791
-	}
-	uv0.weapon_property_159[68800] = {
-		id = 68800,
-		damage = 226,
-		base = 68791
-	}
-	uv0.weapon_property_159[68801] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "赤城μ技能鱼雷机Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 90,
-		charge_param = "",
-		damage = 68,
-		corrected = 100,
-		min_range = 0,
-		id = 68801,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1890,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			68801
-		},
-		barrage_ID = {
-			12008,
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_159[68802] = {
-		name = "赤城μ技能鱼雷机Lv2",
-		damage = 86,
-		base = 68801,
-		id = 68802,
-		bullet_ID = {
-			68802
-		}
 	}
 end()

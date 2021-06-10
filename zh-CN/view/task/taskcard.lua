@@ -3,7 +3,8 @@ slot1 = 0
 slot2 = 1
 slot3 = 2
 slot4 = 3
-slot5 = 0.3
+slot5 = 4
+slot6 = 0.3
 
 function slot0.Ctor(slot0, slot1, slot2)
 	pg.DelegateInfo.New(slot0)
@@ -11,6 +12,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._go = slot1
 	slot0._tf = tf(slot0._go)
 	slot0.viewComponent = slot2
+	slot0.frame = slot0._tf:Find("frame")
 	slot0.descTxt = slot0._tf:Find("frame/desc"):GetComponent(typeof(Text))
 	slot0.tagTF = slot0._tf:Find("frame/tag")
 	slot0.rewardPanel = slot0._tf:Find("frame/awards")
@@ -27,7 +29,10 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.unfinishBg = slot0._tf:Find("frame/unfinish_bg")
 	slot0.tip = slot0._tf:Find("frame/tip")
 	slot0.cg = GetOrAddComponent(slot0._tf, "CanvasGroup")
+	slot0.height = slot0._tf.rect.height
 	slot0.urTag = slot0._tf:Find("frame/urTag")
+	slot0.lockBg = slot0._tf:Find("lock_bg")
+	slot0.lockTxt = slot0.lockBg:Find("btn/Text"):GetComponent(typeof(Text))
 end
 
 function slot0.update(slot0, slot1)
@@ -39,11 +44,11 @@ function slot0.update(slot0, slot1)
 
 	slot0.descTxt.text = HXSet.hxLan(slot1:getConfig("desc"))
 
-	slot0.viewComponent:setSpriteTo("taskTagOb/" .. slot1:GetRealType(), slot0.tagTF)
+	slot0:setSpriteTo("taskTagOb/" .. slot1:GetRealType(), slot0.tagTF)
 
 	slot2 = slot1:getConfig("target_num")
 
-	slot0:updateAwards(slot1)
+	slot0:updateAwards(slot1:getConfig("award_display"))
 
 	slot3 = slot1:getProgress()
 
@@ -89,8 +94,10 @@ function slot0.updateBtnState(slot0, slot1)
 	removeOnButton(slot0.GotoBtn)
 	removeOnButton(slot0.GetBtn)
 
-	if slot1:isFinish() then
-		slot2 = slot1:isReceive() and uv1 or uv2
+	if slot1:isLock() then
+		slot2 = uv1
+	elseif slot1:isFinish() then
+		slot2 = slot1:isReceive() and uv2 or uv3
 
 		onButton(slot0, slot0.GetBtn, function ()
 			function slot0()
@@ -108,7 +115,7 @@ function slot0.updateBtnState(slot0, slot1)
 
 						uv0.isClick = nil
 
-						uv0.viewComponent:onSubmit(uv2)
+						uv0:Submit(uv2)
 					end))
 				end
 			end
@@ -158,22 +165,40 @@ function slot0.updateBtnState(slot0, slot1)
 			end)()
 		end, SFX_PANEL)
 	else
-		slot2 = uv4
+		slot2 = uv5
 
 		onButton(slot0, slot0.GotoBtn, function ()
-			uv0.viewComponent:onGo(uv1)
+			uv0:Skip(uv1)
 		end, SFX_PANEL)
 	end
 
-	SetActive(slot0.GotoBtn, slot2 == uv4)
-	SetActive(slot0.GetBtn, slot2 == uv2)
-	setActive(slot0.finishBg, slot2 == uv2 or slot2 == uv1)
-	setActive(slot0.unfinishBg, slot2 ~= uv2 and slot2 ~= BTN_STATE_FETC)
-	setActive(slot0.tip, slot2 == uv2 or slot2 == uv1)
+	SetActive(slot0.GotoBtn, slot2 == uv5)
+	SetActive(slot0.GetBtn, slot2 == uv3)
+	setActive(slot0.finishBg, slot2 == uv3 or slot2 == uv2)
+	setActive(slot0.unfinishBg, slot2 ~= uv3 and slot2 ~= BTN_STATE_FETC)
+	setActive(slot0.tip, slot2 == uv3 or slot2 == uv2)
+	setActive(slot0.lockBg, slot2 == uv1)
+	setGray(slot0.frame, slot2 == uv1, true)
+
+	if slot2 == uv1 then
+		slot0.lockTxt.text = i18n("task_lock", slot1:getConfig("level"))
+	end
+end
+
+function slot0.Submit(slot0, slot1)
+	if slot1.isWeekTask then
+		slot0.viewComponent:onSubmitForWeek(slot1)
+	else
+		slot0.viewComponent:onSubmit(slot1)
+	end
+end
+
+function slot0.Skip(slot0, slot1)
+	slot0.viewComponent:onGo(slot1)
 end
 
 function slot0.updateAwards(slot0, slot1)
-	for slot7 = slot0.rewardPanel.childCount, #_.slice(slot1:getConfig("award_display"), 1, 3) - 1 do
+	for slot7 = slot0.rewardPanel.childCount, #_.slice(slot1, 1, 3) - 1 do
 		cloneTplTo(slot0._rewardModel, slot0.rewardPanel)
 	end
 
@@ -194,6 +219,14 @@ function slot0.updateAwards(slot0, slot1)
 				uv0.viewComponent:emit(TaskMediator.ON_DROP, uv1)
 			end, SFX_PANEL)
 		end
+	end
+end
+
+function slot0.setSpriteTo(slot0, slot1, slot2, slot3)
+	slot2:GetComponent(typeof(Image)).sprite = slot0.viewComponent._tf:Find(slot1):GetComponent(typeof(Image)).sprite
+
+	if slot3 then
+		slot4:SetNativeSize()
 	end
 end
 

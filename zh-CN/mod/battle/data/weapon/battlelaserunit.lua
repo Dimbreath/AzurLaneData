@@ -68,10 +68,7 @@ function slot4.DoAttack(slot0, slot1)
 	slot0._attackStartTime = pg.TimeMgr.GetInstance():GetCombatTime()
 
 	if slot0._tmpData.aim_type == uv0.WeaponAimType.AIM and slot1 ~= nil then
-		slot2 = slot1:GetBeenAimedPosition()
-		slot0._aimAngle = math.rad2Deg * math.atan2(slot0._hostPos.z - slot2.z, slot0._hostPos.x - slot2.x)
-	else
-		slot0._aimAngle = 0
+		slot0._aimPos = slot1:GetBeenAimedPosition()
 	end
 
 	slot0:cacheBulletID()
@@ -136,11 +133,7 @@ end
 
 function slot4.createBeam(slot0, slot1)
 	slot4 = uv0.GetBarrageTmpDataFromID(slot1:GetBeamInfoID())
-
-	slot1:SetAimAngle(slot0._aimAngle)
-
-	slot11 = slot0._host:GetIFF()
-	slot12 = slot0._dataProxy:SpawnLastingCubeArea(uv1.AOEField.SURFACE, slot11, Vector3(slot0._hostPos.x + slot4.offset_x, 0, slot0._hostPos.z + slot4.offset_z), slot4.delta_offset_x, slot4.delta_offset_z, slot4.delay, function (slot0)
+	slot13 = slot0._dataProxy:SpawnLastingCubeArea(uv1.AOEField.SURFACE, slot0._host:GetIFF(), Vector3(slot0._hostPos.x + slot4.offset_x, 0, slot0._hostPos.z + slot4.offset_z), slot4.delta_offset_x, slot4.delta_offset_z, slot4.delay, function (slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			if slot5.Active then
 				uv1:AddCldUnit(uv0._dataProxy:GetUnitList()[slot5.UID])
@@ -152,14 +145,22 @@ function slot4.createBeam(slot0, slot1)
 		end
 	end, false, uv0.GetBulletTmpDataFromID(slot1:GetBulletID()).modle_ID)
 
-	if slot11 == uv2.FRIENDLY_CODE then
-		slot12:SetAnchorPointAlignment(slot12.ALIGNMENT_LEFT)
-	elseif slot11 == uv2.FOE_CODE then
-		slot12:SetAnchorPointAlignment(slot12.ALIGNMENT_RIGHT)
+	if slot0._aimPos == nil then
+		slot1:SetAimAngle(0)
+	elseif slot4.offset_prioritise then
+		slot1:SetAimPosition(slot0._aimPos, slot12)
+	else
+		slot1:SetAimAngle(math.rad2Deg * math.atan2(slot0._hostPos.z - slot0._aimPos.z, slot0._hostPos.x - slot0._aimPos.x))
 	end
 
-	slot12:SetFXStatic(true)
-	slot1:SetAoeData(slot12)
+	if slot11 == uv2.FRIENDLY_CODE then
+		slot13:SetAnchorPointAlignment(slot13.ALIGNMENT_LEFT)
+	elseif slot11 == uv2.FOE_CODE then
+		slot13:SetAnchorPointAlignment(slot13.ALIGNMENT_RIGHT)
+	end
+
+	slot13:SetFXStatic(true)
+	slot1:SetAoeData(slot13)
 	slot1:BeginFocus()
 	slot1:ChangeBeamState(slot1.BEAM_STATE_ATTACK)
 end

@@ -121,8 +121,6 @@ function slot0.NotificationForGuildEvent(slot0, slot1)
 end
 
 function slot0.OnBeginBattle(slot0)
-	print("record.......................")
-
 	if not getProxy(GuildProxy) then
 		return
 	end
@@ -143,38 +141,48 @@ function slot0.OnFinishBattle(slot0, slot1)
 		if not slot0.taskFinished and (slot2:GetActiveWeeklyTask() and slot3:PrivateBeFinished() and slot3:SamePrivateTaskType(GuildTask.PRIVATE_TASK_TYPE_BATTLE)) then
 			slot0.shouldShowBattleTip = true
 		end
-
-		print("shouldShowBattleTip : ", slot0.shouldShowBattleTip)
 	end
 
 	slot0.taskFinished = nil
 end
 
 function slot0.NotificationForBattle(slot0, slot1)
-	print("shouldShowBattleTip 2 :", slot0.shouldShowBattleTip)
-
 	if slot0.shouldShowBattleTip then
 		if getProxy(GuildProxy):getRawData() and slot2:GetActiveWeeklyTask() then
-			slot5 = {
-				pg.UIMgr.CameraLevel
-			}
+			slot4 = false
 
-			if getProxy(ChapterProxy):getActiveChapter() and slot4:CheckChapterWin() then
-				slot5 = nil
-			end
+			seriesAsync({
+				function (slot0)
+					uv0:SubmitTask(function (slot0, slot1, slot2)
+						uv0 = slot0
 
-			slot0:Notification({
-				condition = function ()
-					return true
+						uv1()
+					end)
 				end,
-				content = i18n("guild_mission_complate", slot3:GetPrivateTaskName()),
-				OnYes = function ()
-					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.GUILD, {
-						page = "office"
+				function (slot0)
+					slot1 = uv0 and "\n" .. i18n("guild_task_autoaccept_2", uv1:GetPrivateTaskName()) or ""
+					slot3 = {
+						pg.UIMgr.CameraLevel
+					}
+
+					if getProxy(ChapterProxy):getActiveChapter() and slot2:CheckChapterWin() then
+						slot3 = nil
+					end
+
+					uv2:Notification({
+						condition = function ()
+							return true
+						end,
+						content = i18n("guild_mission_complate", uv1:GetPrivateTaskName()) .. slot1,
+						OnYes = function ()
+							pg.m02:sendNotification(GAME.GO_SCENE, SCENE.GUILD, {
+								page = "office"
+							})
+						end,
+						blurCamList = slot3,
+						OnHide = uv3
 					})
-				end,
-				blurCamList = slot5,
-				OnHide = slot1
+				end
 			})
 		elseif slot1 then
 			slot1()
@@ -187,18 +195,33 @@ function slot0.NotificationForBattle(slot0, slot1)
 end
 
 function slot0.NotificationForDailyBattle(slot0)
-	if slot0.shouldShowBattleTip and getProxy(GuildProxy):getRawData() and slot1:GetActiveWeeklyTask() then
-		slot0:Notification({
-			condition = function ()
-				return true
-			end,
-			content = i18n("guild_mission_complate", slot2:GetPrivateTaskName()),
-			OnYes = function ()
-				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.GUILD, {
-					page = "office"
-				})
-			end
-		})
+	if slot0.shouldShowBattleTip then
+		if getProxy(GuildProxy):getRawData() and slot1:GetActiveWeeklyTask() then
+			slot3 = false
+
+			seriesAsync({
+				function (slot0)
+					uv0:SubmitTask(function (slot0, slot1, slot2)
+						uv0 = slot0
+
+						uv1()
+					end)
+				end,
+				function ()
+					uv2:Notification({
+						condition = function ()
+							return true
+						end,
+						content = i18n("guild_mission_complate", uv1:GetPrivateTaskName()) .. (uv0 and "\n" .. i18n("guild_task_autoaccept_2", uv1:GetPrivateTaskName()) or ""),
+						OnYes = function ()
+							pg.m02:sendNotification(GAME.GO_SCENE, SCENE.GUILD, {
+								page = "office"
+							})
+						end
+					})
+				end
+			})
+		end
 	end
 
 	slot0.shouldShowBattleTip = nil
@@ -207,17 +230,30 @@ end
 function slot0.NotificationForWorld(slot0, slot1)
 	if slot0.shouldShowBattleTip then
 		if getProxy(GuildProxy):getRawData() and slot2:GetActiveWeeklyTask() then
-			slot0:Notification({
-				condition = function ()
-					return true
+			slot4 = false
+
+			seriesAsync({
+				function (slot0)
+					uv0:SubmitTask(function (slot0, slot1, slot2)
+						uv0 = slot0
+
+						uv1()
+					end)
 				end,
-				content = i18n("guild_mission_complate", slot3:GetPrivateTaskName()),
-				OnYes = function ()
-					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.GUILD, {
-						page = "office"
+				function ()
+					uv2:Notification({
+						condition = function ()
+							return true
+						end,
+						content = i18n("guild_mission_complate", uv1:GetPrivateTaskName()) .. (uv0 and "\n" .. i18n("guild_task_autoaccept_2", uv1:GetPrivateTaskName()) or ""),
+						OnYes = function ()
+							pg.m02:sendNotification(GAME.GO_SCENE, SCENE.GUILD, {
+								page = "office"
+							})
+						end,
+						OnHide = uv3
 					})
-				end,
-				OnHide = slot1
+				end
 			})
 		elseif slot1 then
 			slot1()
@@ -304,4 +340,63 @@ end
 
 function slot0.CancelShouldShowBattleTip(slot0)
 	slot0.shouldShowBattleTip = nil
+end
+
+function slot0.SubmitTask(slot0, slot1)
+	if not getProxy(GuildProxy):getRawData() then
+		slot1 or function ()
+		end()
+
+		return
+	end
+
+	if not slot2:hasWeeklyTaskFlag() then
+		slot1()
+
+		return
+	end
+
+	if not (slot2 and slot2:GetActiveWeeklyTask()) then
+		slot1()
+
+		return
+	end
+
+	if slot4 and slot4:isFinished() then
+		slot1()
+
+		return
+	end
+
+	if (getProxy(TaskProxy):getTaskById(slot4:GetPresonTaskId()) or slot6:getFinishTaskById(slot5)) and not slot7:isFinish() then
+		slot1()
+
+		return
+	end
+
+	slot8 = false
+	slot9 = {}
+
+	if slot7 and slot7:isFinish() and not slot7:isReceive() then
+		table.insert(slot9, function (slot0)
+			pg.m02:sendNotification(GAME.SUBMIT_TASK, uv0, function (slot0)
+				uv0 = slot0
+
+				uv1()
+			end)
+		end)
+	end
+
+	table.insert(slot9, function (slot0)
+		slot1 = uv0:getTaskById(uv1) or uv0:getFinishTaskById(uv1)
+
+		if uv2 and not uv2:isFinished() and (not slot1 or slot1 and slot1:isFinish() and slot1:isReceive()) then
+			pg.m02:sendNotification(GAME.TRIGGER_TASK, uv1, slot0)
+		else
+			slot0()
+		end
+	end)
+	seriesAsync(slot9, function ()
+		uv2(uv0:getTaskById(uv1) ~= nil, uv3, uv1)
+	end)
 end

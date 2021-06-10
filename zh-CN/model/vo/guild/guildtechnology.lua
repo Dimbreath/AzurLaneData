@@ -1,4 +1,6 @@
 slot0 = class("GuildTechnology", import("..BaseVO"))
+slot0.UPGRADE_TYPE_SELF = 1
+slot0.UPGRADE_TYPE_PUBLIC = 2
 
 function slot0.Ctor(slot0, slot1)
 	slot0:Update(slot0:bindConfigTable().get_id_list_by_group[slot1.id][1], slot1)
@@ -39,6 +41,10 @@ function slot0.ReachTargetLiveness(slot0, slot1)
 	return slot0:GetTargetLivness() <= slot1:GetLiveness()
 end
 
+function slot0._ReachTargetLiveness_(slot0)
+	return slot0:ReachTargetLiveness(getProxy(GuildProxy):getRawData():getMemberById(getProxy(PlayerProxy):getRawData().id))
+end
+
 function slot0.levelUp(slot0)
 	if slot0:GetNextLevelId() ~= 0 then
 		slot0:Update(slot1, slot0.group)
@@ -55,6 +61,35 @@ end
 
 function slot0.isMaxLevel(slot0)
 	return slot0:GetMaxLevel() <= slot0:GetLevel()
+end
+
+function slot0.CanUpgradeBySelf(slot0)
+	slot1 = slot0:_ReachTargetLiveness_()
+	slot2 = slot0:GetLevel() < slot0:GetMaxLevel()
+
+	return slot1 and slot2, slot1, slot2
+end
+
+function slot0.GetLivenessOffset(slot0)
+	return slot0:GetTargetLivness() - getProxy(GuildProxy):getRawData():getMemberById(getProxy(PlayerProxy):getRawData().id):GetLiveness()
+end
+
+function slot0.GetUpgradeType(slot0)
+	if slot0:CanUpgradeBySelf() then
+		return uv0.UPGRADE_TYPE_SELF
+	else
+		slot2 = slot0:GetMaxLevel()
+
+		if slot0:GetLevel() < slot0.group:GetFakeLevel() then
+			return uv0.UPGRADE_TYPE_PUBLIC
+		end
+	end
+
+	return false
+end
+
+function slot0.CanUpgrade(slot0)
+	return slot0:GetUpgradeType() ~= false
 end
 
 function slot0.GetMaxLevel(slot0)
@@ -78,7 +113,17 @@ function slot0.getAddition(slot0)
 end
 
 function slot0.GetConsume(slot0)
-	return slot0:getConfig("contribution_consume"), slot0:getConfig("gold_consume")
+	if slot0:IsRiseInPrice() then
+		slot3 = slot0:getConfig("contribution_multiple")
+
+		return slot0:getConfig("contribution_consume") * slot3, slot0:getConfig("gold_consume") * slot3
+	else
+		return slot1, slot2
+	end
+end
+
+function slot0.IsRiseInPrice(slot0)
+	return slot0:GetUpgradeType() == uv0.UPGRADE_TYPE_PUBLIC
 end
 
 function slot0.IsGuildMember(slot0)

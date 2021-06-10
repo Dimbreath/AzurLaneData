@@ -2,6 +2,344 @@ pg = pg or {}
 pg.weapon_property_383 = {}
 
 function ()
+	uv0.weapon_property_383[1101044] = {
+		action_index = "attack",
+		range = 95,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "关卡通用-BOSS-对全航母后排跨射5",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 40,
+		charge_param = "",
+		damage = 55,
+		corrected = 100,
+		min_range = 75,
+		id = 1101044,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1500,
+		queue = 5,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			50500,
+			50500
+		},
+		barrage_ID = {
+			5500,
+			5501
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_383[1101045] = {
+		id = 1101045,
+		range = 75,
+		min_range = 0,
+		base = 1100720
+	}
+	uv0.weapon_property_383[1101046] = {
+		id = 1101046,
+		range = 75,
+		min_range = 0,
+		base = 1100721
+	}
+	uv0.weapon_property_383[1101047] = {
+		id = 1101047,
+		range = 75,
+		min_range = 0,
+		base = 1100722
+	}
+	uv0.weapon_property_383[1101048] = {
+		id = 1101048,
+		range = 75,
+		min_range = 0,
+		base = 1100723
+	}
+	uv0.weapon_property_383[1101049] = {
+		id = 1101049,
+		range = 75,
+		min_range = 0,
+		base = 1100724
+	}
+	uv0.weapon_property_383[1101050] = {
+		action_index = "attack",
+		range = 95,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "关卡通用-道中人形-对全航母后排跨射1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 40,
+		charge_param = "",
+		damage = 6,
+		corrected = 100,
+		min_range = 75,
+		id = 1101050,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1500,
+		queue = 5,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			50500
+		},
+		barrage_ID = {
+			5502
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_383[1101051] = {
+		action_index = "attack",
+		range = 95,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "关卡通用-道中人形-对全航母后排跨射2",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 40,
+		charge_param = "",
+		damage = 12,
+		corrected = 100,
+		min_range = 75,
+		id = 1101051,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1500,
+		queue = 5,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			50500
+		},
+		barrage_ID = {
+			5502
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_383[1101052] = {
+		action_index = "attack",
+		range = 95,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "关卡通用-道中人形-对全航母后排跨射3",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 40,
+		charge_param = "",
+		damage = 22,
+		corrected = 100,
+		min_range = 75,
+		id = 1101052,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1500,
+		queue = 5,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			50500
+		},
+		barrage_ID = {
+			5502
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_383[1101053] = {
+		action_index = "attack",
+		range = 95,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "关卡通用-道中人形-对全航母后排跨射4",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 40,
+		charge_param = "",
+		damage = 32,
+		corrected = 100,
+		min_range = 75,
+		id = 1101053,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1500,
+		queue = 5,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			50500
+		},
+		barrage_ID = {
+			5502
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_383[1101054] = {
+		action_index = "attack",
+		range = 95,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "关卡通用-道中人形-对全航母后排跨射5",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 40,
+		charge_param = "",
+		damage = 42,
+		corrected = 100,
+		min_range = 75,
+		id = 1101054,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1500,
+		queue = 5,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			50500
+		},
+		barrage_ID = {
+			5502
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 1,
+			fx = "jinengenemy",
+			alertTime = 2,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_383[1101055] = {
+		id = 1101055,
+		range = 75,
+		min_range = 0,
+		base = 1100730
+	}
+	uv0.weapon_property_383[1101056] = {
+		id = 1101056,
+		range = 75,
+		min_range = 0,
+		base = 1100731
+	}
 	uv0.weapon_property_383[1101057] = {
 		id = 1101057,
 		range = 75,
@@ -548,183 +886,5 @@ function ()
 		effect_move = 0,
 		angle = 360,
 		initial_over_heat = 0
-	}
-	uv0.weapon_property_383[1101106] = {
-		name = "【精英】Q版四联装鱼雷III型弹幕2",
-		range = 90,
-		damage = 30,
-		base = 1100506,
-		type = 3,
-		reload_max = 1000,
-		queue = 4,
-		id = 1101106,
-		effect_move = 0,
-		angle = 360,
-		initial_over_heat = 0
-	}
-	uv0.weapon_property_383[1101107] = {
-		name = "【精英】Q版四联装鱼雷III型弹幕3",
-		range = 90,
-		damage = 35,
-		base = 1100507,
-		type = 3,
-		reload_max = 1000,
-		queue = 4,
-		id = 1101107,
-		effect_move = 0,
-		angle = 360,
-		initial_over_heat = 0
-	}
-	uv0.weapon_property_383[1101108] = {
-		name = "【精英】Q版四联装鱼雷III型弹幕4",
-		range = 90,
-		damage = 40,
-		base = 1100508,
-		type = 3,
-		reload_max = 1000,
-		queue = 4,
-		id = 1101108,
-		effect_move = 0,
-		angle = 360,
-		initial_over_heat = 0
-	}
-	uv0.weapon_property_383[1101109] = {
-		name = "【精英】Q版四联装鱼雷III型弹幕5",
-		range = 90,
-		damage = 45,
-		base = 1100509,
-		type = 3,
-		reload_max = 1000,
-		queue = 4,
-		id = 1101109,
-		effect_move = 0,
-		angle = 360,
-		initial_over_heat = 0
-	}
-	uv0.weapon_property_383[1101110] = {
-		name = "【精英】Q版战列特殊机枪弹幕1",
-		range = 100,
-		damage = 7,
-		base = 1101525,
-		type = 1,
-		suppress = 0,
-		reload_max = 1250,
-		queue = 1,
-		id = 1101110,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_383[1101111] = {
-		name = "【精英】Q版战列特殊机枪弹幕2",
-		range = 100,
-		damage = 8,
-		base = 1101526,
-		type = 1,
-		suppress = 0,
-		reload_max = 1250,
-		queue = 1,
-		id = 1101111,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_383[1101112] = {
-		name = "【精英】Q版战列特殊机枪弹幕3",
-		range = 100,
-		damage = 10,
-		base = 1101527,
-		type = 1,
-		suppress = 0,
-		reload_max = 1250,
-		queue = 1,
-		id = 1101112,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_383[1101113] = {
-		name = "【精英】Q版战列特殊机枪弹幕4",
-		range = 100,
-		damage = 12,
-		base = 1101528,
-		type = 1,
-		suppress = 0,
-		reload_max = 1250,
-		queue = 1,
-		id = 1101113,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_383[1101114] = {
-		name = "【精英】Q版战列特殊机枪弹幕5",
-		range = 100,
-		damage = 15,
-		base = 1101529,
-		type = 1,
-		suppress = 0,
-		reload_max = 1250,
-		queue = 1,
-		id = 1101114,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_383[1101115] = {
-		name = "【精英】Q版战列特殊穿透弹幕1",
-		range = 100,
-		damage = 15,
-		base = 1101530,
-		type = 1,
-		suppress = 0,
-		reload_max = 1250,
-		queue = 1,
-		id = 1101115,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_383[1101116] = {
-		name = "【精英】Q版战列特殊穿透弹幕2",
-		range = 100,
-		damage = 18,
-		base = 1101531,
-		type = 1,
-		suppress = 0,
-		reload_max = 1250,
-		queue = 1,
-		id = 1101116,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_383[1101117] = {
-		name = "【精英】Q版战列特殊穿透弹幕3",
-		range = 100,
-		damage = 22,
-		base = 1101532,
-		type = 1,
-		suppress = 0,
-		reload_max = 1250,
-		queue = 1,
-		id = 1101117,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
-	}
-	uv0.weapon_property_383[1101118] = {
-		name = "【精英】Q版战列特殊穿透弹幕4",
-		range = 100,
-		damage = 26,
-		base = 1101533,
-		type = 1,
-		suppress = 0,
-		reload_max = 1250,
-		queue = 1,
-		id = 1101118,
-		effect_move = 0,
-		angle = 360,
-		aim_type = 0
 	}
 end()

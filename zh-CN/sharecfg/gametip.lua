@@ -1278,6 +1278,9 @@ pg.gametip = {
 	equipment_upgrade_costcheck_error = {
 		tip = "请确认强化消耗材料后进行强化"
 	},
+	equipment_upgrade_feedback_lack_of_fragment = {
+		tip = "<color=#92fc63>$1</color>的数量不足"
+	},
 	exercise_count_insufficient = {
 		tip = "演习<color=#92fc63>次数不足</color>"
 	},
@@ -2915,15 +2918,15 @@ pg.gametip = {
 		tip = {
 			{
 				info = [[
-信标·烬功能说明
+信标·META功能说明
 
-1. <color=#92fc63>2021.3.18-2021.6.10</color>期间限时开放「皇家方舟·META」的挑战，在此期间指挥官可挑战「皇家方舟·META」累计其同步值获取<color=#92fc63>「皇家方舟·META」角色</color>及其他丰厚奖励
+1. <color=#92fc63>2021.6.10-2021.9.9</color>期间限时开放「海伦娜·META」的挑战，在此期间指挥官可挑战「海伦娜·META」累计其同步值获取<color=#92fc63>「海伦娜·META」角色</color>及其他丰厚奖励
  <color=#ff5c5c>注意：同步值将于时间结束后消失</color>
 
-2.「余烬信标数据」获取与解析
-·指挥官可通过在大型作战中获取「余烬信标数据」，达到指定数据量后进行解析并发现特定余烬信标
-·每日最多可解析 <color=#92fc63>2次</color>，次数于每日0点重置，尚未使用的「余烬信标数据」将会保留。
-·每次解析「余烬信标数据」所需量为<color=#92fc63>100</color>点
+2.「信标数据」获取与解析
+·指挥官可通过在大型作战中获取「信标数据」，达到指定数据量后进行解析并发现特定信标
+·每日最多可解析 <color=#92fc63>2次</color>，次数于每日0点重置，尚未使用的「信标数据」将会保留。
+·每次解析「信标数据」所需量为<color=#92fc63>100</color>点
 
 3.挑战自己解析的信标
 ·第一次挑战自己解析的信标不会消耗石油，从第二次开始，随着挑战次数的增加，每次挑战消耗的石油会从<color=#92fc63>40</color>点逐渐减少至<color=#92fc63>1</color>点。(不会消耗挑战次数)
@@ -2938,7 +2941,7 @@ pg.gametip = {
 ·同一个信标最多能允许累计30位指挥官进行挑战
 
 5.战斗说明
-·挑战信标·烬只能使用大型作战中的舰船，暂不可使用指挥喵与潜艇
+·挑战信标·META只能使用大型作战中的舰船，暂不可使用指挥喵与潜艇
 ·战斗结算时不会获得经验值，不会影响舰船心情值
 ·战斗中不可中途退出，如果出现网络波动导致掉线的情况：
 ①挑战自己解析的信标时将会消耗40点石油(非第一次挑战)，且不会计算已造成的伤害
@@ -2946,8 +2949,8 @@ pg.gametip = {
  <color=#92fc63>请在参与作战时保持网络环境畅通</color>
 
 6.火力支援
-随着信标·烬挑战的进行，从第31天开始，即2021.4.18~2021.6.10期间，舰队挑战「皇家方舟·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标·烬开放的日期增加，火力支援提供的伤害也会增加。
-※此支援只会在指挥官自己发现的信标·烬战斗中出现，每次挑战均会触发。]]
+随着信标·META挑战的进行，从第31天开始，即2021.7.11~2021.9.9期间，舰队挑战「海伦娜·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标·META开放的日期增加，火力支援提供的伤害也会增加。
+※此支援只会在指挥官自己发现的信标·META战斗中出现，每次挑战均会触发。]]
 			}
 		}
 	},
@@ -6617,7 +6620,7 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		}
 	},
 	shop_street_activity_tip = {
-		tip = "*活动期间(<color=#A1E400FF>21.5.27-21.6.9</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>"
+		tip = "*活动期间(<color=#A1E400FF>21.5.27-21.6.16</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>"
 	},
 	battle_result_boss_destruct = {
 		tip = "阻止boss自毁并击破boss"
@@ -10773,6 +10776,9 @@ TIPS：
 	index_special = {
 		tip = "特殊"
 	},
+	index_propose_skin = {
+		tip = "誓约换装"
+	},
 	index_not_obtained = {
 		tip = "未获得"
 	},
@@ -11095,6 +11101,9 @@ TIPS：
 	},
 	equipment_upgrade_initial_node = {
 		tip = "此装备不可由通过装备研发获取"
+	},
+	equipment_upgrade_feedback_compose_tip = {
+		tip = "选择装备设计图进行装备改造，将会额外消耗对应设计图合成所需的物资，是否确认？"
 	},
 	discount_coupon_tip = {
 		tip = "是否使用<color=#92fc63FF>$1钻石</color>及<color=#92fc63FF>$2 </color>购买<color=#92fc63FF>$3</color>"
@@ -11905,7 +11914,7 @@ BUFF加成也会增加
 		tip = "大舰队席位上限增加$1"
 	},
 	guild_tech_livness_no_enough = {
-		tip = "活跃度达到$1可学习"
+		tip = "还需要<color=#ff5c5c>$1</color>活跃度可学习，继续提升所需消耗为公共舰队科技提升消耗，是否继续升级？"
 	},
 	guild_ship_attr_desc = {
 		tip = "大舰队作战内$1的$2提高$3"
@@ -12271,16 +12280,16 @@ BUFF加成也会增加
 				info = "8.通常模式下，所有成员均可花费<color=#92fc63>舰队币</color>和<color=#92fc63>物资</color>学习大舰队已经研发的科技。"
 			},
 			{
-				info = "9.成员的大舰队科技等级只能提升到<color=#92fc63>当前大舰队</color>科技等级上限。"
+				info = "9.成员的大舰队科技等级只能提升到科技等级上限，科技等级上限由<color=#92fc63>当前大舰队</color>科技等级上限与公共舰队科技等级上限较高者决定。"
 			},
 			{
-				info = "10.大舰队科技需要达到对应的<color=#92fc63>活跃度</color>才可学习。"
+				info = "10.<color=#92fc63>当前大舰队</color>科技需要达到对应的<color=#92fc63>活跃度</color>才可学习。不满足<color=#92fc63>当前大舰队</color>科技等级提升条件但未达到公共科技等级上限可以继续学习，但所需资源消耗为公共舰队科技消耗。"
 			},
 			{
-				info = "11.如果指挥官退出大舰队，已经习得的大舰队科技<color=#92fc63>等级保留</color>，加入新的大舰队后，对应科技将会<color=#92fc63>重新生效</color>。"
+				info = "11.如果指挥官退出大舰队，已经习得的大舰队科技<color=#92fc63>等级保留</color>，加入新的大舰队后，对应科技将会<color=#92fc63>重新生效</color>，但不会超过所属舰队的科技等级上限。"
 			},
 			{
-				info = "12.如果指挥官不在任何一个大舰队内，则大舰队科技<color=#92fc63>不生效</color>。"
+				info = "12.如果指挥官不在任何一个大舰队内，则大舰队科技最多保留至公共舰队科技等级上限。"
 			}
 		}
 	},
@@ -12466,6 +12475,44 @@ BUFF加成也会增加
 			}
 		}
 	},
+	guild_public_tech_tip = {
+		tip = {
+			{
+				info = "科技说明："
+			},
+			{
+				info = "1.公共舰队科技可对指挥官港区提供一定的加成。"
+			},
+			{
+				info = "2.公共舰队科技的研发进度每日累计，研发完成后，对应公共舰队科技等级上限提升。"
+			},
+			{
+				info = "3.指挥官可花费舰队币和物资学习公共舰队已经研发的科技。"
+			},
+			{
+				info = "4.指挥官的科技等级最多只能生效到公共舰队科技等级上限。"
+			}
+		}
+	},
+	guild_public_office_tip = {
+		tip = {
+			{
+				info = "后勤说明："
+			},
+			{
+				info = "1.指挥官可以在后勤处提交军需筹备任务。"
+			},
+			{
+				info = "2.军需筹备：指挥官可通过军需筹备获取舰队币奖励。"
+			},
+			{
+				info = "3.军需筹备每人每天可以执行<color=#92fc63>3</color>次。"
+			}
+		}
+	},
+	guild_tech_price_inc_tip = {
+		tip = "已达到<color=#92fc63>当前大舰队</color>的科技等级上限，继续提升所需消耗为公共舰队科技提升消耗，是否继续升级？"
+	},
 	guild_boss_fleet_desc = {
 		tip = [[
 1.最多选择<color=#92fc63>9</color>名角色，组成舰队。
@@ -12605,7 +12652,7 @@ BUFF加成也会增加
 		tip = "请输入正确的确认文本后进行拆解"
 	},
 	destroy_ur_rarity_tip = {
-		tip = "包含<color=#92fc63>海上传奇舰船</color>，请输入<color=#92fc63>「$1」</color>进行确认"
+		tip = "包含<color=#92fc63>海上传奇舰船</color>，请输入<color=#92fc63>$1</color>进行确认"
 	},
 	destory_ur_pt_overflowa = {
 		tip = "※拆解获得的<color=#92fc63>「特装原型」</color>将超过本月获取上限，<color=#fd796b>超过的部分将无法获得</color>"
@@ -12686,7 +12733,7 @@ BUFF加成也会增加
 		}
 	},
 	fleet_antisub_range = {
-		tip = "反潜声呐范围："
+		tip = "反潜范围"
 	},
 	fleet_antisub_range_tip = {
 		tip = {
@@ -13394,7 +13441,7 @@ BUFF加成也会增加
 		tip = "请勿频繁刷新"
 	},
 	world_joint_exit_battle_tip = {
-		tip = "是否中断当前战斗，前往余烬信标？"
+		tip = "是否中断当前战斗，前往信标·META？"
 	},
 	world_boss_get_item = {
 		tip = "当前已经收集到指定数据量的信标数据，是否立即对其进行解析？\n(<color=#ff5c5c>未解析的情况下，后续将不会继续获得信标数据</color>)"
@@ -13409,7 +13456,7 @@ BUFF加成也会增加
 		tip = "所选信标已变为不可挑战状态，请尝试其他信标！"
 	},
 	world_boss_fleet = {
-		tip = "余烬信标作战"
+		tip = "信标作战"
 	},
 	world_max_challenge_cnt = {
 		tip = "所选信标挑战人数已满，请尝试其他信标！"
@@ -13427,7 +13474,7 @@ BUFF加成也会增加
 		tip = "战备物资兑换券已达到收集上限。"
 	},
 	meta_sys_lock_tip = {
-		tip = "META研究室将在开放大型作战的信标·烬功能后开启(未使用)"
+		tip = "META研究室将在开放大型作战的信标·META功能后开启(未使用)"
 	},
 	meta_story_lock = {
 		tip = "需要完成前置剧情才能进行资讯同步(未使用)"
@@ -13554,9 +13601,9 @@ BUFF加成也会增加
 	},
 	world_boss_progress_item_desc = {
 		tip = [[
-用于记录在大型作战中收集到的<color=#92fc63>「余烬信标数据」</color>的装置，达到指定数据量后可据此数据进行解析，发现余烬信标
+用于记录在大型作战中收集到的<color=#92fc63>「信标数据」</color>的装置，达到指定数据量后可据此数据进行解析，发现信标
 P.S.记录仪的记录容量有限，请务必及时前往解析
-今日解析次数:$1/$2
+今日已用解析次数:$1/$2
 数据记录量：$3]]
 	},
 	world_joint_max_challenge_people_cnt = {
@@ -13610,9 +13657,9 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 			{
 				info = [[
 1.<color=#92fc63>资讯同步</color>
-·<color=#92fc63>2021.3.18-2021.6.10</color>期间限时开放「皇家方舟·META」的「资讯同步」，通过「信标·烬」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「皇家方舟·META」角色</color>
+·<color=#92fc63>2021.6.10-2021.9.9</color>期间限时开放「海伦娜·META」的「资讯同步」，通过「信标·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「海伦娜·META」角色</color>
 ·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励
-·注意：<color=#ff5c5c>「皇家方舟·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
+·注意：<color=#ff5c5c>「海伦娜·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
 
 2.<color=#92fc63>能量激活</color>
 ·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级
@@ -13651,10 +13698,10 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		tip = "已经拥有该改造道具或对应的改造后舰船，无法兑换"
 	},
 	meta_pt_notenough = {
-		tip = "当前同步值不足，请前往<color=#92fc63>大型作战</color>中的信标·烬作战获取"
+		tip = "当前同步值不足，请前往<color=#92fc63>大型作战</color>中的信标·META作战获取"
 	},
 	meta_boss_unlock = {
-		tip = "通过<color=#92fc63>大型作战</color>第一章，解锁信标·烬功能后开启角色获取！"
+		tip = "通过<color=#92fc63>大型作战</color>第一章，解锁信标·META功能后开启角色获取！"
 	},
 	word_take_effect = {
 		tip = "生效"
@@ -13714,10 +13761,10 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		tip = "功能开启后，自律时自动完成需要提交道具的事件"
 	},
 	world_boss_maintenance = {
-		tip = "服务器即将维护,无法进行信标·烬作战"
+		tip = "服务器即将维护,无法进行信标·META作战"
 	},
 	world_boss_inbattle = {
-		tip = "当前处于信标·烬作战中，不可前往"
+		tip = "当前处于信标·META作战中，不可前往"
 	},
 	area_putong = {
 		tip = "普通海域"
@@ -13930,6 +13977,81 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 			}
 		}
 	},
+	guild_task_autoaccept_1 = {
+		tip = "本次作战自动领取任务：$1"
+	},
+	guild_task_autoaccept_2 = {
+		tip = "已自动领取大舰队任务：$1"
+	},
+	task_lock = {
+		tip = "$1 级解锁"
+	},
+	week_task_pt_name = {
+		tip = "活跃度"
+	},
+	week_task_award_preview_label = {
+		tip = "查看奖励"
+	},
+	week_task_title_label = {
+		tip = "每周活跃奖励"
+	},
+	cattery_op_clean_success = {
+		tip = "清理成功"
+	},
+	cattery_op_feed_success = {
+		tip = "喂食成功"
+	},
+	cattery_op_play_success = {
+		tip = "逗喵成功"
+	},
+	cattery_style_change_success = {
+		tip = "换装成功"
+	},
+	cattery_add_commander_success = {
+		tip = "放入指挥喵成功"
+	},
+	cattery_remove_commander_success = {
+		tip = "移除指挥喵成功"
+	},
+	commander_box_quickly_tool_tip_1 = {
+		tip = "是否使用"
+	},
+	commander_box_quickly_tool_tip_2 = {
+		tip = "个喵箱训练加速工具"
+	},
+	commander_box_quickly_tool_tip_3 = {
+		tip = "减少$1分钟训练时间?"
+	},
+	commander_box_was_finished = {
+		tip = "该喵箱已训练完成"
+	},
+	comander_tool_cnt_is_reclac = {
+		tip = "已重新计算使用数量"
+	},
+	comander_tool_max_cnt = {
+		tip = "当前拥有 : $1个"
+	},
+	cat_accelfrate_notenough = {
+		tip = "喵箱训练加速工具数量不足"
+	},
+	cat_home_unlock = {
+		tip = "请提升喵窝等级以解锁更多喵窝"
+	},
+	cat_sleep_notplay = {
+		tip = "该指挥喵在休息中，无法作为玩伴"
+	},
+	cathome_style_unlock = {
+		tip = "请提升喵窝等级以解锁更多样式"
+	},
+	commander_is_in_cattery = {
+		tip = "该指挥喵已经在喵窝中了"
+	},
+	cat_home_interaction = {
+		tip = "该指挥喵已经$1过了"
+	},
+	cat_accelerate_left = {
+		tip = "使用后剩余："
+	},
 	game_stopwords = {
 		tip = "主界面台词框已隐藏"
 	},
@@ -14029,5 +14151,40 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 第七天任务2：解锁银色档案剧情4]]
 			}
 		}
+	},
+	activity_permanent_total = {
+		tip = "活动列表"
+	},
+	word_investigate = {
+		tip = "侦查"
+	},
+	ambush_display_none = {
+		tip = "无"
+	},
+	activity_permanent_help = {
+		tip = {
+			{
+				info = [[
+活动档案说明
+1.同一时间仅可开启<color=#92fc63>1</color>项活动，活动开启后将无法再次打开活动列表界面。
+2.已开启的活动必须在正式完成后才可结束，无法中途关闭。
+3.重复获得的限定换装会自动折算为物资]]
+			}
+		}
+	},
+	activity_permanent_tips1 = {
+		tip = "<size=40>是否开启活动<color=#92fc63>「$1」</color>？</size>"
+	},
+	activity_permanent_tips2 = {
+		tip = "活动已完成，点击后将会关闭当前活动并前往活动列表。"
+	},
+	activity_permanent_tips3 = {
+		tip = "完成并关闭当前活动后才可开启下一项活动"
+	},
+	activity_permanent_tips4 = {
+		tip = "<size=30><color=#a2a2a2>同一时间只能开启一项活动，完成当前活动后\n才能开启下一项。</color></size>"
+	},
+	activity_permanent_finished = {
+		tip = "已完成"
 	}
 }

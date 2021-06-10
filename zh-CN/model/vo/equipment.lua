@@ -629,4 +629,16 @@ function slot0.GetEquipReloadStatic(slot0)
 	end
 end
 
+function slot0.GetEquipComposeCfgStatic(slot0)
+	for slot5, slot6 in ipairs(pg.compose_data_template.all) do
+		for slot12, slot13 in pairs(slot0) do
+			slot8 = true and slot1[slot6][slot12] == slot13
+		end
+
+		if slot8 then
+			return slot7
+		end
+	end
+end
+
 return slot0

@@ -1,5 +1,75 @@
 pg = pg or {}
 pg.equip_data_statistics_362 = {
+	[85220] = {
+		name = "37mm防空炮70-K",
+		speciality = "防空",
+		type = 6,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 25,
+		icon = "85180",
+		attribute_2 = "antiaircraft",
+		rarity = 4,
+		damage = "14/轮",
+		nationality = 7,
+		ammo = 5,
+		value_3 = 0,
+		id = 85220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			85220
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85221] = {
+		id = 85221,
+		damage = "17/轮",
+		base = 85220,
+		weapon_id = {
+			85221
+		}
+	},
 	[85222] = {
 		id = 85222,
 		damage = "20/轮",
@@ -173,22 +243,6 @@ pg.equip_data_statistics_362 = {
 		base = 85260,
 		weapon_id = {
 			85264
-		}
-	},
-	[85265] = {
-		id = 85265,
-		damage = "66/轮",
-		base = 85260,
-		weapon_id = {
-			85265
-		}
-	},
-	[85266] = {
-		id = 85266,
-		damage = "73/轮",
-		base = 85260,
-		weapon_id = {
-			85266
 		}
 	}
 }

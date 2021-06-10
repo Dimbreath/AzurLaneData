@@ -262888,6 +262888,514 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[9702011] = {
+		oxy_max = 0,
+		type = 2,
+		name = "海伦娜·META",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 9702011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Helena.META",
+		oxy_cost = 0,
+		skin_id = 9702010,
+		attack_duration = 0,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			719,
+			32,
+			0,
+			80,
+			0,
+			72,
+			0,
+			47,
+			22,
+			33,
+			33,
+			36
+		},
+		attrs_growth = {
+			10447,
+			320,
+			0,
+			774,
+			0,
+			357,
+			0,
+			617,
+			291,
+			0,
+			0,
+			352
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.65,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"HelenaMETA",
+			"Brooklyn-Class",
+			"Helena"
+		}
+	},
+	[9702012] = {
+		oxy_max = 0,
+		type = 2,
+		name = "海伦娜·META",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 9702012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Helena.META",
+		oxy_cost = 0,
+		skin_id = 9702010,
+		attack_duration = 0,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			894,
+			40,
+			0,
+			100,
+			0,
+			72,
+			0,
+			47,
+			22,
+			33,
+			33,
+			45
+		},
+		attrs_growth = {
+			10447,
+			320,
+			0,
+			774,
+			0,
+			357,
+			0,
+			617,
+			291,
+			0,
+			0,
+			352
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.65,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"HelenaMETA",
+			"Brooklyn-Class",
+			"Helena"
+		}
+	},
+	[9702013] = {
+		oxy_max = 0,
+		type = 2,
+		name = "海伦娜·META",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 9702013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Helena.META",
+		oxy_cost = 0,
+		skin_id = 9702010,
+		attack_duration = 0,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1245,
+			56,
+			0,
+			139,
+			0,
+			72,
+			0,
+			47,
+			22,
+			33,
+			33,
+			62
+		},
+		attrs_growth = {
+			10447,
+			320,
+			0,
+			774,
+			0,
+			357,
+			0,
+			617,
+			291,
+			0,
+			0,
+			352
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			0.65,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"HelenaMETA",
+			"Brooklyn-Class",
+			"Helena"
+		}
+	},
+	[9702014] = {
+		oxy_max = 0,
+		type = 2,
+		name = "海伦娜·META",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 9702014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Helena.META",
+		oxy_cost = 0,
+		skin_id = 9702010,
+		attack_duration = 0,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1771,
+			80,
+			0,
+			197,
+			0,
+			72,
+			0,
+			47,
+			22,
+			33,
+			33,
+			89
+		},
+		attrs_growth = {
+			10447,
+			320,
+			0,
+			774,
+			0,
+			357,
+			0,
+			617,
+			291,
+			0,
+			0,
+			352
+		},
+		attrs_growth_extra = {
+			11466,
+			753,
+			0,
+			1196,
+			0,
+			843,
+			0,
+			311,
+			569,
+			0,
+			0,
+			831
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			0.65,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"HelenaMETA",
+			"Brooklyn-Class",
+			"Helena"
+		}
+	},
 	[9707011] = {
 		oxy_max = 0,
 		type = 7,
@@ -291748,6 +292256,10 @@ pg.ship_data_statistics = {
 		900915,
 		900916,
 		900917,
+		9702011,
+		9702012,
+		9702013,
+		9702014,
 		9707011,
 		9707012,
 		9707013,

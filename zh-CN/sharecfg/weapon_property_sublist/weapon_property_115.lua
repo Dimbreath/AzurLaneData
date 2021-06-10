@@ -2,6 +2,103 @@ pg = pg or {}
 pg.weapon_property_115 = {}
 
 function ()
+	uv0.weapon_property_115[65194] = {
+		id = 65194,
+		damage = 124,
+		base = 65191
+	}
+	uv0.weapon_property_115[65195] = {
+		id = 65195,
+		damage = 144,
+		base = 65191
+	}
+	uv0.weapon_property_115[65196] = {
+		id = 65196,
+		damage = 164,
+		base = 65191
+	}
+	uv0.weapon_property_115[65197] = {
+		id = 65197,
+		damage = 182,
+		base = 65191
+	}
+	uv0.weapon_property_115[65198] = {
+		id = 65198,
+		damage = 202,
+		base = 65191
+	}
+	uv0.weapon_property_115[65199] = {
+		id = 65199,
+		damage = 220,
+		base = 65191
+	}
+	uv0.weapon_property_115[65200] = {
+		id = 65200,
+		damage = 240,
+		base = 65191
+	}
+	uv0.weapon_property_115[65201] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "大凤μ技能轰炸机Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 90,
+		charge_param = "",
+		damage = 68,
+		corrected = 100,
+		min_range = 0,
+		id = 65201,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 2490,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			65201
+		},
+		barrage_ID = {
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_115[65202] = {
+		name = "大凤μ技能轰炸机Lv2",
+		damage = 86,
+		base = 65201,
+		id = 65202,
+		bullet_ID = {
+			65202
+		}
+	}
+	uv0.weapon_property_115[65203] = {
+		name = "大凤μ技能轰炸机Lv3",
+		damage = 106,
+		base = 65201,
+		id = 65203,
+		bullet_ID = {
+			65203
+		}
+	}
 	uv0.weapon_property_115[65204] = {
 		name = "大凤μ技能轰炸机Lv4",
 		damage = 124,
@@ -572,119 +669,5 @@ function ()
 		bullet_ID = {
 			65255
 		}
-	}
-	uv0.weapon_property_115[65256] = {
-		reload_max = 1895,
-		damage = 155,
-		base = 65251,
-		id = 65256,
-		name = "光辉μ坠星Lv6",
-		bullet_ID = {
-			65256
-		}
-	}
-	uv0.weapon_property_115[65257] = {
-		reload_max = 1860,
-		damage = 176,
-		base = 65251,
-		id = 65257,
-		name = "光辉μ坠星Lv7",
-		bullet_ID = {
-			65257
-		}
-	}
-	uv0.weapon_property_115[65258] = {
-		reload_max = 1825,
-		damage = 197,
-		base = 65251,
-		id = 65258,
-		name = "光辉μ坠星Lv8",
-		bullet_ID = {
-			65258
-		}
-	}
-	uv0.weapon_property_115[65259] = {
-		reload_max = 1790,
-		damage = 218,
-		base = 65251,
-		id = 65259,
-		name = "光辉μ坠星Lv9",
-		bullet_ID = {
-			65259
-		}
-	}
-	uv0.weapon_property_115[65260] = {
-		reload_max = 1755,
-		damage = 239,
-		base = 65251,
-		id = 65260,
-		name = "光辉μ坠星Lv10",
-		bullet_ID = {
-			65260
-		}
-	}
-	uv0.weapon_property_115[65261] = {
-		action_index = "",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = -10,
-		shakescreen = 0,
-		name = "旋转星星子弹 x9",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 45,
-		charge_param = "",
-		damage = 55,
-		corrected = 100,
-		min_range = 0,
-		id = 65261,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19222
-		},
-		barrage_ID = {
-			80964
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_115[65262] = {
-		id = 65262,
-		damage = 65,
-		base = 65261
-	}
-	uv0.weapon_property_115[65263] = {
-		id = 65263,
-		damage = 75,
-		base = 65261
-	}
-	uv0.weapon_property_115[65264] = {
-		id = 65264,
-		damage = 85,
-		base = 65261
-	}
-	uv0.weapon_property_115[65265] = {
-		id = 65265,
-		damage = 95,
-		base = 65261
 	}
 end()

@@ -2,6 +2,112 @@ pg = pg or {}
 pg.weapon_property_162 = {}
 
 function ()
+	uv0.weapon_property_162[68926] = {
+		id = 68926,
+		name = "齐柏林技能·高爆LV6",
+		damage = 16,
+		base = 68921
+	}
+	uv0.weapon_property_162[68927] = {
+		id = 68927,
+		name = "齐柏林技能·高爆LV7",
+		damage = 17,
+		base = 68921
+	}
+	uv0.weapon_property_162[68928] = {
+		id = 68928,
+		name = "齐柏林技能·高爆LV8",
+		damage = 18,
+		base = 68921
+	}
+	uv0.weapon_property_162[68929] = {
+		id = 68929,
+		name = "齐柏林技能·高爆LV9",
+		damage = 19,
+		base = 68921
+	}
+	uv0.weapon_property_162[68930] = {
+		id = 68930,
+		name = "齐柏林技能·高爆LV10",
+		damage = 20,
+		base = 68921
+	}
+	uv0.weapon_property_162[68931] = {
+		action_index = "attack",
+		range = 50,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "齐柏林技能·穿甲2LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 20,
+		corrected = 100,
+		min_range = 0,
+		id = 68931,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19877,
+			19877
+		},
+		barrage_ID = {
+			80704,
+			80705
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_162[68932] = {
+		id = 68932,
+		name = "齐柏林技能·穿甲2LV2",
+		damage = 21,
+		base = 68931
+	}
+	uv0.weapon_property_162[68933] = {
+		id = 68933,
+		name = "齐柏林技能·穿甲2LV3",
+		damage = 22,
+		base = 68931
+	}
+	uv0.weapon_property_162[68934] = {
+		id = 68934,
+		name = "齐柏林技能·穿甲2LV4",
+		damage = 23,
+		base = 68931
+	}
+	uv0.weapon_property_162[68935] = {
+		id = 68935,
+		name = "齐柏林技能·穿甲2LV5",
+		damage = 24,
+		base = 68931
+	}
+	uv0.weapon_property_162[68936] = {
+		id = 68936,
+		name = "齐柏林技能·穿甲2LV6",
+		damage = 25,
+		base = 68931
+	}
 	uv0.weapon_property_162[68937] = {
 		id = 68937,
 		name = "齐柏林技能·穿甲2LV7",
@@ -549,144 +655,6 @@ function ()
 			80826,
 			80827,
 			80828
-		}
-	}
-	uv0.weapon_property_162[68988] = {
-		name = "骏河主炮弹幕PVELV8",
-		damage = 114,
-		base = 68981,
-		id = 68988,
-		barrage_ID = {
-			80826,
-			80827,
-			80828
-		}
-	}
-	uv0.weapon_property_162[68989] = {
-		name = "骏河主炮弹幕PVELV9",
-		damage = 122,
-		base = 68981,
-		id = 68989,
-		barrage_ID = {
-			80826,
-			80827,
-			80828
-		}
-	}
-	uv0.weapon_property_162[68990] = {
-		name = "骏河主炮弹幕PVELV10",
-		damage = 130,
-		base = 68981,
-		id = 68990,
-		barrage_ID = {
-			80826,
-			80827,
-			80828
-		}
-	}
-	uv0.weapon_property_162[68991] = {
-		action_index = "attack",
-		range = 120,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "骏河主炮弹幕PVPLV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 59,
-		corrected = 100,
-		min_range = 25,
-		id = 68991,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19091,
-			19091,
-			19091
-		},
-		barrage_ID = {
-			80825,
-			80834,
-			80835
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jineng",
-			alertTime = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_162[68992] = {
-		id = 68992,
-		name = "骏河主炮弹幕PVPLV2",
-		damage = 66,
-		base = 68991
-	}
-	uv0.weapon_property_162[68993] = {
-		id = 68993,
-		name = "骏河主炮弹幕PVPLV3",
-		damage = 74,
-		base = 68991
-	}
-	uv0.weapon_property_162[68994] = {
-		id = 68994,
-		name = "骏河主炮弹幕PVPLV4",
-		damage = 82,
-		base = 68991
-	}
-	uv0.weapon_property_162[68995] = {
-		id = 68995,
-		name = "骏河主炮弹幕PVPLV5",
-		damage = 90,
-		base = 68991
-	}
-	uv0.weapon_property_162[68996] = {
-		id = 68996,
-		name = "骏河主炮弹幕PVPLV6",
-		damage = 98,
-		base = 68991
-	}
-	uv0.weapon_property_162[68997] = {
-		name = "骏河主炮弹幕PVPLV7",
-		damage = 106,
-		base = 68991,
-		id = 68997,
-		barrage_ID = {
-			80826,
-			80834,
-			80835
-		}
-	}
-	uv0.weapon_property_162[68998] = {
-		name = "骏河主炮弹幕PVPLV8",
-		damage = 114,
-		base = 68991,
-		id = 68998,
-		barrage_ID = {
-			80826,
-			80834,
-			80835
 		}
 	}
 end()

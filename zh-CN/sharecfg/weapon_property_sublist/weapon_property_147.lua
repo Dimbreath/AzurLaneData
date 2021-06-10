@@ -2,6 +2,100 @@ pg = pg or {}
 pg.weapon_property_147 = {}
 
 function ()
+	uv0.weapon_property_147[67969] = {
+		id = 67969,
+		damage = 206,
+		base = 67961
+	}
+	uv0.weapon_property_147[67970] = {
+		id = 67970,
+		damage = 222,
+		base = 67961
+	}
+	uv0.weapon_property_147[67971] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "香格里拉技能专用武器-固定位置",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 180,
+		charge_param = "",
+		damage = 83,
+		corrected = 100,
+		min_range = 0,
+		id = 67971,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 2400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19989
+		},
+		barrage_ID = {
+			10001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_147[67972] = {
+		id = 67972,
+		damage = 98,
+		base = 67971
+	}
+	uv0.weapon_property_147[67973] = {
+		id = 67973,
+		damage = 113,
+		base = 67971
+	}
+	uv0.weapon_property_147[67974] = {
+		id = 67974,
+		damage = 128,
+		base = 67971
+	}
+	uv0.weapon_property_147[67975] = {
+		id = 67975,
+		damage = 143,
+		base = 67971
+	}
+	uv0.weapon_property_147[67976] = {
+		id = 67976,
+		damage = 158,
+		base = 67971
+	}
+	uv0.weapon_property_147[67977] = {
+		id = 67977,
+		damage = 174,
+		base = 67971
+	}
+	uv0.weapon_property_147[67978] = {
+		id = 67978,
+		damage = 190,
+		base = 67971
+	}
+	uv0.weapon_property_147[67979] = {
+		id = 67979,
+		damage = 206,
+		base = 67971
+	}
 	uv0.weapon_property_147[67980] = {
 		id = 67980,
 		damage = 222,
@@ -630,111 +724,5 @@ function ()
 		bullet_ID = {
 			68037
 		}
-	}
-	uv0.weapon_property_147[68038] = {
-		name = "邦克山技能轰炸机Lv8",
-		damage = 154,
-		base = 68031,
-		id = 68038,
-		bullet_ID = {
-			68038
-		}
-	}
-	uv0.weapon_property_147[68039] = {
-		name = "邦克山技能轰炸机Lv9",
-		damage = 167,
-		base = 68031,
-		id = 68039,
-		bullet_ID = {
-			68039
-		}
-	}
-	uv0.weapon_property_147[68040] = {
-		name = "邦克山技能轰炸机Lv10",
-		damage = 179,
-		base = 68031,
-		id = 68040,
-		bullet_ID = {
-			68040
-		}
-	}
-	uv0.weapon_property_147[68041] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 25,
-		shakescreen = 0,
-		name = "1 x 2000lb 炸弹",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 209,
-		corrected = 100,
-		min_range = 0,
-		id = 68041,
-		attack_attribute_ratio = 120,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19992
-		},
-		barrage_ID = {
-			2120
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_147[68042] = {
-		id = 68042,
-		damage = 236,
-		base = 68041
-	}
-	uv0.weapon_property_147[68043] = {
-		id = 68043,
-		damage = 263,
-		base = 68041
-	}
-	uv0.weapon_property_147[68044] = {
-		id = 68044,
-		damage = 290,
-		base = 68041
-	}
-	uv0.weapon_property_147[68045] = {
-		id = 68045,
-		damage = 317,
-		base = 68041
-	}
-	uv0.weapon_property_147[68046] = {
-		id = 68046,
-		damage = 344,
-		base = 68041
-	}
-	uv0.weapon_property_147[68047] = {
-		id = 68047,
-		damage = 371,
-		base = 68041
-	}
-	uv0.weapon_property_147[68048] = {
-		id = 68048,
-		damage = 399,
-		base = 68041
 	}
 end()

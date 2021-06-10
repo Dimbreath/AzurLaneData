@@ -2,6 +2,145 @@ pg = pg or {}
 pg.weapon_property_128 = {}
 
 function ()
+	uv0.weapon_property_128[66027] = {
+		reload_max = 2894,
+		damage = 112,
+		base = 66020,
+		id = 66027,
+		name = "厌战技能LV7",
+		bullet_ID = {
+			19982
+		}
+	}
+	uv0.weapon_property_128[66028] = {
+		reload_max = 2827,
+		damage = 124,
+		base = 66020,
+		id = 66028,
+		name = "厌战技能LV8",
+		bullet_ID = {
+			19982
+		}
+	}
+	uv0.weapon_property_128[66029] = {
+		reload_max = 2760,
+		damage = 138,
+		base = 66020,
+		id = 66029,
+		name = "厌战技能LV9",
+		bullet_ID = {
+			19982
+		}
+	}
+	uv0.weapon_property_128[66030] = {
+		reload_max = 2692,
+		damage = 154,
+		base = 66020,
+		id = 66030,
+		name = "厌战技能LV10",
+		bullet_ID = {
+			19982
+		}
+	}
+	uv0.weapon_property_128[66040] = {
+		action_index = "attack",
+		range = 115,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "胡德技能LV0-PVP",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 50,
+		corrected = 100,
+		min_range = 35,
+		id = 66040,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 2100,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			10014,
+			10014
+		},
+		barrage_ID = {
+			199437,
+			199438
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_128[66041] = {
+		id = 66041,
+		name = "胡德技能LV1-PVP",
+		damage = 62,
+		base = 66040
+	}
+	uv0.weapon_property_128[66042] = {
+		id = 66042,
+		name = "胡德技能LV2-PVP",
+		damage = 74,
+		base = 66040
+	}
+	uv0.weapon_property_128[66043] = {
+		id = 66043,
+		name = "胡德技能LV3-PVP",
+		damage = 86,
+		base = 66040
+	}
+	uv0.weapon_property_128[66044] = {
+		name = "胡德技能LV4-PVP",
+		damage = 98,
+		base = 66040,
+		id = 66044,
+		barrage_ID = {
+			199439,
+			199440
+		}
+	}
+	uv0.weapon_property_128[66045] = {
+		name = "胡德技能LV5-PVP",
+		damage = 110,
+		base = 66040,
+		id = 66045,
+		barrage_ID = {
+			199439,
+			199440
+		}
+	}
+	uv0.weapon_property_128[66046] = {
+		name = "胡德技能LV6-PVP",
+		damage = 122,
+		base = 66040,
+		id = 66046,
+		barrage_ID = {
+			199439,
+			199440
+		}
+	}
 	uv0.weapon_property_128[66047] = {
 		name = "胡德技能LV7-PVP",
 		damage = 134,
@@ -806,135 +945,5 @@ function ()
 		name = "BigSeven技能LV2",
 		damage = 56,
 		base = 66140
-	}
-	uv0.weapon_property_128[66143] = {
-		id = 66143,
-		name = "BigSeven技能LV3",
-		damage = 68,
-		base = 66140
-	}
-	uv0.weapon_property_128[66144] = {
-		name = "BigSeven技能LV4",
-		damage = 80,
-		base = 66140,
-		id = 66144,
-		barrage_ID = {
-			199792,
-			199782
-		}
-	}
-	uv0.weapon_property_128[66145] = {
-		name = "BigSeven技能LV5",
-		damage = 92,
-		base = 66140,
-		id = 66145,
-		barrage_ID = {
-			199792,
-			199782
-		}
-	}
-	uv0.weapon_property_128[66146] = {
-		name = "BigSeven技能LV6",
-		damage = 104,
-		base = 66140,
-		id = 66146,
-		barrage_ID = {
-			199792,
-			199782
-		}
-	}
-	uv0.weapon_property_128[66147] = {
-		name = "BigSeven技能LV7",
-		damage = 116,
-		base = 66140,
-		id = 66147,
-		barrage_ID = {
-			199793,
-			199783
-		}
-	}
-	uv0.weapon_property_128[66148] = {
-		name = "BigSeven技能LV8",
-		damage = 128,
-		base = 66140,
-		id = 66148,
-		barrage_ID = {
-			199793,
-			199783
-		}
-	}
-	uv0.weapon_property_128[66149] = {
-		name = "BigSeven技能LV9",
-		damage = 140,
-		base = 66140,
-		id = 66149,
-		barrage_ID = {
-			199793,
-			199783
-		}
-	}
-	uv0.weapon_property_128[66150] = {
-		name = "BigSeven技能LV10",
-		damage = 156,
-		base = 66140,
-		id = 66150,
-		barrage_ID = {
-			199793,
-			199783
-		}
-	}
-	uv0.weapon_property_128[66160] = {
-		action_index = "",
-		range = 50,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "吸血鬼技能三发鱼雷",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 55,
-		corrected = 100,
-		min_range = 0,
-		id = 66160,
-		attack_attribute_ratio = 80,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1802
-		},
-		barrage_ID = {
-			19969
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_128[66161] = {
-		id = 66161,
-		damage = 62,
-		base = 66160
-	}
-	uv0.weapon_property_128[66162] = {
-		id = 66162,
-		damage = 70,
-		base = 66160
 	}
 end()

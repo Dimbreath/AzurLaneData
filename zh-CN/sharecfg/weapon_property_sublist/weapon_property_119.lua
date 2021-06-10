@@ -2,6 +2,104 @@ pg = pg or {}
 pg.weapon_property_119 = {}
 
 function ()
+	uv0.weapon_property_119[65442] = {
+		id = 65442,
+		name = "飞龙META_斩击技能Lv2",
+		damage = 74,
+		base = 65441
+	}
+	uv0.weapon_property_119[65443] = {
+		id = 65443,
+		name = "飞龙META_斩击技能Lv3",
+		damage = 86,
+		base = 65441
+	}
+	uv0.weapon_property_119[65444] = {
+		id = 65444,
+		name = "飞龙META_斩击技能Lv4",
+		damage = 98,
+		base = 65441
+	}
+	uv0.weapon_property_119[65445] = {
+		id = 65445,
+		name = "飞龙META_斩击技能Lv5",
+		damage = 110,
+		base = 65441
+	}
+	uv0.weapon_property_119[65446] = {
+		id = 65446,
+		name = "飞龙META_斩击技能Lv6",
+		damage = 122,
+		base = 65441
+	}
+	uv0.weapon_property_119[65447] = {
+		id = 65447,
+		name = "飞龙META_斩击技能Lv7",
+		damage = 134,
+		base = 65441
+	}
+	uv0.weapon_property_119[65448] = {
+		id = 65448,
+		name = "飞龙META_斩击技能Lv8",
+		damage = 146,
+		base = 65441
+	}
+	uv0.weapon_property_119[65449] = {
+		id = 65449,
+		name = "飞龙META_斩击技能Lv9",
+		damage = 158,
+		base = 65441
+	}
+	uv0.weapon_property_119[65450] = {
+		id = 65450,
+		name = "飞龙META_斩击技能Lv10",
+		damage = 174,
+		base = 65441
+	}
+	uv0.weapon_property_119[65451] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "飞龙META_鱼雷机 Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 90,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 65451,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1890,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			65451
+		},
+		barrage_ID = {
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_119[65452] = {
 		id = 65452,
 		name = "飞龙META_鱼雷机 Lv2",
@@ -600,96 +698,5 @@ function ()
 		id = 65503,
 		damage = 106,
 		base = 65501
-	}
-	uv0.weapon_property_119[65504] = {
-		id = 65504,
-		damage = 124,
-		base = 65501
-	}
-	uv0.weapon_property_119[65505] = {
-		id = 65505,
-		damage = 144,
-		base = 65501
-	}
-	uv0.weapon_property_119[65506] = {
-		id = 65506,
-		damage = 164,
-		base = 65501
-	}
-	uv0.weapon_property_119[65507] = {
-		id = 65507,
-		damage = 182,
-		base = 65501
-	}
-	uv0.weapon_property_119[65508] = {
-		id = 65508,
-		damage = 202,
-		base = 65501
-	}
-	uv0.weapon_property_119[65509] = {
-		id = 65509,
-		damage = 220,
-		base = 65501
-	}
-	uv0.weapon_property_119[65510] = {
-		id = 65510,
-		damage = 240,
-		base = 65501
-	}
-	uv0.weapon_property_119[65511] = {
-		action_index = "attack",
-		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "海因里希亲王 直感之拳LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 65511,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 3,
-		attack_attribute = 1,
-		reload_max = 5000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19248
-		},
-		barrage_ID = {
-			80987
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_119[65512] = {
-		id = 65512,
-		name = "海因里希亲王 直感之拳LV2",
-		damage = 9,
-		base = 65511
-	}
-	uv0.weapon_property_119[65513] = {
-		id = 65513,
-		name = "海因里希亲王 直感之拳LV3",
-		damage = 10,
-		base = 65511
 	}
 end()

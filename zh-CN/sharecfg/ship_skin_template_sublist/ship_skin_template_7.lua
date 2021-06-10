@@ -5300,6 +5300,110 @@ pg.ship_skin_template_7 = {
 			}
 		}
 	},
+	[205048] = {
+		ship_group = 20504,
+		name = "幸福殿堂",
+		bg_sp = "",
+		group_index = 8,
+		illustrator2 = -1,
+		desc = "没想到这梦幻般的场景会有真正实现的一天…指挥官是不是也一直期待着这样的罗德尼呢？呵呵~",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "luodeni_h",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "",
+		skin_type = 1,
+		id = 205048,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "luodeni_h",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 32,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand2",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.126,
+					1.018,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.161,
+					1.002,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.004,
+					-0.096,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.437,
+							2.454,
+							0.4
+						}
+					}
+				}
+			}
+		}
+	},
 	[205050] = {
 		ship_group = 20505,
 		name = "英王乔治五世",
@@ -7829,142 +7933,6 @@ pg.ship_skin_template_7 = {
 						{
 							-0.472,
 							2.435,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			mission_complete = 0.7,
-			touch_head = 3
-		}
-	},
-	[206036] = {
-		ship_group = 20603,
-		name = "清凉阅读时光",
-		bg_sp = "",
-		group_index = 6,
-		illustrator2 = -1,
-		desc = "啊…哥哥，独角兽在看书哦。嗯…一边吃冰棒，哥哥…也要来一口吗？",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "dujiaoshou_7",
-		air_bullet_skin = "",
-		shop_type_id = 9,
-		hand_id = 13,
-		bgm = "",
-		lip_smoothing = 0,
-		spine_offset = "",
-		special_effects = "",
-		bg = "109",
-		skin_type = 4,
-		id = 206036,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "dujiaoshou_7",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70552,
-		voice_actor = 8,
-		air_bomb_skin = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			50,
-			15,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.27,
-					1.44,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.3,
-					1.31,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.26,
-					1.26,
-					0
-				}
-			},
-			plane = {
-				{
-					1.21,
-					1.17,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.39,
 							0
 						}
 					}

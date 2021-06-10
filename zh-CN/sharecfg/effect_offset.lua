@@ -1198,5 +1198,16 @@ pg.effect_offset = {
 			0.3,
 			0
 		}
+	},
+	heihailunna_shadow = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			0.3,
+			2.4,
+			-1.2
+		}
 	}
 }

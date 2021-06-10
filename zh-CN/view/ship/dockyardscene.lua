@@ -57,7 +57,8 @@ slot7 = {
 	"index_skin",
 	"index_reform",
 	"index_strengthen",
-	"index_special"
+	"index_special",
+	"index_propose_skin"
 }
 slot8 = {
 	i18n("word_rarity"),
@@ -1088,7 +1089,7 @@ function slot0.filterCommon(slot0)
 			-- Nothing
 		elseif slot0.teamTypeFilter and slot7:getTeamType() ~= slot0.teamTypeFilter then
 			-- Nothing
-		elseif (slot0:selectNone(slot0.indexFlag, #uv1 - 1) or slot0.indexFlag[uv2[slot7:getShipType()] + 2] or slot0.indexFlag[uv3[slot7:getTeamType()]]) and (slot0:selectNone(slot0.indexFlag2, #uv4 - 1) or slot0.indexFlag2[uv5[slot7:getConfig("nationality")]] or slot0.indexFlag2[#slot0.indexFlag2] and uv5[slot7:getConfig("nationality")] == nil) and (slot0:selectNone(slot0.indexFlag3, #uv6 - 1) or slot0.indexFlag3[uv7[slot7:getRarity()]]) and (not slot0.indexFlag4[1] or slot7:hasAvailiableSkin()) and (not slot0.indexFlag4[2] or slot7:isRemouldable() and not slot7:isAllRemouldFinish()) and (not slot0.indexFlag4[3] or not slot7:isMetaShip() and not slot7:isIntensifyMax()) and (not slot0.indexFlag4[4] or slot7:isSpecialFilter()) and (slot0.filterTag == Ship.PREFERENCE_TAG_NONE or slot0.filterTag == slot7:GetPreferenceTag()) and slot2(slot7) then
+		elseif (slot0:selectNone(slot0.indexFlag, #uv1 - 1) or slot0.indexFlag[uv2[slot7:getShipType()] + 2] or slot0.indexFlag[uv3[slot7:getTeamType()]]) and (slot0:selectNone(slot0.indexFlag2, #uv4 - 1) or slot0.indexFlag2[uv5[slot7:getConfig("nationality")]] or slot0.indexFlag2[#slot0.indexFlag2] and uv5[slot7:getConfig("nationality")] == nil) and (slot0:selectNone(slot0.indexFlag3, #uv6 - 1) or slot0.indexFlag3[uv7[slot7:getRarity()]]) and (not slot0.indexFlag4[1] or slot7:hasAvailiableSkin()) and (not slot0.indexFlag4[2] or slot7:isRemouldable() and not slot7:isAllRemouldFinish()) and (not slot0.indexFlag4[3] or not slot7:isMetaShip() and not slot7:isIntensifyMax()) and (not slot0.indexFlag4[4] or slot7:isSpecialFilter()) and (not slot0.indexFlag4[5] or slot7:hasProposeSkin()) and (slot0.filterTag == Ship.PREFERENCE_TAG_NONE or slot0.filterTag == slot7:GetPreferenceTag()) and slot2(slot7) then
 			table.insert(slot0.shipVOs, slot7)
 		end
 	end

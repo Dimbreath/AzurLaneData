@@ -2,6 +2,105 @@ pg = pg or {}
 pg.weapon_property_160 = {}
 
 function ()
+	uv0.weapon_property_160[68792] = {
+		id = 68792,
+		damage = 134,
+		base = 68791
+	}
+	uv0.weapon_property_160[68793] = {
+		id = 68793,
+		damage = 142,
+		base = 68791
+	}
+	uv0.weapon_property_160[68794] = {
+		id = 68794,
+		damage = 151,
+		base = 68791
+	}
+	uv0.weapon_property_160[68795] = {
+		id = 68795,
+		damage = 161,
+		base = 68791
+	}
+	uv0.weapon_property_160[68796] = {
+		id = 68796,
+		damage = 172,
+		base = 68791
+	}
+	uv0.weapon_property_160[68797] = {
+		id = 68797,
+		damage = 184,
+		base = 68791
+	}
+	uv0.weapon_property_160[68798] = {
+		id = 68798,
+		damage = 197,
+		base = 68791
+	}
+	uv0.weapon_property_160[68799] = {
+		id = 68799,
+		damage = 211,
+		base = 68791
+	}
+	uv0.weapon_property_160[68800] = {
+		id = 68800,
+		damage = 226,
+		base = 68791
+	}
+	uv0.weapon_property_160[68801] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "赤城μ技能鱼雷机Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 90,
+		charge_param = "",
+		damage = 68,
+		corrected = 100,
+		min_range = 0,
+		id = 68801,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1890,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			68801
+		},
+		barrage_ID = {
+			12008,
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_160[68802] = {
+		name = "赤城μ技能鱼雷机Lv2",
+		damage = 86,
+		base = 68801,
+		id = 68802,
+		bullet_ID = {
+			68802
+		}
+	}
 	uv0.weapon_property_160[68803] = {
 		name = "赤城μ技能鱼雷机Lv3",
 		damage = 106,
@@ -602,148 +701,5 @@ function ()
 		bullet_ID = {
 			68863
 		}
-	}
-	uv0.weapon_property_160[68864] = {
-		name = "大神澪技能鱼雷机Lv4",
-		damage = 124,
-		base = 68861,
-		id = 68864,
-		bullet_ID = {
-			68864
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_160[68865] = {
-		name = "大神澪技能鱼雷机Lv5",
-		damage = 144,
-		base = 68861,
-		id = 68865,
-		bullet_ID = {
-			68865
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_160[68866] = {
-		name = "大神澪技能鱼雷机Lv6",
-		damage = 164,
-		base = 68861,
-		id = 68866,
-		bullet_ID = {
-			68866
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_160[68867] = {
-		name = "大神澪技能鱼雷机Lv7",
-		damage = 182,
-		base = 68861,
-		id = 68867,
-		bullet_ID = {
-			68867
-		},
-		barrage_ID = {
-			12010
-		}
-	}
-	uv0.weapon_property_160[68868] = {
-		name = "大神澪技能鱼雷机Lv8",
-		damage = 202,
-		base = 68861,
-		id = 68868,
-		bullet_ID = {
-			68868
-		},
-		barrage_ID = {
-			12010
-		}
-	}
-	uv0.weapon_property_160[68869] = {
-		name = "大神澪技能鱼雷机Lv9",
-		damage = 220,
-		base = 68861,
-		id = 68869,
-		bullet_ID = {
-			68869
-		},
-		barrage_ID = {
-			12010
-		}
-	}
-	uv0.weapon_property_160[68870] = {
-		name = "大神澪技能鱼雷机Lv10",
-		damage = 240,
-		base = 68861,
-		id = 68870,
-		bullet_ID = {
-			68870
-		},
-		barrage_ID = {
-			12010
-		}
-	}
-	uv0.weapon_property_160[68871] = {
-		action_index = "",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = -10,
-		shakescreen = 0,
-		name = "2 x 机载鱼雷-集束",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 68,
-		corrected = 100,
-		min_range = 0,
-		id = 68871,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19082
-		},
-		barrage_ID = {
-			2141
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_160[68872] = {
-		id = 68872,
-		damage = 86,
-		base = 68871
-	}
-	uv0.weapon_property_160[68873] = {
-		id = 68873,
-		damage = 106,
-		base = 68871
-	}
-	uv0.weapon_property_160[68874] = {
-		id = 68874,
-		damage = 124,
-		base = 68871
 	}
 end()

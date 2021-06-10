@@ -5826,6 +5826,66 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	{
+		ship_group = 40703,
+		name = "FlugzeugträgerB ",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "shitelasai",
+		id = 230,
+		group_id = 230,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10214,
+		name = "Cleve-FC.1",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "mengbiliai",
+		id = 231,
+		group_id = 231,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 20224,
+		name = "White Princess",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "heitaizi",
+		id = 232,
+		group_id = 232,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 20703,
+		name = "Illustrious",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "guanghui",
+		id = 233,
+		group_id = 233,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 49902,
+		name = "SymphonicStigma",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "feiteliedadi",
+		id = 234,
+		group_id = 234,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -6055,6 +6115,11 @@ pg.activity_ins_template = {
 		226,
 		227,
 		228,
-		229
+		229,
+		230,
+		231,
+		232,
+		233,
+		234
 	}
 }

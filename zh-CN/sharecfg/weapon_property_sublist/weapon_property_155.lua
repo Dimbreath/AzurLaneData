@@ -2,6 +2,112 @@ pg = pg or {}
 pg.weapon_property_155 = {}
 
 function ()
+	uv0.weapon_property_155[68472] = {
+		id = 68472,
+		name = "KGV技能增强弹幕PVP-LV2",
+		damage = 78,
+		base = 68471
+	}
+	uv0.weapon_property_155[68473] = {
+		id = 68473,
+		name = "KGV技能增强弹幕PVP-LV3",
+		damage = 85,
+		base = 68471
+	}
+	uv0.weapon_property_155[68474] = {
+		id = 68474,
+		name = "KGV技能增强弹幕PVP-LV4",
+		damage = 93,
+		base = 68471
+	}
+	uv0.weapon_property_155[68475] = {
+		id = 68475,
+		name = "KGV技能增强弹幕PVP-LV5",
+		damage = 100,
+		base = 68471
+	}
+	uv0.weapon_property_155[68476] = {
+		id = 68476,
+		name = "KGV技能增强弹幕PVP-LV6",
+		damage = 108,
+		base = 68471
+	}
+	uv0.weapon_property_155[68477] = {
+		id = 68477,
+		name = "KGV技能增强弹幕PVP-LV7",
+		damage = 115,
+		base = 68471
+	}
+	uv0.weapon_property_155[68478] = {
+		id = 68478,
+		name = "KGV技能增强弹幕PVP-LV8",
+		damage = 123,
+		base = 68471
+	}
+	uv0.weapon_property_155[68479] = {
+		id = 68479,
+		name = "KGV技能增强弹幕PVP-LV9",
+		damage = 130,
+		base = 68471
+	}
+	uv0.weapon_property_155[68480] = {
+		id = 68480,
+		name = "KGV技能增强弹幕PVP-LV10",
+		damage = 138,
+		base = 68471
+	}
+	uv0.weapon_property_155[68481] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "KGV小子弹LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 11,
+		corrected = 100,
+		min_range = 25,
+		id = 68481,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19883,
+			19883
+		},
+		barrage_ID = {
+			80709,
+			80712
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_155[68482] = {
+		id = 68482,
+		name = "KGV小子弹LV2",
+		damage = 12,
+		base = 68481
+	}
 	uv0.weapon_property_155[68483] = {
 		id = 68483,
 		name = "KGV小子弹LV3",
@@ -566,109 +672,5 @@ function ()
 		name = "埃米尔·贝尔汀改技能鱼雷LV3",
 		damage = 42,
 		base = 68531
-	}
-	uv0.weapon_property_155[68534] = {
-		id = 68534,
-		name = "埃米尔·贝尔汀改技能鱼雷LV4",
-		damage = 50,
-		base = 68531
-	}
-	uv0.weapon_property_155[68535] = {
-		id = 68535,
-		name = "埃米尔·贝尔汀改技能鱼雷LV5",
-		damage = 52,
-		base = 68531
-	}
-	uv0.weapon_property_155[68536] = {
-		id = 68536,
-		name = "埃米尔·贝尔汀改技能鱼雷LV6",
-		damage = 55,
-		base = 68531
-	}
-	uv0.weapon_property_155[68537] = {
-		id = 68537,
-		name = "埃米尔·贝尔汀改技能鱼雷LV7",
-		damage = 58,
-		base = 68531
-	}
-	uv0.weapon_property_155[68538] = {
-		id = 68538,
-		name = "埃米尔·贝尔汀改技能鱼雷LV8",
-		damage = 62,
-		base = 68531
-	}
-	uv0.weapon_property_155[68539] = {
-		id = 68539,
-		name = "埃米尔·贝尔汀改技能鱼雷LV9",
-		damage = 67,
-		base = 68531
-	}
-	uv0.weapon_property_155[68540] = {
-		id = 68540,
-		name = "埃米尔·贝尔汀改技能鱼雷LV10",
-		damage = 72,
-		base = 68531
-	}
-	uv0.weapon_property_155[68541] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "伊25技能零侦LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 90,
-		charge_param = "",
-		damage = 70,
-		corrected = 100,
-		min_range = 0,
-		id = 68541,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1890,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			68541
-		},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_155[68542] = {
-		id = 68542,
-		name = "伊25技能零侦LV2",
-		damage = 78,
-		base = 68541
-	}
-	uv0.weapon_property_155[68543] = {
-		id = 68543,
-		name = "伊25技能零侦LV3",
-		damage = 85,
-		base = 68541
-	}
-	uv0.weapon_property_155[68544] = {
-		id = 68544,
-		name = "伊25技能零侦LV4",
-		damage = 93,
-		base = 68541
 	}
 end()

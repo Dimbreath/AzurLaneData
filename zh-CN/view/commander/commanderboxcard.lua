@@ -12,6 +12,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.boxParent = slot0._tf:Find("char")
 	slot0.titleStarting = slot0.startingTF:Find("title_starting")
 	slot0.titleFinish = slot0.startingTF:Find("title_finish")
+	slot0.quicklyTool = slot0.startingTF:Find("quickly_tool")
 end
 
 function slot0.Update(slot0, slot1)
@@ -46,6 +47,9 @@ function slot0.Update(slot0, slot1)
 
 		slot0.timer:Start()
 		slot0.timer.func()
+		onButton(slot0._parent, slot0.quicklyTool, function ()
+			uv0._parent:emit(CommandRoomScene.ON_QUICKLY_TOOL_WINDOW, uv1.id)
+		end, SFX_PANEL)
 	elseif slot2 == CommanderBox.STATE_FINISHED then
 		slot0.timerTxt.text = "COMPLETE"
 
@@ -61,6 +65,7 @@ function slot0.Update(slot0, slot1)
 		end, SFX_PANEL)
 	end
 
+	setActive(slot0.quicklyTool, slot2 == CommanderBox.STATE_STARTING and not LOCK_CATTERY)
 	setActive(slot0.titleStarting, slot2 == CommanderBox.STATE_STARTING)
 	setActive(slot0.titleFinish, slot2 == CommanderBox.STATE_FINISHED)
 	setActive(slot0.startingTF, slot2 == CommanderBox.STATE_STARTING or slot2 == CommanderBox.STATE_FINISHED)

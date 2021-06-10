@@ -479,6 +479,106 @@ function ()
 		damage = 175,
 		base = 64211
 	}
+	uv0.weapon_property_112[64221] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "META海伦娜红色弹幕Lv1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 5,
+		corrected = 100,
+		min_range = 0,
+		id = 64221,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		reload_max = 6000,
+		queue = 3,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19303,
+			19303
+		},
+		barrage_ID = {
+			81109,
+			81110
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_112[64222] = {
+		id = 64222,
+		name = "META海伦娜红色弹幕Lv2",
+		damage = 6,
+		base = 64221
+	}
+	uv0.weapon_property_112[64223] = {
+		id = 64223,
+		name = "META海伦娜红色弹幕Lv3",
+		damage = 7,
+		base = 64221
+	}
+	uv0.weapon_property_112[64224] = {
+		id = 64224,
+		name = "META海伦娜红色弹幕Lv4",
+		damage = 8,
+		base = 64221
+	}
+	uv0.weapon_property_112[64225] = {
+		id = 64225,
+		name = "META海伦娜红色弹幕Lv5",
+		damage = 9,
+		base = 64221
+	}
+	uv0.weapon_property_112[64226] = {
+		id = 64226,
+		name = "META海伦娜红色弹幕Lv6",
+		damage = 10,
+		base = 64221
+	}
+	uv0.weapon_property_112[64227] = {
+		id = 64227,
+		name = "META海伦娜红色弹幕Lv7",
+		damage = 11,
+		base = 64221
+	}
+	uv0.weapon_property_112[64228] = {
+		id = 64228,
+		name = "META海伦娜红色弹幕Lv8",
+		damage = 12,
+		base = 64221
+	}
+	uv0.weapon_property_112[64229] = {
+		id = 64229,
+		name = "META海伦娜红色弹幕Lv9",
+		damage = 13,
+		base = 64221
+	}
+	uv0.weapon_property_112[64230] = {
+		id = 64230,
+		name = "META海伦娜红色弹幕Lv10",
+		damage = 15,
+		base = 64221
+	}
 	uv0.weapon_property_112[65000] = {
 		action_index = "",
 		range = 60,
@@ -631,150 +731,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_112[65030] = {
-		action_index = "",
-		range = 200,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "林德喵大世界地图打击替换战斗内主炮弹幕",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 65030,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19240
-		},
-		barrage_ID = {
-			65030
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_112[65051] = {
-		torpedo_ammo = 0,
-		name = "信浓弹幕&支援弹幕子母弹LV1",
-		type = 2,
-		recover_time = 0,
-		fire_fx = "CLFire",
-		shakescreen = 0,
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		aim_type = 0,
-		expose = 10,
-		angle = 360,
-		range = 90,
-		damage = 11,
-		corrected = 100,
-		min_range = 0,
-		id = 65051,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 3,
-		attack_attribute = 4,
-		reload_max = 1300,
-		queue = 4,
-		search_type = 1,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19185,
-			19186
-		},
-		barrage_ID = {
-			80949,
-			80950
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_112[65052] = {
-		reload_max = 1270,
-		name = "信浓弹幕&支援弹幕子母弹LV2",
-		damage = 12,
-		base = 65051,
-		id = 65052
-	}
-	uv0.weapon_property_112[65053] = {
-		reload_max = 1244,
-		name = "信浓弹幕&支援弹幕子母弹LV3",
-		damage = 13,
-		base = 65051,
-		id = 65053
-	}
-	uv0.weapon_property_112[65054] = {
-		reload_max = 1218,
-		name = "信浓弹幕&支援弹幕子母弹LV4",
-		damage = 14,
-		base = 65051,
-		id = 65054
-	}
-	uv0.weapon_property_112[65055] = {
-		reload_max = 1192,
-		name = "信浓弹幕&支援弹幕子母弹LV5",
-		damage = 15,
-		base = 65051,
-		id = 65055
-	}
-	uv0.weapon_property_112[65056] = {
-		reload_max = 1166,
-		name = "信浓弹幕&支援弹幕子母弹LV6",
-		damage = 16,
-		base = 65051,
-		id = 65056
-	}
-	uv0.weapon_property_112[65057] = {
-		reload_max = 1140,
-		name = "信浓弹幕&支援弹幕子母弹LV7",
-		damage = 17,
-		base = 65051,
-		id = 65057
-	}
-	uv0.weapon_property_112[65058] = {
-		reload_max = 1114,
-		name = "信浓弹幕&支援弹幕子母弹LV8",
-		damage = 18,
-		base = 65051,
-		id = 65058
-	}
-	uv0.weapon_property_112[65059] = {
-		reload_max = 1088,
-		name = "信浓弹幕&支援弹幕子母弹LV9",
-		damage = 19,
-		base = 65051,
-		id = 65059
 	}
 end()

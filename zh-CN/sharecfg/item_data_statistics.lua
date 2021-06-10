@@ -1729,6 +1729,25 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[1013] = {
+		drop_gold_max = 0,
+		name = "{namecode:79}的铃铛",
+		display = "{namecode:79}的铃铛。收集足够的数量的话……",
+		type = 1,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "props/lingdang",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 1013,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[10000] = {
 		drop_gold_max = 0,
 		name = "舰艇维修设备T2设计图",
@@ -7162,6 +7181,25 @@ pg.item_data_statistics = {
 		},
 		index = {}
 	},
+	[20010] = {
+		drop_gold_max = 0,
+		name = "喵箱训练加速工具",
+		display = "可以立刻完成20分钟喵箱训练时间的加速工具",
+		type = 1,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/20010",
+		rarity = 3,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 20010,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[20011] = {
 		drop_gold_max = 0,
 		name = "喵箱R型",
@@ -7288,6 +7326,25 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[21003] = {
+		drop_gold_max = 0,
+		name = "结晶：海伦娜·META",
+		display = "海伦娜·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+		type = 4,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/21003",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 21003,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[21101] = {
 		drop_gold_max = 0,
 		name = "结晶化热强钢",
@@ -7367,7 +7424,7 @@ pg.item_data_statistics = {
 	[21901] = {
 		drop_gold_max = 0,
 		name = "同步值：{namecode:191}",
-		display = "于「信标·烬」战斗中收集的数据，可以提升{namecode:191}同步率，活动结束后将会消失。",
+		display = "于「信标·META」战斗中收集的数据，可以提升{namecode:191}同步率，活动结束后将会消失。",
 		type = 4,
 		is_world = 0,
 		shop_id = -1,
@@ -7386,7 +7443,7 @@ pg.item_data_statistics = {
 	[21902] = {
 		drop_gold_max = 0,
 		name = "同步值：皇家方舟·META",
-		display = "于「信标·烬」战斗中收集的数据，可以提升皇家方舟·META同步率，活动结束后将会消失。",
+		display = "于「信标·META」战斗中收集的数据，可以提升皇家方舟·META同步率，活动结束后将会消失。",
 		type = 4,
 		is_world = 0,
 		shop_id = -1,
@@ -7398,6 +7455,25 @@ pg.item_data_statistics = {
 		shiptrans_id = 0,
 		virtual_type = 0,
 		id = 21902,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[21903] = {
+		drop_gold_max = 0,
+		name = "同步值：海伦娜·META",
+		display = "于「信标·META」战斗中收集的数据，可以提升海伦娜·META同步率，活动结束后将会消失。",
+		type = 4,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/21903",
+		rarity = 4,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 21903,
 		display_icon = {},
 		price = {},
 		index = {}
@@ -41163,14 +41239,14 @@ pg.item_data_statistics = {
 	},
 	[50004] = {
 		drop_gold_max = 0,
-		name = "海军咖喱",
-		display = "甜咖喱还是辣咖喱，这是一个问题！ <color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		name = "粽子",
+		display = "端午节当然要吃粽子啦！ <color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
 		type = 3,
 		is_world = 0,
 		shop_id = 50007,
 		replace_item = 0,
 		link_id = 0,
-		icon = "Props/haijungali",
+		icon = "Props/zongzi",
 		rarity = 2,
 		drop_oil_max = 0,
 		shiptrans_id = 0,
@@ -132550,6 +132626,25 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59012] = {
+		drop_gold_max = 0,
+		name = "周常活跃点",
+		display = "累积周常活跃点，可以领取每周活跃奖励。",
+		type = 98,
+		is_world = 0,
+		shop_id = -1,
+		replace_item = 0,
+		link_id = 0,
+		icon = "Props/weekly_pt",
+		rarity = 2,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		id = 59012,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59100] = {
 		drop_gold_max = 0,
 		name = "扩展仓库",
@@ -142989,7 +143084,7 @@ pg.item_data_statistics = {
 （<color=#92fc63>13.1%</color>）胡德换装  晨曦的淑女；
 （<color=#92fc63>11.7%</color>）黑太子换装  Pop The Cork；
 （<color=#92fc63>11.7%</color>）英勇换装   英勇女王陛下？；
-（<color=#92fc63>11.7%</color>）长波换装  春之女神的引导；
+（<color=#92fc63>11.7%</color>）{namecode:185}换装  安心的“长波”；
 ]],
 		type = 98,
 		is_world = 0,
@@ -144414,8 +144509,8 @@ pg.item_data_statistics = {
 	},
 	[100000] = {
 		drop_gold_max = 0,
-		name = "余烬信标数据",
-		display = "记录了余烬信标的数据，达到指定数据量后可在信标·烬界面对其进行解析。",
+		name = "信标数据",
+		display = "记录了信标的数据，达到指定数据量后可在信标·META界面对其进行解析。",
 		type = 0,
 		is_world = 0,
 		shop_id = -1,
@@ -144433,11 +144528,11 @@ pg.item_data_statistics = {
 	},
 	[100001] = {
 		drop_gold_max = 0,
-		name = "余烬信标记录仪",
+		name = "信标记录仪",
 		display = [[
-用于记录在大型作战中收集到的「余烬信标数据」的装置，达到指定数据量后可据此数据进行解析，发现特定的余烬信标
+用于记录在大型作战中收集到的「信标数据」的装置，达到指定数据量后可据此数据进行解析，发现特定的信标
 P.S.记录仪的记录容量有限，请务必及时前往解析
-今日解析次数:$1/$2
+今日已用解析次数:$1/$2
 数据记录量：$3]],
 		type = 0,
 		is_world = 0,
@@ -144783,6 +144878,7 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		1009,
 		1010,
 		1011,
+		1013,
 		10000,
 		10001,
 		10002,
@@ -145065,18 +145161,21 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		18126,
 		18127,
 		20001,
+		20010,
 		20011,
 		20012,
 		20013,
 		20101,
 		21001,
 		21002,
+		21003,
 		21101,
 		21111,
 		21121,
 		21131,
 		21901,
 		21902,
+		21903,
 		30001,
 		30011,
 		30012,
@@ -147754,6 +147853,7 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 		59009,
 		59010,
 		59011,
+		59012,
 		59100,
 		59101,
 		59102,

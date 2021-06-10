@@ -14,6 +14,10 @@ function slot0.OnInit(slot0)
 	slot0.buildPoolPanel = CommanderBuildPoolPanel.New(slot0._tf:Find("buildpool_panel"), slot0)
 	slot0.traningCnt = slot0._tf:Find("frame/boxes/statistics/traning"):GetComponent(typeof(Text))
 	slot0.waitCnt = slot0._tf:Find("frame/boxes/statistics/wait"):GetComponent(typeof(Text))
+	slot0.itemCnt = slot0._tf:Find("frame/item/Text"):GetComponent(typeof(Text))
+
+	setActive(slot0._tf:Find("frame/item"), not LOCK_CATTERY)
+
 	slot0.mask = slot0._tf:Find("mask")
 
 	setActive(slot0.mask, false)
@@ -84,6 +88,7 @@ function slot0.Update(slot0, slot1, slot2)
 	end)
 	slot0.boxesList:align(#slot3)
 	slot0:Show()
+	slot0:UpdateItem()
 	slot0:updateCntLabel()
 end
 
@@ -146,6 +151,10 @@ function slot0.onBackPressed(slot0)
 	else
 		slot0:Hide()
 	end
+end
+
+function slot0.UpdateItem(slot0)
+	slot0.itemCnt.text = getProxy(BagProxy):getItemCountById(Item.COMMANDER_QUICKLY_TOOL_ID)
 end
 
 function slot0.OnDestroy(slot0)

@@ -2,6 +2,104 @@ pg = pg or {}
 pg.weapon_property_130 = {}
 
 function ()
+	uv0.weapon_property_130[66250] = {
+		name = "山城改技能Lv10",
+		damage = 360,
+		base = 66240,
+		id = 66250,
+		bullet_ID = {
+			66250
+		}
+	}
+	uv0.weapon_property_130[66260] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 25,
+		shakescreen = 0,
+		name = "5 x 100lb 炸弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 57,
+		corrected = 100,
+		min_range = 0,
+		id = 66260,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			2121
+		},
+		barrage_ID = {
+			2124
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_130[66261] = {
+		id = 66261,
+		damage = 68,
+		base = 66260
+	}
+	uv0.weapon_property_130[66262] = {
+		id = 66262,
+		damage = 79,
+		base = 66260
+	}
+	uv0.weapon_property_130[66263] = {
+		id = 66263,
+		damage = 90,
+		base = 66260
+	}
+	uv0.weapon_property_130[66264] = {
+		id = 66264,
+		damage = 101,
+		base = 66260
+	}
+	uv0.weapon_property_130[66265] = {
+		id = 66265,
+		damage = 113,
+		base = 66260
+	}
+	uv0.weapon_property_130[66266] = {
+		id = 66266,
+		damage = 125,
+		base = 66260
+	}
+	uv0.weapon_property_130[66267] = {
+		id = 66267,
+		damage = 137,
+		base = 66260
+	}
+	uv0.weapon_property_130[66268] = {
+		id = 66268,
+		damage = 149,
+		base = 66260
+	}
+	uv0.weapon_property_130[66269] = {
+		id = 66269,
+		damage = 161,
+		base = 66260
+	}
 	uv0.weapon_property_130[66270] = {
 		id = 66270,
 		damage = 173,
@@ -705,150 +803,5 @@ function ()
 		name = "华盛顿技能LV5-PVP",
 		damage = 110,
 		base = 66360
-	}
-	uv0.weapon_property_130[66366] = {
-		name = "华盛顿技能LV6-PVP",
-		damage = 122,
-		base = 66360,
-		id = 66366,
-		barrage_ID = {
-			80202,
-			80206,
-			80209
-		}
-	}
-	uv0.weapon_property_130[66367] = {
-		name = "华盛顿技能LV7-PVP",
-		damage = 134,
-		base = 66360,
-		id = 66367,
-		barrage_ID = {
-			80202,
-			80206,
-			80209
-		}
-	}
-	uv0.weapon_property_130[66368] = {
-		name = "华盛顿技能LV8-PVP",
-		damage = 146,
-		base = 66360,
-		id = 66368,
-		barrage_ID = {
-			80202,
-			80206,
-			80209
-		}
-	}
-	uv0.weapon_property_130[66369] = {
-		name = "华盛顿技能LV9-PVP",
-		damage = 158,
-		base = 66360,
-		id = 66369,
-		barrage_ID = {
-			80202,
-			80206,
-			80209
-		}
-	}
-	uv0.weapon_property_130[66370] = {
-		name = "华盛顿技能LV10-PVP",
-		damage = 174,
-		base = 66360,
-		id = 66370,
-		bullet_ID = {
-			19904,
-			19904,
-			19904,
-			19904
-		},
-		barrage_ID = {
-			80203,
-			80204,
-			80207,
-			80210
-		}
-	}
-	uv0.weapon_property_130[66380] = {
-		action_index = "attack",
-		range = 95,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "华盛顿技能LV0-PVE",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 50,
-		corrected = 100,
-		min_range = 25,
-		id = 66380,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19904,
-			19904,
-			19904
-		},
-		barrage_ID = {
-			80211,
-			80215,
-			80218
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jineng",
-			alertTime = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_130[66381] = {
-		id = 66381,
-		name = "华盛顿技能LV1-PVE",
-		damage = 62,
-		base = 66380
-	}
-	uv0.weapon_property_130[66382] = {
-		id = 66382,
-		name = "华盛顿技能LV2-PVE",
-		damage = 74,
-		base = 66380
-	}
-	uv0.weapon_property_130[66383] = {
-		id = 66383,
-		name = "华盛顿技能LV3-PVE",
-		damage = 86,
-		base = 66380
-	}
-	uv0.weapon_property_130[66384] = {
-		id = 66384,
-		name = "华盛顿技能LV4-PVE",
-		damage = 98,
-		base = 66380
-	}
-	uv0.weapon_property_130[66385] = {
-		id = 66385,
-		name = "华盛顿技能LV5-PVE",
-		damage = 110,
-		base = 66380
 	}
 end()

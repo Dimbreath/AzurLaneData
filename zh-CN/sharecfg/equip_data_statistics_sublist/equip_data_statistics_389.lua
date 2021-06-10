@@ -1,5 +1,73 @@
 pg = pg or {}
 pg.equip_data_statistics_389 = {
+	[90800] = {
+		name = "单装155mm副炮Mle1920",
+		speciality = "锁定",
+		type = 2,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "50800",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "10 x 4",
+		nationality = 8,
+		ammo = 3,
+		value_3 = 0,
+		id = 90800,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2201
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2200
+			},
+			{
+				4,
+				1025
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90800
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[90801] = {
+		id = 90801,
+		damage = "12 x 4",
+		base = 90800,
+		weapon_id = {
+			90801
+		}
+	},
 	[90802] = {
 		id = 90802,
 		damage = "14 x 4",
@@ -245,40 +313,6 @@ pg.equip_data_statistics_389 = {
 			"FFNF",
 			"CV",
 			"TB"
-		}
-	},
-	[90841] = {
-		id = 90841,
-		base = 90840,
-		ammo_info = {
-			{
-				6,
-				50021
-			},
-			{
-				4,
-				51561
-			}
-		},
-		weapon_id = {
-			90841
-		}
-	},
-	[90842] = {
-		id = 90842,
-		base = 90840,
-		ammo_info = {
-			{
-				6,
-				50022
-			},
-			{
-				4,
-				51562
-			}
-		},
-		weapon_id = {
-			90842
 		}
 	}
 }

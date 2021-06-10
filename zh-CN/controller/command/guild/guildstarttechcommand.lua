@@ -16,7 +16,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if slot8:isMaxLevel() then
+	if not slot8:CanUpgrade() then
 		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_tech_is_max_level"))
 
 		return
@@ -32,12 +32,6 @@ function slot0.execute(slot0, slot1)
 
 	if slot7.guildCoin < slot9 then
 		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_tech_guildgold_no_enough"))
-
-		return
-	end
-
-	if not slot8:ReachTargetLiveness(slot6:getMemberById(slot7.id)) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_tech_livness_no_enough", slot8:GetTargetLivness()))
 
 		return
 	end

@@ -1,4 +1,4 @@
-slot0 = class("LoginTemplatePage", import("....base.BaseActivityPage"))
+slot0 = class("LoginTemplatePage", import("view.base.BaseActivityPage"))
 
 function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("AD")

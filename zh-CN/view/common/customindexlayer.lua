@@ -1,7 +1,7 @@
-slot0 = class("CustomIndexLayer", import(".IndexLayer"))
+slot0 = class("CustomIndexLayer", import("..base.BaseUI"))
 
 function slot0.getUIName(slot0)
-	return "IndexUI"
+	return "CustomIndexUI"
 end
 
 slot0.Mode = {

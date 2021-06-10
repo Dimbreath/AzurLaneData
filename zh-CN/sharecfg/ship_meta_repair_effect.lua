@@ -230,6 +230,121 @@ pg.ship_meta_repair_effect = {
 		},
 		effect_dialog = {}
 	},
+	[301] = {
+		id = 301,
+		effect_desc = "鉴赏解锁：登录、回港、图鉴、任务",
+		effect_attr = {
+			{
+				"durability",
+				70
+			},
+			{
+				"antiaircraft",
+				8
+			},
+			{
+				"hit",
+				0
+			},
+			{
+				"dodge",
+				0
+			}
+		},
+		effect_dialog = {}
+	},
+	[302] = {
+		id = 302,
+		effect_desc = "鉴赏解锁：主界面1、旗舰开战、任务完成、技能",
+		effect_attr = {
+			{
+				"durability",
+				105
+			},
+			{
+				"antiaircraft",
+				12
+			},
+			{
+				"hit",
+				0
+			},
+			{
+				"dodge",
+				0
+			}
+		},
+		effect_dialog = {}
+	},
+	[303] = {
+		id = 303,
+		effect_desc = "鉴赏解锁：主界面2、战斗MVP、失败、邮件",
+		effect_attr = {
+			{
+				"durability",
+				140
+			},
+			{
+				"antiaircraft",
+				16
+			},
+			{
+				"hit",
+				19
+			},
+			{
+				"dodge",
+				9
+			}
+		},
+		effect_dialog = {}
+	},
+	[304] = {
+		id = 304,
+		effect_desc = "鉴赏解锁：主界面3、触摸1、委托完成",
+		effect_attr = {
+			{
+				"durability",
+				175
+			},
+			{
+				"antiaircraft",
+				19
+			},
+			{
+				"hit",
+				0
+			},
+			{
+				"dodge",
+				0
+			}
+		},
+		effect_dialog = {}
+	},
+	[305] = {
+		id = 305,
+		effect_desc = "鉴赏解锁：血量警报",
+		effect_attr = {
+			{
+				"durability",
+				211
+			},
+			{
+				"antiaircraft",
+				23
+			},
+			{
+				"hit",
+				28
+			},
+			{
+				"dodge",
+				13
+			}
+		},
+		effect_dialog = {}
+	},
 	all = {
 		101,
 		102,
@@ -240,6 +355,11 @@ pg.ship_meta_repair_effect = {
 		202,
 		203,
 		204,
-		205
+		205,
+		301,
+		302,
+		303,
+		304,
+		305
 	}
 }

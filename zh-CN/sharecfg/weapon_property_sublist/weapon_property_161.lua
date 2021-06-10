@@ -2,6 +2,149 @@ pg = pg or {}
 pg.weapon_property_161 = {}
 
 function ()
+	uv0.weapon_property_161[68864] = {
+		name = "大神澪技能鱼雷机Lv4",
+		damage = 124,
+		base = 68861,
+		id = 68864,
+		bullet_ID = {
+			68864
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_161[68865] = {
+		name = "大神澪技能鱼雷机Lv5",
+		damage = 144,
+		base = 68861,
+		id = 68865,
+		bullet_ID = {
+			68865
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_161[68866] = {
+		name = "大神澪技能鱼雷机Lv6",
+		damage = 164,
+		base = 68861,
+		id = 68866,
+		bullet_ID = {
+			68866
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_161[68867] = {
+		name = "大神澪技能鱼雷机Lv7",
+		damage = 182,
+		base = 68861,
+		id = 68867,
+		bullet_ID = {
+			68867
+		},
+		barrage_ID = {
+			12010
+		}
+	}
+	uv0.weapon_property_161[68868] = {
+		name = "大神澪技能鱼雷机Lv8",
+		damage = 202,
+		base = 68861,
+		id = 68868,
+		bullet_ID = {
+			68868
+		},
+		barrage_ID = {
+			12010
+		}
+	}
+	uv0.weapon_property_161[68869] = {
+		name = "大神澪技能鱼雷机Lv9",
+		damage = 220,
+		base = 68861,
+		id = 68869,
+		bullet_ID = {
+			68869
+		},
+		barrage_ID = {
+			12010
+		}
+	}
+	uv0.weapon_property_161[68870] = {
+		name = "大神澪技能鱼雷机Lv10",
+		damage = 240,
+		base = 68861,
+		id = 68870,
+		bullet_ID = {
+			68870
+		},
+		barrage_ID = {
+			12010
+		}
+	}
+	uv0.weapon_property_161[68871] = {
+		action_index = "",
+		range = 80,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = -10,
+		shakescreen = 0,
+		name = "2 x 机载鱼雷-集束",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 68,
+		corrected = 100,
+		min_range = 0,
+		id = 68871,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19082
+		},
+		barrage_ID = {
+			2141
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_161[68872] = {
+		id = 68872,
+		damage = 86,
+		base = 68871
+	}
+	uv0.weapon_property_161[68873] = {
+		id = 68873,
+		damage = 106,
+		base = 68871
+	}
+	uv0.weapon_property_161[68874] = {
+		id = 68874,
+		damage = 124,
+		base = 68871
+	}
 	uv0.weapon_property_161[68875] = {
 		id = 68875,
 		damage = 144,
@@ -536,111 +679,5 @@ function ()
 		name = "齐柏林技能·高爆LV5",
 		damage = 15,
 		base = 68921
-	}
-	uv0.weapon_property_161[68926] = {
-		id = 68926,
-		name = "齐柏林技能·高爆LV6",
-		damage = 16,
-		base = 68921
-	}
-	uv0.weapon_property_161[68927] = {
-		id = 68927,
-		name = "齐柏林技能·高爆LV7",
-		damage = 17,
-		base = 68921
-	}
-	uv0.weapon_property_161[68928] = {
-		id = 68928,
-		name = "齐柏林技能·高爆LV8",
-		damage = 18,
-		base = 68921
-	}
-	uv0.weapon_property_161[68929] = {
-		id = 68929,
-		name = "齐柏林技能·高爆LV9",
-		damage = 19,
-		base = 68921
-	}
-	uv0.weapon_property_161[68930] = {
-		id = 68930,
-		name = "齐柏林技能·高爆LV10",
-		damage = 20,
-		base = 68921
-	}
-	uv0.weapon_property_161[68931] = {
-		action_index = "attack",
-		range = 50,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "齐柏林技能·穿甲2LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 20,
-		corrected = 100,
-		min_range = 0,
-		id = 68931,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19877,
-			19877
-		},
-		barrage_ID = {
-			80704,
-			80705
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_161[68932] = {
-		id = 68932,
-		name = "齐柏林技能·穿甲2LV2",
-		damage = 21,
-		base = 68931
-	}
-	uv0.weapon_property_161[68933] = {
-		id = 68933,
-		name = "齐柏林技能·穿甲2LV3",
-		damage = 22,
-		base = 68931
-	}
-	uv0.weapon_property_161[68934] = {
-		id = 68934,
-		name = "齐柏林技能·穿甲2LV4",
-		damage = 23,
-		base = 68931
-	}
-	uv0.weapon_property_161[68935] = {
-		id = 68935,
-		name = "齐柏林技能·穿甲2LV5",
-		damage = 24,
-		base = 68931
-	}
-	uv0.weapon_property_161[68936] = {
-		id = 68936,
-		name = "齐柏林技能·穿甲2LV6",
-		damage = 25,
-		base = 68931
 	}
 end()

@@ -48,6 +48,7 @@ function slot0.execute(slot0, slot1)
 				gem = uv2
 			})
 			uv3:updatePlayer(uv1)
+			uv4:sendNotification(GAME.HANDLE_GUILD_AND_PUBLIC_GUILD_TECH)
 			uv4:sendNotification(GAME.CREATE_GUILD_DONE)
 			uv4:sendNotification(GAME.GUILD_GET_USER_INFO)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_create_sucess"))

@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "信标·烬作战已开启。在这个系统中指挥官可以与其他指挥官一同战斗",
+				text = "信标·META作战已开启。在这个系统中指挥官可以与其他指挥官一同战斗",
 				mode = 2,
 				dir = 1,
 				char = "1",
@@ -38,7 +38,7 @@ return {
 			alpha = 0.4,
 			waitScene = "WorldBossScene",
 			style = {
-				text = "信标·烬作战将会周期性开启，这里显示的是当前信标·烬作战的持续时间",
+				text = "信标·META作战将会周期性开启，这里显示的是当前信标·META作战的持续时间",
 				mode = 2,
 				dir = 1,
 				char = "1",
@@ -64,7 +64,7 @@ return {
 		},
 		{
 			style = {
-				text = "点击情报解析按钮，以解析获取的余烬信标数据",
+				text = "点击情报解析按钮，以解析获取的信标数据",
 				mode = 2,
 				dir = 1,
 				char = "1",

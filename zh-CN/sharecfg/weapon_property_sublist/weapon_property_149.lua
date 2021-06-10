@@ -2,6 +2,129 @@ pg = pg or {}
 pg.weapon_property_149 = {}
 
 function ()
+	uv0.weapon_property_149[68100] = {
+		damage = 15,
+		base = 68091,
+		id = 68100,
+		bullet_ID = {
+			19995,
+			19995,
+			19995,
+			19995
+		},
+		barrage_ID = {
+			80555,
+			80556,
+			80557,
+			80558
+		}
+	}
+	uv0.weapon_property_149[68101] = {
+		action_index = "attack",
+		range = 95,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "吾妻技能跨射子弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 40,
+		corrected = 100,
+		min_range = 0,
+		id = 68101,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19994
+		},
+		barrage_ID = {
+			80551
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_149[68102] = {
+		id = 68102,
+		damage = 42,
+		base = 68101
+	}
+	uv0.weapon_property_149[68103] = {
+		id = 68103,
+		damage = 46,
+		base = 68101
+	}
+	uv0.weapon_property_149[68104] = {
+		id = 68104,
+		damage = 48,
+		base = 68101
+	}
+	uv0.weapon_property_149[68105] = {
+		id = 68105,
+		damage = 50,
+		base = 68101
+	}
+	uv0.weapon_property_149[68106] = {
+		id = 68106,
+		damage = 52,
+		base = 68101
+	}
+	uv0.weapon_property_149[68107] = {
+		id = 68107,
+		damage = 54,
+		base = 68101,
+		barrage_ID = {
+			80552
+		}
+	}
+	uv0.weapon_property_149[68108] = {
+		id = 68108,
+		damage = 56,
+		base = 68101,
+		barrage_ID = {
+			80552
+		}
+	}
+	uv0.weapon_property_149[68109] = {
+		id = 68109,
+		damage = 58,
+		base = 68101,
+		barrage_ID = {
+			80552
+		}
+	}
+	uv0.weapon_property_149[68110] = {
+		id = 68110,
+		damage = 62,
+		base = 68101,
+		barrage_ID = {
+			80552
+		}
+	}
 	uv0.weapon_property_149[68111] = {
 		action_index = "attack",
 		range = 95,
@@ -573,139 +696,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_149[68162] = {
-		id = 68162,
-		name = "加斯科涅技能·箭型国旗LV2白",
-		damage = 22,
-		base = 68161
-	}
-	uv0.weapon_property_149[68163] = {
-		id = 68163,
-		name = "加斯科涅技能·箭型国旗LV3白",
-		damage = 25,
-		base = 68161
-	}
-	uv0.weapon_property_149[68164] = {
-		name = "加斯科涅技能·箭型国旗LV4白",
-		damage = 28,
-		base = 68161,
-		id = 68164,
-		barrage_ID = {
-			80563,
-			80564
-		}
-	}
-	uv0.weapon_property_149[68165] = {
-		name = "加斯科涅技能·箭型国旗LV5白",
-		damage = 31,
-		base = 68161,
-		id = 68165,
-		barrage_ID = {
-			80563,
-			80564
-		}
-	}
-	uv0.weapon_property_149[68166] = {
-		name = "加斯科涅技能·箭型国旗LV6白",
-		damage = 34,
-		base = 68161,
-		id = 68166,
-		barrage_ID = {
-			80563,
-			80564
-		}
-	}
-	uv0.weapon_property_149[68167] = {
-		name = "加斯科涅技能·箭型国旗LV7白",
-		damage = 39,
-		base = 68161,
-		id = 68167,
-		barrage_ID = {
-			80565,
-			80566
-		}
-	}
-	uv0.weapon_property_149[68168] = {
-		name = "加斯科涅技能·箭型国旗LV8白",
-		damage = 44,
-		base = 68161,
-		id = 68168,
-		barrage_ID = {
-			80565,
-			80566
-		}
-	}
-	uv0.weapon_property_149[68169] = {
-		name = "加斯科涅技能·箭型国旗LV9白",
-		damage = 49,
-		base = 68161,
-		id = 68169,
-		barrage_ID = {
-			80565,
-			80566
-		}
-	}
-	uv0.weapon_property_149[68170] = {
-		name = "加斯科涅技能·箭型国旗LV10白",
-		damage = 54,
-		base = 68161,
-		id = 68170,
-		barrage_ID = {
-			80565,
-			80566
-		}
-	}
-	uv0.weapon_property_149[68171] = {
-		action_index = "attack",
-		range = 85,
-		type = 19,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "加斯科涅技能·箭型国旗LV1蓝",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 50,
-		charge_param = "",
-		damage = 19,
-		corrected = 100,
-		min_range = 35,
-		id = 68171,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19849,
-			19849
-		},
-		barrage_ID = {
-			80561,
-			80562
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_149[68172] = {
-		id = 68172,
-		name = "加斯科涅技能·箭型国旗LV2蓝",
-		damage = 22,
-		base = 68171
 	}
 end()

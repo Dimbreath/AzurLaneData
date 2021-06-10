@@ -11,6 +11,12 @@ slot1 = {
 	[970702] = {
 		-36.45481,
 		629.5
+	},
+	[970201] = {
+		-36.45481,
+		610.5,
+		0.95,
+		0.95
 	}
 }
 
@@ -86,6 +92,8 @@ function slot0.OnInit(slot0)
 			x = uv0[slot0.groupId][1],
 			y = uv0[slot0.groupId][2]
 		})
+
+		slot0.painting.localScale = Vector3(uv0[slot0.groupId][3] or 1, uv0[slot0.groupId][4] or 1, 1)
 	end
 end
 

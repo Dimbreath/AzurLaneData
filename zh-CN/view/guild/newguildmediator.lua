@@ -1,9 +1,13 @@
 slot0 = class("NewGuildMediator", import("..base.ContextMediator"))
 slot0.OPEN_GUILD_LIST = "NewGuildMediator:OPEN_GUILD_LIST"
 slot0.CREATE = "NewGuildMediator:CREATE"
+slot0.OPEN_PUBLIC_GUILD = "NewGuildMediator:OPEN_PUBLIC_GUILD"
 
 function slot0.register(slot0)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
+	slot0:bind(uv0.OPEN_PUBLIC_GUILD, function (slot0)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.PUBLIC_GUILD)
+	end)
 	slot0:bind(uv0.OPEN_GUILD_LIST, function (slot0)
 		uv0:addSubLayers(Context.New({
 			viewComponent = JoinGuildLayer,

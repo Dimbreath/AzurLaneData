@@ -16,7 +16,7 @@ return {
 			bgm = "level02",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥官，欢迎来到对余烬作战指挥室。下面由我向您说明一下余烬信标与对余烬作战的相关事宜。",
+			say = "指挥官，欢迎来到作战指挥室。下面由我向您说明一下余烬信标与对余烬作战的相关事宜。",
 			flashin = {
 				stopbgm = true,
 				black = true,
@@ -77,7 +77,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥部将其称呼为余烬信标。通过对收集到的余烬信标进行解析，舰队就可以在第一时间发现海域中正处于交战状态的余烬成员。",
+			say = "指挥部将其称呼为余烬信标。通过对收集到的信标进行解析，舰队就可以在第一时间发现海域中正处于交战状态的余烬成员。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "虽然余烬在现阶段尚未对作战造成严重危害，但余烬的存在本身就是影响作战成功的不稳定因素。",
+			say = "余烬与塞壬不同，有些个体存在明确的敌意，有些则不然。在某些情况下虽然也有进行沟通交流的选项，但总体来说拥有极高风险。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			blackBg = true,
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥部希望您能带领舰队消除余烬的威胁。",
+			say = "同时，根据现有情报判断，并非所有拥有类似信号特征的目标都属于余烬，而是更广泛的归属于META这一分类中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			voice = "event:/tb/11/tb-11",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥官，与余烬进行作战是一件十分危险的事，请您小心。",
+			say = "指挥部判断，虽然余烬在现阶段尚未对作战造成严重危害，但余烬的存在本身就是影响作战成功的不稳定因素。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥官，指挥部从来没说要以一方消灭另一方的形式消除余烬的威胁哦。",
+			say = "指挥部从来没说要以一方消灭另一方的形式消除余烬的威胁哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

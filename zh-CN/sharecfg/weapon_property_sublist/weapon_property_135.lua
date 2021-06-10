@@ -2,6 +2,140 @@ pg = pg or {}
 pg.weapon_property_135 = {}
 
 function ()
+	uv0.weapon_property_135[66861] = {
+		id = 66861,
+		name = "罗伯茨级技能箭型LV1",
+		damage = 26,
+		base = 66860
+	}
+	uv0.weapon_property_135[66862] = {
+		id = 66862,
+		name = "罗伯茨级技能箭型LV2",
+		damage = 31,
+		base = 66860
+	}
+	uv0.weapon_property_135[66863] = {
+		id = 66863,
+		name = "罗伯茨级技能箭型LV3",
+		damage = 36,
+		base = 66860
+	}
+	uv0.weapon_property_135[66864] = {
+		name = "罗伯茨级技能箭型LV4",
+		damage = 41,
+		base = 66860,
+		id = 66864,
+		barrage_ID = {
+			80082,
+			80086
+		}
+	}
+	uv0.weapon_property_135[66865] = {
+		name = "罗伯茨级技能箭型LV5",
+		damage = 46,
+		base = 66860,
+		id = 66865,
+		barrage_ID = {
+			80082,
+			80086
+		}
+	}
+	uv0.weapon_property_135[66866] = {
+		name = "罗伯茨级技能箭型LV6",
+		damage = 51,
+		base = 66860,
+		id = 66866,
+		barrage_ID = {
+			80082,
+			80086
+		}
+	}
+	uv0.weapon_property_135[66867] = {
+		name = "罗伯茨级技能箭型LV7",
+		damage = 56,
+		base = 66860,
+		id = 66867,
+		barrage_ID = {
+			80083,
+			80087
+		}
+	}
+	uv0.weapon_property_135[66868] = {
+		name = "罗伯茨级技能箭型LV8",
+		damage = 61,
+		base = 66860,
+		id = 66868,
+		barrage_ID = {
+			80083,
+			80087
+		}
+	}
+	uv0.weapon_property_135[66869] = {
+		name = "罗伯茨级技能箭型LV9",
+		damage = 66,
+		base = 66860,
+		id = 66869,
+		barrage_ID = {
+			80083,
+			80087
+		}
+	}
+	uv0.weapon_property_135[66870] = {
+		name = "罗伯茨级技能箭型LV10",
+		damage = 72,
+		base = 66860,
+		id = 66870,
+		barrage_ID = {
+			80084,
+			80088
+		}
+	}
+	uv0.weapon_property_135[66880] = {
+		action_index = "attack",
+		range = 50,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "罗伯茨级技能偏转穿透LV0",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 32,
+		corrected = 100,
+		min_range = 0,
+		id = 66880,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19926,
+			19926
+		},
+		barrage_ID = {
+			80091,
+			80095
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_135[66881] = {
 		id = 66881,
 		name = "罗伯茨级技能偏转穿透LV1",
@@ -623,111 +757,5 @@ function ()
 		bullet_ID = {
 			66967
 		}
-	}
-	uv0.weapon_property_135[66968] = {
-		name = "萨拉托加技能轰炸机Lv8",
-		damage = 167,
-		base = 66960,
-		id = 66968,
-		bullet_ID = {
-			66968
-		}
-	}
-	uv0.weapon_property_135[66969] = {
-		name = "萨拉托加技能轰炸机Lv9",
-		damage = 179,
-		base = 66960,
-		id = 66969,
-		bullet_ID = {
-			66969
-		}
-	}
-	uv0.weapon_property_135[66970] = {
-		name = "萨拉托加技能轰炸机Lv10",
-		damage = 193,
-		base = 66960,
-		id = 66970,
-		bullet_ID = {
-			66970
-		}
-	}
-	uv0.weapon_property_135[66980] = {
-		action_index = "",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = -10,
-		shakescreen = 0,
-		name = "进水鱼雷",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 63,
-		corrected = 100,
-		min_range = 0,
-		id = 66980,
-		attack_attribute_ratio = 120,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19934
-		},
-		barrage_ID = {
-			2141
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_135[66981] = {
-		id = 66981,
-		damage = 76,
-		base = 66980
-	}
-	uv0.weapon_property_135[66982] = {
-		id = 66982,
-		damage = 90,
-		base = 66980
-	}
-	uv0.weapon_property_135[66983] = {
-		id = 66983,
-		damage = 104,
-		base = 66980
-	}
-	uv0.weapon_property_135[66984] = {
-		id = 66984,
-		damage = 118,
-		base = 66980
-	}
-	uv0.weapon_property_135[66985] = {
-		id = 66985,
-		damage = 132,
-		base = 66980
-	}
-	uv0.weapon_property_135[66986] = {
-		id = 66986,
-		damage = 146,
-		base = 66980
-	}
-	uv0.weapon_property_135[66987] = {
-		id = 66987,
-		damage = 160,
-		base = 66980
 	}
 end()

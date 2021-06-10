@@ -2,6 +2,104 @@ pg = pg or {}
 pg.weapon_property_114 = {}
 
 function ()
+	uv0.weapon_property_114[65112] = {
+		id = 65112,
+		name = "塔什干μ-紫色ICELF-LV2",
+		damage = 7,
+		base = 65111
+	}
+	uv0.weapon_property_114[65113] = {
+		id = 65113,
+		name = "塔什干μ-紫色ICELF-LV3",
+		damage = 8,
+		base = 65111
+	}
+	uv0.weapon_property_114[65114] = {
+		id = 65114,
+		name = "塔什干μ-紫色ICELF-LV4",
+		damage = 9,
+		base = 65111
+	}
+	uv0.weapon_property_114[65115] = {
+		id = 65115,
+		name = "塔什干μ-紫色ICELF-LV5",
+		damage = 10,
+		base = 65111
+	}
+	uv0.weapon_property_114[65116] = {
+		id = 65116,
+		name = "塔什干μ-紫色ICELF-LV6",
+		damage = 12,
+		base = 65111
+	}
+	uv0.weapon_property_114[65117] = {
+		id = 65117,
+		name = "塔什干μ-紫色ICELF-LV7",
+		damage = 14,
+		base = 65111
+	}
+	uv0.weapon_property_114[65118] = {
+		id = 65118,
+		name = "塔什干μ-紫色ICELF-LV8",
+		damage = 17,
+		base = 65111
+	}
+	uv0.weapon_property_114[65119] = {
+		id = 65119,
+		name = "塔什干μ-紫色ICELF-LV9",
+		damage = 20,
+		base = 65111
+	}
+	uv0.weapon_property_114[65120] = {
+		id = 65120,
+		name = "塔什干μ-紫色ICELF-LV10",
+		damage = 24,
+		base = 65111
+	}
+	uv0.weapon_property_114[65121] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "恶毒μ神圣天使轰炸机Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 90,
+		charge_param = "",
+		damage = 48,
+		corrected = 100,
+		min_range = 0,
+		id = 65121,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1890,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			65121
+		},
+		barrage_ID = {
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_114[65122] = {
 		name = "恶毒μ神圣天使轰炸机Lv2",
 		damage = 68,
@@ -572,102 +670,5 @@ function ()
 		id = 65193,
 		damage = 106,
 		base = 65191
-	}
-	uv0.weapon_property_114[65194] = {
-		id = 65194,
-		damage = 124,
-		base = 65191
-	}
-	uv0.weapon_property_114[65195] = {
-		id = 65195,
-		damage = 144,
-		base = 65191
-	}
-	uv0.weapon_property_114[65196] = {
-		id = 65196,
-		damage = 164,
-		base = 65191
-	}
-	uv0.weapon_property_114[65197] = {
-		id = 65197,
-		damage = 182,
-		base = 65191
-	}
-	uv0.weapon_property_114[65198] = {
-		id = 65198,
-		damage = 202,
-		base = 65191
-	}
-	uv0.weapon_property_114[65199] = {
-		id = 65199,
-		damage = 220,
-		base = 65191
-	}
-	uv0.weapon_property_114[65200] = {
-		id = 65200,
-		damage = 240,
-		base = 65191
-	}
-	uv0.weapon_property_114[65201] = {
-		action_index = "attack",
-		range = 90,
-		type = 10,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "大凤μ技能轰炸机Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 90,
-		charge_param = "",
-		damage = 68,
-		corrected = 100,
-		min_range = 0,
-		id = 65201,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 2490,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			65201
-		},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_114[65202] = {
-		name = "大凤μ技能轰炸机Lv2",
-		damage = 86,
-		base = 65201,
-		id = 65202,
-		bullet_ID = {
-			65202
-		}
-	}
-	uv0.weapon_property_114[65203] = {
-		name = "大凤μ技能轰炸机Lv3",
-		damage = 106,
-		base = 65201,
-		id = 65203,
-		bullet_ID = {
-			65203
-		}
 	}
 end()

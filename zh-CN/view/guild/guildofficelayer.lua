@@ -8,16 +8,6 @@ function slot0.setPlayer(slot0, slot1)
 	slot0.playerVO = slot1
 end
 
-function slot0.preload(slot0, slot1)
-	if getProxy(GuildProxy).shouldRefreshDonateList or getProxy(GuildProxy).refreshDonateListFailed then
-		pg.m02:sendNotification(GAME.GUILD_DONATE_LIST_UPDATE, {
-			callback = slot1
-		})
-	else
-		slot1()
-	end
-end
-
 function slot0.SetGuild(slot0, slot1)
 	slot0.guild = slot1
 	slot0.isAdmin = GuildMember.IsAdministrator(slot1:getSelfDuty())

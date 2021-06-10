@@ -2,6 +2,125 @@ pg = pg or {}
 pg.weapon_property_124 = {}
 
 function ()
+	uv0.weapon_property_124[65762] = {
+		id = 65762,
+		name = "贝拉罗斯PVP冰锥5-120-LV2",
+		damage = 68,
+		base = 65761
+	}
+	uv0.weapon_property_124[65763] = {
+		id = 65763,
+		name = "贝拉罗斯PVP冰锥5-120-LV3",
+		damage = 80,
+		base = 65761
+	}
+	uv0.weapon_property_124[65764] = {
+		name = "贝拉罗斯PVP冰锥5-120-LV4",
+		damage = 92,
+		base = 65761,
+		id = 65764,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_124[65765] = {
+		name = "贝拉罗斯PVP冰锥5-120-LV5",
+		damage = 104,
+		base = 65761,
+		id = 65765,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_124[65766] = {
+		name = "贝拉罗斯PVP冰锥5-120-LV6",
+		damage = 118,
+		base = 65761,
+		id = 65766,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_124[65767] = {
+		name = "贝拉罗斯PVP冰锥5-120-LV7",
+		damage = 128,
+		base = 65761,
+		id = 65767,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_124[65768] = {
+		name = "贝拉罗斯PVP冰锥5-120-LV8",
+		damage = 140,
+		base = 65761,
+		id = 65768,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_124[65769] = {
+		name = "贝拉罗斯PVP冰锥5-120-LV9",
+		damage = 152,
+		base = 65761,
+		id = 65769,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_124[65770] = {
+		name = "贝拉罗斯PVP冰锥5-120-LV10",
+		damage = 164,
+		base = 65761,
+		id = 65770,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_124[65771] = {
+		action_index = "attack",
+		range = 60,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "基洛夫技能首轮-带点燃易伤Lv1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 22,
+		corrected = 118,
+		min_range = 0,
+		id = 65771,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19268
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_124[65772] = {
 		id = 65772,
 		name = "基洛夫技能首轮-带点燃易伤Lv2",
@@ -671,133 +790,5 @@ function ()
 		name = "黑方舟技能-红蓝枪焰-枪Lv3",
 		damage = 8,
 		base = 65821
-	}
-	uv0.weapon_property_124[65824] = {
-		id = 65824,
-		name = "黑方舟技能-红蓝枪焰-枪Lv4",
-		damage = 9,
-		base = 65821
-	}
-	uv0.weapon_property_124[65825] = {
-		name = "黑方舟技能-红蓝枪焰-枪Lv5",
-		damage = 10,
-		base = 65821,
-		id = 65825,
-		barrage_ID = {
-			81046
-		}
-	}
-	uv0.weapon_property_124[65826] = {
-		name = "黑方舟技能-红蓝枪焰-枪Lv6",
-		damage = 11,
-		base = 65821,
-		id = 65826,
-		barrage_ID = {
-			81046
-		}
-	}
-	uv0.weapon_property_124[65827] = {
-		name = "黑方舟技能-红蓝枪焰-枪Lv7",
-		damage = 12,
-		base = 65821,
-		id = 65827,
-		barrage_ID = {
-			81046
-		}
-	}
-	uv0.weapon_property_124[65828] = {
-		name = "黑方舟技能-红蓝枪焰-枪Lv8",
-		damage = 13,
-		base = 65821,
-		id = 65828,
-		barrage_ID = {
-			81046
-		}
-	}
-	uv0.weapon_property_124[65829] = {
-		name = "黑方舟技能-红蓝枪焰-枪Lv9",
-		damage = 14,
-		base = 65821,
-		id = 65829,
-		bullet_ID = {
-			19278,
-			19278
-		},
-		barrage_ID = {
-			81045,
-			81046
-		}
-	}
-	uv0.weapon_property_124[65830] = {
-		name = "黑方舟技能-红蓝枪焰-枪Lv10",
-		damage = 15,
-		base = 65821,
-		id = 65830,
-		bullet_ID = {
-			19278,
-			19278
-		},
-		barrage_ID = {
-			81045,
-			81046
-		}
-	}
-	uv0.weapon_property_124[65831] = {
-		action_index = "attack",
-		range = 200,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "黑方舟技能-虚影强袭Lv1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 22,
-		corrected = 100,
-		min_range = 0,
-		id = 65831,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 3,
-		attack_attribute = 4,
-		reload_max = 5000,
-		queue = 4,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19275,
-			19276
-		},
-		barrage_ID = {
-			81042,
-			81043
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_124[65832] = {
-		id = 65832,
-		name = "黑方舟技能-虚影强袭Lv2",
-		damage = 29,
-		base = 65831
-	}
-	uv0.weapon_property_124[65833] = {
-		id = 65833,
-		name = "黑方舟技能-虚影强袭Lv3",
-		damage = 36,
-		base = 65831
 	}
 end()

@@ -209,11 +209,11 @@ pg.world_collection_record_template = {
 	},
 	[100024] = {
 		group_ID = 24,
-		name = "信标·烬",
+		name = "信标·META",
 		mask = "bg/bg_memory",
 		id = 100024,
 		icon = "memory_dashijie",
-		condition = "解锁「信标·烬」系统",
+		condition = "解锁「信标·META」系统",
 		story = "GWORLD109A"
 	},
 	[100025] = {

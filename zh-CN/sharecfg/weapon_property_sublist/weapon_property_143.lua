@@ -2,6 +2,139 @@ pg = pg or {}
 pg.weapon_property_143 = {}
 
 function ()
+	uv0.weapon_property_143[67691] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 19,
+		shakescreen = 0,
+		name = "1 x 1000lb 炸弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 19,
+		charge_param = "",
+		damage = 150,
+		corrected = 100,
+		min_range = 0,
+		id = 67691,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19967
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_143[67692] = {
+		id = 67692,
+		damage = 169,
+		base = 67691
+	}
+	uv0.weapon_property_143[67693] = {
+		id = 67693,
+		damage = 188,
+		base = 67691
+	}
+	uv0.weapon_property_143[67694] = {
+		id = 67694,
+		damage = 207,
+		base = 67691
+	}
+	uv0.weapon_property_143[67695] = {
+		id = 67695,
+		damage = 226,
+		base = 67691
+	}
+	uv0.weapon_property_143[67696] = {
+		id = 67696,
+		damage = 245,
+		base = 67691
+	}
+	uv0.weapon_property_143[67697] = {
+		id = 67697,
+		damage = 264,
+		base = 67691
+	}
+	uv0.weapon_property_143[67698] = {
+		id = 67698,
+		damage = 283,
+		base = 67691
+	}
+	uv0.weapon_property_143[67699] = {
+		id = 67699,
+		damage = 302,
+		base = 67691
+	}
+	uv0.weapon_property_143[67700] = {
+		id = 67700,
+		damage = 322,
+		base = 67691
+	}
+	uv0.weapon_property_143[67701] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 25,
+		shakescreen = 0,
+		name = "2 x 100lb 炸弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 70,
+		corrected = 100,
+		min_range = 0,
+		id = 67701,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19968
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_143[67702] = {
 		id = 67702,
 		damage = 78,
@@ -630,111 +763,5 @@ function ()
 		name = "天城战列技能-LV2",
 		damage = 80,
 		base = 67751
-	}
-	uv0.weapon_property_143[67753] = {
-		id = 67753,
-		name = "天城战列技能-LV3",
-		damage = 86,
-		base = 67751
-	}
-	uv0.weapon_property_143[67754] = {
-		id = 67754,
-		name = "天城战列技能-LV4",
-		damage = 93,
-		base = 67751
-	}
-	uv0.weapon_property_143[67755] = {
-		id = 67755,
-		name = "天城战列技能-LV5",
-		damage = 101,
-		base = 67751
-	}
-	uv0.weapon_property_143[67756] = {
-		id = 67756,
-		name = "天城战列技能-LV6",
-		damage = 110,
-		base = 67751
-	}
-	uv0.weapon_property_143[67757] = {
-		id = 67757,
-		name = "天城战列技能-LV7",
-		damage = 120,
-		base = 67751
-	}
-	uv0.weapon_property_143[67758] = {
-		id = 67758,
-		name = "天城战列技能-LV8",
-		damage = 131,
-		base = 67751
-	}
-	uv0.weapon_property_143[67759] = {
-		id = 67759,
-		name = "天城战列技能-LV9",
-		damage = 143,
-		base = 67751
-	}
-	uv0.weapon_property_143[67760] = {
-		id = 67760,
-		name = "天城战列技能-LV10",
-		damage = 156,
-		base = 67751
-	}
-	uv0.weapon_property_143[67761] = {
-		action_index = "attack",
-		range = 95,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "天城战列技能副炮-LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 7,
-		corrected = 100,
-		min_range = 25,
-		id = 67761,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19974,
-			19974
-		},
-		barrage_ID = {
-			80516,
-			80517
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_143[67762] = {
-		id = 67762,
-		name = "天城战列技能副炮-LV2",
-		damage = 8,
-		base = 67761
-	}
-	uv0.weapon_property_143[67763] = {
-		id = 67763,
-		name = "天城战列技能副炮-LV3",
-		damage = 9,
-		base = 67761
 	}
 end()

@@ -29,16 +29,29 @@ function slot0.UpdatePainting(slot0)
 end
 
 function slot0.UpdateUpgradeList(slot0)
-	slot0.technologyPage:UpdateUpgradeList()
+	if slot0.technologyPage:GetLoaded() then
+		slot0.technologyPage:UpdateUpgradeList()
+	end
 end
 
 function slot0.UpdateBreakOutList(slot0)
-	slot0.technologyPage:UpdateBreakOutList()
+	if slot0.technologyPage:GetLoaded() then
+		slot0.technologyPage:UpdateBreakOutList()
+	end
 end
 
 function slot0.UpdateGuild(slot0, slot1)
 	slot0:setGuild(slot1)
-	slot0.technologyPage:Update(slot0.guildVO)
+
+	if slot0.technologyPage and slot0.technologyPage:GetLoaded() then
+		slot0.technologyPage:Update(slot0.guildVO)
+	end
+end
+
+function slot0.UpdateAll(slot0)
+	if slot0.technologyPage:GetLoaded() then
+		slot0.technologyPage:Flush()
+	end
 end
 
 function slot0.onBackPressed(slot0)

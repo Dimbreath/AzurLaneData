@@ -2,6 +2,117 @@ pg = pg or {}
 pg.weapon_property_164 = {}
 
 function ()
+	uv0.weapon_property_164[69060] = {
+		id = 69060,
+		name = "塔什干ICELF-LV10",
+		damage = 24,
+		base = 69051
+	}
+	uv0.weapon_property_164[69061] = {
+		action_index = "attack",
+		range = 95,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "苏俄PVE主炮弹幕LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 58,
+		corrected = 100,
+		min_range = 25,
+		id = 69061,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19095,
+			19096
+		},
+		barrage_ID = {
+			80839,
+			80840
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_164[69062] = {
+		id = 69062,
+		name = "苏俄PVE主炮弹幕LV2",
+		damage = 70,
+		base = 69061
+	}
+	uv0.weapon_property_164[69063] = {
+		id = 69063,
+		name = "苏俄PVE主炮弹幕LV3",
+		damage = 82,
+		base = 69061
+	}
+	uv0.weapon_property_164[69064] = {
+		id = 69064,
+		name = "苏俄PVE主炮弹幕LV4",
+		damage = 94,
+		base = 69061
+	}
+	uv0.weapon_property_164[69065] = {
+		id = 69065,
+		name = "苏俄PVE主炮弹幕LV5",
+		damage = 106,
+		base = 69061
+	}
+	uv0.weapon_property_164[69066] = {
+		id = 69066,
+		name = "苏俄PVE主炮弹幕LV6",
+		damage = 118,
+		base = 69061
+	}
+	uv0.weapon_property_164[69067] = {
+		id = 69067,
+		name = "苏俄PVE主炮弹幕LV7",
+		damage = 130,
+		base = 69061
+	}
+	uv0.weapon_property_164[69068] = {
+		id = 69068,
+		name = "苏俄PVE主炮弹幕LV8",
+		damage = 142,
+		base = 69061
+	}
+	uv0.weapon_property_164[69069] = {
+		id = 69069,
+		name = "苏俄PVE主炮弹幕LV9",
+		damage = 154,
+		base = 69061
+	}
+	uv0.weapon_property_164[69070] = {
+		id = 69070,
+		name = "苏俄PVE主炮弹幕LV10",
+		damage = 170,
+		base = 69061
+	}
 	uv0.weapon_property_164[69071] = {
 		action_index = "attack",
 		range = 120,
@@ -552,128 +663,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_164[69122] = {
-		id = 69122,
-		name = "恰巴耶夫技能弹幕-LV2",
-		damage = 8,
-		base = 69121
-	}
-	uv0.weapon_property_164[69123] = {
-		id = 69123,
-		name = "恰巴耶夫技能弹幕-LV3",
-		damage = 9,
-		base = 69121
-	}
-	uv0.weapon_property_164[69124] = {
-		id = 69124,
-		name = "恰巴耶夫技能弹幕-LV4",
-		damage = 10,
-		base = 69121
-	}
-	uv0.weapon_property_164[69125] = {
-		id = 69125,
-		name = "恰巴耶夫技能弹幕-LV5",
-		damage = 12,
-		base = 69121
-	}
-	uv0.weapon_property_164[69126] = {
-		name = "恰巴耶夫技能弹幕-LV6",
-		damage = 14,
-		base = 69121,
-		id = 69126,
-		barrage_ID = {
-			80845
-		}
-	}
-	uv0.weapon_property_164[69127] = {
-		name = "恰巴耶夫技能弹幕-LV7",
-		damage = 17,
-		base = 69121,
-		id = 69127,
-		barrage_ID = {
-			80845
-		}
-	}
-	uv0.weapon_property_164[69128] = {
-		name = "恰巴耶夫技能弹幕-LV8",
-		damage = 20,
-		base = 69121,
-		id = 69128,
-		barrage_ID = {
-			80845
-		}
-	}
-	uv0.weapon_property_164[69129] = {
-		name = "恰巴耶夫技能弹幕-LV9",
-		damage = 24,
-		base = 69121,
-		id = 69129,
-		barrage_ID = {
-			80845
-		}
-	}
-	uv0.weapon_property_164[69130] = {
-		name = "恰巴耶夫技能弹幕-LV10",
-		damage = 26,
-		base = 69121,
-		id = 69130,
-		barrage_ID = {
-			80845
-		}
-	}
-	uv0.weapon_property_164[69131] = {
-		action_index = "",
-		range = 50,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "定点冰锥PVP1-50-LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 70,
-		charge_param = "",
-		damage = 11,
-		corrected = 100,
-		min_range = 0,
-		id = 69131,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 9500,
-		queue = 4,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19098,
-			19100,
-			19102
-		},
-		barrage_ID = {
-			80842,
-			80842,
-			80842
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_164[69132] = {
-		id = 69132,
-		name = "定点冰锥PVP1-50-LV2",
-		damage = 13,
-		base = 69131
 	}
 end()

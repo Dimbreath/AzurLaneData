@@ -1,37 +1,40 @@
 slot0 = class("SubmitTaskOneStepCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	slot4 = {}
-	slot5 = {}
-	slot6 = getProxy(TaskProxy)
+	slot2 = slot1:getBody()
+	slot3 = slot2.callback
+	slot4 = slot2.dontSendMsg
+	slot6 = {}
+	slot7 = {}
+	slot8 = getProxy(TaskProxy)
 
-	for slot10, slot11 in ipairs(slot1:getBody().resultList) do
-		slot12 = slot11.id
-		slot13 = {}
+	for slot12, slot13 in ipairs(slot2.resultList) do
+		slot14 = slot13.id
+		slot15 = {}
 
-		if slot11.choiceItemList then
-			for slot17, slot18 in ipairs(slot11.choiceItemList) do
-				table.insert(slot13, slot18)
+		if slot13.choiceItemList then
+			for slot19, slot20 in ipairs(slot13.choiceItemList) do
+				table.insert(slot15, slot20)
 			end
 		end
 
-		if not slot6:getTaskById(slot12) then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("task_is_not_existence", slot12))
+		if not slot8:getTaskById(slot14) then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("task_is_not_existence", slot14))
 
 			return
 		end
 
-		if not slot14:isFinish() then
+		if not slot16:isFinish() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("task_submitTask_error_notFinish"))
 
 			return
 		end
 
-		table.insert(slot4, slot12)
+		table.insert(slot6, slot14)
 	end
 
 	pg.ConnectionMgr.GetInstance():Send(20011, {
-		id_list = slot4
+		id_list = slot6
 	}, 20012, function (slot0)
 		for slot5, slot6 in ipairs(slot0.id_list) do
 			if uv0:getTaskById(slot6):getConfig("sub_type") == TASK_SUB_TYPE_GIVE_ITEM then
@@ -73,9 +76,15 @@ function slot0.execute(slot0, slot1)
 			end
 		end
 
-		uv2:sendNotification(GAME.SUBMIT_TASK_DONE, uv1, _.map(uv3, function (slot0)
-			return slot0.id
-		end))
+		if not uv2 then
+			uv3:sendNotification(GAME.SUBMIT_TASK_DONE, uv1, _.map(uv4, function (slot0)
+				return slot0.id
+			end))
+		end
+
+		if uv5 then
+			uv5(uv1)
+		end
 	end)
 end
 

@@ -2,6 +2,114 @@ pg = pg or {}
 pg.weapon_property_174 = {}
 
 function ()
+	uv0.weapon_property_174[69680] = {
+		id = 69680,
+		name = "北风技能额外六联装鱼雷-天运强化LV10",
+		damage = 85,
+		base = 69671
+	}
+	uv0.weapon_property_174[69681] = {
+		action_index = "attack",
+		range = 55,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "北风技能额外弹幕-天运追加LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 6,
+		corrected = 100,
+		min_range = 0,
+		id = 69681,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19171,
+			19171,
+			19171
+		},
+		barrage_ID = {
+			80912,
+			80913,
+			80914
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_174[69682] = {
+		id = 69682,
+		name = "北风技能额外弹幕-天运追加LV2",
+		damage = 7,
+		base = 69681
+	}
+	uv0.weapon_property_174[69683] = {
+		id = 69683,
+		name = "北风技能额外弹幕-天运追加LV3",
+		damage = 8,
+		base = 69681
+	}
+	uv0.weapon_property_174[69684] = {
+		id = 69684,
+		name = "北风技能额外弹幕-天运追加LV4",
+		damage = 9,
+		base = 69681
+	}
+	uv0.weapon_property_174[69685] = {
+		id = 69685,
+		name = "北风技能额外弹幕-天运追加LV5",
+		damage = 10,
+		base = 69681
+	}
+	uv0.weapon_property_174[69686] = {
+		id = 69686,
+		name = "北风技能额外弹幕-天运追加LV6",
+		damage = 11,
+		base = 69681
+	}
+	uv0.weapon_property_174[69687] = {
+		id = 69687,
+		name = "北风技能额外弹幕-天运追加LV7",
+		damage = 12,
+		base = 69681
+	}
+	uv0.weapon_property_174[69688] = {
+		id = 69688,
+		name = "北风技能额外弹幕-天运追加LV8",
+		damage = 13,
+		base = 69681
+	}
+	uv0.weapon_property_174[69689] = {
+		id = 69689,
+		name = "北风技能额外弹幕-天运追加LV9",
+		damage = 14,
+		base = 69681
+	}
+	uv0.weapon_property_174[69690] = {
+		id = 69690,
+		name = "北风技能额外弹幕-天运追加LV10",
+		damage = 15,
+		base = 69681
+	}
 	uv0.weapon_property_174[69691] = {
 		action_index = "attack",
 		range = 90,
@@ -600,113 +708,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_174[69742] = {
-		id = 69742,
-		name = "赫敏-跨射对舰对潜弹LV2",
-		damage = 11,
-		base = 69741
-	}
-	uv0.weapon_property_174[69743] = {
-		id = 69743,
-		name = "赫敏-跨射对舰对潜弹LV3",
-		damage = 12,
-		base = 69741
-	}
-	uv0.weapon_property_174[69744] = {
-		id = 69744,
-		name = "赫敏-跨射对舰对潜弹LV4",
-		damage = 13,
-		base = 69741
-	}
-	uv0.weapon_property_174[69745] = {
-		id = 69745,
-		name = "赫敏-跨射对舰对潜弹LV5",
-		damage = 14,
-		base = 69741
-	}
-	uv0.weapon_property_174[69746] = {
-		id = 69746,
-		name = "赫敏-跨射对舰对潜弹LV6",
-		damage = 15,
-		base = 69741
-	}
-	uv0.weapon_property_174[69747] = {
-		id = 69747,
-		name = "赫敏-跨射对舰对潜弹LV7",
-		damage = 16,
-		base = 69741
-	}
-	uv0.weapon_property_174[69748] = {
-		id = 69748,
-		name = "赫敏-跨射对舰对潜弹LV8",
-		damage = 17,
-		base = 69741
-	}
-	uv0.weapon_property_174[69749] = {
-		id = 69749,
-		name = "赫敏-跨射对舰对潜弹LV9",
-		damage = 18,
-		base = 69741
-	}
-	uv0.weapon_property_174[69750] = {
-		id = 69750,
-		name = "赫敏-跨射对舰对潜弹LV10",
-		damage = 20,
-		base = 69741
-	}
-	uv0.weapon_property_174[69751] = {
-		action_index = "attack",
-		range = 120,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "鹰-剑鱼 Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 120,
-		charge_param = "",
-		damage = 46,
-		corrected = 100,
-		min_range = 0,
-		id = 69751,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 604,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			69751
-		},
-		barrage_ID = {
-			12010
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			2
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_174[69752] = {
-		reload_max = 588,
-		damage = 50,
-		base = 69751,
-		id = 69752,
-		name = "鹰-剑鱼 Lv2",
-		bullet_ID = {
-			69752
-		}
 	}
 end()

@@ -155,7 +155,7 @@ pg.task_data_template = {
 		award_choice = "",
 		level = 1,
 		priority_type = 0,
-		next_task = "[5,1001,1061,1071,1101,1111,1112,1121,1131,1132,1141,1201,2001,2021,2031,2101,2111,2112,2121,2131,2132,2141,2201,2301,3000,3001,6001,5041,5042,5043,5044,7001,7002,7003,7004,7005,7006,7007,7008,7009,7010,7011,7012,7013,7014,7015,7016,7017,7018,7019,7020,7021,7022,7101,7102,7103,7104,7105,7106,7107,7108,7109,7110,7111,7112,7113,7114,7115,7116,7117,7118,7119,7120,7121,7122,7123,10302]",
+		next_task = "[5,3000,3001,6001,5041,5042,5043,5044,7001,7002,7003,7004,7005,7006,7007,7008,7009,7010,7011,7012,7013,7014,7015,7016,7017,7018,7019,7020,7021,7022,7101,7102,7103,7104,7105,7106,7107,7108,7109,7110,7111,7112,7113,7114,7115,7116,7117,7118,7119,7120,7121,7122,7123,7201,7202,7203,7204,7205,7206,7207,7208,7209,10302]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 101,
@@ -2382,2207 +2382,6 @@ pg.task_data_template = {
 				1,
 				2,
 				150
-			}
-		}
-	},
-	[1001] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 1001,
-		type = 3,
-		name = "击退敌军舰队",
-		count_inherit = 0,
-		desc = "舰队出征，获得1次战斗胜利。",
-		target_id_2 = "",
-		sub_type = 20,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "[1011,1012]",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1001,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				120
-			},
-			{
-				1,
-				2,
-				20
-			},
-			{
-				2,
-				20001,
-				1
-			}
-		}
-	},
-	[1011] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1011,
-		type = 3,
-		name = "清除敌军舰队",
-		count_inherit = 0,
-		desc = "舰队出征，以A评价以上完成战斗。",
-		target_id_2 = "",
-		sub_type = 23,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "[[1021,1022,1023,1024,1025,1026,1027,1028,1029],[1081,1082,1083,1084,1085,1086,1087,1088,1089,1090,1091,1092]]",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1011,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				120
-			},
-			{
-				1,
-				2,
-				20
-			},
-			{
-				2,
-				20001,
-				1
-			}
-		}
-	},
-	[1012] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1012,
-		type = 3,
-		name = "击溃敌军舰队",
-		count_inherit = 0,
-		desc = "舰队出征，获得3次战斗胜利。",
-		target_id_2 = "",
-		sub_type = 20,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "[1041,1051]",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1012,
-		target_num = 3,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				300
-			},
-			{
-				1,
-				2,
-				50
-			},
-			{
-				2,
-				20001,
-				1
-			}
-		}
-	},
-	[1021] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1021,
-		type = 3,
-		name = "目标：小型舰队",
-		count_inherit = 0,
-		desc = "击败小型舰队5次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1021,
-		target_num = 5,
-		fix_task = 0,
-		target_id = {
-			1,
-			4,
-			7,
-			10
-		},
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				150
-			},
-			{
-				2,
-				17021,
-				3
-			}
-		}
-	},
-	[1022] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1022,
-		type = 3,
-		name = "目标：中型舰队",
-		count_inherit = 0,
-		desc = "击败中型舰队4次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 20,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1022,
-		target_num = 4,
-		fix_task = 0,
-		target_id = {
-			2,
-			5,
-			8,
-			11
-		},
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				150
-			},
-			{
-				2,
-				17022,
-				3
-			}
-		}
-	},
-	[1023] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1023,
-		type = 3,
-		name = "目标：大型舰队",
-		count_inherit = 0,
-		desc = "击败大型舰队3次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 50,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1023,
-		target_num = 3,
-		fix_task = 0,
-		target_id = {
-			3,
-			6,
-			9,
-			12
-		},
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				150
-			},
-			{
-				2,
-				17023,
-				3
-			}
-		}
-	},
-	[1024] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1024,
-		type = 3,
-		name = "目标：小型舰队",
-		count_inherit = 0,
-		desc = "击败小型舰队5次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1024,
-		target_num = 5,
-		fix_task = 0,
-		target_id = {
-			1,
-			4,
-			7,
-			10
-		},
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				150
-			},
-			{
-				2,
-				17011,
-				3
-			}
-		}
-	},
-	[1025] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1025,
-		type = 3,
-		name = "目标：中型舰队",
-		count_inherit = 0,
-		desc = "击败中型舰队4次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 20,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1025,
-		target_num = 4,
-		fix_task = 0,
-		target_id = {
-			2,
-			5,
-			8,
-			11
-		},
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				150
-			},
-			{
-				2,
-				17012,
-				3
-			}
-		}
-	},
-	[1026] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1026,
-		type = 3,
-		name = "目标：大型舰队",
-		count_inherit = 0,
-		desc = "击败大型舰队3次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 50,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1026,
-		target_num = 3,
-		fix_task = 0,
-		target_id = {
-			3,
-			6,
-			9,
-			12
-		},
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				150
-			},
-			{
-				2,
-				17013,
-				3
-			}
-		}
-	},
-	[1027] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1027,
-		type = 3,
-		name = "目标：小型舰队",
-		count_inherit = 0,
-		desc = "击败小型舰队5次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1027,
-		target_num = 5,
-		fix_task = 0,
-		target_id = {
-			1,
-			4,
-			7,
-			10
-		},
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				150
-			},
-			{
-				2,
-				17041,
-				3
-			}
-		}
-	},
-	[1028] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1028,
-		type = 3,
-		name = "目标：中型舰队",
-		count_inherit = 0,
-		desc = "击败中型舰队4次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 20,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1028,
-		target_num = 4,
-		fix_task = 0,
-		target_id = {
-			2,
-			5,
-			8,
-			11
-		},
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				150
-			},
-			{
-				2,
-				17042,
-				3
-			}
-		}
-	},
-	[1029] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1029,
-		type = 3,
-		name = "目标：大型舰队",
-		count_inherit = 0,
-		desc = "击败大型舰队3次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 50,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1029,
-		target_num = 3,
-		fix_task = 0,
-		target_id = {
-			3,
-			6,
-			9,
-			12
-		},
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				150
-			},
-			{
-				2,
-				17043,
-				3
-			}
-		}
-	},
-	[1030] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1030,
-		type = 3,
-		name = "目标：小型舰队",
-		count_inherit = 0,
-		desc = "击败小型舰队5次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1030,
-		target_num = 5,
-		fix_task = 0,
-		target_id = {
-			1,
-			4,
-			7,
-			10
-		},
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				150
-			},
-			{
-				2,
-				17031,
-				3
-			}
-		}
-	},
-	[1031] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1031,
-		type = 3,
-		name = "目标：中型舰队",
-		count_inherit = 0,
-		desc = "击败中型舰队4次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 20,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1031,
-		target_num = 4,
-		fix_task = 0,
-		target_id = {
-			2,
-			5,
-			8,
-			11
-		},
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				150
-			},
-			{
-				2,
-				17032,
-				3
-			}
-		}
-	},
-	[1032] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1032,
-		type = 3,
-		name = "目标：大型舰队",
-		count_inherit = 0,
-		desc = "击败大型舰队3次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 50,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1032,
-		target_num = 3,
-		fix_task = 0,
-		target_id = {
-			3,
-			6,
-			9,
-			12
-		},
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				150
-			},
-			{
-				2,
-				17033,
-				3
-			}
-		}
-	},
-	[1041] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1041,
-		type = 3,
-		name = "歼灭作战",
-		count_inherit = 0,
-		desc = "舰队出征，消灭敌方旗舰3次。",
-		target_id_2 = "",
-		sub_type = 21,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1041,
-		target_num = 3,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				600
-			},
-			{
-				1,
-				2,
-				100
-			},
-			{
-				2,
-				15003,
-				1
-			}
-		}
-	},
-	[1051] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1051,
-		type = 3,
-		name = "扫荡作战",
-		count_inherit = 0,
-		desc = "舰队出征，获得10次胜利。",
-		target_id_2 = "",
-		sub_type = 20,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1051,
-		target_num = 10,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				59900,
-				5
-			},
-			{
-				2,
-				15001,
-				1
-			},
-			{
-				2,
-				15003,
-				1
-			}
-		}
-	},
-	[1061] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 1061,
-		type = 3,
-		name = "每日挑战",
-		count_inherit = 0,
-		desc = "舰队出征，进行1次每日挑战。",
-		target_id_2 = "",
-		sub_type = 26,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 10,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1061,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				30
-			}
-		}
-	},
-	[1071] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 1071,
-		type = 3,
-		name = "例行演习",
-		count_inherit = 1072,
-		desc = "进行1次军事演习。",
-		target_id_2 = "",
-		sub_type = 27,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 15,
-		priority_type = 0,
-		next_task = "1072",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1071,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				3,
-				20
-			}
-		}
-	},
-	[1072] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1072,
-		type = 3,
-		name = "舰队演习",
-		count_inherit = 0,
-		desc = "获得3次军事演习胜利。",
-		target_id_2 = "",
-		sub_type = 27,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 15,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1,
-		id = 1072,
-		target_num = 3,
-		fix_task = 0,
-		target_id = "1",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				3,
-				80
-			}
-		}
-	},
-	[1081] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1081,
-		type = 3,
-		name = "目标：侦查舰队",
-		count_inherit = 0,
-		desc = "击败侦查舰队5次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1081,
-		target_num = 5,
-		fix_task = 0,
-		target_id = {
-			1,
-			2,
-			3
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				18001,
-				2
-			}
-		}
-	},
-	[1082] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1082,
-		type = 3,
-		name = "目标：侦查舰队",
-		count_inherit = 0,
-		desc = "击败侦查舰队5次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 20,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1082,
-		target_num = 5,
-		fix_task = 0,
-		target_id = {
-			1,
-			2,
-			3
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				18001,
-				2
-			}
-		}
-	},
-	[1083] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1083,
-		type = 3,
-		name = "目标：侦查舰队",
-		count_inherit = 0,
-		desc = "击败侦查舰队5次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 50,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1083,
-		target_num = 5,
-		fix_task = 0,
-		target_id = {
-			1,
-			2,
-			3
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				18001,
-				2
-			}
-		}
-	},
-	[1084] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1084,
-		type = 3,
-		name = "目标：主力舰队",
-		count_inherit = 0,
-		desc = "击败主力舰队5次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1084,
-		target_num = 5,
-		fix_task = 0,
-		target_id = {
-			4,
-			5,
-			6
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				18011,
-				2
-			}
-		}
-	},
-	[1085] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1085,
-		type = 3,
-		name = "目标：主力舰队",
-		count_inherit = 0,
-		desc = "击败主力舰队5次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 20,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1085,
-		target_num = 5,
-		fix_task = 0,
-		target_id = {
-			4,
-			5,
-			6
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				18011,
-				2
-			}
-		}
-	},
-	[1086] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1086,
-		type = 3,
-		name = "目标：主力舰队",
-		count_inherit = 0,
-		desc = "击败主力舰队5次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 50,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1086,
-		target_num = 5,
-		fix_task = 0,
-		target_id = {
-			4,
-			5,
-			6
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				18011,
-				2
-			}
-		}
-	},
-	[1087] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1087,
-		type = 3,
-		name = "目标：航空舰队",
-		count_inherit = 0,
-		desc = "击败航空舰队5次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1087,
-		target_num = 5,
-		fix_task = 0,
-		target_id = {
-			7,
-			8,
-			9
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				18031,
-				2
-			}
-		}
-	},
-	[1088] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1088,
-		type = 3,
-		name = "目标：航空舰队",
-		count_inherit = 0,
-		desc = "击败航空舰队5次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 20,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1088,
-		target_num = 5,
-		fix_task = 0,
-		target_id = {
-			7,
-			8,
-			9
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				18031,
-				2
-			}
-		}
-	},
-	[1089] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1089,
-		type = 3,
-		name = "目标：航空舰队",
-		count_inherit = 0,
-		desc = "击败航空舰队5次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 50,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1089,
-		target_num = 5,
-		fix_task = 0,
-		target_id = {
-			7,
-			8,
-			9
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				18031,
-				2
-			}
-		}
-	},
-	[1090] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1090,
-		type = 3,
-		name = "目标：主力舰队",
-		count_inherit = 0,
-		desc = "击败主力舰队5次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1090,
-		target_num = 5,
-		fix_task = 0,
-		target_id = {
-			4,
-			5,
-			6
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				18021,
-				2
-			}
-		}
-	},
-	[1091] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1091,
-		type = 3,
-		name = "目标：主力舰队",
-		count_inherit = 0,
-		desc = "击败主力舰队5次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 20,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1091,
-		target_num = 5,
-		fix_task = 0,
-		target_id = {
-			4,
-			5,
-			6
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				18021,
-				2
-			}
-		}
-	},
-	[1092] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 1092,
-		type = 3,
-		name = "目标：主力舰队",
-		count_inherit = 0,
-		desc = "击败主力舰队5次",
-		target_id_2 = "",
-		sub_type = 25,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 50,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1092,
-		target_num = 5,
-		fix_task = 0,
-		target_id = {
-			4,
-			5,
-			6
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				18021,
-				2
-			}
-		}
-	},
-	[1101] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 1101,
-		type = 3,
-		name = "收获石油",
-		count_inherit = 0,
-		desc = "在海军食堂领取石油",
-		target_id_2 = "",
-		sub_type = 81,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 2,
-		id = 1101,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "2",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				50
-			}
-		}
-	},
-	[1111] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 1111,
-		type = 3,
-		name = "收获物资",
-		count_inherit = 0,
-		desc = "在小卖部领取物资",
-		target_id_2 = "",
-		sub_type = 81,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1,
-		id = 1111,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "1",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				300
-			}
-		}
-	},
-	[1112] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 1112,
-		type = 3,
-		name = "军事委托",
-		count_inherit = 0,
-		desc = "执行军事委托3次。",
-		target_id_2 = "",
-		sub_type = 80,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 12,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1112,
-		target_num = 3,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				100
-			},
-			{
-				2,
-				15003,
-				1
-			},
-			{
-				2,
-				54011,
-				1
-			}
-		}
-	},
-	[1121] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 1121,
-		type = 3,
-		name = "扩充战力",
-		count_inherit = 0,
-		desc = "建造舰船1次。",
-		target_id_2 = "",
-		sub_type = 30,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1121,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				800
-			},
-			{
-				2,
-				20001,
-				1
-			},
-			{
-				2,
-				54001,
-				1
-			}
-		}
-	},
-	[1131] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 1131,
-		type = 3,
-		name = "舰船强化",
-		count_inherit = 0,
-		desc = "舰船强化1次。",
-		target_id_2 = "",
-		sub_type = 34,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1131,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				54031,
-				1
-			}
-		}
-	},
-	[1132] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 1132,
-		type = 3,
-		name = "战术训练",
-		count_inherit = 0,
-		desc = "进行战术训练1次。",
-		target_id_2 = "",
-		sub_type = 71,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1132,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				54001,
-				1
-			}
-		}
-	},
-	[1141] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 1141,
-		type = 3,
-		name = "舰船退役",
-		count_inherit = 0,
-		desc = "舰船退役1次。",
-		target_id_2 = "",
-		sub_type = 31,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1141,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				15001,
-				1
-			}
-		}
-	},
-	[1201] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 1201,
-		type = 3,
-		name = "后宅补给",
-		count_inherit = 0,
-		desc = "后宅补充食物1次。",
-		target_id_2 = "",
-		sub_type = 61,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 8,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 1201,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				6,
-				15
-			},
-			{
-				2,
-				50001,
-				20
-			}
-		}
-	},
-	[2001] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 2001,
-		type = 4,
-		name = "击退敌军舰队",
-		count_inherit = 0,
-		desc = "舰队出征，获得50次胜利。",
-		target_id_2 = "",
-		sub_type = 20,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "[2011,2012,2013,2014]",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 2001,
-		target_num = 50,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				1200
-			},
-			{
-				1,
-				2,
-				200
-			},
-			{
-				2,
-				20001,
-				2
-			}
-		}
-	},
-	[2011] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 2011,
-		type = 4,
-		name = "清除敌军舰队",
-		count_inherit = 0,
-		desc = "舰队出征，以A评价通关30次。",
-		target_id_2 = "",
-		sub_type = 23,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 2011,
-		target_num = 30,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				4,
-				100001,
-				1
-			},
-			{
-				2,
-				20001,
-				2
-			},
-			{
-				1,
-				1,
-				1200
-			},
-			{
-				1,
-				2,
-				200
-			}
-		}
-	},
-	[2012] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 2012,
-		type = 4,
-		name = "大规模扫荡作战",
-		count_inherit = 0,
-		desc = "击沉任意敌人1000艘",
-		target_id_2 = "",
-		sub_type = 11,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 2012,
-		target_num = 1000,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				4,
-				100001,
-				1
-			},
-			{
-				2,
-				20001,
-				2
-			},
-			{
-				1,
-				1,
-				3000
-			},
-			{
-				1,
-				2,
-				500
-			}
-		}
-	},
-	[2013] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 2013,
-		type = 4,
-		name = "大规模歼灭作战",
-		count_inherit = 0,
-		desc = "舰队出征，消灭敌方旗舰20次。",
-		target_id_2 = "",
-		sub_type = 21,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 2013,
-		target_num = 20,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				4,
-				100001,
-				1
-			},
-			{
-				1,
-				1,
-				1200
-			},
-			{
-				1,
-				2,
-				200
-			},
-			{
-				2,
-				15003,
-				3
-			}
-		}
-	},
-	[2014] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 2014,
-		type = 4,
-		name = "击退敌军舰队",
-		count_inherit = 0,
-		desc = "舰队出征，获得100次胜利。",
-		target_id_2 = "",
-		sub_type = 20,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 2014,
-		target_num = 100,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				54051,
-				1
-			},
-			{
-				1,
-				1,
-				2500
-			},
-			{
-				1,
-				2,
-				500
-			},
-			{
-				2,
-				15003,
-				2
-			}
-		}
-	},
-	[2021] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 2021,
-		type = 4,
-		name = "每周挑战",
-		count_inherit = 0,
-		desc = "完成5个「每日挑战」日常任务",
-		target_id_2 = "",
-		sub_type = 91,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 10,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1061,
-		id = 2021,
-		target_num = 5,
-		fix_task = 0,
-		target_id = "1061",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				150
-			}
-		}
-	},
-	[2031] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 2031,
-		type = 4,
-		name = "联合演习",
-		count_inherit = 0,
-		desc = "获得30次军事演习胜利。",
-		target_id_2 = "",
-		sub_type = 27,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 15,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1,
-		id = 2031,
-		target_num = 30,
-		fix_task = 0,
-		target_id = "1",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				3,
-				300
-			}
-		}
-	},
-	[2101] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 2101,
-		type = 4,
-		name = "油田收获",
-		count_inherit = 0,
-		desc = "完成5个「收获石油」日常任务",
-		target_id_2 = "",
-		sub_type = 91,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1101,
-		id = 2101,
-		target_num = 5,
-		fix_task = 0,
-		target_id = "1101",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				200
-			}
-		}
-	},
-	[2111] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 2111,
-		type = 4,
-		name = "贸易港收获",
-		count_inherit = 0,
-		desc = "完成5个「收获物资」日常任务",
-		target_id_2 = "",
-		sub_type = 91,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1111,
-		id = 2111,
-		target_num = 5,
-		fix_task = 0,
-		target_id = "1111",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				1200
-			}
-		}
-	},
-	[2112] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 2112,
-		type = 4,
-		name = "大规模军事委托",
-		count_inherit = 0,
-		desc = "执行军事委托30次。",
-		target_id_2 = "",
-		sub_type = 80,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 12,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 2112,
-		target_num = 30,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				15003,
-				5
-			},
-			{
-				2,
-				54012,
-				5
-			},
-			{
-				2,
-				54013,
-				1
-			},
-			{
-				1,
-				2,
-				300
-			}
-		}
-	},
-	[2121] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 2121,
-		type = 4,
-		name = "扩充战力",
-		count_inherit = 0,
-		desc = "建造舰船10次。",
-		target_id_2 = "",
-		sub_type = 30,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 2121,
-		target_num = 10,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				2000
-			},
-			{
-				2,
-				20001,
-				6
-			}
-		}
-	},
-	[2131] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 2131,
-		type = 4,
-		name = "舰船强化",
-		count_inherit = 0,
-		desc = "舰船强化10次。",
-		target_id_2 = "",
-		sub_type = 34,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 2131,
-		target_num = 10,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				54033,
-				1
-			}
-		}
-	},
-	[2132] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 2132,
-		type = 4,
-		name = "战术训练",
-		count_inherit = 0,
-		desc = "进行战术训练10次。",
-		target_id_2 = "",
-		sub_type = 71,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 2132,
-		target_num = 10,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				54003,
-				1
-			}
-		}
-	},
-	[2141] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 2141,
-		type = 4,
-		name = "舰船退役",
-		count_inherit = 0,
-		desc = "舰船退役5次。",
-		target_id_2 = "",
-		sub_type = 31,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 2141,
-		target_num = 5,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				500
-			},
-			{
-				2,
-				15001,
-				5
-			}
-		}
-	},
-	[2201] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 2201,
-		type = 4,
-		name = "定期补给",
-		count_inherit = 0,
-		desc = "完成5个「后宅补给」日常任务",
-		target_id_2 = "",
-		sub_type = 91,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 8,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1201,
-		id = 2201,
-		target_num = 5,
-		fix_task = 0,
-		target_id = "1201",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				6,
-				60
-			},
-			{
-				2,
-				50003,
-				20
-			}
-		}
-	},
-	[2301] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 2301,
-		type = 4,
-		name = "每周任务",
-		count_inherit = 0,
-		desc = "完成10个周常任务",
-		target_id_2 = "",
-		sub_type = 92,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 2301,
-		target_num = 10,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				4,
-				100011,
-				1
-			},
-			{
-				2,
-				59900,
-				15
-			},
-			{
-				1,
-				2,
-				500
 			}
 		}
 	},
@@ -26668,6 +24467,896 @@ pg.task_data_template = {
 				1,
 				1,
 				500
+			}
+		}
+	},
+	[7201] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7201,
+		type = 3,
+		name = "击退敌军舰队",
+		count_inherit = 0,
+		desc = "舰队出征，获得3次战斗胜利。",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7201,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				180
+			},
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				2,
+				15001,
+				2
+			}
+		}
+	},
+	[7202] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7202,
+		type = 3,
+		name = "扩充战力",
+		count_inherit = 0,
+		desc = "建造舰船1次。",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7202,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				800
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				15003,
+				3
+			}
+		}
+	},
+	[7203] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7203,
+		type = 3,
+		name = "后宅补给",
+		count_inherit = 0,
+		desc = "后宅补充食物1次。",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 8,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7203,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				400
+			},
+			{
+				1,
+				6,
+				15
+			},
+			{
+				2,
+				50002,
+				10
+			}
+		}
+	},
+	[7204] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7204,
+		type = 3,
+		name = "每日挑战",
+		count_inherit = 0,
+		desc = "舰队出征，进行1次每日挑战。",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7204,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				20011,
+				1
+			},
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	},
+	[7205] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7205,
+		type = 3,
+		name = "每日困难",
+		count_inherit = 0,
+		desc = "舰队出征，通关主线困难海域1次。",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7205,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				180
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				59900,
+				5
+			}
+		}
+	},
+	[7206] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7206,
+		type = 3,
+		name = "大舰队捐赠",
+		count_inherit = 0,
+		desc = "提交大舰队筹备1次",
+		target_id_2 = "",
+		sub_type = 402,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 11,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7206,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				8,
+				50
+			}
+		}
+	},
+	[7207] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7207,
+		type = 3,
+		name = "军事委托",
+		count_inherit = 0,
+		desc = "执行军事委托1次。",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 12,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7207,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				80
+			},
+			{
+				2,
+				54032,
+				1
+			},
+			{
+				2,
+				54001,
+				2
+			}
+		}
+	},
+	[7208] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7208,
+		type = 3,
+		name = "舰队演习",
+		count_inherit = 0,
+		desc = "参与1次军事演习。",
+		target_id_2 = "",
+		sub_type = 27,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 15,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 7208,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				80
+			},
+			{
+				1,
+				3,
+				100
+			},
+			{
+				2,
+				54012,
+				5
+			}
+		}
+	},
+	[7209] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7209,
+		type = 3,
+		name = "完成科研委托",
+		count_inherit = 0,
+		desc = "进行1次科研",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7209,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				400
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[7210] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7210,
+		type = 3,
+		name = "大世界战斗一次",
+		count_inherit = 0,
+		desc = "舰队出征，大型作战中任意海域战斗1次。",
+		target_id_2 = "",
+		sub_type = 304,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 60,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7210,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				12,
+				100,
+				300
+			},
+			{
+				2,
+				150000,
+				1
+			}
+		}
+	},
+	[7301] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7300,
+		type = 13,
+		name = "军事委托-奖励任务",
+		count_inherit = 0,
+		desc = "执行军事委托1次。",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 12,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7301,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				54018,
+				2
+			}
+		}
+	},
+	[7302] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7300,
+		type = 13,
+		name = "指挥喵训练-奖励任务",
+		count_inherit = 0,
+		desc = "训练1个猫箱",
+		target_id_2 = "",
+		sub_type = 170,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 40,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7302,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				54018,
+				2
+			}
+		}
+	},
+	[7303] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7300,
+		type = 13,
+		name = "后宅补给-奖励任务",
+		count_inherit = 0,
+		desc = "后宅补充食物1次。",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 8,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7303,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				54018,
+				2
+			}
+		}
+	},
+	[7304] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7300,
+		type = 13,
+		name = "战术训练-奖励任务",
+		count_inherit = 0,
+		desc = "进行战术训练1次。",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7304,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				54018,
+				2
+			}
+		}
+	},
+	[7305] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7300,
+		type = 13,
+		name = "大世界战斗一次-奖励任务",
+		count_inherit = 0,
+		desc = "舰队出征，大型作战中任意海域战斗1次。",
+		target_id_2 = "",
+		sub_type = 304,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 60,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7305,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				54018,
+				2
+			}
+		}
+	},
+	[7306] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7300,
+		type = 13,
+		name = "舰船强化-奖励任务",
+		count_inherit = 0,
+		desc = "舰船强化1次。",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7306,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				54018,
+				2
+			}
+		}
+	},
+	[7307] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7300,
+		type = 13,
+		name = "强化装备-奖励任务",
+		count_inherit = 0,
+		desc = "进行1次装备强化",
+		target_id_2 = "",
+		sub_type = 40,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7307,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				54018,
+				2
+			}
+		}
+	},
+	[7308] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7300,
+		type = 13,
+		name = "完成科研委托-奖励任务",
+		count_inherit = 0,
+		desc = "进行1次科研",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7308,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				54018,
+				2
+			}
+		}
+	},
+	[7309] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7300,
+		type = 13,
+		name = "后宅互动",
+		count_inherit = 0,
+		desc = "与后宅的舰船互动1次",
+		target_id_2 = "",
+		sub_type = 2010,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 8,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7309,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				54018,
+				2
+			}
+		}
+	},
+	[7310] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7300,
+		type = 13,
+		name = "主界面互动",
+		count_inherit = 0,
+		desc = "与秘书舰互动1次",
+		target_id_2 = "",
+		sub_type = 2011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7310,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				54018,
+				2
 			}
 		}
 	},
@@ -131074,6 +129763,897 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[35000] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65000,
+		type = 26,
+		name = "【常驻活动】季夏(?)攻势1",
+		count_inherit = 0,
+		desc = "建造5次 ",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35000,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1013,
+				1
+			}
+		}
+	},
+	[35001] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65000,
+		type = 26,
+		name = "【常驻活动】季夏(?)攻势2",
+		count_inherit = 0,
+		desc = "完成3次每日挑战 ",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35001,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1013,
+				1
+			}
+		}
+	},
+	[35002] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65000,
+		type = 26,
+		name = "【常驻活动】季夏(?)攻势3",
+		count_inherit = 0,
+		desc = "舰队出征，以S评价通关10次。",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35002,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1013,
+				1
+			}
+		}
+	},
+	[35003] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65000,
+		type = 26,
+		name = "【常驻活动】季夏(?)攻势4",
+		count_inherit = 0,
+		desc = "强化装备5次",
+		target_id_2 = "",
+		sub_type = 40,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35003,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1013,
+				1
+			}
+		}
+	},
+	[35004] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65000,
+		type = 26,
+		name = "【常驻活动】季夏(?)攻势5",
+		count_inherit = 0,
+		desc = "进行4次战术训练",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35004,
+		target_num = 4,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1013,
+				1
+			}
+		}
+	},
+	[35005] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65000,
+		type = 26,
+		name = "【常驻活动】季夏(?)攻势6",
+		count_inherit = 0,
+		desc = "进行5次委托 ",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35005,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1013,
+				1
+			}
+		}
+	},
+	[35006] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65001,
+		type = 26,
+		name = "【常驻活动】季夏(?)攻势7",
+		count_inherit = 0,
+		desc = "收集6个任务道具 ",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1013,
+		id = 35006,
+		target_num = 6,
+		fix_task = 0,
+		target_id = "1013",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				305021,
+				1
+			}
+		}
+	},
+	[35007] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65003,
+		type = 26,
+		name = "【常驻活动】克雷文啦啦队1",
+		count_inherit = 0,
+		desc = "舰队出征，以S评价通关10次",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35007,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				5
+			}
+		}
+	},
+	[35008] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65004,
+		type = 26,
+		name = "【常驻活动】克雷文啦啦队2",
+		count_inherit = 0,
+		desc = "进行2次装备强化",
+		target_id_2 = "",
+		sub_type = 40,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35008,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[35009] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65005,
+		type = 26,
+		name = "【常驻活动】克雷文啦啦队3",
+		count_inherit = 0,
+		desc = "进行2次委托 ",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35009,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[35010] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65011,
+		type = 26,
+		name = "【常驻活动】克雷文啦啦队4",
+		count_inherit = 0,
+		desc = "进行2次演习",
+		target_id_2 = "",
+		sub_type = 27,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35010,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				100
+			}
+		}
+	},
+	[35011] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65006,
+		type = 26,
+		name = "【常驻活动】克雷文啦啦队5",
+		count_inherit = 0,
+		desc = "退役2艘舰船",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35011,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[35012] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65012,
+		type = 26,
+		name = "【常驻活动】克雷文啦啦队6",
+		count_inherit = 0,
+		desc = "完成3次每日挑战 ",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35012,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54012,
+				5
+			}
+		}
+	},
+	[35013] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65004,
+		type = 26,
+		name = "【常驻活动】克雷文啦啦队7",
+		count_inherit = 0,
+		desc = "进行战术训练2次",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35013,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[35014] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65013,
+		type = 26,
+		name = "【常驻活动】克雷文啦啦队8",
+		count_inherit = 0,
+		desc = "舰船强化5次",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35014,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54021,
+				5
+			}
+		}
+	},
+	[35015] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65007,
+		type = 26,
+		name = "【常驻活动】克雷文啦啦队9",
+		count_inherit = 0,
+		desc = "击沉任意敌人20艘",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35015,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[35016] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65014,
+		type = 26,
+		name = "【常驻活动】克雷文啦啦队10",
+		count_inherit = 0,
+		desc = "后宅补充食物5次",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35016,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50003,
+				5
+			}
+		}
+	},
+	[35017] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65004,
+		type = 26,
+		name = "【常驻活动】克雷文啦啦队11",
+		count_inherit = 0,
+		desc = "舰队出征，通过任意困难关卡2次",
+		target_id_2 = "",
+		sub_type = 182,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35017,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "10101",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[35018] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65015,
+		type = 26,
+		name = "【常驻活动】克雷文啦啦队12",
+		count_inherit = 0,
+		desc = "打开任意科技箱1个",
+		target_id_2 = "",
+		sub_type = 50,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35018,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54001,
+				5
+			}
+		}
+	},
+	[35019] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65008,
+		type = 26,
+		name = "【常驻活动】克雷文啦啦队13",
+		count_inherit = 0,
+		desc = "舰队出征，消灭敌方旗舰3次",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35019,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[35020] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65016,
+		type = 26,
+		name = "【常驻活动】克雷文啦啦队14",
+		count_inherit = 0,
+		desc = "进行战术训练2次",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35020,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			}
+		}
+	},
+	[35021] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65004,
+		type = 26,
+		name = "【常驻活动】克雷文啦啦队15",
+		count_inherit = 0,
+		desc = "舰队出征，以S评价通关10次",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35021,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[35022] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65017,
+		type = 26,
+		name = "【常驻活动】克雷文啦啦队16",
+		count_inherit = 0,
+		desc = "分解5件装备",
+		target_id_2 = "",
+		sub_type = 41,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35022,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15003,
+				3
+			}
+		}
+	},
+	[35023] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65009,
+		type = 26,
+		name = "【常驻活动】克雷文啦啦队17",
+		count_inherit = 0,
+		desc = "进行2次建造",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35023,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[35024] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65018,
+		type = 26,
+		name = "【常驻活动】克雷文啦啦队18",
+		count_inherit = 0,
+		desc = "退役2艘舰船",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35024,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			}
+		}
+	},
+	[35025] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65010,
+		type = 26,
+		name = "【常驻活动】克雷文啦啦队19",
+		count_inherit = 0,
+		desc = "进行2次装备强化",
+		target_id_2 = "",
+		sub_type = 40,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35025,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[35026] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 65002,
+		type = 26,
+		name = "【常驻活动】克雷文啦啦队20",
+		count_inherit = 0,
+		desc = "进行2次委托 ",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 35026,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				101061,
+				1
+			}
+		}
+	},
 	[50001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -140290,62 +139870,6 @@ pg.task_data_template = {
 		53,
 		54,
 		55,
-		1001,
-		1011,
-		1012,
-		1021,
-		1022,
-		1023,
-		1024,
-		1025,
-		1026,
-		1027,
-		1028,
-		1029,
-		1030,
-		1031,
-		1032,
-		1041,
-		1051,
-		1061,
-		1071,
-		1072,
-		1081,
-		1082,
-		1083,
-		1084,
-		1085,
-		1086,
-		1087,
-		1088,
-		1089,
-		1090,
-		1091,
-		1092,
-		1101,
-		1111,
-		1112,
-		1121,
-		1131,
-		1132,
-		1141,
-		1201,
-		2001,
-		2011,
-		2012,
-		2013,
-		2014,
-		2021,
-		2031,
-		2101,
-		2111,
-		2112,
-		2121,
-		2131,
-		2132,
-		2141,
-		2201,
-		2301,
 		3000,
 		3001,
 		3002,
@@ -140933,6 +140457,26 @@ pg.task_data_template = {
 		7121,
 		7122,
 		7123,
+		7201,
+		7202,
+		7203,
+		7204,
+		7205,
+		7206,
+		7207,
+		7208,
+		7209,
+		7210,
+		7301,
+		7302,
+		7303,
+		7304,
+		7305,
+		7306,
+		7307,
+		7308,
+		7309,
+		7310,
 		10000,
 		10001,
 		10002,
@@ -143836,6 +143380,33 @@ pg.task_data_template = {
 		31024,
 		31025,
 		31026,
+		35000,
+		35001,
+		35002,
+		35003,
+		35004,
+		35005,
+		35006,
+		35007,
+		35008,
+		35009,
+		35010,
+		35011,
+		35012,
+		35013,
+		35014,
+		35015,
+		35016,
+		35017,
+		35018,
+		35019,
+		35020,
+		35021,
+		35022,
+		35023,
+		35024,
+		35025,
+		35026,
 		50001,
 		50002,
 		50003,

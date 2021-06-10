@@ -1,5 +1,92 @@
 pg = pg or {}
 pg.enemy_data_statistics_156 = {
+	[10094006] = {
+		cannon = 15,
+		antisub = 0,
+		air = 0,
+		cannon_growth = 800,
+		armor = 0,
+		reload = 150,
+		base = 253,
+		dodge = 19,
+		torpedo_growth = 4800,
+		air_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 270,
+		speed_growth = 0,
+		star = 4,
+		hit = 25,
+		antisub_growth = 0,
+		rarity = 4,
+		luck_growth = 0,
+		torpedo = 65,
+		durability = 1200,
+		armor_growth = 0,
+		durability_growth = 34500,
+		antiaircraft = 30,
+		speed = 28,
+		luck = 0,
+		hit_growth = 210,
+		battle_unit_type = 60,
+		id = 10094006,
+		antiaircraft_growth = 1760,
+		bound_bone = {
+			cannon = {
+				{
+					0.6,
+					0.6,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.38,
+					0.6,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.472,
+							0.233,
+							0.467
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.42,
+							1.7,
+							2.07
+						}
+					}
+				}
+			}
+		},
+		equipment_list = {
+			550011,
+			550012,
+			550013
+		}
+	},
 	[10094007] = {
 		cannon = 22,
 		antisub = 0,
@@ -869,93 +956,6 @@ pg.enemy_data_statistics_156 = {
 			551022,
 			551023,
 			551024
-		}
-	},
-	[10095008] = {
-		cannon = 175,
-		antisub = 0,
-		air = 0,
-		cannon_growth = 2000,
-		armor = 0,
-		reload = 150,
-		base = 255,
-		dodge = 15,
-		torpedo_growth = 2400,
-		air_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 214,
-		speed_growth = 0,
-		star = 4,
-		hit = 19,
-		antisub_growth = 0,
-		rarity = 4,
-		luck_growth = 0,
-		torpedo = 60,
-		durability = 22200,
-		armor_growth = 0,
-		durability_growth = 84000,
-		antiaircraft = 220,
-		speed = 18,
-		luck = 30,
-		hit_growth = 210,
-		battle_unit_type = 60,
-		id = 10095008,
-		antiaircraft_growth = 2800,
-		bound_bone = {
-			cannon = {
-				{
-					0.6,
-					0.6,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.38,
-					0.6,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.472,
-							0.233,
-							0.467
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0.42,
-							1.7,
-							2.07
-						}
-					}
-				}
-			}
-		},
-		equipment_list = {
-			551031,
-			551032,
-			551033
 		}
 	}
 }

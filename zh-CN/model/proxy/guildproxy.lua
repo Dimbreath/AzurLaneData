@@ -20,6 +20,7 @@ slot0.ON_DELETED_MEMBER = "GuildProxy:ON_DELETED_MEMBER"
 slot0.ON_ADDED_MEMBER = "GuildProxy:ON_ADDED_MEMBER"
 slot0.BATTLE_BTN_FLAG_CHANGE = "GuildProxy:BATTLE_BTN_FLAG_CHANGE"
 slot0.ON_EXIST_DELETED_MEMBER = "GuildProxy:ON_EXIST_DELETED_MEMBER"
+slot0.ON_DONATE_LIST_UPDATED = "GuildProxy:ON_DONATE_LIST_UPDATED"
 
 function slot0.register(slot0)
 	slot0:Init()
@@ -177,6 +178,21 @@ function slot0.register(slot0)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_donate_techpoint_toplimit"))
 		end
 	end)
+	slot0:on(62032, function (slot0)
+		slot1 = {}
+
+		for slot5, slot6 in ipairs(slot0.donate_tasks) do
+			table.insert(slot1, GuildDonateTask.New({
+				id = slot6
+			}))
+		end
+
+		slot2 = uv0:getData()
+
+		slot2:updateDonateTasks(slot1)
+		uv0:updateGuild(slot2)
+		uv0:sendNotification(uv1.ON_DONATE_LIST_UPDATED)
+	end)
 	slot0:on(61021, function (slot0)
 		uv0.refreshActivationEventTime = 0
 
@@ -184,8 +200,14 @@ function slot0.register(slot0)
 			uv0:sendNotification(uv1.GUILD_BATTLE_STARTED)
 		end
 	end)
-	slot0:on(61022, function (slot0)
-	end)
+end
+
+function slot0.AddPublicGuild(slot0, slot1)
+	slot0.publicGuild = slot1
+end
+
+function slot0.GetPublicGuild(slot0)
+	return slot0.publicGuild
 end
 
 function slot0.Init(slot0)
@@ -198,7 +220,6 @@ function slot0.Init(slot0)
 	slot0.refreshBossTime = 0
 	slot0.bossRankUpdateTime = 0
 	slot0.isFetchAssaultFleet = false
-	slot0.shouldRefreshDonateList = false
 	slot0.battleRanks = {}
 	slot0.ranks = {}
 	slot0.requests = nil
@@ -210,7 +231,6 @@ function slot0.Init(slot0)
 		0,
 		0
 	}
-	slot0.refreshDonateListFailed = false
 end
 
 function slot0.AddNewMsg(slot0, slot1)
@@ -681,6 +701,14 @@ end
 
 function slot0.UpdateBossRankRefreshTime(slot0, slot1)
 	slot0.rankUpdateTime = slot1
+end
+
+function slot0.GetAdditionGuild(slot0)
+	if slot0.data == nil then
+		return slot0.publicGuild
+	else
+		return slot0.data
+	end
 end
 
 return slot0

@@ -2,6 +2,139 @@ pg = pg or {}
 pg.weapon_property_177 = {}
 
 function ()
+	uv0.weapon_property_177[69876] = {
+		id = 69876,
+		name = "纪伊主炮弹幕PVE-LV6",
+		damage = 88,
+		base = 69871
+	}
+	uv0.weapon_property_177[69877] = {
+		name = "纪伊主炮弹幕PVE-LV7",
+		damage = 96,
+		base = 69871,
+		id = 69877,
+		barrage_ID = {
+			80941,
+			80942,
+			80943
+		}
+	}
+	uv0.weapon_property_177[69878] = {
+		name = "纪伊主炮弹幕PVE-LV8",
+		damage = 104,
+		base = 69871,
+		id = 69878,
+		barrage_ID = {
+			80941,
+			80942,
+			80943
+		}
+	}
+	uv0.weapon_property_177[69879] = {
+		name = "纪伊主炮弹幕PVE-LV9",
+		damage = 112,
+		base = 69871,
+		id = 69879,
+		barrage_ID = {
+			80941,
+			80942,
+			80943
+		}
+	}
+	uv0.weapon_property_177[69880] = {
+		name = "纪伊主炮弹幕PVE-LV10",
+		damage = 121,
+		base = 69871,
+		id = 69880,
+		barrage_ID = {
+			80941,
+			80942,
+			80943
+		}
+	}
+	uv0.weapon_property_177[69881] = {
+		action_index = "attack",
+		range = 120,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "纪伊主炮弹幕PVP-LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 48,
+		corrected = 100,
+		min_range = 25,
+		id = 69881,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19180,
+			19180,
+			19180
+		},
+		barrage_ID = {
+			80940,
+			80944,
+			80945
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_177[69882] = {
+		id = 69882,
+		name = "纪伊主炮弹幕PVP-LV2",
+		damage = 56,
+		base = 69881
+	}
+	uv0.weapon_property_177[69883] = {
+		id = 69883,
+		name = "纪伊主炮弹幕PVP-LV3",
+		damage = 64,
+		base = 69881
+	}
+	uv0.weapon_property_177[69884] = {
+		id = 69884,
+		name = "纪伊主炮弹幕PVP-LV4",
+		damage = 72,
+		base = 69881
+	}
+	uv0.weapon_property_177[69885] = {
+		id = 69885,
+		name = "纪伊主炮弹幕PVP-LV5",
+		damage = 80,
+		base = 69881
+	}
+	uv0.weapon_property_177[69886] = {
+		id = 69886,
+		name = "纪伊主炮弹幕PVP-LV6",
+		damage = 88,
+		base = 69881
+	}
 	uv0.weapon_property_177[69887] = {
 		name = "纪伊主炮弹幕PVP-LV7",
 		damage = 96,
@@ -584,134 +717,6 @@ function ()
 		},
 		barrage_ID = {
 			12009
-		}
-	}
-	uv0.weapon_property_177[69938] = {
-		name = "信浓试飞搭载流星 Lv8",
-		damage = 202,
-		base = 69931,
-		id = 69938,
-		bullet_ID = {
-			69938
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_177[69939] = {
-		name = "信浓试飞搭载流星 Lv9",
-		damage = 220,
-		base = 69931,
-		id = 69939,
-		bullet_ID = {
-			69939
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_177[69940] = {
-		name = "信浓试飞搭载流星 Lv10",
-		damage = 240,
-		base = 69931,
-		id = 69940,
-		bullet_ID = {
-			69940
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_177[69941] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "凉月烟雾弹技能鱼雷 LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 20,
-		corrected = 100,
-		min_range = 0,
-		id = 69941,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19192
-		},
-		barrage_ID = {
-			80952
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_177[69942] = {
-		id = 69942,
-		name = "凉月烟雾弹技能鱼雷 LV2",
-		damage = 22,
-		base = 69941
-	}
-	uv0.weapon_property_177[69943] = {
-		id = 69943,
-		name = "凉月烟雾弹技能鱼雷 LV3",
-		damage = 25,
-		base = 69941
-	}
-	uv0.weapon_property_177[69944] = {
-		id = 69944,
-		name = "凉月烟雾弹技能鱼雷 LV4",
-		damage = 28,
-		base = 69941
-	}
-	uv0.weapon_property_177[69945] = {
-		id = 69945,
-		name = "凉月烟雾弹技能鱼雷 LV5",
-		damage = 30,
-		base = 69941
-	}
-	uv0.weapon_property_177[69946] = {
-		id = 69946,
-		name = "凉月烟雾弹技能鱼雷 LV6",
-		damage = 32,
-		base = 69941
-	}
-	uv0.weapon_property_177[69947] = {
-		name = "凉月烟雾弹技能鱼雷 LV7",
-		damage = 35,
-		base = 69941,
-		id = 69947,
-		barrage_ID = {
-			80953
-		}
-	}
-	uv0.weapon_property_177[69948] = {
-		name = "凉月烟雾弹技能鱼雷 LV8",
-		damage = 38,
-		base = 69941,
-		id = 69948,
-		barrage_ID = {
-			80953
 		}
 	}
 end()

@@ -2,6 +2,110 @@ pg = pg or {}
 pg.weapon_property_137 = {}
 
 function ()
+	uv0.weapon_property_137[67084] = {
+		id = 67084,
+		name = "Z23技能鱼雷LV4",
+		damage = 85,
+		base = 67080
+	}
+	uv0.weapon_property_137[67085] = {
+		id = 67085,
+		name = "Z23技能鱼雷LV5",
+		damage = 95,
+		base = 67080
+	}
+	uv0.weapon_property_137[67086] = {
+		id = 67086,
+		name = "Z23技能鱼雷LV6",
+		damage = 105,
+		base = 67080
+	}
+	uv0.weapon_property_137[67087] = {
+		id = 67087,
+		name = "Z23技能鱼雷LV7",
+		damage = 115,
+		base = 67080
+	}
+	uv0.weapon_property_137[67088] = {
+		id = 67088,
+		name = "Z23技能鱼雷LV8",
+		damage = 125,
+		base = 67080
+	}
+	uv0.weapon_property_137[67089] = {
+		id = 67089,
+		name = "Z23技能鱼雷LV9",
+		damage = 135,
+		base = 67080
+	}
+	uv0.weapon_property_137[67090] = {
+		id = 67090,
+		name = "Z23技能鱼雷LV10",
+		damage = 145,
+		base = 67080
+	}
+	uv0.weapon_property_137[67100] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "zhupao",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "敦刻尔克技能LV0",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 40,
+		corrected = 100,
+		min_range = 0,
+		id = 67100,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19941
+		},
+		barrage_ID = {
+			80451
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_137[67101] = {
+		id = 67101,
+		name = "敦刻尔克技能LV1",
+		damage = 50,
+		base = 67100
+	}
+	uv0.weapon_property_137[67102] = {
+		id = 67102,
+		name = "敦刻尔克技能LV2",
+		damage = 60,
+		base = 67100
+	}
+	uv0.weapon_property_137[67103] = {
+		id = 67103,
+		name = "敦刻尔克技能LV3",
+		damage = 70,
+		base = 67100
+	}
 	uv0.weapon_property_137[67104] = {
 		id = 67104,
 		name = "敦刻尔克技能LV4",
@@ -577,131 +681,6 @@ function ()
 		id = 67190,
 		barrage_ID = {
 			80484
-		}
-	}
-	uv0.weapon_property_137[67200] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "半人马技能鱼雷Lv0",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 24,
-		charge_param = "",
-		damage = 63,
-		corrected = 100,
-		min_range = 0,
-		id = 67200,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2114
-		},
-		barrage_ID = {
-			80481
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_137[67201] = {
-		id = 67201,
-		name = "半人马技能鱼雷Lv1",
-		damage = 76,
-		base = 67200
-	}
-	uv0.weapon_property_137[67202] = {
-		id = 67202,
-		name = "半人马技能鱼雷Lv2",
-		damage = 90,
-		base = 67200
-	}
-	uv0.weapon_property_137[67203] = {
-		id = 67203,
-		name = "半人马技能鱼雷Lv3",
-		damage = 104,
-		base = 67200
-	}
-	uv0.weapon_property_137[67204] = {
-		name = "半人马技能鱼雷Lv4",
-		damage = 118,
-		base = 67200,
-		id = 67204,
-		barrage_ID = {
-			80483
-		}
-	}
-	uv0.weapon_property_137[67205] = {
-		name = "半人马技能鱼雷Lv5",
-		damage = 132,
-		base = 67200,
-		id = 67205,
-		barrage_ID = {
-			80483
-		}
-	}
-	uv0.weapon_property_137[67206] = {
-		name = "半人马技能鱼雷Lv6",
-		damage = 146,
-		base = 67200,
-		id = 67206,
-		barrage_ID = {
-			80483
-		}
-	}
-	uv0.weapon_property_137[67207] = {
-		name = "半人马技能鱼雷Lv7",
-		damage = 160,
-		base = 67200,
-		id = 67207,
-		barrage_ID = {
-			80485
-		}
-	}
-	uv0.weapon_property_137[67208] = {
-		name = "半人马技能鱼雷Lv8",
-		damage = 174,
-		base = 67200,
-		id = 67208,
-		barrage_ID = {
-			80485
-		}
-	}
-	uv0.weapon_property_137[67209] = {
-		name = "半人马技能鱼雷Lv9",
-		damage = 188,
-		base = 67200,
-		id = 67209,
-		barrage_ID = {
-			80485
-		}
-	}
-	uv0.weapon_property_137[67210] = {
-		name = "半人马技能鱼雷Lv10",
-		damage = 202,
-		base = 67200,
-		id = 67210,
-		barrage_ID = {
-			80485
 		}
 	}
 end()

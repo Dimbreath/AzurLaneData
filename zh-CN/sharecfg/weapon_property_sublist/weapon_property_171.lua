@@ -2,6 +2,112 @@ pg = pg or {}
 pg.weapon_property_171 = {}
 
 function ()
+	uv0.weapon_property_171[69494] = {
+		id = 69494,
+		damage = 124,
+		base = 69491
+	}
+	uv0.weapon_property_171[69495] = {
+		id = 69495,
+		damage = 144,
+		base = 69491
+	}
+	uv0.weapon_property_171[69496] = {
+		id = 69496,
+		damage = 164,
+		base = 69491
+	}
+	uv0.weapon_property_171[69497] = {
+		id = 69497,
+		damage = 182,
+		base = 69491
+	}
+	uv0.weapon_property_171[69498] = {
+		id = 69498,
+		damage = 202,
+		base = 69491
+	}
+	uv0.weapon_property_171[69499] = {
+		id = 69499,
+		damage = 220,
+		base = 69491
+	}
+	uv0.weapon_property_171[69500] = {
+		id = 69500,
+		damage = 240,
+		base = 69491
+	}
+	uv0.weapon_property_171[69501] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "小光辉技能圣光飞机Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 90,
+		charge_param = "",
+		damage = 51,
+		corrected = 100,
+		min_range = 0,
+		id = 69501,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 2490,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			69501
+		},
+		barrage_ID = {
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_171[69502] = {
+		name = "小光辉技能圣光飞机Lv2",
+		damage = 52,
+		base = 69501,
+		id = 69502,
+		bullet_ID = {
+			69502
+		}
+	}
+	uv0.weapon_property_171[69503] = {
+		name = "小光辉技能圣光飞机Lv3",
+		damage = 54,
+		base = 69501,
+		id = 69503,
+		bullet_ID = {
+			69503
+		}
+	}
+	uv0.weapon_property_171[69504] = {
+		name = "小光辉技能圣光飞机Lv4",
+		damage = 57,
+		base = 69501,
+		id = 69504,
+		bullet_ID = {
+			69504
+		}
+	}
 	uv0.weapon_property_171[69505] = {
 		name = "小光辉技能圣光飞机Lv5",
 		damage = 61,
@@ -579,111 +685,5 @@ function ()
 		name = "香槟伴随射击平射小子弹LV5",
 		damage = 26,
 		base = 69551
-	}
-	uv0.weapon_property_171[69556] = {
-		id = 69556,
-		name = "香槟伴随射击平射小子弹LV6",
-		damage = 28,
-		base = 69551
-	}
-	uv0.weapon_property_171[69557] = {
-		id = 69557,
-		name = "香槟伴随射击平射小子弹LV7",
-		damage = 30,
-		base = 69551
-	}
-	uv0.weapon_property_171[69558] = {
-		id = 69558,
-		name = "香槟伴随射击平射小子弹LV8",
-		damage = 32,
-		base = 69551
-	}
-	uv0.weapon_property_171[69559] = {
-		id = 69559,
-		name = "香槟伴随射击平射小子弹LV9",
-		damage = 34,
-		base = 69551
-	}
-	uv0.weapon_property_171[69560] = {
-		id = 69560,
-		name = "香槟伴随射击平射小子弹LV10",
-		damage = 36,
-		base = 69551
-	}
-	uv0.weapon_property_171[69561] = {
-		action_index = "attack",
-		range = 50,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "奥丁平射小子弹LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 38,
-		corrected = 100,
-		min_range = 0,
-		id = 69561,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19151,
-			19151
-		},
-		barrage_ID = {
-			80895,
-			80896
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_171[69562] = {
-		id = 69562,
-		name = "奥丁平射小子弹LV2",
-		damage = 44,
-		base = 69561
-	}
-	uv0.weapon_property_171[69563] = {
-		id = 69563,
-		name = "奥丁平射小子弹LV3",
-		damage = 50,
-		base = 69561
-	}
-	uv0.weapon_property_171[69564] = {
-		id = 69564,
-		name = "奥丁平射小子弹LV4",
-		damage = 56,
-		base = 69561
-	}
-	uv0.weapon_property_171[69565] = {
-		id = 69565,
-		name = "奥丁平射小子弹LV5",
-		damage = 62,
-		base = 69561
-	}
-	uv0.weapon_property_171[69566] = {
-		id = 69566,
-		name = "奥丁平射小子弹LV6",
-		damage = 68,
-		base = 69561
 	}
 end()

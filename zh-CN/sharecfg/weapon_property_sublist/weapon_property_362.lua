@@ -2,6 +2,125 @@ pg = pg or {}
 pg.weapon_property_362 = {}
 
 function ()
+	uv0.weapon_property_362[1003008] = {
+		id = 1003008,
+		name = "【量产型】梦境驱逐单装鱼雷 III",
+		base = 1001008,
+		bullet_ID = {
+			838
+		}
+	}
+	uv0.weapon_property_362[1003009] = {
+		id = 1003009,
+		name = "【量产型】梦境驱逐单装鱼雷 IV",
+		base = 1001009,
+		bullet_ID = {
+			838
+		}
+	}
+	uv0.weapon_property_362[1003010] = {
+		id = 1003010,
+		name = "【量产型】梦境驱逐单装鱼雷 V",
+		base = 1001010,
+		bullet_ID = {
+			838
+		}
+	}
+	uv0.weapon_property_362[1003011] = {
+		id = 1003011,
+		name = "【量产型】梦境驱逐旋转子弹3+2发武器 I",
+		base = 1001011,
+		bullet_ID = {
+			837,
+			837
+		}
+	}
+	uv0.weapon_property_362[1003012] = {
+		id = 1003012,
+		name = "【量产型】梦境驱逐旋转子弹3+2发武器 II",
+		base = 1001012,
+		bullet_ID = {
+			837,
+			837
+		}
+	}
+	uv0.weapon_property_362[1003013] = {
+		id = 1003013,
+		name = "【量产型】梦境驱逐旋转子弹3+2发武器 III",
+		base = 1001013,
+		bullet_ID = {
+			837,
+			837
+		}
+	}
+	uv0.weapon_property_362[1003014] = {
+		id = 1003014,
+		name = "【量产型】梦境驱逐旋转子弹3+2发武器 IV",
+		base = 1001014,
+		bullet_ID = {
+			837,
+			837
+		}
+	}
+	uv0.weapon_property_362[1003015] = {
+		id = 1003015,
+		name = "【量产型】梦境驱逐旋转子弹3+2发武器 V",
+		base = 1001015,
+		bullet_ID = {
+			837,
+			837
+		}
+	}
+	uv0.weapon_property_362[1003016] = {
+		id = 1003016,
+		name = "【量产型】梦境轻巡旋转子弹延迟1+2+1连弹 I",
+		base = 1001016,
+		bullet_ID = {
+			300524,
+			300525,
+			300526
+		}
+	}
+	uv0.weapon_property_362[1003017] = {
+		id = 1003017,
+		name = "【量产型】梦境轻巡旋转子弹延迟1+2+1连弹 II",
+		base = 1001017,
+		bullet_ID = {
+			300524,
+			300525,
+			300526
+		}
+	}
+	uv0.weapon_property_362[1003018] = {
+		id = 1003018,
+		name = "【量产型】梦境轻巡旋转子弹延迟1+2+1连弹 III",
+		base = 1001018,
+		bullet_ID = {
+			300524,
+			300525,
+			300526
+		}
+	}
+	uv0.weapon_property_362[1003019] = {
+		id = 1003019,
+		name = "【量产型】梦境轻巡旋转子弹延迟1+2+1连弹 IV",
+		base = 1001019,
+		bullet_ID = {
+			300524,
+			300525,
+			300526
+		}
+	}
+	uv0.weapon_property_362[1003020] = {
+		id = 1003020,
+		name = "【量产型】梦境轻巡旋转子弹延迟1+2+1连弹 V",
+		base = 1001020,
+		bullet_ID = {
+			300524,
+			300525,
+			300526
+		}
+	}
 	uv0.weapon_property_362[1003021] = {
 		id = 1003021,
 		name = "【量产型】梦境轻巡联装炮x6散射 I",
@@ -385,88 +504,5 @@ function ()
 		name = "【量产型】梦境航母轰炸机T1 (飞机 IV",
 		base = 1001069,
 		bullet_ID = {}
-	}
-	uv0.weapon_property_362[1003070] = {
-		id = 1003070,
-		name = "【量产型】梦境航母轰炸机T1 (飞机 V",
-		base = 1001070,
-		bullet_ID = {}
-	}
-	uv0.weapon_property_362[1003071] = {
-		id = 1003071,
-		name = "【量产型】梦境航母战斗机T1 (飞机 I",
-		base = 1001071,
-		bullet_ID = {}
-	}
-	uv0.weapon_property_362[1003072] = {
-		id = 1003072,
-		name = "【量产型】梦境航母战斗机T1 (飞机 II",
-		base = 1001072,
-		bullet_ID = {}
-	}
-	uv0.weapon_property_362[1003073] = {
-		id = 1003073,
-		name = "【量产型】梦境航母战斗机T1 (飞机 III",
-		base = 1001073,
-		bullet_ID = {}
-	}
-	uv0.weapon_property_362[1003074] = {
-		id = 1003074,
-		name = "【量产型】梦境航母战斗机T1 (飞机 IV",
-		base = 1001074,
-		bullet_ID = {}
-	}
-	uv0.weapon_property_362[1003075] = {
-		id = 1003075,
-		name = "【量产型】梦境航母战斗机T1 (飞机 V",
-		base = 1001075,
-		bullet_ID = {}
-	}
-	uv0.weapon_property_362[1003076] = {
-		id = 1003076,
-		name = "【量产型】梦境航母轰炸机武器 I",
-		base = 1001076
-	}
-	uv0.weapon_property_362[1003077] = {
-		id = 1003077,
-		name = "【量产型】梦境航母轰炸机武器 II",
-		base = 1001077
-	}
-	uv0.weapon_property_362[1003078] = {
-		id = 1003078,
-		name = "【量产型】梦境航母轰炸机武器 III",
-		base = 1001078
-	}
-	uv0.weapon_property_362[1003079] = {
-		id = 1003079,
-		name = "【量产型】梦境航母轰炸机武器 IV",
-		base = 1001079
-	}
-	uv0.weapon_property_362[1003080] = {
-		id = 1003080,
-		name = "【量产型】梦境航母轰炸机武器 V",
-		base = 1001080
-	}
-	uv0.weapon_property_362[1003081] = {
-		id = 1003081,
-		name = "【量产型】梦境航母战斗机弹幕 I",
-		base = 1001081,
-		bullet_ID = {
-			20006,
-			20006,
-			20006,
-			20006
-		}
-	}
-	uv0.weapon_property_362[1003082] = {
-		id = 1003082,
-		name = "【量产型】梦境航母战斗机弹幕 II",
-		base = 1001082,
-		bullet_ID = {
-			20006,
-			20006,
-			20006,
-			20006
-		}
 	}
 end()
