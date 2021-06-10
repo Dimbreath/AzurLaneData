@@ -411,6 +411,8 @@ function slot0.update(slot0, slot1)
 			uv0.duties[slot0.key] = slot0.value
 		end)
 	end
+
+	slot0.activateAmbush = not slot0:isLoop() and slot0:GetWillActiveAmbush()
 end
 
 function slot0.retreat(slot0, slot1)
@@ -598,6 +600,18 @@ end
 
 function slot0.existAmbush(slot0)
 	return slot0:getConfig("is_ambush") == 1 or slot0:getConfig("is_air_attack") == 1
+end
+
+function slot0.GetWillActiveAmbush(slot0)
+	if not slot0:existAmbush() then
+		return false
+	end
+
+	slot1 = slot0:getConfig("avoid_require")
+
+	return not _.any(slot0.fleets, function (slot0)
+		return slot0:getFleetType() == FleetType.Normal and uv0 <= slot0:getInvestSums(true)
+	end)
 end
 
 function slot0.getAmbushRate(slot0, slot1, slot2)

@@ -2,22 +2,6 @@ pg = pg or {}
 pg.weapon_property_3 = {}
 
 function ()
-	uv0.weapon_property_3[912] = {
-		id = 912,
-		name = "烟雾发射装置小范围",
-		base = 911,
-		bullet_ID = {
-			912
-		}
-	}
-	uv0.weapon_property_3[913] = {
-		id = 913,
-		name = "烟雾发射装置小范围",
-		base = 911,
-		bullet_ID = {
-			913
-		}
-	}
 	uv0.weapon_property_3[914] = {
 		id = 914,
 		name = "烟雾发射装置小范围",
@@ -860,5 +844,62 @@ function ()
 		reload_max = 465,
 		damage = 57,
 		base = 4140
+	}
+	uv0.weapon_property_3[4150] = {
+		id = 4150,
+		reload_max = 450,
+		damage = 61,
+		base = 4140
+	}
+	uv0.weapon_property_3[4151] = {
+		reload_max = 450,
+		damage = 61,
+		base = 4140,
+		id = 4151,
+		corrected = 104
+	}
+	uv0.weapon_property_3[4200] = {
+		action_index = "attack",
+		range = 120,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "剑鱼Mark.II-ASV",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 28,
+		corrected = 100,
+		min_range = 0,
+		id = 4200,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 680,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			4200
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			2
+		},
+		precast_param = {}
 	}
 end()

@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.enemy_data_statistics_54 = {
+	[8023] = {
+		cannon = 80,
+		name = "量産型自爆ボート",
+		hit_growth = 1200,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 0,
+		antisub = 0,
+		armor = 0,
+		rarity = 1,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 80,
+		durability = 100,
+		armor_growth = 0,
+		torpedo_growth = 1200,
+		speed = 30,
+		luck = 0,
+		id = 8023,
+		cannon_growth = 0,
+		pilot_ai_template_id = 80000,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 81,
+		torpedo = 200,
+		durability_growth = 2550,
+		luck_growth = 0,
+		battle_unit_type = 15,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			311095
+		}
+	},
 	[8010] = {
 		cannon = 120,
 		name = "イカヅチ",
@@ -727,47 +766,6 @@ pg.enemy_data_statistics_54 = {
 			318014,
 			318015,
 			318016
-		}
-	},
-	[9006] = {
-		cannon = 100,
-		name = "ハマカゼ",
-		hit_growth = 210,
-		speed_growth = 0,
-		antiaircraft_growth = 2200,
-		air = 0,
-		antisub = 0,
-		armor = 0,
-		rarity = 4,
-		antiaircraft = 105,
-		dodge_growth = 270,
-		star = 3,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 173,
-		durability = 4000,
-		armor_growth = 0,
-		torpedo_growth = 5200,
-		speed = 36,
-		luck = 0,
-		id = 9006,
-		cannon_growth = 626,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 18,
-		reload_growth = 0,
-		hit = 20,
-		torpedo = 240,
-		durability_growth = 27000,
-		luck_growth = 0,
-		battle_unit_type = 60,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			318017,
-			318018,
-			318019
 		}
 	}
 }

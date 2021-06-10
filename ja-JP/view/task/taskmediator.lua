@@ -2,10 +2,27 @@ slot0 = class("TaskMediator", import("..base.ContextMediator"))
 slot0.ON_TASK_SUBMIT = "TaskMediator:ON_TASK_SUBMIT"
 slot0.ON_TASK_GO = "TaskMediator:ON_TASK_GO"
 slot0.TASK_FILTER = "TaskMediator:TASK_FILTER"
+slot0.ON_SUBMIT_WEEK_PROGREE = "TaskMediator:ON_SUBMIT_WEEK_PROGREE"
+slot0.ON_BATCH_SUBMIT_WEEK_TASK = "TaskMediator:ON_BATCH_SUBMIT_WEEK_TASK"
+slot0.ON_SUBMIT_WEEK_TASK = "TaskMediator:ON_SUBMIT_WEEK_TASK"
 slot0.CLICK_GET_ALL = "TaskMediator:CLICK_GET_ALL"
 slot0.ON_DROP = "TaskMediator:ON_DROP"
 
 function slot0.register(slot0)
+	slot0:bind(uv0.ON_SUBMIT_WEEK_TASK, function (slot0, slot1)
+		uv0:sendNotification(GAME.SUBMIT_WEEK_TASK, {
+			id = slot1.id
+		})
+	end)
+	slot0:bind(uv0.ON_SUBMIT_WEEK_PROGREE, function (slot0)
+		uv0:sendNotification(GAME.SUBMIT_WEEK_TASK_PROGRESS)
+	end)
+	slot0:bind(uv0.ON_BATCH_SUBMIT_WEEK_TASK, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.BATCH_SUBMIT_WEEK_TASK, {
+			ids = slot1,
+			callback = slot2
+		})
+	end)
 	slot0:bind(uv0.ON_DROP, function (slot0, slot1, slot2)
 		if slot1.type == DROP_TYPE_EQUIP then
 			uv0:addSubLayers(Context.New({
@@ -55,7 +72,11 @@ function slot0.register(slot0)
 			taskVO = slot1
 		})
 	end)
+	slot0:SetTaskVOs()
+	slot0.viewComponent:SetWeekTaskProgressInfo(getProxy(TaskProxy):GetWeekTaskProgressInfo())
+end
 
+function slot0.SetTaskVOs(slot0)
 	for slot7, slot8 in pairs(getProxy(TaskProxy):getData()) do
 		if slot8:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_ITEM then
 			slot8.progress = getProxy(BagProxy):getItemCountById(tonumber(slot8:getConfig("target_id_for_client")))
@@ -93,7 +114,14 @@ function slot0.listNotificationInterests(slot0)
 		GAME.SUBMIT_TASK_DONE,
 		uv0.TASK_FILTER,
 		GAME.BEGIN_STAGE_DONE,
-		GAME.CHAPTER_OP_DONE
+		GAME.CHAPTER_OP_DONE,
+		TaskProxy.WEEK_TASK_UPDATED,
+		TaskProxy.WEEK_TASKS_ADDED,
+		TaskProxy.WEEK_TASKS_DELETED,
+		GAME.SUBMIT_WEEK_TASK_DONE,
+		GAME.SUBMIT_WEEK_TASK_PROGRESS_DONE,
+		TaskProxy.WEEK_TASK_RESET,
+		GAME.MERGE_TASK_ONE_STEP_AWARD_DONE
 	}
 end
 
@@ -156,6 +184,26 @@ function slot0.handleNotification(slot0, slot1)
 
 		if slot2 == GAME.BEGIN_STAGE_DONE then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
+		elseif slot2 == TaskProxy.WEEK_TASKS_ADDED or slot2 == TaskProxy.WEEK_TASKS_DELETED or slot2 == TaskProxy.WEEK_TASK_UPDATED then
+			slot0.viewComponent:RefreshWeekTaskPage()
+		elseif slot2 == GAME.SUBMIT_WEEK_TASK_DONE then
+			if #slot3.awards > 0 then
+				slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
+			end
+
+			slot0.viewComponent:RefreshWeekTaskPage()
+		elseif slot2 == GAME.SUBMIT_WEEK_TASK_PROGRESS_DONE then
+			if #slot3.awards > 0 then
+				slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
+			end
+
+			slot0.viewComponent:RefreshWeekTaskProgress()
+		elseif slot2 == TaskProxy.WEEK_TASK_RESET then
+			slot0:SetTaskVOs()
+			slot0.viewComponent:ResetWeekTaskPage()
+		elseif slot2 == GAME.MERGE_TASK_ONE_STEP_AWARD_DONE then
+			slot0:sendNotification(GAME.SUBMIT_TASK_DONE, slot3.awards, slot3.taskIds)
+			slot0.viewComponent:RefreshWeekTaskPage()
 		end
 	end
 end

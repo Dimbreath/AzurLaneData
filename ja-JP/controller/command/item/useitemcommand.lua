@@ -74,9 +74,13 @@ function slot0.execute(slot0, slot1)
 					slot2:AddExtraDonateCnt(uv2)
 					pg.TipsMgr.GetInstance():ShowTips(i18n("guild_use_donateitem_success", uv2))
 				end
-			elseif uv3.usage == ItemUsage.GUILD_OPERATION and getProxy(GuildProxy):getRawData() then
-				slot2:AddExtraBattleCnt(uv2)
-				pg.TipsMgr.GetInstance():ShowTips(i18n("guild_use_battleitem_success", uv2))
+			elseif uv3.usage == ItemUsage.GUILD_OPERATION then
+				if getProxy(GuildProxy):getRawData() then
+					slot2:AddExtraBattleCnt(uv2)
+					pg.TipsMgr.GetInstance():ShowTips(i18n("guild_use_battleitem_success", uv2))
+				end
+			elseif uv3.usage == ItemUsage.REDUCE_COMMANDER_TIME then
+				uv4:sendNotification(GAME.REFRESH_COMMANDER_BOXES)
 			end
 
 			if QRJ_ITEM_ID_RANGE[1] <= uv1 and uv1 <= slot2[2] then

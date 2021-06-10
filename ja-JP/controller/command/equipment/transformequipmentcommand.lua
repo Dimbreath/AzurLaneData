@@ -1,52 +1,112 @@
 slot0 = class("TransformEquipmentCommand", pm.SimpleCommand)
 
-function slot0.CheckEquipmentFormulasSucceed(slot0, slot1)
-	slot2 = getProxy(PlayerProxy)
-	slot3 = getProxy(BagProxy)
-	slot4 = {}
-	slot5 = slot1
+function slot0.execute(slot0, slot1)
+	slot3 = slot1:getBody().candicate
 
-	for slot9, slot10 in ipairs(slot0) do
-		slot12 = Equipment.GetRevertRewardsStatic(slot5)
-		slot5 = Equipment.GetEquipRootStatic(slot5)
+	seriesAsync({
+		function (slot0)
+			if uv0.type == DROP_TYPE_ITEM then
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("equipment_upgrade_feedback_compose_tip"),
+					onYes = slot0
+				})
 
-		for slot17, slot18 in ipairs(pg.equip_upgrade_data[slot10].material_consume) do
-			slot4[slot19] = (slot4[slot18[1]] or slot3:getItemCountById(slot19) or 0) - slot18[2]
+				return
+			elseif uv0.type == DROP_TYPE_EQUIP and uv0.template.shipId ~= nil then
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("equipment_upgrade_feedback_equipment_consume", getProxy(BayProxy):getShipById(uv0.template.shipId):getName(), uv0.template:getConfig("name")),
+					onYes = slot0
+				})
 
-			if slot4[slot19] < 0 then
-				return false, pg.item_data_statistics[slot19] and slot22.name
+				return
 			end
+
+			slot0()
+		end,
+		function (slot0)
+			if uv0.type == DROP_TYPE_EQUIP then
+				return slot0({
+					shipId = uv0.template.shipId,
+					pos = uv0.template.shipPos,
+					equipmentId = uv0.template.id,
+					formulaIds = uv1.formulaIds
+				})
+			end
+
+			slot3 = getProxy(BagProxy)
+			slot7 = pg.equip_data_statistics[pg.compose_data_template[uv0.composeCfg.id].equip_id]
+
+			if getProxy(PlayerProxy):getData():getMaxEquipmentBag() < getProxy(EquipmentProxy):getCapacity() + 1 then
+				NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
+
+				return
+			end
+
+			if slot5.gold < slot6.gold_num * slot2 then
+				GoShoppingMsgBox(i18n("switch_to_shop_tip_2", i18n("word_gold")), ChargeScene.TYPE_ITEM, {
+					{
+						59001,
+						slot6.gold_num * slot2 - slot5.gold,
+						slot6.gold_num * slot2
+					}
+				})
+
+				return
+			end
+
+			if not slot3:getItemById(slot6.material_id) or slot10.count < slot6.material_num * slot2 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("word_materal_no_enough"))
+
+				return
+			end
+
+			pg.ConnectionMgr.GetInstance():Send(14006, {
+				id = slot1,
+				num = slot2
+			}, 14007, function (slot0)
+				if slot0.result == 0 then
+					uv0:addEquipmentById(uv1.equip_id, uv2)
+					uv3:consume({
+						gold = uv1.gold_num * uv2
+					})
+					uv4:updatePlayer(uv3)
+					uv5:removeItemById(uv1.material_id, uv1.material_num * uv2)
+					uv6:sendNotification(GAME.COMPOSITE_EQUIPMENT_DONE, {
+						equipment = Equipment.New({
+							id = uv1.equip_id
+						}),
+						count = uv2,
+						composeId = uv7
+					})
+					uv8({
+						equipmentId = uv1.equip_id,
+						formulaIds = uv9.formulaIds
+					})
+				else
+					pg.TipsMgr.GetInstance():ShowTips(errorTip("equipment_compositeEquipment", slot0.result))
+				end
+			end)
+		end,
+		function (slot0, slot1)
+			uv0:ExecuteEquipTransform(slot1)
 		end
-
-		slot4.gold = (slot4.gold or slot2:getRawData().gold or 0) - slot11.coin_consume
-
-		if slot4.gold < 0 then
-			return false, pg.item_data_statistics[id2ItemId(1)].name
-		end
-
-		for slot17, slot18 in pairs(slot12) do
-			slot4[slot17] = (slot4[slot17] or 0) + slot18
-		end
-
-		slot5 = slot11.target_id
-	end
-
-	return true
+	})
 end
 
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot5 = slot2.equipmentId
-	slot6 = slot2.formulaIds
+function slot0.ExecuteEquipTransform(slot0, slot1)
+	slot2 = slot1.shipId
+	slot3 = slot2
+	slot5 = slot1.equipmentId
+	slot6 = slot1.formulaIds
 	slot7 = nil
 
-	if slot2.shipId then
-		slot5 = getProxy(BayProxy):getShipById(slot3):getEquip(slot2.pos).id
+	if slot2 then
+		slot5 = getProxy(BayProxy):getShipById(slot2):getEquip(slot1.pos).id
 	elseif slot5 ~= 0 then
 		slot5 = getProxy(EquipmentProxy):getEquipmentById(slot5).id
 	end
 
-	slot8, slot9 = uv0.CheckEquipmentFormulasSucceed(slot6, slot5)
+	slot8, slot9 = EquipmentTransformUtil.CheckEquipmentFormulasSucceed(slot6, slot5)
 
 	if not slot8 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_x", slot9))
@@ -168,8 +228,8 @@ function slot0.execute(slot0, slot1)
 			end
 		})
 	end, function ()
-		if not uv0 and uv1.shipId then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_upgrade_equipped_unavailable", getProxy(BayProxy):getShipById(uv1.shipId):getName(), uv2.config.name))
+		if not uv0 and uv1 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_upgrade_equipped_unavailable", getProxy(BayProxy):getShipById(uv1):getName(), uv2.config.name))
 		end
 
 		uv5:sendNotification(GAME.TRANSFORM_EQUIPMENT_DONE, {

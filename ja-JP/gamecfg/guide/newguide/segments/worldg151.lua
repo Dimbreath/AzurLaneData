@@ -119,7 +119,7 @@ return {
 		{
 			alpha = 0.3,
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/IndexUI(Clone)/index_panel/layout/indexsort_extraindex/bg/panel/3",
+				path = "OverlayCamera/Overlay/UIMain/CustomIndexUI(Clone)/index_panel/layout/indexsort_extraindex/bg/panel/3",
 				triggerType = {
 					1
 				},
@@ -135,7 +135,7 @@ return {
 		{
 			alpha = 0.3,
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/IndexUI(Clone)/index_panel/layout/btns/ok",
+				path = "OverlayCamera/Overlay/UIMain/CustomIndexUI(Clone)/index_panel/layout/btns/ok",
 				triggerType = {
 					1
 				},

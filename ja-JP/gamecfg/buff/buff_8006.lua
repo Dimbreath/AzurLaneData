@@ -13,13 +13,9 @@ return {
 			type = "BattleBuffStun",
 			trigger = {
 				"onAttach",
-				"onUpdate",
 				"onRemove"
 			},
-			arg_list = {
-				check_target = "TargetAllHarm",
-				checkTargetMaxDistance = 100
-			}
+			arg_list = {}
 		}
 	}
 }

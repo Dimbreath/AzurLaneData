@@ -2625,4 +2625,14 @@ function ()
 			1006
 		}
 	}
+	uv0.weapon_property_1[204] = {
+		reload_max = 160,
+		damage = 9,
+		base = 201,
+		id = 204,
+		name = "白鹰雷击轻巡副炮T4",
+		bullet_ID = {
+			1006
+		}
+	}
 end()

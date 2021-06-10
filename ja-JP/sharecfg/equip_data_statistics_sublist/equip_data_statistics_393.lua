@@ -1,5 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_393 = {
+	[90141] = {
+		id = 90141,
+		damage = "6 x 5",
+		base = 90140,
+		weapon_id = {
+			90141
+		}
+	},
+	[90142] = {
+		id = 90142,
+		damage = "7 x 5",
+		base = 90140,
+		weapon_id = {
+			90142
+		}
+	},
 	[90143] = {
 		id = 90143,
 		damage = "8 x 5",
@@ -163,73 +179,6 @@ pg.equip_data_statistics_393 = {
 		base = 90200,
 		weapon_id = {
 			90202
-		}
-	},
-	[90203] = {
-		id = 90203,
-		damage = "10 x 6",
-		base = 90200,
-		weapon_id = {
-			90203
-		}
-	},
-	[90220] = {
-		name = "152mm三連装砲Mle1930",
-		speciality = "追尾",
-		type = 2,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "50200",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "8 x 6",
-		nationality = 8,
-		ammo = 3,
-		value_3 = 0,
-		id = 90220,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2201
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2201
-			},
-			{
-				4,
-				1102
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90220
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"CL",
-			"MG"
 		}
 	}
 }

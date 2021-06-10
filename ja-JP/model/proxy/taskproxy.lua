@@ -4,6 +4,10 @@ slot0.TASK_UPDATED = "task updated"
 slot0.TASK_REMOVED = "task removed"
 slot0.TASK_FINISH = "task finish"
 slot0.TASK_PROGRESS_UPDATE = "task TASK_PROGRESS_UPDATE"
+slot0.WEEK_TASK_UPDATED = "week task updated"
+slot0.WEEK_TASKS_ADDED = "week tasks added"
+slot0.WEEK_TASKS_DELETED = "week task deleted"
+slot0.WEEK_TASK_RESET = "week task refresh"
 mingshiTriggerId = 1
 mingshiActivityId = 21
 changdaoActivityId = 10006
@@ -57,7 +61,52 @@ function slot0.register(slot0)
 	end)
 
 	slot0.taskTriggers = {}
+	slot0.weekTaskProgressInfo = WeekTaskProgress.New()
+
+	slot0:on(20101, function (slot0)
+		uv0.weekTaskProgressInfo:Init(slot0.info)
+		uv0:sendNotification(uv1.WEEK_TASK_RESET)
+	end)
+	slot0:on(20102, function (slot0)
+		for slot4, slot5 in ipairs(slot0.task) do
+			print("update sub task ", slot5)
+
+			slot6 = WeekPtTask.New(slot5)
+
+			uv0.weekTaskProgressInfo:UpdateSubTask(slot6)
+			uv0:sendNotification(uv1.WEEK_TASK_UPDATED, {
+				id = slot6.id
+			})
+		end
+	end)
+	slot0:on(20103, function (slot0)
+		for slot4, slot5 in ipairs(slot0.id) do
+			print("add sub task ", slot5)
+			uv0.weekTaskProgressInfo:AddSubTask(WeekPtTask.New({
+				progress = 0,
+				id = slot5
+			}))
+		end
+
+		uv0:sendNotification(uv1.WEEK_TASKS_ADDED)
+	end)
+	slot0:on(20104, function (slot0)
+		for slot4, slot5 in ipairs(slot0.id) do
+			print("remove sub task ", slot5)
+			uv0.weekTaskProgressInfo:RemoveSubTask(slot5)
+		end
+
+		uv0:sendNotification(uv1.WEEK_TASKS_DELETED)
+	end)
+	slot0:on(20105, function (slot0)
+		uv0.weekTaskProgressInfo:UpdateProgress(slot0.pt)
+	end)
+
 	slot0.submittingTask = {}
+end
+
+function slot0.GetWeekTaskProgressInfo(slot0)
+	return slot0.weekTaskProgressInfo
 end
 
 function slot0.getTasksForBluePrint(slot0)
@@ -156,7 +205,11 @@ function slot0.getCanReceiveCount(slot0)
 		end
 	end
 
-	return slot1
+	if slot0:GetWeekTaskProgressInfo():CanUpgrade() then
+		slot1 = slot1 + 1
+	end
+
+	return slot1 + slot2:GetCanSubmitSubTaskCnt()
 end
 
 function slot0.getNotFinishCount(slot0, slot1)
@@ -318,6 +371,22 @@ function slot0.triggerClientTasks(slot0)
 	end
 
 	return slot1
+end
+
+function slot0.GetBackYardInterActionTask(slot0)
+	for slot4, slot5 in pairs(slot0.data) do
+		if slot5:IsBackYardInterActionType() then
+			return slot5
+		end
+	end
+end
+
+function slot0.GetFlagShipInterActionTask(slot0)
+	for slot4, slot5 in pairs(slot0.data) do
+		if slot5:IsFlagShipInterActionType() then
+			return slot5
+		end
+	end
 end
 
 return slot0

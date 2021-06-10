@@ -7518,6 +7518,114 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70151] = {
+		id = 70151,
+		name = "高速转圈顺时针",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 4,
+				param = {
+					radius = 13,
+					z = 55,
+					valve = 1,
+					antiClockWise = false,
+					duration = -1,
+					x = -15
+				}
+			}
+		}
+	},
+	[70152] = {
+		id = 70152,
+		name = "高速转圈逆时针",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 4,
+				param = {
+					radius = 13,
+					z = 55,
+					valve = 1,
+					antiClockWise = true,
+					duration = -1,
+					x = -15
+				}
+			}
+		}
+	},
+	[70153] = {
+		id = 70153,
+		name = "黑海伦娜 十字锁定激光",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 8,
+				param = {
+					offsetZ = 4,
+					duration = 1.5,
+					X = -82,
+					valve = 2
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 300
+				}
+			}
+		}
+	},
+	[70154] = {
+		id = 70154,
+		name = "黑海伦娜 十字锁定激光",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 8,
+				param = {
+					duration = 1.5,
+					Z = 25,
+					offsetX = 1,
+					valve = 2
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 300
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

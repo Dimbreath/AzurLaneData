@@ -543,7 +543,11 @@ function slot0.UpdateTransformTipBar(slot0, slot1)
 						data = {
 							fromStoreHouse = true,
 							formulaId = uv1[uv2 + 1],
-							sourceEquipmentInstance = uv3
+							sourceEquipmentInstance = {
+								type = DROP_TYPE_EQUIP,
+								id = uv3.id,
+								template = uv3
+							}
 						}
 					}))
 				end, SFX_PANEL)

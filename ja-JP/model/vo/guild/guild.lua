@@ -1,4 +1,4 @@
-slot0 = class("Guild", import("..BaseVO"))
+slot0 = class("Guild", import(".base.BaseGuild"))
 slot1 = pg.guild_technology_template
 slot2 = pg.guild_operation_template
 slot3 = true
@@ -220,40 +220,8 @@ function slot0.getActiveTechnologyGroup(slot0)
 	end
 end
 
-function slot0.getAddition(slot0, slot1)
-	return 0 + slot0.technologys[GuildConst.TYPE_TO_GROUP[slot1]]:getAddition()
-end
-
-function slot0.getMaxOilAddition(slot0)
-	return slot0:getAddition(GuildConst.TYPE_OIL_MAX)
-end
-
-function slot0.getMaxGoldAddition(slot0)
-	return slot0:getAddition(GuildConst.TYPE_GOLD_MAX)
-end
-
-function slot0.getCatBoxGoldAddition(slot0)
-	return slot0:getAddition(GuildConst.TYPE_CATBOX_GOLD_COST)
-end
-
-function slot0.getEquipmentBagAddition(slot0)
-	return slot0:getAddition(GuildConst.TYPE_EQUIPMENT_BAG)
-end
-
-function slot0.getShipBagAddition(slot0)
-	return slot0:getAddition(GuildConst.TYPE_SHIP_BAG)
-end
-
-function slot0.getShipAddition(slot0, slot1, slot2)
-	for slot7, slot8 in pairs(slot0.technologys) do
-		slot3 = 0 + slot8:GetShipAttrAddition(slot1, slot2)
-	end
-
-	return slot3
-end
-
-function slot0.GetGuildMemberCntAddition(slot0)
-	return slot0:getAddition(GuildConst.TYPE_GUILD_MEMBER_CNT)
+function slot0.GetTechnologys(slot0)
+	return slot0.technologys
 end
 
 function slot0.getTechnologyById(slot0, slot1)

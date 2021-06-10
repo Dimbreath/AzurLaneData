@@ -35,6 +35,8 @@ slot0.GO_MINI_GAME = "ActivityMediator.GO_MINI_GAME"
 slot0.GO_DECODE_MINI_GAME = "ActivityMediator:GO_DECODE_MINI_GAME"
 slot0.ON_MONTH_ACHIEVE = "on month achieve"
 slot0.ON_BOBING_RESULT = "on bobing result"
+slot0.ACTIVITY_PERMANENT = "ActivityMediator.ACTIVITY_PERMANENT"
+slot0.FINISH_ACTIVITY_PERMANENT = "ActivityMediator.FINISH_ACTIVITY_PERMANENT"
 
 function slot0.register(slot0)
 	slot0.UIAvalibleCallbacks = {}
@@ -264,11 +266,31 @@ function slot0.register(slot0)
 	slot0:bind(uv0.SHOW_NEXT_ACTIVITY, function (slot0)
 		uv0:showNextActivity()
 	end)
+	slot0:bind(uv0.ACTIVITY_PERMANENT, function (slot0, slot1)
+		if PlayerPrefs.GetString("permanent_time", "") ~= pg.gameset.permanent_mark.description then
+			PlayerPrefs.SetString("permanent_time", pg.gameset.permanent_mark.description)
+			uv0.viewComponent:updateEntrances()
+		end
 
-	slot1 = getProxy(ActivityProxy)
-
-	slot0.viewComponent:setActivities(slot1:getPanelActivities())
-	slot0.viewComponent:setAllActivity(slot1:getData())
+		if getProxy(ActivityPermanentProxy):getDoingActivity() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("activity_permanent_tips3"))
+			uv0.viewComponent:verifyTabs(slot2.id)
+		else
+			uv0:addSubLayers(Context.New({
+				mediator = ActivityPermanentMediator,
+				viewComponent = ActivityPermanentLayer,
+				data = {
+					finishId = slot1
+				}
+			}))
+		end
+	end)
+	slot0:bind(uv0.FINISH_ACTIVITY_PERMANENT, function (slot0)
+		uv0:sendNotification(GAME.ACTIVITY_PERMANENT_FINISH, {
+			activity_id = getProxy(ActivityPermanentProxy):getDoingActivity().id
+		})
+	end)
+	slot0.viewComponent:setActivities(getProxy(ActivityProxy):getPanelActivities())
 
 	slot3 = getProxy(PlayerProxy):getRawData()
 
@@ -288,6 +310,7 @@ function slot0.listNotificationInterests(slot0)
 	return {
 		ActivityProxy.ACTIVITY_ADDED,
 		ActivityProxy.ACTIVITY_UPDATED,
+		ActivityProxy.ACTIVITY_DELETED,
 		ActivityProxy.ACTIVITY_OPERATION_DONE,
 		ActivityProxy.ACTIVITY_SHOW_AWARDS,
 		ActivityProxy.ACTIVITY_SHOW_BB_RESULT,
@@ -301,7 +324,9 @@ function slot0.listNotificationInterests(slot0)
 		VoteProxy.VOTE_ORDER_BOOK_UPDATE,
 		GAME.REMOVE_LAYERS,
 		GAME.SEND_MINI_GAME_OP_DONE,
-		GAME.MONOPOLY_AWARD_DONE
+		GAME.MONOPOLY_AWARD_DONE,
+		GAME.ACTIVITY_PERMANENT_START_DONE,
+		GAME.ACTIVITY_PERMANENT_FINISH_DONE
 	}
 end
 
@@ -318,6 +343,8 @@ function slot0.handleNotification(slot0, slot1)
 		if ActivityConst.AOERLIANG_TASK_ID == slot3.id then
 			slot0.viewComponent:update_task_list_auto_aoerliang(slot3)
 		end
+	elseif slot2 == ActivityProxy.ACTIVITY_DELETED then
+		slot0.viewComponent:removeActivity(slot3)
 	elseif slot2 == ActivityProxy.ACTIVITY_OPERATION_DONE then
 		if ActivityConst.AOERLIANG_TASK_ID == slot3 then
 			return
@@ -384,6 +411,10 @@ function slot0.handleNotification(slot0, slot1)
 			function (slot0)
 			end
 		})
+	elseif slot2 == GAME.ACTIVITY_PERMANENT_START_DONE then
+		slot0.viewComponent:verifyTabs(slot3.id)
+	elseif slot2 == GAME.ACTIVITY_PERMANENT_FINISH_DONE then
+		slot0.viewComponent:emit(ActivityMediator.ACTIVITY_PERMANENT, slot3.activity_id)
 	end
 end
 

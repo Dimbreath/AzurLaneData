@@ -1692,18 +1692,21 @@ function slot0.AssistantEventEffect(slot0, slot1)
 	end
 
 	slot3, slot4, slot5, slot6, slot7, slot8 = slot0:getCvData(uv0.assistantEvents[slot1].dialog)
+	slot9 = false
 
 	if slot0.live2dChar then
 		if not slot8 then
 			slot0.live2dChar:TriggerAction(slot2.action)
 		else
+			slot9 = true
+
 			slot0.live2dChar:TriggerAction(slot2.action, nil, , function ()
 				uv0:displayShipWord(uv1.dialog)
 			end)
 		end
 	end
 
-	if slot2.dialog ~= "" and not slot8 then
+	if slot2.dialog ~= "" and not slot9 then
 		slot0:displayShipWord(slot2.dialog)
 	else
 		slot0:startChatTimer()

@@ -58,19 +58,11 @@ function slot0.selectActivity(slot0, slot1)
 end
 
 function slot0.updateActivity(slot0, slot1)
-	if not slot1:isShow() then
-		if ActivityConst.PageIdLink[slot1.id] then
-			slot1 = getProxy(ActivityProxy):getActivityById(ActivityConst.PageIdLink[slot1.id])
-		else
-			if slot0.actPage then
-				slot0.actPage:ActionInvoke("OnHideFulsh", slot1)
-			end
-
-			return
-		end
+	if ActivityConst.PageIdLink[slot1.id] then
+		slot1 = getProxy(ActivityProxy):getActivityById(ActivityConst.PageIdLink[slot1.id])
 	end
 
-	if slot0.activity and slot0.activity.id == slot1.id then
+	if slot1:isShow() and not slot1:isEnd() and slot0.activity and slot0.activity.id == slot1.id then
 		slot0.activity = slot1
 
 		slot0.actPage:ActionInvoke("Flush", slot1)

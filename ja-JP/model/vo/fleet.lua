@@ -797,4 +797,14 @@ function slot0.GetFleetSonarRange(slot0)
 	return slot2 + slot3
 end
 
+function slot0.getInvestSums(slot0)
+	slot1 = getProxy(BayProxy)
+
+	return math.pow(_.reduce(slot0.ships, 0, function (slot0, slot1)
+		slot3 = uv0:getShipById(slot1):getProperties(uv1:getCommanders())
+
+		return slot0 + slot3[AttributeType.Air] + slot3[AttributeType.Dodge]
+	end), 0.6666666666666666)
+end
+
 return slot0

@@ -1,5 +1,65 @@
 pg = pg or {}
 pg.equip_data_statistics_395 = {
+	[90303] = {
+		id = 90303,
+		damage = "49 x 4",
+		base = 90300,
+		weapon_id = {
+			90303
+		}
+	},
+	[90320] = {
+		name = "330mm四連装砲Mle1931",
+		speciality = "投射",
+		type = 4,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "50300",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "37 x 4",
+		nationality = 8,
+		ammo = 3,
+		value_3 = 0,
+		id = 90320,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1550
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90320
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		}
+	},
 	[90321] = {
 		id = 90321,
 		damage = "42 x 4",
@@ -155,22 +215,6 @@ pg.equip_data_statistics_395 = {
 		base = 90340,
 		weapon_id = {
 			90347
-		}
-	},
-	[90348] = {
-		id = 90348,
-		damage = "89 x 4",
-		base = 90340,
-		weapon_id = {
-			90348
-		}
-	},
-	[90349] = {
-		id = 90349,
-		damage = "95 x 4",
-		base = 90340,
-		weapon_id = {
-			90349
 		}
 	}
 }

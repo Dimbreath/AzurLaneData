@@ -380,6 +380,11 @@ function slot0.getNextLevelExp(slot0)
 	return slot0:getConfigExp(slot0.level)
 end
 
+function slot0.UpdateLevelAndExp(slot0, slot1, slot2)
+	slot0.exp = slot2
+	slot0.level = slot1
+end
+
 function slot0.getName(slot0)
 	return slot0.name or slot0:getConfig("name")
 end

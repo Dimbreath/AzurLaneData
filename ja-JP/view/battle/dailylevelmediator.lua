@@ -53,7 +53,8 @@ end
 function slot0.listNotificationInterests(slot0)
 	return {
 		PlayerProxy.UPDATED,
-		GAME.DAILY_LEVEL_QUICK_BATTLE_DONE
+		GAME.DAILY_LEVEL_QUICK_BATTLE_DONE,
+		GAME.REMOVE_LAYERS
 	}
 end
 
@@ -71,6 +72,8 @@ function slot0.handleNotification(slot0, slot1)
 		})
 		slot0.viewComponent:UpdateDailyLevelCnt(slot3.dailyLevelId)
 		slot0.viewComponent:UpdateDailyLevelCntForDescPanel(slot3.dailyLevelId)
+	elseif slot2 == GAME.REMOVE_LAYERS and slot3.context.mediator.__cname == "PreCombatMediator" then
+		setActive(slot0.viewComponent.blurPanel, true)
 	end
 end
 

@@ -2,16 +2,6 @@ pg = pg or {}
 pg.weapon_property_2 = {}
 
 function ()
-	uv0.weapon_property_2[204] = {
-		reload_max = 160,
-		damage = 9,
-		base = 201,
-		id = 204,
-		name = "白鹰雷击轻巡副炮T4",
-		bullet_ID = {
-			1006
-		}
-	}
 	uv0.weapon_property_2[211] = {
 		action_index = "attack",
 		range = 52,
@@ -1327,5 +1317,21 @@ function ()
 			1
 		},
 		precast_param = {}
+	}
+	uv0.weapon_property_2[912] = {
+		id = 912,
+		name = "烟雾发射装置小范围",
+		base = 911,
+		bullet_ID = {
+			912
+		}
+	}
+	uv0.weapon_property_2[913] = {
+		id = 913,
+		name = "烟雾发射装置小范围",
+		base = 911,
+		bullet_ID = {
+			913
+		}
 	}
 end()

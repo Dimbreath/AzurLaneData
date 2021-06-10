@@ -1,43 +1,52 @@
 slot0 = class("SubmitTaskCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	slot3 = nil
-	slot4 = {}
-	slot5 = getProxy(TaskProxy)
+	slot3 = slot1:getType()
+	slot4 = nil
+	slot5 = {}
+	slot6 = getProxy(TaskProxy)
 
 	if type(slot1:getBody()) == "number" or type(slot2) == "string" then
-		slot3 = slot2
+		slot4 = slot2
 	elseif type(slot2) == "table" then
-		for slot12, slot13 in ipairs(slot5:getTaskById(slot2.taskId):getConfig("award_choice")[slot2.index]) do
-			table.insert(slot4, {
-				type = slot13[1],
-				id = slot13[2],
-				number = slot13[3]
+		for slot13, slot14 in ipairs(slot6:getTaskById(slot2.taskId):getConfig("award_choice")[slot2.index]) do
+			table.insert(slot5, {
+				type = slot14[1],
+				id = slot14[2],
+				number = slot14[3]
 			})
 		end
 	end
 
-	if not slot5:getTaskById(slot3) then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("task_is_not_existence", slot3))
+	if not slot6:getTaskById(slot4) then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("task_is_not_existence", slot4))
+
+		if slot3 then
+			slot3(false)
+		end
 
 		return
 	end
 
-	if not slot6:isFinish() then
+	if not slot7:isFinish() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("task_submitTask_error_notFinish"))
 
+		if slot3 then
+			slot3(false)
+		end
+
 		return
 	end
 
-	if slot5:isSubmitting(slot3) then
+	if slot6:isSubmitting(slot4) then
 		return
 	else
-		slot5:addSubmittingTask(slot3)
+		slot6:addSubmittingTask(slot4)
 	end
 
 	pg.ConnectionMgr.GetInstance():Send(20005, {
-		id = slot6.id,
-		choice_award = slot4
+		id = slot7.id,
+		choice_award = slot5
 	}, 20006, function (slot0)
 		uv0:removeSubmittingTask(uv1)
 
@@ -112,8 +121,16 @@ function slot0.execute(slot0, slot1)
 			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST_MONITOR) and not slot3:isEnd() and table.contains(slot3:getConfig("config_data")[1] or {}, uv2.id) then
 				slot2:monitorTaskList(slot3)
 			end
+
+			if uv4 then
+				uv4(true)
+			end
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("task_submitTask", slot0.result))
+
+			if uv4 then
+				uv4(false)
+			end
 		end
 	end)
 end

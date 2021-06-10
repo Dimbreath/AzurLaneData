@@ -8,7 +8,7 @@ pg.benefit_buff_template = {
 		desc = "寮舎経験値5％UP",
 		benefit_effect = "5",
 		id = 1,
-		icon = "Props/haijungali",
+		icon = "Props/zongzi",
 		benefit_type = "dorm_exp"
 	},
 	{

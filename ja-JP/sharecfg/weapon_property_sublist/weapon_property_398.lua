@@ -2,45 +2,327 @@ pg = pg or {}
 pg.weapon_property_398 = {}
 
 function ()
-	uv0.weapon_property_398[2042224] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
+	uv0.weapon_property_398[2965003] = {
+		aim_type = 0,
+		range = 120,
+		damage = 8,
+		base = 1000,
+		name = "【大世界】黑方舟 第一波 魔法步枪 LV4",
 		fire_fx = "CAFire",
-		recover_time = 0,
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965003,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643000,
+			29643000
+		},
+		barrage_ID = {
+			29643000,
+			29643001
+		}
+	}
+	uv0.weapon_property_398[2965004] = {
+		aim_type = 0,
+		range = 120,
+		damage = 10,
+		base = 1000,
+		name = "【大世界】黑方舟 第一波 魔法步枪 LV5",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965004,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643000,
+			29643000
+		},
+		barrage_ID = {
+			29643000,
+			29643001
+		}
+	}
+	uv0.weapon_property_398[2965010] = {
+		aim_type = 0,
+		range = 120,
+		damage = 10,
+		base = 1000,
+		name = "【大世界】黑方舟 第一波 蛋船虚影突击 LV1",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965010,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643002,
+			29643003
+		},
+		barrage_ID = {
+			29643009,
+			29643011
+		}
+	}
+	uv0.weapon_property_398[2965011] = {
+		aim_type = 0,
+		range = 120,
+		damage = 20,
+		base = 1000,
+		name = "【大世界】黑方舟 第一波 蛋船虚影突击 LV2",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965011,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643002,
+			29643003
+		},
+		barrage_ID = {
+			29643009,
+			29643011
+		}
+	}
+	uv0.weapon_property_398[2965012] = {
+		aim_type = 0,
+		range = 120,
+		damage = 30,
+		base = 1000,
+		name = "【大世界】黑方舟 第一波 蛋船虚影突击 LV3",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965012,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643002,
+			29643003
+		},
+		barrage_ID = {
+			29643009,
+			29643011
+		}
+	}
+	uv0.weapon_property_398[2965013] = {
+		aim_type = 0,
+		range = 120,
+		damage = 40,
+		base = 1000,
+		name = "【大世界】黑方舟 第一波 蛋船虚影突击 LV4",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965013,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643002,
+			29643003
+		},
+		barrage_ID = {
+			29643009,
+			29643011
+		}
+	}
+	uv0.weapon_property_398[2965014] = {
+		aim_type = 0,
+		range = 120,
+		damage = 50,
+		base = 1000,
+		name = "【大世界】黑方舟 第一波 蛋船虚影突击 LV5",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965014,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643002,
+			29643003
+		},
+		barrage_ID = {
+			29643009,
+			29643011
+		}
+	}
+	uv0.weapon_property_398[2965015] = {
+		aim_type = 0,
+		range = 120,
+		damage = 40,
+		base = 1000,
+		name = "【大世界】黑方舟 第一波 蛋船虚影突击(撞击后排伤害) LV1",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 3,
+		id = 2965015,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643025,
+			29643025
+		},
+		barrage_ID = {
+			29643009,
+			29643011
+		}
+	}
+	uv0.weapon_property_398[2965016] = {
+		aim_type = 0,
+		range = 120,
+		damage = 80,
+		base = 1000,
+		name = "【大世界】黑方舟 第一波 蛋船虚影突击(撞击后排伤害) LV2",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 3,
+		id = 2965016,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643025,
+			29643025
+		},
+		barrage_ID = {
+			29643009,
+			29643011
+		}
+	}
+	uv0.weapon_property_398[2965017] = {
+		aim_type = 0,
+		range = 120,
+		damage = 120,
+		base = 1000,
+		name = "【大世界】黑方舟 第一波 蛋船虚影突击(撞击后排伤害) LV3",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 3,
+		id = 2965017,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643025,
+			29643025
+		},
+		barrage_ID = {
+			29643009,
+			29643011
+		}
+	}
+	uv0.weapon_property_398[2965018] = {
+		aim_type = 0,
+		range = 120,
+		damage = 160,
+		base = 1000,
+		name = "【大世界】黑方舟 第一波 蛋船虚影突击(撞击后排伤害) LV4",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 3,
+		id = 2965018,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643025,
+			29643025
+		},
+		barrage_ID = {
+			29643009,
+			29643011
+		}
+	}
+	uv0.weapon_property_398[2965019] = {
+		aim_type = 0,
+		range = 120,
+		damage = 200,
+		base = 1000,
+		name = "【大世界】黑方舟 第一波 蛋船虚影突击(撞击后排伤害) LV5",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 3,
+		id = 2965019,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643025,
+			29643025
+		},
+		barrage_ID = {
+			29643009,
+			29643011
+		}
+	}
+	uv0.weapon_property_398[2965020] = {
+		action_index = "attack",
+		range = 120,
+		type = 11,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_进攻形态sp1_狙击弹幕lv5",
+		name = "【大世界】黑方舟 第一波 飞机 LV1",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 40,
+		damage = 8,
 		corrected = 100,
 		min_range = 0,
-		id = 2042224,
+		id = 2965020,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1400,
-		queue = 8,
+		attack_attribute = 4,
+		reload_max = 300,
+		queue = 2,
 		search_type = 1,
-		effect_move = 0,
+		effect_move = 1,
 		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
 		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			20422200,
-			20422201,
-			20422202
-		},
+		initial_over_heat = 0,
+		bullet_ID = {},
 		barrage_ID = {
-			20422200,
-			20422201,
-			20422202
+			29643079
 		},
 		oxy_type = {
 			1
@@ -50,41 +332,39 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_398[2042400] = {
-		action_index = "fangyu",
+	uv0.weapon_property_398[2965021] = {
+		action_index = "attack",
 		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
+		type = 11,
+		fire_fx = "CAFire",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp1_子母弹lv1",
-		aim_type = 0,
+		name = "【大世界】黑方舟 第一波 飞机 LV2",
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 16,
-		corrected = 125,
+		damage = 8,
+		corrected = 100,
 		min_range = 0,
-		id = 2042400,
+		id = 2965021,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 9000,
-		queue = 6,
+		attack_attribute = 4,
+		reload_max = 300,
+		queue = 2,
 		search_type = 1,
-		effect_move = 0,
+		effect_move = 1,
 		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
-		bullet_ID = {
-			20424000
-		},
+		bullet_ID = {},
 		barrage_ID = {
-			20424000
+			29643079
 		},
 		oxy_type = {
 			1
@@ -94,41 +374,39 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_398[2042401] = {
-		action_index = "fangyu",
+	uv0.weapon_property_398[2965022] = {
+		action_index = "attack",
 		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
+		type = 11,
+		fire_fx = "CAFire",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp1_子母弹lv2",
-		aim_type = 0,
+		name = "【大世界】黑方舟 第一波 飞机 LV3",
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 16,
-		corrected = 125,
+		damage = 8,
+		corrected = 100,
 		min_range = 0,
-		id = 2042401,
+		id = 2965022,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 9000,
-		queue = 6,
+		attack_attribute = 4,
+		reload_max = 300,
+		queue = 2,
 		search_type = 1,
-		effect_move = 0,
+		effect_move = 1,
 		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
-		bullet_ID = {
-			20424000
-		},
+		bullet_ID = {},
 		barrage_ID = {
-			20424000
+			29643079
 		},
 		oxy_type = {
 			1
@@ -138,41 +416,39 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_398[2042402] = {
-		action_index = "fangyu",
+	uv0.weapon_property_398[2965023] = {
+		action_index = "attack",
 		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
+		type = 11,
+		fire_fx = "CAFire",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp1_子母弹lv3",
-		aim_type = 0,
+		name = "【大世界】黑方舟 第一波 飞机 LV4",
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 16,
-		corrected = 125,
+		damage = 8,
+		corrected = 100,
 		min_range = 0,
-		id = 2042402,
+		id = 2965023,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 9000,
-		queue = 6,
+		attack_attribute = 4,
+		reload_max = 300,
+		queue = 2,
 		search_type = 1,
-		effect_move = 0,
+		effect_move = 1,
 		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
-		bullet_ID = {
-			20424000
-		},
+		bullet_ID = {},
 		barrage_ID = {
-			20424000
+			29643079
 		},
 		oxy_type = {
 			1
@@ -182,879 +458,39 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_398[2042403] = {
-		action_index = "fangyu",
+	uv0.weapon_property_398[2965024] = {
+		action_index = "attack",
 		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
+		type = 11,
+		fire_fx = "CAFire",
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp1_子母弹lv4",
-		aim_type = 0,
+		name = "【大世界】黑方舟 第一波 飞机 LV5",
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 16,
-		corrected = 125,
-		min_range = 0,
-		id = 2042403,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 9000,
-		queue = 6,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20424000
-		},
-		barrage_ID = {
-			20424000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2042404] = {
-		action_index = "fangyu",
-		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp1_子母弹lv5",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 16,
-		corrected = 125,
-		min_range = 0,
-		id = 2042404,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 9000,
-		queue = 6,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20424000
-		},
-		barrage_ID = {
-			20424000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2042410] = {
-		action_index = "fangyu",
-		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp1_子母弹lv1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 16,
-		corrected = 125,
-		min_range = 0,
-		id = 2042410,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 900,
-		queue = 6,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20424000,
-			20424001,
-			20424002,
-			20424003,
-			20424004,
-			20424005,
-			20424006,
-			20424007,
-			20424008,
-			20424009,
-			20424010,
-			20424011,
-			20424012,
-			20424013,
-			20424014,
-			20424020,
-			20424021,
-			20424022,
-			20424023,
-			20424024,
-			20424025,
-			20424026,
-			20424027,
-			20424028,
-			20424029,
-			20424030,
-			20424031,
-			20424032,
-			20424033,
-			20424034
-		},
-		barrage_ID = {
-			20424000,
-			20424001,
-			20424002,
-			20424003,
-			20424004,
-			20424005,
-			20424006,
-			20424007,
-			20424008,
-			20424009,
-			20424010,
-			20424011,
-			20424012,
-			20424013,
-			20424014,
-			20424020,
-			20424021,
-			20424022,
-			20424023,
-			20424024,
-			20424025,
-			20424026,
-			20424027,
-			20424028,
-			20424029,
-			20424030,
-			20424031,
-			20424032,
-			20424033,
-			20424034
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2042411] = {
-		action_index = "fangyu",
-		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp1_子母弹lv2",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 16,
-		corrected = 125,
-		min_range = 0,
-		id = 2042411,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 900,
-		queue = 6,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20424000,
-			20424001,
-			20424002,
-			20424003,
-			20424004,
-			20424005,
-			20424006,
-			20424007,
-			20424008,
-			20424009,
-			20424010,
-			20424011,
-			20424012,
-			20424013,
-			20424014,
-			20424020,
-			20424021,
-			20424022,
-			20424023,
-			20424024,
-			20424025,
-			20424026,
-			20424027,
-			20424028,
-			20424029,
-			20424030,
-			20424031,
-			20424032,
-			20424033,
-			20424034,
-			20435400
-		},
-		barrage_ID = {
-			20424000,
-			20424001,
-			20424002,
-			20424003,
-			20424004,
-			20424005,
-			20424006,
-			20424007,
-			20424008,
-			20424009,
-			20424010,
-			20424011,
-			20424012,
-			20424013,
-			20424014,
-			20424020,
-			20424021,
-			20424022,
-			20424023,
-			20424024,
-			20424025,
-			20424026,
-			20424027,
-			20424028,
-			20424029,
-			20424030,
-			20424031,
-			20424032,
-			20424033,
-			20424034,
-			20424060
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2042412] = {
-		action_index = "fangyu",
-		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp1_子母弹lv3",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 16,
-		corrected = 125,
-		min_range = 0,
-		id = 2042412,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 900,
-		queue = 6,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20424000,
-			20424001,
-			20424002,
-			20424003,
-			20424004,
-			20424005,
-			20424006,
-			20424007,
-			20424008,
-			20424009,
-			20424010,
-			20424011,
-			20424012,
-			20424013,
-			20424014,
-			20424020,
-			20424021,
-			20424022,
-			20424023,
-			20424024,
-			20424025,
-			20424026,
-			20424027,
-			20424028,
-			20424029,
-			20424030,
-			20424031,
-			20424032,
-			20424033,
-			20424034,
-			20435400
-		},
-		barrage_ID = {
-			20424000,
-			20424001,
-			20424002,
-			20424003,
-			20424004,
-			20424005,
-			20424006,
-			20424007,
-			20424008,
-			20424009,
-			20424010,
-			20424011,
-			20424012,
-			20424013,
-			20424014,
-			20424020,
-			20424021,
-			20424022,
-			20424023,
-			20424024,
-			20424025,
-			20424026,
-			20424027,
-			20424028,
-			20424029,
-			20424030,
-			20424031,
-			20424032,
-			20424033,
-			20424034,
-			20424060
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2042413] = {
-		action_index = "fangyu",
-		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp1_子母弹lv4",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 16,
-		corrected = 125,
-		min_range = 0,
-		id = 2042413,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 900,
-		queue = 6,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20424000,
-			20424001,
-			20424002,
-			20424003,
-			20424004,
-			20424005,
-			20424006,
-			20424007,
-			20424008,
-			20424009,
-			20424010,
-			20424011,
-			20424012,
-			20424013,
-			20424014,
-			20424020,
-			20424021,
-			20424022,
-			20424023,
-			20424024,
-			20424025,
-			20424026,
-			20424027,
-			20424028,
-			20424029,
-			20424030,
-			20424031,
-			20424032,
-			20424033,
-			20424034,
-			20435400
-		},
-		barrage_ID = {
-			20424000,
-			20424001,
-			20424002,
-			20424003,
-			20424004,
-			20424005,
-			20424006,
-			20424007,
-			20424008,
-			20424009,
-			20424010,
-			20424011,
-			20424012,
-			20424013,
-			20424014,
-			20424020,
-			20424021,
-			20424022,
-			20424023,
-			20424024,
-			20424025,
-			20424026,
-			20424027,
-			20424028,
-			20424029,
-			20424030,
-			20424031,
-			20424032,
-			20424033,
-			20424034,
-			20424060
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2042414] = {
-		action_index = "fangyu",
-		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp1_子母弹lv5",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 16,
-		corrected = 125,
-		min_range = 0,
-		id = 2042414,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 900,
-		queue = 6,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20424000,
-			20424001,
-			20424002,
-			20424003,
-			20424004,
-			20424005,
-			20424006,
-			20424007,
-			20424008,
-			20424009,
-			20424010,
-			20424011,
-			20424012,
-			20424013,
-			20424014,
-			20424020,
-			20424021,
-			20424022,
-			20424023,
-			20424024,
-			20424025,
-			20424026,
-			20424027,
-			20424028,
-			20424029,
-			20424030,
-			20424031,
-			20424032,
-			20424033,
-			20424034,
-			20435400
-		},
-		barrage_ID = {
-			20424000,
-			20424001,
-			20424002,
-			20424003,
-			20424004,
-			20424005,
-			20424006,
-			20424007,
-			20424008,
-			20424009,
-			20424010,
-			20424011,
-			20424012,
-			20424013,
-			20424014,
-			20424020,
-			20424021,
-			20424022,
-			20424023,
-			20424024,
-			20424025,
-			20424026,
-			20424027,
-			20424028,
-			20424029,
-			20424030,
-			20424031,
-			20424032,
-			20424033,
-			20424034,
-			20424060
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2042500] = {
-		action_index = "fangyu",
-		range = 100,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp1_雷电扩散弹lv1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 40,
+		damage = 8,
 		corrected = 100,
 		min_range = 0,
-		id = 2042500,
+		id = 2965024,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			20425000,
-			20425001
-		},
-		barrage_ID = {
-			20425000,
-			20425001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2042501] = {
-		action_index = "fangyu",
-		range = 100,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp1_雷电扩散弹lv2",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 2042501,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			20425000,
-			20425001
-		},
-		barrage_ID = {
-			20425000,
-			20425001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2042502] = {
-		action_index = "fangyu",
-		range = 100,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp1_雷电扩散弹lv3",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 2042502,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			20425000,
-			20425001
-		},
-		barrage_ID = {
-			20425000,
-			20425001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2042503] = {
-		action_index = "fangyu",
-		range = 100,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp1_雷电扩散弹lv4",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 2042503,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			20425000,
-			20425001
-		},
-		barrage_ID = {
-			20425000,
-			20425001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2042504] = {
-		action_index = "fangyu",
-		range = 100,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp1_雷电扩散弹lv5",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 2042504,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			20425000,
-			20425001
-		},
-		barrage_ID = {
-			20425000,
-			20425001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2042510] = {
-		action_index = "fangyu",
-		range = 80,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp2_雷电扩散弹lv1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 2042510,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
+		attack_attribute = 4,
+		reload_max = 300,
 		queue = 2,
 		search_type = 1,
-		effect_move = 0,
+		effect_move = 1,
 		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
-		bullet_ID = {
-			20425100,
-			20425101
-		},
+		bullet_ID = {},
 		barrage_ID = {
-			20425100,
-			20425101
+			29643079
 		},
 		oxy_type = {
 			1
@@ -1064,443 +500,369 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_398[2042511] = {
-		action_index = "fangyu",
-		range = 80,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp2_雷电扩散弹lv2",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 2042511,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20425100,
-			20425101
-		},
-		barrage_ID = {
-			20425100,
-			20425101
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2042512] = {
-		action_index = "fangyu",
-		range = 80,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp2_雷电扩散弹lv3",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 2042512,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20425100,
-			20425101
-		},
-		barrage_ID = {
-			20425100,
-			20425101
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2042513] = {
-		action_index = "fangyu",
-		range = 80,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp2_雷电扩散弹lv4",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 2042513,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20425100,
-			20425101
-		},
-		barrage_ID = {
-			20425100,
-			20425101
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2042514] = {
-		action_index = "fangyu",
-		range = 80,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp2_雷电扩散弹lv5",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 2042514,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20425100,
-			20425101
-		},
-		barrage_ID = {
-			20425100,
-			20425101
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2042520] = {
-		action_index = "fangyu",
-		range = 80,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp3_雷电扩散弹lv1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 2042520,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20425100,
-			20425101
-		},
-		barrage_ID = {
-			20425100,
-			20425101
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2042521] = {
-		action_index = "fangyu",
-		range = 80,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp3_雷电扩散弹lv2",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 2042521,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20425100,
-			20425101
-		},
-		barrage_ID = {
-			20425100,
-			20425101
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2042522] = {
-		action_index = "fangyu",
-		range = 80,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp3_雷电扩散弹lv3",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 2042522,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20425100,
-			20425101
-		},
-		barrage_ID = {
-			20425100,
-			20425101
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2042523] = {
-		action_index = "fangyu",
-		range = 80,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp3_雷电扩散弹lv4",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 2042523,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20425100,
-			20425101
-		},
-		barrage_ID = {
-			20425100,
-			20425101
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2042524] = {
-		action_index = "fangyu",
-		range = 80,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_防御形态sp3_雷电扩散弹lv5",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 2042524,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20425100,
-			20425101
-		},
-		barrage_ID = {
-			20425100,
-			20425101
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2042900] = {
+	uv0.weapon_property_398[2965030] = {
 		action_index = "",
-		range = 100,
+		range = 85,
+		type = 1,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第一波 飞机武器 机枪 LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 2,
+		corrected = 100,
+		min_range = 0,
+		id = 2965030,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643007
+		},
+		barrage_ID = {
+			29643013
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_398[2965031] = {
+		action_index = "",
+		range = 85,
+		type = 1,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第一波 飞机武器 机枪 LV2",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 4,
+		corrected = 100,
+		min_range = 0,
+		id = 2965031,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643007
+		},
+		barrage_ID = {
+			29643013
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_398[2965032] = {
+		action_index = "",
+		range = 85,
+		type = 1,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第一波 飞机武器 机枪 LV3",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 6,
+		corrected = 100,
+		min_range = 0,
+		id = 2965032,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643007
+		},
+		barrage_ID = {
+			29643013
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_398[2965033] = {
+		action_index = "",
+		range = 85,
+		type = 1,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第一波 飞机武器 机枪 LV4",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 8,
+		corrected = 100,
+		min_range = 0,
+		id = 2965033,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643007
+		},
+		barrage_ID = {
+			29643013
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_398[2965034] = {
+		action_index = "",
+		range = 85,
+		type = 1,
+		fire_fx = "fangkongpaohuoshe2",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第一波 飞机武器 机枪 LV5",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 2965034,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 1650,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643007
+		},
+		barrage_ID = {
+			29643013
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_398[2965040] = {
+		aim_type = 1,
+		range = 30,
+		damage = 12,
+		base = 1001,
+		name = "【大世界】黑方舟 第一波 飞机武器 鱼雷 LV1",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 900,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		queue = 2,
+		id = 2965040,
+		type = 3,
+		action_index = "",
+		bullet_ID = {
+			29643008,
+			29643009
+		},
+		barrage_ID = {
+			29643014,
+			29643014
+		}
+	}
+	uv0.weapon_property_398[2965041] = {
+		aim_type = 1,
+		range = 30,
+		damage = 24,
+		base = 1001,
+		name = "【大世界】黑方舟 第一波 飞机武器 鱼雷 LV2",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 900,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		queue = 2,
+		id = 2965041,
+		type = 3,
+		action_index = "",
+		bullet_ID = {
+			29643008,
+			29643009
+		},
+		barrage_ID = {
+			29643014,
+			29643014
+		}
+	}
+	uv0.weapon_property_398[2965042] = {
+		aim_type = 1,
+		range = 30,
+		damage = 36,
+		base = 1001,
+		name = "【大世界】黑方舟 第一波 飞机武器 鱼雷 LV3",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 900,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		queue = 2,
+		id = 2965042,
+		type = 3,
+		action_index = "",
+		bullet_ID = {
+			29643008,
+			29643009
+		},
+		barrage_ID = {
+			29643014,
+			29643014
+		}
+	}
+	uv0.weapon_property_398[2965043] = {
+		aim_type = 1,
+		range = 30,
+		damage = 48,
+		base = 1001,
+		name = "【大世界】黑方舟 第一波 飞机武器 鱼雷 LV4",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 900,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		queue = 2,
+		id = 2965043,
+		type = 3,
+		action_index = "",
+		bullet_ID = {
+			29643008,
+			29643009
+		},
+		barrage_ID = {
+			29643014,
+			29643014
+		}
+	}
+	uv0.weapon_property_398[2965044] = {
+		aim_type = 1,
+		range = 30,
+		damage = 60,
+		base = 1001,
+		name = "【大世界】黑方舟 第一波 飞机武器 鱼雷 LV5",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 900,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		queue = 2,
+		id = 2965044,
+		type = 3,
+		action_index = "",
+		bullet_ID = {
+			29643008,
+			29643009
+		},
+		barrage_ID = {
+			29643014,
+			29643014
+		}
+	}
+	uv0.weapon_property_398[2965050] = {
+		action_index = "attack",
+		range = 120,
 		type = 1,
 		fire_fx = "",
-		recover_time = 0.5,
+		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_剧情s2-6_重力子弹",
-		aim_type = 1,
+		name = "【大世界】黑方舟 第二波 剑气1 LV1",
+		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 360,
 		charge_param = "",
-		damage = 0,
+		damage = 40,
 		corrected = 100,
 		min_range = 0,
-		id = 2042900,
+		id = 2965050,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 2800,
-		queue = 99,
+		reload_max = 1800,
+		queue = 1,
 		search_type = 1,
 		effect_move = 0,
 		suppress = 0,
@@ -1509,10 +871,10 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			20429000
+			29643010
 		},
 		barrage_ID = {
-			20133200
+			29643015
 		},
 		oxy_type = {
 			1
@@ -1522,15 +884,521 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_398[2042910] = {
+	uv0.weapon_property_398[2965051] = {
 		action_index = "attack",
-		range = 80,
+		range = 120,
 		type = 1,
-		fire_fx = "CLFire",
+		fire_fx = "",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_剧情s2-6_雷电扩散弹",
+		name = "【大世界】黑方舟 第二波 剑气1 LV2",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 55,
+		corrected = 100,
+		min_range = 0,
+		id = 2965051,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_398[2965052] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气1 LV3",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 70,
+		corrected = 100,
+		min_range = 0,
+		id = 2965052,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_398[2965053] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气1 LV4",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 85,
+		corrected = 100,
+		min_range = 0,
+		id = 2965053,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_398[2965054] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气1 LV5",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 100,
+		corrected = 100,
+		min_range = 0,
+		id = 2965054,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_398[2965060] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气2 LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 40,
+		corrected = 100,
+		min_range = 0,
+		id = 2965060,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643016
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_398[2965061] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气2 LV2",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 55,
+		corrected = 100,
+		min_range = 0,
+		id = 2965061,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643016
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_398[2965062] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气2 LV3",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 70,
+		corrected = 100,
+		min_range = 0,
+		id = 2965062,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643016
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_398[2965063] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气2 LV4",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 85,
+		corrected = 100,
+		min_range = 0,
+		id = 2965063,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643016
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_398[2965064] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气2 LV5",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 100,
+		corrected = 100,
+		min_range = 0,
+		id = 2965064,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643016
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_398[2965070] = {
+		aim_type = 0,
+		range = 120,
+		damage = 2,
+		base = 1000,
+		name = "【大世界】黑方舟 第二波 横排步枪1 LV1",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965070,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643011
+		},
+		barrage_ID = {
+			29643017
+		}
+	}
+	uv0.weapon_property_398[2965071] = {
+		aim_type = 0,
+		range = 120,
+		damage = 4,
+		base = 1000,
+		name = "【大世界】黑方舟 第二波 横排步枪1 LV2",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965071,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643011
+		},
+		barrage_ID = {
+			29643017
+		}
+	}
+	uv0.weapon_property_398[2965072] = {
+		aim_type = 0,
+		range = 120,
+		damage = 6,
+		base = 1000,
+		name = "【大世界】黑方舟 第二波 横排步枪1 LV3",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965072,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643011
+		},
+		barrage_ID = {
+			29643017
+		}
+	}
+	uv0.weapon_property_398[2965073] = {
+		aim_type = 0,
+		range = 120,
+		damage = 8,
+		base = 1000,
+		name = "【大世界】黑方舟 第二波 横排步枪1 LV4",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965073,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643011
+		},
+		barrage_ID = {
+			29643017
+		}
+	}
+	uv0.weapon_property_398[2965074] = {
+		aim_type = 0,
+		range = 120,
+		damage = 10,
+		base = 1000,
+		name = "【大世界】黑方舟 第二波 横排步枪1 LV5",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965074,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643011
+		},
+		barrage_ID = {
+			29643017
+		}
+	}
+	uv0.weapon_property_398[2965080] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气3 LV1",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
@@ -1539,2331 +1407,777 @@ function ()
 		damage = 40,
 		corrected = 100,
 		min_range = 0,
-		id = 2042910,
+		id = 2965080,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		reload_max = 1450,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643019
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_398[2965081] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气3 LV2",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 55,
+		corrected = 100,
+		min_range = 0,
+		id = 2965081,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643019
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_398[2965082] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气3 LV3",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 70,
+		corrected = 100,
+		min_range = 0,
+		id = 2965082,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643019
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_398[2965083] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气3 LV4",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 85,
+		corrected = 100,
+		min_range = 0,
+		id = 2965083,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643019
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_398[2965084] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气3 LV5",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 100,
+		corrected = 100,
+		min_range = 0,
+		id = 2965084,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643019
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_398[2965090] = {
+		aim_type = 0,
+		range = 120,
+		damage = 2,
+		base = 1000,
+		name = "【大世界】黑方舟 第二波 横排步枪2 LV1",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965090,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643013
+		},
+		barrage_ID = {
+			29643020
+		}
+	}
+	uv0.weapon_property_398[2965091] = {
+		aim_type = 0,
+		range = 120,
+		damage = 4,
+		base = 1000,
+		name = "【大世界】黑方舟 第二波 横排步枪2 LV2",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965091,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643013
+		},
+		barrage_ID = {
+			29643020
+		}
+	}
+	uv0.weapon_property_398[2965092] = {
+		aim_type = 0,
+		range = 120,
+		damage = 6,
+		base = 1000,
+		name = "【大世界】黑方舟 第二波 横排步枪2 LV3",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965092,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643013
+		},
+		barrage_ID = {
+			29643020
+		}
+	}
+	uv0.weapon_property_398[2965093] = {
+		aim_type = 0,
+		range = 120,
+		damage = 8,
+		base = 1000,
+		name = "【大世界】黑方舟 第二波 横排步枪2 LV4",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965093,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643013
+		},
+		barrage_ID = {
+			29643020
+		}
+	}
+	uv0.weapon_property_398[2965094] = {
+		aim_type = 0,
+		range = 120,
+		damage = 10,
+		base = 1000,
+		name = "【大世界】黑方舟 第二波 横排步枪2 LV5",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965094,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643013
+		},
+		barrage_ID = {
+			29643020
+		}
+	}
+	uv0.weapon_property_398[2965100] = {
+		aim_type = 0,
+		range = 120,
+		damage = 2,
+		base = 1000,
+		name = "【大世界】黑方舟 第三波 步枪弹幕 LV1",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 30,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965100,
+		type = 1,
+		action_index = "",
+		bullet_ID = {
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017
+		},
+		barrage_ID = {
+			29643022,
+			29643023,
+			29643024,
+			29643025,
+			29643026,
+			29643027,
+			29643028,
+			29643029,
+			29643030,
+			29643031,
+			29643032,
+			29643033,
+			29643034,
+			29643035,
+			29643036,
+			29643037,
+			29643038,
+			29643039,
+			29643040,
+			29643041,
+			29643042,
+			29643043,
+			29643044,
+			29643045
+		}
+	}
+	uv0.weapon_property_398[2965101] = {
+		aim_type = 0,
+		range = 120,
+		damage = 4,
+		base = 1000,
+		name = "【大世界】黑方舟 第三波 步枪弹幕 LV2",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 30,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965101,
+		type = 1,
+		action_index = "",
+		bullet_ID = {
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017
+		},
+		barrage_ID = {
+			29643022,
+			29643023,
+			29643024,
+			29643025,
+			29643026,
+			29643027,
+			29643028,
+			29643029,
+			29643030,
+			29643031,
+			29643032,
+			29643033,
+			29643034,
+			29643035,
+			29643036,
+			29643037,
+			29643038,
+			29643039,
+			29643040,
+			29643041,
+			29643042,
+			29643043,
+			29643044,
+			29643045
+		}
+	}
+	uv0.weapon_property_398[2965102] = {
+		aim_type = 0,
+		range = 120,
+		damage = 6,
+		base = 1000,
+		name = "【大世界】黑方舟 第三波 步枪弹幕 LV3",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 30,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965102,
+		type = 1,
+		action_index = "",
+		bullet_ID = {
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017
+		},
+		barrage_ID = {
+			29643022,
+			29643023,
+			29643024,
+			29643025,
+			29643026,
+			29643027,
+			29643028,
+			29643029,
+			29643030,
+			29643031,
+			29643032,
+			29643033,
+			29643034,
+			29643035,
+			29643036,
+			29643037,
+			29643038,
+			29643039,
+			29643040,
+			29643041,
+			29643042,
+			29643043,
+			29643044,
+			29643045
+		}
+	}
+	uv0.weapon_property_398[2965103] = {
+		aim_type = 0,
+		range = 120,
+		damage = 8,
+		base = 1000,
+		name = "【大世界】黑方舟 第三波 步枪弹幕 LV4",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 30,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965103,
+		type = 1,
+		action_index = "",
+		bullet_ID = {
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017
+		},
+		barrage_ID = {
+			29643022,
+			29643023,
+			29643024,
+			29643025,
+			29643026,
+			29643027,
+			29643028,
+			29643029,
+			29643030,
+			29643031,
+			29643032,
+			29643033,
+			29643034,
+			29643035,
+			29643036,
+			29643037,
+			29643038,
+			29643039,
+			29643040,
+			29643041,
+			29643042,
+			29643043,
+			29643044,
+			29643045
+		}
+	}
+	uv0.weapon_property_398[2965104] = {
+		aim_type = 0,
+		range = 120,
+		damage = 10,
+		base = 1000,
+		name = "【大世界】黑方舟 第三波 步枪弹幕 LV5",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 30,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965104,
+		type = 1,
+		action_index = "",
+		bullet_ID = {
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017
+		},
+		barrage_ID = {
+			29643022,
+			29643023,
+			29643024,
+			29643025,
+			29643026,
+			29643027,
+			29643028,
+			29643029,
+			29643030,
+			29643031,
+			29643032,
+			29643033,
+			29643034,
+			29643035,
+			29643036,
+			29643037,
+			29643038,
+			29643039,
+			29643040,
+			29643041,
+			29643042,
+			29643043,
+			29643044,
+			29643045
+		}
+	}
+	uv0.weapon_property_398[2965110] = {
+		aim_type = 0,
+		range = 120,
+		damage = 2,
+		base = 1000,
+		name = "【大世界】黑方舟 第三波 子母弹 LV1",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 30,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
 		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
+		id = 2965110,
+		type = 1,
+		action_index = "",
 		bullet_ID = {
-			20425100,
-			20425101
+			29643018,
+			29643019
 		},
 		barrage_ID = {
-			20425100,
-			20425101
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			29643048,
+			29643049
+		}
 	}
-	uv0.weapon_property_398[2042920] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_剧情s2-6_主炮",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 20,
-		corrected = 100,
-		min_range = 0,
-		id = 2042920,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20429200
-		},
-		barrage_ID = {
-			20429200
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2042930] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS重巡_剧情s2-6_副炮",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 12,
-		corrected = 100,
-		min_range = 0,
-		id = 2042930,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1100,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20429300,
-			20429300,
-			20429300
-		},
-		barrage_ID = {
-			20429300,
-			20429301,
-			20429302
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2043000] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p1_子母弹lv1",
+	uv0.weapon_property_398[2965111] = {
 		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 2043000,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
+		range = 120,
+		damage = 4,
+		base = 1000,
+		name = "【大世界】黑方舟 第三波 子母弹 LV2",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 30,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430000,
-			20430001,
-			20430002,
-			20430003
-		},
-		barrage_ID = {
-			20430000,
-			20430001,
-			20430002,
-			20430003
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2043001] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p1_子母弹lv2",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 2043001,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430000,
-			20430001,
-			20430002,
-			20430003
-		},
-		barrage_ID = {
-			20430000,
-			20430001,
-			20430002,
-			20430003
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2043002] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p1_子母弹lv3",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 2043002,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430000,
-			20430001,
-			20430002,
-			20430003
-		},
-		barrage_ID = {
-			20430000,
-			20430001,
-			20430002,
-			20430003
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2043003] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p1_子母弹lv4",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 2043003,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430000,
-			20430001,
-			20430002,
-			20430003
-		},
-		barrage_ID = {
-			20430000,
-			20430001,
-			20430002,
-			20430003
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2043004] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p1_子母弹lv5",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 2043004,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430000,
-			20430001,
-			20430002,
-			20430003
-		},
-		barrage_ID = {
-			20430000,
-			20430001,
-			20430002,
-			20430003
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2043010] = {
-		action_index = "attack",
-		range = 75,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p1_跨射前排lv1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 28,
-		corrected = 100,
-		min_range = 0,
-		id = 2043010,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
 		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+		id = 2965111,
+		type = 1,
+		action_index = "",
 		bullet_ID = {
-			20430100,
-			20430101,
-			20430102,
-			20430103,
-			20430104,
-			20430105,
-			20430106,
-			20430107,
-			20430108,
-			20430109,
-			20430110,
-			20430111,
-			20430120,
-			20430121,
-			20430122,
-			20430123,
-			20430124,
-			20430125,
-			20430126,
-			20430127,
-			20430128,
-			20430129,
-			20430130,
-			20430131,
-			20430140,
-			20430141,
-			20430142,
-			20430143,
-			20430144,
-			20430145,
-			20430146,
-			20430147,
-			20430148,
-			20430149,
-			20430150,
-			20430151
+			29643018,
+			29643019
 		},
 		barrage_ID = {
-			20430100,
-			20430101,
-			20430102,
-			20430103,
-			20430104,
-			20430105,
-			20430106,
-			20430107,
-			20430108,
-			20430109,
-			20430110,
-			20430111,
-			20430120,
-			20430121,
-			20430122,
-			20430123,
-			20430124,
-			20430125,
-			20430126,
-			20430127,
-			20430128,
-			20430129,
-			20430130,
-			20430131,
-			20430140,
-			20430141,
-			20430142,
-			20430143,
-			20430144,
-			20430145,
-			20430146,
-			20430147,
-			20430148,
-			20430149,
-			20430150,
-			20430151
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 1.5,
-			isBound = true
+			29643048,
+			29643049
 		}
 	}
-	uv0.weapon_property_398[2043011] = {
-		action_index = "attack",
-		range = 75,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p1_跨射前排lv2",
+	uv0.weapon_property_398[2965112] = {
 		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 28,
-		corrected = 100,
-		min_range = 0,
-		id = 2043011,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
+		range = 120,
+		damage = 6,
+		base = 1000,
+		name = "【大世界】黑方舟 第三波 子母弹 LV3",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 30,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
 		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+		id = 2965112,
+		type = 1,
+		action_index = "",
 		bullet_ID = {
-			20430100,
-			20430101,
-			20430102,
-			20430103,
-			20430104,
-			20430105,
-			20430106,
-			20430107,
-			20430108,
-			20430109,
-			20430110,
-			20430111,
-			20430120,
-			20430121,
-			20430122,
-			20430123,
-			20430124,
-			20430125,
-			20430126,
-			20430127,
-			20430128,
-			20430129,
-			20430130,
-			20430131,
-			20430140,
-			20430141,
-			20430142,
-			20430143,
-			20430144,
-			20430145,
-			20430146,
-			20430147,
-			20430148,
-			20430149,
-			20430150,
-			20430151
+			29643018,
+			29643019
 		},
 		barrage_ID = {
-			20430100,
-			20430101,
-			20430102,
-			20430103,
-			20430104,
-			20430105,
-			20430106,
-			20430107,
-			20430108,
-			20430109,
-			20430110,
-			20430111,
-			20430120,
-			20430121,
-			20430122,
-			20430123,
-			20430124,
-			20430125,
-			20430126,
-			20430127,
-			20430128,
-			20430129,
-			20430130,
-			20430131,
-			20430140,
-			20430141,
-			20430142,
-			20430143,
-			20430144,
-			20430145,
-			20430146,
-			20430147,
-			20430148,
-			20430149,
-			20430150,
-			20430151
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 1.5,
-			isBound = true
+			29643048,
+			29643049
 		}
 	}
-	uv0.weapon_property_398[2043012] = {
-		action_index = "attack",
-		range = 75,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p1_跨射前排lv3",
+	uv0.weapon_property_398[2965113] = {
 		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 28,
-		corrected = 100,
-		min_range = 0,
-		id = 2043012,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
+		range = 120,
+		damage = 8,
+		base = 1000,
+		name = "【大世界】黑方舟 第三波 子母弹 LV4",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 30,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
 		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+		id = 2965113,
+		type = 1,
+		action_index = "",
 		bullet_ID = {
-			20430100,
-			20430101,
-			20430102,
-			20430103,
-			20430104,
-			20430105,
-			20430106,
-			20430107,
-			20430108,
-			20430109,
-			20430110,
-			20430111,
-			20430120,
-			20430121,
-			20430122,
-			20430123,
-			20430124,
-			20430125,
-			20430126,
-			20430127,
-			20430128,
-			20430129,
-			20430130,
-			20430131,
-			20430140,
-			20430141,
-			20430142,
-			20430143,
-			20430144,
-			20430145,
-			20430146,
-			20430147,
-			20430148,
-			20430149,
-			20430150,
-			20430151
+			29643018,
+			29643019
 		},
 		barrage_ID = {
-			20430100,
-			20430101,
-			20430102,
-			20430103,
-			20430104,
-			20430105,
-			20430106,
-			20430107,
-			20430108,
-			20430109,
-			20430110,
-			20430111,
-			20430120,
-			20430121,
-			20430122,
-			20430123,
-			20430124,
-			20430125,
-			20430126,
-			20430127,
-			20430128,
-			20430129,
-			20430130,
-			20430131,
-			20430140,
-			20430141,
-			20430142,
-			20430143,
-			20430144,
-			20430145,
-			20430146,
-			20430147,
-			20430148,
-			20430149,
-			20430150,
-			20430151
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 1.5,
-			isBound = true
+			29643048,
+			29643049
 		}
 	}
-	uv0.weapon_property_398[2043013] = {
-		action_index = "attack",
-		range = 75,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p1_跨射前排lv4",
+	uv0.weapon_property_398[2965114] = {
 		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 28,
-		corrected = 100,
-		min_range = 0,
-		id = 2043013,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
+		range = 120,
+		damage = 10,
+		base = 1000,
+		name = "【大世界】黑方舟 第三波 子母弹 LV5",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 30,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
 		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+		id = 2965114,
+		type = 1,
+		action_index = "",
 		bullet_ID = {
-			20430100,
-			20430101,
-			20430102,
-			20430103,
-			20430104,
-			20430105,
-			20430106,
-			20430107,
-			20430108,
-			20430109,
-			20430110,
-			20430111,
-			20430120,
-			20430121,
-			20430122,
-			20430123,
-			20430124,
-			20430125,
-			20430126,
-			20430127,
-			20430128,
-			20430129,
-			20430130,
-			20430131,
-			20430140,
-			20430141,
-			20430142,
-			20430143,
-			20430144,
-			20430145,
-			20430146,
-			20430147,
-			20430148,
-			20430149,
-			20430150,
-			20430151
+			29643018,
+			29643019
 		},
 		barrage_ID = {
-			20430100,
-			20430101,
-			20430102,
-			20430103,
-			20430104,
-			20430105,
-			20430106,
-			20430107,
-			20430108,
-			20430109,
-			20430110,
-			20430111,
-			20430120,
-			20430121,
-			20430122,
-			20430123,
-			20430124,
-			20430125,
-			20430126,
-			20430127,
-			20430128,
-			20430129,
-			20430130,
-			20430131,
-			20430140,
-			20430141,
-			20430142,
-			20430143,
-			20430144,
-			20430145,
-			20430146,
-			20430147,
-			20430148,
-			20430149,
-			20430150,
-			20430151
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 1.5,
-			isBound = true
+			29643048,
+			29643049
 		}
-	}
-	uv0.weapon_property_398[2043014] = {
-		action_index = "attack",
-		range = 75,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p1_跨射前排lv5",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 28,
-		corrected = 100,
-		min_range = 0,
-		id = 2043014,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
-		queue = 2,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430100,
-			20430101,
-			20430102,
-			20430103,
-			20430104,
-			20430105,
-			20430106,
-			20430107,
-			20430108,
-			20430109,
-			20430110,
-			20430111,
-			20430120,
-			20430121,
-			20430122,
-			20430123,
-			20430124,
-			20430125,
-			20430126,
-			20430127,
-			20430128,
-			20430129,
-			20430130,
-			20430131,
-			20430140,
-			20430141,
-			20430142,
-			20430143,
-			20430144,
-			20430145,
-			20430146,
-			20430147,
-			20430148,
-			20430149,
-			20430150,
-			20430151
-		},
-		barrage_ID = {
-			20430100,
-			20430101,
-			20430102,
-			20430103,
-			20430104,
-			20430105,
-			20430106,
-			20430107,
-			20430108,
-			20430109,
-			20430110,
-			20430111,
-			20430120,
-			20430121,
-			20430122,
-			20430123,
-			20430124,
-			20430125,
-			20430126,
-			20430127,
-			20430128,
-			20430129,
-			20430130,
-			20430131,
-			20430140,
-			20430141,
-			20430142,
-			20430143,
-			20430144,
-			20430145,
-			20430146,
-			20430147,
-			20430148,
-			20430149,
-			20430150,
-			20430151
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 1.5,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_398[2043020] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p1_小火球lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 2043020,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
-		queue = 6,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430200,
-			20430201,
-			20430202,
-			20430203,
-			20430210,
-			20430211,
-			20430212,
-			20430213,
-			20430200,
-			20430201,
-			20430202,
-			20430203,
-			20430210,
-			20430211,
-			20430212,
-			20430213
-		},
-		barrage_ID = {
-			20430200,
-			20430201,
-			20430202,
-			20430203,
-			20430210,
-			20430211,
-			20430212,
-			20430213,
-			20430220,
-			20430221,
-			20430222,
-			20430223,
-			20430230,
-			20430231,
-			20430232,
-			20430233
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2043021] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p1_小火球lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 2043021,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
-		queue = 6,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430200,
-			20430201,
-			20430202,
-			20430203,
-			20430210,
-			20430211,
-			20430212,
-			20430213,
-			20430200,
-			20430201,
-			20430202,
-			20430203,
-			20430210,
-			20430211,
-			20430212,
-			20430213
-		},
-		barrage_ID = {
-			20430200,
-			20430201,
-			20430202,
-			20430203,
-			20430210,
-			20430211,
-			20430212,
-			20430213,
-			20430220,
-			20430221,
-			20430222,
-			20430223,
-			20430230,
-			20430231,
-			20430232,
-			20430233
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2043022] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p1_小火球lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 2043022,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
-		queue = 6,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430200,
-			20430201,
-			20430202,
-			20430203,
-			20430210,
-			20430211,
-			20430212,
-			20430213,
-			20430200,
-			20430201,
-			20430202,
-			20430203,
-			20430210,
-			20430211,
-			20430212,
-			20430213
-		},
-		barrage_ID = {
-			20430200,
-			20430201,
-			20430202,
-			20430203,
-			20430210,
-			20430211,
-			20430212,
-			20430213,
-			20430220,
-			20430221,
-			20430222,
-			20430223,
-			20430230,
-			20430231,
-			20430232,
-			20430233
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2043023] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p1_小火球lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 2043023,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
-		queue = 6,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430200,
-			20430201,
-			20430202,
-			20430203,
-			20430210,
-			20430211,
-			20430212,
-			20430213,
-			20430200,
-			20430201,
-			20430202,
-			20430203,
-			20430210,
-			20430211,
-			20430212,
-			20430213
-		},
-		barrage_ID = {
-			20430200,
-			20430201,
-			20430202,
-			20430203,
-			20430210,
-			20430211,
-			20430212,
-			20430213,
-			20430220,
-			20430221,
-			20430222,
-			20430223,
-			20430230,
-			20430231,
-			20430232,
-			20430233
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2043024] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p1_小火球lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 2043024,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
-		queue = 6,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430200,
-			20430201,
-			20430202,
-			20430203,
-			20430210,
-			20430211,
-			20430212,
-			20430213,
-			20430200,
-			20430201,
-			20430202,
-			20430203,
-			20430210,
-			20430211,
-			20430212,
-			20430213
-		},
-		barrage_ID = {
-			20430200,
-			20430201,
-			20430202,
-			20430203,
-			20430210,
-			20430211,
-			20430212,
-			20430213,
-			20430220,
-			20430221,
-			20430222,
-			20430223,
-			20430230,
-			20430231,
-			20430232,
-			20430233
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_398[2043050] = {
-		action_index = "attack",
-		range = 150,
-		type = 1,
-		fire_fx = "shenyuanFire01",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p2_跨射一段高点燃lv1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 60,
-		corrected = 100,
-		min_range = 92,
-		id = 2043050,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 7,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430500,
-			20430501,
-			20430502,
-			20430503,
-			20430504,
-			20430505,
-			20430506
-		},
-		barrage_ID = {
-			20430500,
-			20430500,
-			20430500,
-			20430501,
-			20430500,
-			20430500,
-			20430501
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 5,
-			armor = 24000,
-			fx = "jinengenemy",
-			isBound = true
-		}
-	}
-	uv0.weapon_property_398[2043051] = {
-		action_index = "attack",
-		range = 150,
-		type = 1,
-		fire_fx = "shenyuanFire01",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p2_跨射一段高点燃lv2",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 60,
-		corrected = 100,
-		min_range = 92,
-		id = 2043051,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 7,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430500,
-			20430501,
-			20430502,
-			20430503,
-			20430504,
-			20430505,
-			20430506
-		},
-		barrage_ID = {
-			20430500,
-			20430500,
-			20430500,
-			20430501,
-			20430500,
-			20430500,
-			20430501
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 5,
-			armor = 26000,
-			fx = "jinengenemy",
-			isBound = true
-		}
-	}
-	uv0.weapon_property_398[2043052] = {
-		action_index = "attack",
-		range = 150,
-		type = 1,
-		fire_fx = "shenyuanFire01",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p2_跨射一段高点燃lv3",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 60,
-		corrected = 100,
-		min_range = 92,
-		id = 2043052,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 7,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430500,
-			20430501,
-			20430502,
-			20430503,
-			20430504,
-			20430505,
-			20430506
-		},
-		barrage_ID = {
-			20430500,
-			20430500,
-			20430500,
-			20430501,
-			20430500,
-			20430500,
-			20430501
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 5,
-			armor = 28000,
-			fx = "jinengenemy",
-			isBound = true
-		}
-	}
-	uv0.weapon_property_398[2043053] = {
-		action_index = "attack",
-		range = 150,
-		type = 1,
-		fire_fx = "shenyuanFire01",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p2_跨射一段高点燃lv4",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 60,
-		corrected = 100,
-		min_range = 92,
-		id = 2043053,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 7,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430500,
-			20430501,
-			20430502,
-			20430503,
-			20430504,
-			20430505,
-			20430506
-		},
-		barrage_ID = {
-			20430500,
-			20430500,
-			20430500,
-			20430501,
-			20430500,
-			20430500,
-			20430501
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 5,
-			armor = 30000,
-			fx = "jinengenemy",
-			isBound = true
-		}
-	}
-	uv0.weapon_property_398[2043054] = {
-		action_index = "attack",
-		range = 150,
-		type = 1,
-		fire_fx = "shenyuanFire01",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p2_跨射一段高点燃lv5",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 60,
-		corrected = 100,
-		min_range = 92,
-		id = 2043054,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 7,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430500,
-			20430501,
-			20430502,
-			20430503,
-			20430504,
-			20430505,
-			20430506
-		},
-		barrage_ID = {
-			20430500,
-			20430500,
-			20430500,
-			20430501,
-			20430500,
-			20430500,
-			20430501
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 5,
-			armor = 32000,
-			fx = "jinengenemy",
-			isBound = true
-		}
-	}
-	uv0.weapon_property_398[2043060] = {
-		action_index = "attack",
-		range = 150,
-		type = 1,
-		fire_fx = "shenyuanFire01",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p2_跨射二段高穿甲lv1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 50,
-		corrected = 100,
-		min_range = 92,
-		id = 2043060,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 7,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430600,
-			20430601,
-			20430600,
-			20430601
-		},
-		barrage_ID = {
-			20430600,
-			20430601,
-			20430602,
-			20430603
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 5,
-			armor = 24000,
-			fx = "jinengenemy",
-			isBound = true
-		}
-	}
-	uv0.weapon_property_398[2043061] = {
-		action_index = "attack",
-		range = 150,
-		type = 1,
-		fire_fx = "shenyuanFire01",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p2_跨射二段高穿甲lv2",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 50,
-		corrected = 100,
-		min_range = 92,
-		id = 2043061,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 7,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430600,
-			20430601,
-			20430600,
-			20430601
-		},
-		barrage_ID = {
-			20430600,
-			20430601,
-			20430602,
-			20430603
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 5,
-			armor = 28000,
-			fx = "jinengenemy",
-			isBound = true
-		}
-	}
-	uv0.weapon_property_398[2043062] = {
-		action_index = "attack",
-		range = 150,
-		type = 1,
-		fire_fx = "shenyuanFire01",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p2_跨射二段高穿甲lv3",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 50,
-		corrected = 100,
-		min_range = 92,
-		id = 2043062,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 7,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430600,
-			20430601,
-			20430600,
-			20430601
-		},
-		barrage_ID = {
-			20430600,
-			20430601,
-			20430602,
-			20430603
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 5,
-			armor = 32000,
-			fx = "jinengenemy",
-			isBound = true
-		}
-	}
-	uv0.weapon_property_398[2043063] = {
-		action_index = "attack",
-		range = 150,
-		type = 1,
-		fire_fx = "shenyuanFire01",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p2_跨射二段高穿甲lv4",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 50,
-		corrected = 100,
-		min_range = 92,
-		id = 2043063,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 7,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430600,
-			20430601,
-			20430600,
-			20430601
-		},
-		barrage_ID = {
-			20430600,
-			20430601,
-			20430602,
-			20430603
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 5,
-			armor = 36000,
-			fx = "jinengenemy",
-			isBound = true
-		}
-	}
-	uv0.weapon_property_398[2043064] = {
-		action_index = "attack",
-		range = 150,
-		type = 1,
-		fire_fx = "shenyuanFire01",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p2_跨射二段高穿甲lv5",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 50,
-		corrected = 100,
-		min_range = 92,
-		id = 2043064,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 7,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430600,
-			20430601,
-			20430600,
-			20430601
-		},
-		barrage_ID = {
-			20430600,
-			20430601,
-			20430602,
-			20430603
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 5,
-			armor = 40000,
-			fx = "jinengenemy",
-			isBound = true
-		}
-	}
-	uv0.weapon_property_398[2043070] = {
-		action_index = "attack",
-		range = 150,
-		type = 1,
-		fire_fx = "shenyuanFire01",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p2_跨射三段lv1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 60,
-		corrected = 100,
-		min_range = 92,
-		id = 2043070,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 7,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430500,
-			20430501,
-			20430502,
-			20430503,
-			20430504,
-			20430505,
-			20430506
-		},
-		barrage_ID = {
-			20430500,
-			20430500,
-			20430500,
-			20430501,
-			20430500,
-			20430500,
-			20430501
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 5,
-			armor = 24000,
-			fx = "jinengenemy",
-			isBound = true
-		}
-	}
-	uv0.weapon_property_398[2043071] = {
-		action_index = "attack",
-		range = 150,
-		type = 1,
-		fire_fx = "shenyuanFire01",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p2_跨射三段lv2",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 60,
-		corrected = 100,
-		min_range = 92,
-		id = 2043071,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 7,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430500,
-			20430501,
-			20430502,
-			20430503,
-			20430504,
-			20430505,
-			20430506
-		},
-		barrage_ID = {
-			20430500,
-			20430500,
-			20430500,
-			20430501,
-			20430500,
-			20430500,
-			20430501
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 5,
-			armor = 30000,
-			fx = "jinengenemy",
-			isBound = true
-		}
-	}
-	uv0.weapon_property_398[2043072] = {
-		action_index = "attack",
-		range = 150,
-		type = 1,
-		fire_fx = "shenyuanFire01",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p2_跨射三段lv3",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 60,
-		corrected = 100,
-		min_range = 92,
-		id = 2043072,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 7,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430500,
-			20430501,
-			20430502,
-			20430503,
-			20430504,
-			20430505,
-			20430506
-		},
-		barrage_ID = {
-			20430500,
-			20430500,
-			20430500,
-			20430501,
-			20430500,
-			20430500,
-			20430501
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 5,
-			armor = 36000,
-			fx = "jinengenemy",
-			isBound = true
-		}
-	}
-	uv0.weapon_property_398[2043073] = {
-		action_index = "attack",
-		range = 150,
-		type = 1,
-		fire_fx = "shenyuanFire01",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p2_跨射三段lv4",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 60,
-		corrected = 100,
-		min_range = 92,
-		id = 2043073,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 7,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430500,
-			20430501,
-			20430502,
-			20430503,
-			20430504,
-			20430505,
-			20430506
-		},
-		barrage_ID = {
-			20430500,
-			20430500,
-			20430500,
-			20430501,
-			20430500,
-			20430500,
-			20430501
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 5,
-			armor = 42000,
-			fx = "jinengenemy",
-			isBound = true
-		}
-	}
-	uv0.weapon_property_398[2043074] = {
-		action_index = "attack",
-		range = 150,
-		type = 1,
-		fire_fx = "shenyuanFire01",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p2_跨射三段lv5",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 60,
-		corrected = 100,
-		min_range = 92,
-		id = 2043074,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 2400,
-		queue = 7,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20430500,
-			20430501,
-			20430502,
-			20430503,
-			20430504,
-			20430505,
-			20430506
-		},
-		barrage_ID = {
-			20430500,
-			20430500,
-			20430500,
-			20430501,
-			20430500,
-			20430500,
-			20430501
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 5,
-			armor = 48000,
-			fx = "jinengenemy",
-			isBound = true
-		}
-	}
-	uv0.weapon_property_398[2043100] = {
-		action_index = "attack",
-		range = 85,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【大世界】深渊BOSS战列_p2_小火球lv1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 8,
-		corrected = 100,
-		min_range = 0,
-		id = 2043100,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3600,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			20431000,
-			20431001,
-			20431002,
-			20431003,
-			20431004,
-			20431005,
-			20431006,
-			20431007,
-			20431010,
-			20431011,
-			20431012,
-			20431013,
-			20431014,
-			20431015,
-			20431016,
-			20431017,
-			20431000,
-			20431001,
-			20431002,
-			20431003,
-			20431004,
-			20431005,
-			20431006,
-			20431007,
-			20431010,
-			20431011,
-			20431012,
-			20431013,
-			20431014,
-			20431015,
-			20431016,
-			20431017
-		},
-		barrage_ID = {
-			20431000,
-			20431001,
-			20431002,
-			20431003,
-			20431004,
-			20431005,
-			20431006,
-			20431007,
-			20431010,
-			20431011,
-			20431012,
-			20431013,
-			20431014,
-			20431015,
-			20431016,
-			20431017,
-			20431020,
-			20431021,
-			20431022,
-			20431023,
-			20431024,
-			20431025,
-			20431026,
-			20431027,
-			20431030,
-			20431031,
-			20431032,
-			20431033,
-			20431034,
-			20431035,
-			20431036,
-			20431037
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

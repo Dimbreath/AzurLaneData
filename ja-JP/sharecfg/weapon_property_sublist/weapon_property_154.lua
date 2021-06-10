@@ -2,24 +2,294 @@ pg = pg or {}
 pg.weapon_property_154 = {}
 
 function ()
-	uv0.weapon_property_154[68411] = {
+	uv0.weapon_property_154[68553] = {
+		id = 68553,
+		damage = 90,
+		base = 68551
+	}
+	uv0.weapon_property_154[68554] = {
+		id = 68554,
+		damage = 99,
+		base = 68551
+	}
+	uv0.weapon_property_154[68555] = {
+		id = 68555,
+		damage = 108,
+		base = 68551
+	}
+	uv0.weapon_property_154[68556] = {
+		id = 68556,
+		damage = 117,
+		base = 68551
+	}
+	uv0.weapon_property_154[68557] = {
+		id = 68557,
+		damage = 128,
+		base = 68551
+	}
+	uv0.weapon_property_154[68558] = {
+		id = 68558,
+		damage = 138,
+		base = 68551
+	}
+	uv0.weapon_property_154[68559] = {
+		id = 68559,
+		damage = 149,
+		base = 68551
+	}
+	uv0.weapon_property_154[68560] = {
+		id = 68560,
+		damage = 159,
+		base = 68551
+	}
+	uv0.weapon_property_154[68561] = {
 		action_index = "attack",
-		range = 120,
+		range = 50,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "伊25上浮技能弹幕LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 20,
+		corrected = 100,
+		min_range = 0,
+		id = 68561,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19865,
+			19865,
+			19865
+		},
+		barrage_ID = {
+			80741,
+			80742,
+			80743
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_154[68562] = {
+		id = 68562,
+		name = "伊25上浮技能弹幕LV2",
+		damage = 22,
+		base = 68561
+	}
+	uv0.weapon_property_154[68563] = {
+		id = 68563,
+		name = "伊25上浮技能弹幕LV3",
+		damage = 24,
+		base = 68561
+	}
+	uv0.weapon_property_154[68564] = {
+		id = 68564,
+		name = "伊25上浮技能弹幕LV4",
+		damage = 28,
+		base = 68561
+	}
+	uv0.weapon_property_154[68565] = {
+		id = 68565,
+		name = "伊25上浮技能弹幕LV5",
+		damage = 26,
+		base = 68561
+	}
+	uv0.weapon_property_154[68566] = {
+		id = 68566,
+		name = "伊25上浮技能弹幕LV6",
+		damage = 28,
+		base = 68561
+	}
+	uv0.weapon_property_154[68567] = {
+		id = 68567,
+		name = "伊25上浮技能弹幕LV7",
+		damage = 30,
+		base = 68561
+	}
+	uv0.weapon_property_154[68568] = {
+		id = 68568,
+		name = "伊25上浮技能弹幕LV8",
+		damage = 32,
+		base = 68561
+	}
+	uv0.weapon_property_154[68569] = {
+		id = 68569,
+		name = "伊25上浮技能弹幕LV9",
+		damage = 34,
+		base = 68561
+	}
+	uv0.weapon_property_154[68570] = {
+		id = 68570,
+		name = "伊25上浮技能弹幕LV10",
+		damage = 36,
+		base = 68561
+	}
+	uv0.weapon_property_154[68571] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "168技能鱼雷LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 27,
+		corrected = 100,
+		min_range = 0,
+		id = 68571,
+		attack_attribute_ratio = 120,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19899,
+			19899
+		},
+		barrage_ID = {
+			80735,
+			80736
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_154[68572] = {
+		id = 68572,
+		name = "168技能鱼雷LV2",
+		damage = 30,
+		base = 68571
+	}
+	uv0.weapon_property_154[68573] = {
+		id = 68573,
+		name = "168技能鱼雷LV3",
+		damage = 33,
+		base = 68571
+	}
+	uv0.weapon_property_154[68574] = {
+		name = "168技能鱼雷LV4",
+		damage = 36,
+		base = 68571,
+		id = 68574,
+		barrage_ID = {
+			80737,
+			80738
+		}
+	}
+	uv0.weapon_property_154[68575] = {
+		name = "168技能鱼雷LV5",
+		damage = 40,
+		base = 68571,
+		id = 68575,
+		barrage_ID = {
+			80737,
+			80738
+		}
+	}
+	uv0.weapon_property_154[68576] = {
+		name = "168技能鱼雷LV6",
+		damage = 44,
+		base = 68571,
+		id = 68576,
+		barrage_ID = {
+			80737,
+			80738
+		}
+	}
+	uv0.weapon_property_154[68577] = {
+		name = "168技能鱼雷LV7",
+		damage = 48,
+		base = 68571,
+		id = 68577,
+		barrage_ID = {
+			80737,
+			80738
+		}
+	}
+	uv0.weapon_property_154[68578] = {
+		name = "168技能鱼雷LV8",
+		damage = 52,
+		base = 68571,
+		id = 68578,
+		barrage_ID = {
+			80739,
+			80740
+		}
+	}
+	uv0.weapon_property_154[68579] = {
+		name = "168技能鱼雷LV9",
+		damage = 56,
+		base = 68571,
+		id = 68579,
+		barrage_ID = {
+			80739,
+			80740
+		}
+	}
+	uv0.weapon_property_154[68580] = {
+		name = "168技能鱼雷LV10",
+		damage = 60,
+		base = 68571,
+		id = 68580,
+		barrage_ID = {
+			80739,
+			80740
+		}
+	}
+	uv0.weapon_property_154[68581] = {
+		action_index = "attack",
+		range = 115,
 		type = 19,
 		fire_fx = "CAFire",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "俾斯麦弹幕Lv1",
+		name = "阿拉巴马技能LV1-PVP",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 60,
 		charge_param = "",
-		damage = 43,
+		damage = 58,
 		corrected = 100,
 		min_range = 35,
-		id = 68411,
+		id = 68581,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -33,14 +303,14 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19978,
-			19979,
-			19979
+			19001,
+			19001,
+			19001
 		},
 		barrage_ID = {
-			80491,
-			80494,
-			80495
+			80760,
+			80761,
+			80762
 		},
 		oxy_type = {
 			1
@@ -55,295 +325,124 @@ function ()
 			isBound = true
 		}
 	}
-	uv0.weapon_property_154[68412] = {
-		id = 68412,
-		name = "俾斯麦弹幕Lv2",
-		damage = 50,
-		base = 68411
-	}
-	uv0.weapon_property_154[68413] = {
-		id = 68413,
-		name = "俾斯麦弹幕Lv3",
-		damage = 57,
-		base = 68411
-	}
-	uv0.weapon_property_154[68414] = {
-		id = 68414,
-		name = "俾斯麦弹幕Lv4",
-		damage = 64,
-		base = 68411
-	}
-	uv0.weapon_property_154[68415] = {
-		id = 68415,
-		name = "俾斯麦弹幕Lv5",
-		damage = 72,
-		base = 68411
-	}
-	uv0.weapon_property_154[68416] = {
-		id = 68416,
-		name = "俾斯麦弹幕Lv6",
-		damage = 79,
-		base = 68411
-	}
-	uv0.weapon_property_154[68417] = {
-		id = 68417,
-		name = "俾斯麦弹幕Lv7",
-		damage = 86,
-		base = 68411
-	}
-	uv0.weapon_property_154[68418] = {
-		id = 68418,
-		name = "俾斯麦弹幕Lv8",
-		damage = 93,
-		base = 68411
-	}
-	uv0.weapon_property_154[68419] = {
-		id = 68419,
-		name = "俾斯麦弹幕Lv9",
-		damage = 100,
-		base = 68411
-	}
-	uv0.weapon_property_154[68420] = {
-		id = 68420,
-		name = "俾斯麦弹幕Lv10",
-		damage = 110,
-		base = 68411
-	}
-	uv0.weapon_property_154[68421] = {
-		action_index = "attack",
-		range = 95,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "KGV技能弹幕-LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 48,
-		corrected = 100,
-		min_range = 25,
-		id = 68421,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19881,
-			19882
-		},
-		barrage_ID = {
-			80708,
-			80706
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_154[68422] = {
-		id = 68422,
-		name = "KGV技能弹幕-LV2",
-		damage = 56,
-		base = 68421
-	}
-	uv0.weapon_property_154[68423] = {
-		id = 68423,
-		name = "KGV技能弹幕-LV3",
-		damage = 64,
-		base = 68421
-	}
-	uv0.weapon_property_154[68424] = {
-		id = 68424,
-		name = "KGV技能弹幕-LV4",
-		damage = 72,
-		base = 68421
-	}
-	uv0.weapon_property_154[68425] = {
-		id = 68425,
-		name = "KGV技能弹幕-LV5",
-		damage = 80,
-		base = 68421
-	}
-	uv0.weapon_property_154[68426] = {
-		id = 68426,
-		name = "KGV技能弹幕-LV6",
-		damage = 88,
-		base = 68421
-	}
-	uv0.weapon_property_154[68427] = {
-		id = 68427,
-		name = "KGV技能弹幕-LV7",
-		damage = 96,
-		base = 68421
-	}
-	uv0.weapon_property_154[68428] = {
-		id = 68428,
-		name = "KGV技能弹幕-LV8",
-		damage = 104,
-		base = 68421
-	}
-	uv0.weapon_property_154[68429] = {
-		id = 68429,
-		name = "KGV技能弹幕-LV9",
-		damage = 112,
-		base = 68421
-	}
-	uv0.weapon_property_154[68430] = {
-		id = 68430,
-		name = "KGV技能弹幕-LV10",
-		damage = 121,
-		base = 68421
-	}
-	uv0.weapon_property_154[68431] = {
-		action_index = "attack",
-		range = 95,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "KGV技能增强弹幕-LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
+	uv0.weapon_property_154[68582] = {
+		id = 68582,
+		name = "阿拉巴马技能LV2-PVP",
 		damage = 70,
-		corrected = 100,
-		min_range = 25,
-		id = 68431,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19881,
-			19882
-		},
+		base = 68581
+	}
+	uv0.weapon_property_154[68583] = {
+		id = 68583,
+		name = "阿拉巴马技能LV3-PVP",
+		damage = 82,
+		base = 68581
+	}
+	uv0.weapon_property_154[68584] = {
+		id = 68584,
+		name = "阿拉巴马技能LV4-PVP",
+		damage = 94,
+		base = 68581
+	}
+	uv0.weapon_property_154[68585] = {
+		id = 68585,
+		name = "阿拉巴马技能LV5-PVP",
+		damage = 106,
+		base = 68581
+	}
+	uv0.weapon_property_154[68586] = {
+		name = "阿拉巴马技能LV6-PVP",
+		damage = 118,
+		base = 68581,
+		id = 68586,
 		barrage_ID = {
-			80708,
-			80707
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			80763,
+			80764,
+			80765
+		}
 	}
-	uv0.weapon_property_154[68432] = {
-		id = 68432,
-		name = "KGV技能增强弹幕-LV2",
-		damage = 78,
-		base = 68431
-	}
-	uv0.weapon_property_154[68433] = {
-		id = 68433,
-		name = "KGV技能增强弹幕-LV3",
-		damage = 85,
-		base = 68431
-	}
-	uv0.weapon_property_154[68434] = {
-		id = 68434,
-		name = "KGV技能增强弹幕-LV4",
-		damage = 93,
-		base = 68431
-	}
-	uv0.weapon_property_154[68435] = {
-		id = 68435,
-		name = "KGV技能增强弹幕-LV5",
-		damage = 100,
-		base = 68431
-	}
-	uv0.weapon_property_154[68436] = {
-		id = 68436,
-		name = "KGV技能增强弹幕-LV6",
-		damage = 108,
-		base = 68431
-	}
-	uv0.weapon_property_154[68437] = {
-		id = 68437,
-		name = "KGV技能增强弹幕-LV7",
-		damage = 115,
-		base = 68431
-	}
-	uv0.weapon_property_154[68438] = {
-		id = 68438,
-		name = "KGV技能增强弹幕-LV8",
-		damage = 123,
-		base = 68431
-	}
-	uv0.weapon_property_154[68439] = {
-		id = 68439,
-		name = "KGV技能增强弹幕-LV9",
+	uv0.weapon_property_154[68587] = {
+		name = "阿拉巴马技能LV7-PVP",
 		damage = 130,
-		base = 68431
+		base = 68581,
+		id = 68587,
+		barrage_ID = {
+			80763,
+			80764,
+			80765
+		}
 	}
-	uv0.weapon_property_154[68440] = {
-		id = 68440,
-		name = "KGV技能增强弹幕-LV10",
-		damage = 138,
-		base = 68431
+	uv0.weapon_property_154[68588] = {
+		name = "阿拉巴马技能LV8-PVP",
+		damage = 142,
+		base = 68581,
+		id = 68588,
+		barrage_ID = {
+			80763,
+			80764,
+			80765
+		}
 	}
-	uv0.weapon_property_154[68441] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
+	uv0.weapon_property_154[68589] = {
+		name = "阿拉巴马技能LV9-PVP",
+		damage = 154,
+		base = 68581,
+		id = 68589,
+		barrage_ID = {
+			80777,
+			80778,
+			80779
+		}
+	}
+	uv0.weapon_property_154[68590] = {
+		name = "阿拉巴马技能LV10-PVP",
+		damage = 170,
+		base = 68581,
+		id = 68590,
+		barrage_ID = {
+			80777,
+			80778,
+			80779
+		}
+	}
+	uv0.weapon_property_154[68591] = {
+		action_index = "attack",
+		range = 95,
+		type = 19,
+		fire_fx = "CAFire",
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "U-556技能鱼雷LV1",
-		aim_type = 0,
+		name = "阿拉巴马技能LV1-PVE",
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 60,
 		charge_param = "",
-		damage = 19,
+		damage = 58,
 		corrected = 100,
-		min_range = 0,
-		id = 68441,
-		attack_attribute_ratio = 120,
+		min_range = 25,
+		id = 68591,
+		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 2,
+		attack_attribute = 1,
 		reload_max = 3000,
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19884
+			19001,
+			19001,
+			19001
 		},
 		barrage_ID = {
-			80711
+			80760,
+			80761,
+			80762
 		},
 		oxy_type = {
 			1
@@ -351,63 +450,93 @@ function ()
 		search_condition = {
 			1
 		},
-		precast_param = {}
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
 	}
-	uv0.weapon_property_154[68442] = {
-		id = 68442,
-		name = "U-556技能鱼雷LV2",
-		damage = 21,
-		base = 68441
+	uv0.weapon_property_154[68592] = {
+		id = 68592,
+		name = "阿拉巴马技能LV2-PVE",
+		damage = 70,
+		base = 68591
 	}
-	uv0.weapon_property_154[68443] = {
-		id = 68443,
-		name = "U-556技能鱼雷LV3",
-		damage = 24,
-		base = 68441
+	uv0.weapon_property_154[68593] = {
+		id = 68593,
+		name = "阿拉巴马技能LV3-PVE",
+		damage = 82,
+		base = 68591
 	}
-	uv0.weapon_property_154[68444] = {
-		id = 68444,
-		name = "U-556技能鱼雷LV4",
-		damage = 30,
-		base = 68441
+	uv0.weapon_property_154[68594] = {
+		id = 68594,
+		name = "阿拉巴马技能LV4-PVE",
+		damage = 94,
+		base = 68591
 	}
-	uv0.weapon_property_154[68445] = {
-		id = 68445,
-		name = "U-556技能鱼雷LV5",
-		damage = 33,
-		base = 68441
+	uv0.weapon_property_154[68595] = {
+		id = 68595,
+		name = "阿拉巴马技能LV5-PVE",
+		damage = 106,
+		base = 68591
 	}
-	uv0.weapon_property_154[68446] = {
-		id = 68446,
-		name = "U-556技能鱼雷LV6",
-		damage = 36,
-		base = 68441
+	uv0.weapon_property_154[68596] = {
+		name = "阿拉巴马技能LV6-PVE",
+		damage = 118,
+		base = 68591,
+		id = 68596,
+		barrage_ID = {
+			80763,
+			80764,
+			80765
+		}
 	}
-	uv0.weapon_property_154[68447] = {
-		id = 68447,
-		name = "U-556技能鱼雷LV7",
-		damage = 39,
-		base = 68441
+	uv0.weapon_property_154[68597] = {
+		name = "阿拉巴马技能LV7-PVE",
+		damage = 130,
+		base = 68591,
+		id = 68597,
+		barrage_ID = {
+			80763,
+			80764,
+			80765
+		}
 	}
-	uv0.weapon_property_154[68448] = {
-		id = 68448,
-		name = "U-556技能鱼雷LV8",
-		damage = 42,
-		base = 68441
+	uv0.weapon_property_154[68598] = {
+		name = "阿拉巴马技能LV8-PVE",
+		damage = 142,
+		base = 68591,
+		id = 68598,
+		barrage_ID = {
+			80763,
+			80764,
+			80765
+		}
 	}
-	uv0.weapon_property_154[68449] = {
-		id = 68449,
-		name = "U-556技能鱼雷LV9",
-		damage = 45,
-		base = 68441
+	uv0.weapon_property_154[68599] = {
+		name = "阿拉巴马技能LV9-PVE",
+		damage = 154,
+		base = 68591,
+		id = 68599,
+		barrage_ID = {
+			80777,
+			80778,
+			80779
+		}
 	}
-	uv0.weapon_property_154[68450] = {
-		id = 68450,
-		name = "U-556技能鱼雷LV10",
-		damage = 48,
-		base = 68441
+	uv0.weapon_property_154[68600] = {
+		name = "阿拉巴马技能LV10-PVE",
+		damage = 170,
+		base = 68591,
+		id = 68600,
+		barrage_ID = {
+			80777,
+			80778,
+			80779
+		}
 	}
-	uv0.weapon_property_154[68451] = {
+	uv0.weapon_property_154[68611] = {
 		action_index = "attack",
 		range = 50,
 		type = 1,
@@ -415,16 +544,16 @@ function ()
 		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "Z36弹幕LV1",
+		name = "阿拉巴马技能·小子弹LV1",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 120,
 		charge_param = "",
-		damage = 12,
+		damage = 11,
 		corrected = 100,
 		min_range = 0,
-		id = 68451,
+		id = 68611,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -438,10 +567,12 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19885
+			19905,
+			19905
 		},
 		barrage_ID = {
-			80713
+			80767,
+			80771
 		},
 		oxy_type = {
 			1
@@ -451,153 +582,209 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_154[68452] = {
-		id = 68452,
-		name = "Z36弹幕LV2",
+	uv0.weapon_property_154[68612] = {
+		name = "阿拉巴马技能·小子弹LV2",
+		damage = 12,
+		base = 68611,
+		id = 68612,
+		bullet_ID = {
+			19905,
+			19905,
+			19905,
+			19905
+		},
+		barrage_ID = {
+			80767,
+			80768,
+			80771,
+			80772
+		}
+	}
+	uv0.weapon_property_154[68613] = {
+		name = "阿拉巴马技能·小子弹LV3",
 		damage = 13,
-		base = 68451
+		base = 68611,
+		id = 68613,
+		bullet_ID = {
+			19905,
+			19905,
+			19905,
+			19905
+		},
+		barrage_ID = {
+			80767,
+			80768,
+			80771,
+			80772
+		}
 	}
-	uv0.weapon_property_154[68453] = {
-		id = 68453,
-		name = "Z36弹幕LV3",
+	uv0.weapon_property_154[68614] = {
+		name = "阿拉巴马技能·小子弹LV4",
 		damage = 14,
-		base = 68451
+		base = 68611,
+		id = 68614,
+		bullet_ID = {
+			19905,
+			19905,
+			19905,
+			19905
+		},
+		barrage_ID = {
+			80767,
+			80769,
+			80771,
+			80773
+		}
 	}
-	uv0.weapon_property_154[68454] = {
-		name = "Z36弹幕LV4",
+	uv0.weapon_property_154[68615] = {
+		name = "阿拉巴马技能·小子弹LV5",
 		damage = 15,
-		base = 68451,
-		id = 68454,
+		base = 68611,
+		id = 68615,
 		bullet_ID = {
-			19885,
-			19885
+			19905,
+			19905,
+			19905,
+			19905
 		},
 		barrage_ID = {
-			80714,
-			80713
+			80767,
+			80769,
+			80771,
+			80773
 		}
 	}
-	uv0.weapon_property_154[68455] = {
-		name = "Z36弹幕LV5",
+	uv0.weapon_property_154[68616] = {
+		name = "阿拉巴马技能·小子弹LV6",
 		damage = 16,
-		base = 68451,
-		id = 68455,
+		base = 68611,
+		id = 68616,
 		bullet_ID = {
-			19885,
-			19885
+			19905,
+			19905,
+			19905,
+			19905
 		},
 		barrage_ID = {
-			80714,
-			80713
+			80767,
+			80770,
+			80771,
+			80774
 		}
 	}
-	uv0.weapon_property_154[68456] = {
-		name = "Z36弹幕LV6",
+	uv0.weapon_property_154[68617] = {
+		name = "阿拉巴马技能·小子弹LV7",
 		damage = 17,
-		base = 68451,
-		id = 68456,
+		base = 68611,
+		id = 68617,
 		bullet_ID = {
-			19885,
-			19885
+			19905,
+			19905,
+			19905,
+			19905
 		},
 		barrage_ID = {
-			80714,
-			80713
+			80767,
+			80770,
+			80771,
+			80774
 		}
 	}
-	uv0.weapon_property_154[68457] = {
-		name = "Z36弹幕LV7",
+	uv0.weapon_property_154[68618] = {
+		name = "阿拉巴马技能·小子弹LV8",
 		damage = 18,
-		base = 68451,
-		id = 68457,
+		base = 68611,
+		id = 68618,
 		bullet_ID = {
-			19885,
-			19885
+			19905,
+			19905,
+			19905,
+			19905,
+			19905
 		},
 		barrage_ID = {
-			80714,
-			80713
+			80767,
+			80770,
+			80771,
+			80774,
+			80775
 		}
 	}
-	uv0.weapon_property_154[68458] = {
-		name = "Z36弹幕LV8",
+	uv0.weapon_property_154[68619] = {
+		name = "阿拉巴马技能·小子弹LV9",
+		damage = 19,
+		base = 68611,
+		id = 68619,
+		bullet_ID = {
+			19905,
+			19905,
+			19905,
+			19905,
+			19905
+		},
+		barrage_ID = {
+			80767,
+			80770,
+			80771,
+			80774,
+			80775
+		}
+	}
+	uv0.weapon_property_154[68620] = {
+		name = "阿拉巴马技能·小子弹LV10",
 		damage = 20,
-		base = 68451,
-		id = 68458,
+		base = 68611,
+		id = 68620,
 		bullet_ID = {
-			19885,
-			19885
+			19905,
+			19905,
+			19905,
+			19905,
+			19905
 		},
 		barrage_ID = {
-			80714,
-			80713
+			80767,
+			80770,
+			80771,
+			80774,
+			80776
 		}
 	}
-	uv0.weapon_property_154[68459] = {
-		name = "Z36弹幕LV9",
-		damage = 22,
-		base = 68451,
-		id = 68459,
-		bullet_ID = {
-			19885,
-			19885
-		},
-		barrage_ID = {
-			80714,
-			80713
-		}
-	}
-	uv0.weapon_property_154[68460] = {
-		name = "Z36弹幕LV10",
-		damage = 24,
-		base = 68451,
-		id = 68460,
-		bullet_ID = {
-			19885,
-			19885
-		},
-		barrage_ID = {
-			80714,
-			80713
-		}
-	}
-	uv0.weapon_property_154[68461] = {
+	uv0.weapon_property_154[68621] = {
 		action_index = "attack",
-		range = 115,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "KGV技能弹幕PVP-LV1",
+		name = "巴丹技能战斗机Lv1",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 120,
+		angle = 90,
 		charge_param = "",
-		damage = 48,
+		damage = 39,
 		corrected = 100,
-		min_range = 25,
-		id = 68461,
+		min_range = 0,
+		id = 68621,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
+		attack_attribute = 0,
+		reload_max = 2490,
 		queue = 1,
 		search_type = 1,
-		effect_move = 0,
+		effect_move = 1,
 		suppress = 1,
-		spawn_bound = "cannon",
+		spawn_bound = "plane",
 		fire_sfx = "battle/cannon-main",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19881,
-			19882
+			68621
 		},
 		barrage_ID = {
-			80708,
-			80706
+			12010
 		},
 		oxy_type = {
 			1
@@ -607,104 +794,31 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_154[68462] = {
-		id = 68462,
-		name = "KGV技能弹幕PVP-LV2",
+	uv0.weapon_property_154[68622] = {
+		name = "巴丹技能战斗机Lv2",
+		damage = 45,
+		base = 68621,
+		id = 68622,
+		bullet_ID = {
+			68622
+		}
+	}
+	uv0.weapon_property_154[68623] = {
+		name = "巴丹技能战斗机Lv3",
+		damage = 49,
+		base = 68621,
+		id = 68623,
+		bullet_ID = {
+			68623
+		}
+	}
+	uv0.weapon_property_154[68624] = {
+		name = "巴丹技能战斗机Lv4",
 		damage = 56,
-		base = 68461
-	}
-	uv0.weapon_property_154[68463] = {
-		id = 68463,
-		name = "KGV技能弹幕PVP-LV3",
-		damage = 64,
-		base = 68461
-	}
-	uv0.weapon_property_154[68464] = {
-		id = 68464,
-		name = "KGV技能弹幕PVP-LV4",
-		damage = 72,
-		base = 68461
-	}
-	uv0.weapon_property_154[68465] = {
-		id = 68465,
-		name = "KGV技能弹幕PVP-LV5",
-		damage = 80,
-		base = 68461
-	}
-	uv0.weapon_property_154[68466] = {
-		id = 68466,
-		name = "KGV技能弹幕PVP-LV6",
-		damage = 88,
-		base = 68461
-	}
-	uv0.weapon_property_154[68467] = {
-		id = 68467,
-		name = "KGV技能弹幕PVP-LV7",
-		damage = 96,
-		base = 68461
-	}
-	uv0.weapon_property_154[68468] = {
-		id = 68468,
-		name = "KGV技能弹幕PVP-LV8",
-		damage = 104,
-		base = 68461
-	}
-	uv0.weapon_property_154[68469] = {
-		id = 68469,
-		name = "KGV技能弹幕PVP-LV9",
-		damage = 112,
-		base = 68461
-	}
-	uv0.weapon_property_154[68470] = {
-		id = 68470,
-		name = "KGV技能弹幕PVP-LV10",
-		damage = 121,
-		base = 68461
-	}
-	uv0.weapon_property_154[68471] = {
-		action_index = "attack",
-		range = 115,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "KGV技能增强弹幕PVP-LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 70,
-		corrected = 100,
-		min_range = 25,
-		id = 68471,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
+		base = 68621,
+		id = 68624,
 		bullet_ID = {
-			19881,
-			19882
-		},
-		barrage_ID = {
-			80708,
-			80707
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+			68624
+		}
 	}
 end()

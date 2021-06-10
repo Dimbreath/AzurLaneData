@@ -50070,7 +50070,7 @@ pg.furniture_shop_template = {
 				{
 					2021,
 					6,
-					9
+					16
 				},
 				{
 					23,
@@ -50105,7 +50105,7 @@ pg.furniture_shop_template = {
 				{
 					2021,
 					6,
-					9
+					16
 				},
 				{
 					23,
@@ -50140,7 +50140,7 @@ pg.furniture_shop_template = {
 				{
 					2021,
 					6,
-					9
+					16
 				},
 				{
 					23,
@@ -50175,7 +50175,7 @@ pg.furniture_shop_template = {
 				{
 					2021,
 					6,
-					9
+					16
 				},
 				{
 					23,
@@ -50210,7 +50210,7 @@ pg.furniture_shop_template = {
 				{
 					2021,
 					6,
-					9
+					16
 				},
 				{
 					23,
@@ -50245,7 +50245,7 @@ pg.furniture_shop_template = {
 				{
 					2021,
 					6,
-					9
+					16
 				},
 				{
 					23,
@@ -50280,7 +50280,7 @@ pg.furniture_shop_template = {
 				{
 					2021,
 					6,
-					9
+					16
 				},
 				{
 					23,
@@ -50315,7 +50315,7 @@ pg.furniture_shop_template = {
 				{
 					2021,
 					6,
-					9
+					16
 				},
 				{
 					23,
@@ -50350,7 +50350,7 @@ pg.furniture_shop_template = {
 				{
 					2021,
 					6,
-					9
+					16
 				},
 				{
 					23,
@@ -50385,7 +50385,7 @@ pg.furniture_shop_template = {
 				{
 					2021,
 					6,
-					9
+					16
 				},
 				{
 					23,
@@ -50420,7 +50420,7 @@ pg.furniture_shop_template = {
 				{
 					2021,
 					6,
-					9
+					16
 				},
 				{
 					23,
@@ -50455,7 +50455,7 @@ pg.furniture_shop_template = {
 				{
 					2021,
 					6,
-					9
+					16
 				},
 				{
 					23,
@@ -50490,7 +50490,7 @@ pg.furniture_shop_template = {
 				{
 					2021,
 					6,
-					9
+					16
 				},
 				{
 					23,
@@ -50525,7 +50525,7 @@ pg.furniture_shop_template = {
 				{
 					2021,
 					6,
-					9
+					16
 				},
 				{
 					23,
@@ -50560,7 +50560,7 @@ pg.furniture_shop_template = {
 				{
 					2021,
 					6,
-					9
+					16
 				},
 				{
 					23,
@@ -50595,7 +50595,7 @@ pg.furniture_shop_template = {
 				{
 					2021,
 					6,
-					9
+					16
 				},
 				{
 					23,
@@ -50630,7 +50630,7 @@ pg.furniture_shop_template = {
 				{
 					2021,
 					6,
-					9
+					16
 				},
 				{
 					23,
@@ -50665,7 +50665,7 @@ pg.furniture_shop_template = {
 				{
 					2021,
 					6,
-					9
+					16
 				},
 				{
 					23,
@@ -50700,7 +50700,7 @@ pg.furniture_shop_template = {
 				{
 					2021,
 					6,
-					9
+					16
 				},
 				{
 					23,

@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_36 = {
+	[1005] = {
+		cannon = 6,
+		name = "モーリー",
+		hit_growth = 210,
+		speed_growth = 0,
+		antiaircraft_growth = 1719,
+		air = 0,
+		antisub = 0,
+		armor = 0,
+		rarity = 2,
+		antiaircraft = 21,
+		dodge_growth = 210,
+		star = 3,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 153,
+		durability = 125,
+		armor_growth = 0,
+		torpedo_growth = 3744,
+		speed = 30,
+		luck = 0,
+		id = 1005,
+		cannon_growth = 468,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 14,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 45,
+		durability_growth = 7400,
+		luck_growth = 0,
+		battle_unit_type = 50,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			100211,
+			100411
+		}
+	},
 	[1006] = {
 		cannon = 6,
 		name = "シラヌイ",
@@ -636,49 +676,6 @@ pg.enemy_data_statistics_36 = {
 			311044,
 			311045,
 			311046
-		}
-	},
-	[1021] = {
-		cannon = 0,
-		name = "ヒリュウ",
-		hit_growth = 210,
-		speed_growth = 0,
-		antiaircraft_growth = 2500,
-		air = 28,
-		antisub = 0,
-		armor = 0,
-		rarity = 4,
-		antiaircraft = 35,
-		dodge_growth = 72,
-		star = 5,
-		antisub_growth = 0,
-		air_growth = 2308,
-		base = 242,
-		durability = 330,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 17,
-		luck = 0,
-		id = 1021,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 5,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 0,
-		durability_growth = 14000,
-		luck_growth = 0,
-		battle_unit_type = 70,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			100201,
-			311047,
-			311048,
-			311049,
-			311051
 		}
 	}
 }

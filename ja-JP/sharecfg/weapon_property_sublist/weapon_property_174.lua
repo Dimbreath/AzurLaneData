@@ -2,24 +2,71 @@ pg = pg or {}
 pg.weapon_property_174 = {}
 
 function ()
-	uv0.weapon_property_174[69661] = {
-		action_index = "attack",
-		range = 115,
-		type = 19,
-		fire_fx = "CLFire",
+	uv0.weapon_property_174[69833] = {
+		id = 69833,
+		name = "赫敏-平射对舰弹LV3",
+		damage = 12,
+		base = 69831
+	}
+	uv0.weapon_property_174[69834] = {
+		id = 69834,
+		name = "赫敏-平射对舰弹LV4",
+		damage = 13,
+		base = 69831
+	}
+	uv0.weapon_property_174[69835] = {
+		id = 69835,
+		name = "赫敏-平射对舰弹LV5",
+		damage = 14,
+		base = 69831
+	}
+	uv0.weapon_property_174[69836] = {
+		id = 69836,
+		name = "赫敏-平射对舰弹LV6",
+		damage = 15,
+		base = 69831
+	}
+	uv0.weapon_property_174[69837] = {
+		id = 69837,
+		name = "赫敏-平射对舰弹LV7",
+		damage = 16,
+		base = 69831
+	}
+	uv0.weapon_property_174[69838] = {
+		id = 69838,
+		name = "赫敏-平射对舰弹LV8",
+		damage = 17,
+		base = 69831
+	}
+	uv0.weapon_property_174[69839] = {
+		id = 69839,
+		name = "赫敏-平射对舰弹LV9",
+		damage = 18,
+		base = 69831
+	}
+	uv0.weapon_property_174[69840] = {
+		id = 69840,
+		name = "赫敏-平射对舰弹LV10",
+		damage = 20,
+		base = 69831
+	}
+	uv0.weapon_property_174[69841] = {
+		action_index = "attack_main",
+		range = 200,
+		type = 23,
+		fire_fx = "zhupao",
 		recover_time = 0.5,
 		axis_angle = 0,
-		shakescreen = 0,
-		name = "加斯科涅技能·箭型国旗蓝-PVP-强化-LV1",
+		shakescreen = 302,
+		name = "豪技能LV1",
 		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 50,
-		charge_param = "",
-		damage = 23,
-		corrected = 100,
+		damage = 75,
+		corrected = 110,
 		min_range = 35,
-		id = 69661,
+		id = 69841,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -29,16 +76,120 @@ function ()
 		effect_move = 0,
 		suppress = 1,
 		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			19177
+		},
+		barrage_ID = {
+			1302
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 4
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_174[69842] = {
+		id = 69842,
+		name = "豪技能LV2",
+		damage = 80,
+		base = 69841
+	}
+	uv0.weapon_property_174[69843] = {
+		id = 69843,
+		name = "豪技能LV3",
+		damage = 86,
+		base = 69841
+	}
+	uv0.weapon_property_174[69844] = {
+		id = 69844,
+		name = "豪技能LV4",
+		damage = 93,
+		base = 69841
+	}
+	uv0.weapon_property_174[69845] = {
+		id = 69845,
+		name = "豪技能LV5",
+		damage = 101,
+		base = 69841
+	}
+	uv0.weapon_property_174[69846] = {
+		id = 69846,
+		name = "豪技能LV6",
+		damage = 110,
+		base = 69841
+	}
+	uv0.weapon_property_174[69847] = {
+		id = 69847,
+		name = "豪技能LV7",
+		damage = 120,
+		base = 69841
+	}
+	uv0.weapon_property_174[69848] = {
+		id = 69848,
+		name = "豪技能LV8",
+		damage = 131,
+		base = 69841
+	}
+	uv0.weapon_property_174[69849] = {
+		id = 69849,
+		name = "豪技能LV9",
+		damage = 143,
+		base = 69841
+	}
+	uv0.weapon_property_174[69850] = {
+		id = 69850,
+		name = "豪技能LV10",
+		damage = 156,
+		base = 69841
+	}
+	uv0.weapon_property_174[69851] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "U-96技能鱼雷弹幕LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 19,
+		corrected = 100,
+		min_range = 0,
+		id = 69851,
+		attack_attribute_ratio = 120,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19849,
-			19849
+			19178,
+			19178,
+			19178
 		},
 		barrage_ID = {
-			80906,
-			80907
+			80927,
+			80928,
+			80929
 		},
 		oxy_type = {
 			1
@@ -48,89 +199,96 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_174[69662] = {
-		id = 69662,
-		name = "加斯科涅技能·箭型国旗蓝-PVP-强化-LV2",
-		damage = 26,
-		base = 69661
+	uv0.weapon_property_174[69852] = {
+		id = 69852,
+		name = "U-96技能鱼雷弹幕LV2",
+		damage = 21,
+		base = 69851
 	}
-	uv0.weapon_property_174[69663] = {
-		id = 69663,
-		name = "加斯科涅技能·箭型国旗蓝-PVP-强化-LV3",
+	uv0.weapon_property_174[69853] = {
+		id = 69853,
+		name = "U-96技能鱼雷弹幕LV3",
+		damage = 23,
+		base = 69851
+	}
+	uv0.weapon_property_174[69854] = {
+		name = "U-96技能鱼雷弹幕LV4",
+		damage = 25,
+		base = 69851,
+		id = 69854,
+		barrage_ID = {
+			80930,
+			80931,
+			80929
+		}
+	}
+	uv0.weapon_property_174[69855] = {
+		name = "U-96技能鱼雷弹幕LV5",
+		damage = 27,
+		base = 69851,
+		id = 69855,
+		barrage_ID = {
+			80930,
+			80931,
+			80929
+		}
+	}
+	uv0.weapon_property_174[69856] = {
+		name = "U-96技能鱼雷弹幕LV6",
 		damage = 29,
-		base = 69661
-	}
-	uv0.weapon_property_174[69664] = {
-		name = "加斯科涅技能·箭型国旗蓝-PVP-强化-LV4",
-		damage = 32,
-		base = 69661,
-		id = 69664,
+		base = 69851,
+		id = 69856,
 		barrage_ID = {
-			80908,
-			80909
+			80930,
+			80931,
+			80929
 		}
 	}
-	uv0.weapon_property_174[69665] = {
-		name = "加斯科涅技能·箭型国旗蓝-PVP-强化-LV5",
+	uv0.weapon_property_174[69857] = {
+		name = "U-96技能鱼雷弹幕LV7",
+		damage = 31,
+		base = 69851,
+		id = 69857,
+		barrage_ID = {
+			80930,
+			80931,
+			80932
+		}
+	}
+	uv0.weapon_property_174[69858] = {
+		name = "U-96技能鱼雷弹幕LV8",
+		damage = 33,
+		base = 69851,
+		id = 69858,
+		barrage_ID = {
+			80930,
+			80931,
+			80932
+		}
+	}
+	uv0.weapon_property_174[69859] = {
+		name = "U-96技能鱼雷弹幕LV9",
 		damage = 35,
-		base = 69661,
-		id = 69665,
+		base = 69851,
+		id = 69859,
 		barrage_ID = {
-			80908,
-			80909
+			80930,
+			80931,
+			80932
 		}
 	}
-	uv0.weapon_property_174[69666] = {
-		name = "加斯科涅技能·箭型国旗蓝-PVP-强化-LV6",
-		damage = 38,
-		base = 69661,
-		id = 69666,
+	uv0.weapon_property_174[69860] = {
+		name = "U-96技能鱼雷弹幕LV10",
+		damage = 40,
+		base = 69851,
+		id = 69860,
 		barrage_ID = {
-			80908,
-			80909
+			80930,
+			80931,
+			80932
 		}
 	}
-	uv0.weapon_property_174[69667] = {
-		name = "加斯科涅技能·箭型国旗蓝-PVP-强化-LV7",
-		damage = 43,
-		base = 69661,
-		id = 69667,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_174[69668] = {
-		name = "加斯科涅技能·箭型国旗蓝-PVP-强化-LV8",
-		damage = 48,
-		base = 69661,
-		id = 69668,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_174[69669] = {
-		name = "加斯科涅技能·箭型国旗蓝-PVP-强化-LV9",
-		damage = 53,
-		base = 69661,
-		id = 69669,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_174[69670] = {
-		name = "加斯科涅技能·箭型国旗蓝-PVP-强化-LV10",
-		damage = 58,
-		base = 69661,
-		id = 69670,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_174[69671] = {
+	uv0.weapon_property_174[69861] = {
 		action_index = "",
 		range = 90,
 		type = 3,
@@ -138,16 +296,16 @@ function ()
 		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "北风技能额外六联装鱼雷-天运强化LV1",
+		name = "Z26ATF破盾反击鱼雷LV1",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
 		angle = 60,
 		charge_param = "",
-		damage = 45,
+		damage = 20,
 		corrected = 100,
 		min_range = 0,
-		id = 69671,
+		id = 69861,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 2,
@@ -161,12 +319,12 @@ function ()
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			1801,
-			1801
+			19179,
+			19179
 		},
 		barrage_ID = {
-			80596,
-			80597
+			80933,
+			80934
 		},
 		oxy_type = {
 			1
@@ -176,78 +334,78 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_174[69672] = {
-		id = 69672,
-		name = "北风技能额外六联装鱼雷-天运强化LV2",
-		damage = 49,
-		base = 69671
+	uv0.weapon_property_174[69862] = {
+		id = 69862,
+		name = "Z26ATF破盾反击鱼雷LV2",
+		damage = 25,
+		base = 69861
 	}
-	uv0.weapon_property_174[69673] = {
-		id = 69673,
-		name = "北风技能额外六联装鱼雷-天运强化LV3",
+	uv0.weapon_property_174[69863] = {
+		id = 69863,
+		name = "Z26ATF破盾反击鱼雷LV3",
+		damage = 30,
+		base = 69861
+	}
+	uv0.weapon_property_174[69864] = {
+		id = 69864,
+		name = "Z26ATF破盾反击鱼雷LV4",
+		damage = 38,
+		base = 69861
+	}
+	uv0.weapon_property_174[69865] = {
+		id = 69865,
+		name = "Z26ATF破盾反击鱼雷LV5",
+		damage = 46,
+		base = 69861
+	}
+	uv0.weapon_property_174[69866] = {
+		id = 69866,
+		name = "Z26ATF破盾反击鱼雷LV6",
 		damage = 54,
-		base = 69671
+		base = 69861
 	}
-	uv0.weapon_property_174[69674] = {
-		id = 69674,
-		name = "北风技能额外六联装鱼雷-天运强化LV4",
-		damage = 58,
-		base = 69671
+	uv0.weapon_property_174[69867] = {
+		id = 69867,
+		name = "Z26ATF破盾反击鱼雷LV7",
+		damage = 62,
+		base = 69861
 	}
-	uv0.weapon_property_174[69675] = {
-		id = 69675,
-		name = "北风技能额外六联装鱼雷-天运强化LV5",
-		damage = 63,
-		base = 69671
+	uv0.weapon_property_174[69868] = {
+		id = 69868,
+		name = "Z26ATF破盾反击鱼雷LV8",
+		damage = 70,
+		base = 69861
 	}
-	uv0.weapon_property_174[69676] = {
-		id = 69676,
-		name = "北风技能额外六联装鱼雷-天运强化LV6",
-		damage = 67,
-		base = 69671
+	uv0.weapon_property_174[69869] = {
+		id = 69869,
+		name = "Z26ATF破盾反击鱼雷LV9",
+		damage = 78,
+		base = 69861
 	}
-	uv0.weapon_property_174[69677] = {
-		id = 69677,
-		name = "北风技能额外六联装鱼雷-天运强化LV7",
-		damage = 72,
-		base = 69671
+	uv0.weapon_property_174[69870] = {
+		id = 69870,
+		name = "Z26ATF破盾反击鱼雷LV10",
+		damage = 86,
+		base = 69861
 	}
-	uv0.weapon_property_174[69678] = {
-		id = 69678,
-		name = "北风技能额外六联装鱼雷-天运强化LV8",
-		damage = 76,
-		base = 69671
-	}
-	uv0.weapon_property_174[69679] = {
-		id = 69679,
-		name = "北风技能额外六联装鱼雷-天运强化LV9",
-		damage = 82,
-		base = 69671
-	}
-	uv0.weapon_property_174[69680] = {
-		id = 69680,
-		name = "北风技能额外六联装鱼雷-天运强化LV10",
-		damage = 85,
-		base = 69671
-	}
-	uv0.weapon_property_174[69681] = {
+	uv0.weapon_property_174[69871] = {
 		action_index = "attack",
-		range = 55,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
+		range = 95,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "北风技能额外弹幕-天运追加LV1",
-		aim_type = 0,
+		name = "纪伊主炮弹幕PVE-LV1",
+		aim_type = 1,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 120,
+		angle = 60,
 		charge_param = "",
-		damage = 6,
+		damage = 48,
 		corrected = 100,
-		min_range = 0,
-		id = 69681,
+		min_range = 25,
+		id = 69871,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -255,20 +413,276 @@ function ()
 		queue = 1,
 		search_type = 1,
 		effect_move = 0,
-		suppress = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19180,
+			19180,
+			19180
+		},
+		barrage_ID = {
+			80940,
+			80942,
+			80943
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_174[69872] = {
+		id = 69872,
+		name = "纪伊主炮弹幕PVE-LV2",
+		damage = 56,
+		base = 69871
+	}
+	uv0.weapon_property_174[69873] = {
+		id = 69873,
+		name = "纪伊主炮弹幕PVE-LV3",
+		damage = 64,
+		base = 69871
+	}
+	uv0.weapon_property_174[69874] = {
+		id = 69874,
+		name = "纪伊主炮弹幕PVE-LV4",
+		damage = 72,
+		base = 69871
+	}
+	uv0.weapon_property_174[69875] = {
+		id = 69875,
+		name = "纪伊主炮弹幕PVE-LV5",
+		damage = 80,
+		base = 69871
+	}
+	uv0.weapon_property_174[69876] = {
+		id = 69876,
+		name = "纪伊主炮弹幕PVE-LV6",
+		damage = 88,
+		base = 69871
+	}
+	uv0.weapon_property_174[69877] = {
+		name = "纪伊主炮弹幕PVE-LV7",
+		damage = 96,
+		base = 69871,
+		id = 69877,
+		barrage_ID = {
+			80941,
+			80942,
+			80943
+		}
+	}
+	uv0.weapon_property_174[69878] = {
+		name = "纪伊主炮弹幕PVE-LV8",
+		damage = 104,
+		base = 69871,
+		id = 69878,
+		barrage_ID = {
+			80941,
+			80942,
+			80943
+		}
+	}
+	uv0.weapon_property_174[69879] = {
+		name = "纪伊主炮弹幕PVE-LV9",
+		damage = 112,
+		base = 69871,
+		id = 69879,
+		barrage_ID = {
+			80941,
+			80942,
+			80943
+		}
+	}
+	uv0.weapon_property_174[69880] = {
+		name = "纪伊主炮弹幕PVE-LV10",
+		damage = 121,
+		base = 69871,
+		id = 69880,
+		barrage_ID = {
+			80941,
+			80942,
+			80943
+		}
+	}
+	uv0.weapon_property_174[69881] = {
+		action_index = "attack",
+		range = 120,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "纪伊主炮弹幕PVP-LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 48,
+		corrected = 100,
+		min_range = 25,
+		id = 69881,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19180,
+			19180,
+			19180
+		},
+		barrage_ID = {
+			80940,
+			80944,
+			80945
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_174[69882] = {
+		id = 69882,
+		name = "纪伊主炮弹幕PVP-LV2",
+		damage = 56,
+		base = 69881
+	}
+	uv0.weapon_property_174[69883] = {
+		id = 69883,
+		name = "纪伊主炮弹幕PVP-LV3",
+		damage = 64,
+		base = 69881
+	}
+	uv0.weapon_property_174[69884] = {
+		id = 69884,
+		name = "纪伊主炮弹幕PVP-LV4",
+		damage = 72,
+		base = 69881
+	}
+	uv0.weapon_property_174[69885] = {
+		id = 69885,
+		name = "纪伊主炮弹幕PVP-LV5",
+		damage = 80,
+		base = 69881
+	}
+	uv0.weapon_property_174[69886] = {
+		id = 69886,
+		name = "纪伊主炮弹幕PVP-LV6",
+		damage = 88,
+		base = 69881
+	}
+	uv0.weapon_property_174[69887] = {
+		name = "纪伊主炮弹幕PVP-LV7",
+		damage = 96,
+		base = 69881,
+		id = 69887,
+		barrage_ID = {
+			80941,
+			80944,
+			80945
+		}
+	}
+	uv0.weapon_property_174[69888] = {
+		name = "纪伊主炮弹幕PVP-LV8",
+		damage = 104,
+		base = 69881,
+		id = 69888,
+		barrage_ID = {
+			80941,
+			80944,
+			80945
+		}
+	}
+	uv0.weapon_property_174[69889] = {
+		name = "纪伊主炮弹幕PVP-LV9",
+		damage = 112,
+		base = 69881,
+		id = 69889,
+		barrage_ID = {
+			80941,
+			80944,
+			80945
+		}
+	}
+	uv0.weapon_property_174[69890] = {
+		name = "纪伊主炮弹幕PVP-LV10",
+		damage = 121,
+		base = 69881,
+		id = 69890,
+		barrage_ID = {
+			80941,
+			80944,
+			80945
+		}
+	}
+	uv0.weapon_property_174[69891] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "纪伊副炮弹幕-LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 69891,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			19171,
-			19171,
-			19171
+			19181,
+			19182,
+			19181,
+			19182
 		},
 		barrage_ID = {
-			80912,
-			80913,
-			80914
+			80935,
+			80936,
+			80938,
+			80939
 		},
 		oxy_type = {
 			1
@@ -278,477 +692,22 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_174[69682] = {
-		id = 69682,
-		name = "北风技能额外弹幕-天运追加LV2",
-		damage = 7,
-		base = 69681
-	}
-	uv0.weapon_property_174[69683] = {
-		id = 69683,
-		name = "北风技能额外弹幕-天运追加LV3",
-		damage = 8,
-		base = 69681
-	}
-	uv0.weapon_property_174[69684] = {
-		id = 69684,
-		name = "北风技能额外弹幕-天运追加LV4",
-		damage = 9,
-		base = 69681
-	}
-	uv0.weapon_property_174[69685] = {
-		id = 69685,
-		name = "北风技能额外弹幕-天运追加LV5",
-		damage = 10,
-		base = 69681
-	}
-	uv0.weapon_property_174[69686] = {
-		id = 69686,
-		name = "北风技能额外弹幕-天运追加LV6",
+	uv0.weapon_property_174[69892] = {
+		id = 69892,
+		name = "纪伊副炮弹幕-LV2",
 		damage = 11,
-		base = 69681
+		base = 69891
 	}
-	uv0.weapon_property_174[69687] = {
-		id = 69687,
-		name = "北风技能额外弹幕-天运追加LV7",
+	uv0.weapon_property_174[69893] = {
+		id = 69893,
+		name = "纪伊副炮弹幕-LV3",
 		damage = 12,
-		base = 69681
+		base = 69891
 	}
-	uv0.weapon_property_174[69688] = {
-		id = 69688,
-		name = "北风技能额外弹幕-天运追加LV8",
+	uv0.weapon_property_174[69894] = {
+		id = 69894,
+		name = "纪伊副炮弹幕-LV4",
 		damage = 13,
-		base = 69681
-	}
-	uv0.weapon_property_174[69689] = {
-		id = 69689,
-		name = "北风技能额外弹幕-天运追加LV9",
-		damage = 14,
-		base = 69681
-	}
-	uv0.weapon_property_174[69690] = {
-		id = 69690,
-		name = "北风技能额外弹幕-天运追加LV10",
-		damage = 15,
-		base = 69681
-	}
-	uv0.weapon_property_174[69691] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "英仙座随机飞机-海黄蜂-Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 90,
-		charge_param = "",
-		damage = 153,
-		corrected = 100,
-		min_range = 0,
-		id = 69691,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1890,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			69691
-		},
-		barrage_ID = {
-			12009
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_174[69692] = {
-		name = "英仙座随机飞机-海黄蜂-Lv2",
-		damage = 173,
-		base = 69691,
-		id = 69692,
-		bullet_ID = {
-			69692
-		}
-	}
-	uv0.weapon_property_174[69693] = {
-		name = "英仙座随机飞机-海黄蜂-Lv3",
-		damage = 192,
-		base = 69691,
-		id = 69693,
-		bullet_ID = {
-			69693
-		}
-	}
-	uv0.weapon_property_174[69694] = {
-		name = "英仙座随机飞机-海黄蜂-Lv4",
-		damage = 212,
-		base = 69691,
-		id = 69694,
-		bullet_ID = {
-			69694
-		}
-	}
-	uv0.weapon_property_174[69695] = {
-		name = "英仙座随机飞机-海黄蜂-Lv5",
-		damage = 231,
-		base = 69691,
-		id = 69695,
-		bullet_ID = {
-			69695
-		}
-	}
-	uv0.weapon_property_174[69696] = {
-		name = "英仙座随机飞机-海黄蜂-Lv6",
-		damage = 251,
-		base = 69691,
-		id = 69696,
-		bullet_ID = {
-			69696
-		}
-	}
-	uv0.weapon_property_174[69697] = {
-		name = "英仙座随机飞机-海黄蜂-Lv7",
-		damage = 272,
-		base = 69691,
-		id = 69697,
-		bullet_ID = {
-			69697
-		}
-	}
-	uv0.weapon_property_174[69698] = {
-		name = "英仙座随机飞机-海黄蜂-Lv8",
-		damage = 293,
-		base = 69691,
-		id = 69698,
-		bullet_ID = {
-			69698
-		}
-	}
-	uv0.weapon_property_174[69699] = {
-		name = "英仙座随机飞机-海黄蜂-Lv9",
-		damage = 314,
-		base = 69691,
-		id = 69699,
-		bullet_ID = {
-			69699
-		}
-	}
-	uv0.weapon_property_174[69700] = {
-		name = "英仙座随机飞机-海黄蜂-Lv10",
-		damage = 335,
-		base = 69691,
-		id = 69700,
-		bullet_ID = {
-			69700
-		}
-	}
-	uv0.weapon_property_174[69701] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "英仙座随机飞机-TBF-Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 90,
-		charge_param = "",
-		damage = 48,
-		corrected = 100,
-		min_range = 0,
-		id = 69701,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1890,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			69701
-		},
-		barrage_ID = {
-			12009
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_174[69702] = {
-		name = "英仙座随机飞机-TBF-Lv2",
-		damage = 68,
-		base = 69701,
-		id = 69702,
-		bullet_ID = {
-			69702
-		}
-	}
-	uv0.weapon_property_174[69703] = {
-		name = "英仙座随机飞机-TBF-Lv3",
-		damage = 86,
-		base = 69701,
-		id = 69703,
-		bullet_ID = {
-			69703
-		}
-	}
-	uv0.weapon_property_174[69704] = {
-		name = "英仙座随机飞机-TBF-Lv4",
-		damage = 106,
-		base = 69701,
-		id = 69704,
-		bullet_ID = {
-			69704
-		}
-	}
-	uv0.weapon_property_174[69705] = {
-		name = "英仙座随机飞机-TBF-Lv5",
-		damage = 124,
-		base = 69701,
-		id = 69705,
-		bullet_ID = {
-			69705
-		}
-	}
-	uv0.weapon_property_174[69706] = {
-		name = "英仙座随机飞机-TBF-Lv6",
-		damage = 144,
-		base = 69701,
-		id = 69706,
-		bullet_ID = {
-			69706
-		}
-	}
-	uv0.weapon_property_174[69707] = {
-		name = "英仙座随机飞机-TBF-Lv7",
-		damage = 164,
-		base = 69701,
-		id = 69707,
-		bullet_ID = {
-			69707
-		}
-	}
-	uv0.weapon_property_174[69708] = {
-		name = "英仙座随机飞机-TBF-Lv8",
-		damage = 182,
-		base = 69701,
-		id = 69708,
-		bullet_ID = {
-			69708
-		}
-	}
-	uv0.weapon_property_174[69709] = {
-		name = "英仙座随机飞机-TBF-Lv9",
-		damage = 202,
-		base = 69701,
-		id = 69709,
-		bullet_ID = {
-			69709
-		}
-	}
-	uv0.weapon_property_174[69710] = {
-		name = "英仙座随机飞机-TBF-Lv10",
-		damage = 220,
-		base = 69701,
-		id = 69710,
-		bullet_ID = {
-			69710
-		}
-	}
-	uv0.weapon_property_174[69711] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "英仙座随机飞机-萤火虫-Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 90,
-		charge_param = "",
-		damage = 48,
-		corrected = 100,
-		min_range = 0,
-		id = 69711,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1890,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			69711
-		},
-		barrage_ID = {
-			12009
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_174[69712] = {
-		name = "英仙座随机飞机-萤火虫-Lv2",
-		damage = 68,
-		base = 69711,
-		id = 69712,
-		bullet_ID = {
-			69712
-		}
-	}
-	uv0.weapon_property_174[69713] = {
-		name = "英仙座随机飞机-萤火虫-Lv3",
-		damage = 86,
-		base = 69711,
-		id = 69713,
-		bullet_ID = {
-			69713
-		}
-	}
-	uv0.weapon_property_174[69714] = {
-		name = "英仙座随机飞机-萤火虫-Lv4",
-		damage = 106,
-		base = 69711,
-		id = 69714,
-		bullet_ID = {
-			69714
-		}
-	}
-	uv0.weapon_property_174[69715] = {
-		name = "英仙座随机飞机-萤火虫-Lv5",
-		damage = 124,
-		base = 69711,
-		id = 69715,
-		bullet_ID = {
-			69715
-		}
-	}
-	uv0.weapon_property_174[69716] = {
-		name = "英仙座随机飞机-萤火虫-Lv6",
-		damage = 144,
-		base = 69711,
-		id = 69716,
-		bullet_ID = {
-			69716
-		}
-	}
-	uv0.weapon_property_174[69717] = {
-		name = "英仙座随机飞机-萤火虫-Lv7",
-		damage = 164,
-		base = 69711,
-		id = 69717,
-		bullet_ID = {
-			69717
-		}
-	}
-	uv0.weapon_property_174[69718] = {
-		name = "英仙座随机飞机-萤火虫-Lv8",
-		damage = 182,
-		base = 69711,
-		id = 69718,
-		bullet_ID = {
-			69718
-		}
-	}
-	uv0.weapon_property_174[69719] = {
-		name = "英仙座随机飞机-萤火虫-Lv9",
-		damage = 202,
-		base = 69711,
-		id = 69719,
-		bullet_ID = {
-			69719
-		}
-	}
-	uv0.weapon_property_174[69720] = {
-		name = "英仙座随机飞机-萤火虫-Lv10",
-		damage = 220,
-		base = 69711,
-		id = 69720,
-		bullet_ID = {
-			69720
-		}
-	}
-	uv0.weapon_property_174[69721] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 19,
-		shakescreen = 0,
-		name = "英仙座随机海黄蜂用 2 x 1000lb 炸弹",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 19,
-		charge_param = "",
-		damage = 153,
-		corrected = 100,
-		min_range = 0,
-		id = 69721,
-		attack_attribute_ratio = 80,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2123
-		},
-		barrage_ID = {
-			2121
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+		base = 69891
 	}
 end()

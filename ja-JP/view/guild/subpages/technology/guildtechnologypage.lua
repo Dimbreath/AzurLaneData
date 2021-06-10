@@ -1,4 +1,7 @@
 slot0 = class("GuildTechnologyPage", import("...base.GuildBasePage"))
+slot0.PAGE_DEV = 1
+slot0.PAGE_UPGRADE = 2
+slot0.PAGE_DEV_ITEM = 3
 
 function slot0.getTargetUI(slot0)
 	return "TechnologyBluePage", "TechnologyRedPage"
@@ -70,6 +73,16 @@ function slot0.Update(slot0, slot1)
 	slot0.isAdmin = GuildMember.IsAdministrator(slot1:getSelfDuty())
 end
 
+function slot0.Flush(slot0)
+	if uv0.PAGE_DEV == slot0.page then
+		slot0:InitBreakOutList()
+	elseif uv0.PAGE_UPGRADE == slot0.page then
+		slot0:UpdateUpgradeList()
+	elseif uv0.PAGE_DEV_ITEM == slot0.page then
+		slot0:InitDevingItem()
+	end
+end
+
 function slot0.UpdateUpgradeList(slot0)
 	table.sort(slot0.technologyVOs, function (slot0, slot1)
 		return slot0.id < slot1.id
@@ -84,6 +97,8 @@ function slot0.UpdateUpgradeList(slot0)
 	setActive(slot0.upgradePanel, true)
 	setActive(slot0.inDevelopmentPanel, false)
 	setActive(slot0.breakoutListPanel, false)
+
+	slot0.page = uv0.PAGE_UPGRADE
 end
 
 function slot0.UpdateBreakOutList(slot0)
@@ -127,6 +142,8 @@ function slot0.InitBreakOutList(slot0, slot1)
 		end
 	end)
 	slot0.breakOutList:align(#slot0.technologyGroupVOs)
+
+	slot0.page = uv0.PAGE_DEV
 end
 
 function slot0.InitDevingItem(slot0)
@@ -160,6 +177,7 @@ function slot0.InitDevingItem(slot0)
 	setFillAmount(slot0.inDevelopmentProgress, slot9 / slot10)
 
 	slot0.inDevelopmentProgressTxt.text = slot9 .. "/" .. slot10
+	slot0.page = uv0.PAGE_DEV_ITEM
 end
 
 function slot0.OnDestroy(slot0)

@@ -1,5 +1,50 @@
 pg = pg or {}
 pg.enemy_data_statistics_398 = {
+	[294105] = {
+		cannon = 0,
+		antisub = 0,
+		air = 55,
+		cannon_growth = 0,
+		armor = 0,
+		reload = 150,
+		base = 427,
+		dodge = 6,
+		torpedo_growth = 0,
+		antiaircraft_growth = 3744,
+		air_growth = 4438,
+		reload_growth = 0,
+		dodge_growth = 80,
+		speed_growth = 0,
+		star = 5,
+		hit = 8,
+		antisub_growth = 0,
+		rarity = 5,
+		luck_growth = 0,
+		torpedo = 0,
+		durability = 371,
+		armor_growth = 0,
+		durability_growth = 148500,
+		antiaircraft = 47,
+		speed = 18,
+		luck = 10,
+		hit_growth = 126,
+		id = 294105,
+		battle_unit_type = 90,
+		scale = 150,
+		world_enhancement = {
+			30,
+			1.5,
+			1.4,
+			0.5,
+			0.1,
+			1.6,
+			0.1
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		}
+	},
 	[294201] = {
 		cannon = 3,
 		name = "エンフォーサーXIV",
@@ -1039,41 +1084,6 @@ pg.enemy_data_statistics_398 = {
 		antiaircraft = 302,
 		speed = 30,
 		luck = 14,
-		antisub = 0,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			}
-		}
-	},
-	[295010] = {
-		cannon = 185,
-		name = "飛龍(META)-Tier.10",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 414,
-		reload = 150,
-		armor = 0,
-		dodge = 14,
-		id = 295010,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 70,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 494,
-		durability = 480000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 316,
-		speed = 30,
-		luck = 15,
 		antisub = 0,
 		buff_list = {
 			{

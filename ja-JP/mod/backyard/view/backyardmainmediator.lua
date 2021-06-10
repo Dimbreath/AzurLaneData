@@ -36,6 +36,7 @@ slot0.INTERACTION_TRANSPORT_END = "BackyardMainMediator:INTERACTION_TRANSPORT_EN
 slot0.RESET_BOAT_POS = "BackyardMainMediator:RESET_BOAT_POS"
 slot0.ADD_VISITOR_SHIP = "BackyardMainMediator:ADD_VISITOR_SHIP"
 slot0.GET_VISITOR_SHIP = "BackyardMainMediator:GET_VISITOR_SHIP"
+slot0.ON_CLICK_SHIP = "BackyardMainMediator:ON_CLICK_SHIP"
 
 function slot0.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0, nil, slot1)
@@ -50,6 +51,13 @@ function slot0.onRegister(slot0)
 		pg.m02:sendNotification(GAME.BACKYARD_GET_VISITOR_SHIP, {
 			callback = slot1
 		})
+	end)
+	slot0:bind(uv0.ON_CLICK_SHIP, function (slot0)
+		if getProxy(TaskProxy):GetBackYardInterActionTask() then
+			pg.m02:sendNotification(GAME.UPDATE_TASK_PROGRESS, {
+				taskId = slot1.id
+			})
+		end
 	end)
 	slot0:bind(uv0.ADD_VISITOR_SHIP, function (slot0, slot1)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {

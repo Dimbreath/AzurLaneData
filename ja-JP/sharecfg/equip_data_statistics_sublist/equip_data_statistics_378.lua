@@ -1,5 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_378 = {
+	[85446] = {
+		id = 85446,
+		damage = "14 x 4",
+		base = 85440,
+		weapon_id = {
+			85446
+		}
+	},
+	[85447] = {
+		id = 85447,
+		damage = "14 x 4",
+		base = 85440,
+		weapon_id = {
+			85447
+		}
+	},
 	[85460] = {
 		name = "180mm三連装砲B-1-P Model1932",
 		speciality = "追尾",
@@ -173,18 +189,6 @@ pg.equip_data_statistics_378 = {
 		id = 89006,
 		value_2 = 11,
 		value_1 = "21",
-		base = 89000
-	},
-	[89007] = {
-		id = 89007,
-		value_2 = 12,
-		value_1 = "22",
-		base = 89000
-	},
-	[89008] = {
-		id = 89008,
-		value_2 = 13,
-		value_1 = "23",
 		base = 89000
 	}
 }

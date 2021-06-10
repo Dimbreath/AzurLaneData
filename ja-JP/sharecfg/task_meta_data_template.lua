@@ -136,6 +136,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		desc = "アーク・ロイヤル(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
+	[111] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970201",
+		id = 111,
+		target_num = 1,
+		desc = "ヘレナ(META)を編成した艦隊で1回戦闘を勝利する"
+	},
+	[112] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970201",
+		id = 112,
+		target_num = 1,
+		desc = "ヘレナ(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+	},
+	[113] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970201",
+		id = 113,
+		target_num = 1,
+		desc = "ヘレナ(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+	},
+	[114] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970201",
+		id = 114,
+		target_num = 1,
+		desc = "ヘレナ(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+	},
+	[115] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970201",
+		id = 115,
+		target_num = 1,
+		desc = "ヘレナ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+	},
 	[200] = {
 		target_id = "0",
 		sub_type = 302,
@@ -200,6 +240,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		desc = "セイレーン作戦でアーク・ロイヤル(META)を含めた艦隊でLv100+の敵を撃破 "
 	},
+	[208] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970201",
+		id = 208,
+		target_num = 1,
+		desc = "セイレーン作戦でヘレナ(META)を含めた艦隊で1回勝利する"
+	},
+	[209] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970201",
+		id = 209,
+		target_num = 1,
+		desc = "セイレーン作戦でヘレナ(META)を含めた艦隊でLv70+の敵を撃破"
+	},
+	[210] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970201",
+		id = 210,
+		target_num = 1,
+		desc = "セイレーン作戦でヘレナ(META)を含めた艦隊でLv90+の敵を撃破"
+	},
+	[211] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970201",
+		id = 211,
+		target_num = 1,
+		desc = "セイレーン作戦でヘレナ(META)を含めた艦隊でLv100+の敵を撃破 "
+	},
 	[301] = {
 		target_id = "0",
 		sub_type = 305,
@@ -234,6 +306,11 @@ pg.task_meta_data_template = {
 		108,
 		109,
 		110,
+		111,
+		112,
+		113,
+		114,
+		115,
 		200,
 		201,
 		202,
@@ -242,6 +319,10 @@ pg.task_meta_data_template = {
 		205,
 		206,
 		207,
+		208,
+		209,
+		210,
+		211,
 		301,
 		302
 	}

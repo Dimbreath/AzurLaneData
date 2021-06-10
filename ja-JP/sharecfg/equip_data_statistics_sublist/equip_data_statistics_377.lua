@@ -1,5 +1,22 @@
 pg = pg or {}
 pg.equip_data_statistics_377 = {
+	[85410] = {
+		id = 85410,
+		damage = "96/回",
+		base = 85400,
+		weapon_id = {
+			85410
+		}
+	},
+	[85411] = {
+		anti_siren = 100,
+		damage = "96/回",
+		base = 85400,
+		id = 85411,
+		weapon_id = {
+			85411
+		}
+	},
 	[85420] = {
 		name = "305mm三連装砲Model1907",
 		speciality = "投射",
@@ -206,22 +223,6 @@ pg.equip_data_statistics_377 = {
 		base = 85440,
 		weapon_id = {
 			85445
-		}
-	},
-	[85446] = {
-		id = 85446,
-		damage = "14 x 4",
-		base = 85440,
-		weapon_id = {
-			85446
-		}
-	},
-	[85447] = {
-		id = 85447,
-		damage = "14 x 4",
-		base = 85440,
-		weapon_id = {
-			85447
 		}
 	}
 }

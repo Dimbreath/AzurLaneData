@@ -2,206 +2,6 @@ pg = pg or {}
 pg.weapon_property_23 = {}
 
 function ()
-	uv0.weapon_property_23[18141] = {
-		id = 18141,
-		reload_max = 2460,
-		damage = 58,
-		base = 18140
-	}
-	uv0.weapon_property_23[18142] = {
-		id = 18142,
-		reload_max = 2430,
-		damage = 74,
-		base = 18140
-	}
-	uv0.weapon_property_23[18143] = {
-		id = 18143,
-		reload_max = 2400,
-		damage = 92,
-		base = 18140
-	}
-	uv0.weapon_property_23[18144] = {
-		id = 18144,
-		reload_max = 2370,
-		damage = 107,
-		base = 18140
-	}
-	uv0.weapon_property_23[18145] = {
-		id = 18145,
-		reload_max = 2340,
-		damage = 123,
-		base = 18140
-	}
-	uv0.weapon_property_23[18146] = {
-		id = 18146,
-		reload_max = 2310,
-		damage = 141,
-		base = 18140
-	}
-	uv0.weapon_property_23[18147] = {
-		id = 18147,
-		reload_max = 2280,
-		damage = 157,
-		base = 18140
-	}
-	uv0.weapon_property_23[18148] = {
-		id = 18148,
-		reload_max = 2250,
-		damage = 175,
-		base = 18140
-	}
-	uv0.weapon_property_23[18149] = {
-		id = 18149,
-		reload_max = 2220,
-		damage = 191,
-		base = 18140
-	}
-	uv0.weapon_property_23[18150] = {
-		id = 18150,
-		reload_max = 2190,
-		damage = 207,
-		base = 18140
-	}
-	uv0.weapon_property_23[18151] = {
-		id = 18151,
-		reload_max = 2190,
-		damage = 207,
-		base = 18140
-	}
-	uv0.weapon_property_23[18160] = {
-		action_index = "attack",
-		range = 90,
-		type = 10,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "TBF复仇者(VT-8中队)",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 90,
-		charge_param = "",
-		damage = 132,
-		corrected = 100,
-		min_range = 0,
-		id = 18160,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 2110,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			18160
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_23[18161] = {
-		reload_max = 2080,
-		damage = 153,
-		base = 18160,
-		id = 18161,
-		bullet_ID = {
-			18161
-		}
-	}
-	uv0.weapon_property_23[18162] = {
-		reload_max = 2050,
-		damage = 174,
-		base = 18160,
-		id = 18162,
-		bullet_ID = {
-			18162
-		}
-	}
-	uv0.weapon_property_23[18163] = {
-		reload_max = 2020,
-		damage = 195,
-		base = 18160,
-		id = 18163,
-		bullet_ID = {
-			18163
-		}
-	}
-	uv0.weapon_property_23[18164] = {
-		reload_max = 1990,
-		damage = 216,
-		base = 18160,
-		id = 18164,
-		bullet_ID = {
-			18164
-		}
-	}
-	uv0.weapon_property_23[18165] = {
-		reload_max = 1960,
-		damage = 237,
-		base = 18160,
-		id = 18165,
-		bullet_ID = {
-			18165
-		}
-	}
-	uv0.weapon_property_23[18166] = {
-		reload_max = 1930,
-		damage = 258,
-		base = 18160,
-		id = 18166,
-		bullet_ID = {
-			18166
-		}
-	}
-	uv0.weapon_property_23[18167] = {
-		reload_max = 1900,
-		damage = 279,
-		base = 18160,
-		id = 18167,
-		bullet_ID = {
-			18167
-		}
-	}
-	uv0.weapon_property_23[18168] = {
-		reload_max = 1870,
-		damage = 300,
-		base = 18160,
-		id = 18168,
-		bullet_ID = {
-			18168
-		}
-	}
-	uv0.weapon_property_23[18169] = {
-		reload_max = 1840,
-		damage = 321,
-		base = 18160,
-		id = 18169,
-		bullet_ID = {
-			18169
-		}
-	}
-	uv0.weapon_property_23[18170] = {
-		reload_max = 1810,
-		damage = 342,
-		base = 18160,
-		id = 18170,
-		bullet_ID = {
-			18170
-		}
-	}
 	uv0.weapon_property_23[18171] = {
 		reload_max = 1810,
 		damage = 342,
@@ -627,5 +427,328 @@ function ()
 		id = 18227,
 		reload_max = 1920,
 		base = 18220
+	}
+	uv0.weapon_property_23[18228] = {
+		id = 18228,
+		reload_max = 1890,
+		base = 18220
+	}
+	uv0.weapon_property_23[18229] = {
+		id = 18229,
+		reload_max = 1860,
+		base = 18220
+	}
+	uv0.weapon_property_23[18230] = {
+		id = 18230,
+		reload_max = 1830,
+		base = 18220
+	}
+	uv0.weapon_property_23[18231] = {
+		id = 18231,
+		reload_max = 1830,
+		base = 18220
+	}
+	uv0.weapon_property_23[18232] = {
+		id = 18232,
+		reload_max = 1830,
+		base = 18220
+	}
+	uv0.weapon_property_23[18233] = {
+		id = 18233,
+		reload_max = 1830,
+		base = 18220
+	}
+	uv0.weapon_property_23[19000] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "SBD-3无畏T1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 90,
+		charge_param = "",
+		damage = 100,
+		corrected = 100,
+		min_range = 0,
+		id = 19000,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 2195,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19000
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_23[19001] = {
+		reload_max = 2166,
+		damage = 116,
+		base = 19000,
+		id = 19001,
+		bullet_ID = {
+			19001
+		}
+	}
+	uv0.weapon_property_23[19002] = {
+		reload_max = 2138,
+		damage = 130,
+		base = 19000,
+		id = 19002,
+		bullet_ID = {
+			19002
+		}
+	}
+	uv0.weapon_property_23[19003] = {
+		reload_max = 2109,
+		damage = 146,
+		base = 19000,
+		id = 19003,
+		bullet_ID = {
+			19003
+		}
+	}
+	uv0.weapon_property_23[19020] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "SBD-3无畏T2",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 90,
+		charge_param = "",
+		damage = 110,
+		corrected = 100,
+		min_range = 0,
+		id = 19020,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 2157,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19000
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_23[19021] = {
+		reload_max = 2128,
+		damage = 127,
+		base = 19020,
+		id = 19021,
+		bullet_ID = {
+			19001
+		}
+	}
+	uv0.weapon_property_23[19022] = {
+		reload_max = 2100,
+		damage = 143,
+		base = 19020,
+		id = 19022,
+		bullet_ID = {
+			19002
+		}
+	}
+	uv0.weapon_property_23[19023] = {
+		reload_max = 2071,
+		damage = 160,
+		base = 19020,
+		id = 19023,
+		bullet_ID = {
+			19003
+		}
+	}
+	uv0.weapon_property_23[19040] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "SBD-3无畏T3",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 90,
+		charge_param = "",
+		damage = 120,
+		corrected = 100,
+		min_range = 0,
+		id = 19040,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 2071,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19000
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_23[19041] = {
+		reload_max = 2043,
+		damage = 139,
+		base = 19040,
+		id = 19041,
+		bullet_ID = {
+			19001
+		}
+	}
+	uv0.weapon_property_23[19042] = {
+		reload_max = 2014,
+		damage = 156,
+		base = 19040,
+		id = 19042,
+		bullet_ID = {
+			19002
+		}
+	}
+	uv0.weapon_property_23[19043] = {
+		reload_max = 1986,
+		damage = 175,
+		base = 19040,
+		id = 19043,
+		bullet_ID = {
+			19003
+		}
+	}
+	uv0.weapon_property_23[19044] = {
+		reload_max = 1957,
+		damage = 192,
+		base = 19040,
+		id = 19044,
+		bullet_ID = {
+			19004
+		}
+	}
+	uv0.weapon_property_23[19045] = {
+		reload_max = 1929,
+		damage = 211,
+		base = 19040,
+		id = 19045,
+		bullet_ID = {
+			19005
+		}
+	}
+	uv0.weapon_property_23[19046] = {
+		reload_max = 1900,
+		damage = 228,
+		base = 19040,
+		id = 19046,
+		bullet_ID = {
+			19006
+		}
+	}
+	uv0.weapon_property_23[19047] = {
+		reload_max = 1900,
+		damage = 228,
+		base = 19040,
+		id = 19047,
+		bullet_ID = {
+			19006
+		}
+	}
+	uv0.weapon_property_23[19060] = {
+		action_index = "attack",
+		range = 90,
+		type = 10,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "SBD-3无畏(麦克拉斯基队)",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 90,
+		charge_param = "",
+		damage = 113,
+		corrected = 100,
+		min_range = 0,
+		id = 19060,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 2060,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19060
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
 end()

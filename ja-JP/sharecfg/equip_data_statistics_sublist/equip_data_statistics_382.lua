@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.equip_data_statistics_382 = {
+	[89073] = {
+		id = 89073,
+		anti_siren = 300,
+		base = 89060,
+		value_2 = 28,
+		value_1 = "18"
+	},
+	[89080] = {
+		name = "ゲーマーズの証",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "89080",
+		value_1 = "245",
+		descrip = "ホロライブゲーマーズの証となるエンブレムバッジ",
+		rarity = 5,
+		nationality = 105,
+		ammo = 10,
+		value_3 = 0,
+		id = 89080,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6500
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
 	[89081] = {
 		id = 89081,
 		value_1 = "280",
@@ -101,17 +141,5 @@ pg.equip_data_statistics_382 = {
 		label = {
 			"DEV"
 		}
-	},
-	[89101] = {
-		id = 89101,
-		value_2 = 55,
-		value_1 = "10",
-		base = 89100
-	},
-	[89102] = {
-		id = 89102,
-		value_2 = 60,
-		value_1 = "11",
-		base = 89100
 	}
 }

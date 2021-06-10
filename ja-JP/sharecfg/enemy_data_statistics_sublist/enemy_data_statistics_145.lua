@@ -1,5 +1,98 @@
 pg = pg or {}
 pg.enemy_data_statistics_145 = {
+	[10093500] = {
+		hit_growth = 210,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		dodge = 28,
+		armor = 0,
+		antiaircraft_growth = 0,
+		antisub = 0,
+		cannon = 125,
+		dodge_growth = 424,
+		star = 6,
+		antisub_growth = 0,
+		rarity = 6,
+		base = 257,
+		durability = 11400,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 32,
+		luck = 0,
+		id = 10093500,
+		cannon_growth = 0,
+		pilot_ai_template_id = 70041,
+		reload = 150,
+		reload_growth = 0,
+		hit = 35,
+		torpedo = 220,
+		durability_growth = 0,
+		antiaircraft = 200,
+		battle_unit_type = 95,
+		bound_bone = {
+			cannon = {
+				{
+					0.6,
+					0.6,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.38,
+					0.6,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.472,
+							0.233,
+							0.467
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.42,
+							1.7,
+							2.07
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			550511,
+			550512,
+			550513,
+			550514
+		}
+	},
 	[10094001] = {
 		cannon = 12,
 		antisub = 0,
@@ -820,44 +913,6 @@ pg.enemy_data_statistics_145 = {
 			100219,
 			535001,
 			313091
-		}
-	},
-	[10095002] = {
-		cannon = 45,
-		antisub = 0,
-		air = 0,
-		cannon_growth = 880,
-		armor = 0,
-		reload = 150,
-		base = 124,
-		dodge = 0,
-		torpedo_growth = 2250,
-		air_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		star = 3,
-		hit = 10,
-		antisub_growth = 0,
-		rarity = 3,
-		luck_growth = 0,
-		torpedo = 45,
-		durability = 1050,
-		armor_growth = 0,
-		durability_growth = 26000,
-		antiaircraft = 160,
-		speed = 15,
-		luck = 0,
-		hit_growth = 144,
-		battle_unit_type = 30,
-		id = 10095002,
-		antiaircraft_growth = 2250,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			550062,
-			100349
 		}
 	}
 }

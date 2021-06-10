@@ -40,6 +40,10 @@ function slot0.execute(slot0, slot1)
 			slot10 = true
 			slot6 = slot17
 		end
+	elseif slot9 == 2010 or slot9 == 2011 then
+		slot5 = Task.TASK_PROGRESS_APPEND
+		slot10 = true
+		slot6 = 1
 	end
 
 	if not slot10 then

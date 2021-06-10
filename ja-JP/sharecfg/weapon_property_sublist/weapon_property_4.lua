@@ -2,63 +2,6 @@ pg = pg or {}
 pg.weapon_property_4 = {}
 
 function ()
-	uv0.weapon_property_4[4150] = {
-		id = 4150,
-		reload_max = 450,
-		damage = 61,
-		base = 4140
-	}
-	uv0.weapon_property_4[4151] = {
-		reload_max = 450,
-		damage = 61,
-		base = 4140,
-		id = 4151,
-		corrected = 104
-	}
-	uv0.weapon_property_4[4200] = {
-		action_index = "attack",
-		range = 120,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "剑鱼Mark.II-ASV",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 28,
-		corrected = 100,
-		min_range = 0,
-		id = 4200,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 680,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			4200
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			2
-		},
-		precast_param = {}
-	}
 	uv0.weapon_property_4[4201] = {
 		id = 4201,
 		reload_max = 668,
@@ -712,5 +655,68 @@ function ()
 		reload_max = 3429,
 		damage = 96,
 		base = 5040
+	}
+	uv0.weapon_property_4[5045] = {
+		id = 5045,
+		reload_max = 3354,
+		damage = 106,
+		base = 5040
+	}
+	uv0.weapon_property_4[5046] = {
+		id = 5046,
+		reload_max = 3280,
+		damage = 116,
+		base = 5040
+	}
+	uv0.weapon_property_4[5047] = {
+		reload_max = 3280,
+		damage = 116,
+		base = 5040,
+		id = 5047,
+		corrected = 104
+	}
+	uv0.weapon_property_4[5100] = {
+		action_index = "attack",
+		range = 50,
+		type = 16,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "四联533mm鱼雷T1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 46,
+		corrected = 100,
+		min_range = 0,
+		id = 5100,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 4806,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1800
+		},
+		barrage_ID = {
+			1403
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
 end()

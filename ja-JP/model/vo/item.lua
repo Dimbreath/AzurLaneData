@@ -1,5 +1,6 @@
 slot0 = class("Item", import(".BaseVO"))
 slot0.REVERT_EQUIPMENT_ID = 15007
+slot0.COMMANDER_QUICKLY_TOOL_ID = 20010
 slot0.INVISIBLE_TYPE = {
 	0,
 	9

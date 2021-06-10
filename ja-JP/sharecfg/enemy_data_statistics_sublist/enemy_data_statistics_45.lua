@@ -1,5 +1,111 @@
 pg = pg or {}
 pg.enemy_data_statistics_45 = {
+	[5001] = {
+		name = "ユキカゼ",
+		rarity = 2,
+		speed_growth = 0,
+		hit_growth = 210,
+		air = 0,
+		dodge = 15,
+		armor = 0,
+		antisub = 0,
+		antiaircraft_growth = 1638,
+		antiaircraft = 20,
+		cannon = 6,
+		dodge_growth = 222,
+		star = 3,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 172,
+		durability = 750,
+		armor_growth = 0,
+		torpedo_growth = 4491,
+		speed = 32,
+		luck = 0,
+		id = 5001,
+		cannon_growth = 468,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 54,
+		durability_growth = 25100,
+		luck_growth = 0,
+		battle_unit_type = 50,
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			315004,
+			100432
+		}
+	},
 	[5002] = {
 		cannon = 6,
 		name = "シラヌイ",
@@ -568,44 +674,6 @@ pg.enemy_data_statistics_45 = {
 			100542,
 			100412,
 			315100
-		}
-	},
-	[5016] = {
-		cannon = 24,
-		name = "アタゴ",
-		air = 0,
-		cannon_growth = 2016,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		armor = 0,
-		dodge = 7,
-		torpedo = 33,
-		antiaircraft_growth = 2880,
-		reload_growth = 0,
-		dodge_growth = 102,
-		hit_growth = 210,
-		star = 5,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 4,
-		speed_growth = 0,
-		base = 208,
-		durability = 1200,
-		armor_growth = 0,
-		durability_growth = 52000,
-		antiaircraft = 35,
-		speed = 18,
-		luck = 0,
-		luck_growth = 0,
-		air_growth = 0,
-		id = 5016,
-		battle_unit_type = 60,
-		torpedo_growth = 2763,
-		antisub = 0,
-		equipment_list = {
-			100202,
-			100532,
-			100422
 		}
 	}
 }

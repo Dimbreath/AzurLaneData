@@ -121,29 +121,31 @@ function slot0.UpdateView(slot0)
 	slot0.tweenItems = {}
 	slot3 = slot1.events
 	slot4 = slot1.guildTasks
-	slot6 = slot3 and #slot3 > 0
-	slot7 = slot4 and table.getCount(slot4) > 0
+	slot5 = slot1.guildAutoReceives
+	slot7 = slot3 and #slot3 > 0
+	slot8 = slot4 and table.getCount(slot4) > 0
+	slot9 = slot5 and table.getCount(slot5) > 0
 
-	if slot1.rewards and #slot2 > 0 or slot6 or slot7 then
+	if slot1.rewards and #slot2 > 0 or slot7 or slot8 or slot9 then
 		setActive(slot0.window, true)
 		setActive(slot0.emptyTip, false)
-		setActive(slot0.boxView:Find("Viewport/Content/ItemGrid"), slot5)
+		setActive(slot0.boxView:Find("Viewport/Content/ItemGrid"), slot6)
 
-		if slot5 then
-			for slot12, slot13 in ipairs(CustomIndexLayer.Clone2Full(slot0.itemList, #slot2)) do
-				slot15 = slot8[slot12]
+		if slot6 then
+			for slot14, slot15 in ipairs(CustomIndexLayer.Clone2Full(slot0.itemList, #slot2)) do
+				slot17 = slot10[slot14]
 
-				updateDrop(slot15:Find("Shell/Icon"), slot2[slot12])
-				onButton(slot0, slot15:Find("Shell/Icon"), function ()
+				updateDrop(slot17:Find("Shell/Icon"), slot2[slot14])
+				onButton(slot0, slot17:Find("Shell/Icon"), function ()
 					uv0:emit(BaseUI.ON_DROP, uv1)
 				end, SFX_PANEL)
 			end
 
-			slot9 = {}
+			slot11 = {}
 
-			for slot13 = 1, #slot2 do
-				setActive(slot8[slot13], false)
-				table.insert(slot9, function (slot0)
+			for slot15 = 1, #slot2 do
+				setActive(slot10[slot15], false)
+				table.insert(slot11, function (slot0)
 					if not uv0.tweenItems then
 						slot0()
 
@@ -161,33 +163,39 @@ function slot0.UpdateView(slot0)
 
 			slot0.isRewardAnimating = true
 
-			table.insert(slot9, function ()
+			table.insert(slot11, function ()
 				uv0:SkipAnim()
 			end)
-			seriesAsync(slot9)
+			seriesAsync(slot11)
 		end
 
-		setActive(slot0.boxView:Find("Viewport/Content/TextArea"), slot6 or slot7)
+		setActive(slot0.boxView:Find("Viewport/Content/TextArea"), slot7 or slot8)
 
-		slot8 = ""
-
-		if slot6 then
-			for slot12, slot13 in ipairs(slot3) do
-				slot8 = slot8 .. i18n("autofight_entrust", pg.collection_template[slot13] and pg.collection_template[slot13].title or "") .. "\n"
-			end
-		end
+		slot10 = ""
 
 		if slot7 then
-			for slot12, slot13 in pairs(slot4) do
-				slot8 = slot8 .. i18n("autofight_task", slot13) .. "\n"
+			for slot14, slot15 in ipairs(slot3) do
+				slot10 = slot10 .. i18n("autofight_entrust", pg.collection_template[slot15] and pg.collection_template[slot15].title or "") .. "\n"
 			end
 		end
 
-		if #slot8 > 0 then
-			slot8 = string.sub(slot8, 1, -2) or slot8
+		if slot8 then
+			for slot14, slot15 in pairs(slot4) do
+				slot10 = slot10 .. i18n("autofight_task", slot15) .. "\n"
+			end
 		end
 
-		setText(slot0.boxView:Find("Viewport/Content/TextArea/Text"), slot8)
+		if slot9 then
+			for slot14, slot15 in pairs(slot5) do
+				slot10 = slot10 .. i18n("guild_task_autoaccept_1", slot15) .. "\n"
+			end
+		end
+
+		if #slot10 > 0 then
+			slot10 = string.sub(slot10, 1, -2) or slot10
+		end
+
+		setText(slot0.boxView:Find("Viewport/Content/TextArea/Text"), slot10)
 	else
 		setActive(slot0.boxView, false)
 		setActive(slot0.emptyTip, true)

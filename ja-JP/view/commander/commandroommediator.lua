@@ -13,10 +13,27 @@ slot0.ON_TREE_MSGBOX = "CommandRoomMediator:ON_TREE_MSGBOX"
 slot0.ON_DETAIL = "CommandRoomMediator:ON_DETAIL"
 slot0.OPEN_RENAME_PANEL = "CommandRoomMediator:OPEN_RENAME_PANEL"
 slot0.ON_LOCK = "CommandRoomMediator:ON_LOCK"
+slot0.ON_OPEN_HOME = "CommandRoomMediator:ON_OPEN_HOME"
+slot0.ON_USE_QUICKLY_TOOL = "CommandRoomMediator:ON_USE_QUICKLY_TOOL"
 
 function slot0.register(slot0)
 	slot2 = getProxy(CommanderProxy)
 
+	slot0:bind(uv0.ON_USE_QUICKLY_TOOL, function (slot0, slot1, slot2, slot3)
+		uv0:sendNotification(GAME.USE_ITEM, {
+			id = slot1,
+			count = slot2,
+			arg = {
+				slot3
+			}
+		})
+	end)
+	slot0:bind(uv0.ON_OPEN_HOME, function (slot0)
+		uv0:addSubLayers(Context.New({
+			viewComponent = CommanderHomeLayer,
+			mediator = CommanderHomeMediator
+		}))
+	end)
 	slot0:bind(uv0.ON_LOCK, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.COMMANDER_LOCK, {
 			commanderId = slot1,
@@ -217,7 +234,11 @@ function slot0.listNotificationInterests(slot0)
 		GAME.COMMANDER_RESERVE_BOX_DONE,
 		GAME.COMMANDER_RENAME_DONE,
 		GAME.COMMANDER_LOCK_DONE,
-		GAME.COMMANDER_ON_BATCH_DONE
+		GAME.COMMANDER_ON_BATCH_DONE,
+		GAME.COMMANDER_CATTERY_OP_DONE,
+		GAME.PUT_COMMANDER_IN_CATTERY_DONE,
+		GAME.ZERO_HOUR_OP_DONE,
+		GAME.REFRESH_COMMANDER_BOXES_DONE
 	}
 end
 
@@ -302,6 +323,11 @@ function slot0.handleNotification(slot0, slot1)
 
 			parallelAsync(slot6, slot5)
 		end
+	elseif slot2 == GAME.REFRESH_COMMANDER_BOXES_DONE then
+		slot0.viewComponent:setBoxes(getProxy(CommanderProxy):getBoxes())
+		slot0.viewComponent:updateBoxes()
+	elseif slot2 == GAME.COMMANDER_CATTERY_OP_DONE or slot2 == GAME.ZERO_HOUR_OP_DONE or slot2 == GAME.PUT_COMMANDER_IN_CATTERY_DONE then
+		slot0.viewComponent:UpdateHomeTip()
 	end
 end
 

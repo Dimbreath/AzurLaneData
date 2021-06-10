@@ -130,9 +130,7 @@ function slot0.PlayBackYardThemeTemplate(slot0)
 end
 
 function slot0.PlayCommander(slot0)
-	slot3 = {}
-
-	for slot7, slot8 in ipairs(_.select({
+	slot1 = {
 		"ZHIHUIMIAO2",
 		"NG006",
 		"NG007",
@@ -140,7 +138,16 @@ function slot0.PlayCommander(slot0)
 		"NG008",
 		"ZHIHUIMIAO4",
 		"NG009"
-	}, function (slot0)
+	}
+
+	if not LOCK_CATTERY then
+		table.insert(slot1, "NG0029")
+	end
+
+	slot3 = {}
+	slot4 = nil
+
+	for slot8, slot9 in ipairs(_.select(slot1, function (slot0)
 		return not uv0(slot0)
 	end)) do
 		table.insert(slot3, function (slot0)
@@ -151,8 +158,20 @@ function slot0.PlayCommander(slot0)
 				slot0()
 			elseif uv0 == "ZHIHUIMIAO2" or uv0 == "ZHIHUIMIAO3" or uv0 == "ZHIHUIMIAO4" then
 				pg.NewStoryMgr.GetInstance():Play(uv0, slot0, true)
+			elseif uv0 == "NG0029" then
+				if uv1 == "NG009" then
+					uv2(uv0, {
+						1
+					}, slot0)
+				else
+					uv2(uv0, {
+						2
+					}, slot0)
+				end
 			else
-				uv1(uv0, {}, slot0)
+				uv1 = uv0
+
+				uv2(uv0, {}, slot0)
 			end
 		end)
 	end

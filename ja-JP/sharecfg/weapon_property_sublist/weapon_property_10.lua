@@ -2,60 +2,6 @@ pg = pg or {}
 pg.weapon_property_10 = {}
 
 function ()
-	uv0.weapon_property_10[11222] = {
-		id = 11222,
-		reload_max = 285,
-		damage = 6,
-		base = 11220
-	}
-	uv0.weapon_property_10[11223] = {
-		id = 11223,
-		reload_max = 280,
-		damage = 7,
-		base = 11220
-	}
-	uv0.weapon_property_10[11224] = {
-		id = 11224,
-		reload_max = 275,
-		damage = 8,
-		base = 11220
-	}
-	uv0.weapon_property_10[11225] = {
-		id = 11225,
-		reload_max = 270,
-		damage = 9,
-		base = 11220
-	}
-	uv0.weapon_property_10[11226] = {
-		id = 11226,
-		reload_max = 265,
-		damage = 10,
-		base = 11220
-	}
-	uv0.weapon_property_10[11227] = {
-		id = 11227,
-		reload_max = 260,
-		damage = 11,
-		base = 11220
-	}
-	uv0.weapon_property_10[11228] = {
-		id = 11228,
-		reload_max = 255,
-		damage = 12,
-		base = 11220
-	}
-	uv0.weapon_property_10[11229] = {
-		id = 11229,
-		reload_max = 250,
-		damage = 13,
-		base = 11220
-	}
-	uv0.weapon_property_10[11230] = {
-		id = 11230,
-		reload_max = 245,
-		damage = 14,
-		base = 11220
-	}
 	uv0.weapon_property_10[11240] = {
 		action_index = "attack",
 		range = 60,
@@ -675,5 +621,104 @@ function ()
 		reload_max = 794,
 		damage = 11,
 		base = 12140
+	}
+	uv0.weapon_property_10[12143] = {
+		id = 12143,
+		reload_max = 781,
+		damage = 12,
+		base = 12140
+	}
+	uv0.weapon_property_10[12144] = {
+		id = 12144,
+		reload_max = 768,
+		damage = 13,
+		base = 12140
+	}
+	uv0.weapon_property_10[12145] = {
+		id = 12145,
+		reload_max = 755,
+		damage = 14,
+		base = 12140
+	}
+	uv0.weapon_property_10[12146] = {
+		id = 12146,
+		reload_max = 742,
+		damage = 15,
+		base = 12140
+	}
+	uv0.weapon_property_10[12147] = {
+		id = 12147,
+		reload_max = 729,
+		damage = 16,
+		base = 12140
+	}
+	uv0.weapon_property_10[12148] = {
+		id = 12148,
+		reload_max = 716,
+		damage = 17,
+		base = 12140
+	}
+	uv0.weapon_property_10[12149] = {
+		id = 12149,
+		reload_max = 703,
+		damage = 18,
+		base = 12140
+	}
+	uv0.weapon_property_10[12150] = {
+		id = 12150,
+		reload_max = 690,
+		damage = 19,
+		base = 12140
+	}
+	uv0.weapon_property_10[12151] = {
+		reload_max = 690,
+		damage = 19,
+		base = 12140,
+		id = 12151,
+		corrected = 109
+	}
+	uv0.weapon_property_10[12160] = {
+		action_index = "attack",
+		range = 65,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "三联装152mm主炮Mk16T0",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 10,
+		corrected = 105,
+		min_range = 0,
+		id = 12160,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 819,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0.4,
+		initial_over_heat = 0,
+		bullet_ID = {
+			1007
+		},
+		barrage_ID = {
+			1111
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
 end()

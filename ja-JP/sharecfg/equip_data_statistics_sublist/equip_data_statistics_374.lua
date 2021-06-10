@@ -1,5 +1,21 @@
 pg = pg or {}
 pg.equip_data_statistics_374 = {
+	[85283] = {
+		id = 85283,
+		damage = "61/回",
+		base = 85280,
+		weapon_id = {
+			85283
+		}
+	},
+	[85284] = {
+		id = 85284,
+		damage = "68/回",
+		base = 85280,
+		weapon_id = {
+			85284
+		}
+	},
 	[85285] = {
 		id = 85285,
 		damage = "75/回",
@@ -155,67 +171,6 @@ pg.equip_data_statistics_374 = {
 		base = 85300,
 		weapon_id = {
 			85306
-		}
-	},
-	[85320] = {
-		name = "406mm三連装砲B-37 MK-1",
-		speciality = "投射",
-		type = 4,
-		tech = 2,
-		descrip = "0",
-		value_2 = 25,
-		icon = "85300",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "56 x 3",
-		nationality = 7,
-		ammo = 3,
-		value_3 = 0,
-		id = 85320,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1571
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			85320
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"BB",
-			"MG",
-			"AP"
-		}
-	},
-	[85321] = {
-		id = 85321,
-		damage = "65 x 3",
-		base = 85320,
-		weapon_id = {
-			85321
 		}
 	}
 }

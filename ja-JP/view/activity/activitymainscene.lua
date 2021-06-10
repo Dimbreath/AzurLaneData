@@ -32,14 +32,20 @@ slot1 = nil
 function slot0.init(slot0)
 	slot0.btnBack = slot0:findTF("blur_panel/adapt/top/back_btn")
 	slot0.pageContainer = slot0:findTF("pages")
+	slot0.permanentFinshMask = slot0:findTF("pages_finish")
 	slot0.tabs = slot0:findTF("scroll/viewport/content")
 	slot0.tab = slot0:findTF("tab", slot0.tabs)
 	slot0.entranceList = UIItemList.New(slot0:findTF("enter/viewport/content"), slot0:findTF("enter/viewport/content/btn"))
 	slot0.windowList = {}
 	slot0.lockAll = slot0:findTF("blur_panel/lock_all")
 
-	setActive(slot0.lockAll, false)
 	setActive(slot0.tab, false)
+	setActive(slot0.lockAll, false)
+	setActive(slot0.permanentFinshMask, false)
+	setText(slot0.permanentFinshMask:Find("piece/Text"), i18n("activity_permanent_tips2"))
+	onButton(slot0, slot0.permanentFinshMask:Find("piece/arrow/Image"), function ()
+		uv0:emit(ActivityMediator.FINISH_ACTIVITY_PERMANENT)
+	end, SFX_PANEL)
 end
 
 function slot0.didEnter(slot0)
@@ -69,10 +75,6 @@ function slot0.setFlagShip(slot0, slot1)
 	slot0.shareData:SetFlagShip(slot1)
 end
 
-function slot0.setAllActivity(slot0, slot1)
-	slot0.allActivity = slot1
-end
-
 function slot0.updateTaskLayers(slot0)
 	if not slot0.activity then
 		return
@@ -81,23 +83,27 @@ function slot0.updateTaskLayers(slot0)
 	slot0:updateActivity(slot0.activity)
 end
 
+function slot0.instanceActivityPage(slot0, slot1)
+	if slot1:getConfig("page_info").class_name and not slot0.pageDic[slot1.id] and not slot1:isEnd() then
+		if import("view.activity.subPages." .. slot2.class_name).New(slot0.pageContainer, slot0.event, slot0.contextData):UseSecondPage(slot1) then
+			slot4:SetUIName(slot2.ui_name2)
+		else
+			slot4:SetUIName(slot2.ui_name)
+		end
+
+		slot4:SetShareData(slot0.shareData)
+
+		slot0.pageDic[slot1.id] = slot4
+	end
+end
+
 function slot0.setActivities(slot0, slot1)
 	slot0.activities = slot1 or {}
 	slot0.shareData = slot0.shareData or ActivityShareData.New()
 	slot0.pageDic = slot0.pageDic or {}
 
 	for slot5, slot6 in ipairs(slot1) do
-		if slot6:getConfig("page_info").class_name and not slot0.pageDic[slot6.id] and not slot6:isEnd() then
-			if import("view.activity.subPages." .. slot7.class_name).New(slot0.pageContainer, slot0.event, slot0.contextData):UseSecondPage(slot6) then
-				slot9:SetUIName(slot7.ui_name2)
-			else
-				slot9:SetUIName(slot7.ui_name)
-			end
-
-			slot9:SetShareData(slot0.shareData)
-
-			slot0.pageDic[slot6.id] = slot9
-		end
+		slot0:instanceActivityPage(slot6)
 	end
 
 	slot0.activity = nil
@@ -112,39 +118,61 @@ function slot0.setActivities(slot0, slot1)
 	slot0:flushTabs()
 end
 
-function slot0.updateActivity(slot0, slot1)
-	slot0.allActivity[slot1.id] = slot1
-
-	if not slot1:isShow() then
-		if ActivityConst.PageIdLink[slot1.id] then
-			slot1 = getProxy(ActivityProxy):getActivityById(ActivityConst.PageIdLink[slot1.id])
-		else
-			slot0:flushTabs()
-
-			if slot0.pageDic[slot1.id] then
-				slot2:ActionInvoke("OnHideFulsh", slot1)
-			end
-
-			return
+function slot0.getActivityIndex(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.activities) do
+		if slot6.id == slot1 then
+			return slot5
 		end
 	end
 
-	slot0.activities[function ()
-		for slot3, slot4 in ipairs(uv0.activities) do
-			if slot4.id == uv1.id then
-				return slot3
+	return nil
+end
+
+function slot0.updateActivity(slot0, slot1)
+	if ActivityConst.PageIdLink[slot1.id] then
+		slot1 = getProxy(ActivityProxy):getActivityById(ActivityConst.PageIdLink[slot1.id])
+	end
+
+	if slot1:isShow() and not slot1:isEnd() then
+		slot0.activities[slot0:getActivityIndex(slot1.id) or #slot0.activities + 1] = slot1
+
+		table.sort(slot0.activities, function (slot0, slot1)
+			if slot0:getShowPriority() == slot1:getShowPriority() then
+				return slot1.id < slot0.id
 			end
+
+			return slot3 < slot2
+		end)
+
+		if not slot0.pageDic[slot1.id] then
+			slot0:instanceActivityPage(slot1)
 		end
 
-		return #uv0.activities + 1
-	end()] = slot1
+		slot0:flushTabs()
 
-	slot0:flushTabs()
+		if slot0.activity and slot0.activity.id == slot1.id then
+			slot0.activity = slot1
 
-	if slot0.activity and slot0.activity.id == slot1.id then
-		slot0.activity = slot1
+			slot0.pageDic[slot1.id]:ActionInvoke("Flush", slot1)
+			setActive(slot0.permanentFinshMask, pg.activity_task_permanent[slot1.id] and slot1:canPermanentFinish())
+		end
+	end
+end
 
-		slot0.pageDic[slot1.id]:ActionInvoke("Flush", slot1)
+function slot0.removeActivity(slot0, slot1)
+	if slot0:getActivityIndex(slot1) then
+		table.remove(slot0.activities, slot2)
+		slot0.pageDic[slot1]:Destroy()
+
+		slot0.pageDic[slot1] = nil
+
+		slot0:flushTabs()
+
+		if slot0.activity and slot0.activity.id == slot1 then
+			slot0.activity = nil
+
+			slot0:verifyTabs()
+		end
 	end
 end
 
@@ -229,6 +257,8 @@ function slot0.selectActivity(slot0, slot1)
 		slot0.activity = slot1
 		slot0.contextData.id = slot1.id
 
+		setActive(slot0.permanentFinshMask, pg.activity_task_permanent[slot1.id] and slot1:canPermanentFinish())
+
 		if slot0.openPageId ~= slot1.id then
 			slot0.openPageId = nil
 			slot0.openPageFlag = nil
@@ -237,17 +267,7 @@ function slot0.selectActivity(slot0, slot1)
 end
 
 function slot0.verifyTabs(slot0, slot1)
-	slot2 = 1
-
-	for slot6, slot7 in ipairs(slot0.activities) do
-		if slot7.id == slot1 then
-			slot2 = slot6
-
-			break
-		end
-	end
-
-	triggerToggle(slot0.tabs:GetChild(slot2 - 1), true)
+	triggerToggle(slot0.tabs:GetChild((slot0:getActivityIndex(slot1) or 1) - 1), true)
 end
 
 function slot0.loadActivityPanel(slot0, slot1, slot2)

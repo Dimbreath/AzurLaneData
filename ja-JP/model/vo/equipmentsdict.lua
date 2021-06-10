@@ -33,6 +33,32 @@ function slot0.GetSameTypeInEquips(slot0, slot1)
 	return slot2
 end
 
+function slot0.GetEquipmentTransformCandicates(slot0, slot1)
+	slot2 = _.map(slot0:GetSameTypeInEquips(slot1), function (slot0)
+		return {
+			type = DROP_TYPE_EQUIP,
+			id = slot0.id,
+			template = slot0
+		}
+	end)
+
+	if Equipment.GetEquipComposeCfgStatic({
+		equip_id = slot1
+	}) then
+		table.insert(slot2, 1, {
+			type = DROP_TYPE_ITEM,
+			id = slot3.material_id,
+			template = getProxy(BagProxy):getItemById(slot3.material_id) or Item.New({
+				count = 0,
+				id = slot3.material_id
+			}),
+			composeCfg = slot3
+		})
+	end
+
+	return slot2
+end
+
 function slot0.GetEquipTraceBack(slot0, slot1, slot2, slot3)
 	slot4 = slot0.data
 
@@ -52,7 +78,13 @@ function slot0.GetEquipTraceBack(slot0, slot1, slot2, slot3)
 
 		table.insert(slot12.formulas, 1, slot10)
 
-		if #slot0:GetSameTypeInEquips(slot11) > 0 then
+		if _.any(slot0:GetEquipmentTransformCandicates(slot11), function (slot0)
+			if slot0.type == DROP_TYPE_ITEM then
+				return slot0.composeCfg.material_num <= slot0.template.count
+			elseif slot0.type == DROP_TYPE_EQUIP then
+				return slot0.template.count > 0
+			end
+		end) then
 			slot12.candicates = slot13
 
 			table.insert(slot3, slot12)
@@ -80,7 +112,7 @@ function slot0.GetSortedEquipTraceBack(slot0, ...)
 			return #slot0 < #slot1
 		else
 			for slot5 = 1, #slot0 do
-				if slot0[slot5] ~= slot1[1] then
+				if slot0[slot5] ~= slot1[slot5] then
 					return slot0[slot5] < slot1[slot5]
 				end
 			end

@@ -9,6 +9,7 @@ slot0.FLEET_TYPE_HARD_CHAPTER = 3
 slot0.FLEET_TYPE_CHALLENGE = 4
 slot0.FLEET_TYPE_GUILDBOSS = 5
 slot0.FLEET_TYPE_WORLD = 6
+slot0.ON_QUICKLY_TOOL_WINDOW = "CommandRoomScene:ON_QUICKLY_TOOL_WINDOW"
 
 function slot0.getUIName(slot0)
 	return "CommandRoomUI"
@@ -46,6 +47,11 @@ function slot0.setPools(slot0, slot1)
 end
 
 function slot0.init(slot0)
+	slot0:bind(uv0.ON_QUICKLY_TOOL_WINDOW, function (slot0, slot1)
+		uv0.quicklyToolPage:ExecuteAction("Show", slot1, Item.COMMANDER_QUICKLY_TOOL_ID)
+	end)
+
+	slot0.quicklyToolPage = CommanderQuicklyToolPage.New(slot0._tf, slot0.event)
 	slot0.bgTF = slot0:findTF("background"):GetComponent(typeof(Image))
 	slot0.topPanel = slot0:findTF("blur_panel/top")
 	slot0.mainTF = slot0:findTF("blur_panel/main")
@@ -71,6 +77,8 @@ function slot0.init(slot0)
 	slot0.capcity = slot0.boxTF:Find("capcity/Text")
 	slot0.resPanel = slot0:findTF("blur_panel/top/res/bg")
 	slot0.goldTxt = slot0:findTF("blur_panel/top/res/bg/gold/Text")
+	slot0.homeTip = slot0:findTF("blur_panel/main/right_panel/commanders/box/home/tip")
+	slot0.homeTxt = slot0:findTF("blur_panel/main/right_panel/commanders/box/home/Text"):GetComponent(typeof(Text))
 	slot0.toggles = {
 		slot0:findTF("blur_panel/main/left_panel/toggles/play"),
 		slot0:findTF("blur_panel/main/left_panel/toggles/talent")
@@ -156,14 +164,10 @@ function slot0.updateReserveBtn(slot0)
 end
 
 function slot0.UpdateBoxesBtn(slot0)
-	if not IsNil(slot0:findTF("boxes_btn/tip/Text", slot0.boxTF)) then
-		slot2 = 0
-
+	if not IsNil(slot0:findTF("boxes_btn/Text", slot0.boxTF)) then
 		setText(slot1, #_.select(slot0.boxes, function (slot0)
-			slot1 = uv0 + 1
-
-			return slot0:getState() == CommanderBox.STATE_FINISHED or slot0:getState() == CommanderBox.STATE_EMPTY
-		end))
+			return slot0:getState() == CommanderBox.STATE_FINISHED
+		end) .. "/" .. #slot0.boxes)
 		setActive(slot0:findTF("boxes_btn/tip", slot0.boxTF), _.any(slot0.boxes, function (slot0)
 			return slot0:getState() == CommanderBox.STATE_FINISHED or slot0:getState() == CommanderBox.STATE_EMPTY
 		end))
@@ -212,6 +216,15 @@ function slot0.initBoxes(slot0)
 			uv0.reservePanel:CallbackInvoke(slot0)
 		end
 	end, SFX_PANEL)
+
+	if not LOCK_CATTERY then
+		onButton(slot0, slot0:findTF("home", slot0.boxTF), function ()
+			uv0:emit(CommandRoomMediator.ON_OPEN_HOME)
+		end, SFX_PANEL)
+	else
+		setActive(slot1, false)
+	end
+
 	onButton(slot0, slot0:findTF("boxes_btn", slot0.boxTF), function ()
 		if uv0.boxesPanel:GetLoaded() then
 			function ()
@@ -376,6 +389,7 @@ function slot0.didEnter(slot0)
 	slot0:initCommandersPanel()
 	triggerButton(slot0.ascBtn, true)
 	slot0:updateGold()
+	slot0:UpdateHomeTip()
 end
 
 function slot0.paintingView(slot0)
@@ -832,6 +846,12 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
+	if slot0.quicklyToolPage:GetLoaded() and slot0.quicklyToolPage:isShowing() then
+		slot0.quicklyToolPage:Hide()
+
+		return
+	end
+
 	if slot0.boxesPanel and slot0.boxesPanel:isShow() then
 		slot0.boxesPanel:onBackPressed()
 
@@ -875,6 +895,18 @@ function slot0.closeTreePanel(slot0)
 	slot0.treePage:ActionInvoke("closeTreePanel")
 end
 
+function slot0.UpdateHomeTip(slot0)
+	setActive(slot0.homeTip, getProxy(CommanderProxy):AnyCatteryExistOP() or slot1:AnyCatteryCanUse())
+
+	slot3 = ""
+
+	if slot1:GetCommanderHome() then
+		slot3 = slot2:GetExistCommanderCattertCnt() .. "/" .. slot2:GetMaxCatteryCnt()
+	end
+
+	slot0.homeTxt.text = slot3
+end
+
 function slot0.willExit(slot0)
 	for slot4, slot5 in ipairs(slot0.cards) do
 		slot5:clear()
@@ -893,6 +925,7 @@ function slot0.willExit(slot0)
 		PoolMgr.GetInstance():ReturnSpineChar(slot0.prefabName, slot0.modelTf.gameObject)
 	end
 
+	slot0.quicklyToolPage:Destroy()
 	slot0.renamePanel:Destroy()
 	slot0.indexPanel:Destroy()
 	slot0.msgboxPage:Destroy()
