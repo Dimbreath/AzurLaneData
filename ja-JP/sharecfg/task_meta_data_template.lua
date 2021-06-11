@@ -278,7 +278,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "",
 		id = 301,
 		target_num = 1,
-		desc = "余燼座標解析を1回行う"
+		desc = "META座標解析を1回行う"
 	},
 	[302] = {
 		target_id = "0",
@@ -286,7 +286,7 @@ pg.task_meta_data_template = {
 		target_id_2 = "",
 		id = 302,
 		target_num = 1,
-		desc = "余燼戦を1回行う"
+		desc = "META戦を1回行う"
 	},
 	all = {
 		1,

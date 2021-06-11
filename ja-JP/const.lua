@@ -334,6 +334,45 @@ SPECIAL_DATE = {
 	{
 		"20210401",
 		"login_0401"
+	},
+	{
+		"20210611",
+		"login",
+		"loginbg"
+	},
+	{
+		"20210612",
+		"login",
+		"loginbg"
+	},
+	{
+		"20210613",
+		"login",
+		"loginbg"
+	},
+	{
+		"20210613",
+		"login",
+		"loginbg"
+	},
+	{
+		"20210614",
+		"login_0614"
+	},
+	{
+		"20210615",
+		"login",
+		"loginbg"
+	},
+	{
+		"20210616",
+		"login",
+		"loginbg"
+	},
+	{
+		"20210617",
+		"login",
+		"loginbg"
 	}
 }
 SPECIAL_PROPOSE = {
@@ -681,7 +720,7 @@ SPECIAL_PROPOSE = {
 		}
 	}
 }
-CRI_BG_FLAG = true
+CRI_BG_FLAG = false
 OPEN_ESCORT = false
 OPEN_REMASTER = true
 OPEN_AIR_DOMINANCE = true

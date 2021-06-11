@@ -51,7 +51,7 @@ return {
 			alpha = 0.4,
 			waitScene = "MetaCharacterScene",
 			style = {
-				text = "「余燼戦」で入手した解析Pｔはここで累計入手数に応じて報酬を入手できるわ！",
+				text = "「META戦」で入手した解析Pｔはここで累計入手数に応じて報酬を入手できるわ！",
 				mode = 1,
 				dir = 1,
 				posY = -236.99,
