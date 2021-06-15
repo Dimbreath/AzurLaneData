@@ -4643,11 +4643,11 @@ pg.task_data_template = {
 		next_task = "5007",
 		visibility = 1,
 		story_id = "AKASHI51",
-		target_id_for_client = 7022,
+		target_id_for_client = 7203,
 		id = 5006,
 		target_num = 14,
 		fix_task = 0,
-		target_id = "7022",
+		target_id = "7203",
 		open_need = {},
 		award_display = {
 			{
