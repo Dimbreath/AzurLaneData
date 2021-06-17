@@ -166,12 +166,16 @@ function slot0.handleNotification(slot0, slot1)
 				uv0:accepetActivityTask()
 				uv0.viewComponent:updateOneStepBtn()
 
-				slot0 = {}
-
 				for slot4, slot5 in ipairs(uv1) do
-					table.insert(slot0, function (slot0)
+					table.insert({}, function (slot0)
 						uv0:PlayStoryForTaskAct(uv1, slot0)
 					end)
+				end
+
+				if uv0.refreshWeekTaskPageFlag then
+					uv0.viewComponent:RefreshWeekTaskPage()
+
+					uv0.refreshWeekTaskPageFlag = nil
 				end
 
 				if #slot0 > 0 then
@@ -187,23 +191,30 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot2 == TaskProxy.WEEK_TASKS_ADDED or slot2 == TaskProxy.WEEK_TASKS_DELETED or slot2 == TaskProxy.WEEK_TASK_UPDATED then
 			slot0.viewComponent:RefreshWeekTaskPage()
 		elseif slot2 == GAME.SUBMIT_WEEK_TASK_DONE then
-			if #slot3.awards > 0 then
-				slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
-			end
+			slot0.viewComponent:RefreshWeekTaskPageBefore(slot3.id)
 
-			slot0.viewComponent:RefreshWeekTaskPage()
+			if #slot3.awards > 0 then
+				slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, function ()
+					uv0.viewComponent:RefreshWeekTaskPage()
+				end)
+			else
+				slot4()
+			end
 		elseif slot2 == GAME.SUBMIT_WEEK_TASK_PROGRESS_DONE then
 			if #slot3.awards > 0 then
-				slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
+				slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, function ()
+					uv0.viewComponent:RefreshWeekTaskProgress()
+				end)
+			else
+				slot4()
 			end
-
-			slot0.viewComponent:RefreshWeekTaskProgress()
 		elseif slot2 == TaskProxy.WEEK_TASK_RESET then
 			slot0:SetTaskVOs()
 			slot0.viewComponent:ResetWeekTaskPage()
 		elseif slot2 == GAME.MERGE_TASK_ONE_STEP_AWARD_DONE then
+			slot0.refreshWeekTaskPageFlag = true
+
 			slot0:sendNotification(GAME.SUBMIT_TASK_DONE, slot3.awards, slot3.taskIds)
-			slot0.viewComponent:RefreshWeekTaskPage()
 		end
 	end
 end

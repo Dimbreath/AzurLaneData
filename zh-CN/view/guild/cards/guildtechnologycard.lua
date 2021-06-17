@@ -61,7 +61,7 @@ function slot0.Update(slot0, slot1, slot2)
 			uv2:DoUprade(uv3)
 		end, SFX_PANEL)
 	elseif not slot9 then
-		setText(slot0.livnessTF, i18n("guild_tech_livness_no_enough", slot1:GetTargetLivness()))
+		setText(slot0.livnessTF, i18n("guild_tech_livness_no_enough_label", slot1:GetTargetLivness()))
 	end
 
 	setActive(slot0.guildRes, slot9)

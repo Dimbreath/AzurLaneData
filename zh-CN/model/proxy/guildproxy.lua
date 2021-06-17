@@ -178,20 +178,24 @@ function slot0.register(slot0)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_donate_techpoint_toplimit"))
 		end
 	end)
-	slot0:on(62032, function (slot0)
-		slot1 = {}
-
+	slot0:on(62031, function (slot0)
 		for slot5, slot6 in ipairs(slot0.donate_tasks) do
-			table.insert(slot1, GuildDonateTask.New({
+			table.insert({}, GuildDonateTask.New({
 				id = slot6
 			}))
 		end
 
-		slot2 = uv0:getData()
+		if uv0:getData() then
+			slot2.donateCount = 0
 
-		slot2:updateDonateTasks(slot1)
-		uv0:updateGuild(slot2)
-		uv0:sendNotification(uv1.ON_DONATE_LIST_UPDATED)
+			slot2:updateDonateTasks(slot1)
+			uv0:updateGuild(slot2)
+			uv0:sendNotification(uv1.ON_DONATE_LIST_UPDATED)
+		elseif uv0:GetPublicGuild() then
+			slot3:ResetDonateCnt()
+			slot3:UpdateDonateTasks(slot1)
+			uv0:sendNotification(GAME.PUBLIC_GUILD_REFRESH_DONATE_LIST_DONE)
+		end
 	end)
 	slot0:on(61021, function (slot0)
 		uv0.refreshActivationEventTime = 0

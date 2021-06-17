@@ -11748,6 +11748,37 @@ pg.activity_event_pt = {
 			7
 		}
 	},
+	[4011] = {
+		convert_resource_type = 0,
+		pic_list = "",
+		type = 1,
+		buff_group = "",
+		buff_time = "",
+		id_2 = 4011,
+		link_id = 0,
+		unlock_story = "",
+		target_buff = "",
+		drop_display = "",
+		pt_list = "",
+		id = 4011,
+		pt = 206,
+		target = {
+			3000
+		},
+		drop_client = {
+			{
+				14,
+				305,
+				1
+			}
+		},
+		allplayer = {
+			0.1
+		},
+		day_unlock = {
+			0
+		}
+	},
 	[1020] = {
 		convert_resource_type = 0,
 		pic_list = "",
@@ -14937,6 +14968,7 @@ pg.activity_event_pt = {
 		981,
 		984,
 		988,
+		4011,
 		1020,
 		1021,
 		1022,

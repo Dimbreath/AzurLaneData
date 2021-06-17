@@ -84,7 +84,7 @@ return {
 		{
 			alpha = 0.3,
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_1(Clone)",
+				path = "OverlayCamera/Overlay/UIMain/Msgbox/window/button_container/btn_confirm",
 				triggerType = {
 					1
 				},

@@ -45,6 +45,8 @@ function slot0.OnDestroy(slot0)
 end
 
 function slot0.displayAwards(slot0)
+	removeAllChildren(slot0.destroyBonusList)
+
 	for slot4 = 1, #slot0.awards do
 		slot5 = cloneTplTo(slot0.itemTpl, slot0.destroyBonusList):Find("bg")
 		slot6 = slot0.awards[slot4]

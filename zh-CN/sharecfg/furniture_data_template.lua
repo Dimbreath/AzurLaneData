@@ -68001,6 +68001,913 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[51001] = {
+		can_rotate = 0,
+		describe = "逛逛夜市，来点好吃好玩的吧~",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "taiwan/dibantw",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 51,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "热闹夜市·地板",
+		advice = 0,
+		icon = "dibantwicon",
+		id = 51001,
+		comfortable = 4,
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51002] = {
+		can_rotate = 0,
+		describe = "逛逛夜市，来点好吃好玩的吧~",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "taiwan/qiangbitw",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 51,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "夜市文化·壁纸",
+		advice = 0,
+		icon = "qiangbitwicon",
+		id = 51002,
+		comfortable = 4,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51101] = {
+		can_rotate = 1,
+		describe = "饮料点心和正餐都有…啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "taiwan/chaloutw",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 51,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "啾啾茶楼",
+		advice = 0,
+		icon = "chaloutwicon",
+		id = 51101,
+		comfortable = 3,
+		size = {
+			13,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51102] = {
+		can_rotate = 0,
+		describe = "想要哪个啾?",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 51,
+		count = 1,
+		name = "啾啾流动摊",
+		advice = 0,
+		id = 51102,
+		icon = "chetwicon",
+		comfortable = 2,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"canche",
+				"normal",
+				{
+					"walk",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[51103] = {
+		can_rotate = 1,
+		describe = "大型啾啾花灯(附底座)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "taiwan/dengtw",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 51,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "啾啾花灯",
+		advice = 0,
+		icon = "dengtwicon",
+		id = 51103,
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51104] = {
+		can_rotate = 0,
+		describe = "修缮得很漂亮的小洋楼，要不要进去逛逛呢～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "taiwan/loutw",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 51,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "红砖洋楼",
+		advice = 0,
+		icon = "loutwicon",
+		id = 51104,
+		comfortable = 3,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51105] = {
+		can_rotate = 1,
+		describe = "注重装饰效果的灯笼，是不是很有夜市的氛围~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "taiwan/ludengtw",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 51,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "夜市灯笼",
+		advice = 0,
+		icon = "ludengtwicon",
+		id = 51105,
+		comfortable = 2,
+		size = {
+			7,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51106] = {
+		can_rotate = 1,
+		describe = "厚~好像有很多好吃的嘛~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "taiwan/lupaitw",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 51,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "夜市路标",
+		advice = 0,
+		icon = "lupaitwicon",
+		id = 51106,
+		comfortable = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51107] = {
+		can_rotate = 1,
+		describe = "欢迎来到啾啾观光夜市~",
+		gain_by = "",
+		type = 9,
+		dir = 0,
+		dorm_id = 0,
+		picture = "taiwan/mentw",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 51,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		count = 1,
+		name = "夜市入口",
+		advice = 0,
+		icon = "mentwicon",
+		id = 51107,
+		comfortable = 1,
+		size = {
+			2,
+			8
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				0,
+				4
+			},
+			{
+				0,
+				5
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				1,
+				4
+			},
+			{
+				1,
+				5
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51108] = {
+		can_rotate = 0,
+		describe = "认明啾啾品牌……啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "taiwan/naichatw",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 51,
+		count = 1,
+		name = "啾啾珍珠奶茶",
+		advice = 0,
+		id = 51108,
+		icon = "naichatwicon",
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					4,
+					-12
+				},
+				{
+					1,
+					1
+				},
+				"taiwan/naichatw_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51109] = {
+		can_rotate = 1,
+		describe = "今晚好像有烟火看耶~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "taiwan/pai2tw",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 51,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "夜市公告牌1",
+		advice = 0,
+		icon = "pai2twicon",
+		id = 51109,
+		comfortable = 1,
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51110] = {
+		can_rotate = 1,
+		describe = "今晚好像有烟火看耶~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "taiwan/paitw",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 51,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "夜市公告牌2",
+		advice = 0,
+		icon = "paitwicon",
+		id = 51110,
+		comfortable = 2,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51111] = {
+		can_rotate = 0,
+		describe = "光滑的石砖路面，好像很容易滑倒…",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "taiwan/shizhuanlutw",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 51,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "石砖小路",
+		advice = 0,
+		icon = "shizhuanlutwicon",
+		id = 51111,
+		comfortable = 3,
+		size = {
+			7,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51112] = {
+		can_rotate = 0,
+		describe = "光滑的石砖台阶，好像很容易滑倒…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "taiwan/taijietw",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 51,
+		count = 1,
+		name = "石砖台阶",
+		advice = 0,
+		id = 51112,
+		icon = "taijietwicon",
+		comfortable = 2,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-26,
+					69
+				},
+				{
+					-1,
+					1
+				},
+				"taiwan/taijietw_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51113] = {
+		can_rotate = 0,
+		describe = "还是需要一点绿色点缀的~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "taiwan/taizitw",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 51,
+		count = 1,
+		name = "夜市路沿",
+		advice = 0,
+		id = 51113,
+		icon = "taizitwicon",
+		comfortable = 2,
+		size = {
+			3,
+			15
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-204,
+					154
+				},
+				{
+					-1,
+					1
+				},
+				"taiwan/taizitw_using"
+			},
+			{
+				"stand2",
+				{
+					-10,
+					51
+				},
+				{
+					-1,
+					1
+				},
+				"taiwan/taizitw_using"
+			},
+			{
+				"stand2",
+				{
+					205,
+					-67
+				},
+				{
+					-1,
+					1
+				},
+				"taiwan/taizitw_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51114] = {
+		can_rotate = 1,
+		describe = "提供美味的夜市小吃…啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "taiwan/tanwei2tw",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 51,
+		count = 1,
+		name = "啾啾摊位A",
+		advice = 0,
+		id = 51114,
+		icon = "tanwei2twicon",
+		comfortable = 2,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-19,
+					-64
+				},
+				{
+					-1,
+					1
+				},
+				"taiwan/tanwei2tw_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51115] = {
+		can_rotate = 1,
+		describe = "要来点什么喝的啾？推荐啾啾奶茶…啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "taiwan/tanwei3tw",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 51,
+		count = 1,
+		name = "啾啾摊位B",
+		advice = 0,
+		id = 51115,
+		icon = "tanwei3twicon",
+		comfortable = 2,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-90,
+					-90
+				},
+				{
+					-1,
+					1
+				},
+				"taiwan/tanwei3tw_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51116] = {
+		can_rotate = 1,
+		describe = "提供美味的夜市小吃…啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "taiwan/tanweitw",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 51,
+		count = 1,
+		name = "啾啾摊位C",
+		advice = 0,
+		id = 51116,
+		icon = "tanweitwicon",
+		comfortable = 2,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-25,
+					-44
+				},
+				{
+					-1,
+					1
+				},
+				"taiwan/tanweitw_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51117] = {
+		can_rotate = 0,
+		describe = "色彩斑斓的发光灯塔，有点酷炫哦？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "taiwan/tatw",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 51,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "炫彩灯塔",
+		advice = 0,
+		icon = "tatwicon",
+		id = 51117,
+		comfortable = 3,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51118] = {
+		can_rotate = 0,
+		describe = "虽然是路桩的造型，其实是座位哦",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "taiwan/zuoweitw",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 51,
+		count = 3,
+		name = "路桩座位",
+		advice = 0,
+		id = 51118,
+		icon = "zuoweitwicon",
+		comfortable = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-3,
+					54
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[52001] = {
 		can_rotate = 0,
 		describe = "Happy Halloween！",
@@ -95876,6 +96783,26 @@ pg.furniture_data_template = {
 		50122,
 		50123,
 		50124,
+		51001,
+		51002,
+		51101,
+		51102,
+		51103,
+		51104,
+		51105,
+		51106,
+		51107,
+		51108,
+		51109,
+		51110,
+		51111,
+		51112,
+		51113,
+		51114,
+		51115,
+		51116,
+		51117,
+		51118,
 		52001,
 		52002,
 		52101,

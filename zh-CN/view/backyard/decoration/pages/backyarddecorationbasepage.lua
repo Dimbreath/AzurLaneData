@@ -17,6 +17,8 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.SetUp(slot0, slot1, slot2, slot3, slot4)
+	slot0:Show()
+
 	slot0.pageType = slot1
 	slot0.dorm = slot2
 	slot0.customTheme = slot3
@@ -24,7 +26,6 @@ function slot0.SetUp(slot0, slot1, slot2, slot3, slot4)
 
 	slot0:OnDisplayList()
 	slot0:UpdateFliterData()
-	slot0:Show()
 end
 
 function slot0.DormUpdated(slot0, slot1)

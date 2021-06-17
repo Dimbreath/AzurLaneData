@@ -33,7 +33,6 @@ slot0.SHOW_NEXT_ACTIVITY = "show next activity"
 slot0.OPEN_RED_PACKET_LAYER = "ActivityMediator:OPEN_RED_PACKET_LAYER"
 slot0.GO_MINI_GAME = "ActivityMediator.GO_MINI_GAME"
 slot0.GO_DECODE_MINI_GAME = "ActivityMediator:GO_DECODE_MINI_GAME"
-slot0.ON_MONTH_ACHIEVE = "on month achieve"
 slot0.ON_BOBING_RESULT = "on bobing result"
 slot0.ACTIVITY_PERMANENT = "ActivityMediator.ACTIVITY_PERMANENT"
 slot0.FINISH_ACTIVITY_PERMANENT = "ActivityMediator.FINISH_ACTIVITY_PERMANENT"
@@ -356,13 +355,7 @@ function slot0.handleNotification(slot0, slot1)
 
 		slot0:showNextActivity()
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_AWARDS then
-		if slot3.activityId == ActivityConst.MONTH_SIGN_ACTIVITY_ID then
-			slot0.viewComponent:setSelectOpenHandle(slot3.activityId, function (slot0)
-				uv0.viewComponent:emit(ActivityMediator.ON_MONTH_ACHIEVE, uv1.awards, uv1.callback)
-			end)
-		else
-			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
-		end
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_BB_RESULT then
 		slot0.viewComponent:emit(ActivityMediator.ON_BOBING_RESULT, slot3)
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_LOTTERY_AWARD_RESULT then

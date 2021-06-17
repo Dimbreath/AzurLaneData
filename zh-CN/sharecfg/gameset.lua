@@ -338,37 +338,8 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "新泽西PT",
-		key_value = 201
-	},
-	activity_lottery_rewards = {
-		key_value = 0,
-		description = {
-			{
-				3,
-				{
-					15,
-					104,
-					1
-				}
-			},
-			{
-				6,
-				{
-					14,
-					105,
-					1
-				}
-			},
-			{
-				9,
-				{
-					2,
-					59840,
-					1
-				}
-			}
-		}
+		description = "山城PT",
+		key_value = 207
 	},
 	chapter_move_speed_1 = {
 		description = "",

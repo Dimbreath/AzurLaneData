@@ -7393,706 +7393,706 @@ pg.activity_ins_language = {
 		value = "嘿嘿，下次我来泡茶给你喝吧，指挥官！"
 	},
 	ins_215 = {
-		value = ""
+		value = "机器人展…小熊也很兴奋…！"
 	},
 	ins_discuss_215_1 = {
-		value = ""
+		value = "好酷！正义的超级机器人！"
 	},
 	ins_reply_215_1_1 = {
-		value = ""
+		value = "哈啊…果然还是很棒呢…下次还要再去…"
 	},
 	ins_reply_215_1_2 = {
-		value = ""
+		value = "哦哦！下次也喊上我！"
 	},
 	ins_reply_215_1_3 = {
-		value = ""
+		value = "嗯…！"
 	},
 	ins_discuss_215_2 = {
-		value = ""
+		value = "巨大机器人吗…感觉…可以研究看看？"
 	},
 	ins_reply_215_2_1 = {
-		value = ""
+		value = "可以吗…？！"
 	},
 	ins_reply_215_2_2 = {
-		value = ""
+		value = "开玩笑的…"
 	},
 	ins_discuss_215_3 = {
-		value = ""
+		value = "我这正好有同款的1:144的拼装模型哦，要给你带一个吗？"
 	},
 	ins_reply_215_3_1 = {
-		value = ""
+		value = "可、可以的话…请务必…！"
 	},
 	ins_op_215_1_1 = {
-		value = ""
+		value = "机器人之魂在燃烧！"
 	},
 	op_reply_215_1_1 = {
-		value = ""
+		value = "指挥官也是懂得浪漫的人呢…！"
 	},
 	ins_op_215_1_2 = {
-		value = ""
+		value = "能驾驶吗？"
 	},
 	op_reply_215_1_2 = {
-		value = ""
+		value = "大概…不行吧？"
 	},
 	ins_216 = {
-		value = ""
+		value = "试着和大家唱了次卡拉OK…"
 	},
 	ins_discuss_216_1 = {
-		value = ""
+		value = "哈哈，嗨起来了吧~"
 	},
 	ins_reply_216_1_1 = {
-		value = ""
+		value = "虽、虽然有点紧张，不过…很开心！"
 	},
 	ins_reply_216_1_2 = {
-		value = ""
+		value = "下次再一起来唱燃曲吧！"
 	},
 	ins_reply_216_1_3 = {
-		value = ""
+		value = "好的…！"
 	},
 	ins_discuss_216_2 = {
-		value = ""
+		value = "{namecode:197}没戴面具很可爱呀，平时也可以多这么出门哦~"
 	},
 	ins_reply_216_2_1 = {
-		value = ""
+		value = "那、那是……\\\\\\"
 	},
 	ins_discuss_216_3 = {
-		value = ""
+		value = "唱得挺不错的呀，完全不像是第一次去卡拉OK呢。"
 	},
 	ins_reply_216_3_1 = {
-		value = ""
+		value = "谢谢…火奴鲁鲁也很厉害呢…居然能唱那么多…"
 	},
 	ins_reply_216_3_2 = {
-		value = ""
+		value = "毕竟为了这次已经私下悄悄练习了很久了嘛~"
 	},
 	ins_reply_216_3_3 = {
-		value = ""
+		value = "才才才才没有悄悄练习啦！！就只有稍微练了一下下而已…"
 	},
 	ins_op_216_1_1 = {
-		value = ""
+		value = "{namecode:197}唱歌很好听呢"
 	},
 	op_reply_216_1_1 = {
-		value = ""
+		value = "指挥官也很棒…！"
 	},
 	ins_op_216_1_2 = {
-		value = ""
+		value = "那家店的零食很好吃呢"
 	},
 	op_reply_216_1_2 = {
-		value = ""
+		value = "是啊~薯条很美味呢~"
 	},
 	ins_217 = {
-		value = ""
+		value = "{namecode:196}老师的海洋生物讲座要开始咯！开玩笑的~"
 	},
 	ins_discuss_217_1 = {
-		value = ""
+		value = "水族馆果然很有趣呀~还要谢谢{namecode:196}的倾情讲解~{namecode:196}懂得好多呀~"
 	},
 	ins_reply_217_1_1 = {
-		value = ""
+		value = "嘻嘻，我可是做过功课的~"
 	},
 	ins_discuss_217_2 = {
-		value = ""
+		value = "要是水族馆有个“潜艇专用入口”，让我们能直接和它们亲密接触就好了呢。"
 	},
 	ins_reply_217_2_1 = {
-		value = ""
+		value = "赞成……"
 	},
 	ins_reply_217_2_2 = {
-		value = ""
+		value = "我也赞成！"
 	},
 	ins_reply_217_2_3 = {
-		value = ""
+		value = "虽然我也很想赞成，不过估计行不通吧~"
 	},
 	ins_discuss_217_3 = {
-		value = ""
+		value = "三、三叶虫……？"
 	},
 	ins_reply_217_3_1 = {
-		value = ""
+		value = "啊，这是毛绒玩具哦，虽然有点微妙不过还是挺可爱的不是？参加水族馆的“海洋知识小问答”活动送的！"
 	},
 	ins_op_217_1_1 = {
-		value = ""
+		value = "下次再一起去水族馆吧"
 	},
 	op_reply_217_1_1 = {
-		value = ""
+		value = "指挥官是不是想说下次(两个人)一起去呢~？嘻嘻~"
 	},
 	ins_218 = {
-		value = ""
+		value = "从高处冲下来的感觉~~让人欲罢不能＞ｗ＜"
 	},
 	ins_discuss_218_1 = {
-		value = ""
+		value = "下次还要一起来一次！"
 	},
 	ins_reply_218_1_1 = {
-		value = ""
+		value = "嘿嘿，下次可以挑战点更厉害的！"
 	},
 	ins_discuss_218_2 = {
-		value = ""
+		value = "哇，看起来好像很有趣啊~也带我一个！"
 	},
 	ins_reply_218_2_1 = {
-		value = ""
+		value = "来呀来呀~(*?ω｀*)"
 	},
 	ins_discuss_218_3 = {
-		value = ""
+		value = "唔…这个对我还是有点太刺激了……"
 	},
 	ins_reply_218_3_1 = {
-		value = ""
+		value = "嘻嘻~下次{namecode:251}坐我前面吧，有人抱住你应该就会感觉好多啦~"
 	},
 	ins_op_218_1_1 = {
-		value = ""
+		value = "很刺激的样子。"
 	},
 	op_reply_218_1_1 = {
-		value = ""
+		value = "指挥官也一起来玩！(·ω<)★"
 	},
 	ins_op_218_1_2 = {
-		value = ""
+		value = "{namecode:251}…没事吧？"
 	},
 	op_reply_218_1_2 = {
-		value = ""
+		value = "现在没事了…当下是有点太刺激了……"
 	},
 	ins_219 = {
-		value = ""
+		value = "啊哈哈哈天旋地转劈里啪啦超级回转旋风过山车~太有趣啦！"
 	},
 	ins_discuss_219_1 = {
-		value = ""
+		value = "圣地亚哥，感觉又多了好多星星呀…"
 	},
 	ins_reply_219_1_1 = {
-		value = ""
+		value = "哈哈哈哈，晕头转向也是游乐园少不了的有趣体验！"
 	},
 	ins_discuss_219_2 = {
-		value = ""
+		value = "这个好像比{namecode:154}玩的还要刺激欸~"
 	},
 	ins_reply_219_2_1 = {
-		value = ""
+		value = "竟、竟然还有比那个更可怕的…"
 	},
 	ins_reply_219_2_2 = {
-		value = ""
+		value = "试试看，你们也会爱上这份刺激的！"
 	},
 	ins_discuss_219_3 = {
-		value = ""
+		value = "啊哈哈…果然{namecode:195}就喜欢这种的呢。"
 	},
 	ins_reply_219_3_1 = {
-		value = ""
+		value = "咕噜咕噜，转来转去…文森斯，感觉不太行…"
 	},
 	ins_reply_219_3_2 = {
-		value = ""
+		value = "难得来游乐园玩，当然是要挑点刺激的玩啦！"
 	},
 	ins_op_219_1_1 = {
-		value = ""
+		value = "是不是太刺激了点…"
 	},
 	op_reply_219_1_1 = {
-		value = ""
+		value = "指挥官你这不行啊~就是这种高速上下左右高高低低转来转去的娱乐设施才有意思嘛~"
 	},
 	ins_op_219_1_2 = {
-		value = ""
+		value = "人没事？"
 	},
 	op_reply_219_1_2 = {
-		value = ""
+		value = "精神好着呢！甚至还能多吃好几口午饭！"
 	},
 	ins_220 = {
-		value = ""
+		value = "哎呀呀，好像一逛街，就不小心买多了点呢…"
 	},
 	ins_discuss_220_1 = {
-		value = ""
+		value = "确实…经常一不小心就管不住手了呢。"
 	},
 	ins_reply_220_1_1 = {
-		value = ""
+		value = "香格里拉也会这样吗？还以为香格里拉会是更“理性消费”的那种类型呢。"
 	},
 	ins_reply_220_1_2 = {
-		value = ""
+		value = "“购物”这个行为有着莫名的魔力…"
 	},
 	ins_discuss_220_2 = {
-		value = ""
+		value = "啊，我懂我懂，逛网店的时候也总是一不小心就往购物车里塞了好多游戏呢~"
 	},
 	ins_reply_220_2_1 = {
-		value = ""
+		value = "大家都很有共鸣的样子呢~"
 	},
 	ins_reply_220_2_2 = {
-		value = ""
+		value = "总感觉不太对…但好像又没什么不对……"
 	},
 	ins_op_220_1_1 = {
-		value = ""
+		value = "购物挺开心的呢"
 	},
 	op_reply_220_1_1 = {
-		value = ""
+		value = "这个倒是，确实挺开心的呢，呵呵~"
 	},
 	ins_op_220_1_2 = {
-		value = ""
+		value = "下次帮你提点袋子吧"
 	},
 	op_reply_220_1_2 = {
-		value = ""
+		value = "哎呀~指挥官这是约会的邀请吗~？"
 	},
 	ins_221 = {
-		value = ""
+		value = "SF电影超有趣！眼睛都舍不得眨一下！"
 	},
 	ins_discuss_221_1 = {
-		value = ""
+		value = "确实，好久没看到这么有意思的电影了。"
 	},
 	ins_reply_221_1_1 = {
-		value = ""
+		value = "是吧是吧~嘿嘿~"
 	},
 	ins_discuss_221_2 = {
-		value = ""
+		value = "电影啊~感觉还是更喜欢有点“暗黑”气息的电影呢~比如蝙O侠之类的~？"
 	},
 	ins_reply_221_2_1 = {
-		value = ""
+		value = "唔~~虽然那类的也不错啦…不过在电影院的话~还是想看些更有“震撼力”的片呢~"
 	},
 	ins_discuss_221_3 = {
-		value = ""
+		value = "冰淇淋…好像挺好吃的样子。"
 	},
 	ins_reply_221_3_1 = {
-		value = ""
+		value = "哈哈~关注点在这里呀~不过电影看太入迷了，差点还没吃冰淇淋就化了呢~"
 	},
 	ins_op_221_1_1 = {
-		value = ""
+		value = "下次再约！"
 	},
 	op_reply_221_1_1 = {
-		value = ""
+		value = "嗯嗯！"
 	},
 	ins_op_221_1_2 = {
-		value = ""
+		value = "冰淇淋化了以后还是挺粘的…"
 	},
 	op_reply_221_1_2 = {
-		value = ""
+		value = "对不起啦，指挥官~~~"
 	},
 	ins_222 = {
-		value = ""
+		value = "游乐园的“镜子迷宫”还是挺漂亮的~"
 	},
 	ins_discuss_222_1 = {
-		value = ""
+		value = "四面八方都是“自己”的体验还真是奇妙…"
 	},
 	ins_reply_222_1_1 = {
-		value = ""
+		value = "哈哈~姐姐好几次差点迷路了了吧~"
 	},
 	ins_reply_222_1_2 = {
-		value = ""
+		value = "还不是你老是自顾自瞎跑！！"
 	},
 	ins_discuss_222_2 = {
-		value = ""
+		value = "那个镜子迷宫确实很有意思呀~就是一不小心容易撞到镜子上…"
 	},
 	ins_reply_222_2_1 = {
-		value = ""
+		value = "平海你跑那么急，不撞到才奇怪吧…"
 	},
 	ins_discuss_222_3 = {
-		value = ""
+		value = "呵呵，像这样大家一起出来玩，还是挺有意思的呢~"
 	},
 	ins_reply_222_3_1 = {
-		value = ""
+		value = "是呀~以后还可以像这样多约约！"
 	},
 	ins_reply_222_3_2 = {
-		value = ""
+		value = "嗯，是个好主意~"
 	},
 	ins_op_222_1_1 = {
-		value = ""
+		value = "肇和…最后顺利找到出口了吗？"
 	},
 	op_reply_222_1_1 = {
-		value = ""
+		value = "我才没有迷路啦！大笨蛋！"
 	},
 	op_reply_222_1_2 = {
-		value = ""
+		value = "虽然折腾了一番，姑且还是顺利出来了呢~"
 	},
 	ins_op_222_1_2 = {
-		value = ""
+		value = "下次，还要大家一起去玩。"
 	},
 	op_reply_222_1_3 = {
-		value = ""
+		value = "嗯！"
 	},
 	ins_223 = {
-		value = ""
+		value = "我可以，躺一整天！"
 	},
 	ins_discuss_223_1 = {
-		value = ""
+		value = "哎呀呀，好幸福的样子呢~"
 	},
 	ins_reply_223_1_1 = {
-		value = ""
+		value = "可畏，就算是度假，也要保持些淑女的礼仪哦？"
 	},
 	ins_reply_223_1_2 = {
-		value = ""
+		value = "噫！？我我我会注意的！"
 	},
 	ins_discuss_223_2 = {
-		value = ""
+		value = "虽然看起来好像挺不错的，不过…我是绝对不会放弃夏天的空调的！"
 	},
 	ins_reply_223_2_1 = {
-		value = ""
+		value = "说得好！恶毒你果然很懂嘛！"
 	},
 	ins_reply_223_2_2 = {
-		value = ""
+		value = "嘛，泳池边其实还算凉快，你们也该学学我偶尔享受下室外！"
 	},
 	ins_discuss_223_3 = {
-		value = ""
+		value = "说到夏天果然还是离不开冰棒呢~"
 	},
 	ins_reply_223_3_1 = {
-		value = ""
+		value = "恰到好处的冰凉，是挺不错的~"
 	},
 	ins_op_223_1_1 = {
-		value = ""
+		value = "游游泳也挺不错的。"
 	},
 	op_reply_223_1_1 = {
-		value = ""
+		value = "等我心血来潮再说吧~"
 	},
 	ins_op_223_1_2 = {
-		value = ""
+		value = "做做日光浴也挺不错的。"
 	},
 	op_reply_223_1_2 = {
-		value = ""
+		value = "除了太阳刺眼了些，其他都不错！"
 	},
 	ins_224 = {
-		value = ""
+		value = "果然还是不行…！太可怕了呜呜……"
 	},
 	ins_discuss_224_1 = {
-		value = ""
+		value = "这是…{namecode:48}居然去了鬼屋？"
 	},
 	ins_reply_224_1_1 = {
-		value = ""
+		value = "抱歉，想说给{namecode:48}壮壮胆…看来还是要再循序渐进一点……"
 	},
 	ins_reply_224_1_2 = {
-		value = ""
+		value = "我…我会再努力一些的！"
 	},
 	ins_reply_224_1_3 = {
-		value = ""
+		value = "啊哈哈…慢慢来就好，慢慢来就好~"
 	},
 	ins_discuss_224_2 = {
-		value = ""
+		value = "先锻炼下处变不惊的心境如何？可以一起来钓钓鱼什么的……"
 	},
 	ins_reply_224_2_1 = {
-		value = ""
+		value = "钓鱼啊…感觉好像挺和平的…感觉可以？"
 	},
 	ins_discuss_224_3 = {
-		value = ""
+		value = "鬼屋…清凉…幽静……是个休息的好地方。"
 	},
 	ins_reply_224_3_1 = {
-		value = ""
+		value = "香槟小姐那个是最可怕的啊呜呜……"
 	},
 	ins_op_224_1_1 = {
-		value = ""
+		value = "居然去了鬼屋…没事吧？"
 	},
 	op_reply_224_1_1 = {
-		value = ""
+		value = "和、和{namecode:181}一起去的，果然还是很可怕orz……"
 	},
 	ins_225 = {
-		value = ""
+		value = "黑暗之中，安眠之所——"
 	},
 	ins_discuss_225_1 = {
-		value = ""
+		value = "难、难怪一点动静都没有，原来香槟小姐那时候是睡着了！？"
 	},
 	ins_reply_225_1_1 = {
-		value = ""
+		value = "抱歉，环境太过舒适……"
 	},
 	ins_reply_225_1_2 = {
-		value = ""
+		value = "居、居然觉得舒适…突然有点佩服香槟小姐了……"
 	},
 	ins_discuss_225_2 = {
-		value = ""
+		value = "欸，香槟不是去鬼屋帮忙了么，居然睡着了？！"
 	},
 	ins_reply_225_2_1 = {
-		value = ""
+		value = "姑且是达到了吓人的效果…"
 	},
 	ins_reply_225_2_2 = {
-		value = ""
+		value = "效果拔群喵！下次搞鬼屋还要找香槟喵！"
 	},
 	ins_reply_225_2_3 = {
-		value = ""
+		value = "如此…甚好。"
 	},
 	ins_op_225_1_1 = {
-		value = ""
+		value = "透过照片都能感受到寒意…"
 	},
 	op_reply_225_1_1 = {
-		value = ""
+		value = "确实十分凉爽…指挥官也不妨一试？"
 	},
 	ins_226 = {
-		value = ""
+		value = "偶尔花点时间在悠闲的事上，似乎也不错。"
 	},
 	ins_discuss_226_1 = {
-		value = ""
+		value = "威悉也喜欢钓鱼吗？"
 	},
 	ins_reply_226_1_1 = {
-		value = ""
+		value = "也？嗯…我的话…应该说单纯作为一种休息的方式来说，还不错吧。"
 	},
 	ins_reply_226_1_2 = {
-		value = ""
+		value = "这样啊…没关系，总有一天你也会明白更多钓鱼的乐趣的，下次可以一起去钓鱼…！"
 	},
 	ins_discuss_226_2 = {
-		value = ""
+		value = "不知道会不会钓到在附近玩捉迷藏的伙伴们呢，嘻嘻~"
 	},
 	ins_reply_226_2_1 = {
-		value = ""
+		value = "那得换个合适的饵才行了。"
 	},
 	ins_reply_226_2_2 = {
-		value = ""
+		value = "……欸？"
 	},
 	ins_reply_226_2_3 = {
-		value = ""
+		value = "……开个玩笑。"
 	},
 	ins_discuss_226_3 = {
-		value = ""
+		value = "钓到了不少鱼？"
 	},
 	ins_reply_226_3_1 = {
-		value = ""
+		value = "单纯享受静坐钓鱼的感觉罢了，实际上收获并不多。"
 	},
 	ins_op_226_1_1 = {
-		value = ""
+		value = "钓到什么有趣的东西了吗？"
 	},
 	op_reply_226_1_1 = {
-		value = ""
+		value = "除了各种各样的鱼，就没有别的了哦。还是说，你想钓到宝藏之类的东西？"
 	},
 	ins_227 = {
-		value = ""
+		value = "正义使者乱入的瞬间！"
 	},
 	ins_discuss_227_1 = {
-		value = ""
+		value = "啊，奥斯本，不可以给人家添麻烦哦？"
 	},
 	ins_reply_227_1_1 = {
-		value = ""
+		value = "看到高潮片段的时候一时没忍住就跳起来了，抱歉啦！"
 	},
 	ins_reply_227_1_2 = {
-		value = ""
+		value = "不过…我觉得还是很帅的哦？特别是喊着“正义必胜”冲上去的那一瞬间…"
 	},
 	ins_reply_227_1_3 = {
-		value = ""
+		value = "我，我也这么觉得！"
 	},
 	ins_reply_227_1_4 = {
-		value = ""
+		value = "“正义模式”启动！就是这样的感觉！"
 	},
 	ins_discuss_227_2 = {
-		value = ""
+		value = "看到奥斯本跳起来的时候，还以为是特别环节的特邀嘉宾呢！"
 	},
 	ins_reply_227_2_1 = {
-		value = ""
+		value = "要不是我拉着，库珀你也要跳起来了吧？"
 	},
 	ins_reply_227_2_2 = {
-		value = ""
+		value = "啊哈哈…场面太激动人心了嘛~"
 	},
 	ins_op_227_1_1 = {
-		value = ""
+		value = "正义必胜！的感觉？"
 	},
 	op_reply_227_1_1 = {
-		value = ""
+		value = "没错，正义必胜！"
 	},
 	ins_op_227_1_2 = {
-		value = ""
+		value = "是互动环节？"
 	},
 	op_reply_227_1_2 = {
-		value = ""
+		value = "其实是一时没忍住冲上去了，嘿嘿…"
 	},
 	ins_228 = {
-		value = ""
+		value = "…摩天轮，有点晃。"
 	},
 	ins_discuss_228_1 = {
-		value = ""
+		value = "塔什干…没事吧？刚从摩天轮下来的时候站了好久……"
 	},
 	ins_reply_228_1_1 = {
-		value = ""
+		value = "塔什干没事，塔什干才不怕高…只是……风太大了。"
 	},
 	ins_reply_228_1_2 = {
-		value = ""
+		value = "啊哈哈~真的有那么晃吗？摩天轮也能这么刺激的啊~我都想再去坐一次了！"
 	},
 	ins_reply_228_1_3 = {
-		value = ""
+		value = "…你可以试试。"
 	},
 	ins_discuss_228_2 = {
-		value = ""
+		value = "下次上去前整点伏特加，肯定稳！"
 	},
 	ins_reply_228_2_1 = {
-		value = ""
+		value = "真的吗？"
 	},
 	ins_reply_228_2_2 = {
-		value = ""
+		value = "不不从各种意义上来说都是不行的吧！？"
 	},
 	ins_op_228_1_1 = {
-		value = ""
+		value = "给你带杯热饮，稍微休息下吧。"
 	},
 	op_reply_228_1_1 = {
-		value = ""
+		value = "嗯…谢谢你，同志酱。"
 	},
 	ins_229 = {
-		value = ""
+		value = "锵锵~是不是有种很“有力”的感觉！"
 	},
 	ins_discuss_229_1 = {
-		value = ""
+		value = "还真的发出来了啊，这么看还真是有点不好意思…"
 	},
 	ins_reply_229_1_1 = {
-		value = ""
+		value = "难得出来玩，你可以再放开一点的嘛，独立！"
 	},
 	ins_discuss_229_2 = {
-		value = ""
+		value = "啊哈哈，好酷，大姐头回头跟我们也一起拍张呗~？"
 	},
 	ins_reply_229_2_1 = {
-		value = ""
+		value = "哈哈，来呀！"
 	},
 	ins_reply_229_2_2 = {
-		value = ""
+		value = "我来帮大家拍吧。那个，之后可以帮我多洗几张照片吗？"
 	},
 	ins_discuss_229_3 = {
-		value = ""
+		value = "独立表情有点僵硬呢，不过换我来大概也……"
 	},
 	ins_reply_229_3_1 = {
-		value = ""
+		value = "嗯…果然还是不太习惯拍这种照片…"
 	},
 	ins_op_229_1_1 = {
-		value = ""
+		value = "很有趣的照片"
 	},
 	op_reply_229_1_1 = {
-		value = ""
+		value = "嘿嘿，是的吧，展示肌肉！什么的~"
 	},
 	ins_op_229_1_2 = {
-		value = ""
+		value = "看起来很酷！"
 	},
 	op_reply_229_1_2 = {
-		value = ""
+		value = "很酷…吗？"
 	},
 	ins_230 = {
-		value = ""
+		value = "偶尔抛却效率、意义等等思考，单纯享受气氛，也不坏。"
 	},
 	ins_discuss_230_1 = {
-		value = ""
+		value = "太有趣了哈哈~真是不错啊彼得！这个猫耳太适合你了哈哈哈~"
 	},
 	ins_reply_230_1_1 = {
-		value = ""
+		value = "哼，我就姑且当作是赞赏了。"
 	},
 	ins_reply_230_1_2 = {
-		value = ""
+		value = "喵哈哈~这个可是我专门为了铁血的每位精心挑选的，当然合适啦~其实也有海因里希的份哦~等着我！"
 	},
 	ins_reply_230_1_3 = {
-		value = ""
+		value = "哇哇？真的吗~？我很期待！"
 	},
 	ins_discuss_230_2 = {
-		value = ""
+		value = "乐在其中…也挺不错，吾友。"
 	},
 	ins_reply_230_2_1 = {
-		value = ""
+		value = "吵闹又美味的乐园…你也不妨前往一试。"
 	},
 	ins_reply_230_2_2 = {
-		value = ""
+		value = "嘿嘿，“铁血全员猫耳化”计划进展顺利！"
 	},
 	ins_op_230_1_1 = {
-		value = ""
+		value = "今天玩得很开心。"
 	},
 	op_reply_230_1_1 = {
-		value = ""
+		value = "适当的娱乐能换来更高效的工作进度，之后我会好好看着你的，指挥官。"
 	},
 	ins_op_230_1_2 = {
-		value = ""
+		value = "猫耳很合适。"
 	},
 	op_reply_230_1_2 = {
-		value = ""
+		value = "你戴着的也不错，滑稽…不，应该说，充满趣味。皇家的猫耳小妹，干得不错。"
 	},
 	ins_231 = {
-		value = ""
+		value = "下次，还要和大姐头，还有大家一起露营。"
 	},
 	ins_discuss_231_1 = {
-		value = ""
+		value = "嘿嘿，大家一起搭帐篷煮晚餐还是挺有意思的！"
 	},
 	ins_reply_231_1_1 = {
-		value = ""
+		value = "只要大姐头想的话，随时都可以再来…！"
 	},
 	ins_discuss_231_2 = {
-		value = ""
+		value = "换了个不同的环境，只是简单的煮泡面也感觉有种别样的美味呢！真不错~"
 	},
 	ins_reply_231_2_1 = {
-		value = ""
+		value = "那是…和大姐头一起煮的泡面，才不是简单的煮泡面…！"
 	},
 	ins_reply_231_2_2 = {
-		value = ""
+		value = "这么说…好像也有点道理？"
 	},
 	ins_discuss_231_3 = {
-		value = ""
+		value = "呼吸到了不一样的新鲜空气，挺不错的。"
 	},
 	ins_reply_231_3_1 = {
-		value = ""
+		value = "以后还可以试试别的地方，雪山什么的…"
 	},
 	ins_op_231_1_1 = {
-		value = ""
+		value = "下次我来准备食物吧。"
 	},
 	op_reply_231_1_1 = {
-		value = ""
+		value = "说定了…！"
 	},
 	ins_232 = {
-		value = ""
+		value = "分享，会让美味更加美味。"
 	},
 	ins_discuss_232_1 = {
-		value = ""
+		value = "那家店的冰淇淋确实很美味呢，没有白排那么久的队~"
 	},
 	ins_reply_232_1_1 = {
-		value = ""
+		value = "跟大家一起排队，感觉时间就没有那么久了。"
 	},
 	ins_discuss_232_2 = {
-		value = ""
+		value = "过几天再去一趟，把那家店的口味都试过一遍吧…！"
 	},
 	ins_reply_232_2_1 = {
-		value = ""
+		value = "好像…是个好主意？"
 	},
 	ins_reply_232_2_2 = {
-		value = ""
+		value = "请务必再喊上天狼星！"
 	},
 	ins_op_232_1_1 = {
-		value = ""
+		value = "将美味分享给其他人，确实是件很开心的事。"
 	},
 	op_reply_232_1_1 = {
-		value = ""
+		value = "嗯，想到一起了呢，指挥官。"
 	},
 	ins_233 = {
-		value = ""
+		value = "旋转咖啡杯意外地刺激呢，呼呼~"
 	},
 	ins_discuss_233_1 = {
-		value = ""
+		value = "旋转咖啡杯…是这么刺激的娱乐吗？"
 	},
 	ins_reply_233_1_1 = {
-		value = ""
+		value = "似乎是我们玩的时候设备正好出了点小故障，不过还算是一次有趣的体验吧，呵呵~"
 	},
 	ins_reply_233_1_2 = {
-		value = ""
+		value = "有趣…不愧是光辉姐姐啊…"
 	},
 	ins_discuss_233_2 = {
-		value = ""
+		value = "呜…独角兽…不敢再坐咖啡杯了……"
 	},
 	ins_reply_233_2_1 = {
-		value = ""
+		value = "哎呀~对独角兽来说多少有点太刺激了呢~"
 	},
 	ins_reply_233_2_2 = {
-		value = ""
+		value = "光辉姐姐…果然好厉害…独角兽…会努力的…！"
 	},
 	ins_reply_233_2_3 = {
-		value = ""
+		value = "不…在这方面就算不努力也……"
 	},
 	ins_op_233_1_1 = {
-		value = ""
+		value = "独角兽…还好吧？"
 	},
 	op_reply_233_1_1 = {
-		value = ""
+		value = "现在…没什么事了…谢谢哥哥……"
 	},
 	ins_op_233_1_2 = {
-		value = ""
+		value = "光辉…好像很乐在其中？"
 	},
 	op_reply_233_1_2 = {
-		value = ""
+		value = "其实还挺有趣的呢~就是有点苦了独角兽…"
 	},
 	ins_234 = {
-		value = ""
+		value = "小船摇啊摇…可爱的孩子…乖乖睡觉~"
 	},
 	ins_discuss_234_1 = {
-		value = ""
+		value = "与伙伴的共同行动…确实是种新鲜的体验，不过…我可不是小孩子。"
 	},
 	ins_reply_234_1_1 = {
-		value = ""
+		value = "呵呵，对我来说，铁血的各位也好，指挥官也好，都是可爱的孩子~"
 	},
 	ins_reply_234_1_2 = {
-		value = ""
+		value = "不过，确实坐在腓特烈大帝旁边，感觉有种让人昏昏欲睡的安心感呢…"
 	},
 	ins_discuss_234_2 = {
-		value = ""
+		value = "呵…没想到我也有像这样参加集体活动的一天。"
 	},
 	ins_reply_234_2_1 = {
-		value = ""
+		value = "有指挥官在，以后还有很多这样的机会，嗯，一定会有的。"
 	},
 	ins_reply_234_2_2 = {
-		value = ""
+		value = "多来几次这样的活动也无妨，不是吗？"
 	},
 	ins_op_234_1_1 = {
-		value = ""
+		value = "下次…让我也开会船吧。"
 	},
 	op_reply_234_1_1 = {
-		value = ""
+		value = "呵呵，倒也不错，我很期待哦，孩子。"
 	},
 	ins_op_234_1_2 = {
-		value = ""
+		value = "得到了充分的休息，感谢！"
 	},
 	op_reply_234_1_2 = {
-		value = ""
+		value = "我也…得到了充分的满足呢，呼呼…"
 	},
 	all = {
 		ins_op_1_1_1,

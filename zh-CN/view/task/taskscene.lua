@@ -79,16 +79,6 @@ function slot0.init(slot0)
 
 	slot0.contextData.viewComponent = slot0
 	slot0.pageTF = slot0:findTF("pages")
-	slot1 = TaskCommonPage.New(slot0.pageTF, slot0.event, slot0.contextData)
-	slot0.pages = {
-		[uv0.PAGE_TYPE_SCENARIO] = slot1,
-		[uv0.PAGE_TYPE_BRANCH] = slot1,
-		[uv0.PAGE_TYPE_ROUTINE] = slot1,
-		[uv0.PAGE_TYPE_WEEKLY] = uv0.IsNewStyleTime() and TaskWeekPage.New(slot0.pageTF, slot0.event, slot0.contextData) or slot1,
-		[uv0.PAGE_TYPE_ALL] = slot1,
-		[uv0.PAGE_TYPE_ACT] = slot1
-	}
-	slot0.contextData.ptAwardWindow = TaskPtAwardPage.New(slot0._tf, slot0.event, slot0.contextData)
 end
 
 function slot0.IsNewStyleTime()
@@ -121,6 +111,17 @@ function slot0.IsPassScenario()
 end
 
 function slot0.didEnter(slot0)
+	slot1 = TaskCommonPage.New(slot0.pageTF, slot0.event, slot0.contextData)
+	slot0.pages = {
+		[uv0.PAGE_TYPE_SCENARIO] = slot1,
+		[uv0.PAGE_TYPE_BRANCH] = slot1,
+		[uv0.PAGE_TYPE_ROUTINE] = slot1,
+		[uv0.PAGE_TYPE_WEEKLY] = uv0.IsNewStyleTime() and not slot0.contextData.weekTaskProgressInfo:IsMaximum() and TaskWeekPage.New(slot0.pageTF, slot0.event, slot0.contextData) or slot1,
+		[uv0.PAGE_TYPE_ALL] = slot1,
+		[uv0.PAGE_TYPE_ACT] = slot1
+	}
+	slot0.contextData.ptAwardWindow = TaskPtAwardPage.New(slot0._tf, slot0.event, slot0.contextData)
+
 	onButton(slot0, slot0._backBtn, function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
@@ -130,32 +131,32 @@ function slot0.didEnter(slot0)
 		setActive(slot0:findTF("stamp"), false)
 	end
 
-	function slot4()
+	function slot6()
 		getProxy(TaskProxy):dealMingshiTouchFlag(5)
 	end
 
-	slot5 = SFX_CONFIRM
+	slot7 = SFX_CONFIRM
 
-	onButton(slot0, slot0:findTF("stamp"), slot4, slot5)
+	onButton(slot0, slot0:findTF("stamp"), slot6, slot7)
 
 	slot0.toggles = {}
 
-	for slot4, slot5 in pairs(uv1) do
-		slot6 = slot0:findTF(slot4, slot0._tagRoot)
+	for slot6, slot7 in pairs(uv1) do
+		slot8 = slot0:findTF(slot6, slot0._tagRoot)
 
-		onToggle(slot0, slot6, function (slot0)
+		onToggle(slot0, slot8, function (slot0)
 			if slot0 then
 				uv0:UpdatePage(uv1)
 			end
 		end, SFX_PANEL)
 
-		slot0.toggles[slot4] = slot6
+		slot0.toggles[slot6] = slot8
 	end
 
-	slot1 = slot0.toggles[slot0.contextData.page or uv0.PAGE_TYPE_ALL]
+	slot3 = slot0.toggles[slot0.contextData.page or uv0.PAGE_TYPE_ALL]
 
-	if slot0.toggles and slot1 then
-		triggerToggle(slot1, true)
+	if slot0.toggles and slot3 then
+		triggerToggle(slot3, true)
 	end
 
 	slot0:UpdateWeekTip()
@@ -226,10 +227,20 @@ function slot0.RefreshWeekTaskPage(slot0)
 	end
 end
 
-function slot0.RefreshWeekTaskProgress(slot0)
-	slot1 = slot0.pages[slot0._currentToggleType]
+function slot0.RefreshWeekTaskPageBefore(slot0, slot1)
+	if slot0._currentToggleType == uv0.PAGE_TYPE_WEEKLY then
+		slot0.pages[slot0._currentToggleType]:RefreshWeekTaskPageBefore(slot1)
+	end
+end
 
-	if slot0._currentToggleType == uv0.PAGE_TYPE_WEEKLY and isa(slot1, TaskWeekPage) then
+function slot0.RefreshWeekTaskProgress(slot0)
+	if isa(slot0.pages[slot0._currentToggleType], TaskWeekPage) and slot0.contextData.weekTaskProgressInfo:IsMaximum() then
+		slot1:Destroy()
+
+		slot0.pages[uv0.PAGE_TYPE_WEEKLY] = slot0.pages[uv0.PAGE_TYPE_SCENARIO]
+
+		slot0:UpdatePage(uv0.PAGE_TYPE_WEEKLY)
+	elseif slot0._currentToggleType == uv0.PAGE_TYPE_WEEKLY and isa(slot1, TaskWeekPage) then
 		slot1:ExecuteAction("RefreshWeekProgress")
 		slot0:UpdateWeekTip()
 	end

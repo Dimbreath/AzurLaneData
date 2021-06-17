@@ -2739,6 +2739,9 @@ pg.gametip = {
 	world_transport_disable = {
 		tip = "当前海域无法通过边界区域离开。是否继续？"
 	},
+	world_ap = {
+		tip = "行动力"
+	},
 	world_resource_tip_1 = {
 		tip = "未资源提示1(未使用)"
 	},
@@ -2777,7 +2780,7 @@ pg.gametip = {
 		tip = "舰队正在运送特殊物件，无法进行部署，请先将特殊物件归位。"
 	},
 	world_instruction_morale_1 = {
-		tip = "是否消耗$1行动力为所有舰队恢复士气与耐久，并消除战损状态？(当前行动力：$2；指令使用后，一段时间内无法再次使用)"
+		tip = "是否消耗$1行动力，\n为所有舰队恢复士气与耐久，并消除战损状态？"
 	},
 	world_instruction_morale_2 = {
 		tip = "各舰队士气高昂，无需进行士气恢复"
@@ -2785,11 +2788,14 @@ pg.gametip = {
 	world_instruction_morale_3 = {
 		tip = "所有舰队的士气恢复完毕"
 	},
+	world_instruction_morale_4 = {
+		tip = "※指令使用后，一段时间内无法使用"
+	},
 	world_instruction_submarine_1 = {
 		tip = "当前海域无法使用该功能"
 	},
 	world_instruction_submarine_2 = {
-		tip = "是否消耗$1行动力向当前海域派遣潜艇舰队？\n(当前行动力：$2；指令使用间隔越短，行动力消耗越高)"
+		tip = "是否消耗$1行动力，\n向当前海域派遣潜艇舰队？"
 	},
 	world_instruction_submarine_3 = {
 		tip = "当前地图已部署有潜艇舰队"
@@ -2804,10 +2810,22 @@ pg.gametip = {
 		tip = "离开当前海域后，潜艇舰队会自动返回我方港口待命，是否离开？"
 	},
 	world_instruction_submarine_7 = {
-		tip = "当前海域部署的潜艇舰队弹药耗尽，是否消耗$1行动力为潜艇舰队补充弹药并恢复状态？\n(当前行动力：$2；指令使用间隔越短，行动力消耗越高)"
+		tip = "是否消耗$1行动力，\n为潜艇舰队补充弹药并恢复状态？"
+	},
+	world_instruction_submarine_8 = {
+		tip = "※指令使用间隔越短，行动力消耗越高"
+	},
+	world_instruction_submarine_9 = {
+		tip = "自律寻敌时，当潜艇支援的消耗小于等于\n时自动召唤"
+	},
+	world_instruction_submarine_10 = {
+		tip = "未配置tip"
+	},
+	world_instruction_submarine_11 = {
+		tip = "潜艇自动召唤设置保存成功"
 	},
 	world_instruction_detect_1 = {
-		tip = "是否消耗$1行动力侦查当前海域的全部区域？\n(当前行动力：$2；指令使用间隔越短，行动力消耗越高)"
+		tip = "是否消耗$1行动力，\n侦查当前海域的全部区域？"
 	},
 	world_instruction_detect_2 = {
 		tip = "当前海域已侦查完毕"
@@ -10386,6 +10404,9 @@ combo达到10/20/40/60/80/100时，分别为每次有效
 	msgbox_text_unlock = {
 		tip = "解 锁"
 	},
+	msgbox_text_save = {
+		tip = "保 存"
+	},
 	common_flag_ship = {
 		tip = "秘书舰"
 	},
@@ -11916,6 +11937,9 @@ BUFF加成也会增加
 	guild_tech_livness_no_enough = {
 		tip = "还需要<color=#ff5c5c>$1</color>活跃度可学习，继续提升所需消耗为公共舰队科技提升消耗，是否继续升级？"
 	},
+	guild_tech_livness_no_enough_label = {
+		tip = "活跃度达到$1可学习"
+	},
 	guild_ship_attr_desc = {
 		tip = "大舰队作战内$1的$2提高$3"
 	},
@@ -13187,6 +13211,9 @@ BUFF加成也会增加
 	},
 	autofight_function4 = {
 		tip = "待机"
+	},
+	autofight_function5 = {
+		tip = "自动召唤潜艇"
 	},
 	autofight_rewards = {
 		tip = "合计获得奖励"

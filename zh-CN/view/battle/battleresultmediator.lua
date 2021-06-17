@@ -230,7 +230,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.ON_BACK_TO_DUEL_SCENE, function (slot0)
 		if getProxy(ContextProxy):getContextByMediator(MilitaryExerciseMediator) then
-			slot2:removeChild(slot2:getContextByMediator(PreCombatMediator))
+			slot2:removeChild(slot2:getContextByMediator(ExercisePreCombatMediator))
 		end
 
 		uv0:sendNotification(GAME.GO_BACK)

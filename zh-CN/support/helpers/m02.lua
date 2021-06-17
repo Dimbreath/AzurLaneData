@@ -346,7 +346,7 @@ function retPaintingPrefab(slot0, slot1)
 			if not IsNil(findTF(slot3, "Touch")) then
 				eachChild(slot4, function (slot0)
 					if not IsNil(slot0:GetComponent(typeof(Button))) then
-						Object.Destroy(slot1)
+						removeOnButton(slot0)
 					end
 				end)
 			end

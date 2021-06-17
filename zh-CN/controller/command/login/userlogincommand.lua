@@ -70,6 +70,11 @@ function slot0.execute(slot0, slot1)
 
 				print(table.concat(slot3, "\n"))
 				getProxy(ServerProxy):setServers(slot2, uv0.uid)
+
+				if slot0.limit_server_ids and #slot0.limit_server_ids > 0 then
+					slot4.firstServer = nil
+				end
+
 				getProxy(GatewayNoticeProxy):setGatewayNotices(slot0.notice_list)
 				uv1.facade:sendNotification(GAME.USER_LOGIN_SUCCESS, uv0)
 				pg.PushNotificationMgr.GetInstance():cancelAll()
