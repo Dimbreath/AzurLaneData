@@ -82,6 +82,10 @@ function slot0.GetAllPhaseDrops(slot0)
 	}
 end
 
+function slot0.ReachMaxPt(slot0)
+	return slot0.targets[#slot0.targets] <= slot0.progress
+end
+
 function slot0.GetSubTasks(slot0)
 	return slot0.subTasks
 end
@@ -109,6 +113,10 @@ function slot0.GetSubTask(slot0, slot1)
 end
 
 function slot0.AnySubTaskCanSubmit(slot0)
+	if slot0:ReachMaxPt() then
+		return false
+	end
+
 	for slot4, slot5 in pairs(slot0.subTasks) do
 		if slot5:isFinish() then
 			return true
@@ -119,6 +127,10 @@ function slot0.AnySubTaskCanSubmit(slot0)
 end
 
 function slot0.GetCanSubmitSubTaskCnt(slot0)
+	if slot0:ReachMaxPt() then
+		return 0
+	end
+
 	for slot5, slot6 in pairs(slot0.subTasks) do
 		if slot6:isFinish() then
 			slot1 = 0 + 1

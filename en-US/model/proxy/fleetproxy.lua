@@ -90,21 +90,27 @@ function slot0.saveEdittingFleet(slot0)
 end
 
 function slot0.commitEdittingFleet(slot0, slot1)
-	if slot0.EdittingFleet ~= nil then
-		slot0.facade:sendNotification(GAME.UPDATE_FLEET, {
-			fleet = slot0.EdittingFleet,
-			callback = function ()
-				uv0.editSrcCache = nil
-				uv0.EdittingFleet = nil
+	slot2 = {}
 
-				if uv1 then
+	if slot0.EdittingFleet ~= nil then
+		table.insert(slot2, function (slot0)
+			uv0.facade:sendNotification(GAME.UPDATE_FLEET, {
+				fleet = uv0.EdittingFleet,
+				callback = function ()
+					uv0.editSrcCache = nil
+					uv0.EdittingFleet = nil
+
 					uv1()
 				end
-			end
-		})
-	elseif slot1 then
-		slot1()
+			})
+		end)
 	end
+
+	seriesAsync(slot2, function ()
+		if uv0 then
+			uv0()
+		end
+	end)
 end
 
 function slot0.abortEditting(slot0)

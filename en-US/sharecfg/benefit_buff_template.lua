@@ -8,7 +8,7 @@ pg.benefit_buff_template = {
 		desc = "Dorm EXP bonus +5%",
 		benefit_effect = "5",
 		id = 1,
-		icon = "Props/zongzi",
+		icon = "Props/haijungali",
 		benefit_type = "dorm_exp"
 	},
 	{

@@ -2987,6 +2987,9 @@ Morale drain and Affection gain are also increased by 100%. ]]
 	world_transport_disable = {
 		tip = "Unable to leave through this zone. Confirm?"
 	},
+	world_ap = {
+		tip = "AP"
+	},
 	world_resource_tip_1 = {
 		tip = "未配置tip"
 	},
@@ -3046,7 +3049,7 @@ Morale drain and Affection gain are also increased by 100%. ]]
 		tip = "You are carrying an Energy Matrix and are unable to redeploy your fleet. "
 	},
 	world_instruction_morale_1 = {
-		tip = "Would you like to spend $1 AP to restore the HP and Resolve of your fleet and remove the “Tolls of War” effect? (Current AP: $2; After using this command, you will not be able to use it again for a period of time.) "
+		tip = "Spend $1 AP to restore\nthe HP and Resolve of your fleet,\nand remove all \"Tolls of War\" debuffs? "
 	},
 	world_instruction_morale_2 = {
 		tip = "Fleet already has max Resolve."
@@ -3054,11 +3057,14 @@ Morale drain and Affection gain are also increased by 100%. ]]
 	world_instruction_morale_3 = {
 		tip = "Fleet Resolve restored."
 	},
+	world_instruction_morale_4 = {
+		tip = "*You will not be able to use this command again for a period of time."
+	},
 	world_instruction_submarine_1 = {
 		tip = "This command cannot be issued in this zone."
 	},
 	world_instruction_submarine_2 = {
-		tip = "Spend $1 AP to call in submarine support? \n(Current AP: $2; The shorter the time since this command was last used, the greater the AP cost will be.)"
+		tip = "Spend $1 AP to call in submarine support? "
 	},
 	world_instruction_submarine_3 = {
 		tip = "The submarine fleet is already sortieing."
@@ -3073,10 +3079,22 @@ Morale drain and Affection gain are also increased by 100%. ]]
 		tip = "If you move to another zone, your submarine fleet will be put on standby. Are you sure you want to leave this zone?"
 	},
 	world_instruction_submarine_7 = {
-		tip = "Your submarine fleet has ran out of ammunition. Would you like to spend $1 AP to replenish the submarine fleet's HP and ammo? (Current AP: $2; The less time has passed since this command was last used, the more AP this command will cost.)"
+		tip = "Spend $1 AP to resupply your submarine fleet's HP and ammo? "
+	},
+	world_instruction_submarine_8 = {
+		tip = "*The shorter the time since this command was last used,\nthe greater the AP cost will be."
+	},
+	world_instruction_submarine_9 = {
+		tip = "Automatically call submarines \nif the command costs less than or equal to\nAP during Auto Search."
+	},
+	world_instruction_submarine_10 = {
+		tip = "未配置tip"
+	},
+	world_instruction_submarine_11 = {
+		tip = "Auto-Call setting saved."
 	},
 	world_instruction_detect_1 = {
-		tip = "Spend $1 AP to request reconnaissance? \n(Current AP: $2; The shorter the time since this command was last used, the greater the AP cost will be.)"
+		tip = "Spent $1 AP to request reconnaissance?"
 	},
 	world_instruction_detect_2 = {
 		tip = "Conducted aerial reconnaissance."
@@ -10235,6 +10253,9 @@ GOOD or PERFECT rating.]]
 	msgbox_text_unlock = {
 		tip = "Unlock"
 	},
+	msgbox_text_save = {
+		tip = "Save "
+	},
 	common_flag_ship = {
 		tip = "Secretary"
 	},
@@ -11829,6 +11850,9 @@ you can earn.]]
 	guild_tech_livness_no_enough = {
 		tip = "This facility's upgrade cost is increased because you currently need <color=#ff5c5c>$1</color> more Guild Contribution points. Do you want to continue with the facility upgrade?"
 	},
+	guild_tech_livness_no_enough_label = {
+		tip = "Buildable at $1 Guild Tokens"
+	},
 	guild_ship_attr_desc = {
 		tip = "The Guild's $1 has $2 when $3 during operations."
 	},
@@ -12996,6 +13020,9 @@ next character that appears on-screen.
 	},
 	autofight_function4 = {
 		tip = "Standby"
+	},
+	autofight_function5 = {
+		tip = "Auto-Call Subs "
 	},
 	autofight_rewards = {
 		tip = "Total Rewards"

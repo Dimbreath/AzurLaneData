@@ -2757,40 +2757,14 @@ pg.activity_template = {
 	},
 	[972] = {
 		mark = 20210520,
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 972,
-		is_show = 8,
+		is_show = 3,
 		title_res_tag = "NewMeixiV4_frame",
 		id = 972,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					5,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "NewMeixiV4framePage",
 			ui_name = "NewMeixiV4framePage"
@@ -2824,8 +2798,9 @@ pg.activity_template = {
 		}
 	},
 	[973] = {
-		mark = 20210520,
+		mark = 20210617,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -2844,33 +2819,6 @@ pg.activity_template = {
 			16615,
 			16616,
 			16617
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					5,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[974] = {
@@ -3053,7 +3001,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 981,
-		is_show = 15,
+		is_show = 4,
 		config_client = "",
 		title_res_tag = "NewMeixiV4_pt",
 		id = 981,
@@ -4226,51 +4174,17 @@ pg.activity_template = {
 		}
 	},
 	[4008] = {
-		mark = 20210603,
+		mark = 20210610,
 		page_info = "",
-		type = 60,
+		time = "stop",
+		type = 74,
 		login_pop = 0,
-		config_id = 0,
+		config_id = 4008,
 		is_show = 0,
 		config_client = "",
 		title_res_tag = "",
 		id = 4008,
-		config_data = {
-			223,
-			224,
-			225,
-			226,
-			227,
-			228,
-			229
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4009] = {
 		mark = 20210610,
@@ -4313,6 +4227,288 @@ pg.activity_template = {
 		},
 		config_client = {
 			id = 970201
+		}
+	},
+	[4010] = {
+		mark = 20210617,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 13,
+		is_show = 0,
+		config_data = "",
+		config_client = "",
+		title_res_tag = "",
+		id = 4010,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					6,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					6,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4011] = {
+		mark = 20210617,
+		type = 54,
+		login_pop = 0,
+		config_id = 4011,
+		is_show = 6,
+		title_res_tag = "xunliandianshu_r",
+		id = 4011,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					6,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "JPSkirmishHeadFramePage",
+			ui_name = "JPSkirmishHeadFramePage"
+		},
+		config_client = {
+			linkExpActID = 4010
+		}
+	},
+	[4012] = {
+		mark = 20210617,
+		type = 69,
+		login_pop = 0,
+		config_id = 8,
+		is_show = 5,
+		title_res_tag = "Neptune_catchup",
+		id = 4012,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					6,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "IzumoTecCatchupPage",
+			ui_name = "IzumoTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42004
+		}
+	},
+	[4013] = {
+		mark = 20210617,
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 7,
+		title_res_tag = "shancheng_pt_skin",
+		id = 4013,
+		config_data = {
+			16740,
+			16741,
+			16742,
+			16743,
+			16744,
+			16745,
+			16746,
+			16747,
+			16748,
+			16749,
+			16750,
+			16751,
+			16752,
+			16753,
+			16754,
+			16755,
+			16756,
+			16757,
+			16758,
+			16759,
+			16760,
+			16761,
+			16762,
+			16763,
+			16764,
+			16765,
+			16766,
+			16767
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					6,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ShanChengPtSkinPage",
+			ui_name = "ShanChengPtSkinPage"
+		},
+		config_client = {
+			pt_id = 207
+		}
+	},
+	[4015] = {
+		mark = 20210617,
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 4015,
+		config_data = {
+			1430,
+			1431,
+			1432,
+			1433,
+			1434,
+			1435,
+			1436,
+			1437,
+			1438,
+			1439,
+			1440,
+			1441,
+			1442,
+			1443,
+			1444,
+			1445,
+			1446,
+			1447,
+			1448,
+			1449,
+			1450,
+			1451,
+			1452,
+			1453,
+			1454,
+			1455
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					6,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_shancheng",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			painting = "shancheng_pt",
+			pt_id = 207,
+			outline = {
+				0,
+				0,
+				0,
+				0.6
+			}
 		}
 	},
 	[1011] = {
@@ -20881,6 +21077,11 @@ pg.activity_template = {
 		4007,
 		4008,
 		4009,
+		4010,
+		4011,
+		4012,
+		4013,
+		4015,
 		1011,
 		1012,
 		1013,

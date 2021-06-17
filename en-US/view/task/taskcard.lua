@@ -86,6 +86,7 @@ function slot0.update(slot0, slot1)
 	slot0.cg.alpha = 1
 
 	setActive(slot0.frame, true)
+	setActive(slot0._go, true)
 end
 
 function slot0.updateBtnState(slot0, slot1)
@@ -103,20 +104,12 @@ function slot0.updateBtnState(slot0, slot1)
 			function slot0()
 				if not uv0.isClick then
 					uv0.isClick = true
-					slot0 = uv0.frame.localPosition
 
-					LeanTween.alphaCanvas(uv0.cg, 0, uv1):setFrom(1)
-					LeanTween.value(go(uv0.frame), slot0.x, slot0.x + uv0._modelWidth, uv1):setOnUpdate(System.Action_float(function (slot0)
-						uv0.frame.transform.localPosition = Vector3(slot0, uv1.y, uv1.z)
-					end)):setOnComplete(System.Action(function ()
-						uv0.frame.transform.localPosition = uv1
-
-						setActive(uv0.frame, false)
-
+					uv0:DoSubmitAnim(function ()
 						uv0.isClick = nil
 
-						uv0:Submit(uv2)
-					end))
+						uv0:Submit(uv1)
+					end)
 				end
 			end
 
@@ -165,14 +158,14 @@ function slot0.updateBtnState(slot0, slot1)
 			end)()
 		end, SFX_PANEL)
 	else
-		slot2 = uv5
+		slot2 = uv4
 
 		onButton(slot0, slot0.GotoBtn, function ()
 			uv0:Skip(uv1)
 		end, SFX_PANEL)
 	end
 
-	SetActive(slot0.GotoBtn, slot2 == uv5)
+	SetActive(slot0.GotoBtn, slot2 == uv4)
 	SetActive(slot0.GetBtn, slot2 == uv3)
 	setActive(slot0.finishBg, slot2 == uv3 or slot2 == uv2)
 	setActive(slot0.unfinishBg, slot2 ~= uv3 and slot2 ~= BTN_STATE_FETC)
@@ -228,6 +221,20 @@ function slot0.setSpriteTo(slot0, slot1, slot2, slot3)
 	if slot3 then
 		slot4:SetNativeSize()
 	end
+end
+
+function slot0.DoSubmitAnim(slot0, slot1)
+	slot2 = slot0.frame.localPosition
+
+	LeanTween.alphaCanvas(slot0.cg, 0, uv0):setFrom(1)
+	LeanTween.value(go(slot0.frame), slot2.x, slot2.x + slot0._modelWidth, uv0):setOnUpdate(System.Action_float(function (slot0)
+		uv0.frame.transform.localPosition = Vector3(slot0, uv1.y, uv1.z)
+	end)):setOnComplete(System.Action(function ()
+		uv0.frame.transform.localPosition = uv1
+
+		setActive(uv0.frame, false)
+		uv2()
+	end))
 end
 
 function slot0.dispose(slot0)

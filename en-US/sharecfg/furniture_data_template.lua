@@ -51005,6 +51005,913 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[51001] = {
+		can_rotate = 0,
+		name = "Concrete Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 4,
+		icon = "dibantwicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 51,
+		spine_action_replace = "",
+		picture = "taiwan/dibantw",
+		canputon = 0,
+		count = 1,
+		describe = "In retrospect, you realize that concrete may not be the best material for your dormitory's floor.",
+		advice = 0,
+		deblocking = 1,
+		id = 51001,
+		comfortable = 4,
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51002] = {
+		can_rotate = 0,
+		name = "Skyline Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 3,
+		icon = "qiangbitwicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 51,
+		spine_action_replace = "",
+		picture = "taiwan/qiangbitw",
+		canputon = 0,
+		count = 1,
+		describe = "A picturesque view of a city that lives in the year 207X A.D.",
+		advice = 0,
+		deblocking = 1,
+		id = 51002,
+		comfortable = 4,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51101] = {
+		can_rotate = 1,
+		name = "Manjuu Teahouse",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "chaloutwicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 51,
+		spine_action_replace = "",
+		picture = "taiwan/chaloutw",
+		canputon = 0,
+		count = 1,
+		describe = "\"One cup of matcha and one cup of Darjeeling? Absolu-tea. Coming right up!\"",
+		advice = 0,
+		deblocking = 1,
+		id = 51101,
+		comfortable = 3,
+		size = {
+			13,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51102] = {
+		can_rotate = 0,
+		name = "Manjuu-Dragged Cart",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "chetwicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 51,
+		count = 1,
+		describe = "0 carbon emissions. On paper.",
+		advice = 0,
+		id = 51102,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"canche",
+				"normal",
+				{
+					"walk",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[51103] = {
+		can_rotate = 1,
+		name = "Mega Manjuu Lantern",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "dengtwicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 51,
+		spine_action_replace = "",
+		picture = "taiwan/dengtw",
+		canputon = 0,
+		count = 2,
+		describe = "2,000 HP. Summons smaller lanterns as adds.",
+		advice = 0,
+		deblocking = 1,
+		id = 51103,
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51104] = {
+		can_rotate = 0,
+		name = "Red Brick Building",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "loutwicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 51,
+		spine_action_replace = "",
+		picture = "taiwan/loutw",
+		canputon = 0,
+		count = 1,
+		describe = "Ye Olde Brickwork Restaurant. Est 10 years ago.",
+		advice = 0,
+		deblocking = 1,
+		id = 51104,
+		comfortable = 3,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51105] = {
+		can_rotate = 1,
+		name = "Row of Lanterns",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "ludengtwicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 51,
+		spine_action_replace = "",
+		picture = "taiwan/ludengtw",
+		canputon = 0,
+		count = 1,
+		describe = "They don't drop hearts or items, so don't even think about breaking them.",
+		advice = 0,
+		deblocking = 1,
+		id = 51105,
+		comfortable = 2,
+		size = {
+			7,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51106] = {
+		can_rotate = 1,
+		name = "Market Signage",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "lupaitwicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 51,
+		spine_action_replace = "",
+		picture = "taiwan/lupaitw",
+		canputon = 0,
+		count = 1,
+		describe = "You don't need directions to find delicious food in this part of town.",
+		advice = 0,
+		deblocking = 1,
+		id = 51106,
+		comfortable = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51107] = {
+		can_rotate = 1,
+		name = "Market Archway",
+		gain_by = "",
+		type = 9,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "mentwicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 51,
+		spine_action_replace = "",
+		picture = "taiwan/mentw",
+		canputon = 1,
+		count = 1,
+		describe = "As you walk through it, you feel as though you've entered a world of epicurism.",
+		advice = 0,
+		deblocking = 1,
+		id = 51107,
+		comfortable = 1,
+		size = {
+			2,
+			8
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				0,
+				4
+			},
+			{
+				0,
+				5
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				1,
+				4
+			},
+			{
+				1,
+				5
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51108] = {
+		can_rotate = 0,
+		name = "Boba Tea: New & Improved Recipe",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "naichatwicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "taiwan/naichatw",
+		canputon = 0,
+		themeId = 51,
+		count = 1,
+		describe = "Word is they're trying to trademark that phrase.",
+		advice = 0,
+		id = 51108,
+		deblocking = 1,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					4,
+					-12
+				},
+				{
+					1,
+					1
+				},
+				"taiwan/naichatw_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51109] = {
+		can_rotate = 1,
+		name = "Market Billboard 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "pai2twicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 51,
+		spine_action_replace = "",
+		picture = "taiwan/pai2tw",
+		canputon = 0,
+		count = 1,
+		describe = "4 PM: Gluttony Hour, 50% off at all restaurants.",
+		advice = 0,
+		deblocking = 1,
+		id = 51109,
+		comfortable = 1,
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51110] = {
+		can_rotate = 1,
+		name = "Market Billboard 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "paitwicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 51,
+		spine_action_replace = "",
+		picture = "taiwan/paitw",
+		canputon = 0,
+		count = 1,
+		describe = "6:15 PM: Float Festival starts. Bring your own gravity.",
+		advice = 0,
+		deblocking = 1,
+		id = 51110,
+		comfortable = 2,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51111] = {
+		can_rotate = 0,
+		name = "Market Stone Path",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "shizhuanlutwicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 51,
+		spine_action_replace = "",
+		picture = "taiwan/shizhuanlutw",
+		canputon = 0,
+		count = 1,
+		describe = "You never thought rock could be so smooth. And slippery, after rain.",
+		advice = 0,
+		deblocking = 1,
+		id = 51111,
+		comfortable = 3,
+		size = {
+			7,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51112] = {
+		can_rotate = 0,
+		name = "Market Stone Staircase",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "taijietwicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "taiwan/taijietw",
+		canputon = 0,
+		themeId = 51,
+		count = 1,
+		describe = "Up we go.",
+		advice = 0,
+		id = 51112,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-26,
+					69
+				},
+				{
+					-1,
+					1
+				},
+				"taiwan/taijietw_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51113] = {
+		can_rotate = 0,
+		name = "Market Stone Border",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "taizitwicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "taiwan/taizitw",
+		canputon = 0,
+		themeId = 51,
+		count = 1,
+		describe = "Garnished with greenery to break up the mono-stony.",
+		advice = 0,
+		id = 51113,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			3,
+			15
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-204,
+					154
+				},
+				{
+					-1,
+					1
+				},
+				"taiwan/taizitw_using"
+			},
+			{
+				"stand2",
+				{
+					-10,
+					51
+				},
+				{
+					-1,
+					1
+				},
+				"taiwan/taizitw_using"
+			},
+			{
+				"stand2",
+				{
+					205,
+					-67
+				},
+				{
+					-1,
+					1
+				},
+				"taiwan/taizitw_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51114] = {
+		can_rotate = 1,
+		name = "Hot Dog Stand",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "tanwei2twicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "taiwan/tanwei2tw",
+		canputon = 0,
+		themeId = 51,
+		count = 1,
+		describe = "Here's your once-in-a-year chance to try some very novel hot dog toppings.",
+		advice = 0,
+		id = 51114,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-19,
+					-64
+				},
+				{
+					-1,
+					1
+				},
+				"taiwan/tanwei2tw_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51115] = {
+		can_rotate = 1,
+		name = "Milky Boba Tea Stand",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "tanwei3twicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "taiwan/tanwei3tw",
+		canputon = 0,
+		themeId = 51,
+		count = 1,
+		describe = "We're milking this trend for all it's worth.",
+		advice = 0,
+		id = 51115,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-90,
+					-90
+				},
+				{
+					-1,
+					1
+				},
+				"taiwan/tanwei3tw_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51116] = {
+		can_rotate = 1,
+		name = "Pizza Stand",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "tanweitwicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "taiwan/tanweitw",
+		canputon = 0,
+		themeId = 51,
+		count = 1,
+		describe = "You'll want to be quick. They're usually sold out by the early evening.",
+		advice = 0,
+		id = 51116,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-25,
+					-44
+				},
+				{
+					-1,
+					1
+				},
+				"taiwan/tanweitw_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51117] = {
+		can_rotate = 0,
+		name = "Rainbow Tower",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "tatwicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 51,
+		spine_action_replace = "",
+		picture = "taiwan/tatw",
+		canputon = 0,
+		count = 1,
+		describe = "Indeed, the interior matches the exterior.",
+		advice = 0,
+		deblocking = 1,
+		id = 51117,
+		comfortable = 3,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[51118] = {
+		can_rotate = 0,
+		name = "Stone Seat",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "zuoweitwicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "taiwan/zuoweitw",
+		canputon = 0,
+		themeId = 51,
+		count = 3,
+		describe = "A stone-age design brought into the 21st century.",
+		advice = 0,
+		id = 51118,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-3,
+					54
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[52001] = {
 		can_rotate = 0,
 		name = "Halloween Flooring",
@@ -79208,6 +80115,26 @@ pg.furniture_data_template = {
 		50122,
 		50123,
 		50124,
+		51001,
+		51002,
+		51101,
+		51102,
+		51103,
+		51104,
+		51105,
+		51106,
+		51107,
+		51108,
+		51109,
+		51110,
+		51111,
+		51112,
+		51113,
+		51114,
+		51115,
+		51116,
+		51117,
+		51118,
 		52001,
 		52002,
 		52101,

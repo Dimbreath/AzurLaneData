@@ -1,15 +1,14 @@
-slot0 = class("PreCombatMediator", import("..base.ContextMediator"))
-slot0.ON_START = "PreCombatMediator:ON_START"
-slot0.ON_CHANGE_FLEET = "PreCombatMediator:ON_CHANGE_FLEET"
-slot0.ON_COMMIT_EDIT = "PreCombatMediator:ON_COMMIT_EDIT"
-slot0.ON_ABORT_EDIT = "PreCombatMediator:ON_ABORT_EDIT"
-slot0.OPEN_SHIP_INFO = "PreCombatMediator:OPEN_SHIP_INFO"
-slot0.REMOVE_SHIP = "PreCombatMediator:REMOVE_SHIP"
-slot0.CHANGE_FLEET_SHIPS_ORDER = "PreCombatMediator:CHANGE_FLEET_SHIPS_ORDER"
-slot0.CHANGE_FLEET_SHIP = "PreCombatMediator:CHANGE_FLEET_SHIP"
-slot0.ON_AUTO = "PreCombatMediator:ON_AUTO"
-slot0.ON_SUB_AUTO = "PreCombatMediator:ON_SUB_AUTO"
-slot0.GET_CHAPTER_DROP_SHIP_LIST = "PreCombatMediator:GET_CHAPTER_DROP_SHIP_LIST"
+slot0 = class("ExercisePreCombatMediator", import("..base.ContextMediator"))
+slot0.ON_START = "ExercisePreCombatMediator:ON_START"
+slot0.ON_CHANGE_FLEET = "ExercisePreCombatMediator:ON_CHANGE_FLEET"
+slot0.ON_COMMIT_EDIT = "ExercisePreCombatMediator:ON_COMMIT_EDIT"
+slot0.OPEN_SHIP_INFO = "ExercisePreCombatMediator:OPEN_SHIP_INFO"
+slot0.REMOVE_SHIP = "ExercisePreCombatMediator:REMOVE_SHIP"
+slot0.CHANGE_FLEET_SHIPS_ORDER = "ExercisePreCombatMediator:CHANGE_FLEET_SHIPS_ORDER"
+slot0.CHANGE_FLEET_SHIP = "ExercisePreCombatMediator:CHANGE_FLEET_SHIP"
+slot0.ON_AUTO = "ExercisePreCombatMediator:ON_AUTO"
+slot0.ON_SUB_AUTO = "ExercisePreCombatMediator:ON_SUB_AUTO"
+slot0.GET_CHAPTER_DROP_SHIP_LIST = "ExercisePreCombatMediator:GET_CHAPTER_DROP_SHIP_LIST"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.GET_CHAPTER_DROP_SHIP_LIST, function (slot0, slot1, slot2)
@@ -32,16 +31,21 @@ function slot0.register(slot0)
 
 	if slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS or slot2 == SYSTEM_BOSS_EXPERIMENT or slot2 == SYSTEM_ACT_BOSS then
 		slot4 = slot0.contextData.fleets
-	elseif slot3.EdittingFleet ~= nil then
-		slot3:getData()[slot3.EdittingFleet.id] = slot3.EdittingFleet
+	else
+		slot4 = slot3:getData()
+
+		if slot0.contextData.EdittingFleet then
+			slot3.EdittingFleet = slot0.contextData.EdittingFleet
+			slot0.contextData.EdittingFleet = nil
+		end
+
+		if slot3.EdittingFleet ~= nil then
+			slot4[slot3.EdittingFleet.id] = slot3.EdittingFleet
+		end
 	end
 
 	slot0.viewComponent:SetFleets(slot4)
 	slot0.viewComponent:SetPlayerInfo(getProxy(PlayerProxy):getData())
-	slot0:bind(uv0.ON_ABORT_EDIT, function (slot0)
-		uv0:abortEditting()
-		uv0:syncFleet()
-	end)
 
 	if slot2 == SYSTEM_DUEL then
 		slot0.viewComponent:SetCurrentFleet(FleetProxy.PVP_FLEET_ID)
@@ -86,7 +90,7 @@ function slot0.register(slot0)
 		uv0.viewComponent:MarkEdited()
 	end)
 	slot0:bind(uv0.OPEN_SHIP_INFO, function (slot0, slot1, slot2)
-		uv0.contextData.form = PreCombatLayer.FORM_EDIT
+		uv0.contextData.form = ExercisePreCombatLayer.FORM_EDIT
 		uv0.contextData.fleetID = slot2.id
 		slot3 = {}
 
@@ -100,7 +104,7 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.CHANGE_FLEET_SHIP, function (slot0, slot1, slot2, slot3)
-		uv0.contextData.form = PreCombatLayer.FORM_EDIT
+		uv0.contextData.form = ExercisePreCombatLayer.FORM_EDIT
 		uv0.contextData.fleetID = slot2.id
 
 		FormationMediator.saveEdit()
@@ -108,7 +112,7 @@ function slot0.register(slot0)
 		slot4 = uv1 == SYSTEM_DUEL
 		slot5 = slot4 and ShipStatus.TAG_HIDE_PVP or ShipStatus.TAG_HIDE_NORMAL
 		slot6 = slot4 and ShipStatus.TAG_BLOCK_PVP or nil
-		slot7, slot8, slot9 = FormationMediator.getDockCallbackFuncs(uv0, slot1, slot2, slot3)
+		slot7, slot8, slot9 = uv0:getDockCallbackFuncsForExercise(slot1, slot2, slot3)
 		slot10 = {}
 
 		for slot14, slot15 in ipairs(slot2.ships) do
@@ -122,6 +126,9 @@ function slot0.register(slot0)
 			useBlackBlock = true,
 			selectedMax = 1,
 			energyDisplay = true,
+			ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({
+				isActivityNpc = true
+			}),
 			leastLimitMsg = i18n("battle_preCombatMediator_leastLimit"),
 			quitTeam = slot1 ~= nil,
 			teamFilter = slot3,
@@ -286,6 +293,78 @@ function slot0.handleNotification(slot0, slot1)
 				uv0.viewComponent:emit(BaseUI.ON_CLOSE)
 			end
 		})
+	end
+end
+
+function slot0.getDockCallbackFuncsForExercise(slot0, slot1, slot2, slot3)
+	slot4 = getProxy(FleetProxy)
+	slot5 = getProxy(BayProxy)
+
+	return function (slot0, slot1)
+		slot2, slot3 = ShipStatus.ShipStatusCheck("inFleet", slot0, slot1)
+
+		if not slot2 then
+			return slot2, slot3
+		end
+
+		slot4, slot5 = FormationMediator.checkChangeShip(uv0, uv1, slot0)
+
+		if not slot4 then
+			return false, slot5
+		end
+
+		return true
+	end, function (slot0, slot1, slot2)
+		slot1()
+	end, function (slot0)
+		if not uv0:getShipById(slot0[1]) then
+			if uv1 then
+				FormationMediator.removeShipFromFleet(uv2, uv1)
+			end
+
+			return
+		end
+
+		slot3 = uv2:getShipPos(uv1)
+
+		if uv3:inPvPFleet(slot1) then
+			slot4 = uv2:getShipPos(slot1)
+
+			if uv1 == nil then
+				uv2:removeShip(slot1)
+				uv2:insertShip(slot1, nil, uv4)
+
+				uv3.EdittingFleet = uv2
+
+				return
+			end
+
+			if uv1.id == slot1.id then
+				return
+			end
+
+			uv2:removeShip(uv1)
+			uv2:removeShip(slot1)
+
+			if slot4 < slot3 then
+				uv2:insertShip(uv1, slot4, uv4)
+				uv2:insertShip(slot1, slot3, uv4)
+			else
+				uv2:insertShip(slot1, slot3, uv4)
+				uv2:insertShip(uv1, slot4, uv4)
+			end
+
+			uv3.EdittingFleet = uv2
+		else
+			if uv1 == nil then
+				uv2:insertShip(slot1, nil, uv4)
+			else
+				uv2:removeShip(uv1)
+				uv2:insertShip(slot1, slot3, uv4)
+			end
+
+			uv3.EdittingFleet = uv2
+		end
 	end
 end
 

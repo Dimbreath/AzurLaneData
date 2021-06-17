@@ -7393,706 +7393,706 @@ pg.activity_ins_language = {
 		value = "Speaking of which, do you want some tea too, Commander? There's lots to go around!"
 	},
 	ins_215 = {
-		value = ""
+		value = "Look, Mr. Bear! A giant robot exhibit!"
 	},
 	ins_discuss_215_1 = {
-		value = ""
+		value = "Whoa! Are those tokusatsu mecha props?"
 	},
 	ins_reply_215_1_1 = {
-		value = ""
+		value = "I dunno. All I know is they look awesome! I wish they'd let you touch them."
 	},
 	ins_reply_215_1_2 = {
-		value = ""
+		value = "Tell you what, I could make a cosplay if I had more reference pics! Wanna take some together?"
 	},
 	ins_reply_215_1_3 = {
-		value = ""
+		value = "Oh! I'd love to."
 	},
 	ins_discuss_215_2 = {
-		value = ""
+		value = "mecha, hmm? interesting. we're officially abandoning ship development to work on giant robots."
 	},
 	ins_reply_215_2_1 = {
-		value = ""
+		value = "Wait, are you serious?!"
 	},
 	ins_reply_215_2_2 = {
-		value = ""
+		value = "no, it's called making a silly joke."
 	},
 	ins_discuss_215_3 = {
-		value = ""
+		value = "I've got spare figs of these guys~ I'm low on display space so whoever wants one, hmu~"
 	},
 	ins_reply_215_3_1 = {
-		value = ""
+		value = "For free?! I do!"
 	},
 	ins_op_215_1_1 = {
-		value = ""
+		value = "Ah! This hand of mine burns with an awesome power!"
 	},
 	op_reply_215_1_1 = {
-		value = ""
+		value = "Take this! My love, my anger, and all of my sorrow!"
 	},
 	ins_op_215_1_2 = {
-		value = ""
+		value = "Trying to touch the valuable props? I'll stop you!"
 	},
 	op_reply_215_1_2 = {
-		value = ""
+		value = "It doesn't matter how strong you are if you can't hit me! Muahaha!"
 	},
 	ins_216 = {
-		value = ""
+		value = "We got together and... sang karaoke..."
 	},
 	ins_discuss_216_1 = {
-		value = ""
+		value = "Best night out ever! We should totally do it again soon!"
 	},
 	ins_reply_216_1_1 = {
-		value = ""
+		value = "I was nervous at first without my mask... but I had fun after getting in the mood..."
 	},
 	ins_reply_216_1_2 = {
-		value = ""
+		value = "Can't really sing with a mask on, y'know?"
 	},
 	ins_reply_216_1_3 = {
-		value = ""
+		value = "Maybe you can... if you're a shapeshifter at Poe's masquerade..."
 	},
 	ins_discuss_216_2 = {
-		value = ""
+		value = "Why do you cover your face? You shouldn't be afraid to show your beautiful looks, Boise."
 	},
 	ins_reply_216_2_1 = {
-		value = ""
+		value = "It's just that going unmasked is... extremely stressful..."
 	},
 	ins_discuss_216_3 = {
-		value = ""
+		value = "you said this was your first time singing karaoke? you're stupidly talented if so."
 	},
 	ins_reply_216_3_1 = {
-		value = ""
+		value = "I mean, you're a gifted singer too, Lulu..."
 	},
 	ins_reply_216_3_2 = {
-		value = ""
+		value = "That's because she's practiced! All she's done for the past week is sing~"
 	},
 	ins_reply_216_3_3 = {
-		value = ""
+		value = "I haven't been practicing THAT much! just a little..."
 	},
 	ins_op_216_1_1 = {
-		value = ""
+		value = "You stole the show with your brilliant singing, Boise."
 	},
 	op_reply_216_1_1 = {
-		value = ""
+		value = "Thanks... You're really good at singing too, Commander..."
 	},
 	ins_op_216_1_2 = {
-		value = ""
+		value = "The snacks were pretty good for a karaoke bar."
 	},
 	op_reply_216_1_2 = {
-		value = ""
+		value = "Right, yeah! Like the fries, they were great..."
 	},
 	ins_217 = {
-		value = ""
+		value = "Hey kiddies! I'm Archerfish, your teacher for today! Let's dive into the world of marine biology!"
 	},
 	ins_discuss_217_1 = {
-		value = ""
+		value = "I love field trips to the aquarium! Even if I don't understand anything, I always leave feeling smarter!"
 	},
 	ins_reply_217_1_1 = {
-		value = ""
+		value = "Mhm, that's what's called intellectual stimulation~"
 	},
 	ins_discuss_217_2 = {
-		value = ""
+		value = "So I've been thinking... We're submarines. Can't we just go in the tanks to have a closer look at the fish?"
 	},
 	ins_reply_217_2_1 = {
-		value = ""
+		value = "huh... never thought about that before."
 	},
 	ins_reply_217_2_2 = {
-		value = ""
+		value = "you think they'd let us?"
 	},
 	ins_reply_217_2_3 = {
-		value = ""
+		value = "No, fishbrains! No scales, no entry!"
 	},
 	ins_discuss_217_3 = {
-		value = ""
+		value = "is that... a giant isopod plush?"
 	},
 	ins_reply_217_3_1 = {
-		value = ""
+		value = "Ding-ding, right on the mark! I got it from the souvenir shop. Pretty neat, huh?"
 	},
 	ins_op_217_1_1 = {
-		value = ""
+		value = "Tell me some more about marine life."
 	},
 	op_reply_217_1_1 = {
-		value = ""
+		value = "You want some hands-on solo tutoring? Sure can do, hottie! Hehehe~"
 	},
 	ins_218 = {
-		value = ""
+		value = "Ka-splaaaash!"
 	},
 	ins_discuss_218_1 = {
-		value = ""
+		value = "I love this ride! Let's go on it again!"
 	},
 	ins_reply_218_1_1 = {
-		value = ""
+		value = "Heck yeah! And after, we'll go on even splashier ride!"
 	},
 	ins_discuss_218_2 = {
-		value = ""
+		value = "siiiick. should've told me you were going to the water park!"
 	},
 	ins_reply_218_2_1 = {
-		value = ""
+		value = "I didn't think you'd be into it, U-37! We'll definitely invite you next time!"
 	},
 	ins_discuss_218_3 = {
-		value = ""
+		value = "It felt like my heart was going to pop out of my chest... I don't really wanna ride it again..."
 	},
 	ins_reply_218_3_1 = {
-		value = ""
+		value = "It's less scary if you sit in the front and have someone hugging you from behind!"
 	},
 	ins_op_218_1_1 = {
-		value = ""
+		value = "Looks like all the fun of a roller coaster and a water slide both at once."
 	},
 	op_reply_218_1_1 = {
-		value = ""
+		value = "Yup yup, it is! You should come with us and try it sometime, Commander!"
 	},
 	ins_op_218_1_2 = {
-		value = ""
+		value = "Just hope I-25 didn't lose her lunch..."
 	},
 	op_reply_218_1_2 = {
-		value = ""
+		value = "Fortunately not, but I was very close to giving up the ghost..."
 	},
 	ins_219 = {
-		value = ""
+		value = "Strap in cause it's gonna be a WIIIIILD RIIIIIIIDE!!!"
 	},
 	ins_discuss_219_1 = {
-		value = ""
+		value = "Wowie, I'm seeing stars! And I'm not just talking about myself!"
 	},
 	ins_reply_219_1_1 = {
-		value = ""
+		value = "Them's the guiding stars named Thrill, Ecstasy, and Vertigo!"
 	},
 	ins_discuss_219_2 = {
-		value = ""
+		value = "This looks even more exciting than the water coaster!"
 	},
 	ins_reply_219_2_1 = {
-		value = ""
+		value = "A bit TOO exciting, probably..."
 	},
 	ins_reply_219_2_2 = {
-		value = ""
+		value = "Ain't no such thing as\"too exciting\"! Try it, you won't regret it!"
 	},
 	ins_discuss_219_3 = {
-		value = ""
+		value = "Wild roller coasters are so on-brand for SF."
 	},
 	ins_reply_219_3_1 = {
-		value = ""
+		value = "Not so much for me... They make me queasy and dizzy."
 	},
 	ins_reply_219_3_2 = {
-		value = ""
+		value = "Queasy and dizzy is the prime theme park experience, girl! Who cares if you vom a little!"
 	},
 	ins_op_219_1_1 = {
-		value = ""
+		value = "That loop-the-loop looks too intense for most people."
 	},
 	op_reply_219_1_1 = {
-		value = ""
+		value = "You kidding? That's like, the best part! The whole reason you'd ride a roller coaster!"
 	},
 	ins_op_219_1_2 = {
-		value = ""
+		value = "Imagine NOT strapping in..."
 	},
 	op_reply_219_1_2 = {
-		value = ""
+		value = "If anyone's daredevil enough to do it, I salute them!"
 	},
 	ins_220 = {
-		value = ""
+		value = "Whoopsie. I may have gone over budget."
 	},
 	ins_discuss_220_1 = {
-		value = ""
+		value = "It's so easy to lose track of how much you've spent when you're out shopping."
 	},
 	ins_reply_220_1_1 = {
-		value = ""
+		value = "Hang on Shangri La, I thought you of all people would have good self-control?"
 	},
 	ins_reply_220_1_2 = {
-		value = ""
+		value = "Impulse spending gets even the best of us, I'm afraid."
 	},
 	ins_discuss_220_2 = {
-		value = ""
+		value = "Psst~ You can spend all your money from the comfort of your own room by shopping online~"
 	},
 	ins_reply_220_2_1 = {
-		value = ""
+		value = "But it's not the same, it's all virtual and intangible... You don't even get what you ordered until days later!"
 	},
 	ins_reply_220_2_2 = {
-		value = ""
+		value = "I suppose it's a form of delayed gratification... And still, you can spend more than you intend to, even online."
 	},
 	ins_op_220_1_1 = {
-		value = ""
+		value = "Spend it while you've got it, I say."
 	},
 	op_reply_220_1_1 = {
-		value = ""
+		value = "Money's whole purpose is to be spent, so I guess you've got a point."
 	},
 	ins_op_220_1_2 = {
-		value = ""
+		value = "Looks like you need help carrying it all back."
 	},
 	op_reply_220_1_2 = {
-		value = ""
+		value = "Is that a pickup line, or a pickup offer? Either way, I'll take you up on it!"
 	},
 	ins_221 = {
-		value = ""
+		value = "Man, this movie was so good I didn't wanna blink and miss a single moment!"
 	},
 	ins_discuss_221_1 = {
-		value = ""
+		value = "I know right? The cinematography, the framing, everything was top-notch! Best film in decades!"
 	},
 	ins_reply_221_1_1 = {
-		value = ""
+		value = "Don'tcha just love it when a movie lives up to the reviewer hype?"
 	},
 	ins_discuss_221_2 = {
-		value = ""
+		value = "Meh I'm sleeping on going to the movies until they make a sequel to We Live in a Society."
 	},
 	ins_reply_221_2_1 = {
-		value = ""
+		value = "Sure that one's good, but sleeping on Roidzilla vs. The Gorillator? That's doing yourself a disservice, girl!"
 	},
 	ins_discuss_221_3 = {
-		value = ""
+		value = "Ice cream... during a movie...?"
 	},
 	ins_reply_221_3_1 = {
-		value = ""
+		value = "What about it? It's not a typical movie snack, but it doesn't give you a dry mouth like popcorn does."
 	},
 	ins_op_221_1_1 = {
-		value = ""
+		value = "I've got it! Next week is movie week at the port!"
 	},
 	op_reply_221_1_1 = {
-		value = ""
+		value = "Movie week lezgoooo!"
 	},
 	ins_op_221_1_2 = {
-		value = ""
+		value = "Just watch it so your ice cream doesn't spill."
 	},
 	op_reply_221_1_2 = {
-		value = ""
+		value = "Easy. How could I call myself an Iowa if I'd let my clothes get dirty?"
 	},
 	ins_222 = {
-		value = ""
+		value = "The Manjuuland Mirror Maze is a lovely little attraction."
 	},
 	ins_discuss_222_1 = {
-		value = ""
+		value = "It's so weird seeing mirror clones of yourself at all these different angles..."
 	},
 	ins_reply_222_1_1 = {
-		value = ""
+		value = "Yes, it is weird. So weird that some of us get lost in the maze. Isn't that right, sister?"
 	},
 	ins_reply_222_1_2 = {
-		value = ""
+		value = "Oh be quiet! I didn't get lost, you just walked off without me!"
 	},
 	ins_discuss_222_2 = {
-		value = ""
+		value = "It's always a fun time. Sometimes I get distracted and walk into the mirrors though..."
 	},
 	ins_reply_222_2_1 = {
-		value = ""
+		value = "try to watch where YOU'RE going, not your mirror images..."
 	},
 	ins_discuss_222_3 = {
-		value = ""
+		value = "Oh yes. The amusement park is just wonderful, especially if you're going with friends."
 	},
 	ins_reply_222_3_1 = {
-		value = ""
+		value = "It sure is. Speaking of which, would you like to come with us next time?"
 	},
 	ins_reply_222_3_2 = {
-		value = ""
+		value = "I'll have to check my schedule, but I'd love to if I can~"
 	},
 	ins_op_222_1_1 = {
-		value = ""
+		value = "Did you make it out of the maze in the end?"
 	},
 	op_reply_222_1_1 = {
-		value = ""
+		value = "Duh. Otherwise we'd be sending SOS's, not be casually posting on Juustagram."
 	},
 	op_reply_222_1_2 = {
-		value = ""
+		value = "Chao Ho showed me the way out. After flipping her lid and storming ahead, that is. Heheh~"
 	},
 	ins_op_222_1_2 = {
-		value = ""
+		value = "Let's go there together next time then."
 	},
 	op_reply_222_1_3 = {
-		value = ""
+		value = "Absolutely! We'd love to have you with us, Commander~"
 	},
 	ins_223 = {
-		value = ""
+		value = "The sun is shining, the birds are singing, and I am having a wonderful day."
 	},
 	ins_discuss_223_1 = {
-		value = ""
+		value = "Don't forget to use sun cream if you plan to lounge in the sun all day."
 	},
 	ins_reply_223_1_1 = {
-		value = ""
+		value = "Appearances, Formidable! Being on vacation is no excuse to slack on your etiquette!"
 	},
 	ins_reply_223_1_2 = {
-		value = ""
+		value = "Yes, yes, I know. I'll mind my manners."
 	},
 	ins_discuss_223_2 = {
-		value = ""
+		value = "Comfy air-conditioned room with vidya > Going outside and melting like butter in the sun"
 	},
 	ins_reply_223_2_1 = {
-		value = ""
+		value = "this tbh ^"
 	},
 	ins_reply_223_2_2 = {
-		value = ""
+		value = "That's why they have a pool for you to cool off in. Come on outside and touch grass, ladies."
 	},
 	ins_discuss_223_3 = {
-		value = ""
+		value = "Nothing beats ice cream on a hot day! What flavour is it? Sweet sea salt?"
 	},
 	ins_reply_223_3_1 = {
-		value = ""
+		value = "Correct! It tastes a lot like the sea, actually."
 	},
 	ins_op_223_1_1 = {
-		value = ""
+		value = "How's the water?"
 	},
 	op_reply_223_1_1 = {
-		value = ""
+		value = "Well... I've not tried it just yet. Let me sunbathe for another 5 minutes first."
 	},
 	ins_op_223_1_2 = {
-		value = ""
+		value = "Just watch it so your ice cream doesn't spill."
 	},
 	op_reply_223_1_2 = {
-		value = ""
+		value = "First New Jersey, now me? Are you perhaps trying to make this into your catchphrase, hmm?"
 	},
 	ins_224 = {
-		value = ""
+		value = "Yikes... I'm never doing campfire ghost stories again..."
 	},
 	ins_discuss_224_1 = {
-		value = ""
+		value = "It's okay, Isuzu. They're just stories, they can't hurt you."
 	},
 	ins_reply_224_1_1 = {
-		value = ""
+		value = "Stories draw inspiration from reality. Not all are real, but some are. Maybe the one about the hallway shade is..."
 	},
 	ins_reply_224_1_2 = {
-		value = ""
+		value = "AAAAAAAAAAAAAAAA STOOOOOOOP!!!"
 	},
 	ins_reply_224_1_3 = {
-		value = ""
+		value = "It's all right, Isuzu! If you ever need someone to go with you when it's dark, I'll do it~"
 	},
 	ins_discuss_224_2 = {
-		value = ""
+		value = "listening to more ghost stories is a good way to get desensitized, actually. makes them less scary."
 	},
 	ins_reply_224_2_1 = {
-		value = ""
+		value = "I'd rather not listen to ANY ghost stories or I'll never sleep at night again!"
 	},
 	ins_discuss_224_3 = {
-		value = ""
+		value = "Apparitions are but spawns of the mind. To fear them is to be pointlessly self-confined."
 	},
 	ins_reply_224_3_1 = {
-		value = ""
+		value = "Things can be scary AND entirely real, you know! Like you when you're sleepwalking!"
 	},
 	ins_op_224_1_1 = {
-		value = ""
+		value = "Maybe some roasted marshmallows would help Isuzu."
 	},
 	op_reply_224_1_1 = {
-		value = ""
+		value = "Oh right, marshmallows! I knew we were missing something!"
 	},
 	ins_225 = {
-		value = ""
+		value = "To sleep, perchance to dream. Aye, there's the rub. I was sleepwalking, and in my slumber, I heard a scream."
 	},
 	ins_discuss_225_1 = {
-		value = ""
+		value = "You were just sleepwalking?! Good lord, you scared the life out of me when I saw you..."
 	},
 	ins_reply_225_1_1 = {
-		value = ""
+		value = "For causing you a fright, I apologize. This phenomenon is rare, only occurring when I truly close my eyes."
 	},
 	ins_reply_225_1_2 = {
-		value = ""
+		value = "You should get that looked at before you become the inspiration for some creepypasta..."
 	},
 	ins_discuss_225_2 = {
-		value = ""
+		value = "I think I've solved the mystery of things that go bump in the night... It's just Champagne walking into furniture."
 	},
 	ins_reply_225_2_1 = {
-		value = ""
+		value = "I wouldn't be so quick to dismiss \"night bumps\" as mere fiction. I know many spirits who'd haunt you for it."
 	},
 	ins_reply_225_2_2 = {
-		value = ""
+		value = "And besides, you can't sell horror fiction if there's a rational explanation for every spooky thing, nya!"
 	},
 	ins_reply_225_2_3 = {
-		value = ""
+		value = "A condition turned a novelty, rendered into a story and sold as a commodity..."
 	},
 	ins_op_225_1_1 = {
-		value = ""
+		value = "I'll admit, she does look pretty frightening in this picture..."
 	},
 	op_reply_225_1_1 = {
-		value = ""
+		value = "Fear, they say, gives us chills and makes us shiver. Is fear, then, not the best repellent of the heat of summer?"
 	},
 	ins_226 = {
-		value = ""
+		value = "Commander want me. Fish fear me."
 	},
 	ins_discuss_226_1 = {
-		value = ""
+		value = "didn't know you were into fishing, weser. neat, I am too"
 	},
 	ins_reply_226_1_1 = {
-		value = ""
+		value = "Sort of, but not really? I just see fishing as something to do while you're relaxing by the seaside."
 	},
 	ins_reply_226_1_2 = {
-		value = ""
+		value = "hey that's good too, we could hang out and fish casually if you want"
 	},
 	ins_discuss_226_2 = {
-		value = ""
+		value = "caught any big fish? a submarine playin hide and seek maybe?"
 	},
 	ins_reply_226_2_1 = {
-		value = ""
+		value = "A garlic shark nibbled, but I had to let it go."
 	},
 	ins_reply_226_2_2 = {
-		value = ""
+		value = "Wait what?! Is U-110 okay?!"
 	},
 	ins_reply_226_2_3 = {
-		value = ""
+		value = "It was just a joke. The biggest catch I've made is a carp."
 	},
 	ins_discuss_226_3 = {
-		value = ""
+		value = "Fish for dinner, then?"
 	},
 	ins_reply_226_3_1 = {
-		value = ""
+		value = "If you want them, be my guest. Personally, I'm in the mood for schnitzel tonight."
 	},
 	ins_op_226_1_1 = {
-		value = ""
+		value = "Ever caught anything... unusual?"
 	},
 	op_reply_226_1_1 = {
-		value = ""
+		value = "I've reeled up plenty of boxes of operation supply coins. You don't need any more of those, right?"
 	},
 	ins_227 = {
-		value = ""
+		value = "Unite, Little Beavers! The Power Ranchers need our help!"
 	},
 	ins_discuss_227_1 = {
-		value = ""
+		value = "Charles, no! They're just actors!"
 	},
 	ins_reply_227_1_1 = {
-		value = ""
+		value = "Sorry... My righteous instincts took over me!"
 	},
 	ins_reply_227_1_2 = {
-		value = ""
+		value = "You can't deny it was pretty awesome seeing her jump up on stage and yell JUSTICE WILL PREVAIL though!"
 	},
 	ins_reply_227_1_3 = {
-		value = ""
+		value = "Yeah, I think that was pretty cool >.<"
 	},
 	ins_reply_227_1_4 = {
-		value = ""
+		value = "She totally went into justice mode!"
 	},
 	ins_discuss_227_2 = {
-		value = ""
+		value = "You had me fooled for a sec! I thought your intervention was part of the script."
 	},
 	ins_reply_227_2_1 = {
-		value = ""
+		value = "Bet you wanted to join in on the unscripted fun, eh cooper?"
 	},
 	ins_reply_227_2_2 = {
-		value = ""
+		value = "I won't lie and say no, but I didn't have a cool one-liner prepared!"
 	},
 	ins_op_227_1_1 = {
-		value = ""
+		value = "Did justice prevail in the end?"
 	},
 	op_reply_227_1_1 = {
-		value = ""
+		value = "Justice ALWAYS prevails! Red Rancher saved the day and all was good!"
 	},
 	ins_op_227_1_2 = {
-		value = ""
+		value = "Talk about improv..."
 	},
 	op_reply_227_1_2 = {
-		value = ""
+		value = "What can I say? My sense of justice took control of me."
 	},
 	ins_228 = {
-		value = ""
+		value = "Don't think I'm gonna ride a Ferris wheel again anytime soon..."
 	},
 	ins_discuss_228_1 = {
-		value = ""
+		value = "It was THAT bad? I thought you looked shaken when you got down but dang..."
 	},
 	ins_reply_228_1_1 = {
-		value = ""
+		value = "I'm fine. I'm not afraid of heights, it's the strong winds rocking the cabin that got to me."
 	},
 	ins_reply_228_1_2 = {
-		value = ""
+		value = "Rockin' cabin? Dunno about you, but that sounds like a fun time to me!"
 	},
 	ins_reply_228_1_3 = {
-		value = ""
+		value = "Sounds like a death trap to me, but sure."
 	},
 	ins_discuss_228_2 = {
-		value = ""
+		value = "Just have a bottle of liquid courage before boarding and nothing will scare you!"
 	},
 	ins_reply_228_2_1 = {
-		value = ""
+		value = "Sounds great, if your goal is to plaster the windows with your own vomit."
 	},
 	ins_reply_228_2_2 = {
-		value = ""
+		value = "Gangut, PLEASE don't drink and ride. The park janitors will hate you for it."
 	},
 	ins_op_228_1_1 = {
-		value = ""
+		value = "Want me to bring you something nice and warm to drink?"
 	},
 	op_reply_228_1_1 = {
-		value = ""
+		value = "That actually did the trick. Thanks, dear comrade."
 	},
 	ins_229 = {
-		value = ""
+		value = "Check us out! We're too swole to control!"
 	},
 	ins_discuss_229_1 = {
-		value = ""
+		value = "Oh. You actually posted it. Ugh, I look so silly in this pic..."
 	},
 	ins_reply_229_1_1 = {
-		value = ""
+		value = "It's good to take off your serious business mask and do something silly now and then! :D"
 	},
 	ins_discuss_229_2 = {
-		value = ""
+		value = "Me next, Cleve! I want a new Juustagram header!"
 	},
 	ins_reply_229_2_1 = {
-		value = ""
+		value = "Sure thing, come over! Anyone else wanna, while we're at it?"
 	},
 	ins_reply_229_2_2 = {
-		value = ""
+		value = "Me. Well, just to be the one holding the camera. Be right there..."
 	},
 	ins_discuss_229_3 = {
-		value = ""
+		value = "I know I'm the pot calling the kettle black here, but you look really stiff, Indie. Try to smile for the camera."
 	},
 	ins_reply_229_3_1 = {
-		value = ""
+		value = "I'm aware. My face kind of locks up in unfamiliar situations."
 	},
 	ins_op_229_1_1 = {
-		value = ""
+		value = "Weird flex but okay."
 	},
 	op_reply_229_1_1 = {
-		value = ""
+		value = "Thanks, I hate it lmao."
 	},
 	ins_op_229_1_2 = {
-		value = ""
+		value = "I think this pic is pretty cool."
 	},
 	op_reply_229_1_2 = {
-		value = ""
+		value = "Cool? I don't see what's cool about it, but... whatever floats your boat."
 	},
 	ins_230 = {
-		value = ""
+		value = "I'll admit, sometimes it's nice to forget about schedules and obligations and just have fun."
 	},
 	ins_discuss_230_1 = {
-		value = ""
+		value = "omg sdfdsjsdka I never knew I needed kitty strasser in my life so much until now!!"
 	},
 	ins_reply_230_1_1 = {
-		value = ""
+		value = "Glad to know this picture made somebody's day."
 	},
 	ins_reply_230_1_2 = {
-		value = ""
+		value = "Guess who she got them from~? I've got free cat ears for everyone so come on down and claim your pair, Heinrich :3c"
 	},
 	ins_reply_230_1_3 = {
-		value = ""
+		value = "For free??? 9 lives here I come!"
 	},
 	ins_discuss_230_2 = {
-		value = ""
+		value = "Enjoying yourself, my dear friend? I hope you are."
 	},
 	ins_reply_230_2_1 = {
-		value = ""
+		value = "Amidst all the noisy rides and saccharine sweets... somehow, yes, I enjoyed myself."
 	},
 	ins_reply_230_2_2 = {
-		value = ""
+		value = "Mwahaha~ With Zep's downfall, I am one step closer to complete global caturation >:3"
 	},
 	ins_op_230_1_1 = {
-		value = ""
+		value = "Sweet, sweet R&R!"
 	},
 	op_reply_230_1_1 = {
-		value = ""
+		value = "Right you are, Officer. A bit of downtime actually increases productivity in the long run. Fascinating, isn't it?"
 	},
 	ins_op_230_1_2 = {
-		value = ""
+		value = "Might just make cat ears mandatory casual wear."
 	},
 	op_reply_230_1_2 = {
-		value = ""
+		value = "And ruin their novelty factor? The purpose of silly items such as this is to break away from the norm. Alas, you are in command..."
 	},
 	ins_231 = {
-		value = ""
+		value = "This trek was an adventure from start to finish. I couldn't have made it without you guys!"
 	},
 	ins_discuss_231_1 = {
-		value = ""
+		value = "I'm just glad to have been along for the journey! Always fun cooking with a mess kit in the wild ^^"
 	},
 	ins_reply_231_1_1 = {
-		value = ""
+		value = "You especially were a huge help, big sis! If you ever want to go camping again, just let me know."
 	},
 	ins_discuss_231_2 = {
-		value = ""
+		value = "What I learned is a cuppa instant noodles always be good, outdoors or indoors."
 	},
 	ins_reply_231_2_1 = {
-		value = ""
+		value = "What I learned is any food tastes better when you eat it with Cleve."
 	},
 	ins_reply_231_2_2 = {
-		value = ""
+		value = "Oh yeah, true. Everything's better with friends, I guess!"
 	},
 	ins_discuss_231_3 = {
-		value = ""
+		value = "Boy that fresh woodland air tho. Y'know when books say a smell is \"intoxicating\"? This is what they mean."
 	},
 	ins_reply_231_3_1 = {
-		value = ""
+		value = "It was something else for sure. Wonder how the air on a snowy mountain would smell..."
 	},
 	ins_op_231_1_1 = {
-		value = ""
+		value = "I'll procure the rations for our next trip."
 	},
 	op_reply_231_1_1 = {
-		value = ""
+		value = "Go right ahead. I probably should've brought something other than just noodles..."
 	},
 	ins_232 = {
-		value = ""
+		value = "What is my favourite ice cream flavour? Whichever I share with you."
 	},
 	ins_discuss_232_1 = {
-		value = ""
+		value = "Sounds almost like a romantic film quote. That ice cream parlour was lovely, by the way!"
 	},
 	ins_reply_232_1_1 = {
-		value = ""
+		value = "Wonderful, isn't it? Everyone I've introduced it to loved it as well."
 	},
 	ins_discuss_232_2 = {
-		value = ""
+		value = "Next time I will come on an empty stomach and try all their flavours..."
 	},
 	ins_reply_232_2_1 = {
-		value = ""
+		value = "ALL of them? I'd worry about the sheer brain freeze sending me to the drydock."
 	},
 	ins_reply_232_2_2 = {
-		value = ""
+		value = "Shall I invite Vestal, just in case? I am sure she would adore the ice cream as well."
 	},
 	ins_op_232_1_1 = {
-		value = ""
+		value = "Sharing is caring, and what could be sweeter than that?"
 	},
 	op_reply_232_1_1 = {
-		value = ""
+		value = "Well said, \"sweetie\"! Hehe~"
 	},
 	ins_233 = {
-		value = ""
+		value = "Dear, oh dear. Now I know how tea feels..."
 	},
 	ins_discuss_233_1 = {
-		value = ""
+		value = "Minus the unpleasant feeling of being drunk... As you do with tea."
 	},
 	ins_reply_233_1_1 = {
-		value = ""
+		value = "Incidentally, our cup broke shortly after we got on. They said my \"gravity\" caused it to tip..."
 	},
 	ins_reply_233_1_2 = {
-		value = ""
+		value = "I've had that happen to me as well. They really ought to build these rides of stronger stuff."
 	},
 	ins_discuss_233_2 = {
-		value = ""
+		value = "I'm not sure I ever wanna go on that ride again..."
 	},
 	ins_reply_233_2_1 = {
-		value = ""
+		value = "That's quite all right. Maybe when you're older, you'll have the courage to have another go."
 	},
 	ins_reply_233_2_2 = {
-		value = ""
+		value = "Will you be proud of me if I ride it again, Illustrious? Maybe if I just muster all my courage..."
 	},
 	ins_reply_233_2_3 = {
-		value = ""
+		value = "There's no need to force yourself, Unicorn. Illustrious is already proud of you."
 	},
 	ins_op_233_1_1 = {
-		value = ""
+		value = "Are you okay, Unicorn?"
 	},
 	op_reply_233_1_1 = {
-		value = ""
+		value = "I was scared for a while, but now I'm fine... Thanks for worrying about me..."
 	},
 	ins_op_233_1_2 = {
-		value = ""
+		value = "Did you enjoy the ride at least, Illustrious?"
 	},
 	op_reply_233_1_2 = {
-		value = ""
+		value = "Yes, for the minute or so before it broke, I suppose. It's a shame it was too intense for Unicorn."
 	},
 	ins_234 = {
-		value = ""
+		value = "Oh, my child, won't you join me? Come and let the gentle waves rock you like a baby in a cradle."
 	},
 	ins_discuss_234_1 = {
-		value = ""
+		value = "Quite the infantilizing simile. Regardless, one should cherish every interaction with their dear friends."
 	},
 	ins_reply_234_1_1 = {
-		value = ""
+		value = "Infantilizing? Forgive me. I simply cherish the commander... and my Iron Blood comrades... like you were my own children."
 	},
 	ins_reply_234_1_2 = {
-		value = ""
+		value = "Well, \"motherly comfort\" is fittingly the words I'd use to describe how sitting next to Friedrich feels..."
 	},
 	ins_discuss_234_2 = {
-		value = ""
+		value = "After knowing solitude for so long, I welcome this chance at solidarity..."
 	},
 	ins_reply_234_2_1 = {
-		value = ""
+		value = "I'm delighted to read this, Tirpitz. The commander really has warmed you up to social interaction..."
 	},
 	ins_reply_234_2_2 = {
-		value = ""
+		value = "If my presence brings you comfort, then don't be shy. There is always space beside me."
 	},
 	ins_op_234_1_1 = {
-		value = ""
+		value = "Next time, I wanna paddle the boat."
 	},
 	op_reply_234_1_1 = {
-		value = ""
+		value = "Then paddle you will, my child. Your wish is my command."
 	},
 	ins_op_234_1_2 = {
-		value = ""
+		value = "Comfiest nap I've had in weeks."
 	},
 	op_reply_234_1_2 = {
-		value = ""
+		value = "Likewise, it was a deliciously reinvigorating experience for me."
 	},
 	all = {
 		ins_op_1_1_1,

@@ -1,4 +1,4 @@
-slot0 = class("ChargeMediator", import("..base.ContextMediator"))
+slot0 = class("BackChargeMediator", import("..base.ContextMediator"))
 slot0.CHARGE = "BackChargeMediator:CHARGE"
 
 function slot0.register(slot0)

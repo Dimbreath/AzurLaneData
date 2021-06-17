@@ -241,7 +241,7 @@ function slot0.InitUI(slot0)
 		slot6 = slot0._tf:Find("panel/sub/1/DutySelect"):Find("Item" .. slot5)
 		slot0.dutyItems[3][slot5] = slot6
 
-		setText(slot6:Find("Text"), i18n("autofight_function" .. slot5))
+		setText(slot6:Find("Text"), i18n("autofight_function" .. 6 - slot5))
 	end
 
 	setActive(slot0.tfShipTpl, false)
@@ -460,7 +460,7 @@ function slot0.updateFleets(slot0)
 		end
 	end
 
-	slot0:UpdateDutyBar()
+	slot0:RefreshDutyBar()
 end
 
 function slot0.updateLimit(slot0)
@@ -506,7 +506,7 @@ function slot0.selectFleet(slot0, slot1, slot2, slot3)
 	slot0:updateLimit()
 	slot0:updateASValue()
 	slot0:UpdateSonarRange()
-	slot0:UpdateDutyBar()
+	slot0:RefreshDutyBar()
 
 	if slot0.dutyTabEnabled and table.getCount({
 		not slot0:IsListOfFleetEmpty(1) or nil,
@@ -1038,7 +1038,7 @@ function slot0.flush(slot0)
 
 	slot0:updateEliteFleets()
 	slot0:UpdateEliteSonarRange()
-	slot0:UpdateDutyBar()
+	slot0:RefreshDutyBar()
 	slot0:UpdateEliteInvestigation()
 end
 
@@ -1688,7 +1688,7 @@ function slot0.SetDuty(slot0, slot1, slot2)
 	slot0.duties[slot1] = slot2
 	slot0.duties[3 - slot1] = nil
 
-	slot0:UpdateDutyBar()
+	slot0:RefreshDutyBar()
 end
 
 function slot0.UpdateDuties(slot0)
@@ -1736,23 +1736,32 @@ function slot0.UpdateDuties(slot0)
 	end
 end
 
-function slot0.UpdateDutyBar(slot0)
+function slot0.RefreshDutyBar(slot0)
 	slot0:UpdateDuties()
+	slot0:UpdateDutyBar()
+end
 
+function slot0.UpdateDutyBar(slot0)
 	slot1 = slot0.contextData.tabIndex == uv0.TabIndex.Duty
 
 	for slot5 = 1, 2 do
 		setActive(slot0._tf:Find(string.format("panel/fleet/%d/DutySelect", slot5)), slot1 and slot0.duties[slot5] ~= nil)
 	end
 
+	setActive(slot0._tf:Find("panel/sub/1/DutySelect"), slot1 and not slot0:IsListOfFleetEmpty(3))
+
 	if not slot1 then
 		return
 	end
 
-	for slot5, slot6 in pairs(slot0.duties) do
-		for slot10 = 1, 4 do
-			setActive(slot0.dutyItems[slot5][slot10]:Find("Checkmark"), slot10 == slot6)
+	for slot6, slot7 in pairs(slot0.duties) do
+		for slot11 = 1, 4 do
+			setActive(slot0.dutyItems[slot6][slot11]:Find("Checkmark"), slot11 == slot7)
 		end
+	end
+
+	for slot7 = 1, 2 do
+		setActive(slot0.dutyItems[3][slot7]:Find("Checkmark"), slot7 == 1 == ys.Battle.BattleState.IsAutoSubActive())
 	end
 end
 
@@ -1781,15 +1790,14 @@ function slot0.SetAutoSub(slot0, slot1)
 		return
 	end
 
-	slot5 = {
-		isActiveSub = slot1
-	}
-
-	pg.m02:sendNotification(GAME.AUTO_SUB, slot5)
-
-	for slot5 = 1, 2 do
-		setActive(slot0.dutyItems[3][slot5]:Find("Checkmark"), slot5 == 1 == slot1)
+	if not AutoBotCommand.autoBotSatisfied() then
+		return
 	end
+
+	pg.m02:sendNotification(GAME.AUTO_SUB, {
+		isActiveSub = not slot1
+	})
+	slot0:UpdateDutyBar()
 end
 
 function slot0.GetValidFleets(slot0, slot1)
@@ -1851,7 +1859,7 @@ end
 function slot0.IsListOfFleetEmpty(slot0, slot1)
 	if slot1 > 0 and slot1 < 3 and slot0:getLimitNums(FleetType.Normal) < slot1 then
 		return true
-	elseif slot1 == 3 and slot0:getLimitNums(FleetType.Submarine) < slot1 then
+	elseif slot1 == 3 and slot0:getLimitNums(FleetType.Submarine) < slot1 - 2 then
 		return true
 	end
 

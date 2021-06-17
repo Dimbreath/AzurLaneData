@@ -171,7 +171,7 @@ end
 function slot0.GetWaitToCheckList(slot0)
 	slot2 = {}
 
-	for slot6, slot7 in pairs(slot0.taskVOs) do
+	for slot6, slot7 in pairs(slot0.taskVOs or {}) do
 		if slot7:getTaskStatus() == 1 and slot7:getConfig("visibility") == 1 then
 			table.insert(slot2, slot7)
 		end

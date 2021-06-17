@@ -75,8 +75,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:updateSeasonTime()
 	elseif slot2 == GAME.MILITARY_STARTED then
 		slot0:addSubLayers(Context.New({
-			mediator = PreCombatMediator,
-			viewComponent = PreCombatLayer,
+			mediator = ExercisePreCombatMediator,
+			viewComponent = ExercisePreCombatLayer,
 			data = {
 				stageId = 80000,
 				system = slot3.system,

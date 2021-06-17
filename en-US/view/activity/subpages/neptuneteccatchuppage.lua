@@ -17,7 +17,6 @@ end
 
 function slot0.OnFirstFlush(slot0)
 	updateDrop(slot0.itemTF, {
-		count = 1,
 		type = DROP_TYPE_ITEM,
 		id = slot0.itemID
 	})
@@ -32,10 +31,11 @@ function slot0.OnFirstFlush(slot0)
 end
 
 function slot0.OnUpdateFlush(slot0)
-	slot1 = slot0.maxCount <= slot0.curCount
+	setActive(slot0.goBtn, not (slot0.maxCount <= slot0.curCount))
 
-	setActive(slot0.goBtn, not slot1)
-	setActive(slot0.finishBtn, slot1)
+	if slot0.finishBtn then
+		setActive(slot0.finishBtn, slot1)
+	end
 end
 
 function slot0.OnDestroy(slot0)

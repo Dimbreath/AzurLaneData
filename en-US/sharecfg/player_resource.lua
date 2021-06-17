@@ -555,6 +555,16 @@ pg.player_resource = {
 		name = "newmeixiv4framept",
 		itemid = 59212
 	},
+	[206] = {
+		id = 206,
+		name = "xunliandianshu_r2",
+		itemid = 59221
+	},
+	[207] = {
+		id = 207,
+		name = "TWkaifuPT1",
+		itemid = 59222
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -999,6 +1009,12 @@ pg.player_resource = {
 		newmeixiv4framept = {
 			199
 		},
+		xunliandianshu_r2 = {
+			206
+		},
+		TWkaifuPT1 = {
+			207
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1178,6 +1194,8 @@ pg.player_resource = {
 		204,
 		205,
 		199,
+		206,
+		207,
 		950,
 		951,
 		952,

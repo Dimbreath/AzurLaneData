@@ -44,7 +44,7 @@ function slot0.IsRoutineType(slot0)
 end
 
 function slot0.IsWeeklyType(slot0)
-	return slot0:getConfig("type") == uv0.TYPE_WEEKLY
+	return slot0:getConfig("type") == uv0.TYPE_WEEKLY or slot0:getConfig("type") == uv0.TYPE_NEW_WEEKLY
 end
 
 function slot0.IsBackYardInterActionType(slot0)
@@ -56,7 +56,7 @@ function slot0.IsFlagShipInterActionType(slot0)
 end
 
 function slot0.IsGuildAddLivnessType(slot0)
-	return slot0:getConfig("type") == uv0.TYPE_ROUTINE or slot1 == uv0.TYPE_WEEKLY or slot1 == uv0.TYPE_GUILD_WEEKLY
+	return slot0:getConfig("type") == uv0.TYPE_ROUTINE or slot1 == uv0.TYPE_WEEKLY or slot1 == uv0.TYPE_GUILD_WEEKLY or slot1 == uv0.TYPE_NEW_WEEKLY
 end
 
 function slot0.isLock(slot0)
