@@ -3968,7 +3968,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 972,
-		is_show = 8,
+		is_show = 3,
 		title_res_tag = "NewMeixiV4_frame",
 		id = 972,
 		config_data = {},
@@ -3990,7 +3990,7 @@ pg.activity_template = {
 				{
 					2021,
 					6,
-					16
+					23
 				},
 				{
 					23,
@@ -4032,7 +4032,7 @@ pg.activity_template = {
 		}
 	},
 	[973] = {
-		mark = 20210520,
+		mark = 20210617,
 		page_info = "",
 		type = 13,
 		login_pop = 0,
@@ -4071,7 +4071,7 @@ pg.activity_template = {
 				{
 					2021,
 					6,
-					16
+					23
 				},
 				{
 					23,
