@@ -4643,11 +4643,11 @@ pg.task_data_template = {
 		next_task = "5007",
 		visibility = 1,
 		story_id = "AKASHI51",
-		target_id_for_client = 7022,
+		target_id_for_client = 7203,
 		id = 5006,
 		target_num = 14,
 		fix_task = 0,
-		target_id = "7022",
+		target_id = "7203",
 		open_need = {},
 		award_display = {
 			{
@@ -22676,1797 +22676,6 @@ pg.task_data_template = {
 				2,
 				15008,
 				550
-			}
-		}
-	},
-	[7001] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7001,
-		type = 3,
-		name = "敵艦隊撃退",
-		count_inherit = 0,
-		desc = "艦隊を出撃させ、戦闘で1回勝利せよ！",
-		target_id_2 = "",
-		sub_type = 20,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7001,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				120
-			},
-			{
-				1,
-				2,
-				20
-			},
-			{
-				2,
-				20001,
-				1
-			}
-		}
-	},
-	[7002] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7002,
-		type = 3,
-		name = "敵艦隊掃討",
-		count_inherit = 0,
-		desc = "艦隊を出撃させ、1回A評価で勝利せよ！",
-		target_id_2 = "",
-		sub_type = 23,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7002,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				120
-			},
-			{
-				1,
-				2,
-				20
-			},
-			{
-				2,
-				20001,
-				1
-			}
-		}
-	},
-	[7003] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7003,
-		type = 3,
-		name = "敵艦隊殲滅",
-		count_inherit = 0,
-		desc = "艦隊を出撃させ、戦闘で3回勝利せよ！",
-		target_id_2 = "",
-		sub_type = 20,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7003,
-		target_num = 3,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				300
-			},
-			{
-				1,
-				2,
-				50
-			},
-			{
-				2,
-				20001,
-				1
-			}
-		}
-	},
-	[7004] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7004,
-		type = 3,
-		name = "掃討作戦",
-		count_inherit = 0,
-		desc = "敵艦を50隻撃沈せよ！",
-		target_id_2 = "",
-		sub_type = 11,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7004,
-		target_num = 50,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				150
-			}
-		}
-	},
-	[7005] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7005,
-		type = 3,
-		name = "迎撃作戦",
-		count_inherit = 0,
-		desc = "艦隊を出撃させ、敵中枢艦隊を3回撃破せよ！",
-		target_id_2 = "",
-		sub_type = 21,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7005,
-		target_num = 3,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				600
-			},
-			{
-				1,
-				2,
-				100
-			},
-			{
-				2,
-				15003,
-				1
-			}
-		}
-	},
-	[7006] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7006,
-		type = 3,
-		name = "掃討作戦",
-		count_inherit = 0,
-		desc = "艦隊を出撃させ、戦闘で10回勝利せよ！",
-		target_id_2 = "",
-		sub_type = 20,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7006,
-		target_num = 10,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				15001,
-				1
-			},
-			{
-				2,
-				15003,
-				1
-			}
-		}
-	},
-	[7007] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7007,
-		type = 3,
-		name = "定例作戦I",
-		count_inherit = 0,
-		desc = "燃料を累計500消費する",
-		target_id_2 = "",
-		sub_type = 121,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7007,
-		target_num = 500,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				54011,
-				3
-			}
-		}
-	},
-	[7008] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7008,
-		type = 3,
-		name = "定例作戦II",
-		count_inherit = 0,
-		desc = "燃料を累計800消費する",
-		target_id_2 = "",
-		sub_type = 121,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7008,
-		target_num = 800,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				50001,
-				10
-			},
-			{
-				1,
-				8,
-				10
-			}
-		}
-	},
-	[7009] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7009,
-		type = 3,
-		name = "デイリーチャレンジ",
-		count_inherit = 0,
-		desc = "艦隊を出撃させ、デイリーチャレンジを1回遂行せよ！",
-		target_id_2 = "",
-		sub_type = 26,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 10,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7009,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				30
-			},
-			{
-				2,
-				54001,
-				1
-			}
-		}
-	},
-	[7010] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7010,
-		type = 3,
-		name = "デイリーハード",
-		count_inherit = 0,
-		desc = "任意のハード海域を1回クリアする",
-		target_id_2 = "",
-		sub_type = 182,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 10,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7010,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "10101",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				59900,
-				5
-			},
-			{
-				2,
-				54049,
-				2
-			}
-		}
-	},
-	[7011] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7011,
-		type = 3,
-		name = "艦隊演習",
-		count_inherit = 0,
-		desc = "演習を3回勝利せよ！",
-		target_id_2 = "",
-		sub_type = 27,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 15,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1,
-		id = 7011,
-		target_num = 3,
-		fix_task = 0,
-		target_id = "1",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				3,
-				100
-			}
-		}
-	},
-	[7012] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7012,
-		type = 3,
-		name = "指挥喵训练",
-		count_inherit = 0,
-		desc = "ネコハコを1つ訓練する",
-		target_id_2 = "",
-		sub_type = 170,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 40,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7012,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				20011,
-				1
-			},
-			{
-				1,
-				8,
-				10
-			}
-		}
-	},
-	[7013] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7013,
-		type = 3,
-		name = "完成科研委托",
-		count_inherit = 0,
-		desc = "科学研究を1回行う",
-		target_id_2 = "",
-		sub_type = 110,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 30,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7013,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				52004,
-				1
-			},
-			{
-				1,
-				8,
-				10
-			}
-		}
-	},
-	[7014] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7014,
-		type = 3,
-		name = "燃料補充",
-		count_inherit = 0,
-		desc = "「学園」の「海軍食堂」から、燃料を補充せよ！",
-		target_id_2 = "",
-		sub_type = 81,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 2,
-		id = 7014,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "2",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				50
-			}
-		}
-	},
-	[7015] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7015,
-		type = 3,
-		name = "資金回収",
-		count_inherit = 0,
-		desc = "「学園」の「海軍売店」から、資金を回収せよ！",
-		target_id_2 = "",
-		sub_type = 81,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1,
-		id = 7015,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "1",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				300
-			}
-		}
-	},
-	[7016] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7016,
-		type = 3,
-		name = "軍事委託",
-		count_inherit = 0,
-		desc = "軍事委託を3回遂行せよ！",
-		target_id_2 = "",
-		sub_type = 80,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 12,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7016,
-		target_num = 3,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				100
-			},
-			{
-				2,
-				15003,
-				1
-			},
-			{
-				2,
-				54012,
-				2
-			}
-		}
-	},
-	[7017] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7017,
-		type = 3,
-		name = "戦力拡充",
-		count_inherit = 0,
-		desc = "艦を1隻「建造」せよ！",
-		target_id_2 = "",
-		sub_type = 30,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7017,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				800
-			},
-			{
-				2,
-				20001,
-				1
-			},
-			{
-				1,
-				8,
-				10
-			}
-		}
-	},
-	[7018] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7018,
-		type = 3,
-		name = "艦艇強化",
-		count_inherit = 0,
-		desc = "艦を1回「強化」せよ！",
-		target_id_2 = "",
-		sub_type = 34,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7018,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				54031,
-				1
-			},
-			{
-				2,
-				54011,
-				3
-			}
-		}
-	},
-	[7019] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7019,
-		type = 3,
-		name = "戦術訓練",
-		count_inherit = 0,
-		desc = "戦術教室で戦術訓練を1回遂行せよ！",
-		target_id_2 = "",
-		sub_type = 71,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7019,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				54001,
-				1
-			},
-			{
-				1,
-				8,
-				10
-			}
-		}
-	},
-	[7020] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7020,
-		type = 3,
-		name = "艦隊整理",
-		count_inherit = 0,
-		desc = "艦を1隻「退役」して、艦隊を再編せよ！",
-		target_id_2 = "",
-		sub_type = 31,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7020,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				15001,
-				1
-			}
-		}
-	},
-	[7021] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7021,
-		type = 3,
-		name = "装備強化",
-		count_inherit = 0,
-		desc = "装備強化を1回行う",
-		target_id_2 = "",
-		sub_type = 40,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7021,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				54032,
-				1
-			},
-			{
-				2,
-				54012,
-				2
-			}
-		}
-	},
-	[7022] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7022,
-		type = 3,
-		name = "食糧補給",
-		count_inherit = 0,
-		desc = "「寮舎」の食糧を1回補充せよ！",
-		target_id_2 = "",
-		sub_type = 61,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 8,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7022,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				6,
-				15
-			},
-			{
-				2,
-				50002,
-				5
-			}
-		}
-	},
-	[7101] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7101,
-		type = 4,
-		name = "敵艦隊撃退",
-		count_inherit = 0,
-		desc = "艦隊を出撃させ、戦闘で50回勝利せよ！",
-		target_id_2 = "",
-		sub_type = 20,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7101,
-		target_num = 50,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				1200
-			},
-			{
-				1,
-				2,
-				200
-			},
-			{
-				2,
-				20001,
-				2
-			}
-		}
-	},
-	[7102] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7102,
-		type = 4,
-		name = "敵艦隊掃討",
-		count_inherit = 0,
-		desc = "艦隊を出撃させ、30回A評価で勝利せよ！",
-		target_id_2 = "",
-		sub_type = 23,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7102,
-		target_num = 30,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				4,
-				100001,
-				1
-			},
-			{
-				2,
-				20001,
-				2
-			},
-			{
-				1,
-				1,
-				1200
-			},
-			{
-				1,
-				2,
-				200
-			}
-		}
-	},
-	[7103] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7103,
-		type = 4,
-		name = "大規模掃討作戦",
-		count_inherit = 0,
-		desc = "敵艦を1000隻撃沈せよ！",
-		target_id_2 = "",
-		sub_type = 11,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7103,
-		target_num = 1000,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				4,
-				100001,
-				1
-			},
-			{
-				2,
-				20001,
-				2
-			},
-			{
-				1,
-				1,
-				3000
-			},
-			{
-				1,
-				2,
-				500
-			}
-		}
-	},
-	[7104] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7104,
-		type = 4,
-		name = "大規模殲滅作戦",
-		count_inherit = 0,
-		desc = "艦隊を出撃させ、敵中枢艦隊20回撃破せよ！",
-		target_id_2 = "",
-		sub_type = 21,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7104,
-		target_num = 20,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				4,
-				100001,
-				1
-			},
-			{
-				1,
-				1,
-				1200
-			},
-			{
-				1,
-				2,
-				200
-			},
-			{
-				2,
-				15003,
-				3
-			}
-		}
-	},
-	[7105] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7105,
-		type = 4,
-		name = "敵艦隊撃退",
-		count_inherit = 0,
-		desc = "艦隊を出撃させ、戦闘で100回勝利せよ！",
-		target_id_2 = "",
-		sub_type = 20,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7105,
-		target_num = 100,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				2500
-			},
-			{
-				1,
-				2,
-				500
-			},
-			{
-				2,
-				15003,
-				2
-			}
-		}
-	},
-	[7106] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7106,
-		type = 4,
-		name = "定期作战",
-		count_inherit = 0,
-		desc = "燃料を累計6000消費する",
-		target_id_2 = "",
-		sub_type = 121,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7106,
-		target_num = 6000,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				54013,
-				2
-			},
-			{
-				2,
-				50003,
-				5
-			}
-		}
-	},
-	[7107] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7107,
-		type = 4,
-		name = "ウィークリーチャレンジ",
-		count_inherit = 0,
-		desc = "「デイリーチャレンジ」任務を5回遂行せよ！",
-		target_id_2 = "",
-		sub_type = 91,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 10,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 7009,
-		id = 7107,
-		target_num = 5,
-		fix_task = 0,
-		target_id = "7009",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				150
-			},
-			{
-				2,
-				50005,
-				1
-			}
-		}
-	},
-	[7108] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7108,
-		type = 4,
-		name = "每周困难",
-		count_inherit = 0,
-		desc = "デイリー任務「ハード海域を1回クリア」を5回クリア",
-		target_id_2 = "",
-		sub_type = 91,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 10,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 7010,
-		id = 7108,
-		target_num = 5,
-		fix_task = 0,
-		target_id = "7010",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				59900,
-				15
-			},
-			{
-				2,
-				54051,
-				1
-			}
-		}
-	},
-	[7109] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7109,
-		type = 4,
-		name = "大規模演習",
-		count_inherit = 0,
-		desc = "軍事演習で30回勝利せよ！",
-		target_id_2 = "",
-		sub_type = 27,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 15,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1,
-		id = 7109,
-		target_num = 30,
-		fix_task = 0,
-		target_id = "1",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				3,
-				300
-			},
-			{
-				2,
-				50005,
-				1
-			}
-		}
-	},
-	[7110] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7110,
-		type = 4,
-		name = "指挥喵训练",
-		count_inherit = 0,
-		desc = "ネコハコを10個訓練する",
-		target_id_2 = "",
-		sub_type = 170,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 40,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7110,
-		target_num = 10,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				20012,
-				1
-			}
-		}
-	},
-	[7111] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7111,
-		type = 4,
-		name = "完成科研委托",
-		count_inherit = 0,
-		desc = "科学研究を10回行う",
-		target_id_2 = "",
-		sub_type = 110,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 30,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7111,
-		target_num = 10,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				52003,
-				2
-			}
-		}
-	},
-	[7112] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7112,
-		type = 4,
-		name = "燃料調達",
-		count_inherit = 0,
-		desc = "任務「燃料補充」を5回行い、備蓄を充実せよ！",
-		target_id_2 = "",
-		sub_type = 91,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 7014,
-		id = 7112,
-		target_num = 5,
-		fix_task = 0,
-		target_id = "7014",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				200
-			}
-		}
-	},
-	[7113] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7113,
-		type = 4,
-		name = "資金調達",
-		count_inherit = 0,
-		desc = "任務「資金回収」を5回行い、資金を準備せよ！",
-		target_id_2 = "",
-		sub_type = 91,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 7015,
-		id = 7113,
-		target_num = 5,
-		fix_task = 0,
-		target_id = "7015",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				1200
-			}
-		}
-	},
-	[7114] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7114,
-		type = 4,
-		name = "大規模軍事委託",
-		count_inherit = 0,
-		desc = "軍事委託を30回遂行せよ！",
-		target_id_2 = "",
-		sub_type = 80,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 12,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7114,
-		target_num = 30,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				15003,
-				5
-			},
-			{
-				2,
-				54013,
-				3
-			},
-			{
-				1,
-				2,
-				300
-			}
-		}
-	},
-	[7115] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7115,
-		type = 4,
-		name = "戦力拡充",
-		count_inherit = 0,
-		desc = "艦を10隻「建造」せよ！",
-		target_id_2 = "",
-		sub_type = 30,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7115,
-		target_num = 10,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				2000
-			},
-			{
-				2,
-				20001,
-				6
-			}
-		}
-	},
-	[7116] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7116,
-		type = 4,
-		name = "艦艇強化",
-		count_inherit = 0,
-		desc = "艦を10回「強化」せよ！",
-		target_id_2 = "",
-		sub_type = 34,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7116,
-		target_num = 10,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				54033,
-				1
-			},
-			{
-				2,
-				54013,
-				2
-			}
-		}
-	},
-	[7117] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7117,
-		type = 4,
-		name = "戦術訓練",
-		count_inherit = 0,
-		desc = "戦術教室で戦術訓練を10回遂行せよ！",
-		target_id_2 = "",
-		sub_type = 71,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7117,
-		target_num = 10,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				54003,
-				1
-			}
-		}
-	},
-	[7118] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7118,
-		type = 4,
-		name = "艦隊整理",
-		count_inherit = 0,
-		desc = "艦を5隻「退役」して、艦隊を再編せよ！",
-		target_id_2 = "",
-		sub_type = 31,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7118,
-		target_num = 5,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				500
-			},
-			{
-				2,
-				15001,
-				5
-			}
-		}
-	},
-	[7119] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7119,
-		type = 4,
-		name = "装備強化",
-		count_inherit = 0,
-		desc = "装備強化を10回行う",
-		target_id_2 = "",
-		sub_type = 40,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7119,
-		target_num = 10,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				54033,
-				1
-			},
-			{
-				2,
-				54013,
-				3
-			}
-		}
-	},
-	[7120] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7120,
-		type = 4,
-		name = "兵站強化",
-		count_inherit = 0,
-		desc = "任務「食糧補給」を5回行い、兵站を充実せよ！",
-		target_id_2 = "",
-		sub_type = 91,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 8,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 7022,
-		id = 7120,
-		target_num = 5,
-		fix_task = 0,
-		target_id = "7022",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				6,
-				60
-			},
-			{
-				2,
-				50004,
-				5
-			}
-		}
-	},
-	[7121] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7121,
-		type = 4,
-		name = "ウィークリー任務",
-		count_inherit = 0,
-		desc = "ウィークリー任務を10個達成せよ！",
-		target_id_2 = "",
-		sub_type = 92,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7121,
-		target_num = 10,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				4,
-				100011,
-				1
-			},
-			{
-				1,
-				8,
-				200
-			},
-			{
-				1,
-				2,
-				500
-			}
-		}
-	},
-	[7122] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7122,
-		type = 4,
-		name = "周常特装原型I",
-		count_inherit = 0,
-		desc = "常設デイリー任務を20個クリア",
-		target_id_2 = "",
-		sub_type = 91,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7122,
-		target_num = 20,
-		fix_task = 0,
-		target_id = {
-			7001,
-			7002,
-			7003,
-			7004,
-			7005,
-			7006,
-			7007,
-			7008,
-			7009,
-			7010,
-			7011,
-			7012,
-			7013,
-			7014,
-			7015,
-			7016,
-			7017,
-			7018,
-			7019,
-			7020,
-			7021,
-			7022
-		},
-		open_need = {},
-		award_display = {
-			{
-				8,
-				59011,
-				100
-			},
-			{
-				1,
-				2,
-				50
-			},
-			{
-				1,
-				1,
-				200
-			}
-		}
-	},
-	[7123] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 7123,
-		type = 4,
-		name = "周常特装原型II",
-		count_inherit = 0,
-		desc = "常設デイリー任務を50個クリア",
-		target_id_2 = "",
-		sub_type = 91,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		priority_type = 0,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 7123,
-		target_num = 50,
-		fix_task = 0,
-		target_id = {
-			7001,
-			7002,
-			7003,
-			7004,
-			7005,
-			7006,
-			7007,
-			7008,
-			7009,
-			7010,
-			7011,
-			7012,
-			7013,
-			7014,
-			7015,
-			7016,
-			7017,
-			7018,
-			7019,
-			7020,
-			7021,
-			7022
-		},
-		open_need = {},
-		award_display = {
-			{
-				8,
-				59011,
-				300
-			},
-			{
-				1,
-				2,
-				100
-			},
-			{
-				1,
-				1,
-				500
 			}
 		}
 	},
@@ -123152,6 +121361,995 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[16740] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95409,
+		type = 6,
+		name = "山城台服战斗胜利I",
+		count_inherit = 16741,
+		desc = "艦隊を出撃させ、50回勝利せよ！",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16741",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16740,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				100
+			},
+			{
+				5,
+				51002,
+				1
+			}
+		}
+	},
+	[16741] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95410,
+		type = 6,
+		name = "山城台服战斗胜利II",
+		count_inherit = 16742,
+		desc = "艦隊を出撃させ、80回勝利せよ！",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16742",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16741,
+		target_num = 80,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				150
+			},
+			{
+				5,
+				51112,
+				1
+			}
+		}
+	},
+	[16742] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95411,
+		type = 6,
+		name = "山城台服战斗胜利III",
+		count_inherit = 16743,
+		desc = "艦隊を出撃させ、120回勝利せよ！",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16743",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16742,
+		target_num = 120,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				200
+			},
+			{
+				5,
+				51106,
+				1
+			}
+		}
+	},
+	[16743] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95412,
+		type = 6,
+		name = "山城台服战斗胜利IV",
+		count_inherit = 0,
+		desc = "艦隊を出撃させ、200回勝利せよ！",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16743,
+		target_num = 200,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				300
+			},
+			{
+				5,
+				51111,
+				1
+			}
+		}
+	},
+	[16744] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95413,
+		type = 6,
+		name = "山城台服消灭旗舰I",
+		count_inherit = 16745,
+		desc = "艦隊を出撃させ、敵中枢艦隊を10回撃破せよ！",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16745",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16744,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				100
+			},
+			{
+				5,
+				51001,
+				1
+			}
+		}
+	},
+	[16745] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95414,
+		type = 6,
+		name = "山城台服消灭旗舰II",
+		count_inherit = 16746,
+		desc = "艦隊を出撃させ、敵中枢艦隊を20回撃破せよ！",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16746",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16745,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				150
+			},
+			{
+				5,
+				51105,
+				1
+			}
+		}
+	},
+	[16746] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95415,
+		type = 6,
+		name = "山城台服消灭旗舰III",
+		count_inherit = 16747,
+		desc = "艦隊を出撃させ、敵中枢艦隊を30回撃破せよ！",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16747",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16746,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				200
+			},
+			{
+				5,
+				51115,
+				1
+			}
+		}
+	},
+	[16747] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95416,
+		type = 6,
+		name = "山城台服消灭旗舰IV",
+		count_inherit = 0,
+		desc = "艦隊を出撃させ、敵中枢艦隊を50回撃破せよ！",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16747,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				300
+			},
+			{
+				5,
+				51107,
+				1
+			}
+		}
+	},
+	[16748] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95417,
+		type = 6,
+		name = "山城台服建造I",
+		count_inherit = 16749,
+		desc = "艦を5隻「建造」せよ！",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16749",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16748,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				100
+			},
+			{
+				5,
+				51103,
+				1
+			}
+		}
+	},
+	[16749] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95418,
+		type = 6,
+		name = "山城台服建造II",
+		count_inherit = 0,
+		desc = "艦を20隻「建造」せよ！",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16749,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				300
+			}
+		}
+	},
+	[16750] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95419,
+		type = 6,
+		name = "山城台服舰船强化I",
+		count_inherit = 16751,
+		desc = "艦を15回強化する",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16751",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16750,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				100
+			},
+			{
+				5,
+				51113,
+				1
+			}
+		}
+	},
+	[16751] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95420,
+		type = 6,
+		name = "山城台服舰船强化II",
+		count_inherit = 16752,
+		desc = "艦を30回強化する",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16752",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16751,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				150
+			}
+		}
+	},
+	[16752] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95421,
+		type = 6,
+		name = "山城台服舰船强化III",
+		count_inherit = 16753,
+		desc = "艦を50回強化する",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16753",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16752,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				200
+			},
+			{
+				5,
+				51110,
+				1
+			}
+		}
+	},
+	[16753] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95422,
+		type = 6,
+		name = "山城台服舰船强化IV",
+		count_inherit = 0,
+		desc = "艦を80回強化する",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16753,
+		target_num = 80,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				300
+			}
+		}
+	},
+	[16754] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95423,
+		type = 6,
+		name = "山城台服舰船退役I",
+		count_inherit = 16755,
+		desc = "艦を5隻退役する",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16755",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16754,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				100
+			},
+			{
+				5,
+				51108,
+				1
+			}
+		}
+	},
+	[16755] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95424,
+		type = 6,
+		name = "山城台服舰船退役II",
+		count_inherit = 16756,
+		desc = "艦を10隻退役する",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16756",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16755,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				150
+			}
+		}
+	},
+	[16756] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95425,
+		type = 6,
+		name = "山城台服舰船退役III",
+		count_inherit = 16757,
+		desc = "艦を15隻退役する",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16757",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16756,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				200
+			},
+			{
+				5,
+				51109,
+				1
+			}
+		}
+	},
+	[16757] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95426,
+		type = 6,
+		name = "山城台服舰船退役IV",
+		count_inherit = 0,
+		desc = "艦を20隻退役する",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16757,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				300
+			}
+		}
+	},
+	[16758] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95427,
+		type = 6,
+		name = "山城台服军事委托I",
+		count_inherit = 16759,
+		desc = "軍事委託を10回行う",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16759",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16758,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				100
+			}
+		}
+	},
+	[16759] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95428,
+		type = 6,
+		name = "山城台服军事委托II",
+		count_inherit = 16760,
+		desc = "軍事委託を20回行う",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16760",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16759,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				150
+			}
+		}
+	},
+	[16760] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95429,
+		type = 6,
+		name = "山城台服军事委托III",
+		count_inherit = 16761,
+		desc = "軍事委託を30回行う",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "16761",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16760,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				200
+			}
+		}
+	},
+	[16761] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95430,
+		type = 6,
+		name = "山城台服军事委托IV",
+		count_inherit = 0,
+		desc = "軍事委託を50回行う",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16761,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				300
+			}
+		}
+	},
+	[16762] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95431,
+		type = 36,
+		name = "山城台服战斗胜利-日常",
+		count_inherit = 0,
+		desc = "艦隊を出撃させ、15回勝利せよ！",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16762,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				60
+			}
+		}
+	},
+	[16763] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95431,
+		type = 36,
+		name = "山城台服消灭旗舰-日常",
+		count_inherit = 0,
+		desc = "艦隊を出撃させ、敵中枢艦隊を3回撃破せよ！",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16763,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				60
+			}
+		}
+	},
+	[16764] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95431,
+		type = 36,
+		name = "山城台服建造-日常",
+		count_inherit = 0,
+		desc = "艦を3隻「建造」せよ！",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16764,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				60
+			}
+		}
+	},
+	[16765] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95431,
+		type = 36,
+		name = "山城台服强化-日常",
+		count_inherit = 0,
+		desc = "艦を8回強化する",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16765,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				60
+			}
+		}
+	},
+	[16766] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95431,
+		type = 36,
+		name = "山城台服退役-日常",
+		count_inherit = 0,
+		desc = "艦を3隻退役する",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16766,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				60
+			}
+		}
+	},
+	[16767] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95431,
+		type = 36,
+		name = "山城台服委托-日常",
+		count_inherit = 0,
+		desc = "軍事委託を5回行う",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16767,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				207,
+				60
+			}
+		}
+	},
 	[30201] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -135021,51 +134219,6 @@ pg.task_data_template = {
 		6042,
 		6043,
 		6044,
-		7001,
-		7002,
-		7003,
-		7004,
-		7005,
-		7006,
-		7007,
-		7008,
-		7009,
-		7010,
-		7011,
-		7012,
-		7013,
-		7014,
-		7015,
-		7016,
-		7017,
-		7018,
-		7019,
-		7020,
-		7021,
-		7022,
-		7101,
-		7102,
-		7103,
-		7104,
-		7105,
-		7106,
-		7107,
-		7108,
-		7109,
-		7110,
-		7111,
-		7112,
-		7113,
-		7114,
-		7115,
-		7116,
-		7117,
-		7118,
-		7119,
-		7120,
-		7121,
-		7122,
-		7123,
 		7201,
 		7202,
 		7203,
@@ -137801,6 +136954,34 @@ pg.task_data_template = {
 		16713,
 		16714,
 		16715,
+		16740,
+		16741,
+		16742,
+		16743,
+		16744,
+		16745,
+		16746,
+		16747,
+		16748,
+		16749,
+		16750,
+		16751,
+		16752,
+		16753,
+		16754,
+		16755,
+		16756,
+		16757,
+		16758,
+		16759,
+		16760,
+		16761,
+		16762,
+		16763,
+		16764,
+		16765,
+		16766,
+		16767,
 		30201,
 		30202,
 		31001,

@@ -7393,706 +7393,706 @@ pg.activity_ins_language = {
 		value = "えへへ！リベッチオも美味しい紅茶作ってあげるね！指揮官さん！"
 	},
 	ins_215 = {
-		value = ""
+		value = "ロボットエキシビションだよ！クマちゃん！"
 	},
 	ins_discuss_215_1 = {
-		value = ""
+		value = "これは…正義の特撮メカ…？"
 	},
 	ins_reply_215_1_1 = {
-		value = ""
+		value = "どうかな…でも格好いいな…色々触ったりしたいな…"
 	},
 	ins_reply_215_1_2 = {
-		value = ""
+		value = "リノも衣装作りに色々勉強できそう！今度一緒に行こ？"
 	},
 	ins_reply_215_1_3 = {
-		value = ""
+		value = "はい…！"
 	},
 	ins_discuss_215_2 = {
-		value = ""
+		value = "巨大ロボット…？むむ、科学部で研究できそう…"
 	},
 	ins_reply_215_2_1 = {
-		value = ""
+		value = "い、いいんですか！？"
 	},
 	ins_reply_215_2_2 = {
-		value = ""
+		value = "マジレスしないの…"
 	},
 	ins_discuss_215_3 = {
-		value = ""
+		value = "幽霊さんも模型を持っているのー。余っているから今度あげてもいいのー"
 	},
 	ins_reply_215_3_1 = {
-		value = ""
+		value = "ほ、本当！？"
 	},
 	ins_op_215_1_1 = {
-		value = ""
+		value = "鋼の魂が燃えている…！"
 	},
 	op_reply_215_1_1 = {
-		value = ""
+		value = "指揮官もわかるの？この気持ち…！"
 	},
 	ins_op_215_1_2 = {
-		value = ""
+		value = "こいつ…動くぞ…！"
 	},
 	op_reply_215_1_2 = {
-		value = ""
+		value = "動きませんよ…？！"
 	},
 	ins_216 = {
-		value = ""
+		value = "一緒にカラオケに…"
 	},
 	ins_discuss_216_1 = {
-		value = ""
+		value = "ははは！盛り上がったぜ！"
 	},
 	ins_reply_216_1_1 = {
-		value = ""
+		value = "き、緊張したけど…楽しかった…"
 	},
 	ins_reply_216_1_2 = {
-		value = ""
+		value = "カラオケファイト！"
 	},
 	ins_reply_216_1_3 = {
-		value = ""
+		value = "れ、レディ……！"
 	},
 	ins_discuss_216_2 = {
-		value = ""
+		value = "ボイシは綺麗だし、もっと自信を持ったほうがいいわよ"
 	},
 	ins_reply_216_2_1 = {
-		value = ""
+		value = "か、考えさせて…"
 	},
 	ins_discuss_216_3 = {
-		value = ""
+		value = "カラオケが初めてだなんて全然そう見えなかった…"
 	},
 	ins_reply_216_3_1 = {
-		value = ""
+		value = "ホノルルちゃんもすごかったね…あんなに歌えて…"
 	},
 	ins_reply_216_3_2 = {
-		value = ""
+		value = "今日のためにいっぱい頑張って準備したもんね～"
 	},
 	ins_reply_216_3_3 = {
-		value = ""
+		value = "そんなに準備していないわよ！少しだけ……"
 	},
 	ins_op_216_1_1 = {
-		value = ""
+		value = "ボイシ、歌が上手いな"
 	},
 	op_reply_216_1_1 = {
-		value = ""
+		value = "指揮官の方も上手いよ…！"
 	},
 	ins_op_216_1_2 = {
-		value = ""
+		value = "フードメニューがおいしかったな"
 	},
 	op_reply_216_1_2 = {
-		value = ""
+		value = "はい…！フライドポテトとか美味しかったね"
 	},
 	ins_217 = {
-		value = ""
+		value = "アーチャーフィッシュ先生の海の生物学講座ってね♪"
 	},
 	ins_discuss_217_1 = {
-		value = ""
+		value = "水族館楽しかった！よく分からなかったけど色々勉強できた気がする！"
 	},
 	ins_reply_217_1_1 = {
-		value = ""
+		value = "まあ、予め調べておいたからね"
 	},
 	ins_discuss_217_2 = {
-		value = ""
+		value = "あたしたちは潜水艦なんだし、眺めるんじゃなくて直接アクアリウムに入って観察したほうが良くない？"
 	},
 	ins_reply_217_2_1 = {
-		value = ""
+		value = "その発想はなかった…"
 	},
 	ins_reply_217_2_2 = {
-		value = ""
+		value = "そんなこと出来るの！？"
 	},
 	ins_reply_217_2_3 = {
-		value = ""
+		value = "できるわけないでしょう常識的に考えて！"
 	},
 	ins_discuss_217_3 = {
-		value = ""
+		value = "ダイオウグソクムシ……？"
 	},
 	ins_reply_217_3_1 = {
-		value = ""
+		value = "本物みたいでしょ？水族館のお土産コーナーで買った…わけじゃなくてクイズの景品でもらったよ！"
 	},
 	ins_op_217_1_1 = {
-		value = ""
+		value = "自分にも色々教えてほしい"
 	},
 	op_reply_217_1_1 = {
-		value = ""
+		value = "二人っきりの特別レッスンってこと？ふふふ♪"
 	},
 	ins_218 = {
-		value = ""
+		value = "高いところからのスプラッシュ！！"
 	},
 	ins_discuss_218_1 = {
-		value = ""
+		value = "これはリピートしたくなるよね！"
 	},
 	ins_reply_218_1_1 = {
-		value = ""
+		value = "次はもっとすごいのに乘りたい！"
 	},
 	ins_discuss_218_2 = {
-		value = ""
+		value = "楽しそうな感じ！"
 	},
 	ins_reply_218_2_1 = {
-		value = ""
+		value = "U-37も今度一緒に！"
 	},
 	ins_discuss_218_3 = {
-		value = ""
+		value = "わたしにはちょっと無理かも……"
 	},
 	ins_reply_218_3_1 = {
-		value = ""
+		value = "じゃあわたしの前に座って～。後ろから抱きしめて支えてあげるよ！"
 	},
 	ins_op_218_1_1 = {
-		value = ""
+		value = "これは楽しいこと間違いなし！"
 	},
 	op_reply_218_1_1 = {
-		value = ""
+		value = "指揮官も一緒に乗ってよ♡"
 	},
 	ins_op_218_1_2 = {
-		value = ""
+		value = "伊25は大丈夫…？"
 	},
 	op_reply_218_1_2 = {
-		value = ""
+		value = "ダイタンさが足りなかったようでした…あぅ…"
 	},
 	ins_219 = {
-		value = ""
+		value = "あはははは！回れ回れジェットコースターアタック！！"
 	},
 	ins_discuss_219_1 = {
-		value = ""
+		value = "大きい星がついたり消えたりしている～"
 	},
 	ins_reply_219_1_1 = {
-		value = ""
+		value = "彗星みたいにパーッと飛ぶもんね～！"
 	},
 	ins_discuss_219_2 = {
-		value = ""
+		value = "ウォーターコースターより楽しそう……"
 	},
 	ins_reply_219_2_1 = {
-		value = ""
+		value = "あ、あれよりすごいアトラクションがあったの！？"
 	},
 	ins_reply_219_2_2 = {
-		value = ""
+		value = "楽しいから君たちもやってよ～あははは！"
 	},
 	ins_discuss_219_3 = {
-		value = ""
+		value = "サンフランシスコはこういうのが好きだねー"
 	},
 	ins_reply_219_3_1 = {
-		value = ""
+		value = "ヴィンセンス、こういうの無理…ぐるぐるして頭が…"
 	},
 	ins_reply_219_3_2 = {
-		value = ""
+		value = "遊園地に来て楽しまないでどうすんの？あははは！"
 	},
 	ins_op_219_1_1 = {
-		value = ""
+		value = "さすがに絶叫度高すぎないか…？"
 	},
 	op_reply_219_1_1 = {
-		value = ""
+		value = "何言ってんのさーこういうローリングしまくるもののほうが楽しいでしょー？"
 	},
 	ins_op_219_1_2 = {
-		value = ""
+		value = "無事かサンフランシスコ！？"
 	},
 	op_reply_219_1_2 = {
-		value = ""
+		value = "もちろんベストコンディション！"
 	},
 	ins_220 = {
-		value = ""
+		value = "あらら、買いすぎちゃったかしら…"
 	},
 	ins_discuss_220_1 = {
-		value = ""
+		value = "確かに…お出かけするとついつい買い物したくなるわね"
 	},
 	ins_reply_220_1_1 = {
-		value = ""
+		value = "シャングリラもそうなの？あなたなら「理性的」というか、自制できるタイプだと思ってたわ"
 	},
 	ins_reply_220_1_2 = {
-		value = ""
+		value = "まあ、お買い物はそういうのが中々難しいからね"
 	},
 	ins_discuss_220_2 = {
-		value = ""
+		value = "幽霊さんはお出かけしなくても、ネットショッピングでついつい買い過ぎちゃうのー"
 	},
 	ins_reply_220_2_1 = {
-		value = ""
+		value = "お買い物に夢中になるのはみんな同じね？"
 	},
 	ins_reply_220_2_2 = {
-		value = ""
+		value = "んーロング・アイランドの場合はちょっと違うような…"
 	},
 	ins_op_220_1_1 = {
-		value = ""
+		value = "お買い物って楽しいね"
 	},
 	op_reply_220_1_1 = {
-		value = ""
+		value = "ええ、とても楽しいわ♪ふふふ"
 	},
 	ins_op_220_1_2 = {
-		value = ""
+		value = "荷物持ってあげようか"
 	},
 	op_reply_220_1_2 = {
-		value = ""
+		value = "あら、それってデートのお誘いかしら？"
 	},
 	ins_221 = {
-		value = ""
+		value = "まばたきする暇もない素晴らしい映画だったわ！"
 	},
 	ins_discuss_221_1 = {
-		value = ""
+		value = "Amazing！こういう映画はなかなかないよね！"
 	},
 	ins_reply_221_1_1 = {
-		value = ""
+		value = "ふふふ、こういうの好きなんだ♪"
 	},
 	ins_discuss_221_2 = {
-		value = ""
+		value = "映画かー、まぁあたしはアウトローというかダークヒーローを描いたシリアスなのが好きだなー"
 	},
 	ins_reply_221_2_1 = {
-		value = ""
+		value = "せっかく映画館で見るんだし、もっとダイナミックなカットの多いほうがいいんじゃない？"
 	},
 	ins_discuss_221_3 = {
-		value = ""
+		value = "アイスも…美味しかった？"
 	},
 	ins_reply_221_3_1 = {
-		value = ""
+		value = "そこが気になったの？んーどんなのだったっけなー。味を忘れて見入ってたぐらい面白い映画だったし"
 	},
 	ins_op_221_1_1 = {
-		value = ""
+		value = "今度は母港で映画鑑賞会だ！"
 	},
 	op_reply_221_1_1 = {
-		value = ""
+		value = "らじゃー！"
 	},
 	ins_op_221_1_2 = {
-		value = ""
+		value = "アイスが服に落ちないように気をつけて"
 	},
 	op_reply_221_1_2 = {
-		value = ""
+		value = "心配してくれるの？あはは、ありがとう"
 	},
 	ins_222 = {
-		value = ""
+		value = "饅頭ランドの「鏡の迷宮」、とても楽しかったです"
 	},
 	ins_discuss_222_1 = {
-		value = ""
+		value = "自分の姿が回りの壁に映ってるのって結構奇妙な感じね…"
 	},
 	ins_reply_222_1_1 = {
-		value = ""
+		value = "そのせいで何回か迷子になりかけましたわね。姉さん♪"
 	},
 	ins_reply_222_1_2 = {
-		value = ""
+		value = "応瑞が勝手に歩いたせいよ！"
 	},
 	ins_discuss_222_2 = {
-		value = ""
+		value = "「鏡の迷宮」は楽しいよ。時々平海、鏡の壁にぶつかりそうになってたけど…"
 	},
 	ins_reply_222_2_1 = {
-		value = ""
+		value = "周りをよく見ないで歩いたらそりゃぶつかるわよ"
 	},
 	ins_discuss_222_3 = {
-		value = ""
+		value = "一緒に遊園地に行くのっていいですね"
 	},
 	ins_reply_222_3_1 = {
-		value = ""
+		value = "そうですね。逸仙さんさえ良ければいつでもみんなにお声掛けしますわ"
 	},
 	ins_reply_222_3_2 = {
-		value = ""
+		value = "ええ、今度考えておきます～"
 	},
 	ins_op_222_1_1 = {
-		value = ""
+		value = "無事出口を見つけられたのか？"
 	},
 	op_reply_222_1_1 = {
-		value = ""
+		value = "でなきゃこうして艦船通信に書き込んでないでしょ？"
 	},
 	op_reply_222_1_2 = {
-		value = ""
+		value = "なかなか大変でしたよ？特にムキになって先導してくださった姉さんが…ふふふ"
 	},
 	ins_op_222_1_2 = {
-		value = ""
+		value = "今度一緒に行こう"
 	},
 	op_reply_222_1_3 = {
-		value = ""
+		value = "ええ、喜んで♪"
 	},
 	ins_223 = {
-		value = ""
+		value = "一日中こうしてのんびりと過ごすのもいいものですわ"
 	},
 	ins_discuss_223_1 = {
-		value = ""
+		value = "ふふふ、幸せそうですわ～"
 	},
 	ins_reply_223_1_1 = {
-		value = ""
+		value = "もう、いくらバケーションだからってロイヤルレディとしての振る舞いに気をつけてほしいわ"
 	},
 	ins_reply_223_1_2 = {
-		value = ""
+		value = "こ、今度気をつけますわ！"
 	},
 	ins_discuss_223_2 = {
-		value = ""
+		value = "気持ちよさそうに見えるけど、エアコン部屋から出るなんて私的にはありえませんっ！"
 	},
 	ins_reply_223_2_1 = {
-		value = ""
+		value = "幽霊さんもル・マランちゃんに同意なの～"
 	},
 	ins_reply_223_2_2 = {
-		value = ""
+		value = "プール沿いは涼しいですわよ？たまには外に出たほうがいいですわ"
 	},
 	ins_discuss_223_3 = {
-		value = ""
+		value = "夏といえば美味しいアイスですね！"
 	},
 	ins_reply_223_3_1 = {
-		value = ""
+		value = "涼しくて気持ちいいですわ～"
 	},
 	ins_op_223_1_1 = {
-		value = ""
+		value = "泳がないのか？"
 	},
 	op_reply_223_1_1 = {
-		value = ""
+		value = "そのうち泳ぎますわよっ"
 	},
 	ins_op_223_1_2 = {
-		value = ""
+		value = "日光浴は気持ちいいな"
 	},
 	op_reply_223_1_2 = {
-		value = ""
+		value = "ええ、ちょっと日差しが眩しいことを除けば"
 	},
 	ins_224 = {
-		value = ""
+		value = "こここ怖かったよぉ……無理だったよぉ……"
 	},
 	ins_discuss_224_1 = {
-		value = ""
+		value = "五十鈴ちゃん、お化け屋敷に行ったの？"
 	},
 	ins_reply_224_1_1 = {
-		value = ""
+		value = "慣れれば大丈夫だと思ったがやっぱり段階を踏まねばならんな"
 	},
 	ins_reply_224_1_2 = {
-		value = ""
+		value = "が、頑張るからねっ！？"
 	},
 	ins_reply_224_1_3 = {
-		value = ""
+		value = "ゆっくり慣れればいいから～"
 	},
 	ins_discuss_224_2 = {
-		value = ""
+		value = "釣りで何にも動じない心を鍛えておいたほうが良さそうね"
 	},
 	ins_reply_224_2_1 = {
-		value = ""
+		value = "釣り……？怖くないなら別に…大丈夫？"
 	},
 	ins_discuss_224_3 = {
-		value = ""
+		value = "幽霊、おばけ、心が恐れるは心が生み出す存在なり"
 	},
 	ins_reply_224_3_1 = {
-		value = ""
+		value = "シャンパーニュが一番怖かったよ！"
 	},
 	ins_op_224_1_1 = {
-		value = ""
+		value = "無理しやがって……"
 	},
 	op_reply_224_1_1 = {
-		value = ""
+		value = "き、鬼怒と一緒に行ったけどやっぱりダメだったよぉ…"
 	},
 	ins_225 = {
-		value = ""
+		value = "暗闇に包まれし玄室、静謐に眠る場所なり"
 	},
 	ins_discuss_225_1 = {
-		value = ""
+		value = "ね、寝ていただけなの！？びっくりした…"
 	},
 	ins_reply_225_1_1 = {
-		value = ""
+		value = "安息の空気に囚われ、来訪に気づかず"
 	},
 	ins_reply_225_1_2 = {
-		value = ""
+		value = "そんな姿勢でも寝れるなんて羨ましいよ……"
 	},
 	ins_discuss_225_2 = {
-		value = ""
+		value = "お化け屋敷に手伝いに行ったと思ったらまさか寝てた？"
 	},
 	ins_reply_225_2_1 = {
-		value = ""
+		value = "ですが、確かに怖がらせたのでございましょう"
 	},
 	ins_reply_225_2_2 = {
-		value = ""
+		value = "そうだにゃ！効果抜群にゃ！今度もシャンパーニュにお願いするにゃ！"
 	},
 	ins_reply_225_2_3 = {
-		value = ""
+		value = "要望、了承…"
 	},
 	ins_op_225_1_1 = {
-		value = ""
+		value = "写真越しで雰囲気が伝わってくる…"
 	},
 	op_reply_225_1_1 = {
-		value = ""
+		value = "肌寒さを感じるはヒトの本能なり……なれどこの涼しさ、炎夏に抗うのに使わば如何？"
 	},
 	ins_226 = {
-		value = ""
+		value = "たまにはのんびり過ごしたいものだわ"
 	},
 	ins_discuss_226_1 = {
-		value = ""
+		value = "ヴェーザーも釣りが好き？"
 	},
 	ins_reply_226_1_1 = {
-		value = ""
+		value = "別に？リラックスするための手段として結構いい感じだと思っているだけよ"
 	},
 	ins_reply_226_1_2 = {
-		value = ""
+		value = "そうか…釣りは楽しいから、今度あても一緒に行かせてもらえない？"
 	},
 	ins_discuss_226_2 = {
-		value = ""
+		value = "フフフ、鬼ごっこやっている子が釣れたりして"
 	},
 	ins_reply_226_2_1 = {
-		value = ""
+		value = "じゃあ別の餌が必要ね"
 	},
 	ins_reply_226_2_2 = {
-		value = ""
+		value = "……？？？"
 	},
 	ins_reply_226_2_3 = {
-		value = ""
+		value = "ただの冗談よ"
 	},
 	ins_discuss_226_3 = {
-		value = ""
+		value = "大漁だった？"
 	},
 	ins_reply_226_3_1 = {
-		value = ""
+		value = "のんびりとした感覚を楽しんでただけよ。大して釣れなかったわ"
 	},
 	ins_op_226_1_1 = {
-		value = ""
+		value = "なにか面白いものでも釣れた？"
 	},
 	op_reply_226_1_1 = {
-		value = ""
+		value = "魚以外になにか…？もしかして宝箱とかでも期待しているの？"
 	},
 	ins_227 = {
-		value = ""
+		value = "ジャスティス・ビーバーズが支援するよ！"
 	},
 	ins_discuss_227_1 = {
-		value = ""
+		value = "め、迷惑をかけちゃダメよ！？"
 	},
 	ins_reply_227_1_1 = {
-		value = ""
+		value = "思わずステージに上ってしまった…ごめん！"
 	},
 	ins_reply_227_1_2 = {
-		value = ""
+		value = "でもかっこよかったよ？「正義は必ず勝つ！」って"
 	},
 	ins_reply_227_1_3 = {
-		value = ""
+		value = "わ、わたしもそう思った！"
 	},
 	ins_reply_227_1_4 = {
-		value = ""
+		value = "名付けて、ジャスティス助っ人モード！なんちゃって！"
 	},
 	ins_discuss_227_2 = {
-		value = ""
+		value = "仕込み済みのゲスト乱入だと思ったよ！"
 	},
 	ins_reply_227_2_1 = {
-		value = ""
+		value = "あたしがいなきゃクーパーもステージに上ってたでしょー？"
 	},
 	ins_reply_227_2_2 = {
-		value = ""
+		value = "へへへ、こう盛り上がっちゃうとね～"
 	},
 	ins_op_227_1_1 = {
-		value = ""
+		value = "正義が必ず勝つ！"
 	},
 	op_reply_227_1_1 = {
-		value = ""
+		value = "そう！正義は…必ず勝つッ！！"
 	},
 	ins_op_227_1_2 = {
-		value = ""
+		value = "アドリブだったのか…？"
 	},
 	op_reply_227_1_2 = {
-		value = ""
+		value = "わわっ、ちょっと我慢できなくなっちゃって…"
 	},
 	ins_228 = {
-		value = ""
+		value = "観覧車、ちょっと不安定だったわ。"
 	},
 	ins_discuss_228_1 = {
-		value = ""
+		value = "タシュケント、大丈夫だった！？観覧車から降りてからずっとボーっとしてたけど…"
 	},
 	ins_reply_228_1_1 = {
-		value = ""
+		value = "タシュケントは大丈夫よ。別に高いのが怖いわけじゃないよ。風が強かっただけよ。"
 	},
 	ins_reply_228_1_2 = {
-		value = ""
+		value = "揺れるほど風が強かったの？なんか面白そう！ぼくも乗ってみたくなった！あははは"
 	},
 	ins_reply_228_1_3 = {
-		value = ""
+		value = "あっそ。乗れば…？"
 	},
 	ins_discuss_228_2 = {
-		value = ""
+		value = "乗る前にヴォッカを飲めば揺れなんて気にしなくなるさ！"
 	},
 	ins_reply_228_2_1 = {
-		value = ""
+		value = "あっそ。本当なの？"
 	},
 	ins_reply_228_2_2 = {
-		value = ""
+		value = "何変なこと言ってんのガングート。色んな意味でダメでしょ！"
 	},
 	ins_op_228_1_1 = {
-		value = ""
+		value = "熱い飲み物でも飲んで落ち着こう"
 	},
 	op_reply_228_1_1 = {
-		value = ""
+		value = "同志ちゃん、ありがとう…"
 	},
 	ins_229 = {
-		value = ""
+		value = "じゃじゃーん！「力強い」一枚だろ？"
 	},
 	ins_discuss_229_1 = {
-		value = ""
+		value = "本当に投稿したのか。ちょっと恥ずかしいな…"
 	},
 	ins_reply_229_1_1 = {
-		value = ""
+		value = "せっかくみんなと一緒に遊びに出かけたんだし、もっと楽しんだほうがいいぞ？へへ"
 	},
 	ins_discuss_229_2 = {
-		value = ""
+		value = "姉貴、私たちとも一緒に撮らない？"
 	},
 	ins_reply_229_2_1 = {
-		value = ""
+		value = "いいよ！早くこっち来て！"
 	},
 	ins_reply_229_2_2 = {
-		value = ""
+		value = "ぼくが撮る。現像のときはちょっと多めに…"
 	},
 	ins_discuss_229_3 = {
-		value = ""
+		value = "インディペンデンス、なんか表情が硬いな。私も人のことは言えんが"
 	},
 	ins_reply_229_3_1 = {
-		value = ""
+		value = "慣れないとはこういうことだと思う"
 	},
 	ins_op_229_1_1 = {
-		value = ""
+		value = "面白い写真だ"
 	},
 	op_reply_229_1_1 = {
-		value = ""
+		value = "そうだろ？マッスルナイトだ！ははは"
 	},
 	ins_op_229_1_2 = {
-		value = ""
+		value = "クールな写真だ"
 	},
 	op_reply_229_1_2 = {
-		value = ""
+		value = "クールに見える…のか？"
 	},
 	ins_230 = {
-		value = ""
+		value = "効率や意義の思考を捨てて、雰囲気だけを楽しむのも悪くないわね"
 	},
 	ins_discuss_230_1 = {
-		value = ""
+		value = "ネコミミ似合いすぎだよペーター！あはははは面白すぎて笑っちゃうははは！"
 	},
 	ins_reply_230_1_1 = {
-		value = ""
+		value = "褒め言葉として受け取るわ"
 	},
 	ins_reply_230_1_2 = {
-		value = ""
+		value = "ネコミミはチェシャーが鉄血の皆に用意したものだから似合うのは当然にゃんだよー！ハインリヒのもあるからね♪"
 	},
 	ins_reply_230_1_3 = {
-		value = ""
+		value = "本当！？楽しみー！"
 	},
 	ins_discuss_230_2 = {
-		value = ""
+		value = "ああ、よく楽しんでおくれ。我が友よ"
 	},
 	ins_reply_230_2_1 = {
-		value = ""
+		value = "喧騒と甘美の楽園…卿も一度試しに参るといい"
 	},
 	ins_reply_230_2_2 = {
-		value = ""
+		value = "ふふふ、鉄血艦船ネコミミ計画順調順調♪"
 	},
 	ins_op_230_1_1 = {
-		value = ""
+		value = "楽しかったな…！"
 	},
 	op_reply_230_1_1 = {
-		value = ""
+		value = "この休息は時間をより効率的に使うためのもの。卿のことをしっかり見張っているわよ？"
 	},
 	ins_op_230_1_2 = {
-		value = ""
+		value = "ネコミミが似合っている！"
 	},
 	op_reply_230_1_2 = {
-		value = ""
+		value = "卿もよくつけた。ああ、全く滑稽…いいえ、面妖な見た目だった。あのロイヤルの子、よくやってくれたものよ"
 	},
 	ins_231 = {
-		value = ""
+		value = "今度も姉貴、そして皆と一緒にキャンプを…！"
 	},
 	ins_discuss_231_1 = {
-		value = ""
+		value = "へへっ、皆でキャンプしてご飯作るのは楽しかったな！"
 	},
 	ins_reply_231_1_1 = {
-		value = ""
+		value = "姉貴が行きたいときは、いつでも声をかけてくださいっ！"
 	},
 	ins_discuss_231_2 = {
-		value = ""
+		value = "場所が変わるだけで、カップ麺はあんなに美味しくなるんだ！勉強になったよ！"
 	},
 	ins_reply_231_2_1 = {
-		value = ""
+		value = "ああ、それにあのカップ麺は姉貴と一緒にお湯を入れたものだ。ただのカップ麺とは違う…！"
 	},
 	ins_reply_231_2_2 = {
-		value = ""
+		value = "そういえばそうだったね！"
 	},
 	ins_discuss_231_3 = {
-		value = ""
+		value = "新鮮な空気を吸えていい気分転換になったわね～"
 	},
 	ins_reply_231_3_1 = {
-		value = ""
+		value = "別の場所にもチャレンジしたい。雪山、とか…"
 	},
 	ins_op_231_1_1 = {
-		value = ""
+		value = "次はこっちで食べ物を用意しよう"
 	},
 	op_reply_231_1_1 = {
-		value = ""
+		value = "わかった。頼む…！"
 	},
 	ins_232 = {
-		value = ""
+		value = "分かち合えてこそ、美味しくなるわ"
 	},
 	ins_discuss_232_1 = {
-		value = ""
+		value = "あのお店確かに美味しかったですね。列に並んだ甲斐がありました"
 	},
 	ins_reply_232_1_1 = {
-		value = ""
+		value = "一緒に列に並ぶと、時間が流れるのが早く感じたね"
 	},
 	ins_discuss_232_2 = {
-		value = ""
+		value = "もう一回行って、すべてのアイスを制覇したいですね…"
 	},
 	ins_reply_232_2_1 = {
-		value = ""
+		value = "いいかも……？"
 	},
 	ins_reply_232_2_2 = {
-		value = ""
+		value = "シリアスにもぜひ、また声をかけてください！"
 	},
 	ins_op_232_1_1 = {
-		value = ""
+		value = "美味しさを分け合うのは嬉しいことだ"
 	},
 	op_reply_232_1_1 = {
-		value = ""
+		value = "同じことを思ってるわね。指揮官"
 	},
 	ins_233 = {
-		value = ""
+		value = "コーヒーカップ、思っていたより刺激的でしたわ…"
 	},
 	ins_discuss_233_1 = {
-		value = ""
+		value = "そんなに刺激的な遊具だったの？"
 	},
 	ins_reply_233_1_1 = {
-		value = ""
+		value = "ユニコーンちゃんと一緒に遊んだ時にちょっと故障したようですわ…珍しい体験をしました。ふふふ"
 	},
 	ins_reply_233_1_2 = {
-		value = ""
+		value = "さすがイラストリアス姉さんですわ"
 	},
 	ins_discuss_233_2 = {
-		value = ""
+		value = "ユニコーン、コーヒーカップはもう無理……"
 	},
 	ins_reply_233_2_1 = {
-		value = ""
+		value = "ユニコーンちゃんには刺激的すぎでしたわね…"
 	},
 	ins_reply_233_2_2 = {
-		value = ""
+		value = "イラストリアス姉ちゃんは大丈夫だったの…？うぅ…ユニコーン、頑張る……っ！"
 	},
 	ins_reply_233_2_3 = {
-		value = ""
+		value = "そこは頑張らなくてもいいですわ…"
 	},
 	ins_op_233_1_1 = {
-		value = ""
+		value = "ユニコーン、大丈夫か"
 	},
 	op_reply_233_1_1 = {
-		value = ""
+		value = "もう大丈夫…お兄ちゃん、ありがとう…"
 	},
 	ins_op_233_1_2 = {
-		value = ""
+		value = "イラストリアス、楽しんでいたのか…？"
 	},
 	op_reply_233_1_2 = {
-		value = ""
+		value = "楽しかったですわ～ユニコーンちゃんには…ちょっと…"
 	},
 	ins_234 = {
-		value = ""
+		value = "揺れる小舟、安らかに寝ていた愛しい坊や"
 	},
 	ins_discuss_234_1 = {
-		value = ""
+		value = "子供扱いは予想外だが、仲間たちとの遊興は新鮮"
 	},
 	ins_reply_234_1_1 = {
-		value = ""
+		value = "指揮官も、鉄血の子たちも、皆愛しい子よ"
 	},
 	ins_reply_234_1_2 = {
-		value = ""
+		value = "フリードリヒさんの隣に座っていると、思わず眠くなるような感じがしますね…"
 	},
 	ins_discuss_234_2 = {
-		value = ""
+		value = "孤独には慣れていたが、「連帯」は…"
 	},
 	ins_reply_234_2_1 = {
-		value = ""
+		value = "指揮官のおかげだ。そしてこれからも…きっと一緒に遊べるはずだ"
 	},
 	ins_reply_234_2_2 = {
-		value = ""
+		value = "何度でも構わないわ。ふふふ"
 	},
 	ins_op_234_1_1 = {
-		value = ""
+		value = "次はこちらに運転させてほしい"
 	},
 	op_reply_234_1_1 = {
-		value = ""
+		value = "それも一興…楽しみだわ。坊や"
 	},
 	ins_op_234_1_2 = {
-		value = ""
+		value = "しっかり休ませてもらった"
 	},
 	op_reply_234_1_2 = {
-		value = ""
+		value = "私も…十分に満たされたわ。ふふふ"
 	},
 	all = {
 		ins_op_1_1_1,

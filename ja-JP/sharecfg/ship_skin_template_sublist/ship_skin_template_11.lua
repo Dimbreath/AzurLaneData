@@ -6171,6 +6171,117 @@ pg.ship_skin_template_11 = {
 			}
 		}
 	},
+	[305025] = {
+		ship_group = 30502,
+		name = "観光地大作戦！",
+		bg_sp = "",
+		group_index = 5,
+		illustrator2 = -1,
+		desc = "わあーさすが観光地、空気もいつもとは違う匂いです！殿様殿様、ええとね、ここの空気を瓶詰めにしたらいいことがあるって明石ちゃんが言ってました！殿様も一緒にどうですか？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "shancheng_8",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 14,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "",
+		skin_type = 0,
+		id = 305025,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "shancheng_8",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 71,
+		air_bomb_skin = "",
+		illustrator = 22,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.379,
+					1.013,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.348,
+					0.994,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.279,
+					0.995,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.496,
+							2.291,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[305026] = {
 		ship_group = 30502,
 		name = "制服大作戦！",
@@ -7666,110 +7777,6 @@ pg.ship_skin_template_11 = {
 				{
 					2.08,
 					1.14,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.4,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[305070] = {
-		ship_group = 30507,
-		name = "加賀",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "加賀型戦艦一番艦・加賀",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "jiahezhanlie",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 2,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
-		bg = "",
-		skin_type = -1,
-		id = 305070,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "jiahezhanlie",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 9,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.14,
-					0.97,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.141,
-					0.085,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.06,
-					1.02,
 					0
 				}
 			}

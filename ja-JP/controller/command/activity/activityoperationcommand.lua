@@ -525,6 +525,16 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 			end
 		elseif uv0 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("building_complete_tip"))
+		elseif uv0 == ActivityConst.ACTIVITY_TYPE_MONTHSIGN and uv6.cmd == 3 then
+			slot0 = uv1:getSpecialData("month_sign_awards") or {}
+
+			for slot4 = 1, #uv5 do
+				table.insert(slot0, uv5[slot4])
+			end
+
+			uv1:setSpecialData("month_sign_awards", slot0)
+
+			uv5 = {}
 		end
 
 		if #uv5 > 0 then

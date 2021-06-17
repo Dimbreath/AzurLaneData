@@ -2955,7 +2955,7 @@ function slot0.IsSkipPrecombat(slot0)
 end
 
 function slot0.CanActivateAutoFight(slot0)
-	return pg.chapter_template_loop[slot0.id] and slot1.fightauto == 1 and slot0:isLoop() and not slot0:existOni() and not slot0:existBombEnemy()
+	return pg.chapter_template_loop[slot0.id] and slot1.fightauto == 1 and slot0:isLoop() and AutoBotCommand.autoBotSatisfied() and not slot0:existOni() and not slot0:existBombEnemy()
 end
 
 function slot0.IsAutoFight(slot0)

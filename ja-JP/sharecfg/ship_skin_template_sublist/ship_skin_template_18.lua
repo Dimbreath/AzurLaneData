@@ -1,5 +1,109 @@
 pg = pg or {}
 pg.ship_skin_template_18 = {
+	[900203] = {
+		ship_group = 900203,
+		name = "ガスコーニュ(μ兵装)",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "加斯科涅μ无舰装版",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "jiasikenie_idolns",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "",
+		skin_type = -1,
+		id = 900203,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "jiasikenie_idol",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 98,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.114,
+					0.924,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.02,
+					-0.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.135,
+					0.929,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.33,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
 	[900204] = {
 		ship_group = 900204,
 		name = "赤城(μ兵装)",
@@ -7438,117 +7542,6 @@ pg.ship_skin_template_18 = {
 						{
 							-0.41,
 							2.37,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900272] = {
-		ship_group = 900272,
-		name = "リシュリュー",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "リシュリュー級戦艦リシュリュー",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "lisailiu",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 1,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
-		bg = "",
-		skin_type = -1,
-		id = 900272,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "lisailiu",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 148,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.67,
-					1.335,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.66,
-					1.365,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.66,
-					1.299,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.26,
 							0
 						}
 					}

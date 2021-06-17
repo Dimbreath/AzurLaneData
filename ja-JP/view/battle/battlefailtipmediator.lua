@@ -214,7 +214,7 @@ function slot0.removeContextBeforeGO(slot0)
 		end
 	elseif slot2 == SYSTEM_DUEL then
 		if slot1:getContextByMediator(MilitaryExerciseMediator) then
-			if slot3:getContextByMediator(PreCombatMediator) then
+			if slot3:getContextByMediator(ExercisePreCombatMediator) then
 				slot3:removeChild(slot4)
 			end
 

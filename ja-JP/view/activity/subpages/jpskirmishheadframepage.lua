@@ -13,7 +13,6 @@ function slot0.OnInit(slot0)
 	setActive(slot0.getBtn, false)
 	setActive(slot0.gotBtn, false)
 	setActive(slot0.gotTag, false)
-	setActive(slot0.progressText, false)
 end
 
 function slot0.OnDataSetting(slot0)
@@ -40,21 +39,21 @@ function slot0.OnFirstFlush(slot0)
 end
 
 function slot0.OnUpdateFlush(slot0)
-	if not getProxy(ActivityProxy):getActivityById(ActivityConst.JP_SKIRMISH_EXP_ID) or slot1:isEnd() then
-		slot2, slot3, slot4 = slot0.ptData:GetResProgress()
+	if not getProxy(ActivityProxy):getActivityById(slot0.activity:getConfig("config_client").linkExpActID) or slot2:isEnd() then
+		slot3 = slot0.ptData:CanGetAward()
+		slot4 = slot0.ptData:CanGetNextAward()
 
-		setText(slot0.progressText, setColorStr(slot2, "#487CFFFF") .. "/" .. slot3)
-		setSlider(slot0.progressBar, 0, 1, slot4)
-		setActive(slot0.progressText, true)
-
-		slot5 = slot0.ptData:CanGetAward()
-		slot6 = slot0.ptData:CanGetNextAward()
-
-		setActive(slot0.goBtn, slot0.ptData:CanGetMorePt() and not slot5 and slot6)
-		setActive(slot0.getBtn, slot5)
-		setActive(slot0.gotBtn, not slot6)
-		setActive(slot0.gotTag, not slot6)
+		setActive(slot0.goBtn, slot0.ptData:CanGetMorePt() and not slot3 and slot4)
+		setActive(slot0.getBtn, slot3)
+		setActive(slot0.gotBtn, not slot4)
+		setActive(slot0.gotTag, not slot4)
 	end
+
+	slot3, slot4, slot5 = slot0.ptData:GetResProgress()
+
+	setText(slot0.progressText, setColorStr(slot3, "#487CFFFF") .. "/" .. slot4)
+	setSlider(slot0.progressBar, 0, 1, slot5)
+	setActive(slot0.progressText, true)
 end
 
 function slot0.OnDestroy(slot0)

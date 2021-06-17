@@ -1242,10 +1242,8 @@ function slot0.NewMapRight(slot0, slot1)
 		uv0:Op("OpCall", function (slot0)
 			slot0()
 
-			slot1 = {}
-
 			if PlayerPrefs.GetInt("first_auto_fight_mark", 0) == 0 then
-				table.insert(slot1, function (slot0)
+				table.insert({}, function (slot0)
 					PlayerPrefs.SetInt("first_auto_fight_mark", 1)
 					uv0:Op("OpOpenLayer", Context.New({
 						mediator = WorldHelpMediator,
@@ -1257,6 +1255,28 @@ function slot0.NewMapRight(slot0, slot1)
 						onRemoved = slot0
 					}))
 				end)
+			end
+
+			if nowWorld:IsSystemOpen(WorldConst.SystemOrderSubmarine) and PlayerPrefs.GetInt("world_sub_auto_call", 0) == 1 and nowWorld:GetActiveMap():GetConfig("instruction_available")[1] == 1 and nowWorld:CanCallSubmarineSupport() and not nowWorld:IsSubmarineSupporting() then
+				if nowWorld:CalcOrderCost(WorldConst.OpReqSub) <= PlayerPrefs.GetInt("world_sub_call_line", 0) and slot2 <= nowWorld.staminaMgr:GetTotalStamina() then
+					if slot2 > 0 then
+						table.insert(slot1, function (slot0)
+							pg.MsgboxMgr.GetInstance():ShowMsgBox({
+								content = i18n("world_instruction_submarine_2", setColorStr(uv0, COLOR_GREEN)),
+								onYes = function ()
+									PlayerPrefs.SetInt("autoSubIsAcitve" .. "_" .. SYSTEM_WORLD, 1)
+									uv0:Op("OpReqSub", uv1)
+								end,
+								onNo = slot0
+							})
+						end)
+					else
+						PlayerPrefs.SetInt("autoSubIsAcitve" .. "_" .. SYSTEM_WORLD, 1)
+						table.insert(slot1, function (slot0)
+							uv0:Op("OpReqSub", slot0)
+						end)
+					end
+				end
 			end
 
 			seriesAsync(slot1, function ()

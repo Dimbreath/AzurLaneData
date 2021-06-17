@@ -1,5 +1,109 @@
 pg = pg or {}
 pg.ship_skin_template_12 = {
+	[305070] = {
+		ship_group = 30507,
+		name = "加賀",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "加賀型戦艦一番艦・加賀",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "jiahezhanlie",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 2,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "",
+		skin_type = -1,
+		id = 305070,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "jiahezhanlie",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 9,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.14,
+					0.97,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.141,
+					0.085,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.06,
+					1.02,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.4,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[305080] = {
 		ship_group = 30508,
 		name = "土佐",
@@ -5728,8 +5832,6 @@ pg.ship_skin_template_12 = {
 		bgm = "",
 		lip_smoothing = 0,
 		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
 		bg = "",
 		skin_type = -1,
 		id = 307080,
@@ -5806,6 +5908,27 @@ pg.ship_skin_template_12 = {
 						}
 					}
 				}
+			}
+		},
+		spine_offset = {
+			{
+				272,
+				-1151,
+				0
+			},
+			{
+				1.2
+			}
+		},
+		special_effects = {
+			"xinnong3",
+			{
+				326,
+				-459,
+				0
+			},
+			{
+				2.5
 			}
 		}
 	},
@@ -7075,105 +7198,6 @@ pg.ship_skin_template_12 = {
 						{
 							-0.42,
 							2.388,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[308041] = {
-		ship_group = 30804,
-		name = "ウサギとサンゴ礁",
-		bg_sp = "",
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "指揮官さん、こんにちは。この格好…？学園で授業を受ける日なのでいつもとは違う格好にしてみましたよ？ところで指揮官さん、授業参観に来てくれませんか？",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "I25_2",
-		air_bullet_skin = "",
-		shop_type_id = 4,
-		hand_id = 14,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
-		bg = "103",
-		skin_type = 0,
-		id = 308041,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "I25_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70205,
-		voice_actor = 121,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.02,
-					0.44,
-					0
-				}
-			},
-			torpedo = {
-				{
-					1.04,
-					0.666,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.55,
-							2.21,
 							0
 						}
 					}

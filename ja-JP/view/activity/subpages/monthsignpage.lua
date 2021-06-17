@@ -1,16 +1,13 @@
 slot0 = class("MonthSignPage", import("...base.BaseActivityPage"))
 slot0.SHOW_RE_MONTH_SIGN = "show re month sign award"
+slot0.MONTH_SIGN_SHOW = {}
 
 function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("bg")
 	slot0.items = slot0:findTF("items")
 	slot0.item = slot0:findTF("item", slot0.items)
-	slot0.monthSignPageTool = MonthSignPageTool.New(slot0._event)
 	slot0.monthSignReSignUI = MonthSignReSignUI.New(slot0._tf, slot0._event, nil)
 
-	slot0:bind(ActivityMediator.ON_MONTH_ACHIEVE, function (slot0, slot1, slot2)
-		uv0.monthSignPageTool:onAcheve(slot1, slot2)
-	end)
 	slot0:bind(uv0.SHOW_RE_MONTH_SIGN, function (slot0, slot1, slot2)
 		if not uv0.monthSignReSignUI:GetLoaded() then
 			uv0.monthSignReSignUI:Load()
@@ -34,8 +31,6 @@ function slot0.OnDataSetting(slot0)
 		slot0.specialDay = pg.activity_template[ActivityConst.MONTH_SIGN_ACTIVITY_ID].config_client[2]
 		slot0.isShowFrame = pg.activity_template[ActivityConst.MONTH_SIGN_ACTIVITY_ID].config_client[3]
 	end
-
-	slot0:emit(ActivityMainScene.SELECT_ACTIVITY_OPEN)
 end
 
 function slot0.OnFirstFlush(slot0)
@@ -96,6 +91,20 @@ function slot0.OnUpdateFlush(slot0)
 		setText(slot1, slot2)
 
 		GetComponent(slot0:findTF("ProgressBar"), "Slider").value = #slot0.activity.data1_list
+	end
+
+	if slot0.activity:getSpecialData("month_sign_awards") and #slot1 > 0 then
+		if not table.contains(MonthSignPage.MONTH_SIGN_SHOW, slot0.activity.id) then
+			table.insert(MonthSignPage.MONTH_SIGN_SHOW, slot0.activity.id)
+
+			if not slot0.monthSignReSignUI:GetLoaded() then
+				slot0.monthSignReSignUI:Load()
+			end
+
+			slot0.monthSignReSignUI:ActionInvoke("setAwardShow", slot1)
+		elseif slot0.monthSignReSignUI then
+			slot0.monthSignReSignUI:ActionInvoke("setAwardShow", slot1)
+		end
 	end
 end
 

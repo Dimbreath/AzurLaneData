@@ -1,5 +1,116 @@
 pg = pg or {}
 pg.ship_skin_template_15 = {
+	[502026] = {
+		ship_group = 50202,
+		name = "ダーバオの友達",
+		bg_sp = "",
+		group_index = 6,
+		illustrator2 = -1,
+		desc = "いい子いい子、よく噛んで食べてね…ふぅ…まさかパンダの世話をするイベントに参加できるなんて。ダーバオ、友達をたくさん作るのよ。平海と指揮官も、ご苦労さま！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "ninghai_7",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 15,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "",
+		skin_type = 0,
+		id = 502026,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ninghai_7",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 22,
+		air_bomb_skin = "",
+		illustrator = 5,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.165,
+					1.031,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.141,
+					1.038,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.152,
+					1.061,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.23,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[502029] = {
 		ship_group = 50202,
 		name = "寧海改",
@@ -7733,117 +7844,6 @@ pg.ship_skin_template_15 = {
 						{
 							-0.486,
 							2.35,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[702040] = {
-		ship_group = 70204,
-		name = "キーロフ",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "キーロフ級軽巡洋艦――キーロフ",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "jiluofu",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 1,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
-		bg = "",
-		skin_type = -1,
-		id = 702040,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "jiluofu",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 28,
-		air_bomb_skin = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.009,
-					1.338,
-					0
-				}
-			},
-			vicegun = {
-				{
-					2.005,
-					1.364,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					2,
-					1.326,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.526,
-							2.357,
 							0
 						}
 					}

@@ -65,34 +65,7 @@ function slot0.execute(slot0, slot1)
 				slot3:updatePlayer(slot4)
 			end
 
-			if uv2:IsGuildAddLivnessType() then
-				slot3 = 0
-				slot4 = false
-
-				if getProxy(GuildProxy):getData() and uv2:isGuildTask() then
-					slot2:setWeeklyTaskFlag(1)
-
-					if slot2:getWeeklyTask() then
-						slot3 = slot5:GetLivenessAddition()
-					end
-
-					slot4 = true
-				elseif uv2:IsRoutineType() then
-					slot3 = pg.guildset.daily_task_guild_active.key_value
-				elseif uv2:IsWeeklyType() then
-					slot3 = pg.guildset.weekly_task_guild_active.key_value
-				end
-
-				if slot2 and slot3 and slot3 > 0 then
-					slot2:getMemberById(getProxy(PlayerProxy):getRawData().id):AddLiveness(slot3)
-
-					slot4 = true
-				end
-
-				if slot4 then
-					slot1:updateGuild(slot2)
-				end
-			end
+			uv3.AddGuildLivness(uv2)
 
 			for slot5 = #PlayerConst.addTranDrop(slot0.award_list), 1, -1 do
 				if slot1[slot5].type == DROP_TYPE_VITEM and pg.item_data_statistics[slot6.id].virtual_type == 6 then
@@ -114,7 +87,7 @@ function slot0.execute(slot0, slot1)
 				uv0:updateTask(uv2)
 			end
 
-			uv3:sendNotification(GAME.SUBMIT_TASK_DONE, slot1, {
+			uv4:sendNotification(GAME.SUBMIT_TASK_DONE, slot1, {
 				uv2.id
 			})
 
@@ -122,17 +95,48 @@ function slot0.execute(slot0, slot1)
 				slot2:monitorTaskList(slot3)
 			end
 
-			if uv4 then
-				uv4(true)
+			if uv5 then
+				uv5(true)
 			end
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("task_submitTask", slot0.result))
 
-			if uv4 then
-				uv4(false)
+			if uv5 then
+				uv5(false)
 			end
 		end
 	end)
+end
+
+function slot0.AddGuildLivness(slot0)
+	if slot0:IsGuildAddLivnessType() then
+		slot3 = 0
+		slot4 = false
+
+		if getProxy(GuildProxy):getData() and slot0:isGuildTask() then
+			slot2:setWeeklyTaskFlag(1)
+
+			if slot2:getWeeklyTask() then
+				slot3 = slot5:GetLivenessAddition()
+			end
+
+			slot4 = true
+		elseif slot0:IsRoutineType() then
+			slot3 = pg.guildset.new_daily_task_guild_active.key_value
+		elseif slot0:IsWeeklyType() then
+			slot3 = pg.guildset.new_weekly_task_guild_active.key_value
+		end
+
+		if slot2 and slot3 and slot3 > 0 then
+			slot2:getMemberById(getProxy(PlayerProxy):getRawData().id):AddLiveness(slot3)
+
+			slot4 = true
+		end
+
+		if slot4 then
+			slot1:updateGuild(slot2)
+		end
+	end
 end
 
 return slot0

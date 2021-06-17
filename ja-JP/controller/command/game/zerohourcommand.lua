@@ -217,8 +217,6 @@ function slot0.mainHandler(slot0, slot1)
 			slot29.weeklyTaskFlag = 0
 		end
 
-		slot29.donateCount = 0
-
 		if slot29:GetActiveEvent() then
 			slot31:GetBossMission():ResetDailyCnt()
 		end
@@ -231,7 +229,9 @@ function slot0.mainHandler(slot0, slot1)
 
 		Timer.New(function ()
 			uv0:Stop()
-			uv1:sendNotification(GAME.GET_PUBLIC_GUILD_USER_DATA)
+			uv1:sendNotification(GAME.GET_PUBLIC_GUILD_USER_DATA, {
+				flag = true
+			})
 		end, math.random(2, 5), 1):Start()
 	end
 

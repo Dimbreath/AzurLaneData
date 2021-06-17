@@ -58,39 +58,96 @@ function slot0.onUpdateTask(slot0, slot1, slot2)
 end
 
 function slot0.Update(slot0, slot1, slot2, slot3)
-	slot0.taskVOs = {}
+	if slot0.contextData.weekTaskProgressInfo:ReachMaxPt() and slot0:isShowing() then
+		pg.UIMgr.GetInstance():LoadingOn(false)
+		slot0:DoDisablePtTaskAnim(function ()
+			pg.UIMgr.GetInstance():LoadingOff()
+			uv0:Flush(uv1)
 
-	if TaskScene.IsPassScenario() then
-		slot4 = slot0.contextData.weekTaskProgressInfo
-
-		slot0:UpdateWeekProgress(slot4)
-
-		for slot9, slot10 in pairs(slot4:GetSubTasks()) do
-			table.insert(slot0.taskVOs, slot10)
-		end
-
-		for slot10, slot11 in pairs(slot0.contextData.taskVOsById) do
-			if slot11:getConfig("visibility") == 1 and slot2[slot11:GetRealType()] then
-				table.insert(slot0.taskVOs, slot11)
-			end
-		end
-
-		table.sort(slot0.taskVOs, function (slot0, slot1)
-			if slot0:getTaskStatus(slot0) == slot1:getTaskStatus(slot1) then
-				return (slot0.isWeekTask and 0 or 1) > (slot1.isWeekTask and 0 or 1)
-			else
-				return slot3 < slot2
+			if uv2 then
+				uv2(uv0.taskVOs or {})
 			end
 		end)
-		slot0:Show()
-		slot0._scrollView:SetTotalCount(#slot0.taskVOs, -1)
+	elseif TaskScene.IsPassScenario() then
+		slot0:Flush(slot2)
+
+		if slot3 then
+			slot3(slot0.taskVOs or {})
+		end
 	else
 		setActive(slot0._tf, false)
+
+		if slot3 then
+			slot3({})
+		end
+	end
+end
+
+function slot0.DoDisablePtTaskAnim(slot0, slot1)
+	function slot2(slot0, slot1)
+		slot0:DoSubmitAnim(function ()
+			setActive(uv0._go, false)
+			uv1()
+		end)
 	end
 
-	if slot3 then
-		slot3(slot0.taskVOs)
+	slot0._scrollView.enabled = false
+	slot3 = {}
+
+	for slot7, slot8 in ipairs(slot0.taskVOs) do
+		if slot8.isWeekTask then
+			if slot0:GetCard(slot8.id) then
+				table.insert(slot3, function (slot0)
+					uv0(uv1, slot0)
+				end)
+			end
+		end
 	end
+
+	seriesAsync(slot3, function ()
+		uv0._scrollView.enabled = true
+
+		uv1()
+	end)
+end
+
+function slot0.GetCard(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.taskCards) do
+		if slot6.taskVO.id == slot1 then
+			return slot6
+		end
+	end
+
+	return nil
+end
+
+function slot0.Flush(slot0, slot1)
+	slot0.taskVOs = {}
+	slot2 = slot0.contextData.weekTaskProgressInfo
+
+	slot0:UpdateWeekProgress(slot2)
+
+	if not slot2:ReachMaxPt() then
+		for slot7, slot8 in pairs(slot2:GetSubTasks()) do
+			table.insert(slot0.taskVOs, slot8)
+		end
+	end
+
+	for slot7, slot8 in pairs(slot0.contextData.taskVOsById) do
+		if slot8:getConfig("visibility") == 1 and slot1[slot8:GetRealType()] then
+			table.insert(slot0.taskVOs, slot8)
+		end
+	end
+
+	table.sort(slot0.taskVOs, function (slot0, slot1)
+		if slot0:getTaskStatus(slot0) == slot1:getTaskStatus(slot1) then
+			return (slot0.isWeekTask and 0 or 1) > (slot1.isWeekTask and 0 or 1)
+		else
+			return slot3 < slot2
+		end
+	end)
+	slot0:Show()
+	slot0._scrollView:SetTotalCount(#slot0.taskVOs, -1)
 end
 
 function slot0.UpdateWeekProgress(slot0, slot1)
@@ -135,6 +192,12 @@ end
 
 function slot0.OnDestroy(slot0)
 	slot0._scrollView.onValueChanged:RemoveAllListeners()
+end
+
+function slot0.RefreshWeekTaskPageBefore(slot0, slot1)
+	if slot0:GetCard(slot1) then
+		setActive(slot2._go, false)
+	end
 end
 
 return slot0

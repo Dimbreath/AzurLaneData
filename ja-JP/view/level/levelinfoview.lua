@@ -192,7 +192,7 @@ function slot0.set(slot0, slot1, slot2)
 	setActive(slot0.bottomExtra, slot9)
 
 	if slot9 then
-		slot13 = PlayerPrefs.GetInt("chapter_loop_flag_" .. slot1.id, -1) == 1 or slot12 == -1 and slot1:canActivateLoop()
+		slot13 = (PlayerPrefs.GetInt("chapter_loop_flag_" .. slot1.id, -1) == 1 or slot12 == -1) and slot1:canActivateLoop()
 
 		setActive(slot0.loopOn, slot13)
 		setActive(slot0.loopOff, not slot13)
@@ -230,7 +230,8 @@ function slot0.set(slot0, slot1, slot2)
 				PlayerPrefs.Save()
 			end
 		end, SFX_UI_TAG)
-		triggerToggle(slot0.autoFightToggle, slot13 and PlayerPrefs.GetInt("chapter_autofight_flag_" .. slot1.id, 1) == 1)
+		triggerToggle(slot0.autoFightToggle, AutoBotCommand.autoBotSatisfied() and PlayerPrefs.GetInt("chapter_autofight_flag_" .. slot1.id, 1) == 1)
+		setActive(slot0.autoFightToggle, slot14)
 	end
 
 	onButton(slot0, slot0.btnConfirm, function ()

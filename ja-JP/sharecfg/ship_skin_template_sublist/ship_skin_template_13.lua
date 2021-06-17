@@ -1,5 +1,104 @@
 pg = pg or {}
 pg.ship_skin_template_13 = {
+	[308041] = {
+		ship_group = 30804,
+		name = "ウサギとサンゴ礁",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "指揮官さん、こんにちは。この格好…？学園で授業を受ける日なのでいつもとは違う格好にしてみましたよ？ところで指揮官さん、授業参観に来てくれませんか？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "I25_2",
+		air_bullet_skin = "",
+		shop_type_id = 4,
+		hand_id = 14,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "103",
+		skin_type = 0,
+		id = 308041,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "I25_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70205,
+		voice_actor = 121,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.02,
+					0.44,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.04,
+					0.666,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.55,
+							2.21,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[308042] = {
 		ship_group = 30804,
 		name = "甘酒の新春祝い",
@@ -7815,117 +7914,6 @@ pg.ship_skin_template_13 = {
 							-0.08,
 							2.63,
 							-1.93
-						}
-					}
-				}
-			}
-		}
-	},
-	[403041] = {
-		ship_group = 40304,
-		name = "漆黒の魔姫",
-		bg_sp = "",
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "下等生物のくせに、……そう、この私こそ鉄血なる魔姫、闇夜の主ドイッチュラントよ！下等生物、ううん、私の下僕よ！おいで、お前に忠誠のキスを誓うチャンスをくれてやるわ！",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "deyizhi_2",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 13,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
-		bg = "",
-		skin_type = 0,
-		id = 403041,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "deyizhi_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 28,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.77,
-					1.22,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.77,
-					1.22,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.24,
-					0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.77,
-					1.22,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.38,
-							0
 						}
 					}
 				}

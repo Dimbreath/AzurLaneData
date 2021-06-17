@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102030,
+			actor = 102040,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "まあ、新しいチャレンジだと思って挑めよ！",

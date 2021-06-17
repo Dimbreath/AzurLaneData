@@ -2990,6 +2990,9 @@ No.7 駆逐艦「鞍山」
 	world_transport_disable = {
 		tip = "この海域はエリア移動を行えません"
 	},
+	world_ap = {
+		tip = "行動力"
+	},
 	world_resource_tip_1 = {
 		tip = "未资源提示1(未使用)"
 	},
@@ -3030,7 +3033,7 @@ No.7 駆逐艦「鞍山」
 		tip = "エネルギー供給装置を運んでいるため、艦隊を再編成できません"
 	},
 	world_instruction_morale_1 = {
-		tip = "$1の指揮官行動力を消費し、全艦隊の耐久・士気を回復し「戦闘損傷」効果を削除しますか？（現在行動力：$2。このオーダーは一定の時間内に一度しか使用できません）"
+		tip = "$1の指揮官行動力を消費し、\n全艦隊の耐久・士気を回復し\n「戦闘損傷」効果を削除しますか？"
 	},
 	world_instruction_morale_2 = {
 		tip = "艦隊の士気は最大です"
@@ -3038,11 +3041,14 @@ No.7 駆逐艦「鞍山」
 	world_instruction_morale_3 = {
 		tip = "艦隊の士気が回復しました"
 	},
+	world_instruction_morale_4 = {
+		tip = "オーダー使用後、一定時間経過まで再度使用できません"
+	},
 	world_instruction_submarine_1 = {
 		tip = "この海域では命令を発令できません"
 	},
 	world_instruction_submarine_2 = {
-		tip = "行動力を$1消費し、潜水支援を行いますか？（指揮官行動力：$2 指揮官指令は前に発動した指令からの時間経過に応じて消費行動力が変化します）"
+		tip = "行動力を$1消費し、\n潜水支援を行いますか？"
 	},
 	world_instruction_submarine_3 = {
 		tip = "既に潜水艦隊が出撃しています"
@@ -3057,10 +3063,22 @@ No.7 駆逐艦「鞍山」
 		tip = "エリア移動を行うと、潜水艦隊が出撃待機状態になります。エリア移動を行いますか？"
 	},
 	world_instruction_submarine_7 = {
-		tip = "潜水艦隊の弾薬が不足しています。指揮官行動力$1を消費し弾薬の補充・損傷の回復をしますか？（指揮官行動力：$2；オーダーを発令する間隔が短ければ短いほど、行動力消費量が上昇する）"
+		tip = "指揮官行動力$1を消費し、\n弾薬の補充・損傷の回復をしますか？"
+	},
+	world_instruction_submarine_8 = {
+		tip = "前に発動したオーダーからの時間経過に応じて消費行動力が変化します"
+	},
+	world_instruction_submarine_9 = {
+		tip = "潜水支援は行動力消費が\n以下の場合、戦闘中自動で行います"
+	},
+	world_instruction_submarine_10 = {
+		tip = "以下の場合、戦闘中自動で\n行います"
+	},
+	world_instruction_submarine_11 = {
+		tip = "潜水艦隊自動配置設定　保存成功"
 	},
 	world_instruction_detect_1 = {
-		tip = "行動力を$1消費し、海域偵察を行いますか？（指揮官行動力：$2 指揮官指令は前に発動した指令からの時間経過に応じて消費行動力が変化します）"
+		tip = "行動力を$1消費し、\n海域偵察を行いますか？"
 	},
 	world_instruction_detect_2 = {
 		tip = "海域偵察を行いました"
@@ -10609,6 +10627,9 @@ staff）にて告知されます。
 	msgbox_text_unlock = {
 		tip = "解 錠"
 	},
+	msgbox_text_save = {
+		tip = "設定保存"
+	},
 	common_flag_ship = {
 		tip = "<size=23>秘書艦</size>"
 	},
@@ -12102,6 +12123,9 @@ GET!
 	guild_tech_livness_no_enough = {
 		tip = "大艦隊活躍度が<color=#ff5c5c>$1</color>不足しているため、兵站施設をレベルアップさせるには通常より多くの資源を消費します。兵站レベルをアップさせますか？"
 	},
+	guild_tech_livness_no_enough_label = {
+		tip = "貢献度$1で増築可能"
+	},
 	guild_ship_attr_desc = {
 		tip = "大艦隊作戦内$1の$2が$3"
 	},
@@ -13347,6 +13371,9 @@ GET!
 	},
 	autofight_function4 = {
 		tip = "待機"
+	},
+	autofight_function5 = {
+		tip = "自動潜水支援"
 	},
 	autofight_rewards = {
 		tip = "報酬入手合計"

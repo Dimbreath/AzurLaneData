@@ -241,6 +241,16 @@ pg.guildset = {
 		key = "public_tech_exp",
 		key_value = 60
 	},
+	new_daily_task_guild_active = {
+		key_args = "",
+		key = "new_daily_task_guild_active",
+		key_value = 5
+	},
+	new_weekly_task_guild_active = {
+		key_args = "",
+		key = "new_weekly_task_guild_active",
+		key_value = 54
+	},
 	all = {
 		guild_award_consume,
 		guild_award_duration,
@@ -284,6 +294,8 @@ pg.guildset = {
 		public_level_initial,
 		public_level_priority,
 		public_level_limit,
-		public_tech_exp
+		public_tech_exp,
+		new_daily_task_guild_active,
+		new_weekly_task_guild_active
 	}
 }
