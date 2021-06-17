@@ -193,7 +193,7 @@ function slot0.didEnter(slot0)
 			end)
 		end
 
-		seriesAyns(slot0, function ()
+		seriesAsync(slot0, function ()
 			GetOrAddComponent(uv0._tf, typeof(CanvasGroup)).interactable = false
 
 			uv0:uiExitAnimating()
