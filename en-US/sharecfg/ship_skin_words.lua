@@ -6728,7 +6728,7 @@ pg.ship_skin_words = {
 		id = 103141,
 		voice_key = 0,
 		feeling5 = "",
-		main = "C'mon, Minneapolis! Forget about hunting for a minute and just drink!|nil|Have yourself some snacks before I decide to eat 'em all, Puddin'.|Listen, Puddin', I need party activity ideas! Do we play a game, or put something on?",
+		main = "C'mon, Minneapolis! Forget about hunting for a minute and just drink!|Have yourself some snacks before I decide to eat 'em all, Puddin'.|nil|Listen, Puddin', I need party activity ideas! Do we play a game, or put something on?",
 		voice_key_2 = -1,
 		profile = "",
 		mission_complete = "",
@@ -45200,7 +45200,7 @@ pg.ship_skin_words = {
 		mission = "Commander, your missions will not disappear just by simply leaving them alone. Do finish them diligently.",
 		touch2 = "I knew... you'd think twice about doing that.",
 		feeling1 = "If you intend to close your heart to me, then what happens to you is no longer of any concern to me.",
-		skill = "I see you.",
+		skill = "I've found you~ ",
 		drop_descrip = "Were you looking for me? I am willing to lend you my power – provided that you promise not to hide anything from me.",
 		mail = "You have new mail. Let me help you open it.",
 		lose = "How could I have overlooked something? I don't understand... Very well, so be it.",
@@ -45220,7 +45220,7 @@ pg.ship_skin_words = {
 		battle = "SG, tell me where my enemies are hiding this time.",
 		login = "I knew exactly when you'd come back, Commander.",
 		vote = "",
-		detail = "My SG tells me not only exactly where you are, Commander, but also what you are thinking.",
+		detail = "My SG tells me exactly where you are, but I wish it also told me what you're thinking...",
 		couple_encourage = {
 			{
 				{
