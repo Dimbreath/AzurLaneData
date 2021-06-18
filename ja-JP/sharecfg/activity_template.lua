@@ -4108,7 +4108,7 @@ pg.activity_template = {
 		}
 	},
 	[973] = {
-		mark = 20210520,
+		mark = 20210617,
 		page_info = "",
 		type = 13,
 		login_pop = 0,
