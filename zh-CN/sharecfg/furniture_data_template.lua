@@ -6878,6 +6878,83 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100027] = {
+		can_rotate = 0,
+		describe = "乘着泡泡~远走高飞~",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "paopaojiicon",
+		count = 1,
+		name = "啾啾泡泡机",
+		advice = 0,
+		id = 100027,
+		tag = 6,
+		comfortable = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"paopaojiB",
+				"normal"
+			},
+			{
+				"paopaojiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					nil,
+					{
+						"stand2"
+					},
+					"tuozhuai2"
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		can_rotate = 0,
 		describe = "到处都是破洞的地板，注意不要踩到洞里啊",
@@ -95263,6 +95340,1032 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[81001] = {
+		can_rotate = 0,
+		describe = "享受欢乐的学园生活啾！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/dibansc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 81,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "啾啾学园地板",
+		advice = 0,
+		icon = "dibansc2icon",
+		id = 81001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81002] = {
+		can_rotate = 0,
+		describe = "享受欢乐的学园生活啾！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/qiangbisc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 81,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "啾啾学园墙纸",
+		advice = 0,
+		icon = "qiangbisc2icon",
+		id = 81002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81101] = {
+		can_rotate = 0,
+		describe = "该去教室上课了啾？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/1sc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 81,
+		count = 1,
+		name = "学园办公桌",
+		advice = 0,
+		id = 81101,
+		icon = "1sc2icon",
+		comfortable = 3,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					73,
+					87
+				},
+				{
+					-1,
+					1
+				},
+				"sc2/1sc2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81102] = {
+		can_rotate = 0,
+		describe = "好好学习，天天向上啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/2sc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 81,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "啾啾金次郎雕像",
+		advice = 0,
+		icon = "2sc2icon",
+		id = 81102,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81103] = {
+		can_rotate = 1,
+		describe = "用毛笔手写的看板。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/3sc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 81,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "入学式看板",
+		advice = 0,
+		icon = "3sc2icon",
+		id = 81103,
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81104] = {
+		can_rotate = 0,
+		describe = "练习完要把篮球好好收回框里哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/4sc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 81,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "学园篮球框",
+		advice = 0,
+		icon = "4sc2icon",
+		id = 81104,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81105] = {
+		can_rotate = 0,
+		describe = "方便、能装、又好看的书包~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/5sc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 81,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "学园书包",
+		advice = 0,
+		icon = "5sc2icon",
+		id = 81105,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81106] = {
+		can_rotate = 0,
+		describe = "唔…这次的排名…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/6sc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 81,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "成绩公示板",
+		advice = 0,
+		icon = "6sc2icon",
+		id = 81106,
+		comfortable = 2,
+		size = {
+			7,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81107] = {
+		can_rotate = 0,
+		describe = "期末考的重点都在这里了！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/7sc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 81,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "书堆",
+		advice = 0,
+		icon = "7sc2icon",
+		id = 81107,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81109] = {
+		can_rotate = 0,
+		describe = "偶尔还是可以看点课外读物的！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/8sc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 81,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "书架",
+		advice = 0,
+		icon = "8sc2icon",
+		id = 81109,
+		comfortable = 3,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81110] = {
+		can_rotate = 0,
+		describe = "柜子里藏着的，是青春的小秘密。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/9sc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 81,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "学园储物柜",
+		advice = 0,
+		icon = "9sc2icon",
+		id = 81110,
+		comfortable = 3,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81112] = {
+		can_rotate = 0,
+		describe = "要喝点什么好呢~？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/10sc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 81,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "学园自贩机",
+		advice = 0,
+		icon = "10sc2icon",
+		id = 81112,
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81113] = {
+		can_rotate = 0,
+		describe = "不可以直接在上面写字哦？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/11sc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 81,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "壁挂白板",
+		advice = 0,
+		icon = "11sc2icon",
+		id = 81113,
+		comfortable = 2,
+		size = {
+			8,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81116] = {
+		can_rotate = 0,
+		describe = "5分钟后播放XX教授的特别讲座，不要错过了哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/12sc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 81,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "教室电视柜",
+		advice = 0,
+		icon = "12sc2icon",
+		id = 81116,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81117] = {
+		can_rotate = 0,
+		describe = "我们现在是在…这里？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/13sc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 81,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "教室地球仪",
+		advice = 0,
+		icon = "13sc2icon",
+		id = 81117,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81118] = {
+		can_rotate = 0,
+		describe = "不可以在资料上乱涂乱画哦？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/14sc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 81,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "教室书柜",
+		advice = 0,
+		icon = "14sc2icon",
+		id = 81118,
+		comfortable = 3,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81119] = {
+		can_rotate = 0,
+		describe = "打开课本第六十六页啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/15sc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 81,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "讲课啾",
+		advice = 0,
+		icon = "15sc2icon",
+		id = 81119,
+		comfortable = 3,
+		size = {
+			5,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81120] = {
+		can_rotate = 0,
+		describe = "整齐地放着文具和书本的课桌。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/16sc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 81,
+		count = 6,
+		name = "教室课桌A",
+		advice = 0,
+		id = 81120,
+		icon = "16sc2icon",
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					48,
+					52
+				},
+				{
+					-1,
+					1
+				},
+				"sc2/16sc2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81126] = {
+		can_rotate = 0,
+		describe = "画着可爱涂鸦的课桌。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/17sc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 81,
+		count = 3,
+		name = "教室课桌B",
+		advice = 0,
+		id = 81126,
+		icon = "17sc2icon",
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					48,
+					52
+				},
+				{
+					-1,
+					1
+				},
+				"sc2/17sc2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81129] = {
+		can_rotate = 0,
+		describe = "摊着笔记和参考材料的课桌。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/18sc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 81,
+		count = 3,
+		name = "教室课桌C",
+		advice = 0,
+		id = 81129,
+		icon = "18sc2icon",
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					48,
+					52
+				},
+				{
+					-1,
+					1
+				},
+				"sc2/18sc2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81132] = {
+		can_rotate = 1,
+		describe = "快坐好，特别补习要开始了啾！",
+		gain_by = "",
+		type = 13,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		canputon = 0,
+		themeId = 81,
+		icon = "Asc2icon",
+		count = 1,
+		name = "教学啾",
+		id = 81132,
+		advice = 0,
+		comfortable = 4,
+		deblocking = 1,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Asc2B",
+				"normal"
+			},
+			{
+				"Asc2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						"Asc2CharControl",
+						"sit"
+					},
+					{
+						"sit2",
+						"Asc2CharControl",
+						"sit"
+					},
+					{
+						"sit3",
+						"Asc2CharControl",
+						"sit"
+					},
+					{
+						"sit4",
+						"Asc2CharControl",
+						"sit"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"Asc2CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[81301] = {
+		can_rotate = 0,
+		describe = "和煦的风中飘过的，是骚动的青春。",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/19sc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 81,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 3,
+		name = "教室的窗户",
+		advice = 0,
+		icon = "19sc2icon",
+		id = 81301,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81304] = {
+		can_rotate = 0,
+		describe = "有哪些社团在招募新成员呢？",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/20sc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 81,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "学园宣传板",
+		advice = 0,
+		icon = "20sc2icon",
+		id = 81304,
+		comfortable = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81305] = {
+		can_rotate = 0,
+		describe = "擦得很干净的教室黑板。",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/21sc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 3,
+		themeId = 81,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "教室黑板",
+		advice = 0,
+		icon = "21sc2icon",
+		id = 81305,
+		comfortable = 3,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81306] = {
+		can_rotate = 0,
+		describe = "安全~上垒！没有迟到！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sc2/22sc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 81,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "教室的门",
+		advice = 0,
+		icon = "22sc2icon",
+		id = 81306,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -95395,6 +96498,7 @@ pg.furniture_data_template = {
 		100024,
 		100025,
 		100026,
+		100027,
 		1001,
 		1002,
 		1101,
@@ -97406,6 +98510,31 @@ pg.furniture_data_template = {
 		80301,
 		80304,
 		80305,
-		80306
+		80306,
+		81001,
+		81002,
+		81101,
+		81102,
+		81103,
+		81104,
+		81105,
+		81106,
+		81107,
+		81109,
+		81110,
+		81112,
+		81113,
+		81116,
+		81117,
+		81118,
+		81119,
+		81120,
+		81126,
+		81129,
+		81132,
+		81301,
+		81304,
+		81305,
+		81306
 	}
 }

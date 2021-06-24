@@ -1,5 +1,174 @@
 pg = pg or {}
 pg.equip_data_statistics_242 = {
+	[35246] = {
+		id = 35246,
+		damage = "150 x 4",
+		base = 35240,
+		weapon_id = {
+			35246
+		}
+	},
+	[35247] = {
+		id = 35247,
+		damage = "164 x 4",
+		base = 35240,
+		weapon_id = {
+			35247
+		}
+	},
+	[35248] = {
+		id = 35248,
+		damage = "178 x 4",
+		base = 35240,
+		weapon_id = {
+			35248
+		}
+	},
+	[35249] = {
+		id = 35249,
+		damage = "192 x 4",
+		base = 35240,
+		weapon_id = {
+			35249
+		}
+	},
+	[35250] = {
+		id = 35250,
+		damage = "206 x 4",
+		base = 35240,
+		weapon_id = {
+			35250
+		}
+	},
+	[35251] = {
+		anti_siren = 100,
+		damage = "206 x 4",
+		base = 35240,
+		id = 35251,
+		weapon_id = {
+			35251
+		}
+	},
+	[35252] = {
+		anti_siren = 200,
+		damage = "206 x 4",
+		base = 35240,
+		id = 35252,
+		weapon_id = {
+			35252
+		}
+	},
+	[35253] = {
+		anti_siren = 300,
+		damage = "206 x 4",
+		base = 35240,
+		id = 35253,
+		weapon_id = {
+			35253
+		}
+	},
+	[35260] = {
+		name = "四联装610mm鱼雷改",
+		speciality = "雷击",
+		type = 5,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "35260",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "70 x 4",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 35260,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1801
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1801
+			},
+			{
+				4,
+				1403
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			35260
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"TP",
+			"QUAD"
+		}
+	},
+	[35261] = {
+		id = 35261,
+		damage = "84 x 4",
+		base = 35260,
+		weapon_id = {
+			35261
+		}
+	},
+	[35262] = {
+		id = 35262,
+		damage = "98 x 4",
+		base = 35260,
+		weapon_id = {
+			35262
+		}
+	},
+	[35263] = {
+		id = 35263,
+		damage = "112 x 4",
+		base = 35260,
+		weapon_id = {
+			35263
+		}
+	},
+	[35264] = {
+		id = 35264,
+		damage = "126 x 4",
+		base = 35260,
+		weapon_id = {
+			35264
+		}
+	},
+	[35265] = {
+		id = 35265,
+		damage = "140 x 4",
+		base = 35260,
+		weapon_id = {
+			35265
+		}
+	},
 	[35266] = {
 		id = 35266,
 		damage = "154 x 4",
@@ -22,175 +191,6 @@ pg.equip_data_statistics_242 = {
 		base = 35260,
 		weapon_id = {
 			35268
-		}
-	},
-	[35269] = {
-		id = 35269,
-		damage = "196 x 4",
-		base = 35260,
-		weapon_id = {
-			35269
-		}
-	},
-	[35270] = {
-		id = 35270,
-		damage = "210 x 4",
-		base = 35260,
-		weapon_id = {
-			35270
-		}
-	},
-	[35271] = {
-		anti_siren = 100,
-		damage = "210 x 4",
-		base = 35260,
-		id = 35271,
-		weapon_id = {
-			35271
-		}
-	},
-	[35272] = {
-		anti_siren = 200,
-		damage = "210 x 4",
-		base = 35260,
-		id = 35272,
-		weapon_id = {
-			35272
-		}
-	},
-	[35273] = {
-		anti_siren = 300,
-		damage = "210 x 4",
-		base = 35260,
-		id = 35273,
-		weapon_id = {
-			35273
-		}
-	},
-	[35300] = {
-		name = "五联装610mm鱼雷",
-		speciality = "雷击",
-		type = 5,
-		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "35300",
-		attribute_2 = "torpedo",
-		rarity = 4,
-		damage = "52 x 5",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 35300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1801
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1801
-			},
-			{
-				4,
-				1404
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			35300
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"TP",
-			"QUINT"
-		}
-	},
-	[35301] = {
-		id = 35301,
-		damage = "62 x 5",
-		base = 35300,
-		weapon_id = {
-			35301
-		}
-	},
-	[35302] = {
-		id = 35302,
-		damage = "72 x 5",
-		base = 35300,
-		weapon_id = {
-			35302
-		}
-	},
-	[35303] = {
-		id = 35303,
-		damage = "82 x 5",
-		base = 35300,
-		weapon_id = {
-			35303
-		}
-	},
-	[35304] = {
-		id = 35304,
-		damage = "92 x 5",
-		base = 35300,
-		weapon_id = {
-			35304
-		}
-	},
-	[35305] = {
-		id = 35305,
-		damage = "102 x 5",
-		base = 35300,
-		weapon_id = {
-			35305
-		}
-	},
-	[35306] = {
-		id = 35306,
-		damage = "112 x 5",
-		base = 35300,
-		weapon_id = {
-			35306
-		}
-	},
-	[35307] = {
-		id = 35307,
-		damage = "122 x 5",
-		base = 35300,
-		weapon_id = {
-			35307
-		}
-	},
-	[35308] = {
-		id = 35308,
-		damage = "132 x 5",
-		base = 35300,
-		weapon_id = {
-			35308
 		}
 	}
 }

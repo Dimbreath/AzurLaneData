@@ -82,17 +82,19 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>精锐舰船</color>：12%",
 			"<color=#3dc6ff>稀有舰船</color>：51%",
 			"普通舰船：30%",
-			"<color=#ffde38>维托里奥·维内托</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>{namecode:179}</color>：2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>天鹰</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>{namecode:175}</color>：2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>阿布鲁齐公爵</color>：0.5%",
+			"<color=#ffde38>{namecode:203}</color>：2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>西北风</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>{namecode:50}</color>：0.5%",
 			" ",
-			"<color=#d797ff>西南风</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>{namecode:180}</color>：2.5%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>尼科洛索·达雷科</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>{namecode:3}</color>：2.5%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#d797ff>{namecode:181}</color>：0.7%"
 		}
 	},
 	{

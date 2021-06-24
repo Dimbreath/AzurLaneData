@@ -1107,5 +1107,13 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "並木樱",
 		code = 277
+	},
+	{
+		actor_name = "美波和嘉菜",
+		code = 278
+	},
+	{
+		actor_name = "伊藤彩沙",
+		code = 279
 	}
 }

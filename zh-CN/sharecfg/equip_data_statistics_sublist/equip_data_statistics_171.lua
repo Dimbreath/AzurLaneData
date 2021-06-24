@@ -1,5 +1,161 @@
 pg = pg or {}
 pg.equip_data_statistics_171 = {
+	[24226] = {
+		id = 24226,
+		damage = "106 x 3",
+		base = 24220,
+		weapon_id = {
+			24226
+		}
+	},
+	[24227] = {
+		id = 24227,
+		damage = "114 x 3",
+		base = 24220,
+		weapon_id = {
+			24227
+		}
+	},
+	[24228] = {
+		id = 24228,
+		damage = "123 x 3",
+		base = 24220,
+		weapon_id = {
+			24228
+		}
+	},
+	[24229] = {
+		id = 24229,
+		damage = "132 x 3",
+		base = 24220,
+		weapon_id = {
+			24229
+		}
+	},
+	[24230] = {
+		id = 24230,
+		damage = "141 x 3",
+		base = 24220,
+		weapon_id = {
+			24230
+		}
+	},
+	[24240] = {
+		name = "三联装406mm主炮",
+		speciality = "跨射",
+		type = 4,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "24200",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "58 x 3",
+		nationality = 2,
+		ammo = 3,
+		value_3 = 0,
+		id = 24240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1510
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			24240
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		}
+	},
+	[24241] = {
+		id = 24241,
+		damage = "68 x 3",
+		base = 24240,
+		weapon_id = {
+			24241
+		}
+	},
+	[24242] = {
+		id = 24242,
+		damage = "76 x 3",
+		base = 24240,
+		weapon_id = {
+			24242
+		}
+	},
+	[24243] = {
+		id = 24243,
+		damage = "86 x 3",
+		base = 24240,
+		weapon_id = {
+			24243
+		}
+	},
+	[24244] = {
+		id = 24244,
+		damage = "96 x 3",
+		base = 24240,
+		weapon_id = {
+			24244
+		}
+	},
+	[24245] = {
+		id = 24245,
+		damage = "106 x 3",
+		base = 24240,
+		weapon_id = {
+			24245
+		}
+	},
+	[24246] = {
+		id = 24246,
+		damage = "116 x 3",
+		base = 24240,
+		weapon_id = {
+			24246
+		}
+	},
+	[24247] = {
+		id = 24247,
+		damage = "124 x 3",
+		base = 24240,
+		weapon_id = {
+			24247
+		}
+	},
+	[24248] = {
+		id = 24248,
+		damage = "134 x 3",
+		base = 24240,
+		weapon_id = {
+			24248
+		}
+	},
 	[24249] = {
 		id = 24249,
 		damage = "144 x 3",
@@ -23,209 +179,6 @@ pg.equip_data_statistics_171 = {
 		id = 24251,
 		weapon_id = {
 			24251
-		}
-	},
-	[24252] = {
-		anti_siren = 200,
-		damage = "154 x 3",
-		base = 24240,
-		id = 24252,
-		weapon_id = {
-			24252
-		}
-	},
-	[24253] = {
-		anti_siren = 300,
-		damage = "154 x 3",
-		base = 24240,
-		id = 24253,
-		weapon_id = {
-			24253
-		}
-	},
-	[24300] = {
-		name = "双联装381mm主炮改",
-		speciality = "跨射",
-		type = 4,
-		tech = 1,
-		descrip = "双联装381mm主炮的改进型",
-		value_2 = 12,
-		icon = "24300",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "46 x 2",
-		nationality = 2,
-		ammo = 3,
-		value_3 = 0,
-		id = 24300,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1500
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			24300
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"BB",
-			"MG"
-		}
-	},
-	[24301] = {
-		id = 24301,
-		damage = "53 x 2",
-		base = 24300,
-		weapon_id = {
-			24301
-		}
-	},
-	[24302] = {
-		id = 24302,
-		damage = "60 x 2",
-		base = 24300,
-		weapon_id = {
-			24302
-		}
-	},
-	[24303] = {
-		id = 24303,
-		damage = "67 x 2",
-		base = 24300,
-		weapon_id = {
-			24303
-		}
-	},
-	[24304] = {
-		id = 24304,
-		damage = "74 x 2",
-		base = 24300,
-		weapon_id = {
-			24304
-		}
-	},
-	[24305] = {
-		id = 24305,
-		damage = "81 x 2",
-		base = 24300,
-		weapon_id = {
-			24305
-		}
-	},
-	[24306] = {
-		id = 24306,
-		damage = "88 x 2",
-		base = 24300,
-		weapon_id = {
-			24306
-		}
-	},
-	[24320] = {
-		name = "双联装381mm主炮改",
-		speciality = "跨射",
-		type = 4,
-		tech = 2,
-		descrip = "双联装381mm主炮的改进型",
-		value_2 = 25,
-		icon = "24300",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "51 x 2",
-		nationality = 2,
-		ammo = 2,
-		value_3 = 0,
-		id = 24320,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				2,
-				1502
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			24320
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"BB",
-			"MG",
-			"HE"
-		}
-	},
-	[24321] = {
-		id = 24321,
-		damage = "58 x 2",
-		base = 24320,
-		weapon_id = {
-			24321
-		}
-	},
-	[24322] = {
-		id = 24322,
-		damage = "65 x 2",
-		base = 24320,
-		weapon_id = {
-			24322
-		}
-	},
-	[24323] = {
-		id = 24323,
-		damage = "72 x 2",
-		base = 24320,
-		weapon_id = {
-			24323
-		}
-	},
-	[24324] = {
-		id = 24324,
-		damage = "80 x 2",
-		base = 24320,
-		weapon_id = {
-			24324
 		}
 	}
 }

@@ -32,6 +32,9 @@ function pm.Facade.sendNotification(slot0, slot1, slot2, slot3)
 		uv1(slot0, GAME.CHECK_HOTFIX_VER, {
 			mediatorName = slot5
 		})
+		uv1(slot0, GAME.TACTICS_META_LEVELMAX_SHOW_BOX, {
+			mediatorName = slot5
+		})
 	end
 
 	if slot1 == GAME.BEGIN_STAGE then

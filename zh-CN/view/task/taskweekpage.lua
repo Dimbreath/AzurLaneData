@@ -185,9 +185,27 @@ function slot0.UpdateWeekProgressGetBtn(slot0, slot1)
 	setActive(slot0.tip, slot2)
 	onButton(slot0, slot0.getBtn, function ()
 		if uv0 then
-			uv1:emit(TaskMediator.ON_SUBMIT_WEEK_PROGREE)
+			uv1:JudgeOverflow(uv2, function ()
+				uv0:emit(TaskMediator.ON_SUBMIT_WEEK_PROGREE)
+			end)
 		end
 	end, SFX_PANEL)
+end
+
+function slot0.JudgeOverflow(slot0, slot1, slot2)
+	slot3 = getProxy(PlayerProxy):getRawData()
+	slot7, slot8 = Task.StaticJudgeOverflow(slot3.gold, slot3.oil, LOCK_UR_SHIP and 0 or getProxy(BagProxy):GetLimitCntById(pg.gameset.urpt_chapter_max.description[1]), true, true, slot1:GetDropList())
+
+	if slot7 then
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_ITEM_BOX,
+			content = i18n("award_max_warning"),
+			items = slot8,
+			onYes = slot2
+		})
+	else
+		slot2()
+	end
 end
 
 function slot0.OnDestroy(slot0)

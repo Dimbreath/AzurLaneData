@@ -1,5 +1,168 @@
 pg = pg or {}
 pg.equip_data_statistics_248 = {
+	[35522] = {
+		id = 35522,
+		damage = "81 x 2",
+		base = 35520,
+		weapon_id = {
+			35522
+		}
+	},
+	[35523] = {
+		id = 35523,
+		damage = "90 x 2",
+		base = 35520,
+		weapon_id = {
+			35523
+		}
+	},
+	[35524] = {
+		id = 35524,
+		damage = "99 x 2",
+		base = 35520,
+		weapon_id = {
+			35524
+		}
+	},
+	[35525] = {
+		id = 35525,
+		damage = "108 x 2",
+		base = 35520,
+		weapon_id = {
+			35525
+		}
+	},
+	[35526] = {
+		id = 35526,
+		damage = "117 x 2",
+		base = 35520,
+		weapon_id = {
+			35526
+		}
+	},
+	[35527] = {
+		id = 35527,
+		damage = "127 x 2",
+		base = 35520,
+		weapon_id = {
+			35527
+		}
+	},
+	[35528] = {
+		id = 35528,
+		damage = "137 x 2",
+		base = 35520,
+		weapon_id = {
+			35528
+		}
+	},
+	[35529] = {
+		id = 35529,
+		damage = "147 x 2",
+		base = 35520,
+		weapon_id = {
+			35529
+		}
+	},
+	[35530] = {
+		id = 35530,
+		damage = "157 x 2",
+		base = 35520,
+		weapon_id = {
+			35530
+		}
+	},
+	[35540] = {
+		name = "潜艇用95式纯氧鱼雷",
+		speciality = "雷击",
+		type = 13,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "35500",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "70 x 2",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 35540,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1824
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1824
+			},
+			{
+				4,
+				1601
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			35540
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		}
+	},
+	[35541] = {
+		id = 35541,
+		damage = "80 x 2",
+		base = 35540,
+		weapon_id = {
+			35541
+		}
+	},
+	[35542] = {
+		id = 35542,
+		damage = "90 x 2",
+		base = 35540,
+		weapon_id = {
+			35542
+		}
+	},
+	[35543] = {
+		id = 35543,
+		damage = "100 x 2",
+		base = 35540,
+		weapon_id = {
+			35543
+		}
+	},
+	[35544] = {
+		id = 35544,
+		damage = "110 x 2",
+		base = 35540,
+		weapon_id = {
+			35544
+		}
+	},
 	[35545] = {
 		id = 35545,
 		damage = "120 x 2",
@@ -22,172 +185,6 @@ pg.equip_data_statistics_248 = {
 		base = 35540,
 		weapon_id = {
 			35547
-		}
-	},
-	[35548] = {
-		id = 35548,
-		damage = "152 x 2",
-		base = 35540,
-		weapon_id = {
-			35548
-		}
-	},
-	[35549] = {
-		id = 35549,
-		damage = "163 x 2",
-		base = 35540,
-		weapon_id = {
-			35549
-		}
-	},
-	[35550] = {
-		id = 35550,
-		damage = "174 x 2",
-		base = 35540,
-		weapon_id = {
-			35550
-		}
-	},
-	[35551] = {
-		anti_siren = 100,
-		damage = "174 x 2",
-		base = 35540,
-		id = 35551,
-		weapon_id = {
-			35551
-		}
-	},
-	[35552] = {
-		anti_siren = 200,
-		damage = "174 x 2",
-		base = 35540,
-		id = 35552,
-		weapon_id = {
-			35552
-		}
-	},
-	[35553] = {
-		anti_siren = 300,
-		damage = "174 x 2",
-		base = 35540,
-		id = 35553,
-		weapon_id = {
-			35553
-		}
-	},
-	[35560] = {
-		name = "潜艇用96式纯氧鱼雷",
-		speciality = "雷击",
-		type = 13,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 45,
-		icon = "35560",
-		attribute_2 = "torpedo",
-		rarity = 5,
-		damage = "76 x 2",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 35560,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1835
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1835
-			},
-			{
-				4,
-				1601
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			35560
-		},
-		skill_id = {},
-		part_main = {
-			8,
-			17
-		},
-		part_sub = {
-			8,
-			17
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"SS",
-			"TP"
-		}
-	},
-	[35561] = {
-		id = 35561,
-		damage = "86 x 2",
-		base = 35560,
-		weapon_id = {
-			35561
-		}
-	},
-	[35562] = {
-		id = 35562,
-		damage = "96 x 2",
-		base = 35560,
-		weapon_id = {
-			35562
-		}
-	},
-	[35563] = {
-		id = 35563,
-		damage = "106 x 2",
-		base = 35560,
-		weapon_id = {
-			35563
-		}
-	},
-	[35564] = {
-		id = 35564,
-		damage = "116 x 2",
-		base = 35560,
-		weapon_id = {
-			35564
-		}
-	},
-	[35565] = {
-		id = 35565,
-		damage = "126 x 2",
-		base = 35560,
-		weapon_id = {
-			35565
-		}
-	},
-	[35566] = {
-		id = 35566,
-		damage = "136 x 2",
-		base = 35560,
-		weapon_id = {
-			35566
-		}
-	},
-	[35567] = {
-		id = 35567,
-		damage = "147 x 2",
-		base = 35560,
-		weapon_id = {
-			35567
 		}
 	}
 }

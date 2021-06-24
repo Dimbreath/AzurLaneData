@@ -4202,5 +4202,57 @@ pg.ship_skin_expression_ex = {
 				"5"
 			}
 		}
+	},
+	fengyun = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		touch2 = "",
+		mail = "",
+		painting = "fengyun",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"6"
+			}
+		},
+		home = {
+			{
+				1100,
+				"2"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"6"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"2|6"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"1"
+			}
+		}
 	}
 }

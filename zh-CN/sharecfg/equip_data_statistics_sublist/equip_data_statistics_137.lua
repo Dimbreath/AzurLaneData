@@ -1,5 +1,313 @@
 pg = pg or {}
 pg.equip_data_statistics_137 = {
+	[18002] = {
+		id = 18002,
+		base = 18000,
+		ammo_info = {
+			{
+				6,
+				50002
+			},
+			{
+				4,
+				51002
+			}
+		},
+		weapon_id = {
+			18002
+		}
+	},
+	[18003] = {
+		id = 18003,
+		base = 18000,
+		ammo_info = {
+			{
+				6,
+				50003
+			},
+			{
+				4,
+				51003
+			}
+		},
+		weapon_id = {
+			18003
+		}
+	},
+	[18020] = {
+		name = "TBD蹂躏者",
+		type = 8,
+		speciality = "雷击",
+		rarity = 2,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 5,
+		icon = "18000",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 18020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50020
+			},
+			{
+				4,
+				51020
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			18020
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
+	},
+	[18021] = {
+		id = 18021,
+		base = 18020,
+		ammo_info = {
+			{
+				6,
+				50021
+			},
+			{
+				4,
+				51021
+			}
+		},
+		weapon_id = {
+			18021
+		}
+	},
+	[18022] = {
+		id = 18022,
+		base = 18020,
+		ammo_info = {
+			{
+				6,
+				50022
+			},
+			{
+				4,
+				51022
+			}
+		},
+		weapon_id = {
+			18022
+		}
+	},
+	[18023] = {
+		id = 18023,
+		base = 18020,
+		ammo_info = {
+			{
+				6,
+				50023
+			},
+			{
+				4,
+				51023
+			}
+		},
+		weapon_id = {
+			18023
+		}
+	},
+	[18040] = {
+		name = "TBD蹂躏者",
+		type = 8,
+		speciality = "雷击",
+		rarity = 3,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "18000",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 18040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				4,
+				51040
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			18040
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
+	},
+	[18041] = {
+		id = 18041,
+		base = 18040,
+		ammo_info = {
+			{
+				6,
+				50041
+			},
+			{
+				4,
+				51041
+			}
+		},
+		weapon_id = {
+			18041
+		}
+	},
+	[18042] = {
+		id = 18042,
+		base = 18040,
+		ammo_info = {
+			{
+				6,
+				50042
+			},
+			{
+				4,
+				51042
+			}
+		},
+		weapon_id = {
+			18042
+		}
+	},
+	[18043] = {
+		id = 18043,
+		base = 18040,
+		ammo_info = {
+			{
+				6,
+				50043
+			},
+			{
+				4,
+				51043
+			}
+		},
+		weapon_id = {
+			18043
+		}
+	},
+	[18044] = {
+		id = 18044,
+		base = 18040,
+		ammo_info = {
+			{
+				6,
+				50044
+			},
+			{
+				4,
+				51044
+			}
+		},
+		weapon_id = {
+			18044
+		}
+	},
+	[18045] = {
+		id = 18045,
+		base = 18040,
+		ammo_info = {
+			{
+				6,
+				50045
+			},
+			{
+				4,
+				51045
+			}
+		},
+		weapon_id = {
+			18045
+		}
+	},
+	[18046] = {
+		id = 18046,
+		base = 18040,
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				4,
+				51046
+			}
+		},
+		weapon_id = {
+			18046
+		}
+	},
+	[18047] = {
+		id = 18047,
+		base = 18040,
+		ammo_info = {
+			{
+				6,
+				50047
+			},
+			{
+				4,
+				51047
+			}
+		},
+		weapon_id = {
+			18047
+		}
+	},
 	[18060] = {
 		name = "TBD蹂躏者(VT-8中队)",
 		type = 8,
@@ -92,315 +400,6 @@ pg.equip_data_statistics_137 = {
 		},
 		skill_id = {
 			6322
-		}
-	},
-	[18063] = {
-		base = 18060,
-		id = 18063,
-		ammo_info = {
-			{
-				6,
-				59563
-			},
-			{
-				4,
-				59583
-			}
-		},
-		weapon_id = {
-			18063
-		},
-		skill_id = {
-			6323
-		}
-	},
-	[18064] = {
-		base = 18060,
-		id = 18064,
-		ammo_info = {
-			{
-				6,
-				59564
-			},
-			{
-				4,
-				59584
-			}
-		},
-		weapon_id = {
-			18064
-		},
-		skill_id = {
-			6324
-		}
-	},
-	[18065] = {
-		base = 18060,
-		id = 18065,
-		ammo_info = {
-			{
-				6,
-				59565
-			},
-			{
-				4,
-				59585
-			}
-		},
-		weapon_id = {
-			18065
-		},
-		skill_id = {
-			6325
-		}
-	},
-	[18066] = {
-		base = 18060,
-		id = 18066,
-		ammo_info = {
-			{
-				6,
-				59566
-			},
-			{
-				4,
-				59586
-			}
-		},
-		weapon_id = {
-			18066
-		},
-		skill_id = {
-			6326
-		}
-	},
-	[18067] = {
-		base = 18060,
-		id = 18067,
-		ammo_info = {
-			{
-				6,
-				59567
-			},
-			{
-				4,
-				59587
-			}
-		},
-		weapon_id = {
-			18067
-		},
-		skill_id = {
-			6327
-		}
-	},
-	[18068] = {
-		base = 18060,
-		id = 18068,
-		ammo_info = {
-			{
-				6,
-				59568
-			},
-			{
-				4,
-				59588
-			}
-		},
-		weapon_id = {
-			18068
-		},
-		skill_id = {
-			6328
-		}
-	},
-	[18069] = {
-		base = 18060,
-		id = 18069,
-		ammo_info = {
-			{
-				6,
-				59569
-			},
-			{
-				4,
-				59589
-			}
-		},
-		weapon_id = {
-			18069
-		},
-		skill_id = {
-			6329
-		}
-	},
-	[18070] = {
-		base = 18060,
-		id = 18070,
-		ammo_info = {
-			{
-				6,
-				59570
-			},
-			{
-				4,
-				59590
-			}
-		},
-		weapon_id = {
-			18070
-		},
-		skill_id = {
-			6330
-		}
-	},
-	[18071] = {
-		anti_siren = 100,
-		base = 18060,
-		id = 18071,
-		ammo_info = {
-			{
-				6,
-				59571
-			},
-			{
-				4,
-				59591
-			}
-		},
-		weapon_id = {
-			18071
-		},
-		skill_id = {
-			6331
-		}
-	},
-	[18072] = {
-		anti_siren = 200,
-		base = 18060,
-		id = 18072,
-		ammo_info = {
-			{
-				6,
-				59572
-			},
-			{
-				4,
-				59592
-			}
-		},
-		weapon_id = {
-			18072
-		},
-		skill_id = {
-			6332
-		}
-	},
-	[18073] = {
-		anti_siren = 300,
-		base = 18060,
-		id = 18073,
-		ammo_info = {
-			{
-				6,
-				59573
-			},
-			{
-				4,
-				59593
-			}
-		},
-		weapon_id = {
-			18073
-		},
-		skill_id = {
-			6333
-		}
-	},
-	[18100] = {
-		name = "TBF复仇者",
-		type = 8,
-		speciality = "雷击",
-		rarity = 2,
-		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "18100",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 18100,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50000
-			},
-			{
-				4,
-				51100
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			18100
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"TB"
-		}
-	},
-	[18101] = {
-		id = 18101,
-		base = 18100,
-		ammo_info = {
-			{
-				6,
-				50001
-			},
-			{
-				4,
-				51101
-			}
-		},
-		weapon_id = {
-			18101
-		}
-	},
-	[18102] = {
-		id = 18102,
-		base = 18100,
-		ammo_info = {
-			{
-				6,
-				50002
-			},
-			{
-				4,
-				51102
-			}
-		},
-		weapon_id = {
-			18102
 		}
 	}
 }

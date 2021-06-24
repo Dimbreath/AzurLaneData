@@ -2,6 +2,506 @@ pg = pg or {}
 pg.weapon_property_340 = {}
 
 function ()
+	uv0.weapon_property_340[783219] = {
+		aim_type = 0,
+		range = 120,
+		damage = 6,
+		base = 1000,
+		name = "【2021意大利活动D3】BOSS 测试者 3way风旋",
+		fire_fx = "",
+		suppress = 0,
+		reload_max = 6000,
+		fire_sfx = "battle/cannon-main",
+		queue = 2,
+		id = 783219,
+		bullet_ID = {
+			830072
+		},
+		barrage_ID = {
+			840143
+		}
+	}
+	uv0.weapon_property_340[783220] = {
+		action_index = "attack",
+		range = 120,
+		type = 24,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【2021意大利活动D3】BOSS 测试者 雷电扫射 逆时针",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 16,
+		corrected = 100,
+		min_range = 0,
+		id = 783220,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 6000,
+		queue = 4,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			830037,
+			830038,
+			830037,
+			830038,
+			830037,
+			830038,
+			830037,
+			830038,
+			830037,
+			830038,
+			830037,
+			830038,
+			830037,
+			830038
+		},
+		barrage_ID = {
+			840107,
+			840108,
+			840109,
+			840110,
+			840111,
+			840112,
+			840113,
+			840114,
+			840115,
+			840116,
+			840117,
+			840118,
+			840119,
+			840120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.1,
+			fx = "jinengenemy",
+			alertTime = 0.1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_340[783221] = {
+		action_index = "attack",
+		range = 120,
+		type = 24,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【2021意大利活动D3】BOSS 测试者 雷电扫射 顺时针",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 16,
+		corrected = 100,
+		min_range = 0,
+		id = 783221,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 6000,
+		queue = 5,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			830037,
+			830038,
+			830037,
+			830038,
+			830037,
+			830038,
+			830037,
+			830038,
+			830037,
+			830038,
+			830037,
+			830038,
+			830037,
+			830038
+		},
+		barrage_ID = {
+			840121,
+			840122,
+			840123,
+			840124,
+			840125,
+			840126,
+			840127,
+			840128,
+			840129,
+			840130,
+			840131,
+			840132,
+			840133,
+			840134
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.1,
+			fx = "jinengenemy",
+			alertTime = 0.1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_340[783301] = {
+		name = "【2021意大利活动D】塞壬驱逐R型单发瞄准x4随机",
+		damage = 7,
+		base = 1001002,
+		id = 783301,
+		bullet_ID = {
+			830005,
+			830001
+		},
+		barrage_ID = {
+			840003,
+			840004
+		}
+	}
+	uv0.weapon_property_340[783302] = {
+		name = "【2021意大利活动D】塞壬驱逐R型单装鱼雷",
+		damage = 40,
+		base = 1001007,
+		id = 783302,
+		bullet_ID = {
+			30067
+		},
+		barrage_ID = {
+			1400
+		}
+	}
+	uv0.weapon_property_340[783303] = {
+		name = "【2021意大利活动D】塞壬驱逐R型旋转子弹3+2发武器",
+		damage = 7,
+		base = 1001012,
+		id = 783303,
+		bullet_ID = {
+			41003,
+			830003
+		},
+		barrage_ID = {
+			690001,
+			690002
+		}
+	}
+	uv0.weapon_property_340[783304] = {
+		name = "【2021意大利活动D】塞壬轻巡R型旋转子弹延迟1+2+1连弹",
+		damage = 15,
+		base = 1001017,
+		id = 783304,
+		bullet_ID = {
+			830004,
+			300110,
+			830004
+		},
+		barrage_ID = {
+			690003,
+			690004,
+			690005
+		}
+	}
+	uv0.weapon_property_340[783305] = {
+		name = "【2021意大利活动D】塞壬轻巡R型联装炮x6散射",
+		damage = 13,
+		base = 1001022,
+		id = 783305,
+		bullet_ID = {
+			830001,
+			830005
+		},
+		barrage_ID = {
+			840005,
+			840006
+		}
+	}
+	uv0.weapon_property_340[783306] = {
+		name = "【2021意大利活动D】塞壬重巡R型大船通用副炮",
+		damage = 7,
+		base = 1001027,
+		id = 783306,
+		bullet_ID = {
+			830001,
+			830005
+		},
+		barrage_ID = {
+			840001,
+			840002
+		}
+	}
+	uv0.weapon_property_340[783307] = {
+		name = "【2021意大利活动D】塞壬重巡R型双联装主炮x2-散射",
+		damage = 28,
+		base = 1001032,
+		id = 783307,
+		bullet_ID = {
+			830002
+		},
+		barrage_ID = {
+			690007
+		}
+	}
+	uv0.weapon_property_340[783308] = {
+		name = "【2021意大利活动D】塞壬重巡R型双联装鱼雷",
+		damage = 40,
+		base = 1001037,
+		id = 783308,
+		bullet_ID = {
+			30067
+		},
+		barrage_ID = {
+			1401
+		}
+	}
+	uv0.weapon_property_340[783309] = {
+		name = "【2021意大利活动D】塞壬战列R型副炮",
+		damage = 7,
+		base = 1001042,
+		id = 783309,
+		bullet_ID = {
+			830005
+		},
+		barrage_ID = {
+			12
+		}
+	}
+	uv0.weapon_property_340[783310] = {
+		name = "【2021意大利活动D】塞壬战列R型主炮",
+		damage = 36,
+		base = 1001047,
+		id = 783310,
+		bullet_ID = {
+			830007
+		},
+		barrage_ID = {
+			10015
+		}
+	}
+	uv0.weapon_property_340[783311] = {
+		name = "【2021意大利活动D】塞壬战列R型跨射武器3x2轮",
+		damage = 63,
+		base = 1001052,
+		id = 783311,
+		bullet_ID = {
+			830007
+		},
+		barrage_ID = {
+			20018
+		}
+	}
+	uv0.weapon_property_340[783312] = {
+		name = "【2021意大利活动D】塞壬航母R型近程自卫火炮",
+		damage = 8,
+		base = 1001057,
+		id = 783312,
+		bullet_ID = {
+			830001
+		},
+		barrage_ID = {
+			13
+		}
+	}
+	uv0.weapon_property_340[783313] = {
+		name = "【2021意大利活动D】塞壬航母R型单发x6随机",
+		damage = 13,
+		base = 1001062,
+		id = 783313,
+		bullet_ID = {
+			830005
+		},
+		barrage_ID = {
+			1106
+		}
+	}
+	uv0.weapon_property_340[783314] = {
+		name = "【2021意大利活动D】塞壬自爆船R型特殊武器",
+		damage = 18,
+		base = 1000871,
+		id = 783314,
+		bullet_ID = {
+			830006
+		},
+		barrage_ID = {
+			700029
+		}
+	}
+	uv0.weapon_property_340[783315] = {
+		name = "【2021意大利活动D3】精英人形 光辉 扫射弹幕",
+		damage = 18,
+		base = 1000,
+		fire_fx = "CAFire",
+		reload_max = 1000,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 783315,
+		bullet_ID = {
+			1101,
+			1101,
+			1101,
+			1101,
+			1101
+		},
+		barrage_ID = {
+			690134,
+			690135,
+			690136,
+			690137,
+			690138
+		}
+	}
+	uv0.weapon_property_340[783316] = {
+		id = 783316,
+		name = "【2021意大利活动D】塞壬航母R型轰炸机",
+		base = 1001069
+	}
+	uv0.weapon_property_340[783317] = {
+		id = 783317,
+		name = "【2021意大利活动D】塞壬航母R型战斗机",
+		base = 1001074
+	}
+	uv0.weapon_property_340[783318] = {
+		aim_type = 1,
+		damage = 20,
+		base = 1000,
+		name = "【2021意大利活动D】精英人形 可畏 自机狙弹幕",
+		suppress = 1,
+		reload_max = 1500,
+		queue = 1,
+		id = 783318,
+		bullet_ID = {
+			740016
+		},
+		barrage_ID = {
+			740026
+		}
+	}
+	uv0.weapon_property_340[784001] = {
+		aim_type = 0,
+		range = 120,
+		damage = 10,
+		base = 1000,
+		name = "【2021意大利活动SP】BOSS 测试者 强化箭头弹幕 雷 逆时针",
+		fire_fx = "",
+		suppress = 0,
+		reload_max = 2000,
+		fire_sfx = "battle/cannon-main",
+		queue = 2,
+		id = 784001,
+		bullet_ID = {
+			830077,
+			830077
+		},
+		barrage_ID = {
+			840138,
+			840139
+		}
+	}
+	uv0.weapon_property_340[784002] = {
+		aim_type = 0,
+		range = 120,
+		damage = 10,
+		base = 1000,
+		name = "【2021意大利活动SP】BOSS 测试者 强化箭头弹幕 雷 顺时针",
+		fire_fx = "",
+		suppress = 0,
+		reload_max = 2000,
+		fire_sfx = "battle/cannon-main",
+		queue = 2,
+		id = 784002,
+		bullet_ID = {
+			830077,
+			830077
+		},
+		barrage_ID = {
+			840140,
+			840141
+		}
+	}
+	uv0.weapon_property_340[784003] = {
+		aim_type = 0,
+		range = 120,
+		damage = 10,
+		base = 1000,
+		name = "【2021意大利活动SP】BOSS 测试者 强化箭头弹幕 水",
+		fire_fx = "",
+		suppress = 0,
+		reload_max = 2000,
+		fire_sfx = "battle/cannon-main",
+		queue = 2,
+		id = 784003,
+		bullet_ID = {
+			830080
+		},
+		barrage_ID = {
+			840084
+		}
+	}
+	uv0.weapon_property_340[784004] = {
+		aim_type = 1,
+		range = 120,
+		damage = 8,
+		base = 1000,
+		name = "【2021意大利活动SP】BOSS 测试者 强化箭头弹幕 风",
+		fire_fx = "",
+		suppress = 1,
+		reload_max = 2000,
+		fire_sfx = "battle/cannon-main",
+		queue = 2,
+		id = 784004,
+		bullet_ID = {
+			830062
+		},
+		barrage_ID = {
+			840086
+		}
+	}
+	uv0.weapon_property_340[784005] = {
+		aim_type = 0,
+		range = 120,
+		damage = 8,
+		base = 1000,
+		name = "【2021意大利活动SP】BOSS 测试者 两侧水波纹弹幕",
+		fire_fx = "",
+		suppress = 0,
+		reload_max = 6000,
+		fire_sfx = "battle/cannon-main",
+		queue = 2,
+		id = 784005,
+		bullet_ID = {
+			830082,
+			830083
+		},
+		barrage_ID = {
+			840091,
+			840092
+		}
+	}
 	uv0.weapon_property_340[784006] = {
 		aim_type = 0,
 		range = 120,
@@ -922,770 +1422,5 @@ function ()
 			840161,
 			840162
 		}
-	}
-	uv0.weapon_property_340[785002] = {
-		aim_type = 0,
-		range = 120,
-		damage = 40,
-		base = 1000,
-		name = "【2021意大利活动EX】BOSS 测试者 第一波 开幕弹 黄色子弹",
-		fire_fx = "",
-		suppress = 0,
-		reload_max = 6000,
-		queue = 2,
-		id = 785002,
-		bullet_ID = {
-			830090,
-			830090,
-			830090,
-			830090
-		},
-		barrage_ID = {
-			840163,
-			840164,
-			840165,
-			840166
-		}
-	}
-	uv0.weapon_property_340[785003] = {
-		aim_type = 0,
-		range = 120,
-		damage = 20,
-		base = 1000,
-		name = "【2021意大利活动EX】BOSS 测试者 第二波 古代罗马史 固定弹",
-		fire_fx = "",
-		suppress = 0,
-		reload_max = 6000,
-		queue = 1,
-		id = 785003,
-		bullet_ID = {
-			830091,
-			830092
-		},
-		barrage_ID = {
-			840176,
-			840177
-		}
-	}
-	uv0.weapon_property_340[785004] = {
-		aim_type = 1,
-		range = 120,
-		damage = 40,
-		base = 1000,
-		name = "【2021意大利活动EX】BOSS 测试者 第二波 古代罗马史 自机狙",
-		fire_fx = "",
-		suppress = 1,
-		reload_max = 6000,
-		queue = 2,
-		id = 785004,
-		bullet_ID = {
-			830094,
-			830095,
-			830096,
-			830097,
-			830098
-		},
-		barrage_ID = {
-			840178,
-			840179,
-			840180,
-			840181,
-			840182
-		}
-	}
-	uv0.weapon_property_340[785005] = {
-		aim_type = 0,
-		range = 120,
-		damage = 20,
-		base = 1000,
-		name = "【2021意大利活动EX】BOSS 测试者 第三波 未来罗马史 固定弹",
-		fire_fx = "",
-		suppress = 0,
-		reload_max = 6000,
-		queue = 1,
-		id = 785005,
-		bullet_ID = {
-			830105,
-			830106,
-			830107,
-			830108
-		},
-		barrage_ID = {
-			840198,
-			840199,
-			840198,
-			840199
-		}
-	}
-	uv0.weapon_property_340[785006] = {
-		aim_type = 1,
-		range = 120,
-		damage = 40,
-		base = 1000,
-		name = "【2021意大利活动EX】BOSS 测试者 第三波 未来罗马史 自机狙",
-		fire_fx = "",
-		suppress = 1,
-		reload_max = 6000,
-		queue = 2,
-		id = 785006,
-		bullet_ID = {
-			830110,
-			830111,
-			830112,
-			830113,
-			830114
-		},
-		barrage_ID = {
-			840178,
-			840179,
-			840180,
-			840181,
-			840182
-		}
-	}
-	uv0.weapon_property_340[785007] = {
-		aim_type = 0,
-		range = 120,
-		damage = 20,
-		base = 1000,
-		name = "【2021意大利活动EX】BOSS 测试者 第四波 雄鹰天翔",
-		fire_fx = "",
-		suppress = 0,
-		reload_max = 600,
-		queue = 1,
-		id = 785007,
-		bullet_ID = {
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830121,
-			830122,
-			830126
-		},
-		barrage_ID = {
-			840200,
-			840201,
-			840202,
-			840203,
-			840204,
-			840205,
-			840206,
-			840207,
-			840208,
-			840209,
-			840210,
-			840211,
-			840212,
-			840213,
-			840214,
-			840215,
-			840216,
-			840217,
-			840218,
-			840219,
-			840220,
-			840221,
-			840221
-		}
-	}
-	uv0.weapon_property_340[785008] = {
-		aim_type = 1,
-		range = 120,
-		damage = 20,
-		base = 1000,
-		name = "【2021意大利活动EX】BOSS 测试者 第四波 自机狙",
-		fire_fx = "",
-		suppress = 1,
-		reload_max = 510,
-		queue = 2,
-		id = 785008,
-		bullet_ID = {
-			830131,
-			830132,
-			830133,
-			830134,
-			830135,
-			830136,
-			830137,
-			830138
-		},
-		barrage_ID = {
-			840228,
-			840229,
-			840230,
-			840231,
-			840232,
-			840233,
-			840234,
-			840235
-		}
-	}
-	uv0.weapon_property_340[785009] = {
-		aim_type = 0,
-		range = 120,
-		damage = 25,
-		base = 1000,
-		name = "【2021意大利活动EX】BOSS 测试者 第五波 谢幕弹",
-		suppress = 0,
-		reload_max = 6000,
-		queue = 1,
-		id = 785009,
-		bullet_ID = {
-			830139,
-			830139,
-			830139,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140
-		},
-		barrage_ID = {
-			700522,
-			700523,
-			700524,
-			700525,
-			700526,
-			700527,
-			700528,
-			700529,
-			700530,
-			700531,
-			700532,
-			700533,
-			700534,
-			700535,
-			700536
-		}
-	}
-	uv0.weapon_property_340[785010] = {
-		aim_type = 0,
-		range = 120,
-		damage = 25,
-		base = 1000,
-		name = "【2021意大利活动EX】BOSS 测试者 第五波 谢幕弹",
-		suppress = 0,
-		reload_max = 6000,
-		queue = 2,
-		id = 785010,
-		bullet_ID = {
-			830139,
-			830139,
-			830139,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140,
-			830140
-		},
-		barrage_ID = {
-			700537,
-			700538,
-			700539,
-			700540,
-			700541,
-			700542,
-			700543,
-			700544,
-			700545,
-			700546,
-			700547,
-			700548,
-			700549,
-			700550,
-			700551
-		}
-	}
-	uv0.weapon_property_340[790001] = {
-		aim_type = 1,
-		name = "【2021美系活动A1】塞壬破局者I型 前排跨射",
-		axis_angle = 0,
-		type = 19,
-		min_range = 20,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		initial_over_heat = 0,
-		reload_max = 1500,
-		queue = 1,
-		angle = 40,
-		range = 50,
-		damage = 18,
-		base = 1000,
-		suppress = 1,
-		spawn_bound = "cannon2",
-		fire_sfx = "battle/cannon-main",
-		id = 790001,
-		bullet_ID = {
-			399988
-		},
-		barrage_ID = {
-			399912
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2
-		}
-	}
-	uv0.weapon_property_340[790002] = {
-		aim_type = 1,
-		name = "【2021美系活动A1】塞壬破局者I型 后排跨射",
-		axis_angle = 0,
-		type = 19,
-		min_range = 75,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		initial_over_heat = 0,
-		reload_max = 2000,
-		queue = 1,
-		angle = 40,
-		range = 150,
-		damage = 22,
-		base = 1000,
-		suppress = 1,
-		spawn_bound = "cannon3",
-		fire_sfx = "battle/cannon-main",
-		id = 790002,
-		bullet_ID = {
-			1530
-		},
-		barrage_ID = {
-			20017
-		},
-		precast_param = {
-			time = 1,
-			fx = "jinengenemy",
-			alertTime = 2
-		}
-	}
-	uv0.weapon_property_340[790003] = {
-		initial_over_heat = 0,
-		name = "【2021美系活动A1】塞壬破局者I型 主炮中心弹幕",
-		type = 1,
-		aim_type = 1,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		reload_max = 1200,
-		queue = 3,
-		range = 90,
-		damage = 18,
-		base = 1000,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 790003,
-		bullet_ID = {
-			690102
-		},
-		barrage_ID = {
-			690104
-		}
-	}
-	uv0.weapon_property_340[790004] = {
-		initial_over_heat = 0,
-		name = "【2021美系活动A1】塞壬破局者I型 主炮竖排弹幕",
-		type = 1,
-		aim_type = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		reload_max = 1500,
-		queue = 3,
-		range = 90,
-		damage = 18,
-		base = 1000,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 790004,
-		bullet_ID = {
-			816,
-			816
-		},
-		barrage_ID = {
-			690105,
-			690106
-		}
-	}
-	uv0.weapon_property_340[790005] = {
-		initial_over_heat = 1,
-		name = "【2021美系活动A1】塞壬破局者I型 双联装炮连射",
-		type = 2,
-		aim_type = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		reload_max = 800,
-		queue = 4,
-		range = 70,
-		damage = 14,
-		base = 1000,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 790005,
-		bullet_ID = {
-			811
-		},
-		barrage_ID = {
-			690014
-		}
-	}
-	uv0.weapon_property_340[790006] = {
-		initial_over_heat = 1,
-		name = "【2021美系活动A1】塞壬破局者I型 副炮4way射击",
-		type = 2,
-		aim_type = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		reload_max = 2000,
-		queue = 4,
-		range = 70,
-		damage = 8,
-		base = 1000,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 790006,
-		bullet_ID = {
-			811,
-			811
-		},
-		barrage_ID = {
-			690107,
-			690108
-		}
-	}
-	uv0.weapon_property_340[790101] = {
-		aim_type = 1,
-		range = 38,
-		damage = 12,
-		base = 1000,
-		name = "【2021美系活动A2】BOSS 苍龙&飞龙 通用近程自卫火炮",
-		type = 2,
-		suppress = 1,
-		reload_max = 500,
-		initial_over_heat = 1,
-		queue = 5,
-		id = 790101,
-		bullet_ID = {
-			999
-		},
-		barrage_ID = {
-			12
-		}
-	}
-	uv0.weapon_property_340[790102] = {
-		aim_type = 0,
-		range = 120,
-		damage = 18,
-		base = 1002,
-		name = "【2021美系活动A2】BOSS 苍龙&飞龙 通用战斗机（自机狙）",
-		action_index = "",
-		reload_max = 2400,
-		fire_sfx = "battle/air-atk",
-		queue = 4,
-		id = 790102,
-		barrage_ID = {
-			850107
-		}
-	}
-	uv0.weapon_property_340[790103] = {
-		name = "【2021美系活动A2】BOSS 苍龙&飞龙 通用轰炸机（高爆）",
-		range = 120,
-		damage = 32,
-		base = 1002,
-		action_index = "",
-		reload_max = 2400,
-		queue = 4,
-		id = 790103,
-		barrage_ID = {
-			850108
-		}
-	}
-	uv0.weapon_property_340[790104] = {
-		action_index = "",
-		range = 85,
-		type = 1,
-		fire_fx = "fangkongpaohuoshe2",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2021美系活动A2】BOSS 苍龙&飞龙 通用战斗机弹幕（自机狙）",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 18,
-		corrected = 100,
-		min_range = 0,
-		id = 790104,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 100,
-		queue = 3,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			840108
-		},
-		barrage_ID = {
-			120303
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_340[790105] = {
-		action_index = "",
-		range = 10,
-		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2021美系活动A2】BOSS 苍龙&飞龙 通用轰炸机弹幕（高爆）",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 180,
-		charge_param = "",
-		damage = 32,
-		corrected = 100,
-		min_range = 0,
-		id = 790105,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 200,
-		queue = 2,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			840109
-		},
-		barrage_ID = {
-			130992
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_340[790106] = {
-		aim_type = 0,
-		range = 120,
-		damage = 16,
-		base = 1000,
-		name = "【2021美系活动A2】BOSS 苍龙 逆时针旋转弹幕",
-		suppress = 1,
-		reload_max = 1200,
-		queue = 2,
-		id = 790106,
-		bullet_ID = {
-			840104,
-			840105
-		},
-		barrage_ID = {
-			850103,
-			850104
-		}
-	}
-	uv0.weapon_property_340[790107] = {
-		aim_type = 0,
-		range = 120,
-		damage = 16,
-		base = 1000,
-		name = "【2021美系活动A2】BOSS 飞龙 顺时针旋转弹幕",
-		suppress = 1,
-		reload_max = 1200,
-		queue = 2,
-		id = 790107,
-		bullet_ID = {
-			840106,
-			840107
-		},
-		barrage_ID = {
-			850105,
-			850106
-		}
-	}
-	uv0.weapon_property_340[790108] = {
-		aim_type = 1,
-		range = 120,
-		damage = 12,
-		base = 1000,
-		name = "【2021美系活动A2】BOSS 苍龙 交错扩散弹",
-		suppress = 1,
-		initial_over_heat = 0,
-		reload_max = 1600,
-		queue = 2,
-		id = 790108,
-		bullet_ID = {
-			840112,
-			840113
-		},
-		barrage_ID = {
-			850111,
-			850112
-		}
-	}
-	uv0.weapon_property_340[790109] = {
-		aim_type = 1,
-		range = 120,
-		damage = 12,
-		base = 1000,
-		name = "【2021美系活动A2】BOSS 飞龙 随机扩散弹",
-		suppress = 1,
-		initial_over_heat = 0,
-		reload_max = 1600,
-		queue = 2,
-		id = 790109,
-		bullet_ID = {
-			840114,
-			840115,
-			840116
-		},
-		barrage_ID = {
-			850113,
-			850114,
-			850115
-		}
-	}
-	uv0.weapon_property_340[790110] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2021美系活动A2】BOSS 苍龙 主炮散射",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 16,
-		corrected = 100,
-		min_range = 0,
-		id = 790110,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 800,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1403
-		},
-		barrage_ID = {
-			850109
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_340[790111] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "【2021美系活动A2】BOSS 飞龙 主炮乱射",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 16,
-		corrected = 100,
-		min_range = 0,
-		id = 790111,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1403
-		},
-		barrage_ID = {
-			850110
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

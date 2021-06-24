@@ -287,39 +287,41 @@ function slot0.UpdateMeta(slot0, slot1, slot2, slot3)
 
 	setImageSprite(slot7.transform:Find("ShipImg"), LoadSprite(slot10, slot11))
 
-	slot13 = pg.gameset.meta_skill_exp_max.key_value
-	slot14 = slot4.newDayExp
 	slot15 = slot4.addDayExp
 
 	setSlider(slot7.transform:Find("Progress"), 0, slot13, slot14)
 
-	if slot13 <= slot14 then
+	slot17 = slot4.curSkillID
+	slot20 = slot4.oldSkillLevel < slot4.newSkillLevel
+
+	if pg.gameset.meta_skill_exp_max.key_value <= slot4.newDayExp then
 		setActive(slot7.transform:Find("ExpFull"), true)
 		setActive(slot7.transform:Find("ExpAdd"), false)
 	else
 		setText(slot7.transform:Find("ExpAdd/Value"), string.format("+%d", slot15))
-		setActive(slot16, false)
-		setActive(slot17, true)
-	end
+		setActive(slot21, false)
 
-	slot21 = false
-
-	if slot5:getMetaSkillLevelBySkillID(slot4.curSkillID) < slot4.newSkillLevel then
-		slot21 = true
-
-		setImageSprite(slot8.transform:Find("Skill/Icon"), LoadSprite("skillicon/" .. getSkillConfig(slot18).icon))
-
-		if pg.skill_data_template[slot18].max_level <= slot20 then
-			setActive(slot8.transform:Find("LevelUp"), false)
-			setActive(slot8.transform:Find("LevelMax"), true)
+		if not NEW_META_EXP then
+			setActive(slot22, true)
 		else
-			setText(slot8.transform:Find("LevelUp/Value"), string.format("+%d", slot20 - slot19))
-			setActive(slot24, true)
-			setActive(slot25, false)
+			setActive(slot22, slot20)
 		end
 	end
 
-	function slot22()
+	if slot20 then
+		setImageSprite(slot8.transform:Find("Skill/Icon"), LoadSprite("skillicon/" .. getSkillConfig(slot17).icon))
+
+		if pg.skill_data_template[slot17].max_level <= slot19 then
+			setActive(slot8.transform:Find("LevelUp"), false)
+			setActive(slot8.transform:Find("LevelMax"), true)
+		else
+			setText(slot8.transform:Find("LevelUp/Value"), string.format("+%d", slot19 - slot18))
+			setActive(slot25, true)
+			setActive(slot26, false)
+		end
+	end
+
+	function slot23()
 		if uv0 then
 			uv0()
 		end
@@ -332,30 +334,32 @@ function slot0.UpdateMeta(slot0, slot1, slot2, slot3)
 	GetComponent(slot7, "CanvasGroup").alpha = 0
 	GetComponent(slot8, "CanvasGroup").alpha = 0
 
-	function slot26()
-		LeanTween.moveX(rtf(uv0.transform), 0, uv1.FADE_OUT_TIME)
-		LeanTween.value(uv0, 1, 0, uv1.FADE_OUT_TIME):setOnUpdate(System.Action_float(uv2)):setOnComplete(System.Action(function ()
-			uv0.pools.MetaExpTpl:Enqueue(uv1)
+	if NEW_META_EXP and (slot16 or slot20) or true then
+		function slot28()
+			LeanTween.moveX(rtf(uv0.transform), 0, uv1.FADE_OUT_TIME)
+			LeanTween.value(uv0, 1, 0, uv1.FADE_OUT_TIME):setOnUpdate(System.Action_float(uv2)):setOnComplete(System.Action(function ()
+				uv0.pools.MetaExpTpl:Enqueue(uv1)
 
-			if not uv2 then
-				uv0.pools.MetaLevelTpl:Enqueue(uv3)
-				uv4()
-			end
+				if not uv2 then
+					uv0.pools.MetaLevelTpl:Enqueue(uv3)
+					uv4()
+				end
+			end))
+		end
+
+		LeanTween.value(slot7, 0, 1, uv0.FADE_TIME):setOnUpdate(System.Action_float(function (slot0)
+			uv0.alpha = slot0
+		end)):setOnComplete(System.Action(function ()
+			LeanTween.delayedCall(uv0, uv1.SHOW_TIME, System.Action(uv2))
 		end))
 	end
 
-	LeanTween.value(slot7, 0, 1, uv0.FADE_TIME):setOnUpdate(System.Action_float(function (slot0)
-		uv0.alpha = slot0
-	end)):setOnComplete(System.Action(function ()
-		LeanTween.delayedCall(uv0, uv1.SHOW_TIME, System.Action(uv2))
-	end))
-
-	if slot21 then
-		function slot28(slot0)
+	if slot20 then
+		function slot27(slot0)
 			uv0.alpha = slot0
 		end
 
-		function slot29()
+		function slot28()
 			LeanTween.moveX(rtf(uv0.transform), 0, uv1.FADE_OUT_TIME)
 			LeanTween.value(uv0, 1, 0, uv1.FADE_OUT_TIME):setOnUpdate(System.Action_float(uv2)):setOnComplete(System.Action(function ()
 				uv0.pools.MetaLevelTpl:Enqueue(uv1)
@@ -363,7 +367,7 @@ function slot0.UpdateMeta(slot0, slot1, slot2, slot3)
 			end))
 		end
 
-		function slot30()
+		function slot29()
 			LeanTween.delayedCall(uv0, uv1.SHOW_TIME, System.Action(uv2))
 		end
 

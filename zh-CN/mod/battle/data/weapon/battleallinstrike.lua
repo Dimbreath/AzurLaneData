@@ -20,6 +20,7 @@ function slot5.Ctor(slot0, slot1)
 	uv0.EventDispatcher.AttachEventDispatcher(slot0)
 
 	slot0._skill = uv0.Battle.BattleSkillUnit.New(slot1)
+	slot0._skillID = slot1
 	slot0._reloadFacotrList = {}
 	slot0._jammingTime = 0
 end
@@ -194,6 +195,7 @@ function slot5.handleCoolDown(slot0)
 
 	slot0._CDstartTime = nil
 	slot0._jammingTime = 0
+	slot0._reloadBoostList = {}
 end
 
 function slot5.FlushReloadRequire(slot0)
@@ -215,6 +217,17 @@ function slot5.QuickCoolDown(slot0)
 		slot0:DispatchEvent(uv1.Event.New(uv2.MANUAL_WEAPON_INSTANT_READY, {}))
 
 		slot0._CDstartTime = nil
+		slot0._reloadBoostList = {}
+	end
+end
+
+function slot5.ReloadBoost(slot0, slot1)
+	table.insert(slot0._reloadBoostList, slot1)
+end
+
+function slot5.AppendReloadBoost(slot0, slot1)
+	if slot0._currentState == slot0.STATE_OVER_HEAT then
+		slot0._allInWeaponVo:ReloadBoost(slot0, slot1)
 	end
 end
 
@@ -244,4 +257,32 @@ function slot5.DispatchBlink(slot0, slot1)
 		callbackFunc = slot1,
 		timeScale = uv0.Battle.BattleConfig.FOCUS_MAP_RATE
 	}))
+end
+
+function slot5.GetReloadRate(slot0)
+	if slot0._currentState == slot0.STATE_READY then
+		return 0
+	elseif slot0._CDstartTime then
+		return (slot0:GetReloadFinishTimeStamp() - pg.TimeMgr.GetInstance():GetCombatTime()) / slot0._reloadRequire
+	else
+		return 1
+	end
+end
+
+function slot5.GetDamageSUM(slot0)
+	slot1 = 0
+
+	for slot5, slot6 in ipairs(slot0._hiveList) do
+		for slot10, slot11 in ipairs(slot6:GetATKAircraftList()) do
+			for slot16, slot17 in ipairs(slot11:GetWeapon()) do
+				slot1 = slot1 + slot17:GetDamageSUM()
+			end
+		end
+	end
+
+	return slot1
+end
+
+function slot5.GetStrikeSkillID(slot0)
+	return slot0._skillID
 end

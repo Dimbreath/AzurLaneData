@@ -1,44 +1,68 @@
 pg = pg or {}
 pg.equip_data_statistics_152 = {
-	[21424] = {
-		id = 21424,
-		damage = "8 x 4",
-		base = 21420,
+	[21342] = {
+		id = 21342,
+		damage = "7 x 1",
+		base = 21340,
 		weapon_id = {
-			21424
+			21342
 		}
 	},
-	[21425] = {
-		id = 21425,
-		damage = "9 x 4",
-		base = 21420,
+	[21343] = {
+		id = 21343,
+		damage = "8 x 1",
+		base = 21340,
 		weapon_id = {
-			21425
+			21343
 		}
 	},
-	[21426] = {
-		id = 21426,
-		damage = "10 x 4",
-		base = 21420,
+	[21344] = {
+		id = 21344,
+		damage = "9 x 1",
+		base = 21340,
 		weapon_id = {
-			21426
+			21344
 		}
 	},
-	[21440] = {
+	[21345] = {
+		id = 21345,
+		damage = "10 x 1",
+		base = 21340,
+		weapon_id = {
+			21345
+		}
+	},
+	[21346] = {
+		id = 21346,
+		damage = "11 x 1",
+		base = 21340,
+		weapon_id = {
+			21346
+		}
+	},
+	[21347] = {
+		id = 21347,
+		damage = "11 x 1",
+		base = 21340,
+		weapon_id = {
+			21347
+		}
+	},
+	[21400] = {
 		name = "双联装120mm主炮",
 		speciality = "锁定",
 		type = 1,
-		tech = 3,
+		tech = 1,
 		descrip = "说明未填写",
-		value_2 = 25,
+		value_2 = 5,
 		icon = "21400",
 		attribute_2 = "cannon",
-		rarity = 4,
+		rarity = 2,
 		damage = "4 x 4",
 		nationality = 2,
 		ammo = 3,
 		value_3 = 0,
-		id = 21440,
+		id = 21400,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -67,7 +91,7 @@ pg.equip_data_statistics_152 = {
 			12
 		},
 		weapon_id = {
-			21440
+			21400
 		},
 		skill_id = {},
 		part_main = {
@@ -90,110 +114,44 @@ pg.equip_data_statistics_152 = {
 			"MG"
 		}
 	},
-	[21441] = {
-		id = 21441,
-		base = 21440,
+	[21401] = {
+		id = 21401,
+		base = 21400,
 		weapon_id = {
-			21441
+			21401
 		}
 	},
-	[21442] = {
-		id = 21442,
-		damage = "7 x 4",
-		base = 21440,
+	[21402] = {
+		id = 21402,
+		damage = "6 x 4",
+		base = 21400,
 		weapon_id = {
-			21442
+			21402
 		}
 	},
-	[21443] = {
-		id = 21443,
-		damage = "8 x 4",
-		base = 21440,
+	[21403] = {
+		id = 21403,
+		damage = "6 x 4",
+		base = 21400,
 		weapon_id = {
-			21443
+			21403
 		}
 	},
-	[21444] = {
-		id = 21444,
-		damage = "9 x 4",
-		base = 21440,
-		weapon_id = {
-			21444
-		}
-	},
-	[21445] = {
-		id = 21445,
-		damage = "10 x 4",
-		base = 21440,
-		weapon_id = {
-			21445
-		}
-	},
-	[21446] = {
-		id = 21446,
-		damage = "11 x 4",
-		base = 21440,
-		weapon_id = {
-			21446
-		}
-	},
-	[21447] = {
-		id = 21447,
-		damage = "12 x 4",
-		base = 21440,
-		weapon_id = {
-			21447
-		}
-	},
-	[21448] = {
-		id = 21448,
-		damage = "13 x 4",
-		base = 21440,
-		weapon_id = {
-			21448
-		}
-	},
-	[21449] = {
-		id = 21449,
-		damage = "14 x 4",
-		base = 21440,
-		weapon_id = {
-			21449
-		}
-	},
-	[21450] = {
-		id = 21450,
-		damage = "15 x 4",
-		base = 21440,
-		weapon_id = {
-			21450
-		}
-	},
-	[21451] = {
-		anti_siren = 100,
-		damage = "15 x 4",
-		base = 21440,
-		id = 21451,
-		weapon_id = {
-			21451
-		}
-	},
-	[21460] = {
-		name = "双联装120mm高平两用炮Mark XI",
+	[21420] = {
+		name = "双联装120mm主炮",
 		speciality = "锁定",
 		type = 1,
-		attribute_3 = "antiaircraft",
-		tech = 0,
-		value_2 = 20,
-		icon = "21460",
-		attribute_2 = "cannon",
+		tech = 2,
 		descrip = "说明未填写",
-		rarity = 5,
-		damage = "6 x 4",
+		value_2 = 12,
+		icon = "21400",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "4 x 4",
 		nationality = 2,
 		ammo = 3,
-		value_3 = 25,
-		id = 21460,
+		value_3 = 0,
+		id = 21420,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -222,11 +180,12 @@ pg.equip_data_statistics_152 = {
 			12
 		},
 		weapon_id = {
-			21460
+			21420
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -234,7 +193,8 @@ pg.equip_data_statistics_152 = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -243,12 +203,51 @@ pg.equip_data_statistics_152 = {
 			"MG"
 		}
 	},
-	[21461] = {
-		id = 21461,
-		damage = "7 x 4",
-		base = 21460,
+	[21421] = {
+		id = 21421,
+		base = 21420,
 		weapon_id = {
-			21461
+			21421
+		}
+	},
+	[21422] = {
+		id = 21422,
+		damage = "6 x 4",
+		base = 21420,
+		weapon_id = {
+			21422
+		}
+	},
+	[21423] = {
+		id = 21423,
+		damage = "7 x 4",
+		base = 21420,
+		weapon_id = {
+			21423
+		}
+	},
+	[21424] = {
+		id = 21424,
+		damage = "8 x 4",
+		base = 21420,
+		weapon_id = {
+			21424
+		}
+	},
+	[21425] = {
+		id = 21425,
+		damage = "9 x 4",
+		base = 21420,
+		weapon_id = {
+			21425
+		}
+	},
+	[21426] = {
+		id = 21426,
+		damage = "10 x 4",
+		base = 21420,
+		weapon_id = {
+			21426
 		}
 	}
 }

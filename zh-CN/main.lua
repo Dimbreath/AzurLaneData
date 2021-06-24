@@ -171,8 +171,17 @@ slot2 = os.clock()
 
 seriesAsync({
 	function (slot0)
-		pg.LayerWeightMgr.GetInstance():Init()
-		pg.UIMgr.GetInstance():Init(slot0)
+		parallelAsync({
+			function (slot0)
+				pg.LayerWeightMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.UIMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.CriMgr.GetInstance():Init(slot0)
+			end
+		}, slot0)
 	end,
 	function (slot0)
 		parallelAsync({
@@ -181,9 +190,6 @@ seriesAsync({
 			end,
 			function (slot0)
 				pg.ShaderMgr.GetInstance():Init(slot0)
-			end,
-			function (slot0)
-				pg.CriMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
 				pg.PoolMgr.GetInstance():Init(slot0)

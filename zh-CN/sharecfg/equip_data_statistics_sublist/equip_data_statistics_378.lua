@@ -1,54 +1,59 @@
 pg = pg or {}
 pg.equip_data_statistics_378 = {
-	[89249] = {
-		id = 89249,
-		value_2 = 24,
-		value_1 = "14",
-		base = 89240
+	[89227] = {
+		id = 89227,
+		value_1 = "460",
+		base = 89220
 	},
-	[89250] = {
-		id = 89250,
-		value_2 = 25,
-		value_1 = "15",
-		base = 89240
+	[89228] = {
+		id = 89228,
+		value_1 = "490",
+		base = 89220
 	},
-	[89251] = {
-		id = 89251,
+	[89229] = {
+		id = 89229,
+		value_1 = "520",
+		base = 89220
+	},
+	[89230] = {
+		id = 89230,
+		value_1 = "550",
+		base = 89220
+	},
+	[89231] = {
+		id = 89231,
 		anti_siren = 100,
-		base = 89240,
-		value_2 = 26,
-		value_1 = "16"
+		value_1 = "580",
+		base = 89220
 	},
-	[89252] = {
-		id = 89252,
+	[89232] = {
+		id = 89232,
 		anti_siren = 200,
-		base = 89240,
-		value_2 = 27,
-		value_1 = "17"
+		value_1 = "610",
+		base = 89220
 	},
-	[89253] = {
-		id = 89253,
+	[89233] = {
+		id = 89233,
 		anti_siren = 300,
-		base = 89240,
-		value_2 = 28,
-		value_1 = "18"
+		value_1 = "640",
+		base = 89220
 	},
-	[89260] = {
-		name = "心之钥匙",
+	[89240] = {
+		name = "觉醒宝珠",
 		tech = 0,
 		type = 10,
 		speciality = "无",
-		id = 89260,
-		value_2 = 15,
-		icon = "89260",
-		value_1 = "14",
+		id = 89240,
+		value_2 = 16,
+		icon = "89240",
+		value_1 = "6",
 		attribute_2 = "hit",
 		rarity = 5,
 		descrip = "说明占坑",
 		nationality = 106,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "antiaircraft",
+		attribute_1 = "dodge",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -58,7 +63,7 @@ pg.equip_data_statistics_378 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6730
+			6720
 		},
 		part_main = {},
 		part_sub = {},
@@ -67,71 +72,57 @@ pg.equip_data_statistics_378 = {
 			"DEV"
 		}
 	},
-	[89261] = {
-		id = 89261,
-		value_2 = 16,
-		value_1 = "16",
-		base = 89260
+	[89241] = {
+		id = 89241,
+		value_1 = "7",
+		base = 89240
 	},
-	[89262] = {
-		id = 89262,
+	[89242] = {
+		id = 89242,
 		value_2 = 17,
-		value_1 = "18",
-		base = 89260
+		value_1 = "7",
+		base = 89240
 	},
-	[89263] = {
-		id = 89263,
+	[89243] = {
+		id = 89243,
 		value_2 = 18,
-		value_1 = "20",
-		base = 89260
+		value_1 = "8",
+		base = 89240
 	},
-	[89264] = {
-		id = 89264,
+	[89244] = {
+		id = 89244,
 		value_2 = 19,
-		value_1 = "22",
-		base = 89260
+		value_1 = "9",
+		base = 89240
 	},
-	[89265] = {
-		id = 89265,
+	[89245] = {
+		id = 89245,
 		value_2 = 20,
-		value_1 = "24",
-		base = 89260
+		value_1 = "10",
+		base = 89240
 	},
-	[89266] = {
-		id = 89266,
+	[89246] = {
+		id = 89246,
+		value_2 = 21,
+		value_1 = "11",
+		base = 89240
+	},
+	[89247] = {
+		id = 89247,
 		value_2 = 22,
-		value_1 = "26",
-		base = 89260
+		value_1 = "12",
+		base = 89240
 	},
-	[89267] = {
-		id = 89267,
+	[89248] = {
+		id = 89248,
+		value_2 = 23,
+		value_1 = "13",
+		base = 89240
+	},
+	[89249] = {
+		id = 89249,
 		value_2 = 24,
-		value_1 = "28",
-		base = 89260
-	},
-	[89268] = {
-		id = 89268,
-		value_2 = 26,
-		value_1 = "30",
-		base = 89260
-	},
-	[89269] = {
-		id = 89269,
-		value_2 = 28,
-		value_1 = "32",
-		base = 89260
-	},
-	[89270] = {
-		id = 89270,
-		value_2 = 30,
-		value_1 = "35",
-		base = 89260
-	},
-	[89271] = {
-		id = 89271,
-		anti_siren = 100,
-		base = 89260,
-		value_2 = 32,
-		value_1 = "38"
+		value_1 = "14",
+		base = 89240
 	}
 }

@@ -278,6 +278,7 @@ return {
 						{
 							delay = 3,
 							life_time = 20,
+							behaviours = 10021,
 							coordinate = {
 								-40,
 								0,
@@ -285,57 +286,6 @@ return {
 							},
 							cld_data = {
 								30
-							},
-							behaviours = {
-								{
-									offset_time = 0,
-									type = 6,
-									reload_time = 5,
-									rounds = 3,
-									content = {
-										count = 1,
-										alert = {
-											alert_fx = "AlertArea",
-											range = 10
-										},
-										child_prefab = {
-											life_time = 3,
-											cld_data = {
-												10
-											},
-											behaviours = {
-												{
-													FX_ID = "yaosaizidan01",
-													reload_time = 100,
-													type = 1,
-													offset = {
-														-15,
-														0,
-														145
-													}
-												},
-												{
-													hp_rate = 0.03,
-													damage = 0,
-													type = 2,
-													delay = 1,
-													reload_time = 4
-												}
-											}
-										}
-									},
-									route = {
-										{
-											count = 3
-										},
-										{
-											count = 3
-										},
-										{
-											count = 3
-										}
-									}
-								}
 							}
 						}
 					}

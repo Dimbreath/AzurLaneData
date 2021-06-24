@@ -1,5 +1,171 @@
 pg = pg or {}
 pg.equip_data_statistics_295 = {
+	[43049] = {
+		id = 43049,
+		damage = "48 x 6",
+		base = 43040,
+		weapon_id = {
+			43049
+		}
+	},
+	[43050] = {
+		id = 43050,
+		damage = "50 x 6",
+		base = 43040,
+		weapon_id = {
+			43050
+		}
+	},
+	[43051] = {
+		anti_siren = 100,
+		damage = "50 x 6",
+		base = 43040,
+		id = 43051,
+		weapon_id = {
+			43051
+		}
+	},
+	[43052] = {
+		anti_siren = 200,
+		damage = "50 x 6",
+		base = 43040,
+		id = 43052,
+		weapon_id = {
+			43052
+		}
+	},
+	[43053] = {
+		anti_siren = 300,
+		damage = "50 x 6",
+		base = 43040,
+		id = 43053,
+		weapon_id = {
+			43053
+		}
+	},
+	[43060] = {
+		name = "试作型三联装203mmSKC主炮",
+		speciality = "锁定",
+		type = 3,
+		tech = 0,
+		descrip = "双联装203mmSKC主炮，希佩尔海军上将级重巡主炮，重巡可以使用",
+		value_2 = 45,
+		icon = "43060",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "30 x 6",
+		nationality = 4,
+		ammo = 1,
+		value_3 = 0,
+		id = 43060,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1401
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1401
+			},
+			{
+				4,
+				1214
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			43060
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CA",
+			"MG",
+			"AP"
+		}
+	},
+	[43061] = {
+		id = 43061,
+		damage = "32 x 6",
+		base = 43060,
+		weapon_id = {
+			43061
+		}
+	},
+	[43062] = {
+		id = 43062,
+		damage = "34 x 6",
+		base = 43060,
+		weapon_id = {
+			43062
+		}
+	},
+	[43063] = {
+		id = 43063,
+		damage = "36 x 6",
+		base = 43060,
+		weapon_id = {
+			43063
+		}
+	},
+	[43064] = {
+		id = 43064,
+		damage = "38 x 6",
+		base = 43060,
+		weapon_id = {
+			43064
+		}
+	},
+	[43065] = {
+		id = 43065,
+		damage = "40 x 6",
+		base = 43060,
+		weapon_id = {
+			43065
+		}
+	},
+	[43066] = {
+		id = 43066,
+		damage = "42 x 6",
+		base = 43060,
+		weapon_id = {
+			43066
+		}
+	},
+	[43067] = {
+		id = 43067,
+		damage = "44 x 6",
+		base = 43060,
+		weapon_id = {
+			43067
+		}
+	},
+	[43068] = {
+		id = 43068,
+		damage = "46 x 6",
+		base = 43060,
+		weapon_id = {
+			43068
+		}
+	},
 	[43069] = {
 		id = 43069,
 		damage = "48 x 6",
@@ -23,246 +189,6 @@ pg.equip_data_statistics_295 = {
 		id = 43071,
 		weapon_id = {
 			43071
-		}
-	},
-	[43072] = {
-		anti_siren = 200,
-		damage = "50 x 6",
-		base = 43060,
-		id = 43072,
-		weapon_id = {
-			43072
-		}
-	},
-	[43073] = {
-		anti_siren = 300,
-		damage = "50 x 6",
-		base = 43060,
-		id = 43073,
-		weapon_id = {
-			43073
-		}
-	},
-	[43100] = {
-		name = "三联283mmSKC28主炮",
-		speciality = "跨射",
-		type = 11,
-		tech = 1,
-		descrip = "三联283mmSKC28主炮，德意志级装甲舰主炮，仅德意志级可以使用",
-		value_2 = 5,
-		icon = "43100",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "30 x 6",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 43100,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1406
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			43100
-		},
-		skill_id = {},
-		part_main = {
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CB",
-			"MG",
-			"AP"
-		}
-	},
-	[43101] = {
-		id = 43101,
-		damage = "32 x 6",
-		base = 43100,
-		weapon_id = {
-			43101
-		}
-	},
-	[43102] = {
-		id = 43102,
-		damage = "34 x 6",
-		base = 43100,
-		weapon_id = {
-			43102
-		}
-	},
-	[43103] = {
-		id = 43103,
-		damage = "36 x 6",
-		base = 43100,
-		weapon_id = {
-			43103
-		}
-	},
-	[43120] = {
-		name = "三联283mmSKC28主炮",
-		speciality = "跨射",
-		type = 11,
-		tech = 2,
-		descrip = "三联283mmSKC28主炮，德意志级装甲舰主炮，仅德意志级可以使用",
-		value_2 = 12,
-		icon = "43100",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "32 x 6",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 43120,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1406
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			43120
-		},
-		skill_id = {},
-		part_main = {
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CB",
-			"MG",
-			"AP"
-		}
-	},
-	[43121] = {
-		id = 43121,
-		damage = "34 x 6",
-		base = 43120,
-		weapon_id = {
-			43121
-		}
-	},
-	[43122] = {
-		id = 43122,
-		damage = "36 x 6",
-		base = 43120,
-		weapon_id = {
-			43122
-		}
-	},
-	[43123] = {
-		id = 43123,
-		damage = "38 x 6",
-		base = 43120,
-		weapon_id = {
-			43123
-		}
-	},
-	[43124] = {
-		id = 43124,
-		damage = "40 x 6",
-		base = 43120,
-		weapon_id = {
-			43124
-		}
-	},
-	[43125] = {
-		id = 43125,
-		damage = "42 x 6",
-		base = 43120,
-		weapon_id = {
-			43125
-		}
-	},
-	[43126] = {
-		id = 43126,
-		damage = "44 x 6",
-		base = 43120,
-		weapon_id = {
-			43126
-		}
-	},
-	[43140] = {
-		name = "三联283mmSKC28主炮",
-		speciality = "跨射",
-		type = 11,
-		tech = 3,
-		descrip = "三联283mmSKC28主炮，德意志级装甲舰主炮，仅德意志级可以使用",
-		value_2 = 25,
-		icon = "43100",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "35 x 6",
-		nationality = 4,
-		ammo = 1,
-		value_3 = 0,
-		id = 43140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1406
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			43140
-		},
-		skill_id = {},
-		part_main = {
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"CB",
-			"MG",
-			"AP"
 		}
 	}
 }

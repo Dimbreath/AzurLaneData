@@ -2,6 +2,285 @@ pg = pg or {}
 pg.weapon_property_157 = {}
 
 function ()
+	uv0.weapon_property_157[68574] = {
+		name = "168技能鱼雷LV4",
+		damage = 36,
+		base = 68571,
+		id = 68574,
+		barrage_ID = {
+			80737,
+			80738
+		}
+	}
+	uv0.weapon_property_157[68575] = {
+		name = "168技能鱼雷LV5",
+		damage = 40,
+		base = 68571,
+		id = 68575,
+		barrage_ID = {
+			80737,
+			80738
+		}
+	}
+	uv0.weapon_property_157[68576] = {
+		name = "168技能鱼雷LV6",
+		damage = 44,
+		base = 68571,
+		id = 68576,
+		barrage_ID = {
+			80737,
+			80738
+		}
+	}
+	uv0.weapon_property_157[68577] = {
+		name = "168技能鱼雷LV7",
+		damage = 48,
+		base = 68571,
+		id = 68577,
+		barrage_ID = {
+			80737,
+			80738
+		}
+	}
+	uv0.weapon_property_157[68578] = {
+		name = "168技能鱼雷LV8",
+		damage = 52,
+		base = 68571,
+		id = 68578,
+		barrage_ID = {
+			80739,
+			80740
+		}
+	}
+	uv0.weapon_property_157[68579] = {
+		name = "168技能鱼雷LV9",
+		damage = 56,
+		base = 68571,
+		id = 68579,
+		barrage_ID = {
+			80739,
+			80740
+		}
+	}
+	uv0.weapon_property_157[68580] = {
+		name = "168技能鱼雷LV10",
+		damage = 60,
+		base = 68571,
+		id = 68580,
+		barrage_ID = {
+			80739,
+			80740
+		}
+	}
+	uv0.weapon_property_157[68581] = {
+		action_index = "attack",
+		range = 115,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "阿拉巴马技能LV1-PVP",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 58,
+		corrected = 100,
+		min_range = 35,
+		id = 68581,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19001,
+			19001,
+			19001
+		},
+		barrage_ID = {
+			80760,
+			80761,
+			80762
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_157[68582] = {
+		id = 68582,
+		name = "阿拉巴马技能LV2-PVP",
+		damage = 70,
+		base = 68581
+	}
+	uv0.weapon_property_157[68583] = {
+		id = 68583,
+		name = "阿拉巴马技能LV3-PVP",
+		damage = 82,
+		base = 68581
+	}
+	uv0.weapon_property_157[68584] = {
+		id = 68584,
+		name = "阿拉巴马技能LV4-PVP",
+		damage = 94,
+		base = 68581
+	}
+	uv0.weapon_property_157[68585] = {
+		id = 68585,
+		name = "阿拉巴马技能LV5-PVP",
+		damage = 106,
+		base = 68581
+	}
+	uv0.weapon_property_157[68586] = {
+		name = "阿拉巴马技能LV6-PVP",
+		damage = 118,
+		base = 68581,
+		id = 68586,
+		barrage_ID = {
+			80763,
+			80764,
+			80765
+		}
+	}
+	uv0.weapon_property_157[68587] = {
+		name = "阿拉巴马技能LV7-PVP",
+		damage = 130,
+		base = 68581,
+		id = 68587,
+		barrage_ID = {
+			80763,
+			80764,
+			80765
+		}
+	}
+	uv0.weapon_property_157[68588] = {
+		name = "阿拉巴马技能LV8-PVP",
+		damage = 142,
+		base = 68581,
+		id = 68588,
+		barrage_ID = {
+			80763,
+			80764,
+			80765
+		}
+	}
+	uv0.weapon_property_157[68589] = {
+		name = "阿拉巴马技能LV9-PVP",
+		damage = 154,
+		base = 68581,
+		id = 68589,
+		barrage_ID = {
+			80777,
+			80778,
+			80779
+		}
+	}
+	uv0.weapon_property_157[68590] = {
+		name = "阿拉巴马技能LV10-PVP",
+		damage = 170,
+		base = 68581,
+		id = 68590,
+		barrage_ID = {
+			80777,
+			80778,
+			80779
+		}
+	}
+	uv0.weapon_property_157[68591] = {
+		action_index = "attack",
+		range = 95,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "阿拉巴马技能LV1-PVE",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 58,
+		corrected = 100,
+		min_range = 25,
+		id = 68591,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19001,
+			19001,
+			19001
+		},
+		barrage_ID = {
+			80760,
+			80761,
+			80762
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_157[68592] = {
+		id = 68592,
+		name = "阿拉巴马技能LV2-PVE",
+		damage = 70,
+		base = 68591
+	}
+	uv0.weapon_property_157[68593] = {
+		id = 68593,
+		name = "阿拉巴马技能LV3-PVE",
+		damage = 82,
+		base = 68591
+	}
+	uv0.weapon_property_157[68594] = {
+		id = 68594,
+		name = "阿拉巴马技能LV4-PVE",
+		damage = 94,
+		base = 68591
+	}
+	uv0.weapon_property_157[68595] = {
+		id = 68595,
+		name = "阿拉巴马技能LV5-PVE",
+		damage = 106,
+		base = 68591
+	}
 	uv0.weapon_property_157[68596] = {
 		name = "阿拉巴马技能LV6-PVE",
 		damage = 118,
@@ -554,278 +833,6 @@ function ()
 		id = 68645,
 		barrage_ID = {
 			80574
-		}
-	}
-	uv0.weapon_property_157[68646] = {
-		name = "棘鳍技能鱼雷LV6",
-		damage = 24,
-		base = 68641,
-		id = 68646,
-		barrage_ID = {
-			80574
-		}
-	}
-	uv0.weapon_property_157[68647] = {
-		name = "棘鳍技能鱼雷LV7",
-		damage = 27,
-		base = 68641,
-		id = 68647,
-		barrage_ID = {
-			80574
-		}
-	}
-	uv0.weapon_property_157[68648] = {
-		name = "棘鳍技能鱼雷LV8",
-		damage = 30,
-		base = 68641,
-		id = 68648,
-		barrage_ID = {
-			80574
-		}
-	}
-	uv0.weapon_property_157[68649] = {
-		name = "棘鳍技能鱼雷LV9",
-		damage = 33,
-		base = 68641,
-		id = 68649,
-		barrage_ID = {
-			80575
-		}
-	}
-	uv0.weapon_property_157[68650] = {
-		name = "棘鳍技能鱼雷LV10",
-		damage = 36,
-		base = 68641,
-		id = 68650,
-		barrage_ID = {
-			80575
-		}
-	}
-	uv0.weapon_property_157[68651] = {
-		action_index = "",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 1,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "可畏技能鱼雷机Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 90,
-		charge_param = "",
-		damage = 68,
-		corrected = 100,
-		min_range = 0,
-		id = 68651,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			68651
-		},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.8,
-			isBound = true,
-			fx = "jineng"
-		}
-	}
-	uv0.weapon_property_157[68652] = {
-		name = "可畏技能鱼雷机Lv2",
-		damage = 86,
-		base = 68651,
-		id = 68652,
-		bullet_ID = {
-			68652
-		}
-	}
-	uv0.weapon_property_157[68653] = {
-		name = "可畏技能鱼雷机Lv3",
-		damage = 106,
-		base = 68651,
-		id = 68653,
-		bullet_ID = {
-			68653
-		}
-	}
-	uv0.weapon_property_157[68654] = {
-		name = "可畏技能鱼雷机Lv4",
-		damage = 124,
-		base = 68651,
-		id = 68654,
-		bullet_ID = {
-			68654
-		}
-	}
-	uv0.weapon_property_157[68655] = {
-		name = "可畏技能鱼雷机Lv5",
-		damage = 144,
-		base = 68651,
-		id = 68655,
-		bullet_ID = {
-			68655
-		}
-	}
-	uv0.weapon_property_157[68656] = {
-		name = "可畏技能鱼雷机Lv6",
-		damage = 164,
-		base = 68651,
-		id = 68656,
-		bullet_ID = {
-			68656
-		}
-	}
-	uv0.weapon_property_157[68657] = {
-		name = "可畏技能鱼雷机Lv7",
-		damage = 182,
-		base = 68651,
-		id = 68657,
-		bullet_ID = {
-			68657
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_157[68658] = {
-		name = "可畏技能鱼雷机Lv8",
-		damage = 202,
-		base = 68651,
-		id = 68658,
-		bullet_ID = {
-			68658
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_157[68659] = {
-		name = "可畏技能鱼雷机Lv9",
-		damage = 220,
-		base = 68651,
-		id = 68659,
-		bullet_ID = {
-			68659
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_157[68660] = {
-		name = "可畏技能鱼雷机Lv10",
-		damage = 240,
-		base = 68651,
-		id = 68660,
-		bullet_ID = {
-			68660
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_157[68661] = {
-		action_index = "",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "概率减速进水鱼雷",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 24,
-		charge_param = "",
-		damage = 68,
-		corrected = 100,
-		min_range = 0,
-		id = 68661,
-		attack_attribute_ratio = 120,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19021
-		},
-		barrage_ID = {
-			80780
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_157[68662] = {
-		id = 68662,
-		damage = 86,
-		base = 68661
-	}
-	uv0.weapon_property_157[68663] = {
-		id = 68663,
-		damage = 106,
-		base = 68661
-	}
-	uv0.weapon_property_157[68664] = {
-		id = 68664,
-		damage = 124,
-		base = 68661,
-		barrage_ID = {
-			80781
-		}
-	}
-	uv0.weapon_property_157[68665] = {
-		id = 68665,
-		damage = 144,
-		base = 68661,
-		barrage_ID = {
-			80781
-		}
-	}
-	uv0.weapon_property_157[68666] = {
-		id = 68666,
-		damage = 164,
-		base = 68661,
-		barrage_ID = {
-			80781
-		}
-	}
-	uv0.weapon_property_157[68667] = {
-		id = 68667,
-		damage = 182,
-		base = 68661,
-		barrage_ID = {
-			80782
 		}
 	}
 end()

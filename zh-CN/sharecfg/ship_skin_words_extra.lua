@@ -5006,6 +5006,62 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[301860] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		touch2 = "",
+		id = 301860,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"{namecode:203}向你问好，指挥官。今天也请多关照。"
+			}
+		},
+		home = {
+			{
+				1100,
+				"竖笛，还吹得不是很好…一定要听？…那就，等大家不在的时候吧。"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"指挥官，把门关一下…听听{namecode:203}的笛声…{namecode:203}努力练习过了"
+			}
+		},
+		main = {
+			{
+				1100,
+				"指挥官，工作要专心。就算被盯着，也能专心工作的吧…？|指挥官，感到孤单寂寞了吗？欸嘿嘿…|nil"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"啊，得给{namecode:56}带份便当…指挥官稍等一下"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"指挥官…想干嘛？（{namecode:203}用担忧的目光盯着你）"
+			}
+		}
+	},
 	all = {
 		999010,
 		801040,
@@ -5092,6 +5148,7 @@ pg.ship_skin_words_extra = {
 		101470,
 		107140,
 		105170,
-		107990
+		107990,
+		301860
 	}
 }

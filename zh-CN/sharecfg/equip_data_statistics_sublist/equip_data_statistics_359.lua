@@ -1,139 +1,44 @@
 pg = pg or {}
 pg.equip_data_statistics_359 = {
-	[85053] = {
-		anti_siren = 300,
-		damage = "15 x 6",
-		base = 85040,
-		id = 85053,
-		weapon_id = {
-			85053
-		}
-	},
-	[85060] = {
-		name = "100mm双联装防空炮SM-5-1s",
-		speciality = "防空",
-		type = 6,
-		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "85060",
-		attribute_2 = "antiaircraft",
-		rarity = 3,
-		damage = "35/轮",
-		nationality = 7,
-		ammo = 5,
-		value_3 = 0,
-		id = 85060,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			85060
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"ST",
-			"AA"
-		}
-	},
-	[85061] = {
-		id = 85061,
-		damage = "40/轮",
-		base = 85060,
-		weapon_id = {
-			85061
-		}
-	},
-	[85062] = {
-		id = 85062,
-		damage = "45/轮",
-		base = 85060,
-		weapon_id = {
-			85062
-		}
-	},
-	[85063] = {
-		id = 85063,
-		damage = "51/轮",
-		base = 85060,
-		weapon_id = {
-			85063
-		}
-	},
-	[85064] = {
-		id = 85064,
-		damage = "57/轮",
-		base = 85060,
-		weapon_id = {
-			85064
-		}
-	},
-	[85065] = {
-		id = 85065,
-		damage = "63/轮",
-		base = 85060,
-		weapon_id = {
-			85065
-		}
-	},
-	[85066] = {
-		id = 85066,
-		damage = "70/轮",
-		base = 85060,
-		weapon_id = {
-			85066
-		}
-	},
-	[85120] = {
-		name = "B-38 三联装152mm主炮Mk5",
-		speciality = "锁定",
-		type = 2,
-		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "85120",
-		attribute_2 = "cannon",
-		rarity = 3,
+	[85004] = {
+		id = 85004,
 		damage = "5 x 6",
+		base = 85000,
+		weapon_id = {
+			85004
+		}
+	},
+	[85005] = {
+		id = 85005,
+		damage = "6 x 6",
+		base = 85000,
+		weapon_id = {
+			85005
+		}
+	},
+	[85006] = {
+		id = 85006,
+		damage = "7 x 6",
+		base = 85000,
+		weapon_id = {
+			85006
+		}
+	},
+	[85040] = {
+		name = "B-13 双联装130mm主炮B-2LM",
+		speciality = "锁定",
+		type = 1,
+		tech = 3,
+		descrip = "北方联合开发的双联装130mm舰炮，拥有出色的对海性能",
+		value_2 = 35,
+		icon = "85000",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "6 x 6",
 		nationality = 7,
 		ammo = 3,
 		value_3 = 0,
-		id = 85120,
+		id = 85040,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -142,7 +47,7 @@ pg.equip_data_statistics_359 = {
 		ammo_info = {
 			{
 				1,
-				1201
+				1710
 			}
 		},
 		equip_info = {
@@ -150,11 +55,11 @@ pg.equip_data_statistics_359 = {
 			2,
 			{
 				3,
-				1201
+				1710
 			},
 			{
 				4,
-				1110
+				1024
 			},
 			6,
 			10,
@@ -162,134 +67,133 @@ pg.equip_data_statistics_359 = {
 			12
 		},
 		weapon_id = {
-			85120
+			85040
 		},
 		skill_id = {},
 		part_main = {
-			2
+			1,
+			19
 		},
 		part_sub = {
-			5
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"SN",
-			"CL",
+			"DD",
 			"MG"
 		}
 	},
-	[85121] = {
-		id = 85121,
-		base = 85120,
+	[85041] = {
+		id = 85041,
+		base = 85040,
 		weapon_id = {
-			85121
+			85041
 		}
 	},
-	[85122] = {
-		id = 85122,
-		damage = "6 x 6",
-		base = 85120,
-		weapon_id = {
-			85122
-		}
-	},
-	[85123] = {
-		id = 85123,
+	[85042] = {
+		id = 85042,
 		damage = "7 x 6",
-		base = 85120,
+		base = 85040,
 		weapon_id = {
-			85123
+			85042
 		}
 	},
-	[85124] = {
-		id = 85124,
+	[85043] = {
+		id = 85043,
 		damage = "8 x 6",
-		base = 85120,
+		base = 85040,
 		weapon_id = {
-			85124
+			85043
 		}
 	},
-	[85125] = {
-		id = 85125,
+	[85044] = {
+		id = 85044,
 		damage = "9 x 6",
-		base = 85120,
+		base = 85040,
 		weapon_id = {
-			85125
+			85044
 		}
 	},
-	[85126] = {
-		id = 85126,
+	[85045] = {
+		id = 85045,
 		damage = "10 x 6",
-		base = 85120,
+		base = 85040,
 		weapon_id = {
-			85126
+			85045
 		}
 	},
-	[85140] = {
-		name = "B-38 三联装152mm主炮Mk5",
-		speciality = "锁定",
-		type = 2,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "85120",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "6 x 6",
-		nationality = 7,
-		ammo = 2,
-		value_3 = 0,
-		id = 85140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1207
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1207
-			},
-			{
-				4,
-				1110
-			},
-			6,
-			10,
-			11,
-			12
-		},
+	[85046] = {
+		id = 85046,
+		damage = "11 x 6",
+		base = 85040,
 		weapon_id = {
-			85140
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"CL",
-			"MG",
-			"HE"
+			85046
 		}
 	},
-	[85141] = {
-		id = 85141,
-		base = 85140,
+	[85047] = {
+		id = 85047,
+		damage = "12 x 6",
+		base = 85040,
 		weapon_id = {
-			85141
+			85047
+		}
+	},
+	[85048] = {
+		id = 85048,
+		damage = "13 x 6",
+		base = 85040,
+		weapon_id = {
+			85048
+		}
+	},
+	[85049] = {
+		id = 85049,
+		damage = "14 x 6",
+		base = 85040,
+		weapon_id = {
+			85049
+		}
+	},
+	[85050] = {
+		id = 85050,
+		damage = "15 x 6",
+		base = 85040,
+		weapon_id = {
+			85050
+		}
+	},
+	[85051] = {
+		anti_siren = 100,
+		damage = "15 x 6",
+		base = 85040,
+		id = 85051,
+		weapon_id = {
+			85051
+		}
+	},
+	[85052] = {
+		anti_siren = 200,
+		damage = "15 x 6",
+		base = 85040,
+		id = 85052,
+		weapon_id = {
+			85052
+		}
+	},
+	[85053] = {
+		anti_siren = 300,
+		damage = "15 x 6",
+		base = 85040,
+		id = 85053,
+		weapon_id = {
+			85053
 		}
 	}
 }

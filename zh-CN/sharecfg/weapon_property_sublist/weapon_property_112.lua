@@ -2,6 +2,18 @@ pg = pg or {}
 pg.weapon_property_112 = {}
 
 function ()
+	uv0.weapon_property_112[64112] = {
+		id = 64112,
+		name = "博伊西技能子弹弹幕LV2",
+		damage = 5,
+		base = 64111
+	}
+	uv0.weapon_property_112[64113] = {
+		id = 64113,
+		name = "博伊西技能子弹弹幕LV3",
+		damage = 6,
+		base = 64111
+	}
 	uv0.weapon_property_112[64114] = {
 		id = 64114,
 		name = "博伊西技能子弹弹幕LV4",
@@ -579,80 +591,24 @@ function ()
 		damage = 15,
 		base = 64221
 	}
-	uv0.weapon_property_112[65000] = {
-		action_index = "",
-		range = 60,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "汉克喵技能弹幕1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 18,
-		corrected = 100,
-		min_range = 0,
-		id = 65000,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1006,
-			1006
-		},
-		barrage_ID = {
-			65000,
-			65001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_112[65001] = {
-		name = "汉克喵技能弹幕2",
-		damage = 28,
-		base = 65000,
-		id = 65001,
-		barrage_ID = {
-			65002,
-			65003
-		}
-	}
-	uv0.weapon_property_112[65010] = {
-		action_index = "",
-		range = 60,
+	uv0.weapon_property_112[64231] = {
+		action_index = "attack",
+		range = 90,
 		type = 1,
-		fire_fx = "",
-		recover_time = 0,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
 		axis_angle = 0,
 		shakescreen = 0,
-		name = "伯克喵大世界地图打击替换战斗内技能弹幕1",
+		name = "霞光之绊·改弹幕LV1",
 		aim_type = 0,
 		torpedo_ammo = 0,
 		expose = 0,
-		angle = 60,
+		angle = 120,
 		charge_param = "",
-		damage = 18,
+		damage = 10,
 		corrected = 100,
 		min_range = 0,
-		id = 65010,
+		id = 64231,
 		attack_attribute_ratio = 100,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
@@ -662,14 +618,16 @@ function ()
 		effect_move = 0,
 		suppress = 0,
 		spawn_bound = "cannon",
-		fire_sfx = "",
+		fire_sfx = "battle/cannon-155mm",
 		auto_aftercast = 0,
 		initial_over_heat = 0,
 		bullet_ID = {
-			1006
+			19309,
+			19309
 		},
 		barrage_ID = {
-			65010
+			81114,
+			81115
 		},
 		oxy_type = {
 			1
@@ -679,57 +637,16 @@ function ()
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_112[65011] = {
-		name = "伯克喵大世界地图打击替换战斗内技能弹幕2",
-		damage = 28,
-		base = 65010,
-		id = 65011,
-		barrage_ID = {
-			65011
-		}
+	uv0.weapon_property_112[64232] = {
+		id = 64232,
+		name = "霞光之绊·改弹幕LV2",
+		damage = 11,
+		base = 64231
 	}
-	uv0.weapon_property_112[65020] = {
-		action_index = "",
-		range = 60,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "克雷喵大世界地图打击替换战斗内鱼雷弹幕",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 30,
-		corrected = 100,
-		min_range = 0,
-		id = 65020,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1800
-		},
-		barrage_ID = {
-			65020
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
+	uv0.weapon_property_112[64233] = {
+		id = 64233,
+		name = "霞光之绊·改弹幕LV3",
+		damage = 12,
+		base = 64231
 	}
 end()

@@ -1,5 +1,250 @@
 pg = pg or {}
 pg.equip_data_statistics_68 = {
+	[4249] = {
+		id = 4249,
+		base = 4240,
+		ammo_info = {
+			{
+				8,
+				53149
+			}
+		},
+		weapon_id = {
+			4249
+		}
+	},
+	[4250] = {
+		id = 4250,
+		base = 4240,
+		ammo_info = {
+			{
+				8,
+				53150
+			}
+		},
+		weapon_id = {
+			4250
+		}
+	},
+	[4251] = {
+		anti_siren = 100,
+		base = 4240,
+		id = 4251,
+		ammo_info = {
+			{
+				8,
+				53150
+			}
+		},
+		weapon_id = {
+			4251
+		}
+	},
+	[4300] = {
+		name = "TBM-3复仇者(反潜)",
+		type = 15,
+		speciality = "反潜",
+		rarity = 2,
+		tech = 1,
+		descrip = "通用公司生产型TBF,换装了动力更大的发动机",
+		value_2 = 5,
+		icon = "4300",
+		attribute_2 = "antisub",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 4300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				8,
+				53200
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			4300
+		},
+		skill_id = {},
+		part_main = {
+			6
+		},
+		part_sub = {
+			6
+		},
+		equip_parameters = {},
+		label = {
+			"ASA"
+		}
+	},
+	[4301] = {
+		id = 4301,
+		base = 4300,
+		ammo_info = {
+			{
+				8,
+				53201
+			}
+		},
+		weapon_id = {
+			4301
+		}
+	},
+	[4302] = {
+		id = 4302,
+		base = 4300,
+		ammo_info = {
+			{
+				8,
+				53202
+			}
+		},
+		weapon_id = {
+			4302
+		}
+	},
+	[4303] = {
+		id = 4303,
+		base = 4300,
+		ammo_info = {
+			{
+				8,
+				53203
+			}
+		},
+		weapon_id = {
+			4303
+		}
+	},
+	[4320] = {
+		name = "TBM-3复仇者(反潜)",
+		type = 15,
+		speciality = "反潜",
+		rarity = 3,
+		tech = 2,
+		descrip = "通用公司生产型TBF,换装了动力更大的发动机",
+		value_2 = 12,
+		icon = "4300",
+		attribute_2 = "antisub",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 4320,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				8,
+				53220
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			4320
+		},
+		skill_id = {},
+		part_main = {
+			6
+		},
+		part_sub = {
+			6
+		},
+		equip_parameters = {},
+		label = {
+			"ASA"
+		}
+	},
+	[4321] = {
+		id = 4321,
+		base = 4320,
+		ammo_info = {
+			{
+				8,
+				53221
+			}
+		},
+		weapon_id = {
+			4321
+		}
+	},
+	[4322] = {
+		id = 4322,
+		base = 4320,
+		ammo_info = {
+			{
+				8,
+				53222
+			}
+		},
+		weapon_id = {
+			4322
+		}
+	},
+	[4323] = {
+		id = 4323,
+		base = 4320,
+		ammo_info = {
+			{
+				8,
+				53223
+			}
+		},
+		weapon_id = {
+			4323
+		}
+	},
+	[4324] = {
+		id = 4324,
+		base = 4320,
+		ammo_info = {
+			{
+				8,
+				53224
+			}
+		},
+		weapon_id = {
+			4324
+		}
+	},
+	[4325] = {
+		id = 4325,
+		base = 4320,
+		ammo_info = {
+			{
+				8,
+				53225
+			}
+		},
+		weapon_id = {
+			4325
+		}
+	},
+	[4326] = {
+		id = 4326,
+		base = 4320,
+		ammo_info = {
+			{
+				8,
+				53226
+			}
+		},
+		weapon_id = {
+			4326
+		}
+	},
 	[4340] = {
 		name = "TBM-3复仇者(反潜)",
 		type = 15,
@@ -68,271 +313,6 @@ pg.equip_data_statistics_68 = {
 		},
 		weapon_id = {
 			4342
-		}
-	},
-	[4343] = {
-		id = 4343,
-		base = 4340,
-		ammo_info = {
-			{
-				8,
-				53243
-			}
-		},
-		weapon_id = {
-			4343
-		}
-	},
-	[4344] = {
-		id = 4344,
-		base = 4340,
-		ammo_info = {
-			{
-				8,
-				53244
-			}
-		},
-		weapon_id = {
-			4344
-		}
-	},
-	[4345] = {
-		id = 4345,
-		base = 4340,
-		ammo_info = {
-			{
-				8,
-				53245
-			}
-		},
-		weapon_id = {
-			4345
-		}
-	},
-	[4346] = {
-		id = 4346,
-		base = 4340,
-		ammo_info = {
-			{
-				8,
-				53246
-			}
-		},
-		weapon_id = {
-			4346
-		}
-	},
-	[4347] = {
-		id = 4347,
-		base = 4340,
-		ammo_info = {
-			{
-				8,
-				53247
-			}
-		},
-		weapon_id = {
-			4347
-		}
-	},
-	[4348] = {
-		id = 4348,
-		base = 4340,
-		ammo_info = {
-			{
-				8,
-				53248
-			}
-		},
-		weapon_id = {
-			4348
-		}
-	},
-	[4349] = {
-		id = 4349,
-		base = 4340,
-		ammo_info = {
-			{
-				8,
-				53249
-			}
-		},
-		weapon_id = {
-			4349
-		}
-	},
-	[4350] = {
-		id = 4350,
-		base = 4340,
-		ammo_info = {
-			{
-				8,
-				53250
-			}
-		},
-		weapon_id = {
-			4350
-		}
-	},
-	[4351] = {
-		anti_siren = 100,
-		base = 4340,
-		id = 4351,
-		ammo_info = {
-			{
-				8,
-				53250
-			}
-		},
-		weapon_id = {
-			4351
-		}
-	},
-	[5000] = {
-		name = "三联装533mm鱼雷",
-		speciality = "雷击",
-		type = 5,
-		tech = 1,
-		rarity = 1,
-		descrip = "说明未填写",
-		value_2 = 0,
-		icon = "5000",
-		damage = "46 x 3",
-		nationality = 0,
-		ammo = 5,
-		value_3 = 0,
-		id = 5000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1800
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1800
-			},
-			{
-				4,
-				1402
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			5000
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"UN",
-			"ST",
-			"TP",
-			"TRI"
-		}
-	},
-	[5001] = {
-		id = 5001,
-		damage = "54 x 3",
-		base = 5000,
-		weapon_id = {
-			5001
-		}
-	},
-	[5002] = {
-		id = 5002,
-		damage = "62 x 3",
-		base = 5000,
-		weapon_id = {
-			5002
-		}
-	},
-	[5003] = {
-		id = 5003,
-		damage = "70 x 3",
-		base = 5000,
-		weapon_id = {
-			5003
-		}
-	},
-	[5020] = {
-		name = "三联装533mm鱼雷",
-		speciality = "雷击",
-		type = 5,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "5000",
-		attribute_2 = "torpedo",
-		rarity = 2,
-		damage = "50 x 3",
-		nationality = 0,
-		ammo = 5,
-		value_3 = 0,
-		id = 5020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1800
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1800
-			},
-			{
-				4,
-				1402
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			5020
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"UN",
-			"ST",
-			"TP",
-			"TRI"
 		}
 	}
 }

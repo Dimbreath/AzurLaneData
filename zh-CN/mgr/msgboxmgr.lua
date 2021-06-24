@@ -14,6 +14,7 @@ slot1.TITLE_INFORMATION = "infomation"
 slot1.TITLE_SETTING = "setting"
 slot1.TITLE_WARNING = "warning"
 slot1.TITLE_OBTAIN = "obtain"
+slot1.TITLE_CADPA = "cadpa"
 slot1.TEXT_CANCEL = "text_cancel"
 slot1.TEXT_CONFIRM = "text_confirm"
 MSGBOX_TYPE_NORMAL = 1
@@ -31,6 +32,7 @@ MSGBOX_TYPE_MONTH_CARD_TIP = 12
 MSGBOX_TYPE_WORLD_RESET = 13
 MSGBOX_TYPE_WORLD_STAMINA_EXCHANGE = 14
 MSGBOX_TYPE_STORY_CANCEL_TIP = 15
+MSGBOX_TYPE_META_SKILL_UNLOCK = 16
 slot1.enable = false
 slot2 = require("Mgr.const.MsgboxBtnNameMap")
 
@@ -52,6 +54,9 @@ function slot1.Init(slot0, slot1)
 		uv0._top = uv0._window:Find("top")
 		uv0._titleList = uv0._top:Find("bg")
 		uv0._closeBtn = uv0._top:Find("btnBack")
+
+		setText(uv0._titleList:Find("cadpa/title"), i18n("cadpa_tip1"))
+
 		uv0._res = uv0._tf:Find("res")
 		uv0._msgPanel = uv0._window:Find("msg_panel")
 		uv0.contentText = uv0._msgPanel:Find("content"):GetComponent("RichText")
@@ -1231,6 +1236,8 @@ function slot1.ShowMsgBox(slot0, slot1)
 		slot0:GetPanel(MonthCardOutDateTipPanel).buffer:UpdateView(slot1)
 	elseif slot2 == MSGBOX_TYPE_STORY_CANCEL_TIP then
 		slot0:GetPanel(StoryCancelTipPanel).buffer:UpdateView(slot1)
+	elseif slot2 == MSGBOX_TYPE_META_SKILL_UNLOCK then
+		slot0:GetPanel(MetaSkillUnlockPanel).buffer:UpdateView(slot1)
 	end
 end
 

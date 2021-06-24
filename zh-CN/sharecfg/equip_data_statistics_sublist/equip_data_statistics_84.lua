@@ -1,5 +1,287 @@
 pg = pg or {}
 pg.equip_data_statistics_84 = {
+	[7344] = {
+		id = 7344,
+		damage = "30 x 4",
+		base = 7340,
+		weapon_id = {
+			7344
+		}
+	},
+	[7345] = {
+		id = 7345,
+		damage = "32 x 4",
+		base = 7340,
+		weapon_id = {
+			7345
+		}
+	},
+	[7346] = {
+		id = 7346,
+		damage = "34 x 4",
+		base = 7340,
+		weapon_id = {
+			7346
+		}
+	},
+	[7347] = {
+		id = 7347,
+		damage = "34 x 4",
+		base = 7340,
+		weapon_id = {
+			7347
+		}
+	},
+	[11000] = {
+		name = "76mm火炮",
+		speciality = "锁定",
+		type = 1,
+		tech = 1,
+		rarity = 1,
+		descrip = "说明未填写",
+		value_2 = 0,
+		icon = "11000",
+		damage = "3 x 1",
+		nationality = 1,
+		ammo = 3,
+		value_3 = 0,
+		id = 11000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				999
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				999
+			},
+			{
+				4,
+				1000
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			11000
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		}
+	},
+	[11001] = {
+		id = 11001,
+		base = 11000,
+		weapon_id = {
+			11001
+		}
+	},
+	[11002] = {
+		id = 11002,
+		damage = "4 x 1",
+		base = 11000,
+		weapon_id = {
+			11002
+		}
+	},
+	[11003] = {
+		id = 11003,
+		damage = "4 x 1",
+		base = 11000,
+		weapon_id = {
+			11003
+		}
+	},
+	[11020] = {
+		name = "76mm火炮",
+		speciality = "锁定",
+		type = 1,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 5,
+		icon = "11000",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "3 x 1",
+		nationality = 1,
+		ammo = 3,
+		value_3 = 0,
+		id = 11020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				999
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				999
+			},
+			{
+				4,
+				1000
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			11020
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		}
+	},
+	[11021] = {
+		id = 11021,
+		base = 11020,
+		weapon_id = {
+			11021
+		}
+	},
+	[11022] = {
+		id = 11022,
+		damage = "4 x 1",
+		base = 11020,
+		weapon_id = {
+			11022
+		}
+	},
+	[11023] = {
+		id = 11023,
+		damage = "4 x 1",
+		base = 11020,
+		weapon_id = {
+			11023
+		}
+	},
+	[11040] = {
+		name = "76mm火炮",
+		speciality = "锁定",
+		type = 1,
+		tech = 3,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "11000",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "3 x 1",
+		nationality = 1,
+		ammo = 3,
+		value_3 = 0,
+		id = 11040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				999
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				999
+			},
+			{
+				4,
+				1000
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			11040
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		}
+	},
+	[11041] = {
+		id = 11041,
+		base = 11040,
+		weapon_id = {
+			11041
+		}
+	},
 	[11042] = {
 		id = 11042,
 		damage = "4 x 1",
@@ -22,232 +304,6 @@ pg.equip_data_statistics_84 = {
 		base = 11040,
 		weapon_id = {
 			11044
-		}
-	},
-	[11045] = {
-		id = 11045,
-		damage = "5 x 1",
-		base = 11040,
-		weapon_id = {
-			11045
-		}
-	},
-	[11046] = {
-		id = 11046,
-		damage = "7 x 1",
-		base = 11040,
-		weapon_id = {
-			11046
-		}
-	},
-	[11047] = {
-		id = 11047,
-		damage = "7 x 1",
-		base = 11040,
-		weapon_id = {
-			11047
-		}
-	},
-	[11060] = {
-		name = "127mm单装炮早期型",
-		speciality = "锁定",
-		type = 1,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "11060",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "3 x 2",
-		nationality = 1,
-		ammo = 3,
-		value_3 = 0,
-		id = 11060,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1000
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1000
-			},
-			{
-				4,
-				1007
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			11060
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"DD",
-			"MG"
-		}
-	},
-	[11061] = {
-		id = 11061,
-		base = 11060,
-		weapon_id = {
-			11061
-		}
-	},
-	[11062] = {
-		id = 11062,
-		damage = "4 x 2",
-		base = 11060,
-		weapon_id = {
-			11062
-		}
-	},
-	[11063] = {
-		id = 11063,
-		damage = "6 x 2",
-		base = 11060,
-		weapon_id = {
-			11063
-		}
-	},
-	[11064] = {
-		id = 11064,
-		damage = "8 x 2",
-		base = 11060,
-		weapon_id = {
-			11064
-		}
-	},
-	[11065] = {
-		id = 11065,
-		damage = "10 x 2",
-		base = 11060,
-		weapon_id = {
-			11065
-		}
-	},
-	[11066] = {
-		id = 11066,
-		damage = "12 x 2",
-		base = 11060,
-		weapon_id = {
-			11066
-		}
-	},
-	[11067] = {
-		id = 11067,
-		damage = "12 x 2",
-		base = 11060,
-		weapon_id = {
-			11067
-		}
-	},
-	[11100] = {
-		name = "127mm单装炮",
-		speciality = "锁定",
-		type = 1,
-		tech = 1,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "11100",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "4 x 3",
-		nationality = 1,
-		ammo = 3,
-		value_3 = 0,
-		id = 11100,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1000
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1000
-			},
-			{
-				4,
-				1003
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			11100
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"DD",
-			"MG"
-		}
-	},
-	[11101] = {
-		id = 11101,
-		base = 11100,
-		weapon_id = {
-			11101
-		}
-	},
-	[11102] = {
-		id = 11102,
-		damage = "6 x 3",
-		base = 11100,
-		weapon_id = {
-			11102
 		}
 	}
 }

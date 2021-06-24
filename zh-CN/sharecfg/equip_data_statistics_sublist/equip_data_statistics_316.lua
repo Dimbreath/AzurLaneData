@@ -1,111 +1,20 @@
 pg = pg or {}
 pg.equip_data_statistics_316 = {
-	[46343] = {
-		id = 46343,
-		damage = "70/轮",
-		base = 46340,
-		weapon_id = {
-			46343
-		}
-	},
-	[46344] = {
-		id = 46344,
-		damage = "77/轮",
-		base = 46340,
-		weapon_id = {
-			46344
-		}
-	},
-	[46345] = {
-		id = 46345,
-		damage = "84/轮",
-		base = 46340,
-		weapon_id = {
-			46345
-		}
-	},
-	[46346] = {
-		id = 46346,
-		damage = "91/轮",
-		base = 46340,
-		weapon_id = {
-			46346
-		}
-	},
-	[46347] = {
-		id = 46347,
-		damage = "98/轮",
-		base = 46340,
-		weapon_id = {
-			46347
-		}
-	},
-	[46348] = {
-		id = 46348,
-		damage = "106/轮",
-		base = 46340,
-		weapon_id = {
-			46348
-		}
-	},
-	[46349] = {
-		id = 46349,
-		damage = "114/轮",
-		base = 46340,
-		weapon_id = {
-			46349
-		}
-	},
-	[46350] = {
-		id = 46350,
-		damage = "122/轮",
-		base = 46340,
-		weapon_id = {
-			46350
-		}
-	},
-	[46351] = {
-		anti_siren = 100,
-		damage = "122/轮",
-		base = 46340,
-		id = 46351,
-		weapon_id = {
-			46351
-		}
-	},
-	[46352] = {
-		anti_siren = 200,
-		damage = "122/轮",
-		base = 46340,
-		id = 46352,
-		weapon_id = {
-			46352
-		}
-	},
-	[46353] = {
-		anti_siren = 300,
-		damage = "122/轮",
-		base = 46340,
-		id = 46353,
-		weapon_id = {
-			46353
-		}
-	},
-	[46360] = {
-		name = "双联105mmSKC高炮改进型",
+	[46320] = {
+		name = "双联105mmSKC高炮",
 		speciality = "防空",
 		type = 6,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 45,
-		icon = "46360",
+		tech = 2,
+		descrip = "双联105mmSKC高炮，可以用于防空",
+		value_2 = 25,
+		icon = "46300",
 		attribute_2 = "antiaircraft",
-		rarity = 5,
-		damage = "55/轮",
+		rarity = 4,
+		damage = "41/轮",
 		nationality = 4,
 		ammo = 5,
 		value_3 = 0,
-		id = 46360,
+		id = 46320,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -117,7 +26,7 @@ pg.equip_data_statistics_316 = {
 			10
 		},
 		weapon_id = {
-			46360
+			46320
 		},
 		skill_id = {},
 		part_main = {
@@ -153,44 +62,186 @@ pg.equip_data_statistics_316 = {
 			"AA"
 		}
 	},
-	[46361] = {
-		id = 46361,
-		damage = "62/轮",
-		base = 46360,
+	[46321] = {
+		id = 46321,
+		damage = "47/轮",
+		base = 46320,
 		weapon_id = {
-			46361
+			46321
 		}
 	},
-	[46362] = {
-		id = 46362,
-		damage = "69/轮",
-		base = 46360,
+	[46322] = {
+		id = 46322,
+		damage = "53/轮",
+		base = 46320,
 		weapon_id = {
-			46362
+			46322
 		}
 	},
-	[46363] = {
-		id = 46363,
-		damage = "76/轮",
-		base = 46360,
+	[46323] = {
+		id = 46323,
+		damage = "59/轮",
+		base = 46320,
 		weapon_id = {
-			46363
+			46323
 		}
 	},
-	[46364] = {
-		id = 46364,
+	[46324] = {
+		id = 46324,
+		damage = "65/轮",
+		base = 46320,
+		weapon_id = {
+			46324
+		}
+	},
+	[46325] = {
+		id = 46325,
+		damage = "71/轮",
+		base = 46320,
+		weapon_id = {
+			46325
+		}
+	},
+	[46326] = {
+		id = 46326,
+		damage = "77/轮",
+		base = 46320,
+		weapon_id = {
+			46326
+		}
+	},
+	[46327] = {
+		id = 46327,
 		damage = "83/轮",
-		base = 46360,
+		base = 46320,
 		weapon_id = {
-			46364
+			46327
 		}
 	},
-	[46365] = {
-		id = 46365,
-		damage = "90/轮",
-		base = 46360,
+	[46328] = {
+		id = 46328,
+		damage = "89/轮",
+		base = 46320,
 		weapon_id = {
-			46365
+			46328
+		}
+	},
+	[46329] = {
+		id = 46329,
+		damage = "95/轮",
+		base = 46320,
+		weapon_id = {
+			46329
+		}
+	},
+	[46330] = {
+		id = 46330,
+		damage = "102/轮",
+		base = 46320,
+		weapon_id = {
+			46330
+		}
+	},
+	[46340] = {
+		name = "双联105mmSKC高炮",
+		speciality = "防空",
+		type = 6,
+		tech = 3,
+		descrip = "双联105mmSKC高炮，可以用于防空",
+		value_2 = 45,
+		icon = "46300",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "49/轮",
+		nationality = 4,
+		ammo = 5,
+		value_3 = 0,
+		id = 46340,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			46340
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
+	},
+	[46341] = {
+		id = 46341,
+		damage = "56/轮",
+		base = 46340,
+		weapon_id = {
+			46341
+		}
+	},
+	[46342] = {
+		id = 46342,
+		damage = "63/轮",
+		base = 46340,
+		weapon_id = {
+			46342
+		}
+	},
+	[46343] = {
+		id = 46343,
+		damage = "70/轮",
+		base = 46340,
+		weapon_id = {
+			46343
+		}
+	},
+	[46344] = {
+		id = 46344,
+		damage = "77/轮",
+		base = 46340,
+		weapon_id = {
+			46344
+		}
+	},
+	[46345] = {
+		id = 46345,
+		damage = "84/轮",
+		base = 46340,
+		weapon_id = {
+			46345
 		}
 	}
 }

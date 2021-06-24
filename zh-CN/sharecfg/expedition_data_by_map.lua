@@ -9697,6 +9697,258 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1530001] = {
+		map = 1530001,
+		name = "浮樱影华·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "xinnong-1",
+		type = 4,
+		on_activity = 4020,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "FUYINGYINGHUA1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1280001",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1280001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1530011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1530002] = {
+		map = 1530002,
+		name = "浮樱影华·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 4,
+		on_activity = 4020,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "FUYINGYINGHUA13",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1280002",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1280002",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1530012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1530011] = {
+		map = 1530011,
+		name = "浮樱影华·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "xinnong-1",
+		type = 5,
+		on_activity = 4020,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "FUYINGYINGHUA1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1280003",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1280003",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1530001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1530012] = {
+		map = 1530012,
+		name = "浮樱影华·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 5,
+		on_activity = 4020,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "FUYINGYINGHUA13",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1280004",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1280004",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1530002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1530025] = {
+		map = 1530025,
+		name = "浮樱影华·SP|| ||CHAPTER EX||E.X.",
+		bgm = "xinnong-1",
+		type = 8,
+		on_activity = 4020,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1280004",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1280004",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1530012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1530026] = {
+		map = 1530026,
+		name = "浮樱影华·EX|| ||CHAPTER EX||E.X.",
+		bgm = "xinnong-2",
+		type = 8,
+		on_activity = 4020,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1280004",
+		cloud_suffix = "",
+		ui_type = 1,
+		bg = "Map_1280004",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1530012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『红染的参访者』-前篇|| ||CHAPTER EX||E.X.",
@@ -11358,6 +11610,12 @@ pg.expedition_data_by_map = {
 		1520012,
 		1520025,
 		1520026,
+		1530001,
+		1530002,
+		1530011,
+		1530012,
+		1530025,
+		1530026,
 		2100000,
 		2100001,
 		2100010,

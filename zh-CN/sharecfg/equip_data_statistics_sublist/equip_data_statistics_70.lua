@@ -1,60 +1,138 @@
 pg = pg or {}
 pg.equip_data_statistics_70 = {
-	[5122] = {
-		id = 5122,
-		damage = "68 x 4",
-		base = 5120,
-		weapon_id = {
-			5122
-		}
-	},
-	[5123] = {
-		id = 5123,
-		damage = "77 x 4",
-		base = 5120,
-		weapon_id = {
-			5123
-		}
-	},
-	[5124] = {
-		id = 5124,
-		damage = "86 x 4",
-		base = 5120,
-		weapon_id = {
-			5124
-		}
-	},
-	[5125] = {
-		id = 5125,
-		damage = "95 x 4",
-		base = 5120,
-		weapon_id = {
-			5125
-		}
-	},
-	[5126] = {
-		id = 5126,
-		damage = "104 x 4",
-		base = 5120,
-		weapon_id = {
-			5126
-		}
-	},
-	[5140] = {
-		name = "四联装533mm鱼雷",
+	[5040] = {
+		name = "三联装533mm鱼雷",
 		speciality = "雷击",
 		type = 5,
 		tech = 3,
 		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "5100",
+		value_2 = 12,
+		icon = "5000",
 		attribute_2 = "torpedo",
-		rarity = 4,
-		damage = "56 x 4",
+		rarity = 3,
+		damage = "56 x 3",
 		nationality = 0,
 		ammo = 5,
 		value_3 = 0,
-		id = 5140,
+		id = 5040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1800
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1800
+			},
+			{
+				4,
+				1402
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			5040
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"TP",
+			"TRI"
+		}
+	},
+	[5041] = {
+		id = 5041,
+		damage = "66 x 3",
+		base = 5040,
+		weapon_id = {
+			5041
+		}
+	},
+	[5042] = {
+		id = 5042,
+		damage = "76 x 3",
+		base = 5040,
+		weapon_id = {
+			5042
+		}
+	},
+	[5043] = {
+		id = 5043,
+		damage = "86 x 3",
+		base = 5040,
+		weapon_id = {
+			5043
+		}
+	},
+	[5044] = {
+		id = 5044,
+		damage = "96 x 3",
+		base = 5040,
+		weapon_id = {
+			5044
+		}
+	},
+	[5045] = {
+		id = 5045,
+		damage = "106 x 3",
+		base = 5040,
+		weapon_id = {
+			5045
+		}
+	},
+	[5046] = {
+		id = 5046,
+		damage = "116 x 3",
+		base = 5040,
+		weapon_id = {
+			5046
+		}
+	},
+	[5047] = {
+		id = 5047,
+		damage = "116 x 3",
+		base = 5040,
+		weapon_id = {
+			5047
+		}
+	},
+	[5100] = {
+		name = "四联装533mm鱼雷",
+		speciality = "雷击",
+		type = 5,
+		tech = 1,
+		descrip = "说明未填写",
+		value_2 = 5,
+		icon = "5100",
+		attribute_2 = "torpedo",
+		rarity = 2,
+		damage = "46 x 4",
+		nationality = 0,
+		ammo = 5,
+		value_3 = 0,
+		id = 5100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -79,7 +157,7 @@ pg.equip_data_statistics_70 = {
 			12
 		},
 		weapon_id = {
-			5140
+			5100
 		},
 		skill_id = {},
 		part_main = {
@@ -102,93 +180,122 @@ pg.equip_data_statistics_70 = {
 			"QUAD"
 		}
 	},
-	[5141] = {
-		id = 5141,
-		damage = "66 x 4",
-		base = 5140,
+	[5101] = {
+		id = 5101,
+		damage = "54 x 4",
+		base = 5100,
 		weapon_id = {
-			5141
+			5101
 		}
 	},
-	[5142] = {
-		id = 5142,
-		damage = "76 x 4",
-		base = 5140,
+	[5102] = {
+		id = 5102,
+		damage = "62 x 4",
+		base = 5100,
 		weapon_id = {
-			5142
+			5102
 		}
 	},
-	[5143] = {
-		id = 5143,
+	[5103] = {
+		id = 5103,
+		damage = "70 x 4",
+		base = 5100,
+		weapon_id = {
+			5103
+		}
+	},
+	[5120] = {
+		name = "四联装533mm鱼雷",
+		speciality = "雷击",
+		type = 5,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "5100",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		damage = "50 x 4",
+		nationality = 0,
+		ammo = 5,
+		value_3 = 0,
+		id = 5120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1800
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1800
+			},
+			{
+				4,
+				1403
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			5120
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"TP",
+			"QUAD"
+		}
+	},
+	[5121] = {
+		id = 5121,
+		damage = "59 x 4",
+		base = 5120,
+		weapon_id = {
+			5121
+		}
+	},
+	[5122] = {
+		id = 5122,
+		damage = "68 x 4",
+		base = 5120,
+		weapon_id = {
+			5122
+		}
+	},
+	[5123] = {
+		id = 5123,
+		damage = "77 x 4",
+		base = 5120,
+		weapon_id = {
+			5123
+		}
+	},
+	[5124] = {
+		id = 5124,
 		damage = "86 x 4",
-		base = 5140,
+		base = 5120,
 		weapon_id = {
-			5143
-		}
-	},
-	[5144] = {
-		id = 5144,
-		damage = "96 x 4",
-		base = 5140,
-		weapon_id = {
-			5144
-		}
-	},
-	[5145] = {
-		id = 5145,
-		damage = "106 x 4",
-		base = 5140,
-		weapon_id = {
-			5145
-		}
-	},
-	[5146] = {
-		id = 5146,
-		damage = "116 x 4",
-		base = 5140,
-		weapon_id = {
-			5146
-		}
-	},
-	[5147] = {
-		id = 5147,
-		damage = "126 x 4",
-		base = 5140,
-		weapon_id = {
-			5147
-		}
-	},
-	[5148] = {
-		id = 5148,
-		damage = "136 x 4",
-		base = 5140,
-		weapon_id = {
-			5148
-		}
-	},
-	[5149] = {
-		id = 5149,
-		damage = "146 x 4",
-		base = 5140,
-		weapon_id = {
-			5149
-		}
-	},
-	[5150] = {
-		id = 5150,
-		damage = "156 x 4",
-		base = 5140,
-		weapon_id = {
-			5150
-		}
-	},
-	[5151] = {
-		anti_siren = 100,
-		damage = "156 x 4",
-		base = 5140,
-		id = 5151,
-		weapon_id = {
-			5151
+			5124
 		}
 	}
 }

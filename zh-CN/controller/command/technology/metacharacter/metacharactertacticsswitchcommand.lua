@@ -12,7 +12,9 @@ function slot0.execute(slot0, slot1)
 	}, 63308, function (slot0)
 		if slot0.result == 0 then
 			print("63308 switch success")
-			uv0:sendNotification(GAME.TACTICS_META_SWITCH_SKILL_DONE, {
+			getProxy(MetaCharacterProxy):switchMetaTacticsSkill(uv0, uv1)
+			uv2:sendNotification(GAME.TACTICS_META_SWITCH_SKILL_DONE, {
+				metaShipID = uv0,
 				skillID = uv1,
 				leftSwitchCount = slot0.switch_cnt
 			})

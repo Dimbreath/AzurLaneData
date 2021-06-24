@@ -2,6 +2,256 @@ pg = pg or {}
 pg.weapon_property_165 = {}
 
 function ()
+	uv0.weapon_property_165[69100] = {
+		id = 69100,
+		name = "定点冰锥2-90-LV10",
+		damage = 56,
+		base = 69091
+	}
+	uv0.weapon_property_165[69101] = {
+		action_index = "",
+		range = 100,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "定点冰锥3-100-LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 11,
+		corrected = 100,
+		min_range = 0,
+		id = 69101,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 9500,
+		queue = 4,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19098,
+			19100,
+			19102
+		},
+		barrage_ID = {
+			80842,
+			80842,
+			80842
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_165[69102] = {
+		id = 69102,
+		name = "定点冰锥3-100-LV2",
+		damage = 13,
+		base = 69101
+	}
+	uv0.weapon_property_165[69103] = {
+		id = 69103,
+		name = "定点冰锥3-100-LV3",
+		damage = 16,
+		base = 69101
+	}
+	uv0.weapon_property_165[69104] = {
+		id = 69104,
+		name = "定点冰锥3-100-LV4",
+		damage = 20,
+		base = 69101
+	}
+	uv0.weapon_property_165[69105] = {
+		id = 69105,
+		name = "定点冰锥3-100-LV5",
+		damage = 25,
+		base = 69101
+	}
+	uv0.weapon_property_165[69106] = {
+		id = 69106,
+		name = "定点冰锥3-100-LV6",
+		damage = 30,
+		base = 69101
+	}
+	uv0.weapon_property_165[69107] = {
+		id = 69107,
+		name = "定点冰锥3-100-LV7",
+		damage = 36,
+		base = 69101
+	}
+	uv0.weapon_property_165[69108] = {
+		id = 69108,
+		name = "定点冰锥3-100-LV8",
+		damage = 42,
+		base = 69101
+	}
+	uv0.weapon_property_165[69109] = {
+		id = 69109,
+		name = "定点冰锥3-100-LV9",
+		damage = 49,
+		base = 69101
+	}
+	uv0.weapon_property_165[69110] = {
+		id = 69110,
+		name = "定点冰锥3-100-LV10",
+		damage = 56,
+		base = 69101
+	}
+	uv0.weapon_property_165[69111] = {
+		action_index = "attack",
+		range = 50,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "苏俄技能小子弹-LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 11,
+		corrected = 100,
+		min_range = 0,
+		id = 69111,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19097
+		},
+		barrage_ID = {
+			80841
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_165[69112] = {
+		id = 69112,
+		name = "苏俄技能小子弹-LV2",
+		damage = 12,
+		base = 69111
+	}
+	uv0.weapon_property_165[69113] = {
+		id = 69113,
+		name = "苏俄技能小子弹-LV3",
+		damage = 13,
+		base = 69111
+	}
+	uv0.weapon_property_165[69114] = {
+		id = 69114,
+		name = "苏俄技能小子弹-LV4",
+		damage = 14,
+		base = 69111
+	}
+	uv0.weapon_property_165[69115] = {
+		id = 69115,
+		name = "苏俄技能小子弹-LV5",
+		damage = 15,
+		base = 69111
+	}
+	uv0.weapon_property_165[69116] = {
+		id = 69116,
+		name = "苏俄技能小子弹-LV6",
+		damage = 16,
+		base = 69111
+	}
+	uv0.weapon_property_165[69117] = {
+		id = 69117,
+		name = "苏俄技能小子弹-LV7",
+		damage = 17,
+		base = 69111
+	}
+	uv0.weapon_property_165[69118] = {
+		id = 69118,
+		name = "苏俄技能小子弹-LV8",
+		damage = 18,
+		base = 69111
+	}
+	uv0.weapon_property_165[69119] = {
+		id = 69119,
+		name = "苏俄技能小子弹-LV9",
+		damage = 19,
+		base = 69111
+	}
+	uv0.weapon_property_165[69120] = {
+		id = 69120,
+		name = "苏俄技能小子弹-LV10",
+		damage = 20,
+		base = 69111
+	}
+	uv0.weapon_property_165[69121] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "恰巴耶夫技能弹幕-LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 7,
+		corrected = 100,
+		min_range = 0,
+		id = 69121,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 412,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19104
+		},
+		barrage_ID = {
+			80844
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_165[69122] = {
 		id = 69122,
 		name = "恰巴耶夫技能弹幕-LV2",
@@ -418,241 +668,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_165[69162] = {
-		name = "无畏技能轰炸机Lv2",
-		damage = 78,
-		base = 69161,
-		id = 69162,
-		bullet_ID = {
-			69162
-		}
-	}
-	uv0.weapon_property_165[69163] = {
-		name = "无畏技能轰炸机Lv3",
-		damage = 91,
-		base = 69161,
-		id = 69163,
-		bullet_ID = {
-			69163
-		}
-	}
-	uv0.weapon_property_165[69164] = {
-		name = "无畏技能轰炸机Lv4",
-		damage = 103,
-		base = 69161,
-		id = 69164,
-		bullet_ID = {
-			69164
-		}
-	}
-	uv0.weapon_property_165[69165] = {
-		name = "无畏技能轰炸机Lv5",
-		damage = 116,
-		base = 69161,
-		id = 69165,
-		bullet_ID = {
-			69165
-		}
-	}
-	uv0.weapon_property_165[69166] = {
-		name = "无畏技能轰炸机Lv6",
-		damage = 129,
-		base = 69161,
-		id = 69166,
-		bullet_ID = {
-			69166
-		}
-	}
-	uv0.weapon_property_165[69167] = {
-		name = "无畏技能轰炸机Lv7",
-		damage = 141,
-		base = 69161,
-		id = 69167,
-		bullet_ID = {
-			69167
-		},
-		barrage_ID = {
-			12010
-		}
-	}
-	uv0.weapon_property_165[69168] = {
-		name = "无畏技能轰炸机Lv8",
-		damage = 154,
-		base = 69161,
-		id = 69168,
-		bullet_ID = {
-			69168
-		},
-		barrage_ID = {
-			12010
-		}
-	}
-	uv0.weapon_property_165[69169] = {
-		name = "无畏技能轰炸机Lv9",
-		damage = 167,
-		base = 69161,
-		id = 69169,
-		bullet_ID = {
-			69169
-		},
-		barrage_ID = {
-			12010
-		}
-	}
-	uv0.weapon_property_165[69170] = {
-		name = "无畏技能轰炸机Lv10",
-		damage = 179,
-		base = 69161,
-		id = 69170,
-		bullet_ID = {
-			69170
-		},
-		barrage_ID = {
-			12010
-		}
-	}
-	uv0.weapon_property_165[69171] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 25,
-		shakescreen = 0,
-		name = "1 x 2000lb 炸弹",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 176,
-		corrected = 100,
-		min_range = 0,
-		id = 69171,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19105
-		},
-		barrage_ID = {
-			2120
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_165[69172] = {
-		id = 69172,
-		damage = 198,
-		base = 69171
-	}
-	uv0.weapon_property_165[69173] = {
-		id = 69173,
-		damage = 221,
-		base = 69171
-	}
-	uv0.weapon_property_165[69174] = {
-		id = 69174,
-		damage = 243,
-		base = 69171
-	}
-	uv0.weapon_property_165[69175] = {
-		id = 69175,
-		damage = 266,
-		base = 69171
-	}
-	uv0.weapon_property_165[69176] = {
-		id = 69176,
-		damage = 288,
-		base = 69171
-	}
-	uv0.weapon_property_165[69177] = {
-		id = 69177,
-		damage = 311,
-		base = 69171
-	}
-	uv0.weapon_property_165[69178] = {
-		id = 69178,
-		damage = 333,
-		base = 69171
-	}
-	uv0.weapon_property_165[69179] = {
-		id = 69179,
-		damage = 356,
-		base = 69171
-	}
-	uv0.weapon_property_165[69180] = {
-		id = 69180,
-		damage = 380,
-		base = 69171
-	}
-	uv0.weapon_property_165[69181] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 25,
-		shakescreen = 0,
-		name = "2 x 500lb 炸弹",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 86,
-		corrected = 100,
-		min_range = 0,
-		id = 69181,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19106
-		},
-		barrage_ID = {
-			2121
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_165[69182] = {
-		id = 69182,
-		damage = 99,
-		base = 69181
-	}
-	uv0.weapon_property_165[69183] = {
-		id = 69183,
-		damage = 112,
-		base = 69181
 	}
 end()

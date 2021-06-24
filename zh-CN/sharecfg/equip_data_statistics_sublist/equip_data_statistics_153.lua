@@ -1,120 +1,20 @@
 pg = pg or {}
 pg.equip_data_statistics_153 = {
-	[21462] = {
-		id = 21462,
-		damage = "8 x 4",
-		base = 21460,
-		weapon_id = {
-			21462
-		}
-	},
-	[21463] = {
-		id = 21463,
-		damage = "9 x 4",
-		base = 21460,
-		weapon_id = {
-			21463
-		}
-	},
-	[21464] = {
-		id = 21464,
-		damage = "10 x 4",
-		base = 21460,
-		weapon_id = {
-			21464
-		}
-	},
-	[21465] = {
-		id = 21465,
-		damage = "11 x 4",
-		base = 21460,
-		weapon_id = {
-			21465
-		}
-	},
-	[21466] = {
-		id = 21466,
-		damage = "12 x 4",
-		base = 21460,
-		weapon_id = {
-			21466
-		}
-	},
-	[21467] = {
-		id = 21467,
-		damage = "13 x 4",
-		base = 21460,
-		weapon_id = {
-			21467
-		}
-	},
-	[21468] = {
-		id = 21468,
-		damage = "14 x 4",
-		base = 21460,
-		weapon_id = {
-			21468
-		}
-	},
-	[21469] = {
-		id = 21469,
-		damage = "15 x 4",
-		base = 21460,
-		weapon_id = {
-			21469
-		}
-	},
-	[21470] = {
-		id = 21470,
-		damage = "17 x 4",
-		base = 21460,
-		weapon_id = {
-			21470
-		}
-	},
-	[21471] = {
-		anti_siren = 100,
-		damage = "17 x 4",
-		base = 21460,
-		id = 21471,
-		weapon_id = {
-			21471
-		}
-	},
-	[21472] = {
-		anti_siren = 200,
-		damage = "17 x 4",
-		base = 21460,
-		id = 21472,
-		weapon_id = {
-			21472
-		}
-	},
-	[21473] = {
-		anti_siren = 300,
-		damage = "17 x 4",
-		base = 21460,
-		id = 21473,
-		weapon_id = {
-			21473
-		}
-	},
-	[21500] = {
-		name = "双联装134mm高炮",
+	[21440] = {
+		name = "双联装120mm主炮",
 		speciality = "锁定",
 		type = 1,
-		attribute_3 = "antiaircraft",
-		tech = 1,
-		value_2 = 2,
-		icon = "21500",
-		attribute_2 = "cannon",
+		tech = 3,
 		descrip = "说明未填写",
-		rarity = 2,
-		damage = "4 x 2",
+		value_2 = 25,
+		icon = "21400",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "4 x 4",
 		nationality = 2,
 		ammo = 3,
-		value_3 = 3,
-		id = 21500,
+		value_3 = 0,
+		id = 21440,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -135,7 +35,7 @@ pg.equip_data_statistics_153 = {
 			},
 			{
 				4,
-				1011
+				1001
 			},
 			6,
 			10,
@@ -143,7 +43,7 @@ pg.equip_data_statistics_153 = {
 			12
 		},
 		weapon_id = {
-			21500
+			21440
 		},
 		skill_id = {},
 		part_main = {
@@ -166,54 +66,119 @@ pg.equip_data_statistics_153 = {
 			"MG"
 		}
 	},
-	[21501] = {
-		id = 21501,
-		base = 21500,
+	[21441] = {
+		id = 21441,
+		base = 21440,
 		weapon_id = {
-			21501
+			21441
 		}
 	},
-	[21502] = {
-		id = 21502,
-		damage = "6 x 2",
-		base = 21500,
+	[21442] = {
+		id = 21442,
+		damage = "7 x 4",
+		base = 21440,
 		weapon_id = {
-			21502
+			21442
 		}
 	},
-	[21503] = {
-		id = 21503,
-		damage = "6 x 2",
-		base = 21500,
+	[21443] = {
+		id = 21443,
+		damage = "8 x 4",
+		base = 21440,
 		weapon_id = {
-			21503
+			21443
 		}
 	},
-	[21520] = {
-		name = "双联装134mm高炮",
+	[21444] = {
+		id = 21444,
+		damage = "9 x 4",
+		base = 21440,
+		weapon_id = {
+			21444
+		}
+	},
+	[21445] = {
+		id = 21445,
+		damage = "10 x 4",
+		base = 21440,
+		weapon_id = {
+			21445
+		}
+	},
+	[21446] = {
+		id = 21446,
+		damage = "11 x 4",
+		base = 21440,
+		weapon_id = {
+			21446
+		}
+	},
+	[21447] = {
+		id = 21447,
+		damage = "12 x 4",
+		base = 21440,
+		weapon_id = {
+			21447
+		}
+	},
+	[21448] = {
+		id = 21448,
+		damage = "13 x 4",
+		base = 21440,
+		weapon_id = {
+			21448
+		}
+	},
+	[21449] = {
+		id = 21449,
+		damage = "14 x 4",
+		base = 21440,
+		weapon_id = {
+			21449
+		}
+	},
+	[21450] = {
+		id = 21450,
+		damage = "15 x 4",
+		base = 21440,
+		weapon_id = {
+			21450
+		}
+	},
+	[21451] = {
+		anti_siren = 100,
+		damage = "15 x 4",
+		base = 21440,
+		id = 21451,
+		weapon_id = {
+			21451
+		}
+	},
+	[21460] = {
+		name = "双联装120mm高平两用炮Mark XI",
 		speciality = "锁定",
 		type = 1,
 		attribute_3 = "antiaircraft",
-		tech = 2,
-		value_2 = 5,
-		icon = "21500",
+		tech = 0,
+		value_2 = 20,
+		icon = "21460",
 		attribute_2 = "cannon",
 		descrip = "说明未填写",
-		rarity = 3,
-		damage = "4 x 2",
+		rarity = 5,
+		damage = "6 x 4",
 		nationality = 2,
-		ammo = 1,
-		value_3 = 7,
-		id = 21520,
+		ammo = 3,
+		value_3 = 25,
+		id = 21460,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			2
+			1
 		},
 		ammo_info = {
 			{
 				1,
-				1103
+				1100
 			}
 		},
 		equip_info = {
@@ -221,11 +186,11 @@ pg.equip_data_statistics_153 = {
 			2,
 			{
 				3,
-				1103
+				1100
 			},
 			{
 				4,
-				1011
+				1001
 			},
 			6,
 			10,
@@ -233,12 +198,11 @@ pg.equip_data_statistics_153 = {
 			12
 		},
 		weapon_id = {
-			21520
+			21460
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			19
+			1
 		},
 		part_sub = {
 			2,
@@ -246,15 +210,45 @@ pg.equip_data_statistics_153 = {
 			4,
 			5,
 			8,
-			13,
-			18
+			13
 		},
 		equip_parameters = {},
 		label = {
 			"HMS",
 			"DD",
-			"MG",
-			"AP"
+			"MG"
+		}
+	},
+	[21461] = {
+		id = 21461,
+		damage = "7 x 4",
+		base = 21460,
+		weapon_id = {
+			21461
+		}
+	},
+	[21462] = {
+		id = 21462,
+		damage = "8 x 4",
+		base = 21460,
+		weapon_id = {
+			21462
+		}
+	},
+	[21463] = {
+		id = 21463,
+		damage = "9 x 4",
+		base = 21460,
+		weapon_id = {
+			21463
+		}
+	},
+	[21464] = {
+		id = 21464,
+		damage = "10 x 4",
+		base = 21460,
+		weapon_id = {
+			21464
 		}
 	}
 }

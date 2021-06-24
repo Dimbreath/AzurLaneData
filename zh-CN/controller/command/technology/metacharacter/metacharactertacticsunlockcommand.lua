@@ -26,7 +26,11 @@ function slot0.execute(slot0, slot1)
 				id = uv3.id,
 				type = DROP_TYPE_ITEM
 			}))
-			uv2:sendNotification(GAME.TACTICS_META_UNLOCK_SKILL_DONE)
+			getProxy(MetaCharacterProxy):unlockMetaTacticsSkill(uv0, uv1, slot2:isAllMetaSkillLock())
+			uv2:sendNotification(GAME.TACTICS_META_UNLOCK_SKILL_DONE, {
+				metaShipID = uv0,
+				unlockSkillID = uv1
+			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end

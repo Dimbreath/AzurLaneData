@@ -1,5 +1,344 @@
 pg = pg or {}
 pg.equip_data_statistics_143 = {
+	[19067] = {
+		id = 19067,
+		base = 19060,
+		ammo_info = {
+			{
+				5,
+				52967
+			},
+			{
+				5,
+				52167
+			}
+		},
+		weapon_id = {
+			19067
+		}
+	},
+	[19068] = {
+		id = 19068,
+		base = 19060,
+		ammo_info = {
+			{
+				5,
+				52968
+			},
+			{
+				5,
+				52168
+			}
+		},
+		weapon_id = {
+			19068
+		}
+	},
+	[19069] = {
+		id = 19069,
+		base = 19060,
+		ammo_info = {
+			{
+				5,
+				52969
+			},
+			{
+				5,
+				52169
+			}
+		},
+		weapon_id = {
+			19069
+		}
+	},
+	[19070] = {
+		id = 19070,
+		base = 19060,
+		ammo_info = {
+			{
+				5,
+				52970
+			},
+			{
+				5,
+				52170
+			}
+		},
+		weapon_id = {
+			19070
+		}
+	},
+	[19071] = {
+		anti_siren = 100,
+		base = 19060,
+		id = 19071,
+		ammo_info = {
+			{
+				5,
+				52971
+			},
+			{
+				5,
+				52171
+			}
+		},
+		weapon_id = {
+			19071
+		}
+	},
+	[19072] = {
+		anti_siren = 200,
+		base = 19060,
+		id = 19072,
+		ammo_info = {
+			{
+				5,
+				52972
+			},
+			{
+				5,
+				52172
+			}
+		},
+		weapon_id = {
+			19072
+		}
+	},
+	[19073] = {
+		anti_siren = 300,
+		base = 19060,
+		id = 19073,
+		ammo_info = {
+			{
+				5,
+				52973
+			},
+			{
+				5,
+				52173
+			}
+		},
+		weapon_id = {
+			19073
+		}
+	},
+	[19100] = {
+		name = "SB2C地狱俯冲者",
+		type = 9,
+		speciality = "轰炸",
+		rarity = 2,
+		tech = 1,
+		descrip = "说明未填写",
+		value_2 = 5,
+		icon = "19100",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 19100,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50700
+			},
+			{
+				5,
+				52900
+			},
+			{
+				5,
+				52300
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			19100
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
+	},
+	[19101] = {
+		id = 19101,
+		base = 19100,
+		ammo_info = {
+			{
+				6,
+				50701
+			},
+			{
+				5,
+				52901
+			},
+			{
+				5,
+				52301
+			}
+		},
+		weapon_id = {
+			19101
+		}
+	},
+	[19102] = {
+		id = 19102,
+		base = 19100,
+		ammo_info = {
+			{
+				6,
+				50702
+			},
+			{
+				5,
+				52902
+			},
+			{
+				5,
+				52302
+			}
+		},
+		weapon_id = {
+			19102
+		}
+	},
+	[19103] = {
+		id = 19103,
+		base = 19100,
+		ammo_info = {
+			{
+				6,
+				50703
+			},
+			{
+				5,
+				52903
+			},
+			{
+				5,
+				52303
+			}
+		},
+		weapon_id = {
+			19103
+		}
+	},
+	[19120] = {
+		name = "SB2C地狱俯冲者",
+		type = 9,
+		speciality = "轰炸",
+		rarity = 3,
+		tech = 2,
+		descrip = "说明未填写",
+		value_2 = 12,
+		icon = "19100",
+		attribute_2 = "air",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 19120,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50720
+			},
+			{
+				5,
+				52920
+			},
+			{
+				5,
+				52320
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			19120
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
+	},
+	[19121] = {
+		id = 19121,
+		base = 19120,
+		ammo_info = {
+			{
+				6,
+				50721
+			},
+			{
+				5,
+				52921
+			},
+			{
+				5,
+				52321
+			}
+		},
+		weapon_id = {
+			19121
+		}
+	},
+	[19122] = {
+		id = 19122,
+		base = 19120,
+		ammo_info = {
+			{
+				6,
+				50722
+			},
+			{
+				5,
+				52922
+			},
+			{
+				5,
+				52322
+			}
+		},
+		weapon_id = {
+			19122
+		}
+	},
 	[19123] = {
 		id = 19123,
 		base = 19120,
@@ -61,371 +400,6 @@ pg.equip_data_statistics_143 = {
 		},
 		weapon_id = {
 			19125
-		}
-	},
-	[19126] = {
-		id = 19126,
-		base = 19120,
-		ammo_info = {
-			{
-				6,
-				50726
-			},
-			{
-				5,
-				52926
-			},
-			{
-				5,
-				52326
-			}
-		},
-		weapon_id = {
-			19126
-		}
-	},
-	[19140] = {
-		name = "SB2C地狱俯冲者",
-		type = 9,
-		speciality = "轰炸",
-		rarity = 4,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 25,
-		icon = "19100",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 19140,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50740
-			},
-			{
-				5,
-				52940
-			},
-			{
-				5,
-				52340
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			19140
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"DB"
-		}
-	},
-	[19141] = {
-		id = 19141,
-		base = 19140,
-		ammo_info = {
-			{
-				6,
-				50741
-			},
-			{
-				5,
-				52941
-			},
-			{
-				5,
-				52341
-			}
-		},
-		weapon_id = {
-			19141
-		}
-	},
-	[19142] = {
-		id = 19142,
-		base = 19140,
-		ammo_info = {
-			{
-				6,
-				50742
-			},
-			{
-				5,
-				52942
-			},
-			{
-				5,
-				52342
-			}
-		},
-		weapon_id = {
-			19142
-		}
-	},
-	[19143] = {
-		id = 19143,
-		base = 19140,
-		ammo_info = {
-			{
-				6,
-				50743
-			},
-			{
-				5,
-				52943
-			},
-			{
-				5,
-				52343
-			}
-		},
-		weapon_id = {
-			19143
-		}
-	},
-	[19144] = {
-		id = 19144,
-		base = 19140,
-		ammo_info = {
-			{
-				6,
-				50744
-			},
-			{
-				5,
-				52944
-			},
-			{
-				5,
-				52344
-			}
-		},
-		weapon_id = {
-			19144
-		}
-	},
-	[19145] = {
-		id = 19145,
-		base = 19140,
-		ammo_info = {
-			{
-				6,
-				50745
-			},
-			{
-				5,
-				52945
-			},
-			{
-				5,
-				52345
-			}
-		},
-		weapon_id = {
-			19145
-		}
-	},
-	[19146] = {
-		id = 19146,
-		base = 19140,
-		ammo_info = {
-			{
-				6,
-				50746
-			},
-			{
-				5,
-				52946
-			},
-			{
-				5,
-				52346
-			}
-		},
-		weapon_id = {
-			19146
-		}
-	},
-	[19147] = {
-		id = 19147,
-		base = 19140,
-		ammo_info = {
-			{
-				6,
-				50747
-			},
-			{
-				5,
-				52947
-			},
-			{
-				5,
-				52347
-			}
-		},
-		weapon_id = {
-			19147
-		}
-	},
-	[19148] = {
-		id = 19148,
-		base = 19140,
-		ammo_info = {
-			{
-				6,
-				50748
-			},
-			{
-				5,
-				52948
-			},
-			{
-				5,
-				52348
-			}
-		},
-		weapon_id = {
-			19148
-		}
-	},
-	[19149] = {
-		id = 19149,
-		base = 19140,
-		ammo_info = {
-			{
-				6,
-				50749
-			},
-			{
-				5,
-				52949
-			},
-			{
-				5,
-				52349
-			}
-		},
-		weapon_id = {
-			19149
-		}
-	},
-	[19150] = {
-		id = 19150,
-		base = 19140,
-		ammo_info = {
-			{
-				6,
-				50750
-			},
-			{
-				5,
-				52950
-			},
-			{
-				5,
-				52350
-			}
-		},
-		weapon_id = {
-			19150
-		}
-	},
-	[19151] = {
-		anti_siren = 100,
-		base = 19140,
-		id = 19151,
-		ammo_info = {
-			{
-				6,
-				50751
-			},
-			{
-				5,
-				52951
-			},
-			{
-				5,
-				52351
-			}
-		},
-		weapon_id = {
-			19151
-		}
-	},
-	[19160] = {
-		name = "实验型XSB3C-1",
-		type = 9,
-		speciality = "轰炸",
-		rarity = 5,
-		tech = 0,
-		descrip = "说明未填写",
-		value_2 = 45,
-		icon = "19160",
-		attribute_2 = "air",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 19160,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50640
-			},
-			{
-				5,
-				52940
-			},
-			{
-				5,
-				52340
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			19160
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CV",
-			"DB"
 		}
 	}
 }

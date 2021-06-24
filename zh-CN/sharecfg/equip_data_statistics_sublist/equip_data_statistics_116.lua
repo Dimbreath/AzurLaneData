@@ -1,5 +1,174 @@
 pg = pg or {}
 pg.equip_data_statistics_116 = {
+	[15240] = {
+		name = "五联装533mm鱼雷Mk17",
+		speciality = "雷击",
+		type = 5,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "15240",
+		attribute_2 = "torpedo",
+		rarity = 5,
+		damage = "60 x 5",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 15240,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1800
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1800
+			},
+			{
+				4,
+				1404
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			15240
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"TP",
+			"QUINT"
+		}
+	},
+	[15241] = {
+		id = 15241,
+		damage = "70 x 5",
+		base = 15240,
+		weapon_id = {
+			15241
+		}
+	},
+	[15242] = {
+		id = 15242,
+		damage = "80 x 5",
+		base = 15240,
+		weapon_id = {
+			15242
+		}
+	},
+	[15243] = {
+		id = 15243,
+		damage = "90 x 5",
+		base = 15240,
+		weapon_id = {
+			15243
+		}
+	},
+	[15244] = {
+		id = 15244,
+		damage = "100 x 5",
+		base = 15240,
+		weapon_id = {
+			15244
+		}
+	},
+	[15245] = {
+		id = 15245,
+		damage = "110 x 5",
+		base = 15240,
+		weapon_id = {
+			15245
+		}
+	},
+	[15246] = {
+		id = 15246,
+		damage = "120 x 5",
+		base = 15240,
+		weapon_id = {
+			15246
+		}
+	},
+	[15247] = {
+		id = 15247,
+		damage = "130 x 5",
+		base = 15240,
+		weapon_id = {
+			15247
+		}
+	},
+	[15248] = {
+		id = 15248,
+		damage = "140 x 5",
+		base = 15240,
+		weapon_id = {
+			15248
+		}
+	},
+	[15249] = {
+		id = 15249,
+		damage = "150 x 5",
+		base = 15240,
+		weapon_id = {
+			15249
+		}
+	},
+	[15250] = {
+		id = 15250,
+		damage = "160 x 5",
+		base = 15240,
+		weapon_id = {
+			15250
+		}
+	},
+	[15251] = {
+		anti_siren = 100,
+		damage = "160 x 5",
+		base = 15240,
+		id = 15251,
+		weapon_id = {
+			15251
+		}
+	},
+	[15252] = {
+		anti_siren = 200,
+		damage = "160 x 5",
+		base = 15240,
+		id = 15252,
+		weapon_id = {
+			15252
+		}
+	},
+	[15253] = {
+		anti_siren = 300,
+		damage = "160 x 5",
+		base = 15240,
+		id = 15253,
+		weapon_id = {
+			15253
+		}
+	},
 	[15500] = {
 		name = "PBY-5A卡特琳娜水上机",
 		tech = 0,
@@ -61,207 +230,5 @@ pg.equip_data_statistics_116 = {
 		value_2 = 14,
 		value_1 = "18",
 		base = 15500
-	},
-	[15503] = {
-		id = 15503,
-		value_2 = 16,
-		value_1 = "20",
-		base = 15500
-	},
-	[15504] = {
-		id = 15504,
-		value_2 = 18,
-		value_1 = "22",
-		base = 15500
-	},
-	[15505] = {
-		id = 15505,
-		value_2 = 20,
-		value_1 = "24",
-		base = 15500
-	},
-	[15506] = {
-		id = 15506,
-		value_2 = 22,
-		value_1 = "26",
-		base = 15500
-	},
-	[15507] = {
-		id = 15507,
-		value_2 = 24,
-		value_1 = "28",
-		base = 15500
-	},
-	[15508] = {
-		id = 15508,
-		value_2 = 26,
-		value_1 = "30",
-		base = 15500
-	},
-	[15509] = {
-		id = 15509,
-		value_2 = 28,
-		value_1 = "32",
-		base = 15500
-	},
-	[15510] = {
-		id = 15510,
-		value_2 = 30,
-		value_1 = "35",
-		base = 15500
-	},
-	[15511] = {
-		id = 15511,
-		anti_siren = 100,
-		base = 15500,
-		value_2 = 32,
-		value_1 = "38"
-	},
-	[16000] = {
-		name = "20mm厄利孔高射炮",
-		speciality = "防空",
-		type = 6,
-		tech = 1,
-		rarity = 1,
-		descrip = "说明未填写",
-		value_2 = 0,
-		icon = "16000",
-		damage = "8/轮",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 16000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			16000
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"ST",
-			"AA"
-		}
-	},
-	[16001] = {
-		id = 16001,
-		damage = "9/轮",
-		base = 16000,
-		weapon_id = {
-			16001
-		}
-	},
-	[16002] = {
-		id = 16002,
-		damage = "10/轮",
-		base = 16000,
-		weapon_id = {
-			16002
-		}
-	},
-	[16003] = {
-		id = 16003,
-		damage = "12/轮",
-		base = 16000,
-		weapon_id = {
-			16003
-		}
-	},
-	[16020] = {
-		name = "20mm厄利孔高射炮",
-		speciality = "防空",
-		type = 6,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "16000",
-		attribute_2 = "antiaircraft",
-		rarity = 2,
-		damage = "9/轮",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 16020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			16020
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"ST",
-			"AA"
-		}
 	}
 }

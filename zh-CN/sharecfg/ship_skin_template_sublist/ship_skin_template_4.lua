@@ -7237,5 +7237,102 @@ pg.ship_skin_template_4 = {
 				}
 			}
 		}
+	},
+	[108030] = {
+		ship_group = 10803,
+		name = "棘鳍",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "猫鲨级潜艇棘鳍，舷号SS-244",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "jiqi",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "",
+		skin_type = -1,
+		id = 108030,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "jiqi",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 199,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.79,
+					0.533,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.753,
+					0.132,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.433,
+							2.271,
+							0
+						}
+					}
+				}
+			}
+		}
 	}
 }

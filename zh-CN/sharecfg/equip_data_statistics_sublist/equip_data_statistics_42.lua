@@ -1,5 +1,124 @@
 pg = pg or {}
 pg.equip_data_statistics_42 = {
+	[2042] = {
+		id = 2042,
+		value_1 = "182",
+		base = 2040
+	},
+	[2043] = {
+		id = 2043,
+		value_1 = "203",
+		base = 2040
+	},
+	[2044] = {
+		id = 2044,
+		value_2 = 3,
+		value_1 = "224",
+		base = 2040
+	},
+	[2045] = {
+		id = 2045,
+		value_2 = 3,
+		value_1 = "245",
+		base = 2040
+	},
+	[2046] = {
+		id = 2046,
+		value_2 = 3,
+		value_1 = "266",
+		base = 2040
+	},
+	[2047] = {
+		id = 2047,
+		value_2 = 4,
+		value_1 = "287",
+		base = 2040
+	},
+	[2048] = {
+		id = 2048,
+		value_2 = 4,
+		value_1 = "308",
+		base = 2040
+	},
+	[2049] = {
+		id = 2049,
+		value_2 = 4,
+		value_1 = "329",
+		base = 2040
+	},
+	[2050] = {
+		id = 2050,
+		value_2 = 5,
+		value_1 = "350",
+		base = 2040
+	},
+	[2051] = {
+		id = 2051,
+		anti_siren = 100,
+		base = 2040,
+		value_2 = 6,
+		value_1 = "371"
+	},
+	[2100] = {
+		name = "航空副油箱",
+		tech = 1,
+		type = 10,
+		speciality = "无",
+		id = 2100,
+		value_2 = 14,
+		icon = "2100",
+		value_1 = "10",
+		attribute_2 = "durability",
+		rarity = 2,
+		descrip = "携带副油箱可以有效提高舰载机的耐久性能",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "air",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6070
+		},
+		part_main = {
+			6,
+			7,
+			10
+		},
+		part_sub = {
+			6,
+			7,
+			10
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[2101] = {
+		id = 2101,
+		value_2 = 16,
+		value_1 = "11",
+		base = 2100
+	},
+	[2102] = {
+		id = 2102,
+		value_2 = 18,
+		value_1 = "13",
+		base = 2100
+	},
+	[2103] = {
+		id = 2103,
+		value_2 = 20,
+		value_1 = "14",
+		base = 2100
+	},
 	[2120] = {
 		name = "航空副油箱",
 		tech = 2,
@@ -53,125 +172,5 @@ pg.equip_data_statistics_42 = {
 		value_2 = 22,
 		value_1 = "23",
 		base = 2120
-	},
-	[2123] = {
-		id = 2123,
-		value_2 = 25,
-		value_1 = "26",
-		base = 2120
-	},
-	[2124] = {
-		id = 2124,
-		value_2 = 28,
-		value_1 = "28",
-		base = 2120
-	},
-	[2125] = {
-		id = 2125,
-		value_2 = 31,
-		value_1 = "31",
-		base = 2120
-	},
-	[2126] = {
-		id = 2126,
-		value_2 = 34,
-		value_1 = "34",
-		base = 2120
-	},
-	[2140] = {
-		name = "航空副油箱",
-		tech = 3,
-		type = 10,
-		speciality = "无",
-		id = 2140,
-		value_2 = 20,
-		icon = "2100",
-		value_1 = "28",
-		attribute_2 = "durability",
-		rarity = 4,
-		descrip = "携带副油箱可以有效提高舰载机的耐久性能",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "air",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6090
-		},
-		part_main = {
-			6,
-			7,
-			10
-		},
-		part_sub = {
-			6,
-			7,
-			10
-		},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[2141] = {
-		id = 2141,
-		value_2 = 24,
-		value_1 = "32",
-		base = 2140
-	},
-	[2142] = {
-		id = 2142,
-		value_2 = 28,
-		value_1 = "36",
-		base = 2140
-	},
-	[2143] = {
-		id = 2143,
-		value_2 = 32,
-		value_1 = "40",
-		base = 2140
-	},
-	[2144] = {
-		id = 2144,
-		value_2 = 36,
-		value_1 = "44",
-		base = 2140
-	},
-	[2145] = {
-		id = 2145,
-		value_2 = 40,
-		value_1 = "49",
-		base = 2140
-	},
-	[2146] = {
-		id = 2146,
-		value_2 = 44,
-		value_1 = "53",
-		base = 2140
-	},
-	[2147] = {
-		id = 2147,
-		value_2 = 48,
-		value_1 = "57",
-		base = 2140
-	},
-	[2148] = {
-		id = 2148,
-		value_2 = 52,
-		value_1 = "61",
-		base = 2140
-	},
-	[2149] = {
-		id = 2149,
-		value_2 = 56,
-		value_1 = "65",
-		base = 2140
 	}
 }

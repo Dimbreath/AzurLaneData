@@ -1,5 +1,174 @@
 pg = pg or {}
 pg.equip_data_statistics_261 = {
+	[36673] = {
+		anti_siren = 300,
+		damage = "124/轮",
+		base = 36660,
+		id = 36673,
+		weapon_id = {
+			36673
+		}
+	},
+	[36700] = {
+		name = "试作型五式40mm高射机关炮",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 45,
+		icon = "36700",
+		attribute_2 = "antiaircraft",
+		rarity = 5,
+		damage = "47/轮",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36700,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			36700
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
+	},
+	[36701] = {
+		id = 36701,
+		damage = "51/轮",
+		base = 36700,
+		weapon_id = {
+			36701
+		}
+	},
+	[36702] = {
+		id = 36702,
+		damage = "55/轮",
+		base = 36700,
+		weapon_id = {
+			36702
+		}
+	},
+	[36703] = {
+		id = 36703,
+		damage = "59/轮",
+		base = 36700,
+		weapon_id = {
+			36703
+		}
+	},
+	[36704] = {
+		id = 36704,
+		damage = "63/轮",
+		base = 36700,
+		weapon_id = {
+			36704
+		}
+	},
+	[36705] = {
+		id = 36705,
+		damage = "67/轮",
+		base = 36700,
+		weapon_id = {
+			36705
+		}
+	},
+	[36706] = {
+		id = 36706,
+		damage = "71/轮",
+		base = 36700,
+		weapon_id = {
+			36706
+		}
+	},
+	[36707] = {
+		id = 36707,
+		damage = "75/轮",
+		base = 36700,
+		weapon_id = {
+			36707
+		}
+	},
+	[36708] = {
+		id = 36708,
+		damage = "79/轮",
+		base = 36700,
+		weapon_id = {
+			36708
+		}
+	},
+	[36709] = {
+		id = 36709,
+		damage = "83/轮",
+		base = 36700,
+		weapon_id = {
+			36709
+		}
+	},
+	[36710] = {
+		id = 36710,
+		damage = "87/轮",
+		base = 36700,
+		weapon_id = {
+			36710
+		}
+	},
+	[36711] = {
+		anti_siren = 100,
+		damage = "87/轮",
+		base = 36700,
+		id = 36711,
+		weapon_id = {
+			36711
+		}
+	},
+	[36712] = {
+		anti_siren = 200,
+		damage = "87/轮",
+		base = 36700,
+		id = 36712,
+		weapon_id = {
+			36712
+		}
+	},
 	[36713] = {
 		anti_siren = 300,
 		damage = "87/轮",
@@ -69,272 +238,6 @@ pg.equip_data_statistics_261 = {
 		weapon_id = {
 			37001,
 			83001
-		}
-	},
-	[37002] = {
-		id = 37002,
-		base = 37000,
-		ammo_info = {
-			{
-				6,
-				50002
-			}
-		},
-		weapon_id = {
-			37002,
-			83002
-		}
-	},
-	[37003] = {
-		id = 37003,
-		base = 37000,
-		ammo_info = {
-			{
-				6,
-				50003
-			}
-		},
-		weapon_id = {
-			37003,
-			83003
-		}
-	},
-	[37020] = {
-		name = "九六式舰战",
-		type = 7,
-		speciality = "空战",
-		rarity = 2,
-		tech = 2,
-		descrip = "说明未填写",
-		value_2 = 5,
-		icon = "37000",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 37020,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50020
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			37020,
-			83020
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"FT"
-		}
-	},
-	[37021] = {
-		id = 37021,
-		base = 37020,
-		ammo_info = {
-			{
-				6,
-				50021
-			}
-		},
-		weapon_id = {
-			37021,
-			83021
-		}
-	},
-	[37022] = {
-		id = 37022,
-		base = 37020,
-		ammo_info = {
-			{
-				6,
-				50022
-			}
-		},
-		weapon_id = {
-			37022,
-			83022
-		}
-	},
-	[37023] = {
-		id = 37023,
-		base = 37020,
-		ammo_info = {
-			{
-				6,
-				50023
-			}
-		},
-		weapon_id = {
-			37023,
-			83023
-		}
-	},
-	[37040] = {
-		name = "九六式舰战",
-		type = 7,
-		speciality = "空战",
-		rarity = 3,
-		tech = 3,
-		descrip = "说明未填写",
-		value_2 = 12,
-		icon = "37000",
-		attribute_2 = "air",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 37040,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50040
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			37040,
-			83040
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"FT"
-		}
-	},
-	[37041] = {
-		id = 37041,
-		base = 37040,
-		ammo_info = {
-			{
-				6,
-				50041
-			}
-		},
-		weapon_id = {
-			37041,
-			83041
-		}
-	},
-	[37042] = {
-		id = 37042,
-		base = 37040,
-		ammo_info = {
-			{
-				6,
-				50042
-			}
-		},
-		weapon_id = {
-			37042,
-			83042
-		}
-	},
-	[37043] = {
-		id = 37043,
-		base = 37040,
-		ammo_info = {
-			{
-				6,
-				50043
-			}
-		},
-		weapon_id = {
-			37043,
-			83043
-		}
-	},
-	[37044] = {
-		id = 37044,
-		base = 37040,
-		ammo_info = {
-			{
-				6,
-				50044
-			}
-		},
-		weapon_id = {
-			37044,
-			83044
-		}
-	},
-	[37045] = {
-		id = 37045,
-		base = 37040,
-		ammo_info = {
-			{
-				6,
-				50045
-			}
-		},
-		weapon_id = {
-			37045,
-			83045
-		}
-	},
-	[37046] = {
-		id = 37046,
-		base = 37040,
-		ammo_info = {
-			{
-				6,
-				50046
-			}
-		},
-		weapon_id = {
-			37046,
-			83046
-		}
-	},
-	[37047] = {
-		id = 37047,
-		base = 37040,
-		ammo_info = {
-			{
-				6,
-				50047
-			}
-		},
-		weapon_id = {
-			37047,
-			83047
 		}
 	}
 }
