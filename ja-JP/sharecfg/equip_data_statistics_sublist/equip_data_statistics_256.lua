@@ -1,60 +1,85 @@
 pg = pg or {}
 pg.equip_data_statistics_256 = {
-	[36322] = {
-		id = 36322,
+	[36244] = {
+		id = 36244,
 		damage = "24/回",
-		base = 36320,
+		base = 36240,
 		weapon_id = {
-			36322
+			36244
 		}
 	},
-	[36323] = {
-		id = 36323,
-		damage = "27/回",
-		base = 36320,
+	[36245] = {
+		id = 36245,
+		damage = "26/回",
+		base = 36240,
 		weapon_id = {
-			36323
+			36245
 		}
 	},
-	[36324] = {
-		id = 36324,
-		damage = "30/回",
-		base = 36320,
+	[36246] = {
+		id = 36246,
+		damage = "28/回",
+		base = 36240,
 		weapon_id = {
-			36324
+			36246
 		}
 	},
-	[36325] = {
-		id = 36325,
-		damage = "33/回",
-		base = 36320,
+	[36247] = {
+		id = 36247,
+		damage = "31/回",
+		base = 36240,
 		weapon_id = {
-			36325
+			36247
 		}
 	},
-	[36326] = {
-		id = 36326,
-		damage = "36/回",
-		base = 36320,
+	[36248] = {
+		id = 36248,
+		damage = "34/回",
+		base = 36240,
 		weapon_id = {
-			36326
+			36248
 		}
 	},
-	[36340] = {
+	[36249] = {
+		id = 36249,
+		damage = "37/回",
+		base = 36240,
+		weapon_id = {
+			36249
+		}
+	},
+	[36250] = {
+		id = 36250,
+		damage = "40/回",
+		base = 36240,
+		weapon_id = {
+			36250
+		}
+	},
+	[36251] = {
+		anti_siren = 100,
+		damage = "40/回",
+		base = 36240,
+		id = 36251,
+		weapon_id = {
+			36251
+		}
+	},
+	[36300] = {
 		name = "25mm三連装対空機銃",
 		speciality = "対空",
 		type = 6,
-		tech = 3,
+		tech = 1,
 		descrip = "0",
-		value_2 = 25,
+		value_2 = 5,
 		icon = "36300",
 		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "22/回",
+		rarity = 2,
+		damage = "16/回",
 		nationality = 3,
 		ammo = 5,
 		value_3 = 0,
-		id = 36340,
+		id = 36300,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -66,7 +91,7 @@ pg.equip_data_statistics_256 = {
 			10
 		},
 		weapon_id = {
-			36340
+			36300
 		},
 		skill_id = {},
 		part_main = {
@@ -102,84 +127,114 @@ pg.equip_data_statistics_256 = {
 			"AA"
 		}
 	},
-	[36341] = {
-		id = 36341,
-		damage = "25/回",
-		base = 36340,
+	[36301] = {
+		id = 36301,
+		damage = "18/回",
+		base = 36300,
 		weapon_id = {
-			36341
+			36301
 		}
 	},
-	[36342] = {
-		id = 36342,
-		damage = "28/回",
-		base = 36340,
+	[36302] = {
+		id = 36302,
+		damage = "21/回",
+		base = 36300,
 		weapon_id = {
-			36342
+			36302
 		}
 	},
-	[36343] = {
-		id = 36343,
-		damage = "31/回",
-		base = 36340,
+	[36303] = {
+		id = 36303,
+		damage = "24/回",
+		base = 36300,
 		weapon_id = {
-			36343
+			36303
 		}
 	},
-	[36344] = {
-		id = 36344,
-		damage = "34/回",
-		base = 36340,
+	[36320] = {
+		name = "25mm三連装対空機銃",
+		speciality = "対空",
+		type = 6,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "36300",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "18/回",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36320,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
 		weapon_id = {
-			36344
+			36320
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
 		}
 	},
-	[36345] = {
-		id = 36345,
-		damage = "37/回",
-		base = 36340,
+	[36321] = {
+		id = 36321,
+		damage = "21/回",
+		base = 36320,
 		weapon_id = {
-			36345
+			36321
 		}
 	},
-	[36346] = {
-		id = 36346,
-		damage = "40/回",
-		base = 36340,
+	[36322] = {
+		id = 36322,
+		damage = "24/回",
+		base = 36320,
 		weapon_id = {
-			36346
+			36322
 		}
 	},
-	[36347] = {
-		id = 36347,
-		damage = "43/回",
-		base = 36340,
+	[36323] = {
+		id = 36323,
+		damage = "27/回",
+		base = 36320,
 		weapon_id = {
-			36347
-		}
-	},
-	[36348] = {
-		id = 36348,
-		damage = "46/回",
-		base = 36340,
-		weapon_id = {
-			36348
-		}
-	},
-	[36349] = {
-		id = 36349,
-		damage = "50/回",
-		base = 36340,
-		weapon_id = {
-			36349
-		}
-	},
-	[36350] = {
-		id = 36350,
-		damage = "54/回",
-		base = 36340,
-		weapon_id = {
-			36350
+			36323
 		}
 	}
 }

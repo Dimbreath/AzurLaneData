@@ -1,46 +1,60 @@
 pg = pg or {}
 pg.equip_data_statistics_155 = {
-	[21449] = {
-		id = 21449,
-		damage = "14 x 4",
-		base = 21440,
+	[21422] = {
+		id = 21422,
+		damage = "6 x 4",
+		base = 21420,
 		weapon_id = {
-			21449
+			21422
 		}
 	},
-	[21450] = {
-		id = 21450,
-		damage = "15 x 4",
-		base = 21440,
+	[21423] = {
+		id = 21423,
+		damage = "7 x 4",
+		base = 21420,
 		weapon_id = {
-			21450
+			21423
 		}
 	},
-	[21451] = {
-		anti_siren = 100,
-		damage = "15 x 4",
-		base = 21440,
-		id = 21451,
+	[21424] = {
+		id = 21424,
+		damage = "8 x 4",
+		base = 21420,
 		weapon_id = {
-			21451
+			21424
 		}
 	},
-	[21460] = {
-		name = "120mm連装両用砲MarkXI",
+	[21425] = {
+		id = 21425,
+		damage = "9 x 4",
+		base = 21420,
+		weapon_id = {
+			21425
+		}
+	},
+	[21426] = {
+		id = 21426,
+		damage = "10 x 4",
+		base = 21420,
+		weapon_id = {
+			21426
+		}
+	},
+	[21440] = {
+		name = "120mm連装砲",
 		speciality = "追尾",
 		type = 1,
-		attribute_3 = "antiaircraft",
-		tech = 0,
-		value_2 = 20,
-		icon = "21460",
-		attribute_2 = "cannon",
+		tech = 3,
 		descrip = "0",
-		rarity = 5,
-		damage = "6 x 4",
+		value_2 = 25,
+		icon = "21400",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "4 x 4",
 		nationality = 2,
 		ammo = 3,
-		value_3 = 25,
-		id = 21460,
+		value_3 = 0,
+		id = 21440,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -69,11 +83,12 @@ pg.equip_data_statistics_155 = {
 			12
 		},
 		weapon_id = {
-			21460
+			21440
 		},
 		skill_id = {},
 		part_main = {
-			1
+			1,
+			19
 		},
 		part_sub = {
 			2,
@@ -81,7 +96,8 @@ pg.equip_data_statistics_155 = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -90,102 +106,83 @@ pg.equip_data_statistics_155 = {
 			"MG"
 		}
 	},
-	[21461] = {
-		id = 21461,
+	[21441] = {
+		id = 21441,
+		base = 21440,
+		weapon_id = {
+			21441
+		}
+	},
+	[21442] = {
+		id = 21442,
 		damage = "7 x 4",
-		base = 21460,
+		base = 21440,
 		weapon_id = {
-			21461
+			21442
 		}
 	},
-	[21462] = {
-		id = 21462,
+	[21443] = {
+		id = 21443,
 		damage = "8 x 4",
-		base = 21460,
+		base = 21440,
 		weapon_id = {
-			21462
+			21443
 		}
 	},
-	[21463] = {
-		id = 21463,
+	[21444] = {
+		id = 21444,
 		damage = "9 x 4",
-		base = 21460,
+		base = 21440,
 		weapon_id = {
-			21463
+			21444
 		}
 	},
-	[21464] = {
-		id = 21464,
+	[21445] = {
+		id = 21445,
 		damage = "10 x 4",
-		base = 21460,
+		base = 21440,
 		weapon_id = {
-			21464
+			21445
 		}
 	},
-	[21465] = {
-		id = 21465,
+	[21446] = {
+		id = 21446,
 		damage = "11 x 4",
-		base = 21460,
+		base = 21440,
 		weapon_id = {
-			21465
+			21446
 		}
 	},
-	[21466] = {
-		id = 21466,
+	[21447] = {
+		id = 21447,
 		damage = "12 x 4",
-		base = 21460,
+		base = 21440,
 		weapon_id = {
-			21466
+			21447
 		}
 	},
-	[21467] = {
-		id = 21467,
+	[21448] = {
+		id = 21448,
 		damage = "13 x 4",
-		base = 21460,
+		base = 21440,
 		weapon_id = {
-			21467
+			21448
 		}
 	},
-	[21468] = {
-		id = 21468,
+	[21449] = {
+		id = 21449,
 		damage = "14 x 4",
-		base = 21460,
+		base = 21440,
 		weapon_id = {
-			21468
+			21449
 		}
 	},
-	[21469] = {
-		id = 21469,
+	[21450] = {
+		id = 21450,
 		damage = "15 x 4",
-		base = 21460,
+		base = 21440,
 		weapon_id = {
-			21469
-		}
-	},
-	[21470] = {
-		id = 21470,
-		damage = "17 x 4",
-		base = 21460,
-		weapon_id = {
-			21470
-		}
-	},
-	[21471] = {
-		anti_siren = 100,
-		damage = "17 x 4",
-		base = 21460,
-		id = 21471,
-		weapon_id = {
-			21471
-		}
-	},
-	[21472] = {
-		anti_siren = 200,
-		damage = "17 x 4",
-		base = 21460,
-		id = 21472,
-		weapon_id = {
-			21472
+			21450
 		}
 	}
 }

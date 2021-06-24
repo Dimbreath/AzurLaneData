@@ -2,6 +2,55 @@ pg = pg or {}
 pg.weapon_property_110 = {}
 
 function ()
+	uv0.weapon_property_110[64131] = {
+		action_index = "",
+		range = 80,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = -10,
+		shakescreen = 0,
+		name = "提康德罗加火箭弹 x6",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 45,
+		charge_param = "",
+		damage = 65,
+		corrected = 100,
+		min_range = 0,
+		id = 64131,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19302
+		},
+		barrage_ID = {
+			81099
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_110[64132] = {
+		id = 64132,
+		damage = 78,
+		base = 64131
+	}
 	uv0.weapon_property_110[64133] = {
 		id = 64133,
 		damage = 93,
@@ -348,6 +397,206 @@ function ()
 		damage = 15,
 		base = 64221
 	}
+	uv0.weapon_property_110[64231] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "霞光之绊·改弹幕LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 64231,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19309,
+			19309
+		},
+		barrage_ID = {
+			81114,
+			81115
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_110[64232] = {
+		id = 64232,
+		name = "霞光之绊·改弹幕LV2",
+		damage = 11,
+		base = 64231
+	}
+	uv0.weapon_property_110[64233] = {
+		id = 64233,
+		name = "霞光之绊·改弹幕LV3",
+		damage = 12,
+		base = 64231
+	}
+	uv0.weapon_property_110[64234] = {
+		id = 64234,
+		name = "霞光之绊·改弹幕LV4",
+		damage = 13,
+		base = 64231
+	}
+	uv0.weapon_property_110[64235] = {
+		id = 64235,
+		name = "霞光之绊·改弹幕LV5",
+		damage = 14,
+		base = 64231
+	}
+	uv0.weapon_property_110[64236] = {
+		id = 64236,
+		name = "霞光之绊·改弹幕LV6",
+		damage = 15,
+		base = 64231
+	}
+	uv0.weapon_property_110[64237] = {
+		id = 64237,
+		name = "霞光之绊·改弹幕LV7",
+		damage = 16,
+		base = 64231
+	}
+	uv0.weapon_property_110[64238] = {
+		id = 64238,
+		name = "霞光之绊·改弹幕LV8",
+		damage = 17,
+		base = 64231
+	}
+	uv0.weapon_property_110[64239] = {
+		id = 64239,
+		name = "霞光之绊·改弹幕LV9",
+		damage = 18,
+		base = 64231
+	}
+	uv0.weapon_property_110[64240] = {
+		id = 64240,
+		name = "霞光之绊·改弹幕LV10",
+		damage = 20,
+		base = 64231
+	}
+	uv0.weapon_property_110[64241] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "霞光之绊·改鱼雷LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 35,
+		corrected = 100,
+		min_range = 0,
+		id = 64241,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19310,
+			19310
+		},
+		barrage_ID = {
+			81116,
+			81117
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_110[64242] = {
+		id = 64242,
+		name = "霞光之绊·改鱼雷LV2",
+		damage = 46,
+		base = 64241
+	}
+	uv0.weapon_property_110[64243] = {
+		id = 64243,
+		name = "霞光之绊·改鱼雷LV3",
+		damage = 57,
+		base = 64241
+	}
+	uv0.weapon_property_110[64244] = {
+		id = 64244,
+		name = "霞光之绊·改鱼雷LV4",
+		damage = 68,
+		base = 64241
+	}
+	uv0.weapon_property_110[64245] = {
+		id = 64245,
+		name = "霞光之绊·改鱼雷LV5",
+		damage = 79,
+		base = 64241
+	}
+	uv0.weapon_property_110[64246] = {
+		id = 64246,
+		name = "霞光之绊·改鱼雷LV6",
+		damage = 90,
+		base = 64241
+	}
+	uv0.weapon_property_110[64247] = {
+		id = 64247,
+		name = "霞光之绊·改鱼雷LV7",
+		damage = 101,
+		base = 64241
+	}
+	uv0.weapon_property_110[64248] = {
+		id = 64248,
+		name = "霞光之绊·改鱼雷LV8",
+		damage = 112,
+		base = 64241
+	}
+	uv0.weapon_property_110[64249] = {
+		id = 64249,
+		name = "霞光之绊·改鱼雷LV9",
+		damage = 123,
+		base = 64241
+	}
+	uv0.weapon_property_110[64250] = {
+		id = 64250,
+		name = "霞光之绊·改鱼雷LV10",
+		damage = 134,
+		base = 64241
+	}
 	uv0.weapon_property_110[65000] = {
 		action_index = "",
 		range = 60,
@@ -402,362 +651,6 @@ function ()
 		barrage_ID = {
 			65002,
 			65003
-		}
-	}
-	uv0.weapon_property_110[65010] = {
-		action_index = "",
-		range = 60,
-		type = 1,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "伯克喵大世界地图打击替换战斗内技能弹幕1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 18,
-		corrected = 100,
-		min_range = 0,
-		id = 65010,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1006
-		},
-		barrage_ID = {
-			65010
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_110[65011] = {
-		name = "伯克喵大世界地图打击替换战斗内技能弹幕2",
-		damage = 28,
-		base = 65010,
-		id = 65011,
-		barrage_ID = {
-			65011
-		}
-	}
-	uv0.weapon_property_110[65020] = {
-		action_index = "",
-		range = 60,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "克雷喵大世界地图打击替换战斗内鱼雷弹幕",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 30,
-		corrected = 100,
-		min_range = 0,
-		id = 65020,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1800
-		},
-		barrage_ID = {
-			65020
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_110[65030] = {
-		action_index = "",
-		range = 200,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "林德喵大世界地图打击替换战斗内主炮弹幕",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 65030,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19240
-		},
-		barrage_ID = {
-			65030
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_110[65051] = {
-		torpedo_ammo = 0,
-		name = "信浓弹幕&支援弹幕子母弹LV1",
-		type = 2,
-		recover_time = 0,
-		fire_fx = "CLFire",
-		shakescreen = 0,
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		aim_type = 0,
-		expose = 10,
-		angle = 360,
-		range = 90,
-		damage = 11,
-		corrected = 100,
-		min_range = 0,
-		id = 65051,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 3,
-		attack_attribute = 4,
-		reload_max = 1300,
-		queue = 4,
-		search_type = 1,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19185,
-			19186
-		},
-		barrage_ID = {
-			80949,
-			80950
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_110[65052] = {
-		reload_max = 1270,
-		name = "信浓弹幕&支援弹幕子母弹LV2",
-		damage = 12,
-		base = 65051,
-		id = 65052
-	}
-	uv0.weapon_property_110[65053] = {
-		reload_max = 1244,
-		name = "信浓弹幕&支援弹幕子母弹LV3",
-		damage = 13,
-		base = 65051,
-		id = 65053
-	}
-	uv0.weapon_property_110[65054] = {
-		reload_max = 1218,
-		name = "信浓弹幕&支援弹幕子母弹LV4",
-		damage = 14,
-		base = 65051,
-		id = 65054
-	}
-	uv0.weapon_property_110[65055] = {
-		reload_max = 1192,
-		name = "信浓弹幕&支援弹幕子母弹LV5",
-		damage = 15,
-		base = 65051,
-		id = 65055
-	}
-	uv0.weapon_property_110[65056] = {
-		reload_max = 1166,
-		name = "信浓弹幕&支援弹幕子母弹LV6",
-		damage = 16,
-		base = 65051,
-		id = 65056
-	}
-	uv0.weapon_property_110[65057] = {
-		reload_max = 1140,
-		name = "信浓弹幕&支援弹幕子母弹LV7",
-		damage = 17,
-		base = 65051,
-		id = 65057
-	}
-	uv0.weapon_property_110[65058] = {
-		reload_max = 1114,
-		name = "信浓弹幕&支援弹幕子母弹LV8",
-		damage = 18,
-		base = 65051,
-		id = 65058
-	}
-	uv0.weapon_property_110[65059] = {
-		reload_max = 1088,
-		name = "信浓弹幕&支援弹幕子母弹LV9",
-		damage = 19,
-		base = 65051,
-		id = 65059
-	}
-	uv0.weapon_property_110[65060] = {
-		reload_max = 1062,
-		name = "信浓弹幕&支援弹幕子母弹LV10",
-		damage = 20,
-		base = 65051,
-		id = 65060
-	}
-	uv0.weapon_property_110[65061] = {
-		action_index = "",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 1,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "普林斯顿鱼雷机弹幕LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 90,
-		charge_param = "",
-		damage = 58,
-		corrected = 100,
-		min_range = 0,
-		id = 65061,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 0,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			65061
-		},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_110[65062] = {
-		name = "普林斯顿鱼雷机弹幕LV2",
-		damage = 74,
-		base = 65061,
-		id = 65062,
-		bullet_ID = {
-			65062
-		}
-	}
-	uv0.weapon_property_110[65063] = {
-		name = "普林斯顿鱼雷机弹幕LV3",
-		damage = 92,
-		base = 65061,
-		id = 65063,
-		bullet_ID = {
-			65063
-		}
-	}
-	uv0.weapon_property_110[65064] = {
-		name = "普林斯顿鱼雷机弹幕LV4",
-		damage = 107,
-		base = 65061,
-		id = 65064,
-		bullet_ID = {
-			65064
-		}
-	}
-	uv0.weapon_property_110[65065] = {
-		name = "普林斯顿鱼雷机弹幕LV5",
-		damage = 123,
-		base = 65061,
-		id = 65065,
-		bullet_ID = {
-			65065
-		}
-	}
-	uv0.weapon_property_110[65066] = {
-		name = "普林斯顿鱼雷机弹幕LV6",
-		damage = 141,
-		base = 65061,
-		id = 65066,
-		bullet_ID = {
-			65066
-		}
-	}
-	uv0.weapon_property_110[65067] = {
-		name = "普林斯顿鱼雷机弹幕LV7",
-		damage = 157,
-		base = 65061,
-		id = 65067,
-		bullet_ID = {
-			65067
-		}
-	}
-	uv0.weapon_property_110[65068] = {
-		name = "普林斯顿鱼雷机弹幕LV8",
-		damage = 175,
-		base = 65061,
-		id = 65068,
-		bullet_ID = {
-			65068
 		}
 	}
 end()

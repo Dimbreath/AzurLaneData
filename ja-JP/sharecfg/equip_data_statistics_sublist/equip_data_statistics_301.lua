@@ -1,38 +1,36 @@
 pg = pg or {}
 pg.equip_data_statistics_301 = {
-	[43052] = {
-		anti_siren = 200,
-		damage = "50 x 6",
-		base = 43040,
-		id = 43052,
+	[43029] = {
+		id = 43029,
+		damage = "45 x 6",
+		base = 43020,
 		weapon_id = {
-			43052
+			43029
 		}
 	},
-	[43053] = {
-		anti_siren = 300,
-		damage = "50 x 6",
-		base = 43040,
-		id = 43053,
+	[43030] = {
+		id = 43030,
+		damage = "47 x 6",
+		base = 43020,
 		weapon_id = {
-			43053
+			43030
 		}
 	},
-	[43060] = {
-		name = "試作203mmSKC三連装砲",
+	[43040] = {
+		name = "203mmSKC連装砲",
 		speciality = "追尾",
 		type = 3,
-		tech = 0,
-		descrip = "0",
+		tech = 3,
+		descrip = "アドミラル・ヒッパー級主砲の203mmSKC連装砲。重巡に装備可能",
 		value_2 = 45,
-		icon = "43060",
+		icon = "43000",
 		attribute_2 = "cannon",
 		rarity = 5,
 		damage = "30 x 6",
 		nationality = 4,
 		ammo = 1,
 		value_3 = 0,
-		id = 43060,
+		id = 43040,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -53,7 +51,7 @@ pg.equip_data_statistics_301 = {
 			},
 			{
 				4,
-				1214
+				1206
 			},
 			6,
 			10,
@@ -61,7 +59,7 @@ pg.equip_data_statistics_301 = {
 			12
 		},
 		weapon_id = {
-			43060
+			43040
 		},
 		skill_id = {},
 		part_main = {
@@ -77,111 +75,111 @@ pg.equip_data_statistics_301 = {
 			"AP"
 		}
 	},
-	[43061] = {
-		id = 43061,
+	[43041] = {
+		id = 43041,
 		damage = "32 x 6",
-		base = 43060,
+		base = 43040,
 		weapon_id = {
-			43061
+			43041
 		}
 	},
-	[43062] = {
-		id = 43062,
+	[43042] = {
+		id = 43042,
 		damage = "34 x 6",
-		base = 43060,
+		base = 43040,
 		weapon_id = {
-			43062
+			43042
 		}
 	},
-	[43063] = {
-		id = 43063,
+	[43043] = {
+		id = 43043,
 		damage = "36 x 6",
-		base = 43060,
+		base = 43040,
 		weapon_id = {
-			43063
+			43043
 		}
 	},
-	[43064] = {
-		id = 43064,
+	[43044] = {
+		id = 43044,
 		damage = "38 x 6",
-		base = 43060,
+		base = 43040,
 		weapon_id = {
-			43064
+			43044
 		}
 	},
-	[43065] = {
-		id = 43065,
+	[43045] = {
+		id = 43045,
 		damage = "40 x 6",
-		base = 43060,
+		base = 43040,
 		weapon_id = {
-			43065
+			43045
 		}
 	},
-	[43066] = {
-		id = 43066,
+	[43046] = {
+		id = 43046,
 		damage = "42 x 6",
-		base = 43060,
+		base = 43040,
 		weapon_id = {
-			43066
+			43046
 		}
 	},
-	[43067] = {
-		id = 43067,
+	[43047] = {
+		id = 43047,
 		damage = "44 x 6",
-		base = 43060,
+		base = 43040,
 		weapon_id = {
-			43067
+			43047
 		}
 	},
-	[43068] = {
-		id = 43068,
+	[43048] = {
+		id = 43048,
 		damage = "46 x 6",
-		base = 43060,
+		base = 43040,
 		weapon_id = {
-			43068
+			43048
 		}
 	},
-	[43069] = {
-		id = 43069,
+	[43049] = {
+		id = 43049,
 		damage = "48 x 6",
-		base = 43060,
+		base = 43040,
 		weapon_id = {
-			43069
+			43049
 		}
 	},
-	[43070] = {
-		id = 43070,
+	[43050] = {
+		id = 43050,
 		damage = "50 x 6",
-		base = 43060,
+		base = 43040,
 		weapon_id = {
-			43070
+			43050
 		}
 	},
-	[43071] = {
+	[43051] = {
 		anti_siren = 100,
 		damage = "50 x 6",
-		base = 43060,
-		id = 43071,
+		base = 43040,
+		id = 43051,
 		weapon_id = {
-			43071
+			43051
 		}
 	},
-	[43072] = {
+	[43052] = {
 		anti_siren = 200,
 		damage = "50 x 6",
-		base = 43060,
-		id = 43072,
+		base = 43040,
+		id = 43052,
 		weapon_id = {
-			43072
+			43052
 		}
 	},
-	[43073] = {
+	[43053] = {
 		anti_siren = 300,
 		damage = "50 x 6",
-		base = 43060,
-		id = 43073,
+		base = 43040,
+		id = 43053,
 		weapon_id = {
-			43073
+			43053
 		}
 	}
 }

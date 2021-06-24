@@ -2,6 +2,233 @@ pg = pg or {}
 pg.weapon_property_163 = {}
 
 function ()
+	uv0.weapon_property_163[69119] = {
+		id = 69119,
+		name = "苏俄技能小子弹-LV9",
+		damage = 19,
+		base = 69111
+	}
+	uv0.weapon_property_163[69120] = {
+		id = 69120,
+		name = "苏俄技能小子弹-LV10",
+		damage = 20,
+		base = 69111
+	}
+	uv0.weapon_property_163[69121] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "恰巴耶夫技能弹幕-LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 7,
+		corrected = 100,
+		min_range = 0,
+		id = 69121,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 412,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19104
+		},
+		barrage_ID = {
+			80844
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_163[69122] = {
+		id = 69122,
+		name = "恰巴耶夫技能弹幕-LV2",
+		damage = 8,
+		base = 69121
+	}
+	uv0.weapon_property_163[69123] = {
+		id = 69123,
+		name = "恰巴耶夫技能弹幕-LV3",
+		damage = 9,
+		base = 69121
+	}
+	uv0.weapon_property_163[69124] = {
+		id = 69124,
+		name = "恰巴耶夫技能弹幕-LV4",
+		damage = 10,
+		base = 69121
+	}
+	uv0.weapon_property_163[69125] = {
+		id = 69125,
+		name = "恰巴耶夫技能弹幕-LV5",
+		damage = 12,
+		base = 69121
+	}
+	uv0.weapon_property_163[69126] = {
+		name = "恰巴耶夫技能弹幕-LV6",
+		damage = 14,
+		base = 69121,
+		id = 69126,
+		barrage_ID = {
+			80845
+		}
+	}
+	uv0.weapon_property_163[69127] = {
+		name = "恰巴耶夫技能弹幕-LV7",
+		damage = 17,
+		base = 69121,
+		id = 69127,
+		barrage_ID = {
+			80845
+		}
+	}
+	uv0.weapon_property_163[69128] = {
+		name = "恰巴耶夫技能弹幕-LV8",
+		damage = 20,
+		base = 69121,
+		id = 69128,
+		barrage_ID = {
+			80845
+		}
+	}
+	uv0.weapon_property_163[69129] = {
+		name = "恰巴耶夫技能弹幕-LV9",
+		damage = 24,
+		base = 69121,
+		id = 69129,
+		barrage_ID = {
+			80845
+		}
+	}
+	uv0.weapon_property_163[69130] = {
+		name = "恰巴耶夫技能弹幕-LV10",
+		damage = 26,
+		base = 69121,
+		id = 69130,
+		barrage_ID = {
+			80845
+		}
+	}
+	uv0.weapon_property_163[69131] = {
+		action_index = "",
+		range = 50,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "定点冰锥PVP1-50-LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 70,
+		charge_param = "",
+		damage = 11,
+		corrected = 100,
+		min_range = 0,
+		id = 69131,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 9500,
+		queue = 4,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19098,
+			19100,
+			19102
+		},
+		barrage_ID = {
+			80842,
+			80842,
+			80842
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_163[69132] = {
+		id = 69132,
+		name = "定点冰锥PVP1-50-LV2",
+		damage = 13,
+		base = 69131
+	}
+	uv0.weapon_property_163[69133] = {
+		id = 69133,
+		name = "定点冰锥PVP1-50-LV3",
+		damage = 16,
+		base = 69131
+	}
+	uv0.weapon_property_163[69134] = {
+		id = 69134,
+		name = "定点冰锥PVP1-50-LV4",
+		damage = 20,
+		base = 69131
+	}
+	uv0.weapon_property_163[69135] = {
+		id = 69135,
+		name = "定点冰锥PVP1-50-LV5",
+		damage = 25,
+		base = 69131
+	}
+	uv0.weapon_property_163[69136] = {
+		id = 69136,
+		name = "定点冰锥PVP1-50-LV6",
+		damage = 30,
+		base = 69131
+	}
+	uv0.weapon_property_163[69137] = {
+		id = 69137,
+		name = "定点冰锥PVP1-50-LV7",
+		damage = 36,
+		base = 69131
+	}
+	uv0.weapon_property_163[69138] = {
+		id = 69138,
+		name = "定点冰锥PVP1-50-LV8",
+		damage = 42,
+		base = 69131
+	}
+	uv0.weapon_property_163[69139] = {
+		id = 69139,
+		name = "定点冰锥PVP1-50-LV9",
+		damage = 49,
+		base = 69131
+	}
+	uv0.weapon_property_163[69140] = {
+		id = 69140,
+		name = "定点冰锥PVP1-50-LV10",
+		damage = 56,
+		base = 69131
+	}
 	uv0.weapon_property_163[69141] = {
 		action_index = "",
 		range = 60,
@@ -429,264 +656,5 @@ function ()
 		id = 69180,
 		damage = 380,
 		base = 69171
-	}
-	uv0.weapon_property_163[69181] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 25,
-		shakescreen = 0,
-		name = "2 x 500lb 炸弹",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 86,
-		corrected = 100,
-		min_range = 0,
-		id = 69181,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19106
-		},
-		barrage_ID = {
-			2121
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_163[69182] = {
-		id = 69182,
-		damage = 99,
-		base = 69181
-	}
-	uv0.weapon_property_163[69183] = {
-		id = 69183,
-		damage = 112,
-		base = 69181
-	}
-	uv0.weapon_property_163[69184] = {
-		id = 69184,
-		damage = 125,
-		base = 69181
-	}
-	uv0.weapon_property_163[69185] = {
-		id = 69185,
-		damage = 138,
-		base = 69181
-	}
-	uv0.weapon_property_163[69186] = {
-		id = 69186,
-		damage = 151,
-		base = 69181
-	}
-	uv0.weapon_property_163[69187] = {
-		id = 69187,
-		damage = 164,
-		base = 69181
-	}
-	uv0.weapon_property_163[69188] = {
-		id = 69188,
-		damage = 178,
-		base = 69181
-	}
-	uv0.weapon_property_163[69189] = {
-		id = 69189,
-		damage = 191,
-		base = 69181
-	}
-	uv0.weapon_property_163[69190] = {
-		id = 69190,
-		damage = 220,
-		base = 69181
-	}
-	uv0.weapon_property_163[69191] = {
-		action_index = "attack",
-		range = 80,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "布莱默顿技能弹幕-LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 11,
-		corrected = 100,
-		min_range = 0,
-		id = 69191,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 412,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19107,
-			19107
-		},
-		barrage_ID = {
-			80846,
-			80847
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_163[69192] = {
-		id = 69192,
-		name = "布莱默顿技能弹幕-LV2",
-		damage = 12,
-		base = 69191
-	}
-	uv0.weapon_property_163[69193] = {
-		id = 69193,
-		name = "布莱默顿技能弹幕-LV3",
-		damage = 13,
-		base = 69191
-	}
-	uv0.weapon_property_163[69194] = {
-		id = 69194,
-		name = "布莱默顿技能弹幕-LV4",
-		damage = 14,
-		base = 69191
-	}
-	uv0.weapon_property_163[69195] = {
-		id = 69195,
-		name = "布莱默顿技能弹幕-LV5",
-		damage = 15,
-		base = 69191
-	}
-	uv0.weapon_property_163[69196] = {
-		id = 69196,
-		name = "布莱默顿技能弹幕-LV6",
-		damage = 16,
-		base = 69191
-	}
-	uv0.weapon_property_163[69197] = {
-		name = "布莱默顿技能弹幕-LV7",
-		damage = 17,
-		base = 69191,
-		id = 69197,
-		barrage_ID = {
-			80848,
-			80849
-		}
-	}
-	uv0.weapon_property_163[69198] = {
-		name = "布莱默顿技能弹幕-LV8",
-		damage = 18,
-		base = 69191,
-		id = 69198,
-		barrage_ID = {
-			80848,
-			80849
-		}
-	}
-	uv0.weapon_property_163[69199] = {
-		name = "布莱默顿技能弹幕-LV9",
-		damage = 19,
-		base = 69191,
-		id = 69199,
-		barrage_ID = {
-			80848,
-			80849
-		}
-	}
-	uv0.weapon_property_163[69200] = {
-		name = "布莱默顿技能弹幕-LV10",
-		damage = 20,
-		base = 69191,
-		id = 69200,
-		barrage_ID = {
-			80848,
-			80849
-		}
-	}
-	uv0.weapon_property_163[69201] = {
-		action_index = "attack",
-		range = 120,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "库珀反潜PBYLv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 36,
-		corrected = 100,
-		min_range = 0,
-		id = 69201,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 565,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			69201
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_163[69202] = {
-		reload_max = 550,
-		damage = 39,
-		base = 69201,
-		id = 69202,
-		name = "库珀反潜PBYLv2",
-		bullet_ID = {
-			69202
-		}
 	}
 end()

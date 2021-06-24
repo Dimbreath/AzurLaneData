@@ -1,45 +1,65 @@
 pg = pg or {}
 pg.equip_data_statistics_45 = {
-	[2222] = {
-		id = 2222,
-		value_1 = "11",
-		base = 2220
+	[2144] = {
+		id = 2144,
+		value_2 = 36,
+		value_1 = "44",
+		base = 2140
 	},
-	[2223] = {
-		id = 2223,
-		value_2 = 3,
-		value_1 = "13",
-		base = 2220
+	[2145] = {
+		id = 2145,
+		value_2 = 40,
+		value_1 = "49",
+		base = 2140
 	},
-	[2224] = {
-		id = 2224,
-		value_2 = 3,
-		value_1 = "14",
-		base = 2220
+	[2146] = {
+		id = 2146,
+		value_2 = 44,
+		value_1 = "53",
+		base = 2140
 	},
-	[2225] = {
-		id = 2225,
-		value_2 = 4,
-		value_1 = "15",
-		base = 2220
+	[2147] = {
+		id = 2147,
+		value_2 = 48,
+		value_1 = "57",
+		base = 2140
 	},
-	[2226] = {
-		id = 2226,
-		value_2 = 4,
-		value_1 = "17",
-		base = 2220
+	[2148] = {
+		id = 2148,
+		value_2 = 52,
+		value_1 = "61",
+		base = 2140
 	},
-	[2240] = {
+	[2149] = {
+		id = 2149,
+		value_2 = 56,
+		value_1 = "65",
+		base = 2140
+	},
+	[2150] = {
+		id = 2150,
+		value_2 = 60,
+		value_1 = "70",
+		base = 2140
+	},
+	[2151] = {
+		id = 2151,
+		anti_siren = 100,
+		base = 2140,
+		value_2 = 64,
+		value_1 = "75"
+	},
+	[2200] = {
 		name = "自動装填機構",
-		tech = 3,
+		tech = 1,
 		type = 10,
 		speciality = "なし",
-		id = 2240,
-		value_2 = 3,
+		id = 2200,
+		value_2 = 1,
 		icon = "2200",
-		value_1 = "14",
+		value_1 = "5",
 		attribute_2 = "cannon",
-		rarity = 4,
+		rarity = 2,
 		descrip = "改良された給弾装置。人力よりずっとマシ",
 		nationality = 0,
 		ammo = 10,
@@ -89,62 +109,95 @@ pg.equip_data_statistics_45 = {
 			"DEV"
 		}
 	},
-	[2241] = {
-		id = 2241,
-		value_1 = "16",
-		base = 2240
+	[2201] = {
+		id = 2201,
+		base = 2200
 	},
-	[2242] = {
-		id = 2242,
-		value_1 = "18",
-		base = 2240
+	[2202] = {
+		id = 2202,
+		value_1 = "6",
+		base = 2200
 	},
-	[2243] = {
-		id = 2243,
-		value_2 = 4,
-		value_1 = "20",
-		base = 2240
+	[2203] = {
+		id = 2203,
+		value_2 = 2,
+		value_1 = "7",
+		base = 2200
 	},
-	[2244] = {
-		id = 2244,
-		value_2 = 4,
-		value_1 = "22",
-		base = 2240
+	[2220] = {
+		name = "自動装填機構",
+		tech = 2,
+		type = 10,
+		speciality = "なし",
+		id = 2220,
+		value_2 = 2,
+		icon = "2200",
+		value_1 = "9",
+		attribute_2 = "cannon",
+		rarity = 3,
+		descrip = "改良された給弾装置。人力よりずっとマシ",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "reload",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
-	[2245] = {
-		id = 2245,
-		value_2 = 5,
-		value_1 = "24",
-		base = 2240
+	[2221] = {
+		id = 2221,
+		value_1 = "10",
+		base = 2220
 	},
-	[2246] = {
-		id = 2246,
-		value_2 = 5,
-		value_1 = "26",
-		base = 2240
+	[2222] = {
+		id = 2222,
+		value_1 = "11",
+		base = 2220
 	},
-	[2247] = {
-		id = 2247,
-		value_2 = 6,
-		value_1 = "28",
-		base = 2240
-	},
-	[2248] = {
-		id = 2248,
-		value_2 = 6,
-		value_1 = "30",
-		base = 2240
-	},
-	[2249] = {
-		id = 2249,
-		value_2 = 7,
-		value_1 = "32",
-		base = 2240
-	},
-	[2250] = {
-		id = 2250,
-		value_2 = 7,
-		value_1 = "35",
-		base = 2240
+	[2223] = {
+		id = 2223,
+		value_2 = 3,
+		value_1 = "13",
+		base = 2220
 	}
 }

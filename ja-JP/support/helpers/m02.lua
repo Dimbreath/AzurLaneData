@@ -3018,3 +3018,20 @@ function DropResultIntegration(slot0)
 		return CompareFuncs(slot0, slot1, uv0)
 	end)
 end
+
+function getLoginConfig()
+	slot0 = os.time()
+	slot1 = 1
+
+	for slot5, slot6 in ipairs(pg.login.all) do
+		if pg.login[slot6].date ~= "stop" then
+			if pg.TimeMgr.GetInstance():parseTimeFromConfig(pg.login[slot6].date[2]) < slot0 and slot0 < pg.TimeMgr.GetInstance():parseTimeFromConfig(pg.login[slot6].date[3]) then
+				slot1 = slot6
+			end
+		end
+	end
+
+	slot4 = pg.login[slot1].login_cri ~= "" and true or false
+
+	return slot4, slot4 and slot3 or (pg.login[slot1].login_static ~= "" and slot2 or "login"), pg.login[slot1].bgm
+end

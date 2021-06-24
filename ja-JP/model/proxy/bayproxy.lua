@@ -7,6 +7,7 @@ function slot0.register(slot0)
 	slot0:on(12001, function (slot0)
 		uv0.data = {}
 		uv0.activityNpcShipIds = {}
+		uv0.metaShipIDList = {}
 
 		for slot4, slot5 in ipairs(slot0.shiplist) do
 			slot6 = Ship.New(slot5)
@@ -20,6 +21,8 @@ function slot0.register(slot0)
 
 				if slot6:isActivityNpc() then
 					table.insert(uv0.activityNpcShipIds, slot6.id)
+				elseif slot6:isMetaShip() and not table.contains(uv0.metaShipIDList, slot6.id) then
+					table.insert(uv0.metaShipIDList, slot6.id)
 				end
 
 				uv1.recordShipLevelVertify(slot6)
@@ -183,6 +186,13 @@ function slot0.addShip(slot0, slot1, slot2)
 	if slot1:isActivityNpc() then
 		table.insert(slot0.activityNpcShipIds, slot1.id)
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("isActivityNpc")
+	elseif slot1:isMetaShip() then
+		if not table.contains(slot0.metaShipIDList, slot1.id) then
+			table.insert(slot0.metaShipIDList, slot1.id)
+			getProxy(MetaCharacterProxy):requestMetaTacticsInfo({
+				slot1.id
+			})
+		end
 	elseif getProxy(CollectionProxy) then
 		slot3:flushCollection(slot1)
 	end
@@ -322,6 +332,10 @@ function slot0.getMetaShipByGroupId(slot0, slot1)
 			return slot6
 		end
 	end
+end
+
+function slot0.getMetaShipIDList(slot0)
+	return slot0.metaShipIDList
 end
 
 function slot0.updateShip(slot0, slot1)

@@ -714,6 +714,26 @@ function slot0.closeSkllSel(slot0)
 	slot0:pushDeleteStudentQueue()
 end
 
+function slot0.showMetaSkillPanel(slot0, slot1)
+	slot0.metaSkillPanel = NavalTacticsMetaSkillsView.New(slot0.blurPanelTF, slot0.event, slot0.contextData)
+
+	slot0.metaSkillPanel:Reset()
+	slot0.metaSkillPanel:Load()
+	slot0.metaSkillPanel:setData(slot1, function ()
+		uv0:closeMetaSkillPanel()
+	end)
+	slot0:blurView()
+end
+
+function slot0.closeMetaSkillPanel(slot0)
+	if slot0.metaSkillPanel then
+		slot0:unblurView()
+		slot0.metaSkillPanel:Destroy()
+
+		slot0.metaSkillPanel = nil
+	end
+end
+
 function slot0.showLessonSel(slot0, slot1, slot2, slot3)
 	slot0:blurView()
 
@@ -874,6 +894,7 @@ function slot0.willExit(slot0)
 	slot0.UIMgr:UnOverlayPanel(slot0.mainPanel, slot0._tf)
 	slot0:closeLessonSel()
 	slot0:closeSkllSel()
+	slot0:closeMetaSkillPanel()
 	slot0:unblurView()
 
 	if slot0.lessonOverTimer then

@@ -2,6 +2,370 @@ pg = pg or {}
 pg.weapon_property_149 = {}
 
 function ()
+	uv0.weapon_property_149[68211] = {
+		action_index = "attack",
+		range = 115,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "出云技能-PVP-LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 30,
+		corrected = 100,
+		min_range = 0,
+		id = 68211,
+		attack_attribute_ratio = 120,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19922,
+			19922
+		},
+		barrage_ID = {
+			80051,
+			80055
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_149[68212] = {
+		id = 68212,
+		name = "出云技能-PVP-LV2",
+		damage = 38,
+		base = 68211
+	}
+	uv0.weapon_property_149[68213] = {
+		id = 68213,
+		name = "出云技能-PVP-LV3",
+		damage = 46,
+		base = 68211
+	}
+	uv0.weapon_property_149[68214] = {
+		name = "出云技能-PVP-LV4",
+		damage = 54,
+		base = 68211,
+		id = 68214,
+		bullet_ID = {
+			19922,
+			19922,
+			19922,
+			19922
+		},
+		barrage_ID = {
+			80051,
+			80055,
+			80053,
+			80057
+		}
+	}
+	uv0.weapon_property_149[68215] = {
+		name = "出云技能-PVP-LV5",
+		damage = 62,
+		base = 68211,
+		id = 68215,
+		bullet_ID = {
+			19922,
+			19922,
+			19922,
+			19922
+		},
+		barrage_ID = {
+			80051,
+			80055,
+			80053,
+			80057
+		}
+	}
+	uv0.weapon_property_149[68216] = {
+		name = "出云技能-PVP-LV6",
+		damage = 70,
+		base = 68211,
+		id = 68216,
+		bullet_ID = {
+			19922,
+			19922,
+			19922,
+			19922
+		},
+		barrage_ID = {
+			80052,
+			80056,
+			80053,
+			80057
+		}
+	}
+	uv0.weapon_property_149[68217] = {
+		name = "出云技能-PVP-LV7",
+		damage = 78,
+		base = 68211,
+		id = 68217,
+		bullet_ID = {
+			19922,
+			19922,
+			19922,
+			19922
+		},
+		barrage_ID = {
+			80052,
+			80056,
+			80053,
+			80057
+		}
+	}
+	uv0.weapon_property_149[68218] = {
+		name = "出云技能-PVP-LV8",
+		damage = 86,
+		base = 68211,
+		id = 68218,
+		bullet_ID = {
+			19871,
+			19871,
+			19922,
+			19922
+		},
+		barrage_ID = {
+			80571,
+			80572,
+			80053,
+			80057
+		}
+	}
+	uv0.weapon_property_149[68219] = {
+		name = "出云技能-PVP-LV9",
+		damage = 95,
+		base = 68211,
+		id = 68219,
+		bullet_ID = {
+			19871,
+			19871,
+			19922,
+			19922
+		},
+		barrage_ID = {
+			80571,
+			80572,
+			80053,
+			80057
+		}
+	}
+	uv0.weapon_property_149[68220] = {
+		name = "出云技能-PVP-LV10",
+		damage = 104,
+		base = 68211,
+		id = 68220,
+		bullet_ID = {
+			19871,
+			19871,
+			19922,
+			19922
+		},
+		barrage_ID = {
+			80571,
+			80572,
+			80054,
+			80058
+		}
+	}
+	uv0.weapon_property_149[68231] = {
+		action_index = "attack",
+		range = 120,
+		type = 19,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "加斯科涅技能·箭型国旗红-PVP-LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		charge_param = "",
+		damage = 19,
+		corrected = 100,
+		min_range = 35,
+		id = 68231,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19847,
+			19847
+		},
+		barrage_ID = {
+			80561,
+			80562
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_149[68232] = {
+		id = 68232,
+		name = "加斯科涅技能·箭型国旗红-PVP-LV2",
+		damage = 22,
+		base = 68231
+	}
+	uv0.weapon_property_149[68233] = {
+		id = 68233,
+		name = "加斯科涅技能·箭型国旗红-PVP-LV3",
+		damage = 25,
+		base = 68231
+	}
+	uv0.weapon_property_149[68234] = {
+		name = "加斯科涅技能·箭型国旗红-PVP-LV4",
+		damage = 28,
+		base = 68231,
+		id = 68234,
+		barrage_ID = {
+			80563,
+			80564
+		}
+	}
+	uv0.weapon_property_149[68235] = {
+		name = "加斯科涅技能·箭型国旗红-PVP-LV5",
+		damage = 31,
+		base = 68231,
+		id = 68235,
+		barrage_ID = {
+			80563,
+			80564
+		}
+	}
+	uv0.weapon_property_149[68236] = {
+		name = "加斯科涅技能·箭型国旗红-PVP-LV6",
+		damage = 34,
+		base = 68231,
+		id = 68236,
+		barrage_ID = {
+			80563,
+			80564
+		}
+	}
+	uv0.weapon_property_149[68237] = {
+		name = "加斯科涅技能·箭型国旗红-PVP-LV7",
+		damage = 39,
+		base = 68231,
+		id = 68237,
+		barrage_ID = {
+			80565,
+			80566
+		}
+	}
+	uv0.weapon_property_149[68238] = {
+		name = "加斯科涅技能·箭型国旗红-PVP-LV8",
+		damage = 44,
+		base = 68231,
+		id = 68238,
+		barrage_ID = {
+			80565,
+			80566
+		}
+	}
+	uv0.weapon_property_149[68239] = {
+		name = "加斯科涅技能·箭型国旗红-PVP-LV9",
+		damage = 49,
+		base = 68231,
+		id = 68239,
+		barrage_ID = {
+			80565,
+			80566
+		}
+	}
+	uv0.weapon_property_149[68240] = {
+		name = "加斯科涅技能·箭型国旗红-PVP-LV10",
+		damage = 54,
+		base = 68231,
+		id = 68240,
+		barrage_ID = {
+			80565,
+			80566
+		}
+	}
+	uv0.weapon_property_149[68241] = {
+		action_index = "attack",
+		range = 115,
+		type = 19,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "加斯科涅技能·箭型国旗白-PVP-LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		charge_param = "",
+		damage = 19,
+		corrected = 100,
+		min_range = 35,
+		id = 68241,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19848,
+			19848
+		},
+		barrage_ID = {
+			80561,
+			80562
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_149[68242] = {
+		id = 68242,
+		name = "加斯科涅技能·箭型国旗白-PVP-LV2",
+		damage = 22,
+		base = 68241
+	}
 	uv0.weapon_property_149[68243] = {
 		id = 68243,
 		name = "加斯科涅技能·箭型国旗白-PVP-LV3",
@@ -483,225 +847,5 @@ function ()
 		name = "绊爱描边大师雷-LV2",
 		damage = 78,
 		base = 68281
-	}
-	uv0.weapon_property_149[68283] = {
-		id = 68283,
-		name = "绊爱描边大师雷-LV3",
-		damage = 85,
-		base = 68281
-	}
-	uv0.weapon_property_149[68284] = {
-		id = 68284,
-		name = "绊爱描边大师雷-LV4",
-		damage = 99,
-		base = 68281
-	}
-	uv0.weapon_property_149[68285] = {
-		id = 68285,
-		name = "绊爱描边大师雷-LV5",
-		damage = 104,
-		base = 68281
-	}
-	uv0.weapon_property_149[68286] = {
-		id = 68286,
-		name = "绊爱描边大师雷-LV6",
-		damage = 110,
-		base = 68281
-	}
-	uv0.weapon_property_149[68287] = {
-		id = 68287,
-		name = "绊爱描边大师雷-LV7",
-		damage = 117,
-		base = 68281
-	}
-	uv0.weapon_property_149[68288] = {
-		id = 68288,
-		name = "绊爱描边大师雷-LV8",
-		damage = 125,
-		base = 68281
-	}
-	uv0.weapon_property_149[68289] = {
-		id = 68289,
-		name = "绊爱描边大师雷-LV9",
-		damage = 134,
-		base = 68281
-	}
-	uv0.weapon_property_149[68290] = {
-		id = 68290,
-		name = "绊爱描边大师雷-LV10",
-		damage = 144,
-		base = 68281
-	}
-	uv0.weapon_property_149[68291] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "绊爱驱逐单发射击鱼雷-LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 30,
-		corrected = 100,
-		min_range = 0,
-		id = 68291,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19873
-		},
-		barrage_ID = {
-			80600
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_149[68292] = {
-		id = 68292,
-		name = "绊爱驱逐单发射击鱼雷-LV2",
-		damage = 38,
-		base = 68291
-	}
-	uv0.weapon_property_149[68293] = {
-		id = 68293,
-		name = "绊爱驱逐单发射击鱼雷-LV3",
-		damage = 46,
-		base = 68291
-	}
-	uv0.weapon_property_149[68294] = {
-		id = 68294,
-		name = "绊爱驱逐单发射击鱼雷-LV4",
-		damage = 54,
-		base = 68291
-	}
-	uv0.weapon_property_149[68295] = {
-		id = 68295,
-		name = "绊爱驱逐单发射击鱼雷-LV5",
-		damage = 62,
-		base = 68291
-	}
-	uv0.weapon_property_149[68296] = {
-		id = 68296,
-		name = "绊爱驱逐单发射击鱼雷-LV6",
-		damage = 70,
-		base = 68291
-	}
-	uv0.weapon_property_149[68297] = {
-		id = 68297,
-		name = "绊爱驱逐单发射击鱼雷-LV7",
-		damage = 78,
-		base = 68291
-	}
-	uv0.weapon_property_149[68298] = {
-		id = 68298,
-		name = "绊爱驱逐单发射击鱼雷-LV8",
-		damage = 86,
-		base = 68291
-	}
-	uv0.weapon_property_149[68299] = {
-		id = 68299,
-		name = "绊爱驱逐单发射击鱼雷-LV9",
-		damage = 95,
-		base = 68291
-	}
-	uv0.weapon_property_149[68300] = {
-		id = 68300,
-		name = "绊爱驱逐单发射击鱼雷-LV10",
-		damage = 104,
-		base = 68291
-	}
-	uv0.weapon_property_149[68301] = {
-		action_index = "attack",
-		range = 90,
-		type = 11,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "绊爱航母额外轰炸机队-LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 90,
-		charge_param = "",
-		damage = 56,
-		corrected = 100,
-		min_range = 0,
-		id = 68301,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 1890,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			68301
-		},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_149[68302] = {
-		name = "绊爱航母额外轰炸机队-LV2",
-		damage = 78,
-		base = 68301,
-		id = 68302,
-		bullet_ID = {
-			68302
-		}
-	}
-	uv0.weapon_property_149[68303] = {
-		name = "绊爱航母额外轰炸机队-LV3",
-		damage = 98,
-		base = 68301,
-		id = 68303,
-		bullet_ID = {
-			68303
-		}
-	}
-	uv0.weapon_property_149[68304] = {
-		name = "绊爱航母额外轰炸机队-LV4",
-		damage = 102,
-		base = 68301,
-		id = 68304,
-		bullet_ID = {
-			68304
-		},
-		barrage_ID = {
-			12009
-		}
 	}
 end()

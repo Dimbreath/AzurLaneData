@@ -1,5 +1,175 @@
 pg = pg or {}
 pg.equip_data_statistics_50 = {
+	[2503] = {
+		id = 2503,
+		value_1 = "72",
+		base = 2500
+	},
+	[2520] = {
+		name = "消火装置",
+		tech = 2,
+		type = 10,
+		speciality = "なし",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "2500",
+		value_1 = "90",
+		descrip = "ダメージコントロールに欠かせない",
+		rarity = 2,
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 2520,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6150
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[2521] = {
+		id = 2521,
+		value_1 = "103",
+		base = 2520
+	},
+	[2522] = {
+		id = 2522,
+		value_1 = "117",
+		base = 2520
+	},
+	[2523] = {
+		id = 2523,
+		value_1 = "130",
+		base = 2520
+	},
+	[2540] = {
+		name = "消火装置",
+		tech = 3,
+		type = 10,
+		speciality = "なし",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "2500",
+		value_1 = "140",
+		descrip = "ダメージコントロールに欠かせない",
+		rarity = 3,
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 2540,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6160
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[2541] = {
+		id = 2541,
+		value_1 = "161",
+		base = 2540
+	},
+	[2542] = {
+		id = 2542,
+		value_1 = "182",
+		base = 2540
+	},
+	[2543] = {
+		id = 2543,
+		value_1 = "203",
+		base = 2540
+	},
+	[2544] = {
+		id = 2544,
+		value_1 = "224",
+		base = 2540
+	},
+	[2545] = {
+		id = 2545,
+		value_1 = "245",
+		base = 2540
+	},
+	[2546] = {
+		id = 2546,
+		value_1 = "266",
+		base = 2540
+	},
+	[2547] = {
+		id = 2547,
+		value_1 = "287",
+		base = 2540
+	},
+	[2640] = {
+		name = "九三式酸素魚雷",
+		tech = 3,
+		type = 10,
+		speciality = "なし",
+		id = 2640,
+		value_2 = 3,
+		icon = "2600",
+		value_1 = "40",
+		attribute_2 = "reload",
+		rarity = 6,
+		descrip = "かの大戦で唯一実用された酸素魚雷。雷撃を大幅に強化することができる",
+		nationality = 3,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "torpedo",
+		torpedo_ammo = 1,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			8,
+			11,
+			17,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			8,
+			11,
+			17,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DEV"
+		}
+	},
 	[2641] = {
 		id = 2641,
 		value_1 = "46",
@@ -10,142 +180,5 @@ pg.equip_data_statistics_50 = {
 		value_2 = 4,
 		value_1 = "52",
 		base = 2640
-	},
-	[2643] = {
-		id = 2643,
-		value_2 = 5,
-		value_1 = "58",
-		base = 2640
-	},
-	[2644] = {
-		id = 2644,
-		base = 2640,
-		value_2 = 6,
-		value_1 = "64",
-		torpedo_ammo = 2
-	},
-	[2645] = {
-		id = 2645,
-		base = 2640,
-		value_2 = 6,
-		value_1 = "70",
-		torpedo_ammo = 2
-	},
-	[2646] = {
-		id = 2646,
-		base = 2640,
-		value_2 = 7,
-		value_1 = "76",
-		torpedo_ammo = 2
-	},
-	[2647] = {
-		id = 2647,
-		base = 2640,
-		value_2 = 8,
-		value_1 = "82",
-		torpedo_ammo = 3
-	},
-	[2648] = {
-		id = 2648,
-		base = 2640,
-		value_2 = 9,
-		value_1 = "88",
-		torpedo_ammo = 3
-	},
-	[2649] = {
-		id = 2649,
-		base = 2640,
-		value_2 = 9,
-		value_1 = "94",
-		torpedo_ammo = 3
-	},
-	[2650] = {
-		id = 2650,
-		base = 2640,
-		value_2 = 10,
-		value_1 = "100",
-		torpedo_ammo = 4
-	},
-	[2651] = {
-		id = 2651,
-		anti_siren = 100,
-		base = 2640,
-		value_2 = 11,
-		value_1 = "106",
-		torpedo_ammo = 4
-	},
-	[2652] = {
-		id = 2652,
-		anti_siren = 200,
-		base = 2640,
-		value_2 = 12,
-		value_1 = "112",
-		torpedo_ammo = 4
-	},
-	[2653] = {
-		id = 2653,
-		anti_siren = 300,
-		base = 2640,
-		value_2 = 13,
-		value_1 = "118",
-		torpedo_ammo = 4
-	},
-	[2740] = {
-		name = "533mm磁気魚雷（水上艦用）",
-		tech = 3,
-		type = 10,
-		speciality = "なし",
-		id = 2740,
-		value_2 = 6,
-		icon = "2700",
-		value_1 = "28",
-		attribute_2 = "hit",
-		rarity = 5,
-		descrip = "水上艦用の533mm磁気魚雷。磁気信管と音響追跡技術を応用している",
-		nationality = 4,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "torpedo",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6570
-		},
-		part_main = {
-			1,
-			2,
-			3,
-			11,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			11,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"DEV"
-		}
-	},
-	[2741] = {
-		id = 2741,
-		value_1 = "32",
-		base = 2740
-	},
-	[2742] = {
-		id = 2742,
-		value_2 = 7,
-		value_1 = "36",
-		base = 2740
 	}
 }

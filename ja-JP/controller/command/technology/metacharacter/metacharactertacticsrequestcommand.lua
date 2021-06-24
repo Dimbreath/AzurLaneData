@@ -25,6 +25,7 @@ function slot0.execute(slot0, slot1)
 			print("skill", slot7.skill_id, slot7.exp)
 		end
 
+		getProxy(MetaCharacterProxy):setMetaTacticsInfo(slot0)
 		uv0:sendNotification(GAME.TACTICS_META_INFO_REQUEST_DONE, {
 			shipID = slot0.ship_id,
 			doubleExp = slot0.double_exp,

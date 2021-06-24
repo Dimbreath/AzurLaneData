@@ -5817,6 +5817,9 @@ META戦・ヘレナ(META)が開催中です。META戦で解析Ptを集め、META
 	ship_remould_warning_205124 = {
 		tip = "近代化改修は<color=#92fc63>戦士の心得</color>を消費します。\n続けますか？"
 	},
+	ship_remould_warning_301534 = {
+		tip = "改造でスキル<color=#92fc63>【ふわりんと仲間たちと】</color>が強化されます"
+	},
 	ship_remould_warning_310014 = {
 		tip = [[
 <size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。
@@ -7590,7 +7593,7 @@ META戦・ヘレナ(META)が開催中です。META戦で解析Ptを集め、META
 		tip = "アビリティPtが不足しています"
 	},
 	buildship_new_tip = {
-		tip = "<size=28>限定建造を累計200回行うと「ニュージャージー」を確定で入手可能！（最大4隻まで）</size>"
+		tip = "イベント期間、「龍鳳」、「駿河」、「風雲」 などの出現率UP！"
 	},
 	buildship_heavy_tip = {
 		tip = "「ビスマルク」「キング・ジョージ5世」などが常設実装！"
@@ -14402,5 +14405,17 @@ EN補給箱・小×45
 	},
 	activity_permanent_finished = {
 		tip = "完了"
+	},
+	memory_actiivty_ex = {
+		tip = "イベント"
+	},
+	memory_activity_sp = {
+		tip = "SPイベ"
+	},
+	memory_activity_daily = {
+		tip = "日常イベ"
+	},
+	memory_activity_others = {
+		tip = "その他"
 	}
 }

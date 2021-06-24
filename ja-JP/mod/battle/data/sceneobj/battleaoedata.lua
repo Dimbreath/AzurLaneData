@@ -210,6 +210,10 @@ function slot2.SetAnchorPointAlignment(slot0, slot1)
 	end
 end
 
+function slot2.GetAnchorPointAlignment(slot0)
+	return slot0._alignment
+end
+
 function slot2.GetFXStatic(slot0)
 	return slot0._fxStatic
 end

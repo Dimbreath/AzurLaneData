@@ -1,5 +1,132 @@
 pg = pg or {}
 pg.equip_data_statistics_49 = {
+	[2426] = {
+		id = 2426,
+		value_1 = "266",
+		base = 2420
+	},
+	[2440] = {
+		name = "応急修理装置",
+		tech = 3,
+		type = 10,
+		speciality = "なし",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "2400",
+		value_1 = "200",
+		descrip = "応急修理チーム導入セット。ただし自分の耐久しか回復できない",
+		rarity = 4,
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 2440,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6120
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[2441] = {
+		id = 2441,
+		value_1 = "230",
+		base = 2440
+	},
+	[2442] = {
+		id = 2442,
+		value_1 = "260",
+		base = 2440
+	},
+	[2443] = {
+		id = 2443,
+		value_1 = "290",
+		base = 2440
+	},
+	[2444] = {
+		id = 2444,
+		value_1 = "320",
+		base = 2440
+	},
+	[2445] = {
+		id = 2445,
+		value_1 = "350",
+		base = 2440
+	},
+	[2446] = {
+		id = 2446,
+		value_1 = "380",
+		base = 2440
+	},
+	[2447] = {
+		id = 2447,
+		value_1 = "410",
+		base = 2440
+	},
+	[2448] = {
+		id = 2448,
+		value_1 = "440",
+		base = 2440
+	},
+	[2449] = {
+		id = 2449,
+		value_1 = "470",
+		base = 2440
+	},
+	[2450] = {
+		id = 2450,
+		value_1 = "500",
+		base = 2440
+	},
+	[2451] = {
+		id = 2451,
+		anti_siren = 100,
+		value_1 = "530",
+		base = 2440
+	},
+	[2500] = {
+		name = "消火装置",
+		tech = 1,
+		type = 10,
+		speciality = "なし",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "2500",
+		value_1 = "50",
+		descrip = "ダメージコントロールに欠かせない",
+		rarity = 1,
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		id = 2500,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6140
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
 	[2501] = {
 		id = 2501,
 		value_1 = "57",
@@ -9,175 +136,5 @@ pg.equip_data_statistics_49 = {
 		id = 2502,
 		value_1 = "65",
 		base = 2500
-	},
-	[2503] = {
-		id = 2503,
-		value_1 = "72",
-		base = 2500
-	},
-	[2520] = {
-		name = "消火装置",
-		tech = 2,
-		type = 10,
-		speciality = "なし",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "2500",
-		value_1 = "90",
-		descrip = "ダメージコントロールに欠かせない",
-		rarity = 2,
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 2520,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6150
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[2521] = {
-		id = 2521,
-		value_1 = "103",
-		base = 2520
-	},
-	[2522] = {
-		id = 2522,
-		value_1 = "117",
-		base = 2520
-	},
-	[2523] = {
-		id = 2523,
-		value_1 = "130",
-		base = 2520
-	},
-	[2540] = {
-		name = "消火装置",
-		tech = 3,
-		type = 10,
-		speciality = "なし",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "2500",
-		value_1 = "140",
-		descrip = "ダメージコントロールに欠かせない",
-		rarity = 3,
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		id = 2540,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6160
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[2541] = {
-		id = 2541,
-		value_1 = "161",
-		base = 2540
-	},
-	[2542] = {
-		id = 2542,
-		value_1 = "182",
-		base = 2540
-	},
-	[2543] = {
-		id = 2543,
-		value_1 = "203",
-		base = 2540
-	},
-	[2544] = {
-		id = 2544,
-		value_1 = "224",
-		base = 2540
-	},
-	[2545] = {
-		id = 2545,
-		value_1 = "245",
-		base = 2540
-	},
-	[2546] = {
-		id = 2546,
-		value_1 = "266",
-		base = 2540
-	},
-	[2547] = {
-		id = 2547,
-		value_1 = "287",
-		base = 2540
-	},
-	[2640] = {
-		name = "九三式酸素魚雷",
-		tech = 3,
-		type = 10,
-		speciality = "なし",
-		id = 2640,
-		value_2 = 3,
-		icon = "2600",
-		value_1 = "40",
-		attribute_2 = "reload",
-		rarity = 6,
-		descrip = "かの大戦で唯一実用された酸素魚雷。雷撃を大幅に強化することができる",
-		nationality = 3,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "torpedo",
-		torpedo_ammo = 1,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			8,
-			11,
-			17,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			8,
-			11,
-			17,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"DEV"
-		}
 	}
 }

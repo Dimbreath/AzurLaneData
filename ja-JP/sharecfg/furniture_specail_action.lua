@@ -169,5 +169,14 @@ pg.furniture_specail_action = {
 				3.6
 			}
 		}
+	},
+	[100027] = {
+		id = 100027,
+		actions = {
+			{
+				"stand2",
+				0.9
+			}
+		}
 	}
 }

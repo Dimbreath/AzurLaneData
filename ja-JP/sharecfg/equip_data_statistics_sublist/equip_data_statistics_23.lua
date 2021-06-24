@@ -51,21 +51,22 @@ pg.equip_data_statistics_23 = {
 		value_1 = "580",
 		base = 940
 	},
-	[1000] = {
-		name = "艦艇修理施設",
-		tech = 1,
+	[960] = {
+		name = "FuMO 25",
+		tech = 0,
 		type = 10,
 		speciality = "なし",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "1000",
-		value_1 = "90",
-		descrip = "損傷修理用の装置。工作艦のみ装備可能",
-		rarity = 3,
-		nationality = 0,
+		id = 960,
+		value_2 = 8,
+		icon = "960",
+		value_1 = "11",
+		attribute_2 = "cannon",
+		rarity = 5,
+		descrip = "鉄血が開発した艦艇用レーダー。目標走査と火器制御に用いられる",
+		nationality = 4,
 		ammo = 10,
 		value_3 = 0,
-		id = 1000,
+		attribute_1 = "hit",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -74,43 +75,61 @@ pg.equip_data_statistics_23 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {
-			10
-		},
+		skill_id = {},
 		part_main = {
-			12
+			2,
+			3,
+			4,
+			5,
+			10,
+			13,
+			18,
+			19
 		},
 		part_sub = {
-			12
+			2,
+			3,
+			4,
+			5,
+			10,
+			13,
+			18,
+			19
 		},
 		equip_parameters = {},
 		label = {
+			"KMS",
 			"DEV"
 		}
 	},
-	[1001] = {
-		id = 1001,
-		value_1 = "103",
-		base = 1000
+	[961] = {
+		id = 961,
+		value_2 = 9,
+		value_1 = "12",
+		base = 960
 	},
-	[1002] = {
-		id = 1002,
-		value_1 = "117",
-		base = 1000
+	[962] = {
+		id = 962,
+		value_2 = 10,
+		value_1 = "13",
+		base = 960
 	},
-	[1003] = {
-		id = 1003,
-		value_1 = "130",
-		base = 1000
+	[963] = {
+		id = 963,
+		value_2 = 12,
+		value_1 = "15",
+		base = 960
 	},
-	[1004] = {
-		id = 1004,
-		value_1 = "144",
-		base = 1000
+	[964] = {
+		id = 964,
+		value_2 = 14,
+		value_1 = "17",
+		base = 960
 	},
-	[1005] = {
-		id = 1005,
-		value_1 = "157",
-		base = 1000
+	[965] = {
+		id = 965,
+		value_2 = 16,
+		value_1 = "19",
+		base = 960
 	}
 }

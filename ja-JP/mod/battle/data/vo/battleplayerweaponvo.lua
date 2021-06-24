@@ -120,12 +120,12 @@ function slot3.RemoveWeapon(slot0, slot1)
 		slot0:DispatchTotalChange()
 	end
 
-	slot0:RefreshCD()
+	slot0:refreshCD()
 
 	return slot2
 end
 
-function slot3.RefreshCD(slot0)
+function slot3.refreshCD(slot0)
 	slot2 = #slot0._chargingList
 
 	if #slot0._readyList ~= 0 then
@@ -207,7 +207,7 @@ function slot3.GetNextTimeStamp(slot0)
 		end
 	end
 
-	return tiemStampB
+	return tiemStampB, slot1
 end
 
 function slot3.GetCurrentWeapon(slot0)
@@ -262,6 +262,22 @@ function slot3.Charge(slot0, slot1)
 		slot0._max = math.max(slot0._GCD, slot0:GetNextTimeStamp() - pg.TimeMgr.GetInstance():GetCombatTime())
 
 		slot0:resetCurrent()
+	end
+end
+
+function slot3.ReloadBoost(slot0, slot1, slot2)
+	slot3, slot4 = slot0:GetNextTimeStamp()
+
+	slot1:ReloadBoost(slot2)
+
+	slot5, slot6 = slot0:GetNextTimeStamp()
+
+	if slot4 ~= slot1 and slot6 ~= slot1 then
+		-- Nothing
+	elseif slot4 == slot1 and slot6 == slot1 then
+		slot0:RefreshReloadingBar()
+	elseif slot4 ~= slot6 then
+		slot0:RefreshReloadingBar()
 	end
 end
 

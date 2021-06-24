@@ -4337,7 +4337,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 981,
-		is_show = 4,
+		is_show = 13,
 		config_client = "",
 		title_res_tag = "NewMeixiV4_pt",
 		id = 981,
@@ -5126,6 +5126,7 @@ pg.activity_template = {
 	[4010] = {
 		mark = 20210617,
 		page_info = "",
+		time = "stop",
 		type = 58,
 		login_pop = 0,
 		config_id = 13,
@@ -5133,41 +5134,14 @@ pg.activity_template = {
 		config_data = "",
 		config_client = "",
 		title_res_tag = "",
-		id = 4010,
-		time = {
-			timer,
-			{
-				{
-					2021,
-					6,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 4010
 	},
 	[4011] = {
 		mark = 20210617,
-		type = 54,
+		type = 74,
 		login_pop = 0,
 		config_id = 4011,
-		is_show = 6,
+		is_show = 15,
 		title_res_tag = "xunliandianshu_r",
 		id = 4011,
 		config_data = {},
@@ -5211,7 +5185,7 @@ pg.activity_template = {
 		type = 69,
 		login_pop = 0,
 		config_id = 8,
-		is_show = 5,
+		is_show = 14,
 		title_res_tag = "Neptune_catchup",
 		id = 4012,
 		config_data = {},
@@ -5255,7 +5229,7 @@ pg.activity_template = {
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 7,
+		is_show = 16,
 		title_res_tag = "shancheng_pt_skin",
 		id = 4013,
 		config_data = {
@@ -5321,6 +5295,56 @@ pg.activity_template = {
 		},
 		config_client = {
 			pt_id = 207
+		}
+	},
+	[4014] = {
+		mark = 20210624,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 4014,
+		config_data = {
+			16730,
+			16731,
+			16732,
+			16733,
+			16734,
+			16735,
+			16736,
+			16737,
+			16738,
+			16739
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					6,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[4015] = {
@@ -5402,6 +5426,441 @@ pg.activity_template = {
 				0,
 				0,
 				0.6
+			}
+		}
+	},
+	[4016] = {
+		mark = 20210624,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 4016,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					6,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4020] = {
+		mark = 20210624,
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 18,
+		title_res_tag = "xinrixizongye",
+		id = 4020,
+		config_data = {
+			1530001,
+			1530002,
+			1530003,
+			1530021,
+			1530022,
+			1530023
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					6,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "JapaneseNewyearPage",
+			ui_name = "JapaneseNewyearPage"
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[4021] = {
+		mark = 20210624,
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 4021,
+		config_data = {
+			1530004,
+			1530005,
+			1530006,
+			1530024,
+			1530025,
+			1530026,
+			1530041,
+			1530051
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					6,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[4022] = {
+		mark = 20210624,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 4022,
+		config_data = {
+			16770,
+			16771,
+			16772,
+			16773,
+			16774,
+			16775,
+			16776,
+			16777,
+			16778,
+			16779,
+			16780,
+			16781,
+			16782,
+			16783,
+			16784,
+			16785,
+			16786
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					6,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4023] = {
+		mark = 20210624,
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 4023,
+		config_data = {
+			1311301,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					6,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4024] = {
+		mark = 20210624,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 208,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		title_res_tag = "",
+		id = 4024,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					6,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4025] = {
+		mark = 20210624,
+		type = 74,
+		login_pop = 0,
+		config_id = 4025,
+		is_show = 17,
+		config_client = "",
+		title_res_tag = "xinrixizongye_pt",
+		id = 4025,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					6,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "JapanesePTPage",
+			ui_name = "JapanesePTPage"
+		}
+	},
+	[4026] = {
+		mark = 20210624,
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 4026,
+		config_data = {
+			1456,
+			1457,
+			1458,
+			1459,
+			1460,
+			1461,
+			1462,
+			1463,
+			1464,
+			1465,
+			1466,
+			1467,
+			1468,
+			1469,
+			1470,
+			1471,
+			1472,
+			1473,
+			1474,
+			1475
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					6,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_xinrixi",
+			{
+				0.93,
+				0.75,
+				0.75,
+				1
+			},
+			pt_id = 208,
+			painting = "nengdai_pt"
+		}
+	},
+	[4027] = {
+		mark = 20210527,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 4027,
+		config_data = {
+			16787
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					6,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -7020,7 +7479,17 @@ pg.activity_template = {
 		4011,
 		4012,
 		4013,
+		4014,
 		4015,
+		4016,
+		4020,
+		4021,
+		4022,
+		4023,
+		4024,
+		4025,
+		4026,
+		4027,
 		10006,
 		10056,
 		10123,

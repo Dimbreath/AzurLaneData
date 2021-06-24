@@ -40,15 +40,6 @@ function slot0.register(slot0)
 			prevPage = uv0.__cname,
 			hideTagFlags = ShipStatus.TAG_HIDE_TACTICES,
 			onShip = function (slot0, slot1, slot2)
-				if slot0:isMetaShip() then
-					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.METACHARACTER, {
-						autoOpenTactics = true,
-						autoOpenShipConfigID = slot0.configId
-					})
-
-					return
-				end
-
 				slot3, slot4 = ShipStatus.ShipStatusCheck("inTactics", slot0, slot1)
 
 				if not slot3 then
@@ -58,15 +49,21 @@ function slot0.register(slot0)
 				return true
 			end,
 			onSelected = function (slot0)
-				if uv0 and slot0[1] then
-					for slot4, slot5 in pairs(uv1) do
-						if uv0 == slot5 then
-							uv2.contextData.students[slot4] = nil
+				if getProxy(BayProxy):getShipById(slot0[1]):isMetaShip() then
+					uv0.contextData.metaShipID = slot1
+
+					return
+				end
+
+				if uv1 and slot0[1] then
+					for slot6, slot7 in pairs(uv2) do
+						if uv1 == slot7 then
+							uv0.contextData.students[slot6] = nil
 						end
 					end
 				end
 
-				uv2.contextData.shipToLesson = {
+				uv0.contextData.shipToLesson = {
 					shipId = slot0[1],
 					index = uv3
 				}
@@ -105,6 +102,10 @@ function slot0.register(slot0)
 		slot0.viewComponent:addStudent(slot6.shipId, slot6.index, slot6.skillIndex)
 
 		slot0.contextData.shipToLesson = nil
+	elseif slot0.contextData.metaShipID then
+		slot0.viewComponent:showMetaSkillPanel(slot0.contextData.metaShipID)
+
+		slot0.contextData.metaShipID = nil
 	end
 
 	slot0.viewComponent:setSKillClassNum(slot5:getSkillClassNum())
@@ -116,7 +117,9 @@ function slot0.listNotificationInterests(slot0)
 		NavalAcademyProxy.START_LEARN_TACTICS,
 		GAME.CANCEL_LEARN_TACTICS_DONE,
 		BagProxy.ITEM_UPDATED,
-		NavalAcademyProxy.SKILL_CLASS_POS_UPDATED
+		NavalAcademyProxy.SKILL_CLASS_POS_UPDATED,
+		GAME.TACTICS_META_UNLOCK_SKILL_DONE,
+		GAME.TACTICS_META_SWITCH_SKILL_DONE
 	}
 end
 
@@ -131,6 +134,12 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == NavalAcademyProxy.SKILL_CLASS_POS_UPDATED then
 		slot0.viewComponent:setSKillClassNum(slot3)
 		slot0.viewComponent:updateLockStudentPos(slot3, true)
+	elseif slot2 == GAME.TACTICS_META_UNLOCK_SKILL_DONE then
+		slot0.viewComponent:closeMetaSkillPanel()
+		slot0.viewComponent:showMetaSkillPanel(slot3.metaShipID)
+	elseif slot2 == GAME.TACTICS_META_SWITCH_SKILL_DONE then
+		slot0.viewComponent:closeMetaSkillPanel()
+		slot0.viewComponent:showMetaSkillPanel(slot3.metaShipID)
 	end
 end
 

@@ -1,5 +1,119 @@
 pg = pg or {}
 pg.equip_data_statistics_60 = {
+	[3212] = {
+		id = 3212,
+		anti_siren = 200,
+		value_1 = "710",
+		base = 3200
+	},
+	[3213] = {
+		id = 3213,
+		anti_siren = 300,
+		value_1 = "740",
+		base = 3200
+	},
+	[3220] = {
+		name = "VC装甲鋼板",
+		tech = 0,
+		type = 10,
+		speciality = "なし",
+		attribute_1 = "durability",
+		value_2 = 0,
+		icon = "3220",
+		value_1 = "220",
+		descrip = "ロイヤルの技術を導入した装甲鋼板。戦艦の主要防御帯によく使われていた",
+		rarity = 4,
+		nationality = 3,
+		ammo = 10,
+		value_3 = 0,
+		id = 3220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6470
+		},
+		part_main = {
+			4,
+			5,
+			7,
+			10,
+			18
+		},
+		part_sub = {
+			4,
+			5,
+			7,
+			10,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DEV"
+		}
+	},
+	[3221] = {
+		id = 3221,
+		value_1 = "250",
+		base = 3220
+	},
+	[3222] = {
+		id = 3222,
+		value_1 = "280",
+		base = 3220
+	},
+	[3223] = {
+		id = 3223,
+		value_1 = "310",
+		base = 3220
+	},
+	[3224] = {
+		id = 3224,
+		value_1 = "340",
+		base = 3220
+	},
+	[3225] = {
+		id = 3225,
+		value_1 = "370",
+		base = 3220
+	},
+	[3226] = {
+		id = 3226,
+		value_1 = "400",
+		base = 3220
+	},
+	[3227] = {
+		id = 3227,
+		value_1 = "430",
+		base = 3220
+	},
+	[3228] = {
+		id = 3228,
+		value_1 = "460",
+		base = 3220
+	},
+	[3229] = {
+		id = 3229,
+		value_1 = "490",
+		base = 3220
+	},
+	[3230] = {
+		id = 3230,
+		value_1 = "520",
+		base = 3220
+	},
+	[3231] = {
+		id = 3231,
+		anti_siren = 100,
+		value_1 = "550",
+		base = 3220
+	},
 	[3300] = {
 		name = "四神の印",
 		tech = 0,
@@ -42,110 +156,5 @@ pg.equip_data_statistics_60 = {
 		id = 3301,
 		value_1 = "280",
 		base = 3300
-	},
-	[3302] = {
-		id = 3302,
-		value_1 = "310",
-		base = 3300
-	},
-	[3303] = {
-		id = 3303,
-		value_1 = "340",
-		base = 3300
-	},
-	[3304] = {
-		id = 3304,
-		value_1 = "370",
-		base = 3300
-	},
-	[3305] = {
-		id = 3305,
-		value_1 = "400",
-		base = 3300
-	},
-	[3306] = {
-		id = 3306,
-		value_1 = "430",
-		base = 3300
-	},
-	[3307] = {
-		id = 3307,
-		value_1 = "460",
-		base = 3300
-	},
-	[3308] = {
-		id = 3308,
-		value_1 = "490",
-		base = 3300
-	},
-	[3309] = {
-		id = 3309,
-		value_1 = "520",
-		base = 3300
-	},
-	[3310] = {
-		id = 3310,
-		value_1 = "550",
-		base = 3300
-	},
-	[3311] = {
-		id = 3311,
-		anti_siren = 100,
-		value_1 = "580",
-		base = 3300
-	},
-	[3312] = {
-		id = 3312,
-		anti_siren = 200,
-		value_1 = "610",
-		base = 3300
-	},
-	[3313] = {
-		id = 3313,
-		anti_siren = 300,
-		value_1 = "640",
-		base = 3300
-	},
-	[3400] = {
-		name = "九四式四十糎砲(積載)",
-		tech = 0,
-		type = 18,
-		speciality = "なし",
-		attribute_1 = "durability",
-		value_2 = 0,
-		icon = "3400",
-		value_1 = "450",
-		descrip = "「九四式四十糎砲」と呼ばれていた主砲兵装…？",
-		rarity = 5,
-		nationality = 3,
-		ammo = 10,
-		value_3 = 0,
-		id = 3400,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6590
-		},
-		part_main = {
-			19
-		},
-		part_sub = {
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"GDS"
-		}
-	},
-	[3401] = {
-		id = 3401,
-		value_1 = "480",
-		base = 3400
 	}
 }

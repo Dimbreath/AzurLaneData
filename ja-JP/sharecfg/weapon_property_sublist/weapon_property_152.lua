@@ -2,6 +2,225 @@ pg = pg or {}
 pg.weapon_property_152 = {}
 
 function ()
+	uv0.weapon_property_152[68407] = {
+		id = 68407,
+		name = "俾斯麦弹幕Lv7",
+		damage = 86,
+		base = 68401
+	}
+	uv0.weapon_property_152[68408] = {
+		id = 68408,
+		name = "俾斯麦弹幕Lv8",
+		damage = 93,
+		base = 68401
+	}
+	uv0.weapon_property_152[68409] = {
+		id = 68409,
+		name = "俾斯麦弹幕Lv9",
+		damage = 100,
+		base = 68401
+	}
+	uv0.weapon_property_152[68410] = {
+		id = 68410,
+		name = "俾斯麦弹幕Lv10",
+		damage = 110,
+		base = 68401
+	}
+	uv0.weapon_property_152[68411] = {
+		action_index = "attack",
+		range = 120,
+		type = 19,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "俾斯麦弹幕Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 43,
+		corrected = 100,
+		min_range = 35,
+		id = 68411,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19978,
+			19979,
+			19979
+		},
+		barrage_ID = {
+			80491,
+			80494,
+			80495
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_152[68412] = {
+		id = 68412,
+		name = "俾斯麦弹幕Lv2",
+		damage = 50,
+		base = 68411
+	}
+	uv0.weapon_property_152[68413] = {
+		id = 68413,
+		name = "俾斯麦弹幕Lv3",
+		damage = 57,
+		base = 68411
+	}
+	uv0.weapon_property_152[68414] = {
+		id = 68414,
+		name = "俾斯麦弹幕Lv4",
+		damage = 64,
+		base = 68411
+	}
+	uv0.weapon_property_152[68415] = {
+		id = 68415,
+		name = "俾斯麦弹幕Lv5",
+		damage = 72,
+		base = 68411
+	}
+	uv0.weapon_property_152[68416] = {
+		id = 68416,
+		name = "俾斯麦弹幕Lv6",
+		damage = 79,
+		base = 68411
+	}
+	uv0.weapon_property_152[68417] = {
+		id = 68417,
+		name = "俾斯麦弹幕Lv7",
+		damage = 86,
+		base = 68411
+	}
+	uv0.weapon_property_152[68418] = {
+		id = 68418,
+		name = "俾斯麦弹幕Lv8",
+		damage = 93,
+		base = 68411
+	}
+	uv0.weapon_property_152[68419] = {
+		id = 68419,
+		name = "俾斯麦弹幕Lv9",
+		damage = 100,
+		base = 68411
+	}
+	uv0.weapon_property_152[68420] = {
+		id = 68420,
+		name = "俾斯麦弹幕Lv10",
+		damage = 110,
+		base = 68411
+	}
+	uv0.weapon_property_152[68421] = {
+		action_index = "attack",
+		range = 95,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "KGV技能弹幕-LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 48,
+		corrected = 100,
+		min_range = 25,
+		id = 68421,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19881,
+			19882
+		},
+		barrage_ID = {
+			80708,
+			80706
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_152[68422] = {
+		id = 68422,
+		name = "KGV技能弹幕-LV2",
+		damage = 56,
+		base = 68421
+	}
+	uv0.weapon_property_152[68423] = {
+		id = 68423,
+		name = "KGV技能弹幕-LV3",
+		damage = 64,
+		base = 68421
+	}
+	uv0.weapon_property_152[68424] = {
+		id = 68424,
+		name = "KGV技能弹幕-LV4",
+		damage = 72,
+		base = 68421
+	}
+	uv0.weapon_property_152[68425] = {
+		id = 68425,
+		name = "KGV技能弹幕-LV5",
+		damage = 80,
+		base = 68421
+	}
+	uv0.weapon_property_152[68426] = {
+		id = 68426,
+		name = "KGV技能弹幕-LV6",
+		damage = 88,
+		base = 68421
+	}
+	uv0.weapon_property_152[68427] = {
+		id = 68427,
+		name = "KGV技能弹幕-LV7",
+		damage = 96,
+		base = 68421
+	}
+	uv0.weapon_property_152[68428] = {
+		id = 68428,
+		name = "KGV技能弹幕-LV8",
+		damage = 104,
+		base = 68421
+	}
 	uv0.weapon_property_152[68429] = {
 		id = 68429,
 		name = "KGV技能弹幕-LV9",
@@ -453,217 +672,5 @@ function ()
 		name = "KGV技能弹幕PVP-LV8",
 		damage = 104,
 		base = 68461
-	}
-	uv0.weapon_property_152[68469] = {
-		id = 68469,
-		name = "KGV技能弹幕PVP-LV9",
-		damage = 112,
-		base = 68461
-	}
-	uv0.weapon_property_152[68470] = {
-		id = 68470,
-		name = "KGV技能弹幕PVP-LV10",
-		damage = 121,
-		base = 68461
-	}
-	uv0.weapon_property_152[68471] = {
-		action_index = "attack",
-		range = 115,
-		type = 1,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "KGV技能增强弹幕PVP-LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 70,
-		corrected = 100,
-		min_range = 25,
-		id = 68471,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19881,
-			19882
-		},
-		barrage_ID = {
-			80708,
-			80707
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_152[68472] = {
-		id = 68472,
-		name = "KGV技能增强弹幕PVP-LV2",
-		damage = 78,
-		base = 68471
-	}
-	uv0.weapon_property_152[68473] = {
-		id = 68473,
-		name = "KGV技能增强弹幕PVP-LV3",
-		damage = 85,
-		base = 68471
-	}
-	uv0.weapon_property_152[68474] = {
-		id = 68474,
-		name = "KGV技能增强弹幕PVP-LV4",
-		damage = 93,
-		base = 68471
-	}
-	uv0.weapon_property_152[68475] = {
-		id = 68475,
-		name = "KGV技能增强弹幕PVP-LV5",
-		damage = 100,
-		base = 68471
-	}
-	uv0.weapon_property_152[68476] = {
-		id = 68476,
-		name = "KGV技能增强弹幕PVP-LV6",
-		damage = 108,
-		base = 68471
-	}
-	uv0.weapon_property_152[68477] = {
-		id = 68477,
-		name = "KGV技能增强弹幕PVP-LV7",
-		damage = 115,
-		base = 68471
-	}
-	uv0.weapon_property_152[68478] = {
-		id = 68478,
-		name = "KGV技能增强弹幕PVP-LV8",
-		damage = 123,
-		base = 68471
-	}
-	uv0.weapon_property_152[68479] = {
-		id = 68479,
-		name = "KGV技能增强弹幕PVP-LV9",
-		damage = 130,
-		base = 68471
-	}
-	uv0.weapon_property_152[68480] = {
-		id = 68480,
-		name = "KGV技能增强弹幕PVP-LV10",
-		damage = 138,
-		base = 68471
-	}
-	uv0.weapon_property_152[68481] = {
-		action_index = "attack",
-		range = 120,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "KGV小子弹LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 11,
-		corrected = 100,
-		min_range = 25,
-		id = 68481,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19883,
-			19883
-		},
-		barrage_ID = {
-			80709,
-			80712
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_152[68482] = {
-		id = 68482,
-		name = "KGV小子弹LV2",
-		damage = 12,
-		base = 68481
-	}
-	uv0.weapon_property_152[68483] = {
-		id = 68483,
-		name = "KGV小子弹LV3",
-		damage = 13,
-		base = 68481
-	}
-	uv0.weapon_property_152[68484] = {
-		id = 68484,
-		name = "KGV小子弹LV4",
-		damage = 14,
-		base = 68481
-	}
-	uv0.weapon_property_152[68485] = {
-		id = 68485,
-		name = "KGV小子弹LV5",
-		damage = 15,
-		base = 68481
-	}
-	uv0.weapon_property_152[68486] = {
-		id = 68486,
-		name = "KGV小子弹LV6",
-		damage = 16,
-		base = 68481
-	}
-	uv0.weapon_property_152[68487] = {
-		id = 68487,
-		name = "KGV小子弹LV7",
-		damage = 17,
-		base = 68481
-	}
-	uv0.weapon_property_152[68488] = {
-		id = 68488,
-		name = "KGV小子弹LV8",
-		damage = 18,
-		base = 68481
-	}
-	uv0.weapon_property_152[68489] = {
-		id = 68489,
-		name = "KGV小子弹LV9",
-		damage = 19,
-		base = 68481
-	}
-	uv0.weapon_property_152[68490] = {
-		id = 68490,
-		name = "KGV小子弹LV10",
-		damage = 20,
-		base = 68481
 	}
 end()

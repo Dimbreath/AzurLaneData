@@ -744,6 +744,7 @@ function slot0.handleEnterMainUI(slot0)
 			uv0:handleReturnAwardAct()
 			uv0:accepetActivityTask()
 			uv0:tryRequestColoring()
+			getProxy(MetaCharacterProxy):requestMetaTacticsInfo()
 
 			if getProxy(ActivityProxy):findNextAutoActivity() then
 				uv0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY)

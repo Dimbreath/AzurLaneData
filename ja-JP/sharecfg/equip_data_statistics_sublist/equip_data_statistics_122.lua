@@ -1,52 +1,77 @@
 pg = pg or {}
 pg.equip_data_statistics_122 = {
-	[16223] = {
-		id = 16223,
+	[16165] = {
+		id = 16165,
 		damage = "37/回",
-		base = 16220,
+		base = 16160,
 		weapon_id = {
-			16223
+			16165
 		}
 	},
-	[16224] = {
-		id = 16224,
-		damage = "41/回",
-		base = 16220,
+	[16166] = {
+		id = 16166,
+		damage = "40/回",
+		base = 16160,
 		weapon_id = {
-			16224
+			16166
 		}
 	},
-	[16225] = {
-		id = 16225,
-		damage = "45/回",
-		base = 16220,
+	[16167] = {
+		id = 16167,
+		damage = "43/回",
+		base = 16160,
 		weapon_id = {
-			16225
+			16167
 		}
 	},
-	[16226] = {
-		id = 16226,
-		damage = "50/回",
-		base = 16220,
+	[16168] = {
+		id = 16168,
+		damage = "46/回",
+		base = 16160,
 		weapon_id = {
-			16226
+			16168
 		}
 	},
-	[16240] = {
+	[16169] = {
+		id = 16169,
+		damage = "49/回",
+		base = 16160,
+		weapon_id = {
+			16169
+		}
+	},
+	[16170] = {
+		id = 16170,
+		damage = "52/回",
+		base = 16160,
+		weapon_id = {
+			16170
+		}
+	},
+	[16171] = {
+		anti_siren = 100,
+		damage = "52/回",
+		base = 16160,
+		id = 16171,
+		weapon_id = {
+			16171
+		}
+	},
+	[16200] = {
 		name = "四連装28mm対空機銃「シカゴピアノ」",
 		speciality = "対空",
 		type = 6,
-		tech = 3,
+		tech = 1,
 		descrip = "0",
-		value_2 = 25,
+		value_2 = 5,
 		icon = "16200",
 		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "29/回",
+		rarity = 2,
+		damage = "22/回",
 		nationality = 1,
 		ammo = 5,
 		value_3 = 0,
-		id = 16240,
+		id = 16200,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -58,7 +83,7 @@ pg.equip_data_statistics_122 = {
 			10
 		},
 		weapon_id = {
-			16240
+			16200
 		},
 		skill_id = {},
 		part_main = {
@@ -94,93 +119,122 @@ pg.equip_data_statistics_122 = {
 			"AA"
 		}
 	},
-	[16241] = {
-		id = 16241,
+	[16201] = {
+		id = 16201,
+		damage = "26/回",
+		base = 16200,
+		weapon_id = {
+			16201
+		}
+	},
+	[16202] = {
+		id = 16202,
+		damage = "30/回",
+		base = 16200,
+		weapon_id = {
+			16202
+		}
+	},
+	[16203] = {
+		id = 16203,
+		damage = "34/回",
+		base = 16200,
+		weapon_id = {
+			16203
+		}
+	},
+	[16220] = {
+		name = "四連装28mm対空機銃「シカゴピアノ」",
+		speciality = "対空",
+		type = 6,
+		tech = 2,
+		descrip = "0",
+		value_2 = 12,
+		icon = "16200",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "25/回",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 16220,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			16220
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
+	},
+	[16221] = {
+		id = 16221,
+		damage = "29/回",
+		base = 16220,
+		weapon_id = {
+			16221
+		}
+	},
+	[16222] = {
+		id = 16222,
 		damage = "33/回",
-		base = 16240,
+		base = 16220,
 		weapon_id = {
-			16241
+			16222
 		}
 	},
-	[16242] = {
-		id = 16242,
+	[16223] = {
+		id = 16223,
 		damage = "37/回",
-		base = 16240,
+		base = 16220,
 		weapon_id = {
-			16242
+			16223
 		}
 	},
-	[16243] = {
-		id = 16243,
+	[16224] = {
+		id = 16224,
 		damage = "41/回",
-		base = 16240,
+		base = 16220,
 		weapon_id = {
-			16243
-		}
-	},
-	[16244] = {
-		id = 16244,
-		damage = "45/回",
-		base = 16240,
-		weapon_id = {
-			16244
-		}
-	},
-	[16245] = {
-		id = 16245,
-		damage = "49/回",
-		base = 16240,
-		weapon_id = {
-			16245
-		}
-	},
-	[16246] = {
-		id = 16246,
-		damage = "53/回",
-		base = 16240,
-		weapon_id = {
-			16246
-		}
-	},
-	[16247] = {
-		id = 16247,
-		damage = "57/回",
-		base = 16240,
-		weapon_id = {
-			16247
-		}
-	},
-	[16248] = {
-		id = 16248,
-		damage = "62/回",
-		base = 16240,
-		weapon_id = {
-			16248
-		}
-	},
-	[16249] = {
-		id = 16249,
-		damage = "67/回",
-		base = 16240,
-		weapon_id = {
-			16249
-		}
-	},
-	[16250] = {
-		id = 16250,
-		damage = "72/回",
-		base = 16240,
-		weapon_id = {
-			16250
-		}
-	},
-	[16251] = {
-		anti_siren = 100,
-		damage = "72/回",
-		base = 16240,
-		id = 16251,
-		weapon_id = {
-			16251
+			16224
 		}
 	}
 }

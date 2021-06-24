@@ -2,6 +2,950 @@ pg = pg or {}
 pg.weapon_property_399 = {}
 
 function ()
+	uv0.weapon_property_399[2965064] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气2 LV5",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 100,
+		corrected = 100,
+		min_range = 0,
+		id = 2965064,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 2,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643016
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_399[2965070] = {
+		aim_type = 0,
+		range = 120,
+		damage = 2,
+		base = 1000,
+		name = "【大世界】黑方舟 第二波 横排步枪1 LV1",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965070,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643011
+		},
+		barrage_ID = {
+			29643017
+		}
+	}
+	uv0.weapon_property_399[2965071] = {
+		aim_type = 0,
+		range = 120,
+		damage = 4,
+		base = 1000,
+		name = "【大世界】黑方舟 第二波 横排步枪1 LV2",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965071,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643011
+		},
+		barrage_ID = {
+			29643017
+		}
+	}
+	uv0.weapon_property_399[2965072] = {
+		aim_type = 0,
+		range = 120,
+		damage = 6,
+		base = 1000,
+		name = "【大世界】黑方舟 第二波 横排步枪1 LV3",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965072,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643011
+		},
+		barrage_ID = {
+			29643017
+		}
+	}
+	uv0.weapon_property_399[2965073] = {
+		aim_type = 0,
+		range = 120,
+		damage = 8,
+		base = 1000,
+		name = "【大世界】黑方舟 第二波 横排步枪1 LV4",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965073,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643011
+		},
+		barrage_ID = {
+			29643017
+		}
+	}
+	uv0.weapon_property_399[2965074] = {
+		aim_type = 0,
+		range = 120,
+		damage = 10,
+		base = 1000,
+		name = "【大世界】黑方舟 第二波 横排步枪1 LV5",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965074,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643011
+		},
+		barrage_ID = {
+			29643017
+		}
+	}
+	uv0.weapon_property_399[2965080] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气3 LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 40,
+		corrected = 100,
+		min_range = 0,
+		id = 2965080,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643019
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_399[2965081] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气3 LV2",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 55,
+		corrected = 100,
+		min_range = 0,
+		id = 2965081,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643019
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_399[2965082] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气3 LV3",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 70,
+		corrected = 100,
+		min_range = 0,
+		id = 2965082,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643019
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_399[2965083] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气3 LV4",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 85,
+		corrected = 100,
+		min_range = 0,
+		id = 2965083,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643019
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_399[2965084] = {
+		action_index = "attack",
+		range = 120,
+		type = 1,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "【大世界】黑方舟 第二波 剑气3 LV5",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 100,
+		corrected = 100,
+		min_range = 0,
+		id = 2965084,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 1800,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			29643010
+		},
+		barrage_ID = {
+			29643019
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_399[2965090] = {
+		aim_type = 0,
+		range = 120,
+		damage = 2,
+		base = 1000,
+		name = "【大世界】黑方舟 第二波 横排步枪2 LV1",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965090,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643013
+		},
+		barrage_ID = {
+			29643020
+		}
+	}
+	uv0.weapon_property_399[2965091] = {
+		aim_type = 0,
+		range = 120,
+		damage = 4,
+		base = 1000,
+		name = "【大世界】黑方舟 第二波 横排步枪2 LV2",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965091,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643013
+		},
+		barrage_ID = {
+			29643020
+		}
+	}
+	uv0.weapon_property_399[2965092] = {
+		aim_type = 0,
+		range = 120,
+		damage = 6,
+		base = 1000,
+		name = "【大世界】黑方舟 第二波 横排步枪2 LV3",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965092,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643013
+		},
+		barrage_ID = {
+			29643020
+		}
+	}
+	uv0.weapon_property_399[2965093] = {
+		aim_type = 0,
+		range = 120,
+		damage = 8,
+		base = 1000,
+		name = "【大世界】黑方舟 第二波 横排步枪2 LV4",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965093,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643013
+		},
+		barrage_ID = {
+			29643020
+		}
+	}
+	uv0.weapon_property_399[2965094] = {
+		aim_type = 0,
+		range = 120,
+		damage = 10,
+		base = 1000,
+		name = "【大世界】黑方舟 第二波 横排步枪2 LV5",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965094,
+		type = 1,
+		action_index = "stand",
+		bullet_ID = {
+			29643013
+		},
+		barrage_ID = {
+			29643020
+		}
+	}
+	uv0.weapon_property_399[2965100] = {
+		aim_type = 0,
+		range = 120,
+		damage = 2,
+		base = 1000,
+		name = "【大世界】黑方舟 第三波 步枪弹幕 LV1",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 30,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965100,
+		type = 1,
+		action_index = "",
+		bullet_ID = {
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017
+		},
+		barrage_ID = {
+			29643022,
+			29643023,
+			29643024,
+			29643025,
+			29643026,
+			29643027,
+			29643028,
+			29643029,
+			29643030,
+			29643031,
+			29643032,
+			29643033,
+			29643034,
+			29643035,
+			29643036,
+			29643037,
+			29643038,
+			29643039,
+			29643040,
+			29643041,
+			29643042,
+			29643043,
+			29643044,
+			29643045
+		}
+	}
+	uv0.weapon_property_399[2965101] = {
+		aim_type = 0,
+		range = 120,
+		damage = 4,
+		base = 1000,
+		name = "【大世界】黑方舟 第三波 步枪弹幕 LV2",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 30,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965101,
+		type = 1,
+		action_index = "",
+		bullet_ID = {
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017
+		},
+		barrage_ID = {
+			29643022,
+			29643023,
+			29643024,
+			29643025,
+			29643026,
+			29643027,
+			29643028,
+			29643029,
+			29643030,
+			29643031,
+			29643032,
+			29643033,
+			29643034,
+			29643035,
+			29643036,
+			29643037,
+			29643038,
+			29643039,
+			29643040,
+			29643041,
+			29643042,
+			29643043,
+			29643044,
+			29643045
+		}
+	}
+	uv0.weapon_property_399[2965102] = {
+		aim_type = 0,
+		range = 120,
+		damage = 6,
+		base = 1000,
+		name = "【大世界】黑方舟 第三波 步枪弹幕 LV3",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 30,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965102,
+		type = 1,
+		action_index = "",
+		bullet_ID = {
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017
+		},
+		barrage_ID = {
+			29643022,
+			29643023,
+			29643024,
+			29643025,
+			29643026,
+			29643027,
+			29643028,
+			29643029,
+			29643030,
+			29643031,
+			29643032,
+			29643033,
+			29643034,
+			29643035,
+			29643036,
+			29643037,
+			29643038,
+			29643039,
+			29643040,
+			29643041,
+			29643042,
+			29643043,
+			29643044,
+			29643045
+		}
+	}
+	uv0.weapon_property_399[2965103] = {
+		aim_type = 0,
+		range = 120,
+		damage = 8,
+		base = 1000,
+		name = "【大世界】黑方舟 第三波 步枪弹幕 LV4",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 30,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965103,
+		type = 1,
+		action_index = "",
+		bullet_ID = {
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017
+		},
+		barrage_ID = {
+			29643022,
+			29643023,
+			29643024,
+			29643025,
+			29643026,
+			29643027,
+			29643028,
+			29643029,
+			29643030,
+			29643031,
+			29643032,
+			29643033,
+			29643034,
+			29643035,
+			29643036,
+			29643037,
+			29643038,
+			29643039,
+			29643040,
+			29643041,
+			29643042,
+			29643043,
+			29643044,
+			29643045
+		}
+	}
+	uv0.weapon_property_399[2965104] = {
+		aim_type = 0,
+		range = 120,
+		damage = 10,
+		base = 1000,
+		name = "【大世界】黑方舟 第三波 步枪弹幕 LV5",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 30,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2965104,
+		type = 1,
+		action_index = "",
+		bullet_ID = {
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017,
+			29643014,
+			29643015,
+			29643016,
+			29643017
+		},
+		barrage_ID = {
+			29643022,
+			29643023,
+			29643024,
+			29643025,
+			29643026,
+			29643027,
+			29643028,
+			29643029,
+			29643030,
+			29643031,
+			29643032,
+			29643033,
+			29643034,
+			29643035,
+			29643036,
+			29643037,
+			29643038,
+			29643039,
+			29643040,
+			29643041,
+			29643042,
+			29643043,
+			29643044,
+			29643045
+		}
+	}
+	uv0.weapon_property_399[2965110] = {
+		aim_type = 0,
+		range = 120,
+		damage = 2,
+		base = 1000,
+		name = "【大世界】黑方舟 第三波 子母弹 LV1",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 30,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 2,
+		id = 2965110,
+		type = 1,
+		action_index = "",
+		bullet_ID = {
+			29643018,
+			29643019
+		},
+		barrage_ID = {
+			29643048,
+			29643049
+		}
+	}
+	uv0.weapon_property_399[2965111] = {
+		aim_type = 0,
+		range = 120,
+		damage = 4,
+		base = 1000,
+		name = "【大世界】黑方舟 第三波 子母弹 LV2",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 30,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 2,
+		id = 2965111,
+		type = 1,
+		action_index = "",
+		bullet_ID = {
+			29643018,
+			29643019
+		},
+		barrage_ID = {
+			29643048,
+			29643049
+		}
+	}
+	uv0.weapon_property_399[2965112] = {
+		aim_type = 0,
+		range = 120,
+		damage = 6,
+		base = 1000,
+		name = "【大世界】黑方舟 第三波 子母弹 LV3",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 30,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 2,
+		id = 2965112,
+		type = 1,
+		action_index = "",
+		bullet_ID = {
+			29643018,
+			29643019
+		},
+		barrage_ID = {
+			29643048,
+			29643049
+		}
+	}
+	uv0.weapon_property_399[2965113] = {
+		aim_type = 0,
+		range = 120,
+		damage = 8,
+		base = 1000,
+		name = "【大世界】黑方舟 第三波 子母弹 LV4",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 30,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 2,
+		id = 2965113,
+		type = 1,
+		action_index = "",
+		bullet_ID = {
+			29643018,
+			29643019
+		},
+		barrage_ID = {
+			29643048,
+			29643049
+		}
+	}
+	uv0.weapon_property_399[2965114] = {
+		aim_type = 0,
+		range = 120,
+		damage = 10,
+		base = 1000,
+		name = "【大世界】黑方舟 第三波 子母弹 LV5",
+		fire_fx = "CAFire",
+		suppress = 0,
+		reload_max = 30,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 2,
+		id = 2965114,
+		type = 1,
+		action_index = "",
+		bullet_ID = {
+			29643018,
+			29643019
+		},
+		barrage_ID = {
+			29643048,
+			29643049
+		}
+	}
 	uv0.weapon_property_399[2965120] = {
 		aim_type = 0,
 		range = 120,
@@ -1154,717 +2098,6 @@ function ()
 		barrage_ID = {
 			29644008,
 			29644009
-		}
-	}
-	uv0.weapon_property_399[2966011] = {
-		aim_type = 1,
-		range = 120,
-		damage = 3,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第一波 光弹扩散 LV2",
-		fire_fx = "CAFire",
-		suppress = 1,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 2,
-		id = 2966011,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644006,
-			29644007
-		},
-		barrage_ID = {
-			29644008,
-			29644009
-		}
-	}
-	uv0.weapon_property_399[2966012] = {
-		aim_type = 1,
-		range = 120,
-		damage = 4,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第一波 光弹扩散 LV3",
-		fire_fx = "CAFire",
-		suppress = 1,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 2,
-		id = 2966012,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644006,
-			29644007
-		},
-		barrage_ID = {
-			29644008,
-			29644009
-		}
-	}
-	uv0.weapon_property_399[2966013] = {
-		aim_type = 1,
-		range = 120,
-		damage = 5,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第一波 光弹扩散 LV4",
-		fire_fx = "CAFire",
-		suppress = 1,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 2,
-		id = 2966013,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644006,
-			29644007
-		},
-		barrage_ID = {
-			29644008,
-			29644009
-		}
-	}
-	uv0.weapon_property_399[2966014] = {
-		aim_type = 1,
-		range = 120,
-		damage = 6,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第一波 光弹扩散 LV5",
-		fire_fx = "CAFire",
-		suppress = 1,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 2,
-		id = 2966014,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644006,
-			29644007
-		},
-		barrage_ID = {
-			29644008,
-			29644009
-		}
-	}
-	uv0.weapon_property_399[2966020] = {
-		aim_type = 1,
-		range = 120,
-		damage = 2,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第一波 高速移动红色自机狙 LV1",
-		fire_fx = "",
-		suppress = 1,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		queue = 3,
-		id = 2966020,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644010,
-			29644010,
-			29644010,
-			29644010
-		},
-		barrage_ID = {
-			29644013,
-			29644014,
-			29644015,
-			29644016
-		}
-	}
-	uv0.weapon_property_399[2966021] = {
-		aim_type = 1,
-		range = 120,
-		damage = 3,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第一波 高速移动红色自机狙 LV2",
-		fire_fx = "",
-		suppress = 1,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		queue = 3,
-		id = 2966021,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644010,
-			29644010,
-			29644010,
-			29644010
-		},
-		barrage_ID = {
-			29644013,
-			29644014,
-			29644015,
-			29644016
-		}
-	}
-	uv0.weapon_property_399[2966022] = {
-		aim_type = 1,
-		range = 120,
-		damage = 4,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第一波 高速移动红色自机狙 LV3",
-		fire_fx = "",
-		suppress = 1,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		queue = 3,
-		id = 2966022,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644010,
-			29644010,
-			29644010,
-			29644010
-		},
-		barrage_ID = {
-			29644013,
-			29644014,
-			29644015,
-			29644016
-		}
-	}
-	uv0.weapon_property_399[2966023] = {
-		aim_type = 1,
-		range = 120,
-		damage = 6,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第一波 高速移动红色自机狙 LV4",
-		fire_fx = "",
-		suppress = 1,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		queue = 3,
-		id = 2966023,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644010,
-			29644010,
-			29644010,
-			29644010
-		},
-		barrage_ID = {
-			29644013,
-			29644014,
-			29644015,
-			29644016
-		}
-	}
-	uv0.weapon_property_399[2966024] = {
-		aim_type = 1,
-		range = 120,
-		damage = 8,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第一波 高速移动红色自机狙 LV5",
-		fire_fx = "",
-		suppress = 1,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		queue = 3,
-		id = 2966024,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644010,
-			29644010,
-			29644010,
-			29644010
-		},
-		barrage_ID = {
-			29644013,
-			29644014,
-			29644015,
-			29644016
-		}
-	}
-	uv0.weapon_property_399[2966030] = {
-		aim_type = 0,
-		range = 120,
-		damage = 2,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第二波 箭头弹幕 LV1",
-		fire_fx = "",
-		suppress = 0,
-		reload_max = 5000,
-		type = 1,
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 2966030,
-		action_index = "attack",
-		bullet_ID = {
-			29644015
-		},
-		barrage_ID = {
-			29644020
-		}
-	}
-	uv0.weapon_property_399[2966031] = {
-		aim_type = 0,
-		range = 120,
-		damage = 3,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第二波 箭头弹幕 LV2",
-		fire_fx = "",
-		suppress = 0,
-		reload_max = 5000,
-		type = 1,
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 2966031,
-		action_index = "attack",
-		bullet_ID = {
-			29644015
-		},
-		barrage_ID = {
-			29644020
-		}
-	}
-	uv0.weapon_property_399[2966032] = {
-		aim_type = 0,
-		range = 120,
-		damage = 4,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第二波 箭头弹幕 LV3",
-		fire_fx = "",
-		suppress = 0,
-		reload_max = 5000,
-		type = 1,
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 2966032,
-		action_index = "attack",
-		bullet_ID = {
-			29644015
-		},
-		barrage_ID = {
-			29644020
-		}
-	}
-	uv0.weapon_property_399[2966033] = {
-		aim_type = 0,
-		range = 120,
-		damage = 6,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第二波 箭头弹幕 LV4",
-		fire_fx = "",
-		suppress = 0,
-		reload_max = 5000,
-		type = 1,
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 2966033,
-		action_index = "attack",
-		bullet_ID = {
-			29644015
-		},
-		barrage_ID = {
-			29644020
-		}
-	}
-	uv0.weapon_property_399[2966034] = {
-		aim_type = 0,
-		range = 120,
-		damage = 8,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第二波 箭头弹幕 LV5",
-		fire_fx = "",
-		suppress = 0,
-		reload_max = 5000,
-		type = 1,
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 2966034,
-		action_index = "attack",
-		bullet_ID = {
-			29644015
-		},
-		barrage_ID = {
-			29644020
-		}
-	}
-	uv0.weapon_property_399[2966040] = {
-		aim_type = 0,
-		range = 120,
-		damage = 2,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第二波 小激光束 LV1",
-		fire_fx = "",
-		suppress = 0,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		queue = 1,
-		id = 2966040,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644011
-		},
-		barrage_ID = {
-			29644017
-		}
-	}
-	uv0.weapon_property_399[2966041] = {
-		aim_type = 0,
-		range = 120,
-		damage = 3,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第二波 小激光束 LV2",
-		fire_fx = "",
-		suppress = 0,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		queue = 1,
-		id = 2966041,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644011
-		},
-		barrage_ID = {
-			29644017
-		}
-	}
-	uv0.weapon_property_399[2966042] = {
-		aim_type = 0,
-		range = 120,
-		damage = 4,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第二波 小激光束 LV3",
-		fire_fx = "",
-		suppress = 0,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		queue = 1,
-		id = 2966042,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644011
-		},
-		barrage_ID = {
-			29644017
-		}
-	}
-	uv0.weapon_property_399[2966043] = {
-		aim_type = 0,
-		range = 120,
-		damage = 5,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第二波 小激光束 LV4",
-		fire_fx = "",
-		suppress = 0,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		queue = 1,
-		id = 2966043,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644011
-		},
-		barrage_ID = {
-			29644017
-		}
-	}
-	uv0.weapon_property_399[2966044] = {
-		aim_type = 0,
-		range = 120,
-		damage = 6,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第二波 小激光束 LV5",
-		fire_fx = "",
-		suppress = 0,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		queue = 1,
-		id = 2966044,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644011
-		},
-		barrage_ID = {
-			29644017
-		}
-	}
-	uv0.weapon_property_399[2966050] = {
-		aim_type = 1,
-		range = 120,
-		damage = 2,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第二波 环状链子弹幕 LV1",
-		fire_fx = "",
-		suppress = 1,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		queue = 2,
-		id = 2966050,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644022,
-			29644022,
-			29644022,
-			29644022,
-			29644022,
-			29644022,
-			29644022,
-			29644022
-		},
-		barrage_ID = {
-			29644027,
-			29644028,
-			29644029,
-			29644030,
-			29644031,
-			29644032,
-			29644033,
-			29644034
-		}
-	}
-	uv0.weapon_property_399[2966051] = {
-		aim_type = 1,
-		range = 120,
-		damage = 4,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第二波 环状链子弹幕 LV2",
-		fire_fx = "",
-		suppress = 1,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		queue = 2,
-		id = 2966051,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644022,
-			29644022,
-			29644022,
-			29644022,
-			29644022,
-			29644022,
-			29644022,
-			29644022
-		},
-		barrage_ID = {
-			29644027,
-			29644028,
-			29644029,
-			29644030,
-			29644031,
-			29644032,
-			29644033,
-			29644034
-		}
-	}
-	uv0.weapon_property_399[2966052] = {
-		aim_type = 1,
-		range = 120,
-		damage = 6,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第二波 环状链子弹幕 LV3",
-		fire_fx = "",
-		suppress = 1,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		queue = 2,
-		id = 2966052,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644022,
-			29644022,
-			29644022,
-			29644022,
-			29644022,
-			29644022,
-			29644022,
-			29644022
-		},
-		barrage_ID = {
-			29644027,
-			29644028,
-			29644029,
-			29644030,
-			29644031,
-			29644032,
-			29644033,
-			29644034
-		}
-	}
-	uv0.weapon_property_399[2966053] = {
-		aim_type = 1,
-		range = 120,
-		damage = 8,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第二波 环状链子弹幕 LV4",
-		fire_fx = "",
-		suppress = 1,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		queue = 2,
-		id = 2966053,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644022,
-			29644022,
-			29644022,
-			29644022,
-			29644022,
-			29644022,
-			29644022,
-			29644022
-		},
-		barrage_ID = {
-			29644027,
-			29644028,
-			29644029,
-			29644030,
-			29644031,
-			29644032,
-			29644033,
-			29644034
-		}
-	}
-	uv0.weapon_property_399[2966054] = {
-		aim_type = 1,
-		range = 120,
-		damage = 10,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第二波 环状链子弹幕 LV5",
-		fire_fx = "",
-		suppress = 1,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		queue = 2,
-		id = 2966054,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644022,
-			29644022,
-			29644022,
-			29644022,
-			29644022,
-			29644022,
-			29644022,
-			29644022
-		},
-		barrage_ID = {
-			29644027,
-			29644028,
-			29644029,
-			29644030,
-			29644031,
-			29644032,
-			29644033,
-			29644034
-		}
-	}
-	uv0.weapon_property_399[2966060] = {
-		aim_type = 1,
-		range = 120,
-		damage = 2,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第二波 自机狙 LV1",
-		fire_fx = "CAFire",
-		suppress = 1,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 3,
-		id = 2966060,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644023,
-			29644024,
-			29644025,
-			29644026,
-			29644027,
-			29644028,
-			29644029,
-			29644030,
-			29644031,
-			29644032
-		},
-		barrage_ID = {
-			29644035,
-			29644036,
-			29644037,
-			29644038,
-			29644039,
-			29644040,
-			29644041,
-			29644042,
-			29644043,
-			29644044
-		}
-	}
-	uv0.weapon_property_399[2966061] = {
-		aim_type = 1,
-		range = 120,
-		damage = 3,
-		base = 1000,
-		name = "【大世界】黑海伦娜 第二波 自机狙 LV2",
-		fire_fx = "CAFire",
-		suppress = 1,
-		reload_max = 5000,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		queue = 3,
-		id = 2966061,
-		type = 1,
-		action_index = "attack",
-		bullet_ID = {
-			29644023,
-			29644024,
-			29644025,
-			29644026,
-			29644027,
-			29644028,
-			29644029,
-			29644030,
-			29644031,
-			29644032
-		},
-		barrage_ID = {
-			29644035,
-			29644036,
-			29644037,
-			29644038,
-			29644039,
-			29644040,
-			29644041,
-			29644042,
-			29644043,
-			29644044
 		}
 	}
 end()

@@ -1,42 +1,53 @@
 pg = pg or {}
 pg.equip_data_statistics_381 = {
-	[89051] = {
-		id = 89051,
+	[89029] = {
+		id = 89029,
+		value_1 = "470",
+		base = 89020
+	},
+	[89030] = {
+		id = 89030,
+		value_2 = 2,
+		value_1 = "500",
+		base = 89020
+	},
+	[89031] = {
+		id = 89031,
 		anti_siren = 100,
-		base = 89040,
-		value_2 = 8,
-		value_1 = "260"
+		base = 89020,
+		value_2 = 2,
+		value_1 = "530"
 	},
-	[89052] = {
-		id = 89052,
+	[89032] = {
+		id = 89032,
 		anti_siren = 200,
-		base = 89040,
-		value_2 = 8,
-		value_1 = "275"
+		base = 89020,
+		value_2 = 2,
+		value_1 = "560"
 	},
-	[89053] = {
-		id = 89053,
+	[89033] = {
+		id = 89033,
 		anti_siren = 300,
-		base = 89040,
-		value_2 = 8,
-		value_1 = "290"
+		base = 89020,
+		value_2 = 2,
+		value_1 = "590"
 	},
-	[89060] = {
-		name = "チームエンブレム",
+	[89040] = {
+		name = "インテリジェントチップ",
 		tech = 0,
 		type = 10,
 		speciality = "なし",
-		id = 89060,
-		value_2 = 16,
-		icon = "89060",
-		value_1 = "6",
-		attribute_2 = "hit",
+		id = 89040,
+		value_2 = 3,
+		icon = "89040",
+		value_1 = "98",
+		attribute_2 = "speed",
 		rarity = 5,
-		descrip = "元々はチームエンブレムとしてデザインされたはずのもの。ヘン...变身？",
-		nationality = 105,
+		descrip = "キズナアイがプラグインを導入するときに使用するチップ…？――もうポンコツだなんて言わせません！",
+		nationality = 104,
 		ammo = 10,
 		value_3 = 0,
-		attribute_1 = "dodge",
+		attribute_1 = "durability",
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -46,7 +57,7 @@ pg.equip_data_statistics_381 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6490
+			6400
 		},
 		part_main = {},
 		part_sub = {},
@@ -55,77 +66,63 @@ pg.equip_data_statistics_381 = {
 			"DEV"
 		}
 	},
-	[89061] = {
-		id = 89061,
-		value_1 = "7",
-		base = 89060
+	[89041] = {
+		id = 89041,
+		value_1 = "112",
+		base = 89040
 	},
-	[89062] = {
-		id = 89062,
-		value_2 = 17,
-		value_1 = "7",
-		base = 89060
+	[89042] = {
+		id = 89042,
+		value_2 = 4,
+		value_1 = "127",
+		base = 89040
 	},
-	[89063] = {
-		id = 89063,
-		value_2 = 18,
-		value_1 = "8",
-		base = 89060
+	[89043] = {
+		id = 89043,
+		value_2 = 4,
+		value_1 = "142",
+		base = 89040
 	},
-	[89064] = {
-		id = 89064,
-		value_2 = 19,
-		value_1 = "9",
-		base = 89060
+	[89044] = {
+		id = 89044,
+		value_2 = 5,
+		value_1 = "156",
+		base = 89040
 	},
-	[89065] = {
-		id = 89065,
-		value_2 = 20,
-		value_1 = "10",
-		base = 89060
+	[89045] = {
+		id = 89045,
+		value_2 = 5,
+		value_1 = "171",
+		base = 89040
 	},
-	[89066] = {
-		id = 89066,
-		value_2 = 21,
-		value_1 = "11",
-		base = 89060
+	[89046] = {
+		id = 89046,
+		value_2 = 6,
+		value_1 = "186",
+		base = 89040
 	},
-	[89067] = {
-		id = 89067,
-		value_2 = 22,
-		value_1 = "12",
-		base = 89060
+	[89047] = {
+		id = 89047,
+		value_2 = 6,
+		value_1 = "200",
+		base = 89040
 	},
-	[89068] = {
-		id = 89068,
-		value_2 = 23,
-		value_1 = "13",
-		base = 89060
+	[89048] = {
+		id = 89048,
+		value_2 = 7,
+		value_1 = "215",
+		base = 89040
 	},
-	[89069] = {
-		id = 89069,
-		value_2 = 24,
-		value_1 = "14",
-		base = 89060
+	[89049] = {
+		id = 89049,
+		value_2 = 7,
+		value_1 = "230",
+		base = 89040
 	},
-	[89070] = {
-		id = 89070,
-		value_2 = 25,
-		value_1 = "15",
-		base = 89060
-	},
-	[89071] = {
-		id = 89071,
-		anti_siren = 100,
-		base = 89060,
-		value_2 = 26,
-		value_1 = "16"
-	},
-	[89072] = {
-		id = 89072,
-		anti_siren = 200,
-		base = 89060,
-		value_2 = 27,
-		value_1 = "17"
+	[89050] = {
+		id = 89050,
+		value_2 = 8,
+		value_1 = "245",
+		base = 89040
 	}
 }

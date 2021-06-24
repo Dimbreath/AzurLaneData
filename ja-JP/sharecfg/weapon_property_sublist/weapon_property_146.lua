@@ -2,6 +2,218 @@ pg = pg or {}
 pg.weapon_property_146 = {}
 
 function ()
+	uv0.weapon_property_146[68035] = {
+		name = "邦克山技能轰炸机Lv5",
+		damage = 116,
+		base = 68031,
+		id = 68035,
+		bullet_ID = {
+			68035
+		}
+	}
+	uv0.weapon_property_146[68036] = {
+		name = "邦克山技能轰炸机Lv6",
+		damage = 129,
+		base = 68031,
+		id = 68036,
+		bullet_ID = {
+			68036
+		}
+	}
+	uv0.weapon_property_146[68037] = {
+		name = "邦克山技能轰炸机Lv7",
+		damage = 141,
+		base = 68031,
+		id = 68037,
+		bullet_ID = {
+			68037
+		}
+	}
+	uv0.weapon_property_146[68038] = {
+		name = "邦克山技能轰炸机Lv8",
+		damage = 154,
+		base = 68031,
+		id = 68038,
+		bullet_ID = {
+			68038
+		}
+	}
+	uv0.weapon_property_146[68039] = {
+		name = "邦克山技能轰炸机Lv9",
+		damage = 167,
+		base = 68031,
+		id = 68039,
+		bullet_ID = {
+			68039
+		}
+	}
+	uv0.weapon_property_146[68040] = {
+		name = "邦克山技能轰炸机Lv10",
+		damage = 179,
+		base = 68031,
+		id = 68040,
+		bullet_ID = {
+			68040
+		}
+	}
+	uv0.weapon_property_146[68041] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 25,
+		shakescreen = 0,
+		name = "1 x 2000lb高爆航弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 209,
+		corrected = 100,
+		min_range = 0,
+		id = 68041,
+		attack_attribute_ratio = 120,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19992
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_146[68042] = {
+		id = 68042,
+		damage = 236,
+		base = 68041
+	}
+	uv0.weapon_property_146[68043] = {
+		id = 68043,
+		damage = 263,
+		base = 68041
+	}
+	uv0.weapon_property_146[68044] = {
+		id = 68044,
+		damage = 290,
+		base = 68041
+	}
+	uv0.weapon_property_146[68045] = {
+		id = 68045,
+		damage = 317,
+		base = 68041
+	}
+	uv0.weapon_property_146[68046] = {
+		id = 68046,
+		damage = 344,
+		base = 68041
+	}
+	uv0.weapon_property_146[68047] = {
+		id = 68047,
+		damage = 371,
+		base = 68041
+	}
+	uv0.weapon_property_146[68048] = {
+		id = 68048,
+		damage = 399,
+		base = 68041
+	}
+	uv0.weapon_property_146[68049] = {
+		id = 68049,
+		damage = 428,
+		base = 68041
+	}
+	uv0.weapon_property_146[68050] = {
+		id = 68050,
+		damage = 456,
+		base = 68041
+	}
+	uv0.weapon_property_146[68051] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 25,
+		shakescreen = 0,
+		name = "2 x 100lb高爆航弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 48,
+		corrected = 100,
+		min_range = 0,
+		id = 68051,
+		attack_attribute_ratio = 120,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19993
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_146[68052] = {
+		id = 68052,
+		damage = 56,
+		base = 68051
+	}
+	uv0.weapon_property_146[68053] = {
+		id = 68053,
+		damage = 64,
+		base = 68051
+	}
+	uv0.weapon_property_146[68054] = {
+		id = 68054,
+		damage = 72,
+		base = 68051
+	}
+	uv0.weapon_property_146[68055] = {
+		id = 68055,
+		damage = 80,
+		base = 68051
+	}
+	uv0.weapon_property_146[68056] = {
+		id = 68056,
+		damage = 88,
+		base = 68051
+	}
 	uv0.weapon_property_146[68057] = {
 		id = 68057,
 		damage = 96,
@@ -361,264 +573,5 @@ function ()
 		id = 68096,
 		damage = 11,
 		base = 68091
-	}
-	uv0.weapon_property_146[68097] = {
-		damage = 12,
-		base = 68091,
-		id = 68097,
-		bullet_ID = {
-			19995,
-			19995,
-			19995,
-			19995
-		},
-		barrage_ID = {
-			80555,
-			80556,
-			80557,
-			80558
-		}
-	}
-	uv0.weapon_property_146[68098] = {
-		damage = 13,
-		base = 68091,
-		id = 68098,
-		bullet_ID = {
-			19995,
-			19995,
-			19995,
-			19995
-		},
-		barrage_ID = {
-			80555,
-			80556,
-			80557,
-			80558
-		}
-	}
-	uv0.weapon_property_146[68099] = {
-		damage = 14,
-		base = 68091,
-		id = 68099,
-		bullet_ID = {
-			19995,
-			19995,
-			19995,
-			19995
-		},
-		barrage_ID = {
-			80555,
-			80556,
-			80557,
-			80558
-		}
-	}
-	uv0.weapon_property_146[68100] = {
-		damage = 15,
-		base = 68091,
-		id = 68100,
-		bullet_ID = {
-			19995,
-			19995,
-			19995,
-			19995
-		},
-		barrage_ID = {
-			80555,
-			80556,
-			80557,
-			80558
-		}
-	}
-	uv0.weapon_property_146[68101] = {
-		action_index = "attack",
-		range = 95,
-		type = 19,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "吾妻技能跨射子弹",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 68101,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19994
-		},
-		barrage_ID = {
-			80551
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			time = 0.5,
-			fx = "jineng",
-			alertTime = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_146[68102] = {
-		id = 68102,
-		damage = 42,
-		base = 68101
-	}
-	uv0.weapon_property_146[68103] = {
-		id = 68103,
-		damage = 46,
-		base = 68101
-	}
-	uv0.weapon_property_146[68104] = {
-		id = 68104,
-		damage = 48,
-		base = 68101
-	}
-	uv0.weapon_property_146[68105] = {
-		id = 68105,
-		damage = 50,
-		base = 68101
-	}
-	uv0.weapon_property_146[68106] = {
-		id = 68106,
-		damage = 52,
-		base = 68101
-	}
-	uv0.weapon_property_146[68107] = {
-		id = 68107,
-		damage = 54,
-		base = 68101,
-		barrage_ID = {
-			80552
-		}
-	}
-	uv0.weapon_property_146[68108] = {
-		id = 68108,
-		damage = 56,
-		base = 68101,
-		barrage_ID = {
-			80552
-		}
-	}
-	uv0.weapon_property_146[68109] = {
-		id = 68109,
-		damage = 58,
-		base = 68101,
-		barrage_ID = {
-			80552
-		}
-	}
-	uv0.weapon_property_146[68110] = {
-		id = 68110,
-		damage = 62,
-		base = 68101,
-		barrage_ID = {
-			80552
-		}
-	}
-	uv0.weapon_property_146[68111] = {
-		action_index = "attack",
-		range = 95,
-		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "吾妻技能平射子弹",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 68111,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19996
-		},
-		barrage_ID = {
-			80553
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_146[68112] = {
-		id = 68112,
-		damage = 42,
-		base = 68111
-	}
-	uv0.weapon_property_146[68113] = {
-		id = 68113,
-		damage = 46,
-		base = 68111
-	}
-	uv0.weapon_property_146[68114] = {
-		id = 68114,
-		damage = 48,
-		base = 68111
-	}
-	uv0.weapon_property_146[68115] = {
-		id = 68115,
-		damage = 50,
-		base = 68111
-	}
-	uv0.weapon_property_146[68116] = {
-		id = 68116,
-		damage = 52,
-		base = 68111
-	}
-	uv0.weapon_property_146[68117] = {
-		id = 68117,
-		damage = 54,
-		base = 68111,
-		barrage_ID = {
-			80554
-		}
-	}
-	uv0.weapon_property_146[68118] = {
-		id = 68118,
-		damage = 56,
-		base = 68111,
-		barrage_ID = {
-			80554
-		}
 	}
 end()

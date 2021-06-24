@@ -1072,6 +1072,7 @@ pg.fleet_tech_ship_class = {
 		nation = 3,
 		ships = {
 			30101,
+			30102,
 			30172
 		}
 	},
@@ -1219,6 +1220,7 @@ pg.fleet_tech_ship_class = {
 		nation = 3,
 		ships = {
 			30180,
+			30186,
 			30154,
 			30183
 		}

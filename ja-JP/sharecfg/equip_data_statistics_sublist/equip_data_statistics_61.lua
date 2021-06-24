@@ -1,83 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_61 = {
-	[3402] = {
-		id = 3402,
-		value_1 = "510",
-		base = 3400
+	[3302] = {
+		id = 3302,
+		value_1 = "310",
+		base = 3300
 	},
-	[3403] = {
-		id = 3403,
-		value_1 = "540",
-		base = 3400
+	[3303] = {
+		id = 3303,
+		value_1 = "340",
+		base = 3300
 	},
-	[3404] = {
-		id = 3404,
-		value_1 = "570",
-		base = 3400
+	[3304] = {
+		id = 3304,
+		value_1 = "370",
+		base = 3300
 	},
-	[3405] = {
-		id = 3405,
-		value_1 = "600",
-		base = 3400
+	[3305] = {
+		id = 3305,
+		value_1 = "400",
+		base = 3300
 	},
-	[3406] = {
-		id = 3406,
-		value_1 = "630",
-		base = 3400
+	[3306] = {
+		id = 3306,
+		value_1 = "430",
+		base = 3300
 	},
-	[3407] = {
-		id = 3407,
-		value_1 = "660",
-		base = 3400
+	[3307] = {
+		id = 3307,
+		value_1 = "460",
+		base = 3300
 	},
-	[3408] = {
-		id = 3408,
-		value_1 = "690",
-		base = 3400
+	[3308] = {
+		id = 3308,
+		value_1 = "490",
+		base = 3300
 	},
-	[3409] = {
-		id = 3409,
-		value_1 = "720",
-		base = 3400
+	[3309] = {
+		id = 3309,
+		value_1 = "520",
+		base = 3300
 	},
-	[3410] = {
-		id = 3410,
-		value_1 = "750",
-		base = 3400
+	[3310] = {
+		id = 3310,
+		value_1 = "550",
+		base = 3300
 	},
-	[3411] = {
-		id = 3411,
+	[3311] = {
+		id = 3311,
 		anti_siren = 100,
-		value_1 = "780",
-		base = 3400
+		value_1 = "580",
+		base = 3300
 	},
-	[3412] = {
-		id = 3412,
+	[3312] = {
+		id = 3312,
 		anti_siren = 200,
-		value_1 = "810",
-		base = 3400
+		value_1 = "610",
+		base = 3300
 	},
-	[3413] = {
-		id = 3413,
+	[3313] = {
+		id = 3313,
 		anti_siren = 300,
-		value_1 = "840",
-		base = 3400
+		value_1 = "640",
+		base = 3300
 	},
-	[3500] = {
-		name = "航空戦資材(積載)",
+	[3400] = {
+		name = "九四式四十糎砲(積載)",
 		tech = 0,
 		type = 18,
 		speciality = "なし",
 		attribute_1 = "durability",
 		value_2 = 0,
-		icon = "3500",
-		value_1 = "250",
-		descrip = "航空戦用の各種資材",
-		rarity = 4,
-		nationality = 0,
+		icon = "3400",
+		value_1 = "450",
+		descrip = "「九四式四十糎砲」と呼ばれていた主砲兵装…？",
+		rarity = 5,
+		nationality = 3,
 		ammo = 10,
 		value_3 = 0,
-		id = 3500,
+		id = 3400,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -87,7 +87,7 @@ pg.equip_data_statistics_61 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6660
+			6590
 		},
 		part_main = {
 			19
@@ -100,19 +100,19 @@ pg.equip_data_statistics_61 = {
 			"GDS"
 		}
 	},
-	[3501] = {
-		id = 3501,
-		value_1 = "280",
-		base = 3500
+	[3401] = {
+		id = 3401,
+		value_1 = "480",
+		base = 3400
 	},
-	[3502] = {
-		id = 3502,
-		value_1 = "310",
-		base = 3500
+	[3402] = {
+		id = 3402,
+		value_1 = "510",
+		base = 3400
 	},
-	[3503] = {
-		id = 3503,
-		value_1 = "340",
-		base = 3500
+	[3403] = {
+		id = 3403,
+		value_1 = "540",
+		base = 3400
 	}
 }

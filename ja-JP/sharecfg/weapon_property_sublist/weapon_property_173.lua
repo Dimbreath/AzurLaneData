@@ -2,6 +2,250 @@ pg = pg or {}
 pg.weapon_property_173 = {}
 
 function ()
+	uv0.weapon_property_173[69739] = {
+		id = 69739,
+		damage = 321,
+		base = 69731
+	}
+	uv0.weapon_property_173[69740] = {
+		id = 69740,
+		damage = 342,
+		base = 69731
+	}
+	uv0.weapon_property_173[69741] = {
+		action_index = "attack",
+		range = 35,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "赫敏-跨射对舰对潜弹LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 69741,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19158,
+			19158
+		},
+		barrage_ID = {
+			80916,
+			80917
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_173[69742] = {
+		id = 69742,
+		name = "赫敏-跨射对舰对潜弹LV2",
+		damage = 11,
+		base = 69741
+	}
+	uv0.weapon_property_173[69743] = {
+		id = 69743,
+		name = "赫敏-跨射对舰对潜弹LV3",
+		damage = 12,
+		base = 69741
+	}
+	uv0.weapon_property_173[69744] = {
+		id = 69744,
+		name = "赫敏-跨射对舰对潜弹LV4",
+		damage = 13,
+		base = 69741
+	}
+	uv0.weapon_property_173[69745] = {
+		id = 69745,
+		name = "赫敏-跨射对舰对潜弹LV5",
+		damage = 14,
+		base = 69741
+	}
+	uv0.weapon_property_173[69746] = {
+		id = 69746,
+		name = "赫敏-跨射对舰对潜弹LV6",
+		damage = 15,
+		base = 69741
+	}
+	uv0.weapon_property_173[69747] = {
+		id = 69747,
+		name = "赫敏-跨射对舰对潜弹LV7",
+		damage = 16,
+		base = 69741
+	}
+	uv0.weapon_property_173[69748] = {
+		id = 69748,
+		name = "赫敏-跨射对舰对潜弹LV8",
+		damage = 17,
+		base = 69741
+	}
+	uv0.weapon_property_173[69749] = {
+		id = 69749,
+		name = "赫敏-跨射对舰对潜弹LV9",
+		damage = 18,
+		base = 69741
+	}
+	uv0.weapon_property_173[69750] = {
+		id = 69750,
+		name = "赫敏-跨射对舰对潜弹LV10",
+		damage = 20,
+		base = 69741
+	}
+	uv0.weapon_property_173[69751] = {
+		action_index = "attack",
+		range = 120,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "鹰-剑鱼 Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 120,
+		charge_param = "",
+		damage = 46,
+		corrected = 100,
+		min_range = 0,
+		id = 69751,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 604,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			69751
+		},
+		barrage_ID = {
+			12010
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			2
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_173[69752] = {
+		reload_max = 588,
+		damage = 50,
+		base = 69751,
+		id = 69752,
+		name = "鹰-剑鱼 Lv2",
+		bullet_ID = {
+			69752
+		}
+	}
+	uv0.weapon_property_173[69753] = {
+		reload_max = 572,
+		damage = 54,
+		base = 69751,
+		id = 69753,
+		name = "鹰-剑鱼 Lv3",
+		bullet_ID = {
+			69753
+		}
+	}
+	uv0.weapon_property_173[69754] = {
+		reload_max = 556,
+		damage = 58,
+		base = 69751,
+		id = 69754,
+		name = "鹰-剑鱼 Lv4",
+		bullet_ID = {
+			69754
+		}
+	}
+	uv0.weapon_property_173[69755] = {
+		reload_max = 540,
+		damage = 62,
+		base = 69751,
+		id = 69755,
+		name = "鹰-剑鱼 Lv5",
+		bullet_ID = {
+			69755
+		}
+	}
+	uv0.weapon_property_173[69756] = {
+		reload_max = 524,
+		damage = 66,
+		base = 69751,
+		id = 69756,
+		name = "鹰-剑鱼 Lv6",
+		bullet_ID = {
+			69756
+		}
+	}
+	uv0.weapon_property_173[69757] = {
+		reload_max = 508,
+		damage = 70,
+		base = 69751,
+		id = 69757,
+		name = "鹰-剑鱼 Lv7",
+		bullet_ID = {
+			69757
+		}
+	}
+	uv0.weapon_property_173[69758] = {
+		reload_max = 492,
+		damage = 74,
+		base = 69751,
+		id = 69758,
+		name = "鹰-剑鱼 Lv8",
+		bullet_ID = {
+			69758
+		}
+	}
+	uv0.weapon_property_173[69759] = {
+		reload_max = 476,
+		damage = 79,
+		base = 69751,
+		id = 69759,
+		name = "鹰-剑鱼 Lv9",
+		bullet_ID = {
+			69759
+		}
+	}
+	uv0.weapon_property_173[69760] = {
+		reload_max = 460,
+		damage = 84,
+		base = 69751,
+		id = 69760,
+		name = "鹰-剑鱼 Lv10",
+		bullet_ID = {
+			69760
+		}
+	}
 	uv0.weapon_property_173[69771] = {
 		action_index = "",
 		range = 75,
@@ -446,309 +690,5 @@ function ()
 		name = "英勇弹幕技能小子弹LV10",
 		damage = 20,
 		base = 69801
-	}
-	uv0.weapon_property_173[69811] = {
-		action_index = "attack",
-		range = 50,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "伊卡洛斯复合弹幕-子弹LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 12,
-		corrected = 100,
-		min_range = 0,
-		id = 69811,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19174
-		},
-		barrage_ID = {
-			80924
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_173[69812] = {
-		id = 69812,
-		name = "伊卡洛斯复合弹幕-子弹LV2",
-		damage = 13,
-		base = 69811
-	}
-	uv0.weapon_property_173[69813] = {
-		id = 69813,
-		name = "伊卡洛斯复合弹幕-子弹LV3",
-		damage = 14,
-		base = 69811
-	}
-	uv0.weapon_property_173[69814] = {
-		name = "伊卡洛斯复合弹幕-子弹LV4",
-		damage = 15,
-		base = 69811,
-		id = 69814,
-		bullet_ID = {
-			19174,
-			19174
-		},
-		barrage_ID = {
-			80924,
-			80926
-		}
-	}
-	uv0.weapon_property_173[69815] = {
-		name = "伊卡洛斯复合弹幕-子弹LV5",
-		damage = 16,
-		base = 69811,
-		id = 69815,
-		bullet_ID = {
-			19174,
-			19174
-		},
-		barrage_ID = {
-			80924,
-			80926
-		}
-	}
-	uv0.weapon_property_173[69816] = {
-		name = "伊卡洛斯复合弹幕-子弹LV6",
-		damage = 17,
-		base = 69811,
-		id = 69816,
-		bullet_ID = {
-			19174,
-			19174
-		},
-		barrage_ID = {
-			80924,
-			80926
-		}
-	}
-	uv0.weapon_property_173[69817] = {
-		name = "伊卡洛斯复合弹幕-子弹LV7",
-		damage = 18,
-		base = 69811,
-		id = 69817,
-		bullet_ID = {
-			19174,
-			19174
-		},
-		barrage_ID = {
-			80924,
-			80926
-		}
-	}
-	uv0.weapon_property_173[69818] = {
-		name = "伊卡洛斯复合弹幕-子弹LV8",
-		damage = 20,
-		base = 69811,
-		id = 69818,
-		bullet_ID = {
-			19174,
-			19174
-		},
-		barrage_ID = {
-			80924,
-			80926
-		}
-	}
-	uv0.weapon_property_173[69819] = {
-		name = "伊卡洛斯复合弹幕-子弹LV9",
-		damage = 22,
-		base = 69811,
-		id = 69819,
-		bullet_ID = {
-			19174,
-			19174
-		},
-		barrage_ID = {
-			80924,
-			80926
-		}
-	}
-	uv0.weapon_property_173[69820] = {
-		name = "伊卡洛斯复合弹幕-子弹LV10",
-		damage = 24,
-		base = 69811,
-		id = 69820,
-		bullet_ID = {
-			19174,
-			19174
-		},
-		barrage_ID = {
-			80924,
-			80926
-		}
-	}
-	uv0.weapon_property_173[69821] = {
-		action_index = "",
-		range = 50,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "伊卡洛斯复合弹幕-鱼雷LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 20,
-		corrected = 100,
-		min_range = 0,
-		id = 69821,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19175
-		},
-		barrage_ID = {
-			80925
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_173[69822] = {
-		id = 69822,
-		name = "伊卡洛斯复合弹幕-鱼雷LV2",
-		damage = 21,
-		base = 69821
-	}
-	uv0.weapon_property_173[69823] = {
-		id = 69823,
-		name = "伊卡洛斯复合弹幕-鱼雷LV3",
-		damage = 22,
-		base = 69821
-	}
-	uv0.weapon_property_173[69824] = {
-		id = 69824,
-		name = "伊卡洛斯复合弹幕-鱼雷LV4",
-		damage = 23,
-		base = 69821
-	}
-	uv0.weapon_property_173[69825] = {
-		id = 69825,
-		name = "伊卡洛斯复合弹幕-鱼雷LV5",
-		damage = 24,
-		base = 69821
-	}
-	uv0.weapon_property_173[69826] = {
-		id = 69826,
-		name = "伊卡洛斯复合弹幕-鱼雷LV6",
-		damage = 25,
-		base = 69821
-	}
-	uv0.weapon_property_173[69827] = {
-		id = 69827,
-		name = "伊卡洛斯复合弹幕-鱼雷LV7",
-		damage = 26,
-		base = 69821
-	}
-	uv0.weapon_property_173[69828] = {
-		id = 69828,
-		name = "伊卡洛斯复合弹幕-鱼雷LV8",
-		damage = 28,
-		base = 69821
-	}
-	uv0.weapon_property_173[69829] = {
-		id = 69829,
-		name = "伊卡洛斯复合弹幕-鱼雷LV9",
-		damage = 30,
-		base = 69821
-	}
-	uv0.weapon_property_173[69830] = {
-		id = 69830,
-		name = "伊卡洛斯复合弹幕-鱼雷LV10",
-		damage = 34,
-		base = 69821
-	}
-	uv0.weapon_property_173[69831] = {
-		action_index = "attack",
-		range = 85,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "赫敏-平射对舰弹LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 10,
-		corrected = 100,
-		min_range = 0,
-		id = 69831,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19176,
-			19176
-		},
-		barrage_ID = {
-			80916,
-			80917
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_173[69832] = {
-		id = 69832,
-		name = "赫敏-平射对舰弹LV2",
-		damage = 11,
-		base = 69831
 	}
 end()

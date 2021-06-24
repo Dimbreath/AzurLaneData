@@ -205,6 +205,9 @@ function slot0.didEnter(slot0)
 	slot1 = rtf(slot0._grade)
 	slot0._gradeUpperLeftPos = slot1.localPosition
 	slot1.localPosition = Vector3(0, 25, 0)
+
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
+
 	slot0.blurRt = pg.UIMgr.GetInstance():SetMainCamBlurTexture(GetComponent(slot0:findTF("blur_img", slot0._tf), "RawImage"))
 
 	setActive(slot0:findTF("blur_img", slot0._tf), true)
@@ -409,6 +412,7 @@ function slot0.displayBG(slot0)
 		uv0:displayShips()
 		uv0:displayPlayerInfo()
 		uv0:displayerCommanders()
+		uv0:initMetaBtn()
 
 		uv0._stateFlag = uv1.STATE_DISPLAY
 
@@ -910,7 +914,44 @@ function slot0.SetSkipFlag(slot0, slot1)
 	slot0.skipFlag = slot1
 end
 
+function slot0.initMetaBtn(slot0)
+	slot0.metaBtn = slot0:findTF("MetaBtn", slot0._main)
+
+	if not NEW_META_EXP then
+		setActive(slot0.metaBtn, false)
+
+		return
+	end
+
+	setActive(slot0.metaBtn, getProxy(MetaCharacterProxy):getLastMetaSkillExpInfoList() and #slot1 > 0 or false)
+	onButton(slot0, slot0.metaBtn, function ()
+		setActive(uv0.metaBtn, false)
+
+		if not uv0.metaExpView then
+			uv0.metaExpView = BattleResultMetaExpView.New(uv0._blurConatiner, uv0.event, uv0.contextData)
+
+			uv0.metaExpView:Reset()
+			uv0.metaExpView:Load()
+			uv0.metaExpView:setData(uv1, function ()
+				setActive(uv0.metaBtn, true)
+
+				uv0.metaExpView = nil
+			end)
+			uv0.metaExpView:ActionInvoke("Show")
+			uv0.metaExpView:ActionInvoke("openPanel")
+		end
+	end, SFX_PANEL)
+end
+
 function slot0.onBackPressed(slot0)
+	if slot0.metaExpView then
+		slot0.metaExpView:closePanel()
+
+		slot0.metaExpView = nil
+
+		return
+	end
+
 	if slot0._stateFlag == uv0.STATE_RANK_ANIMA then
 		-- Nothing
 	elseif slot0._stateFlag == uv0.STATE_REPORT then
@@ -952,7 +993,15 @@ function slot0.willExit(slot0)
 	}, {
 		slot0.blurRt
 	})
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	slot0:stopVoice()
+	getProxy(MetaCharacterProxy):clearLastMetaSkillExpInfoList()
+
+	if slot0.metaExpView then
+		slot0.metaExpView:Destroy()
+
+		slot0.metaExpView = nil
+	end
 end
 
 return slot0

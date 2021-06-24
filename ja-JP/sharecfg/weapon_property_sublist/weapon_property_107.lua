@@ -402,6 +402,68 @@ function ()
 			1513
 		}
 	}
+	uv0.weapon_property_107[60651] = {
+		action_index = "attack",
+		range = 50,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "风云弹幕展示I",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 1,
+		corrected = 125,
+		min_range = 0,
+		id = 60651,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 400,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			79741,
+			79742
+		},
+		barrage_ID = {
+			79741,
+			79742
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_107[60652] = {
+		name = "风云弹幕展示II",
+		damage = 1,
+		base = 60651,
+		id = 60652,
+		bullet_ID = {
+			79741,
+			79742,
+			79742
+		},
+		barrage_ID = {
+			79741,
+			79742,
+			79743
+		}
+	}
 	uv0.weapon_property_107[61000] = {
 		action_index = "",
 		range = 100,
@@ -2008,28 +2070,6 @@ function ()
 		damage = 29,
 		base = 64001,
 		id = 64006,
-		barrage_ID = {
-			80991,
-			80992,
-			80993
-		}
-	}
-	uv0.weapon_property_107[64007] = {
-		name = "U-37技能鱼雷弹幕LV7",
-		damage = 31,
-		base = 64001,
-		id = 64007,
-		barrage_ID = {
-			80991,
-			80992,
-			80993
-		}
-	}
-	uv0.weapon_property_107[64008] = {
-		name = "U-37技能鱼雷弹幕LV8",
-		damage = 33,
-		base = 64001,
-		id = 64008,
 		barrage_ID = {
 			80991,
 			80992,

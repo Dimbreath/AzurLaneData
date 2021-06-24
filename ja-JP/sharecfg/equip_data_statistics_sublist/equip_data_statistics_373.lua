@@ -1,69 +1,44 @@
 pg = pg or {}
 pg.equip_data_statistics_373 = {
-	[85226] = {
-		id = 85226,
-		damage = "32/回",
-		base = 85220,
+	[85181] = {
+		id = 85181,
+		damage = "11/回",
+		base = 85180,
 		weapon_id = {
-			85226
+			85181
 		}
 	},
-	[85227] = {
-		id = 85227,
-		damage = "35/回",
-		base = 85220,
+	[85182] = {
+		id = 85182,
+		damage = "13/回",
+		base = 85180,
 		weapon_id = {
-			85227
+			85182
 		}
 	},
-	[85228] = {
-		id = 85228,
-		damage = "38/回",
-		base = 85220,
+	[85183] = {
+		id = 85183,
+		damage = "16/回",
+		base = 85180,
 		weapon_id = {
-			85228
+			85183
 		}
 	},
-	[85229] = {
-		id = 85229,
-		damage = "41/回",
-		base = 85220,
-		weapon_id = {
-			85229
-		}
-	},
-	[85230] = {
-		id = 85230,
-		damage = "44/回",
-		base = 85220,
-		weapon_id = {
-			85230
-		}
-	},
-	[85231] = {
-		anti_siren = 100,
-		damage = "44/回",
-		base = 85220,
-		id = 85231,
-		weapon_id = {
-			85231
-		}
-	},
-	[85260] = {
-		name = "100mm連装高角砲B-54",
+	[85200] = {
+		name = "37mm対空機関砲70-K",
 		speciality = "対空",
 		type = 6,
 		tech = 2,
 		descrip = "0",
 		value_2 = 12,
-		icon = "85240",
+		icon = "85180",
 		attribute_2 = "antiaircraft",
 		rarity = 3,
-		damage = "36/回",
+		damage = "11/回",
 		nationality = 7,
 		ammo = 5,
 		value_3 = 0,
-		id = 85260,
+		id = 85200,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -75,7 +50,7 @@ pg.equip_data_statistics_373 = {
 			10
 		},
 		weapon_id = {
-			85260
+			85200
 		},
 		skill_id = {},
 		part_main = {
@@ -111,69 +86,69 @@ pg.equip_data_statistics_373 = {
 			"AA"
 		}
 	},
-	[85261] = {
-		id = 85261,
-		damage = "41/回",
-		base = 85260,
+	[85201] = {
+		id = 85201,
+		damage = "13/回",
+		base = 85200,
 		weapon_id = {
-			85261
+			85201
 		}
 	},
-	[85262] = {
-		id = 85262,
-		damage = "47/回",
-		base = 85260,
+	[85202] = {
+		id = 85202,
+		damage = "16/回",
+		base = 85200,
 		weapon_id = {
-			85262
+			85202
 		}
 	},
-	[85263] = {
-		id = 85263,
-		damage = "52/回",
-		base = 85260,
+	[85203] = {
+		id = 85203,
+		damage = "19/回",
+		base = 85200,
 		weapon_id = {
-			85263
+			85203
 		}
 	},
-	[85264] = {
-		id = 85264,
-		damage = "59/回",
-		base = 85260,
+	[85204] = {
+		id = 85204,
+		damage = "22/回",
+		base = 85200,
 		weapon_id = {
-			85264
+			85204
 		}
 	},
-	[85265] = {
-		id = 85265,
-		damage = "66/回",
-		base = 85260,
+	[85205] = {
+		id = 85205,
+		damage = "25/回",
+		base = 85200,
 		weapon_id = {
-			85265
+			85205
 		}
 	},
-	[85266] = {
-		id = 85266,
-		damage = "73/回",
-		base = 85260,
+	[85206] = {
+		id = 85206,
+		damage = "28/回",
+		base = 85200,
 		weapon_id = {
-			85266
+			85206
 		}
 	},
-	[85280] = {
-		name = "100mm連装高角砲B-54",
+	[85220] = {
+		name = "37mm対空機関砲70-K",
 		speciality = "対空",
 		type = 6,
 		tech = 3,
 		descrip = "0",
 		value_2 = 25,
-		icon = "85240",
+		icon = "85180",
 		attribute_2 = "antiaircraft",
 		rarity = 4,
-		damage = "43/回",
+		damage = "14/回",
 		nationality = 7,
 		ammo = 5,
 		value_3 = 0,
-		id = 85280,
+		id = 85220,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -185,7 +160,7 @@ pg.equip_data_statistics_373 = {
 			10
 		},
 		weapon_id = {
-			85280
+			85220
 		},
 		skill_id = {},
 		part_main = {
@@ -221,20 +196,44 @@ pg.equip_data_statistics_373 = {
 			"AA"
 		}
 	},
-	[85281] = {
-		id = 85281,
-		damage = "48/回",
-		base = 85280,
+	[85221] = {
+		id = 85221,
+		damage = "17/回",
+		base = 85220,
 		weapon_id = {
-			85281
+			85221
 		}
 	},
-	[85282] = {
-		id = 85282,
-		damage = "54/回",
-		base = 85280,
+	[85222] = {
+		id = 85222,
+		damage = "20/回",
+		base = 85220,
 		weapon_id = {
-			85282
+			85222
+		}
+	},
+	[85223] = {
+		id = 85223,
+		damage = "23/回",
+		base = 85220,
+		weapon_id = {
+			85223
+		}
+	},
+	[85224] = {
+		id = 85224,
+		damage = "26/回",
+		base = 85220,
+		weapon_id = {
+			85224
+		}
+	},
+	[85225] = {
+		id = 85225,
+		damage = "29/回",
+		base = 85220,
+		weapon_id = {
+			85225
 		}
 	}
 }

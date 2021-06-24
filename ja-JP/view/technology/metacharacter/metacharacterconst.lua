@@ -253,6 +253,26 @@ function slot0.getFinalSkillIDListByMetaGroupID(slot0)
 	return slot2
 end
 
+function slot0.getTacticsSkillIDListByShipConfigID(slot0)
+	slot1 = {}
+
+	for slot7, slot8 in ipairs(pg.ship_data_template[slot0].buff_list_display) do
+		if MetaCharacterConst.isMetaTaskSkillID(slot8) then
+			table.insert(slot1, slot8)
+		end
+	end
+
+	return slot1
+end
+
+function slot0.getMetaSkillTacticsConfig(slot0, slot1)
+	for slot5, slot6 in ipairs(pg.ship_meta_skilltask) do
+		if slot6.skill_ID == slot0 and slot6.level == slot1 then
+			return slot6
+		end
+	end
+end
+
 function slot0.addReMetaTransItem(slot0, slot1)
 	if not slot0.virgin and slot0:isMetaShip() and Player.isMetaShipNeedToTrans(slot0.configId) then
 		slot2 = Player.metaShip2Res(slot0.configId)

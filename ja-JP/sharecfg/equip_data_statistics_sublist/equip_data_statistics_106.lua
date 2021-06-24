@@ -1,101 +1,119 @@
 pg = pg or {}
 pg.equip_data_statistics_106 = {
-	[14382] = {
-		id = 14382,
-		damage = "80 x 3",
-		base = 14380,
+	[14362] = {
+		id = 14362,
+		damage = "76 x 3",
+		base = 14360,
 		weapon_id = {
-			14382
+			14362
 		}
 	},
-	[14383] = {
-		id = 14383,
-		damage = "88 x 3",
-		base = 14380,
+	[14363] = {
+		id = 14363,
+		damage = "86 x 3",
+		base = 14360,
 		weapon_id = {
-			14383
+			14363
 		}
 	},
-	[14384] = {
-		id = 14384,
-		damage = "98 x 3",
-		base = 14380,
+	[14364] = {
+		id = 14364,
+		damage = "96 x 3",
+		base = 14360,
 		weapon_id = {
-			14384
+			14364
 		}
 	},
-	[14385] = {
-		id = 14385,
-		damage = "108 x 3",
-		base = 14380,
+	[14365] = {
+		id = 14365,
+		damage = "106 x 3",
+		base = 14360,
 		weapon_id = {
-			14385
+			14365
 		}
 	},
-	[14386] = {
-		id = 14386,
-		damage = "118 x 3",
-		base = 14380,
+	[14366] = {
+		id = 14366,
+		damage = "116 x 3",
+		base = 14360,
 		weapon_id = {
-			14386
+			14366
 		}
 	},
-	[14387] = {
-		id = 14387,
-		damage = "128 x 3",
-		base = 14380,
+	[14367] = {
+		id = 14367,
+		damage = "124 x 3",
+		base = 14360,
 		weapon_id = {
-			14387
+			14367
 		}
 	},
-	[14388] = {
-		id = 14388,
-		damage = "136 x 3",
-		base = 14380,
+	[14368] = {
+		id = 14368,
+		damage = "134 x 3",
+		base = 14360,
 		weapon_id = {
-			14388
+			14368
 		}
 	},
-	[14389] = {
-		id = 14389,
-		damage = "146 x 3",
-		base = 14380,
+	[14369] = {
+		id = 14369,
+		damage = "144 x 3",
+		base = 14360,
 		weapon_id = {
-			14389
+			14369
 		}
 	},
-	[14390] = {
-		id = 14390,
-		damage = "156 x 3",
-		base = 14380,
+	[14370] = {
+		id = 14370,
+		damage = "154 x 3",
+		base = 14360,
 		weapon_id = {
-			14390
+			14370
 		}
 	},
-	[14391] = {
+	[14371] = {
 		anti_siren = 100,
-		damage = "156 x 3",
-		base = 14380,
-		id = 14391,
+		damage = "154 x 3",
+		base = 14360,
+		id = 14371,
 		weapon_id = {
-			14391
+			14371
 		}
 	},
-	[14400] = {
-		name = "406mm三連装砲MK7",
+	[14372] = {
+		anti_siren = 200,
+		damage = "154 x 3",
+		base = 14360,
+		id = 14372,
+		weapon_id = {
+			14372
+		}
+	},
+	[14373] = {
+		anti_siren = 300,
+		damage = "154 x 3",
+		base = 14360,
+		id = 14373,
+		weapon_id = {
+			14373
+		}
+	},
+	[14380] = {
+		name = "406mm三連装砲Mk2",
 		speciality = "投射",
 		type = 4,
-		tech = 1,
+		tech = 0,
 		descrip = "0",
-		value_2 = 12,
-		icon = "14400",
+		value_2 = 25,
+		icon = "14380",
 		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "52 x 3",
+		rarity = 4,
+		damage = "60 x 3",
 		nationality = 1,
 		ammo = 3,
 		value_3 = 0,
-		id = 14400,
+		id = 14380,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -116,7 +134,7 @@ pg.equip_data_statistics_106 = {
 			12
 		},
 		weapon_id = {
-			14400
+			14380
 		},
 		skill_id = {},
 		part_main = {
@@ -133,44 +151,28 @@ pg.equip_data_statistics_106 = {
 			"MG"
 		}
 	},
-	[14401] = {
-		id = 14401,
-		damage = "62 x 3",
-		base = 14400,
+	[14381] = {
+		id = 14381,
+		damage = "70 x 3",
+		base = 14380,
 		weapon_id = {
-			14401
+			14381
 		}
 	},
-	[14402] = {
-		id = 14402,
-		damage = "72 x 3",
-		base = 14400,
+	[14382] = {
+		id = 14382,
+		damage = "80 x 3",
+		base = 14380,
 		weapon_id = {
-			14402
+			14382
 		}
 	},
-	[14403] = {
-		id = 14403,
-		damage = "82 x 3",
-		base = 14400,
+	[14383] = {
+		id = 14383,
+		damage = "88 x 3",
+		base = 14380,
 		weapon_id = {
-			14403
-		}
-	},
-	[14404] = {
-		id = 14404,
-		damage = "92 x 3",
-		base = 14400,
-		weapon_id = {
-			14404
-		}
-	},
-	[14405] = {
-		id = 14405,
-		damage = "102 x 3",
-		base = 14400,
-		weapon_id = {
-			14405
+			14383
 		}
 	}
 }

@@ -48,11 +48,22 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.getBtn, function ()
 		slot0 = {}
+		slot1 = uv0.ptData:GetAward()
+		slot3 = getProxy(PlayerProxy):getRawData()
+		slot6, slot7 = Task.StaticJudgeOverflow(slot3.gold, slot3.oil, LOCK_UR_SHIP and 0 or getProxy(BagProxy):GetLimitCntById(pg.gameset.urpt_chapter_max.description[1]), true, true, {
+			{
+				slot1.type,
+				slot1.id,
+				slot1.count
+			}
+		})
 
-		if uv0.ptData:GetAward().type == DROP_TYPE_RESOURCE and slot1.id == PlayerConst.ResGold and getProxy(PlayerProxy):getData():GoldMax(slot1.count) then
+		if slot6 then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("gold_max_tip_title") .. i18n("award_max_warning"),
+					type = MSGBOX_TYPE_ITEM_BOX,
+					content = i18n("award_max_warning"),
+					items = uv0,
 					onYes = slot0
 				})
 			end)

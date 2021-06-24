@@ -2895,7 +2895,7 @@ pg.backyard_theme_template = {
 		Cfg_2 = 8,
 		is_view = 1,
 		discount = 0,
-		order = 80,
+		order = 78,
 		id = 80,
 		icon = "bngthemeicon",
 		comfortable = 0,
@@ -2917,6 +2917,48 @@ pg.backyard_theme_template = {
 			80304,
 			80305,
 			80306
+		}
+	},
+	[81] = {
+		Cfg_1 = 5,
+		name = "饅頭学園",
+		desc = "学園ライフを楽しむピョ！",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 82,
+		id = 81,
+		icon = "sc2themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			81001,
+			81002,
+			81101,
+			81102,
+			81103,
+			81104,
+			81105,
+			81106,
+			81107,
+			81109,
+			81110,
+			81112,
+			81113,
+			81116,
+			81117,
+			81118,
+			81119,
+			81120,
+			81126,
+			81129,
+			81301,
+			81304,
+			81305,
+			81306
 		}
 	},
 	all = {
@@ -2985,6 +3027,7 @@ pg.backyard_theme_template = {
 		76,
 		77,
 		78,
-		80
+		80,
+		81
 	}
 }

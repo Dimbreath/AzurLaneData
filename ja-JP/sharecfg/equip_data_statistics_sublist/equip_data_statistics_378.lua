@@ -1,45 +1,155 @@
 pg = pg or {}
 pg.equip_data_statistics_378 = {
-	[85446] = {
-		id = 85446,
-		damage = "14 x 4",
-		base = 85440,
+	[85410] = {
+		id = 85410,
+		damage = "96/回",
+		base = 85400,
 		weapon_id = {
-			85446
+			85410
 		}
 	},
-	[85447] = {
-		id = 85447,
-		damage = "14 x 4",
-		base = 85440,
+	[85411] = {
+		anti_siren = 100,
+		damage = "96/回",
+		base = 85400,
+		id = 85411,
 		weapon_id = {
-			85447
+			85411
 		}
 	},
-	[85460] = {
-		name = "180mm三連装砲B-1-P Model1932",
-		speciality = "追尾",
-		type = 2,
-		tech = 1,
-		descrip = "優秀な射程を持つ北方連合開発の三連装主砲。",
+	[85420] = {
+		name = "305mm三連装砲Model1907",
+		speciality = "投射",
+		type = 4,
+		tech = 3,
+		descrip = "0",
 		value_2 = 12,
-		icon = "85460",
+		icon = "85420",
 		attribute_2 = "cannon",
 		rarity = 3,
-		damage = "16 x 3",
+		damage = "54 x 3",
 		nationality = 7,
-		ammo = 1,
+		ammo = 2,
 		value_3 = 0,
-		id = 85460,
+		id = 85420,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			2
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1502
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85420
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"BB",
+			"MG",
+			"GangutMG"
+		}
+	},
+	[85421] = {
+		id = 85421,
+		damage = "59 x 3",
+		base = 85420,
+		weapon_id = {
+			85421
+		}
+	},
+	[85422] = {
+		id = 85422,
+		damage = "64 x 3",
+		base = 85420,
+		weapon_id = {
+			85422
+		}
+	},
+	[85423] = {
+		id = 85423,
+		damage = "70 x 3",
+		base = 85420,
+		weapon_id = {
+			85423
+		}
+	},
+	[85424] = {
+		id = 85424,
+		damage = "76 x 3",
+		base = 85420,
+		weapon_id = {
+			85424
+		}
+	},
+	[85425] = {
+		id = 85425,
+		damage = "84 x 3",
+		base = 85420,
+		weapon_id = {
+			85425
+		}
+	},
+	[85426] = {
+		id = 85426,
+		damage = "92 x 3",
+		base = 85420,
+		weapon_id = {
+			85426
+		}
+	},
+	[85427] = {
+		id = 85427,
+		damage = "92 x 3",
+		base = 85420,
+		weapon_id = {
+			85427
+		}
+	},
+	[85440] = {
+		name = "152mm連装砲Model1892",
+		speciality = "追尾",
+		type = 2,
+		tech = 3,
+		descrip = "0",
+		value_2 = 12,
+		icon = "85440",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "8 x 4",
+		nationality = 7,
+		ammo = 3,
+		value_3 = 0,
+		id = 85440,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
 		},
 		ammo_info = {
 			{
 				1,
-				1712
+				1001
 			}
 		},
 		equip_info = {
@@ -47,11 +157,11 @@ pg.equip_data_statistics_378 = {
 			2,
 			{
 				3,
-				1712
+				1001
 			},
 			{
 				4,
-				1108
+				1101
 			},
 			6,
 			10,
@@ -59,7 +169,7 @@ pg.equip_data_statistics_378 = {
 			12
 		},
 		weapon_id = {
-			85460
+			85440
 		},
 		skill_id = {},
 		part_main = {
@@ -72,123 +182,47 @@ pg.equip_data_statistics_378 = {
 		label = {
 			"SN",
 			"CL",
-			"MG",
-			"AP"
+			"MG"
 		}
 	},
-	[85461] = {
-		id = 85461,
-		base = 85460,
+	[85441] = {
+		id = 85441,
+		damage = "9 x 4",
+		base = 85440,
 		weapon_id = {
-			85461
+			85441
 		}
 	},
-	[85462] = {
-		id = 85462,
-		damage = "17 x 3",
-		base = 85460,
+	[85442] = {
+		id = 85442,
+		damage = "10 x 4",
+		base = 85440,
 		weapon_id = {
-			85462
+			85442
 		}
 	},
-	[85463] = {
-		id = 85463,
-		damage = "18 x 3",
-		base = 85460,
+	[85443] = {
+		id = 85443,
+		damage = "11 x 4",
+		base = 85440,
 		weapon_id = {
-			85463
+			85443
 		}
 	},
-	[85464] = {
-		id = 85464,
-		damage = "19 x 3",
-		base = 85460,
+	[85444] = {
+		id = 85444,
+		damage = "12 x 4",
+		base = 85440,
 		weapon_id = {
-			85464
+			85444
 		}
 	},
-	[85465] = {
-		id = 85465,
-		damage = "20 x 3",
-		base = 85460,
+	[85445] = {
+		id = 85445,
+		damage = "13 x 4",
+		base = 85440,
 		weapon_id = {
-			85465
+			85445
 		}
-	},
-	[85466] = {
-		id = 85466,
-		damage = "21 x 3",
-		base = 85460,
-		weapon_id = {
-			85466
-		}
-	},
-	[89000] = {
-		name = "ランダムワード生成器",
-		tech = 0,
-		type = 10,
-		speciality = "なし",
-		id = 89000,
-		value_2 = 6,
-		icon = "89000",
-		value_1 = "16",
-		attribute_2 = "dodge",
-		rarity = 5,
-		descrip = "企画をするときの頼りになるアイテム。まれにしゃべりだすことがあるという噂も…？",
-		nationality = 104,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "hit",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6380
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[89001] = {
-		id = 89001,
-		base = 89000
-	},
-	[89002] = {
-		id = 89002,
-		value_2 = 7,
-		value_1 = "17",
-		base = 89000
-	},
-	[89003] = {
-		id = 89003,
-		value_2 = 8,
-		value_1 = "18",
-		base = 89000
-	},
-	[89004] = {
-		id = 89004,
-		value_2 = 9,
-		value_1 = "19",
-		base = 89000
-	},
-	[89005] = {
-		id = 89005,
-		value_2 = 10,
-		value_1 = "20",
-		base = 89000
-	},
-	[89006] = {
-		id = 89006,
-		value_2 = 11,
-		value_1 = "21",
-		base = 89000
 	}
 }

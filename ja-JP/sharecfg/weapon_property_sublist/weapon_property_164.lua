@@ -2,6 +2,265 @@ pg = pg or {}
 pg.weapon_property_164 = {}
 
 function ()
+	uv0.weapon_property_164[69181] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 25,
+		shakescreen = 0,
+		name = "2 x 500lb 炸弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 86,
+		corrected = 100,
+		min_range = 0,
+		id = 69181,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19106
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_164[69182] = {
+		id = 69182,
+		damage = 99,
+		base = 69181
+	}
+	uv0.weapon_property_164[69183] = {
+		id = 69183,
+		damage = 112,
+		base = 69181
+	}
+	uv0.weapon_property_164[69184] = {
+		id = 69184,
+		damage = 125,
+		base = 69181
+	}
+	uv0.weapon_property_164[69185] = {
+		id = 69185,
+		damage = 138,
+		base = 69181
+	}
+	uv0.weapon_property_164[69186] = {
+		id = 69186,
+		damage = 151,
+		base = 69181
+	}
+	uv0.weapon_property_164[69187] = {
+		id = 69187,
+		damage = 164,
+		base = 69181
+	}
+	uv0.weapon_property_164[69188] = {
+		id = 69188,
+		damage = 178,
+		base = 69181
+	}
+	uv0.weapon_property_164[69189] = {
+		id = 69189,
+		damage = 191,
+		base = 69181
+	}
+	uv0.weapon_property_164[69190] = {
+		id = 69190,
+		damage = 220,
+		base = 69181
+	}
+	uv0.weapon_property_164[69191] = {
+		action_index = "attack",
+		range = 80,
+		type = 1,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "布莱默顿技能弹幕-LV1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 11,
+		corrected = 100,
+		min_range = 0,
+		id = 69191,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 412,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19107,
+			19107
+		},
+		barrage_ID = {
+			80846,
+			80847
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_164[69192] = {
+		id = 69192,
+		name = "布莱默顿技能弹幕-LV2",
+		damage = 12,
+		base = 69191
+	}
+	uv0.weapon_property_164[69193] = {
+		id = 69193,
+		name = "布莱默顿技能弹幕-LV3",
+		damage = 13,
+		base = 69191
+	}
+	uv0.weapon_property_164[69194] = {
+		id = 69194,
+		name = "布莱默顿技能弹幕-LV4",
+		damage = 14,
+		base = 69191
+	}
+	uv0.weapon_property_164[69195] = {
+		id = 69195,
+		name = "布莱默顿技能弹幕-LV5",
+		damage = 15,
+		base = 69191
+	}
+	uv0.weapon_property_164[69196] = {
+		id = 69196,
+		name = "布莱默顿技能弹幕-LV6",
+		damage = 16,
+		base = 69191
+	}
+	uv0.weapon_property_164[69197] = {
+		name = "布莱默顿技能弹幕-LV7",
+		damage = 17,
+		base = 69191,
+		id = 69197,
+		barrage_ID = {
+			80848,
+			80849
+		}
+	}
+	uv0.weapon_property_164[69198] = {
+		name = "布莱默顿技能弹幕-LV8",
+		damage = 18,
+		base = 69191,
+		id = 69198,
+		barrage_ID = {
+			80848,
+			80849
+		}
+	}
+	uv0.weapon_property_164[69199] = {
+		name = "布莱默顿技能弹幕-LV9",
+		damage = 19,
+		base = 69191,
+		id = 69199,
+		barrage_ID = {
+			80848,
+			80849
+		}
+	}
+	uv0.weapon_property_164[69200] = {
+		name = "布莱默顿技能弹幕-LV10",
+		damage = 20,
+		base = 69191,
+		id = 69200,
+		barrage_ID = {
+			80848,
+			80849
+		}
+	}
+	uv0.weapon_property_164[69201] = {
+		action_index = "attack",
+		range = 120,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "库珀反潜PBYLv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 36,
+		corrected = 100,
+		min_range = 0,
+		id = 69201,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 565,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			69201
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_164[69202] = {
+		reload_max = 550,
+		damage = 39,
+		base = 69201,
+		id = 69202,
+		name = "库珀反潜PBYLv2",
+		bullet_ID = {
+			69202
+		}
+	}
 	uv0.weapon_property_164[69203] = {
 		reload_max = 535,
 		damage = 42,
@@ -452,225 +711,5 @@ function ()
 		name = "土佐Upper子母弹LV2",
 		damage = 12,
 		base = 69241
-	}
-	uv0.weapon_property_164[69243] = {
-		id = 69243,
-		name = "土佐Upper子母弹LV3",
-		damage = 13,
-		base = 69241
-	}
-	uv0.weapon_property_164[69244] = {
-		id = 69244,
-		name = "土佐Upper子母弹LV4",
-		damage = 14,
-		base = 69241
-	}
-	uv0.weapon_property_164[69245] = {
-		id = 69245,
-		name = "土佐Upper子母弹LV5",
-		damage = 15,
-		base = 69241
-	}
-	uv0.weapon_property_164[69246] = {
-		id = 69246,
-		name = "土佐Upper子母弹LV6",
-		damage = 16,
-		base = 69241
-	}
-	uv0.weapon_property_164[69247] = {
-		id = 69247,
-		name = "土佐Upper子母弹LV7",
-		damage = 17,
-		base = 69241
-	}
-	uv0.weapon_property_164[69248] = {
-		id = 69248,
-		name = "土佐Upper子母弹LV8",
-		damage = 18,
-		base = 69241
-	}
-	uv0.weapon_property_164[69249] = {
-		id = 69249,
-		name = "土佐Upper子母弹LV9",
-		damage = 19,
-		base = 69241
-	}
-	uv0.weapon_property_164[69250] = {
-		id = 69250,
-		name = "土佐Upper子母弹LV10",
-		damage = 20,
-		base = 69241
-	}
-	uv0.weapon_property_164[69251] = {
-		action_index = "attack",
-		range = 200,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "土佐Center子母弹LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 11,
-		corrected = 100,
-		min_range = 0,
-		id = 69251,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19124,
-			19125,
-			19126,
-			19127
-		},
-		barrage_ID = {
-			80867,
-			80868,
-			80867,
-			80868
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_164[69252] = {
-		id = 69252,
-		name = "土佐Center子母弹LV2",
-		damage = 12,
-		base = 69251
-	}
-	uv0.weapon_property_164[69253] = {
-		id = 69253,
-		name = "土佐Center子母弹LV3",
-		damage = 13,
-		base = 69251
-	}
-	uv0.weapon_property_164[69254] = {
-		id = 69254,
-		name = "土佐Center子母弹LV4",
-		damage = 14,
-		base = 69251
-	}
-	uv0.weapon_property_164[69255] = {
-		id = 69255,
-		name = "土佐Center子母弹LV5",
-		damage = 15,
-		base = 69251
-	}
-	uv0.weapon_property_164[69256] = {
-		id = 69256,
-		name = "土佐Center子母弹LV6",
-		damage = 16,
-		base = 69251
-	}
-	uv0.weapon_property_164[69257] = {
-		id = 69257,
-		name = "土佐Center子母弹LV7",
-		damage = 17,
-		base = 69251
-	}
-	uv0.weapon_property_164[69258] = {
-		id = 69258,
-		name = "土佐Center子母弹LV8",
-		damage = 18,
-		base = 69251
-	}
-	uv0.weapon_property_164[69259] = {
-		id = 69259,
-		name = "土佐Center子母弹LV9",
-		damage = 19,
-		base = 69251
-	}
-	uv0.weapon_property_164[69260] = {
-		id = 69260,
-		name = "土佐Center子母弹LV10",
-		damage = 20,
-		base = 69251
-	}
-	uv0.weapon_property_164[69261] = {
-		action_index = "attack",
-		range = 200,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "土佐Lower子母弹LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 11,
-		corrected = 100,
-		min_range = 0,
-		id = 69261,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19111,
-			19112,
-			19113,
-			19114
-		},
-		barrage_ID = {
-			80864,
-			80864,
-			80864,
-			80864
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_164[69262] = {
-		id = 69262,
-		name = "土佐Lower子母弹LV2",
-		damage = 12,
-		base = 69261
-	}
-	uv0.weapon_property_164[69263] = {
-		id = 69263,
-		name = "土佐Lower子母弹LV3",
-		damage = 13,
-		base = 69261
-	}
-	uv0.weapon_property_164[69264] = {
-		id = 69264,
-		name = "土佐Lower子母弹LV4",
-		damage = 14,
-		base = 69261
 	}
 end()

@@ -565,6 +565,16 @@ pg.player_resource = {
 		name = "TWkaifuPT1",
 		itemid = 59222
 	},
+	[208] = {
+		id = 208,
+		name = "xinrixi_pt2",
+		itemid = 59223
+	},
+	[209] = {
+		id = 209,
+		name = "skinTicket19",
+		itemid = 59224
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1015,6 +1025,12 @@ pg.player_resource = {
 		TWkaifuPT1 = {
 			207
 		},
+		xinrixi_pt2 = {
+			208
+		},
+		skinTicket19 = {
+			209
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1196,6 +1212,8 @@ pg.player_resource = {
 		199,
 		206,
 		207,
+		208,
+		209,
 		950,
 		951,
 		952,

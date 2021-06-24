@@ -1,33 +1,122 @@
 pg = pg or {}
 pg.equip_data_statistics_37 = {
-	[1721] = {
-		id = 1721,
-		value_2 = 19,
-		base = 1720
-	},
-	[1722] = {
-		id = 1722,
-		value_2 = 22,
-		value_1 = "6",
-		base = 1720
-	},
-	[1723] = {
-		id = 1723,
-		value_2 = 25,
+	[1623] = {
+		id = 1623,
+		value_2 = 3,
 		value_1 = "7",
-		base = 1720
+		base = 1620
 	},
-	[1740] = {
-		name = "油圧舵",
+	[1640] = {
+		name = "電気式揚弾機",
 		tech = 3,
 		type = 10,
 		speciality = "なし",
-		id = 1740,
-		value_2 = 20,
-		icon = "1700",
+		id = 1640,
+		value_2 = 3,
+		icon = "1600",
 		value_1 = "9",
-		attribute_2 = "durability",
+		attribute_2 = "cannon",
 		rarity = 3,
+		descrip = "電動揚弾装置。装填と火力を上げることができる",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "reload",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			8,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[1641] = {
+		id = 1641,
+		value_1 = "10",
+		base = 1640
+	},
+	[1642] = {
+		id = 1642,
+		value_1 = "11",
+		base = 1640
+	},
+	[1643] = {
+		id = 1643,
+		value_2 = 4,
+		value_1 = "12",
+		base = 1640
+	},
+	[1644] = {
+		id = 1644,
+		value_2 = 4,
+		value_1 = "13",
+		base = 1640
+	},
+	[1645] = {
+		id = 1645,
+		value_2 = 5,
+		value_1 = "15",
+		base = 1640
+	},
+	[1646] = {
+		id = 1646,
+		value_2 = 5,
+		value_1 = "17",
+		base = 1640
+	},
+	[1647] = {
+		id = 1647,
+		value_2 = 6,
+		value_1 = "19",
+		base = 1640
+	},
+	[1700] = {
+		name = "油圧舵",
+		tech = 1,
+		type = 10,
+		speciality = "なし",
+		id = 1700,
+		value_2 = 14,
+		icon = "1700",
+		value_1 = "2",
+		attribute_2 = "durability",
+		rarity = 1,
 		descrip = "操艦用の舵。回避能力を上げることができる",
 		nationality = 0,
 		ammo = 10,
@@ -49,61 +138,36 @@ pg.equip_data_statistics_37 = {
 			"DEV"
 		}
 	},
-	[1741] = {
-		id = 1741,
-		value_2 = 24,
-		value_1 = "10",
-		base = 1740
+	[1701] = {
+		id = 1701,
+		value_2 = 16,
+		base = 1700
 	},
-	[1742] = {
-		id = 1742,
-		value_2 = 28,
-		value_1 = "11",
-		base = 1740
+	[1702] = {
+		id = 1702,
+		value_2 = 18,
+		value_1 = "3",
+		base = 1700
 	},
-	[1743] = {
-		id = 1743,
-		value_2 = 32,
-		value_1 = "12",
-		base = 1740
+	[1703] = {
+		id = 1703,
+		value_2 = 20,
+		value_1 = "3",
+		base = 1700
 	},
-	[1744] = {
-		id = 1744,
-		value_2 = 36,
-		value_1 = "13",
-		base = 1740
-	},
-	[1745] = {
-		id = 1745,
-		value_2 = 40,
-		value_1 = "15",
-		base = 1740
-	},
-	[1746] = {
-		id = 1746,
-		value_2 = 44,
-		value_1 = "17",
-		base = 1740
-	},
-	[1747] = {
-		id = 1747,
-		value_2 = 48,
-		value_1 = "19",
-		base = 1740
-	},
-	[1760] = {
-		name = "強化油圧舵",
-		tech = 0,
+	[1720] = {
+		name = "油圧舵",
+		tech = 2,
 		type = 10,
 		speciality = "なし",
-		id = 1760,
-		value_2 = 24,
-		icon = "1760",
-		value_1 = "16",
+		id = 1720,
+		value_2 = 16,
+		icon = "1700",
+		value_1 = "5",
 		attribute_2 = "durability",
-		rarity = 5,
+		rarity = 2,
 		descrip = "操艦用の舵。回避能力を上げることができる",
-		nationality = 1,
+		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
 		attribute_1 = "dodge",
@@ -115,39 +179,23 @@ pg.equip_data_statistics_37 = {
 			6
 		},
 		weapon_id = {},
-		skill_id = {
-			6270
-		},
+		skill_id = {},
 		part_main = {},
 		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"USS",
 			"DEV"
 		}
 	},
-	[1761] = {
-		id = 1761,
-		value_2 = 27,
-		value_1 = "18",
-		base = 1760
+	[1721] = {
+		id = 1721,
+		value_2 = 19,
+		base = 1720
 	},
-	[1762] = {
-		id = 1762,
-		value_2 = 30,
-		value_1 = "20",
-		base = 1760
-	},
-	[1763] = {
-		id = 1763,
-		value_2 = 33,
-		value_1 = "22",
-		base = 1760
-	},
-	[1764] = {
-		id = 1764,
-		value_2 = 36,
-		value_1 = "24",
-		base = 1760
+	[1722] = {
+		id = 1722,
+		value_2 = 22,
+		value_1 = "6",
+		base = 1720
 	}
 }

@@ -2,6 +2,218 @@ pg = pg or {}
 pg.weapon_property_134 = {}
 
 function ()
+	uv0.weapon_property_134[66965] = {
+		name = "萨拉托加技能轰炸机Lv5",
+		damage = 129,
+		base = 66960,
+		id = 66965,
+		bullet_ID = {
+			66965
+		}
+	}
+	uv0.weapon_property_134[66966] = {
+		name = "萨拉托加技能轰炸机Lv6",
+		damage = 141,
+		base = 66960,
+		id = 66966,
+		bullet_ID = {
+			66966
+		}
+	}
+	uv0.weapon_property_134[66967] = {
+		name = "萨拉托加技能轰炸机Lv7",
+		damage = 154,
+		base = 66960,
+		id = 66967,
+		bullet_ID = {
+			66967
+		}
+	}
+	uv0.weapon_property_134[66968] = {
+		name = "萨拉托加技能轰炸机Lv8",
+		damage = 167,
+		base = 66960,
+		id = 66968,
+		bullet_ID = {
+			66968
+		}
+	}
+	uv0.weapon_property_134[66969] = {
+		name = "萨拉托加技能轰炸机Lv9",
+		damage = 179,
+		base = 66960,
+		id = 66969,
+		bullet_ID = {
+			66969
+		}
+	}
+	uv0.weapon_property_134[66970] = {
+		name = "萨拉托加技能轰炸机Lv10",
+		damage = 193,
+		base = 66960,
+		id = 66970,
+		bullet_ID = {
+			66970
+		}
+	}
+	uv0.weapon_property_134[66980] = {
+		action_index = "",
+		range = 80,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = -10,
+		shakescreen = 0,
+		name = "进水鱼雷",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 63,
+		corrected = 100,
+		min_range = 0,
+		id = 66980,
+		attack_attribute_ratio = 120,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19934
+		},
+		barrage_ID = {
+			2141
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_134[66981] = {
+		id = 66981,
+		damage = 76,
+		base = 66980
+	}
+	uv0.weapon_property_134[66982] = {
+		id = 66982,
+		damage = 90,
+		base = 66980
+	}
+	uv0.weapon_property_134[66983] = {
+		id = 66983,
+		damage = 104,
+		base = 66980
+	}
+	uv0.weapon_property_134[66984] = {
+		id = 66984,
+		damage = 118,
+		base = 66980
+	}
+	uv0.weapon_property_134[66985] = {
+		id = 66985,
+		damage = 132,
+		base = 66980
+	}
+	uv0.weapon_property_134[66986] = {
+		id = 66986,
+		damage = 146,
+		base = 66980
+	}
+	uv0.weapon_property_134[66987] = {
+		id = 66987,
+		damage = 160,
+		base = 66980
+	}
+	uv0.weapon_property_134[66988] = {
+		id = 66988,
+		damage = 174,
+		base = 66980
+	}
+	uv0.weapon_property_134[66989] = {
+		id = 66989,
+		damage = 188,
+		base = 66980
+	}
+	uv0.weapon_property_134[66990] = {
+		id = 66990,
+		damage = 202,
+		base = 66980
+	}
+	uv0.weapon_property_134[67000] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 25,
+		shakescreen = 0,
+		name = "1 x 2000lb高爆航弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 117,
+		corrected = 100,
+		min_range = 0,
+		id = 67000,
+		attack_attribute_ratio = 120,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19935
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_134[67001] = {
+		id = 67001,
+		damage = 138,
+		base = 67000
+	}
+	uv0.weapon_property_134[67002] = {
+		id = 67002,
+		damage = 160,
+		base = 67000
+	}
+	uv0.weapon_property_134[67003] = {
+		id = 67003,
+		damage = 182,
+		base = 67000
+	}
+	uv0.weapon_property_134[67004] = {
+		id = 67004,
+		damage = 204,
+		base = 67000
+	}
 	uv0.weapon_property_134[67005] = {
 		id = 67005,
 		damage = 226,
@@ -501,240 +713,6 @@ function ()
 		barrage_ID = {
 			80171,
 			80172
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_134[67081] = {
-		id = 67081,
-		name = "Z23技能鱼雷LV1",
-		damage = 55,
-		base = 67080
-	}
-	uv0.weapon_property_134[67082] = {
-		id = 67082,
-		name = "Z23技能鱼雷LV2",
-		damage = 65,
-		base = 67080
-	}
-	uv0.weapon_property_134[67083] = {
-		id = 67083,
-		name = "Z23技能鱼雷LV3",
-		damage = 75,
-		base = 67080
-	}
-	uv0.weapon_property_134[67084] = {
-		id = 67084,
-		name = "Z23技能鱼雷LV4",
-		damage = 85,
-		base = 67080
-	}
-	uv0.weapon_property_134[67085] = {
-		id = 67085,
-		name = "Z23技能鱼雷LV5",
-		damage = 95,
-		base = 67080
-	}
-	uv0.weapon_property_134[67086] = {
-		id = 67086,
-		name = "Z23技能鱼雷LV6",
-		damage = 105,
-		base = 67080
-	}
-	uv0.weapon_property_134[67087] = {
-		id = 67087,
-		name = "Z23技能鱼雷LV7",
-		damage = 115,
-		base = 67080
-	}
-	uv0.weapon_property_134[67088] = {
-		id = 67088,
-		name = "Z23技能鱼雷LV8",
-		damage = 125,
-		base = 67080
-	}
-	uv0.weapon_property_134[67089] = {
-		id = 67089,
-		name = "Z23技能鱼雷LV9",
-		damage = 135,
-		base = 67080
-	}
-	uv0.weapon_property_134[67090] = {
-		id = 67090,
-		name = "Z23技能鱼雷LV10",
-		damage = 145,
-		base = 67080
-	}
-	uv0.weapon_property_134[67100] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "zhupao",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "敦刻尔克技能LV0",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 67100,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19941
-		},
-		barrage_ID = {
-			80451
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_134[67101] = {
-		id = 67101,
-		name = "敦刻尔克技能LV1",
-		damage = 50,
-		base = 67100
-	}
-	uv0.weapon_property_134[67102] = {
-		id = 67102,
-		name = "敦刻尔克技能LV2",
-		damage = 60,
-		base = 67100
-	}
-	uv0.weapon_property_134[67103] = {
-		id = 67103,
-		name = "敦刻尔克技能LV3",
-		damage = 70,
-		base = 67100
-	}
-	uv0.weapon_property_134[67104] = {
-		id = 67104,
-		name = "敦刻尔克技能LV4",
-		damage = 80,
-		base = 67100
-	}
-	uv0.weapon_property_134[67105] = {
-		id = 67105,
-		name = "敦刻尔克技能LV5",
-		damage = 90,
-		base = 67100
-	}
-	uv0.weapon_property_134[67106] = {
-		id = 67106,
-		name = "敦刻尔克技能LV6",
-		damage = 100,
-		base = 67100
-	}
-	uv0.weapon_property_134[67107] = {
-		id = 67107,
-		name = "敦刻尔克技能LV7",
-		damage = 110,
-		base = 67100
-	}
-	uv0.weapon_property_134[67108] = {
-		name = "敦刻尔克技能LV8",
-		damage = 120,
-		base = 67100,
-		id = 67108,
-		bullet_ID = {
-			19941,
-			19941
-		},
-		barrage_ID = {
-			80451,
-			80452
-		}
-	}
-	uv0.weapon_property_134[67109] = {
-		name = "敦刻尔克技能LV9",
-		damage = 130,
-		base = 67100,
-		id = 67109,
-		bullet_ID = {
-			19941,
-			19941
-		},
-		barrage_ID = {
-			80451,
-			80452
-		}
-	}
-	uv0.weapon_property_134[67110] = {
-		name = "敦刻尔克技能LV10",
-		damage = 140,
-		base = 67100,
-		id = 67110,
-		bullet_ID = {
-			19941,
-			19941
-		},
-		barrage_ID = {
-			80451,
-			80452
-		}
-	}
-	uv0.weapon_property_134[67120] = {
-		action_index = "attack",
-		range = 90,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "敦刻尔克技能小子弹LV0",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 10,
-		corrected = 100,
-		min_range = 0,
-		id = 67120,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19942,
-			19942
-		},
-		barrage_ID = {
-			80453,
-			80455
 		},
 		oxy_type = {
 			1

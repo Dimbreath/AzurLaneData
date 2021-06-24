@@ -2,6 +2,18 @@ pg = pg or {}
 pg.weapon_property_109 = {}
 
 function ()
+	uv0.weapon_property_109[64069] = {
+		id = 64069,
+		name = "小天城战列技能-LV9",
+		damage = 38,
+		base = 64061
+	}
+	uv0.weapon_property_109[64070] = {
+		id = 64070,
+		name = "小天城战列技能-LV10",
+		damage = 40,
+		base = 64061
+	}
 	uv0.weapon_property_109[64071] = {
 		action_index = "attack",
 		range = 50,
@@ -799,54 +811,5 @@ function ()
 		bullet_ID = {
 			64130
 		}
-	}
-	uv0.weapon_property_109[64131] = {
-		action_index = "",
-		range = 80,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = -10,
-		shakescreen = 0,
-		name = "提康德罗加火箭弹 x6",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 45,
-		charge_param = "",
-		damage = 65,
-		corrected = 100,
-		min_range = 0,
-		id = 64131,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19302
-		},
-		barrage_ID = {
-			81099
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_109[64132] = {
-		id = 64132,
-		damage = 78,
-		base = 64131
 	}
 end()

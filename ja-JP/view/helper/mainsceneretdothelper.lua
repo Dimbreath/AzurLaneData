@@ -4,10 +4,6 @@ function slot0.Ctor(slot0, slot1)
 	slot0._tf = tf(slot1)
 	slot0.listener = {}
 	slot0.redDotMgr = pg.RedDotMgr.GetInstance()
-	slot5 = {
-		slot6
-	}
-	slot6 = pg.RedDotMgr.TYPES.ACT_RETURN
 	slot0.nodes = {
 		RedDotNode.New(slot0._tf:Find("toTop/frame/bottomPanel/btm/buttons_container/taskButton/tip"), {
 			pg.RedDotMgr.TYPES.TASK
@@ -60,14 +56,12 @@ function slot0.Ctor(slot0, slot1)
 		EffectRedDotNode.New(slot0._tf:Find("toTop/frame/commanderPanel/link_btns/traningcamp"), {
 			pg.RedDotMgr.TYPES.ACT_NEWBIE
 		}),
-		EffectRedDotNode.New(slot0._tf:Find("toTop/frame/commanderPanel/link_btns/return"), slot5)
+		EffectRedDotNode.New(slot0._tf:Find("toTop/frame/commanderPanel/link_btns/return"), {
+			pg.RedDotMgr.TYPES.ACT_RETURN
+		})
 	}
 
 	slot0.redDotMgr:RegisterRedDotNodes(slot0.nodes)
-
-	for slot5, slot6 in ipairs(slot0.nodes) do
-		slot6:Init()
-	end
 end
 
 function slot0.GetNotifyType(slot0)

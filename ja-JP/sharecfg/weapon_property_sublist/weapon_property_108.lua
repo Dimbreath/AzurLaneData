@@ -2,6 +2,28 @@ pg = pg or {}
 pg.weapon_property_108 = {}
 
 function ()
+	uv0.weapon_property_108[64007] = {
+		name = "U-37技能鱼雷弹幕LV7",
+		damage = 31,
+		base = 64001,
+		id = 64007,
+		barrage_ID = {
+			80991,
+			80992,
+			80993
+		}
+	}
+	uv0.weapon_property_108[64008] = {
+		name = "U-37技能鱼雷弹幕LV8",
+		damage = 33,
+		base = 64001,
+		id = 64008,
+		barrage_ID = {
+			80991,
+			80992,
+			80993
+		}
+	}
 	uv0.weapon_property_108[64009] = {
 		name = "U-37技能鱼雷弹幕LV9",
 		damage = 35,
@@ -611,18 +633,6 @@ function ()
 		id = 64068,
 		name = "小天城战列技能-LV8",
 		damage = 36,
-		base = 64061
-	}
-	uv0.weapon_property_108[64069] = {
-		id = 64069,
-		name = "小天城战列技能-LV9",
-		damage = 38,
-		base = 64061
-	}
-	uv0.weapon_property_108[64070] = {
-		id = 64070,
-		name = "小天城战列技能-LV10",
-		damage = 40,
 		base = 64061
 	}
 end()

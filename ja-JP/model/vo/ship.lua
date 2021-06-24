@@ -654,6 +654,34 @@ function slot0.isSkillLevelMax(slot0, slot1)
 	return pg.skill_data_template[slot1].max_level <= (slot2.level and slot2.level or 1)
 end
 
+function slot0.isAllMetaSkillLevelMax(slot0)
+	slot1 = true
+
+	for slot6, slot7 in ipairs(MetaCharacterConst.getTacticsSkillIDListByShipConfigID(slot0.configId)) do
+		if not slot0:isSkillLevelMax(slot7) then
+			slot1 = false
+
+			break
+		end
+	end
+
+	return slot1
+end
+
+function slot0.isAllMetaSkillLock(slot0)
+	slot2 = true
+
+	for slot6, slot7 in ipairs(MetaCharacterConst.getTacticsSkillIDListByShipConfigID(slot0.configId)) do
+		if slot0:getMetaSkillLevelBySkillID(slot7) > 0 then
+			slot2 = false
+
+			break
+		end
+	end
+
+	return slot2
+end
+
 function slot0.canAddAttr(slot0, slot1)
 	return slot0:getAttrValue(slot1) < slot0:getMaxAddAttr(slot1), slot2 / slot3
 end

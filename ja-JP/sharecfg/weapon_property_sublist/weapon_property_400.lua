@@ -2,6 +2,717 @@ pg = pg or {}
 pg.weapon_property_400 = {}
 
 function ()
+	uv0.weapon_property_400[2966011] = {
+		aim_type = 1,
+		range = 120,
+		damage = 3,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第一波 光弹扩散 LV2",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 2,
+		id = 2966011,
+		type = 1,
+		action_index = "attack",
+		bullet_ID = {
+			29644006,
+			29644007
+		},
+		barrage_ID = {
+			29644008,
+			29644009
+		}
+	}
+	uv0.weapon_property_400[2966012] = {
+		aim_type = 1,
+		range = 120,
+		damage = 4,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第一波 光弹扩散 LV3",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 2,
+		id = 2966012,
+		type = 1,
+		action_index = "attack",
+		bullet_ID = {
+			29644006,
+			29644007
+		},
+		barrage_ID = {
+			29644008,
+			29644009
+		}
+	}
+	uv0.weapon_property_400[2966013] = {
+		aim_type = 1,
+		range = 120,
+		damage = 5,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第一波 光弹扩散 LV4",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 2,
+		id = 2966013,
+		type = 1,
+		action_index = "attack",
+		bullet_ID = {
+			29644006,
+			29644007
+		},
+		barrage_ID = {
+			29644008,
+			29644009
+		}
+	}
+	uv0.weapon_property_400[2966014] = {
+		aim_type = 1,
+		range = 120,
+		damage = 6,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第一波 光弹扩散 LV5",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 2,
+		id = 2966014,
+		type = 1,
+		action_index = "attack",
+		bullet_ID = {
+			29644006,
+			29644007
+		},
+		barrage_ID = {
+			29644008,
+			29644009
+		}
+	}
+	uv0.weapon_property_400[2966020] = {
+		aim_type = 1,
+		range = 120,
+		damage = 2,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第一波 高速移动红色自机狙 LV1",
+		fire_fx = "",
+		suppress = 1,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		queue = 3,
+		id = 2966020,
+		type = 1,
+		action_index = "attack",
+		bullet_ID = {
+			29644010,
+			29644010,
+			29644010,
+			29644010
+		},
+		barrage_ID = {
+			29644013,
+			29644014,
+			29644015,
+			29644016
+		}
+	}
+	uv0.weapon_property_400[2966021] = {
+		aim_type = 1,
+		range = 120,
+		damage = 3,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第一波 高速移动红色自机狙 LV2",
+		fire_fx = "",
+		suppress = 1,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		queue = 3,
+		id = 2966021,
+		type = 1,
+		action_index = "attack",
+		bullet_ID = {
+			29644010,
+			29644010,
+			29644010,
+			29644010
+		},
+		barrage_ID = {
+			29644013,
+			29644014,
+			29644015,
+			29644016
+		}
+	}
+	uv0.weapon_property_400[2966022] = {
+		aim_type = 1,
+		range = 120,
+		damage = 4,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第一波 高速移动红色自机狙 LV3",
+		fire_fx = "",
+		suppress = 1,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		queue = 3,
+		id = 2966022,
+		type = 1,
+		action_index = "attack",
+		bullet_ID = {
+			29644010,
+			29644010,
+			29644010,
+			29644010
+		},
+		barrage_ID = {
+			29644013,
+			29644014,
+			29644015,
+			29644016
+		}
+	}
+	uv0.weapon_property_400[2966023] = {
+		aim_type = 1,
+		range = 120,
+		damage = 6,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第一波 高速移动红色自机狙 LV4",
+		fire_fx = "",
+		suppress = 1,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		queue = 3,
+		id = 2966023,
+		type = 1,
+		action_index = "attack",
+		bullet_ID = {
+			29644010,
+			29644010,
+			29644010,
+			29644010
+		},
+		barrage_ID = {
+			29644013,
+			29644014,
+			29644015,
+			29644016
+		}
+	}
+	uv0.weapon_property_400[2966024] = {
+		aim_type = 1,
+		range = 120,
+		damage = 8,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第一波 高速移动红色自机狙 LV5",
+		fire_fx = "",
+		suppress = 1,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		queue = 3,
+		id = 2966024,
+		type = 1,
+		action_index = "attack",
+		bullet_ID = {
+			29644010,
+			29644010,
+			29644010,
+			29644010
+		},
+		barrage_ID = {
+			29644013,
+			29644014,
+			29644015,
+			29644016
+		}
+	}
+	uv0.weapon_property_400[2966030] = {
+		aim_type = 0,
+		range = 120,
+		damage = 2,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第二波 箭头弹幕 LV1",
+		fire_fx = "",
+		suppress = 0,
+		reload_max = 5000,
+		type = 1,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2966030,
+		action_index = "attack",
+		bullet_ID = {
+			29644015
+		},
+		barrage_ID = {
+			29644020
+		}
+	}
+	uv0.weapon_property_400[2966031] = {
+		aim_type = 0,
+		range = 120,
+		damage = 3,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第二波 箭头弹幕 LV2",
+		fire_fx = "",
+		suppress = 0,
+		reload_max = 5000,
+		type = 1,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2966031,
+		action_index = "attack",
+		bullet_ID = {
+			29644015
+		},
+		barrage_ID = {
+			29644020
+		}
+	}
+	uv0.weapon_property_400[2966032] = {
+		aim_type = 0,
+		range = 120,
+		damage = 4,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第二波 箭头弹幕 LV3",
+		fire_fx = "",
+		suppress = 0,
+		reload_max = 5000,
+		type = 1,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2966032,
+		action_index = "attack",
+		bullet_ID = {
+			29644015
+		},
+		barrage_ID = {
+			29644020
+		}
+	}
+	uv0.weapon_property_400[2966033] = {
+		aim_type = 0,
+		range = 120,
+		damage = 6,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第二波 箭头弹幕 LV4",
+		fire_fx = "",
+		suppress = 0,
+		reload_max = 5000,
+		type = 1,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2966033,
+		action_index = "attack",
+		bullet_ID = {
+			29644015
+		},
+		barrage_ID = {
+			29644020
+		}
+	}
+	uv0.weapon_property_400[2966034] = {
+		aim_type = 0,
+		range = 120,
+		damage = 8,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第二波 箭头弹幕 LV5",
+		fire_fx = "",
+		suppress = 0,
+		reload_max = 5000,
+		type = 1,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 2966034,
+		action_index = "attack",
+		bullet_ID = {
+			29644015
+		},
+		barrage_ID = {
+			29644020
+		}
+	}
+	uv0.weapon_property_400[2966040] = {
+		aim_type = 0,
+		range = 120,
+		damage = 2,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第二波 小激光束 LV1",
+		fire_fx = "",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		queue = 1,
+		id = 2966040,
+		type = 1,
+		action_index = "attack",
+		bullet_ID = {
+			29644011
+		},
+		barrage_ID = {
+			29644017
+		}
+	}
+	uv0.weapon_property_400[2966041] = {
+		aim_type = 0,
+		range = 120,
+		damage = 3,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第二波 小激光束 LV2",
+		fire_fx = "",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		queue = 1,
+		id = 2966041,
+		type = 1,
+		action_index = "attack",
+		bullet_ID = {
+			29644011
+		},
+		barrage_ID = {
+			29644017
+		}
+	}
+	uv0.weapon_property_400[2966042] = {
+		aim_type = 0,
+		range = 120,
+		damage = 4,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第二波 小激光束 LV3",
+		fire_fx = "",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		queue = 1,
+		id = 2966042,
+		type = 1,
+		action_index = "attack",
+		bullet_ID = {
+			29644011
+		},
+		barrage_ID = {
+			29644017
+		}
+	}
+	uv0.weapon_property_400[2966043] = {
+		aim_type = 0,
+		range = 120,
+		damage = 5,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第二波 小激光束 LV4",
+		fire_fx = "",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		queue = 1,
+		id = 2966043,
+		type = 1,
+		action_index = "attack",
+		bullet_ID = {
+			29644011
+		},
+		barrage_ID = {
+			29644017
+		}
+	}
+	uv0.weapon_property_400[2966044] = {
+		aim_type = 0,
+		range = 120,
+		damage = 6,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第二波 小激光束 LV5",
+		fire_fx = "",
+		suppress = 0,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		queue = 1,
+		id = 2966044,
+		type = 1,
+		action_index = "attack",
+		bullet_ID = {
+			29644011
+		},
+		barrage_ID = {
+			29644017
+		}
+	}
+	uv0.weapon_property_400[2966050] = {
+		aim_type = 1,
+		range = 120,
+		damage = 2,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第二波 环状链子弹幕 LV1",
+		fire_fx = "",
+		suppress = 1,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		queue = 2,
+		id = 2966050,
+		type = 1,
+		action_index = "attack",
+		bullet_ID = {
+			29644022,
+			29644022,
+			29644022,
+			29644022,
+			29644022,
+			29644022,
+			29644022,
+			29644022
+		},
+		barrage_ID = {
+			29644027,
+			29644028,
+			29644029,
+			29644030,
+			29644031,
+			29644032,
+			29644033,
+			29644034
+		}
+	}
+	uv0.weapon_property_400[2966051] = {
+		aim_type = 1,
+		range = 120,
+		damage = 4,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第二波 环状链子弹幕 LV2",
+		fire_fx = "",
+		suppress = 1,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		queue = 2,
+		id = 2966051,
+		type = 1,
+		action_index = "attack",
+		bullet_ID = {
+			29644022,
+			29644022,
+			29644022,
+			29644022,
+			29644022,
+			29644022,
+			29644022,
+			29644022
+		},
+		barrage_ID = {
+			29644027,
+			29644028,
+			29644029,
+			29644030,
+			29644031,
+			29644032,
+			29644033,
+			29644034
+		}
+	}
+	uv0.weapon_property_400[2966052] = {
+		aim_type = 1,
+		range = 120,
+		damage = 6,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第二波 环状链子弹幕 LV3",
+		fire_fx = "",
+		suppress = 1,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		queue = 2,
+		id = 2966052,
+		type = 1,
+		action_index = "attack",
+		bullet_ID = {
+			29644022,
+			29644022,
+			29644022,
+			29644022,
+			29644022,
+			29644022,
+			29644022,
+			29644022
+		},
+		barrage_ID = {
+			29644027,
+			29644028,
+			29644029,
+			29644030,
+			29644031,
+			29644032,
+			29644033,
+			29644034
+		}
+	}
+	uv0.weapon_property_400[2966053] = {
+		aim_type = 1,
+		range = 120,
+		damage = 8,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第二波 环状链子弹幕 LV4",
+		fire_fx = "",
+		suppress = 1,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		queue = 2,
+		id = 2966053,
+		type = 1,
+		action_index = "attack",
+		bullet_ID = {
+			29644022,
+			29644022,
+			29644022,
+			29644022,
+			29644022,
+			29644022,
+			29644022,
+			29644022
+		},
+		barrage_ID = {
+			29644027,
+			29644028,
+			29644029,
+			29644030,
+			29644031,
+			29644032,
+			29644033,
+			29644034
+		}
+	}
+	uv0.weapon_property_400[2966054] = {
+		aim_type = 1,
+		range = 120,
+		damage = 10,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第二波 环状链子弹幕 LV5",
+		fire_fx = "",
+		suppress = 1,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		queue = 2,
+		id = 2966054,
+		type = 1,
+		action_index = "attack",
+		bullet_ID = {
+			29644022,
+			29644022,
+			29644022,
+			29644022,
+			29644022,
+			29644022,
+			29644022,
+			29644022
+		},
+		barrage_ID = {
+			29644027,
+			29644028,
+			29644029,
+			29644030,
+			29644031,
+			29644032,
+			29644033,
+			29644034
+		}
+	}
+	uv0.weapon_property_400[2966060] = {
+		aim_type = 1,
+		range = 120,
+		damage = 2,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第二波 自机狙 LV1",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 3,
+		id = 2966060,
+		type = 1,
+		action_index = "attack",
+		bullet_ID = {
+			29644023,
+			29644024,
+			29644025,
+			29644026,
+			29644027,
+			29644028,
+			29644029,
+			29644030,
+			29644031,
+			29644032
+		},
+		barrage_ID = {
+			29644035,
+			29644036,
+			29644037,
+			29644038,
+			29644039,
+			29644040,
+			29644041,
+			29644042,
+			29644043,
+			29644044
+		}
+	}
+	uv0.weapon_property_400[2966061] = {
+		aim_type = 1,
+		range = 120,
+		damage = 3,
+		base = 1000,
+		name = "【大世界】黑海伦娜 第二波 自机狙 LV2",
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 5000,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		queue = 3,
+		id = 2966061,
+		type = 1,
+		action_index = "attack",
+		bullet_ID = {
+			29644023,
+			29644024,
+			29644025,
+			29644026,
+			29644027,
+			29644028,
+			29644029,
+			29644030,
+			29644031,
+			29644032
+		},
+		barrage_ID = {
+			29644035,
+			29644036,
+			29644037,
+			29644038,
+			29644039,
+			29644040,
+			29644041,
+			29644042,
+			29644043,
+			29644044
+		}
+	}
 	uv0.weapon_property_400[2966062] = {
 		aim_type = 1,
 		range = 120,

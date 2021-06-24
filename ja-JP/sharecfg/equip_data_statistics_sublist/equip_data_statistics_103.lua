@@ -1,102 +1,118 @@
 pg = pg or {}
 pg.equip_data_statistics_103 = {
-	[14263] = {
-		id = 14263,
+	[14241] = {
+		id = 14241,
+		damage = "68 x 2",
+		base = 14240,
+		weapon_id = {
+			14241
+		}
+	},
+	[14242] = {
+		id = 14242,
+		damage = "76 x 2",
+		base = 14240,
+		weapon_id = {
+			14242
+		}
+	},
+	[14243] = {
+		id = 14243,
 		damage = "86 x 2",
-		base = 14260,
+		base = 14240,
 		weapon_id = {
-			14263
+			14243
 		}
 	},
-	[14264] = {
-		id = 14264,
+	[14244] = {
+		id = 14244,
 		damage = "96 x 2",
-		base = 14260,
+		base = 14240,
 		weapon_id = {
-			14264
+			14244
 		}
 	},
-	[14265] = {
-		id = 14265,
+	[14245] = {
+		id = 14245,
 		damage = "106 x 2",
-		base = 14260,
+		base = 14240,
 		weapon_id = {
-			14265
+			14245
 		}
 	},
-	[14266] = {
-		id = 14266,
+	[14246] = {
+		id = 14246,
 		damage = "116 x 2",
-		base = 14260,
+		base = 14240,
 		weapon_id = {
-			14266
+			14246
 		}
 	},
-	[14267] = {
-		id = 14267,
+	[14247] = {
+		id = 14247,
 		damage = "124 x 2",
-		base = 14260,
+		base = 14240,
 		weapon_id = {
-			14267
+			14247
 		}
 	},
-	[14268] = {
-		id = 14268,
+	[14248] = {
+		id = 14248,
 		damage = "134 x 2",
-		base = 14260,
+		base = 14240,
 		weapon_id = {
-			14268
+			14248
 		}
 	},
-	[14269] = {
-		id = 14269,
+	[14249] = {
+		id = 14249,
 		damage = "144 x 2",
-		base = 14260,
+		base = 14240,
 		weapon_id = {
-			14269
+			14249
 		}
 	},
-	[14270] = {
-		id = 14270,
+	[14250] = {
+		id = 14250,
 		damage = "154 x 2",
-		base = 14260,
+		base = 14240,
 		weapon_id = {
-			14270
+			14250
 		}
 	},
-	[14271] = {
+	[14251] = {
 		anti_siren = 100,
 		damage = "154 x 2",
-		base = 14260,
-		id = 14271,
+		base = 14240,
+		id = 14251,
 		weapon_id = {
-			14271
+			14251
 		}
 	},
-	[14300] = {
-		name = "406mm三連装砲MK6",
+	[14260] = {
+		name = "406mm連装砲Mk8",
 		speciality = "投射",
 		type = 4,
-		tech = 1,
+		tech = 0,
 		descrip = "0",
-		value_2 = 5,
-		icon = "14300",
+		value_2 = 25,
+		icon = "14260",
 		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "50 x 3",
+		rarity = 4,
+		damage = "58 x 2",
 		nationality = 1,
-		ammo = 3,
+		ammo = 1,
 		value_3 = 0,
-		id = 14300,
+		id = 14260,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
-			1
+			2
 		},
 		ammo_info = {
 			{
 				2,
-				1510
+				1501
 			}
 		},
 		equip_info = {
@@ -108,83 +124,7 @@ pg.equip_data_statistics_103 = {
 			12
 		},
 		weapon_id = {
-			14300
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"BB",
-			"MG"
-		}
-	},
-	[14301] = {
-		id = 14301,
-		damage = "58 x 3",
-		base = 14300,
-		weapon_id = {
-			14301
-		}
-	},
-	[14302] = {
-		id = 14302,
-		damage = "66 x 3",
-		base = 14300,
-		weapon_id = {
-			14302
-		}
-	},
-	[14303] = {
-		id = 14303,
-		damage = "74 x 3",
-		base = 14300,
-		weapon_id = {
-			14303
-		}
-	},
-	[14320] = {
-		name = "406mm三連装砲MK6",
-		speciality = "投射",
-		type = 4,
-		tech = 2,
-		descrip = "0",
-		value_2 = 12,
-		icon = "14300",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "55 x 3",
-		nationality = 1,
-		ammo = 2,
-		value_3 = 0,
-		id = 14320,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				2,
-				1512
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			14320
+			14260
 		},
 		skill_id = {},
 		part_main = {
@@ -199,23 +139,39 @@ pg.equip_data_statistics_103 = {
 			"USS",
 			"BB",
 			"MG",
-			"HE"
+			"AP"
 		}
 	},
-	[14321] = {
-		id = 14321,
-		damage = "64 x 3",
-		base = 14320,
+	[14261] = {
+		id = 14261,
+		damage = "68 x 2",
+		base = 14260,
 		weapon_id = {
-			14321
+			14261
 		}
 	},
-	[14322] = {
-		id = 14322,
-		damage = "73 x 3",
-		base = 14320,
+	[14262] = {
+		id = 14262,
+		damage = "76 x 2",
+		base = 14260,
 		weapon_id = {
-			14322
+			14262
+		}
+	},
+	[14263] = {
+		id = 14263,
+		damage = "86 x 2",
+		base = 14260,
+		weapon_id = {
+			14263
+		}
+	},
+	[14264] = {
+		id = 14264,
+		damage = "96 x 2",
+		base = 14260,
+		weapon_id = {
+			14264
 		}
 	}
 }

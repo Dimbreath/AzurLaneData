@@ -2,12 +2,40 @@ slot0 = class("LoadingPanel", import("..base.BaseUI"))
 
 function slot0.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0)
-	PoolMgr.GetInstance():GetUI("Loading", true, function (slot0)
-		slot0.transform:SetParent(GameObject.Find("Overlay/UIOverlay").transform, false)
-		slot0:SetActive(false)
-		uv0:onUILoaded(slot0)
-		uv1()
+	seriesAsync({
+		function (slot0)
+			uv0:preload(slot0)
+		end
+	}, function ()
+		PoolMgr.GetInstance():GetUI("Loading", true, function (slot0)
+			slot0.transform:SetParent(GameObject.Find("Overlay/UIOverlay").transform, false)
+			slot0:SetActive(false)
+			uv0:onUILoaded(slot0)
+			uv1()
+		end)
 	end)
+end
+
+function slot0.preload(slot0, slot1)
+	slot0.isCri, slot0.bgPath = getLoginConfig()
+
+	if slot0.isCri then
+		LoadAndInstantiateAsync("effect", slot0.bgPath, function (slot0)
+			uv0.criBgGo = slot0
+
+			if uv1 then
+				uv1()
+			end
+		end)
+	else
+		LoadSpriteAsync("loadingbg/" .. slot0.bgPath, function (slot0)
+			uv0.staticBgSprite = slot0
+
+			if uv1 then
+				uv1()
+			end
+		end)
+	end
 end
 
 function slot0.init(slot0)
@@ -84,19 +112,21 @@ function slot0.displayBG(slot0, slot1)
 	slot2 = GetComponent(slot0.bg, "Image")
 
 	if slot1 then
-		if IsNil(slot2.sprite) then
-			slot3 = "login"
-
-			for slot8, slot9 in ipairs(SPECIAL_DATE) do
-				if slot9[1] == pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y%m%d") then
-					slot3 = slot9[2]
-				end
+		if not slot0.isCri then
+			if IsNil(slot2.sprite) then
+				slot2.sprite = slot0.staticBgSprite
 			end
+		elseif slot0.bg.childCount == 0 then
+			slot2.enabled = false
+			slot3 = slot0.criBgGo.transform
 
-			slot2.sprite = LoadSprite("loadingbg/" .. slot3)
+			slot3:SetParent(slot0.bg.transform, false)
+			slot3:SetAsFirstSibling()
 		end
-	else
+	elseif not slot0.isCri then
 		slot2.sprite = nil
+	else
+		removeAllChildren(slot0.bg)
 	end
 end
 

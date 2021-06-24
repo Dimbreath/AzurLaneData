@@ -82,17 +82,19 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Sレア</color>：12%",
 			"<color=#3dc6ff>レア</color>：51%",
 			"ノーマル：30%",
-			"<color=#ffde38>ヴィットリオ・ヴェネト</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>龍鳳</color>：2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>アクィラ</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>駿河</color>：2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>ドゥーカ・デッリ・アブルッツィ</color>：0.5%",
+			"<color=#ffde38>風雲</color>：2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>マエストラーレ</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>能代</color>：0.5%",
 			" ",
-			"<color=#d797ff>リベッチオ</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>霞</color>：2.5%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>ニコロソ・ダ・レッコ</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>白雪</color>：2.5%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#d797ff>鬼怒</color>：0.7%"
 		}
 	},
 	{

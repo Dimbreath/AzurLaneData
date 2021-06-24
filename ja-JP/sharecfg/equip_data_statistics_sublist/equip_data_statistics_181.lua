@@ -1,54 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_181 = {
-	[25211] = {
+	[25149] = {
+		id = 25149,
+		damage = "149 x 3",
+		base = 25140,
+		weapon_id = {
+			25149
+		}
+	},
+	[25150] = {
+		id = 25150,
+		damage = "159 x 3",
+		base = 25140,
+		weapon_id = {
+			25150
+		}
+	},
+	[25151] = {
 		anti_siren = 100,
-		damage = "139 x 3",
-		base = 25200,
-		id = 25211,
+		damage = "159 x 3",
+		base = 25140,
+		id = 25151,
 		weapon_id = {
-			25211
+			25151
 		}
 	},
-	[25212] = {
-		anti_siren = 200,
-		damage = "139 x 3",
-		base = 25200,
-		id = 25212,
-		weapon_id = {
-			25212
-		}
-	},
-	[25213] = {
-		anti_siren = 300,
-		damage = "139 x 3",
-		base = 25200,
-		id = 25213,
-		weapon_id = {
-			25213
-		}
-	},
-	[25300] = {
-		name = "潜水艦用Mark20(S)魚雷“Bidder”",
+	[25200] = {
+		name = "潜水艦用Mark12魚雷“Ferry”",
 		speciality = "雷撃",
 		type = 13,
 		tech = 0,
 		descrip = "0",
 		value_2 = 45,
-		icon = "25300",
+		icon = "25200",
 		attribute_2 = "torpedo",
 		rarity = 5,
-		damage = "70 x 3",
+		damage = "56 x 3",
 		nationality = 2,
-		ammo = 4,
+		ammo = 5,
 		value_3 = 0,
-		id = 25300,
+		id = 25200,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				3,
-				1831
+				1830
 			}
 		},
 		equip_info = {
@@ -56,7 +54,7 @@ pg.equip_data_statistics_181 = {
 			2,
 			{
 				3,
-				1831
+				1830
 			},
 			{
 				4,
@@ -68,7 +66,7 @@ pg.equip_data_statistics_181 = {
 			12
 		},
 		weapon_id = {
-			25300
+			25200
 		},
 		skill_id = {},
 		part_main = {
@@ -86,102 +84,102 @@ pg.equip_data_statistics_181 = {
 			"TP"
 		}
 	},
-	[25301] = {
-		id = 25301,
+	[25201] = {
+		id = 25201,
+		damage = "64 x 3",
+		base = 25200,
+		weapon_id = {
+			25201
+		}
+	},
+	[25202] = {
+		id = 25202,
+		damage = "72 x 3",
+		base = 25200,
+		weapon_id = {
+			25202
+		}
+	},
+	[25203] = {
+		id = 25203,
 		damage = "80 x 3",
-		base = 25300,
+		base = 25200,
 		weapon_id = {
-			25301
+			25203
 		}
 	},
-	[25302] = {
-		id = 25302,
-		damage = "90 x 3",
-		base = 25300,
+	[25204] = {
+		id = 25204,
+		damage = "88 x 3",
+		base = 25200,
 		weapon_id = {
-			25302
+			25204
 		}
 	},
-	[25303] = {
-		id = 25303,
-		damage = "100 x 3",
-		base = 25300,
+	[25205] = {
+		id = 25205,
+		damage = "96 x 3",
+		base = 25200,
 		weapon_id = {
-			25303
+			25205
 		}
 	},
-	[25304] = {
-		id = 25304,
-		damage = "110 x 3",
-		base = 25300,
+	[25206] = {
+		id = 25206,
+		damage = "104 x 3",
+		base = 25200,
 		weapon_id = {
-			25304
+			25206
 		}
 	},
-	[25305] = {
-		id = 25305,
-		damage = "121 x 3",
-		base = 25300,
+	[25207] = {
+		id = 25207,
+		damage = "113 x 3",
+		base = 25200,
 		weapon_id = {
-			25305
+			25207
 		}
 	},
-	[25306] = {
-		id = 25306,
-		damage = "132 x 3",
-		base = 25300,
+	[25208] = {
+		id = 25208,
+		damage = "122 x 3",
+		base = 25200,
 		weapon_id = {
-			25306
+			25208
 		}
 	},
-	[25307] = {
-		id = 25307,
-		damage = "143 x 3",
-		base = 25300,
+	[25209] = {
+		id = 25209,
+		damage = "130 x 3",
+		base = 25200,
 		weapon_id = {
-			25307
+			25209
 		}
 	},
-	[25308] = {
-		id = 25308,
-		damage = "154 x 3",
-		base = 25300,
+	[25210] = {
+		id = 25210,
+		damage = "139 x 3",
+		base = 25200,
 		weapon_id = {
-			25308
+			25210
 		}
 	},
-	[25309] = {
-		id = 25309,
-		damage = "165 x 3",
-		base = 25300,
-		weapon_id = {
-			25309
-		}
-	},
-	[25310] = {
-		id = 25310,
-		damage = "176 x 3",
-		base = 25300,
-		weapon_id = {
-			25310
-		}
-	},
-	[25311] = {
+	[25211] = {
 		anti_siren = 100,
-		damage = "176 x 3",
-		base = 25300,
-		id = 25311,
+		damage = "139 x 3",
+		base = 25200,
+		id = 25211,
 		weapon_id = {
-			25311
+			25211
 		}
 	},
-	[25312] = {
+	[25212] = {
 		anti_siren = 200,
-		damage = "176 x 3",
-		base = 25300,
-		id = 25312,
+		damage = "139 x 3",
+		base = 25200,
+		id = 25212,
 		weapon_id = {
-			25312
+			25212
 		}
 	}
 }
