@@ -2,6 +2,214 @@ pg = pg or {}
 pg.weapon_property_118 = {}
 
 function ()
+	uv0.weapon_property_118[65358] = {
+		id = 65358,
+		name = "凪咲弹幕技能小子弹LV8",
+		damage = 17,
+		base = 65351
+	}
+	uv0.weapon_property_118[65359] = {
+		id = 65359,
+		name = "凪咲弹幕技能小子弹LV9",
+		damage = 18,
+		base = 65351
+	}
+	uv0.weapon_property_118[65360] = {
+		id = 65360,
+		name = "凪咲弹幕技能小子弹LV10",
+		damage = 20,
+		base = 65351
+	}
+	uv0.weapon_property_118[65361] = {
+		action_index = "attack",
+		range = 100,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "莫妮卡扑克牌Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 6,
+		corrected = 100,
+		min_range = 0,
+		id = 65361,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 280,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19232
+		},
+		barrage_ID = {
+			80976
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_118[65362] = {
+		id = 65362,
+		name = "莫妮卡扑克牌Lv2",
+		damage = 8,
+		base = 65361
+	}
+	uv0.weapon_property_118[65363] = {
+		id = 65363,
+		name = "莫妮卡扑克牌Lv3",
+		damage = 10,
+		base = 65361
+	}
+	uv0.weapon_property_118[65364] = {
+		id = 65364,
+		name = "莫妮卡扑克牌Lv4",
+		damage = 12,
+		base = 65361
+	}
+	uv0.weapon_property_118[65365] = {
+		id = 65365,
+		name = "莫妮卡扑克牌Lv5",
+		damage = 14,
+		base = 65361
+	}
+	uv0.weapon_property_118[65366] = {
+		id = 65366,
+		name = "莫妮卡扑克牌Lv6",
+		damage = 16,
+		base = 65361
+	}
+	uv0.weapon_property_118[65367] = {
+		id = 65367,
+		name = "莫妮卡扑克牌Lv7",
+		damage = 18,
+		base = 65361
+	}
+	uv0.weapon_property_118[65368] = {
+		id = 65368,
+		name = "莫妮卡扑克牌Lv8",
+		damage = 20,
+		base = 65361
+	}
+	uv0.weapon_property_118[65369] = {
+		id = 65369,
+		name = "莫妮卡扑克牌Lv9",
+		damage = 22,
+		base = 65361
+	}
+	uv0.weapon_property_118[65370] = {
+		id = 65370,
+		name = "莫妮卡扑克牌Lv10",
+		damage = 25,
+		base = 65361
+	}
+	uv0.weapon_property_118[65371] = {
+		action_index = "attack",
+		range = 100,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "莫妮卡特殊弹Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 360,
+		charge_param = "",
+		damage = 10,
+		corrected = 100,
+		min_range = 0,
+		id = 65371,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 280,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19233
+		},
+		barrage_ID = {
+			80976
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_118[65372] = {
+		id = 65372,
+		name = "莫妮卡特殊弹Lv2",
+		damage = 12,
+		base = 65371
+	}
+	uv0.weapon_property_118[65373] = {
+		id = 65373,
+		name = "莫妮卡特殊弹Lv3",
+		damage = 14,
+		base = 65371
+	}
+	uv0.weapon_property_118[65374] = {
+		id = 65374,
+		name = "莫妮卡特殊弹Lv4",
+		damage = 16,
+		base = 65371
+	}
+	uv0.weapon_property_118[65375] = {
+		id = 65375,
+		name = "莫妮卡特殊弹Lv5",
+		damage = 18,
+		base = 65371
+	}
+	uv0.weapon_property_118[65376] = {
+		id = 65376,
+		name = "莫妮卡特殊弹Lv6",
+		damage = 20,
+		base = 65371
+	}
+	uv0.weapon_property_118[65377] = {
+		id = 65377,
+		name = "莫妮卡特殊弹Lv7",
+		damage = 22,
+		base = 65371
+	}
+	uv0.weapon_property_118[65378] = {
+		id = 65378,
+		name = "莫妮卡特殊弹Lv8",
+		damage = 24,
+		base = 65371
+	}
+	uv0.weapon_property_118[65379] = {
+		id = 65379,
+		name = "莫妮卡特殊弹Lv9",
+		damage = 26,
+		base = 65371
+	}
 	uv0.weapon_property_118[65380] = {
 		id = 65380,
 		name = "莫妮卡特殊弹Lv10",
@@ -425,257 +633,5 @@ function ()
 		name = "穗香-类霞樱花天舞袭弹幕LV9",
 		damage = 18,
 		base = 65411
-	}
-	uv0.weapon_property_118[65420] = {
-		id = 65420,
-		name = "穗香-类霞樱花天舞袭弹幕LV10",
-		damage = 20,
-		base = 65411
-	}
-	uv0.weapon_property_118[65421] = {
-		action_index = "attack",
-		range = 200,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "穗香-类海咲强化石弹幕Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 10,
-		corrected = 100,
-		min_range = 0,
-		id = 65421,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19238,
-			19238,
-			19238
-		},
-		barrage_ID = {
-			80977,
-			80978,
-			80979
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_118[65422] = {
-		id = 65422,
-		name = "穗香-类海咲强化石弹幕Lv2",
-		damage = 11,
-		base = 65421
-	}
-	uv0.weapon_property_118[65423] = {
-		id = 65423,
-		name = "穗香-类海咲强化石弹幕Lv3",
-		damage = 12,
-		base = 65421
-	}
-	uv0.weapon_property_118[65424] = {
-		id = 65424,
-		name = "穗香-类海咲强化石弹幕Lv4",
-		damage = 13,
-		base = 65421
-	}
-	uv0.weapon_property_118[65425] = {
-		id = 65425,
-		name = "穗香-类海咲强化石弹幕Lv5",
-		damage = 14,
-		base = 65421
-	}
-	uv0.weapon_property_118[65426] = {
-		id = 65426,
-		name = "穗香-类海咲强化石弹幕Lv6",
-		damage = 15,
-		base = 65421
-	}
-	uv0.weapon_property_118[65427] = {
-		id = 65427,
-		name = "穗香-类海咲强化石弹幕Lv7",
-		damage = 16,
-		base = 65421
-	}
-	uv0.weapon_property_118[65428] = {
-		id = 65428,
-		name = "穗香-类海咲强化石弹幕Lv8",
-		damage = 17,
-		base = 65421
-	}
-	uv0.weapon_property_118[65429] = {
-		id = 65429,
-		name = "穗香-类海咲强化石弹幕Lv9",
-		damage = 18,
-		base = 65421
-	}
-	uv0.weapon_property_118[65430] = {
-		id = 65430,
-		name = "穗香-类海咲强化石弹幕Lv10",
-		damage = 20,
-		base = 65421
-	}
-	uv0.weapon_property_118[65431] = {
-		action_index = "attack",
-		range = 200,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "穗香-类莫妮卡扑克牌Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 360,
-		charge_param = "",
-		damage = 6,
-		corrected = 100,
-		min_range = 0,
-		id = 65431,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 280,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19239
-		},
-		barrage_ID = {
-			80980
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_118[65432] = {
-		id = 65432,
-		name = "穗香-类莫妮卡扑克牌Lv2",
-		damage = 8,
-		base = 65431
-	}
-	uv0.weapon_property_118[65433] = {
-		id = 65433,
-		name = "穗香-类莫妮卡扑克牌Lv3",
-		damage = 10,
-		base = 65431
-	}
-	uv0.weapon_property_118[65434] = {
-		id = 65434,
-		name = "穗香-类莫妮卡扑克牌Lv4",
-		damage = 12,
-		base = 65431
-	}
-	uv0.weapon_property_118[65435] = {
-		id = 65435,
-		name = "穗香-类莫妮卡扑克牌Lv5",
-		damage = 14,
-		base = 65431
-	}
-	uv0.weapon_property_118[65436] = {
-		id = 65436,
-		name = "穗香-类莫妮卡扑克牌Lv6",
-		damage = 16,
-		base = 65431
-	}
-	uv0.weapon_property_118[65437] = {
-		id = 65437,
-		name = "穗香-类莫妮卡扑克牌Lv7",
-		damage = 18,
-		base = 65431
-	}
-	uv0.weapon_property_118[65438] = {
-		id = 65438,
-		name = "穗香-类莫妮卡扑克牌Lv8",
-		damage = 20,
-		base = 65431
-	}
-	uv0.weapon_property_118[65439] = {
-		id = 65439,
-		name = "穗香-类莫妮卡扑克牌Lv9",
-		damage = 22,
-		base = 65431
-	}
-	uv0.weapon_property_118[65440] = {
-		id = 65440,
-		name = "穗香-类莫妮卡扑克牌Lv10",
-		damage = 25,
-		base = 65431
-	}
-	uv0.weapon_property_118[65441] = {
-		action_index = "attack",
-		range = 200,
-		type = 1,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "飞龙META_斩击技能Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 360,
-		charge_param = "",
-		damage = 62,
-		corrected = 100,
-		min_range = 0,
-		id = 65441,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 1800,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			19241,
-			19242
-		},
-		barrage_ID = {
-			80981,
-			80982
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

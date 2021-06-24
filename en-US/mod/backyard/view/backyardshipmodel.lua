@@ -1034,8 +1034,7 @@ end
 function slot0.StartFollowBone(slot0, slot1)
 	slot2, slot3 = slot1:GetFollowBone()
 	slot0.tf.localScale = Vector3(slot3 * uv0, uv0, uv0)
-
-	SpineAnimUI.AddFollower(slot2, slot0.viewComponent:GetFurnitureGo(slot1.id):Find("icon/spine"), slot0.tf)
+	SpineAnimUI.AddFollower(slot2, slot0.viewComponent:GetFurnitureGo(slot1.id):Find("icon/spine"), slot0.tf):GetComponent("Spine.Unity.BoneFollowerGraphic").followLocalScale = true
 end
 
 function slot0.EndFollowBone(slot0, slot1)

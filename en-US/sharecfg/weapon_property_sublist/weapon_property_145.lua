@@ -2,6 +2,275 @@ pg = pg or {}
 pg.weapon_property_145 = {}
 
 function ()
+	uv0.weapon_property_145[67771] = {
+		action_index = "attack",
+		range = 50,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "天城鱼雷LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 80,
+		charge_param = "",
+		damage = 70,
+		corrected = 110,
+		min_range = 0,
+		id = 67771,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 5100,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			1807,
+			1807
+		},
+		barrage_ID = {
+			80508,
+			80509
+		},
+		oxy_type = {
+			1,
+			2
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_145[67772] = {
+		id = 67772,
+		name = "天城鱼雷LV2",
+		damage = 72,
+		base = 67771
+	}
+	uv0.weapon_property_145[67773] = {
+		id = 67773,
+		name = "天城鱼雷LV3",
+		damage = 75,
+		base = 67771
+	}
+	uv0.weapon_property_145[67774] = {
+		id = 67774,
+		name = "天城鱼雷LV4",
+		damage = 79,
+		base = 67771
+	}
+	uv0.weapon_property_145[67775] = {
+		id = 67775,
+		name = "天城鱼雷LV5",
+		damage = 84,
+		base = 67771
+	}
+	uv0.weapon_property_145[67776] = {
+		id = 67776,
+		name = "天城鱼雷LV6",
+		damage = 90,
+		base = 67771
+	}
+	uv0.weapon_property_145[67777] = {
+		id = 67777,
+		name = "天城鱼雷LV7",
+		damage = 97,
+		base = 67771
+	}
+	uv0.weapon_property_145[67778] = {
+		id = 67778,
+		name = "天城鱼雷LV8",
+		damage = 105,
+		base = 67771
+	}
+	uv0.weapon_property_145[67779] = {
+		id = 67779,
+		name = "天城鱼雷LV9",
+		damage = 114,
+		base = 67771
+	}
+	uv0.weapon_property_145[67780] = {
+		id = 67780,
+		name = "天城鱼雷LV10",
+		damage = 124,
+		base = 67771
+	}
+	uv0.weapon_property_145[67781] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "双龙改轰炸 Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 90,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 67781,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1890,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			67781
+		},
+		barrage_ID = {
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_145[67782] = {
+		id = 67782,
+		name = "双龙改轰炸 Lv2",
+		base = 67781,
+		bullet_ID = {
+			67782
+		}
+	}
+	uv0.weapon_property_145[67783] = {
+		id = 67783,
+		name = "双龙改轰炸 Lv3",
+		base = 67781,
+		bullet_ID = {
+			67783
+		}
+	}
+	uv0.weapon_property_145[67784] = {
+		id = 67784,
+		name = "双龙改轰炸 Lv4",
+		base = 67781,
+		bullet_ID = {
+			67784
+		}
+	}
+	uv0.weapon_property_145[67785] = {
+		id = 67785,
+		name = "双龙改轰炸 Lv5",
+		base = 67781,
+		bullet_ID = {
+			67785
+		}
+	}
+	uv0.weapon_property_145[67786] = {
+		id = 67786,
+		name = "双龙改轰炸 Lv6",
+		base = 67781,
+		bullet_ID = {
+			67786
+		}
+	}
+	uv0.weapon_property_145[67787] = {
+		id = 67787,
+		name = "双龙改轰炸 Lv7",
+		base = 67781,
+		bullet_ID = {
+			67787
+		}
+	}
+	uv0.weapon_property_145[67788] = {
+		id = 67788,
+		name = "双龙改轰炸 Lv8",
+		base = 67781,
+		bullet_ID = {
+			67788
+		}
+	}
+	uv0.weapon_property_145[67789] = {
+		id = 67789,
+		name = "双龙改轰炸 Lv9",
+		base = 67781,
+		bullet_ID = {
+			67789
+		}
+	}
+	uv0.weapon_property_145[67790] = {
+		id = 67790,
+		name = "双龙改轰炸 Lv10",
+		base = 67781,
+		bullet_ID = {
+			67790
+		}
+	}
+	uv0.weapon_property_145[67791] = {
+		action_index = "attack",
+		range = 90,
+		type = 11,
+		fire_fx = "",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "双龙改雷1 Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 10,
+		angle = 90,
+		charge_param = "",
+		damage = 1,
+		corrected = 100,
+		min_range = 0,
+		id = 67791,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		reload_max = 1890,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			67791
+		},
+		barrage_ID = {
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_145[67792] = {
+		id = 67792,
+		name = "双龙改雷1 Lv2",
+		base = 67791,
+		bullet_ID = {
+			67792
+		}
+	}
 	uv0.weapon_property_145[67793] = {
 		id = 67793,
 		name = "双龙改雷1 Lv3",
@@ -382,222 +651,5 @@ function ()
 		name = "足柄饿狼技能弹幕弹幕Lv2",
 		damage = 6,
 		base = 67861
-	}
-	uv0.weapon_property_145[67863] = {
-		id = 67863,
-		name = "足柄饿狼技能弹幕弹幕Lv3",
-		damage = 7,
-		base = 67861
-	}
-	uv0.weapon_property_145[67864] = {
-		id = 67864,
-		name = "足柄饿狼技能弹幕弹幕Lv4",
-		damage = 8,
-		base = 67861
-	}
-	uv0.weapon_property_145[67865] = {
-		id = 67865,
-		name = "足柄饿狼技能弹幕弹幕Lv5",
-		damage = 9,
-		base = 67861
-	}
-	uv0.weapon_property_145[67866] = {
-		id = 67866,
-		name = "足柄饿狼技能弹幕弹幕Lv6",
-		damage = 10,
-		base = 67861
-	}
-	uv0.weapon_property_145[67867] = {
-		id = 67867,
-		name = "足柄饿狼技能弹幕弹幕Lv7",
-		damage = 12,
-		base = 67861
-	}
-	uv0.weapon_property_145[67868] = {
-		id = 67868,
-		name = "足柄饿狼技能弹幕弹幕Lv8",
-		damage = 14,
-		base = 67861
-	}
-	uv0.weapon_property_145[67869] = {
-		id = 67869,
-		name = "足柄饿狼技能弹幕弹幕Lv9",
-		damage = 17,
-		base = 67861
-	}
-	uv0.weapon_property_145[67870] = {
-		id = 67870,
-		name = "足柄饿狼技能弹幕弹幕Lv10",
-		damage = 20,
-		base = 67861
-	}
-	uv0.weapon_property_145[67871] = {
-		action_index = "attack",
-		range = 200,
-		type = 23,
-		fire_fx = "zhupao",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "天城跨射弹幕LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 50,
-		damage = 127,
-		corrected = 100,
-		min_range = 35,
-		id = 67871,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			19977
-		},
-		barrage_ID = {
-			1300
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		charge_param = {
-			lockTime = 0.3,
-			maxLock = 2
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_145[67872] = {
-		id = 67872,
-		name = "天城跨射弹幕LV2",
-		damage = 134,
-		base = 67871
-	}
-	uv0.weapon_property_145[67873] = {
-		id = 67873,
-		name = "天城跨射弹幕LV3",
-		damage = 142,
-		base = 67871
-	}
-	uv0.weapon_property_145[67874] = {
-		id = 67874,
-		name = "天城跨射弹幕LV4",
-		damage = 151,
-		base = 67871
-	}
-	uv0.weapon_property_145[67875] = {
-		id = 67875,
-		name = "天城跨射弹幕LV5",
-		damage = 161,
-		base = 67871
-	}
-	uv0.weapon_property_145[67876] = {
-		id = 67876,
-		name = "天城跨射弹幕LV6",
-		damage = 172,
-		base = 67871
-	}
-	uv0.weapon_property_145[67877] = {
-		id = 67877,
-		name = "天城跨射弹幕LV7",
-		damage = 184,
-		base = 67871
-	}
-	uv0.weapon_property_145[67878] = {
-		id = 67878,
-		name = "天城跨射弹幕LV8",
-		damage = 197,
-		base = 67871
-	}
-	uv0.weapon_property_145[67879] = {
-		id = 67879,
-		name = "天城跨射弹幕LV9",
-		damage = 211,
-		base = 67871
-	}
-	uv0.weapon_property_145[67880] = {
-		id = 67880,
-		name = "天城跨射弹幕LV10",
-		damage = 226,
-		base = 67871
-	}
-	uv0.weapon_property_145[67881] = {
-		action_index = "attack_main",
-		range = 200,
-		type = 23,
-		fire_fx = "zhupao",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "厌战改技能LV1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 50,
-		damage = 84,
-		corrected = 110,
-		min_range = 35,
-		id = 67881,
-		attack_attribute_ratio = 80,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3366,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		bullet_ID = {
-			19981
-		},
-		barrage_ID = {
-			1300
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		charge_param = {
-			lockTime = 0.3,
-			maxLock = 2
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_145[67882] = {
-		reload_max = 3231,
-		name = "厌战改技能LV2",
-		damage = 93,
-		base = 67881,
-		id = 67882
-	}
-	uv0.weapon_property_145[67883] = {
-		reload_max = 3164,
-		name = "厌战改技能LV3",
-		damage = 101,
-		base = 67881,
-		id = 67883
-	}
-	uv0.weapon_property_145[67884] = {
-		reload_max = 3096,
-		name = "厌战改技能LV4",
-		damage = 110,
-		base = 67881,
-		id = 67884
 	}
 end()

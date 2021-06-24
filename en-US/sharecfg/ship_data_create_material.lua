@@ -82,12 +82,13 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Elite</color>: 12%",
 			"<color=#3dc6ff>Rare</color>: 51%",
 			"Common: 30%",
-			"<color=#ffde38>Vittorio Veneto</color>: 2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Aquila</color>: 2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Duca degli Abruzzi</color>: 0.5%",
-			"<color=#d797ff>Maestrale</color>: 2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Libeccio</color>: 2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Nicoloso da Recco</color>: 2.5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>{namecode:179}</color>: 2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>{namecode:175}</color>: 2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>{namecode:203}</color>: 2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>{namecode:50}</color>: 0.5%",
+			"<color=#d797ff>{namecode:180}</color>: 2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>{namecode:3}</color>: 2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>{namecode:181}</color>: 0.7%"
 		}
 	},
 	{

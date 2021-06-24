@@ -1,5 +1,135 @@
 pg = pg or {}
 pg.equip_data_statistics_38 = {
+	[1801] = {
+		id = 1801,
+		value_1 = "40",
+		base = 1800
+	},
+	[1802] = {
+		id = 1802,
+		value_1 = "45",
+		base = 1800
+	},
+	[1803] = {
+		id = 1803,
+		value_1 = "50",
+		base = 1800
+	},
+	[1820] = {
+		name = "Advanced Boiler",
+		tech = 2,
+		type = 10,
+		speciality = "N/A",
+		id = 1820,
+		value_2 = 2,
+		icon = "1800",
+		value_1 = "63",
+		attribute_2 = "speed",
+		rarity = 3,
+		descrip = "An improved boiler which improves speed and HP.",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "durability",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[1821] = {
+		id = 1821,
+		value_1 = "72",
+		base = 1820
+	},
+	[1822] = {
+		id = 1822,
+		value_1 = "81",
+		base = 1820
+	},
+	[1823] = {
+		id = 1823,
+		value_2 = 3,
+		value_1 = "91",
+		base = 1820
+	},
+	[1824] = {
+		id = 1824,
+		value_2 = 3,
+		value_1 = "100",
+		base = 1820
+	},
+	[1825] = {
+		id = 1825,
+		value_2 = 3,
+		value_1 = "110",
+		base = 1820
+	},
+	[1826] = {
+		id = 1826,
+		value_2 = 4,
+		value_1 = "119",
+		base = 1820
+	},
+	[1840] = {
+		name = "Advanced Boiler",
+		tech = 3,
+		type = 10,
+		speciality = "N/A",
+		id = 1840,
+		value_2 = 3,
+		icon = "1800",
+		value_1 = "98",
+		attribute_2 = "speed",
+		rarity = 4,
+		descrip = "An improved boiler which improves speed and HP.",
+		nationality = 0,
+		ammo = 10,
+		value_3 = 0,
+		attribute_1 = "durability",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[1841] = {
+		id = 1841,
+		value_1 = "112",
+		base = 1840
+	},
+	[1842] = {
+		id = 1842,
+		value_2 = 4,
+		value_1 = "127",
+		base = 1840
+	},
+	[1843] = {
+		id = 1843,
+		value_2 = 4,
+		value_1 = "142",
+		base = 1840
+	},
 	[1844] = {
 		id = 1844,
 		value_2 = 5,
@@ -17,166 +147,5 @@ pg.equip_data_statistics_38 = {
 		value_2 = 6,
 		value_1 = "186",
 		base = 1840
-	},
-	[1847] = {
-		id = 1847,
-		value_2 = 6,
-		value_1 = "200",
-		base = 1840
-	},
-	[1848] = {
-		id = 1848,
-		value_2 = 7,
-		value_1 = "215",
-		base = 1840
-	},
-	[1849] = {
-		id = 1849,
-		value_2 = 7,
-		value_1 = "230",
-		base = 1840
-	},
-	[1850] = {
-		id = 1850,
-		value_2 = 8,
-		value_1 = "245",
-		base = 1840
-	},
-	[1851] = {
-		id = 1851,
-		anti_siren = 100,
-		base = 1840,
-		value_2 = 8,
-		value_1 = "260"
-	},
-	[1900] = {
-		name = "Naval Camouflage",
-		tech = 1,
-		type = 10,
-		speciality = "N/A",
-		id = 1900,
-		value_2 = 14,
-		icon = "1900",
-		value_1 = "2",
-		attribute_2 = "durability",
-		rarity = 1,
-		descrip = "What classifies as a good paint job is arbitrary, but why hinder performance when you can improve it?",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "dodge",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[1901] = {
-		id = 1901,
-		value_2 = 16,
-		base = 1900
-	},
-	[1902] = {
-		id = 1902,
-		value_2 = 18,
-		value_1 = "3",
-		base = 1900
-	},
-	[1903] = {
-		id = 1903,
-		value_2 = 20,
-		value_1 = "3",
-		base = 1900
-	},
-	[1920] = {
-		name = "Naval Camouflage",
-		tech = 2,
-		type = 10,
-		speciality = "N/A",
-		id = 1920,
-		value_2 = 16,
-		icon = "1900",
-		value_1 = "5",
-		attribute_2 = "durability",
-		rarity = 2,
-		descrip = "What classifies as a good paint job is arbitrary, but why hinder performance when you can improve it?",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "dodge",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[1921] = {
-		id = 1921,
-		value_2 = 19,
-		base = 1920
-	},
-	[1922] = {
-		id = 1922,
-		value_2 = 22,
-		value_1 = "6",
-		base = 1920
-	},
-	[1923] = {
-		id = 1923,
-		value_2 = 25,
-		value_1 = "7",
-		base = 1920
-	},
-	[1940] = {
-		name = "Naval Camouflage",
-		tech = 3,
-		type = 10,
-		speciality = "N/A",
-		id = 1940,
-		value_2 = 20,
-		icon = "1900",
-		value_1 = "9",
-		attribute_2 = "durability",
-		rarity = 3,
-		descrip = "What classifies as a good paint job is arbitrary, but why hinder performance when you can improve it?",
-		nationality = 0,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "dodge",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
 	}
 }

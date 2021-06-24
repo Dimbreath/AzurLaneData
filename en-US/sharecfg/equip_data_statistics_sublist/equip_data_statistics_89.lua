@@ -1,5 +1,272 @@
 pg = pg or {}
 pg.equip_data_statistics_89 = {
+	[11249] = {
+		id = 11249,
+		damage = "14 x 4",
+		base = 11240,
+		weapon_id = {
+			11249
+		}
+	},
+	[11250] = {
+		id = 11250,
+		damage = "15 x 4",
+		base = 11240,
+		weapon_id = {
+			11250
+		}
+	},
+	[11251] = {
+		anti_siren = 100,
+		damage = "15 x 4",
+		base = 11240,
+		id = 11251,
+		weapon_id = {
+			11251
+		}
+	},
+	[11252] = {
+		anti_siren = 200,
+		damage = "15 x 4",
+		base = 11240,
+		id = 11252,
+		weapon_id = {
+			11252
+		}
+	},
+	[11253] = {
+		anti_siren = 300,
+		damage = "15 x 4",
+		base = 11240,
+		id = 11253,
+		weapon_id = {
+			11253
+		}
+	},
+	[12000] = {
+		name = "Twin 152mm Main Gun",
+		speciality = "Lock",
+		type = 2,
+		tech = 1,
+		rarity = 1,
+		descrip = "No description",
+		value_2 = 0,
+		icon = "12000",
+		damage = "7 x 4",
+		nationality = 1,
+		ammo = 3,
+		value_3 = 0,
+		id = 12000,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1001
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1001
+			},
+			{
+				4,
+				1101
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			12000
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		}
+	},
+	[12001] = {
+		id = 12001,
+		damage = "8 x 4",
+		base = 12000,
+		weapon_id = {
+			12001
+		}
+	},
+	[12002] = {
+		id = 12002,
+		damage = "9 x 4",
+		base = 12000,
+		weapon_id = {
+			12002
+		}
+	},
+	[12003] = {
+		id = 12003,
+		damage = "10 x 4",
+		base = 12000,
+		weapon_id = {
+			12003
+		}
+	},
+	[12020] = {
+		name = "Twin 152mm Main Gun",
+		speciality = "Lock",
+		type = 2,
+		tech = 2,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "12000",
+		attribute_2 = "cannon",
+		rarity = 2,
+		damage = "8 x 4",
+		nationality = 1,
+		ammo = 3,
+		value_3 = 0,
+		id = 12020,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1001
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1001
+			},
+			{
+				4,
+				1101
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			12020
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		}
+	},
+	[12021] = {
+		id = 12021,
+		damage = "9 x 4",
+		base = 12020,
+		weapon_id = {
+			12021
+		}
+	},
+	[12022] = {
+		id = 12022,
+		damage = "10 x 4",
+		base = 12020,
+		weapon_id = {
+			12022
+		}
+	},
+	[12023] = {
+		id = 12023,
+		damage = "11 x 4",
+		base = 12020,
+		weapon_id = {
+			12023
+		}
+	},
+	[12040] = {
+		name = "Twin 152mm Main Gun",
+		speciality = "Lock",
+		type = 2,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "12000",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "9 x 4",
+		nationality = 1,
+		ammo = 3,
+		value_3 = 0,
+		id = 12040,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1001
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1001
+			},
+			{
+				4,
+				1101
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			12040
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		}
+	},
 	[12041] = {
 		id = 12041,
 		damage = "10 x 4",
@@ -22,220 +289,6 @@ pg.equip_data_statistics_89 = {
 		base = 12040,
 		weapon_id = {
 			12043
-		}
-	},
-	[12044] = {
-		id = 12044,
-		damage = "13 x 4",
-		base = 12040,
-		weapon_id = {
-			12044
-		}
-	},
-	[12045] = {
-		id = 12045,
-		damage = "14 x 4",
-		base = 12040,
-		weapon_id = {
-			12045
-		}
-	},
-	[12046] = {
-		id = 12046,
-		damage = "15 x 4",
-		base = 12040,
-		weapon_id = {
-			12046
-		}
-	},
-	[12047] = {
-		id = 12047,
-		damage = "15 x 4",
-		base = 12040,
-		weapon_id = {
-			12047
-		}
-	},
-	[12060] = {
-		name = "Twin 152mm Mk 15 Main Gun Mount",
-		speciality = "Lock",
-		type = 2,
-		tech = 0,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "12060",
-		attribute_2 = "cannon",
-		rarity = 3,
-		damage = "10 x 4",
-		nationality = 1,
-		ammo = 3,
-		value_3 = 0,
-		id = 12060,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1010
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1010
-			},
-			{
-				4,
-				1101
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			12060
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CL",
-			"MG"
-		}
-	},
-	[12061] = {
-		id = 12061,
-		damage = "11 x 4",
-		base = 12060,
-		weapon_id = {
-			12061
-		}
-	},
-	[12062] = {
-		id = 12062,
-		damage = "12 x 4",
-		base = 12060,
-		weapon_id = {
-			12062
-		}
-	},
-	[12063] = {
-		id = 12063,
-		damage = "13 x 4",
-		base = 12060,
-		weapon_id = {
-			12063
-		}
-	},
-	[12064] = {
-		id = 12064,
-		damage = "14 x 4",
-		base = 12060,
-		weapon_id = {
-			12064
-		}
-	},
-	[12065] = {
-		id = 12065,
-		damage = "15 x 4",
-		base = 12060,
-		weapon_id = {
-			12065
-		}
-	},
-	[12066] = {
-		id = 12066,
-		damage = "16 x 4",
-		base = 12060,
-		weapon_id = {
-			12066
-		}
-	},
-	[12067] = {
-		id = 12067,
-		damage = "16 x 4",
-		base = 12060,
-		weapon_id = {
-			12067
-		}
-	},
-	[12100] = {
-		name = "Triple 152mm Main Gun",
-		speciality = "Lock",
-		type = 2,
-		tech = 1,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "12100",
-		attribute_2 = "cannon",
-		rarity = 2,
-		damage = "7 x 6",
-		nationality = 1,
-		ammo = 3,
-		value_3 = 0,
-		id = 12100,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1001
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1001
-			},
-			{
-				4,
-				1102
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			12100
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"CL",
-			"MG"
-		}
-	},
-	[12101] = {
-		id = 12101,
-		damage = "8 x 6",
-		base = 12100,
-		weapon_id = {
-			12101
 		}
 	}
 }

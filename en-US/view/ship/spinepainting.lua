@@ -51,7 +51,13 @@ function slot2(slot0, slot1)
 
 	slot0._tf.localScale = slot0._spinePaintingData.scale
 	slot0._tf.localPosition = slot0._spinePaintingData.pos
-	slot0.spineAnim = GetOrAddComponent(slot0._tf, "SpineAnimUI")
+	slot0.spineAnimList = {}
+
+	for slot6 = 0, slot0._tf:GetComponent(typeof(ItemList)).prefabItem.Length - 1 do
+		slot0.spineAnimList[#slot0.spineAnimList + 1] = GetOrAddComponent(slot2[slot6], "SpineAnimUI")
+	end
+
+	slot0.firstSpineAnim = slot0.spineAnimList[1]
 end
 
 function slot3(slot0, slot1)
@@ -108,20 +114,26 @@ function slot0.DoAction(slot0, slot1)
 	function slot2()
 		uv0.inAction = false
 
-		uv0.spineAnim:SetAction("normal", 0)
+		uv0:SetAction("normal", 0)
 	end
 
-	if slot0.spineAnim then
+	if slot0.firstSpineAnim then
 		slot0.inAction = true
 
-		slot0.spineAnim:SetActionCallBack(function (slot0)
-			uv0.spineAnim:SetActionCallBack(nil)
+		slot0.firstSpineAnim:SetActionCallBack(function (slot0)
+			uv0.firstSpineAnim:SetActionCallBack(nil)
 
 			if slot0 == "finish" then
 				uv1()
 			end
 		end)
-		slot0.spineAnim:SetAction(slot1, 0)
+		slot0.firstSpineAnim:SetAction(slot1, 0)
+	end
+end
+
+function slot0.SetAction(slot0, slot1, slot2)
+	for slot6, slot7 in ipairs(slot0.spineAnimList) do
+		slot7:SetAction("normal", 0)
 	end
 end
 

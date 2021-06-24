@@ -2,6 +2,58 @@ pg = pg or {}
 pg.weapon_property_111 = {}
 
 function ()
+	uv0.weapon_property_111[64050] = {
+		id = 64050,
+		name = "小天城战列技能-LV10",
+		damage = 40,
+		base = 64041
+	}
+	uv0.weapon_property_111[64051] = {
+		action_index = "attack",
+		range = 90,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "小天城战列技能-LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 22,
+		corrected = 100,
+		min_range = 0,
+		id = 64051,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 500,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19286,
+			19286
+		},
+		barrage_ID = {
+			81057,
+			81058
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_111[64052] = {
 		id = 64052,
 		name = "小天城战列技能-LV2",
@@ -759,17 +811,5 @@ function ()
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_111[64112] = {
-		id = 64112,
-		name = "博伊西技能子弹弹幕LV2",
-		damage = 5,
-		base = 64111
-	}
-	uv0.weapon_property_111[64113] = {
-		id = 64113,
-		name = "博伊西技能子弹弹幕LV3",
-		damage = 6,
-		base = 64111
 	}
 end()

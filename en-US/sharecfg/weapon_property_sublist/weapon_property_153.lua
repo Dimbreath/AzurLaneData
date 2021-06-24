@@ -2,6 +2,243 @@ pg = pg or {}
 pg.weapon_property_153 = {}
 
 function ()
+	uv0.weapon_property_153[68304] = {
+		name = "绊爱航母额外轰炸机队-LV4",
+		damage = 102,
+		base = 68301,
+		id = 68304,
+		bullet_ID = {
+			68304
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_153[68305] = {
+		name = "绊爱航母额外轰炸机队-LV5",
+		damage = 112,
+		base = 68301,
+		id = 68305,
+		bullet_ID = {
+			68305
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_153[68306] = {
+		name = "绊爱航母额外轰炸机队-LV6",
+		damage = 134,
+		base = 68301,
+		id = 68306,
+		bullet_ID = {
+			68306
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_153[68307] = {
+		name = "绊爱航母额外轰炸机队-LV7",
+		damage = 156,
+		base = 68301,
+		id = 68307,
+		bullet_ID = {
+			68307
+		},
+		barrage_ID = {
+			12010
+		}
+	}
+	uv0.weapon_property_153[68308] = {
+		name = "绊爱航母额外轰炸机队-LV8",
+		damage = 176,
+		base = 68301,
+		id = 68308,
+		bullet_ID = {
+			68308
+		},
+		barrage_ID = {
+			12010
+		}
+	}
+	uv0.weapon_property_153[68309] = {
+		name = "绊爱航母额外轰炸机队-LV9",
+		damage = 198,
+		base = 68301,
+		id = 68309,
+		bullet_ID = {
+			68309
+		},
+		barrage_ID = {
+			12010
+		}
+	}
+	uv0.weapon_property_153[68310] = {
+		name = "绊爱航母额外轰炸机队-LV10",
+		damage = 220,
+		base = 68301,
+		id = 68310,
+		bullet_ID = {
+			68310
+		},
+		barrage_ID = {
+			12010
+		}
+	}
+	uv0.weapon_property_153[68311] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 19,
+		shakescreen = 0,
+		name = "1 x 1000lb Bomb",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 19,
+		charge_param = "",
+		damage = 150,
+		corrected = 100,
+		min_range = 0,
+		id = 68311,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19874
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_153[68312] = {
+		id = 68312,
+		damage = 169,
+		base = 68311
+	}
+	uv0.weapon_property_153[68313] = {
+		id = 68313,
+		damage = 188,
+		base = 68311
+	}
+	uv0.weapon_property_153[68314] = {
+		id = 68314,
+		damage = 207,
+		base = 68311
+	}
+	uv0.weapon_property_153[68315] = {
+		id = 68315,
+		damage = 226,
+		base = 68311
+	}
+	uv0.weapon_property_153[68316] = {
+		id = 68316,
+		damage = 245,
+		base = 68311
+	}
+	uv0.weapon_property_153[68317] = {
+		id = 68317,
+		damage = 264,
+		base = 68311
+	}
+	uv0.weapon_property_153[68318] = {
+		id = 68318,
+		damage = 283,
+		base = 68311
+	}
+	uv0.weapon_property_153[68319] = {
+		id = 68319,
+		damage = 302,
+		base = 68311
+	}
+	uv0.weapon_property_153[68320] = {
+		id = 68320,
+		damage = 322,
+		base = 68311
+	}
+	uv0.weapon_property_153[68321] = {
+		action_index = "",
+		range = 500,
+		type = 2,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 25,
+		shakescreen = 0,
+		name = "2 x 100lb Bomb",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 25,
+		charge_param = "",
+		damage = 70,
+		corrected = 100,
+		min_range = 0,
+		id = 68321,
+		attack_attribute_ratio = 80,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		reload_max = 9500,
+		queue = 1,
+		search_type = 2,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19875
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_153[68322] = {
+		id = 68322,
+		damage = 78,
+		base = 68321
+	}
+	uv0.weapon_property_153[68323] = {
+		id = 68323,
+		damage = 85,
+		base = 68321
+	}
+	uv0.weapon_property_153[68324] = {
+		id = 68324,
+		damage = 93,
+		base = 68321
+	}
+	uv0.weapon_property_153[68325] = {
+		id = 68325,
+		damage = 100,
+		base = 68321
+	}
 	uv0.weapon_property_153[68326] = {
 		id = 68326,
 		damage = 108,
@@ -436,215 +673,5 @@ function ()
 		name = "竞技神白弹Lv5",
 		damage = 177,
 		base = 68361
-	}
-	uv0.weapon_property_153[68366] = {
-		id = 68366,
-		name = "竞技神白弹Lv6",
-		damage = 189,
-		base = 68361
-	}
-	uv0.weapon_property_153[68367] = {
-		id = 68367,
-		name = "竞技神白弹Lv7",
-		damage = 202,
-		base = 68361
-	}
-	uv0.weapon_property_153[68368] = {
-		id = 68368,
-		name = "竞技神白弹Lv8",
-		damage = 216,
-		base = 68361
-	}
-	uv0.weapon_property_153[68369] = {
-		id = 68369,
-		name = "竞技神白弹Lv9",
-		damage = 232,
-		base = 68361
-	}
-	uv0.weapon_property_153[68370] = {
-		id = 68370,
-		name = "竞技神白弹Lv10",
-		damage = 248,
-		base = 68361
-	}
-	uv0.weapon_property_153[68371] = {
-		action_index = "attack",
-		range = 95,
-		type = 2,
-		fire_fx = "CAFire",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "竞技神黑弹Lv1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 60,
-		charge_param = "",
-		damage = 151,
-		corrected = 100,
-		min_range = 0,
-		id = 68371,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19863
-		},
-		barrage_ID = {
-			2120
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_153[68372] = {
-		id = 68372,
-		name = "竞技神黑弹Lv2",
-		damage = 163,
-		base = 68371
-	}
-	uv0.weapon_property_153[68373] = {
-		id = 68373,
-		name = "竞技神黑弹Lv3",
-		damage = 175,
-		base = 68371
-	}
-	uv0.weapon_property_153[68374] = {
-		id = 68374,
-		name = "竞技神黑弹Lv4",
-		damage = 187,
-		base = 68371
-	}
-	uv0.weapon_property_153[68375] = {
-		id = 68375,
-		name = "竞技神黑弹Lv5",
-		damage = 199,
-		base = 68371
-	}
-	uv0.weapon_property_153[68376] = {
-		id = 68376,
-		name = "竞技神黑弹Lv6",
-		damage = 212,
-		base = 68371
-	}
-	uv0.weapon_property_153[68377] = {
-		id = 68377,
-		name = "竞技神黑弹Lv7",
-		damage = 229,
-		base = 68371
-	}
-	uv0.weapon_property_153[68378] = {
-		id = 68378,
-		name = "竞技神黑弹Lv8",
-		damage = 247,
-		base = 68371
-	}
-	uv0.weapon_property_153[68379] = {
-		id = 68379,
-		name = "竞技神黑弹Lv9",
-		damage = 267,
-		base = 68371
-	}
-	uv0.weapon_property_153[68380] = {
-		id = 68380,
-		name = "竞技神黑弹Lv10",
-		damage = 294,
-		base = 68371
-	}
-	uv0.weapon_property_153[68381] = {
-		action_index = "attack",
-		range = 95,
-		type = 2,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "竞技神飞刀Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 10,
-		angle = 360,
-		charge_param = "",
-		damage = 27,
-		corrected = 100,
-		min_range = 0,
-		id = 68381,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19864,
-			19864
-		},
-		barrage_ID = {
-			80601,
-			80602
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_153[68382] = {
-		id = 68382,
-		name = "竞技神飞刀Lv2",
-		damage = 32,
-		base = 68381
-	}
-	uv0.weapon_property_153[68383] = {
-		id = 68383,
-		name = "竞技神飞刀Lv3",
-		damage = 37,
-		base = 68381
-	}
-	uv0.weapon_property_153[68384] = {
-		id = 68384,
-		name = "竞技神飞刀Lv4",
-		damage = 42,
-		base = 68381
-	}
-	uv0.weapon_property_153[68385] = {
-		id = 68385,
-		name = "竞技神飞刀Lv5",
-		damage = 47,
-		base = 68381
-	}
-	uv0.weapon_property_153[68386] = {
-		id = 68386,
-		name = "竞技神飞刀Lv6",
-		damage = 52,
-		base = 68381
-	}
-	uv0.weapon_property_153[68387] = {
-		id = 68387,
-		name = "竞技神飞刀Lv7",
-		damage = 57,
-		base = 68381
 	}
 end()

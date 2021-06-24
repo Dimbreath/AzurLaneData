@@ -242,54 +242,7 @@ DEFAULT_CVVOLUME = 0.8
 DEFAULT_BGMVOLUME = 0.8
 DEFAULT_SEVOLUME = 0.8
 HIDE_CHAT_FLAG = "HideChat"
-SPECIAL_DATE = {
-	{
-		"20210401",
-		"loginbg_0401",
-		"loginbg_0401",
-		"login_us_0401"
-	},
-	{
-		"20210401",
-		"login_0401"
-	},
-	{
-		"20210611",
-		"login",
-		"loginbg"
-	},
-	{
-		"20210612",
-		"login",
-		"loginbg"
-	},
-	{
-		"20210613",
-		"login",
-		"loginbg"
-	},
-	{
-		"20210613",
-		"login",
-		"loginbg"
-	},
-	{
-		"20210614",
-		"login_0614"
-	},
-	{
-		"20210615",
-		"login",
-		"loginbg"
-	},
-	{
-		"20210616",
-		"login",
-		"loginbg"
-	}
-}
 SPECIAL_PROPOSE = {}
-CRI_BG_FLAG = false
 OPEN_ESCORT = false
 OPEN_REMASTER = true
 OPEN_AIR_DOMINANCE = true
@@ -341,3 +294,4 @@ SHIP_FLAG_L2D = "l2d"
 SHIP_FLAG_BG = "bg"
 SHIP_FLAG_BGM = "bgm"
 SHIP_FLAG_SP = "sp"
+NEW_META_EXP = false

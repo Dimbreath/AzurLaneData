@@ -1,5 +1,164 @@
 pg = pg or {}
 pg.equip_data_statistics_169 = {
+	[24150] = {
+		id = 24150,
+		damage = "128 x 2",
+		base = 24140,
+		weapon_id = {
+			24150
+		}
+	},
+	[24151] = {
+		anti_siren = 100,
+		damage = "128 x 2",
+		base = 24140,
+		id = 24151,
+		weapon_id = {
+			24151
+		}
+	},
+	[24160] = {
+		name = "Prototype Triple 381mm AA Gun",
+		speciality = "Volley",
+		type = 4,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 45,
+		icon = "24160",
+		attribute_2 = "cannon",
+		rarity = 5,
+		damage = "56 x 3",
+		nationality = 2,
+		ammo = 2,
+		value_3 = 0,
+		id = 24160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1512
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			24160
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"BB",
+			"MG",
+			"HE"
+		}
+	},
+	[24161] = {
+		id = 24161,
+		damage = "64 x 3",
+		base = 24160,
+		weapon_id = {
+			24161
+		}
+	},
+	[24162] = {
+		id = 24162,
+		damage = "72 x 3",
+		base = 24160,
+		weapon_id = {
+			24162
+		}
+	},
+	[24163] = {
+		id = 24163,
+		damage = "80 x 3",
+		base = 24160,
+		weapon_id = {
+			24163
+		}
+	},
+	[24164] = {
+		id = 24164,
+		damage = "88 x 3",
+		base = 24160,
+		weapon_id = {
+			24164
+		}
+	},
+	[24165] = {
+		id = 24165,
+		damage = "97 x 3",
+		base = 24160,
+		weapon_id = {
+			24165
+		}
+	},
+	[24166] = {
+		id = 24166,
+		damage = "106 x 3",
+		base = 24160,
+		weapon_id = {
+			24166
+		}
+	},
+	[24167] = {
+		id = 24167,
+		damage = "115 x 3",
+		base = 24160,
+		weapon_id = {
+			24167
+		}
+	},
+	[24168] = {
+		id = 24168,
+		damage = "124 x 3",
+		base = 24160,
+		weapon_id = {
+			24168
+		}
+	},
+	[24169] = {
+		id = 24169,
+		damage = "133 x 3",
+		base = 24160,
+		weapon_id = {
+			24169
+		}
+	},
+	[24170] = {
+		id = 24170,
+		damage = "142 x 3",
+		base = 24160,
+		weapon_id = {
+			24170
+		}
+	},
+	[24171] = {
+		anti_siren = 100,
+		damage = "142 x 3",
+		base = 24160,
+		id = 24171,
+		weapon_id = {
+			24171
+		}
+	},
 	[24172] = {
 		anti_siren = 200,
 		damage = "142 x 3",
@@ -68,162 +227,6 @@ pg.equip_data_statistics_169 = {
 			"HMS",
 			"BB",
 			"MG"
-		}
-	},
-	[24201] = {
-		id = 24201,
-		damage = "56 x 3",
-		base = 24200,
-		weapon_id = {
-			24201
-		}
-	},
-	[24202] = {
-		id = 24202,
-		damage = "64 x 3",
-		base = 24200,
-		weapon_id = {
-			24202
-		}
-	},
-	[24203] = {
-		id = 24203,
-		damage = "72 x 3",
-		base = 24200,
-		weapon_id = {
-			24203
-		}
-	},
-	[24204] = {
-		id = 24204,
-		damage = "80 x 3",
-		base = 24200,
-		weapon_id = {
-			24204
-		}
-	},
-	[24205] = {
-		id = 24205,
-		damage = "88 x 3",
-		base = 24200,
-		weapon_id = {
-			24205
-		}
-	},
-	[24206] = {
-		id = 24206,
-		damage = "96 x 3",
-		base = 24200,
-		weapon_id = {
-			24206
-		}
-	},
-	[24220] = {
-		name = "Triple 406mm Main Gun",
-		speciality = "Volley",
-		type = 4,
-		tech = 2,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "24200",
-		attribute_2 = "cannon",
-		rarity = 4,
-		damage = "53 x 3",
-		nationality = 2,
-		ammo = 3,
-		value_3 = 0,
-		id = 24220,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1510
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			24220
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"BB",
-			"MG"
-		}
-	},
-	[24221] = {
-		id = 24221,
-		damage = "62 x 3",
-		base = 24220,
-		weapon_id = {
-			24221
-		}
-	},
-	[24222] = {
-		id = 24222,
-		damage = "70 x 3",
-		base = 24220,
-		weapon_id = {
-			24222
-		}
-	},
-	[24223] = {
-		id = 24223,
-		damage = "79 x 3",
-		base = 24220,
-		weapon_id = {
-			24223
-		}
-	},
-	[24224] = {
-		id = 24224,
-		damage = "88 x 3",
-		base = 24220,
-		weapon_id = {
-			24224
-		}
-	},
-	[24225] = {
-		id = 24225,
-		damage = "97 x 3",
-		base = 24220,
-		weapon_id = {
-			24225
-		}
-	},
-	[24226] = {
-		id = 24226,
-		damage = "106 x 3",
-		base = 24220,
-		weapon_id = {
-			24226
-		}
-	},
-	[24227] = {
-		id = 24227,
-		damage = "114 x 3",
-		base = 24220,
-		weapon_id = {
-			24227
 		}
 	}
 }

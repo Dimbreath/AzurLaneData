@@ -5853,6 +5853,9 @@ Attack/Support Range Level:
 	ship_remould_warning_205124 = {
 		tip = "<color=#92fc63>The Warrior's Prowess</color> will be used to complete the retrofit.\nWould you like to continue? "
 	},
+	ship_remould_warning_301534 = {
+		tip = "The skill <color=#92fc63>Foo and Friends</color> will be upgraded upon retrofit completion."
+	},
 	ship_remould_warning_310014 = {
 		tip = [[
 Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed
@@ -7667,7 +7670,7 @@ Combat Encounters
 		tip = "This Meowfficer does not have any Talent Points."
 	},
 	buildship_new_tip = {
-		tip = "Receive an extra copy of New Jersey after doing a total of 200 builds! (Limit of 4 times) "
+		tip = "Rate UP for Ryuuhou, Suruga, Kazagumo, and more!"
 	},
 	buildship_heavy_tip = {
 		tip = "Nagato and Suzuya are added to standard build pool! "
@@ -14102,5 +14105,17 @@ The Mini-Event Gallery lets you choose and replay old mini-events.
 	},
 	activity_permanent_finished = {
 		tip = "Completed"
+	},
+	memory_actiivty_ex = {
+		tip = "Event"
+	},
+	memory_activity_sp = {
+		tip = "Special"
+	},
+	memory_activity_daily = {
+		tip = "Perm"
+	},
+	memory_activity_others = {
+		tip = "Misc"
 	}
 }

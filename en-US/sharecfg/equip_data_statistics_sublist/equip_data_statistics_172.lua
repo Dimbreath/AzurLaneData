@@ -1,5 +1,162 @@
 pg = pg or {}
 pg.equip_data_statistics_172 = {
+	[24303] = {
+		id = 24303,
+		damage = "67 x 2",
+		base = 24300,
+		weapon_id = {
+			24303
+		}
+	},
+	[24304] = {
+		id = 24304,
+		damage = "74 x 2",
+		base = 24300,
+		weapon_id = {
+			24304
+		}
+	},
+	[24305] = {
+		id = 24305,
+		damage = "81 x 2",
+		base = 24300,
+		weapon_id = {
+			24305
+		}
+	},
+	[24306] = {
+		id = 24306,
+		damage = "88 x 2",
+		base = 24300,
+		weapon_id = {
+			24306
+		}
+	},
+	[24320] = {
+		name = "Twin 381mm Advanced Main Gun Mount",
+		speciality = "Volley",
+		type = 4,
+		tech = 2,
+		descrip = "Twin 381mm Advanced Main Gun Mount",
+		value_2 = 25,
+		icon = "24300",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "51 x 2",
+		nationality = 2,
+		ammo = 2,
+		value_3 = 0,
+		id = 24320,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1502
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			24320
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"BB",
+			"MG",
+			"HE"
+		}
+	},
+	[24321] = {
+		id = 24321,
+		damage = "58 x 2",
+		base = 24320,
+		weapon_id = {
+			24321
+		}
+	},
+	[24322] = {
+		id = 24322,
+		damage = "65 x 2",
+		base = 24320,
+		weapon_id = {
+			24322
+		}
+	},
+	[24323] = {
+		id = 24323,
+		damage = "72 x 2",
+		base = 24320,
+		weapon_id = {
+			24323
+		}
+	},
+	[24324] = {
+		id = 24324,
+		damage = "80 x 2",
+		base = 24320,
+		weapon_id = {
+			24324
+		}
+	},
+	[24325] = {
+		id = 24325,
+		damage = "88 x 2",
+		base = 24320,
+		weapon_id = {
+			24325
+		}
+	},
+	[24326] = {
+		id = 24326,
+		damage = "96 x 2",
+		base = 24320,
+		weapon_id = {
+			24326
+		}
+	},
+	[24327] = {
+		id = 24327,
+		damage = "104 x 2",
+		base = 24320,
+		weapon_id = {
+			24327
+		}
+	},
+	[24328] = {
+		id = 24328,
+		damage = "112 x 2",
+		base = 24320,
+		weapon_id = {
+			24328
+		}
+	},
+	[24329] = {
+		id = 24329,
+		damage = "120 x 2",
+		base = 24320,
+		weapon_id = {
+			24329
+		}
+	},
 	[24330] = {
 		id = 24330,
 		damage = "128 x 2",
@@ -67,175 +224,6 @@ pg.equip_data_statistics_172 = {
 		base = 24340,
 		weapon_id = {
 			24341
-		}
-	},
-	[24342] = {
-		id = 24342,
-		damage = "70 x 2",
-		base = 24340,
-		weapon_id = {
-			24342
-		}
-	},
-	[24343] = {
-		id = 24343,
-		damage = "77 x 2",
-		base = 24340,
-		weapon_id = {
-			24343
-		}
-	},
-	[24344] = {
-		id = 24344,
-		damage = "85 x 2",
-		base = 24340,
-		weapon_id = {
-			24344
-		}
-	},
-	[24345] = {
-		id = 24345,
-		damage = "93 x 2",
-		base = 24340,
-		weapon_id = {
-			24345
-		}
-	},
-	[24346] = {
-		id = 24346,
-		damage = "101 x 2",
-		base = 24340,
-		weapon_id = {
-			24346
-		}
-	},
-	[24347] = {
-		id = 24347,
-		damage = "109 x 2",
-		base = 24340,
-		weapon_id = {
-			24347
-		}
-	},
-	[24348] = {
-		id = 24348,
-		damage = "117 x 2",
-		base = 24340,
-		weapon_id = {
-			24348
-		}
-	},
-	[24349] = {
-		id = 24349,
-		damage = "125 x 2",
-		base = 24340,
-		weapon_id = {
-			24349
-		}
-	},
-	[24350] = {
-		id = 24350,
-		damage = "133 x 2",
-		base = 24340,
-		weapon_id = {
-			24350
-		}
-	},
-	[24351] = {
-		anti_siren = 100,
-		damage = "133 x 2",
-		base = 24340,
-		id = 24351,
-		weapon_id = {
-			24351
-		}
-	},
-	[24352] = {
-		anti_siren = 200,
-		damage = "133 x 2",
-		base = 24340,
-		id = 24352,
-		weapon_id = {
-			24352
-		}
-	},
-	[24353] = {
-		anti_siren = 300,
-		damage = "133 x 2",
-		base = 24340,
-		id = 24353,
-		weapon_id = {
-			24353
-		}
-	},
-	[25000] = {
-		name = "533mm Triple Torpedo Mount Mk IX",
-		speciality = "Torpedo",
-		type = 5,
-		tech = 0,
-		descrip = "No description",
-		value_2 = 12,
-		icon = "25000",
-		attribute_2 = "torpedo",
-		rarity = 3,
-		damage = "62 x 3",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 25000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1828
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1828
-			},
-			{
-				4,
-				1402
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			25000
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"ST",
-			"TP",
-			"TRI"
-		}
-	},
-	[25001] = {
-		id = 25001,
-		damage = "73 x 3",
-		base = 25000,
-		weapon_id = {
-			25001
 		}
 	}
 }

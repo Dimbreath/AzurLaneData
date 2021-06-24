@@ -1,5 +1,163 @@
 pg = pg or {}
 pg.equip_data_statistics_232 = {
+	[34125] = {
+		id = 34125,
+		damage = "97 x 2",
+		base = 34120,
+		weapon_id = {
+			34125
+		}
+	},
+	[34126] = {
+		id = 34126,
+		damage = "106 x 2",
+		base = 34120,
+		weapon_id = {
+			34126
+		}
+	},
+	[34140] = {
+		name = "Twin 410mm Naval Gun Mount",
+		speciality = "Volley",
+		type = 4,
+		tech = 3,
+		descrip = "No description",
+		value_2 = 25,
+		icon = "34100",
+		attribute_2 = "cannon",
+		rarity = 4,
+		damage = "58 x 2",
+		nationality = 3,
+		ammo = 2,
+		value_3 = 0,
+		id = 34140,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1502
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			34140
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"BB",
+			"MG",
+			"HE"
+		}
+	},
+	[34141] = {
+		id = 34141,
+		damage = "68 x 2",
+		base = 34140,
+		weapon_id = {
+			34141
+		}
+	},
+	[34142] = {
+		id = 34142,
+		damage = "76 x 2",
+		base = 34140,
+		weapon_id = {
+			34142
+		}
+	},
+	[34143] = {
+		id = 34143,
+		damage = "86 x 2",
+		base = 34140,
+		weapon_id = {
+			34143
+		}
+	},
+	[34144] = {
+		id = 34144,
+		damage = "96 x 2",
+		base = 34140,
+		weapon_id = {
+			34144
+		}
+	},
+	[34145] = {
+		id = 34145,
+		damage = "106 x 2",
+		base = 34140,
+		weapon_id = {
+			34145
+		}
+	},
+	[34146] = {
+		id = 34146,
+		damage = "116 x 2",
+		base = 34140,
+		weapon_id = {
+			34146
+		}
+	},
+	[34147] = {
+		id = 34147,
+		damage = "124 x 2",
+		base = 34140,
+		weapon_id = {
+			34147
+		}
+	},
+	[34148] = {
+		id = 34148,
+		damage = "134 x 2",
+		base = 34140,
+		weapon_id = {
+			34148
+		}
+	},
+	[34149] = {
+		id = 34149,
+		damage = "144 x 2",
+		base = 34140,
+		weapon_id = {
+			34149
+		}
+	},
+	[34150] = {
+		id = 34150,
+		damage = "154 x 2",
+		base = 34140,
+		weapon_id = {
+			34150
+		}
+	},
+	[34151] = {
+		anti_siren = 100,
+		damage = "154 x 2",
+		base = 34140,
+		id = 34151,
+		weapon_id = {
+			34151
+		}
+	},
 	[34160] = {
 		name = "Twin 410mm (Type 3 Shell) Naval Gun Mount",
 		speciality = "Scatter",
@@ -68,166 +226,6 @@ pg.equip_data_statistics_232 = {
 		base = 34160,
 		weapon_id = {
 			34162
-		}
-	},
-	[34163] = {
-		id = 34163,
-		damage = "15 x 10 x 2",
-		base = 34160,
-		weapon_id = {
-			34163
-		}
-	},
-	[34164] = {
-		id = 34164,
-		damage = "16 x 10 x 2",
-		base = 34160,
-		weapon_id = {
-			34164
-		}
-	},
-	[34165] = {
-		id = 34165,
-		damage = "17 x 10 x 2",
-		base = 34160,
-		weapon_id = {
-			34165
-		}
-	},
-	[34166] = {
-		id = 34166,
-		damage = "18 x 10 x 2",
-		base = 34160,
-		weapon_id = {
-			34166
-		}
-	},
-	[34167] = {
-		id = 34167,
-		damage = "19 x 10 x 2",
-		base = 34160,
-		weapon_id = {
-			34167
-		}
-	},
-	[34168] = {
-		id = 34168,
-		damage = "20 x 10 x 2",
-		base = 34160,
-		weapon_id = {
-			34168
-		}
-	},
-	[34169] = {
-		id = 34169,
-		damage = "21 x 10 x 2",
-		base = 34160,
-		weapon_id = {
-			34169
-		}
-	},
-	[34170] = {
-		id = 34170,
-		damage = "22 x 10 x 2",
-		base = 34160,
-		weapon_id = {
-			34170
-		}
-	},
-	[34171] = {
-		anti_siren = 100,
-		damage = "22 x 10 x 2",
-		base = 34160,
-		id = 34171,
-		weapon_id = {
-			34171
-		}
-	},
-	[34172] = {
-		anti_siren = 200,
-		damage = "22 x 10 x 2",
-		base = 34160,
-		id = 34172,
-		weapon_id = {
-			34172
-		}
-	},
-	[34173] = {
-		anti_siren = 300,
-		damage = "22 x 10 x 2",
-		base = 34160,
-		id = 34173,
-		weapon_id = {
-			34173
-		}
-	},
-	[34180] = {
-		name = "Prototype Triple 410mm Main Gun Mount",
-		speciality = "Volley",
-		type = 4,
-		tech = 0,
-		descrip = "No description",
-		value_2 = 45,
-		icon = "34180",
-		attribute_2 = "cannon",
-		rarity = 5,
-		damage = "58 x 3",
-		nationality = 3,
-		ammo = 1,
-		value_3 = 0,
-		id = 34180,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1511
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			34180
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"BB",
-			"MG",
-			"AP"
-		}
-	},
-	[34181] = {
-		id = 34181,
-		damage = "68 x 3",
-		base = 34180,
-		weapon_id = {
-			34181
-		}
-	},
-	[34182] = {
-		id = 34182,
-		damage = "76 x 3",
-		base = 34180,
-		weapon_id = {
-			34182
 		}
 	}
 }

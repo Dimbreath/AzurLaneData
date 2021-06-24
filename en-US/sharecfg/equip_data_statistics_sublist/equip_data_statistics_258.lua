@@ -1,5 +1,172 @@
 pg = pg or {}
 pg.equip_data_statistics_258 = {
+	[36582] = {
+		id = 36582,
+		damage = "52/wave",
+		base = 36580,
+		weapon_id = {
+			36582
+		}
+	},
+	[36583] = {
+		id = 36583,
+		damage = "56/wave",
+		base = 36580,
+		weapon_id = {
+			36583
+		}
+	},
+	[36584] = {
+		id = 36584,
+		damage = "60/wave",
+		base = 36580,
+		weapon_id = {
+			36584
+		}
+	},
+	[36585] = {
+		id = 36585,
+		damage = "64/wave",
+		base = 36580,
+		weapon_id = {
+			36585
+		}
+	},
+	[36586] = {
+		id = 36586,
+		damage = "68/wave",
+		base = 36580,
+		weapon_id = {
+			36586
+		}
+	},
+	[36587] = {
+		id = 36587,
+		damage = "72/wave",
+		base = 36580,
+		weapon_id = {
+			36587
+		}
+	},
+	[36588] = {
+		id = 36588,
+		damage = "76/wave",
+		base = 36580,
+		weapon_id = {
+			36588
+		}
+	},
+	[36589] = {
+		id = 36589,
+		damage = "80/wave",
+		base = 36580,
+		weapon_id = {
+			36589
+		}
+	},
+	[36590] = {
+		id = 36590,
+		damage = "84/wave",
+		base = 36580,
+		weapon_id = {
+			36590
+		}
+	},
+	[36591] = {
+		anti_siren = 100,
+		damage = "84/wave",
+		base = 36580,
+		id = 36591,
+		weapon_id = {
+			36591
+		}
+	},
+	[36600] = {
+		name = "Twin 127mm AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 1,
+		descrip = "No description",
+		value_2 = 5,
+		icon = "36600",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		damage = "32/wave",
+		nationality = 3,
+		ammo = 5,
+		value_3 = 0,
+		id = 36600,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			36600
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
+	},
+	[36601] = {
+		id = 36601,
+		damage = "37/wave",
+		base = 36600,
+		weapon_id = {
+			36601
+		}
+	},
+	[36602] = {
+		id = 36602,
+		damage = "42/wave",
+		base = 36600,
+		weapon_id = {
+			36602
+		}
+	},
+	[36603] = {
+		id = 36603,
+		damage = "47/wave",
+		base = 36600,
+		weapon_id = {
+			36603
+		}
+	},
 	[36620] = {
 		name = "Twin 127mm AA Gun Mount",
 		speciality = "Anti-Air",
@@ -76,172 +243,6 @@ pg.equip_data_statistics_258 = {
 		base = 36620,
 		weapon_id = {
 			36622
-		}
-	},
-	[36623] = {
-		id = 36623,
-		damage = "57/wave",
-		base = 36620,
-		weapon_id = {
-			36623
-		}
-	},
-	[36624] = {
-		id = 36624,
-		damage = "63/wave",
-		base = 36620,
-		weapon_id = {
-			36624
-		}
-	},
-	[36625] = {
-		id = 36625,
-		damage = "70/wave",
-		base = 36620,
-		weapon_id = {
-			36625
-		}
-	},
-	[36626] = {
-		id = 36626,
-		damage = "77/wave",
-		base = 36620,
-		weapon_id = {
-			36626
-		}
-	},
-	[36640] = {
-		name = "Twin 127mm AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 25,
-		icon = "36600",
-		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "46/wave",
-		nationality = 3,
-		ammo = 5,
-		value_3 = 0,
-		id = 36640,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			36640
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"AA"
-		}
-	},
-	[36641] = {
-		id = 36641,
-		damage = "53/wave",
-		base = 36640,
-		weapon_id = {
-			36641
-		}
-	},
-	[36642] = {
-		id = 36642,
-		damage = "60/wave",
-		base = 36640,
-		weapon_id = {
-			36642
-		}
-	},
-	[36643] = {
-		id = 36643,
-		damage = "67/wave",
-		base = 36640,
-		weapon_id = {
-			36643
-		}
-	},
-	[36644] = {
-		id = 36644,
-		damage = "74/wave",
-		base = 36640,
-		weapon_id = {
-			36644
-		}
-	},
-	[36645] = {
-		id = 36645,
-		damage = "81/wave",
-		base = 36640,
-		weapon_id = {
-			36645
-		}
-	},
-	[36646] = {
-		id = 36646,
-		damage = "88/wave",
-		base = 36640,
-		weapon_id = {
-			36646
-		}
-	},
-	[36647] = {
-		id = 36647,
-		damage = "95/wave",
-		base = 36640,
-		weapon_id = {
-			36647
-		}
-	},
-	[36648] = {
-		id = 36648,
-		damage = "102/wave",
-		base = 36640,
-		weapon_id = {
-			36648
-		}
-	},
-	[36649] = {
-		id = 36649,
-		damage = "109/wave",
-		base = 36640,
-		weapon_id = {
-			36649
 		}
 	}
 }

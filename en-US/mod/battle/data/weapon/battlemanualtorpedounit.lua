@@ -69,6 +69,7 @@ function slot2.handleCoolDown(slot0)
 	slot0:TriggerBuffOnReady()
 
 	slot0._CDstartTime = nil
+	slot0._reloadBoostList = {}
 end
 
 function slot2.FlushReloadRequire(slot0)
@@ -87,6 +88,7 @@ function slot2.QuickCoolDown(slot0)
 		slot0:DispatchEvent(uv0.Event.New(uv1.MANUAL_WEAPON_INSTANT_READY, {}))
 
 		slot0._CDstartTime = nil
+		slot0._reloadBoostList = {}
 	end
 end
 
@@ -100,4 +102,14 @@ function slot2.Cancel(slot0)
 	slot0._currentState = slot0.STATE_READY
 
 	slot0:DispatchEvent(uv0.Event.New(uv1.TORPEDO_WEAPON_CANCEL, {}))
+end
+
+function slot2.ReloadBoost(slot0, slot1)
+	table.insert(slot0._reloadBoostList, slot1)
+end
+
+function slot2.AppendReloadBoost(slot0, slot1)
+	if slot0._currentState == slot0.STATE_OVER_HEAT then
+		slot0._playerTorpedoVO:ReloadBoost(slot0, slot1)
+	end
 end

@@ -109944,6 +109944,364 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[16730] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95399,
+		type = 6,
+		name = "『新日系活动』角色收集：鬼怒",
+		count_inherit = 0,
+		desc = "Fully Limit Break Kinu",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 302084,
+		id = 16730,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "302084",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				206,
+				400
+			}
+		}
+	},
+	[16731] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95400,
+		type = 6,
+		name = "『新日系活动』角色收集：响",
+		count_inherit = 0,
+		desc = "Fully Limit Break Hibiki",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 301104,
+		id = 16731,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "301104",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				206,
+				400
+			}
+		}
+	},
+	[16732] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95401,
+		type = 6,
+		name = "『新日系活动』角色收集：霞",
+		count_inherit = 0,
+		desc = "Fully Limit Break Kasumi",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 301814,
+		id = 16732,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "301814",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				206,
+				400
+			}
+		}
+	},
+	[16733] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95402,
+		type = 6,
+		name = "『新日系活动』角色收集：龙凤",
+		count_inherit = 0,
+		desc = "Fully Limit Break Ryuuhou",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 306074,
+		id = 16733,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "306074",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				206,
+				600
+			}
+		}
+	},
+	[16734] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95403,
+		type = 6,
+		name = "『新日系活动』角色收集：能代",
+		count_inherit = 0,
+		desc = "Fully Limit Break Noshiro",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 302214,
+		id = 16734,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "302214",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				206,
+				600
+			}
+		}
+	},
+	[16735] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95404,
+		type = 6,
+		name = "『新日系活动』角色收集：骏河",
+		count_inherit = 0,
+		desc = "Fully Limit Break Suruga",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 305144,
+		id = 16735,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "305144",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				206,
+				600
+			}
+		}
+	},
+	[16736] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95405,
+		type = 6,
+		name = "『新日系活动』角色刷关：晓",
+		count_inherit = 0,
+		desc = "Clear A2 or C2 10 times with Akatsuki at max Limit Break in your fleet. Akatsuki must survive the battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16736,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1310113,
+			1310713
+		},
+		target_id_2 = {
+			301094
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				206,
+				100
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16737] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95406,
+		type = 6,
+		name = "『新日系活动』角色刷关：时雨",
+		count_inherit = 0,
+		desc = "Clear A3 or C3 10 times with Shigure at max Limit Break in your fleet. Shigure must survive the battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16737,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1310213,
+			1310813
+		},
+		target_id_2 = {
+			301154
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				206,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16738] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95407,
+		type = 6,
+		name = "『新日系活动』角色刷关：翔鹤",
+		count_inherit = 0,
+		desc = "Clear B2 or D2 10 times with Shoukaku at max Limit Break in your fleet. Shoukaku must survive the battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16738,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1310413,
+			1311013
+		},
+		target_id_2 = {
+			307054
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				206,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16739] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95408,
+		type = 6,
+		name = "『新日系活动』角色刷关：爱宕",
+		count_inherit = 0,
+		desc = "Clear B3 or D3 10 times with Atago at max Limit Break in your fleet. Atago must survive the battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16739,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1310513,
+			1311113
+		},
+		target_id_2 = {
+			303124
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				206,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
 	[16740] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -109951,7 +110309,7 @@ pg.task_data_template = {
 		type = 6,
 		name = "山城台服战斗胜利I",
 		count_inherit = 16741,
-		desc = "Claim victory 50 time.",
+		desc = "Claim victory 50 times.",
 		target_id_2 = "",
 		sub_type = 20,
 		added_tip = 0,
@@ -109989,7 +110347,7 @@ pg.task_data_template = {
 		type = 6,
 		name = "山城台服战斗胜利II",
 		count_inherit = 16742,
-		desc = "Claim victory 80 time.",
+		desc = "Claim victory 80 times.",
 		target_id_2 = "",
 		sub_type = 20,
 		added_tip = 0,
@@ -110027,7 +110385,7 @@ pg.task_data_template = {
 		type = 6,
 		name = "山城台服战斗胜利III",
 		count_inherit = 16743,
-		desc = "Claim victory 120 time.",
+		desc = "Claim victory 120 times.",
 		target_id_2 = "",
 		sub_type = 20,
 		added_tip = 0,
@@ -110065,7 +110423,7 @@ pg.task_data_template = {
 		type = 6,
 		name = "山城台服战斗胜利IV",
 		count_inherit = 0,
-		desc = "Claim victory 200 time.",
+		desc = "Claim victory 200 times.",
 		target_id_2 = "",
 		sub_type = 20,
 		added_tip = 0,
@@ -110742,7 +111100,7 @@ pg.task_data_template = {
 		type = 36,
 		name = "山城台服战斗胜利-日常",
 		count_inherit = 0,
-		desc = "Claim victory 15 time.",
+		desc = "Claim Victory 15 times.",
 		target_id_2 = "",
 		sub_type = 20,
 		added_tip = 0,
@@ -110930,6 +111288,729 @@ pg.task_data_template = {
 				1,
 				207,
 				60
+			}
+		}
+	},
+	[16770] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95450,
+		type = 36,
+		name = "龙凤复刻 -日常建造",
+		count_inherit = 0,
+		desc = "Build 3 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16770,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59223,
+				300
+			}
+		}
+	},
+	[16771] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95451,
+		type = 36,
+		name = "龙凤复刻 -日常出击",
+		count_inherit = 0,
+		desc = "Sortie and obtain 15 victories.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16771,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59223,
+				300
+			}
+		}
+	},
+	[16772] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95452,
+		type = 36,
+		name = "龙凤复刻 -日常困难本",
+		count_inherit = 0,
+		desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+		target_id_2 = "",
+		sub_type = 182,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16772,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "10101",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59223,
+				150
+			}
+		}
+	},
+	[16773] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95453,
+		type = 6,
+		name = "龙凤复刻 通关A1/C1",
+		count_inherit = 0,
+		desc = "Clear A1 or C1.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16774",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16773,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1530001,
+			1530021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59223,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16774] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95454,
+		type = 6,
+		name = "龙凤复刻 通关A2/C2",
+		count_inherit = 0,
+		desc = "Clear A2 or C2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16775",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16774,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1530002,
+			1530022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59223,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16775] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95455,
+		type = 6,
+		name = "龙凤复刻 通关A3/C3",
+		count_inherit = 0,
+		desc = "Clear A3 or C3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16776",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16775,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1530003,
+			1530023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59223,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16776] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95456,
+		type = 6,
+		name = "龙凤复刻 通关B1/D1",
+		count_inherit = 0,
+		desc = "Clear B1 or D1.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16777",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16776,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1530004,
+			1530024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59223,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16777] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95457,
+		type = 6,
+		name = "龙凤复刻 通关B2/D2",
+		count_inherit = 0,
+		desc = "Clear B2 or D2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16778",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16777,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1530005,
+			1530025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59223,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16778] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95458,
+		type = 6,
+		name = "龙凤复刻 通关B3/D3",
+		count_inherit = 0,
+		desc = "Clear B3 or D3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16779",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16778,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1530006,
+			1530026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59223,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16779] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95459,
+		type = 6,
+		name = "龙凤复刻 通关SP",
+		count_inherit = 0,
+		desc = "Clear SP.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1530041,
+		id = 16779,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1530041",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16780] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95460,
+		type = 6,
+		name = "龙凤复刻 通关D3",
+		count_inherit = 0,
+		desc = "Clear D3<color=#92fc63>（If already cleared, you will not gain a second medal.）</color>",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1530026,
+		id = 16780,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1530026",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				160,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16781] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95461,
+		type = 6,
+		name = "龙凤复刻 A1/C1的3星",
+		count_inherit = 0,
+		desc = "Complete A1 or C1 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16782",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16781,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1530001,
+			1530021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16782] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95462,
+		type = 6,
+		name = "龙凤复刻 A2/C2的3星",
+		count_inherit = 0,
+		desc = "Complete A2 or C2 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16783",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16782,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1530002,
+			1530022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16783] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95463,
+		type = 6,
+		name = "龙凤复刻 A3/C3的3星",
+		count_inherit = 0,
+		desc = "Complete A3 or C3 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16784",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16783,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1530003,
+			1530023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16784] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95464,
+		type = 6,
+		name = "龙凤复刻 B1/D1的3星",
+		count_inherit = 0,
+		desc = "Complete B1 or D1 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16785",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16784,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1530004,
+			1530024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16785] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95465,
+		type = 6,
+		name = "龙凤复刻 B2/D2的3星",
+		count_inherit = 0,
+		desc = "Complete B2 or D2 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "16786",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16785,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1530005,
+			1530025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16786] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 95466,
+		type = 6,
+		name = "龙凤复刻 B3/D3的3星",
+		count_inherit = 0,
+		desc = "Complete B3 or D3 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16786,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1530006,
+			1530026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16787] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 95506,
+		type = 6,
+		name = "龙凤复刻登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "Login to the game.",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16787,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				209,
+				2
 			}
 		}
 	},
@@ -126925,6 +128006,16 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		16713,
 		16714,
 		16715,
+		16730,
+		16731,
+		16732,
+		16733,
+		16734,
+		16735,
+		16736,
+		16737,
+		16738,
+		16739,
 		16740,
 		16741,
 		16742,
@@ -126953,6 +128044,24 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		16765,
 		16766,
 		16767,
+		16770,
+		16771,
+		16772,
+		16773,
+		16774,
+		16775,
+		16776,
+		16777,
+		16778,
+		16779,
+		16780,
+		16781,
+		16782,
+		16783,
+		16784,
+		16785,
+		16786,
+		16787,
 		31013,
 		31014,
 		31015,

@@ -1,9 +1,184 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4013",
+		param = "4020",
 		type = 3,
 		id = 1,
+		pic = "temp4",
+		time = {
+			{
+				{
+					2021,
+					6,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 2,
+		pic = "temp5",
+		param = {
+			"scene get boat",
+			{
+				projectName = "new"
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					6,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 3,
+		pic = "temp6",
+		param = {
+			"scene skinshop",
+			{}
+		},
+		time = {
+			{
+				{
+					2021,
+					6,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 4,
+		pic = "temp7",
+		param = {
+			"scene back yard"
+		},
+		time = {
+			{
+				{
+					2021,
+					6,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 5,
+		pic = "temp8",
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					6,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					7,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4013",
+		type = 3,
+		id = 6,
 		pic = "temp1",
 		time = {
 			{
@@ -35,7 +210,7 @@ pg.activity_banner = {
 	{
 		param = "4011",
 		type = 3,
-		id = 2,
+		id = 7,
 		pic = "temp2",
 		time = {
 			{
@@ -67,7 +242,7 @@ pg.activity_banner = {
 	{
 		param = "4012",
 		type = 3,
-		id = 3,
+		id = 8,
 		pic = "temp3",
 		time = {
 			{
@@ -97,43 +272,6 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
-		id = 4,
-		pic = "temp4",
-		param = {
-			"metacharacter",
-			{
-				autoOpenShipConfigID = 9702010
-			}
-		},
-		time = {
-			{
-				{
-					2021,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					6,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[9] = {
 		param = "",
 		type = 9,
 		id = 9,
@@ -142,8 +280,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					5,
-					27
+					6,
+					24
 				},
 				{
 					0,
@@ -154,8 +292,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					6,
-					16
+					7,
+					7
 				},
 				{
 					23,
@@ -170,6 +308,10 @@ pg.activity_banner = {
 		2,
 		3,
 		4,
+		5,
+		6,
+		7,
+		8,
 		9
 	}
 }

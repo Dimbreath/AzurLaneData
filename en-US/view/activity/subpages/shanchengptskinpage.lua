@@ -7,7 +7,7 @@ end
 
 function slot0.OnFirstFlush(slot0)
 	slot1 = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
-		return slot0:getConfig("config_client").pt_id == pg.gameset.activity_res_id.key_value
+		return slot0:getConfig("config_client").pt_id == uv0.activity:getConfig("config_client").pt_id
 	end)
 
 	onButton(slot0, slot0.shop, function ()

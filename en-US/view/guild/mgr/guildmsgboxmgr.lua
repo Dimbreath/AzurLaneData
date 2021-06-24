@@ -350,26 +350,26 @@ function slot0.SubmitTask(slot0, slot1)
 		return
 	end
 
-	if not slot2:hasWeeklyTaskFlag() then
-		slot1()
-
-		return
-	end
-
 	if not (slot2 and slot2:GetActiveWeeklyTask()) then
 		slot1()
 
 		return
 	end
 
-	if slot4 and slot4:isFinished() then
+	if slot3 and slot3:isFinished() then
 		slot1()
 
 		return
 	end
 
-	if (getProxy(TaskProxy):getTaskById(slot4:GetPresonTaskId()) or slot6:getFinishTaskById(slot5)) and not slot7:isFinish() then
+	if (getProxy(TaskProxy):getTaskById(slot3:GetPresonTaskId()) or slot5:getFinishTaskById(slot4)) and not slot6:isFinish() then
 		slot1()
+
+		return
+	end
+
+	if not slot2:hasWeeklyTaskFlag() then
+		slot1(false, false, slot4)
 
 		return
 	end
@@ -377,7 +377,7 @@ function slot0.SubmitTask(slot0, slot1)
 	slot8 = false
 	slot9 = {}
 
-	if slot7 and slot7:isFinish() and not slot7:isReceive() then
+	if slot6 and slot6:isFinish() and not slot6:isReceive() then
 		table.insert(slot9, function (slot0)
 			pg.m02:sendNotification(GAME.SUBMIT_TASK, uv0, function (slot0)
 				uv0 = slot0

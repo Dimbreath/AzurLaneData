@@ -1,63 +1,83 @@
 pg = pg or {}
 pg.equip_data_statistics_56 = {
-	[3104] = {
-		id = 3104,
-		value_1 = "27",
-		base = 3100
+	[3044] = {
+		id = 3044,
+		value_2 = 9,
+		value_1 = "22",
+		base = 3040
 	},
-	[3105] = {
-		id = 3105,
-		value_1 = "30",
-		base = 3100
+	[3045] = {
+		id = 3045,
+		value_2 = 9,
+		value_1 = "24",
+		base = 3040
 	},
-	[3106] = {
-		id = 3106,
-		value_1 = "33",
-		base = 3100
-	},
-	[3107] = {
-		id = 3107,
-		value_1 = "36",
-		base = 3100
-	},
-	[3108] = {
-		id = 3108,
-		value_1 = "39",
-		base = 3100
-	},
-	[3109] = {
-		id = 3109,
-		value_1 = "42",
-		base = 3100
-	},
-	[3110] = {
-		id = 3110,
-		value_1 = "45",
-		base = 3100
-	},
-	[3111] = {
+	[3046] = {
+		id = 3046,
 		value_2 = 10,
-		anti_siren = 100,
-		base = 3100,
-		id = 3111,
-		value_1 = "45",
-		attribute_2 = "hit"
+		value_1 = "26",
+		base = 3040
 	},
-	[3120] = {
-		name = "Improved Snorkel",
+	[3047] = {
+		id = 3047,
+		value_2 = 10,
+		value_1 = "28",
+		base = 3040
+	},
+	[3048] = {
+		id = 3048,
+		value_2 = 11,
+		value_1 = "30",
+		base = 3040
+	},
+	[3049] = {
+		id = 3049,
+		value_2 = 11,
+		value_1 = "32",
+		base = 3040
+	},
+	[3050] = {
+		id = 3050,
+		value_2 = 12,
+		value_1 = "35",
+		base = 3040
+	},
+	[3051] = {
+		id = 3051,
+		anti_siren = 100,
+		base = 3040,
+		value_2 = 13,
+		value_1 = "38"
+	},
+	[3052] = {
+		id = 3052,
+		anti_siren = 200,
+		base = 3040,
+		value_2 = 14,
+		value_1 = "41"
+	},
+	[3053] = {
+		id = 3053,
+		anti_siren = 300,
+		base = 3040,
+		value_2 = 15,
+		value_1 = "44"
+	},
+	[3100] = {
+		name = "Compressed Oxygen Cylinder",
 		tech = 0,
 		type = 10,
 		speciality = "N/A",
 		attribute_1 = "oxy_max",
 		value_2 = 0,
-		icon = "3120",
-		value_1 = "34",
+		icon = "3100",
+		value_1 = "18",
 		descrip = "Equipment that allows submarines to take in air while underwater.",
-		rarity = 5,
-		nationality = 4,
+		rarity = 4,
+		nationality = 0,
 		ammo = 10,
 		value_3 = 0,
-		id = 3120,
+		id = 3100,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -77,48 +97,37 @@ pg.equip_data_statistics_56 = {
 		},
 		equip_parameters = {},
 		label = {
-			"KMS",
 			"DEV"
 		}
 	},
-	[3121] = {
-		id = 3121,
-		value_1 = "39",
-		base = 3120
+	[3101] = {
+		id = 3101,
+		value_1 = "20",
+		base = 3100
 	},
-	[3122] = {
-		id = 3122,
-		value_1 = "44",
-		base = 3120
+	[3102] = {
+		id = 3102,
+		value_1 = "22",
+		base = 3100
 	},
-	[3123] = {
-		id = 3123,
-		value_1 = "49",
-		base = 3120
+	[3103] = {
+		id = 3103,
+		value_1 = "24",
+		base = 3100
 	},
-	[3124] = {
-		id = 3124,
-		value_1 = "54",
-		base = 3120
+	[3104] = {
+		id = 3104,
+		value_1 = "27",
+		base = 3100
 	},
-	[3125] = {
-		id = 3125,
-		value_1 = "59",
-		base = 3120
+	[3105] = {
+		id = 3105,
+		value_1 = "30",
+		base = 3100
 	},
-	[3126] = {
-		id = 3126,
-		value_1 = "64",
-		base = 3120
-	},
-	[3127] = {
-		id = 3127,
-		value_1 = "69",
-		base = 3120
-	},
-	[3128] = {
-		id = 3128,
-		value_1 = "74",
-		base = 3120
+	[3106] = {
+		id = 3106,
+		value_1 = "33",
+		base = 3100
 	}
 }

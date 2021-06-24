@@ -499,11 +499,7 @@ function slot0.disablePartialBlur(slot0)
 end
 
 function slot0.getMetaSkillTacticsConfigBySkillID(slot0, slot1, slot2)
-	for slot6, slot7 in ipairs(pg.ship_meta_skilltask) do
-		if slot7.skill_ID == slot1 and slot7.level == slot2 then
-			return slot7
-		end
-	end
+	return MetaCharacterConst.getMetaSkillTacticsConfig(slot1, slot2)
 end
 
 function slot0.getTaskInfoBySkillAndTaskID(slot0, slot1, slot2)
@@ -585,15 +581,7 @@ function slot0.sortTaskConfig(slot0, slot1, slot2)
 end
 
 function slot0.getSkillIDListForShow(slot0, slot1)
-	slot2 = {}
-
-	for slot8, slot9 in ipairs(pg.ship_data_template[slot1].buff_list_display) do
-		if MetaCharacterConst.isMetaTaskSkillID(slot9) then
-			table.insert(slot2, slot9)
-		end
-	end
-
-	return slot2
+	return MetaCharacterConst.getTacticsSkillIDListByShipConfigID(slot1)
 end
 
 return slot0

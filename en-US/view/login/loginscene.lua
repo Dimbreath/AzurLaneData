@@ -6,8 +6,8 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.getBGM(slot0)
-	if slot0.specialPara and slot1[4] and slot1[4] ~= "" then
-		return slot1[4]
+	if slot0.bgmName and slot0.bgmName ~= "" then
+		return slot0.bgmName
 	end
 
 	return uv0.super.getBGM(slot0)
@@ -16,20 +16,39 @@ end
 function slot0.preload(slot0, slot1)
 	slot0.iconSpries = {}
 
-	ResourceMgr.Inst:loadAssetBundleAsync("ui/LoginUI2_atlas", function (slot0)
-		table.insert(uv0.iconSpries, ResourceMgr.Inst:LoadAssetSync(slot0, "statu_green", typeof(Sprite), true, false))
-		table.insert(uv0.iconSpries, ResourceMgr.Inst:LoadAssetSync(slot0, "statu_gray", typeof(Sprite), true, false))
-		table.insert(uv0.iconSpries, ResourceMgr.Inst:LoadAssetSync(slot0, "statu_red", typeof(Sprite), true, false))
-		table.insert(uv0.iconSpries, ResourceMgr.Inst:LoadAssetSync(slot0, "statu_org", typeof(Sprite), true, false))
+	seriesAsync({
+		function (slot0)
+			ResourceMgr.Inst:loadAssetBundleAsync("ui/LoginUI2_atlas", function (slot0)
+				table.insert(uv0.iconSpries, ResourceMgr.Inst:LoadAssetSync(slot0, "statu_green", typeof(Sprite), true, false))
+				table.insert(uv0.iconSpries, ResourceMgr.Inst:LoadAssetSync(slot0, "statu_gray", typeof(Sprite), true, false))
+				table.insert(uv0.iconSpries, ResourceMgr.Inst:LoadAssetSync(slot0, "statu_red", typeof(Sprite), true, false))
+				table.insert(uv0.iconSpries, ResourceMgr.Inst:LoadAssetSync(slot0, "statu_org", typeof(Sprite), true, false))
+				uv1()
+			end)
+		end,
+		function (slot0)
+			uv0.isCriBg, uv0.bgPath, uv0.bgmName = getLoginConfig()
 
-		if uv1 then
-			uv1()
+			if uv0.isCriBg then
+				LoadAndInstantiateAsync("effect", uv0.bgPath, function (slot0)
+					uv0.criBgGo = slot0
+
+					uv1()
+				end)
+			else
+				LoadSpriteAsync("loadingbg/" .. uv0.bgPath, function (slot0)
+					uv0.staticBgSprite = slot0
+
+					uv1()
+				end)
+			end
 		end
-	end)
+	}, slot1)
 end
 
 function slot0.init(slot0)
-	slot0.specialPara = slot0:getSpecialDatePara()
+	slot0:setBg()
+
 	slot0.version = slot0:findTF("version")
 	slot0.version:GetComponent("Text").text = "ver " .. UpdateMgr.Inst.currentVersion:ToString()
 	slot0.bgLay = slot0:findTF("bg_lay")
@@ -134,14 +153,20 @@ function slot0.init(slot0)
 	slot0.subViewList[LoginSceneConst.DEFINE.SERVER_PANEL] = slot0.serversPanel
 	slot0.subViewList[LoginSceneConst.DEFINE.ACCOUNT_BTN] = slot0.accountBtn
 	slot0.subViewList[LoginSceneConst.DEFINE.CURRENT_SERVER] = slot0.currentServer
-	slot0.bgImg = slot0:findTF("background/bg"):GetComponent(typeof(Image))
+	slot0.age = slot0:findTF("background/age")
 
-	slot0:setBg()
-
-	if CRI_BG_FLAG then
-		slot0:setCriBg()
+	if PLATFORM_CODE == PLATFORM_CH then
+		onButton(slot0, slot0.age, function ()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
+				helps = pg.gametip.cadpa_help.tip,
+				title = pg.MsgboxMgr.TITLE_CADPA
+			})
+		end)
+		SetActive(slot0.age, true)
 	end
 
+	SetActive(slot0.age, PLATFORM_CODE == PLATFORM_CH)
 	setText(findTF(slot0.currentServer, "server_name"), "")
 	slot0:switchToServer()
 	slot0:initEvents()
@@ -310,39 +335,18 @@ function slot0.showUserAgreement(slot0, slot1)
 	end)
 end
 
-function slot0.getSpecialDatePara(slot0)
-	for slot5, slot6 in ipairs(SPECIAL_DATE) do
-		if slot6[1] == pg.TimeMgr.GetInstance():CTimeDescC(os.time(), "%Y%m%d") then
-			return slot6
-		end
-	end
-
-	return nil
-end
-
 function slot0.setBg(slot0)
-	slot1 = "login"
+	slot0.bgImg = slot0:findTF("background/bg"):GetComponent(typeof(Image))
 
-	if slot0.specialPara then
-		slot1 = slot2[2]
+	if not slot0.isCriBg then
+		setImageSprite(slot0.bgImg, slot0.staticBgSprite)
+	else
+		slot0.bgImg.enabled = false
+		slot1 = slot0.criBgGo.transform
 
-		if slot2[3] and slot2[3] ~= "" then
-			slot0:setCriBg(slot2[3])
-		end
+		slot1:SetParent(slot0.bgImg.transform, false)
+		slot1:SetAsFirstSibling()
 	end
-
-	setImageSprite(slot0.bgImg, LoadSprite("loadingbg/" .. slot1))
-end
-
-function slot0.setCriBg(slot0, slot1)
-	LoadAndInstantiateAsync("effect", slot1 or "loginbg", function (slot0)
-		if slot0 then
-			slot1 = slot0.transform
-
-			slot1:SetParent(uv0.bgImg.transform, false)
-			slot1:SetAsFirstSibling()
-		end
-	end)
 end
 
 function slot0.setLastLogin(slot0, slot1)

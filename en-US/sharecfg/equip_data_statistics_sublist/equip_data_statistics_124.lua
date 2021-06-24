@@ -1,5 +1,172 @@
 pg = pg or {}
 pg.equip_data_statistics_124 = {
+	[16344] = {
+		id = 16344,
+		damage = "38/wave",
+		base = 16340,
+		weapon_id = {
+			16344
+		}
+	},
+	[16345] = {
+		id = 16345,
+		damage = "42/wave",
+		base = 16340,
+		weapon_id = {
+			16345
+		}
+	},
+	[16346] = {
+		id = 16346,
+		damage = "46/wave",
+		base = 16340,
+		weapon_id = {
+			16346
+		}
+	},
+	[16347] = {
+		id = 16347,
+		damage = "50/wave",
+		base = 16340,
+		weapon_id = {
+			16347
+		}
+	},
+	[16348] = {
+		id = 16348,
+		damage = "54/wave",
+		base = 16340,
+		weapon_id = {
+			16348
+		}
+	},
+	[16349] = {
+		id = 16349,
+		damage = "58/wave",
+		base = 16340,
+		weapon_id = {
+			16349
+		}
+	},
+	[16350] = {
+		id = 16350,
+		damage = "62/wave",
+		base = 16340,
+		weapon_id = {
+			16350
+		}
+	},
+	[16351] = {
+		anti_siren = 100,
+		damage = "62/wave",
+		base = 16340,
+		id = 16351,
+		weapon_id = {
+			16351
+		}
+	},
+	[16400] = {
+		name = "Quadruple 40mm Bofors AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 1,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "16400",
+		attribute_2 = "antiaircraft",
+		rarity = 3,
+		damage = "38/wave",
+		nationality = 1,
+		ammo = 5,
+		value_3 = 0,
+		id = 16400,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			16400
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
+	},
+	[16401] = {
+		id = 16401,
+		damage = "44/wave",
+		base = 16400,
+		weapon_id = {
+			16401
+		}
+	},
+	[16402] = {
+		id = 16402,
+		damage = "50/wave",
+		base = 16400,
+		weapon_id = {
+			16402
+		}
+	},
+	[16403] = {
+		id = 16403,
+		damage = "56/wave",
+		base = 16400,
+		weapon_id = {
+			16403
+		}
+	},
+	[16404] = {
+		id = 16404,
+		damage = "62/wave",
+		base = 16400,
+		weapon_id = {
+			16404
+		}
+	},
+	[16405] = {
+		id = 16405,
+		damage = "69/wave",
+		base = 16400,
+		weapon_id = {
+			16405
+		}
+	},
 	[16406] = {
 		id = 16406,
 		damage = "76/wave",
@@ -76,172 +243,6 @@ pg.equip_data_statistics_124 = {
 		base = 16420,
 		weapon_id = {
 			16421
-		}
-	},
-	[16422] = {
-		id = 16422,
-		damage = "55/wave",
-		base = 16420,
-		weapon_id = {
-			16422
-		}
-	},
-	[16423] = {
-		id = 16423,
-		damage = "61/wave",
-		base = 16420,
-		weapon_id = {
-			16423
-		}
-	},
-	[16424] = {
-		id = 16424,
-		damage = "67/wave",
-		base = 16420,
-		weapon_id = {
-			16424
-		}
-	},
-	[16425] = {
-		id = 16425,
-		damage = "73/wave",
-		base = 16420,
-		weapon_id = {
-			16425
-		}
-	},
-	[16426] = {
-		id = 16426,
-		damage = "80/wave",
-		base = 16420,
-		weapon_id = {
-			16426
-		}
-	},
-	[16427] = {
-		id = 16427,
-		damage = "87/wave",
-		base = 16420,
-		weapon_id = {
-			16427
-		}
-	},
-	[16428] = {
-		id = 16428,
-		damage = "94/wave",
-		base = 16420,
-		weapon_id = {
-			16428
-		}
-	},
-	[16429] = {
-		id = 16429,
-		damage = "101/wave",
-		base = 16420,
-		weapon_id = {
-			16429
-		}
-	},
-	[16430] = {
-		id = 16430,
-		damage = "108/wave",
-		base = 16420,
-		weapon_id = {
-			16430
-		}
-	},
-	[16440] = {
-		name = "Quadruple 40mm Bofors AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		tech = 3,
-		descrip = "No description",
-		value_2 = 45,
-		icon = "16400",
-		attribute_2 = "antiaircraft",
-		rarity = 5,
-		damage = "48/wave",
-		nationality = 1,
-		ammo = 5,
-		value_3 = 0,
-		id = 16440,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			16440
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"ST",
-			"AA"
-		}
-	},
-	[16441] = {
-		id = 16441,
-		damage = "55/wave",
-		base = 16440,
-		weapon_id = {
-			16441
-		}
-	},
-	[16442] = {
-		id = 16442,
-		damage = "62/wave",
-		base = 16440,
-		weapon_id = {
-			16442
-		}
-	},
-	[16443] = {
-		id = 16443,
-		damage = "69/wave",
-		base = 16440,
-		weapon_id = {
-			16443
-		}
-	},
-	[16444] = {
-		id = 16444,
-		damage = "76/wave",
-		base = 16440,
-		weapon_id = {
-			16444
 		}
 	}
 }

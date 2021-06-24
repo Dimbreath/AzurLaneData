@@ -1,61 +1,43 @@
 pg = pg or {}
 pg.equip_data_statistics_216 = {
-	[31163] = {
-		id = 31163,
-		damage = "4 x 2",
-		base = 31160,
+	[31121] = {
+		id = 31121,
+		base = 31120,
 		weapon_id = {
-			31163
+			31121
 		}
 	},
-	[31164] = {
-		id = 31164,
-		damage = "7 x 2",
-		base = 31160,
+	[31122] = {
+		id = 31122,
+		damage = "4 x 1",
+		base = 31120,
 		weapon_id = {
-			31164
+			31122
 		}
 	},
-	[31165] = {
-		id = 31165,
-		damage = "7 x 2",
-		base = 31160,
+	[31123] = {
+		id = 31123,
+		damage = "4 x 1",
+		base = 31120,
 		weapon_id = {
-			31165
+			31123
 		}
 	},
-	[31166] = {
-		id = 31166,
-		damage = "8 x 2",
-		base = 31160,
-		weapon_id = {
-			31166
-		}
-	},
-	[31167] = {
-		id = 31167,
-		damage = "8 x 2",
-		base = 31160,
-		weapon_id = {
-			31167
-		}
-	},
-	[31180] = {
-		name = "Single 120mm High-Angle Gun Mount",
+	[31140] = {
+		name = "Single 120mm Type 3 Naval Gun",
 		speciality = "Lock",
 		type = 1,
-		attribute_3 = "antiaircraft",
-		tech = 0,
-		value_2 = 10,
-		icon = "31180",
-		attribute_2 = "cannon",
+		tech = 3,
 		descrip = "No description",
-		rarity = 4,
-		damage = "4 x 3",
+		value_2 = 12,
+		icon = "31100",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "3 x 1",
 		nationality = 3,
 		ammo = 3,
-		value_3 = 15,
-		id = 31180,
+		value_3 = 0,
+		id = 31140,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {
@@ -76,7 +58,7 @@ pg.equip_data_statistics_216 = {
 			},
 			{
 				4,
-				1003
+				1000
 			},
 			6,
 			10,
@@ -84,7 +66,7 @@ pg.equip_data_statistics_216 = {
 			12
 		},
 		weapon_id = {
-			31180
+			31140
 		},
 		skill_id = {},
 		part_main = {
@@ -107,92 +89,164 @@ pg.equip_data_statistics_216 = {
 			"MG"
 		}
 	},
-	[31181] = {
-		id = 31181,
-		base = 31180,
+	[31141] = {
+		id = 31141,
+		base = 31140,
 		weapon_id = {
-			31181
+			31141
 		}
 	},
-	[31182] = {
-		id = 31182,
-		damage = "5 x 3",
-		base = 31180,
+	[31142] = {
+		id = 31142,
+		damage = "4 x 1",
+		base = 31140,
 		weapon_id = {
-			31182
+			31142
 		}
 	},
-	[31183] = {
-		id = 31183,
-		damage = "5 x 3",
-		base = 31180,
+	[31143] = {
+		id = 31143,
+		damage = "4 x 1",
+		base = 31140,
 		weapon_id = {
-			31183
+			31143
 		}
 	},
-	[31184] = {
-		id = 31184,
-		damage = "7 x 3",
-		base = 31180,
+	[31144] = {
+		id = 31144,
+		damage = "7 x 1",
+		base = 31140,
 		weapon_id = {
-			31184
+			31144
 		}
 	},
-	[31185] = {
-		id = 31185,
-		damage = "7 x 3",
-		base = 31180,
+	[31145] = {
+		id = 31145,
+		damage = "7 x 1",
+		base = 31140,
 		weapon_id = {
-			31185
+			31145
 		}
 	},
-	[31186] = {
-		id = 31186,
-		damage = "8 x 3",
-		base = 31180,
+	[31146] = {
+		id = 31146,
+		damage = "8 x 1",
+		base = 31140,
 		weapon_id = {
-			31186
+			31146
 		}
 	},
-	[31187] = {
-		id = 31187,
-		damage = "9 x 3",
-		base = 31180,
+	[31147] = {
+		id = 31147,
+		damage = "8 x 1",
+		base = 31140,
 		weapon_id = {
-			31187
+			31147
 		}
 	},
-	[31188] = {
-		id = 31188,
-		damage = "9 x 3",
-		base = 31180,
+	[31160] = {
+		name = "Single 120mm 11th Year Type Naval Gun Mount",
+		speciality = "Lock",
+		type = 1,
+		tech = 0,
+		descrip = "No description",
+		value_2 = 12,
+		icon = "31160",
+		attribute_2 = "cannon",
+		rarity = 3,
+		damage = "3 x 2",
+		nationality = 3,
+		ammo = 3,
+		value_3 = 0,
+		id = 31160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1200
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1200
+			},
+			{
+				4,
+				1007
+			},
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			31188
+			31160
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
 		}
 	},
-	[31189] = {
-		id = 31189,
-		damage = "10 x 3",
-		base = 31180,
+	[31161] = {
+		id = 31161,
+		base = 31160,
 		weapon_id = {
-			31189
+			31161
 		}
 	},
-	[31190] = {
-		id = 31190,
-		damage = "11 x 3",
-		base = 31180,
+	[31162] = {
+		id = 31162,
+		damage = "4 x 2",
+		base = 31160,
 		weapon_id = {
-			31190
+			31162
 		}
 	},
-	[31191] = {
-		anti_siren = 100,
-		damage = "11 x 3",
-		base = 31180,
-		id = 31191,
+	[31163] = {
+		id = 31163,
+		damage = "4 x 2",
+		base = 31160,
 		weapon_id = {
-			31191
+			31163
+		}
+	},
+	[31164] = {
+		id = 31164,
+		damage = "7 x 2",
+		base = 31160,
+		weapon_id = {
+			31164
+		}
+	},
+	[31165] = {
+		id = 31165,
+		damage = "7 x 2",
+		base = 31160,
+		weapon_id = {
+			31165
 		}
 	}
 }

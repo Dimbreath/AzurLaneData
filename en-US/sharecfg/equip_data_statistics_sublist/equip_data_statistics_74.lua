@@ -1,44 +1,68 @@
 pg = pg or {}
 pg.equip_data_statistics_74 = {
-	[5424] = {
-		id = 5424,
-		damage = "88 x 3",
-		base = 5420,
+	[5342] = {
+		id = 5342,
+		damage = "70 x 2",
+		base = 5340,
 		weapon_id = {
-			5424
+			5342
 		}
 	},
-	[5425] = {
-		id = 5425,
-		damage = "98 x 3",
-		base = 5420,
+	[5343] = {
+		id = 5343,
+		damage = "79 x 2",
+		base = 5340,
 		weapon_id = {
-			5425
+			5343
 		}
 	},
-	[5426] = {
-		id = 5426,
-		damage = "108 x 3",
-		base = 5420,
+	[5344] = {
+		id = 5344,
+		damage = "88 x 2",
+		base = 5340,
 		weapon_id = {
-			5426
+			5344
 		}
 	},
-	[5440] = {
+	[5345] = {
+		id = 5345,
+		damage = "98 x 2",
+		base = 5340,
+		weapon_id = {
+			5345
+		}
+	},
+	[5346] = {
+		id = 5346,
+		damage = "108 x 2",
+		base = 5340,
+		weapon_id = {
+			5346
+		}
+	},
+	[5347] = {
+		id = 5347,
+		damage = "108 x 2",
+		base = 5340,
+		weapon_id = {
+			5347
+		}
+	},
+	[5400] = {
 		name = "550mm Triple Torpedo Launcher",
 		speciality = "Torpedo",
 		type = 5,
-		tech = 3,
+		tech = 1,
 		descrip = "No description",
-		value_2 = 25,
+		value_2 = 5,
 		icon = "5400",
 		attribute_2 = "torpedo",
-		rarity = 4,
-		damage = "58 x 3",
+		rarity = 2,
+		damage = "47 x 3",
 		nationality = 8,
 		ammo = 5,
 		value_3 = 0,
-		id = 5440,
+		id = 5400,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -63,7 +87,7 @@ pg.equip_data_statistics_74 = {
 			12
 		},
 		weapon_id = {
-			5440
+			5400
 		},
 		skill_id = {},
 		part_main = {
@@ -86,129 +110,62 @@ pg.equip_data_statistics_74 = {
 			"TRI"
 		}
 	},
-	[5441] = {
-		id = 5441,
-		damage = "68 x 3",
-		base = 5440,
+	[5401] = {
+		id = 5401,
+		damage = "55 x 3",
+		base = 5400,
 		weapon_id = {
-			5441
+			5401
 		}
 	},
-	[5442] = {
-		id = 5442,
-		damage = "78 x 3",
-		base = 5440,
+	[5402] = {
+		id = 5402,
+		damage = "63 x 3",
+		base = 5400,
 		weapon_id = {
-			5442
+			5402
 		}
 	},
-	[5443] = {
-		id = 5443,
-		damage = "88 x 3",
-		base = 5440,
+	[5403] = {
+		id = 5403,
+		damage = "72 x 3",
+		base = 5400,
 		weapon_id = {
-			5443
+			5403
 		}
 	},
-	[5444] = {
-		id = 5444,
-		damage = "98 x 3",
-		base = 5440,
-		weapon_id = {
-			5444
-		}
-	},
-	[5445] = {
-		id = 5445,
-		damage = "108 x 3",
-		base = 5440,
-		weapon_id = {
-			5445
-		}
-	},
-	[5446] = {
-		id = 5446,
-		damage = "118 x 3",
-		base = 5440,
-		weapon_id = {
-			5446
-		}
-	},
-	[5447] = {
-		id = 5447,
-		damage = "129 x 3",
-		base = 5440,
-		weapon_id = {
-			5447
-		}
-	},
-	[5448] = {
-		id = 5448,
-		damage = "140 x 3",
-		base = 5440,
-		weapon_id = {
-			5448
-		}
-	},
-	[5449] = {
-		id = 5449,
-		damage = "151 x 3",
-		base = 5440,
-		weapon_id = {
-			5449
-		}
-	},
-	[5450] = {
-		id = 5450,
-		damage = "162 x 3",
-		base = 5440,
-		weapon_id = {
-			5450
-		}
-	},
-	[5451] = {
-		anti_siren = 100,
-		damage = "162 x 3",
-		base = 5440,
-		id = 5451,
-		weapon_id = {
-			5451
-		}
-	},
-	[5500] = {
-		name = "550mm 24V Submarine Torpedo",
+	[5420] = {
+		name = "550mm Triple Torpedo Launcher",
 		speciality = "Torpedo",
-		type = 13,
-		tech = 1,
+		type = 5,
+		tech = 2,
 		descrip = "No description",
-		value_2 = 5,
-		icon = "5500",
+		value_2 = 12,
+		icon = "5400",
 		attribute_2 = "torpedo",
-		rarity = 2,
-		damage = "44 x 2",
+		rarity = 3,
+		damage = "52 x 3",
 		nationality = 8,
 		ammo = 5,
 		value_3 = 0,
-		id = 5500,
+		id = 5420,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				3,
-				1827
+				1800
 			}
 		},
 		equip_info = {
-			1,
-			2,
 			{
 				3,
-				1827
+				1800
 			},
 			{
 				4,
-				1601
+				1402
 			},
 			6,
 			10,
@@ -216,30 +173,75 @@ pg.equip_data_statistics_74 = {
 			12
 		},
 		weapon_id = {
-			5500
+			5420
 		},
 		skill_id = {},
 		part_main = {
-			8,
-			17
+			1,
+			2,
+			3,
+			18
 		},
 		part_sub = {
-			8,
-			17
+			1,
+			2,
+			3,
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"FFNF",
-			"SS",
-			"TP"
+			"ST",
+			"TP",
+			"TRI"
 		}
 	},
-	[5501] = {
-		id = 5501,
-		damage = "50 x 2",
-		base = 5500,
+	[5421] = {
+		id = 5421,
+		damage = "61 x 3",
+		base = 5420,
 		weapon_id = {
-			5501
+			5421
+		}
+	},
+	[5422] = {
+		id = 5422,
+		damage = "70 x 3",
+		base = 5420,
+		weapon_id = {
+			5422
+		}
+	},
+	[5423] = {
+		id = 5423,
+		damage = "79 x 3",
+		base = 5420,
+		weapon_id = {
+			5423
+		}
+	},
+	[5424] = {
+		id = 5424,
+		damage = "88 x 3",
+		base = 5420,
+		weapon_id = {
+			5424
+		}
+	},
+	[5425] = {
+		id = 5425,
+		damage = "98 x 3",
+		base = 5420,
+		weapon_id = {
+			5425
+		}
+	},
+	[5426] = {
+		id = 5426,
+		damage = "108 x 3",
+		base = 5420,
+		weapon_id = {
+			5426
 		}
 	}
 }

@@ -122,6 +122,8 @@ function slot0.RegisterRedDotNode(slot0, slot1)
 
 		table.insert(slot0.nodeList[slot7], slot1)
 	end
+
+	slot1:Init()
 end
 
 function slot0.UnRegisterRedDotNodes(slot0, slot1)

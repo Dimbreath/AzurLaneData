@@ -138,7 +138,9 @@ function slot0.handleNotification(slot0, slot1)
 				coroutine.yield()
 			end
 
-			uv1.viewComponent:emit(BaseUI.ON_ACHIEVE, uv0.awards)
+			uv1.viewComponent:emit(BaseUI.ON_ACHIEVE, uv0.awards, function ()
+				uv0:sendNotification(GAME.TACTICS_META_LEVELMAX_SHOW_BOX)
+			end)
 		end)()
 	end
 end

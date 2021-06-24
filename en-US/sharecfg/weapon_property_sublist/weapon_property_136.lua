@@ -2,6 +2,279 @@ pg = pg or {}
 pg.weapon_property_136 = {}
 
 function ()
+	uv0.weapon_property_136[66888] = {
+		name = "罗伯茨级技能偏转穿透LV8",
+		damage = 88,
+		base = 66880,
+		id = 66888,
+		barrage_ID = {
+			80093,
+			80097
+		}
+	}
+	uv0.weapon_property_136[66889] = {
+		name = "罗伯茨级技能偏转穿透LV9",
+		damage = 98,
+		base = 66880,
+		id = 66889,
+		barrage_ID = {
+			80093,
+			80097
+		}
+	}
+	uv0.weapon_property_136[66890] = {
+		name = "罗伯茨级技能偏转穿透LV10",
+		damage = 108,
+		base = 66880,
+		id = 66890,
+		barrage_ID = {
+			80094,
+			80098
+		}
+	}
+	uv0.weapon_property_136[66900] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "I58尾声鱼雷LV0",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 24,
+		corrected = 100,
+		min_range = 0,
+		id = 66900,
+		attack_attribute_ratio = 120,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19932
+		},
+		barrage_ID = {
+			80121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_136[66901] = {
+		id = 66901,
+		name = "I58尾声鱼雷LV1",
+		damage = 27,
+		base = 66900
+	}
+	uv0.weapon_property_136[66902] = {
+		id = 66902,
+		name = "I58尾声鱼雷LV2",
+		damage = 30,
+		base = 66900
+	}
+	uv0.weapon_property_136[66903] = {
+		id = 66903,
+		name = "I58尾声鱼雷LV3",
+		damage = 33,
+		base = 66900
+	}
+	uv0.weapon_property_136[66904] = {
+		name = "I58尾声鱼雷LV4",
+		damage = 36,
+		base = 66900,
+		id = 66904,
+		barrage_ID = {
+			80122
+		}
+	}
+	uv0.weapon_property_136[66905] = {
+		name = "I58尾声鱼雷LV5",
+		damage = 40,
+		base = 66900,
+		id = 66905,
+		barrage_ID = {
+			80122
+		}
+	}
+	uv0.weapon_property_136[66906] = {
+		name = "I58尾声鱼雷LV6",
+		damage = 44,
+		base = 66900,
+		id = 66906,
+		barrage_ID = {
+			80122
+		}
+	}
+	uv0.weapon_property_136[66907] = {
+		name = "I58尾声鱼雷LV7",
+		damage = 48,
+		base = 66900,
+		id = 66907,
+		barrage_ID = {
+			80123
+		}
+	}
+	uv0.weapon_property_136[66908] = {
+		name = "I58尾声鱼雷LV8",
+		damage = 52,
+		base = 66900,
+		id = 66908,
+		barrage_ID = {
+			80123
+		}
+	}
+	uv0.weapon_property_136[66909] = {
+		name = "I58尾声鱼雷LV9",
+		damage = 56,
+		base = 66900,
+		id = 66909,
+		barrage_ID = {
+			80123
+		}
+	}
+	uv0.weapon_property_136[66910] = {
+		name = "I58尾声鱼雷LV10",
+		damage = 60,
+		base = 66900,
+		id = 66910,
+		barrage_ID = {
+			80124
+		}
+	}
+	uv0.weapon_property_136[66920] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "I19穿透鱼雷LV0",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 19,
+		corrected = 100,
+		min_range = 0,
+		id = 66920,
+		attack_attribute_ratio = 120,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19933
+		},
+		barrage_ID = {
+			80131
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_136[66921] = {
+		id = 66921,
+		name = "I19穿透鱼雷LV1",
+		damage = 21,
+		base = 66920
+	}
+	uv0.weapon_property_136[66922] = {
+		id = 66922,
+		name = "I19穿透鱼雷LV2",
+		damage = 24,
+		base = 66920
+	}
+	uv0.weapon_property_136[66923] = {
+		id = 66923,
+		name = "I19穿透鱼雷LV3",
+		damage = 27,
+		base = 66920
+	}
+	uv0.weapon_property_136[66924] = {
+		name = "I19穿透鱼雷LV4",
+		damage = 30,
+		base = 66920,
+		id = 66924,
+		bullet_ID = {
+			19933,
+			19933
+		},
+		barrage_ID = {
+			80132,
+			80133
+		}
+	}
+	uv0.weapon_property_136[66925] = {
+		name = "I19穿透鱼雷LV5",
+		damage = 33,
+		base = 66920,
+		id = 66925,
+		bullet_ID = {
+			19933,
+			19933
+		},
+		barrage_ID = {
+			80132,
+			80133
+		}
+	}
+	uv0.weapon_property_136[66926] = {
+		name = "I19穿透鱼雷LV6",
+		damage = 36,
+		base = 66920,
+		id = 66926,
+		bullet_ID = {
+			19933,
+			19933
+		},
+		barrage_ID = {
+			80132,
+			80133
+		}
+	}
+	uv0.weapon_property_136[66927] = {
+		name = "I19穿透鱼雷LV7",
+		damage = 39,
+		base = 66920,
+		id = 66927,
+		bullet_ID = {
+			19933,
+			19933
+		},
+		barrage_ID = {
+			80134,
+			80135
+		}
+	}
 	uv0.weapon_property_136[66928] = {
 		name = "I19穿透鱼雷LV8",
 		damage = 42,
@@ -472,198 +745,5 @@ function ()
 		id = 67003,
 		damage = 182,
 		base = 67000
-	}
-	uv0.weapon_property_136[67004] = {
-		id = 67004,
-		damage = 204,
-		base = 67000
-	}
-	uv0.weapon_property_136[67005] = {
-		id = 67005,
-		damage = 226,
-		base = 67000
-	}
-	uv0.weapon_property_136[67006] = {
-		id = 67006,
-		damage = 248,
-		base = 67000
-	}
-	uv0.weapon_property_136[67007] = {
-		id = 67007,
-		damage = 270,
-		base = 67000
-	}
-	uv0.weapon_property_136[67008] = {
-		id = 67008,
-		damage = 292,
-		base = 67000
-	}
-	uv0.weapon_property_136[67009] = {
-		id = 67009,
-		damage = 314,
-		base = 67000
-	}
-	uv0.weapon_property_136[67010] = {
-		id = 67010,
-		damage = 336,
-		base = 67000
-	}
-	uv0.weapon_property_136[67020] = {
-		action_index = "",
-		range = 500,
-		type = 2,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 25,
-		shakescreen = 0,
-		name = "2 x 100lb高爆航弹",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 25,
-		charge_param = "",
-		damage = 40,
-		corrected = 100,
-		min_range = 0,
-		id = 67020,
-		attack_attribute_ratio = 120,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 2,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19936
-		},
-		barrage_ID = {
-			2121
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_136[67021] = {
-		id = 67021,
-		damage = 48,
-		base = 67020
-	}
-	uv0.weapon_property_136[67022] = {
-		id = 67022,
-		damage = 56,
-		base = 67020
-	}
-	uv0.weapon_property_136[67023] = {
-		id = 67023,
-		damage = 64,
-		base = 67020
-	}
-	uv0.weapon_property_136[67024] = {
-		id = 67024,
-		damage = 72,
-		base = 67020
-	}
-	uv0.weapon_property_136[67025] = {
-		id = 67025,
-		damage = 80,
-		base = 67020
-	}
-	uv0.weapon_property_136[67026] = {
-		id = 67026,
-		damage = 88,
-		base = 67020
-	}
-	uv0.weapon_property_136[67027] = {
-		id = 67027,
-		damage = 96,
-		base = 67020
-	}
-	uv0.weapon_property_136[67028] = {
-		id = 67028,
-		damage = 104,
-		base = 67020
-	}
-	uv0.weapon_property_136[67029] = {
-		id = 67029,
-		damage = 112,
-		base = 67020
-	}
-	uv0.weapon_property_136[67030] = {
-		id = 67030,
-		damage = 121,
-		base = 67020
-	}
-	uv0.weapon_property_136[67040] = {
-		action_index = "attack",
-		range = 50,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "BigSeven改技能LV0",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 25,
-		corrected = 100,
-		min_range = 0,
-		id = 67040,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19937,
-			19937
-		},
-		barrage_ID = {
-			80141,
-			80144
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_136[67041] = {
-		id = 67041,
-		name = "BigSeven改技能LV1",
-		damage = 35,
-		base = 67040
-	}
-	uv0.weapon_property_136[67042] = {
-		id = 67042,
-		name = "BigSeven改技能LV2",
-		damage = 45,
-		base = 67040
-	}
-	uv0.weapon_property_136[67043] = {
-		id = 67043,
-		name = "BigSeven改技能LV3",
-		damage = 55,
-		base = 67040
 	}
 end()

@@ -1,52 +1,92 @@
 pg = pg or {}
 pg.equip_data_statistics_365 = {
-	[85383] = {
-		id = 85383,
-		damage = "45/wave",
-		base = 85380,
+	[85322] = {
+		id = 85322,
+		damage = "73 x 3",
+		base = 85320,
 		weapon_id = {
-			85383
+			85322
 		}
 	},
-	[85384] = {
-		id = 85384,
-		damage = "51/wave",
-		base = 85380,
+	[85323] = {
+		id = 85323,
+		damage = "83 x 3",
+		base = 85320,
 		weapon_id = {
-			85384
+			85323
 		}
 	},
-	[85385] = {
-		id = 85385,
-		damage = "57/wave",
-		base = 85380,
+	[85324] = {
+		id = 85324,
+		damage = "92 x 3",
+		base = 85320,
 		weapon_id = {
-			85385
+			85324
 		}
 	},
-	[85386] = {
-		id = 85386,
-		damage = "64/wave",
-		base = 85380,
+	[85325] = {
+		id = 85325,
+		damage = "102 x 3",
+		base = 85320,
 		weapon_id = {
-			85386
+			85325
 		}
 	},
-	[85400] = {
+	[85326] = {
+		id = 85326,
+		damage = "112 x 3",
+		base = 85320,
+		weapon_id = {
+			85326
+		}
+	},
+	[85327] = {
+		id = 85327,
+		damage = "120 x 3",
+		base = 85320,
+		weapon_id = {
+			85327
+		}
+	},
+	[85328] = {
+		id = 85328,
+		damage = "129 x 3",
+		base = 85320,
+		weapon_id = {
+			85328
+		}
+	},
+	[85329] = {
+		id = 85329,
+		damage = "139 x 3",
+		base = 85320,
+		weapon_id = {
+			85329
+		}
+	},
+	[85330] = {
+		id = 85330,
+		damage = "149 x 3",
+		base = 85320,
+		weapon_id = {
+			85330
+		}
+	},
+	[85360] = {
 		name = "Twin 100mm B-34 MZ-14 Dual-Purpose AA Gun",
 		speciality = "Anti-Air",
 		type = 6,
-		tech = 3,
+		tech = 1,
 		descrip = "No description",
-		value_2 = 25,
+		value_2 = 5,
 		icon = "85360",
 		attribute_2 = "antiaircraft",
-		rarity = 4,
-		damage = "38/wave",
+		rarity = 2,
+		damage = "14/wave",
 		nationality = 7,
 		ammo = 5,
 		value_3 = 0,
-		id = 85400,
+		id = 85360,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -58,7 +98,7 @@ pg.equip_data_statistics_365 = {
 			10
 		},
 		weapon_id = {
-			85400
+			85360
 		},
 		skill_id = {},
 		part_main = {
@@ -94,146 +134,114 @@ pg.equip_data_statistics_365 = {
 			"AA"
 		}
 	},
-	[85401] = {
-		id = 85401,
-		damage = "42/wave",
-		base = 85400,
+	[85361] = {
+		id = 85361,
+		damage = "16/wave",
+		base = 85360,
 		weapon_id = {
-			85401
+			85361
 		}
 	},
-	[85402] = {
-		id = 85402,
-		damage = "47/wave",
-		base = 85400,
+	[85362] = {
+		id = 85362,
+		damage = "19/wave",
+		base = 85360,
 		weapon_id = {
-			85402
+			85362
 		}
 	},
-	[85403] = {
-		id = 85403,
-		damage = "53/wave",
-		base = 85400,
+	[85363] = {
+		id = 85363,
+		damage = "22/wave",
+		base = 85360,
 		weapon_id = {
-			85403
+			85363
 		}
 	},
-	[85404] = {
-		id = 85404,
-		damage = "59/wave",
-		base = 85400,
-		weapon_id = {
-			85404
-		}
-	},
-	[85405] = {
-		id = 85405,
-		damage = "65/wave",
-		base = 85400,
-		weapon_id = {
-			85405
-		}
-	},
-	[85406] = {
-		id = 85406,
-		damage = "71/wave",
-		base = 85400,
-		weapon_id = {
-			85406
-		}
-	},
-	[85407] = {
-		id = 85407,
-		damage = "77/wave",
-		base = 85400,
-		weapon_id = {
-			85407
-		}
-	},
-	[85408] = {
-		id = 85408,
-		damage = "83/wave",
-		base = 85400,
-		weapon_id = {
-			85408
-		}
-	},
-	[85409] = {
-		id = 85409,
-		damage = "89/wave",
-		base = 85400,
-		weapon_id = {
-			85409
-		}
-	},
-	[85410] = {
-		id = 85410,
-		damage = "96/wave",
-		base = 85400,
-		weapon_id = {
-			85410
-		}
-	},
-	[85411] = {
-		anti_siren = 100,
-		damage = "96/wave",
-		base = 85400,
-		id = 85411,
-		weapon_id = {
-			85411
-		}
-	},
-	[85420] = {
-		name = "Triple 305mm M1907 Main Gun Mount",
-		speciality = "Volley",
-		type = 4,
-		tech = 3,
+	[85380] = {
+		name = "Twin 100mm B-34 MZ-14 Dual-Purpose AA Gun",
+		speciality = "Anti-Air",
+		type = 6,
+		tech = 2,
 		descrip = "No description",
 		value_2 = 12,
-		icon = "85420",
-		attribute_2 = "cannon",
+		icon = "85360",
+		attribute_2 = "antiaircraft",
 		rarity = 3,
-		damage = "54 x 3",
+		damage = "33/wave",
 		nationality = 7,
-		ammo = 2,
+		ammo = 5,
 		value_3 = 0,
-		id = 85420,
+		id = 85380,
 		torpedo_ammo = 0,
 		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				2,
-				1502
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			85420
+			85380
 		},
 		skill_id = {},
 		part_main = {
+			1,
+			2,
+			3,
 			4,
 			5,
+			6,
 			10,
-			13
+			12,
+			13,
+			18,
+			19
 		},
-		part_sub = {},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
 			"SN",
-			"BB",
-			"MG",
-			"GangutMG"
+			"ST",
+			"AA"
+		}
+	},
+	[85381] = {
+		id = 85381,
+		damage = "36/wave",
+		base = 85380,
+		weapon_id = {
+			85381
+		}
+	},
+	[85382] = {
+		id = 85382,
+		damage = "41/wave",
+		base = 85380,
+		weapon_id = {
+			85382
+		}
+	},
+	[85383] = {
+		id = 85383,
+		damage = "45/wave",
+		base = 85380,
+		weapon_id = {
+			85383
 		}
 	}
 }

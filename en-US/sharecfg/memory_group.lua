@@ -2,6 +2,7 @@ pg = pg or {}
 pg.memory_group = {
 	{
 		title = "Prologue",
+		subtype = 0,
 		type = 1,
 		id = 1,
 		icon = "title_main",
@@ -16,6 +17,7 @@ pg.memory_group = {
 	},
 	{
 		title = "Tora! Tora! Tora!",
+		subtype = 0,
 		type = 1,
 		id = 2,
 		icon = "title_main",
@@ -34,6 +36,7 @@ pg.memory_group = {
 	},
 	{
 		title = "Battle of Coral Sea",
+		subtype = 0,
 		type = 1,
 		id = 3,
 		icon = "title_main",
@@ -45,6 +48,7 @@ pg.memory_group = {
 	},
 	{
 		title = "Midway Showdown",
+		subtype = 0,
 		type = 1,
 		id = 4,
 		icon = "title_main",
@@ -62,6 +66,7 @@ pg.memory_group = {
 	},
 	[98] = {
 		title = "Unlock \"Fate Simulation.\" ",
+		subtype = 0,
 		type = 1,
 		id = 98,
 		icon = "title_main",
@@ -80,6 +85,7 @@ pg.memory_group = {
 	},
 	[99] = {
 		title = "Enter the Meowfficers! ",
+		subtype = 0,
 		type = 1,
 		id = 99,
 		icon = "title_main",
@@ -92,6 +98,7 @@ pg.memory_group = {
 	},
 	[100] = {
 		title = "Unlock the new Research feature. ",
+		subtype = 0,
 		type = 1,
 		id = 100,
 		icon = "title_main",
@@ -102,6 +109,7 @@ pg.memory_group = {
 	},
 	[101] = {
 		title = "Strive, Wish and Strategize ",
+		subtype = 2,
 		type = 2,
 		id = 101,
 		icon = "title_event",
@@ -116,6 +124,7 @@ pg.memory_group = {
 	},
 	[102] = {
 		title = "Divergent Chessboard",
+		subtype = 1,
 		type = 2,
 		id = 102,
 		icon = "title_event",
@@ -143,6 +152,7 @@ pg.memory_group = {
 	},
 	[107] = {
 		title = "Mid-Autumn Festival",
+		subtype = 3,
 		type = 2,
 		id = 107,
 		icon = "title_event",
@@ -158,6 +168,7 @@ pg.memory_group = {
 	},
 	[108] = {
 		title = "Visitors Dyed in Red",
+		subtype = 1,
 		type = 2,
 		id = 108,
 		icon = "title_event",
@@ -184,6 +195,7 @@ pg.memory_group = {
 	},
 	[109] = {
 		title = "Glorious Battle ",
+		subtype = 2,
 		type = 2,
 		id = 109,
 		icon = "title_event",
@@ -202,6 +214,7 @@ pg.memory_group = {
 	},
 	[110] = {
 		title = "Witches' Eve",
+		subtype = 3,
 		type = 2,
 		id = 110,
 		icon = "title_event",
@@ -217,6 +230,7 @@ pg.memory_group = {
 	},
 	[111] = {
 		title = "Bits of Courage",
+		subtype = 3,
 		type = 2,
 		id = 111,
 		icon = "title_event",
@@ -232,6 +246,7 @@ pg.memory_group = {
 	},
 	[112] = {
 		title = "Lively Afternoon Tea Party",
+		subtype = 3,
 		type = 2,
 		id = 112,
 		icon = "title_event",
@@ -247,6 +262,7 @@ pg.memory_group = {
 	},
 	[113] = {
 		title = "Sacred Love and Peace",
+		subtype = 3,
 		type = 2,
 		id = 113,
 		icon = "title_event",
@@ -263,6 +279,7 @@ pg.memory_group = {
 	},
 	[114] = {
 		title = "Lunar New Year Celebration ",
+		subtype = 3,
 		type = 2,
 		id = 114,
 		icon = "title_event",
@@ -278,6 +295,7 @@ pg.memory_group = {
 	},
 	[115] = {
 		title = "Fallen Wings ",
+		subtype = 1,
 		type = 2,
 		id = 115,
 		icon = "title_event",
@@ -299,6 +317,7 @@ pg.memory_group = {
 	},
 	[116] = {
 		title = "Winter Offensive",
+		subtype = 3,
 		type = 2,
 		id = 116,
 		icon = "title_event",
@@ -314,6 +333,7 @@ pg.memory_group = {
 	},
 	[117] = {
 		title = "The Pursuit of Graf Spee ",
+		subtype = 2,
 		type = 2,
 		id = 117,
 		icon = "title_event",
@@ -331,6 +351,7 @@ pg.memory_group = {
 	},
 	[118] = {
 		title = "Visitors From Another Dimension: Mission Cutscenes ",
+		subtype = 2,
 		type = 2,
 		id = 118,
 		icon = "title_event",
@@ -346,6 +367,7 @@ pg.memory_group = {
 	},
 	[119] = {
 		title = "Visitors From Another Dimension: Stage Cutscenes ",
+		subtype = 2,
 		type = 2,
 		id = 119,
 		icon = "title_event",
@@ -362,6 +384,7 @@ pg.memory_group = {
 	},
 	[120] = {
 		title = "An Shan's Coloring Book ",
+		subtype = 3,
 		type = 2,
 		id = 120,
 		icon = "title_event",
@@ -375,6 +398,7 @@ pg.memory_group = {
 	},
 	[121] = {
 		title = "Fu Shun's Great Adventure ",
+		subtype = 3,
 		type = 2,
 		id = 121,
 		icon = "title_event",
@@ -387,6 +411,7 @@ pg.memory_group = {
 	},
 	[122] = {
 		title = "Sea Star on Shore",
+		subtype = 3,
 		type = 2,
 		id = 122,
 		icon = "title_event",
@@ -402,6 +427,7 @@ pg.memory_group = {
 	},
 	[123] = {
 		title = "Winter's Crown ",
+		subtype = 1,
 		type = 2,
 		id = 123,
 		icon = "title_event",
@@ -428,6 +454,7 @@ pg.memory_group = {
 	},
 	[124] = {
 		title = "Flower Festival",
+		subtype = 3,
 		type = 2,
 		id = 124,
 		icon = "title_event",
@@ -443,6 +470,7 @@ pg.memory_group = {
 	},
 	[125] = {
 		title = "School Day Celebrations",
+		subtype = 3,
 		type = 2,
 		id = 125,
 		icon = "title_event",
@@ -458,6 +486,7 @@ pg.memory_group = {
 	},
 	[126] = {
 		title = "The War God's Return ",
+		subtype = 3,
 		type = 2,
 		id = 126,
 		icon = "title_event",
@@ -470,6 +499,7 @@ pg.memory_group = {
 	},
 	[128] = {
 		title = "Year 36 Z Class Z23-Sensei",
+		subtype = 3,
 		type = 2,
 		id = 128,
 		icon = "title_event",
@@ -485,6 +515,7 @@ pg.memory_group = {
 	},
 	[129] = {
 		title = "Lady of Tomorrow",
+		subtype = 3,
 		type = 2,
 		id = 129,
 		icon = "title_event",
@@ -497,6 +528,7 @@ pg.memory_group = {
 	},
 	[131] = {
 		title = "Ink-Stained Steel Sakura ",
+		subtype = 1,
 		type = 2,
 		id = 131,
 		icon = "title_event",
@@ -519,6 +551,7 @@ pg.memory_group = {
 	},
 	[132] = {
 		title = "Moonlit Overture ",
+		subtype = 2,
 		type = 2,
 		id = 132,
 		icon = "title_event",
@@ -536,6 +569,7 @@ pg.memory_group = {
 	},
 	[133] = {
 		title = "Iris of Light and Dark ",
+		subtype = 1,
 		type = 2,
 		id = 133,
 		icon = "title_event",
@@ -555,6 +589,7 @@ pg.memory_group = {
 	},
 	[134] = {
 		title = "Angel or Devil in White? ",
+		subtype = 3,
 		type = 2,
 		id = 134,
 		icon = "title_event",
@@ -568,6 +603,7 @@ pg.memory_group = {
 	},
 	[135] = {
 		title = "Midsummer Sagittarius ",
+		subtype = 3,
 		type = 2,
 		id = 135,
 		icon = "title_event",
@@ -582,6 +618,7 @@ pg.memory_group = {
 	},
 	[136] = {
 		title = "Mikasa's Model Museum ",
+		subtype = 3,
 		type = 2,
 		id = 136,
 		icon = "title_event",
@@ -594,6 +631,7 @@ pg.memory_group = {
 	},
 	[137] = {
 		title = "Ceremonial Gala ",
+		subtype = 3,
 		type = 2,
 		id = 137,
 		icon = "title_event",
@@ -607,6 +645,7 @@ pg.memory_group = {
 	},
 	[138] = {
 		title = "The Special Banquet",
+		subtype = 3,
 		type = 2,
 		id = 138,
 		icon = "title_event",
@@ -621,6 +660,7 @@ pg.memory_group = {
 	},
 	[139] = {
 		title = "Sparkling Battle Star!",
+		subtype = 3,
 		type = 2,
 		id = 139,
 		icon = "title_event",
@@ -633,6 +673,7 @@ pg.memory_group = {
 	},
 	[141] = {
 		title = "Trick or Treat Halloween Night! ",
+		subtype = 3,
 		type = 2,
 		id = 141,
 		icon = "title_event",
@@ -648,6 +689,7 @@ pg.memory_group = {
 	},
 	[145] = {
 		title = "The Solomon Ranger",
+		subtype = 2,
 		type = 2,
 		id = 145,
 		icon = "title_event",
@@ -667,6 +709,7 @@ pg.memory_group = {
 	},
 	[146] = {
 		title = "Operation: Christmas! ",
+		subtype = 3,
 		type = 2,
 		id = 146,
 		icon = "title_event",
@@ -682,6 +725,7 @@ pg.memory_group = {
 	},
 	[147] = {
 		title = "Blessed New Year",
+		subtype = 3,
 		type = 2,
 		id = 147,
 		icon = "title_event",
@@ -697,6 +741,7 @@ pg.memory_group = {
 	},
 	[148] = {
 		title = "Crimson Echoes ",
+		subtype = 1,
 		type = 2,
 		id = 148,
 		icon = "title_event",
@@ -727,6 +772,7 @@ pg.memory_group = {
 	},
 	[149] = {
 		title = "Lunar New Yay-Yay-Year! ",
+		subtype = 3,
 		type = 2,
 		id = 149,
 		icon = "title_event",
@@ -742,6 +788,7 @@ pg.memory_group = {
 	},
 	[150] = {
 		title = "Air Raid Drills with Essex ",
+		subtype = 2,
 		type = 2,
 		id = 150,
 		icon = "title_event",
@@ -755,6 +802,7 @@ pg.memory_group = {
 	},
 	[151] = {
 		title = "Stars of the Shimmering Fjord",
+		subtype = 2,
 		type = 2,
 		id = 151,
 		icon = "title_event",
@@ -775,6 +823,7 @@ pg.memory_group = {
 	},
 	[152] = {
 		title = "\"Virtual Connection Synchronicity\" - Daily Memorabilia",
+		subtype = 2,
 		type = 2,
 		id = 152,
 		icon = "title_event",
@@ -790,6 +839,7 @@ pg.memory_group = {
 	},
 	[153] = {
 		title = "\"Virtual Connection Synchronicity\" - Purification",
+		subtype = 2,
 		type = 2,
 		id = 153,
 		icon = "title_event",
@@ -802,6 +852,7 @@ pg.memory_group = {
 	},
 	[154] = {
 		title = "\"Virtual Connection Synchronicity\" - Task",
+		subtype = 2,
 		type = 2,
 		id = 154,
 		icon = "title_event",
@@ -834,6 +885,7 @@ pg.memory_group = {
 	},
 	[155] = {
 		title = "Operation: Escape from Port!",
+		subtype = 3,
 		type = 2,
 		id = 155,
 		icon = "title_event",
@@ -847,6 +899,7 @@ pg.memory_group = {
 	},
 	[156] = {
 		title = "\"One Small Promise\" ",
+		subtype = 1,
 		type = 2,
 		id = 156,
 		icon = "title_event",
@@ -858,6 +911,7 @@ pg.memory_group = {
 	},
 	[157] = {
 		title = "Science Rules!",
+		subtype = 3,
 		type = 2,
 		id = 157,
 		icon = "title_event",
@@ -871,6 +925,7 @@ pg.memory_group = {
 	},
 	[158] = {
 		title = "Scherzo of Iron and Blood",
+		subtype = 1,
 		type = 2,
 		id = 158,
 		icon = "title_event",
@@ -900,6 +955,7 @@ pg.memory_group = {
 	},
 	[159] = {
 		title = "A Prayer for Peace ",
+		subtype = 3,
 		type = 2,
 		id = 159,
 		icon = "title_event",
@@ -915,6 +971,7 @@ pg.memory_group = {
 	},
 	[160] = {
 		title = "Javelin's Monthly Manga ",
+		subtype = 3,
 		type = 2,
 		id = 160,
 		icon = "title_event",
@@ -928,6 +985,7 @@ pg.memory_group = {
 	},
 	[161] = {
 		title = "Wallflower in the Corner ",
+		subtype = 3,
 		type = 2,
 		id = 161,
 		icon = "title_event",
@@ -940,6 +998,7 @@ pg.memory_group = {
 	},
 	[162] = {
 		title = "Approaching Storm ",
+		subtype = 1,
 		type = 2,
 		id = 162,
 		icon = "title_event",
@@ -958,6 +1017,7 @@ pg.memory_group = {
 	},
 	[163] = {
 		title = "Ashen Simulacrum ",
+		subtype = 1,
 		type = 2,
 		id = 163,
 		icon = "title_event",
@@ -999,6 +1059,7 @@ pg.memory_group = {
 	},
 	[164] = {
 		title = "Superstar of the Blue Seas ",
+		subtype = 3,
 		type = 2,
 		id = 164,
 		icon = "title_event",
@@ -1012,6 +1073,7 @@ pg.memory_group = {
 	},
 	[165] = {
 		title = "Summer Festival ",
+		subtype = 3,
 		type = 2,
 		id = 165,
 		icon = "title_event",
@@ -1022,6 +1084,7 @@ pg.memory_group = {
 	},
 	[167] = {
 		title = "Empyreal Tragicomedy ",
+		subtype = 1,
 		type = 2,
 		id = 167,
 		icon = "title_event",
@@ -1053,6 +1116,7 @@ pg.memory_group = {
 	},
 	[168] = {
 		title = "Swept Away in the Moment ",
+		subtype = 3,
 		type = 2,
 		id = 168,
 		icon = "title_event",
@@ -1065,6 +1129,7 @@ pg.memory_group = {
 	},
 	[169] = {
 		title = "Crosswave ",
+		subtype = 2,
 		type = 2,
 		id = 169,
 		icon = "title_event",
@@ -1078,6 +1143,7 @@ pg.memory_group = {
 	},
 	[170] = {
 		title = "The Enigma and the Shark ",
+		subtype = 2,
 		type = 2,
 		id = 170,
 		icon = "title_event",
@@ -1096,6 +1162,7 @@ pg.memory_group = {
 	},
 	[171] = {
 		title = "Halloween Chaos!",
+		subtype = 3,
 		type = 2,
 		id = 171,
 		icon = "title_event",
@@ -1109,6 +1176,7 @@ pg.memory_group = {
 	},
 	[172] = {
 		title = "Passionate Polaris",
+		subtype = 2,
 		type = 2,
 		id = 172,
 		icon = "title_event",
@@ -1141,6 +1209,7 @@ pg.memory_group = {
 	},
 	[173] = {
 		title = "A Day with Polaris",
+		subtype = 2,
 		type = 2,
 		id = 173,
 		icon = "title_event",
@@ -1152,6 +1221,7 @@ pg.memory_group = {
 	},
 	[174] = {
 		title = "Looking Glass of Fact and Fiction",
+		subtype = 2,
 		type = 2,
 		id = 174,
 		icon = "title_event",
@@ -1211,6 +1281,7 @@ pg.memory_group = {
 	},
 	[175] = {
 		title = "Looking Glass of Fact and Fiction - Funsies",
+		subtype = 2,
 		type = 2,
 		id = 175,
 		icon = "title_event",
@@ -1229,6 +1300,7 @@ pg.memory_group = {
 	},
 	[176] = {
 		title = "Christmas Party! ",
+		subtype = 3,
 		type = 2,
 		id = 176,
 		icon = "title_event",
@@ -1242,6 +1314,7 @@ pg.memory_group = {
 	},
 	[177] = {
 		title = "Swirling Cherry Blossoms",
+		subtype = 1,
 		type = 2,
 		id = 177,
 		icon = "title_event",
@@ -1278,6 +1351,7 @@ pg.memory_group = {
 	},
 	[178] = {
 		title = "Blessings and Tidings",
+		subtype = 3,
 		type = 2,
 		id = 178,
 		icon = "title_event",
@@ -1291,6 +1365,7 @@ pg.memory_group = {
 	},
 	[179] = {
 		title = "Fight On, Royal Maids!(part 2)",
+		subtype = 2,
 		type = 2,
 		id = 179,
 		icon = "title_event",
@@ -1304,6 +1379,7 @@ pg.memory_group = {
 	},
 	[180] = {
 		title = "Spring Festival Party",
+		subtype = 3,
 		type = 2,
 		id = 180,
 		icon = "title_event",
@@ -1316,6 +1392,7 @@ pg.memory_group = {
 	},
 	[181] = {
 		title = "Northern Overture ",
+		subtype = 1,
 		type = 2,
 		id = 181,
 		icon = "title_event",
@@ -1356,6 +1433,7 @@ pg.memory_group = {
 	},
 	[182] = {
 		title = "Under the Mist ",
+		subtype = 1,
 		type = 2,
 		id = 182,
 		icon = "title_event",
@@ -1368,6 +1446,7 @@ pg.memory_group = {
 	},
 	[183] = {
 		title = "Microlayer Medley ",
+		subtype = 1,
 		type = 2,
 		id = 183,
 		icon = "title_event",
@@ -1411,6 +1490,7 @@ pg.memory_group = {
 	},
 	[184] = {
 		title = "The Golden Doubulin ",
+		subtype = 3,
 		type = 2,
 		id = 184,
 		icon = "title_event",
@@ -1423,6 +1503,7 @@ pg.memory_group = {
 	},
 	[185] = {
 		title = "The Way Home in the Dark ",
+		subtype = 2,
 		type = 2,
 		id = 185,
 		icon = "title_event",
@@ -1440,6 +1521,7 @@ pg.memory_group = {
 	},
 	[186] = {
 		title = "Skybound Oratorio ",
+		subtype = 1,
 		type = 2,
 		id = 186,
 		icon = "title_event",
@@ -1482,6 +1564,7 @@ pg.memory_group = {
 	},
 	[187] = {
 		title = "Counterattack Within the Fjord ",
+		subtype = 2,
 		type = 2,
 		id = 187,
 		icon = "title_event",
@@ -1503,6 +1586,7 @@ pg.memory_group = {
 	},
 	[188] = {
 		title = "Aurora Noctis ",
+		subtype = 1,
 		type = 2,
 		id = 188,
 		icon = "title_event",
@@ -1551,6 +1635,7 @@ pg.memory_group = {
 	},
 	[189] = {
 		title = "Dreamwaker's Butterfly ",
+		subtype = 1,
 		type = 2,
 		id = 189,
 		icon = "title_event",
@@ -1601,6 +1686,7 @@ pg.memory_group = {
 	},
 	[190] = {
 		title = "Sundered Blue ",
+		subtype = 2,
 		type = 2,
 		id = 190,
 		icon = "title_event",
@@ -1619,6 +1705,7 @@ pg.memory_group = {
 	},
 	[191] = {
 		title = "Universe in Unison ",
+		subtype = 2,
 		type = 2,
 		id = 191,
 		icon = "title_event",
@@ -1649,6 +1736,7 @@ pg.memory_group = {
 	},
 	[192] = {
 		title = "Vacation Lane - Venus Visitation ",
+		subtype = 2,
 		type = 2,
 		id = 192,
 		icon = "title_event",
@@ -1673,6 +1761,7 @@ pg.memory_group = {
 	},
 	[193] = {
 		title = "Vacation Lane - Cozy Days ",
+		subtype = 2,
 		type = 2,
 		id = 193,
 		icon = "title_event",
@@ -1685,6 +1774,7 @@ pg.memory_group = {
 	},
 	[194] = {
 		title = "Inverted Orthant ",
+		subtype = 1,
 		type = 2,
 		id = 194,
 		icon = "title_event",
@@ -1728,6 +1818,7 @@ pg.memory_group = {
 	},
 	[195] = {
 		title = "Khorovod of Dawn's Rime",
+		subtype = 1,
 		type = 2,
 		id = 195,
 		icon = "title_event",
@@ -1767,6 +1858,7 @@ pg.memory_group = {
 	},
 	[196] = {
 		title = "Daedalian Hymn ",
+		subtype = 1,
 		type = 2,
 		id = 196,
 		icon = "title_event",
@@ -1810,6 +1902,7 @@ pg.memory_group = {
 	},
 	[197] = {
 		title = "Silver Archives ",
+		subtype = 1,
 		type = 2,
 		id = 197,
 		icon = "title_event",
@@ -1822,6 +1915,7 @@ pg.memory_group = {
 	},
 	[198] = {
 		title = "Mirror Involution ",
+		subtype = 1,
 		type = 2,
 		id = 198,
 		icon = "title_event",
@@ -1863,6 +1957,7 @@ pg.memory_group = {
 	},
 	[501] = {
 		title = "{namecode:98}'s Commission",
+		subtype = 0,
 		type = 3,
 		id = 501,
 		icon = "title_chara_mingshi",
@@ -1891,6 +1986,7 @@ pg.memory_group = {
 	},
 	[502] = {
 		title = "Long Island's Inner Peace",
+		subtype = 0,
 		type = 3,
 		id = 502,
 		icon = "title_chara_changdao",
@@ -1906,6 +2002,7 @@ pg.memory_group = {
 	},
 	[503] = {
 		title = "The Lucky Crane ",
+		subtype = 0,
 		type = 3,
 		id = 503,
 		icon = "title_chara_ruihe",
@@ -1921,6 +2018,7 @@ pg.memory_group = {
 	},
 	[504] = {
 		title = "Call Me Yukikaze the Great! ",
+		subtype = 0,
 		type = 3,
 		id = 504,
 		icon = "title_chara_xuefeng",
@@ -1936,6 +2034,7 @@ pg.memory_group = {
 	},
 	[505] = {
 		title = "My Fond Memories",
+		subtype = 0,
 		type = 3,
 		id = 505,
 		icon = "title_chara_ajiakesi",
@@ -1951,6 +2050,7 @@ pg.memory_group = {
 	},
 	[506] = {
 		title = "Hammann Observation Diary",
+		subtype = 0,
 		type = 3,
 		id = 506,
 		icon = "title_chara_haman",
@@ -1966,6 +2066,7 @@ pg.memory_group = {
 	},
 	[507] = {
 		title = "Red Spider Lily's Love",
+		subtype = 0,
 		type = 3,
 		id = 507,
 		icon = "title_chara_chicheng",
@@ -1981,6 +2082,7 @@ pg.memory_group = {
 	},
 	[508] = {
 		title = "Knights & Awards",
+		subtype = 0,
 		type = 3,
 		id = 508,
 		icon = "title_chara_kelifulan",
@@ -1996,6 +2098,7 @@ pg.memory_group = {
 	},
 	[509] = {
 		title = "After the Rain Comes the Sun",
+		subtype = 0,
 		type = 3,
 		id = 509,
 		icon = "title_chara_shancheng2",
@@ -2011,6 +2114,7 @@ pg.memory_group = {
 	},
 	[510] = {
 		title = "Glorious Interlude",
+		subtype = 0,
 		type = 3,
 		id = 510,
 		icon = "title_chara_guangrong",
@@ -2026,6 +2130,7 @@ pg.memory_group = {
 	},
 	[511] = {
 		title = "Best Pictures! ",
+		subtype = 0,
 		type = 3,
 		id = 511,
 		icon = "title_chara_salatuojia",
@@ -2041,6 +2146,7 @@ pg.memory_group = {
 	},
 	[512] = {
 		title = "A Date With Atago ",
+		subtype = 0,
 		type = 3,
 		id = 512,
 		icon = "title_chara_aidang",
@@ -2056,6 +2162,7 @@ pg.memory_group = {
 	},
 	[513] = {
 		title = "Pure-White Poem ",
+		subtype = 0,
 		type = 3,
 		id = 513,
 		icon = "title_chara_z46",
@@ -2071,6 +2178,7 @@ pg.memory_group = {
 	},
 	[515] = {
 		title = "The Melancholy of a Princess Chevalier",
+		subtype = 0,
 		type = 3,
 		id = 515,
 		icon = "title_chara_kaixuan",
@@ -2086,6 +2194,7 @@ pg.memory_group = {
 	},
 	[516] = {
 		title = "Émile, the Dancing Angel",
+		subtype = 0,
 		type = 3,
 		id = 516,
 		icon = "title_chara_aimier",
@@ -2101,6 +2210,7 @@ pg.memory_group = {
 	},
 	[517] = {
 		title = "Journée Surcouf!",
+		subtype = 0,
 		type = 3,
 		id = 517,
 		icon = "title_chara_xukufu",
@@ -2116,6 +2226,7 @@ pg.memory_group = {
 	},
 	[518] = {
 		title = "Schmelzen ",
+		subtype = 0,
 		type = 3,
 		id = 518,
 		icon = "title_chara_tierbici",
@@ -2131,6 +2242,7 @@ pg.memory_group = {
 	},
 	[519] = {
 		title = "Centaur and the Port \"Elders\" ",
+		subtype = 0,
 		type = 3,
 		id = 519,
 		icon = "title_chara_banrenma",
@@ -2146,6 +2258,7 @@ pg.memory_group = {
 	},
 	[520] = {
 		title = "Hiei's Banquet ",
+		subtype = 0,
 		type = 3,
 		id = 520,
 		icon = "title_chara_birui",
@@ -2161,6 +2274,7 @@ pg.memory_group = {
 	},
 	[521] = {
 		title = "The Cloudy Mask ",
+		subtype = 0,
 		type = 3,
 		id = 521,
 		icon = "title_chara_deyizhi",
@@ -2176,6 +2290,7 @@ pg.memory_group = {
 	},
 	[522] = {
 		title = "Submarine Subterfuge!",
+		subtype = 0,
 		type = 3,
 		id = 522,
 		icon = "title_chara_daqinghuayu",
@@ -2191,6 +2306,7 @@ pg.memory_group = {
 	},
 	[523] = {
 		title = "Taihou, Body and Soul",
+		subtype = 0,
 		type = 3,
 		id = 523,
 		icon = "title_chara_dafeng",
@@ -2206,6 +2322,7 @@ pg.memory_group = {
 	},
 	[524] = {
 		title = "Enterprise Troubles",
+		subtype = 0,
 		type = 3,
 		id = 524,
 		icon = "title_chara_aisaikesi",
@@ -2221,6 +2338,7 @@ pg.memory_group = {
 	},
 	[525] = {
 		title = "Enter: Akatsuki, The Ninja! ",
+		subtype = 0,
 		type = 3,
 		id = 525,
 		icon = "title_chara_xiao",
@@ -2236,6 +2354,7 @@ pg.memory_group = {
 	},
 	[526] = {
 		title = "A Paean for Peace ",
+		subtype = 0,
 		type = 3,
 		id = 526,
 		icon = "title_chara_niukasier",
@@ -2251,6 +2370,7 @@ pg.memory_group = {
 	},
 	[527] = {
 		title = "An Easily Flustered Girl's Story ",
+		subtype = 0,
 		type = 3,
 		id = 527,
 		icon = "title_chara_huonululu",
@@ -2266,6 +2386,7 @@ pg.memory_group = {
 	},
 	[528] = {
 		title = "Mysterious Rabbit Alien?! ",
+		subtype = 0,
 		type = 3,
 		id = 528,
 		icon = "title_chara_beili",
@@ -2281,6 +2402,7 @@ pg.memory_group = {
 	},
 	[529] = {
 		title = "Shiranui, the Do-It-All Shopkeeper ",
+		subtype = 0,
 		type = 3,
 		id = 529,
 		icon = "title_chara_buzhihuo",
@@ -2296,6 +2418,7 @@ pg.memory_group = {
 	},
 	[530] = {
 		title = "Sugary Concord ",
+		subtype = 0,
 		type = 3,
 		id = 530,
 		icon = "title_chara_kangkede",
@@ -2311,6 +2434,7 @@ pg.memory_group = {
 	},
 	[531] = {
 		title = "Light Carrier Ryuujou, Moving Out!",
+		subtype = 0,
 		type = 3,
 		id = 531,
 		icon = "title_chara_longxiang",
@@ -2326,6 +2450,7 @@ pg.memory_group = {
 	},
 	[532] = {
 		title = "Gentle and Sweet Ooshio!",
+		subtype = 0,
 		type = 3,
 		id = 532,
 		icon = "title_chara_dachao",
@@ -2341,6 +2466,7 @@ pg.memory_group = {
 	},
 	[533] = {
 		title = "Ashigara, Advance! ",
+		subtype = 0,
 		type = 3,
 		id = 533,
 		icon = "title_chara_zubing",
@@ -2356,6 +2482,7 @@ pg.memory_group = {
 	},
 	[534] = {
 		title = "Together with Souryuu ",
+		subtype = 0,
 		type = 3,
 		id = 534,
 		icon = "title_chara_canglong",
@@ -2371,6 +2498,7 @@ pg.memory_group = {
 	},
 	[535] = {
 		title = "The Timid Black Cat ",
+		subtype = 0,
 		type = 3,
 		id = 535,
 		icon = "title_chara_chuchun",
@@ -2386,6 +2514,7 @@ pg.memory_group = {
 	},
 	[536] = {
 		title = "My Sister's Growth Spurt?! ",
+		subtype = 0,
 		type = 3,
 		id = 536,
 		icon = "title_chara_wensensi",
@@ -2401,6 +2530,7 @@ pg.memory_group = {
 	},
 	[537] = {
 		title = "Loaded with Lead and Love ",
+		subtype = 0,
 		type = 3,
 		id = 537,
 		icon = "title_chara_xiefeierde",
@@ -2416,6 +2546,7 @@ pg.memory_group = {
 	},
 	[538] = {
 		title = "Sirius' Improvement Plan ",
+		subtype = 0,
 		type = 3,
 		id = 538,
 		icon = "title_chara_tianlangxing",
@@ -2431,6 +2562,7 @@ pg.memory_group = {
 	},
 	[539] = {
 		title = "The Royal Knight ",
+		subtype = 0,
 		type = 3,
 		id = 539,
 		icon = "title_chara_yanzhan",
@@ -2446,6 +2578,7 @@ pg.memory_group = {
 	},
 	[540] = {
 		title = "Saffron Travelogue ",
+		subtype = 0,
 		type = 3,
 		id = 540,
 		icon = "title_chara_xianggelila",
@@ -2461,6 +2594,7 @@ pg.memory_group = {
 	},
 	[542] = {
 		title = "One Little Incident ",
+		subtype = 0,
 		type = 3,
 		id = 542,
 		icon = "title_chara_sipei",
@@ -2476,6 +2610,7 @@ pg.memory_group = {
 	},
 	[543] = {
 		title = "Another Leader?",
+		subtype = 0,
 		type = 3,
 		id = 543,
 		icon = "title_chara_qiaozhiwushi",
@@ -2491,6 +2626,7 @@ pg.memory_group = {
 	},
 	[544] = {
 		title = "A Knight's Promise",
+		subtype = 0,
 		type = 3,
 		id = 544,
 		icon = "title_chara_u556story",
@@ -2506,6 +2642,7 @@ pg.memory_group = {
 	},
 	[545] = {
 		title = "I'm Not A Baby! ",
+		subtype = 0,
 		type = 3,
 		id = 545,
 		icon = "title_chara_jiqi",
@@ -2521,6 +2658,7 @@ pg.memory_group = {
 	},
 	[546] = {
 		title = "Storia di Rosa ",
+		subtype = 0,
 		type = 3,
 		id = 546,
 		icon = "title_chara_zhala",
@@ -2536,6 +2674,7 @@ pg.memory_group = {
 	},
 	[547] = {
 		title = "Avrora and Her Jovial Friends ",
+		subtype = 0,
 		type = 3,
 		id = 547,
 		icon = "title_chara_afuleer",
@@ -2551,6 +2690,7 @@ pg.memory_group = {
 	},
 	[548] = {
 		title = "A Beaming Smile! ",
+		subtype = 0,
 		type = 3,
 		id = 548,
 		icon = "title_chara_juanbo",
@@ -2566,6 +2706,7 @@ pg.memory_group = {
 	},
 	[549] = {
 		title = "Anything and Everything for Indy! ",
+		subtype = 0,
 		type = 3,
 		id = 549,
 		icon = "title_chara_botelan",
@@ -2581,6 +2722,7 @@ pg.memory_group = {
 	},
 	[550] = {
 		title = "A Lady's Modest Proposal ",
+		subtype = 0,
 		type = 3,
 		id = 550,
 		icon = "title_chara_guanghui",
@@ -2596,6 +2738,7 @@ pg.memory_group = {
 	},
 	[551] = {
 		title = "The Heart Beneath the Smile ",
+		subtype = 0,
 		type = 3,
 		id = 551,
 		icon = "title_chara_fanji",
@@ -2611,6 +2754,7 @@ pg.memory_group = {
 	},
 	[552] = {
 		title = "Paradigm of Happiness ",
+		subtype = 0,
 		type = 3,
 		id = 552,
 		icon = "title_chara_xipeier",
@@ -2626,6 +2770,7 @@ pg.memory_group = {
 	},
 	[553] = {
 		title = "Unbridled Positivity ",
+		subtype = 0,
 		type = 3,
 		id = 553,
 		icon = "title_chara_kente",
@@ -2641,6 +2786,7 @@ pg.memory_group = {
 	},
 	[554] = {
 		title = "Moments with the Young Miss ",
+		subtype = 0,
 		type = 3,
 		id = 554,
 		icon = "title_chara_zhuiganzhe",
@@ -2656,6 +2802,7 @@ pg.memory_group = {
 	},
 	[555] = {
 		title = "Tis the Season of Love!",
+		subtype = 0,
 		type = 3,
 		id = 555,
 		icon = "title_chara_gelasige",
@@ -2671,6 +2818,7 @@ pg.memory_group = {
 	},
 	[556] = {
 		title = "White Gallantry",
+		subtype = 0,
 		type = 3,
 		id = 556,
 		icon = "title_chara_beilaluosi",
@@ -2686,6 +2834,7 @@ pg.memory_group = {
 	},
 	[557] = {
 		title = "Denver's Quest!",
+		subtype = 0,
 		type = 3,
 		id = 557,
 		icon = "title_chara_danfo",
@@ -2701,6 +2850,7 @@ pg.memory_group = {
 	},
 	[558] = {
 		title = "Three-Star Luxury Romance",
+		subtype = 0,
 		type = 3,
 		id = 558,
 		icon = "title_chara_ailunsamuna",
@@ -2716,6 +2866,7 @@ pg.memory_group = {
 	},
 	[559] = {
 		title = "Heart in the Right Place",
+		subtype = 0,
 		type = 3,
 		id = 559,
 		icon = "title_chara_shiyu",
@@ -2731,6 +2882,7 @@ pg.memory_group = {
 	},
 	[560] = {
 		title = "The Growth of a Courtly Lady",
+		subtype = 0,
 		type = 3,
 		id = 560,
 		icon = "title_chara_tianying",
@@ -2746,6 +2898,7 @@ pg.memory_group = {
 	},
 	[561] = {
 		title = "Days of Tranquility",
+		subtype = 0,
 		type = 3,
 		id = 561,
 		icon = "title_chara_u47",
@@ -2761,6 +2914,7 @@ pg.memory_group = {
 	},
 	[562] = {
 		title = "The Virtue of Being Earnest",
+		subtype = 0,
 		type = 3,
 		id = 562,
 		icon = "title_chara_naerxun",
@@ -2776,6 +2930,7 @@ pg.memory_group = {
 	},
 	[563] = {
 		title = "Me and the Boise",
+		subtype = 0,
 		type = 3,
 		id = 563,
 		icon = "title_chara_boyixi",

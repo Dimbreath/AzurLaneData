@@ -2,6 +2,221 @@ pg = pg or {}
 pg.weapon_property_150 = {}
 
 function ()
+	uv0.weapon_property_150[68118] = {
+		id = 68118,
+		damage = 56,
+		base = 68111,
+		barrage_ID = {
+			80554
+		}
+	}
+	uv0.weapon_property_150[68119] = {
+		id = 68119,
+		damage = 58,
+		base = 68111,
+		barrage_ID = {
+			80554
+		}
+	}
+	uv0.weapon_property_150[68120] = {
+		id = 68120,
+		damage = 62,
+		base = 68111,
+		barrage_ID = {
+			80554
+		}
+	}
+	uv0.weapon_property_150[68121] = {
+		action_index = "attack",
+		range = 200,
+		type = 1,
+		fire_fx = "zhupao",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 302,
+		name = "佐治亚技能超重弹",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 50,
+		damage = 109,
+		corrected = 110,
+		min_range = 35,
+		id = 68121,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		bullet_ID = {
+			19997
+		},
+		barrage_ID = {
+			1300
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			lockTime = 0.3,
+			maxLock = 2
+		},
+		precast_param = {
+			time = 0.5,
+			fx = "jineng",
+			alertTime = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_150[68122] = {
+		id = 68122,
+		damage = 120,
+		base = 68121
+	}
+	uv0.weapon_property_150[68123] = {
+		id = 68123,
+		damage = 131,
+		base = 68121
+	}
+	uv0.weapon_property_150[68124] = {
+		id = 68124,
+		damage = 143,
+		base = 68121
+	}
+	uv0.weapon_property_150[68125] = {
+		id = 68125,
+		damage = 153,
+		base = 68121
+	}
+	uv0.weapon_property_150[68126] = {
+		id = 68126,
+		damage = 165,
+		base = 68121
+	}
+	uv0.weapon_property_150[68127] = {
+		id = 68127,
+		damage = 180,
+		base = 68121
+	}
+	uv0.weapon_property_150[68128] = {
+		id = 68128,
+		damage = 197,
+		base = 68121
+	}
+	uv0.weapon_property_150[68129] = {
+		id = 68129,
+		damage = 215,
+		base = 68121
+	}
+	uv0.weapon_property_150[68130] = {
+		id = 68130,
+		damage = 239,
+		base = 68121
+	}
+	uv0.weapon_property_150[68131] = {
+		action_index = "attack",
+		range = 55,
+		type = 1,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "佐治亚技能·小子弹-PVP-LV1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 13,
+		corrected = 100,
+		min_range = 0,
+		id = 68131,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19998,
+			19998
+		},
+		barrage_ID = {
+			80559,
+			80560
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_150[68132] = {
+		id = 68132,
+		name = "佐治亚技能·小子弹-PVP-LV2",
+		damage = 14,
+		base = 68131
+	}
+	uv0.weapon_property_150[68133] = {
+		id = 68133,
+		name = "佐治亚技能·小子弹-PVP-LV3",
+		damage = 15,
+		base = 68131
+	}
+	uv0.weapon_property_150[68134] = {
+		id = 68134,
+		name = "佐治亚技能·小子弹-PVP-LV4",
+		damage = 16,
+		base = 68131
+	}
+	uv0.weapon_property_150[68135] = {
+		id = 68135,
+		name = "佐治亚技能·小子弹-PVP-LV5",
+		damage = 18,
+		base = 68131
+	}
+	uv0.weapon_property_150[68136] = {
+		id = 68136,
+		name = "佐治亚技能·小子弹-PVP-LV6",
+		damage = 20,
+		base = 68131
+	}
+	uv0.weapon_property_150[68137] = {
+		id = 68137,
+		name = "佐治亚技能·小子弹-PVP-LV7",
+		damage = 23,
+		base = 68131
+	}
+	uv0.weapon_property_150[68138] = {
+		id = 68138,
+		name = "佐治亚技能·小子弹-PVP-LV8",
+		damage = 26,
+		base = 68131
+	}
+	uv0.weapon_property_150[68139] = {
+		id = 68139,
+		name = "佐治亚技能·小子弹-PVP-LV9",
+		damage = 30,
+		base = 68131
+	}
 	uv0.weapon_property_150[68140] = {
 		id = 68140,
 		name = "佐治亚技能·小子弹-PVP-LV10",
@@ -481,284 +696,5 @@ function ()
 			80565,
 			80566
 		}
-	}
-	uv0.weapon_property_150[68180] = {
-		name = "加斯科涅技能·箭型国旗LV10蓝",
-		damage = 54,
-		base = 68171,
-		id = 68180,
-		barrage_ID = {
-			80565,
-			80566
-		}
-	}
-	uv0.weapon_property_150[68181] = {
-		action_index = "",
-		range = 90,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "北风技能额外六联装鱼雷",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 60,
-		charge_param = "",
-		damage = 31,
-		corrected = 100,
-		min_range = 0,
-		id = 68181,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			1801,
-			1801
-		},
-		barrage_ID = {
-			80596,
-			80597
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_150[68182] = {
-		id = 68182,
-		damage = 36,
-		base = 68181
-	}
-	uv0.weapon_property_150[68183] = {
-		id = 68183,
-		damage = 40,
-		base = 68181
-	}
-	uv0.weapon_property_150[68184] = {
-		id = 68184,
-		damage = 45,
-		base = 68181
-	}
-	uv0.weapon_property_150[68185] = {
-		id = 68185,
-		damage = 49,
-		base = 68181
-	}
-	uv0.weapon_property_150[68186] = {
-		id = 68186,
-		damage = 54,
-		base = 68181
-	}
-	uv0.weapon_property_150[68187] = {
-		id = 68187,
-		damage = 58,
-		base = 68181
-	}
-	uv0.weapon_property_150[68188] = {
-		id = 68188,
-		damage = 63,
-		base = 68181
-	}
-	uv0.weapon_property_150[68189] = {
-		id = 68189,
-		damage = 67,
-		base = 68181
-	}
-	uv0.weapon_property_150[68190] = {
-		id = 68190,
-		damage = 72,
-		base = 68181
-	}
-	uv0.weapon_property_150[68191] = {
-		action_index = "attack",
-		range = 95,
-		type = 2,
-		fire_fx = "zhupao",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 302,
-		name = "腓特烈弹幕技能LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 100,
-		corrected = 100,
-		min_range = 0,
-		id = 68191,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 1300,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19860
-		},
-		barrage_ID = {
-			80593
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_150[68192] = {
-		id = 68192,
-		name = "腓特烈弹幕技能LV2",
-		damage = 105,
-		base = 68191
-	}
-	uv0.weapon_property_150[68193] = {
-		id = 68193,
-		name = "腓特烈弹幕技能LV3",
-		damage = 111,
-		base = 68191
-	}
-	uv0.weapon_property_150[68194] = {
-		id = 68194,
-		name = "腓特烈弹幕技能LV4",
-		damage = 118,
-		base = 68191
-	}
-	uv0.weapon_property_150[68195] = {
-		id = 68195,
-		name = "腓特烈弹幕技能LV5",
-		damage = 126,
-		base = 68191
-	}
-	uv0.weapon_property_150[68196] = {
-		id = 68196,
-		name = "腓特烈弹幕技能LV6",
-		damage = 137,
-		base = 68191
-	}
-	uv0.weapon_property_150[68197] = {
-		name = "腓特烈弹幕技能LV7",
-		damage = 145,
-		base = 68191,
-		id = 68197,
-		bullet_ID = {
-			19860,
-			19860
-		},
-		barrage_ID = {
-			80595,
-			80594
-		}
-	}
-	uv0.weapon_property_150[68198] = {
-		name = "腓特烈弹幕技能LV8",
-		damage = 156,
-		base = 68191,
-		id = 68198,
-		bullet_ID = {
-			19860,
-			19860
-		},
-		barrage_ID = {
-			80595,
-			80594
-		}
-	}
-	uv0.weapon_property_150[68199] = {
-		name = "腓特烈弹幕技能LV9",
-		damage = 168,
-		base = 68191,
-		id = 68199,
-		bullet_ID = {
-			19860,
-			19860
-		},
-		barrage_ID = {
-			80595,
-			80594
-		}
-	}
-	uv0.weapon_property_150[68200] = {
-		name = "腓特烈弹幕技能LV10",
-		damage = 181,
-		base = 68191,
-		id = 68200,
-		bullet_ID = {
-			19860,
-			19860
-		},
-		barrage_ID = {
-			80595,
-			80594
-		}
-	}
-	uv0.weapon_property_150[68221] = {
-		action_index = "attack",
-		range = 95,
-		type = 1,
-		fire_fx = "CLFire",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "腓特烈弹幕小子弹LV1",
-		aim_type = 0,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 120,
-		charge_param = "",
-		damage = 13,
-		corrected = 100,
-		min_range = 0,
-		id = 68221,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		reload_max = 3000,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			19861,
-			19861,
-			19861
-		},
-		barrage_ID = {
-			80590,
-			80591,
-			80592
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end()

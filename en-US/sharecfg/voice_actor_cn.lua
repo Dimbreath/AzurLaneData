@@ -1107,5 +1107,13 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Namiki Sakura",
 		code = 277
+	},
+	{
+		actor_name = "Minami Wakana",
+		code = 278
+	},
+	{
+		actor_name = "Itou Ayasa",
+		code = 279
 	}
 }

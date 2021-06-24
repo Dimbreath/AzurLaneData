@@ -33,6 +33,7 @@ function slot8.Ctor(slot0)
 	slot0._diveEnabled = true
 	slot0._comboIDList = {}
 	slot0._jammingTime = 0
+	slot0._reloadBoostList = {}
 	slot0._CLDCount = 0
 	slot0._damageSum = 0
 	slot0._CTSum = 0
@@ -775,6 +776,9 @@ function slot8.Cease(slot0)
 	end
 end
 
+function slot8.AppendReloadBoost(slot0)
+end
+
 function slot8.DispatchGCD(slot0)
 	if slot0._GCD > 0 then
 		slot0._host:EnterGCD(slot0._GCD, slot0._tmpData.queue)
@@ -990,7 +994,19 @@ function slot8.GetReloadTime(slot0)
 end
 
 function slot8.GetReloadFinishTimeStamp(slot0)
-	return slot0._reloadRequire + slot0._CDstartTime + slot0._jammingTime
+	for slot5, slot6 in ipairs(slot0._reloadBoostList) do
+		slot1 = 0 + slot6
+	end
+
+	if slot1 ~= 0 then
+		slot3 = pg.TimeMgr.GetInstance():GetCombatTime() - slot0._jammingTime - slot0._CDstartTime
+		slot1 = (slot1 >= 0 or math.max(slot1, (slot0._reloadRequire - slot3) * -1)) and math.min(slot1, slot3)
+	end
+
+	return slot0._reloadRequire + slot0._CDstartTime + slot0._jammingTime + slot1
+end
+
+function slot8.AppendFactor(slot0, slot1)
 end
 
 function slot8.StartJamming(slot0)

@@ -2,6 +2,218 @@ pg = pg or {}
 pg.weapon_property_126 = {}
 
 function ()
+	uv0.weapon_property_126[65864] = {
+		id = 65864,
+		name = "艾伦萨姆纳专属特殊额外防空炮Lv4",
+		damage = 90,
+		base = 65861
+	}
+	uv0.weapon_property_126[65865] = {
+		id = 65865,
+		name = "艾伦萨姆纳专属特殊额外防空炮Lv5",
+		damage = 98,
+		base = 65861
+	}
+	uv0.weapon_property_126[65866] = {
+		id = 65866,
+		name = "艾伦萨姆纳专属特殊额外防空炮Lv6",
+		damage = 106,
+		base = 65861
+	}
+	uv0.weapon_property_126[65867] = {
+		id = 65867,
+		name = "艾伦萨姆纳专属特殊额外防空炮Lv7",
+		damage = 115,
+		base = 65861
+	}
+	uv0.weapon_property_126[65868] = {
+		id = 65868,
+		name = "艾伦萨姆纳专属特殊额外防空炮Lv8",
+		damage = 123,
+		base = 65861
+	}
+	uv0.weapon_property_126[65869] = {
+		id = 65869,
+		name = "艾伦萨姆纳专属特殊额外防空炮Lv9",
+		damage = 132,
+		base = 65861
+	}
+	uv0.weapon_property_126[65870] = {
+		id = 65870,
+		name = "艾伦萨姆纳专属特殊额外防空炮Lv10",
+		damage = 142,
+		base = 65861
+	}
+	uv0.weapon_property_126[65871] = {
+		action_index = "attack",
+		range = 80,
+		type = 2,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "艾伦萨姆纳技能弹幕Lv1",
+		aim_type = 1,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 120,
+		charge_param = "",
+		damage = 14,
+		corrected = 100,
+		min_range = 0,
+		id = 65871,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 1,
+		suppress = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19279,
+			19279,
+			19279
+		},
+		barrage_ID = {
+			81047,
+			81048,
+			81049
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_126[65872] = {
+		id = 65872,
+		name = "艾伦萨姆纳技能弹幕Lv2",
+		damage = 15,
+		base = 65871
+	}
+	uv0.weapon_property_126[65873] = {
+		id = 65873,
+		name = "艾伦萨姆纳技能弹幕Lv3",
+		damage = 16,
+		base = 65871
+	}
+	uv0.weapon_property_126[65874] = {
+		id = 65874,
+		name = "艾伦萨姆纳技能弹幕Lv4",
+		damage = 17,
+		base = 65871
+	}
+	uv0.weapon_property_126[65875] = {
+		id = 65875,
+		name = "艾伦萨姆纳技能弹幕Lv5",
+		damage = 18,
+		base = 65871
+	}
+	uv0.weapon_property_126[65876] = {
+		id = 65876,
+		name = "艾伦萨姆纳技能弹幕Lv6",
+		damage = 20,
+		base = 65871
+	}
+	uv0.weapon_property_126[65877] = {
+		id = 65877,
+		name = "艾伦萨姆纳技能弹幕Lv7",
+		damage = 22,
+		base = 65871
+	}
+	uv0.weapon_property_126[65878] = {
+		id = 65878,
+		name = "艾伦萨姆纳技能弹幕Lv8",
+		damage = 24,
+		base = 65871
+	}
+	uv0.weapon_property_126[65879] = {
+		id = 65879,
+		name = "艾伦萨姆纳技能弹幕Lv9",
+		damage = 26,
+		base = 65871
+	}
+	uv0.weapon_property_126[65880] = {
+		id = 65880,
+		name = "艾伦萨姆纳技能弹幕Lv10",
+		damage = 30,
+		base = 65871
+	}
+	uv0.weapon_property_126[65881] = {
+		action_index = "",
+		range = 90,
+		type = 3,
+		fire_fx = "",
+		recover_time = 0,
+		axis_angle = 0,
+		shakescreen = 0,
+		name = "艾伦萨姆纳技能弹幕鱼雷Lv1",
+		aim_type = 0,
+		torpedo_ammo = 0,
+		expose = 0,
+		angle = 60,
+		charge_param = "",
+		damage = 35,
+		corrected = 100,
+		min_range = 0,
+		id = 65881,
+		attack_attribute_ratio = 100,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		reload_max = 3000,
+		queue = 1,
+		search_type = 1,
+		effect_move = 0,
+		suppress = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		bullet_ID = {
+			19280
+		},
+		barrage_ID = {
+			81050
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_126[65882] = {
+		id = 65882,
+		name = "艾伦萨姆纳技能弹幕鱼雷Lv2",
+		damage = 46,
+		base = 65881
+	}
+	uv0.weapon_property_126[65883] = {
+		id = 65883,
+		name = "艾伦萨姆纳技能弹幕鱼雷Lv3",
+		damage = 52,
+		base = 65881
+	}
+	uv0.weapon_property_126[65884] = {
+		id = 65884,
+		name = "艾伦萨姆纳技能弹幕鱼雷Lv4",
+		damage = 59,
+		base = 65881
+	}
+	uv0.weapon_property_126[65885] = {
+		id = 65885,
+		name = "艾伦萨姆纳技能弹幕鱼雷Lv5",
+		damage = 66,
+		base = 65881
+	}
 	uv0.weapon_property_126[65886] = {
 		id = 65886,
 		name = "艾伦萨姆纳技能弹幕鱼雷Lv6",
@@ -451,241 +663,5 @@ function ()
 		id = 65925,
 		damage = 110,
 		base = 65921
-	}
-	uv0.weapon_property_126[65926] = {
-		id = 65926,
-		damage = 120,
-		base = 65921
-	}
-	uv0.weapon_property_126[65927] = {
-		id = 65927,
-		damage = 131,
-		base = 65921
-	}
-	uv0.weapon_property_126[65928] = {
-		id = 65928,
-		damage = 141,
-		base = 65921
-	}
-	uv0.weapon_property_126[65929] = {
-		id = 65929,
-		damage = 152,
-		base = 65921
-	}
-	uv0.weapon_property_126[65930] = {
-		id = 65930,
-		damage = 162,
-		base = 65921
-	}
-	uv0.weapon_property_126[65931] = {
-		action_index = "attack",
-		range = 90,
-		type = 10,
-		fire_fx = "",
-		recover_time = 0.5,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "天鹰技能Re2001鱼雷机Lv1",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 90,
-		charge_param = "",
-		damage = 1,
-		corrected = 100,
-		min_range = 0,
-		id = 65931,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		reload_max = 2490,
-		queue = 1,
-		search_type = 1,
-		effect_move = 1,
-		suppress = 1,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			65931
-		},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_126[65932] = {
-		name = "天鹰技能Re2001鱼雷机Lv2",
-		damage = 1,
-		base = 65931,
-		id = 65932,
-		bullet_ID = {
-			65932
-		}
-	}
-	uv0.weapon_property_126[65933] = {
-		name = "天鹰技能Re2001鱼雷机Lv3",
-		damage = 1,
-		base = 65931,
-		id = 65933,
-		bullet_ID = {
-			65933
-		}
-	}
-	uv0.weapon_property_126[65934] = {
-		name = "天鹰技能Re2001鱼雷机Lv4",
-		damage = 1,
-		base = 65931,
-		id = 65934,
-		bullet_ID = {
-			65934
-		}
-	}
-	uv0.weapon_property_126[65935] = {
-		name = "天鹰技能Re2001鱼雷机Lv5",
-		damage = 1,
-		base = 65931,
-		id = 65935,
-		bullet_ID = {
-			65935
-		}
-	}
-	uv0.weapon_property_126[65936] = {
-		name = "天鹰技能Re2001鱼雷机Lv6",
-		damage = 1,
-		base = 65931,
-		id = 65936,
-		bullet_ID = {
-			65936
-		}
-	}
-	uv0.weapon_property_126[65937] = {
-		name = "天鹰技能Re2001鱼雷机Lv7",
-		damage = 1,
-		base = 65931,
-		id = 65937,
-		bullet_ID = {
-			65937
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_126[65938] = {
-		name = "天鹰技能Re2001鱼雷机Lv8",
-		damage = 1,
-		base = 65931,
-		id = 65938,
-		bullet_ID = {
-			65938
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_126[65939] = {
-		name = "天鹰技能Re2001鱼雷机Lv9",
-		damage = 1,
-		base = 65931,
-		id = 65939,
-		bullet_ID = {
-			65939
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_126[65940] = {
-		name = "天鹰技能Re2001鱼雷机Lv10",
-		damage = 1,
-		base = 65931,
-		id = 65940,
-		bullet_ID = {
-			65940
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_126[65941] = {
-		action_index = "",
-		range = 75,
-		type = 3,
-		fire_fx = "",
-		recover_time = 0,
-		axis_angle = 0,
-		shakescreen = 0,
-		name = "2 x 机载鱼雷",
-		aim_type = 1,
-		torpedo_ammo = 0,
-		expose = 0,
-		angle = 20,
-		charge_param = "",
-		damage = 96,
-		corrected = 100,
-		min_range = 0,
-		id = 65941,
-		attack_attribute_ratio = 100,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		reload_max = 9500,
-		queue = 1,
-		search_type = 1,
-		effect_move = 0,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		auto_aftercast = 0,
-		initial_over_heat = 0,
-		bullet_ID = {
-			2111
-		},
-		barrage_ID = {
-			2111
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_126[65942] = {
-		id = 65942,
-		damage = 112,
-		base = 65941
-	}
-	uv0.weapon_property_126[65943] = {
-		id = 65943,
-		damage = 128,
-		base = 65941
-	}
-	uv0.weapon_property_126[65944] = {
-		id = 65944,
-		damage = 144,
-		base = 65941
-	}
-	uv0.weapon_property_126[65945] = {
-		id = 65945,
-		damage = 160,
-		base = 65941
-	}
-	uv0.weapon_property_126[65946] = {
-		id = 65946,
-		damage = 176,
-		base = 65941
-	}
-	uv0.weapon_property_126[65947] = {
-		id = 65947,
-		damage = 192,
-		base = 65941
 	}
 end()

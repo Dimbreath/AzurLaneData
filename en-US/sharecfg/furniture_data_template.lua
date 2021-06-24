@@ -4927,6 +4927,85 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100018] = {
+		name = "Summer Bubble Pool",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		can_rotate = 0,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "shuiqiuicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "We all float up here.",
+		id = 100018,
+		advice = 0,
+		comfortable = 0,
+		belong = 1,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shuiqiuB",
+				"normal"
+			},
+			{
+				"shuiqiuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					nil,
+					{
+						"action",
+						"tuozhuai2"
+					},
+					"tuozhuai2"
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				-2.1,
+				-58.5
+			}
+		},
+		animator = {
+			{
+				"shuiqiuCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[100019] = {
 		can_rotate = 0,
 		name = "Grimmy",
@@ -78967,6 +79046,1032 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[81001] = {
+		can_rotate = 0,
+		name = "School Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 4,
+		icon = "dibansc2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 81,
+		spine_action_replace = "",
+		picture = "sc2/dibansc2",
+		canputon = 0,
+		count = 1,
+		describe = "This laminated wood has yet to be ruined by the skid marks of cheap chairs.",
+		advice = 0,
+		deblocking = 1,
+		id = 81001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81002] = {
+		can_rotate = 0,
+		name = "School Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 3,
+		icon = "qiangbisc2icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 81,
+		spine_action_replace = "",
+		picture = "sc2/qiangbisc2",
+		canputon = 0,
+		count = 1,
+		describe = "Reminds you of cardboard. Maybe because school is boring.",
+		advice = 0,
+		deblocking = 1,
+		id = 81002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81101] = {
+		can_rotate = 0,
+		name = "School Staff Desk",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "1sc2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "sc2/1sc2",
+		canputon = 0,
+		themeId = 81,
+		count = 1,
+		describe = "Grading reports, writing test questions, working late. Just teacher things.",
+		advice = 0,
+		id = 81101,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					73,
+					87
+				},
+				{
+					-1,
+					1
+				},
+				"sc2/1sc2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81102] = {
+		can_rotate = 0,
+		name = "Manus Juulian",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "2sc2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 81,
+		spine_action_replace = "",
+		picture = "sc2/2sc2",
+		canputon = 0,
+		count = 1,
+		describe = "This Manjuu had a hand... wing... stubby appendage in the school's founding.",
+		advice = 0,
+		deblocking = 1,
+		id = 81102,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81103] = {
+		can_rotate = 1,
+		name = "Freshman Ceremony Sign",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "3sc2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 81,
+		spine_action_replace = "",
+		picture = "sc2/3sc2",
+		canputon = 0,
+		count = 1,
+		describe = "Exactly what it says on the tin, just in a different language.",
+		advice = 0,
+		deblocking = 1,
+		id = 81103,
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81104] = {
+		can_rotate = 0,
+		name = "Basketball Box",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "4sc2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 81,
+		spine_action_replace = "",
+		picture = "sc2/4sc2",
+		canputon = 0,
+		count = 1,
+		describe = "Is it a box or a cage? Either way, keeps the balls in place.",
+		advice = 0,
+		deblocking = 1,
+		id = 81104,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81105] = {
+		can_rotate = 0,
+		name = "School Bags",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "5sc2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 81,
+		spine_action_replace = "",
+		picture = "sc2/5sc2",
+		canputon = 0,
+		count = 1,
+		describe = "And a boxed lunch. Wonder what's inside.",
+		advice = 0,
+		deblocking = 1,
+		id = 81105,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81106] = {
+		can_rotate = 0,
+		name = "Grades Board",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "6sc2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 81,
+		spine_action_replace = "",
+		picture = "sc2/6sc2",
+		canputon = 0,
+		count = 1,
+		describe = "When you think about it, doesn't this kind of name and shame the lowest-scoring students?",
+		advice = 0,
+		deblocking = 1,
+		id = 81106,
+		comfortable = 2,
+		size = {
+			7,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81107] = {
+		can_rotate = 0,
+		name = "Pile of Books",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "7sc2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 81,
+		spine_action_replace = "",
+		picture = "sc2/7sc2",
+		canputon = 0,
+		count = 2,
+		describe = "Now there's a mountain of literature.",
+		advice = 0,
+		deblocking = 1,
+		id = 81107,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81109] = {
+		can_rotate = 0,
+		name = "Book Display Shelf",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "8sc2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 81,
+		spine_action_replace = "",
+		picture = "sc2/8sc2",
+		canputon = 0,
+		count = 1,
+		describe = "The cost of knowledge is the pricetag for your schoolbooks.",
+		advice = 0,
+		deblocking = 1,
+		id = 81109,
+		comfortable = 3,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81110] = {
+		can_rotate = 0,
+		name = "School Lockers",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "9sc2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 81,
+		spine_action_replace = "",
+		picture = "sc2/9sc2",
+		canputon = 0,
+		count = 2,
+		describe = "There's a love letter in one of these. If you're lucky, maybe it's yours.",
+		advice = 0,
+		deblocking = 1,
+		id = 81110,
+		comfortable = 3,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81112] = {
+		can_rotate = 0,
+		name = "Schoolyard Vending Machine",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "10sc2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 81,
+		spine_action_replace = "",
+		picture = "sc2/10sc2",
+		canputon = 0,
+		count = 1,
+		describe = "Sells milk and not much else. At least it's refrigerated.",
+		advice = 0,
+		deblocking = 1,
+		id = 81112,
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81113] = {
+		can_rotate = 0,
+		name = "Classroom Wall w/ Windows",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "11sc2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 81,
+		spine_action_replace = "",
+		picture = "sc2/11sc2",
+		canputon = 0,
+		count = 3,
+		describe = "If there's glass, you're in the right class.",
+		advice = 0,
+		deblocking = 1,
+		id = 81113,
+		comfortable = 2,
+		size = {
+			8,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81116] = {
+		can_rotate = 0,
+		name = "Classroom TV",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "12sc2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 81,
+		spine_action_replace = "",
+		picture = "sc2/12sc2",
+		canputon = 0,
+		count = 1,
+		describe = "\"All right, class, today we're going to watch a movie.\"",
+		advice = 0,
+		deblocking = 1,
+		id = 81116,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81117] = {
+		can_rotate = 0,
+		name = "Classroom Globe",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "13sc2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 81,
+		spine_action_replace = "",
+		picture = "sc2/13sc2",
+		canputon = 0,
+		count = 1,
+		describe = "Believe it or not, but a globe is the most scale-accurate projection of the world.",
+		advice = 0,
+		deblocking = 1,
+		id = 81117,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81118] = {
+		can_rotate = 0,
+		name = "Classroom Bookcase",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "14sc2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 81,
+		spine_action_replace = "",
+		picture = "sc2/14sc2",
+		canputon = 0,
+		count = 1,
+		describe = "Why are the books locked up? They should be let outside to roam freely!",
+		advice = 0,
+		deblocking = 1,
+		id = 81118,
+		comfortable = 3,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81119] = {
+		can_rotate = 0,
+		name = "Teacher's Podium",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "15sc2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 81,
+		spine_action_replace = "",
+		picture = "sc2/15sc2",
+		canputon = 0,
+		count = 1,
+		describe = "Too proud to use the stool, even if it can't see the notes because of it.",
+		advice = 0,
+		deblocking = 1,
+		id = 81119,
+		comfortable = 3,
+		size = {
+			5,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81120] = {
+		can_rotate = 0,
+		name = "School Desk 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "16sc2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "sc2/16sc2",
+		canputon = 0,
+		themeId = 81,
+		count = 6,
+		describe = "This desk belongs to a student ready for anything the teacher might throw at 'em.",
+		advice = 0,
+		id = 81120,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					48,
+					52
+				},
+				{
+					-1,
+					1
+				},
+				"sc2/16sc2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81126] = {
+		can_rotate = 0,
+		name = "School Desk 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "17sc2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "sc2/17sc2",
+		canputon = 0,
+		themeId = 81,
+		count = 3,
+		describe = "Students are encouraged to at least use scrap paper if they're going to doodle during class.",
+		advice = 0,
+		id = 81126,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					48,
+					52
+				},
+				{
+					-1,
+					1
+				},
+				"sc2/17sc2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81129] = {
+		can_rotate = 0,
+		name = "School Desk 3",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "18sc2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "sc2/18sc2",
+		canputon = 0,
+		themeId = 81,
+		count = 3,
+		describe = "An orderly desk, remarkable only for how unremarkable it is.",
+		advice = 0,
+		id = 81129,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					48,
+					52
+				},
+				{
+					-1,
+					1
+				},
+				"sc2/18sc2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81132] = {
+		name = "Teacher's Assistant",
+		gain_by = "",
+		type = 13,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		can_rotate = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "Asc2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 81,
+		deblocking = 1,
+		count = 1,
+		describe = "Not quite as subservient as the teacher's pet.",
+		id = 81132,
+		advice = 0,
+		comfortable = 4,
+		belong = 1,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Asc2B",
+				"normal"
+			},
+			{
+				"Asc2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						"Asc2CharControl",
+						"sit"
+					},
+					{
+						"sit2",
+						"Asc2CharControl",
+						"sit"
+					},
+					{
+						"sit3",
+						"Asc2CharControl",
+						"sit"
+					},
+					{
+						"sit4",
+						"Asc2CharControl",
+						"sit"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"Asc2CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[81301] = {
+		can_rotate = 0,
+		name = "School Window",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "19sc2icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 81,
+		spine_action_replace = "",
+		picture = "sc2/19sc2",
+		canputon = 0,
+		count = 3,
+		describe = "You know the drill. You're the protagonist. The window seat is where you belong.",
+		advice = 0,
+		deblocking = 1,
+		id = 81301,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81304] = {
+		can_rotate = 0,
+		name = "School Bulletin Board",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "20sc2icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 81,
+		spine_action_replace = "",
+		picture = "sc2/20sc2",
+		canputon = 0,
+		count = 1,
+		describe = "Maybe you should consider joining the shipbuilding club.",
+		advice = 0,
+		deblocking = 1,
+		id = 81304,
+		comfortable = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81305] = {
+		can_rotate = 0,
+		name = "Blackboard",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "21sc2icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 81,
+		spine_action_replace = "",
+		picture = "sc2/21sc2",
+		canputon = 0,
+		count = 1,
+		describe = "The whiteboard's evil twin, if there is such a thing as evil among boards.",
+		advice = 0,
+		deblocking = 1,
+		id = 81305,
+		comfortable = 3,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[81306] = {
+		can_rotate = 0,
+		name = "Classroom Door",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "22sc2icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 81,
+		spine_action_replace = "",
+		picture = "sc2/22sc2",
+		canputon = 0,
+		count = 1,
+		describe = "You won't know if it's a push, pull, or sliding door until you try it for yourself.",
+		advice = 0,
+		deblocking = 1,
+		id = 81306,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -79065,6 +80170,7 @@ pg.furniture_data_template = {
 		100010,
 		100014,
 		100016,
+		100018,
 		100019,
 		1001,
 		1002,
@@ -80753,6 +81859,31 @@ pg.furniture_data_template = {
 		80301,
 		80304,
 		80305,
-		80306
+		80306,
+		81001,
+		81002,
+		81101,
+		81102,
+		81103,
+		81104,
+		81105,
+		81106,
+		81107,
+		81109,
+		81110,
+		81112,
+		81113,
+		81116,
+		81117,
+		81118,
+		81119,
+		81120,
+		81126,
+		81129,
+		81132,
+		81301,
+		81304,
+		81305,
+		81306
 	}
 }

@@ -10,16 +10,6 @@ return {
 					number = 500,
 					attr = "torpedoPower"
 				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					number = 500,
-					attr = "attackRating"
-				}
 			}
 		}
 	},
@@ -33,16 +23,6 @@ return {
 				arg_list = {
 					number = 610,
 					attr = "torpedoPower"
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					number = 610,
-					attr = "attackRating"
 				}
 			}
 		}
@@ -58,16 +38,6 @@ return {
 					number = 720,
 					attr = "torpedoPower"
 				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					number = 720,
-					attr = "attackRating"
-				}
 			}
 		}
 	},
@@ -81,16 +51,6 @@ return {
 				arg_list = {
 					number = 830,
 					attr = "torpedoPower"
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					number = 830,
-					attr = "attackRating"
 				}
 			}
 		}
@@ -106,16 +66,6 @@ return {
 					number = 940,
 					attr = "torpedoPower"
 				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					number = 940,
-					attr = "attackRating"
-				}
 			}
 		}
 	},
@@ -129,16 +79,6 @@ return {
 				arg_list = {
 					number = 1050,
 					attr = "torpedoPower"
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					number = 1050,
-					attr = "attackRating"
 				}
 			}
 		}
@@ -154,16 +94,6 @@ return {
 					number = 1160,
 					attr = "torpedoPower"
 				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					number = 1160,
-					attr = "attackRating"
-				}
 			}
 		}
 	},
@@ -177,16 +107,6 @@ return {
 				arg_list = {
 					number = 1270,
 					attr = "torpedoPower"
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					number = 1270,
-					attr = "attackRating"
 				}
 			}
 		}
@@ -202,16 +122,6 @@ return {
 					number = 1380,
 					attr = "torpedoPower"
 				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					number = 1380,
-					attr = "attackRating"
-				}
 			}
 		}
 	},
@@ -225,16 +135,6 @@ return {
 				arg_list = {
 					number = 1500,
 					attr = "torpedoPower"
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					number = 1500,
-					attr = "attackRating"
 				}
 			}
 		}
@@ -265,16 +165,6 @@ return {
 			arg_list = {
 				number = 500,
 				attr = "torpedoPower"
-			}
-		},
-		{
-			type = "BattleBuffAddAttrRatio",
-			trigger = {
-				"onAttach"
-			},
-			arg_list = {
-				number = 500,
-				attr = "attackRating"
 			}
 		}
 	}

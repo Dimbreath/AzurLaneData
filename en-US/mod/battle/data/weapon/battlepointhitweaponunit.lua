@@ -309,6 +309,7 @@ function slot4.handleCoolDown(slot0)
 	slot0:TriggerBuffOnReady()
 
 	slot0._CDstartTime = nil
+	slot0._reloadBoostList = {}
 end
 
 function slot4.FlushReloadRequire(slot0)
@@ -327,6 +328,17 @@ function slot4.QuickCoolDown(slot0)
 		slot0:DispatchEvent(uv0.Event.New(uv1.MANUAL_WEAPON_INSTANT_READY, {}))
 
 		slot0._CDstartTime = nil
+		slot0._reloadBoostList = {}
+	end
+end
+
+function slot4.ReloadBoost(slot0, slot1)
+	table.insert(slot0._reloadBoostList, slot1)
+end
+
+function slot4.AppendReloadBoost(slot0, slot1)
+	if slot0._currentState == slot0.STATE_OVER_HEAT then
+		slot0._playerChargeWeaponVo:ReloadBoost(slot0, slot1)
 	end
 end
 

@@ -850,7 +850,7 @@ pg.skill_data_display = {
 	},
 	[8897] = {
 		id = 8897,
-		name = "「零」象限展开-5%"
+		name = "Zeroth Quadrant Expansion -5%"
 	},
 	[9010] = {
 		id = 9010,
@@ -3936,6 +3936,50 @@ pg.skill_data_display = {
 		id = 14641,
 		name = "Freedom Through Firepower"
 	},
+	[14651] = {
+		id = 14651,
+		name = "Strike Orders Received!"
+	},
+	[14660] = {
+		id = 14660,
+		name = "Torpedo Orders Received!"
+	},
+	[14661] = {
+		id = 14661,
+		name = "Torpedo Orders Received!"
+	},
+	[14670] = {
+		id = 14670,
+		name = "Gales and Thunder"
+	},
+	[14671] = {
+		id = 14671,
+		name = "Gales and Thunder"
+	},
+	[14680] = {
+		id = 14680,
+		name = "Kazagumo's Air Raid Assistance"
+	},
+	[14681] = {
+		id = 14681,
+		name = "Kazagumo's Air Raid Assistance"
+	},
+	[14700] = {
+		id = 14700,
+		name = "Foo and Friends and Kasumi Too"
+	},
+	[14701] = {
+		id = 14701,
+		name = "Shiranui is our friend now!"
+	},
+	[14702] = {
+		id = 14702,
+		name = "Foo and Friends and Kasumi Too"
+	},
+	[14703] = {
+		id = 14703,
+		name = "Foo and Friends and Kasumi Too"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -5476,6 +5520,14 @@ pg.skill_data_display = {
 		id = 29692,
 		name = "All Out Assault Ⅱ"
 	},
+	[29731] = {
+		id = 29731,
+		name = "All Out Assault Ⅰ"
+	},
+	[29732] = {
+		id = 29732,
+		name = "All Out Assault Ⅱ"
+	},
 	[39000] = {
 		id = 39000,
 		name = "Optimize I"
@@ -7005,6 +7057,17 @@ pg.skill_data_display = {
 		14623,
 		14630,
 		14641,
+		14651,
+		14660,
+		14661,
+		14670,
+		14671,
+		14680,
+		14681,
+		14700,
+		14701,
+		14702,
+		14703,
 		18010,
 		18040,
 		18041,
@@ -7390,6 +7453,8 @@ pg.skill_data_display = {
 		29572,
 		29691,
 		29692,
+		29731,
+		29732,
 		39000,
 		39001,
 		39002,

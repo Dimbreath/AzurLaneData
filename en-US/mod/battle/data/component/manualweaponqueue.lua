@@ -34,6 +34,10 @@ function slot3.Containers(slot0, slot1)
 	return slot0._weaponList[slot1]
 end
 
+function slot3.GetCoolDownList(slot0)
+	return slot0._cooldownList
+end
+
 function slot3.GetQueueHead(slot0)
 	return slot0._overheatQueue[#slot0._overheatQueue] or slot0._cooldownList[1]
 end

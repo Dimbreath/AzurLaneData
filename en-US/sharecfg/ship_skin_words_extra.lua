@@ -4917,6 +4917,62 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[301860] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		touch2 = "",
+		id = 301860,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Hello, Commander. Let's have a good day today."
+			}
+		},
+		home = {
+			{
+				1100,
+				"You still wanna hear me play, even if I'm not good at it? But I'd rather not. Not when others are around..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"First, close the door... Thanks. Now please listen, Commander. I've been practicing a lot."
+			}
+		},
+		main = {
+			{
+				1100,
+				"Try to focus on your work. Unlike me, you can concentrate even when someone's staring at you, right? Hehehe~|Are you feeling a little lonely? Hehehe~|nil"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Oh right, I have to go give Kinugasa her lunch box. I'll be back in a minute, Commander."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Commander... What are you up to? (Kazagumo throws you a considerate look.)"
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -4999,6 +5055,7 @@ pg.ship_skin_words_extra = {
 		101470,
 		107140,
 		105170,
-		107990
+		107990,
+		301860
 	}
 }

@@ -1364,5 +1364,139 @@ pg.battle_environment_behaviour_template = {
 				}
 			}
 		}
+	},
+	[10020] = {
+		id = 10020,
+		name = "巨炮嵌套配置",
+		behaviour_list = {
+			{
+				FX_ID = "yaosaizidan01",
+				reload_time = 100,
+				type = 1,
+				offset = {
+					-15,
+					0,
+					145
+				}
+			},
+			{
+				hp_rate = 0.03,
+				damage = 0,
+				type = 2,
+				delay = 1,
+				reload_time = 4
+			}
+		}
+	},
+	[10021] = {
+		id = 10021,
+		name = "法系巨炮炮击1",
+		behaviour_list = {
+			{
+				offset_time = 0,
+				type = 6,
+				reload_time = 5,
+				rounds = 3,
+				content = {
+					count = 1,
+					alert = {
+						alert_fx = "AlertArea",
+						range = 10
+					},
+					child_prefab = {
+						behaviours = 10020,
+						life_time = 3,
+						cld_data = {
+							10
+						}
+					}
+				},
+				route = {
+					{
+						count = 3
+					},
+					{
+						count = 3
+					},
+					{
+						count = 3
+					}
+				}
+			}
+		}
+	},
+	[10022] = {
+		id = 10022,
+		name = "法系巨炮炮击2",
+		behaviour_list = {
+			{
+				offset_time = 0,
+				type = 6,
+				reload_time = 6,
+				rounds = 3,
+				content = {
+					count = 1,
+					alert = {
+						alert_fx = "AlertArea",
+						range = 10
+					},
+					child_prefab = {
+						behaviours = 10020,
+						life_time = 3,
+						cld_data = {
+							10
+						}
+					}
+				},
+				route = {
+					{
+						count = 3
+					},
+					{
+						count = 3
+					},
+					{
+						count = 3
+					}
+				}
+			}
+		}
+	},
+	[10023] = {
+		id = 10023,
+		name = "法系巨炮炮击3",
+		behaviour_list = {
+			{
+				offset_time = 0,
+				type = 6,
+				reload_time = 6,
+				rounds = 3,
+				content = {
+					count = 1,
+					alert = {
+						alert_fx = "AlertArea",
+						range = 10
+					},
+					child_prefab = {
+						behaviours = 10020,
+						life_time = 3,
+						cld_data = {
+							10
+						}
+					}
+				},
+				route = {
+					{
+						count = 3
+					},
+					{
+						count = 3
+					},
+					{
+						count = 3
+					}
+				}
+			}
+		}
 	}
 }

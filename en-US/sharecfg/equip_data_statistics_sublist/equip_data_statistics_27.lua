@@ -1,5 +1,108 @@
 pg = pg or {}
 pg.equip_data_statistics_27 = {
+	[1150] = {
+		id = 1150,
+		value_1 = "70",
+		base = 1140
+	},
+	[1151] = {
+		id = 1151,
+		anti_siren = 100,
+		value_1 = "75",
+		base = 1140
+	},
+	[1160] = {
+		name = "High Performance Air Radar",
+		tech = 0,
+		type = 10,
+		speciality = "N/A",
+		attribute_1 = "antiaircraft",
+		value_2 = 0,
+		icon = "1160",
+		value_1 = "40",
+		descrip = "293 air radar which increase anti-air efficiency.",
+		rarity = 5,
+		nationality = 2,
+		ammo = 10,
+		value_3 = 0,
+		id = 1160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6280
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {
+			ambush_extra = 1200
+		},
+		label = {
+			"HMS",
+			"DEV"
+		}
+	},
+	[1161] = {
+		id = 1161,
+		value_1 = "46",
+		base = 1160
+	},
+	[1162] = {
+		id = 1162,
+		value_1 = "52",
+		base = 1160
+	},
+	[1163] = {
+		id = 1163,
+		value_1 = "58",
+		base = 1160
+	},
+	[1164] = {
+		id = 1164,
+		value_1 = "64",
+		base = 1160
+	},
+	[1165] = {
+		id = 1165,
+		value_1 = "70",
+		base = 1160
+	},
+	[1166] = {
+		id = 1166,
+		value_1 = "76",
+		base = 1160
+	},
+	[1167] = {
+		id = 1167,
+		value_1 = "82",
+		base = 1160
+	},
+	[1168] = {
+		id = 1168,
+		value_1 = "88",
+		base = 1160
+	},
+	[1169] = {
+		id = 1169,
+		value_1 = "94",
+		base = 1160
+	},
+	[1170] = {
+		id = 1170,
+		value_1 = "100",
+		base = 1160
+	},
+	[1171] = {
+		id = 1171,
+		anti_siren = 100,
+		value_1 = "106",
+		base = 1160
+	},
 	[1172] = {
 		id = 1172,
 		anti_siren = 200,
@@ -60,173 +163,5 @@ pg.equip_data_statistics_27 = {
 			"USS",
 			"DEV"
 		}
-	},
-	[1201] = {
-		id = 1201,
-		value_1 = "4",
-		base = 1200
-	},
-	[1202] = {
-		id = 1202,
-		value_1 = "4",
-		base = 1200
-	},
-	[1203] = {
-		id = 1203,
-		value_2 = 4,
-		value_1 = "5",
-		base = 1200
-	},
-	[1220] = {
-		name = "Fire Control Radar",
-		tech = 2,
-		type = 10,
-		speciality = "N/A",
-		id = 1220,
-		value_2 = 5,
-		icon = "1200",
-		value_1 = "6",
-		attribute_2 = "cannon",
-		rarity = 3,
-		descrip = "Firing control radar which increase gun accuracy and damage.",
-		nationality = 1,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "hit",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {
-			3,
-			4,
-			5,
-			10,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			3,
-			4,
-			5,
-			10,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"DEV"
-		}
-	},
-	[1221] = {
-		id = 1221,
-		value_2 = 6,
-		value_1 = "7",
-		base = 1220
-	},
-	[1222] = {
-		id = 1222,
-		value_2 = 7,
-		value_1 = "8",
-		base = 1220
-	},
-	[1223] = {
-		id = 1223,
-		value_2 = 7,
-		value_1 = "9",
-		base = 1220
-	},
-	[1224] = {
-		id = 1224,
-		value_2 = 8,
-		value_1 = "10",
-		base = 1220
-	},
-	[1225] = {
-		id = 1225,
-		value_2 = 9,
-		value_1 = "11",
-		base = 1220
-	},
-	[1226] = {
-		id = 1226,
-		value_2 = 10,
-		value_1 = "11",
-		base = 1220
-	},
-	[1240] = {
-		name = "Fire Control Radar",
-		tech = 3,
-		type = 10,
-		speciality = "N/A",
-		id = 1240,
-		value_2 = 8,
-		icon = "1200",
-		value_1 = "9",
-		attribute_2 = "cannon",
-		rarity = 4,
-		descrip = "Firing control radar which increase gun accuracy and damage.",
-		nationality = 1,
-		ammo = 10,
-		value_3 = 0,
-		attribute_1 = "hit",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {
-			3,
-			4,
-			5,
-			10,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			3,
-			4,
-			5,
-			10,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"USS",
-			"DEV"
-		}
-	},
-	[1241] = {
-		id = 1241,
-		value_2 = 9,
-		value_1 = "11",
-		base = 1240
-	},
-	[1242] = {
-		id = 1242,
-		value_2 = 10,
-		value_1 = "12",
-		base = 1240
-	},
-	[1243] = {
-		id = 1243,
-		value_2 = 12,
-		value_1 = "14",
-		base = 1240
 	}
 }

@@ -1,5 +1,175 @@
 pg = pg or {}
 pg.equip_data_statistics_192 = {
+	[26633] = {
+		anti_siren = 300,
+		damage = "96/wave",
+		base = 26620,
+		id = 26633,
+		weapon_id = {
+			26633
+		}
+	},
+	[26640] = {
+		name = "Twin 134mm AA Gun Mount",
+		speciality = "Anti-Air",
+		type = 6,
+		attribute_3 = "cannon",
+		tech = 0,
+		value_2 = 30,
+		icon = "21500",
+		attribute_2 = "antiaircraft",
+		descrip = "No description",
+		rarity = 5,
+		damage = "53/wave",
+		nationality = 2,
+		ammo = 5,
+		value_3 = 15,
+		id = 26640,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			26640
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
+	[26641] = {
+		id = 26641,
+		damage = "61/wave",
+		base = 26640,
+		weapon_id = {
+			26641
+		}
+	},
+	[26642] = {
+		id = 26642,
+		damage = "68/wave",
+		base = 26640,
+		weapon_id = {
+			26642
+		}
+	},
+	[26643] = {
+		id = 26643,
+		damage = "76/wave",
+		base = 26640,
+		weapon_id = {
+			26643
+		}
+	},
+	[26644] = {
+		id = 26644,
+		damage = "84/wave",
+		base = 26640,
+		weapon_id = {
+			26644
+		}
+	},
+	[26645] = {
+		id = 26645,
+		damage = "92/wave",
+		base = 26640,
+		weapon_id = {
+			26645
+		}
+	},
+	[26646] = {
+		id = 26646,
+		damage = "100/wave",
+		base = 26640,
+		weapon_id = {
+			26646
+		}
+	},
+	[26647] = {
+		id = 26647,
+		damage = "108/wave",
+		base = 26640,
+		weapon_id = {
+			26647
+		}
+	},
+	[26648] = {
+		id = 26648,
+		damage = "116/wave",
+		base = 26640,
+		weapon_id = {
+			26648
+		}
+	},
+	[26649] = {
+		id = 26649,
+		damage = "124/wave",
+		base = 26640,
+		weapon_id = {
+			26649
+		}
+	},
+	[26650] = {
+		id = 26650,
+		damage = "132/wave",
+		base = 26640,
+		weapon_id = {
+			26650
+		}
+	},
+	[26651] = {
+		anti_siren = 100,
+		damage = "132/wave",
+		base = 26640,
+		id = 26651,
+		weapon_id = {
+			26651
+		}
+	},
+	[26652] = {
+		anti_siren = 200,
+		damage = "132/wave",
+		base = 26640,
+		id = 26652,
+		weapon_id = {
+			26652
+		}
+	},
 	[26653] = {
 		anti_siren = 300,
 		damage = "132/wave",
@@ -77,184 +247,6 @@ pg.equip_data_statistics_192 = {
 		base = 26660,
 		weapon_id = {
 			26661
-		}
-	},
-	[26662] = {
-		id = 26662,
-		damage = "63/wave",
-		base = 26660,
-		weapon_id = {
-			26662
-		}
-	},
-	[26663] = {
-		id = 26663,
-		damage = "73/wave",
-		base = 26660,
-		weapon_id = {
-			26663
-		}
-	},
-	[26664] = {
-		id = 26664,
-		damage = "84/wave",
-		base = 26660,
-		weapon_id = {
-			26664
-		}
-	},
-	[26665] = {
-		id = 26665,
-		damage = "94/wave",
-		base = 26660,
-		weapon_id = {
-			26665
-		}
-	},
-	[26666] = {
-		id = 26666,
-		damage = "105/wave",
-		base = 26660,
-		weapon_id = {
-			26666
-		}
-	},
-	[26667] = {
-		id = 26667,
-		damage = "115/wave",
-		base = 26660,
-		weapon_id = {
-			26667
-		}
-	},
-	[26668] = {
-		id = 26668,
-		damage = "126/wave",
-		base = 26660,
-		weapon_id = {
-			26668
-		}
-	},
-	[26669] = {
-		id = 26669,
-		damage = "138/wave",
-		base = 26660,
-		weapon_id = {
-			26669
-		}
-	},
-	[26670] = {
-		id = 26670,
-		damage = "150/wave",
-		base = 26660,
-		weapon_id = {
-			26670
-		}
-	},
-	[26671] = {
-		anti_siren = 100,
-		damage = "150/wave",
-		base = 26660,
-		id = 26671,
-		weapon_id = {
-			26671
-		}
-	},
-	[26672] = {
-		anti_siren = 200,
-		damage = "150/wave",
-		base = 26660,
-		id = 26672,
-		weapon_id = {
-			26672
-		}
-	},
-	[26673] = {
-		anti_siren = 300,
-		damage = "150/wave",
-		base = 26660,
-		id = 26673,
-		weapon_id = {
-			26673
-		}
-	},
-	[27000] = {
-		name = "Spitfire",
-		type = 7,
-		speciality = "Air",
-		rarity = 2,
-		tech = 1,
-		descrip = "No description",
-		value_2 = 5,
-		icon = "27000",
-		attribute_2 = "air",
-		nationality = 2,
-		ammo = 5,
-		value_3 = 0,
-		id = 27000,
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50100
-			},
-			{
-				6,
-				50500
-			},
-			{
-				5,
-				52200
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			27000,
-			82000
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"FT"
-		}
-	},
-	[27001] = {
-		id = 27001,
-		base = 27000,
-		ammo_info = {
-			{
-				6,
-				50101
-			},
-			{
-				6,
-				50501
-			},
-			{
-				5,
-				52201
-			}
-		},
-		weapon_id = {
-			27001,
-			82001
 		}
 	}
 }

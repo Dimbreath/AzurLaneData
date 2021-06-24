@@ -1,71 +1,68 @@
 pg = pg or {}
 pg.equip_data_statistics_316 = {
-	[46348] = {
-		id = 46348,
-		damage = "106/wave",
-		base = 46340,
+	[46325] = {
+		id = 46325,
+		damage = "71/wave",
+		base = 46320,
 		weapon_id = {
-			46348
+			46325
 		}
 	},
-	[46349] = {
-		id = 46349,
-		damage = "114/wave",
-		base = 46340,
+	[46326] = {
+		id = 46326,
+		damage = "77/wave",
+		base = 46320,
 		weapon_id = {
-			46349
+			46326
 		}
 	},
-	[46350] = {
-		id = 46350,
-		damage = "122/wave",
-		base = 46340,
+	[46327] = {
+		id = 46327,
+		damage = "83/wave",
+		base = 46320,
 		weapon_id = {
-			46350
+			46327
 		}
 	},
-	[46351] = {
-		anti_siren = 100,
-		damage = "122/wave",
-		base = 46340,
-		id = 46351,
+	[46328] = {
+		id = 46328,
+		damage = "89/wave",
+		base = 46320,
 		weapon_id = {
-			46351
+			46328
 		}
 	},
-	[46352] = {
-		anti_siren = 200,
-		damage = "122/wave",
-		base = 46340,
-		id = 46352,
+	[46329] = {
+		id = 46329,
+		damage = "95/wave",
+		base = 46320,
 		weapon_id = {
-			46352
+			46329
 		}
 	},
-	[46353] = {
-		anti_siren = 300,
-		damage = "122/wave",
-		base = 46340,
-		id = 46353,
+	[46330] = {
+		id = 46330,
+		damage = "102/wave",
+		base = 46320,
 		weapon_id = {
-			46353
+			46330
 		}
 	},
-	[46360] = {
-		name = "Twin 105mm SK C/33 na AA Gun Mount",
+	[46340] = {
+		name = "Twin 105mm SK C/33 AA Gun Mount",
 		speciality = "Anti-Air",
 		type = 6,
-		tech = 0,
-		descrip = "No description",
+		tech = 3,
+		descrip = "Twin 105mm SK C/33 AA Gun Mount artillery used for anti-air defense.",
 		value_2 = 45,
-		icon = "46360",
+		icon = "46300",
 		attribute_2 = "antiaircraft",
 		rarity = 5,
-		damage = "55/wave",
+		damage = "49/wave",
 		nationality = 4,
 		ammo = 5,
 		value_3 = 0,
-		id = 46360,
+		id = 46340,
 		torpedo_ammo = 0,
 		property_rate = {},
 		ammo_icon = {},
@@ -77,7 +74,7 @@ pg.equip_data_statistics_316 = {
 			10
 		},
 		weapon_id = {
-			46360
+			46340
 		},
 		skill_id = {},
 		part_main = {
@@ -113,84 +110,84 @@ pg.equip_data_statistics_316 = {
 			"AA"
 		}
 	},
-	[46361] = {
-		id = 46361,
-		damage = "62/wave",
-		base = 46360,
+	[46341] = {
+		id = 46341,
+		damage = "56/wave",
+		base = 46340,
 		weapon_id = {
-			46361
+			46341
 		}
 	},
-	[46362] = {
-		id = 46362,
-		damage = "69/wave",
-		base = 46360,
+	[46342] = {
+		id = 46342,
+		damage = "63/wave",
+		base = 46340,
 		weapon_id = {
-			46362
+			46342
 		}
 	},
-	[46363] = {
-		id = 46363,
-		damage = "76/wave",
-		base = 46360,
+	[46343] = {
+		id = 46343,
+		damage = "70/wave",
+		base = 46340,
 		weapon_id = {
-			46363
+			46343
 		}
 	},
-	[46364] = {
-		id = 46364,
-		damage = "83/wave",
-		base = 46360,
+	[46344] = {
+		id = 46344,
+		damage = "77/wave",
+		base = 46340,
 		weapon_id = {
-			46364
+			46344
 		}
 	},
-	[46365] = {
-		id = 46365,
-		damage = "90/wave",
-		base = 46360,
+	[46345] = {
+		id = 46345,
+		damage = "84/wave",
+		base = 46340,
 		weapon_id = {
-			46365
+			46345
 		}
 	},
-	[46366] = {
-		id = 46366,
-		damage = "97/wave",
-		base = 46360,
+	[46346] = {
+		id = 46346,
+		damage = "91/wave",
+		base = 46340,
 		weapon_id = {
-			46366
+			46346
 		}
 	},
-	[46367] = {
-		id = 46367,
-		damage = "104/wave",
-		base = 46360,
+	[46347] = {
+		id = 46347,
+		damage = "98/wave",
+		base = 46340,
 		weapon_id = {
-			46367
+			46347
 		}
 	},
-	[46368] = {
-		id = 46368,
-		damage = "112/wave",
-		base = 46360,
+	[46348] = {
+		id = 46348,
+		damage = "106/wave",
+		base = 46340,
 		weapon_id = {
-			46368
+			46348
 		}
 	},
-	[46369] = {
-		id = 46369,
-		damage = "120/wave",
-		base = 46360,
+	[46349] = {
+		id = 46349,
+		damage = "114/wave",
+		base = 46340,
 		weapon_id = {
-			46369
+			46349
 		}
 	},
-	[46370] = {
-		id = 46370,
-		damage = "128/wave",
-		base = 46360,
+	[46350] = {
+		id = 46350,
+		damage = "122/wave",
+		base = 46340,
 		weapon_id = {
-			46370
+			46350
 		}
 	}
 }
