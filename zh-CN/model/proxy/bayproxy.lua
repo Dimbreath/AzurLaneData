@@ -186,15 +186,17 @@ function slot0.addShip(slot0, slot1, slot2)
 	if slot1:isActivityNpc() then
 		table.insert(slot0.activityNpcShipIds, slot1.id)
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("isActivityNpc")
-	elseif slot1:isMetaShip() then
-		if not table.contains(slot0.metaShipIDList, slot1.id) then
+	else
+		if slot1:isMetaShip() and not table.contains(slot0.metaShipIDList, slot1.id) then
 			table.insert(slot0.metaShipIDList, slot1.id)
 			getProxy(MetaCharacterProxy):requestMetaTacticsInfo({
 				slot1.id
 			})
 		end
-	elseif getProxy(CollectionProxy) then
-		slot3:flushCollection(slot1)
+
+		if getProxy(CollectionProxy) then
+			slot3:flushCollection(slot1)
+		end
 	end
 
 	slot0.facade:sendNotification(uv0.SHIP_ADDED, slot1:clone())
