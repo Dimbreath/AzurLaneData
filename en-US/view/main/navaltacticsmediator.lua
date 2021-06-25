@@ -50,9 +50,18 @@ function slot0.register(slot0)
 			end,
 			onSelected = function (slot0)
 				if getProxy(BayProxy):getShipById(slot0[1]):isMetaShip() then
-					uv0.contextData.metaShipID = slot1
+					if not NEW_META_EXP then
+						pg.m02:sendNotification(GAME.GO_SCENE, SCENE.METACHARACTER, {
+							autoOpenTactics = true,
+							autoOpenShipConfigID = slot2.configId
+						})
 
-					return
+						return
+					else
+						uv0.contextData.metaShipID = slot1
+
+						return
+					end
 				end
 
 				if uv1 and slot0[1] then
