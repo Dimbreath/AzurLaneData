@@ -149,7 +149,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "From what I've hard, she's far from useless! They say that she can see everything that is happening, and can even conduct a ritual from within her slumber! Although, they're just rumors...",
+			say = "From what I've heard, she's far from useless! They say that she can see everything that is happening, and can even conduct a ritual from within her slumber! Although, they're just rumors...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Besides, if all that's truly is to recite some fancy ritual verses, then anyone could do that. Please tell me you don't believe that absurd gossip, Kaga.",
+			say = "Besides, if all that's truly is to recite some fancy ritual verses, then anyone could do that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "I'm sorry for butting in, but... I'm not entirely sure what you're talking about, but isn't that a dangerous to say, Akagi? What if somebody overhears you?",
+			say = "I'm sorry for butting in, but... I'm not entirely sure what you're talking about, but isn't that dangerous to say, Akagi? What if somebody overhears you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

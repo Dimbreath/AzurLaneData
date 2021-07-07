@@ -140,7 +140,7 @@ return {
 			blackBg = true,
 			actor = 301140,
 			paingtingGray = true,
-			say = "What's what over there?! Some kind of wall?!",
+			say = "What's that over there?! Some kind of wall?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -920,7 +920,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "As quickly as she entered, Observer seemed to melt into the environment and disappeared.",
+			say = "As quickly as she entered, Observer seemed to melt into the environment and disappear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

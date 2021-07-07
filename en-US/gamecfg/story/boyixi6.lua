@@ -127,7 +127,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "Phoenix, not you too...",
+			say = "Brooklyn, not you too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

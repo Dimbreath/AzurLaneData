@@ -74,7 +74,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 305140,
-			say = "Perhaps, but you turned the tables on me in the blink of an eye... I see now why how you've earned your reputation...",
+			say = "Perhaps, but you turned the tables on me in the blink of an eye... I see now how you've earned your reputation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "Ah, n-no, well, not I don't mean it that way...!",
+			say = "Ah, n-no, well, I don't mean it that way...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "I have heard that other factions will participate in the ritual. From my experiences, I am concerned about whether or not these islands will sufficiently protected during the ritual.",
+			say = "I have heard that other factions will participate in the ritual. From my experiences, I am concerned about whether or not these islands will be sufficiently protected during the ritual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

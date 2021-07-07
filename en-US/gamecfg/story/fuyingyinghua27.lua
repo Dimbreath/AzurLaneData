@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "I'll be straightforward. I want more information regarding the Iron Blood's ships, as well everything you know about the Sirens.",
+			say = "I'll be straightforward. I want more information regarding the Iron Blood's ships, as well as everything you know about the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

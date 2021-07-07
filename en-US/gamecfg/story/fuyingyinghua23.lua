@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "That \"Ember\" person was the one destroyed our ceremonial hall?",
+			say = "That \"Ember\" person was the one who destroyed our ceremonial hall?",
 			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,

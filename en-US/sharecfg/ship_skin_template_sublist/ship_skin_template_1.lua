@@ -3742,6 +3742,113 @@ pg.ship_skin_template_1 = {
 			}
 		}
 	},
+	[101177] = {
+		name = "Sleep to Clean Another Day",
+		ship_group = 10117,
+		group_index = 7,
+		illustrator2 = -1,
+		desc = "Yaaawn... Laffey's cleaning her room, Commander... If you don't wanna help then just find a place to sit... Anyway, back to cleaning... Zzz...",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "lafei_9",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		spine_offset = "",
+		bg = "109",
+		special_effects = "",
+		skin_type = 4,
+		id = 101177,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "lafei_9",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 35,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.454,
+					1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.022,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.5,
+					1.005,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.359,
+							2.42,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101178] = {
 		name = "White Rabbit's Oath",
 		ship_group = 10117,
@@ -7620,113 +7727,6 @@ pg.ship_skin_template_1 = {
 				{
 					0.16,
 					0.09,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.31,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[101361] = {
-		name = "Little Idol Schoolgirl",
-		ship_group = 10136,
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "Here comes the debut of school uniform Hobby~ Commander, how do I look? Hobby is all grown up~",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "huobi_2",
-		no_showing = "0",
-		air_bullet_skin = "",
-		bg_sp = "",
-		shop_type_id = 4,
-		hand_id = 5,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		spine_offset = "",
-		bg = "103",
-		special_effects = "",
-		skin_type = 0,
-		id = 101361,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "huobi_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70111,
-		voice_actor = 151,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.048,
-					0.888,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.01,
-					0.848,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.177,
-					0.069,
 					0
 				}
 			}
