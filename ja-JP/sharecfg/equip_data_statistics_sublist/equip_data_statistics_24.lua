@@ -32,21 +32,24 @@ pg.equip_data_statistics_24 = {
 	},
 	[971] = {
 		id = 971,
+		anti_siren = 100,
+		base = 960,
 		value_2 = 28,
-		value_1 = "31",
-		base = 960
+		value_1 = "31"
 	},
 	[972] = {
 		id = 972,
+		anti_siren = 200,
+		base = 960,
 		value_2 = 30,
-		value_1 = "33",
-		base = 960
+		value_1 = "33"
 	},
 	[973] = {
 		id = 973,
+		anti_siren = 300,
+		base = 960,
 		value_2 = 32,
-		value_1 = "35",
-		base = 960
+		value_1 = "35"
 	},
 	[1000] = {
 		name = "艦艇修理施設",
