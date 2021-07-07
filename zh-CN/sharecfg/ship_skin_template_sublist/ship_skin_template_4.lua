@@ -1,5 +1,134 @@
 pg = pg or {}
 pg.ship_skin_template_4 = {
+	[105140] = {
+		ship_group = 10514,
+		name = "南达科他",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = 19,
+		desc = "南达科他级战列舰—南达科他，舷号BB-57",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "nandaketa",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 3,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "",
+		skin_type = -1,
+		id = 105140,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "nandaketa",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 19,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.257,
+					1.3,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.257,
+					0.783,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.119,
+					0.702,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.464,
+					1.052,
+					0
+				},
+				{
+					-0.439,
+					1.353,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.498,
+							0.298,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.453,
+							0.524,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[105141] = {
 		ship_group = 10514,
 		name = "剧场上的独奏",
@@ -7231,103 +7360,6 @@ pg.ship_skin_template_4 = {
 						{
 							-0.433,
 							2.831,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[108030] = {
-		ship_group = 10803,
-		name = "棘鳍",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "猫鲨级潜艇棘鳍，舷号SS-244",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "jiqi",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 5,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
-		bg = "",
-		skin_type = -1,
-		id = 108030,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "jiqi",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 199,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.79,
-					0.533,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.753,
-					0.132,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.433,
-							2.271,
 							0
 						}
 					}

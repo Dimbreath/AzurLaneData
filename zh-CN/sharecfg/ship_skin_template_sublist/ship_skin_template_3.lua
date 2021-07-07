@@ -1,5 +1,109 @@
 pg = pg or {}
 pg.ship_skin_template_3 = {
+	[102230] = {
+		ship_group = 10223,
+		name = "伯明翰",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "克利夫兰级轻巡洋舰—伯明翰，舷号CL-62",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "bominghan",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		spine_offset = "",
+		special_effects = "",
+		bg = "",
+		skin_type = -1,
+		id = 102230,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bominghan",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 203,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.088,
+					1.068,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.039,
+					0.032,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.071,
+					1.046,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.183,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
 	[102231] = {
 		ship_group = 10223,
 		name = "赤色的骑行者",
@@ -7613,135 +7717,6 @@ pg.ship_skin_template_3 = {
 						{
 							-0.29,
 							2.42,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[105140] = {
-		ship_group = 10514,
-		name = "南达科他",
-		bg_sp = "",
-		group_index = 0,
-		illustrator2 = 19,
-		desc = "南达科他级战列舰—南达科他，舷号BB-57",
-		bullet_skin_secondary = "",
-		bullet_skin_main = "",
-		painting = "nandaketa",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 3,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		spine_offset = "",
-		special_effects = "",
-		bg = "",
-		skin_type = -1,
-		id = 105140,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "nandaketa",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 19,
-		air_bomb_skin = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.257,
-					1.3,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.257,
-					0.783,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.119,
-					0.702,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.464,
-					1.052,
-					0
-				},
-				{
-					-0.439,
-					1.353,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.498,
-							0.298,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.453,
-							0.524,
 							0
 						}
 					}
